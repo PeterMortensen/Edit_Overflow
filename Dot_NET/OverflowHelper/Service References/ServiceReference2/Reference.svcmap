@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d4424975-392a-4381-89c6-52f8fd02a2ce" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.2.100:8731/Design_Time_Addresses/TEK_VISA_chatWCF_Service/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="2053eac3-8210-41b0-822e-2b00e02e3c3a" SourceId="1" SourceUrl="http://192.168.2.100:8731/Design_Time_Addresses/TEK_VISA_chatWCF_Service/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="34d2af1e-758b-4429-bb23-480d55dc8535" SourceId="1" SourceUrl="http://192.168.2.100:8731/Design_Time_Addresses/TEK_VISA_chatWCF_Service/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="3d4f22e3-7ce6-4e14-93fc-09d39b155133" SourceId="1" SourceUrl="http://192.168.2.100:8731/Design_Time_Addresses/TEK_VISA_chatWCF_Service/Service1/mex" />
+    <MetadataFile FileName="TEK_VISA_chatWCF_Service.xsd" MetadataType="Schema" ID="ab5a35e3-b53f-4280-9bc1-58b93059ee28" SourceId="1" SourceUrl="http://192.168.2.100:8731/Design_Time_Addresses/TEK_VISA_chatWCF_Service/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

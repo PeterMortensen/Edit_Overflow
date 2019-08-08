@@ -1,0 +1,36 @@
+﻿
+Trying repair:
+
+  Add "Installation Folder URL":
+
+    http://pmortensen.eu/EditOverflowDeploy/
+
+       Download URL:
+
+         http://pmortensen.eu/EditOverflowDeploy/setup.exe
+
+
+==========================
+
+
+Old pmortensen.eu setup:
+
+  "Updates":
+
+    http://pmortensen.eu/EditOverflowDeploy/
+
+
+New for hmf-tech.com:
+
+
+  "Updates":
+
+    http://hmf-tech.com/EditOverflow/
+
+    Did not work either...
+
+
+  Add "Installation Folder URL":
+
+    http://hmf-tech.com/EditOverflow/
+

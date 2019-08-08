@@ -1,0 +1,411 @@
+﻿
+TOC:
+  * To do 
+  * Bugs
+  * Ideas
+  * Release checklist
+  * Unit testing ideas
+
+=============================================================================
+
+To do:
+
+ 1. Change to running as a 32-bit application, change the icon and sign it
+
+    a. 32-bit application
+
+       In the project file it should be XXXY (otherwise a ClickOnce application
+       cannot be made to run as a 32-bit appplication on a 64-bit
+       version of Windows)
+
+       Add this to the PropertyGroup's with the "$(Configuration)|$(Platform)"
+       conditions (2 instance):
+
+         <!-- Manuel indstilling til 32-bit. Bemærk: dette er noget misvisende da
+              betingelsen er for "Any CPU"... Spørgsmålet er om det er muligt på
+              andre måder hvis ClickOnce skal bruges indefra Visual Studio (bliver
+              der altid brugt "Release" and "AnyCPU"?).
+         -->
+         <PlatformTarget>x86</PlatformTarget>
+
+    b. Change the icon in the Add/Remove Programs control panel
+
+         Possible canonical Stack Overflow question:
+           <http://stackoverflow.com/questions/17489497/>
+           "How to change the title icon of a Windows Forms application"
+
+         a. Project properties -> "Application" -> "Icon"
+
+            This does not seem to be enough to change it...
+
+            Should we change the GUID for the assembly?
+
+            Will uninstalling the ClickOnce application help
+            when it is run from Visual Studio?
+
+              Answer: no!
+
+            Is this for the appearence in the list of program?
+
+         b. In the main form:
+
+              Property "Icon"
+              
+         c. But why isn't the icon change in the control panel????
+         
+            Is a restart needed?
+
+    c. Sign it
+
+    d. Update the version numbers:
+
+       1. ClickOnce,
+
+       2. Displayed
+
+       3. The assembly.
+
+    e. For release:
+         Number of bad terms in   : 3211
+         Number of corrected terms: 1143
+
+    [2013-11-24]
+
+
+2. Make a more sophisticated dialog that shows when a term 
+   could not be looked up - e.g. a button for a Wikipedia 
+   search or Google/Blekko search.
+
+
+
+=============================================================================
+
+Bugs:
+  1. Ctrl + A is not working in the "OpenURL" text field.
+
+  2. Pressing "Less time" (or "More time") results in not
+     being able to reset the time to a positive value (and
+     thus effective disabling the timer.)
+
+  3. Make sure to really exit e.g. URL opening (it
+    continues! -because of the timer) when closing
+    the application.
+
+  *4. Leading white space for input to "Open URL" causes a failure.
+
+  *5. "c#" no longer works, probably due to recent changes.
+      (PM_CSHARP_BROKEN 2011-07-18)
+
+  6. Add unit test for "c#" fix. (However, that fix may or may not have 
+     introduced new problems... E.g. "C++" not working anymore - it 
+     looks up "C" instead. See also 8.)
+
+  7. Why can't "E.G." be looked up even though it is defined?? ("e.g." works OK).
+
+  8. "notepad++" effectively disabled (false positive to "notepad"). Add unit
+     test to catch this.
+
+     Other problems: google+ -> Google Search+ (because "+" is stripped 
+     and "google" is looked up.
+
+  9. Fix bug: maximize does not work as expected.
+
+ *10. Feature: add feature to reveal deleted question.
+              E.g. <http://stackoverflow.com/posts/7118447/ajax-load> to reveal <http://stackoverflow.com/questions/7118447>.
+
+ *11. Remove the "reveal deleted" feature (no longer working as of 2011-12-05, see <http://meta.stackoverflow.com/questions/111858/deleted-posts-are-visible-through-several-ajax-endpoints/114785#114785>)
+
+ *12. Make the ref number for the link generation tool be global for 
+      the application so it need not be set very often.
+
+ 13. Fix bug in Markdown utilty (invoked by Ctrl+F5, after program startup) 
+     where the first invoke of button "Generate" will generate another link 
+     with an ID of 1.
+
+ 14. Fix bug in Markdown utilty: manually entering the index number is ignored...
+
+ 15. Add some Wikipedia features?
+
+      a. Add import option, create a Wikipedia link from a URL. E.g. 
+         "http://en.wikipedia.org/wiki/Arch_Linux" would generate 
+         output "[[Arch Linux]]". Extra: optional own link text. 
+         E.g. "Arch" is the example.
+
+      *b. Generate output for MediaWiki link (taking the URL field 
+          as input - like for a.).
+
+      c. Embrace text with "[[]]" (like HTML tag "kbd" and "`" (backtick 
+         for code at Stack Overflow))
+
+  16. Markdown utility: Add *simplified* input box for link text and URL.
+
+  17. Add internal check: detect if all spelling corrections have a 
+      corresponding URL.
+
+  18. C++ is seen as C and thus the Wikipedia link is incorrect.
+
+  19. In the "Markdown dialog", activating the File menu with Alt + F now 
+      requires to use this keyboard
+
+  20. Observed at HMF: Unhandled exception: "Requested Clipboard operation 
+      did not succeed.". Happened for setting the clipboard.
+
+  21. meta-stackoverflow can not be looked up. Is it the "-"?
+  
+  22. For the Markdown utility: add a reality check for the URL 
+      field (e.g. presense of "//").
+      
+  23. If Ctrl+B is used before the first lookup of a term, the program crashes.
+
+  24. Handle it more gracefully when copying the result to the
+      clipboard fails. Right now, it throws a red dialog box
+      with "Unhandled exception has occurred in your
+      application. ..."
+
+  25. Add Wikipedia external links to Markdown utility ("[URL text]").
+  
+  26. Fix window size! Look in MSQuant for how-to.
+
+  27. Register bug: if Ctrl+B is used before the first lookup 
+                    of a term, the program crashes.
+
+  28. Handle it more gracefully when copying the result to the
+      clipboard fails. Right now, it throws a red dialog box
+      with "Unhandled exception has occurred in your
+      application. ...">
+
+  29. Fix window size! Look in MSQuant for how-to.
+
+  30. Change from plural to singular for "applications" (as that
+      is what we use the most and is consistent with other
+      entries)
+      
+  31. Add Wikipedia external links to Markdown utility ("[URL text]").
+
+  32.
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+
+Ideas:
+
+  1. Watch user. Case in point:
+       Robert Cartaino, <http://meta.stackoverflow.com/users/98786/robert-cartaino>
+       Response to my comment..., <http://meta.stackoverflow.com/questions/52562/area-51-voting-reset-and-changes>
+
+  *2. Building check-in messages.
+
+     Reasons: to avoid the constant copy-paste and edit from
+              standard sentences in "notes.txt".
+
+     Some kind of templates?
+
+  *3. Filter out leading and trailing whitespace. Add back whitespace in output for convenience.
+
+  *4. Correction/expansion of common words and Wikipedia
+      lookup (automatic or defined manually).
+
+      E.g.: Jquery  -> jQuery and link to Wikipedia. Or just the URL in the clipboard
+
+  5. Load and save configuration/options. XML as import/export. Save
+     in SQLite. Allow partial add of lookups.
+
+       a. Open data folder from a menu in the application
+
+       b.
+
+  6. Extend the Markdown tool to read formats (e.g. reading the inline format and
+     fill in the fields in order to effectively to be able to convert it to
+     the [1] form.)
+
+  7. Implementation inheritance. Common class for extending forms. E.g. check at
+     run time that there are no conflicting keyboard shortcuts.
+
+  8. Add button to open the URL in the Markdown window (as in the main window)
+
+
+=============================================================================
+
+Release checklist:
+
+  1. Pull from toTry's (optional: script to extract the list, including list to
+     insert/merge into toTry.txt)
+
+  2. Pull from styr.pbworks.com
+
+  3.
+
+
+=============================================================================
+
+  x. Help automate looking up new case corrections and terms
+     in Wikipedia. E.g. start Google search in default
+     browser, site restricted to Wikipedia. Vectorise with
+     URL strings with "%s" as the variable, as in browser.
+
+  x. Allow adding to lookup knowledge while running (no requirement
+     for restart of the application). And help with Google/Wikipedia
+     lookup and extracting headline and Wikipedia URL.
+
+  x. Option for saving settings somewhere on the Internet.
+     Handy if used in several locations. There should be
+     fall back to local storage (should be cache
+     locally in any case.)
+
+  x. General service to watch any web page for change. E.g. user
+     pages or particular questions/answers.
+
+     Option for a filter. E.g. to exclude content that always
+     changes, e.g. "seen  	X mins ago" on a user page.
+
+     E.g. watch for update to views on a user page (an )
+
+  x. Detect when selected users do something.
+
+     Done by sampling "seen" on the user's page.
+
+     Perhaps connect to particular questions/answers.
+
+  x. Add test for same key Wikipedia lookup, to avoid exception. Also
+     needed when the data goes outside the application and is read
+     in during start-up.
+
+  x. Caching of Wikipedia lookups (the URL for links).
+
+  x. Code reformatting help:
+
+       1. Replace TAB with four spaces.
+       2. Highlight TABs
+       3.
+
+  x. Automatic highlight of TAB. Statistics for TABs. Red sign if
+     there is more than one.
+
+  x. Sample when moderators go online. And alert when it happens.
+
+
+=============================================================================
+
+  x. Tracking pages for changes (new answers to questions).
+     Track pages where comments have been left.
+
+     Reasons: no need to log into account to see changes or .
+
+  x. An edit area where the most common things can be
+     done. E.g. automatic detection of common mistakes
+     and manual accept. E.g. "Jquery" is highlighted and,
+     if accepted: corrects it, make link to Wikipedia (including
+     the thing at the end of the text).
+
+  x. (Automated) check to see if the sites are up. E.g.
+     if Super User goes down then:
+       alert and
+       automatically run ping and tracert.
+
+  x. Keeping to-edit lists. So they don't have to be send
+     by E-mail when migrating from place to place.
+
+  x. Build "completed" lists and export for e.g. toTry.txt.
+     Or in other words: register what is going on. But could
+     require copying in the URLs from the browser (but OK if
+     an edit list is initially loaded into this
+     application).
+
+  x. General principle of ON, OFF, timer (fall back to original after some time).
+
+  x. Things in the future should have count-down timers that update
+     the display every second.
+
+  x. Build moderator flag messages
+
+      And for the log (toTry.txt):
+      "  ANSWER: flagged a question as "Requires Moderator attention":
+         XYZ"
+
+  x. Find the 35' users page for a particular reputation.
+
+       Binary search.
+       http://stackoverflow.com/users?page=73
+
+  x. Take in post and make suggested changes to it (e.g. all common
+     minor edits). It should be possible to quickly reverse the
+     few false-positives. E.g. selecting them from a list and issue a command. Or
+     hover over a particular one or select one or more in the text.
+
+  x. Flag for attention for particular question when traffic
+
+  x. Automatic estimation of traffic (e.g. low/high, absolute). Logging
+     of the information for later plotting.
+
+     E.g. measured by size of main page in time (e.g. 32 minutes). This
+     directly gives the questions per time unit.
+
+  x. Logging and future actions are the same (unified). Only difference
+     is that the future actions have not actually happend yet and
+     there is less information (e.g. results and sampled information.).
+
+  x. Logging and future actions are tagged so e.g. filters can be applied.
+
+  x. Defined tag sets for common actions.
+
+  x. Triggers for future actions.
+
+       a. E.g. when high traffic is encountered. High traffic could be
+          when home page time size falls below a certain
+          threshold, e.g. 7 minutes.
+
+       b. After a certain date.
+
+       c. Within a certain time period (e.g. time of day or time
+          of day on week days)
+
+  x. Save content of the Wikipedia pages. For offline use
+     if necessary. And for a later fast display option.
+     Versioning of them? Git?
+
+  x. Export function for the common case mistakes.
+
+  x. Alert when a post has reached a certain number (or
+     below) on a home page. Important for Meta Stack
+     Overflow block edits.
+
+  x. Eliminate the blinking that occurs as a result
+     of Current menu Action/"Open random page with Super &User unanswered questions"
+     using a CMD/command line window.
+
+  x. Alarms. Including for a particular question with some free-form
+     text where it can be explained what should be done.
+
+  x. Perl script to change headers, OverflowHelper -> Edit Overflow
+
+
+=============================================================================
+
+Unit testing ideas:
+
+  1. if empty "txtID" results in a web page being opened for:
+
+       "Open (Stack Overflow)"
+       "Open timeline (Stack Overflow)"
+       "Open revisions (Stack Overflow)"
+
+     Actually fails as of 2010-05-25.
+
+  2. if typing in "XYZ ""txtID" results in a web page being opened for:
+
+       "Open (Stack Overflow)"
+       "Open timeline (Stack Overflow)"
+       "Open revisions (Stack Overflow)"
+
+     Actually fails as of 2010-05-25.

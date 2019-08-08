@@ -1,0 +1,17 @@
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# After using UltraEdit
+*.bak
+
+# Generated files - for import of the Edit Overflow into MySQL
+*.sql
+
+
+
