@@ -511,6 +511,7 @@ namespace OverflowHelper.core
             correctionAdd("Windws", "Windows");
             correctionAdd("WIndows", "Windows");
             correctionAdd("windwos", "Windows");
+            correctionAdd("Windoes", "Windows");
                                     
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -810,6 +811,7 @@ namespace OverflowHelper.core
             correctionAdd("POSTGRESQL", "PostgreSQL");
             correctionAdd("Postgress", "PostgreSQL");
             correctionAdd("potsgres", "PostgreSQL");
+            correctionAdd("postgersql", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -1558,6 +1560,7 @@ namespace OverflowHelper.core
 
             correctionAdd("perl", "Perl");
             correctionAdd("PERL", "Perl");
+            correctionAdd("Pearl", "Perl");
 
             correctionAdd("Powershell", "PowerShell");
             correctionAdd("powershell", "PowerShell");
@@ -1706,7 +1709,8 @@ namespace OverflowHelper.core
             correctionAdd("xamp", "XAMPP");
             correctionAdd("Xamp", "XAMPP");
             correctionAdd("X.A.M.P.P", "XAMPP");
-            correctionAdd("XAMP", "XAMPP");             
+            correctionAdd("XAMP", "XAMPP");
+            correctionAdd("XAAMP", "XAMPP");
 
             correctionAdd("yui", "YUI");
             correctionAdd("Yui", "YUI");
@@ -3307,6 +3311,7 @@ namespace OverflowHelper.core
             correctionAdd("Live CD", "live CD");
             correctionAdd("live-cd", "live CD");
             correctionAdd("liveCd", "live CD");
+            correctionAdd("Live-CD", "live CD");
             
             correctionAdd("octave", "Octave");
             correctionAdd("OCTAVE", "Octave");
@@ -3877,6 +3882,7 @@ namespace OverflowHelper.core
             correctionAdd("vimeo", "Vimeo");
 
             correctionAdd("netflix", "Netflix");
+            correctionAdd("Netfix", "Netflix");
 
             correctionAdd("linked in", "LinkedIn");
             correctionAdd("Linkedin", "LinkedIn");
@@ -4036,7 +4042,8 @@ namespace OverflowHelper.core
 
             correctionAdd("arg", "argument");
             correctionAdd("args", "argument"); //Not 100% correct - plural.
-            correctionAdd("agurment", "argument");            
+            correctionAdd("agurment", "argument");
+            correctionAdd("arugument", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -4953,6 +4960,7 @@ namespace OverflowHelper.core
             correctionAdd("Tortoise Git", "TortoiseGit");
             correctionAdd("Tortoise git", "TortoiseGit");
             correctionAdd("TortoiseGIT", "TortoiseGit");
+            correctionAdd("tortoise-git", "TortoiseGit");
                 
             correctionAdd("CanOpen", "CANopen");
             correctionAdd("CANOpen", "CANopen");
@@ -5095,6 +5103,8 @@ namespace OverflowHelper.core
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
+            correctionAdd("wx", "wxPython");
+            correctionAdd("wpython", "wxPython");
 
             correctionAdd("stl", "STL");
             correctionAdd("Stl", "STL");
@@ -5131,6 +5141,7 @@ namespace OverflowHelper.core
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
             correctionAdd("Stack Apps", "Stack&nbsp;Apps");
+            correctionAdd("StackApps", "Stack&nbsp;Apps");
 
             correctionAdd("execjs", "ExecJS");
 
@@ -6266,6 +6277,7 @@ namespace OverflowHelper.core
             correctionAdd("privilegde", "privilege");
             correctionAdd("previlage", "privilege");
             correctionAdd("previlege", "privilege");
+            correctionAdd("privilegie", "privilege");
                         
             correctionAdd("UpnP", "UPnP");
 
@@ -6721,6 +6733,7 @@ namespace OverflowHelper.core
             correctionAdd("airbook", "MacBook Air");
             correctionAdd("mac airbook", "MacBook Air");
             correctionAdd("Mac AirBook", "MacBook Air");
+            correctionAdd("MacBook air", "MacBook Air");
 
             correctionAdd("Aptana studio", "Aptana Studio");
             correctionAdd("aptana studio", "Aptana Studio");
@@ -7192,6 +7205,9 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("ubuntu17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+
             
             correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
@@ -8575,7 +8591,8 @@ namespace OverflowHelper.core
             correctionAdd("dreame weaver", "Dreamweaver");
             correctionAdd("DW", "Dreamweaver");
             correctionAdd("DreamWeawer", "Dreamweaver");
-            correctionAdd("dreamwaver", "Dreamweaver");            
+            correctionAdd("dreamwaver", "Dreamweaver");
+            correctionAdd("DreamWeaver", "Dreamweaver");
 
             correctionAdd("css", "CSS");
             correctionAdd("Css", "CSS");
@@ -8678,6 +8695,8 @@ namespace OverflowHelper.core
             correctionAdd("chocolatey", "Chocolatey");
             correctionAdd("chochcolately", "Chocolatey");
             correctionAdd("chocolately", "Chocolatey");
+            correctionAdd("choco", "Chocolatey");
+            correctionAdd("Choco", "Chocolatey");
 
             correctionAdd("psobject", "PSObject");
 
@@ -8710,6 +8729,7 @@ namespace OverflowHelper.core
             correctionAdd("Algol", "ALGOL");
 
             correctionAdd("what so ever", "whatsoever");
+            correctionAdd("what-so-ever", "whatsoever");
 
             correctionAdd("dmz", "DMZ");
 
@@ -8785,6 +8805,8 @@ namespace OverflowHelper.core
             correctionAdd("unnessessary", "unnecessary");
             correctionAdd("unnessesary", "unnecessary");
             correctionAdd("Unneccesary", "unnecessary");
+            correctionAdd("uneccesary", "unnecessary");
+            correctionAdd("unneccesary", "unnecessary");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -9026,6 +9048,7 @@ namespace OverflowHelper.core
             correctionAdd("compat", "compatibility");
             
             correctionAdd("compatable", "compatible");
+            correctionAdd("compatibile", "compatible");
 
             correctionAdd("throughly", "thoroughly");
 
@@ -9580,6 +9603,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ridicous", "ridiculous");
             correctionAdd("ridicolous", "ridiculous");
+            correctionAdd("redicoulous", "ridiculous");
 
             correctionAdd("actaully", "actually");
             correctionAdd("actualy", "actually");
@@ -9681,6 +9705,8 @@ namespace OverflowHelper.core
             correctionAdd("wouldn’t", "wouldn't");
             correctionAdd("woulnd't", "wouldn't");
             correctionAdd("woudn't", "wouldn't");
+            correctionAdd("would't", "wouldn't");
+            correctionAdd("wouldn´t", "wouldn't");
 
             correctionAdd("implemention", "implementation");
             correctionAdd("implemenation", "implementation");
@@ -9753,6 +9779,9 @@ namespace OverflowHelper.core
             correctionAdd("wasnt", "wasn't");
             
             correctionAdd("challange", "challenge");
+            correctionAdd("chanlenge", "challenge");
+            correctionAdd("chalenge", "challenge");
+            correctionAdd("chalendge", "challenge");
             
             correctionAdd("atmega328", "ATmega328");
             correctionAdd("ATMega328", "ATmega328");
@@ -9945,6 +9974,7 @@ namespace OverflowHelper.core
             correctionAdd("horizentaly", "horizontally");
 
             correctionAdd("askubuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -10077,6 +10107,8 @@ namespace OverflowHelper.core
             correctionAdd("decison", "decision");
 
             correctionAdd("enought", "enough");
+            correctionAdd("Nuff", "enough");
+            correctionAdd("nuff", "enough");
 
             correctionAdd("exisiting", "existing");
 
@@ -10097,6 +10129,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
+            correctionAdd("recommandation", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -10140,6 +10173,7 @@ namespace OverflowHelper.core
             correctionAdd("artifactory", "Artifactory");
 
             correctionAdd("boolean", "Boolean");
+            correctionAdd("bolean", "Boolean");
 
             correctionAdd("crm", "CRM");
 
@@ -10563,6 +10597,7 @@ namespace OverflowHelper.core
             correctionAdd("interprete", "interpret");
 
             correctionAdd("proceedure", "procedure");
+            correctionAdd("precedure", "procedure");
 
             correctionAdd("seperately", "separately");
             correctionAdd("seperatly", "separately");
@@ -10737,6 +10772,7 @@ namespace OverflowHelper.core
             correctionAdd("allready", "already");
 
             correctionAdd("buisness", "business");
+            correctionAdd("busines", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -10896,6 +10932,7 @@ namespace OverflowHelper.core
 
             correctionAdd("defualt", "default");
             correctionAdd("defult", "default");
+            correctionAdd("defaul", "default");
 
             correctionAdd("4th", "fourth");
 
@@ -10921,6 +10958,7 @@ namespace OverflowHelper.core
             correctionAdd("TI", "Texas Instruments");
 
             correctionAdd("webpack", "Webpack");
+            correctionAdd("WebPack", "Webpack");
 
             correctionAdd("Ad Hoc", "ad hoc");
             correctionAdd("adhoc", "ad hoc"); 
@@ -10953,6 +10991,7 @@ namespace OverflowHelper.core
             correctionAdd("qwerty", "QWERTY");
 
             correctionAdd("spring boot", "Spring Boot");
+            correctionAdd("Spring boot", "Spring Boot");
 
             correctionAdd("accesible", "accessible");
 
@@ -11142,6 +11181,7 @@ namespace OverflowHelper.core
             correctionAdd("windows-1252", "Windows-1252");
 
             correctionAdd("appricate", "appreciate");
+            correctionAdd("appreicate", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -11303,6 +11343,189 @@ namespace OverflowHelper.core
             correctionAdd("verical", "vertical");
 
             correctionAdd("you ll", "you'll");
+
+            correctionAdd("APOLLO", "Apollo");
+
+            correctionAdd("Applocker", "AppLocker");
+            correctionAdd("applocker", "AppLocker");
+
+            correctionAdd("argentina", "Argentina");
+
+            correctionAdd("ARTEMIS", "Artemis");
+
+            correctionAdd("Buzzfeed", "BuzzFeed");
+
+            correctionAdd("cr2032", "CR2032");
+
+            correctionAdd("CSS 2", "CSS&nbsp;2");
+            correctionAdd("css2", "CSS&nbsp;2");
+
+            correctionAdd("celsius", "Celsius");
+            correctionAdd("celcius", "Celsius");
+
+            correctionAdd("eu", "EU");
+
+            correctionAdd("england", "England");
+
+            correctionAdd("Fyi", "FYI");
+
+            correctionAdd("file explorer", "File Explorer");
+            correctionAdd("Windows file explorer", "File Explorer");
+
+            correctionAdd("fluke", "Fluke");
+            correctionAdd("FLuke", "Fluke");
+
+            correctionAdd("gecko", "Gecko");
+
+            correctionAdd("gibraltar", "Gibraltar");
+
+            correctionAdd("kubuntu", "Kubuntu");
+
+            correctionAdd("Luke skywalker", "Luke Skywalker");
+
+            correctionAdd("milky way", "Milky Way");
+            correctionAdd("Milkyway", "Milky Way");
+
+            correctionAdd("ninja", "Ninja");
+
+            correctionAdd("norther ireland", "Northern Ireland");
+
+            correctionAdd("Ponzi Scheme", "Ponzi scheme");
+
+            correctionAdd("sandboxie", "Sandboxie");
+
+            correctionAdd("scotland", "Scotland");
+
+            correctionAdd("spacex", "SpaceX");
+
+            correctionAdd("tcpview", "TCPView");
+
+            correctionAdd("Tera-term", "Tera Term");
+            correctionAdd("teraterm", "Tera Term");
+
+            correctionAdd("visual studio professional", "Visual Studio Professional");
+
+            correctionAdd("wto", "WTO");
+
+            correctionAdd("wales", "Wales");
+
+            correctionAdd("xubuntu", "Xubuntu");
+
+            correctionAdd("adress", "address");
+
+            correctionAdd("bare in mind", "bear in mind");
+
+            correctionAdd("baring in mind", "bearing in mind");
+
+            correctionAdd("bombardement", "bombardment");
+
+            correctionAdd("bonafide", "bona fide");
+
+            correctionAdd("brillant", "brilliant");
+
+            correctionAdd("costal", "coastal");
+
+            correctionAdd("collpase", "collapse");
+
+            correctionAdd("comming", "coming");
+
+            correctionAdd("compition", "competition");
+
+            correctionAdd("concious", "conscious");
+
+            correctionAdd("dept", "department");
+
+            correctionAdd("en counter", "encounter");
+
+            correctionAdd("excatly", "exactly");
+
+            correctionAdd("GammaRay Burst", "gamma-ray burst");
+
+            correctionAdd("genious", "genius");
+
+            correctionAdd("geniouss", "geniuses");
+
+            correctionAdd("hydrozine", "hydrazine");
+
+            correctionAdd("inheritly", "inherently");
+
+            correctionAdd("insecting", "inspecting");
+            correctionAdd("Insecting", "inspecting");
+
+            correctionAdd("instuction", "instruction");
+
+            correctionAdd("Km", "km");
+
+            correctionAdd("lastest", "latest");
+
+            correctionAdd("Lithium", "lithium");
+
+            correctionAdd("M", "m");
+
+            correctionAdd("Mac Os", "macOS");
+
+            correctionAdd("Netstat", "netstat");
+
+            correctionAdd("new comer", "newcomer");
+            correctionAdd("new-comer", "newcomer");
+
+            correctionAdd("no brainer", "no-brainer");
+
+            correctionAdd("on-premise", "on-premises");
+            correctionAdd("on premise", "on-premises");
+
+            correctionAdd("outputing", "outputting");
+
+            correctionAdd("ph", "pH");
+
+            correctionAdd("Per Se", "per se");
+
+            correctionAdd("preceeding", "preceding");
+
+            correctionAdd("prestigous", "prestigious");
+
+            correctionAdd("psycological", "psychological");
+
+            correctionAdd("rememer", "remember");
+
+            correctionAdd("re-written", "rewritten");
+
+            correctionAdd("roughy", "roughly");
+
+            correctionAdd("scallable", "scalable");
+
+            correctionAdd("scrol", "scroll");
+
+            correctionAdd("sentance", "sentence");
+
+            correctionAdd("sideeffect", "side effect");
+
+            correctionAdd("spell-check", "spellcheck");
+            correctionAdd("spell check", "spellcheck");
+
+            correctionAdd("strugling", "struggling");
+
+            correctionAdd("superflous", "superfluous");
+
+            correctionAdd("Supervolcano", "supervolcano");
+
+            correctionAdd("ulitmately", "ultimately");
+            correctionAdd("Ulitmately", "ultimately");
+
+            correctionAdd("undergrad", "undergraduate");
+
+            correctionAdd("validade", "validate");
+
+            correctionAdd("Visa", "visa");
+            correctionAdd("VISA", "visa");
+
+            correctionAdd("wan't", "want");
+
+            correctionAdd("work force", "workforce");
+
+            correctionAdd("writeable", "writable");
+
+
 
 
 
@@ -16118,6 +16341,175 @@ namespace OverflowHelper.core
             URL_Add("vertical", "https://en.wiktionary.org/wiki/vertical#Adjective");
 
             URL_Add("you'll", "https://en.wiktionary.org/wiki/you%27ll#Contraction");
+
+            URL_Add("Apollo", "https://en.wikipedia.org/wiki/Apollo_program");
+
+            URL_Add("AppLocker", "https://en.wikipedia.org/wiki/AppLocker");
+
+            URL_Add("Argentina", "https://en.wikipedia.org/wiki/Argentina");
+
+            URL_Add("Artemis", "https://en.wikipedia.org/wiki/Artemis_Project");
+
+            URL_Add("BuzzFeed", "https://en.wikipedia.org/wiki/BuzzFeed");
+
+            URL_Add("CR2032", "https://en.wikipedia.org/wiki/Button_cell#Package_size");
+
+            URL_Add("CSS&nbsp;2", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_2");
+
+            URL_Add("Celsius", "https://en.wiktionary.org/wiki/Celsius#Adjective");
+
+            URL_Add("EU", "https://en.wiktionary.org/wiki/EU#Proper_noun");
+
+            URL_Add("England", "https://en.wikipedia.org/wiki/England");
+
+            URL_Add("FYI", "https://en.wiktionary.org/wiki/FYI#Phrase");
+
+            URL_Add("File Explorer", "https://en.wikipedia.org/wiki/File_Explorer");
+
+            URL_Add("Fluke", "https://en.wikipedia.org/wiki/Fluke_Corporation");
+
+            URL_Add("Gecko", "https://en.wikipedia.org/wiki/Gecko_(software)");
+
+            URL_Add("Gibraltar", "https://en.wikipedia.org/wiki/Gibraltar");
+
+            URL_Add("Kubuntu", "https://en.wikipedia.org/wiki/Kubuntu");
+
+            URL_Add("Luke Skywalker", "https://en.wikipedia.org/wiki/Luke_Skywalker");
+
+            URL_Add("Milky Way", "https://en.wikipedia.org/wiki/Milky_Way");
+
+            URL_Add("Ninja", "https://ninja-build.org/manual.html");
+
+            URL_Add("Northern Ireland", "https://en.wikipedia.org/wiki/Northern_Ireland");
+
+            URL_Add("Ponzi scheme", "https://en.wikipedia.org/wiki/Ponzi_scheme");
+
+            URL_Add("Sandboxie", "https://en.wikipedia.org/wiki/Sandboxie");
+
+            URL_Add("Scotland", "https://en.wiktionary.org/wiki/Scotland#Proper_noun");
+
+            URL_Add("SpaceX", "https://en.wikipedia.org/wiki/SpaceX");
+
+            URL_Add("TCPView", "https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview");
+
+            URL_Add("Tera Term", "https://en.wikipedia.org/wiki/Tera_Term");
+
+            URL_Add("Visual Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
+
+            URL_Add("WTO", "https://en.wikipedia.org/wiki/World_Trade_Organization");
+
+            URL_Add("Wales", "https://en.wikipedia.org/wiki/Wales");
+
+            URL_Add("Xubuntu", "https://en.wikipedia.org/wiki/Xubuntu");
+
+            URL_Add("address", "https://en.wiktionary.org/wiki/address#Noun");
+
+            URL_Add("bear in mind", "https://en.wiktionary.org/wiki/bear_in_mind#Verb");
+
+            URL_Add("bearing in mind", "https://en.wiktionary.org/wiki/bear_in_mind#Verb");
+
+            URL_Add("bombardment", "https://en.wiktionary.org/wiki/bombardment#Noun");
+
+            URL_Add("bona fide", "https://en.wiktionary.org/wiki/bona_fide#Adjective");
+
+            URL_Add("brilliant", "https://en.wiktionary.org/wiki/brilliant#Adjective");
+
+            URL_Add("coastal", "https://en.wiktionary.org/wiki/coastal#Adjective");
+
+            URL_Add("collapse", "https://en.wiktionary.org/wiki/collapse#Verb");
+
+            URL_Add("coming", "https://en.wiktionary.org/wiki/coming#Verb");
+
+            URL_Add("competition", "https://en.wiktionary.org/wiki/competition#Noun");
+
+            URL_Add("conscious", "https://en.wiktionary.org/wiki/concious");
+
+            URL_Add("department", "https://en.wiktionary.org/wiki/department#Noun");
+
+            URL_Add("encounter", "https://en.wiktionary.org/wiki/encounter#Verb");
+
+            URL_Add("exactly", "https://en.wiktionary.org/wiki/exactly#Adverb");
+
+            URL_Add("gamma-ray burst", "https://en.wikipedia.org/wiki/Gamma-ray_burst");
+
+            URL_Add("genius", "https://en.wiktionary.org/wiki/genious#Noun");
+
+            URL_Add("geniuses", "https://en.wiktionary.org/wiki/genious#Noun");
+
+            URL_Add("hydrazine", "https://en.wikipedia.org/wiki/Hydrazine");
+
+            URL_Add("inherently", "https://en.wiktionary.org/wiki/inherently#Adverb");
+
+            URL_Add("inspecting", "https://en.wiktionary.org/wiki/inspect#Verb");
+
+            URL_Add("instruction", "https://en.wiktionary.org/wiki/instruction#Noun");
+
+            URL_Add("km", "https://en.wiktionary.org/wiki/km#Abbreviation");
+
+            URL_Add("latest", "https://en.wiktionary.org/wiki/latest#Adjective");
+
+            URL_Add("lithium", "https://en.wikipedia.org/wiki/Lithium");
+
+            URL_Add("m", "https://en.wikipedia.org/wiki/Metre");
+
+            URL_Add("macOS", "https://en.wikipedia.org/wiki/MacOS");
+
+            URL_Add("netstat", "https://en.wikipedia.org/wiki/Netstat");
+
+            URL_Add("newcomer", "https://en.wiktionary.org/wiki/newcomer#Noun");
+
+            URL_Add("no-brainer", "https://en.wiktionary.org/wiki/no-brainer#Noun");
+
+            URL_Add("on-premises", "https://en.wikipedia.org/wiki/On-premises_software");
+
+            URL_Add("outputting", "https://en.wiktionary.org/wiki/output#Verb");
+
+            URL_Add("pH", "https://en.wiktionary.org/wiki/pH#Symbol");
+
+            URL_Add("per se", "https://en.wiktionary.org/wiki/per_se#Adverb");
+
+            URL_Add("preceding", "https://en.wiktionary.org/wiki/preceding#Adjective");
+
+            URL_Add("prestigious", "https://en.wiktionary.org/wiki/prestigious#Adjective");
+
+            URL_Add("psychological", "https://en.wiktionary.org/wiki/psychological#Adjective");
+
+            URL_Add("remember", "https://en.wiktionary.org/wiki/remember#Verb");
+
+            URL_Add("rewritten", "https://en.wiktionary.org/wiki/rewritten#Verb");
+
+            URL_Add("roughly", "https://en.wiktionary.org/wiki/roughly#Adverb");
+
+            URL_Add("scalable", "https://en.wiktionary.org/wiki/scalable#Adjective");
+
+            URL_Add("scroll", "https://en.wiktionary.org/wiki/scroll#Verb");
+
+            URL_Add("sentence", "https://en.wiktionary.org/wiki/sentence#Noun");
+
+            URL_Add("side effect", "https://en.wiktionary.org/wiki/side_effect#Noun");
+
+            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#English");
+
+            URL_Add("struggling", "https://en.wiktionary.org/wiki/struggle#Verb");
+
+            URL_Add("superfluous", "https://en.wiktionary.org/wiki/superfluous#Adjective");
+
+            URL_Add("supervolcano", "https://en.wikipedia.org/wiki/Supervolcano");
+
+            URL_Add("ultimately", "https://en.wiktionary.org/wiki/ultimately#Adverb");
+
+            URL_Add("undergraduate", "https://en.wiktionary.org/wiki/undergraduate#Adjective");
+
+            URL_Add("validate", "https://en.wiktionary.org/wiki/validate#Verb");
+
+            URL_Add("visa", "https://en.wiktionary.org/wiki/visa#Noun");
+
+            URL_Add("want", "https://en.wiktionary.org/wiki/want#Verb");
+
+            URL_Add("workforce", "https://en.wiktionary.org/wiki/workforce#Noun");
+
+            URL_Add("writable", "https://en.wiktionary.org/wiki/writable#Adjective");
+
 
 
             //========================================================
