@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Edit Overflow</title>
+
+        <style>
+            body {
+                background-color: lightgrey;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
+
+        <h1>Edit Overflow v. 1.1.XX 2019-07-06</h1>
+
+        <form
+            name="XYZ"
+            method="post"
+            action="EditOverflow.php"
+            id="XYZ">
+
+            <p>
+                <u>L</u>ook up term:
+
+                <input
+                    name="LookUpTerm"
+                    type="text"
+                    id="LookUpTerm"
+                    class="XYZ3"
+                    value="js"
+                    style="width:75px;"
+                    accesskey="L"
+                />
+            </p>
+
+            <p>
+                <input
+                    name="XYZ"
+                    type="submit"
+                    id="LookUp"
+                    class="XYZ3"
+                    value="Look up"
+                    style="width:75px;"
+                    accesskey="U"
+                />
+            </p>
+
+            <!-- Delete at any time - this is now taken care of in EditOverflow.php -->
+            <!-- For preventing warnings when invoking EditOverflow.php
+              <input
+                  name="editSummary"
+                  type="hidden"
+                  id="editSummary"
+                  class="XYZ5"
+                  value="XXX"
+              />
+              <input
+                  name="URLlist_encoded"
+                  type="hidden"
+                  id="URLlist_encoded"
+                  class="XYZ21"
+                  value="XXX"
+              />
+            -->
+
+        </form>
+
+        <p>
+            <a
+                href="Text.php"
+                accesskey="T"
+            >Text stuff</a>.
+
+            <a
+                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow1.html"
+                accesskey="V"
+            >HTML validation</a>.
+        </p>
+
+        <p>Proudly and unapologetic powered by PHP!</p>
+
+    </body>
+</html>
+

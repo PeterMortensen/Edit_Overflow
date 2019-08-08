@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4226825-99DE-44DF-929F-1CD02ACC1F8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OverflowHelper</RootNamespace>
+    <AssemblyName>EditOverflow</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>owl,3.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>2CC507C0F76F10A2EC75AA4FC95A702A0A30A6F8</ManifestCertificateThumbprint>
+    <ManifestKeyFile>EditOverflow_PFX_3.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <BaseIntermediateOutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\obj\</BaseIntermediateOutputPath>
+    <PublishUrl>C:\RCCX\Software\EditOverflow\_Staging\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://hmf-tech.com/EditOverflow/</InstallUrl>
+    <UpdateUrl>http://hmf-tech.com/EditOverflow/</UpdateUrl>
+    <SupportUrl>http://pmortensen.eu/</SupportUrl>
+    <TargetCulture>en-GB</TargetCulture>
+    <ProductName>Edit Overflow</ProductName>
+    <PublisherName>Professional Engineering</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>1064</ApplicationRevision>
+    <ApplicationVersion>1.1.48.1064</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <!-- Manuel indstilling til 32-bit (nedenfor). Bemærk: dette
+         er noget misvisende da betingelsen er for "Any CPU"...
+         Spørgsmålet er om det er muligt på andre måder
+         hvis ClickOnce skal bruges indefra Visual Studio
+         (bliver der altid brugt "Release" and "AnyCPU"?).
+    -->
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <!-- Manuel indstilling til 32-bit (nedenfor). Bemærk: dette
+         er noget misvisende da betingelsen er for "Any CPU"...
+         Spørgsmålet er om det er muligt på andre måder
+         hvis ClickOnce skal bruges indefra Visual Studio
+         (bliver der altid brugt "Release" and "AnyCPU"?).
+    -->
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SomeConfiguration|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\bin\SomeConfiguration\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SOME_SPECIAL_COMPILATION_SYMBOL</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SomeConfiguration|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\..\..\buildZ4\$(MSBuildProjectName)\bin\x86\SomeConfiguration\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.XmlTransform">
+      <HintPath>..\packages\Microsoft.Web.Xdt.2.1.2\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=2.14.0.832, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NuGet.Core.2.14.0\lib\net40-Client\NuGet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\SelectEditSummaryStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\SelectEditSummaryStyle.Designer.cs">
+      <DependentUpon>SelectEditSummaryStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmMainForm.Designer.cs">
+      <DependentUpon>frmMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmMarkdown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmMarkdown.Designer.cs">
+      <DependentUpon>frmMarkdown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmRandomFileOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmRandomFileOpen.Designer.cs">
+      <DependentUpon>frmRandomFileOpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmSelectCurrentSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\frmSelectCurrentSite.Designer.cs">
+      <DependentUpon>frmSelectCurrentSite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverflowHelper\Source\GUI\Forms\PM_WindowsFormsCommon.cs" />
+    <Compile Include="OverflowHelper\Source\main\CheckinMessageBuilder.cs" />
+    <Compile Include="OverflowHelper\Source\main\CommandLineParameters.cs" />
+    <Compile Include="OverflowHelper\Source\main\EditSummaryStyle.cs" />
+    <Compile Include="OverflowHelper\Source\main\LinkRef.cs" />
+    <Compile Include="OverflowHelper\Source\main\LookUpString.cs" />
+    <Compile Include="OverflowHelper\Source\main\Sites.cs" />
+    <Compile Include="OverflowHelper\Source\main\StringReplacerWithRegex.cs" />
+    <Compile Include="OverflowHelper\Source\main\Tokeniser.cs" />
+    <Compile Include="OverflowHelper\Source\main\Utility.cs" />
+    <Compile Include="OverflowHelper\Source\platFormSpecific\Clipboard.cs" />
+    <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverfkowApplication.cs" />
+    <Compile Include="OverflowHelper\Source\main\network.cs" />
+    <Compile Include="OverflowHelper\Source\main\Program.cs" />
+    <Compile Include="OverflowHelper\Source\main\WikipediaLookup.cs" />
+    <Compile Include="OverflowHelper\Source\platFormSpecific\timing.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\SelectEditSummaryStyle.resx">
+      <DependentUpon>SelectEditSummaryStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\frmMainForm.resx">
+      <DependentUpon>frmMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\frmMarkdown.resx">
+      <DependentUpon>frmMarkdown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\frmRandomFileOpen.resx">
+      <DependentUpon>frmRandomFileOpen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\frmSelectCurrentSite.resx">
+      <DependentUpon>frmSelectCurrentSite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="EditOverflow_PFX_3.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference3\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OverflowHelper\Documents\ClickOnce.txt" />
+    <Content Include="OverflowHelper\Documents\ohnotes.txt" />
+    <Content Include="OverflowHelper\Documents\plans.txt" />
+    <Content Include="owl,3.ico" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Service References\ServiceReference1\service1.wsdl" />
+    <None Include="Service References\ServiceReference1\service2.xsd" />
+    <None Include="Service References\ServiceReference1\service21.xsd" />
+    <None Include="Service References\ServiceReference1\TEK_VISA_chatWCF_Service1.xsd" />
+    <None Include="Service References\ServiceReference3\OverflowHelper.ServiceReference3.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference3\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference3\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference2\OverflowHelper.ServiceReference2.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference2\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\OverflowHelper.ServiceReference1.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference2\service.wsdl" />
+    <None Include="Service References\ServiceReference2\service.xsd" />
+    <None Include="Service References\ServiceReference2\service1.xsd" />
+    <None Include="Service References\ServiceReference2\TEK_VISA_chatWCF_Service.xsd" />
+    <None Include="Service References\ServiceReference3\service.wsdl" />
+    <None Include="Service References\ServiceReference3\service.xsd" />
+    <None Include="Service References\ServiceReference3\service1.xsd" />
+    <None Include="Service References\ServiceReference3\TEK_VISA_chatWCF_Service.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference2\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OverflowHelper\Source\core\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>echo XXXXXXXXXXXX %25date%25 %25time%25</PreBuildEvent>
+    <PostBuildEvent>echo YYYYYYYYYYYYY  %25date%25 %25time%25</PostBuildEvent>
+  </PropertyGroup>
+</Project>
