@@ -1,9 +1,8 @@
-
 # Edit Overflow
 
 Edit Overflow is an application for helping with
 the mundane aspects of editing Stack Overflow
-and other Stack Exchange sites posts (is in the 
+and other Stack Exchange sites posts (is in the
 Markdown format).
 While Stack Exchange is the primary focus, it can also
 be used when editing on Quora or Wikipedia.
@@ -21,8 +20,7 @@ it covers the most important functionality.
 
 ## Installing Edit Overflow (Windows)
 
-Run the [ClickOnce][30] installer.
-
+Run [the ClickOnce installer][30].
 
 
 ## Using Edit Overflow
@@ -57,7 +55,7 @@ of Edit Overflow is used)
 
 ### Special characters
 
-Symbols for degrees, micro, ohm, 
+Symbols for degrees, micro, ohm,
 
 Is in menu *Text*.
 
@@ -73,7 +71,7 @@ Is in menu *Action*.
 
 Is in menu *Action*.
 
-Especially convenient when looking up a term 
+Especially convenient when looking up a term
 that Edit Overflow does not know.
 
 
@@ -125,7 +123,7 @@ a terminal window for Forth. It requires AutoIt to be installed.
  * Added: Support for use of PuTTY with AmForth (requires AutoIt
    to be installed). The input is text in the clipboard and the
    user must manually change focus to PuTTY within 5 seconds.
-   Menu "Utility" → "Typing out characters - direct".
+   Menu "Utility" ? "Typing out characters - direct".
 
  * Added more words (now at 8228 input words and 2382 output words).
 
@@ -145,7 +143,7 @@ Version 1.1.47:
    menu Text).
    Sample text to convert: "07 min 10 secs:
    Book: https://www.amazon.com/Writing-Well".
-   Menu "Text"* → *"Transform for YouTube comments (in clipboard)".
+   Menu "Text"* ? *"Transform for YouTube comments (in clipboard)".
 
  * Added: Menu command to enclose text in <> (Insert in "Look up"
    field and enclose in "<>") in menu Action).
@@ -189,6 +187,4 @@ or constructive critisism is welcome.
 
  * An external wordlist (is currently compiled into the application itself)
 
-
-  [30]: http://en.wikipedia.org/wiki/ClickOnce
-
+  [30]: http://hmf-tech.com/EditOverflow/setup.exe
