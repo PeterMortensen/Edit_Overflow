@@ -1,9 +1,8 @@
-
 # Edit Overflow
 
 Edit Overflow is an application for helping with
 the mundane aspects of editing Stack Overflow
-and other Stack Exchange sites posts (is in the 
+and other Stack Exchange sites posts (is in the
 Markdown format).
 While Stack Exchange is the primary focus, it can also
 be used when editing on Quora or Wikipedia.
@@ -14,20 +13,20 @@ things (programming languages, software products,
 company names, and hardware).
 
 Edit Overflow was originally only for Windows, but
-the first versions of a web application become
-available in July 2019. While not yet feature complete
+the first versions of a web application became
+available in July 2019. While not yet feature-complete,
 it covers the most important functionality.
 
 
 ## Installing Edit Overflow (Windows)
 
-Run the [ClickOnce][30] installer.
-
+Run [the ClickOnce installer][30].
 
 
 ## Using Edit Overflow
 
-The simplest use of corrected the spelling a term (e.g. ".Net"):
+The simplest use is to correct the spelling of a term 
+(e.g. the incorrect spelling *".Net"*):
 
 1. Copy the incorrect term to the clipboard, typically from
    a text area in a web browser.
@@ -44,11 +43,12 @@ The simplest use of corrected the spelling a term (e.g. ".Net"):
    paste (e.g. by Ctrl + V).
 
 A macro keyboard can help in automating this process.
-For instance, a RogXXXX, where the numeric keyboard is
-repurposed for macro keys. As the RogXXXX stores the settings
+For instance, an [ASUS ROG Claymore Cherry MX Brown RGB][31], 
+where the numeric keyboard is repurposed for macro keys. 
+As the ROG Claymore stores the settings
 in the keyboard (is not dependent on software running on
 the computer), this also works on Linux (if the web version
-of Edit Overflow is used)
+of Edit Overflow is used).
 
 
 ## Other features
@@ -57,7 +57,7 @@ of Edit Overflow is used)
 
 ### Special characters
 
-Symbols for degrees, micro, ohm, 
+Symbols for degrees, micro, ohm,
 
 Is in menu *Text*.
 
@@ -73,9 +73,8 @@ Is in menu *Action*.
 
 Is in menu *Action*.
 
-Especially convenient when looking up a term 
+Especially convenient when looking up a term
 that Edit Overflow does not know.
-
 
 
 ## Other functionality unrelated to editing
@@ -125,9 +124,9 @@ a terminal window for Forth. It requires AutoIt to be installed.
  * Added: Support for use of PuTTY with AmForth (requires AutoIt
    to be installed). The input is text in the clipboard and the
    user must manually change focus to PuTTY within 5 seconds.
-   Menu "Utility" → "Typing out characters - direct".
+   Menu "Utility" ? "Typing out characters - direct".
 
- * Added more words (now at 8228 input words and 2382 output words).
+ * Added more words ([now at 8228 input words and 2382 output words][35]).
 
 ### Version 1.1.47:
 
@@ -145,12 +144,28 @@ Version 1.1.47:
    menu Text).
    Sample text to convert: "07 min 10 secs:
    Book: https://www.amazon.com/Writing-Well".
-   Menu "Text"* → *"Transform for YouTube comments (in clipboard)".
+   Menu "Text"* ? *"Transform for YouTube comments (in clipboard)".
 
  * Added: Menu command to enclose text in <> (Insert in "Look up"
    field and enclose in "<>") in menu Action).
 
  * Added more words (now at 7525 input words and 2091 output words).
+
+
+## Wordlist
+
+The list of word definitions (each entry contains: 
+*incorrect term*, *correct term*, and *URL*) 
+is currently part of the program itself. It can be
+exported to HTML and SQL (with a correct header, for 
+direct import into a MySQL database, say, on a standard
+web hosting platform).
+
+Some versions of the wordlist have been published 
+([more complete list][40]):
+
+ * [2019-07-27][135]
+ * [2019-03-30][134]
 
 
 ## Contribute
@@ -184,11 +199,35 @@ or constructive critisism is welcome.
 
 ### Features that would be very nice to have
 
- * Some memory between sessions (e.g. timer settings, last lookup,
-   )
+ 
+ * Remembering some option settings. 
+   For example, for option *"Change clipboard on lookup"*.
+   This would prevent violation of common user interface standards for the 
+   current default setting of this value (checked) and still allow the user to
+   override it (very convenient for this application as it use 
+   the clipboard for information transfer) and have it remembered for all
+   following sessions.
+   
+    Possible other settings to remember are timer settings and last lookup.
+
+    Note: A solution should be not be brittle in face of version changes 
+    (e.g. adding a new option to be remembered). Some of the automatic
+    solutions very much have this problem. A solution should be based on the
+    sound web principle of ignoring what is not understood (e.g. an 
+    older version of the program reading a session information file 
+    created by a newer version) and provide reasonable defaults for 
+    missing elements (e.g. a newer version of the program reading a session
+    information file created by an older version).
 
  * An external wordlist (is currently compiled into the application itself)
 
+<!-- References --> 
 
-  [30]: http://en.wikipedia.org/wiki/ClickOnce
+  [30]: http://hmf-tech.com/EditOverflow/setup.exe
+  [31]: https://www.asus.com/us/Keyboards-Mice/ROG-Claymore-Core/
+
+  [40]: http://pmortensen.eu/
+
+  [135]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html
+  [134]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-03-30.html
 
