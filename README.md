@@ -183,7 +183,24 @@ or constructive critisism is welcome.
 
 ### Features that would be very nice to have
 
- * Some memory between sessions (e.g. timer settings and last lookup)
+ 
+ * Remembering option settings. For example, for option *"Change clipboard on lookup"*.
+   This would prevent violation of common user interface standards for the 
+   current default setting of this value (checked) and still allow the user to
+   override it (very convenient for this application as it use 
+   the clipboard for information transfer) and have it remembered for all
+   following sessions.
+   
+    Possible other settings to remember are timer settings and last lookup.
+
+    Note: A solution should be not be brittle in face of version changes 
+    (e.g. adding a new option to be remembered). Some of the automatic
+    solutions very much have this problem. A solution should be based on the
+    sound web principle of ignoring what is not understood (e.g. an 
+    older version of the program reading a session information file 
+    created by a newer version) and provide reasonable defaults for 
+    missing elements ((e.g. a newer version of the program reading a session
+    information file created by an older version))
 
  * An external wordlist (is currently compiled into the application itself)
 
