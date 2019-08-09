@@ -184,7 +184,8 @@ or constructive critisism is welcome.
 ### Features that would be very nice to have
 
  
- * Remembering option settings. For example, for option *"Change clipboard on lookup"*.
+ * Remembering some option settings. 
+   For example, for option *"Change clipboard on lookup"*.
    This would prevent violation of common user interface standards for the 
    current default setting of this value (checked) and still allow the user to
    override it (very convenient for this application as it use 
@@ -199,8 +200,8 @@ or constructive critisism is welcome.
     sound web principle of ignoring what is not understood (e.g. an 
     older version of the program reading a session information file 
     created by a newer version) and provide reasonable defaults for 
-    missing elements ((e.g. a newer version of the program reading a session
-    information file created by an older version))
+    missing elements (e.g. a newer version of the program reading a session
+    information file created by an older version).
 
  * An external wordlist (is currently compiled into the application itself)
 
