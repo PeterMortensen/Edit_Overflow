@@ -13,8 +13,8 @@ things (programming languages, software products,
 company names, and hardware).
 
 Edit Overflow was originally only for Windows, but
-the first versions of a web application become
-available in July 2019. While not yet feature complete
+the first versions of a web application became
+available in July 2019. While not yet feature-complete,
 it covers the most important functionality.
 
 
@@ -25,7 +25,8 @@ Run [the ClickOnce installer][30].
 
 ## Using Edit Overflow
 
-The simplest use of corrected the spelling a term (e.g. ".Net"):
+The simplest use is to correct the spelling of a term 
+(e.g. the incorrect spelling *".Net"*):
 
 1. Copy the incorrect term to the clipboard, typically from
    a text area in a web browser.
@@ -42,11 +43,12 @@ The simplest use of corrected the spelling a term (e.g. ".Net"):
    paste (e.g. by Ctrl + V).
 
 A macro keyboard can help in automating this process.
-For instance, a RogXXXX, where the numeric keyboard is
-repurposed for macro keys. As the RogXXXX stores the settings
+For instance, an [ASUS ROG Claymore Cherry MX Brown RGB][31], 
+where the numeric keyboard is repurposed for macro keys. 
+As the ROG Claymore stores the settings
 in the keyboard (is not dependent on software running on
 the computer), this also works on Linux (if the web version
-of Edit Overflow is used)
+of Edit Overflow is used).
 
 
 ## Other features
@@ -73,7 +75,6 @@ Is in menu *Action*.
 
 Especially convenient when looking up a term
 that Edit Overflow does not know.
-
 
 
 ## Other functionality unrelated to editing
@@ -182,9 +183,10 @@ or constructive critisism is welcome.
 
 ### Features that would be very nice to have
 
- * Some memory between sessions (e.g. timer settings, last lookup,
-   )
+ * Some memory between sessions (e.g. timer settings and last lookup)
 
  * An external wordlist (is currently compiled into the application itself)
 
   [30]: http://hmf-tech.com/EditOverflow/setup.exe
+  [31]: https://www.asus.com/us/Keyboards-Mice/ROG-Claymore-Core/
+
