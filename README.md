@@ -126,7 +126,7 @@ a terminal window for Forth. It requires AutoIt to be installed.
    user must manually change focus to PuTTY within 5 seconds.
    Menu "Utility" ? "Typing out characters - direct".
 
- * Added more words (now at 8228 input words and 2382 output words).
+ * Added more words ([now at 8228 input words and 2382 output words][35]).
 
 ### Version 1.1.47:
 
@@ -150,6 +150,22 @@ Version 1.1.47:
    field and enclose in "<>") in menu Action).
 
  * Added more words (now at 7525 input words and 2091 output words).
+
+
+## Wordlist
+
+The list of word definitions (each entry contains: 
+*incorrect term*, *correct term*, and *URL*) 
+is currently part of the program itself. It can be
+exported to HTML and SQL (with a correct header, for 
+direct import into a MySQL database, say, on a standard
+web hosting platform).
+
+Some versions of the wordlist have been published 
+([more complete list][40]):
+
+ * [2019-07-27][135]
+ * [2019-03-30][134]
 
 
 ## Contribute
@@ -205,6 +221,13 @@ or constructive critisism is welcome.
 
  * An external wordlist (is currently compiled into the application itself)
 
+<!-- References --> 
+
   [30]: http://hmf-tech.com/EditOverflow/setup.exe
   [31]: https://www.asus.com/us/Keyboards-Mice/ROG-Claymore-Core/
+
+  [40]: http://pmortensen.eu/
+
+  [135]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html
+  [134]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-03-30.html
 
