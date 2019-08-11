@@ -236,6 +236,7 @@
                    ?>
                    style="width:110px;"
                    accesskey="L"
+                   title="Shortcut: Shift + Alt + L"
                />
             </p>
 
@@ -259,6 +260,7 @@
                     ?>
                     style="width:110px;"
                     accesskey="C"
+                    title="Shortcut: Shift + Alt + C"
                 /><?php
                     if (!$correctTerm)
                     {
@@ -268,21 +270,26 @@
                           "\n$EOL_andBaseIndent" .
                           "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
 
-                        # Provide a link to look up term on Wikipedia
+                        # Refactoring opportunity: some redundancy
+
+                        # Provide a link to look up the term on Wikipedia
                         echo
                           "<a " .
                           "href=\"" .
                             "https://duckduckgo.com/html/?q=" .
                             "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
                           "   accesskey=\"W\"$EOL_andBaseIndent" .
+                          "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
                           ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
-
+                          
+                        # Provide a link to look up the term on Wiktionary
                         echo
                           "<a " .
                           "href=\"" .
                             "https://duckduckgo.com/html/?q=" .
                             "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
                           "   accesskey=\"K\"$EOL_andBaseIndent" .
+                          "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
                           ">Look up on Wi<strong>k</strong>tionary</a>\n";
                     }
                 ?>
@@ -300,6 +307,7 @@
                    ?>
                    style="width:600px;"
                    accesskey="M"
+                   title="Shortcut: Shift + Alt + M"
                />
 
                <input
@@ -311,6 +319,8 @@
                      echo "value=\"$editSummary_output2\"\n";
                    ?>
                    style="width:600px;"
+                   accesskey="O"
+                   title="Shortcut: Shift + Alt + O"
                />
             </p>
 
@@ -324,6 +334,8 @@
                      echo "value=\"$URL\"\n";
                    ?>
                    style="width:400px;"
+                   accesskey="E"
+                   title="Shortcut: Shift + Alt + E"
                />
             </p>
 
@@ -368,6 +380,7 @@
                     id="resetState"
                     class="XYZ9"
                     accesskey="R"
+                    title="Shortcut: Shift + Alt + R"
                 />
             </p>
 
@@ -382,6 +395,7 @@
                 value="Look up"
                 style="width:75px;"
                 accesskey="U"
+                title="Shortcut: Shift + Alt + U"
             />
         </form>
 
@@ -389,6 +403,7 @@
           <a
               href="Text.php"
               accesskey="T"
+              title="Shortcut: Shift + Alt + T"
           >Text stuff</a>
 
         <!--
@@ -406,6 +421,7 @@
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php"
                 accesskey="V"
+                title="Shortcut: Shift + Alt + V"
             >HTML validation</a>.
         </p>
 
