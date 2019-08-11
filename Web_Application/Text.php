@@ -193,6 +193,7 @@
                 rows="5"
                 style="width:700px;height:150px;"
                 accesskey="T"
+                title="Shortcut: Shift + Alt + T"
             ><?php
                  echo "$someText";
             ?></textarea>
@@ -207,6 +208,7 @@
                 value="Remove TABs and trailing whitespace"
                 style="width:250px;"
                 accesskey="U"
+                title="Shortcut: Shift + Alt + U"
             />
 
             <!-- Submit button  -->
@@ -218,6 +220,7 @@
                 value="Format as keyboard"
                 style="width:150px;"
                 accesskey="B"
+                title="Shortcut: Shift + Alt + B"
             />
 
             <!-- Submit button  -->
@@ -229,6 +232,7 @@
                 value="Quote as code"
                 style="width:150px;"
                 accesskey="K"
+                title="Shortcut: Shift + Alt + K"
             />
 
             <!-- Submit button  -->
@@ -240,6 +244,7 @@
                 value="Real quotes"
                 style="width:150px;"
                 accesskey="Q"
+                title="Shortcut: Shift + Alt + Q"
             />
 
 
@@ -262,13 +267,22 @@
         </p>
 
         <p>
-            <a href="EditOverflow.php">Edit Overflow</a>
+            <a 
+                href="EditOverflow.php"
+                accesskey="E"
+                title="Shortcut: Shift + Alt + E"
+            >Edit Overflow</a>
 
-            <a href="myInfo.php">Environment information</a>
+            <a 
+                href="myInfo.php"
+                accesskey="I"
+                title="Shortcut: Shift + Alt + I"
+            >Environment information</a>
 
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php"
                 accesskey="V"
+                title="Shortcut: Shift + Alt + V"
             >HTML validation</a>.
         </p>
 
