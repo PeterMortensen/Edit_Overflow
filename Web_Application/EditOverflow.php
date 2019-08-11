@@ -398,6 +398,8 @@
                 title="Shortcut: Shift + Alt + U"
             />
         </form>
+        
+        <hr/>
 
         <p>
           <a
