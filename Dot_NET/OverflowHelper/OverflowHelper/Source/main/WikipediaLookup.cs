@@ -971,6 +971,7 @@ namespace OverflowHelper.core
             correctionAdd("window form", "Windows Forms");
             correctionAdd("winfrom", "Windows Forms");
             correctionAdd("Win forms", "Windows Forms");
+            correctionAdd("WindowForm", "Windows Forms");
 
             correctionAdd("tiff", "TIFF");
             correctionAdd("tif", "TIFF");            
@@ -1148,6 +1149,11 @@ namespace OverflowHelper.core
             correctionAdd("ASP.Net core", "ASP.NET Core");
             correctionAdd("ASP.Net Core", "ASP.NET Core");
             correctionAdd("ASP.NET CORE", "ASP.NET Core");
+            correctionAdd("asp net core", "ASP.NET Core");
+            correctionAdd(".net core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core MVC", "ASP.NET Core");
+            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
             
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -1599,6 +1605,7 @@ namespace OverflowHelper.core
             correctionAdd("VIM", "Vim");
             correctionAdd("ViM", "Vim");
             correctionAdd("viM", "Vim");
+            correctionAdd("VIm", "Vim");
 
             correctionAdd("gvim", "gVim");
             correctionAdd("GVIM", "gVim");
@@ -3117,6 +3124,7 @@ namespace OverflowHelper.core
             correctionAdd("Codeblocks", "Code::Blocks");
             correctionAdd("codeblock", "Code::Blocks");
             correctionAdd("code::block", "Code::Blocks");
+            correctionAdd("code blocks", "Code::Blocks");
 
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
@@ -6278,6 +6286,7 @@ namespace OverflowHelper.core
             correctionAdd("previlage", "privilege");
             correctionAdd("previlege", "privilege");
             correctionAdd("privilegie", "privilege");
+            correctionAdd("privilge", "privilege");
                         
             correctionAdd("UpnP", "UPnP");
 
@@ -8212,6 +8221,7 @@ namespace OverflowHelper.core
             correctionAdd("work arround", "workaround");
 
             correctionAdd("thunderbird", "Thunderbird");
+            correctionAdd("thunterbird", "Thunderbird");
             
             correctionAdd("raid", "RAID");
             correctionAdd("Raid", "RAID");
@@ -8653,6 +8663,7 @@ namespace OverflowHelper.core
             correctionAdd("schottky", "Schottky");
             correctionAdd("shottky", "Schottky");
             correctionAdd("Schottkey", "Schottky");
+            correctionAdd("SCHOTTKY", "Schottky");
                         
             correctionAdd("doesnt", "doesn't");
             correctionAdd("doest", "doesn't");
@@ -8668,6 +8679,7 @@ namespace OverflowHelper.core
             correctionAdd("doesent", "doesn't");
             correctionAdd("desn’t", "doesn't");
             correctionAdd("dosnt", "doesn't");
+            correctionAdd("does’t", "doesn't");
                                     
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");            
@@ -8699,6 +8711,7 @@ namespace OverflowHelper.core
             correctionAdd("Choco", "Chocolatey");
 
             correctionAdd("psobject", "PSObject");
+            correctionAdd("PsObject", "PSObject");
 
             correctionAdd("get-variable", "Get-Variable");
 
@@ -9270,6 +9283,7 @@ namespace OverflowHelper.core
             correctionAdd("recieving", "receiving"); 
              
             correctionAdd("recieve", "receive");
+            correctionAdd("recive", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");            
@@ -10773,6 +10787,7 @@ namespace OverflowHelper.core
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
+            correctionAdd("biz", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -10917,6 +10932,7 @@ namespace OverflowHelper.core
 
             correctionAdd("atmega", "ATmega");
             correctionAdd("ATMega", "ATmega");
+            correctionAdd("ATMEGA", "ATmega");
 
             correctionAdd("delhi", "Delhi");
 
@@ -10939,6 +10955,7 @@ namespace OverflowHelper.core
             correctionAdd("fullfill", "fulfill");
 
             correctionAdd("it self", "itself");
+            correctionAdd("itsself", "itself");
 
             correctionAdd("knowhow", "know-how");
 
@@ -11284,6 +11301,9 @@ namespace OverflowHelper.core
             correctionAdd("php7", "PHP&nbsp;7");
 
             correctionAdd("Power Bi", "Power BI");
+            correctionAdd("powerbi", "Power BI");
+            correctionAdd("Powerbi", "Power BI");
+            correctionAdd("PowerBI", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -11525,8 +11545,59 @@ namespace OverflowHelper.core
 
             correctionAdd("writeable", "writable");
 
+            correctionAdd("net core 3.0", ".NET Core 3.0");
 
+            correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
 
+            correctionAdd("eslint", "ESLint");
+
+            correctionAdd("elance", "Elance");
+
+            correctionAdd("material design", "Material Design");
+            correctionAdd("Material design", "Material Design");
+
+            correctionAdd("Ntp", "NTP");
+            correctionAdd("ntp", "NTP");
+
+            correctionAdd("pomodoro", "Pomodoro");
+            correctionAdd("pomodorro", "Pomodoro");
+
+            correctionAdd("Remote Procedure Call", "RPC");
+            correctionAdd("rpc", "RPC");
+
+            correctionAdd("ufw", "UFW");
+
+            correctionAdd("VS2019", "Visual&nbsp;Studio&nbsp;2019");
+
+            correctionAdd("xor", "XOR");
+            correctionAdd("Xor", "XOR");
+
+            correctionAdd("absorbtion", "absorption");
+
+            correctionAdd("arxiv", "arXiv");
+
+            correctionAdd("buddhist", "Buddhist");
+
+            correctionAdd("calulation", "calculation");
+
+            correctionAdd("childd", "child");
+
+            correctionAdd("contruct", "construct");
+
+            correctionAdd("counter productive", "counterproductive");
+
+            correctionAdd("efort", "effort");
+
+            correctionAdd("5th", "fifth");
+
+            correctionAdd("greather", "greater");
+
+            correctionAdd("induvidual", "individual");
+
+            correctionAdd("Nevermind", "never mind");
+            correctionAdd("nevermind", "never mind");
+
+            correctionAdd("procastination", "procrastination");
 
 
             //HACK: AASDASD
@@ -16510,6 +16581,53 @@ namespace OverflowHelper.core
 
             URL_Add("writable", "https://en.wiktionary.org/wiki/writable#Adjective");
 
+            URL_Add(".NET Core 3.0", "https://en.wikipedia.org/wiki/.NET_Core#History");
+
+            URL_Add("ASP.NET Core 3.0", "https://en.wikipedia.org/wiki/ASP.NET_Core#Release_history");
+
+            URL_Add("ESLint", "https://en.wikipedia.org/wiki/ESLint");
+
+            URL_Add("Elance", "https://en.wikipedia.org/wiki/Upwork");
+
+            URL_Add("Material Design", "https://en.wikipedia.org/wiki/Material_Design");
+
+            URL_Add("NTP", "https://en.wikipedia.org/wiki/Network_Time_Protocol");
+
+            URL_Add("Pomodoro", "https://en.wikipedia.org/wiki/Pomodoro_Technique");
+
+            URL_Add("RPC", "https://en.wikipedia.org/wiki/Remote_procedure_call");
+
+            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
+
+            URL_Add("XOR", "https://en.wikipedia.org/wiki/Exclusive_or");
+
+            URL_Add("absorption", "https://en.wiktionary.org/wiki/absorption#Noun");
+
+            URL_Add("arXiv", "https://en.wikipedia.org/wiki/ArXiv");
+
+            URL_Add("Buddhist", "https://en.wiktionary.org/wiki/Buddhist#Noun");
+
+            URL_Add("calculation", "https://en.wiktionary.org/wiki/calculation#Noun");
+
+            URL_Add("child", "https://en.wiktionary.org/wiki/child#Noun");
+
+            URL_Add("construct", "https://en.wiktionary.org/wiki/construct#Verb");
+
+            URL_Add("counterproductive", "https://en.wiktionary.org/wiki/counterproductive#Adjective");
+
+            URL_Add("effort", "https://en.wiktionary.org/wiki/effort#Noun");
+
+            URL_Add("fifth", "https://en.wiktionary.org/wiki/fifth#Adjective");
+
+            URL_Add("greater", "https://en.wiktionary.org/wiki/greater#Adjective");
+
+            URL_Add("individual", "https://en.wiktionary.org/wiki/individual#Adjective");
+
+            URL_Add("never mind", "https://en.wiktionary.org/wiki/never_mind#Verb");
+
+            URL_Add("procrastination", "https://en.wiktionary.org/wiki/procrastination#Noun");
 
 
             //========================================================
