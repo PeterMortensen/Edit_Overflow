@@ -37,11 +37,20 @@ namespace OverflowHelper.core
               new System.Diagnostics.ProcessStartInfo();
 
             //PM_URLOPEN_AMBERSAND_BROKEN 2011-02-17
-            //psInfo.Arguments = "/C start " + aURL;
-            psInfo.Arguments = "/C start \"\" \"" + aURL + "\" "; //To make it work with ambersands in the URL. See 
+            //string arguments = "/C start " + aURL;
+            string arguments = "/C start \"\" \"" + aURL + "\" "; //To 
+            //                 make it work with ambersands in the URL. 
+            //                 See <https://stackoverflow.com/a/1327444>
+            //
+            // Sample:
+            // 
+            //     /C start "" "http://meta.physics.stackexchange.com/" 
+            //
+
+            psInfo.Arguments = arguments;
 
             psInfo.FileName = "cmd.exe";
-            //psInfo.WorkingDirectory =    not needed for now.
+            //psInfo.WorkingDirectory =  not needed for now.
 
             psInfo.UseShellExecute = false;
 
