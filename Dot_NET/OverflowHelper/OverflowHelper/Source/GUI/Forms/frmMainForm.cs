@@ -506,8 +506,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void btnMinorEditStr_Click(
-          object aSender, EventArgs anEvent)
+        private void btnMinorEditStr_Click(object aSender, EventArgs anEvent)
         {
             clearCheckin();
 
@@ -524,29 +523,19 @@ namespace OverflowHelper
         {
             string URLlistText = txtInputArea.Text;
 
-            //System.Text.RegularExpressions
+            List<string> URL_list = new List<string>(URLlistText.Split('\n'));
 
-            //For split type
-            //MatchCollection result = Regex.Matches(URLlistText, "\n");
-
-            //MatchCollection result = Regex.Matches(URLlistText, "http:[^]+");
-
-            //StringArray ttStrArr6 = Regex.Split(URLlistText, "\n")
-
-            List<string> myList = new List<string>(URLlistText.Split('\n'));
-
-            //int delaySecs = 10;
             double delaySecs = double.Parse(txtOpenTimeInterval.Text);
 
-            int len = myList.Count;
+            int len = URL_list.Count;
             int i = 0;
-            foreach (string someURL2 in myList)
+            foreach (string someURL2 in URL_list)
             {
-                string effectiveURL = someURL2.Trim(); //Removes leading AND 
+                string effectiveURL = someURL2.Trim(); // Removes leading AND 
                                                        // trailing whitespace.
 
-                if (effectiveURL.Length > 5) //Usually empty line. This test
-                //could be more robust.
+                if (effectiveURL.Length > 5) // Usually empty line. This test
+                // could be more robust.
                 {
                     ////For now. Will freeze the application.
                     ////One reference is:
@@ -560,9 +549,6 @@ namespace OverflowHelper
                         "To open (" + i + " of approx." + len +
                         ", interval " + delaySecs + " secs): " + effectiveURL;
 
-                    //Application.DoEvents();
-                    //Application.DoEvents();
-
                     network.openURL(effectiveURL);
                 }
                 else
@@ -574,22 +560,9 @@ namespace OverflowHelper
                 {
                     break;
                 }
-            } //Through checkBoxInfoList
+            } //Through URL_list
 
-            //int URLcount = result.Count;
-            //for (int i = 0; i < URLcount; i++)
-            //{
-            //    Match URL = result[i]; //.Item
-            //    //Match URL = result.
-
-            //    string URLstr = URL.Groups[1].Value;
-
-            //} //for
-
-            //if (result.s)
-            //{
-            //}
-        }
+        } //btnOpenURLs_Click()
 
 
         //PM_REFACTOR 2010-02-24
@@ -618,7 +591,9 @@ namespace OverflowHelper
 
         //Should be moved to another file...
         /****************************************************************************
+         *                                                                          *
          *    Opens the specified post number in the default browser.               *
+         *                                                                          *
          ****************************************************************************/
         private void openPost(int aPostNumber, string aDomainName)
         {
@@ -628,7 +603,6 @@ namespace OverflowHelper
                 "questions/" +
                 postNumberStr;
             network.openURL(urlToOpen);
-
         } //openPost()
 
 
@@ -642,8 +616,8 @@ namespace OverflowHelper
 
             int unansweredQuestions = mSites.getUnansweredQuestions();
             int questionNum = randNum.Next(1, unansweredQuestions);
-            int pageNum = questionNum / 50 + 1; //Presumes openNoAnswersPage()
-                                                //uses a page size of 50.
+            int pageNum = questionNum / 50 + 1; // Presumes openNoAnswersPage()
+                                                // uses a page size of 50.
             openNoAnswersPage(pageNum, mSites.getCurrentSiteDomainURL());
         }
 
@@ -651,7 +625,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuExit_Click(object aSender, EventArgs e)
+        private void mnuExit_Click(object aSender, EventArgs anEvent)
         {
             this.Close();
         }
