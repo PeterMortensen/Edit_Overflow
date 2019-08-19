@@ -3554,6 +3554,7 @@ namespace OverflowHelper.core
             correctionAdd("iDE", "IDE"); //Misspelling.
             correctionAdd("Ide", "IDE");
             correctionAdd("Integrated Development Environment", "IDE");
+            correctionAdd("I.D.E", "IDE");
 
             correctionAdd("concat", "concatenate"); //Expansion.
             correctionAdd("cancat", "concatenate");
@@ -4042,6 +4043,7 @@ namespace OverflowHelper.core
             correctionAdd("RS232", "RS-232");
             correctionAdd("rs232", "RS-232");
             correctionAdd("Rs232", "RS-232");
+            correctionAdd("rs-232", "RS-232");
 
             correctionAdd("skype", "Skype");
 
@@ -9025,6 +9027,7 @@ namespace OverflowHelper.core
             correctionAdd("comparisson", "comparison");
             correctionAdd("comparrison", "comparison");
             correctionAdd("comparasion", "comparison");
+            correctionAdd("comparsion", "comparison");
 
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
@@ -10224,13 +10227,12 @@ namespace OverflowHelper.core
             correctionAdd("pscustomobject", "PSCustomObject");
             correctionAdd("PsCustomObject", "PSCustomObject");
 
-
             correctionAdd("python2", "Python&nbsp;2");
+            correctionAdd("Python 2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
-            correctionAdd("Python 2", "Python&nbsp;2");
-
+            correctionAdd("python 3", "Python&nbsp;3");
 
             correctionAdd("quran", "Qur'an");
 
@@ -10976,6 +10978,8 @@ namespace OverflowHelper.core
 
             correctionAdd("webpack", "Webpack");
             correctionAdd("WebPack", "Webpack");
+            correctionAdd("Web pack", "Webpack");
+            correctionAdd("web pack", "Webpack");
 
             correctionAdd("Ad Hoc", "ad hoc");
             correctionAdd("adhoc", "ad hoc"); 
@@ -11161,6 +11165,7 @@ namespace OverflowHelper.core
             correctionAdd("waffen ss", "Waffen-SS");
 
             correctionAdd("aircrafts", "aircraft");
+            correctionAdd("air craft", "aircraft");
 
             correctionAdd("boarder", "border");
 
@@ -11598,6 +11603,42 @@ namespace OverflowHelper.core
             correctionAdd("nevermind", "never mind");
 
             correctionAdd("procastination", "procrastination");
+
+            correctionAdd("b2b", "B2B");
+
+            correctionAdd("baidu", "Baidu");
+
+            correctionAdd("muslim", "Muslim");
+
+            correctionAdd("pyvisa", "PyVISA");
+            correctionAdd("PyVisa", "PyVISA");
+            correctionAdd("pyVisa", "PyVISA");
+            correctionAdd("Pyvisa", "PyVISA");
+
+            correctionAdd("samsung", "Samsung");
+
+            correctionAdd("Unix&Linux", "Unix & Linux");
+
+            correctionAdd("Whitehouse", "White House");
+
+            correctionAdd("comminicating", "communicating");
+
+            correctionAdd("lobbyisits", "lobbyists");
+
+            correctionAdd("manualy", "manually");
+
+            correctionAdd("multi meter", "multimeter");
+
+            correctionAdd("serure", "secure");
+
+            correctionAdd("stucked", "stuck");
+
+            correctionAdd("swtich", "switch");
+
+            correctionAdd("Yak shaving", "yak shaving");
+
+            correctionAdd("CSS Grid", "CSS grid");
+
 
 
             //HACK: AASDASD
@@ -16628,6 +16669,39 @@ namespace OverflowHelper.core
             URL_Add("never mind", "https://en.wiktionary.org/wiki/never_mind#Verb");
 
             URL_Add("procrastination", "https://en.wiktionary.org/wiki/procrastination#Noun");
+
+            URL_Add("B2B", "https://en.wikipedia.org/wiki/Business-to-business");
+
+            URL_Add("Baidu", "https://en.wikipedia.org/wiki/Baidu");
+
+            URL_Add("Muslim", "https://en.wiktionary.org/wiki/Muslim#Noun");
+
+            URL_Add("PyVISA", "https://pyvisa.readthedocs.io/en/latest/");
+
+            URL_Add("Samsung", "https://en.wikipedia.org/wiki/Samsung");
+
+            URL_Add("Unix & Linux", "https://unix.stackexchange.com/tour");
+
+            URL_Add("White House", "https://en.wikipedia.org/wiki/White_House");
+
+            URL_Add("communicating", "https://en.wiktionary.org/wiki/communicate#Verb");
+
+            URL_Add("lobbyists", "https://en.wiktionary.org/wiki/lobbyist#Noun");
+
+            URL_Add("manually", "https://en.wiktionary.org/wiki/manually#Adverb");
+
+            URL_Add("multimeter", "https://en.wikipedia.org/wiki/Multimeter");
+
+            URL_Add("secure", "https://en.wiktionary.org/wiki/secure#Adjective");
+
+            URL_Add("stuck", "https://en.wiktionary.org/wiki/stick#Verb_2");
+
+            URL_Add("switch", "https://en.wiktionary.org/wiki/switch#Noun");
+
+            URL_Add("yak shaving", "https://en.wiktionary.org/wiki/yak_shaving#Noun");
+
+            URL_Add("CSS grid", "https://en.wikipedia.org/wiki/CSS_grid_layout");
+
 
 
             //========================================================

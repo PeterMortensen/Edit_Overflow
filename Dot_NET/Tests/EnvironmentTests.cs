@@ -13,7 +13,7 @@
  *          developed.                                                      *
  *                                                                          *
  *          We also have a test to test that we have positively compiled    *
- *          the latest version of the unit tests                            *
+ *          the latest version of the unit tests.                           *
  *                                                                          *
  *                                                                          *
  ****************************************************************************/
@@ -56,11 +56,11 @@ namespace OverflowHelper.Tests
             // Ensure we are actually running the expected version. But what
             // is actually our intent here? Why do we have this test?
 
-            string presumedNewest = "1.1.48";
+            string presumedNewest = "1.1.49a14";
 
             {
                 // For the main application
-                string version_mainApplication = 
+                string version_mainApplication =
                     EditorOverflowApplication.versionString();
 
                 Assert.AreEqual(presumedNewest, version_mainApplication, "XYZ");
