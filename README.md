@@ -53,7 +53,7 @@ of Edit Overflow is used).
 
 ## Other features
 
-### Remove convert TABs to space and remove trailing space
+### Convert TABs to spaces and remove trailing space
 
 ### Special characters
 
@@ -61,7 +61,7 @@ Symbols for degrees, micro, ohm,
 
 Is in menu *Text*.
 
-### Format as code (Markdown, back)
+### Format as code (Markdown, backtick)
 
 Is in menu *Action*.
 
