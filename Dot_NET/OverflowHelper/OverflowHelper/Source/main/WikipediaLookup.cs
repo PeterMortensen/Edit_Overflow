@@ -17090,7 +17090,18 @@ namespace OverflowHelper.core
             scratchSB.Append("        <h1>");
             scratchSB.Append(title);
             scratchSB.Append("</h1>\n");
+
+
             
+            //// Justification for its existence...
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <p>");
+            //scratchSB.Append("This content of this list is 99% from what someone on the Internet actually posted (in most case misspelled) - it is not a made-up list. ");
+
+
+
+
+
             // Some disclaimers regarding the accuracy...
             scratchSB.Append("\n");
             scratchSB.Append("        <p>");
