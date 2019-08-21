@@ -41,7 +41,7 @@ namespace OverflowHelper.core
     /****************************************************************************
      *    <placeholder for header>                                              *
      ****************************************************************************/
-    class WikipediaLookup
+    public class WikipediaLookup
     {
         public const string kCodeQuoteStr = "`";
 
@@ -274,7 +274,6 @@ namespace OverflowHelper.core
         } // private class SortByCorrectThenIncorrect_usingIndex
 
 
-
         /***************************************************************************
         *    <placeholder for header>                                              *
         ****************************************************************************/
@@ -284,7 +283,6 @@ namespace OverflowHelper.core
             //corresponding URL (this will cause the lookup
             //to fail, even tough the correction is defined.
             //An example was "ILDASM").
-
 
             Dictionary<string, string>.Enumerator hashEnumerator2 =
                 mCaseCorrection.GetEnumerator();
@@ -13543,7 +13541,7 @@ namespace OverflowHelper.core
 
             URL_Add("DevExpress", "http://www.devexpress.com/Home/Mission.xml");
 
-            URL_Add("HDMI", "http://en.wikipedia.org/wiki/½");
+            URL_Add("HDMI", "https://en.wikipedia.org/wiki/HDMI");
 
             URL_Add("constructor", "http://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29");
 
@@ -16761,7 +16759,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private string escapeSQL(string aStringForSQL)
+        private static string escapeSQL(string aStringForSQL)
         {
             return aStringForSQL.Replace("'", "''");
         }
@@ -16770,7 +16768,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void addTermsToOutput_SQL(string aBadTerm,
+        private static void addTermsToOutput_SQL(string aBadTerm,
                                           string aCorrectedTerm,
                                           ref StringBuilder aSomeScratch,
                                           string aURL)
@@ -16814,7 +16812,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void addTermsToOutput_HTML(string aBadTerm,
+        private static void addTermsToOutput_HTML(string aBadTerm,
                                            string aCorrectedTerm,
                                            ref StringBuilder aSomeScratch, 
                                            string aURL)
@@ -16850,7 +16848,7 @@ namespace OverflowHelper.core
          *    Helper function for dumpWordList_asHTML()                             *
          *                                                                          *
          ****************************************************************************/
-        private string encloseInTag_HTML(string aTagName, string aText)
+        private static string encloseInTag_HTML(string aTagName, string aText)
         { 
             const string start = "&lt;";
             const string end = "&lt;/";
@@ -16871,14 +16869,17 @@ namespace OverflowHelper.core
          *                                                                          * 
          *                                                                          * 
          ****************************************************************************/
-        private void generateMainTable(ref StringBuilder aSomeScratch, 
-                                       bool aGenerateHTML, 
-                                       ref string aLongestInCorrectTerm,
-                                       ref string aLongestCorrectTerm,
-                                       ref string aLongestURL)
+        private static void generateMainTable(
+            ref StringBuilder aSomeScratch, 
+            bool aGenerateHTML, 
+            ref string aLongestInCorrectTerm,
+            ref string aLongestCorrectTerm,
+            ref string aLongestURL, 
+            ref Dictionary<string, string> aCaseCorrection,
+            ref Dictionary<string, string> aWord2URL)
         {
             SortByCorrectThenIncorrect_usingIndex sortObject =
-                new SortByCorrectThenIncorrect_usingIndex(mCaseCorrection);
+                new SortByCorrectThenIncorrect_usingIndex(aCaseCorrection);
 
             List<int> indexes = sortObject.indexes(); // Unsorted at this point
 
@@ -16897,17 +16898,17 @@ namespace OverflowHelper.core
             foreach (int someIndex in indexes)
             {
                 string someIncorrectTerm = someKeys_incorrectTerms[someIndex];
-                string someCorrectTerm = mCaseCorrection[someIncorrectTerm];
+                string someCorrectTerm = aCaseCorrection[someIncorrectTerm];
                 
                 string someURL = null;
-                if (mWord2URL.TryGetValue(someCorrectTerm, out someURL))
+                if (aWord2URL.TryGetValue(someCorrectTerm, out someURL))
                 {
                     // Fail. What should we do?
                 }
 
                 // On-the-fly check (but it would be better if this check was 
                 // done at program startup)
-                if (mWord2URL.ContainsKey(someIncorrectTerm))
+                if (aWord2URL.ContainsKey(someIncorrectTerm))
                 {
                     string msg =
                       "Incorrect term \"" + someIncorrectTerm +
@@ -16982,7 +16983,9 @@ namespace OverflowHelper.core
                               false,
                               ref longestInCorrectTerm,
                               ref longestCorrectTerm,
-                              ref longestURL);
+                              ref longestURL,
+                              ref mCaseCorrection,
+                              ref mWord2URL);
 
             scratchSB.Append(SQL_tableRows);
             return scratchSB.ToString();
@@ -16996,17 +16999,26 @@ namespace OverflowHelper.core
          *                                                                          * 
          *                                                                          * 
          ****************************************************************************/
-        public string dumpWordList_asHTML(string aCodeCheck_regularExpression)
+        public static string dumpWordList_asHTML(
+            string aCodeCheck_regularExpression,
+            ref Dictionary<string, string> aCaseCorrection,
+            ref Dictionary<string, string> aCaseCorrection_Reverse,            
+            ref Dictionary<string, string> aWord2URL
+            )
         {
             //private Dictionary<string, string> mCaseCorrection;
 
             StringBuilder scratchSB =
               new StringBuilder(1200000); // 20% margin, 2016-01-31, for 610823.
-                                          // 2016-07-22: Now, 676067, still 7% margin.
-                                          // 2019-07-01: Now 1,039,246 bytes.
+            // 2016-07-22: Now, 676067, still 7% margin.
+            // 2019-07-01: Now 1,039,246 bytes.
+            // 2019-08-21: Now 1,079,071 bytes (11% margin)
 
             StringBuilder HTML_tableRows =
-              new StringBuilder(1200000); // 20% margin, 2016-01-31, for 610823.
+              new StringBuilder(1200000); 
+            // 20% margin, 2016-01-31, for 610823.
+            // 2019-08-21: Now 1,076,066 bytes (12% margin)
+
 
             // First generate the rows of the main table - so we can compute
             // various statistics while we go through the data structures
@@ -17014,20 +17026,22 @@ namespace OverflowHelper.core
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
             string longestURL = "";
-            generateMainTable(ref HTML_tableRows, 
+            generateMainTable(ref HTML_tableRows,
                               true,
                               ref longestInCorrectTerm,
                               ref longestCorrectTerm,
-                              ref longestURL); 
-                              // The main side effect is the changing of the content 
-                              //  of ref HTML_tableRows...
+                              ref longestURL,
+                              ref aCaseCorrection,
+                              ref aWord2URL);
+            // The main side effect is the changing of the content 
+            //  of ref HTML_tableRows...
 
             // 2016-07-22: Now, 676067, still 7% margin.
 
-            int items = mCaseCorrection.Count;
-            int uniques = mCaseCorrection_Reverse.Count;
+            int items = aCaseCorrection.Count;
+            int uniques = aCaseCorrection_Reverse.Count;
             string versionStr = EditorOverflowApplication.fullVersionStr();
-            
+
             // This would if the date changes right after the call of fullVersionStr()...
             string dateStr = EditorOverflowApplication.versionString_dateOnly();
 
@@ -17045,7 +17059,7 @@ namespace OverflowHelper.core
             scratchSB.Append(versionStr);
             scratchSB.Append(")");
             string title = scratchSB.ToString();
-            
+
             scratchSB.Length = 0;
 
 
@@ -17056,17 +17070,17 @@ namespace OverflowHelper.core
 
             scratchSB.Append("\n");
             scratchSB.Append("    <head>\n");
-            
+
             //To make the special characters at the end (e.g. for arrow) actually
             //work on the resulting web opened in the browser
             scratchSB.Append("    	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
             scratchSB.Append("\n");
-            
+
             //Title
             scratchSB.Append("        <title>");
             scratchSB.Append(title);
             scratchSB.Append("</title>\n");
-            
+
             //CSS for table
             scratchSB.Append("        <style>\n");
             scratchSB.Append("            body {\n");
@@ -17081,7 +17095,7 @@ namespace OverflowHelper.core
             scratchSB.Append("                background-color: lightblue;\n");
             scratchSB.Append("            }\n");
             scratchSB.Append("        </style>\n");
-            
+
             //Start of body
             scratchSB.Append("\n");
             scratchSB.Append("    <body>\n");
@@ -17092,7 +17106,7 @@ namespace OverflowHelper.core
             scratchSB.Append("</h1>\n");
 
 
-            
+
             //// Justification for its existence...
             //scratchSB.Append("\n");
             //scratchSB.Append("        <p>");
@@ -17110,25 +17124,25 @@ namespace OverflowHelper.core
             scratchSB.Append("        </p>\n");
 
             scratchSB.Append("        <ul>\n");
-                scratchSB.Append("          <li>");
-                scratchSB.Append("Expansions (for example, expanding \"JS\" ");
-                scratchSB.Append("to \"JavaScript\").");
-                scratchSB.Append("</li>\n");
+            scratchSB.Append("          <li>");
+            scratchSB.Append("Expansions (for example, expanding \"JS\" ");
+            scratchSB.Append("to \"JavaScript\").");
+            scratchSB.Append("</li>\n");
 
-                scratchSB.Append("          <li>");
-                scratchSB.Append("Go the other way, from expanded to abbreviation.");
-                scratchSB.Append("</li>\n");
+            scratchSB.Append("          <li>");
+            scratchSB.Append("Go the other way, from expanded to abbreviation.");
+            scratchSB.Append("</li>\n");
 
-                scratchSB.Append("          <li>");
-                scratchSB.Append("Include line-break protection (though only in ");
-                scratchSB.Append("the HTML source, not as displayed here) - by &amp;nbsp;.");
-                scratchSB.Append("</li>\n");
+            scratchSB.Append("          <li>");
+            scratchSB.Append("Include line-break protection (though only in ");
+            scratchSB.Append("the HTML source, not as displayed here) - by &amp;nbsp;.");
+            scratchSB.Append("</li>\n");
 
-                scratchSB.Append("          <li>");
-                scratchSB.Append("Casing of some words and tense of some verbs are not ");
-                scratchSB.Append("always 100% correct (this must be dealt with manually) - the ");
-                scratchSB.Append("reason is to avoid redundancy.");
-                scratchSB.Append("</li>\n");
+            scratchSB.Append("          <li>");
+            scratchSB.Append("Casing of some words and tense of some verbs are not ");
+            scratchSB.Append("always 100% correct (this must be dealt with manually) - the ");
+            scratchSB.Append("reason is to avoid redundancy.");
+            scratchSB.Append("</li>\n");
             scratchSB.Append("        </ul>\n");
 
             scratchSB.Append("\n");
@@ -17142,7 +17156,7 @@ namespace OverflowHelper.core
             //There is some redundancy here...
 
             //Some statistics
-            scratchSB.Append("<hr/>\n");  
+            scratchSB.Append("<hr/>\n");
             scratchSB.Append("\n");
             scratchSB.Append("        <p>");
             scratchSB.Append("Longest incorrect term: \"");
@@ -17245,7 +17259,7 @@ namespace OverflowHelper.core
             scratchSB.Append("Degree: ");
             scratchSB.Append("°");
             scratchSB.Append("&nbsp;&nbsp;");
-            
+
             scratchSB.Append("Ohm: ");
             //scratchSB.Append("Ω"); //Does not work. Because we pasted into 
             //                       a non-UTF file in UltraEdit? Only part
@@ -17254,7 +17268,7 @@ namespace OverflowHelper.core
             //                       version (because we didn't specify it in 
             //                       head?).
             //
-            scratchSB.Append("&ohm;"); 
+            scratchSB.Append("&ohm;");
             scratchSB.Append("&nbsp;&nbsp;");
 
             scratchSB.Append("Right arrow: ");
@@ -17323,7 +17337,7 @@ namespace OverflowHelper.core
             scratchSB.Append("\n");
             scratchSB.Append("        <hr/>\n");
 
-            string presumedURL = 
+            string presumedURL =
                 "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_" +
                 dateStr + ".html";
 
@@ -17345,11 +17359,28 @@ namespace OverflowHelper.core
             scratchSB.Append("\n");
 
             return scratchSB.ToString();
+        }
+
+
+        /****************************************************************************
+         *                                                                          * 
+         *  This is the function used by the main user-facing functionality         *
+         *  (menu command), exporting the current wordlist to HTML.                 * 
+         *                                                                          * 
+         ****************************************************************************/
+        public string dumpWordList_asHTML(string aCodeCheck_regularExpression)
+        {
+            return dumpWordList_asHTML(
+                      aCodeCheck_regularExpression,
+                      ref mCaseCorrection,
+                      ref mCaseCorrection_Reverse,
+                      ref mWord2URL);
         } //dumpWordList_asHTML()
+
 
     } //class WikipediaLookup
 
-} //namespace ½OverflowHelper.core
 
+} //namespace OverflowHelper.core
 
  

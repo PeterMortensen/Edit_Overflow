@@ -39,8 +39,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mbar_File = new System.Windows.Forms.ToolStripMenuItem();
             this.menuExportWordlist = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuExportWordlistAsSQL = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuSelectCurrentSite = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSelectCurrentEditSummaryStyle = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.mbar_Edit = new System.Windows.Forms.ToolStripMenuItem();
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -188,9 +191,7 @@
             this.tstrLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tstrLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.chkSpellingOfStackOverflow = new System.Windows.Forms.CheckBox();
-            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
-            this.mnuExportWordlistAsSQL = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuHTML_WordListWithoutWords = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.grpDoStuffOnQuestionIDs.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -298,6 +299,18 @@
             this.menuExportWordlist.Text = "&Export Wordlist as HTML";
             this.menuExportWordlist.Click += new System.EventHandler(this.menuExportWordlist_Click);
             // 
+            // mnuExportWordlistAsSQL
+            // 
+            this.mnuExportWordlistAsSQL.Name = "mnuExportWordlistAsSQL";
+            this.mnuExportWordlistAsSQL.Size = new System.Drawing.Size(311, 24);
+            this.mnuExportWordlistAsSQL.Text = "Export Wordlist as SQL";
+            this.mnuExportWordlistAsSQL.Click += new System.EventHandler(this.mnuExportWordlistAsSQL_Click);
+            // 
+            // toolStripSeparator14
+            // 
+            this.toolStripSeparator14.Name = "toolStripSeparator14";
+            this.toolStripSeparator14.Size = new System.Drawing.Size(308, 6);
+            // 
             // mnuSelectCurrentSite
             // 
             this.mnuSelectCurrentSite.Name = "mnuSelectCurrentSite";
@@ -312,6 +325,11 @@
             this.mnuSelectCurrentEditSummaryStyle.Size = new System.Drawing.Size(311, 24);
             this.mnuSelectCurrentEditSummaryStyle.Text = "Select C&urrent Edit Summary Style...";
             this.mnuSelectCurrentEditSummaryStyle.Click += new System.EventHandler(this.mnuSelectCurrentEditSummaryStyle_Click);
+            // 
+            // toolStripSeparator15
+            // 
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            this.toolStripSeparator15.Size = new System.Drawing.Size(308, 6);
             // 
             // mnuExit
             // 
@@ -921,6 +939,7 @@
             this.mnuOpenApplicationFolder,
             this.mnuCallingDoEvents,
             this.mnuDisablingACheckbox,
+            this.mnuHTML_WordListWithoutWords,
             this.toolStripSeparator12,
             this.mnuOpenRandomPage_noAnswers_2,
             this.mnuOpenRandomQuestion_2,
@@ -956,9 +975,11 @@
             // 
             // mnuDisablingACheckbox
             // 
+            this.mnuDisablingACheckbox.BackColor = System.Drawing.Color.Red;
             this.mnuDisablingACheckbox.Name = "mnuDisablingACheckbox";
             this.mnuDisablingACheckbox.Size = new System.Drawing.Size(551, 24);
             this.mnuDisablingACheckbox.Text = "Disabling a checkbox - test!";
+            this.mnuDisablingACheckbox.Visible = false;
             this.mnuDisablingACheckbox.Click += new System.EventHandler(this.mnuDisablingACheckbox_Click);
             // 
             // toolStripSeparator12
@@ -1604,22 +1625,12 @@
             this.chkSpellingOfStackOverflow.Text = "Spelling of Stack Overflow";
             this.chkSpellingOfStackOverflow.UseVisualStyleBackColor = true;
             // 
-            // toolStripSeparator14
+            // mnuHTML_WordListWithoutWords
             // 
-            this.toolStripSeparator14.Name = "toolStripSeparator14";
-            this.toolStripSeparator14.Size = new System.Drawing.Size(308, 6);
-            // 
-            // toolStripSeparator15
-            // 
-            this.toolStripSeparator15.Name = "toolStripSeparator15";
-            this.toolStripSeparator15.Size = new System.Drawing.Size(308, 6);
-            // 
-            // mnuExportWordlistAsSQL
-            // 
-            this.mnuExportWordlistAsSQL.Name = "mnuExportWordlistAsSQL";
-            this.mnuExportWordlistAsSQL.Size = new System.Drawing.Size(311, 24);
-            this.mnuExportWordlistAsSQL.Text = "Export Wordlist as SQL";
-            this.mnuExportWordlistAsSQL.Click += new System.EventHandler(this.mnuExportWordlistAsSQL_Click);
+            this.mnuHTML_WordListWithoutWords.Name = "mnuHTML_WordListWithoutWords";
+            this.mnuHTML_WordListWithoutWords.Size = new System.Drawing.Size(551, 24);
+            this.mnuHTML_WordListWithoutWords.Text = "HTML Word List Without Words - test!";
+            this.mnuHTML_WordListWithoutWords.Click += new System.EventHandler(this.mnuHTML_WordListWithoutWords_Click);
             // 
             // frmMainForm
             // 
@@ -1853,6 +1864,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuExportWordlistAsSQL;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
+        private System.Windows.Forms.ToolStripMenuItem mnuHTML_WordListWithoutWords;
     }
 }
 
