@@ -3289,13 +3289,49 @@ namespace OverflowHelper
             SelectEditSummaryStyle dialog = 
                 new SelectEditSummaryStyle(mEditSummaryStyle);
             dialog.ShowDialog();
-
         }
 
 
+        /****************************************************************************
+         *                                                                          *
+         *    Handler for menu "Utility" -> "HTML Word List Without Words - test!"  *
+         *                                                                          *
+         *    The menu item is usually made invisible because it                    *
+         *    is only used during development.                                      *
+         *                                                                          *
+         *    It is a means of generating the skeleton of HTML                      *
+         *    export for regression testing when doing                              *
+         *    refactoring of dumpWordList_asHTML(),                                 *
+         *    without being affected by changes                                     *
+         *    to the word list.                                                     *
+         ****************************************************************************/
+        private void mnuHTML_WordListWithoutWords_Click(object aSender, 
+                                                        EventArgs anEvent)
+        {
+            // We call it with all empty variable information to get
+            // a stable output for regression testing (get skeleton
+            // HTML, with only the begining and end, with an empty
+            // word table)
+            Dictionary<string, string> someCaseCorrection = 
+                new Dictionary<string, string>();
+            Dictionary<string, string> someWord2URL = 
+                new Dictionary<string, string>();
+            Dictionary<string, string> someCaseCorrection_Reverse = 
+                new Dictionary<string, string>();
+            string Wordlist_HTML =
+              WikipediaLookup.dumpWordList_asHTML(
+                "", 
+                ref someCaseCorrection,
+                ref someWord2URL,
+                ref someCaseCorrection_Reverse);
 
+            int len = Wordlist_HTML.Length;
 
+            //Output for now
+            txtInputArea.Text = Wordlist_HTML;
+        }
 
+        
     } //class frmMainForm
 
 

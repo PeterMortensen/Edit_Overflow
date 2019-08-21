@@ -185,6 +185,7 @@
     <Compile Include="OverflowHelper\Source\main\CheckinMessageBuilder.cs" />
     <Compile Include="OverflowHelper\Source\main\CommandLineParameters.cs" />
     <Compile Include="OverflowHelper\Source\main\EditSummaryStyle.cs" />
+    <Compile Include="OverflowHelper\Source\main\HTML_builder.cs" />
     <Compile Include="OverflowHelper\Source\main\LinkRef.cs" />
     <Compile Include="OverflowHelper\Source\main\LookUpString.cs" />
     <Compile Include="OverflowHelper\Source\main\Sites.cs" />
