@@ -17063,48 +17063,64 @@ namespace OverflowHelper.core
             scratchSB.Length = 0;
 
 
-            scratchSB.Append("<!DOCTYPE html>\n");
-
-            scratchSB.Append("\n");
-            scratchSB.Append("<html lang=\"en\">\n");
-
-            scratchSB.Append("\n");
-            scratchSB.Append("    <head>\n");
-
-            //To make the special characters at the end (e.g. for arrow) actually
-            //work on the resulting web opened in the browser
-            scratchSB.Append("    	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-            scratchSB.Append("\n");
-
-            //Title
-            scratchSB.Append("        <title>");
-            scratchSB.Append(title);
-            scratchSB.Append("</title>\n");
+            HTML_builder builder = new HTML_builder();
+            builder.startHTML(title);
 
             //CSS for table
-            scratchSB.Append("        <style>\n");
-            scratchSB.Append("            body {\n");
-            scratchSB.Append("                background-color: lightgrey;\n");
-            scratchSB.Append("            }\n");
-            scratchSB.Append("            th {\n");
-            scratchSB.Append("                text-align: left;\n");
-            scratchSB.Append("                background-color: orange;\n");
-            scratchSB.Append("            }\n");
-            scratchSB.Append("            tr {\n");
-            scratchSB.Append("                text-align: left;\n");
-            scratchSB.Append("                background-color: lightblue;\n");
-            scratchSB.Append("            }\n");
-            scratchSB.Append("        </style>\n");
+            //scratchSB.Append("        <style>\n");
+            //builder.addContentWithEmptyLine("<style>");
+            //builder.indentLevelUp();
+            builder.startTagWithEmptyLine("style");
+
+
+            //scratchSB.Append("            body {\n");
+            //scratchSB.Append("                background-color: lightgrey;\n");
+            //scratchSB.Append("            }\n");
+            builder.addContentOnSeparateLine("body {");
+            builder.indentLevelUp();
+            builder.addContentOnSeparateLine("background-color: lightgrey;");
+            builder.indentLevelDown();
+            builder.addContentOnSeparateLine("}");
+
+            //scratchSB.Append("            th {\n");
+            //scratchSB.Append("                text-align: left;\n");
+            //scratchSB.Append("                background-color: orange;\n");
+            //scratchSB.Append("            }\n");
+            builder.addContentOnSeparateLine("th {");
+            builder.indentLevelUp();
+            builder.addContentOnSeparateLine("text-align: left;");
+            builder.addContentOnSeparateLine("background-color: orange;");
+            builder.indentLevelDown();
+            builder.addContentOnSeparateLine("}");
+
+            //scratchSB.Append("            tr {\n");
+            //scratchSB.Append("                text-align: left;\n");
+            //scratchSB.Append("                background-color: lightblue;\n");
+            //scratchSB.Append("            }\n");
+            builder.addContentOnSeparateLine("tr {");
+            builder.indentLevelUp();
+            builder.addContentOnSeparateLine("text-align: left;");
+            builder.addContentOnSeparateLine("background-color: lightblue;");
+            builder.indentLevelDown();
+            builder.addContentOnSeparateLine("}");
+
+            //scratchSB.Append("        </style>\n");
+            builder.endTagOneSeparateLine("style");
+
+            builder.endTagOneSeparateLine("head");
 
             //Start of body
-            scratchSB.Append("\n");
-            scratchSB.Append("    <body>\n");
+            //scratchSB.Append("\n");
+            //scratchSB.Append("    <body>\n");
+            //builder.addContentWithEmptyLine("<body>");
+            //builder.indentLevelUp();
+            builder.startTagWithEmptyLine("body");
 
             //Headline
-            scratchSB.Append("        <h1>");
-            scratchSB.Append(title);
-            scratchSB.Append("</h1>\n");
-
+            //scratchSB.Append("        <h1>");
+            //scratchSB.Append(title);
+            //scratchSB.Append("</h1>\n");
+            builder.singleLineTagOnSeparateLine("h1", title);
 
 
             //// Justification for its existence...
@@ -17113,130 +17129,185 @@ namespace OverflowHelper.core
             //scratchSB.Append("This content of this list is 99% from what someone on the Internet actually posted (in most case misspelled) - it is not a made-up list. ");
 
 
-
-
-
             // Some disclaimers regarding the accuracy...
-            scratchSB.Append("\n");
-            scratchSB.Append("        <p>");
-            scratchSB.Append("Note: Some terms are not actually ");
-            scratchSB.Append("incorrect, but serve as:\n\n");
-            scratchSB.Append("        </p>\n");
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <p>");
+            //scratchSB.Append("Note: Some terms are not actually ");
+            //scratchSB.Append("incorrect, but serve as:\n\n");
+            //scratchSB.Append("        </p>\n");
+            builder.addParagraph(
+                "Note: Some terms are not actually " +
+                "incorrect, but serve as:");
 
-            scratchSB.Append("        <ul>\n");
-            scratchSB.Append("          <li>");
-            scratchSB.Append("Expansions (for example, expanding \"JS\" ");
-            scratchSB.Append("to \"JavaScript\").");
-            scratchSB.Append("</li>\n");
+            //builder.addContentWithEmptyLine("<ul>");
+            //builder.indentLevelUp();
+            builder.startTagWithEmptyLine("ul");
+            
+            //scratchSB.Append("          <li>");
+            //scratchSB.Append("Expansions (for example, expanding \"JS\" ");
+            //scratchSB.Append("to \"JavaScript\").");
+            //scratchSB.Append("</li>\n");
 
-            scratchSB.Append("          <li>");
-            scratchSB.Append("Go the other way, from expanded to abbreviation.");
-            scratchSB.Append("</li>\n");
+            //scratchSB.Append("          <li>");
+            //scratchSB.Append("Go the other way, from expanded to abbreviation.");
+            //scratchSB.Append("</li>\n");
 
-            scratchSB.Append("          <li>");
-            scratchSB.Append("Include line-break protection (though only in ");
-            scratchSB.Append("the HTML source, not as displayed here) - by &amp;nbsp;.");
-            scratchSB.Append("</li>\n");
+            //scratchSB.Append("          <li>");
+            //scratchSB.Append("Include line-break protection (though only in ");
+            //scratchSB.Append("the HTML source, not as displayed here) - by &amp;nbsp;.");
+            //scratchSB.Append("</li>\n");
 
-            scratchSB.Append("          <li>");
-            scratchSB.Append("Casing of some words and tense of some verbs are not ");
-            scratchSB.Append("always 100% correct (this must be dealt with manually) - the ");
-            scratchSB.Append("reason is to avoid redundancy.");
-            scratchSB.Append("</li>\n");
-            scratchSB.Append("        </ul>\n");
+            //scratchSB.Append("          <li>");
+            //scratchSB.Append("Casing of some words and tense of some verbs are not ");
+            //scratchSB.Append("always 100% correct (this must be dealt with manually) - the ");
+            //scratchSB.Append("reason is to avoid redundancy.");
+            //scratchSB.Append("</li>\n");
+            builder.singleLineTagOnSeparateLine(
+                "li",
+                "Expansions (for example, expanding \"JS\" to \"JavaScript\").");
+            builder.singleLineTagOnSeparateLine(
+                "li",
+                "Go the other way, from expanded to abbreviation.");
+            builder.singleLineTagOnSeparateLine(
+                "li",
+                "Include line-break protection (though only in " +
+                "the HTML source, not as displayed here) - by &amp;nbsp;.");
+            builder.singleLineTagOnSeparateLine(
+                "li",
+                "Casing of some words and tense of some verbs are not " +
+                "always 100% correct (this must be dealt with manually) - the " +
+                "reason is to avoid redundancy.");
 
-            scratchSB.Append("\n");
-            scratchSB.Append("        <p>\n");
-            scratchSB.Append("            Also note that this should not be applied ");
-            scratchSB.Append("blindly (high rate of false positives) - ");
-            scratchSB.Append("every match should be manually checked.\n");
-            scratchSB.Append("        </p>\n");
+            //scratchSB.Append("        </ul>\n");
+            builder.endTagOneSeparateLine("ul");
 
 
-            //There is some redundancy here...
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <p>\n");
+            //scratchSB.Append("            Also note that this should not be applied ");
+            //scratchSB.Append("blindly (high rate of false positives) - ");
+            //scratchSB.Append("every match should be manually checked.\n");
+            //scratchSB.Append("        </p>\n");
+            builder.addParagraph(
+                "Also note that this should not be applied " +
+                  "blindly (high rate of false positives) - " +
+                  "every match should be manually checked."
+                );
 
             //Some statistics
-            scratchSB.Append("<hr/>\n");
-            scratchSB.Append("\n");
-            scratchSB.Append("        <p>");
-            scratchSB.Append("Longest incorrect term: \"");
-            scratchSB.Append(longestInCorrectTerm);
-            scratchSB.Append("\" (");
-            scratchSB.Append(lenLongestInCorrectTermStr);
-            scratchSB.Append(" characters)");
-            scratchSB.Append("</p>\n");
+            //scratchSB.Append("<hr/>\n");
+            builder.addContentWithEmptyLine("<hr/>");
 
-            scratchSB.Append("\n");
-            scratchSB.Append("        <p>");
-            scratchSB.Append("Longest correct term: \"");
-            scratchSB.Append(longestCorrectTerm);
-            scratchSB.Append("\" (");
-            scratchSB.Append(lenLongestCorrectTermStr);
-            scratchSB.Append(" characters)");
-            scratchSB.Append("</p>\n");
+            //There is some redundancy here...
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <p>");
+            //scratchSB.Append("Longest incorrect term: \"");
+            //scratchSB.Append(longestInCorrectTerm);
+            //scratchSB.Append("\" (");
+            //scratchSB.Append(lenLongestInCorrectTermStr);
+            //scratchSB.Append(" characters)");
+            //scratchSB.Append("</p>\n");
+            builder.addParagraph(
+                "Longest incorrect term: \"" +
+                  longestInCorrectTerm +
+                  "\" (" +
+                  lenLongestInCorrectTermStr +
+                  " characters)"
+                );
 
-            scratchSB.Append("\n");
-            scratchSB.Append("        <p>");
-            scratchSB.Append("Longest URL: \"");
-            scratchSB.Append(longestURL);
-            scratchSB.Append("\" (");
-            scratchSB.Append(lenLongestURLStr);
-            scratchSB.Append(" characters)");
-            scratchSB.Append("</p>\n");
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <p>");
+            //scratchSB.Append("Longest correct term: \"");
+            //scratchSB.Append(longestCorrectTerm);
+            //scratchSB.Append("\" (");
+            //scratchSB.Append(lenLongestCorrectTermStr);
+            //scratchSB.Append(" characters)");
+            //scratchSB.Append("</p>\n");
+            builder.addParagraph(
+                "Longest correct term: \"" +
+                  longestCorrectTerm +
+                  "\" (" +
+                  lenLongestCorrectTermStr +
+                  " characters)"
+                );
+
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <p>");
+            //scratchSB.Append("Longest URL: \"");
+            //scratchSB.Append(longestURL);
+            //scratchSB.Append("\" (");
+            //scratchSB.Append(lenLongestURLStr);
+            //scratchSB.Append(" characters)");
+            //scratchSB.Append("</p>\n");
+            builder.addParagraph(
+                "Longest URL: \"" +
+                  longestURL +
+                  "\" (" +
+                  lenLongestURLStr +
+                  " characters)"
+                );
+
+            //// Start of table, incl. table headers
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <table>\n");
+            //scratchSB.Append("\n");
+            //scratchSB.Append("\n");
+            builder.startTagWithEmptyLine("table");
+
+            //scratchSB.Append("            <tr>");
+            //
+            //scratchSB.Append(" <th>");
+            //scratchSB.Append("Incorrect");
+            //scratchSB.Append("</th>");
+            //
+            //scratchSB.Append(" <th>");
+            //scratchSB.Append("Correct");
+            //scratchSB.Append("</th>");
+            //
+            //scratchSB.Append(" <th>");
+            //scratchSB.Append("URL");
+            //scratchSB.Append("</th>");
+            //
+            //scratchSB.Append("  </tr>\n");
+            //scratchSB.Append("\n");
+            builder.singleLineTagOnSeparateLine(
+                "tr",
+                " " +
+                  builder.singleLineTagStr("th", "Incorrect") + " " +
+                  builder.singleLineTagStr("th", "Correct") + " " +
+                  builder.singleLineTagStr("th", "URL") + " "
+                );
+            builder.addEmptyLine();
 
 
-            // Start of table, incl. table headers
-            scratchSB.Append("\n");
-            scratchSB.Append("        <table>\n");
-            scratchSB.Append("\n");
-            scratchSB.Append("\n");
-
-            scratchSB.Append("            <tr>");
-
-            scratchSB.Append(" <th>");
-            scratchSB.Append("Incorrect");
-            scratchSB.Append("</th>");
-
-            scratchSB.Append(" <th>");
-            scratchSB.Append("Correct");
-            scratchSB.Append("</th>");
-
-            scratchSB.Append(" <th>");
-            scratchSB.Append("URL");
-            scratchSB.Append("</th>");
-
-            scratchSB.Append("  </tr>\n");
-            scratchSB.Append("\n");
+            // That is everything before the table content, including
+            // the table header...
+            scratchSB.Append(builder.currentHTML()); 
 
             // The bulk of this HTML page - all the data rows in the table.
             scratchSB.Append(HTML_tableRows);
+            
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        </table>\n");
+            builder.endTagOneSeparateLine("table");
 
 
-            //Delete at any time
-            //
-            ////No sorting for now...
-            //Dictionary<string, string>.Enumerator hashEnumerator2 =
-            //    mCaseCorrection.GetEnumerator();
-            //while (hashEnumerator2.MoveNext())
-            //{
-            //    string curBad = hashEnumerator2.Current.Key;
-            //    string curCorrected = hashEnumerator2.Current.Value;
-            //    //string URL = mWord2URL(curCorrected);  //Why doesn't this work???
-            //
-            //    // addTermsToOutput(curBad, curCorrected, ref scratchSB);
-            //} //Hash iteration.
-
-            scratchSB.Append("\n");
-            scratchSB.Append("        </table>\n");
-
-            scratchSB.Append("\n");
-            scratchSB.Append("        <hr/>\n");
+            //scratchSB.Append("\n");
+            //scratchSB.Append("        <hr/>\n");
+            builder.addContentWithEmptyLine("<hr/>");
 
 
             //Headline
-            scratchSB.Append("        <h2>");
-            scratchSB.Append("Some common strings and characters");
-            scratchSB.Append("</h2>\n");
+            //scratchSB.Append("        <h2>");
+            //scratchSB.Append("Some common strings and characters");
+            //scratchSB.Append("</h2>\n");
+            builder.singleLineTagWithEmptyLine(
+                "h2", "Some common strings and characters");
+
+            scratchSB.Append(builder.currentHTML()); 
+            //--------------------------------------------------------
+
+
 
             //Things for copy-paste
             scratchSB.Append("        <p>&nbsp;Code quotes: ");

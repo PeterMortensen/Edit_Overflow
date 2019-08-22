@@ -30,10 +30,6 @@ namespace OverflowHelper.core
             mOptions = System.Environment.GetCommandLineArgs();
         }
 
-
-
-
-
     }
 }
 

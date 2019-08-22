@@ -54,9 +54,33 @@ namespace OverflowHelper.Tests
             // Poor man's hash: check length (later, use a real 
             // hashing function). At least it should catch that 
             // indentation in the HTML source is not broken 
-            // by changes (e.g. refactoring).
+            // by changes (e.g. refactoring) and unintended omissions 
+            // deletions.
+            // 
+            // But it will not detect single spaces replaced by single TAB...
             //
-            Assert.AreEqual(2708, len, "XYZ");
+
+            Assert.AreEqual(
+                2708 + 3 + 1 + 12 - 10 + 1 + 8 - 22 + 9 - 2 - 1 - 1 + 1, 
+                len, "XYZ"); 
+            //    +3 because we discovered and eliminated a tab...
+            //    +1 because changed the HTML slightly...
+            //   +12 because we the end tag for "head" was missing...
+            //   -10 because we used for proper formatting for a <p> tag...
+            //    +1 because we made the HTML look more like in the browser...
+            //    +8 because we fixed indentation for the HTML source for list items...
+            //   -22 because we made the formatting for <p> tags consistent...
+            //    +9 because we fixed the indentation for <hr/>...
+            //    -2 because we made the formatting for the <table> tag consistent...
+            //    -1 because we made the formatting for the table header 
+            //       line consistent...
+            //    -1 because we made the formatting for the table end 
+            //       tag consistent... 
+            //    +1 because we made the formatting for <h2> and <p> tags consistent...
+            
+            Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
+            // any TABs...
+
         } //HTMLexport_emptyWordList()
 
 
@@ -100,6 +124,108 @@ namespace OverflowHelper.Tests
             // //
             // Assert.AreEqual(9999, len, "XYZ");
         } //HTMLexport_emptyWordList()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Intent: Test the indent functionality of the HTML build               *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void HTMLbuilder_indent()
+        {
+            HTML_builder builder = new HTML_builder();
+
+            builder.indentLevelUp();
+            builder.addContentWithEmptyLine("<head>");
+
+            string HTMLcontent = builder.currentHTML();
+            int len = HTMLcontent.Length;
+
+            Assert.AreEqual("\n    <head>\n", HTMLcontent, "XYZ");
+            Assert.AreEqual(12, len, "XYZ"); // Weaker, but the report will be
+            // more clear (as it may be difficult to see with spaces).
+
+        } //HTMLbuilder_indent()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Intent: Test the basic append operations on the HTML builder.         *
+         *    Also test the defined side effect of reading out the HTML             *
+         *    content.                                                              *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void HTML_builder_appendOperations()
+        {
+            HTML_builder builder = new HTML_builder();
+
+            {
+                builder.addContent("<head>");
+
+                string HTMLcontent1 = builder.currentHTML(); // Side effect!
+                int len1 = HTMLcontent1.Length;
+
+                Assert.AreEqual("<head>", HTMLcontent1, "XYZ");
+                Assert.AreEqual(6, len1, "XYZ"); // Weaker, but the report 
+                // will be more clear (as it may be difficult spaces).
+            }
+
+            {
+                builder.addContentOnSeparateLine("<head>");
+
+                string HTMLcontent2 = builder.currentHTML(); // Side effect!
+                int len2 = HTMLcontent2.Length;
+
+                Assert.AreEqual("<head>\n", HTMLcontent2, "XYZ");
+                Assert.AreEqual(7, len2, "XYZ"); // Weaker, but the report 
+                // will be more clear (as it may be difficult spaces).
+            }
+
+            {
+                builder.addContentWithEmptyLine("<head>");
+
+                string HTMLcontent3 = builder.currentHTML(); // Side effect!
+                int len3 = HTMLcontent3.Length;
+
+                Assert.AreEqual("\n<head>\n", HTMLcontent3, "XYZ");
+                Assert.AreEqual(8, len3, "XYZ"); // Weaker, but the report 
+                // will be more clear (as it may be difficult spaces).
+            }
+
+        } //HTML_builder_appendOperations()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Intent: Test the HTML builder's startHTML() method.                   *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void HTML_builder_startHTML()
+        {
+            HTML_builder builder = new HTML_builder();
+            builder.startHTML("Some title");
+
+            string HTMLcontent1 = builder.currentHTML(); // Side effect!
+            int len1 = HTMLcontent1.Length;
+
+            // Poor man's hash: check length (later, use a real 
+            // hashing function). At least it should catch that 
+            // indentation in the HTML source is not broken 
+            // by changes (e.g. refactoring) and unintended omissions 
+            // deletions.
+            // 
+            // But it will not detect single spaces replaced by single TAB...
+            //
+            Assert.AreEqual(157, len1, "XYZ");
+            Assert.AreEqual(HTMLcontent1.IndexOf("\t"), -1, "XYZ"); // Detect 
+            // any TABs...
+
+
+        } //HTML_builder_appendOperations()
+        
 
 
     } //class StringReplacerWithRegexTests 
