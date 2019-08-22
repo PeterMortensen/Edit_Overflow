@@ -63,7 +63,7 @@ namespace OverflowHelper.Tests
 
             Assert.AreEqual(
                 2708 + 3 + 1 + 12 - 10 + 1 + 8 - 22 + 9 - 2 - 1 - 1 + 1 +
-                404, 
+                404 + 153,  
                 len, "XYZ");
             //    +3 because we discovered and eliminated a tab...
             //    +1 because changed the HTML slightly...
@@ -82,7 +82,8 @@ namespace OverflowHelper.Tests
             //       tags consistent...
             //  +404 For a new baseline, after changes to the end of 
             //       the HTML content.
-            //
+            //  +153 because we added a justification for the existence 
+            //       of the word list...
             //
             
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
@@ -151,9 +152,11 @@ namespace OverflowHelper.Tests
             //
 
             Assert.AreEqual(
-                3572 - 24,
+                3572 - 24 + 153,
                 len, "XYZ");
-            //    -24 because we removed unnecessary space...         
+            //   -24 because we removed unnecessary space...         
+            //  +153 because we added a justification for the existence 
+            //       of the word list...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
             // any TABs...
