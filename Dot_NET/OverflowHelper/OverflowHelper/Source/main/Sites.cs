@@ -205,6 +205,9 @@ namespace OverflowHelper.core
             addURL("hsm.stackexchange.com", "History of Science and Mathematics");
 
             addURL("anime.stackexchange.com", "Anime & Manga");
+
+            addURL("iot.stackexchange.com", "Internet of Things");
+            
         }
 
 
