@@ -79,7 +79,7 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *    Adds an empty line in the HTML content.                                *
+         *    Adds an empty line in the HTML content.                               *
          *                                                                          *
          ****************************************************************************/
         public void addEmptyLine()
@@ -151,7 +151,25 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public string singleLineTagStr(string aTagName, string aTagContentText)
         {
-            return ("<" + aTagName + ">" + aTagContentText + "</" + aTagName + ">");
+            return "<" + aTagName + ">" + aTagContentText + "</" + aTagName + ">";
+        }
+
+
+        /****************************************************************************
+         *                                                                          *
+         *  Note: Will insert an empty line and make the content indent             *
+         *        one level further than the current indent level (but              *
+         *        the current indent level will not be changed).                    *
+         *                                                                          *
+         ****************************************************************************/
+        public string smallTextItemWithSpacing(string aName, string aContent)
+        {
+            indentLevelUp();
+            string prefix = "\n" + mSpaces;
+            indentLevelDown();
+
+            return prefix + 
+                   aName + ": " + aContent + "&nbsp;&nbsp;";
         }
 
 
@@ -172,6 +190,16 @@ namespace OverflowHelper.core
             string aTagName, string aTagContentText)
         {
             addContentWithEmptyLine(singleLineTagStr(aTagName, aTagContentText));
+        }
+
+
+        /****************************************************************************
+         *                                                                          *
+         ****************************************************************************/
+        public void addHeader(int aHeaderLevel, string aText)
+        {
+            addContentRaw("\n");
+            singleLineTagWithEmptyLine("h" + aHeaderLevel.ToString(), aText);
         }
 
 
