@@ -42,12 +42,13 @@ namespace OverflowHelper.Tests
                 new Dictionary<string, string>();
             Dictionary<string, string> someCaseCorrection_Reverse =
                 new Dictionary<string, string>();
+
             string Wordlist_HTML =
               WikipediaLookup.dumpWordList_asHTML(
                 "",
                 ref someCaseCorrection,
-                ref someWord2URL,
-                ref someCaseCorrection_Reverse);
+                someCaseCorrection_Reverse.Count,
+                ref someWord2URL);
 
             int len = Wordlist_HTML.Length;
 
@@ -106,30 +107,57 @@ namespace OverflowHelper.Tests
             // on a web page due to the wrong encoding (should be UTF-8).
             //
 
-            //Not yet...
-            // 
-            // Dictionary<string, string> someCaseCorrection =
+            Dictionary<string, string> someCaseCorrection =
+               new Dictionary<string, string>();
+            Dictionary<string, string> someWord2URL =
+                new Dictionary<string, string>();
+            //Dictionary<string, string> someCaseCorrection_Reverse =
             //    new Dictionary<string, string>();
-            // Dictionary<string, string> someWord2URL =
-            //     new Dictionary<string, string>();
-            // Dictionary<string, string> someCaseCorrection_Reverse =
-            //     new Dictionary<string, string>();
-            // string Wordlist_HTML =
-            //   WikipediaLookup.dumpWordList_asHTML(
-            //     "",
-            //     ref someCaseCorrection,
-            //     ref someWord2URL,
-            //     ref someCaseCorrection_Reverse);
+
+            // First
+            someCaseCorrection.Add("JS", "JavaScript");
+            someWord2URL.Add(
+                "JavaScript", 
+                "https://en.wikipedia.org/wiki/JavaScript");
+
+            // Second
+            someCaseCorrection.Add("angstrom", "Ångström Linux");
+            someWord2URL.Add(
+                "Ångström Linux",
+                "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
+
+            // Third
+            someCaseCorrection.Add("utorrent", "µTorrent");
+            someWord2URL.Add(
+                "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+
+            string Wordlist_HTML =
+              WikipediaLookup.dumpWordList_asHTML(
+                "",
+                ref someCaseCorrection,
+                someWord2URL.Count,
+                ref someWord2URL
+              );
+
+            int len = Wordlist_HTML.Length;
+
+            // Poor man's hash: check length (later, use a real 
+            // hashing function). At least it should catch that 
+            // indentation in the HTML source is not broken 
+            // by changes (e.g. refactoring) and unintended omissions 
+            // deletions.
             // 
-            // int len = Wordlist_HTML.Length;
-            // 
-            // // Poor man's hash: check length (later, use a real 
-            // // hashing function). At least it should catch that 
-            // // indentation in the HTML source is not broken 
-            // // by changes (e.g. refactoring).
-            // //
-            // Assert.AreEqual(9999, len, "XYZ");
-        } //HTMLexport_emptyWordList()
+            // But it will not detect single spaces replaced by single TAB...
+            //
+
+            Assert.AreEqual(
+                3572 - 24,
+                len, "XYZ");
+            //    -24 because we removed unnecessary space...         
+
+            Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
+            // any TABs...
+        } //HTMLexport_fixedWordList()
 
 
         /****************************************************************************

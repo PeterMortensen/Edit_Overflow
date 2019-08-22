@@ -16700,8 +16700,6 @@ namespace OverflowHelper.core
 
             URL_Add("CSS grid", "https://en.wikipedia.org/wiki/CSS_grid_layout");
 
-
-
             //========================================================
             //BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
 
@@ -16753,7 +16751,7 @@ namespace OverflowHelper.core
                 }
             }
             return toReturn;
-        }
+        } //lookUp()
 
 
         /****************************************************************************
@@ -16762,7 +16760,7 @@ namespace OverflowHelper.core
         private static string escapeSQL(string aStringForSQL)
         {
             return aStringForSQL.Replace("'", "''");
-        }
+        } //escapeSQL()
         
 
         /****************************************************************************
@@ -16773,18 +16771,10 @@ namespace OverflowHelper.core
                                           ref StringBuilder aSomeScratch,
                                           string aURL)
         {
-            //Delete at any time
-            //anOutURL = null;
-            //if (mWord2URL.TryGetValue(aCorrectedTerm, out anOutURL))
-            //{
-            //}
-
-        
             if (aBadTerm.IndexOf("'") >= 0)
             {
                 int peter7 = 7;
             }
-
 
             aSomeScratch.Append("INSERT INTO EditOverflow\n");
             aSomeScratch.Append("  (incorrectTerm, correctTerm, URL)\n");
@@ -16813,33 +16803,35 @@ namespace OverflowHelper.core
          *    <placeholder for header>                                              *
          ****************************************************************************/
         private static void addTermsToOutput_HTML(string aBadTerm,
-                                           string aCorrectedTerm,
-                                           ref StringBuilder aSomeScratch, 
-                                           string aURL)
+                                                  string aCorrectedTerm,
+                                                  //ref StringBuilder aSomeScratch, 
+                                                  ref HTML_builder aInOutBuilder,
+                                                  string aURL)
         {
-            //Delete at any time
-            ////string someURL = null;
-            //anOutURL = null;
-            //if (mWord2URL.TryGetValue(aCorrectedTerm, out anOutURL))
-            //{
-            //}
+            //aSomeScratch.Append("            <tr>  ");
+            //
+            //aSomeScratch.Append("  <td>");
+            //aSomeScratch.Append(aBadTerm);
+            //aSomeScratch.Append("</td>");
+            //
+            //aSomeScratch.Append("  <td>");
+            //aSomeScratch.Append(aCorrectedTerm);
+            //aSomeScratch.Append("</td>");
+            //
+            //aSomeScratch.Append("  <td>");
+            //aSomeScratch.Append(aURL);
+            //aSomeScratch.Append("</td>");
+            //
+            //aSomeScratch.Append("    </tr>");
+            //aSomeScratch.Append("\n");
+            aInOutBuilder.singleLineTagOnSeparateLine(
+                "tr",
+                " " +
+                  aInOutBuilder.singleLineTagStr("td", aBadTerm) + " " +
+                  aInOutBuilder.singleLineTagStr("td", aCorrectedTerm) + " " +
+                  aInOutBuilder.singleLineTagStr("td", aURL) + " "
+                );
 
-            aSomeScratch.Append("            <tr>  ");
-
-            aSomeScratch.Append("  <td>");
-            aSomeScratch.Append(aBadTerm);
-            aSomeScratch.Append("</td>");
-
-            aSomeScratch.Append("  <td>");
-            aSomeScratch.Append(aCorrectedTerm);
-            aSomeScratch.Append("</td>");
-
-            aSomeScratch.Append("  <td>");
-            aSomeScratch.Append(aURL);
-            aSomeScratch.Append("</td>");
-
-            aSomeScratch.Append("    </tr>");
-            aSomeScratch.Append("\n");
         } //addTermsToOutput_HTML()
 
 
@@ -16853,7 +16845,7 @@ namespace OverflowHelper.core
             const string start = "&lt;";
             const string end = "&lt;/";
             return "" + start + aTagName + ">" + aText + end + aTagName + "> ";
-        }
+        } //encloseInTag_HTML()
 
        
         /****************************************************************************
@@ -16870,7 +16862,7 @@ namespace OverflowHelper.core
          *                                                                          * 
          ****************************************************************************/
         private static void generateMainTable(
-            ref StringBuilder aSomeScratch, 
+            ref StringBuilder aSomeScratch2, 
             bool aGenerateHTML, 
             ref string aLongestInCorrectTerm,
             ref string aLongestCorrectTerm,
@@ -16894,6 +16886,12 @@ namespace OverflowHelper.core
             List<string> someKeys_incorrectTerms = sortObject.keys();
 
             string prevCorrectTerm = "";
+
+            HTML_builder builder = new HTML_builder();
+            for (int i = 0; i < 3; i++)
+            {
+                builder.indentLevelUp();
+            }
 
             foreach (int someIndex in indexes)
             {
@@ -16921,14 +16919,14 @@ namespace OverflowHelper.core
                 {
                     addTermsToOutput_HTML(someIncorrectTerm, 
                                           someCorrectTerm,
-                                          ref aSomeScratch, 
+                                          ref builder, 
                                           someURL);
                 }
                 else
                 {
                     addTermsToOutput_SQL(someIncorrectTerm,
                                          someCorrectTerm,
-                                         ref aSomeScratch,
+                                         ref aSomeScratch2,
                                          someURL);
 
                     // We can rely on the sorted order, first by incorrect and
@@ -16941,10 +16939,11 @@ namespace OverflowHelper.core
                         // want to get the URL.
                         addTermsToOutput_SQL(someCorrectTerm,
                                              someCorrectTerm,
-                                             ref aSomeScratch,
+                                             ref aSomeScratch2,
                                              someURL);
                     }
                 }
+
 
                 if (someIncorrectTerm.Length > aLongestInCorrectTerm.Length)
                 {
@@ -16961,7 +16960,12 @@ namespace OverflowHelper.core
 
                 prevCorrectTerm = someCorrectTerm;
             } //Through the list of incorrect words
-        }
+
+            if (aGenerateHTML)
+            {
+                aSomeScratch2.Append(builder.currentHTML());
+            }
+        } //generateMainTable()
         
         
         /****************************************************************************
@@ -16989,7 +16993,7 @@ namespace OverflowHelper.core
 
             scratchSB.Append(SQL_tableRows);
             return scratchSB.ToString();
-        }
+        } //dumpWordList_asSQL()
 
         /****************************************************************************
          *                                                                          *
@@ -17356,7 +17360,6 @@ namespace OverflowHelper.core
             //scratchSB.Append("        <hr/>\n");
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
-
             ////Headline
             //scratchSB.Append("        <h2>");
             //scratchSB.Append("Code formatting check");
@@ -17452,7 +17455,7 @@ namespace OverflowHelper.core
             //scratchSB.Append("\n");
             aInOutBuilder.addEmptyLine();
             aInOutBuilder.endTagOneSeparateLine("html");
-        }
+        } //endOfHTML_document()
 
 
         /****************************************************************************
@@ -17464,7 +17467,7 @@ namespace OverflowHelper.core
         public static string dumpWordList_asHTML(
             string aCodeCheck_regularExpression,
             ref Dictionary<string, string> aCaseCorrection,
-            ref Dictionary<string, string> aCaseCorrection_Reverse,            
+            int aUniqueWords,
             ref Dictionary<string, string> aWord2URL
             )
         {
@@ -17501,7 +17504,9 @@ namespace OverflowHelper.core
             // 2016-07-22: Now, 676067, still 7% margin.
 
             int items = aCaseCorrection.Count;
-            int uniques = aCaseCorrection_Reverse.Count;
+
+            //int uniques = aCaseCorrection_Reverse.Count;
+            
             string versionStr = EditorOverflowApplication.fullVersionStr();
 
             // This would if the date changes right after the call of fullVersionStr()...
@@ -17515,12 +17520,11 @@ namespace OverflowHelper.core
             scratchSB.Append("Edit Overflow wordlist. ");
             scratchSB.Append(items);
             scratchSB.Append(" input words and ");
-            scratchSB.Append(uniques);
+            scratchSB.Append(aUniqueWords);
             scratchSB.Append(" output words (for ");
             scratchSB.Append(versionStr);
             scratchSB.Append(")");
             string title = scratchSB.ToString();
-
 
             scratchSB.Length = 0;
             
@@ -17566,7 +17570,7 @@ namespace OverflowHelper.core
             return dumpWordList_asHTML(
                       aCodeCheck_regularExpression,
                       ref mCaseCorrection,
-                      ref mCaseCorrection_Reverse,
+                      mCaseCorrection_Reverse.Count,
                       ref mWord2URL);
         } //dumpWordList_asHTML()
 

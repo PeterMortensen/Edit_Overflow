@@ -3322,8 +3322,9 @@ namespace OverflowHelper
               WikipediaLookup.dumpWordList_asHTML(
                 "", 
                 ref someCaseCorrection,
-                ref someWord2URL,
-                ref someCaseCorrection_Reverse);
+                someCaseCorrection_Reverse.Count,
+                ref someWord2URL
+                );
 
             int len = Wordlist_HTML.Length;
 
