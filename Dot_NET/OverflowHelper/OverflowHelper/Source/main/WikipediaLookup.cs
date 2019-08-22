@@ -17014,11 +17014,13 @@ namespace OverflowHelper.core
             aInOutBuilder.startHTML(aTitle);
 
             //CSS for table
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <style>\n");
             //builder.addContentWithEmptyLine("<style>");
             //builder.indentLevelUp();
             aInOutBuilder.startTagWithEmptyLine("style");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("            body {\n");
             //scratchSB.Append("                background-color: lightgrey;\n");
             //scratchSB.Append("            }\n");
@@ -17028,6 +17030,7 @@ namespace OverflowHelper.core
             aInOutBuilder.indentLevelDown();
             aInOutBuilder.addContentOnSeparateLine("}");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("            th {\n");
             //scratchSB.Append("                text-align: left;\n");
             //scratchSB.Append("                background-color: orange;\n");
@@ -17039,6 +17042,7 @@ namespace OverflowHelper.core
             aInOutBuilder.indentLevelDown();
             aInOutBuilder.addContentOnSeparateLine("}");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("            tr {\n");
             //scratchSB.Append("                text-align: left;\n");
             //scratchSB.Append("                background-color: lightblue;\n");
@@ -17050,12 +17054,14 @@ namespace OverflowHelper.core
             aInOutBuilder.indentLevelDown();
             aInOutBuilder.addContentOnSeparateLine("}");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        </style>\n");
             aInOutBuilder.endTagOneSeparateLine("style");
 
             aInOutBuilder.endTagOneSeparateLine("head");
 
             //Start of body
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("    <body>\n");
             //builder.addContentWithEmptyLine("<body>");
@@ -17063,18 +17069,21 @@ namespace OverflowHelper.core
             aInOutBuilder.startTagWithEmptyLine("body");
 
             //Headline
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <h1>");
             //scratchSB.Append(title);
             //scratchSB.Append("</h1>\n");
             //builder.singleLineTagOnSeparateLine("h1", title);
             aInOutBuilder.addHeader(1, aTitle);
 
-            //// Justification for its existence...
-            //scratchSB.Append("\n");
-            //scratchSB.Append("        <p>");
-            //scratchSB.Append("This content of this list is 99% from what someone on the Internet actually posted (in most case misspelled) - it is not a made-up list. ");
+            // Justification for its existence...
+            aInOutBuilder.addParagraph(
+                "The content of this list is 99% from what someone on " +
+                "the Internet actually posted (in most cases misspelled) - " +
+                "it is not a made-up list.");
 
             // Some disclaimers regarding the accuracy...
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <p>");
             //scratchSB.Append("Note: Some terms are not actually ");
@@ -17088,20 +17097,21 @@ namespace OverflowHelper.core
             //builder.indentLevelUp();
             aInOutBuilder.startTagWithEmptyLine("ul");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("          <li>");
             //scratchSB.Append("Expansions (for example, expanding \"JS\" ");
             //scratchSB.Append("to \"JavaScript\").");
             //scratchSB.Append("</li>\n");
-
+            //
             //scratchSB.Append("          <li>");
             //scratchSB.Append("Go the other way, from expanded to abbreviation.");
             //scratchSB.Append("</li>\n");
-
+            //
             //scratchSB.Append("          <li>");
             //scratchSB.Append("Include line-break protection (though only in ");
             //scratchSB.Append("the HTML source, not as displayed here) - by &amp;nbsp;.");
             //scratchSB.Append("</li>\n");
-
+            //
             //scratchSB.Append("          <li>");
             //scratchSB.Append("Casing of some words and tense of some verbs are not ");
             //scratchSB.Append("always 100% correct (this must be dealt with manually) - the ");
@@ -17123,9 +17133,11 @@ namespace OverflowHelper.core
                 "always 100% correct (this must be dealt with manually) - the " +
                 "reason is to avoid redundancy.");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        </ul>\n");
             aInOutBuilder.endTagOneSeparateLine("ul");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <p>\n");
             //scratchSB.Append("            Also note that this should not be applied ");
@@ -17139,10 +17151,12 @@ namespace OverflowHelper.core
                 );
 
             //Some statistics
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("<hr/>\n");
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
             //There is some redundancy here...
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <p>");
             //scratchSB.Append("Longest incorrect term: \"");
@@ -17159,6 +17173,7 @@ namespace OverflowHelper.core
                   " characters)"
                 );
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <p>");
             //scratchSB.Append("Longest correct term: \"");
@@ -17175,6 +17190,7 @@ namespace OverflowHelper.core
                   " characters)"
                 );
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <p>");
             //scratchSB.Append("Longest URL: \"");
@@ -17202,12 +17218,14 @@ namespace OverflowHelper.core
         public static void startOfHTML_Table(ref HTML_builder aInOutBuilder)
         {
             //// Start of table, incl. table headers
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <table>\n");
             //scratchSB.Append("\n");
             //scratchSB.Append("\n");
             aInOutBuilder.startTagWithEmptyLine("table");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("            <tr>");
             //
             //scratchSB.Append(" <th>");
@@ -17244,11 +17262,13 @@ namespace OverflowHelper.core
                                               string aCodeCheck_regularExpression,
                                               string aDateStr)
         {
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <hr/>\n");
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
             //Headline
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <h2>");
             //scratchSB.Append("Some common strings and characters");
             //scratchSB.Append("</h2>\n");
@@ -17257,6 +17277,7 @@ namespace OverflowHelper.core
             aInOutBuilder.addHeader(2, "Some common strings and characters");
 
             //Things for copy-paste
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <p>&nbsp;Code quotes: ");
             //scratchSB.Append(WikipediaLookup.kCodeQuoteStr);
             //scratchSB.Append(WikipediaLookup.kCodeQuoteStr);
@@ -17356,11 +17377,13 @@ namespace OverflowHelper.core
                   "Line break", "&nbsp;&lt;br/>")
             );
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <hr/>\n");
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
             ////Headline
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <h2>");
             //scratchSB.Append("Code formatting check");
             //scratchSB.Append("</h2>\n");
@@ -17382,16 +17405,19 @@ namespace OverflowHelper.core
                 "every hit should be checked manually): <br/>" +
                 aCodeCheck_regularExpression);
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <hr/>\n");
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <h2>");
             //scratchSB.Append("Templates");
             //scratchSB.Append("</h2>\n");
             //builder.singleLineTagWithEmptyLine("h2", "Templates");
             aInOutBuilder.addHeader(2, "Templates");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("        <p> ");
             //scratchSB.Append(encloseInTag_HTML("sub", "sub"));
             //scratchSB.Append(encloseInTag_HTML("kbd", "Key"));
@@ -17417,6 +17443,7 @@ namespace OverflowHelper.core
                   "&amp;lt;XYZ>")
             );
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <hr/>\n");
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
@@ -17425,6 +17452,7 @@ namespace OverflowHelper.core
                 "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_" +
                 aDateStr + ".html";
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <a href=\"http://validator.w3.org/check?uri=");
             //scratchSB.Append(presumedURL);
@@ -17437,6 +17465,7 @@ namespace OverflowHelper.core
                 "HTML validation</a>"
             );
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        <a href=\"http://pmortensen.eu/\">");
             //scratchSB.Append("Back to Edit Overflow page</a>\n");
@@ -17445,11 +17474,13 @@ namespace OverflowHelper.core
                 "Back to Edit Overflow page</a>"
             );
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("    </body>\n");
             aInOutBuilder.addEmptyLine();
             aInOutBuilder.endTagOneSeparateLine("body");
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("</html>\n");
             //scratchSB.Append("\n");
@@ -17546,6 +17577,7 @@ namespace OverflowHelper.core
             // The bulk of this HTML page - all the data rows in the table.
             scratchSB.Append(HTML_tableRows);
 
+            //Delete the scratchSB.Append(), etc. lines at any time.
             //scratchSB.Append("\n");
             //scratchSB.Append("        </table>\n");
             builder.endTagOneSeparateLine("table");
