@@ -4052,6 +4052,7 @@ namespace OverflowHelper.core
             correctionAdd("args", "argument"); //Not 100% correct - plural.
             correctionAdd("agurment", "argument");
             correctionAdd("arugument", "argument");
+            correctionAdd("arguement", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -4275,6 +4276,9 @@ namespace OverflowHelper.core
             correctionAdd("becauae", "because");
             correctionAdd("’Cause", "because");
             correctionAdd("’cause", "because");
+            correctionAdd("Beecause", "because");
+            correctionAdd("beecause", "because");
+
             
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
             //  unfortunately been deleted: http://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -4607,6 +4611,7 @@ namespace OverflowHelper.core
             correctionAdd("Amazon Web Services", "Amazon AWS");
             correctionAdd("amazon AWS", "Amazon AWS");
             correctionAdd("amazon aws", "Amazon AWS");
+            correctionAdd("Aws", "Amazon AWS");
             
             correctionAdd("amazon", "Amazon.com"); //The name is actually Amazon.com.
             correctionAdd("Amazon", "Amazon.com");
@@ -6870,6 +6875,9 @@ namespace OverflowHelper.core
             correctionAdd("of corse", "of course");
             correctionAdd("Of coarse", "of course");
             correctionAdd("of coarse", "of course");
+            correctionAdd("Offcours", "of course");
+            correctionAdd("offcours", "of course");
+
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -6940,6 +6948,7 @@ namespace OverflowHelper.core
 
             correctionAdd("relevent", "relevant");
             correctionAdd("relavent", "relevant");
+            correctionAdd("relavant", "relevant");
 
             correctionAdd("relete", "relate");
             correctionAdd("releted", "relate"); //Not 100% correct - word type.
@@ -8586,7 +8595,9 @@ namespace OverflowHelper.core
             correctionAdd("Active perl", "ActivePerl");
             correctionAdd("Activeperl", "ActivePerl");
             correctionAdd("Active Perl", "ActivePerl");
-            correctionAdd("activePerl", "ActivePerl");           
+            correctionAdd("activePerl", "ActivePerl");
+            correctionAdd("Activestate Perl", "ActivePerl");
+            correctionAdd("ActiveState Perl", "ActivePerl");
 
             correctionAdd("setup", "set up"); //As a verb
             correctionAdd("set-up", "set up");
@@ -8800,6 +8811,7 @@ namespace OverflowHelper.core
             correctionAdd("necessaraly", "necessarily");
             correctionAdd("neccessarily", "necessarily");
             correctionAdd("neccessaraly", "necessarily");
+            correctionAdd("necesseraly", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -9401,6 +9413,7 @@ namespace OverflowHelper.core
             correctionAdd("netcore", ".NET Core");
             correctionAdd(".NET CORE", ".NET Core");
             correctionAdd("Net Core", ".NET Core");
+            correctionAdd(".Net.core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
 
@@ -10634,6 +10647,7 @@ namespace OverflowHelper.core
             correctionAdd("Capitalist", "capitalist");
 
             correctionAdd("completly", "completely");
+            correctionAdd("comletely", "completely");
             
             correctionAdd("flexbox", "Flexbox");
             correctionAdd("flex-box", "Flexbox");
@@ -10788,6 +10802,7 @@ namespace OverflowHelper.core
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
             correctionAdd("biz", "business");
+            correctionAdd("buisiness", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -11202,6 +11217,7 @@ namespace OverflowHelper.core
 
             correctionAdd("appricate", "appreciate");
             correctionAdd("appreicate", "appreciate");
+            correctionAdd("appriciate", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -11618,6 +11634,8 @@ namespace OverflowHelper.core
             correctionAdd("Unix&Linux", "Unix & Linux");
 
             correctionAdd("Whitehouse", "White House");
+            correctionAdd("white house", "White House");
+            correctionAdd("WHouse", "White House");
 
             correctionAdd("comminicating", "communicating");
 
@@ -11636,6 +11654,69 @@ namespace OverflowHelper.core
             correctionAdd("Yak shaving", "yak shaving");
 
             correctionAdd("CSS Grid", "CSS grid");
+
+            correctionAdd("cloudfront", "Amazon CloudFront");
+
+            correctionAdd("creative commons", "Creative Commons");
+
+            correctionAdd("flutter", "Flutter");
+
+            correctionAdd("Hawai", "Hawaii");
+
+            correctionAdd("Hongkong", "Hong Kong");
+
+            correctionAdd("Komodo ide", "Komodo IDE");
+
+            correctionAdd("Peurto Rico", "Puerto Rico");
+            correctionAdd("Purto Rico", "Puerto Rico");
+
+            correctionAdd("trump", "Trump");
+
+            correctionAdd("Yugoeslavia", "Yugoslavia");
+
+            correctionAdd("abades", "abate");
+
+            correctionAdd("Acre", "acre");
+
+            correctionAdd("acticity", "activity");
+
+            correctionAdd("anually", "annually");
+
+            correctionAdd("back tick", "backtick");
+
+            correctionAdd("buch", "bunch");
+
+            correctionAdd("exagerrated", "exaggerated");
+
+            correctionAdd("expection", "expectation");
+
+            correctionAdd("incidently", "incidentally");
+
+            correctionAdd("Midevil", "medieval");
+
+            correctionAdd("misspelled", "misspelt");
+
+            correctionAdd("prefrence", "preference");
+
+            correctionAdd("profiterable", "profitable");
+
+            correctionAdd("receeding", "receding");
+
+            correctionAdd("stoped", "stopped");
+
+            correctionAdd("stratigic", "strategic");
+
+            correctionAdd("sugest", "suggest");
+
+            correctionAdd("top level domain", "top-level domain");
+            correctionAdd("Top Level Domain", "top-level domain");
+            correctionAdd("TLD", "top-level domain");
+
+            correctionAdd("tranfer", "transfer");
+
+            correctionAdd("Trillion", "trillion");
+
+            correctionAdd("useage", "usage");
 
 
 
@@ -16699,6 +16780,70 @@ namespace OverflowHelper.core
             URL_Add("yak shaving", "https://en.wiktionary.org/wiki/yak_shaving#Noun");
 
             URL_Add("CSS grid", "https://en.wikipedia.org/wiki/CSS_grid_layout");
+
+            URL_Add("Amazon CloudFront", "https://en.wikipedia.org/wiki/Amazon_CloudFront");
+
+            URL_Add("Creative Commons", "https://en.wikipedia.org/wiki/Creative_Commons");
+
+            URL_Add("Flutter", "https://en.wikipedia.org/wiki/Flutter_(software)");
+
+            URL_Add("Hawaii", "https://en.wikipedia.org/wiki/Hawaii");
+
+            URL_Add("Hong Kong", "https://en.wikipedia.org/wiki/Hong_Kong");
+
+            URL_Add("Komodo IDE", "https://en.wikipedia.org/wiki/Komodo_IDE");
+
+            URL_Add("Puerto Rico", "https://en.wikipedia.org/wiki/Puerto_Rico");
+
+            URL_Add("Trump", "https://en.wikipedia.org/wiki/Donald_Trump");
+
+            URL_Add("Yugoslavia", "https://en.wikipedia.org/wiki/Yugoslavia");
+
+            URL_Add("abate", "https://en.wiktionary.org/wiki/abate#Verb");
+
+            URL_Add("acre", "https://en.wiktionary.org/wiki/acre#Noun");
+
+            URL_Add("activity", "https://en.wiktionary.org/wiki/activity#Noun");
+
+            URL_Add("annually", "https://en.wiktionary.org/wiki/annually#Adverb");
+
+            URL_Add("backtick", "https://en.wiktionary.org/wiki/backtick#Noun");
+
+            URL_Add("bunch", "https://en.wiktionary.org/wiki/bunch#Noun");
+
+            URL_Add("exaggerated", "https://en.wiktionary.org/wiki/exaggerated#Adjective");
+
+            URL_Add("expectation", "https://en.wiktionary.org/wiki/expectation#Noun");
+
+            URL_Add("incidentally", "https://en.wiktionary.org/wiki/incidentally#Adverb");
+
+            URL_Add("medieval", "https://en.wiktionary.org/wiki/medieval#Adjective");
+
+            URL_Add("misspelt", "https://en.wiktionary.org/wiki/misspelt");
+
+            URL_Add("preference", "https://en.wiktionary.org/wiki/preference#Noun");
+
+            URL_Add("profitable", "https://en.wiktionary.org/wiki/profitable#Adjective");
+
+            URL_Add("receding", "https://en.wiktionary.org/wiki/recede#Verb");
+
+            URL_Add("stopped", "https://en.wiktionary.org/wiki/stop#Verb");
+
+            URL_Add("strategic", "https://en.wiktionary.org/wiki/strategic#Adjective");
+
+            URL_Add("suggest", "https://en.wiktionary.org/wiki/suggest#Verb");
+
+            URL_Add("top-level domain", "https://en.wikipedia.org/wiki/Top-level_domain");
+
+            URL_Add("transfer", "https://en.wiktionary.org/wiki/transfer#Noun");
+
+            URL_Add("trillion", "https://en.wiktionary.org/wiki/trillion#Numeral");
+
+            URL_Add("usage", "https://en.wiktionary.org/wiki/usage#Noun");
+
+
+
+
 
             //========================================================
             //BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
