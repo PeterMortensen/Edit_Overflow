@@ -48,6 +48,16 @@
         <h1>Link Builder (part of Edit Overflow</h1>
 
         <?php
+
+            # Stub / defaults
+            #
+            $shortMark_part1 = "Part 1";
+            $shortMark_part2 = "Part 2";
+            $inlineMarkdown = "Part 3";
+            $IDcounter = 1;
+            $emphasisStr = "*";
+
+
             # For "Notice: Undefined variable: ..."
             error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
@@ -69,6 +79,29 @@
                 $linkText = 'JavaScript';
             }
 
+            $IDcounter++;
+
+
+            # Derived
+            $IDref = "[$IDcounter]";
+            $linkTextBracketed = "[$linkText]";
+
+
+            # The core of this link building helper...
+            #
+            # Samples, for the 3 variables:
+            #
+            #   [Iron][7]
+            #     [2]: http://en.wikipedia.org/wiki/Iron 
+            #   [Iron](http://en.wikipedia.org/wiki/Iron)
+            #
+            $shortMark_part1 = "$emphasisStr$linkTextBracketed$IDref$emphasisStr";
+            $shortMark_part2 = "  $IDref: $URL";
+            $inlineMarkdown = "$emphasisStr$linkTextBracketed($URL)$emphasisStr";
+
+
+
+
             # For the accumulative feature (we remember past generated
             # link text/URL pairs)
             #
@@ -79,8 +112,8 @@
             $linkText_encoded = $_POST['URLlist_encoded']  ?? '';
             $URLlist_encoded = $_POST['URLlist_encoded']  ?? '';
 
-            $XXX = htmlentities(YYYY, ENT_QUOTES);
-            $YYY = htmlentities(YYYY, ENT_QUOTES);
+            #$XXX = htmlentities(YYYY, ENT_QUOTES);
+            #$YYY = htmlentities(YYYY, ENT_QUOTES);
 
 
             # At the end, as we want it completely blank. That is, only
@@ -121,40 +154,42 @@
             $URLlist = implode(' ', $items_URLlist);
 
 
-            # For normal edit summary, outside Stack Overflow -
-            # with Oxford comma!
+            ## For normal edit summary, outside Stack Overflow -
+            ## with Oxford comma!
+            ##
+            #$URLlist2 =
+            #    join(', and ',
+            #         array_filter(
+            #             array_merge(
+            #                 array(
+            #                     join(', ',
+            #                          array_slice($items, 0, -1))),
+            #                          array_slice($items, -1)), 'strlen'));
             #
-            $URLlist2 =
-                join(', and ',
-                     array_filter(
-                         array_merge(
-                             array(
-                                 join(', ',
-                                      array_slice($items, 0, -1))),
-                                      array_slice($items, -1)), 'strlen'));
-
-            #Adjust for two elements
-
-            if ($elements == 2)
-            {
-                $URLlist2 = str_replace(', and', ' and', $URLlist2);
-            }
+            ##Adjust for two elements
+            #
+            #if ($elements == 2)
+            #{
+            #    $URLlist2 = str_replace(', and', ' and', $URLlist2);
+            #}
 
             # echo "<p>URLlist: >>>$URLlist<<< <p>\n";
             # echo "<p>URLlist2: >>>$URLlist2<<< <p>\n";
 
-            if ($editSummary) # "$editSummary" is to be eliminated and replaced
-                              # with an equivalent if construct.
-            {
-                # Derived
-                $editSummary_output = "Active reading [" . $URLlist . "].";
 
-                $editSummary_output2 = "Copy edited (e.g. ref. $URLlist2).";
+            #if ($editSummary) # "$editSummary" is to be eliminated and replaced
+            #                  # with an equivalent if construct.
+            #{
+            #    # Derived
+            #    $editSummary_output = "Active reading [" . $URLlist . "].";
+            #
+            #    $editSummary_output2 = "Copy edited (e.g. ref. $URLlist2).";
+            #
+            #    ## Current compensation for not being sophisticated when generating
+            #    ## a list...
+            #    #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
+            #}
 
-                ## Current compensation for not being sophisticated when generating
-                ## a list...
-                #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
-            }
         ?>
 
         <form
@@ -164,7 +199,7 @@
             id="XYZ">
 
             <p>Build links
-               Lin<u>k</u> text::
+               Lin<u>k</u> text:
 
                <input
                    name="LinkText"
@@ -174,7 +209,7 @@
                    <?php
                      echo "value=\"$linkText\"\n";
                    ?>
-                   style="width:110px;"
+                   style="width:610px;"
                    accesskey="K"
                    title="Shortcut: Shift + Alt + K"
                />
@@ -191,7 +226,7 @@
 
                         echo "value=\"$URL\"\n";
                     ?>
-                    style="width:110px;"
+                    style="width:500px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
                 /><?php
@@ -229,7 +264,11 @@
                 ?>
             </p>
 
-            <p>Short Markdown:
+
+            <!-- **************************************************** -->
+            <h2>Output</h2>
+
+            <p>Short Markdown (tex<u>t</u> / re<u>f</u>erence):
 
                <input
                    name="XXXX"
@@ -237,41 +276,43 @@
                    id="XXXX"
                    class="XXXX"
                    <?php
-                     echo "value=\"$XXXX\"\n";
+                     echo "value=\"$shortMark_part1\"\n";
                    ?>
                    style="width:600px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="T"
+                   title="Shortcut: Shift + Alt + T"
                />
 
                <input
-                   name="editSummary_output2"
+                   name="YYYY"
                    type="text"
-                   id="editSummary_output2"
+                   id="YYYYYY"
                    class="XYZ89"
                    <?php
-                     echo "value=\"$editSummary_output2\"\n";
+                     echo "value=\"$shortMark_part2\"\n";
                    ?>
-                   style="width:600px;"
-                   accesskey="O"
-                   title="Shortcut: Shift + Alt + O"
+                   style="width:450px;"
+                   accesskey="F"
+                   title="Shortcut: Shift + Alt + F"
                />
             </p>
 
-            <p><?php echo "<a href=\"$URL\">URL</a>:" ?>
+            <p>Inline <u>M</u>arkdown:
+
                <input
-                   name="URL"
+                   name="XXXX"
                    type="text"
-                   id="URL"
-                   class="XYZ3"
+                   id="XXXX"
+                   class="XXXX"
                    <?php
-                     echo "value=\"$URL\"\n";
+                     echo "value=\"$inlineMarkdown\"\n";
                    ?>
-                   style="width:400px;"
-                   accesskey="E"
-                   title="Shortcut: Shift + Alt + E"
+                   style="width:650px;"
+                   accesskey="M"
+                   title="Shortcut: Shift + Alt + M"
                />
             </p>
+
 
 
             <!-- Hidden field, close to the output format for
@@ -285,6 +326,7 @@
 
 
             <!-- Hidden field, structured format for the edit summary -->
+            <!--
             <input
                 name="URLlist_encoded"
                 type="hidden"
@@ -294,6 +336,7 @@
                   echo "value=\"$URLlist_encoded\"\n";
                 ?>
             />
+            -->
 
 
             <!-- Reset lookup / edit summary state  -->

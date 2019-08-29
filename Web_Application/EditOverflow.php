@@ -120,7 +120,7 @@
             else
             {
                 echo "<p>No SQL injection, please...</p>\n";
-                
+
                 #Replace "name" with something else.
                 $statement = $pdo->prepare($SQLprefix . ' :name');
                 $statement->execute(array('name' => $lookUpTerm));
@@ -264,7 +264,7 @@
                 /><?php
                     if (!$correctTerm)
                     {
-                        # These two are for proper indentation in the 
+                        # These two are for proper indentation in the
                         # generated HTML source (by PHP).
                         $baseIndent        = "                ";
                         $EOL_andBaseIndent = "\n$baseIndent";
@@ -284,7 +284,7 @@
                           "   accesskey=\"W\"$EOL_andBaseIndent" .
                           "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
                           ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
-                          
+
                         # Provide a link to look up the term on Wiktionary
                         echo
                           "<a " .
@@ -401,7 +401,7 @@
                 title="Shortcut: Shift + Alt + U"
             />
         </form>
-        
+
         <hr/>
 
         <p>
@@ -410,6 +410,12 @@
               accesskey="T"
               title="Shortcut: Shift + Alt + T"
           >Text stuff</a>
+
+          <a
+              href="Link_Builder.php"
+              accesskey="B"
+              title="Shortcut: Shift + Alt + B"
+          >Link builder</a>
 
         <!--
           Note:
