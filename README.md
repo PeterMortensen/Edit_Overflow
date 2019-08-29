@@ -124,9 +124,9 @@ a terminal window for Forth. It requires AutoIt to be installed.
  * Added: Support for use of PuTTY with AmForth (requires AutoIt
    to be installed). The input is text in the clipboard and the
    user must manually change focus to PuTTY within 5 seconds.
-   Menu "Utility" ? "Typing out characters - direct".
+   Menu "Utility" &rarr; "Typing out characters - direct".
 
- * Added more words ([now at 8228 input words and 2382 output words][35]).
+ * Added more words ([now at 8228 input words and 2382 output words][135]).
 
 ### Version 1.1.47:
 
