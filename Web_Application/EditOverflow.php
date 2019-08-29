@@ -94,7 +94,7 @@
               #'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db',
               'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db;charset=utf8',
               'pmortensen_eu',
-              'DetTagerAltForLangTidAtFindeEtJobIDanmark88888xt99999');
+              '__pw_toBeFilledInDuringDeployment_');
 
 
             if (0)
@@ -264,8 +264,11 @@
                 /><?php
                     if (!$correctTerm)
                     {
+                        # These two are for proper indentation in the 
+                        # generated HTML source (by PHP).
                         $baseIndent        = "                ";
                         $EOL_andBaseIndent = "\n$baseIndent";
+
                         echo
                           "\n$EOL_andBaseIndent" .
                           "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
