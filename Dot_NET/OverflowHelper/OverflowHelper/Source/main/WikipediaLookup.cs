@@ -7280,6 +7280,7 @@ namespace OverflowHelper.core
             correctionAdd("visualstudio", "Visual Studio");
             correctionAdd("visual study", "Visual Studio");
             correctionAdd("vis studio", "Visual Studio");
+            correctionAdd("Visual Studi", "Visual Studio");
 
             correctionAdd("vb 2005", "Visual Basic 2005 Express Edition");
             correctionAdd("vb2005", "Visual Basic 2005 Express Edition");
@@ -8754,6 +8755,7 @@ namespace OverflowHelper.core
 
             correctionAdd("what so ever", "whatsoever");
             correctionAdd("what-so-ever", "whatsoever");
+            correctionAdd("whatsover", "whatsoever");
 
             correctionAdd("dmz", "DMZ");
 
@@ -9679,6 +9681,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual studio Code", "Visual Studio Code");
             correctionAdd("VSC", "Visual Studio Code");
             correctionAdd("VSCODE", "Visual Studio Code");
+            correctionAdd("Visual Code", "Visual Studio Code");
                         
             correctionAdd("WebStrom", "WebStorm");
             correctionAdd("Webstorm", "WebStorm");
@@ -11717,6 +11720,8 @@ namespace OverflowHelper.core
             correctionAdd("Trillion", "trillion");
 
             correctionAdd("useage", "usage");
+
+            correctionAdd("onedrive", "OneDrive");
 
 
 
@@ -16841,7 +16846,7 @@ namespace OverflowHelper.core
 
             URL_Add("usage", "https://en.wiktionary.org/wiki/usage#Noun");
 
-
+            URL_Add("OneDrive", "https://en.wikipedia.org/wiki/OneDrive");
 
 
 
