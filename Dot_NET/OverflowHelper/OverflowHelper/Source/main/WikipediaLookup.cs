@@ -2368,6 +2368,7 @@ namespace OverflowHelper.core
             correctionAdd("IE 8", "Internet&nbsp;Explorer&nbsp;8");
             correctionAdd("IE-8", "Internet&nbsp;Explorer&nbsp;8");
             correctionAdd("Internet Explorer 8", "Internet&nbsp;Explorer&nbsp;8"); // Effectively self
+            correctionAdd("ie 8", "Internet&nbsp;Explorer&nbsp;8");
 
             correctionAdd("Internet Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
             correctionAdd("IE9", "Internet&nbsp;Explorer&nbsp;9");
@@ -2947,6 +2948,7 @@ namespace OverflowHelper.core
             correctionAdd("c.s", "computer science"); //Should really be c.s., but we are hampered by a bug...
             correctionAdd("Cse", "computer science");
             correctionAdd("Computer Sc", "computer science");
+            correctionAdd("Computer science", "computer science");
 
             correctionAdd("Virtualbox", "VirtualBox");
             correctionAdd("virtualbox", "VirtualBox");
@@ -3427,6 +3429,7 @@ namespace OverflowHelper.core
             correctionAdd("Jsfiddle", "JSFiddle");
             correctionAdd("Fiddle", "JSFiddle");
             correctionAdd("jsFiddle", "JSFiddle");
+            correctionAdd("JS fiddle", "JSFiddle");
             
             correctionAdd("cocoa-touch", "Cocoa Touch");
             correctionAdd("CocoaTouch", "Cocoa Touch");
@@ -5802,6 +5805,7 @@ namespace OverflowHelper.core
             correctionAdd("Javabean", "JavaBeans");
             correctionAdd("Javabeans", "JavaBeans");
             correctionAdd("JavaBean", "JavaBeans");
+            correctionAdd("javabean", "JavaBeans");
 
             correctionAdd("hosts", "hosts file");
 
@@ -9438,6 +9442,7 @@ namespace OverflowHelper.core
             correctionAdd("ES2015", "ECMAScript&nbsp;6");
             correctionAdd("ECMAScript6", "ECMAScript&nbsp;6");
             correctionAdd("ECMAScript 6", "ECMAScript&nbsp;6");
+            correctionAdd("ES 6", "ECMAScript&nbsp;6");
 
             correctionAdd("redux", "Redux");
 
@@ -9738,6 +9743,7 @@ namespace OverflowHelper.core
             correctionAdd("woudn't", "wouldn't");
             correctionAdd("would't", "wouldn't");
             correctionAdd("wouldn´t", "wouldn't");
+            correctionAdd("Wouldnt", "wouldn't");
 
             correctionAdd("implemention", "implementation");
             correctionAdd("implemenation", "implementation");
@@ -10176,6 +10182,7 @@ namespace OverflowHelper.core
 
             correctionAdd("successfull", "successful");
             correctionAdd("sucessful", "successful");
+            correctionAdd("succesful", "successful");
 
             correctionAdd("succesfully", "successfully");
             correctionAdd("secsessfully", "successfully");
@@ -11102,6 +11109,8 @@ namespace OverflowHelper.core
 
             correctionAdd("hight", "height");
             correctionAdd("hieght", "height");
+            correctionAdd("heigh", "height");
+            correctionAdd("heght", "height");
 
             correctionAdd("malcious", "malicious");
 
@@ -11723,6 +11732,66 @@ namespace OverflowHelper.core
 
             correctionAdd("onedrive", "OneDrive");
 
+            correctionAdd("Apache spark", "Apache Spark");
+
+            correctionAdd("ES 5", "ECMAScript&nbsp;5");
+            correctionAdd("ES5", "ECMAScript&nbsp;5");
+
+            correctionAdd("Isreal", "Israel");
+
+            correctionAdd("Jurasalem", "Jerusalem");
+
+            correctionAdd("kaggle", "Kaggle");
+
+            correctionAdd("kindle", "Kindle");
+
+            correctionAdd("Mw", "MW");
+
+            correctionAdd("noble prize", "Nobel Prize");
+
+            correctionAdd("abilites", "abilities");
+
+            correctionAdd("advetise", "advertise");
+
+            correctionAdd("Capacitance", "capacitance");
+
+            correctionAdd("cost effective", "cost-effective");
+
+            correctionAdd("encrytpion", "encryption");
+
+            correctionAdd("guess work", "guesswork");
+
+            correctionAdd("imporant", "important");
+
+            correctionAdd("intrested", "interested");
+
+            correctionAdd("Iodine", "iodine");
+
+            correctionAdd("irreplacable", "irreplaceable");
+
+            correctionAdd("literaly", "literally");
+            correctionAdd("literarily", "literally");
+
+            correctionAdd("maintable", "maintainable");
+
+            correctionAdd("object orientated", "object-oriented");
+            correctionAdd("object oriented", "object-oriented");
+
+            correctionAdd("obselete", "obsolete");
+
+            correctionAdd("para mount", "paramount");
+
+            correctionAdd("powerplant", "power plant");
+
+            correctionAdd("publising", "publishing");
+
+            correctionAdd("quick and dirty", "quick-and-dirty");
+
+            correctionAdd("recipint", "recipient");
+
+            correctionAdd("requirment", "requirement");
+
+            correctionAdd("vonuravle", "vulnerable");
 
 
             //HACK: AASDASD
@@ -16847,6 +16916,64 @@ namespace OverflowHelper.core
             URL_Add("usage", "https://en.wiktionary.org/wiki/usage#Noun");
 
             URL_Add("OneDrive", "https://en.wikipedia.org/wiki/OneDrive");
+
+            URL_Add("Apache Spark", "https://en.wikipedia.org/wiki/Apache_Spark");
+
+            URL_Add("ECMAScript&nbsp;5", "https://en.wikipedia.org/wiki/ECMAScript#5th_Edition");
+
+            URL_Add("Israel", "https://en.wikipedia.org/wiki/Israel");
+
+            URL_Add("Jerusalem", "https://en.wiktionary.org/wiki/Jerusalem#Proper_noun");
+
+            URL_Add("Kaggle", "https://en.wikipedia.org/wiki/Kaggle");
+
+            URL_Add("Kindle", "https://en.wikipedia.org/wiki/Amazon_Kindle");
+
+            URL_Add("MW", "https://en.wikipedia.org/wiki/Watt#Megawatt");
+
+            URL_Add("Nobel Prize", "https://en.wikipedia.org/wiki/Nobel_Prize");
+
+            URL_Add("abilities", "https://en.wiktionary.org/wiki/ability#Noun");
+
+            URL_Add("advertise", "https://en.wiktionary.org/wiki/advertise#Verb");
+
+            URL_Add("capacitance", "https://en.wikipedia.org/wiki/Capacitance");
+
+            URL_Add("cost-effective", "https://en.wiktionary.org/wiki/cost-effective");
+
+            URL_Add("encryption", "https://en.wiktionary.org/wiki/encryption#Noun");
+
+            URL_Add("guesswork", "https://en.wiktionary.org/wiki/guesswork#Noun");
+
+            URL_Add("important", "https://en.wiktionary.org/wiki/important#Adjective");
+
+            URL_Add("interested", "https://en.wiktionary.org/wiki/interested#Adjective");
+
+            URL_Add("iodine", "https://en.wikipedia.org/wiki/Iodine");
+
+            URL_Add("irreplaceable", "https://en.wiktionary.org/wiki/irreplacable");
+
+            URL_Add("literally", "https://en.wiktionary.org/wiki/literally#Adverb");
+
+            URL_Add("maintainable", "https://en.wiktionary.org/wiki/maintainable#Adjective");
+
+            URL_Add("object-oriented", "https://en.wikipedia.org/wiki/Object-orientation");
+
+            URL_Add("obsolete", "https://en.wiktionary.org/wiki/obsolete#Adjective");
+
+            URL_Add("paramount", "https://en.wiktionary.org/wiki/paramount#Adjective");
+
+            URL_Add("power plant", "https://en.wiktionary.org/wiki/power_plant#Noun");
+
+            URL_Add("publishing", "https://en.wiktionary.org/wiki/publish#Verb");
+
+            URL_Add("quick-and-dirty", "https://en.wiktionary.org/wiki/quick-and-dirty#Adjective");
+
+            URL_Add("recipient", "https://en.wiktionary.org/wiki/recipient#Noun");
+
+            URL_Add("requirement", "https://en.wiktionary.org/wiki/requirement#Noun");
+
+            URL_Add("vulnerable", "https://en.wiktionary.org/wiki/vulnerable#Adjective");
 
 
 

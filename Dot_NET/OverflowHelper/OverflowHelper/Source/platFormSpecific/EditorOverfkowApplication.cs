@@ -215,7 +215,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString_dateOnly()
         {
-            string toReturn = "2019-08-29";
+            string toReturn = "2019-08-31";
             return toReturn;
         }
 
@@ -225,7 +225,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString()
         {
-            string toReturn = "1.1.49a20"; 
+            string toReturn = "1.1.49a21"; 
             return toReturn;
         }
 
