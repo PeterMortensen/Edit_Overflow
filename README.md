@@ -25,7 +25,7 @@ Run [the ClickOnce installer][30].
 
 ## Using Edit Overflow
 
-The simplest use is to correct the spelling of a term 
+The simplest use is to correct the spelling of a term
 (e.g. the incorrect spelling *".Net"*):
 
 1. Copy the incorrect term to the clipboard, typically from
@@ -43,8 +43,8 @@ The simplest use is to correct the spelling of a term
    paste (e.g. by Ctrl + V).
 
 A macro keyboard can help in automating this process.
-For instance, an [ASUS ROG Claymore Cherry MX Brown RGB][31], 
-where the numeric keyboard is repurposed for macro keys. 
+For instance, an [ASUS ROG Claymore Cherry MX Brown RGB][31],
+where the numeric keyboard is repurposed for macro keys.
 As the ROG Claymore stores the settings
 in the keyboard (is not dependent on software running on
 the computer), this also works on Linux (if the web version
@@ -61,13 +61,16 @@ Symbols for degrees, micro, ohm,
 
 Is in menu *Text*.
 
+
 ### Format as code (Markdown, backtick)
 
 Is in menu *Action*.
 
+
 ### Format as keyboard (Markdown)
 
 Is in menu *Action*.
+
 
 ### Lookup on Wikipidia or Wiktionary
 
@@ -100,10 +103,12 @@ for some time).
 
 Enter/paste a list of URLs intot the input field in the lower left.
 
+
 ### YouTube comments
 
 There is a function for converting time stamps and URLs
 to a form acceptable for use in YouTube comments.
+
 
 ### Forth and PuTTY
 
@@ -116,7 +121,6 @@ a terminal window for Forth. It requires AutoIt to be installed.
 
 ### Version 1.1.48:
 
-
  * Changed: Menu command to prepare YouTube comments now handles
    email addresses and some false positives for the URL
    processing has been removed ("e.g." and "E.g.").
@@ -127,6 +131,7 @@ a terminal window for Forth. It requires AutoIt to be installed.
    Menu "Utility" &rarr; "Typing out characters - direct".
 
  * Added more words ([now at 8228 input words and 2382 output words][135]).
+
 
 ### Version 1.1.47:
 
@@ -154,24 +159,46 @@ Version 1.1.47:
 
 ## Wordlist
 
-The list of word definitions (each entry contains: 
-*incorrect term*, *correct term*, and *URL*) 
+The list of word definitions (each entry contains:
+*incorrect term*, *correct term*, and *URL*)
 is currently part of the program itself. It can be
-exported to HTML and SQL (with a correct header, for 
+exported to HTML and SQL (with a correct header, for
 direct import into a MySQL database, say, on a standard
 web hosting platform).
 
-Some versions of the wordlist have been published 
+Some versions of the wordlist have been published
 ([more complete list][40]):
 
  * [2019-07-27][135]
  * [2019-03-30][134]
 
 
+## History
+
+Edit Overflow was originally conceived in February 2010 as a way
+to speed up using a search engine to find the correct spelling
+of a technology on Wikipedia (e.g. to correct *Javascript* to
+*JavaScript*) while editing posts on Stack Overflow - a sort
+of caching so the Internet search would only have to be done once.
+It became cumbersome and time-consuming to do the same searches
+over and over again (especially on a 3G Internet connection).
+
+In addition, the reference to the Wikipedia article, for use in
+edit summaries and adding annotation to the posts, was also needed.
+
+A countdown timer was also added early to keep the time spent
+on editing to a reasonable level.
+
+While the intent was always to have a cross-platform solution, it wasn't
+until 2019 that the initial Windows desktop application (Windows Forms
+application written in C#) was supplemented with a web application,
+prompted by an attempted move to move from Windows to Linux.
+
+
 ## Contribute
 
 Any corrections (even the simplest of spelling mistakes)
-or constructive critisism is welcome.
+or constructive critisism are welcome.
 
 
 ### Known problems
@@ -199,29 +226,29 @@ or constructive critisism is welcome.
 
 ### Features that would be very nice to have
 
- 
- * Remembering some option settings. 
+ * Remembering some option settings.
    For example, for option *"Change clipboard on lookup"*.
-   This would prevent violation of common user interface standards for the 
+   This would prevent violation of common user interface standards for the
    current default setting of this value (checked) and still allow the user to
-   override it (very convenient for this application as it use 
+   override it (very convenient for this application as it use
    the clipboard for information transfer) and have it remembered for all
    following sessions.
-   
+
     Possible other settings to remember are timer settings and last lookup.
 
-    Note: A solution should be not be brittle in face of version changes 
+    Note: A solution should be not be brittle in face of version changes
     (e.g. adding a new option to be remembered). Some of the automatic
     solutions very much have this problem. A solution should be based on the
-    sound web principle of ignoring what is not understood (e.g. an 
-    older version of the program reading a session information file 
-    created by a newer version) and provide reasonable defaults for 
+    sound web principle of ignoring what is not understood (e.g. an
+    older version of the program reading a session information file
+    created by a newer version) and provide reasonable defaults for
     missing elements (e.g. a newer version of the program reading a session
     information file created by an older version).
 
  * An external wordlist (is currently compiled into the application itself)
 
-<!-- References --> 
+
+<!-- References -->
 
   [30]: http://hmf-tech.com/EditOverflow/setup.exe
   [31]: https://www.asus.com/us/Keyboards-Mice/ROG-Claymore-Core/
