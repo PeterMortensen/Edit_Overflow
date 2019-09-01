@@ -142,7 +142,37 @@
                    title="Shortcut: Shift + Alt + C"
                />
             </p>
+            
+            
+            <h2>Regular expressions for code checking</h2>
+            
+            <p>Note: As the false positive rate is high, every match
+                     should be checked manually</p>
 
+
+            <p>All combined 
+                  ("Missing space before {",
+                  "Missing space after colon",
+                  "Missing space after comma",
+                  "Missing space around equal sign",
+                  "Missing space around string concatenation (by \"+\")",
+                  "Space before comma",
+                  "Space before colon",
+                  "Space before parenthesis",
+                  and
+                  "Space before semicolon"):
+
+               <input
+                   name="All combined"
+                   type="text"
+                   id="codeRegex_AllCombined"
+                   class="XYZ36"
+                   value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;)"
+                   style="width:320px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
 
 
             <!-- Submit button  - it ought to be invisible!
@@ -153,7 +183,7 @@
                 name="XYZ"
                 type="submit"
                 id="NotReally"
-                class="XYZ3"
+                class="XYZ27"
                 value="XXXXX"
                 style="width:75px;"
                 accesskey="S"
