@@ -3788,6 +3788,7 @@ namespace OverflowHelper.core
             correctionAdd("ultraedit", "UltraEdit");
             correctionAdd("ultra edit", "UltraEdit");
             correctionAdd("Ultra Edit", "UltraEdit");
+            correctionAdd("UE", "UltraEdit");
 
             correctionAdd("chars", "characters"); //Expansion.
             correctionAdd("char", "characters"); //Expansion, not 100% correct. Add a plural feature?
@@ -8067,6 +8068,7 @@ namespace OverflowHelper.core
             correctionAdd("begginner", "beginner");
             
             correctionAdd("bom", "BOM");
+            correctionAdd("byte order mark", "BOM");
 
             correctionAdd("mpeg", "MPEG");
 
@@ -8828,6 +8830,8 @@ namespace OverflowHelper.core
             correctionAdd("necssary", "necessary");
             correctionAdd("necessairy", "necessary");
             correctionAdd("nessecary", "necessary");
+            correctionAdd("necesery", "necessary");
+            correctionAdd("necessery", "necessary");
             
             correctionAdd("unneccessary", "unnecessary");
             correctionAdd("unncessary", "unnecessary");
@@ -9083,6 +9087,7 @@ namespace OverflowHelper.core
             correctionAdd("compatibile", "compatible");
 
             correctionAdd("throughly", "thoroughly");
+            correctionAdd("thorougly", "thoroughly");
 
             correctionAdd("z80", "Z80");
 
@@ -9332,6 +9337,7 @@ namespace OverflowHelper.core
             correctionAdd("pull up", "pull-up resistor");
             correctionAdd("pullup resistor", "pull-up resistor");
             correctionAdd("pull up resistor", "pull-up resistor");
+            correctionAdd("pull-up", "pull-up resistor");
 
             correctionAdd("snmp", "SNMP");
 
@@ -9506,6 +9512,7 @@ namespace OverflowHelper.core
             correctionAdd("tensorFlow", "TensorFlow");
 
             correctionAdd("retrive", "retrieve");
+            correctionAdd("retreive", "retrieve");
 
             correctionAdd("ressource", "resource");
 
@@ -9755,6 +9762,7 @@ namespace OverflowHelper.core
             correctionAdd("explination", "explanation");
             correctionAdd("expanation", "explanation");
             correctionAdd("Expanation", "explanation");
+            correctionAdd("Explaination", "explanation");
 
             correctionAdd("similiar", "similar");
             correctionAdd("simillar", "similar");
@@ -10012,6 +10020,8 @@ namespace OverflowHelper.core
 
             correctionAdd("askubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("Askubuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -10816,6 +10826,7 @@ namespace OverflowHelper.core
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
+            correctionAdd("explicity", "explicitly");
 
             correctionAdd("hebrew", "Hebrew");
 
@@ -10884,6 +10895,7 @@ namespace OverflowHelper.core
             correctionAdd("breadbord", "breadboard");
 
             correctionAdd("convinient", "convenient");
+            correctionAdd("conventient", "convenient");
 
             correctionAdd("howver", "however");
             correctionAdd("how ever", "however");
@@ -11041,6 +11053,8 @@ namespace OverflowHelper.core
 
             correctionAdd("collumn", "column");
             correctionAdd("colum", "column");
+            correctionAdd("colume", "column");
+            correctionAdd("col", "column");
 
             correctionAdd("crated", "created");
 
@@ -11375,6 +11389,7 @@ namespace OverflowHelper.core
             correctionAdd("mind set", "mindset");
 
             correctionAdd("negatvie", "negative");
+            correctionAdd("neg", "negative");
 
             correctionAdd("opinon", "opinion");
 
@@ -11736,6 +11751,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ES 5", "ECMAScript&nbsp;5");
             correctionAdd("ES5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
 
             correctionAdd("Isreal", "Israel");
 
@@ -11792,6 +11808,35 @@ namespace OverflowHelper.core
             correctionAdd("requirment", "requirement");
 
             correctionAdd("vonuravle", "vulnerable");
+
+            correctionAdd("adhd", "ADHD");
+
+            correctionAdd("crc32", "CRC-32");
+
+            correctionAdd("ES 2016", "ECMAScript&nbsp;7");
+            correctionAdd("ES2016", "ECMAScript&nbsp;7");
+
+            correctionAdd("october", "October");
+
+            correctionAdd("swi prolog", "SWI-Prolog");
+            correctionAdd("swi Prolog", "SWI-Prolog");
+
+            correctionAdd("UES", "UEStudio");
+
+            correctionAdd("aswell", "as well");
+
+            correctionAdd("documentated", "documented");
+
+            correctionAdd("expirienced", "experienced");
+
+            correctionAdd("openning", "opening");
+
+            correctionAdd("requst", "request");
+
+            correctionAdd("temorarily", "temporarily");
+
+            correctionAdd("wieght", "weight");
+
 
 
             //HACK: AASDASD
@@ -16974,6 +17019,32 @@ namespace OverflowHelper.core
             URL_Add("requirement", "https://en.wiktionary.org/wiki/requirement#Noun");
 
             URL_Add("vulnerable", "https://en.wiktionary.org/wiki/vulnerable#Adjective");
+
+            URL_Add("ADHD", "https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder");
+
+            URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
+
+            URL_Add("ECMAScript&nbsp;7", "https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_-_ECMAScript_2016");
+
+            URL_Add("October", "https://en.wiktionary.org/wiki/October#Proper_noun");
+
+            URL_Add("SWI-Prolog", "https://en.wikipedia.org/wiki/SWI-Prolog");
+
+            URL_Add("UEStudio", "https://en.wikipedia.org/wiki/UltraEdit#UEStudio");
+
+            URL_Add("as well", "https://en.wiktionary.org/wiki/as_well#Adverb");
+
+            URL_Add("documented", "https://en.wiktionary.org/wiki/document#Verb");
+
+            URL_Add("experienced", "https://en.wiktionary.org/wiki/experienced#Adjective");
+
+            URL_Add("opening", "https://en.wiktionary.org/wiki/open#Verb");
+
+            URL_Add("request", "https://en.wiktionary.org/wiki/request#Noun");
+
+            URL_Add("temporarily", "https://en.wiktionary.org/wiki/temporarily#Adverb");
+
+            URL_Add("weight", "https://en.wiktionary.org/wiki/weight#Noun");
 
 
 
