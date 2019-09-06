@@ -56,10 +56,10 @@
 //
 //      In mnuForthTyping_direct_Click().
 //
-//   3. Eliminate redundancy near 
+//   3. Eliminate redundancy near
 //      "ApplicationDeployment.CurrentDeployment.DataDirectory"
 //
-//      E.g. in mnuFilterHTML_forMediaURLsAndOpenLinkPage_2_Click(), 
+//      E.g. in mnuFilterHTML_forMediaURLsAndOpenLinkPage_2_Click(),
 //      menu "Text" -> "Filter HTML for media URLs and open link page""
 //
 //      We have mapped the current behavior near "In a non-ClickOnce context"
@@ -115,9 +115,9 @@ namespace OverflowHelper
         //private long mLastLookupTick;  not used. Why?
 
         private int mIdleCounter;
-        
+
         private Sites mSites;
-        
+
         private bool mRunning;
 
         private StringBuilder mScratchSB;
@@ -186,29 +186,29 @@ namespace OverflowHelper
 
             mTiming.init2(); //Second level initialisation. To stay true
             //during refactoring. But is it really necessary?
-            
+
             setTitle();
-            
+
             //PM_GUI_HINTS 2010-09-04
             openButtonsUpdate(txtID.Text);
 
             PM_WindowsForms.PM_WindowsFormsCommon.commonChecks(this);
-            
+
             mCommandLineParameters = new CommandLineParameters();
 
             //http://stackoverflow.com/questions/1679243/
             //  Getting the thread ID from a thread
-            //    "For the latest version of .NET, the current recommended way of 
-            //     doing it is 
+            //    "For the latest version of .NET, the current recommended way of
+            //     doing it is
             //     System.Threading.Thread.CurrentThread.ManagedThreadId."
             //
-            // The property "ManagedThreadId" (of a thread): 
+            // The property "ManagedThreadId" (of a thread):
             //   <http://msdn.microsoft.com/en-us/library/system.threading.thread.managedthreadid%28v=vs.110%29.aspx>
             //
             // The *current* thread (static method):
             //   <http://msdn.microsoft.com/en-us/library/system.threading.thread.currentthread%28v=vs.110%29.aspx>
 
-            int threadID = System.Threading.Thread.CurrentThread.ManagedThreadId; 
+            int threadID = System.Threading.Thread.CurrentThread.ManagedThreadId;
         }
 
 
@@ -238,11 +238,11 @@ namespace OverflowHelper
         {
             string currentSiteDomainURL = mSites.getCurrentSiteDomainURL();
 
-            this.Text = 
-                EditorOverflowApplication.fullVersionStr() + 
+            this.Text =
+                EditorOverflowApplication.fullVersionStr() +
                 "   Current site domain URL: " + currentSiteDomainURL;
-         
-            grpDoStuffOnQuestionIDs.Text = 
+
+            grpDoStuffOnQuestionIDs.Text =
                 "For current site, " + currentSiteDomainURL;
         }
 
@@ -260,7 +260,7 @@ namespace OverflowHelper
             btnOpenTimeLineInBrowser.Enabled = enableButtons;
             btnOpenRevisionsInBrowser.Enabled = enableButtons;
             btnOpenDeletedPost.Enabled = enableButtons;
-            
+
             mnuOpenPost.Enabled = enableButtons;
             mnuOpenTimeLineInBrowser.Enabled = enableButtons;
             mnuOpenRevisionsInBrowser.Enabled = enableButtons;
@@ -297,7 +297,7 @@ namespace OverflowHelper
             bool contentHiddenByHTMLtag = chkHiddenAsHTML.Checked;
 
             bool StackOverflowSpelling = chkSpellingOfStackOverflow.Checked;
-            
+
             txtCheckinMessage.Text =
               mCheckinMessageBuilder.getCheckinMessage(
                   postHasCruft,
@@ -328,12 +328,12 @@ namespace OverflowHelper
             bool changeClipboardOnLookup = chkChangeClipboardOnLookup.Checked;
             if (changeClipboardOnLookup)
             {
-                setClipboard2(clipboardStr);                
+                setClipboard2(clipboardStr);
             }
 
             //PM_SPELLING_OVER_WIKIPEDIA 2011-04-05
             //txtOutputURL.Focus();
-            
+
             txtCorrected.Focus();
         } //updateCheckinMessage()
 
@@ -345,7 +345,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void doLookup_real(string aToLookUp, bool aGuessURL_ifFailedLookup)
         {
-            // Is chkChangeClipboardOnLookup respected? Yes, in 
+            // Is chkChangeClipboardOnLookup respected? Yes, in
             // clipboardUpdate() below.
 
             //string wordToLookup = textSearchWord.Text;
@@ -356,7 +356,7 @@ namespace OverflowHelper
 
             string correctedWord;
 
-            //Note about the variable name: It is not always 
+            //Note about the variable name: It is not always
             //a Wikipedia URL... Some are for Wiktionary, MSDN, etc.
             string WikipediaURL =
                 mWikipediaLookup.lookUp(
@@ -367,8 +367,8 @@ namespace OverflowHelper
             {
                 mCheckinMessageBuilder.addWord(correctedWord, WikipediaURL);
 
-                //In user output: include leading and trailing whitespace 
-                //from the input (so it works well with keyboard 
+                //In user output: include leading and trailing whitespace
+                //from the input (so it works well with keyboard
                 //combination Shift + Ctrl + right Arrow).
                 string correctedText = leading + correctedWord + trailing;
                 txtCorrected.Text = correctedText;
@@ -423,7 +423,7 @@ namespace OverflowHelper
             //XXXXXXXXX Not yet
             //mLastLookupTick = System.DateTime.Now();
         } //doLookup_real()
-        
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
@@ -531,7 +531,7 @@ namespace OverflowHelper
             int i = 0;
             foreach (string someURL2 in URL_list)
             {
-                string effectiveURL = someURL2.Trim(); // Removes leading AND 
+                string effectiveURL = someURL2.Trim(); // Removes leading AND
                                                        // trailing whitespace.
 
                 if (effectiveURL.Length > 5) // Usually empty line. This test
@@ -686,10 +686,10 @@ namespace OverflowHelper
             bool result = Int32.TryParse(IDstr, out ID);
             if (!result)
             {
-                //Second try: 
+                //Second try:
                 //
-                // Just replace anything that is ***not*** a digit 
-                // with an empty string (good enough for opening 
+                // Just replace anything that is ***not*** a digit
+                // with an empty string (good enough for opening
                 // the original page while editing).
                 //
                 // Failed on: <http://stackoverflow.com/questions/1858064/so-my-girlfriend-wants-to-learn-to-program/1858069#1858069>
@@ -705,7 +705,7 @@ namespace OverflowHelper
             }
             return ID;
         } //extractPostID()
-        
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
@@ -714,7 +714,7 @@ namespace OverflowHelper
         {
             int ID = extractPostID(anTextWithIntegerIDs);
             string URLtoOpen =
-                "http://" + mSites.getCurrentSiteDomainURL() + 
+                "http://" + mSites.getCurrentSiteDomainURL() +
                 "/posts/" + ID.ToString() + "/timeline";
             network.openURL(URLtoOpen);
         }
@@ -751,7 +751,7 @@ namespace OverflowHelper
         {
             int ID = extractPostID(anTextWithIntegerIDs);
             string URLtoOpen =
-                "http://" + mSites.getCurrentSiteDomainURL() + 
+                "http://" + mSites.getCurrentSiteDomainURL() +
                 "/posts/" + ID.ToString() + "/revisions";
 
             //Sample: http://stackoverflow.com/posts/2803870/revisions
@@ -948,7 +948,7 @@ namespace OverflowHelper
             //Output for now
             txtInputArea.Text = wordlist_SQL;
         } // mnuExportWordlistAsSQL_Click()
-        
+
 
         /****************************************************************************
          *    Open the main page a site to see the current time depth
@@ -978,8 +978,8 @@ namespace OverflowHelper
         {
             int ID = extractPostID(anTextWithIntegerIDs);
 
-            string URLtoOpen = 
-                "http://" + mSites.getCurrentSiteDomainURL() + "/questions/" + 
+            string URLtoOpen =
+                "http://" + mSites.getCurrentSiteDomainURL() + "/questions/" +
                 ID.ToString();
             network.openURL(URLtoOpen);
         }
@@ -1012,8 +1012,8 @@ namespace OverflowHelper
 
             //Courtesy <http://meta.stackoverflow.com/questions/111858>! But
             //is it still working??
-            string URLtoOpen = 
-                "http://" + mSites.getCurrentSiteDomainURL() + 
+            string URLtoOpen =
+                "http://" + mSites.getCurrentSiteDomainURL() +
                 "/posts/" + ID.ToString() + "/ajax-load";
             network.openURL(URLtoOpen);
         }
@@ -1050,7 +1050,7 @@ namespace OverflowHelper
          *    <placeholder for header>                                              *
          ****************************************************************************/
         private void mnuSelectCheckinMessage_Click(object aSender, EventArgs anEvent)
-        {            
+        {
             this.ActiveControl = txtCheckinMessage;
         }
 
@@ -1081,7 +1081,7 @@ namespace OverflowHelper
                 URL = txtOutputURL.Text;
             }
 
-            //Note: Starting this dialog will actually change the 
+            //Note: Starting this dialog will actually change the
             //      clipboard ()
             Forms.frmMarkdown dialog =
                 new Forms.frmMarkdown(term, URL, mLinkRefGenerator);
@@ -1142,7 +1142,7 @@ namespace OverflowHelper
             doLookupFromClipboard(false, false);
             openMarkdownUtility(true);
         } //mnuInsert_LookupAndOpenMarkdownUtility_Click()
-        
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
@@ -1155,16 +1155,16 @@ namespace OverflowHelper
             clearCheckin();
             doLookupFromClipboard(false, false);
         }
-        
+
 
         /****************************************************************************
-         *                                                                          *           
+         *                                                                          *
          *    Centralise reading from the clipboard here                            *
-         *                                                                          * 
+         *                                                                          *
          ****************************************************************************/
         private string getStringFromClipboard()
         {
-            // Perhaps move to EditorOverflowApplication, like setClipboard3() - 
+            // Perhaps move to EditorOverflowApplication, like setClipboard3() -
             // for symmetry?
 
 
@@ -1225,7 +1225,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuFormatAsSubscript_Click(object aSender, EventArgs anEvent)
         {
-            wrapInputFromClipboard("<sub>", "</sub>");        
+            wrapInputFromClipboard("<sub>", "</sub>");
         }
 
 
@@ -1234,7 +1234,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuEncloseInBrackets_Click(object aSender, EventArgs anEvent)
         {
-            wrapInputFromClipboard("<", ">");                
+            wrapInputFromClipboard("<", ">");
         }
 
 
@@ -1288,7 +1288,7 @@ namespace OverflowHelper
             //      [Assembly].GetExecutingAssembly().GetModules(False)(0).FullyQualifiedName)
             //  Return strAppDir
             //
-            // Translated by <http://www.developerfusion.com/tools/convert/vb-to-csharp/>. 
+            // Translated by <http://www.developerfusion.com/tools/convert/vb-to-csharp/>.
             //
             ////"[Assembly]" requires System.Reflection
             //string strAppDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetModules(false)(0).FullyQualifiedName);
@@ -1304,8 +1304,8 @@ namespace OverflowHelper
         private string applicationPath()
         {
 
-            string strApplicationDir = 
-              System.IO.Path.GetDirectoryName( 
+            string strApplicationDir =
+              System.IO.Path.GetDirectoryName(
                 System.Reflection.Assembly.GetExecutingAssembly().GetModules(false)[0].FullyQualifiedName);
 
             return strApplicationDir;
@@ -1315,7 +1315,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void showFileInWindowsExplorer( 
+        private void showFileInWindowsExplorer(
           string anInDiskItemPath, string anInFileNotExistMsg)
         {
 
@@ -1354,11 +1354,11 @@ namespace OverflowHelper
                 }
                 effectivePath = candidate;
 
-                string msgStr1 = 
+                string msgStr1 =
                   "File does not exist: " + anInDiskItemPath + ". ";
 
                 string msgStr2 = null;
-                if (effectivePath == "") 
+                if (effectivePath == "")
                 {
                     msgStr2 = ""; // None of the containing folders exists, not
                                   // even the drive.
@@ -1366,7 +1366,7 @@ namespace OverflowHelper
                 }
                 else
                 {
-                    msgStr2 = 
+                    msgStr2 =
                       "An existing containing folder, " +
                       effectivePath + ", will be opened instead.";
                 }
@@ -1422,7 +1422,7 @@ namespace OverflowHelper
                 showFileInWindowsExplorer(
                   toOpen, "Opening the closest containing folder.");
 
-            
+
             }
             catch (Exception exceptionObject)
             {
@@ -1444,8 +1444,8 @@ namespace OverflowHelper
         {
             Random randNum = new Random();
             int postNum = randNum.Next(1, mSites.getPosts()); //Old: 10642249
-            
-            openPost(postNum, mSites.getCurrentSiteDomainURL());                
+
+            openPost(postNum, mSites.getCurrentSiteDomainURL());
         }
 
 
@@ -1462,7 +1462,7 @@ namespace OverflowHelper
          *    <placeholder for header>                                              *
          ****************************************************************************/
         private string setSearchFieldFromClipboard()
-        {            
+        {
             string clipboardContext = getStringFromClipboard();
 
             //2016-08-27
@@ -1478,10 +1478,10 @@ namespace OverflowHelper
 
 
             //2017-02-03
-            //  When copying some text with a link from Quora we get the 
+            //  When copying some text with a link from Quora we get the
             //  inline Markdown... Remove the link part so we can directly
             //  look it up without having to manually remove the link part.
-            // 
+            //
             //
             // Sample:
             //
@@ -1495,14 +1495,14 @@ namespace OverflowHelper
             }
 
             // Nope! We must maintain information about leading and trailing
-            // whitespace. 
+            // whitespace.
             //
             //clipboardContext = clipboardContext.Trim();
-             
+
             // As per primo 2016, Quora adds a return at the end even when just
             // copying a single word on a line. Filter it out!
             clipboardContext = clipboardContext.Replace("\n", "");
-            
+
             // "*" is sometimes included when copying from Quora (when the
             // content is in a list item)
             //
@@ -1528,7 +1528,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void doLookupFromClipboard(bool aGuessURL_ifFailedLookup, 
+        private void doLookupFromClipboard(bool aGuessURL_ifFailedLookup,
                                            bool aOpenURL)
         {
             setSearchFieldFromClipboard();
@@ -1543,7 +1543,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuInsertLookupAndOpenURL_Click(object aSender, 
+        private void mnuInsertLookupAndOpenURL_Click(object aSender,
                                                      EventArgs anEvent)
         {
             // A combination of other commands...
@@ -1559,10 +1559,10 @@ namespace OverflowHelper
         {
             string msg1 = "EditOverFlow.exe [-l TERM] [-m] \n";
 
-            string msg2 = "  -l TERM: Lookup TERM. If there are spaces in the " + 
+            string msg2 = "  -l TERM: Lookup TERM. If there are spaces in the " +
                           "term, enclose it in double quotes.\n";
 
-            string msg3 = "  -m        : Open the Markdown window. "+ 
+            string msg3 = "  -m        : Open the Markdown window. "+
                           "If -l is specified then the lookup is performed first.\n";
 
             System.Windows.Forms.MessageBox.Show(
@@ -1606,10 +1606,10 @@ namespace OverflowHelper
         {
             Random RNG = new Random();
 
-            // int RandomNumber = RNG.Next(14094786); //14094786: as of 
+            // int RandomNumber = RNG.Next(14094786); //14094786: as of
             // //  2012-12-30T21:20:00. This includes both questions and answers.
 
-            int RandomNumber = RNG.Next(mSites.getPosts()); //14094786: as of 
+            int RandomNumber = RNG.Next(mSites.getPosts()); //14094786: as of
             //  2012-12-30T21:20:00. This includes both questions and answers.
 
             string randomID = RandomNumber.ToString();
@@ -1663,7 +1663,7 @@ namespace OverflowHelper
                 //    "http://www.google.com/search?q=" + domainStr + someContent +
                 //    "&num=%i&ie=utf-8&oe=utf-8";
 
-                //DuckDuckGo. It should have been Blekko, but it died 2015-03-27 
+                //DuckDuckGo. It should have been Blekko, but it died 2015-03-27
                 //(<http://searchengineland.com/goodbye-blekko-search-engine-joins-ibms-watson-team-217633>)
                 //Sample, https://duckduckgo.com/html/?q=site%3Aen.wikipedia.org+%s"
                 string URLforWikipediaSearch =
@@ -1679,10 +1679,10 @@ namespace OverflowHelper
          *    Result of menu item Action -> "Search on Wikipedia"                   *
          *                                                                          *
          ****************************************************************************/
-        private void mnuSearchOnWikipedia_Click(object aSender, 
+        private void mnuSearchOnWikipedia_Click(object aSender,
                                                 EventArgs anEventArgs)
         {
-            //Make it work if something is ***typed*** into 
+            //Make it work if something is ***typed*** into
             //the "Lookup" field (instead of relying on the
             //clipboard).
             //
@@ -1727,7 +1727,7 @@ namespace OverflowHelper
         {
             //int calls = 5000 * 1000;
             int calls = 5 * 1000;
-            
+
             int startTicks = Environment.TickCount;
             for (int i = 0; i < calls; i++)
             {
@@ -1742,9 +1742,9 @@ namespace OverflowHelper
             double elapsedSecs = elapsedTicks * 0.001;
             double callsPerSecond = calls / elapsedSecs;
 
-            System.Windows.Forms.MessageBox.Show( 
+            System.Windows.Forms.MessageBox.Show(
                 "Elapsed ticks: " + elapsedTicks +
-                " (" + callsPerSecond.ToString("0.0") + 
+                " (" + callsPerSecond.ToString("0.0") +
                 " calls to DoEvents() per second");
         }
 
@@ -1776,10 +1776,10 @@ namespace OverflowHelper
             return someURL;
         } //pageURL()
 
-        
+
         /****************************************************************************
-         *    If aTag is an empty string, it open the most recent questions,        *  
-         *    that is, irrespective of tags.                                        *    
+         *    If aTag is an empty string, it open the most recent questions,        *
+         *    that is, irrespective of tags.                                        *
          ****************************************************************************/
         private void openPageSeries(string aTag)
         {
@@ -1907,11 +1907,11 @@ namespace OverflowHelper
 
             if (siteURL == "meta.stackoverflow.com")
             {
-                partial = "/"; // "/tour" for this meta site redirects to the main 
+                partial = "/"; // "/tour" for this meta site redirects to the main
                                // site,"stackoverflow.com/tour"... This is not the case
-                               // for Meta Stack Exchange 
+                               // for Meta Stack Exchange
             }
-            
+
             //Sample:  http://stackoverflow.com/tour
             string aboutPageURL = "http://" + siteURL + partial;
 
@@ -1953,7 +1953,7 @@ namespace OverflowHelper
         {
             setClipboard2("°");
         }
-        
+
 
         //Does not belong here in the GUI - is completely general.
         /****************************************************************************
@@ -1965,10 +1965,10 @@ namespace OverflowHelper
             //
             //   <http://stackoverflow.com/questions/11293994/>
             //     "The string class can only store strings in UTF-16 encoding."
-            // 
+            //
             //   <http://stackoverflow.com/questions/9532340/how-to-remove-trailing-white-spaces-using-a-regular-expression-without-removing/21421934#21421934>
-            //     How to remove trailing white spaces using a regular expression 
-            //     without removing empty lines (code cleaning) 
+            //     How to remove trailing white spaces using a regular expression
+            //     without removing empty lines (code cleaning)
             //
             //     ([^ \t\r\n])[ \t]+$
             //
@@ -1978,13 +1978,13 @@ namespace OverflowHelper
             //       Multiline:
             //
             //         <https://msdn.microsoft.com/en-us/library/yd1hzczs%28v=vs.110%29.aspx>
-            //           Regular Expression Options 
+            //           Regular Expression Options
             //
-            //           "Multiline mode. Changes the meaning of ^ and $ so 
-            //           they match at the beginning and end, respectively, 
-            //           of any line, and not just the beginning and end of 
-            //           the entire string. For more information, see the 
-            //           "Multiline Mode" section in the Regular Expression 
+            //           "Multiline mode. Changes the meaning of ^ and $ so
+            //           they match at the beginning and end, respectively,
+            //           of any line, and not just the beginning and end of
+            //           the entire string. For more information, see the
+            //           "Multiline Mode" section in the Regular Expression
             //           Options topic."
             //
             //         For an explanation of "\r?$", see:
@@ -2000,7 +2000,7 @@ namespace OverflowHelper
             //   RegexOptions.Multiline
             //
             string result = Regex.Replace(aInputStr,
-                // @"([^ \t\r\n])[ \t]+$", "", 
+                // @"([^ \t\r\n])[ \t]+$", "",
                 // @"([^ \t\r\n])[ \t]+$", @"$1",
                                           @"[ \t]+(\r?$)",
                                           @"$1",
@@ -2008,7 +2008,7 @@ namespace OverflowHelper
             return result;
         } //removeTrailingSpace()
 
-        
+
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
@@ -2021,19 +2021,19 @@ namespace OverflowHelper
             if (initialLen>0)
             {
                 string result = removeTrailingSpace(clipboardContext);
-                                
+
                 int len1 = result.Length;
                 int removedSpaces = initialLen - len1;
-                
+
                 string result2 = Regex.Replace(result, @"\t", "    "); //4 spaces...
                 int len2 = result2.Length;
-                int removedTABs = 
+                int removedTABs =
                     (len2 - len1) / 3; // We replace a TAB with four spaces -
                                        // 3 more characters per TAB...
 
-                const string prefix = "         ";  // For some reason the displayed 
-                                                    // text is cut on the left. For 
-                                                    // now we just add leading spaces 
+                const string prefix = "         ";  // For some reason the displayed
+                                                    // text is cut on the left. For
+                                                    // now we just add leading spaces
                                                     // to avoid the problem.
 
                 string status;
@@ -2042,14 +2042,14 @@ namespace OverflowHelper
                     if (aChange)
                     {
                         setClipboard2(result2);
-                        status = prefix + 
+                        status = prefix +
                             "Replaced " + removedTABs +
                             " TABs with spaces and removed " +
                             removedSpaces + " trailing spaces...";
                     }
                     else
                     {
-                        status = prefix + 
+                        status = prefix +
                             "The text in the clipboard contains " +
                             removedTABs + " TABs and " +
                             removedSpaces + " trailing spaces...";
@@ -2098,7 +2098,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSearchOnWiktionary_Click(object sender, EventArgs e)
         {
-            // We get false negatives on DuckDuckGO (because it does not 
+            // We get false negatives on DuckDuckGO (because it does not
             // understand "site:"?)
             //
             //searchOnTheWeb("en.wiktionary.org", textSearchWord.Text);
@@ -2123,7 +2123,7 @@ namespace OverflowHelper
         {
             setClipboard2("\t");
         }
-        
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
@@ -2156,8 +2156,8 @@ namespace OverflowHelper
         /****************************************************************************
          *    Both aStartPage and anEndPage are inclusive.                          *
          ****************************************************************************/
-        private List<string> generatePageURLs(int aStartPage, 
-                                              int anEndPage, 
+        private List<string> generatePageURLs(int aStartPage,
+                                              int anEndPage,
                                               string aTag)
         {
             int pages = anEndPage - aStartPage + 1;
@@ -2176,7 +2176,7 @@ namespace OverflowHelper
         /****************************************************************************
          *   From the clipboard                                                     *
          ****************************************************************************/
-        private void mnuFilterHTML_forYouTube_2_Click(object aSender, 
+        private void mnuFilterHTML_forYouTube_2_Click(object aSender,
                                                       EventArgs anEvents)
         {
             mScratchSB.Length = 0;
@@ -2204,7 +2204,7 @@ namespace OverflowHelper
                         // Try isolating the URL. But we could probably do
                         // more than this, e.g. cut off at the left. Example of
                         // a returned line:
-                        // 
+                        //
                         //     src="https://www.youtube.com/watch?v=XqakD0dXdjM
                         //
                         //
@@ -2212,7 +2212,7 @@ namespace OverflowHelper
                         matchedString = matchedString.Replace("data-src=\"", "");
                         if (matchedString.EndsWith("\""))
                         {
-                            matchedString = 
+                            matchedString =
                                 matchedString.Substring(0, matchedString.Length - 1);
                         }
 
@@ -2241,7 +2241,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuArrowToClipboardToolStripMenu_Click(object aSender, 
+        private void mnuArrowToClipboardToolStripMenu_Click(object aSender,
                                                             EventArgs anEvent)
         {
             // <http://www.javascripter.net/faq/mathsymbols.htm>
@@ -2250,7 +2250,7 @@ namespace OverflowHelper
             // http://graphemica.com/%E2%86%92
             //
             //   rightwards arrow (U+2192)
-            //   Unicode Code Point 	U+2192 
+            //   Unicode Code Point 	U+2192
 
             // HexCode  Numeric HTML entity  escape(chr)  encodeURI(chr)  Description
             // -----------------------------------------------------------------------------
@@ -2350,7 +2350,7 @@ namespace OverflowHelper
 
             return toAdd;
         } //spaceBeforeCommaRegex()
-    
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
@@ -2360,7 +2360,7 @@ namespace OverflowHelper
             string toAdd = @"\s:";
 
             return toAdd;
-        } //spaceBeforeColonRegex()           
+        } //spaceBeforeColonRegex()
 
 
         /****************************************************************************
@@ -2371,7 +2371,7 @@ namespace OverflowHelper
             string toAdd = @"\s\)";
 
             return toAdd;
-        } //spaceBeforeParenthesisRegex()           
+        } //spaceBeforeParenthesisRegex()
 
 
         /****************************************************************************
@@ -2382,7 +2382,7 @@ namespace OverflowHelper
             string toAdd = @"\s;";
 
             return toAdd;
-        } //spaceBeforeSemicommaRegex()           
+        } //spaceBeforeSemicommaRegex()
 
 
         /****************************************************************************
@@ -2390,10 +2390,10 @@ namespace OverflowHelper
          ****************************************************************************/
         private string spaceAfterLeftParenthesisRegex()
         {
-            string toAdd = @"\(\s"; 
+            string toAdd = @"\(\s";
 
             return toAdd;
-        } //spaceAfterLeftParenthesisRegex()           
+        } //spaceAfterLeftParenthesisRegex()
 
 
         /****************************************************************************
@@ -2424,7 +2424,7 @@ namespace OverflowHelper
 
                 mScratchSB.Append(missingSpaceAfterColonRegex());
                 mScratchSB.Append("|");
-                 
+
                 mScratchSB.Append(missingSpaceAfterCommaRegex());
                 mScratchSB.Append("|");
 
@@ -2443,10 +2443,10 @@ namespace OverflowHelper
                 mScratchSB.Append(spaceBeforeParenthesisRegex());
                 mScratchSB.Append("|");
 
-                mScratchSB.Append(spaceBeforeSemicommaRegex());                
+                mScratchSB.Append(spaceBeforeSemicommaRegex());
                 mScratchSB.Append("|");
 
-                mScratchSB.Append(spaceAfterLeftParenthesisRegex());                                
+                mScratchSB.Append(spaceAfterLeftParenthesisRegex());
             }
 
             mScratchSB.Append(")");
@@ -2478,17 +2478,17 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuMissingSpaceAfterComma_Click(object sender, EventArgs e)
         {
-            setClipboard2(missingSpaceAfterCommaRegex()); // 2   
+            setClipboard2(missingSpaceAfterCommaRegex()); // 2
         }
 
 
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuMissingSpaceAroundEqualSign_Click(object sender, 
+        private void mnuMissingSpaceAroundEqualSign_Click(object sender,
                                                           EventArgs e)
         {
-            setClipboard2(missingSpaceAroundEqualSign()); // 3   
+            setClipboard2(missingSpaceAroundEqualSign()); // 3
         }
 
 
@@ -2507,7 +2507,7 @@ namespace OverflowHelper
         private void mnuSpaceBeforeComma_Click(object sender, EventArgs e)
         {
             setClipboard2(spaceBeforeCommaRegex()); // 5
-        
+
         }
 
 
@@ -2523,7 +2523,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuSpaceBeforeParenthesis_Click(object aSender, 
+        private void mnuSpaceBeforeParenthesis_Click(object aSender,
                                                      EventArgs anEvent)
         {
             setClipboard2(spaceBeforeParenthesisRegex()); // 7
@@ -2546,7 +2546,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuAllCheckRegexes_Click(object sender, EventArgs e)
         {
-            setClipboard2(combinedAllOfRegularExpressions());        
+            setClipboard2(combinedAllOfRegularExpressions());
         }
 
 
@@ -2565,7 +2565,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuConvert_nbspToSpace_2_Click(object aSender, 
+        private void mnuConvert_nbspToSpace_2_Click(object aSender,
                                                     EventArgs anEvent)
         {
             simpleTextReplaceInClipboard("&nbsp;", " ");
@@ -2583,13 +2583,13 @@ namespace OverflowHelper
          *                                                                          *
          ****************************************************************************/
         private void mnuFilterHTML_forMediaURLsAndOpenLinkPage_2_Click(
-                           object aSender, 
+                           object aSender,
                            EventArgs anEvent)
         {
             //Note: some redundancy with mnuFilterHTML_forYouTube_Click()
 
             // Sample source:
-            //  
+            //
             //   view-source:https://www.dontpanicgeocast.com/?p=807
             //
 
@@ -2620,11 +2620,11 @@ namespace OverflowHelper
                     {
                         string matchedString = someWord;
 
-                        // Special support for "Millionærklubben"...                        
+                        // Special support for "Millionærklubben"...
                         if (someWord_Upper.IndexOf(startMatch) == 0)
                         {
 
-                            // Assume it ends in "                            
+                            // Assume it ends in "
                             //
                             // Sample:
                             //
@@ -2632,7 +2632,7 @@ namespace OverflowHelper
                             //
                             string siteAbsoluteURL =
                                 someWord.Substring(
-                                  lenStartMatch - 1, wordLen - lenStartMatch); 
+                                  lenStartMatch - 1, wordLen - lenStartMatch);
 
                             string millioURL =
                                 "http://arkiv.radio24syv.dk" + siteAbsoluteURL;
@@ -2651,7 +2651,7 @@ namespace OverflowHelper
                         // Try isolating the URL. But we could probably do
                         // more than this, e.g. cut off at the left. Example of
                         // a returned line:
-                        // 
+                        //
                         //     src="https://www.youtube.com/watch?v=XqakD0dXdjM
                         //
                         //
@@ -2678,11 +2678,11 @@ namespace OverflowHelper
                 string someContent = mScratchSB.ToString();
                 setClipboard2(someContent);
 
-                string HTMLcontent = 
+                string HTMLcontent =
                     "<html>\r\n<head>Download MP3</head>\r\n<body>\r\n" +
                     someContent + "</body>\r\n";
-                
-                //Redundant with mnuForthTyping_direct_Click() - using an 
+
+                //Redundant with mnuForthTyping_direct_Click() - using an
                 //application user folder to store a file and
                 //let Windows open it.
 
@@ -2696,7 +2696,7 @@ namespace OverflowHelper
                 string containingFolder = "";
                 try
                 {
-                    // This will throw exception 
+                    // This will throw exception
                     // System.Deployment.Application.InvalidDeploymentException
                     // if not running in a ClickOnce context...
                     //
@@ -2720,7 +2720,7 @@ namespace OverflowHelper
 
                 //Note: Currently redundant with mnuForthTyping_direct_Click().
                 //
-                // Samples of the actual full file path for the saved temporary 
+                // Samples of the actual full file path for the saved temporary
                 // text file (HTML file):
                 //
                 //   In a ClickOnce context:
@@ -2729,9 +2729,9 @@ namespace OverflowHelper
                 //
                 //   In a non-ClickOnce context:
                 //
-                //     This is (currently) effectively the current folder, 
-                //     usually the same (not a good idea to due possible 
-                //     permissions issues - we should use a standard data 
+                //     This is (currently) effectively the current folder,
+                //     usually the same (not a good idea to due possible
+                //     permissions issues - we should use a standard data
                 //     folder instead):
                 //
                 //       <C:\UserProf\EditOverflow\OverflowHelper\bin\Debug\_downloadLinks.html>
@@ -2776,31 +2776,31 @@ namespace OverflowHelper
 
             //Regex rgx = new Regex(@"(\d+)\s+min\s+");
 
-            StringReplacerWithRegex replacer = 
+            StringReplacerWithRegex replacer =
                 new StringReplacerWithRegex(inputStr);
 
             // Convert time to YouTube format
-            //   
+            //
             // Example:
-            //   
+            //
             //   From
             //
             //     23 min 50 secs
             //
             //   to
             //
-            //     23:50 
+            //     23:50
             //
             replacer.transform(@"(\d+)\s+secs", @"$1 ");
             replacer.transform(@"(\d+)\s+min\s+", @"$1:");
             replacer.transform(@"(\d+)\s+h\s+", @"$1:");
 
             // Convert URLs so they do not look like URLs... (otherwise,
-            // the entire comment will be automatically removed 
+            // the entire comment will be automatically removed
             // by YouTube).
             //
             // Example:
-            //   
+            //
             //   From
             //
             //     http://en.wikipedia.org/wiki/JavaScript
@@ -2815,10 +2815,10 @@ namespace OverflowHelper
 
             // Reversals for some of the false positives in URL processing
             replacer.transform(@"E DOT g\.", @"E.g.");
-            replacer.transform(@"e DOT g\.", @"e.g."); 
-            
+            replacer.transform(@"e DOT g\.", @"e.g.");
 
-            // Convert email addresses like so... (at least to 
+
+            // Convert email addresses like so... (at least to
             // offer some protection (and avoiding objections
             // to posting )).
             //
@@ -2827,15 +2827,15 @@ namespace OverflowHelper
             replacer.transform(@"\@", @" AT ");
 
             // Do some reversals for the URL conversion, to cover
-            // some 
+            // some
             replacer.transform(@"e DOT g\.", @"e.g.");
 
 
             // Convert "->" to a real arrow
-            replacer.transform(@"->", @"→"); // Note: For YouTube it can not 
+            replacer.transform(@"->", @"→"); // Note: For YouTube it can not
             //                                        be the HTML entity, "&rarr;".
 
-            
+
 
 
             string outputStr = replacer.currentString();
@@ -2843,7 +2843,7 @@ namespace OverflowHelper
 
             clipboardUpdate(outputStr);
 
-            tstrLabel2.Text = 
+            tstrLabel2.Text =
                 "Converted " + inputStrLen.ToString() + " characters to " +
                 outputStrLen.ToString() + " characters.";
         }
@@ -2881,10 +2881,10 @@ namespace OverflowHelper
 
             // Alternative: "®"
 
-            setClipboard2("™"); 
+            setClipboard2("™");
         }
 
-        
+
         //Helper function
         // Does not belong here in the GUI...
         /****************************************************************************
@@ -2897,7 +2897,7 @@ namespace OverflowHelper
         private static void emptyLine(StringBuilder aScratchSB)
         {
             aScratchSB.Append(Environment.NewLine);
-            aScratchSB.Append(Environment.NewLine);               
+            aScratchSB.Append(Environment.NewLine);
         }
 
 
@@ -2920,7 +2920,7 @@ namespace OverflowHelper
             aScratchSB.Append(Environment.NewLine);
 
             // Pause before the next. E.g. to allow a Forth system
-            // to process the send characters                     
+            // to process the send characters
             aScratchSB.Append("Sleep(");
             aScratchSB.Append(aSleepTimeSpec);
             aScratchSB.Append(")");
@@ -2975,19 +2975,19 @@ namespace OverflowHelper
             emptyLine(aScratchSB);
 
             // Perhaps later:
-            // 
+            //
             // AutoItSetOption("SendKeyDelay", 100)  ; Unit: ms.  "Alters the length of the brief pause in
             //                                       ;            between sent keystrokes. A value of 0 removes
             //                                       ;            the delay completely."
 
-            // Pause so the user can switch focus to where the 
+            // Pause so the user can switch focus to where the
             // characters should be "typed" (e.g. PuTTY, connected
             // to a Forth system).
             aScratchSB.Append("Sleep(5000) ; Allow time for the user ");
             aScratchSB.Append("to switch focus, e.g. to PuTTY.");
             emptyLine(aScratchSB);
         }
- 
+
 
         // Does not belong here in the GUI...
         /****************************************************************************
@@ -3013,41 +3013,41 @@ namespace OverflowHelper
          *                 will be wiped out.                                       *
          *                                                                          *
          ****************************************************************************/
-        private static string AutoItScript(string aToBeTypedOut, 
+        private static string AutoItScript(string aToBeTypedOut,
                                            StringBuilder aScratchSB)
         {
             //Future:
-            //  
+            //
             //   See beginning of this file.
 
             aScratchSB.Length = 0;
 
-            // Note: This fails if there are quotes in the input string. 
+            // Note: This fails if there are quotes in the input string.
             //       Quotes should be escaped (by a quote, '""'?)
 
-            const int kMaxLen = 14; // E.g. to not overwrite the input 
+            const int kMaxLen = 14; // E.g. to not overwrite the input
             //                         buffer in a Forth. AmForth is
             //                         one example.
 
             // How can we make this string constant (that is, protect from
-            // redefinition)??? 
+            // redefinition)???
             string kCharacterDelayVariableName =
                 @"$char" + kMaxLen.ToString() + "delay";  // E.g. "$char20delay"
 
             //const int kBaseDelay_milliSecs = 100;
             const int kBaseDelay_milliSecs = 50;
 
-            AutoItFileHeader(kBaseDelay_milliSecs, 
+            AutoItFileHeader(kBaseDelay_milliSecs,
                              kCharacterDelayVariableName,
                              aScratchSB);
 
-            // "!" means the Alt key in AutoIt, so we have to escape 
+            // "!" means the Alt key in AutoIt, so we have to escape
             // that as "{!}".
             //
-            // The same for "^", key Ctrl. Escape as "{^}". And for 
-            // "+", the Shift key. 
+            // The same for "^", key Ctrl. Escape as "{^}". And for
+            // "+", the Shift key.
             //
-            // "{F11}" and "{F12}" also have special meaning, e.g. "{F11}" 
+            // "{F11}" and "{F12}" also have special meaning, e.g. "{F11}"
             // for key F11. So we would have to Escape:
             //
             //     {  →  {{}
@@ -3056,7 +3056,7 @@ namespace OverflowHelper
             // An alternative is use {ASC <code>}, e.g. {ASC 065} to "A".
             //
             // Refs.:
-            // 
+            //
             //   <https://www.autoitscript.com/autoit3/docs/appendix/SendKeys.htm>
             //
             //   <http://www.mytechsupport.ca/tools/docs/AutoIt_quickref.pdf>
@@ -3065,8 +3065,8 @@ namespace OverflowHelper
             StringReplacerWithRegex replacer =
                 new StringReplacerWithRegex(aToBeTypedOut);
 
-            // Note: "^", "{", and "{" are special regular expression characters 
-            //       by themselves and must be escaped (but apparently not in the 
+            // Note: "^", "{", and "{" are special regular expression characters
+            //       by themselves and must be escaped (but apparently not in the
             //       output)... What about "!"?
 
             // This must be applied first!
@@ -3077,7 +3077,7 @@ namespace OverflowHelper
             //be literally typed.
 
             const string kEscapeMarker = "__X__"; // We use it later to avoid
-            //                                       breaking line in the middle    
+            //                                       breaking line in the middle
             //                                       of an escaped sequence (e.g.,
             //                                       a literal "!" that has special
             //                                       meaning for AutoIt if not escaped).
@@ -3086,18 +3086,18 @@ namespace OverflowHelper
             //
             replacer.transform(@"!", kEscapeMarker + @"{!}"); // "!" is the "Ctrl" key
             replacer.transform(@"#", kEscapeMarker + @"{#}"); // "#" could be the Basic ##.### number specification
-            replacer.transform(@"\^", kEscapeMarker + @"{^}"); // "^" is the "Alt" key. We 
-            //                                                    must also do escape for 
-            //                                                    the regular expressions 
+            replacer.transform(@"\^", kEscapeMarker + @"{^}"); // "^" is the "Alt" key. We
+            //                                                    must also do escape for
+            //                                                    the regular expressions
             //                                                    here...
             //
             replacer.transform(@"\+", kEscapeMarker + @"{+}"); // "+" is the Shift key
 
-            // A literal quote in an AutoIt string needs to be escaped 
-            // by a quote (so it becomes two quotes in a text string - 
+            // A literal quote in an AutoIt string needs to be escaped
+            // by a quote (so it becomes two quotes in a text string -
             // for AutoIt's Send() in this case).
             //
-            // The same kind of quoting is needed here in C#, so we end 
+            // The same kind of quoting is needed here in C#, so we end
             // up with 4 quotes...
             //
             replacer.transform(@"""", kEscapeMarker + @""""""); // That is, each literal
@@ -3105,9 +3105,9 @@ namespace OverflowHelper
             //                                                     two quotes (escaped by
             //                                                     a quote)
 
-            // Avoid any problems with TABs by replacing 
-            // them with 4 spaces (e.g. we would 
-            // probably have to escape them for 
+            // Avoid any problems with TABs by replacing
+            // them with 4 spaces (e.g. we would
+            // probably have to escape them for
             // AutoIt to properly type them out).
             //
             replacer.transform("\t", @"    ");
@@ -3122,23 +3122,23 @@ namespace OverflowHelper
             ////Will there be exceptions to this??
             ////
             //replacer.transform(@"\\.*\n", @"");
-            
+
             string inputStr = removeTrailingSpace(replacer.currentString());
-            
+
             // We don't use RemoveEmptyEntries as we want empty lines in the
             // input to result in empty lines in the typing.
             string[] lines = inputStr.Split(new string[] { Environment.NewLine },
                                                            StringSplitOptions.None);
-            
+
             foreach (string someLine4 in lines)
             {
-                // Note: We must not break AutoIt escaped sequences 
-                //       into separate Send() lines (this will 
-                //       result in incorrect behaviour - see 
-                //       below for an example. E.g., all of 
+                // Note: We must not break AutoIt escaped sequences
+                //       into separate Send() lines (this will
+                //       result in incorrect behaviour - see
+                //       below for an example. E.g., all of
                 //       "{!}" must be in the same Send() line).
                 //
-                // Example: 
+                // Example:
                 //
                 //   Input (without the quotes):
                 //
@@ -3150,18 +3150,18 @@ namespace OverflowHelper
                 //
                 //   Output if we don't account for this:
                 //
-                //       Send("     PORTB c{!")  
-                //       Send("}")  
+                //       Send("     PORTB c{!")
+                //       Send("}")
 
 
-                // Split on "{" so we avoid splitting AutoIt escape sequences (e.g. 
-                // "{!}" for a literal "!" (used for the "Ctrl" key in AutoIt)). 
+                // Split on "{" so we avoid splitting AutoIt escape sequences (e.g.
+                // "{!}" for a literal "!" (used for the "Ctrl" key in AutoIt)).
                 //
-                // In most cases there will only be one item, but not 
-                // if there is an AutoIt escaped item. 
+                // In most cases there will only be one item, but not
+                // if there is an AutoIt escaped item.
                 //
-                // We make sure such items are at the beginning of 
-                // an AotoIt Send() line, so they will not be 
+                // We make sure such items are at the beginning of
+                // an AotoIt Send() line, so they will not be
                 // split up by the 20 character chunking)
                 //
                 //Note: not "RemoveEmptyEntries" as we want to be able
@@ -3199,7 +3199,7 @@ namespace OverflowHelper
                 addAutoItTyping("{ENTER}", "$lineEndDelay", aScratchSB);
 
                 aScratchSB.Append(Environment.NewLine); // This will result in
-                //                                         two empty lines, 
+                //                                         two empty lines,
                 //                                         visually separating
                 //                                         the AutoIt code for
                 //                                         each line in the input
@@ -3231,7 +3231,7 @@ namespace OverflowHelper
 
             clipboardUpdate(someAutoItScript);
         } // mnuForthTyping_Click()
-        
+
 
         //Does not belong here in the GUI... Should be moved somewhere else.
         /****************************************************************************
@@ -3239,7 +3239,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private static string applicationDataFolder()
         {
-            string dataFolder = 
+            string dataFolder =
                 System.Environment.GetFolderPath(
             System.Environment.SpecialFolder.LocalApplicationData);
 
@@ -3256,7 +3256,7 @@ namespace OverflowHelper
          *                                                                          *
          *    Implementation note:                                                  *
          *                                                                          *
-         *      It is not a good idea to 
+         *      It is not a good idea to
          *      use a keyboard shortcut                    *
          *      with Ctrl + Shift for this menu command as                          *
          *      using the keyboard shortcut may change the                          *
@@ -3270,21 +3270,21 @@ namespace OverflowHelper
             // We write out an AutoIt script to a temporary file and
             // let Windows open and execute it.
 
-            string someAutoItScript = 
+            string someAutoItScript =
                 AutoItScript(getStringFromClipboard(), mScratchSB);
 
             string workFolder = applicationDataFolder();
 
             //Slight change of collision - an ISO8601 date would be better.
             //
-            //We also construct temporary files 
-            //mnuFilterHTML_forMediaURLsAndOpenLinkPage_2_Click(), use 
-            //Path.Combine, and open files by Windows. This redundancy 
+            //We also construct temporary files
+            //mnuFilterHTML_forMediaURLsAndOpenLinkPage_2_Click(), use
+            //Path.Combine, and open files by Windows. This redundancy
             //should be eliminated.
             //
-            string tempFileName = 
+            string tempFileName =
                 "_TypeOut_" + Environment.TickCount.ToString() + ".au3";
-            string tempFileName_fullPath = 
+            string tempFileName_fullPath =
                 Path.Combine(workFolder, tempFileName);
 
             File.WriteAllText(tempFileName_fullPath, someAutoItScript);
@@ -3301,7 +3301,7 @@ namespace OverflowHelper
         private void mnuSelectCurrentEditSummaryStyle_Click(
             object aSender, EventArgs anEvent)
         {
-            SelectEditSummaryStyle dialog = 
+            SelectEditSummaryStyle dialog =
                 new SelectEditSummaryStyle(mEditSummaryStyle);
             dialog.ShowDialog();
         }
@@ -3320,22 +3320,22 @@ namespace OverflowHelper
          *    without being affected by changes                                     *
          *    to the word list.                                                     *
          ****************************************************************************/
-        private void mnuHTML_WordListWithoutWords_Click(object aSender, 
+        private void mnuHTML_WordListWithoutWords_Click(object aSender,
                                                         EventArgs anEvent)
         {
             // We call it with all empty variable information to get
             // a stable output for regression testing (get skeleton
             // HTML, with only the begining and end, with an empty
             // word table)
-            Dictionary<string, string> someCaseCorrection = 
+            Dictionary<string, string> someCaseCorrection =
                 new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URL = 
+            Dictionary<string, string> someWord2URL =
                 new Dictionary<string, string>();
-            Dictionary<string, string> someCaseCorrection_Reverse = 
+            Dictionary<string, string> someCaseCorrection_Reverse =
                 new Dictionary<string, string>();
             string Wordlist_HTML =
               WikipediaLookup.dumpWordList_asHTML(
-                "", 
+                "",
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
                 ref someWord2URL
@@ -3351,13 +3351,13 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuSpaceAfterLeftParenthesis_Click(object aSender, 
+        private void mnuSpaceAfterLeftParenthesis_Click(object aSender,
                                                         EventArgs anEvent)
         {
             setClipboard2(spaceAfterLeftParenthesisRegex()); //
         }
 
-        
+
     } //class frmMainForm
 
 
