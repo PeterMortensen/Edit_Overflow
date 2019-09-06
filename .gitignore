@@ -1,7 +1,6 @@
 
 # User-specific files
 *.rsuser
-*.suo
 *.user
 *.userosscache
 *.sln.docstates
@@ -13,5 +12,9 @@
 # Generated files - for import of the Edit Overflow into MySQL
 *.sql
 
+
+# No longer disabled. For multiple startup projects, so unit testing 
+# does not require preparation.
+#     *.suo      
 
 
