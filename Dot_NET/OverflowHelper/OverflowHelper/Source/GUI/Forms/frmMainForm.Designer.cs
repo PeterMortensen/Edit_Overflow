@@ -122,6 +122,7 @@
             this.mnuOpenApplicationFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCallingDoEvents = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDisablingACheckbox = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuHTML_WordListWithoutWords = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuOpenRandomPage_noAnswers_2 = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOpenRandomQuestion_2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -191,7 +192,8 @@
             this.tstrLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tstrLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.chkSpellingOfStackOverflow = new System.Windows.Forms.CheckBox();
-            this.mnuHTML_WordListWithoutWords = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSpaceAfterLeftParenthesis = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.grpDoStuffOnQuestionIDs.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -696,7 +698,9 @@
             this.mnuSpaceBeforeComma,
             this.mnuSpaceBeforeColon,
             this.mnuSpaceBeforeParenthesis,
-            this.mnuSpaceBeforeSemicolon});
+            this.mnuSpaceBeforeSemicolon,
+            this.toolStripSeparator16,
+            this.mnuSpaceAfterLeftParenthesis});
             this.mnuRegularExpressionToClipboard.Name = "mnuRegularExpressionToClipboard";
             this.mnuRegularExpressionToClipboard.Size = new System.Drawing.Size(489, 24);
             this.mnuRegularExpressionToClipboard.Text = "Regular &expression to Clipboard";
@@ -781,7 +785,7 @@
             // 
             this.mnuSpaceBeforeParenthesis.Name = "mnuSpaceBeforeParenthesis";
             this.mnuSpaceBeforeParenthesis.Size = new System.Drawing.Size(416, 24);
-            this.mnuSpaceBeforeParenthesis.Text = "Space before &parenthesis";
+            this.mnuSpaceBeforeParenthesis.Text = "Space before right &parenthesis";
             this.mnuSpaceBeforeParenthesis.Click += new System.EventHandler(this.mnuSpaceBeforeParenthesis_Click);
             // 
             // mnuSpaceBeforeSemicolon
@@ -981,6 +985,13 @@
             this.mnuDisablingACheckbox.Text = "Disabling a checkbox - test!";
             this.mnuDisablingACheckbox.Visible = false;
             this.mnuDisablingACheckbox.Click += new System.EventHandler(this.mnuDisablingACheckbox_Click);
+            // 
+            // mnuHTML_WordListWithoutWords
+            // 
+            this.mnuHTML_WordListWithoutWords.Name = "mnuHTML_WordListWithoutWords";
+            this.mnuHTML_WordListWithoutWords.Size = new System.Drawing.Size(551, 24);
+            this.mnuHTML_WordListWithoutWords.Text = "HTML Word List Without Words - test!";
+            this.mnuHTML_WordListWithoutWords.Click += new System.EventHandler(this.mnuHTML_WordListWithoutWords_Click);
             // 
             // toolStripSeparator12
             // 
@@ -1625,12 +1636,17 @@
             this.chkSpellingOfStackOverflow.Text = "Spelling of Stack Overflow";
             this.chkSpellingOfStackOverflow.UseVisualStyleBackColor = true;
             // 
-            // mnuHTML_WordListWithoutWords
+            // mnuSpaceAfterLeftParenthesis
             // 
-            this.mnuHTML_WordListWithoutWords.Name = "mnuHTML_WordListWithoutWords";
-            this.mnuHTML_WordListWithoutWords.Size = new System.Drawing.Size(551, 24);
-            this.mnuHTML_WordListWithoutWords.Text = "HTML Word List Without Words - test!";
-            this.mnuHTML_WordListWithoutWords.Click += new System.EventHandler(this.mnuHTML_WordListWithoutWords_Click);
+            this.mnuSpaceAfterLeftParenthesis.Name = "mnuSpaceAfterLeftParenthesis";
+            this.mnuSpaceAfterLeftParenthesis.Size = new System.Drawing.Size(416, 24);
+            this.mnuSpaceAfterLeftParenthesis.Text = "Space after &left parenthesis";
+            this.mnuSpaceAfterLeftParenthesis.Click += new System.EventHandler(this.mnuSpaceAfterLeftParenthesis_Click);
+            // 
+            // toolStripSeparator16
+            // 
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(413, 6);
             // 
             // frmMainForm
             // 
@@ -1865,6 +1881,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
         private System.Windows.Forms.ToolStripMenuItem mnuHTML_WordListWithoutWords;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator16;
+        private System.Windows.Forms.ToolStripMenuItem mnuSpaceAfterLeftParenthesis;
     }
 }
 

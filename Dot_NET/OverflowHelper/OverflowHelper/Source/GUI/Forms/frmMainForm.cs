@@ -2388,6 +2388,17 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
+        private string spaceAfterLeftParenthesisRegex()
+        {
+            string toAdd = @"\(\s"; 
+
+            return toAdd;
+        } //spaceAfterLeftParenthesisRegex()           
+
+
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
         private string combinedAllOfRegularExpressions()
         {
             mScratchSB.Length = 0;
@@ -2433,6 +2444,9 @@ namespace OverflowHelper
                 mScratchSB.Append("|");
 
                 mScratchSB.Append(spaceBeforeSemicommaRegex());                
+                mScratchSB.Append("|");
+
+                mScratchSB.Append(spaceAfterLeftParenthesisRegex());                                
             }
 
             mScratchSB.Append(")");
@@ -2509,7 +2523,8 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuSpaceBeforeParenthesis_Click(object sender, EventArgs e)
+        private void mnuSpaceBeforeParenthesis_Click(object aSender, 
+                                                     EventArgs anEvent)
         {
             setClipboard2(spaceBeforeParenthesisRegex()); // 7
         }
@@ -3330,6 +3345,16 @@ namespace OverflowHelper
 
             //Output for now
             txtInputArea.Text = Wordlist_HTML;
+        }
+
+
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        private void mnuSpaceAfterLeftParenthesis_Click(object aSender, 
+                                                        EventArgs anEvent)
+        {
+            setClipboard2(spaceAfterLeftParenthesisRegex()); //
         }
 
         
