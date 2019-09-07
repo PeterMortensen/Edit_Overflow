@@ -740,6 +740,11 @@ namespace OverflowHelper.core
             correctionAdd("XLinq", "LINQ&nbsp;to&nbsp;XML"); //Synonym
             correctionAdd("Linq 2 XML", "LINQ&nbsp;to&nbsp;XML");
             correctionAdd("Linq-XML", "LINQ&nbsp;to&nbsp;XML");
+            correctionAdd("Xml Linq", "LINQ&nbsp;to&nbsp;XML");
+            correctionAdd("XML Linq", "LINQ&nbsp;to&nbsp;XML");
+            correctionAdd("XML LINQ", "LINQ&nbsp;to&nbsp;XML");
+            correctionAdd("LINQ for XML", "LINQ&nbsp;to&nbsp;XML");
+
 
             correctionAdd("LINQ to objects", "LINQ&nbsp;to&nbsp;Objects");
             correctionAdd("Linq-to-Objects", "LINQ&nbsp;to&nbsp;Objects");
@@ -1705,6 +1710,7 @@ namespace OverflowHelper.core
             correctionAdd("test-driven development", "TDD");
             correctionAdd("Test-driven development", "TDD");
             correctionAdd("Test-Driven Development", "TDD");
+            correctionAdd("test driven development", "TDD");
 
             correctionAdd("Xampp", "XAMPP");
             correctionAdd("XAMMP", "XAMPP"); //Observed misspelling! P -> M
@@ -3006,6 +3012,7 @@ namespace OverflowHelper.core
             correctionAdd("diffenately", "definitely");
             correctionAdd("definitley", "definitely");
             correctionAdd("definently", "definitely");
+            correctionAdd("Definatly", "definitely");
 
             correctionAdd("nagios", "Nagios");
 
@@ -3797,6 +3804,8 @@ namespace OverflowHelper.core
             correctionAdd("charater", "characters");
             correctionAdd("charector", "characters"); //Not 100% correct. Add a plural feature?
             correctionAdd("charectors", "characters");
+            correctionAdd("cheracter", "characters");
+            correctionAdd("cheracters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -4192,6 +4201,7 @@ namespace OverflowHelper.core
             correctionAdd("phising", "phishing");
 
             correctionAdd("dhcp", "DHCP");
+            correctionAdd("DCHP", "DHCP");
 
             correctionAdd("ur", "your");
 
@@ -8116,6 +8126,7 @@ namespace OverflowHelper.core
             correctionAdd("WebAPI", "Web API");
             correctionAdd("web API", "Web API");
             correctionAdd("webapi", "Web API");
+            correctionAdd("web api", "Web API");
 
             correctionAdd("duck-typing", "duck typing");
 
@@ -9172,6 +9183,7 @@ namespace OverflowHelper.core
             correctionAdd("build in", "built-in");
             correctionAdd("build-in", "built-in");
             correctionAdd("in-build", "built-in");
+            correctionAdd("buildin", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -10260,10 +10272,12 @@ namespace OverflowHelper.core
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
+            correctionAdd("py2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
             correctionAdd("python 3", "Python&nbsp;3");
+            correctionAdd("py3", "Python&nbsp;3");
 
             correctionAdd("quran", "Qur'an");
 
@@ -10514,6 +10528,7 @@ namespace OverflowHelper.core
             correctionAdd("VertX", "Vert.x");
 
             correctionAdd("appropiate", "appropriate");
+            correctionAdd("apropriate", "appropriate");
 
             correctionAdd("carefull", "careful");
 
@@ -10773,6 +10788,7 @@ namespace OverflowHelper.core
             correctionAdd("windows 2016", "Windows Server 2016");
 
             correctionAdd("appriciated", "appreciated");
+            correctionAdd("appericated", "appreciated");
 
             correctionAdd("LA", "logic analyser");
             correctionAdd("Logic Analyzer", "logic analyser");
@@ -10986,6 +11002,7 @@ namespace OverflowHelper.core
             correctionAdd("defualt", "default");
             correctionAdd("defult", "default");
             correctionAdd("defaul", "default");
+            correctionAdd("dafault", "default");
 
             correctionAdd("4th", "fourth");
 
@@ -11836,6 +11853,48 @@ namespace OverflowHelper.core
             correctionAdd("temorarily", "temporarily");
 
             correctionAdd("wieght", "weight");
+
+            correctionAdd("Beligum", "Belgium");
+            correctionAdd("beligum", "Belgium");
+
+            correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
+            correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
+
+            correctionAdd("codepen", "CodePen");
+            correctionAdd("Codepen", "CodePen");
+
+            correctionAdd("Emporer", "Emperor");
+
+            correctionAdd("wep", "WEP");
+
+            correctionAdd("anoymous", "anonymous");
+
+            correctionAdd("aproved", "approved");
+
+            correctionAdd("asigning", "assigning");
+
+            correctionAdd("coockies", "cookies");
+
+            correctionAdd("hidding", "hiding");
+
+            correctionAdd("in-house", "in house");
+            correctionAdd("inhouse", "in house");
+
+            correctionAdd("knwo", "know");
+
+            correctionAdd("manu", "menu");
+
+            correctionAdd("mising", "missing");
+
+            correctionAdd("premiss", "premise");
+
+            correctionAdd("promp", "prompt");
+
+            correctionAdd("seting", "setting");
+
+            correctionAdd("suposed", "supposed");
+
+            correctionAdd("timezone", "time zone");
 
 
 
@@ -17045,6 +17104,45 @@ namespace OverflowHelper.core
             URL_Add("temporarily", "https://en.wiktionary.org/wiki/temporarily#Adverb");
 
             URL_Add("weight", "https://en.wiktionary.org/wiki/weight#Noun");
+
+            URL_Add("Belgium", "https://en.wikipedia.org/wiki/Belgium");
+
+            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
+
+            URL_Add("CodePen", "https://en.wikipedia.org/wiki/CodePen");
+
+            URL_Add("Emperor", "https://en.wikipedia.org/wiki/Emperor_of_Japan");
+
+            URL_Add("WEP", "https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy");
+
+            URL_Add("anonymous", "https://en.wiktionary.org/wiki/anonymous#Adjective");
+
+            URL_Add("approved", "https://en.wiktionary.org/wiki/approved#Adjective");
+
+            URL_Add("assigning", "https://en.wiktionary.org/wiki/assign#Verb");
+
+            URL_Add("cookies", "https://en.wikipedia.org/wiki/HTTP_cookie");
+
+            URL_Add("hiding", "https://en.wiktionary.org/wiki/hide#Verb");
+
+            URL_Add("in house", "https://en.wiktionary.org/wiki/in_house#Adjective");
+
+            URL_Add("know", "https://en.wiktionary.org/wiki/know#Verb");
+
+            URL_Add("menu", "https://en.wikipedia.org/wiki/Menu_%28computing%29");
+
+            URL_Add("missing", "https://en.wiktionary.org/wiki/missing#Adjective");
+
+            URL_Add("premise", "https://en.wiktionary.org/wiki/premise#Noun");
+
+            URL_Add("prompt", "https://en.wiktionary.org/wiki/prompt#Noun");
+
+            URL_Add("setting", "https://en.wiktionary.org/wiki/set#Verb");
+
+            URL_Add("supposed", "https://en.wiktionary.org/wiki/supposed#Adjective");
+
+            URL_Add("time zone", "https://en.wiktionary.org/wiki/time_zone#Noun");
+
 
 
 
