@@ -1704,13 +1704,13 @@ namespace OverflowHelper.core
             correctionAdd("Re-sharper", "ReSharper");
             correctionAdd("ReShaper", "ReSharper");
 
-            correctionAdd("tdd", "TDD");
-            correctionAdd("Test Driven Development", "TDD");
-            correctionAdd("Test Driven Developmen", "TDD");
-            correctionAdd("test-driven development", "TDD");
-            correctionAdd("Test-driven development", "TDD");
-            correctionAdd("Test-Driven Development", "TDD");
-            correctionAdd("test driven development", "TDD");
+            correctionAdd("tdd", "test-driven development");
+            correctionAdd("Test Driven Development", "test-driven development");
+            correctionAdd("Test Driven Developmen", "test-driven development");
+            correctionAdd("test-driven development", "test-driven development");
+            correctionAdd("Test-driven development", "test-driven development");
+            correctionAdd("Test-Driven Development", "test-driven development");
+            correctionAdd("test driven development", "test-driven development");
 
             correctionAdd("Xampp", "XAMPP");
             correctionAdd("XAMMP", "XAMPP"); //Observed misspelling! P -> M
@@ -2639,7 +2639,7 @@ namespace OverflowHelper.core
             correctionAdd("WINE", "Wine");
             correctionAdd("wine", "Wine");
 
-            correctionAdd("komodo", "Komodo");
+            correctionAdd("komodo", "Komodo Edit");
 
             correctionAdd("wxwidgets", "wxWidgets");
             correctionAdd("WxWidgets", "wxWidgets");
@@ -3765,8 +3765,8 @@ namespace OverflowHelper.core
 
             correctionAdd("stats", "statistics");
 
-            correctionAdd("btw", "BTW");
-            correctionAdd("Btw", "BTW");
+            correctionAdd("btw", "by the way");
+            correctionAdd("Btw", "by the way");
 
             correctionAdd("kohana", "Kohana"); //Not actually observed.
 
@@ -4089,10 +4089,11 @@ namespace OverflowHelper.core
             correctionAdd("directoy", "directory");
             correctionAdd("dirctory", "directory");
 
-            correctionAdd("dont", "don't");
-            correctionAdd("Dont", "don't"); //Not 100% correct - case.
-            correctionAdd("don’t", "don't");
-            correctionAdd("dom't", "don't");
+            correctionAdd("dont", "don’t");
+            correctionAdd("Dont", "don’t"); //Not 100% correct - case.
+            correctionAdd("don’t", "don’t");
+            correctionAdd("dom't", "don’t");
+            correctionAdd("don't", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -5589,9 +5590,9 @@ namespace OverflowHelper.core
             correctionAdd("arm", "ARM");
             correctionAdd("Arm", "ARM");
 
-            correctionAdd("ANN", "Artificial neural network"); //Expansion
-            correctionAdd("Neural Network", "Artificial neural network");
-            correctionAdd("neural network", "Artificial neural network");
+            correctionAdd("ANN", "artificial neural network"); //Expansion
+            correctionAdd("Neural Network", "artificial neural network");
+            correctionAdd("neural network", "artificial neural network");
 
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
@@ -5659,10 +5660,10 @@ namespace OverflowHelper.core
             correctionAdd("Uart", "UART");
             correctionAdd("uart", "UART");
 
-            correctionAdd("ive", "I've");
-            correctionAdd("Ive", "I've");
-            correctionAdd("Iv'e", "I've");
-            correctionAdd("I’ve", "I've");
+            correctionAdd("ive", "I’ve");
+            correctionAdd("Ive", "I’ve");
+            correctionAdd("Iv'e", "I’ve");
+            correctionAdd("I've", "I’ve");
 
             correctionAdd("foursquare", "Foursquare");
             correctionAdd("Four square", "Foursquare");
@@ -6241,12 +6242,12 @@ namespace OverflowHelper.core
             correctionAdd("SAMBA", "Samba");
             correctionAdd("samba", "Samba");
 
-            correctionAdd("os", "OS");
-            correctionAdd("operating system", "OS");
-            correctionAdd("O/S", "OS");
-            correctionAdd("o/s", "OS");
-            correctionAdd("Operating System", "OS");
-            correctionAdd("Os", "OS");
+            correctionAdd("os", "operating system");
+            correctionAdd("operating system", "operating system");
+            correctionAdd("O/S", "operating system");
+            correctionAdd("o/s", "operating system");
+            correctionAdd("Operating System", "operating system");
+            correctionAdd("Os", "operating system");
 
             correctionAdd("colo", "colocation centre");
 
@@ -6360,10 +6361,10 @@ namespace OverflowHelper.core
             correctionAdd("bitbuket", "Bitbucket");
             correctionAdd("BitBucket", "Bitbucket");
 
-            correctionAdd("oop", "OOP");
-            correctionAdd("Object Oriented Programming", "OOP"); // Mostly for the URL
-            correctionAdd("object oriented programming", "OOP");
-            correctionAdd("object orientated programming", "OOP");
+            correctionAdd("oop", "object-oriented programming");
+            correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
+            correctionAdd("object oriented programming", "object-oriented programming");
+            correctionAdd("object orientated programming", "object-oriented programming");
 
             correctionAdd("squeak", "Squeak");
 
@@ -6464,9 +6465,10 @@ namespace OverflowHelper.core
             correctionAdd("Visual C++", "Microsoft Visual C++");
             correctionAdd("MSVS C++", "Microsoft Visual C++");
 
-            correctionAdd("VC2005", "Visual C++ 8.0");
-            correctionAdd("Visual C++ 2005", "Visual C++ 8.0");
-            correctionAdd("VC++ 2005", "Visual C++ 8.0");
+            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
 
             correctionAdd("VC++2010", "Visual C++ 2010");
 
@@ -7062,10 +7064,10 @@ namespace OverflowHelper.core
             correctionAdd("straigth forward", "straightforward");
             correctionAdd("strait-forward", "straightforward");
 
-            correctionAdd("ai", "AI");
-            correctionAdd("Aritifical Intellegence", "AI");
-            correctionAdd("artificial intelligence", "AI");
-            correctionAdd("Artificial Intelligence", "AI");
+            correctionAdd("ai", "artificial intelligence");
+            correctionAdd("Aritifical Intellegence", "artificial intelligence");
+            correctionAdd("artificial intelligence", "artificial intelligence");
+            correctionAdd("Artificial Intelligence", "artificial intelligence");
 
             correctionAdd("dvd", "DVD");
 
@@ -7750,10 +7752,10 @@ namespace OverflowHelper.core
             correctionAdd("mine craft", "Minecraft");
             correctionAdd("Mine craft", "Minecraft");
 
-            correctionAdd("AP", "Access Point");
-            correctionAdd("Access point", "Access Point");
-            correctionAdd("access point", "Access Point");
-            correctionAdd("access-point", "Access Point");
+            correctionAdd("AP", "access point");
+            correctionAdd("Access point", "access point");
+            correctionAdd("access point", "access point");
+            correctionAdd("access-point", "access point");
 
             correctionAdd("pop3", "POP3");
 
@@ -8694,21 +8696,21 @@ namespace OverflowHelper.core
             correctionAdd("Schottkey", "Schottky");
             correctionAdd("SCHOTTKY", "Schottky");
 
-            correctionAdd("doesnt", "doesn't");
-            correctionAdd("doest", "doesn't");
-            correctionAdd("dosent", "doesn't");
-            correctionAdd("doesn’t", "doesn't");
-            correctionAdd("deosn't", "doesn't");
-            correctionAdd("dosen't", "doesn't");
-            correctionAdd("doens't", "doesn't");
-            correctionAdd("doestnt", "doesn't");
-            correctionAdd("dosn't", "doesn't");
-            correctionAdd("doen't", "doesn't");
-            correctionAdd("doenst", "doesn't");
-            correctionAdd("doesent", "doesn't");
-            correctionAdd("desn’t", "doesn't");
-            correctionAdd("dosnt", "doesn't");
-            correctionAdd("does’t", "doesn't");
+            correctionAdd("doesnt", "doesn’t");
+            correctionAdd("doest", "doesn’t");
+            correctionAdd("dosent", "doesn’t");
+            correctionAdd("doesn’t", "doesn’t");
+            correctionAdd("deosn't", "doesn’t");
+            correctionAdd("dosen't", "doesn’t");
+            correctionAdd("doens't", "doesn’t");
+            correctionAdd("doestnt", "doesn’t");
+            correctionAdd("dosn't", "doesn’t");
+            correctionAdd("doen't", "doesn’t");
+            correctionAdd("doenst", "doesn’t");
+            correctionAdd("doesent", "doesn’t");
+            correctionAdd("desn’t", "doesn’t");
+            correctionAdd("dosnt", "doesn’t");
+            correctionAdd("does’t", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -10968,6 +10970,7 @@ namespace OverflowHelper.core
 
             correctionAdd("milisecond", "millisecond");
             correctionAdd("millisec", "millisecond");
+            correctionAdd("mS", "millisecond");
 
             correctionAdd("programm", "program");
 
@@ -12078,7 +12081,7 @@ namespace OverflowHelper.core
 
             URL_Add("ReSharper", "http://en.wikipedia.org/wiki/ReSharper");
 
-            URL_Add("TDD", "http://en.wikipedia.org/wiki/Test-driven_development");
+            URL_Add("test-driven development", "http://en.wikipedia.org/wiki/Test-driven_development");
 
             URL_Add("XAMPP", "http://en.wikipedia.org/wiki/XAMPP");
 
@@ -12413,7 +12416,7 @@ namespace OverflowHelper.core
 
             URL_Add("Wine", "http://en.wikipedia.org/wiki/Wine_%28software%29");
 
-            URL_Add("Komodo", "http://en.wikipedia.org/wiki/ActiveState_Komodo");
+            URL_Add("Komodo Edit", "https://en.wikipedia.org/wiki/Komodo_Edit"); // Old: http://en.wikipedia.org/wiki/ActiveState_Komodo
 
             URL_Add("wxWidgets", "http://en.wikipedia.org/wiki/WxWidgets");
 
@@ -12778,7 +12781,7 @@ namespace OverflowHelper.core
 
             URL_Add("Unity Application Block", "http://unity.codeplex.com/");
 
-            URL_Add("Windows&nbsp;Explorer", "http://en.wikipedia.org/wiki/Windows_Explorer");
+            URL_Add("Windows&nbsp;Explorer", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: http://en.wikipedia.org/wiki/Windows_Explorer
 
             URL_Add("Castle Project", "http://en.wikipedia.org/wiki/Castle_Project"); //Alternative: <http://en.wikipedia.org/wiki/Castle_Project>
 
@@ -12834,7 +12837,7 @@ namespace OverflowHelper.core
 
             URL_Add("statistics", "http://en.wiktionary.org/wiki/statistics");
 
-            URL_Add("BTW", "http://en.wiktionary.org/wiki/BTW");
+            URL_Add("by the way", "http://en.wiktionary.org/wiki/BTW");
 
             URL_Add("for example", "http://en.wiktionary.org/wiki/for_example");
 
@@ -12992,7 +12995,7 @@ namespace OverflowHelper.core
 
             URL_Add("directory", "http://en.wikipedia.org/wiki/Folder_%28computing%29");
 
-            URL_Add("don't", "http://en.wiktionary.org/wiki/don%27t");
+            URL_Add("don’t", "http://en.wiktionary.org/wiki/don%27t");
 
             URL_Add("Lisp", "http://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
 
@@ -13600,7 +13603,7 @@ namespace OverflowHelper.core
 
             URL_Add("ARM", "http://en.wikipedia.org/wiki/ARM_architecture");
 
-            URL_Add("Artificial neural network", "http://en.wikipedia.org/wiki/Artificial_neural_network");
+            URL_Add("artificial neural network", "http://en.wikipedia.org/wiki/Artificial_neural_network");
 
             URL_Add("DivX", "http://en.wikipedia.org/wiki/DivX");
 
@@ -13640,7 +13643,7 @@ namespace OverflowHelper.core
 
             URL_Add("UART", "http://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter");
 
-            URL_Add("I've", "http://en.wiktionary.org/wiki/I%27ve#Contraction");
+            URL_Add("I’ve", "http://en.wiktionary.org/wiki/I%27ve#Contraction");
 
             URL_Add("Foursquare", "http://en.wikipedia.org/wiki/Foursquare");
 
@@ -13904,7 +13907,7 @@ namespace OverflowHelper.core
 
             URL_Add("Samba", "http://en.wikipedia.org/wiki/Samba_%28software%29");
 
-            URL_Add("OS", "http://en.wikipedia.org/wiki/Operating_system");
+            URL_Add("operating system", "http://en.wikipedia.org/wiki/Operating_system");
 
             URL_Add("colocation centre", "http://en.wikipedia.org/wiki/Colocation_centre");
 
@@ -13946,7 +13949,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bitbucket", "http://en.wikipedia.org/wiki/Bitbucket");
 
-            URL_Add("OOP", "http://en.wikipedia.org/wiki/Object-oriented_programming");
+            URL_Add("object-oriented programming", "http://en.wikipedia.org/wiki/Object-oriented_programming");
 
             URL_Add("Squeak", "http://en.wikipedia.org/wiki/Squeak");
 
@@ -14172,7 +14175,7 @@ namespace OverflowHelper.core
 
             URL_Add("straightforward", "http://en.wiktionary.org/wiki/straightforward");
 
-            URL_Add("AI", "https://en.wikipedia.org/wiki/Artificial_intelligence");
+            URL_Add("artificial intelligence", "https://en.wikipedia.org/wiki/Artificial_intelligence");
 
             URL_Add("DVD", "http://en.wikipedia.org/wiki/DVD");
 
@@ -14192,7 +14195,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu&nbsp;13.04 (Raring Ringtail)", "http://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29"); // Old: <http://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_13.04_.28Raring_Ringtail.29>
 
-            URL_Add("Visual C++ 8.0", "http://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions");
+            URL_Add("Microsoft Visual C++ 8.0", "http://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions");
 
             URL_Add("Visual C++ 2010 Express", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
 
@@ -14317,7 +14320,7 @@ namespace OverflowHelper.core
 
             URL_Add("English", "https://en.wiktionary.org/wiki/English#Adjective");
 
-            URL_Add("let’s", "https://en.wiktionary.org/wiki/let%27s#Contraction");
+            URL_Add("let’s", "https://en.wiktionary.org/wiki/let%27s#Etymology"); // Old: https://en.wiktionary.org/wiki/let%27s#Contraction
 
             URL_Add("maintenance", "https://en.wiktionary.org/wiki/maintenance#Noun");
 
@@ -14327,7 +14330,7 @@ namespace OverflowHelper.core
 
             URL_Add("Minecraft", "https://en.wikipedia.org/wiki/Minecraft");
 
-            URL_Add("Access Point", "http://en.wikipedia.org/wiki/Wireless_access_point");
+            URL_Add("access point", "http://en.wikipedia.org/wiki/Wireless_access_point");
 
             URL_Add("POP3", "http://en.wikipedia.org/wiki/Post_Office_Protocol");
 
@@ -14439,7 +14442,7 @@ namespace OverflowHelper.core
 
             URL_Add("Get-Date", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-Date"); // Old URL: http://technet.microsoft.com/en-us/library/hh849887.aspx
 
-            URL_Add("Read-Host", "http://technet.microsoft.com/en-us/library/hh849945.aspx");
+            URL_Add("Read-Host", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Read-Host"); // Old: http://technet.microsoft.com/en-us/library/hh849945.aspx
 
             URL_Add("Write-Output", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Output?view=powershell-5.1"); // http://technet.microsoft.com/en-us/library/hh849921.aspx https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Output
 
@@ -14795,7 +14798,7 @@ namespace OverflowHelper.core
 
             URL_Add("Schottky", "https://en.wikipedia.org/wiki/Schottky_diode");
 
-            URL_Add("doesn't", "https://en.wiktionary.org/wiki/doesnt#Verb"); // Old: https://en.wiktionary.org/wiki/doesnt
+            URL_Add("doesn’t", "https://en.wiktionary.org/wiki/doesnt#Verb"); // Old: https://en.wiktionary.org/wiki/doesnt
 
             URL_Add("smartphone", "https://en.wikipedia.org/wiki/Smartphone");
 
@@ -14811,7 +14814,7 @@ namespace OverflowHelper.core
 
             URL_Add("MDI", "https://en.wikipedia.org/wiki/Multiple_document_interface");
 
-            URL_Add("Chocolatey", "https://en.wikipedia.org/wiki/Chocolatey");
+            URL_Add("Chocolatey", "https://en.wikipedia.org/wiki/NuGet#Chocolatey"); // Old: https://en.wikipedia.org/wiki/Chocolatey
 
             URL_Add("Visual C# 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
 
@@ -14881,7 +14884,7 @@ namespace OverflowHelper.core
 
             URL_Add("Join-Path", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Join-Path"); // Old: https://technet.microsoft.com/en-us/library/hh849799.aspx
 
-            URL_Add("New-Item", "https://technet.microsoft.com/en-us/library/hh849795.aspx");
+            URL_Add("New-Item", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/New-Item"); // Old: https://technet.microsoft.com/en-us/library/hh849795.aspx
 
             URL_Add("Out-Null", "https://technet.microsoft.com/en-us/library/hh849716.aspx");
 
@@ -15240,7 +15243,7 @@ namespace OverflowHelper.core
 
             URL_Add("Google Drive", "https://en.wikipedia.org/wiki/Google_Drive");
 
-            URL_Add(".NET Core", "https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core");
+            URL_Add(".NET Core", "https://en.wikipedia.org/wiki/.NET_Core"); // Old: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core
 
             URL_Add("Roslyn", "https://en.wikipedia.org/wiki/.NET_Compiler_Platform");
 
@@ -15558,7 +15561,7 @@ namespace OverflowHelper.core
 
             URL_Add("occurrence", "https://en.wiktionary.org/wiki/occurence");
 
-            URL_Add("credential", "https://en.wiktionary.org/wiki/cred#Noun");
+            URL_Add("credential", "https://en.wiktionary.org/wiki/credential#Noun"); // Old: https://en.wiktionary.org/wiki/cred#Noun
 
             URL_Add("dependencies", "https://en.wiktionary.org/wiki/dependencies#Noun");
 
@@ -15600,7 +15603,7 @@ namespace OverflowHelper.core
 
             URL_Add("For what it's worth", "https://en.wiktionary.org/wiki/FWIW#Interjection");
 
-            URL_Add("Git Bash", "https://superuser.com/questions/1053633/what-is-git-bash-for-windows-anyway");
+            URL_Add("Git Bash", "https://superuser.com/questions/1053633"); // Old: https://superuser.com/questions/1053633/what-is-git-bash-for-windows-anyway
 
             URL_Add("Git Extensions", "https://gitextensions.github.io/");
 
