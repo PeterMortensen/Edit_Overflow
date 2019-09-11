@@ -1707,10 +1707,10 @@ namespace OverflowHelper.core
             correctionAdd("tdd", "test-driven development");
             correctionAdd("Test Driven Development", "test-driven development");
             correctionAdd("Test Driven Developmen", "test-driven development");
-            correctionAdd("test-driven development", "test-driven development");
             correctionAdd("Test-driven development", "test-driven development");
             correctionAdd("Test-Driven Development", "test-driven development");
             correctionAdd("test driven development", "test-driven development");
+            correctionAdd("TDD", "test-driven development");
 
             correctionAdd("Xampp", "XAMPP");
             correctionAdd("XAMMP", "XAMPP"); //Observed misspelling! P -> M
@@ -2417,6 +2417,8 @@ namespace OverflowHelper.core
             correctionAdd("Fx", "Firefox");
             correctionAdd("Firefix", "Firefox"); //A real typo...
             correctionAdd("FIRE FOX", "Firefox");
+            correctionAdd("mozilla", "Firefox");
+            correctionAdd("Mozilla", "Firefox");
 
             correctionAdd("chrome", "Google Chrome");
             correctionAdd("google-chrome", "Google Chrome");
@@ -4091,7 +4093,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dont", "don’t");
             correctionAdd("Dont", "don’t"); //Not 100% correct - case.
-            correctionAdd("don’t", "don’t");
             correctionAdd("dom't", "don’t");
             correctionAdd("don't", "don’t");
 
@@ -6243,7 +6244,7 @@ namespace OverflowHelper.core
             correctionAdd("samba", "Samba");
 
             correctionAdd("os", "operating system");
-            correctionAdd("operating system", "operating system");
+            correctionAdd("OS", "operating system");
             correctionAdd("O/S", "operating system");
             correctionAdd("o/s", "operating system");
             correctionAdd("Operating System", "operating system");
@@ -6550,6 +6551,8 @@ namespace OverflowHelper.core
             correctionAdd("imediately", "immediately");
             correctionAdd("immedieately", "immediately");
             correctionAdd("immedetly", "immediately");
+            correctionAdd("imidietally", "immediately");
+            correctionAdd("immedietally", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -7063,10 +7066,11 @@ namespace OverflowHelper.core
             correctionAdd("straightfoward", "straightforward");
             correctionAdd("straigth forward", "straightforward");
             correctionAdd("strait-forward", "straightforward");
+            correctionAdd("staightforward", "straightforward");
 
             correctionAdd("ai", "artificial intelligence");
+            correctionAdd("AI", "artificial intelligence");
             correctionAdd("Aritifical Intellegence", "artificial intelligence");
-            correctionAdd("artificial intelligence", "artificial intelligence");
             correctionAdd("Artificial Intelligence", "artificial intelligence");
 
             correctionAdd("dvd", "DVD");
@@ -7435,6 +7439,7 @@ namespace OverflowHelper.core
             correctionAdd("visual 2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("vs 2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("visual studio 13", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("VS2103", "Visual&nbsp;Studio&nbsp;2013");
 
             correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
             correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
@@ -7754,7 +7759,7 @@ namespace OverflowHelper.core
 
             correctionAdd("AP", "access point");
             correctionAdd("Access point", "access point");
-            correctionAdd("access point", "access point");
+            correctionAdd("Access Point", "access point");
             correctionAdd("access-point", "access point");
 
             correctionAdd("pop3", "POP3");
@@ -7994,6 +7999,7 @@ namespace OverflowHelper.core
             //Of PowerShell...
             correctionAdd("export-csv", "Export-Csv");
             correctionAdd("export-CSV", "Export-Csv");
+            correctionAdd("Export-CSV", "Export-Csv");
 
             //Of PowerShell...
             correctionAdd("copy-item", "Copy-Item");
@@ -8699,7 +8705,6 @@ namespace OverflowHelper.core
             correctionAdd("doesnt", "doesn’t");
             correctionAdd("doest", "doesn’t");
             correctionAdd("dosent", "doesn’t");
-            correctionAdd("doesn’t", "doesn’t");
             correctionAdd("deosn't", "doesn’t");
             correctionAdd("dosen't", "doesn’t");
             correctionAdd("doens't", "doesn’t");
@@ -8711,6 +8716,7 @@ namespace OverflowHelper.core
             correctionAdd("desn’t", "doesn’t");
             correctionAdd("dosnt", "doesn’t");
             correctionAdd("does’t", "doesn’t");
+            correctionAdd("doesn't", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -8778,13 +8784,14 @@ namespace OverflowHelper.core
 
             correctionAdd("dmz", "DMZ");
 
-            correctionAdd("didnt", "didn't");
-            correctionAdd("didin't", "didn't");
-            correctionAdd("didn’t", "didn't"); // Quora...
-            correctionAdd("din't", "didn't");
-            correctionAdd("din`t", "didn't");
-            correctionAdd("didn`t", "didn't");
-            correctionAdd("did't", "didn't");
+            correctionAdd("didnt", "didn’t");
+            correctionAdd("didin't", "didn’t");
+            correctionAdd("din't", "didn’t");
+            correctionAdd("din`t", "didn’t");
+            correctionAdd("didn`t", "didn’t");
+            correctionAdd("did't", "didn’t");
+            correctionAdd("dint", "didn’t");
+            correctionAdd("didn't", "didn’t"); // Quora...
 
             correctionAdd("thats", "that's");
             correctionAdd("Thats", "that's"); // Not 100% correct (case)
@@ -9719,6 +9726,10 @@ namespace OverflowHelper.core
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
+            correctionAdd("Introdction", "introduction");
+            correctionAdd("Introdcution", "introduction");
+            correctionAdd("introdction", "introduction");
+            correctionAdd("introdcution", "introduction");
 
             correctionAdd("who's", "whose");
 
@@ -10166,6 +10177,7 @@ namespace OverflowHelper.core
             correctionAdd("de-facto", "de facto");
 
             correctionAdd("decison", "decision");
+            correctionAdd("desicion", "decision");
 
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
@@ -10640,6 +10652,7 @@ namespace OverflowHelper.core
             correctionAdd("scintilla", "Scintilla");
 
             correctionAdd("ambigious", "ambiguous");
+            correctionAdd("ambigous", "ambiguous");
 
             correctionAdd("approch", "approach");
             correctionAdd("aproach", "approach");
@@ -11332,6 +11345,7 @@ namespace OverflowHelper.core
 
             correctionAdd("neigher", "neither");
             correctionAdd("neigter", "neither");
+            correctionAdd("nither", "neither");
 
             correctionAdd("offical", "official");
 
@@ -11899,6 +11913,54 @@ namespace OverflowHelper.core
 
             correctionAdd("timezone", "time zone");
 
+            correctionAdd("Busybox", "BusyBox");
+
+            correctionAdd("IRIS", "Iris data set");
+            correctionAdd("iris data set", "Iris data set");
+            correctionAdd("iris", "Iris data set");
+            correctionAdd("Iris", "Iris data set");
+
+            correctionAdd("khtml", "KHTML");
+
+            correctionAdd("msysGit", "MSysGit");
+            correctionAdd("msysgit", "MSysGit");
+
+            correctionAdd("netscape", "Netscape");
+
+            correctionAdd("sse2", "SSE2");
+
+            correctionAdd("toybox", "Toybox");
+
+            correctionAdd("constatnt", "constant");
+
+            correctionAdd("dataset", "data set");
+
+            correctionAdd("delimeter", "delimiter");
+
+            correctionAdd("democrasy", "democracy");
+            correctionAdd("democacy", "democracy");
+            correctionAdd("democrazy", "democracy");
+            correctionAdd("busybox", "BusyBox");
+
+            correctionAdd("en mass", "en masse");
+
+            correctionAdd("flaging", "flagging");
+
+            correctionAdd("flexiblity", "flexibilty");
+
+            correctionAdd("iliterate", "illiterate");
+
+            correctionAdd("mutiple", "multiple");
+
+            correctionAdd("pronunce", "pronounce");
+
+            correctionAdd("quiting", "quitting");
+
+            correctionAdd("responce", "response");
+
+            correctionAdd("re-use", "reuse");
+
+            correctionAdd("seperating", "separating");
 
 
             //HACK: AASDASD
@@ -14850,7 +14912,7 @@ namespace OverflowHelper.core
 
             URL_Add("DMZ", "https://en.wikipedia.org/wiki/DMZ_%28computing%29");
 
-            URL_Add("didn't", "https://en.wiktionary.org/wiki/didn't#Contraction");
+            URL_Add("didn’t", "https://en.wiktionary.org/wiki/didn't#Contraction");
 
             URL_Add("that's", "https://en.wiktionary.org/wiki/that's#Contraction");
 
@@ -17146,7 +17208,47 @@ namespace OverflowHelper.core
 
             URL_Add("time zone", "https://en.wiktionary.org/wiki/time_zone#Noun");
 
+            URL_Add("BusyBox", "https://en.wikipedia.org/wiki/BusyBox");
 
+            URL_Add("Iris data set", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
+
+            URL_Add("KHTML", "https://en.wikipedia.org/wiki/KHTML");
+
+            URL_Add("MSysGit", "https://github.com/msysgit/");
+
+            URL_Add("Netscape", "https://en.wikipedia.org/wiki/Netscape_(web_browser)");
+
+            URL_Add("SSE2", "https://en.wikipedia.org/wiki/SSE2");
+
+            URL_Add("Toybox", "https://en.wikipedia.org/wiki/Toybox");
+
+            URL_Add("constant", "https://en.wiktionary.org/wiki/constant#Noun");
+
+            URL_Add("data set", "https://en.wiktionary.org/wiki/data_set#Noun");
+
+            URL_Add("delimiter", "https://en.wiktionary.org/wiki/delimiter#Noun");
+
+            URL_Add("democracy", "https://en.wiktionary.org/wiki/democracy#Noun");
+
+            URL_Add("en masse", "https://en.wiktionary.org/wiki/en_masse#Adverb");
+
+            URL_Add("flagging", "https://en.wiktionary.org/wiki/flag#Verb");
+
+            URL_Add("flexibilty", "https://en.wiktionary.org/wiki/flexibility#Noun");
+
+            URL_Add("illiterate", "https://en.wiktionary.org/wiki/illiterate#Adjective");
+
+            URL_Add("multiple", "https://en.wiktionary.org/wiki/multiple#Adjective");
+
+            URL_Add("pronounce", "https://en.wiktionary.org/wiki/pronounce#Verb");
+
+            URL_Add("quitting", "https://en.wiktionary.org/wiki/quit#Verb");
+
+            URL_Add("response", "https://en.wiktionary.org/wiki/response#Noun");
+
+            URL_Add("reuse", "https://en.wiktionary.org/wiki/reuse#Verb");
+
+            URL_Add("separating", "https://en.wiktionary.org/wiki/separating#Adjective");
 
 
             //========================================================
