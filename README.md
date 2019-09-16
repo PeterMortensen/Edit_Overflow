@@ -57,7 +57,7 @@ of Edit Overflow is used).
 
 ### Special characters
 
-Symbols for degrees, micro, ohm,
+Symbols for degrees, micro, ohm, etc.
 
 Is in menu *Text*.
 
@@ -101,7 +101,7 @@ between each to not overwhelm the browser and to prevent any
 blocks by the website (most are rate limited and may ban you
 for some time).
 
-Enter/paste a list of URLs intot the input field in the lower left.
+Enter/paste a list of URLs into the input field in the lower left.
 
 
 ### YouTube comments
@@ -115,6 +115,12 @@ to a form acceptable for use in YouTube comments.
 There is a function for making PuTTY work with AmForth (most Forths in fact),
 that is, putting appropriate pauses in when pasting code into
 a terminal window for Forth. It requires AutoIt to be installed.
+
+Note that proper operation depends on a particular keyboard layout being active
+(several can be installed in Windows), English-like. "United Kingdom keyboard" 
+is known to work. If it is not the right current keyboard layout, e.g. Danish, 
+then, for instance, the line comment character, backslash, will effectively 
+be ignored and in most cases the result will be an error message from AmForth.
 
 
 ## Released versions
@@ -230,7 +236,7 @@ or constructive critisism are welcome.
    For example, for option *"Change clipboard on lookup"*.
    This would prevent violation of common user interface standards for the
    current default setting of this value (checked) and still allow the user to
-   override it (very convenient for this application as it use
+   override it (very convenient for this application as it uses
    the clipboard for information transfer) and have it remembered for all
    following sessions.
 
