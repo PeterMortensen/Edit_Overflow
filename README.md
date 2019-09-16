@@ -116,6 +116,12 @@ There is a function for making PuTTY work with AmForth (most Forths in fact),
 that is, putting appropriate pauses in when pasting code into
 a terminal window for Forth. It requires AutoIt to be installed.
 
+Note that proper operation depends on a particular keyboard layout being active
+(several can be installed in Windows), English-like. "United Kingdom keyboard" 
+is known to work. If it is not the right current keyboard layout, e.g. Danish, 
+then, for instance, the line comment character, backslash, will effectively 
+be ignored and in most cases the result will be an error message from AmForth.
+
 
 ## Released versions
 
