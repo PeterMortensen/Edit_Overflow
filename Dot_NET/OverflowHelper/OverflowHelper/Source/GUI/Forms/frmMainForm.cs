@@ -2992,7 +2992,7 @@ namespace OverflowHelper
         // Does not belong here in the GUI...
         /****************************************************************************
          *                                                                          *
-         *    Returns an AutoIt script that, when executed simulates (type          *
+         *    Returns an AutoIt script that, when executed simulates (types         *
          *    out) the keystrokes corresponding to the input (after                 *
          *    5 seconds, so focus can be shifted to another                         *
          *    application, e.g. a PuTTY window).                                    *
@@ -3001,9 +3001,6 @@ namespace OverflowHelper
          *    has enough time to process the input. One strategy is to "type"       *
          *    fast, but make a 1 second pause after every 20 characters             *
          *    and after Return.                                                     *
-         *                                                                          *
-         *    Returns an AutoIt script, that when executed, will  the               *
-         *    given string.                                                         *
          *                                                                          *
          *    Note: When used, the keyboard layout must an English-like             *
          *          keyboard (not e.g. Danish)                                      *
@@ -3077,7 +3074,7 @@ namespace OverflowHelper
             //be literally typed.
 
             const string kEscapeMarker = "__X__"; // We use it later to avoid
-            //                                       breaking line in the middle
+            //                                       breaking lines in the middle
             //                                       of an escaped sequence (e.g.,
             //                                       a literal "!" that has special
             //                                       meaning for AutoIt if not escaped).
@@ -3161,7 +3158,7 @@ namespace OverflowHelper
                 // if there is an AutoIt escaped item.
                 //
                 // We make sure such items are at the beginning of
-                // an AotoIt Send() line, so they will not be
+                // an AutoIt Send() line, so they will not be
                 // split up by the 20 character chunking)
                 //
                 //Note: not "RemoveEmptyEntries" as we want to be able
