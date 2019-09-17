@@ -1511,6 +1511,9 @@ namespace OverflowHelper.core
             correctionAdd("Intelli J", "IntelliJ IDEA");
             correctionAdd("intelj", "IntelliJ IDEA");
             correctionAdd("inteilli", "IntelliJ IDEA");
+            correctionAdd("Idea Intellij", "IntelliJ IDEA");
+            correctionAdd("Idea intellij", "IntelliJ IDEA");
+            correctionAdd("idea intellij", "IntelliJ IDEA");
 
             correctionAdd("couchdb", "CouchDB");
             correctionAdd("Couchdb", "CouchDB");
@@ -3792,6 +3795,7 @@ namespace OverflowHelper.core
             correctionAdd("paramenter", "parameter");
             correctionAdd("parametr", "parameter");
             correctionAdd("parament", "parameter");
+            correctionAdd("parametar", "parameter");
 
             correctionAdd("Ultraedit", "UltraEdit");
             correctionAdd("ultraedit", "UltraEdit");
@@ -5214,6 +5218,7 @@ namespace OverflowHelper.core
             correctionAdd("enviorenment", "environment");
             correctionAdd("env variable", "environment");
             correctionAdd("enviorment", "environment");
+            correctionAdd("enviromnment", "environment");
 
             correctionAdd("lan", "LAN");
 
@@ -6163,6 +6168,7 @@ namespace OverflowHelper.core
 
             correctionAdd("JIRA", "Jira");
             correctionAdd("JIra", "Jira");
+            correctionAdd("jira", "Jira");
 
             correctionAdd("telco", "telecommunications company");
 
@@ -7111,6 +7117,7 @@ namespace OverflowHelper.core
             correctionAdd("ubunto", "Ubuntu");
             correctionAdd("Ubunto", "Ubuntu");
             correctionAdd("unbuntu", "Ubuntu");
+            correctionAdd("ubutu", "Ubuntu");
 
             correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
@@ -7461,6 +7468,7 @@ namespace OverflowHelper.core
             correctionAdd("VS2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("VS 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("visual 2017", "Visual&nbsp;Studio&nbsp;2017");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -7847,17 +7855,6 @@ namespace OverflowHelper.core
             correctionAdd("pylon", "Pylons");
             correctionAdd("pylons", "Pylons");
 
-            correctionAdd("hello world", "Hello, World!");
-            correctionAdd("Hello, world", "Hello, World!");
-            correctionAdd("Hello, world!", "Hello, World!");
-            correctionAdd("Hello World", "Hello, World!");
-            correctionAdd("Hello world", "Hello, World!");
-            correctionAdd("hello word", "Hello, World!");
-            correctionAdd("hallo world", "Hello, World!");
-            correctionAdd("Hello, World", "Hello, World!");
-            correctionAdd("hello, world", "Hello, World!");
-            correctionAdd("hellowolrd", "Hello, World!");
-
             correctionAdd("wmi", "WMI");
 
             //Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
@@ -8192,6 +8189,8 @@ namespace OverflowHelper.core
             correctionAdd("Powershell ISE", "PowerShell ISE");
 
             correctionAdd("existance", "existence");
+            correctionAdd("existanse", "existence");
+            correctionAdd("existense", "existence");
 
             correctionAdd("Ps2", "PS/2");
             correctionAdd("ps2", "PS/2");
@@ -8569,6 +8568,7 @@ namespace OverflowHelper.core
             correctionAdd("single page applications", "single-page application");
             correctionAdd("SPA", "single-page application");
             correctionAdd("Single-Page Application", "single-page application");
+            correctionAdd("single page app", "single-page application");
 
             correctionAdd("german", "German");
 
@@ -8862,6 +8862,7 @@ namespace OverflowHelper.core
             correctionAdd("Unneccesary", "unnecessary");
             correctionAdd("uneccesary", "unnecessary");
             correctionAdd("unneccesary", "unnecessary");
+            correctionAdd("unnecesary", "unnecessary");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -9447,6 +9448,7 @@ namespace OverflowHelper.core
             correctionAdd(".NET CORE", ".NET Core");
             correctionAdd("Net Core", ".NET Core");
             correctionAdd(".Net.core", ".NET Core");
+            correctionAdd("DotNet Core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
 
@@ -10102,8 +10104,6 @@ namespace OverflowHelper.core
 
             correctionAdd("git-extensions", "Git Extensions");
 
-            correctionAdd("helloworld", "Hello");
-
             correctionAdd("idk", "I don't know");
             correctionAdd("Idk", "I don't know");
             correctionAdd("IDK", "I don't know");
@@ -10206,6 +10206,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
+            correctionAdd("commend", "recommended");
 
             correctionAdd("seperator", "separator");
 
@@ -11838,6 +11839,7 @@ namespace OverflowHelper.core
             correctionAdd("quick and dirty", "quick-and-dirty");
 
             correctionAdd("recipint", "recipient");
+            correctionAdd("receipent", "recipient");
 
             correctionAdd("requirment", "requirement");
 
@@ -11961,6 +11963,53 @@ namespace OverflowHelper.core
             correctionAdd("re-use", "reuse");
 
             correctionAdd("seperating", "separating");
+
+            correctionAdd("CloudFlare", "Cloudflare");
+
+            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
+
+            correctionAdd("discord", "Discord");
+
+            correctionAdd("hfs", "HFS");
+
+            correctionAdd("HFS+", "HFS Plus");
+
+            correctionAdd("PL-1", "PL/I");
+            correctionAdd("PL1", "PL/I");
+
+            correctionAdd("xfs", "XFS");
+
+            correctionAdd("calss", "class");
+
+            correctionAdd("heres", "here's");
+
+            correctionAdd("idear", "idea");
+
+            correctionAdd("incomming", "incoming");
+
+            correctionAdd("plagarism", "plagiarism");
+
+            correctionAdd("Proxy", "proxy");
+
+            correctionAdd("Ransomware", "ransomware");
+
+            correctionAdd("reciver", "receiver");
+
+            correctionAdd("unbeknowst", "unbeknownst");
+
+            correctionAdd("hello world", "Hello, World!");
+            correctionAdd("Hello, world", "Hello, World!");
+            correctionAdd("Hello, world!", "Hello, World!");
+            correctionAdd("Hello World", "Hello, World!");
+            correctionAdd("Hello world", "Hello, World!");
+            correctionAdd("hello word", "Hello, World!");
+            correctionAdd("hallo world", "Hello, World!");
+            correctionAdd("Hello, World", "Hello, World!");
+            correctionAdd("hello, world", "Hello, World!");
+            correctionAdd("hellowolrd", "Hello, World!");
+            correctionAdd("helloworld", "Hello, World!");
+            correctionAdd("Hello World!", "Hello, World!");
 
 
             //HACK: AASDASD
@@ -14494,8 +14543,6 @@ namespace OverflowHelper.core
 
             URL_Add("Get-Help", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/Get-Help"); // Old: http://technet.microsoft.com/en-us/library/hh849696.aspx
 
-            URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"); // Old: http://en.wikipedia.org/wiki/%22Hello,_world!%22_program
-
             URL_Add("Remove-Item", "http://technet.microsoft.com/en-us/library/hh849765.aspx");
 
             URL_Add("WMI", "https://en.wikipedia.org/wiki/Windows_Management_Instrumentation");
@@ -15668,8 +15715,6 @@ namespace OverflowHelper.core
             URL_Add("Git Bash", "https://superuser.com/questions/1053633"); // Old: https://superuser.com/questions/1053633/what-is-git-bash-for-windows-anyway
 
             URL_Add("Git Extensions", "https://gitextensions.github.io/");
-
-            URL_Add("Hello", "World!");
 
             URL_Add("I don't know", "https://en.wiktionary.org/wiki/IDK#Initialism");
 
@@ -17249,6 +17294,40 @@ namespace OverflowHelper.core
             URL_Add("reuse", "https://en.wiktionary.org/wiki/reuse#Verb");
 
             URL_Add("separating", "https://en.wiktionary.org/wiki/separating#Adjective");
+
+            URL_Add("Cloudflare", "https://en.wikipedia.org/wiki/Cloudflare");
+
+            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
+
+            URL_Add("Discord", "https://en.wikipedia.org/wiki/Discord_(software)");
+
+            URL_Add("HFS", "https://en.wikipedia.org/wiki/Hierarchical_File_System");
+
+            URL_Add("HFS Plus", "https://en.wikipedia.org/wiki/HFS_Plus");
+
+            URL_Add("PL/I", "https://en.wikipedia.org/wiki/PL/I");
+
+            URL_Add("XFS", "https://en.wikipedia.org/wiki/XFS");
+
+            URL_Add("class", "https://en.wiktionary.org/wiki/class#Noun");
+
+            URL_Add("here's", "https://en.wiktionary.org/wiki/here%27s#Contraction");
+
+            URL_Add("idea", "https://en.wiktionary.org/wiki/idea#Noun");
+
+            URL_Add("incoming", "https://en.wiktionary.org/wiki/incoming#Adjective");
+
+            URL_Add("plagiarism", "https://en.wiktionary.org/wiki/plagiarism#Noun");
+
+            URL_Add("proxy", "https://en.wikipedia.org/wiki/Proxy_server");
+
+            URL_Add("ransomware", "https://en.wikipedia.org/wiki/Ransomware");
+
+            URL_Add("receiver", "https://en.wiktionary.org/wiki/receiver#Noun");
+
+            URL_Add("unbeknownst", "https://en.wiktionary.org/wiki/unbeknownst#Adverb");
+
+            URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"); // Old: http://en.wikipedia.org/wiki/%22Hello,_world!%22_program
 
 
             //========================================================
