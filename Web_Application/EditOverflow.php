@@ -408,7 +408,7 @@
           <a
               href="Text.php"
               accesskey="T"
-              title="Shortcut: Shift + Alt + T"
+              title="Shortcut: Shift + Alt + J"
           >Text stuff</a>
 
           <a

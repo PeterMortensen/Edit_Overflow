@@ -371,9 +371,9 @@
         <p>
           <a
               href="Text.php"
-              accesskey="X"
-              title="Shortcut: Shift + Alt + X"
-          >XXXX</a>
+              accesskey="J"
+              title="Shortcut: Shift + Alt + J"
+          >Text stuff</a>
 
         <!--
           Note:
