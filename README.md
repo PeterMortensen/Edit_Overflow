@@ -13,8 +13,8 @@ things (programming languages, software products,
 company names, and hardware).
 
 Edit Overflow was originally only for Windows, but
-the first versions of a web application became
-available in July 2019. While not yet feature-complete,
+the first versions of [a web application][150] became
+available (and operational) in July 2019. While not yet feature-complete,
 it covers the most important functionality.
 
 
@@ -263,4 +263,6 @@ or constructive critisism are welcome.
 
   [135]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html
   [134]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-03-30.html
+
+  [150]: http://pmortensen.eu/world/EditOverflow1.html
 
