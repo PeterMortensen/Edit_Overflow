@@ -10065,7 +10065,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tranceiver", "transceiver");
 
-            correctionAdd("buttom", "transceiver");
+            correctionAdd("buttom", "bottom");
 
             //DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
@@ -17328,6 +17328,8 @@ namespace OverflowHelper.core
             URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"); // Old: http://en.wikipedia.org/wiki/%22Hello,_world!%22_program
             
             URL_Add("social media", "https://en.wikipedia.org/wiki/Social_media");
+
+            URL_Add("bottom", "https://en.wiktionary.org/wiki/bottom#Noun");
 
 
             //========================================================
