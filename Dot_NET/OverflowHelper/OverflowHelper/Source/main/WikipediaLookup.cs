@@ -60,21 +60,13 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public WikipediaLookup()
         {
-            //string msg = "In WikipediaLookup().";
-            //System.Windows.Forms.MessageBox.Show(msg);
-
-
-            //string XYZ =
-            //    Environment.GetFolderPath(
-            //        Environment.SpecialFolder.ApplicationCommonData);
-
-            //Note: top folder, not the one we are going to store in.
+            // Note: top folder, not the one we are going to store in.
             string localAppDataFolder =
               System.Environment.GetFolderPath(
                 System.Environment.SpecialFolder.LocalApplicationData);
 
-            //Note: actual folder. For user "Administrator":
-            //  C:\Documents and Settings\Administrator\Local Settings\Application Data\EMBO\OverflowHelper\1.0.0.0
+            // Note: actual folder. For user "Administrator":
+            //   C:\Documents and Settings\Administrator\Local Settings\Application Data\EMBO\OverflowHelper\1.0.0.0
             //
             string localAppDataFolder2 =
               System.Windows.Forms.Application.LocalUserAppDataPath;
@@ -116,9 +108,6 @@ namespace OverflowHelper.core
             mCaseCorrection_Reverse = new Dictionary<string, string>();
 
             mWord2URL = new Dictionary<string, string>();
-
-            //string msg2 = "In WikipediaLookup(), 2.";
-            //System.Windows.Forms.MessageBox.Show(msg2);
 
             addLookupData();
         } //Constructor
@@ -279,10 +268,10 @@ namespace OverflowHelper.core
         ****************************************************************************/
         private void checkSpellingDataStructures()
         {
-            //Detect if any spelling correction is missing a
-            //corresponding URL (this will cause the lookup
-            //to fail, even tough the correction is defined.
-            //An example was "ILDASM").
+            // Detect if any spelling correction is missing a
+            // corresponding URL (this will cause the lookup
+            // to fail, even tough the correction is defined.
+            // An example was "ILDASM").
 
             Dictionary<string, string>.Enumerator hashEnumerator2 =
                 mCaseCorrection.GetEnumerator();
@@ -298,9 +287,6 @@ namespace OverflowHelper.core
                     string msgStr = "No URL mapping for " + curValue;
                     System.Windows.Forms.MessageBox.Show(msgStr);
                 }
-
-                //System.Windows.Forms.MessageBox.Show("curKey: " + curKey);
-                //System.Windows.Forms.MessageBox.Show("curValue: " + curValue);
             } //Hash iteration.
         }
 
@@ -339,7 +325,9 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Catch some common errors in the specification of corrections          * 
+         *                                                                          *
          ****************************************************************************/
         private void sanityCheck(string aSomeString, string aKey, string aValue)
         {
@@ -369,7 +357,10 @@ namespace OverflowHelper.core
 
         //PM_REFACTOR 2012-02-16
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Add a correction to the word list. We also perform various            *
+         *    integrity tests (e.g. double entries are not allowed)                 *
+         *                                                                          *
          ****************************************************************************/
         private void correctionAdd(string aBadTerm, string aCorrectedTerm)
         {
@@ -410,7 +401,7 @@ namespace OverflowHelper.core
             }
             else
             {
-                //Warning only.
+                // Warning only.
                 sanityCheck(aBadTerm, aBadTerm, aCorrectedTerm);
                 sanityCheck(aCorrectedTerm, aBadTerm, aCorrectedTerm);
 
@@ -419,9 +410,9 @@ namespace OverflowHelper.core
                 string badTerm;
                 if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm, out badTerm))
                 {
-                    //If we are here then there is more than one corrected
-                    //term. That is OK. That just means there is more than
-                    //one misspelling!
+                    // If we are here then there is more than one corrected
+                    // term. That is OK. That just means there is more than
+                    // one misspelling!
                 }
                 else
                 {
@@ -486,7 +477,7 @@ namespace OverflowHelper.core
             //       into the source code lines here by this Perl
             //       script:
             //
-            //           XXXXX
+            //           ToToTryExtract.pl
 
             correctionAdd("windows", "Windows");
             correctionAdd("WINDOWS", "Windows");
@@ -9612,6 +9603,9 @@ namespace OverflowHelper.core
             correctionAdd("pyCharm", "PyCharm");
 
             correctionAdd("BDD", "behavior-driven development");
+            correctionAdd("Behavior Driven Development", "behavior-driven development");
+            correctionAdd("Behavior-Driven Development", "behavior-driven development");
+            correctionAdd("bdd", "behavior-driven development");
 
             correctionAdd("apperently", "apparently");
             correctionAdd("aparently", "apparently");
@@ -9830,10 +9824,6 @@ namespace OverflowHelper.core
 
             //Of PowerShell...
             correctionAdd("set-psdebug", "Set-PSDebug");
-
-            correctionAdd("DDD", "domain-driven design"); //Expansion.
-            correctionAdd("Domain Driven Design", "domain-driven design");
-            correctionAdd("Domain-Driven Design", "domain-driven design");
 
             correctionAdd("Arduino MEGA", "Arduino Mega");
             correctionAdd("Arduino mega", "Arduino Mega");
@@ -12010,6 +12000,14 @@ namespace OverflowHelper.core
             correctionAdd("hellowolrd", "Hello, World!");
             correctionAdd("helloworld", "Hello, World!");
             correctionAdd("Hello World!", "Hello, World!");
+            
+            correctionAdd("Social media", "social media");
+            correctionAdd("Social Media", "social media");
+
+            correctionAdd("DDD", "domain-driven design"); //Expansion.
+            correctionAdd("Domain Driven Design", "domain-driven design");
+            correctionAdd("Domain-Driven Design", "domain-driven design");
+
 
 
             //HACK: AASDASD
@@ -17328,6 +17326,8 @@ namespace OverflowHelper.core
             URL_Add("unbeknownst", "https://en.wiktionary.org/wiki/unbeknownst#Adverb");
 
             URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"); // Old: http://en.wikipedia.org/wiki/%22Hello,_world!%22_program
+            
+            URL_Add("social media", "https://en.wikipedia.org/wiki/Social_media");
 
 
             //========================================================
