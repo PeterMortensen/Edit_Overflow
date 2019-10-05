@@ -13,8 +13,8 @@
 *.sql
 
 
-# No longer disabled. For multiple startup projects, so unit testing 
-# does not require preparation.
+# No longer disabled. For multiple startup projects in Visual Studio, 
+# so unit testing does not require preparation.
 #     *.suo      
 
 
