@@ -63,11 +63,12 @@ namespace OverflowHelper
         {
             setClipboard(aClipboardStr, false, out anOutclipboardInfo);
         }
-        
+
 
         /****************************************************************************
+         *                                                                          *
          *    Isolation of writing to the clipboard. It also provides               *
-         *    the try-catch protection (as settings the clipboard for               *
+         *    the try-catch protection (as setting the clipboard for                *
          *    unknown reasons sometimes fail...).                                   *
          *                                                                          *
          ****************************************************************************/
@@ -215,7 +216,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString_dateOnly()
         {
-            string toReturn = "2019-09-10";
+            string toReturn = "2019-10-05";
             return toReturn;
         }
 
@@ -225,7 +226,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString()
         {
-            string toReturn = "1.1.49a24"; 
+            string toReturn = "1.1.49a25"; 
             return toReturn;
         }
 
