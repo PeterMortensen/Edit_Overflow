@@ -10,8 +10,8 @@
 *                                                                          *
 ****************************************************************************/
 
-//Future: add a new field, the name of a site. 
-//       
+//Future: add a new field, the name of a site.
+//
 //        E.g. XXX is "Stack Apps".
 
 
@@ -48,12 +48,12 @@ namespace OverflowHelper.core
         public string siteDomainURL; //Sample: "askubuntu.com"
         public int questions;
         public int posts;
-        public int order;           //Determines in what order a site 
+        public int order;           //Determines in what order a site
                                     //appear in the user interface.
 
         public int unansweredQuestions;
 
-        public string name; //Sample: "Ask Ubuntu"        
+        public string name; //Sample: "Ask Ubuntu"
     }
 
 
@@ -89,7 +89,7 @@ namespace OverflowHelper.core
             addURL("stackapps.com", "Stack Apps");
 
             addURL("data.stackexchange.com", "Stack Exchange Data Explorer (SEDE)");
-            
+
             // addSiteItem("askubuntu.com",               158469,    477599,   31450,  1, "");
             addSiteItem("askubuntu.com"                ,   215253,  730135,    72526,  2, ""); // 2016-02-05
             addURL("askubuntu.com", "Ask Ubuntu");
@@ -186,7 +186,7 @@ namespace OverflowHelper.core
             addURL("graphicdesign.stackexchange.com", "Graphic Design");
             addURL("earthscience.stackexchange.com", "Earth Science");
             addURL("photo.stackexchange.com", "Photography");
-            addURL("sqa.stackexchange.com", "Software Quality Assurance & Testing"); //Still 123 rep...                
+            addURL("sqa.stackexchange.com", "Software Quality Assurance & Testing"); //Still 123 rep...
             addURL("ethereum.stackexchange.com", "Ethereum");
 
             addURL("crafts.stackexchange.com", "Arts & Crafts");
@@ -207,7 +207,8 @@ namespace OverflowHelper.core
             addURL("anime.stackexchange.com", "Anime & Manga");
 
             addURL("iot.stackexchange.com", "Internet of Things");
-            
+
+            addURL("law.stackexchange.com", "Law");
         }
 
 
@@ -216,9 +217,9 @@ namespace OverflowHelper.core
         *    anOrder: determines in what order sites appear in the user interface.  *
         *                                                                           *
         ****************************************************************************/
-        private void addSiteItem(string aSiteDomainURL, 
-                                 int    aQuestions, 
-                                 int    aPosts, 
+        private void addSiteItem(string aSiteDomainURL,
+                                 int    aQuestions,
+                                 int    aPosts,
                                  int    anUnansweredQuestions,
                                  int    anOrder,
                                  string aName)
@@ -236,13 +237,13 @@ namespace OverflowHelper.core
             mDomainURL2SiteInfo.Add(aSiteDomainURL, someItem);
         }
 
-        
+
         /****************************************************************************
         *                                                                           *
         ****************************************************************************/
         private void addURL(string aSiteDomainURL, string aSiteName)
         {
-            //For now: Just add to the normal list with some 
+            //For now: Just add to the normal list with some
             //         acceptable default values.
 
             int len = aSiteName.Length;
@@ -258,16 +259,16 @@ namespace OverflowHelper.core
                 {
                     msg = "The site name, '" + aSiteName +
                           "', contains a trailing space...";
-  
+
                 }
             }
 
             if (msg != null)
             {
                 System.Windows.Forms.MessageBox.Show(msg);
-                System.Diagnostics.Trace.WriteLine(msg);  
+                System.Diagnostics.Trace.WriteLine(msg);
             }
-            
+
             int currentItems = mDomainURL2SiteInfo.Count;
             int orderKey = currentItems + 200;
 
@@ -300,7 +301,7 @@ namespace OverflowHelper.core
         {
             mCurrentSiteDomainURL = aNewCurrentSiteURL;
         }
-        
+
 
         /***************************************************************************
         *    <placeholder for header>                                              *
@@ -325,7 +326,7 @@ namespace OverflowHelper.core
 
             return getSiteInfo(mCurrentSiteDomainURL);
         }
-        
+
 
         /***************************************************************************
         *    <placeholder for header>                                              *
