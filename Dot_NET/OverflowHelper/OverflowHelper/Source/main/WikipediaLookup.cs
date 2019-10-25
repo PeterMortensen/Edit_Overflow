@@ -2295,6 +2295,7 @@ namespace OverflowHelper.core
             correctionAdd("Git hub", "GitHub");
             correctionAdd("GITHub", "GitHub");
             correctionAdd("Gihub", "GitHub");
+            correctionAdd("git-hub", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -2764,6 +2765,8 @@ namespace OverflowHelper.core
             correctionAdd("Management Studio", "SQL Server Management Studio");
             correctionAdd("SQL Server Management studio", "SQL Server Management Studio");
             correctionAdd("SQl Server Management Studio", "SQL Server Management Studio");
+            correctionAdd("MSSQL Management Studio", "SQL Server Management Studio");
+            correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -2888,6 +2891,7 @@ namespace OverflowHelper.core
             correctionAdd("stackoverfow", "Stack&nbsp;Overflow");
             correctionAdd("Stackeoverflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoveflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflopw", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -4113,6 +4117,7 @@ namespace OverflowHelper.core
             correctionAdd("registery", "Windows Registry");
             correctionAdd("registry", "Windows Registry");
             correctionAdd("regestry", "Windows Registry");
+            correctionAdd("Registry", "Windows Registry");
 
             correctionAdd("MS", "Microsoft"); //Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
             correctionAdd("ms", "Microsoft"); //Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
@@ -5170,6 +5175,7 @@ namespace OverflowHelper.core
             correctionAdd("dupe", "duplicate");
             correctionAdd("dup", "duplicate");
             correctionAdd("dupplicate", "duplicate");
+            correctionAdd("dupilicate", "duplicate");
 
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
@@ -5879,6 +5885,8 @@ namespace OverflowHelper.core
             correctionAdd("corba", "CORBA");
 
             correctionAdd("dependency walker", "Dependency Walker");
+            correctionAdd("Dependency Wolker", "Dependency Walker");
+            correctionAdd("Dependency walker", "Dependency Walker");
 
             correctionAdd("photoshop", "Photoshop");
             correctionAdd("Adobe Photoshop", "Photoshop"); //Shorten...
@@ -5929,6 +5937,7 @@ namespace OverflowHelper.core
             correctionAdd("nowaday", "nowadays");
             correctionAdd("nowerdays", "nowadays");
             correctionAdd("knowadays", "nowadays");
+            correctionAdd("Now days", "nowadays");
 
             correctionAdd("yii", "Yii");
 
@@ -6078,6 +6087,7 @@ namespace OverflowHelper.core
             correctionAdd("c'tor", "constructor");
             correctionAdd("contructor", "constructor");
             correctionAdd("ctr", "constructor");
+            correctionAdd("CTor", "constructor");
 
             correctionAdd("cli", "CLI");
 
@@ -6263,6 +6273,7 @@ namespace OverflowHelper.core
             correctionAdd("o/s", "operating system");
             correctionAdd("Operating System", "operating system");
             correctionAdd("Os", "operating system");
+            correctionAdd("Operating Sytem", "operating system");
 
             correctionAdd("colo", "colocation centre");
 
@@ -6481,6 +6492,7 @@ namespace OverflowHelper.core
             correctionAdd("MS Visual C", "Microsoft Visual C++");
             correctionAdd("Visual C++", "Microsoft Visual C++");
             correctionAdd("MSVS C++", "Microsoft Visual C++");
+            correctionAdd("virtual c++", "Microsoft Visual C++");
 
             correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
             correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
@@ -6725,7 +6737,7 @@ namespace OverflowHelper.core
             correctionAdd("w10", "Windows&nbsp;10");
             correctionAdd("Window10", "Windows&nbsp;10");
             correctionAdd("Window 10", "Windows&nbsp;10");
-
+            correctionAdd("windows10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -7035,10 +7047,10 @@ namespace OverflowHelper.core
             correctionAdd("mage.exe", "Mage");
             correctionAdd("Mage.exe", "Mage");
 
-
             correctionAdd("WSH", "Windows Script Host");
             correctionAdd("wsh", "Windows Script Host");
             correctionAdd("windows script host", "Windows Script Host");
+            correctionAdd("Windows Scripting Host", "Windows Script Host");
 
             correctionAdd("pre-req", "prerequisite");
             correctionAdd("prereq", "prerequisite");
@@ -8036,6 +8048,7 @@ namespace OverflowHelper.core
             correctionAdd("Foreach", "ForEach-Object");
             correctionAdd("foreach", "ForEach-Object");
             correctionAdd("%", "ForEach-Object");
+            correctionAdd("Foreach-Object", "ForEach-Object");
 
             //Of PowerShell...
             correctionAdd("get-aduser", "Get-ADUser");
@@ -8279,6 +8292,7 @@ namespace OverflowHelper.core
             correctionAdd("O/P", "output");
             correctionAdd("ouput", "output");
             correctionAdd("OutPut", "output");
+            correctionAdd("out put", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -8532,6 +8546,7 @@ namespace OverflowHelper.core
             correctionAdd("typescrypt", "TypeScript");
             correctionAdd("TSC", "TypeScript");
             correctionAdd("tsc", "TypeScript");
+            correctionAdd("ts", "TypeScript");
 
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
@@ -9437,6 +9452,8 @@ namespace OverflowHelper.core
             correctionAdd("shold", "should");
             correctionAdd("shoud", "should");
             correctionAdd("shuld", "should");
+            correctionAdd("hould", "should");
+            
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -9924,6 +9941,7 @@ namespace OverflowHelper.core
             correctionAdd("Off Topic", "off-topic");
 
             correctionAdd("prefered", "preferred");
+            correctionAdd("preffered", "preferred");
 
             correctionAdd("disapointed", "disappointed");
 
@@ -10142,6 +10160,8 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X Sierra", "Mac OS X v10.12 (Sierra)");
 
             correctionAdd("Nmake", "NMAKE");
+            correctionAdd("nmake", "NMAKE");
+            correctionAdd("NMake", "NMAKE");
 
             correctionAdd("pom", "POM");
 
@@ -10350,6 +10370,8 @@ namespace OverflowHelper.core
             correctionAdd("dtor", "destructor");
             correctionAdd("destructur", "destructor");
             correctionAdd("d'tor", "destructor");
+            correctionAdd("DTOR", "destructor");
+            correctionAdd("DTor", "destructor");
 
             correctionAdd("initalize", "initialise");
             correctionAdd("initiliazed", "initialise");
@@ -10573,6 +10595,7 @@ namespace OverflowHelper.core
 
             correctionAdd("appropiate", "appropriate");
             correctionAdd("apropriate", "appropriate");
+            correctionAdd("appriopriate", "appropriate");
 
             correctionAdd("carefull", "careful");
 
@@ -10660,6 +10683,7 @@ namespace OverflowHelper.core
             correctionAdd("Android O", "Android 8.1 (Oreo)");
             correctionAdd("Android Oreo", "Android 8.1 (Oreo)");
             correctionAdd("oreo", "Android 8.1 (Oreo)");
+            correctionAdd("Oreo", "Android 8.1 (Oreo)");
 
             correctionAdd("Android 9", "Android 9.0 (Pie)");
             correctionAdd("Android P", "Android 9.0 (Pie)");
@@ -10834,6 +10858,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows 2016", "Windows Server 2016");
             correctionAdd("windows 2016", "Windows Server 2016");
+            correctionAdd("Server 2016", "Windows Server 2016");
 
             correctionAdd("appriciated", "appreciated");
             correctionAdd("appericated", "appreciated");
@@ -11085,6 +11110,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ad Hoc", "ad hoc");
             correctionAdd("adhoc", "ad hoc");
+            correctionAdd("ad-hoc", "ad hoc");
 
             correctionAdd("cappacitive", "capacitive");
 
@@ -11153,6 +11179,7 @@ namespace OverflowHelper.core
             correctionAdd("costumer", "customer");
 
             correctionAdd("jetbrains", "JetBrains");
+            correctionAdd("Jetbrains", "JetBrains");
 
             correctionAdd("SQL workbench", "MySQL Workbench");
 
@@ -11527,6 +11554,7 @@ namespace OverflowHelper.core
             correctionAdd("norther ireland", "Northern Ireland");
 
             correctionAdd("Ponzi Scheme", "Ponzi scheme");
+            correctionAdd("ponzi scheme", "Ponzi scheme");
 
             correctionAdd("sandboxie", "Sandboxie");
 
@@ -11866,6 +11894,7 @@ namespace OverflowHelper.core
 
             correctionAdd("object orientated", "object-oriented");
             correctionAdd("object oriented", "object-oriented");
+            correctionAdd("Object orientated", "object-oriented");
 
             correctionAdd("obselete", "obsolete");
 
@@ -12175,6 +12204,76 @@ namespace OverflowHelper.core
 
             correctionAdd("suggestiong", "suggestion");
             correctionAdd("Suggestiong", "suggestion");
+
+            correctionAdd("friday", "Friday");
+
+            correctionAdd("gnu-make", "GNU Make");
+            correctionAdd("GNU make", "GNU Make");
+            correctionAdd("Gnu-make", "GNU Make");
+
+            correctionAdd("gitweb", "GitWeb");
+            correctionAdd("Gitweb", "GitWeb");
+
+            correctionAdd("Reilly", "O'Reilly");
+
+            correctionAdd("set-location", "Set-Location");
+
+            correctionAdd("split-path", "Split-Path");
+
+            correctionAdd("TL", "Teachers' Lounge");
+
+            correctionAdd("test-path", "Test-Path");
+
+            correctionAdd("TVS", "Transient voltage suppressor");
+
+            correctionAdd("winrm", "WinRM");
+            correctionAdd("Windows Remote Management", "WinRM");
+
+            correctionAdd("accorging", "according");
+
+            correctionAdd("coerse", "coerce");
+
+            correctionAdd("coersive", "coercive");
+
+            correctionAdd("contrieved", "contrived");
+
+            correctionAdd("crach", "crash");
+
+            correctionAdd("day to day", "day-to-day");
+
+            correctionAdd("emmigrate", "emigrate");
+
+            correctionAdd("every body", "everybody");
+
+            correctionAdd("hilarius", "hilarious");
+
+            correctionAdd("irrelvant", "irrelevant");
+
+            correctionAdd("leage", "league");
+            correctionAdd("Leage", "league");
+
+            correctionAdd("lier", "liar");
+
+            correctionAdd("likleyhood", "likelihood");
+
+            correctionAdd("monetization", "monetisation");
+
+            correctionAdd("on wards", "onwards");
+
+            correctionAdd("P Channel mosfet", "p-channel MOSFET");
+            correctionAdd("PMOS", "p-channel MOSFET");
+
+            correctionAdd("pro-bono", "pro bono");
+
+            correctionAdd("retun", "return");
+
+            correctionAdd("strewam", "stream");
+
+            correctionAdd("synthetize", "synthetise");
+            correctionAdd("sinthetize", "synthetise");
+
+            correctionAdd("transparancy", "transparency");
+
 
 
             //HACK: AASDASD
@@ -17603,6 +17702,68 @@ namespace OverflowHelper.core
             URL_Add("sound card", "https://en.wikipedia.org/wiki/Sound_card");
 
             URL_Add("suggestion", "https://en.wiktionary.org/wiki/suggestion#Noun");
+
+            URL_Add("Friday", "https://en.wiktionary.org/wiki/Friday#Noun");
+
+            URL_Add("GNU Make", "https://en.wikipedia.org/wiki/Make_(software)#Derivatives");
+
+            URL_Add("GitWeb", "https://git-scm.com/book/en/v2/Git-on-the-Server-GitWeb");
+
+            URL_Add("O'Reilly", "https://en.wikipedia.org/wiki/O%27Reilly_Media");
+
+            URL_Add("Set-Location", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-location");
+
+            URL_Add("Split-Path", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/split-path");
+
+            URL_Add("Teachers' Lounge", "https://meta.stackexchange.com/questions/tagged/teachers-lounge");
+
+            URL_Add("Test-Path", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-path");
+
+            URL_Add("Transient voltage suppressor", "https://en.wikipedia.org/wiki/Transient_voltage_suppressor");
+
+            URL_Add("WinRM", "https://en.wikipedia.org/wiki/Windows_Remote_Management");
+
+            URL_Add("according", "https://en.wiktionary.org/wiki/according#Adverb");
+
+            URL_Add("coerce", "https://en.wiktionary.org/wiki/coerce#Verb");
+
+            URL_Add("coercive", "https://en.wiktionary.org/wiki/coercive#Adjective");
+
+            URL_Add("contrived", "https://en.wiktionary.org/wiki/contrived#Adjective");
+
+            URL_Add("crash", "https://en.wiktionary.org/wiki/crash#Verb");
+
+            URL_Add("day-to-day", "https://en.wiktionary.org/wiki/day-to-day#Adjective");
+
+            URL_Add("emigrate", "https://en.wiktionary.org/wiki/emigrate#Verb");
+
+            URL_Add("everybody", "https://en.wiktionary.org/wiki/everybody#Pronoun");
+
+            URL_Add("hilarious", "https://en.wiktionary.org/wiki/hilarious#Adjective");
+
+            URL_Add("irrelevant", "https://en.wiktionary.org/wiki/irrelevant#Adjective");
+
+            URL_Add("league", "https://en.wiktionary.org/wiki/league#Noun");
+
+            URL_Add("liar", "https://en.wiktionary.org/wiki/liar#Noun");
+
+            URL_Add("likelihood", "https://en.wiktionary.org/wiki/likelihood#Noun");
+
+            URL_Add("monetisation", "https://en.wiktionary.org/wiki/monetisation");
+
+            URL_Add("onwards", "https://en.wiktionary.org/wiki/onwards#Adverb");
+
+            URL_Add("p-channel MOSFET", "https://en.wikipedia.org/wiki/MOSFET#PMOS_and_NMOS_logic");
+
+            URL_Add("pro bono", "https://en.wiktionary.org/wiki/pro_bono#Adjective");
+
+            URL_Add("return", "https://en.wiktionary.org/wiki/return#Verb");
+
+            URL_Add("stream", "https://en.wiktionary.org/wiki/stream#Noun");
+
+            URL_Add("synthetise", "https://en.wiktionary.org/wiki/synthetise");
+
+            URL_Add("transparency", "https://en.wiktionary.org/wiki/transparency#Noun");
 
 
 
