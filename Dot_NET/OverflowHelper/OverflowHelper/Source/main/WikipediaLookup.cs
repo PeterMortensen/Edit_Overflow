@@ -12986,7 +12986,7 @@ namespace OverflowHelper.core
 
             URL_Add("internationalisation and localisation", "http://en.wikipedia.org/wiki/Internationalization_and_localization");
 
-            URL_Add("WAMP", "http://en.wikipedia.org/wiki/WAMP");
+            URL_Add("WAMP", "https://en.wikipedia.org/wiki/LAMP_(software_bundle)#Variants"); // Old (now redirects): http://en.wikipedia.org/wiki/WAMP
 
             URL_Add("GoDaddy", "https://en.wikipedia.org/wiki/GoDaddy");
 
@@ -14852,9 +14852,9 @@ namespace OverflowHelper.core
 
             URL_Add("Pylons", "https://en.wikipedia.org/wiki/Pylons_project");
 
-            URL_Add("New-Object", "http://technet.microsoft.com/en-us/library/hh849885.aspx");
+            URL_Add("New-Object", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/New-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849885.aspx
 
-            URL_Add("Get-Content", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Management/Get-Content?view=powershell-5.1"); // Even older: http://technet.microsoft.com/en-us/library/hh849787.aspx. Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Get-Content
+            URL_Add("Get-Content", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Management/Get-Content"); // Even older: http://technet.microsoft.com/en-us/library/hh849787.aspx. Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Get-Content
 
             URL_Add("Get-Help", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/Get-Help"); // Old: http://technet.microsoft.com/en-us/library/hh849696.aspx
 
@@ -14870,7 +14870,7 @@ namespace OverflowHelper.core
 
             URL_Add("Write-Output", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Output"); // Old: http://technet.microsoft.com/en-us/library/hh849921.aspx https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Output
 
-            URL_Add("Write-Host", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Host"); // Even older: http://technet.microsoft.com/en-us/library/hh849877.aspx. Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Host. Old: https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Host?view=powershell-5.1
+            URL_Add("Write-Host", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Host"); // Even older: http://technet.microsoft.com/en-us/library/hh849877.aspx. Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Host. 
 
             URL_Add("Get-ItemProperty", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Get-ItemProperty"); //Old URL: <http://technet.microsoft.com/en-us/library/hh849851.aspx>
 
@@ -15781,9 +15781,9 @@ namespace OverflowHelper.core
 
             URL_Add("Leonardo", "https://store.arduino.cc/arduino-leonardo-with-headers");
 
-            URL_Add("Get-Service", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service?view=powershell-5.1");
+            URL_Add("Get-Service", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service");
 
-            URL_Add("Set-Service", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-service?view=powershell-5.1");
+            URL_Add("Set-Service", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-service");
 
             URL_Add("ATtiny85", "http://www.microchip.com/wwwproducts/en/ATtiny85");
 
@@ -15863,7 +15863,7 @@ namespace OverflowHelper.core
 
             URL_Add("installation", "https://en.wiktionary.org/wiki/installation#Noun");
 
-            URL_Add("Write-Debug", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-debug?view=powershell-5.1");
+            URL_Add("Write-Debug", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-debug");
 
             URL_Add("OpenBSD", "https://en.wikipedia.org/wiki/OpenBSD");
 
@@ -15873,7 +15873,7 @@ namespace OverflowHelper.core
 
             URL_Add("OllyDbg", "https://en.wikipedia.org/wiki/OllyDbg");
 
-            URL_Add("Set-PSDebug", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Set-PSDebug?view=powershell-5.1");
+            URL_Add("Set-PSDebug", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Set-PSDebug");
 
             URL_Add("domain-driven design", "https://en.wikipedia.org/wiki/Domain-driven_design");
 
@@ -16033,7 +16033,7 @@ namespace OverflowHelper.core
 
             URL_Add("I don't know", "https://en.wiktionary.org/wiki/IDK#Initialism");
 
-            URL_Add("Invoke-Expression", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-expression?view=powershell-6");
+            URL_Add("Invoke-Expression", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-expression");
 
             URL_Add("KDiff3", "http://kdiff3.sourceforge.net/");
 
@@ -16053,7 +16053,7 @@ namespace OverflowHelper.core
 
             URL_Add("Schmitt trigger", "https://en.wikipedia.org/wiki/Schmitt_trigger");
 
-            URL_Add("Start-Job", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/start-job?view=powershell-6");
+            URL_Add("Start-Job", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/start-job");
 
             URL_Add("Swedish", "https://en.wiktionary.org/wiki/Swedish#Noun");
 
@@ -16137,12 +16137,9 @@ namespace OverflowHelper.core
 
             URL_Add("xUnit", "https://en.wikipedia.org/wiki/XUnit");
 
-            URL_Add("Set-Content", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Set-Content?view=powershell-6");
+            URL_Add("Set-Content", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Set-Content");
 
             URL_Add("macOS v10.14 (Mojave)", "https://en.wikipedia.org/wiki/MacOS_Mojave");
-
-
-
 
             URL_Add("Ansible", "https://en.wikipedia.org/wiki/Ansible_(software)");
 
@@ -16162,7 +16159,7 @@ namespace OverflowHelper.core
 
             URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
 
-            URL_Add("Export-Clixml", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-clixml?view=powershell-6");
+            URL_Add("Export-Clixml", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-clixml");
 
             URL_Add("MicroEMACS", "https://en.wikipedia.org/wiki/MicroEMACS");
 
@@ -16170,7 +16167,7 @@ namespace OverflowHelper.core
 
             URL_Add("Oracle", "https://en.wikipedia.org/wiki/Oracle_Database");
 
-            URL_Add("Out-GridView", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/out-gridview?view=powershell-5.1");
+            URL_Add("Out-GridView", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/out-gridview");
 
             URL_Add("PSCustomObject", "https://docs.microsoft.com/en-us/dotnet/api/system.management.automation.pscustomobject?view=powershellsdk-1.1.0");
 
