@@ -320,7 +320,7 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *    Catch some common errors in the specification of corrections          * 
+         *    Catch some common errors in the specification of corrections          *
          *                                                                          *
          ****************************************************************************/
         private void sanityCheck(string aSomeString, string aKey, string aValue)
@@ -575,6 +575,8 @@ namespace OverflowHelper.core
             correctionAdd("JavaScirpt", "JavaScript"); //Misspelling. Real typo.
             correctionAdd("javascritpt", "JavaScript");
             correctionAdd("JavaScrip", "JavaScript");
+            correctionAdd("Javsscript", "JavaScript");
+            correctionAdd("javsscript", "JavaScript");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -1328,6 +1330,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
+
+            correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("Catalina", "macOS v10.15 (Catalina)");
 
 
             //Adobe Flex. Conflict with the lexical analyser Flex (http://en.wikipedia.org/wiki/Flex_lexical_analyser).
@@ -2722,6 +2727,7 @@ namespace OverflowHelper.core
             correctionAdd("Fecebook", "Facebook"); // !!!!
             correctionAdd("faceboook", "Facebook"); //Misspelling.
             correctionAdd("face-book", "Facebook");
+            correctionAdd("Facbook", "Facebook");
 
             correctionAdd("flickr", "Flickr");
 
@@ -5044,6 +5050,7 @@ namespace OverflowHelper.core
             correctionAdd("sonething", "something");
             correctionAdd("Someting", "something");
             correctionAdd("sum’n", "something");
+            correctionAdd("Somthing", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -5856,7 +5863,7 @@ namespace OverflowHelper.core
                                                     // We have a corrected term, "like"...
                                                     // E.g. we can't get the URL for
                                                     // "like" as it maps to "'like button'".
-                                                    // 
+                                                    //
                                                     // In fact, our check at SQL export
                                                     // time complains about this, so
                                                     // we have disabled it for now.
@@ -9453,7 +9460,7 @@ namespace OverflowHelper.core
             correctionAdd("shoud", "should");
             correctionAdd("shuld", "should");
             correctionAdd("hould", "should");
-            
+
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -9672,10 +9679,11 @@ namespace OverflowHelper.core
 
             //Of PowerShell...
             correctionAdd("get-service", "Get-Service");
+            correctionAdd("Get-service", "Get-Service");
+            correctionAdd("get-Service", "Get-Service");
 
             //Of PowerShell...
             correctionAdd("set-service", "Set-Service");
-
 
             correctionAdd("AtTiny85", "ATtiny85");
 
@@ -9860,11 +9868,11 @@ namespace OverflowHelper.core
 
             correctionAdd("ollydbg", "OllyDbg");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("write-debug", "Write-Debug");
             correctionAdd("write-Debug", "Write-Debug");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("set-psdebug", "Set-PSDebug");
 
             correctionAdd("Arduino MEGA", "Arduino Mega");
@@ -11380,6 +11388,7 @@ namespace OverflowHelper.core
 
             correctionAdd("docker-compose", "Docker Compose");
 
+            // Of PowerShell...
             correctionAdd("get-diskimage", "Get-DiskImage");
 
             correctionAdd("konqueror", "Konqueror");
@@ -12079,7 +12088,7 @@ namespace OverflowHelper.core
             correctionAdd("hellowolrd", "Hello, World!");
             correctionAdd("helloworld", "Hello, World!");
             correctionAdd("Hello World!", "Hello, World!");
-            
+
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
 
@@ -12093,6 +12102,7 @@ namespace OverflowHelper.core
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
 
+            // Of PowerShell...
             correctionAdd("get-unique", "Get-Unique");
 
             correctionAdd("IPS", "Interpersonal Skills");
@@ -12109,8 +12119,10 @@ namespace OverflowHelper.core
 
             correctionAdd("rtos", "RTOS");
 
+            // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
+            // Of PowerShell...
             correctionAdd("stop-transcript", "Stop-Transcript");
 
             correctionAdd("US", "USA");
@@ -12120,7 +12132,7 @@ namespace OverflowHelper.core
             correctionAdd("Vic 20", "VIC-20");
 
             correctionAdd("vpc", "VPC");
-            correctionAdd("virtual private cloud", "VPC");          
+            correctionAdd("virtual private cloud", "VPC");
 
             correctionAdd("acomplish", "accomplish");
 
@@ -12216,12 +12228,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Reilly", "O'Reilly");
 
+            // Of PowerShell...
             correctionAdd("set-location", "Set-Location");
 
+            // Of PowerShell...
             correctionAdd("split-path", "Split-Path");
 
             correctionAdd("TL", "Teachers' Lounge");
 
+            // Of PowerShell...
             correctionAdd("test-path", "Test-Path");
 
             correctionAdd("TVS", "Transient voltage suppressor");
@@ -12274,6 +12289,42 @@ namespace OverflowHelper.core
 
             correctionAdd("transparancy", "transparency");
 
+            // Of PowerShell...
+            correctionAdd("get-credential", "Get-Credential");
+
+            // Of PowerShell...
+            correctionAdd("new-module", "New-Module");
+
+            correctionAdd("ohm's law", "Ohm's law");
+
+            correctionAdd("php composer", "PHP Composer");
+            correctionAdd("Composer", "PHP Composer");
+            correctionAdd("composer", "PHP Composer");
+            correctionAdd("PHP composer", "PHP Composer");
+
+            correctionAdd("pii", "PII");
+
+            correctionAdd("send-mailmessage", "Send-MailMessage");
+
+            correctionAdd("XDebug", "Xdebug");
+            correctionAdd("xdebug", "Xdebug");
+
+            correctionAdd("acct", "account");
+
+            correctionAdd("contributer", "contributor");
+
+            correctionAdd("equall", "equal");
+
+            correctionAdd("IFF", "iff");
+
+            correctionAdd("non sense", "nonsense");
+
+            correctionAdd("thourough", "thorough");
+
+            correctionAdd("unnecesserily", "unnecessarily");
+            correctionAdd("uneceesirly", "unnecessarily");
+
+            correctionAdd("usuallally", "usually");
 
 
             //HACK: AASDASD
@@ -17592,7 +17643,7 @@ namespace OverflowHelper.core
             URL_Add("unbeknownst", "https://en.wiktionary.org/wiki/unbeknownst#Adverb");
 
             URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"); // Old: http://en.wikipedia.org/wiki/%22Hello,_world!%22_program
-            
+
             URL_Add("social media", "https://en.wikipedia.org/wiki/Social_media");
 
             URL_Add("bottom", "https://en.wiktionary.org/wiki/bottom#Noun");
@@ -17764,6 +17815,38 @@ namespace OverflowHelper.core
             URL_Add("synthetise", "https://en.wiktionary.org/wiki/synthetise");
 
             URL_Add("transparency", "https://en.wiktionary.org/wiki/transparency#Noun");
+
+            URL_Add("Get-Credential", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential");
+
+            URL_Add("New-Module", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/new-module");
+
+            URL_Add("Ohm's law", "https://en.wikipedia.org/wiki/Ohm's_law");
+
+            URL_Add("PHP Composer", "https://en.wikipedia.org/wiki/Composer_(software)");
+
+            URL_Add("PII", "https://en.wikipedia.org/wiki/Personal_data");
+
+            URL_Add("Send-MailMessage", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage");
+
+            URL_Add("Xdebug", "https://en.wikipedia.org/wiki/Xdebug");
+
+            URL_Add("account", "https://en.wiktionary.org/wiki/account#Noun");
+
+            URL_Add("contributor", "https://en.wiktionary.org/wiki/contributor#Noun");
+
+            URL_Add("equal", "https://en.wiktionary.org/wiki/equal#Adjective");
+
+            URL_Add("iff", "https://en.wiktionary.org/wiki/iff#Conjunction");
+
+            URL_Add("macOS v10.15 (Catalina)", "https://en.wikipedia.org/wiki/MacOS_Catalina");
+
+            URL_Add("nonsense", "https://en.wiktionary.org/wiki/nonsense#Noun");
+
+            URL_Add("thorough", "https://en.wiktionary.org/wiki/thorough#Adjective");
+
+            URL_Add("unnecessarily", "https://en.wiktionary.org/wiki/unnecessarily#Adverb");
+
+            URL_Add("usually", "https://en.wiktionary.org/wiki/usually#Adverb");
 
 
 
