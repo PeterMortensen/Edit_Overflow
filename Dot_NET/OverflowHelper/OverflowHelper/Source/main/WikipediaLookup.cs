@@ -10782,6 +10782,7 @@ namespace OverflowHelper.core
             correctionAdd("Socialism", "socialism");
 
             correctionAdd("tryed", "tried");
+            correctionAdd("tryd", "tried");
 
             correctionAdd("justfied", "justified");
 
@@ -11536,6 +11537,7 @@ namespace OverflowHelper.core
             correctionAdd("celcius", "Celsius");
 
             correctionAdd("eu", "EU");
+            correctionAdd("Eu", "EU");
 
             correctionAdd("england", "England");
 
@@ -12126,6 +12128,8 @@ namespace OverflowHelper.core
             correctionAdd("stop-transcript", "Stop-Transcript");
 
             correctionAdd("US", "USA");
+            correctionAdd("united states", "USA");
+            correctionAdd("United States", "USA");            
 
             correctionAdd("Vic20", "VIC-20");
             correctionAdd("VIC 20", "VIC-20");
@@ -12325,6 +12329,41 @@ namespace OverflowHelper.core
             correctionAdd("uneceesirly", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
+
+            correctionAdd("britain", "Britain");
+
+            correctionAdd("tory", "Tory");
+
+            correctionAdd("beseiged", "besieged");
+
+            correctionAdd("Colonialism", "colonialism");
+
+            correctionAdd("colnialist", "colonialist");
+            correctionAdd("Colonialist", "colonialist");
+            correctionAdd("Colnialist", "colonialist");
+
+            correctionAdd("colnies", "colonies");
+
+            correctionAdd("Empire", "empire");
+
+            correctionAdd("emprisoned", "imprisoned");
+
+            correctionAdd("Independence", "independence");
+            correctionAdd("Independance", "independence");
+
+            correctionAdd("King", "king");
+
+            correctionAdd("offerred", "offered");
+
+            correctionAdd("prime Minister", "prime minister");
+            correctionAdd("Prime Minister", "prime minister");
+
+            correctionAdd("Queen", "queen");
+
+            correctionAdd("Royal", "royal");
+
+            correctionAdd("scinetific", "scientific");
+            correctionAdd("Scinetific", "scientific");
 
 
             //HACK: AASDASD
@@ -17845,6 +17884,35 @@ namespace OverflowHelper.core
 
             URL_Add("usually", "https://en.wiktionary.org/wiki/usually#Adverb");
 
+            URL_Add("Britain", "https://en.wiktionary.org/wiki/Britain#Proper_noun");
+
+            URL_Add("Tory", "https://en.wiktionary.org/wiki/Tory#Noun");
+
+            URL_Add("besieged", "https://en.wiktionary.org/wiki/besiege#Verb");
+
+            URL_Add("colonialism", "https://en.wiktionary.org/wiki/colonialism#Noun");
+
+            URL_Add("colonialist", "https://en.wiktionary.org/wiki/colonialist#Adjective");
+
+            URL_Add("colonies", "https://en.wiktionary.org/wiki/colony#Noun");
+
+            URL_Add("empire", "https://en.wiktionary.org/wiki/empire#Noun");
+
+            URL_Add("imprisoned", "https://en.wiktionary.org/wiki/imprison#Verb");
+
+            URL_Add("independence", "https://en.wiktionary.org/wiki/independence#Noun");
+
+            URL_Add("king", "https://en.wiktionary.org/wiki/king#Noun");
+
+            URL_Add("offered", "https://en.wiktionary.org/wiki/offer#Verb");
+
+            URL_Add("prime minister", "https://en.wiktionary.org/wiki/prime_minister#Noun");
+
+            URL_Add("queen", "https://en.wiktionary.org/wiki/queen#Noun");
+
+            URL_Add("royal", "https://en.wiktionary.org/wiki/royal#Adjective");
+
+            URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
 
 
             //========================================================
