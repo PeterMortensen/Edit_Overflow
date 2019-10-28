@@ -577,6 +577,7 @@ namespace OverflowHelper.core
             correctionAdd("JavaScrip", "JavaScript");
             correctionAdd("Javsscript", "JavaScript");
             correctionAdd("javsscript", "JavaScript");
+            correctionAdd("Javsacript", "JavaScript");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -597,7 +598,6 @@ namespace OverflowHelper.core
             correctionAdd("jqyery", "jQuery"); //Misspelling.
             correctionAdd("jQuory", "jQuery");
             correctionAdd("jqery", "jQuery");
-
 
             correctionAdd("Jquery-UI", "jQuery UI");
             correctionAdd("jquery ui", "jQuery UI");
@@ -2649,6 +2649,9 @@ namespace OverflowHelper.core
             correctionAdd("wxwidgets", "wxWidgets");
             correctionAdd("WxWidgets", "wxWidgets");
             correctionAdd("Wx", "wxWidgets");
+            correctionAdd("wx widgets", "wxWidgets");
+            correctionAdd("Wx widgets", "wxWidgets");
+            correctionAdd("Wxwidgets", "wxWidgets");
 
             correctionAdd("p/invoke", "P/Invoke");
             correctionAdd("pinvoke", "P/Invoke");
@@ -5145,6 +5148,7 @@ namespace OverflowHelper.core
 
             correctionAdd("arch", "architecture"); //Expansion. For a computer hardware context.
             correctionAdd("archetecture", "architecture");
+            correctionAdd("archtecture", "architecture");
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
@@ -5856,6 +5860,7 @@ namespace OverflowHelper.core
             correctionAdd("autohotkey", "AutoHotkey");
             correctionAdd("Auto Hot Key", "AutoHotkey");
             correctionAdd("AutoHotKeys", "AutoHotkey");
+            correctionAdd("autohotkeys", "AutoHotkey");
 
             // What about SQL import, with the single quotes?
             correctionAdd("Like button", "'like button'");
@@ -6948,6 +6953,7 @@ namespace OverflowHelper.core
             correctionAdd("sublimeText", "Sublime Text");
 
             correctionAdd("propriety", "proprietary");
+            correctionAdd("propriotary", "proprietary");
 
             correctionAdd("meteor", "Meteor");
             correctionAdd("Meteor.js", "Meteor");
@@ -7302,6 +7308,9 @@ namespace OverflowHelper.core
             correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
 
             correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
             correctionAdd("VS", "Visual Studio");
             correctionAdd("visual studio", "Visual Studio");
@@ -7571,6 +7580,7 @@ namespace OverflowHelper.core
 
             correctionAdd("oo", "object-oriented (OO)");
             correctionAdd("OO", "object-oriented (OO)"); //Expansion
+            correctionAdd("Object Oriented", "object-oriented (OO)");
 
             correctionAdd("Processor explorer", "Process&nbsp;Explorer");
             correctionAdd("Processor Explorer", "Process&nbsp;Explorer"); // Effectively self.
@@ -8896,6 +8906,11 @@ namespace OverflowHelper.core
             correctionAdd("uneccesary", "unnecessary");
             correctionAdd("unneccesary", "unnecessary");
             correctionAdd("unnecesary", "unnecessary");
+            correctionAdd("unnecesassry", "unnecessary");
+            correctionAdd("unnecesessry", "unnecessary");
+            correctionAdd("unnecesesary", "unnecessary");
+            correctionAdd("unnecessesary", "unnecessary");
+            correctionAdd("unnecessessary", "unnecessary");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -12129,7 +12144,7 @@ namespace OverflowHelper.core
 
             correctionAdd("US", "USA");
             correctionAdd("united states", "USA");
-            correctionAdd("United States", "USA");            
+            correctionAdd("United States", "USA");
 
             correctionAdd("Vic20", "VIC-20");
             correctionAdd("VIC 20", "VIC-20");
@@ -12364,6 +12379,35 @@ namespace OverflowHelper.core
 
             correctionAdd("scinetific", "scientific");
             correctionAdd("Scinetific", "scientific");
+
+            correctionAdd("bower", "Bower");
+
+            correctionAdd("Cherry mx", "Cherry MX");
+            correctionAdd("cherry mx", "Cherry MX");
+
+            correctionAdd("gtk", "GTK");
+
+            correctionAdd("Indigogogo", "Indiegogo");
+            correctionAdd("indigogogo", "Indiegogo");
+
+            correctionAdd("keil", "Keil");
+
+            correctionAdd("luamacros", "LuaMacros");
+
+            correctionAdd("mars", "Mars");
+
+            correctionAdd("Blackwidow", "Razer BlackWidow");
+            correctionAdd("blackwidow", "Razer BlackWidow");
+
+            correctionAdd("tvs", "TVS Electronics");
+
+            correctionAdd("non-mechanical", "nonmechanical");
+            correctionAdd("non mechanical", "nonmechanical");
+
+            correctionAdd("probelm", "problem");
+
+            correctionAdd("suport", "support");
+
 
 
             //HACK: AASDASD
@@ -14909,7 +14953,7 @@ namespace OverflowHelper.core
 
             URL_Add("Write-Output", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Output"); // Old: http://technet.microsoft.com/en-us/library/hh849921.aspx https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Output
 
-            URL_Add("Write-Host", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Host"); // Even older: http://technet.microsoft.com/en-us/library/hh849877.aspx. Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Host. 
+            URL_Add("Write-Host", "https://docs.microsoft.com/en-gb/powershell/module/Microsoft.PowerShell.Utility/Write-Host"); // Even older: http://technet.microsoft.com/en-us/library/hh849877.aspx. Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Write-Host.
 
             URL_Add("Get-ItemProperty", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Get-ItemProperty"); //Old URL: <http://technet.microsoft.com/en-us/library/hh849851.aspx>
 
@@ -17913,6 +17957,32 @@ namespace OverflowHelper.core
             URL_Add("royal", "https://en.wiktionary.org/wiki/royal#Adjective");
 
             URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
+
+
+            URL_Add("Bower", "https://bower.io/");
+
+            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("GTK", "https://en.wikipedia.org/wiki/GTK");
+
+            URL_Add("Indiegogo", "https://en.wikipedia.org/wiki/Indiegogo");
+
+            URL_Add("Keil", "https://en.wikipedia.org/wiki/Keil_(company)");
+
+            URL_Add("LuaMacros", "https://github.com/me2d13/luamacros");
+
+            URL_Add("Mars", "https://en.wikipedia.org/wiki/Mars");
+
+            URL_Add("Razer BlackWidow", "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow");
+
+            URL_Add("TVS Electronics", "https://en.wikipedia.org/wiki/TVS_Electronics");
+
+            URL_Add("nonmechanical", "https://en.wiktionary.org/wiki/nonmechanical#Adjective");
+
+            URL_Add("problem", "https://en.wiktionary.org/wiki/problem#Noun");
+
+            URL_Add("support", "https://en.wiktionary.org/wiki/support#Noun");
+
 
 
             //========================================================
