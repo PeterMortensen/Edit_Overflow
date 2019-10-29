@@ -69,7 +69,9 @@
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
 
-            // Prone to SQL injection attack (though the table is effectively readon-on - we overwrite)!
+            // Prone to SQL injection attack (though the table is 
+            // effectively readon-on - we overwrite it on a 
+            // regular basis)!
             $SQLprefix =
               " SELECT incorrectTerm, correctTerm, URL " .
               " FROM EditOverflow" .
