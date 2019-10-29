@@ -40,7 +40,7 @@
             # The default value is for making direct HTML validation
             # by http://validator.w3.org/ work.
             #
-            $lookUpTerm = $_POST['LookUpTerm'] ?? 'js';
+            $lookUpTerm = $_REQUEST['LookUpTerm'] ?? 'js';
 
             #echo
             #    "<p>lookUpTerm through htmlentities(): " .
@@ -63,8 +63,8 @@
             # value and we don't require it to be set (e.g. from
             # the start HTML page).
             #
-            $editSummary     = $_POST['editSummary']      ?? ''; #To be eliminated
-            $URLlist_encoded = $_POST['URLlist_encoded']  ?? ''; # The structured way (that we actually use now)
+            $editSummary     = $_REQUEST['editSummary']      ?? ''; #To be eliminated
+            $URLlist_encoded = $_REQUEST['URLlist_encoded']  ?? ''; # The structured way (that we actually use now)
 
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
@@ -158,8 +158,8 @@
 
             # At the end, as we want it completely blank. That is, only
             # the next lookup should be part of the checkin message.
-            #if ($_POST['resetState'])
-            if (array_key_exists('resetState', $_POST))
+            #if ($_REQUEST['resetState'])
+            if (array_key_exists('resetState', $_REQUEST))
             {
                 $editSummary = ""; #To be eliminated
                 $URLlist_encoded = "";
