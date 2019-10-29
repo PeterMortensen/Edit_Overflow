@@ -94,7 +94,7 @@
               #'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db',
               'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db;charset=utf8',
               'pmortensen_eu',
-              '__pw_toBeFilledInDuringDeployment_');
+              '__pw_toBeFilledInDuringDeployment_'); # Sample key: 2019-09-16
 
 
             if (0)
@@ -416,6 +416,12 @@
               accesskey="B"
               title="Shortcut: Shift + Alt + B"
           >Link builder</a>
+
+          <a
+              href="http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html"
+              accesskey="W"
+              title="Shortcut: Shift + Alt + W"
+          >Word list</a>
 
         <!--
           Note:
