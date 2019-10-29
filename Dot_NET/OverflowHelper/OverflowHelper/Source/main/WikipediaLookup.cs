@@ -1617,6 +1617,7 @@ namespace OverflowHelper.core
             correctionAdd("gVIM", "gVim");
             correctionAdd("Gvim", "gVim");
             correctionAdd("GVim", "gVim");
+            correctionAdd("givm", "gVim");
 
             correctionAdd("VI", "vi");
             correctionAdd("Vi", "vi");
@@ -5054,6 +5055,7 @@ namespace OverflowHelper.core
             correctionAdd("Someting", "something");
             correctionAdd("sum’n", "something");
             correctionAdd("Somthing", "something");
+            correctionAdd("sumthing", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -10099,6 +10101,8 @@ namespace OverflowHelper.core
 
             correctionAdd("indendation", "indentation");
             correctionAdd("indentitation", "indentation");
+            correctionAdd("ident", "indentation");
+            correctionAdd("indent", "indentation");
 
             correctionAdd("horizentaly", "horizontally");
 
@@ -10953,6 +10957,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pr", "pull request");
             correctionAdd("PR", "pull request");
+            correctionAdd("Pull Request", "pull request");
 
             correctionAdd("recursivly", "recursively");
 
@@ -12291,6 +12296,7 @@ namespace OverflowHelper.core
             correctionAdd("likleyhood", "likelihood");
 
             correctionAdd("monetization", "monetisation");
+            correctionAdd("monitasation", "monetisation");
 
             correctionAdd("on wards", "onwards");
 
@@ -12407,6 +12413,27 @@ namespace OverflowHelper.core
             correctionAdd("probelm", "problem");
 
             correctionAdd("suport", "support");
+
+            correctionAdd("fltk", "FLTK");
+
+            correctionAdd("Git Flow", "GitFlow");
+            correctionAdd("gitflow", "GitFlow");
+            correctionAdd("git-flow", "GitFlow");
+
+            correctionAdd("hello World", "Hello");
+
+            correctionAdd("venn diagram", "Venn diagram");
+
+            correctionAdd("difficalt", "difficult");
+
+            correctionAdd("every where", "everywhere");
+
+            correctionAdd("key-press", "key press");
+            correctionAdd("Key-Press", "key press");
+
+            correctionAdd("spase", "space");
+
+            correctionAdd("strategi pattern", "strategy pattern");
 
 
 
@@ -17982,6 +18009,24 @@ namespace OverflowHelper.core
             URL_Add("problem", "https://en.wiktionary.org/wiki/problem#Noun");
 
             URL_Add("support", "https://en.wiktionary.org/wiki/support#Noun");
+
+            URL_Add("FLTK", "https://en.wikipedia.org/wiki/FLTK");
+
+            URL_Add("GitFlow", "https://www.gitflow.com/");
+
+            URL_Add("Hello", "World!");
+
+            URL_Add("Venn diagram", "https://en.wikipedia.org/wiki/Venn_diagram");
+
+            URL_Add("difficult", "https://en.wiktionary.org/wiki/difficult#Adjective");
+
+            URL_Add("everywhere", "https://en.wiktionary.org/wiki/everywhere#Adverb");
+
+            URL_Add("key press", "https://en.wiktionary.org/wiki/key_press");
+
+            URL_Add("space", "https://en.wiktionary.org/wiki/space#Noun");
+
+            URL_Add("strategy pattern", "https://en.wikipedia.org/wiki/Strategy_pattern");
 
 
 
