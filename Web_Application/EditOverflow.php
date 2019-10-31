@@ -107,7 +107,7 @@
             $SQLprefix =
               " SELECT incorrectTerm, correctTerm, URL " .
               " FROM EditOverflow" .
-              " WHERE incorrectTerm = ";
+              " WHERE incorrectTerm = "
               ;
             $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
 
@@ -200,7 +200,7 @@
                 $editSummary_output2 = "";
             }
 
-            $items = preg_split( '/____/', $URLlist_encoded);
+            $items = preg_split('/____/', $URLlist_encoded);
 
             $items = array_filter($items); # Get rid of empty elements
 
