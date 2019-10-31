@@ -26,7 +26,7 @@
 
             .formgrid {
                 display: grid;
-                grid-template-columns: 3fr 1fr 12fr;
+                grid-template-columns: 3fr 16fr 2fr;
                 grid-gap: 0.3em 0.6em;
                 grid-auto-flow: dense;
                 align-items: center;
@@ -61,7 +61,7 @@
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 
-        <h1>Edit Overflow v. 1.1.XX 2019-07-06</h1>
+        <h1>Edit Overflow v. 1.1.XX 2019-10-31T174205</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
@@ -130,7 +130,6 @@
               'pmortensen_eu',
               '__pw_toBeFilledInDuringDeployment_'); # Sample key: 2019-09-16
 
-
             if (0)
             {
                 $statement = $pdo->query($CustomerSQL);
@@ -160,12 +159,9 @@
                 $statement->execute(array('name' => $lookUpTerm));
             }
 
-
             $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-
             // echo htmlentities($row['correctTerm']);
-
             $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
             $correctTerm   = htmlentities($row['correctTerm'], ENT_QUOTES);
@@ -178,6 +174,9 @@
 
             if ($correctTerm)
             {
+                # Add to our built-in up edit summary string (using the
+                # carried-over state and our new lookup)
+
                 # Later: more sophisticated, parsing $editSummary_encoded, etc.
                 #To be eliminated
                 $editSummary     = $editSummary . "<" . $URL . "> "; #Error: we get a leading space
@@ -186,6 +185,14 @@
                 # The structured way (that we actually use now)
                 $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____" for the
                                                                      #      first item
+            }
+            else
+            {
+                # Avoid "Undefined variable: editSummary_output", etc.
+                # Or should we use simply a default value
+                # instead (now redundancy with the below)?
+                $editSummary_output  = "";
+                $editSummary_output2 = "";
             }
 
             # At the end, as we want it completely blank. That is, only
@@ -259,6 +266,75 @@
             id="XYZ">
 
             <div class="formgrid">
+                <?php
+                    # Lookup failure... Report it and offer links for
+                    # look up on Wikipedia and Wiktionary.
+                    #
+                    if (!$correctTerm)
+                    {
+                        # These two are for proper indentation in the
+                        # generated HTML source (by PHP).
+                        $baseIndent        = "                ";
+                        $EOL_andBaseIndent = "\n$baseIndent";
+
+                        $startDivWithIndent =
+                          "$EOL_andBaseIndent" .
+                          "<div>" .
+                          $EOL_andBaseIndent;
+                        $endDivWithIndent =
+                          "$EOL_andBaseIndent" .
+                          "</div>" .
+                          $EOL_andBaseIndent;
+
+
+                        echo $startDivWithIndent;
+                        echo
+                          "$EOL_andBaseIndent" .
+                          "<strong>Could not look up \"$lookUpTerm\"!" .
+                          "</strong>" .
+                          $EOL_andBaseIndent;
+                        echo $endDivWithIndent;
+
+
+                        echo $startDivWithIndent;
+
+                        # Refactoring opportunity: some redundancy
+
+                        # Provide a link to look up the term on Wikipedia
+                        echo
+                          "<a " .
+                          "href=\"" .
+                            "https://duckduckgo.com/html/?q=" .
+                            "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
+                          "   accesskey=\"W\"$EOL_andBaseIndent" .
+                          "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
+                          ">Look up on <strong>W</strong>ikipedia</a>" .
+                          $EOL_andBaseIndent;
+
+                        # Provide a link to look up the term on Wiktionary
+                        echo
+                          "<a " .
+                          "href=\"" .
+                            "https://duckduckgo.com/html/?q=" .
+                            "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
+                          "   accesskey=\"K\"$EOL_andBaseIndent" .
+                          "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
+                          ">Look up on Wi<strong>k</strong>tionary</a>";
+
+                        echo $endDivWithIndent;
+
+                        # Empty div, for first column in CSS grid
+                        echo $startDivWithIndent;
+                        echo $endDivWithIndent;
+
+                        #No, not for now. But do consider it.
+                        # In case of failure, blank out the usual
+                        # (lookup result) items (to keep our mostly
+                        # static HTML here in this PHP file), start.
+                        # echo "\n$EOL_andBaseIndent" .
+                        #    "<!--";
+                    }
+                ?>
 
                 <input
                     name="LookUpTerm"
@@ -274,6 +350,7 @@
                 />
                 <label for="LookUpTerm"><u>L</u>ook up term:</label>
 
+                <label for="CorrectedTerm"><u>C</u>orrected term:</label>
                 <input
                     name="CorrectedTerm"
                     type="text"
@@ -288,47 +365,18 @@
                         # sophisticated (like in the Windows desktop
                         # version of Edit Overflow).
 
-                        echo "value=\"$correctTerm \"\n";
+                        $itemValue = "$correctTerm ";
+                        if (!$correctTerm)
+                        {
+                            $itemValue .= "..."; # To force the form input
+                                                 # field to not be empty
+                        }
+                        echo "value=\"$itemValue\"\n";
                     ?>
                     style="width:110px;"
                     accesskey="C"
                     title="Shortcut: Shift + Alt + C"
-                /><?php
-                    if (!$correctTerm)
-                    {
-                        # These two are for proper indentation in the
-                        # generated HTML source (by PHP).
-                        $baseIndent        = "                ";
-                        $EOL_andBaseIndent = "\n$baseIndent";
-
-                        echo
-                          "\n$EOL_andBaseIndent" .
-                          "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
-
-                        # Refactoring opportunity: some redundancy
-
-                        # Provide a link to look up the term on Wikipedia
-                        echo
-                          "<a " .
-                          "href=\"" .
-                            "https://duckduckgo.com/html/?q=" .
-                            "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
-                          "   accesskey=\"W\"$EOL_andBaseIndent" .
-                          "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
-                          ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
-
-                        # Provide a link to look up the term on Wiktionary
-                        echo
-                          "<a " .
-                          "href=\"" .
-                            "https://duckduckgo.com/html/?q=" .
-                            "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
-                          "   accesskey=\"K\"$EOL_andBaseIndent" .
-                          "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
-                          ">Look up on Wi<strong>k</strong>tionary</a>\n";
-                    }
-                ?>
-                <label for="CorrectedTerm"><u>C</u>orrected term:</label>
+                />
 
                 <input
                     name="editSummary_output"
@@ -372,6 +420,16 @@
                 />
                 <label for="URL"><?php echo "<a href=\"$URL\">URL</a>:" ?></label>
 
+                <?php
+                    #No, not for now. But do consider it.
+                    # At lookup failure, blank out the usual
+                    # items (to keep our mostly static HTML),
+                    # end.
+                    if (!$correctTerm)
+                    {
+                        # echo "-->\n";
+                    }
+                ?>
 
 
                 <!-- Hidden field, close to the output format for
