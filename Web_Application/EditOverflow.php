@@ -23,7 +23,39 @@
             body {
                 background-color: lightgrey;
             }
+
+            .formgrid {
+                display: grid;
+                grid-template-columns: 3fr 1fr 12fr;
+                grid-gap: 0.3em 0.6em;
+                grid-auto-flow: dense;
+                align-items: center;
+            }
+
+            input, output, textarea, select, button {
+                grid-column: 2 / 4;
+                width: auto;
+                margin: 0;
+            }
+
+            input[type="checkbox"], input[type="radio"] {
+                grid-column: 1 / 3;
+                justify-self: end;
+                margin: 0;
+            }
+
+            label, input[type="checkbox"] + label, input[type="radio"] + label {
+                width: auto;
+                padding: 0;
+                margin: 0;
+            }
+
+            textarea + label {
+                align-self: start;
+            }
+
         </style>
+
     </head>
 
     <body>
@@ -69,8 +101,8 @@
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
 
-            // Prone to SQL injection attack (though the table is 
-            // effectively readon-on - we overwrite it on a 
+            // Prone to SQL injection attack (though the table is
+            // effectively readon-on - we overwrite it on a
             // regular basis)!
             $SQLprefix =
               " SELECT incorrectTerm, correctTerm, URL " .
@@ -226,23 +258,21 @@
             action="EditOverflow.php"
             id="XYZ">
 
-            <p><u>L</u>ook up term:
+            <div class="formgrid">
 
-               <input
-                   name="LookUpTerm"
-                   type="text"
-                   id="LookUpTerm"
-                   class="XYZ3"
-                   <?php
-                     echo "value=\"$lookUpTerm\"\n";
-                   ?>
-                   style="width:110px;"
-                   accesskey="L"
-                   title="Shortcut: Shift + Alt + L"
-               />
-            </p>
-
-            <p><u>C</u>orrected term:
+                <input
+                    name="LookUpTerm"
+                    type="text"
+                    id="LookUpTerm"
+                    class="XYZ3"
+                    <?php
+                      echo "value=\"$lookUpTerm\"\n";
+                    ?>
+                    style="width:110px;"
+                    accesskey="L"
+                    title="Shortcut: Shift + Alt + L"
+                />
+                <label for="LookUpTerm"><u>L</u>ook up term:</label>
 
                 <input
                     name="CorrectedTerm"
@@ -298,87 +328,85 @@
                           ">Look up on Wi<strong>k</strong>tionary</a>\n";
                     }
                 ?>
-            </p>
+                <label for="CorrectedTerm"><u>C</u>orrected term:</label>
 
-            <p>Checkin <u>m</u>essages:
+                <input
+                    name="editSummary_output"
+                    type="text"
+                    id="editSummary_output"
+                    class="XYZ4"
+                    <?php
+                      echo "value=\"$editSummary_output\"\n";
+                    ?>
+                    style="width:600px;"
+                    accesskey="M"
+                    title="Shortcut: Shift + Alt + M"
+                />
+                <label for="editSummary_output">Checkin <u>m</u>essages:</label>
 
-               <input
-                   name="editSummary_output"
-                   type="text"
-                   id="editSummary_output"
-                   class="XYZ4"
-                   <?php
-                     echo "value=\"$editSummary_output\"\n";
-                   ?>
-                   style="width:600px;"
-                   accesskey="M"
-                   title="Shortcut: Shift + Alt + M"
-               />
+                <input
+                    name="editSummary_output2"
+                    type="text"
+                    id="editSummary_output2"
+                    class="XYZ89"
+                    <?php
+                      echo "value=\"$editSummary_output2\"\n";
+                    ?>
+                    style="width:600px;"
+                    accesskey="O"
+                    title="Shortcut: Shift + Alt + O"
+                />
+                <label for="editSummary_output2">_</label>
 
-               <input
-                   name="editSummary_output2"
-                   type="text"
-                   id="editSummary_output2"
-                   class="XYZ89"
-                   <?php
-                     echo "value=\"$editSummary_output2\"\n";
-                   ?>
-                   style="width:600px;"
-                   accesskey="O"
-                   title="Shortcut: Shift + Alt + O"
-               />
-            </p>
-
-            <p><?php echo "<a href=\"$URL\">URL</a>:" ?>
-               <input
-                   name="URL"
-                   type="text"
-                   id="URL"
-                   class="XYZ3"
-                   <?php
-                     echo "value=\"$URL\"\n";
-                   ?>
-                   style="width:400px;"
-                   accesskey="E"
-                   title="Shortcut: Shift + Alt + E"
-               />
-            </p>
+                <input
+                    name="URL"
+                    type="text"
+                    id="URL"
+                    class="XYZ3"
+                    <?php
+                      echo "value=\"$URL\"\n";
+                    ?>
+                    style="width:400px;"
+                    accesskey="E"
+                    title="Shortcut: Shift + Alt + E"
+                />
+                <label for="URL"><?php echo "<a href=\"$URL\">URL</a>:" ?></label>
 
 
-            <!-- Hidden field, close to the output format for
-                 the edit summary
 
-              Sample:
+                <!-- Hidden field, close to the output format for
+                     the edit summary
 
-                <http://en.wikipedia.org/wiki/HTML> <http://en.wikipedia.org/wiki/PHP>
+                  Sample:
 
-            -->
-            <!-- To be eliminated -->
-            <input
-                name="editSummary"
-                type="hidden"
-                id="editSummary"
-                class="XYZ5"
-                <?php
-                  echo "value=\"$editSummary\"\n";
-                ?>
-            />
+                    <http://en.wikipedia.org/wiki/HTML> <http://en.wikipedia.org/wiki/PHP>
 
-
-            <!-- Hidden field, structured format for the edit summary -->
-            <input
-                name="URLlist_encoded"
-                type="hidden"
-                id="URLlist_encoded"
-                class="XYZ6"
-                <?php
-                  echo "value=\"$URLlist_encoded\"\n";
-                ?>
-            />
+                -->
+                <!-- To be eliminated -->
+                <input
+                    name="editSummary"
+                    type="hidden"
+                    id="editSummary"
+                    class="XYZ5"
+                    <?php
+                      echo "value=\"$editSummary\"\n";
+                    ?>
+                />
 
 
-            <!-- Reset lookup / edit summary state  -->
-            <p><u>R</u>eset lookup state:
+                <!-- Hidden field, structured format for the edit summary -->
+                <input
+                    name="URLlist_encoded"
+                    type="hidden"
+                    id="URLlist_encoded"
+                    class="XYZ6"
+                    <?php
+                      echo "value=\"$URLlist_encoded\"\n";
+                    ?>
+                />
+
+
+                <!-- Reset lookup / edit summary state  -->
                 <input
                     name="resetState"
                     type="checkbox"
@@ -387,21 +415,25 @@
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
                 />
-            </p>
+                <label for="resetState"><u>R</u>eset lookup state:</label>
 
-            <!-- Submit button  -->
-            <!-- For 'value' (the displayed text in the button), tags 'u'
-                 or 'strong' do not work!! -->
-            <input
-                name="XYZ"
-                type="submit"
-                id="LookUp"
-                class="XYZ3"
-                value="Look up"
-                style="width:75px;"
-                accesskey="U"
-                title="Shortcut: Shift + Alt + U"
-            />
+
+                <!-- Submit button  -->
+                <!-- For 'value' (the displayed text in the button), tags 'u'
+                     or 'strong' do not work!! -->
+                <input
+                    name="XYZ"
+                    type="submit"
+                    id="LookUp"
+                    class="XYZ3"
+                    value="Look up"
+                    style="width:75px;"
+                    accesskey="U"
+                    title="Shortcut: Shift + Alt + U"
+                />
+
+            </div>
+
         </form>
 
         <hr/>
