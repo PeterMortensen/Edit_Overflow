@@ -46,8 +46,8 @@
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
     <DisallowUrlActivation>true</DisallowUrlActivation>
-    <ApplicationRevision>1064</ApplicationRevision>
-    <ApplicationVersion>1.1.48.1064</ApplicationVersion>
+    <ApplicationRevision>1065</ApplicationRevision>
+    <ApplicationVersion>1.1.49.1065</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>

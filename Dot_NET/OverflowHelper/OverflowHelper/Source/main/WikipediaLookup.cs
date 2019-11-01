@@ -18689,6 +18689,11 @@ namespace OverflowHelper.core
                 aDateStr + ".html";
 
             aInOutBuilder.addContentWithEmptyLine(
+                "<a href=\"http://pmortensen.eu/world/EditOverflow1.html\">" +
+                "Edit Overflow for Web</a>"
+            );
+
+            aInOutBuilder.addContentWithEmptyLine(
                 "<a href=\"http://validator.w3.org/check?uri=" +
                 presumedURL +
                 "&amp;charset=utf-8\">" +
