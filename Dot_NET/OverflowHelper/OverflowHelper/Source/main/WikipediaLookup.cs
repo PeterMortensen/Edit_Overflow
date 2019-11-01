@@ -6883,6 +6883,7 @@ namespace OverflowHelper.core
             correctionAdd("specialy", "especially");
             correctionAdd("Esp", "especially");
             correctionAdd("especifiqly", "especially");
+            correctionAdd("espascially", "especially");
 
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
@@ -12498,6 +12499,15 @@ namespace OverflowHelper.core
 
             correctionAdd("voluntorily", "voluntarily");
 
+            correctionAdd("ethereum", "Ethereum");
+
+            correctionAdd("ammend", "amend");
+
+            correctionAdd("coporation", "corporation");
+
+            correctionAdd("femails", "females");
+
+            correctionAdd("womans", "women");
 
 
             //HACK: AASDASD
@@ -18128,6 +18138,16 @@ namespace OverflowHelper.core
             URL_Add("theoretical", "https://en.wiktionary.org/wiki/theoretical#Adjective");
 
             URL_Add("voluntarily", "https://en.wiktionary.org/wiki/voluntarily#Adverb");
+
+            URL_Add("Ethereum", "https://en.wikipedia.org/wiki/Ethereum");
+
+            URL_Add("amend", "https://en.wiktionary.org/wiki/amend#Verb");
+
+            URL_Add("corporation", "https://en.wiktionary.org/wiki/corporation#Noun");
+
+            URL_Add("females", "https://en.wiktionary.org/wiki/female#Noun");
+
+            URL_Add("women", "https://en.wiktionary.org/wiki/woman#Noun");
 
 
 
