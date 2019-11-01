@@ -12483,7 +12483,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ToS", "TOS");
 
-            correctionAdd("aggresive", "aggresive");
+            correctionAdd("aggresive", "aggressive");
 
             correctionAdd("anedocte", "anecdote");
 
@@ -18123,7 +18123,7 @@ namespace OverflowHelper.core
 
             URL_Add("TOS", "https://en.wiktionary.org/wiki/TOS#Noun");
 
-            URL_Add("aggresive", "https://en.wiktionary.org/wiki/aggressive#Adjective");
+            URL_Add("aggressive", "https://en.wiktionary.org/wiki/aggressive#Adjective");
 
             URL_Add("anecdote", "https://en.wiktionary.org/wiki/anecdote#Noun");
 
