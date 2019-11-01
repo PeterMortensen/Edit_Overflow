@@ -9377,8 +9377,14 @@ namespace OverflowHelper.core
             correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
 
             correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Mars", "Eclipse&nbsp;v4.5 (Mars)");
             correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
+
+            // Resolve the conclict with the planet Mars by adding 
+            // a qualifying "Eclipse" with order and capitalisation
+            // variations (though it does require the user to 
+            // know this).
+            correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
 
             correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
             correctionAdd("eclipse neon", "Eclipse&nbsp;v4.6 (Neon)");
