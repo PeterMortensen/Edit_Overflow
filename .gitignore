@@ -18,3 +18,7 @@
 #     *.suo      
 
 
+# After using "Performance Analyser" (from menu "Analyzer")
+*.psess
+*.vspx
+
