@@ -807,6 +807,7 @@ namespace OverflowHelper.core
             correctionAdd("Postgress", "PostgreSQL");
             correctionAdd("potsgres", "PostgreSQL");
             correctionAdd("postgersql", "PostgreSQL");
+            correctionAdd("PostGres", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -4894,6 +4895,7 @@ namespace OverflowHelper.core
             correctionAdd("DLL", "DLL file"); //Expansion, as in context it is usually a file.
             correctionAdd("Dll", "DLL file"); //Expansion, as in context it is usually a file.
             correctionAdd("dll file", "DLL file");
+            correctionAdd("DLLs", "DLL file");
 
             correctionAdd("siss", "SSIS"); //Misspelling.
             correctionAdd("ssis", "SSIS");
@@ -5604,6 +5606,7 @@ namespace OverflowHelper.core
             correctionAdd("OSM", "OpenStreetMap");
             correctionAdd("Open Street Maps", "OpenStreetMap");
             correctionAdd("open street map", "OpenStreetMap");
+            correctionAdd("OpenStreetMaps", "OpenStreetMap");
 
             correctionAdd("winrar", "WinRAR");
             correctionAdd("WinRar", "WinRAR");
@@ -5901,6 +5904,7 @@ namespace OverflowHelper.core
             correctionAdd("dependency walker", "Dependency Walker");
             correctionAdd("Dependency Wolker", "Dependency Walker");
             correctionAdd("Dependency walker", "Dependency Walker");
+            correctionAdd("dependencywalker", "Dependency Walker");
 
             correctionAdd("photoshop", "Photoshop");
             correctionAdd("Adobe Photoshop", "Photoshop"); //Shorten...
@@ -6248,6 +6252,7 @@ namespace OverflowHelper.core
             correctionAdd("algorithum", "algorithm");
             correctionAdd("Algorethems", "algorithm");
             correctionAdd("algorethems", "algorithm");
+            correctionAdd("alorithum", "algorithm");
 
             correctionAdd("nfc", "NFC");
 
@@ -7474,6 +7479,8 @@ namespace OverflowHelper.core
             correctionAdd("visual studios 2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS.2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("Visual 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS 12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS 11/12", "Visual&nbsp;Studio&nbsp;2012");
 
             correctionAdd("VS2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
@@ -7509,6 +7516,7 @@ namespace OverflowHelper.core
             correctionAdd("VS 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("visual 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VISUAL STUDIO 2017", "Visual&nbsp;Studio&nbsp;2017");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -8420,6 +8428,7 @@ namespace OverflowHelper.core
             correctionAdd("Lolipop", "Android 5.0 (Lollipop)");
             correctionAdd("Android Lollipop", "Android 5.0 (Lollipop)");
             correctionAdd("lollipop", "Android 5.0 (Lollipop)");
+            correctionAdd("5.1", "Android 5.1 (Lollipop)");
 
             correctionAdd("Marshmallow", "Android 6.0 (Marshmallow)");
             correctionAdd("Android 6", "Android 6.0 (Marshmallow)");
@@ -10132,6 +10141,8 @@ namespace OverflowHelper.core
             correctionAdd("react-native", "React Native");
             correctionAdd("React-native", "React Native");
             correctionAdd("React native", "React Native");
+            correctionAdd("ReactNative", "React Native");
+            correctionAdd("React-Native", "React Native");
 
             correctionAdd("ionic", "Ionic");
             correctionAdd("IONIC", "Ionic");
@@ -10615,6 +10626,7 @@ namespace OverflowHelper.core
             correctionAdd("doppler", "Doppler");
 
             correctionAdd("mathworks", "MathWorks");
+            correctionAdd("Mathworks", "MathWorks");
 
             correctionAdd("sunday", "Sunday");
 
@@ -10838,6 +10850,8 @@ namespace OverflowHelper.core
 
             correctionAdd("soltuion", "solution");
             correctionAdd("sollution", "solution");
+            correctionAdd("Soloution", "solution");
+            correctionAdd("soloution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -11817,6 +11831,7 @@ namespace OverflowHelper.core
             correctionAdd("cloudfront", "Amazon CloudFront");
 
             correctionAdd("creative commons", "Creative Commons");
+            correctionAdd("Creative Common", "Creative Commons");
 
             correctionAdd("flutter", "Flutter");
 
@@ -12434,6 +12449,48 @@ namespace OverflowHelper.core
             correctionAdd("spase", "space");
 
             correctionAdd("strategi pattern", "strategy pattern");
+
+            correctionAdd("Achiles Heel", "Achilles heel");
+
+            correctionAdd("737 MAX", "Boeing 737 MAX");
+            correctionAdd("737 Max", "Boeing 737 MAX");
+
+            correctionAdd("Code Lens", "CodeLens");
+            correctionAdd("Codelens", "CodeLens");
+            correctionAdd("code lens", "CodeLens");
+
+            correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
+
+            correctionAdd("Fuhrer", "Führer");
+
+            correctionAdd("Goering", "Göring");
+
+            correctionAdd("Lastpass", "LastPass");
+            correctionAdd("lastpass", "LastPass");
+
+            correctionAdd("pow", "POW");
+
+            correctionAdd("scapy", "Scapy");
+
+            correctionAdd("Sothern", "Southern");
+
+            correctionAdd("ToS", "TOS");
+
+            correctionAdd("aggresive", "aggresive");
+
+            correctionAdd("anedocte", "anecdote");
+
+            correctionAdd("formated", "formatted");
+
+            correctionAdd("Mediaeval", "mediaeval");
+
+            correctionAdd("skillful", "skilful");
+
+            correctionAdd("Soviet", "soviet");
+
+            correctionAdd("theoritical", "theoretical");
+
+            correctionAdd("voluntorily", "voluntarily");
 
 
 
@@ -18027,6 +18084,44 @@ namespace OverflowHelper.core
             URL_Add("space", "https://en.wiktionary.org/wiki/space#Noun");
 
             URL_Add("strategy pattern", "https://en.wikipedia.org/wiki/Strategy_pattern");
+
+            URL_Add("Achilles heel", "https://en.wiktionary.org/wiki/Achilles_heel#Noun");
+
+            URL_Add("Boeing 737 MAX", "https://en.wikipedia.org/wiki/Boeing_737_MAX");
+
+            URL_Add("CodeLens", "https://docs.microsoft.com/en-us/visualstudio/ide/find-code-changes-and-other-history-with-codelens");
+
+            URL_Add("Creative Commons BY-SA", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
+
+            URL_Add("Führer", "https://en.wikipedia.org/wiki/F%C3%BChrer");
+
+            URL_Add("Göring", "https://en.wikipedia.org/wiki/Hermann_G%C3%B6ring");
+
+            URL_Add("LastPass", "https://en.wikipedia.org/wiki/LastPass");
+
+            URL_Add("POW", "https://en.wiktionary.org/wiki/POW#Noun");
+
+            URL_Add("Scapy", "https://en.wikipedia.org/wiki/Scapy");
+
+            URL_Add("Southern", "https://en.wiktionary.org/wiki/Southern#Adjective");
+
+            URL_Add("TOS", "https://en.wiktionary.org/wiki/TOS#Noun");
+
+            URL_Add("aggresive", "https://en.wiktionary.org/wiki/aggressive#Adjective");
+
+            URL_Add("anecdote", "https://en.wiktionary.org/wiki/anecdote#Noun");
+
+            URL_Add("formatted", "https://en.wiktionary.org/wiki/formatted#Adjective");
+
+            URL_Add("mediaeval", "https://en.wiktionary.org/wiki/mediaeval#Adjective");
+
+            URL_Add("skilful", "https://en.wiktionary.org/wiki/skilful#Adjective");
+
+            URL_Add("soviet", "https://en.wiktionary.org/wiki/soviet#Noun");
+
+            URL_Add("theoretical", "https://en.wiktionary.org/wiki/theoretical#Adjective");
+
+            URL_Add("voluntarily", "https://en.wiktionary.org/wiki/voluntarily#Adverb");
 
 
 
