@@ -20,11 +20,13 @@
         <title>Edit Overflow</title>
 
         <style>
-            body {
+            body 
+            {
                 background-color: lightgrey;
             }
 
-            .formgrid {
+            .formgrid 
+            {
                 display: grid;
                 grid-template-columns: 3fr 16fr 2fr;
                 grid-gap: 0.3em 0.6em;
@@ -32,25 +34,29 @@
                 align-items: center;
             }
 
-            input, output, textarea, select, button {
+            input, output, textarea, select, button 
+            {
                 grid-column: 2 / 4;
                 width: auto;
                 margin: 0;
             }
 
-            input[type="checkbox"], input[type="radio"] {
+            input[type="checkbox"], input[type="radio"] 
+            {
                 grid-column: 1 / 3;
                 justify-self: end;
                 margin: 0;
             }
 
-            label, input[type="checkbox"] + label, input[type="radio"] + label {
+            label, input[type="checkbox"] + label, input[type="radio"] + label 
+            {
                 width: auto;
                 padding: 0;
                 margin: 0;
             }
 
-            textarea + label {
+            textarea + label 
+            {
                 align-self: start;
             }
 
@@ -61,7 +67,7 @@
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 
-        <h1>Edit Overflow v. 1.1.XX 2019-10-31T174205</h1>
+        <h1>Edit Overflow v. 1.1.49 2019-11-01T221351</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
@@ -510,7 +516,7 @@
           >Link builder</a>
 
           <a
-              href="http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html"
+              href="http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html"
               accesskey="W"
               title="Shortcut: Shift + Alt + W"
           >Word list</a>
