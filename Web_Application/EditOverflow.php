@@ -28,34 +28,45 @@
             .formgrid 
             {
                 display: grid;
-                grid-template-columns: 3fr 16fr 2fr;
+                grid-template-columns: minmax(5%, 130px) 1em 2fr;   
+                                       /* 10% 1fr 2fr 12em;  
+                                          1fr 1em 2fr
+                                       */
                 grid-gap: 0.3em 0.6em;
                 grid-auto-flow: dense;
                 align-items: center;
             }
 
-            input, output, textarea, select, button 
+            input,
+            output,
+            textarea,
+            select,
+            button
             {
                 grid-column: 2 / 4;
                 width: auto;
                 margin: 0;
             }
 
-            input[type="checkbox"], input[type="radio"] 
+            /* label, */
+            input[type="checkbox"] + label,
+            input[type="radio"]    + label
             {
-                grid-column: 1 / 3;
-                justify-self: end;
-                margin: 0;
-            }
-
-            label, input[type="checkbox"] + label, input[type="radio"] + label 
-            {
+                grid-column: 3 / 4;
                 width: auto;
                 padding: 0;
                 margin: 0;
             }
 
-            textarea + label 
+            input[type="checkbox"],
+            input[type="radio"]
+            {
+                grid-column: 2 / 3;
+                justify-self: end;
+                margin: 0;
+            }
+
+            label + textarea
             {
                 align-self: start;
             }
@@ -67,7 +78,7 @@
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 
-        <h1>Edit Overflow v. 1.1.49 2019-11-01T221351</h1>
+        <h1>Edit Overflow v. 1.1.49a1 2019-11-03T221940</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
@@ -272,6 +283,8 @@
             id="XYZ">
 
             <div class="formgrid">
+
+                <!-- Conditional: Lookup failure -->
                 <?php
                     # Lookup failure... Report it and offer links for
                     # look up on Wikipedia and Wiktionary.
@@ -342,6 +355,7 @@
                     }
                 ?>
 
+                <label for="LookUpTerm"><u>L</u>ook up term</label>
                 <input
                     name="LookUpTerm"
                     type="text"
@@ -354,9 +368,8 @@
                     accesskey="L"
                     title="Shortcut: Shift + Alt + L"
                 />
-                <label for="LookUpTerm"><u>L</u>ook up term:</label>
 
-                <label for="CorrectedTerm"><u>C</u>orrected term:</label>
+                <label for="CorrectedTerm"><u>C</u>orrected term</label>
                 <input
                     name="CorrectedTerm"
                     type="text"
@@ -384,6 +397,7 @@
                     title="Shortcut: Shift + Alt + C"
                 />
 
+                <label for="editSummary_output">Checkin <u>m</u>essages</label>
                 <input
                     name="editSummary_output"
                     type="text"
@@ -396,8 +410,8 @@
                     accesskey="M"
                     title="Shortcut: Shift + Alt + M"
                 />
-                <label for="editSummary_output">Checkin <u>m</u>essages:</label>
 
+                <label for="editSummary_output2"><b></b></label>
                 <input
                     name="editSummary_output2"
                     type="text"
@@ -410,8 +424,8 @@
                     accesskey="O"
                     title="Shortcut: Shift + Alt + O"
                 />
-                <label for="editSummary_output2">_</label>
 
+                <label for="URL"><?php echo "<a href=\"$URL\">URL</a>" ?></label>
                 <input
                     name="URL"
                     type="text"
@@ -424,7 +438,6 @@
                     accesskey="E"
                     title="Shortcut: Shift + Alt + E"
                 />
-                <label for="URL"><?php echo "<a href=\"$URL\">URL</a>:" ?></label>
 
                 <?php
                     #No, not for now. But do consider it.
@@ -479,7 +492,7 @@
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
                 />
-                <label for="resetState"><u>R</u>eset lookup state:</label>
+                <label for="resetState"><u>R</u>eset lookup state</label>
 
 
                 <!-- Submit button  -->
