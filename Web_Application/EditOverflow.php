@@ -279,7 +279,6 @@
         <form
             name="XYZ"
             method="post"
-            action="EditOverflow.php"
             id="XYZ">
 
             <div class="formgrid">
