@@ -20,20 +20,20 @@
         <title>Edit Overflow</title>
 
         <style>
-            body 
+            body
             {
                 background-color: lightgrey;
             }
 
-            .formgrid 
+            .formgrid
             {
                 display: grid;
-                grid-template-columns: minmax(5%, 130px) 1em 2fr;   
-                                       /* 10% 1fr 2fr 12em;  
+                grid-template-columns: minmax(5%, 130px) 1em 2fr;
+                                       /* 10% 1fr 2fr 12em;
                                           1fr 1em 2fr
                                        */
                 grid-gap: 0.3em 0.6em;
-                grid-auto-flow: dense;
+                grid-auto-flow: row;
                 align-items: center;
             }
 
@@ -44,6 +44,13 @@
             button
             {
                 grid-column: 2 / 4;
+                width: auto;
+                margin: 0;
+            }
+
+            .formgrid > div
+            {
+                grid-column: 3 / 4;
                 width: auto;
                 margin: 0;
             }
@@ -78,7 +85,7 @@
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 
-        <h1>Edit Overflow v. 1.1.49a1 2019-11-03T221940</h1>
+        <h1>Edit Overflow v. 1.1.49a2 2019-11-04T112400</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
