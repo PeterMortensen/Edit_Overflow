@@ -209,6 +209,8 @@ namespace OverflowHelper.core
             addURL("iot.stackexchange.com", "Internet of Things");
 
             addURL("law.stackexchange.com", "Law");
+            
+            addURL("judaism.stackexchange.com", "Mi Yodeya");            
         }
 
 
