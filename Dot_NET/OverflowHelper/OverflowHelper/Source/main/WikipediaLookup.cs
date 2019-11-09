@@ -1699,6 +1699,7 @@ namespace OverflowHelper.core
             correctionAdd("gmail", "Gmail");
             correctionAdd("GMAIL", "Gmail");
             correctionAdd("G-mail", "Gmail");
+            correctionAdd("g-mail", "Gmail");
 
             correctionAdd("resharper", "ReSharper");
             correctionAdd("Resharper", "ReSharper");
@@ -1728,6 +1729,7 @@ namespace OverflowHelper.core
             correctionAdd("X.A.M.P.P", "XAMPP");
             correctionAdd("XAMP", "XAMPP");
             correctionAdd("XAAMP", "XAMPP");
+            correctionAdd("XXAMP", "XAMPP");
 
             correctionAdd("yui", "YUI");
             correctionAdd("Yui", "YUI");
@@ -4315,6 +4317,7 @@ namespace OverflowHelper.core
             correctionAdd("’cause", "because");
             correctionAdd("Beecause", "because");
             correctionAdd("beecause", "because");
+            correctionAdd("be cause", "because");
 
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
@@ -5617,6 +5620,7 @@ namespace OverflowHelper.core
             correctionAdd("winrar", "WinRAR");
             correctionAdd("WinRar", "WinRAR");
             correctionAdd("WirRAR", "WinRAR");
+            correctionAdd("Winrar", "WinRAR");
 
             correctionAdd("Rar", "RAR");
             correctionAdd("rar", "RAR");
@@ -7787,7 +7791,7 @@ namespace OverflowHelper.core
             correctionAdd("Microsoft word", "Microsoft Word");
             correctionAdd("microsoft word", "Microsoft Word");
             correctionAdd("msword", "Microsoft Word");
-
+            correctionAdd("winword", "Microsoft Word");
 
             correctionAdd("bootstrap", "Bootstrap");
             correctionAdd("Boostrap", "Bootstrap");
@@ -9532,6 +9536,7 @@ namespace OverflowHelper.core
             correctionAdd(".Net.core", ".NET Core");
             correctionAdd("DotNet Core", ".NET Core");
             correctionAdd("Dot net core", ".NET Core");
+            correctionAdd("net core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
 
@@ -10829,6 +10834,8 @@ namespace OverflowHelper.core
 
             correctionAdd("permisson", "permission");
             correctionAdd("perm", "permission");
+            correctionAdd("Permision", "permission");
+            correctionAdd("permision", "permission");
 
             correctionAdd("personnal", "personal");
 
@@ -11653,6 +11660,7 @@ namespace OverflowHelper.core
             correctionAdd("xubuntu", "Xubuntu");
 
             correctionAdd("adress", "address");
+            correctionAdd("addres", "address");
 
             correctionAdd("bare in mind", "bear in mind");
 
@@ -12602,6 +12610,7 @@ namespace OverflowHelper.core
             correctionAdd("laung", "lounge");
 
             correctionAdd("monetize", "monetise");
+            correctionAdd("monitise", "monetise");
 
             correctionAdd("Monkey patching", "monkey patching");
 
@@ -12636,6 +12645,42 @@ namespace OverflowHelper.core
 
             correctionAdd("wil", "will");
 
+            correctionAdd("braintree", "Braintree");
+
+            correctionAdd("mgtow", "MGTOW");
+
+            correctionAdd("mta", "MTA");
+
+            correctionAdd("phpmailer", "PHPMailer");
+
+            correctionAdd("postfix", "Postfix");
+
+            correctionAdd("sendmail", "Sendmail");
+
+            correctionAdd("url encode", "URL encode");
+            correctionAdd("URL-encode", "URL encode");
+            correctionAdd("url-encode", "URL encode");
+
+            correctionAdd("existant", "existent");
+
+            correctionAdd("inpersonation", "impersonation");
+
+            correctionAdd("Latter", "latter");
+
+            correctionAdd("local host", "localhost");
+
+            correctionAdd("protion", "portion");
+
+            correctionAdd("powers-that-be", "powers that be");
+            correctionAdd("Powers-That-Be", "powers that be");
+
+            correctionAdd("seque", "segue");
+
+            correctionAdd("thig", "thing");
+
+            correctionAdd("tooo", "too");
+            
+            correctionAdd("distination", "destination");
 
 
             //HACK: AASDASD
@@ -18373,6 +18418,40 @@ namespace OverflowHelper.core
 
             URL_Add("will", "https://en.wiktionary.org/wiki/will#Verb");
             
+            URL_Add("Braintree", "https://en.wikipedia.org/wiki/Braintree_%28company%29");
+
+            URL_Add("MGTOW", "https://en.wikipedia.org/wiki/Men_Going_Their_Own_Way");
+
+            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
+
+            URL_Add("PHPMailer", "https://en.wikipedia.org/wiki/PHPMailer");
+
+            URL_Add("Postfix", "https://en.wikipedia.org/wiki/Postfix_(software)");
+
+            URL_Add("Sendmail", "https://en.wikipedia.org/wiki/Sendmail");
+
+            URL_Add("URL encode", "http://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("existent", "https://en.wiktionary.org/wiki/existent#Adjective");
+
+            URL_Add("impersonation", "https://en.wiktionary.org/wiki/impersonation#Noun");
+
+            URL_Add("latter", "https://en.wiktionary.org/wiki/latter#Adjective");
+
+            URL_Add("localhost", "https://en.wikipedia.org/wiki/Localhost");
+
+            URL_Add("portion", "https://en.wiktionary.org/wiki/portion#Noun");
+
+            URL_Add("powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
+
+            URL_Add("segue", "https://en.wiktionary.org/wiki/segue#Verb");
+
+            URL_Add("thing", "https://en.wiktionary.org/wiki/thing#Noun");
+
+            URL_Add("too", "https://en.wiktionary.org/wiki/too#Adverb");
+            
+            URL_Add("destination", "https://en.wiktionary.org/wiki/destination#Noun");
+
 
 
             //========================================================
