@@ -64,7 +64,7 @@ namespace OverflowHelper.Tests
             Assert.AreEqual(
                 2708 + 3 + 1 + 12 - 10 + 1 + 8 - 22 + 9 - 2 - 1 - 1 + 1 +
                 404 + 153 +
-                36 + 85,  
+                36 + 85 + 4,  
                 len, "XYZ");
             //    +3 because we discovered and eliminated a tab...
             //    +1 because changed the HTML slightly...
@@ -88,6 +88,9 @@ namespace OverflowHelper.Tests
             //   +36 because we changed the formatting of the CSS...
             //   +85 because we added a link to the web version 
             //       of Edit Overflow...
+            //    +4 Because we went to development mode again (after 
+            //       the release 2019-11-01)... But why +4 (the extra
+            //       "a3" counts two times).
             
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
             // any TABs...
@@ -156,7 +159,7 @@ namespace OverflowHelper.Tests
 
             Assert.AreEqual(
                 3572 - 24 + 153 +
-                36 + 85,
+                36 + 85 + 4,
                 len, "XYZ");
             //   -24 because we removed unnecessary space...         
             //  +153 because we added a justification for the existence 
@@ -164,6 +167,9 @@ namespace OverflowHelper.Tests
             //   +36 because we changed the formatting of the CSS...
             //   +85 because we added a link to the web version 
             //       of Edit Overflow...
+            //    +4 Because we went to development mode again (after 
+            //       the release 2019-11-01)... But why +4 (the extra
+            //       "a3" counts two times).
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
             // any TABs...

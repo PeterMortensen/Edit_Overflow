@@ -578,6 +578,7 @@ namespace OverflowHelper.core
             correctionAdd("Javsscript", "JavaScript");
             correctionAdd("javsscript", "JavaScript");
             correctionAdd("Javsacript", "JavaScript");
+            correctionAdd("js script", "JavaScript");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -1331,6 +1332,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -2303,6 +2305,7 @@ namespace OverflowHelper.core
             correctionAdd("GITHub", "GitHub");
             correctionAdd("Gihub", "GitHub");
             correctionAdd("git-hub", "GitHub");
+            correctionAdd("GiHub", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -3246,6 +3249,8 @@ namespace OverflowHelper.core
             correctionAdd("separte", "separate");
             correctionAdd("deparate", "separate");
             correctionAdd("sepereate", "separate");
+            correctionAdd("Separete", "separate");
+            correctionAdd("Separate", "separate");
 
             correctionAdd("seperation", "separation");
             correctionAdd("speraration", "separation");
@@ -5413,6 +5418,7 @@ namespace OverflowHelper.core
             correctionAdd("Codeplex", "CodePlex");
 
             correctionAdd("aol", "AOL");
+            correctionAdd("Aol", "AOL");
 
             correctionAdd("benifit", "benefit");
             correctionAdd("benift", "benefit");
@@ -6354,6 +6360,7 @@ namespace OverflowHelper.core
             correctionAdd("privilegie", "privilege");
             correctionAdd("privilge", "privilege");
             correctionAdd("privillege", "privilege");
+            correctionAdd("priveldge", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -7355,6 +7362,7 @@ namespace OverflowHelper.core
             correctionAdd("visual study", "Visual Studio");
             correctionAdd("vis studio", "Visual Studio");
             correctionAdd("Visual Studi", "Visual Studio");
+            correctionAdd("visual sudio", "Visual Studio");
 
             correctionAdd("vb 2005", "Visual Basic 2005 Express Edition");
             correctionAdd("vb2005", "Visual Basic 2005 Express Edition");
@@ -8321,6 +8329,8 @@ namespace OverflowHelper.core
             correctionAdd("ouput", "output");
             correctionAdd("OutPut", "output");
             correctionAdd("out put", "output");
+            correctionAdd("Ouput", "output");
+            correctionAdd("Output", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -8477,6 +8487,9 @@ namespace OverflowHelper.core
             correctionAdd("tcp/ip", "TCP/IP");
             correctionAdd("TCPIP", "TCP/IP");
             correctionAdd("TCP / IP", "TCP/IP");
+            correctionAdd("tcp-ip", "TCP/IP");
+            correctionAdd("tcp ip", "TCP/IP");
+            correctionAdd("TCP IP", "TCP/IP");
 
             correctionAdd("IOT", "IoT");
             correctionAdd("Internet of Things", "IoT"); //Contraction...
@@ -9380,9 +9393,9 @@ namespace OverflowHelper.core
             correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
             correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
 
-            // Resolve the conclict with the planet Mars by adding 
+            // Resolve the conclict with the planet Mars by adding
             // a qualifying "Eclipse" with order and capitalisation
-            // variations (though it does require the user to 
+            // variations (though it does require the user to
             // know this).
             correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
             correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
@@ -9518,6 +9531,7 @@ namespace OverflowHelper.core
             correctionAdd("Net Core", ".NET Core");
             correctionAdd(".Net.core", ".NET Core");
             correctionAdd("DotNet Core", ".NET Core");
+            correctionAdd("Dot net core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
 
@@ -9664,6 +9678,8 @@ namespace OverflowHelper.core
             correctionAdd("arent", "aren't");
 
             correctionAdd("Email", "email");
+            correctionAdd("meail", "email");
+            correctionAdd("meails", "email");
 
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
@@ -9916,6 +9932,7 @@ namespace OverflowHelper.core
             correctionAdd("mips", "MIPS");
 
             correctionAdd("wanna", "want to");
+            correctionAdd("wanne", "want to");
 
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
@@ -10590,6 +10607,7 @@ namespace OverflowHelper.core
             correctionAdd("SCCM", "System Center Configuration Manager");
 
             correctionAdd("woocommerce", "WooCommerce");
+            correctionAdd("Woocommerce", "WooCommerce");
 
             correctionAdd("acomplishment", "accomplishment");
 
@@ -10611,6 +10629,7 @@ namespace OverflowHelper.core
             correctionAdd("Plutonium", "plutonium");
 
             correctionAdd("possbile", "possible");
+            correctionAdd("posible", "possible");
 
             correctionAdd("programing", "programming");
 
@@ -10755,6 +10774,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ambigious", "ambiguous");
             correctionAdd("ambigous", "ambiguous");
+            correctionAdd("ambiguious", "ambiguous");
 
             correctionAdd("approch", "approach");
             correctionAdd("aproach", "approach");
@@ -11320,6 +11340,7 @@ namespace OverflowHelper.core
 
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
+            correctionAdd("Never the less", "nevertheless");
 
             correctionAdd("none the less", "nonetheless");
 
@@ -11331,6 +11352,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ref", "reference");
             correctionAdd("refernce", "reference");
+            correctionAdd("refrence", "reference");
 
             correctionAdd("stdin", "standard input");
 
@@ -11339,6 +11361,7 @@ namespace OverflowHelper.core
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
+            correctionAdd("Ublock Origin", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -11417,10 +11440,12 @@ namespace OverflowHelper.core
 
             correctionAdd("pos", "position");
             correctionAdd("postion", "position");
+            correctionAdd("possition", "position");
 
             correctionAdd("vehical", "vehicle");
 
             correctionAdd("wierd", "weird");
+            correctionAdd("weried", "weird");
 
             correctionAdd("squach", "squash");
 
@@ -11903,6 +11928,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Apache spark", "Apache Spark");
             correctionAdd("spark", "Apache Spark");
+            correctionAdd("Spark", "Apache Spark");
+            correctionAdd("sPARK", "Apache Spark");
 
             correctionAdd("ES 5", "ECMAScript&nbsp;5");
             correctionAdd("ES5", "ECMAScript&nbsp;5");
@@ -12508,6 +12535,107 @@ namespace OverflowHelper.core
             correctionAdd("femails", "females");
 
             correctionAdd("womans", "women");
+
+            correctionAdd("closure", "Closure");
+
+            correctionAdd("fiverr", "Fiverr");
+
+            correctionAdd("get-filehash", "Get-FileHash");
+
+            correctionAdd("Jmeter", "JMeter");
+
+            correctionAdd("mtp", "MTP");
+
+            correctionAdd("new york", "New York");
+
+            correctionAdd("onenote", "OneNote");
+
+            correctionAdd("press key", "Press Key");
+
+            correctionAdd("press keys", "Press Keys");
+
+            correctionAdd("pyspark", "PySpark");
+
+            correctionAdd("star trek", "Star Trek");
+
+            correctionAdd("starbucks", "Starbucks");
+
+            correctionAdd("vco", "VCO");
+
+            correctionAdd("write-progress", "Write-Progress");
+
+            correctionAdd("yolo", "YOLO");
+
+            correctionAdd("abscence", "absence");
+
+            correctionAdd("BitWise", "bitwise");
+
+            correctionAdd("choce", "choice");
+
+            correctionAdd("commiting", "committing");
+
+            correctionAdd("compliment", "complement");
+
+            correctionAdd("Democratic", "democratic");
+
+            correctionAdd("de-reference", "dereference");
+
+            correctionAdd("elgent", "elegant");
+
+            correctionAdd("emphasize", "emphasise");
+
+            correctionAdd("employe", "employee");
+
+            correctionAdd("excecute", "execute");
+
+            correctionAdd("extremeties", "extremities");
+            correctionAdd("extremitys", "extremities");
+
+            correctionAdd("fare", "fair");
+
+            correctionAdd("illigal", "illegal");
+
+            correctionAdd("idx", "index");
+
+            correctionAdd("in side", "inside");
+
+            correctionAdd("laung", "lounge");
+
+            correctionAdd("monetize", "monetise");
+
+            correctionAdd("Monkey patching", "monkey patching");
+
+            correctionAdd("neo-nazi", "neo-Nazi");
+
+            correctionAdd("ommit", "omit");
+
+            correctionAdd("org", "organisation");
+            correctionAdd("organiation", "organisation");
+
+            correctionAdd("portefolio", "portfolio");
+
+            correctionAdd("reccomending", "recommending");
+
+            correctionAdd("religous", "religious");
+
+            correctionAdd("re-scale", "rescale");
+
+            correctionAdd("rewiev", "review");
+
+            correctionAdd("semi colon", "semicolon");
+            correctionAdd("semi-colon", "semicolon");
+
+            correctionAdd("snipet", "snippet");
+
+            correctionAdd("user defined", "user-defined");
+
+            correctionAdd("wonderfull", "wonderful");
+            correctionAdd("wonder full", "wonderful");
+
+            correctionAdd("exitor", "editor");
+
+            correctionAdd("wil", "will");
+
 
 
             //HACK: AASDASD
@@ -18149,6 +18277,102 @@ namespace OverflowHelper.core
 
             URL_Add("women", "https://en.wiktionary.org/wiki/woman#Noun");
 
+            URL_Add("Closure", "https://en.wikipedia.org/wiki/Closure_(computer_programming)");
+
+            URL_Add("Fiverr", "https://en.wikipedia.org/wiki/Fiverr");
+
+            URL_Add("Get-FileHash", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-FileHash");
+
+            URL_Add("JMeter", "https://en.wikipedia.org/wiki/Apache_JMeter");
+
+            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
+
+            URL_Add("New York", "https://en.wikipedia.org/wiki/New_York_City");
+
+            URL_Add("OneNote", "https://en.wikipedia.org/wiki/Microsoft_OneNote");
+
+            URL_Add("Press Key", "https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Press%20Key");
+
+            URL_Add("Press Keys", "https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Press%20Keys");
+
+            URL_Add("PySpark", "https://www.tutorialspoint.com/pyspark/index.htm");
+
+            URL_Add("Star Trek", "https://en.wikipedia.org/wiki/Star_Trek");
+
+            URL_Add("Starbucks", "https://en.wikipedia.org/wiki/Starbucks");
+
+            URL_Add("VCO", "https://en.wikipedia.org/wiki/Voltage-controlled_oscillator");
+
+            URL_Add("Write-Progress", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-progress");
+
+            URL_Add("YOLO", "https://en.wikipedia.org/wiki/Object_detection#Methods");
+
+            URL_Add("absence", "https://en.wiktionary.org/wiki/absence#Noun");
+
+            URL_Add("bitwise", "https://en.wiktionary.org/wiki/bitwise#Adjective");
+
+            URL_Add("choice", "https://en.wiktionary.org/wiki/choice#Noun");
+
+            URL_Add("committing", "https://en.wiktionary.org/wiki/commit#Verb");
+
+            URL_Add("complement", "https://en.wiktionary.org/wiki/complement#Noun");
+
+            URL_Add("democratic", "https://en.wiktionary.org/wiki/democratic#Adjective");
+
+            URL_Add("dereference", "https://en.wiktionary.org/wiki/dereference#Verb");
+
+            URL_Add("elegant", "https://en.wiktionary.org/wiki/elegant#Adjective");
+
+            URL_Add("emphasise", "https://en.wiktionary.org/wiki/emphasise#Verb");
+
+            URL_Add("employee", "https://en.wiktionary.org/wiki/employee#Noun");
+
+            URL_Add("execute", "https://en.wiktionary.org/wiki/execute#Verb");
+
+            URL_Add("extremities", "https://en.wiktionary.org/wiki/extremity#Noun");
+
+            URL_Add("fair", "https://en.wiktionary.org/wiki/fair#Adjective");
+
+            URL_Add("illegal", "https://en.wiktionary.org/wiki/illegal#Adjective");
+
+            URL_Add("index", "https://en.wiktionary.org/wiki/index#Noun");
+
+            URL_Add("inside", "https://en.wiktionary.org/wiki/inside#Adverb");
+
+            URL_Add("lounge", "https://en.wiktionary.org/wiki/lounge#Noun");
+
+            URL_Add("monetise", "https://en.wiktionary.org/wiki/monetise#Verb");
+
+            URL_Add("monkey patching", "https://en.wikipedia.org/wiki/Monkey_patch");
+
+            URL_Add("neo-Nazi", "https://en.wiktionary.org/wiki/neo-Nazi#Noun");
+
+            URL_Add("omit", "https://en.wiktionary.org/wiki/omit#Verb");
+
+            URL_Add("organisation", "https://en.wiktionary.org/wiki/organisation#Noun");
+
+            URL_Add("portfolio", "https://en.wiktionary.org/wiki/portfolio#Noun");
+
+            URL_Add("recommending", "http://en.wiktionary.org/wiki/recommend");
+
+            URL_Add("religious", "https://en.wiktionary.org/wiki/religious#Adjective");
+
+            URL_Add("rescale", "https://en.wiktionary.org/wiki/rescale#Verb");
+
+            URL_Add("review", "https://en.wiktionary.org/wiki/review#Verb");
+
+            URL_Add("semicolon", "https://en.wiktionary.org/wiki/semicolon#Noun");
+
+            URL_Add("snippet", "https://en.wiktionary.org/wiki/snippet#Noun");
+
+            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function");
+
+            URL_Add("wonderful", "https://en.wiktionary.org/wiki/wonderful#Adjective");
+
+            URL_Add("editor", "https://en.wiktionary.org/wiki/editor#Noun");
+
+            URL_Add("will", "https://en.wiktionary.org/wiki/will#Verb");
+            
 
 
             //========================================================
