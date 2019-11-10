@@ -9659,6 +9659,7 @@ namespace OverflowHelper.core
             correctionAdd("Vue.Js", "Vue.js");
             correctionAdd("vue", "Vue.js");
             correctionAdd("VueJS", "Vue.js");
+            correctionAdd("Vuejs", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -10401,6 +10402,7 @@ namespace OverflowHelper.core
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
             correctionAdd("py2", "Python&nbsp;2");
+            correctionAdd("python 2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
@@ -11057,6 +11059,9 @@ namespace OverflowHelper.core
             correctionAdd("re-writing", "rewriting");
 
             correctionAdd("anyways", "anyway");
+            correctionAdd("Anyyay", "anyway");
+            correctionAdd("anyyay", "anyway");
+            
 
             correctionAdd("breadbord", "breadboard");
 
@@ -11587,6 +11592,7 @@ namespace OverflowHelper.core
             correctionAdd("jure", "sure");
 
             correctionAdd("verical", "vertical");
+            correctionAdd("verticle", "vertical");
 
             correctionAdd("you ll", "you'll");
 
@@ -12681,6 +12687,13 @@ namespace OverflowHelper.core
             correctionAdd("tooo", "too");
             
             correctionAdd("distination", "destination");
+
+            correctionAdd("1-on-1", "one-on-one");
+            correctionAdd("one on one", "one-on-one");
+
+            correctionAdd("seam", "seem");
+
+
 
 
             //HACK: AASDASD
@@ -18451,6 +18464,10 @@ namespace OverflowHelper.core
             URL_Add("too", "https://en.wiktionary.org/wiki/too#Adverb");
             
             URL_Add("destination", "https://en.wiktionary.org/wiki/destination#Noun");
+
+            URL_Add("one-on-one", "https://en.wiktionary.org/wiki/one-on-one#Adjective");
+
+            URL_Add("seem", "https://en.wiktionary.org/wiki/seem#Verb");
 
 
 
