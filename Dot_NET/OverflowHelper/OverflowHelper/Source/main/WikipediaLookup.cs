@@ -6303,6 +6303,8 @@ namespace OverflowHelper.core
             correctionAdd("Operating System", "operating system");
             correctionAdd("Os", "operating system");
             correctionAdd("Operating Sytem", "operating system");
+            correctionAdd("operation system", "operating system");
+            correctionAdd("operational system", "operating system");
 
             correctionAdd("colo", "colocation centre");
 
@@ -9895,6 +9897,7 @@ namespace OverflowHelper.core
             correctionAdd("simmiller", "similar");
             correctionAdd("smililar", "similar");
             correctionAdd("simlar", "similar");
+            correctionAdd("Simillar", "similar");
 
             // But Wiktionary says: "(obsolete) Similar."
             //
@@ -11164,6 +11167,8 @@ namespace OverflowHelper.core
             correctionAdd("4th", "fourth");
 
             correctionAdd("fullfill", "fulfill");
+            correctionAdd("full fill", "fulfill");
+            correctionAdd("ful fill", "fulfill");
 
             correctionAdd("it self", "itself");
             correctionAdd("itsself", "itself");
@@ -12277,6 +12282,7 @@ namespace OverflowHelper.core
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
+            correctionAdd("plagirase", "plagiarise");
 
             correctionAdd("pronon", "pronoun");
 
@@ -12692,6 +12698,21 @@ namespace OverflowHelper.core
             correctionAdd("one on one", "one-on-one");
 
             correctionAdd("seam", "seem");
+
+            correctionAdd("powerpc", "PowerPC");
+            correctionAdd("power-pc", "PowerPC");
+
+            correctionAdd("WOW64", "WoW64");
+
+            correctionAdd("alegedly", "allegedly");
+
+            correctionAdd("contiue", "continue");
+
+            correctionAdd("keepign", "keeping");
+
+            correctionAdd("miminal", "minimal");
+
+            correctionAdd("occassion", "occasion");
 
 
 
@@ -18468,6 +18489,21 @@ namespace OverflowHelper.core
             URL_Add("one-on-one", "https://en.wiktionary.org/wiki/one-on-one#Adjective");
 
             URL_Add("seem", "https://en.wiktionary.org/wiki/seem#Verb");
+
+            URL_Add("PowerPC", "https://en.wikipedia.org/wiki/PowerPC");
+
+            URL_Add("WoW64", "https://en.wikipedia.org/wiki/WoW64");
+
+            URL_Add("allegedly", "https://en.wiktionary.org/wiki/allegedly#Adverb");
+
+            URL_Add("continue", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("keeping", "https://en.wiktionary.org/wiki/keep#Verb");
+
+            URL_Add("minimal", "https://en.wiktionary.org/wiki/minimal#Adjective");
+
+            URL_Add("occasion", "https://en.wiktionary.org/wiki/occasion#Noun");
+
 
 
 
