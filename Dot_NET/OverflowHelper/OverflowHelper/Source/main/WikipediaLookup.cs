@@ -10708,6 +10708,8 @@ namespace OverflowHelper.core
             correctionAdd("brexit", "Brexit");
 
             correctionAdd("docker hub", "Docker Hub");
+            correctionAdd("DockerHub", "Docker Hub");
+            correctionAdd("Docker hub", "Docker Hub");
 
             correctionAdd("marxism", "Marxism");
 
@@ -11866,6 +11868,7 @@ namespace OverflowHelper.core
             correctionAdd("lobbyisits", "lobbyists");
 
             correctionAdd("manualy", "manually");
+            correctionAdd("mannually", "manually");
 
             correctionAdd("multi meter", "multimeter");
 
@@ -12363,6 +12366,7 @@ namespace OverflowHelper.core
             correctionAdd("lier", "liar");
 
             correctionAdd("likleyhood", "likelihood");
+            correctionAdd("likelyhood", "likelihood");
 
             correctionAdd("monetization", "monetisation");
             correctionAdd("monitasation", "monetisation");
@@ -12713,6 +12717,14 @@ namespace OverflowHelper.core
             correctionAdd("miminal", "minimal");
 
             correctionAdd("occassion", "occasion");
+
+            correctionAdd("IFS", "internal field separator");
+
+            correctionAdd("invokation", "invocation");
+
+            correctionAdd("mistep", "misstep");
+
+            correctionAdd("qutation", "quotation");
 
 
 
@@ -18504,6 +18516,13 @@ namespace OverflowHelper.core
 
             URL_Add("occasion", "https://en.wiktionary.org/wiki/occasion#Noun");
 
+            URL_Add("internal field separator", "https://en.wikipedia.org/wiki/Internal_field_separator");
+
+            URL_Add("invocation", "https://en.wiktionary.org/wiki/invocation#Noun");
+
+            URL_Add("misstep", "https://en.wiktionary.org/wiki/misstep#Noun");
+
+            URL_Add("quotation", "https://en.wiktionary.org/wiki/quotation#Noun");
 
 
 
