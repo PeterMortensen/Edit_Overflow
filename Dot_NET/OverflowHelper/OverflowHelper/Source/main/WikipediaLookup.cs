@@ -12765,7 +12765,8 @@ namespace OverflowHelper.core
             correctionAdd("Textedit", "TextEdit");
             correctionAdd("textedit", "TextEdit");
 
-            correctionAdd("androidx", "android x");
+            correctionAdd("androidx", "Android X");
+            correctionAdd("android x", "Android X");
 
             correctionAdd("beatiful", "beautiful");
 
@@ -18588,7 +18589,7 @@ namespace OverflowHelper.core
 
             URL_Add("TextEdit", "https://en.wikipedia.org/wiki/TextEdit");
 
-            URL_Add("android x", "https://en.wikipedia.org/wiki/Arial");
+            URL_Add("Android X", "https://developer.android.com/jetpack/androidx");
 
             URL_Add("beautiful", "https://en.wiktionary.org/wiki/beautiful#Adjective");
 
