@@ -495,6 +495,8 @@ namespace OverflowHelper.core
             correctionAdd("WIndows", "Windows");
             correctionAdd("windwos", "Windows");
             correctionAdd("Windoes", "Windows");
+            correctionAdd("windoze", "Windows");
+            correctionAdd("Windoze", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -1195,6 +1197,8 @@ namespace OverflowHelper.core
             correctionAdd("mac-osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac OS x", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("Mac osX", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("Mac os X", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
@@ -2652,6 +2656,7 @@ namespace OverflowHelper.core
             correctionAdd("wine", "Wine");
 
             correctionAdd("komodo", "Komodo Edit");
+            correctionAdd("KomodoEdit", "Komodo Edit");
 
             correctionAdd("wxwidgets", "wxWidgets");
             correctionAdd("WxWidgets", "wxWidgets");
@@ -4734,6 +4739,7 @@ namespace OverflowHelper.core
             correctionAdd("for examle", "for example");
             correctionAdd("examp", "for example");
             correctionAdd("for examp", "for example");
+            correctionAdd("for excample", "for example");
 
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
@@ -5103,6 +5109,7 @@ namespace OverflowHelper.core
             correctionAdd("task manager", "Task Manager");
             correctionAdd("taskmanager", "Task Manager");
             correctionAdd("Task manager", "Task Manager");
+            correctionAdd("TaskManager", "Task Manager");
 
             correctionAdd("SysInternals", "Sysinternals");
             correctionAdd("Sys Internals", "Sysinternals");
@@ -8791,6 +8798,7 @@ namespace OverflowHelper.core
             correctionAdd("dosnt", "doesn’t");
             correctionAdd("does’t", "doesn’t");
             correctionAdd("doesn't", "doesn’t");
+            correctionAdd("doesn`t", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -9574,6 +9582,8 @@ namespace OverflowHelper.core
             correctionAdd("exemple", "example");
             correctionAdd("exmaple", "example");
             correctionAdd("excample", "example");
+            correctionAdd("Exampe", "example");
+            correctionAdd("exampe", "example");
 
             correctionAdd("european", "European");
 
@@ -10484,6 +10494,7 @@ namespace OverflowHelper.core
             correctionAdd("your self", "yourself");
 
             correctionAdd("atom", "Atom");
+            correctionAdd("ATOM", "Atom");
 
             correctionAdd("convertto-xml", "ConvertTo-Xml");
 
@@ -10964,6 +10975,7 @@ namespace OverflowHelper.core
             correctionAdd("Fibbonacci", "Fibonacci");
 
             correctionAdd("graphql", "GraphQL");
+            correctionAdd("graphQL", "GraphQL");
 
             correctionAdd("MSys", "MSYS");
 
@@ -11066,7 +11078,7 @@ namespace OverflowHelper.core
             correctionAdd("anyways", "anyway");
             correctionAdd("Anyyay", "anyway");
             correctionAdd("anyyay", "anyway");
-            
+
 
             correctionAdd("breadbord", "breadboard");
 
@@ -12607,6 +12619,7 @@ namespace OverflowHelper.core
             correctionAdd("elgent", "elegant");
 
             correctionAdd("emphasize", "emphasise");
+            correctionAdd("emphisize", "emphasise");
 
             correctionAdd("employe", "employee");
 
@@ -12695,7 +12708,7 @@ namespace OverflowHelper.core
             correctionAdd("thig", "thing");
 
             correctionAdd("tooo", "too");
-            
+
             correctionAdd("distination", "destination");
 
             correctionAdd("1-on-1", "one-on-one");
@@ -12726,6 +12739,37 @@ namespace OverflowHelper.core
 
             correctionAdd("qutation", "quotation");
 
+            correctionAdd("arial", "Arial");
+
+            correctionAdd("Coderush", "CodeRush");
+
+            correctionAdd("geany", "Geany");
+
+            correctionAdd("gerrit", "Gerrit");
+
+            correctionAdd("React mui", "MUI React");
+            correctionAdd("React mui material", "MUI React");
+
+            correctionAdd("material ui", "Material-UI");
+            correctionAdd("MATERIAL-UI", "Material-UI");
+            correctionAdd("React Material-UI", "Material-UI");
+            correctionAdd("material-ui", "Material-UI");
+            correctionAdd("Material UI", "Material-UI");
+
+            correctionAdd("Technet", "TechNet");
+
+            correctionAdd("test-connection", "Test-Connection");
+
+            correctionAdd("test-netconnection", "Test-NetConnection");
+
+            correctionAdd("Textedit", "TextEdit");
+            correctionAdd("textedit", "TextEdit");
+
+            correctionAdd("androidx", "android x");
+
+            correctionAdd("beatiful", "beautiful");
+
+            correctionAdd("gotsha", "gotcha");
 
 
 
@@ -18463,7 +18507,7 @@ namespace OverflowHelper.core
             URL_Add("editor", "https://en.wiktionary.org/wiki/editor#Noun");
 
             URL_Add("will", "https://en.wiktionary.org/wiki/will#Verb");
-            
+
             URL_Add("Braintree", "https://en.wikipedia.org/wiki/Braintree_%28company%29");
 
             URL_Add("MGTOW", "https://en.wikipedia.org/wiki/Men_Going_Their_Own_Way");
@@ -18495,7 +18539,7 @@ namespace OverflowHelper.core
             URL_Add("thing", "https://en.wiktionary.org/wiki/thing#Noun");
 
             URL_Add("too", "https://en.wiktionary.org/wiki/too#Adverb");
-            
+
             URL_Add("destination", "https://en.wiktionary.org/wiki/destination#Noun");
 
             URL_Add("one-on-one", "https://en.wiktionary.org/wiki/one-on-one#Adjective");
@@ -18523,6 +18567,34 @@ namespace OverflowHelper.core
             URL_Add("misstep", "https://en.wiktionary.org/wiki/misstep#Noun");
 
             URL_Add("quotation", "https://en.wiktionary.org/wiki/quotation#Noun");
+
+            URL_Add("Arial", "https://en.wikipedia.org/wiki/Arial");
+
+            URL_Add("CodeRush", "https://en.wikipedia.org/wiki/CodeRush");
+
+            URL_Add("Geany", "https://en.wikipedia.org/wiki/Geany");
+
+            URL_Add("Gerrit", "https://en.wikipedia.org/wiki/Gerrit_(software)");
+
+            URL_Add("MUI React", "https://www.muicss.com/docs/v1/react/introduction");
+
+            URL_Add("Material-UI", "https://material-ui.com/");
+
+            URL_Add("TechNet", "https://en.wikipedia.org/wiki/Microsoft_TechNet");
+
+            URL_Add("Test-Connection", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-connection");
+
+            URL_Add("Test-NetConnection", "https://docs.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection");
+
+            URL_Add("TextEdit", "https://en.wikipedia.org/wiki/TextEdit");
+
+            URL_Add("android x", "https://en.wikipedia.org/wiki/Arial");
+
+            URL_Add("beautiful", "https://en.wiktionary.org/wiki/beautiful#Adjective");
+
+            URL_Add("gotcha", "https://en.wiktionary.org/wiki/gotcha#Noun");
+
+
 
 
 
