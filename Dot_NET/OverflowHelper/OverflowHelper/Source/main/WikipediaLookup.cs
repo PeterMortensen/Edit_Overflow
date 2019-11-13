@@ -12771,6 +12771,8 @@ namespace OverflowHelper.core
             correctionAdd("beatiful", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
+            
+            correctionAdd("Telegram", "Telegram Messenger");
 
 
 
@@ -18595,7 +18597,7 @@ namespace OverflowHelper.core
 
             URL_Add("gotcha", "https://en.wiktionary.org/wiki/gotcha#Noun");
 
-
+            URL_Add("Telegram Messenger", "https://en.wikipedia.org/wiki/Telegram_(software)");
 
 
 
