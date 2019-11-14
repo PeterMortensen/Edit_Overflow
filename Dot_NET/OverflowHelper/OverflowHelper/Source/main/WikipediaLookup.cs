@@ -3790,6 +3790,7 @@ namespace OverflowHelper.core
             correctionAdd("ip addresss", "IP address");
 
             correctionAdd("stats", "statistics");
+            correctionAdd("stasistics", "statistics");
 
             correctionAdd("btw", "by the way");
             correctionAdd("Btw", "by the way");
@@ -6459,6 +6460,7 @@ namespace OverflowHelper.core
             correctionAdd("CAN", "CAN bus");
             correctionAdd("CANBus", "CAN bus");
             correctionAdd("CANBUS", "CAN bus");
+            correctionAdd("CAN-bus", "CAN bus");
 
             correctionAdd("vba", "VBA");
             correctionAdd("Vba", "VBA");
@@ -9122,6 +9124,7 @@ namespace OverflowHelper.core
             correctionAdd("android-studio", "Android Studio");
             correctionAdd("android studios", "Android Studio");
             correctionAdd("Android studio", "Android Studio");
+            correctionAdd("andriod studio", "Android Studio");
 
             correctionAdd("western digital", "Western Digital");
             correctionAdd("WD", "Western Digital");
@@ -9597,6 +9600,8 @@ namespace OverflowHelper.core
             correctionAdd("Slamander", "Altap Salamander");
 
             correctionAdd("BaudRate", "baud rate");
+            correctionAdd("baudRate", "baud rate");
+            correctionAdd("baudrate", "baud rate");
 
             correctionAdd("Tektronics", "Tektronix");
             correctionAdd("Tek", "Tektronix");
@@ -10762,6 +10767,7 @@ namespace OverflowHelper.core
             correctionAdd("japan", "Japan");
 
             correctionAdd("infact", "in fact");
+            correctionAdd("in-fact", "in fact");
 
             correctionAdd("parlamentary", "parliamentary");
 
@@ -11712,6 +11718,8 @@ namespace OverflowHelper.core
             correctionAdd("en counter", "encounter");
 
             correctionAdd("excatly", "exactly");
+            correctionAdd("EXACLTY", "exactly");
+            correctionAdd("exaclty", "exactly");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
 
@@ -12773,6 +12781,45 @@ namespace OverflowHelper.core
             correctionAdd("gotsha", "gotcha");
             
             correctionAdd("Telegram", "Telegram Messenger");
+
+            correctionAdd("Hyperterminal", "HyperTerminal");
+
+            correctionAdd("PortMon", "Portmon");
+
+            correctionAdd("OTG", "USB On-The-Go");
+            correctionAdd("USB-to-go", "USB On-The-Go");
+            correctionAdd("USB OTG", "USB On-The-Go");
+
+            correctionAdd("Anode", "anode");
+
+            correctionAdd("asterix", "asterisk");
+            correctionAdd("asteriscs", "asterisk");
+
+            correctionAdd("cetian", "certain");
+
+            correctionAdd("Collector", "collector");
+
+            correctionAdd("Drain", "drain");
+
+            correctionAdd("endcode", "encode");
+
+            correctionAdd("gaue", "gauge");
+            correctionAdd("guage", "gauge");
+
+            correctionAdd("happlily", "happily");
+            correctionAdd("happilly", "happily");
+
+            correctionAdd("lock-down", "lock down");
+
+            correctionAdd("measureable", "measurable");
+
+            correctionAdd("pickup", "pick up");
+
+            correctionAdd("presicesly", "precisely");
+
+            correctionAdd("Thyristor", "thyristor");
+
+
 
 
 
@@ -18598,6 +18645,39 @@ namespace OverflowHelper.core
             URL_Add("gotcha", "https://en.wiktionary.org/wiki/gotcha#Noun");
 
             URL_Add("Telegram Messenger", "https://en.wikipedia.org/wiki/Telegram_(software)");
+
+            URL_Add("HyperTerminal", "https://en.wikipedia.org/wiki/HyperACCESS");
+
+            URL_Add("Portmon", "https://docs.microsoft.com/en-us/sysinternals/downloads/portmon");
+
+            URL_Add("USB On-The-Go", "https://en.wikipedia.org/wiki/USB_On-The-Go");
+
+            URL_Add("anode", "https://en.wikipedia.org/wiki/Anode");
+
+            URL_Add("asterisk", "https://en.wiktionary.org/wiki/asterisk#Noun");
+
+            URL_Add("certain", "https://en.wiktionary.org/wiki/certain#Adjective");
+
+            URL_Add("collector", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Structure");
+
+            URL_Add("drain", "https://en.wikipedia.org/wiki/Field-effect_transistor#Basic_information");
+
+            URL_Add("encode", "https://en.wiktionary.org/wiki/encode#Verb");
+
+            URL_Add("gauge", "https://en.wiktionary.org/wiki/gauge#Noun");
+
+            URL_Add("happily", "https://en.wiktionary.org/wiki/happily#Adverb");
+
+            URL_Add("lock down", "https://en.wiktionary.org/wiki/lock_down#Verb");
+
+            URL_Add("measurable", "https://en.wiktionary.org/wiki/measurable#Adjective");
+
+            URL_Add("pick up", "https://en.wiktionary.org/wiki/pick_up#Verb");
+
+            URL_Add("precisely", "https://en.wiktionary.org/wiki/precisely#Adverb");
+
+            URL_Add("thyristor", "https://en.wikipedia.org/wiki/Thyristor");
+
 
 
 
