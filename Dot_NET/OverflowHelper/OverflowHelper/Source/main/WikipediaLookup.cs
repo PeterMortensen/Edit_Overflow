@@ -10357,6 +10357,7 @@ namespace OverflowHelper.core
             correctionAdd("succesfully", "successfully");
             correctionAdd("secsessfully", "successfully");
             correctionAdd("sucessfully", "successfully");
+            correctionAdd("Succesfully", "successfully");
 
             correctionAdd("theres", "there's");
 
@@ -10727,6 +10728,7 @@ namespace OverflowHelper.core
             correctionAdd("docker hub", "Docker Hub");
             correctionAdd("DockerHub", "Docker Hub");
             correctionAdd("Docker hub", "Docker Hub");
+            correctionAdd("dockerhub", "Docker Hub");
 
             correctionAdd("marxism", "Marxism");
 
@@ -12831,6 +12833,18 @@ namespace OverflowHelper.core
             correctionAdd("photoshoping", "photoshopping");
 
             correctionAdd("UNIX2DOS", "unix2dos");
+
+            correctionAdd("Cmdr", "Cmder");
+            correctionAdd("cmder", "Cmder");
+
+            correctionAdd("webdav", "WebDAV");
+
+            correctionAdd("cleanup", "clean up");
+
+            correctionAdd("surly", "surely");
+
+            correctionAdd("therefor", "therefore");
+
 
 
 
@@ -18700,6 +18714,15 @@ namespace OverflowHelper.core
 
             URL_Add("unix2dos", "https://en.wikipedia.org/wiki/Unix2dos");
 
+            URL_Add("Cmder", "https://cmder.net/");
+
+            URL_Add("WebDAV", "https://en.wikipedia.org/wiki/WebDAV");
+
+            URL_Add("clean up", "https://en.wiktionary.org/wiki/clean_up#Verb");
+
+            URL_Add("surely", "https://en.wiktionary.org/wiki/surely#Adverb");
+
+            URL_Add("therefore", "https://en.wiktionary.org/wiki/therefore#Adverb");
 
 
 
