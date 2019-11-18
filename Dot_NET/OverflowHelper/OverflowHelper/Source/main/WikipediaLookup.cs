@@ -2788,6 +2788,7 @@ namespace OverflowHelper.core
             correctionAdd("SQl Server Management Studio", "SQL Server Management Studio");
             correctionAdd("MSSQL Management Studio", "SQL Server Management Studio");
             correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
+            correctionAdd("sql management studio", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -10914,6 +10915,7 @@ namespace OverflowHelper.core
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
             correctionAdd("thershold", "threshold");
+            correctionAdd("treshold", "threshold");
 
             correctionAdd("verision", "version");
             correctionAdd("verison", "version");
@@ -12288,6 +12290,7 @@ namespace OverflowHelper.core
             correctionAdd("liek", "like");
 
             correctionAdd("Mathematician", "mathematician");
+            correctionAdd("mathematicien", "mathematician");
 
             correctionAdd("migitate", "mitigate");
 
@@ -12819,6 +12822,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Thyristor", "thyristor");
 
+            correctionAdd("rsa", "RSA");
+
+            correctionAdd("DOS2UNIX", "dos2unix");
+
+            correctionAdd("Line Feed", "line feed");
+
+            correctionAdd("photoshoping", "photoshopping");
+
+            correctionAdd("UNIX2DOS", "unix2dos");
 
 
 
@@ -15652,7 +15664,7 @@ namespace OverflowHelper.core
 
             URL_Add("single-page application", "https://en.wikipedia.org/wiki/Single-page_application");
 
-            URL_Add("German", "https://en.wiktionary.org/wiki/German#Proper_noun");
+            URL_Add("German", "https://en.wiktionary.org/wiki/German#Noun"); // Old (is "A surname​."  - Wiktionary error?): https://en.wiktionary.org/wiki/German#Proper_noun
 
             URL_Add("F-15", "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle");
 
@@ -18677,6 +18689,18 @@ namespace OverflowHelper.core
             URL_Add("precisely", "https://en.wiktionary.org/wiki/precisely#Adverb");
 
             URL_Add("thyristor", "https://en.wikipedia.org/wiki/Thyristor");
+
+            URL_Add("RSA", "https://en.wikipedia.org/wiki/RSA_(cryptosystem)");
+
+            URL_Add("dos2unix", "https://en.wikipedia.org/wiki/Unix2dos");
+
+            URL_Add("line feed", "https://en.wiktionary.org/wiki/line_feed#Noun");
+
+            URL_Add("photoshopping", "https://en.wiktionary.org/wiki/photoshop#Verb");
+
+            URL_Add("unix2dos", "https://en.wikipedia.org/wiki/Unix2dos");
+
+
 
 
 
