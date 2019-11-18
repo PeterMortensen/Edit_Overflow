@@ -7291,6 +7291,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); 
 
             correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
             correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
@@ -8480,6 +8482,8 @@ namespace OverflowHelper.core
 
             correctionAdd("mb", "&nbsp;MB"); //Assuming bytes, not bits...
             correctionAdd("MB", "&nbsp;MB"); //Assuming bytes, not bits...
+            correctionAdd("mega byte", "&nbsp;MB");
+            correctionAdd("megabyte", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); //Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
@@ -11935,6 +11939,7 @@ namespace OverflowHelper.core
             correctionAdd("anually", "annually");
 
             correctionAdd("back tick", "backtick");
+            correctionAdd("back-tick", "backtick");
 
             correctionAdd("buch", "bunch");
 
@@ -12845,6 +12850,13 @@ namespace OverflowHelper.core
 
             correctionAdd("therefor", "therefore");
 
+            correctionAdd("alpine", "Alpine Linux");
+            correctionAdd("alpine linux", "Alpine Linux");
+            correctionAdd("Alpine", "Alpine Linux");
+
+            correctionAdd("elixir", "Elixir");
+
+            correctionAdd("presing", "pressing");
 
 
 
@@ -18723,6 +18735,12 @@ namespace OverflowHelper.core
             URL_Add("surely", "https://en.wiktionary.org/wiki/surely#Adverb");
 
             URL_Add("therefore", "https://en.wiktionary.org/wiki/therefore#Adverb");
+
+            URL_Add("Alpine Linux", "https://en.wikipedia.org/wiki/Alpine_Linux");
+
+            URL_Add("Elixir", "https://en.wikipedia.org/wiki/Elixir_(programming_language)");
+
+            URL_Add("pressing", "https://en.wiktionary.org/wiki/press#Verb");
 
 
 
