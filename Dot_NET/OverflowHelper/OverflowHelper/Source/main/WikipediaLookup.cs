@@ -3890,6 +3890,7 @@ namespace OverflowHelper.core
             correctionAdd("certicificate", "certificate"); //Misspelling.
             correctionAdd("certicate", "certificate");
             correctionAdd("certifcate", "certificate");
+            correctionAdd("certitificate", "certificate");
 
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
@@ -5833,6 +5834,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ffmpeg", "FFmpeg");
             correctionAdd("FFMPEG", "FFmpeg");
+            correctionAdd("Ffmpeg", "FFmpeg");
 
             correctionAdd("knoppix", "Knoppix");
 
@@ -7292,7 +7294,7 @@ namespace OverflowHelper.core
             correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); 
+            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
 
             correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
             correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
@@ -9169,6 +9171,7 @@ namespace OverflowHelper.core
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
             correctionAdd("quesiton", "question");
+            correctionAdd("qestion", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -9267,6 +9270,10 @@ namespace OverflowHelper.core
             correctionAdd("PHP Storm", "PhpStorm");
             correctionAdd("PHP storm", "PhpStorm");
             correctionAdd("PHPStorm", "PhpStorm");
+            correctionAdd("PHPSTORM", "PhpStorm");
+            correctionAdd("phpstorm", "PhpStorm");
+            correctionAdd("php storm", "PhpStorm");
+            correctionAdd("Phpstorm", "PhpStorm");
 
             correctionAdd("perf", "performance");
             correctionAdd("preformance", "performance");
@@ -10362,6 +10369,7 @@ namespace OverflowHelper.core
             correctionAdd("secsessfully", "successfully");
             correctionAdd("sucessfully", "successfully");
             correctionAdd("Succesfully", "successfully");
+            correctionAdd("succesfuly", "successfully");
 
             correctionAdd("theres", "there's");
 
@@ -10503,6 +10511,8 @@ namespace OverflowHelper.core
             correctionAdd("visversa", "vice versa");
 
             correctionAdd("your self", "yourself");
+            correctionAdd("yourselves", "yourself");
+            correctionAdd("yourselv", "yourself");
 
             correctionAdd("atom", "Atom");
             correctionAdd("ATOM", "Atom");
@@ -10578,6 +10588,7 @@ namespace OverflowHelper.core
             correctionAdd("profesional", "professional");
 
             correctionAdd("succcess", "success");
+            correctionAdd("successs", "success");
 
             correctionAdd("christian", "Christian");
 
@@ -10819,6 +10830,7 @@ namespace OverflowHelper.core
             correctionAdd("clip-board", "clipboard");
             correctionAdd("CLIP-BOARD", "clipboard");
             correctionAdd("CLIPBOARD", "clipboard");
+            correctionAdd("clip board", "clipboard");
 
             correctionAdd("eaquation", "equation");
 
@@ -11472,6 +11484,8 @@ namespace OverflowHelper.core
             correctionAdd("eaay", "easy");
 
             correctionAdd("gamfication", "gamification");
+            correctionAdd("gameification", "gamification");
+            correctionAdd("gamefication", "gamification");
 
             correctionAdd("guide line", "guideline");
 
@@ -11623,6 +11637,7 @@ namespace OverflowHelper.core
             correctionAdd("supost", "suppose");
 
             correctionAdd("jure", "sure");
+            correctionAdd("shure", "sure");
 
             correctionAdd("verical", "vertical");
             correctionAdd("verticle", "vertical");
@@ -12789,7 +12804,7 @@ namespace OverflowHelper.core
             correctionAdd("beatiful", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
-            
+
             correctionAdd("Telegram", "Telegram Messenger");
 
             correctionAdd("Hyperterminal", "HyperTerminal");
@@ -12858,6 +12873,37 @@ namespace OverflowHelper.core
 
             correctionAdd("presing", "pressing");
 
+            correctionAdd("ac3", "AC-3");
+
+            correctionAdd("bob's your uncle", "Bob's your uncle");
+            correctionAdd("Bob's your Uncle", "Bob's your uncle");
+
+            correctionAdd("dts", "DTS");
+
+            correctionAdd("Soundcloud", "SoundCloud");
+
+            correctionAdd("condidate", "candidate");
+
+            correctionAdd("conection", "connection");
+
+            correctionAdd("containng", "containing");
+
+            correctionAdd("inspite of", "in spite of");
+            correctionAdd("inspite", "in spite of");
+
+            correctionAdd("rewrited", "rewrote");
+
+            correctionAdd("verifed", "verified");
+
+            correctionAdd("IMDB", "IMDb");
+            correctionAdd("imdb", "IMDb");
+
+            correctionAdd("clear-cut", "clear cut");
+
+            correctionAdd("correcponding", "corresponding");
+            correctionAdd("Correcponding", "corresponding");
+
+            correctionAdd("substract", "subtract");
 
 
 
@@ -18742,7 +18788,33 @@ namespace OverflowHelper.core
 
             URL_Add("pressing", "https://en.wiktionary.org/wiki/press#Verb");
 
+            URL_Add("AC-3", "https://en.wikipedia.org/wiki/Dolby_Digital");
 
+            URL_Add("Bob's your uncle", "https://en.wiktionary.org/wiki/Bob%27s_your_uncle#Phrase");
+
+            URL_Add("DTS", "https://en.wikipedia.org/wiki/DTS_(sound_system)#DTS_audio_codec");
+
+            URL_Add("SoundCloud", "https://en.wikipedia.org/wiki/SoundCloud");
+
+            URL_Add("candidate", "https://en.wiktionary.org/wiki/candidate#Noun");
+
+            URL_Add("connection", "https://en.wiktionary.org/wiki/connection#Noun");
+
+            URL_Add("containing", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("in spite of", "https://en.wiktionary.org/wiki/in_spite_of#Preposition");
+
+            URL_Add("rewrote", "https://en.wiktionary.org/wiki/rewrite#Verb");
+
+            URL_Add("verified", "https://en.wiktionary.org/wiki/verify#Verb");
+
+            URL_Add("IMDb", "https://en.wikipedia.org/wiki/IMDb");
+
+            URL_Add("clear cut", "https://en.wiktionary.org/wiki/clear_cut#Adjective");
+
+            URL_Add("corresponding", "https://en.wiktionary.org/wiki/correspond#Verb");
+
+            URL_Add("subtract", "https://en.wiktionary.org/wiki/subtract#Verb");
 
 
 
