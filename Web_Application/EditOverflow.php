@@ -160,7 +160,8 @@
 
                 # For debugging
                 #$rows2 = $statement->fetchAll(PDO::FETCH_ASSOC);
-                #foreach ($rows2 as $someRow) {
+                #foreach ($rows2 as $someRow) 
+                #{
                 #    echo "<p> From fetch all: </p>" .
                 #      " <p> >>>  "  . $someRow['incorrectTerm'] . " " .
                 #      " (cleaned: " . htmlentities($someRow['incorrectTerm']) . ")</p> " .
