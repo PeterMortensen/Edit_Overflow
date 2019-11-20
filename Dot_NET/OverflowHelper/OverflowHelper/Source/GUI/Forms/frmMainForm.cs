@@ -2781,7 +2781,9 @@ namespace OverflowHelper
 
             // Convert time to YouTube format
             //
-            // Example:
+            // Example (note that there is a trailing space in the output -
+            //          this is (probably) required by YouTube to recognise
+            //          at time)
             //
             //   From
             //
@@ -2814,28 +2816,30 @@ namespace OverflowHelper
             replacer.transform(@"http:\/\/", @"");
 
             // Reversals for some of the false positives in URL processing
+            //
+            // Example: TBD
+            //
             replacer.transform(@"E DOT g\.", @"E.g.");
             replacer.transform(@"e DOT g\.", @"e.g.");
 
-
             // Convert email addresses like so... (at least to
             // offer some protection (and avoiding objections
-            // to posting )).
+            // to posting)).
             //
             // For now, just globally replace "@"
             //
+            // Example: TBD
+            //
             replacer.transform(@"\@", @" AT ");
 
-            // Do some reversals for the URL conversion, to cover
-            // some
-            replacer.transform(@"e DOT g\.", @"e.g.");
-
+            //Delete at any time - why did we have it here??
+            //// Do some reversals for the URL conversion, to cover
+            //// some
+            //replacer.transform(@"e DOT g\.", @"e.g.");
 
             // Convert "->" to a real arrow
             replacer.transform(@"->", @"→"); // Note: For YouTube it can not
             //                                        be the HTML entity, "&rarr;".
-
-
 
 
             string outputStr = replacer.currentString();

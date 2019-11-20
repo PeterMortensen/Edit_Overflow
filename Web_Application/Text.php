@@ -8,7 +8,8 @@
         <title>Text stuff</title>
 
         <style>
-            body {
+            body 
+            {
                 background-color: lightgrey;
             }
         </style>
@@ -20,6 +21,8 @@
         <h1>Text stuff - Edit Overflow v. 1.1.XX 2019-07-06</h1>
 
         <?php
+            require_once('StringReplacerWithRegex.php');
+
             # function assert()
 
             const MAINTEXT = 'someText';
@@ -117,8 +120,8 @@
                 $actionStr = $_POST['action'];
                 #echo "<p>actionStr: $actionStr</p>";
 
-                switch ($actionStr) {
-
+                switch ($actionStr) 
+                {
                     case "Remove TABs and trailing whitespace":
                         #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
 
@@ -156,10 +159,49 @@
                         break;
 
                     case "Real quotes":
-                    
+
                         #Does not work... $someText is zapped and it shows two backticks...
-                    
+
                         $someText = "“$someText”";
+                        break;
+
+                    case "Transform for YouTube comments":
+
+                        $replacer = new StringReplacerWithRegex($someText);
+
+                        # Convert time to YouTube format
+                        $replacer->transform('(\d+)\s+secs',   '$1 ');
+                        $replacer->transform('(\d+)\s+min\s+', '$1:');
+                        $replacer->transform('(\d+)\s+h\s+',   '$1:');
+
+                        # Convert URLs so they do not look like URLs...
+                        # (otherwise, the entire comment will be
+                        # automatically removed by YouTube).
+                        $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
+                        $replacer->transform('https:\/\/', ''         );
+                        $replacer->transform('http:\/\/',  ''         );
+
+                        # Reversals for some of the false positives
+                        # in URL processing
+                        $replacer->transform('E DOT g\.', 'E.g.');
+                        $replacer->transform('e DOT g\.', 'e.g.');
+
+                        # Convert email addresses like so... (at least to
+                        # offer some protection (and avoiding objections
+                        # to posting )).
+                        #
+                        # For now, just globally replace "@"
+                        #
+                        $replacer->transform('\@', ' AT ');
+
+                        #This one does not seem to work...
+                        # Convert "->" to a real arrow
+                        #
+                        # Note: For YouTube it can not be
+                        #       the HTML entity, "&rarr;".
+                        $replacer->transform('->', '→');
+
+                        $someText = $replacer->currentString();
                         break;
 
                     default:
@@ -178,7 +220,6 @@
         <form
             name="XYZ"
             method="post"
-            action="Text.php"
             id="XYZ">
 
             <p>Text:</p>
@@ -247,9 +288,17 @@
                 title="Shortcut: Shift + Alt + Q"
             />
 
-
-
-
+            <!-- Submit button  -->
+            <input
+                name="action"
+                type="Submit"
+                id="LookUp29"
+                class="XYZ29"
+                value="Transform for YouTube comments"
+                style="width:150px;"
+                accesskey="Y"
+                title="Shortcut: Shift + Alt + Y"
+            />
 
         </form>
 
@@ -267,13 +316,13 @@
         </p>
 
         <p>
-            <a 
+            <a
                 href="EditOverflow.php"
                 accesskey="E"
                 title="Shortcut: Shift + Alt + E"
             >Edit Overflow</a>
 
-            <a 
+            <a
                 href="myInfo.php"
                 accesskey="I"
                 title="Shortcut: Shift + Alt + I"
