@@ -639,6 +639,8 @@ namespace OverflowHelper.core
 
             correctionAdd("PHP5", "PHP&nbsp;5");
             correctionAdd("php5", "PHP&nbsp;5");
+            correctionAdd("php 5", "PHP&nbsp;5");
+            correctionAdd("PHP 5", "PHP&nbsp;5");
 
             correctionAdd("phpmyadmin", "phpMyAdmin");
             correctionAdd("PhpMyAdmin", "phpMyAdmin");
@@ -3139,6 +3141,7 @@ namespace OverflowHelper.core
             correctionAdd("TFS", "Team Foundation Server"); //Expansion.
             correctionAdd("tfs", "Team Foundation Server"); //Not actually observed.
             correctionAdd("Tfs", "Team Foundation Server");
+            correctionAdd("TF", "Team Foundation Server");
 
             correctionAdd("mingw", "MinGW");
             correctionAdd("minGW", "MinGW");
@@ -5209,6 +5212,7 @@ namespace OverflowHelper.core
             correctionAdd("dup", "duplicate");
             correctionAdd("dupplicate", "duplicate");
             correctionAdd("dupilicate", "duplicate");
+            correctionAdd("douplicate", "duplicate");
 
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
@@ -10278,8 +10282,6 @@ namespace OverflowHelper.core
 
             correctionAdd("swedish", "Swedish");
 
-            correctionAdd("TF", "Team Foundation");
-
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
 
             correctionAdd("vsts", "VSTS");
@@ -12225,6 +12227,7 @@ namespace OverflowHelper.core
             correctionAdd("hellowolrd", "Hello, World!");
             correctionAdd("helloworld", "Hello, World!");
             correctionAdd("Hello World!", "Hello, World!");
+            correctionAdd("hello World", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -12537,8 +12540,6 @@ namespace OverflowHelper.core
             correctionAdd("Git Flow", "GitFlow");
             correctionAdd("gitflow", "GitFlow");
             correctionAdd("git-flow", "GitFlow");
-
-            correctionAdd("hello World", "Hello");
 
             correctionAdd("venn diagram", "Venn diagram");
 
@@ -12904,6 +12905,25 @@ namespace OverflowHelper.core
             correctionAdd("Correcponding", "corresponding");
 
             correctionAdd("substract", "subtract");
+
+            correctionAdd("bouncy", "Bouncy Castle");
+            correctionAdd("bouncy castle", "Bouncy Castle");
+            correctionAdd("BouncyCastle", "Bouncy Castle");
+            correctionAdd("Bouncycastle", "Bouncy Castle");
+
+            correctionAdd("perldoc", "Perl Programming Documentation");
+
+            correctionAdd("avarage", "average");
+
+            correctionAdd("pacakge", "package");
+            correctionAdd("Pacakge", "package");
+
+            correctionAdd("Strace", "strace");
+
+            correctionAdd("time stamp", "timestamp");
+
+            correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
+
 
 
 
@@ -16637,8 +16657,6 @@ namespace OverflowHelper.core
 
             URL_Add("Swedish", "https://en.wiktionary.org/wiki/Swedish#Noun");
 
-            URL_Add("Team Foundation", "(Team Foundation Server)");
-
             URL_Add("Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)");
 
             URL_Add("Ubuntu&nbsp;MATE", "https://en.wikipedia.org/wiki/Ubuntu_MATE");
@@ -18484,8 +18502,6 @@ namespace OverflowHelper.core
 
             URL_Add("GitFlow", "https://www.gitflow.com/");
 
-            URL_Add("Hello", "World!");
-
             URL_Add("Venn diagram", "https://en.wikipedia.org/wiki/Venn_diagram");
 
             URL_Add("difficult", "https://en.wiktionary.org/wiki/difficult#Adjective");
@@ -18816,6 +18832,21 @@ namespace OverflowHelper.core
 
             URL_Add("subtract", "https://en.wiktionary.org/wiki/subtract#Verb");
 
+            URL_Add("Bouncy Castle", "https://en.wikipedia.org/wiki/Bouncy_Castle_(cryptography)");
+
+            URL_Add("Perl Programming Documentation", "https://en.wikipedia.org/wiki/Perl_Programming_Documentation");
+
+            URL_Add("average", "https://en.wiktionary.org/wiki/average#Noun");
+
+            URL_Add("package", "https://en.wiktionary.org/wiki/package#Noun");
+
+            URL_Add("strace", "https://en.wikipedia.org/wiki/Strace");
+
+            URL_Add("timestamp", "https://en.wiktionary.org/wiki/timestamp#Noun");
+
+            URL_Add("Windows 10, 2018-04-10 Update (version 1803)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1803_(April_2018_Update)");
+
+
 
 
             //========================================================
@@ -19017,22 +19048,49 @@ namespace OverflowHelper.core
                 string someCorrectTerm = aCaseCorrection[someIncorrectTerm];
 
                 string someURL = null;
-                if (aWord2URL.TryGetValue(someCorrectTerm, out someURL))
+
+                string msg = string.Empty; // Default: empty - flag for no errors.
+
+                if (!aWord2URL.TryGetValue(someCorrectTerm, out someURL))
                 {
                     // Fail. What should we do?
+
+                    msg =
+                      "A correct term \"" + someCorrectTerm + 
+                      "\", could not be looked up in the term-to-URL mappiong."
+                      ;
                 }
 
                 // On-the-fly check (but it would be better if this check was
                 // done at program startup)
                 if (aWord2URL.ContainsKey(someIncorrectTerm))
                 {
-                    string msg =
+                    msg =
                       "Incorrect term \"" + someIncorrectTerm +
-                      "\" has been entered as a correct term...";
+                      "\" has been entered as a correct term...";                    
+                }
+
+                // On-the-fly check (but it would be better if this check was
+                // done at program startup)
+                //
+                // URLs should look like ones. 
+                // 
+                // For now, we just check if they start with "http"...
+                //
+                if (!someURL.StartsWith("http"))
+                {
+                    msg =
+                      "A URL, <" + someURL + ">, does not look like one. " +
+                      "For correct term \"" + someCorrectTerm + "\".";
+                }
+
+                // Report error, if any. For now, blocking dialogs...
+                if (msg != string.Empty)
+                {
                     System.Windows.Forms.MessageBox.Show(msg);
                 }
 
-                //Using a flag for now (for the type of output, HTML, SQL, etc.)
+                // Using a flag for now (for the type of output, HTML, SQL, etc.)
                 if (aGenerateHTML)
                 {
                     addTermsToOutput_HTML(someIncorrectTerm,
