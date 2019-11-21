@@ -1394,6 +1394,8 @@ namespace OverflowHelper.core
             correctionAdd("ria", "RIA");
             correctionAdd("Rich Internet application", "RIA");
             correctionAdd("Rich Internet Application", "RIA");
+            correctionAdd("rich internet application", "RIA");
+            correctionAdd("rich Internet application", "RIA");
 
             correctionAdd("Subsonic", "SubSonic");
             correctionAdd("subsonic", "SubSonic");
@@ -7195,6 +7197,15 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+
+            correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
 
             correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
@@ -7202,6 +7213,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)");
 
             correctionAdd("lucid", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
             correctionAdd("Lucid", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
@@ -7213,6 +7225,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
             correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
             correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
 
             correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
@@ -7221,6 +7234,7 @@ namespace OverflowHelper.core
             correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
 
             correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
             correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
@@ -7229,6 +7243,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
 
             correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
@@ -7237,6 +7252,7 @@ namespace OverflowHelper.core
             correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); //11 being 11.04 depends on context...
             correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
 
             correctionAdd("12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
             correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
@@ -7255,6 +7271,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
             correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
             correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
 
             correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
@@ -7262,18 +7279,21 @@ namespace OverflowHelper.core
             correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
 
             correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
 
             correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
 
             correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
@@ -7286,12 +7306,14 @@ namespace OverflowHelper.core
             correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
             correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
 
             correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
 
             correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
@@ -7299,9 +7321,11 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
 
             correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
             correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
 
             correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
@@ -7311,14 +7335,17 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
             correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
 
             correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
             correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
             correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
             correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
 
             correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
@@ -7327,29 +7354,31 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-
+            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
 
             correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("bionic beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
 
             correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
             correctionAdd("VS", "Visual Studio");
             correctionAdd("visual studio", "Visual Studio");
@@ -8165,6 +8194,7 @@ namespace OverflowHelper.core
             correctionAdd("begginer", "beginner");
             correctionAdd("bigginer", "beginner");
             correctionAdd("begginner", "beginner");
+            correctionAdd("beginer", "beginner");
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -9878,6 +9908,7 @@ namespace OverflowHelper.core
             correctionAdd("webgl", "WebGL");
 
             correctionAdd("accidently", "accidentally");
+            correctionAdd("accidentaly", "accidentally");
 
             correctionAdd("gotta", "have got to");
 
@@ -12338,6 +12369,7 @@ namespace OverflowHelper.core
             correctionAdd("pronon", "pronoun");
 
             correctionAdd("propery", "property");
+            correctionAdd("proprty", "property");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
 
@@ -12756,6 +12788,8 @@ namespace OverflowHelper.core
             correctionAdd("WOW64", "WoW64");
 
             correctionAdd("alegedly", "allegedly");
+            correctionAdd("alledgedly", "allegedly");
+            correctionAdd("allegdedly", "allegedly");
 
             correctionAdd("contiue", "continue");
 
@@ -12924,6 +12958,16 @@ namespace OverflowHelper.core
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
+            correctionAdd("cross-validated", "Cross Validated");
+
+            correctionAdd("enterprise resource planning", "ERP");
+
+            correctionAdd("uwp", "UWP");
+
+            correctionAdd("acess", "access");
+            correctionAdd("acces", "access");
+
+            correctionAdd("nCurses", "ncurses");
 
 
 
@@ -12997,7 +13041,7 @@ namespace OverflowHelper.core
             //Relational database management system.
             URL_Add("database", "http://en.wikipedia.org/wiki/Relational_database_management_system");
 
-            URL_Add("RIA", "http://en.wikipedia.org/wiki/Rich_Internet_application");
+            URL_Add("RIA", "https://en.wikipedia.org/wiki/Rich_web_application"); // Old: http://en.wikipedia.org/wiki/Rich_Internet_application
 
             URL_Add("SubSonic", "http://en.wikipedia.org/wiki/Subsonic_%28software%29");
 
@@ -15526,7 +15570,9 @@ namespace OverflowHelper.core
 
             URL_Add("at the moment", "https://en.wiktionary.org/wiki/atm#Abbreviation");
 
-            URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_.28Hardy_Heron.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
+            URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
+
+            URL_Add("Ubuntu&nbsp;9.04 (Jaunty Jackalope)", "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)");
 
             URL_Add("RavenDB", "http://ravendb.net/");
 
@@ -18846,6 +18892,15 @@ namespace OverflowHelper.core
 
             URL_Add("Windows 10, 2018-04-10 Update (version 1803)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1803_(April_2018_Update)");
 
+            URL_Add("Cross Validated", "https://stats.stackexchange.com/tour");
+
+            URL_Add("ERP", "https://en.wikipedia.org/wiki/Enterprise_resource_planning");
+
+            URL_Add("UWP", "https://en.wikipedia.org/wiki/Universal_Windows_Platform");
+
+            URL_Add("access", "https://en.wiktionary.org/wiki/access#Noun");
+
+            URL_Add("ncurses", "https://en.wikipedia.org/wiki/Ncurses");
 
 
 
@@ -19038,7 +19093,7 @@ namespace OverflowHelper.core
                     // Fail. What should we do?
 
                     msg =
-                      "A correct term \"" + someCorrectTerm + 
+                      "A correct term \"" + someCorrectTerm +
                       "\", could not be looked up in the term-to-URL mappiong."
                       ;
                 }
@@ -19049,14 +19104,14 @@ namespace OverflowHelper.core
                 {
                     msg =
                       "Incorrect term \"" + someIncorrectTerm +
-                      "\" has been entered as a correct term...";                    
+                      "\" has been entered as a correct term...";
                 }
 
                 // On-the-fly check (but it would be better if this check was
                 // done at program startup)
                 //
-                // URLs should look like ones. 
-                // 
+                // URLs should look like ones.
+                //
                 // For now, we just check if they start with "http"...
                 //
                 if (!someURL.StartsWith("http"))
