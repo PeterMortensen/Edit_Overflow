@@ -7,13 +7,13 @@
 *          the URL <http://en.wikipedia.org/wiki/JavaScript>. The          *
 *          lookups are cached so it is much faster than going              *
 *          through Google and Wikipedia every time. This typically         *
-*          takes 7 seconds.                                                *
+*          takes 7 seconds (at least on a 3G Internet connection).         *
 *                                                                          *
 ****************************************************************************/
 
 // Some bugs:
 //
-//   1. If a line end in four spaces and a degree sign, all of
+//   1. If a line ends in four spaces and a degree sign, all of
 //      it is removed!
 //
 //   2.
