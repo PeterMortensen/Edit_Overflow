@@ -18953,7 +18953,6 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static void addTermsToOutput_HTML(string aBadTerm,
                                                   string aCorrectedTerm,
-                                                  //ref StringBuilder aSomeScratch,
                                                   ref HTML_builder aInOutBuilder,
                                                   string aURL)
         {
@@ -18994,7 +18993,7 @@ namespace OverflowHelper.core
          *                                                                          *
          ****************************************************************************/
         private static void generateMainTable(
-            ref StringBuilder aSomeScratch2,
+            ref StringBuilder aSomeScratch,
             bool aGenerateHTML,
             ref string aLongestInCorrectTerm,
             ref string aLongestCorrectTerm,
@@ -19085,7 +19084,7 @@ namespace OverflowHelper.core
                 {
                     addTermsToOutput_SQL(someIncorrectTerm,
                                          someCorrectTerm,
-                                         ref aSomeScratch2,
+                                         ref aSomeScratch,
                                          someURL);
 
                     // We can rely on the sorted order, first by incorrect and
@@ -19098,7 +19097,7 @@ namespace OverflowHelper.core
                         // want to get the URL.
                         addTermsToOutput_SQL(someCorrectTerm,
                                              someCorrectTerm,
-                                             ref aSomeScratch2,
+                                             ref aSomeScratch,
                                              someURL);
                     }
                 }
@@ -19121,7 +19120,7 @@ namespace OverflowHelper.core
 
             if (aGenerateHTML)
             {
-                aSomeScratch2.Append(builder.currentHTML());
+                aSomeScratch.Append(builder.currentHTML());
             }
         } //generateMainTable()
 
