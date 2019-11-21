@@ -18957,22 +18957,6 @@ namespace OverflowHelper.core
                                                   ref HTML_builder aInOutBuilder,
                                                   string aURL)
         {
-            //aSomeScratch.Append("            <tr>  ");
-            //
-            //aSomeScratch.Append("  <td>");
-            //aSomeScratch.Append(aBadTerm);
-            //aSomeScratch.Append("</td>");
-            //
-            //aSomeScratch.Append("  <td>");
-            //aSomeScratch.Append(aCorrectedTerm);
-            //aSomeScratch.Append("</td>");
-            //
-            //aSomeScratch.Append("  <td>");
-            //aSomeScratch.Append(aURL);
-            //aSomeScratch.Append("</td>");
-            //
-            //aSomeScratch.Append("    </tr>");
-            //aSomeScratch.Append("\n");
             aInOutBuilder.singleLineTagOnSeparateLine(
                 "tr",
                 " " +
@@ -18980,7 +18964,6 @@ namespace OverflowHelper.core
                   aInOutBuilder.singleLineTagStr("td", aCorrectedTerm) + " " +
                   aInOutBuilder.singleLineTagStr("td", aURL) + " "
                 );
-
         } //addTermsToOutput_HTML()
 
 
