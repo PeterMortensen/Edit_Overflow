@@ -3517,6 +3517,7 @@ namespace OverflowHelper.core
             correctionAdd("cann’t", "can't");
             correctionAdd("connot", "can't");
             correctionAdd("carn’t", "can't");
+            correctionAdd("can´t", "can't");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -4124,6 +4125,7 @@ namespace OverflowHelper.core
             correctionAdd("diretcory", "directory");
             correctionAdd("directoy", "directory");
             correctionAdd("dirctory", "directory");
+            correctionAdd("direcotires", "directory");
 
             correctionAdd("dont", "don’t");
             correctionAdd("Dont", "don’t"); //Not 100% correct - case.
@@ -4634,6 +4636,7 @@ namespace OverflowHelper.core
             correctionAdd("base64", "Base64");
             correctionAdd("base 64", "Base64");
             correctionAdd("Base-64", "Base64");
+            correctionAdd("base46", "Base64");
 
             correctionAdd("WinCE", "Windows&nbsp;CE");
             correctionAdd("wince", "Windows&nbsp;CE");
@@ -4645,6 +4648,7 @@ namespace OverflowHelper.core
             correctionAdd("EC2", "Amazon EC2");
             correctionAdd("amazon EC2", "Amazon EC2");
             correctionAdd("Ec2", "Amazon EC2");
+            correctionAdd("Amazon ec2", "Amazon EC2");
 
             correctionAdd("amazon s3", "Amazon S3");
             correctionAdd("AmazonS3", "Amazon S3");
@@ -5264,6 +5268,7 @@ namespace OverflowHelper.core
             correctionAdd("env variable", "environment");
             correctionAdd("enviorment", "environment");
             correctionAdd("enviromnment", "environment");
+            correctionAdd("environmanet", "environment");
 
             correctionAdd("lan", "LAN");
 
@@ -9024,6 +9029,7 @@ namespace OverflowHelper.core
             correctionAdd("newb", "newbie");
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
             correctionAdd("noob", "newbie");
+            correctionAdd("newby", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -9227,6 +9233,7 @@ namespace OverflowHelper.core
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
             correctionAdd("autoamtically", "automatically");
+            correctionAdd("automaticaly", "automatically");
 
             correctionAdd("Compatability", "compatibility"); //Common misspelling...
             correctionAdd("compatability", "compatibility"); //Common misspelling...
@@ -11794,6 +11801,7 @@ namespace OverflowHelper.core
             correctionAdd("instuction", "instruction");
 
             correctionAdd("Km", "km");
+            correctionAdd("KM", "km");
 
             correctionAdd("lastest", "latest");
 
@@ -12228,6 +12236,7 @@ namespace OverflowHelper.core
             correctionAdd("xfs", "XFS");
 
             correctionAdd("calss", "class");
+            correctionAdd("Class", "class");
 
             correctionAdd("heres", "here's");
 
@@ -12968,6 +12977,65 @@ namespace OverflowHelper.core
             correctionAdd("acces", "access");
 
             correctionAdd("nCurses", "ncurses");
+
+            correctionAdd("Apache commons", "Apache Commons");
+            correctionAdd("apache commons", "Apache Commons");
+
+            correctionAdd("guava", "Google Guava");
+            correctionAdd("Guava", "Google Guava");
+
+            correctionAdd("Java6", "Java&nbsp;6");
+            correctionAdd("java 6", "Java&nbsp;6");
+
+            correctionAdd("Java7", "Java&nbsp;7");
+            correctionAdd("java 7", "Java&nbsp;7");
+
+            correctionAdd("java 8", "Java&nbsp;8");
+            correctionAdd("Java8", "Java&nbsp;8");
+
+            correctionAdd("mutt", "Mutt");
+
+            correctionAdd("pico", "Pico");
+
+            correctionAdd("pine", "Pine");
+
+            correctionAdd("screen", "Screen");
+
+            correctionAdd("wtf", "WTF");
+
+            correctionAdd("xtail", "Xtail");
+
+            correctionAdd("CFDISK", "cfdisk");
+
+            correctionAdd("CODEC", "codec");
+
+            correctionAdd("FDISK", "fdisk");
+
+            correctionAdd("IFCONFIG", "ifconfig");
+
+            correctionAdd("IOW", "in other words");
+
+            correctionAdd("IPROUTE2", "iproute2");
+
+            correctionAdd("IWCONFIG", "iwconfig");
+
+            correctionAdd("LOCATE", "locate");
+
+            correctionAdd("NANO", "nano");
+
+            correctionAdd("POPD", "popd");
+
+            correctionAdd("PUSHD", "pushd");
+
+            correctionAdd("ROUTE", "route");
+
+            correctionAdd("TAIL", "tail");
+
+            correctionAdd("TMUX", "tmux");
+
+            correctionAdd("verbage", "verbiage");
+
+            correctionAdd("week day", "weekday");
 
 
 
@@ -14725,7 +14793,7 @@ namespace OverflowHelper.core
 
             URL_Add("xargs", "http://en.wikipedia.org/wiki/Xargs");
 
-            URL_Add("find", "http://en.wikipedia.org/wiki/Find");
+            URL_Add("find", "https://en.wikipedia.org/wiki/Find_(Unix)"); // Old: http://en.wikipedia.org/wiki/Find
 
             URL_Add("Moonlight", "http://en.wikipedia.org/wiki/Moonlight_%28runtime%29");
 
@@ -18901,6 +18969,62 @@ namespace OverflowHelper.core
             URL_Add("access", "https://en.wiktionary.org/wiki/access#Noun");
 
             URL_Add("ncurses", "https://en.wikipedia.org/wiki/Ncurses");
+
+            URL_Add("Apache Commons", "https://en.wikipedia.org/wiki/Apache_Commons");
+
+            URL_Add("Google Guava", "https://en.wikipedia.org/wiki/Google_Guava");
+
+            URL_Add("Java&nbsp;6", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6");
+
+            URL_Add("Java&nbsp;7", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7");
+
+            URL_Add("Java&nbsp;8", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8");
+
+            URL_Add("Mutt", "https://en.wikipedia.org/wiki/Mutt_(email_client)");
+
+            URL_Add("Pico", "https://en.wikipedia.org/wiki/Pico_(text_editor)");
+
+            URL_Add("Pine", "https://en.wikipedia.org/wiki/Pine_(email_client)");
+
+            URL_Add("Screen", "https://en.wikipedia.org/wiki/GNU_Screen");
+
+            URL_Add("WTF", "https://en.wiktionary.org/wiki/WTF#Phrase");
+
+            URL_Add("Xtail", "http://manpages.ubuntu.com/manpages/trusty/man1/xtail.1.html");
+
+            URL_Add("cfdisk", "https://en.wikipedia.org/wiki/Cfdisk");
+
+            URL_Add("codec", "https://en.wikipedia.org/wiki/Codec");
+
+            URL_Add("fdisk", "https://en.wikipedia.org/wiki/Fdisk");
+
+            URL_Add("ifconfig", "https://en.wikipedia.org/wiki/Ifconfig");
+
+            URL_Add("in other words", "https://en.wiktionary.org/wiki/IOW#Adverb");
+
+            URL_Add("iproute2", "https://en.wikipedia.org/wiki/Iproute2");
+
+            URL_Add("iwconfig", "https://en.wikipedia.org/wiki/Wireless_tools_for_Linux#iwconfig");
+
+            URL_Add("locate", "https://en.wikipedia.org/wiki/Locate_(Unix)");
+
+            URL_Add("nano", "https://en.wikipedia.org/wiki/GNU_nano");
+
+            URL_Add("popd", "https://en.wikipedia.org/wiki/Pushd_and_popd");
+
+            URL_Add("pushd", "https://en.wikipedia.org/wiki/Pushd_and_popd");
+
+            URL_Add("route", "https://en.wikipedia.org/wiki/Route_(command)");
+
+            URL_Add("tail", "https://en.wikipedia.org/wiki/Tail_(Unix)");
+
+            URL_Add("tmux", "https://en.wikipedia.org/wiki/Tmux");
+
+            URL_Add("verbiage", "https://en.wiktionary.org/wiki/verbiage#Noun");
+
+            URL_Add("weekday", "https://en.wiktionary.org/wiki/weekday#Noun");
+
+
 
 
 
