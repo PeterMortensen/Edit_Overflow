@@ -11003,6 +11003,8 @@ namespace OverflowHelper.core
 
             correctionAdd("activestate", "ActiveState");
             correctionAdd("Activestate", "ActiveState");
+            correctionAdd("Active state", "ActiveState");
+            correctionAdd("Active State", "ActiveState");
 
             correctionAdd("diac", "DIAC");
             correctionAdd("Diac", "DIAC");
@@ -11846,6 +11848,7 @@ namespace OverflowHelper.core
             correctionAdd("scrol", "scroll");
 
             correctionAdd("sentance", "sentence");
+            correctionAdd("sentencen", "sentence");
 
             correctionAdd("sideeffect", "side effect");
 
@@ -13036,6 +13039,19 @@ namespace OverflowHelper.core
             correctionAdd("verbage", "verbiage");
 
             correctionAdd("week day", "weekday");
+
+            correctionAdd("ppm", "PPM");
+            correctionAdd("Perl Package Manager", "PPM");
+
+            correctionAdd("perlmonks", "PerlMonks");
+
+            correctionAdd("antyhing", "anything");
+
+            correctionAdd("bleeding edge", "bleeding-edge");
+
+            correctionAdd("developming", "developing");
+
+            correctionAdd("moducle", "module");
 
 
 
@@ -19023,6 +19039,18 @@ namespace OverflowHelper.core
             URL_Add("verbiage", "https://en.wiktionary.org/wiki/verbiage#Noun");
 
             URL_Add("weekday", "https://en.wiktionary.org/wiki/weekday#Noun");
+
+            URL_Add("PPM", "https://en.wikipedia.org/wiki/Perl_package_manager");
+
+            URL_Add("PerlMonks", "https://en.wikipedia.org/wiki/PerlMonks");
+
+            URL_Add("anything", "https://en.wiktionary.org/wiki/anything#Pronoun");
+
+            URL_Add("bleeding-edge", "https://en.wiktionary.org/wiki/bleeding-edge#Adjective");
+
+            URL_Add("developing", "https://en.wiktionary.org/wiki/develop#Verb");
+
+            URL_Add("module", "https://en.wiktionary.org/wiki/module#Noun");
 
 
 
