@@ -4758,6 +4758,8 @@ namespace OverflowHelper.core
             correctionAdd("et cetera", "etc.");
             correctionAdd("e.t.c", "etc.");
             correctionAdd("ets", "etc.");
+            correctionAdd("ect", "etc.");
+            correctionAdd("etc", "etc.");
 
             correctionAdd("midi", "MIDI");
             correctionAdd("Midi", "MIDI");
@@ -5193,6 +5195,7 @@ namespace OverflowHelper.core
             correctionAdd("davlik", "Dalvik"); //Misspelling.
             correctionAdd("DALVIK", "Dalvik");
             correctionAdd("Dalivk", "Dalvik"); //Misspelling.
+            correctionAdd("Davlik", "Dalvik");
 
             correctionAdd("Tracert", "tracert");
 
@@ -5866,6 +5869,7 @@ namespace OverflowHelper.core
 
             correctionAdd("filezilla", "FileZilla");
             correctionAdd("Filezilla", "FileZilla");
+            correctionAdd("file zilla", "FileZilla");
 
             correctionAdd("spi", "SPI");
 
@@ -6578,6 +6582,9 @@ namespace OverflowHelper.core
             correctionAdd("equilivent", "equivalent");
             correctionAdd("equivelent", "equivalent");
             correctionAdd("equivelant", "equivalent");
+            correctionAdd("eqivilate", "equivalent");
+            correctionAdd("equivilate", "equivalent");
+            correctionAdd("equivalate", "equivalent");
 
             correctionAdd("parallels", "Parallels");
 
@@ -10475,11 +10482,13 @@ namespace OverflowHelper.core
             correctionAdd("Python 2", "Python&nbsp;2");
             correctionAdd("py2", "Python&nbsp;2");
             correctionAdd("python 2", "Python&nbsp;2");
+            correctionAdd("Python2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
             correctionAdd("python 3", "Python&nbsp;3");
             correctionAdd("py3", "Python&nbsp;3");
+            correctionAdd("Python3", "Python&nbsp;3");
 
             correctionAdd("quran", "Qur'an");
 
@@ -10998,6 +11007,7 @@ namespace OverflowHelper.core
             correctionAdd("manger", "manager");
 
             correctionAdd("realease", "release");
+            correctionAdd("releas", "release");
 
             correctionAdd("seperatist", "separatist");
 
@@ -11431,6 +11441,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Additionaly", "additionally");
             correctionAdd("additionaly", "additionally");
+            correctionAdd("Additionnally", "additionally");
+            correctionAdd("additionnally", "additionally");
 
             correctionAdd("bare bones", "bare-bones");
 
@@ -11570,6 +11582,7 @@ namespace OverflowHelper.core
             correctionAdd("constitude", "constitute");
 
             correctionAdd("debuging", "debugging");
+            correctionAdd("debuggin", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -11601,6 +11614,7 @@ namespace OverflowHelper.core
             correctionAdd("vagrant", "Vagrant");
 
             correctionAdd("stil", "still");
+            correctionAdd("steal", "still");
 
             correctionAdd("Godbolt", "Compiler Explorer");
             correctionAdd("godbolt", "Compiler Explorer");
@@ -11872,6 +11886,7 @@ namespace OverflowHelper.core
             correctionAdd("VISA", "visa");
 
             correctionAdd("wan't", "want");
+            correctionAdd("whant", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -11900,6 +11915,9 @@ namespace OverflowHelper.core
             correctionAdd("ufw", "UFW");
 
             correctionAdd("VS2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("vs2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
 
             correctionAdd("xor", "XOR");
             correctionAdd("Xor", "XOR");
@@ -12346,6 +12364,7 @@ namespace OverflowHelper.core
             correctionAdd("eloquenctly", "eloquently");
 
             correctionAdd("gettign", "getting");
+            correctionAdd("gettting", "getting");
 
             correctionAdd("goel", "goal");
 
@@ -12685,6 +12704,7 @@ namespace OverflowHelper.core
             correctionAdd("BitWise", "bitwise");
 
             correctionAdd("choce", "choice");
+            correctionAdd("cohoice", "choice");
 
             correctionAdd("commiting", "committing");
 
@@ -13052,6 +13072,50 @@ namespace OverflowHelper.core
             correctionAdd("developming", "developing");
 
             correctionAdd("moducle", "module");
+
+            correctionAdd("babel", "Babel");
+
+            correctionAdd("bluehost", "Bluehost");
+
+            correctionAdd("flink", "Flink");
+
+            correctionAdd("next js", "Next.js");
+            correctionAdd("Next JS", "Next.js");
+            correctionAdd("next.js", "Next.js");
+
+            correctionAdd("optix", "OptiX");
+
+            correctionAdd("Peachpie", "PeachPie");
+
+            correctionAdd("sudoku", "Sudoku");
+
+            correctionAdd("absolutly", "absolutely");
+
+            correctionAdd("artifact", "artefact");
+
+            correctionAdd("communite", "community");
+
+            correctionAdd("easyest", "easiest");
+
+            correctionAdd("exept", "except");
+
+            correctionAdd("extrenal", "external");
+
+            correctionAdd("in sake of", "for the sake of");
+
+            correctionAdd("integrade", "integrate");
+
+            correctionAdd("minmalistic", "minimalistic");
+
+            correctionAdd("planing", "planning");
+
+            correctionAdd("re-run", "rerun");
+
+            correctionAdd("substaction", "subtraction");
+
+            correctionAdd("wen", "when");
+
+
 
 
 
@@ -19051,6 +19115,46 @@ namespace OverflowHelper.core
             URL_Add("developing", "https://en.wiktionary.org/wiki/develop#Verb");
 
             URL_Add("module", "https://en.wiktionary.org/wiki/module#Noun");
+
+            URL_Add("Babel", "https://en.wikipedia.org/wiki/Babel_(compiler)");
+
+            URL_Add("Bluehost", "https://en.wikipedia.org/wiki/Bluehost");
+
+            URL_Add("Flink", "https://en.wikipedia.org/wiki/Apache_Flink");
+
+            URL_Add("Next.js", "https://nextjs.org/");
+
+            URL_Add("OptiX", "https://en.wikipedia.org/wiki/OptiX");
+
+            URL_Add("PeachPie", "https://en.wikipedia.org/wiki/PeachPie");
+
+            URL_Add("Sudoku", "https://en.wikipedia.org/wiki/Sudoku");
+
+            URL_Add("absolutely", "https://en.wiktionary.org/wiki/absolutely#Adverb");
+
+            URL_Add("artefact", "https://en.wiktionary.org/wiki/artefact#Noun");
+
+            URL_Add("community", "https://en.wiktionary.org/wiki/community#Noun");
+
+            URL_Add("easiest", "https://en.wiktionary.org/wiki/easiest#Adjective");
+
+            URL_Add("except", "https://en.wiktionary.org/wiki/except#Conjunction");
+
+            URL_Add("external", "https://en.wiktionary.org/wiki/external#Adjective");
+
+            URL_Add("for the sake of", "https://en.wiktionary.org/wiki/for_the_sake_of#Preposition");
+
+            URL_Add("integrate", "https://en.wiktionary.org/wiki/integrate#Verb");
+
+            URL_Add("minimalistic", "https://en.wiktionary.org/wiki/minimalistic#Adjective");
+
+            URL_Add("planning", "https://en.wiktionary.org/wiki/plan#Verb");
+
+            URL_Add("rerun", "https://en.wiktionary.org/wiki/rerun#Verb");
+
+            URL_Add("subtraction", "https://en.wiktionary.org/wiki/subtraction#Noun");
+
+            URL_Add("when", "https://en.wiktionary.org/wiki/when#Adverb");
 
 
 
