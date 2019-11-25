@@ -1692,6 +1692,7 @@ namespace OverflowHelper.core
             correctionAdd("json", "JSON");
             correctionAdd("Json", "JSON");
             correctionAdd("JSon", "JSON");
+            correctionAdd("JOSN", "JSON");
 
             correctionAdd("firebug", "Firebug");
             correctionAdd("FireBug", "Firebug");
@@ -2418,6 +2419,7 @@ namespace OverflowHelper.core
             correctionAdd("Html", "HTML");
             correctionAdd("HTml", "HTML");
             correctionAdd("hrml", "HTML");
+            correctionAdd("htmp", "HTML");
 
             correctionAdd("firefox", "Firefox");
             correctionAdd("firfox", "Firefox");
@@ -3488,6 +3490,7 @@ namespace OverflowHelper.core
             correctionAdd("WIndows Api", "Win32");
             correctionAdd("windows api", "Win32");
             correctionAdd("winAPI", "Win32");
+            correctionAdd("Winapi", "Win32");
 
             correctionAdd("openssl", "OpenSSL");
             correctionAdd("Openssl", "OpenSSL");
@@ -3826,6 +3829,7 @@ namespace OverflowHelper.core
             correctionAdd("parametr", "parameter");
             correctionAdd("parament", "parameter");
             correctionAdd("parametar", "parameter");
+            correctionAdd("parametre", "parameter");
 
             correctionAdd("Ultraedit", "UltraEdit");
             correctionAdd("ultraedit", "UltraEdit");
@@ -5050,6 +5054,7 @@ namespace OverflowHelper.core
             correctionAdd("OpenGraph", "Open Graph");
             correctionAdd("Open graph", "Open Graph");
             correctionAdd("Opengraph", "Open Graph");
+            correctionAdd("OG", "Open Graph");
 
             //Can not currently be looked up due to a bug!!!!
             correctionAdd("devc++", "Dev-C++");
@@ -11196,6 +11201,7 @@ namespace OverflowHelper.core
 
             correctionAdd("any where", "anywhere");
             correctionAdd("anyhere", "anywhere");
+            correctionAdd("anywehre", "anywhere");
 
             correctionAdd("aksing", "asking");
 
@@ -11329,6 +11335,7 @@ namespace OverflowHelper.core
             correctionAdd("col", "column");
 
             correctionAdd("crated", "created");
+            correctionAdd("creaded", "created");
 
             correctionAdd("exlusive", "exclusive");
 
@@ -12929,6 +12936,7 @@ namespace OverflowHelper.core
             correctionAdd("cleanup", "clean up");
 
             correctionAdd("surly", "surely");
+            correctionAdd("shurely", "surely");
 
             correctionAdd("therefor", "therefore");
 
@@ -13098,6 +13106,7 @@ namespace OverflowHelper.core
             correctionAdd("easyest", "easiest");
 
             correctionAdd("exept", "except");
+            correctionAdd("cept", "except");
 
             correctionAdd("extrenal", "external");
 
@@ -13114,6 +13123,16 @@ namespace OverflowHelper.core
             correctionAdd("substaction", "subtraction");
 
             correctionAdd("wen", "when");
+
+            correctionAdd("costom", "custom");
+            correctionAdd("costum", "custom");
+            correctionAdd("custum", "custom");
+
+            correctionAdd("folter", "folder");
+
+            correctionAdd("highligting", "highlighting");
+
+            correctionAdd("misterious", "mysterious");
 
 
 
@@ -19156,7 +19175,13 @@ namespace OverflowHelper.core
 
             URL_Add("when", "https://en.wiktionary.org/wiki/when#Adverb");
 
+            URL_Add("custom", "https://en.wiktionary.org/wiki/custom#Adjective");
 
+            URL_Add("folder", "https://en.wiktionary.org/wiki/folder#Noun");
+
+            URL_Add("highlighting", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("mysterious", "https://en.wiktionary.org/wiki/mysterious#Adjective");
 
 
 
