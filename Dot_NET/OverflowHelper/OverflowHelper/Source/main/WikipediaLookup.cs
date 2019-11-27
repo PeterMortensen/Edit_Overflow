@@ -1810,6 +1810,7 @@ namespace OverflowHelper.core
             correctionAdd("jupyter notebook", "Jupyter Notebook");
             correctionAdd("ipython notebook", "Jupyter Notebook");
             correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
+            correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
 
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
@@ -1901,6 +1902,7 @@ namespace OverflowHelper.core
             correctionAdd("ironpython", "IronPython");
             correctionAdd("Iron Python", "IronPython");
             correctionAdd("Ironpython", "IronPython");
+            correctionAdd("Iron-Python", "IronPython");
 
             correctionAdd("groovy", "Groovy");
 
@@ -2060,6 +2062,7 @@ namespace OverflowHelper.core
             correctionAdd("WORDPRESS", "WordPress");
             correctionAdd("Wordress", "WordPress");
             correctionAdd("WordpPress", "WordPress");
+            correctionAdd("wordress", "WordPress");
 
             correctionAdd("ssl", "SSL");
 
@@ -4136,6 +4139,7 @@ namespace OverflowHelper.core
             correctionAdd("dom't", "don’t");
             correctionAdd("don't", "don’t");
             correctionAdd("dont't", "don’t");
+            correctionAdd("don´t", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -5192,6 +5196,7 @@ namespace OverflowHelper.core
             correctionAdd("wxpython", "wxPython");
             correctionAdd("wx", "wxPython");
             correctionAdd("wpython", "wxPython");
+            correctionAdd("WxPython", "wxPython");
 
             correctionAdd("stl", "STL");
             correctionAdd("Stl", "STL");
@@ -5875,6 +5880,7 @@ namespace OverflowHelper.core
             correctionAdd("filezilla", "FileZilla");
             correctionAdd("Filezilla", "FileZilla");
             correctionAdd("file zilla", "FileZilla");
+            correctionAdd("fileZilla", "FileZilla");
 
             correctionAdd("spi", "SPI");
 
@@ -7651,7 +7657,6 @@ namespace OverflowHelper.core
             correctionAdd("guarantieed", "guarantee"); //XXX, to avoid nearly duplicate entries.
             correctionAdd("guareente", "guarantee");
             correctionAdd("guaranty", "guarantee");
-            correctionAdd("guaranteed", "guarantee"); //Not 100% correct, tense.
             correctionAdd("garantee", "guarantee");
             correctionAdd("guarenteed", "guarantee"); //Not 100% correct, tense.
             correctionAdd("guarentee", "guarantee");
@@ -8859,6 +8864,7 @@ namespace OverflowHelper.core
             correctionAdd("does’t", "doesn’t");
             correctionAdd("doesn't", "doesn’t");
             correctionAdd("doesn`t", "doesn’t");
+            correctionAdd("doesn´t", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -9035,6 +9041,7 @@ namespace OverflowHelper.core
             correctionAdd("aint", "isn't");
             correctionAdd("ain't", "isn't");
             correctionAdd("isn’t", "isn't"); //Quora
+            correctionAdd("isn´t", "isn't");
 
             correctionAdd("Ironruby", "IronRuby");
 
@@ -9589,12 +9596,15 @@ namespace OverflowHelper.core
             correctionAdd("shuld", "should");
             correctionAdd("hould", "should");
 
-
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
             correctionAdd("Should't", "shouldn't");
             correctionAdd("should't", "shouldn't");
             correctionAdd("shouldnt", "shouldn't");
+            correctionAdd("shoulnd´t", "shouldn't");
+            correctionAdd("shouldn´t", "shouldn't");
+            correctionAdd("shoulndt", "shouldn't");
+            correctionAdd("shoulnd't", "shouldn't");
 
             correctionAdd("g-drive", "Google Drive");
 
@@ -10061,9 +10071,9 @@ namespace OverflowHelper.core
             correctionAdd("posability", "possibility");
             correctionAdd("possibilty", "possibility");
 
-            correctionAdd("c99", "C99");
-
             correctionAdd("c89", "C89");
+
+            correctionAdd("c99", "C99");
 
             correctionAdd("occured", "occurred");
 
@@ -10407,6 +10417,7 @@ namespace OverflowHelper.core
 
             correctionAdd("statment", "statement");
             correctionAdd("statemet", "statement");
+            correctionAdd("statemetns", "statement");
 
             correctionAdd("staritaway", "straight away");
 
@@ -10940,6 +10951,7 @@ namespace OverflowHelper.core
             correctionAdd("Problably", "probably");
 
             correctionAdd("sereval", "several");
+            correctionAdd("sevral", "several");
 
             correctionAdd("Socialism", "socialism");
 
@@ -10983,6 +10995,7 @@ namespace OverflowHelper.core
             correctionAdd("sollution", "solution");
             correctionAdd("Soloution", "solution");
             correctionAdd("soloution", "solution");
+            correctionAdd("solutuion", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -11308,6 +11321,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lang", "language");
             correctionAdd("langauge", "language");
+            correctionAdd("lanuguage", "language");
 
             correctionAdd("mins", "minutes");
 
@@ -12183,6 +12197,7 @@ namespace OverflowHelper.core
             correctionAdd("inhouse", "in house");
 
             correctionAdd("knwo", "know");
+            correctionAdd("khow", "know");
 
             correctionAdd("manu", "menu");
 
@@ -12265,8 +12280,6 @@ namespace OverflowHelper.core
 
             correctionAdd("calss", "class");
             correctionAdd("Class", "class");
-
-            correctionAdd("heres", "here's");
 
             correctionAdd("idear", "idea");
 
@@ -13134,7 +13147,44 @@ namespace OverflowHelper.core
 
             correctionAdd("misterious", "mysterious");
 
+            correctionAdd("c++03", "C++03");
 
+            correctionAdd("norwegian", "Norwegian");
+
+            correctionAdd("activally", "actively");
+
+            correctionAdd("color", "colour");
+
+            correctionAdd("creat", "create");
+
+            correctionAdd("down voting", "downvoting");
+
+            correctionAdd("forground", "foreground");
+
+            correctionAdd("longwinded", "long-winded");
+
+            correctionAdd("long-time", "longtime");
+
+            correctionAdd("ment", "meant");
+
+            correctionAdd("out-of-date", "out of date");
+
+            correctionAdd("run of the mill", "run-of-the-mill");
+
+            correctionAdd("sub-process", "subprocess");
+
+            correctionAdd("tranformation", "transformation");
+
+            correctionAdd("welcomness", "welcomeness");
+
+            correctionAdd("c++98", "C++98");
+            correctionAdd("C++99", "C++98");
+            correctionAdd("c++99", "C++98");
+
+            correctionAdd("guarantied", "guaranteed");
+
+            correctionAdd("heres", "here's");
+            correctionAdd("Heres", "here's");
 
 
 
@@ -19183,6 +19233,39 @@ namespace OverflowHelper.core
 
             URL_Add("mysterious", "https://en.wiktionary.org/wiki/mysterious#Adjective");
 
+            URL_Add("C++03", "https://en.wikipedia.org/wiki/C%2B%2B03");
+
+            URL_Add("Norwegian", "https://en.wiktionary.org/wiki/Norwegian#Adjective");
+
+            URL_Add("actively", "https://en.wiktionary.org/wiki/actively#Adverb");
+
+            URL_Add("colour", "https://en.wiktionary.org/wiki/colour#Noun");
+
+            URL_Add("create", "https://en.wiktionary.org/wiki/create#Verb");
+
+            URL_Add("downvoting", "https://en.wiktionary.org/wiki/downvote#Verb");
+
+            URL_Add("foreground", "https://en.wiktionary.org/wiki/foreground#Noun");
+
+            URL_Add("guaranteed", "https://en.wiktionary.org/wiki/guaranteed#Adjective");
+
+            URL_Add("long-winded", "https://en.wiktionary.org/wiki/long-winded#Adjective");
+
+            URL_Add("longtime", "https://en.wiktionary.org/wiki/longtime#Adjective");
+
+            URL_Add("meant", "https://en.wiktionary.org/wiki/mean#Verb");
+
+            URL_Add("out of date", "https://en.wiktionary.org/wiki/out_of_date#Prepositional_phrase");
+
+            URL_Add("run-of-the-mill", "https://en.wiktionary.org/wiki/run-of-the-mill#Adjective");
+
+            URL_Add("subprocess", "https://en.wiktionary.org/wiki/subprocess#Noun");
+
+            URL_Add("transformation", "https://en.wiktionary.org/wiki/transformation#Noun");
+
+            URL_Add("welcomeness", "https://en.wiktionary.org/wiki/welcomeness#Noun");
+
+            URL_Add("C++98", "https://en.wikipedia.org/wiki/C%2B%2B#Standardization");
 
 
             //========================================================
