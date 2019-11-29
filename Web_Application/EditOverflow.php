@@ -12,6 +12,12 @@
   #
 ?>
 
+
+<?php include("commonStart.php"); ?>
+
+
+
+<!-- Old
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -77,15 +83,16 @@
             {
                 align-self: start;
             }
-
         </style>
-
     </head>
 
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
+-->
 
-        <h1>Edit Overflow v. 1.1.49a2 2019-11-04T112400</h1>
+
+
+        <h1>Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
@@ -126,7 +133,7 @@
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
 
             // Prone to SQL injection attack (though the table is
-            // effectively readon-on - we overwrite it on a
+            // effectively readonly - we overwrite it on a
             // regular basis)!
             $SQLprefix =
               " SELECT incorrectTerm, correctTerm, URL " .
@@ -160,7 +167,7 @@
 
                 # For debugging
                 #$rows2 = $statement->fetchAll(PDO::FETCH_ASSOC);
-                #foreach ($rows2 as $someRow) 
+                #foreach ($rows2 as $someRow)
                 #{
                 #    echo "<p> From fetch all: </p>" .
                 #      " <p> >>>  "  . $someRow['incorrectTerm'] . " " .
@@ -374,6 +381,7 @@
                     style="width:110px;"
                     accesskey="L"
                     title="Shortcut: Shift + Alt + L"
+                    autofocus
                 />
 
                 <label for="CorrectedTerm"><u>C</u>orrected term</label>
@@ -505,7 +513,14 @@
                 <!-- Submit button  -->
                 <!-- For 'value' (the displayed text in the button), tags 'u'
                      or 'strong' do not work!! -->
+                    
+                <!--    
+                    action="#"
+                -->  
+                    
                 <input
+                    action="EditOverflow.php"
+                
                     name="XYZ"
                     type="submit"
                     id="LookUp"
@@ -523,36 +538,50 @@
         <hr/>
 
         <p>
-          <a
-              href="Text.php"
-              accesskey="T"
-              title="Shortcut: Shift + Alt + J"
-          >Text stuff</a>
+            <a
+                href="Text.php"
+                accesskey="J"
+                title="Shortcut: Shift + Alt + J"
+            >Text stuff</a>.
 
-          <a
-              href="Link_Builder.php"
-              accesskey="B"
-              title="Shortcut: Shift + Alt + B"
-          >Link builder</a>
+            <a
+                href="Link_Builder.php"
+                accesskey="B"
+                title="Shortcut: Shift + Alt + B"
+            >Link builder</a>.
 
-          <a
-              href="http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html"
-              accesskey="W"
-              title="Shortcut: Shift + Alt + W"
-          >Word list</a>
+            <a
+                href="FixedStrings.php"
+                accesskey="F"
+                title="Shortcut: Shift + Alt + F"
+            >Fixed strings</a>.
 
-        <!--
-          Note:
+            <a
+                href="EditSummaryFragments.php"
+                accesskey="D"
+                title="Shortcut: Shift + Alt + D"
+            >Edit summary fragments</a>.
 
-            This would not really work (we get a lot of strange errors -
-            because of PHP warnings when certain form input is missing).
-            A workaround is to use view source on a result and copy
-            paste to http://validator.w3.org/, under "Validate by
-            direct input"
 
-            But we now have a default value for the input, "js",
-            so this validation actually works!
-        -->
+            <a
+                href="http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html"
+                accesskey="W"
+                title="Shortcut: Shift + Alt + W"
+            >Word list</a>.
+
+
+            <!--
+              Note:
+            
+                This would not really work (we get a lot of strange errors -
+                because of PHP warnings when certain form input is missing).
+                A workaround is to use view source on a result and copy
+                paste to http://validator.w3.org/, under "Validate by
+                direct input"
+            
+                But we now have a default value for the input, "js",
+                so this validation actually works!
+            -->
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php"
                 accesskey="V"
@@ -562,6 +591,14 @@
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
+
+<!--
     </body>
 </html>
+-->
+
+<?php # From WordPress...
+    get_footer();
+?>
+
 

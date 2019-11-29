@@ -1,4 +1,9 @@
 
+<?php include("commonStart.php"); ?>
+
+
+
+<!-- Old
 <!DOCTYPE html>
 
 <html lang="en">
@@ -8,7 +13,7 @@
         <title>Text stuff</title>
 
         <style>
-            body 
+            body
             {
                 background-color: lightgrey;
             }
@@ -17,8 +22,10 @@
 
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
+-->
 
-        <h1>Text stuff - Edit Overflow v. 1.1.XX 2019-07-06</h1>
+
+        <h1>Text stuff - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <?php
             require_once('StringReplacerWithRegex.php');
@@ -120,7 +127,7 @@
                 $actionStr = $_POST['action'];
                 #echo "<p>actionStr: $actionStr</p>";
 
-                switch ($actionStr) 
+                switch ($actionStr)
                 {
                     case "Remove TABs and trailing whitespace":
                         #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
@@ -320,13 +327,13 @@
                 href="EditOverflow.php"
                 accesskey="E"
                 title="Shortcut: Shift + Alt + E"
-            >Edit Overflow</a>
+            >Edit Overflow</a>.
 
             <a
                 href="myInfo.php"
                 accesskey="I"
                 title="Shortcut: Shift + Alt + I"
-            >Environment information</a>
+            >Environment information</a>.
 
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php"
@@ -337,6 +344,15 @@
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
+
+<!--
     </body>
 </html>
+-->
+
+
+<?php # From WordPress...
+    get_footer();
+?>
+
 
