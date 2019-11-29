@@ -1,9 +1,51 @@
 
 <!DOCTYPE html>
 
+
+<!--
+
+     Note: Succeeded by EditSummaryFragments.php, at least for now. This
+           is to eliminate.
+
+     Thus this file is not being maintained at the moment. We now
+     have a redirect from here so links to here still work.
+
+-->
+
+
+
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+        <!--
+            Redirect to the PHP page, using HTML GET (in order to reduce
+            the redundancy in the HTML and HTMLform).
+
+            Note that for now we can not prevent it from doing a lookup,
+            creating some confusion for the user. It ought to be
+            possible to specify that it should not look anything, just
+            show the form with empty fields.
+            
+            We also pass in the reset flag so the edit summary fields
+            are cleared.
+            
+              No, we have a problem with "resetState=on" lingering
+              on in the URL and preventing any lookup. For some
+              reason, "LookUpTerm=cpu" does not interfere. This
+              is to be investigated. For now, as a user, we 
+              have to reset the state before it can be used...
+              
+              Workaround: 
+              
+                1. Use the macro keyboard to open, set reset button,
+
+              
+        -->
+        <meta http-equiv="refresh" content="0; url=http://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu" />
+
+
 
         <title>Edit Overflow</title>
 
@@ -16,9 +58,9 @@
 
 
     <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
+        <!--   <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>   -->
 
-        <h1>Edit Overflow v. 1.1.49 2019-11-01T221351</h1>
+        <h1>Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <form
             name="XYZ"
@@ -73,7 +115,7 @@
             -->
 
         </form>
-        
+
         <hr/>
 
         <p>
@@ -84,13 +126,13 @@
             >Text stuff</a>.
 
             <a
-                href="FixedStrings.html"
+                href="FixedStrings.php"
                 accesskey="F"
                 title="Shortcut: Shift + Alt + F"
             >Fixed strings</a>.
 
             <a
-                href="EditSummaryFragments.html"
+                href="EditSummaryFragments.php"
                 accesskey="D"
                 title="Shortcut: Shift + Alt + D"
             >Edit summary fragments</a>.

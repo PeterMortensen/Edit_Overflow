@@ -1,12 +1,25 @@
+<?php include("commonStart.php"); ?>
+
+
+<!-- Successor to EditSummaryFragments.html, at least for now to get 
+     the WordPress styling. But perhaps we can instead
+     move this (effectively) static page into the
+     WordPress system?   --> 
+
+
+
+<!-- Old
 <!DOCTYPE html>
 <html lang="en">
+-->
 
     <!--
-
       This page is to be dynamic (or static generated) - there
       is too much redundancy and manual editing.
-
     -->
+
+    
+    <!--
 
 
     <head>
@@ -23,8 +36,10 @@
 
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
+-->
 
-        <h1>Some edit summary fragments - Edit Overflow v. 1.1.XX 2019-07-06</h1>
+
+        <h1>Some edit summary fragments - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <form
             name="XYZ"
@@ -53,8 +68,8 @@
                    class=""
                    value="In English, the subjective form of the singular first-person pronoun, &quot;I&quot;, is capitalized, along with all its contractions such as I'll and I'm. "
                    style="width:810px;"
-                   accesskey="E"
-                   title="Shortcut: Shift + Alt + E"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
                />
             </p>
 
@@ -289,8 +304,8 @@
 
             <p>US native speakers, especially southern US,
                <a href="http://www.wikihow.com/Use-There,-Their-and-They%27re"
-               >&quot;there&quot; vs.
-                &quot;their&quot; vs.
+               >&quot;there&quot; vs. 
+                &quot;their&quot; vs. 
                 &quot;they're&quot;</a>: <br/>
 
                <input
@@ -307,7 +322,7 @@
 
             <p>US native speakers, especially southern US,
                <a href="http://www.wikihow.com/Use-Affect-and-Effect-Properly"
-               >&quot;affect&quot; vs.
+               >&quot;affect&quot; vs. 
                 &quot;effect&quot;</a>: <br/>
 
                <input
@@ -441,26 +456,30 @@
         <hr/>
 
         <p>
-          <a
-              href="Text.php"
-              accesskey="J"
-              title="Shortcut: Shift + Alt + J"
-          >Text stuff</a>.
+            <a
+                href="EditOverflow.php"
+                accesskey="E"
+                title="Shortcut: Shift + Alt + E"
+            >Edit Overflow</a>.
+            
+            <a
+                href="Text.php"
+                accesskey="J"
+                title="Shortcut: Shift + Alt + J"
+            >Text stuff</a>.
 
-        <!--
-          Note:
-
-            This would not really work (we get a lot of strange errors -
-            because of PHP warnings when certain form input is missing).
-            A workaround is to use view source on a result and copy
-            paste to http://validator.w3.org/, under "Validate by
-            direct input"
-
-            But we now have a default value for the input, "js",
-            so this validation actually works!
-        -->
-
-
+            <!--
+              Note:
+            
+                This would not really work (we get a lot of strange errors -
+                because of PHP warnings when certain form input is missing).
+                A workaround is to use view source on a result and copy
+                paste to http://validator.w3.org/, under "Validate by
+                direct input"
+            
+                But we now have a default value for the input, "js",
+                so this validation actually works!
+            -->
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditSummaryFragments.html"
                 accesskey="V"
@@ -469,6 +488,15 @@
 
         </p>
 
+
+<!--
     </body>
 </html>
+-->
+
+
+<?php # From WordPress...
+    get_footer();
+?>
+
 

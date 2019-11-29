@@ -2,6 +2,11 @@
 <?php include("commonStart.php"); ?>
 
 
+<!-- Successor to FixedStrings.html, at least for now to get 
+     the WordPress styling. But perhaps we can instead
+     move this (effectively) static page into the
+     WordPress system?   --> 
+
 
 <!-- Old
 <!DOCTYPE html>
@@ -234,8 +239,14 @@
 
         <p>
             <a
+                href="EditOverflow.php"
+                accesskey="E"
+                title="Shortcut: Shift + Alt + E"
+            >Edit Overflow</a>.
+
+            <a
                 href="Text.php"
-                accesskey="T"
+                accesskey="J"
                 title="Shortcut: Shift + Alt + J"
             >Text stuff</a>.
 

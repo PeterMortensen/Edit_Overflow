@@ -1,3 +1,4 @@
+
 <?php
 
   # ************************************************************************
@@ -11,11 +12,11 @@
   # *           syntax (and avoid having to type strange                   *
   # *           characters, like "[").                                     *
   # *                                                                      *
-  # *           It is essentially a reimplementation of the dialog
+  # *           It is essentially a reimplementation of the dialog         *
   # *           "XXX" in the Windows version (menu item YYY -> "ZZZ"),     *
-  # *           but this one in addition support accumulative use
-  # *           (more than one link - e.g. to paste directly into
-  # *           a comment on Stack Exchange).
+  # *           but this one in addition support accumulative use          *
+  # *           (more than one link - e.g. to paste directly into          *
+  # *           a comment on Stack Exchange).                              *
   # *                                                                      *
   # *                                                                      *
   # *  File: \Web_Application\Link_Builder.php                             *
@@ -28,6 +29,11 @@
 ?>
 
 
+<?php include("commonStart.php"); ?>
+
+
+
+<!-- Old
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -44,8 +50,10 @@
 
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
+-->
 
-        <h1>Link Builder (part of Edit Overflow</h1>
+
+        <h1>Link Builder Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <?php
 
@@ -92,7 +100,7 @@
             # Samples, for the 3 variables:
             #
             #   [Iron][7]
-            #     [2]: http://en.wikipedia.org/wiki/Iron 
+            #     [2]: http://en.wikipedia.org/wiki/Iron
             #   [Iron](http://en.wikipedia.org/wiki/Iron)
             #
             $shortMark_part1 = "$emphasisStr$linkTextBracketed$IDref$emphasisStr";
@@ -369,24 +377,30 @@
         <hr/>
 
         <p>
-          <a
-              href="Text.php"
-              accesskey="J"
-              title="Shortcut: Shift + Alt + J"
-          >Text stuff</a>
+            <a
+                href="EditOverflow.php"
+                accesskey="E"
+                title="Shortcut: Shift + Alt + E"
+            >Edit Overflow</a>.
 
-        <!--
-          Note:
+            <a
+                href="Text.php"
+                accesskey="J"
+                title="Shortcut: Shift + Alt + J"
+            >Text stuff</a>.
 
-            This would not really work (we get a lot of strange errors -
-            because of PHP warnings when certain form input is missing).
-            A workaround is to use view source on a result and copy
-            paste to http://validator.w3.org/, under "Validate by
-            direct input"
+            <!--
+              Note:
 
-            But we now have a default value for the input, "js",
-            so this validation actually works!
-        -->
+                This would not really work (we get a lot of strange errors -
+                because of PHP warnings when certain form input is missing).
+                A workaround is to use view source on a result and copy
+                paste to http://validator.w3.org/, under "Validate by
+                direct input"
+
+                But we now have a default value for the input, "js",
+                so this validation actually works!
+            -->
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php"
                 accesskey="V"
@@ -396,6 +410,17 @@
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
+
+<!--
     </body>
 </html>
+-->
+
+
+<?php # From WordPress...
+    get_footer();
+?>
+
+
+
 
