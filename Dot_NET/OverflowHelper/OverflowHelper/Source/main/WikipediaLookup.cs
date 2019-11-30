@@ -3494,6 +3494,9 @@ namespace OverflowHelper.core
             correctionAdd("windows api", "Win32");
             correctionAdd("winAPI", "Win32");
             correctionAdd("Winapi", "Win32");
+            correctionAdd("win API", "Win32");
+            correctionAdd("win api", "Win32");
+            
 
             correctionAdd("openssl", "OpenSSL");
             correctionAdd("Openssl", "OpenSSL");
@@ -5095,6 +5098,7 @@ namespace OverflowHelper.core
             correctionAdd("sum’n", "something");
             correctionAdd("Somthing", "something");
             correctionAdd("sumthing", "something");
+            correctionAdd("somerthing", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -6342,6 +6346,9 @@ namespace OverflowHelper.core
             correctionAdd("Operating Sytem", "operating system");
             correctionAdd("operation system", "operating system");
             correctionAdd("operational system", "operating system");
+            correctionAdd("Operative system", "operating system");
+            correctionAdd("operative system", "operating system");
+            
 
             correctionAdd("colo", "colocation centre");
 
@@ -7975,6 +7982,7 @@ namespace OverflowHelper.core
             correctionAdd("independant", "independent"); //Common misspelling...
             correctionAdd("indepndent", "independent");
             correctionAdd("indepent", "independent");
+            correctionAdd("indepedent", "independent");
 
             correctionAdd("shellshock", "Shellshock");
             correctionAdd("shelllock", "Shellshock");
@@ -8407,6 +8415,7 @@ namespace OverflowHelper.core
             correctionAdd("out put", "output");
             correctionAdd("Ouput", "output");
             correctionAdd("Output", "output");
+            correctionAdd("out out", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -8423,8 +8432,6 @@ namespace OverflowHelper.core
             correctionAdd("sse", "SSE");
 
             correctionAdd("clos", "CLOS");
-
-            correctionAdd("mindstorm", "Lego Mindstorms");
 
             correctionAdd("fxml", "FXML");
 
@@ -9350,6 +9357,7 @@ namespace OverflowHelper.core
             correctionAdd("occuring", "occurring");
 
             correctionAdd("Openstack", "OpenStack");
+            correctionAdd("openstack", "OpenStack");
 
             correctionAdd("built in", "built-in");
             correctionAdd("builtin", "built-in");
@@ -11792,6 +11800,7 @@ namespace OverflowHelper.core
 
             correctionAdd("adress", "address");
             correctionAdd("addres", "address");
+            correctionAdd("adres", "address");
 
             correctionAdd("bare in mind", "bear in mind");
 
@@ -12427,6 +12436,7 @@ namespace OverflowHelper.core
             correctionAdd("quatation mark", "quotation mark");
 
             correctionAdd("quaote", "quote");
+            correctionAdd("wuote", "quote");
 
             correctionAdd("reccessive", "recessive");
             correctionAdd("Reccessive", "recessive");
@@ -13186,6 +13196,44 @@ namespace OverflowHelper.core
             correctionAdd("heres", "here's");
             correctionAdd("Heres", "here's");
 
+            correctionAdd("freelancer.com", "Freelancer.com");
+
+            correctionAdd("GlassDoor", "Glassdoor");
+
+            correctionAdd("Indeed.com", "Indeed");
+
+            correctionAdd("readme", "README");
+
+            correctionAdd("scratch", "Scratch");
+
+            correctionAdd("toptal", "Toptal");
+
+            correctionAdd("absobr", "absorb");
+
+            correctionAdd("acceptible", "acceptable");
+
+            correctionAdd("anouncement", "announcement");
+
+            correctionAdd("genge", "change");
+
+            correctionAdd("chanel", "channel");
+
+            correctionAdd("counter-act", "counteract");
+
+            correctionAdd("grate", "great");
+
+            correctionAdd("Open source", "open source");
+            correctionAdd("Open Source", "open source");
+
+            correctionAdd("psedo", "pseudo");
+
+            correctionAdd("shcool", "school");
+
+            correctionAdd("where in", "wherein");
+
+            correctionAdd("mindstorm", "Lego Mindstorms");
+            correctionAdd("Lego Mindstorm", "Lego Mindstorms");
+            correctionAdd("Mindstorm", "Lego Mindstorms");
 
 
             //HACK: AASDASD
@@ -15898,8 +15946,6 @@ namespace OverflowHelper.core
             URL_Add("CLOS", "https://en.wikipedia.org/wiki/Common_Lisp_Object_System");
 
             URL_Add("ohm", "https://en.wikipedia.org/wiki/Ohm");
-
-            URL_Add("Lego Mindstorms", "https://en.wikipedia.org/wiki/Lego_Mindstorms");
 
             URL_Add("FXML", "https://en.wikipedia.org/wiki/FXML");
 
@@ -19266,6 +19312,43 @@ namespace OverflowHelper.core
             URL_Add("welcomeness", "https://en.wiktionary.org/wiki/welcomeness#Noun");
 
             URL_Add("C++98", "https://en.wikipedia.org/wiki/C%2B%2B#Standardization");
+
+            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
+
+            URL_Add("Glassdoor", "https://en.wikipedia.org/wiki/Glassdoor");
+
+            URL_Add("Indeed", "https://en.wikipedia.org/wiki/Indeed");
+
+            URL_Add("README", "https://en.wikipedia.org/wiki/README");
+
+            URL_Add("Scratch", "https://en.wikipedia.org/wiki/Scratch_%28programming_language%29");
+
+            URL_Add("Toptal", "https://en.wikipedia.org/wiki/Toptal");
+
+            URL_Add("absorb", "https://en.wiktionary.org/wiki/absorb#Verb");
+
+            URL_Add("acceptable", "https://en.wiktionary.org/wiki/acceptable#Adjective");
+
+            URL_Add("announcement", "https://en.wiktionary.org/wiki/announcement#Noun");
+
+            URL_Add("change", "https://en.wiktionary.org/wiki/change#Verb");
+
+            URL_Add("channel", "https://en.wiktionary.org/wiki/channel#Noun");
+
+            URL_Add("counteract", "https://en.wiktionary.org/wiki/counteract#Verb");
+
+            URL_Add("great", "https://en.wiktionary.org/wiki/great#Adjective");
+
+            URL_Add("open source", "https://en.wikipedia.org/wiki/Open_source");
+
+            URL_Add("pseudo", "https://en.wiktionary.org/wiki/pseudo-#Prefix");
+
+            URL_Add("school", "https://en.wiktionary.org/wiki/school#Noun_2");
+
+            URL_Add("wherein", "https://en.wiktionary.org/wiki/wherein#Conjunction");
+
+            URL_Add("Lego Mindstorms", "https://en.wikipedia.org/wiki/Lego_Mindstorms");
+
 
 
             //========================================================
