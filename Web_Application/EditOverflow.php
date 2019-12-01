@@ -90,13 +90,21 @@
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 -->
 
-
-
         <h1>Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
             error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+
+
+            # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
+            # The problem is solely due to WordPress (we would't need if
+            # it wasn't for the use of/integration into WordPress).
+            #
+            # "stripslashes_deep" is part of WordPress
+            #
+            $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+
 
             # The only input field in the start HTML page
             #
@@ -513,14 +521,14 @@
                 <!-- Submit button  -->
                 <!-- For 'value' (the displayed text in the button), tags 'u'
                      or 'strong' do not work!! -->
-                    
-                <!--    
+
+                <!--
                     action="#"
-                -->  
-                    
+                -->
+
                 <input
                     action="EditOverflow.php"
-                
+
                     name="XYZ"
                     type="submit"
                     id="LookUp"
@@ -572,13 +580,13 @@
 
             <!--
               Note:
-            
+
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
                 A workaround is to use view source on a result and copy
                 paste to http://validator.w3.org/, under "Validate by
                 direct input"
-            
+
                 But we now have a default value for the input, "js",
                 so this validation actually works!
             -->
