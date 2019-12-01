@@ -98,8 +98,8 @@
 
 
             # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
-            # The problem is solely due to WordPress (we would't need if
-            # it wasn't for the use of/integration into WordPress).
+            # The problem is solely due to WordPress (we would't need it
+            # if it wasn't for the use of/integration into WordPress).
             #
             # "stripslashes_deep" is part of WordPress
             #

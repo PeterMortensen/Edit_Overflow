@@ -1986,6 +1986,7 @@ namespace OverflowHelper.core
 
             correctionAdd("orm", "ORM");
             correctionAdd("OR/M", "ORM");
+            correctionAdd("Object-Relational Mapping", "ORM");
 
             correctionAdd("gwt", "Google&nbsp;Web&nbsp;Toolkit"); //Expansion. Add new field with abbreviation?. In case it would be GWT.
             correctionAdd("GWT", "Google&nbsp;Web&nbsp;Toolkit");
@@ -3496,7 +3497,7 @@ namespace OverflowHelper.core
             correctionAdd("Winapi", "Win32");
             correctionAdd("win API", "Win32");
             correctionAdd("win api", "Win32");
-            
+
 
             correctionAdd("openssl", "OpenSSL");
             correctionAdd("Openssl", "OpenSSL");
@@ -5099,6 +5100,7 @@ namespace OverflowHelper.core
             correctionAdd("Somthing", "something");
             correctionAdd("sumthing", "something");
             correctionAdd("somerthing", "something");
+            correctionAdd("seomthing", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -5260,13 +5262,6 @@ namespace OverflowHelper.core
             correctionAdd("versions", "Versions");
 
             correctionAdd("jaws", "JAWS");
-
-            correctionAdd("Mod Rewrite", "URL rewriting");
-            correctionAdd("url rewriting", "URL rewriting");
-            correctionAdd("rewrite", "URL rewriting"); //Likely conflict with other stuff...
-            correctionAdd("URL rewrite", "URL rewriting");
-            correctionAdd("URL rewrites", "URL rewriting"); //Plural thing...
-            correctionAdd("URL Rewriting", "URL rewriting");
 
             correctionAdd("symlink", "symbolic link");
             correctionAdd("symlinked", "symbolic link"); //Not 100% correct - verbified.
@@ -6348,7 +6343,7 @@ namespace OverflowHelper.core
             correctionAdd("operational system", "operating system");
             correctionAdd("Operative system", "operating system");
             correctionAdd("operative system", "operating system");
-            
+
 
             correctionAdd("colo", "colocation centre");
 
@@ -6945,6 +6940,7 @@ namespace OverflowHelper.core
             correctionAdd("Esp", "especially");
             correctionAdd("especifiqly", "especially");
             correctionAdd("espascially", "especially");
+            correctionAdd("expecially", "especially");
 
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
@@ -7223,6 +7219,15 @@ namespace OverflowHelper.core
             correctionAdd("unbuntu", "Ubuntu");
             correctionAdd("ubutu", "Ubuntu");
 
+            correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+
             correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
@@ -7244,6 +7249,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
 
             correctionAdd("lucid", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
             correctionAdd("Lucid", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
@@ -7366,6 +7372,7 @@ namespace OverflowHelper.core
             correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
             correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -7396,6 +7403,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -7409,6 +7417,8 @@ namespace OverflowHelper.core
             correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
             correctionAdd("VS", "Visual Studio");
             correctionAdd("visual studio", "Visual Studio");
@@ -9407,6 +9417,7 @@ namespace OverflowHelper.core
             correctionAdd("elf", "ELF");
 
             correctionAdd("when ever", "whenever");
+            correctionAdd("whenver", "whenever");
 
             correctionAdd("Ohm", "ohm");
             correctionAdd("OHM", "ohm");
@@ -9527,6 +9538,7 @@ namespace OverflowHelper.core
             correctionAdd("IISExpress", "IIS&nbsp;Express");
 
             correctionAdd("refering", "referring");
+            correctionAdd("reffering", "referring");
 
             correctionAdd("DynamoDb", "DynamoDB");
 
@@ -9997,6 +10009,8 @@ namespace OverflowHelper.core
             correctionAdd("smililar", "similar");
             correctionAdd("simlar", "similar");
             correctionAdd("Simillar", "similar");
+            correctionAdd("Similiar", "similar");
+
 
             // But Wiktionary says: "(obsolete) Similar."
             //
@@ -10005,6 +10019,7 @@ namespace OverflowHelper.core
             correctionAdd("Similarly", "similary"); //Not 100% correct - case.
             correctionAdd("similaly", "similary");
             correctionAdd("Similaly", "similary"); //Not 100% correct - case.
+            correctionAdd("simillarly", "similary");
 
             correctionAdd("Instaltaion", "installation"); //Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -10908,6 +10923,9 @@ namespace OverflowHelper.core
             correctionAdd("eaquation", "equation");
 
             correctionAdd("extensinon", "extension");
+            correctionAdd("extention", "extension");
+            correctionAdd("Extenstion", "extension");
+            correctionAdd("extenstion", "extension");
 
             correctionAdd("framwork", "framework");
 
@@ -11106,6 +11124,7 @@ namespace OverflowHelper.core
             correctionAdd("x509", "X.509");
 
             correctionAdd("allready", "already");
+            correctionAdd("alredy", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -11616,6 +11635,7 @@ namespace OverflowHelper.core
             correctionAdd("Distcc", "distcc");
 
             correctionAdd("eigther", "either");
+            correctionAdd("eiether", "either");
 
             correctionAdd("FPS", "fps");
 
@@ -12989,8 +13009,6 @@ namespace OverflowHelper.core
             correctionAdd("inspite of", "in spite of");
             correctionAdd("inspite", "in spite of");
 
-            correctionAdd("rewrited", "rewrote");
-
             correctionAdd("verifed", "verified");
 
             correctionAdd("IMDB", "IMDb");
@@ -13234,6 +13252,76 @@ namespace OverflowHelper.core
             correctionAdd("mindstorm", "Lego Mindstorms");
             correctionAdd("Lego Mindstorm", "Lego Mindstorms");
             correctionAdd("Mindstorm", "Lego Mindstorms");
+
+            correctionAdd("htacces", ".htaccess");
+            correctionAdd("htaccess", ".htaccess");
+            correctionAdd(".htaccess file", ".htaccess");
+            correctionAdd("htaccess file", ".htaccess");
+            correctionAdd(".htacces", ".htaccess");
+
+            correctionAdd("1and1", "1&1 IONOS");
+            correctionAdd("1&1", "1&1 IONOS");
+
+            correctionAdd("avada", "Avada");
+
+            correctionAdd("c11", "C11");
+
+            correctionAdd("Cern", "CERN");
+
+            correctionAdd("divi", "Divi");
+
+            correctionAdd("easyphp", "EasyPHP");
+
+            correctionAdd("git2", "Git&nbsp;2.0");
+            correctionAdd("Git2", "Git&nbsp;2.0");
+
+            correctionAdd("Higgs Boson", "Higgs boson");
+
+            correctionAdd("Mev", "MeV");
+
+            correctionAdd("tui", "TUI");
+
+            correctionAdd("Axion", "axion");
+
+            correctionAdd("cwd", "current working directory");
+            correctionAdd("CWD", "current working directory");
+
+            correctionAdd("Dark Energy", "dark energy");
+
+            correctionAdd("Dark Matter", "dark matter");
+
+            correctionAdd("dilema", "dilemma");
+
+            correctionAdd("espaced", "escape");
+
+            correctionAdd("GLIBC", "glibc");
+
+            correctionAdd("Helium", "helium");
+
+            correctionAdd("Neutrino", "neutrino");
+
+            correctionAdd("POV", "point of view");
+            correctionAdd("PoV", "point of view");
+
+            correctionAdd("sensative", "sensitive");
+
+            correctionAdd("tounge", "tongue");
+
+            correctionAdd("modrewrite", "mod_rewrite");
+
+            correctionAdd("rewrited", "rewrote");
+
+            correctionAdd("re-write", "rewrite");
+
+            correctionAdd("Mod Rewrite", "URL rewriting");
+            correctionAdd("url rewriting", "URL rewriting");
+            //correctionAdd("rewrite", "URL rewriting"); //Likely conflict with other stuff... Yep, on 2019-12-01, with a correction for "re-write"
+            correctionAdd("URL rewrite", "URL rewriting");
+            correctionAdd("URL rewrites", "URL rewriting"); //Plural thing...
+            correctionAdd("URL Rewriting", "URL rewriting");
+            correctionAdd("URI Rewriting", "URL rewriting");
+            correctionAdd("URI rewriting", "URL rewriting");
+
 
 
             //HACK: AASDASD
@@ -19348,6 +19436,59 @@ namespace OverflowHelper.core
             URL_Add("wherein", "https://en.wiktionary.org/wiki/wherein#Conjunction");
 
             URL_Add("Lego Mindstorms", "https://en.wikipedia.org/wiki/Lego_Mindstorms");
+
+            URL_Add(".htaccess", "https://en.wikipedia.org/wiki/.htaccess");
+
+            URL_Add("1&1 IONOS", "https://en.wikipedia.org/wiki/1%261_Ionos");
+
+            URL_Add("Avada", "https://www.wpcrafter.com/review/avada/");
+
+            URL_Add("C11", "https://en.wikipedia.org/wiki/C11_%28C_standard_revision%29");
+
+            URL_Add("CERN", "https://en.wikipedia.org/wiki/CERN");
+
+            URL_Add("Divi", "https://www.wpcrafter.com/review/divi/");
+
+            URL_Add("EasyPHP", "https://de.wikipedia.org/wiki/EasyPHP");
+
+            URL_Add("Git&nbsp;2.0", "https://en.wikipedia.org/wiki/Git#Releases[27][28]");
+
+            URL_Add("Higgs boson", "https://en.wikipedia.org/wiki/Higgs_boson");
+
+            URL_Add("MeV", "https://en.wikipedia.org/wiki/Electronvolt");
+
+            URL_Add("TUI", "https://sourceware.org/gdb/onlinedocs/gdb/TUI.html");
+
+            URL_Add("Ubuntu&nbsp;7.10 (Gutsy Gibbon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)");
+
+            URL_Add("axion", "https://en.wikipedia.org/wiki/Axion");
+
+            URL_Add("current working directory", "https://sourceware.org/gdb/onlinedocs/gdb/Working-Directory.html");
+
+            URL_Add("dark energy", "https://en.wikipedia.org/wiki/Dark_energy");
+
+            URL_Add("dark matter", "https://en.wikipedia.org/wiki/Dark_matter");
+
+            URL_Add("dilemma", "https://en.wiktionary.org/wiki/dilemma#Noun");
+
+            URL_Add("escape", "https://en.wiktionary.org/wiki/escape#Verb");
+
+            URL_Add("glibc", "https://en.wikipedia.org/wiki/GNU_C_Library");
+
+            URL_Add("helium", "https://en.wikipedia.org/wiki/Helium");
+
+            URL_Add("mod_rewrite", "https://en.wikipedia.org/wiki/URL_redirection#Apache_HTTP_Server_mod_rewrite");
+
+            URL_Add("neutrino", "https://en.wikipedia.org/wiki/Neutrino");
+
+            URL_Add("point of view", "https://en.wiktionary.org/wiki/POV#Noun");
+
+            URL_Add("rewrite", "https://en.wiktionary.org/wiki/rewrite#Verb");
+
+            URL_Add("sensitive", "https://en.wiktionary.org/wiki/sensitive#Adjective");
+
+            URL_Add("tongue", "https://en.wiktionary.org/wiki/tongue#Noun");
+
 
 
 
