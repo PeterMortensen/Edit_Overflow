@@ -1,9 +1,21 @@
 
-<?php include("commonStart.php"); ?>
+<?php
+     #include("commonStart.php");
+     #
+     #    Strange things are happening when included (a fix was added
+     #    2019-11-30, but it didn't fix the problem with the YouTube
+     #    function):
+     #
+     #      1. The YouTube convert (that uses a separate
+     #         PHP in another file does not work at all)
+     #
+     #      2. Removing trailing space escapes single quotes with backslash...
+     #
+?>
 
 
 
-<!-- Old
+<!-- Old  -->
 <!DOCTYPE html>
 
 <html lang="en">
@@ -22,7 +34,7 @@
 
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
--->
+<!--  -->
 
 
         <h1>Text stuff - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
@@ -37,22 +49,34 @@
             $message = "";
 
 
-            #assert(array_key_exists('function', $_POST));  # From example:  isset($this->records)
+            #assert(array_key_exists('function', $_REQUEST));  # From example:  isset($this->records)
             #
             # We can't use assert as text.php is normally
             # invoked by GET, by a direct link.
             #
             # Or perhaps we can distinguish between GET and POST? -
             #
-            #Try to distinguish GET and POST. Is there an official way
-            #to do this??
+            # Try to distinguish GET and POST. Is there an official way
+            # to do this??
+            #
+            # Has this been fixed by our switch to "$_REQUEST"??????
+            #
             $someText = "";
-            if (array_key_exists(MAINTEXT, $_POST))
+            if (array_key_exists(MAINTEXT, $_REQUEST))
             {
-                #echo "</p>Invoked by POST...</p>\n";
-                $someText = htmlentities($_POST[MAINTEXT]);
 
-                assert(array_key_exists('action', $_POST));  # From example:  isset($this->records)
+                # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
+                # The problem is solely due to WordPress (we would't need if
+                # it wasn't for the use of/integration into WordPress).
+                #
+                # "stripslashes_deep" is part of WordPress
+                #
+                #$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+
+
+                $someText = htmlentities($_REQUEST[MAINTEXT]);
+
+                assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
 
                 # The default value could be 'Some text </textarea>', for
                 # making direct HTML validation by http://validator.w3.org/
@@ -69,63 +93,15 @@
                 # need another way for it to find its way to the
                 # validation.
                 #
-                ###$someText = $_POST['someText']
+                ###$someText = $_REQUEST['someText']
                 ###              ?? 'Some text </textarea>';
-                ##$someText = htmlentities($_POST['someText']
+                ##$someText = htmlentities($_REQUEST['someText']
                 ##                           ?? 'Some text </textarea>');
-                #$someText = htmlentities($_POST['someText']);
-
-
-                # Remove TABs and trailing whitespace
-
-                    ## This removes both empty line and trailing and leading whitespace...
-                    #$someText = preg_replace('/^\s+|\s+$/m', '', $someText);
-
-                    #Test
-                    #$temp1 = '[ \t]+(\r?$)/m';
-                    #$temp2 = preg_replace('[ \t]+', '$1', $someText);
-                    #$temp3 = preg_replace('[a-z]+', '$1', $someText);
-
-                    # $someText = "     Hello, World!  \r\n" .
-                    #             "  Some other line\r\n"    .
-                    #             "     The last line  "
-                    #           ;
-                    #
-                    #$someText = "     This is sad...  \r"  .
-                    #            "     ZZHello first  \r"   .
-                    #            "     Hello again  \n"     .
-                    #            "     Hello Worly  \r\n"   .
-                    #            "     Hello, World!  \r\n" .
-                    #            "  Some other line\r\n"    .
-                    #            "     The last line  "
-                    #          ;
-
-                    ##$someText = preg_replace('#[ \t]+(\r?$)/m#', '$1', $someText);
-                    #$someText = preg_replace('#[ \t]+(\r?$)/m#', '$1', $someText);
-                    #$someText = preg_replace('#([^ \t\r\n])[ \t]+$#', '$1', $someText);
-                    #$someText = preg_replace('#([^ \t\r\n])[ \t]+$#', '__XXXX__', $someText);
-
-                    # Give syntax error "Warning: preg_replace() [function.preg-replace]: Unknown modifier '/' in /var/www/pmortensen.eu/public_html/world/Text.php on line 43"
-                    #$someText = preg_replace('/([^ \t\r\n])[ \t]+$/m/', '$1', $someText);
-
-                    ##$someText = preg_replace('#([^ \t\r\n])[ \t]+$/m#', '$1', $someText);
-                    #$someText = preg_replace('#([^ \t\r\n])[ \t]+$#m', '$1', $someText);
-                    #$someText = preg_replace('/([^ \t\r\n])[ \t]+$/',  '$1', $someText);
-                    #$someText = preg_replace('/^([^ \t\r\n])[ \t]+/m', '$1', $someText);
-                    #$someText = preg_replace('/([^ \t\r\n])[ \t]+$/m', '$1', $someText);
-                    #$someText = preg_replace('/(?m)([^ \t\r\n])[ \t]+$/', '$1', $someText);
-                    #$someText = preg_replace('/(?m)([^ \n])[ ]+$/', '$1', $someText);
-                    #$someText = preg_replace('/(?m)([^ \n])[ ]+$/', '\1 FFFF_GGGG', $someText);
-
-                    # Works!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                    #$someText = preg_replace('/(?m)[ \t]+(\r?$)/', '$1', $someText);
+                #$someText = htmlentities($_REQUEST['someText']);
 
 
                 $lengthBefore = strlen($someText);
-
-                #$actionStr = htmlentities($_POST['action']);
-                $actionStr = $_POST['action'];
-                #echo "<p>actionStr: $actionStr</p>";
+                $actionStr = $_REQUEST['action'];
 
                 switch ($actionStr)
                 {
@@ -142,7 +118,7 @@
                         $someText = preg_replace('/\t/', '    ', $someText);
                         $lengthAfter2 = strlen($someText);
 
-                        # 1 TAB results in 4 spaces (3 more characters)
+                        # One TAB results in four spaces (three more characters)
                         $replacedTABs = ($lengthAfter2 - $lengthAfter) / 3; # What about rounding??
 
                         if ($lengthBefore>0)
@@ -345,14 +321,14 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<!--
+<!--  -->
     </body>
 </html>
--->
+<!--  -->
 
 
 <?php # From WordPress...
-    get_footer();
+      #   get_footer();
 ?>
 
 
