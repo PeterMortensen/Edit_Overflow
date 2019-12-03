@@ -2799,6 +2799,7 @@ namespace OverflowHelper.core
             correctionAdd("MSSQL Management Studio", "SQL Server Management Studio");
             correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
             correctionAdd("sql management studio", "SQL Server Management Studio");
+            correctionAdd("SQL Server Management Tools", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -3093,6 +3094,7 @@ namespace OverflowHelper.core
             correctionAdd("harddisk", "hard disk drive");
             correctionAdd("hard-drive", "hard disk drive");
             correctionAdd("Hard Disk Drive", "hard disk drive");
+            correctionAdd("hard-disk", "hard disk drive");
 
             correctionAdd("ssd", "SSD");
             correctionAdd("Solid State Disk", "SSD");
@@ -4219,6 +4221,7 @@ namespace OverflowHelper.core
             correctionAdd("rp", "reputation points");
             correctionAdd("reputations", "reputation points");
             correctionAdd("rep point", "reputation points");
+            correctionAdd("rep. points", "reputation points");
 
             correctionAdd("squid", "Squid");
 
@@ -4900,10 +4903,12 @@ namespace OverflowHelper.core
             correctionAdd("nAnt", "NAnt");
             correctionAdd("NANT", "NAnt");
 
-            correctionAdd("Red-gate", "Red Gate Software");
-            correctionAdd("Redgate", "Red Gate Software");
-            correctionAdd("Red Gate", "Red Gate Software");
-            correctionAdd("RedGate", "Red Gate Software");
+            correctionAdd("Red-gate", "Redgate Software");
+            correctionAdd("Redgate", "Redgate Software");
+            correctionAdd("Red Gate", "Redgate Software");
+            correctionAdd("RedGate", "Redgate Software");
+            correctionAdd("Red Gate Software", "Redgate Software"); // The old name...
+            correctionAdd("Red-Gate", "Redgate Software");
 
             correctionAdd("swt", "SWT");
 
@@ -5600,7 +5605,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rdp", "RDP");
 
-            correctionAdd("kvm", "KVM"); //Conflict with KVM switch, "keyboard, visual display unit, mouse", <http://en.wikipedia.org/wiki/KVM_switch>.
+            correctionAdd("kvm", "KVM"); //Conflict with KVM switch, "keyboard, visual display unit, mouse", <http://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
             correctionAdd("KVm", "KVM");
 
             correctionAdd("Teamviewer", "TeamViewer");
@@ -7218,6 +7223,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubunto", "Ubuntu");
             correctionAdd("unbuntu", "Ubuntu");
             correctionAdd("ubutu", "Ubuntu");
+            correctionAdd("ubunty", "Ubuntu");
 
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
             correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -7373,6 +7379,7 @@ namespace OverflowHelper.core
             correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
             correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -8410,6 +8417,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thunderbird", "Thunderbird");
             correctionAdd("thunterbird", "Thunderbird");
+            correctionAdd("ThunderBird", "Thunderbird");
 
             correctionAdd("raid", "RAID");
             correctionAdd("Raid", "RAID");
@@ -9834,6 +9842,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
+            correctionAdd("PCI-E", "PCIe");
+            correctionAdd("PCIE", "PCIe");
 
             correctionAdd("pci", "PCI");
 
@@ -10249,6 +10259,7 @@ namespace OverflowHelper.core
             correctionAdd("dependancies", "dependencies"); //Common misspelling... Not 100% correct. Plural...
             correctionAdd("dependecies", "dependencies");
             correctionAdd("depencies", "dependencies");
+            correctionAdd("Dependancies", "dependencies");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -13322,6 +13333,35 @@ namespace OverflowHelper.core
             correctionAdd("URI Rewriting", "URL rewriting");
             correctionAdd("URI rewriting", "URL rewriting");
 
+            correctionAdd("B5", "Babylon&nbsp;5");
+
+            correctionAdd("iommu", "IOMMU");
+
+            correctionAdd("logitech", "Logitech");
+
+            correctionAdd("poertop", "PowerTOP");
+            correctionAdd("powertop", "PowerTOP");
+            correctionAdd("Powertop", "PowerTOP");
+
+            correctionAdd("pywin32", "PyWin32");
+            correctionAdd("pyWin32", "PyWin32");
+
+            correctionAdd("SQL Search", "SQL&nbsp;Search");
+            correctionAdd("SQLSearch", "SQL&nbsp;Search");
+
+            correctionAdd("svm", "SVM");
+
+            correctionAdd("add in", "add-in");
+
+            correctionAdd("Boost converter", "boost converter");
+
+            correctionAdd("help-vampire", "help vampire");
+            correctionAdd("Help Vampire", "help vampire");
+
+            correctionAdd("Udev", "udev");
+
+            correctionAdd("visonary", "visionary");
+
 
 
             //HACK: AASDASD
@@ -14694,7 +14734,7 @@ namespace OverflowHelper.core
 
             URL_Add("NAnt", "http://en.wikipedia.org/wiki/NAnt");
 
-            URL_Add("Red Gate Software", "http://en.wikipedia.org/wiki/Red_Gate_Software");
+            URL_Add("Redgate Software", "https://en.wikipedia.org/wiki/Redgate"); // Old: http://en.wikipedia.org/wiki/Red_Gate_Software
 
             URL_Add("SWT", "http://en.wikipedia.org/wiki/Standard_Widget_Toolkit");
 
@@ -19488,6 +19528,31 @@ namespace OverflowHelper.core
             URL_Add("sensitive", "https://en.wiktionary.org/wiki/sensitive#Adjective");
 
             URL_Add("tongue", "https://en.wiktionary.org/wiki/tongue#Noun");
+
+            URL_Add("Babylon&nbsp;5", "https://en.wikipedia.org/wiki/Babylon_5");
+
+            URL_Add("IOMMU", "https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit");
+
+            URL_Add("Logitech", "https://en.wikipedia.org/wiki/Logitech");
+
+            URL_Add("PowerTOP", "https://en.wikipedia.org/wiki/PowerTOP");
+
+            URL_Add("PyWin32", "https://wiki.python.org/moin/PyWin32");
+
+            URL_Add("SQL&nbsp;Search", "https://en.wikipedia.org/wiki/Redgate#History");
+
+            URL_Add("SVM", "https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_(AMD-V)");
+
+            URL_Add("add-in", "https://en.wiktionary.org/wiki/add-in#Noun");
+
+            URL_Add("boost converter", "https://en.wikipedia.org/wiki/Boost_converter");
+
+            URL_Add("help vampire", "https://en.wiktionary.org/wiki/help_vampire");
+
+            URL_Add("udev", "https://en.wikipedia.org/wiki/Udev");
+
+            URL_Add("visionary", "https://en.wiktionary.org/wiki/visionary#Noun");
+
 
 
 
