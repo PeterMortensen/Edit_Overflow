@@ -9,6 +9,10 @@
 *          through Google and Wikipedia every time. This typically         *
 *          takes 7 seconds (at least on a 3G Internet connection).         *
 *                                                                          *
+*                                                                          *
+* Yes, most of the content in this file ought to be in a data file.        *
+*                                                                          *
+*                                                                          *
 ****************************************************************************/
 
 // Some bugs:
@@ -464,6 +468,11 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *    addLookupData                                                         *
+         *                                                                          *
+         *                                                                          *
+         *  Yes, most of the content in this function ought to be in a data file.   *
+         *                                                                          *
+         *                                                                          *
          ****************************************************************************/
         private void addLookupData()
         {
@@ -472,6 +481,9 @@ namespace OverflowHelper.core
             //       script:
             //
             //           ToToTryExtract.pl
+
+
+            // Yes, most of the following content ought to be in a data file.
 
             correctionAdd("windows", "Windows");
             correctionAdd("WINDOWS", "Windows");
@@ -801,7 +813,6 @@ namespace OverflowHelper.core
             correctionAdd("postgreql", "PostgreSQL");
             correctionAdd("postgress", "PostgreSQL");
             correctionAdd("PostGreSQL", "PostgreSQL");
-            correctionAdd("psql", "PostgreSQL");
             correctionAdd("postgreSql", "PostgreSQL");
             correctionAdd("PostreSQL", "PostgreSQL"); // Misspelling.
             correctionAdd("PG", "PostgreSQL"); // Expansion.
@@ -2925,6 +2936,7 @@ namespace OverflowHelper.core
             correctionAdd("Stackeoverflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoveflow", "Stack&nbsp;Overflow");
             correctionAdd("stackoverflopw", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overlow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -4146,6 +4158,7 @@ namespace OverflowHelper.core
             correctionAdd("don't", "don’t");
             correctionAdd("dont't", "don’t");
             correctionAdd("don´t", "don’t");
+            correctionAdd("do't", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -4160,6 +4173,7 @@ namespace OverflowHelper.core
             correctionAdd("nvidia", "Nvidia");
             correctionAdd("NVIDIA", "Nvidia");
             correctionAdd("NVidia", "Nvidia");
+            correctionAdd("Nvivdia", "Nvidia");
 
             correctionAdd("registery", "Windows Registry");
             correctionAdd("registry", "Windows Registry");
@@ -7427,6 +7441,9 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
+            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+
             correctionAdd("VS", "Visual Studio");
             correctionAdd("visual studio", "Visual Studio");
             correctionAdd("vs", "Visual Studio");
@@ -9013,6 +9030,13 @@ namespace OverflowHelper.core
             correctionAdd("neccessarily", "necessarily");
             correctionAdd("neccessaraly", "necessarily");
             correctionAdd("necesseraly", "necessarily");
+            correctionAdd("necesserily", "necessarily");
+            correctionAdd("necesseraily", "necessarily");
+            correctionAdd("necesserailly", "necessarily");
+            correctionAdd("necesserilly", "necessarily");
+            correctionAdd("neccesserilly", "necessarily");
+            correctionAdd("necceserilly", "necessarily");
+            correctionAdd("necceserily", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -9074,6 +9098,7 @@ namespace OverflowHelper.core
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
             correctionAdd("noob", "newbie");
             correctionAdd("newby", "newbie");
+            correctionAdd("newbee", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -11496,8 +11521,6 @@ namespace OverflowHelper.core
 
             correctionAdd("transifex", "Transifex");
 
-            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-
             correctionAdd("Additionaly", "additionally");
             correctionAdd("additionaly", "additionally");
             correctionAdd("Additionnally", "additionally");
@@ -11549,6 +11572,8 @@ namespace OverflowHelper.core
             correctionAdd("civillian", "civilian");
 
             correctionAdd("diffrentiate", "differentiate");
+            correctionAdd("differ", "differentiate");
+            correctionAdd("differenciate", "differentiate");
 
             correctionAdd("Uwsgi", "uWSGI");
             correctionAdd("UWSGI", "uWSGI");
@@ -12542,6 +12567,7 @@ namespace OverflowHelper.core
 
             correctionAdd("monetization", "monetisation");
             correctionAdd("monitasation", "monetisation");
+            correctionAdd("monitisation", "monetisation");
 
             correctionAdd("on wards", "onwards");
 
@@ -12584,6 +12610,7 @@ namespace OverflowHelper.core
             correctionAdd("contributer", "contributor");
 
             correctionAdd("equall", "equal");
+            correctionAdd("queal", "equal");
 
             correctionAdd("IFF", "iff");
 
@@ -13361,6 +13388,24 @@ namespace OverflowHelper.core
             correctionAdd("Udev", "udev");
 
             correctionAdd("visonary", "visionary");
+
+            correctionAdd("bashrc", ".bashrc file");
+
+            correctionAdd("ps1", "PS1");
+
+            correctionAdd("SMBUS", "SMBus");
+
+            correctionAdd("hemissphere", "hemisphere");
+
+            correctionAdd("PSQL", "psql");
+
+            correctionAdd("resignment", "resignation");
+
+            correctionAdd("specificially", "specifically");
+            correctionAdd("Specificially", "specifically");
+
+            correctionAdd("Summar", "summer");
+            correctionAdd("summar", "summer");
 
 
 
@@ -19552,6 +19597,23 @@ namespace OverflowHelper.core
             URL_Add("udev", "https://en.wikipedia.org/wiki/Udev");
 
             URL_Add("visionary", "https://en.wiktionary.org/wiki/visionary#Noun");
+
+            URL_Add(".bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions");
+
+            URL_Add("PS1", "https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt");
+
+            URL_Add("SMBus", "https://en.wikipedia.org/wiki/System_Management_Bus");
+
+            URL_Add("hemisphere", "https://en.wiktionary.org/wiki/hemisphere#Noun");
+
+            URL_Add("psql", "https://en.wikipedia.org/wiki/PostgreSQL#Database_administration");
+
+            URL_Add("resignation", "https://en.wiktionary.org/wiki/resignation#Noun");
+
+            URL_Add("specifically", "https://en.wiktionary.org/wiki/specifically#Adverb");
+
+            URL_Add("summer", "https://en.wiktionary.org/wiki/summer#Noun");
+
 
 
 
