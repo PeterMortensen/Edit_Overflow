@@ -1,10 +1,10 @@
 <?php include("commonStart.php"); ?>
 
 
-<!-- Successor to EditSummaryFragments.html, at least for now to get 
+<!-- Successor to EditSummaryFragments.html, at least for now to get
      the WordPress styling. But perhaps we can instead
      move this (effectively) static page into the
-     WordPress system?   --> 
+     WordPress system?   -->
 
 
 
@@ -18,7 +18,7 @@
       is too much redundancy and manual editing.
     -->
 
-    
+
     <!--
 
 
@@ -228,7 +228,7 @@
                />
             </p>
 
-            <p><br/>
+            <p>"<i>its"</i> vs. <i>"it's"</i><br/>
                <input
                    name="X19"
                    type="text"
@@ -264,6 +264,21 @@
                />
             </p>
 
+            <p>The "How to ... ?" form for a question is not a good one 
+               (does not follow 
+               <a href="https://www.youtube.com/watch?v=kS5NfSzXfrI"
+               >QUASM</a>)<br/>
+               <input
+                   name="X25"
+                   type="text"
+                   id="X25"
+                   class=""
+                   value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s>. "
+                   style="width:680px;"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
+               />
+            </p>
 
 
             <!-- ----------------------------------------------------- -->
@@ -304,8 +319,8 @@
 
             <p>US native speakers, especially southern US,
                <a href="http://www.wikihow.com/Use-There,-Their-and-They%27re"
-               >&quot;there&quot; vs. 
-                &quot;their&quot; vs. 
+               >&quot;there&quot; vs.
+                &quot;their&quot; vs.
                 &quot;they're&quot;</a>: <br/>
 
                <input
@@ -322,7 +337,7 @@
 
             <p>US native speakers, especially southern US,
                <a href="http://www.wikihow.com/Use-Affect-and-Effect-Properly"
-               >&quot;affect&quot; vs. 
+               >&quot;affect&quot; vs.
                 &quot;effect&quot;</a>: <br/>
 
                <input
@@ -461,7 +476,7 @@
                 accesskey="E"
                 title="Shortcut: Shift + Alt + E"
             >Edit Overflow</a>.
-            
+
             <a
                 href="Text.php"
                 accesskey="J"
@@ -470,13 +485,13 @@
 
             <!--
               Note:
-            
+
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
                 A workaround is to use view source on a result and copy
                 paste to http://validator.w3.org/, under "Validate by
                 direct input"
-            
+
                 But we now have a default value for the input, "js",
                 so this validation actually works!
             -->
