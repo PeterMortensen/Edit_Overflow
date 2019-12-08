@@ -5358,6 +5358,8 @@ namespace OverflowHelper.core
             correctionAdd("Experts exchange", "Experts-Exchange");
             correctionAdd("expertexchange", "Experts-Exchange");
             correctionAdd("experts-exchange", "Experts-Exchange");
+            correctionAdd("hyphen site", "Experts-Exchange");
+            correctionAdd("the hyphen site", "Experts-Exchange");
 
             correctionAdd("asus", "Asus");
             correctionAdd("ASUS", "Asus");
@@ -7434,6 +7436,7 @@ namespace OverflowHelper.core
             correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
 
             correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
@@ -7442,6 +7445,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
             correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
@@ -8326,6 +8330,7 @@ namespace OverflowHelper.core
             correctionAdd("homebrew", "Homebrew");
             correctionAdd("home brew", "Homebrew");
             correctionAdd("brew", "Homebrew");
+            correctionAdd("Brew", "Homebrew");
 
             correctionAdd("EGG", "egg");
 
@@ -9685,6 +9690,7 @@ namespace OverflowHelper.core
             correctionAdd("net core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
+            correctionAdd("Roselyn", "Roslyn");
 
             correctionAdd("drwatson", "Dr. Watson");
 
@@ -11100,6 +11106,7 @@ namespace OverflowHelper.core
             correctionAdd("Activestate", "ActiveState");
             correctionAdd("Active state", "ActiveState");
             correctionAdd("Active State", "ActiveState");
+            correctionAdd("active state", "ActiveState");
 
             correctionAdd("diac", "DIAC");
             correctionAdd("Diac", "DIAC");
@@ -13437,6 +13444,24 @@ namespace OverflowHelper.core
 
             correctionAdd("shutdown", "shut down");
 
+            correctionAdd("perlbrew", "Perlbrew");
+            correctionAdd("PerlBrew", "Perlbrew");
+            correctionAdd("Perl Brew", "Perlbrew");
+
+            correctionAdd("Prestashop", "PrestaShop");
+
+            correctionAdd("typo3", "TYPO3");
+
+            correctionAdd("Extension Method", "extension method");
+
+            correctionAdd("fav", "favourite");
+
+            correctionAdd("indend", "intend");
+
+            correctionAdd("Reflection", "reflection");
+
+
+
 
 
             //HACK: AASDASD
@@ -14995,7 +15020,7 @@ namespace OverflowHelper.core
 
             URL_Add("LED", "http://en.wikipedia.org/wiki/Light-emitting_diode");
 
-            URL_Add("Experts-Exchange", "http://en.wikipedia.org/wiki/Experts-Exchange");
+            URL_Add("Experts-Exchange", "http://en.wikipedia.org/wiki/Experts-Exchange");            
 
             URL_Add("Asus", "http://en.wikipedia.org/wiki/Asus");
 
@@ -19664,8 +19689,19 @@ namespace OverflowHelper.core
 
             URL_Add("shut down", "https://en.wiktionary.org/wiki/shut_down#Verb");
 
+            URL_Add("Perlbrew", "https://perlbrew.pl/");
 
+            URL_Add("PrestaShop", "https://en.wikipedia.org/wiki/PrestaShop");
 
+            URL_Add("TYPO3", "https://en.wikipedia.org/wiki/TYPO3");
+
+            URL_Add("extension method", "https://en.wikipedia.org/wiki/Extension_method");
+
+            URL_Add("favourite", "https://en.wiktionary.org/wiki/favourite#Adjective");
+
+            URL_Add("intend", "https://en.wiktionary.org/wiki/intend#Verb");
+
+            URL_Add("reflection", "https://en.wikipedia.org/wiki/Reflection_(computer_programming)");
 
 
 
