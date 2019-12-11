@@ -80,7 +80,20 @@
                 #
                 # "stripslashes_deep" is part of WordPress
                 #
-                #$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+                $formDataSizeBefore = strlen($_REQUEST[MAINTEXT]);
+                $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+                $formDataSizeAfter = strlen($_REQUEST[MAINTEXT]);
+                $formDataSizeDiff = $formDataSizeBefore - $formDataSizeAfter;
+
+                # Some output to remind us that this WordPress madness
+                # should be adressed some day
+                $extraMessage = "";
+                if ($formDataSizeDiff > 0)
+                {
+                    $extraMessage = 
+                      $formDataSizeDiff .
+                      " characters saved from WordPress madness...";
+                }
 
 
                 $someText = htmlentities($_REQUEST[MAINTEXT]);
@@ -295,7 +308,7 @@
         </form>
 
         <?php
-            echo "$message";
+            echo "$message $extraMessage";
         ?>
 
         <p>
