@@ -56,6 +56,7 @@
             const MAINTEXT = 'someText';
 
             $message = "";
+            $extraMessage = "";
 
 
             #assert(array_key_exists('function', $_REQUEST));  # From example:  isset($this->records)
@@ -87,7 +88,6 @@
 
                 # Some output to remind us that this WordPress madness
                 # should be adressed some day
-                $extraMessage = "";
                 if ($formDataSizeDiff > 0)
                 {
                     $extraMessage = 
