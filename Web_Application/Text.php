@@ -1,21 +1,30 @@
 
 <?php
-     #include("commonStart.php");
-     #
-     #    Strange things are happening when included (a fix was added
-     #    2019-11-30, but it didn't fix the problem with the YouTube
-     #    function):
+
+     #    Strange things are happening when this WordPress thing is
+     #    included (a fix was added 2019-11-30, and finally
+     #    another one fix 2019-12-10).
      #
      #      1. The YouTube convert (that uses a separate
-     #         PHP in another file does not work at all)
+     #         PHP class in another file) had a lot of
+     #         warning lines. This turned out to be genuine
+     #         bug - the WordPress include had a configuration
+     #         that turned on debugging and surface the error.
      #
-     #      2. Removing trailing space escapes single quotes with backslash...
+     #      2. Removing trailing space escapes single quotes
+     #         with backslash... This is a WordPress thing
+     #         (returned form data is escaped). The workaound
+     #         was to remove backslashes (this may be
+     #         sufficient as we don't )
      #
+     #
+     include("commonStart.php"); # Use headers supplied from WordPress, etc...
+
 ?>
 
 
 
-<!-- Old  -->
+<!-- Old
 <!DOCTYPE html>
 
 <html lang="en">
@@ -34,7 +43,7 @@
 
     <body>
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
-<!--  -->
+-->
 
 
         <h1>Text stuff - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
@@ -47,6 +56,7 @@
             const MAINTEXT = 'someText';
 
             $message = "";
+            $extraMessage = "";
 
 
             #assert(array_key_exists('function', $_REQUEST));  # From example:  isset($this->records)
@@ -71,7 +81,19 @@
                 #
                 # "stripslashes_deep" is part of WordPress
                 #
-                #$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+                $formDataSizeBefore = strlen($_REQUEST[MAINTEXT]);
+                $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+                $formDataSizeAfter = strlen($_REQUEST[MAINTEXT]);
+                $formDataSizeDiff = $formDataSizeBefore - $formDataSizeAfter;
+
+                # Some output to remind us that this WordPress madness
+                # should be adressed some day
+                if ($formDataSizeDiff > 0)
+                {
+                    $extraMessage = 
+                      $formDataSizeDiff .
+                      " characters saved from WordPress madness...";
+                }
 
 
                 $someText = htmlentities($_REQUEST[MAINTEXT]);
@@ -286,7 +308,7 @@
         </form>
 
         <?php
-            echo "$message";
+            echo "$message $extraMessage";
         ?>
 
         <p>
@@ -321,14 +343,14 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<!--  -->
+<!--
     </body>
 </html>
-<!--  -->
+-->
 
 
 <?php # From WordPress...
-      #   get_footer();
+      get_footer();
 ?>
 
 
