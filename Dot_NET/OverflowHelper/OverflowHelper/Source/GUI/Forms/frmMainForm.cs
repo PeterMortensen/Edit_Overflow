@@ -941,7 +941,7 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuExportWordlistAsSQL_Click(object sender, EventArgs e)
+        private void mnuExportWordlistAsSQL_Click(object aSender, EventArgs anEvent)
         {
             string wordlist_SQL = mWikipediaLookup.dumpWordList_asSQL();
 
