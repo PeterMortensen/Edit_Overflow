@@ -1782,12 +1782,6 @@ namespace OverflowHelper.core
             correctionAdd("WIFi", "Wi-Fi");
             correctionAdd("Wi Fi", "Wi-Fi");
 
-            correctionAdd("IO", "I/O");
-            correctionAdd("io", "I/O");
-            correctionAdd("i/o", "I/O");
-            correctionAdd("i / o", "I/O");
-            correctionAdd("I/o", "I/O");
-
             correctionAdd("vlc", "VLC media player");
             correctionAdd("VLC", "VLC media player");
             correctionAdd("vlc media player", "VLC media player");
@@ -2786,7 +2780,6 @@ namespace OverflowHelper.core
             correctionAdd("wireshark", "Wireshark");
             correctionAdd("Whireshark", "Wireshark");
 
-
             correctionAdd("Monotouch", "MonoTouch");
             correctionAdd("Mono Touch", "MonoTouch");
             correctionAdd("monotouch", "MonoTouch");
@@ -3630,6 +3623,8 @@ namespace OverflowHelper.core
             correctionAdd("conctenation", "concatenate"); // Not 100% correct...
             correctionAdd("concadination", "concatenate"); // Not 100% correct...
             correctionAdd("concatinating", "concatenate"); // Not 100% correct...
+            correctionAdd("concentenate", "concatenate");
+            correctionAdd("concantenate", "concatenate");
 
             correctionAdd("gif", "GIF");
             correctionAdd("Gif", "GIF");
@@ -3949,6 +3944,7 @@ namespace OverflowHelper.core
             correctionAdd("varaible", "variable");
             correctionAdd("vailble", "variable");
             correctionAdd("varialble", "variable");
+            correctionAdd("varable", "variable");
 
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
@@ -7449,6 +7445,7 @@ namespace OverflowHelper.core
 
             correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
 
             correctionAdd("VS", "Visual Studio");
             correctionAdd("visual studio", "Visual Studio");
@@ -9344,6 +9341,7 @@ namespace OverflowHelper.core
             correctionAdd("LiIon", "Li-ion");
             correctionAdd("li ion", "Li-ion");
             correctionAdd("li-ion", "Li-ion");
+            correctionAdd("Li-Ion", "Li-ion");
 
             correctionAdd("Ni-cad", "NiCad");
 
@@ -9442,6 +9440,7 @@ namespace OverflowHelper.core
             correctionAdd("Dot.net CF", ".NET Compact Framework");
             correctionAdd(".Net CF", ".NET Compact Framework");
             correctionAdd("compact framework", ".NET Compact Framework");
+            correctionAdd("compact framewok", ".NET Compact Framework");
 
             correctionAdd("lldb", "LLDB");
 
@@ -9582,6 +9581,8 @@ namespace OverflowHelper.core
 
             correctionAdd("refering", "referring");
             correctionAdd("reffering", "referring");
+            correctionAdd("referering", "referring");
+            correctionAdd("refererring", "referring");
 
             correctionAdd("DynamoDb", "DynamoDB");
 
@@ -9668,6 +9669,7 @@ namespace OverflowHelper.core
             correctionAdd("shouldn´t", "shouldn't");
             correctionAdd("shoulndt", "shouldn't");
             correctionAdd("shoulnd't", "shouldn't");
+            correctionAdd("shoudnt", "shouldn't");
 
             correctionAdd("g-drive", "Google Drive");
 
@@ -10721,6 +10723,7 @@ namespace OverflowHelper.core
             correctionAdd("profissional", "professional");
             correctionAdd("pro", "professional");
             correctionAdd("profesional", "professional");
+            correctionAdd("proffesional", "professional");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -11096,6 +11099,7 @@ namespace OverflowHelper.core
             correctionAdd("happinness", "happiness");
 
             correctionAdd("manger", "manager");
+            correctionAdd("mananger", "manager");
 
             correctionAdd("realease", "release");
             correctionAdd("releas", "release");
@@ -11355,6 +11359,7 @@ namespace OverflowHelper.core
             correctionAdd("fullfill", "fulfill");
             correctionAdd("full fill", "fulfill");
             correctionAdd("ful fill", "fulfill");
+            correctionAdd("fulfil", "fulfill");
 
             correctionAdd("it self", "itself");
             correctionAdd("itsself", "itself");
@@ -11846,6 +11851,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Ponzi Scheme", "Ponzi scheme");
             correctionAdd("ponzi scheme", "Ponzi scheme");
+            correctionAdd("Ponzi", "Ponzi scheme");
+            correctionAdd("ponzie", "Ponzi scheme");
 
             correctionAdd("sandboxie", "Sandboxie");
 
@@ -13460,8 +13467,70 @@ namespace OverflowHelper.core
 
             correctionAdd("Reflection", "reflection");
 
+            correctionAdd("CPU bound", "CPU-bound");
 
+            correctionAdd("gil", "GIL");
 
+            correctionAdd("mailchimp", "Mailchimp");
+            correctionAdd("MailChimp", "Mailchimp");
+
+            correctionAdd("meltdown", "Meltdown");
+
+            correctionAdd("spectre", "Spectre");
+
+            correctionAdd("X-Files", "The X-Files");
+
+            correctionAdd("WIRED Magazine", "Wired");
+
+            correctionAdd("analyics", "analytics");
+
+            correctionAdd("auto generate", "autogenerate");
+
+            correctionAdd("back slash", "backslash");
+            correctionAdd("backlash", "backslash");
+
+            correctionAdd("bulletpoint", "bullet point");
+
+            correctionAdd("boot-camp", "coding bootcamp");
+            correctionAdd("coding boot-camp", "coding bootcamp");
+
+            correctionAdd("diaglog", "dialog");
+
+            correctionAdd("gitk", "gitk (the Git repository browser)");
+
+            correctionAdd("intimitely", "intimately");
+
+            correctionAdd("m/", "m/PATTERN/msixpodualngc");
+
+            correctionAdd("non-sensical", "nonsensical");
+
+            correctionAdd("percieve", "perceive");
+
+            correctionAdd("s/", "s/PATTERN/REPLACEMENT/msixpodualngcer");
+
+            correctionAdd("standart", "standard");
+
+            correctionAdd("swollow", "swallow");
+
+            correctionAdd("Unit Testing", "unit testing");
+            correctionAdd("Unit testing", "unit testing");
+
+            correctionAdd("un-supported", "unsupported");
+
+            correctionAdd("vocabolary", "vocabulary");
+
+            correctionAdd("IO", "I/O");
+            correctionAdd("io", "I/O");
+            correctionAdd("i/o", "I/O");
+            correctionAdd("i / o", "I/O");
+            correctionAdd("I/o", "I/O");
+            correctionAdd(@"I\O", "I/O"); // Backslash... How will the rest
+                                          // of system handle this? Generated
+                                          // SQL for MySQL needs to be escaped:
+                                          //
+                                          //    INSERT INTO EditOverflow
+                                          //    (incorrectTerm, correctTerm, URL)
+                                          //    VALUES('I\\O', 'I/O', 'http://en.wikipedia.org/wiki/Input/output');
 
 
             //HACK: AASDASD
@@ -13642,7 +13711,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ruby", "http://en.wikipedia.org/wiki/Ruby_%28programming_language%29");
 
-            URL_Add("ReSharper", "http://en.wikipedia.org/wiki/ReSharper");
+            URL_Add("ReSharper", "https://en.wikipedia.org/wiki/JetBrains#ReSharper_Ultimate"); // Old: http://en.wikipedia.org/wiki/ReSharper
 
             URL_Add("test-driven development", "http://en.wikipedia.org/wiki/Test-driven_development");
 
@@ -19703,6 +19772,55 @@ namespace OverflowHelper.core
 
             URL_Add("reflection", "https://en.wikipedia.org/wiki/Reflection_(computer_programming)");
 
+            URL_Add("CPU-bound", "https://en.wikipedia.org/wiki/CPU-bound");
+
+            URL_Add("GIL", "https://en.wikipedia.org/wiki/Global_interpreter_lock");
+
+            URL_Add("Mailchimp", "https://en.wikipedia.org/wiki/Mailchimp");
+
+            URL_Add("Meltdown", "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)");
+
+            URL_Add("Spectre", "https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)");
+
+            URL_Add("The X-Files", "https://en.wikipedia.org/wiki/The_X-Files");
+
+            URL_Add("Wired", "https://en.wikipedia.org/wiki/Wired_(magazine)");
+
+            URL_Add("analytics", "https://en.wiktionary.org/wiki/analytics#Noun");
+
+            URL_Add("autogenerate", "https://en.wiktionary.org/wiki/autogenerate");
+
+            URL_Add("backslash", "https://en.wiktionary.org/wiki/backslash#Noun");
+
+            URL_Add("bullet point", "https://en.wiktionary.org/wiki/bullet_point#Noun");
+
+            URL_Add("coding bootcamp", "https://en.wikipedia.org/wiki/Coding_bootcamp");
+
+            URL_Add("dialog", "https://en.wikipedia.org/wiki/Dialog_box");
+
+            URL_Add("gitk (the Git repository browser)", "https://git-scm.com/docs/gitk");
+
+            URL_Add("intimately", "https://en.wiktionary.org/wiki/intimately#Adverb");
+
+            URL_Add("m/PATTERN/msixpodualngc", "https://perldoc.perl.org/perlop.html#m%2f_PATTERN_%2fmsixpodualngc");
+
+            URL_Add("nonsensical", "https://en.wiktionary.org/wiki/nonsensical#Adjective");
+
+            URL_Add("perceive", "https://en.wiktionary.org/wiki/perceive#Verb");
+
+            URL_Add("s/PATTERN/REPLACEMENT/msixpodualngcer", "https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer");
+
+            URL_Add("standard", "https://en.wiktionary.org/wiki/standard#Adjective");
+
+            URL_Add("swallow", "https://en.wiktionary.org/wiki/swallow#Verb");
+
+            URL_Add("unit testing", "https://en.wikipedia.org/wiki/Unit_testing");
+
+            URL_Add("unsupported", "https://en.wiktionary.org/wiki/unsupported#Adjective");
+
+            URL_Add("vocabulary", "https://en.wiktionary.org/wiki/vocabulary#Noun");
+
+
 
 
             //========================================================
@@ -19771,25 +19889,46 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private static void addTermsToOutput_SQL(string aBadTerm,
-                                          string aCorrectedTerm,
+        private static void addTermsToOutput_SQL(string aBadTerm2,
+                                          string aCorrectedTerm2,
                                           ref StringBuilder aSomeScratch,
                                           string aURL)
         {
-            if (aBadTerm.IndexOf("'") >= 0)
+            if (aBadTerm2.IndexOf("'") >= 0)
             {
                 int peter7 = 7;
             }
+
+            string effectiveBadTerm = aBadTerm2;
+            string effectiveCorrectedTerm = aCorrectedTerm2;
+
+            // Escaping of SQL. For now, only backslash. We need 
+            // more, though. We can refactor and reduce the 
+            // redundancy when we generalise.
+            //
+            // In any case, we should have some unit test, including
+            // when the backslash is at the beginning or the end of
+            // the string.
+            //
+            if (effectiveBadTerm.IndexOf(@"\") >= 0)
+	        {
+                effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");		 
+          	}
+            if (effectiveCorrectedTerm.IndexOf(@"\") >= 0)
+            {
+                effectiveCorrectedTerm = effectiveBadTerm.Replace(@"\", @"\\");
+            }
+
 
             aSomeScratch.Append("INSERT INTO EditOverflow\n");
             aSomeScratch.Append("  (incorrectTerm, correctTerm, URL)\n");
             aSomeScratch.Append("  VALUES(");
 
             aSomeScratch.Append("'");
-            aSomeScratch.Append(escapeSQL(aBadTerm));
+            aSomeScratch.Append(escapeSQL(effectiveBadTerm));
             aSomeScratch.Append("', '");
 
-            aSomeScratch.Append(escapeSQL(aCorrectedTerm));
+            aSomeScratch.Append(escapeSQL(effectiveCorrectedTerm));
             aSomeScratch.Append("', '");
 
             // Example of where escape of single quotes is necessary:
@@ -19986,12 +20125,28 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public string dumpWordList_asSQL()
         {
-            StringBuilder SQL_tableRows =
-              new StringBuilder(1200000); // 20% margin, 2016-01-31, for 610823.
 
-            StringBuilder scratchSB =
-              new StringBuilder(1200000); // 20% margin, 2016-01-31, for 610823.
-            // 2016-07-22: Now, 676067, still 7% margin.
+            // For the pre-allocation: We now use a very simple 
+            // prediction model - linear with the number of entries
+            //
+            // Data points (the number of incorrect is only 
+            // what is affecting the size):
+            //
+            //    Date        Incorrect   SQL_tableRows  Average  
+            //                entries     characters     size
+            //    ----------------------------------------------
+            //    2019-12-11  9686        1925736        199 
+            //
+            int correctWordEntries = mWord2URL.Count;
+            int incorrectWordEntries = mCaseCorrection.Count;
+
+            //int capacity = 1200000;
+            //int capacity = 2500000;
+            //
+            // 199 characters per entry, with a 5% margin
+            int capacity = incorrectWordEntries * 209;
+
+            StringBuilder SQL_tableRows = new StringBuilder(capacity);             
 
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
@@ -20004,8 +20159,7 @@ namespace OverflowHelper.core
                               ref mCaseCorrection,
                               ref mWord2URL);
 
-            scratchSB.Append(SQL_tableRows);
-            return scratchSB.ToString();
+            return SQL_tableRows.ToString();
         } //dumpWordList_asSQL()
 
 
@@ -20289,17 +20443,33 @@ namespace OverflowHelper.core
             ref Dictionary<string, string> aWord2URL
             )
         {
-            StringBuilder scratchSB =
-              new StringBuilder(1200000); // 20% margin, 2016-01-31, for 610823.
-            // 2016-07-22: Now, 676067, still 7% margin.
-            // 2019-07-01: Now 1,039,246 bytes.
-            // 2019-08-21: Now 1,079,071 bytes (11% margin)
+            // For the pre-allocation: We now use a very simple prediction 
+            // model - linear with the number of entries.
+            //
+            // Data points (the number of incorrect is only 
+            // what is affecting the size):
+            //
+            //    Date        Incorrect   HTML_tableRows   Average  
+            //                entries     characters       size
+            //    ------------------------------------------------
+            //    2019-12-11  9686        1158618          119.6 
+            //
+            //
+            //    Date        Incorrect   scratchSB        Average  
+            //                entries     characters       size
+            //    ------------------------------------------------
+            //    2019-12-11  9686        1162309          120.0 
+            //
+            int correctWordEntries = aWord2URL.Count;
+            int incorrectWordEntries = aCaseCorrection.Count;
 
-            StringBuilder HTML_tableRows =
-              new StringBuilder(1200000);
-            // 20% margin, 2016-01-31, for 610823.
-            // 2019-08-21: Now 1,076,066 bytes (12% margin)
+            //int capacity = 1200000;
+            //
+            // 120 characters per entry, with a 5% margin
+            int capacity = incorrectWordEntries * 126;
 
+            StringBuilder scratchSB = new StringBuilder(capacity);
+            StringBuilder HTML_tableRows = new StringBuilder(capacity);
 
             // First generate the rows of the main table - so we can compute
             // various statistics while we go through the data structures
@@ -20317,9 +20487,6 @@ namespace OverflowHelper.core
             // The main side effect is the changing of the content
             // of ref HTML_tableRows...
 
-            // 2016-07-22: Now, 676067, still 7% margin.
-
-            int items = aCaseCorrection.Count;
 
             string versionStr = EditorOverflowApplication.fullVersionStr();
 
@@ -20332,7 +20499,7 @@ namespace OverflowHelper.core
 
             //Separate HTML generation for title (used in two places)
             scratchSB.Append("Edit Overflow wordlist. ");
-            scratchSB.Append(items);
+            scratchSB.Append(incorrectWordEntries);
             scratchSB.Append(" input words and ");
             scratchSB.Append(aUniqueWords);
             scratchSB.Append(" output words (for ");
