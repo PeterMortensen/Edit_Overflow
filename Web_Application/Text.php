@@ -53,11 +53,109 @@
 
             # function assert()
 
+
+            function removeTrailingSpace($aText)
+            {
+                # This actually also removes trailing TABs... (as it should)
+                #
+                return preg_replace('/[ \t]+(\r?$)/m', '$1', $aText);
+            }
+
+            function replaceTABS_withSpace($aText)
+            {
+                return preg_replace('/\t/', '    ', $aText);
+            }
+
+            function removeTrailingSpacesAndTABs($aText)
+            {
+                # Order doesn't matter! Trailing TABs are actually
+                # removed by removeTrailingSpace().
+                #
+                $lengthBefore = strlen($aText);
+                $text1 = removeTrailingSpace($aText);
+                $lengthAfter = strlen($text1);
+                $removedTrailingSpaces = $lengthBefore - $lengthAfter;
+
+                $text2 = replaceTABS_withSpace($text1);
+                $lengthAfter2 = strlen($text2);
+
+                # One TAB results in four spaces (three more characters)
+                # What about rounding??
+                $replacedTABs = ($lengthAfter2 - $lengthAfter) / 3;
+
+                $message2 = "";
+                if ($lengthBefore>0)
+                {
+                    $message2 =
+                        "<p>" .
+                        "Replaced $replacedTABs TABs with spaces " .
+                        "and removed $removedTrailingSpaces trailing spaces..." .
+                        "</p>\n";
+                }
+                return [$text2, $message2];
+            }
+
+            function findCommonLeadingSpaces($aText)
+            {
+                return 3; # Stub
+            }
+            
+
+
+            # ----------------------- End of main functions ---------------------------
+
+
+
+            # ---------------- Sort of unit tests ----------------
+
+            # $aLengthDiff is old minus new (so positive if the
+            # new string is shorter).
+            #
+            function assert_strLengths($ID, $aOrigText, $aNewText, $aLengthDiff)
+            {
+                $lenBefore = strlen($aOrigText);
+                $lenAfter  = strlen($aNewText);
+                $diff = $lenBefore - $lenAfter;
+
+                if (! ($diff === $aLengthDiff))
+                {
+                    echo "Failed test. ID: $ID. $lenBefore characters before. " .
+                         "$lenAfter characters after. " .
+                         "Expected difference: $aLengthDiff. Actual: $diff\n";
+
+                    echo "Before: >>>$aOrigText<<<. \n";
+                    echo "After:  >>>$aNewText<<<. \n";
+                    assert(false);
+                }
+            }
+
+            function test_removeTrailingSpacesAndTABs($ID, $aSomeText, $aLengthDiff)
+            {
+                [$touchedText] = removeTrailingSpacesAndTABs($aSomeText);
+                assert_strLengths($ID,
+                                  $aSomeText,
+                                  $touchedText,
+                                  $aLengthDiff);
+            }
+
+            test_removeTrailingSpacesAndTABs(1, "XX "           ,  1);
+            test_removeTrailingSpacesAndTABs(2, "X XX  XXX X\t ",  2);
+            test_removeTrailingSpacesAndTABs(3, "X XX  XXX X \t",  2);
+            test_removeTrailingSpacesAndTABs(4, "X XX  XXX X"   ,  0);
+            test_removeTrailingSpacesAndTABs(5, "X XX \t XXX X" , -3);
+
+            [$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
+            #echo "<p>someMessage: $someMessage</p>";
+            
+            
+            # -------------------------------------------------------------
+
+
+
             const MAINTEXT = 'someText';
 
             $message = "";
             $extraMessage = "";
-
 
             #assert(array_key_exists('function', $_REQUEST));  # From example:  isset($this->records)
             #
@@ -90,7 +188,7 @@
                 # should be adressed some day
                 if ($formDataSizeDiff > 0)
                 {
-                    $extraMessage = 
+                    $extraMessage =
                       $formDataSizeDiff .
                       " characters saved from WordPress madness...";
                 }
@@ -122,7 +220,9 @@
                 #$someText = htmlentities($_REQUEST['someText']);
 
 
-                $lengthBefore = strlen($someText);
+                #Remove at any time
+                #$lengthBefore = strlen($someText);
+
                 $actionStr = $_REQUEST['action'];
 
                 switch ($actionStr)
@@ -130,27 +230,8 @@
                     case "Remove TABs and trailing whitespace":
                         #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
 
-                        # This also works...
-                        $someText = preg_replace('/[ \t]+(\r?$)/m', '$1', $someText);
+                        [$someText, $message] = removeTrailingSpacesAndTABs($someText);
 
-                        $lengthAfter = strlen($someText);
-
-                        $removedTrailingSpaces = $lengthBefore - $lengthAfter;
-
-                        $someText = preg_replace('/\t/', '    ', $someText);
-                        $lengthAfter2 = strlen($someText);
-
-                        # One TAB results in four spaces (three more characters)
-                        $replacedTABs = ($lengthAfter2 - $lengthAfter) / 3; # What about rounding??
-
-                        if ($lengthBefore>0)
-                        {
-                            $message =
-                                "<p>" .
-                                "Replaced $replacedTABs TABs with spaces " .
-                                "and removed $removedTrailingSpaces trailing spaces..." .
-                                "</p>\n";
-                        }
                         break;
 
                     case "Format as keyboard":
