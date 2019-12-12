@@ -125,6 +125,15 @@ be ignored and in most cases the result will be an error message from AmForth.
 
 ## Released versions
 
+### Version 1.1.49 (2019-11-01):
+
+Note: [Installation problems on some Windows system][201]
+
+ * Changed: XXXX
+ * Added: XXX
+ * Added more words ([now at 9009 input words and 2796 output words][136]).
+
+
 ### Version 1.1.48:
 
  * Changed: Menu command to prepare YouTube comments now handles
@@ -261,8 +270,12 @@ or constructive critisism are welcome.
 
   [40]: http://pmortensen.eu/
 
+  [136]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html
   [135]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html
   [134]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-03-30.html
 
   [150]: http://pmortensen.eu/world/EditOverflow1.html
+
+  [201]: https://github.com/PeterMortensen/Edit_Overflow/issues/1
+
 
