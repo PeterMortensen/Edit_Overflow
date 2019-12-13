@@ -2430,6 +2430,7 @@ namespace OverflowHelper.core
             correctionAdd("HTml", "HTML");
             correctionAdd("hrml", "HTML");
             correctionAdd("htmp", "HTML");
+            correctionAdd("hmtl", "HTML");
 
             correctionAdd("firefox", "Firefox");
             correctionAdd("firfox", "Firefox");
@@ -8345,6 +8346,7 @@ namespace OverflowHelper.core
             correctionAdd("AVRDude", "AVRDUDE");
 
             correctionAdd("avr", "AVR");
+            correctionAdd("Avr", "AVR");
 
             correctionAdd("Sketchup", "SketchUp");
 
@@ -9168,6 +9170,7 @@ namespace OverflowHelper.core
             correctionAdd("availaible", "available");
             correctionAdd("avalible", "available");
             correctionAdd("availible", "available");
+            correctionAdd("avaiable", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -10132,6 +10135,11 @@ namespace OverflowHelper.core
             correctionAdd("atmega 328p", "ATmega328P");
             correctionAdd("ATmega 328p", "ATmega328P");
             correctionAdd("ATmega 328P", "ATmega328P");
+            correctionAdd("ATmega328p", "ATmega328P");
+            correctionAdd("Atmega-328", "ATmega328P");
+            correctionAdd("ATmega-328", "ATmega328P");
+            correctionAdd("ATmega-328p", "ATmega328P");
+            correctionAdd("ATmega-328P", "ATmega328P");
 
             correctionAdd("anaconda", "Anaconda");
 
@@ -11335,6 +11343,7 @@ namespace OverflowHelper.core
             correctionAdd("atmega", "ATmega");
             correctionAdd("ATMega", "ATmega");
             correctionAdd("ATMEGA", "ATmega");
+            correctionAdd("Atmega", "ATmega");
 
             correctionAdd("delhi", "Delhi");
 
@@ -11637,6 +11646,7 @@ namespace OverflowHelper.core
             correctionAdd("disasterous", "disastrous");
 
             correctionAdd("eaay", "easy");
+            correctionAdd("rasy", "easy");
 
             correctionAdd("gamfication", "gamification");
             correctionAdd("gameification", "gamification");
@@ -13488,6 +13498,7 @@ namespace OverflowHelper.core
 
             correctionAdd("back slash", "backslash");
             correctionAdd("backlash", "backslash");
+            correctionAdd("baskslash", "backslash");
 
             correctionAdd("bulletpoint", "bullet point");
 
@@ -13531,6 +13542,41 @@ namespace OverflowHelper.core
                                           //    INSERT INTO EditOverflow
                                           //    (incorrectTerm, correctTerm, URL)
                                           //    VALUES('I\\O', 'I/O', 'http://en.wikipedia.org/wiki/Input/output');
+
+            correctionAdd("ATMEGA32", "ATmega32");
+            correctionAdd("ATMEGA 32", "ATmega32");
+            correctionAdd("ATMega32", "ATmega32");
+
+            correctionAdd("oom", "OOM");
+
+            correctionAdd("phpunit", "PHPUnit");
+
+            correctionAdd("destructuring", "destructuring assignment");
+
+            correctionAdd("erlier", "earlier");
+
+            correctionAdd("hapen", "happen");
+
+            correctionAdd("hapens", "happens");
+
+            correctionAdd("my self", "myself");
+
+            correctionAdd("resul", "result");
+
+            correctionAdd("returnig", "returning");
+
+            correctionAdd("stuf", "stuff");
+
+            correctionAdd("unlimeted", "unlimited");
+
+            correctionAdd("uesr", "user");
+
+            correctionAdd("Preg_replace", "preg_replace");
+
+            correctionAdd("Preg_match", "preg_match");
+
+            correctionAdd("Preg_match_all", "preg_match_all");
+
 
 
             //HACK: AASDASD
@@ -15089,7 +15135,7 @@ namespace OverflowHelper.core
 
             URL_Add("LED", "http://en.wikipedia.org/wiki/Light-emitting_diode");
 
-            URL_Add("Experts-Exchange", "http://en.wikipedia.org/wiki/Experts-Exchange");            
+            URL_Add("Experts-Exchange", "http://en.wikipedia.org/wiki/Experts-Exchange");
 
             URL_Add("Asus", "http://en.wikipedia.org/wiki/Asus");
 
@@ -19820,6 +19866,38 @@ namespace OverflowHelper.core
 
             URL_Add("vocabulary", "https://en.wiktionary.org/wiki/vocabulary#Noun");
 
+            URL_Add("ATmega32", "https://www.microchip.com/wwwproducts/en/ATmega32");
+
+            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
+
+            URL_Add("PHPUnit", "https://en.wikipedia.org/wiki/PHPUnit");
+
+            URL_Add("destructuring assignment", "https://en.wikipedia.org/wiki/Assignment_(computer_science)#Parallel_assignment");
+
+            URL_Add("earlier", "https://en.wiktionary.org/wiki/earlier#Adverb");
+
+            URL_Add("happen", "https://en.wiktionary.org/wiki/happen#Verb");
+
+            URL_Add("happens", "https://en.wiktionary.org/wiki/happen#Verb");
+
+            URL_Add("myself", "https://en.wiktionary.org/wiki/myself#Pronoun");
+
+            URL_Add("preg_match", "https://www.php.net/manual/en/function.preg-match.php");
+
+            URL_Add("preg_match_all", "https://www.php.net/manual/en/function.preg-match-all.php");
+
+            URL_Add("preg_replace", "https://www.php.net/manual/en/function.preg-replace.php");
+
+            URL_Add("result", "https://en.wiktionary.org/wiki/result#Noun");
+
+            URL_Add("returning", "https://en.wiktionary.org/wiki/return#Verb");
+
+            URL_Add("stuff", "https://en.wiktionary.org/wiki/stuff#Noun");
+
+            URL_Add("unlimited", "https://en.wiktionary.org/wiki/unlimited#Adjective");
+
+            URL_Add("user", "https://en.wiktionary.org/wiki/user#Noun");
+
 
 
 
@@ -19902,8 +19980,8 @@ namespace OverflowHelper.core
             string effectiveBadTerm = aBadTerm2;
             string effectiveCorrectedTerm = aCorrectedTerm2;
 
-            // Escaping of SQL. For now, only backslash. We need 
-            // more, though. We can refactor and reduce the 
+            // Escaping of SQL. For now, only backslash. We need
+            // more, though. We can refactor and reduce the
             // redundancy when we generalise.
             //
             // In any case, we should have some unit test, including
@@ -19912,7 +19990,7 @@ namespace OverflowHelper.core
             //
             if (effectiveBadTerm.IndexOf(@"\") >= 0)
 	        {
-                effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");		 
+                effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");
           	}
             if (effectiveCorrectedTerm.IndexOf(@"\") >= 0)
             {
@@ -20126,16 +20204,16 @@ namespace OverflowHelper.core
         public string dumpWordList_asSQL()
         {
 
-            // For the pre-allocation: We now use a very simple 
+            // For the pre-allocation: We now use a very simple
             // prediction model - linear with the number of entries
             //
-            // Data points (the number of incorrect is only 
+            // Data points (the number of incorrect is only
             // what is affecting the size):
             //
-            //    Date        Incorrect   SQL_tableRows  Average  
+            //    Date        Incorrect   SQL_tableRows  Average
             //                entries     characters     size
             //    ----------------------------------------------
-            //    2019-12-11  9686        1925736        199 
+            //    2019-12-11  9686        1925736        199
             //
             int correctWordEntries = mWord2URL.Count;
             int incorrectWordEntries = mCaseCorrection.Count;
@@ -20146,7 +20224,7 @@ namespace OverflowHelper.core
             // 199 characters per entry, with a 5% margin
             int capacity = incorrectWordEntries * 209;
 
-            StringBuilder SQL_tableRows = new StringBuilder(capacity);             
+            StringBuilder SQL_tableRows = new StringBuilder(capacity);
 
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
@@ -20443,22 +20521,22 @@ namespace OverflowHelper.core
             ref Dictionary<string, string> aWord2URL
             )
         {
-            // For the pre-allocation: We now use a very simple prediction 
+            // For the pre-allocation: We now use a very simple prediction
             // model - linear with the number of entries.
             //
-            // Data points (the number of incorrect is only 
+            // Data points (the number of incorrect is only
             // what is affecting the size):
             //
-            //    Date        Incorrect   HTML_tableRows   Average  
+            //    Date        Incorrect   HTML_tableRows   Average
             //                entries     characters       size
             //    ------------------------------------------------
-            //    2019-12-11  9686        1158618          119.6 
+            //    2019-12-11  9686        1158618          119.6
             //
             //
-            //    Date        Incorrect   scratchSB        Average  
+            //    Date        Incorrect   scratchSB        Average
             //                entries     characters       size
             //    ------------------------------------------------
-            //    2019-12-11  9686        1162309          120.0 
+            //    2019-12-11  9686        1162309          120.0
             //
             int correctWordEntries = aWord2URL.Count;
             int incorrectWordEntries = aCaseCorrection.Count;
