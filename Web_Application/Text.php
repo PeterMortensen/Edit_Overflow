@@ -95,15 +95,73 @@
                 return [$text2, $message2];
             }
 
+            # Note: This (first) version only works well if
+            #       there are actually some leading space
+            #       in some line.
+            #
             function findCommonLeadingSpaces($aText)
             {
-                return 3; # Stub
+                #$lines = explode("\n", $aText);
+                #$lines = explode("\r", $aText);
+                $lines = explode("\r\n", $aText); # This works. But why???
+                                                  # We are on Firefox on
+                                                  # Linux. This looks like
+                                                  # Windows!
+
+                $commonLeadingSpaces = 9999;
+
+                foreach ($lines as $key => $item)
+                {
+                    #echo '<p>Line: ' . $item . '</p>' . "\n";
+
+                    if (preg_match('/^(\s+)/', $item, $out))
+                    {
+                        #echo '<p>Leading space: xxx' . $out[0] . 'xxx </p>' . "\n";
+
+                        $leadingSpaces = strlen($out[0]);
+
+                        #echo '<p>Number of leading spaces: ' . $leadingSpaces . '</p>' . "\n" . "\n";
+
+                        # Update the minimum (for lines)
+                        if ($leadingSpaces < $commonLeadingSpaces)
+                        {
+                            $commonLeadingSpaces = $leadingSpaces;
+                        }
+                    }
+                }
+                if ($commonLeadingSpaces > 5000)
+                {
+                    # We didn't find any leading space in any line...
+                    $commonLeadingSpaces = 0;
+                }
+                return $commonLeadingSpaces;
             }
-            
+
+            function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
+            {
+                $lines = explode("\n", $aText);
+
+                # $toRemove = " " x $aLeadingSpaces;
+                $toRemove = str_repeat (" ", $aLeadingSpaces);
+
+                #echo '<p>To remove: xxx' . $toRemove . 'xxx </p>' . "\n";
+
+                $newContent = array();
+                foreach ($lines as $key => $item)
+                {
+                    #echo '<p>Line: ' . $item . '</p>';
+
+                    $item2 = preg_replace("/^$toRemove/", '', $item);
+
+                    array_push($newContent, $item2);
+
+                    #echo '<p>New line: xxx' . $item2 . 'xxx </p>' . "\n";
+                }
+                return implode("\n", $newContent);
+            }
 
 
             # ----------------------- End of main functions ---------------------------
-
 
 
             # ---------------- Sort of unit tests ----------------
@@ -146,10 +204,8 @@
 
             [$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
             #echo "<p>someMessage: $someMessage</p>";
-            
-            
-            # -------------------------------------------------------------
 
+            # -------------------------------------------------------------
 
 
             const MAINTEXT = 'someText';
@@ -172,7 +228,6 @@
             $someText = "";
             if (array_key_exists(MAINTEXT, $_REQUEST))
             {
-
                 # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
                 # The problem is solely due to WordPress (we would't need if
                 # it wasn't for the use of/integration into WordPress).
@@ -192,7 +247,6 @@
                       $formDataSizeDiff .
                       " characters saved from WordPress madness...";
                 }
-
 
                 $someText = htmlentities($_REQUEST[MAINTEXT]);
 
@@ -228,19 +282,21 @@
                 switch ($actionStr)
                 {
                     case "Remove TABs and trailing whitespace":
+
                         #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
 
                         [$someText, $message] = removeTrailingSpacesAndTABs($someText);
-
                         break;
 
                     case "Format as keyboard":
 
                         #echo '<p>Actions for: Format as keyboard</p>';
+
                         $someText = "<kbd>$someText</kbd>";
                         break;
 
                     case "Quote as code":
+
                         $someText = "`$someText`";
                         break;
 
@@ -290,6 +346,17 @@
                         $someText = $replacer->currentString();
                         break;
 
+                    case "Remove common leading space":
+
+                        #echo '<h3>Lines...</h3>' . "\n";
+
+                        $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
+                        $someText = removeCommonLeadingSpaces($someText, $leadingSpaceToRemove);
+                        
+                        $message = "<p>Removed " . $leadingSpaceToRemove . 
+                                   " leading spaces from all lines...</p>\n";
+                        break;
+
                     default:
                         assert(0, "Switch fall-through...");
                 }
@@ -333,7 +400,7 @@
                 id="LookUp"
                 class="XYZ3"
                 value="Remove TABs and trailing whitespace"
-                style="width:250px;"
+                style="width:260px;"
                 accesskey="U"
                 title="Shortcut: Shift + Alt + U"
             />
@@ -381,10 +448,24 @@
                 id="LookUp29"
                 class="XYZ29"
                 value="Transform for YouTube comments"
-                style="width:150px;"
+                style="width:240px;"
                 accesskey="Y"
                 title="Shortcut: Shift + Alt + Y"
             />
+
+            <!-- Submit button  -->
+            <input
+                name="action"
+                type="Submit"
+                id="LookUp30"
+                class="XYZ30"
+                value="Remove common leading space"
+                style="width:230px;"
+                accesskey="X"
+                title="Shortcut: Shift + Alt + X"
+            />
+
+
 
         </form>
 
