@@ -55,8 +55,8 @@
                    class=""
                    value="Active reading [<URL1> <URL2>]. "
                    style="width:210px;"
-                   accesskey="R"
-                   title="Shortcut: Shift + Alt + R"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
                />
             </p>
 
@@ -264,8 +264,8 @@
                />
             </p>
 
-            <p>The "How to ... ?" form for a question is not a good one 
-               (does not follow 
+            <p>The "How to ... ?" form for a question is not a good one
+               (does not follow
                <a href="https://www.youtube.com/watch?v=kS5NfSzXfrI"
                >QUASM</a>)<br/>
                <input
@@ -349,6 +349,25 @@
                    style="width:310px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
+               />
+            </p>
+
+            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences"
+               >Run-on sentences</a> 
+               (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
+               >YouTube video</a>).
+               Mostly native speakers (more pronounced for US native
+               speakers), but also for minimum-effort users: <br/>
+
+               <input
+                   name="X26"
+                   type="text"
+                   id="X26"
+                   class=""
+                   value="&lt;https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences> (see also &lt;https://twitter.com/PeterMortensen/status/1199839973215739907>) "
+                   style="width:310px;"
+                   accesskey="R"
+                   title="Shortcut: Shift + Alt + R"
                />
             </p>
 
