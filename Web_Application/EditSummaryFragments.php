@@ -54,7 +54,7 @@
                    id="X1"
                    class=""
                    value="Active reading [<URL1> <URL2>]. "
-                   style="width:210px;"
+                   style="width:230px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
                />
@@ -80,7 +80,7 @@
                    id="X3"
                    class=""
                    value="Dressed the naked link. "
-                   style="width:160px;"
+                   style="width:170px;"
                    accesskey="N"
                    title="Shortcut: Shift + Alt + N"
                />
@@ -93,7 +93,7 @@
                    id="X4"
                    class=""
                    value="Applied some formatting. "
-                   style="width:160px;"
+                   style="width:170px;"
                    accesskey="F"
                    title="Shortcut: Shift + Alt + F"
                />
@@ -106,7 +106,7 @@
                    id="X5"
                    class=""
                    value="Fixed the indentation. "
-                   style="width:140px;"
+                   style="width:150px;"
                    accesskey="I"
                    title="Shortcut: Shift + Alt + I"
                />
@@ -119,7 +119,7 @@
                    id="X6"
                    class=""
                    value="Expanded. "
-                   style="width:80px;"
+                   style="width:90px;"
                    accesskey="P"
                    title="Shortcut: Shift + Alt + P"
                />
@@ -147,7 +147,7 @@
                    id="X14"
                    class=""
                    value="Removed meta information (this belongs in comments). "
-                   style="width:340px;"
+                   style="width:360px;"
                    accesskey="M"
                    title="Shortcut: Shift + Alt + M"
                />
@@ -176,7 +176,7 @@
                    id="X15"
                    class=""
                    value="Changed to sentence casing for the title. "
-                   style="width:250px;"
+                   style="width:270px;"
                    accesskey="L"
                    title="Shortcut: Shift + Alt + L"
                />
@@ -191,7 +191,7 @@
                    id="X16"
                    class=""
                    value="Used more standard formatting. "
-                   style="width:200px;"
+                   style="width:220px;"
                    accesskey="G"
                    title="Shortcut: Shift + Alt + G"
                />
@@ -311,7 +311,7 @@
                    id="X22"
                    class=""
                    value="&lt;http://www.wikihow.com/Use-You%27re-and-Your> "
-                   style="width:310px;"
+                   style="width:340px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
                />
@@ -329,7 +329,7 @@
                    id="X23"
                    class=""
                    value="&lt;http://www.wikihow.com/Use-There,-Their-and-They%27re> "
-                   style="width:310px;"
+                   style="width:400px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
                />
@@ -346,7 +346,7 @@
                    id="X24"
                    class=""
                    value="&lt;http://www.wikihow.com/Use-Affect-and-Effect-Properly> "
-                   style="width:310px;"
+                   style="width:380px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
                />
@@ -365,7 +365,7 @@
                    id="X26"
                    class=""
                    value="&lt;https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences> (see also &lt;https://twitter.com/PeterMortensen/status/1199839973215739907>) "
-                   style="width:310px;"
+                   style="width:590px;"
                    accesskey="R"
                    title="Shortcut: Shift + Alt + R"
                />
@@ -399,7 +399,7 @@
                    id="X10"
                    class=""
                    value="&lt;https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s> "
-                   style="width:310px;"
+                   style="width:410px;"
                    accesskey="A"
                    title="Shortcut: Shift + Alt + A"
                />
@@ -415,7 +415,7 @@
                    id="X11"
                    class=""
                    value="&lt;https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s> "
-                   style="width:310px;"
+                   style="width:410px;"
                    accesskey="T"
                    title="Shortcut: Shift + Alt + T"
                />
@@ -430,7 +430,7 @@
                    id="X12"
                    class=""
                    value="&lt;http://english.stackexchange.com/questions/15953> "
-                   style="width:310px;"
+                   style="width:350px;"
                    accesskey="Q"
                    title="Shortcut: Shift + Alt + Q"
                />
@@ -446,7 +446,7 @@
                    id="X21"
                    class=""
                    value="&lt;https://www.youtube.com/watch?v=1Dax90QyXgI&t=0m38s> "
-                   style="width:310px;"
+                   style="width:410px;"
                    accesskey="H"
                    title="Shortcut: Shift + Alt + H"
                />
