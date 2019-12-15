@@ -1,45 +1,21 @@
-<?php include("commonStart.php"); ?>
-
 
 <!-- Successor to EditSummaryFragments.html, at least for now to get
      the WordPress styling. But perhaps we can instead
      move this (effectively) static page into the
-     WordPress system?   -->
+     WordPress system?
 
+     Though we don't get things like a centralised place for
+     the Edit Overflow version. Or other redundancy-reducing
+     measures.
 
-
-<!-- Old
-<!DOCTYPE html>
-<html lang="en">
 -->
 
-    <!--
-      This page is to be dynamic (or static generated) - there
-      is too much redundancy and manual editing.
-    -->
+<?php include("commonStart.php"); ?>
 
 
-    <!--
-
-
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <title>Some edit summary fragments - Edit Overflow</title>
-
-        <style>
-            body {
-                background-color: lightgrey;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
--->
-
-
-        <h1>Some edit summary fragments - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
+        <?php
+            the_EditOverflowHeadline("Some edit summary fragments");
+        ?>
 
         <form
             name="XYZ"
@@ -273,7 +249,7 @@
                    type="text"
                    id="X25"
                    class=""
-                   value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s>. "
+                   value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. &lt;https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also &lt;https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)). "
                    style="width:680px;"
                    accesskey="Z"
                    title="Shortcut: Shift + Alt + Z"
@@ -281,7 +257,7 @@
             </p>
 
 
-            <!-- ----------------------------------------------------- -->
+            <!-- ===================================================== -->
             <hr/>
             <h2>Pure links</h2>
 
@@ -353,7 +329,7 @@
             </p>
 
             <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences"
-               >Run-on sentences</a> 
+               >Run-on sentences</a>
                (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
                >YouTube video</a>).
                Mostly native speakers (more pronounced for US native
@@ -469,7 +445,6 @@
             -->
 
 
-
             <!--
                 Submit button  - it ought to be invisible!
             -->
@@ -515,22 +490,22 @@
                 so this validation actually works!
             -->
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditSummaryFragments.html"
+                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditSummaryFragments.php"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
             >HTML validation</a>.
 
+            <a
+                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditSummaryFragments.php&amp;amp;OverflowStyle=Native"
+                accesskey="V"
+                title="Shortcut: Shift + Alt + V"
+            >HTML validation (no WordPressZZZ)</a>.
+
         </p>
 
 
-<!--
-    </body>
-</html>
--->
+<?php include("commonEnd.php"); ?>
 
 
-<?php # From WordPress...
-    get_footer();
-?>
 
 
