@@ -90,7 +90,7 @@
         <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 -->
 
-        <h1>Edit Overflow v. 1.1.49a4 2019-12-15T001342</h1>
+        <h1>Edit Overflow v. 1.1.49a4 2019-12-15T004929</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
@@ -214,6 +214,9 @@
                 # The structured way (that we actually use now)
                 $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____" for the
                                                                      #      first item
+
+                $linkInlineMarkdown = "[$correctTerm]($URL)";
+                # $linkInlineMarkdown = "";
             }
             else
             {
@@ -222,6 +225,8 @@
                 # instead (now redundancy with the below)?
                 $editSummary_output  = "";
                 $editSummary_output2 = "";
+                
+                $linkInlineMarkdown = "";
             }
 
             # At the end, as we want it completely blank. That is, only
@@ -394,7 +399,8 @@
                         #
                         # This is only until we will use something more
                         # sophisticated (like in the Windows desktop
-                        # version of Edit Overflow).
+                        # version of Edit Overflow) - where we preserve
+                        # any leading and trailing white space.
 
                         $itemValue = "$correctTerm ";
                         if (!$correctTerm)
@@ -450,6 +456,24 @@
                     accesskey="E"
                     title="Shortcut: Shift + Alt + E"
                 />
+
+                <label for="URL2"><b></b></label>
+                <input
+                    name="URL2"
+                    type="text"
+                    id="URL2"
+                    class="XYZ90"
+                    <?php
+                      #Refactor opportunity: encoding a
+                      #value for a form text element...
+
+                      echo "value=\"$linkInlineMarkdown\"\n";
+                    ?>
+                    style="width:400px;"
+                    accesskey="I"
+                    title="Shortcut: Shift + Alt + I"
+                />
+
 
                 <?php
                     #No, not for now. But do consider it.
