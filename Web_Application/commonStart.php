@@ -25,7 +25,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a5 2019-12-17T064405Z+0";
+        return "Edit Overflow v. 1.1.49a5 2019-12-17T153548Z+0";
     }
 
 
@@ -43,11 +43,10 @@
     #
     function useWordPress()
     {
-        # That is, if we pass OverflowStyle (by GET or POST), we can
-        # turn off the WordPress part (e.g. to ease HTML
-        # validation (for example, when using WordPress, we got 29
-        # issues in totoal (XX errors and XX warnings) for
-        # "EditSummaryFragments.php")).
+        # That is, if we pass OverflowStyle (by GET or POST), we can turn 
+        # off the WordPress part (e.g. to ease HTML validation (for 
+        # example, when using WordPress, we got 29 issues in total 
+        # (14 errors and 15 warnings) for "EditSummaryFragments.php")).
         #
         # Examples:
         #

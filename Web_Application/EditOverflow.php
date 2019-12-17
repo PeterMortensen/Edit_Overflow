@@ -479,8 +479,6 @@
                 -->
 
                 <input
-                    action="EditOverflow.php"
-
                     name="XYZ"
                     type="submit"
                     id="LookUp"
@@ -543,10 +541,15 @@
                 so this validation actually works!
             -->
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php"
+                accesskey="W"
+                title="Shortcut: Shift + Alt + W"
+            >HTML validation</a>.
+            <a
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php%3FOverflowStyle%3DNative"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
-            >HTML validation</a>.
+            >HTML validation (no WordPress)</a>.
         </p>
 
         <p>Proudly and unapologetic powered by PHP!</p>
