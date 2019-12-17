@@ -25,7 +25,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a5 2019-12-17T153548Z+0";
+        return "Edit Overflow v. 1.1.49a5 2019-12-17T210118Z+0";
     }
 
 
@@ -75,6 +75,18 @@
         }
         return $toReturn;
     } #useWordPress()
+
+
+    # Single place for output of dynamic "value" attributes in HTML forms.
+    function the_formValue($aRawContentlinkInlineMarkdown)
+    {
+        # Later: Make it more robust - encode double 
+        #        quote (") as "&quot;". Probably 
+        #        also single quote.
+    
+        echo "value=\"$aRawContentlinkInlineMarkdown\"\n";
+    }
+
 
     # ########   E n d   o f   f u n c t i o n   d e f i n i t i o n s   ########
 

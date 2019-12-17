@@ -316,9 +316,7 @@
                     type="text"
                     id="LookUpTerm"
                     class="XYZ3"
-                    <?php
-                      echo "value=\"$lookUpTerm\"\n";
-                    ?>
+                    <?php the_formValue($lookUpTerm); ?>
                     style="width:110px;"
                     accesskey="L"
                     title="Shortcut: Shift + Alt + L"
@@ -347,7 +345,7 @@
                             $itemValue .= "..."; # To force the form input
                                                  # field to not be empty
                         }
-                        echo "value=\"$itemValue\"\n";
+                        the_formValue($itemValue);
                     ?>
                     style="width:110px;"
                     accesskey="C"
@@ -360,9 +358,7 @@
                     type="text"
                     id="editSummary_output"
                     class="XYZ4"
-                    <?php
-                      echo "value=\"$editSummary_output\"\n";
-                    ?>
+                    <?php the_formValue($editSummary_output); ?>
                     style="width:600px;"
                     accesskey="M"
                     title="Shortcut: Shift + Alt + M"
@@ -374,9 +370,7 @@
                     type="text"
                     id="editSummary_output2"
                     class="XYZ89"
-                    <?php
-                      echo "value=\"$editSummary_output2\"\n";
-                    ?>
+                    <?php the_formValue($editSummary_output2); ?>
                     style="width:600px;"
                     accesskey="O"
                     title="Shortcut: Shift + Alt + O"
@@ -388,9 +382,7 @@
                     type="text"
                     id="URL"
                     class="XYZ3"
-                    <?php
-                      echo "value=\"$URL\"\n";
-                    ?>
+                    <?php the_formValue($URL); ?>
                     style="width:400px;"
                     accesskey="E"
                     title="Shortcut: Shift + Alt + E"
@@ -402,12 +394,8 @@
                     type="text"
                     id="URL2"
                     class="XYZ90"
-                    <?php
-                      #Refactor opportunity: encoding a
-                      #value for a form text element...
+                    <?php the_formValue($linkInlineMarkdown); ?>
 
-                      echo "value=\"$linkInlineMarkdown\"\n";
-                    ?>
                     style="width:400px;"
                     accesskey="I"
                     title="Shortcut: Shift + Alt + I"
@@ -440,9 +428,7 @@
                     type="hidden"
                     id="editSummary"
                     class="XYZ5"
-                    <?php
-                      echo "value=\"$editSummary\"\n";
-                    ?>
+                    <?php the_formValue($editSummary); ?>
                 />
 
 
@@ -452,9 +438,7 @@
                     type="hidden"
                     id="URLlist_encoded"
                     class="XYZ6"
-                    <?php
-                      echo "value=\"$URLlist_encoded\"\n";
-                    ?>
+                    <?php the_formValue($URLlist_encoded); ?>
                 />
 
 

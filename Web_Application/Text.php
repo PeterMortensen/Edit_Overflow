@@ -1,6 +1,5 @@
 
 <?php
-
      #    Strange things are happening when this WordPress thing is
      #    included (a fix was added 2019-11-30, and finally
      #    another one fix 2019-12-10).
@@ -16,37 +15,17 @@
      #         (returned form data is escaped). The workaound
      #         was to remove backslashes (this may be
      #         sufficient as we don't )
-     #
-     #
-     include("commonStart.php"); # Use headers supplied from WordPress, etc...
-
 ?>
 
 
-
-<!-- Old
-<!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <title>Text stuff</title>
-
-        <style>
-            body
-            {
-                background-color: lightgrey;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
--->
+<?php include("commonStart.php"); ?>
 
 
-        <h1>Text stuff - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
+        <?php
+            the_EditOverflowHeadline("Text Stuff");
+        ?>
+
+
 
         <?php
             require_once('StringReplacerWithRegex.php');
@@ -496,23 +475,19 @@
             >Environment information</a>.
 
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php"
+                accesskey="W"
+                title="Shortcut: Shift + Alt + W"
+            >HTML validation</a>.
+            <a
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php%3FOverflowStyle=Native"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
-            >HTML validation</a>.
+            >HTML validation (no WordPress)</a>.
         </p>
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<!--
-    </body>
-</html>
--->
-
-
-<?php # From WordPress...
-      get_footer();
-?>
-
+<?php include("commonEnd.php"); ?>
 
