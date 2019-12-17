@@ -10242,6 +10242,7 @@ namespace OverflowHelper.core
             correctionAdd("requiere", "require");
 
             correctionAdd("particuarly", "particularly");
+            correctionAdd("particulary", "particularly");
 
             correctionAdd("particuliar", "particular");
             correctionAdd("perticular", "particular");
@@ -13640,6 +13641,53 @@ namespace OverflowHelper.core
 
             correctionAdd("reenable", "re-enable");
 
+            correctionAdd(".profile", ".profile file");
+
+            correctionAdd("Blazer", "Blazor");
+
+            correctionAdd("ETW", "Event Tracing for Windows");
+
+            correctionAdd("IdeaSpace", "IdeaSpaceVR");
+
+            correctionAdd("lumen", "Lumen");
+
+            correctionAdd("sgml", "SGML");
+
+            correctionAdd("silex", "Silex");
+
+            correctionAdd("wayland", "Wayland");
+
+            correctionAdd("Wasm", "WebAssembly");
+            correctionAdd("WASM", "WebAssembly");
+
+            correctionAdd("webvr", "WebVR");
+
+            correctionAdd("aestetics", "aesthetics");
+            correctionAdd("esthetics", "aesthetics");
+            correctionAdd("estetics", "aesthetics");
+
+            correctionAdd("down-side", "downside");
+
+            correctionAdd("Ktrace", "ktrace");
+
+            correctionAdd("proced", "proceed");
+
+            correctionAdd("programatical", "programmatical");
+
+            correctionAdd("Ptrace", "ptrace");
+
+            correctionAdd("web hotel", "shared web hosting service");
+
+            correctionAdd("Sigil", "sigil");
+
+            correctionAdd("most simple", "simplest");
+
+            correctionAdd("step by step", "step-by-step");
+
+            correctionAdd("VR", "virtual reality");
+
+            correctionAdd("XPERF", "xperf");
+
 
 
             //HACK: AASDASD
@@ -13858,7 +13906,7 @@ namespace OverflowHelper.core
 
             URL_Add("TA", "http://en.wikipedia.org/wiki/Teaching_assistant");
 
-            URL_Add("CodeIgniter", "http://en.wikipedia.org/wiki/Codeigniter#CodeIgniter");
+            URL_Add("CodeIgniter", "https://en.wikipedia.org/wiki/CodeIgniter"); //Old: http://en.wikipedia.org/wiki/Codeigniter#CodeIgniter
 
             URL_Add("GlassFish", "http://en.wikipedia.org/wiki/GlassFish");
 
@@ -20008,6 +20056,50 @@ namespace OverflowHelper.core
             URL_Add("ampersand", "https://en.wikipedia.org/wiki/Ampersand");
 
             URL_Add("re-enable", "https://en.wiktionary.org/wiki/re-enable#Verb");
+
+            URL_Add(".profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables");
+
+            URL_Add("Blazor", "https://en.wikipedia.org/wiki/Blazor");
+
+            URL_Add("Event Tracing for Windows", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/event-tracing-for-windows");
+
+            URL_Add("IdeaSpaceVR", "https://github.com/IdeaSpaceVR/");
+
+            URL_Add("Lumen", "https://en.wikipedia.org/wiki/Lumen_(software)");
+
+            URL_Add("SGML", "https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language");
+
+            URL_Add("Silex", "https://en.wikipedia.org/wiki/Silex_(web_framework)");
+
+            URL_Add("Wayland", "https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)");
+
+            URL_Add("WebAssembly", "https://en.wikipedia.org/wiki/WebAssembly");
+
+            URL_Add("WebVR", "https://en.wikipedia.org/wiki/WebVR");
+
+            URL_Add("aesthetics", "https://en.wikipedia.org/wiki/Applied_aesthetics#Information_technology");
+
+            URL_Add("downside", "https://en.wiktionary.org/wiki/downside#Noun");
+
+            URL_Add("ktrace", "https://en.wikipedia.org/wiki/Ktrace");
+
+            URL_Add("proceed", "https://en.wiktionary.org/wiki/proceed#Verb");
+
+            URL_Add("programmatical", "https://en.wiktionary.org/wiki/programmatical#Adjective");
+
+            URL_Add("ptrace", "https://en.wikipedia.org/wiki/Ptrace");
+
+            URL_Add("shared web hosting service", "https://en.wikipedia.org/wiki/Web_hosting_service#Shared_web_hosting_service");
+
+            URL_Add("sigil", "https://en.wikipedia.org/wiki/Sigil_(computer_programming)");
+
+            URL_Add("simplest", "https://en.wiktionary.org/wiki/simplest#Adjective");
+
+            URL_Add("step-by-step", "https://en.wiktionary.org/wiki/step-by-step#Adjective");
+
+            URL_Add("virtual reality", "https://en.wikipedia.org/wiki/Virtual_reality");
+
+            URL_Add("xperf", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/");
 
 
 
