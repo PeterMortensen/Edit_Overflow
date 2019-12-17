@@ -1,35 +1,17 @@
 
-<?php include("commonStart.php"); ?>
-
-
 <!-- Successor to FixedStrings.html, at least for now to get
      the WordPress styling. But perhaps we can instead
      move this (effectively) static page into the
      WordPress system?   -->
 
 
-<!-- Old
-<!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <title>Edit Overflow</title>
-
-        <style>
-            body {
-                background-color: lightgrey;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
--->
+<?php include("commonStart.php"); ?>
 
 
-        <h1>Fixed strings - Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
+        <?php
+            the_EditOverflowHeadline("Fixed Strings");
+        ?>
+
 
         <form
             name="XYZ"
@@ -73,7 +55,7 @@
                    type="text"
                    id="Break"
                    class="XYZ28"
-                   value=" &lt;br/>"
+                   value=" <br/>"
                    style="width:50px;"
                    accesskey="B"
                    title="Shortcut: Shift + Alt + B"
@@ -277,22 +259,18 @@
                 so this validation actually works!
             -->
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"
+                accesskey="W"
+                title="Shortcut: Shift + Alt + W"
+            >HTML validation</a>.
+            <a
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.php%3FOverflowStyle=Native"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
-            >HTML validation</a>.
+            >HTML validation (no WordPress)</a>.
 
         </p>
 
 
-<!--
-    </body>
-</html>
--->
-
-
-<?php # From WordPress...
-    get_footer();
-?>
-
+<?php include("commonEnd.php"); ?>
 

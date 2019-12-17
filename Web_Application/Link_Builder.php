@@ -32,31 +32,12 @@
 <?php include("commonStart.php"); ?>
 
 
+        <?php
+            the_EditOverflowHeadline("Link Builder");
+        ?>
 
-<!-- Old
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <title>Link Builder</title>
-
-        <style>
-            body {
-                background-color: lightgrey;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
--->
-
-
-        <h1>Link Builder Edit Overflow v. 1.1.49a3 2019-11-28T193537</h1>
 
         <?php
-
             # Stub / defaults
             #
             $shortMark_part1 = "Part 1";
@@ -108,8 +89,6 @@
             $inlineMarkdown = "$emphasisStr$linkTextBracketed($URL)$emphasisStr";
 
 
-
-
             # For the accumulative feature (we remember past generated
             # link text/URL pairs)
             #
@@ -156,7 +135,6 @@
             $elements_URLlist = count($items_URLlist);
 
 
-
             # It is simple for Stack Overflow - just separate
             # each item by a space
             $URLlist = implode(' ', $items_URLlist);
@@ -201,7 +179,7 @@
         ?>
 
         <form
-            name="XYZ"
+            name="LinkBuildForm"
             method="post"
             action="Link_Builder.php"
             id="XYZ">
@@ -209,18 +187,16 @@
             <p>Build links
                Lin<u>k</u> text:
 
-               <input
-                   name="LinkText"
-                   type="text"
-                   id="LinkText"
-                   class="XYZ1"
-                   <?php
-                     echo "value=\"$linkText\"\n";
-                   ?>
-                   style="width:610px;"
-                   accesskey="K"
-                   title="Shortcut: Shift + Alt + K"
-               />
+                <input
+                    name="LinkText"
+                    type="text"
+                    id="LinkText"
+                    class="XYZ25"
+                    <?php the_formValue($linkText); ?>
+                    style="width:610px;"
+                    accesskey="K"
+                    title="Shortcut: Shift + Alt + K"
+                />
             </p>
 
             <p><u>U</u>RL:
@@ -229,11 +205,8 @@
                     name="URL"
                     type="text"
                     id="URL"
-                    class="XYZ2"
-                    <?php
-
-                        echo "value=\"$URL\"\n";
-                    ?>
+                    class="XYZ02"
+                    <?php the_formValue($URL); ?>
                     style="width:500px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
@@ -278,49 +251,42 @@
 
             <p>Short Markdown (tex<u>t</u> / re<u>f</u>erence):
 
-               <input
-                   name="XXXX"
-                   type="text"
-                   id="XXXX"
-                   class="XXXX"
-                   <?php
-                     echo "value=\"$shortMark_part1\"\n";
-                   ?>
-                   style="width:600px;"
-                   accesskey="T"
-                   title="Shortcut: Shift + Alt + T"
-               />
-
-               <input
-                   name="YYYY"
-                   type="text"
-                   id="YYYYYY"
-                   class="XYZ89"
-                   <?php
-                     echo "value=\"$shortMark_part2\"\n";
-                   ?>
-                   style="width:450px;"
-                   accesskey="F"
-                   title="Shortcut: Shift + Alt + F"
-               />
+                <input
+                    name="ShortMark_part1"
+                    type="text"
+                    id="ShortMark_part1"
+                    class="XX20"
+                    <?php the_formValue($shortMark_part1); ?>
+                    style="width:600px;"
+                    accesskey="T"
+                    title="Shortcut: Shift + Alt + T"
+                />
+                
+                <input
+                    name="ShortMark_part2"
+                    type="text"
+                    id="ShortMark_part2"
+                    class="XX21"
+                    <?php the_formValue($shortMark_part2); ?>
+                    style="width:450px;"
+                    accesskey="F"
+                    title="Shortcut: Shift + Alt + F"
+                />
             </p>
 
             <p>Inline <u>M</u>arkdown:
 
-               <input
-                   name="XXXX"
-                   type="text"
-                   id="XXXX"
-                   class="XXXX"
-                   <?php
-                     echo "value=\"$inlineMarkdown\"\n";
-                   ?>
-                   style="width:650px;"
-                   accesskey="M"
-                   title="Shortcut: Shift + Alt + M"
-               />
+                <input
+                    name="inlineMarkdown"
+                    type="text"
+                    id="inlineMarkdown"
+                    class="XX22"
+                    <?php the_formValue($inlineMarkdown); ?>
+                    style="width:650px;"
+                    accesskey="M"
+                    title="Shortcut: Shift + Alt + M"
+                />
             </p>
-
 
 
             <!-- Hidden field, close to the output format for
@@ -339,10 +305,8 @@
                 name="URLlist_encoded"
                 type="hidden"
                 id="URLlist_encoded"
-                class="XYZ6"
-                <?php
-                  echo "value=\"$URLlist_encoded\"\n";
-                ?>
+                class="XYZ23"
+                <?php the_formValue($URLlist_encoded); ?>
             />
             -->
 
@@ -353,7 +317,7 @@
                     name="resetState"
                     type="checkbox"
                     id="resetState"
-                    class="XYZ9"
+                    class="XYZ24"
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
                 />
@@ -363,10 +327,10 @@
             <!-- For 'value' (the displayed text in the button), tags 'u'
                  or 'strong' do not work!! -->
             <input
-                name="XYZ"
+                name="LookUp"
                 type="submit"
                 id="LookUp"
-                class="XYZ3"
+                class="XYZ03"
                 value="Generate"
                 style="width:75px;"
                 accesskey="U"
@@ -402,25 +366,19 @@
                 so this validation actually works!
             -->
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&amp;doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php"
+                accesskey="V"
+                title="Shortcut: Shift + Alt + W"
+            >HTML validation</a>.
+            <a
+                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php%3FOverflowStyle=Native"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
-            >HTML validation</a>.
+            >HTML validation (no WordPress)</a>.
         </p>
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<!--
-    </body>
-</html>
--->
 
-
-<?php # From WordPress...
-    get_footer();
-?>
-
-
-
-
+<?php include("commonEnd.php"); ?>
