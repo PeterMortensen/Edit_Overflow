@@ -1351,6 +1351,10 @@ namespace OverflowHelper.core
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("MacOS10.14", "macOS v10.14 (Mojave)");
+            correctionAdd("MacOS 10.14", "macOS v10.14 (Mojave)");
+            correctionAdd("10.14", "macOS v10.14 (Mojave)");
+            correctionAdd("macOS v10.14", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -9586,6 +9590,7 @@ namespace OverflowHelper.core
             correctionAdd("reffering", "referring");
             correctionAdd("referering", "referring");
             correctionAdd("refererring", "referring");
+            correctionAdd("referrring", "referring");
 
             correctionAdd("DynamoDb", "DynamoDB");
 
@@ -9836,6 +9841,8 @@ namespace OverflowHelper.core
             correctionAdd("collegue", "colleague");
             correctionAdd("collegues", "colleague");
             correctionAdd("colleage", "colleague");
+            correctionAdd("collegeae", "colleague");
+            correctionAdd("collegeaue", "colleague");
 
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
@@ -10235,6 +10242,7 @@ namespace OverflowHelper.core
             correctionAdd("requiere", "require");
 
             correctionAdd("particuarly", "particularly");
+            correctionAdd("particulary", "particularly");
 
             correctionAdd("particuliar", "particular");
             correctionAdd("perticular", "particular");
@@ -13577,6 +13585,109 @@ namespace OverflowHelper.core
 
             correctionAdd("Preg_match_all", "preg_match_all");
 
+            correctionAdd("dash", "Dash");
+
+            correctionAdd("FireStore", "Firestore");
+            correctionAdd("Firestorm", "Firestore");
+            correctionAdd("firestore", "Firestore");
+
+            correctionAdd("gravatar", "Gravatar");
+
+            correctionAdd("Source insight", "Source Insight");
+            correctionAdd("scoure insight", "Source Insight");
+            correctionAdd("source insight", "Source Insight");
+
+            correctionAdd("admitedly", "admittedly");
+
+            correctionAdd("backward", "backwards");
+
+            correctionAdd("cheatsheet", "cheat sheet");
+
+            correctionAdd("counter example", "counterexample");
+            correctionAdd("counter-example", "counterexample");
+
+            correctionAdd("doublecheck", "double check");
+            correctionAdd("double-check", "double check");
+
+            correctionAdd("Echo", "echo");
+
+            correctionAdd("French fries", "french fries");
+
+            correctionAdd("iterference", "interference");
+
+            correctionAdd("no harm no foul", "no harm, no foul");
+
+            correctionAdd("non-alphanumeric", "nonalphanumeric");
+            correctionAdd("non alphanumeric", "nonalphanumeric");
+
+            correctionAdd("past", "paste");
+
+            correctionAdd("Preg_replace_callback", "preg_replace_callback");
+
+            correctionAdd("programatic", "programmatic");
+
+            correctionAdd("scoure", "source");
+
+            correctionAdd("Sprintf", "sprintf");
+
+            correctionAdd("interpolation", "string interpolation");
+            correctionAdd("variable interpolation", "string interpolation");
+
+            correctionAdd("Strtr", "strtr");
+
+            correctionAdd("tranform", "transform");
+
+            correctionAdd("ambersand", "ampersand");
+
+            correctionAdd("reenable", "re-enable");
+
+            correctionAdd(".profile", ".profile file");
+
+            correctionAdd("Blazer", "Blazor");
+
+            correctionAdd("ETW", "Event Tracing for Windows");
+
+            correctionAdd("IdeaSpace", "IdeaSpaceVR");
+
+            correctionAdd("lumen", "Lumen");
+
+            correctionAdd("sgml", "SGML");
+
+            correctionAdd("silex", "Silex");
+
+            correctionAdd("wayland", "Wayland");
+
+            correctionAdd("Wasm", "WebAssembly");
+            correctionAdd("WASM", "WebAssembly");
+
+            correctionAdd("webvr", "WebVR");
+
+            correctionAdd("aestetics", "aesthetics");
+            correctionAdd("esthetics", "aesthetics");
+            correctionAdd("estetics", "aesthetics");
+
+            correctionAdd("down-side", "downside");
+
+            correctionAdd("Ktrace", "ktrace");
+
+            correctionAdd("proced", "proceed");
+
+            correctionAdd("programatical", "programmatical");
+
+            correctionAdd("Ptrace", "ptrace");
+
+            correctionAdd("web hotel", "shared web hosting service");
+
+            correctionAdd("Sigil", "sigil");
+
+            correctionAdd("most simple", "simplest");
+
+            correctionAdd("step by step", "step-by-step");
+
+            correctionAdd("VR", "virtual reality");
+
+            correctionAdd("XPERF", "xperf");
+
 
 
             //HACK: AASDASD
@@ -13795,7 +13906,7 @@ namespace OverflowHelper.core
 
             URL_Add("TA", "http://en.wikipedia.org/wiki/Teaching_assistant");
 
-            URL_Add("CodeIgniter", "http://en.wikipedia.org/wiki/Codeigniter#CodeIgniter");
+            URL_Add("CodeIgniter", "https://en.wikipedia.org/wiki/CodeIgniter"); //Old: http://en.wikipedia.org/wiki/Codeigniter#CodeIgniter
 
             URL_Add("GlassFish", "http://en.wikipedia.org/wiki/GlassFish");
 
@@ -19897,6 +20008,98 @@ namespace OverflowHelper.core
             URL_Add("unlimited", "https://en.wiktionary.org/wiki/unlimited#Adjective");
 
             URL_Add("user", "https://en.wiktionary.org/wiki/user#Noun");
+
+            URL_Add("Dash", "https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions");
+
+            URL_Add("Firestore", "https://en.wikipedia.org/wiki/Firebase#Firebase_Cloud_Firestore");
+
+            URL_Add("Gravatar", "https://en.wikipedia.org/wiki/Gravatar");
+
+            URL_Add("Source Insight", "https://en.wikipedia.org/wiki/Source_Insight");
+
+            URL_Add("admittedly", "https://en.wiktionary.org/wiki/admittedly#Adverb");
+
+            URL_Add("backwards", "https://en.wiktionary.org/wiki/backwards#Adverb");
+
+            URL_Add("cheat sheet", "https://en.wiktionary.org/wiki/cheat_sheet#Noun");
+
+            URL_Add("counterexample", "https://en.wiktionary.org/wiki/counterexample#Noun");
+
+            URL_Add("double check", "https://en.wiktionary.org/wiki/double_check");
+
+            URL_Add("echo", "https://www.php.net/manual/en/function.echo.php");
+
+            URL_Add("french fries", "https://en.wiktionary.org/wiki/french_fries#Noun");
+
+            URL_Add("interference", "https://en.wiktionary.org/wiki/interference#Noun");
+
+            URL_Add("no harm, no foul", "https://en.wiktionary.org/wiki/no_harm,_no_foul#Phrase");
+
+            URL_Add("nonalphanumeric", "https://en.wiktionary.org/wiki/nonalphanumeric#Adjective");
+
+            URL_Add("paste", "https://en.wiktionary.org/wiki/paste#Verb");
+
+            URL_Add("preg_replace_callback", "https://www.php.net/manual/en/function.preg-replace-callback.php");
+
+            URL_Add("programmatic", "https://en.wiktionary.org/wiki/programmatic#Adjective");
+
+            URL_Add("source", "https://en.wiktionary.org/wiki/source#Noun");
+
+            URL_Add("sprintf", "https://www.php.net/manual/en/function.sprintf.php");
+
+            URL_Add("string interpolation", "https://en.wikipedia.org/wiki/String_interpolation");
+
+            URL_Add("strtr", "https://www.php.net/manual/en/function.strtr.php");
+
+            URL_Add("transform", "https://en.wiktionary.org/wiki/transform#Noun");
+
+            URL_Add("ampersand", "https://en.wikipedia.org/wiki/Ampersand");
+
+            URL_Add("re-enable", "https://en.wiktionary.org/wiki/re-enable#Verb");
+
+            URL_Add(".profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables");
+
+            URL_Add("Blazor", "https://en.wikipedia.org/wiki/Blazor");
+
+            URL_Add("Event Tracing for Windows", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/event-tracing-for-windows");
+
+            URL_Add("IdeaSpaceVR", "https://github.com/IdeaSpaceVR/");
+
+            URL_Add("Lumen", "https://en.wikipedia.org/wiki/Lumen_(software)");
+
+            URL_Add("SGML", "https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language");
+
+            URL_Add("Silex", "https://en.wikipedia.org/wiki/Silex_(web_framework)");
+
+            URL_Add("Wayland", "https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)");
+
+            URL_Add("WebAssembly", "https://en.wikipedia.org/wiki/WebAssembly");
+
+            URL_Add("WebVR", "https://en.wikipedia.org/wiki/WebVR");
+
+            URL_Add("aesthetics", "https://en.wikipedia.org/wiki/Applied_aesthetics#Information_technology");
+
+            URL_Add("downside", "https://en.wiktionary.org/wiki/downside#Noun");
+
+            URL_Add("ktrace", "https://en.wikipedia.org/wiki/Ktrace");
+
+            URL_Add("proceed", "https://en.wiktionary.org/wiki/proceed#Verb");
+
+            URL_Add("programmatical", "https://en.wiktionary.org/wiki/programmatical#Adjective");
+
+            URL_Add("ptrace", "https://en.wikipedia.org/wiki/Ptrace");
+
+            URL_Add("shared web hosting service", "https://en.wikipedia.org/wiki/Web_hosting_service#Shared_web_hosting_service");
+
+            URL_Add("sigil", "https://en.wikipedia.org/wiki/Sigil_(computer_programming)");
+
+            URL_Add("simplest", "https://en.wiktionary.org/wiki/simplest#Adjective");
+
+            URL_Add("step-by-step", "https://en.wiktionary.org/wiki/step-by-step#Adjective");
+
+            URL_Add("virtual reality", "https://en.wikipedia.org/wiki/Virtual_reality");
+
+            URL_Add("xperf", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/");
 
 
 
