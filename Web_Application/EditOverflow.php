@@ -9,90 +9,23 @@
   #      We should have some kind of regression test
   #      because we still use the variable
   #      $editSummary in an 'if' construct.
+
+
+  # Note: We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
   #
+  #   <http://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
+
+
 ?>
 
 
 <?php include("commonStart.php"); ?>
 
 
+        <?php
+            the_EditOverflowHeadline("Look up");
+        ?>
 
-<!-- Old
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <title>Edit Overflow</title>
-
-        <style>
-            body
-            {
-                background-color: lightgrey;
-            }
-
-            .formgrid
-            {
-                display: grid;
-                grid-template-columns: minmax(5%, 130px) 1em 2fr;
-                                       /* 10% 1fr 2fr 12em;
-                                          1fr 1em 2fr
-                                       */
-                grid-gap: 0.3em 0.6em;
-                grid-auto-flow: row;
-                align-items: center;
-            }
-
-            input,
-            output,
-            textarea,
-            select,
-            button
-            {
-                grid-column: 2 / 4;
-                width: auto;
-                margin: 0;
-            }
-
-            .formgrid > div
-            {
-                grid-column: 3 / 4;
-                width: auto;
-                margin: 0;
-            }
-
-            /* label, */
-            input[type="checkbox"] + label,
-            input[type="radio"]    + label
-            {
-                grid-column: 3 / 4;
-                width: auto;
-                padding: 0;
-                margin: 0;
-            }
-
-            input[type="checkbox"],
-            input[type="radio"]
-            {
-                grid-column: 2 / 3;
-                justify-self: end;
-                margin: 0;
-            }
-
-            label + textarea
-            {
-                align-self: start;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
--->
-
-
-
-        <h1>Edit Overflow v. 1.1.49a4 2019-12-15T004929</h1>
 
         <?php
             # For "Notice: Undefined variable: ..."
@@ -102,13 +35,17 @@
             require_once('deploymentSpecific.php');
 
 
-            # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
-            # The problem is solely due to WordPress (we would't need it
-            # if it wasn't for the use of/integration into WordPress).
-            #
-            # "stripslashes_deep" is part of WordPress
-            #
-            $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+            # Only when WordPress is active
+			if (function_exists('stripslashes_deep')) {
+
+	            # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
+	            # The problem is solely due to WordPress (we would't need it
+	            # if it wasn't for the use of/integration into WordPress).
+	            #
+	            # "stripslashes_deep" is part of WordPress
+	            #
+	            $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+			}
 
 
             # The only input field in the start HTML page
@@ -227,7 +164,7 @@
                 # instead (now redundancy with the below)?
                 $editSummary_output  = "";
                 $editSummary_output2 = "";
-                
+
                 $linkInlineMarkdown = "";
             }
 
@@ -615,13 +552,7 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<!--
-    </body>
-</html>
--->
 
-<?php # From WordPress...
-    get_footer();
-?>
+<?php include("commonEnd.php"); ?>
 
 
