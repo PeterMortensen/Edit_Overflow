@@ -51,14 +51,14 @@
             error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
             # The default value is for making direct HTML validation
-            # by http://validator.w3.org/ work.
+            # by https://validator.w3.org/ work.
             #
             $linkText = $_POST['LinkText'] ?? 'iron';
 
             # The default value is for making direct HTML validation
-            # by http://validator.w3.org/ work.
+            # by https://validator.w3.org/ work.
             #
-            $URL = $_POST['URL'] ?? 'http://en.wikipedia.org/wiki/Iron';
+            $URL = $_POST['URL'] ?? 'https://en.wikipedia.org/wiki/Iron';
 
 
             # Avoid warning messages for an empty input (at the
@@ -81,8 +81,8 @@
             # Samples, for the 3 variables:
             #
             #   [Iron][7]
-            #     [2]: http://en.wikipedia.org/wiki/Iron
-            #   [Iron](http://en.wikipedia.org/wiki/Iron)
+            #     [2]: https://en.wikipedia.org/wiki/Iron
+            #   [Iron](https://en.wikipedia.org/wiki/Iron)
             #
             $shortMark_part1 = "$emphasisStr$linkTextBracketed$IDref$emphasisStr";
             $shortMark_part2 = "  $IDref: $URL";
@@ -294,7 +294,7 @@
 
               Sample:
 
-                <http://en.wikipedia.org/wiki/HTML> <http://en.wikipedia.org/wiki/PHP>
+                <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
 
             -->
 
@@ -359,7 +359,7 @@
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
                 A workaround is to use view source on a result and copy
-                paste to http://validator.w3.org/, under "Validate by
+                paste to https://validator.w3.org/, under "Validate by
                 direct input"
 
                 But we now have a default value for the input, "js",
