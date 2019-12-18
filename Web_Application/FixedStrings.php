@@ -119,6 +119,20 @@
                />
             </p>
 
+            <p><u>A</u>rrow (Unicode, alternative):
+
+               <input
+                   name="Arrow - Unicode - 2"
+                   type="text"
+                   id="Arrow_Unicode"
+                   class="XYZ40"
+                   value="►"
+                   style="width:30px;"
+                   accesskey="A"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
+
             <p>The
                <a href="https://en.wikipedia.org/wiki/Ohm"
                ><u>o</u>hm symbol</a>
@@ -251,8 +265,8 @@
 
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
-                A workaround is to use view source on a result and 
-                copy-paste to https://validator.w3.org/, under 
+                A workaround is to use view source on a result and
+                copy-paste to https://validator.w3.org/, under
                 "Validate by direct input".
 
                 But we now have a default value for the input, "js",
