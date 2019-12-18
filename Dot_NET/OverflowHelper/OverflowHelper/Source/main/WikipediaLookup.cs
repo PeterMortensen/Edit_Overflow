@@ -1355,6 +1355,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS 10.14", "macOS v10.14 (Mojave)");
             correctionAdd("10.14", "macOS v10.14 (Mojave)");
             correctionAdd("macOS v10.14", "macOS v10.14 (Mojave)");
+            correctionAdd("MacOs Mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -2074,6 +2075,7 @@ namespace OverflowHelper.core
             correctionAdd("Wordress", "WordPress");
             correctionAdd("WordpPress", "WordPress");
             correctionAdd("wordress", "WordPress");
+            correctionAdd("Word Press", "WordPress");
 
             correctionAdd("ssl", "SSL");
 
@@ -4486,6 +4488,7 @@ namespace OverflowHelper.core
             correctionAdd("wont", "won't");
             correctionAdd("won’t", "won't"); //Quora...
             correctionAdd("won´t", "won't");
+            correctionAdd("won`t", "won't");
 
             correctionAdd("xsl", "XSL");
 
@@ -7451,6 +7454,7 @@ namespace OverflowHelper.core
             correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
 
             correctionAdd("VS", "Visual Studio");
             correctionAdd("visual studio", "Visual Studio");
@@ -9175,6 +9179,7 @@ namespace OverflowHelper.core
             correctionAdd("avalible", "available");
             correctionAdd("availible", "available");
             correctionAdd("avaiable", "available");
+            correctionAdd("avialable", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -11541,6 +11546,7 @@ namespace OverflowHelper.core
             //                                  in the lookup...:
             //
             //                                  "Could not lookup voil!"
+            correctionAdd("Voila", "voilà");
 
             correctionAdd("catch 22", "Catch-22");
             correctionAdd("catch-22", "Catch-22");
@@ -11949,6 +11955,8 @@ namespace OverflowHelper.core
             correctionAdd("M", "m");
 
             correctionAdd("Mac Os", "macOS");
+            correctionAdd("MacOs", "macOS");
+            correctionAdd("Macos", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -13001,6 +13009,7 @@ namespace OverflowHelper.core
             correctionAdd("Telegram", "Telegram Messenger");
 
             correctionAdd("Hyperterminal", "HyperTerminal");
+            correctionAdd("hyperterminal", "HyperTerminal");
 
             correctionAdd("PortMon", "Portmon");
 
@@ -13566,6 +13575,7 @@ namespace OverflowHelper.core
             correctionAdd("hapen", "happen");
 
             correctionAdd("hapens", "happens");
+            correctionAdd("happends", "happens");
 
             correctionAdd("my self", "myself");
 
@@ -13638,6 +13648,7 @@ namespace OverflowHelper.core
             correctionAdd("tranform", "transform");
 
             correctionAdd("ambersand", "ampersand");
+            correctionAdd("apersand", "ampersand");
 
             correctionAdd("reenable", "re-enable");
 
@@ -13688,6 +13699,24 @@ namespace OverflowHelper.core
 
             correctionAdd("XPERF", "xperf");
 
+            correctionAdd("christmas", "Christmas");
+
+            correctionAdd("EL", "Expression Language");
+
+            correctionAdd("freenode", "Freenode");
+
+            correctionAdd("PPA", "Personal Package Archive");
+
+            correctionAdd("VC6", "Visual C++ 6.0");
+
+            correctionAdd("configur", "configure");
+
+            correctionAdd("currenctly", "currently");
+
+            correctionAdd("emdash", "em dash");
+
+            correctionAdd("pallete", "palette");
+            correctionAdd("Pallete", "palette");
 
 
             //HACK: AASDASD
@@ -20101,6 +20130,23 @@ namespace OverflowHelper.core
 
             URL_Add("xperf", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/");
 
+            URL_Add("Christmas", "https://en.wiktionary.org/wiki/Christmas#Proper_noun");
+
+            URL_Add("Expression Language", "https://en.wikipedia.org/wiki/Unified_Expression_Language#History");
+
+            URL_Add("Freenode", "https://en.wikipedia.org/wiki/Freenode");
+
+            URL_Add("Personal Package Archive", "https://en.wikipedia.org/wiki/Ubuntu#Package_Archives");
+
+            URL_Add("Visual C++ 6.0", "https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B#Strictly_32-bit_versions");
+
+            URL_Add("configure", "https://en.wiktionary.org/wiki/configure#Verb");
+
+            URL_Add("currently", "https://en.wiktionary.org/wiki/currently#Adverb");
+
+            URL_Add("em dash", "https://en.wiktionary.org/wiki/em_dash#Noun");
+
+            URL_Add("palette", "https://en.wiktionary.org/wiki/palette#Noun");
 
 
 
