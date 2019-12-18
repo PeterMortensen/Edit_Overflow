@@ -1,14 +1,23 @@
 
-<!-- Successor to EditSummaryFragments.html, at least for now to get
-     the WordPress styling. But perhaps we can instead
+<!-- Successor to EditSummaryFragments.html, at least for now
+     to get the WordPress styling. But perhaps we can instead
      move this (effectively) static page into the
      WordPress system?
 
      Though we don't get things like a centralised place for
      the Edit Overflow version. Or other redundancy-reducing
      measures.
+-->
+
+<!--
+    Note:
+
+      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+
+        <https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
 
 -->
+
 
 <?php include("commonStart.php"); ?>
 
@@ -503,7 +512,5 @@
 
 
 <?php include("commonEnd.php"); ?>
-
-
 
 

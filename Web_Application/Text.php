@@ -1,21 +1,34 @@
-
 <?php
-     #    Strange things are happening when this WordPress thing is
-     #    included (a fix was added 2019-11-30, and finally
-     #    another one fix 2019-12-10).
+     # Strange things are happening when this WordPress thing
+     # is included (a fix was added 2019-11-30, and finally
+     # another one fix 2019-12-10).
      #
-     #      1. The YouTube convert (that uses a separate
-     #         PHP class in another file) had a lot of
-     #         warning lines. This turned out to be genuine
-     #         bug - the WordPress include had a configuration
-     #         that turned on debugging and surface the error.
+     #   1. The YouTube convert (that uses a separate
+     #      PHP class in another file) had a lot of
+     #      warning lines. This turned out to be genuine
+     #      bug - the WordPress include had a configuration
+     #      that turned on debugging and surface the error.
      #
-     #      2. Removing trailing space escapes single quotes
-     #         with backslash... This is a WordPress thing
-     #         (returned form data is escaped). The workaound
-     #         was to remove backslashes (this may be
-     #         sufficient as we don't )
+     #   2. Removing trailing space escapes single quotes
+     #      with backslash... This is a WordPress thing
+     #      (returned form data is escaped). The workaound
+     #      was to remove backslashes (this may be
+     #      sufficient as we don't )
 ?>
+
+
+<!--
+    Note:
+
+      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+
+        <https://pmortensen.eu/world/Text.php?OverflowStyle=Native>
+
+        Using HTML GET parameter and invoking function "Format as keyboard":
+
+          <https://pmortensen.eu/world/Text.php?someText=dont&action=Format%20as%20keyboard&OverflowStyle=Native>
+
+-->
 
 
 <?php include("commonStart.php"); ?>
@@ -25,13 +38,10 @@
             the_EditOverflowHeadline("Text Stuff");
         ?>
 
-
-
         <?php
             require_once('StringReplacerWithRegex.php');
 
             # function assert()
-
 
             function removeTrailingSpace($aText)
             {
@@ -40,10 +50,12 @@
                 return preg_replace('/[ \t]+(\r?$)/m', '$1', $aText);
             }
 
+
             function replaceTABS_withSpace($aText)
             {
                 return preg_replace('/\t/', '    ', $aText);
             }
+
 
             function removeTrailingSpacesAndTABs($aText)
             {
@@ -73,6 +85,7 @@
                 }
                 return [$text2, $message2];
             }
+
 
             # Note: This (first) version only works well if
             #       there are actually some leading space
@@ -116,6 +129,7 @@
                 return $commonLeadingSpaces;
             }
 
+
             function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
             {
                 $lines = explode("\n", $aText);
@@ -138,7 +152,6 @@
                 }
                 return implode("\n", $newContent);
             }
-
 
             # ----------------------- End of main functions ---------------------------
 
@@ -187,10 +200,13 @@
             # -------------------------------------------------------------
 
 
-            const MAINTEXT = 'someText';
+            #Delete at any time
+            #const MAINTEXT = 'someText';
+
 
             $message = "";
             $extraMessage = "";
+
 
             #assert(array_key_exists('function', $_REQUEST));  # From example:  isset($this->records)
             #
@@ -207,16 +223,18 @@
             $someText = "";
             if (array_key_exists(MAINTEXT, $_REQUEST))
             {
-                # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
-                # The problem is solely due to WordPress (we would't need if
-                # it wasn't for the use of/integration into WordPress).
+
+                #Delete at any time
+                ## Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
+                ## The problem is solely due to WordPress (we would't need if
+                ## it wasn't for the use of/integration into WordPress).
+                ##
+                ## "stripslashes_deep" is part of WordPress
+                ##
+                #$formDataSizeBefore = strlen($_REQUEST[MAINTEXT]);
                 #
-                # "stripslashes_deep" is part of WordPress
-                #
-                $formDataSizeBefore = strlen($_REQUEST[MAINTEXT]);
-                $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
-                $formDataSizeAfter = strlen($_REQUEST[MAINTEXT]);
-                $formDataSizeDiff = $formDataSizeBefore - $formDataSizeAfter;
+                #$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+
 
                 # Some output to remind us that this WordPress madness
                 # should be adressed some day
@@ -226,6 +244,7 @@
                       $formDataSizeDiff .
                       " characters saved from WordPress madness...";
                 }
+
 
                 $someText = htmlentities($_REQUEST[MAINTEXT]);
 
@@ -331,8 +350,8 @@
 
                         $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
                         $someText = removeCommonLeadingSpaces($someText, $leadingSpaceToRemove);
-                        
-                        $message = "<p>Removed " . $leadingSpaceToRemove . 
+
+                        $message = "<p>Removed " . $leadingSpaceToRemove .
                                    " leading spaces from all lines...</p>\n";
                         break;
 

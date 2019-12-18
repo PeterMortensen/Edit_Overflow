@@ -1,22 +1,21 @@
-
 <?php
-
-  # Future:
-  #
-  #   1. Eliminate/refactor $editSummary, etc. as we now use
-  #      the structured list.
-  #
-  #      We should have some kind of regression test
-  #      because we still use the variable
-  #      $editSummary in an 'if' construct.
-
-
-  # Note: We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-  #
-  #   <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
-
-
+    # Future:
+    #
+    #   1. Eliminate/refactor $editSummary, etc. as we now use
+    #      the structured list.
+    #
+    #      We should have some kind of regression test
+    #      because we still use the variable
+    #      $editSummary in an 'if' construct.
 ?>
+
+<!--
+    Note:
+
+      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+
+        <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
+-->
 
 
 <?php include("commonStart.php"); ?>
@@ -31,22 +30,7 @@
             # For "Notice: Undefined variable: ..."
             error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
-
             require_once('deploymentSpecific.php');
-
-
-            # Only when WordPress is active
-			if (function_exists('stripslashes_deep')) {
-
-	            # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
-	            # The problem is solely due to WordPress (we would't need it
-	            # if it wasn't for the use of/integration into WordPress).
-	            #
-	            # "stripslashes_deep" is part of WordPress
-	            #
-	            $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
-			}
-
 
             # The only input field in the start HTML page
             #

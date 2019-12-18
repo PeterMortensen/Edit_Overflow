@@ -5,6 +5,16 @@
      WordPress system?   -->
 
 
+<!--
+    Note:
+
+      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+
+        <https://pmortensen.eu/world/FixedStrings.php?OverflowStyle=Native>
+
+-->
+
+
 <?php include("commonStart.php"); ?>
 
 
