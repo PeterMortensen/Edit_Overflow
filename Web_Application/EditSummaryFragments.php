@@ -34,8 +34,8 @@
                    class=""
                    value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)). "
                    style="width:680px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
+                   accesskey="F"
+                   title="Shortcut: Shift + Alt + F"
                />
             </p>
 
@@ -47,8 +47,8 @@
                    class=""
                    value="Active reading [<URL1> <URL2>]. "
                    style="width:230px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
 
@@ -60,8 +60,8 @@
                    class=""
                    value="In English, the subjective form of the singular first-person pronoun, &quot;I&quot;, is capitalized, along with all its contractions such as I'll and I'm. "
                    style="width:810px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="Y"
+                   title="Shortcut: Shift + Alt + Y"
                />
             </p>
 
@@ -86,7 +86,7 @@
                    class=""
                    value="Applied some formatting. "
                    style="width:170px;"
-                   accesskey="F"
+                   accesskey="Z"
                    title="Shortcut: Shift + Alt + F"
                />
             </p>
@@ -228,8 +228,8 @@
                    class=""
                    value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
                    style="width:680px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
                />
             </p>
 
@@ -288,8 +288,8 @@
                    class=""
                    value="<https://www.wikihow.com/Use-You%27re-and-Your> "
                    style="width:340px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
 
@@ -306,8 +306,8 @@
                    class=""
                    value="<https://www.wikihow.com/Use-There,-Their-and-They%27re> "
                    style="width:400px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
 
@@ -323,8 +323,8 @@
                    class=""
                    value="<https://www.wikihow.com/Use-Affect-and-Effect-Properly> "
                    style="width:380px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
 
@@ -438,8 +438,8 @@
                    class=""
                    value="XXX. "
                    style="width:110px;"
-                   accesskey="Y"
-                   title="Shortcut: Shift + Alt + Y"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
             -->
@@ -491,7 +491,6 @@
             -->
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FEditSummaryFragments.php"
-                accesskey="W"
                 title="Shortcut: Shift + Alt + W"
             >HTML validation</a>.
             <a
