@@ -23,6 +23,22 @@
             action="EditOverflow.php"
             id="XYZ">
 
+            <p>The "How to ... ?" form for a question is not a good one
+               (does not follow
+               <a href="https://www.youtube.com/watch?v=kS5NfSzXfrI"
+               >QUASM</a>)<br/>
+               <input
+                   name="X25"
+                   type="text"
+                   id="X25"
+                   class=""
+                   value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)). "
+                   style="width:680px;"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
+               />
+            </p>
+
             <p>
                <input
                    name="X1"
@@ -237,22 +253,6 @@
                    style="width:830px;"
                    accesskey="B"
                    title="Shortcut: Shift + Alt + B"
-               />
-            </p>
-
-            <p>The "How to ... ?" form for a question is not a good one
-               (does not follow
-               <a href="https://www.youtube.com/watch?v=kS5NfSzXfrI"
-               >QUASM</a>)<br/>
-               <input
-                   name="X25"
-                   type="text"
-                   id="X25"
-                   class=""
-                   value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)). "
-                   style="width:680px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
 
