@@ -197,7 +197,7 @@
                    type="text"
                    id="X18"
                    class=""
-                   value="Unhid &quot;<XXX>&quot; by encoding &quot;<&quot; as &quot;&amp;lt;&quot; (see the original revision (<http://stackoverflow.com/XXX/view-source>) - or use view &quot;side-by-side markdown&quot;). "
+                   value="Unhid &quot;<XXX>&quot; by encoding &quot;<&quot; as &quot;&amp;lt;&quot; (see the original revision (<https://stackoverflow.com/XXX/view-source>) - or use view &quot;side-by-side markdown&quot;). "
                    style="width:980px;"
                    accesskey="W"
                    title="Shortcut: Shift + Alt + W"
@@ -210,7 +210,7 @@
                    type="text"
                    id="X19"
                    class=""
-                   value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <http://www.wikihow.com/Use-Its-and-It%27s>.)] "
+                   value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
                    style="width:680px;"
                    accesskey="Z"
                    title="Shortcut: Shift + Alt + Z"
@@ -233,7 +233,7 @@
                    type="text"
                    id="X20"
                    class=""
-                   value="Removed historical information (e.g. ref. <http://meta.stackexchange.com/a/230693> and <http://meta.stackexchange.com/a/127655>). "
+                   value="Removed historical information (e.g. ref. <https://meta.stackexchange.com/a/230693> and <https://meta.stackexchange.com/a/127655>). "
                    style="width:830px;"
                    accesskey="B"
                    title="Shortcut: Shift + Alt + B"
@@ -262,7 +262,7 @@
             <h2>Pure links</h2>
 
             <p><u>U</u>S native speakers, especially southern US,
-               <a href="http://www.wikihow.com/Use-Than-and-Then"
+               <a href="https://www.wikihow.com/Use-Than-and-Then"
                >&quot;than&quot; vs. &quot;then&quot;</a>: <br/>
 
                <input
@@ -270,7 +270,7 @@
                    type="text"
                    id="X8"
                    class=""
-                   value="<http://www.wikihow.com/Use-Than-and-Then> "
+                   value="<https://www.wikihow.com/Use-Than-and-Then> "
                    style="width:310px;"
                    accesskey="U"
                    title="Shortcut: Shift + Alt + U"
@@ -278,7 +278,7 @@
             </p>
 
             <p>US native speakers, especially southern US,
-               <a href="http://www.wikihow.com/Use-You%27re-and-Your"
+               <a href="https://www.wikihow.com/Use-You%27re-and-Your"
                >&quot;you're&quot; vs. &quot;your&quot;</a>: <br/>
 
                <input
@@ -286,7 +286,7 @@
                    type="text"
                    id="X22"
                    class=""
-                   value="<http://www.wikihow.com/Use-You%27re-and-Your> "
+                   value="<https://www.wikihow.com/Use-You%27re-and-Your> "
                    style="width:340px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
@@ -294,7 +294,7 @@
             </p>
 
             <p>US native speakers, especially southern US,
-               <a href="http://www.wikihow.com/Use-There,-Their-and-They%27re"
+               <a href="https://www.wikihow.com/Use-There,-Their-and-They%27re"
                >&quot;there&quot; vs.
                 &quot;their&quot; vs.
                 &quot;they're&quot;</a>: <br/>
@@ -304,7 +304,7 @@
                    type="text"
                    id="X23"
                    class=""
-                   value="<http://www.wikihow.com/Use-There,-Their-and-They%27re> "
+                   value="<https://www.wikihow.com/Use-There,-Their-and-They%27re> "
                    style="width:400px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
@@ -312,7 +312,7 @@
             </p>
 
             <p>US native speakers, especially southern US,
-               <a href="http://www.wikihow.com/Use-Affect-and-Effect-Properly"
+               <a href="https://www.wikihow.com/Use-Affect-and-Effect-Properly"
                >&quot;affect&quot; vs.
                 &quot;effect&quot;</a>: <br/>
 
@@ -321,7 +321,7 @@
                    type="text"
                    id="X24"
                    class=""
-                   value="<http://www.wikihow.com/Use-Affect-and-Effect-Properly> "
+                   value="<https://www.wikihow.com/Use-Affect-and-Effect-Properly> "
                    style="width:380px;"
                    accesskey="X"
                    title="Shortcut: Shift + Alt + X"
@@ -347,7 +347,7 @@
                />
             </p>
 
-            <p><a href="http://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
+            <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
                >The Indian spa<strong><i>c</i></strong>e</a>
                 (from the outdated 1935
                 <a href="https://en.wikipedia.org/wiki/Wren_%26_Martin"
@@ -358,7 +358,7 @@
                    type="text"
                    id="X9"
                    class=""
-                   value="<http://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645> "
+                   value="<https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645> "
                    style="width:910px;"
                    accesskey="C"
                    title="Shortcut: Shift + Alt + C"
@@ -397,7 +397,7 @@
                />
             </p>
 
-            <p><a href="http://english.stackexchange.com/questions/15953"
+            <p><a href="https://english.stackexchange.com/questions/15953"
                >Space between <strong><i>q</i></strong>uantity and unit</a>: <br/>
 
                <input
@@ -405,7 +405,7 @@
                    type="text"
                    id="X12"
                    class=""
-                   value="<http://english.stackexchange.com/questions/15953> "
+                   value="<https://english.stackexchange.com/questions/15953> "
                    style="width:350px;"
                    accesskey="Q"
                    title="Shortcut: Shift + Alt + Q"
@@ -483,7 +483,7 @@
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
                 A workaround is to use view source on a result and copy
-                paste to http://validator.w3.org/, under "Validate by
+                paste to https://validator.w3.org/, under "Validate by
                 direct input"
 
                 But we now have a default value for the input, "js",

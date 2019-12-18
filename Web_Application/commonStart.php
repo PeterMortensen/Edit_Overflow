@@ -25,9 +25,8 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a5 2019-12-17T210118Z+0";
+        return "Edit Overflow v. 1.1.49a5 2019-12-18T125312Z+0";
     }
-
 
     # Note that we are using the WordPress convention of
     # name prefixing functions (with "the_") that echo's.
@@ -50,9 +49,9 @@
         #
         # Examples:
         #
-        #    <http://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
+        #    <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
         #
-        #    <http://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
+        #    <https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
         #
 
 

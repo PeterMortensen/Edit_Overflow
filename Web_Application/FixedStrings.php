@@ -251,9 +251,9 @@
 
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
-                A workaround is to use view source on a result and copy
-                paste to http://validator.w3.org/, under "Validate by
-                direct input"
+                A workaround is to use view source on a result and 
+                copy-paste to https://validator.w3.org/, under 
+                "Validate by direct input".
 
                 But we now have a default value for the input, "js",
                 so this validation actually works!

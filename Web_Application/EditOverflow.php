@@ -13,7 +13,7 @@
 
   # Note: We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
   #
-  #   <http://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
+  #   <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
 
 
 ?>
@@ -51,7 +51,7 @@
             # The only input field in the start HTML page
             #
             # The default value is for making direct HTML validation
-            # by http://validator.w3.org/ work.
+            # by https://validator.w3.org/ work.
             #
             $lookUpTerm = $_REQUEST['LookUpTerm'] ?? 'js';
 
@@ -419,7 +419,7 @@
 
                   Sample:
 
-                    <http://en.wikipedia.org/wiki/HTML> <http://en.wikipedia.org/wiki/PHP>
+                    <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
 
                 -->
                 <!-- To be eliminated -->
@@ -506,7 +506,7 @@
 
 
             <a
-                href="http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html"
+                href="https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html"
                 accesskey="W"
                 title="Shortcut: Shift + Alt + W"
             >Word list</a>.
@@ -518,7 +518,7 @@
                 This would not really work (we get a lot of strange errors -
                 because of PHP warnings when certain form input is missing).
                 A workaround is to use view source on a result and copy
-                paste to http://validator.w3.org/, under "Validate by
+                paste to https://validator.w3.org/, under "Validate by
                 direct input"
 
                 But we now have a default value for the input, "js",

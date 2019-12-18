@@ -232,7 +232,7 @@
                 assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
 
                 # The default value could be 'Some text </textarea>', for
-                # making direct HTML validation by http://validator.w3.org/
+                # making direct HTML validation by https://validator.w3.org/
                 # have some non-trivial input.
                 #
                 # But we can't use it, because from the user side we
