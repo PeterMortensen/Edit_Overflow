@@ -1,32 +1,42 @@
 
 <?php
+    # File: Link_Builder.php
 
-  # ************************************************************************
-  # *  Copyright (C) 2010 Peter Mortensen                                  *
-  # *                                                                      *
-  # *  Purpose: Implements the dialog to conveniently build links:         *
-  # *           Markdown (both forms), Wikipedia links (both internal      *
-  # *           and external), normal HTML links, etc.                     *
-  # *                                                                      *
-  # *           This way the user does not have to know the exact          *
-  # *           syntax (and avoid having to type strange                   *
-  # *           characters, like "[").                                     *
-  # *                                                                      *
-  # *           It is essentially a reimplementation of the dialog         *
-  # *           "XXX" in the Windows version (menu item YYY -> "ZZZ"),     *
-  # *           but this one in addition support accumulative use          *
-  # *           (more than one link - e.g. to paste directly into          *
-  # *           a comment on Stack Exchange).                              *
-  # *                                                                      *
-  # *                                                                      *
-  # *  File: \Web_Application\Link_Builder.php                             *
-  # *                                                                      *
-  # *                                                                      *
-  # *                                                                      *
-  # *                                                                      *
-  # ************************************************************************
-
+    # ************************************************************************
+    # *  Copyright (C) 2010 Peter Mortensen                                  *
+    # *                                                                      *
+    # *  Purpose: Implements the dialog to conveniently build links:         *
+    # *           Markdown (both forms), Wikipedia links (both internal      *
+    # *           and external), normal HTML links, etc.                     *
+    # *                                                                      *
+    # *           This way the user does not have to know the exact          *
+    # *           syntax (and avoid having to type strange                   *
+    # *           characters, like "[").                                     *
+    # *                                                                      *
+    # *           It is essentially a reimplementation of the dialog         *
+    # *           "XXX" in the Windows version (menu item YYY -> "ZZZ"),     *
+    # *           but this one in addition support accumulative use          *
+    # *           (more than one link - e.g. to paste directly into          *
+    # *           a comment on Stack Exchange).                              *
+    # *                                                                      *
+    # *                                                                      *
+    # *  File: \Web_Application\Link_Builder.php                             *
+    # *                                                                      *
+    # *                                                                      *
+    # *                                                                      *
+    # *                                                                      *
+    # ************************************************************************
 ?>
+
+<!--
+    Note:
+
+      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+
+        <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
+
+        <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
+-->
 
 
 <?php include("commonStart.php"); ?>
@@ -45,7 +55,6 @@
             $inlineMarkdown = "Part 3";
             $IDcounter = 1;
             $emphasisStr = "*";
-
 
             # For "Notice: Undefined variable: ..."
             error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
@@ -68,15 +77,12 @@
                 #$linkText = 'JavaScript';
                 $linkText = 'iron'; # Conform with previous versions
             }
-            
+
             # Conform with previous versions
             if ($URL == '')
             {
                 $URL = 'https://en.wikipedia.org/wiki/Iron'; # Conform with previous versions
             }
-
-
-
 
             $IDcounter++;
 
@@ -190,7 +196,6 @@
         <form
             name="LinkBuildForm"
             method="post"
-            action="Link_Builder.php"
             id="XYZ">
 
             <p>Build links
@@ -270,7 +275,7 @@
                     accesskey="T"
                     title="Shortcut: Shift + Alt + T"
                 />
-                
+
                 <input
                     name="ShortMark_part2"
                     type="text"
