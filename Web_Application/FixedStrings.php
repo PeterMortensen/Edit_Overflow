@@ -134,7 +134,7 @@
                <input
                    name="Arrow - Unicode - 2"
                    type="text"
-                   id="Arrow_Unicode"
+                   id="Arrow_Unicode_2"
                    class="XYZ40"
                    value="►"
                    style="width:30px;"
@@ -283,12 +283,12 @@
                 so this validation actually works!
             -->
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"
                 accesskey="W"
                 title="Shortcut: Shift + Alt + W"
             >HTML validation</a>.
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.php%3FOverflowStyle=Native"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.php%3FOverflowStyle=Native"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
             >HTML validation (no WordPress)</a>.

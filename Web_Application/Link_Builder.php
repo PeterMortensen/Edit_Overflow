@@ -380,12 +380,12 @@
                 so this validation actually works!
             -->
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + W"
             >HTML validation</a>.
             <a
-                href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php%3FOverflowStyle=Native"
+                href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php%3FOverflowStyle=Native"
                 accesskey="V"
                 title="Shortcut: Shift + Alt + V"
             >HTML validation (no WordPress)</a>.
