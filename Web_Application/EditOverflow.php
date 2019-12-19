@@ -1,4 +1,6 @@
 <?php
+    # File: EditOverflow.php
+
     # Future:
     #
     #   1. Eliminate/refactor $editSummary, etc. as we now use
@@ -18,6 +20,7 @@
 -->
 
 
+
 <?php include("commonStart.php"); ?>
 
 
@@ -31,6 +34,14 @@
             error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
             require_once('deploymentSpecific.php');
+
+
+            # These two are for proper indentation in the
+            # generated HTML source (by PHP).
+            $headerLevelIndent = "        ";
+            $baseIndent        = "$headerLevelIndent        ";
+            $EOL_andBaseIndent = "\n$baseIndent";
+
 
             # The only input field in the start HTML page
             #
@@ -104,7 +115,7 @@
             }
             else
             {
-                echo "<p>No SQL injection, please...</p>\n";
+                echo "$headerLevelIndent<p>No SQL injection, please...</p>\n";
 
                 #Replace "name" with something else.
                 $statement = $pdo->prepare($SQLprefix . ' :name');
@@ -229,10 +240,6 @@
                     #
                     if (!$correctTerm)
                     {
-                        # These two are for proper indentation in the
-                        # generated HTML source (by PHP).
-                        $baseIndent        = "                ";
-                        $EOL_andBaseIndent = "\n$baseIndent";
 
                         $startDivWithIndent =
                           "$EOL_andBaseIndent" .
@@ -286,7 +293,6 @@
                         echo $linkPart . $EOL_andBaseIndent;
 
 
-
                         # Provide a link to look up the term on Wiktionary
                         #echo
                         #  "<a " .
@@ -310,7 +316,6 @@
                               $EOL_andBaseIndent
                           ) .
                           $EOL_andBaseIndent;
-
 
 
                         echo $endDivWithIndent;
