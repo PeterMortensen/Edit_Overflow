@@ -455,30 +455,12 @@
         </form>
 
         <?php
-            echo "$message $extraMessage";
+            echo "$message $extraMessage\n\n";
+
+            the_EditOverflowFooter();
+
         ?>
 
-        <p>
-            <!-- Note: PHP still works inside HTML comments, so we
-                       need to use "#" to outcomment PHP lines.
-                <?php
-                    # phpinfo();
-                ?>
-            -->
-        </p>
-
-        <p>
-            <a
-                href="EditOverflow.php"
-                accesskey="E"
-                title="Shortcut: Shift + Alt + E"
-            >Edit Overflow</a>.
-
-            <a
-                href="myInfo.php"
-                accesskey="I"
-                title="Shortcut: Shift + Alt + I"
-            >Environment information</a>.
 
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php"

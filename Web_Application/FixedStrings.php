@@ -255,20 +255,10 @@
                 accesskey="S"
                 title="Shortcut: Shift + Alt + S"
             />
-        </form>
+        </form><?php the_EditOverflowFooter(); ?>
 
-        <p>
-            <a
-                href="EditOverflow.php"
-                accesskey="E"
-                title="Shortcut: Shift + Alt + E"
-            >Edit Overflow</a>.
 
-            <a
-                href="Text.php"
-                accesskey="J"
-                title="Shortcut: Shift + Alt + J"
-            >Text stuff</a>.
+
 
             <!--
               Note:

@@ -16,6 +16,9 @@
     #      some redundancy (e.g. Edit Overflow version).
 
 
+    require_once('eFooter.php');
+
+
     # Only used by one page (Text.php)
     const MAINTEXT = 'someText';
     $formDataSizeDiff = -1;
@@ -29,7 +32,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a5 2019-12-19T210736Z+0";
+        return "Edit Overflow v. 1.1.49a5 2019-12-19T214706Z+0";
     }
 
 
@@ -206,8 +209,8 @@
 
         # But why did we have to use "%22" instead of "&quot;"????
         #
-        # Is there a difference between HTML links ("href") and form field 
-        # values ("value")?? Does one need percent encoding and the other 
+        # Is there a difference between HTML links ("href") and form field
+        # values ("value")?? Does one need percent encoding and the other
         # " character entity reference encoding ("&quot;")?
         #
         #
@@ -369,6 +372,7 @@ HTML_END;
         # End of Heredoc part.
 
     } # End of native HTML part (not WordPress)
+
 
 ?>
 
