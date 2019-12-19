@@ -53,20 +53,30 @@
             # The default value is for making direct HTML validation
             # by https://validator.w3.org/ work.
             #
-            $linkText = $_POST['LinkText'] ?? 'iron';
+            $linkText = get_postParameter('LinkText') ?? 'iron';
 
             # The default value is for making direct HTML validation
             # by https://validator.w3.org/ work.
             #
-            $URL = $_POST['URL'] ?? 'https://en.wikipedia.org/wiki/Iron';
+            $URL = get_postParameter('URL') ?? 'https://en.wikipedia.org/wiki/Iron';
 
 
             # Avoid warning messages for an empty input (at the
             # expense of some confusion)
             if ($linkText == '')
             {
-                $linkText = 'JavaScript';
+                #$linkText = 'JavaScript';
+                $linkText = 'iron'; # Conform with previous versions
             }
+            
+            # Conform with previous versions
+            if ($URL == '')
+            {
+                $URL = 'https://en.wikipedia.org/wiki/Iron'; # Conform with previous versions
+            }
+
+
+
 
             $IDcounter++;
 
@@ -96,8 +106,8 @@
             # value and we don't require it to be set (e.g. from
             # the start HTML page).
             #
-            $linkText_encoded = $_POST['URLlist_encoded']  ?? '';
-            $URLlist_encoded = $_POST['URLlist_encoded']  ?? '';
+            $linkText_encoded = get_postParameter('URLlist_encoded')  ?? '';
+            $URLlist_encoded = get_postParameter('URLlist_encoded')  ?? '';
 
             #$XXX = htmlentities(YYYY, ENT_QUOTES);
             #$YYY = htmlentities(YYYY, ENT_QUOTES);
@@ -105,8 +115,7 @@
 
             # At the end, as we want it completely blank. That is, only
             # the next lookup should be part of the checkin message.
-            #if ($_POST['resetState'])
-            if (array_key_exists('resetState', $_POST))
+            if (array_key_exists('resetState', $_REQUEST))
             {
                 $linkText_encoded = "";
                 $URLlist_encoded = "";

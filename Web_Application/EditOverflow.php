@@ -37,7 +37,7 @@
             # The default value is for making direct HTML validation
             # by https://validator.w3.org/ work.
             #
-            $lookUpTerm = $_REQUEST['LookUpTerm'] ?? 'js';
+            $lookUpTerm = get_postParameter('LookUpTerm') ?? 'js';
 
             #echo
             #    "<p>lookUpTerm through htmlentities(): " .
@@ -60,8 +60,8 @@
             # value and we don't require it to be set (e.g. from
             # the start HTML page).
             #
-            $editSummary     = $_REQUEST['editSummary']      ?? ''; #To be eliminated
-            $URLlist_encoded = $_REQUEST['URLlist_encoded']  ?? ''; # The structured way (that we actually use now)
+            $editSummary     = get_postParameter('editSummary')     ?? ''; #To be eliminated
+            $URLlist_encoded = get_postParameter('URLlist_encoded') ?? ''; # The structured way (that we actually use now)
 
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
@@ -77,7 +77,7 @@
             $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
 
             # For debugging
-            #echo "<p>CustomerSQL: >>>$CustomerSQL<<< </p>\n";
+            #echo "<p>CustomerSQL: xxx" . $CustomerSQL . "xxx </p>\n";
 
             $pdo = connectToDatabase();
 
@@ -154,7 +154,6 @@
 
             # At the end, as we want it completely blank. That is, only
             # the next lookup should be part of the checkin message.
-            #if ($_REQUEST['resetState'])
             if (array_key_exists('resetState', $_REQUEST))
             {
                 $editSummary = ""; #To be eliminated
@@ -199,8 +198,8 @@
                 $URLlist2 = str_replace(', and', ' and', $URLlist2);
             }
 
-            # echo "<p>URLlist: >>>$URLlist<<< <p>\n";
-            # echo "<p>URLlist2: >>>$URLlist2<<< <p>\n";
+            # echo "<p>URLlist: xxx"  . $URLlist  . "xxx <p>\n";
+            # echo "<p>URLlist2: xxx" . $URLlist2 . "xxx <p>\n";
 
             if ($editSummary) # "$editSummary" is to be eliminated and replaced
                               # with an equivalent if construct.
@@ -259,25 +258,60 @@
                         # Refactoring opportunity: some redundancy
 
                         # Provide a link to look up the term on Wikipedia
-                        echo
-                          "<a " .
-                          "href=\"" .
-                            "https://duckduckgo.com/html/?q=" .
-                            "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
+                        #echo
+                        #  "<a " .
+                        #  "href=\"" .
+                        #    "https://duckduckgo.com/html/?q=" .
+                        #    "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
+                        #  "   accesskey=\"W\"$EOL_andBaseIndent" .
+                        #  "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
+                        #  ">Look up on <strong>W</strong>ikipedia</a>" .
+                        #  $EOL_andBaseIndent;
+
+                        $linkText = "Look up on <strong>W</strong>ikipedia";
+
+                        $URL = "https://duckduckgo.com/html/?q=" .
+                               "Wikipedia%20$lookUpTerm"
+                               ;
+                        $extraAttributes =
+                          $EOL_andBaseIndent .
                           "   accesskey=\"W\"$EOL_andBaseIndent" .
-                          "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
-                          ">Look up on <strong>W</strong>ikipedia</a>" .
-                          $EOL_andBaseIndent;
+                          "   title=\"Shortcut: Shift + Alt + V\"" . $EOL_andBaseIndent
+                          ;
+
+                        $linkPart = get_HTMLlink($linkText,
+                                                 $URL,
+                                                 $extraAttributes);
+
+                        echo $linkPart . $EOL_andBaseIndent;
+
+
 
                         # Provide a link to look up the term on Wiktionary
+                        #echo
+                        #  "<a " .
+                        #  "href=\"" .
+                        #    "https://duckduckgo.com/html/?q=" .
+                        #    "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
+                        #  "   accesskey=\"K\"$EOL_andBaseIndent" .
+                        #  "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
+                        #  ">Look up on Wi<strong>k</strong>tionary</a>";
+
                         echo
-                          "<a " .
-                          "href=\"" .
-                            "https://duckduckgo.com/html/?q=" .
-                            "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
-                          "   accesskey=\"K\"$EOL_andBaseIndent" .
-                          "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
-                          ">Look up on Wi<strong>k</strong>tionary</a>";
+                          get_HTMLlink(
+                              "Look up on Wi<strong>k</strong>tionary",
+
+                              "https://duckduckgo.com/html/?q=" .
+                                "Wiktionary%20$lookUpTerm",
+
+                              $EOL_andBaseIndent .
+                              "   accesskey=\"K\"$EOL_andBaseIndent" .
+                              "   title=\"Shortcut: Shift + Alt + K\"" .
+                              $EOL_andBaseIndent
+                          ) .
+                          $EOL_andBaseIndent;
+
+
 
                         echo $endDivWithIndent;
 
@@ -312,7 +346,7 @@
                     name="CorrectedTerm"
                     type="text"
                     id="CorrectedTerm"
-                    class="XYZ3"
+                    class="XYZ10"
                     <?php
                         # The extra trailing space in the output is for
                         # presuming the lookup terms contains a trailing
@@ -360,12 +394,12 @@
                     title="Shortcut: Shift + Alt + O"
                 />
 
-                <label for="URL"><?php echo "<a href=\"$URL\">URL</a>" ?></label>
+                <label for="URL"><?php echo get_HTMLlink("URL", $URL, "") ?></label>
                 <input
                     name="URL"
                     type="text"
                     id="URL"
-                    class="XYZ3"
+                    class="XYZ11"
                     <?php the_formValue($URL); ?>
                     style="width:400px;"
                     accesskey="E"
@@ -450,7 +484,7 @@
                     name="XYZ"
                     type="submit"
                     id="LookUp"
-                    class="XYZ3"
+                    class="XYZ12"
                     value="Look up"
                     style="width:75px;"
                     accesskey="U"

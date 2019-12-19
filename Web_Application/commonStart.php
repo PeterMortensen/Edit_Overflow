@@ -1,4 +1,6 @@
 <?php
+    # File: commonStart.php
+
     # Purposes (though we should probably split the WordPress-specific
     #           parts into a separate file, as this file has now
     #           taken on more responsibilities):
@@ -27,7 +29,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a5 2019-12-18T200610Z+0";
+        return "Edit Overflow v. 1.1.49a5 2019-12-19T193824Z+0";
     }
 
 
@@ -42,6 +44,63 @@
         # opportunity as this function is used by
         # all pages (and in the beginning).
         adjustForWordPressMadness();
+    }
+
+
+    # A central place to express if we should also support
+    # HTML GET parameters ($_REQUEST) or only POST
+    # parameters ($_POST).
+    #
+    # It also frees the clients for checking for existence (as in
+    # most cases we don't need to distinguish between empty data
+    # and absent data).
+    #
+    function get_postParameter($aKey)
+    {
+        #echo "<p>About to retrieve key >>>$aKey<<<...</p>";
+        #
+        # The "if" is to avoid the following error (as no POST parameters
+        # are defined in $_REQUEST when just initial opening a .php page):
+        #
+        #    Notice: Undefined index: editSummary in ... commonStart.php ...
+        #
+        $supportGETandPOST = "";
+        if (array_key_exists($aKey, $_REQUEST))
+        {
+            # Support HTML GET parameters, as well
+            # as HTML POST parameters
+            #
+            $supportGETandPOST = $_REQUEST[$aKey];
+        }
+
+
+        #Possible optimisation: As in the common configuration we don't
+        #                       actually use the POST-only version we
+        #                       could somehow leave it out (unnecessary
+        #                       operation).
+        #
+        # The "if" is to avoid the following error (as the parameter
+        # is not defined in $_POST when using HTML GET (parameters
+        # in a URL, not as part of an HTML form post action) - in
+        # contrast to $_REQUEST which is a superset of the GET
+        # and POST parameters):
+        #
+        #    Notice: Undefined index: OverflowStyle in ... commonStart.php
+        #
+        $supportOnlyPOST = "";
+        if (array_key_exists($aKey, $_POST))
+        {
+            $supportOnlyPOST = $_POST[$aKey];
+        }
+
+        #$toReturn = $supportOnlyPOST;
+        $toReturn = $supportGETandPOST;
+
+
+        #Do any check for undefined, etc.???
+
+
+        return $toReturn;
     }
 
 
@@ -72,7 +131,8 @@
         #
         $toReturn = true;
 
-        $OverflowStyle = $_REQUEST['OverflowStyle'] ?? 'WordPress';
+        $OverflowStyle = get_postParameter('OverflowStyle') ?? 'WordPress';
+
         if ($OverflowStyle === 'Native')
         {
             #echo "<p>WordPress styling turned off...</p>\n";
@@ -99,10 +159,10 @@
         global $formDataSizeDiff;
 
         # When we open the form (URL with ".php") there isn't
-        # form data.
+        # any form data.
         if (array_key_exists(MAINTEXT, $_REQUEST))
         {
-            $formDataSizeBefore = strlen($_REQUEST[MAINTEXT]);
+            $formDataSizeBefore = strlen(get_postParameter(MAINTEXT));
 
             #echo "<p>formDataSizeBefore: $formDataSizeBefore</p>\n";
 
@@ -116,9 +176,16 @@
                 # "stripslashes_deep" is part of WordPress
                 #
                 $_REQUEST = array_map('stripslashes_deep', $_REQUEST);
+
+                # Only really necessary if function get_postParameter()
+                # is configured for only supporting POST (not GET)...
+                # Or in other words, this is an unnecessary operation
+                # in most cases.
+                #
+                $_POST = array_map('stripslashes_deep', $_POST);
             }
 
-            $formDataSizeAfter = strlen($_REQUEST[MAINTEXT]);
+            $formDataSizeAfter = strlen(get_postParameter(MAINTEXT));
 
             # Note: Only for one specific element,
             #       "someText", only used in Text.php.
@@ -130,14 +197,49 @@
     }
 
 
-    # Single place for output of dynamic "value" attributes in HTML forms.
-    function the_formValue($aRawContentlinkInlineMarkdown)
+    function get_HTMLattributeEscaped($aRawContent)
     {
-        # Later: Make it more robust - encode double
-        #        quote (") as "&quot;". Probably
-        #        also single quote.
+        # Later: Probably also single quote.
 
-        echo "value=\"$aRawContentlinkInlineMarkdown\"\n";
+        #echo "<p>Before: xxx" . $aRawContent . "xxx</p>\n";
+
+
+        # But why did we have to use "%22" instead of "&quot;"????
+        #
+        # Is there a difference between HTML links ("href") and form field 
+        # values ("value")?? Does one need percent encoding and the other 
+        # " character entity reference encoding ("&quot;")?
+        #
+        #
+        #$encodedContent = str_replace('"', '&quot;', $aRawContent);
+        $encodedContent = str_replace('"', '%22', $aRawContent);
+
+        #echo "<p>After: xxx" . $aRawContent . "xxx</p>\n";
+
+        return $encodedContent;
+    }
+
+
+    # Single place for HTML links
+    #
+    function get_HTMLlink($aRawLinkText, $aRawURL, $anExtraAttributesText)
+    {
+        $encodedURL = get_HTMLattributeEscaped($aRawURL);
+
+        $toReturn =
+            "<a href=\"" . $encodedURL . "\"" . $anExtraAttributesText .
+            ">" . $aRawLinkText . "</a>";
+
+        return $toReturn;
+    }
+
+
+    # Single place for output of dynamic "value" attributes in HTML forms.
+    function the_formValue($aRawContent)
+    {
+        $encodedContent = get_HTMLattributeEscaped($aRawContent);
+
+        echo "value=\"$encodedContent\"\n";
     }
 
 
