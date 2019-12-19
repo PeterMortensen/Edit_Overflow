@@ -173,8 +173,8 @@
                          "$lenAfter characters after. " .
                          "Expected difference: $aLengthDiff. Actual: $diff\n";
 
-                    echo "Before: >>>$aOrigText<<<. \n";
-                    echo "After:  >>>$aNewText<<<. \n";
+                    echo "Before: xxx" . $aOrigText . "xxx. \n";
+                    echo "After:  xxx" . $aNewText  . "xxx. \n";
                     assert(false);
                 }
             }
@@ -223,19 +223,6 @@
             $someText = "";
             if (array_key_exists(MAINTEXT, $_REQUEST))
             {
-
-                #Delete at any time
-                ## Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
-                ## The problem is solely due to WordPress (we would't need if
-                ## it wasn't for the use of/integration into WordPress).
-                ##
-                ## "stripslashes_deep" is part of WordPress
-                ##
-                #$formDataSizeBefore = strlen($_REQUEST[MAINTEXT]);
-                #
-                #$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
-
-
                 # Some output to remind us that this WordPress madness
                 # should be adressed some day
                 if ($formDataSizeDiff > 0)
@@ -246,7 +233,7 @@
                 }
 
 
-                $someText = htmlentities($_REQUEST[MAINTEXT]);
+                $someText = htmlentities(get_postParameter(MAINTEXT));
 
                 assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
 
@@ -265,17 +252,17 @@
                 # need another way for it to find its way to the
                 # validation.
                 #
-                ###$someText = $_REQUEST['someText']
+                ###$someText = get_postParameter('someText')
                 ###              ?? 'Some text </textarea>';
-                ##$someText = htmlentities($_REQUEST['someText']
+                ##$someText = htmlentities(get_postParameter('someText')
                 ##                           ?? 'Some text </textarea>');
-                #$someText = htmlentities($_REQUEST['someText']);
+                #$someText = htmlentities(get_postParameter('someText');
 
 
                 #Remove at any time
                 #$lengthBefore = strlen($someText);
 
-                $actionStr = $_REQUEST['action'];
+                $actionStr = get_postParameter('action');
 
                 switch ($actionStr)
                 {
