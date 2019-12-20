@@ -13718,6 +13718,24 @@ namespace OverflowHelper.core
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
 
+            correctionAdd("brackets", "Brackets");
+
+            correctionAdd("cartesian", "Cartesian");
+
+            correctionAdd("Data Studio", "Data&nbsp;Studio");
+            correctionAdd("DataStudio", "Data&nbsp;Studio");
+
+            correctionAdd("neovim", "Neovim");
+
+            correctionAdd("endevaour", "endeavour");
+            correctionAdd("endeavor", "endeavour");
+
+            correctionAdd("moquito", "mosquito");
+
+            correctionAdd("often times", "oftentimes");
+
+            correctionAdd("user script", "userscript");
+
 
             //HACK: AASDASD
             //TODO: OIDSOPAUSD
@@ -20147,6 +20165,23 @@ namespace OverflowHelper.core
             URL_Add("em dash", "https://en.wiktionary.org/wiki/em_dash#Noun");
 
             URL_Add("palette", "https://en.wiktionary.org/wiki/palette#Noun");
+
+            URL_Add("Brackets", "https://en.wikipedia.org/wiki/Brackets_(text_editor)");
+
+            URL_Add("Cartesian", "https://en.wiktionary.org/wiki/Cartesian#Adjective");
+
+            URL_Add("Data&nbsp;Studio", "https://datastudio.google.com/navigation/reporting");
+
+            URL_Add("Neovim", "https://en.wikipedia.org/wiki/Vim_(text_editor)#Neovim");
+
+            URL_Add("endeavour", "https://en.wiktionary.org/wiki/endeavour#Noun");
+
+            URL_Add("mosquito", "https://en.wiktionary.org/wiki/mosquito#Noun");
+
+            URL_Add("oftentimes", "https://en.wiktionary.org/wiki/oftentimes#Adverb");
+
+            URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
+
 
 
 
