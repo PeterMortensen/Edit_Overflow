@@ -10392,8 +10392,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fpu", "FPU");
 
-            correctionAdd("FWIW", "For what it's worth");
-
             correctionAdd("git BASH", "Git Bash");
             correctionAdd("gitBash", "Git Bash");
             correctionAdd("git Bash", "Git Bash");
@@ -13754,8 +13752,6 @@ namespace OverflowHelper.core
 
             correctionAdd("back-stabbing", "backstabbing");
 
-            correctionAdd("fwiw", "for what it's worth");
-
             correctionAdd("fighted", "fought");
             correctionAdd("fight-ed", "fought");
 
@@ -13773,6 +13769,12 @@ namespace OverflowHelper.core
             correctionAdd("slow down", "slowdown");
 
             correctionAdd("venegence", "vengeance");
+
+            correctionAdd("fwiw", "for what it's worth");
+
+            correctionAdd("FWIW", "for what it's worth");
+
+            correctionAdd("For what it's worth", "for what it's worth");
 
 
 
@@ -17473,8 +17475,6 @@ namespace OverflowHelper.core
 
             URL_Add("FPU", "https://en.wikipedia.org/wiki/Floating-point_unit");
 
-            URL_Add("For what it's worth", "https://en.wiktionary.org/wiki/FWIW#Interjection");
-
             URL_Add("Git Bash", "https://superuser.com/questions/1053633"); // Old: https://superuser.com/questions/1053633/what-is-git-bash-for-windows-anyway
 
             URL_Add("Git Extensions", "https://gitextensions.github.io/");
@@ -20228,8 +20228,6 @@ namespace OverflowHelper.core
 
             URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
 
-            URL_Add("for what it's worth", "https://en.wiktionary.org/wiki/FWIW");
-
             URL_Add("fought", "https://en.wiktionary.org/wiki/fight#Verb");
 
             URL_Add("incorrect", "https://en.wiktionary.org/wiki/incorrect#Adjective");
@@ -20245,6 +20243,8 @@ namespace OverflowHelper.core
             URL_Add("slowdown", "https://en.wiktionary.org/wiki/slowdown#Noun");
 
             URL_Add("vengeance", "https://en.wiktionary.org/wiki/vengeance#Noun");
+
+            URL_Add("for what it's worth", "https://en.wiktionary.org/wiki/FWIW#Interjection");
 
 
 
