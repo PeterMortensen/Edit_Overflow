@@ -71,8 +71,11 @@
             # value and we don't require it to be set (e.g. from
             # the start HTML page).
             #
-            $editSummary     = get_postParameter('editSummary')     ?? ''; #To be eliminated
-            $URLlist_encoded = get_postParameter('URLlist_encoded') ?? ''; # The structured way (that we actually use now)
+            # To be eliminated
+            $editSummary     = get_postParameter('editSummary')     ?? '';
+            #
+            # The structured way (that we actually use now)
+            $URLlist_encoded = get_postParameter('URLlist_encoded') ?? '';
 
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
@@ -127,13 +130,13 @@
             // echo htmlentities($row['correctTerm']);
             $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
-            $correctTerm   = htmlentities($row['correctTerm'], ENT_QUOTES);
-            #$correctTerm   = $row['correctTerm']; # Test for the Quora apostrofe problem -
-                                                   # a term containing the U+FFFD
-                                                   # REPLACEMENT CHARACTER will make
-                                                   # $correctTerm an empty string...
+            $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
+            #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
+                                                  # a term containing the U+FFFD
+                                                  # REPLACEMENT CHARACTER will make
+                                                  # $correctTerm an empty string...
 
-            $URL           = htmlentities($row['URL']);
+            $URL          = htmlentities($row['URL']);
 
             if ($correctTerm)
             {
@@ -202,18 +205,18 @@
                                       array_slice($items, 0, -1))),
                                       array_slice($items, -1)), 'strlen'));
 
-            #Adjust for two elements
+            # Adjust for two elements
 
             if ($elements == 2)
             {
                 $URLlist2 = str_replace(', and', ' and', $URLlist2);
             }
 
-            # echo "<p>URLlist: xxx"  . $URLlist  . "xxx <p>\n";
-            # echo "<p>URLlist2: xxx" . $URLlist2 . "xxx <p>\n";
+            #echo "<p>URLlist: xxx"  . $URLlist  . "xxx <p>\n";
+            #echo "<p>URLlist2: xxx" . $URLlist2 . "xxx <p>\n";
 
             if ($editSummary) # "$editSummary" is to be eliminated and replaced
-                              # with an equivalent if construct.
+                              # with an equivalent 'if' construct.
             {
                 # Derived
                 $editSummary_output = "Active reading [" . $URLlist . "].";
@@ -240,7 +243,6 @@
                     #
                     if (!$correctTerm)
                     {
-
                         $startDivWithIndent =
                           "$EOL_andBaseIndent" .
                           "<div>" .
@@ -249,7 +251,6 @@
                           "$EOL_andBaseIndent" .
                           "</div>" .
                           $EOL_andBaseIndent;
-
 
                         echo $startDivWithIndent;
                         echo
@@ -291,7 +292,6 @@
                                                  $extraAttributes);
 
                         echo $linkPart . $EOL_andBaseIndent;
-
 
                         # Provide a link to look up the term on Wiktionary
                         #echo
@@ -424,7 +424,6 @@
                     title="Shortcut: Shift + Alt + I"
                 />
 
-
                 <?php
                     #No, not for now. But do consider it.
                     # At lookup failure, blank out the usual
@@ -435,7 +434,6 @@
                         # echo "-->\n";
                     }
                 ?>
-
 
                 <!-- Hidden field, close to the output format for
                      the edit summary
@@ -501,8 +499,6 @@
         </form><?php the_EditOverflowFooter(); ?>
 
 
-
-
             <!--
               Note:
 
@@ -528,7 +524,6 @@
         </p>
 
         <p>Proudly and unapologetic powered by PHP!</p>
-
 
 
 <?php include("commonEnd.php"); ?>
