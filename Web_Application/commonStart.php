@@ -19,8 +19,13 @@
     require_once('eFooter.php');
 
 
-    # Only used by one page (Text.php)
+    # Used by one page (EditOverflow.php)
+    const LOOKUPTERM = 'LookUpTerm';
+
+    # Used by another page (Text.php)
     const MAINTEXT = 'someText';
+
+
     $formDataSizeDiff = -1;
 
 
@@ -32,7 +37,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a5 2019-12-19T214706Z+0";
+        return "Edit Overflow v. 1.1.49a6 2019-12-27T222320Z+0";
     }
 
 
@@ -163,7 +168,10 @@
 
         # When we open the form (URL with ".php") there isn't
         # any form data.
-        if (array_key_exists(MAINTEXT, $_REQUEST))
+        if (
+            array_key_exists(LOOKUPTERM, $_REQUEST) ||  # Main - lookup
+            array_key_exists(MAINTEXT,   $_REQUEST)     # Textstuff page
+           )
         {
             $formDataSizeBefore = strlen(get_postParameter(MAINTEXT));
 
@@ -172,6 +180,8 @@
             # Only when WordPress is active (otherwise we get errors)
             if (function_exists('stripslashes_deep'))
             {
+                #echo "<p>stripslashes_deep() exists...</p>\n";
+
                 # Escape problem "fix" (ref. <https://stackoverflow.com/a/33604648>)
                 # The problem is solely due to WordPress (we would't need it
                 # if it wasn't for the use of/integration into WordPress).
