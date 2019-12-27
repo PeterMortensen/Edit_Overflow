@@ -1043,6 +1043,7 @@ namespace OverflowHelper.core
             correctionAdd("Dot.Net", ".NET");
             correctionAdd(".NetFramework", ".NET");
             correctionAdd(".NET frameowkr", ".NET");
+            correctionAdd(".Net Framework", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
 
@@ -2978,6 +2979,7 @@ namespace OverflowHelper.core
             correctionAdd("Stackexchage", "Stack&nbsp;Exchange"); //Misspelling.
             correctionAdd("stack exhcange", "Stack&nbsp;Exchange");
             correctionAdd("Stackexcange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Excange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -3014,6 +3016,7 @@ namespace OverflowHelper.core
             correctionAdd("VBox", "VirtualBox");
             correctionAdd("VirualBox", "VirtualBox");
             correctionAdd("vbox", "VirtualBox");
+            correctionAdd("VirtualBOX", "VirtualBox");
 
             correctionAdd("VirualPC", "Virual PC");
 
@@ -4062,6 +4065,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Stack&nbsp;Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
 
             correctionAdd("coffeescript", "CoffeeScript");
             correctionAdd("Coffeescript", "CoffeeScript");
@@ -7655,6 +7659,7 @@ namespace OverflowHelper.core
             correctionAdd("visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("visual 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("VISUAL STUDIO 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS 2k17", "Visual&nbsp;Studio&nbsp;2017");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -8659,6 +8664,7 @@ namespace OverflowHelper.core
             correctionAdd("2 cents", "two cents");
             correctionAdd("2cents", "two cents");
             correctionAdd("2 Cents", "two cents");
+            correctionAdd("$0.02", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -9388,6 +9394,7 @@ namespace OverflowHelper.core
             correctionAdd("everyting", "everything");
             correctionAdd("everthing", "everything");
             correctionAdd("Everyting", "everything");
+            correctionAdd("everyhing", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -9703,6 +9710,8 @@ namespace OverflowHelper.core
             correctionAdd("DotNet Core", ".NET Core");
             correctionAdd("Dot net core", ".NET Core");
             correctionAdd("net core", ".NET Core");
+            correctionAdd("net Core", ".NET Core");
+            correctionAdd(".netcore", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10932,6 +10941,7 @@ namespace OverflowHelper.core
             correctionAdd("necssity", "necessity");
 
             correctionAdd("negociation", "negotiation");
+            correctionAdd("Negociation", "negotiation");
 
             correctionAdd("oportunity", "opportunity");
 
@@ -13735,6 +13745,35 @@ namespace OverflowHelper.core
             correctionAdd("often times", "oftentimes");
 
             correctionAdd("user script", "userscript");
+
+            correctionAdd("cisco", "Cisco");
+
+            correctionAdd("associatable", "associable");
+
+            correctionAdd("back-stab", "backstab");
+
+            correctionAdd("back-stabbing", "backstabbing");
+
+            correctionAdd("fwiw", "for what it's worth");
+
+            correctionAdd("fighted", "fought");
+            correctionAdd("fight-ed", "fought");
+
+            correctionAdd("incorrec", "incorrect");
+
+            correctionAdd("Iridium", "iridium");
+
+            correctionAdd("proccess", "process");
+
+            correctionAdd("releated", "related");
+
+            correctionAdd("sattelite", "satellite");
+            correctionAdd("satelite", "satellite");
+
+            correctionAdd("slow down", "slowdown");
+
+            correctionAdd("venegence", "vengeance");
+
 
 
             //HACK: AASDASD
@@ -20181,6 +20220,31 @@ namespace OverflowHelper.core
 
             URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
 
+            URL_Add("Cisco", "https://en.wikipedia.org/wiki/Cisco_Systems");
+
+            URL_Add("associable", "https://en.wiktionary.org/wiki/associable#Adjective");
+
+            URL_Add("backstab", "https://en.wiktionary.org/wiki/backstab#Verb");
+
+            URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
+
+            URL_Add("for what it's worth", "https://en.wiktionary.org/wiki/FWIW");
+
+            URL_Add("fought", "https://en.wiktionary.org/wiki/fight#Verb");
+
+            URL_Add("incorrect", "https://en.wiktionary.org/wiki/incorrect#Adjective");
+
+            URL_Add("iridium", "https://en.wikipedia.org/wiki/Iridium");
+
+            URL_Add("process", "https://en.wiktionary.org/wiki/process#Noun");
+
+            URL_Add("related", "https://en.wiktionary.org/wiki/related#Adjective");
+
+            URL_Add("satellite", "https://en.wiktionary.org/wiki/satellite#Noun");
+
+            URL_Add("slowdown", "https://en.wiktionary.org/wiki/slowdown#Noun");
+
+            URL_Add("vengeance", "https://en.wiktionary.org/wiki/vengeance#Noun");
 
 
 
