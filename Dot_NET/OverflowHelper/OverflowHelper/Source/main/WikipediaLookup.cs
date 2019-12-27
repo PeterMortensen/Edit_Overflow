@@ -4,7 +4,7 @@
 *                                                                          *
 *                                                                          *
 * Purpose: cached lookup in Wikipedia. E.g. "JavaScript" will return       *
-*          the URL <http://en.wikipedia.org/wiki/JavaScript>. The          *
+*          the URL <https://en.wikipedia.org/wiki/JavaScript>. The         *
 *          lookups are cached so it is much faster than going              *
 *          through Google and Wikipedia every time. This typically         *
 *          takes 7 seconds (at least on a 3G Internet connection).         *
@@ -536,7 +536,7 @@ namespace OverflowHelper.core
             correctionAdd("javaee", "Java EE");
             correctionAdd("java EE", "Java EE");
             correctionAdd("JEE", "Java EE");
-            correctionAdd("J2EE", "Java EE"); //J2EE is the old product name, before 2006-05-11. See <http://en.wikipedia.org/wiki/Java_EE_version_history>.
+            correctionAdd("J2EE", "Java EE"); //J2EE is the old product name, before 2006-05-11. See <https://en.wikipedia.org/wiki/Java_EE_version_history>.
             correctionAdd("j2ee", "Java EE");
             correctionAdd("J2ee", "Java EE");
             correctionAdd("JavaEE", "Java EE");
@@ -618,7 +618,7 @@ namespace OverflowHelper.core
             correctionAdd("jquery ui", "jQuery UI");
             correctionAdd("jquery-ui", "jQuery UI");
             correctionAdd("Jquery UI", "jQuery UI");
-            correctionAdd("JQueryUI", "jQuery UI"); //From Wikipedia, <http://en.wikipedia.org/wiki/Wikipedia:Counter-Vandalism_Unit>.
+            correctionAdd("JQueryUI", "jQuery UI"); //From Wikipedia, <https://en.wikipedia.org/wiki/Wikipedia:Counter-Vandalism_Unit>.
             correctionAdd("jQueryUI", "jQuery UI");
             correctionAdd("jqueryui", "jQuery UI");
             correctionAdd("JQuery UI", "jQuery UI");
@@ -1361,7 +1361,7 @@ namespace OverflowHelper.core
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
 
 
-            //Adobe Flex. Conflict with the lexical analyser Flex (http://en.wikipedia.org/wiki/Flex_lexical_analyser).
+            //Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
             correctionAdd("FLEX", "Flex");
 
@@ -2525,7 +2525,7 @@ namespace OverflowHelper.core
 
 
             //New name:   Jenkins
-            //            http://en.wikipedia.org/wiki/Jenkins_%28software%29
+            //            https://en.wikipedia.org/wiki/Jenkins_%28software%29
             correctionAdd("hudson", "Hudson");
 
             correctionAdd("grails", "Grails");
@@ -4369,7 +4369,7 @@ namespace OverflowHelper.core
 
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
-            //  unfortunately been deleted: http://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
+            //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
 
             correctionAdd("debian", "Debian");
             correctionAdd("deb", "Debian");
@@ -5627,7 +5627,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rdp", "RDP");
 
-            correctionAdd("kvm", "KVM"); //Conflict with KVM switch, "keyboard, visual display unit, mouse", <http://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
+            correctionAdd("kvm", "KVM"); //Conflict with KVM switch, "keyboard, visual display unit, mouse", <https://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
             correctionAdd("KVm", "KVM");
 
             correctionAdd("Teamviewer", "TeamViewer");
@@ -13558,7 +13558,7 @@ namespace OverflowHelper.core
                                           //
                                           //    INSERT INTO EditOverflow
                                           //    (incorrectTerm, correctTerm, URL)
-                                          //    VALUES('I\\O', 'I/O', 'http://en.wikipedia.org/wiki/Input/output');
+                                          //    VALUES('I\\O', 'I/O', 'https://en.wikipedia.org/wiki/Input/output');
 
             correctionAdd("ATMEGA32", "ATmega32");
             correctionAdd("ATMEGA 32", "ATmega32");
@@ -13751,7 +13751,7 @@ namespace OverflowHelper.core
 
             //Candidates:
             //
-            //  4. http://en.wikipedia.org/wiki/IPv6
+            //  4. https://en.wikipedia.org/wiki/IPv6
             //     IPv6
             //
             //  5. Microsoft Chart Controls (correct name? What is the Wikipedia page?)
@@ -13760,916 +13760,916 @@ namespace OverflowHelper.core
             //string msg5 = "Starting to add URL mappings...";
             //System.Windows.Forms.MessageBox.Show(msg5);
 
-            URL_Add("JavaScript", "https://en.wikipedia.org/wiki/JavaScript"); // Old: http://en.wikipedia.org/wiki/JavaScript
-            URL_Add("jQuery", "https://en.wikipedia.org/wiki/JQuery"); // Old: http://en.wikipedia.org/wiki/JQuery
-            URL_Add("Ajax", "http://en.wikipedia.org/wiki/Ajax_%28programming%29");
+            URL_Add("JavaScript", "https://en.wikipedia.org/wiki/JavaScript");
+            URL_Add("jQuery", "https://en.wikipedia.org/wiki/JQuery");
+            URL_Add("Ajax", "https://en.wikipedia.org/wiki/Ajax_%28programming%29");
 
-            URL_Add("MSN", "http://en.wikipedia.org/wiki/MSN");
-            URL_Add("MFC", "http://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library");
-            URL_Add("Windows Forms", "http://en.wikipedia.org/wiki/Windows_Forms");
+            URL_Add("MSN", "https://en.wikipedia.org/wiki/MSN");
+            URL_Add("MFC", "https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library");
+            URL_Add("Windows Forms", "https://en.wikipedia.org/wiki/Windows_Forms");
 
-            URL_Add("TIFF", "http://en.wikipedia.org/wiki/Tagged_Image_File_Format");
+            URL_Add("TIFF", "https://en.wikipedia.org/wiki/Tagged_Image_File_Format");
 
-            URL_Add("Android", "http://en.wikipedia.org/wiki/Android_%28operating_system%29");
+            URL_Add("Android", "https://en.wikipedia.org/wiki/Android_%28operating_system%29");
 
-            URL_Add("LAMP", "http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29");
+            URL_Add("LAMP", "https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29");
 
-            URL_Add("MySQL", "http://en.wikipedia.org/wiki/MySQL");
+            URL_Add("MySQL", "https://en.wikipedia.org/wiki/MySQL");
 
-            URL_Add("iPhone", "http://en.wikipedia.org/wiki/IPhone");
+            URL_Add("iPhone", "https://en.wikipedia.org/wiki/IPhone");
 
-            URL_Add(".NET", "http://en.wikipedia.org/wiki/.NET_Framework");
+            URL_Add(".NET", "https://en.wikipedia.org/wiki/.NET_Framework");
 
-            URL_Add("Scala", "http://en.wikipedia.org/wiki/Scala_%28programming_language%29");
+            URL_Add("Scala", "https://en.wikipedia.org/wiki/Scala_%28programming_language%29");
 
-            URL_Add("Objective-C", "http://en.wikipedia.org/wiki/Objective-C");
+            URL_Add("Objective-C", "https://en.wikipedia.org/wiki/Objective-C");
 
-            URL_Add("FxCop", "http://en.wikipedia.org/wiki/FxCop");
+            URL_Add("FxCop", "https://en.wikipedia.org/wiki/FxCop");
 
-            URL_Add("ASP.NET MVC", "https://en.wikipedia.org/wiki/ASP.NET_MVC"); // Old: http://en.wikipedia.org/wiki/ASP.NET_MVC_Framework
+            URL_Add("ASP.NET MVC", "https://en.wikipedia.org/wiki/ASP.NET_MVC"); // Old: https://en.wikipedia.org/wiki/ASP.NET_MVC_Framework
 
-            URL_Add("ASP.NET", "http://en.wikipedia.org/wiki/ASP.NET");
+            URL_Add("ASP.NET", "https://en.wikipedia.org/wiki/ASP.NET");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X", "http://en.wikipedia.org/wiki/Mac_OS_X");
+            URL_Add("Mac&nbsp;OS&nbsp;X", "https://en.wikipedia.org/wiki/Mac_OS_X");
 
-            URL_Add("Flex", "http://en.wikipedia.org/wiki/Adobe_Flex");
+            URL_Add("Flex", "https://en.wikipedia.org/wiki/Adobe_Flex");
 
-            URL_Add("ActionScript", "http://en.wikipedia.org/wiki/ActionScript");
+            URL_Add("ActionScript", "https://en.wikipedia.org/wiki/ActionScript");
 
-            URL_Add("ADO.NET", "http://en.wikipedia.org/wiki/ADO.NET");
+            URL_Add("ADO.NET", "https://en.wikipedia.org/wiki/ADO.NET");
 
-            URL_Add("stored procedure", "http://en.wikipedia.org/wiki/Stored_procedure");
+            URL_Add("stored procedure", "https://en.wikipedia.org/wiki/Stored_procedure");
 
-            URL_Add("SQL Server 2005", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2005"); // Old: http://en.wikipedia.org/wiki/Microsoft_SQL_Server#SQL_Server_2005
+            URL_Add("SQL Server 2005", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2005"); // Old: https://en.wikipedia.org/wiki/Microsoft_SQL_Server#SQL_Server_2005
 
-            URL_Add("SQL&nbsp;Server", "http://en.wikipedia.org/wiki/Microsoft_SQL_Server");
+            URL_Add("SQL&nbsp;Server", "https://en.wikipedia.org/wiki/Microsoft_SQL_Server");
 
             //Relational database management system.
-            URL_Add("database", "http://en.wikipedia.org/wiki/Relational_database_management_system");
+            URL_Add("database", "https://en.wikipedia.org/wiki/Relational_database_management_system");
 
-            URL_Add("RIA", "https://en.wikipedia.org/wiki/Rich_web_application"); // Old: http://en.wikipedia.org/wiki/Rich_Internet_application
+            URL_Add("RIA", "https://en.wikipedia.org/wiki/Rich_web_application"); // Old: https://en.wikipedia.org/wiki/Rich_Internet_application
 
-            URL_Add("SubSonic", "http://en.wikipedia.org/wiki/Subsonic_%28software%29");
+            URL_Add("SubSonic", "https://en.wikipedia.org/wiki/Subsonic_%28software%29");
 
-            URL_Add("ADO.NET Entity Framework", "http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework");
+            URL_Add("ADO.NET Entity Framework", "https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework");
 
-            URL_Add("WPF", "http://en.wikipedia.org/wiki/Windows_Presentation_Foundation");
+            URL_Add("WPF", "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation");
 
-            URL_Add("MSDN", "http://en.wikipedia.org/wiki/Microsoft_Developer_Network");
+            URL_Add("MSDN", "https://en.wikipedia.org/wiki/Microsoft_Developer_Network");
 
-            URL_Add("SQL Server Express Edition", "http://en.wikipedia.org/wiki/SQL_Server_Express");
+            URL_Add("SQL Server Express Edition", "https://en.wikipedia.org/wiki/SQL_Server_Express");
 
-            URL_Add("PowerBuilder", "http://en.wikipedia.org/wiki/PowerBuilder");
+            URL_Add("PowerBuilder", "https://en.wikipedia.org/wiki/PowerBuilder");
 
-            URL_Add("Swing", "http://en.wikipedia.org/wiki/Swing_%28Java%29");
+            URL_Add("Swing", "https://en.wikipedia.org/wiki/Swing_%28Java%29");
 
-            URL_Add("Qt", "https://en.wikipedia.org/wiki/Qt_%28software%29"); //The URL changed. Old: <http://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
+            URL_Add("Qt", "https://en.wikipedia.org/wiki/Qt_%28software%29"); //The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
 
             URL_Add("IntelliSense", "https://en.wikipedia.org/wiki/Intelligent_code_completion#IntelliSense"); // Previous: <https://en.wikipedia.org/wiki/Intelli-sense>
 
-            URL_Add("Internet", "http://en.wikipedia.org/wiki/Internet");
+            URL_Add("Internet", "https://en.wikipedia.org/wiki/Internet");
 
-            URL_Add("YouTube", "http://en.wikipedia.org/wiki/YouTube");
+            URL_Add("YouTube", "https://en.wikipedia.org/wiki/YouTube");
 
-            URL_Add("UTF-8", "http://en.wikipedia.org/wiki/UTF-8");
+            URL_Add("UTF-8", "https://en.wikipedia.org/wiki/UTF-8");
 
-            URL_Add("UTF-16", "https://en.wikipedia.org/wiki/UTF-16"); //Old: <http://en.wikipedia.org/wiki/UTF-16/UCS-2>.
+            URL_Add("UTF-16", "https://en.wikipedia.org/wiki/UTF-16"); //Old: <https://en.wikipedia.org/wiki/UTF-16/UCS-2>.
 
-            URL_Add("IntelliJ IDEA", "http://en.wikipedia.org/wiki/IntelliJ_IDEA");
+            URL_Add("IntelliJ IDEA", "https://en.wikipedia.org/wiki/IntelliJ_IDEA");
 
-            URL_Add("CouchDB", "http://en.wikipedia.org/wiki/CouchDB");
+            URL_Add("CouchDB", "https://en.wikipedia.org/wiki/CouchDB");
 
-            URL_Add(".NET Reflector", "http://en.wikipedia.org/wiki/.NET_Reflector");
+            URL_Add(".NET Reflector", "https://en.wikipedia.org/wiki/.NET_Reflector");
 
-            URL_Add("NHibernate", "http://en.wikipedia.org/wiki/NHibernate");
+            URL_Add("NHibernate", "https://en.wikipedia.org/wiki/NHibernate");
 
-            URL_Add("Hibernate", "http://en.wikipedia.org/wiki/Hibernate_%28Java%29");
+            URL_Add("Hibernate", "https://en.wikipedia.org/wiki/Hibernate_%28Java%29");
 
-            URL_Add("POCO", "http://en.wikipedia.org/wiki/Plain_Old_CLR_Object");
+            URL_Add("POCO", "https://en.wikipedia.org/wiki/Plain_Old_CLR_Object");
 
-            URL_Add("Struts", "http://en.wikipedia.org/wiki/Apache_Struts");
+            URL_Add("Struts", "https://en.wikipedia.org/wiki/Apache_Struts");
 
-            URL_Add("Boost", "http://en.wikipedia.org/wiki/Boost_%28C%2B%2B_libraries%29"); //Old: http://en.wikipedia.org/wiki/Boost_C%2B%2B_Libraries
+            URL_Add("Boost", "https://en.wikipedia.org/wiki/Boost_%28C%2B%2B_libraries%29");
 
-            URL_Add("continuous integration", "http://en.wikipedia.org/wiki/Continuous_integration");
+            URL_Add("continuous integration", "https://en.wikipedia.org/wiki/Continuous_integration");
 
-            URL_Add("ImageMagick", "http://en.wikipedia.org/wiki/ImageMagick");
+            URL_Add("ImageMagick", "https://en.wikipedia.org/wiki/ImageMagick");
 
-            URL_Add("DPI", "http://en.wikipedia.org/wiki/Dots_per_inch");
+            URL_Add("DPI", "https://en.wikipedia.org/wiki/Dots_per_inch");
 
-            URL_Add("NumPy", "http://en.wikipedia.org/wiki/NumPy");
+            URL_Add("NumPy", "https://en.wikipedia.org/wiki/NumPy");
 
             //Fixed 2010-03-14...
-            //URL_Add("Bash", "http://en.wikipedia.org/wiki/Bash");
-            URL_Add("Bash", "http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
+            //URL_Add("Bash", "https://en.wikipedia.org/wiki/Bash");
+            URL_Add("Bash", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
 
-            URL_Add("WiX", "http://en.wikipedia.org/wiki/WiX");
+            URL_Add("WiX", "https://en.wikipedia.org/wiki/WiX");
 
-            URL_Add("Perl", "http://en.wikipedia.org/wiki/Perl");
+            URL_Add("Perl", "https://en.wikipedia.org/wiki/Perl");
 
-            URL_Add("LINQ", "http://en.wikipedia.org/wiki/Language_Integrated_Query");
-
-            //Changed at Wikipedia
-            //URL_Add("LINQ&nbsp;to&nbsp;SQL", "http://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL");
-            URL_Add("LINQ&nbsp;to&nbsp;SQL", "http://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL_.28formerly_called_DLINQ.29");
+            URL_Add("LINQ", "https://en.wikipedia.org/wiki/Language_Integrated_Query");
 
             //Changed at Wikipedia
-            //URL_Add("LINQ&nbsp;to&nbsp;XML", "http://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML");
-            URL_Add("LINQ&nbsp;to&nbsp;XML", "http://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML_.28formerly_called_XLINQ.29");
+            //URL_Add("LINQ&nbsp;to&nbsp;SQL", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL");
+            URL_Add("LINQ&nbsp;to&nbsp;SQL", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL_.28formerly_called_DLINQ.29");
 
-            URL_Add("CakePHP", "http://en.wikipedia.org/wiki/CakePHP");
+            //Changed at Wikipedia
+            //URL_Add("LINQ&nbsp;to&nbsp;XML", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML");
+            URL_Add("LINQ&nbsp;to&nbsp;XML", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML_.28formerly_called_XLINQ.29");
 
-            URL_Add("PowerShell", "http://en.wikipedia.org/wiki/Windows_PowerShell");
+            URL_Add("CakePHP", "https://en.wikipedia.org/wiki/CakePHP");
 
-            URL_Add("SQLite", "http://en.wikipedia.org/wiki/SQLite");
+            URL_Add("PowerShell", "https://en.wikipedia.org/wiki/Windows_PowerShell");
 
-            URL_Add("Expression Blend", "http://en.wikipedia.org/wiki/Microsoft_Expression_Blend");
+            URL_Add("SQLite", "https://en.wikipedia.org/wiki/SQLite");
 
-            URL_Add("Vim", "http://en.wikipedia.org/wiki/Vim_%28text_editor%29");
-            URL_Add("gVim", "http://en.wikipedia.org/wiki/Vim_%28text_editor%29#Interface");
+            URL_Add("Expression Blend", "https://en.wikipedia.org/wiki/Microsoft_Expression_Blend");
 
-            URL_Add("Cygwin", "http://en.wikipedia.org/wiki/Cygwin");
+            URL_Add("Vim", "https://en.wikipedia.org/wiki/Vim_%28text_editor%29");
+            URL_Add("gVim", "https://en.wikipedia.org/wiki/Vim_%28text_editor%29#Interface");
 
-            URL_Add("SourceForge", "http://en.wikipedia.org/wiki/SourceForge");
+            URL_Add("Cygwin", "https://en.wikipedia.org/wiki/Cygwin");
 
-            URL_Add("OpenOffice", "http://en.wikipedia.org/wiki/OpenOffice.org");
+            URL_Add("SourceForge", "https://en.wikipedia.org/wiki/SourceForge");
 
-            URL_Add("VBScript", "http://en.wikipedia.org/wiki/VBScript");
+            URL_Add("OpenOffice", "https://en.wikipedia.org/wiki/OpenOffice.org");
 
-            URL_Add("MATLAB", "http://en.wikipedia.org/wiki/MATLAB");
+            URL_Add("VBScript", "https://en.wikipedia.org/wiki/VBScript");
 
-            URL_Add("PostgreSQL", "http://en.wikipedia.org/wiki/PostgreSQL");
+            URL_Add("MATLAB", "https://en.wikipedia.org/wiki/MATLAB");
 
-            URL_Add("segmentation fault", "http://en.wikipedia.org/wiki/Segmentation_fault");
+            URL_Add("PostgreSQL", "https://en.wikipedia.org/wiki/PostgreSQL");
 
-            URL_Add("JSON", "http://en.wikipedia.org/wiki/JSON");
+            URL_Add("segmentation fault", "https://en.wikipedia.org/wiki/Segmentation_fault");
 
-            //Fixed 2012-07-17. Was the insect, "http://en.wikipedia.org/wiki/Firebug"!
-            URL_Add("Firebug", "http://en.wikipedia.org/wiki/Firebug_%28software%29");
+            URL_Add("JSON", "https://en.wikipedia.org/wiki/JSON");
 
-            URL_Add("Drupal", "http://en.wikipedia.org/wiki/Drupal");
+            //Fixed 2012-07-17. Was the insect, "https://en.wikipedia.org/wiki/Firebug"!
+            URL_Add("Firebug", "https://en.wikipedia.org/wiki/Firebug_%28software%29");
 
-            URL_Add("PyQt", "http://en.wikipedia.org/wiki/PyQt");
+            URL_Add("Drupal", "https://en.wikipedia.org/wiki/Drupal");
 
-            URL_Add("Gmail", "http://en.wikipedia.org/wiki/Gmail");
+            URL_Add("PyQt", "https://en.wikipedia.org/wiki/PyQt");
 
-            URL_Add("Ruby", "http://en.wikipedia.org/wiki/Ruby_%28programming_language%29");
+            URL_Add("Gmail", "https://en.wikipedia.org/wiki/Gmail");
 
-            URL_Add("ReSharper", "https://en.wikipedia.org/wiki/JetBrains#ReSharper_Ultimate"); // Old: http://en.wikipedia.org/wiki/ReSharper
+            URL_Add("Ruby", "https://en.wikipedia.org/wiki/Ruby_%28programming_language%29");
 
-            URL_Add("test-driven development", "http://en.wikipedia.org/wiki/Test-driven_development");
+            URL_Add("ReSharper", "https://en.wikipedia.org/wiki/JetBrains#ReSharper_Ultimate"); // Old: https://en.wikipedia.org/wiki/ReSharper
 
-            URL_Add("XAMPP", "http://en.wikipedia.org/wiki/XAMPP");
+            URL_Add("test-driven development", "https://en.wikipedia.org/wiki/Test-driven_development");
 
-            URL_Add("YUI", "http://en.wikipedia.org/wiki/Yahoo!_UI_Library");
+            URL_Add("XAMPP", "https://en.wikipedia.org/wiki/XAMPP");
 
-            URL_Add("sed", "http://en.wikipedia.org/wiki/Sed");
+            URL_Add("YUI", "https://en.wikipedia.org/wiki/Yahoo!_UI_Library");
 
-            URL_Add("AWK", "http://en.wikipedia.org/wiki/AWK");
+            URL_Add("sed", "https://en.wikipedia.org/wiki/Sed");
 
-            URL_Add("Tcl", "http://en.wikipedia.org/wiki/Tcl");
+            URL_Add("AWK", "https://en.wikipedia.org/wiki/AWK");
 
-            URL_Add("Lua", "http://en.wikipedia.org/wiki/Lua_%28programming_language%29");
+            URL_Add("Tcl", "https://en.wikipedia.org/wiki/Tcl");
 
-            URL_Add("Ant", "http://en.wikipedia.org/wiki/Apache_Ant");
+            URL_Add("Lua", "https://en.wikipedia.org/wiki/Lua_%28programming_language%29");
 
-            URL_Add("VB.NET", "http://en.wikipedia.org/wiki/Visual_Basic_.NET");
+            URL_Add("Ant", "https://en.wikipedia.org/wiki/Apache_Ant");
 
-            URL_Add("Wi-Fi", "http://en.wikipedia.org/wiki/Wi-Fi");
+            URL_Add("VB.NET", "https://en.wikipedia.org/wiki/Visual_Basic_.NET");
 
-            URL_Add("I/O", "http://en.wikipedia.org/wiki/Input/output");
+            URL_Add("Wi-Fi", "https://en.wikipedia.org/wiki/Wi-Fi");
 
-            URL_Add("VLC media player", "http://en.wikipedia.org/wiki/VLC_media_player");
+            URL_Add("I/O", "https://en.wikipedia.org/wiki/Input/output");
 
-            URL_Add("Emacs", "http://en.wikipedia.org/wiki/Emacs");
+            URL_Add("VLC media player", "https://en.wikipedia.org/wiki/VLC_media_player");
 
-            URL_Add("Python", "http://en.wikipedia.org/wiki/Python_%28programming_language%29");
+            URL_Add("Emacs", "https://en.wikipedia.org/wiki/Emacs");
 
-            URL_Add("Maven", "http://en.wikipedia.org/wiki/Apache_Maven");
+            URL_Add("Python", "https://en.wikipedia.org/wiki/Python_%28programming_language%29");
 
-            URL_Add("Greasemonkey", "http://en.wikipedia.org/wiki/Greasemonkey");
+            URL_Add("Maven", "https://en.wikipedia.org/wiki/Apache_Maven");
 
-            URL_Add("PuTTY", "http://en.wikipedia.org/wiki/PuTTY");
+            URL_Add("Greasemonkey", "https://en.wikipedia.org/wiki/Greasemonkey");
 
-            URL_Add("TA", "http://en.wikipedia.org/wiki/Teaching_assistant");
+            URL_Add("PuTTY", "https://en.wikipedia.org/wiki/PuTTY");
 
-            URL_Add("CodeIgniter", "https://en.wikipedia.org/wiki/CodeIgniter"); //Old: http://en.wikipedia.org/wiki/Codeigniter#CodeIgniter
+            URL_Add("TA", "https://en.wikipedia.org/wiki/Teaching_assistant");
 
-            URL_Add("GlassFish", "http://en.wikipedia.org/wiki/GlassFish");
+            URL_Add("CodeIgniter", "https://en.wikipedia.org/wiki/CodeIgniter"); //Old: https://en.wikipedia.org/wiki/Codeigniter#CodeIgniter
 
-            URL_Add("7-Zip", "http://en.wikipedia.org/wiki/7-Zip");
+            URL_Add("GlassFish", "https://en.wikipedia.org/wiki/GlassFish");
 
-            URL_Add("synchronise", "http://en.wikipedia.org/wiki/Synchronization");
+            URL_Add("7-Zip", "https://en.wikipedia.org/wiki/7-Zip");
 
-            URL_Add("sIFR", "http://en.wikipedia.org/wiki/Scalable_Inman_Flash_Replacement");
+            URL_Add("synchronise", "https://en.wikipedia.org/wiki/Synchronization");
 
-            URL_Add("Boot Camp", "http://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
+            URL_Add("sIFR", "https://en.wikipedia.org/wiki/Scalable_Inman_Flash_Replacement");
 
-            URL_Add("IronPython", "http://en.wikipedia.org/wiki/IronPython");
+            URL_Add("Boot Camp", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
 
-            URL_Add("Groovy", "http://en.wikipedia.org/wiki/Groovy_%28programming_language%29");
+            URL_Add("IronPython", "https://en.wikipedia.org/wiki/IronPython");
 
-            URL_Add("NetBeans", "http://en.wikipedia.org/wiki/NetBeans");
+            URL_Add("Groovy", "https://en.wikipedia.org/wiki/Groovy_%28programming_language%29");
 
-            URL_Add("Solr", "http://en.wikipedia.org/wiki/Apache_Solr");
+            URL_Add("NetBeans", "https://en.wikipedia.org/wiki/NetBeans");
 
-            URL_Add("NoScript", "http://en.wikipedia.org/wiki/NoScript");
+            URL_Add("Solr", "https://en.wikipedia.org/wiki/Apache_Solr");
 
-            URL_Add("Adblock", "http://en.wikipedia.org/wiki/Adblock_Plus");
+            URL_Add("NoScript", "https://en.wikipedia.org/wiki/NoScript");
 
-            URL_Add("Matplotlib", "http://en.wikipedia.org/wiki/Matplotlib");
+            URL_Add("Adblock", "https://en.wikipedia.org/wiki/Adblock_Plus");
 
-            URL_Add("IDLE", "http://en.wikipedia.org/wiki/IDLE_%28Python%29");
+            URL_Add("Matplotlib", "https://en.wikipedia.org/wiki/Matplotlib");
+
+            URL_Add("IDLE", "https://en.wikipedia.org/wiki/IDLE_%28Python%29");
 
             URL_Add("SharePoint", "https://en.wikipedia.org/wiki/SharePoint");
 
-            URL_Add("PayPal", "http://en.wikipedia.org/wiki/PayPal");
+            URL_Add("PayPal", "https://en.wikipedia.org/wiki/PayPal");
 
-            URL_Add("Mono", "http://en.wikipedia.org/wiki/Mono_%28software%29");
+            URL_Add("Mono", "https://en.wikipedia.org/wiki/Mono_%28software%29");
 
-            URL_Add("Pig Latin", "http://en.wikipedia.org/wiki/Pig_Latin");
+            URL_Add("Pig Latin", "https://en.wikipedia.org/wiki/Pig_Latin");
 
-            URL_Add("VMware", "http://en.wikipedia.org/wiki/VMware");
+            URL_Add("VMware", "https://en.wikipedia.org/wiki/VMware");
 
-            URL_Add("SciPy", "http://en.wikipedia.org/wiki/SciPy");
+            URL_Add("SciPy", "https://en.wikipedia.org/wiki/SciPy");
 
-            URL_Add("phpMyAdmin", "http://en.wikipedia.org/wiki/PhpMyAdmin");
+            URL_Add("phpMyAdmin", "https://en.wikipedia.org/wiki/PhpMyAdmin");
 
-            URL_Add("LDAP", "http://en.wikipedia.org/wiki/LDAP");
+            URL_Add("LDAP", "https://en.wikipedia.org/wiki/LDAP");
 
-            URL_Add("SciTE", "http://en.wikipedia.org/wiki/SciTE");
+            URL_Add("SciTE", "https://en.wikipedia.org/wiki/SciTE");
 
-            URL_Add("ORM", "http://en.wikipedia.org/wiki/Object-relational_mapping");
+            URL_Add("ORM", "https://en.wikipedia.org/wiki/Object-relational_mapping");
 
-            URL_Add("Ext&nbsp;JS", "http://en.wikipedia.org/wiki/Ext_JS");
+            URL_Add("Ext&nbsp;JS", "https://en.wikipedia.org/wiki/Ext_JS");
 
-            URL_Add("Google&nbsp;Web&nbsp;Toolkit", "http://en.wikipedia.org/wiki/Google_Web_Toolkit");
+            URL_Add("Google&nbsp;Web&nbsp;Toolkit", "https://en.wikipedia.org/wiki/Google_Web_Toolkit");
 
-            URL_Add("MediaWiki", "http://en.wikipedia.org/wiki/MediaWiki");
+            URL_Add("MediaWiki", "https://en.wikipedia.org/wiki/MediaWiki");
 
-            URL_Add("Excel", "http://en.wikipedia.org/wiki/Microsoft_Excel");
+            URL_Add("Excel", "https://en.wikipedia.org/wiki/Microsoft_Excel");
 
-            URL_Add("WYSIWYG", "http://en.wikipedia.org/wiki/WYSIWYG");
+            URL_Add("WYSIWYG", "https://en.wikipedia.org/wiki/WYSIWYG");
 
-            URL_Add("MoinMoin", "http://en.wikipedia.org/wiki/MoinMoin");
+            URL_Add("MoinMoin", "https://en.wikipedia.org/wiki/MoinMoin");
 
-            URL_Add("Joomla", "http://en.wikipedia.org/wiki/Joomla");
+            URL_Add("Joomla", "https://en.wikipedia.org/wiki/Joomla");
 
-            URL_Add("YAML", "http://en.wikipedia.org/wiki/YAML");
+            URL_Add("YAML", "https://en.wikipedia.org/wiki/YAML");
 
-            URL_Add("XAML", "http://en.wikipedia.org/wiki/Extensible_Application_Markup_Language");
+            URL_Add("XAML", "https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language");
 
-            URL_Add("Google App Engine", "http://en.wikipedia.org/wiki/Google_App_Engine");
+            URL_Add("Google App Engine", "https://en.wikipedia.org/wiki/Google_App_Engine");
 
-            URL_Add("Inkscape", "http://en.wikipedia.org/wiki/Inkscape");
+            URL_Add("Inkscape", "https://en.wikipedia.org/wiki/Inkscape");
 
-            URL_Add("NDepend", "http://en.wikipedia.org/wiki/NDepend");
+            URL_Add("NDepend", "https://en.wikipedia.org/wiki/NDepend");
 
-            URL_Add("XML-RPC", "http://en.wikipedia.org/wiki/XML-RPC");
+            URL_Add("XML-RPC", "https://en.wikipedia.org/wiki/XML-RPC");
 
-            URL_Add("OpenDNS", "http://en.wikipedia.org/wiki/OpenDNS");
+            URL_Add("OpenDNS", "https://en.wikipedia.org/wiki/OpenDNS");
 
-            URL_Add("ColdFusion", "http://en.wikipedia.org/wiki/Adobe_ColdFusion"); //Old: http://en.wikipedia.org/wiki/ColdFusion
+            URL_Add("ColdFusion", "https://en.wikipedia.org/wiki/Adobe_ColdFusion"); //Old: https://en.wikipedia.org/wiki/ColdFusion
 
-            URL_Add("MooTools", "http://en.wikipedia.org/wiki/MooTools");
+            URL_Add("MooTools", "https://en.wikipedia.org/wiki/MooTools");
 
-            URL_Add("Google Apps", "http://en.wikipedia.org/wiki/Google_Apps");
+            URL_Add("Google Apps", "https://en.wikipedia.org/wiki/Google_Apps");
 
-            URL_Add("WordPress", "http://en.wikipedia.org/wiki/WordPress");
+            URL_Add("WordPress", "https://en.wikipedia.org/wiki/WordPress");
 
-            URL_Add("SSL", "http://en.wikipedia.org/wiki/Transport_Layer_Security");
+            URL_Add("SSL", "https://en.wikipedia.org/wiki/Transport_Layer_Security");
 
-            URL_Add("JavaFX", "http://en.wikipedia.org/wiki/JavaFX");
+            URL_Add("JavaFX", "https://en.wikipedia.org/wiki/JavaFX");
 
-            URL_Add("WebKit", "http://en.wikipedia.org/wiki/WebKit");
+            URL_Add("WebKit", "https://en.wikipedia.org/wiki/WebKit");
 
-            URL_Add("Arduino", "http://en.wikipedia.org/wiki/Arduino");
+            URL_Add("Arduino", "https://en.wikipedia.org/wiki/Arduino");
 
-            URL_Add("Prototype", "http://en.wikipedia.org/wiki/Prototype_JavaScript_Framework");
+            URL_Add("Prototype", "https://en.wikipedia.org/wiki/Prototype_JavaScript_Framework");
 
-            URL_Add("Silverlight", "http://en.wikipedia.org/wiki/Microsoft_Silverlight");
+            URL_Add("Silverlight", "https://en.wikipedia.org/wiki/Microsoft_Silverlight");
 
-            URL_Add("Crystal Reports", "http://en.wikipedia.org/wiki/Crystal_Reports");
+            URL_Add("Crystal Reports", "https://en.wikipedia.org/wiki/Crystal_Reports");
 
-            URL_Add("OpenVPN", "http://en.wikipedia.org/wiki/OpenVPN");
+            URL_Add("OpenVPN", "https://en.wikipedia.org/wiki/OpenVPN");
 
-            URL_Add("T-SQL", "http://en.wikipedia.org/wiki/Transact-SQL");
+            URL_Add("T-SQL", "https://en.wikipedia.org/wiki/Transact-SQL");
 
-            URL_Add("MongoDB", "http://en.wikipedia.org/wiki/MongoDB");
+            URL_Add("MongoDB", "https://en.wikipedia.org/wiki/MongoDB");
 
-            URL_Add("HBase", "http://en.wikipedia.org/wiki/HBase");
+            URL_Add("HBase", "https://en.wikipedia.org/wiki/HBase");
 
-            URL_Add("Lucene", "http://en.wikipedia.org/wiki/Lucene");
+            URL_Add("Lucene", "https://en.wikipedia.org/wiki/Lucene");
 
-            URL_Add("Subversion", "http://en.wikipedia.org/wiki/Apache_Subversion");
+            URL_Add("Subversion", "https://en.wikipedia.org/wiki/Apache_Subversion");
 
             URL_Add("The Code Project", "https://en.wikipedia.org/wiki/Code_Project"); //Was https://en.wikipedia.org/wiki/The_Code_Project
 
-            URL_Add("phpBB", "http://en.wikipedia.org/wiki/PhpBB");
+            URL_Add("phpBB", "https://en.wikipedia.org/wiki/PhpBB");
 
-            URL_Add("CSV", "http://en.wikipedia.org/wiki/Comma-separated_values");
+            URL_Add("CSV", "https://en.wikipedia.org/wiki/Comma-separated_values");
 
-            URL_Add("foreign key", "http://en.wikipedia.org/wiki/Foreign_key");
+            URL_Add("foreign key", "https://en.wikipedia.org/wiki/Foreign_key");
 
-            URL_Add("CLR", "http://en.wikipedia.org/wiki/Common_Language_Runtime");
+            URL_Add("CLR", "https://en.wikipedia.org/wiki/Common_Language_Runtime");
 
-            URL_Add("Magento", "http://en.wikipedia.org/wiki/Magento");
+            URL_Add("Magento", "https://en.wikipedia.org/wiki/Magento");
 
-            URL_Add("Zend Framework", "http://en.wikipedia.org/wiki/Zend_Framework");
+            URL_Add("Zend Framework", "https://en.wikipedia.org/wiki/Zend_Framework");
 
-            URL_Add("PL/SQL", "http://en.wikipedia.org/wiki/PL/SQL");
+            URL_Add("PL/SQL", "https://en.wikipedia.org/wiki/PL/SQL");
 
-            URL_Add("SimpleXML", "http://en.wikipedia.org/wiki/SimpleXML");
+            URL_Add("SimpleXML", "https://en.wikipedia.org/wiki/SimpleXML");
 
-            URL_Add("Redis", "http://en.wikipedia.org/wiki/Redis_%28data_store%29");
+            URL_Add("Redis", "https://en.wikipedia.org/wiki/Redis_%28data_store%29");
 
             URL_Add("Tokyo Cabinet", "http://fallabs.com/tokyocabinet/");
 
-            URL_Add("Memcached", "http://en.wikipedia.org/wiki/Memcached");
+            URL_Add("Memcached", "https://en.wikipedia.org/wiki/Memcached");
 
-            URL_Add("FastCGI", "http://en.wikipedia.org/wiki/FastCGI");
+            URL_Add("FastCGI", "https://en.wikipedia.org/wiki/FastCGI");
 
-            URL_Add("Project Euler", "http://en.wikipedia.org/wiki/Project_Euler");
+            URL_Add("Project Euler", "https://en.wikipedia.org/wiki/Project_Euler");
 
-            URL_Add("Firesheep", "http://en.wikipedia.org/wiki/Firesheep");
+            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
 
-            URL_Add("Processing", "http://en.wikipedia.org/wiki/Processing_%28programming_language%29");
+            URL_Add("Processing", "https://en.wikipedia.org/wiki/Processing_%28programming_language%29");
 
-            URL_Add("Flash", "http://en.wikipedia.org/wiki/Adobe_Flash");
+            URL_Add("Flash", "https://en.wikipedia.org/wiki/Adobe_Flash");
 
-            URL_Add("jQuery UI", "http://en.wikipedia.org/wiki/JQuery_UI");
+            URL_Add("jQuery UI", "https://en.wikipedia.org/wiki/JQuery_UI");
 
-            URL_Add("cURL", "http://en.wikipedia.org/wiki/CURL");
+            URL_Add("cURL", "https://en.wikipedia.org/wiki/CURL");
 
-            URL_Add("PHP-Nuke", "http://en.wikipedia.org/wiki/PHP-Nuke");
+            URL_Add("PHP-Nuke", "https://en.wikipedia.org/wiki/PHP-Nuke");
 
-            URL_Add("BitTorrent", "http://en.wikipedia.org/wiki/BitTorrent");
+            URL_Add("BitTorrent", "https://en.wikipedia.org/wiki/BitTorrent");
 
-            URL_Add("Notepad", "http://en.wikipedia.org/wiki/Notepad_%28software%29");
+            URL_Add("Notepad", "https://en.wikipedia.org/wiki/Notepad_%28software%29");
 
-            URL_Add("WordPad", "http://en.wikipedia.org/wiki/WordPad");
+            URL_Add("WordPad", "https://en.wikipedia.org/wiki/WordPad");
 
-            URL_Add("CAPTCHA", "http://en.wikipedia.org/wiki/CAPTCHA");
+            URL_Add("CAPTCHA", "https://en.wikipedia.org/wiki/CAPTCHA");
 
-            URL_Add("OpenGL", "http://en.wikipedia.org/wiki/OpenGL");
+            URL_Add("OpenGL", "https://en.wikipedia.org/wiki/OpenGL");
 
-            URL_Add("SymPy", "http://en.wikipedia.org/wiki/SymPy");
+            URL_Add("SymPy", "https://en.wikipedia.org/wiki/SymPy");
 
-            URL_Add("PIL", "http://en.wikipedia.org/wiki/Python_Imaging_Library");
+            URL_Add("PIL", "https://en.wikipedia.org/wiki/Python_Imaging_Library");
 
-            URL_Add("MacBook Pro", "http://en.wikipedia.org/wiki/MacBook_Pro");
+            URL_Add("MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro");
 
-            URL_Add("Java ME", "http://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition");
+            URL_Add("Java ME", "https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition");
 
-            URL_Add("Bluetooth", "http://en.wikipedia.org/wiki/Bluetooth");
+            URL_Add("Bluetooth", "https://en.wikipedia.org/wiki/Bluetooth");
 
-            URL_Add("Xbox", "http://en.wikipedia.org/wiki/Xbox");
+            URL_Add("Xbox", "https://en.wikipedia.org/wiki/Xbox");
 
-            URL_Add("PS3", "http://en.wikipedia.org/wiki/PlayStation_3");
+            URL_Add("PS3", "https://en.wikipedia.org/wiki/PlayStation_3");
 
-            URL_Add("Tcl/Tk", "http://en.wikipedia.org/wiki/Tcl");
+            URL_Add("Tcl/Tk", "https://en.wikipedia.org/wiki/Tcl");
 
-            URL_Add("PHP", "http://en.wikipedia.org/wiki/PHP");
+            URL_Add("PHP", "https://en.wikipedia.org/wiki/PHP");
 
-            URL_Add("Symfony", "http://en.wikipedia.org/wiki/Symfony");
+            URL_Add("Symfony", "https://en.wikipedia.org/wiki/Symfony");
 
-            URL_Add("Tomcat", "http://en.wikipedia.org/wiki/Apache_Tomcat");
+            URL_Add("Tomcat", "https://en.wikipedia.org/wiki/Apache_Tomcat");
 
-            URL_Add("OpenID", "http://en.wikipedia.org/wiki/OpenID");
+            URL_Add("OpenID", "https://en.wikipedia.org/wiki/OpenID");
 
             URL_Add("MyOpenID", "http://myopenid.com/");
 
-            URL_Add("OAuth", "http://en.wikipedia.org/wiki/OAuth");
+            URL_Add("OAuth", "https://en.wikipedia.org/wiki/OAuth");
 
-            URL_Add("CSS", "http://en.wikipedia.org/wiki/Cascading_Style_Sheets");
+            URL_Add("CSS", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets");
 
-            URL_Add("GitHub", "http://en.wikipedia.org/wiki/GitHub");
+            URL_Add("GitHub", "https://en.wikipedia.org/wiki/GitHub");
 
-            URL_Add("TinyMCE", "http://en.wikipedia.org/wiki/TinyMCE");
+            URL_Add("TinyMCE", "https://en.wikipedia.org/wiki/TinyMCE");
 
-            URL_Add("BlackBerry", "http://en.wikipedia.org/wiki/BlackBerry");
+            URL_Add("BlackBerry", "https://en.wikipedia.org/wiki/BlackBerry");
 
-            URL_Add("GCC", "http://en.wikipedia.org/wiki/GNU_Compiler_Collection");
+            URL_Add("GCC", "https://en.wikipedia.org/wiki/GNU_Compiler_Collection");
 
-            URL_Add("GDB", "http://en.wikipedia.org/wiki/GNU_Debugger");
+            URL_Add("GDB", "https://en.wikipedia.org/wiki/GNU_Debugger");
 
-            URL_Add("Valgrind", "http://en.wikipedia.org/wiki/Valgrind");
+            URL_Add("Valgrind", "https://en.wikipedia.org/wiki/Valgrind");
 
-            URL_Add("Git", "https://en.wikipedia.org/wiki/Git"); // Old: http://en.wikipedia.org/wiki/Git_%28software%29
+            URL_Add("Git", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
 
-            URL_Add("TextMate", "http://en.wikipedia.org/wiki/TextMate");
+            URL_Add("TextMate", "https://en.wikipedia.org/wiki/TextMate");
 
-            URL_Add("HTML", "http://en.wikipedia.org/wiki/HTML");
+            URL_Add("HTML", "https://en.wikipedia.org/wiki/HTML");
 
-            URL_Add("Firefox", "http://en.wikipedia.org/wiki/Mozilla_Firefox");
+            URL_Add("Firefox", "https://en.wikipedia.org/wiki/Mozilla_Firefox");
 
-            URL_Add("Google Chrome", "http://en.wikipedia.org/wiki/Google_Chrome");
+            URL_Add("Google Chrome", "https://en.wikipedia.org/wiki/Google_Chrome");
 
-            URL_Add("Scheme", "http://en.wikipedia.org/wiki/Scheme_%28programming_language%29");
+            URL_Add("Scheme", "https://en.wikipedia.org/wiki/Scheme_%28programming_language%29");
 
-            URL_Add("PowerPoint", "http://en.wikipedia.org/wiki/Microsoft_PowerPoint");
+            URL_Add("PowerPoint", "https://en.wikipedia.org/wiki/Microsoft_PowerPoint");
 
-            URL_Add("C#", "http://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29");
+            URL_Add("C#", "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29");
 
-            URL_Add("SQL Server 2008", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2008"); // Old: http://en.wikipedia.org/wiki/Microsoft_SQL_Server#SQL_Server_2008
+            URL_Add("SQL Server 2008", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2008");
 
-            URL_Add("SQL", "http://en.wikipedia.org/wiki/SQL");
+            URL_Add("SQL", "https://en.wikipedia.org/wiki/SQL");
 
-            URL_Add("HTTP", "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
+            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
 
-            URL_Add("ASCII", "http://en.wikipedia.org/wiki/ASCII");
+            URL_Add("ASCII", "https://en.wikipedia.org/wiki/ASCII");
 
             URL_Add("Fluent NHibernate", "http://fluentnhibernate.org/");
 
             URL_Add("asynchronously", "http://en.wiktionary.org/wiki/asynchronously");
 
-            URL_Add("Haskell", "http://en.wikipedia.org/wiki/Haskell_%28programming_language%29");
+            URL_Add("Haskell", "https://en.wikipedia.org/wiki/Haskell_%28programming_language%29");
 
-            URL_Add("PlayStation 3", "http://en.wikipedia.org/wiki/PlayStation_3");
+            URL_Add("PlayStation 3", "https://en.wikipedia.org/wiki/PlayStation_3");
 
-            URL_Add("NUnit", "http://en.wikipedia.org/wiki/NUnit");
+            URL_Add("NUnit", "https://en.wikipedia.org/wiki/NUnit");
 
-            URL_Add("Hudson", "http://en.wikipedia.org/wiki/Hudson_%28software%29");
+            URL_Add("Hudson", "https://en.wikipedia.org/wiki/Hudson_%28software%29");
 
-            URL_Add("Grails", "http://en.wikipedia.org/wiki/Grails_%28framework%29");
+            URL_Add("Grails", "https://en.wikipedia.org/wiki/Grails_%28framework%29");
 
-            URL_Add("Moq", "http://en.wikipedia.org/wiki/Moq");
+            URL_Add("Moq", "https://en.wikipedia.org/wiki/Moq");
 
-            URL_Add("MonoDevelop", "http://en.wikipedia.org/wiki/MonoDevelop");
+            URL_Add("MonoDevelop", "https://en.wikipedia.org/wiki/MonoDevelop");
 
-            URL_Add("MSBuild", "http://en.wikipedia.org/wiki/MSBuild");
+            URL_Add("MSBuild", "https://en.wikipedia.org/wiki/MSBuild");
 
-            URL_Add("Cocoa", "http://en.wikipedia.org/wiki/Cocoa_%28API%29");
+            URL_Add("Cocoa", "https://en.wikipedia.org/wiki/Cocoa_%28API%29");
 
-            URL_Add("Clojure", "http://en.wikipedia.org/wiki/Clojure");
+            URL_Add("Clojure", "https://en.wikipedia.org/wiki/Clojure");
 
-            URL_Add("Aquamacs", "http://en.wikipedia.org/wiki/Aquamacs");
+            URL_Add("Aquamacs", "https://en.wikipedia.org/wiki/Aquamacs");
 
-            URL_Add("SLIME", "http://en.wikipedia.org/wiki/SLIME");
+            URL_Add("SLIME", "https://en.wikipedia.org/wiki/SLIME");
 
-            URL_Add("Django", "http://en.wikipedia.org/wiki/Django_%28web_framework%29");
+            URL_Add("Django", "https://en.wikipedia.org/wiki/Django_%28web_framework%29");
 
-            URL_Add("Xcode", "http://en.wikipedia.org/wiki/Xcode");
+            URL_Add("Xcode", "https://en.wikipedia.org/wiki/Xcode");
 
-            URL_Add("iTunes", "http://en.wikipedia.org/wiki/ITunes");
+            URL_Add("iTunes", "https://en.wikipedia.org/wiki/ITunes");
 
-            URL_Add("WCF", "http://en.wikipedia.org/wiki/Windows_Communication_Foundation");
+            URL_Add("WCF", "https://en.wikipedia.org/wiki/Windows_Communication_Foundation");
 
-            URL_Add("Ruby on Rails", "http://en.wikipedia.org/wiki/Ruby_on_Rails");
+            URL_Add("Ruby on Rails", "https://en.wikipedia.org/wiki/Ruby_on_Rails");
 
-            URL_Add("Java EE", "http://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition");
+            URL_Add("Java EE", "https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition");
 
-            URL_Add("Unicode", "http://en.wikipedia.org/wiki/Unicode");
+            URL_Add("Unicode", "https://en.wikipedia.org/wiki/Unicode");
 
-            URL_Add("Java", "http://en.wikipedia.org/wiki/Java_%28programming_language%29");
+            URL_Add("Java", "https://en.wikipedia.org/wiki/Java_%28programming_language%29");
 
             //Not used anymore.
-            //URL_Add("Spring", "http://en.wikipedia.org/wiki/Spring_Framework");
+            //URL_Add("Spring", "https://en.wikipedia.org/wiki/Spring_Framework");
 
-            URL_Add("JBoss", "http://en.wikipedia.org/wiki/JBoss");
+            URL_Add("JBoss", "https://en.wikipedia.org/wiki/JBoss");
 
-            URL_Add("JSF", "http://en.wikipedia.org/wiki/JavaServer_Faces");
+            URL_Add("JSF", "https://en.wikipedia.org/wiki/JavaServer_Faces");
 
-            URL_Add("JSP", "http://en.wikipedia.org/wiki/JavaServer_Pages");
+            URL_Add("JSP", "https://en.wikipedia.org/wiki/JavaServer_Pages");
 
-            URL_Add("Paint.NET", "http://en.wikipedia.org/wiki/Paint.NET");
+            URL_Add("Paint.NET", "https://en.wikipedia.org/wiki/Paint.NET");
 
-            URL_Add("regular expression", "http://en.wikipedia.org/wiki/Regular_expression");
+            URL_Add("regular expression", "https://en.wikipedia.org/wiki/Regular_expression");
 
-            URL_Add("XPath", "http://en.wikipedia.org/wiki/XPath");
+            URL_Add("XPath", "https://en.wikipedia.org/wiki/XPath");
 
-            URL_Add("REPL", "http://en.wikipedia.org/wiki/Read-eval-print_loop");
+            URL_Add("REPL", "https://en.wikipedia.org/wiki/Read-eval-print_loop");
 
-            URL_Add("VTune", "http://en.wikipedia.org/wiki/VTune");
+            URL_Add("VTune", "https://en.wikipedia.org/wiki/VTune");
 
             URL_Add("OProfile", "http://oprofile.sourceforge.net/about/");
 
-            URL_Add("PSPad", "http://en.wikipedia.org/wiki/PSPad");
+            URL_Add("PSPad", "https://en.wikipedia.org/wiki/PSPad");
 
-            URL_Add("TextPad", "http://en.wikipedia.org/wiki/TextPad");
+            URL_Add("TextPad", "https://en.wikipedia.org/wiki/TextPad");
 
-            URL_Add("E Text Editor", "http://en.wikipedia.org/wiki/E_Text_Editor");
+            URL_Add("E Text Editor", "https://en.wikipedia.org/wiki/E_Text_Editor");
 
-            URL_Add("Wine", "http://en.wikipedia.org/wiki/Wine_%28software%29");
+            URL_Add("Wine", "https://en.wikipedia.org/wiki/Wine_%28software%29");
 
-            URL_Add("Komodo Edit", "https://en.wikipedia.org/wiki/Komodo_Edit"); // Old: http://en.wikipedia.org/wiki/ActiveState_Komodo
+            URL_Add("Komodo Edit", "https://en.wikipedia.org/wiki/Komodo_Edit"); // Old: https://en.wikipedia.org/wiki/ActiveState_Komodo
 
-            URL_Add("wxWidgets", "http://en.wikipedia.org/wiki/WxWidgets");
+            URL_Add("wxWidgets", "https://en.wikipedia.org/wiki/WxWidgets");
 
-            URL_Add("P/Invoke", "http://en.wikipedia.org/wiki/Platform_Invocation_Services");
+            URL_Add("P/Invoke", "https://en.wikipedia.org/wiki/Platform_Invocation_Services");
 
-            URL_Add("JNI", "http://en.wikipedia.org/wiki/Java_Native_Interface");
+            URL_Add("JNI", "https://en.wikipedia.org/wiki/Java_Native_Interface");
 
-            URL_Add("ILAsm", "http://en.wikipedia.org/wiki/ILAsm");
+            URL_Add("ILAsm", "https://en.wikipedia.org/wiki/ILAsm");
 
-            URL_Add("CruiseControl", "http://en.wikipedia.org/wiki/CruiseControl");
+            URL_Add("CruiseControl", "https://en.wikipedia.org/wiki/CruiseControl");
 
             //Map to the same because there is no separate CruiseControl.NET article.
-            URL_Add("CruiseControl.NET", "http://en.wikipedia.org/wiki/CruiseControl");
+            URL_Add("CruiseControl.NET", "https://en.wikipedia.org/wiki/CruiseControl");
 
-            URL_Add("JDBC", "http://en.wikipedia.org/wiki/Java_Database_Connectivity");
+            URL_Add("JDBC", "https://en.wikipedia.org/wiki/Java_Database_Connectivity");
 
-            URL_Add("WAR", "http://en.wikipedia.org/wiki/WAR_%28Sun_file_format%29");
+            URL_Add("WAR", "https://en.wikipedia.org/wiki/WAR_%28Sun_file_format%29");
 
-            URL_Add("H2", "http://en.wikipedia.org/wiki/H2_%28DBMS%29");
+            URL_Add("H2", "https://en.wikipedia.org/wiki/H2_%28DBMS%29");
 
-            URL_Add("YUM", "http://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified");
+            URL_Add("YUM", "https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified");
 
-            URL_Add("aptitude", "http://en.wikipedia.org/wiki/Aptitude_%28software%29");
+            URL_Add("aptitude", "https://en.wikipedia.org/wiki/Aptitude_%28software%29");
 
-            URL_Add("Redmine", "http://en.wikipedia.org/wiki/Redmine");
+            URL_Add("Redmine", "https://en.wikipedia.org/wiki/Redmine");
 
-            URL_Add("Gitorious", "http://en.wikipedia.org/wiki/Gitorious");
+            URL_Add("Gitorious", "https://en.wikipedia.org/wiki/Gitorious");
 
-            URL_Add("VPS", "http://en.wikipedia.org/wiki/Virtual_private_server");
+            URL_Add("VPS", "https://en.wikipedia.org/wiki/Virtual_private_server");
 
-            URL_Add("Google Search", "http://en.wikipedia.org/wiki/Google_Search");
+            URL_Add("Google Search", "https://en.wikipedia.org/wiki/Google_Search");
 
-            URL_Add("Yahoo Search", "http://en.wikipedia.org/wiki/Yahoo!_Search");
+            URL_Add("Yahoo Search", "https://en.wikipedia.org/wiki/Yahoo!_Search");
 
-            URL_Add("Facebook", "http://en.wikipedia.org/wiki/Facebook");
+            URL_Add("Facebook", "https://en.wikipedia.org/wiki/Facebook");
 
-            URL_Add("Flickr", "http://en.wikipedia.org/wiki/Flickr");
+            URL_Add("Flickr", "https://en.wikipedia.org/wiki/Flickr");
 
-            URL_Add("VirtualBox", "http://en.wikipedia.org/wiki/VirtualBox");
+            URL_Add("VirtualBox", "https://en.wikipedia.org/wiki/VirtualBox");
 
-            URL_Add("EJB", "http://en.wikipedia.org/wiki/Enterprise_JavaBean");
+            URL_Add("EJB", "https://en.wikipedia.org/wiki/Enterprise_JavaBean");
 
-            URL_Add("Dojo Toolkit", "http://en.wikipedia.org/wiki/Dojo_Toolkit");
+            URL_Add("Dojo Toolkit", "https://en.wikipedia.org/wiki/Dojo_Toolkit");
 
-            URL_Add("Interface Builder", "http://en.wikipedia.org/wiki/Interface_Builder");
+            URL_Add("Interface Builder", "https://en.wikipedia.org/wiki/Interface_Builder");
 
-            URL_Add("LINQ&nbsp;to&nbsp;Objects", "http://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_Objects");
+            URL_Add("LINQ&nbsp;to&nbsp;Objects", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_Objects");
 
-            URL_Add("iBATIS", "http://en.wikipedia.org/wiki/IBATIS");
+            URL_Add("iBATIS", "https://en.wikipedia.org/wiki/IBATIS");
 
-            URL_Add("Wireshark", "http://en.wikipedia.org/wiki/Wireshark");
+            URL_Add("Wireshark", "https://en.wikipedia.org/wiki/Wireshark");
 
-            URL_Add("MonoTouch", "http://en.wikipedia.org/wiki/Mono_(software)#MonoTouch");
+            URL_Add("MonoTouch", "https://en.wikipedia.org/wiki/Mono_(software)#MonoTouch");
 
-            URL_Add(".NET 3.5", "http://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_3.5");
+            URL_Add(".NET 3.5", "https://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_3.5");
 
-            URL_Add("SQL Server Management Studio", "http://en.wikipedia.org/wiki/SQL_Server_Management_Studio");
+            URL_Add("SQL Server Management Studio", "https://en.wikipedia.org/wiki/SQL_Server_Management_Studio");
 
-            URL_Add("VSTO", "http://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Office");
+            URL_Add("VSTO", "https://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Office");
 
-            URL_Add("MIME", "http://en.wikipedia.org/wiki/MIME");
+            URL_Add("MIME", "https://en.wikipedia.org/wiki/MIME");
 
-            URL_Add("URL", "http://en.wikipedia.org/wiki/Uniform_resource_locator");
+            URL_Add("URL", "https://en.wikipedia.org/wiki/Uniform_resource_locator");
 
-            URL_Add("Mercurial", "http://en.wikipedia.org/wiki/Mercurial");
+            URL_Add("Mercurial", "https://en.wikipedia.org/wiki/Mercurial");
 
-            URL_Add("BitKeeper", "http://en.wikipedia.org/wiki/BitKeeper");
+            URL_Add("BitKeeper", "https://en.wikipedia.org/wiki/BitKeeper");
 
-            URL_Add("RAID", "http://en.wikipedia.org/wiki/RAID");
+            URL_Add("RAID", "https://en.wikipedia.org/wiki/RAID");
 
-            URL_Add("SCSI", "http://en.wikipedia.org/wiki/SCSI");
+            URL_Add("SCSI", "https://en.wikipedia.org/wiki/SCSI");
 
-            URL_Add("WAV", "http://en.wikipedia.org/wiki/WAV");
+            URL_Add("WAV", "https://en.wikipedia.org/wiki/WAV");
 
-            URL_Add("CPython", "http://en.wikipedia.org/wiki/CPython");
+            URL_Add("CPython", "https://en.wikipedia.org/wiki/CPython");
 
-            URL_Add("MP3", "http://en.wikipedia.org/wiki/MP3");
+            URL_Add("MP3", "https://en.wikipedia.org/wiki/MP3");
 
-            URL_Add("Ogg", "http://en.wikipedia.org/wiki/Ogg");
+            URL_Add("Ogg", "https://en.wikipedia.org/wiki/Ogg");
 
             URL_Add("pip", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29");
 
             URL_Add("virtualenv", "http://pypi.python.org/pypi/virtualenv");
 
-            URL_Add("ATLAS", "http://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
+            URL_Add("ATLAS", "https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
 
-            URL_Add("R", "http://en.wikipedia.org/wiki/R_%28programming_language%29");
+            URL_Add("R", "https://en.wikipedia.org/wiki/R_%28programming_language%29");
 
-            URL_Add("gedit", "http://en.wikipedia.org/wiki/Gedit");
+            URL_Add("gedit", "https://en.wikipedia.org/wiki/Gedit");
 
-            URL_Add("vi", "http://en.wikipedia.org/wiki/Vi");
+            URL_Add("vi", "https://en.wikipedia.org/wiki/Vi");
 
-            URL_Add("Linux", "http://en.wikipedia.org/wiki/Linux");
+            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
 
-            URL_Add("WMV", "http://en.wikipedia.org/wiki/Windows_Media_Video");
+            URL_Add("WMV", "https://en.wikipedia.org/wiki/Windows_Media_Video");
 
-            URL_Add("MP4", "http://en.wikipedia.org/wiki/MPEG-4_Part_14");
+            URL_Add("MP4", "https://en.wikipedia.org/wiki/MPEG-4_Part_14");
 
-            URL_Add("H.264", "http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC");
+            URL_Add("H.264", "https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC");
 
-            URL_Add("AAC", "http://en.wikipedia.org/wiki/Advanced_Audio_Coding");
+            URL_Add("AAC", "https://en.wikipedia.org/wiki/Advanced_Audio_Coding");
 
-            URL_Add("Stack&nbsp;Overflow", "http://en.wikipedia.org/wiki/Stack_Overflow");
+            URL_Add("Stack&nbsp;Overflow", "https://en.wikipedia.org/wiki/Stack_Overflow");
 
-            URL_Add("computer science", "http://en.wikipedia.org/wiki/Computer_science");
+            URL_Add("computer science", "https://en.wikipedia.org/wiki/Computer_science");
 
-            URL_Add("Virual PC", "http://en.wikipedia.org/wiki/Windows_Virtual_PC");
+            URL_Add("Virual PC", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
 
-            URL_Add("PCRE", "http://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions");
+            URL_Add("PCRE", "https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions");
 
-            URL_Add("Zen Cart", "http://en.wikipedia.org/wiki/Zen_Cart");
+            URL_Add("Zen Cart", "https://en.wikipedia.org/wiki/Zen_Cart");
 
-            URL_Add("JRE", "https://en.wikipedia.org/wiki/Java_virtual_machine"); //Was http://en.wikipedia.org/wiki/Java_%28software_platform%29#Platform
+            URL_Add("JRE", "https://en.wikipedia.org/wiki/Java_virtual_machine"); //Was https://en.wikipedia.org/wiki/Java_%28software_platform%29#Platform
 
-            URL_Add("Safari", "http://en.wikipedia.org/wiki/Safari_%28web_browser%29");
+            URL_Add("Safari", "https://en.wikipedia.org/wiki/Safari_%28web_browser%29");
 
-            URL_Add("Opera", "http://en.wikipedia.org/wiki/Opera_%28web_browser%29");
+            URL_Add("Opera", "https://en.wikipedia.org/wiki/Opera_%28web_browser%29");
 
-            URL_Add("SMTP", "http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
+            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
 
             URL_Add("definitely", "http://en.wiktionary.org/wiki/definately"); //Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
 
-            URL_Add("Nagios", "http://en.wikipedia.org/wiki/Nagios");
+            URL_Add("Nagios", "https://en.wikipedia.org/wiki/Nagios");
 
-            URL_Add("USB", "http://en.wikipedia.org/wiki/USB");
+            URL_Add("USB", "https://en.wikipedia.org/wiki/USB");
 
             //No Wikipedia article so far.
             URL_Add("jqGrid", "http://www.trirand.com/jqgridwiki/doku.php?id=start");
 
-            URL_Add("NAT", "http://en.wikipedia.org/wiki/Network_address_translation");
+            URL_Add("NAT", "https://en.wikipedia.org/wiki/Network_address_translation");
 
-            URL_Add("XMPP", "http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
+            URL_Add("XMPP", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
 
             URL_Add("IMHO", "http://en.wiktionary.org/wiki/IMHO");
 
-            URL_Add("RMI", "http://en.wikipedia.org/wiki/Java_remote_method_invocation");
+            URL_Add("RMI", "https://en.wikipedia.org/wiki/Java_remote_method_invocation");
 
-            URL_Add("OpenSocial", "http://en.wikipedia.org/wiki/OpenSocial");
+            URL_Add("OpenSocial", "https://en.wikipedia.org/wiki/OpenSocial");
 
-            URL_Add("hard disk drive", "http://en.wikipedia.org/wiki/Hard_disk_drive");
+            URL_Add("hard disk drive", "https://en.wikipedia.org/wiki/Hard_disk_drive");
 
-            URL_Add("internationalisation and localisation", "http://en.wikipedia.org/wiki/Internationalization_and_localization");
+            URL_Add("internationalisation and localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
 
-            URL_Add("WAMP", "https://en.wikipedia.org/wiki/LAMP_(software_bundle)#Variants"); // Old (now redirects): http://en.wikipedia.org/wiki/WAMP
+            URL_Add("WAMP", "https://en.wikipedia.org/wiki/LAMP_(software_bundle)#Variants"); // Old (now redirects): https://en.wikipedia.org/wiki/WAMP
 
             URL_Add("GoDaddy", "https://en.wikipedia.org/wiki/GoDaddy");
 
-            URL_Add("dependency injection", "http://en.wikipedia.org/wiki/Dependency_injection");
+            URL_Add("dependency injection", "https://en.wikipedia.org/wiki/Dependency_injection");
 
-            URL_Add("SEO", "http://en.wikipedia.org/wiki/Search_engine_optimization");
+            URL_Add("SEO", "https://en.wikipedia.org/wiki/Search_engine_optimization");
 
-            URL_Add("MD5", "http://en.wikipedia.org/wiki/MD5");
+            URL_Add("MD5", "https://en.wikipedia.org/wiki/MD5");
 
-            URL_Add("SHA-1", "http://en.wikipedia.org/wiki/SHA-1");
+            URL_Add("SHA-1", "https://en.wikipedia.org/wiki/SHA-1");
 
-            URL_Add("XSLT", "http://en.wikipedia.org/wiki/XSLT");
+            URL_Add("XSLT", "https://en.wikipedia.org/wiki/XSLT");
 
-            URL_Add("InnoDB", "http://en.wikipedia.org/wiki/InnoDB");
+            URL_Add("InnoDB", "https://en.wikipedia.org/wiki/InnoDB");
 
-            URL_Add("MyISAM", "http://en.wikipedia.org/wiki/MyISAM");
+            URL_Add("MyISAM", "https://en.wikipedia.org/wiki/MyISAM");
 
-            URL_Add("HTML5", "http://en.wikipedia.org/wiki/HTML5");
+            URL_Add("HTML5", "https://en.wikipedia.org/wiki/HTML5");
 
-            URL_Add("Confluence", "http://en.wikipedia.org/wiki/Confluence_%28software%29");
+            URL_Add("Confluence", "https://en.wikipedia.org/wiki/Confluence_%28software%29");
 
-            URL_Add("repository", "http://en.wikipedia.org/wiki/Software_repository");
+            URL_Add("repository", "https://en.wikipedia.org/wiki/Software_repository");
 
-            URL_Add("Scrum", "http://en.wikipedia.org/wiki/Scrum_%28development%29");
+            URL_Add("Scrum", "https://en.wikipedia.org/wiki/Scrum_%28development%29");
 
-            URL_Add("Team Foundation Server", "http://en.wikipedia.org/wiki/Team_Foundation_Server");
+            URL_Add("Team Foundation Server", "https://en.wikipedia.org/wiki/Team_Foundation_Server");
 
-            URL_Add("MinGW", "http://en.wikipedia.org/wiki/MinGW");
+            URL_Add("MinGW", "https://en.wikipedia.org/wiki/MinGW");
 
-            URL_Add("Code::Blocks", "http://en.wikipedia.org/wiki/Code::Blocks");
+            URL_Add("Code::Blocks", "https://en.wikipedia.org/wiki/Code::Blocks");
 
-            URL_Add("AirPort", "http://en.wikipedia.org/wiki/AirPort");
+            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
 
-            URL_Add("ADSL", "http://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line");
+            URL_Add("ADSL", "https://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line");
 
             URL_Add("legitimate", "http://en.wiktionary.org/wiki/legit");
 
-            URL_Add("pixels", "http://en.wikipedia.org/wiki/Pixel");
+            URL_Add("pixels", "https://en.wikipedia.org/wiki/Pixel");
 
-            URL_Add("W3C", "http://en.wikipedia.org/wiki/World_Wide_Web_Consortium");
+            URL_Add("W3C", "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium");
 
             URL_Add("as far as I know", "http://en.wiktionary.org/wiki/AFAIK");
 
-            URL_Add("Ubuntu", "http://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29");
+            URL_Add("Ubuntu", "https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29");
 
-            URL_Add("DAO", "http://en.wikipedia.org/wiki/Data_access_object");
+            URL_Add("DAO", "https://en.wikipedia.org/wiki/Data_access_object");
 
-            URL_Add("Erlang", "http://en.wikipedia.org/wiki/Erlang_%28programming_language%29");
+            URL_Add("Erlang", "https://en.wikipedia.org/wiki/Erlang_%28programming_language%29");
 
-            URL_Add("SDK", "http://en.wikipedia.org/wiki/Software_development_kit");
+            URL_Add("SDK", "https://en.wikipedia.org/wiki/Software_development_kit");
 
-            URL_Add("CentOS", "http://en.wikipedia.org/wiki/CentOS");
+            URL_Add("CentOS", "https://en.wikipedia.org/wiki/CentOS");
 
-            URL_Add("OpenWrt", "http://en.wikipedia.org/wiki/OpenWrt");
+            URL_Add("OpenWrt", "https://en.wikipedia.org/wiki/OpenWrt");
 
-            URL_Add("JPA", "http://en.wikipedia.org/wiki/Java_Persistence_API");
+            URL_Add("JPA", "https://en.wikipedia.org/wiki/Java_Persistence_API");
 
-            URL_Add("GAC", "http://en.wikipedia.org/wiki/Global_Assembly_Cache");
+            URL_Add("GAC", "https://en.wikipedia.org/wiki/Global_Assembly_Cache");
 
-            URL_Add("Dropbox", "http://en.wikipedia.org/wiki/Dropbox_%28service%29");
+            URL_Add("Dropbox", "https://en.wikipedia.org/wiki/Dropbox_%28service%29");
 
-            URL_Add("ActiveX", "http://en.wikipedia.org/wiki/ActiveX");
+            URL_Add("ActiveX", "https://en.wikipedia.org/wiki/ActiveX");
 
             URL_Add("compatibility", "http://en.wiktionary.org/wiki/compatability");
 
-            URL_Add("Wicket", "http://en.wikipedia.org/wiki/Apache_Wicket");
+            URL_Add("Wicket", "https://en.wikipedia.org/wiki/Apache_Wicket");
 
             URL_Add("dependent", "http://en.wiktionary.org/wiki/dependant#Noun");
 
-            URL_Add("DOM", "http://en.wikipedia.org/wiki/Document_Object_Model");
+            URL_Add("DOM", "https://en.wikipedia.org/wiki/Document_Object_Model");
 
-            URL_Add("LaTeX", "http://en.wikipedia.org/wiki/LaTeX");
+            URL_Add("LaTeX", "https://en.wikipedia.org/wiki/LaTeX");
 
-            URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: http://en.wikipedia.org/wiki/SUSE_Linux_distributions
+            URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
 
             URL_Add("separate", "http://en.wiktionary.org/wiki/seperate");
 
-            URL_Add("CPU", "http://en.wikipedia.org/wiki/Central_processing_unit");
+            URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
 
-            URL_Add("system administrator", "http://en.wikipedia.org/wiki/System_administrator");
+            URL_Add("system administrator", "https://en.wikipedia.org/wiki/System_administrator");
 
             URL_Add("application domain", "https://en.wikipedia.org/wiki/Application_domain");
 
-            URL_Add("MPI", "http://en.wikipedia.org/wiki/Message_Passing_Interface");
+            URL_Add("MPI", "https://en.wikipedia.org/wiki/Message_Passing_Interface");
 
-            URL_Add("Amazon EC2", "http://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud");
+            URL_Add("Amazon EC2", "https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud");
 
-            URL_Add("Amazon RDS", "http://en.wikipedia.org/wiki/Amazon_RDS");
+            URL_Add("Amazon RDS", "https://en.wikipedia.org/wiki/Amazon_RDS");
 
-            URL_Add("user interface", "http://en.wikipedia.org/wiki/User_interface");
+            URL_Add("user interface", "https://en.wikipedia.org/wiki/User_interface");
 
-            URL_Add("Amazon S3", "http://en.wikipedia.org/wiki/Amazon_S3");
+            URL_Add("Amazon S3", "https://en.wikipedia.org/wiki/Amazon_S3");
 
-            URL_Add("XML", "http://en.wikipedia.org/wiki/XML");
+            URL_Add("XML", "https://en.wikipedia.org/wiki/XML");
 
-            URL_Add("Wget", "http://en.wikipedia.org/wiki/Wget");
+            URL_Add("Wget", "https://en.wikipedia.org/wiki/Wget");
 
-            URL_Add("SSD", "http://en.wikipedia.org/wiki/Solid-state_drive");
+            URL_Add("SSD", "https://en.wikipedia.org/wiki/Solid-state_drive");
 
-            URL_Add("Active Directory", "http://en.wikipedia.org/wiki/Active_Directory");
+            URL_Add("Active Directory", "https://en.wikipedia.org/wiki/Active_Directory");
 
-            URL_Add("Google Analytics", "http://en.wikipedia.org/wiki/Google_Analytics");
+            URL_Add("Google Analytics", "https://en.wikipedia.org/wiki/Google_Analytics");
 
-            URL_Add("Google Talk", "http://en.wikipedia.org/wiki/Google_Talk");
+            URL_Add("Google Talk", "https://en.wikipedia.org/wiki/Google_Talk");
 
-            URL_Add("distribution", "http://en.wikipedia.org/wiki/Linux_distribution");
+            URL_Add("distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
 
-            URL_Add("SOAP", "http://en.wikipedia.org/wiki/SOAP");
+            URL_Add("SOAP", "https://en.wikipedia.org/wiki/SOAP");
 
-            URL_Add("nginx", "http://en.wikipedia.org/wiki/Nginx");
+            URL_Add("nginx", "https://en.wikipedia.org/wiki/Nginx");
 
-            URL_Add("lighttpd", "http://en.wikipedia.org/wiki/Lighttpd");
+            URL_Add("lighttpd", "https://en.wikipedia.org/wiki/Lighttpd");
 
-            URL_Add("Internet&nbsp;Explorer", "http://en.wikipedia.org/wiki/Internet_Explorer");
+            URL_Add("Internet&nbsp;Explorer", "https://en.wikipedia.org/wiki/Internet_Explorer");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;6", "http://en.wikipedia.org/wiki/Internet_Explorer_6");
+            URL_Add("Internet&nbsp;Explorer&nbsp;6", "https://en.wikipedia.org/wiki/Internet_Explorer_6");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;7", "http://en.wikipedia.org/wiki/Internet_Explorer_7");
+            URL_Add("Internet&nbsp;Explorer&nbsp;7", "https://en.wikipedia.org/wiki/Internet_Explorer_7");
 
-            URL_Add("Windows Workflow Foundation", "http://en.wikipedia.org/wiki/Windows_Workflow_Foundation");
+            URL_Add("Windows Workflow Foundation", "https://en.wikipedia.org/wiki/Windows_Workflow_Foundation");
 
-            URL_Add("ASP Classic", "http://en.wikipedia.org/wiki/Active_Server_Pages");
+            URL_Add("ASP Classic", "https://en.wikipedia.org/wiki/Active_Server_Pages");
 
-            URL_Add("GUID", "http://en.wikipedia.org/wiki/Globally_unique_identifier");
+            URL_Add("GUID", "https://en.wikipedia.org/wiki/Globally_unique_identifier");
 
-            URL_Add("live CD", "http://en.wikipedia.org/wiki/Live_CD");
+            URL_Add("live CD", "https://en.wikipedia.org/wiki/Live_CD");
 
-            URL_Add("Octave", "http://en.wikipedia.org/wiki/GNU_Octave");
+            URL_Add("Octave", "https://en.wikipedia.org/wiki/GNU_Octave");
 
-            URL_Add("application", "http://en.wikipedia.org/wiki/Application_software");
+            URL_Add("application", "https://en.wikipedia.org/wiki/Application_software");
 
-            URL_Add("DirectX", "http://en.wikipedia.org/wiki/DirectX");
+            URL_Add("DirectX", "https://en.wikipedia.org/wiki/DirectX");
 
-            URL_Add("API", "https://en.wikipedia.org/wiki/Application_programming_interface"); // http://en.wikipedia.org/wiki/Application_programming_interface
+            URL_Add("API", "https://en.wikipedia.org/wiki/Application_programming_interface");
 
             URL_Add("CodeSmith Generator", "http://www.codesmithtools.com/product/generator");
 
-            URL_Add("n-tier", "http://en.wikipedia.org/wiki/Multitier_architecture");
+            URL_Add("n-tier", "https://en.wikipedia.org/wiki/Multitier_architecture");
 
-            //Was http://en.wikipedia.org/wiki/Delphi!!!
+            //Was https://en.wikipedia.org/wiki/Delphi!!!
             //
-            //Old URL was http://en.wikipedia.org/wiki/Delphi_%28language%29, now redirected. And
-            //Incorrectly so, to Object Pascal, <http://en.wikipedia.org/wiki/Object_Pascal>.
+            //Old URL was https://en.wikipedia.org/wiki/Delphi_%28language%29, now redirected. And
+            //Incorrectly so, to Object Pascal, <https://en.wikipedia.org/wiki/Object_Pascal>.
             //
-            URL_Add("Delphi", "http://en.wikipedia.org/wiki/Embarcadero_Delphi");
+            URL_Add("Delphi", "https://en.wikipedia.org/wiki/Embarcadero_Delphi");
 
-            URL_Add("SaaS", "http://en.wikipedia.org/wiki/Software_as_a_service");
+            URL_Add("SaaS", "https://en.wikipedia.org/wiki/Software_as_a_service");
 
-            URL_Add("PDF", "http://en.wikipedia.org/wiki/Portable_Document_Format");
+            URL_Add("PDF", "https://en.wikipedia.org/wiki/Portable_Document_Format");
 
-            URL_Add("Google Maps", "http://en.wikipedia.org/wiki/Google_Maps");
+            URL_Add("Google Maps", "https://en.wikipedia.org/wiki/Google_Maps");
 
-            URL_Add("Microsoft Access", "http://en.wikipedia.org/wiki/Microsoft_Access");
+            URL_Add("Microsoft Access", "https://en.wikipedia.org/wiki/Microsoft_Access");
 
-            URL_Add("documentation", "http://en.wikipedia.org/wiki/Documentation");
+            URL_Add("documentation", "https://en.wikipedia.org/wiki/Documentation");
 
-            URL_Add("SFTP", "http://en.wikipedia.org/wiki/SFTP");
+            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
 
-            URL_Add("IPsec", "http://en.wikipedia.org/wiki/IPsec");
+            URL_Add("IPsec", "https://en.wikipedia.org/wiki/IPsec");
 
-            URL_Add("openSUSE", "http://en.wikipedia.org/wiki/OpenSUSE");
+            URL_Add("openSUSE", "https://en.wikipedia.org/wiki/OpenSUSE");
 
-            URL_Add("Qt Creator", "http://en.wikipedia.org/wiki/Qt_Creator");
+            URL_Add("Qt Creator", "https://en.wikipedia.org/wiki/Qt_Creator");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;8", "http://en.wikipedia.org/wiki/Internet_Explorer_8");
+            URL_Add("Internet&nbsp;Explorer&nbsp;8", "https://en.wikipedia.org/wiki/Internet_Explorer_8");
 
-            URL_Add("Stack&nbsp;Exchange", "http://en.wikipedia.org/wiki/Stack_Exchange"); //Old: http://en.wikipedia.org/wiki/Stack_Exchange_Network
+            URL_Add("Stack&nbsp;Exchange", "https://en.wikipedia.org/wiki/Stack_Exchange"); //Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network
 
-            URL_Add("developer", "https://en.wiktionary.org/wiki/developer#Noun"); // Old: http://en.wikipedia.org/wiki/Software_developer
+            URL_Add("developer", "https://en.wiktionary.org/wiki/developer#Noun"); // Old: https://en.wikipedia.org/wiki/Software_developer
 
-            URL_Add("RubyGems", "http://en.wikipedia.org/wiki/RubyGems");
+            URL_Add("RubyGems", "https://en.wikipedia.org/wiki/RubyGems");
 
-            URL_Add("Unix", "http://en.wikipedia.org/wiki/Unix");
+            URL_Add("Unix", "https://en.wikipedia.org/wiki/Unix");
 
             URL_Add("JS Bin", "http://jsbin.com/");
 
             URL_Add("JSFiddle", "http://jsfiddle.net/");
 
-            URL_Add("Cocoa Touch", "http://en.wikipedia.org/wiki/Cocoa_Touch");
+            URL_Add("Cocoa Touch", "https://en.wikipedia.org/wiki/Cocoa_Touch");
 
-            URL_Add("JDK", "http://en.wikipedia.org/wiki/Java_Development_Kit");
+            URL_Add("JDK", "https://en.wikipedia.org/wiki/Java_Development_Kit");
 
-            URL_Add("GUI", "http://en.wikipedia.org/wiki/Graphical_user_interface");
+            URL_Add("GUI", "https://en.wikipedia.org/wiki/Graphical_user_interface");
 
-            URL_Add("qmake", "http://en.wikipedia.org/wiki/Qmake");
+            URL_Add("qmake", "https://en.wikipedia.org/wiki/Qmake");
 
-            URL_Add("Win32", "http://en.wikipedia.org/wiki/Windows_API");
+            URL_Add("Win32", "https://en.wikipedia.org/wiki/Windows_API");
 
-            URL_Add("OpenSSL", "http://en.wikipedia.org/wiki/OpenSSL");
+            URL_Add("OpenSSL", "https://en.wikipedia.org/wiki/OpenSSL");
 
-            URL_Add("OpenCV", "http://en.wikipedia.org/wiki/OpenCV");
+            URL_Add("OpenCV", "https://en.wikipedia.org/wiki/OpenCV");
 
-            URL_Add("Server&nbsp;Fault", "https://serverfault.com/tour"); // Old: http://en.wikipedia.org/wiki/Server_Fault
+            URL_Add("Server&nbsp;Fault", "https://serverfault.com/tour"); // Old: https://en.wikipedia.org/wiki/Server_Fault
 
-            URL_Add("JUnit", "http://en.wikipedia.org/wiki/JUnit");
+            URL_Add("JUnit", "https://en.wikipedia.org/wiki/JUnit");
 
             URL_Add("I'm", "https://en.wiktionary.org/wiki/I'm#Contraction");
 
-            URL_Add("IIS", "http://en.wikipedia.org/wiki/Internet_Information_Services");
+            URL_Add("IIS", "https://en.wikipedia.org/wiki/Internet_Information_Services");
 
-            URL_Add("Windows Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); //Was http://en.wikipedia.org/wiki/Azure_Services_Platform
+            URL_Add("Windows Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); //Was https://en.wikipedia.org/wiki/Azure_Services_Platform
 
             URL_Add("can't", "http://en.wiktionary.org/wiki/can%27t");
 
-            URL_Add("Visual SourceSafe", "http://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe");
+            URL_Add("Visual SourceSafe", "https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe");
 
-            URL_Add("Trac", "http://en.wikipedia.org/wiki/Trac");
+            URL_Add("Trac", "https://en.wikipedia.org/wiki/Trac");
 
-            URL_Add("FogBugz", "http://en.wikipedia.org/wiki/FogBugz");
+            URL_Add("FogBugz", "https://en.wikipedia.org/wiki/FogBugz");
 
-            URL_Add("ZigBee", "http://en.wikipedia.org/wiki/ZigBee");
+            URL_Add("ZigBee", "https://en.wikipedia.org/wiki/ZigBee");
 
-            URL_Add("Hotmail", "http://en.wikipedia.org/wiki/Hotmail");
+            URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
 
             URL_Add("code-behind", "http://en.wiktionary.org/wiki/code-behind");
 
-            URL_Add("BCP", "http://en.wikipedia.org/wiki/Bulk_Copy_Program");
+            URL_Add("BCP", "https://en.wikipedia.org/wiki/Bulk_Copy_Program");
 
             URL_Add("Unity Application Block", "http://unity.codeplex.com/");
 
-            URL_Add("Windows&nbsp;Explorer", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: http://en.wikipedia.org/wiki/Windows_Explorer
+            URL_Add("Windows&nbsp;Explorer", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: https://en.wikipedia.org/wiki/Windows_Explorer
 
-            URL_Add("Castle Project", "http://en.wikipedia.org/wiki/Castle_Project"); //Alternative: <http://en.wikipedia.org/wiki/Castle_Project>
+            URL_Add("Castle Project", "https://en.wikipedia.org/wiki/Castle_Project");
 
-            URL_Add("SQL Server Compact", "http://en.wikipedia.org/wiki/SQL_Server_Compact");
+            URL_Add("SQL Server Compact", "https://en.wikipedia.org/wiki/SQL_Server_Compact");
 
             URL_Add("WMD", "http://code.google.com/p/wmd/");
 
             URL_Add("ZedGraph", "http://www.codeproject.com/KB/graphics/zedgraph.aspx");
 
-            URL_Add("Jython", "http://en.wikipedia.org/wiki/Jython");
+            URL_Add("Jython", "https://en.wikipedia.org/wiki/Jython");
 
-            URL_Add("IDE", "http://en.wikipedia.org/wiki/Integrated_development_environment");
+            URL_Add("IDE", "https://en.wikipedia.org/wiki/Integrated_development_environment");
 
             URL_Add("concatenate", "http://en.wiktionary.org/wiki/concatenate");
 
-            URL_Add("GIF", "http://en.wikipedia.org/wiki/Graphics_Interchange_Format");
+            URL_Add("GIF", "https://en.wikipedia.org/wiki/Graphics_Interchange_Format");
 
-            URL_Add("XBee", "http://en.wikipedia.org/wiki/XBee"); //Old: http://en.wikipedia.org/wiki/Digi_International#Wireless
+            URL_Add("XBee", "https://en.wikipedia.org/wiki/XBee"); //Old: https://en.wikipedia.org/wiki/Digi_International#Wireless
 
-            URL_Add("Node.js", "http://en.wikipedia.org/wiki/Node.js"); //Corrected 2012-04-10
+            URL_Add("Node.js", "https://en.wikipedia.org/wiki/Node.js"); //Corrected 2012-04-10
 
-            URL_Add("XMLHttpRequest", "http://en.wikipedia.org/wiki/XMLHttpRequest");
+            URL_Add("XMLHttpRequest", "https://en.wikipedia.org/wiki/XMLHttpRequest");
 
             URL_Add("though", "http://en.wiktionary.org/wiki/though");
 
-            URL_Add("RADIUS", "http://en.wikipedia.org/wiki/RADIUS");
+            URL_Add("RADIUS", "https://en.wikipedia.org/wiki/RADIUS");
 
             URL_Add("authentication", "http://en.wiktionary.org/wiki/authentication");
 
-            URL_Add("ZIP", "http://en.wikipedia.org/wiki/ZIP_%28file_format%29");
+            URL_Add("ZIP", "https://en.wikipedia.org/wiki/ZIP_%28file_format%29");
 
-            URL_Add("Comet", "http://en.wikipedia.org/wiki/Comet_%28programming%29");
+            URL_Add("Comet", "https://en.wikipedia.org/wiki/Comet_%28programming%29");
 
-            URL_Add("PPTP", "http://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol");
+            URL_Add("PPTP", "https://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol");
 
-            URL_Add("Windows&nbsp;XP", "http://en.wikipedia.org/wiki/Windows_XP");
+            URL_Add("Windows&nbsp;XP", "https://en.wikipedia.org/wiki/Windows_XP");
 
-            URL_Add("Windows&nbsp;Vista", "http://en.wikipedia.org/wiki/Windows_Vista");
+            URL_Add("Windows&nbsp;Vista", "https://en.wikipedia.org/wiki/Windows_Vista");
 
-            URL_Add("Windows&nbsp;7", "http://en.wikipedia.org/wiki/Windows_7");
+            URL_Add("Windows&nbsp;7", "https://en.wikipedia.org/wiki/Windows_7");
 
             URL_Add("configuration", "http://en.wiktionary.org/wiki/configuration");
 
-            URL_Add("VoIP", "http://en.wikipedia.org/wiki/Voice_over_IP");
+            URL_Add("VoIP", "https://en.wikipedia.org/wiki/Voice_over_IP");
 
-            URL_Add("Fedora", "http://en.wikipedia.org/wiki/Fedora_%28operating_system%29");
+            URL_Add("Fedora", "https://en.wikipedia.org/wiki/Fedora_%28operating_system%29");
 
-            URL_Add("Windows", "http://en.wikipedia.org/wiki/Microsoft_Windows");
+            URL_Add("Windows", "https://en.wikipedia.org/wiki/Microsoft_Windows");
 
             URL_Add("information", "http://en.wiktionary.org/wiki/info#Noun");
 
-            URL_Add("IP address", "http://en.wikipedia.org/wiki/IP_address");
+            URL_Add("IP address", "https://en.wikipedia.org/wiki/IP_address");
 
             URL_Add("statistics", "http://en.wiktionary.org/wiki/statistics");
 
@@ -14679,35 +14679,35 @@ namespace OverflowHelper.core
 
             URL_Add(", that is, X", "http://en.wiktionary.org/wiki/i.e.");
 
-            URL_Add("Kohana", "http://en.wikipedia.org/wiki/Kohana");
+            URL_Add("Kohana", "https://en.wikipedia.org/wiki/Kohana");
 
-            URL_Add("PHP&nbsp;5", "http://en.wikipedia.org/wiki/PHP#Release_history");
+            URL_Add("PHP&nbsp;5", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
-            URL_Add("PEAR", "http://en.wikipedia.org/wiki/PEAR");
+            URL_Add("PEAR", "https://en.wikipedia.org/wiki/PEAR");
 
-            URL_Add("HTTPS", "http://en.wikipedia.org/wiki/HTTP_Secure");
+            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTP_Secure");
 
-            URL_Add("JSONP", "http://en.wikipedia.org/wiki/JSONP");
+            URL_Add("JSONP", "https://en.wikipedia.org/wiki/JSONP");
 
             URL_Add("parameter", "http://en.wiktionary.org/wiki/parameter");
 
-            URL_Add("UltraEdit", "http://en.wikipedia.org/wiki/UltraEdit");
+            URL_Add("UltraEdit", "https://en.wikipedia.org/wiki/UltraEdit");
 
             URL_Add("characters", "http://en.wiktionary.org/wiki/characters");
 
-            URL_Add("Markdown", "http://en.wikipedia.org/wiki/Markdown");
+            URL_Add("Markdown", "https://en.wikipedia.org/wiki/Markdown");
 
-            URL_Add("XSS", "http://en.wikipedia.org/wiki/Cross-site_scripting");
+            URL_Add("XSS", "https://en.wikipedia.org/wiki/Cross-site_scripting");
 
-            URL_Add("JSLint", "http://en.wikipedia.org/wiki/JSLint");
+            URL_Add("JSLint", "https://en.wikipedia.org/wiki/JSLint");
 
-            URL_Add("DNS", "http://en.wikipedia.org/wiki/Domain_Name_System");
+            URL_Add("DNS", "https://en.wikipedia.org/wiki/Domain_Name_System");
 
-            URL_Add("RAM", "http://en.wikipedia.org/wiki/Random-access_memory");
+            URL_Add("RAM", "https://en.wikipedia.org/wiki/Random-access_memory");
 
-            URL_Add("SQL Server 2000", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2000"); // Old: http://en.wikipedia.org/wiki/Microsoft_SQL_Server#Genesis
+            URL_Add("SQL Server 2000", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2000"); // Old: https://en.wikipedia.org/wiki/Microsoft_SQL_Server#Genesis
 
-            URL_Add("Rake", "http://en.wikipedia.org/wiki/Rake_(software)");
+            URL_Add("Rake", "https://en.wikipedia.org/wiki/Rake_(software)");
 
             URL_Add("temporary", "http://en.wiktionary.org/wiki/temp#Abbreviation");
 
@@ -14715,291 +14715,291 @@ namespace OverflowHelper.core
 
             URL_Add("Google-fu", "http://en.wiktionary.org/wiki/Google-fu");
 
-            URL_Add("SSH", "http://en.wikipedia.org/wiki/Secure_Shell");
+            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
 
-            URL_Add("VPN", "http://en.wikipedia.org/wiki/Virtual_private_network");
+            URL_Add("VPN", "https://en.wikipedia.org/wiki/Virtual_private_network");
 
-            URL_Add("FAQ", "http://en.wikipedia.org/wiki/FAQ");
+            URL_Add("FAQ", "https://en.wikipedia.org/wiki/FAQ");
 
-            URL_Add("Axis", "http://en.wikipedia.org/wiki/Apache_Axis");
+            URL_Add("Axis", "https://en.wikipedia.org/wiki/Apache_Axis");
 
-            URL_Add("certificate", "http://en.wikipedia.org/wiki/Public_key_certificate");
+            URL_Add("certificate", "https://en.wikipedia.org/wiki/Public_key_certificate");
 
-            URL_Add("eBay", "http://en.wikipedia.org/wiki/EBay");
+            URL_Add("eBay", "https://en.wikipedia.org/wiki/EBay");
 
             URL_Add("OK", "http://en.wiktionary.org/wiki/OK#Etymology_1");
 
-            URL_Add("LGPL", "http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License");
+            URL_Add("LGPL", "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License");
 
             URL_Add("IIRC", "http://en.wiktionary.org/wiki/IIRC");
 
-            URL_Add("variable", "http://en.wikipedia.org/wiki/Variable_%28computer_science%29");
+            URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
 
-            URL_Add("µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+            URL_Add("µTorrent", "https://en.wikipedia.org/wiki/%CE%9CTorrent");
 
-            URL_Add("iOS", "http://en.wikipedia.org/wiki/IOS"); //Old: http://en.wikipedia.org/wiki/IOS_%28Apple%29
+            URL_Add("iOS", "https://en.wikipedia.org/wiki/IOS"); //Old: https://en.wikipedia.org/wiki/IOS_%28Apple%29
 
-            URL_Add("SBT", "http://en.wikipedia.org/wiki/Simple_Build_Tool");
+            URL_Add("SBT", "https://en.wikipedia.org/wiki/Simple_Build_Tool");
 
-            URL_Add("Vimeo", "http://en.wikipedia.org/wiki/Vimeo");
+            URL_Add("Vimeo", "https://en.wikipedia.org/wiki/Vimeo");
 
-            URL_Add("Netflix", "http://en.wikipedia.org/wiki/Netflix");
+            URL_Add("Netflix", "https://en.wikipedia.org/wiki/Netflix");
 
-            URL_Add("LinkedIn", "http://en.wikipedia.org/wiki/LinkedIn");
+            URL_Add("LinkedIn", "https://en.wikipedia.org/wiki/LinkedIn");
 
-            URL_Add("Tumblr", "http://en.wikipedia.org/wiki/Tumblr");
+            URL_Add("Tumblr", "https://en.wikipedia.org/wiki/Tumblr");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)", "http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
 
             URL_Add("Wikipedia", "http://en.wiktionary.org/wiki/Wikipedia#Proper_noun");
 
-            URL_Add("Haml", "http://en.wikipedia.org/wiki/Haml");
+            URL_Add("Haml", "https://en.wikipedia.org/wiki/Haml");
 
-            URL_Add("UDP", "http://en.wikipedia.org/wiki/User_Datagram_Protocol");
+            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
 
-            URL_Add("VNC", "http://en.wikipedia.org/wiki/Virtual_Network_Computing");
+            URL_Add("VNC", "https://en.wikipedia.org/wiki/Virtual_Network_Computing");
 
-            URL_Add("MacPorts", "http://en.wikipedia.org/wiki/MacPorts");
+            URL_Add("MacPorts", "https://en.wikipedia.org/wiki/MacPorts");
 
             URL_Add("specification", "http://en.wiktionary.org/wiki/specification");
 
-            URL_Add("MIDlet", "http://en.wikipedia.org/wiki/MIDlet");
+            URL_Add("MIDlet", "https://en.wikipedia.org/wiki/MIDlet");
 
-            URL_Add("S60", "http://en.wikipedia.org/wiki/S60_%28software_platform%29");
+            URL_Add("S60", "https://en.wikipedia.org/wiki/S60_%28software_platform%29");
 
-            URL_Add("WSDL", "http://en.wikipedia.org/wiki/Web_Services_Description_Language");
+            URL_Add("WSDL", "https://en.wikipedia.org/wiki/Web_Services_Description_Language");
 
-            URL_Add("Cocos2d", "http://en.wikipedia.org/wiki/Cocos2d");
+            URL_Add("Cocos2d", "https://en.wikipedia.org/wiki/Cocos2d");
 
-            URL_Add("iPad", "http://en.wikipedia.org/wiki/IPad");
+            URL_Add("iPad", "https://en.wikipedia.org/wiki/IPad");
 
-            URL_Add("Super&nbsp;User", "https://superuser.com/tour"); // Old: http://en.wikipedia.org/wiki/Stack_Overflow#Super_User
+            URL_Add("Super&nbsp;User", "https://superuser.com/tour"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Super_User
 
-            URL_Add("Meta&nbsp;Stack&nbsp;Overflow", "http://en.wikipedia.org/wiki/Stack_Overflow#Meta_Stack_Overflow");
+            URL_Add("Meta&nbsp;Stack&nbsp;Overflow", "https://en.wikipedia.org/wiki/Stack_Overflow#Meta_Stack_Overflow");
 
-            URL_Add("CoffeeScript", "http://en.wikipedia.org/wiki/CoffeeScript");
+            URL_Add("CoffeeScript", "https://en.wikipedia.org/wiki/CoffeeScript");
 
-            URL_Add("JScript", "http://en.wikipedia.org/wiki/JScript");
+            URL_Add("JScript", "https://en.wikipedia.org/wiki/JScript");
 
-            URL_Add("Rhino", "http://en.wikipedia.org/wiki/Rhino_%28JavaScript_engine%29");
+            URL_Add("Rhino", "https://en.wikipedia.org/wiki/Rhino_%28JavaScript_engine%29");
 
-            URL_Add("NAS", "http://en.wikipedia.org/wiki/Network-attached_storage");
+            URL_Add("NAS", "https://en.wikipedia.org/wiki/Network-attached_storage");
 
-            URL_Add("SVG", "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics");
+            URL_Add("SVG", "https://en.wikipedia.org/wiki/Scalable_Vector_Graphics");
 
-            URL_Add("DotNetNuke", "http://en.wikipedia.org/wiki/DotNetNuke");
+            URL_Add("DotNetNuke", "https://en.wikipedia.org/wiki/DotNetNuke");
 
-            URL_Add("Adobe AIR", "http://en.wikipedia.org/wiki/Adobe_Integrated_Runtime");
+            URL_Add("Adobe AIR", "https://en.wikipedia.org/wiki/Adobe_Integrated_Runtime");
 
-            URL_Add("AWT", "http://en.wikipedia.org/wiki/Abstract_Window_Toolkit");
+            URL_Add("AWT", "https://en.wikipedia.org/wiki/Abstract_Window_Toolkit");
 
-            URL_Add("IrfanView", "http://en.wikipedia.org/wiki/IrfanView");
+            URL_Add("IrfanView", "https://en.wikipedia.org/wiki/IrfanView");
 
-            URL_Add("user experience", "http://en.wikipedia.org/wiki/User_experience");
+            URL_Add("user experience", "https://en.wikipedia.org/wiki/User_experience");
 
-            URL_Add("SQLAlchemy", "http://en.wikipedia.org/wiki/SQLAlchemy");
+            URL_Add("SQLAlchemy", "https://en.wikipedia.org/wiki/SQLAlchemy");
 
-            URL_Add("BIOS", "http://en.wikipedia.org/wiki/BIOS");
+            URL_Add("BIOS", "https://en.wikipedia.org/wiki/BIOS");
 
-            URL_Add("Plone", "http://en.wikipedia.org/wiki/Plone_%28software%29");
+            URL_Add("Plone", "https://en.wikipedia.org/wiki/Plone_%28software%29");
 
             URL_Add("Android&nbsp;2.3 (Gingerbread)", "https://en.wikipedia.org/wiki/Android_Gingerbread");
 
-            URL_Add("SimpleDB", "http://en.wikipedia.org/wiki/Amazon_SimpleDB");
+            URL_Add("SimpleDB", "https://en.wikipedia.org/wiki/Amazon_SimpleDB");
 
-            URL_Add("RRDtool", "http://en.wikipedia.org/wiki/RRDtool");
+            URL_Add("RRDtool", "https://en.wikipedia.org/wiki/RRDtool");
 
-            URL_Add("NFS", "http://en.wikipedia.org/wiki/Network_File_System_%28protocol%29");
+            URL_Add("NFS", "https://en.wikipedia.org/wiki/Network_File_System_%28protocol%29");
 
-            URL_Add("RS-232", "http://en.wikipedia.org/wiki/RS-232");
+            URL_Add("RS-232", "https://en.wikipedia.org/wiki/RS-232");
 
-            URL_Add("Skype", "http://en.wikipedia.org/wiki/Skype");
+            URL_Add("Skype", "https://en.wikipedia.org/wiki/Skype");
 
-            URL_Add("Forth", "http://en.wikipedia.org/wiki/Forth_%28programming_language%29");
+            URL_Add("Forth", "https://en.wikipedia.org/wiki/Forth_%28programming_language%29");
 
-            URL_Add("argument", "http://en.wikipedia.org/wiki/Parameter_%28computer_programming%29");
+            URL_Add("argument", "https://en.wikipedia.org/wiki/Parameter_%28computer_programming%29");
 
-            URL_Add("EPUB", "http://en.wikipedia.org/wiki/EPUB");
+            URL_Add("EPUB", "https://en.wikipedia.org/wiki/EPUB");
 
-            URL_Add("Sass", "http://en.wikipedia.org/wiki/Sass_%28stylesheet_language%29");
+            URL_Add("Sass", "https://en.wikipedia.org/wiki/Sass_%28stylesheet_language%29");
 
-            URL_Add("Coda", "http://en.wikipedia.org/wiki/Coda_%28web_development_software%29");
+            URL_Add("Coda", "https://en.wikipedia.org/wiki/Coda_%28web_development_software%29");
 
             URL_Add("Espresso", "http://macrabbit.com/espresso/");
 
-            URL_Add("SWIG", "http://en.wikipedia.org/wiki/SWIG");
+            URL_Add("SWIG", "https://en.wikipedia.org/wiki/SWIG");
 
-            URL_Add("directory", "http://en.wikipedia.org/wiki/Folder_%28computing%29");
+            URL_Add("directory", "https://en.wikipedia.org/wiki/Folder_%28computing%29");
 
             URL_Add("don’t", "http://en.wiktionary.org/wiki/don%27t");
 
-            URL_Add("Lisp", "http://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
+            URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
 
-            URL_Add("LAPACK", "http://en.wikipedia.org/wiki/LAPACK");
+            URL_Add("LAPACK", "https://en.wikipedia.org/wiki/LAPACK");
 
-            URL_Add("JRuby", "http://en.wikipedia.org/wiki/JRuby");
+            URL_Add("JRuby", "https://en.wikipedia.org/wiki/JRuby");
 
-            URL_Add("Nvidia", "http://en.wikipedia.org/wiki/Nvidia");
+            URL_Add("Nvidia", "https://en.wikipedia.org/wiki/Nvidia");
 
-            URL_Add("Windows Registry", "http://en.wikipedia.org/wiki/Windows_Registry");
+            URL_Add("Windows Registry", "https://en.wikipedia.org/wiki/Windows_Registry");
 
-            URL_Add("Microsoft", "http://en.wikipedia.org/wiki/Microsoft");
+            URL_Add("Microsoft", "https://en.wikipedia.org/wiki/Microsoft");
 
-            URL_Add("Area&nbsp;51", "http://en.wikipedia.org/wiki/Stack_Exchange#History"); //URL was: http://en.wikipedia.org/wiki/Stack_Exchange_Network#area51
+            URL_Add("Area&nbsp;51", "https://en.wikipedia.org/wiki/Stack_Exchange#History"); //URL was: https://en.wikipedia.org/wiki/Stack_Exchange_Network#area51
 
-            URL_Add("JPEG", "http://en.wikipedia.org/wiki/JPEG");
+            URL_Add("JPEG", "https://en.wikipedia.org/wiki/JPEG");
 
-            URL_Add("password", "http://en.wikipedia.org/wiki/Password");
+            URL_Add("password", "https://en.wikipedia.org/wiki/Password");
 
-            URL_Add("PhoneGap", "https://en.wikipedia.org/wiki/Apache_Cordova"); //URL was (project renamed to "Cordova"): http://en.wikipedia.org/wiki/PhoneGap
+            URL_Add("PhoneGap", "https://en.wikipedia.org/wiki/Apache_Cordova"); //URL was (project renamed to "Cordova"): https://en.wikipedia.org/wiki/PhoneGap
 
-            URL_Add("Managed Extensibility Framework", "http://en.wikipedia.org/wiki/Managed_Extensibility_Framework");
+            URL_Add("Managed Extensibility Framework", "https://en.wikipedia.org/wiki/Managed_Extensibility_Framework");
 
-            URL_Add("Cassandra", "http://en.wikipedia.org/wiki/Apache_Cassandra");
+            URL_Add("Cassandra", "https://en.wikipedia.org/wiki/Apache_Cassandra");
 
             URL_Add("reputation points", "http://meta.stackoverflow.com/questions/7237/how-does-reputation-work");
 
-            URL_Add("GPL", "http://en.wikipedia.org/wiki/GNU_General_Public_License");
+            URL_Add("GPL", "https://en.wikipedia.org/wiki/GNU_General_Public_License");
 
-            URL_Add("Squid", "http://en.wikipedia.org/wiki/Squid_%28software%29");
+            URL_Add("Squid", "https://en.wikipedia.org/wiki/Squid_%28software%29");
 
-            URL_Add("Hulu", "http://en.wikipedia.org/wiki/Hulu");
+            URL_Add("Hulu", "https://en.wikipedia.org/wiki/Hulu");
 
-            URL_Add("WPA", "http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access");
+            URL_Add("WPA", "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access");
 
-            URL_Add("SELinux", "http://en.wikipedia.org/wiki/Security-Enhanced_Linux");
+            URL_Add("SELinux", "https://en.wikipedia.org/wiki/Security-Enhanced_Linux");
 
-            URL_Add("moderator", "http://en.wikipedia.org/wiki/Moderator#Internet");
+            URL_Add("moderator", "https://en.wikipedia.org/wiki/Moderator#Internet");
 
-            URL_Add("CDN", "http://en.wikipedia.org/wiki/Content_delivery_network");
+            URL_Add("CDN", "https://en.wikipedia.org/wiki/Content_delivery_network");
 
-            URL_Add("Amazon AWS", "http://en.wikipedia.org/wiki/Amazon_Web_Services");
+            URL_Add("Amazon AWS", "https://en.wikipedia.org/wiki/Amazon_Web_Services");
 
-            URL_Add("Red Hat Linux", "http://en.wikipedia.org/wiki/Red_Hat_Linux");
+            URL_Add("Red Hat Linux", "https://en.wikipedia.org/wiki/Red_Hat_Linux");
 
-            URL_Add("phishing", "http://en.wikipedia.org/wiki/Phishing");
+            URL_Add("phishing", "https://en.wikipedia.org/wiki/Phishing");
 
-            URL_Add("DHCP", "http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
+            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
 
-            URL_Add("IPython", "http://en.wikipedia.org/wiki/IPython");
+            URL_Add("IPython", "https://en.wikipedia.org/wiki/IPython");
 
             URL_Add("your", "http://en.wiktionary.org/wiki/your");
 
             URL_Add("haven't", "http://en.wiktionary.org/wiki/haven%27t#Contraction");
 
-            URL_Add("Emacs&nbsp;Lisp", "http://en.wikipedia.org/wiki/Emacs_Lisp");
+            URL_Add("Emacs&nbsp;Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
 
-            URL_Add("FBML", "http://en.wikipedia.org/wiki/Facebook_features#FBML");
+            URL_Add("FBML", "https://en.wikipedia.org/wiki/Facebook_features#FBML");
 
-            URL_Add("REST", "http://en.wikipedia.org/wiki/Representational_State_Transfer");
+            URL_Add("REST", "https://en.wikipedia.org/wiki/Representational_State_Transfer");
 
-            URL_Add("Windows 2000", "http://en.wikipedia.org/wiki/Windows_2000");
+            URL_Add("Windows 2000", "https://en.wikipedia.org/wiki/Windows_2000");
 
-            URL_Add("IPA", "http://en.wikipedia.org/wiki/.ipa_%28file_extension%29");
+            URL_Add("IPA", "https://en.wikipedia.org/wiki/.ipa_%28file_extension%29");
 
-            URL_Add("DMA", "http://en.wikipedia.org/wiki/Direct_memory_access");
+            URL_Add("DMA", "https://en.wikipedia.org/wiki/Direct_memory_access");
 
-            URL_Add("content management system (CMS)", "http://en.wikipedia.org/wiki/Content_management_system");
+            URL_Add("content management system (CMS)", "https://en.wikipedia.org/wiki/Content_management_system");
 
-            URL_Add("HootSuite", "http://en.wikipedia.org/wiki/HootSuite");
+            URL_Add("HootSuite", "https://en.wikipedia.org/wiki/HootSuite");
 
-            URL_Add("TweetDeck", "http://en.wikipedia.org/wiki/TweetDeck");
+            URL_Add("TweetDeck", "https://en.wikipedia.org/wiki/TweetDeck");
 
-            URL_Add("Bugzilla", "http://en.wikipedia.org/wiki/Bugzilla");
+            URL_Add("Bugzilla", "https://en.wikipedia.org/wiki/Bugzilla");
 
-            URL_Add("Microsoft Exchange Server", "http://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
+            URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
 
             URL_Add("because", "http://en.wiktionary.org/wiki/because");
 
             URL_Add("ADK", "http://developer.android.com/guide/topics/usb/adk.html");
 
-            URL_Add("Debian", "http://en.wikipedia.org/wiki/Debian");
+            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
 
-            URL_Add("Mathematica", "http://en.wikipedia.org/wiki/Mathematica");
+            URL_Add("Mathematica", "https://en.wikipedia.org/wiki/Mathematica");
 
-            URL_Add("JIT", "http://en.wikipedia.org/wiki/Just-in-time_compilation");
+            URL_Add("JIT", "https://en.wikipedia.org/wiki/Just-in-time_compilation");
 
-            URL_Add("DRY", "http://en.wikipedia.org/wiki/Don%27t_repeat_yourself");
+            URL_Add("DRY", "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself");
 
-            URL_Add("GRUB", "http://en.wikipedia.org/wiki/GNU_GRUB");
+            URL_Add("GRUB", "https://en.wikipedia.org/wiki/GNU_GRUB");
 
-            URL_Add("GNOME", "http://en.wikipedia.org/wiki/GNOME");
+            URL_Add("GNOME", "https://en.wikipedia.org/wiki/GNOME");
 
             URL_Add("Android Virtual Device", "http://developer.android.com/guide/developing/devices/index.html");
 
-            URL_Add("OCaml", "http://en.wikipedia.org/wiki/Objective_Caml");
+            URL_Add("OCaml", "https://en.wikipedia.org/wiki/Objective_Caml");
 
-            URL_Add("Boo", "http://en.wikipedia.org/wiki/Boo_%28programming_language%29");
+            URL_Add("Boo", "https://en.wikipedia.org/wiki/Boo_%28programming_language%29");
 
-            URL_Add("JAD", "http://en.wikipedia.org/wiki/JAD_%28file_format%29");
+            URL_Add("JAD", "https://en.wikipedia.org/wiki/JAD_%28file_format%29");
 
-            URL_Add("SD card", "http://en.wikipedia.org/wiki/Secure_Digital");
+            URL_Add("SD card", "https://en.wikipedia.org/wiki/Secure_Digital");
 
-            URL_Add("Symbian", "http://en.wikipedia.org/wiki/Symbian");
+            URL_Add("Symbian", "https://en.wikipedia.org/wiki/Symbian");
 
-            URL_Add("Windows Mobile", "http://en.wikipedia.org/wiki/Windows_Mobile");
+            URL_Add("Windows Mobile", "https://en.wikipedia.org/wiki/Windows_Mobile");
 
             URL_Add("Windows Phone", "https://en.wikipedia.org/wiki/Windows_Phone");
 
-            URL_Add("jQuery Mobile", "http://en.wikipedia.org/wiki/JQuery_Mobile");
+            URL_Add("jQuery Mobile", "https://en.wikipedia.org/wiki/JQuery_Mobile");
 
-            URL_Add("Smalltalk", "http://en.wikipedia.org/wiki/Smalltalk");
+            URL_Add("Smalltalk", "https://en.wikipedia.org/wiki/Smalltalk");
 
-            URL_Add("SharpDevelop", "http://en.wikipedia.org/wiki/SharpDevelop");
+            URL_Add("SharpDevelop", "https://en.wikipedia.org/wiki/SharpDevelop");
 
-            URL_Add("ZX Spectrum", "http://en.wikipedia.org/wiki/ZX_Spectrum");
+            URL_Add("ZX Spectrum", "https://en.wikipedia.org/wiki/ZX_Spectrum");
 
-            URL_Add("inversion of control", "http://en.wikipedia.org/wiki/Inversion_of_control");
+            URL_Add("inversion of control", "https://en.wikipedia.org/wiki/Inversion_of_control");
 
-            URL_Add("WebSphere", "http://en.wikipedia.org/wiki/IBM_WebSphere");
+            URL_Add("WebSphere", "https://en.wikipedia.org/wiki/IBM_WebSphere");
 
-            URL_Add("BBEdit", "http://en.wikipedia.org/wiki/BBEdit");
+            URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
             URL_Add("won't", "http://en.wiktionary.org/wiki/won%27t");
 
-            URL_Add("XSL", "http://en.wikipedia.org/wiki/XSL");
+            URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
 
-            URL_Add("XHTML", "http://en.wikipedia.org/wiki/XHTML");
+            URL_Add("XHTML", "https://en.wikipedia.org/wiki/XHTML");
 
-            URL_Add("CVS", "http://en.wikipedia.org/wiki/Concurrent_Versions_System");
+            URL_Add("CVS", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
-            URL_Add("OpenSSH", "http://en.wikipedia.org/wiki/OpenSSH");
+            URL_Add("OpenSSH", "https://en.wikipedia.org/wiki/OpenSSH");
 
-            URL_Add("OPML", "http://en.wikipedia.org/wiki/OPML");
+            URL_Add("OPML", "https://en.wikipedia.org/wiki/OPML");
 
-            URL_Add("WAP", "http://en.wikipedia.org/wiki/Wireless_Application_Protocol");
+            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
 
-            URL_Add("Google Translate", "http://en.wikipedia.org/wiki/Google_Translate");
+            URL_Add("Google Translate", "https://en.wikipedia.org/wiki/Google_Translate");
 
-            URL_Add("XSD", "http://en.wikipedia.org/wiki/XML_Schema_%28W3C%29");
+            URL_Add("XSD", "https://en.wikipedia.org/wiki/XML_Schema_%28W3C%29");
 
-            URL_Add("Glide&nbsp;API", "http://en.wikipedia.org/wiki/Glide_API");
+            URL_Add("Glide&nbsp;API", "https://en.wikipedia.org/wiki/Glide_API");
 
-            URL_Add("POV-Ray", "http://en.wikipedia.org/wiki/POV-Ray");
+            URL_Add("POV-Ray", "https://en.wikipedia.org/wiki/POV-Ray");
 
-            URL_Add("XNA", "http://en.wikipedia.org/wiki/Microsoft_XNA");
+            URL_Add("XNA", "https://en.wikipedia.org/wiki/Microsoft_XNA");
 
-            URL_Add("Direct3D", "http://en.wikipedia.org/wiki/Microsoft_Direct3D");
+            URL_Add("Direct3D", "https://en.wikipedia.org/wiki/Microsoft_Direct3D");
 
-            URL_Add("Bézier curve", "http://en.wikipedia.org/wiki/B%C3%A9zier_curve");
+            URL_Add("Bézier curve", "https://en.wikipedia.org/wiki/B%C3%A9zier_curve");
 
             URL_Add("without", "http://en.wiktionary.org/wiki/without");
 
-            URL_Add("Blender", "http://en.wikipedia.org/wiki/Blender_%28software%29");
+            URL_Add("Blender", "https://en.wikipedia.org/wiki/Blender_%28software%29");
 
-            URL_Add("InstallShield", "http://en.wikipedia.org/wiki/InstallShield");
+            URL_Add("InstallShield", "https://en.wikipedia.org/wiki/InstallShield");
 
-            URL_Add("MSI", "http://en.wikipedia.org/wiki/Windows_Installer");
+            URL_Add("MSI", "https://en.wikipedia.org/wiki/Windows_Installer");
 
-            URL_Add("RTF", "http://en.wikipedia.org/wiki/Rich_Text_Format");
+            URL_Add("RTF", "https://en.wikipedia.org/wiki/Rich_Text_Format");
 
-            URL_Add("AES", "http://en.wikipedia.org/wiki/Advanced_Encryption_Standard");
+            URL_Add("AES", "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard");
 
-            URL_Add("CIL", "http://en.wikipedia.org/wiki/Common_Intermediate_Language");
+            URL_Add("CIL", "https://en.wikipedia.org/wiki/Common_Intermediate_Language");
 
-            URL_Add("GC", "http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29");
+            URL_Add("GC", "https://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29");
 
-            URL_Add("URI", "http://en.wikipedia.org/wiki/Uniform_Resource_Identifier");
+            URL_Add("URI", "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier");
 
             URL_Add("through", "http://en.wiktionary.org/wiki/through");
 
@@ -15007,849 +15007,849 @@ namespace OverflowHelper.core
 
             URL_Add("jQuery&nbsp;Isotope", "http://isotope.metafizzy.co/docs/introduction.html");
 
-            URL_Add("Twitter", "http://en.wikipedia.org/wiki/Twitter");
+            URL_Add("Twitter", "https://en.wikipedia.org/wiki/Twitter");
 
-            URL_Add("DOS", "http://en.wikipedia.org/wiki/DOS");
+            URL_Add("DOS", "https://en.wikipedia.org/wiki/DOS");
 
-            URL_Add("App&nbsp;Store", "http://en.wikipedia.org/wiki/App_Store_%28iOS%29");
+            URL_Add("App&nbsp;Store", "https://en.wikipedia.org/wiki/App_Store_%28iOS%29");
 
-            URL_Add("Mac", "http://en.wikipedia.org/wiki/Macintosh"); //Collision with MAC, Media Access Control (computer networking related).
+            URL_Add("Mac", "https://en.wikipedia.org/wiki/Macintosh"); //Collision with MAC, Media Access Control (computer networking related).
 
-            URL_Add("ANTLR", "http://en.wikipedia.org/wiki/ANTLR");
+            URL_Add("ANTLR", "https://en.wikipedia.org/wiki/ANTLR");
 
-            URL_Add("AST", "http://en.wikipedia.org/wiki/Abstract_syntax_tree");
+            URL_Add("AST", "https://en.wikipedia.org/wiki/Abstract_syntax_tree");
 
-            URL_Add("UML", "http://en.wikipedia.org/wiki/Unified_Modeling_Language");
+            URL_Add("UML", "https://en.wikipedia.org/wiki/Unified_Modeling_Language");
 
-            URL_Add("SWF", "http://en.wikipedia.org/wiki/SWF");
+            URL_Add("SWF", "https://en.wikipedia.org/wiki/SWF");
 
-            URL_Add("PNG", "http://en.wikipedia.org/wiki/Portable_Network_Graphics");
+            URL_Add("PNG", "https://en.wikipedia.org/wiki/Portable_Network_Graphics");
 
-            URL_Add("Compass", "http://en.wikipedia.org/wiki/Compass_Project");
+            URL_Add("Compass", "https://en.wikipedia.org/wiki/Compass_Project");
 
-            URL_Add("NIC", "http://en.wikipedia.org/wiki/Network_interface_controller");
+            URL_Add("NIC", "https://en.wikipedia.org/wiki/Network_interface_controller");
 
-            URL_Add("CMake", "http://en.wikipedia.org/wiki/CMake");
+            URL_Add("CMake", "https://en.wikipedia.org/wiki/CMake");
 
-            URL_Add("Hadoop", "http://en.wikipedia.org/wiki/Apache_Hadoop");
+            URL_Add("Hadoop", "https://en.wikipedia.org/wiki/Apache_Hadoop");
 
-            URL_Add("Base64", "http://en.wikipedia.org/wiki/Base64");
+            URL_Add("Base64", "https://en.wikipedia.org/wiki/Base64");
 
-            URL_Add("bit/s", "http://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("bit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
 
-            URL_Add("kbit/s", "http://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("kbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
 
-            URL_Add("Mbit/s", "http://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("Mbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
 
-            URL_Add("Gbit/s", "http://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("Gbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
 
-            URL_Add("Windows&nbsp;CE", "http://en.wikipedia.org/wiki/Windows_CE");
+            URL_Add("Windows&nbsp;CE", "https://en.wikipedia.org/wiki/Windows_CE");
 
-            URL_Add("Amazon.com", "http://en.wikipedia.org/wiki/Amazon.com");
+            URL_Add("Amazon.com", "https://en.wikipedia.org/wiki/Amazon.com");
 
-            URL_Add("microcontroller", "http://en.wikipedia.org/wiki/Microcontroller");
+            URL_Add("microcontroller", "https://en.wikipedia.org/wiki/Microcontroller");
 
-            URL_Add("Visual Basic 6.0", "http://en.wikipedia.org/wiki/Visual_Basic#Timeline");
+            URL_Add("Visual Basic 6.0", "https://en.wikipedia.org/wiki/Visual_Basic#Timeline");
 
-            URL_Add("Visual Basic", "http://en.wikipedia.org/wiki/Visual_Basic");
+            URL_Add("Visual Basic", "https://en.wikipedia.org/wiki/Visual_Basic");
 
             URL_Add("etc.", "http://en.wiktionary.org/wiki/etc.#Adverb");
 
-            URL_Add("MIDI", "http://en.wikipedia.org/wiki/MIDI");
+            URL_Add("MIDI", "https://en.wikipedia.org/wiki/MIDI");
 
-            URL_Add("WinRAR", "http://en.wikipedia.org/wiki/WinRAR");
+            URL_Add("WinRAR", "https://en.wikipedia.org/wiki/WinRAR");
 
             URL_Add("which", "http://en.wiktionary.org/wiki/which");
 
-            URL_Add("Fiddler", "http://en.wikipedia.org/wiki/Fiddler_%28software%29");
+            URL_Add("Fiddler", "https://en.wikipedia.org/wiki/Fiddler_%28software%29");
 
-            URL_Add("Outlook", "http://en.wikipedia.org/wiki/Microsoft_Outlook");
+            URL_Add("Outlook", "https://en.wikipedia.org/wiki/Microsoft_Outlook");
 
-            URL_Add("Google+", "http://en.wikipedia.org/wiki/Google%2B");
+            URL_Add("Google+", "https://en.wikipedia.org/wiki/Google%2B");
 
             URL_Add("software", "http://en.wiktionary.org/wiki/software");
 
-            URL_Add("NCover", "http://en.wikipedia.org/wiki/NCover");
+            URL_Add("NCover", "https://en.wikipedia.org/wiki/NCover");
 
-            URL_Add("kHz", "http://en.wikipedia.org/wiki/Hertz#SI_multiples");
-            URL_Add("MHz", "http://en.wikipedia.org/wiki/Hertz#SI_multiples");
-            URL_Add("GHz", "http://en.wikipedia.org/wiki/Hertz#SI_multiples");
+            URL_Add("kHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
+            URL_Add("MHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
+            URL_Add("GHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
 
-            URL_Add("CScript", "http://en.wikipedia.org/wiki/Windows_Script_Host#Available_scripting_engines");
+            URL_Add("CScript", "https://en.wikipedia.org/wiki/Windows_Script_Host#Available_scripting_engines");
 
-            URL_Add("SmartSVN", "http://en.wikipedia.org/wiki/SmartSVN");
+            URL_Add("SmartSVN", "https://en.wikipedia.org/wiki/SmartSVN");
 
-            URL_Add("SMS", "http://en.wikipedia.org/wiki/SMS");
+            URL_Add("SMS", "https://en.wikipedia.org/wiki/SMS");
 
-            URL_Add("EEPROM", "http://en.wikipedia.org/wiki/EEPROM");
+            URL_Add("EEPROM", "https://en.wikipedia.org/wiki/EEPROM");
 
-            URL_Add("RTMP", "http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
+            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
 
-            URL_Add("Gentoo Linux", "http://en.wikipedia.org/wiki/Gentoo_Linux");
+            URL_Add("Gentoo Linux", "https://en.wikipedia.org/wiki/Gentoo_Linux");
 
-            URL_Add("Java Web Start", "http://en.wikipedia.org/wiki/Java_Web_Start");
+            URL_Add("Java Web Start", "https://en.wikipedia.org/wiki/Java_Web_Start");
 
-            URL_Add("Apache HTTP Server", "http://en.wikipedia.org/wiki/Apache_HTTP_Server");
+            URL_Add("Apache HTTP Server", "https://en.wikipedia.org/wiki/Apache_HTTP_Server");
 
-            URL_Add("Doxygen", "http://en.wikipedia.org/wiki/Doxygen");
+            URL_Add("Doxygen", "https://en.wikipedia.org/wiki/Doxygen");
 
-            URL_Add("Graphviz", "http://en.wikipedia.org/wiki/Graphviz");
+            URL_Add("Graphviz", "https://en.wikipedia.org/wiki/Graphviz");
 
-            URL_Add("library", "http://en.wikipedia.org/wiki/Library_%28computing%29");
+            URL_Add("library", "https://en.wikipedia.org/wiki/Library_%28computing%29");
 
-            URL_Add("advertisement", "http://en.wikipedia.org/wiki/Advertisements");
+            URL_Add("advertisement", "https://en.wikipedia.org/wiki/Advertisements");
 
-            URL_Add("Open&nbsp;MPI", "http://en.wikipedia.org/wiki/Open_MPI");
+            URL_Add("Open&nbsp;MPI", "https://en.wikipedia.org/wiki/Open_MPI");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)", "http://en.wikipedia.org/wiki/Mac_OS_X_Lion");
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)", "https://en.wikipedia.org/wiki/Mac_OS_X_Lion");
 
-            URL_Add("Virtual&nbsp;PC", "http://en.wikipedia.org/wiki/Windows_Virtual_PC");
+            URL_Add("Virtual&nbsp;PC", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
 
-            URL_Add("NAnt", "http://en.wikipedia.org/wiki/NAnt");
+            URL_Add("NAnt", "https://en.wikipedia.org/wiki/NAnt");
 
-            URL_Add("Redgate Software", "https://en.wikipedia.org/wiki/Redgate"); // Old: http://en.wikipedia.org/wiki/Red_Gate_Software
+            URL_Add("Redgate Software", "https://en.wikipedia.org/wiki/Redgate"); // Old: https://en.wikipedia.org/wiki/Red_Gate_Software
 
-            URL_Add("SWT", "http://en.wikipedia.org/wiki/Standard_Widget_Toolkit");
+            URL_Add("SWT", "https://en.wikipedia.org/wiki/Standard_Widget_Toolkit");
 
-            URL_Add("Jetty", "http://en.wikipedia.org/wiki/Jetty_%28web_server%29");
+            URL_Add("Jetty", "https://en.wikipedia.org/wiki/Jetty_%28web_server%29");
 
-            URL_Add("Spring MVC", "http://en.wikipedia.org/wiki/Spring_Framework#Model-view-controller_framework");
+            URL_Add("Spring MVC", "https://en.wikipedia.org/wiki/Spring_Framework#Model-view-controller_framework");
 
-            URL_Add("Jabber", "http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
+            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
 
-            URL_Add("Facebook Connect", "http://en.wikipedia.org/wiki/Facebook_Platform#Facebook_Connect");
+            URL_Add("Facebook Connect", "https://en.wikipedia.org/wiki/Facebook_Platform#Facebook_Connect");
 
-            URL_Add("Fedora Core", "http://en.wikipedia.org/wiki/Fedora_(operating_system)");
+            URL_Add("Fedora Core", "https://en.wikipedia.org/wiki/Fedora_(operating_system)");
 
-            URL_Add("Fedora Core 11", "http://en.wikipedia.org/wiki/List_of_Fedora_versions#Fedora_11");
+            URL_Add("Fedora Core 11", "https://en.wikipedia.org/wiki/List_of_Fedora_versions#Fedora_11");
 
-            URL_Add("Apache Shiro", "http://en.wikipedia.org/wiki/Apache_Shiro");
+            URL_Add("Apache Shiro", "https://en.wikipedia.org/wiki/Apache_Shiro");
 
-            URL_Add("Ehcache", "http://en.wikipedia.org/wiki/Ehcache");
+            URL_Add("Ehcache", "https://en.wikipedia.org/wiki/Ehcache");
 
-            URL_Add("cryptography", "http://en.wikipedia.org/wiki/Cryptography");
+            URL_Add("cryptography", "https://en.wikipedia.org/wiki/Cryptography");
 
-            URL_Add("DLL file", "http://en.wikipedia.org/wiki/Dynamic-link_library");
+            URL_Add("DLL file", "https://en.wikipedia.org/wiki/Dynamic-link_library");
 
-            URL_Add("SSIS", "http://en.wikipedia.org/wiki/SQL_Server_Integration_Services");
+            URL_Add("SSIS", "https://en.wikipedia.org/wiki/SQL_Server_Integration_Services");
 
-            URL_Add("Enterprise Library", "http://en.wikipedia.org/wiki/Microsoft_Enterprise_Library");
+            URL_Add("Enterprise Library", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library");
 
-            URL_Add("Hyper-V", "http://en.wikipedia.org/wiki/Hyper-V");
+            URL_Add("Hyper-V", "https://en.wikipedia.org/wiki/Hyper-V");
 
-            URL_Add("Blu-ray", "http://en.wikipedia.org/wiki/Blu-ray_Disc");
+            URL_Add("Blu-ray", "https://en.wikipedia.org/wiki/Blu-ray_Disc");
 
-            URL_Add("antivirus software", "http://en.wikipedia.org/wiki/Antivirus_software");
+            URL_Add("antivirus software", "https://en.wikipedia.org/wiki/Antivirus_software");
 
-            URL_Add("X-ray", "http://en.wikipedia.org/wiki/X-ray");
+            URL_Add("X-ray", "https://en.wikipedia.org/wiki/X-ray");
 
-            URL_Add("BSoD", "http://en.wikipedia.org/wiki/Blue_Screen_of_Death");
+            URL_Add("BSoD", "https://en.wikipedia.org/wiki/Blue_Screen_of_Death");
 
-            URL_Add("Lynx", "http://en.wikipedia.org/wiki/Lynx_%28web_browser%29");
+            URL_Add("Lynx", "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29");
 
-            URL_Add("project management", "http://en.wikipedia.org/wiki/Project_management");
+            URL_Add("project management", "https://en.wikipedia.org/wiki/Project_management");
 
-            URL_Add("Windows Update", "http://en.wikipedia.org/wiki/Windows_Update");
+            URL_Add("Windows Update", "https://en.wikipedia.org/wiki/Windows_Update");
 
-            URL_Add("TortoiseSVN", "http://en.wikipedia.org/wiki/TortoiseSVN");
+            URL_Add("TortoiseSVN", "https://en.wikipedia.org/wiki/TortoiseSVN");
 
             URL_Add("StructureMap", "http://structuremap.net/structuremap/");
 
-            URL_Add("DD-WRT", "http://en.wikipedia.org/wiki/DD-WRT");
+            URL_Add("DD-WRT", "https://en.wikipedia.org/wiki/DD-WRT");
 
-            URL_Add("APK", "http://en.wikipedia.org/wiki/APK_%28file_format%29");
+            URL_Add("APK", "https://en.wikipedia.org/wiki/APK_%28file_format%29");
 
-            URL_Add("DRM", "http://en.wikipedia.org/wiki/Digital_rights_management");
+            URL_Add("DRM", "https://en.wikipedia.org/wiki/Digital_rights_management");
 
-            URL_Add("Tkinter", "http://en.wikipedia.org/wiki/Tkinter");
+            URL_Add("Tkinter", "https://en.wikipedia.org/wiki/Tkinter");
 
-            URL_Add("Graph API", "http://en.wikipedia.org/wiki/Facebook_Platform#Graph_API");
+            URL_Add("Graph API", "https://en.wikipedia.org/wiki/Facebook_Platform#Graph_API");
 
-            URL_Add("TortoiseGit", "http://en.wikipedia.org/wiki/TortoiseGit");
+            URL_Add("TortoiseGit", "https://en.wikipedia.org/wiki/TortoiseGit");
 
-            URL_Add("CANopen", "http://en.wikipedia.org/wiki/CANopen");
+            URL_Add("CANopen", "https://en.wikipedia.org/wiki/CANopen");
 
-            URL_Add("Open Graph", "http://en.wikipedia.org/wiki/Facebook_Platform#Open_Graph_protocol");
+            URL_Add("Open Graph", "https://en.wikipedia.org/wiki/Facebook_Platform#Open_Graph_protocol");
 
-            URL_Add("Dev-C++", "http://en.wikipedia.org/wiki/Dev-C%2B%2B");
+            URL_Add("Dev-C++", "https://en.wikipedia.org/wiki/Dev-C%2B%2B");
 
-            URL_Add("FQL", "http://en.wikipedia.org/wiki/Facebook_Query_Language");
+            URL_Add("FQL", "https://en.wikipedia.org/wiki/Facebook_Query_Language");
 
             URL_Add("something", "http://en.wiktionary.org/wiki/something");
 
-            URL_Add("Windows Server 2003", "http://en.wikipedia.org/wiki/Windows_Server_2003");
+            URL_Add("Windows Server 2003", "https://en.wikipedia.org/wiki/Windows_Server_2003");
 
-            URL_Add("Exchange Server 2003", "http://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003");
+            URL_Add("Exchange Server 2003", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003");
 
-            URL_Add("SHA-256", "http://en.wikipedia.org/wiki/SHA-2");
+            URL_Add("SHA-256", "https://en.wikipedia.org/wiki/SHA-2");
 
-            URL_Add("Google Calendar", "http://en.wikipedia.org/wiki/Google_Calendar");
+            URL_Add("Google Calendar", "https://en.wikipedia.org/wiki/Google_Calendar");
 
-            URL_Add("Task Manager", "http://en.wikipedia.org/wiki/Windows_Task_Manager");
+            URL_Add("Task Manager", "https://en.wikipedia.org/wiki/Windows_Task_Manager");
 
-            URL_Add("Sysinternals", "https://en.wikipedia.org/wiki/Sysinternals"); // Old: http://en.wikipedia.org/wiki/Winternals
+            URL_Add("Sysinternals", "https://en.wikipedia.org/wiki/Sysinternals"); // Old: https://en.wikipedia.org/wiki/Winternals
 
-            URL_Add("UNC", "http://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
+            URL_Add("UNC", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
 
-            URL_Add("RF", "http://en.wikipedia.org/wiki/Radio_frequency");
+            URL_Add("RF", "https://en.wikipedia.org/wiki/Radio_frequency");
 
-            URL_Add("LOB", "http://en.wikipedia.org/wiki/Line_of_business");
+            URL_Add("LOB", "https://en.wikipedia.org/wiki/Line_of_business");
 
-            URL_Add("SQL Server Reporting Services (SSRS)", "http://en.wikipedia.org/wiki/SQL_Server_Reporting_Services");
+            URL_Add("SQL Server Reporting Services (SSRS)", "https://en.wikipedia.org/wiki/SQL_Server_Reporting_Services");
 
-            URL_Add("TLS", "http://en.wikipedia.org/wiki/Transport_Layer_Security");
+            URL_Add("TLS", "https://en.wikipedia.org/wiki/Transport_Layer_Security");
 
-            URL_Add("POJO", "http://en.wikipedia.org/wiki/Plain_Old_Java_Object");
+            URL_Add("POJO", "https://en.wikipedia.org/wiki/Plain_Old_Java_Object");
 
-            URL_Add("HQL", "http://en.wikipedia.org/wiki/Hibernate_%28Java%29#Hibernate_Query_Language_.28HQL.29");
+            URL_Add("HQL", "https://en.wikipedia.org/wiki/Hibernate_%28Java%29#Hibernate_Query_Language_.28HQL.29");
 
-            URL_Add("Perforce", "http://en.wikipedia.org/wiki/Perforce");
+            URL_Add("Perforce", "https://en.wikipedia.org/wiki/Perforce");
 
-            URL_Add("Bazaar", "http://en.wikipedia.org/wiki/Bazaar_%28software%29");
+            URL_Add("Bazaar", "https://en.wikipedia.org/wiki/Bazaar_%28software%29");
 
-            URL_Add("FishEye", "http://en.wikipedia.org/wiki/FishEye_%28software%29");
+            URL_Add("FishEye", "https://en.wikipedia.org/wiki/FishEye_%28software%29");
 
-            URL_Add("cron", "http://en.wikipedia.org/wiki/Cron");
+            URL_Add("cron", "https://en.wikipedia.org/wiki/Cron");
 
             URL_Add("Celery", "http://ask.github.com/celery/getting-started/introduction.html");
 
-            URL_Add("Arch Linux", "http://en.wikipedia.org/wiki/Arch_Linux");
+            URL_Add("Arch Linux", "https://en.wikipedia.org/wiki/Arch_Linux");
 
-            URL_Add("Pacman", "http://en.wikipedia.org/wiki/Pacman_%28package_manager%29");
+            URL_Add("Pacman", "https://en.wikipedia.org/wiki/Pacman_%28package_manager%29");
 
-            URL_Add("grep", "http://en.wikipedia.org/wiki/Grep");
+            URL_Add("grep", "https://en.wikipedia.org/wiki/Grep");
 
-            URL_Add("architecture", "http://en.wikipedia.org/wiki/Computer_architecture");
+            URL_Add("architecture", "https://en.wikipedia.org/wiki/Computer_architecture");
 
-            URL_Add("wxPython", "http://en.wikipedia.org/wiki/WxPython");
+            URL_Add("wxPython", "https://en.wikipedia.org/wiki/WxPython");
 
-            URL_Add("STL", "http://en.wikipedia.org/wiki/Standard_Template_Library");
+            URL_Add("STL", "https://en.wikipedia.org/wiki/Standard_Template_Library");
 
-            URL_Add("Dalvik", "http://en.wikipedia.org/wiki/Dalvik_%28software%29");
+            URL_Add("Dalvik", "https://en.wikipedia.org/wiki/Dalvik_%28software%29");
 
-            URL_Add("tracert", "http://en.wikipedia.org/wiki/Traceroute");
+            URL_Add("tracert", "https://en.wikipedia.org/wiki/Traceroute");
 
-            URL_Add("DTrace", "http://en.wikipedia.org/wiki/DTrace");
+            URL_Add("DTrace", "https://en.wikipedia.org/wiki/DTrace");
 
-            URL_Add("WatiN", "http://en.wikipedia.org/wiki/Watir#Similar_tools");
+            URL_Add("WatiN", "https://en.wikipedia.org/wiki/Watir#Similar_tools");
 
-            URL_Add("Device Manager", "http://en.wikipedia.org/wiki/Device_Manager");
+            URL_Add("Device Manager", "https://en.wikipedia.org/wiki/Device_Manager");
 
             URL_Add("duplicate", "http://en.wiktionary.org/wiki/duplicate");
 
             URL_Add("Stack&nbsp;Apps", "http://stackapps.com/about");
 
-            URL_Add("primary key", "http://en.wikipedia.org/wiki/Unique_key#Defining_primary_keys");
+            URL_Add("primary key", "https://en.wikipedia.org/wiki/Unique_key#Defining_primary_keys");
 
-            URL_Add("Arduino Uno", "http://arduino.cc/en/Main/ArduinoBoardUno"); //Old: broken now, but there is no real good article on Wikipedia. http://en.wikipedia.org/wiki/Arduino#ArduinoUno
+            URL_Add("Arduino Uno", "http://arduino.cc/en/Main/ArduinoBoardUno"); //Old: broken now, but there is no real good article on Wikipedia. https://en.wikipedia.org/wiki/Arduino#ArduinoUno
 
-            URL_Add("Nexus S", "http://en.wikipedia.org/wiki/Nexus_S");
+            URL_Add("Nexus S", "https://en.wikipedia.org/wiki/Nexus_S");
 
             URL_Add("ExecJS", "http://rubygems.org/gems/execjs");
 
             URL_Add("Ruby Racer", "https://github.com/cowboyd/therubyracer");
 
-            URL_Add("JVM", "http://en.wikipedia.org/wiki/Java_virtual_machine");
+            URL_Add("JVM", "https://en.wikipedia.org/wiki/Java_virtual_machine");
 
-            URL_Add("TrueCrypt", "http://en.wikipedia.org/wiki/TrueCrypt");
+            URL_Add("TrueCrypt", "https://en.wikipedia.org/wiki/TrueCrypt");
 
             URL_Add("Versions", "http://www.versionsapp.com/");
 
-            URL_Add("JAWS", "http://en.wikipedia.org/wiki/JAWS_%28screen_reader%29");
+            URL_Add("JAWS", "https://en.wikipedia.org/wiki/JAWS_%28screen_reader%29");
 
-            URL_Add("URL rewriting", "http://en.wikipedia.org/wiki/Rewrite_engine");
+            URL_Add("URL rewriting", "https://en.wikipedia.org/wiki/Rewrite_engine");
 
-            URL_Add("symbolic link", "http://en.wikipedia.org/wiki/Symbolic_link");
+            URL_Add("symbolic link", "https://en.wikipedia.org/wiki/Symbolic_link");
 
             URL_Add("ADT", "http://developer.android.com/guide/developing/tools/adt.html");
 
-            URL_Add("PDB", "http://en.wikipedia.org/wiki/Program_database");
+            URL_Add("PDB", "https://en.wikipedia.org/wiki/Program_database");
 
-            URL_Add("Raspberry Pi", "http://en.wikipedia.org/wiki/Raspberry_Pi");
+            URL_Add("Raspberry Pi", "https://en.wikipedia.org/wiki/Raspberry_Pi");
 
-            URL_Add("environment", "http://en.wikipedia.org/wiki/Environment_variable");
+            URL_Add("environment", "https://en.wikipedia.org/wiki/Environment_variable");
 
-            URL_Add("LAN", "http://en.wikipedia.org/wiki/Local_area_network");
+            URL_Add("LAN", "https://en.wikipedia.org/wiki/Local_area_network");
 
-            URL_Add("Javadoc", "http://en.wikipedia.org/wiki/Javadoc");
+            URL_Add("Javadoc", "https://en.wikipedia.org/wiki/Javadoc");
 
-            URL_Add("Usenet", "http://en.wikipedia.org/wiki/Usenet");
+            URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
 
             URL_Add("AKA", "http://en.wiktionary.org/wiki/AKA");
 
             URL_Add("sketch", "http://www.arduino.cc/en/Tutorial/Sketch");
 
-            URL_Add("plain old data structure", "http://en.wikipedia.org/wiki/Plain_old_data_structure");
+            URL_Add("plain old data structure", "https://en.wikipedia.org/wiki/Plain_old_data_structure");
 
-            URL_Add("PWM", "http://en.wikipedia.org/wiki/Pulse-width_modulation");
+            URL_Add("PWM", "https://en.wikipedia.org/wiki/Pulse-width_modulation");
 
-            URL_Add("CRUD", "http://en.wikipedia.org/wiki/Create,_read,_update_and_delete");
+            URL_Add("CRUD", "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete");
 
-            URL_Add("PDO", "https://en.wikipedia.org/wiki/PHP#Development_and_community"); //Was http://en.wikipedia.org/wiki/PHP#History
+            URL_Add("PDO", "https://en.wikipedia.org/wiki/PHP#Development_and_community"); //Was https://en.wikipedia.org/wiki/PHP#History
 
-            URL_Add("DB2", "http://en.wikipedia.org/wiki/IBM_DB2");
+            URL_Add("DB2", "https://en.wikipedia.org/wiki/IBM_DB2");
 
-            URL_Add("MariaDB", "http://en.wikipedia.org/wiki/MariaDB");
+            URL_Add("MariaDB", "https://en.wikipedia.org/wiki/MariaDB");
 
-            URL_Add("LED", "http://en.wikipedia.org/wiki/Light-emitting_diode");
+            URL_Add("LED", "https://en.wikipedia.org/wiki/Light-emitting_diode");
 
-            URL_Add("Experts-Exchange", "http://en.wikipedia.org/wiki/Experts-Exchange");
+            URL_Add("Experts-Exchange", "https://en.wikipedia.org/wiki/Experts-Exchange");
 
-            URL_Add("Asus", "http://en.wikipedia.org/wiki/Asus");
+            URL_Add("Asus", "https://en.wikipedia.org/wiki/Asus");
 
-            URL_Add("reCAPTCHA", "http://en.wikipedia.org/wiki/ReCAPTCHA");
+            URL_Add("reCAPTCHA", "https://en.wikipedia.org/wiki/ReCAPTCHA");
 
-            URL_Add("SpinRite", "http://en.wikipedia.org/wiki/SpinRite");
+            URL_Add("SpinRite", "https://en.wikipedia.org/wiki/SpinRite");
 
-            URL_Add("Microsoft Visual C++", "https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B"); // Old: http://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions Old: https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B#32-bit_and_64-bit_versions
+            URL_Add("Microsoft Visual C++", "https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B"); // Old: https://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions Old: https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B#32-bit_and_64-bit_versions
 
-            URL_Add("latitude", "http://en.wikipedia.org/wiki/Latitude");
+            URL_Add("latitude", "https://en.wikipedia.org/wiki/Latitude");
 
-            URL_Add("longitude", "http://en.wikipedia.org/wiki/Longitude");
+            URL_Add("longitude", "https://en.wikipedia.org/wiki/Longitude");
 
-            URL_Add("iPod", "http://en.wikipedia.org/wiki/IPod");
+            URL_Add("iPod", "https://en.wikipedia.org/wiki/IPod");
 
-            URL_Add("Windows&nbsp;7 Starter", "http://en.wikipedia.org/wiki/Windows_7_editions#Comparison_chart");
+            URL_Add("Windows&nbsp;7 Starter", "https://en.wikipedia.org/wiki/Windows_7_editions#Comparison_chart");
 
-            URL_Add("FireWire", "http://en.wikipedia.org/wiki/IEEE_1394");
+            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
 
-            URL_Add("Winamp", "http://en.wikipedia.org/wiki/Winamp");
+            URL_Add("Winamp", "https://en.wikipedia.org/wiki/Winamp");
 
-            URL_Add("Windows Media Player", "http://en.wikipedia.org/wiki/Windows_Media_Player");
+            URL_Add("Windows Media Player", "https://en.wikipedia.org/wiki/Windows_Media_Player");
 
-            URL_Add("AppleScript", "http://en.wikipedia.org/wiki/AppleScript");
+            URL_Add("AppleScript", "https://en.wikipedia.org/wiki/AppleScript");
 
-            URL_Add("MathJax", "http://en.wikipedia.org/wiki/MathJax");
+            URL_Add("MathJax", "https://en.wikipedia.org/wiki/MathJax");
 
-            URL_Add("Notepad2", "http://en.wikipedia.org/wiki/Notepad2");
+            URL_Add("Notepad2", "https://en.wikipedia.org/wiki/Notepad2");
 
-            URL_Add("Solution Explorer", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
+            URL_Add("Solution Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
 
-            URL_Add("rsync", "http://en.wikipedia.org/wiki/Rsync");
+            URL_Add("rsync", "https://en.wikipedia.org/wiki/Rsync");
 
-            URL_Add("SCP", "http://en.wikipedia.org/wiki/Secure_copy");
+            URL_Add("SCP", "https://en.wikipedia.org/wiki/Secure_copy");
 
-            URL_Add("Cython", "http://en.wikipedia.org/wiki/Cython");
+            URL_Add("Cython", "https://en.wikipedia.org/wiki/Cython");
 
-            URL_Add("Rockbox", "http://en.wikipedia.org/wiki/Rockbox");
+            URL_Add("Rockbox", "https://en.wikipedia.org/wiki/Rockbox");
 
-            URL_Add("Selenium", "http://en.wikipedia.org/wiki/Selenium_%28software%29");
+            URL_Add("Selenium", "https://en.wikipedia.org/wiki/Selenium_%28software%29");
 
-            URL_Add("Ethernet", "http://en.wikipedia.org/wiki/Ethernet");
+            URL_Add("Ethernet", "https://en.wikipedia.org/wiki/Ethernet");
 
-            URL_Add("F#", "http://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29");
+            URL_Add("F#", "https://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29");
 
-            URL_Add("C", "http://en.wikipedia.org/wiki/C_%28programming_language%29");
+            URL_Add("C", "https://en.wikipedia.org/wiki/C_%28programming_language%29");
 
-            URL_Add("Scott Guthrie", "http://en.wikipedia.org/wiki/Scott_Guthrie");
+            URL_Add("Scott Guthrie", "https://en.wikipedia.org/wiki/Scott_Guthrie");
 
-            URL_Add("Brief", "http://en.wikipedia.org/wiki/Brief_%28text_editor%29");
+            URL_Add("Brief", "https://en.wikipedia.org/wiki/Brief_%28text_editor%29");
 
-            URL_Add("Core 2 Duo", "http://en.wikipedia.org/wiki/List_of_Intel_Core_2_microprocessors#Core_2_Duo_2");
+            URL_Add("Core 2 Duo", "https://en.wikipedia.org/wiki/List_of_Intel_Core_2_microprocessors#Core_2_Duo_2");
 
-            URL_Add("RSS", "http://en.wikipedia.org/wiki/RSS");
+            URL_Add("RSS", "https://en.wikipedia.org/wiki/RSS");
 
             URL_Add("AVR Studio", "http://www.atmel.com/microsite/avr_studio_5/default.aspx");
 
             URL_Add("combination", "http://en.wiktionary.org/wiki/combination");
 
-            URL_Add("IPv6", "http://en.wikipedia.org/wiki/IPv6");
+            URL_Add("IPv6", "https://en.wikipedia.org/wiki/IPv6");
 
-            URL_Add("IPv4", "http://en.wikipedia.org/wiki/IPv4");
+            URL_Add("IPv4", "https://en.wikipedia.org/wiki/IPv4");
 
-            URL_Add("SAX", "http://en.wikipedia.org/wiki/Simple_API_for_XML");
+            URL_Add("SAX", "https://en.wikipedia.org/wiki/Simple_API_for_XML");
 
-            URL_Add("TCP", "http://en.wikipedia.org/wiki/Transmission_Control_Protocol");
+            URL_Add("TCP", "https://en.wikipedia.org/wiki/Transmission_Control_Protocol");
 
-            URL_Add("CodePlex", "http://en.wikipedia.org/wiki/CodePlex");
+            URL_Add("CodePlex", "https://en.wikipedia.org/wiki/CodePlex");
 
-            URL_Add("AOL", "http://en.wikipedia.org/wiki/AOL");
+            URL_Add("AOL", "https://en.wikipedia.org/wiki/AOL");
 
             URL_Add("benefit", "http://en.wiktionary.org/wiki/benefit");
 
             URL_Add("TestDriven.NET", "http://www.testdriven.net/");
 
-            URL_Add("KnockoutJS", "http://en.wikipedia.org/wiki/KnockoutJS");
+            URL_Add("KnockoutJS", "https://en.wikipedia.org/wiki/KnockoutJS");
 
             URL_Add("Underscore.js", "https://en.wikipedia.org/wiki/Underscore.js"); //Old: http://documentcloud.github.com/underscore/
 
-            URL_Add("DLL&nbsp;Hell", "http://en.wikipedia.org/wiki/DLL_Hell");
+            URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
 
             //URL_Add("PS", "http://en.wiktionary.org/wiki/PS"); // Now PowerShell
 
-            URL_Add("QEMU", "http://en.wikipedia.org/wiki/QEMU");
+            URL_Add("QEMU", "https://en.wikipedia.org/wiki/QEMU");
 
-            URL_Add("Myspace", "http://en.wikipedia.org/wiki/Myspace");
+            URL_Add("Myspace", "https://en.wikipedia.org/wiki/Myspace");
 
-            URL_Add("GNU", "http://en.wikipedia.org/wiki/GNU");
+            URL_Add("GNU", "https://en.wikipedia.org/wiki/GNU");
 
-            URL_Add("Jeff Atwood", "http://en.wikipedia.org/wiki/Jeff_Atwood");
+            URL_Add("Jeff Atwood", "https://en.wikipedia.org/wiki/Jeff_Atwood");
 
-            URL_Add("Joel Spolsky", "http://en.wikipedia.org/wiki/Joel_Spolsky");
+            URL_Add("Joel Spolsky", "https://en.wikipedia.org/wiki/Joel_Spolsky");
 
-            URL_Add("LINQ&nbsp;to&nbsp;Entities", "http://en.wikipedia.org/wiki/ADO.NET_Entity_Framework#LINQ_to_Entities");
+            URL_Add("LINQ&nbsp;to&nbsp;Entities", "https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework#LINQ_to_Entities");
 
             URL_Add("YSlow", "http://yslow.org/");
 
-            URL_Add("ClickOnce", "http://en.wikipedia.org/wiki/ClickOnce");
+            URL_Add("ClickOnce", "https://en.wikipedia.org/wiki/ClickOnce");
 
-            URL_Add("CCleaner", "http://en.wikipedia.org/wiki/CCleaner");
+            URL_Add("CCleaner", "https://en.wikipedia.org/wiki/CCleaner");
 
-            URL_Add("ISP", "http://en.wikipedia.org/wiki/Internet_service_provider");
-            URL_Add("Kate", "http://en.wikipedia.org/wiki/Kate_%28text_editor%29");
-            URL_Add("Remote Desktop Connection", "http://en.wikipedia.org/wiki/Remote_Desktop_Services#Remote_Desktop_Connection");
+            URL_Add("ISP", "https://en.wikipedia.org/wiki/Internet_service_provider");
+            URL_Add("Kate", "https://en.wikipedia.org/wiki/Kate_%28text_editor%29");
+            URL_Add("Remote Desktop Connection", "https://en.wikipedia.org/wiki/Remote_Desktop_Services#Remote_Desktop_Connection");
 
-            URL_Add("PIC", "http://en.wikipedia.org/wiki/PIC_microcontroller");
+            URL_Add("PIC", "https://en.wikipedia.org/wiki/PIC_microcontroller");
 
-            URL_Add("Windows Server 2008", "http://en.wikipedia.org/wiki/Windows_Server_2008");
+            URL_Add("Windows Server 2008", "https://en.wikipedia.org/wiki/Windows_Server_2008");
 
-            URL_Add("Windows Live", "http://en.wikipedia.org/wiki/Windows_Live");
+            URL_Add("Windows Live", "https://en.wikipedia.org/wiki/Windows_Live");
 
-            URL_Add("Beyond Compare", "http://en.wikipedia.org/wiki/Beyond_Compare");
+            URL_Add("Beyond Compare", "https://en.wikipedia.org/wiki/Beyond_Compare");
 
-            URL_Add("RDP", "http://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
+            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
 
-            URL_Add("KVM", "http://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine");
+            URL_Add("KVM", "https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine");
 
-            URL_Add("Process Monitor", "http://en.wikipedia.org/wiki/Process_Monitor");
+            URL_Add("Process Monitor", "https://en.wikipedia.org/wiki/Process_Monitor");
 
-            URL_Add("ILDASM", "http://en.wikipedia.org/wiki/Common_Intermediate_Language#Generation");
+            URL_Add("ILDASM", "https://en.wikipedia.org/wiki/Common_Intermediate_Language#Generation");
 
-            URL_Add("Notepad++", "http://en.wikipedia.org/wiki/Notepad%2B%2B");
+            URL_Add("Notepad++", "https://en.wikipedia.org/wiki/Notepad%2B%2B");
 
-            URL_Add("TeamViewer", "http://en.wikipedia.org/wiki/TeamViewer");
+            URL_Add("TeamViewer", "https://en.wikipedia.org/wiki/TeamViewer");
 
-            URL_Add("Craigslist", "http://en.wikipedia.org/wiki/Craigslist");
+            URL_Add("Craigslist", "https://en.wikipedia.org/wiki/Craigslist");
 
-            URL_Add("NoSQL", "http://en.wikipedia.org/wiki/NoSQL");
+            URL_Add("NoSQL", "https://en.wikipedia.org/wiki/NoSQL");
 
-            URL_Add("MPlayer", "http://en.wikipedia.org/wiki/MPlayer");
+            URL_Add("MPlayer", "https://en.wikipedia.org/wiki/MPlayer");
 
-            URL_Add("iPod Touch", "http://en.wikipedia.org/wiki/IPod_Touch");
+            URL_Add("iPod Touch", "https://en.wikipedia.org/wiki/IPod_Touch");
 
-            URL_Add("microphone", "http://en.wikipedia.org/wiki/Microphone");
+            URL_Add("microphone", "https://en.wikipedia.org/wiki/Microphone");
 
-            URL_Add("TrueType", "http://en.wikipedia.org/wiki/TrueType");
+            URL_Add("TrueType", "https://en.wikipedia.org/wiki/TrueType");
 
-            URL_Add("ext3", "http://en.wikipedia.org/wiki/Ext3");
+            URL_Add("ext3", "https://en.wikipedia.org/wiki/Ext3");
 
-            URL_Add("OpenStreetMap", "http://en.wikipedia.org/wiki/OpenStreetMap");
+            URL_Add("OpenStreetMap", "https://en.wikipedia.org/wiki/OpenStreetMap");
 
-            URL_Add("RAR", "http://en.wikipedia.org/wiki/RAR");
+            URL_Add("RAR", "https://en.wikipedia.org/wiki/RAR");
 
-            URL_Add("ARM", "http://en.wikipedia.org/wiki/ARM_architecture");
+            URL_Add("ARM", "https://en.wikipedia.org/wiki/ARM_architecture");
 
-            URL_Add("artificial neural network", "http://en.wikipedia.org/wiki/Artificial_neural_network");
+            URL_Add("artificial neural network", "https://en.wikipedia.org/wiki/Artificial_neural_network");
 
-            URL_Add("DivX", "http://en.wikipedia.org/wiki/DivX");
+            URL_Add("DivX", "https://en.wikipedia.org/wiki/DivX");
 
             URL_Add("whether", "http://en.wiktionary.org/wiki/whether#Conjunction");
 
-            URL_Add("Dragonfly", "http://en.wikipedia.org/wiki/Dragonfly");
+            URL_Add("Dragonfly", "https://en.wikipedia.org/wiki/Dragonfly");
 
-            URL_Add("I²C", "http://en.wikipedia.org/wiki/I%C2%B2C");
+            URL_Add("I²C", "https://en.wikipedia.org/wiki/I%C2%B2C");
 
-            URL_Add("SDL", "http://en.wikipedia.org/wiki/Simple_DirectMedia_Layer");
+            URL_Add("SDL", "https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer");
 
-            URL_Add("COBOL", "http://en.wikipedia.org/wiki/COBOL");
+            URL_Add("COBOL", "https://en.wikipedia.org/wiki/COBOL");
 
-            URL_Add("Fortran", "http://en.wikipedia.org/wiki/Fortran");
+            URL_Add("Fortran", "https://en.wikipedia.org/wiki/Fortran");
 
-            URL_Add("Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)", "http://en.wikipedia.org/wiki/Design_Patterns");
+            URL_Add("Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)", "https://en.wikipedia.org/wiki/Design_Patterns");
 
-            URL_Add("BASIC", "http://en.wikipedia.org/wiki/BASIC");
+            URL_Add("BASIC", "https://en.wikipedia.org/wiki/BASIC");
 
-            URL_Add("domain controller", "http://en.wikipedia.org/wiki/Domain_controller");
+            URL_Add("domain controller", "https://en.wikipedia.org/wiki/Domain_controller");
 
-            URL_Add("Ghostscript", "http://en.wikipedia.org/wiki/Ghostscript");
+            URL_Add("Ghostscript", "https://en.wikipedia.org/wiki/Ghostscript");
 
-            URL_Add("JAR", "http://en.wikipedia.org/wiki/JAR_%28file_format%29");
+            URL_Add("JAR", "https://en.wikipedia.org/wiki/JAR_%28file_format%29");
 
             URL_Add("PowerGrep", "http://www.powergrep.com/");
 
-            URL_Add("Razor", "http://en.wikipedia.org/wiki/Microsoft_ASP.NET_Razor_view_engine");
+            URL_Add("Razor", "https://en.wikipedia.org/wiki/Microsoft_ASP.NET_Razor_view_engine");
 
-            URL_Add("WinMerge", "http://en.wikipedia.org/wiki/WinMerge");
+            URL_Add("WinMerge", "https://en.wikipedia.org/wiki/WinMerge");
 
-            URL_Add("Imgur", "http://en.wikipedia.org/wiki/Imgur");
+            URL_Add("Imgur", "https://en.wikipedia.org/wiki/Imgur");
 
-            URL_Add("GIMP", "http://en.wikipedia.org/wiki/GIMP");
+            URL_Add("GIMP", "https://en.wikipedia.org/wiki/GIMP");
 
-            URL_Add("JTAG", "http://en.wikipedia.org/wiki/Joint_Test_Action_Group");
+            URL_Add("JTAG", "https://en.wikipedia.org/wiki/Joint_Test_Action_Group");
 
-            URL_Add("UART", "http://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter");
+            URL_Add("UART", "https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter");
 
             URL_Add("I’ve", "http://en.wiktionary.org/wiki/I%27ve#Contraction");
 
-            URL_Add("Foursquare", "http://en.wikipedia.org/wiki/Foursquare");
+            URL_Add("Foursquare", "https://en.wikipedia.org/wiki/Foursquare");
 
-            URL_Add("Google Code", "https://en.wikipedia.org/wiki/Google_Developers#Google_Code"); // Old: http://en.wikipedia.org/wiki/Google_Code
+            URL_Add("Google Code", "https://en.wikipedia.org/wiki/Google_Developers#Google_Code");
 
-            URL_Add("KDE&nbsp;4", "http://en.wikipedia.org/wiki/KDE_Software_Compilation_4#Released_versions");
+            URL_Add("KDE&nbsp;4", "https://en.wikipedia.org/wiki/KDE_Software_Compilation_4#Released_versions");
 
-            URL_Add("WoW", "http://en.wikipedia.org/wiki/Windows_on_Windows");
+            URL_Add("WoW", "https://en.wikipedia.org/wiki/Windows_on_Windows");
 
-            URL_Add("xargs", "http://en.wikipedia.org/wiki/Xargs");
+            URL_Add("xargs", "https://en.wikipedia.org/wiki/Xargs");
 
-            URL_Add("find", "https://en.wikipedia.org/wiki/Find_(Unix)"); // Old: http://en.wikipedia.org/wiki/Find
+            URL_Add("find", "https://en.wikipedia.org/wiki/Find_(Unix)"); // Old: https://en.wikipedia.org/wiki/Find
 
-            URL_Add("Moonlight", "http://en.wikipedia.org/wiki/Moonlight_%28runtime%29");
+            URL_Add("Moonlight", "https://en.wikipedia.org/wiki/Moonlight_%28runtime%29");
 
-            URL_Add("Make", "http://en.wikipedia.org/wiki/Make_%28software%29");
+            URL_Add("Make", "https://en.wikipedia.org/wiki/Make_%28software%29");
 
-            URL_Add("GPS", "http://en.wikipedia.org/wiki/Global_Positioning_System");
+            URL_Add("GPS", "https://en.wikipedia.org/wiki/Global_Positioning_System");
 
-            URL_Add("BMP", "http://en.wikipedia.org/wiki/BMP_file_format");
+            URL_Add("BMP", "https://en.wikipedia.org/wiki/BMP_file_format");
 
-            URL_Add("NuGet", "http://en.wikipedia.org/wiki/NuGet");
+            URL_Add("NuGet", "https://en.wikipedia.org/wiki/NuGet");
 
-            URL_Add("Command&nbsp;Prompt", "http://en.wikipedia.org/wiki/Command_Prompt");
+            URL_Add("Command&nbsp;Prompt", "https://en.wikipedia.org/wiki/Command_Prompt");
 
-            URL_Add("Disk Cleanup", "http://en.wikipedia.org/wiki/Disk_Cleanup");
+            URL_Add("Disk Cleanup", "https://en.wikipedia.org/wiki/Disk_Cleanup");
 
-            URL_Add("CyanogenMod", "http://en.wikipedia.org/wiki/CyanogenMod");
+            URL_Add("CyanogenMod", "https://en.wikipedia.org/wiki/CyanogenMod");
 
             URL_Add("ADB", "https://en.wikipedia.org/wiki/Android_Debug_Bridge#Android_Debug_Bridge");
 
-            URL_Add("Samsung Kies", "http://en.wikipedia.org/wiki/Samsung_Kies");
+            URL_Add("Samsung Kies", "https://en.wikipedia.org/wiki/Samsung_Kies");
 
-            URL_Add("FFmpeg", "http://en.wikipedia.org/wiki/FFmpeg");
+            URL_Add("FFmpeg", "https://en.wikipedia.org/wiki/FFmpeg");
 
-            URL_Add("Knoppix", "http://en.wikipedia.org/wiki/Knoppix");
+            URL_Add("Knoppix", "https://en.wikipedia.org/wiki/Knoppix");
 
-            // URL_Add("NETMF", "http://en.wikipedia.org/wiki/.NET_Micro_Framework");
+            // URL_Add("NETMF", "https://en.wikipedia.org/wiki/.NET_Micro_Framework");
 
-            URL_Add("CPAN", "http://en.wikipedia.org/wiki/CPAN");
+            URL_Add("CPAN", "https://en.wikipedia.org/wiki/CPAN");
 
-            URL_Add("Strawberry Perl", "http://en.wikipedia.org/wiki/Strawberry_Perl");
+            URL_Add("Strawberry Perl", "https://en.wikipedia.org/wiki/Strawberry_Perl");
 
-            URL_Add("NTFS", "http://en.wikipedia.org/wiki/NTFS");
+            URL_Add("NTFS", "https://en.wikipedia.org/wiki/NTFS");
 
-            URL_Add("RFID", "http://en.wikipedia.org/wiki/Radio-frequency_identification");
+            URL_Add("RFID", "https://en.wikipedia.org/wiki/Radio-frequency_identification");
 
-            URL_Add("Google Earth", "http://en.wikipedia.org/wiki/Google_Earth");
+            URL_Add("Google Earth", "https://en.wikipedia.org/wiki/Google_Earth");
 
-            URL_Add("WiMAX", "http://en.wikipedia.org/wiki/WiMAX");
+            URL_Add("WiMAX", "https://en.wikipedia.org/wiki/WiMAX");
 
-            URL_Add("FileZilla", "http://en.wikipedia.org/wiki/FileZilla");
+            URL_Add("FileZilla", "https://en.wikipedia.org/wiki/FileZilla");
 
-            URL_Add("SPI", "http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus");
+            URL_Add("SPI", "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus");
 
-            URL_Add("FTP", "http://en.wikipedia.org/wiki/File_Transfer_Protocol");
+            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
 
-            URL_Add("AVI", "http://en.wikipedia.org/wiki/Audio_Video_Interleave");
+            URL_Add("AVI", "https://en.wikipedia.org/wiki/Audio_Video_Interleave");
 
-            URL_Add("JavaBeans", "http://en.wikipedia.org/wiki/JavaBeans");
+            URL_Add("JavaBeans", "https://en.wikipedia.org/wiki/JavaBeans");
 
-            URL_Add("hosts file", "http://en.wikipedia.org/wiki/Hosts_(file)");
+            URL_Add("hosts file", "https://en.wikipedia.org/wiki/Hosts_(file)");
 
-            URL_Add("CHKDSK", "http://en.wikipedia.org/wiki/CHKDSK");
+            URL_Add("CHKDSK", "https://en.wikipedia.org/wiki/CHKDSK");
 
-            URL_Add("MFT", "http://en.wikipedia.org/wiki/NTFS#Internals");
+            URL_Add("MFT", "https://en.wikipedia.org/wiki/NTFS#Internals");
 
-            URL_Add("IRC", "http://en.wikipedia.org/wiki/Internet_Relay_Chat");
+            URL_Add("IRC", "https://en.wikipedia.org/wiki/Internet_Relay_Chat");
 
-            URL_Add("Telnet", "http://en.wikipedia.org/wiki/Telnet");
+            URL_Add("Telnet", "https://en.wikipedia.org/wiki/Telnet");
 
-            URL_Add("AutoHotkey", "http://en.wikipedia.org/wiki/AutoHotkey");
+            URL_Add("AutoHotkey", "https://en.wikipedia.org/wiki/AutoHotkey");
 
-            URL_Add("BeagleBoard", "http://en.wikipedia.org/wiki/BeagleBoard");
+            URL_Add("BeagleBoard", "https://en.wikipedia.org/wiki/BeagleBoard");
 
-            URL_Add("'like button'", "http://en.wikipedia.org/wiki/Like_button");
+            URL_Add("'like button'", "https://en.wikipedia.org/wiki/Like_button");
 
             URL_Add("shield", "http://www.arduino.cc/en/Main/ArduinoShields");
 
-            URL_Add("FreeMat", "http://en.wikipedia.org/wiki/FreeMat");
+            URL_Add("FreeMat", "https://en.wikipedia.org/wiki/FreeMat");
 
-            URL_Add("EPS", "http://en.wikipedia.org/wiki/Encapsulated_PostScript");
+            URL_Add("EPS", "https://en.wikipedia.org/wiki/Encapsulated_PostScript");
 
-            URL_Add("EFI", "http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
+            URL_Add("EFI", "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
 
             URL_Add("LogCat", "https://sites.google.com/site/androidhowto/how-to-1/save-logcat-to-a-text-file");
 
             URL_Add("between", "http://en.wiktionary.org/wiki/between");
 
-            URL_Add("CORBA", "http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture");
+            URL_Add("CORBA", "https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture");
 
-            URL_Add("Dependency Walker", "http://en.wikipedia.org/wiki/Dependency_Walker");
+            URL_Add("Dependency Walker", "https://en.wikipedia.org/wiki/Dependency_Walker");
 
-            URL_Add("Photoshop", "http://en.wikipedia.org/wiki/Adobe_Photoshop");
+            URL_Add("Photoshop", "https://en.wikipedia.org/wiki/Adobe_Photoshop");
 
-            URL_Add("microSD", "http://en.wikipedia.org/wiki/Secure_Digital#Physical_size");
+            URL_Add("microSD", "https://en.wikipedia.org/wiki/Secure_Digital#Physical_size");
 
-            URL_Add("Nmap", "http://en.wikipedia.org/wiki/Nmap");
+            URL_Add("Nmap", "https://en.wikipedia.org/wiki/Nmap");
 
-            URL_Add("Ctrl", "http://en.wikipedia.org/wiki/Control_key");
+            URL_Add("Ctrl", "https://en.wikipedia.org/wiki/Control_key");
 
-            URL_Add("Reddit", "http://en.wikipedia.org/wiki/Reddit");
+            URL_Add("Reddit", "https://en.wikipedia.org/wiki/Reddit");
 
-            URL_Add("QR code", "http://en.wikipedia.org/wiki/QR_code");
+            URL_Add("QR code", "https://en.wikipedia.org/wiki/QR_code");
 
             URL_Add("intent", "http://developer.android.com/guide/components/intents-filters.html");
 
             URL_Add("nowadays", "http://en.wiktionary.org/wiki/nowadays");
 
-            URL_Add("Yii", "http://en.wikipedia.org/wiki/Yii");
+            URL_Add("Yii", "https://en.wikipedia.org/wiki/Yii");
 
-            URL_Add("SATA", "http://en.wikipedia.org/wiki/Serial_ATA");
+            URL_Add("SATA", "https://en.wikipedia.org/wiki/Serial_ATA");
 
-            URL_Add("SQL injection", "http://en.wikipedia.org/wiki/SQL_injection");
+            URL_Add("SQL injection", "https://en.wikipedia.org/wiki/SQL_injection");
 
-            URL_Add("MySQLi", "http://en.wikipedia.org/wiki/MySQLi");
+            URL_Add("MySQLi", "https://en.wikipedia.org/wiki/MySQLi");
 
-            URL_Add("GD Graphics Library", "http://en.wikipedia.org/wiki/GD_Graphics_Library");
+            URL_Add("GD Graphics Library", "https://en.wikipedia.org/wiki/GD_Graphics_Library");
 
-            URL_Add(".NET Micro Framework", "http://en.wikipedia.org/wiki/.NET_Micro_Framework");
+            URL_Add(".NET Micro Framework", "https://en.wikipedia.org/wiki/.NET_Micro_Framework");
 
-            URL_Add("FAT32", "http://en.wikipedia.org/wiki/File_Allocation_Table#FAT32");
+            URL_Add("FAT32", "https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32");
 
-            URL_Add("Apple", "http://en.wikipedia.org/wiki/Apple_Inc.");
+            URL_Add("Apple", "https://en.wikipedia.org/wiki/Apple_Inc.");
 
             URL_Add("TLDR", "http://en.wiktionary.org/wiki/TLDR");
 
-            URL_Add("LCD", "http://en.wikipedia.org/wiki/Liquid_crystal_display");
+            URL_Add("LCD", "https://en.wikipedia.org/wiki/Liquid_crystal_display");
 
-            URL_Add("ext4", "http://en.wikipedia.org/wiki/Ext4");
+            URL_Add("ext4", "https://en.wikipedia.org/wiki/Ext4");
 
-            URL_Add("U-Boot", "http://en.wikipedia.org/wiki/Das_U-Boot");
+            URL_Add("U-Boot", "https://en.wikipedia.org/wiki/Das_U-Boot");
 
-            URL_Add("X Window", "http://en.wikipedia.org/wiki/X_Window_System");
+            URL_Add("X Window", "https://en.wikipedia.org/wiki/X_Window_System");
 
-            URL_Add("EXE file", "http://en.wikipedia.org/wiki/EXE");
+            URL_Add("EXE file", "https://en.wikipedia.org/wiki/EXE");
 
-            URL_Add("Simulink", "http://en.wikipedia.org/wiki/Simulink");
+            URL_Add("Simulink", "https://en.wikipedia.org/wiki/Simulink");
 
-            URL_Add("URL encoding", "http://en.wikipedia.org/wiki/Percent-encoding");
+            URL_Add("URL encoding", "https://en.wikipedia.org/wiki/Percent-encoding");
 
-            URL_Add("Play Framework", "http://en.wikipedia.org/wiki/Play_Framework");
+            URL_Add("Play Framework", "https://en.wikipedia.org/wiki/Play_Framework");
 
-            URL_Add("iCal", "http://en.wikipedia.org/wiki/Calendar_%28application%29");
+            URL_Add("iCal", "https://en.wikipedia.org/wiki/Calendar_%28application%29");
 
-            URL_Add("SparkFun", "http://en.wikipedia.org/wiki/SparkFun_Electronics");
+            URL_Add("SparkFun", "https://en.wikipedia.org/wiki/SparkFun_Electronics");
 
-            URL_Add("Factor", "http://en.wikipedia.org/wiki/Factor_%28programming_language%29");
+            URL_Add("Factor", "https://en.wikipedia.org/wiki/Factor_%28programming_language%29");
 
-            URL_Add("PostScript", "http://en.wikipedia.org/wiki/PostScript");
+            URL_Add("PostScript", "https://en.wikipedia.org/wiki/PostScript");
 
-            URL_Add("SHA-2", "http://en.wikipedia.org/wiki/SHA-2");
+            URL_Add("SHA-2", "https://en.wikipedia.org/wiki/SHA-2");
 
-            URL_Add("CompactFlash", "http://en.wikipedia.org/wiki/CompactFlash");
+            URL_Add("CompactFlash", "https://en.wikipedia.org/wiki/CompactFlash");
 
-            URL_Add("C++", "http://en.wikipedia.org/wiki/C%2B%2B");
+            URL_Add("C++", "https://en.wikipedia.org/wiki/C%2B%2B");
 
             URL_Add("DevExpress", "http://www.devexpress.com/Home/Mission.xml");
 
             URL_Add("HDMI", "https://en.wikipedia.org/wiki/HDMI");
 
-            URL_Add("constructor", "http://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29");
+            URL_Add("constructor", "https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29");
 
-            URL_Add("POST", "http://en.wikipedia.org/wiki/POST_%28HTTP%29");
+            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
 
-            URL_Add("GET", "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
 
-            URL_Add("CLI", "http://en.wikipedia.org/wiki/Command-line_interface");
+            URL_Add("CLI", "https://en.wikipedia.org/wiki/Command-line_interface");
 
-            URL_Add("AutoIt", "http://en.wikipedia.org/wiki/AutoIt");
+            URL_Add("AutoIt", "https://en.wikipedia.org/wiki/AutoIt");
 
-            URL_Add("T4", "http://en.wikipedia.org/wiki/Text_Template_Transformation_Toolkit");
+            URL_Add("T4", "https://en.wikipedia.org/wiki/Text_Template_Transformation_Toolkit");
 
-            URL_Add("MyFaces", "http://en.wikipedia.org/wiki/Apache_MyFaces");
+            URL_Add("MyFaces", "https://en.wikipedia.org/wiki/Apache_MyFaces");
 
-            URL_Add("XStream", "http://en.wikipedia.org/wiki/XStream");
+            URL_Add("XStream", "https://en.wikipedia.org/wiki/XStream");
 
-            URL_Add("Jersey", "http://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services#Jersey");
+            URL_Add("Jersey", "https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services#Jersey");
 
-            URL_Add("Opera Mini", "http://en.wikipedia.org/wiki/Opera_Mini");
+            URL_Add("Opera Mini", "https://en.wikipedia.org/wiki/Opera_Mini");
 
-            URL_Add("jailbreaking", "http://en.wikipedia.org/wiki/IOS_jailbreaking");
+            URL_Add("jailbreaking", "https://en.wikipedia.org/wiki/IOS_jailbreaking");
 
-            URL_Add("Clang", "http://en.wikipedia.org/wiki/Clang");
+            URL_Add("Clang", "https://en.wikipedia.org/wiki/Clang");
 
-            URL_Add("LLVM", "http://en.wikipedia.org/wiki/LLVM");
+            URL_Add("LLVM", "https://en.wikipedia.org/wiki/LLVM");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)", "http://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)", "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
 
-            URL_Add("singleton", "http://en.wikipedia.org/wiki/Singleton_pattern");
+            URL_Add("singleton", "https://en.wikipedia.org/wiki/Singleton_pattern");
 
-            URL_Add("SDHC", "http://en.wikipedia.org/wiki/Secure_Digital#SDHC");
+            URL_Add("SDHC", "https://en.wikipedia.org/wiki/Secure_Digital#SDHC");
 
-            URL_Add("instant messaging", "http://en.wikipedia.org/wiki/Instant_messaging");
+            URL_Add("instant messaging", "https://en.wikipedia.org/wiki/Instant_messaging");
 
-            URL_Add("LMGTFY", "http://en.wikipedia.org/wiki/RTFM");
+            URL_Add("LMGTFY", "https://en.wikipedia.org/wiki/RTFM");
 
-            URL_Add("ISO&nbsp;8601", "http://en.wikipedia.org/wiki/ISO_8601");
+            URL_Add("ISO&nbsp;8601", "https://en.wikipedia.org/wiki/ISO_8601");
 
-            URL_Add("WLAN", "http://en.wikipedia.org/wiki/Wireless_LAN");
+            URL_Add("WLAN", "https://en.wikipedia.org/wiki/Wireless_LAN");
 
-            URL_Add("Raspbian", "http://en.wikipedia.org/wiki/Raspberry_Pi#Software"); //Was http://en.wikipedia.org/wiki/Raspbian
+            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); //Was https://en.wikipedia.org/wiki/Raspbian
 
-            URL_Add("Raspbmc", "http://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
+            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
 
-            URL_Add("SanDisk", "http://en.wikipedia.org/wiki/SanDisk");
+            URL_Add("SanDisk", "https://en.wikipedia.org/wiki/SanDisk");
 
-            URL_Add("XBMC", "http://en.wikipedia.org/wiki/XBMC");
+            URL_Add("XBMC", "https://en.wikipedia.org/wiki/XBMC");
 
-            URL_Add("ACE", "http://en.wikipedia.org/wiki/Adaptive_Communication_Environment");
+            URL_Add("ACE", "https://en.wikipedia.org/wiki/Adaptive_Communication_Environment");
 
-            URL_Add("HTA", "http://en.wikipedia.org/wiki/HTML_Application");
+            URL_Add("HTA", "https://en.wikipedia.org/wiki/HTML_Application");
 
-            URL_Add("FAT16", "http://en.wikipedia.org/wiki/File_Allocation_Table#Final_FAT16");
+            URL_Add("FAT16", "https://en.wikipedia.org/wiki/File_Allocation_Table#Final_FAT16");
 
-            URL_Add("RFC", "http://en.wikipedia.org/wiki/Request_for_Comments");
+            URL_Add("RFC", "https://en.wikipedia.org/wiki/Request_for_Comments");
 
-            URL_Add("WinRT", "http://en.wikipedia.org/wiki/Windows_Runtime");
+            URL_Add("WinRT", "https://en.wikipedia.org/wiki/Windows_Runtime");
 
-            URL_Add("Jira", "https://en.wikipedia.org/wiki/Jira_(software)"); // http://en.wikipedia.org/wiki/JIRA
+            URL_Add("Jira", "https://en.wikipedia.org/wiki/Jira_(software)"); // https://en.wikipedia.org/wiki/JIRA
 
-            URL_Add("telecommunications company", "http://en.wikipedia.org/wiki/Telephone_company");
+            URL_Add("telecommunications company", "https://en.wikipedia.org/wiki/Telephone_company");
 
-            URL_Add("Lucene.NET", "http://en.wikipedia.org/wiki/Lucene#Lucene.NET");
+            URL_Add("Lucene.NET", "https://en.wikipedia.org/wiki/Lucene#Lucene.NET");
 
-            URL_Add("RC", "http://en.wikipedia.org/wiki/Radio-controlled_model");
+            URL_Add("RC", "https://en.wikipedia.org/wiki/Radio-controlled_model");
 
-            URL_Add("XUL", "http://en.wikipedia.org/wiki/XUL");
+            URL_Add("XUL", "https://en.wikipedia.org/wiki/XUL");
 
-            URL_Add("Linux Mint", "http://en.wikipedia.org/wiki/Linux_Mint");
+            URL_Add("Linux Mint", "https://en.wikipedia.org/wiki/Linux_Mint");
 
-            URL_Add("SignalR", "http://en.wikipedia.org/wiki/SignalR"); //Old: http://signalr.net/
+            URL_Add("SignalR", "https://en.wikipedia.org/wiki/SignalR"); //Old: http://signalr.net/
 
-            URL_Add("WebOS", "http://en.wikipedia.org/wiki/WebOS");
+            URL_Add("WebOS", "https://en.wikipedia.org/wiki/WebOS");
 
-            URL_Add("LabVIEW", "http://en.wikipedia.org/wiki/LabVIEW");
+            URL_Add("LabVIEW", "https://en.wikipedia.org/wiki/LabVIEW");
 
-            URL_Add("Pinterest", "http://en.wikipedia.org/wiki/Pinterest");
+            URL_Add("Pinterest", "https://en.wikipedia.org/wiki/Pinterest");
 
-            URL_Add("algorithm", "http://en.wikipedia.org/wiki/Algorithm");
+            URL_Add("algorithm", "https://en.wikipedia.org/wiki/Algorithm");
 
-            URL_Add("NFC", "http://en.wikipedia.org/wiki/Near_field_communication");
+            URL_Add("NFC", "https://en.wikipedia.org/wiki/Near_field_communication");
 
-            URL_Add("web application", "https://en.wikipedia.org/wiki/Web_application"); // http://en.wikipedia.org/wiki/Web_application
+            URL_Add("web application", "https://en.wikipedia.org/wiki/Web_application");
 
-            URL_Add("Free Pascal", "http://en.wikipedia.org/wiki/Free_Pascal");
+            URL_Add("Free Pascal", "https://en.wikipedia.org/wiki/Free_Pascal");
 
-            URL_Add("LILO", "http://en.wikipedia.org/wiki/LILO_%28boot_loader%29");
+            URL_Add("LILO", "https://en.wikipedia.org/wiki/LILO_%28boot_loader%29");
 
-            URL_Add("Solaris", "http://en.wikipedia.org/wiki/Solaris_%28operating_system%29");
+            URL_Add("Solaris", "https://en.wikipedia.org/wiki/Solaris_%28operating_system%29");
 
-            URL_Add("tar", "http://en.wikipedia.org/wiki/Tar_%28computing%29");
+            URL_Add("tar", "https://en.wikipedia.org/wiki/Tar_%28computing%29");
 
-            URL_Add("MBR", "http://en.wikipedia.org/wiki/Master_boot_record");
+            URL_Add("MBR", "https://en.wikipedia.org/wiki/Master_boot_record");
 
-            URL_Add("GParted", "http://en.wikipedia.org/wiki/GParted");
+            URL_Add("GParted", "https://en.wikipedia.org/wiki/GParted");
 
-            URL_Add("iptables", "http://en.wikipedia.org/wiki/Iptables");
+            URL_Add("iptables", "https://en.wikipedia.org/wiki/Iptables");
 
-            URL_Add("Pentium", "http://en.wikipedia.org/wiki/Pentium");
+            URL_Add("Pentium", "https://en.wikipedia.org/wiki/Pentium");
 
-            URL_Add("Samba", "http://en.wikipedia.org/wiki/Samba_%28software%29");
+            URL_Add("Samba", "https://en.wikipedia.org/wiki/Samba_%28software%29");
 
-            URL_Add("operating system", "http://en.wikipedia.org/wiki/Operating_system");
+            URL_Add("operating system", "https://en.wikipedia.org/wiki/Operating_system");
 
-            URL_Add("colocation centre", "http://en.wikipedia.org/wiki/Colocation_centre");
+            URL_Add("colocation centre", "https://en.wikipedia.org/wiki/Colocation_centre");
 
-            URL_Add("WinDbg", "http://en.wikipedia.org/wiki/WinDbg");
+            URL_Add("WinDbg", "https://en.wikipedia.org/wiki/WinDbg");
 
-            URL_Add("FTDI", "http://en.wikipedia.org/wiki/FTDI");
+            URL_Add("FTDI", "https://en.wikipedia.org/wiki/FTDI");
 
-            URL_Add("Gforth", "http://en.wikipedia.org/wiki/Gforth");
+            URL_Add("Gforth", "https://en.wikipedia.org/wiki/Gforth");
 
-            URL_Add("Lazarus", "http://en.wikipedia.org/wiki/Lazarus_%28IDE%29");
+            URL_Add("Lazarus", "https://en.wikipedia.org/wiki/Lazarus_%28IDE%29");
 
-            URL_Add("Pascal", "http://en.wikipedia.org/wiki/Pascal_%28programming_language%29");
+            URL_Add("Pascal", "https://en.wikipedia.org/wiki/Pascal_%28programming_language%29");
 
             URL_Add("Application Verifier", "http://msdn.microsoft.com/en-us/library/windows/desktop/dd371695%28v=vs.85%29.aspx");
 
             URL_Add("recommend", "http://en.wiktionary.org/wiki/recommend");
 
-            URL_Add("PHP Development Tools", "http://en.wikipedia.org/wiki/PHP_Development_Tools");
+            URL_Add("PHP Development Tools", "https://en.wikipedia.org/wiki/PHP_Development_Tools");
 
-            URL_Add("privilege", "http://en.wikipedia.org/wiki/Privilege_%28computing%29");
+            URL_Add("privilege", "https://en.wikipedia.org/wiki/Privilege_%28computing%29");
 
-            URL_Add("UPnP", "http://en.wikipedia.org/wiki/Universal_Plug_and_Play");
+            URL_Add("UPnP", "https://en.wikipedia.org/wiki/Universal_Plug_and_Play");
 
-            URL_Add("hardware", "http://en.wikipedia.org/wiki/Computer_hardware");
+            URL_Add("hardware", "https://en.wikipedia.org/wiki/Computer_hardware");
 
-            URL_Add("MAC address", "http://en.wikipedia.org/wiki/MAC_address");
+            URL_Add("MAC address", "https://en.wikipedia.org/wiki/MAC_address");
 
-            URL_Add("RESTful", "http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services");
+            URL_Add("RESTful", "https://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services");
 
-            URL_Add("business intelligence", "http://en.wikipedia.org/wiki/Business_intelligence");
+            URL_Add("business intelligence", "https://en.wikipedia.org/wiki/Business_intelligence");
 
-            URL_Add("Quora", "http://en.wikipedia.org/wiki/Quora");
+            URL_Add("Quora", "https://en.wikipedia.org/wiki/Quora");
 
-            URL_Add("Evernote", "http://en.wikipedia.org/wiki/Evernote");
+            URL_Add("Evernote", "https://en.wikipedia.org/wiki/Evernote");
 
-            URL_Add("C++Builder", "http://en.wikipedia.org/wiki/C%2B%2BBuilder");
+            URL_Add("C++Builder", "https://en.wikipedia.org/wiki/C%2B%2BBuilder");
 
-            URL_Add("VCL", "http://en.wikipedia.org/wiki/Visual_Component_Library");
+            URL_Add("VCL", "https://en.wikipedia.org/wiki/Visual_Component_Library");
 
-            URL_Add("Bitbucket", "http://en.wikipedia.org/wiki/Bitbucket");
+            URL_Add("Bitbucket", "https://en.wikipedia.org/wiki/Bitbucket");
 
-            URL_Add("object-oriented programming", "http://en.wikipedia.org/wiki/Object-oriented_programming");
+            URL_Add("object-oriented programming", "https://en.wikipedia.org/wiki/Object-oriented_programming");
 
-            URL_Add("Squeak", "http://en.wikipedia.org/wiki/Squeak");
+            URL_Add("Squeak", "https://en.wikipedia.org/wiki/Squeak");
 
             URL_Add("all right", "http://en.wiktionary.org/wiki/all_right");
 
-            URL_Add("RGB", "http://en.wikipedia.org/wiki/RGB_color_model");
+            URL_Add("RGB", "https://en.wikipedia.org/wiki/RGB_color_model");
 
-            URL_Add("Google Docs", "http://en.wikipedia.org/wiki/Google_Docs");
+            URL_Add("Google Docs", "https://en.wikipedia.org/wiki/Google_Docs");
 
-            URL_Add("infrared", "http://en.wikipedia.org/wiki/Infrared");
+            URL_Add("infrared", "https://en.wikipedia.org/wiki/Infrared");
 
-            URL_Add("BSD", "http://en.wikipedia.org/wiki/Berkeley_Software_Distribution");
+            URL_Add("BSD", "https://en.wikipedia.org/wiki/Berkeley_Software_Distribution");
 
-            URL_Add("CAN bus", "http://en.wikipedia.org/wiki/CAN_bus");
+            URL_Add("CAN bus", "https://en.wikipedia.org/wiki/CAN_bus");
 
-            URL_Add("VBA", "http://en.wikipedia.org/wiki/Visual_Basic_for_Applications");
+            URL_Add("VBA", "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications");
 
-            URL_Add("Bay Area", "http://en.wikipedia.org/wiki/San_Francisco_Bay_Area");
+            URL_Add("Bay Area", "https://en.wikipedia.org/wiki/San_Francisco_Bay_Area");
 
-            URL_Add("MOSFET", "http://en.wikipedia.org/wiki/MOSFET");
+            URL_Add("MOSFET", "https://en.wikipedia.org/wiki/MOSFET");
 
-            URL_Add("W3Schools", "http://en.wikipedia.org/wiki/W3Schools");
+            URL_Add("W3Schools", "https://en.wikipedia.org/wiki/W3Schools");
 
-            URL_Add("Samsung Galaxy&nbsp;S&nbsp;III", "http://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
+            URL_Add("Samsung Galaxy&nbsp;S&nbsp;III", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;9", "http://en.wikipedia.org/wiki/Internet_Explorer_9");
+            URL_Add("Internet&nbsp;Explorer&nbsp;9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;10", "http://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
+            URL_Add("Internet&nbsp;Explorer&nbsp;10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;11", "http://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_11");
+            URL_Add("Internet&nbsp;Explorer&nbsp;11", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_11");
 
-            URL_Add("Heroku", "http://en.wikipedia.org/wiki/Heroku");
+            URL_Add("Heroku", "https://en.wikipedia.org/wiki/Heroku");
 
-            URL_Add("Foxit Reader", "http://en.wikipedia.org/wiki/Foxit_Reader");
+            URL_Add("Foxit Reader", "https://en.wikipedia.org/wiki/Foxit_Reader");
 
-            URL_Add("two's complement", "http://en.wikipedia.org/wiki/Two%27s_complement");
+            URL_Add("two's complement", "https://en.wikipedia.org/wiki/Two%27s_complement");
 
-            URL_Add("Google Play", "http://en.wikipedia.org/wiki/Google_Play");
+            URL_Add("Google Play", "https://en.wikipedia.org/wiki/Google_Play");
 
-            URL_Add("Kinect", "http://en.wikipedia.org/wiki/Kinect");
+            URL_Add("Kinect", "https://en.wikipedia.org/wiki/Kinect");
 
             URL_Add("3ds&nbsp;Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
 
             URL_Add("equivalent", "http://en.wiktionary.org/wiki/equivalent");
 
-            URL_Add("Parallels", "http://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac");
+            URL_Add("Parallels", "https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac");
 
             URL_Add("excellent", "http://en.wiktionary.org/wiki/excellent#Adjective");
 
-            URL_Add("Pygame", "http://en.wikipedia.org/wiki/Pygame");
+            URL_Add("Pygame", "https://en.wikipedia.org/wiki/Pygame");
 
-            URL_Add("COM", "http://en.wikipedia.org/wiki/Component_Object_Model");
+            URL_Add("COM", "https://en.wikipedia.org/wiki/Component_Object_Model");
 
-            URL_Add("Balsamiq", "http://en.wikipedia.org/wiki/Balsamiq");
+            URL_Add("Balsamiq", "https://en.wikipedia.org/wiki/Balsamiq");
 
             URL_Add("Omaha", "http://omaha.googlecode.com/svn/wiki/OmahaOverview.html");
 
-            URL_Add("Digg", "http://en.wikipedia.org/wiki/Digg");
+            URL_Add("Digg", "https://en.wikipedia.org/wiki/Digg");
 
             URL_Add("immediately", "http://en.wiktionary.org/wiki/immediately");
 
-            URL_Add("NSIS", "http://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System");
+            URL_Add("NSIS", "https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System");
 
-            URL_Add("Inno Setup", "http://en.wikipedia.org/wiki/Inno_Setup");
+            URL_Add("Inno Setup", "https://en.wikipedia.org/wiki/Inno_Setup");
 
             URL_Add("prerequisite", "http://en.wiktionary.org/wiki/prerequisite");
 
@@ -15857,117 +15857,117 @@ namespace OverflowHelper.core
 
             URL_Add("third-party", "http://en.wiktionary.org/wiki/third-party#Adjective");
 
-            URL_Add("use case", "http://en.wikipedia.org/wiki/Use_case");
+            URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
 
             URL_Add("definition", "http://en.wiktionary.org/wiki/definition");
 
-            URL_Add("assembly language", "http://en.wikipedia.org/wiki/Assembly_language");
+            URL_Add("assembly language", "https://en.wikipedia.org/wiki/Assembly_language");
 
-            URL_Add("business-to-consumer", "http://en.wikipedia.org/wiki/Retail");
+            URL_Add("business-to-consumer", "https://en.wikipedia.org/wiki/Retail");
 
-            URL_Add("QA", "http://en.wikipedia.org/wiki/Software_quality_assurance");
+            URL_Add("QA", "https://en.wikipedia.org/wiki/Software_quality_assurance");
 
             URL_Add("no one", "http://en.wiktionary.org/wiki/no_one#Pronoun");
 
-            URL_Add("GPRS", "http://en.wikipedia.org/wiki/General_Packet_Radio_Service");
+            URL_Add("GPRS", "https://en.wikipedia.org/wiki/General_Packet_Radio_Service");
 
-            URL_Add("Sinatra", "http://en.wikipedia.org/wiki/Sinatra_%28software%29");
+            URL_Add("Sinatra", "https://en.wikipedia.org/wiki/Sinatra_%28software%29");
 
-            URL_Add("quicksort", "http://en.wikipedia.org/wiki/Quicksort");
+            URL_Add("quicksort", "https://en.wikipedia.org/wiki/Quicksort");
 
             URL_Add("Mage", "http://msdn.microsoft.com/en-us/library/acz3y3te%28v=vs.80%29.aspx");
 
-            URL_Add("Wikimedia Foundation", "http://en.wikipedia.org/wiki/Wikimedia_Foundation");
+            URL_Add("Wikimedia Foundation", "https://en.wikipedia.org/wiki/Wikimedia_Foundation");
 
             URL_Add("LOL", "http://en.wiktionary.org/wiki/LOL#Initialism");
 
-            URL_Add("Verisign", "http://en.wikipedia.org/wiki/Verisign");
+            URL_Add("Verisign", "https://en.wikipedia.org/wiki/Verisign");
 
-            URL_Add("CodeWarrior", "http://en.wikipedia.org/wiki/CodeWarrior");
+            URL_Add("CodeWarrior", "https://en.wikipedia.org/wiki/CodeWarrior");
 
-            URL_Add("Group Policy", "http://en.wikipedia.org/wiki/Group_Policy");
+            URL_Add("Group Policy", "https://en.wikipedia.org/wiki/Group_Policy");
 
-            URL_Add("web service", "http://en.wikipedia.org/wiki/Web_service");
+            URL_Add("web service", "https://en.wikipedia.org/wiki/Web_service");
 
-            URL_Add("libusb", "http://en.wikipedia.org/wiki/Libusb");
+            URL_Add("libusb", "https://en.wikipedia.org/wiki/Libusb");
 
-            URL_Add("Windows&nbsp;8", "http://en.wikipedia.org/wiki/Windows_8");
+            URL_Add("Windows&nbsp;8", "https://en.wikipedia.org/wiki/Windows_8");
 
-            URL_Add("User Account Control", "http://en.wikipedia.org/wiki/User_Account_Control");
+            URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
 
-            URL_Add("LoadRunner", "http://en.wikipedia.org/wiki/HP_LoadRunner");
+            URL_Add("LoadRunner", "https://en.wikipedia.org/wiki/HP_LoadRunner");
 
-            URL_Add("DCOM", "http://en.wikipedia.org/wiki/Distributed_Component_Object_Model");
+            URL_Add("DCOM", "https://en.wikipedia.org/wiki/Distributed_Component_Object_Model");
 
-            URL_Add("V8", "http://en.wikipedia.org/wiki/V8_%28JavaScript_engine%29");
+            URL_Add("V8", "https://en.wikipedia.org/wiki/V8_%28JavaScript_engine%29");
 
-            URL_Add("function", "http://en.wikipedia.org/wiki/Subroutine");
+            URL_Add("function", "https://en.wikipedia.org/wiki/Subroutine");
 
-            URL_Add("CGI", "http://en.wikipedia.org/wiki/Common_Gateway_Interface");
+            URL_Add("CGI", "https://en.wikipedia.org/wiki/Common_Gateway_Interface");
 
-            URL_Add("POSIX", "http://en.wikipedia.org/wiki/POSIX");
+            URL_Add("POSIX", "https://en.wikipedia.org/wiki/POSIX");
 
-            URL_Add("Burn", "http://en.wikipedia.org/wiki/WiX#Burn");
+            URL_Add("Burn", "https://en.wikipedia.org/wiki/WiX#Burn");
 
-            URL_Add("Bing", "http://en.wikipedia.org/wiki/Bing");
+            URL_Add("Bing", "https://en.wikipedia.org/wiki/Bing");
 
-            URL_Add("motherboard", "http://en.wikipedia.org/wiki/Motherboard");
+            URL_Add("motherboard", "https://en.wikipedia.org/wiki/Motherboard");
 
-            URL_Add("domain-specific language", "http://en.wikipedia.org/wiki/Domain-specific_language");
+            URL_Add("domain-specific language", "https://en.wikipedia.org/wiki/Domain-specific_language");
 
-            URL_Add("OCX", "http://en.wikipedia.org/wiki/Object_Linking_and_Embedding");
+            URL_Add("OCX", "https://en.wikipedia.org/wiki/Object_Linking_and_Embedding");
 
-            URL_Add("Google Reader", "http://en.wikipedia.org/wiki/Google_Reader");
+            URL_Add("Google Reader", "https://en.wikipedia.org/wiki/Google_Reader");
 
-            URL_Add("HID", "http://en.wikipedia.org/wiki/Human_interface_device");
+            URL_Add("HID", "https://en.wikipedia.org/wiki/Human_interface_device");
 
-            URL_Add("cdecl", "http://en.wikipedia.org/wiki/X86_calling_conventions#cdecl");
+            URL_Add("cdecl", "https://en.wikipedia.org/wiki/X86_calling_conventions#cdecl");
 
-            URL_Add("MacBook Air", "http://en.wikipedia.org/wiki/MacBook_Air");
+            URL_Add("MacBook Air", "https://en.wikipedia.org/wiki/MacBook_Air");
 
-            URL_Add("FileMon", "http://en.wikipedia.org/wiki/Process_Monitor#FileMon");
+            URL_Add("FileMon", "https://en.wikipedia.org/wiki/Process_Monitor#FileMon");
 
             URL_Add("how-to", "https://en.wikipedia.org/wiki/How-to");
 
-            URL_Add("Tor", "http://en.wikipedia.org/wiki/Tor_%28anonymity_network%29");
+            URL_Add("Tor", "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29");
 
-            URL_Add("µs", "http://en.wikipedia.org/wiki/Microsecond");
+            URL_Add("µs", "https://en.wikipedia.org/wiki/Microsecond");
 
             URL_Add("AVRDUDE", "http://www.nongnu.org/avrdude/");
 
-            URL_Add("Group Policy Object", "http://en.wikipedia.org/wiki/Group_Policy#Operation"); //Alternative URL: http://searchwindowsserver.techtarget.com/definition/Group-Policy-Object (end of comment)
+            URL_Add("Group Policy Object", "https://en.wikipedia.org/wiki/Group_Policy#Operation"); //Alternative URL: http://searchwindowsserver.techtarget.com/definition/Group-Policy-Object (end of comment)
 
-            URL_Add("network", "http://en.wikipedia.org/wiki/Telecommunications_network");
+            URL_Add("network", "https://en.wikipedia.org/wiki/Telecommunications_network");
 
-            URL_Add("PEP", "http://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development");
+            URL_Add("PEP", "https://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development");
 
-            URL_Add("AngularJS", "http://en.wikipedia.org/wiki/AngularJS");
+            URL_Add("AngularJS", "https://en.wikipedia.org/wiki/AngularJS");
 
-            URL_Add("database administrator", "http://en.wikipedia.org/wiki/Database_administrator");
+            URL_Add("database administrator", "https://en.wikipedia.org/wiki/Database_administrator");
 
             URL_Add("especially", "http://en.wiktionary.org/wiki/especially");
 
-            URL_Add("LibreOffice", "http://en.wikipedia.org/wiki/LibreOffice");
+            URL_Add("LibreOffice", "https://en.wikipedia.org/wiki/LibreOffice");
 
-            URL_Add("CKEditor", "http://en.wikipedia.org/wiki/CKEditor");
+            URL_Add("CKEditor", "https://en.wikipedia.org/wiki/CKEditor");
 
-            URL_Add("web page", "http://en.wikipedia.org/wiki/Web_page");
+            URL_Add("web page", "https://en.wikipedia.org/wiki/Web_page");
 
-            URL_Add("MapReduce", "http://en.wikipedia.org/wiki/MapReduce");
+            URL_Add("MapReduce", "https://en.wikipedia.org/wiki/MapReduce");
 
-            URL_Add("HDFS", "http://en.wikipedia.org/wiki/Apache_Hadoop#Hadoop_distributed_file_system");
+            URL_Add("HDFS", "https://en.wikipedia.org/wiki/Apache_Hadoop#Hadoop_distributed_file_system");
 
-            URL_Add("WebSocket", "http://en.wikipedia.org/wiki/WebSocket");
+            URL_Add("WebSocket", "https://en.wikipedia.org/wiki/WebSocket");
 
             URL_Add("of course", "https://en.wiktionary.org/wiki/of_course#Adverb");
 
-            URL_Add("Sublime Text", "http://en.wikipedia.org/wiki/Sublime_Text");
+            URL_Add("Sublime Text", "https://en.wikipedia.org/wiki/Sublime_Text");
 
             URL_Add("proprietary", "http://en.wiktionary.org/wiki/proprietary");
 
             URL_Add("Meteor", "https://en.wikipedia.org/wiki/Meteor_%28web_framework%29");
 
-            URL_Add("Robocopy", "http://en.wikipedia.org/wiki/Robocopy");
+            URL_Add("Robocopy", "https://en.wikipedia.org/wiki/Robocopy");
 
             URL_Add("PFX", "https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions");
 
@@ -15975,17 +15975,17 @@ namespace OverflowHelper.core
 
             URL_Add("although", "http://en.wiktionary.org/wiki/although");
 
-            URL_Add("Script.aculo.us", "http://en.wikipedia.org/wiki/Script.aculo.us");
+            URL_Add("Script.aculo.us", "https://en.wikipedia.org/wiki/Script.aculo.us");
 
             URL_Add("parallel", "http://en.wiktionary.org/wiki/parallel");
 
-            URL_Add("FrontPage", "http://en.wikipedia.org/wiki/Microsoft_FrontPage");
+            URL_Add("FrontPage", "https://en.wikipedia.org/wiki/Microsoft_FrontPage");
 
-            URL_Add("ARP", "http://en.wikipedia.org/wiki/Address_Resolution_Protocol");
+            URL_Add("ARP", "https://en.wikipedia.org/wiki/Address_Resolution_Protocol");
 
             URL_Add("AdSense", "https://en.wikipedia.org/wiki/AdSense");
 
-            URL_Add("UEFI", "http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
+            URL_Add("UEFI", "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
 
             URL_Add("RAII", "https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization");
 
@@ -15995,7 +15995,7 @@ namespace OverflowHelper.core
 
             URL_Add("Google Storage", "https://en.wikipedia.org/wiki/Google_Storage");
 
-            URL_Add("COM port", "http://en.wikipedia.org/wiki/COM_%28hardware_interface%29");
+            URL_Add("COM port", "https://en.wikipedia.org/wiki/COM_%28hardware_interface%29");
 
             URL_Add("NetBIOS", "https://en.wikipedia.org/wiki/NetBIOS");
 
@@ -16005,7 +16005,7 @@ namespace OverflowHelper.core
 
             URL_Add("dependency", "http://en.wiktionary.org/wiki/dependancy");
 
-            URL_Add("Windows Script Host", "http://en.wikipedia.org/wiki/Windows_Script_Host");
+            URL_Add("Windows Script Host", "https://en.wikipedia.org/wiki/Windows_Script_Host");
 
             URL_Add("GPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit");
 
@@ -16013,38 +16013,37 @@ namespace OverflowHelper.core
 
             URL_Add("artificial intelligence", "https://en.wikipedia.org/wiki/Artificial_intelligence");
 
-            URL_Add("DVD", "http://en.wikipedia.org/wiki/DVD");
+            URL_Add("DVD", "https://en.wikipedia.org/wiki/DVD");
 
-            URL_Add("CD-ROM", "http://en.wikipedia.org/wiki/CD-ROM");
+            URL_Add("CD-ROM", "https://en.wikipedia.org/wiki/CD-ROM");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)", "http://en.wikipedia.org/wiki/OS_X_Mavericks");
+            URL_Add("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
 
             URL_Add("ROM", "https://en.wikipedia.org/wiki/Read-only_memory");
 
-            URL_Add("Microsoft Office", "http://en.wikipedia.org/wiki/Microsoft_Office");
+            URL_Add("Microsoft Office", "https://en.wikipedia.org/wiki/Microsoft_Office");
 
-            URL_Add("download", "http://en.wikipedia.org/wiki/Download");
+            URL_Add("download", "https://en.wikipedia.org/wiki/Download");
 
             URL_Add("Ubuntu&nbsp;12.04 LTS (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
 
-            URL_Add("Ubuntu&nbsp;12.10 (Quantal Quetzal)", "http://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29"); // Old: <http://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_12.10_.28Quantal_Quetzal.29>
+            URL_Add("Ubuntu&nbsp;12.10 (Quantal Quetzal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29");
 
-            URL_Add("Ubuntu&nbsp;13.04 (Raring Ringtail)", "http://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29"); // Old: <http://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_13.04_.28Raring_Ringtail.29>
+            URL_Add("Ubuntu&nbsp;13.04 (Raring Ringtail)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29");
 
-            URL_Add("Microsoft Visual C++ 8.0", "http://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions");
+            URL_Add("Microsoft Visual C++ 8.0", "https://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions");
 
-            URL_Add("Visual C++ 2010 Express", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
+            URL_Add("Visual C++ 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
 
-            URL_Add("Visual Studio 2010 Express", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+            URL_Add("Visual Studio 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
 
-            URL_Add("Visual Studio 2012 Express", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+            URL_Add("Visual Studio 2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
 
+            URL_Add("Visual Basic 2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
-            URL_Add("Visual Basic 2010 Express Edition", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+            URL_Add("Visual Basic 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
-            URL_Add("Visual Basic 2008 Express Edition", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
-            URL_Add("Visual Studio", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio");
+            URL_Add("Visual Studio", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio");
 
             URL_Add("OpenCL", "https://en.wikipedia.org/wiki/OpenCL");
 
@@ -16062,7 +16061,7 @@ namespace OverflowHelper.core
 
             URL_Add("guarantee", "http://en.wiktionary.org/wiki/guarantee");
 
-            URL_Add("EPROM", "http://en.wikipedia.org/wiki/EPROM");
+            URL_Add("EPROM", "https://en.wikipedia.org/wiki/EPROM");
 
             URL_Add("Android&nbsp;4.1 (Jelly Bean)", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean_.28API_level_16.29");
 
@@ -16076,7 +16075,7 @@ namespace OverflowHelper.core
 
             URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
 
-            URL_Add("operational amplifier", "http://en.wikipedia.org/wiki/Operational_amplifier");
+            URL_Add("operational amplifier", "https://en.wikipedia.org/wiki/Operational_amplifier");
 
             URL_Add("ASN.1", "https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One");
 
@@ -16092,27 +16091,27 @@ namespace OverflowHelper.core
 
             URL_Add("Heartbleed", "https://en.wikipedia.org/wiki/Heartbleed");
 
-            URL_Add("capacitor", "http://en.wikipedia.org/wiki/Capacitor");
+            URL_Add("capacitor", "https://en.wikipedia.org/wiki/Capacitor");
 
             URL_Add("Meta&nbsp;Stack&nbsp;Exchange", "http://meta.stackexchange.com/help/whats-meta");
 
             URL_Add("people", "https://en.wiktionary.org/wiki/people");
 
-            URL_Add("LOC", "http://en.wikipedia.org/wiki/Source_lines_of_code");
+            URL_Add("LOC", "https://en.wikipedia.org/wiki/Source_lines_of_code");
 
-            URL_Add("SCART", "http://en.wikipedia.org/wiki/SCART");
+            URL_Add("SCART", "https://en.wikipedia.org/wiki/SCART");
 
             URL_Add("GUIMiner", "http://guiminer.org/");
 
             URL_Add("ESR", "https://en.wikipedia.org/wiki/Equivalent_series_resistance");
 
-            URL_Add("Ctags", "http://en.wikipedia.org/wiki/Ctags");
+            URL_Add("Ctags", "https://en.wikipedia.org/wiki/Ctags");
 
             URL_Add("Codecademy", "https://en.wikipedia.org/wiki/Codecademy");
 
             URL_Add("QBasic", "https://en.wikipedia.org/wiki/QBasic");
 
-            URL_Add("unit test", "http://en.wikipedia.org/wiki/Unit_testing");
+            URL_Add("unit test", "https://en.wikipedia.org/wiki/Unit_testing");
 
             URL_Add("switched-mode power supply", "https://en.wikipedia.org/wiki/Switched-mode_power_supply");
 
@@ -16124,15 +16123,15 @@ namespace OverflowHelper.core
 
             URL_Add("NOOBS", "https://github.com/raspberrypi/noobs");
 
-            URL_Add("SMD", "http://en.wikipedia.org/wiki/Surface-mount_technology");
+            URL_Add("SMD", "https://en.wikipedia.org/wiki/Surface-mount_technology");
 
             URL_Add("lambda expression", "https://en.wikipedia.org/wiki/Anonymous_function");
 
-            URL_Add("Go", "http://en.wikipedia.org/wiki/Go_%28programming_language%29");
+            URL_Add("Go", "https://en.wikipedia.org/wiki/Go_%28programming_language%29");
 
             URL_Add("OpenELEC", "https://en.wikipedia.org/wiki/OpenELEC");
 
-            URL_Add("FPGA", "http://en.wikipedia.org/wiki/Field-programmable_gate_array");
+            URL_Add("FPGA", "https://en.wikipedia.org/wiki/Field-programmable_gate_array");
 
             URL_Add("WhatsApp", "https://en.wikipedia.org/wiki/WhatsApp");
 
@@ -16140,7 +16139,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bootstrap", "https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29");
 
-            URL_Add("ISO image", "http://en.wikipedia.org/wiki/ISO_image");
+            URL_Add("ISO image", "https://en.wikipedia.org/wiki/ISO_image");
 
             URL_Add("Express.js", "https://en.wikipedia.org/wiki/Express.js");
 
@@ -16166,25 +16165,25 @@ namespace OverflowHelper.core
 
             URL_Add("Minecraft", "https://en.wikipedia.org/wiki/Minecraft");
 
-            URL_Add("access point", "http://en.wikipedia.org/wiki/Wireless_access_point");
+            URL_Add("access point", "https://en.wikipedia.org/wiki/Wireless_access_point");
 
-            URL_Add("POP3", "http://en.wikipedia.org/wiki/Post_Office_Protocol");
+            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
 
-            URL_Add("IMAP", "http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol");
+            URL_Add("IMAP", "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol");
 
-            URL_Add("Ubuntu&nbsp;11.04 (Natty Narwhal)", "http://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29"); // Old: <http://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.04_.28Natty_Narwhal.29>
+            URL_Add("Ubuntu&nbsp;11.04 (Natty Narwhal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.04_.28Natty_Narwhal.29>
 
             URL_Add("Nexus&nbsp;5", "https://en.wikipedia.org/wiki/Nexus_5");
 
-            URL_Add("Flask", "http://en.wikipedia.org/wiki/Flask_%28web_framework%29");
+            URL_Add("Flask", "https://en.wikipedia.org/wiki/Flask_%28web_framework%29");
 
             URL_Add("oscilloscope", "https://en.wikipedia.org/wiki/Oscilloscope");
 
-            URL_Add("Cat&nbsp;5", "http://en.wikipedia.org/wiki/Category_5_cable");
+            URL_Add("Cat&nbsp;5", "https://en.wikipedia.org/wiki/Category_5_cable");
 
-            URL_Add("Cat&nbsp;6", "http://en.wikipedia.org/wiki/Category_6_cable");
+            URL_Add("Cat&nbsp;6", "https://en.wikipedia.org/wiki/Category_6_cable");
 
-            URL_Add("Ubuntu&nbsp;11.10 (Oneiric Ocelot)", "http://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29"); // Old: <http://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.10_.28Oneiric_Ocelot.29>
+            URL_Add("Ubuntu&nbsp;11.10 (Oneiric Ocelot)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29");
 
             URL_Add("Visual C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
 
@@ -16194,21 +16193,21 @@ namespace OverflowHelper.core
 
             URL_Add("Jenkins", "https://en.wikipedia.org/wiki/Jenkins_%28software%29");
 
-            URL_Add("PyPy", "http://en.wikipedia.org/wiki/PyPy");
+            URL_Add("PyPy", "https://en.wikipedia.org/wiki/PyPy");
 
             URL_Add("Socket.IO", "https://en.wikipedia.org/wiki/Socket.IO");
 
-            URL_Add("OData", "http://en.wikipedia.org/wiki/Open_Data_Protocol");
+            URL_Add("OData", "https://en.wikipedia.org/wiki/Open_Data_Protocol");
 
-            URL_Add("ReadyBoost", "http://en.wikipedia.org/wiki/ReadyBoost");
+            URL_Add("ReadyBoost", "https://en.wikipedia.org/wiki/ReadyBoost");
 
-            URL_Add("Hacker&nbsp;News", "http://en.wikipedia.org/wiki/Hacker_News");
+            URL_Add("Hacker&nbsp;News", "https://en.wikipedia.org/wiki/Hacker_News");
 
             URL_Add("a lot", "https://en.wiktionary.org/wiki/alot#Adverb");
 
             URL_Add("Slashdot", "https://en.wikipedia.org/wiki/Slashdot");
 
-            URL_Add("ML", "http://en.wikipedia.org/wiki/ML_%28programming_language%29");
+            URL_Add("ML", "https://en.wikipedia.org/wiki/ML_%28programming_language%29");
 
             URL_Add("Rust", "https://en.wikipedia.org/wiki/Rust_%28programming_language%29");
 
@@ -16218,9 +16217,9 @@ namespace OverflowHelper.core
 
             URL_Add("independent", "https://en.wiktionary.org/wiki/independent#Adjective");
 
-            URL_Add("Ubuntu&nbsp;10.10 (Maverick Meerkat)", "http://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29"); // Old: <http://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.10_.28Maverick_Meerkat.29>
+            URL_Add("Ubuntu&nbsp;10.10 (Maverick Meerkat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29");
 
-            URL_Add("Ubuntu&nbsp;9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_9.10_.28Karmic_Koala.29>
+            URL_Add("Ubuntu&nbsp;9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29");
 
             URL_Add("Ubuntu&nbsp;10.04 LTS (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
 
@@ -16238,7 +16237,7 @@ namespace OverflowHelper.core
 
             URL_Add("Get-ChildItem", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Get-ChildItem");
 
-            URL_Add("Java SE", "http://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition");
+            URL_Add("Java SE", "https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition");
 
             URL_Add("Measure-Object", "http://technet.microsoft.com/en-us/library/hh849965.aspx");
 
@@ -16252,7 +16251,7 @@ namespace OverflowHelper.core
 
             URL_Add("Kali Linux", "https://en.wikipedia.org/wiki/Kali_Linux");
 
-            URL_Add("UNetbootin", "http://en.wikipedia.org/wiki/UNetbootin");
+            URL_Add("UNetbootin", "https://en.wikipedia.org/wiki/UNetbootin");
 
             URL_Add("Windows&nbsp;8.1", "https://en.wikipedia.org/wiki/Windows_8.1");
 
@@ -16300,39 +16299,39 @@ namespace OverflowHelper.core
 
             URL_Add("Tee-Object", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Tee-Object");
 
-            URL_Add("BOM", "http://en.wikipedia.org/wiki/Byte_order_mark");
+            URL_Add("BOM", "https://en.wikipedia.org/wiki/Byte_order_mark");
 
             URL_Add("MPEG", "https://en.wikipedia.org/wiki/MPEG-1");
 
-            URL_Add("RTSP", "http://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
+            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
 
-            URL_Add("file system", "http://en.wikipedia.org/wiki/File_system");
+            URL_Add("file system", "https://en.wikipedia.org/wiki/File_system");
 
-            URL_Add("MMC", "http://en.wikipedia.org/wiki/MultiMediaCard");
+            URL_Add("MMC", "https://en.wikipedia.org/wiki/MultiMediaCard");
 
             URL_Add("Ångström Linux", "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
 
-            URL_Add("science fiction", "http://en.wikipedia.org/wiki/Science_fiction");
+            URL_Add("science fiction", "https://en.wikipedia.org/wiki/Science_fiction");
 
-            URL_Add("ping", "http://en.wikipedia.org/wiki/Ping_%28networking_utility%29");
+            URL_Add("ping", "https://en.wikipedia.org/wiki/Ping_%28networking_utility%29");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)", "http://en.wikipedia.org/wiki/Mac_OS_X_v10.2");
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)", "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)", "http://en.wikipedia.org/wiki/Mac_OS_X_Leopard");
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)", "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard");
 
-            URL_Add("DSLR", "http://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera");
+            URL_Add("DSLR", "https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2003", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_.NET_2003");
+            URL_Add("Visual&nbsp;Studio&nbsp;2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_.NET_2003");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2005", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2005");
+            URL_Add("Visual&nbsp;Studio&nbsp;2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2005");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2008", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2008");
+            URL_Add("Visual&nbsp;Studio&nbsp;2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2008");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2010", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2010");
+            URL_Add("Visual&nbsp;Studio&nbsp;2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2010");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2012", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2012");
+            URL_Add("Visual&nbsp;Studio&nbsp;2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2012");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2013", "http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2013");
+            URL_Add("Visual&nbsp;Studio&nbsp;2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2013");
 
             URL_Add("at the moment", "https://en.wiktionary.org/wiki/atm#Abbreviation");
 
@@ -16342,9 +16341,9 @@ namespace OverflowHelper.core
 
             URL_Add("RavenDB", "http://ravendb.net/");
 
-            URL_Add("Android&nbsp;3 (Honeycomb)", "http://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29");
+            URL_Add("Android&nbsp;3 (Honeycomb)", "https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29");
 
-            URL_Add("Salesforce", "http://en.wikipedia.org/wiki/Salesforce.com");
+            URL_Add("Salesforce", "https://en.wikipedia.org/wiki/Salesforce.com");
 
             URL_Add("Web API", "https://en.wikipedia.org/wiki/ASP.NET_MVC_Framework#Apache_License_2.0_release");
 
@@ -16366,21 +16365,21 @@ namespace OverflowHelper.core
 
             URL_Add("AVR", "https://en.wikipedia.org/wiki/Atmel_AVR");
 
-            URL_Add("SketchUp", "http://en.wikipedia.org/wiki/SketchUp");
+            URL_Add("SketchUp", "https://en.wikipedia.org/wiki/SketchUp");
 
             URL_Add("Visual C++ 2010", "https://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_and_64-bit_versions");
 
-            URL_Add("KML", "http://en.wikipedia.org/wiki/Keyhole_Markup_Language");
+            URL_Add("KML", "https://en.wikipedia.org/wiki/Keyhole_Markup_Language");
 
             URL_Add("Puppy Linux", "https://en.wikipedia.org/wiki/Puppy_Linux");
 
-            URL_Add("Elasticsearch", "http://en.wikipedia.org/wiki/Elasticsearch");
+            URL_Add("Elasticsearch", "https://en.wikipedia.org/wiki/Elasticsearch");
 
             URL_Add("Invoke-Command", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Invoke-Command"); // Old: https://technet.microsoft.com/en-us/library/hh849719.aspx
 
-            URL_Add("WebRTC", "http://en.wikipedia.org/wiki/WebRTC");
+            URL_Add("WebRTC", "https://en.wikipedia.org/wiki/WebRTC");
 
-            URL_Add("Puppet", "http://en.wikipedia.org/wiki/Puppet_%28software%29");
+            URL_Add("Puppet", "https://en.wikipedia.org/wiki/Puppet_%28software%29");
 
             URL_Add("Set-ExecutionPolicy", "https://technet.microsoft.com/en-us/library/hh849812.aspx");
 
@@ -16392,7 +16391,7 @@ namespace OverflowHelper.core
 
             URL_Add("kernel", "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29");
 
-            URL_Add("KDE", "http://en.wikipedia.org/wiki/KDE_Software_Compilation");
+            URL_Add("KDE", "https://en.wikipedia.org/wiki/KDE_Software_Compilation");
 
             URL_Add("data access layer", "https://en.wikipedia.org/wiki/Data_access_layer");
 
@@ -16424,7 +16423,7 @@ namespace OverflowHelper.core
 
             URL_Add("Thunderbird", "https://en.wikipedia.org/wiki/Mozilla_Thunderbird");
 
-            URL_Add("&nbsp;MB", "http://en.wikipedia.org/wiki/Megabyte");
+            URL_Add("&nbsp;MB", "https://en.wikipedia.org/wiki/Megabyte");
 
             URL_Add("&nbsp;GB", "https://en.wikipedia.org/wiki/Gigabyte");
 
@@ -16598,7 +16597,7 @@ namespace OverflowHelper.core
 
             URL_Add("GPIO", "http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications");
 
-            URL_Add("Dreamweaver", "http://en.wikipedia.org/wiki/Adobe_Dreamweaver");
+            URL_Add("Dreamweaver", "https://en.wikipedia.org/wiki/Adobe_Dreamweaver");
 
             URL_Add("CSS&nbsp;3", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3");
 
@@ -16959,7 +16958,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu&nbsp;17.04 (Zesty Zapus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29");
 
-            URL_Add("Eclipse", "http://en.wikipedia.org/wiki/Eclipse_%28software%29");
+            URL_Add("Eclipse", "https://en.wikipedia.org/wiki/Eclipse_%28software%29");
 
             URL_Add("Eclipse&nbsp;v3.7 (Indigo)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
@@ -18315,7 +18314,7 @@ namespace OverflowHelper.core
 
             URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspbian#Version_history");
 
-            URL_Add("THz", "http://en.wikipedia.org/wiki/Hertz#SI_multiples");
+            URL_Add("THz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
 
             URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
 
@@ -18367,9 +18366,9 @@ namespace OverflowHelper.core
 
             URL_Add("worry", "https://en.wiktionary.org/wiki/worry#Verb");
 
-            URL_Add("Aptana Studio", "http://en.wikipedia.org/wiki/Aptana#Aptana_Studio");
+            URL_Add("Aptana Studio", "https://en.wikipedia.org/wiki/Aptana#Aptana_Studio");
 
-            URL_Add("Spring Framework", "http://en.wikipedia.org/wiki/Spring_Framework");
+            URL_Add("Spring Framework", "https://en.wikipedia.org/wiki/Spring_Framework");
 
             URL_Add("Spring.NET", "http://www.springframework.net/");
 
@@ -19047,7 +19046,7 @@ namespace OverflowHelper.core
 
             URL_Add("unbeknownst", "https://en.wiktionary.org/wiki/unbeknownst#Adverb");
 
-            URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"); // Old: http://en.wikipedia.org/wiki/%22Hello,_world!%22_program
+            URL_Add("Hello, World!", "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program");
 
             URL_Add("social media", "https://en.wikipedia.org/wiki/Social_media");
 
@@ -19480,7 +19479,7 @@ namespace OverflowHelper.core
 
             URL_Add("Sendmail", "https://en.wikipedia.org/wiki/Sendmail");
 
-            URL_Add("URL encode", "http://en.wikipedia.org/wiki/Percent-encoding");
+            URL_Add("URL encode", "https://en.wikipedia.org/wiki/Percent-encoding");
 
             URL_Add("existent", "https://en.wiktionary.org/wiki/existent#Adjective");
 
@@ -20232,7 +20231,7 @@ namespace OverflowHelper.core
             {
                 if (aGuessURLifFailedLookup)
                 {
-                    toReturn = "http://en.wikipedia.org/wiki/" + aQueryStr;
+                    toReturn = "https://en.wikipedia.org/wiki/" + aQueryStr;
                 }
             }
             return toReturn;
