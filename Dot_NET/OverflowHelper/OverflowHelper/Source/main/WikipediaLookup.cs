@@ -8421,13 +8421,13 @@ namespace OverflowHelper.core
 
             correctionAdd("iops", "IOPS");
 
-            correctionAdd("launchpad", "LaunchPad"); // The Texas Instruments hardware platform,
-                                                     // not Ubuntu/Canonical's "Launchpad",
-                                                     // <https://wiki.ubuntu.com/Launchpad>.
-
-            correctionAdd("Launchpad", "LaunchPad"); // The Texas Instruments hardware platform,
-                                                     // not Ubuntu/Canonical's "Launchpad",
-                                                     // <https://wiki.ubuntu.com/Launchpad>.
+            // No longer the Texas Instruments hardware platform,
+            // <https://www.ti.com/ww/en/launchpad/about.html>
+            // and again Ubuntu/Canonical's "Launchpad",
+            // <https://wiki.ubuntu.com/Launchpad>.
+            //
+            correctionAdd("launchpad", "Launchpad");
+            correctionAdd("LaunchPad", "Launchpad");
 
             correctionAdd("Volt", "volt");
             correctionAdd("v", "volt");
@@ -16454,7 +16454,7 @@ namespace OverflowHelper.core
 
             URL_Add("IOPS", "https://en.wikipedia.org/wiki/IOPS");
 
-            URL_Add("LaunchPad", "http://www.ti.com/ww/en/launchpad/about.html");
+            URL_Add("Launchpad", "https://wiki.ubuntu.com/Launchpad"); 
 
             URL_Add("ampere", "https://en.wikipedia.org/wiki/Ampere");
 
