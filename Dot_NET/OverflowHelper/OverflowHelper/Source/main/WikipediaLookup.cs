@@ -4964,6 +4964,7 @@ namespace OverflowHelper.core
             correctionAdd("Dll", "DLL file"); //Expansion, as in context it is usually a file.
             correctionAdd("dll file", "DLL file");
             correctionAdd("DLLs", "DLL file");
+            correctionAdd("dll-file", "DLL file");
 
             correctionAdd("siss", "SSIS"); //Misspelling.
             correctionAdd("ssis", "SSIS");
@@ -7033,7 +7034,8 @@ namespace OverflowHelper.core
             correctionAdd("of coarse", "of course");
             correctionAdd("Offcours", "of course");
             correctionAdd("offcours", "of course");
-
+            correctionAdd("Of course", "of course");
+            correctionAdd("OF course", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -9209,6 +9211,7 @@ namespace OverflowHelper.core
             correctionAdd("silicon valley", "Silicon Valley");
             correctionAdd("Silicon valley", "Silicon Valley");
             correctionAdd("The Valley", "Silicon Valley");
+            correctionAdd("silicone valley", "Silicon Valley");
 
             correctionAdd("no body", "nobody");
 
@@ -9460,6 +9463,8 @@ namespace OverflowHelper.core
             correctionAdd(".Net CF", ".NET Compact Framework");
             correctionAdd("compact framework", ".NET Compact Framework");
             correctionAdd("compact framewok", ".NET Compact Framework");
+            correctionAdd(".NET CF", ".NET Compact Framework");
+            correctionAdd("CF .NET", ".NET Compact Framework");
 
             correctionAdd("lldb", "LLDB");
 
@@ -13775,6 +13780,31 @@ namespace OverflowHelper.core
             correctionAdd("FWIW", "for what it's worth");
 
             correctionAdd("For what it's worth", "for what it's worth");
+
+            correctionAdd("Git gui", "Git GUI");
+            correctionAdd("git-gui", "Git GUI");
+
+            correctionAdd("IIS express", "IIS Express");
+
+            correctionAdd("ksh", "KornShell");
+
+            correctionAdd("openntp", "OpenNTPD");
+
+            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+
+            correctionAdd("concent", "consent");
+
+            correctionAdd("hind sight", "hindsight");
+
+            correctionAdd("in a nut shell", "in a nutshell");
+
+            correctionAdd("monitising", "monetising");
+
+            correctionAdd("nut shell", "nutshell");
+
+            correctionAdd("user name", "username");
 
 
 
@@ -20245,6 +20275,29 @@ namespace OverflowHelper.core
             URL_Add("vengeance", "https://en.wiktionary.org/wiki/vengeance#Noun");
 
             URL_Add("for what it's worth", "https://en.wiktionary.org/wiki/FWIW#Interjection");
+
+            URL_Add("Git GUI", "https://git-scm.com/docs/git-gui");
+
+            URL_Add("IIS Express", "https://en.wikipedia.org/wiki/Internet_Information_Services#IIS_Express");
+
+            URL_Add("KornShell", "https://en.wikipedia.org/wiki/KornShell");
+
+            URL_Add("OpenNTPD", "https://en.wikipedia.org/wiki/OpenNTPD");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2015 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2015%E2%80%932017_products");
+
+            URL_Add("consent", "https://en.wiktionary.org/wiki/consent#Noun");
+
+            URL_Add("hindsight", "https://en.wiktionary.org/wiki/hindsight#Noun");
+
+            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
+
+            URL_Add("monetising", "https://en.wiktionary.org/wiki/monetise#Verb");
+
+            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
+
+            URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
+
 
 
 
