@@ -3783,6 +3783,7 @@ namespace OverflowHelper.core
             correctionAdd("Configuaration", "configuration");
             correctionAdd("configuaration", "configuration");
             correctionAdd("congifuration", "configuration");
+            correctionAdd("configuation", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -6845,6 +6846,7 @@ namespace OverflowHelper.core
             correctionAdd("Window10", "Windows&nbsp;10");
             correctionAdd("Window 10", "Windows&nbsp;10");
             correctionAdd("windows10", "Windows&nbsp;10");
+            correctionAdd("Win-10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -7535,6 +7537,7 @@ namespace OverflowHelper.core
             correctionAdd("visual sudio 2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
 
             correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
             correctionAdd("VS-2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
@@ -8697,6 +8700,8 @@ namespace OverflowHelper.core
             correctionAdd("folloiwng", "following");
             correctionAdd("folowing", "following");
             correctionAdd("follwing", "following");
+            correctionAdd("Follwing", "following");
+            correctionAdd("Following", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -9187,6 +9192,7 @@ namespace OverflowHelper.core
             correctionAdd("availible", "available");
             correctionAdd("avaiable", "available");
             correctionAdd("avialable", "available");
+            correctionAdd("avaialble", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -13804,6 +13810,22 @@ namespace OverflowHelper.core
             correctionAdd("nut shell", "nutshell");
 
             correctionAdd("user name", "username");
+
+            correctionAdd("zune", "Zune");
+
+            correctionAdd("Deep Learning", "deep learning");
+
+            correctionAdd("idiosyncracies", "idiosyncrasies");
+
+            correctionAdd("lstm", "long short-term memory");
+            correctionAdd("LSTM", "long short-term memory");
+
+            correctionAdd("NLP", "natural language processing");
+            correctionAdd("nlp", "natural language processing");
+
+            correctionAdd("nitty gritty", "nitty-gritty");
+
+            correctionAdd("phychic", "psychic");
 
 
 
@@ -20296,6 +20318,20 @@ namespace OverflowHelper.core
             URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
 
             URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
+
+            URL_Add("Zune", "https://en.wikipedia.org/wiki/Zune");
+
+            URL_Add("deep learning", "https://en.wikipedia.org/wiki/Deep_learning");
+
+            URL_Add("idiosyncrasies", "https://en.wiktionary.org/wiki/idiosyncrasy#Noun");
+
+            URL_Add("long short-term memory", "https://en.wikipedia.org/wiki/Long_short-term_memory");
+
+            URL_Add("natural language processing", "https://en.wikipedia.org/wiki/Natural_language_processing");
+
+            URL_Add("nitty-gritty", "https://en.wiktionary.org/wiki/nitty-gritty#Noun");
+
+            URL_Add("psychic", "https://en.wiktionary.org/wiki/psychic#Adjective");
 
 
 
