@@ -7244,6 +7244,8 @@ namespace OverflowHelper.core
             correctionAdd("dl", "download");
             correctionAdd("dowload", "download");
             correctionAdd("donwload", "download");
+            correctionAdd("Downalod", "download");
+            correctionAdd("downalod", "download");
 
             correctionAdd("ubuntu", "Ubuntu");
             correctionAdd("UBUNTU", "Ubuntu");
@@ -7449,6 +7451,8 @@ namespace OverflowHelper.core
             correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
 
             correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
@@ -7463,6 +7467,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
 
             correctionAdd("VS", "Visual&nbsp;Studio");
             correctionAdd("visual studio", "Visual&nbsp;Studio");
@@ -10463,6 +10468,7 @@ namespace OverflowHelper.core
             correctionAdd("awnser", "answer");
             correctionAdd("anwswer", "answer");
             correctionAdd("ans", "answer");
+            correctionAdd("answser", "answer");
 
             correctionAdd("acward", "awkward");
 
@@ -11488,6 +11494,7 @@ namespace OverflowHelper.core
             correctionAdd("sign-in", "sign in");
 
             correctionAdd("substution", "substitution");
+            correctionAdd("substituion", "substitution");
 
             correctionAdd("symetrically", "symmetrically");
 
@@ -11747,6 +11754,8 @@ namespace OverflowHelper.core
             correctionAdd("offical", "official");
 
             correctionAdd("other wise", "otherwise");
+            correctionAdd("o/w", "otherwise");
+            correctionAdd("O/W", "otherwise");
 
             correctionAdd("res", "resolution");
 
@@ -12503,6 +12512,7 @@ namespace OverflowHelper.core
             correctionAdd("CML", "command-line");
 
             correctionAdd("complilation", "compilation");
+            correctionAdd("compiliation", "compilation");
 
             correctionAdd("correctnes", "correctness");
 
@@ -12921,6 +12931,7 @@ namespace OverflowHelper.core
             correctionAdd("wonder full", "wonderful");
 
             correctionAdd("exitor", "editor");
+            correctionAdd("editior", "editor");
 
             correctionAdd("wil", "will");
 
@@ -13313,6 +13324,7 @@ namespace OverflowHelper.core
             correctionAdd("c++99", "C++98");
 
             correctionAdd("guarantied", "guaranteed");
+            correctionAdd("guarantueed", "guaranteed");
 
             correctionAdd("heres", "here's");
             correctionAdd("Heres", "here's");
@@ -13770,6 +13782,7 @@ namespace OverflowHelper.core
             correctionAdd("Iridium", "iridium");
 
             correctionAdd("proccess", "process");
+            correctionAdd("porcess", "process");
 
             correctionAdd("releated", "related");
 
@@ -13826,6 +13839,36 @@ namespace OverflowHelper.core
             correctionAdd("nitty gritty", "nitty-gritty");
 
             correctionAdd("phychic", "psychic");
+
+            correctionAdd("alibaba", "Alibaba");
+
+            correctionAdd("WServer2000", "Windows Server 2000");
+
+            correctionAdd("Abstract Base Class", "abstract base class");
+
+            correctionAdd("ammendment", "amendment");
+
+            correctionAdd("Ash", "ash");
+
+            correctionAdd("eventully", "eventually");
+
+            correctionAdd("fraudly", "fraudulently");
+
+            correctionAdd("full fledged", "full-fledged");
+
+            correctionAdd("guarantuees", "guarantees");
+
+            correctionAdd("heatsink", "heat sink");
+
+            correctionAdd("host name", "hostname");
+
+            correctionAdd("limitter", "limiter");
+
+            correctionAdd("metioned", "mentioned");
+
+            correctionAdd("occassionally", "occasionally");
+
+            correctionAdd("predicatbly", "predictably");
 
 
 
@@ -20332,6 +20375,36 @@ namespace OverflowHelper.core
             URL_Add("nitty-gritty", "https://en.wiktionary.org/wiki/nitty-gritty#Noun");
 
             URL_Add("psychic", "https://en.wiktionary.org/wiki/psychic#Adjective");
+
+            URL_Add("Alibaba", "https://en.wikipedia.org/wiki/Alibaba_Group");
+
+            URL_Add("Windows Server 2000", "https://en.wikipedia.org/wiki/Windows_2000#Server_family_features");
+
+            URL_Add("abstract base class", "https://en.wikipedia.org/wiki/Class_(computer_programming)#Abstract_and_concrete");
+
+            URL_Add("amendment", "https://en.wiktionary.org/wiki/amendment#Noun");
+
+            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
+
+            URL_Add("eventually", "https://en.wiktionary.org/wiki/eventually#Adverb");
+
+            URL_Add("fraudulently", "https://en.wiktionary.org/wiki/fraudulently#Adverb");
+
+            URL_Add("full-fledged", "https://en.wiktionary.org/wiki/full-fledged#Adjective");
+
+            URL_Add("guarantees", "https://en.wiktionary.org/wiki/guarantee#Noun");
+
+            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#English");
+
+            URL_Add("hostname", "https://en.wiktionary.org/wiki/hostname#Noun");
+
+            URL_Add("limiter", "https://en.wiktionary.org/wiki/limiter#Noun");
+
+            URL_Add("mentioned", "https://en.wiktionary.org/wiki/mention#Verb");
+
+            URL_Add("occasionally", "https://en.wiktionary.org/wiki/occasionally#Adverb");
+
+            URL_Add("predictably", "https://en.wiktionary.org/wiki/predictably#Adverb");
 
 
 
