@@ -3783,6 +3783,7 @@ namespace OverflowHelper.core
             correctionAdd("Configuaration", "configuration");
             correctionAdd("configuaration", "configuration");
             correctionAdd("congifuration", "configuration");
+            correctionAdd("configuation", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -4964,6 +4965,7 @@ namespace OverflowHelper.core
             correctionAdd("Dll", "DLL file"); //Expansion, as in context it is usually a file.
             correctionAdd("dll file", "DLL file");
             correctionAdd("DLLs", "DLL file");
+            correctionAdd("dll-file", "DLL file");
 
             correctionAdd("siss", "SSIS"); //Misspelling.
             correctionAdd("ssis", "SSIS");
@@ -5430,9 +5432,9 @@ namespace OverflowHelper.core
 
             correctionAdd("notepad2", "Notepad2");
 
-            correctionAdd("solution explorer", "Solution Explorer");
-            correctionAdd("SolutionExplorer", "Solution Explorer");
-            correctionAdd("solution expolorer", "Solution Explorer"); //Misspelling.
+            correctionAdd("solution explorer", "Solution&nbsp;Explorer");
+            correctionAdd("SolutionExplorer", "Solution&nbsp;Explorer");
+            correctionAdd("solution expolorer", "Solution&nbsp;Explorer"); //Misspelling.
 
             correctionAdd("RSYNC", "rsync");
             correctionAdd("Rsync", "rsync");
@@ -6844,6 +6846,7 @@ namespace OverflowHelper.core
             correctionAdd("Window10", "Windows&nbsp;10");
             correctionAdd("Window 10", "Windows&nbsp;10");
             correctionAdd("windows10", "Windows&nbsp;10");
+            correctionAdd("Win-10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -7033,7 +7036,8 @@ namespace OverflowHelper.core
             correctionAdd("of coarse", "of course");
             correctionAdd("Offcours", "of course");
             correctionAdd("offcours", "of course");
-
+            correctionAdd("Of course", "of course");
+            correctionAdd("OF course", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -7240,6 +7244,8 @@ namespace OverflowHelper.core
             correctionAdd("dl", "download");
             correctionAdd("dowload", "download");
             correctionAdd("donwload", "download");
+            correctionAdd("Downalod", "download");
+            correctionAdd("downalod", "download");
 
             correctionAdd("ubuntu", "Ubuntu");
             correctionAdd("UBUNTU", "Ubuntu");
@@ -7445,6 +7451,8 @@ namespace OverflowHelper.core
             correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
 
             correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
@@ -7459,59 +7467,60 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
 
-            correctionAdd("VS", "Visual Studio");
-            correctionAdd("visual studio", "Visual Studio");
-            correctionAdd("vs", "Visual Studio");
-            correctionAdd("vs.net", "Visual Studio");
-            correctionAdd("visual stduio", "Visual Studio");
-            correctionAdd("visual studios", "Visual Studio");
-            correctionAdd("Visual studio", "Visual Studio");
-            correctionAdd("MSVS", "Visual Studio");
-            correctionAdd("Visual Studios", "Visual Studio");
-            correctionAdd("VisualStudio", "Visual Studio");
-            correctionAdd("VS.NET", "Visual Studio"); //There is no special version of Visual Studio for .NET.
-            correctionAdd("visual sutdio", "Visual Studio"); //Misspelling.
-            correctionAdd("VStudio", "Visual Studio");
-            correctionAdd("Visual-Studio", "Visual Studio");
-            correctionAdd("viual studio", "Visual Studio"); //Misspelling.
-            correctionAdd("vusual studio", "Visual Studio"); //True typo!
-            correctionAdd("Vs", "Visual Studio");
-            correctionAdd("Studio", "Visual Studio");
-            correctionAdd("Vstudio", "Visual Studio");
-            correctionAdd("viusal studio", "Visual Studio");
-            correctionAdd("Visual", "Visual Studio");
-            correctionAdd("V.Studio", "Visual Studio");
-            correctionAdd("visual Studio", "Visual Studio");
-            correctionAdd("studio", "Visual Studio");
-            correctionAdd("visulastudio", "Visual Studio");
-            correctionAdd("Visual Stuidio", "Visual Studio");
-            correctionAdd("Visual Vtudio", "Visual Studio");
-            correctionAdd("visal studio", "Visual Studio");
-            correctionAdd("visual-studio", "Visual Studio");
-            correctionAdd("VS.Net", "Visual Studio");
-            correctionAdd("Visualstudio", "Visual Studio");
-            correctionAdd("visualstudio", "Visual Studio");
-            correctionAdd("visual study", "Visual Studio");
-            correctionAdd("vis studio", "Visual Studio");
-            correctionAdd("Visual Studi", "Visual Studio");
-            correctionAdd("visual sudio", "Visual Studio");
+            correctionAdd("VS", "Visual&nbsp;Studio");
+            correctionAdd("visual studio", "Visual&nbsp;Studio");
+            correctionAdd("vs", "Visual&nbsp;Studio");
+            correctionAdd("vs.net", "Visual&nbsp;Studio");
+            correctionAdd("visual stduio", "Visual&nbsp;Studio");
+            correctionAdd("visual studios", "Visual&nbsp;Studio");
+            correctionAdd("Visual studio", "Visual&nbsp;Studio");
+            correctionAdd("MSVS", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studios", "Visual&nbsp;Studio");
+            correctionAdd("VisualStudio", "Visual&nbsp;Studio");
+            correctionAdd("VS.NET", "Visual&nbsp;Studio"); //There is no special version of Visual Studio for .NET.
+            correctionAdd("visual sutdio", "Visual&nbsp;Studio"); //Misspelling.
+            correctionAdd("VStudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual-Studio", "Visual&nbsp;Studio");
+            correctionAdd("viual studio", "Visual&nbsp;Studio"); //Misspelling.
+            correctionAdd("vusual studio", "Visual&nbsp;Studio"); //True typo!
+            correctionAdd("Vs", "Visual&nbsp;Studio");
+            correctionAdd("Studio", "Visual&nbsp;Studio");
+            correctionAdd("Vstudio", "Visual&nbsp;Studio");
+            correctionAdd("viusal studio", "Visual&nbsp;Studio");
+            correctionAdd("Visual", "Visual&nbsp;Studio");
+            correctionAdd("V.Studio", "Visual&nbsp;Studio");
+            correctionAdd("visual Studio", "Visual&nbsp;Studio");
+            correctionAdd("studio", "Visual&nbsp;Studio");
+            correctionAdd("visulastudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stuidio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Vtudio", "Visual&nbsp;Studio");
+            correctionAdd("visal studio", "Visual&nbsp;Studio");
+            correctionAdd("visual-studio", "Visual&nbsp;Studio");
+            correctionAdd("VS.Net", "Visual&nbsp;Studio");
+            correctionAdd("Visualstudio", "Visual&nbsp;Studio");
+            correctionAdd("visualstudio", "Visual&nbsp;Studio");
+            correctionAdd("visual study", "Visual&nbsp;Studio");
+            correctionAdd("vis studio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studi", "Visual&nbsp;Studio");
+            correctionAdd("visual sudio", "Visual&nbsp;Studio");
 
-            correctionAdd("vb 2005", "Visual Basic 2005 Express Edition");
-            correctionAdd("vb2005", "Visual Basic 2005 Express Edition");
+            correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
+            correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
 
-            correctionAdd("VB Express 2008", "Visual Basic 2008 Express Edition");
-            correctionAdd("Visual Basic Express 2008", "Visual Basic 2008 Express Edition");
-            correctionAdd("VB.Net Express 2008", "Visual Basic 2008 Express Edition");
-            correctionAdd("vb 2008", "Visual Basic 2008 Express Edition");
+            correctionAdd("VB Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("Visual Basic Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("VB.Net Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("vb 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
 
-            correctionAdd("Visual C# 2008 Express", "Visual C# 2008 Express Edition");
-            correctionAdd("visual studio express (2008", "Visual C# 2008 Express Edition"); //C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
+            correctionAdd("Visual C# 2008 Express", "Visual&nbsp;C#&nbsp;2008 Express Edition");
+            correctionAdd("visual studio express (2008", "Visual&nbsp;C#&nbsp;2008 Express Edition"); //C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
 
-            correctionAdd("visual c++ express 2010", "Visual C++ 2010 Express");
-            correctionAdd("Visual C++ Express", "Visual C++ 2010 Express"); //Not exact...
-            correctionAdd("VS C++ 2010 express", "Visual C++ 2010 Express");
-            correctionAdd("microsoft visual c++ 2010 express", "Visual C++ 2010 Express");
+            correctionAdd("visual c++ express 2010", "Visual&nbsp;C++&nbsp;2010 Express");
+            correctionAdd("Visual C++ Express", "Visual&nbsp;C++&nbsp;2010 Express"); //Not exact...
+            correctionAdd("VS C++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
+            correctionAdd("microsoft visual c++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
 
             correctionAdd("VS 2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("VS2010", "Visual&nbsp;Studio&nbsp;2010");
@@ -7533,31 +7542,31 @@ namespace OverflowHelper.core
             correctionAdd("visual sudio 2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
 
+            correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("VS-2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("VS2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("VS2010 EXPRESS", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("visual studio 2010 express", "Visual&nbsp;Studio&nbsp;2010 Express");
 
-            correctionAdd("Visual Studio 2010 Express Edition", "Visual Studio 2010 Express");
-            correctionAdd("VS-2010 Express", "Visual Studio 2010 Express");
-            correctionAdd("VS2010 Express", "Visual Studio 2010 Express");
-            correctionAdd("VS2010 EXPRESS", "Visual Studio 2010 Express");
-            correctionAdd("visual studio 2010 express", "Visual Studio 2010 Express");
+            correctionAdd("Visual Basic 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("VB 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("VB express2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("vb 2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
 
-            correctionAdd("Visual Basic 2010 Express", "Visual Basic 2010 Express Edition");
-            correctionAdd("VB 2010 Express", "Visual Basic 2010 Express Edition");
-            correctionAdd("VB express2010", "Visual Basic 2010 Express Edition");
-            correctionAdd("vb 2010", "Visual Basic 2010 Express Edition");
+            correctionAdd("Visual Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("Visual Studio 2012 express", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("VS Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("visual studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("VS 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
 
-            correctionAdd("Visual Studio Express 2012", "Visual Studio 2012 Express");
-            correctionAdd("Visual Studio 2012 express", "Visual Studio 2012 Express");
-            correctionAdd("VS Express 2012", "Visual Studio 2012 Express");
-            correctionAdd("visual studio 2012 Express", "Visual Studio 2012 Express");
-            correctionAdd("VS 2012 Express", "Visual Studio 2012 Express");
+            correctionAdd("VS express C#", "Visual&nbsp;C# Express");
+            correctionAdd("C# express", "Visual&nbsp;C# Express");
 
-            correctionAdd("VS express C#", "Visual C# Express");
-            correctionAdd("C# express", "Visual C# Express");
-
-            correctionAdd("VS express", "Visual Studio Express");
-            correctionAdd("vs express", "Visual Studio Express");
-            correctionAdd("visual studio express", "Visual Studio Express");
+            correctionAdd("VS express", "Visual&nbsp;Studio Express");
+            correctionAdd("vs express", "Visual&nbsp;Studio Express");
+            correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
 
             correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
             correctionAdd("VS 2003", "Visual&nbsp;Studio&nbsp;2003");
@@ -8421,13 +8430,13 @@ namespace OverflowHelper.core
 
             correctionAdd("iops", "IOPS");
 
-            correctionAdd("launchpad", "LaunchPad"); // The Texas Instruments hardware platform,
-                                                     // not Ubuntu/Canonical's "Launchpad",
-                                                     // <https://wiki.ubuntu.com/Launchpad>.
-
-            correctionAdd("Launchpad", "LaunchPad"); // The Texas Instruments hardware platform,
-                                                     // not Ubuntu/Canonical's "Launchpad",
-                                                     // <https://wiki.ubuntu.com/Launchpad>.
+            // No longer the Texas Instruments hardware platform,
+            // <https://www.ti.com/ww/en/launchpad/about.html>
+            // and again Ubuntu/Canonical's "Launchpad",
+            // <https://wiki.ubuntu.com/Launchpad>.
+            //
+            correctionAdd("launchpad", "Launchpad");
+            correctionAdd("LaunchPad", "Launchpad");
 
             correctionAdd("Volt", "volt");
             correctionAdd("v", "volt");
@@ -8696,6 +8705,8 @@ namespace OverflowHelper.core
             correctionAdd("folloiwng", "following");
             correctionAdd("folowing", "following");
             correctionAdd("follwing", "following");
+            correctionAdd("Follwing", "following");
+            correctionAdd("Following", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -9186,6 +9197,7 @@ namespace OverflowHelper.core
             correctionAdd("availible", "available");
             correctionAdd("avaiable", "available");
             correctionAdd("avialable", "available");
+            correctionAdd("avaialble", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -9209,6 +9221,7 @@ namespace OverflowHelper.core
             correctionAdd("silicon valley", "Silicon Valley");
             correctionAdd("Silicon valley", "Silicon Valley");
             correctionAdd("The Valley", "Silicon Valley");
+            correctionAdd("silicone valley", "Silicon Valley");
 
             correctionAdd("no body", "nobody");
 
@@ -9460,6 +9473,8 @@ namespace OverflowHelper.core
             correctionAdd(".Net CF", ".NET Compact Framework");
             correctionAdd("compact framework", ".NET Compact Framework");
             correctionAdd("compact framewok", ".NET Compact Framework");
+            correctionAdd(".NET CF", ".NET Compact Framework");
+            correctionAdd("CF .NET", ".NET Compact Framework");
 
             correctionAdd("lldb", "LLDB");
 
@@ -10453,6 +10468,7 @@ namespace OverflowHelper.core
             correctionAdd("awnser", "answer");
             correctionAdd("anwswer", "answer");
             correctionAdd("ans", "answer");
+            correctionAdd("answser", "answer");
 
             correctionAdd("acward", "awkward");
 
@@ -11478,6 +11494,7 @@ namespace OverflowHelper.core
             correctionAdd("sign-in", "sign in");
 
             correctionAdd("substution", "substitution");
+            correctionAdd("substituion", "substitution");
 
             correctionAdd("symetrically", "symmetrically");
 
@@ -11737,6 +11754,8 @@ namespace OverflowHelper.core
             correctionAdd("offical", "official");
 
             correctionAdd("other wise", "otherwise");
+            correctionAdd("o/w", "otherwise");
+            correctionAdd("O/W", "otherwise");
 
             correctionAdd("res", "resolution");
 
@@ -11897,7 +11916,7 @@ namespace OverflowHelper.core
             correctionAdd("Tera-term", "Tera Term");
             correctionAdd("teraterm", "Tera Term");
 
-            correctionAdd("visual studio professional", "Visual Studio Professional");
+            correctionAdd("visual studio professional", "Visual&nbsp;Studio Professional");
 
             correctionAdd("wto", "WTO");
 
@@ -12493,6 +12512,7 @@ namespace OverflowHelper.core
             correctionAdd("CML", "command-line");
 
             correctionAdd("complilation", "compilation");
+            correctionAdd("compiliation", "compilation");
 
             correctionAdd("correctnes", "correctness");
 
@@ -12911,6 +12931,7 @@ namespace OverflowHelper.core
             correctionAdd("wonder full", "wonderful");
 
             correctionAdd("exitor", "editor");
+            correctionAdd("editior", "editor");
 
             correctionAdd("wil", "will");
 
@@ -13303,6 +13324,7 @@ namespace OverflowHelper.core
             correctionAdd("c++99", "C++98");
 
             correctionAdd("guarantied", "guaranteed");
+            correctionAdd("guarantueed", "guaranteed");
 
             correctionAdd("heres", "here's");
             correctionAdd("Heres", "here's");
@@ -13760,6 +13782,7 @@ namespace OverflowHelper.core
             correctionAdd("Iridium", "iridium");
 
             correctionAdd("proccess", "process");
+            correctionAdd("porcess", "process");
 
             correctionAdd("releated", "related");
 
@@ -13775,6 +13798,77 @@ namespace OverflowHelper.core
             correctionAdd("FWIW", "for what it's worth");
 
             correctionAdd("For what it's worth", "for what it's worth");
+
+            correctionAdd("Git gui", "Git GUI");
+            correctionAdd("git-gui", "Git GUI");
+
+            correctionAdd("IIS express", "IIS Express");
+
+            correctionAdd("ksh", "KornShell");
+
+            correctionAdd("openntp", "OpenNTPD");
+
+            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+
+            correctionAdd("concent", "consent");
+
+            correctionAdd("hind sight", "hindsight");
+
+            correctionAdd("in a nut shell", "in a nutshell");
+
+            correctionAdd("monitising", "monetising");
+
+            correctionAdd("nut shell", "nutshell");
+
+            correctionAdd("user name", "username");
+
+            correctionAdd("zune", "Zune");
+
+            correctionAdd("Deep Learning", "deep learning");
+
+            correctionAdd("idiosyncracies", "idiosyncrasies");
+
+            correctionAdd("lstm", "long short-term memory");
+            correctionAdd("LSTM", "long short-term memory");
+
+            correctionAdd("NLP", "natural language processing");
+            correctionAdd("nlp", "natural language processing");
+
+            correctionAdd("nitty gritty", "nitty-gritty");
+
+            correctionAdd("phychic", "psychic");
+
+            correctionAdd("alibaba", "Alibaba");
+
+            correctionAdd("WServer2000", "Windows Server 2000");
+
+            correctionAdd("Abstract Base Class", "abstract base class");
+
+            correctionAdd("ammendment", "amendment");
+
+            correctionAdd("Ash", "ash");
+
+            correctionAdd("eventully", "eventually");
+
+            correctionAdd("fraudly", "fraudulently");
+
+            correctionAdd("full fledged", "full-fledged");
+
+            correctionAdd("guarantuees", "guarantees");
+
+            correctionAdd("heatsink", "heat sink");
+
+            correctionAdd("host name", "hostname");
+
+            correctionAdd("limitter", "limiter");
+
+            correctionAdd("metioned", "mentioned");
+
+            correctionAdd("occassionally", "occasionally");
+
+            correctionAdd("predicatbly", "predictably");
 
 
 
@@ -15364,8 +15458,6 @@ namespace OverflowHelper.core
 
             URL_Add("Notepad2", "https://en.wikipedia.org/wiki/Notepad2");
 
-            URL_Add("Solution Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
-
             URL_Add("rsync", "https://en.wikipedia.org/wiki/Rsync");
 
             URL_Add("SCP", "https://en.wikipedia.org/wiki/Secure_copy");
@@ -16074,18 +16166,6 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Visual C++ 8.0", "https://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_versions");
 
-            URL_Add("Visual C++ 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
-
-            URL_Add("Visual Studio 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
-
-            URL_Add("Visual Studio 2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
-
-            URL_Add("Visual Basic 2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
-            URL_Add("Visual Basic 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
-            URL_Add("Visual Studio", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio");
-
             URL_Add("OpenCL", "https://en.wikipedia.org/wiki/OpenCL");
 
             URL_Add("Bitcoin", "https://en.wikipedia.org/wiki/Bitcoin");
@@ -16226,10 +16306,6 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu&nbsp;11.10 (Oneiric Ocelot)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29");
 
-            URL_Add("Visual C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
-
-            URL_Add("Visual Studio Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
-
             URL_Add("Backbone.js", "https://en.wikipedia.org/wiki/Backbone.js");
 
             URL_Add("Jenkins", "https://en.wikipedia.org/wiki/Jenkins_%28software%29");
@@ -16362,18 +16438,6 @@ namespace OverflowHelper.core
 
             URL_Add("DSLR", "https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_.NET_2003");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2005");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2008");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2010");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2012");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2013");
-
             URL_Add("at the moment", "https://en.wiktionary.org/wiki/atm#Abbreviation");
 
             URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
@@ -16454,7 +16518,7 @@ namespace OverflowHelper.core
 
             URL_Add("IOPS", "https://en.wikipedia.org/wiki/IOPS");
 
-            URL_Add("LaunchPad", "http://www.ti.com/ww/en/launchpad/about.html");
+            URL_Add("Launchpad", "https://wiki.ubuntu.com/Launchpad");
 
             URL_Add("ampere", "https://en.wikipedia.org/wiki/Ampere");
 
@@ -16690,8 +16754,6 @@ namespace OverflowHelper.core
 
             URL_Add("Chocolatey", "https://en.wikipedia.org/wiki/NuGet#Chocolatey"); // Old: https://en.wikipedia.org/wiki/Chocolatey
 
-            URL_Add("Visual C# 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
-
             URL_Add("PSObject", "https://msdn.microsoft.com/en-us/library/system.management.automation.psobject%28v=vs.85%29.aspx");
 
             URL_Add("Get-Variable", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-Variable"); // Old: https://technet.microsoft.com/en-us/library/hh849899.aspx
@@ -16811,8 +16873,6 @@ namespace OverflowHelper.core
             URL_Add("Vivaldi", "https://en.wikipedia.org/wiki/Vivaldi_%28web_browser%29");
 
             URL_Add("someone", "https://en.wiktionary.org/wiki/someone#Pronoun");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2015", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2015");
 
             URL_Add("two-factor authentication", "https://en.wikipedia.org/wiki/Two-factor_authentication");
 
@@ -17015,8 +17075,6 @@ namespace OverflowHelper.core
 
             URL_Add(".NET Compact Framework", "https://en.wikipedia.org/wiki/.NET_Compact_Framework");
 
-            URL_Add("Visual Basic 2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
             URL_Add("LLDB", "https://en.wikipedia.org/wiki/LLDB_(debugger)");
 
             URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
@@ -17172,8 +17230,6 @@ namespace OverflowHelper.core
             URL_Add("Cortex-M", "https://en.wikipedia.org/wiki/ARM_Cortex-M");
 
             URL_Add("seems", "https://en.wiktionary.org/wiki/seems#Verb");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
 
             URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
 
@@ -18631,8 +18687,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tera Term", "https://en.wikipedia.org/wiki/Tera_Term");
 
-            URL_Add("Visual Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
-
             URL_Add("WTO", "https://en.wikipedia.org/wiki/World_Trade_Organization");
 
             URL_Add("Wales", "https://en.wikipedia.org/wiki/Wales");
@@ -18764,8 +18818,6 @@ namespace OverflowHelper.core
             URL_Add("RPC", "https://en.wikipedia.org/wiki/Remote_procedure_call");
 
             URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
 
             URL_Add("XOR", "https://en.wikipedia.org/wiki/Exclusive_or");
 
@@ -20245,6 +20297,114 @@ namespace OverflowHelper.core
             URL_Add("vengeance", "https://en.wiktionary.org/wiki/vengeance#Noun");
 
             URL_Add("for what it's worth", "https://en.wiktionary.org/wiki/FWIW#Interjection");
+
+            URL_Add("Git GUI", "https://git-scm.com/docs/git-gui");
+
+            URL_Add("IIS Express", "https://en.wikipedia.org/wiki/Internet_Information_Services#IIS_Express");
+
+            URL_Add("KornShell", "https://en.wikipedia.org/wiki/KornShell");
+
+            URL_Add("OpenNTPD", "https://en.wikipedia.org/wiki/OpenNTPD");
+
+            URL_Add("consent", "https://en.wiktionary.org/wiki/consent#Noun");
+
+            URL_Add("hindsight", "https://en.wiktionary.org/wiki/hindsight#Noun");
+
+            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
+
+            URL_Add("monetising", "https://en.wiktionary.org/wiki/monetise#Verb");
+
+            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
+
+            URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
+
+            URL_Add("Solution&nbsp;Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
+
+            URL_Add("Visual&nbsp;Basic&nbsp;2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+
+            URL_Add("Visual&nbsp;Basic&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+
+            URL_Add("Visual&nbsp;Basic&nbsp;2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+
+            URL_Add("Visual&nbsp;C#&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
+
+            URL_Add("Visual&nbsp;C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
+
+            URL_Add("Visual&nbsp;C++&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+
+            URL_Add("Visual&nbsp;Studio Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+
+            URL_Add("Visual&nbsp;Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
+
+            URL_Add("Visual&nbsp;Studio", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2005");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2008");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2010");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2012");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2013");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2015 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2015%E2%80%932017_products");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2015", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
+
+            URL_Add("Zune", "https://en.wikipedia.org/wiki/Zune");
+
+            URL_Add("deep learning", "https://en.wikipedia.org/wiki/Deep_learning");
+
+            URL_Add("idiosyncrasies", "https://en.wiktionary.org/wiki/idiosyncrasy#Noun");
+
+            URL_Add("long short-term memory", "https://en.wikipedia.org/wiki/Long_short-term_memory");
+
+            URL_Add("natural language processing", "https://en.wikipedia.org/wiki/Natural_language_processing");
+
+            URL_Add("nitty-gritty", "https://en.wiktionary.org/wiki/nitty-gritty#Noun");
+
+            URL_Add("psychic", "https://en.wiktionary.org/wiki/psychic#Adjective");
+
+            URL_Add("Alibaba", "https://en.wikipedia.org/wiki/Alibaba_Group");
+
+            URL_Add("Windows Server 2000", "https://en.wikipedia.org/wiki/Windows_2000#Server_family_features");
+
+            URL_Add("abstract base class", "https://en.wikipedia.org/wiki/Class_(computer_programming)#Abstract_and_concrete");
+
+            URL_Add("amendment", "https://en.wiktionary.org/wiki/amendment#Noun");
+
+            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
+
+            URL_Add("eventually", "https://en.wiktionary.org/wiki/eventually#Adverb");
+
+            URL_Add("fraudulently", "https://en.wiktionary.org/wiki/fraudulently#Adverb");
+
+            URL_Add("full-fledged", "https://en.wiktionary.org/wiki/full-fledged#Adjective");
+
+            URL_Add("guarantees", "https://en.wiktionary.org/wiki/guarantee#Noun");
+
+            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#English");
+
+            URL_Add("hostname", "https://en.wiktionary.org/wiki/hostname#Noun");
+
+            URL_Add("limiter", "https://en.wiktionary.org/wiki/limiter#Noun");
+
+            URL_Add("mentioned", "https://en.wiktionary.org/wiki/mention#Verb");
+
+            URL_Add("occasionally", "https://en.wiktionary.org/wiki/occasionally#Adverb");
+
+            URL_Add("predictably", "https://en.wiktionary.org/wiki/predictably#Adverb");
 
 
 
