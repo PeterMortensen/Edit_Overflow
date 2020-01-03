@@ -1267,6 +1267,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OSx Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("v10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Mac OS X v10.7 (Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
             correctionAdd("mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -13870,6 +13871,29 @@ namespace OverflowHelper.core
 
             correctionAdd("predicatbly", "predictably");
 
+            correctionAdd("broadcom", "Broadcom");
+
+            correctionAdd("tft", "TFT");
+
+            correctionAdd("Zsh", "Z shell");
+            correctionAdd("zsh", "Z shell");
+
+            correctionAdd("case-insensitive", "case insensitive");
+
+            correctionAdd("congrats", "congratulations");
+
+            correctionAdd("foundtemental", "fundamental");
+
+            correctionAdd("foundtementals", "fundamentals");
+
+            correctionAdd("questionmark", "question mark");
+
+            correctionAdd("short hand", "shorthand");
+
+            correctionAdd("thn", "then");
+
+            correctionAdd("tigger", "trigger");
+
 
 
             //HACK: AASDASD
@@ -20405,6 +20429,28 @@ namespace OverflowHelper.core
             URL_Add("occasionally", "https://en.wiktionary.org/wiki/occasionally#Adverb");
 
             URL_Add("predictably", "https://en.wiktionary.org/wiki/predictably#Adverb");
+
+            URL_Add("Broadcom", "https://en.wikipedia.org/wiki/Broadcom_Inc.");
+
+            URL_Add("TFT", "https://en.wikipedia.org/wiki/Thin-film-transistor_liquid-crystal_display");
+
+            URL_Add("Z shell", "https://en.wikipedia.org/wiki/Z_shell");
+
+            URL_Add("case insensitive", "https://en.wiktionary.org/wiki/case_insensitive#Adjective");
+
+            URL_Add("congratulations", "https://en.wiktionary.org/wiki/congratulations#Interjection");
+
+            URL_Add("fundamental", "https://en.wiktionary.org/wiki/fundamental#Noun");
+
+            URL_Add("fundamentals", "https://en.wiktionary.org/wiki/fundamental#Noun");
+
+            URL_Add("question mark", "https://en.wikipedia.org/wiki/Question_mark");
+
+            URL_Add("shorthand", "https://en.wiktionary.org/wiki/shorthand#Noun");
+
+            URL_Add("then", "https://en.wiktionary.org/wiki/then#Adverb");
+
+            URL_Add("trigger", "https://en.wiktionary.org/wiki/trigger#Verb");
 
 
 
