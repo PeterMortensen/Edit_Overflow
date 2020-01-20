@@ -6583,6 +6583,8 @@ namespace OverflowHelper.core
             correctionAdd("two compliment", "two's complement");
             correctionAdd("two's-complement", "two's complement");
             correctionAdd("Two's complement", "two's complement");
+            correctionAdd("2nd complement", "two's complement");
+            correctionAdd("2 complement", "two's complement");
 
             correctionAdd("msvc", "Microsoft Visual C++");
             correctionAdd("ms vc", "Microsoft Visual C++");
@@ -6698,6 +6700,7 @@ namespace OverflowHelper.core
             correctionAdd("immedetly", "immediately");
             correctionAdd("imidietally", "immediately");
             correctionAdd("immedietally", "immediately");
+            correctionAdd("immedietly", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -6856,6 +6859,7 @@ namespace OverflowHelper.core
             correctionAdd("Window 10", "Windows&nbsp;10");
             correctionAdd("windows10", "Windows&nbsp;10");
             correctionAdd("Win-10", "Windows&nbsp;10");
+            correctionAdd("WINDOWS10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -6877,6 +6881,7 @@ namespace OverflowHelper.core
             correctionAdd("func", "function");
             correctionAdd("fucntion", "function");
             correctionAdd("funcion", "function");
+            correctionAdd("finction", "function");
 
             correctionAdd("cgi", "CGI");
 
@@ -9101,6 +9106,12 @@ namespace OverflowHelper.core
             correctionAdd("nessecary", "necessary");
             correctionAdd("necesery", "necessary");
             correctionAdd("necessery", "necessary");
+            correctionAdd("nessacery", "necessary");
+            correctionAdd("neccacery", "necessary");
+            correctionAdd("neccecery", "necessary");
+            correctionAdd("neccesery", "necessary");
+            correctionAdd("necesarry", "necessary");
+            correctionAdd("necessarry", "necessary");
 
             correctionAdd("unneccessary", "unnecessary");
             correctionAdd("unncessary", "unnecessary");
@@ -9341,6 +9352,7 @@ namespace OverflowHelper.core
             correctionAdd("thread", "question");
             correctionAdd("quesiton", "question");
             correctionAdd("qestion", "question");
+            correctionAdd("qustion", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -9623,6 +9635,7 @@ namespace OverflowHelper.core
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
             correctionAdd("Git-lab", "GitLab");
+            correctionAdd("gilab", "GitLab");
 
             correctionAdd("spanish", "Spanish");
 
@@ -10249,6 +10262,7 @@ namespace OverflowHelper.core
             correctionAdd("excercise", "exercise");
             correctionAdd("excersise", "exercise");
             correctionAdd("Excersise", "exercise");
+            correctionAdd("exersice", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -10376,6 +10390,7 @@ namespace OverflowHelper.core
             correctionAdd("linqPad", "LINQPad");
 
             correctionAdd("effecient", "efficient");
+            correctionAdd("efficiant", "efficient");
 
             correctionAdd("indendation", "indentation");
             correctionAdd("indentitation", "indentation");
@@ -10875,6 +10890,7 @@ namespace OverflowHelper.core
             correctionAdd("isntead", "instead");
             correctionAdd("Insted", "instead");
             correctionAdd("insted", "instead");
+            correctionAdd("intead", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -11157,6 +11173,8 @@ namespace OverflowHelper.core
 
             correctionAdd("verision", "version");
             correctionAdd("verison", "version");
+            correctionAdd("vers", "version");
+            correctionAdd("verion", "version");
 
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
@@ -11400,6 +11418,7 @@ namespace OverflowHelper.core
             correctionAdd("RLE", "run-length encoding");
 
             correctionAdd("runnig", "running");
+            correctionAdd("runnning", "running");
 
             correctionAdd("spread-sheet", "spreadsheet");
 
@@ -11738,6 +11757,7 @@ namespace OverflowHelper.core
             correctionAdd("pos", "position");
             correctionAdd("postion", "position");
             correctionAdd("possition", "position");
+            correctionAdd("poisiton", "position");
 
             correctionAdd("vehical", "vehicle");
 
@@ -12028,6 +12048,8 @@ namespace OverflowHelper.core
 
             correctionAdd("on-premise", "on-premises");
             correctionAdd("on premise", "on-premises");
+            correctionAdd("on prem", "on-premises");
+            correctionAdd("on-prem", "on-premises");
 
             correctionAdd("outputing", "outputting");
 
@@ -12730,6 +12752,13 @@ namespace OverflowHelper.core
 
             correctionAdd("unnecesserily", "unnecessarily");
             correctionAdd("uneceesirly", "unnecessarily");
+            correctionAdd("unnessacerally", "unnecessarily");
+            correctionAdd("unneccacerally", "unnecessarily");
+            correctionAdd("unneccecerally", "unnecessarily");
+            correctionAdd("unneccerally", "unnecessarily");
+            correctionAdd("unneccesserally", "unnecessarily");
+            correctionAdd("unnecceserally", "unnecessarily");
+            correctionAdd("unnecceseraly", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
 
@@ -14000,6 +14029,7 @@ namespace OverflowHelper.core
             correctionAdd("fire fighting", "firefighting");
 
             correctionAdd("gasligthing", "gaslighting");
+            correctionAdd("gas lighting", "gaslighting");
 
             correctionAdd("gratefull", "grateful");
 
@@ -14012,7 +14042,7 @@ namespace OverflowHelper.core
             correctionAdd("Inode", "inode");
 
             correctionAdd("int", "integer");
-            correctionAdd("ingeters", "integer");            
+            correctionAdd("ingeters", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -14077,13 +14107,105 @@ namespace OverflowHelper.core
             correctionAdd("B's ur uncle", "Bob's your uncle");
 
             correctionAdd("Msc", "Master of Science");
-            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we 
+            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
                                                         // currently don't allow it...
 
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
             correctionAdd("Yun", "Arduino Yún");
 
+            correctionAdd("alu", "ALU");
+
+            correctionAdd("babylon", "Babylon.js");
+            correctionAdd("babylon.js", "Babylon.js");
+
+            correctionAdd("brian kernighan", "Brian Kernighan");
+
+            correctionAdd("cinnamon", "Cinnamon");
+
+            correctionAdd("euclidean", "Euclidean");
+
+            correctionAdd("filebeat", "Filebeat");
+
+            correctionAdd("gitlab-ci", "GitLab CI");
+            correctionAdd("Gitlab ci", "GitLab CI");
+
+            correctionAdd("gray code", "Gray code");
+
+            correctionAdd("iT", "IT");
+
+            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
+
+            correctionAdd("PDP11", "PDP-11");
+
+            correctionAdd("princeton", "Princeton");
+
+            correctionAdd("zookeeper", "ZooKeeper");
+
+            correctionAdd("appologize", "apologise");
+
+            correctionAdd("disbale", "disable");
+
+            correctionAdd("embarassing", "embarrassing");
+
+            correctionAdd("exitting", "exiting");
+            correctionAdd("Exitting", "exiting");
+
+            correctionAdd("fail-proof", "failproof");
+
+            correctionAdd("fine grain", "fine-grained");
+
+            correctionAdd("follow up", "follow-up");
+
+            correctionAdd("fore-see-able", "foreseeable");
+
+            correctionAdd("foramt", "format");
+
+            correctionAdd("hardcode", "hard code");
+
+            correctionAdd("in layman's language", "in layman's terms");
+
+            correctionAdd("inevietable", "inevitable");
+
+            correctionAdd("inteded", "intended");
+
+            correctionAdd("MORE", "more");
+
+            correctionAdd("neverous", "nervous");
+
+            correctionAdd("not withstanding", "notwithstanding");
+
+            correctionAdd("by the other hand", "on the other hand");
+
+            correctionAdd("1st complement", "ones' complement");
+
+            correctionAdd("opearator", "operator");
+
+            correctionAdd("reliablly", "reliably");
+
+            correctionAdd("sever", "server");
+
+            correctionAdd("situtation", "situation");
+
+            correctionAdd("SCM", "source control management");
+            correctionAdd("scm", "source control management");
+
+            correctionAdd("syle", "style");
+
+            correctionAdd("TEST", "test");
+
+            correctionAdd("tat", "that");
+
+            correctionAdd("3", "three");
+
+            correctionAdd("TR", "tr");
+
+            correctionAdd("val", "value");
+            correctionAdd("vaue", "value");
+
+            correctionAdd("view point", "viewpoint");
+
+            correctionAdd("WHOAMI", "whoami");
 
 
 
@@ -20781,7 +20903,93 @@ namespace OverflowHelper.core
 
             URL_Add("xsel", "https://linux.die.net/man/1/xsel");
 
+            URL_Add("ALU", "https://en.wikipedia.org/wiki/Arithmetic_logic_unit");
 
+            URL_Add("Babylon.js", "https://en.wikipedia.org/wiki/Babylon.js");
+
+            URL_Add("Brian Kernighan", "https://en.wikipedia.org/wiki/Brian_Kernighan");
+
+            URL_Add("Cinnamon", "https://en.wikipedia.org/wiki/Cinnamon");
+
+            URL_Add("Euclidean", "https://en.wiktionary.org/wiki/Euclidean#Adjective");
+
+            URL_Add("Filebeat", "https://en.wikiversity.org/wiki/ElasticSearch/Filebeat");
+
+            URL_Add("GitLab CI", "https://docs.gitlab.com/ee/ci/");
+
+            URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
+
+            URL_Add("IT", "https://en.wikipedia.org/wiki/Information_technology");
+
+            URL_Add("Northern Hemisphere", "https://en.wiktionary.org/wiki/Northern_Hemisphere#Noun");
+
+            URL_Add("PDP-11", "https://en.wikipedia.org/wiki/PDP-11");
+
+            URL_Add("Princeton", "https://en.wikipedia.org/wiki/Princeton_University");
+
+            URL_Add("ZooKeeper", "https://en.wikipedia.org/wiki/Apache_ZooKeeper");
+
+            URL_Add("apologise", "https://en.wiktionary.org/wiki/apologise#Verb");
+
+            URL_Add("disable", "https://en.wiktionary.org/wiki/disable#Verb");
+
+            URL_Add("embarrassing", "https://en.wiktionary.org/wiki/embarrassing#Adjective");
+
+            URL_Add("exiting", "https://en.wiktionary.org/wiki/exit#Verb");
+
+            URL_Add("failproof", "https://en.wiktionary.org/wiki/failproof#Adjective");
+
+            URL_Add("fine-grained", "https://en.wiktionary.org/wiki/fine-grained#Adjective");
+
+            URL_Add("follow-up", "https://en.wiktionary.org/wiki/follow-up#Noun");
+
+            URL_Add("foreseeable", "https://en.wiktionary.org/wiki/foreseeable#Adjective");
+
+            URL_Add("format", "https://en.wiktionary.org/wiki/format#Noun");
+
+            URL_Add("hard code", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("in layman's terms", "https://en.wiktionary.org/wiki/in_layman%27s_terms#Prepositional_phrase");
+
+            URL_Add("inevitable", "https://en.wiktionary.org/wiki/inevitable#Adjective");
+
+            URL_Add("intended", "https://en.wiktionary.org/wiki/intended#Verb");
+
+            URL_Add("more", "https://en.wikipedia.org/wiki/More_(command)");
+
+            URL_Add("nervous", "https://en.wiktionary.org/wiki/nervous#Adjective");
+
+            URL_Add("notwithstanding", "https://en.wiktionary.org/wiki/notwithstanding#Adverb");
+
+            URL_Add("on the other hand", "https://en.wiktionary.org/wiki/on_the_other_hand#Prepositional_phrase");
+
+            URL_Add("ones' complement", "https://en.wikipedia.org/wiki/Ones'_complement");
+
+            URL_Add("operator", "https://en.wiktionary.org/wiki/operator#Noun");
+
+            URL_Add("reliably", "https://en.wiktionary.org/wiki/reliably#Adverb");
+
+            URL_Add("server", "https://en.wikipedia.org/wiki/Server_(computing)");
+
+            URL_Add("situation", "https://en.wiktionary.org/wiki/situation#Noun");
+
+            URL_Add("source control management", "https://en.wikipedia.org/wiki/Version_control");
+
+            URL_Add("style", "https://en.wiktionary.org/wiki/style#Noun");
+
+            URL_Add("test", "https://linux.die.net/man/1/test");
+
+            URL_Add("that", "https://en.wiktionary.org/wiki/that#Conjunction");
+
+            URL_Add("three", "https://en.wiktionary.org/wiki/three#Numeral");
+
+            URL_Add("tr", "https://en.wikipedia.org/wiki/Tr_(Unix)");
+
+            URL_Add("value", "https://en.wiktionary.org/wiki/value#Noun");
+
+            URL_Add("viewpoint", "https://en.wiktionary.org/wiki/viewpoint#Noun");
+
+            URL_Add("whoami", "https://en.wikipedia.org/wiki/Whoami");
 
 
 
@@ -21009,7 +21217,7 @@ namespace OverflowHelper.core
                       "\" has been entered as a correct term...";
                 }
 
-                // On-the-fly checks (but it would be better if theses 
+                // On-the-fly checks (but it would be better if theses
                 // checks was done at program startup)
                 //
                 // URLs should look like ones.
