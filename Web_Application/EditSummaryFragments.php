@@ -50,19 +50,6 @@
 
             <p>
                <input
-                   name="X1"
-                   type="text"
-                   id="X1"
-                   class=""
-                   value="Active reading [<URL1> <URL2>]. "
-                   style="width:230px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
-               />
-            </p>
-
-            <p>
-               <input
                    name="X2"
                    type="text"
                    id="X2"
@@ -71,6 +58,77 @@
                    style="width:810px;"
                    accesskey="Y"
                    title="Shortcut: Shift + Alt + Y"
+               />
+            </p>
+
+            <p>
+               <input
+                   name="X7"
+                   type="text"
+                   id="X7"
+                   class=""
+                   value="Applied some formatting (as a result the diff looks more extensive than it really is - use view &quot;side-by-side markdown&quot; to compare). "
+                   style="width:780px;"
+                   accesskey="D"
+                   title="Shortcut: Shift + Alt + D"
+               />
+            </p>
+
+            <p>Meta infor<strong><i>m</i></strong>ation does not
+               belong in a question <br/>
+               <input
+                   name="X14"
+                   type="text"
+                   id="X14"
+                   class=""
+                   value="Removed meta information (this belongs in comments). "
+                   style="width:360px;"
+                   accesskey="M"
+                   title="Shortcut: Shift + Alt + M"
+               />
+            </p>
+
+            <p>Statements like "the above" may make sense
+               on a f<strong><i>o</i></strong>rum, but
+               definitely not on Stack Exchange. <br/>
+               <input
+                   name="X17"
+                   type="text"
+                   id="X17"
+                   class=""
+                   value="(References to relative positions of answers are not reliable as they depend on the view (votes/oldest/active) and changing of the accepted answer and change over time (for votes, active, and accepted state)). "
+                   style="width:1260px;"
+                   accesskey="O"
+                   title="Shortcut: Shift + Alt + O"
+               />
+            </p>
+
+            <p>"<i>its"</i> vs. <i>"it's"</i><br/>
+               <input
+                   name="X19"
+                   type="text"
+                   id="X19"
+                   class=""
+                   value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
+                   style="width:680px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
+
+
+
+
+            <p>
+               <input
+                   name="X1"
+                   type="text"
+                   id="X1"
+                   class=""
+                   value="Active reading [<URL1> <URL2>]. "
+                   style="width:230px;"
+                   accesskey="Z"
+                   title="Shortcut: Shift + Alt + Z"
                />
             </p>
 
@@ -126,34 +184,6 @@
                />
             </p>
 
-            <p>
-               <input
-                   name="X7"
-                   type="text"
-                   id="X7"
-                   class=""
-                   value="Applied some formatting (as a result the diff looks more extensive than it really is - use view &quot;side-by-side markdown&quot; to compare). "
-                   style="width:780px;"
-                   accesskey="D"
-                   title="Shortcut: Shift + Alt + D"
-               />
-            </p>
-
-
-            <p>Meta infor<strong><i>m</i></strong>ation does not
-               belong in a question <br/>
-               <input
-                   name="X14"
-                   type="text"
-                   id="X14"
-                   class=""
-                   value="Removed meta information (this belongs in comments). "
-                   style="width:360px;"
-                   accesskey="M"
-                   title="Shortcut: Shift + Alt + M"
-               />
-            </p>
-
             <p>Inappropriate shortening of "IP address" <br/>
 
                <input
@@ -198,21 +228,6 @@
                />
             </p>
 
-            <p>Statements like "the above" may make sense
-               on a f<strong><i>o</i></strong>rum, but
-               definitely not on Stack Exchange. <br/>
-               <input
-                   name="X17"
-                   type="text"
-                   id="X17"
-                   class=""
-                   value="(References to relative positions of answers are not reliable as they depend on the view (votes/oldest/active) and changing of the accepted answer and change over time (for votes, active, and accepted state)). "
-                   style="width:1260px;"
-                   accesskey="O"
-                   title="Shortcut: Shift + Alt + O"
-               />
-            </p>
-
             <p>Unfortunately, Stack Exchange does not
                <strong><i>w</i></strong>arn when text is
                enclosed in "&lt;>". It is just ignored and becomes
@@ -226,19 +241,6 @@
                    style="width:980px;"
                    accesskey="W"
                    title="Shortcut: Shift + Alt + W"
-               />
-            </p>
-
-            <p>"<i>its"</i> vs. <i>"it's"</i><br/>
-               <input
-                   name="X19"
-                   type="text"
-                   id="X19"
-                   class=""
-                   value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
-                   style="width:680px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
                />
             </p>
 
@@ -269,6 +271,75 @@
             <!-- ===================================================== -->
             <hr/>
             <h2>Pure links</h2>
+
+            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences"
+               >Run-on sentences</a>
+               (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
+               >YouTube video</a>).
+               Mostly native speakers (more pronounced for US native
+               speakers), but also for minimum-effort users: <br/>
+
+               <input
+                   name="X26"
+                   type="text"
+                   id="X26"
+                   class=""
+                   value="<https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences> (see also <https://twitter.com/PeterMortensen/status/1199839973215739907>) "
+                   style="width:590px;"
+                   accesskey="R"
+                   title="Shortcut: Shift + Alt + R"
+               />
+            </p>
+
+            <p>Missing <u>a</u>rticles, Russians and Indians,
+               <a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s"
+               >&quot;a&quot;</a>: <br/>
+
+               <input
+                   name="X10"
+                   type="text"
+                   id="X10"
+                   class=""
+                   value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s> "
+                   style="width:410px;"
+                   accesskey="A"
+                   title="Shortcut: Shift + Alt + A"
+               />
+            </p>
+
+            <p>Missing ar<u>t</u>icles, Russians and Indians,
+               <a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s"
+               >&quot;the&quot;</a>: <br/>
+
+               <input
+                   name="X11"
+                   type="text"
+                   id="X11"
+                   class=""
+                   value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s> "
+                   style="width:410px;"
+                   accesskey="T"
+                   title="Shortcut: Shift + Alt + T"
+               />
+            </p>
+
+            <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
+               >The Indian spa<strong><i>c</i></strong>e</a>
+                (from the outdated 1935
+                <a href="https://en.wikipedia.org/wiki/Wren_%26_Martin"
+                ><i>Wren & Martin</i> textbook</a>): <br/>
+
+               <input
+                   name="X9"
+                   type="text"
+                   id="X9"
+                   class=""
+                   value="<https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645> "
+                   style="width:910px;"
+                   accesskey="C"
+                   title="Shortcut: Shift + Alt + C"
+               />
+            </p>
 
             <p><u>U</u>S native speakers, especially southern US,
                <a href="https://www.wikihow.com/Use-Than-and-Then"
@@ -334,75 +405,6 @@
                    style="width:380px;"
                    accesskey="Z"
                    title="Shortcut: Shift + Alt + Z"
-               />
-            </p>
-
-            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences"
-               >Run-on sentences</a>
-               (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
-               >YouTube video</a>).
-               Mostly native speakers (more pronounced for US native
-               speakers), but also for minimum-effort users: <br/>
-
-               <input
-                   name="X26"
-                   type="text"
-                   id="X26"
-                   class=""
-                   value="<https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences> (see also <https://twitter.com/PeterMortensen/status/1199839973215739907>) "
-                   style="width:590px;"
-                   accesskey="R"
-                   title="Shortcut: Shift + Alt + R"
-               />
-            </p>
-
-            <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
-               >The Indian spa<strong><i>c</i></strong>e</a>
-                (from the outdated 1935
-                <a href="https://en.wikipedia.org/wiki/Wren_%26_Martin"
-                ><i>Wren & Martin</i> textbook</a>): <br/>
-
-               <input
-                   name="X9"
-                   type="text"
-                   id="X9"
-                   class=""
-                   value="<https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645> "
-                   style="width:910px;"
-                   accesskey="C"
-                   title="Shortcut: Shift + Alt + C"
-               />
-            </p>
-
-            <p>Missing <u>a</u>rticles, Russians and Indians,
-               <a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s"
-               >&quot;a&quot;</a>: <br/>
-
-               <input
-                   name="X10"
-                   type="text"
-                   id="X10"
-                   class=""
-                   value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s> "
-                   style="width:410px;"
-                   accesskey="A"
-                   title="Shortcut: Shift + Alt + A"
-               />
-            </p>
-
-            <p>Missing ar<u>t</u>icles, Russians and Indians,
-               <a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s"
-               >&quot;the&quot;</a>: <br/>
-
-               <input
-                   name="X11"
-                   type="text"
-                   id="X11"
-                   class=""
-                   value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s> "
-                   style="width:410px;"
-                   accesskey="T"
-                   title="Shortcut: Shift + Alt + T"
                />
             </p>
 
