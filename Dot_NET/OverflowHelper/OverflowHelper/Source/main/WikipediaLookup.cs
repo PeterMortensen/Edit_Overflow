@@ -1267,6 +1267,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OSx Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("v10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Mac OS X v10.7 (Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
             correctionAdd("mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -2099,6 +2100,8 @@ namespace OverflowHelper.core
             correctionAdd("arudio", "Arduino");
             correctionAdd("Ardunio Uno", "Arduino"); //Misspelling.
             correctionAdd("Ardunio", "Arduino");
+            correctionAdd("aurduino", "Arduino");
+            correctionAdd("Aeduino", "Arduino");
 
             correctionAdd("arduino Uno", "Arduino Uno");
             correctionAdd("arduino uno", "Arduino Uno");
@@ -2851,6 +2854,7 @@ namespace OverflowHelper.core
             correctionAdd("r", "R"); //Not actually observed.
 
             correctionAdd("GEdit", "gedit");
+            correctionAdd("Gedit", "gedit");
 
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
@@ -3874,6 +3878,7 @@ namespace OverflowHelper.core
             correctionAdd("charectors", "characters");
             correctionAdd("cheracter", "characters");
             correctionAdd("cheracters", "characters");
+            correctionAdd("charactercters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -4664,6 +4669,7 @@ namespace OverflowHelper.core
             correctionAdd("Im", "I'm");
             correctionAdd("i'm", "I'm");
             correctionAdd("I`m", "I'm");
+            correctionAdd("I´m", "I'm");
 
             correctionAdd("compass", "Compass"); //Conflicts?
 
@@ -4825,6 +4831,7 @@ namespace OverflowHelper.core
             correctionAdd("Ncover", "NCover");
 
             correctionAdd("bps", "bit/s"); //Different unit.
+            correctionAdd("bits/s", "bit/s");
 
             correctionAdd("kbps", "kbit/s"); //Different unit.
             correctionAdd("Kbps", "kbit/s"); //Different unit.
@@ -5263,6 +5270,7 @@ namespace OverflowHelper.core
             correctionAdd("Dev Mgr", "Device Manager");
             correctionAdd("dev mgr", "Device Manager");
             correctionAdd("Device Mangager", "Device Manager");
+            correctionAdd("DEVICE MANAGER", "Device Manager");
 
             correctionAdd("dupe", "duplicate");
             correctionAdd("dup", "duplicate");
@@ -6010,6 +6018,7 @@ namespace OverflowHelper.core
             correctionAdd("CTRL", "Ctrl");
             correctionAdd("CRTL", "Ctrl");
             correctionAdd("ctrl", "Ctrl");
+            correctionAdd("CNTRL", "Ctrl");
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
@@ -6574,6 +6583,8 @@ namespace OverflowHelper.core
             correctionAdd("two compliment", "two's complement");
             correctionAdd("two's-complement", "two's complement");
             correctionAdd("Two's complement", "two's complement");
+            correctionAdd("2nd complement", "two's complement");
+            correctionAdd("2 complement", "two's complement");
 
             correctionAdd("msvc", "Microsoft Visual C++");
             correctionAdd("ms vc", "Microsoft Visual C++");
@@ -6689,6 +6700,7 @@ namespace OverflowHelper.core
             correctionAdd("immedetly", "immediately");
             correctionAdd("imidietally", "immediately");
             correctionAdd("immedietally", "immediately");
+            correctionAdd("immedietly", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -6847,6 +6859,7 @@ namespace OverflowHelper.core
             correctionAdd("Window 10", "Windows&nbsp;10");
             correctionAdd("windows10", "Windows&nbsp;10");
             correctionAdd("Win-10", "Windows&nbsp;10");
+            correctionAdd("WINDOWS10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -6868,6 +6881,7 @@ namespace OverflowHelper.core
             correctionAdd("func", "function");
             correctionAdd("fucntion", "function");
             correctionAdd("funcion", "function");
+            correctionAdd("finction", "function");
 
             correctionAdd("cgi", "CGI");
 
@@ -7124,6 +7138,8 @@ namespace OverflowHelper.core
 
             correctionAdd("com port", "COM port");
             correctionAdd("Com port", "COM port");
+            correctionAdd("Com Port", "COM port");
+            correctionAdd("COM Port", "COM port");
 
             correctionAdd("Netbios", "NetBIOS");
             correctionAdd("NetBios", "NetBIOS");
@@ -7289,17 +7305,18 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
 
-            correctionAdd("lucid", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("10.04", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 LTS (Lucid Lynx)");
+            correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
 
             correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
@@ -7328,24 +7345,24 @@ namespace OverflowHelper.core
             correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
 
-            correctionAdd("12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Precise", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("precise", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)"); //Misspelling.
-            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 LTS (Precise Pangolin)");
+            correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); //Misspelling.
+            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
 
             correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
@@ -7731,6 +7748,8 @@ namespace OverflowHelper.core
             correctionAdd("guarantuee", "guarantee");
             correctionAdd("guarantued", "guarantee");
             correctionAdd("guarantue", "guarantee");
+            correctionAdd("guanrantee", "guarantee");
+            correctionAdd("guanrantea", "guarantee");
 
 
             correctionAdd("eeprom", "EEPROM");
@@ -8105,6 +8124,8 @@ namespace OverflowHelper.core
             correctionAdd("Kali", "Kali Linux");
             correctionAdd("kali", "Kali Linux");
             correctionAdd("Linux Kali", "Kali Linux");
+            correctionAdd("kali linux", "Kali Linux");
+            correctionAdd("Kali linux", "Kali Linux");
 
             correctionAdd("unetbootin", "UNetbootin");
             correctionAdd("Unetbootin", "UNetbootin");
@@ -8403,6 +8424,7 @@ namespace OverflowHelper.core
             correctionAdd("PS2", "PS/2");
 
             correctionAdd("kernal", "kernel");
+            correctionAdd("Kernel", "kernel");
 
             correctionAdd("kde4", "KDE&nbsp;4");
             correctionAdd("KDE4", "KDE&nbsp;4");
@@ -8621,6 +8643,7 @@ namespace OverflowHelper.core
             correctionAdd("kb", "&nbsp;KB"); //Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); //Assuming bytes, not bits...
             correctionAdd("Kbyte", "&nbsp;KB");
+            correctionAdd("Kb", "&nbsp;KB");
 
             correctionAdd("TurboC++", "Turbo C++");
             correctionAdd("turbo c", "Turbo C++"); //Is this true?
@@ -8674,6 +8697,7 @@ namespace OverflowHelper.core
             correctionAdd("2cents", "two cents");
             correctionAdd("2 Cents", "two cents");
             correctionAdd("$0.02", "two cents");
+            correctionAdd("2c", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -8871,6 +8895,7 @@ namespace OverflowHelper.core
             correctionAdd("perms", "permissions");
 
             correctionAdd("login", "log in");
+            correctionAdd("log-in", "log in");
 
             correctionAdd("i3", "Core&nbsp;i3");
             correctionAdd("Core i3", "Core&nbsp;i3");
@@ -8952,6 +8977,7 @@ namespace OverflowHelper.core
 
             correctionAdd("freq", "frequency");
             correctionAdd("frequancy", "frequency");
+            correctionAdd("frq", "frequency");
 
             correctionAdd("basicly", "basically");
             correctionAdd("Basicaly", "basically"); // Not 100% correct (case)
@@ -9080,6 +9106,12 @@ namespace OverflowHelper.core
             correctionAdd("nessecary", "necessary");
             correctionAdd("necesery", "necessary");
             correctionAdd("necessery", "necessary");
+            correctionAdd("nessacery", "necessary");
+            correctionAdd("neccacery", "necessary");
+            correctionAdd("neccecery", "necessary");
+            correctionAdd("neccesery", "necessary");
+            correctionAdd("necesarry", "necessary");
+            correctionAdd("necessarry", "necessary");
 
             correctionAdd("unneccessary", "unnecessary");
             correctionAdd("unncessary", "unnecessary");
@@ -9198,6 +9230,7 @@ namespace OverflowHelper.core
             correctionAdd("avaiable", "available");
             correctionAdd("avialable", "available");
             correctionAdd("avaialble", "available");
+            correctionAdd("availabe", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -9319,6 +9352,7 @@ namespace OverflowHelper.core
             correctionAdd("thread", "question");
             correctionAdd("quesiton", "question");
             correctionAdd("qestion", "question");
+            correctionAdd("qustion", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -9601,6 +9635,7 @@ namespace OverflowHelper.core
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
             correctionAdd("Git-lab", "GitLab");
+            correctionAdd("gilab", "GitLab");
 
             correctionAdd("spanish", "Spanish");
 
@@ -9780,6 +9815,7 @@ namespace OverflowHelper.core
             correctionAdd("BaudRate", "baud rate");
             correctionAdd("baudRate", "baud rate");
             correctionAdd("baudrate", "baud rate");
+            correctionAdd("Baud rate", "baud rate");
 
             correctionAdd("Tektronics", "Tektronix");
             correctionAdd("Tek", "Tektronix");
@@ -9929,7 +9965,9 @@ namespace OverflowHelper.core
 
             correctionAdd("umbraco", "Umbraco");
 
-            correctionAdd("leonardo", "Leonardo");
+            correctionAdd("Leonardo", "Arduino Leonardo");
+            correctionAdd("leonardo", "Arduino Leonardo");
+            correctionAdd("Leanardo", "Arduino Leonardo");
 
             //Of PowerShell...
             correctionAdd("get-service", "Get-Service");
@@ -10045,6 +10083,7 @@ namespace OverflowHelper.core
 
             correctionAdd("accidently", "accidentally");
             correctionAdd("accidentaly", "accidentally");
+            correctionAdd("accidentically", "accidentally");
 
             correctionAdd("gotta", "have got to");
 
@@ -10160,7 +10199,8 @@ namespace OverflowHelper.core
             correctionAdd("ATMEGA328", "ATmega328");
             correctionAdd("AtMega328", "ATmega328");
             correctionAdd("Atmega328", "ATmega328");
-
+            correctionAdd("Atmega 328", "ATmega328");
+            correctionAdd("atmega 328", "ATmega328");
             correctionAdd("ATMEGA 328p", "ATmega328P");
             correctionAdd("ATMEGA328p", "ATmega328P");
             correctionAdd("Atmega328p", "ATmega328P");
@@ -10176,6 +10216,7 @@ namespace OverflowHelper.core
             correctionAdd("ATmega-328", "ATmega328P");
             correctionAdd("ATmega-328p", "ATmega328P");
             correctionAdd("ATmega-328P", "ATmega328P");
+            correctionAdd("328", "ATmega328"); // Does this work??
 
             correctionAdd("anaconda", "Anaconda");
 
@@ -10221,6 +10262,7 @@ namespace OverflowHelper.core
             correctionAdd("excercise", "exercise");
             correctionAdd("excersise", "exercise");
             correctionAdd("Excersise", "exercise");
+            correctionAdd("exersice", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -10348,6 +10390,7 @@ namespace OverflowHelper.core
             correctionAdd("linqPad", "LINQPad");
 
             correctionAdd("effecient", "efficient");
+            correctionAdd("efficiant", "efficient");
 
             correctionAdd("indendation", "indentation");
             correctionAdd("indentitation", "indentation");
@@ -10847,9 +10890,11 @@ namespace OverflowHelper.core
             correctionAdd("isntead", "instead");
             correctionAdd("Insted", "instead");
             correctionAdd("insted", "instead");
+            correctionAdd("intead", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
+            correctionAdd("mabye", "maybe");
 
             correctionAdd("Plutonium", "plutonium");
 
@@ -11014,6 +11059,9 @@ namespace OverflowHelper.core
             correctionAdd("CLIP-BOARD", "clipboard");
             correctionAdd("CLIPBOARD", "clipboard");
             correctionAdd("clip board", "clipboard");
+            correctionAdd("clibpoard", "clipboard");
+            correctionAdd("clibboard", "clipboard");
+            correctionAdd("cliboard", "clipboard");
 
             correctionAdd("eaquation", "equation");
 
@@ -11125,6 +11173,8 @@ namespace OverflowHelper.core
 
             correctionAdd("verision", "version");
             correctionAdd("verison", "version");
+            correctionAdd("vers", "version");
+            correctionAdd("verion", "version");
 
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
@@ -11368,6 +11418,7 @@ namespace OverflowHelper.core
             correctionAdd("RLE", "run-length encoding");
 
             correctionAdd("runnig", "running");
+            correctionAdd("runnning", "running");
 
             correctionAdd("spread-sheet", "spreadsheet");
 
@@ -11599,6 +11650,8 @@ namespace OverflowHelper.core
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
             correctionAdd("Never the less", "nevertheless");
+            correctionAdd("Nvertheless", "nevertheless");
+            correctionAdd("nvertheless", "nevertheless");
 
             correctionAdd("none the less", "nonetheless");
 
@@ -11704,6 +11757,7 @@ namespace OverflowHelper.core
             correctionAdd("pos", "position");
             correctionAdd("postion", "position");
             correctionAdd("possition", "position");
+            correctionAdd("poisiton", "position");
 
             correctionAdd("vehical", "vehicle");
 
@@ -11994,6 +12048,8 @@ namespace OverflowHelper.core
 
             correctionAdd("on-premise", "on-premises");
             correctionAdd("on premise", "on-premises");
+            correctionAdd("on prem", "on-premises");
+            correctionAdd("on-prem", "on-premises");
 
             correctionAdd("outputing", "outputting");
 
@@ -12350,6 +12406,8 @@ namespace OverflowHelper.core
             correctionAdd("suposed", "supposed");
 
             correctionAdd("timezone", "time zone");
+            correctionAdd("timzeone", "time zone");
+            correctionAdd("time-zone", "time zone");
 
             correctionAdd("Busybox", "BusyBox");
 
@@ -12694,6 +12752,13 @@ namespace OverflowHelper.core
 
             correctionAdd("unnecesserily", "unnecessarily");
             correctionAdd("uneceesirly", "unnecessarily");
+            correctionAdd("unnessacerally", "unnecessarily");
+            correctionAdd("unneccacerally", "unnecessarily");
+            correctionAdd("unneccecerally", "unnecessarily");
+            correctionAdd("unneccerally", "unnecessarily");
+            correctionAdd("unneccesserally", "unnecessarily");
+            correctionAdd("unnecceserally", "unnecessarily");
+            correctionAdd("unnecceseraly", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
 
@@ -13106,9 +13171,6 @@ namespace OverflowHelper.core
             correctionAdd("presing", "pressing");
 
             correctionAdd("ac3", "AC-3");
-
-            correctionAdd("bob's your uncle", "Bob's your uncle");
-            correctionAdd("Bob's your Uncle", "Bob's your uncle");
 
             correctionAdd("dts", "DTS");
 
@@ -13869,6 +13931,281 @@ namespace OverflowHelper.core
             correctionAdd("occassionally", "occasionally");
 
             correctionAdd("predicatbly", "predictably");
+
+            correctionAdd("broadcom", "Broadcom");
+
+            correctionAdd("tft", "TFT");
+
+            correctionAdd("Zsh", "Z shell");
+            correctionAdd("zsh", "Z shell");
+
+            correctionAdd("case-insensitive", "case insensitive");
+
+            correctionAdd("congrats", "congratulations");
+
+            correctionAdd("foundtemental", "fundamental");
+
+            correctionAdd("foundtementals", "fundamentals");
+
+            correctionAdd("questionmark", "question mark");
+
+            correctionAdd("short hand", "shorthand");
+
+            correctionAdd("thn", "then");
+
+            correctionAdd("tigger", "trigger");
+
+            correctionAdd("18th Century", "18th century");
+
+            correctionAdd("5 GHz", "5&nbsp;GHz");
+            correctionAdd("5GHz", "5&nbsp;GHz");
+
+            correctionAdd("5g", "5G");
+
+            correctionAdd("arduino nano", "Arduino Nano");
+            correctionAdd("Arduino nano", "Arduino Nano");
+            correctionAdd("nano arduino", "Arduino Nano");
+
+            correctionAdd("asciidoc", "AsciiDoc");
+
+            correctionAdd("asciidoctor", "Asciidoctor");
+
+            correctionAdd("atmel", "Atmel");
+            correctionAdd("ATMEL", "Atmel");
+
+            correctionAdd("Atmel studio", "Atmel Studio");
+
+            correctionAdd("Micro Bit", "BBC Micro Bit");
+
+            correctionAdd("bbs", "BBS");
+
+            correctionAdd("De Morgans laws", "De Morgan's laws");
+
+            correctionAdd("duemilanove", "Duemilanove");
+
+            correctionAdd("emi", "EMI");
+
+            correctionAdd("ESC", "Esc");
+
+            correctionAdd("gpm", "GPM");
+
+            correctionAdd("ins", "Ins");
+
+            correctionAdd("rts", "RTS");
+
+            correctionAdd("accesing", "accessing");
+
+            correctionAdd("aquisition", "acquisition");
+
+            correctionAdd("agein", "again");
+
+            correctionAdd("Baud", "baud");
+
+            correctionAdd("b ut", "but");
+
+            correctionAdd("Century", "century");
+
+            correctionAdd("CHMOD", "chmod");
+
+            correctionAdd("codesnippet", "code snippet");
+
+            correctionAdd("connnect", "connect");
+
+            correctionAdd("de-coupling", "decoupling");
+
+            correctionAdd("pejogory", "derogatory");
+            correctionAdd("perogory", "derogatory");
+            correctionAdd("peregory", "derogatory");
+            correctionAdd("pejegory", "derogatory");
+
+            correctionAdd("embarresleing", "embarrassingly");
+
+            correctionAdd("empaphy", "empathy");
+
+            correctionAdd("eufemism", "euphemism");
+
+            correctionAdd("ferite", "ferrite");
+
+            correctionAdd("fire fighting", "firefighting");
+
+            correctionAdd("gasligthing", "gaslighting");
+            correctionAdd("gas lighting", "gaslighting");
+
+            correctionAdd("gratefull", "grateful");
+
+            correctionAdd("happned", "happened");
+
+            correctionAdd("Harmonic Oscillator", "harmonic oscillator");
+
+            correctionAdd("hsnce", "hence");
+
+            correctionAdd("Inode", "inode");
+
+            correctionAdd("int", "integer");
+            correctionAdd("ingeters", "integer");
+
+            correctionAdd("interferring", "interfering");
+
+            correctionAdd("interupt", "interrupt");
+            correctionAdd("intrerrupt", "interrupt");
+
+            correctionAdd("kindergarden", "kindergarten");
+
+            correctionAdd("man", "man page");
+
+            correctionAdd("mark-up", "markup");
+
+            correctionAdd("memmory", "memory");
+
+            correctionAdd("misc", "miscellaneous");
+
+            correctionAdd("multi pass", "multi-pass");
+
+            correctionAdd("1D", "one-dimensional");
+            correctionAdd("1-D", "one-dimensional");
+
+            correctionAdd("overrideable", "overridable");
+
+            correctionAdd("over-think", "overthink");
+
+            correctionAdd("pizo", "piezo");
+
+            correctionAdd("re-read", "reread");
+
+            correctionAdd("sincirely", "sincerely");
+
+            correctionAdd("specifici", "specific");
+
+            correctionAdd("spell-checker", "spell checker");
+            correctionAdd("spellchecker", "spell checker");
+
+            correctionAdd("sourrounding", "surrounding");
+
+            correctionAdd("synchronious", "synchronous");
+
+            correctionAdd("trainwreck", "train wreck");
+
+            correctionAdd("Tweet", "tweet");
+
+            correctionAdd("Tweeted", "tweeted");
+
+            correctionAdd("wavefunction", "wave function");
+
+            correctionAdd("wavepacket", "wave packet");
+
+            correctionAdd("word list", "wordlist");
+
+            correctionAdd("work flow", "workflow");
+
+            correctionAdd("XCLIP", "xclip");
+
+            correctionAdd("XSEL", "xsel");
+
+            correctionAdd("bob's your uncle", "Bob's your uncle");
+            correctionAdd("Bob's your Uncle", "Bob's your uncle");
+            correctionAdd("bobs your uncle", "Bob's your uncle");
+            correctionAdd("B's ur uncle", "Bob's your uncle");
+
+            correctionAdd("Msc", "Master of Science");
+            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
+                                                        // currently don't allow it...
+
+            correctionAdd("Yún", "Arduino Yún");
+            correctionAdd("Arduino Yun", "Arduino Yún");
+            correctionAdd("Yun", "Arduino Yún");
+
+            correctionAdd("alu", "ALU");
+
+            correctionAdd("babylon", "Babylon.js");
+            correctionAdd("babylon.js", "Babylon.js");
+
+            correctionAdd("brian kernighan", "Brian Kernighan");
+
+            correctionAdd("cinnamon", "Cinnamon");
+
+            correctionAdd("euclidean", "Euclidean");
+
+            correctionAdd("filebeat", "Filebeat");
+
+            correctionAdd("gitlab-ci", "GitLab CI");
+            correctionAdd("Gitlab ci", "GitLab CI");
+
+            correctionAdd("gray code", "Gray code");
+
+            correctionAdd("iT", "IT");
+
+            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
+
+            correctionAdd("PDP11", "PDP-11");
+
+            correctionAdd("princeton", "Princeton");
+
+            correctionAdd("zookeeper", "ZooKeeper");
+
+            correctionAdd("appologize", "apologise");
+
+            correctionAdd("disbale", "disable");
+
+            correctionAdd("embarassing", "embarrassing");
+
+            correctionAdd("exitting", "exiting");
+            correctionAdd("Exitting", "exiting");
+
+            correctionAdd("fail-proof", "failproof");
+
+            correctionAdd("fine grain", "fine-grained");
+
+            correctionAdd("follow up", "follow-up");
+
+            correctionAdd("fore-see-able", "foreseeable");
+
+            correctionAdd("foramt", "format");
+
+            correctionAdd("hardcode", "hard code");
+
+            correctionAdd("in layman's language", "in layman's terms");
+
+            correctionAdd("inevietable", "inevitable");
+
+            correctionAdd("inteded", "intended");
+
+            correctionAdd("MORE", "more");
+
+            correctionAdd("neverous", "nervous");
+
+            correctionAdd("not withstanding", "notwithstanding");
+
+            correctionAdd("by the other hand", "on the other hand");
+
+            correctionAdd("1st complement", "ones' complement");
+
+            correctionAdd("opearator", "operator");
+
+            correctionAdd("reliablly", "reliably");
+
+            correctionAdd("sever", "server");
+
+            correctionAdd("situtation", "situation");
+
+            correctionAdd("SCM", "source control management");
+            correctionAdd("scm", "source control management");
+
+            correctionAdd("syle", "style");
+
+            correctionAdd("TEST", "test");
+
+            correctionAdd("tat", "that");
+
+            correctionAdd("3", "three");
+
+            correctionAdd("TR", "tr");
+
+            correctionAdd("val", "value");
+            correctionAdd("vaue", "value");
+
+            correctionAdd("view point", "viewpoint");
+
+            correctionAdd("WHOAMI", "whoami");
 
 
 
@@ -14750,7 +15087,7 @@ namespace OverflowHelper.core
 
             URL_Add("BCP", "https://en.wikipedia.org/wiki/Bulk_Copy_Program");
 
-            URL_Add("Unity Application Block", "http://unity.codeplex.com/");
+            URL_Add("Unity Application Block", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library#Version_5.0_Silverlight_Integration_Pack"); // Old: http://unity.codeplex.com/
 
             URL_Add("Windows&nbsp;Explorer", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: https://en.wikipedia.org/wiki/Windows_Explorer
 
@@ -16158,7 +16495,7 @@ namespace OverflowHelper.core
 
             URL_Add("download", "https://en.wikipedia.org/wiki/Download");
 
-            URL_Add("Ubuntu&nbsp;12.04 LTS (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
+            URL_Add("Ubuntu&nbsp;12.04 (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
 
             URL_Add("Ubuntu&nbsp;12.10 (Quantal Quetzal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29");
 
@@ -16338,7 +16675,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu&nbsp;9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29");
 
-            URL_Add("Ubuntu&nbsp;10.04 LTS (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
+            URL_Add("Ubuntu&nbsp;10.04 (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
 
             URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
 
@@ -17285,7 +17622,7 @@ namespace OverflowHelper.core
 
             URL_Add("Umbraco", "https://en.wikipedia.org/wiki/Umbraco");
 
-            URL_Add("Leonardo", "https://store.arduino.cc/arduino-leonardo-with-headers");
+            URL_Add("Arduino Leonardo", "https://store.arduino.cc/arduino-leonardo-with-headers");
 
             URL_Add("Get-Service", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service");
 
@@ -20406,6 +20743,254 @@ namespace OverflowHelper.core
 
             URL_Add("predictably", "https://en.wiktionary.org/wiki/predictably#Adverb");
 
+            URL_Add("Broadcom", "https://en.wikipedia.org/wiki/Broadcom_Inc.");
+
+            URL_Add("TFT", "https://en.wikipedia.org/wiki/Thin-film-transistor_liquid-crystal_display");
+
+            URL_Add("Z shell", "https://en.wikipedia.org/wiki/Z_shell");
+
+            URL_Add("case insensitive", "https://en.wiktionary.org/wiki/case_insensitive#Adjective");
+
+            URL_Add("congratulations", "https://en.wiktionary.org/wiki/congratulations#Interjection");
+
+            URL_Add("fundamental", "https://en.wiktionary.org/wiki/fundamental#Noun");
+
+            URL_Add("fundamentals", "https://en.wiktionary.org/wiki/fundamental#Noun");
+
+            URL_Add("question mark", "https://en.wikipedia.org/wiki/Question_mark");
+
+            URL_Add("shorthand", "https://en.wiktionary.org/wiki/shorthand#Noun");
+
+            URL_Add("then", "https://en.wiktionary.org/wiki/then#Adverb");
+
+            URL_Add("trigger", "https://en.wiktionary.org/wiki/trigger#Verb");
+
+            URL_Add("18th century", "https://en.wikipedia.org/wiki/18th_century");
+
+            URL_Add("5&nbsp;GHz", "https://en.wikipedia.org/wiki/Wi-Fi#Waveband");
+
+            URL_Add("5G", "https://en.wikipedia.org/wiki/5G");
+
+            URL_Add("Arduino Nano", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Official");
+
+            URL_Add("Arduino Yún", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Official");
+
+            URL_Add("AsciiDoc", "https://en.wikipedia.org/wiki/AsciiDoc");
+
+            URL_Add("Asciidoctor", "https://en.wikipedia.org/wiki/AsciiDoc");
+
+            URL_Add("Atmel", "https://en.wikipedia.org/wiki/Atmel");
+
+            URL_Add("Atmel Studio", "https://en.wikipedia.org/wiki/Atmel#Microcontrollers");
+
+            URL_Add("BBC Micro Bit", "https://en.wikipedia.org/wiki/Micro_Bit");
+
+            URL_Add("BBS", "https://en.wikipedia.org/wiki/Bulletin_board_system");
+
+            URL_Add("De Morgan's laws", "https://en.wikipedia.org/wiki/De_Morgan%27s_laws");
+
+            URL_Add("Duemilanove", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Superseded");
+
+            URL_Add("EMI", "https://en.wikipedia.org/wiki/Electromagnetic_interference");
+
+            URL_Add("Esc", "https://en.wikipedia.org/wiki/Esc_key");
+
+            URL_Add("GPM", "https://en.wikipedia.org/wiki/GPM_(software)");
+
+            URL_Add("Ins", "https://en.wikipedia.org/wiki/Insert_key");
+
+            URL_Add("Master of Science", "https://en.wikipedia.org/wiki/Master_of_Science");
+
+            URL_Add("RTS", "https://en.wikipedia.org/wiki/Flow_control_(data)#Hardware_flow_control");
+
+            URL_Add("accessing", "https://en.wiktionary.org/wiki/access#Verb");
+
+            URL_Add("acquisition", "https://en.wiktionary.org/wiki/euphemism#Noun");
+
+            URL_Add("again", "https://en.wiktionary.org/wiki/again#Adverb");
+
+            URL_Add("baud", "https://en.wikipedia.org/wiki/Symbol_rate");
+
+            URL_Add("but", "https://en.wiktionary.org/wiki/but#Conjunction");
+
+            URL_Add("century", "https://en.wiktionary.org/wiki/century#Noun");
+
+            URL_Add("chmod", "https://en.wikipedia.org/wiki/Chmod");
+
+            URL_Add("code snippet", "https://en.wikipedia.org/wiki/Snippet_(programming)");
+
+            URL_Add("connect", "https://en.wiktionary.org/wiki/connect#Verb");
+
+            URL_Add("decoupling", "https://en.wikipedia.org/wiki/Decoupling_(electronics)");
+
+            URL_Add("derogatory", "https://en.wiktionary.org/wiki/derogatory#Adjective");
+
+            URL_Add("embarrassingly", "https://en.wiktionary.org/wiki/embarrassingly");
+
+            URL_Add("empathy", "https://en.wiktionary.org/wiki/empathy#Noun");
+
+            URL_Add("euphemism", "https://en.wiktionary.org/wiki/euphemism#Noun");
+
+            URL_Add("ferrite", "https://en.wikipedia.org/wiki/Ferrite_%28magnet%29");
+
+            URL_Add("firefighting", "https://en.wiktionary.org/wiki/firefighting#Noun");
+
+            URL_Add("gaslighting", "https://en.wiktionary.org/wiki/gaslight#Verb");
+
+            URL_Add("grateful", "https://en.wiktionary.org/wiki/grateful#Adjective");
+
+            URL_Add("happened", "https://en.wiktionary.org/wiki/happen#Verb");
+
+            URL_Add("harmonic oscillator", "https://en.wikipedia.org/wiki/Harmonic_oscillator");
+
+            URL_Add("hence", "https://en.wiktionary.org/wiki/hence#Adverb");
+
+            URL_Add("inode", "https://en.wikipedia.org/wiki/Inode");
+
+            URL_Add("integer", "https://en.wiktionary.org/wiki/integer#Noun");
+
+            URL_Add("interfering", "https://en.wiktionary.org/wiki/interfere#Verb");
+
+            URL_Add("interrupt", "https://en.wiktionary.org/wiki/interrupt#Noun");
+
+            URL_Add("kindergarten", "https://en.wiktionary.org/wiki/kindergarten#Noun");
+
+            URL_Add("man page", "https://en.wikipedia.org/wiki/Man_page");
+
+            URL_Add("markup", "https://en.wiktionary.org/wiki/markup#Noun");
+
+            URL_Add("memory", "https://en.wiktionary.org/wiki/memory#Noun");
+
+            URL_Add("miscellaneous", "https://en.wiktionary.org/wiki/miscellaneous#Adjective");
+
+            URL_Add("multi-pass", "https://en.wiktionary.org/wiki/multi-pass#Adjective");
+
+            URL_Add("one-dimensional", "https://en.wiktionary.org/wiki/one-dimensional#Adjective");
+
+            URL_Add("overridable", "https://en.wiktionary.org/wiki/overridable#Adjective");
+
+            URL_Add("overthink", "https://en.wiktionary.org/wiki/overthink#Verb_2");
+
+            URL_Add("piezo", "https://en.wikipedia.org/wiki/Piezoelectric_speaker");
+
+            URL_Add("reread", "https://en.wiktionary.org/wiki/reread#Verb");
+
+            URL_Add("sincerely", "https://en.wiktionary.org/wiki/sincerely#Adverb");
+
+            URL_Add("specific", "https://en.wiktionary.org/wiki/specific#Adjective");
+
+            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
+
+            URL_Add("surrounding", "https://en.wiktionary.org/wiki/surrounding#Adjective");
+
+            URL_Add("synchronous", "https://en.wiktionary.org/wiki/synchronous#Adjective");
+
+            URL_Add("train wreck", "https://en.wiktionary.org/wiki/train_wreck#Noun");
+
+            URL_Add("tweet", "https://en.wiktionary.org/wiki/tweet#Verb");
+
+            URL_Add("tweeted", "https://en.wiktionary.org/wiki/tweet#Verb");
+
+            URL_Add("wave function", "https://en.wikipedia.org/wiki/Wave_function");
+
+            URL_Add("wave packet", "https://en.wikipedia.org/wiki/Wave_packet");
+
+            URL_Add("wordlist", "https://en.wiktionary.org/wiki/wordlist#Noun");
+
+            URL_Add("workflow", "https://en.wiktionary.org/wiki/workflow#Noun");
+
+            URL_Add("xclip", "https://linux.die.net/man/1/xclip");
+
+            URL_Add("xsel", "https://linux.die.net/man/1/xsel");
+
+            URL_Add("ALU", "https://en.wikipedia.org/wiki/Arithmetic_logic_unit");
+
+            URL_Add("Babylon.js", "https://en.wikipedia.org/wiki/Babylon.js");
+
+            URL_Add("Brian Kernighan", "https://en.wikipedia.org/wiki/Brian_Kernighan");
+
+            URL_Add("Cinnamon", "https://en.wikipedia.org/wiki/Cinnamon");
+
+            URL_Add("Euclidean", "https://en.wiktionary.org/wiki/Euclidean#Adjective");
+
+            URL_Add("Filebeat", "https://en.wikiversity.org/wiki/ElasticSearch/Filebeat");
+
+            URL_Add("GitLab CI", "https://docs.gitlab.com/ee/ci/");
+
+            URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
+
+            URL_Add("IT", "https://en.wikipedia.org/wiki/Information_technology");
+
+            URL_Add("Northern Hemisphere", "https://en.wiktionary.org/wiki/Northern_Hemisphere#Noun");
+
+            URL_Add("PDP-11", "https://en.wikipedia.org/wiki/PDP-11");
+
+            URL_Add("Princeton", "https://en.wikipedia.org/wiki/Princeton_University");
+
+            URL_Add("ZooKeeper", "https://en.wikipedia.org/wiki/Apache_ZooKeeper");
+
+            URL_Add("apologise", "https://en.wiktionary.org/wiki/apologise#Verb");
+
+            URL_Add("disable", "https://en.wiktionary.org/wiki/disable#Verb");
+
+            URL_Add("embarrassing", "https://en.wiktionary.org/wiki/embarrassing#Adjective");
+
+            URL_Add("exiting", "https://en.wiktionary.org/wiki/exit#Verb");
+
+            URL_Add("failproof", "https://en.wiktionary.org/wiki/failproof#Adjective");
+
+            URL_Add("fine-grained", "https://en.wiktionary.org/wiki/fine-grained#Adjective");
+
+            URL_Add("follow-up", "https://en.wiktionary.org/wiki/follow-up#Noun");
+
+            URL_Add("foreseeable", "https://en.wiktionary.org/wiki/foreseeable#Adjective");
+
+            URL_Add("format", "https://en.wiktionary.org/wiki/format#Noun");
+
+            URL_Add("hard code", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("in layman's terms", "https://en.wiktionary.org/wiki/in_layman%27s_terms#Prepositional_phrase");
+
+            URL_Add("inevitable", "https://en.wiktionary.org/wiki/inevitable#Adjective");
+
+            URL_Add("intended", "https://en.wiktionary.org/wiki/intended#Verb");
+
+            URL_Add("more", "https://en.wikipedia.org/wiki/More_(command)");
+
+            URL_Add("nervous", "https://en.wiktionary.org/wiki/nervous#Adjective");
+
+            URL_Add("notwithstanding", "https://en.wiktionary.org/wiki/notwithstanding#Adverb");
+
+            URL_Add("on the other hand", "https://en.wiktionary.org/wiki/on_the_other_hand#Prepositional_phrase");
+
+            URL_Add("ones' complement", "https://en.wikipedia.org/wiki/Ones'_complement");
+
+            URL_Add("operator", "https://en.wiktionary.org/wiki/operator#Noun");
+
+            URL_Add("reliably", "https://en.wiktionary.org/wiki/reliably#Adverb");
+
+            URL_Add("server", "https://en.wikipedia.org/wiki/Server_(computing)");
+
+            URL_Add("situation", "https://en.wiktionary.org/wiki/situation#Noun");
+
+            URL_Add("source control management", "https://en.wikipedia.org/wiki/Version_control");
+
+            URL_Add("style", "https://en.wiktionary.org/wiki/style#Noun");
+
+            URL_Add("test", "https://linux.die.net/man/1/test");
+
+            URL_Add("that", "https://en.wiktionary.org/wiki/that#Conjunction");
+
+            URL_Add("three", "https://en.wiktionary.org/wiki/three#Numeral");
+
+            URL_Add("tr", "https://en.wikipedia.org/wiki/Tr_(Unix)");
+
+            URL_Add("value", "https://en.wiktionary.org/wiki/value#Noun");
+
+            URL_Add("viewpoint", "https://en.wiktionary.org/wiki/viewpoint#Noun");
+
+            URL_Add("whoami", "https://en.wikipedia.org/wiki/Whoami");
+
 
 
             //========================================================
@@ -20632,8 +21217,8 @@ namespace OverflowHelper.core
                       "\" has been entered as a correct term...";
                 }
 
-                // On-the-fly check (but it would be better if this check was
-                // done at program startup)
+                // On-the-fly checks (but it would be better if theses
+                // checks was done at program startup)
                 //
                 // URLs should look like ones.
                 //
@@ -20645,6 +21230,14 @@ namespace OverflowHelper.core
                       "A URL, <" + someURL + ">, does not look like one. " +
                       "For correct term \"" + someCorrectTerm + "\".";
                 }
+                if (someURL.Contains("duckduckgo.com") ||
+                    someURL.Contains("www.google.com"))
+                {
+                    msg =
+                      "A URL, <" + someURL + ">, is a search query. " +
+                      "This is not allowed.";
+                }
+
 
                 // Report error, if any. For now, blocking dialogs...
                 if (msg != string.Empty)
