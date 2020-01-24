@@ -1504,7 +1504,7 @@ namespace OverflowHelper
             clipboardContext = clipboardContext.Replace("\n", "");
 
             // "*" is sometimes included when copying from Quora (when the
-            // content is in a list item)
+            // content is in a list item and when it is in bold (two "*"s))
             //
             if (clipboardContext.StartsWith("*"))
             {
