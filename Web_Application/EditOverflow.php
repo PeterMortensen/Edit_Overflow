@@ -60,6 +60,34 @@
             #    "<p>\n";
 
 
+            # Some filtering, e.g. for content copied from a Quora editing
+            # window.
+            {
+                #This corresponds to the filtering done in the
+                #Windows Forms/C# application,
+                #setSearchFieldFromClipboard(),
+                #file </Dot_NET/OverflowHelper/OverflowHelper/Source/GUI/Forms/frmMainForm.cs>.
+                #
+                #
+                #Perhaps we can eliminate this redundancy by having a
+                #set of rules as data?
+                
+                # If bold in a Quora editing
+
+                # "*" is sometimes included when copying 
+                # from Quora (when the content is in a 
+                # list item and when it is in bold 
+                # (two "*"s)).
+                #$lookUpTerm = substr_replace('*', '', 0, 0);
+                $lookUpTerm = preg_replace('/\*/', '', $lookUpTerm);
+
+                
+                #For more complicated replaces (regular expression)
+                #$lookUpTerm = preg_replace('/$/', '&gt;', $lookUpTerm);
+                
+            }
+
+
             # Avoid warning messages for an empty input (at the
             # expense of some confusion)
             if ($lookUpTerm == '')
@@ -158,7 +186,7 @@
             else
             {
                 # Avoid "Undefined variable: editSummary_output", etc.
-                # Or should we use simply a default value
+                # Or should we simply use a default value
                 # instead (now redundancy with the below)?
                 $editSummary_output  = "";
                 $editSummary_output2 = "";
@@ -205,8 +233,7 @@
                                       array_slice($items, 0, -1))),
                                       array_slice($items, -1)), 'strlen'));
 
-            # Adjust for two elements
-
+            # Revert: Adjust for two elements (no comma)
             if ($elements == 2)
             {
                 $URLlist2 = str_replace(', and', ' and', $URLlist2);
@@ -330,7 +357,7 @@
                         # static HTML here in this PHP file), start.
                         # echo "\n$EOL_andBaseIndent" .
                         #    "<!--";
-                    }
+                    } # Failed lookup
                 ?>
 
                 <label for="LookUpTerm"><u>L</u>ook up term</label>
