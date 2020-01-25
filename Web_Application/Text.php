@@ -446,8 +446,8 @@
                 class="XYZ30"
                 value="Remove common leading space"
                 style="width:230px;"
-                accesskey="X"
-                title="Shortcut: Shift + Alt + X"
+                accesskey="L"
+                title="Shortcut: Shift + Alt + L"
             />
 
 
@@ -458,7 +458,6 @@
             echo "$message $extraMessage\n\n";
 
             the_EditOverflowFooter();
-
         ?>
 
 
