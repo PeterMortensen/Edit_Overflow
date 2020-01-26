@@ -593,6 +593,7 @@ namespace OverflowHelper.core
             correctionAdd("javsscript", "JavaScript");
             correctionAdd("Javsacript", "JavaScript");
             correctionAdd("js script", "JavaScript");
+            correctionAdd("JavaScrpt", "JavaScript");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -703,6 +704,7 @@ namespace OverflowHelper.core
             correctionAdd("my SQL", "MySQL");
             correctionAdd("myqsl", "MySQL");
             correctionAdd("Myql", "MySQL");
+            correctionAdd("mysl", "MySQL");
 
             correctionAdd("Linq to SQL", "LINQ&nbsp;to&nbsp;SQL");
             correctionAdd("linq to sql", "LINQ&nbsp;to&nbsp;SQL");
@@ -4176,6 +4178,7 @@ namespace OverflowHelper.core
             correctionAdd("dont't", "don’t");
             correctionAdd("don´t", "don’t");
             correctionAdd("do't", "don’t");
+            correctionAdd("dnt", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -4837,53 +4840,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ncover", "NCover");
 
-            correctionAdd("bps", "bit/s"); //Different unit.
-            correctionAdd("bits/s", "bit/s");
-
-            correctionAdd("kbps", "kbit/s"); //Different unit.
-            correctionAdd("Kbps", "kbit/s"); //Different unit.
-            correctionAdd("kBits/s", "kbit/s");
-            correctionAdd("kbits/s", "kbit/s");
-            correctionAdd("Kb/sec", "kbit/s");
-            correctionAdd("kBit/s", "kbit/s");
-            correctionAdd("KBPS", "kbit/s");
-
-            correctionAdd("mbps", "Mbit/s"); //Different unit.
-            correctionAdd("Mbps", "Mbit/s"); //Different unit.
-            correctionAdd("MBps", "Mbit/s"); //Different unit.
-            correctionAdd("mbs", "Mbit/s"); //Misspelling
-            correctionAdd("MBit/s", "Mbit/s"); //Case
-            correctionAdd("mbit", "Mbit/s"); //Misspelling
-
-            correctionAdd("gbps", "Gbit/s"); //Different unit.
-            correctionAdd("gbit", "Gbit/s");
-            correctionAdd("Gbit", "Gbit/s");
-            correctionAdd("Gbps", "Gbit/s");
-
-            correctionAdd("KHz", "kHz"); //Spelling/case.
-            correctionAdd("Khz", "kHz"); //Spelling/case.
-            correctionAdd("khz", "kHz"); //Spelling/case.
-            correctionAdd("KHZ", "kHz"); //Spelling/case.
-
-            correctionAdd("Mhz", "MHz"); //Spelling.
-            correctionAdd("mhz", "MHz"); //Spelling. Could be millihertz
-            correctionAdd("MHZ", "MHz"); //Spelling.
-            correctionAdd("mHz", "MHz"); //Spelling. Could be millihertz
-            correctionAdd("Mz", "MHz");
-            correctionAdd("megahert", "MHz");
-            correctionAdd("megahertz", "MHz");
-
-            correctionAdd("Ghz", "GHz"); //Spelling.
-            correctionAdd("GHZ", "GHz"); //Spelling.
-            correctionAdd("ghz", "GHz"); //Spelling.
-            correctionAdd("gHz", "GHz"); //Spelling.
-            correctionAdd("gigahert", "GHz");
-            correctionAdd("gigahertz", "GHz");
-
-            correctionAdd("hz", "Hz"); //Spelling.
-            correctionAdd("Hertz", "Hz");
-            correctionAdd("HZ", "Hz");
-
             correctionAdd("cscript", "CScript");
             correctionAdd("Cscript", "CScript");
 
@@ -5218,6 +5174,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lamp", "LAMP");
             correctionAdd("Lamp", "LAMP");
+            correctionAdd("L.A.M.P", "LAMP"); // Actually, it should be "L.A.M.P.", but we currently have a limitation in the web interface (false negative lookup)
 
             correctionAdd("Fisheye", "FishEye");
             correctionAdd("fisheye", "FishEye");
@@ -7982,10 +7939,11 @@ namespace OverflowHelper.core
             correctionAdd("english", "English");
 
             correctionAdd("lets", "let’s");
-            correctionAdd("Lets", "let’s"); //Not 100% correct - case.
             correctionAdd("let's", "let’s");
+            correctionAdd("Lets", "let’s"); //Not 100% correct - case.
             correctionAdd("Let’s", "let’s"); //Not 100% correct - case.
             correctionAdd("Let's", "let’s"); //Not 100% correct - case.
+            correctionAdd("Let`s", "let’s"); //Not 100% correct - case.
 
             correctionAdd("disambig", "disambiguation");
 
@@ -10241,12 +10199,14 @@ namespace OverflowHelper.core
 
             correctionAdd("posability", "possibility");
             correctionAdd("possibilty", "possibility");
+            correctionAdd("posibility", "possibility");
 
             correctionAdd("c89", "C89");
 
             correctionAdd("c99", "C99");
 
             correctionAdd("occured", "occurred");
+            correctionAdd("ocurred", "occurred");
 
             correctionAdd("developement", "development");
 
@@ -11654,9 +11614,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
 
-            correctionAdd("thz", "THz");
-            correctionAdd("Thz", "THz");
-
             correctionAdd("transifex", "Transifex");
 
             correctionAdd("Additionaly", "additionally");
@@ -11687,6 +11644,8 @@ namespace OverflowHelper.core
             correctionAdd("refernce", "reference");
             correctionAdd("refrence", "reference");
             correctionAdd("REFRENCE", "reference");
+            correctionAdd("Refernce", "reference");
+            correctionAdd("Reference", "reference");
 
             correctionAdd("stdin", "standard input");
 
@@ -11724,6 +11683,7 @@ namespace OverflowHelper.core
             correctionAdd("with in", "within");
 
             correctionAdd("warry", "worry");
+            correctionAdd("wory", "worry");
 
             correctionAdd("fortnite", "Fortnite");
 
@@ -12333,6 +12293,10 @@ namespace OverflowHelper.core
             correctionAdd("imporant", "important");
 
             correctionAdd("intrested", "interested");
+            correctionAdd("intetessered", "interested");
+            correctionAdd("interessered", "interested");
+            correctionAdd("interesseted", "interested");
+            correctionAdd("interessed", "interested");
 
             correctionAdd("Iodine", "iodine");
 
@@ -13988,9 +13952,6 @@ namespace OverflowHelper.core
 
             correctionAdd("18th Century", "18th century");
 
-            correctionAdd("5 GHz", "5&nbsp;GHz");
-            correctionAdd("5GHz", "5&nbsp;GHz");
-
             correctionAdd("5g", "5G");
 
             correctionAdd("arduino nano", "Arduino Nano");
@@ -14357,6 +14318,89 @@ namespace OverflowHelper.core
             correctionAdd("HidMacros", "HID Macros");
             correctionAdd("HIDmacros", "HID Macros");
             correctionAdd("HID macros", "HID Macros");
+
+            correctionAdd("bps", "&nbsp;bit/s"); //Different unit.
+            correctionAdd("bits/s", "&nbsp;bit/s");
+
+            correctionAdd("kbps", "&nbsp;kbit/s"); //Different unit.
+            correctionAdd("Kbps", "&nbsp;kbit/s"); //Different unit.
+            correctionAdd("kBits/s", "&nbsp;kbit/s");
+            correctionAdd("kbits/s", "&nbsp;kbit/s");
+            correctionAdd("Kb/sec", "&nbsp;kbit/s");
+            correctionAdd("kBit/s", "&nbsp;kbit/s");
+            correctionAdd("KBPS", "&nbsp;kbit/s");
+
+            correctionAdd("mbps", "&nbsp;Mbit/s"); //Different unit.
+            correctionAdd("Mbps", "&nbsp;Mbit/s"); //Different unit.
+            correctionAdd("MBps", "&nbsp;Mbit/s"); //Different unit.
+            correctionAdd("mbs", "&nbsp;Mbit/s"); //Misspelling
+            correctionAdd("MBit/s", "&nbsp;Mbit/s"); //Case
+            correctionAdd("mbit", "&nbsp;Mbit/s"); //Misspelling
+
+            correctionAdd("gbps", "&nbsp;Gbit/s"); //Different unit.
+            correctionAdd("gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbps", "&nbsp;Gbit/s");
+            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
+
+            correctionAdd("hz", "&nbsp;Hz"); //Spelling.
+            correctionAdd("Hertz", "&nbsp;Hz");
+            correctionAdd("HZ", "&nbsp;Hz");
+
+            correctionAdd("KHz", "&nbsp;kHz"); //Spelling/case.
+            correctionAdd("Khz", "&nbsp;kHz"); //Spelling/case.
+            correctionAdd("khz", "&nbsp;kHz"); //Spelling/case.
+            correctionAdd("KHZ", "&nbsp;kHz"); //Spelling/case.
+
+            correctionAdd("Mhz", "&nbsp;MHz"); //Spelling.
+            correctionAdd("mhz", "&nbsp;MHz"); //Spelling. Could be millihertz
+            correctionAdd("MHZ", "&nbsp;MHz"); //Spelling.
+            correctionAdd("mHz", "&nbsp;MHz"); //Spelling. Could be millihertz
+            correctionAdd("Mz", "&nbsp;MHz");
+            correctionAdd("megahert", "&nbsp;MHz");
+            correctionAdd("megahertz", "&nbsp;MHz");
+
+            correctionAdd("Ghz", "&nbsp;GHz"); //Spelling.
+            correctionAdd("GHZ", "&nbsp;GHz"); //Spelling.
+            correctionAdd("ghz", "&nbsp;GHz"); //Spelling.
+            correctionAdd("gHz", "&nbsp;GHz"); //Spelling.
+            correctionAdd("gigahert", "&nbsp;GHz");
+            correctionAdd("gigahertz", "&nbsp;GHz");
+
+            correctionAdd("thz", "&nbsp;THz");
+            correctionAdd("Thz", "&nbsp;THz");
+
+            correctionAdd("5 GHz", "5&nbsp;GHz");
+            correctionAdd("5GHz", "5&nbsp;GHz");
+
+            correctionAdd("adobe", "Adobe");
+
+            correctionAdd("Gitkraken", "GitKraken");
+            correctionAdd("gitkraken", "GitKraken");
+
+            correctionAdd("NYT", "The New York Times");
+
+            correctionAdd("asociated", "associated");
+
+            correctionAdd("in the same time", "at the same time");
+
+            correctionAdd("diplaying", "displaying");
+
+            correctionAdd("Named Entity Recognition", "named-entity recognition");
+
+            correctionAdd("offchance", "off chance");
+
+            correctionAdd("on one hand", "on the one hand");
+            correctionAdd("From one hand", "on the one hand");
+            correctionAdd("from one hand", "on the one hand");
+
+            correctionAdd("re-point", "repoint");
+
+            correctionAdd("some where", "somewhere");
+
+            correctionAdd("Spacy", "spaCy");
+
+            correctionAdd("suprisingly", "surprisingly");
 
 
 
@@ -15659,14 +15703,6 @@ namespace OverflowHelper.core
 
             URL_Add("Base64", "https://en.wikipedia.org/wiki/Base64");
 
-            URL_Add("bit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
-
-            URL_Add("kbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
-
-            URL_Add("Mbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
-
-            URL_Add("Gbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
-
             URL_Add("Windows&nbsp;CE", "https://en.wikipedia.org/wiki/Windows_CE");
 
             URL_Add("Amazon DOT com", "https://en.wikipedia.org/wiki/Amazon.com");
@@ -15694,10 +15730,6 @@ namespace OverflowHelper.core
             URL_Add("software", "http://en.wiktionary.org/wiki/software");
 
             URL_Add("NCover", "https://en.wikipedia.org/wiki/NCover");
-
-            URL_Add("kHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
-            URL_Add("MHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
-            URL_Add("GHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
 
             URL_Add("CScript", "https://en.wikipedia.org/wiki/Windows_Script_Host#Available_scripting_engines");
 
@@ -16996,8 +17028,6 @@ namespace OverflowHelper.core
             URL_Add("mathematics", "https://en.wikipedia.org/wiki/Mathematics");
 
             URL_Add("Task Scheduler", "https://en.wikipedia.org/wiki/Windows_Task_Scheduler");
-
-            URL_Add("Hz", "https://en.wikipedia.org/wiki/Hertz");
 
             URL_Add("volt", "https://en.wikipedia.org/wiki/Volt");
 
@@ -18897,8 +18927,6 @@ namespace OverflowHelper.core
             URL_Add("MSc", "https://en.wiktionary.org/wiki/MSc#Noun");
 
             URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspbian#Version_history");
-
-            URL_Add("THz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
 
             URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
 
@@ -20919,8 +20947,6 @@ namespace OverflowHelper.core
 
             URL_Add("18th century", "https://en.wikipedia.org/wiki/18th_century");
 
-            URL_Add("5&nbsp;GHz", "https://en.wikipedia.org/wiki/Wi-Fi#Waveband");
-
             URL_Add("5G", "https://en.wikipedia.org/wiki/5G");
 
             URL_Add("Arduino Nano", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Official");
@@ -21253,6 +21279,51 @@ namespace OverflowHelper.core
 
             URL_Add("HID Macros", "http://www.hidmacros.eu/whatisit.php");
 
+            URL_Add("&nbsp;bit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+
+            URL_Add("&nbsp;kbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+
+            URL_Add("&nbsp;Mbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+
+            URL_Add("&nbsp;Gbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+
+            URL_Add("&nbsp;Hz", "https://en.wikipedia.org/wiki/Hertz");
+
+            URL_Add("&nbsp;kHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
+
+            URL_Add("&nbsp;MHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
+
+            URL_Add("&nbsp;GHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
+
+            URL_Add("&nbsp;THz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
+
+            URL_Add("5&nbsp;GHz", "https://en.wikipedia.org/wiki/Wi-Fi#Waveband");
+
+            URL_Add("Adobe", "https://en.wikipedia.org/wiki/Adobe_Inc.");
+
+            URL_Add("GitKraken", "https://en.wikipedia.org/wiki/Axosoft");
+
+            URL_Add("The New York Times", "https://en.wikipedia.org/wiki/The_New_York_Times");
+
+            URL_Add("associated", "https://en.wiktionary.org/wiki/associated#Adjective");
+
+            URL_Add("at the same time", "https://en.wiktionary.org/wiki/at_the_same_time#Prepositional_phrase");
+
+            URL_Add("displaying", "https://en.wiktionary.org/wiki/display#Verb");
+
+            URL_Add("named-entity recognition", "https://en.wikipedia.org/wiki/Named-entity_recognition");
+
+            URL_Add("off chance", "https://en.wiktionary.org/wiki/off_chance#Noun");
+
+            URL_Add("on the one hand", "https://en.wiktionary.org/wiki/on_the_one_hand#Prepositional_phrase");
+
+            URL_Add("repoint", "https://en.wiktionary.org/wiki/repoint#Verb");
+
+            URL_Add("somewhere", "https://en.wiktionary.org/wiki/somewhere#Adverb");
+
+            URL_Add("spaCy", "https://en.wikipedia.org/wiki/SpaCy");
+
+            URL_Add("surprisingly", "https://en.wiktionary.org/wiki/surprisingly#Adverb");
 
 
 
