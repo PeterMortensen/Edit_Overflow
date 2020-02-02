@@ -16,7 +16,9 @@
     #      some redundancy (e.g. Edit Overflow version).
 
 
-    require_once('eFooter.php');
+    require_once('eFooter.php'); # Our own file, not WordPress...
+
+
 
 
     # Used by one page (EditOverflow.php)
@@ -37,7 +39,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a9 2020-01-25T112215Z+0";
+        return "Edit Overflow v. 1.1.49a11 2020-01-31T180824Z+0";
     }
 
 
@@ -272,6 +274,18 @@
         #
         define('WP_USE_THEMES', false);
         require(dirname(__FILE__) . '/wp-blog-header.php');
+
+
+        # For a page counter, plugin "Page Visit Counter",
+        # <https://wordpress.org/plugins/page-visit-counter/>
+        ##require_once('shortcodes.php');
+        require_once('wp-includes/shortcodes.php');
+
+        #require_once(‘blog/wp-blog-header.php’); # But it doesn't actually exist 
+                                                  # in folder 'blog'.
+
+        #require_once(‘wp-blog-header.php’);
+
 
         get_header(); # Note: Using some WordPress themes results in the following
                       #       on the page itself (though we also have it in the
