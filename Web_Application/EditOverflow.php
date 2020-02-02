@@ -71,20 +71,18 @@
                 #
                 #Perhaps we can eliminate this redundancy by having a
                 #set of rules as data?
-                
+
                 # If bold in a Quora editing
 
-                # "*" is sometimes included when copying 
-                # from Quora (when the content is in a 
-                # list item and when it is in bold 
+                # "*" is sometimes included when copying
+                # from Quora (when the content is in a
+                # list item and when it is in bold
                 # (two "*"s)).
                 #$lookUpTerm = substr_replace('*', '', 0, 0);
                 $lookUpTerm = preg_replace('/\*/', '', $lookUpTerm);
 
-                
                 #For more complicated replaces (regular expression)
                 #$lookUpTerm = preg_replace('/$/', '&gt;', $lookUpTerm);
-                
             }
 
 
