@@ -1833,6 +1833,7 @@ namespace OverflowHelper.core
             correctionAdd("ipython notebook", "Jupyter Notebook");
             correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
             correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
+            correctionAdd("Jupyter notebook", "Jupyter Notebook");
 
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
@@ -2022,6 +2023,7 @@ namespace OverflowHelper.core
             correctionAdd("EXCEL", "Excel");
             correctionAdd("Excell", "Excel");
             correctionAdd("excell", "Excel");
+            correctionAdd("MS Excel", "Excel");
 
             correctionAdd("wysiwyg", "WYSIWYG");
 
@@ -3484,6 +3486,7 @@ namespace OverflowHelper.core
             correctionAdd("Documenation", "documentation"); //Not 100% correct - case.
             correctionAdd("dox", "documentation");
             correctionAdd("documenation", "documentation");
+            correctionAdd("documention", "documentation");
 
             correctionAdd("sftp", "SFTP");
 
@@ -3493,6 +3496,7 @@ namespace OverflowHelper.core
             correctionAdd("dev", "developer"); //Expansion.
             correctionAdd("devel", "developer"); //Expansion.
             correctionAdd("develoepr", "developer");
+            correctionAdd("developper", "developer");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -5250,6 +5254,7 @@ namespace OverflowHelper.core
             correctionAdd("douplicate", "duplicate");
             correctionAdd("doublicate", "duplicate");
             correctionAdd("dublicate", "duplicate");
+            correctionAdd("diplicate", "duplicate");
 
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
@@ -6183,6 +6188,7 @@ namespace OverflowHelper.core
             correctionAdd("auto it", "AutoIt");
             correctionAdd("autoIT", "AutoIt");
             correctionAdd("AutiIT", "AutoIt"); // True typo...
+            correctionAdd("AitoIt", "AutoIt");
 
             correctionAdd("t4", "T4");
 
@@ -8292,6 +8298,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
+            correctionAdd("Byte Order Mark", "BOM");
 
             correctionAdd("mpeg", "MPEG");
 
@@ -10258,6 +10265,8 @@ namespace OverflowHelper.core
             correctionAdd("exersice", "exercise");
             correctionAdd("Exercice", "exercise");
             correctionAdd("exercice", "exercise");
+            correctionAdd("Exercices", "exercise");
+            correctionAdd("exercices", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -10314,6 +10323,7 @@ namespace OverflowHelper.core
             correctionAdd("perticular", "particular");
 
             correctionAdd("dunno", "don't know");
+            correctionAdd("Dunno", "don't know");
 
             correctionAdd("canadian", "Canadian");
 
@@ -10711,6 +10721,7 @@ namespace OverflowHelper.core
             correctionAdd("prevous", "previous");
             correctionAdd("previus", "previous");
             correctionAdd("prev", "previous");
+            correctionAdd("perivous", "previous");
 
             correctionAdd("responsabilities", "responsibilities");
 
@@ -10974,6 +10985,7 @@ namespace OverflowHelper.core
             correctionAdd("affraid", "afraid");
 
             correctionAdd("breifly", "briefly");
+            correctionAdd("briefely", "briefly");
 
             correctionAdd("excetpion", "exception");
 
@@ -11048,6 +11060,7 @@ namespace OverflowHelper.core
             correctionAdd("ambigious", "ambiguous");
             correctionAdd("ambigous", "ambiguous");
             correctionAdd("ambiguious", "ambiguous");
+            correctionAdd("ambguous", "ambiguous");
 
             correctionAdd("approch", "approach");
             correctionAdd("aproach", "approach");
@@ -11509,6 +11522,8 @@ namespace OverflowHelper.core
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
             correctionAdd("ENV-Variable", "environment variable");
+            correctionAdd("envar", "environment variable");
+            correctionAdd("envionmental variable", "environment variable");
 
             correctionAdd("WINDOWS EXPLORER", "Windows&nbsp;Explorer");
 
@@ -11748,6 +11763,7 @@ namespace OverflowHelper.core
             correctionAdd("gamefication", "gamification");
 
             correctionAdd("guide line", "guideline");
+            correctionAdd("guidline", "guideline");
 
             correctionAdd("highlited", "highlighted");
 
@@ -12045,6 +12061,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac Os", "macOS");
             correctionAdd("MacOs", "macOS");
             correctionAdd("Macos", "macOS");
+            correctionAdd("MacOS", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -13304,6 +13321,7 @@ namespace OverflowHelper.core
             correctionAdd("perlmonks", "PerlMonks");
 
             correctionAdd("antyhing", "anything");
+            correctionAdd("any thing", "anything");            
 
             correctionAdd("bleeding edge", "bleeding-edge");
 
@@ -13701,6 +13719,7 @@ namespace OverflowHelper.core
             correctionAdd("Preg_match_all", "preg_match_all");
 
             correctionAdd("dash", "Dash");
+            correctionAdd("DASH", "Dash");
 
             correctionAdd("FireStore", "Firestore");
             correctionAdd("Firestorm", "Firestore");
@@ -14543,8 +14562,42 @@ namespace OverflowHelper.core
 
             correctionAdd("plagarised", "plagiarised");
 
+            correctionAdd("Angular2", "Angular&nbsp;2");
 
+            correctionAdd("prettify", "Prettify");
 
+            correctionAdd("sql server 2014", "SQL Server 2014");
+            correctionAdd("SQL server 2014", "SQL Server 2014");
+
+            correctionAdd("Big Data", "big data");
+
+            correctionAdd("everyday", "every day");
+
+            correctionAdd("FISH", "fish");
+
+            correctionAdd("foucs", "focus");
+
+            correctionAdd("globaly", "globally");
+
+            correctionAdd("licence", "license");
+
+            correctionAdd("mambo jumbo", "mumbo jumbo");
+
+            correctionAdd("politicans", "politicians");
+
+            correctionAdd("PSTREE", "pstree");
+
+            correctionAdd("QoS", "quality of service");
+
+            correctionAdd("recognize", "recognise");
+            correctionAdd("reccognize", "recognise");
+
+            correctionAdd("repeatation", "repetition");
+
+            correctionAdd("valueable", "valuable");
+
+            correctionAdd("Yellow", "yellow");
+            correctionAdd("Yelllow", "yellow");
 
 
 
@@ -21557,6 +21610,40 @@ namespace OverflowHelper.core
             URL_Add("unterminated", "https://en.wiktionary.org/wiki/unterminated#Adjective");
 
             URL_Add("working", "https://en.wiktionary.org/wiki/work#Verb");
+
+            URL_Add("Angular&nbsp;2", "https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_2");
+
+            URL_Add("Prettify", "https://github.com/google/code-prettify");
+
+            URL_Add("SQL Server 2014", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2014");
+
+            URL_Add("big data", "https://en.wikipedia.org/wiki/Big_data");
+
+            URL_Add("every day", "https://en.wiktionary.org/wiki/every_day#Adverb");
+
+            URL_Add("fish", "https://en.wikipedia.org/wiki/Friendly_interactive_shell");
+
+            URL_Add("focus", "https://en.wiktionary.org/wiki/focus#Verb");
+
+            URL_Add("globally", "https://en.wiktionary.org/wiki/globally#Adverb");
+
+            URL_Add("license", "https://en.wiktionary.org/wiki/license#Noun");
+
+            URL_Add("mumbo jumbo", "https://en.wiktionary.org/wiki/mumbo_jumbo#Noun");
+
+            URL_Add("politicians", "https://en.wiktionary.org/wiki/politician#Noun");
+
+            URL_Add("pstree", "https://en.wikipedia.org/wiki/Pstree");
+
+            URL_Add("quality of service", "https://en.wikipedia.org/wiki/Quality_of_service");
+
+            URL_Add("recognise", "https://en.wiktionary.org/wiki/recognise#Verb");
+
+            URL_Add("repetition", "https://en.wiktionary.org/wiki/repetition#Noun");
+
+            URL_Add("valuable", "https://en.wiktionary.org/wiki/valuable#Adjective");
+
+            URL_Add("yellow", "https://en.wiktionary.org/wiki/yellow#Adjective");
 
 
 
