@@ -17,7 +17,7 @@ namespace EditOverflow2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
 
 
             // This will result in running the first level of 
@@ -35,8 +35,11 @@ namespace EditOverflow2
                 "some combined regular expressions",
                 "some version thingie",
                 "some date only string");
+                
+            string wordlist_SQL = someWikipediaLookup.dumpWordList_asSQL();
 
-
+            // What about Unicode / UTF-8????????
+            Console.WriteLine(wordlist_SQL);
         }
     }
 }
