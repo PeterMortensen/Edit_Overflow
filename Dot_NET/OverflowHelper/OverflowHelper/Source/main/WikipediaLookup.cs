@@ -1202,6 +1202,7 @@ namespace OverflowHelper.core
             correctionAdd(".NET Core mvc", "ASP.NET Core");
             correctionAdd(".NET Core MVC", "ASP.NET Core");
             correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
+            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
 
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -10293,6 +10294,7 @@ namespace OverflowHelper.core
             correctionAdd("contiguos", "contiguous");
 
             correctionAdd("consequtive", "consecutive");
+            correctionAdd("consequitive", "consecutive");
 
             correctionAdd("beleive", "believe");
             correctionAdd("belive", "believe");
@@ -14586,6 +14588,7 @@ namespace OverflowHelper.core
             correctionAdd("plagarised", "plagiarised");
 
             correctionAdd("Angular2", "Angular&nbsp;2");
+            correctionAdd("angular2", "Angular&nbsp;2");
 
             correctionAdd("prettify", "Prettify");
 
@@ -14622,6 +14625,13 @@ namespace OverflowHelper.core
             correctionAdd("Yellow", "yellow");
             correctionAdd("Yelllow", "yellow");
 
+            correctionAdd("Afghanisthan", "Afghanistan");
+
+            correctionAdd("pc", "PC");
+
+            correctionAdd("regorious", "rigorous");
+
+            correctionAdd("useing", "using");
 
 
             //HACK: AASDASD
@@ -21667,6 +21677,14 @@ namespace OverflowHelper.core
             URL_Add("valuable", "https://en.wiktionary.org/wiki/valuable#Adjective");
 
             URL_Add("yellow", "https://en.wiktionary.org/wiki/yellow#Adjective");
+
+            URL_Add("Afghanistan", "https://en.wikipedia.org/wiki/Afghanistan");
+
+            URL_Add("PC", "https://en.wikipedia.org/wiki/Personal_computer");
+
+            URL_Add("rigorous", "https://en.wiktionary.org/wiki/rigorous#Adjective");
+
+            URL_Add("using", "https://en.wiktionary.org/wiki/use#Verb");
 
 
 
