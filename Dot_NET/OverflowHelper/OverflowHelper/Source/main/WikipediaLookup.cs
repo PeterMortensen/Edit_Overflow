@@ -8777,6 +8777,7 @@ namespace OverflowHelper.core
             correctionAdd("TSC", "TypeScript");
             correctionAdd("tsc", "TypeScript");
             correctionAdd("ts", "TypeScript");
+            correctionAdd("Typesript", "TypeScript");
 
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
@@ -13534,6 +13535,7 @@ namespace OverflowHelper.core
 
             correctionAdd("POV", "point of view");
             correctionAdd("PoV", "point of view");
+            correctionAdd("pov", "point of view");
 
             correctionAdd("sensative", "sensitive");
 
@@ -14632,6 +14634,8 @@ namespace OverflowHelper.core
             correctionAdd("regorious", "rigorous");
 
             correctionAdd("useing", "using");
+
+            correctionAdd("udemy", "Udemy");
 
 
             //HACK: AASDASD
@@ -21685,6 +21689,8 @@ namespace OverflowHelper.core
             URL_Add("rigorous", "https://en.wiktionary.org/wiki/rigorous#Adjective");
 
             URL_Add("using", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("Udemy", "https://en.wikipedia.org/wiki/Udemy");
 
 
 
