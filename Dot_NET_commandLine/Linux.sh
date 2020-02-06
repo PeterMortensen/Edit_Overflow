@@ -6,7 +6,6 @@
 
 
 
-, etc. so we check the wordlist data integrity immediately after a change to the word list.
 
 export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
 export     WORKFOLDER='/home/mortense2/temp2/2020-02-05/_DotNET_tryout/EditOverflow4'
