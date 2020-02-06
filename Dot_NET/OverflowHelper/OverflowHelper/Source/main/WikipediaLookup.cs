@@ -29,6 +29,8 @@ using System.Collections.Generic; // For Dictionary and List
 using System.Text; //For StringBuilder.
 using System.Diagnostics; //For Trace. And its Assert.
 
+using System; // For Console
+
 
 //Markers
 //AAA   Spell correction add point.
@@ -276,7 +278,8 @@ namespace OverflowHelper.core
         ****************************************************************************/
         private static void reportError(string aSomeMessage)
         {
-            System.Windows.Forms.MessageBox.Show(aSomeMessage);
+            //System.Windows.Forms.MessageBox.Show(aSomeMessage); // Windows
+            Console.WriteLine(aSomeMessage); // Linux
         } //reportError() 
 
 
