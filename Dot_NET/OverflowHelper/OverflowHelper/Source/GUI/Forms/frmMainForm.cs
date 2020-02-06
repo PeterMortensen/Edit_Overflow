@@ -931,7 +931,12 @@ namespace OverflowHelper
         {
             string Wordlist_HTML =
               mWikipediaLookup.dumpWordList_asHTML(
-                combinedAllOfRegularExpressions());
+                combinedAllOfRegularExpressions(),
+
+                // This would be inconsistent if the date changes right 
+                // after the call of fullVersionStr()...
+                EditorOverflowApplication.fullVersionStr(),
+                EditorOverflowApplication.versionString_dateOnly());
 
             //Output for now
             txtInputArea.Text = Wordlist_HTML;
@@ -3320,6 +3325,7 @@ namespace OverflowHelper
          *    refactoring of dumpWordList_asHTML(),                                 *
          *    without being affected by changes                                     *
          *    to the word list.                                                     *
+         *                                                                          *
          ****************************************************************************/
         private void mnuHTML_WordListWithoutWords_Click(object aSender,
                                                         EventArgs anEvent)
@@ -3339,14 +3345,19 @@ namespace OverflowHelper
                 "",
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
-                ref someWord2URL
+                ref someWord2URL,
+
+                // This would be inconsistent if the date changes right 
+                // after the call of fullVersionStr()...
+                EditorOverflowApplication.fullVersionStr(),
+                EditorOverflowApplication.versionString_dateOnly()
                 );
 
             int len = Wordlist_HTML.Length;
 
             //Output for now
             txtInputArea.Text = Wordlist_HTML;
-        }
+        } //mnuHTML_WordListWithoutWords_Click()
 
 
         /****************************************************************************
