@@ -13983,6 +13983,7 @@ namespace OverflowHelper.core
             correctionAdd("limitter", "limiter");
 
             correctionAdd("metioned", "mentioned");
+            correctionAdd("mentionned", "mentioned");
 
             correctionAdd("occassionally", "occasionally");
 
