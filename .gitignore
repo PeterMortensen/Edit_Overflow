@@ -22,3 +22,13 @@
 *.psess
 *.vspx
 
+Dot_NET_commandLine/obj/EditOverflow3.csproj.nuget.cache
+Dot_NET_commandLine/obj/EditOverflow3.csproj.nuget.dgspec.json
+Dot_NET_commandLine/obj/EditOverflow3.csproj.nuget.g.props
+Dot_NET_commandLine/obj/EditOverflow3.csproj.nuget.g.targets
+Dot_NET_commandLine/obj/project.assets.json
+Dot_NET_commandLine/obj/Debug/netcoreapp3.1/EditOverflow3.AssemblyInfo.cs
+Dot_NET_commandLine/obj/Debug/netcoreapp3.1/EditOverflow3.AssemblyInfoInputs.cache
+Dot_NET_commandLine/obj/Debug/netcoreapp3.1/EditOverflow3.assets.cache
+Dot_NET_commandLine/obj/Debug/netcoreapp3.1/EditOverflow3.csproj.FileListAbsolute.txt
+Dot_NET_commandLine/obj/Debug/netcoreapp3.1/EditOverflow3.csprojAssemblyReference.cache
