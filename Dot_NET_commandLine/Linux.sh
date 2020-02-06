@@ -16,18 +16,29 @@ export SRCFOLDER_CORE=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Sour
 export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 
 
+# Copy files to the workfolder
+#
 mkdir $WORKFOLDER
 cp Program.cs                          $WORKFOLDER
 cp EditOverflow3.csproj                $WORKFOLDER
 cp $SRCFOLDER_CORE/WikipediaLookup.cs  $WORKFOLDER
 cp $SRCFOLDER_CORE/HTML_builder.cs     $WORKFOLDER
 
+
+# Compile, run, and redirect SQL output to a file
+#
 cd $WORKFOLDER
 cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
 dotnet run | grep -v CS0219                                                >> $SQL_FILE
 pwd
 ls -lsatr $WORKFOLDER
 
-
 cd -
+
+
+# Open the UnoEuro import page
+xdg-open "https://www.unoeuro.com/dk/controlpanel/pmortensen.eu/mysql/"
+
+
+
 
