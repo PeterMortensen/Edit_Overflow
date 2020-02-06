@@ -35,7 +35,8 @@ namespace OverflowHelper.Tests
             // In this test, we call it with all empty variable information 
             // to get a stable output for regression testing (get skeleton
             // HTML, with only the begining and end, with an empty
-            // word table)
+            // word table. And empty XXX)
+            //
             Dictionary<string, string> someCaseCorrection =
                new Dictionary<string, string>();
             Dictionary<string, string> someWord2URL =
@@ -48,7 +49,13 @@ namespace OverflowHelper.Tests
                 "",
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
-                ref someWord2URL);
+                ref someWord2URL, 
+
+                //This is equivalent, for the refactoring, but
+                //should we use fixed or empty strings instead??
+                EditorOverflowApplication.fullVersionStr(),
+                EditorOverflowApplication.versionString_dateOnly()
+                );
 
             int len = Wordlist_HTML.Length;
 
@@ -143,8 +150,13 @@ namespace OverflowHelper.Tests
                 "",
                 ref someCaseCorrection,
                 someWord2URL.Count,
-                ref someWord2URL
-              );
+                ref someWord2URL,
+
+                //This is equivalent, for the refactoring, but
+                //should we use fixed or empty strings instead??
+                EditorOverflowApplication.fullVersionStr(),
+                EditorOverflowApplication.versionString_dateOnly()
+                );
 
             int len = Wordlist_HTML.Length;
 

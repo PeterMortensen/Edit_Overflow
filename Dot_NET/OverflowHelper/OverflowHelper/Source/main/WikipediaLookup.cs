@@ -64,20 +64,25 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public WikipediaLookup()
         {
-            // Note: top folder, not the one we are going to store in.
-            string localAppDataFolder =
-              System.Environment.GetFolderPath(
-                System.Environment.SpecialFolder.LocalApplicationData);
-
-            // Note: actual folder. For user "Administrator":
-            //   C:\Documents and Settings\Administrator\Local Settings\Application Data\EMBO\OverflowHelper\1.0.0.0
+            //Why do we have this here?? It is not used and not available 
+            //on Linux... Should we delete it?
             //
-            string localAppDataFolder2 =
-              System.Windows.Forms.Application.LocalUserAppDataPath;
+            //// Note: top folder, not the one we are going to store in.
+            //string localAppDataFolder =
+            //  System.Environment.GetFolderPath(
+            //    System.Environment.SpecialFolder.LocalApplicationData);
+            //
+            //// Note: actual folder. For user "Administrator":
+            ////   C:\Documents and Settings\Administrator\Local Settings\Application Data\EMBO\OverflowHelper\1.0.0.0
+            ////
+            //string localAppDataFolder2 =
+            //  System.Windows.Forms.Application.LocalUserAppDataPath;
+            //
+            //string appDataFolder =
+            //  System.Environment.GetFolderPath(
+            //    System.Environment.SpecialFolder.ApplicationData);
 
-            string appDataFolder =
-              System.Environment.GetFolderPath(
-                System.Environment.SpecialFolder.ApplicationData);
+
 
 
             //This is dependent on "x86", "x64" and "Any CPU":
@@ -22286,7 +22291,9 @@ namespace OverflowHelper.core
             string aCodeCheck_regularExpression,
             ref Dictionary<string, string> aCaseCorrection,
             int aUniqueWords,
-            ref Dictionary<string, string> aWord2URL
+            ref Dictionary<string, string> aWord2URL,
+            string aVersionStr,
+            string aDateStr
             )
         {
             // For the pre-allocation: We now use a very simple prediction
@@ -22334,10 +22341,13 @@ namespace OverflowHelper.core
             // of ref HTML_tableRows...
 
 
-            string versionStr = EditorOverflowApplication.fullVersionStr();
+            //Delete at any time.
+            // string versionStr = EditorOverflowApplication.fullVersionStr();
+            // 
+            // // This would be inconsistent if the date changes right after the 
+            // // call of fullVersionStr()...
+            // string dateStr = EditorOverflowApplication.versionString_dateOnly();
 
-            // This would if the date changes right after the call of fullVersionStr()...
-            string dateStr = EditorOverflowApplication.versionString_dateOnly();
 
             string lenLongestInCorrectTermStr = longestInCorrectTerm.Length.ToString();
             string lenLongestCorrectTermStr = longestCorrectTerm.Length.ToString();
@@ -22349,7 +22359,7 @@ namespace OverflowHelper.core
             scratchSB.Append(" input words and ");
             scratchSB.Append(aUniqueWords);
             scratchSB.Append(" output words (for ");
-            scratchSB.Append(versionStr);
+            scratchSB.Append(aVersionStr);
             scratchSB.Append(")");
             string title = scratchSB.ToString();
 
@@ -22375,7 +22385,7 @@ namespace OverflowHelper.core
 
             builder.endTagOneSeparateLine("table");
 
-            endOfHTML_document(ref builder, aCodeCheck_regularExpression, dateStr);
+            endOfHTML_document(ref builder, aCodeCheck_regularExpression, aDateStr);
 
             scratchSB.Append(builder.currentHTML());
             //--------------------------------------------------------
@@ -22390,13 +22400,17 @@ namespace OverflowHelper.core
          *  (menu command), exporting the current wordlist to HTML.                 *
          *                                                                          *
          ****************************************************************************/
-        public string dumpWordList_asHTML(string aCodeCheck_regularExpression)
+        public string dumpWordList_asHTML(string aCodeCheck_regularExpression,
+                                          string aVersionStr,
+                                          string aDateStr)
         {
             return dumpWordList_asHTML(
                       aCodeCheck_regularExpression,
                       ref mCaseCorrection,
                       mCaseCorrection_Reverse.Count,
-                      ref mWord2URL);
+                      ref mWord2URL,
+                      aVersionStr,
+                      aDateStr);
         } //dumpWordList_asHTML()
 
 
