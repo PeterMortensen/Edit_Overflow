@@ -180,7 +180,7 @@ namespace OverflowHelper.core
                     currentIndex++;
                 } //Hash iteration.
 
-            } //Constructor.
+            } //Constructor (for the sorter help class)
 
 
             //****************************************************************************
@@ -261,6 +261,20 @@ namespace OverflowHelper.core
         } // private class SortByCorrectThenIncorrect_usingIndex
 
 
+
+        /***************************************************************************
+        *                                                                          *
+        *  To isolate Windows Forms dependency                                     *
+        *                                                                          *
+        *                                                                          *
+        *                                                                          *
+        ****************************************************************************/
+        private static void reportError(string aSomeMessage)
+        {
+            System.Windows.Forms.MessageBox.Show(aSomeMessage);
+        } //reportError() 
+
+
         /***************************************************************************
         *    <placeholder for header>                                              *
         ****************************************************************************/
@@ -282,8 +296,8 @@ namespace OverflowHelper.core
                 string URL;
                 if (!mWord2URL.TryGetValue(curValue, out URL))
                 {
-                    string msgStr = "No URL mapping for " + curValue;
-                    System.Windows.Forms.MessageBox.Show(msgStr);
+                    string msgStr = "No URL mapping for " + curValue;                    
+                    reportError(msgStr);
                 }
             } //Hash iteration.
         }
@@ -339,7 +353,7 @@ namespace OverflowHelper.core
                 string msg = "Leading space in '" +
                              aSomeString + "' - " +
                              keyValueInfoStr(aKey, aValue);
-                System.Windows.Forms.MessageBox.Show(msg);
+                reportError(msg);
             }
 
             int lastIndex = aSomeString.Length - 1;
@@ -348,7 +362,7 @@ namespace OverflowHelper.core
                 string msg = "Trailing space in '" +
                              aSomeString + "' - " +
                              keyValueInfoStr(aKey, aValue);
-                System.Windows.Forms.MessageBox.Show(msg);
+                reportError(msg);
             }
         }
 
@@ -386,7 +400,7 @@ namespace OverflowHelper.core
                 string msg =
                   "Explicit identity mapping is not allowed (this is automatic). " +
                   "For \"" + aBadTerm + "\".";
-                System.Windows.Forms.MessageBox.Show(msg);
+                reportError(msg);
             }
 
             string corrStr;
@@ -395,7 +409,7 @@ namespace OverflowHelper.core
                 //Double entry!
                 string msg = "Double entry for bad term \"" +
                              keyValueInfoStr(aBadTerm, aCorrectedTerm) + "\"...";
-                System.Windows.Forms.MessageBox.Show(msg);
+                reportError(msg);
             }
             else
             {
@@ -437,7 +451,7 @@ namespace OverflowHelper.core
                 //Double entry!
                 string msg = "Double entry for the " +
                              keyValueInfoStr(aCorrectedTerm, aURL);
-                System.Windows.Forms.MessageBox.Show(msg);
+                reportError(msg);
             }
             else
             {
@@ -459,7 +473,7 @@ namespace OverflowHelper.core
                     string msg = "Missing correction mapping for the corrected term '" +
                                  aCorrectedTerm +
                                  "'.";
-                    System.Windows.Forms.MessageBox.Show(msg);
+                    reportError(msg);
                 }
                 mWord2URL.Add(aCorrectedTerm, aURL);
             }
@@ -21896,7 +21910,7 @@ namespace OverflowHelper.core
                 // Report error, if any. For now, blocking dialogs...
                 if (msg != string.Empty)
                 {
-                    System.Windows.Forms.MessageBox.Show(msg);
+                    reportError(msg);
                 }
 
                 // Using a flag for now (for the type of output, HTML, SQL, etc.)
