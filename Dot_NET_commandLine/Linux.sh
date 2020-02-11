@@ -32,6 +32,10 @@ cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $S
 dotnet run | grep -v CS0219                                                >> $SQL_FILE
 pwd
 ls -lsatr $WORKFOLDER
+grep INSERT $SQL_FILE | wc
+
+
+
 
 cd -
 

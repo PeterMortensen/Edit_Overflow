@@ -66,7 +66,7 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public WikipediaLookup()
         {
-            //Why do we have this here?? It is not used and not available 
+            //Why do we have this here?? It is not used and not available
             //on Linux... Should we delete it?
             //
             //// Note: top folder, not the one we are going to store in.
@@ -280,7 +280,7 @@ namespace OverflowHelper.core
         {
             //System.Windows.Forms.MessageBox.Show(aSomeMessage); // Windows
             Console.WriteLine(aSomeMessage); // Linux
-        } //reportError() 
+        } //reportError()
 
 
         /***************************************************************************
@@ -304,7 +304,7 @@ namespace OverflowHelper.core
                 string URL;
                 if (!mWord2URL.TryGetValue(curValue, out URL))
                 {
-                    string msgStr = "No URL mapping for " + curValue;                    
+                    string msgStr = "No URL mapping for " + curValue;
                     reportError(msgStr);
                 }
             } //Hash iteration.
@@ -5710,12 +5710,6 @@ namespace OverflowHelper.core
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
 
-            correctionAdd("wether", "whether");
-            correctionAdd("weather", "whether"); //Unless it is really about rain, clouds, and temperature.
-            correctionAdd("wheter", "whether");
-            correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is weather.
-            correctionAdd("whhethher", "whether");
-            correctionAdd("whethee", "whether");
 
             // Consider:
             //   weaher
@@ -9779,6 +9773,7 @@ namespace OverflowHelper.core
             correctionAdd("net core", ".NET Core");
             correctionAdd("net Core", ".NET Core");
             correctionAdd(".netcore", ".NET Core");
+            correctionAdd(".nerdcore", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -9908,6 +9903,7 @@ namespace OverflowHelper.core
             correctionAdd("vue", "Vue.js");
             correctionAdd("VueJS", "Vue.js");
             correctionAdd("Vuejs", "Vue.js");
+            correctionAdd("Vue", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -12211,6 +12207,7 @@ namespace OverflowHelper.core
             correctionAdd("nevermind", "never mind");
 
             correctionAdd("procastination", "procrastination");
+            correctionAdd("Procastination", "procrastination");
 
             correctionAdd("b2b", "B2B");
 
@@ -13346,7 +13343,7 @@ namespace OverflowHelper.core
             correctionAdd("perlmonks", "PerlMonks");
 
             correctionAdd("antyhing", "anything");
-            correctionAdd("any thing", "anything");            
+            correctionAdd("any thing", "anything");
 
             correctionAdd("bleeding edge", "bleeding-edge");
 
@@ -13909,6 +13906,10 @@ namespace OverflowHelper.core
 
             correctionAdd("sattelite", "satellite");
             correctionAdd("satelite", "satellite");
+            correctionAdd("satelights", "satellite");
+            correctionAdd("satelight", "satellite");
+            correctionAdd("satelighs", "satellite");
+            correctionAdd("sateligh", "satellite");            
 
             correctionAdd("slow down", "slowdown");
 
@@ -14636,6 +14637,30 @@ namespace OverflowHelper.core
             correctionAdd("useing", "using");
 
             correctionAdd("udemy", "Udemy");
+
+            correctionAdd("ActiVision", "Activision");
+
+            correctionAdd("april", "April");
+
+            correctionAdd("Cosco", "Costco");
+
+            correctionAdd("etf", "ETF");
+
+            correctionAdd("decending", "descending");
+
+            correctionAdd("HISTORY", "history");
+
+            correctionAdd("cassegrain", "Schmidt–Cassegrain");
+            correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
+
+            correctionAdd("wether", "whether");
+            correctionAdd("wheter", "whether");
+            correctionAdd("whhethher", "whether");
+            correctionAdd("whethee", "whether");
+            correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is "weather".
+
+            correctionAdd("weater", "weather");
+
 
 
             //HACK: AASDASD
@@ -21692,6 +21717,22 @@ namespace OverflowHelper.core
 
             URL_Add("Udemy", "https://en.wikipedia.org/wiki/Udemy");
 
+            URL_Add("Activision", "https://en.wikipedia.org/wiki/Activision");
+
+            URL_Add("April", "https://en.wiktionary.org/wiki/April#Proper_noun");
+
+            URL_Add("Costco", "https://en.wikipedia.org/wiki/Costco");
+
+            URL_Add("ETF", "https://en.wikipedia.org/wiki/Exchange-traded_fund");
+
+            URL_Add("descending", "https://en.wiktionary.org/wiki/descend#Verb");
+
+            URL_Add("history", "https://en.wikipedia.org/wiki/History_(command)");
+
+            URL_Add("Schmidt–Cassegrain", "https://en.wikipedia.org/wiki/Schmidt%E2%80%93Cassegrain_telescope");
+
+            URL_Add("weather", "https://en.wiktionary.org/wiki/weather#Noun");
+
 
 
             //========================================================
@@ -22371,8 +22412,8 @@ namespace OverflowHelper.core
 
             //Delete at any time.
             // string versionStr = EditorOverflowApplication.fullVersionStr();
-            // 
-            // // This would be inconsistent if the date changes right after the 
+            //
+            // // This would be inconsistent if the date changes right after the
             // // call of fullVersionStr()...
             // string dateStr = EditorOverflowApplication.versionString_dateOnly();
 
