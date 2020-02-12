@@ -1,5 +1,5 @@
 ﻿
-// First driver for using the .NET part Edit Overflow on Linix.
+// First driver for using the .NET part Edit Overflow on Linux.
 //
 // The purpose is to run the word list integrity test
 // independent of Windows and Visual Studio.
@@ -20,11 +20,11 @@ namespace EditOverflow2
             //Console.WriteLine("Hello, World!");
 
 
-            // This will result in running the first level of 
+            // This will result in running the ***first*** level of 
             // integrity testing for the word list data
             WikipediaLookup someWikipediaLookup = new WikipediaLookup();
 
-            // This will result in running more regorious
+            // This will result in running ***more*** regorious
             // integrity testing for the word list data
             string Wordlist_HTML =
               someWikipediaLookup.dumpWordList_asHTML(

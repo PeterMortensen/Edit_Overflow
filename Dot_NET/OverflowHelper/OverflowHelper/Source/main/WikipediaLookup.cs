@@ -14661,6 +14661,18 @@ namespace OverflowHelper.core
 
             correctionAdd("weater", "weather");
 
+            correctionAdd("hitch-hike", "hitchhike");
+            correctionAdd("hitch hike", "hitchhike");
+
+            correctionAdd("Interstellar", "interstellar");
+
+            correctionAdd("Wasi", "WASI");
+
+            correctionAdd("recipi", "recipe");
+
+            correctionAdd("wind-mill", "windmill");
+
+
 
 
             //HACK: AASDASD
@@ -21733,6 +21745,15 @@ namespace OverflowHelper.core
 
             URL_Add("weather", "https://en.wiktionary.org/wiki/weather#Noun");
 
+            URL_Add("hitchhike", "https://en.wiktionary.org/wiki/hitchhike#Verb");
+
+            URL_Add("interstellar", "https://en.wiktionary.org/wiki/interstellar#Adjective");
+
+            URL_Add("WASI", "https://en.wikipedia.org/wiki/WebAssembly#Embedding");
+
+            URL_Add("recipe", "https://en.wiktionary.org/wiki/recipe#Noun");
+
+            URL_Add("windmill", "https://en.wiktionary.org/wiki/windmill#Noun");
 
 
             //========================================================
