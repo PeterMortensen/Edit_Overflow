@@ -24,7 +24,7 @@ namespace EditOverflow2
             // integrity testing for the word list data
             WikipediaLookup someWikipediaLookup = new WikipediaLookup();
 
-            // This will result in running ***more*** regorious
+            // This will result in running ***more*** rigorous
             // integrity testing for the word list data
             string Wordlist_HTML =
               someWikipediaLookup.dumpWordList_asHTML(
@@ -43,3 +43,5 @@ namespace EditOverflow2
         }
     }
 }
+
+
