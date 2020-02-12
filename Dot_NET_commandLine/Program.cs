@@ -38,6 +38,10 @@ namespace EditOverflow2
                 
             string wordlist_SQL = someWikipediaLookup.dumpWordList_asSQL();
 
+            // Dump the SQL to standard output so we can redirect
+	    // it to a file (but note that integrity error
+	    // messages currently also end up there). 
+            // 
             // What about Unicode / UTF-8????????
             Console.WriteLine(wordlist_SQL);
         }
