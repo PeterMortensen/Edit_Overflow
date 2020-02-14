@@ -514,7 +514,7 @@
                     id="LookUp"
                     class="XYZ12"
                     value="Look up"
-                    style="width:75px;"
+                    style="width:90px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
                 />
