@@ -4247,6 +4247,8 @@ namespace OverflowHelper.core
             correctionAdd("Micorsoft", "Microsoft");
             correctionAdd("Microsft", "Microsoft");
             correctionAdd("msoft", "Microsoft");
+            correctionAdd("MicroShit", "Microsoft");
+            correctionAdd("Microshit", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -9263,6 +9265,7 @@ namespace OverflowHelper.core
             correctionAdd("Silicon valley", "Silicon Valley");
             correctionAdd("The Valley", "Silicon Valley");
             correctionAdd("silicone valley", "Silicon Valley");
+            correctionAdd("Silicone valley", "Silicon Valley");
 
             correctionAdd("no body", "nobody");
 
@@ -14669,9 +14672,14 @@ namespace OverflowHelper.core
             correctionAdd("Wasi", "WASI");
 
             correctionAdd("recipi", "recipe");
+            correctionAdd("recipy", "recipe");
 
             correctionAdd("wind-mill", "windmill");
+            correctionAdd("wind mill", "windmill");
 
+            correctionAdd("bam", "BAM");
+
+            correctionAdd("meager", "meagre");
 
 
 
@@ -21754,6 +21762,11 @@ namespace OverflowHelper.core
             URL_Add("recipe", "https://en.wiktionary.org/wiki/recipe#Noun");
 
             URL_Add("windmill", "https://en.wiktionary.org/wiki/windmill#Noun");
+
+            URL_Add("BAM", "https://en.wikipedia.org/wiki/Binary_Alignment_Map");
+
+            URL_Add("meagre", "https://en.wiktionary.org/wiki/meagre#Adjective");
+
 
 
             //========================================================
