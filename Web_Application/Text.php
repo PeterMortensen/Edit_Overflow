@@ -7,13 +7,13 @@
      #      PHP class in another file) had a lot of
      #      warning lines. This turned out to be genuine
      #      bug - the WordPress include had a configuration
-     #      that turned on debugging and surface the error.
+     #      that turned on debugging and surfaced the error.
      #
      #   2. Removing trailing space escapes single quotes
      #      with backslash... This is a WordPress thing
      #      (returned form data is escaped). The workaound
      #      was to remove backslashes (this may be
-     #      sufficient as we don't )
+     #      sufficient as we don't XXX).
 ?>
 
 
@@ -385,7 +385,7 @@
                 id="LookUp"
                 class="XYZ3"
                 value="Remove TABs and trailing whitespace"
-                style="width:260px;"
+                style="width:325px;"
                 accesskey="U"
                 title="Shortcut: Shift + Alt + U"
             />
@@ -397,7 +397,7 @@
                 id="LookUp2"
                 class="XYZ19"
                 value="Format as keyboard"
-                style="width:150px;"
+                style="width:180px;"
                 accesskey="B"
                 title="Shortcut: Shift + Alt + B"
             />
@@ -433,7 +433,7 @@
                 id="LookUp29"
                 class="XYZ29"
                 value="Transform for YouTube comments"
-                style="width:240px;"
+                style="width:290px;"
                 accesskey="Y"
                 title="Shortcut: Shift + Alt + Y"
             />
@@ -445,7 +445,7 @@
                 id="LookUp30"
                 class="XYZ30"
                 value="Remove common leading space"
-                style="width:230px;"
+                style="width:275px;"
                 accesskey="L"
                 title="Shortcut: Shift + Alt + L"
             />
