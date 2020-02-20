@@ -9290,6 +9290,7 @@ namespace OverflowHelper.core
             correctionAdd("man in the middle attack", "man-in-the-middle attack");
             correctionAdd("MitM", "man-in-the-middle attack");
             correctionAdd("mitm", "man-in-the-middle attack");
+            correctionAdd("man in the middle", "man-in-the-middle attack");
 
             correctionAdd("adobe illustrator", "Adobe Illustrator");
 
@@ -10335,6 +10336,7 @@ namespace OverflowHelper.core
             correctionAdd("mP", "microprocessor");
 
             correctionAdd("pronounciation", "pronunciation");
+            correctionAdd("pronuncian", "pronunciation");
 
             correctionAdd("requrie", "require");
             correctionAdd("requries", "require"); // Not 100% correct, third-person singular
@@ -10829,6 +10831,7 @@ namespace OverflowHelper.core
             correctionAdd("eigth", "eight");
 
             correctionAdd("8th", "eighth");
+            correctionAdd("Eighth", "eighth");
 
             correctionAdd("helpfull", "helpful");
 
@@ -11419,6 +11422,8 @@ namespace OverflowHelper.core
             correctionAdd("GOT", "Game of Thrones");
 
             correctionAdd("google cloud", "Google Cloud Platform");
+            correctionAdd("g cloud", "Google Cloud Platform");
+            correctionAdd("G cloud", "Google Cloud Platform");
 
             correctionAdd("Huwei", "Huawei");
 
@@ -13912,7 +13917,8 @@ namespace OverflowHelper.core
             correctionAdd("satelights", "satellite");
             correctionAdd("satelight", "satellite");
             correctionAdd("satelighs", "satellite");
-            correctionAdd("sateligh", "satellite");            
+            correctionAdd("sateligh", "satellite");
+            correctionAdd("satalite", "satellite");
 
             correctionAdd("slow down", "slowdown");
 
@@ -14529,6 +14535,7 @@ namespace OverflowHelper.core
 
             correctionAdd("xfce", "Xfce");
             correctionAdd("XFCE", "Xfce");
+            correctionAdd("fxce", "Xfce");
 
             correctionAdd("accompyning", "accompanying");
 
@@ -14680,6 +14687,103 @@ namespace OverflowHelper.core
             correctionAdd("bam", "BAM");
 
             correctionAdd("meager", "meagre");
+
+            correctionAdd("arpa", "ARPA");
+
+            correctionAdd("Mark Zuckaberg", "Mark Zuckerberg");
+
+            correctionAdd("office space", "Office Space");
+
+            correctionAdd("Rubik's cube", "Rubik's Cube");
+
+            correctionAdd("authorative", "authoritative");
+
+            correctionAdd("gabarge", "garbage");
+
+            correctionAdd("rewoke", "revoke");
+
+            correctionAdd("rewoked", "revoked");
+
+            correctionAdd("who ever", "whoever");
+
+            correctionAdd("Air Lingus", "Aer Lingus");
+
+            correctionAdd("air canada", "Air Canada");
+
+            correctionAdd("air new zealand", "Air New Zealand");
+
+            correctionAdd("A220", "Airbus A220");
+
+            correctionAdd("A320", "Airbus A320");
+            correctionAdd("Airbus 320", "Airbus A320");
+
+            correctionAdd("A330", "Airbus A330");
+            correctionAdd("Airbus 330", "Airbus A330");
+
+            correctionAdd("747", "Boeing 747");
+
+            correctionAdd("777", "Boeing 777");
+
+            correctionAdd("british airways", "British Airways");
+
+            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
+
+            correctionAdd("Emms", "EMMS");
+
+            correctionAdd("JWST", "James Webb Space Telescope");
+
+            correctionAdd("Lxqt", "LXQt");
+
+            correctionAdd("Labanon", "Lebanon");
+
+            correctionAdd("Maggot", "Magit");
+
+            correctionAdd("Middle East airlines", "Middle East Airlines");
+
+            correctionAdd("NERDTree", "NERD tree");
+            correctionAdd("NERDtree", "NERD tree");
+            correctionAdd("The NERD tree", "NERD tree");
+            correctionAdd("nerd tree", "NERD tree");
+            correctionAdd("nerdtree", "NERD tree");
+
+            correctionAdd("neotree", "Neo Tree");
+
+            correctionAdd("Star link", "Starlink");
+
+            correctionAdd("Air Portugal", "TAP Air Portugal");
+
+            correctionAdd("united", "United Airlines");
+
+            correctionAdd("virgin atlantic", "Virgin Atlantic");
+
+            correctionAdd("xmonad", "XMonad");
+            correctionAdd("Xmonad", "XMonad");
+
+            correctionAdd("Zurich", "ZÃ¼rich");
+
+            correctionAdd("contries", "countries");
+
+            correctionAdd("essense", "essence");
+
+            correctionAdd("Nineteenth", "nineteenth");
+
+            correctionAdd("obfucation", "obfuscation");
+
+            correctionAdd("practized", "practised");
+
+            correctionAdd("stumpled", "stumbled");
+
+            correctionAdd("take off", "takeoff");
+
+            correctionAdd("Thirteenth", "thirteenth");
+
+            correctionAdd("twelwenth", "twelfth");
+            correctionAdd("Twelwenth", "twelfth");
+
+            correctionAdd("Tweteenth", "twentieth");
+
+            correctionAdd("twenty first", "twenty-first");
+            correctionAdd("Twenty first", "twenty-first");
 
 
 
@@ -21767,6 +21871,93 @@ namespace OverflowHelper.core
 
             URL_Add("meagre", "https://en.wiktionary.org/wiki/meagre#Adjective");
 
+            URL_Add("ARPA", "https://en.wikipedia.org/wiki/DARPA");
+
+            URL_Add("Mark Zuckerberg", "https://en.wikipedia.org/wiki/Mark_Zuckerberg");
+
+            URL_Add("Office Space", "https://en.wikipedia.org/wiki/Office_Space");
+
+            URL_Add("Rubik's Cube", "https://en.wikipedia.org/wiki/Rubik's_Cube");
+
+            URL_Add("authoritative", "https://en.wiktionary.org/wiki/authoritative#Adjective");
+
+            URL_Add("garbage", "https://en.wiktionary.org/wiki/garbage#Noun");
+
+            URL_Add("revoke", "https://en.wiktionary.org/wiki/revoke#Verb");
+
+            URL_Add("revoked", "https://en.wiktionary.org/wiki/revoke#Verb");
+
+            URL_Add("whoever", "https://en.wiktionary.org/wiki/whoever#Pronoun");
+
+            URL_Add("Aer Lingus", "https://en.wikipedia.org/wiki/Aer_Lingus");
+
+            URL_Add("Air Canada", "https://en.wikipedia.org/wiki/Air_Canada");
+
+            URL_Add("Air New Zealand", "https://en.wikipedia.org/wiki/Air_New_Zealand");
+
+            URL_Add("Airbus A220", "https://en.wikipedia.org/wiki/Airbus_A220");
+
+            URL_Add("Airbus A320", "https://en.wikipedia.org/wiki/Airbus_A320_family");
+
+            URL_Add("Airbus A330", "https://en.wikipedia.org/wiki/Airbus_A330");
+
+            URL_Add("Boeing 747", "https://en.wikipedia.org/wiki/Boeing_747");
+
+            URL_Add("Boeing 777", "https://en.wikipedia.org/wiki/Boeing_777");
+
+            URL_Add("British Airways", "https://en.wikipedia.org/wiki/British_Airways");
+
+            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
+
+            URL_Add("EMMS", "https://en.wikipedia.org/wiki/EMMS_(media_player)");
+
+            URL_Add("James Webb Space Telescope", "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope");
+
+            URL_Add("LXQt", "https://en.wikipedia.org/wiki/LXQt");
+
+            URL_Add("Lebanon", "https://en.wikipedia.org/wiki/Lebanon");
+
+            URL_Add("Magit", "https://magit.vc/");
+
+            URL_Add("Middle East Airlines", "https://en.wikipedia.org/wiki/Middle_East_Airlines");
+
+            URL_Add("NERD tree", "https://www.vim.org/scripts/script.php?script_id=1658");
+
+            URL_Add("Neo Tree", "https://www.emacswiki.org/emacs/NeoTree");
+
+            URL_Add("Starlink", "https://en.wikipedia.org/wiki/SpaceX_Starlink");
+
+            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
+
+            URL_Add("United Airlines", "https://en.wikipedia.org/wiki/United_Airlines");
+
+            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
+
+            URL_Add("XMonad", "https://en.wikipedia.org/wiki/Xmonad");
+
+            URL_Add("ZÃ¼rich", "https://en.wikipedia.org/wiki/Z%C3%BCrich");
+
+            URL_Add("countries", "https://en.wiktionary.org/wiki/country#Noun");
+
+            URL_Add("essence", "https://en.wiktionary.org/wiki/essence#Noun");
+
+            URL_Add("nineteenth", "https://en.wiktionary.org/wiki/nineteenth#Adjective");
+
+            URL_Add("obfuscation", "https://en.wiktionary.org/wiki/obfuscation#Noun");
+
+            URL_Add("practised", "https://en.wiktionary.org/wiki/country#Noun");
+
+            URL_Add("stumbled", "https://en.wiktionary.org/wiki/stumble#Verb");
+
+            URL_Add("takeoff", "https://en.wiktionary.org/wiki/takeoff#Noun");
+
+            URL_Add("thirteenth", "https://en.wiktionary.org/wiki/thirteenth#Adjective");
+
+            URL_Add("twelfth", "https://en.wiktionary.org/wiki/twelfth#Adjective");
+
+            URL_Add("twentieth", "https://en.wiktionary.org/wiki/twentieth#Adjective");
+
+            URL_Add("twenty-first", "https://en.wiktionary.org/wiki/twenty-first#Adjective");
 
 
             //========================================================
