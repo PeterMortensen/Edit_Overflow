@@ -14784,6 +14784,8 @@ namespace OverflowHelper.core
 
             correctionAdd("twenty first", "twenty-first");
             correctionAdd("Twenty first", "twenty-first");
+            
+            correctionAdd("MLM", "multi-level marketing");
 
 
 
