@@ -24,19 +24,24 @@ namespace EditOverflow2
             // integrity testing for the word list data
             WikipediaLookup someWikipediaLookup = new WikipediaLookup();
 
-            // This will result in running ***more*** rigorous
-            // integrity testing for the word list data
-            string Wordlist_HTML =
-              someWikipediaLookup.dumpWordList_asHTML(
+            //Disabled HTML generation for now, as we don't want double
+            //error reporting for problems with the word list data.
+            //
+            //// This will result in running ***more*** rigorous
+            //// integrity testing for the word list data
+            //string Wordlist_HTML =
+            //    someWikipediaLookup.dumpWordList_asHTML(
+            //
+            //        // Fixed strings - sufficient for integrity testing
+            //        // of the word list data
+            //        //
+            //        "some combined regular expressions",
+            //        "some version thingie",
+            //        "some date only string");
 
-                // Fixed strings - sufficient for integrity testing
-                // of the word list data
-                //
-                "some combined regular expressions",
-                "some version thingie",
-                "some date only string");
-                
+
             string wordlist_SQL = someWikipediaLookup.dumpWordList_asSQL();
+
 
             // Dump the SQL to standard output so we can redirect
 	    // it to a file (but note that integrity error
