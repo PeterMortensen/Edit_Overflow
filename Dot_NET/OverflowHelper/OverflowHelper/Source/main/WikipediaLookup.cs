@@ -271,15 +271,17 @@ namespace OverflowHelper.core
 
         /***************************************************************************
         *                                                                          *
-        *  To isolate Windows Forms dependency                                     *
-        *                                                                          *
-        *                                                                          *
+        *  To isolate the Windows Forms dependency                                 *
         *                                                                          *
         ****************************************************************************/
         private static void reportError(string aSomeMessage)
         {
-            //System.Windows.Forms.MessageBox.Show(aSomeMessage); // Windows
-            Console.WriteLine(aSomeMessage); // Linux
+            string fullErrorMessage = "Error in the word list data: " +
+                                      aSomeMessage;
+
+            System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
+            //Console.WriteLine(fullErrorMessage); // Linux
+
         } //reportError()
 
 
@@ -304,11 +306,12 @@ namespace OverflowHelper.core
                 string URL;
                 if (!mWord2URL.TryGetValue(curValue, out URL))
                 {
-                    string msgStr = "No URL mapping for " + curValue;
+                    string msgStr = "No URL mapping for the term \"" + 
+                                    curValue + "\".";
                     reportError(msgStr);
                 }
             } //Hash iteration.
-        }
+        } //checkSpellingDataStructures()
 
 
         /****************************************************************************
@@ -338,9 +341,9 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private string keyValueInfoStr(string aKey, string aValue)
         {
-            return "key '" +
+            return "key \"" +
                    aKey +
-                   "' (value is '" + aValue + "').";
+                   "\" (value is \"" + aValue + "\").";
         }
 
 
@@ -358,8 +361,8 @@ namespace OverflowHelper.core
 
             if (aSomeString[0] == ' ')
             {
-                string msg = "Leading space in '" +
-                             aSomeString + "' - " +
+                string msg = "Leading space in \"" +
+                             aSomeString + "\" - " +
                              keyValueInfoStr(aKey, aValue);
                 reportError(msg);
             }
@@ -367,8 +370,8 @@ namespace OverflowHelper.core
             int lastIndex = aSomeString.Length - 1;
             if (aSomeString[lastIndex] == ' ')
             {
-                string msg = "Trailing space in '" +
-                             aSomeString + "' - " +
+                string msg = "Trailing space in \"" +
+                             aSomeString + "\" - " +
                              keyValueInfoStr(aKey, aValue);
                 reportError(msg);
             }
@@ -416,7 +419,7 @@ namespace OverflowHelper.core
             {
                 //Double entry!
                 string msg = "Double entry for bad term \"" +
-                             keyValueInfoStr(aBadTerm, aCorrectedTerm) + "\"...";
+                             keyValueInfoStr(aBadTerm, aCorrectedTerm) + "\".";
                 reportError(msg);
             }
             else
@@ -428,7 +431,8 @@ namespace OverflowHelper.core
                 mCaseCorrection.Add(aBadTerm, aCorrectedTerm);
 
                 string badTerm;
-                if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm, out badTerm))
+                if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm,  
+                                                        out badTerm))
                 {
                     // If we are here then there is more than one corrected
                     // term. That is OK. That just means there is more than
@@ -478,9 +482,9 @@ namespace OverflowHelper.core
                 else
                 {
                     //No correction mapping exist!
-                    string msg = "Missing correction mapping for the corrected term '" +
-                                 aCorrectedTerm +
-                                 "'.";
+                    string msg = 
+                        "Missing correction mapping for the corrected term \"" +
+                        aCorrectedTerm + "\".";
                     reportError(msg);
                 }
                 mWord2URL.Add(aCorrectedTerm, aURL);
@@ -22021,6 +22025,8 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static string escapeSQL(string aStringForSQL)
         {
+            Trace.Assert(aStringForSQL != null);
+
             return aStringForSQL.Replace("'", "''");
         } //escapeSQL()
 
@@ -22163,22 +22169,11 @@ namespace OverflowHelper.core
                 string someIncorrectTerm = someKeys_incorrectTerms[someIndex];
                 string someCorrectTerm = aCaseCorrection[someIncorrectTerm];
 
-                string someURL = null;
-
                 string msg = string.Empty; // Default: empty - flag for no errors.
 
-                if (!aWord2URL.TryGetValue(someCorrectTerm, out someURL))
-                {
-                    // Fail. What should we do?
 
-                    msg =
-                      "A correct term \"" + someCorrectTerm +
-                      "\", could not be looked up in the term-to-URL mappiong."
-                      ;
-                }
-
-                // On-the-fly check (but it would be better if this check was
-                // done at program startup)
+                // On-the-fly check (but it would be better if 
+                // this check was done at program startup)
                 if (aWord2URL.ContainsKey(someIncorrectTerm))
                 {
                     msg =
@@ -22186,76 +22181,100 @@ namespace OverflowHelper.core
                       "\" has been entered as a correct term...";
                 }
 
-                // On-the-fly checks (but it would be better if theses
-                // checks was done at program startup)
-                //
-                // URLs should look like ones.
-                //
-                // For now, we just check if they start with "http"...
-                //
-                if (!someURL.StartsWith("http"))
+                string someURL = null;
+                if (!aWord2URL.TryGetValue(someCorrectTerm, out someURL))
                 {
+                    // Fail. What should we do?
+
                     msg =
-                      "A URL, <" + someURL + ">, does not look like one. " +
-                      "For correct term \"" + someCorrectTerm + "\".";
-                }
-                if (someURL.Contains("duckduckgo.com") ||
-                    someURL.Contains("www.google.com"))
-                {
-                    msg =
-                      "A URL, <" + someURL + ">, is a search query. " +
-                      "This is not allowed.";
-                }
-
-
-                // Report error, if any. For now, blocking dialogs...
-                if (msg != string.Empty)
-                {
-                    reportError(msg);
-                }
-
-                // Using a flag for now (for the type of output, HTML, SQL, etc.)
-                if (aGenerateHTML)
-                {
-                    addTermsToOutput_HTML(someIncorrectTerm,
-                                          someCorrectTerm,
-                                          ref builder,
-                                          someURL);
+                      "A correct term, \"" + someCorrectTerm +
+                      "\", could not be looked up in the term-to-URL mapping."
+                      ;
                 }
                 else
                 {
-                    addTermsToOutput_SQL(someIncorrectTerm,
-                                         someCorrectTerm,
-                                         ref aSomeScratch,
-                                         someURL);
-
-                    // We can rely on the sorted order, first by incorrect and
-                    // then correct. Thus we will get a corrected term one or
-                    // more times consecutively
-                    if (prevCorrectTerm != someCorrectTerm)
+                    // On-the-fly checks (but it would be better if theses
+                    // checks was done at program startup)
+                    //
+                    // URLs should look like ones.
+                    //
+                    // For now, we just check if they start with "http"...
+                    //
+                    if (!someURL.StartsWith("http"))
                     {
-                        // "Identity mapping" - a lookup of a correct
-                        // term should also succeeed - e.g. if we only
-                        // want to get the URL.
-                        addTermsToOutput_SQL(someCorrectTerm,
+                        msg =
+                          "A URL, <" + someURL + ">, does not look like one. " +
+                          "For correct term \"" + someCorrectTerm + "\".";
+                    }
+                    if (someURL.Contains("duckduckgo.com") ||
+                        someURL.Contains("www.google.com"))
+                    {
+                        msg =
+                          "A URL, <" + someURL + ">, is a search query. " +
+                          "This is not allowed.";
+                    }                
+                } // If URL exists
+
+                // Report error, if any. For now, throw blocking 
+                // dialogs (if Windows GUI application)...
+                if (msg != string.Empty)
+                {
+                    reportError(msg); 
+
+                    // Continue - we want all errors in one go.
+                }
+                else
+                {
+                    // Only generate output for the current item
+                    // if there aren't any errors - otherwise
+                    // we may crash (e.g. for an absent 
+                    // term-to-URL mapping).                   
+
+                    // Using a flag for now (for the type of output, HTML, SQL, etc.)
+                    if (aGenerateHTML)
+                    {
+                        addTermsToOutput_HTML(someIncorrectTerm,
+                                              someCorrectTerm,
+                                              ref builder,
+                                              someURL);
+                    }
+                    else
+                    {
+                        addTermsToOutput_SQL(someIncorrectTerm,
                                              someCorrectTerm,
                                              ref aSomeScratch,
                                              someURL);
-                    }
-                }
 
-                if (someIncorrectTerm.Length > aLongestInCorrectTerm.Length)
-                {
-                    aLongestInCorrectTerm = someIncorrectTerm;
-                }
-                if (someCorrectTerm.Length > aLongestCorrectTerm.Length)
-                {
-                    aLongestCorrectTerm = someCorrectTerm;
-                }
-                if (someURL.Length > aLongestURL.Length)
-                {
-                    aLongestURL = someURL;
-                }
+                        // We can rely on the sorted order, first by incorrect and
+                        // then correct. Thus we will get a corrected term one or
+                        // more times consecutively
+                        if (prevCorrectTerm != someCorrectTerm)
+                        {
+                            // "Identity mapping" - a lookup of a correct
+                            // term should also succeeed - e.g. if we only
+                            // want to get the URL.
+                            addTermsToOutput_SQL(someCorrectTerm,
+                                                 someCorrectTerm,
+                                                 ref aSomeScratch,
+                                                 someURL);
+                        }
+                    } // SQL generation variation
+
+
+                    // Update statistics
+                    if (someIncorrectTerm.Length > aLongestInCorrectTerm.Length)
+                    {
+                        aLongestInCorrectTerm = someIncorrectTerm;
+                    }
+                    if (someCorrectTerm.Length > aLongestCorrectTerm.Length)
+                    {
+                        aLongestCorrectTerm = someCorrectTerm;
+                    }
+                    if (someURL.Length > aLongestURL.Length)
+                    {
+                        aLongestURL = someURL;
+                    }
+                } // Error free (current item)
 
                 prevCorrectTerm = someCorrectTerm;
             } //Through the list of incorrect words
