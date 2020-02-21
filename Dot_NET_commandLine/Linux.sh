@@ -28,7 +28,11 @@ cp $SRCFOLDER_CORE/HTML_builder.cs     $WORKFOLDER
 echo
 cd $WORKFOLDER
 cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-dotnet run | grep -v CS0219                                                >> $SQL_FILE
+dotnet run | grep -v CS0219                                                >> $SQL_FILE 
+
+# 2> /dev/null
+
+echo
 pwd
 ls -lsatr $WORKFOLDER
 

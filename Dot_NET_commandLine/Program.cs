@@ -23,31 +23,38 @@ namespace EditOverflow2
             // integrity testing for the word list data
             WikipediaLookup someWikipediaLookup = new WikipediaLookup();
 
-            //Disabled HTML generation for now, as we don't want double
-            //error reporting for problems with the word list data.
-            //
-            //// This will result in running ***more*** rigorous
-            //// integrity testing for the word list data
-            //string Wordlist_HTML =
-            //    someWikipediaLookup.dumpWordList_asHTML(
-            //
-            //        // Fixed strings - sufficient for integrity testing
-            //        // of the word list data
-            //        //
-            //        "some combined regular expressions",
-            //        "some version thingie",
-            //        "some date only string");
+
+            string toOutput; 
+            if (true) // We don't want double error reporting for problems with
+                      // the word list data - so choose either SQL or HTML
+                      // generation.
+            {
+                // The Default is SQL as that is what we most often
+                // use (to update the depluyed database with the 
+                // word list data).
+                toOutput = someWikipediaLookup.dumpWordList_asSQL();
+            }
+            else
+            {
+                // This will result in running ***more*** rigorous
+                // integrity testing for the word list data
+                toOutput = someWikipediaLookup.dumpWordList_asHTML(
+                
+                        // Fixed strings - sufficient for integrity testing
+                        // of the word list data
+                        //
+                        "some combined regular expressions",
+                        "some version thingie",
+                        "some date only string");
+            }
 
 
-            string wordlist_SQL = someWikipediaLookup.dumpWordList_asSQL();
-
-
-            // Dump the SQL to standard output so we can redirect
-	    // it to a file (but note that integrity error
-	    // messages currently also end up there).
+            // Dump the SQL or HTML to standard output so we can 
+	        // redirect it to a file (but note that integrity 
+	        // error messages currently also end up there...).
             //
             // What about Unicode / UTF-8????????
-            Console.WriteLine(wordlist_SQL);
+            Console.WriteLine(toOutput);
         }
     }
 }
