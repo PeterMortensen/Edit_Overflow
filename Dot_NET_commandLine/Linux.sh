@@ -1,5 +1,5 @@
 
-# Driver script for copying only the necessary files to a work folder, 
+# Driver script for copying only the necessary files to a work folder,
 # compile and run part of the .NET code for Edit Overflow that will
 # result in the wordlist data's integrity be checked.
 
@@ -39,8 +39,8 @@ echo Word statistics:
 grep INSERT $SQL_FILE | wc
 
 # ***************************************************************************
-# Fish out any error messages (from checking of the integrity of the 
-# word list data) out of the generated SQL (the two types of output 
+# Fish out any error messages (from checking of the integrity of the
+# word list data) out of the generated SQL (the two types of output
 # are currently mixed up...)
 echo
 grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VARCHAR | grep -v '^\#' | grep -v ')'  | grep -v '^$' | grep -v INSERT
