@@ -5,7 +5,6 @@
 // independent of Windows and Visual Studio.
 
 
-
 using System; // For Console
 
 using OverflowHelper.core;
@@ -20,7 +19,7 @@ namespace EditOverflow2
             //Console.WriteLine("Hello, World!");
 
 
-            // This will result in running the ***first*** level of 
+            // This will result in running the ***first*** level of
             // integrity testing for the word list data
             WikipediaLookup someWikipediaLookup = new WikipediaLookup();
 
@@ -45,8 +44,8 @@ namespace EditOverflow2
 
             // Dump the SQL to standard output so we can redirect
 	    // it to a file (but note that integrity error
-	    // messages currently also end up there). 
-            // 
+	    // messages currently also end up there).
+            //
             // What about Unicode / UTF-8????????
             Console.WriteLine(wordlist_SQL);
         }
