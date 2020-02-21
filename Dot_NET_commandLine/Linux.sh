@@ -28,9 +28,13 @@ cp $SRCFOLDER_CORE/HTML_builder.cs     $WORKFOLDER
 echo
 cd $WORKFOLDER
 cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
+
+# Note: Compiler errors will be reported to standard 
+#       error, but we currently don't redirect it.
 dotnet run | grep -v CS0219                                                >> $SQL_FILE 
 
 # 2> /dev/null
+
 
 echo
 pwd
@@ -44,10 +48,10 @@ grep INSERT $SQL_FILE | wc
 
 # ***************************************************************************
 # Fish out any error messages (from checking of the integrity of the
-# word list data) out of the generated SQL (the two types of output
-# are currently mixed up...)
+# word list data) out of the generated SQL or HTML (the two types 
+# of output are currently mixed up...)
 echo
-grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VARCHAR | grep -v '^\#' | grep -v ')'  | grep -v '^$' | grep -v INSERT
+grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VARCHAR | grep -v '^\#' | grep -v ')'  | grep -v '^$' | grep -v INSERT | grep -v '<tr>' | grep -v ' <' | grep -v '/>' | grep -v 'nbsp' | grep -v ';'    
 echo
 
 cd -
