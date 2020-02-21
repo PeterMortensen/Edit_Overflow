@@ -279,8 +279,8 @@ namespace OverflowHelper.core
             string fullErrorMessage = "Error in the word list data: " +
                                       aSomeMessage;
 
-            System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
-            //Console.WriteLine(fullErrorMessage); // Linux
+            //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
+            Console.WriteLine(fullErrorMessage); // Linux
 
         } //reportError()
 
