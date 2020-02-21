@@ -306,7 +306,7 @@ namespace OverflowHelper.core
                 string URL;
                 if (!mWord2URL.TryGetValue(curValue, out URL))
                 {
-                    string msgStr = "No URL mapping for the term \"" + 
+                    string msgStr = "No URL mapping for the term \"" +
                                     curValue + "\".";
                     reportError(msgStr);
                 }
@@ -431,7 +431,7 @@ namespace OverflowHelper.core
                 mCaseCorrection.Add(aBadTerm, aCorrectedTerm);
 
                 string badTerm;
-                if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm,  
+                if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm,
                                                         out badTerm))
                 {
                     // If we are here then there is more than one corrected
@@ -482,7 +482,7 @@ namespace OverflowHelper.core
                 else
                 {
                     //No correction mapping exist!
-                    string msg = 
+                    string msg =
                         "Missing correction mapping for the corrected term \"" +
                         aCorrectedTerm + "\".";
                     reportError(msg);
@@ -14792,7 +14792,6 @@ namespace OverflowHelper.core
             correctionAdd("MLM", "multi-level marketing");
 
 
-
             //HACK: AASDASD
             //TODO: OIDSOPAUSD
 
@@ -21964,6 +21963,8 @@ namespace OverflowHelper.core
             URL_Add("twentieth", "https://en.wiktionary.org/wiki/twentieth#Adjective");
 
             URL_Add("twenty-first", "https://en.wiktionary.org/wiki/twenty-first#Adjective");
+            
+            URL_Add("multi-level marketing", "https://en.wikipedia.org/wiki/Multi-level_marketing");
 
 
             //========================================================
@@ -22172,7 +22173,7 @@ namespace OverflowHelper.core
                 string msg = string.Empty; // Default: empty - flag for no errors.
 
 
-                // On-the-fly check (but it would be better if 
+                // On-the-fly check (but it would be better if
                 // this check was done at program startup)
                 if (aWord2URL.ContainsKey(someIncorrectTerm))
                 {
@@ -22212,14 +22213,14 @@ namespace OverflowHelper.core
                         msg =
                           "A URL, <" + someURL + ">, is a search query. " +
                           "This is not allowed.";
-                    }                
+                    }
                 } // If URL exists
 
-                // Report error, if any. For now, throw blocking 
+                // Report error, if any. For now, throw blocking
                 // dialogs (if Windows GUI application)...
                 if (msg != string.Empty)
                 {
-                    reportError(msg); 
+                    reportError(msg);
 
                     // Continue - we want all errors in one go.
                 }
@@ -22227,8 +22228,8 @@ namespace OverflowHelper.core
                 {
                     // Only generate output for the current item
                     // if there aren't any errors - otherwise
-                    // we may crash (e.g. for an absent 
-                    // term-to-URL mapping).                   
+                    // we may crash (e.g. for an absent
+                    // term-to-URL mapping).
 
                     // Using a flag for now (for the type of output, HTML, SQL, etc.)
                     if (aGenerateHTML)
