@@ -1207,6 +1207,8 @@ namespace OverflowHelper.core
             correctionAdd(".NET Core MVC", "ASP.NET Core");
             correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
             correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
+            correctionAdd("asp.net core mvc", "ASP.NET Core");
+            correctionAdd("Asp.net MVC core", "ASP.NET Core");
 
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -1282,6 +1284,7 @@ namespace OverflowHelper.core
             correctionAdd("v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OS 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
+            correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
 
             correctionAdd("Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
@@ -5877,9 +5880,6 @@ namespace OverflowHelper.core
             correctionAdd("NUGET", "NuGet");
             correctionAdd("nu-get", "NuGet");
 
-            correctionAdd("cmd", "Command&nbsp;Prompt");
-            correctionAdd("cmd.exe", "Command&nbsp;Prompt");
-
             correctionAdd("Disk cleanup", "Disk Cleanup");
             correctionAdd("Disk Cleaner", "Disk Cleanup"); //Misremembered name...
 
@@ -6163,7 +6163,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Postscript", "PostScript");
             correctionAdd("postscript", "PostScript");
-            correctionAdd("ps", "PostScript"); //Possible collision with the Unix command-line command. And PowerShell alias for Get-Process...
+            correctionAdd("ps", "PostScript"); //Possible collision with the Unix
+                                               //command-line command. And
+                                               //PowerShell alias for Get-Process...
 
             correctionAdd("SHA256", "SHA-256");
             correctionAdd("SHA 256", "SHA-256");
@@ -6505,6 +6507,7 @@ namespace OverflowHelper.core
             correctionAdd("bitbucket", "Bitbucket");
             correctionAdd("bitbuket", "Bitbucket");
             correctionAdd("BitBucket", "Bitbucket");
+            correctionAdd("bit bucket", "Bitbucket");
 
             correctionAdd("oop", "object-oriented programming");
             correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
@@ -8305,6 +8308,7 @@ namespace OverflowHelper.core
             correctionAdd("unfurtunatly", "unfortunately");
             correctionAdd("Unfurtunately", "unfortunately");
             correctionAdd("unfurtunately", "unfortunately");
+            correctionAdd("Unfortunatelly", "unfortunately");
 
             correctionAdd("beggining", "beginning");
             correctionAdd("beginng", "beginning");
@@ -8647,11 +8651,15 @@ namespace OverflowHelper.core
             correctionAdd("MB", "&nbsp;MB"); //Assuming bytes, not bits...
             correctionAdd("mega byte", "&nbsp;MB");
             correctionAdd("megabyte", "&nbsp;MB");
+            correctionAdd("Mega byte", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); //Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
             correctionAdd("GB", "&nbsp;GB"); //For convenience
             correctionAdd("gigabyte", "&nbsp;GB"); //Shrinking...
+            correctionAdd("Giga Byte", "&nbsp;GB");
+            correctionAdd("Giga byte", "&nbsp;GB");
+            correctionAdd("giga byte", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); //Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); //Assuming bytes, not bits...
@@ -8694,9 +8702,6 @@ namespace OverflowHelper.core
             correctionAdd("corflags", "CorFlags");
             correctionAdd("Corflags", "CorFlags");
             correctionAdd("corflags.exe", "CorFlags");
-
-            correctionAdd("StdOut", "standard output");
-            correctionAdd("stdout", "standard output");
 
             correctionAdd("Solid", "SOLID");
             correctionAdd("solid", "SOLID");
@@ -9782,6 +9787,9 @@ namespace OverflowHelper.core
             correctionAdd("net Core", ".NET Core");
             correctionAdd(".netcore", ".NET Core");
             correctionAdd(".nerdcore", ".NET Core");
+            correctionAdd(".net-core", ".NET Core");
+            correctionAdd(".NETCore", ".NET Core");
+            correctionAdd("Dot Net Core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10557,10 +10565,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bellow", "below");
 
-            correctionAdd("Cmdlet", "cmdlet");
-            correctionAdd("CmdLet", "cmdlet");
-            correctionAdd("commandlet", "cmdlet");
-
             correctionAdd("communciate", "communicate");
 
             correctionAdd("consistant", "consistent");
@@ -10759,9 +10763,6 @@ namespace OverflowHelper.core
             correctionAdd("responsbility", "responsibility");
 
             correctionAdd("Silicon", "silicon");
-
-            correctionAdd("StdErr", "standard error");
-            correctionAdd("stderr", "standard error");
 
             correctionAdd("suprised", "surprised");
 
@@ -11715,8 +11716,6 @@ namespace OverflowHelper.core
             correctionAdd("Refernce", "reference");
             correctionAdd("Reference", "reference");
 
-            correctionAdd("stdin", "standard input");
-
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
 
@@ -12631,9 +12630,6 @@ namespace OverflowHelper.core
             correctionAdd("bottun", "button");
             correctionAdd("botton", "button");
 
-            correctionAdd("command line", "command-line");
-            correctionAdd("CML", "command-line");
-
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
 
@@ -13178,6 +13174,7 @@ namespace OverflowHelper.core
 
             correctionAdd("asterix", "asterisk");
             correctionAdd("asteriscs", "asterisk");
+            correctionAdd("asterics", "asterisk");
 
             correctionAdd("cetian", "certain");
 
@@ -13283,6 +13280,7 @@ namespace OverflowHelper.core
             correctionAdd("enterprise resource planning", "ERP");
 
             correctionAdd("uwp", "UWP");
+            correctionAdd("Universal Windows Platform", "UWP");
 
             correctionAdd("acess", "access");
             correctionAdd("acces", "access");
@@ -14788,8 +14786,53 @@ namespace OverflowHelper.core
 
             correctionAdd("twenty first", "twenty-first");
             correctionAdd("Twenty first", "twenty-first");
-            
+
             correctionAdd("MLM", "multi-level marketing");
+
+            correctionAdd("clique", "click");
+
+            correctionAdd("extremelly", "extremely");
+
+            correctionAdd("goood", "good");
+
+            correctionAdd("quess", "guess");
+
+            correctionAdd("instal", "install");
+
+            correctionAdd("powerfull", "powerful");
+
+            correctionAdd("cmd", "Command&nbsp;Prompt");
+            correctionAdd("cmd.exe", "Command&nbsp;Prompt");
+
+            correctionAdd("Cmdlet", "cmdlet");
+            correctionAdd("CmdLet", "cmdlet");
+            correctionAdd("commandlet", "cmdlet");
+
+            correctionAdd("commmand", "command");
+
+            correctionAdd("command line", "command-line");
+            correctionAdd("CML", "command-line");
+            correctionAdd("commandline", "command-line");
+
+            correctionAdd("stdin", "standard input");
+            correctionAdd("STDIN", "standard input");
+            correctionAdd("standard in", "standard input");
+
+            correctionAdd("StdOut", "standard output");
+            correctionAdd("stdout", "standard output");
+            correctionAdd("STDOUT", "standard output");
+            correctionAdd("standard out", "standard output");
+
+            correctionAdd("StdErr", "standard error");
+            correctionAdd("stderr", "standard error");
+            correctionAdd("STDERR", "standard error");
+            correctionAdd("standard err", "standard error");
+
+            correctionAdd("yeoman", "Yeoman");
+
+            correctionAdd("interop", "interoperability");
+
+            correctionAdd("RTM", "release to manufacturing");
 
 
             //HACK: AASDASD
@@ -21963,8 +22006,29 @@ namespace OverflowHelper.core
             URL_Add("twentieth", "https://en.wiktionary.org/wiki/twentieth#Adjective");
 
             URL_Add("twenty-first", "https://en.wiktionary.org/wiki/twenty-first#Adjective");
-            
+
             URL_Add("multi-level marketing", "https://en.wikipedia.org/wiki/Multi-level_marketing");
+
+            URL_Add("click", "https://en.wiktionary.org/wiki/click#Verb");
+
+            URL_Add("command", "https://en.wiktionary.org/wiki/command#Noun");
+
+            URL_Add("extremely", "https://en.wiktionary.org/wiki/extremely#Adverb");
+
+            URL_Add("good", "https://en.wiktionary.org/wiki/good#Adjective");
+
+            URL_Add("guess", "https://en.wiktionary.org/wiki/guess#Verb");
+
+            URL_Add("install", "https://en.wiktionary.org/wiki/install#Verb");
+
+            URL_Add("powerful", "https://en.wiktionary.org/wiki/powerful#Adjective");
+
+            URL_Add("Yeoman", "https://en.wikipedia.org/wiki/Yeoman_(software)");
+
+            URL_Add("interoperability", "https://en.wiktionary.org/wiki/interoperability#Noun");
+
+            URL_Add("release to manufacturing", "https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_to_manufacturing_(RTM)");
+
 
 
             //========================================================
