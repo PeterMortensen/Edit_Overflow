@@ -456,23 +456,24 @@
 
         <?php
 
-            # Trial of a page counter (plugin "Page Visit Counter",
-            # <https://wordpress.org/plugins/page-visit-counter/>
-
-            #echo do_shortcode('[pvcp_1]'); # Page counter. From plugin "Page Visit Counter",
-                                            # <https://wordpress.org/plugins/page-visit-counter/>.
+            #Experiment disabled for now
+            # # Trial of a page counter (plugin "Page Visit Counter",
+            # # <https://wordpress.org/plugins/page-visit-counter/>
             #
-            if (function_exists('do_shortcode'))
-            {
-                echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-
-                #echo do_shortcode('[gallery]'); # Results in some CSS output and also
-                                                # URLs to some of our images, e.g.:
-                                                # https://pmortensen.eu/world/wp-content/uploads/2019/11/owl3-200x200.ico
-
-                echo do_shortcode('[pvcp_1]'); # Zero output (empty string)!
-                echo "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
-            }
+            # #echo do_shortcode('[pvcp_1]'); # Page counter. From plugin "Page Visit Counter",
+            #                                 # <https://wordpress.org/plugins/page-visit-counter/>.
+            # #
+            # if (function_exists('do_shortcode'))
+            # {
+            #     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+            #
+            #     #echo do_shortcode('[gallery]'); # Results in some CSS output and also
+            #                                     # URLs to some of our images, e.g.:
+            #                                     # https://pmortensen.eu/world/wp-content/uploads/2019/11/owl3-200x200.ico
+            #
+            #     echo do_shortcode('[pvcp_1]'); # Zero output (empty string)!
+            #     echo "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
+            # }
 
 
             echo "$message $extraMessage\n\n";

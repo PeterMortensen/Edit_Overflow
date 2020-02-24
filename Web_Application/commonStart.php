@@ -39,7 +39,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a11 2020-02-14T142743Z+0";
+        return "Edit Overflow v. 1.1.49a12 2020-02-24T155742Z+0";
     }
 
 
