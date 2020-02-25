@@ -4256,6 +4256,11 @@ namespace OverflowHelper.core
             correctionAdd("msoft", "Microsoft");
             correctionAdd("MicroShit", "Microsoft");
             correctionAdd("Microshit", "Microsoft");
+            correctionAdd("Micro$haft", "Microsoft");
+            correctionAdd("MicroShaft", "Microsoft");
+            correctionAdd("Microshaft", "Microsoft");
+            correctionAdd("micro$oft", "Microsoft");
+            correctionAdd("Micro$oft", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -10491,6 +10496,8 @@ namespace OverflowHelper.core
             correctionAdd("CMakeLists", "CMakeLists.txt");
             correctionAdd("cmakelists.txt", "CMakeLists.txt");
             correctionAdd("cmakelists", "CMakeLists.txt");
+            correctionAdd("CMakeList", "CMakeLists.txt");
+            correctionAdd("CMakeList.txt", "CMakeLists.txt");
 
             correctionAdd("fpu", "FPU");
 
@@ -10505,8 +10512,14 @@ namespace OverflowHelper.core
             correctionAdd("GitBash", "Git Bash");
             correctionAdd("Git bash", "Git Bash");
             correctionAdd("Gitbash", "Git Bash");
+            correctionAdd("GIT bash", "Git Bash");
 
             correctionAdd("git-extensions", "Git Extensions");
+            correctionAdd("GitExtensions", "Git Extensions");
+            correctionAdd("gitextensions", "Git Extensions");
+            correctionAdd("GIT extensions", "Git Extensions");
+            correctionAdd("GIT ext", "Git Extensions");
+            correctionAdd("git extension", "Git Extensions");
 
             correctionAdd("idk", "I don't know");
             correctionAdd("Idk", "I don't know");
@@ -10516,8 +10529,12 @@ namespace OverflowHelper.core
             correctionAdd("Invoke-expression", "Invoke-Expression");
 
             correctionAdd("Kdiff3", "KDiff3");
+            correctionAdd("kdiff3", "KDiff3");
+            correctionAdd("KDiff 3", "KDiff3");
 
             correctionAdd("kubernetes", "Kubernetes");
+            correctionAdd("kubernete", "Kubernetes");
+            correctionAdd("k8s", "Kubernetes");
 
             correctionAdd("mamp", "MAMP");
 
@@ -10539,6 +10556,7 @@ namespace OverflowHelper.core
             correctionAdd("scmitt trigger", "Schmitt trigger");
             correctionAdd("Schmidt", "Schmitt trigger");
             correctionAdd("Schmidt trigger", "Schmitt trigger");
+            correctionAdd("schmitt trigger", "Schmitt trigger");
 
             correctionAdd("start-job", "Start-Job");
 
@@ -10558,12 +10576,14 @@ namespace OverflowHelper.core
             correctionAdd("answser", "answer");
 
             correctionAdd("acward", "awkward");
+            correctionAdd("ackward", "awkward");
 
             correctionAdd("before hand", "beforehand");
 
             correctionAdd("behavoir", "behavior");
 
             correctionAdd("bellow", "below");
+            correctionAdd("bewlow", "below");
 
             correctionAdd("communciate", "communicate");
 
@@ -10604,6 +10624,7 @@ namespace OverflowHelper.core
             correctionAdd("readonly", "read-only");
 
             correctionAdd("realy", "really");
+            correctionAdd("raly", "really");
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
@@ -10644,6 +10665,7 @@ namespace OverflowHelper.core
 
             correctionAdd("XUnit", "xUnit");
             correctionAdd("Xunit", "xUnit");
+            correctionAdd("xunit", "xUnit");
 
             correctionAdd("set-content", "Set-Content");
 
@@ -11337,6 +11359,7 @@ namespace OverflowHelper.core
             correctionAdd("phonemenia", "phonomena");
 
             correctionAdd("possebilities", "possibilities");
+            correctionAdd("possibilites", "possibilities");
 
             correctionAdd("pr", "pull request");
             correctionAdd("PR", "pull request");
@@ -11552,6 +11575,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sourcetree", "Sourcetree");
             correctionAdd("SourceTree", "Sourcetree");
+            correctionAdd("Source Tree", "Sourcetree");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -11715,6 +11739,7 @@ namespace OverflowHelper.core
             correctionAdd("REFRENCE", "reference");
             correctionAdd("Refernce", "reference");
             correctionAdd("Reference", "reference");
+            correctionAdd("refenrece", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -12569,6 +12594,7 @@ namespace OverflowHelper.core
             correctionAdd("helloworld", "Hello, World!");
             correctionAdd("Hello World!", "Hello, World!");
             correctionAdd("hello World", "Hello, World!");
+            correctionAdd("hello-world", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -14213,6 +14239,7 @@ namespace OverflowHelper.core
             correctionAdd("zookeeper", "ZooKeeper");
 
             correctionAdd("appologize", "apologise");
+            correctionAdd("apologize", "apologise");
 
             correctionAdd("disbale", "disable");
 
@@ -14833,6 +14860,35 @@ namespace OverflowHelper.core
             correctionAdd("interop", "interoperability");
 
             correctionAdd("RTM", "release to manufacturing");
+
+            correctionAdd("Beteljuice", "Betelgeuse");
+
+            correctionAdd("ZX 81", "ZX81");
+
+            correctionAdd("ad homium", "ad hominem");
+
+            correctionAdd("appologizing", "apologizing");
+
+            correctionAdd("camuflage", "camouflage");
+
+            correctionAdd("cachier", "cashier");
+
+            correctionAdd("disadvange", "disadvantage");
+
+            correctionAdd("Emoji", "emoji");
+
+            correctionAdd("largest extend", "largest extent");
+
+            correctionAdd("pretentoius", "pretentious");
+
+            correctionAdd("spear time", "spare time");
+
+            correctionAdd("systemD", "systemd");
+
+            correctionAdd("wave length", "wavelength");
+
+
+
 
 
             //HACK: AASDASD
@@ -22028,6 +22084,32 @@ namespace OverflowHelper.core
             URL_Add("interoperability", "https://en.wiktionary.org/wiki/interoperability#Noun");
 
             URL_Add("release to manufacturing", "https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_to_manufacturing_(RTM)");
+
+            URL_Add("Betelgeuse", "https://en.wikipedia.org/wiki/Betelgeuse");
+
+            URL_Add("ZX81", "https://en.wikipedia.org/wiki/ZX81");
+
+            URL_Add("ad hominem", "https://en.wiktionary.org/wiki/ad_hominem#Adjective");
+
+            URL_Add("apologizing", "https://en.wiktionary.org/wiki/apologize#Verb");
+
+            URL_Add("camouflage", "https://en.wiktionary.org/wiki/camouflage#Noun");
+
+            URL_Add("cashier", "https://en.wiktionary.org/wiki/cashier#Noun");
+
+            URL_Add("disadvantage", "https://en.wiktionary.org/wiki/disadvantage#Noun");
+
+            URL_Add("emoji", "https://en.wikipedia.org/wiki/Emoji");
+
+            URL_Add("largest extent", "https://en.wiktionary.org/wiki/extent#Noun");
+
+            URL_Add("pretentious", "https://en.wiktionary.org/wiki/pretentious#Adjective");
+
+            URL_Add("spare time", "https://en.wiktionary.org/wiki/spare_time#Noun");
+
+            URL_Add("systemd", "https://en.wikipedia.org/wiki/Systemd");
+
+            URL_Add("wavelength", "https://en.wikipedia.org/wiki/Wavelength");
 
 
 
