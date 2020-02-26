@@ -1209,6 +1209,9 @@ namespace OverflowHelper.core
             correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
             correctionAdd("asp.net core mvc", "ASP.NET Core");
             correctionAdd("Asp.net MVC core", "ASP.NET Core");
+            correctionAdd("Asp.net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net core", "ASP.NET Core");
 
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -13050,6 +13053,7 @@ namespace OverflowHelper.core
 
             correctionAdd("monetize", "monetise");
             correctionAdd("monitise", "monetise");
+            correctionAdd("Monetise", "monetise");
 
             correctionAdd("Monkey patching", "monkey patching");
 
@@ -14887,7 +14891,23 @@ namespace OverflowHelper.core
 
             correctionAdd("wave length", "wavelength");
 
+            correctionAdd("Tick Tok", "TikTok");
 
+            correctionAdd("acceleromator", "accelerometer");
+
+            correctionAdd("eBook", "e-book");
+            correctionAdd("e book", "e-book");
+
+            correctionAdd("enthousiastic", "enthusiastic");
+
+            correctionAdd("Power for the course", "par for the course");
+            correctionAdd("power for the course", "par for the course");
+
+            correctionAdd("whole-sale", "wholesale");
+            correctionAdd("whole sale", "wholesale");
+
+            correctionAdd(".NETStandard", ".NET Standard");
+            correctionAdd(".netstandard", ".NET Standard");
 
 
 
@@ -22111,6 +22131,19 @@ namespace OverflowHelper.core
 
             URL_Add("wavelength", "https://en.wikipedia.org/wiki/Wavelength");
 
+            URL_Add("TikTok", "https://en.wikipedia.org/wiki/TikTok");
+
+            URL_Add("accelerometer", "https://en.wikipedia.org/wiki/Accelerometer");
+
+            URL_Add("e-book", "https://en.wikipedia.org/wiki/E-book");
+
+            URL_Add("enthusiastic", "https://en.wiktionary.org/wiki/enthusiastic#Adjective");
+
+            URL_Add("par for the course", "https://en.wiktionary.org/wiki/par_for_the_course#Adjective");
+
+            URL_Add("wholesale", "https://en.wiktionary.org/wiki/wholesale#Adjective");
+
+            URL_Add(".NET Standard", "https://docs.microsoft.com/en-us/dotnet/standard/net-standard");
 
 
             //========================================================
