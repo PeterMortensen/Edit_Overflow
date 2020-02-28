@@ -16,41 +16,62 @@ namespace EditOverflow2
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
+            string outputType = Environment.GetEnvironmentVariable("WORDLIST_OUTPUTTYPE");
 
+            string toOutput = ""; // No output unless explicitly indicated
+                                  // by parameters passed to the program
 
             // This will result in running the ***first*** level of
             // integrity testing for the word list data
             WikipediaLookup someWikipediaLookup = new WikipediaLookup();
 
-
-            string toOutput; 
-            if (true) // We don't want double error reporting for problems with
-                      // the word list data - so choose either SQL or HTML
-                      // generation.
+            switch (outputType)
             {
-                // The Default is SQL as that is what we most often
-                // use (to update the depluyed database with the 
-                // word list data).
-                toOutput = someWikipediaLookup.dumpWordList_asSQL();
-            }
-            else
-            {
-                // This will result in running ***more*** rigorous
-                // integrity testing for the word list data
-                toOutput = someWikipediaLookup.dumpWordList_asHTML(
-                
-                        // Fixed strings - sufficient for integrity testing
-                        // of the word list data
-                        //
-                        "some combined regular expressions",
-                        "some version thingie",
-                        "some date only string");
+                case "SQL":
+                    // That is what we most often use (to update the
+                    // deployed database with the word list data).
+                    //
+                    // Like for HTML generation, it will result in
+                    // running ***more*** rigorous integrity
+                    // testing for the word list data.
+
+                    toOutput = someWikipediaLookup.dumpWordList_asSQL();
+                    break;
+
+                case "HTML":
+                    // This will result in running ***more*** rigorous
+                    // integrity testing for the word list data
+                    toOutput = someWikipediaLookup.dumpWordList_asHTML(
+
+                                   // Fixed strings - sufficient for integrity testing
+                                   // of the word list data
+                                   //
+                                   "some combined regular expressions",
+                                   "some version thingie",
+                                   "some date only string");
+                    break;
+
+               default:
+
+                  //Console.WriteLine("Hello, World!");
+
+                  Console.WriteLine("\n");
+                  Console.WriteLine("2020-02-28T012833Z+0");
+                  Console.WriteLine("\n");
+
+                  string var1 = Environment.GetEnvironmentVariable("PATH");
+                  //Console.WriteLine("Environment variable PATH: " + var1 + "\n");
+
+                  Console.WriteLine(
+                    "Output type for wordlist not specified. " +
+                    "Use environment variable WORDLIST_OUTPUTTYPE " +
+                    "with 'SQL' or 'HTML'.\n");
+                  break;
             }
 
 
-            // Dump the SQL or HTML to standard output so we can 
-	        // redirect it to a file (but note that integrity 
+            // Dump the SQL or HTML to standard output so we can
+	        // redirect it to a file (but note that integrity
 	        // error messages currently also end up there...).
             //
             // What about Unicode / UTF-8????????
