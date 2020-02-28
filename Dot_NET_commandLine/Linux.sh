@@ -17,6 +17,7 @@ export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 # Copy files to the workfolder
 #
 mkdir $WORKFOLDER
+cd $SRCFOLDER_BASE/Dot_NET_commandLine
 cp Program.cs                          $WORKFOLDER
 cp EditOverflow3.csproj                $WORKFOLDER
 cp $SRCFOLDER_CORE/WikipediaLookup.cs  $WORKFOLDER
@@ -29,12 +30,13 @@ echo
 cd $WORKFOLDER
 cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
 
-# Note: Compiler errors will be reported to standard 
+# Note: Compiler errors will be reported to standard
 #       error, but we currently don't redirect it.
 #
 #       CS0162 is "warning : Unreachable code detected"
-# 
-dotnet run | grep -v CS0219 | grep -v CS0162                               >> $SQL_FILE 
+#
+export WORDLIST_OUTPUTTYPE=SQL
+dotnet run | grep -v CS0219 | grep -v CS0162                               >> $SQL_FILE
 
 # 2> /dev/null
 
@@ -44,17 +46,19 @@ pwd
 ls -lsatr $WORKFOLDER
 
 # Output word list statistics - the first number is close to what
-# is expected in the report for the import into MySQL.
+# is expected in the report for the import into MySQL (a 
+# difference of 3).
 echo
 echo Word statistics:
 grep INSERT $SQL_FILE | wc
 
+
 # ***************************************************************************
 # Fish out any error messages (from checking of the integrity of the
-# word list data) out of the generated SQL or HTML (the two types 
+# word list data) out of the generated SQL or HTML (the two types
 # of output are currently mixed up...)
 echo
-grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VARCHAR | grep -v '^\#' | grep -v ')'  | grep -v '^$' | grep -v INSERT | grep -v '<tr>' | grep -v ' <' | grep -v '/>' | grep -v 'nbsp' | grep -v ';'    
+grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VARCHAR | grep -v '^\#' | grep -v ')'  | grep -v '^$' | grep -v INSERT | grep -v '<tr>' | grep -v ' <' | grep -v '/>' | grep -v 'nbsp' | grep -v ';' | grep -v '2020-'
 echo
 
 cd -
