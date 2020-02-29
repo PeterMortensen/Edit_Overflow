@@ -23,6 +23,7 @@ export SRCFOLDER_CORE=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Sour
 export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 
 export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
+export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflow_latest.html
 
 
 
@@ -63,6 +64,8 @@ dotnet run | grep -v CS0219 | grep -v CS0162                               >> $S
 #Some redundancy here - to be eliminated
 export WORDLIST_OUTPUTTYPE=HTML
 dotnet run | grep -v CS0219 | grep -v CS0162                               > $HTML_FILE
+
+cp  $HTML_FILE  $HTML_FILE_GENERIC 
 
 
 

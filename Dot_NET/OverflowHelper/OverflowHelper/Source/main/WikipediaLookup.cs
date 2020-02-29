@@ -1212,6 +1212,8 @@ namespace OverflowHelper.core
             correctionAdd("Asp.net Core", "ASP.NET Core");
             correctionAdd("Asp.Net Core", "ASP.NET Core");
             correctionAdd("Asp.Net core", "ASP.NET Core");
+            correctionAdd("ASP .NET Core", "ASP.NET Core");
+            correctionAdd("ASP Core", "ASP.NET Core");
 
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -2544,6 +2546,8 @@ namespace OverflowHelper.core
             correctionAdd("http", "HTTP");
             correctionAdd("Http", "HTTP");
             correctionAdd("hhtp", "HTTP");
+            correctionAdd("HyperText Transfer Protocol", "HTTP");
+            correctionAdd("Hypertext Transfer Protocol", "HTTP");
 
             correctionAdd("ascii", "ASCII");
             correctionAdd("acsii", "ASCII");
@@ -3712,6 +3716,8 @@ namespace OverflowHelper.core
             correctionAdd("Nodesj", "Node.js");
             correctionAdd("NODE", "Node.js");
             correctionAdd("NODE JS", "Node.js");
+            correctionAdd("node. Js", "Node.js");
+            correctionAdd("node. js", "Node.js");
 
             correctionAdd("XHR", "XMLHttpRequest"); //Expansion.
             correctionAdd("xhr", "XMLHttpRequest");
@@ -5327,18 +5333,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pdb", "PDB");
 
-            correctionAdd("env", "environment");
-            correctionAdd("evironment", "environment");
-            correctionAdd("ENV", "environment");
-            correctionAdd("environement", "environment");
-            correctionAdd("enviroment", "environment");
-            correctionAdd("environnement", "environment");
-            correctionAdd("enviorenment", "environment");
-            correctionAdd("env variable", "environment");
-            correctionAdd("enviorment", "environment");
-            correctionAdd("enviromnment", "environment");
-            correctionAdd("environmanet", "environment");
-
             correctionAdd("lan", "LAN");
 
             correctionAdd("javadoc", "Javadoc");
@@ -6717,6 +6711,8 @@ namespace OverflowHelper.core
             correctionAdd("imidietally", "immediately");
             correctionAdd("immedietally", "immediately");
             correctionAdd("immedietly", "immediately");
+            correctionAdd("imidiately", "immediately");
+            correctionAdd("imidiatly", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -8870,6 +8866,7 @@ namespace OverflowHelper.core
             correctionAdd("1 liner", "one-liner");
             correctionAdd("oneline", "one-liner");
             correctionAdd("onliner", "one-liner");
+            correctionAdd("one linear", "one-liner");
 
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
@@ -9956,7 +9953,10 @@ namespace OverflowHelper.core
             correctionAdd("Email", "email");
             correctionAdd("meail", "email");
             correctionAdd("meails", "email");
-
+            correctionAdd("E-Mail", "email");
+            correctionAdd("E-mail", "email");
+            correctionAdd("e-mail", "email");
+            
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
             correctionAdd("alltogether", "altogether");
@@ -11579,12 +11579,6 @@ namespace OverflowHelper.core
             correctionAdd("sourcetree", "Sourcetree");
             correctionAdd("SourceTree", "Sourcetree");
             correctionAdd("Source Tree", "Sourcetree");
-
-            correctionAdd("env var", "environment variable");
-            correctionAdd("Env Var", "environment variable");
-            correctionAdd("ENV-Variable", "environment variable");
-            correctionAdd("envar", "environment variable");
-            correctionAdd("envionmental variable", "environment variable");
 
             correctionAdd("WINDOWS EXPLORER", "Windows&nbsp;Explorer");
 
@@ -14143,6 +14137,7 @@ namespace OverflowHelper.core
 
             correctionAdd("int", "integer");
             correctionAdd("ingeters", "integer");
+            correctionAdd("intiger", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -14909,6 +14904,87 @@ namespace OverflowHelper.core
             correctionAdd(".NETStandard", ".NET Standard");
             correctionAdd(".netstandard", ".NET Standard");
 
+            correctionAdd("Dotnet CLI", ".NET CLI");
+            correctionAdd("Dotnet cli", ".NET CLI");
+
+            correctionAdd("axios", "Axios");
+
+            correctionAdd("Billy Bloat", "Bill Gates");
+            correctionAdd("billy bloat", "Bill Gates");
+
+            correctionAdd("dnx", "DNX");
+
+            correctionAdd("jsx", "JSX");
+
+            correctionAdd("JST", "JavaScript Templates");
+
+            correctionAdd("Network News Transfer Protocol", "NNTP");
+
+            correctionAdd("nestjs", "NestJS");
+
+            correctionAdd("rotten tomatoes", "Rotten Tomatoes");
+
+            correctionAdd("SAFe", "Scaled Agile Framework");
+
+            correctionAdd("security now", "Security Now");
+
+            correctionAdd("smarty", "Smarty");
+
+            correctionAdd("tailwind", "Tailwind CSS");
+            correctionAdd("Tailwind", "Tailwind CSS");
+
+            correctionAdd("waybackmachine", "Wayback Machine");
+
+            correctionAdd("yarn", "Yarn");
+
+            correctionAdd("conveyance", "convenience");
+
+            correctionAdd("coverup", "cover-up");
+            correctionAdd("cover up", "cover-up");
+
+            correctionAdd("entreprenurship", "entrepreneurship");
+
+            correctionAdd("fromer", "former");
+
+            correctionAdd("gate keeper", "gatekeeper");
+
+            correctionAdd("medior", "mediocre");
+
+            correctionAdd("NPM", "npm");
+
+            correctionAdd("Prime Number", "prime number");
+
+            correctionAdd("re-usable", "reusable");
+
+            correctionAdd("seperated", "separated");
+
+            correctionAdd("terrefic", "terrific");
+            correctionAdd("Terrefic", "terrific");
+
+            correctionAdd("tic tac toe", "tic-tac-toe");
+
+            correctionAdd("traefik", "Træfik");
+            correctionAdd("Traefik", "Træfik");
+
+            correctionAdd("env", "environment");
+            correctionAdd("evironment", "environment");
+            correctionAdd("ENV", "environment");
+            correctionAdd("environement", "environment");
+            correctionAdd("enviroment", "environment");
+            correctionAdd("environnement", "environment");
+            correctionAdd("enviorenment", "environment");
+            correctionAdd("enviorment", "environment");
+            correctionAdd("enviromnment", "environment");
+            correctionAdd("environmanet", "environment");
+
+            correctionAdd("env var", "environment variable");
+            correctionAdd("Env Var", "environment variable");
+            correctionAdd("ENV-Variable", "environment variable");
+            correctionAdd("envar", "environment variable");
+            correctionAdd("envionmental variable", "environment variable");
+            correctionAdd("Environment Variable", "environment variable");
+            correctionAdd("ENV var", "environment variable");
+            correctionAdd("env variable", "environment");
 
 
             //HACK: AASDASD
@@ -22144,6 +22220,63 @@ namespace OverflowHelper.core
             URL_Add("wholesale", "https://en.wiktionary.org/wiki/wholesale#Adjective");
 
             URL_Add(".NET Standard", "https://docs.microsoft.com/en-us/dotnet/standard/net-standard");
+
+            URL_Add(".NET CLI", "https://en.wikipedia.org/wiki/Common_Language_Infrastructure");
+
+            URL_Add("Axios", "https://github.com/mzabriskie/axios");
+
+            URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
+
+            URL_Add("DNX", "https://stackoverflow.com/questions/30374725/is-net-execution-environment-dnx-similar-to-mono");
+
+            URL_Add("JSX", "https://en.wikipedia.org/wiki/React_(web_framework)#JSX");
+
+            URL_Add("JavaScript Templates", "http://blog.markturansky.com/BetterJavascriptTemplates.html");
+
+            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
+
+            URL_Add("NestJS", "https://nestjs.com/");
+
+            URL_Add("Rotten Tomatoes", "https://en.wikipedia.org/wiki/Rotten_Tomatoes");
+
+            URL_Add("Scaled Agile Framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
+
+            URL_Add("Security Now", "https://en.wikipedia.org/wiki/Security_Now");
+
+            URL_Add("Smarty", "https://en.wikipedia.org/wiki/Smarty_(template_engine)");
+
+            URL_Add("Tailwind CSS", "https://tailwindcss.com/");
+
+            URL_Add("Wayback Machine", "https://en.wikipedia.org/wiki/Wayback_Machine");
+
+            URL_Add("Yarn", "https://yarnpkg.com/");
+
+            URL_Add("convenience", "https://en.wiktionary.org/wiki/convenience#Noun");
+
+            URL_Add("cover-up", "https://en.wiktionary.org/wiki/cover-up#Noun");
+
+            URL_Add("entrepreneurship", "https://en.wiktionary.org/wiki/entrepreneurship#Noun");
+
+            URL_Add("former", "https://en.wikipedia.org/wiki/Common_Language_Infrastructure");
+
+            URL_Add("gatekeeper", "https://en.wiktionary.org/wiki/gatekeeper#Noun");
+
+            URL_Add("mediocre", "https://en.wiktionary.org/wiki/mediocre#Adjective");
+
+            URL_Add("npm", "https://en.wikipedia.org/wiki/Npm_(software)");
+
+            URL_Add("prime number", "https://en.wiktionary.org/wiki/prime_number#Noun");
+
+            URL_Add("reusable", "https://en.wiktionary.org/wiki/reusable#Adjective");
+
+            URL_Add("separated", "https://en.wiktionary.org/wiki/separated#Adjective");
+
+            URL_Add("terrific", "https://en.wiktionary.org/wiki/terrific#Adjective");
+
+            URL_Add("tic-tac-toe", "https://en.wikipedia.org/wiki/Tic-tac-toe");
+
+            URL_Add("Træfik", "https://traefik.io/");
+
 
 
             //========================================================
