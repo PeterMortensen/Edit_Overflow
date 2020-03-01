@@ -858,6 +858,9 @@ namespace OverflowHelper.core
             correctionAdd("potsgres", "PostgreSQL");
             correctionAdd("postgersql", "PostgreSQL");
             correctionAdd("PostGres", "PostgreSQL");
+            correctionAdd("pgSQL", "PostgreSQL");
+            correctionAdd("PgSQL", "PostgreSQL");
+            correctionAdd("PL/pgSQL", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -1214,6 +1217,7 @@ namespace OverflowHelper.core
             correctionAdd("Asp.Net core", "ASP.NET Core");
             correctionAdd("ASP .NET Core", "ASP.NET Core");
             correctionAdd("ASP Core", "ASP.NET Core");
+            correctionAdd("aspnetcore", "ASP.NET Core");
 
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -2710,6 +2714,7 @@ namespace OverflowHelper.core
             correctionAdd("XPATH", "XPath");
 
             correctionAdd("repl", "REPL");
+            correctionAdd("RPEL", "REPL");
 
             correctionAdd("Vtune", "VTune");
 
@@ -5721,12 +5726,6 @@ namespace OverflowHelper.core
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
 
-
-            // Consider:
-            //   weaher
-            //   <https://en.wiktionary.org/wiki/weather#Noun>
-
-
             correctionAdd("dragonfly", "Dragonfly");
 
             correctionAdd("i2c", "I²C");
@@ -7742,6 +7741,9 @@ namespace OverflowHelper.core
 
             correctionAdd("INTEL", "Intel");
             correctionAdd("intel", "Intel");
+            correctionAdd("shitlel", "Intel");
+            correctionAdd("shintel", "Intel");
+            correctionAdd("Shintel", "Intel");
 
             correctionAdd("Textwrangler", "TextWrangler");
 
@@ -9956,7 +9958,7 @@ namespace OverflowHelper.core
             correctionAdd("E-Mail", "email");
             correctionAdd("E-mail", "email");
             correctionAdd("e-mail", "email");
-            
+
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
             correctionAdd("alltogether", "altogether");
@@ -12380,6 +12382,7 @@ namespace OverflowHelper.core
             correctionAdd("cost effective", "cost-effective");
 
             correctionAdd("encrytpion", "encryption");
+            correctionAdd("encription", "encryption");
 
             correctionAdd("guess work", "guesswork");
 
@@ -12632,6 +12635,7 @@ namespace OverflowHelper.core
             correctionAdd("US", "USA");
             correctionAdd("united states", "USA");
             correctionAdd("United States", "USA");
+            correctionAdd("usa", "USA");
 
             correctionAdd("Vic20", "VIC-20");
             correctionAdd("VIC 20", "VIC-20");
@@ -14691,14 +14695,6 @@ namespace OverflowHelper.core
             correctionAdd("cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
 
-            correctionAdd("wether", "whether");
-            correctionAdd("wheter", "whether");
-            correctionAdd("whhethher", "whether");
-            correctionAdd("whethee", "whether");
-            correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is "weather".
-
-            correctionAdd("weater", "weather");
-
             correctionAdd("hitch-hike", "hitchhike");
             correctionAdd("hitch hike", "hitchhike");
 
@@ -14985,6 +14981,65 @@ namespace OverflowHelper.core
             correctionAdd("Environment Variable", "environment variable");
             correctionAdd("ENV var", "environment variable");
             correctionAdd("env variable", "environment");
+
+            // Consider:
+            //   weaher
+            //   <https://en.wiktionary.org/wiki/weather#Noun>
+
+            correctionAdd("wether", "whether");
+            correctionAdd("wheter", "whether");
+            correctionAdd("whhethher", "whether");
+            correctionAdd("whethee", "whether");
+            correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is "weather".
+
+            correctionAdd("weater", "weather");
+
+            correctionAdd("Cassini", "Cassini web server");
+
+            correctionAdd("evans gambit declined", "Evans Gambit Declined");
+
+            correctionAdd("Guttenberg", "Gutenberg");
+
+            correctionAdd("lbry.tv", "LBRY");
+            correctionAdd("LBRL", "LBRY");
+            correctionAdd("lbry", "LBRY");
+
+            correctionAdd("RAID 5", "RAID&nbsp;5");
+            correctionAdd("Raid5", "RAID&nbsp;5");
+            correctionAdd("Raid 5", "RAID&nbsp;5");
+
+            correctionAdd("Louis Lopez", "Ruy Lopez");
+
+            correctionAdd("sqrl", "SQRL");
+
+            correctionAdd("usain bolt", "Usain Bolt");
+
+            correctionAdd("Battleship", "battleship");
+
+            correctionAdd("beet", "beat");
+
+            correctionAdd("die-hard", "diehard");
+            correctionAdd("die hard", "diehard");
+
+            correctionAdd("Embedded system", "embedded system");
+
+            correctionAdd("Heavy Bomber", "heavy bomber");
+
+            correctionAdd("lanch", "launch");
+
+            correctionAdd("loose loose", "lose-lose");
+            correctionAdd("lose lose", "lose-lose");
+            correctionAdd("loose-loose", "lose-lose");
+
+            correctionAdd("self-propelled", "self-propelled artillery");
+
+            correctionAdd("Tank", "tank");
+
+            correctionAdd("thurst", "thrust");
+
+            correctionAdd("Winner winner chicken dinner", "winner, winner, chicken dinner");
+            correctionAdd("winner winner chicken dinner", "winner, winner, chicken dinner");
+            correctionAdd("Winner, winner, chicken dinner", "winner, winner, chicken dinner");
 
 
             //HACK: AASDASD
@@ -22276,6 +22331,44 @@ namespace OverflowHelper.core
             URL_Add("tic-tac-toe", "https://en.wikipedia.org/wiki/Tic-tac-toe");
 
             URL_Add("Træfik", "https://traefik.io/");
+
+            URL_Add("Cassini web server", "https://www.developer.com/net/deciding-on-a-microsoft-web-server-cassini-iis-and-iis-express.html");
+
+            URL_Add("Evans Gambit Declined", "https://en.wikipedia.org/wiki/Evans_Gambit#Declining_the_gambit");
+
+            URL_Add("Gutenberg", "https://en.wikipedia.org/wiki/WordPress#WordPress_5.0_%22Bebo%22");
+
+            URL_Add("LBRY", "https://lbry.com/");
+
+            URL_Add("RAID&nbsp;5", "https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5");
+
+            URL_Add("Ruy Lopez", "https://en.wikipedia.org/wiki/Ruy_Lopez");
+
+            URL_Add("SQRL", "https://en.wikipedia.org/wiki/SQRL");
+
+            URL_Add("Usain Bolt", "https://en.wikipedia.org/wiki/Usain_Bolt");
+
+            URL_Add("battleship", "https://en.wikipedia.org/wiki/Battleship");
+
+            URL_Add("beat", "https://en.wiktionary.org/wiki/beat#Verb");
+
+            URL_Add("diehard", "https://en.wiktionary.org/wiki/diehard#Adjective");
+
+            URL_Add("embedded system", "https://en.wikipedia.org/wiki/Embedded_system");
+
+            URL_Add("heavy bomber", "https://en.wikipedia.org/wiki/Heavy_bomber");
+
+            URL_Add("launch", "https://en.wiktionary.org/wiki/launch#Noun");
+
+            URL_Add("lose-lose", "https://en.wiktionary.org/wiki/lose-lose#Adjective");
+
+            URL_Add("self-propelled artillery", "https://en.wikipedia.org/wiki/Self-propelled_artillery");
+
+            URL_Add("tank", "https://en.wikipedia.org/wiki/Tank");
+
+            URL_Add("thrust", "https://en.wiktionary.org/wiki/thrust#Noun");
+
+            URL_Add("winner, winner, chicken dinner", "https://en.wiktionary.org/wiki/winner,_winner,_chicken_dinner#Phrase");
 
 
 
