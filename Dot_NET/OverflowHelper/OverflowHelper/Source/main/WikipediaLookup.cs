@@ -279,6 +279,8 @@ namespace OverflowHelper.core
             string fullErrorMessage = "Error in the word list data: " +
                                       aSomeMessage;
 
+            //Yes, right now we need to configure Windows vs. Linux here...
+            //
             //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
             Console.WriteLine(fullErrorMessage); // Linux
 
@@ -6514,6 +6516,7 @@ namespace OverflowHelper.core
             correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
             correctionAdd("object oriented programming", "object-oriented programming");
             correctionAdd("object orientated programming", "object-oriented programming");
+            correctionAdd("OOP", "object-oriented programming");
 
             correctionAdd("squeak", "Squeak");
 
@@ -22599,8 +22602,8 @@ namespace OverflowHelper.core
                 }
                 else
                 {
-                    // On-the-fly checks (but it would be better if theses
-                    // checks was done at program startup)
+                    // On-the-fly checks (but it would be better if these
+                    // checks were done at program startup).
                     //
                     // URLs should look like ones.
                     //
