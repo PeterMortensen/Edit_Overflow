@@ -2872,6 +2872,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
             correctionAdd("sql management studio", "SQL Server Management Studio");
             correctionAdd("SQL Server Management Tools", "SQL Server Management Studio");
+            correctionAdd("managment studio", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -6874,6 +6875,8 @@ namespace OverflowHelper.core
             correctionAdd("windows10", "Windows&nbsp;10");
             correctionAdd("Win-10", "Windows&nbsp;10");
             correctionAdd("WINDOWS10", "Windows&nbsp;10");
+            correctionAdd("windows ten", "Windows&nbsp;10");
+            correctionAdd("Windows ten", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -7082,6 +7085,7 @@ namespace OverflowHelper.core
 
             correctionAdd("propriety", "proprietary");
             correctionAdd("propriotary", "proprietary");
+            correctionAdd("proprietrary", "proprietary");
 
             correctionAdd("meteor", "Meteor");
             correctionAdd("Meteor.js", "Meteor");
@@ -8466,6 +8470,8 @@ namespace OverflowHelper.core
 
             correctionAdd("maths", "mathematics");
             correctionAdd("math", "mathematics");
+            correctionAdd("Mathmatics", "mathematics");
+            correctionAdd("mathmatics", "mathematics");
 
             correctionAdd("task scheduler", "Task Scheduler");
             correctionAdd("Task Scheudler", "Task Scheduler");
@@ -10630,6 +10636,7 @@ namespace OverflowHelper.core
             correctionAdd("paraghaph", "paragraph");
 
             correctionAdd("readonly", "read-only");
+            correctionAdd("RO", "read-only");
 
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
@@ -11012,6 +11019,7 @@ namespace OverflowHelper.core
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
+            correctionAdd("To-Do", "todo");
 
             correctionAdd("irish", "Irish");
 
@@ -11191,6 +11199,7 @@ namespace OverflowHelper.core
 
             correctionAdd("probaly", "probably");
             correctionAdd("Problably", "probably");
+            correctionAdd("prob", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -11480,6 +11489,7 @@ namespace OverflowHelper.core
             correctionAdd("else where", "elsewhere");
 
             correctionAdd("familar", "familiar");
+            correctionAdd("familier", "familiar");
 
             correctionAdd("IIUC", "if I understand correctly");
 
@@ -11639,6 +11649,8 @@ namespace OverflowHelper.core
             correctionAdd("SQL workbench", "MySQL Workbench");
 
             correctionAdd("Blockchain", "blockchain");
+            correctionAdd("Block chain", "blockchain");
+            correctionAdd("block chain", "blockchain");
 
             correctionAdd("commited", "committed");
 
@@ -11923,6 +11935,8 @@ namespace OverflowHelper.core
             correctionAdd("powerbi", "Power BI");
             correctionAdd("Powerbi", "Power BI");
             correctionAdd("PowerBI", "Power BI");
+            correctionAdd("power bi", "Power BI");
+            correctionAdd("Power bi", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -12454,6 +12468,7 @@ namespace OverflowHelper.core
             correctionAdd("temorarily", "temporarily");
 
             correctionAdd("wieght", "weight");
+            correctionAdd("waight", "weight");
 
             correctionAdd("Beligum", "Belgium");
             correctionAdd("beligum", "Belgium");
@@ -14872,6 +14887,7 @@ namespace OverflowHelper.core
             correctionAdd("cachier", "cashier");
 
             correctionAdd("disadvange", "disadvantage");
+            correctionAdd("disavantage", "disadvantage");
 
             correctionAdd("Emoji", "emoji");
 
@@ -14884,8 +14900,6 @@ namespace OverflowHelper.core
             correctionAdd("systemD", "systemd");
 
             correctionAdd("wave length", "wavelength");
-
-            correctionAdd("Tick Tok", "TikTok");
 
             correctionAdd("acceleromator", "accelerometer");
 
@@ -14994,6 +15008,7 @@ namespace OverflowHelper.core
             correctionAdd("whhethher", "whether");
             correctionAdd("whethee", "whether");
             correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is "weather".
+            correctionAdd("Whether", "whether");
 
             correctionAdd("weater", "weather");
 
@@ -15043,6 +15058,37 @@ namespace OverflowHelper.core
             correctionAdd("Winner winner chicken dinner", "winner, winner, chicken dinner");
             correctionAdd("winner winner chicken dinner", "winner, winner, chicken dinner");
             correctionAdd("Winner, winner, chicken dinner", "winner, winner, chicken dinner");
+
+            correctionAdd("ntlm", "NTLM");
+
+            correctionAdd("O'Reilley", "O'Reilly Media");
+
+            correctionAdd("spotify", "Spotify");
+
+            correctionAdd("carreer", "career");
+
+            correctionAdd("conqer", "conquer");
+
+            correctionAdd("handel", "handle");
+
+            correctionAdd("jargons", "jargon");
+            correctionAdd("Jargons", "jargon");
+
+            correctionAdd("light-weight", "lightweight");
+            correctionAdd("light waight", "lightweight");
+            correctionAdd("light weight", "lightweight");
+
+            correctionAdd("obcessive", "obsessive");
+
+            correctionAdd("svear", "swear");
+
+            correctionAdd("Tick Tok", "TikTok");
+            correctionAdd("ticktock", "TikTok");
+            correctionAdd("tick tock", "TikTok");
+            correctionAdd("tiktock", "TikTok");
+            correctionAdd("tiktok", "TikTok");
+            correctionAdd("TIC TAC", "TikTok");
+
 
 
             //HACK: AASDASD
@@ -22372,6 +22418,26 @@ namespace OverflowHelper.core
             URL_Add("thrust", "https://en.wiktionary.org/wiki/thrust#Noun");
 
             URL_Add("winner, winner, chicken dinner", "https://en.wiktionary.org/wiki/winner,_winner,_chicken_dinner#Phrase");
+
+            URL_Add("NTLM", "https://en.wikipedia.org/wiki/NT_LAN_Manager");
+
+            URL_Add("O'Reilly Media", "https://en.wikipedia.org/wiki/O%27Reilly_Media");
+
+            URL_Add("Spotify", "https://en.wikipedia.org/wiki/Spotify");
+
+            URL_Add("career", "https://en.wiktionary.org/wiki/career#Noun");
+
+            URL_Add("conquer", "https://en.wiktionary.org/wiki/conquer#Verb");
+
+            URL_Add("handle", "https://en.wiktionary.org/wiki/handle#Verb");
+
+            URL_Add("jargon", "https://en.wiktionary.org/wiki/jargon#Noun");
+
+            URL_Add("lightweight", "https://en.wiktionary.org/wiki/lightweight#Adjective");
+
+            URL_Add("obsessive", "https://en.wiktionary.org/wiki/obsessive#Adjective");
+
+            URL_Add("swear", "https://en.wiktionary.org/wiki/swear#Verb");
 
 
 
