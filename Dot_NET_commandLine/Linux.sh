@@ -15,6 +15,7 @@ export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
 export WORKFOLDER3=${WORKFOLDER2}/EditOverflow4
 export WORKFOLDER=${WORKFOLDER3}
 
+export FTPTRANSFER_FOLDER=${WORKFOLDER}/_transfer
 
 
 
@@ -39,6 +40,8 @@ xdg-open "https://www.unoeuro.com/dk/controlpanel/pmortensen.eu/mysql/"
 mkdir $WORKFOLDER1
 mkdir $WORKFOLDER2
 mkdir $WORKFOLDER
+mkdir $FTPTRANSFER_FOLDER
+
 cd $SRCFOLDER_BASE/Dot_NET_commandLine
 cp Program.cs                          $WORKFOLDER
 cp EditOverflow3.csproj                $WORKFOLDER
@@ -66,17 +69,33 @@ dotnet run | grep -v CS0219 | grep -v CS0162                               >> $S
 
 
 
-#Some redundancy here - to be eliminated
+# Some redundancy here - to be eliminated
 export WORDLIST_OUTPUTTYPE=HTML
 dotnet run | grep -v CS0219 | grep -v CS0162                               > $HTML_FILE
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
 
 
+# Copy the HTML to the public web site.
+#
+#   Note: Environment variables FTP_USER and FTP_PASSWORD
+#         must have been be set beforehand.
+#
+# The mirror command for 'lftp' does not work for single files...
+#
+cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER
 
+export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER} /public_html/EditOverflow/_Wordlist ; exit"
+export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ftp://linux42.unoeuro.com"
+eval ${LFTP_COMMAND}
+
+
+# List the result files - for manual checking
+#
 echo
 pwd
 ls -lsatr $WORKFOLDER
+
 
 # Output word list statistics - the first number is close to what
 # is expected in the report for the import into MySQL (a
@@ -95,6 +114,5 @@ grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VAR
 echo
 
 cd -
-
 
 
