@@ -27,6 +27,11 @@ export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
 
 
 
+# Open the UnoEuro import page (immediately so we can prepare while
+# the rest of the script is running)
+xdg-open "https://www.unoeuro.com/dk/controlpanel/pmortensen.eu/mysql/"
+
+
 
 # Copy files to the workfolder
 #
@@ -92,6 +97,4 @@ echo
 cd -
 
 
-# Open the UnoEuro import page
-xdg-open "https://www.unoeuro.com/dk/controlpanel/pmortensen.eu/mysql/"
 

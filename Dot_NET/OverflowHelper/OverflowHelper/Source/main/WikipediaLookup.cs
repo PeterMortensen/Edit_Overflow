@@ -15089,6 +15089,16 @@ namespace OverflowHelper.core
             correctionAdd("tiktok", "TikTok");
             correctionAdd("TIC TAC", "TikTok");
 
+            correctionAdd("cobra", "Cobra");
+
+            correctionAdd("Instacard", "Instacart");
+
+            correctionAdd("Ober", "Uber");
+            correctionAdd("uber", "Uber");
+
+            correctionAdd("interpited", "interpreted");
+            correctionAdd("Interpitied", "interpreted");
+            correctionAdd("interpitied", "interpreted");
 
 
             //HACK: AASDASD
@@ -22439,6 +22449,13 @@ namespace OverflowHelper.core
 
             URL_Add("swear", "https://en.wiktionary.org/wiki/swear#Verb");
 
+            URL_Add("Cobra", "https://en.wikipedia.org/wiki/Cobra_(programming_language)");
+
+            URL_Add("Instacart", "https://en.wikipedia.org/wiki/Instacart");
+
+            URL_Add("Uber", "https://en.wikipedia.org/wiki/Uber");
+
+            URL_Add("interpreted", "https://en.wiktionary.org/wiki/interpret#Verb");
 
 
             //========================================================
