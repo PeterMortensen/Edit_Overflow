@@ -7924,6 +7924,7 @@ namespace OverflowHelper.core
             correctionAdd("golang", "Go");
             correctionAdd("GoLang", "Go");
             correctionAdd("go-lang", "Go");
+            correctionAdd("Golang", "Go");
 
             correctionAdd("OpenElec", "OpenELEC");
             correctionAdd("Openelec", "OpenELEC");
@@ -13967,6 +13968,7 @@ namespace OverflowHelper.core
             correctionAdd("satelighs", "satellite");
             correctionAdd("sateligh", "satellite");
             correctionAdd("satalite", "satellite");
+            correctionAdd("satellit", "satellite");
 
             correctionAdd("slow down", "slowdown");
 
@@ -15014,8 +15016,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cassini", "Cassini web server");
 
-            correctionAdd("evans gambit declined", "Evans Gambit Declined");
-
             correctionAdd("Guttenberg", "Gutenberg");
 
             correctionAdd("lbry.tv", "LBRY");
@@ -15099,6 +15099,21 @@ namespace OverflowHelper.core
             correctionAdd("interpited", "interpreted");
             correctionAdd("Interpitied", "interpreted");
             correctionAdd("interpitied", "interpreted");
+
+            correctionAdd("distroy", "destroy");
+
+            correctionAdd("Ham Radio", "ham radio");
+
+            correctionAdd("self distroy", "self-destruct");
+
+            correctionAdd("short cut", "shortcut");
+
+            correctionAdd("evans gambit declined", "Evans Gambit Declined");
+
+            correctionAdd("evans gambit", "Evans Gambit");
+            correctionAdd("evan's gambit", "Evans Gambit");
+
+
 
 
             //HACK: AASDASD
@@ -22456,6 +22471,16 @@ namespace OverflowHelper.core
             URL_Add("Uber", "https://en.wikipedia.org/wiki/Uber");
 
             URL_Add("interpreted", "https://en.wiktionary.org/wiki/interpret#Verb");
+
+            URL_Add("Evans Gambit", "https://en.wikipedia.org/wiki/Evans_Gambit");
+
+            URL_Add("destroy", "https://en.wiktionary.org/wiki/destroy#Verb");
+
+            URL_Add("ham radio", "https://en.wikipedia.org/wiki/Amateur_radio");
+
+            URL_Add("self-destruct", "https://en.wiktionary.org/wiki/self-destruct#Verb");
+
+            URL_Add("shortcut", "https://en.wiktionary.org/wiki/shortcut#Noun");
 
 
             //========================================================
