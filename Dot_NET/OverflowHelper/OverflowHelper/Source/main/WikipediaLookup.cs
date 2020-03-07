@@ -448,7 +448,6 @@ namespace OverflowHelper.core
         } //correctionAdd()
 
 
-        //PM_REFACTOR 2012-02-16
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
@@ -462,20 +461,20 @@ namespace OverflowHelper.core
             {
                 //Later: factor out.
 
-                //Double entry!
+                // Double entry!
                 string msg = "Double entry for the " +
                              keyValueInfoStr(aCorrectedTerm, aURL);
                 reportError(msg);
             }
             else
             {
-                //Warning only.
+                // Warning only.
                 sanityCheck(aCorrectedTerm, aCorrectedTerm, aURL);
                 sanityCheck(aURL, aCorrectedTerm, aURL);
 
-                //Warning only.
-                //We expect that the corresponding correction mapping has
-                //already been added.
+                // Warning only.
+                // We expect that the corresponding correction mapping has
+                // already been added.
                 string badTerm;
                 if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm, out badTerm))
                 {
@@ -483,7 +482,7 @@ namespace OverflowHelper.core
                 }
                 else
                 {
-                    //No correction mapping exist!
+                    // No correction mapping exist!
                     string msg =
                         "Missing correction mapping for the corrected term \"" +
                         aCorrectedTerm + "\".";
@@ -1220,6 +1219,8 @@ namespace OverflowHelper.core
             correctionAdd("ASP .NET Core", "ASP.NET Core");
             correctionAdd("ASP Core", "ASP.NET Core");
             correctionAdd("aspnetcore", "ASP.NET Core");
+            correctionAdd("ASP.NET core", "ASP.NET Core");
+            correctionAdd("asp.net Core", "ASP.NET Core");
 
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -3201,6 +3202,7 @@ namespace OverflowHelper.core
             correctionAdd("depedency injection", "dependency injection");
             correctionAdd("Dependancy Injection", "dependency injection");
             correctionAdd("dependancy injection", "dependency injection");
+            correctionAdd("Dependency injection", "dependency injection");
 
             correctionAdd("seo", "SEO");
 
@@ -4623,6 +4625,7 @@ namespace OverflowHelper.core
             correctionAdd("W/O", "without");
             correctionAdd("witouth", "without");
             correctionAdd("with out", "without");
+            correctionAdd("whit out", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -6716,6 +6719,7 @@ namespace OverflowHelper.core
             correctionAdd("immedietly", "immediately");
             correctionAdd("imidiately", "immediately");
             correctionAdd("imidiatly", "immediately");
+            correctionAdd("immeadiately", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -7499,6 +7503,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
             correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
@@ -9075,6 +9080,7 @@ namespace OverflowHelper.core
             correctionAdd("did't", "didn’t");
             correctionAdd("dint", "didn’t");
             correctionAdd("didn't", "didn’t"); // Quora...
+            correctionAdd("din’t", "didn’t");
 
             correctionAdd("thats", "that's");
             correctionAdd("Thats", "that's"); // Not 100% correct (case)
@@ -9319,8 +9325,6 @@ namespace OverflowHelper.core
             correctionAdd("man in the middle", "man-in-the-middle attack");
 
             correctionAdd("adobe illustrator", "Adobe Illustrator");
-
-            correctionAdd("x axis", "x-axis");
 
             correctionAdd("jupyter", "Jupyter");
 
@@ -9807,6 +9811,8 @@ namespace OverflowHelper.core
             correctionAdd(".net-core", ".NET Core");
             correctionAdd(".NETCore", ".NET Core");
             correctionAdd("Dot Net Core", ".NET Core");
+            correctionAdd("DotNET_core", ".NET Core");
+            correctionAdd("dotnet-core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10413,6 +10419,7 @@ namespace OverflowHelper.core
 
             correctionAdd("1st", "first");
             correctionAdd("Fist", "first");
+            correctionAdd("first's", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -12341,6 +12348,7 @@ namespace OverflowHelper.core
             correctionAdd("incidently", "incidentally");
 
             correctionAdd("Midevil", "medieval");
+            correctionAdd("medieva", "medieval");
 
             correctionAdd("misspelled", "misspelt");
             correctionAdd("mispelled", "misspelt");
@@ -13429,6 +13437,7 @@ namespace OverflowHelper.core
             correctionAdd("artifact", "artefact");
 
             correctionAdd("communite", "community");
+            correctionAdd("cummanty", "community");
 
             correctionAdd("easyest", "easiest");
 
@@ -13518,6 +13527,7 @@ namespace OverflowHelper.core
             correctionAdd("acceptible", "acceptable");
 
             correctionAdd("anouncement", "announcement");
+            correctionAdd("announement", "announcement");
 
             correctionAdd("genge", "change");
 
@@ -14644,14 +14654,6 @@ namespace OverflowHelper.core
 
             correctionAdd("woking", "working");
 
-            correctionAdd("plagarise", "plagiarise");
-            correctionAdd("plagirise", "plagiarise");
-            correctionAdd("plagirase", "plagiarise");
-
-            correctionAdd("plagarism", "plagiarism");
-
-            correctionAdd("plagarised", "plagiarised");
-
             correctionAdd("Angular2", "Angular&nbsp;2");
             correctionAdd("angular2", "Angular&nbsp;2");
 
@@ -14806,6 +14808,7 @@ namespace OverflowHelper.core
             correctionAdd("Zurich", "ZÃ¼rich");
 
             correctionAdd("contries", "countries");
+            correctionAdd("country's", "countries");
 
             correctionAdd("essense", "essence");
 
@@ -15112,7 +15115,94 @@ namespace OverflowHelper.core
 
             correctionAdd("evans gambit", "Evans Gambit");
             correctionAdd("evan's gambit", "Evans Gambit");
+            
+            
+            // --------------------------------------------------------------
 
+            correctionAdd("ansi C", "ANSI C");
+            correctionAdd("Ansi C", "ANSI C");
+
+            correctionAdd("Afgan", "Afghan");
+
+            correctionAdd("babun", "Babun");
+
+            correctionAdd("brave", "Brave");
+            correctionAdd("brave browser", "Brave");
+
+            correctionAdd("ceo", "CEO");
+
+            correctionAdd("crossover", "CrossOver");
+            correctionAdd("Crossover", "CrossOver");
+
+            correctionAdd("Irak", "Iraq");
+
+            correctionAdd("irssi", "Irssi");
+
+            correctionAdd("latino", "Latino");
+
+            correctionAdd("pinta", "Pinta");
+            correctionAdd("Pinto", "Pinta");
+
+            correctionAdd("transmission", "Transmission");
+
+            correctionAdd("USB memory", "USB flash drive");
+            correctionAdd("thum drive", "USB flash drive");
+            correctionAdd("thumb drive", "USB flash drive");
+            correctionAdd("thumb", "USB flash drive");
+            correctionAdd("pen drive", "USB flash drive");
+            correctionAdd("gig stick", "USB flash drive");
+            correctionAdd("flash stick", "USB flash drive");
+            correctionAdd("jump drive", "USB flash drive");
+            correctionAdd("memory stick", "USB flash drive");
+            correctionAdd("USB stick", "USB flash drive");
+
+            correctionAdd("compile-able", "compilable");
+
+            correctionAdd("counter part", "counterpart");
+
+            correctionAdd("dito", "ditto");
+            correctionAdd("Dito", "ditto");
+
+            correctionAdd("egagement", "engagement");
+
+            correctionAdd("milage", "mileage");
+
+            correctionAdd("noticable", "noticeable");
+
+            correctionAdd("single handedly", "single-handedly");
+
+            correctionAdd("spectaculary", "spectacularly");
+
+            correctionAdd("stop watch", "stopwatch");
+
+            correctionAdd("timibg", "timing");
+
+            correctionAdd("visibiltiy", "visibility");
+
+            correctionAdd("x axis", "x-axis");
+            correctionAdd("X-axis", "x-axis");
+            correctionAdd("X axis", "x-axis");
+            
+
+            correctionAdd("Y axis", "y-axis");
+            correctionAdd("Y-axis", "y-axis");
+
+            correctionAdd("againt’s", "against");
+
+            correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
+
+            correctionAdd("plagarise", "plagiarise");
+            correctionAdd("plagirise", "plagiarise");
+            correctionAdd("plagirase", "plagiarise");
+            correctionAdd("plaigarise", "plagiarise");
+
+            correctionAdd("plagarism", "plagiarism");
+            correctionAdd("Plaigarism", "plagiarism");
+            correctionAdd("plaigarism", "plagiarism");
+
+            correctionAdd("plagarised", "plagiarised");
+
+            correctionAdd("mumbai", "Mumbai");
 
 
 
@@ -20355,8 +20445,6 @@ namespace OverflowHelper.core
 
             URL_Add("incoming", "https://en.wiktionary.org/wiki/incoming#Adjective");
 
-            URL_Add("plagiarism", "https://en.wiktionary.org/wiki/plagiarism#Noun");
-
             URL_Add("proxy", "https://en.wikipedia.org/wiki/Proxy_server");
 
             URL_Add("ransomware", "https://en.wikipedia.org/wiki/Ransomware");
@@ -20450,8 +20538,6 @@ namespace OverflowHelper.core
             URL_Add("physics", "https://en.wikipedia.org/wiki/Physics");
 
             URL_Add("placeholder", "https://en.wiktionary.org/wiki/placeholder#Noun");
-
-            URL_Add("plagiarise", "https://en.wiktionary.org/wiki/plagiarise#Verb");
 
             URL_Add("pronoun", "https://en.wiktionary.org/wiki/pronoun#Noun");
 
@@ -22112,8 +22198,6 @@ namespace OverflowHelper.core
 
             URL_Add("personally", "https://en.wiktionary.org/wiki/personally#Adverb");
 
-            URL_Add("plagiarised", "https://en.wiktionary.org/wiki/plagiarise#Verb");
-
             URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
 
             URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
@@ -22481,6 +22565,66 @@ namespace OverflowHelper.core
             URL_Add("self-destruct", "https://en.wiktionary.org/wiki/self-destruct#Verb");
 
             URL_Add("shortcut", "https://en.wiktionary.org/wiki/shortcut#Noun");
+
+            URL_Add("against", "https://en.wiktionary.org/wiki/against#Preposition");
+
+            URL_Add("it’s", "https://en.wiktionary.org/wiki/it's#Contraction");
+
+            URL_Add("ANSI C", "https://en.wikipedia.org/wiki/ANSI_C");
+
+            URL_Add("Afghan", "https://en.wiktionary.org/wiki/Afghan#Adjective");
+
+            URL_Add("Babun", "https://babun.en.softonic.com/");
+
+            URL_Add("Brave", "https://en.wikipedia.org/wiki/Brave_(web_browser)");
+
+            URL_Add("CEO", "https://en.wiktionary.org/wiki/CEO#Noun");
+
+            URL_Add("CrossOver", "https://en.wikipedia.org/wiki/CrossOver_%28software%29");
+
+            URL_Add("Iraq", "https://en.wikipedia.org/wiki/Iraq");
+
+            URL_Add("Irssi", "https://en.wikipedia.org/wiki/Irssi");
+
+            URL_Add("Latino", "https://en.wiktionary.org/wiki/Latino#Noun");
+
+            URL_Add("Pinta", "https://en.wikipedia.org/wiki/Pinta_%28software%29");
+
+            URL_Add("Transmission", "https://en.wikipedia.org/wiki/Transmission_(BitTorrent_client)");
+
+            URL_Add("USB flash drive", "https://en.wikipedia.org/wiki/USB_flash_drive");
+
+            URL_Add("compilable", "https://en.wiktionary.org/wiki/compilable#Adjective");
+
+            URL_Add("counterpart", "https://en.wiktionary.org/wiki/counterpart#Noun");
+
+            URL_Add("ditto", "https://en.wiktionary.org/wiki/ditto#Adverb");
+
+            URL_Add("engagement", "https://en.wiktionary.org/wiki/engagement#Noun");
+
+            URL_Add("mileage", "https://en.wiktionary.org/wiki/mileage#Noun");
+
+            URL_Add("noticeable", "https://en.wiktionary.org/wiki/noticeable#Adjective");
+
+            URL_Add("single-handedly", "https://en.wiktionary.org/wiki/single-handedly#Adverb");
+
+            URL_Add("spectacularly", "https://en.wiktionary.org/wiki/spectacularly");
+
+            URL_Add("stopwatch", "https://en.wiktionary.org/wiki/stopwatch#Noun");
+
+            URL_Add("timing", "https://en.wiktionary.org/wiki/timing#Noun");
+
+            URL_Add("visibility", "https://en.wiktionary.org/wiki/visibility#Noun");
+
+            URL_Add("y-axis", "https://en.wiktionary.org/wiki/y-axis#Noun");
+
+            URL_Add("plagiarism", "https://en.wiktionary.org/wiki/plagiarism#Noun");
+
+            URL_Add("plagiarise", "https://en.wiktionary.org/wiki/plagiarise#Verb");
+
+            URL_Add("plagiarised", "https://en.wiktionary.org/wiki/plagiarise#Verb");
+
+            URL_Add("Mumbai", "https://en.wikipedia.org/wiki/Mumbai");
 
 
             //========================================================
