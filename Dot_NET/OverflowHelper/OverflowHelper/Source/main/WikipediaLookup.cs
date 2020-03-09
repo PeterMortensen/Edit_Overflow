@@ -1399,6 +1399,9 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macos 10.13", "macOS v10.13 (High Sierra)");
             correctionAdd("high sierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("HighSierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("Highsierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("High sierra", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -2916,6 +2919,7 @@ namespace OverflowHelper.core
 
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
+            correctionAdd("Loonix", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -11619,6 +11623,7 @@ namespace OverflowHelper.core
             correctionAdd("colum", "column");
             correctionAdd("colume", "column");
             correctionAdd("col", "column");
+            correctionAdd("coluomn", "column");
 
             correctionAdd("crated", "created");
             correctionAdd("creaded", "created");
@@ -12546,6 +12551,8 @@ namespace OverflowHelper.core
             correctionAdd("toybox", "Toybox");
 
             correctionAdd("constatnt", "constant");
+            correctionAdd("cosnt", "constant");
+            correctionAdd("const", "constant");
 
             correctionAdd("dataset", "data set");
 
@@ -13467,6 +13474,7 @@ namespace OverflowHelper.core
             correctionAdd("folter", "folder");
 
             correctionAdd("highligting", "highlighting");
+            correctionAdd("highligthting", "highlighting");
 
             correctionAdd("misterious", "mysterious");
 
@@ -14058,6 +14066,7 @@ namespace OverflowHelper.core
 
             correctionAdd("metioned", "mentioned");
             correctionAdd("mentionned", "mentioned");
+            correctionAdd("mentionmed", "mentioned");
 
             correctionAdd("occassionally", "occasionally");
 
@@ -15016,6 +15025,7 @@ namespace OverflowHelper.core
             correctionAdd("Whether", "whether");
 
             correctionAdd("weater", "weather");
+            correctionAdd("wheater", "weather");
 
             correctionAdd("Cassini", "Cassini web server");
 
@@ -15115,8 +15125,8 @@ namespace OverflowHelper.core
 
             correctionAdd("evans gambit", "Evans Gambit");
             correctionAdd("evan's gambit", "Evans Gambit");
-            
-            
+
+
             // --------------------------------------------------------------
 
             correctionAdd("ansi C", "ANSI C");
@@ -15182,7 +15192,7 @@ namespace OverflowHelper.core
             correctionAdd("x axis", "x-axis");
             correctionAdd("X-axis", "x-axis");
             correctionAdd("X axis", "x-axis");
-            
+
 
             correctionAdd("Y axis", "y-axis");
             correctionAdd("Y-axis", "y-axis");
@@ -15204,6 +15214,32 @@ namespace OverflowHelper.core
 
             correctionAdd("mumbai", "Mumbai");
 
+            correctionAdd("gpgpu", "GPGPU");
+
+            correctionAdd("mmx", "MMX");
+
+            correctionAdd("simd", "SIMD");
+
+            correctionAdd("Structure of Arrays", "SoA");
+
+            correctionAdd("accesor", "accessor");
+
+            correctionAdd("cacheing", "caching");
+
+            correctionAdd("Gold", "gold");
+
+            correctionAdd("hepl", "help");
+            correctionAdd("halp", "help");
+
+            correctionAdd("recurrence", "recursion");
+
+            correctionAdd("shellsort", "Shellsort");
+
+            correctionAdd("Introsort", "introsort");
+
+            correctionAdd("patter", "pattern");
+
+            correctionAdd("Heapsort", "heapsort");
 
 
             //HACK: AASDASD
@@ -22625,6 +22661,33 @@ namespace OverflowHelper.core
             URL_Add("plagiarised", "https://en.wiktionary.org/wiki/plagiarise#Verb");
 
             URL_Add("Mumbai", "https://en.wikipedia.org/wiki/Mumbai");
+
+            URL_Add("GPGPU", "https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units");
+
+            URL_Add("MMX", "https://en.wikipedia.org/wiki/MMX_%28instruction_set%29");
+
+            URL_Add("SIMD", "https://en.wikipedia.org/wiki/SIMD");
+
+            URL_Add("SoA", "https://en.wikipedia.org/wiki/AoS_and_SoA");
+
+            URL_Add("accessor", "https://en.wiktionary.org/wiki/accessor#Noun");
+
+            URL_Add("caching", "https://en.wiktionary.org/wiki/cache#Verb");
+
+            URL_Add("gold", "https://en.wikipedia.org/wiki/Gold");
+
+            URL_Add("help", "https://en.wiktionary.org/wiki/help#Verb");
+
+            URL_Add("recursion", "https://en.wiktionary.org/wiki/recursion#Noun");
+
+            URL_Add("Shellsort", "https://en.wikipedia.org/wiki/Shellsort");
+
+            URL_Add("introsort", "https://en.wikipedia.org/wiki/Introsort");
+
+            URL_Add("pattern", "https://en.wiktionary.org/wiki/pattern#Noun");
+
+            URL_Add("heapsort", "https://en.wikipedia.org/wiki/Heapsort");
+
 
 
             //========================================================
