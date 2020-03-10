@@ -7,7 +7,6 @@
 export EFFECTIVE_DATE='2020-02-05'
 export EFFECTIVE_DATE='2020-02-28'
 
-
 export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
 
 export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
@@ -17,21 +16,18 @@ export WORKFOLDER=${WORKFOLDER3}
 
 export FTPTRANSFER_FOLDER=${WORKFOLDER}/_transfer
 
-
-
 export SRCFOLDER_CORE=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Source/main
 
 export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 
 export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
-export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
+export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html # Fixed name
 
 
-
-# Open the UnoEuro import page (immediately so we can prepare while
+# Open the Simply.com (formerly UnoEuro) import
+# page (immediately so we can prepare while
 # the rest of the script is running)
-xdg-open "https://www.unoeuro.com/dk/controlpanel/pmortensen.eu/mysql/"
-
+xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 
 
 # Copy files to the workfolder
@@ -68,7 +64,6 @@ dotnet run | grep -v CS0219 | grep -v CS0162                               >> $S
 # 2> /dev/null
 
 
-
 # Some redundancy here - to be eliminated
 export WORDLIST_OUTPUTTYPE=HTML
 dotnet run | grep -v CS0219 | grep -v CS0162                               > $HTML_FILE
@@ -86,7 +81,7 @@ cp  $HTML_FILE  $HTML_FILE_GENERIC
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER
 
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER} /public_html/EditOverflow/_Wordlist ; exit"
-export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ftp://linux42.unoeuro.com"
+export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ftp://linux42.simply.com"
 eval ${LFTP_COMMAND}
 
 
@@ -114,5 +109,4 @@ grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VAR
 echo
 
 cd -
-
 
