@@ -22,7 +22,7 @@
 	     #
 	     $somePDOinstance = new PDO(
 	       #'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db',
-	       'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db;charset=utf8',
+	       'mysql:host=mysql19.simply.com;dbname=pmortensen_eu_db;charset=utf8',
 	       'pmortensen_eu',
 	       '__pw_toBeFilledInDuringDeployment_'); # Sample key: 2019-09-16
 
