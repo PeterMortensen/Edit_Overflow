@@ -8879,6 +8879,7 @@ namespace OverflowHelper.core
             correctionAdd("plz", "please");
             correctionAdd("Plz", "please"); // Not 100% correct - case.
             correctionAdd("Pls", "please"); // Not 100% correct - case.
+            correctionAdd("PLease", "please");
 
             correctionAdd("1 Liner", "one-liner");
             correctionAdd("one liner", "one-liner");
@@ -9019,6 +9020,7 @@ namespace OverflowHelper.core
             correctionAdd("atleast", "at least");
             correctionAdd("alteast", "at least");
             correctionAdd("at-least", "at least");
+            correctionAdd("at leasr", "at least");
 
             correctionAdd("freq", "frequency");
             correctionAdd("frequancy", "frequency");
@@ -10903,6 +10905,7 @@ namespace OverflowHelper.core
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
+            correctionAdd("sucess", "success");
 
             correctionAdd("christian", "Christian");
 
@@ -12319,6 +12322,7 @@ namespace OverflowHelper.core
             correctionAdd("Creative Common", "Creative Commons");
 
             correctionAdd("flutter", "Flutter");
+            correctionAdd("Fludder", "Flutter");
 
             correctionAdd("Hawai", "Hawaii");
 
@@ -15240,6 +15244,29 @@ namespace OverflowHelper.core
             correctionAdd("patter", "pattern");
 
             correctionAdd("Heapsort", "heapsort");
+
+            correctionAdd("armbian", "Armbian");
+
+            correctionAdd("Hostgator", "HostGator");
+
+            correctionAdd("minikube", "Minikube");
+
+            correctionAdd("queens gabit declined", "Queen's Gambit Declined");
+
+            correctionAdd("comodity", "commodity");
+
+            correctionAdd("conatiner", "container");
+
+            correctionAdd("instaled", "installed");
+
+            correctionAdd("linebreak", "line break");
+            correctionAdd("Line-Break", "line break");
+
+            correctionAdd("tryng", "trying");
+
+            correctionAdd("type cast", "typecast");
+
+            correctionAdd("vedio", "video");
 
 
             //HACK: AASDASD
@@ -22687,6 +22714,28 @@ namespace OverflowHelper.core
             URL_Add("pattern", "https://en.wiktionary.org/wiki/pattern#Noun");
 
             URL_Add("heapsort", "https://en.wikipedia.org/wiki/Heapsort");
+
+            URL_Add("Armbian", "https://en.wikipedia.org/wiki/Armbian");
+
+            URL_Add("HostGator", "https://en.wikipedia.org/wiki/HostGator");
+
+            URL_Add("Minikube", "https://kubernetes.io/docs/tasks/tools/install-minikube/");
+
+            URL_Add("Queen's Gambit Declined", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined");
+
+            URL_Add("commodity", "https://en.wiktionary.org/wiki/commodity#Noun");
+
+            URL_Add("container", "https://en.wiktionary.org/wiki/container#Noun");
+
+            URL_Add("installed", "https://en.wiktionary.org/wiki/install#Verb");
+
+            URL_Add("line break", "https://en.wiktionary.org/wiki/line_break#Noun");
+
+            URL_Add("trying", "https://en.wiktionary.org/wiki/trying#Verb");
+
+            URL_Add("typecast", "https://en.wiktionary.org/wiki/typecast#Verb");
+
+            URL_Add("video", "https://en.wiktionary.org/wiki/video#Noun");
 
 
 
