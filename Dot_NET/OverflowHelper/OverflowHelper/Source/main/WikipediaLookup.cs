@@ -2050,7 +2050,7 @@ namespace OverflowHelper.core
             correctionAdd("SciTe", "SciTE");
             correctionAdd("scite", "SciTE");
             correctionAdd("SCitE", "SciTE");
-            correctionAdd("SCITE", "SciTE");
+            correctionAdd("SCITE", "SciTE"); // Alternative (Stack Overflow/Stack Exchange specific and play on "fastest gun in the west" (FGITW)): "slowest cheater in the east"
 
             correctionAdd("orm", "ORM");
             correctionAdd("OR/M", "ORM");
@@ -10117,6 +10117,7 @@ namespace OverflowHelper.core
             correctionAdd("VSC", "Visual Studio Code");
             correctionAdd("VSCODE", "Visual Studio Code");
             correctionAdd("Visual Code", "Visual Studio Code");
+            correctionAdd("vsc", "Visual Studio Code");
 
             correctionAdd("WebStrom", "WebStorm");
             correctionAdd("Webstorm", "WebStorm");
@@ -12178,6 +12179,7 @@ namespace OverflowHelper.core
             correctionAdd("psycological", "psychological");
 
             correctionAdd("rememer", "remember");
+            correctionAdd("rember", "remember");
 
             correctionAdd("re-written", "rewritten");
 
@@ -15268,6 +15270,16 @@ namespace OverflowHelper.core
 
             correctionAdd("vedio", "video");
 
+            correctionAdd("tampermonkey", "Tampermonkey");
+            correctionAdd("tamper monkey", "Tampermonkey");
+
+            correctionAdd("XD", "experience design");
+
+            correctionAdd("fgitw", "fastest gun in the west");
+            correctionAdd("FGITW", "fastest gun in the west");
+
+            correctionAdd("UXD", "user experience design");
+
 
             //HACK: AASDASD
             //TODO: OIDSOPAUSD
@@ -15511,7 +15523,7 @@ namespace OverflowHelper.core
 
             URL_Add("Matplotlib", "https://en.wikipedia.org/wiki/Matplotlib");
 
-            URL_Add("IDLE", "https://en.wikipedia.org/wiki/IDLE_%28Python%29");
+            URL_Add("IDLE", "https://en.wikipedia.org/wiki/IDLE"); // Old: <https://en.wikipedia.org/wiki/IDLE_%28Python%29>
 
             URL_Add("SharePoint", "https://en.wikipedia.org/wiki/SharePoint");
 
@@ -22736,6 +22748,14 @@ namespace OverflowHelper.core
             URL_Add("typecast", "https://en.wiktionary.org/wiki/typecast#Verb");
 
             URL_Add("video", "https://en.wiktionary.org/wiki/video#Noun");
+
+            URL_Add("Tampermonkey", "https://en.wikipedia.org/wiki/Tampermonkey");
+
+            URL_Add("experience design", "https://en.wikipedia.org/wiki/User_experience_design");
+
+            URL_Add("fastest gun in the west", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19533#19533");
+
+            URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
 
 
 
