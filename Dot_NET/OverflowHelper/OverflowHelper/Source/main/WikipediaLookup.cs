@@ -2214,6 +2214,7 @@ namespace OverflowHelper.core
             correctionAdd("mongo-db", "MongoDB");
             correctionAdd("mongoo", "MongoDB");
             correctionAdd("mongo DB", "MongoDB");
+            correctionAdd("monogdb", "MongoDB");
 
 
             //Wikipedia can not handle having an entry, instead it is tugged into
@@ -3047,6 +3048,7 @@ namespace OverflowHelper.core
             correctionAdd("stack exhcange", "Stack&nbsp;Exchange");
             correctionAdd("Stackexcange", "Stack&nbsp;Exchange");
             correctionAdd("Stack Excange", "Stack&nbsp;Exchange");
+            correctionAdd("stack.exchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -7255,6 +7257,7 @@ namespace OverflowHelper.core
             correctionAdd("AI", "artificial intelligence");
             correctionAdd("Aritifical Intellegence", "artificial intelligence");
             correctionAdd("Artificial Intelligence", "artificial intelligence");
+            correctionAdd("Ai", "artificial intelligence");
 
             correctionAdd("dvd", "DVD");
 
@@ -7298,6 +7301,8 @@ namespace OverflowHelper.core
             correctionAdd("unbuntu", "Ubuntu");
             correctionAdd("ubutu", "Ubuntu");
             correctionAdd("ubunty", "Ubuntu");
+            correctionAdd("Ubunut", "Ubuntu");
+            correctionAdd("ubunut", "Ubuntu");
 
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
             correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -7737,12 +7742,12 @@ namespace OverflowHelper.core
             correctionAdd("opencl", "OpenCL");
             correctionAdd("Open CL", "OpenCL");
 
-            correctionAdd("BitCoin", "Bitcoin");
-            correctionAdd("bitcoin", "Bitcoin"); //In most cases (not if it is actual bitcoins).
-            correctionAdd("BTC", "Bitcoin"); //Expansion
-            correctionAdd("btc", "Bitcoin"); //Expansion
-            correctionAdd("BITCOINS", "Bitcoin");
-            correctionAdd("BITCOIN", "Bitcoin");
+            correctionAdd("BitCoin", "bitcoin");
+            correctionAdd("Bitcoin", "bitcoin"); //In most cases (not if it is actual bitcoins).
+            correctionAdd("BTC", "bitcoin"); //Expansion
+            correctionAdd("btc", "bitcoin"); //Expansion
+            correctionAdd("BITCOINS", "bitcoin");
+            correctionAdd("BITCOIN", "bitcoin");
 
             correctionAdd("bitcoinqt", "Bitcoin-Qt");
             correctionAdd("Bitcoinqt", "Bitcoin-Qt");
@@ -8580,6 +8585,8 @@ namespace OverflowHelper.core
             correctionAdd("ExpressJS", "Express.js");
             correctionAdd("espress", "Express.js");
             correctionAdd("express js", "Express.js");
+            correctionAdd("expressJS", "Express.js");
+            correctionAdd("proto", "Express.js");
 
             correctionAdd("ember", "Ember.js");
             correctionAdd("Ember", "Ember.js");
@@ -9021,6 +9028,9 @@ namespace OverflowHelper.core
             correctionAdd("alteast", "at least");
             correctionAdd("at-least", "at least");
             correctionAdd("at leasr", "at least");
+            correctionAdd("Atlest", "at least");
+            correctionAdd("atlest", "at least");
+            correctionAdd("at lest", "at least");
 
             correctionAdd("freq", "frequency");
             correctionAdd("frequancy", "frequency");
@@ -9040,6 +9050,7 @@ namespace OverflowHelper.core
             correctionAdd("chocolately", "Chocolatey");
             correctionAdd("choco", "Chocolatey");
             correctionAdd("Choco", "Chocolatey");
+            correctionAdd("Chocolaty", "Chocolatey");
 
             correctionAdd("psobject", "PSObject");
             correctionAdd("PsObject", "PSObject");
@@ -9845,6 +9856,7 @@ namespace OverflowHelper.core
             correctionAdd("ES 6", "ECMAScript&nbsp;6");
 
             correctionAdd("redux", "Redux");
+            correctionAdd("REDUX", "Redux");
 
             correctionAdd("firebase", "Firebase");
             correctionAdd("fire base", "Firebase");
@@ -10868,6 +10880,7 @@ namespace OverflowHelper.core
             correctionAdd("uk", "UK");
             correctionAdd("united kingdom", "UK");
             correctionAdd("Uk", "UK");
+            correctionAdd("U K", "UK");
 
             correctionAdd("vlan", "VLAN");
 
@@ -12152,6 +12165,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOs", "macOS");
             correctionAdd("Macos", "macOS");
             correctionAdd("MacOS", "macOS");
+            correctionAdd("Mac-Os", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -12336,6 +12350,7 @@ namespace OverflowHelper.core
             correctionAdd("Purto Rico", "Puerto Rico");
 
             correctionAdd("trump", "Trump");
+            correctionAdd("DJT", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -12833,6 +12848,8 @@ namespace OverflowHelper.core
             correctionAdd("pro-bono", "pro bono");
 
             correctionAdd("retun", "return");
+            correctionAdd("Retuen", "return");
+            correctionAdd("Return", "return");
 
             correctionAdd("strewam", "stream");
 
@@ -13012,6 +13029,7 @@ namespace OverflowHelper.core
             correctionAdd("voluntorily", "voluntarily");
 
             correctionAdd("ethereum", "Ethereum");
+            correctionAdd("Etherium", "Ethereum");
 
             correctionAdd("ammend", "amend");
 
@@ -13155,8 +13173,6 @@ namespace OverflowHelper.core
 
             correctionAdd("powers-that-be", "powers that be");
             correctionAdd("Powers-That-Be", "powers that be");
-
-            correctionAdd("seque", "segue");
 
             correctionAdd("thig", "thing");
 
@@ -13307,6 +13323,8 @@ namespace OverflowHelper.core
             correctionAdd("condidate", "candidate");
 
             correctionAdd("conection", "connection");
+            correctionAdd("Conntection", "connection");
+            correctionAdd("Connection", "connection");
 
             correctionAdd("containng", "containing");
 
@@ -14288,6 +14306,8 @@ namespace OverflowHelper.core
 
             correctionAdd("appologize", "apologise");
             correctionAdd("apologize", "apologise");
+            correctionAdd("apoligise", "apologise");
+            correctionAdd("apoligize", "apologise");
 
             correctionAdd("disbale", "disable");
 
@@ -14941,6 +14961,7 @@ namespace OverflowHelper.core
             correctionAdd("Dotnet cli", ".NET CLI");
 
             correctionAdd("axios", "Axios");
+            correctionAdd("AXIOS", "Axios");
 
             correctionAdd("Billy Bloat", "Bill Gates");
             correctionAdd("billy bloat", "Bill Gates");
@@ -15199,7 +15220,6 @@ namespace OverflowHelper.core
             correctionAdd("X-axis", "x-axis");
             correctionAdd("X axis", "x-axis");
 
-
             correctionAdd("Y axis", "y-axis");
             correctionAdd("Y-axis", "y-axis");
 
@@ -15279,6 +15299,107 @@ namespace OverflowHelper.core
             correctionAdd("FGITW", "fastest gun in the west");
 
             correctionAdd("UXD", "user experience design");
+
+            correctionAdd("vis-a-vis", "vis-à-vis");
+
+            correctionAdd("Rezi", "Réti Opening");
+            correctionAdd("Resi", "Réti Opening");
+
+            correctionAdd("Bitcoin cash", "Bitcoin Cash");
+
+            correctionAdd("the dutch", "Dutch Defence");
+
+            correctionAdd("ES8", "ECMAScript&nbsp;8");
+
+            correctionAdd("queens indian", "Queen's Indian Defense");
+
+            correctionAdd("swiss", "Swiss");
+
+            correctionAdd("Swiss Franc", "Swiss franc");
+
+            correctionAdd("Carabian", "The Caribbean");
+
+            correctionAdd("YC", "Y Combinator");
+
+            correctionAdd("in a moment's notice", "at a moment's notice");
+
+            correctionAdd("Blessing in Disguise", "blessing in disguise");
+
+            correctionAdd("cherry-picking", "cherry picking");
+            correctionAdd("cherrypicking", "cherry picking");
+
+            correctionAdd("crypto-currency", "cryptocurrency");
+            correctionAdd("crypto currency", "cryptocurrency");
+            correctionAdd("CryptoCurrency", "cryptocurrency");
+
+            correctionAdd("Defensibility", "defensibility");
+
+            correctionAdd("Euro", "euro");
+
+            correctionAdd("fallow", "follow");
+
+            correctionAdd("Luck fallow braves", "fortune favours the brave");
+            correctionAdd("luck fallow braves", "fortune favours the brave");
+
+            correctionAdd("laugth", "laugh");
+
+            correctionAdd("post cast", "podcast");
+
+            correctionAdd("Ruble", "ruble");
+
+            correctionAdd("seee", "see");
+
+            correctionAdd("tilda", "tilde");
+
+            correctionAdd("seque", "segue");
+            correctionAdd("segway", "segue");
+            correctionAdd("seague", "segue");
+
+            correctionAdd("kerala", "Kerala");
+
+            correctionAdd("kolkata", "Kolkata");
+
+            correctionAdd("acknowledgement", "acknowledgment");
+
+            correctionAdd("actrocities", "atrocities");
+
+            correctionAdd("breath", "breathe");
+
+            correctionAdd("collequal", "colloquial");
+
+            correctionAdd("Communist", "communist");
+
+            correctionAdd("Corona Virus", "coronavirus");
+            correctionAdd("Coronavirus", "coronavirus");
+            correctionAdd("Corona virus", "coronavirus");
+            correctionAdd("CoronaVirus", "coronavirus");
+            correctionAdd("corona virus", "coronavirus");
+
+            correctionAdd("Global warming", "global warming");
+            correctionAdd("Global Warming", "global warming");
+
+            correctionAdd("ling", "lung");
+
+            correctionAdd("quiat", "quiet");
+
+            correctionAdd("universially", "universally");
+
+            correctionAdd("uni", "university");
+
+            correctionAdd("useability", "usability");
+
+            correctionAdd("COVID 19", "COVID-19");
+            correctionAdd("Covid-19", "COVID-19");
+
+            correctionAdd("emphasizing", "emphasising");
+
+            correctionAdd("notional", "national");
+
+            correctionAdd("positivr", "positive");
+
+            correctionAdd("virsus", "virus");
+
+
 
 
             //HACK: AASDASD
@@ -17565,7 +17686,7 @@ namespace OverflowHelper.core
 
             URL_Add("OpenCL", "https://en.wikipedia.org/wiki/OpenCL");
 
-            URL_Add("Bitcoin", "https://en.wikipedia.org/wiki/Bitcoin");
+            URL_Add("bitcoin", "https://en.wikipedia.org/wiki/Bitcoin");
 
             URL_Add("Bitcoin-Qt", "https://en.bitcoin.it/wiki/Bitcoin-Qt");
 
@@ -22756,6 +22877,90 @@ namespace OverflowHelper.core
             URL_Add("fastest gun in the west", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19533#19533");
 
             URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
+
+            URL_Add("vis-à-vis", "https://en.wiktionary.org/wiki/vis-%C3%A0-vis#Adverb");
+
+            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
+
+            URL_Add("Bitcoin Cash", "https://en.wikipedia.org/wiki/Bitcoin_Cash");
+
+            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
+
+            URL_Add("ECMAScript&nbsp;8", "https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017");
+
+            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
+
+            URL_Add("Swiss", "https://en.wiktionary.org/wiki/Swiss#Adjective");
+
+            URL_Add("Swiss franc", "https://en.wikipedia.org/wiki/Swiss_franc");
+
+            URL_Add("The Caribbean", "https://en.wikipedia.org/wiki/Caribbean");
+
+            URL_Add("Y Combinator", "https://en.wikipedia.org/wiki/Y_Combinator");
+
+            URL_Add("at a moment's notice", "https://en.wiktionary.org/wiki/at_a_moment%27s_notice#Prepositional_phrase");
+
+            URL_Add("blessing in disguise", "https://en.wiktionary.org/wiki/blessing_in_disguise#Noun");
+
+            URL_Add("cherry picking", "https://en.wiktionary.org/wiki/cherry_picking#Verb");
+
+            URL_Add("cryptocurrency", "https://en.wikipedia.org/wiki/Cryptocurrency");
+
+            URL_Add("defensibility", "https://en.wiktionary.org/wiki/defensibility#Noun");
+
+            URL_Add("euro", "https://en.wiktionary.org/wiki/euro#Noun");
+
+            URL_Add("follow", "https://en.wiktionary.org/wiki/follow#Verb");
+
+            URL_Add("fortune favours the brave", "https://en.wiktionary.org/wiki/fortune_favours_the_brave#English");
+
+            URL_Add("laugh", "https://en.wiktionary.org/wiki/laugh#Noun");
+
+            URL_Add("podcast", "https://en.wiktionary.org/wiki/podcast#Noun");
+
+            URL_Add("ruble", "https://en.wiktionary.org/wiki/ruble#Noun");
+
+            URL_Add("see", "https://en.wiktionary.org/wiki/see#Verb");
+
+            URL_Add("tilde", "https://en.wiktionary.org/wiki/tilde#Noun");
+
+            URL_Add("Kerala", "https://en.wikipedia.org/wiki/Kerala");
+
+            URL_Add("Kolkata", "https://en.wikipedia.org/wiki/Kolkata");
+
+            URL_Add("acknowledgment", "https://en.wiktionary.org/wiki/acknowledgment#Noun");
+
+            URL_Add("atrocities", "https://en.wiktionary.org/wiki/atrocity#Noun");
+
+            URL_Add("breathe", "https://en.wiktionary.org/wiki/breathe#Verb");
+
+            URL_Add("colloquial", "https://en.wiktionary.org/wiki/colloquial#Adjective");
+
+            URL_Add("communist", "https://en.wiktionary.org/wiki/communist#Adjective");
+
+            URL_Add("coronavirus", "https://en.wikipedia.org/wiki/Coronavirus");
+
+            URL_Add("global warming", "https://en.wikipedia.org/wiki/Global_warming");
+
+            URL_Add("lung", "https://en.wiktionary.org/wiki/lung#Noun");
+
+            URL_Add("quiet", "https://en.wiktionary.org/wiki/quiet#Adjective");
+
+            URL_Add("universally", "https://en.wiktionary.org/wiki/universally#Adverb");
+
+            URL_Add("university", "https://en.wiktionary.org/wiki/university#Noun");
+
+            URL_Add("usability", "https://en.wiktionary.org/wiki/usability#Noun");
+
+            URL_Add("COVID-19", "https://en.wikipedia.org/wiki/Coronavirus_disease_2019");
+
+            URL_Add("emphasising", "https://en.wiktionary.org/wiki/emphasise#English");
+
+            URL_Add("national", "https://en.wiktionary.org/wiki/national#Adjective");
+
+            URL_Add("positive", "https://en.wiktionary.org/wiki/positive#Adjective");
+
+            URL_Add("virus", "https://en.wiktionary.org/wiki/virus#Noun");
 
 
 
