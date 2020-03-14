@@ -7789,7 +7789,7 @@ namespace OverflowHelper.core
             correctionAdd("guarantue", "guarantee");
             correctionAdd("guanrantee", "guarantee");
             correctionAdd("guanrantea", "guarantee");
-
+            correctionAdd("garunteed", "guarantee");
 
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
@@ -12158,6 +12158,8 @@ namespace OverflowHelper.core
             correctionAdd("Latest", "latest");
 
             correctionAdd("Lithium", "lithium");
+            correctionAdd("Lithion", "lithium");
+            correctionAdd("Li", "lithium");
 
             correctionAdd("M", "m");
 
@@ -13698,6 +13700,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Summar", "summer");
             correctionAdd("summar", "summer");
+            correctionAdd("Summer", "summer");
 
             correctionAdd("feynman diagram", "Feynman diagram");
 
@@ -15369,12 +15372,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Communist", "communist");
 
-            correctionAdd("Corona Virus", "coronavirus");
-            correctionAdd("Coronavirus", "coronavirus");
-            correctionAdd("Corona virus", "coronavirus");
-            correctionAdd("CoronaVirus", "coronavirus");
-            correctionAdd("corona virus", "coronavirus");
-
             correctionAdd("Global warming", "global warming");
             correctionAdd("Global Warming", "global warming");
 
@@ -15388,17 +15385,91 @@ namespace OverflowHelper.core
 
             correctionAdd("useability", "usability");
 
-            correctionAdd("COVID 19", "COVID-19");
-            correctionAdd("Covid-19", "COVID-19");
-
             correctionAdd("emphasizing", "emphasising");
 
             correctionAdd("notional", "national");
 
             correctionAdd("positivr", "positive");
 
+            correctionAdd("pune", "Pune");
+
+            correctionAdd("sicilian defence", "Sicilian Defence");
+
+            correctionAdd("thursday", "Thursday");
+
+            correctionAdd("discusting", "disgusting");
+
+            correctionAdd("leek", "leak");
+
+            correctionAdd("Cobalt", "cobalt");
+
+            correctionAdd("highrise", "high-rise");
+
+            correctionAdd("Magnesium", "magnesium");
+
+            correctionAdd("Point of Sale", "point of sale");
+
+            correctionAdd("roll out", "rollout");
+
+            correctionAdd("double A batteries", "AA batteries");
+
+            correctionAdd("nickle", "nickel");
+            correctionAdd("Nickle", "nickel");
+
+            correctionAdd("elon musk", "Elon Musk");
+            correctionAdd("Elon", "Elon Musk");
+            correctionAdd("musk", "Elon Musk");
+            correctionAdd("Musk", "Elon Musk");
+
+            correctionAdd("hollywood", "Hollywood");
+
+            correctionAdd("martian", "Martian");
+
+            correctionAdd("klient", "client");
+
+            correctionAdd("Fusion", "fusion");
+
+            correctionAdd("girl friend", "girlfriend");
+            correctionAdd("gf", "girlfriend");
+
+            correctionAdd("Natural gas", "natural gas");
+
+            correctionAdd("KwHr", "kW⋅h");
+            correctionAdd("kWHr", "kW⋅h");
+            correctionAdd("kWH", "kW⋅h");
+            correctionAdd("kWh", "kW⋅h");
+            correctionAdd("kwh", "kW⋅h");
+
+            correctionAdd("far east", "Far East");
+
+            correctionAdd("jaguar Land Rover", "Jaguar Land Rover");
+
+            correctionAdd("lions share", "lion's share");
+
+            correctionAdd("neighboring", "neighbouring");
+
+            correctionAdd("Pandemic", "pandemic");
+
+            correctionAdd("day", "die");
+
             correctionAdd("virsus", "virus");
 
+            correctionAdd("COVID 19", "COVID-19");
+            correctionAdd("Covid-19", "COVID-19");
+            correctionAdd("covid 19", "COVID-19");
+            correctionAdd("covid19", "COVID-19");
+            correctionAdd("Covid19", "COVID-19");
+            correctionAdd("COVID19", "COVID-19");
+            correctionAdd("Covid 19", "COVID-19");
+
+            correctionAdd("Corona Virus", "coronavirus");
+            correctionAdd("Coronavirus", "coronavirus");
+            correctionAdd("Corona virus", "coronavirus");
+            correctionAdd("CoronaVirus", "coronavirus");
+            correctionAdd("corona virus", "coronavirus");
+            correctionAdd("corona", "coronavirus");
+            correctionAdd("karona", "coronavirus");
+            correctionAdd("Corona", "coronavirus");
 
 
 
@@ -22961,6 +23032,59 @@ namespace OverflowHelper.core
             URL_Add("positive", "https://en.wiktionary.org/wiki/positive#Adjective");
 
             URL_Add("virus", "https://en.wiktionary.org/wiki/virus#Noun");
+
+            URL_Add("Pune", "https://en.wikipedia.org/wiki/Pune");
+
+            URL_Add("Sicilian Defence", "https://en.wikipedia.org/wiki/Sicilian_Defence");
+
+            URL_Add("Thursday", "https://en.wiktionary.org/wiki/Thursday#Noun");
+
+            URL_Add("disgusting", "https://en.wiktionary.org/wiki/disgusting#Adjective");
+
+            URL_Add("leak", "https://en.wiktionary.org/wiki/leak#Verb");
+
+            URL_Add("pandemic", "https://en.wiktionary.org/wiki/pandemic#Adjective");
+
+            URL_Add("cobalt", "https://en.wikipedia.org/wiki/Cobalt");
+
+            URL_Add("high-rise", "https://en.wikipedia.org/wiki/High-rise_building");
+
+            URL_Add("magnesium", "https://en.wikipedia.org/wiki/Magnesium");
+
+            URL_Add("point of sale", "https://en.wiktionary.org/wiki/point_of_sale#Noun");
+
+            URL_Add("rollout", "https://en.wiktionary.org/wiki/rollout#Noun");
+
+            URL_Add("AA batteries", "https://en.wikipedia.org/wiki/AA_battery");
+
+            URL_Add("nickel", "https://en.wikipedia.org/wiki/Nickel");
+
+            URL_Add("Elon Musk", "https://en.wikipedia.org/wiki/Elon_Musk");
+
+            URL_Add("Hollywood", "https://en.wikipedia.org/wiki/Hollywood");
+
+            URL_Add("Martian", "https://en.wiktionary.org/wiki/Martian#Adjective");
+
+            URL_Add("client", "https://en.wiktionary.org/wiki/client#Noun");
+
+            URL_Add("fusion", "https://en.wikipedia.org/wiki/Nuclear_fusion");
+
+            URL_Add("girlfriend", "https://en.wiktionary.org/wiki/girlfriend#Noun");
+
+            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
+
+            URL_Add("kW⋅h", "https://en.wikipedia.org/wiki/Kilowatt_hour");
+
+            URL_Add("Far East", "https://en.wiktionary.org/wiki/Far_East#Proper_noun");
+
+            URL_Add("Jaguar Land Rover", "https://en.wikipedia.org/wiki/Jaguar_Land_Rover");
+
+            URL_Add("die", "https://en.wiktionary.org/wiki/die#Verb");
+
+            URL_Add("lion's share", "https://en.wiktionary.org/wiki/lion%27s_share#Noun");
+
+            URL_Add("neighbouring", "https://en.wiktionary.org/wiki/neighbouring#Adjective");
+
 
 
 
