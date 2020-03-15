@@ -39,7 +39,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a12 2020-02-24T155742Z+0";
+        return "Edit Overflow v. 1.1.49a13 2020-03-14T200629Z+0";
     }
 
 
@@ -281,7 +281,7 @@
         ##require_once('shortcodes.php');
         require_once('wp-includes/shortcodes.php');
 
-        #require_once(‘blog/wp-blog-header.php’); # But it doesn't actually exist 
+        #require_once(‘blog/wp-blog-header.php’); # But it doesn't actually exist
                                                   # in folder 'blog'.
 
         #require_once(‘wp-blog-header.php’);
