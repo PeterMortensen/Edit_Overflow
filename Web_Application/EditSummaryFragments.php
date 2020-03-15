@@ -267,6 +267,27 @@
                />
             </p>
 
+            <p>It is not necessary to capitalise any words for emphasis.
+               Both Stack Exchange, Wikipedia, Quora, and even YouTube
+               (though very poorly documented) have facilities
+               for <b>bold</b> and <i>italics</i>. 
+               It is mostly Indians that do this, but not at all exclusively.
+               Anyone who has wasted too much time with (raw text-only)
+               forums will have the tendency (and need to unlearn).
+
+               <br/>
+               <input
+                   name="X27"
+                   type="text"
+                   id="X27"
+                   class=""
+                   value="Used more standard formatting (we have italics and bold on this platform). "
+                   style="width:830px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
+
 
             <!-- ===================================================== -->
             <hr/>
