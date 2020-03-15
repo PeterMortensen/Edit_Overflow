@@ -2394,6 +2394,7 @@ namespace OverflowHelper.core
             correctionAdd("Gihub", "GitHub");
             correctionAdd("git-hub", "GitHub");
             correctionAdd("GiHub", "GitHub");
+            correctionAdd("GiThub", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -9023,6 +9024,7 @@ namespace OverflowHelper.core
             correctionAdd("grammer", "grammar");
 
             correctionAdd("chinese", "Chinese");
+            correctionAdd("Chiense", "Chinese");
 
             correctionAdd("atleast", "at least");
             correctionAdd("alteast", "at least");
@@ -9125,6 +9127,7 @@ namespace OverflowHelper.core
             correctionAdd("indian", "Indian");
             //  correctionAdd("", "Indian");   missing one
             //     from <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA>...
+            correctionAdd("INDIAN", "Indian");
 
             correctionAdd("grad", "graduate");
 
@@ -9969,6 +9972,7 @@ namespace OverflowHelper.core
             correctionAdd("SYbase", "Sybase");
 
             correctionAdd("thnx", "thanks");
+            correctionAdd("thans", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -11118,6 +11122,7 @@ namespace OverflowHelper.core
             correctionAdd("parlament", "parliament");
 
             correctionAdd("china", "China");
+            correctionAdd("CHINA", "China");
 
             correctionAdd("japan", "Japan");
 
@@ -11556,6 +11561,7 @@ namespace OverflowHelper.core
             correctionAdd("electron", "Electron");
 
             correctionAdd("india", "India");
+            correctionAdd("INDIA", "India");
 
             correctionAdd("Puttygen", "PuTTYgen");
 
@@ -13242,6 +13248,7 @@ namespace OverflowHelper.core
             correctionAdd("android x", "Android X");
 
             correctionAdd("beatiful", "beautiful");
+            correctionAdd("beutiful", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
 
@@ -15069,8 +15076,6 @@ namespace OverflowHelper.core
             correctionAdd("Raid5", "RAID&nbsp;5");
             correctionAdd("Raid 5", "RAID&nbsp;5");
 
-            correctionAdd("Louis Lopez", "Ruy Lopez");
-
             correctionAdd("sqrl", "SQRL");
 
             correctionAdd("usain bolt", "Usain Bolt");
@@ -15151,10 +15156,6 @@ namespace OverflowHelper.core
 
             correctionAdd("short cut", "shortcut");
 
-            correctionAdd("evans gambit declined", "Evans Gambit Declined");
-
-            correctionAdd("evans gambit", "Evans Gambit");
-            correctionAdd("evan's gambit", "Evans Gambit");
 
 
             // --------------------------------------------------------------
@@ -15276,8 +15277,6 @@ namespace OverflowHelper.core
 
             correctionAdd("minikube", "Minikube");
 
-            correctionAdd("queens gabit declined", "Queen's Gambit Declined");
-
             correctionAdd("comodity", "commodity");
 
             correctionAdd("conatiner", "container");
@@ -15310,11 +15309,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
-            correctionAdd("the dutch", "Dutch Defence");
-
             correctionAdd("ES8", "ECMAScript&nbsp;8");
-
-            correctionAdd("queens indian", "Queen's Indian Defense");
 
             correctionAdd("swiss", "Swiss");
 
@@ -15393,8 +15388,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pune", "Pune");
 
-            correctionAdd("sicilian defence", "Sicilian Defence");
-
             correctionAdd("thursday", "Thursday");
 
             correctionAdd("discusting", "disgusting");
@@ -15448,11 +15441,105 @@ namespace OverflowHelper.core
 
             correctionAdd("neighboring", "neighbouring");
 
-            correctionAdd("Pandemic", "pandemic");
+            correctionAdd("comfortaple", "comfortable");
 
+            correctionAdd("dificulty", "difficulty");
+
+            correctionAdd("eatable", "edible");
+
+            correctionAdd("Mind", "mind");
+            correctionAdd("MInd", "mind");
+
+            correctionAdd("spead", "spread");
+
+            correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
+            
+            correctionAdd("chessplayer", "chess player");
+
+            correctionAdd("King's Indian", "King's Indian Defence"); // Chess
+            correctionAdd("kings indian", "King's Indian Defence"); // Chess
+            correctionAdd("king's indian", "King's Indian Defence"); // Chess
+            correctionAdd("king's Indian", "King's Indian Defence");
+
+            correctionAdd("sicilian defence", "Sicilian Defence"); // Chess
+
+            correctionAdd("the dutch", "Dutch Defence"); // Chess
+
+            correctionAdd("queens gabit declined", "Queen's Gambit Declined"); // Chess
+            correctionAdd("queens gambit declined", "Queen's Gambit Declined"); // Chess
+            correctionAdd("Queen's Gambit Decline", "Queen's Gambit Declined"); // Chess
+
+            correctionAdd("evans gambit declined", "Evans Gambit Declined"); // Chess
+
+            correctionAdd("evans gambit", "Evans Gambit"); // Chess
+            correctionAdd("evan's gambit", "Evans Gambit"); // Chess
+            
+            correctionAdd("Louis Lopez", "Ruy Lopez"); // Chess
+            correctionAdd("lopez", "Ruy Lopez"); // Chess
+
+
+            correctionAdd("italian", "Italian");
+
+            correctionAdd("karnataka", "Karnataka");
+
+            correctionAdd("demonitisation", "demonetisation");
+            correctionAdd("demonitization", "demonetisation");
+            correctionAdd("demonetization", "demonetisation");
+
+            correctionAdd("greenscreen", "green screen");
+            correctionAdd("Greenscreen", "green screen");
+
+            correctionAdd("supress", "suppress");
+
+            correctionAdd("thansand", "thousand");
+
+            correctionAdd("america", "America");
+
+            correctionAdd("third world", "Third World");
+            correctionAdd("3rd World", "Third World");
+
+            correctionAdd("the Canyon", "Grand Canyon");
+
+            correctionAdd("borring", "boring");
+
+            correctionAdd("hallow", "hello");
+            correctionAdd("Hallow", "hello");
+
+            correctionAdd("neece", "niece");
+            correctionAdd("neese", "niece");
+            
+            correctionAdd("Capablanca", "José Raúl Capablanca");
+
+
+
+            correctionAdd("dieing", "dying");
             correctionAdd("day", "die");
 
+            correctionAdd("wuhan", "Wuhan");
+            correctionAdd("WUHAR", "Wuhan");
+
+            correctionAdd("letal", "lethal");
+
+            correctionAdd("madical", "medical");
+            correctionAdd("MEDICAL", "medical");
+
+            correctionAdd("motality", "mortality");
+
+            correctionAdd("Common Cold", "common cold");
+
+            correctionAdd("diesease", "disease");
+
+            correctionAdd("epedemic", "epidemic");
+
+            correctionAdd("rhino virus", "rhinovirus");
+            correctionAdd("Rhinovirus", "rhinovirus");
+            correctionAdd("Rhino virus", "rhinovirus");
+
+            correctionAdd("Pandemic", "pandemic");
+            correctionAdd("PANDEMIC", "pandemic");
+
             correctionAdd("virsus", "virus");
+            correctionAdd("Virus", "virus");
 
             correctionAdd("COVID 19", "COVID-19");
             correctionAdd("Covid-19", "COVID-19");
@@ -15470,6 +15557,14 @@ namespace OverflowHelper.core
             correctionAdd("corona", "coronavirus");
             correctionAdd("karona", "coronavirus");
             correctionAdd("Corona", "coronavirus");
+            correctionAdd("COROAVIRUS", "coronavirus");
+            correctionAdd("CORONAVIRUS", "coronavirus");
+            correctionAdd("coronavires", "coronavirus");
+            correctionAdd("Corona-virus", "coronavirus");
+            correctionAdd("caronavirus", "coronavirus");
+
+            correctionAdd("ebola", "Ebola");
+
 
 
 
@@ -23084,6 +23179,66 @@ namespace OverflowHelper.core
             URL_Add("lion's share", "https://en.wiktionary.org/wiki/lion%27s_share#Noun");
 
             URL_Add("neighbouring", "https://en.wiktionary.org/wiki/neighbouring#Adjective");
+
+            URL_Add("King's Indian Defence", "https://en.wikipedia.org/wiki/King's_Indian_Defence");
+
+            URL_Add("comfortable", "https://en.wiktionary.org/wiki/comfortable#Adjective");
+
+            URL_Add("common cold", "https://en.wikipedia.org/wiki/Common_cold");
+
+            URL_Add("difficulty", "https://en.wiktionary.org/wiki/difficulty#Noun");
+
+            URL_Add("disease", "https://en.wiktionary.org/wiki/disease#Noun");
+
+            URL_Add("edible", "https://en.wiktionary.org/wiki/edible#Adjective");
+
+            URL_Add("epidemic", "https://en.wiktionary.org/wiki/epidemic#Adjective");
+
+            URL_Add("mind", "https://en.wiktionary.org/wiki/mind#Noun");
+
+            URL_Add("rhinovirus", "https://en.wikipedia.org/wiki/Rhinovirus");
+
+            URL_Add("spread", "https://en.wiktionary.org/wiki/spread#Noun");
+
+            URL_Add("Italian", "https://en.wiktionary.org/wiki/Italian#Adjective");
+
+            URL_Add("Karnataka", "https://en.wikipedia.org/wiki/Karnataka");
+
+            URL_Add("demonetisation", "https://en.wiktionary.org/wiki/demonetisation#Noun");
+
+            URL_Add("dying", "https://en.wiktionary.org/wiki/die#Verb");
+
+            URL_Add("green screen", "https://en.wikipedia.org/wiki/Chroma_key");
+
+            URL_Add("suppress", "https://en.wiktionary.org/wiki/suppress#Verb");
+
+            URL_Add("thousand", "https://en.wiktionary.org/wiki/thousand#Numeral");
+
+            URL_Add("Wuhan", "https://en.wikipedia.org/wiki/Wuhan");
+
+            URL_Add("lethal", "https://en.wiktionary.org/wiki/lethal#Adjective");
+
+            URL_Add("medical", "https://en.wiktionary.org/wiki/medical#Adjective");
+
+            URL_Add("mortality", "https://en.wiktionary.org/wiki/mortality");
+
+            URL_Add("America", "https://en.wiktionary.org/wiki/America#Proper_noun");
+
+            URL_Add("Third World", "https://en.wiktionary.org/wiki/Third_World#Proper_noun");
+
+            URL_Add("Ebola", "https://en.wikipedia.org/wiki/Ebola_virus_disease");
+
+            URL_Add("Grand Canyon", "https://en.wikipedia.org/wiki/Grand_Canyon");
+
+            URL_Add("boring", "https://en.wiktionary.org/wiki/boring#Adjective");
+
+            URL_Add("chess player", "https://en.wiktionary.org/wiki/chess_player#Noun");
+
+            URL_Add("hello", "https://en.wiktionary.org/wiki/hello#Interjection");
+
+            URL_Add("niece", "https://en.wiktionary.org/wiki/niece#Noun");
+
+            URL_Add("José Raúl Capablanca", "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca");
 
 
 
