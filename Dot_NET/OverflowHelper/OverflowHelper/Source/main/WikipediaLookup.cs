@@ -2158,6 +2158,8 @@ namespace OverflowHelper.core
             correctionAdd("Ardunio", "Arduino");
             correctionAdd("aurduino", "Arduino");
             correctionAdd("Aeduino", "Arduino");
+            correctionAdd("Ardiuno", "Arduino");
+            correctionAdd("ardiuno", "Arduino");
 
             correctionAdd("arduino Uno", "Arduino Uno");
             correctionAdd("arduino uno", "Arduino Uno");
@@ -3541,6 +3543,7 @@ namespace OverflowHelper.core
             correctionAdd("dox", "documentation");
             correctionAdd("documenation", "documentation");
             correctionAdd("documention", "documentation");
+            correctionAdd("DOCS", "documentation");
 
             correctionAdd("sftp", "SFTP");
 
@@ -10996,6 +10999,7 @@ namespace OverflowHelper.core
 
             correctionAdd("critisicm", "criticism");
             correctionAdd("critisism", "criticism");
+            correctionAdd("critism", "criticism");
 
             correctionAdd("instaead", "instead");
             correctionAdd("isntead", "instead");
@@ -15477,6 +15481,10 @@ namespace OverflowHelper.core
             correctionAdd("Louis Lopez", "Ruy Lopez"); // Chess
             correctionAdd("lopez", "Ruy Lopez"); // Chess
 
+            correctionAdd("Capablanca", "José Raúl Capablanca"); // Chess
+
+            correctionAdd("En passant", "en passant"); // Chess
+
 
             correctionAdd("italian", "Italian");
 
@@ -15508,8 +15516,9 @@ namespace OverflowHelper.core
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
             
-            correctionAdd("Capablanca", "José Raúl Capablanca");
+            correctionAdd("Strcpy", "strcpy");
 
+            correctionAdd("thoughout", "throughout");
 
 
             correctionAdd("dieing", "dying");
@@ -23240,6 +23249,11 @@ namespace OverflowHelper.core
 
             URL_Add("José Raúl Capablanca", "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca");
 
+            URL_Add("en passant", "https://en.wikipedia.org/wiki/En_passant");
+
+            URL_Add("strcpy", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
 
 
 
