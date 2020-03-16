@@ -293,7 +293,7 @@
             <hr/>
             <h2>Pure links</h2>
 
-            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences"
+            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"
                >Run-on sentences</a>
                (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
                >YouTube video</a>).
@@ -305,7 +305,7 @@
                    type="text"
                    id="X26"
                    class=""
-                   value="<https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences> (see also <https://twitter.com/PeterMortensen/status/1199839973215739907>) "
+                   value="<https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences> (see also <https://twitter.com/PeterMortensen/status/1199839973215739907>) "
                    style="width:590px;"
                    accesskey="R"
                    title="Shortcut: Shift + Alt + R"
