@@ -1391,6 +1391,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS v10.12", "macOS v10.12 (Sierra)");
             correctionAdd("Seirra", "macOS v10.12 (Sierra)");
             correctionAdd("macOS Sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("Mac Sierra", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -1873,12 +1874,16 @@ namespace OverflowHelper.core
             correctionAdd("Ipython Notebook", "IPython Notebook");
             correctionAdd("python notebook", "IPython Notebook");
 
+            correctionAdd("jupyter", "Jupyter");
+            correctionAdd("Jypiter", "Jupyter");
+
             correctionAdd("Jupyter nootebook", "Jupyter Notebook");
             correctionAdd("jupyter notebook", "Jupyter Notebook");
             correctionAdd("ipython notebook", "Jupyter Notebook");
             correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
             correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
             correctionAdd("Jupyter notebook", "Jupyter Notebook");
+            correctionAdd("Jypiter Notebook", "Jupyter Notebook");
 
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
@@ -7855,6 +7860,7 @@ namespace OverflowHelper.core
             correctionAdd("goverment", "government");
             correctionAdd("gouverment", "government");
             correctionAdd("governent", "government");
+            correctionAdd("Government", "government");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -9159,6 +9165,10 @@ namespace OverflowHelper.core
             correctionAdd("neccesserilly", "necessarily");
             correctionAdd("necceserilly", "necessarily");
             correctionAdd("necceserily", "necessarily");
+            correctionAdd("neessarily", "necessarily");
+            correctionAdd("nessarily", "necessarily");
+            correctionAdd("neccarily", "necessarily");
+            correctionAdd("necassarily", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -9348,8 +9358,6 @@ namespace OverflowHelper.core
             correctionAdd("man in the middle", "man-in-the-middle attack");
 
             correctionAdd("adobe illustrator", "Adobe Illustrator");
-
-            correctionAdd("jupyter", "Jupyter");
 
             correctionAdd("zener diode", "Zener diode");
             correctionAdd("zener", "Zener diode");
@@ -11548,6 +11556,7 @@ namespace OverflowHelper.core
             correctionAdd("runnning", "running");
 
             correctionAdd("spread-sheet", "spreadsheet");
+            correctionAdd("spreadshet", "spreadsheet");
 
             correctionAdd("sintax", "syntax");
             correctionAdd("sytax", "syntax");
@@ -11891,6 +11900,7 @@ namespace OverflowHelper.core
             correctionAdd("poisiton", "position");
 
             correctionAdd("vehical", "vehicle");
+            correctionAdd("vihicle", "vehicle");
 
             correctionAdd("wierd", "weird");
             correctionAdd("weried", "weird");
@@ -12098,6 +12108,7 @@ namespace OverflowHelper.core
             correctionAdd("scotland", "Scotland");
 
             correctionAdd("spacex", "SpaceX");
+            correctionAdd("spaceX", "SpaceX");
 
             correctionAdd("tcpview", "TCPView");
 
@@ -12436,6 +12447,8 @@ namespace OverflowHelper.core
             correctionAdd("Mw", "MW");
 
             correctionAdd("noble prize", "Nobel Prize");
+            correctionAdd("NOBEL PRIZE", "Nobel Prize");
+            correctionAdd("nobel prize", "Nobel Prize");
 
             correctionAdd("abilites", "abilities");
 
@@ -15457,7 +15470,7 @@ namespace OverflowHelper.core
             correctionAdd("spead", "spread");
 
             correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
-            
+
             correctionAdd("chessplayer", "chess player");
 
             correctionAdd("King's Indian", "King's Indian Defence"); // Chess
@@ -15477,13 +15490,16 @@ namespace OverflowHelper.core
 
             correctionAdd("evans gambit", "Evans Gambit"); // Chess
             correctionAdd("evan's gambit", "Evans Gambit"); // Chess
-            
+
             correctionAdd("Louis Lopez", "Ruy Lopez"); // Chess
             correctionAdd("lopez", "Ruy Lopez"); // Chess
 
             correctionAdd("Capablanca", "José Raúl Capablanca"); // Chess
 
             correctionAdd("En passant", "en passant"); // Chess
+            
+            correctionAdd("english opening", "English Opening"); // Chess
+
 
 
             correctionAdd("italian", "Italian");
@@ -15515,13 +15531,56 @@ namespace OverflowHelper.core
 
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
-            
+
             correctionAdd("Strcpy", "strcpy");
 
             correctionAdd("thoughout", "throughout");
 
+            correctionAdd("atlas V", "Atlas V");
+
+            correctionAdd("dragon 2", "Dragon 2");
+
+            correctionAdd("F9", "Falcon 9");
+
+            correctionAdd("falcon heavy", "Falcon Heavy");
+
+            correctionAdd("G suite", "G Suite");
+
+            correctionAdd("Google Meet", "Google Hangouts Meet");
+
+            correctionAdd("Teams", "Microsoft Teams");
+
+            correctionAdd("Office365", "Office 365");
+
+            correctionAdd("orion", "Orion");
+
+            correctionAdd("saturn V", "Saturn V");
+
+            correctionAdd("shuttle", "Space Shuttle");
+            correctionAdd("Shuttle", "Space Shuttle");
+
+            correctionAdd("starship", "SpaceX Starship");
+
+            correctionAdd("starliner", "Starliner");
+
+            correctionAdd("TLI", "Trans-lunar injection");
+
+            correctionAdd("fairytale", "fairy tale");
+
+            correctionAdd("Findland", "Finland");
+
+            correctionAdd("houston", "Houston");
+
+            correctionAdd("avout", "about");
+
+            correctionAdd("open plan office", "open-plan office");
+
+            correctionAdd("workspce", "workspace");
+
+
 
             correctionAdd("dieing", "dying");
+
             correctionAdd("day", "die");
 
             correctionAdd("wuhan", "Wuhan");
@@ -15549,6 +15608,7 @@ namespace OverflowHelper.core
 
             correctionAdd("virsus", "virus");
             correctionAdd("Virus", "virus");
+            correctionAdd("VIRUS", "virus");
 
             correctionAdd("COVID 19", "COVID-19");
             correctionAdd("Covid-19", "COVID-19");
@@ -15557,6 +15617,8 @@ namespace OverflowHelper.core
             correctionAdd("Covid19", "COVID-19");
             correctionAdd("COVID19", "COVID-19");
             correctionAdd("Covid 19", "COVID-19");
+            correctionAdd("covid-19", "COVID-19");
+            correctionAdd("CoVid-19", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -23254,6 +23316,48 @@ namespace OverflowHelper.core
             URL_Add("strcpy", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
 
             URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
+
+            URL_Add("Atlas V", "https://en.wikipedia.org/wiki/Atlas_V");
+
+            URL_Add("Dragon 2", "https://en.wikipedia.org/wiki/Dragon_2");
+
+            URL_Add("Falcon 9", "https://en.wikipedia.org/wiki/Falcon_9");
+
+            URL_Add("Falcon Heavy", "https://en.wikipedia.org/wiki/Falcon_Heavy");
+
+            URL_Add("G Suite", "https://en.wikipedia.org/wiki/G_Suite");
+
+            URL_Add("Google Hangouts Meet", "https://en.wikipedia.org/wiki/Google_Hangouts#Google_Hangouts_Meet");
+
+            URL_Add("Microsoft Teams", "https://en.wikipedia.org/wiki/Microsoft_Teams");
+
+            URL_Add("Office 365", "https://en.wikipedia.org/wiki/Office_365");
+
+            URL_Add("Orion", "https://en.wikipedia.org/wiki/Orion_(spacecraft)");
+
+            URL_Add("Saturn V", "https://en.wikipedia.org/wiki/Saturn_V");
+
+            URL_Add("Space Shuttle", "https://en.wikipedia.org/wiki/Space_Shuttle");
+
+            URL_Add("SpaceX Starship", "https://en.wikipedia.org/wiki/SpaceX_Starship");
+
+            URL_Add("Starliner", "https://en.wikipedia.org/wiki/Boeing_CST-100_Starliner");
+
+            URL_Add("Trans-lunar injection", "https://en.wikipedia.org/wiki/Trans-lunar_injection");
+
+            URL_Add("fairy tale", "https://en.wiktionary.org/wiki/fairy_tale#Noun");
+
+            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
+
+            URL_Add("Finland", "https://en.wikipedia.org/wiki/Finland");
+
+            URL_Add("Houston", "https://en.wikipedia.org/wiki/Houston");
+
+            URL_Add("about", "https://en.wiktionary.org/wiki/about#Adverb");
+
+            URL_Add("open-plan office", "https://en.wiktionary.org/wiki/open-plan#Adjective");
+
+            URL_Add("workspace", "https://en.wiktionary.org/wiki/workspace#Noun");
 
 
 
