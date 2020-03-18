@@ -15321,9 +15321,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vis-a-vis", "vis-à-vis");
 
-            correctionAdd("Rezi", "Réti Opening");
-            correctionAdd("Resi", "Réti Opening");
-
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
             correctionAdd("ES8", "ECMAScript&nbsp;8");
@@ -15497,9 +15494,17 @@ namespace OverflowHelper.core
             correctionAdd("Capablanca", "José Raúl Capablanca"); // Chess
 
             correctionAdd("En passant", "en passant"); // Chess
-            
-            correctionAdd("english opening", "English Opening"); // Chess
 
+            correctionAdd("english opening", "English Opening"); // Chess
+            correctionAdd("English opening", "English Opening"); // Chess
+
+            correctionAdd("Rezi", "Réti Opening");
+            correctionAdd("Resi", "Réti Opening");
+            correctionAdd("resi", "Réti Opening");
+
+            correctionAdd("Karpov", "Anatoly Karpov");
+
+            correctionAdd("Nepo", "Ian Nepomniachtchi");
 
 
             correctionAdd("italian", "Italian");
@@ -23358,6 +23363,10 @@ namespace OverflowHelper.core
             URL_Add("open-plan office", "https://en.wiktionary.org/wiki/open-plan#Adjective");
 
             URL_Add("workspace", "https://en.wiktionary.org/wiki/workspace#Noun");
+
+            URL_Add("Anatoly Karpov", "https://en.wikipedia.org/wiki/Anatoly_Karpov");
+
+            URL_Add("Ian Nepomniachtchi", "https://en.wikipedia.org/wiki/Ian_Nepomniachtchi");
 
 
 
