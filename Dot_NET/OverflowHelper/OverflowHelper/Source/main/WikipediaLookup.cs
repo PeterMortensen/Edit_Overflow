@@ -11112,6 +11112,7 @@ namespace OverflowHelper.core
             correctionAdd("Yestarday", "yesterday");
 
             correctionAdd("duckduckgo", "DuckDuckGo");
+            correctionAdd("duck duck go", "DuckDuckGo");
 
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
@@ -11997,6 +11998,7 @@ namespace OverflowHelper.core
             correctionAdd("alllow", "allow");
 
             correctionAdd("almos", "almost");
+            correctionAdd("alomst", "almost");
 
             correctionAdd("answeared", "answered");
 
@@ -12189,6 +12191,7 @@ namespace OverflowHelper.core
             correctionAdd("Macos", "macOS");
             correctionAdd("MacOS", "macOS");
             correctionAdd("Mac-Os", "macOS");
+            correctionAdd("Mac os", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -12748,8 +12751,9 @@ namespace OverflowHelper.core
 
             correctionAdd("eloquenctly", "eloquently");
 
-            correctionAdd("gettign", "getting");
+            correctionAdd("gettign", "getting");            
             correctionAdd("gettting", "getting");
+            correctionAdd("gettin", "getting");
 
             correctionAdd("goel", "goal");
 
@@ -15174,7 +15178,6 @@ namespace OverflowHelper.core
             correctionAdd("short cut", "shortcut");
 
 
-
             // --------------------------------------------------------------
 
             correctionAdd("ansi C", "ANSI C");
@@ -15399,6 +15402,7 @@ namespace OverflowHelper.core
             correctionAdd("notional", "national");
 
             correctionAdd("positivr", "positive");
+            correctionAdd("postive", "positive");
 
             correctionAdd("pune", "Pune");
 
@@ -15506,6 +15510,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Nepo", "Ian Nepomniachtchi");
 
+            correctionAdd("Candidates", "Candidates Tournament 2020");
+
+            correctionAdd("magnus carlsen", "Magnus Carlsen");
+
+            correctionAdd("check mate", "checkmate");
+
+
 
             correctionAdd("italian", "Italian");
 
@@ -15582,6 +15593,31 @@ namespace OverflowHelper.core
 
             correctionAdd("workspce", "workspace");
 
+            correctionAdd("minicom", "Minicom");
+
+            correctionAdd("montreal", "Montreal");
+
+            correctionAdd("sjw", "SJW");
+            correctionAdd("swj", "SJW");
+
+            correctionAdd("saudi arabia", "Saudi Arabia");
+
+            correctionAdd("Rajabov", "Teimour Radjabov");
+            correctionAdd("Radjabov", "Teimour Radjabov");
+            correctionAdd("Teymur Rajabov", "Teimour Radjabov");
+
+            correctionAdd("zaphod beeblebrox", "Zaphod Beeblebrox");
+
+            correctionAdd("cought", "caught");
+
+            correctionAdd("criticize", "criticise");
+
+            correctionAdd("ExFat", "exFAT");
+
+            correctionAdd("humor", "humour");
+
+            correctionAdd("polution", "pollution");
+
 
 
             correctionAdd("dieing", "dying");
@@ -15638,9 +15674,13 @@ namespace OverflowHelper.core
             correctionAdd("coronavires", "coronavirus");
             correctionAdd("Corona-virus", "coronavirus");
             correctionAdd("caronavirus", "coronavirus");
-
             correctionAdd("ebola", "Ebola");
+            correctionAdd("cdc", "CDC");
 
+            correctionAdd("foot print", "footprint");
+
+            correctionAdd("generalizing", "generalising");
+            correctionAdd("Generalising", "generalising");
 
 
 
@@ -23367,6 +23407,40 @@ namespace OverflowHelper.core
             URL_Add("Anatoly Karpov", "https://en.wikipedia.org/wiki/Anatoly_Karpov");
 
             URL_Add("Ian Nepomniachtchi", "https://en.wikipedia.org/wiki/Ian_Nepomniachtchi");
+
+            URL_Add("CDC", "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention");
+
+            URL_Add("Candidates Tournament 2020", "https://en.wikipedia.org/wiki/Candidates_Tournament_2020");
+
+            URL_Add("Magnus Carlsen", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
+
+            URL_Add("Minicom", "https://en.wikipedia.org/wiki/Minicom");
+
+            URL_Add("Montreal", "https://en.wikipedia.org/wiki/Montreal");
+
+            URL_Add("SJW", "https://en.wiktionary.org/wiki/SJW#Noun");
+
+            URL_Add("Saudi Arabia", "https://en.wikipedia.org/wiki/Saudi_Arabia");
+
+            URL_Add("Teimour Radjabov", "https://en.wikipedia.org/wiki/Teimour_Radjabov");
+
+            URL_Add("Zaphod Beeblebrox", "https://en.wikipedia.org/wiki/Zaphod_Beeblebrox");
+
+            URL_Add("caught", "https://en.wiktionary.org/wiki/catch#Verb");
+
+            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
+
+            URL_Add("criticise", "https://en.wiktionary.org/wiki/criticise#Verb");
+
+            URL_Add("exFAT", "https://en.wikipedia.org/wiki/ExFAT");
+
+            URL_Add("humour", "https://en.wiktionary.org/wiki/humour#Noun");
+
+            URL_Add("pollution", "https://en.wiktionary.org/wiki/pollution#Noun");
+
+            URL_Add("footprint", "https://en.wiktionary.org/wiki/footprint#Noun");
+
+            URL_Add("generalising", "https://en.wiktionary.org/wiki/generalising");
 
 
 
