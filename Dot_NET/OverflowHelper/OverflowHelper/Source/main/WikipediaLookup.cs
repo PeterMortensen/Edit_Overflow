@@ -8921,6 +8921,7 @@ namespace OverflowHelper.core
             correctionAdd("ECommerce", "E-commerce");
             correctionAdd("Ecommerce", "E-commerce");
             correctionAdd("e-commerce", "E-commerce");
+            correctionAdd("E-Commerce", "E-commerce");
 
             correctionAdd("activeperl", "ActivePerl");
             correctionAdd("active perl", "ActivePerl");
@@ -9975,6 +9976,8 @@ namespace OverflowHelper.core
             correctionAdd("VueJS", "Vue.js");
             correctionAdd("Vuejs", "Vue.js");
             correctionAdd("Vue", "Vue.js");
+            correctionAdd("vie.js", "Vue.js");
+            correctionAdd("vie", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -12751,7 +12754,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eloquenctly", "eloquently");
 
-            correctionAdd("gettign", "getting");            
+            correctionAdd("gettign", "getting");
             correctionAdd("gettting", "getting");
             correctionAdd("gettin", "getting");
 
@@ -15470,6 +15473,9 @@ namespace OverflowHelper.core
 
             correctionAdd("spead", "spread");
 
+
+            // Start of chess part...
+
             correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
 
             correctionAdd("chessplayer", "chess player");
@@ -15515,6 +15521,10 @@ namespace OverflowHelper.core
             correctionAdd("magnus carlsen", "Magnus Carlsen");
 
             correctionAdd("check mate", "checkmate");
+
+            correctionAdd("Rajabov", "Teimour Radjabov");
+            correctionAdd("Radjabov", "Teimour Radjabov");
+            correctionAdd("Teymur Rajabov", "Teimour Radjabov");
 
 
 
@@ -15602,10 +15612,6 @@ namespace OverflowHelper.core
 
             correctionAdd("saudi arabia", "Saudi Arabia");
 
-            correctionAdd("Rajabov", "Teimour Radjabov");
-            correctionAdd("Radjabov", "Teimour Radjabov");
-            correctionAdd("Teymur Rajabov", "Teimour Radjabov");
-
             correctionAdd("zaphod beeblebrox", "Zaphod Beeblebrox");
 
             correctionAdd("cought", "caught");
@@ -15618,7 +15624,25 @@ namespace OverflowHelper.core
 
             correctionAdd("polution", "pollution");
 
+            correctionAdd("foot print", "footprint");
 
+            correctionAdd("generalizing", "generalising");
+            correctionAdd("Generalising", "generalising");
+
+            correctionAdd("Eagle", "EAGLE");
+            correctionAdd("eagle", "EAGLE");
+
+            correctionAdd("vms", "VMS");
+
+            correctionAdd("Googled", "googled");
+
+            correctionAdd("rootcause", "root cause");
+
+            correctionAdd("C’mon", "come on");
+            correctionAdd("c’mon", "come on");
+
+
+            // Start of coronavirus part...
 
             correctionAdd("dieing", "dying");
 
@@ -15677,10 +15701,6 @@ namespace OverflowHelper.core
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
 
-            correctionAdd("foot print", "footprint");
-
-            correctionAdd("generalizing", "generalising");
-            correctionAdd("Generalising", "generalising");
 
 
 
@@ -23441,6 +23461,17 @@ namespace OverflowHelper.core
             URL_Add("footprint", "https://en.wiktionary.org/wiki/footprint#Noun");
 
             URL_Add("generalising", "https://en.wiktionary.org/wiki/generalising");
+
+            URL_Add("EAGLE", "https://en.wikipedia.org/wiki/EAGLE_(program)");
+
+            URL_Add("VMS", "https://en.wikipedia.org/wiki/OpenVMS#Origin_and_name_changes");
+
+            URL_Add("googled", "https://en.wiktionary.org/wiki/google#Verb_2");
+
+            URL_Add("root cause", "https://en.wiktionary.org/wiki/root_cause#Noun");
+
+            URL_Add("come on", "https://en.wiktionary.org/wiki/come_on#Interjection");
+
 
 
 
