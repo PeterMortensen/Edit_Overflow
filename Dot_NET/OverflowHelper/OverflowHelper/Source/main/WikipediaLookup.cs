@@ -13292,6 +13292,7 @@ namespace OverflowHelper.core
             correctionAdd("asterix", "asterisk");
             correctionAdd("asteriscs", "asterisk");
             correctionAdd("asterics", "asterisk");
+            correctionAdd("asteriks", "asterisk");
 
             correctionAdd("cetian", "certain");
 
@@ -15517,6 +15518,7 @@ namespace OverflowHelper.core
             correctionAdd("Nepo", "Ian Nepomniachtchi");
 
             correctionAdd("Candidates", "Candidates Tournament 2020");
+            correctionAdd("Candidate's", "Candidates Tournament 2020");
 
             correctionAdd("magnus carlsen", "Magnus Carlsen");
 
@@ -15525,6 +15527,17 @@ namespace OverflowHelper.core
             correctionAdd("Rajabov", "Teimour Radjabov");
             correctionAdd("Radjabov", "Teimour Radjabov");
             correctionAdd("Teymur Rajabov", "Teimour Radjabov");
+
+            correctionAdd("Grishchuk", "Alexander Grischuk");
+            correctionAdd("alexander grishchuk", "Alexander Grischuk");
+
+            correctionAdd("Alpha Zero", "AlphaZero");
+
+            correctionAdd("the frence defence", "French Defence");
+
+            correctionAdd("Slav defence", "Slav Defense");
+
+            correctionAdd("Time Control", "time control");
 
 
 
@@ -15641,6 +15654,8 @@ namespace OverflowHelper.core
             correctionAdd("C’mon", "come on");
             correctionAdd("c’mon", "come on");
 
+            correctionAdd("hyderabad", "Hyderabad");
+
 
             // Start of coronavirus part...
 
@@ -15700,7 +15715,7 @@ namespace OverflowHelper.core
             correctionAdd("caronavirus", "coronavirus");
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
-
+            correctionAdd("cronavirus", "coronavirus");
 
 
 
@@ -23471,6 +23486,18 @@ namespace OverflowHelper.core
             URL_Add("root cause", "https://en.wiktionary.org/wiki/root_cause#Noun");
 
             URL_Add("come on", "https://en.wiktionary.org/wiki/come_on#Interjection");
+
+            URL_Add("Alexander Grischuk", "https://en.wikipedia.org/wiki/Alexander_Grischuk");
+
+            URL_Add("AlphaZero", "https://en.wikipedia.org/wiki/AlphaZero");
+
+            URL_Add("French Defence", "https://en.wikipedia.org/wiki/French_Defence");
+
+            URL_Add("Hyderabad", "https://en.wikipedia.org/wiki/Hyderabad");
+
+            URL_Add("Slav Defense", "https://en.wikipedia.org/wiki/Slav_Defense");
+
+            URL_Add("time control", "https://en.wikipedia.org/wiki/Rules_of_chess#Time_control");
 
 
 
