@@ -2751,9 +2751,6 @@ namespace OverflowHelper.core
             correctionAdd("WINE", "Wine");
             correctionAdd("wine", "Wine");
 
-            correctionAdd("komodo", "Komodo Edit");
-            correctionAdd("KomodoEdit", "Komodo Edit");
-
             correctionAdd("wxwidgets", "wxWidgets");
             correctionAdd("WxWidgets", "wxWidgets");
             correctionAdd("Wx", "wxWidgets");
@@ -3549,6 +3546,7 @@ namespace OverflowHelper.core
             correctionAdd("documenation", "documentation");
             correctionAdd("documention", "documentation");
             correctionAdd("DOCS", "documentation");
+            correctionAdd("doucmentation", "documentation");
 
             correctionAdd("sftp", "SFTP");
 
@@ -4670,6 +4668,7 @@ namespace OverflowHelper.core
             correctionAdd("process Explorer", "Process&nbsp;Explorer");
             correctionAdd("procexp", "Process&nbsp;Explorer");
             correctionAdd("Procexp", "Process&nbsp;Explorer");
+            correctionAdd("ProcExp", "Process&nbsp;Explorer");
 
             correctionAdd("Ilasm", "ILAsm");
 
@@ -11062,6 +11061,7 @@ namespace OverflowHelper.core
             correctionAdd("parti", "party");
 
             correctionAdd("rarher", "rather");
+            correctionAdd("rathee", "rather");
 
             correctionAdd("2nd", "second");
 
@@ -14127,8 +14127,6 @@ namespace OverflowHelper.core
             correctionAdd("mentionned", "mentioned");
             correctionAdd("mentionmed", "mentioned");
 
-            correctionAdd("occassionally", "occasionally");
-
             correctionAdd("predicatbly", "predictably");
 
             correctionAdd("broadcom", "Broadcom");
@@ -15656,6 +15654,21 @@ namespace OverflowHelper.core
 
             correctionAdd("hyderabad", "Hyderabad");
 
+            correctionAdd("csgo", "CS:GO");
+
+            correctionAdd("nedit", "NEdit");
+
+            correctionAdd("South-Korea", "South Korea");
+
+            correctionAdd("digged", "dug");
+
+            correctionAdd("digged up", "dug up");
+
+            correctionAdd("occassionally", "occasionally");
+
+            correctionAdd("ocassional", "occasional");
+            correctionAdd("occational", "occasional");
+
 
             // Start of coronavirus part...
 
@@ -15716,6 +15729,13 @@ namespace OverflowHelper.core
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
+
+            correctionAdd("komodo", "Komodo Edit");
+            correctionAdd("KomodoEdit", "Komodo Edit");
+            correctionAdd("komodo edit", "Komodo Edit");
+            correctionAdd("Komodo edit", "Komodo Edit");
+            correctionAdd("KOMODO EDIT", "Komodo Edit");
+
 
 
 
@@ -23498,6 +23518,18 @@ namespace OverflowHelper.core
             URL_Add("Slav Defense", "https://en.wikipedia.org/wiki/Slav_Defense");
 
             URL_Add("time control", "https://en.wikipedia.org/wiki/Rules_of_chess#Time_control");
+
+            URL_Add("CS:GO", "https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive");
+
+            URL_Add("NEdit", "https://en.wikipedia.org/wiki/NEdit");
+
+            URL_Add("South Korea", "https://en.wikipedia.org/wiki/South_Korea");
+
+            URL_Add("dug", "https://en.wiktionary.org/wiki/dig#Verb");
+
+            URL_Add("dug up", "https://en.wiktionary.org/wiki/dig_up#Verb");
+
+            URL_Add("occasional", "https://en.wiktionary.org/wiki/occasional#Adjective");
 
 
 
