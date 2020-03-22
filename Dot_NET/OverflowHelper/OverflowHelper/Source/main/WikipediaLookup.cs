@@ -3945,6 +3945,7 @@ namespace OverflowHelper.core
             correctionAdd("ultra edit", "UltraEdit");
             correctionAdd("Ultra Edit", "UltraEdit");
             correctionAdd("UE", "UltraEdit");
+            correctionAdd("ULTRAEDIT", "UltraEdit");
 
             correctionAdd("chars", "characters"); //Expansion.
             correctionAdd("char", "characters"); //Expansion, not 100% correct. Add a plural feature?
@@ -15507,35 +15508,47 @@ namespace OverflowHelper.core
             correctionAdd("english opening", "English Opening"); // Chess
             correctionAdd("English opening", "English Opening"); // Chess
 
-            correctionAdd("Rezi", "Réti Opening");
-            correctionAdd("Resi", "Réti Opening");
-            correctionAdd("resi", "Réti Opening");
+            correctionAdd("Rezi", "Réti Opening"); // Chess
+            correctionAdd("Resi", "Réti Opening"); // Chess
+            correctionAdd("resi", "Réti Opening"); // Chess
 
-            correctionAdd("Karpov", "Anatoly Karpov");
+            correctionAdd("Karpov", "Anatoly Karpov"); // Chess
 
-            correctionAdd("Nepo", "Ian Nepomniachtchi");
+            correctionAdd("Nepo", "Ian Nepomniachtchi"); // Chess
 
-            correctionAdd("Candidates", "Candidates Tournament 2020");
-            correctionAdd("Candidate's", "Candidates Tournament 2020");
+            correctionAdd("Candidates", "Candidates Tournament 2020"); // Chess
+            correctionAdd("Candidate's", "Candidates Tournament 2020"); // Chess
 
-            correctionAdd("magnus carlsen", "Magnus Carlsen");
+            correctionAdd("magnus carlsen", "Magnus Carlsen"); // Chess
 
-            correctionAdd("check mate", "checkmate");
+            correctionAdd("check mate", "checkmate"); // Chess
 
-            correctionAdd("Rajabov", "Teimour Radjabov");
-            correctionAdd("Radjabov", "Teimour Radjabov");
-            correctionAdd("Teymur Rajabov", "Teimour Radjabov");
+            correctionAdd("Rajabov", "Teimour Radjabov"); // Chess
+            correctionAdd("Radjabov", "Teimour Radjabov"); // Chess
+            correctionAdd("Teymur Rajabov", "Teimour Radjabov"); // Chess
 
-            correctionAdd("Grishchuk", "Alexander Grischuk");
-            correctionAdd("alexander grishchuk", "Alexander Grischuk");
+            correctionAdd("Grishchuk", "Alexander Grischuk"); // Chess
+            correctionAdd("alexander grishchuk", "Alexander Grischuk"); // Chess
 
-            correctionAdd("Alpha Zero", "AlphaZero");
+            correctionAdd("Alpha Zero", "AlphaZero"); // Chess
+            correctionAdd("Alpha zero", "AlphaZero"); // Chess
+            correctionAdd("alpha zero", "AlphaZero"); // Chess
 
-            correctionAdd("the frence defence", "French Defence");
+            correctionAdd("the frence defence", "French Defence"); // Chess
 
-            correctionAdd("Slav defence", "Slav Defense");
+            correctionAdd("Slav defence", "Slav Defense"); // Chess
 
-            correctionAdd("Time Control", "time control");
+            correctionAdd("Time Control", "time control"); // Chess
+
+            correctionAdd("berlin defence", "Berlin Defence"); // Chess
+
+            correctionAdd("stockfish", "Stockfish"); // Chess
+            correctionAdd("Stock fish", "Stockfish"); // Chess
+            correctionAdd("stock fish", "Stockfish"); // Chess
+
+            correctionAdd("double Fianchetto", "double fianchetto");// Chess
+
+            correctionAdd("Fianchetto", "fianchetto");// Chess
 
 
 
@@ -15669,6 +15682,26 @@ namespace OverflowHelper.core
             correctionAdd("ocassional", "occasional");
             correctionAdd("occational", "occasional");
 
+            correctionAdd("cua", "CUA");
+
+            correctionAdd("Retina Display", "Retina display");
+
+            correctionAdd("componenet", "component");
+
+            correctionAdd("orginal", "original");
+
+            correctionAdd("unusuall", "unusual");
+
+            correctionAdd("Yen", "yen");
+
+            correctionAdd("komodo", "Komodo Edit");
+            correctionAdd("KomodoEdit", "Komodo Edit");
+            correctionAdd("komodo edit", "Komodo Edit");
+            correctionAdd("Komodo edit", "Komodo Edit");
+            correctionAdd("KOMODO EDIT", "Komodo Edit");
+
+            correctionAdd("grumfeld", "Grünfeld Defence");
+
 
             // Start of coronavirus part...
 
@@ -15712,6 +15745,7 @@ namespace OverflowHelper.core
             correctionAdd("Covid 19", "COVID-19");
             correctionAdd("covid-19", "COVID-19");
             correctionAdd("CoVid-19", "COVID-19");
+            correctionAdd("covid", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -15730,11 +15764,6 @@ namespace OverflowHelper.core
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
 
-            correctionAdd("komodo", "Komodo Edit");
-            correctionAdd("KomodoEdit", "Komodo Edit");
-            correctionAdd("komodo edit", "Komodo Edit");
-            correctionAdd("Komodo edit", "Komodo Edit");
-            correctionAdd("KOMODO EDIT", "Komodo Edit");
 
 
 
@@ -23531,6 +23560,27 @@ namespace OverflowHelper.core
 
             URL_Add("occasional", "https://en.wiktionary.org/wiki/occasional#Adjective");
 
+            URL_Add("Berlin Defence", "https://en.wikipedia.org/wiki/Berlin_Defence_(chess)");
+
+            URL_Add("CUA", "https://en.wikipedia.org/wiki/IBM_Common_User_Access");
+
+            URL_Add("Retina display", "https://en.wikipedia.org/wiki/Retina_display");
+
+            URL_Add("Stockfish", "https://en.wikipedia.org/wiki/Stockfish_%28chess%29");
+
+            URL_Add("component", "https://en.wiktionary.org/wiki/component#Noun");
+
+            URL_Add("double fianchetto", "https://en.wikipedia.org/wiki/Fianchetto");
+
+            URL_Add("fianchetto", "https://en.wikipedia.org/wiki/Fianchetto");
+
+            URL_Add("original", "https://en.wiktionary.org/wiki/original#Adjective");
+
+            URL_Add("unusual", "https://en.wiktionary.org/wiki/unusual#Adjective");
+
+            URL_Add("yen", "https://en.wiktionary.org/wiki/yen#Noun");
+
+            URL_Add("Grünfeld Defence", "https://en.wikipedia.org/wiki/Gr%C3%BCnfeld_Defence");
 
 
 
