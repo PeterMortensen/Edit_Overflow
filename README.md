@@ -17,11 +17,9 @@ the first versions of [a web application][150] became
 available (and operational) in July 2019. While not yet feature-complete,
 it covers the most important functionality.
 
-
 ## Installing Edit Overflow (Windows)
 
 Run [the ClickOnce installer][30].
-
 
 ## Using Edit Overflow
 
@@ -50,7 +48,6 @@ in the keyboard (is not dependent on software running on
 the computer), this also works on Linux (if the web version
 of Edit Overflow is used).
 
-
 ## Other features
 
 ### Convert TABs to spaces and remove trailing space
@@ -61,16 +58,13 @@ Symbols for degrees, micro, ohm, etc.
 
 Is in menu *Text*.
 
-
 ### Format as code (Markdown, backtick)
 
 Is in menu *Action*.
 
-
 ### Format as keyboard (Markdown)
 
 Is in menu *Action*.
-
 
 ### Lookup on Wikipidia or Wiktionary
 
@@ -78,7 +72,6 @@ Is in menu *Action*.
 
 Especially convenient when looking up a term
 that Edit Overflow does not know.
-
 
 ## Other functionality unrelated to editing
 
@@ -93,7 +86,6 @@ and "More time".
 
 It can be used as a Pomodorro timer.
 
-
 ### Open a list of URLs in the browser
 
 This will open each URLs in the, with a 3 second (default) delay
@@ -103,12 +95,10 @@ for some time).
 
 Enter/paste a list of URLs into the input field in the lower left.
 
-
 ### YouTube comments
 
 There is a function for converting time stamps and URLs
 to a form acceptable for use in YouTube comments.
-
 
 ### Forth and PuTTY
 
@@ -122,43 +112,40 @@ is known to work. If it is not the right current keyboard layout, e.g. Danish,
 then, for instance, the line comment character, backslash, will effectively 
 be ignored and in most cases the result will be an error message from AmForth.
 
-
 ## Released versions
 
-### Version 1.1.49 (2019-11-01):
+### Version 1.1.49 (2019-11-01)
 
 Note: [Installation problems on some Windows system][201]
 
- * Changed: XXXX
- * Added: XXX
- * Added more words ([now at 9009 input words and 2796 output words][136]).
+* Changed: XXXX
+* Added: XXX
+* Added more words ([now at 9009 input words and 2796 output words][136]).
 
+### Version 1.1.48
 
-### Version 1.1.48:
-
- * Changed: Menu command to prepare YouTube comments now handles
+* Changed: Menu command to prepare YouTube comments now handles
    email addresses and some false positives for the URL
    processing has been removed ("e.g." and "E.g.").
 
- * Added: Support for use of PuTTY with AmForth (requires AutoIt
+* Added: Support for use of PuTTY with AmForth (requires AutoIt
    to be installed). The input is text in the clipboard and the
    user must manually change focus to PuTTY within 5 seconds.
    Menu "Utility" &rarr; "Typing out characters - direct".
 
- * Added more words ([now at 8228 input words and 2382 output words][135]).
+* Added more words ([now at 8228 input words and 2382 output words][135]).
 
-
-### Version 1.1.47:
+### Version 1.1.47
 
 Version 1.1.47:
 
- * Changed: The menus have been somewhat reorganised - items were
+* Changed: The menus have been somewhat reorganised - items were
    moved from menu Action to menu Text and menu Utility.
 
- * Added: Add TAB to the clipboard (useful if a text editor has
+* Added: Add TAB to the clipboard (useful if a text editor has
    been configured to only use TABs, e.g. Notepad++ or UltraEdit).
 
- * Added: Menu command to prepare YouTube comments - for live time
+* Added: Menu command to prepare YouTube comments - for live time
    links and encoding URLs to they don't look like URLs (to avoid
    deletion) (Transform for YouTube comments (in clipboard)) in
    menu Text).
@@ -166,11 +153,10 @@ Version 1.1.47:
    Book: https://www.amazon.com/Writing-Well".
    Menu "Text"* ? *"Transform for YouTube comments (in clipboard)".
 
- * Added: Menu command to enclose text in <> (Insert in "Look up"
+* Added: Menu command to enclose text in <> (Insert in "Look up"
    field and enclose in "<>") in menu Action).
 
- * Added more words (now at 7525 input words and 2091 output words).
-
+* Added more words (now at 7525 input words and 2091 output words).
 
 ## Wordlist
 
@@ -184,9 +170,8 @@ web hosting platform).
 Some versions of the wordlist have been published
 ([more complete list][40]):
 
- * [2019-07-27][135]
- * [2019-03-30][134]
-
+* [2019-07-27][135]
+* [2019-03-30][134]
 
 ## History
 
@@ -209,39 +194,36 @@ until 2019 that the initial Windows desktop application (Windows Forms
 application written in C#) was supplemented with a web application,
 prompted by an attempted move to move from Windows to Linux.
 
-
 ## Contribute
 
 Any corrections (even the simplest of spelling mistakes)
 or constructive critisism are welcome.
 
-
 ### Known problems
 
- * The application sometimes appear to not receive input.
+* The application sometimes appear to not receive input.
    The reason is the (modal) dialog "Time is up!" is
    displayed (by default shown after 30 minutes (when
    the timer reaches 0 minutes)).
    Resolve it by dismissing the dialog.
 
- * On Windows 10, the whole application window shrinks
+* On Windows 10, the whole application window shrinks
    when the clipboard is changed by Edit Overflow for
    the first time. (This does not happen on Windows XP
    or Windows 7.)
 
- * Some of the Alt + key keyboard shortcuts sometimes result
+* Some of the Alt + key keyboard shortcuts sometimes result
    in some of the checkboxes (for the edit summary string)
    be checked instead.
 
- * The user interface needs to be reworked to be more
+* The user interface needs to be reworked to be more
    modern looking. Perhaps even changing from
    Windows Forms to WPF. Or even HTML5 + CSS + JavaScript.
    Or Atom/Electron.
 
-
 ### Features that would be very nice to have
 
- * Remembering some option settings.
+* Remembering some option settings.
    For example, for option *"Change clipboard on lookup"*.
    This would prevent violation of common user interface standards for the
    current default setting of this value (checked) and still allow the user to
@@ -260,8 +242,7 @@ or constructive critisism are welcome.
     missing elements (e.g. a newer version of the program reading a session
     information file created by an older version).
 
- * An external wordlist (is currently compiled into the application itself)
-
+* An external wordlist (is currently compiled into the application itself)
 
 <!-- References -->
 
@@ -277,5 +258,3 @@ or constructive critisism are welcome.
   [150]: http://pmortensen.eu/world/EditOverflow1.html
 
   [201]: https://github.com/PeterMortensen/Edit_Overflow/issues/1
-
-
