@@ -834,6 +834,7 @@ namespace OverflowHelper.core
             correctionAdd("sq-lite", "SQLite");
             correctionAdd("sq-Lite", "SQLite");
             correctionAdd("SQLIte", "SQLite");
+            correctionAdd("SQLlite", "SQLite");
 
             correctionAdd("pgsql", "PostgreSQL");
             correctionAdd("Postgre", "PostgreSQL");
@@ -4388,8 +4389,6 @@ namespace OverflowHelper.core
             correctionAdd("Win 2K", "Windows 2000");
             correctionAdd("2000", "Windows 2000");
 
-            correctionAdd("ipa", "IPA");
-
             correctionAdd("dma", "DMA");
 
             correctionAdd("cms", "content management system (CMS)");
@@ -4942,10 +4941,6 @@ namespace OverflowHelper.core
             correctionAdd("Apache Web Server", "Apache HTTP Server");
             correctionAdd("Apache", "Apache HTTP Server");
             correctionAdd("appache", "Apache HTTP Server");
-
-            correctionAdd("doxygen", "Doxygen");
-
-            correctionAdd("oxigen", "oxygen");
 
             correctionAdd("graphViz", "Graphviz");
             correctionAdd("graphviz", "Graphviz");
@@ -5988,6 +5983,7 @@ namespace OverflowHelper.core
                                                     // time complains about this, so
                                                     // we have disabled it for now.
             correctionAdd("Like", "'like button'");
+            correctionAdd("like button", "'like button'");
 
             correctionAdd("Shield", "shield"); //As in Arduino...
             correctionAdd("SHEILD", "shield"); //As in Arduino...
@@ -6131,6 +6127,8 @@ namespace OverflowHelper.core
             correctionAdd("Tl;dr", "TLDR");
             correctionAdd("Tl;Dr", "TLDR");
             correctionAdd("Tldr", "TLDR");
+            correctionAdd("Tl:DR", "TLDR");
+            correctionAdd("tl:dr", "TLDR");
 
             correctionAdd("lcd", "LCD");
             correctionAdd("Lcd", "LCD");
@@ -8910,6 +8908,7 @@ namespace OverflowHelper.core
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
             correctionAdd("minium", "minimum");
+            correctionAdd("mininum", "minimum");
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
@@ -10156,6 +10155,7 @@ namespace OverflowHelper.core
             correctionAdd("webstrome", "WebStorm");
 
             correctionAdd("gonna", "is going to");
+            correctionAdd("gunna", "is going to");
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
@@ -10866,9 +10866,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cyrillic", "Cyrillic");
 
-            //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
-            correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
-
             correctionAdd("find-package", "Find-Package");
 
             correctionAdd("get-module", "Get-Module");
@@ -11117,6 +11114,7 @@ namespace OverflowHelper.core
 
             correctionAdd("duckduckgo", "DuckDuckGo");
             correctionAdd("duck duck go", "DuckDuckGo");
+            correctionAdd("Duckduckgo", "DuckDuckGo");
 
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
@@ -11771,8 +11769,6 @@ namespace OverflowHelper.core
             correctionAdd("catch-22", "Catch-22");
             correctionAdd("Catch 22", "Catch-22");
 
-            correctionAdd("msc", "MSc");
-
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
 
             correctionAdd("transifex", "Transifex");
@@ -12054,6 +12050,8 @@ namespace OverflowHelper.core
 
             correctionAdd("verical", "vertical");
             correctionAdd("verticle", "vertical");
+            correctionAdd("veritcal", "vertical");
+            correctionAdd("vert", "vertical");
 
             correctionAdd("you ll", "you'll");
 
@@ -12778,8 +12776,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ocurr", "occur");
 
-            correctionAdd("oxegen", "oxygen");
-
             correctionAdd("permanant", "permanent");
 
             correctionAdd("Physics", "physics");
@@ -12978,6 +12974,9 @@ namespace OverflowHelper.core
             correctionAdd("cherry mx", "Cherry MX");
 
             correctionAdd("gtk", "GTK");
+            correctionAdd("Gtk", "GTK");
+            correctionAdd("gtk+", "GTK");
+            correctionAdd("Gtk+", "GTK");
 
             correctionAdd("Indigogogo", "Indiegogo");
             correctionAdd("indigogogo", "Indiegogo");
@@ -14171,6 +14170,8 @@ namespace OverflowHelper.core
             correctionAdd("Atmel studio", "Atmel Studio");
 
             correctionAdd("Micro Bit", "BBC Micro Bit");
+            correctionAdd("micro:bit", "BBC Micro Bit");
+            correctionAdd("BBC micro:bit", "BBC Micro Bit");
 
             correctionAdd("bbs", "BBS");
 
@@ -14302,10 +14303,6 @@ namespace OverflowHelper.core
             correctionAdd("bobs your uncle", "Bob's your uncle");
             correctionAdd("B's ur uncle", "Bob's your uncle");
 
-            correctionAdd("Msc", "Master of Science");
-            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
-                                                        // currently don't allow it...
-
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
             correctionAdd("Yun", "Arduino Yún");
@@ -14409,6 +14406,7 @@ namespace OverflowHelper.core
             correctionAdd("WHOAMI", "whoami");
 
             correctionAdd("ALT", "Alt");
+            correctionAdd("alt", "Alt");
 
             correctionAdd("atlassian", "Atlassian");
 
@@ -14499,6 +14497,7 @@ namespace OverflowHelper.core
             correctionAdd("shockwave", "shock wave");
 
             correctionAdd("some how", "somehow");
+            correctionAdd("sumhow", "somehow");
 
             correctionAdd("stricktly", "strictly");
 
@@ -14588,6 +14587,7 @@ namespace OverflowHelper.core
             correctionAdd("gitkraken", "GitKraken");
 
             correctionAdd("NYT", "The New York Times");
+            correctionAdd("NYT-", "The New York Times");
 
             correctionAdd("asociated", "associated");
 
@@ -15486,17 +15486,13 @@ namespace OverflowHelper.core
             correctionAdd("king's Indian", "King's Indian Defence");
 
             correctionAdd("sicilian defence", "Sicilian Defence"); // Chess
+            correctionAdd("nidjorf chess", "Sicilian Defence"); // Chess
 
             correctionAdd("the dutch", "Dutch Defence"); // Chess
 
             correctionAdd("queens gabit declined", "Queen's Gambit Declined"); // Chess
             correctionAdd("queens gambit declined", "Queen's Gambit Declined"); // Chess
             correctionAdd("Queen's Gambit Decline", "Queen's Gambit Declined"); // Chess
-
-            correctionAdd("evans gambit declined", "Evans Gambit Declined"); // Chess
-
-            correctionAdd("evans gambit", "Evans Gambit"); // Chess
-            correctionAdd("evan's gambit", "Evans Gambit"); // Chess
 
             correctionAdd("Louis Lopez", "Ruy Lopez"); // Chess
             correctionAdd("lopez", "Ruy Lopez"); // Chess
@@ -15529,6 +15525,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Grishchuk", "Alexander Grischuk"); // Chess
             correctionAdd("alexander grishchuk", "Alexander Grischuk"); // Chess
+            correctionAdd("Grisjuk", "Alexander Grischuk"); // Chess
 
             correctionAdd("Alpha Zero", "AlphaZero"); // Chess
             correctionAdd("Alpha zero", "AlphaZero"); // Chess
@@ -15537,6 +15534,7 @@ namespace OverflowHelper.core
             correctionAdd("the frence defence", "French Defence"); // Chess
 
             correctionAdd("Slav defence", "Slav Defense"); // Chess
+            correctionAdd("slav defence", "Slav Defense"); // Chess
 
             correctionAdd("Time Control", "time control"); // Chess
 
@@ -15549,6 +15547,27 @@ namespace OverflowHelper.core
             correctionAdd("double Fianchetto", "double fianchetto");// Chess
 
             correctionAdd("Fianchetto", "fianchetto");// Chess
+
+            correctionAdd("Petrov", "Petrov's Defence");
+
+            correctionAdd("evans gambit declined", "Evans Gambit Declined"); // Chess
+
+            correctionAdd("evans gambit", "Evans Gambit"); // Chess
+            correctionAdd("evan's gambit", "Evans Gambit"); // Chess
+            correctionAdd("evans", "Evans Gambit"); // Chess
+            correctionAdd("evins", "Evans Gambit"); // Chess
+            correctionAdd("evens gambit", "Evans Gambit"); // Chess
+
+            correctionAdd("agadmator", "Antonio Radi");
+            correctionAdd("Antonio", "Antonio Radi");
+            correctionAdd("Agadmator", "Antonio Radi");
+
+            correctionAdd("piano", "Giuoco Piano");
+
+            correctionAdd("grand master", "Grandmaster");
+            correctionAdd("grandmaster", "Grandmaster");
+
+            correctionAdd("Italian game", "Italian Game");
 
 
 
@@ -15702,6 +15721,49 @@ namespace OverflowHelper.core
 
             correctionAdd("grumfeld", "Grünfeld Defence");
 
+            correctionAdd("286", "Intel 80286");
+
+            correctionAdd("386", "Intel 80386");
+
+            correctionAdd("geneally", "generally");
+
+            correctionAdd("Present Perfect", "present perfect");
+
+            correctionAdd("pajamas", "pyjamas");
+            
+            correctionAdd("gis", "GIS");
+
+            correctionAdd("munin", "Munin");
+
+            correctionAdd("PostGis", "PostGIS");
+
+            correctionAdd("swiss army knife", "Swiss Army knife");
+
+            correctionAdd("aluminum", "aluminium");
+
+            correctionAdd("msc", "Master of Science");
+            correctionAdd("Msc", "Master of Science");
+            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
+                                                        // currently don't allow it...
+            correctionAdd("MSc", "Master of Science");
+
+            correctionAdd("doxygen", "Doxygen");
+
+            //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
+            correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
+
+            correctionAdd("oxigen", "oxygen");
+            correctionAdd("oxegen", "oxygen");
+
+            correctionAdd("alcohol", "ethanol");
+            correctionAdd("ethyl alcohol", "ethanol");
+            correctionAdd("Ethyl alcohol", "ethanol");
+            correctionAdd("Ethanol", "ethanol");
+
+            correctionAdd("Isopropyl alcohol", "isopropyl alcohol");
+            correctionAdd("IPA", "isopropyl alcohol");
+
+
 
             // Start of coronavirus part...
 
@@ -15763,7 +15825,6 @@ namespace OverflowHelper.core
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
-
 
 
 
@@ -16926,8 +16987,6 @@ namespace OverflowHelper.core
 
             URL_Add("Windows 2000", "https://en.wikipedia.org/wiki/Windows_2000");
 
-            URL_Add("IPA", "https://en.wikipedia.org/wiki/.ipa_%28file_extension%29");
-
             URL_Add("DMA", "https://en.wikipedia.org/wiki/Direct_memory_access");
 
             URL_Add("content management system (CMS)", "https://en.wikipedia.org/wiki/Content_management_system");
@@ -17109,8 +17168,6 @@ namespace OverflowHelper.core
             URL_Add("Java Web Start", "https://en.wikipedia.org/wiki/Java_Web_Start");
 
             URL_Add("Apache HTTP Server", "https://en.wikipedia.org/wiki/Apache_HTTP_Server");
-
-            URL_Add("Doxygen", "https://en.wikipedia.org/wiki/Doxygen");
 
             URL_Add("Graphviz", "https://en.wikipedia.org/wiki/Graphviz");
 
@@ -19615,8 +19672,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cyrillic", "https://en.wiktionary.org/wiki/Cyrillic#Adjective");
 
-            URL_Add("Eclipse&nbsp;v4.7 (Oxygen)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
-
             URL_Add("Find-Package", "https://docs.microsoft.com/en-us/powershell/module/PackageManagement/Find-Package");
 
             URL_Add("Get-Module", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-Module");
@@ -20286,8 +20341,6 @@ namespace OverflowHelper.core
             URL_Add("truly", "https://en.wiktionary.org/wiki/truly#Adverb");
 
             URL_Add("Catch-22", "https://en.wiktionary.org/wiki/Catch-22#Noun");
-
-            URL_Add("MSc", "https://en.wiktionary.org/wiki/MSc#Noun");
 
             URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspbian#Version_history");
 
@@ -21092,8 +21145,6 @@ namespace OverflowHelper.core
             URL_Add("nuisance", "https://en.wiktionary.org/wiki/nuisance#Noun");
 
             URL_Add("occur", "https://en.wiktionary.org/wiki/occur#Verb");
-
-            URL_Add("oxygen", "https://en.wikipedia.org/wiki/Oxygen");
 
             URL_Add("permanent", "https://en.wiktionary.org/wiki/permanent#Adjective");
 
@@ -22336,13 +22387,11 @@ namespace OverflowHelper.core
 
             URL_Add("Ins", "https://en.wikipedia.org/wiki/Insert_key");
 
-            URL_Add("Master of Science", "https://en.wikipedia.org/wiki/Master_of_Science");
-
             URL_Add("RTS", "https://en.wikipedia.org/wiki/Flow_control_(data)#Hardware_flow_control");
 
             URL_Add("accessing", "https://en.wiktionary.org/wiki/access#Verb");
 
-            URL_Add("acquisition", "https://en.wiktionary.org/wiki/euphemism#Noun");
+            URL_Add("acquisition", "https://en.wiktionary.org/wiki/acquisition#Noun");
 
             URL_Add("again", "https://en.wiktionary.org/wiki/again#Adverb");
 
@@ -23581,6 +23630,49 @@ namespace OverflowHelper.core
             URL_Add("yen", "https://en.wiktionary.org/wiki/yen#Noun");
 
             URL_Add("Grünfeld Defence", "https://en.wikipedia.org/wiki/Gr%C3%BCnfeld_Defence");
+
+            URL_Add("Intel 80286", "https://en.wikipedia.org/wiki/Intel_80286");
+
+            URL_Add("Intel 80386", "https://en.wikipedia.org/wiki/Intel_80386");
+
+            URL_Add("Petrov's Defence", "https://en.wikipedia.org/wiki/Petrov's_Defence");
+
+            URL_Add("generally", "https://en.wiktionary.org/wiki/generally#Adverb");
+
+            URL_Add("present perfect", "https://en.wiktionary.org/wiki/present_perfect#Noun");
+
+            URL_Add("pyjamas", "https://en.wiktionary.org/wiki/pyjamas#Noun");
+
+            URL_Add("GIS", "https://en.wikipedia.org/wiki/Geographic_information_system");
+
+            URL_Add("isopropyl alcohol", "https://en.wikipedia.org/wiki/Isopropyl_alcohol");
+
+            URL_Add("Munin", "https://en.wikipedia.org/wiki/Munin_(software)");
+
+            URL_Add("PostGIS", "https://en.wikipedia.org/wiki/PostGIS");
+
+            URL_Add("Swiss Army knife", "https://en.wiktionary.org/wiki/Swiss_Army_knife#Noun");
+
+            URL_Add("aluminium", "https://en.wiktionary.org/wiki/aluminium#Noun");
+
+            URL_Add("ethanol", "https://en.wikipedia.org/wiki/Ethanol");
+
+            URL_Add("Master of Science", "https://en.wikipedia.org/wiki/Master_of_Science");
+
+            URL_Add("Doxygen", "https://en.wikipedia.org/wiki/Doxygen");
+
+            URL_Add("Eclipse&nbsp;v4.7 (Oxygen)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+
+            URL_Add("oxygen", "https://en.wikipedia.org/wiki/Oxygen");
+
+            URL_Add("Antonio Radi", "https://en.wikipedia.org/wiki/Antonio_Radi%C4%87");
+
+            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
+
+            URL_Add("Grandmaster", "https://en.wikipedia.org/wiki/Grandmaster_(chess)");
+
+            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
+
 
 
 
