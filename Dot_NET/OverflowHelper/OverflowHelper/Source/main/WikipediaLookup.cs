@@ -3689,6 +3689,7 @@ namespace OverflowHelper.core
             correctionAdd("repoistory", "repository");
             correctionAdd("repositorie", "repository");
             correctionAdd("repertory", "repository");
+            correctionAdd("reposiory", "repository");
 
             correctionAdd("wmd", "WMD");
 
@@ -6039,6 +6040,7 @@ namespace OverflowHelper.core
             correctionAdd("CRTL", "Ctrl");
             correctionAdd("ctrl", "Ctrl");
             correctionAdd("CNTRL", "Ctrl");
+            correctionAdd("ctl", "Ctrl");
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
@@ -10147,6 +10149,7 @@ namespace OverflowHelper.core
             correctionAdd("VSCODE", "Visual Studio Code");
             correctionAdd("Visual Code", "Visual Studio Code");
             correctionAdd("vsc", "Visual Studio Code");
+            correctionAdd("VS CODE", "Visual Studio Code");
 
             correctionAdd("WebStrom", "WebStorm");
             correctionAdd("Webstorm", "WebStorm");
@@ -10740,6 +10743,8 @@ namespace OverflowHelper.core
 
             correctionAdd("boolean", "Boolean");
             correctionAdd("bolean", "Boolean");
+            correctionAdd("bool", "Boolean");
+            correctionAdd("Bool", "Boolean");
 
             correctionAdd("crm", "CRM");
 
@@ -15532,6 +15537,7 @@ namespace OverflowHelper.core
             correctionAdd("alpha zero", "AlphaZero"); // Chess
 
             correctionAdd("the frence defence", "French Defence"); // Chess
+            correctionAdd("the french", "French Defence"); // Chess
 
             correctionAdd("Slav defence", "Slav Defense"); // Chess
             correctionAdd("slav defence", "Slav Defense"); // Chess
@@ -15549,6 +15555,7 @@ namespace OverflowHelper.core
             correctionAdd("Fianchetto", "fianchetto");// Chess
 
             correctionAdd("Petrov", "Petrov's Defence");
+            correctionAdd("petrov", "Petrov's Defence");
 
             correctionAdd("evans gambit declined", "Evans Gambit Declined"); // Chess
 
@@ -15558,20 +15565,35 @@ namespace OverflowHelper.core
             correctionAdd("evins", "Evans Gambit"); // Chess
             correctionAdd("evens gambit", "Evans Gambit"); // Chess
 
-            correctionAdd("agadmator", "Antonio Radi");
-            correctionAdd("Antonio", "Antonio Radi");
-            correctionAdd("Agadmator", "Antonio Radi");
+            correctionAdd("agadmator", "Antonio Radić"); // Chess
+            correctionAdd("Agadmator", "Antonio Radić"); // Chess
+            correctionAdd("antonio", "Antonio Radić"); // Chess
+            correctionAdd("Antonio", "Antonio Radić"); // Chess
+            correctionAdd("Antonio Radic", "Antonio Radić"); // Chess
 
-            correctionAdd("piano", "Giuoco Piano");
+            correctionAdd("piano", "Giuoco Piano"); // Chess
 
-            correctionAdd("grand master", "Grandmaster");
-            correctionAdd("grandmaster", "Grandmaster");
+            correctionAdd("grand master", "Grandmaster"); // Chess
+            correctionAdd("grandmaster", "Grandmaster"); // Chess
 
-            correctionAdd("Italian game", "Italian Game");
+            correctionAdd("Italian game", "Italian Game"); // Chess
+
+            correctionAdd("bongcloud", "Bong-Cloud opening"); // Chess
+            correctionAdd("bong cloud", "Bong-Cloud opening"); // Chess
+            correctionAdd("BONG CLOUD", "Bong-Cloud opening"); // Chess
+
+            correctionAdd("catalan", "Catalan Opening"); // Chess
+
+            correctionAdd("Magician of Riga", "Mikhail Tal"); // Chess
+            correctionAdd("Tal", "Mikhail Tal"); // Chess
+            correctionAdd("The magician from Riga", "Mikhail Tal"); // Chess
+            correctionAdd("magician of Riga", "Mikhail Tal"); // Chess
+            correctionAdd("magician of riga", "Mikhail Tal"); // Chess
+
+            correctionAdd("morphy", "Paul Morphy"); // Chess
+            correctionAdd("mophy", "Paul Morphy"); // Chess
 
 
-
-            correctionAdd("italian", "Italian");
 
             correctionAdd("karnataka", "Karnataka");
 
@@ -15602,6 +15624,8 @@ namespace OverflowHelper.core
             correctionAdd("neese", "niece");
 
             correctionAdd("Strcpy", "strcpy");
+
+            correctionAdd("italian", "Italian");
 
             correctionAdd("thoughout", "throughout");
 
@@ -15730,7 +15754,7 @@ namespace OverflowHelper.core
             correctionAdd("Present Perfect", "present perfect");
 
             correctionAdd("pajamas", "pyjamas");
-            
+
             correctionAdd("gis", "GIS");
 
             correctionAdd("munin", "Munin");
@@ -15763,6 +15787,29 @@ namespace OverflowHelper.core
             correctionAdd("Isopropyl alcohol", "isopropyl alcohol");
             correctionAdd("IPA", "isopropyl alcohol");
 
+            correctionAdd("FAANG", "FANG");
+
+            correctionAdd("Indieweb", "IndieWeb");
+
+            correctionAdd("circutry", "circuitry");
+
+            correctionAdd("Hodl", "hodl");
+
+            correctionAdd("refacotr", "refactor");
+
+            correctionAdd("seq", "sequence");
+            correctionAdd("seqeuence", "sequence");
+
+            correctionAdd("DYNDNS", "DynDNS");
+
+            correctionAdd("ivy league", "Ivy League");
+
+            correctionAdd("Quippy", "Quibi");
+            correctionAdd("Quibby", "Quibi");
+
+            correctionAdd("disgraful", "disgraceful");
+
+            correctionAdd("masters", "master's degree");
 
 
             // Start of coronavirus part...
@@ -15808,6 +15855,7 @@ namespace OverflowHelper.core
             correctionAdd("covid-19", "COVID-19");
             correctionAdd("CoVid-19", "COVID-19");
             correctionAdd("covid", "COVID-19");
+            correctionAdd("COVD-19", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -23665,7 +23713,7 @@ namespace OverflowHelper.core
 
             URL_Add("oxygen", "https://en.wikipedia.org/wiki/Oxygen");
 
-            URL_Add("Antonio Radi", "https://en.wikipedia.org/wiki/Antonio_Radi%C4%87");
+            URL_Add("Antonio Radić", "https://en.wikipedia.org/wiki/Antonio_Radi%C4%87");
 
             URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
 
@@ -23673,7 +23721,35 @@ namespace OverflowHelper.core
 
             URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
 
+            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
 
+            URL_Add("FANG", "https://en.wiktionary.org/wiki/FANG#Noun");
+
+            URL_Add("IndieWeb", "https://en.wikipedia.org/wiki/IndieWeb");
+
+            URL_Add("circuitry", "https://en.wiktionary.org/wiki/circuitry#Noun");
+
+            URL_Add("hodl", "https://en.wikipedia.org/wiki/Hodl");
+
+            URL_Add("refactor", "https://en.wiktionary.org/wiki/refactor#Verb");
+
+            URL_Add("sequence", "https://en.wiktionary.org/wiki/sequence#Noun");
+
+            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
+
+            URL_Add("DynDNS", "https://en.wikipedia.org/wiki/Dyn_(company)#History");
+
+            URL_Add("Ivy League", "https://en.wiktionary.org/wiki/Ivy_League#Proper_noun");
+
+            URL_Add("Mikhail Tal", "https://en.wikipedia.org/wiki/Mikhail_Tal");
+
+            URL_Add("Paul Morphy", "https://en.wikipedia.org/wiki/Paul_Morphy");
+
+            URL_Add("Quibi", "https://en.wikipedia.org/wiki/Quibi");
+
+            URL_Add("disgraceful", "https://en.wiktionary.org/wiki/disgraceful#Adjective");
+
+            URL_Add("master's degree", "https://en.wiktionary.org/wiki/master%27s_degree#Noun");
 
 
             //========================================================
