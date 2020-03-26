@@ -106,23 +106,26 @@
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
 
-            // Prone to SQL injection attack (though the table is
-            // effectively readonly - we overwrite it on a
-            // regular basis)!
             $SQLprefix =
               " SELECT incorrectTerm, correctTerm, URL " .
               " FROM EditOverflow" .
               " WHERE incorrectTerm = "
               ;
-            $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
-
-            # For debugging
-            #echo "<p>CustomerSQL: xxx" . $CustomerSQL . "xxx </p>\n";
 
             $pdo = connectToDatabase();
 
             if (0)
             {
+                //Obsolete - delete at any time.
+            
+                // Prone to SQL injection attack (though the table 
+                // is effectively readonly - we overwrite it on a
+                // regular basis)!
+                $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
+
+                # For debugging
+                #echo "<p>CustomerSQL: xxx" . $CustomerSQL . "xxx </p>\n";
+
                 $statement = $pdo->query($CustomerSQL);
 
                 # For debugging

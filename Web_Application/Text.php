@@ -132,7 +132,9 @@
 
             function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
             {
-                $lines = explode("\n", $aText);
+                $lines = explode("\n", $aText); #If we use "\r\n" in
+                                                #findCommonLeadingSpaces(),
+                                                #why not here???
 
                 # $toRemove = " " x $aLeadingSpaces;
                 $toRemove = str_repeat (" ", $aLeadingSpaces);
