@@ -98,7 +98,7 @@
             # the start HTML page).
             #
             # To be eliminated
-            $editSummary     = get_postParameter('editSummary')     ?? '';
+            $editSummary = get_postParameter('editSummary') ?? '';
             #
             # The structured way (that we actually use now)
             $URLlist_encoded = get_postParameter('URLlist_encoded') ?? '';
@@ -169,17 +169,17 @@
 
             if ($correctTerm)
             {
-                # Add to our built-in up edit summary string (using the
-                # carried-over state and our new lookup)
+                # Add to our built-up edit summary string (using 
+                # the carried-over state and our new lookup)
 
-                # Later: more sophisticated, parsing $editSummary_encoded, etc.
+                #Later: more sophisticated, parsing $editSummary_encoded, etc.
                 #To be eliminated
                 $editSummary     = $editSummary . "<" . $URL . "> "; #Error: we get a leading space
                                                                      #       for the last item
 
                 # The structured way (that we actually use now)
-                $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____" for the
-                                                                     #      first item
+                $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____" 
+                                                                     #      for the first item
 
                 $linkInlineMarkdown = "[$correctTerm]($URL)";
                 # $linkInlineMarkdown = "";
@@ -212,18 +212,17 @@
 
             # Wrap each item in "<>" (URL encoded)
             $items = substr_replace($items, '&lt;', 0, 0);
-            # $items = substr_replace($items, 'YYY&gt;ZZZ', 0, strlen($items));
             $items = preg_replace('/$/', '&gt;', $items);
             $elements = count($items);
 
 
-            # It is simple for Stack Overflow - just separate
-            # each item by a space
+            # It is simple for the current Stack Overflow edit 
+            # summary style - just separate each item by a space
             $URLlist = implode(' ', $items);
 
 
             # For normal edit summary, outside Stack Overflow -
-            # with Oxford comma!
+            # with the Oxford comma!
             #
             $URLlist2 =
                 join(', and ',

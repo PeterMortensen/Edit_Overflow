@@ -39,7 +39,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a13 2020-03-26T211327Z+0";
+        return "Edit Overflow v. 1.1.49a13 2020-03-26T234024Z+0";
     }
 
 
@@ -85,7 +85,7 @@
 
 
         #Possible optimisation: As in the common configuration we don't
-        #                       actually use the POST-only version we
+        #                       actually use the POST-only version. We
         #                       could somehow leave it out (unnecessary
         #                       operation).
         #
@@ -106,9 +106,7 @@
         #$toReturn = $supportOnlyPOST;
         $toReturn = $supportGETandPOST;
 
-
         #Do any check for undefined, etc.???
-
 
         return $toReturn;
     }
@@ -168,8 +166,8 @@
         #global MAINTEXT;
         global $formDataSizeDiff;
 
-        # When we open the form (URL with ".php") there isn't
-        # any form data.
+        # When we open the form (URL with ".php") 
+        # there isn't any form data.
         if (
             array_key_exists(LOOKUPTERM, $_REQUEST) ||  # Main - lookup
             array_key_exists(MAINTEXT,   $_REQUEST)     # Textstuff page
@@ -224,7 +222,6 @@
         # Is there a difference between HTML links ("href") and form field
         # values ("value")?? Does one need percent encoding and the other
         # " character entity reference encoding ("&quot;")?
-        #
         #
         #$encodedContent = str_replace('"', '&quot;', $aRawContent);
         $encodedContent = str_replace('"', '%22', $aRawContent);
