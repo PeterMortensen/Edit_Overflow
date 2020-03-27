@@ -181,6 +181,18 @@
                 }
             }
 
+            # Helper function for testing
+            #
+            # Why can't we just substitute the call of
+            # removeTrailingSpacesAndTABs()?
+            #
+            # Answer: because then we would have to specify the input
+            #         string two times on the client side (or use a
+            #         variable, making it two statements instead of
+            #         just a single function call) instead of just
+            #         the length difference (somewhat redundant) -
+            #         though it would make for a more accurate text.
+            #
             function test_removeTrailingSpacesAndTABs($ID, $aSomeText, $aLengthDiff)
             {
                 [$touchedText] = removeTrailingSpacesAndTABs($aSomeText);
@@ -190,20 +202,46 @@
                                   $aLengthDiff);
             }
 
+            # Helper function for testing
+            #
+            #For now, it is a utility function used for testing, but it
+            #would be nice to have a single functions exposed to the
+            #client code. E.g., could we return the output string
+            #and the number as an array?
+            #
+            function test_removeCommonLeadingSpaces($ID, $aSomeText, $aLengthDiff)
+            {
+                #Later: refactor these two calls (we also have
+                #       it in the normal client code)
+                $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
+                $someText = removeCommonLeadingSpaces($aSomeText, $leadingSpaceToRemove);
+
+                assert_strLengths($ID,
+                                  $aSomeText,
+                                  $someText,
+                                  $aLengthDiff);
+            }
+
+            function removeCommonLeadingSpaces2($aText)
+            {
+                $leadingSpaceToRemove = findCommonLeadingSpaces($aText);
+                return removeCommonLeadingSpaces($aText, $leadingSpaceToRemove);
+            }
+
+
             test_removeTrailingSpacesAndTABs(1, "XX "           ,  1);
             test_removeTrailingSpacesAndTABs(2, "X XX  XXX X\t ",  2);
             test_removeTrailingSpacesAndTABs(3, "X XX  XXX X \t",  2);
             test_removeTrailingSpacesAndTABs(4, "X XX  XXX X"   ,  0);
             test_removeTrailingSpacesAndTABs(5, "X XX \t XXX X" , -3);
 
-            [$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
+            #[$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
             #echo "<p>someMessage: $someMessage</p>";
 
+
+            test_removeCommonLeadingSpaces(6, "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
+
             # -------------------------------------------------------------
-
-
-            #Delete at any time
-            #const MAINTEXT = 'someText';
 
 
             $message = "";
@@ -260,9 +298,6 @@
                 ##                           ?? 'Some text </textarea>');
                 #$someText = htmlentities(get_postParameter('someText');
 
-
-                #Remove at any time
-                #$lengthBefore = strlen($someText);
 
                 $actionStr = get_postParameter('action');
 
@@ -336,6 +371,12 @@
                     case "Remove common leading space":
 
                         #echo '<h3>Lines...</h3>' . "\n";
+
+                        # Note: We have two functions because we need to first
+                        #       scan all lines before we know how many spaces
+                        #       to remove from each line (thus, it is not
+                        #       just for statistics - we actually need it
+                        #       for correct operation).
 
                         $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
                         $someText = removeCommonLeadingSpaces($someText, $leadingSpaceToRemove);
