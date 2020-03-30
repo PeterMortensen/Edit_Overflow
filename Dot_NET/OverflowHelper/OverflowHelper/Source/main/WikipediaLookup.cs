@@ -7245,7 +7245,18 @@ namespace OverflowHelper.core
 
             correctionAdd("requites", "requisites"); //Misspelling.
 
-            correctionAdd("unity", "Unity Application Block");
+            // "Unity" is an overloaded term:
+            //
+            //  1. .NET library ("Unity Application Block")
+            //
+            //  2. The C#-based game engine (confusingly sometimes "Unity 3D"), 
+            //       <https://en.wikipedia.org/wiki/Unity_(game_engine)>
+            //     
+            //  3. Ubuntu's Unity (user interface)
+            //
+            //       <https://en.wikipedia.org/wiki/Unity_(user_interface)>
+            //
+            correctionAdd("unity", "Unity Application Block"); 
             correctionAdd("Unity", "Unity Application Block");
             correctionAdd("Unity Framework", "Unity Application Block");
             correctionAdd("Unity framework", "Unity Application Block");
