@@ -3705,6 +3705,7 @@ namespace OverflowHelper.core
             correctionAdd("Ide", "IDE");
             correctionAdd("Integrated Development Environment", "IDE");
             correctionAdd("I.D.E", "IDE");
+            correctionAdd("YDE", "IDE");
 
             correctionAdd("concat", "concatenate"); //Expansion.
             correctionAdd("cancat", "concatenate");
@@ -5369,6 +5370,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Sketch", "sketch");
             correctionAdd("skectch", "sketch");
+            correctionAdd("skecth", "sketch");
+            correctionAdd("skecht", "sketch");
 
             correctionAdd("POD", "plain old data structure");
             correctionAdd("pod", "plain old data structure");
@@ -7312,6 +7315,8 @@ namespace OverflowHelper.core
             correctionAdd("ubunty", "Ubuntu");
             correctionAdd("Ubunut", "Ubuntu");
             correctionAdd("ubunut", "Ubuntu");
+            correctionAdd("ubunbtu", "Ubuntu");
+            correctionAdd("Ubunbtu", "Ubuntu");
 
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
             correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -8558,6 +8563,8 @@ namespace OverflowHelper.core
             correctionAdd("Ouput", "output");
             correctionAdd("Output", "output");
             correctionAdd("out out", "output");
+            correctionAdd("outout", "output");
+            correctionAdd("outp", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -9561,6 +9568,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
+            correctionAdd("dessappear", "disappear");
 
             correctionAdd("heirarchy", "hierarchy");
             correctionAdd("heirarachy", "hierarchy");
@@ -9617,6 +9625,7 @@ namespace OverflowHelper.core
             correctionAdd("kOhm", "kilohm"); // Partially an expansion. The opposite is kΩ.
             correctionAdd("kiloohm", "kilohm");
             correctionAdd("kilo ohm", "kilohm");
+            correctionAdd("K ohm", "kilohm");
 
             correctionAdd("Mohm", "megohm");
             correctionAdd("megaohm", "megohm");
@@ -11217,6 +11226,7 @@ namespace OverflowHelper.core
 
             correctionAdd("seperately", "separately");
             correctionAdd("seperatly", "separately");
+            correctionAdd("seprately", "separately");
 
             correctionAdd("terriable", "terrible");
 
@@ -11782,6 +11792,7 @@ namespace OverflowHelper.core
             correctionAdd("additionaly", "additionally");
             correctionAdd("Additionnally", "additionally");
             correctionAdd("additionnally", "additionally");
+            correctionAdd("additonally", "additionally");
 
             correctionAdd("bare bones", "bare-bones");
 
@@ -12131,6 +12142,8 @@ namespace OverflowHelper.core
             correctionAdd("wales", "Wales");
 
             correctionAdd("xubuntu", "Xubuntu");
+            correctionAdd("xubunbtu", "Xubuntu");
+            correctionAdd("Xubunbtu", "Xubuntu");
 
             correctionAdd("adress", "address");
             correctionAdd("addres", "address");
@@ -12420,6 +12433,7 @@ namespace OverflowHelper.core
             correctionAdd("receeding", "receding");
 
             correctionAdd("stoped", "stopped");
+            correctionAdd("stooped", "stopped");
 
             correctionAdd("stratigic", "strategic");
 
@@ -12640,6 +12654,7 @@ namespace OverflowHelper.core
             correctionAdd("seperating", "separating");
 
             correctionAdd("CloudFlare", "Cloudflare");
+            correctionAdd("cloudflare", "Cloudflare");
 
             correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
@@ -12899,7 +12914,10 @@ namespace OverflowHelper.core
             correctionAdd("new-module", "New-Module");
 
             correctionAdd("ohm's law", "Ohm's law");
-
+            correctionAdd("Ohm law", "Ohm's law");
+            correctionAdd("ohm law", "Ohm's law");
+            correctionAdd("Ohm’s Law", "Ohm's law");
+            
             correctionAdd("php composer", "PHP Composer");
             correctionAdd("Composer", "PHP Composer");
             correctionAdd("composer", "PHP Composer");
@@ -13337,6 +13355,7 @@ namespace OverflowHelper.core
             correctionAdd("cmder", "Cmder");
 
             correctionAdd("webdav", "WebDAV");
+            correctionAdd("WebDav", "WebDAV");
 
             correctionAdd("cleanup", "clean up");
 
@@ -15492,6 +15511,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sicilian defence", "Sicilian Defence"); // Chess
             correctionAdd("nidjorf chess", "Sicilian Defence"); // Chess
+            correctionAdd("sicilian", "Sicilian Defence"); // Chess
 
             correctionAdd("the dutch", "Dutch Defence"); // Chess
 
@@ -15531,6 +15551,7 @@ namespace OverflowHelper.core
             correctionAdd("Grishchuk", "Alexander Grischuk"); // Chess
             correctionAdd("alexander grishchuk", "Alexander Grischuk"); // Chess
             correctionAdd("Grisjuk", "Alexander Grischuk"); // Chess
+            correctionAdd("grisjuk", "Alexander Grischuk"); // Chess
 
             correctionAdd("Alpha Zero", "AlphaZero"); // Chess
             correctionAdd("Alpha zero", "AlphaZero"); // Chess
@@ -15811,6 +15832,37 @@ namespace OverflowHelper.core
 
             correctionAdd("masters", "master's degree");
 
+            correctionAdd("Lilypad", "LilyPad");
+
+            correctionAdd("synaptic", "Synaptic");
+
+            correctionAdd("dedsired", "desired");
+
+            correctionAdd("editting", "editing");
+            correctionAdd("EDITING", "editing");
+            correctionAdd("EDITTING", "editing");
+
+            correctionAdd("grown up", "grownup");
+
+            correctionAdd("icsp", "in-circuit serial programming");
+            correctionAdd("ICSP", "in-circuit serial programming");
+
+            correctionAdd("normaly", "normally");
+
+            correctionAdd("noticably", "noticeably");
+
+            correctionAdd("re-install", "reinstall");
+
+            correctionAdd("bindding", "binding");
+
+            correctionAdd("keybinding", "key binding");
+            correctionAdd("keybindding", "key binding");
+
+            correctionAdd("tpye", "type");
+
+            correctionAdd("van-der-Waals force", "van der Waals force");
+            correctionAdd("Van der Waals force", "van der Waals force");
+
 
             // Start of coronavirus part...
 
@@ -15873,7 +15925,6 @@ namespace OverflowHelper.core
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
-
 
 
 
@@ -22543,7 +22594,7 @@ namespace OverflowHelper.core
 
             URL_Add("Brian Kernighan", "https://en.wikipedia.org/wiki/Brian_Kernighan");
 
-            URL_Add("Cinnamon", "https://en.wikipedia.org/wiki/Cinnamon");
+            URL_Add("Cinnamon", "https://en.wikipedia.org/wiki/Cinnamon_(desktop_environment)");
 
             URL_Add("Euclidean", "https://en.wiktionary.org/wiki/Euclidean#Adjective");
 
@@ -23750,6 +23801,34 @@ namespace OverflowHelper.core
             URL_Add("disgraceful", "https://en.wiktionary.org/wiki/disgraceful#Adjective");
 
             URL_Add("master's degree", "https://en.wiktionary.org/wiki/master%27s_degree#Noun");
+
+            URL_Add("LilyPad", "https://en.wikipedia.org/wiki/Arduino#Hardware");
+
+            URL_Add("Synaptic", "https://en.wikipedia.org/wiki/Synaptic_(software)");
+
+            URL_Add("binding", "https://en.wiktionary.org/wiki/binding#Noun");
+
+            URL_Add("desired", "https://en.wiktionary.org/wiki/desired#Adjective");
+
+            URL_Add("editing", "https://en.wiktionary.org/wiki/edit#Verb");
+
+            URL_Add("grownup", "https://en.wiktionary.org/wiki/grownup#Noun");
+
+            URL_Add("in-circuit serial programming", "https://en.wikipedia.org/wiki/In-system_programming");
+
+            URL_Add("key binding", "https://en.wiktionary.org/wiki/key_binding#English");
+
+            URL_Add("normally", "https://en.wiktionary.org/wiki/normally#Adverb");
+
+            URL_Add("noticeably", "https://en.wiktionary.org/wiki/noticeably#Adverb");
+
+            URL_Add("reinstall", "https://en.wiktionary.org/wiki/reinstall#Verb");
+
+            URL_Add("type", "https://en.wiktionary.org/wiki/type#Verb");
+
+            URL_Add("van der Waals force", "https://en.wikipedia.org/wiki/Van_der_Waals_force");
+
+
 
 
             //========================================================
