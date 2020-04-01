@@ -2403,6 +2403,7 @@ namespace OverflowHelper.core
             correctionAdd("git-hub", "GitHub");
             correctionAdd("GiHub", "GitHub");
             correctionAdd("GiThub", "GitHub");
+            correctionAdd("GH", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -2923,6 +2924,7 @@ namespace OverflowHelper.core
 
             correctionAdd("GEdit", "gedit");
             correctionAdd("Gedit", "gedit");
+            correctionAdd("gEdit", "gedit");
 
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
@@ -10343,6 +10345,7 @@ namespace OverflowHelper.core
             correctionAdd("conda", "Conda");
 
             correctionAdd("jekyll", "Jekyll");
+            correctionAdd("Jerkyll", "Jekyll");
 
             correctionAdd("posability", "possibility");
             correctionAdd("possibilty", "possibility");
@@ -11310,6 +11313,7 @@ namespace OverflowHelper.core
             correctionAdd("write-error", "Write-Error");
 
             correctionAdd("directy", "directly");
+            correctionAdd("direcly", "directly");
 
             correctionAdd("dicovered", "discovered");
 
@@ -15525,6 +15529,7 @@ namespace OverflowHelper.core
             correctionAdd("sicilian", "Sicilian Defence"); // Chess
 
             correctionAdd("the dutch", "Dutch Defence"); // Chess
+            correctionAdd("The Dutch", "Dutch Defence"); // Chess
 
             correctionAdd("queens gabit declined", "Queen's Gambit Declined"); // Chess
             correctionAdd("queens gambit declined", "Queen's Gambit Declined"); // Chess
@@ -15596,6 +15601,8 @@ namespace OverflowHelper.core
             correctionAdd("evans", "Evans Gambit"); // Chess
             correctionAdd("evins", "Evans Gambit"); // Chess
             correctionAdd("evens gambit", "Evans Gambit"); // Chess
+            correctionAdd("Evan gambit", "Evans Gambit");
+            correctionAdd("EVANS Gambit", "Evans Gambit");
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -15604,6 +15611,7 @@ namespace OverflowHelper.core
             correctionAdd("Antonio Radic", "Antonio Radić"); // Chess
 
             correctionAdd("piano", "Giuoco Piano"); // Chess
+            correctionAdd("Piano", "Giuoco Piano"); // Chess
 
             correctionAdd("grand master", "Grandmaster"); // Chess
             correctionAdd("grandmaster", "Grandmaster"); // Chess
@@ -15873,6 +15881,23 @@ namespace OverflowHelper.core
 
             correctionAdd("van-der-Waals force", "van der Waals force");
             correctionAdd("Van der Waals force", "van der Waals force");
+
+            correctionAdd("cname", "CNAME");
+
+            correctionAdd("github-pages", "GitHub Pages");
+            correctionAdd("github pages", "GitHub Pages");
+
+            correctionAdd("klunky", "clunky");
+
+            correctionAdd("contant", "content");
+
+            correctionAdd("drammatically", "dramatically");
+
+            correctionAdd("lite", "light");
+            correctionAdd("ligth", "light");
+
+            correctionAdd("Umlaut", "umlaut");
+
 
 
             // Start of coronavirus part...
@@ -23839,6 +23864,19 @@ namespace OverflowHelper.core
 
             URL_Add("van der Waals force", "https://en.wikipedia.org/wiki/Van_der_Waals_force");
 
+            URL_Add("CNAME", "https://en.wikipedia.org/wiki/CNAME_record");
+
+            URL_Add("GitHub Pages", "https://en.wikipedia.org/wiki/GitHub#GitHub_Pages");
+
+            URL_Add("clunky", "https://en.wiktionary.org/wiki/clunky#Adjective");
+
+            URL_Add("content", "https://en.wiktionary.org/wiki/content#Noun");
+
+            URL_Add("dramatically", "https://en.wiktionary.org/wiki/dramatically#Adverb");
+
+            URL_Add("light", "https://en.wiktionary.org/wiki/light#Adjective");
+
+            URL_Add("umlaut", "https://en.wiktionary.org/wiki/umlaut#Noun");
 
 
 
