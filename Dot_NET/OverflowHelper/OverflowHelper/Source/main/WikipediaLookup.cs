@@ -7258,6 +7258,13 @@ namespace OverflowHelper.core
             //
             //       <https://en.wikipedia.org/wiki/Unity_(user_interface)>
             //
+            //     To add even more confusion, there is also "Unity 3D" 
+            //     (same name as the C# game engine sometimes go by).
+            //
+            //     See e.g. <https://askubuntu.com/questions/62001>,
+            //       "Am I using Unity or Unity 2D?" - "As of Ubuntu 12.10, 
+            //       Unity 2D is no longer developed and all systems use Unity 3D"
+            //
             correctionAdd("unity", "Unity Application Block"); 
             correctionAdd("Unity", "Unity Application Block");
             correctionAdd("Unity Framework", "Unity Application Block");
