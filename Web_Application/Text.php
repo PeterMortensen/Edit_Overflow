@@ -160,7 +160,58 @@
                     #echo '<p>New line: xxx' . $item2 . 'xxx </p>' . "\n";
                 }
                 return implode("\n", $newContent);
-            }
+            } #removeCommonLeadingSpaces()
+
+
+            function transformFor_YouTubeComments($aText)
+            {
+                $replacer = new StringReplacerWithRegex($aText);
+
+                # We strip the "www" in YouTube URLs. For some reason,
+                # in some cases, replacing the " DOT " back to "."
+                # and using it in a browser, result in a double "www"
+                # and thus fails to load properly.
+                # Example: www.www.youtube.com/watch?v=_pybvjmjLT0&lc=Ugw6kcW_X3ulHZugaLB4AaABAg
+                #
+                $replacer->transform('www\.(youtube\..*)', '$1');
+
+                # Convert time to YouTube format
+                $replacer->transform('(\d+)\s+secs',   '$1 ');
+                $replacer->transform('(\d+)\s+min\s+', '$1:');
+                $replacer->transform('(\d+)\s+h\s+',   '$1:');
+
+                # Convert URLs so they do not look like URLs...
+                # (otherwise, the entire comment will be
+                # automatically removed by YouTube).
+                $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
+                $replacer->transform('https:\/\/', ''         );
+                $replacer->transform('http:\/\/',  ''         );
+
+                # Reversals for some of the false positives
+                # in URL processing
+                $replacer->transform('E DOT g\.', 'E.g.');
+                $replacer->transform('e DOT g\.', 'e.g.');
+
+                # Convert email addresses like so... (at least to
+                # offer some protection (and avoiding objections
+                # to posting )).
+                #
+                # For now, just globally replace "@"
+                #
+                $replacer->transform('\@', ' AT ');
+
+                #This one does not seem to work...
+                # Convert "->" to a real arrow
+                #
+                # Note: For YouTube it can not be
+                #       the HTML entity, "&rarr;".
+                $replacer->transform('->', '→');
+
+                $someText = $replacer->currentString();
+
+                return $someText;
+            } #transformFor_YouTubeComments()
+
 
             # ----------------------- End of main functions ---------------------------
 
@@ -210,19 +261,31 @@
                                   $aLengthDiff);
             }
 
+
+            #Not used yet.
+            #function removeCommonLeadingSpaces2($aText)
+            #{
+            #    $leadingSpaceToRemove = findCommonLeadingSpaces($aText);
+            #    return removeCommonLeadingSpaces($aText, $leadingSpaceToRemove);
+            #}
+
+
             # Helper function for testing
             #
             #For now, it is a utility function used for testing, but
-            #it would be nice to have a single function exposed to
-            #the client code. E.g., could we return the output
-            #string and the number as an array?
+            #it would be nice to have a ***single*** function 
+            #exposed to the client code. E.g., could we 
+            #return the output string and the number 
+            #as an array? 
             #
             function test_removeCommonLeadingSpaces($ID, $aSomeText, $aLengthDiff)
             {
                 #Later: refactor these two calls (we also have
                 #       it in the normal client code)
                 $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
-                $someText = removeCommonLeadingSpaces($aSomeText, $leadingSpaceToRemove);
+
+                $someText = removeCommonLeadingSpaces(
+                              $aSomeText, $leadingSpaceToRemove);
 
                 assert_strLengths($ID,
                                   $aSomeText,
@@ -230,29 +293,40 @@
                                   $aLengthDiff);
             }
 
-            function removeCommonLeadingSpaces2($aText)
+
+            # Helper function for testing
+            function test_transformFor_YouTubeComments($ID, $aSomeText, $aLengthDiff)
             {
-                $leadingSpaceToRemove = findCommonLeadingSpaces($aText);
-                return removeCommonLeadingSpaces($aText, $leadingSpaceToRemove);
+                $touchedText = transformFor_YouTubeComments($aSomeText);
+                assert_strLengths($ID,
+                                  $aSomeText,
+                                  $touchedText,
+                                  $aLengthDiff);
             }
 
 
-            test_removeTrailingSpacesAndTABs(1, "XX "           ,  1);
-            test_removeTrailingSpacesAndTABs(2, "X XX  XXX X\t ",  2);
-            test_removeTrailingSpacesAndTABs(3, "X XX  XXX X \t",  2);
-            test_removeTrailingSpacesAndTABs(4, "X XX  XXX X"   ,  0);
-            test_removeTrailingSpacesAndTABs(5, "X XX \t XXX X" , -3);
+            test_removeTrailingSpacesAndTABs(1001, "XX "           ,  1);
+            test_removeTrailingSpacesAndTABs(1002, "X XX  XXX X\t ",  2);
+            test_removeTrailingSpacesAndTABs(1003, "X XX  XXX X \t",  2);
+            test_removeTrailingSpacesAndTABs(1004, "X XX  XXX X"   ,  0);
+            test_removeTrailingSpacesAndTABs(1005, "X XX \t XXX X" , -3);
 
             #[$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
             #echo "<p>someMessage: $someMessage</p>";
 
-            test_removeCommonLeadingSpaces(6, "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
+            test_removeCommonLeadingSpaces(1006, "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
 
             # Leading TABs
-            test_removeCommonLeadingSpaces(7, "\t  00 min 44 secs:  ABC\n\t  XYZ", 6);
+            test_removeCommonLeadingSpaces(1007, "\t  00 min 44 secs:  ABC\n\t  XYZ", 6);
+
+            # Removal of "www" for the encoded YouTube URLs
+            test_transformFor_YouTubeComments(
+              1008,
+              "     https://www.youtube.com/watch?v=_pybvjmjLT0\n        ",
+              8);
 
 
-            # -------------------------------------------------------------
+            # ----------------------------------------------------------------
 
 
             $message = "";
@@ -342,41 +416,7 @@
 
                     case "Transform for YouTube comments":
 
-                        $replacer = new StringReplacerWithRegex($someText);
-
-                        # Convert time to YouTube format
-                        $replacer->transform('(\d+)\s+secs',   '$1 ');
-                        $replacer->transform('(\d+)\s+min\s+', '$1:');
-                        $replacer->transform('(\d+)\s+h\s+',   '$1:');
-
-                        # Convert URLs so they do not look like URLs...
-                        # (otherwise, the entire comment will be
-                        # automatically removed by YouTube).
-                        $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
-                        $replacer->transform('https:\/\/', ''         );
-                        $replacer->transform('http:\/\/',  ''         );
-
-                        # Reversals for some of the false positives
-                        # in URL processing
-                        $replacer->transform('E DOT g\.', 'E.g.');
-                        $replacer->transform('e DOT g\.', 'e.g.');
-
-                        # Convert email addresses like so... (at least to
-                        # offer some protection (and avoiding objections
-                        # to posting )).
-                        #
-                        # For now, just globally replace "@"
-                        #
-                        $replacer->transform('\@', ' AT ');
-
-                        #This one does not seem to work...
-                        # Convert "->" to a real arrow
-                        #
-                        # Note: For YouTube it can not be
-                        #       the HTML entity, "&rarr;".
-                        $replacer->transform('->', '→');
-
-                        $someText = $replacer->currentString();
+                        $someText = transformFor_YouTubeComments($someText);
                         break;
 
                     case "Remove common leading space":
@@ -390,7 +430,9 @@
                         #       for correct operation).
 
                         $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
-                        $someText = removeCommonLeadingSpaces($someText, $leadingSpaceToRemove);
+
+                        $someText = removeCommonLeadingSpaces(
+                                       $someText, $leadingSpaceToRemove);
 
                         $message = "<p>Removed " . $leadingSpaceToRemove .
                                    " leading spaces from all lines...</p>\n";
