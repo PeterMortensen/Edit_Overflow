@@ -5512,7 +5512,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rss", "RSS");
 
-            correctionAdd("combo", "combination"); //combo is slang - <http://en.wiktionary.orgz/wiki/combo#Noun>.
+            correctionAdd("combo", "combination"); //combo is slang - <https://en.wiktionary.orgz/wiki/combo#Noun>.
             correctionAdd("comb", "combination");
 
             correctionAdd("IPV6", "IPv6");
@@ -7251,21 +7251,21 @@ namespace OverflowHelper.core
             //
             //  1. .NET library ("Unity Application Block")
             //
-            //  2. The C#-based game engine (confusingly sometimes "Unity 3D"), 
+            //  2. The C#-based game engine (confusingly sometimes "Unity 3D"),
             //       <https://en.wikipedia.org/wiki/Unity_(game_engine)>
-            //     
+            //
             //  3. Ubuntu's Unity (user interface)
             //
             //       <https://en.wikipedia.org/wiki/Unity_(user_interface)>
             //
-            //     To add even more confusion, there is also "Unity 3D" 
+            //     To add even more confusion, there is also "Unity 3D"
             //     (same name as the C# game engine sometimes go by).
             //
             //     See e.g. <https://askubuntu.com/questions/62001>,
-            //       "Am I using Unity or Unity 2D?" - "As of Ubuntu 12.10, 
+            //       "Am I using Unity or Unity 2D?" - "As of Ubuntu 12.10,
             //       Unity 2D is no longer developed and all systems use Unity 3D"
             //
-            correctionAdd("unity", "Unity Application Block"); 
+            correctionAdd("unity", "Unity Application Block");
             correctionAdd("Unity", "Unity Application Block");
             correctionAdd("Unity Framework", "Unity Application Block");
             correctionAdd("Unity framework", "Unity Application Block");
@@ -12939,7 +12939,7 @@ namespace OverflowHelper.core
             correctionAdd("Ohm law", "Ohm's law");
             correctionAdd("ohm law", "Ohm's law");
             correctionAdd("Ohm’s Law", "Ohm's law");
-            
+
             correctionAdd("php composer", "PHP Composer");
             correctionAdd("Composer", "PHP Composer");
             correctionAdd("composer", "PHP Composer");
@@ -15616,6 +15616,8 @@ namespace OverflowHelper.core
             correctionAdd("antonio", "Antonio Radić"); // Chess
             correctionAdd("Antonio", "Antonio Radić"); // Chess
             correctionAdd("Antonio Radic", "Antonio Radić"); // Chess
+            correctionAdd("Abadmator", "Antonio Radić"); // Chess
+            correctionAdd("agadmantor", "Antonio Radić"); // Chess
 
             correctionAdd("piano", "Giuoco Piano"); // Chess
             correctionAdd("Piano", "Giuoco Piano"); // Chess
@@ -16415,7 +16417,7 @@ namespace OverflowHelper.core
 
             URL_Add("Fluent NHibernate", "http://fluentnhibernate.org/");
 
-            URL_Add("asynchronously", "http://en.wiktionary.org/wiki/asynchronously");
+            URL_Add("asynchronously", "https://en.wiktionary.org/wiki/asynchronously");
 
             URL_Add("Haskell", "https://en.wikipedia.org/wiki/Haskell_%28programming_language%29");
 
@@ -16607,7 +16609,7 @@ namespace OverflowHelper.core
 
             URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
 
-            URL_Add("definitely", "http://en.wiktionary.org/wiki/definately"); //Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
+            URL_Add("definitely", "https://en.wiktionary.org/wiki/definately"); //Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
 
             URL_Add("Nagios", "https://en.wikipedia.org/wiki/Nagios");
 
@@ -16620,7 +16622,7 @@ namespace OverflowHelper.core
 
             URL_Add("XMPP", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
 
-            URL_Add("IMHO", "http://en.wiktionary.org/wiki/IMHO");
+            URL_Add("IMHO", "https://en.wiktionary.org/wiki/IMHO");
 
             URL_Add("RMI", "https://en.wikipedia.org/wiki/Java_remote_method_invocation");
 
@@ -16666,13 +16668,13 @@ namespace OverflowHelper.core
 
             URL_Add("ADSL", "https://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line");
 
-            URL_Add("legitimate", "http://en.wiktionary.org/wiki/legit");
+            URL_Add("legitimate", "https://en.wiktionary.org/wiki/legit");
 
             URL_Add("pixels", "https://en.wikipedia.org/wiki/Pixel");
 
             URL_Add("W3C", "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium");
 
-            URL_Add("as far as I know", "http://en.wiktionary.org/wiki/AFAIK");
+            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK");
 
             URL_Add("Ubuntu", "https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29");
 
@@ -16694,11 +16696,11 @@ namespace OverflowHelper.core
 
             URL_Add("ActiveX", "https://en.wikipedia.org/wiki/ActiveX");
 
-            URL_Add("compatibility", "http://en.wiktionary.org/wiki/compatability");
+            URL_Add("compatibility", "https://en.wiktionary.org/wiki/compatability");
 
             URL_Add("Wicket", "https://en.wikipedia.org/wiki/Apache_Wicket");
 
-            URL_Add("dependent", "http://en.wiktionary.org/wiki/dependant#Noun");
+            URL_Add("dependent", "https://en.wiktionary.org/wiki/dependant#Noun");
 
             URL_Add("DOM", "https://en.wikipedia.org/wiki/Document_Object_Model");
 
@@ -16706,7 +16708,7 @@ namespace OverflowHelper.core
 
             URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
 
-            URL_Add("separate", "http://en.wiktionary.org/wiki/seperate");
+            URL_Add("separate", "https://en.wiktionary.org/wiki/seperate");
 
             URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
 
@@ -16833,7 +16835,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); //Was https://en.wikipedia.org/wiki/Azure_Services_Platform
 
-            URL_Add("can't", "http://en.wiktionary.org/wiki/can%27t");
+            URL_Add("can't", "https://en.wiktionary.org/wiki/can%27t");
 
             URL_Add("Visual SourceSafe", "https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe");
 
@@ -16845,7 +16847,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
 
-            URL_Add("code-behind", "http://en.wiktionary.org/wiki/code-behind");
+            URL_Add("code-behind", "https://en.wiktionary.org/wiki/code-behind");
 
             URL_Add("BCP", "https://en.wikipedia.org/wiki/Bulk_Copy_Program");
 
@@ -16865,7 +16867,7 @@ namespace OverflowHelper.core
 
             URL_Add("IDE", "https://en.wikipedia.org/wiki/Integrated_development_environment");
 
-            URL_Add("concatenate", "http://en.wiktionary.org/wiki/concatenate");
+            URL_Add("concatenate", "https://en.wiktionary.org/wiki/concatenate");
 
             URL_Add("GIF", "https://en.wikipedia.org/wiki/Graphics_Interchange_Format");
 
@@ -16875,11 +16877,11 @@ namespace OverflowHelper.core
 
             URL_Add("XMLHttpRequest", "https://en.wikipedia.org/wiki/XMLHttpRequest");
 
-            URL_Add("though", "http://en.wiktionary.org/wiki/though");
+            URL_Add("though", "https://en.wiktionary.org/wiki/though");
 
             URL_Add("RADIUS", "https://en.wikipedia.org/wiki/RADIUS");
 
-            URL_Add("authentication", "http://en.wiktionary.org/wiki/authentication");
+            URL_Add("authentication", "https://en.wiktionary.org/wiki/authentication");
 
             URL_Add("ZIP", "https://en.wikipedia.org/wiki/ZIP_%28file_format%29");
 
@@ -16893,7 +16895,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows&nbsp;7", "https://en.wikipedia.org/wiki/Windows_7");
 
-            URL_Add("configuration", "http://en.wiktionary.org/wiki/configuration");
+            URL_Add("configuration", "https://en.wiktionary.org/wiki/configuration");
 
             URL_Add("VoIP", "https://en.wikipedia.org/wiki/Voice_over_IP");
 
@@ -16901,17 +16903,17 @@ namespace OverflowHelper.core
 
             URL_Add("Windows", "https://en.wikipedia.org/wiki/Microsoft_Windows");
 
-            URL_Add("information", "http://en.wiktionary.org/wiki/info#Noun");
+            URL_Add("information", "https://en.wiktionary.org/wiki/info#Noun");
 
             URL_Add("IP address", "https://en.wikipedia.org/wiki/IP_address");
 
-            URL_Add("statistics", "http://en.wiktionary.org/wiki/statistics");
+            URL_Add("statistics", "https://en.wiktionary.org/wiki/statistics");
 
-            URL_Add("by the way", "http://en.wiktionary.org/wiki/BTW");
+            URL_Add("by the way", "https://en.wiktionary.org/wiki/BTW");
 
-            URL_Add("for example", "http://en.wiktionary.org/wiki/for_example");
+            URL_Add("for example", "https://en.wiktionary.org/wiki/for_example");
 
-            URL_Add(", that is, X", "http://en.wiktionary.org/wiki/i.e.");
+            URL_Add(", that is, X", "https://en.wiktionary.org/wiki/i.e.");
 
             URL_Add("Kohana", "https://en.wikipedia.org/wiki/Kohana");
 
@@ -16923,11 +16925,11 @@ namespace OverflowHelper.core
 
             URL_Add("JSONP", "https://en.wikipedia.org/wiki/JSONP");
 
-            URL_Add("parameter", "http://en.wiktionary.org/wiki/parameter");
+            URL_Add("parameter", "https://en.wiktionary.org/wiki/parameter");
 
             URL_Add("UltraEdit", "https://en.wikipedia.org/wiki/UltraEdit");
 
-            URL_Add("characters", "http://en.wiktionary.org/wiki/characters");
+            URL_Add("characters", "https://en.wiktionary.org/wiki/characters");
 
             URL_Add("Markdown", "https://en.wikipedia.org/wiki/Markdown");
 
@@ -16943,11 +16945,11 @@ namespace OverflowHelper.core
 
             URL_Add("Rake", "https://en.wikipedia.org/wiki/Rake_(software)");
 
-            URL_Add("temporary", "http://en.wiktionary.org/wiki/temp#Abbreviation");
+            URL_Add("temporary", "https://en.wiktionary.org/wiki/temp#Abbreviation");
 
             URL_Add("IMO", "https://en.wiktionary.org/wiki/IMO#Initialism");
 
-            URL_Add("Google-fu", "http://en.wiktionary.org/wiki/Google-fu");
+            URL_Add("Google-fu", "https://en.wiktionary.org/wiki/Google-fu");
 
             URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
 
@@ -16961,11 +16963,11 @@ namespace OverflowHelper.core
 
             URL_Add("eBay", "https://en.wikipedia.org/wiki/EBay");
 
-            URL_Add("OK", "http://en.wiktionary.org/wiki/OK#Etymology_1");
+            URL_Add("OK", "https://en.wiktionary.org/wiki/OK#Etymology_1");
 
             URL_Add("LGPL", "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License");
 
-            URL_Add("IIRC", "http://en.wiktionary.org/wiki/IIRC");
+            URL_Add("IIRC", "https://en.wiktionary.org/wiki/IIRC");
 
             URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
 
@@ -16985,7 +16987,7 @@ namespace OverflowHelper.core
 
             URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
 
-            URL_Add("Wikipedia", "http://en.wiktionary.org/wiki/Wikipedia#Proper_noun");
+            URL_Add("Wikipedia", "https://en.wiktionary.org/wiki/Wikipedia#Proper_noun");
 
             URL_Add("Haml", "https://en.wikipedia.org/wiki/Haml");
 
@@ -16995,7 +16997,7 @@ namespace OverflowHelper.core
 
             URL_Add("MacPorts", "https://en.wikipedia.org/wiki/MacPorts");
 
-            URL_Add("specification", "http://en.wiktionary.org/wiki/specification");
+            URL_Add("specification", "https://en.wiktionary.org/wiki/specification");
 
             URL_Add("MIDlet", "https://en.wikipedia.org/wiki/MIDlet");
 
@@ -17065,7 +17067,7 @@ namespace OverflowHelper.core
 
             URL_Add("directory", "https://en.wikipedia.org/wiki/Folder_%28computing%29");
 
-            URL_Add("don’t", "http://en.wiktionary.org/wiki/don%27t");
+            URL_Add("don’t", "https://en.wiktionary.org/wiki/don%27t");
 
             URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
 
@@ -17117,9 +17119,9 @@ namespace OverflowHelper.core
 
             URL_Add("IPython", "https://en.wikipedia.org/wiki/IPython");
 
-            URL_Add("your", "http://en.wiktionary.org/wiki/your");
+            URL_Add("your", "https://en.wiktionary.org/wiki/your");
 
-            URL_Add("haven't", "http://en.wiktionary.org/wiki/haven%27t#Contraction");
+            URL_Add("haven't", "https://en.wiktionary.org/wiki/haven%27t#Contraction");
 
             URL_Add("Emacs&nbsp;Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
 
@@ -17141,7 +17143,7 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
 
-            URL_Add("because", "http://en.wiktionary.org/wiki/because");
+            URL_Add("because", "https://en.wiktionary.org/wiki/because");
 
             URL_Add("ADK", "http://developer.android.com/guide/topics/usb/adk.html");
 
@@ -17187,7 +17189,7 @@ namespace OverflowHelper.core
 
             URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
-            URL_Add("won't", "http://en.wiktionary.org/wiki/won%27t");
+            URL_Add("won't", "https://en.wiktionary.org/wiki/won%27t");
 
             URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
 
@@ -17215,7 +17217,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bézier curve", "https://en.wikipedia.org/wiki/B%C3%A9zier_curve");
 
-            URL_Add("without", "http://en.wiktionary.org/wiki/without");
+            URL_Add("without", "https://en.wiktionary.org/wiki/without");
 
             URL_Add("Blender", "https://en.wikipedia.org/wiki/Blender_%28software%29");
 
@@ -17233,9 +17235,9 @@ namespace OverflowHelper.core
 
             URL_Add("URI", "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier");
 
-            URL_Add("through", "http://en.wiktionary.org/wiki/through");
+            URL_Add("through", "https://en.wiktionary.org/wiki/through");
 
-            URL_Add("tutorial", "http://en.wiktionary.org/wiki/tutorial");
+            URL_Add("tutorial", "https://en.wiktionary.org/wiki/tutorial");
 
             URL_Add("jQuery&nbsp;Isotope", "http://isotope.metafizzy.co/docs/introduction.html");
 
@@ -17277,13 +17279,13 @@ namespace OverflowHelper.core
 
             URL_Add("Visual Basic", "https://en.wikipedia.org/wiki/Visual_Basic");
 
-            URL_Add("etc.", "http://en.wiktionary.org/wiki/etc.#Adverb");
+            URL_Add("etc.", "https://en.wiktionary.org/wiki/etc.#Adverb");
 
             URL_Add("MIDI", "https://en.wikipedia.org/wiki/MIDI");
 
             URL_Add("WinRAR", "https://en.wikipedia.org/wiki/WinRAR");
 
-            URL_Add("which", "http://en.wiktionary.org/wiki/which");
+            URL_Add("which", "https://en.wiktionary.org/wiki/which");
 
             URL_Add("Fiddler", "https://en.wikipedia.org/wiki/Fiddler_%28software%29");
 
@@ -17291,7 +17293,7 @@ namespace OverflowHelper.core
 
             URL_Add("Google+", "https://en.wikipedia.org/wiki/Google%2B");
 
-            URL_Add("software", "http://en.wiktionary.org/wiki/software");
+            URL_Add("software", "https://en.wiktionary.org/wiki/software");
 
             URL_Add("NCover", "https://en.wikipedia.org/wiki/NCover");
 
@@ -17393,7 +17395,7 @@ namespace OverflowHelper.core
 
             URL_Add("FQL", "https://en.wikipedia.org/wiki/Facebook_Query_Language");
 
-            URL_Add("something", "http://en.wiktionary.org/wiki/something");
+            URL_Add("something", "https://en.wiktionary.org/wiki/something");
 
             URL_Add("Windows Server 2003", "https://en.wikipedia.org/wiki/Windows_Server_2003");
 
@@ -17453,7 +17455,7 @@ namespace OverflowHelper.core
 
             URL_Add("Device Manager", "https://en.wikipedia.org/wiki/Device_Manager");
 
-            URL_Add("duplicate", "http://en.wiktionary.org/wiki/duplicate");
+            URL_Add("duplicate", "https://en.wiktionary.org/wiki/duplicate");
 
             URL_Add("Stack&nbsp;Apps", "http://stackapps.com/about");
 
@@ -17493,7 +17495,7 @@ namespace OverflowHelper.core
 
             URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
 
-            URL_Add("AKA", "http://en.wiktionary.org/wiki/AKA");
+            URL_Add("AKA", "https://en.wiktionary.org/wiki/AKA");
 
             URL_Add("sketch", "http://www.arduino.cc/en/Tutorial/Sketch");
 
@@ -17567,7 +17569,7 @@ namespace OverflowHelper.core
 
             URL_Add("AVR Studio", "http://www.atmel.com/microsite/avr_studio_5/default.aspx");
 
-            URL_Add("combination", "http://en.wiktionary.org/wiki/combination");
+            URL_Add("combination", "https://en.wiktionary.org/wiki/combination");
 
             URL_Add("IPv6", "https://en.wikipedia.org/wiki/IPv6");
 
@@ -17581,7 +17583,7 @@ namespace OverflowHelper.core
 
             URL_Add("AOL", "https://en.wikipedia.org/wiki/AOL");
 
-            URL_Add("benefit", "http://en.wiktionary.org/wiki/benefit");
+            URL_Add("benefit", "https://en.wiktionary.org/wiki/benefit");
 
             URL_Add("TestDriven.NET", "http://www.testdriven.net/");
 
@@ -17591,7 +17593,7 @@ namespace OverflowHelper.core
 
             URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
 
-            //URL_Add("PS", "http://en.wiktionary.org/wiki/PS"); // Now PowerShell
+            //URL_Add("PS", "https://en.wiktionary.org/wiki/PS"); // Now PowerShell
 
             URL_Add("QEMU", "https://en.wikipedia.org/wiki/QEMU");
 
@@ -17659,7 +17661,7 @@ namespace OverflowHelper.core
 
             URL_Add("DivX", "https://en.wikipedia.org/wiki/DivX");
 
-            URL_Add("whether", "http://en.wiktionary.org/wiki/whether#Conjunction");
+            URL_Add("whether", "https://en.wiktionary.org/wiki/whether#Conjunction");
 
             URL_Add("Dragonfly", "https://en.wikipedia.org/wiki/Dragonfly");
 
@@ -17695,7 +17697,7 @@ namespace OverflowHelper.core
 
             URL_Add("UART", "https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter");
 
-            URL_Add("I’ve", "http://en.wiktionary.org/wiki/I%27ve#Contraction");
+            URL_Add("I’ve", "https://en.wiktionary.org/wiki/I%27ve#Contraction");
 
             URL_Add("Foursquare", "https://en.wikipedia.org/wiki/Foursquare");
 
@@ -17783,7 +17785,7 @@ namespace OverflowHelper.core
 
             URL_Add("LogCat", "https://sites.google.com/site/androidhowto/how-to-1/save-logcat-to-a-text-file");
 
-            URL_Add("between", "http://en.wiktionary.org/wiki/between");
+            URL_Add("between", "https://en.wiktionary.org/wiki/between");
 
             URL_Add("CORBA", "https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture");
 
@@ -17803,7 +17805,7 @@ namespace OverflowHelper.core
 
             URL_Add("intent", "http://developer.android.com/guide/components/intents-filters.html");
 
-            URL_Add("nowadays", "http://en.wiktionary.org/wiki/nowadays");
+            URL_Add("nowadays", "https://en.wiktionary.org/wiki/nowadays");
 
             URL_Add("Yii", "https://en.wikipedia.org/wiki/Yii");
 
@@ -17821,7 +17823,7 @@ namespace OverflowHelper.core
 
             URL_Add("Apple", "https://en.wikipedia.org/wiki/Apple_Inc.");
 
-            URL_Add("TLDR", "http://en.wiktionary.org/wiki/TLDR");
+            URL_Add("TLDR", "https://en.wiktionary.org/wiki/TLDR");
 
             URL_Add("LCD", "https://en.wikipedia.org/wiki/Liquid_crystal_display");
 
@@ -17975,7 +17977,7 @@ namespace OverflowHelper.core
 
             URL_Add("Application Verifier", "http://msdn.microsoft.com/en-us/library/windows/desktop/dd371695%28v=vs.85%29.aspx");
 
-            URL_Add("recommend", "http://en.wiktionary.org/wiki/recommend");
+            URL_Add("recommend", "https://en.wiktionary.org/wiki/recommend");
 
             URL_Add("PHP Development Tools", "https://en.wikipedia.org/wiki/PHP_Development_Tools");
 
@@ -18005,7 +18007,7 @@ namespace OverflowHelper.core
 
             URL_Add("Squeak", "https://en.wikipedia.org/wiki/Squeak");
 
-            URL_Add("all right", "http://en.wiktionary.org/wiki/all_right");
+            URL_Add("all right", "https://en.wiktionary.org/wiki/all_right");
 
             URL_Add("RGB", "https://en.wikipedia.org/wiki/RGB_color_model");
 
@@ -18045,11 +18047,11 @@ namespace OverflowHelper.core
 
             URL_Add("3ds&nbsp;Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
 
-            URL_Add("equivalent", "http://en.wiktionary.org/wiki/equivalent");
+            URL_Add("equivalent", "https://en.wiktionary.org/wiki/equivalent");
 
             URL_Add("Parallels", "https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac");
 
-            URL_Add("excellent", "http://en.wiktionary.org/wiki/excellent#Adjective");
+            URL_Add("excellent", "https://en.wiktionary.org/wiki/excellent#Adjective");
 
             URL_Add("Pygame", "https://en.wikipedia.org/wiki/Pygame");
 
@@ -18061,21 +18063,21 @@ namespace OverflowHelper.core
 
             URL_Add("Digg", "https://en.wikipedia.org/wiki/Digg");
 
-            URL_Add("immediately", "http://en.wiktionary.org/wiki/immediately");
+            URL_Add("immediately", "https://en.wiktionary.org/wiki/immediately");
 
             URL_Add("NSIS", "https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System");
 
             URL_Add("Inno Setup", "https://en.wikipedia.org/wiki/Inno_Setup");
 
-            URL_Add("prerequisite", "http://en.wiktionary.org/wiki/prerequisite");
+            URL_Add("prerequisite", "https://en.wiktionary.org/wiki/prerequisite");
 
             URL_Add("RXTX", "http://jlog.org/rxtx-mac.html");
 
-            URL_Add("third-party", "http://en.wiktionary.org/wiki/third-party#Adjective");
+            URL_Add("third-party", "https://en.wiktionary.org/wiki/third-party#Adjective");
 
             URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
 
-            URL_Add("definition", "http://en.wiktionary.org/wiki/definition");
+            URL_Add("definition", "https://en.wiktionary.org/wiki/definition");
 
             URL_Add("assembly language", "https://en.wikipedia.org/wiki/Assembly_language");
 
@@ -18083,7 +18085,7 @@ namespace OverflowHelper.core
 
             URL_Add("QA", "https://en.wikipedia.org/wiki/Software_quality_assurance");
 
-            URL_Add("no one", "http://en.wiktionary.org/wiki/no_one#Pronoun");
+            URL_Add("no one", "https://en.wiktionary.org/wiki/no_one#Pronoun");
 
             URL_Add("GPRS", "https://en.wikipedia.org/wiki/General_Packet_Radio_Service");
 
@@ -18095,7 +18097,7 @@ namespace OverflowHelper.core
 
             URL_Add("Wikimedia Foundation", "https://en.wikipedia.org/wiki/Wikimedia_Foundation");
 
-            URL_Add("LOL", "http://en.wiktionary.org/wiki/LOL#Initialism");
+            URL_Add("LOL", "https://en.wiktionary.org/wiki/LOL#Initialism");
 
             URL_Add("Verisign", "https://en.wikipedia.org/wiki/Verisign");
 
@@ -18161,7 +18163,7 @@ namespace OverflowHelper.core
 
             URL_Add("database administrator", "https://en.wikipedia.org/wiki/Database_administrator");
 
-            URL_Add("especially", "http://en.wiktionary.org/wiki/especially");
+            URL_Add("especially", "https://en.wiktionary.org/wiki/especially");
 
             URL_Add("LibreOffice", "https://en.wikipedia.org/wiki/LibreOffice");
 
@@ -18179,7 +18181,7 @@ namespace OverflowHelper.core
 
             URL_Add("Sublime Text", "https://en.wikipedia.org/wiki/Sublime_Text");
 
-            URL_Add("proprietary", "http://en.wiktionary.org/wiki/proprietary");
+            URL_Add("proprietary", "https://en.wiktionary.org/wiki/proprietary");
 
             URL_Add("Meteor", "https://en.wikipedia.org/wiki/Meteor_%28web_framework%29");
 
@@ -18189,11 +18191,11 @@ namespace OverflowHelper.core
 
             URL_Add("certificate authority", "https://en.wikipedia.org/wiki/Certificate_authority");
 
-            URL_Add("although", "http://en.wiktionary.org/wiki/although");
+            URL_Add("although", "https://en.wiktionary.org/wiki/although");
 
             URL_Add("Script.aculo.us", "https://en.wikipedia.org/wiki/Script.aculo.us");
 
-            URL_Add("parallel", "http://en.wiktionary.org/wiki/parallel");
+            URL_Add("parallel", "https://en.wiktionary.org/wiki/parallel");
 
             URL_Add("FrontPage", "https://en.wikipedia.org/wiki/Microsoft_FrontPage");
 
@@ -18205,7 +18207,7 @@ namespace OverflowHelper.core
 
             URL_Add("RAII", "https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization");
 
-            URL_Add("relevant", "http://en.wiktionary.org/wiki/relevent");
+            URL_Add("relevant", "https://en.wiktionary.org/wiki/relevent");
 
             URL_Add("BigQuery", "https://en.wikipedia.org/wiki/BigQuery");
 
@@ -18217,15 +18219,15 @@ namespace OverflowHelper.core
 
             URL_Add("BeagleBone Black", "https://en.wikipedia.org/wiki/BeagleBoard#BeagleBone_Black");
 
-            URL_Add("ambiguity", "http://en.wiktionary.org/wiki/ambiguity");
+            URL_Add("ambiguity", "https://en.wiktionary.org/wiki/ambiguity");
 
-            URL_Add("dependency", "http://en.wiktionary.org/wiki/dependancy");
+            URL_Add("dependency", "https://en.wiktionary.org/wiki/dependancy");
 
             URL_Add("Windows Script Host", "https://en.wikipedia.org/wiki/Windows_Script_Host");
 
             URL_Add("GPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit");
 
-            URL_Add("straightforward", "http://en.wiktionary.org/wiki/straightforward");
+            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward");
 
             URL_Add("artificial intelligence", "https://en.wikipedia.org/wiki/Artificial_intelligence");
 
@@ -18263,7 +18265,7 @@ namespace OverflowHelper.core
 
             URL_Add("D3.js", "https://en.wikipedia.org/wiki/D3.js");
 
-            URL_Add("guarantee", "http://en.wiktionary.org/wiki/guarantee");
+            URL_Add("guarantee", "https://en.wiktionary.org/wiki/guarantee");
 
             URL_Add("EPROM", "https://en.wikipedia.org/wiki/EPROM");
 
@@ -21607,7 +21609,7 @@ namespace OverflowHelper.core
 
             URL_Add("portfolio", "https://en.wiktionary.org/wiki/portfolio#Noun");
 
-            URL_Add("recommending", "http://en.wiktionary.org/wiki/recommend");
+            URL_Add("recommending", "https://en.wiktionary.org/wiki/recommend");
 
             URL_Add("religious", "https://en.wiktionary.org/wiki/religious#Adjective");
 
