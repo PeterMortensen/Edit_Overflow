@@ -10156,6 +10156,7 @@ namespace OverflowHelper.core
             correctionAdd("maintenence", "maintenance");
 
             correctionAdd("mantained", "maintained");
+            correctionAdd("maintaned", "maintained");
 
             correctionAdd("Visual Studio code", "Visual Studio Code");
             correctionAdd("VSCode", "Visual Studio Code");
@@ -11321,6 +11322,7 @@ namespace OverflowHelper.core
 
             correctionAdd("directy", "directly");
             correctionAdd("direcly", "directly");
+            correctionAdd("directlly", "directly");
 
             correctionAdd("dicovered", "discovered");
 
@@ -12830,6 +12832,7 @@ namespace OverflowHelper.core
             correctionAdd("proprty", "property");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
+            correctionAdd("QM", "quantum mechanics");
 
             correctionAdd("quatation mark", "quotation mark");
 
@@ -15130,6 +15133,7 @@ namespace OverflowHelper.core
             correctionAdd("whethee", "whether");
             correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is "weather".
             correctionAdd("Whether", "whether");
+            correctionAdd("wethere", "whether");
 
             correctionAdd("weater", "weather");
             correctionAdd("wheater", "weather");
@@ -15890,6 +15894,7 @@ namespace OverflowHelper.core
 
             correctionAdd("van-der-Waals force", "van der Waals force");
             correctionAdd("Van der Waals force", "van der Waals force");
+            correctionAdd("van der Waals", "van der Waals force");
 
             correctionAdd("cname", "CNAME");
 
@@ -15970,6 +15975,50 @@ namespace OverflowHelper.core
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
+
+            correctionAdd("April Fools Day", "April Fools' Day");
+
+            correctionAdd("April's fool", "April_fool");
+
+            correctionAdd("cfd", "CFD");
+
+            correctionAdd("compizconfig-settings-manager", "CompizConfig Settings Manager");
+
+            correctionAdd("Euclidean Distance", "Euclidean distance");
+
+            correctionAdd("fft", "FFT");
+
+            correctionAdd("fourier transform", "Fourier transform");
+
+            correctionAdd("Argon", "argon");
+
+            correctionAdd("carbondioxide", "carbon dioxide");
+
+            correctionAdd("Carbon monoxide", "carbon monoxide");
+
+            correctionAdd("conisdering", "considering");
+
+            correctionAdd("Debye", "debye");
+
+            correctionAdd("Later", "later");
+
+            correctionAdd("mathemathical", "mathematical");
+
+            correctionAdd("Neutron", "neutron");
+
+            correctionAdd("non-polar", "nonpolar");
+            correctionAdd("non polar", "nonpolar");
+
+            correctionAdd("obatining", "obtaining");
+
+            correctionAdd("physisist", "physicist");
+
+            correctionAdd("unit-less", "unitless");
+            correctionAdd("unit less", "unitless");
+
+            correctionAdd("unmaintaned", "unmaintained");
+
+            correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
 
 
 
@@ -23886,6 +23935,48 @@ namespace OverflowHelper.core
             URL_Add("light", "https://en.wiktionary.org/wiki/light#Adjective");
 
             URL_Add("umlaut", "https://en.wiktionary.org/wiki/umlaut#Noun");
+
+            URL_Add("April Fools' Day", "https://en.wiktionary.org/wiki/April_Fools%27_Day#Noun");
+
+            URL_Add("April_fool", "https://en.wiktionary.org/wiki/April_fool#Noun");
+
+            URL_Add("CFD", "https://en.wikipedia.org/wiki/Computational_fluid_dynamics");
+
+            URL_Add("CompizConfig Settings Manager", "http://wiki.compiz.org/CCSM");
+
+            URL_Add("Euclidean distance", "https://en.wiktionary.org/wiki/Euclidean_distance#Noun");
+
+            URL_Add("FFT", "https://en.wikipedia.org/wiki/Fast_Fourier_transform");
+
+            URL_Add("Fourier transform", "https://en.wikipedia.org/wiki/Fourier_transform");
+
+            URL_Add("argon", "https://en.wikipedia.org/wiki/Argon");
+
+            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide");
+
+            URL_Add("carbon monoxide", "https://en.wikipedia.org/wiki/Carbon_monoxide");
+
+            URL_Add("considering", "https://en.wiktionary.org/wiki/consider#Verb");
+
+            URL_Add("debye", "https://en.wikipedia.org/wiki/Debye");
+
+            URL_Add("later", "https://en.wiktionary.org/wiki/later#Adverb");
+
+            URL_Add("mathematical", "https://en.wiktionary.org/wiki/mathematical#Adjective");
+
+            URL_Add("neutron", "https://en.wikipedia.org/wiki/Neutron");
+
+            URL_Add("nonpolar", "https://en.wiktionary.org/wiki/nonpolar#Adjective");
+
+            URL_Add("obtaining", "https://en.wiktionary.org/wiki/obtain#Verb");
+
+            URL_Add("physicist", "https://en.wiktionary.org/wiki/physicist#Noun");
+
+            URL_Add("unitless", "https://en.wiktionary.org/wiki/unitless#Adjective");
+
+            URL_Add("unmaintained", "https://en.wiktionary.org/wiki/unmaintained#Adjective");
+
+            URL_Add("Navier–Stokes equations", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
 
 
 
