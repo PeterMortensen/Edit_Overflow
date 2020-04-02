@@ -91,14 +91,17 @@
             #       there are actually some leading space
             #       in some line.
             #
-            function findCommonLeadingSpaces($aText)
+            function findCommonLeadingSpaces($aText2)
             {
+                # Implicit convert of TABs (as 4 spaces)
+                $someText = replaceTABS_withSpace($aText2);
+
                 #$lines = explode("\n", $aText);
                 #$lines = explode("\r", $aText);
-                $lines = explode("\r\n", $aText); # This works. But why???
-                                                  # We are on Firefox on
-                                                  # Linux. This looks like
-                                                  # Windows!
+                $lines = explode("\r\n", $someText); # This works. But why???
+                                                     # We are on Firefox on
+                                                     # Linux. This looks like
+                                                     # Windows!
 
                 $commonLeadingSpaces = 9999;
 
@@ -130,11 +133,15 @@
             }
 
 
-            function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
+            function removeCommonLeadingSpaces($aText2, $aLeadingSpaces)
             {
-                $lines = explode("\n", $aText); #If we use "\r\n" in
-                                                #findCommonLeadingSpaces(),
-                                                #why not here???
+                # Implicit convert of TABs (as 4 spaces)
+                $someText = replaceTABS_withSpace($aText2);
+
+
+                $lines = explode("\n", $someText); #If we use "\r\n" in
+                                                   #findCommonLeadingSpaces(),
+                                                   #why not here???
 
                 # $toRemove = " " x $aLeadingSpaces;
                 $toRemove = str_repeat (" ", $aLeadingSpaces);
@@ -171,6 +178,7 @@
 
                 if (! ($diff === $aLengthDiff))
                 {
+                    echo "<br/><br/>\n";
                     echo "Failed test. ID: $ID. $lenBefore characters before. " .
                          "$lenAfter characters after. " .
                          "Expected difference: $aLengthDiff. Actual: $diff\n";
@@ -204,10 +212,10 @@
 
             # Helper function for testing
             #
-            #For now, it is a utility function used for testing, but it
-            #would be nice to have a single functions exposed to the
-            #client code. E.g., could we return the output string
-            #and the number as an array?
+            #For now, it is a utility function used for testing, but
+            #it would be nice to have a single function exposed to
+            #the client code. E.g., could we return the output
+            #string and the number as an array?
             #
             function test_removeCommonLeadingSpaces($ID, $aSomeText, $aLengthDiff)
             {
@@ -238,8 +246,11 @@
             #[$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
             #echo "<p>someMessage: $someMessage</p>";
 
-
             test_removeCommonLeadingSpaces(6, "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
+
+            # Leading TABs
+            test_removeCommonLeadingSpaces(7, "\t  00 min 44 secs:  ABC\n\t  XYZ", 6);
+
 
             # -------------------------------------------------------------
 
