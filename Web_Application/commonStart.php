@@ -39,7 +39,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a13 2020-03-27T035815Z+0";
+        return "Edit Overflow v. 1.1.49a14 2020-04-02T041755Z+0";
     }
 
 
@@ -166,7 +166,7 @@
         #global MAINTEXT;
         global $formDataSizeDiff;
 
-        # When we open the form (URL with ".php") 
+        # When we open the form (URL with ".php")
         # there isn't any form data.
         if (
             array_key_exists(LOOKUPTERM, $_REQUEST) ||  # Main - lookup
