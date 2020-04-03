@@ -7247,7 +7247,7 @@ namespace OverflowHelper.core
 
             correctionAdd("requites", "requisites"); //Misspelling.
 
-            // "Unity" is an overloaded term:
+            // "Unity" is a heavily overloaded term:
             //
             //  1. .NET library ("Unity Application Block")
             //
@@ -7264,6 +7264,12 @@ namespace OverflowHelper.core
             //     See e.g. <https://askubuntu.com/questions/62001>,
             //       "Am I using Unity or Unity 2D?" - "As of Ubuntu 12.10,
             //       Unity 2D is no longer developed and all systems use Unity 3D"
+            //
+            //  4. Unity Operating System
+            //
+            //     A Chinese Linux distribution 
+            //
+            //      <https://en.wikipedia.org/wiki/Unity_Operating_System>
             //
             correctionAdd("unity", "Unity Application Block");
             correctionAdd("Unity", "Unity Application Block");
