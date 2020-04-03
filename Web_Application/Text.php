@@ -41,7 +41,8 @@
         <?php
             require_once('StringReplacerWithRegex.php');
 
-            # function assert()
+            # For "Notice: Undefined variable: ..."
+            error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
             function removeTrailingSpace($aText)
             {
@@ -59,8 +60,8 @@
 
             function removeTrailingSpacesAndTABs($aText)
             {
-                # Order doesn't matter! Trailing TABs are actually
-                # removed by removeTrailingSpace().
+                # Order doesn't matter! ***Trailing*** TABs are
+                # actually removed by removeTrailingSpace().
                 #
                 $lengthBefore = strlen($aText);
                 $text1 = removeTrailingSpace($aText);
@@ -70,8 +71,8 @@
                 $text2 = replaceTABS_withSpace($text1);
                 $lengthAfter2 = strlen($text2);
 
-                # One TAB results in four spaces (three more characters)
-                # What about rounding??
+                # One TAB results in four spaces (three more
+                # characters) What about rounding??
                 $replacedTABs = ($lengthAfter2 - $lengthAfter) / 3;
 
                 $message2 = "";
@@ -87,35 +88,40 @@
             }
 
 
-            # Note: This (first) version only works well if
-            #       there are actually some leading space
-            #       in some line.
-            #
-            function findCommonLeadingSpaces($aText2)
+            function findCommonLeadingSpaces($aText)
             {
                 # Implicit convert of TABs (as 4 spaces)
-                $someText = replaceTABS_withSpace($aText2);
+                $someText = replaceTABS_withSpace($aText);
 
-                #$lines = explode("\n", $aText);
-                #$lines = explode("\r", $aText);
-                $lines = explode("\r\n", $someText); # This works. But why???
-                                                     # We are on Firefox on
-                                                     # Linux. This looks like
-                                                     # Windows!
+                #For some reason, it is Windows-like when coming from
+                #the web browser (Firefox), even when all is Linux...
+                #
+                #But why???
+                #
+                $lines = explode("\r\n", $someText);
 
                 $commonLeadingSpaces = 9999;
 
+                # Find the non-empty line with the least number
+                # of leading spaces - that is how many leading
+                # spaces we should remove from each line.
+                #
                 foreach ($lines as $key => $item)
                 {
-                    #echo '<p>Line: ' . $item . '</p>' . "\n";
+                    #echo '<p>Line: xxx' . $item . 'xxx </p>' . "\n";
 
-                    if (preg_match('/^(\s+)/', $item, $out))
+                    # Ignore empty lines
+                    if ($item !== "")
                     {
-                        #echo '<p>Leading space: xxx' . $out[0] . 'xxx </p>' . "\n";
+                        $leadingSpaces = 0;
+                        if (preg_match('/^(\s+)/', $item, $out))
+                        {
+                            #echo '<p>Leading space: xxx' . $out[0] . 'xxx </p>' . "\n";
 
-                        $leadingSpaces = strlen($out[0]);
+                            $leadingSpaces = strlen($out[0]);
 
-                        #echo '<p>Number of leading spaces: ' . $leadingSpaces . '</p>' . "\n" . "\n";
+                            #echo '<p>Number of leading spaces: ' . $leadingSpaces . '</p>' . "\n" . "\n";
+                        }
 
                         # Update the minimum (for lines)
                         if ($leadingSpaces < $commonLeadingSpaces)
@@ -124,34 +130,27 @@
                         }
                     }
                 }
-                if ($commonLeadingSpaces > 5000)
-                {
-                    # We didn't find any leading space in any line...
-                    $commonLeadingSpaces = 0;
-                }
                 return $commonLeadingSpaces;
-            }
+            } # findCommonLeadingSpaces()
 
 
-            function removeCommonLeadingSpaces($aText2, $aLeadingSpaces)
+            function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
             {
                 # Implicit convert of TABs (as 4 spaces)
-                $someText = replaceTABS_withSpace($aText2);
+                $someText = replaceTABS_withSpace($aText);
 
+                #For some reason, it is Windows-like when coming from
+                #the web browser (Firefox), even when all is Linux...
+                $lines = explode("\r\n", $someText);
 
-                $lines = explode("\n", $someText); #If we use "\r\n" in
-                                                   #findCommonLeadingSpaces(),
-                                                   #why not here???
-
-                # $toRemove = " " x $aLeadingSpaces;
-                $toRemove = str_repeat (" ", $aLeadingSpaces);
+                $toRemove = str_repeat(" ", $aLeadingSpaces);
 
                 #echo '<p>To remove: xxx' . $toRemove . 'xxx </p>' . "\n";
 
                 $newContent = array();
                 foreach ($lines as $key => $item)
                 {
-                    #echo '<p>Line: ' . $item . '</p>';
+                    #echo '<p>Line: xxx' .     $item .  'xxx </p>' . "\n";
 
                     $item2 = preg_replace("/^$toRemove/", '', $item);
 
@@ -159,7 +158,7 @@
 
                     #echo '<p>New line: xxx' . $item2 . 'xxx </p>' . "\n";
                 }
-                return implode("\n", $newContent);
+                return implode("\r\n", $newContent);
             } #removeCommonLeadingSpaces()
 
 
@@ -167,10 +166,11 @@
             {
                 $replacer = new StringReplacerWithRegex($aText);
 
-                # We strip the "www" in YouTube URLs. For some reason,
-                # in some cases, replacing the " DOT " back to "."
-                # and using it in a browser, result in a double "www"
-                # and thus fails to load properly.
+                # We strip the "www" in YouTube URLs. For unknown
+                # reasons, in some cases, replacing the " DOT "
+                # back to "." and using it in a browser, results
+                # in a ***double*** "www" and thus fails to load properly.
+                #
                 # Example: www.www.youtube.com/watch?v=_pybvjmjLT0&lc=Ugw6kcW_X3ulHZugaLB4AaABAg
                 #
                 $replacer->transform('www\.(youtube\..*)', '$1');
@@ -182,25 +182,28 @@
 
                 # Convert URLs so they do not look like URLs...
                 # (otherwise, the entire comment will be
-                # automatically removed by YouTube).
+                # automatically removed by YouTube after
+                # one or two days).
                 $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
                 $replacer->transform('https:\/\/', ''         );
                 $replacer->transform('http:\/\/',  ''         );
 
-                # Reversals for some of the false positives
-                # in URL processing
+                # Reversals for some of the false
+                # positives in URL processing
                 $replacer->transform('E DOT g\.', 'E.g.');
                 $replacer->transform('e DOT g\.', 'e.g.');
 
-                # Convert email addresses like so... (at least to
-                # offer some protection (and avoiding objections
-                # to posting )).
+                # Convert email addresses like so... (at least
+                # to offer some protection (and avoiding
+                # objections to posting)).
                 #
                 # For now, just globally replace "@"
                 #
                 $replacer->transform('\@', ' AT ');
 
-                #This one does not seem to work...
+                #This one does not seem to work... Why?? Do we
+                #need some escaping?
+                #
                 # Convert "->" to a real arrow
                 #
                 # Note: For YouTube it can not be
@@ -213,13 +216,14 @@
             } #transformFor_YouTubeComments()
 
 
-            # ----------------------- End of main functions ---------------------------
+            # -------------------- End of main functions ---------------------
 
 
-            # ---------------- Sort of unit tests ----------------
+            # ------------- Start of unit tests (sort of) section ------------
 
-            # $aLengthDiff is old minus new (so positive if the
-            # new string is shorter).
+
+            # $aLengthDiff is old minus new (so it is ***positive***
+            # if the new string is ***shorter***).
             #
             function assert_strLengths($ID, $aOrigText, $aNewText, $aLengthDiff)
             {
@@ -234,11 +238,21 @@
                          "$lenAfter characters after. " .
                          "Expected difference: $aLengthDiff. Actual: $diff\n";
 
+                    echo "<br/><br/>\n";
                     echo "Before: xxx" . $aOrigText . "xxx. \n";
+                    echo "<br/><br/>\n";
                     echo "After:  xxx" . $aNewText  . "xxx. \n";
                     assert(false);
                 }
+                else
+                {
+                    #echo "<br/>\n";
+                    ##echo "<br/>\n";
+                    #echo "It fits! Text length (incl. end-of-line): " .
+                    #     "$lenBefore characters\n";
+                }
             }
+
 
             # Helper function for testing
             #
@@ -254,6 +268,9 @@
             #
             function test_removeTrailingSpacesAndTABs($ID, $aSomeText, $aLengthDiff)
             {
+                # [] because removeTrailingSpacesAndTABs() is returning
+                # as array and we are only using the first element...
+                #
                 [$touchedText] = removeTrailingSpacesAndTABs($aSomeText);
                 assert_strLengths($ID,
                                   $aSomeText,
@@ -272,24 +289,30 @@
 
             # Helper function for testing
             #
-            #For now, it is a utility function used for testing, but
-            #it would be nice to have a ***single*** function 
-            #exposed to the client code. E.g., could we 
-            #return the output string and the number 
-            #as an array? 
+            #For now, it is a utility function used for testing (that is,
+            #combining findCommonLeadingSpaces() and removeCommonLeadingSpaces(),
+            #but it would be nice to have a ***single*** function
+            #exposed to the client code. E.g., could we return
+            #the output string and the number as an array? We
+            #are already doing for removeTrailingSpacesAndTABs().
             #
             function test_removeCommonLeadingSpaces($ID, $aSomeText, $aLengthDiff)
             {
-                #Later: refactor these two calls (we also have
-                #       it in the normal client code)
+                #echo "<br/><br/>\n";
+                #echo "Start of test $ID ...\n";
+
+                #Later: refactor these two calls (we also
+                #       have it in the normal client code)
                 $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
 
-                $someText = removeCommonLeadingSpaces(
+                #echo "In test $ID: $leadingSpaceToRemove leading spaces to remove.\n";
+
+                $someText7 = removeCommonLeadingSpaces(
                               $aSomeText, $leadingSpaceToRemove);
 
                 assert_strLengths($ID,
                                   $aSomeText,
-                                  $someText,
+                                  $someText7,
                                   $aLengthDiff);
             }
 
@@ -305,26 +328,54 @@
             }
 
 
+            # General comments about testing:
+            #
+            #   1. To simulate what happens in the browser we need
+            #      to use "\r\n" (Windows like), not "\r\n"
+            #
+            #      Why is it like Windows? We are on Linux, with Firefox,
+            #      using a web application based on Linux hosting and PHP.
+            #
+            #   2. We currently test by checking for length differences,
+            #      not the actual content. It is less specific testing,
+            #      but also with less redundancy.
+
             test_removeTrailingSpacesAndTABs(1001, "XX "           ,  1);
             test_removeTrailingSpacesAndTABs(1002, "X XX  XXX X\t ",  2);
             test_removeTrailingSpacesAndTABs(1003, "X XX  XXX X \t",  2);
             test_removeTrailingSpacesAndTABs(1004, "X XX  XXX X"   ,  0);
             test_removeTrailingSpacesAndTABs(1005, "X XX \t XXX X" , -3);
 
-            #[$someText, $someMessage] = removeTrailingSpacesAndTABs("X XX  XXX X \t");
-            #echo "<p>someMessage: $someMessage</p>";
-
-            test_removeCommonLeadingSpaces(1006, "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
+            test_removeCommonLeadingSpaces(1006,
+                "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
 
             # Leading TABs
-            test_removeCommonLeadingSpaces(1007, "\t  00 min 44 secs:  ABC\n\t  XYZ", 6);
+            test_removeCommonLeadingSpaces(1007,
+                "\t  00 min 44 secs:  ABC\r\n\t  XYZ", 6);
 
             # Removal of "www" for the encoded YouTube URLs
-            test_transformFor_YouTubeComments(
-              1008,
-              "     https://www.youtube.com/watch?v=_pybvjmjLT0\n        ",
+            test_transformFor_YouTubeComments(1008,
+                "     https://www.youtube.com/watch?v=_pybvjmjLT0\n        ",
               8);
 
+            # Input containing lines ***without*** leading
+            # space - should always be unchanged.
+            test_removeCommonLeadingSpaces(1009,
+                "28:50 : On page _Sequence alignment_\r\n" .
+                  "               *https://en.wikipedia.org/wiki/Sequence_alignment*\r\n",
+                0);
+
+            test_removeCommonLeadingSpaces(1010,
+                " 28:50 : On page _Sequence alignment_\r\n" .
+                  "                *https://en.wikipedia.org/wiki/Sequence_alignment*",
+                2);
+
+            # This one has an empty line (that should be ignored
+            # when finding how many leading spaces to remove)
+            test_removeCommonLeadingSpaces(1011,
+                " 28:50 : On page _Sequence alignment_\r\n" .
+                  "                *https://en.wikipedia.org/wiki/Sequence_alignment*\r\n",
+                2);
 
             # ----------------------------------------------------------------
 
@@ -335,8 +386,8 @@
 
             #assert(array_key_exists('function', $_REQUEST));  # From example:  isset($this->records)
             #
-            # We can't use assert as text.php is normally
-            # invoked by GET, by a direct link.
+            # Note: We can't use the normal assert() as text.php
+            #       is normally invoked by GET, by a direct link.
             #
             # Or perhaps we can distinguish between GET and POST? -
             #
@@ -348,8 +399,8 @@
             $someText = "";
             if (array_key_exists(MAINTEXT, $_REQUEST))
             {
-                # Some output to remind us that this WordPress madness
-                # should be adressed some day
+                # Some output to remind us that this WordPress
+                # madness should be adressed some day
                 if ($formDataSizeDiff > 0)
                 {
                     $extraMessage =
@@ -428,6 +479,10 @@
                         #       to remove from each line (thus, it is not
                         #       just for statistics - we actually need it
                         #       for correct operation).
+                        #
+                        #       But perhaps we could use the same technique
+                        #       as for removeTrailingSpacesAndTABs() and
+                        #       combine it into one function?
 
                         $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
 
@@ -545,8 +600,6 @@
                 accesskey="L"
                 title="Shortcut: Shift + Alt + L"
             />
-
-
 
         </form>
 
