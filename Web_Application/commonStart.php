@@ -15,10 +15,7 @@
     #   2. Centralise things (by means of helper functions) to eliminate
     #      some redundancy (e.g. Edit Overflow version).
 
-
     require_once('eFooter.php'); # Our own file, not WordPress...
-
-
 
 
     # Used by one page (EditOverflow.php)
@@ -39,7 +36,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a22 2020-04-03T185249Z+0";
+        return "Edit Overflow v. 1.1.49a26 2020-04-03T210449Z+0";
     }
 
 

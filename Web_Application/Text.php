@@ -101,6 +101,7 @@
                 $lines = explode("\r\n", $someText);
 
                 $commonLeadingSpaces = 9999;
+                $nonEmptyLines = 0;
 
                 # Find the non-empty line with the least number
                 # of leading spaces - that is how many leading
@@ -113,6 +114,8 @@
                     # Ignore empty lines
                     if ($item !== "")
                     {
+                        $nonEmptyLines++;
+
                         $leadingSpaces = 0;
                         if (preg_match('/^(\s+)/', $item, $out))
                         {
@@ -129,6 +132,10 @@
                             $commonLeadingSpaces = $leadingSpaces;
                         }
                     }
+                }
+                if ($nonEmptyLines <= 1)
+                {
+                    $commonLeadingSpaces = 0;
                 }
                 return $commonLeadingSpaces;
             } # findCommonLeadingSpaces()
@@ -301,9 +308,39 @@
                 #echo "<br/><br/>\n";
                 #echo "Start of test $ID ...\n";
 
-                #Later: refactor these two calls (we also
-                #       have it in the normal client code)
+                #Later: refactor these two calls (we also have
+                #       it in the normal client code)
                 $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
+
+                # Note: $aLengthDiff is not the same as $leadingSpaceToRemove
+                #       as $leadingSpaceToRemove is per line and there
+                #       can be many lines...
+                #
+                # But at least $aLengthDiff should be a multiplum
+                # of $leadingSpaceToRemove:
+
+                if (! (
+                        (  $aLengthDiff >= $leadingSpaceToRemove)       &&
+
+                        (
+                          ($leadingSpaceToRemove === 0) # Guard for division
+                                                        # by zero - short circuit
+                                                        # Boolean presumed
+
+                                                   ||
+                          (($aLengthDiff % $leadingSpaceToRemove) === 0)
+                        )
+                      )
+                   )
+                {
+                    echo "<br/><br/>\n";
+                    echo
+                      "Failed test. ID: $ID. Leading spaces to remove " .
+                      "(per line), $leadingSpaceToRemove, is larger than " .
+                      "(or otherwise incompatiple) the total number " .
+                      "of removed spaces, $aLengthDiff...\n";
+                    assert(false);
+                }
 
                 #echo "In test $ID: $leadingSpaceToRemove leading spaces to remove.\n";
 
@@ -328,7 +365,7 @@
             }
 
 
-            # General comments about testing:
+            # General comments/notes about testing:
             #
             #   1. To simulate what happens in the browser we need
             #      to use "\r\n" (Windows like), not "\r\n"
@@ -339,6 +376,15 @@
             #   2. We currently test by checking for length differences,
             #      not the actual content. It is less specific testing,
             #      but also with less redundancy.
+            #
+            #      We also don't detect if findCommonLeadingSpaces() return
+            #      wrong values with no consequence. E.g. 9999 for content
+            #      where nothing should be removed.
+            #
+            #   3. Many of the text cases could be reduced down to the
+            #      essential part (they are arbitrary real-world
+            #      examples).
+            #
 
             test_removeTrailingSpacesAndTABs(1001, "XX "           ,  1);
             test_removeTrailingSpacesAndTABs(1002, "X XX  XXX X\t ",  2);
@@ -346,8 +392,9 @@
             test_removeTrailingSpacesAndTABs(1004, "X XX  XXX X"   ,  0);
             test_removeTrailingSpacesAndTABs(1005, "X XX \t XXX X" , -3);
 
+            # Content with a single (non-empty) line should be left alone.
             test_removeCommonLeadingSpaces(1006,
-                "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 8);
+                "        *https://en.wikipedia.org/wiki/Catalan_Opening*", 0);
 
             # Leading TABs
             test_removeCommonLeadingSpaces(1007,
@@ -376,6 +423,16 @@
                 " 28:50 : On page _Sequence alignment_\r\n" .
                   "                *https://en.wikipedia.org/wiki/Sequence_alignment*\r\n",
                 2);
+
+            # Content with a single (non-empty) line should be left alone.
+            test_removeCommonLeadingSpaces(1012,
+                "      https://www.youtube.com/watch?v=8Tnf_J3fTgU&lc=Ugy4ijM7CwjmKeVLgDd4AaABAg\r\n",
+                0);
+
+            # Some as 1012, but without an empty line.
+            test_removeCommonLeadingSpaces(1013,
+                "      https://www.youtube.com/watch?v=8Tnf_J3fTgU&lc=Ugy4ijM7CwjmKeVLgDd4AaABAg",
+                0);
 
             # ----------------------------------------------------------------
 
