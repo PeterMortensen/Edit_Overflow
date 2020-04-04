@@ -197,8 +197,15 @@
 
                 # Reversals for some of the false
                 # positives in URL processing
+                #
+                # Future: Perhaps general reversal near the end, after
+                #         the last "/"? Say, for ".html".
+                #
                 $replacer->transform('E DOT g\.', 'E.g.');
                 $replacer->transform('e DOT g\.', 'e.g.');
+                $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
+                $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
+                
 
                 # Convert email addresses like so... (at least
                 # to offer some protection (and avoiding
@@ -402,7 +409,7 @@
 
             # Removal of "www" for the encoded YouTube URLs
             test_transformFor_YouTubeComments(1008,
-                "     https://www.youtube.com/watch?v=_pybvjmjLT0\n        ",
+                "     https://www.youtube.com/watch?v=_pybvjmjLT0\r\n        ",
               8);
 
             # Input containing lines ***without*** leading
@@ -434,7 +441,29 @@
                 "      https://www.youtube.com/watch?v=8Tnf_J3fTgU&lc=Ugy4ijM7CwjmKeVLgDd4AaABAg",
                 0);
 
+            # Test-first for new exceptions to the general URL substitution -
+            # prompted by Node.js, both as pure text and in the Wikipedia URL
+            # (but it will cover many JavaScript frameworks).
+            #
+            # Note: The *first* part of an HTTPS Wikipedia URL happens
+            #       to have the same length after transformation. This
+            #       is pure coincidence.
+            #
+            test_transformFor_YouTubeComments(1014,
+                "     https://en.wikipedia.org/wiki/Node.js    \r\n",
+              0);
+
+            test_transformFor_YouTubeComments(1015, "Node.js", 0);
+
+            # Normal full stops
+            test_transformFor_YouTubeComments(1016, "first job._", 0);
+            test_transformFor_YouTubeComments(1017, "first job.", 0);
+
+#first job DOT _
+
             # ----------------------------------------------------------------
+
+
 
 
             $message = "";
