@@ -10564,6 +10564,7 @@ namespace OverflowHelper.core
             correctionAdd("mngt", "management");
 
             correctionAdd("portuguese", "Portuguese");
+            correctionAdd("Purtiguise", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
 
@@ -11462,6 +11463,7 @@ namespace OverflowHelper.core
 
             correctionAdd("allready", "already");
             correctionAdd("alredy", "already");
+            correctionAdd("alrdy", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -14779,6 +14781,7 @@ namespace OverflowHelper.core
             correctionAdd("over write", "overwrite");
 
             correctionAdd("personnally", "personally");
+            correctionAdd("personnaly", "personally");
 
             correctionAdd("pre-allocated", "preallocated");
 
@@ -15474,6 +15477,7 @@ namespace OverflowHelper.core
 
             correctionAdd("positivr", "positive");
             correctionAdd("postive", "positive");
+            correctionAdd("possitive", "positive");
 
             correctionAdd("pune", "Pune");
 
@@ -15648,6 +15652,7 @@ namespace OverflowHelper.core
             correctionAdd("grandmaster", "Grandmaster"); // Chess
 
             correctionAdd("Italian game", "Italian Game"); // Chess
+            correctionAdd("Italian opening", "Italian Game"); // Chess
 
             correctionAdd("bongcloud", "Bong-Cloud opening"); // Chess
             correctionAdd("bong cloud", "Bong-Cloud opening"); // Chess
@@ -15667,6 +15672,8 @@ namespace OverflowHelper.core
             correctionAdd("four knights", "Four Knights Game");
 
             correctionAdd("end game", "endgame");
+            
+            correctionAdd("knigth", "knight");
 
 
 
@@ -15805,6 +15812,7 @@ namespace OverflowHelper.core
             correctionAdd("Retina Display", "Retina display");
 
             correctionAdd("componenet", "component");
+            correctionAdd("componant", "component");
 
             correctionAdd("orginal", "original");
 
@@ -16110,8 +16118,21 @@ namespace OverflowHelper.core
             correctionAdd("ebola", "Ebola");
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
+            correctionAdd("rona", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
+
+            correctionAdd("xfig", "Xfig");
+
+            correctionAdd("minite", "minute");
+
+            correctionAdd("on porpouse", "on purpose");
+
+            correctionAdd("pitoresque", "picturesque");
+
+            correctionAdd("proportionnaly", "proportionally");
+
+            correctionAdd("porpouse", "purpose");
 
 
             //HACK: AASDASD
@@ -24128,6 +24149,19 @@ namespace OverflowHelper.core
 
             URL_Add("them", "https://en.wiktionary.org/wiki/them#Pronoun");
 
+            URL_Add("Xfig", "https://en.wikipedia.org/wiki/Xfig");
+
+            URL_Add("minute", "https://en.wiktionary.org/wiki/minute#Noun");
+
+            URL_Add("on purpose", "https://en.wiktionary.org/wiki/on_purpose#Prepositional_phrase");
+
+            URL_Add("picturesque", "https://en.wiktionary.org/wiki/picturesque#Adjective");
+
+            URL_Add("proportionally", "https://en.wiktionary.org/wiki/proportionally#Adverb");
+
+            URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#English");
+
+            URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
 
 
 
