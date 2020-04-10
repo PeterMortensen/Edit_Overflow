@@ -6353,10 +6353,11 @@ namespace OverflowHelper.core
             correctionAdd("LinuxMint", "Linux Mint");
             correctionAdd("Linuxmint", "Linux Mint");
 
-
             correctionAdd("signalr", "SignalR");
             correctionAdd("signalR", "SignalR");
             correctionAdd("Signalr", "SignalR");
+            correctionAdd("signal r", "SignalR");
+            correctionAdd("Signal R", "SignalR");
 
             correctionAdd("webOS", "WebOS");
 
@@ -8880,6 +8881,7 @@ namespace OverflowHelper.core
             correctionAdd("instagram", "Instagram");
             correctionAdd("insta", "Instagram");
             correctionAdd("Insta", "Instagram");
+            correctionAdd("Instragram", "Instagram");
 
             correctionAdd("beautifulsoap", "Beautiful Soup");
             correctionAdd("beautifulsoup", "Beautiful Soup");
@@ -9073,6 +9075,8 @@ namespace OverflowHelper.core
 
             correctionAdd("chinese", "Chinese");
             correctionAdd("Chiense", "Chinese");
+            correctionAdd("chineese", "Chinese");
+            correctionAdd("Chineese", "Chinese");
 
             correctionAdd("atleast", "at least");
             correctionAdd("alteast", "at least");
@@ -9926,6 +9930,8 @@ namespace OverflowHelper.core
             correctionAdd("excample", "example");
             correctionAdd("Exampe", "example");
             correctionAdd("exampe", "example");
+            correctionAdd("Exapmple", "example");
+            correctionAdd("exapmple", "example");
 
             correctionAdd("european", "European");
 
@@ -11447,6 +11453,7 @@ namespace OverflowHelper.core
             correctionAdd("usbtmc", "USBTMC");
 
             correctionAdd("inorder", "in order");
+            correctionAdd("Inorder", "in order");
 
             correctionAdd("incriment", "increment");
 
@@ -11494,6 +11501,7 @@ namespace OverflowHelper.core
             correctionAdd("stubled", "stumble");
 
             correctionAdd("writen", "written");
+            correctionAdd("wrtten", "written");
 
             correctionAdd("BSC", "BSc");
 
@@ -13481,15 +13489,6 @@ namespace OverflowHelper.core
             correctionAdd("guava", "Google Guava");
             correctionAdd("Guava", "Google Guava");
 
-            correctionAdd("Java6", "Java&nbsp;6");
-            correctionAdd("java 6", "Java&nbsp;6");
-
-            correctionAdd("Java7", "Java&nbsp;7");
-            correctionAdd("java 7", "Java&nbsp;7");
-
-            correctionAdd("java 8", "Java&nbsp;8");
-            correctionAdd("Java8", "Java&nbsp;8");
-
             correctionAdd("mutt", "Mutt");
 
             correctionAdd("pico", "Pico");
@@ -13640,6 +13639,7 @@ namespace OverflowHelper.core
 
             correctionAdd("guarantied", "guaranteed");
             correctionAdd("guarantueed", "guaranteed");
+            correctionAdd("guarangteed", "guaranteed");
 
             correctionAdd("heres", "here's");
             correctionAdd("Heres", "here's");
@@ -14022,6 +14022,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Wasm", "WebAssembly");
             correctionAdd("WASM", "WebAssembly");
+            correctionAdd("web assembly", "WebAssembly");
 
             correctionAdd("webvr", "WebVR");
 
@@ -15669,11 +15670,16 @@ namespace OverflowHelper.core
             correctionAdd("morphy", "Paul Morphy"); // Chess
             correctionAdd("mophy", "Paul Morphy"); // Chess
 
-            correctionAdd("four knights", "Four Knights Game");
+            correctionAdd("four knights", "Four Knights Game"); // Chess
 
-            correctionAdd("end game", "endgame");
-            
-            correctionAdd("knigth", "knight");
+            correctionAdd("end game", "endgame"); // Chess
+
+            correctionAdd("knigth", "knight"); // Chess
+
+            correctionAdd("bernoni", "Benoni Defense"); // Chess
+            correctionAdd("benoni", "Benoni Defense"); // Chess
+
+            correctionAdd("wienna game", "Vienna Game"); // Chess
 
 
 
@@ -16055,6 +16061,43 @@ namespace OverflowHelper.core
 
             correctionAdd("RAID6", "RAID&nbsp;6");
 
+            correctionAdd("xfig", "Xfig");
+
+            correctionAdd("minite", "minute");
+
+            correctionAdd("on porpouse", "on purpose");
+
+            correctionAdd("pitoresque", "picturesque");
+
+            correctionAdd("proportionnaly", "proportionally");
+
+            correctionAdd("porpouse", "purpose");
+
+            correctionAdd("Kief", "Kiev");
+
+            correctionAdd("uncle bob", "Uncle Bob");
+
+            correctionAdd("critisising", "criticising");
+
+            correctionAdd("Hold my beer", "hold my beer");
+
+            correctionAdd("How", "how");
+
+            correctionAdd("Java6", "Java&nbsp;6");
+            correctionAdd("java 6", "Java&nbsp;6");
+            correctionAdd("Java 6", "Java&nbsp;6"); // Sort of self
+
+            correctionAdd("Java7", "Java&nbsp;7");
+            correctionAdd("java 7", "Java&nbsp;7");
+            correctionAdd("Java 7", "Java&nbsp;7"); // Sort of self
+
+            correctionAdd("java 8", "Java&nbsp;8");
+            correctionAdd("Java8", "Java&nbsp;8");
+            correctionAdd("Java 8", "Java&nbsp;8"); // Sort of self
+
+            correctionAdd("java9", "Java&nbsp;9");
+            correctionAdd("Java9", "Java&nbsp;9");
+            correctionAdd("Java 9", "Java&nbsp;9"); // Sort of self
 
 
             // Start of coronavirus part...
@@ -16122,17 +16165,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Spanish Flu", "Spanish flu");
 
-            correctionAdd("xfig", "Xfig");
-
-            correctionAdd("minite", "minute");
-
-            correctionAdd("on porpouse", "on purpose");
-
-            correctionAdd("pitoresque", "picturesque");
-
-            correctionAdd("proportionnaly", "proportionally");
-
-            correctionAdd("porpouse", "purpose");
 
 
             //HACK: AASDASD
@@ -24162,6 +24194,22 @@ namespace OverflowHelper.core
             URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#English");
 
             URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
+
+            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
+
+            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
+
+            URL_Add("Java&nbsp;9", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_9");
+
+            URL_Add("Kiev", "https://en.wikipedia.org/wiki/Kiev");
+
+            URL_Add("Uncle Bob", "https://en.wikipedia.org/wiki/Robert_C._Martin");
+
+            URL_Add("criticising", "https://en.wiktionary.org/wiki/criticise");
+
+            URL_Add("hold my beer", "https://knowyourmeme.com/memes/hold-my-beer");
+
+            URL_Add("how", "https://en.wiktionary.org/wiki/how#Adverb");
 
 
 
