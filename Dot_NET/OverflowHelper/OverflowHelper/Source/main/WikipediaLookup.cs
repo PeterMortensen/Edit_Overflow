@@ -14783,6 +14783,7 @@ namespace OverflowHelper.core
 
             correctionAdd("personnally", "personally");
             correctionAdd("personnaly", "personally");
+            correctionAdd("Personnaly", "personally");
 
             correctionAdd("pre-allocated", "preallocated");
 
@@ -16098,6 +16099,18 @@ namespace OverflowHelper.core
             correctionAdd("java9", "Java&nbsp;9");
             correctionAdd("Java9", "Java&nbsp;9");
             correctionAdd("Java 9", "Java&nbsp;9"); // Sort of self
+
+            correctionAdd("brach", "branch");
+
+            correctionAdd("remotly", "remotely");
+
+            correctionAdd("submiter", "submitter");
+
+            correctionAdd("taxing", "taxiing");
+
+            correctionAdd("trashcan", "trash can");
+
+            correctionAdd("unsable", "unusable");
 
 
             // Start of coronavirus part...
@@ -24210,6 +24223,19 @@ namespace OverflowHelper.core
             URL_Add("hold my beer", "https://knowyourmeme.com/memes/hold-my-beer");
 
             URL_Add("how", "https://en.wiktionary.org/wiki/how#Adverb");
+
+            URL_Add("branch", "https://en.wiktionary.org/wiki/branch#Noun");
+
+            URL_Add("remotely", "https://en.wiktionary.org/wiki/remotely#Adverb");
+
+            URL_Add("submitter", "https://en.wiktionary.org/wiki/submitter#Noun");
+
+            URL_Add("taxiing", "https://en.wiktionary.org/wiki/taxi#Verb");
+
+            URL_Add("trash can", "https://en.wiktionary.org/wiki/trash_can#English");
+
+            URL_Add("unusable", "https://en.wiktionary.org/wiki/unusable#Adjective");
+
 
 
 
