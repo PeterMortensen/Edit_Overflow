@@ -24,6 +24,10 @@ export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
 export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html # Fixed name
 
 
+# Open a web page for verification of push to GitHub
+xdg-open "https://github.com/PeterMortensen/Edit_Overflow"
+
+
 # Open the Simply.com (formerly UnoEuro) import
 # page (immediately so we can prepare while
 # the rest of the script is running)
