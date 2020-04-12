@@ -2275,7 +2275,7 @@ namespace OverflowHelper.core
             correctionAdd("memcached", "Memcached");
             correctionAdd("Memcache", "Memcached");
             correctionAdd("memcache", "Memcached");
-            correctionAdd("MC", "Memcached"); //Collisions?? Microcontroller is none...
+            correctionAdd("MC", "Memcached"); // Collisions?? Microcontroller is one... And Midnight Commander
 
             correctionAdd("fastcgi", "FastCGI");
             correctionAdd("Fastcgi", "FastCGI");
@@ -10436,7 +10436,7 @@ namespace OverflowHelper.core
             correctionAdd("uController", "microcontroller");
             correctionAdd("micro-controller", "microcontroller");
             correctionAdd("uC", "microcontroller"); //Expansion
-            correctionAdd("mc", "microcontroller"); //Colision with something else?
+            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
             correctionAdd("MCU", "microcontroller"); //Expansion
             correctionAdd("micro controllers", "microcontroller"); //Plural...
             correctionAdd("micro controller", "microcontroller");
