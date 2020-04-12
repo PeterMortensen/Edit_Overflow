@@ -10286,15 +10286,12 @@ namespace OverflowHelper.core
             correctionAdd("Simillar", "similar");
             correctionAdd("Similiar", "similar");
 
-
-            // But Wiktionary says: "(obsolete) Similar."
-            //
-            correctionAdd("Similary", "similary"); //Not 100% correct - case.
-            correctionAdd("similarly", "similary");
-            correctionAdd("Similarly", "similary"); //Not 100% correct - case.
-            correctionAdd("similaly", "similary");
-            correctionAdd("Similaly", "similary"); //Not 100% correct - case.
-            correctionAdd("simillarly", "similary");
+            correctionAdd("Similary", "similarly"); //Not 100% correct - case.
+            correctionAdd("similary", "similarly");
+            correctionAdd("Similarly", "similarly"); //Not 100% correct - case.
+            correctionAdd("similaly", "similarly");
+            correctionAdd("Similaly", "similarly"); //Not 100% correct - case.
+            correctionAdd("simillarly", "similarly");
 
             correctionAdd("Instaltaion", "installation"); //Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -19266,7 +19263,7 @@ namespace OverflowHelper.core
 
             URL_Add("question", "https://en.wiktionary.org/wiki/question#Noun");
 
-            URL_Add("similar", "https://en.wiktionary.org/wiki/similiar");
+            URL_Add("similarly", "https://en.wiktionary.org/wiki/similarly#English");
 
             URL_Add("C++14", "https://en.wikipedia.org/wiki/C%2B%2B14");
 
