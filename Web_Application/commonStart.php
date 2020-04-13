@@ -40,7 +40,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a29 2020-04-04T010803Z+0";
+        return "Edit Overflow v. 1.1.49a30 2020-04-13T161121Z+0";
     }
 
 
@@ -313,7 +313,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <title>Some edit summary fragments - Edit Overflow</title>
+        <title>Edit Overflow (generic title)</title>
 
         <style>
             body
