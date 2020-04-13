@@ -15545,9 +15545,6 @@ namespace OverflowHelper.core
             correctionAdd("king's indian", "King's Indian Defence"); // Chess
             correctionAdd("king's Indian", "King's Indian Defence");
 
-            correctionAdd("sicilian defence", "Sicilian Defence"); // Chess
-            correctionAdd("nidjorf chess", "Sicilian Defence"); // Chess
-            correctionAdd("sicilian", "Sicilian Defence"); // Chess
 
             correctionAdd("the dutch", "Dutch Defence"); // Chess
             correctionAdd("The Dutch", "Dutch Defence"); // Chess
@@ -15669,18 +15666,24 @@ namespace OverflowHelper.core
 
             correctionAdd("wienna game", "Vienna Game"); // Chess
 
-            correctionAdd("king gamblit", "King's Gambit");
-            correctionAdd("kings gambit", "King's Gambit");
+            correctionAdd("king gamblit", "King's Gambit"); // Chess
+            correctionAdd("kings gambit", "King's Gambit"); // Chess
 
-            correctionAdd("boden's mate", "Boden's Mate");
+            correctionAdd("boden's mate", "Boden's Mate"); // Chess
+
+            correctionAdd("sicilian defence", "Sicilian Defence"); // Chess
+            correctionAdd("sicilian", "Sicilian Defence"); // Chess
+
+            correctionAdd("nidjorf chess", "Sicilian Defence, Najdorf Variation"); // Chess
+            correctionAdd("nejdorf", "Sicilian Defence, Najdorf Variation"); // Chess
 
 
-
-            correctionAdd("karnataka", "Karnataka");
 
             correctionAdd("demonitisation", "demonetisation");
             correctionAdd("demonitization", "demonetisation");
             correctionAdd("demonetization", "demonetisation");
+
+            correctionAdd("karnataka", "Karnataka");
 
             correctionAdd("greenscreen", "green screen");
             correctionAdd("Greenscreen", "green screen");
@@ -23781,8 +23784,6 @@ namespace OverflowHelper.core
 
             URL_Add("Pune", "https://en.wikipedia.org/wiki/Pune");
 
-            URL_Add("Sicilian Defence", "https://en.wikipedia.org/wiki/Sicilian_Defence");
-
             URL_Add("Thursday", "https://en.wiktionary.org/wiki/Thursday#Noun");
 
             URL_Add("disgusting", "https://en.wiktionary.org/wiki/disgusting#Adjective");
@@ -24339,9 +24340,10 @@ namespace OverflowHelper.core
 
             URL_Add("similarly", "https://en.wiktionary.org/wiki/similarly#Adverb");
 
+            URL_Add("Sicilian Defence", "https://en.wikipedia.org/wiki/Sicilian_Defence");
 
+            URL_Add("Sicilian Defence, Najdorf Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Najdorf_Variation");
 
-//URL_Add("targetting", "https://en.wiktionary.org/wiki/targetting#Verb");
 
 
 
