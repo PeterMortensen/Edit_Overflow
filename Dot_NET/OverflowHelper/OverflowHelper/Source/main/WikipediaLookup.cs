@@ -3017,6 +3017,7 @@ namespace OverflowHelper.core
             correctionAdd("stackoverflopw", "Stack&nbsp;Overflow");
             correctionAdd("Stack Overlow", "Stack&nbsp;Overflow");
             correctionAdd("stack oveflow", "Stack&nbsp;Overflow");
+            correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -9465,6 +9466,8 @@ namespace OverflowHelper.core
             correctionAdd("comparrison", "comparison");
             correctionAdd("comparasion", "comparison");
             correctionAdd("comparsion", "comparison");
+            correctionAdd("comparism", "comparison");
+            correctionAdd("comparisom", "comparison");
 
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
@@ -10370,6 +10373,7 @@ namespace OverflowHelper.core
             correctionAdd("ocurred", "occurred");
 
             correctionAdd("developement", "development");
+            correctionAdd("devolpment", "development");
 
             correctionAdd("simulateous", "simultaneous");
             correctionAdd("Similtanous", "simultaneous");  //Not 100% correct - case.
@@ -11855,6 +11859,8 @@ namespace OverflowHelper.core
             correctionAdd("Refernce", "reference");
             correctionAdd("Reference", "reference");
             correctionAdd("refenrece", "reference");
+            correctionAdd("rerefence", "reference");
+            correctionAdd("refefence", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -12205,6 +12211,7 @@ namespace OverflowHelper.core
             correctionAdd("concious", "conscious");
 
             correctionAdd("dept", "department");
+            correctionAdd("depoartment", "department");
 
             correctionAdd("en counter", "encounter");
 
@@ -13711,6 +13718,7 @@ namespace OverflowHelper.core
             correctionAdd("dilema", "dilemma");
 
             correctionAdd("espaced", "escape");
+            correctionAdd("esacape", "escape");
 
             correctionAdd("GLIBC", "glibc");
 
@@ -15677,6 +15685,8 @@ namespace OverflowHelper.core
             correctionAdd("nidjorf chess", "Sicilian Defence, Najdorf Variation"); // Chess
             correctionAdd("nejdorf", "Sicilian Defence, Najdorf Variation"); // Chess
 
+            correctionAdd("blitz chess", "Blitz (chess)");
+
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -16169,6 +16179,19 @@ namespace OverflowHelper.core
             correctionAdd("similaly", "similarly");
             correctionAdd("Similaly", "similarly"); //Not 100% correct - case.
             correctionAdd("simillarly", "similarly");
+
+            correctionAdd("Blob", "BLOB");
+            correctionAdd("blob", "BLOB");
+
+            correctionAdd("foot note", "footnote");
+
+            correctionAdd("hand-coded", "hard coded");
+            correctionAdd("hand-codded", "hard coded");
+            correctionAdd("hard-codded", "hard coded");
+            correctionAdd("hard-coded", "hard coded");
+            correctionAdd("hardcoded", "hard coded");
+
+            correctionAdd("intance", "instance");
 
 
             // Start of coronavirus part...
@@ -24344,6 +24367,15 @@ namespace OverflowHelper.core
 
             URL_Add("Sicilian Defence, Najdorf Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Najdorf_Variation");
 
+            URL_Add("BLOB", "https://en.wikipedia.org/wiki/Binary_large_object");
+
+            URL_Add("Blitz (chess)", "https://en.wikipedia.org/wiki/Fast_chess#Blitz");
+
+            URL_Add("footnote", "https://en.wiktionary.org/wiki/footnote#Noun");
+
+            URL_Add("hard coded", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("instance", "https://en.wiktionary.org/wiki/instance#Noun");
 
 
 
