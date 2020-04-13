@@ -158,13 +158,15 @@
     # Single quotes, etc. are currently escaped if
     # using WordPress (that is, in the form data).
     #
-    # Note: Currently it is only done for a specific element,
-    #       "someText" (used by a specific page, Text.php)
+    # Note: Currently it is only done for specific elements, e.g. 
+    #       for "someText" (used by a specific page, Text.php)
+    #
+    #       That is, the elements must be explicitly included/
+    #       handled in this function.
     #
     function adjustForWordPressMadness()
     {
         global $_REQUEST;
-        #global MAINTEXT;
         global $formDataSizeDiff;
 
         # When we open the form (URL with ".php")
@@ -201,7 +203,7 @@
 
             $formDataSizeAfter = strlen(get_postParameter(MAINTEXT));
 
-            # Note: Only for one specific element,
+            # Note: Only for specific elements, e.g.
             #       "someText", only used in Text.php.
             #
             $formDataSizeDiff = $formDataSizeBefore - $formDataSizeAfter;
