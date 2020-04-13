@@ -5810,6 +5810,7 @@ namespace OverflowHelper.core
             correctionAdd("Ive", "I’ve");
             correctionAdd("Iv'e", "I’ve");
             correctionAdd("I've", "I’ve");
+            correctionAdd("iv", "I’ve");
 
             correctionAdd("foursquare", "Foursquare");
             correctionAdd("Four square", "Foursquare");
@@ -10079,6 +10080,7 @@ namespace OverflowHelper.core
             correctionAdd("Behavior Driven Development", "behavior-driven development");
             correctionAdd("Behavior-Driven Development", "behavior-driven development");
             correctionAdd("bdd", "behavior-driven development");
+            correctionAdd("Behaviour Driven Development", "behavior-driven development");
 
             correctionAdd("apperently", "apparently");
             correctionAdd("aparently", "apparently");
@@ -10277,21 +10279,6 @@ namespace OverflowHelper.core
             correctionAdd("expanation", "explanation");
             correctionAdd("Expanation", "explanation");
             correctionAdd("Explaination", "explanation");
-
-            correctionAdd("similiar", "similar");
-            correctionAdd("simillar", "similar");
-            correctionAdd("simmiller", "similar");
-            correctionAdd("smililar", "similar");
-            correctionAdd("simlar", "similar");
-            correctionAdd("Simillar", "similar");
-            correctionAdd("Similiar", "similar");
-
-            correctionAdd("Similary", "similarly"); //Not 100% correct - case.
-            correctionAdd("similary", "similarly");
-            correctionAdd("Similarly", "similarly"); //Not 100% correct - case.
-            correctionAdd("similaly", "similarly");
-            correctionAdd("Similaly", "similarly"); //Not 100% correct - case.
-            correctionAdd("simillarly", "similarly");
 
             correctionAdd("Instaltaion", "installation"); //Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -12715,6 +12702,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PL-1", "PL/I");
             correctionAdd("PL1", "PL/I");
+            correctionAdd("PL/1", "PL/I");
 
             correctionAdd("xfs", "XFS");
 
@@ -14020,6 +14008,7 @@ namespace OverflowHelper.core
             correctionAdd("Wasm", "WebAssembly");
             correctionAdd("WASM", "WebAssembly");
             correctionAdd("web assembly", "WebAssembly");
+            correctionAdd("webassembly", "WebAssembly");
 
             correctionAdd("webvr", "WebVR");
 
@@ -15549,7 +15538,7 @@ namespace OverflowHelper.core
 
             correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
 
-            correctionAdd("chessplayer", "chess player");
+            correctionAdd("chessplayer", "chess player"); // Chess
 
             correctionAdd("King's Indian", "King's Indian Defence"); // Chess
             correctionAdd("kings indian", "King's Indian Defence"); // Chess
@@ -15623,8 +15612,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Fianchetto", "fianchetto");// Chess
 
-            correctionAdd("Petrov", "Petrov's Defence");
-            correctionAdd("petrov", "Petrov's Defence");
+            correctionAdd("Petrov", "Petrov's Defence"); // Chess
+            correctionAdd("petrov", "Petrov's Defence"); // Chess
 
             correctionAdd("evans gambit declined", "Evans Gambit Declined"); // Chess
 
@@ -15633,8 +15622,9 @@ namespace OverflowHelper.core
             correctionAdd("evans", "Evans Gambit"); // Chess
             correctionAdd("evins", "Evans Gambit"); // Chess
             correctionAdd("evens gambit", "Evans Gambit"); // Chess
-            correctionAdd("Evan gambit", "Evans Gambit");
-            correctionAdd("EVANS Gambit", "Evans Gambit");
+            correctionAdd("Evan gambit", "Evans Gambit"); // Chess
+            correctionAdd("EVANS Gambit", "Evans Gambit"); // Chess
+            correctionAdd("Evan's gambit", "Evans Gambit"); // Chess
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -15678,6 +15668,11 @@ namespace OverflowHelper.core
             correctionAdd("benoni", "Benoni Defense"); // Chess
 
             correctionAdd("wienna game", "Vienna Game"); // Chess
+
+            correctionAdd("king gamblit", "King's Gambit");
+            correctionAdd("kings gambit", "King's Gambit");
+
+            correctionAdd("boden's mate", "Boden's Mate");
 
 
 
@@ -16104,10 +16099,73 @@ namespace OverflowHelper.core
             correctionAdd("submiter", "submitter");
 
             correctionAdd("taxing", "taxiing");
+            correctionAdd("taxying", "taxiing");
 
             correctionAdd("trashcan", "trash can");
 
             correctionAdd("unsable", "unusable");
+
+            correctionAdd("fiance", "fiancé");
+
+            correctionAdd("bspwm", "Bspwm");
+
+            correctionAdd("cics", "CICS");
+
+            correctionAdd("coq", "Coq");
+
+            correctionAdd("Jamstack", "JAMstack");
+
+            correctionAdd("PYo3", "PyO3");
+            correctionAdd("pyo3", "PyO3");
+
+            correctionAdd("sql server 2017", "SQL Server 2017");
+
+            correctionAdd("sql server 2019", "SQL Server 2019");
+
+            correctionAdd("tco", "TCO");
+
+            correctionAdd("toronto", "Toronto");
+
+            correctionAdd("webflow", "Webflow");
+
+            correctionAdd("analise", "analysis");
+
+            correctionAdd("attemptig", "attempting");
+
+            correctionAdd("fiel", "file");
+
+            correctionAdd("inpromptu", "impromptu");
+            correctionAdd("in promptu", "impromptu");
+
+            correctionAdd("maniuplation", "manipulation");
+
+            correctionAdd("Many", "many");
+
+            correctionAdd("marrage", "marriage");
+
+            correctionAdd("Sign-Up", "signup");
+
+            correctionAdd("sme", "some");
+
+            correctionAdd("targeting", "targetting");
+
+            correctionAdd("someon’es", "someone’s");
+            correctionAdd("someone's", "someone’s");
+
+            correctionAdd("similiar", "similar");
+            correctionAdd("simillar", "similar");
+            correctionAdd("simmiller", "similar");
+            correctionAdd("smililar", "similar");
+            correctionAdd("simlar", "similar");
+            correctionAdd("Simillar", "similar");
+            correctionAdd("Similiar", "similar");
+
+            correctionAdd("Similary", "similarly"); //Not 100% correct - case.
+            correctionAdd("similary", "similarly");
+            correctionAdd("Similarly", "similarly"); //Not 100% correct - case.
+            correctionAdd("similaly", "similarly");
+            correctionAdd("Similaly", "similarly"); //Not 100% correct - case.
+            correctionAdd("simillarly", "similarly");
 
 
             // Start of coronavirus part...
@@ -19263,8 +19321,6 @@ namespace OverflowHelper.core
 
             URL_Add("question", "https://en.wiktionary.org/wiki/question#Noun");
 
-            URL_Add("similarly", "https://en.wiktionary.org/wiki/similarly#English");
-
             URL_Add("C++14", "https://en.wikipedia.org/wiki/C%2B%2B14");
 
             URL_Add("automatically", "https://en.wiktionary.org/wiki/automatically#Adverb");
@@ -19651,8 +19707,6 @@ namespace OverflowHelper.core
             URL_Add("implementation", "https://en.wiktionary.org/wiki/implementation#Noun");
 
             URL_Add("explanation", "https://en.wiktionary.org/wiki/explanation#Noun");
-
-            URL_Add("similary", "https://en.wiktionary.org/wiki/similary#Adjective");
 
             URL_Add("installation", "https://en.wiktionary.org/wiki/installation#Noun");
 
@@ -24232,6 +24286,62 @@ namespace OverflowHelper.core
             URL_Add("trash can", "https://en.wiktionary.org/wiki/trash_can#English");
 
             URL_Add("unusable", "https://en.wiktionary.org/wiki/unusable#Adjective");
+
+            URL_Add("fiancé", "https://en.wiktionary.org/wiki/fianc%C3%A9#Noun");
+
+            URL_Add("Boden's Mate", "https://en.wikipedia.org/wiki/Boden%27s_Mate");
+
+            URL_Add("Bspwm", "https://en.wikipedia.org/wiki/Draft:Bspwm");
+
+            URL_Add("CICS", "https://en.wikipedia.org/wiki/CICS");
+
+            URL_Add("Coq", "https://en.wikipedia.org/wiki/Coq");
+
+            URL_Add("JAMstack", "https://en.wikipedia.org/wiki/Netlify#JAMstack");
+
+            URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
+
+            URL_Add("PyO3", "https://github.com/PyO3");
+
+            URL_Add("SQL Server 2017", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2017");
+
+            URL_Add("SQL Server 2019", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2019");
+
+            URL_Add("TCO", "https://en.wiktionary.org/wiki/TCO#Noun");
+
+            URL_Add("Toronto", "https://en.wikipedia.org/wiki/Toronto");
+
+            URL_Add("Webflow", "https://en.wikipedia.org/wiki/Webflow#Overview");
+
+            URL_Add("analysis", "https://en.wiktionary.org/wiki/analysis#Noun");
+
+            URL_Add("attempting", "https://en.wiktionary.org/wiki/attempt#Verb");
+
+            URL_Add("file", "https://en.wiktionary.org/wiki/file#Noun");
+
+            URL_Add("impromptu", "https://en.wiktionary.org/wiki/impromptu#Adjective");
+
+            URL_Add("manipulation", "https://en.wiktionary.org/wiki/manipulation#Noun");
+
+            URL_Add("many", "https://en.wiktionary.org/wiki/many#Pronoun");
+
+            URL_Add("marriage", "https://en.wiktionary.org/wiki/marriage#Noun");
+
+            URL_Add("signup", "https://en.wiktionary.org/wiki/signup#Noun");
+
+            URL_Add("some", "https://en.wiktionary.org/wiki/some#Pronoun");
+
+            URL_Add("targetting", "https://en.wiktionary.org/wiki/targetting#Verb");
+
+            URL_Add("someone’s", "https://en.wiktionary.org/wiki/targetting#Verb");
+
+            URL_Add("similar", "https://en.wiktionary.org/wiki/similiar");
+
+            URL_Add("similarly", "https://en.wiktionary.org/wiki/similarly#Adverb");
+
+
+
+//URL_Add("targetting", "https://en.wiktionary.org/wiki/targetting#Verb");
 
 
 
