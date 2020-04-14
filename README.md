@@ -233,7 +233,7 @@ or constructive critisism are welcome.
 
     Possible other settings to remember are timer settings and last lookup.
 
-    Note: A solution should be not be brittle in face of version changes
+    Note: A solution should be not be brittle in face of ***version changes***
     (e.g. adding a new option to be remembered). Some of the automatic
     solutions very much have this problem. A solution should be based on the
     sound web principle of ignoring what is not understood (e.g. an
