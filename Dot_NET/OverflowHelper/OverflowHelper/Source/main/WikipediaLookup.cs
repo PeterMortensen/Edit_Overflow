@@ -9474,6 +9474,7 @@ namespace OverflowHelper.core
             correctionAdd("quesiton", "question");
             correctionAdd("qestion", "question");
             correctionAdd("qustion", "question");
+            correctionAdd("qn", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -10001,7 +10002,6 @@ namespace OverflowHelper.core
             correctionAdd("Cortex-m", "Cortex-M");
             correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
             correctionAdd("Cortex M", "Cortex-M");
-
 
             correctionAdd("sims", "seems");
             correctionAdd("seams", "seems");
@@ -14247,6 +14247,7 @@ namespace OverflowHelper.core
             correctionAdd("rts", "RTS");
 
             correctionAdd("accesing", "accessing");
+            correctionAdd("acessing", "accessing");
 
             correctionAdd("aquisition", "acquisition");
 
@@ -15639,6 +15640,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Italian game", "Italian Game"); // Chess
             correctionAdd("Italian opening", "Italian Game"); // Chess
+            correctionAdd("italian game", "Italian Game"); // Chess
 
             correctionAdd("bongcloud", "Bong-Cloud opening"); // Chess
             correctionAdd("bong cloud", "Bong-Cloud opening"); // Chess
@@ -16192,6 +16194,33 @@ namespace OverflowHelper.core
             correctionAdd("Creative Common", "Creative Commons");
 
             correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
+            correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
+            correctionAdd("BY-SA", "Creative Commons BY-SA");
+            correctionAdd("cc by-sa", "Creative Commons BY-SA");
+            correctionAdd("CC BY-SA", "Creative Commons BY-SA");
+
+            correctionAdd("Code complete", "Code Complete");
+
+            correctionAdd("D-day", "D-Day");
+
+            correctionAdd("EPIC", "Epic");
+
+            correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
+
+            correctionAdd("yoga", "Yoga");
+
+            correctionAdd("AR", "augmented reality");
+
+            correctionAdd("devide", "divide");
+
+            correctionAdd("gamma", "gamma ray");
+
+            correctionAdd("GR", "general relativity");
+            correctionAdd("General Relativity", "general relativity");
+
+            correctionAdd("left most", "leftmost");
+
+            correctionAdd("mis match", "mismatch");
 
 
 
@@ -24379,6 +24408,27 @@ namespace OverflowHelper.core
 
             URL_Add("instance", "https://en.wiktionary.org/wiki/instance#Noun");
 
+            URL_Add("Code Complete", "https://en.wikipedia.org/wiki/Code_Complete");
+
+            URL_Add("D-Day", "https://en.wikipedia.org/wiki/Normandy_landings");
+
+            URL_Add("Epic", "https://www.yodiz.com/blog/what-is-epic-in-agile-methodology-definition-and-template-of-epic/");
+
+            URL_Add("Heisenberg's uncertainty principle", "https://en.wikipedia.org/wiki/Uncertainty_principle");
+
+            URL_Add("Yoga", "https://en.wikipedia.org/wiki/Yoga");
+
+            URL_Add("augmented reality", "https://en.wikipedia.org/wiki/Augmented_reality");
+
+            URL_Add("divide", "https://en.wiktionary.org/wiki/divide#Verb");
+
+            URL_Add("gamma ray", "https://en.wikipedia.org/wiki/Gamma_ray");
+
+            URL_Add("general relativity", "https://en.wikipedia.org/wiki/General_relativity");
+
+            URL_Add("leftmost", "https://en.wiktionary.org/wiki/leftmost#Adjective");
+
+            URL_Add("mismatch", "https://en.wiktionary.org/wiki/mismatch#Noun");
 
 
 
