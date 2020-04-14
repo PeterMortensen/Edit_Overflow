@@ -50,7 +50,7 @@
 
 
             <a
-                href="https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html"
+                href="https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html"
                 title="The full Edit Overflow wordlist, about 10,000 incorrect terms."
             >Word list</a>.
 
