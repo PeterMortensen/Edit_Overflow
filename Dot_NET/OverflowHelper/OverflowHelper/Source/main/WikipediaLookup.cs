@@ -12422,9 +12422,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cloudfront", "Amazon CloudFront");
 
-            correctionAdd("creative commons", "Creative Commons");
-            correctionAdd("Creative Common", "Creative Commons");
-
             correctionAdd("flutter", "Flutter");
             correctionAdd("Fludder", "Flutter");
 
@@ -13094,8 +13091,6 @@ namespace OverflowHelper.core
             correctionAdd("Codelens", "CodeLens");
             correctionAdd("code lens", "CodeLens");
 
-            correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
-
             correctionAdd("Fuhrer", "Führer");
 
             correctionAdd("Goering", "Göring");
@@ -13474,9 +13469,6 @@ namespace OverflowHelper.core
             correctionAdd("acces", "access");
 
             correctionAdd("nCurses", "ncurses");
-
-            correctionAdd("Apache commons", "Apache Commons");
-            correctionAdd("apache commons", "Apache Commons");
 
             correctionAdd("guava", "Google Guava");
             correctionAdd("Guava", "Google Guava");
@@ -16193,6 +16185,15 @@ namespace OverflowHelper.core
 
             correctionAdd("intance", "instance");
 
+            correctionAdd("Apache commons", "Apache Commons");
+            correctionAdd("apache commons", "Apache Commons");
+
+            correctionAdd("creative commons", "Creative Commons");
+            correctionAdd("Creative Common", "Creative Commons");
+
+            correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
+
+
 
             // Start of coronavirus part...
 
@@ -16258,6 +16259,7 @@ namespace OverflowHelper.core
             correctionAdd("rona", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
+
 
 
 
