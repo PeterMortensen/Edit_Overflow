@@ -4381,6 +4381,7 @@ namespace OverflowHelper.core
             correctionAdd("DCHP", "DHCP");
 
             correctionAdd("ur", "your");
+            correctionAdd("yout", "your");
 
             correctionAdd("havent", "haven't");
             correctionAdd("havn't", "haven't");
@@ -5106,6 +5107,7 @@ namespace OverflowHelper.core
             correctionAdd("TortiseSVN", "TortoiseSVN");
 
             correctionAdd("tortoisehg", "TortoiseHg");
+            correctionAdd("Tortoise HG", "TortoiseHg");
 
             correctionAdd("structure map", "StructureMap");
             correctionAdd("structuremap", "StructureMap");
@@ -6213,6 +6215,8 @@ namespace OverflowHelper.core
             correctionAdd("SHA1", "SHA-1");
             correctionAdd("sha 1", "SHA-1");
             correctionAdd("Sha1", "SHA-1");
+            correctionAdd("sha-1", "SHA-1");
+            correctionAdd("Sha-1", "SHA-1");
 
             correctionAdd("SHA2", "SHA-2");
             correctionAdd("sha2", "SHA-2");
@@ -7176,6 +7180,7 @@ namespace OverflowHelper.core
             correctionAdd("relevent", "relevant");
             correctionAdd("relavent", "relevant");
             correctionAdd("relavant", "relevant");
+            correctionAdd("releveant", "relevant");
 
             correctionAdd("relete", "relate");
             correctionAdd("releted", "relate"); //Not 100% correct - word type.
@@ -8764,6 +8769,7 @@ namespace OverflowHelper.core
             correctionAdd("tcp-ip", "TCP/IP");
             correctionAdd("tcp ip", "TCP/IP");
             correctionAdd("TCP IP", "TCP/IP");
+            correctionAdd("tcpip", "TCP/IP");
 
             correctionAdd("IOT", "IoT");
             correctionAdd("Internet of Things", "IoT"); //Contraction...
@@ -12087,6 +12093,7 @@ namespace OverflowHelper.core
 
             correctionAdd("negatvie", "negative");
             correctionAdd("neg", "negative");
+            correctionAdd("negativ", "negative");
 
             correctionAdd("opinon", "opinion");
 
@@ -15679,7 +15686,12 @@ namespace OverflowHelper.core
             correctionAdd("nidjorf chess", "Sicilian Defence, Najdorf Variation"); // Chess
             correctionAdd("nejdorf", "Sicilian Defence, Najdorf Variation"); // Chess
 
-            correctionAdd("blitz chess", "Blitz (chess)");
+            correctionAdd("blitz chess", "Blitz (chess)"); // Chess
+
+            correctionAdd("scandinavian defense", "Scandinavian Defense"); // Chess
+            correctionAdd("scandinavian opening", "Scandinavian Defense"); // Chess
+
+            correctionAdd("roock", "rook"); // Chess
 
 
 
@@ -15753,6 +15765,7 @@ namespace OverflowHelper.core
             correctionAdd("houston", "Houston");
 
             correctionAdd("avout", "about");
+            correctionAdd("abou", "about");
 
             correctionAdd("open plan office", "open-plan office");
 
@@ -16221,6 +16234,52 @@ namespace OverflowHelper.core
             correctionAdd("left most", "leftmost");
 
             correctionAdd("mis match", "mismatch");
+
+            correctionAdd("mate", "MATE");
+
+            correctionAdd("Me Too", "MeToo");
+
+            correctionAdd("MF", "Micro Focus");
+
+            correctionAdd("assesed", "assessed");
+
+            correctionAdd("classis", "classic");
+
+            correctionAdd("conotation", "connotation");
+
+            correctionAdd("DOD", "data-oriented_design");
+
+            correctionAdd("dimenson", "dimension");
+
+            correctionAdd("dis-assembly", "disassembly");
+
+            correctionAdd("grafic", "graphic");
+
+            correctionAdd("improove", "improve");
+
+            correctionAdd("Intranet", "intranet");
+
+            correctionAdd("mannual", "manual");
+
+            correctionAdd("PasS", "platform as a service");
+            correctionAdd("Pass", "platform as a service");
+
+            correctionAdd("rleationship", "relationship");
+
+            correctionAdd("signaling", "signalling");
+
+            correctionAdd("stake holder", "stakeholder");
+
+            correctionAdd("sunk cost", "sunk cost fallacy");
+
+            correctionAdd("WFH", "working from home");
+
+            correctionAdd("ZOS", "z/OS");
+            correctionAdd("zos", "z/OS");
+
+            correctionAdd("zvm", "z/VM");
+
+            correctionAdd("zvse", "z/VSE");
 
 
 
@@ -24429,6 +24488,54 @@ namespace OverflowHelper.core
             URL_Add("leftmost", "https://en.wiktionary.org/wiki/leftmost#Adjective");
 
             URL_Add("mismatch", "https://en.wiktionary.org/wiki/mismatch#Noun");
+
+            URL_Add("MATE", "https://en.wikipedia.org/wiki/MATE_(software)");
+
+            URL_Add("MeToo", "https://en.wikipedia.org/wiki/Me_Too_movement");
+
+            URL_Add("Micro Focus", "https://en.wikipedia.org/wiki/Micro_Focus#History");
+
+            URL_Add("Scandinavian Defense", "https://en.wikipedia.org/wiki/Scandinavian_Defense");
+
+            URL_Add("assessed", "https://en.wiktionary.org/wiki/assess#Verb");
+
+            URL_Add("classic", "https://en.wiktionary.org/wiki/classic#Adjective");
+
+            URL_Add("connotation", "https://en.wiktionary.org/wiki/connotation#Noun");
+
+            URL_Add("data-oriented_design", "https://en.wikipedia.org/wiki/Data-oriented_design#Contrast_with_object_orientation");
+
+            URL_Add("dimension", "https://en.wiktionary.org/wiki/dimension#Noun");
+
+            URL_Add("disassembly", "https://en.wiktionary.org/wiki/disassembly#Noun");
+
+            URL_Add("graphic", "https://en.wiktionary.org/wiki/graphic#Noun");
+
+            URL_Add("improve", "https://en.wiktionary.org/wiki/improve#Verb");
+
+            URL_Add("intranet", "https://en.wikipedia.org/wiki/Intranet");
+
+            URL_Add("manual", "https://en.wiktionary.org/wiki/manual#Noun");
+
+            URL_Add("platform as a service", "https://en.wikipedia.org/wiki/Platform_as_a_service");
+
+            URL_Add("relationship", "https://en.wiktionary.org/wiki/relationship#Noun");
+
+            URL_Add("rook", "https://en.wikipedia.org/wiki/Rook_(chess)");
+
+            URL_Add("signalling", "https://en.wikipedia.org/wiki/Signalling_theory");
+
+            URL_Add("stakeholder", "https://en.wiktionary.org/wiki/stakeholder#Noun");
+
+            URL_Add("sunk cost fallacy", "https://en.wikipedia.org/wiki/Sunk_cost#The_fallacy_effect");
+
+            URL_Add("working from home", "https://en.wikipedia.org/wiki/Telecommuting");
+
+            URL_Add("z/OS", "https://en.wikipedia.org/wiki/Z/OS");
+
+            URL_Add("z/VM", "https://en.wikipedia.org/wiki/Z/VM");
+
+            URL_Add("z/VSE", "https://en.wikipedia.org/wiki/VSE_(operating_system)");
 
 
 
