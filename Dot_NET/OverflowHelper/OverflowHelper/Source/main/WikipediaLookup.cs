@@ -10753,17 +10753,6 @@ namespace OverflowHelper.core
 
             correctionAdd("strenhgt", "strength");
 
-            correctionAdd("successfull", "successful");
-            correctionAdd("sucessful", "successful");
-            correctionAdd("succesful", "successful");
-            correctionAdd("succesfull", "successful");
-
-            correctionAdd("succesfully", "successfully");
-            correctionAdd("secsessfully", "successfully");
-            correctionAdd("sucessfully", "successfully");
-            correctionAdd("Succesfully", "successfully");
-            correctionAdd("succesfuly", "successfully");
-
             correctionAdd("theres", "there's");
 
             correctionAdd("transfered", "transferred");
@@ -10985,10 +10974,6 @@ namespace OverflowHelper.core
             correctionAdd("pro", "professional");
             correctionAdd("profesional", "professional");
             correctionAdd("proffesional", "professional");
-
-            correctionAdd("succcess", "success");
-            correctionAdd("successs", "success");
-            correctionAdd("sucess", "success");
 
             correctionAdd("christian", "Christian");
 
@@ -11438,6 +11423,7 @@ namespace OverflowHelper.core
             correctionAdd("graphQL", "GraphQL");
 
             correctionAdd("MSys", "MSYS");
+            correctionAdd("msys", "MSYS");
 
             correctionAdd("Mac mini", "Mac Mini");
             correctionAdd("mac mini", "Mac Mini");
@@ -14680,6 +14666,7 @@ namespace OverflowHelper.core
             correctionAdd("whit", "with");
             correctionAdd("W/", "with");
             correctionAdd("whith", "with");
+            correctionAdd("wuth", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -15674,6 +15661,7 @@ namespace OverflowHelper.core
             correctionAdd("benoni", "Benoni Defense"); // Chess
 
             correctionAdd("wienna game", "Vienna Game"); // Chess
+            correctionAdd("Wienna", "Vienna Game"); // Chess
 
             correctionAdd("king gamblit", "King's Gambit"); // Chess
             correctionAdd("kings gambit", "King's Gambit"); // Chess
@@ -15693,6 +15681,7 @@ namespace OverflowHelper.core
 
             correctionAdd("roock", "rook"); // Chess
 
+            correctionAdd("firouzja", "Alireza Firouzja"); // Chess
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -15789,6 +15778,7 @@ namespace OverflowHelper.core
             correctionAdd("ExFat", "exFAT");
 
             correctionAdd("humor", "humour");
+            correctionAdd("homour", "humour");
 
             correctionAdd("polution", "pollution");
 
@@ -16227,6 +16217,7 @@ namespace OverflowHelper.core
             correctionAdd("devide", "divide");
 
             correctionAdd("gamma", "gamma ray");
+            correctionAdd("Gamma ray", "gamma ray");
 
             correctionAdd("GR", "general relativity");
             correctionAdd("General Relativity", "general relativity");
@@ -16281,6 +16272,33 @@ namespace OverflowHelper.core
 
             correctionAdd("zvse", "z/VSE");
 
+            correctionAdd("Al Quada", "Al-Qaeda");
+            correctionAdd("Al queda", "Al-Qaeda");
+            correctionAdd("Al Queda", "Al-Qaeda");
+
+            correctionAdd("google hangouts", "Google Hangouts");
+
+            correctionAdd("polish", "Polish");
+
+            correctionAdd("titanic", "Titanic");
+
+            correctionAdd("hole", "whole");
+
+            correctionAdd("successfull", "successful");
+            correctionAdd("sucessful", "successful");
+            correctionAdd("succesful", "successful");
+            correctionAdd("succesfull", "successful");
+
+            correctionAdd("succesfully", "successfully");
+            correctionAdd("secsessfully", "successfully");
+            correctionAdd("sucessfully", "successfully");
+            correctionAdd("Succesfully", "successfully");
+            correctionAdd("succesfuly", "successfully");
+
+            correctionAdd("succcess", "success");
+            correctionAdd("successs", "success");
+            correctionAdd("sucess", "success");
+            correctionAdd("succes", "success");
 
 
             // Start of coronavirus part...
@@ -24537,6 +24555,17 @@ namespace OverflowHelper.core
 
             URL_Add("z/VSE", "https://en.wikipedia.org/wiki/VSE_(operating_system)");
 
+            URL_Add("Al-Qaeda", "https://en.wikipedia.org/wiki/Al-Qaeda");
+
+            URL_Add("Alireza Firouzja", "https://en.wikipedia.org/wiki/Alireza_Firouzja");
+
+            URL_Add("Google Hangouts", "https://en.wikipedia.org/wiki/Google_Hangouts");
+
+            URL_Add("Polish", "https://en.wiktionary.org/wiki/Polish#Adjective");
+
+            URL_Add("Titanic", "https://en.wikipedia.org/wiki/RMS_Titanic");
+
+            URL_Add("whole", "https://en.wiktionary.org/wiki/whole#Noun");
 
 
             //========================================================
