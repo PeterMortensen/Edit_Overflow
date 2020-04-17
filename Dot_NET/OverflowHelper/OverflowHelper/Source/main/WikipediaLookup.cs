@@ -7861,6 +7861,7 @@ namespace OverflowHelper.core
 
             correctionAdd("google IO", "Google I/O");
             correctionAdd("Google io", "Google I/O");
+            correctionAdd("Google IO", "Google I/O");
 
             correctionAdd("BrainFuck", "Brainfuck");
             correctionAdd("BRAINFUCK", "Brainfuck");
@@ -10999,6 +11000,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dict", "dictionary");
             correctionAdd("disctionary", "dictionary");
+            correctionAdd("dictinary", "dictionary");
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
@@ -11624,6 +11626,7 @@ namespace OverflowHelper.core
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
+            correctionAdd("indea", "India");
 
             correctionAdd("Puttygen", "PuTTYgen");
 
@@ -13053,8 +13056,10 @@ namespace OverflowHelper.core
             correctionAdd("non mechanical", "nonmechanical");
 
             correctionAdd("probelm", "problem");
+            correctionAdd("probem", "problem");
 
             correctionAdd("suport", "support");
+            correctionAdd("supoprt", "support");
 
             correctionAdd("fltk", "FLTK");
 
@@ -13117,6 +13122,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ethereum", "Ethereum");
             correctionAdd("Etherium", "Ethereum");
+            correctionAdd("Ethereuem", "Ethereum");
 
             correctionAdd("ammend", "amend");
 
@@ -15273,6 +15279,8 @@ namespace OverflowHelper.core
             correctionAdd("jump drive", "USB flash drive");
             correctionAdd("memory stick", "USB flash drive");
             correctionAdd("USB stick", "USB flash drive");
+            correctionAdd("pendrive", "USB flash drive");
+            correctionAdd("USB drive", "USB flash drive");
 
             correctionAdd("compile-able", "compilable");
 
@@ -15682,6 +15690,11 @@ namespace OverflowHelper.core
             correctionAdd("roock", "rook"); // Chess
 
             correctionAdd("firouzja", "Alireza Firouzja"); // Chess
+
+            correctionAdd("Gary Kasparov", "Garry Kasparov");
+            correctionAdd("kasporav", "Garry Kasparov");
+            correctionAdd("kasparov", "Garry Kasparov");
+
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -16299,6 +16312,23 @@ namespace OverflowHelper.core
             correctionAdd("successs", "success");
             correctionAdd("sucess", "success");
             correctionAdd("succes", "success");
+
+            correctionAdd("fing", "Fing");
+
+            correctionAdd("modi", "Modi");
+
+            correctionAdd("Pak", "Pakistan");
+            correctionAdd("pakistan", "Pakistan");
+
+            correctionAdd("19H1", "Windows&nbsp;10 version 1903 (May 2019 update)");
+            correctionAdd("1903", "Windows&nbsp;10 version 1903 (May 2019 update)");
+
+            correctionAdd("anti pattern", "antipattern");
+            correctionAdd("anti-pattern", "antipattern");
+
+            correctionAdd("bt", "bit");
+
+
 
 
             // Start of coronavirus part...
@@ -24566,6 +24596,20 @@ namespace OverflowHelper.core
             URL_Add("Titanic", "https://en.wikipedia.org/wiki/RMS_Titanic");
 
             URL_Add("whole", "https://en.wiktionary.org/wiki/whole#Noun");
+
+            URL_Add("Fing", "https://en.wikipedia.org/wiki/Draft:Fing");
+
+            URL_Add("Garry Kasparov", "https://en.wikipedia.org/wiki/Garry_Kasparov");
+
+            URL_Add("Modi", "https://en.wikipedia.org/wiki/Narendra_Modi");
+
+            URL_Add("Pakistan", "https://en.wikipedia.org/wiki/Pakistan");
+
+            URL_Add("Windows&nbsp;10 version 1903 (May 2019 update)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1903_(May_2019_Update)");
+
+            URL_Add("antipattern", "https://en.wiktionary.org/wiki/antipattern#Noun");
+
+            URL_Add("bit", "https://en.wiktionary.org/wiki/bit#Noun_2");
 
 
             //========================================================
