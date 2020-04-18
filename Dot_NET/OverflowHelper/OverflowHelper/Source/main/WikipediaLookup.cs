@@ -6496,6 +6496,7 @@ namespace OverflowHelper.core
             correctionAdd("privilge", "privilege");
             correctionAdd("privillege", "privilege");
             correctionAdd("priveldge", "privilege");
+            correctionAdd("previledge", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -8838,6 +8839,7 @@ namespace OverflowHelper.core
             correctionAdd("follwing", "following");
             correctionAdd("Follwing", "following");
             correctionAdd("Following", "following");
+            correctionAdd("Folowing", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -10837,6 +10839,8 @@ namespace OverflowHelper.core
 
             correctionAdd("star wars", "Star Wars");
             correctionAdd("star-wars", "Star Wars");
+            correctionAdd("Starwars", "Star Wars");
+            correctionAdd("starwars", "Star Wars");
 
             correctionAdd("tikz", "TikZ");
 
@@ -15695,6 +15699,9 @@ namespace OverflowHelper.core
             correctionAdd("kasporav", "Garry Kasparov");
             correctionAdd("kasparov", "Garry Kasparov");
 
+            correctionAdd("Rapid", "rapid");
+
+
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -16328,6 +16335,21 @@ namespace OverflowHelper.core
 
             correctionAdd("bt", "bit");
 
+            correctionAdd("cplex", "CPLEX");
+
+            correctionAdd("design patterns", "Design Patterns");
+
+            correctionAdd("attemt", "attempt");
+
+            correctionAdd("code base", "codebase");
+
+            correctionAdd("Design pattern", "design pattern");
+
+            correctionAdd("hamful", "harmful");
+
+            correctionAdd("NO-GO", "no go");
+
+            correctionAdd("suspecious", "suspicious");
 
 
 
@@ -24610,6 +24632,25 @@ namespace OverflowHelper.core
             URL_Add("antipattern", "https://en.wiktionary.org/wiki/antipattern#Noun");
 
             URL_Add("bit", "https://en.wiktionary.org/wiki/bit#Noun_2");
+
+            URL_Add("CPLEX", "https://en.wikipedia.org/wiki/CPLEX");
+
+            URL_Add("Design Patterns", "https://en.wikipedia.org/wiki/Design_Patterns");
+
+            URL_Add("attempt", "https://en.wiktionary.org/wiki/attempt#Noun");
+
+            URL_Add("codebase", "https://en.wiktionary.org/wiki/codebase#Noun");
+
+            URL_Add("design pattern", "https://en.wikipedia.org/wiki/Design_pattern");
+
+            URL_Add("harmful", "https://en.wiktionary.org/wiki/harmful#Adjective");
+
+            URL_Add("no go", "https://en.wiktionary.org/wiki/no_go#Noun");
+
+            URL_Add("rapid", "https://en.wikipedia.org/wiki/Fast_chess#Rapid_(FIDE)_or_quick_(USCF)");
+
+            URL_Add("suspicious", "https://en.wiktionary.org/wiki/suspicious#Adjective");
+
 
 
             //========================================================
