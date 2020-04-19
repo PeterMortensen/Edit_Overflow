@@ -3060,6 +3060,7 @@ namespace OverflowHelper.core
             correctionAdd("Stackexcange", "Stack&nbsp;Exchange");
             correctionAdd("Stack Excange", "Stack&nbsp;Exchange");
             correctionAdd("stack.exchange", "Stack&nbsp;Exchange");
+            correctionAdd("stackexachnge", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -16418,6 +16419,19 @@ namespace OverflowHelper.core
 
             correctionAdd("Spanish Flu", "Spanish flu");
 
+            correctionAdd("Guido", "Guido van Rossum");
+
+            correctionAdd("illustrator", "Illustrator");
+
+            correctionAdd("Y-combinator", "Y combinator");
+
+            correctionAdd("accepeted", "accepted");
+            correctionAdd("accpeted", "accepted");
+
+            correctionAdd("deicde", "decide");
+
+            correctionAdd("intentionnally", "intentionally");
+            correctionAdd("intentionnaly", "intentionally");
 
 
 
@@ -24650,6 +24664,19 @@ namespace OverflowHelper.core
             URL_Add("rapid", "https://en.wikipedia.org/wiki/Fast_chess#Rapid_(FIDE)_or_quick_(USCF)");
 
             URL_Add("suspicious", "https://en.wiktionary.org/wiki/suspicious#Adjective");
+
+            URL_Add("Guido van Rossum", "https://en.wikipedia.org/wiki/Guido_van_Rossum");
+
+            URL_Add("Illustrator", "https://en.wikipedia.org/wiki/Adobe_Illustrator");
+
+            URL_Add("Y combinator", "https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator");
+
+            URL_Add("accepted", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("decide", "https://en.wiktionary.org/wiki/decide#Verb");
+
+            URL_Add("intentionally", "https://en.wiktionary.org/wiki/intentionally#Adverb");
+
 
 
 
