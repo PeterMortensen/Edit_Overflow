@@ -1466,6 +1466,7 @@ namespace OverflowHelper.core
             correctionAdd("dB", "database");
             correctionAdd("databse", "database");
             correctionAdd("databese", "database");
+            correctionAdd("D/B", "database");
 
             correctionAdd("ria", "RIA");
             correctionAdd("Rich Internet application", "RIA");
@@ -3146,6 +3147,7 @@ namespace OverflowHelper.core
             correctionAdd("definitley", "definitely");
             correctionAdd("definently", "definitely");
             correctionAdd("Definatly", "definitely");
+            correctionAdd("defintely", "definitely");
 
             correctionAdd("nagios", "Nagios");
 
@@ -11321,6 +11323,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Lora", "LoRa");
             correctionAdd("lora", "LoRa");
+            correctionAdd("LORA", "LoRa");
 
             correctionAdd("squarespace", "Squarespace");
 
@@ -11352,6 +11355,7 @@ namespace OverflowHelper.core
             correctionAdd("treeshold", "threshold");
             correctionAdd("thershold", "threshold");
             correctionAdd("treshold", "threshold");
+            correctionAdd("Thershold", "threshold");
 
             correctionAdd("verision", "version");
             correctionAdd("verison", "version");
@@ -11463,6 +11467,7 @@ namespace OverflowHelper.core
             correctionAdd("busines", "business");
             correctionAdd("biz", "business");
             correctionAdd("buisiness", "business");
+            correctionAdd("buszness", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -13455,6 +13460,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pacakge", "package");
             correctionAdd("Pacakge", "package");
+            correctionAdd("packpage", "package");
 
             correctionAdd("Strace", "strace");
 
@@ -15240,6 +15246,7 @@ namespace OverflowHelper.core
             correctionAdd("distroy", "destroy");
 
             correctionAdd("Ham Radio", "ham radio");
+            correctionAdd("HAM radio", "ham radio");
 
             correctionAdd("self distroy", "self-destruct");
 
@@ -15553,7 +15560,6 @@ namespace OverflowHelper.core
             correctionAdd("king's indian", "King's Indian Defence"); // Chess
             correctionAdd("king's Indian", "King's Indian Defence");
 
-
             correctionAdd("the dutch", "Dutch Defence"); // Chess
             correctionAdd("The Dutch", "Dutch Defence"); // Chess
 
@@ -15574,6 +15580,11 @@ namespace OverflowHelper.core
             correctionAdd("Rezi", "Réti Opening"); // Chess
             correctionAdd("Resi", "Réti Opening"); // Chess
             correctionAdd("resi", "Réti Opening"); // Chess
+            correctionAdd("resing", "Réti Opening"); // Chess
+            correctionAdd("rezing", "Réti Opening"); // Chess
+            correctionAdd("reti", "Réti Opening"); // Chess
+            correctionAdd("Reti", "Réti Opening"); // Chess
+            correctionAdd("reting", "Réti Opening"); // Chess
 
             correctionAdd("Karpov", "Anatoly Karpov"); // Chess
 
@@ -15652,6 +15663,7 @@ namespace OverflowHelper.core
             correctionAdd("bongcloud", "Bong-Cloud opening"); // Chess
             correctionAdd("bong cloud", "Bong-Cloud opening"); // Chess
             correctionAdd("BONG CLOUD", "Bong-Cloud opening"); // Chess
+            correctionAdd("Bongcloud", "Bong-Cloud opening"); // Chess
 
             correctionAdd("catalan", "Catalan Opening"); // Chess
 
@@ -15696,12 +15708,13 @@ namespace OverflowHelper.core
 
             correctionAdd("firouzja", "Alireza Firouzja"); // Chess
 
-            correctionAdd("Gary Kasparov", "Garry Kasparov");
-            correctionAdd("kasporav", "Garry Kasparov");
-            correctionAdd("kasparov", "Garry Kasparov");
+            correctionAdd("Gary Kasparov", "Garry Kasparov"); // Chess
+            correctionAdd("kasporav", "Garry Kasparov"); // Chess
+            correctionAdd("kasparov", "Garry Kasparov"); // Chess
 
-            correctionAdd("Rapid", "rapid");
+            correctionAdd("Rapid", "rapid"); // Chess
 
+            correctionAdd("hevening", "Sicilian Defence, Scheveningen Variation"); // Chess
 
 
 
@@ -15990,6 +16003,7 @@ namespace OverflowHelper.core
             correctionAdd("Argon", "argon");
 
             correctionAdd("carbondioxide", "carbon dioxide");
+            correctionAdd("CO2", "carbon dioxide");
 
             correctionAdd("Carbon monoxide", "carbon monoxide");
 
@@ -16352,6 +16366,62 @@ namespace OverflowHelper.core
 
             correctionAdd("suspecious", "suspicious");
 
+            correctionAdd("asia", "Asia");
+
+            correctionAdd("singaporean", "Singaporean");
+
+            correctionAdd("BFS", "breadth-first search");
+
+            correctionAdd("heigher", "higher");
+            correctionAdd("Heigher", "higher");
+
+            correctionAdd("indefintely", "indefinitely");
+
+            correctionAdd("Last", "last");
+
+            correctionAdd("non-exotic", "nonexotic");
+            correctionAdd("non exotic", "nonexotic");
+
+            correctionAdd("passage way", "passageway");
+
+            correctionAdd("proxmity", "proximity");
+
+            correctionAdd("sellng", "selling");
+
+            correctionAdd("solitairy", "solitary");
+
+            correctionAdd("stacatto", "staccato");
+
+            correctionAdd("vegis", "vegetables");
+            correctionAdd("vegitables", "vegetables");
+            correctionAdd("vegies", "vegetables");
+
+            correctionAdd("Guido", "Guido van Rossum");
+
+            correctionAdd("illustrator", "Illustrator");
+
+            correctionAdd("Y-combinator", "Y combinator");
+
+            correctionAdd("accepeted", "accepted");
+            correctionAdd("accpeted", "accepted");
+
+            correctionAdd("deicde", "decide");
+
+            correctionAdd("intentionnally", "intentionally");
+            correctionAdd("intentionnaly", "intentionally");
+
+            correctionAdd("integrety", "integrity");
+            correctionAdd("Integrety", "integrity");
+
+            correctionAdd("regester", "register");
+            correctionAdd("Regester", "register");
+
+            correctionAdd("raport", "report");
+
+            correctionAdd("swoole", "Swoole");
+
+            correctionAdd("Honeypot", "honeypot");
+
 
 
             // Start of coronavirus part...
@@ -16419,19 +16489,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Spanish Flu", "Spanish flu");
 
-            correctionAdd("Guido", "Guido van Rossum");
-
-            correctionAdd("illustrator", "Illustrator");
-
-            correctionAdd("Y-combinator", "Y combinator");
-
-            correctionAdd("accepeted", "accepted");
-            correctionAdd("accpeted", "accepted");
-
-            correctionAdd("deicde", "decide");
-
-            correctionAdd("intentionnally", "intentionally");
-            correctionAdd("intentionnaly", "intentionally");
 
 
 
@@ -24677,7 +24734,43 @@ namespace OverflowHelper.core
 
             URL_Add("intentionally", "https://en.wiktionary.org/wiki/intentionally#Adverb");
 
+            URL_Add("Asia", "https://en.wiktionary.org/wiki/Asia#Proper_noun");
 
+            URL_Add("Singaporean", "https://en.wiktionary.org/wiki/Singaporean#Noun");
+
+            URL_Add("breadth-first search", "https://en.wikipedia.org/wiki/Breadth-first_search");
+
+            URL_Add("higher", "https://en.wiktionary.org/wiki/higher#Adverb");
+
+            URL_Add("indefinitely", "https://en.wiktionary.org/wiki/indefinitely#Adverb");
+
+            URL_Add("last", "https://en.wiktionary.org/wiki/last#Adjective");
+
+            URL_Add("nonexotic", "https://en.wiktionary.org/wiki/nonexotic");
+
+            URL_Add("passageway", "https://en.wiktionary.org/wiki/passageway#Noun");
+
+            URL_Add("proximity", "https://en.wiktionary.org/wiki/proximity#Noun");
+
+            URL_Add("selling", "https://en.wiktionary.org/wiki/sell#Verb");
+
+            URL_Add("solitary", "https://en.wiktionary.org/wiki/solitary#Adjective");
+
+            URL_Add("staccato", "https://en.wiktionary.org/wiki/staccato#Adjective");
+
+            URL_Add("vegetables", "https://en.wiktionary.org/wiki/vegetable#Noun");
+
+            URL_Add("Sicilian Defence, Scheveningen Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Scheveningen_Variation");
+
+            URL_Add("integrity", "https://en.wiktionary.org/wiki/integrity#Noun");
+
+            URL_Add("register", "https://en.wiktionary.org/wiki/register#Verb");
+
+            URL_Add("report", "https://en.wiktionary.org/wiki/report#Verb");
+
+            URL_Add("Swoole", "https://www.swoole.co.uk/docs/");
+
+            URL_Add("honeypot", "https://en.wikipedia.org/wiki/Honeypot_(computing)");
 
 
             //========================================================
