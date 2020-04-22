@@ -51,10 +51,19 @@
     {
         echo "<h1>$aHeadline - " . get_EditOverflowID() . "</h1>";
 
-        # Another side-effect of this function... Use the
-        # opportunity as this function is used by
-        # all pages (and in the beginning).
+
+        # Side-effects of this function... Use the opportunity as this
+        # function is used by all pages (and in the beginning).
+        #
+        # 1. WordPress does unexpected escaping of form data
+        #        
+        # 2. WordPress seems to override the setting of PHP 
+        #    configuration setting 'display_errors' (it 
+        #    sets it to 1). We counter it here.
+
         adjustForWordPressMadness();
+        
+        ini_set('display_errors', '0');
     }
 
 
@@ -158,7 +167,7 @@
     # Single quotes, etc. are currently escaped if
     # using WordPress (that is, in the form data).
     #
-    # Note: Currently it is only done for specific elements, e.g. 
+    # Note: Currently it is only done for specific elements, e.g.
     #       for "someText" (used by a specific page, Text.php)
     #
     #       That is, the elements must be explicitly included/

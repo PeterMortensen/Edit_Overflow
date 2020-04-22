@@ -6,6 +6,28 @@
 
     function the_EditOverflowFooter()
     {
+        # Side-effect of this function... Use the
+        # opportunity for some error detaction as
+        # this function is used by all...
+        #
+        # Results: It is 1 when using WordPress for styling, even
+        #          though we have set it to 0 in .htaccess
+        #
+        #echo "</p>Value of PHP setting 'display_errors': " . ini_get('display_errors') . " </p>";
+        
+        # WordPress likes to override it...
+        #
+        # It also expresses that we don't want to risk having the 
+        # first 16 characters of the database password exposed... 
+        # (when the PDO constructor fails).
+        #assert(0);
+        #
+        # But assert itself is affected by 'display_errors'... We don't 
+        # actually see an assert if 'display_errors' is 0...
+        assert(ini_get('display_errors') === 0); 
+        
+
+
         echo get_EditOverflowFooter();
     }
 
