@@ -29,12 +29,8 @@
         ?>
 
 
-        <?php
-            # For "Notice: Undefined variable: ..."
-            error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
-
+        <?php        
             require_once('deploymentSpecific.php');
-
 
             # These two are for proper indentation in the
             # generated HTML source (by PHP).
