@@ -73,12 +73,22 @@
         # For "Notice: Undefined variable: ..."        
         error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
         
-        # For simulating non-strict code (even if it is not displayed on
-        # a page, it should still be logged in a log file)
+        # For simulating non-strict code (even if it is not displayed 
+        # on a page, it should still be logged in a log file). This
+        # is so we can ***positively know*** if such errors are 
+        # actually captured in the PHP error log file.
+        #
         $PHP_DoWarnings = get_postParameter('PHP_DoWarnings');
         if ($PHP_DoWarnings === 'On')
         {
-            # Warnings are issued only if executed, not at parse time.
+            # Note: Warnings are issued only if actually 
+            #       executed, not at parse time.
+            #
+            # When the proper error reporting level, it should result in 
+            # something like this:
+            #
+            #     PHP Notice ... Undefined variable: dummy2 in ... commonStart.php on line ...
+            #
             $dummy1 = $dummy2;
         }
 
