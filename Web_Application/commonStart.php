@@ -40,7 +40,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a31 2020-04-14T132610Z+0";
+        return "Edit Overflow v. 1.1.49a32 2020-04-22T165029Z+0";
     }
 
 
@@ -63,6 +63,8 @@
         #
         # 3. Central place for setting the error level, reporting level,
         #    etc.
+        #
+        # 4. Inject of errors (for regression testing)
 
         adjustForWordPressMadness();
         
@@ -70,6 +72,17 @@
         
         # For "Notice: Undefined variable: ..."        
         error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+        
+        # For simulating non-strict code (even if it is not displayed on
+        # a page, it should still be logged in a log file)
+        $PHP_DoWarnings = get_postParameter('PHP_DoWarnings');
+        if ($PHP_DoWarnings === 'On')
+        {
+            # Warnings are issued only if executed, not at parse time.
+            $dummy1 = $dummy2;
+        }
+
+        
     }
 
 
