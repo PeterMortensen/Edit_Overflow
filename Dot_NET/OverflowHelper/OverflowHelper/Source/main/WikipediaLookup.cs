@@ -4385,6 +4385,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ur", "your");
             correctionAdd("yout", "your");
+            correctionAdd("yor", "your");
 
             correctionAdd("havent", "haven't");
             correctionAdd("havn't", "haven't");
@@ -10005,6 +10006,7 @@ namespace OverflowHelper.core
 
             correctionAdd("retrive", "retrieve");
             correctionAdd("retreive", "retrieve");
+            correctionAdd("Retrive", "retrieve");
 
             correctionAdd("ressource", "resource");
 
@@ -10698,6 +10700,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bellow", "below");
             correctionAdd("bewlow", "below");
+            correctionAdd("bellowing", "below");
 
             correctionAdd("communciate", "communicate");
 
@@ -10744,6 +10747,8 @@ namespace OverflowHelper.core
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
             correctionAdd("recommandation", "recommendation");
+            correctionAdd("reccomondation", "recommendation");
+            correctionAdd("recommondation", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -15716,6 +15721,11 @@ namespace OverflowHelper.core
 
             correctionAdd("hevening", "Sicilian Defence, Scheveningen Variation"); // Chess
 
+            correctionAdd("russolino", "Sicilian Defence, Rossolimo Variation"); // Chess
+
+            correctionAdd("laragosa", "Saragossa Opening");
+            correctionAdd("laragoza", "Saragossa Opening");
+
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -16421,6 +16431,15 @@ namespace OverflowHelper.core
             correctionAdd("swoole", "Swoole");
 
             correctionAdd("Honeypot", "honeypot");
+
+            correctionAdd("elso", "also");
+
+            correctionAdd("conver", "convert");
+
+            correctionAdd("enduser", "end user");
+            correctionAdd("end-user", "end user");
+
+            correctionAdd("must have", "must-have");
 
 
 
@@ -24771,6 +24790,21 @@ namespace OverflowHelper.core
             URL_Add("Swoole", "https://www.swoole.co.uk/docs/");
 
             URL_Add("honeypot", "https://en.wikipedia.org/wiki/Honeypot_(computing)");
+
+            URL_Add("Sicilian Defence, Rossolimo Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence#2...Nc6_without_3.d4");
+
+            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
+
+            URL_Add("also", "https://en.wiktionary.org/wiki/also#Adverb");
+
+            URL_Add("convert", "https://en.wiktionary.org/wiki/convert#Verb");
+
+            URL_Add("end user", "https://en.wiktionary.org/wiki/end_user#Noun");
+
+            URL_Add("must-have", "https://en.wiktionary.org/wiki/must-have#Noun");
+
+
+
 
 
             //========================================================
