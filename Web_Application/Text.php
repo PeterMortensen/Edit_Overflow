@@ -41,9 +41,6 @@
         <?php
             require_once('StringReplacerWithRegex.php');
 
-            # For "Notice: Undefined variable: ..."
-            error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
-
             function removeTrailingSpace($aText)
             {
                 # This actually also removes trailing TABs... (as it should)

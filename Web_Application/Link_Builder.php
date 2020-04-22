@@ -56,9 +56,6 @@
             $IDcounter = 1;
             $emphasisStr = "*";
 
-            # For "Notice: Undefined variable: ..."
-            error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
-
             # The default value is for making direct HTML validation
             # by https://validator.w3.org/ work.
             #

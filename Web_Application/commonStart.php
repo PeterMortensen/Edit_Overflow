@@ -60,10 +60,16 @@
         # 2. WordPress seems to override the setting of PHP 
         #    configuration setting 'display_errors' (it 
         #    sets it to 1). We counter it here.
+        #
+        # 3. Central place for setting the error level, reporting level,
+        #    etc.
 
         adjustForWordPressMadness();
         
         ini_set('display_errors', '0');
+        
+        # For "Notice: Undefined variable: ..."        
+        error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
     }
 
 
