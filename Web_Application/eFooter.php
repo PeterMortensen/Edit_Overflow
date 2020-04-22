@@ -15,6 +15,7 @@
         #
         #echo "</p>Value of PHP setting 'display_errors': " . ini_get('display_errors') . " </p>";
         
+        
         # WordPress likes to override it...
         #
         # It also expresses that we don't want to risk having the 
@@ -23,8 +24,32 @@
         #assert(0);
         #
         # But assert itself is affected by 'display_errors'... We don't 
-        # actually see an assert if 'display_errors' is 0...
-        assert(ini_get('display_errors') === 0); 
+        # actually see an assert on the web page if 'display_errors'
+        # is 0 (only in the PHP error log file)...
+        #
+        #assert(ini_get('display_errors') === 0);    No!!!!
+        #
+        # Note: The strict === identical operator will not do implicit 
+        #       conversions (string to integer in this case). ini_get()
+        #       returns a string.
+        #
+        # References:
+        #
+        #   <https://www.php.net/manual/en/function.ini-get.php>
+        #     ini_get
+        #
+        #   <https://www.php.net/manual/en/language.operators.comparison.php>
+        #     Comparison Operators
+        #
+        #     "TRUE if $a is equal to $b, and they are of the same type."
+        #
+        #   <https://stackoverflow.com/questions/80646>
+        #     How do the PHP equality (== double equals) and identity 
+        #     (=== triple equals) comparison operators differ?
+        #  
+        #     "Difference between == and ==="
+        #
+        assert(ini_get('display_errors') === '0'); 
         
 
 
