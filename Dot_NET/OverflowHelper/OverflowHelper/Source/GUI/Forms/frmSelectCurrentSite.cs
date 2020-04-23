@@ -31,16 +31,22 @@ namespace OverflowHelper
 
         private List<string> mSitesOrder; //Whatever order sites is 
         //                                  listed in the GUI.
+
+        private EditorOverflowApplication mApplication;
         
 
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        public frmSelectCurrentSite(Sites aSites)
+        public frmSelectCurrentSite(Sites aSites, 
+                                    EditorOverflowApplication anApplication)
         {
             InitializeComponent();
 
             mSites = aSites;
+
+            mApplication = anApplication;
+            
 
             int len = aSites.getSiteURLs().Count;
             mSitesOrder = new List<string>(len);
@@ -128,7 +134,7 @@ namespace OverflowHelper
         private void btnExportLlistToClipboard_Click(object aSender, 
                                                      EventArgs anEvent)
         {
-            //72 sites as of 2016-07-08, with 20% margin.
+            // 72 sites as of 2016-07-08, with 20% margin.
             StringBuilder scratchSB = new StringBuilder(2200); 
 
             List<string> siteURLS = mSites.getSiteURLs();
@@ -138,7 +144,7 @@ namespace OverflowHelper
                 scratchSB.Append("\n");
             }
 
-            EditorOverflowApplication.setClipboard3(scratchSB.ToString(), null);
+            mApplication.setClipboard3(scratchSB.ToString());
         } //btnExportLlistToClipboard_Click()
 
 

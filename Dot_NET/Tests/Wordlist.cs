@@ -44,6 +44,8 @@ namespace OverflowHelper.Tests
             Dictionary<string, string> someCaseCorrection_Reverse =
                 new Dictionary<string, string>();
 
+            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+
             string Wordlist_HTML =
               WikipediaLookup.dumpWordList_asHTML(
                 "",
@@ -53,8 +55,8 @@ namespace OverflowHelper.Tests
 
                 //This is equivalent, for the refactoring, but
                 //should we use fixed or empty strings instead??
-                EditorOverflowApplication.fullVersionStr(),
-                EditorOverflowApplication.versionString_dateOnly()
+                app.fullVersionStr(),
+                app.versionString_dateOnly()
                 );
 
             int len = Wordlist_HTML.Length;
@@ -71,7 +73,8 @@ namespace OverflowHelper.Tests
             Assert.AreEqual(
                 2708 + 3 + 1 + 12 - 10 + 1 + 8 - 22 + 9 - 2 - 1 - 1 + 1 +
                 404 + 153 +
-                36 + 85 + 4,  
+                36 + 85 + 4 + 
+                2,  
                 len, "XYZ");
             //    +3 because we discovered and eliminated a tab...
             //    +1 because changed the HTML slightly...
@@ -98,6 +101,7 @@ namespace OverflowHelper.Tests
             //    +4 Because we went to development mode again (after 
             //       the release 2019-11-01)... But why +4 (the extra
             //       "a3" counts two times).
+            //    +2 New version number.
             
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
             // any TABs...
@@ -145,6 +149,8 @@ namespace OverflowHelper.Tests
             someWord2URL.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
 
+            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+
             string Wordlist_HTML =
               WikipediaLookup.dumpWordList_asHTML(
                 "",
@@ -154,9 +160,9 @@ namespace OverflowHelper.Tests
 
                 //This is equivalent, for the refactoring, but
                 //should we use fixed or empty strings instead??
-                EditorOverflowApplication.fullVersionStr(),
-                EditorOverflowApplication.versionString_dateOnly()
-                );
+                app.fullVersionStr(),
+                app.versionString_dateOnly()
+              );
 
             int len = Wordlist_HTML.Length;
 
@@ -171,7 +177,8 @@ namespace OverflowHelper.Tests
 
             Assert.AreEqual(
                 3572 - 24 + 153 +
-                36 + 85 + 4,
+                36 + 85 + 4 +
+                2,
                 len, "XYZ");
             //   -24 because we removed unnecessary space...         
             //  +153 because we added a justification for the existence 
@@ -182,6 +189,7 @@ namespace OverflowHelper.Tests
             //    +4 Because we went to development mode again (after 
             //       the release 2019-11-01)... But why +4 (the extra
             //       "a3" counts two times).
+            //    +2 New version number.
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect 
             // any TABs...

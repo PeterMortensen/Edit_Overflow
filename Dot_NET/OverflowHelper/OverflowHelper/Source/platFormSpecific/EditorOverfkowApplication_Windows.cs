@@ -149,24 +149,26 @@ namespace OverflowHelper
         /****************************************************************************
          *     See base class for an explanation                                    *
          ****************************************************************************/
-        public void setClipboard3(
+        public override void setClipboard3(
             string aClipboardStr,
             //System.Windows.Forms.ToolStripStatusLabel aStatusLabel
             out string aStatusString
             )
-        { 
+        {
+            aStatusString = "";
+
             clipboardInfoStruct outclipboardInfo;
 
             outclipboardInfo.retries = -1;
 
-            EditorOverflowApplication.setClipboard(
-                aClipboardStr, out outclipboardInfo);
+            setClipboard(aClipboardStr, out outclipboardInfo);
 
             int retries = outclipboardInfo.retries;
             if (retries > 0)
             {
-                if (aStatusLabel != null) // It is called with nul from 
-                //                           the Markdown utility...
+                //This test should no longer be necessary...
+                if (aStatusString != null) // It is called with nul from 
+                //                            the Markdown utility, etc...
                 {
                     string statusText = retries.ToString() + 
                                         " retries accessing the clipboard!";

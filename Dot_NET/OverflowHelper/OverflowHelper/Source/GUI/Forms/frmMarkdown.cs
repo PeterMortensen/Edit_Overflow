@@ -47,10 +47,16 @@ namespace OverflowHelper.Forms
         private Dictionary<string, URLparseInfoStruct> mURLparseInfo;
 
 
+        EditorOverflowApplication mApplication;
+
+
         //****************************************************************************
         //*    <placeholder for header>                                              *
         //****************************************************************************
-        public frmMarkdown(string aTerm, string aURL, LinkRef aLinkRefGenerator)
+        public frmMarkdown(string aTerm, 
+                           string aURL, 
+                           LinkRef aLinkRefGenerator,
+                           EditorOverflowApplication anApplication)
         {
             InitializeComponent();
 
@@ -58,7 +64,10 @@ namespace OverflowHelper.Forms
             mURL2 = aURL;
 
             mLinkRefGenerator = aLinkRefGenerator;
-            
+
+            mApplication = anApplication;
+
+
             mURLparseInfo = new Dictionary<string, URLparseInfoStruct>(2);
             addURLparseInfo("wikipedia.org/wiki", "wikipedia:");
             addURLparseInfo("wiktionary.org/wiki", "wiktionary:");
@@ -408,8 +417,8 @@ namespace OverflowHelper.Forms
             {
                 ////toClipboard = "\n" + toClipboard + "\n";
                 //System.Windows.Forms.Clipboard.SetText(toClipboard);
-                
-                EditorOverflowApplication.setClipboard3(toClipboard, null);
+
+                mApplication.setClipboard3(toClipboard);
 
                 //Later: add clipboard retry info to GUI (e.g. by reusing 
                 //       something.

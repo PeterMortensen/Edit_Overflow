@@ -122,8 +122,12 @@ namespace OverflowHelper
 
         private StringBuilder mScratchSB;
 
-
         private EditSummaryStyle mEditSummaryStyle;
+
+
+        private EditorOverflowApplication mApplication;
+
+        private CodeFormattingCheck mCodeFormattingCheck;
 
 
         /****************************************************************************
@@ -132,6 +136,10 @@ namespace OverflowHelper
         public frmMainForm()
         {
             mScratchSB = new StringBuilder(200);
+
+            mApplication = new EditorOverflowApplication_Windows();
+
+            mCodeFormattingCheck = new CodeFormattingCheck();
 
             InitializeComponent();
 
@@ -239,7 +247,7 @@ namespace OverflowHelper
             string currentSiteDomainURL = mSites.getCurrentSiteDomainURL();
 
             this.Text =
-                EditorOverflowApplication.fullVersionStr() +
+                mApplication.fullVersionStr() +
                 "   Current site domain URL: " + currentSiteDomainURL;
 
             grpDoStuffOnQuestionIDs.Text =
@@ -931,12 +939,12 @@ namespace OverflowHelper
         {
             string Wordlist_HTML =
               mWikipediaLookup.dumpWordList_asHTML(
-                combinedAllOfRegularExpressions(),
+                mCodeFormattingCheck.combinedAllOfRegularExpressions(),
 
                 // This would be inconsistent if the date changes right 
                 // after the call of fullVersionStr()...
-                EditorOverflowApplication.fullVersionStr(),
-                EditorOverflowApplication.versionString_dateOnly());
+                mApplication.fullVersionStr(),
+                mApplication.versionString_dateOnly());
 
             //Output for now
             txtInputArea.Text = Wordlist_HTML;
@@ -1089,7 +1097,7 @@ namespace OverflowHelper
             //Note: Starting this dialog will actually change the
             //      clipboard ()
             Forms.frmMarkdown dialog =
-                new Forms.frmMarkdown(term, URL, mLinkRefGenerator);
+                new Forms.frmMarkdown(term, URL, mLinkRefGenerator, mApplication);
             dialog.Show();
         } //openMarkdownUtility
 
@@ -1100,7 +1108,7 @@ namespace OverflowHelper
         private void mnuOpenRandomFile_Click(object aSender, EventArgs anEvent)
         {
             Forms.frmRandomFileOpen dialog =
-                new Forms.frmRandomFileOpen();
+                new Forms.frmRandomFileOpen(mApplication);
             dialog.Show();
         }
 
@@ -1112,7 +1120,7 @@ namespace OverflowHelper
             object aSender, EventArgs anEvent)
         {
             Forms.frmRandomFileOpen dialog =
-                new Forms.frmRandomFileOpen();
+                new Forms.frmRandomFileOpen(mApplication);
             dialog.Show();
         }
 
@@ -1186,7 +1194,10 @@ namespace OverflowHelper
          ****************************************************************************/
         private void setClipboard2(string aClipboardStr)
         {
-            EditorOverflowApplication.setClipboard3(aClipboardStr, tstrLabel2);
+            string labelText;
+            mApplication.setClipboard3(aClipboardStr, out labelText);
+
+            tstrLabel2.Text = labelText;
         } //setClipboard2()
 
 
@@ -1275,7 +1286,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuHelpAbout_Click(object aSender, EventArgs anEvent)
         {
-            string msg = EditorOverflowApplication.fullVersionStr();
+            string msg = mApplication.fullVersionStr();
             System.Windows.Forms.MessageBox.Show(msg);
         }
 
@@ -1881,7 +1892,8 @@ namespace OverflowHelper
         ****************************************************************************/
         private void mnuSelectCurrentSite_Click(object aSender, EventArgs anEvent)
         {
-            frmSelectCurrentSite dialog = new frmSelectCurrentSite(mSites);
+            frmSelectCurrentSite dialog = 
+                new frmSelectCurrentSite(mSites, mApplication);
             //dialog.Show();
             dialog.ShowDialog();
 
@@ -2294,9 +2306,10 @@ namespace OverflowHelper
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void mnuMissingSpaceBeforeOpeningBracket_Click(object sender, EventArgs e)
+        private void mnuMissingSpaceBeforeOpeningBracket_Click(
+            object aSender, EventArgs anEvent)
         {
-            setClipboard2(missingSpaceBeforeOpeningBracketRegex()); // 0
+            setClipboard2(mCodeFormattingCheck.missingSpaceBeforeOpeningBracketRegex()); // 0
         }
 
 
@@ -2305,7 +2318,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuMissingSpaceAfterColon_Click(object sender, EventArgs e)
         {
-            setClipboard2(missingSpaceAfterColonRegex()); // 1
+            setClipboard2(mCodeFormattingCheck.missingSpaceAfterColonRegex()); // 1
         }
 
 
@@ -2314,7 +2327,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuMissingSpaceAfterComma_Click(object sender, EventArgs e)
         {
-            setClipboard2(missingSpaceAfterCommaRegex()); // 2
+            setClipboard2(mCodeFormattingCheck.missingSpaceAfterCommaRegex()); // 2
         }
 
 
@@ -2324,7 +2337,7 @@ namespace OverflowHelper
         private void mnuMissingSpaceAroundEqualSign_Click(object sender,
                                                           EventArgs e)
         {
-            setClipboard2(missingSpaceAroundEqualSign()); // 3
+            setClipboard2(mCodeFormattingCheck.missingSpaceAroundEqualSign()); // 3
         }
 
 
@@ -2334,7 +2347,7 @@ namespace OverflowHelper
         private void mnuMissingSpaceAroundStringConcatenation_Click(
             object sender, EventArgs e)
         {
-            setClipboard2(missingSpaceAroundStringConcatenationRegex()); // 4
+            setClipboard2(mCodeFormattingCheck.missingSpaceAroundStringConcatenationRegex()); // 4
         }
 
         /****************************************************************************
@@ -2342,7 +2355,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSpaceBeforeComma_Click(object sender, EventArgs e)
         {
-            setClipboard2(spaceBeforeCommaRegex()); // 5
+            setClipboard2(mCodeFormattingCheck.spaceBeforeCommaRegex()); // 5
 
         }
 
@@ -2352,7 +2365,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSpaceBeforeColon_Click(object sender, EventArgs e)
         {
-            setClipboard2(spaceBeforeColonRegex()); // 6
+            setClipboard2(mCodeFormattingCheck.spaceBeforeColonRegex()); // 6
         }
 
 
@@ -2362,7 +2375,7 @@ namespace OverflowHelper
         private void mnuSpaceBeforeParenthesis_Click(object aSender,
                                                      EventArgs anEvent)
         {
-            setClipboard2(spaceBeforeParenthesisRegex()); // 7
+            setClipboard2(mCodeFormattingCheck.spaceBeforeParenthesisRegex()); // 7
         }
 
 
@@ -2371,7 +2384,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSpaceBeforeSemicolon_Click(object sender, EventArgs e)
         {
-            setClipboard2(spaceBeforeSemicommaRegex());
+            setClipboard2(mCodeFormattingCheck.spaceBeforeSemicommaRegex());
         }
 
 
@@ -2382,7 +2395,7 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuAllCheckRegexes_Click(object sender, EventArgs e)
         {
-            setClipboard2(combinedAllOfRegularExpressions());
+            setClipboard2(mCodeFormattingCheck.combinedAllOfRegularExpressions());
         }
 
 
@@ -2782,13 +2795,14 @@ namespace OverflowHelper
          ****************************************************************************/
         private static void AutoItFileHeader(int aBaseDelay_millisecs,
                                              string aCharacterDelayVariableName,
-                                             StringBuilder aScratchSB)
+                                             StringBuilder aScratchSB,
+                                             EditorOverflowApplication anApplication)
         {
             // Is aScratchSB implicit an in/out parameter??? Or a ref parameter??
 
             aScratchSB.Length = 0;
 
-            string versionStr = EditorOverflowApplication.fullVersionStr();
+            string versionStr = anApplication.fullVersionStr();
             aScratchSB.Append("; AutoIt file generated by ");
             aScratchSB.Append(versionStr);
             emptyLine(aScratchSB);
@@ -2851,7 +2865,8 @@ namespace OverflowHelper
          *                                                                          *
          ****************************************************************************/
         private static string AutoItScript(string aToBeTypedOut,
-                                           StringBuilder aScratchSB)
+                                           StringBuilder aScratchSB,
+                                           EditorOverflowApplication anApplication)
         {
             //Future:
             //
@@ -2876,7 +2891,8 @@ namespace OverflowHelper
 
             AutoItFileHeader(kBaseDelay_milliSecs,
                              kCharacterDelayVariableName,
-                             aScratchSB);
+                             aScratchSB,
+                             anApplication);
 
             // "!" means the Alt key in AutoIt, so we have to escape
             // that as "{!}".
@@ -3064,7 +3080,9 @@ namespace OverflowHelper
         {
             string inputStr_raw = getStringFromClipboard();
 
-            string someAutoItScript = AutoItScript(inputStr_raw, mScratchSB);
+            string someAutoItScript = AutoItScript(inputStr_raw, 
+                                                   mScratchSB, 
+                                                   mApplication);
 
             clipboardUpdate(someAutoItScript);
         } // mnuForthTyping_Click()
@@ -3108,7 +3126,7 @@ namespace OverflowHelper
             // let Windows open and execute it.
 
             string someAutoItScript =
-                AutoItScript(getStringFromClipboard(), mScratchSB);
+                AutoItScript(getStringFromClipboard(), mScratchSB, mApplication);
 
             string workFolder = applicationDataFolder();
 
@@ -3180,9 +3198,9 @@ namespace OverflowHelper
 
                 // This would be inconsistent if the date changes right 
                 // after the call of fullVersionStr()...
-                EditorOverflowApplication.fullVersionStr(),
-                EditorOverflowApplication.versionString_dateOnly()
-                );
+                mApplication.fullVersionStr(),
+                mApplication.versionString_dateOnly()
+              );
 
             int len = Wordlist_HTML.Length;
 
@@ -3197,7 +3215,7 @@ namespace OverflowHelper
         private void mnuSpaceAfterLeftParenthesis_Click(object aSender,
                                                         EventArgs anEvent)
         {
-            setClipboard2(spaceAfterLeftParenthesisRegex()); //
+            setClipboard2(mCodeFormattingCheck.spaceAfterLeftParenthesisRegex()); //
         }
 
 

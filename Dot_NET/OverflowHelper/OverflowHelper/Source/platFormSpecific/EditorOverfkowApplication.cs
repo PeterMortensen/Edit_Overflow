@@ -69,6 +69,17 @@ namespace OverflowHelper
             out string aStatusString);
 
 
+        /****************************************************************************
+         *                                                                          *
+         *    Simpler version for clients that do not need the status string        *
+         *                                                                          *
+         ****************************************************************************/
+        public void setClipboard3(string aClipboardStr)
+        {
+            string dummy;
+            setClipboard3(aClipboardStr, out dummy);
+        }
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
