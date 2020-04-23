@@ -46,10 +46,12 @@ mkdir $WORKFOLDER
 mkdir $FTPTRANSFER_FOLDER
 
 cd $SRCFOLDER_BASE/Dot_NET_commandLine
-cp Program.cs                          $WORKFOLDER
-cp EditOverflow3.csproj                $WORKFOLDER
-cp $SRCFOLDER_CORE/WikipediaLookup.cs  $WORKFOLDER
-cp $SRCFOLDER_CORE/HTML_builder.cs     $WORKFOLDER
+cp Program.cs                              $WORKFOLDER
+cp EditOverflow3.csproj                    $WORKFOLDER
+cp $SRCFOLDER_CORE/WikipediaLookup.cs      $WORKFOLDER
+cp $SRCFOLDER_CORE/HTML_builder.cs         $WORKFOLDER
+cp $SRCFOLDER_CORE/CodeFormattingCheck.cs  $WORKFOLDER
+
 
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverfkowApplication_Unix.cs  $WORKFOLDER
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverfkowApplication.cs       $WORKFOLDER
