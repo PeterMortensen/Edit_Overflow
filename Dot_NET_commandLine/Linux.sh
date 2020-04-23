@@ -17,6 +17,9 @@ export WORKFOLDER=${WORKFOLDER3}
 export FTPTRANSFER_FOLDER=${WORKFOLDER}/_transfer
 
 export SRCFOLDER_CORE=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Source/main
+export SRCFOLDER_PLATFORM_SPECIFIC=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Source/platFormSpecific 
+
+
 
 export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 
@@ -47,6 +50,12 @@ cp Program.cs                          $WORKFOLDER
 cp EditOverflow3.csproj                $WORKFOLDER
 cp $SRCFOLDER_CORE/WikipediaLookup.cs  $WORKFOLDER
 cp $SRCFOLDER_CORE/HTML_builder.cs     $WORKFOLDER
+
+cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverfkowApplication_Unix.cs  $WORKFOLDER
+cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverfkowApplication.cs       $WORKFOLDER
+
+
+
 
 
 # Compile, run, and redirect SQL output to a file
