@@ -5,7 +5,9 @@
 
 
     function the_EditOverflowFooter()
-    {
+    {        
+        #echo "</p>Value of E_ALL: " . E_ALL . " </p>";
+    
         # Side-effect of this function... Use the
         # opportunity for some error detaction as
         # this function is used by all...

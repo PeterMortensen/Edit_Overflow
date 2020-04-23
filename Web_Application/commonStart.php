@@ -56,9 +56,9 @@
         # function is used by all pages (and in the beginning).
         #
         # 1. WordPress does unexpected escaping of form data
-        #        
-        # 2. WordPress seems to override the setting of PHP 
-        #    configuration setting 'display_errors' (it 
+        #
+        # 2. WordPress seems to override the setting of PHP
+        #    configuration setting 'display_errors' (it
         #    sets it to 1). We counter it here.
         #
         # 3. Central place for setting the error level, reporting level,
@@ -67,24 +67,25 @@
         # 4. Inject of errors (for regression testing)
 
         adjustForWordPressMadness();
-        
+
         ini_set('display_errors', '0');
-        
-        # For "Notice: Undefined variable: ..."        
-        error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
-        
-        # For simulating non-strict code (even if it is not displayed 
+
+        # For "Notice: Undefined variable: ..."
+        #error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+        error_reporting(E_ALL);
+
+        # For simulating non-strict code (even if it is not displayed
         # on a page, it should still be logged in a log file). This
-        # is so we can ***positively know*** if such errors are 
+        # is so we can ***positively know*** if such errors are
         # actually captured in the PHP error log file.
         #
         $PHP_DoWarnings = get_postParameter('PHP_DoWarnings');
         if ($PHP_DoWarnings === 'On')
         {
-            # Note: Warnings are issued only if actually 
+            # Note: Warnings are issued only if actually
             #       executed, not at parse time.
             #
-            # When the proper error reporting level, it should result in 
+            # When the proper error reporting level, it should result in
             # something like this:
             #
             #     PHP Notice ... Undefined variable: dummy2 in ... commonStart.php on line ...
@@ -92,7 +93,7 @@
             $dummy1 = $dummy2;
         }
 
-        
+
     }
 
 
