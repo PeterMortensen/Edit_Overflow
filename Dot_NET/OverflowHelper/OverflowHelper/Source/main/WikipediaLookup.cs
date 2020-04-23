@@ -11871,6 +11871,7 @@ namespace OverflowHelper.core
             correctionAdd("refenrece", "reference");
             correctionAdd("rerefence", "reference");
             correctionAdd("refefence", "reference");
+            correctionAdd("refrance", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -15632,6 +15633,7 @@ namespace OverflowHelper.core
             correctionAdd("double Fianchetto", "double fianchetto");// Chess
 
             correctionAdd("Fianchetto", "fianchetto");// Chess
+            correctionAdd("fiensketö", "fianchetto");// Chess
 
             correctionAdd("Petrov", "Petrov's Defence"); // Chess
             correctionAdd("petrov", "Petrov's Defence"); // Chess
@@ -15723,8 +15725,19 @@ namespace OverflowHelper.core
 
             correctionAdd("russolino", "Sicilian Defence, Rossolimo Variation"); // Chess
 
-            correctionAdd("laragosa", "Saragossa Opening");
-            correctionAdd("laragoza", "Saragossa Opening");
+            correctionAdd("laragosa", "Saragossa Opening"); // Chess
+            correctionAdd("laragoza", "Saragossa Opening"); // Chess
+
+            correctionAdd("queens gambit", "Queen's Gambit"); // Chess
+
+            correctionAdd("ragosin", "Queen's Gambit Declined, Ragozin Variation"); // Chess
+
+            correctionAdd("arma", "Armageddon"); // Chess
+
+            correctionAdd("alekhins", "Alekhine's Defence"); // Chess
+
+            correctionAdd("Lasker", "Emanuel Lasker"); // Chess
+
 
 
 
@@ -15964,6 +15977,7 @@ namespace OverflowHelper.core
             correctionAdd("ICSP", "in-circuit serial programming");
 
             correctionAdd("normaly", "normally");
+            correctionAdd("Normaly", "normally");
 
             correctionAdd("noticably", "noticeably");
 
@@ -16441,6 +16455,28 @@ namespace OverflowHelper.core
 
             correctionAdd("must have", "must-have");
 
+            correctionAdd("bruteforce", "brute-force attack");
+            correctionAdd("bruteforce attack", "brute-force attack");
+            correctionAdd("brute-force", "brute-force attack");
+
+            correctionAdd("buffring", "buffering");
+
+            correctionAdd("Code Coverage", "code coverage");
+
+            correctionAdd("habbit", "habit");
+
+            correctionAdd("kepp", "keep");
+            correctionAdd("Kepp", "keep");
+
+            correctionAdd("perojory", "pejorative");
+
+            correctionAdd("predictible", "predictable");
+
+            correctionAdd("spagehtti", "spaghetti");
+            correctionAdd("spaghehtti", "spaghetti");
+
+            correctionAdd("zero-ing", "zeroing");
+
 
 
             // Start of coronavirus part...
@@ -16507,7 +16543,6 @@ namespace OverflowHelper.core
             correctionAdd("rona", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
-
 
 
 
@@ -24802,6 +24837,34 @@ namespace OverflowHelper.core
             URL_Add("end user", "https://en.wiktionary.org/wiki/end_user#Noun");
 
             URL_Add("must-have", "https://en.wiktionary.org/wiki/must-have#Noun");
+
+            URL_Add("Queen's Gambit", "https://en.wikipedia.org/wiki/Queen%27s_Gambit");
+
+            URL_Add("Queen's Gambit Declined, Ragozin Variation", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
+
+            URL_Add("Alekhine's Defence", "https://en.wikipedia.org/wiki/Alekhine%27s_Defence");
+
+            URL_Add("Armageddon", "https://en.wikipedia.org/wiki/Fast_chess#Armageddon");
+
+            URL_Add("Emanuel Lasker", "https://en.wikipedia.org/wiki/Emanuel_Lasker");
+
+            URL_Add("brute-force attack", "https://en.wikipedia.org/wiki/Brute-force_attack");
+
+            URL_Add("buffering", "https://en.wiktionary.org/wiki/buffer#Verb");
+
+            URL_Add("code coverage", "https://en.wikipedia.org/wiki/Code_coverage");
+
+            URL_Add("habit", "https://en.wiktionary.org/wiki/habit#Noun");
+
+            URL_Add("keep", "https://en.wiktionary.org/wiki/keep#Verb");
+
+            URL_Add("pejorative", "https://en.wiktionary.org/wiki/pejorative#Adjective");
+
+            URL_Add("predictable", "https://en.wiktionary.org/wiki/predictable#Adjective");
+
+            URL_Add("spaghetti", "https://en.wiktionary.org/wiki/spaghetti#Noun");
+
+            URL_Add("zeroing", "https://en.wiktionary.org/wiki/zero#Verb");
 
 
 
