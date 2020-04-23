@@ -183,6 +183,7 @@
     </Compile>
     <Compile Include="OverflowHelper\Source\GUI\Forms\PM_WindowsFormsCommon.cs" />
     <Compile Include="OverflowHelper\Source\main\CheckinMessageBuilder.cs" />
+    <Compile Include="OverflowHelper\Source\main\CodeFormattingCheck.cs" />
     <Compile Include="OverflowHelper\Source\main\CommandLineParameters.cs" />
     <Compile Include="OverflowHelper\Source\main\EditSummaryStyle.cs" />
     <Compile Include="OverflowHelper\Source\main\HTML_builder.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="OverflowHelper\Source\main\network.cs" />
     <Compile Include="OverflowHelper\Source\main\Program.cs" />
     <Compile Include="OverflowHelper\Source\main\WikipediaLookup.cs" />
+    <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverfkowApplication_Windows.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\timing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\SelectEditSummaryStyle.resx">

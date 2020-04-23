@@ -43,13 +43,17 @@ namespace OverflowHelper.Forms
         const string kAudioSet = 
           "*.mp3;*.m4a;*.mid;*.ogx;*.wav;*.wma";
 
+        private EditorOverflowApplication mApplication;
+
 
         //****************************************************************************
         //*    <placeholder for header>                                              *
         //****************************************************************************
-        public frmRandomFileOpen()
+        public frmRandomFileOpen(EditorOverflowApplication anApplication)
         {
             InitializeComponent();
+
+            mApplication = anApplication;
         }
 
 
@@ -151,7 +155,7 @@ namespace OverflowHelper.Forms
         private void btnCopyToClipboard_Click(object aSender, EventArgs anEvent)
         {
             string currentFile = txtCurrentFile.Text;
-            EditorOverflowApplication.setClipboard3(currentFile, null);
+            mApplication.setClipboard3(currentFile);
         }
 
 
