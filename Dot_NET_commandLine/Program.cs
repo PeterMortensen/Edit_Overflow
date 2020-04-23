@@ -26,6 +26,8 @@ namespace EditOverflow2
 
             EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
+            CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
 
             // This will result in running the ***first*** level of
             // integrity testing for the word list data
@@ -58,10 +60,9 @@ namespace EditOverflow2
                     //               "some version thingie",
                     //               "some date only string");
 
-
                     toOutput = someWikipediaLookup.dumpWordList_asHTML(
 
-                                   "some combined regular expressions",
+                                   cfCheck.combinedAllOfRegularExpressions(),
                                    app.fullVersionStr(),
                                    app.versionString_dateOnly()
                                );
