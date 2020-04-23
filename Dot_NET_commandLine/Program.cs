@@ -9,6 +9,9 @@ using System; // For Console
 
 using OverflowHelper.core;
 
+using OverflowHelper; // For class EditorOverflowApplication (that is 
+                      // directly in that namespace (should it be?))
+
 
 namespace EditOverflow2
 {
@@ -20,6 +23,9 @@ namespace EditOverflow2
 
             string toOutput = ""; // No output unless explicitly indicated
                                   // by parameters passed to the program
+
+            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+
 
             // This will result in running the ***first*** level of
             // integrity testing for the word list data
@@ -41,14 +47,25 @@ namespace EditOverflow2
                 case "HTML":
                     // This will result in running ***more*** rigorous
                     // integrity testing for the word list data
+
+
+                    //toOutput = someWikipediaLookup.dumpWordList_asHTML(
+                    //
+                    //               // Fixed strings - sufficient for integrity testing
+                    //               // of the word list data
+                    //               //
+                    //               "some combined regular expressions",
+                    //               "some version thingie",
+                    //               "some date only string");
+
+
                     toOutput = someWikipediaLookup.dumpWordList_asHTML(
 
-                                   // Fixed strings - sufficient for integrity testing
-                                   // of the word list data
-                                   //
                                    "some combined regular expressions",
-                                   "some version thingie",
-                                   "some date only string");
+                                   app.fullVersionStr(),
+                                   app.versionString_dateOnly()
+                               );
+
                     break;
 
                default:
