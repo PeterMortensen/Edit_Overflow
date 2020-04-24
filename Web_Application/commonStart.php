@@ -40,7 +40,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a34 2020-04-24T173611Z+0";
+        return "Edit Overflow v. 1.1.49a34 2020-04-24T174802Z+0";
     }
 
 
@@ -51,8 +51,8 @@
     {
         # Note: Besides the actual <h1> headline, we use side-effects
         #       in this function (indicating we should probably rename
-        #       it to reflect its actual behaviour)... Use the 
-        #       opportunity as this function is used by all 
+        #       it to reflect its actual behaviour)... Use the
+        #       opportunity as this function is used by all
         #       pages (and in the beginning).
         #
         # 1. WordPress does unexpected escaping of form data
@@ -67,11 +67,11 @@
         # 4. Inject of errors (for regression testing)
         #
         # 5. Start of document, incl. <title> tag
-    
-        get_startOfDocument();
 
-        
         $someTitle = "$aHeadline - " . get_EditOverflowID();
+
+        get_startOfDocument($someTitle);
+
         echo "<h1>$someTitle</h1>";
 
 
@@ -309,7 +309,7 @@
     # Note that we are using the WordPress convention of
     # name prefixing functions (with "the_") that echo's.
     #
-    function get_startOfDocument()
+    function get_startOfDocument($aTitle)
     {
 
         ###########################################################################
@@ -317,6 +317,15 @@
 
         if (useWordPress())
         {
+            # Note: For now, the passed title is not used in the WordPress
+            #       part (also with have the prefix "Page not found - " in
+            #       the title when using WordPress)
+            #
+            # The full title is currently (2020-04-24):
+            #
+            #    Page not found &#8211; Hertil og ikke længere
+
+
             # For getting the styling and other redundant
             # content (like headers) from WordPress.
             #
@@ -356,14 +365,16 @@
             #
             # Yes, the heredoc style makes it ugly.
             #
-        echo <<<'HTML_END'
+            # Note: non-quoted, HTML_END, for heredoc (not newdoc)
+            #
+        echo <<<HTML_END
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <title>Edit Overflow (generic title)</title>
+        <title>$aTitle</title>
 
         <style>
             body
@@ -455,12 +466,7 @@ HTML_END;
     # ########   E n d   o f   f u n c t i o n   d e f i n i t i o n s   ########
 
 
-
-
-    
-
-
-
 ?>
+
 
 
