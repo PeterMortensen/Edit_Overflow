@@ -194,11 +194,11 @@
     <Compile Include="OverflowHelper\Source\main\Tokeniser.cs" />
     <Compile Include="OverflowHelper\Source\main\Utility.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\Clipboard.cs" />
-    <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverfkowApplication.cs" />
     <Compile Include="OverflowHelper\Source\main\network.cs" />
     <Compile Include="OverflowHelper\Source\main\Program.cs" />
     <Compile Include="OverflowHelper\Source\main\WikipediaLookup.cs" />
-    <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverfkowApplication_Windows.cs" />
+    <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverflowApplication.cs" />
+    <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverflowApplication_Windows.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\timing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="OverflowHelper\Source\GUI\Forms\SelectEditSummaryStyle.resx">
