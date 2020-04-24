@@ -6,6 +6,7 @@
 
 export EFFECTIVE_DATE='2020-02-05'
 export EFFECTIVE_DATE='2020-02-28'
+export EFFECTIVE_DATE='2020-04-23'
 
 export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
 
@@ -53,8 +54,8 @@ cp $SRCFOLDER_CORE/HTML_builder.cs         $WORKFOLDER
 cp $SRCFOLDER_CORE/CodeFormattingCheck.cs  $WORKFOLDER
 
 
-cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverfkowApplication_Unix.cs  $WORKFOLDER
-cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverfkowApplication.cs       $WORKFOLDER
+cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER
+cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER
 
 
 
