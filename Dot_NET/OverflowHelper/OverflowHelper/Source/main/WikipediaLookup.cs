@@ -11531,6 +11531,9 @@ namespace OverflowHelper.core
             correctionAdd("themself", "themselves");
 
             correctionAdd("121gw", "121GW");
+            correctionAdd("giggawatt", "121GW");
+            correctionAdd("gigga", "121GW");
+            correctionAdd("giggawatt meter", "121GW");
 
             correctionAdd("BJT", "bipolar junction transistor");
 
@@ -16477,6 +16480,9 @@ namespace OverflowHelper.core
 
             correctionAdd("zero-ing", "zeroing");
 
+            correctionAdd("inly", "only");
+
+            correctionAdd("real world", "real-world");
 
 
             // Start of coronavirus part...
@@ -24866,6 +24872,9 @@ namespace OverflowHelper.core
 
             URL_Add("zeroing", "https://en.wiktionary.org/wiki/zero#Verb");
 
+            URL_Add("only", "https://en.wiktionary.org/wiki/only#Adverb");
+
+            URL_Add("real-world", "https://en.wiktionary.org/wiki/real-world#Adjective");
 
 
 
