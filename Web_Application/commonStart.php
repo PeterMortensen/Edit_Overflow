@@ -40,7 +40,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a33 2020-04-23T182156Z+0";
+        return "Edit Overflow v. 1.1.49a34 2020-04-24T172945Z+0";
     }
 
 
@@ -52,8 +52,9 @@
         echo "<h1>$aHeadline - " . get_EditOverflowID() . "</h1>";
 
 
-        # Side-effects of this function... Use the opportunity as this
-        # function is used by all pages (and in the beginning).
+        # Besides the actual <h1> headline, we use side-effects in
+        # this function... Use the opportunity as this function
+        # is used by all pages (and in the beginning).
         #
         # 1. WordPress does unexpected escaping of form data
         #
@@ -297,54 +298,56 @@
     }
 
 
-    # ########   E n d   o f   f u n c t i o n   d e f i n i t i o n s   ########
-
-
-
-    ###########################################################################
-    # WordPress specific!
-
-    if (useWordPress())
+    # Note that we are using the WordPress convention of
+    # name prefixing functions (with "the_") that echo's.
+    #
+    function get_startOfDocument()
     {
-        # For getting the styling and other redundant
-        # content (like headers) from WordPress.
-        #
-        # So now we have a dependency on WordPress...
-        #
-        define('WP_USE_THEMES', false);
-        require(dirname(__FILE__) . '/wp-blog-header.php');
+
+        ###########################################################################
+        # WordPress specific!
+
+        if (useWordPress())
+        {
+            # For getting the styling and other redundant
+            # content (like headers) from WordPress.
+            #
+            # So now we have a dependency on WordPress...
+            #
+            define('WP_USE_THEMES', false);
+            require(dirname(__FILE__) . '/wp-blog-header.php');
 
 
-        # For a page counter, plugin "Page Visit Counter",
-        # <https://wordpress.org/plugins/page-visit-counter/>
-        ##require_once('shortcodes.php');
-        require_once('wp-includes/shortcodes.php');
+            # For a page counter, plugin "Page Visit Counter",
+            # <https://wordpress.org/plugins/page-visit-counter/>
+            ##require_once('shortcodes.php');
+            require_once('wp-includes/shortcodes.php');
 
-        #require_once(‘blog/wp-blog-header.php’); # But it doesn't actually exist
-                                                  # in folder 'blog'.
+            #require_once(‘blog/wp-blog-header.php’); # But it doesn't actually exist
+                                                      # in folder 'blog'.
 
-        #require_once(‘wp-blog-header.php’);
+            #require_once(‘wp-blog-header.php’);
 
 
-        get_header(); # Note: Using some WordPress themes results in the following
-                      #       on the page itself (though we also have it in the
-                      #       title for all themes - but this is less intrusive):
-                      #
-                      #           "Page not found"
-                      #
-                      #       Some themes that do not give it are:
-                      #
-                      #           "Responsive"    (the one we currently use)
-                      #           "Orfeo"
-                      #           "Hestia"
-                      #           "Astra"
-    }
-    else
-    {
-        # Revert to old-style header
-        #
-        # Yes, the Heredoc style makes it ugly.
-        #
+            get_header(); # Note: Using some WordPress themes results in the following
+                          #       on the page itself (though we also have it in the
+                          #       title for all themes - but this is less intrusive):
+                          #
+                          #           "Page not found"
+                          #
+                          #       Some themes that do not give it are:
+                          #
+                          #           "Responsive"    (the one we currently use)
+                          #           "Orfeo"
+                          #           "Hestia"
+                          #           "Astra"
+        }
+        else
+        {
+            # Revert to old-style header
+            #
+            # Yes, the heredoc style makes it ugly.
+            #
         echo <<<'HTML_END'
 <!DOCTYPE html>
 <html lang="en">
@@ -432,9 +435,22 @@
 
 HTML_END;
 
-        # End of Heredoc part.
+            # End of Heredoc part. Yes, HTML_END needs to start in column 1.
 
-    } # End of native HTML part (not WordPress)
+
+        } # End of native HTML part (not WordPress)
+
+
+    } #get_startOfDocument()
+
+
+    # ########   E n d   o f   f u n c t i o n   d e f i n i t i o n s   ########
+
+
+
+
+    get_startOfDocument();
+
 
 
 ?>
