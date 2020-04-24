@@ -15745,7 +15745,6 @@ namespace OverflowHelper.core
 
 
 
-
             correctionAdd("demonitisation", "demonetisation");
             correctionAdd("demonitization", "demonetisation");
             correctionAdd("demonetization", "demonetisation");
@@ -16485,6 +16484,15 @@ namespace OverflowHelper.core
             correctionAdd("inly", "only");
 
             correctionAdd("real world", "real-world");
+
+            correctionAdd("bronze age", "Bronze Age");
+
+            correctionAdd("amatur", "amateur");
+            correctionAdd("ametur", "amateur");
+
+            correctionAdd("entierly", "entirely");
+
+            correctionAdd("suface", "surface");
 
 
             // Start of coronavirus part...
@@ -24880,6 +24888,13 @@ namespace OverflowHelper.core
 
             URL_Add("Ruy Lopez, Arkhangelsk Defence", "https://en.wikipedia.org/wiki/Ruy_Lopez#Arkhangelsk_Defence:_4.Ba4_Nf6_5.0-0_b5_6.Bb3_Bb7");
 
+            URL_Add("Bronze Age", "https://en.wikipedia.org/wiki/Bronze_Age");
+
+            URL_Add("amateur", "https://en.wiktionary.org/wiki/amateur#Noun");
+
+            URL_Add("entirely", "https://en.wiktionary.org/wiki/entirely#Adverb");
+
+            URL_Add("surface", "https://en.wiktionary.org/wiki/surface#Noun");
 
 
 
