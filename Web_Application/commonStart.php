@@ -40,7 +40,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a34 2020-04-24T172945Z+0";
+        return "Edit Overflow v. 1.1.49a34 2020-04-24T173611Z+0";
     }
 
 
@@ -49,12 +49,11 @@
     #
     function the_EditOverflowHeadline($aHeadline)
     {
-        echo "<h1>$aHeadline - " . get_EditOverflowID() . "</h1>";
-
-
-        # Besides the actual <h1> headline, we use side-effects in
-        # this function... Use the opportunity as this function
-        # is used by all pages (and in the beginning).
+        # Note: Besides the actual <h1> headline, we use side-effects
+        #       in this function (indicating we should probably rename
+        #       it to reflect its actual behaviour)... Use the 
+        #       opportunity as this function is used by all 
+        #       pages (and in the beginning).
         #
         # 1. WordPress does unexpected escaping of form data
         #
@@ -66,6 +65,15 @@
         #    etc.
         #
         # 4. Inject of errors (for regression testing)
+        #
+        # 5. Start of document, incl. <title> tag
+    
+        get_startOfDocument();
+
+        
+        $someTitle = "$aHeadline - " . get_EditOverflowID();
+        echo "<h1>$someTitle</h1>";
+
 
         adjustForWordPressMadness();
 
@@ -449,7 +457,7 @@ HTML_END;
 
 
 
-    get_startOfDocument();
+    
 
 
 
