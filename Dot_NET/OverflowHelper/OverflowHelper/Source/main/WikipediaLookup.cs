@@ -15740,6 +15740,8 @@ namespace OverflowHelper.core
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
 
             correctionAdd("Lasker", "Emanuel Lasker"); // Chess
+            
+            correctionAdd("ark", "Ruy Lopez, Arkhangelsk Defence"); // Chess
 
 
 
@@ -24875,6 +24877,8 @@ namespace OverflowHelper.core
             URL_Add("only", "https://en.wiktionary.org/wiki/only#Adverb");
 
             URL_Add("real-world", "https://en.wiktionary.org/wiki/real-world#Adjective");
+
+            URL_Add("Ruy Lopez, Arkhangelsk Defence", "https://en.wikipedia.org/wiki/Ruy_Lopez#Arkhangelsk_Defence:_4.Ba4_Nf6_5.0-0_b5_6.Bb3_Bb7");
 
 
 
