@@ -8609,6 +8609,7 @@ namespace OverflowHelper.core
             correctionAdd("out out", "output");
             correctionAdd("outout", "output");
             correctionAdd("outp", "output");
+            correctionAdd("outoput", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -15745,7 +15746,7 @@ namespace OverflowHelper.core
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
 
             correctionAdd("Lasker", "Emanuel Lasker"); // Chess
-            
+
             correctionAdd("ark", "Ruy Lopez, Arkhangelsk Defence"); // Chess
 
 
@@ -16515,6 +16516,9 @@ namespace OverflowHelper.core
 
             correctionAdd("here doc", "heredoc");
             correctionAdd("Heredoc", "heredoc");
+
+            correctionAdd("Logic Programming", "logic programming");
+
 
 
 
@@ -24933,6 +24937,7 @@ namespace OverflowHelper.core
 
             URL_Add("heredoc", "https://en.wikipedia.org/wiki/Here_document#PHP");
 
+            URL_Add("logic programming", "https://en.wikipedia.org/wiki/Logic_programming");
 
 
             //========================================================
