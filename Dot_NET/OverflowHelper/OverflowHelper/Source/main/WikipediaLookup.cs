@@ -16103,9 +16103,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lex", "Lex");
 
-            correctionAdd("Razor Pages", "Web Forms");
-            correctionAdd("web forms", "Web Forms");
-
             correctionAdd("yacc", "Yacc");
 
             correctionAdd("controll", "control");
@@ -16495,6 +16492,11 @@ namespace OverflowHelper.core
             correctionAdd("entierly", "entirely");
 
             correctionAdd("suface", "surface");
+
+            correctionAdd("Razor Pages", "Web Forms");
+
+            correctionAdd("web forms", "Web Forms");
+
 
 
             // Start of coronavirus part...
@@ -17808,7 +17810,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bézier curve", "https://en.wikipedia.org/wiki/B%C3%A9zier_curve");
 
-            URL_Add("without", "https://en.wiktionary.org/wiki/without");
+            URL_Add("without", "https://en.wiktionary.org/wiki/without#Adverb");
 
             URL_Add("Blender", "https://en.wikipedia.org/wiki/Blender_%28software%29");
 
@@ -18855,8 +18857,6 @@ namespace OverflowHelper.core
             URL_Add("SlickEdit", "https://en.wikipedia.org/wiki/SlickEdit");
 
             URL_Add("D3.js", "https://en.wikipedia.org/wiki/D3.js");
-
-            URL_Add("guarantee", "https://en.wiktionary.org/wiki/guarantee");
 
             URL_Add("EPROM", "https://en.wikipedia.org/wiki/EPROM");
 
@@ -20205,7 +20205,7 @@ namespace OverflowHelper.core
 
             URL_Add("Git Extensions", "https://gitextensions.github.io/");
 
-            URL_Add("I don't know", "https://en.wiktionary.org/wiki/IDK#Initialism");
+            URL_Add("I don't know", "https://en.wiktionary.org/wiki/IDK#Phrase");
 
             URL_Add("Invoke-Expression", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-expression");
 
@@ -21953,7 +21953,7 @@ namespace OverflowHelper.core
 
             URL_Add("likelihood", "https://en.wiktionary.org/wiki/likelihood#Noun");
 
-            URL_Add("monetisation", "https://en.wiktionary.org/wiki/monetisation");
+            URL_Add("monetisation", "https://en.wiktionary.org/wiki/monetisation#Noun");
 
             URL_Add("onwards", "https://en.wiktionary.org/wiki/onwards#Adverb");
 
@@ -22366,7 +22366,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bob's your uncle", "https://en.wiktionary.org/wiki/Bob%27s_your_uncle#Phrase");
 
-            URL_Add("DTS", "https://en.wikipedia.org/wiki/DTS_(sound_system)#DTS_audio_codec");
+            URL_Add("DTS", "https://en.wikipedia.org/wiki/Flow_control_(data)#Hardware_flow_control");
 
             URL_Add("SoundCloud", "https://en.wikipedia.org/wiki/SoundCloud");
 
@@ -24897,6 +24897,8 @@ namespace OverflowHelper.core
             URL_Add("entirely", "https://en.wiktionary.org/wiki/entirely#Adverb");
 
             URL_Add("surface", "https://en.wiktionary.org/wiki/surface#Noun");
+
+            URL_Add("guarantee", "https://en.wiktionary.org/wiki/guarantee#Noun");
 
 
 
