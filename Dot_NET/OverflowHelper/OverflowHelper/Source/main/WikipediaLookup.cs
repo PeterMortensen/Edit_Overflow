@@ -14866,6 +14866,7 @@ namespace OverflowHelper.core
             correctionAdd("decending", "descending");
 
             correctionAdd("HISTORY", "history");
+            correctionAdd("hirtory", "history");
 
             correctionAdd("cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
@@ -15734,7 +15735,7 @@ namespace OverflowHelper.core
 
             correctionAdd("russolino", "Sicilian Defence, Rossolimo Variation"); // Chess
 
-            //correctionAdd("saragossa", "Saragossa Opening"); // Chess
+            correctionAdd("saragossa", "Saragossa Opening"); // Chess
 
             correctionAdd("queens gambit", "Queen's Gambit"); // Chess
 
@@ -15751,6 +15752,9 @@ namespace OverflowHelper.core
             correctionAdd("ragosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
             correctionAdd("laragoza", "Queen's Gambit Declined, Ragozin Defence"); // Chess
             correctionAdd("laragosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+
+            correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
+            correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
 
 
 
@@ -15904,8 +15908,6 @@ namespace OverflowHelper.core
             correctionAdd("komodo edit", "Komodo Edit");
             correctionAdd("Komodo edit", "Komodo Edit");
             correctionAdd("KOMODO EDIT", "Komodo Edit");
-
-            correctionAdd("grumfeld", "Grünfeld Defence");
 
             correctionAdd("286", "Intel 80286");
 
@@ -16274,6 +16276,8 @@ namespace OverflowHelper.core
             correctionAdd("Code complete", "Code Complete");
 
             correctionAdd("D-day", "D-Day");
+            correctionAdd("D Day", "D-Day");
+            correctionAdd("D day", "D-Day");
 
             correctionAdd("EPIC", "Epic");
 
@@ -16521,6 +16525,8 @@ namespace OverflowHelper.core
             correctionAdd("Heredoc", "heredoc");
 
             correctionAdd("Logic Programming", "logic programming");
+            
+            correctionAdd("wes", "was");
 
 
 
@@ -24884,7 +24890,7 @@ namespace OverflowHelper.core
 
             URL_Add("Queen's Gambit", "https://en.wikipedia.org/wiki/Queen%27s_Gambit");
 
-            URL_Add("Queen's Gambit Declined, Ragozin Variation", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
+            URL_Add("Queen's Gambit Declined, Ragozin Defence", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
 
             URL_Add("Alekhine's Defence", "https://en.wikipedia.org/wiki/Alekhine%27s_Defence");
 
@@ -24941,6 +24947,9 @@ namespace OverflowHelper.core
             URL_Add("heredoc", "https://en.wikipedia.org/wiki/Here_document#PHP");
 
             URL_Add("logic programming", "https://en.wikipedia.org/wiki/Logic_programming");
+
+            URL_Add("was", "https://en.wiktionary.org/wiki/was#Verb");
+
 
 
             //========================================================
