@@ -14328,6 +14328,7 @@ namespace OverflowHelper.core
             correctionAdd("man", "man page");
 
             correctionAdd("mark-up", "markup");
+            correctionAdd("mark up", "markup");
 
             correctionAdd("memmory", "memory");
 
@@ -15218,6 +15219,8 @@ namespace OverflowHelper.core
             correctionAdd("spotify", "Spotify");
 
             correctionAdd("carreer", "career");
+            correctionAdd("CARRER", "career");
+            correctionAdd("carrer", "career");
 
             correctionAdd("conqer", "conquer");
 
@@ -16496,6 +16499,22 @@ namespace OverflowHelper.core
             correctionAdd("Razor Pages", "Web Forms");
 
             correctionAdd("web forms", "Web Forms");
+
+            correctionAdd("october cms", "October (CMS)");
+
+            correctionAdd("SSH2", "SSH-2");
+            correctionAdd("SSH 2", "SSH-2");
+
+            correctionAdd("WHM", "WebHost Manager");
+
+            correctionAdd("concact", "contact");
+
+            correctionAdd("gas light", "gaslight");
+
+            correctionAdd("hoard immunity", "herd immunity");
+
+            correctionAdd("here doc", "heredoc");
+            correctionAdd("Heredoc", "heredoc");
 
 
 
@@ -24899,6 +24918,20 @@ namespace OverflowHelper.core
             URL_Add("surface", "https://en.wiktionary.org/wiki/surface#Noun");
 
             URL_Add("guarantee", "https://en.wiktionary.org/wiki/guarantee#Noun");
+
+            URL_Add("October (CMS)", "https://en.wikipedia.org/wiki/October_(CMS)");
+
+            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
+
+            URL_Add("WebHost Manager", "https://en.wikipedia.org/wiki/CPanel#WHM");
+
+            URL_Add("contact", "https://en.wiktionary.org/wiki/contact#Verb");
+
+            URL_Add("gaslight", "https://en.wiktionary.org/wiki/gaslight#Verb");
+
+            URL_Add("herd immunity", "https://en.wikipedia.org/wiki/Herd_immunity");
+
+            URL_Add("heredoc", "https://en.wikipedia.org/wiki/Here_document#PHP");
 
 
 
