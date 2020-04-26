@@ -15708,6 +15708,8 @@ namespace OverflowHelper.core
 
             correctionAdd("nidjorf chess", "Sicilian Defence, Najdorf Variation"); // Chess
             correctionAdd("nejdorf", "Sicilian Defence, Najdorf Variation"); // Chess
+            correctionAdd("Najdorf", "Sicilian Defence, Najdorf Variation"); // Chess
+            correctionAdd("najdorf", "Sicilian Defence, Najdorf Variation"); // Chess
 
             correctionAdd("blitz chess", "Blitz (chess)"); // Chess
 
