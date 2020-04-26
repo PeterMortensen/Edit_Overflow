@@ -15734,12 +15734,9 @@ namespace OverflowHelper.core
 
             correctionAdd("russolino", "Sicilian Defence, Rossolimo Variation"); // Chess
 
-            correctionAdd("laragosa", "Saragossa Opening"); // Chess
-            correctionAdd("laragoza", "Saragossa Opening"); // Chess
+            //correctionAdd("saragossa", "Saragossa Opening"); // Chess
 
             correctionAdd("queens gambit", "Queen's Gambit"); // Chess
-
-            correctionAdd("ragosin", "Queen's Gambit Declined, Ragozin Variation"); // Chess
 
             correctionAdd("arma", "Armageddon"); // Chess
 
@@ -15748,6 +15745,12 @@ namespace OverflowHelper.core
             correctionAdd("Lasker", "Emanuel Lasker"); // Chess
 
             correctionAdd("ark", "Ruy Lopez, Arkhangelsk Defence"); // Chess
+
+            correctionAdd("ragosin", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+            correctionAdd("regosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+            correctionAdd("ragosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+            correctionAdd("laragoza", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+            correctionAdd("laragosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
 
 
 
