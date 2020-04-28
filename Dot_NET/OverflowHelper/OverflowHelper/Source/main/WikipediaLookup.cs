@@ -863,6 +863,7 @@ namespace OverflowHelper.core
             correctionAdd("pgSQL", "PostgreSQL");
             correctionAdd("PgSQL", "PostgreSQL");
             correctionAdd("PL/pgSQL", "PostgreSQL");
+            correctionAdd("PostGresql", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -3558,6 +3559,7 @@ namespace OverflowHelper.core
             correctionAdd("doucmentation", "documentation");
 
             correctionAdd("sftp", "SFTP");
+            correctionAdd("sFTP", "SFTP");
 
             correctionAdd("ipsec", "IPsec");
             correctionAdd("IPSEC", "IPsec");
@@ -9427,6 +9429,7 @@ namespace OverflowHelper.core
 
             correctionAdd("amd", "AMD");
             correctionAdd("AMd", "AMD");
+            correctionAdd("Amd", "AMD");
 
             correctionAdd("mvvm", "MVVM");
 
@@ -11253,6 +11256,7 @@ namespace OverflowHelper.core
             correctionAdd("extention", "extension");
             correctionAdd("Extenstion", "extension");
             correctionAdd("extenstion", "extension");
+            correctionAdd("extesion", "extension");
 
             correctionAdd("framwork", "framework");
 
@@ -13713,6 +13717,7 @@ namespace OverflowHelper.core
             correctionAdd("Git2", "Git&nbsp;2.0");
 
             correctionAdd("Higgs Boson", "Higgs boson");
+            correctionAdd("Higg's boson", "Higgs boson");
 
             correctionAdd("Mev", "MeV");
 
@@ -14318,6 +14323,7 @@ namespace OverflowHelper.core
             correctionAdd("int", "integer");
             correctionAdd("ingeters", "integer");
             correctionAdd("intiger", "integer");
+            correctionAdd("intager", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -16525,9 +16531,18 @@ namespace OverflowHelper.core
             correctionAdd("Heredoc", "heredoc");
 
             correctionAdd("Logic Programming", "logic programming");
-            
+
             correctionAdd("wes", "was");
 
+            correctionAdd("VS2013 Express", "Visual Studio 2013 Express");
+
+            correctionAdd("commment", "comment");
+
+            correctionAdd("discurage", "discourage");
+
+            correctionAdd("elce", "else");
+
+            correctionAdd("plattform", "platform");
 
 
 
@@ -24949,6 +24964,16 @@ namespace OverflowHelper.core
             URL_Add("logic programming", "https://en.wikipedia.org/wiki/Logic_programming");
 
             URL_Add("was", "https://en.wiktionary.org/wiki/was#Verb");
+
+            URL_Add("Visual Studio 2013 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932013_products");
+
+            URL_Add("comment", "https://en.wiktionary.org/wiki/comment#Noun");
+
+            URL_Add("discourage", "https://en.wiktionary.org/wiki/discourage#Verb");
+
+            URL_Add("else", "https://en.wiktionary.org/wiki/else#Conjunction");
+
+            URL_Add("platform", "https://en.wiktionary.org/wiki/platform#Noun");
 
 
 
