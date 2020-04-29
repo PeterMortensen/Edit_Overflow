@@ -4008,6 +4008,7 @@ namespace OverflowHelper.core
             correctionAdd("google fo", "Google-fu");
             correctionAdd("google foo", "Google-fu");
             correctionAdd("Google fu", "Google-fu");
+            correctionAdd("Google-Fu", "Google-fu");
 
             correctionAdd("ssh", "SSH");
 
@@ -15015,6 +15016,7 @@ namespace OverflowHelper.core
             correctionAdd("commandlet", "cmdlet");
 
             correctionAdd("commmand", "command");
+            correctionAdd("commad", "command");
 
             correctionAdd("command line", "command-line");
             correctionAdd("CML", "command-line");
@@ -16206,6 +16208,7 @@ namespace OverflowHelper.core
             correctionAdd("pyo3", "PyO3");
 
             correctionAdd("sql server 2017", "SQL Server 2017");
+            correctionAdd("SQL server 2017", "SQL Server 2017");
 
             correctionAdd("sql server 2019", "SQL Server 2019");
 
@@ -16543,6 +16546,10 @@ namespace OverflowHelper.core
             correctionAdd("elce", "else");
 
             correctionAdd("plattform", "platform");
+
+            correctionAdd("schrader", "Schrader valve");
+
+            correctionAdd("confort", "comfort");
 
 
 
@@ -24974,6 +24981,10 @@ namespace OverflowHelper.core
             URL_Add("else", "https://en.wiktionary.org/wiki/else#Conjunction");
 
             URL_Add("platform", "https://en.wiktionary.org/wiki/platform#Noun");
+
+            URL_Add("Schrader valve", "https://en.wikipedia.org/wiki/Schrader_valve");
+
+            URL_Add("comfort", "https://en.wiktionary.org/wiki/comfort#Noun");
 
 
 
