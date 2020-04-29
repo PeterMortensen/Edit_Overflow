@@ -4053,6 +4053,7 @@ namespace OverflowHelper.core
             correctionAdd("vailble", "variable");
             correctionAdd("varialble", "variable");
             correctionAdd("varable", "variable");
+            correctionAdd("variabel", "variable");
 
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
@@ -16551,6 +16552,23 @@ namespace OverflowHelper.core
 
             correctionAdd("confort", "comfort");
 
+            correctionAdd("Boing", "Boeing");
+
+            correctionAdd("ES2020", "ECMAScript 2020");
+
+            correctionAdd("arround", "around");
+
+            correctionAdd("aks", "ask");
+
+            correctionAdd("cross reference", "cross-reference");
+
+            correctionAdd("over night", "overnight");
+
+            correctionAdd("smoke screen", "smokescreen");
+
+            correctionAdd("timewaster", "time-waster");
+
+            correctionAdd("useragent", "user agent");
 
 
             // Start of coronavirus part...
@@ -24985,6 +25003,24 @@ namespace OverflowHelper.core
             URL_Add("Schrader valve", "https://en.wikipedia.org/wiki/Schrader_valve");
 
             URL_Add("comfort", "https://en.wiktionary.org/wiki/comfort#Noun");
+
+            URL_Add("Boeing", "https://en.wikipedia.org/wiki/Boeing");
+
+            URL_Add("ECMAScript 2020", "https://en.wikipedia.org/wiki/ECMAScript#ES.Next");
+
+            URL_Add("around", "https://en.wiktionary.org/wiki/around#Adverb");
+
+            URL_Add("ask", "https://en.wiktionary.org/wiki/ask#Verb");
+
+            URL_Add("cross-reference", "https://en.wiktionary.org/wiki/cross-reference#Verb");
+
+            URL_Add("overnight", "https://en.wiktionary.org/wiki/overnight#Adverb");
+
+            URL_Add("smokescreen", "https://en.wiktionary.org/wiki/smokescreen#Noun");
+
+            URL_Add("time-waster", "https://en.wiktionary.org/wiki/time-waster#Noun");
+
+            URL_Add("user agent", "https://en.wikipedia.org/wiki/User_agent#Use_in_HTTP");
 
 
 
