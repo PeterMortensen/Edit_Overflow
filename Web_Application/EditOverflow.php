@@ -29,7 +29,7 @@
         ?>
 
 
-        <?php        
+        <?php
             require_once('deploymentSpecific.php');
 
             # These two are for proper indentation in the
@@ -113,8 +113,8 @@
             if (0)
             {
                 //Obsolete - delete at any time.
-            
-                // Prone to SQL injection attack (though the table 
+
+                // Prone to SQL injection attack (though the table
                 // is effectively readonly - we overwrite it on a
                 // regular basis)!
                 $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
@@ -165,7 +165,7 @@
 
             if ($correctTerm)
             {
-                # Add to our built-up edit summary string (using 
+                # Add to our built-up edit summary string (using
                 # the carried-over state and our new lookup)
 
                 #Later: more sophisticated, parsing $editSummary_encoded, etc.
@@ -174,10 +174,13 @@
                                                                      #       for the last item
 
                 # The structured way (that we actually use now)
-                $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____" 
+                $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____"
                                                                      #      for the first item
 
                 $linkInlineMarkdown = "[$correctTerm]($URL)";
+
+                $linkYouTubeCompatible = transformFor_YouTubeComments($URL);
+
                 # $linkInlineMarkdown = "";
             }
             else
@@ -212,7 +215,7 @@
             $elements = count($items);
 
 
-            # It is simple for the current Stack Overflow edit 
+            # It is simple for the current Stack Overflow edit
             # summary style - just separate each item by a space
             $URLlist = implode(' ', $items);
 
@@ -377,7 +380,7 @@
                     class="XYZ10"
                     <?php
                         # The extra trailing space in the output is for
-                        # presuming the lookup terms contains a trailing
+                        # presuming the lookup term contains a trailing
                         # space.
                         #
                         # This is only until we will use something more
@@ -434,13 +437,26 @@
                     title="Shortcut: Shift + Alt + E"
                 />
 
-                <label for="URL2"><b></b></label>
+                <label for="URL2">Link (inline Markdown)</label>
                 <input
                     name="URL2"
                     type="text"
                     id="URL2"
                     class="XYZ90"
                     <?php the_formValue($linkInlineMarkdown); ?>
+
+                    style="width:400px;"
+                    accesskey="I"
+                    title="Shortcut: Shift + Alt + I"
+                />
+
+                <label for="URL3">Link (YouTube compatible)</label>
+                <input
+                    name="URL3"
+                    type="text"
+                    id="URL3"
+                    class="XYZ91"
+                    <?php the_formValue($linkYouTubeCompatible); ?>
 
                     style="width:400px;"
                     accesskey="I"
