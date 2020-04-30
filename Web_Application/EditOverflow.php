@@ -179,7 +179,26 @@
 
                 $linkInlineMarkdown = "[$correctTerm]($URL)";
 
-                $linkYouTubeCompatible = transformFor_YouTubeComments($URL);
+                # We preformat it in the most commonly used form in YouTube
+                # comments: 
+                # 
+                #     1. Styled as bold (by "*". As the Wikipedia URLs often 
+                #        contain underscore (which is the marker for 
+                #        **italics** in YouTube comments)) 
+                #
+                #     2. Used indented on a separate line in a comment with 
+                #        a list of timestamps. Note: It is indented deeper 
+                #        than the text of a timestamp; this is intentional.
+                #
+                # Example: <>
+                #
+                # Possible future: Should we also include a newline at the end?
+                #
+                $linkYouTubeCompatible = 
+                    "                 *" . 
+                    transformFor_YouTubeComments($URL) .
+                    "*"
+                    ;
 
                 # $linkInlineMarkdown = "";
             }
@@ -459,8 +478,8 @@
                     <?php the_formValue($linkYouTubeCompatible); ?>
 
                     style="width:400px;"
-                    accesskey="I"
-                    title="Shortcut: Shift + Alt + I"
+                    accesskey="Y"
+                    title="Shortcut: Shift + Alt + Y"
                 />
 
                 <?php
