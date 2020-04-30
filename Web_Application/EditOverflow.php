@@ -190,7 +190,7 @@
                 #        a list of timestamps. Note: It is indented deeper 
                 #        than the text of a timestamp; this is intentional.
                 #
-                # Example: <>
+                # Example: <https://www.youtube.com/watch?v=NZZbl-lfokQ&lc=Ugxi74factISUTWaDSd4AaABAg>
                 #
                 # Possible future: Should we also include a newline at the end?
                 #
