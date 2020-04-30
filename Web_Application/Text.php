@@ -39,7 +39,6 @@
         ?>
 
         <?php
-            require_once('StringReplacerWithRegex.php');
 
             function removeTrailingSpace($aText)
             {
@@ -165,66 +164,6 @@
                 return implode("\r\n", $newContent);
             } #removeCommonLeadingSpaces()
 
-
-            function transformFor_YouTubeComments($aText)
-            {
-                $replacer = new StringReplacerWithRegex($aText);
-
-                # We strip the "www" in YouTube URLs. For unknown
-                # reasons, in some cases, replacing the " DOT "
-                # back to "." and using it in a browser, results
-                # in a ***double*** "www" and thus fails to load properly.
-                #
-                # Example: www.www.youtube.com/watch?v=_pybvjmjLT0&lc=Ugw6kcW_X3ulHZugaLB4AaABAg
-                #
-                $replacer->transform('www\.(youtube\..*)', '$1');
-
-                # Convert time to YouTube format
-                $replacer->transform('(\d+)\s+secs',   '$1 ');
-                $replacer->transform('(\d+)\s+min\s+', '$1:');
-                $replacer->transform('(\d+)\s+h\s+',   '$1:');
-
-                # Convert URLs so they do not look like URLs...
-                # (otherwise, the entire comment will be
-                # automatically removed by YouTube after
-                # one or two days).
-                $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
-                $replacer->transform('https:\/\/', ''         );
-                $replacer->transform('http:\/\/',  ''         );
-
-                # Reversals for some of the false
-                # positives in URL processing
-                #
-                # Future: Perhaps general reversal near the end, after
-                #         the last "/"? Say, for ".html".
-                #
-                $replacer->transform('E DOT g\.', 'E.g.');
-                $replacer->transform('e DOT g\.', 'e.g.');
-                $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
-                $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
-                
-
-                # Convert email addresses like so... (at least
-                # to offer some protection (and avoiding
-                # objections to posting)).
-                #
-                # For now, just globally replace "@"
-                #
-                $replacer->transform('\@', ' AT ');
-
-                #This one does not seem to work... Why?? Do we
-                #need some escaping?
-                #
-                # Convert "->" to a real arrow
-                #
-                # Note: For YouTube it can not be
-                #       the HTML entity, "&rarr;".
-                $replacer->transform('->', '→');
-
-                $someText = $replacer->currentString();
-
-                return $someText;
-            } #transformFor_YouTubeComments()
 
 
             # -------------------- End of main functions ---------------------
