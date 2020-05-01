@@ -10746,6 +10746,8 @@ namespace OverflowHelper.core
 
             correctionAdd("readonly", "read-only");
             correctionAdd("RO", "read-only");
+            correctionAdd("r/o", "read-only");
+            correctionAdd("read only", "read-only");
 
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
@@ -11689,6 +11691,7 @@ namespace OverflowHelper.core
             correctionAdd("sinewave", "sine wave");
 
             correctionAdd("UB", "undefined behaviour");
+            correctionAdd("Undefined Behavior", "undefined behaviour");
 
             correctionAdd("TI", "Texas Instruments");
 
@@ -12269,6 +12272,8 @@ namespace OverflowHelper.core
             correctionAdd("Li", "lithium");
 
             correctionAdd("M", "m");
+            correctionAdd("Meter", "m");
+            correctionAdd("meter", "m");
 
             correctionAdd("Mac Os", "macOS");
             correctionAdd("MacOs", "macOS");
@@ -12466,6 +12471,9 @@ namespace OverflowHelper.core
             correctionAdd("Acre", "acre");
 
             correctionAdd("acticity", "activity");
+            correctionAdd("Activity", "activity");
+            correctionAdd("Actiity", "activity");
+            correctionAdd("actiity", "activity");
 
             correctionAdd("anually", "annually");
 
@@ -12479,6 +12487,7 @@ namespace OverflowHelper.core
             correctionAdd("expection", "expectation");
 
             correctionAdd("incidently", "incidentally");
+            correctionAdd("Incidently", "incidentally");
 
             correctionAdd("Midevil", "medieval");
             correctionAdd("medieva", "medieval");
@@ -13427,6 +13436,8 @@ namespace OverflowHelper.core
             correctionAdd("shurely", "surely");
 
             correctionAdd("therefor", "therefore");
+            correctionAdd("Therefor", "therefore");
+            correctionAdd("Therefore", "therefore");
 
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
@@ -14564,6 +14575,10 @@ namespace OverflowHelper.core
             correctionAdd("initilization", "initialisation");
 
             correctionAdd("Millennials", "millennials");
+            correctionAdd("millinials", "millennials");
+            correctionAdd("millenials", "millennials");
+            correctionAdd("millenial", "millennials");
+            correctionAdd("Millenials", "millennials");
 
             correctionAdd("mindfield", "minefield");
 
@@ -15280,6 +15295,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ansi C", "ANSI C");
             correctionAdd("Ansi C", "ANSI C");
+            correctionAdd("ANSI-C", "ANSI C");
 
             correctionAdd("Afgan", "Afghan");
 
@@ -15764,6 +15780,9 @@ namespace OverflowHelper.core
 
             correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
+
+            correctionAdd("nimsovits", "Nimzowitsch Defence");
+
 
 
 
@@ -16569,6 +16588,44 @@ namespace OverflowHelper.core
             correctionAdd("timewaster", "time-waster");
 
             correctionAdd("useragent", "user agent");
+
+            correctionAdd("codemirror", "CodeMirror");
+            correctionAdd("Code Mirror", "CodeMirror");
+
+            correctionAdd("february", "February");
+
+            correctionAdd("january", "January");
+
+            correctionAdd("LightTable", "Light Table");
+
+            correctionAdd("MVP", "Minimum viable product");
+
+            correctionAdd("rider", "Rider");
+
+            correctionAdd("Steve Balmer", "Steve Ballmer");
+
+            correctionAdd("brake", "break");
+
+            correctionAdd("zirconia", "cubic zirconia");
+            correctionAdd("zirkonium", "cubic zirconia");
+
+            correctionAdd("fool proof", "foolproof");
+
+            correctionAdd("millinaire", "millionaire");
+
+            correctionAdd("re-entract", "reentrant");
+            correctionAdd("re-entrant", "reentrant");
+
+            correctionAdd("sematic", "semantic");
+
+            correctionAdd("smart watch", "smartwatch");
+
+            correctionAdd("sock puppet", "sockpuppet");
+
+            correctionAdd("thread safe", "threadsafe");
+            correctionAdd("thread-safe", "threadsafe");
+
+
 
 
             // Start of coronavirus part...
@@ -25021,6 +25078,41 @@ namespace OverflowHelper.core
             URL_Add("time-waster", "https://en.wiktionary.org/wiki/time-waster#Noun");
 
             URL_Add("user agent", "https://en.wikipedia.org/wiki/User_agent#Use_in_HTTP");
+
+            URL_Add("CodeMirror", "https://en.wikipedia.org/wiki/CodeMirror");
+
+            URL_Add("February", "https://en.wiktionary.org/wiki/February#Proper_noun");
+
+            URL_Add("January", "https://en.wiktionary.org/wiki/January#Proper_noun");
+
+            URL_Add("Light Table", "https://en.wikipedia.org/wiki/Light_Table_(software)");
+
+            URL_Add("Minimum viable product", "https://en.wikipedia.org/wiki/Minimum_viable_product");
+
+            URL_Add("Nimzowitsch Defence", "https://en.wikipedia.org/wiki/Nimzowitsch_Defence");
+
+            URL_Add("Rider", "https://en.wikipedia.org/wiki/JetBrains#Rider");
+
+            URL_Add("Steve Ballmer", "https://en.wikipedia.org/wiki/Steve_Ballmer");
+
+            URL_Add("break", "https://en.wiktionary.org/wiki/break#Noun");
+
+            URL_Add("cubic zirconia", "https://en.wikipedia.org/wiki/Cubic_zirconia");
+
+            URL_Add("foolproof", "https://en.wiktionary.org/wiki/foolproof#Adjective");
+
+            URL_Add("millionaire", "https://en.wiktionary.org/wiki/millionaire#Noun");
+
+            URL_Add("reentrant", "https://en.wiktionary.org/wiki/reentrant#Adjective");
+
+            URL_Add("semantic", "https://en.wiktionary.org/wiki/semantic#Noun");
+
+            URL_Add("smartwatch", "https://en.wikipedia.org/wiki/Smartwatch");
+
+            URL_Add("sockpuppet", "https://en.wikipedia.org/wiki/Sockpuppet_(Internet)");
+
+            URL_Add("threadsafe", "https://en.wiktionary.org/wiki/threadsafe#Adjective");
+
 
 
 
