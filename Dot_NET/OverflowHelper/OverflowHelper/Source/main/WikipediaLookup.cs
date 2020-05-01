@@ -4135,6 +4135,7 @@ namespace OverflowHelper.core
             correctionAdd("superuser", "Super&nbsp;User");
             correctionAdd("Super users", "Super&nbsp;User");
             correctionAdd("super-user", "Super&nbsp;User");
+            correctionAdd("superusers", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -9705,6 +9706,7 @@ namespace OverflowHelper.core
 
             correctionAdd("diffrent", "different");
             correctionAdd("diferent", "different");
+            correctionAdd("differemt", "different");
 
             correctionAdd("beyong", "beyond");
 
@@ -16625,6 +16627,17 @@ namespace OverflowHelper.core
             correctionAdd("thread safe", "threadsafe");
             correctionAdd("thread-safe", "threadsafe");
 
+            correctionAdd("diy", "DIY");
+
+            correctionAdd("LEGO", "Lego");
+
+            correctionAdd("zoom", "Zoom");
+
+            correctionAdd("home work", "homework");
+
+            correctionAdd("maily", "mainly");
+
+            correctionAdd("reidrected", "redirected");
 
 
 
@@ -25112,6 +25125,18 @@ namespace OverflowHelper.core
             URL_Add("sockpuppet", "https://en.wikipedia.org/wiki/Sockpuppet_(Internet)");
 
             URL_Add("threadsafe", "https://en.wiktionary.org/wiki/threadsafe#Adjective");
+
+            URL_Add("DIY", "https://en.wiktionary.org/wiki/DIY#Noun");
+
+            URL_Add("Lego", "https://en.wikipedia.org/wiki/Lego");
+
+            URL_Add("Zoom", "https://en.wikipedia.org/wiki/Zoom_Video_Communications#Products_and_services");
+
+            URL_Add("homework", "https://en.wiktionary.org/wiki/homework#Noun");
+
+            URL_Add("mainly", "https://en.wiktionary.org/wiki/mainly#Adverb");
+
+            URL_Add("redirected", "https://en.wiktionary.org/wiki/redirect#Verb");
 
 
 
