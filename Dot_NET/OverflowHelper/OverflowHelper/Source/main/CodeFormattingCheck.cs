@@ -14,8 +14,8 @@
 *          high rate of false positives that come with regular             *
 *          expressions).                                                   *
 *                                                                          *
-*          It also encapsulates the string builder so client does not      *
-*          have to provide it                                              *                                                                          *
+*          It also encapsulates the string builder so the client does not  *
+*          have to provide it.                                             *                                                                          *
 *                                                                          *
 *                                                                          *
 *                                                                          *
