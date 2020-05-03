@@ -1583,6 +1583,7 @@ namespace OverflowHelper.core
             correctionAdd("Youtub", "YouTube");
             correctionAdd("YouTuBe", "YouTube");
             correctionAdd("YOUTUBE", "YouTube");
+            correctionAdd("u tube", "YouTube");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -11287,6 +11288,7 @@ namespace OverflowHelper.core
             correctionAdd("Extenstion", "extension");
             correctionAdd("extenstion", "extension");
             correctionAdd("extesion", "extension");
+            correctionAdd("exentension", "extension");
 
             correctionAdd("framwork", "framework");
 
@@ -15657,6 +15659,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Candidates", "Candidates Tournament 2020"); // Chess
             correctionAdd("Candidate's", "Candidates Tournament 2020"); // Chess
+            correctionAdd("candidates", "Candidates Tournament 2020"); // Chess
 
             correctionAdd("magnus carlsen", "Magnus Carlsen"); // Chess
 
@@ -15809,11 +15812,13 @@ namespace OverflowHelper.core
             correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
 
-            correctionAdd("nimsovits", "Nimzowitsch Defence");
+            correctionAdd("nimsovits", "Nimzowitsch Defence"); // Chess
 
-            correctionAdd("London system", "London System");
+            correctionAdd("London system", "London System"); // Chess
 
+            correctionAdd("cambridge", "Queen's Gambit Declined, Cambridge Springs Defense"); // Chess
 
+            correctionAdd("Zugzwang", "zugzwang"); // Chess
 
 
 
@@ -16687,6 +16692,19 @@ namespace OverflowHelper.core
             correctionAdd("outtro", "outro");
 
             correctionAdd("7th", "seventh");
+
+            correctionAdd("git graph", "Git Graph");
+
+            correctionAdd("Git Lens", "GitLens");
+            correctionAdd("git lens", "GitLens");
+
+            correctionAdd("viking", "Viking");
+
+            correctionAdd("consequtively", "consecutively");
+
+            correctionAdd("keyboard-shortcut", "keyboard shortcut");
+
+            correctionAdd("your's", "yours");
 
 
 
@@ -25206,6 +25224,22 @@ namespace OverflowHelper.core
             URL_Add("outro", "https://en.wiktionary.org/wiki/outro#Noun");
 
             URL_Add("seventh", "https://en.wiktionary.org/wiki/seventh#Adjective");
+
+            URL_Add("Queen's Gambit Declined, Cambridge Springs Defense", "https://en.wikipedia.org/wiki/Cambridge_Springs_Defense");
+
+            URL_Add("Git Graph", "https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph");
+
+            URL_Add("GitLens", "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens");
+
+            URL_Add("Viking", "https://en.wiktionary.org/wiki/Viking#Noun");
+
+            URL_Add("consecutively", "https://en.wiktionary.org/wiki/consecutively#Adverb");
+
+            URL_Add("keyboard shortcut", "https://en.wiktionary.org/wiki/keyboard_shortcut");
+
+            URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
+
+            URL_Add("zugzwang", "https://en.wikipedia.org/wiki/Zugzwang");
 
 
 
