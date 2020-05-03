@@ -284,6 +284,8 @@ namespace OverflowHelper.core
             //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
             Console.WriteLine(fullErrorMessage); // Linux
 
+            Console.WriteLine("");
+
         } //reportError()
 
 
@@ -351,33 +353,53 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *    Catch some common errors in the specification of corrections          *
+         *    Catch some common errors in the specification of corrections:         *
+         *                                                                          *
+         *      1. Leading space                                                    *
+         *      2. Trailing space                                                   *
+         *                                                                          *
+         *  Parameters:                                                             *
+         *                                                                          *
+         *    aSomeString is the string to checked                                  *
+         *                                                                          *
+         *    aKey and aValue are only used for error reporting.                    *
          *                                                                          *
          ****************************************************************************/
         private void sanityCheck(string aSomeString, string aKey, string aValue)
         {
-            Trace.Assert(
-                aSomeString.Length > 0,
-                "LANG ASSERT. aSomeString is empty in sanityCheck(). " +
-                "(aKey is \"" + aKey + "\", aValue is \"" + aValue + "\"). ");
+            //Delete at any time
+            //Trace.Assert(
+            //    aSomeString.Length > 0,
+            //    "LANG ASSERT. aSomeString is empty in sanityCheck(). " +
+            //    "(aKey is \"" + aKey + "\", aValue is \"" + aValue + "\"). ");
 
-            if (aSomeString[0] == ' ')
+
+            if (aSomeString.Length == 0)
             {
-                string msg = "Leading space in \"" +
-                             aSomeString + "\" - " +
+                string msg = "Empty term - " +
                              keyValueInfoStr(aKey, aValue);
                 reportError(msg);
             }
-
-            int lastIndex = aSomeString.Length - 1;
-            if (aSomeString[lastIndex] == ' ')
+            else
             {
-                string msg = "Trailing space in \"" +
-                             aSomeString + "\" - " +
-                             keyValueInfoStr(aKey, aValue);
-                reportError(msg);
+                if (aSomeString[0] == ' ')
+                {
+                    string msg = "Leading space in \"" +
+                                 aSomeString + "\" - " +
+                                 keyValueInfoStr(aKey, aValue);
+                    reportError(msg);
+                }
+
+                int lastIndex = aSomeString.Length - 1;
+                if (aSomeString[lastIndex] == ' ')
+                {
+                    string msg = "Trailing space in \"" +
+                                 aSomeString + "\" - " +
+                                 keyValueInfoStr(aKey, aValue);
+                    reportError(msg);
+                }
             }
-        }
+        } //sanityCheck()
 
 
         //PM_REFACTOR 2012-02-16
@@ -427,7 +449,7 @@ namespace OverflowHelper.core
             else
             {
                 // Warning only.
-                sanityCheck(aBadTerm, aBadTerm, aCorrectedTerm);
+                sanityCheck(aBadTerm,       aBadTerm, aCorrectedTerm);
                 sanityCheck(aCorrectedTerm, aBadTerm, aCorrectedTerm);
 
                 mCaseCorrection.Add(aBadTerm, aCorrectedTerm);
@@ -470,7 +492,7 @@ namespace OverflowHelper.core
             {
                 // Warning only.
                 sanityCheck(aCorrectedTerm, aCorrectedTerm, aURL);
-                sanityCheck(aURL, aCorrectedTerm, aURL);
+                sanityCheck(aURL,           aCorrectedTerm, aURL);
 
                 // Warning only.
                 // We expect that the corresponding correction mapping has
@@ -490,7 +512,7 @@ namespace OverflowHelper.core
                 }
                 mWord2URL.Add(aCorrectedTerm, aURL);
             }
-        }
+        } //URL_Add()
 
 
         /****************************************************************************
@@ -17177,7 +17199,7 @@ namespace OverflowHelper.core
 
             URL_Add("ASCII", "https://en.wikipedia.org/wiki/ASCII");
 
-            URL_Add("Fluent NHibernate", "http://fluentnhibernate.org/");
+            URL_Add("Fluent NHibernate", "https://github.com/FluentNHibernate/fluent-nhibernate/wiki/getting-started"); // XXX Old (completely broken): http://fluentnhibernate.org/
 
             URL_Add("asynchronously", "https://en.wiktionary.org/wiki/asynchronously");
 
@@ -18041,7 +18063,7 @@ namespace OverflowHelper.core
 
             URL_Add("Visual Basic", "https://en.wikipedia.org/wiki/Visual_Basic");
 
-            URL_Add("etc.", "https://en.wiktionary.org/wiki/etc.#Adverb");
+            URL_Add("etc.", "https://en.wiktionary.org/wiki/etc.#Phrase"); // Old (not pointing to English...): https://en.wiktionary.org/wiki/etc.#Adverb
 
             URL_Add("MIDI", "https://en.wikipedia.org/wiki/MIDI");
 
@@ -25256,9 +25278,9 @@ namespace OverflowHelper.core
          *    <placeholder for header>                                              *
          ****************************************************************************/
         private static void addTermsToOutput_SQL(string aBadTerm2,
-                                          string aCorrectedTerm2,
-                                          ref StringBuilder aSomeScratch,
-                                          string aURL)
+                                                 string aCorrectedTerm2,
+                                                 ref StringBuilder aSomeScratch,
+                                                 string aURL)
         {
             if (aBadTerm2.IndexOf("'") >= 0)
             {
@@ -25270,7 +25292,7 @@ namespace OverflowHelper.core
 
             // Escaping of SQL. For now, only backslash. We need
             // more, though. We can refactor and reduce the
-            // redundancy when we generalise.
+            // redundancy in the below when we generalise.
             //
             // In any case, we should have some unit test, including
             // when the backslash is at the beginning or the end of
@@ -25466,9 +25488,10 @@ namespace OverflowHelper.core
                                              ref aSomeScratch,
                                              someURL);
 
-                        // We can rely on the sorted order, first by incorrect and
-                        // then correct. Thus we will get a corrected term one or
-                        // more times consecutively
+                        // Add the identity mapping, but only once. We can rely
+                        // on the sorted order, first by incorrect and then
+                        // correct. Thus, we will get a corrected term one
+                        // or more times consecutively.
                         if (prevCorrectTerm != someCorrectTerm)
                         {
                             // "Identity mapping" - a lookup of a correct
