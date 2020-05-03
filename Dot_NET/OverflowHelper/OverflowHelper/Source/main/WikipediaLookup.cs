@@ -8836,6 +8836,7 @@ namespace OverflowHelper.core
             correctionAdd("K&R", "The C Programming Language");
             correctionAdd("k&r", "The C Programming Language");
             correctionAdd("k&R", "The C Programming Language");
+            correctionAdd("K & R", "The C Programming Language");
 
             correctionAdd("phd", "PhD");
             correctionAdd("PHD", "PhD");
@@ -11187,6 +11188,7 @@ namespace OverflowHelper.core
             correctionAdd("imposibility", "impossibility");
 
             correctionAdd("juge", "judge");
+            correctionAdd("jidge", "judge"); // True typo
 
             correctionAdd("necssity", "necessity");
 
@@ -15656,6 +15658,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Slav defence", "Slav Defense"); // Chess
             correctionAdd("slav defence", "Slav Defense"); // Chess
+            correctionAdd("Slav", "Slav Defense"); // Chess
 
             correctionAdd("Time Control", "time control"); // Chess
 
@@ -15665,10 +15668,11 @@ namespace OverflowHelper.core
             correctionAdd("Stock fish", "Stockfish"); // Chess
             correctionAdd("stock fish", "Stockfish"); // Chess
 
-            correctionAdd("double Fianchetto", "double fianchetto");// Chess
+            correctionAdd("double Fianchetto", "double fianchetto"); // Chess
 
-            correctionAdd("Fianchetto", "fianchetto");// Chess
-            correctionAdd("fiensketö", "fianchetto");// Chess
+            correctionAdd("Fianchetto", "fianchetto"); // Chess
+            correctionAdd("fiensketö", "fianchetto"); // Chess
+            correctionAdd("finketta", "fianchetto"); // Chess
 
             correctionAdd("Petrov", "Petrov's Defence"); // Chess
             correctionAdd("petrov", "Petrov's Defence"); // Chess
@@ -15784,6 +15788,9 @@ namespace OverflowHelper.core
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
 
             correctionAdd("nimsovits", "Nimzowitsch Defence");
+
+            correctionAdd("London system", "London System");
+
 
 
 
@@ -16073,6 +16080,7 @@ namespace OverflowHelper.core
 
             correctionAdd("carbondioxide", "carbon dioxide");
             correctionAdd("CO2", "carbon dioxide");
+            correctionAdd("Carbon Dioxide", "carbon dioxide");
 
             correctionAdd("Carbon monoxide", "carbon monoxide");
 
@@ -16168,6 +16176,7 @@ namespace OverflowHelper.core
             correctionAdd("xfig", "Xfig");
 
             correctionAdd("minite", "minute");
+            correctionAdd("munite", "minute");
 
             correctionAdd("on porpouse", "on purpose");
 
@@ -16638,6 +16647,24 @@ namespace OverflowHelper.core
             correctionAdd("maily", "mainly");
 
             correctionAdd("reidrected", "redirected");
+
+            correctionAdd("norway", "Norway");
+
+            correctionAdd("faulse", "false");
+
+            correctionAdd("hypocritial", "hypocritical");
+
+            correctionAdd("prace", "peace");
+
+            correctionAdd("scandle", "scandal");
+
+            correctionAdd("Maker", "maker");
+
+            correctionAdd("meet-up", "meetup");
+
+            correctionAdd("outtro", "outro");
+
+            correctionAdd("7th", "seventh");
 
 
 
@@ -25138,6 +25165,25 @@ namespace OverflowHelper.core
 
             URL_Add("redirected", "https://en.wiktionary.org/wiki/redirect#Verb");
 
+            URL_Add("Norway", "https://en.wiktionary.org/wiki/Norway#Proper_noun");
+
+            URL_Add("false", "https://en.wiktionary.org/wiki/false#Adjective");
+
+            URL_Add("hypocritical", "https://en.wiktionary.org/wiki/hypocritical#Adjective");
+
+            URL_Add("peace", "https://en.wiktionary.org/wiki/peace#Noun");
+
+            URL_Add("scandal", "https://en.wiktionary.org/wiki/scandal#Noun");
+
+            URL_Add("London System", "https://en.wikipedia.org/wiki/London_System");
+
+            URL_Add("maker", "https://en.wikipedia.org/wiki/Maker_culture");
+
+            URL_Add("meetup", "https://en.wiktionary.org/wiki/meetup#Noun");
+
+            URL_Add("outro", "https://en.wiktionary.org/wiki/outro#Noun");
+
+            URL_Add("seventh", "https://en.wiktionary.org/wiki/seventh#Adjective");
 
 
 
