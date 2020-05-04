@@ -7158,6 +7158,8 @@ namespace OverflowHelper.core
             correctionAdd("propriety", "proprietary");
             correctionAdd("propriotary", "proprietary");
             correctionAdd("proprietrary", "proprietary");
+            correctionAdd("Propriatory", "proprietary");
+            correctionAdd("propriatory", "proprietary");
 
             correctionAdd("meteor", "Meteor");
             correctionAdd("Meteor.js", "Meteor");
@@ -10752,6 +10754,7 @@ namespace OverflowHelper.core
 
             correctionAdd("decison", "decision");
             correctionAdd("desicion", "decision");
+            correctionAdd("decission", "decision");
 
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
@@ -13714,6 +13717,7 @@ namespace OverflowHelper.core
             correctionAdd("announement", "announcement");
 
             correctionAdd("genge", "change");
+            correctionAdd("Chnage", "change");
 
             correctionAdd("chanel", "channel");
 
@@ -16309,6 +16313,7 @@ namespace OverflowHelper.core
             correctionAdd("simlar", "similar");
             correctionAdd("Simillar", "similar");
             correctionAdd("Similiar", "similar");
+            correctionAdd("simmilar", "similar");
 
             correctionAdd("Similary", "similarly"); //Not 100% correct - case.
             correctionAdd("similary", "similarly");
@@ -16711,6 +16716,24 @@ namespace OverflowHelper.core
             correctionAdd("hadook", "Captain Haddock");
 
             correctionAdd("Copper", "copper");
+
+            correctionAdd("app inventor", "App Inventor");
+
+            correctionAdd("hairless", "Hairless");
+
+            correctionAdd("20.04", "Ubuntu 20.04 LTS (Focal Fossa)");
+
+            correctionAdd("DAW", "digital audio workstation");
+
+            correctionAdd("EULA", "end-user license agreement");
+
+            correctionAdd("in-efficient", "inefficient");
+
+            correctionAdd("intermitent", "intermittent");
+
+            correctionAdd("non tainted", "nontainted");
+
+            correctionAdd("prefect", "perfect");
 
 
 
@@ -25251,6 +25274,25 @@ namespace OverflowHelper.core
             URL_Add("Captain Haddock", "https://en.wikipedia.org/wiki/Captain_Haddock");
 
             URL_Add("copper", "https://en.wikipedia.org/wiki/Copper");
+
+            URL_Add("App Inventor", "https://en.wikipedia.org/wiki/App_Inventor_for_Android");
+
+            URL_Add("Hairless", "http://projectgus.github.io/hairless-midiserial/");
+
+            URL_Add("Ubuntu 20.04 LTS (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
+
+            URL_Add("digital audio workstation", "https://en.wikipedia.org/wiki/Digital_audio_workstation");
+
+            URL_Add("end-user license agreement", "https://en.wikipedia.org/wiki/End-user_license_agreement");
+
+            URL_Add("inefficient", "https://en.wiktionary.org/wiki/inefficient#Adjective");
+
+            URL_Add("intermittent", "https://en.wiktionary.org/wiki/intermittent#Adjective");
+
+            URL_Add("nontainted", "https://en.wiktionary.org/wiki/nontainted#Adjective");
+
+            URL_Add("perfect", "https://en.wiktionary.org/wiki/perfect#Adjective");
+
 
 
 
