@@ -6466,6 +6466,7 @@ namespace OverflowHelper.core
             correctionAdd("Operative system", "operating system");
             correctionAdd("operative system", "operating system");
             correctionAdd("Operating system", "operating system");
+            correctionAdd("operatating system", "operating system");
 
             correctionAdd("colo", "colocation centre");
 
@@ -15571,6 +15572,7 @@ namespace OverflowHelper.core
 
             correctionAdd("nickle", "nickel");
             correctionAdd("Nickle", "nickel");
+            correctionAdd("Nickel", "nickel");
 
             correctionAdd("elon musk", "Elon Musk");
             correctionAdd("Elon", "Elon Musk");
@@ -16705,6 +16707,11 @@ namespace OverflowHelper.core
             correctionAdd("keyboard-shortcut", "keyboard shortcut");
 
             correctionAdd("your's", "yours");
+
+            correctionAdd("hadook", "Captain Haddock");
+
+            correctionAdd("Copper", "copper");
+
 
 
 
@@ -25240,6 +25247,11 @@ namespace OverflowHelper.core
             URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
 
             URL_Add("zugzwang", "https://en.wikipedia.org/wiki/Zugzwang");
+
+            URL_Add("Captain Haddock", "https://en.wikipedia.org/wiki/Captain_Haddock");
+
+            URL_Add("copper", "https://en.wikipedia.org/wiki/Copper");
+
 
 
 
