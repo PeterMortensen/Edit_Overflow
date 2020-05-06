@@ -12039,6 +12039,7 @@ namespace OverflowHelper.core
             correctionAdd("konqueror", "Konqueror");
 
             correctionAdd("anyother", "another");
+            correctionAdd("enother", "another");
 
             correctionAdd("catagory", "category");
 
@@ -16769,6 +16770,12 @@ namespace OverflowHelper.core
             correctionAdd("programer", "programmer");
 
             correctionAdd("tool chain", "toolchain");
+
+            correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
+
+            correctionAdd("boundries", "boundaries");
+
+            correctionAdd("track", "trick");
 
 
 
@@ -25348,6 +25355,13 @@ namespace OverflowHelper.core
             URL_Add("programmer", "https://en.wiktionary.org/wiki/programmer#Noun");
 
             URL_Add("toolchain", "https://en.wiktionary.org/wiki/toolchain#Noun");
+
+            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
+
+            URL_Add("boundaries", "https://en.wiktionary.org/wiki/boundary#Noun");
+
+            URL_Add("trick", "https://en.wiktionary.org/wiki/trick#Noun");
+
 
 
 
