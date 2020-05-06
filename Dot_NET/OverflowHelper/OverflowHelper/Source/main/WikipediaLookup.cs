@@ -4681,6 +4681,7 @@ namespace OverflowHelper.core
             correctionAdd("with out", "without");
             correctionAdd("whit out", "without");
             correctionAdd("witout", "without");
+            correctionAdd("witch out", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -6998,6 +6999,7 @@ namespace OverflowHelper.core
             correctionAdd("Google reader", "Google Reader");
 
             correctionAdd("hid", "HID");
+            correctionAdd("HDI", "HID");
 
             correctionAdd("Cdecl", "cdecl");
 
@@ -8440,6 +8442,7 @@ namespace OverflowHelper.core
             correctionAdd("beginnin", "beginning");
             correctionAdd("beginging", "beginning");
             correctionAdd("begning", "beginning");
+            correctionAdd("beginnig", "beginning");
 
             correctionAdd("begginer", "beginner");
             correctionAdd("bigginer", "beginner");
@@ -9612,6 +9615,7 @@ namespace OverflowHelper.core
             correctionAdd("everthing", "everything");
             correctionAdd("Everyting", "everything");
             correctionAdd("everyhing", "everything");
+            correctionAdd("Everthing", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -10161,6 +10165,7 @@ namespace OverflowHelper.core
             correctionAdd("Leonardo", "Arduino Leonardo");
             correctionAdd("leonardo", "Arduino Leonardo");
             correctionAdd("Leanardo", "Arduino Leonardo");
+            correctionAdd("Leo", "Arduino Leonardo");
 
             //Of PowerShell...
             correctionAdd("get-service", "Get-Service");
@@ -11013,6 +11018,7 @@ namespace OverflowHelper.core
             correctionAdd("Eighth", "eighth");
 
             correctionAdd("helpfull", "helpful");
+            correctionAdd("help full", "helpful");
 
             correctionAdd("intermeidate", "intermediate");
 
@@ -14751,6 +14757,7 @@ namespace OverflowHelper.core
             correctionAdd("W/", "with");
             correctionAdd("whith", "with");
             correctionAdd("wuth", "with");
+            correctionAdd("wit", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -14779,6 +14786,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Paint", "Microsoft Paint");
             correctionAdd("MSpaint", "Microsoft Paint");
+            correctionAdd("MSPaint", "Microsoft Paint");
 
             correctionAdd("Path", "PATH");
 
@@ -16735,6 +16743,32 @@ namespace OverflowHelper.core
 
             correctionAdd("prefect", "perfect");
 
+            correctionAdd("bushound", "Bus Hound");
+            correctionAdd("bus hound", "Bus Hound");
+            correctionAdd("BusHound", "Bus Hound");
+
+            correctionAdd("d link", "D-Link");
+            correctionAdd("D-link", "D-Link");
+            correctionAdd("d-link", "D-Link");
+
+            correctionAdd("firefly", "Firefly");
+
+            correctionAdd("Gnd", "GND");
+
+            correctionAdd("rtfm", "RTFM");
+
+            correctionAdd("cad", "computer-aided design");
+            correctionAdd("CAD", "computer-aided design");
+
+            correctionAdd("DS", "data science");
+
+            correctionAdd("fount", "found");
+
+            correctionAdd("joistick", "joystick");
+
+            correctionAdd("programer", "programmer");
+
+            correctionAdd("tool chain", "toolchain");
 
 
 
@@ -25293,6 +25327,27 @@ namespace OverflowHelper.core
 
             URL_Add("perfect", "https://en.wiktionary.org/wiki/perfect#Adjective");
 
+            URL_Add("Bus Hound", "http://www.perisoft.net/bushound/index.htm");
+
+            URL_Add("D-Link", "https://en.wikipedia.org/wiki/D-Link");
+
+            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
+
+            URL_Add("GND", "https://en.wiktionary.org/wiki/GND#Noun");
+
+            URL_Add("RTFM", "https://en.wiktionary.org/wiki/RTFM#Phrase");
+
+            URL_Add("computer-aided design", "https://en.wikipedia.org/wiki/Computer-aided_design");
+
+            URL_Add("data science", "https://en.wikipedia.org/wiki/Data_science");
+
+            URL_Add("found", "https://en.wiktionary.org/wiki/find#Verb");
+
+            URL_Add("joystick", "https://en.wikipedia.org/wiki/Joystick");
+
+            URL_Add("programmer", "https://en.wiktionary.org/wiki/programmer#Noun");
+
+            URL_Add("toolchain", "https://en.wiktionary.org/wiki/toolchain#Noun");
 
 
 
