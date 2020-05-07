@@ -19295,7 +19295,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hacker&nbsp;News", "https://en.wikipedia.org/wiki/Hacker_News");
 
-            URL_Add("a lot", "https://en.wiktionary.org/wiki/alot#Adverb");
+            URL_Add("a lot", "https://en.wiktionary.org/wiki/a_lot#Adverb"); // Old: https://en.wiktionary.org/wiki/alot#Adverb
 
             URL_Add("Slashdot", "https://en.wikipedia.org/wiki/Slashdot");
 
@@ -23843,7 +23843,7 @@ namespace OverflowHelper.core
 
             URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
 
-            URL_Add("ternary operator", "https://en.wikipedia.org/wiki/Ternary_operation#Computer_science");
+            URL_Add("ternary operator", "https://en.wikipedia.org/wiki/%3F"); // Old: https://en.wikipedia.org/wiki/Ternary_operation#Computer_science
 
             URL_Add("understand", "https://en.wiktionary.org/wiki/understand#Verb");
 
