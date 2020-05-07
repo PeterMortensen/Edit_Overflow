@@ -6250,6 +6250,8 @@ namespace OverflowHelper.core
             correctionAdd("Sha1", "SHA-1");
             correctionAdd("sha-1", "SHA-1");
             correctionAdd("Sha-1", "SHA-1");
+            correctionAdd("sha", "SHA-1");
+            correctionAdd("SHA", "SHA-1");
 
             correctionAdd("SHA2", "SHA-2");
             correctionAdd("sha2", "SHA-2");
@@ -11766,6 +11768,7 @@ namespace OverflowHelper.core
             correctionAdd("asap", "ASAP");
 
             correctionAdd("qwerty", "QWERTY");
+            correctionAdd("Qwerty", "QWERTY");
 
             correctionAdd("spring boot", "Spring Boot");
             correctionAdd("Spring boot", "Spring Boot");
@@ -13866,6 +13869,7 @@ namespace OverflowHelper.core
             correctionAdd("Summar", "summer");
             correctionAdd("summar", "summer");
             correctionAdd("Summer", "summer");
+            correctionAdd("sommer", "summer");
 
             correctionAdd("feynman diagram", "Feynman diagram");
 
@@ -14935,6 +14939,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
+            correctionAdd("schmit-cassegrain", "Schmidt–Cassegrain");
 
             correctionAdd("hitch-hike", "hitchhike");
             correctionAdd("hitch hike", "hitchhike");
@@ -16776,6 +16781,20 @@ namespace OverflowHelper.core
             correctionAdd("boundries", "boundaries");
 
             correctionAdd("track", "trick");
+
+            correctionAdd("DVORAK", "Dvorak");
+            correctionAdd("dvorak", "Dvorak");
+
+            correctionAdd("Egit", "EGit");
+
+            correctionAdd("PA44", "Piper PA-44 Seminole");
+
+            correctionAdd("mono repo", "monolithic repository");
+            correctionAdd("monorepo", "monolithic repository");
+
+            correctionAdd("pertanining", "pertaining");
+
+            correctionAdd("White Dwarf", "white dwarf");
 
 
 
@@ -25361,6 +25380,18 @@ namespace OverflowHelper.core
             URL_Add("boundaries", "https://en.wiktionary.org/wiki/boundary#Noun");
 
             URL_Add("trick", "https://en.wiktionary.org/wiki/trick#Noun");
+
+            URL_Add("Dvorak", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout");
+
+            URL_Add("EGit", "https://wiki.eclipse.org/EGit");
+
+            URL_Add("Piper PA-44 Seminole", "https://en.wikipedia.org/wiki/Piper_PA-44_Seminole");
+
+            URL_Add("monolithic repository", "https://en.wikipedia.org/wiki/Monorepo");
+
+            URL_Add("pertaining", "https://en.wiktionary.org/wiki/pertain#Verb");
+
+            URL_Add("white dwarf", "https://en.wikipedia.org/wiki/White_dwarf");
 
 
 
