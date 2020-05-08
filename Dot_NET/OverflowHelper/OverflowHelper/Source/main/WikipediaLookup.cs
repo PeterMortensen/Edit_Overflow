@@ -7188,6 +7188,8 @@ namespace OverflowHelper.core
             correctionAdd("althougt", "although");
             correctionAdd("altought", "although");
             correctionAdd("altho", "although");
+            correctionAdd("Althought", "although");
+            correctionAdd("althought", "although");
 
             correctionAdd("Scriptaculous", "Script.aculo.us");
             correctionAdd("scriptaculous", "Script.aculo.us");
@@ -9813,6 +9815,8 @@ namespace OverflowHelper.core
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
+            correctionAdd("Alway", "always");
+            correctionAdd("alway", "always");
 
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -9980,6 +9984,8 @@ namespace OverflowHelper.core
 
             correctionAdd("firebase", "Firebase");
             correctionAdd("fire base", "Firebase");
+            correctionAdd("firebse", "Firebase");
+            correctionAdd("FireBase", "Firebase");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); //Not 100% correct - case.
@@ -11800,6 +11806,10 @@ namespace OverflowHelper.core
             correctionAdd("Service Worker", "service worker");
 
             correctionAdd("sign-in", "sign in");
+            correctionAdd("SignIn", "sign in");
+            correctionAdd("Signin", "sign in");
+            correctionAdd("signin", "sign in");
+            correctionAdd("signIn", "sign in");
 
             correctionAdd("substution", "substitution");
             correctionAdd("substituion", "substitution");
@@ -12082,6 +12092,7 @@ namespace OverflowHelper.core
             correctionAdd("scroll-bar", "scroll bar");
 
             correctionAdd("writting", "writing");
+            correctionAdd("writtitng", "writing");
 
             correctionAdd("vagrant", "Vagrant");
 
@@ -12156,6 +12167,7 @@ namespace OverflowHelper.core
             correctionAdd("negativ", "negative");
 
             correctionAdd("opinon", "opinion");
+            correctionAdd("opionion", "opinion");
 
             correctionAdd("prio", "priority");
 
@@ -12488,6 +12500,7 @@ namespace OverflowHelper.core
             correctionAdd("Yak shaving", "yak shaving");
 
             correctionAdd("CSS Grid", "CSS grid");
+            correctionAdd("css grid", "CSS grid");
 
             correctionAdd("cloudfront", "Amazon CloudFront");
 
@@ -12652,6 +12665,7 @@ namespace OverflowHelper.core
             correctionAdd("UES", "UEStudio");
 
             correctionAdd("aswell", "as well");
+            correctionAdd("Aswell", "as well");
 
             correctionAdd("documentated", "documented");
 
@@ -12705,6 +12719,7 @@ namespace OverflowHelper.core
             correctionAdd("premiss", "premise");
 
             correctionAdd("promp", "prompt");
+            correctionAdd("promt", "prompt");
 
             correctionAdd("seting", "setting");
 
@@ -13411,6 +13426,8 @@ namespace OverflowHelper.core
 
             correctionAdd("beatiful", "beautiful");
             correctionAdd("beutiful", "beautiful");
+            correctionAdd("beautifull", "beautiful");
+            correctionAdd("beautuful", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
 
@@ -13480,6 +13497,8 @@ namespace OverflowHelper.core
             correctionAdd("therefor", "therefore");
             correctionAdd("Therefor", "therefore");
             correctionAdd("Therefore", "therefore");
+            correctionAdd("Therfore", "therefore");
+            correctionAdd("therfore", "therefore");
 
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
@@ -14741,6 +14760,7 @@ namespace OverflowHelper.core
             correctionAdd("in the same time", "at the same time");
 
             correctionAdd("diplaying", "displaying");
+            correctionAdd("displying", "displaying");
 
             correctionAdd("Named Entity Recognition", "named-entity recognition");
 
@@ -14874,6 +14894,7 @@ namespace OverflowHelper.core
             correctionAdd("unterinated", "unterminated");
 
             correctionAdd("woking", "working");
+            correctionAdd("workring", "working");
 
             correctionAdd("Angular2", "Angular&nbsp;2");
             correctionAdd("angular2", "Angular&nbsp;2");
@@ -16065,6 +16086,7 @@ namespace OverflowHelper.core
             correctionAdd("synaptic package manager", "Synaptic");
 
             correctionAdd("dedsired", "desired");
+            correctionAdd("desire", "desired");
 
             correctionAdd("editting", "editing");
             correctionAdd("EDITING", "editing");
@@ -16796,6 +16818,69 @@ namespace OverflowHelper.core
 
             correctionAdd("White Dwarf", "white dwarf");
 
+            correctionAdd("philosphical", "philosophical");
+
+            correctionAdd("sub directory", "subdirectory");
+
+            correctionAdd("CanIUse", "Can I use");
+
+            correctionAdd("Kopenhagen", "Copenhagen");
+
+            correctionAdd("cufflink", "Cufflinks");
+            correctionAdd("cufflinks", "Cufflinks");
+
+            correctionAdd("DNSSEC", "Domain Name System Security Extensions");
+
+            correctionAdd("english.se", "English Language & Usage");
+
+            correctionAdd("iir", "IIR");
+
+            correctionAdd("Maths", "Mathematics");
+
+            correctionAdd("plotly.py", "Plotly");
+            correctionAdd("plotly", "Plotly");
+
+            correctionAdd("Regex Buddy", "RegexBuddy");
+            correctionAdd("regexbuddy", "RegexBuddy");
+
+            correctionAdd("Salt", "SaltStack");
+
+            correctionAdd("adivising", "advising");
+
+            correctionAdd("averaring", "averaging");
+
+            correctionAdd("coverting", "converting");
+
+            correctionAdd("cut-off", "cutoff");
+
+            correctionAdd("double-quote", "double quote");
+            correctionAdd("doublequote", "double quote");
+
+            correctionAdd("down sample", "downsample");
+
+            correctionAdd("entirity", "entirety");
+
+            correctionAdd("impliment", "implement");
+            correctionAdd("Impliment", "implement");
+
+            correctionAdd("mechanim", "mechanism");
+
+            correctionAdd("regristration", "registration");
+
+            correctionAdd("superconductiong", "superconducting");
+            correctionAdd("supercoducting", "superconducting");
+
+            correctionAdd("ther", "there");
+
+            correctionAdd("TBH", "to be honest");
+            correctionAdd("tbh", "to be honest");
+
+            correctionAdd("ultra-small", "ultrasmall");
+            correctionAdd("ultra small", "ultrasmall");
+
+            correctionAdd("verifiy", "verify");
+            correctionAdd("veryfiy", "verify");
+            correctionAdd("veryfy", "verify");
 
 
             // Start of coronavirus part...
@@ -25392,6 +25477,60 @@ namespace OverflowHelper.core
             URL_Add("pertaining", "https://en.wiktionary.org/wiki/pertain#Verb");
 
             URL_Add("white dwarf", "https://en.wikipedia.org/wiki/White_dwarf");
+
+            URL_Add("philosophical", "https://en.wiktionary.org/wiki/philosophical#Adjective");
+
+            URL_Add("subdirectory", "https://en.wiktionary.org/wiki/subdirectory#Noun");
+
+            URL_Add("Can I use", "https://caniuse.com/#info_about");
+
+            URL_Add("Copenhagen", "https://en.wikipedia.org/wiki/Copenhagen");
+
+            URL_Add("Cufflinks", "https://plotly.com/python/cufflinks/");
+
+            URL_Add("Domain Name System Security Extensions", "https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions");
+
+            URL_Add("English Language & Usage", "https://english.stackexchange.com/tour");
+
+            URL_Add("IIR", "https://en.wikipedia.org/wiki/Infinite_impulse_response");
+
+            URL_Add("Mathematics", "https://math.stackexchange.com/tour");
+
+            URL_Add("Plotly", "https://pypi.org/project/plotly/");
+
+            URL_Add("RegexBuddy", "https://en.wikipedia.org/wiki/RegexBuddy");
+
+            URL_Add("SaltStack", "https://en.wikipedia.org/wiki/Salt_(software)");
+
+            URL_Add("advising", "https://en.wiktionary.org/wiki/advise#Verb");
+
+            URL_Add("averaging", "https://en.wiktionary.org/wiki/average#Verb");
+
+            URL_Add("converting", "https://en.wiktionary.org/wiki/convert#Verb");
+
+            URL_Add("cutoff", "https://en.wiktionary.org/wiki/cutoff#Adjective");
+
+            URL_Add("double quote", "https://en.wiktionary.org/wiki/double_quote#Noun");
+
+            URL_Add("downsample", "https://en.wiktionary.org/wiki/downsample#Verb");
+
+            URL_Add("entirety", "https://en.wiktionary.org/wiki/entirety#Noun");
+
+            URL_Add("implement", "https://en.wiktionary.org/wiki/implement#Verb");
+
+            URL_Add("mechanism", "https://en.wiktionary.org/wiki/mechanism#Noun");
+
+            URL_Add("registration", "https://en.wiktionary.org/wiki/registration#Noun");
+
+            URL_Add("superconducting", "https://en.wiktionary.org/wiki/superconducting#Adjective");
+
+            URL_Add("there", "https://en.wiktionary.org/wiki/there#Pronoun");
+
+            URL_Add("to be honest", "https://en.wiktionary.org/wiki/TBH#Phrase");
+
+            URL_Add("ultrasmall", "https://en.wiktionary.org/wiki/ultrasmall#Adjective");
+
+            URL_Add("verify", "https://en.wiktionary.org/wiki/verify#Verb");
 
 
 
