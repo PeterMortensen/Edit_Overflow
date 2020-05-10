@@ -5824,12 +5824,6 @@ namespace OverflowHelper.core
             correctionAdd("Uart", "UART");
             correctionAdd("uart", "UART");
 
-            correctionAdd("ive", "I’ve");
-            correctionAdd("Ive", "I’ve");
-            correctionAdd("Iv'e", "I’ve");
-            correctionAdd("I've", "I’ve");
-            correctionAdd("iv", "I’ve");
-
             correctionAdd("foursquare", "Foursquare");
             correctionAdd("Four square", "Foursquare");
 
@@ -9477,7 +9471,6 @@ namespace OverflowHelper.core
             correctionAdd("donwvote", "downvote");
             correctionAdd("down vote", "downvote");
 
-            correctionAdd("4", "every time"); //What is this????
             correctionAdd("every", "every time"); //What is this????
             correctionAdd("everytime", "every time");
 
@@ -14524,8 +14517,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tat", "that");
 
-            correctionAdd("3", "three");
-
             correctionAdd("TR", "tr");
 
             correctionAdd("val", "value");
@@ -14854,8 +14845,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scroll-able", "scrollable");
 
-            correctionAdd("ternary", "ternary operator");
-
             correctionAdd("upderstand", "understand");
 
             correctionAdd("unterinated", "unterminated");
@@ -15018,7 +15007,7 @@ namespace OverflowHelper.core
             correctionAdd("xmonad", "XMonad");
             correctionAdd("Xmonad", "XMonad");
 
-            correctionAdd("Zurich", "ZÃ¼rich");
+            correctionAdd("Zurich", "Zürich");
 
             correctionAdd("contries", "countries");
             correctionAdd("country's", "countries");
@@ -16001,12 +15990,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aluminum", "aluminium");
 
-            correctionAdd("msc", "Master of Science");
-            correctionAdd("Msc", "Master of Science");
-            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
-                                                        // currently don't allow it...
-            correctionAdd("MSc", "Master of Science");
-
             correctionAdd("doxygen", "Doxygen");
 
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
@@ -16581,7 +16564,7 @@ namespace OverflowHelper.core
 
             correctionAdd("suface", "surface");
 
-            correctionAdd("Razor Pages", "Web Forms");
+            correctionAdd("Razor Pages", "Razor pages");
 
             correctionAdd("web forms", "Web Forms");
 
@@ -16725,7 +16708,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hairless", "Hairless");
 
-            correctionAdd("20.04", "Ubuntu 20.04 LTS (Focal Fossa)");
+            correctionAdd("20.04", "Ubuntu 20.04 (Focal Fossa)");
 
             correctionAdd("DAW", "digital audio workstation");
 
@@ -16923,6 +16906,24 @@ namespace OverflowHelper.core
             correctionAdd("BootStrap", "Bootstrap");
 
             correctionAdd("yer", "yet");
+
+            correctionAdd("3", "three");
+
+            correctionAdd("4", "four");
+
+            correctionAdd("ive", "I’ve");
+            correctionAdd("Ive", "I’ve");
+            correctionAdd("Iv'e", "I’ve");
+            correctionAdd("I've", "I’ve");
+            correctionAdd("iv", "I’ve");
+
+
+            correctionAdd("msc", "Master of Science");
+            correctionAdd("Msc", "Master of Science");
+            correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
+                                                        // currently don't allow it...
+            correctionAdd("MSc", "Master of Science");
+
 
 
 
@@ -19211,7 +19212,7 @@ namespace OverflowHelper.core
 
             URL_Add("certificate authority", "https://en.wikipedia.org/wiki/Certificate_authority");
 
-            URL_Add("although", "https://en.wiktionary.org/wiki/although");
+            URL_Add("although", "https://en.wiktionary.org/wiki/although#Conjunction");
 
             URL_Add("Script.aculo.us", "https://en.wikipedia.org/wiki/Script.aculo.us");
 
@@ -19227,7 +19228,7 @@ namespace OverflowHelper.core
 
             URL_Add("RAII", "https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization");
 
-            URL_Add("relevant", "https://en.wiktionary.org/wiki/relevent");
+            URL_Add("relevant", "https://en.wiktionary.org/wiki/relevant#Adjective");
 
             URL_Add("BigQuery", "https://en.wikipedia.org/wiki/BigQuery");
 
@@ -19905,7 +19906,7 @@ namespace OverflowHelper.core
 
             URL_Add("Import-Csv", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Import-Csv"); // Old: https://technet.microsoft.com/en-us/library/hh849891.aspx
 
-            URL_Add("ForEach-Object", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/ForEach-Object"); // Old: <https://technet.microsoft.com/en-us/library/hh849731.aspx>
+            URL_Add("ForEach-Object", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/ForEach-Object"); // Even older: <https://technet.microsoft.com/en-us/library/hh849731.aspx>. Old: <https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/ForEach-Object>
 
             URL_Add("Get-ADUser", "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617241(v=technet.10)"); // Old: https://technet.microsoft.com/en-us/library/ee617241.aspx
 
@@ -20266,7 +20267,7 @@ namespace OverflowHelper.core
 
             URL_Add("neighbourhood", "https://en.wiktionary.org/wiki/neighbourhood");
 
-            URL_Add("shouldn't", "https://en.wiktionary.org/wiki/shouldn%27t#Contraction");
+            URL_Add("shouldn't", "https://en.wiktionary.org/wiki/shouldn%27t#Verb");
 
             URL_Add("functional programming", "https://en.wikipedia.org/wiki/Functional_programming");
 
@@ -20456,7 +20457,7 @@ namespace OverflowHelper.core
 
             URL_Add("utilities", "https://en.wiktionary.org/wiki/utilities#English");
 
-            URL_Add("wouldn't", "https://en.wiktionary.org/wiki/wouldn%27t#Contraction");
+            URL_Add("wouldn't", "https://en.wiktionary.org/wiki/wouldn%27t#Verb"); // Old: <https://en.wiktionary.org/wiki/wouldn%27t#Contraction>
 
             URL_Add("implementation", "https://en.wiktionary.org/wiki/implementation#Noun");
 
@@ -20584,7 +20585,7 @@ namespace OverflowHelper.core
 
             URL_Add("MCP2515", "http://www.microchip.com/wwwproducts/en/en010406");
 
-            URL_Add("occurrence", "https://en.wiktionary.org/wiki/occurence");
+            URL_Add("occurrence", "https://en.wiktionary.org/wiki/occurrence#Noun");
 
             URL_Add("credential", "https://en.wiktionary.org/wiki/credential#Noun"); // Old: https://en.wiktionary.org/wiki/cred#Noun
 
@@ -20626,7 +20627,7 @@ namespace OverflowHelper.core
 
             URL_Add("FPU", "https://en.wikipedia.org/wiki/Floating-point_unit");
 
-            URL_Add("Git Bash", "https://superuser.com/questions/1053633"); // Old: https://superuser.com/questions/1053633/what-is-git-bash-for-windows-anyway
+            URL_Add("Git Bash", "https://superuser.com/questions/1053633/what-is-git-bash-for-windows-anyway");
 
             URL_Add("Git Extensions", "https://gitextensions.github.io/");
 
@@ -23715,8 +23716,6 @@ namespace OverflowHelper.core
 
             URL_Add("that", "https://en.wiktionary.org/wiki/that#Conjunction");
 
-            URL_Add("three", "https://en.wiktionary.org/wiki/three#Numeral");
-
             URL_Add("tr", "https://en.wikipedia.org/wiki/Tr_(Unix)");
 
             URL_Add("value", "https://en.wiktionary.org/wiki/value#Noun");
@@ -23961,8 +23960,6 @@ namespace OverflowHelper.core
 
             URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
 
-            URL_Add("ternary operator", "https://en.wikipedia.org/wiki/%3F"); // Old: https://en.wikipedia.org/wiki/Ternary_operation#Computer_science
-
             URL_Add("understand", "https://en.wiktionary.org/wiki/understand#Verb");
 
             URL_Add("unterminated", "https://en.wiktionary.org/wiki/unterminated#Adjective");
@@ -24107,7 +24104,7 @@ namespace OverflowHelper.core
 
             URL_Add("XMonad", "https://en.wikipedia.org/wiki/Xmonad");
 
-            URL_Add("ZÃ¼rich", "https://en.wikipedia.org/wiki/Z%C3%BCrich");
+            URL_Add("Zürich", "https://en.wikipedia.org/wiki/Z%C3%BCrich");
 
             URL_Add("countries", "https://en.wiktionary.org/wiki/country#Noun");
 
@@ -24977,7 +24974,7 @@ namespace OverflowHelper.core
 
             URL_Add("RAID&nbsp;6", "https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6");
 
-            URL_Add("Web Forms", "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1");
+            URL_Add("Web Forms", "https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms");
 
             URL_Add("Yacc", "https://en.wikipedia.org/wiki/Yacc");
 
@@ -25457,7 +25454,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hairless", "http://projectgus.github.io/hairless-midiserial/");
 
-            URL_Add("Ubuntu 20.04 LTS (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
+            URL_Add("Ubuntu 20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
 
             URL_Add("digital audio workstation", "https://en.wikipedia.org/wiki/Digital_audio_workstation");
 
@@ -25569,7 +25566,7 @@ namespace OverflowHelper.core
 
             URL_Add("freelancer", "https://en.wiktionary.org/wiki/freelancer#Noun");
 
-            URL_Add("Teachers' Lounge (TL)", "https://meta.stackexchange.com/questions/tagged/teachers-lounge");
+            URL_Add("Teachers' Lounge (TL)", "https://meta.stackexchange.com/tags/teachers-lounge/info");
 
             URL_Add("TVS Electronics", "https://en.wikipedia.org/wiki/TVS_Electronics");
 
@@ -25604,6 +25601,13 @@ namespace OverflowHelper.core
             URL_Add("Bootstrap", "https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29");
 
             URL_Add("yet", "https://en.wiktionary.org/wiki/yet#Conjunction");
+
+            URL_Add("three", "https://en.wiktionary.org/wiki/three#Numeral");
+
+            URL_Add("four", "https://en.wiktionary.org/wiki/four#Numeral");
+
+            URL_Add("Razor pages", "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1");
+
 
 
             //========================================================
