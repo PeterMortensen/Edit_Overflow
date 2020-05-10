@@ -1769,8 +1769,6 @@ namespace OverflowHelper.core
             correctionAdd("Visual Basic Script", "VBScript");
             correctionAdd("vbScript", "VBScript");
 
-
-
             correctionAdd("matlab", "MATLAB");
             correctionAdd("Matlab", "MATLAB");
             correctionAdd("MatLab", "MATLAB");
@@ -3564,22 +3562,6 @@ namespace OverflowHelper.core
             correctionAdd("microsoft access", "Microsoft Access");
             correctionAdd("MS-Access", "Microsoft Access");
             correctionAdd("MS Access", "Microsoft Access");
-
-            correctionAdd("docs", "documentation");
-            correctionAdd("doc", "documentation");
-            correctionAdd("docu", "documentation");
-            correctionAdd("Docs", "documentation"); //Not 100% correct - case.
-            correctionAdd("Doc", "documentation"); //Not 100% correct - case.
-            correctionAdd("ducumennation", "documentation"); //Misspelling.
-            correctionAdd("documentatiin", "documentation"); //True typo...
-            correctionAdd("documentaion", "documentation");
-            correctionAdd("doco", "documentation");
-            correctionAdd("Documenation", "documentation"); //Not 100% correct - case.
-            correctionAdd("dox", "documentation");
-            correctionAdd("documenation", "documentation");
-            correctionAdd("documention", "documentation");
-            correctionAdd("DOCS", "documentation");
-            correctionAdd("doucmentation", "documentation");
 
             correctionAdd("sftp", "SFTP");
             correctionAdd("sFTP", "SFTP");
@@ -8660,6 +8642,7 @@ namespace OverflowHelper.core
             correctionAdd("common Lisp", "Common Lisp");
 
             correctionAdd("prolog", "Prolog");
+            correctionAdd("PROLOG", "Prolog");
 
             correctionAdd("sse", "SSE");
 
@@ -9529,6 +9512,7 @@ namespace OverflowHelper.core
             correctionAdd("qestion", "question");
             correctionAdd("qustion", "question");
             correctionAdd("qn", "question");
+            correctionAdd("queston", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -9948,7 +9932,7 @@ namespace OverflowHelper.core
             correctionAdd("net core", ".NET Core");
             correctionAdd("net Core", ".NET Core");
             correctionAdd(".netcore", ".NET Core");
-            correctionAdd(".nerdcore", ".NET Core");
+            correctionAdd(".nerdcore", ".NET Core"); // There is another meaning, but it was used in the context of .NET Core...
             correctionAdd(".net-core", ".NET Core");
             correctionAdd(".NETCore", ".NET Core");
             correctionAdd("Dot Net Core", ".NET Core");
@@ -11347,6 +11331,7 @@ namespace OverflowHelper.core
             correctionAdd("flex box", "Flexbox");
 
             correctionAdd("incase", "in case");
+            correctionAdd("Incase", "in case");
 
             correctionAdd("permisson", "permission");
             correctionAdd("perm", "permission");
@@ -11857,8 +11842,6 @@ namespace OverflowHelper.core
             correctionAdd("à la", "a la");
 
             correctionAdd("asc", "ascending");
-
-            correctionAdd("Freelancer", "freelancer");
 
             correctionAdd("genereated", "generated");
 
@@ -12496,6 +12479,7 @@ namespace OverflowHelper.core
             correctionAdd("stucked", "stuck");
 
             correctionAdd("swtich", "switch");
+            correctionAdd("swith", "switch");
 
             correctionAdd("Yak shaving", "yak shaving");
 
@@ -12769,12 +12753,14 @@ namespace OverflowHelper.core
             correctionAdd("iliterate", "illiterate");
 
             correctionAdd("mutiple", "multiple");
+            correctionAdd("mutliple", "multiple");
 
             correctionAdd("pronunce", "pronounce");
 
             correctionAdd("quiting", "quitting");
 
             correctionAdd("responce", "response");
+            correctionAdd("reponse", "response");
 
             correctionAdd("re-use", "reuse");
 
@@ -12976,12 +12962,8 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("split-path", "Split-Path");
 
-            correctionAdd("TL", "Teachers' Lounge");
-
             // Of PowerShell...
             correctionAdd("test-path", "Test-Path");
-
-            correctionAdd("TVS", "Transient voltage suppressor");
 
             correctionAdd("winrm", "WinRM");
             correctionAdd("Windows Remote Management", "WinRM");
@@ -13141,8 +13123,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Blackwidow", "Razer BlackWidow");
             correctionAdd("blackwidow", "Razer BlackWidow");
-
-            correctionAdd("tvs", "TVS Electronics");
 
             correctionAdd("non-mechanical", "nonmechanical");
             correctionAdd("non mechanical", "nonmechanical");
@@ -13673,6 +13653,7 @@ namespace OverflowHelper.core
             correctionAdd("substaction", "subtraction");
 
             correctionAdd("wen", "when");
+            correctionAdd("whe", "when");
 
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
@@ -13725,8 +13706,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heres", "here's");
             correctionAdd("Heres", "here's");
-
-            correctionAdd("freelancer.com", "Freelancer.com");
 
             correctionAdd("GlassDoor", "Glassdoor");
 
@@ -14209,12 +14188,6 @@ namespace OverflowHelper.core
 
             correctionAdd("venegence", "vengeance");
 
-            correctionAdd("fwiw", "for what it's worth");
-
-            correctionAdd("FWIW", "for what it's worth");
-
-            correctionAdd("For what it's worth", "for what it's worth");
-
             correctionAdd("Git gui", "Git GUI");
             correctionAdd("git-gui", "Git GUI");
 
@@ -14533,6 +14506,8 @@ namespace OverflowHelper.core
             correctionAdd("not withstanding", "notwithstanding");
 
             correctionAdd("by the other hand", "on the other hand");
+            correctionAdd("In the other hand", "on the other hand");
+            correctionAdd("in the other hand", "on the other hand");
 
             correctionAdd("1st complement", "ones' complement");
 
@@ -14856,8 +14831,6 @@ namespace OverflowHelper.core
             correctionAdd("crossPlatform", "cross-platform");
 
             correctionAdd("Deuterium", "deuterium");
-
-            correctionAdd("Dox", "doxx");
 
             correctionAdd("equilibrum", "equilibrium");
 
@@ -16645,6 +16618,7 @@ namespace OverflowHelper.core
             correctionAdd("discurage", "discourage");
 
             correctionAdd("elce", "else");
+            correctionAdd("elss", "else");
 
             correctionAdd("plattform", "platform");
 
@@ -16881,6 +16855,44 @@ namespace OverflowHelper.core
             correctionAdd("verifiy", "verify");
             correctionAdd("veryfiy", "verify");
             correctionAdd("veryfy", "verify");
+
+            correctionAdd("Freelancer", "freelancer");
+
+            correctionAdd("freelancer.com", "Freelancer.com");
+
+            correctionAdd("Teachers' Lounge", "Teachers' Lounge (TL)");
+            correctionAdd("Teachers Lounge", "Teachers' Lounge (TL)");
+            correctionAdd("teachers lounge", "Teachers' Lounge (TL)");
+
+            correctionAdd("TL", "TeX Live");
+
+            correctionAdd("TVS", "Transient voltage suppressor");
+            correctionAdd("tvs", "Transient voltage suppressor");
+
+            correctionAdd("tvs electronics", "TVS Electronics");
+
+            correctionAdd("docs", "documentation");
+            correctionAdd("doc", "documentation");
+            correctionAdd("docu", "documentation");
+            correctionAdd("Docs", "documentation"); //Not 100% correct - case.
+            correctionAdd("Doc", "documentation"); //Not 100% correct - case.
+            correctionAdd("ducumennation", "documentation"); //Misspelling.
+            correctionAdd("documentatiin", "documentation"); //True typo...
+            correctionAdd("documentaion", "documentation");
+            correctionAdd("doco", "documentation");
+            correctionAdd("Documenation", "documentation"); //Not 100% correct - case.
+            correctionAdd("documenation", "documentation");
+            correctionAdd("documention", "documentation");
+            correctionAdd("DOCS", "documentation");
+            correctionAdd("doucmentation", "documentation");
+
+            correctionAdd("Dox", "doxx");
+            correctionAdd("dox", "doxx");
+
+            correctionAdd("fwiw", "for what it's worth");
+            correctionAdd("FWIW", "for what it's worth");
+            correctionAdd("For what it's worth", "for what it's worth");
+
 
 
             // Start of coronavirus part...
@@ -21433,8 +21445,6 @@ namespace OverflowHelper.core
 
             URL_Add("ascending", "https://en.wiktionary.org/wiki/ascending#Adjective");
 
-            URL_Add("freelancer", "https://en.wiktionary.org/wiki/freelancer#Noun");
-
             URL_Add("generated", "https://en.wiktionary.org/wiki/generate#Verb");
 
             URL_Add("height", "https://en.wiktionary.org/wiki/height#Noun");
@@ -22303,8 +22313,6 @@ namespace OverflowHelper.core
 
             URL_Add("Split-Path", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/split-path");
 
-            URL_Add("Teachers' Lounge", "https://meta.stackexchange.com/questions/tagged/teachers-lounge");
-
             URL_Add("Test-Path", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-path");
 
             URL_Add("Transient voltage suppressor", "https://en.wikipedia.org/wiki/Transient_voltage_suppressor");
@@ -22431,8 +22439,6 @@ namespace OverflowHelper.core
             URL_Add("Mars", "https://en.wikipedia.org/wiki/Mars");
 
             URL_Add("Razer BlackWidow", "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow");
-
-            URL_Add("TVS Electronics", "https://en.wikipedia.org/wiki/TVS_Electronics");
 
             URL_Add("nonmechanical", "https://en.wiktionary.org/wiki/nonmechanical#Adjective");
 
@@ -22945,8 +22951,6 @@ namespace OverflowHelper.core
             URL_Add("welcomeness", "https://en.wiktionary.org/wiki/welcomeness#Noun");
 
             URL_Add("C++98", "https://en.wikipedia.org/wiki/C%2B%2B#Standardization");
-
-            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
 
             URL_Add("Glassdoor", "https://en.wikipedia.org/wiki/Glassdoor");
 
@@ -25532,7 +25536,15 @@ namespace OverflowHelper.core
 
             URL_Add("verify", "https://en.wiktionary.org/wiki/verify#Verb");
 
+            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
 
+            URL_Add("freelancer", "https://en.wiktionary.org/wiki/freelancer#Noun");
+
+            URL_Add("Teachers' Lounge (TL)", "https://meta.stackexchange.com/questions/tagged/teachers-lounge");
+
+            URL_Add("TVS Electronics", "https://en.wikipedia.org/wiki/TVS_Electronics");
+
+            URL_Add("TeX Live", "https://en.wikipedia.org/wiki/TeX_Live");
 
 
 
