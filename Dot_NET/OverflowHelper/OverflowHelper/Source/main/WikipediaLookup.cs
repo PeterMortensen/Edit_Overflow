@@ -16922,6 +16922,7 @@ namespace OverflowHelper.core
             correctionAdd("Bootsrap", "Bootstrap");
             correctionAdd("BootStrap", "Bootstrap");
 
+            correctionAdd("yer", "yet");
 
 
 
@@ -25602,9 +25603,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bootstrap", "https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29");
 
-
-
-
+            URL_Add("yet", "https://en.wiktionary.org/wiki/yet#Conjunction");
 
 
             //========================================================
