@@ -5769,6 +5769,7 @@ namespace OverflowHelper.core
             correctionAdd("ANN", "artificial neural network"); //Expansion
             correctionAdd("Neural Network", "artificial neural network");
             correctionAdd("neural network", "artificial neural network");
+            correctionAdd("Artificial neural network", "artificial neural network");
 
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
@@ -7394,6 +7395,7 @@ namespace OverflowHelper.core
             correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
 
             correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
             correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
@@ -7629,6 +7631,7 @@ namespace OverflowHelper.core
             correctionAdd("vis studio", "Visual&nbsp;Studio");
             correctionAdd("Visual Studi", "Visual&nbsp;Studio");
             correctionAdd("visual sudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studio", "Visual&nbsp;Studio");
 
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
             correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -12226,6 +12229,7 @@ namespace OverflowHelper.core
             correctionAdd("teraterm", "Tera Term");
 
             correctionAdd("visual studio professional", "Visual&nbsp;Studio Professional");
+            correctionAdd("Visual Studio Professional", "Visual&nbsp;Studio Professional");
 
             correctionAdd("wto", "WTO");
 
@@ -16923,6 +16927,8 @@ namespace OverflowHelper.core
             correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
                                                         // currently don't allow it...
             correctionAdd("MSc", "Master of Science");
+
+            correctionAdd("ternary", "ternary operator");
 
 
 
@@ -25608,6 +25614,7 @@ namespace OverflowHelper.core
 
             URL_Add("Razor pages", "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1");
 
+            URL_Add("ternary operator", "https://en.wikipedia.org/wiki/%3F:");
 
 
             //========================================================
