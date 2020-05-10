@@ -15217,7 +15217,7 @@ namespace OverflowHelper.core
             correctionAdd("envionmental variable", "environment variable");
             correctionAdd("Environment Variable", "environment variable");
             correctionAdd("ENV var", "environment variable");
-            correctionAdd("env variable", "environment");
+            correctionAdd("env variable", "environment variable");
 
             // Consider:
             //   weaher
