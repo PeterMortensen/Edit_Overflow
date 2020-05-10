@@ -8072,12 +8072,6 @@ namespace OverflowHelper.core
             correctionAdd("msword", "Microsoft Word");
             correctionAdd("winword", "Microsoft Word");
 
-            correctionAdd("bootstrap", "Bootstrap");
-            correctionAdd("Boostrap", "Bootstrap");
-            correctionAdd("boostrap", "Bootstrap");
-            correctionAdd("Bootsrap", "Bootstrap");
-            correctionAdd("BootStrap", "Bootstrap");
-
             correctionAdd("iso", "ISO image");
             correctionAdd("ISO", "ISO image");
             correctionAdd("iso image", "ISO image");
@@ -16893,6 +16887,42 @@ namespace OverflowHelper.core
             correctionAdd("FWIW", "for what it's worth");
             correctionAdd("For what it's worth", "for what it's worth");
 
+            correctionAdd("apl", "APL");
+
+            correctionAdd("bpel", "BPEL");
+
+            correctionAdd("box-model", "CSS box model");
+            correctionAdd("box model", "CSS box model");
+
+            correctionAdd("dac", "DAC");
+
+            correctionAdd("sap", "SAP");
+
+            correctionAdd("snobol", "SNOBOL");
+
+            correctionAdd("Snaplogic", "SnapLogic");
+
+            correctionAdd("counter intuitive", "counterintuitive");
+            correctionAdd("counter-intuitive", "counterintuitive");
+
+            correctionAdd("dissagreed", "disagreed");
+
+            correctionAdd("fallthrough", "fall-through");
+            correctionAdd("fall through", "fall-through");
+
+            correctionAdd("ipaas", "iPaaS");
+
+            correctionAdd("mutch", "much");
+
+            correctionAdd("Ohmic", "ohmic");
+
+            correctionAdd("bootstrap", "Bootstrap");
+            correctionAdd("Boostrap", "Bootstrap");
+            correctionAdd("boostrap", "Bootstrap");
+            correctionAdd("Bootsrap", "Bootstrap");
+            correctionAdd("BootStrap", "Bootstrap");
+
+
 
 
             // Start of coronavirus part...
@@ -19329,8 +19359,6 @@ namespace OverflowHelper.core
             URL_Add("WhatsApp", "https://en.wikipedia.org/wiki/WhatsApp");
 
             URL_Add("Microsoft Word", "https://en.wikipedia.org/wiki/Microsoft_Word");
-
-            URL_Add("Bootstrap", "https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29");
 
             URL_Add("ISO image", "https://en.wikipedia.org/wiki/ISO_image");
 
@@ -25545,6 +25573,35 @@ namespace OverflowHelper.core
             URL_Add("TVS Electronics", "https://en.wikipedia.org/wiki/TVS_Electronics");
 
             URL_Add("TeX Live", "https://en.wikipedia.org/wiki/TeX_Live");
+
+            URL_Add("APL", "https://en.wikipedia.org/wiki/APL_(programming_language)");
+
+            URL_Add("BPEL", "https://en.wikipedia.org/wiki/Business_Process_Execution_Language");
+
+            URL_Add("CSS box model", "https://en.wikipedia.org/wiki/CSS_box_model");
+
+            URL_Add("DAC", "https://en.wikipedia.org/wiki/Digital-to-analog_converter");
+
+            URL_Add("SAP", "https://en.wikipedia.org/wiki/SAP_SE");
+
+            URL_Add("SNOBOL", "https://en.wikipedia.org/wiki/SNOBOL");
+
+            URL_Add("SnapLogic", "https://en.wikipedia.org/wiki/SnapLogic");
+
+            URL_Add("counterintuitive", "https://en.wiktionary.org/wiki/counterintuitive#Adjective");
+
+            URL_Add("disagreed", "https://en.wiktionary.org/wiki/disagree#Verb");
+
+            URL_Add("fall-through", "https://en.wiktionary.org/wiki/fall-through#Noun");
+
+            URL_Add("iPaaS", "https://en.wikipedia.org/wiki/Cloud-based_integration");
+
+            URL_Add("much", "https://en.wiktionary.org/wiki/much#Adverb");
+
+            URL_Add("ohmic", "https://en.wiktionary.org/wiki/ohmic#Adjective");
+
+            URL_Add("Bootstrap", "https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29");
+
 
 
 
