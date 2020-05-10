@@ -17047,7 +17047,7 @@ namespace OverflowHelper.core
 
             URL_Add("Mac&nbsp;OS&nbsp;X", "https://en.wikipedia.org/wiki/Mac_OS_X");
 
-            URL_Add("Flex", "https://en.wikipedia.org/wiki/Adobe_Flex");
+            URL_Add("Flex", "https://en.wikipedia.org/wiki/Apache_Flex"); // Old: https://en.wikipedia.org/wiki/Adobe_Flex
 
             URL_Add("ActionScript", "https://en.wikipedia.org/wiki/ActionScript");
 
@@ -18112,7 +18112,7 @@ namespace OverflowHelper.core
 
             URL_Add("Cassandra", "https://en.wikipedia.org/wiki/Apache_Cassandra");
 
-            URL_Add("reputation points", "http://meta.stackoverflow.com/questions/7237/how-does-reputation-work");
+            URL_Add("reputation points", "https://meta.stackoverflow.com/questions/7237/how-does-reputation-work");
 
             URL_Add("GPL", "https://en.wikipedia.org/wiki/GNU_General_Public_License");
 
@@ -19316,7 +19316,7 @@ namespace OverflowHelper.core
 
             URL_Add("capacitor", "https://en.wikipedia.org/wiki/Capacitor");
 
-            URL_Add("Meta&nbsp;Stack&nbsp;Exchange", "http://meta.stackexchange.com/help/whats-meta");
+            URL_Add("Meta&nbsp;Stack&nbsp;Exchange", "https://meta.stackexchange.com/help/whats-meta");
 
             URL_Add("people", "https://en.wiktionary.org/wiki/people");
 
@@ -19562,7 +19562,7 @@ namespace OverflowHelper.core
 
             URL_Add("Homebrew", "https://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29");
 
-            URL_Add("egg", "http://stackoverflow.com/questions/2051192");
+            URL_Add("egg", "https://stackoverflow.com/questions/2051192");
 
             URL_Add("USART", "https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter#Synchronous_transmission");
 
@@ -25601,6 +25601,8 @@ namespace OverflowHelper.core
             URL_Add("ohmic", "https://en.wiktionary.org/wiki/ohmic#Adjective");
 
             URL_Add("Bootstrap", "https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29");
+
+
 
 
 
