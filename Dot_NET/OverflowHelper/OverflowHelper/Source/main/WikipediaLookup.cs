@@ -11738,6 +11738,7 @@ namespace OverflowHelper.core
             correctionAdd("lang", "language");
             correctionAdd("langauge", "language");
             correctionAdd("lanuguage", "language");
+            correctionAdd("languade", "language");
 
             correctionAdd("mins", "minutes");
 
@@ -15812,6 +15813,8 @@ namespace OverflowHelper.core
 
             correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
+            correctionAdd("grunfeld", "Grünfeld Defence"); // Chess
+            
 
             correctionAdd("nimsovits", "Nimzowitsch Defence"); // Chess
 
@@ -15822,6 +15825,9 @@ namespace OverflowHelper.core
             correctionAdd("Zugzwang", "zugzwang"); // Chess
 
             correctionAdd("nimso", "Nimzo-Indian Defence");
+
+            correctionAdd("torre attack", "Torre Attack");
+
 
 
 
@@ -16898,6 +16904,9 @@ namespace OverflowHelper.core
 
             correctionAdd("fallthrough", "fall-through");
             correctionAdd("fall through", "fall-through");
+            correctionAdd("fall thought", "fall-through");
+            correctionAdd("fall though", "fall-through");
+            correctionAdd("fallthough", "fall-through");
 
             correctionAdd("ipaas", "iPaaS");
 
@@ -16939,6 +16948,20 @@ namespace OverflowHelper.core
             correctionAdd("acces token", "access token");
             correctionAdd("access-token", "access token");
             correctionAdd("acces-token", "access token");
+
+            correctionAdd("AskDifferent", "Ask Different");
+
+            correctionAdd("controlller", "controller");
+            correctionAdd("Controlller", "controller");
+            
+            correctionAdd("depth first search", "depth-first search");
+            correctionAdd("Depth First Search", "depth-first search");
+            correctionAdd("DFS", "depth-first search");
+
+            correctionAdd("two-edged sword", "double-edged sword");
+
+            correctionAdd("future proof", "future-proof");
+
 
 
 
@@ -25628,6 +25651,20 @@ namespace OverflowHelper.core
             URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
 
             URL_Add("access token", "https://en.wikipedia.org/wiki/Access_token");
+
+            URL_Add("Ask Different", "https://apple.stackexchange.com/tour");
+
+            URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
+
+            URL_Add("controller", "https://en.wiktionary.org/wiki/controller#Noun");
+
+            URL_Add("depth-first search", "https://en.wikipedia.org/wiki/Depth-first_search");
+
+            URL_Add("double-edged sword", "https://en.wiktionary.org/wiki/double-edged_sword#Noun");
+
+            URL_Add("future-proof", "https://en.wiktionary.org/wiki/future-proof#Adjective");
+
+
 
 
 
