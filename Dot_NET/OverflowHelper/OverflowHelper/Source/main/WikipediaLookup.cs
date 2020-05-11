@@ -16936,6 +16936,9 @@ namespace OverflowHelper.core
             correctionAdd("Chnage", "change");
             correctionAdd("Change", "change");
 
+            correctionAdd("acces token", "access token");
+            correctionAdd("access-token", "access token");
+            correctionAdd("acces-token", "access token");
 
 
 
@@ -25623,6 +25626,9 @@ namespace OverflowHelper.core
             URL_Add("ternary operator", "https://en.wikipedia.org/wiki/%3F:");
 
             URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
+
+            URL_Add("access token", "https://en.wikipedia.org/wiki/Access_token");
+
 
 
             //========================================================
