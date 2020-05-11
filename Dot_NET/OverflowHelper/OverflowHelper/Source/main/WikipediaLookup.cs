@@ -26053,6 +26053,13 @@ namespace OverflowHelper.core
             //Headline
             aInOutBuilder.addHeader(1, aTitle);
 
+            // Link to the service
+            aInOutBuilder.addParagraph(
+                "There is <a " +
+                "href=\"https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu\"" +
+                ">a corresponding web application</a> to look up words " +
+                "(both the incorrect and correct ones).");
+
             // Justification for its existence...
             aInOutBuilder.addParagraph(
                 "The content of this list is 99% from what someone on " +
@@ -26233,9 +26240,19 @@ namespace OverflowHelper.core
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
-            string presumedURL =
-                "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_" +
-                aDateStr + ".html";
+            string presumedURL = "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_";
+            if (false) //We want to revert to this. Perhaps make it 
+                       //configurable/dynamic on generation time, e.g. 
+                       //a command-line parameter or environment variable?
+            {            
+                presumedURL += aDateStr + ".html";
+            }
+            else
+            {
+                // For the daily updated version, 
+                // <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
+                presumedURL += "latest.html";
+            }
 
             aInOutBuilder.addContentWithEmptyLine(
                 "<a href=\"http://pmortensen.eu/world/EditOverflow1.html\">" +
