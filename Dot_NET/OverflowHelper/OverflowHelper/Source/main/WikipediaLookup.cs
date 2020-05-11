@@ -1321,6 +1321,7 @@ namespace OverflowHelper.core
             correctionAdd("10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OS 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
+            correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
 
             correctionAdd("Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
@@ -13715,9 +13716,6 @@ namespace OverflowHelper.core
             correctionAdd("anouncement", "announcement");
             correctionAdd("announement", "announcement");
 
-            correctionAdd("genge", "change");
-            correctionAdd("Chnage", "change");
-
             correctionAdd("chanel", "channel");
 
             correctionAdd("counter-act", "counteract");
@@ -15809,6 +15807,8 @@ namespace OverflowHelper.core
             correctionAdd("ragosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
             correctionAdd("laragoza", "Queen's Gambit Declined, Ragozin Defence"); // Chess
             correctionAdd("laragosa", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+            correctionAdd("ragozin", "Queen's Gambit Declined, Ragozin Defence"); // Chess
+            correctionAdd("Ragozin", "Queen's Gambit Declined, Ragozin Defence"); // Chess
 
             correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
@@ -15820,6 +15820,8 @@ namespace OverflowHelper.core
             correctionAdd("cambridge", "Queen's Gambit Declined, Cambridge Springs Defense"); // Chess
 
             correctionAdd("Zugzwang", "zugzwang"); // Chess
+
+            correctionAdd("nimso", "Nimzo-Indian Defence");
 
 
 
@@ -16929,6 +16931,10 @@ namespace OverflowHelper.core
             correctionAdd("MSc", "Master of Science");
 
             correctionAdd("ternary", "ternary operator");
+
+            correctionAdd("genge", "change");
+            correctionAdd("Chnage", "change");
+            correctionAdd("Change", "change");
 
 
 
@@ -25615,6 +25621,8 @@ namespace OverflowHelper.core
             URL_Add("Razor pages", "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1");
 
             URL_Add("ternary operator", "https://en.wikipedia.org/wiki/%3F:");
+
+            URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
 
 
             //========================================================
