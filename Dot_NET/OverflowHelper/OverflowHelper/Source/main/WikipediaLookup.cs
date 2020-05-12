@@ -9876,6 +9876,7 @@ namespace OverflowHelper.core
             correctionAdd("hexa", "hexadecimal");
             correctionAdd("hexi-decimal", "hexadecimal");
             correctionAdd("hexdec", "hexadecimal");
+            correctionAdd("Hexadecimal", "hexadecimal");
 
             correctionAdd("neiboughood", "neighbourhood");
 
@@ -9901,6 +9902,7 @@ namespace OverflowHelper.core
             correctionAdd("shoulndt", "shouldn't");
             correctionAdd("shoulnd't", "shouldn't");
             correctionAdd("shoudnt", "shouldn't");
+            correctionAdd("shoyuldn't", "shouldn't");
 
             correctionAdd("g-drive", "Google Drive");
 
@@ -10544,6 +10546,7 @@ namespace OverflowHelper.core
             correctionAdd("occurence", "occurrence");
             correctionAdd("occurrance", "occurrence");
             correctionAdd("occurance", "occurrence");
+            correctionAdd("occurrrence", "occurrence");
 
             correctionAdd("cred", "credential");
             correctionAdd("crendentials", "credential");
@@ -11320,6 +11323,7 @@ namespace OverflowHelper.core
             correctionAdd("flexbox", "Flexbox");
             correctionAdd("flex-box", "Flexbox");
             correctionAdd("flex box", "Flexbox");
+            correctionAdd("FLEXBOX", "Flexbox");
 
             correctionAdd("incase", "in case");
             correctionAdd("Incase", "in case");
@@ -11406,6 +11410,7 @@ namespace OverflowHelper.core
 
             correctionAdd("buracracy", "bureaucracy");
             correctionAdd("buracrocy", "bureaucracy");
+            correctionAdd("buracrazy", "bureaucracy");
 
             correctionAdd("buereaucrat", "bureaucrat");
             correctionAdd("buesuresucrat", "bureaucrat");
@@ -12264,6 +12269,8 @@ namespace OverflowHelper.core
             correctionAdd("compition", "competition");
 
             correctionAdd("concious", "conscious");
+            correctionAdd("consicous", "conscious");
+            correctionAdd("concisous", "conscious");
 
             correctionAdd("dept", "department");
             correctionAdd("depoartment", "department");
@@ -13729,6 +13736,7 @@ namespace OverflowHelper.core
             correctionAdd("opensource", "open source");
 
             correctionAdd("psedo", "pseudo");
+            correctionAdd("psuedo", "pseudo");
 
             correctionAdd("shcool", "school");
 
@@ -13780,6 +13788,7 @@ namespace OverflowHelper.core
 
             correctionAdd("espaced", "escape");
             correctionAdd("esacape", "escape");
+            correctionAdd("escapce", "escape");
 
             correctionAdd("GLIBC", "glibc");
 
@@ -14326,6 +14335,7 @@ namespace OverflowHelper.core
             correctionAdd("CHMOD", "chmod");
 
             correctionAdd("codesnippet", "code snippet");
+            correctionAdd("code-snippet", "code snippet");
 
             correctionAdd("connnect", "connect");
 
@@ -15814,7 +15824,7 @@ namespace OverflowHelper.core
             correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
             correctionAdd("grunfeld", "Grünfeld Defence"); // Chess
-            
+
 
             correctionAdd("nimsovits", "Nimzowitsch Defence"); // Chess
 
@@ -16104,6 +16114,7 @@ namespace OverflowHelper.core
             correctionAdd("Euclidean Distance", "Euclidean distance");
 
             correctionAdd("fft", "FFT");
+            correctionAdd("fast fourier transform", "FFT");
 
             correctionAdd("fourier transform", "Fourier transform");
 
@@ -16953,7 +16964,7 @@ namespace OverflowHelper.core
 
             correctionAdd("controlller", "controller");
             correctionAdd("Controlller", "controller");
-            
+
             correctionAdd("depth first search", "depth-first search");
             correctionAdd("Depth First Search", "depth-first search");
             correctionAdd("DFS", "depth-first search");
@@ -16962,6 +16973,59 @@ namespace OverflowHelper.core
 
             correctionAdd("future proof", "future-proof");
 
+            correctionAdd("after-effects", "After Effects");
+            correctionAdd("after effects", "After Effects");
+
+            correctionAdd("disk utility", "Disk Utility");
+
+            correctionAdd("el-al", "El Al");
+
+            correctionAdd("ENRON", "Enron");
+
+            correctionAdd("GPG", "GNU Privacy Guard");
+
+            correctionAdd("mx", "MX record");
+            correctionAdd("MX", "MX record");
+
+            correctionAdd("olympics", "Olympics");
+
+            correctionAdd("stylish", "Stylish");
+
+            correctionAdd("sweden", "Sweden");
+
+            correctionAdd("advice", "advise");
+
+            correctionAdd("bandpass filter", "band-pass filter");
+
+            correctionAdd("bisquet", "biscuit");
+
+            correctionAdd("calculting", "calculating");
+
+            correctionAdd("doule", "double");
+
+            correctionAdd("femenine", "feminine");
+
+            correctionAdd("forensic", "forensics");
+
+            correctionAdd("KV", "kV");
+
+            correctionAdd("meat space", "meatspace");
+
+            correctionAdd("NS", "name server");
+            correctionAdd("nameserver", "name server");
+
+            correctionAdd("opauqe", "opaque");
+
+            correctionAdd("opertation", "operation");
+
+            correctionAdd("re-size", "resize");
+
+            correctionAdd("rund", "run");
+
+            correctionAdd("un-reputable", "unreputable");
+
+            correctionAdd("web cam", "webcam");
+            correctionAdd("WebCam", "webcam");
 
 
 
@@ -25664,6 +25728,56 @@ namespace OverflowHelper.core
 
             URL_Add("future-proof", "https://en.wiktionary.org/wiki/future-proof#Adjective");
 
+            URL_Add("After Effects", "https://en.wikipedia.org/wiki/Adobe_After_Effects");
+
+            URL_Add("Disk Utility", "https://en.wikipedia.org/wiki/Disk_Utility");
+
+            URL_Add("El Al", "https://en.wikipedia.org/wiki/El_Al");
+
+            URL_Add("Enron", "https://en.wikipedia.org/wiki/Enron");
+
+            URL_Add("GNU Privacy Guard", "https://en.wikipedia.org/wiki/GNU_Privacy_Guard");
+
+            URL_Add("MX record", "https://en.wikipedia.org/wiki/MX_record");
+
+            URL_Add("Olympics", "https://en.wiktionary.org/wiki/Olympics#Proper_noun");
+
+            URL_Add("Stylish", "https://en.wikipedia.org/wiki/Stylish");
+
+            URL_Add("Sweden", "https://en.wikipedia.org/wiki/Sweden");
+
+            URL_Add("advise", "https://en.wiktionary.org/wiki/advise#Verb");
+
+            URL_Add("band-pass filter", "https://en.wikipedia.org/wiki/Band-pass_filter");
+
+            URL_Add("biscuit", "https://en.wiktionary.org/wiki/biscuit#Noun");
+
+            URL_Add("calculating", "https://en.wiktionary.org/wiki/calculate#Verb");
+
+            URL_Add("double", "https://en.wiktionary.org/wiki/double#Adjective");
+
+            URL_Add("feminine", "https://en.wiktionary.org/wiki/feminine#Adjective");
+
+            URL_Add("forensics", "https://en.wiktionary.org/wiki/forensics#Noun");
+
+            URL_Add("kV", "https://en.wikipedia.org/wiki/25_kV_AC_railway_electrification");
+
+            URL_Add("meatspace", "https://en.wiktionary.org/wiki/meatspace#Noun");
+
+            URL_Add("name server", "https://en.wikipedia.org/wiki/Name_server");
+
+            URL_Add("opaque", "https://en.wiktionary.org/wiki/opaque#Adjective");
+
+            URL_Add("operation", "https://en.wiktionary.org/wiki/operation#Noun");
+
+            URL_Add("resize", "https://en.wiktionary.org/wiki/resize#Verb");
+
+            URL_Add("run", "https://en.wiktionary.org/wiki/run#Verb");
+
+            URL_Add("unreputable", "https://en.wiktionary.org/wiki/unreputable#Adjective");
+
+            URL_Add("webcam", "https://en.wikipedia.org/wiki/Webcam");
+
 
 
 
@@ -26278,15 +26392,15 @@ namespace OverflowHelper.core
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
             string presumedURL = "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_";
-            if (false) //We want to revert to this. Perhaps make it 
-                       //configurable/dynamic on generation time, e.g. 
+            if (false) //We want to revert to this. Perhaps make it
+                       //configurable/dynamic on generation time, e.g.
                        //a command-line parameter or environment variable?
-            {            
+            {
                 presumedURL += aDateStr + ".html";
             }
             else
             {
-                // For the daily updated version, 
+                // For the daily updated version,
                 // <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
                 presumedURL += "latest.html";
             }
