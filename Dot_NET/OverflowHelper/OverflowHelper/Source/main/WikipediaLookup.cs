@@ -18850,7 +18850,7 @@ namespace OverflowHelper.core
 
             URL_Add("CyanogenMod", "https://en.wikipedia.org/wiki/CyanogenMod");
 
-            URL_Add("ADB", "https://en.wikipedia.org/wiki/Android_Debug_Bridge#Android_Debug_Bridge");
+            URL_Add("ADB", "https://en.wikipedia.org/wiki/Android_software_development#Android_Debug_Bridge_(ADB)"); // Old: <https://en.wikipedia.org/wiki/Android_Debug_Bridge#Android_Debug_Bridge>
 
             URL_Add("Samsung Kies", "https://en.wikipedia.org/wiki/Samsung_Kies");
 
