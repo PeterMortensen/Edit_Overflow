@@ -4752,7 +4752,7 @@ namespace OverflowHelper.core
             correctionAdd("tutorail", "tutorial"); //Misspelling
             correctionAdd("tutiorial", "tutorial"); //Misspelling
 
-            correctionAdd("jQuery&nbsp;Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
+            correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
             correctionAdd("JQuery Isotope", "jQuery&nbsp;Isotope");
             correctionAdd("isotope", "jQuery&nbsp;Isotope");
@@ -9862,6 +9862,7 @@ namespace OverflowHelper.core
             correctionAdd("IIS Express", "IIS&nbsp;Express"); // Sort of identity mapping
             correctionAdd("iisexpress", "IIS&nbsp;Express");
             correctionAdd("IISExpress", "IIS&nbsp;Express");
+            correctionAdd("IIS express", "IIS&nbsp;Express");
 
             correctionAdd("refering", "referring");
             correctionAdd("reffering", "referring");
@@ -13723,6 +13724,7 @@ namespace OverflowHelper.core
             correctionAdd("custum", "custom");
 
             correctionAdd("folter", "folder");
+            correctionAdd("foleder", "folder");
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
@@ -14254,8 +14256,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Git gui", "Git GUI");
             correctionAdd("git-gui", "Git GUI");
-
-            correctionAdd("IIS express", "IIS Express");
 
             correctionAdd("ksh", "KornShell");
 
@@ -15287,6 +15287,7 @@ namespace OverflowHelper.core
             correctionAdd("enviorment", "environment");
             correctionAdd("enviromnment", "environment");
             correctionAdd("environmanet", "environment");
+            correctionAdd("environemt", "environment");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -15296,6 +15297,7 @@ namespace OverflowHelper.core
             correctionAdd("Environment Variable", "environment variable");
             correctionAdd("ENV var", "environment variable");
             correctionAdd("env variable", "environment variable");
+            correctionAdd("environemt variable", "environment variable");
 
             // Consider:
             //   weaher
@@ -16184,6 +16186,8 @@ namespace OverflowHelper.core
             correctionAdd("April Fools Day", "April Fools' Day");
 
             correctionAdd("April's fool", "April fool");
+            correctionAdd("April's fools", "April fool");
+            correctionAdd("april's fools", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -17072,6 +17076,7 @@ namespace OverflowHelper.core
             correctionAdd("stylish", "Stylish");
 
             correctionAdd("sweden", "Sweden");
+            correctionAdd("SWEDEN", "Sweden");
 
             correctionAdd("advice", "advise");
 
@@ -17107,6 +17112,34 @@ namespace OverflowHelper.core
             correctionAdd("web cam", "webcam");
             correctionAdd("WebCam", "webcam");
 
+            correctionAdd("802.11 b", "802.11b");
+
+            correctionAdd("802.11 g", "802.11g");
+
+            correctionAdd("Brasil", "Brazil");
+
+            correctionAdd("pre-shared key", "PSK");
+            correctionAdd("psk", "PSK");
+            correctionAdd("Pre-Shared key", "PSK");
+
+            correctionAdd("dictionary's", "dictionaries");
+
+            correctionAdd("foul's play", "foul play");
+            correctionAdd("fouls play", "foul play");
+            correctionAdd("fools play", "foul play");
+            correctionAdd("fool's play", "foul play");
+            correctionAdd("fool play", "foul play");
+
+            correctionAdd("gorgeious", "gorgeous");
+
+            correctionAdd("lightbulb", "light bulb");
+
+            correctionAdd("quickiest", "quickest");
+
+            correctionAdd("Kiddie Scripter", "script kiddie");
+            correctionAdd("Kiddie Scripters", "script kiddie");
+
+            correctionAdd("uninterupted", "uninterrupted");
 
 
 
@@ -23559,8 +23592,6 @@ namespace OverflowHelper.core
 
             URL_Add("Git GUI", "https://git-scm.com/docs/git-gui");
 
-            URL_Add("IIS Express", "https://en.wikipedia.org/wiki/Internet_Information_Services#IIS_Express");
-
             URL_Add("KornShell", "https://en.wikipedia.org/wiki/KornShell");
 
             URL_Add("OpenNTPD", "https://en.wikipedia.org/wiki/OpenNTPD");
@@ -25859,6 +25890,27 @@ namespace OverflowHelper.core
 
             URL_Add("webcam", "https://en.wikipedia.org/wiki/Webcam");
 
+            URL_Add("802.11b", "https://en.wikipedia.org/wiki/IEEE_802.11b-1999");
+
+            URL_Add("802.11g", "https://en.wikipedia.org/wiki/IEEE_802.11g-2003");
+
+            URL_Add("Brazil", "https://en.wikipedia.org/wiki/Brazil");
+
+            URL_Add("PSK", "https://en.wikipedia.org/wiki/Pre-shared_key");
+
+            URL_Add("dictionaries", "https://en.wiktionary.org/wiki/dictionary#Noun");
+
+            URL_Add("foul play", "https://en.wiktionary.org/wiki/foul_play#Noun");
+
+            URL_Add("gorgeous", "https://en.wiktionary.org/wiki/gorgeous#Adjective");
+
+            URL_Add("light bulb", "https://en.wiktionary.org/wiki/light_bulb#Noun");
+
+            URL_Add("quickest", "https://en.wiktionary.org/wiki/quickest#Adjective");
+
+            URL_Add("script kiddie", "https://en.wikipedia.org/wiki/Script_kiddie");
+
+            URL_Add("uninterrupted", "https://en.wiktionary.org/wiki/uninterrupted#Adjective");
 
 
 
