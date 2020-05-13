@@ -5572,6 +5572,7 @@ namespace OverflowHelper.core
             correctionAdd("V4", "IPv4"); //Collision?
             correctionAdd("inet4", "IPv4");
             correctionAdd("IP_V4", "IPv4");
+            correctionAdd("IP V4", "IPv4");
 
             correctionAdd("sax", "SAX");
 
@@ -9984,6 +9985,7 @@ namespace OverflowHelper.core
             correctionAdd("Dot Net Core", ".NET Core");
             correctionAdd("DotNET_core", ".NET Core");
             correctionAdd("dotnet-core", ".NET Core");
+            correctionAdd("DotNET core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10579,6 +10581,7 @@ namespace OverflowHelper.core
             correctionAdd("open_jdk", "OpenJDK");
             correctionAdd("Open JDK", "OpenJDK");
             correctionAdd("openJDK", "OpenJDK");
+            correctionAdd("open jdk", "OpenJDK");
 
             correctionAdd("callisto", "Eclipse v3.2 (Callisto)");
 
@@ -16180,7 +16183,7 @@ namespace OverflowHelper.core
 
             correctionAdd("April Fools Day", "April Fools' Day");
 
-            correctionAdd("April's fool", "April_fool");
+            correctionAdd("April's fool", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -16470,7 +16473,7 @@ namespace OverflowHelper.core
 
             correctionAdd("conotation", "connotation");
 
-            correctionAdd("DOD", "data-oriented_design");
+            correctionAdd("DOD", "data-oriented design");
 
             correctionAdd("dimenson", "dimension");
 
@@ -25068,7 +25071,7 @@ namespace OverflowHelper.core
 
             URL_Add("April Fools' Day", "https://en.wiktionary.org/wiki/April_Fools%27_Day#Noun");
 
-            URL_Add("April_fool", "https://en.wiktionary.org/wiki/April_fool#Noun");
+            URL_Add("April fool", "https://en.wiktionary.org/wiki/April_fool#Noun");
 
             URL_Add("CFD", "https://en.wikipedia.org/wiki/Computational_fluid_dynamics");
 
@@ -25310,7 +25313,7 @@ namespace OverflowHelper.core
 
             URL_Add("connotation", "https://en.wiktionary.org/wiki/connotation#Noun");
 
-            URL_Add("data-oriented_design", "https://en.wikipedia.org/wiki/Data-oriented_design#Contrast_with_object_orientation");
+            URL_Add("data-oriented design", "https://en.wikipedia.org/wiki/Data-oriented_design#Contrast_with_object_orientation");
 
             URL_Add("dimension", "https://en.wiktionary.org/wiki/dimension#Noun");
 
