@@ -1246,6 +1246,7 @@ namespace OverflowHelper.core
             correctionAdd("ASP.NET core", "ASP.NET Core");
             correctionAdd("asp.net Core", "ASP.NET Core");
 
+            correctionAdd("Mac OS X", "Mac&nbsp;OS&nbsp;X"); // Sort of identity mapping
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("OS X", "Mac&nbsp;OS&nbsp;X");
@@ -1254,7 +1255,6 @@ namespace OverflowHelper.core
             correctionAdd("mac os X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac OSX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("mac osx", "Mac&nbsp;OS&nbsp;X");
-            correctionAdd("Mac OS X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MacOSX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac OSx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MAC OS X", "Mac&nbsp;OS&nbsp;X");
@@ -1291,12 +1291,15 @@ namespace OverflowHelper.core
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
 
+            correctionAdd("Mac OS X v10.2 (Jaguar)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"); // Sort of identity mapping
             correctionAdd("Jaguar", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
 
+            correctionAdd("Mac OS X v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)"); // Sort of identity mapping
             correctionAdd("Tiger", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
             correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
             correctionAdd("MacOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
 
+            correctionAdd("Mac OS X v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)"); // Sort of identity mapping
             correctionAdd("Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("Mac OS X Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
@@ -1305,6 +1308,7 @@ namespace OverflowHelper.core
             correctionAdd("10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
 
+            correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)"); // Sort of identity mapping
             correctionAdd("snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("snow-leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
@@ -1344,6 +1348,7 @@ namespace OverflowHelper.core
             correctionAdd("OSX lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Mac OS X v10.7 (Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
+            correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
             correctionAdd("mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
             correctionAdd("OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -1363,6 +1368,7 @@ namespace OverflowHelper.core
 
             //Note: the identity is not working. Is it because of the
             //trailing ")"??
+            correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)"); // Sort of identity mapping
             correctionAdd("OSX mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("OSX Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
@@ -1387,6 +1393,7 @@ namespace OverflowHelper.core
             correctionAdd("mac osx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("mac os x 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
 
+            correctionAdd("Mac OS X v10.10 (Yosemite)", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)"); // Sort of identity mapping
             correctionAdd("Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("OSX Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("OS&nbsp;X v10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
@@ -1396,6 +1403,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X 10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("v10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
 
+            correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)"); // Sort of identity mapping
             correctionAdd("El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("OS&nbsp;X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
@@ -2088,6 +2096,7 @@ namespace OverflowHelper.core
             correctionAdd("OR/M", "ORM");
             correctionAdd("Object-Relational Mapping", "ORM");
 
+            correctionAdd("Google Web Toolkit", "Google&nbsp;Web&nbsp;Toolkit"); // Sort of identity mapping
             correctionAdd("gwt", "Google&nbsp;Web&nbsp;Toolkit"); //Expansion. Add new field with abbreviation?. In case it would be GWT.
             correctionAdd("GWT", "Google&nbsp;Web&nbsp;Toolkit");
 
@@ -2516,6 +2525,7 @@ namespace OverflowHelper.core
             correctionAdd("ie 9", "Internet&nbsp;Explorer&nbsp;9");
             correctionAdd("Internet&nbsp;Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
 
+            correctionAdd("Internet Explorer 10", "Internet&nbsp;Explorer&nbsp;10"); // Sort of identity mapping
             correctionAdd("ie10", "Internet&nbsp;Explorer&nbsp;10");
             correctionAdd("ie 10", "Internet&nbsp;Explorer&nbsp;10");
             correctionAdd("IE 10", "Internet&nbsp;Explorer&nbsp;10");
@@ -3793,6 +3803,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pptp", "PPTP");
 
+            correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
             correctionAdd("95", "Windows&nbsp;95");
             correctionAdd("Win95", "Windows&nbsp;95");
 
@@ -4495,10 +4506,12 @@ namespace OverflowHelper.core
             correctionAdd("Debain", "Debian");
             correctionAdd("debain", "Debian");
 
+            correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
             correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
             correctionAdd("lenny", "Debian&nbsp;5.0 (Lenny)");
             correctionAdd("Lenny", "Debian&nbsp;5.0 (Lenny)");
 
+            correctionAdd("Debian 6.0 (Squeeze)", "Debian&nbsp;6.0 (Squeeze)"); // Sort of identity mapping
             correctionAdd("Squeeze", "Debian&nbsp;6.0 (Squeeze)");
             correctionAdd("squeeze", "Debian&nbsp;6.0 (Squeeze)");
             correctionAdd("Debian 6.0", "Debian&nbsp;6.0 (Squeeze)");
@@ -4509,6 +4522,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian&nbsp;6.0", "Debian&nbsp;6.0 (Squeeze)");
             correctionAdd("Debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
 
+            correctionAdd("Debian 7 (Wheezy)", "Debian&nbsp;7 (Wheezy)"); // Sort of identity mapping
             correctionAdd("wheezy", "Debian&nbsp;7 (Wheezy)");
             correctionAdd("Wheezy", "Debian&nbsp;7 (Wheezy)");
             correctionAdd("Debian 7", "Debian&nbsp;7 (Wheezy)");
@@ -4518,6 +4532,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian&nbsp;7", "Debian&nbsp;7 (Wheezy)");
             correctionAdd("Debian wheezy", "Debian&nbsp;7 (Wheezy)");
 
+            correctionAdd("Debian 8 (Jessie)", "Debian&nbsp;8 (Jessie)"); // Sort of identity mapping
             correctionAdd("jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian 8", "Debian&nbsp;8 (Jessie)");
@@ -4639,6 +4654,7 @@ namespace OverflowHelper.core
             correctionAdd("xsd", "XSD");
             correctionAdd("Xsd", "XSD");
 
+            correctionAdd("Glide API", "Glide&nbsp;API"); // Sort of identity mapping
             correctionAdd("Glide", "Glide&nbsp;API");
             correctionAdd("glide", "Glide&nbsp;API");
             correctionAdd("GLide", "Glide&nbsp;API");
@@ -4736,6 +4752,7 @@ namespace OverflowHelper.core
             correctionAdd("tutorail", "tutorial"); //Misspelling
             correctionAdd("tutiorial", "tutorial"); //Misspelling
 
+            correctionAdd("jQuery&nbsp;Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
             correctionAdd("JQuery Isotope", "jQuery&nbsp;Isotope");
             correctionAdd("isotope", "jQuery&nbsp;Isotope");
@@ -4799,6 +4816,7 @@ namespace OverflowHelper.core
             correctionAdd("Base-64", "Base64");
             correctionAdd("base46", "Base64");
 
+            correctionAdd("Windows CE", "Windows&nbsp;CE"); // Sort of identity mapping
             correctionAdd("WinCE", "Windows&nbsp;CE");
             correctionAdd("wince", "Windows&nbsp;CE");
 
@@ -5505,6 +5523,7 @@ namespace OverflowHelper.core
 
             correctionAdd("notepad2", "Notepad2");
 
+            correctionAdd("Solution Explorer", "Solution&nbsp;Explorer"); // Sort of identity mapping
             correctionAdd("solution explorer", "Solution&nbsp;Explorer");
             correctionAdd("SolutionExplorer", "Solution&nbsp;Explorer");
             correctionAdd("solution expolorer", "Solution&nbsp;Explorer"); //Misspelling.
@@ -5588,6 +5607,7 @@ namespace OverflowHelper.core
             correctionAdd("underscoreJS", "Underscore.js");
             correctionAdd("Underscore JS", "Underscore.js");
 
+            correctionAdd("DLL Hell", "DLL&nbsp;Hell"); // Sort of identity mapping
             correctionAdd("dll hell", "DLL&nbsp;Hell");
 
             //Now used for PowerShell:
@@ -6620,6 +6640,7 @@ namespace OverflowHelper.core
             correctionAdd("w3school", "W3Schools");
             correctionAdd("W3SCHOOLS", "W3Schools");
 
+            correctionAdd("Samsung Galaxy S III", "Samsung Galaxy&nbsp;S&nbsp;III"); // Sort of identity mapping
             correctionAdd("samsung galaxy s III", "Samsung Galaxy&nbsp;S&nbsp;III");
             correctionAdd("Samsung S3", "Samsung Galaxy&nbsp;S&nbsp;III");
             correctionAdd("galaxyS", "Samsung Galaxy&nbsp;S&nbsp;III"); //Really S3?
@@ -6691,8 +6712,8 @@ namespace OverflowHelper.core
 
             correctionAdd("kinect", "Kinect");
 
+            correctionAdd("3ds Max", "3ds&nbsp;Max"); // Sort of identity mapping
             correctionAdd("3Dsmax", "3ds&nbsp;Max");
-            correctionAdd("3ds Max", "3ds&nbsp;Max"); // Effectively self.
             correctionAdd("3ds", "3ds&nbsp;Max");
             correctionAdd("3ds max", "3ds&nbsp;Max");
             correctionAdd("3dsmax", "3ds&nbsp;Max");
@@ -7379,6 +7400,7 @@ namespace OverflowHelper.core
             correctionAdd("ubunbtu", "Ubuntu");
             correctionAdd("Ubunbtu", "Ubuntu");
 
+            correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
             correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
             correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -7412,6 +7434,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
 
+            correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
             correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
             correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
             correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
@@ -7452,6 +7475,7 @@ namespace OverflowHelper.core
             correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
 
+            correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
             correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
             correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
             correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
@@ -7590,6 +7614,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
 
+            correctionAdd("Ubuntu 19.10 (Eoan Ermine)", "Ubuntu&nbsp;19.10 (Eoan Ermine)"); // Sort of identity mapping
             correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
@@ -7634,17 +7659,21 @@ namespace OverflowHelper.core
             correctionAdd("visual sudio", "Visual&nbsp;Studio");
             correctionAdd("Visual Studio", "Visual&nbsp;Studio");
 
+            correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
             correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
 
+            correctionAdd("Visual Basic 2008 Express Edition", "Visual&nbsp;Basic&nbsp;2008 Express Edition"); // Sort of identity mapping
             correctionAdd("VB Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
             correctionAdd("Visual Basic Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
             correctionAdd("VB.Net Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
             correctionAdd("vb 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
 
+            correctionAdd("Visual C# 2008 Express Edition", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // Sort of identity mapping
             correctionAdd("Visual C# 2008 Express", "Visual&nbsp;C#&nbsp;2008 Express Edition");
             correctionAdd("visual studio express (2008", "Visual&nbsp;C#&nbsp;2008 Express Edition"); //C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
 
+            correctionAdd("Visual C++ 2010 Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Sort of identity mapping
             correctionAdd("visual c++ express 2010", "Visual&nbsp;C++&nbsp;2010 Express");
             correctionAdd("Visual C++ Express", "Visual&nbsp;C++&nbsp;2010 Express"); //Not exact...
             correctionAdd("VS C++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
@@ -7672,30 +7701,36 @@ namespace OverflowHelper.core
             correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
 
+            correctionAdd("Visual Studio 2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express"); // Sort of identity mapping
             correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
             correctionAdd("VS-2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
             correctionAdd("VS2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
             correctionAdd("VS2010 EXPRESS", "Visual&nbsp;Studio&nbsp;2010 Express");
             correctionAdd("visual studio 2010 express", "Visual&nbsp;Studio&nbsp;2010 Express");
 
+            correctionAdd("Visual Basic 2010 Express Edition", "Visual&nbsp;Basic&nbsp;2010 Express Edition"); // Sort of identity mapping
             correctionAdd("Visual Basic 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
             correctionAdd("VB 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
             correctionAdd("VB express2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
             correctionAdd("vb 2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
 
+            correctionAdd("Visual Studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express"); // Sort of identity mapping
             correctionAdd("Visual Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
             correctionAdd("Visual Studio 2012 express", "Visual&nbsp;Studio&nbsp;2012 Express");
             correctionAdd("VS Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
             correctionAdd("visual studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
             correctionAdd("VS 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
 
+            correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
             correctionAdd("VS express C#", "Visual&nbsp;C# Express");
             correctionAdd("C# express", "Visual&nbsp;C# Express");
 
+            correctionAdd("Visual Studio Express", "Visual&nbsp;Studio Express"); // Sort of identity mapping
             correctionAdd("VS express", "Visual&nbsp;Studio Express");
             correctionAdd("vs express", "Visual&nbsp;Studio Express");
             correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
 
+            correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
             correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
             correctionAdd("VS 2003", "Visual&nbsp;Studio&nbsp;2003");
 
@@ -8120,12 +8155,14 @@ namespace OverflowHelper.core
             correctionAdd("osciloscope", "oscilloscope");
             correctionAdd("oscilliscope", "oscilloscope");
 
+            correctionAdd("Cat 5", "Cat&nbsp;5"); // Sort of identity mapping
             correctionAdd("Cat5", "Cat&nbsp;5");
             correctionAdd("cat5", "Cat&nbsp;5");
             correctionAdd("cat 5", "Cat&nbsp;5");
             correctionAdd("CAT5", "Cat&nbsp;5");
             correctionAdd("CAT 5", "Cat&nbsp;5");
 
+            correctionAdd("Cat 6", "Cat&nbsp;6"); // Sort of identity mapping
             correctionAdd("Cat6", "Cat&nbsp;6");
             correctionAdd("cat6", "Cat&nbsp;6");
             correctionAdd("cat 6", "Cat&nbsp;6");
@@ -8148,6 +8185,7 @@ namespace OverflowHelper.core
             correctionAdd("ready boost", "ReadyBoost");
             correctionAdd("readyboost", "ReadyBoost");
 
+            correctionAdd("Hacker News", "Hacker&nbsp;News"); // Sort of identity mapping
             correctionAdd("hacker news", "Hacker&nbsp;News");
             correctionAdd("Hacker news", "Hacker&nbsp;News");
             correctionAdd("HN", "Hacker&nbsp;News");
@@ -8547,6 +8585,7 @@ namespace OverflowHelper.core
             correctionAdd("kernal", "kernel");
             correctionAdd("Kernel", "kernel");
 
+            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
             correctionAdd("kde4", "KDE&nbsp;4");
             correctionAdd("KDE4", "KDE&nbsp;4");
 
@@ -8681,20 +8720,24 @@ namespace OverflowHelper.core
             correctionAdd("Backbone JS", "Backbone.js");
             correctionAdd("Backboone", "Backbone.js");
 
+            correctionAdd("Android 2.2 (Froyo)", "Android&nbsp;2.2 (Froyo)"); // Sort of identity mapping
             correctionAdd("Froyo", "Android&nbsp;2.2 (Froyo)");
             correctionAdd("2.2", "Android&nbsp;2.2 (Froyo)");
             correctionAdd("FROYO", "Android&nbsp;2.2 (Froyo)");
             correctionAdd("froyo", "Android&nbsp;2.2 (Froyo)");
 
+            correctionAdd("Android 2.3 (Gingerbread)", "Android&nbsp;2.3 (Gingerbread)"); // Sort of identity mapping
             correctionAdd("gingerbread", "Android&nbsp;2.3 (Gingerbread)");
             correctionAdd("Android 2.3", "Android&nbsp;2.3 (Gingerbread)");
             correctionAdd("Android version 2.3", "Android&nbsp;2.3 (Gingerbread)");
             correctionAdd("Gingerbread", "Android&nbsp;2.3 (Gingerbread)");
 
+            correctionAdd("Android 3 (Honeycomb)", "Android&nbsp;3 (Honeycomb)"); // Sort of identity mapping
             correctionAdd("Honeycomb", "Android&nbsp;3 (Honeycomb)");
             correctionAdd("HoneyComb", "Android&nbsp;3 (Honeycomb)");
             correctionAdd("Android&nbsp;3", "Android&nbsp;3 (Honeycomb)");
 
+            correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich)"); // Sort of identity mapping
             correctionAdd("Android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("Android 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("Android version 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
@@ -8704,6 +8747,7 @@ namespace OverflowHelper.core
             correctionAdd("Android&nbsp;4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("ICS", "Android&nbsp;4.0 (Ice Cream Sandwich)");
 
+            correctionAdd("Android 4.1 (Jelly Bean)", "Android&nbsp;4.1 (Jelly Bean)"); // Sort of identity mapping
             correctionAdd("JB", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
             correctionAdd("Jelly Bean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
             correctionAdd("JellyBean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
@@ -8714,6 +8758,7 @@ namespace OverflowHelper.core
             correctionAdd("Android 4.2.1", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
             correctionAdd("Android 4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
 
+            correctionAdd("Android 4.3 (Jelly Bean)", "Android&nbsp;4.3 (Jelly Bean)"); // Sort of identity mapping
             correctionAdd("4.3", "Android&nbsp;4.3 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
             correctionAdd("Android 4.3", "Android&nbsp;4.3 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
 
@@ -8874,9 +8919,9 @@ namespace OverflowHelper.core
             correctionAdd("visualforce", "Visualforce");
             correctionAdd("visual force", "Visualforce");
 
+            correctionAdd("Elementary OS", "Elementary&nbsp;OS"); // Sort of identity mapping
             correctionAdd("elementary os", "Elementary&nbsp;OS");
             correctionAdd("elementary OS", "Elementary&nbsp;OS");
-
 
             correctionAdd("vhdl", "VHDL");
 
@@ -9737,23 +9782,28 @@ namespace OverflowHelper.core
             correctionAdd("eclise", "Eclipse"); //Misspelling.
             correctionAdd("ecplise", "Eclipse"); //Misspelling.
 
+            correctionAdd("Eclipse v3.5 (Galileo)", "Eclipse&nbsp;v3.5 (Galileo)"); // Sort of identity mapping
             correctionAdd("Eclipse Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
             correctionAdd("Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
             correctionAdd("galileo", "Eclipse&nbsp;v3.5 (Galileo)");
 
+            correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
             correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
             correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
 
+            correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
             correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
             correctionAdd("Eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
             correctionAdd("eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
             correctionAdd("juno", "Eclipse&nbsp;v4.2 (Juno)");
 
+            correctionAdd("Eclipse v4.3 (Kepler)", "Eclipse&nbsp;v4.3 (Kepler)"); // Sort of identity mapping
             correctionAdd("Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
             correctionAdd("Keplar", "Eclipse&nbsp;v4.3 (Kepler)");
             correctionAdd("Eclipse Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
             correctionAdd("kepler", "Eclipse&nbsp;v4.3 (Kepler)");
 
+            correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
             correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("luna", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("Luna", "Eclipse&nbsp;v4.4 (Luna)");
@@ -9767,6 +9817,7 @@ namespace OverflowHelper.core
             correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
 
+            correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
             correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
             correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
 
@@ -9777,6 +9828,7 @@ namespace OverflowHelper.core
             correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
             correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
 
+            correctionAdd("Eclipse v4.6 (Neon)", "Eclipse&nbsp;v4.6 (Neon)"); // Sort of identity mapping
             correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
             correctionAdd("eclipse neon", "Eclipse&nbsp;v4.6 (Neon)");
             correctionAdd("Eclipse Neon", "Eclipse&nbsp;v4.6 (Neon)");
@@ -9806,6 +9858,7 @@ namespace OverflowHelper.core
 
             correctionAdd("castle Windsor", "Castle Windsor"); // Alternative URL: <http://www.castleproject.org/container/index.html>
 
+            correctionAdd("IIS Express", "IIS&nbsp;Express"); // Sort of identity mapping
             correctionAdd("iisexpress", "IIS&nbsp;Express");
             correctionAdd("IISExpress", "IIS&nbsp;Express");
 
@@ -10704,6 +10757,7 @@ namespace OverflowHelper.core
 
             correctionAdd("swedish", "Swedish");
 
+            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
 
             correctionAdd("vsts", "VSTS");
@@ -10832,6 +10886,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dto", "DTO");
 
+            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
             correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
             correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
             correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
@@ -11877,6 +11932,7 @@ namespace OverflowHelper.core
             correctionAdd("catch-22", "Catch-22");
             correctionAdd("Catch 22", "Catch-22");
 
+            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
 
             correctionAdd("transifex", "Transifex");
@@ -12093,6 +12149,7 @@ namespace OverflowHelper.core
 
             correctionAdd("javafaces", "JavaServer Faces");
 
+            correctionAdd("PHP 7", "PHP&nbsp;7"); // Sort of identity mapping
             correctionAdd("php 7", "PHP&nbsp;7");
             correctionAdd("php7", "PHP&nbsp;7");
 
@@ -12565,6 +12622,7 @@ namespace OverflowHelper.core
             correctionAdd("Spark", "Apache Spark");
             correctionAdd("sPARK", "Apache Spark");
 
+            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
             correctionAdd("ES 5", "ECMAScript&nbsp;5");
             correctionAdd("ES5", "ECMAScript&nbsp;5");
             correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
@@ -12638,6 +12696,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crc32", "CRC-32");
 
+            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;7"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;7");
             correctionAdd("ES2016", "ECMAScript&nbsp;7");
 
@@ -12769,6 +12828,7 @@ namespace OverflowHelper.core
             correctionAdd("CloudFlare", "Cloudflare");
             correctionAdd("cloudflare", "Cloudflare");
 
+            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
 
@@ -13765,6 +13825,7 @@ namespace OverflowHelper.core
 
             correctionAdd("easyphp", "EasyPHP");
 
+            correctionAdd("Git 2.0", "Git&nbsp;2.0"); // Sort of identity mapping
             correctionAdd("git2", "Git&nbsp;2.0");
             correctionAdd("Git2", "Git&nbsp;2.0");
 
@@ -13819,6 +13880,7 @@ namespace OverflowHelper.core
             correctionAdd("URI Rewriting", "URL rewriting");
             correctionAdd("URI rewriting", "URL rewriting");
 
+            correctionAdd("Babylon 5", "Babylon&nbsp;5"); // Sort of identity mapping
             correctionAdd("B5", "Babylon&nbsp;5");
 
             correctionAdd("iommu", "IOMMU");
@@ -14666,9 +14728,11 @@ namespace OverflowHelper.core
             correctionAdd("HIDmacros", "HID Macros");
             correctionAdd("HID macros", "HID Macros");
 
+            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
             correctionAdd("bps", "&nbsp;bit/s"); //Different unit.
             correctionAdd("bits/s", "&nbsp;bit/s");
 
+            correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
             correctionAdd("kbps", "&nbsp;kbit/s"); //Different unit.
             correctionAdd("Kbps", "&nbsp;kbit/s"); //Different unit.
             correctionAdd("kBits/s", "&nbsp;kbit/s");
@@ -14677,6 +14741,7 @@ namespace OverflowHelper.core
             correctionAdd("kBit/s", "&nbsp;kbit/s");
             correctionAdd("KBPS", "&nbsp;kbit/s");
 
+            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
             correctionAdd("mbps", "&nbsp;Mbit/s"); //Different unit.
             correctionAdd("Mbps", "&nbsp;Mbit/s"); //Different unit.
             correctionAdd("MBps", "&nbsp;Mbit/s"); //Different unit.
@@ -14684,21 +14749,25 @@ namespace OverflowHelper.core
             correctionAdd("MBit/s", "&nbsp;Mbit/s"); //Case
             correctionAdd("mbit", "&nbsp;Mbit/s"); //Misspelling
 
+            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
             correctionAdd("gbps", "&nbsp;Gbit/s"); //Different unit.
             correctionAdd("gbit", "&nbsp;Gbit/s");
             correctionAdd("Gbit", "&nbsp;Gbit/s");
             correctionAdd("Gbps", "&nbsp;Gbit/s");
             correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
 
+            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
             correctionAdd("hz", "&nbsp;Hz"); //Spelling.
             correctionAdd("Hertz", "&nbsp;Hz");
             correctionAdd("HZ", "&nbsp;Hz");
 
+            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
             correctionAdd("KHz", "&nbsp;kHz"); //Spelling/case.
             correctionAdd("Khz", "&nbsp;kHz"); //Spelling/case.
             correctionAdd("khz", "&nbsp;kHz"); //Spelling/case.
             correctionAdd("KHZ", "&nbsp;kHz"); //Spelling/case.
 
+            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
             correctionAdd("Mhz", "&nbsp;MHz"); //Spelling.
             correctionAdd("mhz", "&nbsp;MHz"); //Spelling. Could be millihertz
             correctionAdd("MHZ", "&nbsp;MHz"); //Spelling.
@@ -14707,6 +14776,7 @@ namespace OverflowHelper.core
             correctionAdd("megahert", "&nbsp;MHz");
             correctionAdd("megahertz", "&nbsp;MHz");
 
+            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
             correctionAdd("Ghz", "&nbsp;GHz"); //Spelling.
             correctionAdd("GHZ", "&nbsp;GHz"); //Spelling.
             correctionAdd("ghz", "&nbsp;GHz"); //Spelling.
@@ -14714,10 +14784,11 @@ namespace OverflowHelper.core
             correctionAdd("gigahert", "&nbsp;GHz");
             correctionAdd("gigahertz", "&nbsp;GHz");
 
+            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
             correctionAdd("thz", "&nbsp;THz");
             correctionAdd("Thz", "&nbsp;THz");
 
-            correctionAdd("5 GHz", "5&nbsp;GHz");
+            correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
             correctionAdd("5GHz", "5&nbsp;GHz");
 
             correctionAdd("adobe", "Adobe");
@@ -14865,6 +14936,7 @@ namespace OverflowHelper.core
             correctionAdd("woking", "working");
             correctionAdd("workring", "working");
 
+            correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
             correctionAdd("Angular2", "Angular&nbsp;2");
             correctionAdd("angular2", "Angular&nbsp;2");
 
@@ -15061,6 +15133,7 @@ namespace OverflowHelper.core
 
             correctionAdd("powerfull", "powerful");
 
+            correctionAdd("Command Prompt", "Command&nbsp;Prompt"); // Sort of identity mapping
             correctionAdd("cmd", "Command&nbsp;Prompt");
             correctionAdd("cmd.exe", "Command&nbsp;Prompt");
 
@@ -15479,6 +15552,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
+            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;8"); // Sort of identity mapping
             correctionAdd("ES8", "ECMAScript&nbsp;8");
 
             correctionAdd("swiss", "Swiss");
@@ -16015,6 +16089,7 @@ namespace OverflowHelper.core
             correctionAdd("doxygen", "Doxygen");
 
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
+            correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
             correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
 
             correctionAdd("oxigen", "oxygen");
@@ -16213,6 +16288,7 @@ namespace OverflowHelper.core
             correctionAdd("Raid 5", "RAID&nbsp;5");
             correctionAdd("RAID5", "RAID&nbsp;5");
 
+            correctionAdd("RAID 6", "RAID&nbsp;6"); // Sort of identity mapping
             correctionAdd("RAID6", "RAID&nbsp;6");
 
             correctionAdd("xfig", "Xfig");
@@ -16463,6 +16539,7 @@ namespace OverflowHelper.core
             correctionAdd("Pak", "Pakistan");
             correctionAdd("pakistan", "Pakistan");
 
+            correctionAdd("Windows 10 version 1903 (May 2019 update)", "Windows&nbsp;10 version 1903 (May 2019 update)"); // Sort of identity mapping
             correctionAdd("19H1", "Windows&nbsp;10 version 1903 (May 2019 update)");
             correctionAdd("1903", "Windows&nbsp;10 version 1903 (May 2019 update)");
 
@@ -17026,6 +17103,7 @@ namespace OverflowHelper.core
 
             correctionAdd("web cam", "webcam");
             correctionAdd("WebCam", "webcam");
+
 
 
 
@@ -25777,7 +25855,6 @@ namespace OverflowHelper.core
             URL_Add("unreputable", "https://en.wiktionary.org/wiki/unreputable#Adjective");
 
             URL_Add("webcam", "https://en.wikipedia.org/wiki/Webcam");
-
 
 
 
