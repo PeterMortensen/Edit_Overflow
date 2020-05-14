@@ -4100,6 +4100,7 @@ namespace OverflowHelper.core
             correctionAdd("likedin", "LinkedIn");
             correctionAdd("Linked-in", "LinkedIn");
             correctionAdd("Linked In", "LinkedIn");
+            correctionAdd("linked-in", "LinkedIn");
 
             correctionAdd("tumblr", "Tumblr");
 
@@ -17141,6 +17142,24 @@ namespace OverflowHelper.core
 
             correctionAdd("uninterupted", "uninterrupted");
 
+            correctionAdd("monte carlo", "Monte Carlo method");
+
+            correctionAdd("viadeo", "Viadeo");
+
+            correctionAdd("constrains", "constraints");
+
+            correctionAdd("first class citizen", "first-class citizen");
+
+            correctionAdd("nda", "non-disclosure agreement");
+            correctionAdd("NDA", "non-disclosure agreement");
+
+            correctionAdd("Pseudo Random Number Generator", "pseudorandom number generator");
+
+            correctionAdd("sourcecode", "source code");
+
+            correctionAdd("unwieldly", "unwieldy");
+
+            correctionAdd("worser", "worse");
 
 
             // Start of coronavirus part...
@@ -25911,6 +25930,25 @@ namespace OverflowHelper.core
             URL_Add("script kiddie", "https://en.wikipedia.org/wiki/Script_kiddie");
 
             URL_Add("uninterrupted", "https://en.wiktionary.org/wiki/uninterrupted#Adjective");
+
+            URL_Add("Monte Carlo method", "https://en.wikipedia.org/wiki/Monte_Carlo_method");
+
+            URL_Add("Viadeo", "https://en.wikipedia.org/wiki/Viadeo");
+
+            URL_Add("constraints", "https://en.wiktionary.org/wiki/constraint#Noun");
+
+            URL_Add("first-class citizen", "https://en.wiktionary.org/wiki/first-class_citizen");
+
+            URL_Add("non-disclosure agreement", "https://en.wikipedia.org/wiki/Non-disclosure_agreement");
+
+            URL_Add("pseudorandom number generator", "https://en.wikipedia.org/wiki/Pseudorandom_number_generator");
+
+            URL_Add("source code", "https://en.wiktionary.org/wiki/source_code#Noun");
+
+            URL_Add("unwieldy", "https://en.wiktionary.org/wiki/unwieldy#Adjective");
+
+            URL_Add("worse", "https://en.wiktionary.org/wiki/worse#Adjective");
+
 
 
 
