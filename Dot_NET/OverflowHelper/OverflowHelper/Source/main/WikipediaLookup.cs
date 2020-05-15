@@ -3584,6 +3584,7 @@ namespace OverflowHelper.core
             correctionAdd("devel", "developer"); //Expansion.
             correctionAdd("develoepr", "developer");
             correctionAdd("developper", "developer");
+            correctionAdd("develepor", "developer");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -7595,6 +7596,10 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -17161,6 +17166,25 @@ namespace OverflowHelper.core
 
             correctionAdd("worser", "worse");
 
+            correctionAdd("C172", "Cessna 172");
+
+            correctionAdd("Desktop", "desktop");
+
+            correctionAdd("evac", "evacuation");
+
+            correctionAdd("excemt", "exempt");
+
+            correctionAdd("Laptop", "laptop");
+
+            correctionAdd("liferaft", "life raft");
+
+            correctionAdd("Polio", "polio");
+
+            correctionAdd("re-appear", "reappear");
+
+            correctionAdd("re-appeared", "reappeared");
+
+
 
             // Start of coronavirus part...
 
@@ -25948,6 +25972,26 @@ namespace OverflowHelper.core
             URL_Add("unwieldy", "https://en.wiktionary.org/wiki/unwieldy#Adjective");
 
             URL_Add("worse", "https://en.wiktionary.org/wiki/worse#Adjective");
+
+            URL_Add("Cessna 172", "https://en.wikipedia.org/wiki/Cessna_172");
+
+            URL_Add("desktop", "https://en.wikipedia.org/wiki/Desktop_computer");
+
+            URL_Add("evacuation", "https://en.wiktionary.org/wiki/evacuation#Noun");
+
+            URL_Add("exempt", "https://en.wiktionary.org/wiki/exempt#Adjective");
+
+            URL_Add("laptop", "https://en.wikipedia.org/wiki/Laptop");
+
+            URL_Add("life raft", "https://en.wiktionary.org/wiki/life_raft#Noun");
+
+            URL_Add("polio", "https://en.wikipedia.org/wiki/Polio");
+
+            URL_Add("reappear", "https://en.wiktionary.org/wiki/reappear#Verb");
+
+            URL_Add("reappeared", "https://en.wiktionary.org/wiki/reappear#Verb");
+
+
 
 
 
