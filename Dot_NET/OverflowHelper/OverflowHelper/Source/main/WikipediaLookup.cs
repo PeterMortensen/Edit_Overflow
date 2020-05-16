@@ -10858,6 +10858,7 @@ namespace OverflowHelper.core
             correctionAdd("strenhgt", "strength");
 
             correctionAdd("theres", "there's");
+            correctionAdd("theres's", "there's");
 
             correctionAdd("transfered", "transferred");
 
@@ -11466,6 +11467,7 @@ namespace OverflowHelper.core
             correctionAdd("verison", "version");
             correctionAdd("vers", "version");
             correctionAdd("verion", "version");
+            correctionAdd("verson", "version");
 
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
@@ -14362,6 +14364,7 @@ namespace OverflowHelper.core
             correctionAdd("nano arduino", "Arduino Nano");
 
             correctionAdd("asciidoc", "AsciiDoc");
+            correctionAdd("ASCII Doc", "AsciiDoc");
 
             correctionAdd("asciidoctor", "Asciidoctor");
 
@@ -17183,6 +17186,28 @@ namespace OverflowHelper.core
             correctionAdd("re-appear", "reappear");
 
             correctionAdd("re-appeared", "reappeared");
+
+            correctionAdd("docbook", "DocBook");
+
+            correctionAdd("MySQL Server", "MySQL server");
+            correctionAdd("MySqlServer", "MySQL server");
+            correctionAdd("MySql Server", "MySQL server");
+
+            correctionAdd("new year", "New Year");
+
+            correctionAdd("open doc", "OpenDoc");
+            correctionAdd("opendoc", "OpenDoc");
+
+            correctionAdd("adpated", "adapted");
+
+            correctionAdd("disappate", "dissipate");
+
+            correctionAdd("logarithmith", "logarithm");
+
+            correctionAdd("sub expression", "subexpression");
+
+            correctionAdd("wish list", "wishlist");
+
 
 
 
@@ -25990,6 +26015,24 @@ namespace OverflowHelper.core
             URL_Add("reappear", "https://en.wiktionary.org/wiki/reappear#Verb");
 
             URL_Add("reappeared", "https://en.wiktionary.org/wiki/reappear#Verb");
+
+            URL_Add("DocBook", "https://en.wikipedia.org/wiki/DocBook");
+
+            URL_Add("MySQL server", "https://en.wikipedia.org/wiki/MySQL#Overview");
+
+            URL_Add("New Year", "https://en.wikipedia.org/wiki/New_Year");
+
+            URL_Add("OpenDoc", "https://en.wikipedia.org/wiki/OpenDoc");
+
+            URL_Add("adapted", "https://en.wiktionary.org/wiki/adapt#Verb");
+
+            URL_Add("dissipate", "https://en.wiktionary.org/wiki/dissipate#Verb");
+
+            URL_Add("logarithm", "https://en.wiktionary.org/wiki/logarithm#Noun");
+
+            URL_Add("subexpression", "https://en.wiktionary.org/wiki/subexpression#Noun");
+
+            URL_Add("wishlist", "https://en.wiktionary.org/wiki/wishlist#Noun");
 
 
 
