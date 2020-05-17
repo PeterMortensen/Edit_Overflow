@@ -10107,6 +10107,8 @@ namespace OverflowHelper.core
             correctionAdd("seams", "seems");
 
             correctionAdd("F35", "F-35");
+            correctionAdd("f-35", "F-35");
+            correctionAdd("f35", "F-35");
 
             // Of PowerShell...
             correctionAdd("Set-Aliast", "Set-Alias");
@@ -12351,6 +12353,7 @@ namespace OverflowHelper.core
             correctionAdd("exaclty", "exactly");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
+            correctionAdd("GRB", "gamma-ray burst");
 
             correctionAdd("genious", "genius");
 
@@ -17207,6 +17210,15 @@ namespace OverflowHelper.core
             correctionAdd("sub expression", "subexpression");
 
             correctionAdd("wish list", "wishlist");
+
+            correctionAdd("arised", "arose");
+
+            correctionAdd("coincident", "coincidence");
+            correctionAdd("co-incident", "coincidence");
+
+            correctionAdd("compay", "company");
+
+            correctionAdd("daze", "days");
 
 
 
@@ -26034,6 +26046,13 @@ namespace OverflowHelper.core
 
             URL_Add("wishlist", "https://en.wiktionary.org/wiki/wishlist#Noun");
 
+            URL_Add("arose", "https://en.wiktionary.org/wiki/arise#Verb");
+
+            URL_Add("coincidence", "https://en.wiktionary.org/wiki/coincidence#English");
+
+            URL_Add("company", "https://en.wiktionary.org/wiki/company#Noun");
+
+            URL_Add("days", "https://en.wiktionary.org/wiki/day#Noun");
 
 
 
