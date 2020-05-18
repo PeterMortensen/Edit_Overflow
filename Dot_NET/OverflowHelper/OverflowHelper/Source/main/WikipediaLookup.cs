@@ -14481,6 +14481,8 @@ namespace OverflowHelper.core
             correctionAdd("re-read", "reread");
 
             correctionAdd("sincirely", "sincerely");
+            correctionAdd("Sincerly", "sincerely");
+            correctionAdd("sincerly", "sincerely");
 
             correctionAdd("specifici", "specific");
 
@@ -17220,6 +17222,15 @@ namespace OverflowHelper.core
 
             correctionAdd("daze", "days");
 
+            correctionAdd("greece", "Greece");
+
+            correctionAdd("spain", "Spain");
+
+            correctionAdd("antromorphising", "anthropomorphising");
+
+            correctionAdd("blue chip", "bluechip");
+            correctionAdd("Blue-chip", "bluechip");
+            correctionAdd("blue-chip", "bluechip");
 
 
 
@@ -26053,6 +26064,14 @@ namespace OverflowHelper.core
             URL_Add("company", "https://en.wiktionary.org/wiki/company#Noun");
 
             URL_Add("days", "https://en.wiktionary.org/wiki/day#Noun");
+
+            URL_Add("Greece", "https://en.wikipedia.org/wiki/Greece");
+
+            URL_Add("Spain", "https://en.wikipedia.org/wiki/Spain");
+
+            URL_Add("anthropomorphising", "https://en.wiktionary.org/wiki/anthropomorphise#English");
+
+            URL_Add("bluechip", "https://en.wiktionary.org/wiki/bluechip#Adjective");
 
 
 
