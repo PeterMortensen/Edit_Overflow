@@ -2030,10 +2030,6 @@ namespace OverflowHelper.core
             correctionAdd("solr", "Solr");
             correctionAdd("SolR", "Solr");
 
-            correctionAdd("noscript", "NoScript");
-            correctionAdd("Noscript", "NoScript");
-            correctionAdd("no script", "NoScript");
-
             correctionAdd("adblock", "Adblock");
             correctionAdd("AdBlock", "Adblock");
 
@@ -17110,9 +17106,6 @@ namespace OverflowHelper.core
 
             correctionAdd("meat space", "meatspace");
 
-            correctionAdd("NS", "name server");
-            correctionAdd("nameserver", "name server");
-
             correctionAdd("opauqe", "opaque");
 
             correctionAdd("opertation", "operation");
@@ -17231,6 +17224,14 @@ namespace OverflowHelper.core
             correctionAdd("blue chip", "bluechip");
             correctionAdd("Blue-chip", "bluechip");
             correctionAdd("blue-chip", "bluechip");
+
+            correctionAdd("noscript", "NoScript");
+            correctionAdd("Noscript", "NoScript");
+            correctionAdd("no script", "NoScript");
+
+            correctionAdd("NS", "name server"); // Alternative: "NoScript"
+            correctionAdd("nameserver", "name server");
+
 
 
 
