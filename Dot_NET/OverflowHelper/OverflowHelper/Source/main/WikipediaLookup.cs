@@ -10463,6 +10463,7 @@ namespace OverflowHelper.core
             correctionAdd("posability", "possibility");
             correctionAdd("possibilty", "possibility");
             correctionAdd("posibility", "possibility");
+            correctionAdd("possability", "possibility");
 
             correctionAdd("c89", "C89");
 
@@ -12131,6 +12132,8 @@ namespace OverflowHelper.core
             correctionAdd("other wise", "otherwise");
             correctionAdd("o/w", "otherwise");
             correctionAdd("O/W", "otherwise");
+            correctionAdd("Elsewise", "otherwise");
+            correctionAdd("elsewise", "otherwise");
 
             correctionAdd("res", "resolution");
 
@@ -13780,6 +13783,7 @@ namespace OverflowHelper.core
             correctionAdd("Heres", "here's");
 
             correctionAdd("GlassDoor", "Glassdoor");
+            correctionAdd("glass door", "Glassdoor");
 
             correctionAdd("Indeed.com", "Indeed");
 
@@ -14263,6 +14267,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Git gui", "Git GUI");
             correctionAdd("git-gui", "Git GUI");
+            correctionAdd("GIT GUI", "Git GUI");
 
             correctionAdd("ksh", "KornShell");
 
@@ -15988,6 +15993,7 @@ namespace OverflowHelper.core
             correctionAdd("Shuttle", "Space Shuttle");
 
             correctionAdd("starship", "SpaceX Starship");
+            correctionAdd("Starship", "SpaceX Starship");
 
             correctionAdd("starliner", "Starliner");
 
@@ -17232,6 +17238,35 @@ namespace OverflowHelper.core
             correctionAdd("NS", "name server"); // Alternative: "NoScript"
             correctionAdd("nameserver", "name server");
 
+            correctionAdd("patreon", "Patreon");
+
+            correctionAdd("dime a dozen", "a dime a dozen");
+
+            correctionAdd("audiance", "audience");
+
+            correctionAdd("ben", "been");
+
+            correctionAdd("Develop", "develop");
+
+            correctionAdd("developped", "developed");
+
+            correctionAdd("insteresting", "interesting");
+
+            correctionAdd("kerboard", "keyboard");
+            correctionAdd("kerbaord", "keyboard");
+
+            correctionAdd("l10n", "language localisation");
+            correctionAdd("L10n", "language localisation");
+
+            correctionAdd("low code", "low-code development platform");
+            correctionAdd("low-code", "low-code development platform");
+            correctionAdd("no-code", "no-code development platform");
+
+            correctionAdd("no code", "no-code development platform");
+
+            correctionAdd("payed", "paid");
+
+            correctionAdd("Solid Rocket Booster", "solid rocket booster");
 
 
 
@@ -26074,7 +26109,31 @@ namespace OverflowHelper.core
 
             URL_Add("bluechip", "https://en.wiktionary.org/wiki/bluechip#Adjective");
 
+            URL_Add("Patreon", "https://en.wikipedia.org/wiki/Patreon");
 
+            URL_Add("a dime a dozen", "https://en.wiktionary.org/wiki/dime_a_dozen#Adjective");
+
+            URL_Add("audience", "https://en.wiktionary.org/wiki/audience#Noun");
+
+            URL_Add("been", "https://en.wiktionary.org/wiki/been#Verb");
+
+            URL_Add("develop", "https://en.wiktionary.org/wiki/develop#Verb");
+
+            URL_Add("developed", "https://en.wiktionary.org/wiki/develop#Verb");
+
+            URL_Add("interesting", "https://en.wiktionary.org/wiki/interesting#Adjective");
+
+            URL_Add("keyboard", "https://en.wiktionary.org/wiki/keyboard#Noun");
+
+            URL_Add("language localisation", "https://en.wikipedia.org/wiki/Language_localisation");
+
+            URL_Add("low-code development platform", "https://en.wikipedia.org/wiki/Low-code_development_platform");
+
+            URL_Add("no-code development platform", "https://en.wikipedia.org/wiki/No-code_development_platform");
+
+            URL_Add("paid", "https://en.wiktionary.org/wiki/pay#English");
+
+            URL_Add("solid rocket booster", "https://en.wikipedia.org/wiki/Solid_rocket_booster");
 
 
 
