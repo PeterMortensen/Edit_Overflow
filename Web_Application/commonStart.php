@@ -42,7 +42,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a38 2020-05-10T145222Z+0";
+        return "Edit Overflow v. 1.1.49a39 2020-05-20T155838Z+0";
     }
 
 
@@ -270,7 +270,8 @@
         #echo "<p>Before: xxx" . $aRawContent . "xxx</p>\n";
 
 
-        # But why did we have to use "%22" instead of "&quot;"????
+        # But why did we have to use "%22" instead of "&quot;"???? Was it
+        # due to escaping of double quote by WordPress?
         #
         # Is there a difference between HTML links ("href") and form field
         # values ("value")?? Does one need percent encoding and the other
@@ -299,7 +300,9 @@
     }
 
 
-    # Single place for output of dynamic "value" attributes in HTML forms.
+    # Single place for output of dynamic "value" attributes 
+    # in HTML ***form*** elements.
+    #
     function the_formValue($aRawContent)
     {
         $encodedContent = get_HTMLattributeEscaped($aRawContent);

@@ -1,5 +1,11 @@
 <?php
     # File: EditOverflow.php
+    #
+    # This does the core of Edit Overflow: Looks up incorrect
+    # term and displays the correct term (also with a link).
+    #
+    ##########################################################################
+
 
     # Future:
     #
@@ -180,27 +186,48 @@
                 $linkInlineMarkdown = "[$correctTerm]($URL)";
 
                 # We preformat it in the most commonly used form in YouTube
-                # comments: 
-                # 
-                #     1. Styled as bold (by "*". As the Wikipedia URLs often 
-                #        contain underscore (which is the marker for 
-                #        **italics** in YouTube comments)) 
+                # comments:
                 #
-                #     2. Used indented on a separate line in a comment with 
-                #        a list of timestamps. Note: It is indented deeper 
+                #     1. Styled as bold (by "*" (which is the marker for
+                #        **italics** in YouTube comments). As the
+                #        Wikipedia URLs often contain underscore)
+                #
+                #     2. Used indented on a separate line in a comment with
+                #        a list of timestamps. Note: It is indented deeper
                 #        than the text of a timestamp; this is intentional.
                 #
                 # Example: <https://www.youtube.com/watch?v=NZZbl-lfokQ&lc=Ugxi74factISUTWaDSd4AaABAg>
                 #
                 # Possible future: Should we also include a newline at the end?
                 #
-                $linkYouTubeCompatible = 
-                    "                 *" . 
+                $linkYouTubeCompatible =
+                    "                 *" .
                     transformFor_YouTubeComments($URL) .
                     "*"
                     ;
 
-                # $linkInlineMarkdown = "";
+                # Link, in HTML format/syntax
+                #
+                #Note: We already have a utility function for this, get_HTMLlink(),
+                #      but the escaping of double quotes is in doubt. We changed
+                #      it from "&quot;" to "%22" (in get_HTMLattributeEscaped()).
+                #
+                #      That does not work in this case - we get the literal "%22"
+                #      in the (user facing) output.
+                #
+                #      It ought to be resolved, so we don't have
+                #      this redundancy
+                #
+                #$link_HTML = get_HTMLlink($correctTerm,
+                #                          $URL,
+                #                          "");
+                #
+                # Using double quotes in the form may result in "%22" due
+                # to our own function, get_HTMLattributeEscaped().
+                #
+                $link_HTML =
+                  "<a href=\"" . $URL . "\"" .
+                  ">" . $correctTerm . "</a>";
             }
             else
             {
@@ -481,6 +508,36 @@
                     accesskey="Y"
                     title="Shortcut: Shift + Alt + Y"
                 />
+
+                <label for="URL4">Link (HTML)</label>
+                <input
+                    name="URL4"
+                    type="text"
+                    id="URL4"
+                    class="XYZ92"
+
+                    <?php
+                      # the_formValue($link_HTML);
+                      #
+                      ## Direct, using single quotes, so we don't
+                      ## have to escape neither in PHP nor in HTML
+                      ## (but it fails for correct terms containing
+                      ## single quotes, e.g. "don't"):
+                      ##
+                      #echo "value='$link_HTML'\n";
+
+                      # Using "&quot;", but see notes near "$link_HTML" above.
+                      #
+                      $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
+                      echo "value=\"$link_HTML_encoded\"\n";
+                    ?>
+
+
+                    style="width:400px;"
+                    accesskey="H"
+                    title="Shortcut: Shift + Alt + H"
+                />
+
 
                 <?php
                     #No, not for now. But do consider it.
