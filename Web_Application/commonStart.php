@@ -271,7 +271,9 @@
 
 
         # But why did we have to use "%22" instead of "&quot;"???? Was it
-        # due to escaping of double quote by WordPress?
+        # due to escaping of double quote by WordPress? Or for W3C
+        # validation submit to work?
+        #
         #
         # Is there a difference between HTML links ("href") and form field
         # values ("value")?? Does one need percent encoding and the other
@@ -279,6 +281,11 @@
         #
         #$encodedContent = str_replace('"', '&quot;', $aRawContent);
         $encodedContent = str_replace('"', '%22', $aRawContent);
+
+
+        #To be more complete it should also be done for 
+        #single quotes,e.g. by "&apos;".
+
 
         #echo "<p>After: xxx" . $aRawContent . "xxx</p>\n";
 
@@ -300,7 +307,7 @@
     }
 
 
-    # Single place for output of dynamic "value" attributes 
+    # Single place for output of dynamic "value" attributes
     # in HTML ***form*** elements.
     #
     function the_formValue($aRawContent)
