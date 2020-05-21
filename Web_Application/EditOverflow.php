@@ -435,7 +435,7 @@
                         else
                         {
                             #echo "In<u>c</u>orrect term (repeated)";
-                            echo "Look up term (repeated)";
+                            echo "<em><strong>Look up term (repeated)</strong></em>";
                         }
                     ?>
                 </label>
