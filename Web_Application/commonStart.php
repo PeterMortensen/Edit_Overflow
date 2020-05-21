@@ -42,7 +42,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a39 2020-05-20T155838Z+0";
+        return "Edit Overflow v. 1.1.49a39 2020-05-21T151907Z+0";
     }
 
 
@@ -283,7 +283,7 @@
         $encodedContent = str_replace('"', '%22', $aRawContent);
 
 
-        #To be more complete it should also be done for 
+        #To be more complete it should also be done for
         #single quotes,e.g. by "&apos;".
 
 

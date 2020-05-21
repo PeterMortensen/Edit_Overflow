@@ -418,7 +418,28 @@
                     autofocus
                 />
 
-                <label for="CorrectedTerm"><u>C</u>orrected term</label>
+                <!-- Note: we keep the same identifier "CorrectedTerm", even
+                           if the lookup fails.
+                -->
+                <label for="CorrectedTerm">
+
+                    <?php
+                        #What about empty input??
+
+                        # See below for an explanation (near
+                        # "Fill in the corrected field")
+                        if ($correctTerm)
+                        {
+                            echo "<u>C</u>orrected term"; #Used to be static HTML.
+                        }
+                        else
+                        {
+                            #echo "In<u>c</u>orrect term (repeated)";
+                            echo "Look up term (repeated)";
+                        }
+                    ?>
+                </label>
+
                 <input
                     name="CorrectedTerm"
                     type="text"
@@ -434,11 +455,32 @@
                         # version of Edit Overflow) - where we preserve
                         # any leading and trailing white space.
 
-                        $itemValue = "$correctTerm ";
-                        if (!$correctTerm)
+                        #What about empty input??
+                        if ($correctTerm)
                         {
-                            $itemValue .= "..."; # To force the form input
-                                                 # field to not be empty
+                            $itemValue = "$correctTerm ";
+                        }
+                        else
+                        {
+                            #$itemValue .= "..."; # To force the form input
+                            #                     # field to not be empty
+
+                            # Fill in the corrected field even though the lookup
+                            # failed. Justification: So an automatic process,
+                            # like a macro keyboard, will not overwrite the
+                            # origin (e.g. in an edit field in a
+                            # web browser tab).
+                            #
+                            # An alternative could be to append some text
+                            # to indicate failure (so we achieve not
+                            # overwriting, but don't pretend to have
+                            # succeeded).
+                            #
+                            # E.g., it could be subtle, like a few extra 
+                            # spaces. Or an HTML comment (works for the 
+                            # common use case).
+                            #
+                            $itemValue = "$lookUpTerm ";
                         }
                         the_formValue($itemValue);
                     ?>
