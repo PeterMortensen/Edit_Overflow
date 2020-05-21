@@ -3048,6 +3048,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overlow", "Stack&nbsp;Overflow");
             correctionAdd("stack oveflow", "Stack&nbsp;Overflow");
             correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -8219,6 +8220,7 @@ namespace OverflowHelper.core
             correctionAdd("indepndent", "independent");
             correctionAdd("indepent", "independent");
             correctionAdd("indepedent", "independent");
+            correctionAdd("independient", "independent");
 
             correctionAdd("shellshock", "Shellshock");
             correctionAdd("shelllock", "Shellshock");
@@ -12266,6 +12268,7 @@ namespace OverflowHelper.core
             correctionAdd("england", "England");
 
             correctionAdd("Fyi", "FYI");
+            correctionAdd("fyi", "FYI");
 
             correctionAdd("file explorer", "File Explorer");
             correctionAdd("Windows file explorer", "File Explorer");
@@ -15419,6 +15422,7 @@ namespace OverflowHelper.core
             correctionAdd("self distroy", "self-destruct");
 
             correctionAdd("short cut", "shortcut");
+            correctionAdd("shortuct", "shortcut");
 
 
             // --------------------------------------------------------------
@@ -17267,6 +17271,17 @@ namespace OverflowHelper.core
             correctionAdd("payed", "paid");
 
             correctionAdd("Solid Rocket Booster", "solid rocket booster");
+
+            correctionAdd("cypress", "Cypress");
+
+            correctionAdd("taiwan", "Taiwan");
+
+            correctionAdd("E2E", "end-to-end");
+            correctionAdd("e2e", "end-to-end");
+
+            correctionAdd("logged-in", "logged in");
+
+            correctionAdd("UAT", "user acceptance testing");
 
 
 
@@ -26134,6 +26149,16 @@ namespace OverflowHelper.core
             URL_Add("paid", "https://en.wiktionary.org/wiki/pay#English");
 
             URL_Add("solid rocket booster", "https://en.wikipedia.org/wiki/Solid_rocket_booster");
+
+            URL_Add("Cypress", "https://www.cypress.io/");
+
+            URL_Add("Taiwan", "https://en.wikipedia.org/wiki/Taiwan");
+
+            URL_Add("end-to-end", "https://en.wikipedia.org/wiki/End-to-end");
+
+            URL_Add("logged in", "https://en.wiktionary.org/wiki/log_in#Verb");
+
+            URL_Add("user acceptance testing", "https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing");
 
 
 
