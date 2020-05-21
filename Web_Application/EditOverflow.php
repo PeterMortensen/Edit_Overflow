@@ -422,7 +422,6 @@
                            if the lookup fails.
                 -->
                 <label for="CorrectedTerm">
-
                     <?php
                         #What about empty input??
 
@@ -430,13 +429,24 @@
                         # "Fill in the corrected field")
                         if ($correctTerm)
                         {
+                            #Note: Missing indent in HTML source (should be
+                            #      fi)
+
                             echo "<u>C</u>orrected term"; #Used to be static HTML.
                         }
                         else
                         {
+                            # We really need to make it very apparent that
+                            # the lookup failed. But we should find
+                            # something more appropriate - perhaps
+                            # change the background colour of
+                            # the form field.
+
                             #echo "In<u>c</u>orrect term (repeated)";
-                            echo "<em><strong>Look up term (repeated)</strong></em>";
+                            echo "<hr/><hr/><hr/>";
+                            echo "<em><strong>Look up term (repeated)</strong></em>\n";
                         }
+                        echo "\n";
                     ?>
                 </label>
 
@@ -476,8 +486,8 @@
                             # overwriting, but don't pretend to have
                             # succeeded).
                             #
-                            # E.g., it could be subtle, like a few extra 
-                            # spaces. Or an HTML comment (works for the 
+                            # E.g., it could be subtle, like a few extra
+                            # spaces. Or an HTML comment (works for the
                             # common use case).
                             #
                             $itemValue = "$lookUpTerm ";
