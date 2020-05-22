@@ -3049,6 +3049,7 @@ namespace OverflowHelper.core
             correctionAdd("stack oveflow", "Stack&nbsp;Overflow");
             correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
             correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
+            correctionAdd("overflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -3985,6 +3986,9 @@ namespace OverflowHelper.core
             correctionAdd("cheracter", "characters");
             correctionAdd("cheracters", "characters");
             correctionAdd("charactercters", "characters");
+            correctionAdd("charecters", "characters");
+            correctionAdd("caracters", "characters");
+            correctionAdd("carracters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -9625,6 +9629,7 @@ namespace OverflowHelper.core
             correctionAdd("screen-shot", "screenshot");
             correctionAdd("Screen-shot", "screenshot");
             correctionAdd("screens shot", "screenshot");
+            correctionAdd("ScreenShot", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -10849,6 +10854,7 @@ namespace OverflowHelper.core
             correctionAdd("commend", "recommended");
 
             correctionAdd("seperator", "separator");
+            correctionAdd("seprator", "separator");
 
             correctionAdd("statment", "statement");
             correctionAdd("statemet", "statement");
@@ -11422,6 +11428,7 @@ namespace OverflowHelper.core
 
             correctionAdd("broswer", "browser");
             correctionAdd("browswer", "browser");
+            correctionAdd("brower", "browser");
 
             correctionAdd("Printf", "printf");
 
@@ -12967,6 +12974,8 @@ namespace OverflowHelper.core
             correctionAdd("gettign", "getting");
             correctionAdd("gettting", "getting");
             correctionAdd("gettin", "getting");
+            correctionAdd("gettinog", "getting");
+            correctionAdd("gettinig", "getting");
 
             correctionAdd("goel", "goal");
 
@@ -13578,6 +13587,8 @@ namespace OverflowHelper.core
             correctionAdd("Connection", "connection");
 
             correctionAdd("containng", "containing");
+            correctionAdd("containg", "containing");
+            correctionAdd("contaning", "containing");
 
             correctionAdd("inspite of", "in spite of");
             correctionAdd("inspite", "in spite of");
@@ -17282,6 +17293,28 @@ namespace OverflowHelper.core
             correctionAdd("logged-in", "logged in");
 
             correctionAdd("UAT", "user acceptance testing");
+
+            correctionAdd("angular material", "Angular Material");
+
+            correctionAdd("es-next", "ES.Next");
+
+            correctionAdd("Scons", "SCons");
+
+            //correctionAdd("FT.", "featuring"); //Not currently allowed...
+            correctionAdd("FT", "featuring");
+
+            correctionAdd("fils", "files");
+
+            correctionAdd("file type", "filetype");
+
+            correctionAdd("fot", "for");
+
+            correctionAdd("jalous", "jealous");
+            correctionAdd("jelous", "jealous");            
+
+            correctionAdd("stylesheet", "style sheet");
+
+            correctionAdd("wor", "work");
 
 
 
@@ -26159,6 +26192,26 @@ namespace OverflowHelper.core
             URL_Add("logged in", "https://en.wiktionary.org/wiki/log_in#Verb");
 
             URL_Add("user acceptance testing", "https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing");
+
+            URL_Add("Angular Material", "https://en.wikipedia.org/wiki/Angular_(web_framework)#Angular_Material");
+
+            URL_Add("ES.Next", "https://en.wikipedia.org/wiki/ECMAScript#ES.Next");
+
+            URL_Add("SCons", "https://en.wikipedia.org/wiki/SCons");
+
+            URL_Add("featuring", "https://en.wiktionary.org/wiki/feature#Verb");
+
+            URL_Add("files", "https://en.wiktionary.org/wiki/file#Noun");
+
+            URL_Add("filetype", "https://en.wiktionary.org/wiki/filetype#Noun");
+
+            URL_Add("for", "https://en.wiktionary.org/wiki/for#Preposition");
+
+            URL_Add("jealous", "https://en.wiktionary.org/wiki/jealous#Adjective");
+
+            URL_Add("style sheet", "https://en.wikipedia.org/wiki/Style_sheet_(web_development)");
+
+            URL_Add("work", "https://en.wiktionary.org/wiki/work#Noun");
 
 
 
