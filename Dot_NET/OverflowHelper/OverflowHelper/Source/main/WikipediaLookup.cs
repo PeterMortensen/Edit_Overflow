@@ -11778,6 +11778,7 @@ namespace OverflowHelper.core
 
             correctionAdd("it self", "itself");
             correctionAdd("itsself", "itself");
+            correctionAdd("itselft", "itself");
 
             correctionAdd("knowhow", "know-how");
 
@@ -12057,6 +12058,7 @@ namespace OverflowHelper.core
             correctionAdd("asume", "assume");
 
             correctionAdd("chalenging", "challenging");
+            correctionAdd("challending", "challenging");
 
             correctionAdd("competant", "competent");
 
@@ -17310,11 +17312,21 @@ namespace OverflowHelper.core
             correctionAdd("fot", "for");
 
             correctionAdd("jalous", "jealous");
-            correctionAdd("jelous", "jealous");            
+            correctionAdd("jelous", "jealous");
 
             correctionAdd("stylesheet", "style sheet");
 
             correctionAdd("wor", "work");
+
+            correctionAdd("aaa", "AAA");
+
+            correctionAdd("cisc", "CISC");
+
+            correctionAdd("alledge", "allege");
+
+            correctionAdd("co worker", "coworker");
+
+            correctionAdd("Venv", "venv");
 
 
 
@@ -26212,6 +26224,17 @@ namespace OverflowHelper.core
             URL_Add("style sheet", "https://en.wikipedia.org/wiki/Style_sheet_(web_development)");
 
             URL_Add("work", "https://en.wiktionary.org/wiki/work#Noun");
+
+            URL_Add("AAA", "https://en.wikipedia.org/wiki/AAA_(video_game_industry)");
+
+            URL_Add("CISC", "https://en.wikipedia.org/wiki/Complex_instruction_set_computer");
+
+            URL_Add("allege", "https://en.wiktionary.org/wiki/allege#Verb");
+
+            URL_Add("coworker", "https://en.wiktionary.org/wiki/coworker#Noun");
+
+            URL_Add("venv", "https://docs.python.org/3.8/library/venv.html");
+
 
 
 
