@@ -6056,6 +6056,7 @@ namespace OverflowHelper.core
             correctionAdd("beetween", "between");
             correctionAdd("beteen", "between");
             correctionAdd("betweeen", "between");
+            correctionAdd("bewteen", "between");
 
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
@@ -10167,6 +10168,7 @@ namespace OverflowHelper.core
             correctionAdd("E-Mail", "email");
             correctionAdd("E-mail", "email");
             correctionAdd("e-mail", "email");
+            correctionAdd("e-Mail", "email");
 
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
@@ -12365,6 +12367,7 @@ namespace OverflowHelper.core
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
             correctionAdd("GRB", "gamma-ray burst");
+            correctionAdd("grb", "gamma-ray burst");
 
             correctionAdd("genious", "genius");
 
@@ -13468,6 +13471,9 @@ namespace OverflowHelper.core
             correctionAdd("Coderush", "CodeRush");
 
             correctionAdd("geany", "Geany");
+            correctionAdd("Geney", "Geany");
+            correctionAdd("Geaney", "Geany");
+            correctionAdd("Genea", "Geany");
 
             correctionAdd("gerrit", "Gerrit");
 
@@ -17328,6 +17334,37 @@ namespace OverflowHelper.core
 
             correctionAdd("Venv", "venv");
 
+            correctionAdd("frb", "FRB");
+
+            correctionAdd("GW Basic", "GW-BASIC");
+            correctionAdd("GWBASIC", "GW-BASIC");
+            correctionAdd("GW BASIC", "GW-BASIC");
+
+            correctionAdd("right ascention", "right ascension");
+
+            correctionAdd("sinosoidal", "sinusoidal");
+
+            correctionAdd("tomorrows", "tomorrow's");
+
+            correctionAdd("Id", "I'd");
+
+            correctionAdd("Shindler's list", "Schindler's List");
+
+            correctionAdd("SM", "Scrum master");
+
+            correctionAdd("beleives", "believes");
+
+            correctionAdd("hiaerchies", "hierarchies");
+
+            correctionAdd("suspicien", "suspicion");
+
+            correctionAdd("Löve", "LÖVE");
+            correctionAdd("LOVE2D", "LÖVE");
+            correctionAdd("LOVE 2D", "LÖVE");
+            correctionAdd("Love2d", "LÖVE");
+            correctionAdd("Love 2d", "LÖVE");
+            correctionAdd("LOVE", "LÖVE");
+            correctionAdd("Love2D", "LÖVE");
 
 
             // Start of coronavirus part...
@@ -17374,6 +17411,7 @@ namespace OverflowHelper.core
             correctionAdd("CoVid-19", "COVID-19");
             correctionAdd("covid", "COVID-19");
             correctionAdd("COVD-19", "COVID-19");
+            correctionAdd("the pandemic", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -18080,7 +18118,7 @@ namespace OverflowHelper.core
 
             URL_Add("repository", "https://en.wikipedia.org/wiki/Software_repository");
 
-            URL_Add("Scrum", "https://en.wikipedia.org/wiki/Scrum_%28development%29");
+            URL_Add("Scrum", "https://en.wikipedia.org/wiki/Scrum_(software_development)"); //Old: <https://en.wikipedia.org/wiki/Scrum_%28development%29>
 
             URL_Add("Team Foundation Server", "https://en.wikipedia.org/wiki/Team_Foundation_Server");
 
@@ -26235,6 +26273,29 @@ namespace OverflowHelper.core
 
             URL_Add("venv", "https://docs.python.org/3.8/library/venv.html");
 
+            URL_Add("FRB", "https://en.wikipedia.org/wiki/Fast_radio_burst");
+
+            URL_Add("GW-BASIC", "https://en.wikipedia.org/wiki/GW-BASIC");
+
+            URL_Add("right ascension", "https://en.wikipedia.org/wiki/Right_ascension");
+
+            URL_Add("sinusoidal", "https://en.wiktionary.org/wiki/sinusoidal#Adjective");
+
+            URL_Add("tomorrow's", "https://en.wiktionary.org/wiki/tomorrow's");
+
+            URL_Add("I'd", "https://en.wiktionary.org/wiki/I%27d#Contraction");
+
+            URL_Add("Schindler's List", "https://en.wikipedia.org/wiki/Schindler's_List");
+
+            URL_Add("Scrum master", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_master");
+
+            URL_Add("believes", "https://en.wiktionary.org/wiki/believe#Verb");
+
+            URL_Add("hierarchies", "https://en.wiktionary.org/wiki/hierarchy#Noun");
+
+            URL_Add("suspicion", "https://en.wiktionary.org/wiki/suspicion#Noun");
+
+            URL_Add("LÖVE", "https://en.wikipedia.org/wiki/L%C3%B6ve_(game_engine)");
 
 
 
