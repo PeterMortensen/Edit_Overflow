@@ -535,7 +535,7 @@
                     title="Shortcut: Shift + Alt + E"
                 />
 
-                <label for="URL2">Link (inline Markdown)</label>
+                <label for="URL2">Link (<u>i</u>nline Markdown)</label>
                 <input
                     name="URL2"
                     type="text"
@@ -548,7 +548,7 @@
                     title="Shortcut: Shift + Alt + I"
                 />
 
-                <label for="URL3">Link (YouTube compatible)</label>
+                <label for="URL3">Link (<u>Y</u>ouTube compatible)</label>
                 <input
                     name="URL3"
                     type="text"
@@ -561,7 +561,7 @@
                     title="Shortcut: Shift + Alt + Y"
                 />
 
-                <label for="URL4">Link (HTML)</label>
+                <label for="URL4">Link (<u>H</u>TML)</label>
                 <input
                     name="URL4"
                     type="text"
@@ -569,6 +569,11 @@
                     class="XYZ92"
 
                     <?php
+                      #Note: We should eliminate the redundancy (introduced
+                      #      due to problems with escaping double quotes) -
+                      #      see get_HTMLattributeEscaped() for details.
+
+
                       # the_formValue($link_HTML);
                       #
                       ## Direct, using single quotes, so we don't
@@ -577,6 +582,7 @@
                       ## single quotes, e.g. "don't"):
                       ##
                       #echo "value='$link_HTML'\n";
+
 
                       # Using "&quot;", but see notes near "$link_HTML" above.
                       #
