@@ -11273,6 +11273,7 @@ namespace OverflowHelper.core
             correctionAdd("duckduckgo", "DuckDuckGo");
             correctionAdd("duck duck go", "DuckDuckGo");
             correctionAdd("Duckduckgo", "DuckDuckGo");
+            correctionAdd("DuckDockGo", "DuckDuckGo");
 
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
@@ -17365,6 +17366,13 @@ namespace OverflowHelper.core
             correctionAdd("Love 2d", "LÖVE");
             correctionAdd("LOVE", "LÖVE");
             correctionAdd("Love2D", "LÖVE");
+
+            correctionAdd("choregraphic", "choreographic");
+
+            correctionAdd("fonctionality", "functionality");
+            correctionAdd("fonctionnality", "functionality");
+
+            correctionAdd("long standing", "long-standing");
 
 
             // Start of coronavirus part...
@@ -26296,6 +26304,12 @@ namespace OverflowHelper.core
             URL_Add("suspicion", "https://en.wiktionary.org/wiki/suspicion#Noun");
 
             URL_Add("LÖVE", "https://en.wikipedia.org/wiki/L%C3%B6ve_(game_engine)");
+
+            URL_Add("choreographic", "https://en.wiktionary.org/wiki/choreographic#English");
+
+            URL_Add("functionality", "https://en.wiktionary.org/wiki/functionality#Noun");
+
+            URL_Add("long-standing", "https://en.wiktionary.org/wiki/long-standing#Adjective");
 
 
 
