@@ -9212,6 +9212,7 @@ namespace OverflowHelper.core
 
             correctionAdd("obviusly", "obviously");
             correctionAdd("obvisouly", "obviously");
+            correctionAdd("obiously", "obviously");
 
             correctionAdd("VisualSvn", "VisualSVN");
 
@@ -12442,6 +12443,8 @@ namespace OverflowHelper.core
             correctionAdd("scaleable", "scalable");
 
             correctionAdd("scrol", "scroll");
+            correctionAdd("schroll", "scroll");
+            correctionAdd("schrol", "scroll");
 
             correctionAdd("sentance", "sentence");
             correctionAdd("sentencen", "sentence");
@@ -12770,6 +12773,7 @@ namespace OverflowHelper.core
             correctionAdd("anomynous", "anonymous");
             correctionAdd("anon", "anonymous");
             correctionAdd("anonynous", "anonymous");
+            correctionAdd("anomyous", "anonymous");
 
             correctionAdd("aproved", "approved");
 
@@ -14365,6 +14369,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Zsh", "Z shell");
             correctionAdd("zsh", "Z shell");
+            correctionAdd("ZSH", "Z shell");
 
             correctionAdd("case-insensitive", "case insensitive");
 
@@ -17373,6 +17378,18 @@ namespace OverflowHelper.core
             correctionAdd("fonctionnality", "functionality");
 
             correctionAdd("long standing", "long-standing");
+
+            correctionAdd("coup d'etat", "coup d'état");
+
+            correctionAdd("demonitize", "demonetise");
+
+            correctionAdd("demonitised", "demonetised");
+
+            correctionAdd("goung", "going");
+
+            correctionAdd("miniscule", "minuscule");
+
+            correctionAdd("raison d'etre", "raison d'être");
 
 
             // Start of coronavirus part...
@@ -26310,6 +26327,18 @@ namespace OverflowHelper.core
             URL_Add("functionality", "https://en.wiktionary.org/wiki/functionality#Noun");
 
             URL_Add("long-standing", "https://en.wiktionary.org/wiki/long-standing#Adjective");
+
+            URL_Add("coup d'état", "https://en.wiktionary.org/wiki/coup_d%27%C3%A9tat#Noun");
+
+            URL_Add("demonetise", "https://en.wiktionary.org/wiki/demonetise#Verb");
+
+            URL_Add("demonetised", "https://en.wiktionary.org/wiki/demonetise#Verb");
+
+            URL_Add("going", "https://en.wiktionary.org/wiki/go#Verb");
+
+            URL_Add("minuscule", "https://en.wiktionary.org/wiki/minuscule#Adjective");
+
+            URL_Add("raison d'être", "https://en.wiktionary.org/wiki/raison_d%27%C3%AAtre#Noun");
 
 
 
