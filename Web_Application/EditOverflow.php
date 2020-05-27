@@ -30,9 +30,6 @@
 <?php include("commonStart.php"); ?>
 
 
-        <?php
-            the_EditOverflowHeadline("Look up");
-        ?>
 
 
         <?php
@@ -169,6 +166,11 @@
 
             $URL          = htmlentities($row['URL']);
 
+            # To avoid "Undefined variable: linkYouTubeCompatible"
+            # in the PHP error log file.
+            $linkYouTubeCompatible = "";
+            $link_HTML = "";
+
             if ($correctTerm)
             {
                 # Add to our built-up edit summary string (using
@@ -299,7 +301,19 @@
                 ## a list...
                 #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
             }
+
         ?>
+
+
+        <?php
+            #Now dynamic (shows the term in the title so we can distinguish
+            #e.g. when opening recently closed tabs in Firefox), but we may
+            #to add a special case for ***empty*** input/initial page...
+            #(right now it is using some default).
+
+            the_EditOverflowHeadline("Look up of \"$lookUpTerm\"");
+        ?>
+
 
         <form
             name="XYZ"
