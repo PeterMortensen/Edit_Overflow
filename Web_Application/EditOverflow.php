@@ -146,7 +146,9 @@
             }
             else
             {
-                echo "$headerLevelIndent<p>No SQL injection, please...</p>\n";
+                #If we need it, it should be moved to after the call of
+                #the_EditOverflowHeadline
+                #echo "$headerLevelIndent<p>No SQL injection, please...</p>\n";
 
                 #Replace "name" with something else.
                 $statement = $pdo->prepare($SQLprefix . ' :name');
