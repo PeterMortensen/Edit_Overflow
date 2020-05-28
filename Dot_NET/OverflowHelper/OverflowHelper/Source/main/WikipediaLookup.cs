@@ -16053,6 +16053,7 @@ namespace OverflowHelper.core
             correctionAdd("zaphod beeblebrox", "Zaphod Beeblebrox");
 
             correctionAdd("cought", "caught");
+            correctionAdd("catched", "caught");
 
             correctionAdd("criticize", "criticise");
 
@@ -17390,6 +17391,21 @@ namespace OverflowHelper.core
             correctionAdd("miniscule", "minuscule");
 
             correctionAdd("raison d'etre", "raison d'être");
+
+            correctionAdd("Android version 10", "Android&nbsp;10");
+            correctionAdd("Android 10", "Android&nbsp;10");
+
+            correctionAdd("fasta", "FASTA format");
+
+            correctionAdd("nemo", "Nemo");
+
+            correctionAdd("cutout", "cut-out");
+
+            correctionAdd("percievable", "perceivable");
+
+            correctionAdd("immidiate", "immediate");
+
+            correctionAdd("wellfare", "welfare");
 
 
             // Start of coronavirus part...
@@ -26339,6 +26355,20 @@ namespace OverflowHelper.core
             URL_Add("minuscule", "https://en.wiktionary.org/wiki/minuscule#Adjective");
 
             URL_Add("raison d'être", "https://en.wiktionary.org/wiki/raison_d%27%C3%AAtre#Noun");
+
+            URL_Add("Android&nbsp;10", "https://en.wikipedia.org/wiki/Android_10");
+
+            URL_Add("FASTA format", "https://en.wikipedia.org/wiki/FASTA_format");
+
+            URL_Add("Nemo", "https://en.wikipedia.org/wiki/Nemo_%28file_manager%29");
+
+            URL_Add("cut-out", "https://en.wiktionary.org/wiki/cut-out#Noun");
+
+            URL_Add("perceivable", "https://en.wiktionary.org/wiki/perceivable#Adjective");
+
+            URL_Add("immediate", "https://en.wiktionary.org/wiki/immediate#Adjective");
+
+            URL_Add("welfare", "https://en.wiktionary.org/wiki/welfare#Noun");
 
 
 
