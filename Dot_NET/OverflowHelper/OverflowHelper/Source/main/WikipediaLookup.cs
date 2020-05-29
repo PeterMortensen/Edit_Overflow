@@ -3700,8 +3700,6 @@ namespace OverflowHelper.core
             correctionAdd("win explorer", "Windows&nbsp;Explorer");
 
             correctionAdd("repo", "repository");
-            correctionAdd("repos", "repository"); //Plural, to avoid nearly duplicate entries.
-            correctionAdd("Repos", "repository"); //Plural, to avoid nearly duplicate entries.
             correctionAdd("Repo", "repository");
             correctionAdd("repositary", "repository");
             correctionAdd("respositary", "repository");
@@ -6057,6 +6055,7 @@ namespace OverflowHelper.core
             correctionAdd("beteen", "between");
             correctionAdd("betweeen", "between");
             correctionAdd("bewteen", "between");
+            correctionAdd("betwen", "between");
 
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
@@ -7565,7 +7564,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
+            correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
 
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
             correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -7600,8 +7600,9 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
 
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -9533,6 +9534,7 @@ namespace OverflowHelper.core
 
             correctionAdd("every", "every time"); //What is this????
             correctionAdd("everytime", "every time");
+            correctionAdd("Everytime", "every time");
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
@@ -10286,6 +10288,8 @@ namespace OverflowHelper.core
             correctionAdd("mainatin", "maintenance");
             correctionAdd("maintanence", "maintenance");
             correctionAdd("maintenence", "maintenance");
+            correctionAdd("meinttenance", "maintenance");
+            correctionAdd("mainttenance", "maintenance");
 
             correctionAdd("mantained", "maintained");
             correctionAdd("maintaned", "maintained");
@@ -10695,6 +10699,7 @@ namespace OverflowHelper.core
             correctionAdd("IONIC", "Ionic");
 
             correctionAdd("tranceiver", "transceiver");
+            correctionAdd("transciever", "transceiver");
 
             correctionAdd("buttom", "bottom");
             correctionAdd("bottum", "bottom");
@@ -11972,6 +11977,7 @@ namespace OverflowHelper.core
 
             correctionAdd("amperage", "current");
             correctionAdd("ampacity", "current");
+            correctionAdd("Current", "current");
 
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
@@ -13728,6 +13734,8 @@ namespace OverflowHelper.core
             correctionAdd("sudoku", "Sudoku");
 
             correctionAdd("absolutly", "absolutely");
+            correctionAdd("absulotly", "absolutely");
+            correctionAdd("absolotly", "absolutely");
 
             correctionAdd("artifact", "artefact");
 
@@ -14564,6 +14572,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gitlab-ci", "GitLab CI");
             correctionAdd("Gitlab ci", "GitLab CI");
+            correctionAdd("gitlab-ce", "GitLab CI");
 
             correctionAdd("gray code", "Gray code");
 
@@ -15957,10 +15966,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Zugzwang", "zugzwang"); // Chess
 
-            correctionAdd("nimso", "Nimzo-Indian Defence");
+            correctionAdd("nimso", "Nimzo-Indian Defence"); // Chess
 
-            correctionAdd("torre attack", "Torre Attack");
+            correctionAdd("torre attack", "Torre Attack"); // Chess
 
+            correctionAdd("the scotch", "Scotch Game"); // Chess
 
 
 
@@ -16862,6 +16872,9 @@ namespace OverflowHelper.core
             correctionAdd("hairless", "Hairless");
 
             correctionAdd("20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("20", "Ubuntu 20.04 (Focal Fossa)"); // Yes, highly context dependent...
+            correctionAdd("Ubuntu 20", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04", "Ubuntu 20.04 (Focal Fossa)");
 
             correctionAdd("DAW", "digital audio workstation");
 
@@ -17407,6 +17420,58 @@ namespace OverflowHelper.core
 
             correctionAdd("wellfare", "welfare");
 
+            correctionAdd("apt", "APT");
+
+            correctionAdd("Android Enthusiast", "Android Enthusiasts");
+
+            correctionAdd("DCMA", "DMCA");
+
+            correctionAdd("Frainglaich", "Franglais");
+            correctionAdd("franglais", "Franglais");
+
+            correctionAdd("Gluster", "GlusterFS");
+            correctionAdd("gluster", "GlusterFS");
+
+            correctionAdd("Lenevo", "Lenovo");
+
+            correctionAdd("qualcomm", "Qualcomm");
+
+            correctionAdd("afore mentioned", "aforementioned");
+
+            correctionAdd("agregate", "aggregate");
+
+            correctionAdd("come-a-gusta", "come a gutser");
+
+            correctionAdd("exgress", "egress");
+
+            correctionAdd("face mask", "facemask");
+
+            correctionAdd("gat", "got");
+
+            correctionAdd("heared", "heard");
+
+            correctionAdd("home grown", "home-grown");
+
+            correctionAdd("hot spot", "hotspot");
+
+            correctionAdd("porte monnaie", "portmanteau");
+            correctionAdd("portemonais", "portmanteau");
+
+            correctionAdd("psycology", "psychology");
+
+            correctionAdd("Repos", "repositories");
+            correctionAdd("repos", "repositories");
+
+            correctionAdd("tranpiling", "transpiling");
+
+            correctionAdd("unlinke", "unlike");
+            correctionAdd("Unlinke", "unlike");
+
+            correctionAdd("Voltage", "voltage");
+
+            correctionAdd("wuman", "woman");
+
+
 
             // Start of coronavirus part...
 
@@ -17421,6 +17486,7 @@ namespace OverflowHelper.core
 
             correctionAdd("madical", "medical");
             correctionAdd("MEDICAL", "medical");
+            correctionAdd("mefucal", "medical");
 
             correctionAdd("motality", "mortality");
 
@@ -26369,6 +26435,55 @@ namespace OverflowHelper.core
             URL_Add("immediate", "https://en.wiktionary.org/wiki/immediate#Adjective");
 
             URL_Add("welfare", "https://en.wiktionary.org/wiki/welfare#Noun");
+
+            URL_Add("APT", "https://en.wikipedia.org/wiki/APT_(software)");
+
+            URL_Add("Android Enthusiasts", "https://android.stackexchange.com/tour");
+
+            URL_Add("DMCA", "https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act");
+
+            URL_Add("Franglais", "https://en.wiktionary.org/wiki/Franglais#Proper_noun");
+
+            URL_Add("GlusterFS", "https://en.wikipedia.org/wiki/Gluster#GlusterFS");
+
+            URL_Add("Lenovo", "https://en.wikipedia.org/wiki/Lenovo");
+
+            URL_Add("Qualcomm", "https://en.wikipedia.org/wiki/Qualcomm");
+
+            URL_Add("aforementioned", "https://en.wiktionary.org/wiki/aforementioned#Adjective");
+
+            URL_Add("aggregate", "https://en.wiktionary.org/wiki/aggregate#Adjective");
+
+            URL_Add("come a gutser", "https://en.wiktionary.org/wiki/come_a_gutser#Verb");
+
+            URL_Add("egress", "https://en.wiktionary.org/wiki/egress#Noun");
+
+            URL_Add("facemask", "https://en.wiktionary.org/wiki/facemask#Noun");
+
+            URL_Add("got", "https://en.wiktionary.org/wiki/get#Verb");
+
+            URL_Add("heard", "https://en.wiktionary.org/wiki/hear#Verb");
+
+            URL_Add("home-grown", "https://en.wiktionary.org/wiki/home-grown#Adjective");
+
+            URL_Add("hotspot", "https://en.wikipedia.org/wiki/Hotspot_%28Wi-Fi%29");
+
+            URL_Add("portmanteau", "https://en.wikipedia.org/wiki/Portmanteau");
+
+            URL_Add("psychology", "https://en.wiktionary.org/wiki/psychology#Noun");
+
+            URL_Add("repositories", "https://en.wikipedia.org/wiki/Software_repository");
+
+            URL_Add("transpiling", "https://en.wiktionary.org/wiki/transpile#Verb");
+
+            URL_Add("unlike", "https://en.wiktionary.org/wiki/unlike#Preposition");
+
+            URL_Add("voltage", "https://en.wikipedia.org/wiki/Voltage");
+
+            URL_Add("woman", "https://en.wiktionary.org/wiki/woman#Noun");
+
+            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
+
 
 
 
