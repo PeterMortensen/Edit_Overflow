@@ -319,7 +319,7 @@
             # General comments/notes about testing:
             #
             #   1. To simulate what happens in the browser we need
-            #      to use "\r\n" (Windows like), not "\r\n"
+            #      to use "\r\n" (Windows like), not "\n"
             #
             #      Why is it like Windows? We are on Linux, with Firefox,
             #      using a web application based on Linux hosting and PHP.
@@ -332,7 +332,7 @@
             #      wrong values with no consequence. E.g. 9999 for content
             #      where nothing should be removed.
             #
-            #   3. Many of the text cases could be reduced down to the
+            #   3. Many of the test cases could be reduced down to the
             #      essential part (they are arbitrary real-world
             #      examples).
             #
@@ -386,12 +386,13 @@
                 0);
 
             # Test-first for new exceptions to the general URL substitution -
-            # prompted by Node.js, both as pure text and in the Wikipedia URL
-            # (but it will cover many JavaScript frameworks).
+            # prompted by "Node.js", both as pure text and in the Wikipedia
+            # URL (but it will cover many JavaScript frameworks).
             #
             # Note: The *first* part of an HTTPS Wikipedia URL happens
-            #       to have the same length after transformation. This
-            #       is pure coincidence.
+            #       to have the same length after transformation (thus 
+            #       "0") for the third parameter. This is a pure 
+            #       coincidence.
             #
             test_transformFor_YouTubeComments(1014,
                 "     https://en.wikipedia.org/wiki/Node.js    \r\n",
@@ -403,11 +404,7 @@
             test_transformFor_YouTubeComments(1016, "first job._", 0);
             test_transformFor_YouTubeComments(1017, "first job.", 0);
 
-#first job DOT _
-
             # ----------------------------------------------------------------
-
-
 
 
             $message = "";
