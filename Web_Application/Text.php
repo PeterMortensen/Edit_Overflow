@@ -170,6 +170,9 @@
 
 
             # ------------- Start of unit tests (sort of) section ------------
+            
+            #Yes, they should be moved somewhere else 
+            #and executed in a different context.
 
 
             # $aLengthDiff is old minus new (so it is ***positive***
