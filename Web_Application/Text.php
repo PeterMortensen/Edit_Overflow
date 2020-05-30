@@ -170,8 +170,8 @@
 
 
             # ------------- Start of unit tests (sort of) section ------------
-            
-            #Yes, they should be moved somewhere else 
+
+            #Yes, they should be moved somewhere else
             #and executed in a different context.
 
 
@@ -214,15 +214,16 @@
             #
             # Answer: because then we would have to specify the input
             #         string two times on the client side (or use a
-            #         variable, making it two statements instead of
-            #         just a single function call) instead of just
-            #         the length difference (somewhat redundant) -
-            #         though it would make for a more accurate text.
+            #         variable, making it ***two*** statements on
+            #         the client side instead of just a single
+            #         function call) instead of just the length
+            #         difference (somewhat redundant) - though
+            #         it would make for a more accurate text.
             #
             function test_removeTrailingSpacesAndTABs($ID, $aSomeText, $aLengthDiff)
             {
                 # [] because removeTrailingSpacesAndTABs() is returning
-                # as array and we are only using the first element...
+                # an array and we are only using the first element...
                 #
                 [$touchedText] = removeTrailingSpacesAndTABs($aSomeText);
                 assert_strLengths($ID,
@@ -247,7 +248,7 @@
             #but it would be nice to have a ***single*** function
             #exposed to the client code. E.g., could we return
             #the output string and the number as an array? We
-            #are already doing for removeTrailingSpacesAndTABs().
+            #are already doing it for removeTrailingSpacesAndTABs().
             #
             function test_removeCommonLeadingSpaces($ID, $aSomeText, $aLengthDiff)
             {
@@ -301,6 +302,10 @@
 
 
             # Helper function for testing
+            #
+            #As to why not substitution of transformFor_YouTubeComments(),
+            #see comments for test_removeTrailingSpacesAndTABs().
+            #
             function test_transformFor_YouTubeComments($ID, $aSomeText, $aLengthDiff)
             {
                 $touchedText = transformFor_YouTubeComments($aSomeText);
