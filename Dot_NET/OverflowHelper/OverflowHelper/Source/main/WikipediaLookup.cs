@@ -1245,6 +1245,8 @@ namespace OverflowHelper.core
             correctionAdd("aspnetcore", "ASP.NET Core");
             correctionAdd("ASP.NET core", "ASP.NET Core");
             correctionAdd("asp.net Core", "ASP.NET Core");
+            correctionAdd("asp.net-core", "ASP.NET Core");
+            correctionAdd("AspNetCore", "ASP.NET Core");
 
             correctionAdd("Mac OS X", "Mac&nbsp;OS&nbsp;X"); // Sort of identity mapping
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
@@ -2623,6 +2625,7 @@ namespace OverflowHelper.core
             correctionAdd("Nunit", "NUnit");
             correctionAdd("nunit", "NUnit");
             correctionAdd("nUnit", "NUnit");
+            correctionAdd("NUNIT", "NUnit");
 
             correctionAdd("Junit", "JUnit");
             correctionAdd("junit", "JUnit");
@@ -7844,6 +7847,7 @@ namespace OverflowHelper.core
             correctionAdd("VS 2k17", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("Visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("vs 2017", "Visual&nbsp;Studio&nbsp;2017");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -8042,6 +8046,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Unit test", "unit test");
             correctionAdd("Unit Test", "unit test");
+            correctionAdd("UNIT Test", "unit test");
 
             correctionAdd("SMPS", "switched-mode power supply");
             correctionAdd("smps", "switched-mode power supply");
@@ -9424,8 +9429,11 @@ namespace OverflowHelper.core
             correctionAdd("cudn't", "couldn't");
             correctionAdd("cudnt", "couldn't");
             correctionAdd("coudn't", "couldn't");
+            correctionAdd("cound't", "couldn't");
+            correctionAdd("could't", "couldn't");
 
             correctionAdd("no where", "nowhere");
+            correctionAdd("nowehre", "nowhere");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -9562,6 +9570,7 @@ namespace OverflowHelper.core
             correctionAdd("qustion", "question");
             correctionAdd("qn", "question");
             correctionAdd("queston", "question");
+            correctionAdd("qusetion", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -9597,6 +9606,7 @@ namespace OverflowHelper.core
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
+            correctionAdd("compaitible", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -11892,6 +11902,7 @@ namespace OverflowHelper.core
 
             correctionAdd("jetbrains", "JetBrains");
             correctionAdd("Jetbrains", "JetBrains");
+            correctionAdd("Jet Brains", "JetBrains");
 
             correctionAdd("SQL workbench", "MySQL Workbench");
 
@@ -12047,6 +12058,7 @@ namespace OverflowHelper.core
             correctionAdd("lxc", "LXC");
 
             correctionAdd("mstest", "MSTest");
+            correctionAdd("MS Test", "MSTest");
 
             correctionAdd("MDN", "Mozilla Developer Network");
 
@@ -12931,7 +12943,7 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("get-unique", "Get-Unique");
 
-            correctionAdd("IPS", "Interpersonal Skills");
+            correctionAdd("IPS", "Interpersonal Skills (Stack Exchange site)");
 
             correctionAdd("kerberos", "Kerberos");
 
@@ -14625,6 +14637,8 @@ namespace OverflowHelper.core
             correctionAdd("by the other hand", "on the other hand");
             correctionAdd("In the other hand", "on the other hand");
             correctionAdd("in the other hand", "on the other hand");
+            correctionAdd("In another hand", "on the other hand");
+            correctionAdd("in another hand", "on the other hand");
 
             correctionAdd("1st complement", "ones' complement");
 
@@ -17441,6 +17455,7 @@ namespace OverflowHelper.core
             correctionAdd("agregate", "aggregate");
 
             correctionAdd("come-a-gusta", "come a gutser");
+            correctionAdd("comma gotcha", "come a gutser");
 
             correctionAdd("exgress", "egress");
 
@@ -17470,6 +17485,21 @@ namespace OverflowHelper.core
             correctionAdd("Voltage", "voltage");
 
             correctionAdd("wuman", "woman");
+
+            correctionAdd("Bw-trees", "B-tree");
+            correctionAdd("B tree", "B-tree");
+
+            correctionAdd("dell", "Dell");
+            correctionAdd("DELL", "Dell");
+
+            correctionAdd("manufacturered", "manufactured");
+
+            correctionAdd("mehtod", "method");
+
+            correctionAdd("Middleware", "middleware");
+
+            correctionAdd("superceeded", "superseded");
+            correctionAdd("superceded", "superseded");
 
 
 
@@ -22783,7 +22813,7 @@ namespace OverflowHelper.core
 
             URL_Add("Get-Unique", "https://docs.microsoft.com/en-us/PowerShell/module/microsoft.powershell.utility/Get-Unique");
 
-            URL_Add("Interpersonal Skills", "https://interpersonal.stackexchange.com/tour");
+            URL_Add("Interpersonal Skills (Stack Exchange site)", "https://interpersonal.stackexchange.com/tour");
 
             URL_Add("Kerberos", "https://en.wikipedia.org/wiki/Kerberos_%28protocol%29");
 
@@ -26484,6 +26514,17 @@ namespace OverflowHelper.core
 
             URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
 
+            URL_Add("B-tree", "https://en.wikipedia.org/wiki/B-tree");
+
+            URL_Add("Dell", "https://en.wikipedia.org/wiki/Dell");
+
+            URL_Add("manufactured", "https://en.wiktionary.org/wiki/manufactured#Adjective");
+
+            URL_Add("method", "https://en.wiktionary.org/wiki/method#Noun");
+
+            URL_Add("middleware", "https://en.wikipedia.org/wiki/Middleware");
+
+            URL_Add("superseded", "https://en.wiktionary.org/wiki/supersede#Verb");
 
 
 
