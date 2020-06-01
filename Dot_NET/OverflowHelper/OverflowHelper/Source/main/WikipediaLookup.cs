@@ -7638,6 +7638,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
 
             correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
             correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
@@ -11507,6 +11509,7 @@ namespace OverflowHelper.core
             correctionAdd("vers", "version");
             correctionAdd("verion", "version");
             correctionAdd("verson", "version");
+            correctionAdd("vertion", "version");
 
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
@@ -14096,6 +14099,7 @@ namespace OverflowHelper.core
             correctionAdd("Unit testing", "unit testing");
 
             correctionAdd("un-supported", "unsupported");
+            correctionAdd("unsuported", "unsupported");
 
             correctionAdd("vocabolary", "vocabulary");
 
@@ -17526,6 +17530,12 @@ namespace OverflowHelper.core
             correctionAdd("SDLC", "systems development life cycle");
 
             correctionAdd("waterfall", "waterfall model");
+
+            correctionAdd("skiped", "skipped");
+
+            correctionAdd("sytem", "system");
+
+            correctionAdd("ugrade", "upgrade");
 
 
 
@@ -26565,6 +26575,13 @@ namespace OverflowHelper.core
             URL_Add("systems development life cycle", "https://en.wikipedia.org/wiki/Systems_development_life_cycle");
 
             URL_Add("waterfall model", "https://en.wikipedia.org/wiki/Waterfall_model");
+
+            URL_Add("skipped", "https://en.wiktionary.org/wiki/skip#Verb");
+
+            URL_Add("system", "https://en.wiktionary.org/wiki/system#Noun");
+
+            URL_Add("upgrade", "https://en.wiktionary.org/wiki/upgrade#Verb");
+
 
 
 
