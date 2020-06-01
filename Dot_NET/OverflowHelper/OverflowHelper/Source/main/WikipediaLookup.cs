@@ -1394,6 +1394,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("mac osx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("mac os x 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
+            correctionAdd("mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
 
             correctionAdd("Mac OS X v10.10 (Yosemite)", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)"); // Sort of identity mapping
             correctionAdd("Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
@@ -7916,6 +7917,7 @@ namespace OverflowHelper.core
             correctionAdd("guanrantee", "guarantee");
             correctionAdd("guanrantea", "guarantee");
             correctionAdd("garunteed", "guarantee");
+            correctionAdd("guatantee", "guarantee");
 
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
