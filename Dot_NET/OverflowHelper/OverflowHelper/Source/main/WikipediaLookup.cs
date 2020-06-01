@@ -13776,6 +13776,7 @@ namespace OverflowHelper.core
             correctionAdd("in sake of", "for the sake of");
 
             correctionAdd("integrade", "integrate");
+            correctionAdd("intergrate", "integrate");
 
             correctionAdd("minmalistic", "minimalistic");
 
@@ -15569,6 +15570,7 @@ namespace OverflowHelper.core
             correctionAdd("plagarism", "plagiarism");
             correctionAdd("Plaigarism", "plagiarism");
             correctionAdd("plaigarism", "plagiarism");
+            correctionAdd("plagariasm", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -17507,6 +17509,23 @@ namespace OverflowHelper.core
 
             correctionAdd("superceeded", "superseded");
             correctionAdd("superceded", "superseded");
+
+            correctionAdd("RUP", "Rational Unified Process");
+            correctionAdd("rup", "Rational Unified Process");
+
+            correctionAdd("SilkTest", "Silk Test");
+            correctionAdd("Silktest", "Silk Test");
+
+            correctionAdd("Agile", "agile");
+
+            correctionAdd("functionalists", "functionalities");
+
+            correctionAdd("reapeated", "repeated");
+            correctionAdd("Reapeated", "repeated");
+
+            correctionAdd("SDLC", "systems development life cycle");
+
+            correctionAdd("waterfall", "waterfall model");
 
 
 
@@ -26532,6 +26551,20 @@ namespace OverflowHelper.core
             URL_Add("middleware", "https://en.wikipedia.org/wiki/Middleware");
 
             URL_Add("superseded", "https://en.wiktionary.org/wiki/supersede#Verb");
+
+            URL_Add("Rational Unified Process", "https://en.wikipedia.org/wiki/Rational_Unified_Process");
+
+            URL_Add("Silk Test", "https://en.wikipedia.org/wiki/Silk_Test");
+
+            URL_Add("agile", "https://en.wikipedia.org/wiki/Agile_software_development");
+
+            URL_Add("functionalities", "https://en.wiktionary.org/wiki/functionality#Noun");
+
+            URL_Add("repeated", "https://en.wiktionary.org/wiki/repeated#Adjective");
+
+            URL_Add("systems development life cycle", "https://en.wikipedia.org/wiki/Systems_development_life_cycle");
+
+            URL_Add("waterfall model", "https://en.wikipedia.org/wiki/Waterfall_model");
 
 
 
