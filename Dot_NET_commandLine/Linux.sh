@@ -106,8 +106,6 @@ cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER
 
 
 
-
-
 # Compile, run, and redirect SQL output to a file
 #
 echo
@@ -181,10 +179,12 @@ echo Word statistics:
 grep INSERT $SQL_FILE | wc
 
 
-# ***************************************************************************
+########################################################################
+#
 # Fish out any error messages (from checking of the integrity of the
 # word list data) out of the generated SQL or HTML (the two types
 # of output are currently mixed up...)
+#
 echo
 grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VARCHAR | grep -v '^\#' | grep -v 'URL)'  | grep -v '^$' | grep -v INSERT | grep -v '<tr>' | grep -v ' <' | grep -v '/>' | grep -v 'nbsp' | grep -v ';' | grep -v '2020-'
 echo
