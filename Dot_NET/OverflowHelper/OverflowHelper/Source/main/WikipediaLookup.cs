@@ -1370,6 +1370,9 @@ namespace OverflowHelper.core
 
             //Note: the identity is not working. Is it because of the
             //trailing ")"??
+            //
+            // Close: "Ubuntu&nbsp;10.10 (Maverick Meerkat)"
+            //
             correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)"); // Sort of identity mapping
             correctionAdd("OSX mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
@@ -7418,6 +7421,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
             correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
 
+            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)"); // Sort of identity mapping
             correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
@@ -7425,21 +7429,20 @@ namespace OverflowHelper.core
             correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
 
+            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
             correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
             correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
             correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
 
+            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
             correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
 
             correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
@@ -7456,6 +7459,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
             correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
 
+            // Close: "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)"
+            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)"); // Sort of identity mapping
             correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
@@ -7463,8 +7468,8 @@ namespace OverflowHelper.core
             correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
             correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
 
+            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // Sort of identity mapping
             correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
             correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
@@ -7472,8 +7477,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
 
+            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
             correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
@@ -7481,7 +7486,6 @@ namespace OverflowHelper.core
             correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); //11 being 11.04 depends on context...
             correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
 
             correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
             correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
@@ -7503,28 +7507,29 @@ namespace OverflowHelper.core
             correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
             correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
 
+            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
             correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("Ubuntu&nbsp;12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
             correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
 
+            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)"); // Sort of identity mapping
             correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
 
+            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
             correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
             correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
 
+            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Sort of identity mapping
             correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("ubunru 14.04lts", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
@@ -7536,27 +7541,27 @@ namespace OverflowHelper.core
             correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); //Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
             correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
 
+            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
             correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
 
+            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); // Sort of identity mapping
             correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
 
+            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
             correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
             correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
 
+            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
             correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
@@ -7565,22 +7570,22 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
             correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
 
+            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
             correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
 
+            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)"); // Sort of identity mapping
             correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
             correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
             correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
             correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
 
+            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)"); // Sort of identity mapping
             correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
@@ -7588,8 +7593,8 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
 
+            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
             correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
@@ -7599,7 +7604,6 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
@@ -7608,21 +7612,21 @@ namespace OverflowHelper.core
             correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
             correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
 
+            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
             correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
 
+            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)"); // Sort of identity mapping
             correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
             correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
@@ -7634,6 +7638,12 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+
+            correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
+            correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("VS", "Visual&nbsp;Studio");
             correctionAdd("visual studio", "Visual&nbsp;Studio");
@@ -16887,11 +16897,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hairless", "Hairless");
 
-            correctionAdd("20.04", "Ubuntu 20.04 (Focal Fossa)");
-            correctionAdd("20", "Ubuntu 20.04 (Focal Fossa)"); // Yes, highly context dependent...
-            correctionAdd("Ubuntu 20", "Ubuntu 20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04", "Ubuntu 20.04 (Focal Fossa)");
-
             correctionAdd("DAW", "digital audio workstation");
 
             correctionAdd("EULA", "end-user license agreement");
@@ -26032,7 +26037,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hairless", "http://projectgus.github.io/hairless-midiserial/");
 
-            URL_Add("Ubuntu 20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
+            URL_Add("Ubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
 
             URL_Add("digital audio workstation", "https://en.wikipedia.org/wiki/Digital_audio_workstation");
 
