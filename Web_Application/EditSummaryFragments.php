@@ -269,8 +269,10 @@
 
             <p>It is not necessary to capitalise any words for emphasis.
                Both Stack Exchange, Wikipedia, Quora, and even YouTube
-               (though very poorly documented) have facilities
-               for <b>bold</b> and <i>italics</i>. 
+               (though very poorly documented - see 
+               <a href="https://pmortensen.eu/world2/2020/03/22/bold-and-italics-in-youtube-comments/"
+               >my blog post about how to reliably style YouTube comments</a>) 
+               have facilities for <b>bold</b> and <i>italics</i>. 
                It is mostly Indians that do this, but not at all exclusively.
                Anyone who has wasted too much time with (raw text-only)
                forums will have the tendency (and need to unlearn).
@@ -287,6 +289,29 @@
                    title="Shortcut: Shift + Alt + X"
                />
             </p>
+
+            <!-- Or should this be in the pure links section? --> 
+            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange, and other 
+               Stack&nbsp;Exchange sites, etc. No matter how it looks in a logo 
+               <a href="http://stackoverflow.com/legal/trademark-guidance"
+               ></a>it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange" 
+               (the last section - <em>"Proper Use of the Stack Exchange Name"</em>). 
+               The <strong><em>only</em></strong> exception is "MathOverflow"
+               (and Jeff Atwood should have said <strong><em>no</em></strong> at the time).
+
+               <br/>
+               <input
+                   name="X28"
+                   type="text"
+                   id="X28"
+                   class=""
+                   value="<http://stackoverflow.com/legal/trademark-guidance> (the last section) "
+                   style="width:830px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
+
 
 
             <!-- ===================================================== -->
