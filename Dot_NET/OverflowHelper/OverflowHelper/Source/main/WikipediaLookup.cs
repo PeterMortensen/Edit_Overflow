@@ -3057,6 +3057,7 @@ namespace OverflowHelper.core
             correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
             correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
             correctionAdd("overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Over Flow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -6497,6 +6498,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PASCAL", "Pascal");
             correctionAdd("pascal", "Pascal");
+            correctionAdd("PasCal", "Pascal");
 
             correctionAdd("Application verifier", "Application Verifier");
             correctionAdd("application verifier", "Application Verifier");
@@ -17537,6 +17539,28 @@ namespace OverflowHelper.core
 
             correctionAdd("ugrade", "upgrade");
 
+            correctionAdd("Chemistry SE", "Chemistry (Stack Exchange site)");
+            correctionAdd("chemistry SE", "Chemistry (Stack Exchange site)");
+            correctionAdd("Chemistry.SE", "Chemistry (Stack Exchange site)");
+
+            correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
+            correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
+
+            correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
+
+            correctionAdd("Physics SE", "Physics (Stack Exchange site)");
+            correctionAdd("physics SE", "Physics (Stack Exchange site)");
+
+            correctionAdd("Worldbuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("worldbuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("Worldbuilding SE", "Worldbuilding (Stack Exchange site)");
+
+            correctionAdd("op code", "opcode");
+            correctionAdd("opCode", "opcode");
+
 
 
             // Start of coronavirus part...
@@ -26582,6 +26606,17 @@ namespace OverflowHelper.core
 
             URL_Add("upgrade", "https://en.wiktionary.org/wiki/upgrade#Verb");
 
+            URL_Add("Chemistry (Stack Exchange site)", "https://chemistry.stackexchange.com/tour");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;5", "https://en.wikipedia.org/wiki/Internet_Explorer_5");
+
+            URL_Add("Mathematics (Stack Exchange site)", "https://math.stackexchange.com/tour");
+
+            URL_Add("Physics (Stack Exchange site)", "https://physics.stackexchange.com/tour");
+
+            URL_Add("Worldbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
+
+            URL_Add("opcode", "https://en.wikipedia.org/wiki/Opcode");
 
 
 
