@@ -7576,6 +7576,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
             correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
+            correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -7595,6 +7596,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
 
             correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
             correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
