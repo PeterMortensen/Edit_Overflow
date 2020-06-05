@@ -6908,6 +6908,8 @@ namespace OverflowHelper.core
             correctionAdd("Web Application", "web application");
             correctionAdd("web-application", "web application");
             correctionAdd("Web-App", "web application");
+            correctionAdd("Webapplication", "web application");
+            correctionAdd("webapplication", "web application");
 
             correctionAdd("webservice", "web service");
             correctionAdd("WS", "web service");
@@ -7508,6 +7510,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
             correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
             correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
 
             correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
             correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
@@ -8681,6 +8684,11 @@ namespace OverflowHelper.core
             correctionAdd("thunderbird", "Thunderbird");
             correctionAdd("thunterbird", "Thunderbird");
             correctionAdd("ThunderBird", "Thunderbird");
+            correctionAdd("Tbird", "Thunderbird");
+            correctionAdd("tbird", "Thunderbird");
+            correctionAdd("T Bird", "Thunderbird");
+            correctionAdd("T-Bird", "Thunderbird");
+            correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts!
 
             correctionAdd("o/p", "output"); //Can it be confused with "OP"?
             correctionAdd("ouptut", "output");
@@ -13499,6 +13507,8 @@ namespace OverflowHelper.core
             correctionAdd("miminal", "minimal");
 
             correctionAdd("occassion", "occasion");
+            correctionAdd("occation", "occasion");
+            correctionAdd("occacion", "occasion");
 
             correctionAdd("IFS", "internal field separator");
 
@@ -15385,6 +15395,7 @@ namespace OverflowHelper.core
             correctionAdd("ENV var", "environment variable");
             correctionAdd("env variable", "environment variable");
             correctionAdd("environemt variable", "environment variable");
+            correctionAdd("environement variable", "environment variable");
 
             // Consider:
             //   weaher
@@ -17562,6 +17573,21 @@ namespace OverflowHelper.core
 
             correctionAdd("op code", "opcode");
             correctionAdd("opCode", "opcode");
+
+            correctionAdd("alianate", "alienate");
+
+            correctionAdd("biggets", "biggest");
+
+            correctionAdd("electricty", "electricity");
+
+            correctionAdd("logique", "logic");
+
+            correctionAdd("overal", "overall");
+
+            correctionAdd("popuplar", "popular");
+
+            correctionAdd("waht", "what");
+            correctionAdd("Waht", "what");
 
 
 
@@ -26619,6 +26645,20 @@ namespace OverflowHelper.core
             URL_Add("Worldbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
 
             URL_Add("opcode", "https://en.wikipedia.org/wiki/Opcode");
+
+            URL_Add("alienate", "https://en.wiktionary.org/wiki/alienate#Verb");
+
+            URL_Add("biggest", "https://en.wiktionary.org/wiki/biggest#Adjective");
+
+            URL_Add("electricity", "https://en.wiktionary.org/wiki/electricity#Noun");
+
+            URL_Add("logic", "https://en.wiktionary.org/wiki/logic#Noun");
+
+            URL_Add("overall", "https://en.wiktionary.org/wiki/overall#Adjective");
+
+            URL_Add("popular", "https://en.wiktionary.org/wiki/popular#Adjective");
+
+            URL_Add("what", "https://en.wiktionary.org/wiki/what#Pronoun");
 
 
 
