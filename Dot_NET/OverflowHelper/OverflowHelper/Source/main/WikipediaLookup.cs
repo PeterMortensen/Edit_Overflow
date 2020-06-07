@@ -1247,6 +1247,7 @@ namespace OverflowHelper.core
             correctionAdd("asp.net Core", "ASP.NET Core");
             correctionAdd("asp.net-core", "ASP.NET Core");
             correctionAdd("AspNetCore", "ASP.NET Core");
+            correctionAdd("AspNet Core", "ASP.NET Core");
 
             correctionAdd("Mac OS X", "Mac&nbsp;OS&nbsp;X"); // Sort of identity mapping
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
@@ -1433,6 +1434,7 @@ namespace OverflowHelper.core
             correctionAdd("Seirra", "macOS v10.12 (Sierra)");
             correctionAdd("macOS Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("Mac Sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("OS X 10.12", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -4659,6 +4661,7 @@ namespace OverflowHelper.core
             correctionAdd("google-translate", "Google Translate");
             correctionAdd("Google translation", "Google Translate");
             correctionAdd("google translation", "Google Translate");
+            correctionAdd("Google Translation", "Google Translate");
 
             correctionAdd("xsd", "XSD");
             correctionAdd("Xsd", "XSD");
@@ -4755,7 +4758,7 @@ namespace OverflowHelper.core
             correctionAdd("throuh", "through");
             correctionAdd("Throught", "through");
             correctionAdd("throught", "through");
-
+            correctionAdd("throug", "through");
 
             correctionAdd("tut", "tutorial");
             correctionAdd("tutorail", "tutorial"); //Misspelling
@@ -10079,6 +10082,7 @@ namespace OverflowHelper.core
             correctionAdd("exampe", "example");
             correctionAdd("Exapmple", "example");
             correctionAdd("exapmple", "example");
+            correctionAdd("exmple", "example");
 
             correctionAdd("european", "European");
 
@@ -10242,6 +10246,8 @@ namespace OverflowHelper.core
             correctionAdd("RS485", "RS-485");
 
             correctionAdd("some times", "sometimes");
+            correctionAdd("some time", "sometimes");
+            correctionAdd("sometime", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -11509,6 +11515,7 @@ namespace OverflowHelper.core
             correctionAdd("soloution", "solution");
             correctionAdd("solutuion", "solution");
             correctionAdd("soultion", "solution");
+            correctionAdd("solutin", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -13194,6 +13201,8 @@ namespace OverflowHelper.core
             correctionAdd("non sense", "nonsense");
 
             correctionAdd("thourough", "thorough");
+            correctionAdd("Throughrough", "thorough");
+            correctionAdd("throughrough", "thorough");
 
             correctionAdd("unnecesserily", "unnecessarily");
             correctionAdd("uneceesirly", "unnecessarily");
@@ -13485,6 +13494,7 @@ namespace OverflowHelper.core
             correctionAdd("tooo", "too");
 
             correctionAdd("distination", "destination");
+            correctionAdd("dest", "destination");
 
             correctionAdd("1-on-1", "one-on-one");
             correctionAdd("one on one", "one-on-one");
@@ -14405,12 +14415,16 @@ namespace OverflowHelper.core
             correctionAdd("heatsink", "heat sink");
 
             correctionAdd("host name", "hostname");
+            correctionAdd("hostmane", "hostname");
+            correctionAdd("hostmame", "hostname");
+            correctionAdd("hostnane", "hostname");
 
             correctionAdd("limitter", "limiter");
 
             correctionAdd("metioned", "mentioned");
             correctionAdd("mentionned", "mentioned");
             correctionAdd("mentionmed", "mentioned");
+            correctionAdd("mentionend", "mentioned");
 
             correctionAdd("predicatbly", "predictably");
 
@@ -15035,6 +15049,7 @@ namespace OverflowHelper.core
 
             correctionAdd("woking", "working");
             correctionAdd("workring", "working");
+            correctionAdd("woring", "working");
 
             correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
             correctionAdd("Angular2", "Angular&nbsp;2");
@@ -15083,6 +15098,7 @@ namespace OverflowHelper.core
 
             correctionAdd("useing", "using");
             correctionAdd("usig", "using");
+            correctionAdd("ussing", "using");
 
             correctionAdd("udemy", "Udemy");
 
@@ -15396,6 +15412,7 @@ namespace OverflowHelper.core
             correctionAdd("env variable", "environment variable");
             correctionAdd("environemt variable", "environment variable");
             correctionAdd("environement variable", "environment variable");
+            correctionAdd("environment var", "environment variable");
 
             // Consider:
             //   weaher
@@ -15947,6 +15964,8 @@ namespace OverflowHelper.core
 
             correctionAdd("wienna game", "Vienna Game"); // Chess
             correctionAdd("Wienna", "Vienna Game"); // Chess
+            correctionAdd("vienna", "Vienna Game"); // Chess
+            correctionAdd("vienna game", "Vienna Game"); // Chess
 
             correctionAdd("king gamblit", "King's Gambit"); // Chess
             correctionAdd("kings gambit", "King's Gambit"); // Chess
@@ -17588,6 +17607,30 @@ namespace OverflowHelper.core
 
             correctionAdd("waht", "what");
             correctionAdd("Waht", "what");
+
+            correctionAdd("codidact", "Codidact");
+
+            correctionAdd("dsa", "DSA");
+
+            correctionAdd("ecdsa", "ECDSA");
+
+            correctionAdd("LuaLaTeX", "LuaTeX");
+            correctionAdd("Lualatex", "LuaTeX");
+            correctionAdd("lualatex", "LuaTeX");
+            correctionAdd("Codedact", "Codidact");
+
+            correctionAdd("key chain", "keychain");
+
+            correctionAdd("nlc", "noctilucent cloud");
+            correctionAdd("NLC", "noctilucent cloud");
+
+            correctionAdd("opion", "option");
+
+            correctionAdd("pasphrase", "passphrase");
+
+            correctionAdd("tutch", "touch");
+
+            correctionAdd("walk through", "walkthrough");
 
 
 
@@ -26659,6 +26702,27 @@ namespace OverflowHelper.core
             URL_Add("popular", "https://en.wiktionary.org/wiki/popular#Adjective");
 
             URL_Add("what", "https://en.wiktionary.org/wiki/what#Pronoun");
+
+            URL_Add("Codidact", "https://forum.codidact.org/t/what-are-we-trying-to-build/27/109");
+
+            URL_Add("DSA", "https://en.wikipedia.org/wiki/Digital_Signature_Algorithm");
+
+            URL_Add("ECDSA", "https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm");
+
+            URL_Add("LuaTeX", "https://en.wikipedia.org/wiki/LuaTeX");
+
+            URL_Add("keychain", "https://en.wiktionary.org/wiki/keychain#Noun");
+
+            URL_Add("noctilucent cloud", "https://en.wikipedia.org/wiki/Noctilucent_cloud");
+
+            URL_Add("option", "https://en.wiktionary.org/wiki/option#Noun");
+
+            URL_Add("passphrase", "https://en.wiktionary.org/wiki/passphrase#Noun");
+
+            URL_Add("touch", "https://en.wikipedia.org/wiki/Touch_(command)");
+
+            URL_Add("walkthrough", "https://en.wiktionary.org/wiki/walkthrough#Noun");
+
 
 
 
