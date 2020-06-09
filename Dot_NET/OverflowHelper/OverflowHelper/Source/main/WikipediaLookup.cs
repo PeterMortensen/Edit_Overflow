@@ -19146,7 +19146,7 @@ namespace OverflowHelper.core
 
             URL_Add("X-ray", "https://en.wikipedia.org/wiki/X-ray");
 
-            URL_Add("BSoD", "https://en.wikipedia.org/wiki/Blue_screen_of_death "); // Old: <https://en.wikipedia.org/wiki/Blue_Screen_of_Death>
+            URL_Add("BSoD", "https://en.wikipedia.org/wiki/Blue_screen_of_death"); // Old: <https://en.wikipedia.org/wiki/Blue_Screen_of_Death>
 
             URL_Add("Lynx", "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29");
 
