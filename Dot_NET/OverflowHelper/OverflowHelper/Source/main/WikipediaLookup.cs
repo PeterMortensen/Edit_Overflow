@@ -8692,6 +8692,7 @@ namespace OverflowHelper.core
             correctionAdd("T Bird", "Thunderbird");
             correctionAdd("T-Bird", "Thunderbird");
             correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts!
+            correctionAdd("Thunderbir", "Thunderbird");
 
             correctionAdd("o/p", "output"); //Can it be confused with "OP"?
             correctionAdd("ouptut", "output");
@@ -14609,6 +14610,7 @@ namespace OverflowHelper.core
             correctionAdd("Bob's your Uncle", "Bob's your uncle");
             correctionAdd("bobs your uncle", "Bob's your uncle");
             correctionAdd("B's ur uncle", "Bob's your uncle");
+            correctionAdd("Bob’s your uncle", "Bob's your uncle");
 
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
@@ -15242,6 +15244,7 @@ namespace OverflowHelper.core
             correctionAdd("extremelly", "extremely");
 
             correctionAdd("goood", "good");
+            correctionAdd("gud", "good");
 
             correctionAdd("quess", "guess");
 
@@ -17631,6 +17634,43 @@ namespace OverflowHelper.core
             correctionAdd("tutch", "touch");
 
             correctionAdd("walk through", "walkthrough");
+
+            correctionAdd("BLM", "Black Lives Matter");
+            correctionAdd("blm", "Black Lives Matter");
+
+            correctionAdd("eurowings", "Eurowings");
+
+            correctionAdd("frsky", "FrSky");
+
+            correctionAdd("george floyd", "George Floyd");
+
+            correctionAdd("karen", "Karen");
+
+            correctionAdd("lufthansa", "Lufthansa");
+
+            correctionAdd("native american", "Native American");
+
+            correctionAdd("plm", "Programmer Lives Matter"); // From a single TechLead video
+            correctionAdd("PLM", "Programmer Lives Matter");
+
+            correctionAdd("september", "September");
+
+            correctionAdd("crytically", "critically");
+
+            correctionAdd("facasious", "facetious");
+
+            correctionAdd("falacious", "fallacious");
+
+            correctionAdd("mesure", "measure");
+
+            correctionAdd("mis-guiding", "misguiding");
+
+            correctionAdd("REDPILL", "red pill");
+
+            correctionAdd("soldier", "solder"); // PCB
+
+            correctionAdd("virtious", "virtuous");
+
 
 
 
@@ -26722,6 +26762,41 @@ namespace OverflowHelper.core
             URL_Add("touch", "https://en.wikipedia.org/wiki/Touch_(command)");
 
             URL_Add("walkthrough", "https://en.wiktionary.org/wiki/walkthrough#Noun");
+
+            URL_Add("Black Lives Matter", "https://en.wikipedia.org/wiki/Black_Lives_Matter");
+
+            URL_Add("Eurowings", "https://en.wikipedia.org/wiki/Eurowings");
+
+            URL_Add("FrSky", "https://www.frsky-rc.com/faq-page/");
+
+            URL_Add("George Floyd", "https://en.wikipedia.org/wiki/Killing_of_George_Floyd");
+
+            URL_Add("Karen", "https://en.wiktionary.org/wiki/Karen#Noun");
+
+            URL_Add("Lufthansa", "https://en.wikipedia.org/wiki/Lufthansa");
+
+            URL_Add("Native American", "https://en.wiktionary.org/wiki/Native_American#Noun");
+
+            URL_Add("Programmer Lives Matter", "https://www.youtube.com/watch?v=ouKgUdqZMds");
+
+            URL_Add("September", "https://en.wiktionary.org/wiki/September#Proper_noun");
+
+            URL_Add("critically", "https://en.wiktionary.org/wiki/critically#Adverb");
+
+            URL_Add("facetious", "https://en.wiktionary.org/wiki/facetious#Adjective");
+
+            URL_Add("fallacious", "https://en.wiktionary.org/wiki/fallacious#Adjective");
+
+            URL_Add("measure", "https://en.wiktionary.org/wiki/measure#Noun");
+
+            URL_Add("misguiding", "https://en.wiktionary.org/wiki/misguide#Verb");
+
+            URL_Add("red pill", "https://en.wikipedia.org/wiki/Manosphere#Ideology_and_content");
+
+            URL_Add("solder", "https://en.wikipedia.org/wiki/Solder");
+
+            URL_Add("virtuous", "https://en.wiktionary.org/wiki/virtuous#Adjective");
+
 
 
 
