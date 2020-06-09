@@ -5115,8 +5115,11 @@ namespace OverflowHelper.core
             correctionAdd("x ray", "X-ray");
             correctionAdd("X ray", "X-ray");
 
-            correctionAdd("BSOD", "BSoD"); //Should we expand to "Blue Screen of Death"?
-            correctionAdd("bsod", "BSoD"); //Should we expand to "Blue Screen of Death"?
+            // Should we expand to "Blue Screen of Death"? Or "blue screen of death"?
+            correctionAdd("BSOD", "BSoD");
+            correctionAdd("bsod", "BSoD");
+            correctionAdd("blue screen of death", "BSoD");
+            correctionAdd("Blue Screen of Death", "BSoD");
 
             correctionAdd("lynx", "Lynx");
 
@@ -11235,6 +11238,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
+            correctionAdd("retorical", "rhetorical");
 
             correctionAdd("Thorium", "thorium");
 
@@ -17032,7 +17036,8 @@ namespace OverflowHelper.core
 
             correctionAdd("coverting", "converting");
 
-            correctionAdd("cut-off", "cutoff");
+            correctionAdd("cut-off", "cutoff"); // Context: a noun
+            correctionAdd("cut off", "cutoff"); // Context: a noun
 
             correctionAdd("double-quote", "double quote");
             correctionAdd("doublequote", "double quote");
@@ -17671,6 +17676,14 @@ namespace OverflowHelper.core
 
             correctionAdd("virtious", "virtuous");
 
+            correctionAdd("commonmark", "CommonMark");
+            correctionAdd("Commonmark", "CommonMark");
+
+            correctionAdd("mks", "MKS");
+
+            correctionAdd("pasteable", "pastable");
+
+            correctionAdd("PV", "photovoltaics"); // Conflict with PulseView
 
 
 
@@ -26797,6 +26810,13 @@ namespace OverflowHelper.core
 
             URL_Add("virtuous", "https://en.wiktionary.org/wiki/virtuous#Adjective");
 
+            URL_Add("CommonMark", "https://en.wikipedia.org/wiki/Markdown#CommonMark");
+
+            URL_Add("MKS", "https://en.wikipedia.org/wiki/MKS_system_of_units");
+
+            URL_Add("pastable", "https://en.wiktionary.org/wiki/pastable#Adjective");
+
+            URL_Add("photovoltaics", "https://en.wikipedia.org/wiki/Photovoltaics");
 
 
 
