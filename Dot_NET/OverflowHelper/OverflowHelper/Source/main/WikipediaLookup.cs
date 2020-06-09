@@ -14610,11 +14610,11 @@ namespace OverflowHelper.core
 
             correctionAdd("XSEL", "xsel");
 
-            correctionAdd("bob's your uncle", "Bob's your uncle");
-            correctionAdd("Bob's your Uncle", "Bob's your uncle");
-            correctionAdd("bobs your uncle", "Bob's your uncle");
-            correctionAdd("B's ur uncle", "Bob's your uncle");
-            correctionAdd("Bob’s your uncle", "Bob's your uncle");
+            correctionAdd("bob's your uncle", "Bob’s your uncle");
+            correctionAdd("Bob's your Uncle", "Bob’s your uncle");
+            correctionAdd("bobs your uncle", "Bob’s your uncle");
+            correctionAdd("B's ur uncle", "Bob’s your uncle");            
+            correctionAdd("Bob's your uncle", "Bob’s your uncle"); // Sort of self (but not with "nbsp")
 
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
@@ -23546,7 +23546,7 @@ namespace OverflowHelper.core
 
             URL_Add("AC-3", "https://en.wikipedia.org/wiki/Dolby_Digital");
 
-            URL_Add("Bob's your uncle", "https://en.wiktionary.org/wiki/Bob%27s_your_uncle#Phrase");
+            URL_Add("Bob’s your uncle", "https://en.wiktionary.org/wiki/Bob%27s_your_uncle#Phrase");
 
             URL_Add("DTS", "https://en.wikipedia.org/wiki/Flow_control_(data)#Hardware_flow_control");
 
