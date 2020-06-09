@@ -312,6 +312,22 @@
                />
             </p>
 
+            <p>Rhetorical questions do not belong in an answer. One of the
+               reasons is that an answer should not address the OP - most
+               readers (e.g. 99.9999%) will be someone else.
+                
+               <br/>
+               <input
+                   name="X29"
+                   type="text"
+                   id="X29"
+                   class=""
+                   value="More affirmative answer (this is not a forum - see e.g. <http://meta.stackexchange.com/a/92115>. It is a think tank (see <http://meta.stackoverflow.com/a/325681>). "
+                   style="width:830px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
 
 
             <!-- ===================================================== -->
