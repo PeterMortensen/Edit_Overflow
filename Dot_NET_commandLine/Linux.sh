@@ -52,13 +52,16 @@ export EFFECTIVE_DATE='2020-06-01'
 export EFFECTIVE_DATE='2020-06-03'
 
 
-# Moved to Ubuntu 20.04 MATE 2020-06-03
-## Moved to PC2016 after SSD-related Linux system crash 2020-05-31
-##export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
-##export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
-#export SRCFOLDER_BASE='/home/mortensen/temp2/Edit_Overflow'
-#export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
-export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
+# Moved to Ubuntu 20.04 MATE 2020-06-09
+## Moved to Ubuntu 20.04 MATE 2020-06-03
+### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
+###export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
+###export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
+##export SRCFOLDER_BASE='/home/mortensen/temp2/Edit_Overflow'
+##export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
+#export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
+#export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
+export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
 export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
 
 
