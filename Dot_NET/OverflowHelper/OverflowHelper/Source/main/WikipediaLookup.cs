@@ -3060,6 +3060,7 @@ namespace OverflowHelper.core
             correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
             correctionAdd("overflow", "Stack&nbsp;Overflow");
             correctionAdd("Stack Over Flow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -4164,6 +4165,7 @@ namespace OverflowHelper.core
             correctionAdd("Super users", "Super&nbsp;User");
             correctionAdd("super-user", "Super&nbsp;User");
             correctionAdd("superusers", "Super&nbsp;User");
+            correctionAdd("Super-User", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -4193,7 +4195,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Stack&nbsp;Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
+            correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
 
             correctionAdd("coffeescript", "CoffeeScript");
             correctionAdd("Coffeescript", "CoffeeScript");
@@ -12092,7 +12094,11 @@ namespace OverflowHelper.core
 
             correctionAdd("fortnite", "Fortnite");
 
-            correctionAdd("ISO-8859-1", "ISO 8859-1");
+            correctionAdd("ISO-8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO 8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859", "ISO&nbsp;8859-1");
+            correctionAdd("ISO 8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso 8859", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -14613,7 +14619,7 @@ namespace OverflowHelper.core
             correctionAdd("bob's your uncle", "Bob’s your uncle");
             correctionAdd("Bob's your Uncle", "Bob’s your uncle");
             correctionAdd("bobs your uncle", "Bob’s your uncle");
-            correctionAdd("B's ur uncle", "Bob’s your uncle");            
+            correctionAdd("B's ur uncle", "Bob’s your uncle");
             correctionAdd("Bob's your uncle", "Bob’s your uncle"); // Sort of self (but not with "nbsp")
 
             correctionAdd("Yún", "Arduino Yún");
@@ -15911,6 +15917,7 @@ namespace OverflowHelper.core
             correctionAdd("Fianchetto", "fianchetto"); // Chess
             correctionAdd("fiensketö", "fianchetto"); // Chess
             correctionAdd("finketta", "fianchetto"); // Chess
+            correctionAdd("finnechetto", "fianchetto"); // Chess
 
             correctionAdd("Petrov", "Petrov's Defence"); // Chess
             correctionAdd("petrov", "Petrov's Defence"); // Chess
@@ -16045,6 +16052,9 @@ namespace OverflowHelper.core
 
             correctionAdd("the scotch", "Scotch Game"); // Chess
 
+            correctionAdd("alapin", "Sicilian Defence, Alapin Variation"); // Chess
+
+            correctionAdd("open sicilian", "Open Sicilian"); // Chess
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -17685,6 +17695,35 @@ namespace OverflowHelper.core
 
             correctionAdd("PV", "photovoltaics"); // Conflict with PulseView
 
+            correctionAdd("Codesandbox", "CodeSandbox");
+            correctionAdd("codesandbox", "CodeSandbox");
+
+            correctionAdd("dcl", "DCL");
+
+            correctionAdd("ed25519", "Ed25519");
+
+            correctionAdd("Core Utilities", "GNU Core Utilities");
+            correctionAdd("coreutils", "GNU Core Utilities");
+
+            correctionAdd("mathoverflow", "MathOverflow");
+
+            correctionAdd("shopify", "Shopify");
+
+            correctionAdd("Wordpress dev", "WordPress Development");
+
+            correctionAdd("achknowledged", "acknowledged");
+
+            correctionAdd("apostrofe", "apostrophe");
+
+            correctionAdd("costed", "cost");
+
+            correctionAdd("Encyclopedia", "encyclopedia");
+
+            correctionAdd("non-famous", "nonfamous");
+            correctionAdd("non famous", "nonfamous");
+
+            correctionAdd("Opposition", "opposition");
+
 
 
             // Start of coronavirus part...
@@ -17753,6 +17792,8 @@ namespace OverflowHelper.core
             correctionAdd("rona", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
+
+
 
 
 
@@ -22319,7 +22360,7 @@ namespace OverflowHelper.core
 
             URL_Add("Fortnite", "https://en.wikipedia.org/wiki/Fortnite");
 
-            URL_Add("ISO 8859-1", "https://en.wikipedia.org/wiki/ISO/IEC_8859-1");
+            URL_Add("ISO&nbsp;8859-1", "https://en.wikipedia.org/wiki/ISO/IEC_8859-1");
 
             URL_Add("LXC", "https://en.wikipedia.org/wiki/LXC");
 
@@ -26817,6 +26858,36 @@ namespace OverflowHelper.core
             URL_Add("pastable", "https://en.wiktionary.org/wiki/pastable#Adjective");
 
             URL_Add("photovoltaics", "https://en.wikipedia.org/wiki/Photovoltaics");
+
+            URL_Add("Sicilian Defence, Alapin Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence#Alapin_Variation:_2.c3");
+
+            URL_Add("CodeSandbox", "https://codesandbox.io/");
+
+            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
+
+            URL_Add("Ed25519", "https://en.wikipedia.org/wiki/EdDSA#Ed25519");
+
+            URL_Add("GNU Core Utilities", "https://en.wikipedia.org/wiki/GNU_Core_Utilities");
+
+            URL_Add("MathOverflow", "https://mathoverflow.net/tour");
+
+            URL_Add("Shopify", "https://en.wikipedia.org/wiki/Shopify");
+
+            URL_Add("WordPress Development", "https://wordpress.stackexchange.com/tour");
+
+            URL_Add("acknowledged", "https://en.wiktionary.org/wiki/acknowledged#Adjective");
+
+            URL_Add("apostrophe", "https://en.wiktionary.org/wiki/apostrophe#Noun");
+
+            URL_Add("cost", "https://en.wiktionary.org/wiki/cost#Verb");
+
+            URL_Add("encyclopedia", "https://en.wiktionary.org/wiki/encyclopedia#Noun");
+
+            URL_Add("nonfamous", "https://en.wiktionary.org/wiki/nonfamous#Adjective");
+
+            URL_Add("opposition", "https://en.wikipedia.org/wiki/Opposition_(chess)");
+
+            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
 
 
 
