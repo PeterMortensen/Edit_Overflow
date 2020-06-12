@@ -65,7 +65,6 @@ export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
 export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
 
 
-
 export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
 export WORKFOLDER3=${WORKFOLDER2}/EditOverflow4
 export WORKFOLDER=${WORKFOLDER3}
@@ -95,11 +94,15 @@ xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 
 # Copy files to the workfolder
 #
-
-mkdir $WORKFOLDER1
-mkdir $WORKFOLDER2
-mkdir $WORKFOLDER
-mkdir $FTPTRANSFER_FOLDER
+# We use option "-p" to avoid error output when
+# the folder already exists (reruns), like:
+#
+#     "mkdir: cannot create directory ‘/home/embo/temp2/2020-06-03’: File exists"
+#
+mkdir -p $WORKFOLDER1
+mkdir -p $WORKFOLDER2
+mkdir -p $WORKFOLDER
+mkdir -p $FTPTRANSFER_FOLDER
 
 cd $SRCFOLDER_BASE/Dot_NET_commandLine
 cp Program.cs                              $WORKFOLDER
@@ -111,7 +114,6 @@ cp $SRCFOLDER_CORE/CodeFormattingCheck.cs  $WORKFOLDER
 
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER
-
 
 
 # Compile, run, and redirect SQL output to a file
