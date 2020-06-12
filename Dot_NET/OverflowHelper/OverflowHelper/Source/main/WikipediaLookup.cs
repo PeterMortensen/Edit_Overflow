@@ -11273,6 +11273,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rarher", "rather");
             correctionAdd("rathee", "rather");
+            correctionAdd("rater", "rather");
 
             correctionAdd("2nd", "second");
 
@@ -17016,6 +17017,7 @@ namespace OverflowHelper.core
             correctionAdd("philosphical", "philosophical");
 
             correctionAdd("sub directory", "subdirectory");
+            correctionAdd("subdir", "subdirectory");
 
             correctionAdd("CanIUse", "Can I use");
 
@@ -17723,6 +17725,34 @@ namespace OverflowHelper.core
             correctionAdd("non famous", "nonfamous");
 
             correctionAdd("Opposition", "opposition");
+
+            correctionAdd("expect", "Expect");
+
+            correctionAdd("florida", "Florida");
+
+            correctionAdd("Avatar", "avatar");
+
+            correctionAdd("fem", "finite element method");
+            correctionAdd("FEM", "finite element method");
+            correctionAdd("Finite element analysis", "finite element method");
+            correctionAdd("finite element analysis", "finite element method");
+
+            correctionAdd("The Philippines", "the Philippines");
+
+            correctionAdd("cara", "CARA");
+
+            correctionAdd("gaussian noise", "Gaussian noise");
+            correctionAdd("Gaussian Noise", "Gaussian noise");
+
+            correctionAdd("windows firewall", "Windows Firewall");
+
+            correctionAdd("specifing", "specifying");
+            correctionAdd("Specifing", "specifying");
+
+            correctionAdd("sub-directories", "subdirectories");
+
+            correctionAdd("White noise", "white noise");
+
 
 
 
@@ -26888,6 +26918,28 @@ namespace OverflowHelper.core
             URL_Add("opposition", "https://en.wikipedia.org/wiki/Opposition_(chess)");
 
             URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
+
+            URL_Add("Expect", "https://en.wikipedia.org/wiki/Expect");
+
+            URL_Add("Florida", "https://en.wikipedia.org/wiki/Florida");
+
+            URL_Add("avatar", "https://en.wiktionary.org/wiki/avatar#Noun");
+
+            URL_Add("finite element method", "https://en.wikipedia.org/wiki/Finite_element_method");
+
+            URL_Add("the Philippines", "https://en.wikipedia.org/wiki/Philippines");
+
+            URL_Add("CARA", "https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion");
+
+            URL_Add("Gaussian noise", "https://en.wikipedia.org/wiki/Gaussian_noise");
+
+            URL_Add("Windows Firewall", "https://en.wikipedia.org/wiki/Windows_Firewall");
+
+            URL_Add("specifying", "https://en.wiktionary.org/wiki/specify#Verb");
+
+            URL_Add("subdirectories", "https://en.wiktionary.org/wiki/subdirectory#Noun");
+
+            URL_Add("white noise", "https://en.wikipedia.org/wiki/White_noise");
 
 
 
