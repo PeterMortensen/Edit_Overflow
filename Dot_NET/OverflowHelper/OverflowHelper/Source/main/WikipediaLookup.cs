@@ -1290,6 +1290,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac osX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac os X", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("OSx", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
@@ -3814,6 +3815,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
             correctionAdd("95", "Windows&nbsp;95");
             correctionAdd("Win95", "Windows&nbsp;95");
+            correctionAdd("windows 95", "Windows&nbsp;95");
 
             correctionAdd("XP", "Windows&nbsp;XP"); //Expansion. Possible conflict with Extreme Programming.
             correctionAdd("WinXP", "Windows&nbsp;XP");
@@ -6108,6 +6110,7 @@ namespace OverflowHelper.core
             correctionAdd("ctrl", "Ctrl");
             correctionAdd("CNTRL", "Ctrl");
             correctionAdd("ctl", "Ctrl");
+            correctionAdd("Crtl", "Ctrl");
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
@@ -6488,6 +6491,7 @@ namespace OverflowHelper.core
             correctionAdd("operative system", "operating system");
             correctionAdd("Operating system", "operating system");
             correctionAdd("operatating system", "operating system");
+            correctionAdd("Operation System", "operating system");
 
             correctionAdd("colo", "colocation centre");
 
@@ -8270,6 +8274,7 @@ namespace OverflowHelper.core
             correctionAdd("DDOS", "DDoS");
             correctionAdd("DoS", "DDoS"); //Not strictly correct (the extra "D" means "distributed")
             correctionAdd("ddos", "DDoS");
+            correctionAdd("DDos", "DDoS");
 
             correctionAdd("Pylon", "Pylons");
             correctionAdd("pylon", "Pylons");
@@ -9997,6 +10002,7 @@ namespace OverflowHelper.core
             correctionAdd("Functional Programming", "functional programming");
             correctionAdd("FP", "functional programming");
             correctionAdd("functionnal programming", "functional programming");
+            correctionAdd("fp", "functional programming");
 
             correctionAdd("shud", "should");
             correctionAdd("shuold", "should");
@@ -10365,6 +10371,8 @@ namespace OverflowHelper.core
             correctionAdd("vsc", "Visual Studio Code");
             correctionAdd("VS CODE", "Visual Studio Code");
             correctionAdd("VS-Code", "Visual Studio Code");
+            correctionAdd("Visual Studio CODE", "Visual Studio Code");
+            correctionAdd("vs.code", "Visual Studio Code");
 
             correctionAdd("WebStrom", "WebStorm");
             correctionAdd("Webstorm", "WebStorm");
@@ -11417,6 +11425,7 @@ namespace OverflowHelper.core
             correctionAdd("extenstion", "extension");
             correctionAdd("extesion", "extension");
             correctionAdd("exentension", "extension");
+            correctionAdd("exension", "extension");
 
             correctionAdd("framwork", "framework");
 
@@ -14333,6 +14342,7 @@ namespace OverflowHelper.core
             correctionAdd("user script", "userscript");
 
             correctionAdd("cisco", "Cisco");
+            correctionAdd("CISCO", "Cisco");
 
             correctionAdd("associatable", "associable");
 
@@ -14370,6 +14380,7 @@ namespace OverflowHelper.core
             correctionAdd("GIT GUI", "Git GUI");
 
             correctionAdd("ksh", "KornShell");
+            correctionAdd("korn shell", "KornShell");
 
             correctionAdd("openntp", "OpenNTPD");
 
@@ -14677,6 +14688,7 @@ namespace OverflowHelper.core
             correctionAdd("fore-see-able", "foreseeable");
 
             correctionAdd("foramt", "format");
+            correctionAdd("formate", "format");
 
             correctionAdd("hardcode", "hard code");
 
@@ -15914,6 +15926,7 @@ namespace OverflowHelper.core
             correctionAdd("stock fish", "Stockfish"); // Chess
 
             correctionAdd("double Fianchetto", "double fianchetto"); // Chess
+            correctionAdd("finchetto", "fianchetto"); // Chess
 
             correctionAdd("Fianchetto", "fianchetto"); // Chess
             correctionAdd("fiensketö", "fianchetto"); // Chess
@@ -16021,6 +16034,7 @@ namespace OverflowHelper.core
             correctionAdd("arma", "Armageddon"); // Chess
 
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
+            correctionAdd("alekhins defence", "Alekhine's Defence"); // Chess
 
             correctionAdd("Lasker", "Emanuel Lasker"); // Chess
 
@@ -17752,6 +17766,34 @@ namespace OverflowHelper.core
             correctionAdd("sub-directories", "subdirectories");
 
             correctionAdd("White noise", "white noise");
+
+            correctionAdd("blade", "Blade");
+
+            correctionAdd("eof", "EOF");
+
+            correctionAdd("OmniSharper", "OmniSharp");
+            correctionAdd("omni-sharp", "OmniSharp");
+            correctionAdd("Omnisharp", "OmniSharp");
+            correctionAdd("omnisharp", "OmniSharp");
+
+            correctionAdd("slovakia", "Slovakia");
+
+            correctionAdd("van neumann", "Von Neumann machine");
+
+            correctionAdd("command pallette", "command palette");
+            correctionAdd("command pallet", "command palette");
+
+            correctionAdd("ducument", "document");
+
+            correctionAdd("error prone", "error-prone");
+
+            correctionAdd("Go-Around", "go-around");
+
+            correctionAdd("incomprehensability", "incomprehensibility");
+
+            correctionAdd("pint", "print");
+
+            correctionAdd("traslate", "translate");
 
 
 
@@ -26941,6 +26983,29 @@ namespace OverflowHelper.core
 
             URL_Add("white noise", "https://en.wikipedia.org/wiki/White_noise");
 
+            URL_Add("Blade", "https://en.wikipedia.org/wiki/Laravel#Features");
+
+            URL_Add("EOF", "https://en.wikipedia.org/wiki/End-of-file");
+
+            URL_Add("OmniSharp", "https://www.omnisharp.net/#portfolioModal-vscode");
+
+            URL_Add("Slovakia", "https://en.wikipedia.org/wiki/Slovakia");
+
+            URL_Add("Von Neumann machine", "https://en.wikipedia.org/wiki/Von_Neumann_cellular_automaton");
+
+            URL_Add("command palette", "https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette");
+
+            URL_Add("document", "https://en.wiktionary.org/wiki/document#Noun");
+
+            URL_Add("error-prone", "https://en.wiktionary.org/wiki/error-prone#Adjective");
+
+            URL_Add("go-around", "https://en.wikipedia.org/wiki/Go-around");
+
+            URL_Add("incomprehensibility", "https://en.wiktionary.org/wiki/incomprehensibility#Noun");
+
+            URL_Add("print", "https://en.wiktionary.org/wiki/print#Verb");
+
+            URL_Add("translate", "https://en.wiktionary.org/wiki/translate#Verb");
 
 
 
