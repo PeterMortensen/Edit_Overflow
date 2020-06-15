@@ -60,6 +60,7 @@ export EFFECTIVE_DATE='2020-06-03'
 export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
 export EFFECTIVE_DATE='2020-06-17'
+export EFFECTIVE_DATE='2020-06-17b'
 
 
 
@@ -161,6 +162,8 @@ cp $SRCFOLDER_CORE/HTML_builder.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/CodeFormattingCheck.cs       $WORKFOLDER
 cp $SRCFOLDER_CORE/LookUpString.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/StringReplacerWithRegex.cs   $WORKFOLDER
+cp $SRCFOLDER_CORE/Utility.cs                   $WORKFOLDER
+
 
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER

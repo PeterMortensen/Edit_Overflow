@@ -230,14 +230,14 @@ namespace OverflowHelper.core
                             //
                             // We should never be here as the secondary
                             // key is unique. ASSERT?
-                            int peter9 = 9;
+                            Utility.debuggerRest();
 
                         } //Same XYZ, use second key: ABC
                     } //JJJJJ compare
                 }
                 else
                 {
-                    int peter2 = 2; // Indexes equal. Does this ever
+                    Utility.debuggerRest(); // Indexes equal. Does this ever
                     // happen??? Yes! - apparently the
                     // sorting algorithm does not check
                     // for equality before the call to
@@ -27217,7 +27217,7 @@ namespace OverflowHelper.core
             string corrStr;
             if (mCaseCorrection.TryGetValue(aQueryStr, out corrStr))
             {
-                int peter2 = 2; //Found case correction!
+                Utility.debuggerRest(); //Found case correction!
             }
             else
             {
@@ -27265,7 +27265,7 @@ namespace OverflowHelper.core
         {
             if (aBadTerm2.IndexOf("'") >= 0)
             {
-                int peter7 = 7;
+                Utility.debuggerRest();
             }
 
             string effectiveBadTerm = aBadTerm2;
@@ -27800,11 +27800,15 @@ namespace OverflowHelper.core
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
             string presumedURL = "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_";
+
+            //For now. 
             if (false) //We want to revert to this. Perhaps make it
-                       //configurable/dynamic on generation time, e.g.
-                       //a command-line parameter or environment variable?
+                       //configurable/dynamic on generation time, 
+                       //e.g. a command-line parameter or 
+                       //environment variable?
             {
-                presumedURL += aDateStr + ".html";
+                //Only outcommented for avoid a compiler warning
+                //presumedURL += aDateStr + ".html";
             }
             else
             {
