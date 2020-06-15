@@ -10062,6 +10062,7 @@ namespace OverflowHelper.core
             correctionAdd("DotNET_core", ".NET Core");
             correctionAdd("dotnet-core", ".NET Core");
             correctionAdd("DotNET core", ".NET Core");
+            correctionAdd("Dotnet core", ".NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -11812,6 +11813,7 @@ namespace OverflowHelper.core
             correctionAdd("mS", "millisecond");
 
             correctionAdd("programm", "program");
+            correctionAdd("Programm", "program");
 
             correctionAdd("RLE", "run-length encoding");
 
@@ -16096,7 +16098,7 @@ namespace OverflowHelper.core
             correctionAdd("alapin", "Sicilian Defence, Alapin Variation"); // Chess
 
             correctionAdd("open sicilian", "Open Sicilian"); // Chess
-            
+
             correctionAdd("French Exchange", "French Defence, Exchange Variation"); // Chess
 
 
@@ -17892,6 +17894,18 @@ namespace OverflowHelper.core
             correctionAdd("which ever", "whichever");
             correctionAdd("Which ever", "whichever");
 
+            correctionAdd("commercically", "commercially");
+            correctionAdd("commerically", "commercially");
+
+            correctionAdd("compling", "compiling");
+
+            correctionAdd("dotnet-run", "dotnet run");
+
+            correctionAdd("dotnet-test", "dotnet test");
+
+            correctionAdd("precense", "presence");
+
+            correctionAdd("refrenced", "referenced");
 
 
             // Start of coronavirus part...
@@ -27160,6 +27174,18 @@ namespace OverflowHelper.core
             URL_Add("troubleshoot", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
 
             URL_Add("whichever", "https://en.wiktionary.org/wiki/whichever#Pronoun");
+
+            URL_Add("commercially", "https://en.wiktionary.org/wiki/commercially#Adverb");
+
+            URL_Add("compiling", "https://en.wiktionary.org/wiki/compile#Verb");
+
+            URL_Add("dotnet run", "https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run");
+
+            URL_Add("dotnet test", "https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test");
+
+            URL_Add("presence", "https://en.wiktionary.org/wiki/presence#Noun");
+
+            URL_Add("referenced", "https://en.wiktionary.org/wiki/reference#Verb");
 
 
 
