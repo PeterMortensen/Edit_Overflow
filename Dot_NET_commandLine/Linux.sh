@@ -21,7 +21,7 @@
 #            Ubuntu 19.10 (Eoan Ermine)                                #
 #            Ubuntu 20.04 (Focal Fossa).                               #
 #                                                                      #
-#          We also use the opportunity to run all the unit             # 
+#          We also use the opportunity to run all the unit             #
 #          tests (based on NUnit).                                     #
 #                                                                      #
 #                                                                      #
@@ -59,22 +59,24 @@ export EFFECTIVE_DATE='2020-06-01'
 export EFFECTIVE_DATE='2020-06-03'
 export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
+export EFFECTIVE_DATE='2020-06-17'
 
 
-# To make the unit test run ***itself*** succeed when we 
-# use a single build folder. We use a file name for the 
-# file containing "Main()" that does not end in ".cs" in 
+
+# To make the unit test run ***itself*** succeed when we
+# use a single build folder. We use a file name for the
+# file containing "Main()" that does not end in ".cs" in
 # order to hide it (until after the unit tests have run).
 #
 # Otherwise we will get an error like this:
 #
-#     Program.cs(20,21): error CS0017: 
-#     Program has more than one entry point defined. 
+#     Program.cs(20,21): error CS0017:
+#     Program has more than one entry point defined.
 #
-#     Compile with /main to specify the type that contains the entry 
-#     point. 
+#     Compile with /main to specify the type that contains the entry
+#     point.
 #     [/home/embo/temp2/2020-06-14/_DotNET_tryout/EditOverflow4/EditOverflow3.csproj]
-#   
+#
 export FILE_WITH_MAIN_ENTRY=Program.cs
 export FILE_WITH_MAIN_ENTRY_HIDE=${FILE_WITH_MAIN_ENTRY}ZZZ
 
@@ -111,7 +113,7 @@ export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
 
 # Fixed name, not dependent on date, etc.
-export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html 
+export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
 
 
 
@@ -144,25 +146,33 @@ mkdir -p $WORKFOLDER
 mkdir -p $FTPTRANSFER_FOLDER
 
 # Remove any existing
-mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}     $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
+mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}          $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
 
 
-cd $SRCFOLDER_BASE/Dot_NET_commandLine
-cp ${FILE_WITH_MAIN_ENTRY}                 $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
-
-cp EditOverflow3.csproj                    $WORKFOLDER
-cp EditOverflow3_UnitTests.csproj          $WORKFOLDER
-
-cp $SRCFOLDER_CORE/WikipediaLookup.cs      $WORKFOLDER
-cp $SRCFOLDER_CORE/HTML_builder.cs         $WORKFOLDER
-cp $SRCFOLDER_CORE/CodeFormattingCheck.cs  $WORKFOLDER
+cd $SRCFOLDER_BASE/Dot_NET_commandLine          
+cp ${FILE_WITH_MAIN_ENTRY}                      $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
+                                                
+cp EditOverflow3.csproj                         $WORKFOLDER
+cp EditOverflow3_UnitTests.csproj               $WORKFOLDER
+                                                
+cp $SRCFOLDER_CORE/WikipediaLookup.cs           $WORKFOLDER
+cp $SRCFOLDER_CORE/HTML_builder.cs              $WORKFOLDER
+cp $SRCFOLDER_CORE/CodeFormattingCheck.cs       $WORKFOLDER
+cp $SRCFOLDER_CORE/LookUpString.cs              $WORKFOLDER
+cp $SRCFOLDER_CORE/StringReplacerWithRegex.cs   $WORKFOLDER
 
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER
 
 ## cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs  $WORKFOLDER
 cp $SRCFOLDER_TESTS/EnvironmentTests.cs                $WORKFOLDER
+cp $SRCFOLDER_TESTS/Wordlist.cs                        $WORKFOLDER
+cp $SRCFOLDER_TESTS/LookUpStringTests.cs               $WORKFOLDER
+cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs    $WORKFOLDER
+
+
+
 
 
 
@@ -173,12 +183,12 @@ cd $WORKFOLDER
 
 
 
-# Experimental. NUnit tests can actually run 
+# Experimental. NUnit tests can actually run
 # under .NET Core on Linux
 #
-# Note: Currently we continue even if the unit tests fail (this 
-#       is more about getting started - we can easily run unit 
-#       tests separately or rerun this script until all 
+# Note: Currently we continue even if the unit tests fail (this
+#       is more about getting started - we can easily run unit
+#       tests separately or rerun this script until all
 #       errors are gone)
 #
 echo
@@ -186,16 +196,22 @@ echo
 echo 'Start running unit tests...'
 echo
 
-# Note: unlike "dotnet run", "dotnet test" does not 
+# Note: unlike "dotnet run", "dotnet test" does not
 #       use option "-p" (inconsistent)
 #
 dotnet test EditOverflow3_UnitTests.csproj
 
 # Prepare for the main run (see in the beginning for an explanation)
-mv  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY} 
+mv  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}
 
-# Hardcoded for now (some redundancy)
-mv  $WORKFOLDER/EnvironmentTests.cs           $WORKFOLDER/EnvironmentTests.csZZZ
+# This is to hide the unit test files from the normal project 
+# file (for normal run). Hardcoded for now (some redundancy)
+#
+mv  $WORKFOLDER/EnvironmentTests.cs               $WORKFOLDER/EnvironmentTests.csZZZ
+mv  $WORKFOLDER/Wordlist.cs                       $WORKFOLDER/EnvironmentTests.csZZZ
+mv  $WORKFOLDER/LookUpStringTests.cs              $WORKFOLDER/LookUpStringTests.csZZZ
+mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWithRegexTests.csZZZ
+
 
 
 
