@@ -921,6 +921,7 @@ namespace OverflowHelper.core
             correctionAdd("MS sql", "SQL&nbsp;Server");
             correctionAdd("MSSQLSERVER", "SQL&nbsp;Server");
             correctionAdd("MS-SQL-SERVER", "SQL&nbsp;Server");
+            correctionAdd("M$ sql", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -1931,6 +1932,7 @@ namespace OverflowHelper.core
 
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
+            correctionAdd("mave", "Maven");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -2791,6 +2793,9 @@ namespace OverflowHelper.core
             correctionAdd("e-texteditor", "E Text Editor");
             correctionAdd("e texteditor", "E Text Editor");
             correctionAdd("E-Text Editor", "E Text Editor");
+            correctionAdd("e-TextEditor", "E Text Editor");
+            correctionAdd("e-Text Editor", "E Text Editor");
+            correctionAdd("e.TextEditor", "E Text Editor");
 
             correctionAdd("WINE", "Wine");
             correctionAdd("wine", "Wine");
@@ -4300,6 +4305,7 @@ namespace OverflowHelper.core
             correctionAdd("don´t", "don’t");
             correctionAdd("do't", "don’t");
             correctionAdd("dnt", "don’t");
+            correctionAdd("don`t", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -6681,6 +6687,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Foxit", "Foxit Reader");
             correctionAdd("Foxit reader", "Foxit Reader");
+            correctionAdd("foxit", "Foxit Reader");
 
             correctionAdd("2's compliment", "two's complement");
             correctionAdd("2's Compliment", "two's complement");
@@ -8173,6 +8180,7 @@ namespace OverflowHelper.core
             correctionAdd("Let’s", "let’s"); //Not 100% correct - case.
             correctionAdd("Let's", "let’s"); //Not 100% correct - case.
             correctionAdd("Let`s", "let’s"); //Not 100% correct - case.
+            correctionAdd("let`s", "let’s");
 
             correctionAdd("disambig", "disambiguation");
 
@@ -9306,6 +9314,7 @@ namespace OverflowHelper.core
             correctionAdd("Whats", "what's"); // Not 100% correct - case.
             correctionAdd("wats", "what's");
             correctionAdd("what’s", "what's"); // For Quora.
+            correctionAdd("what`s", "what's");
 
             correctionAdd("american", "American");
 
@@ -9684,6 +9693,8 @@ namespace OverflowHelper.core
             correctionAdd("Screen-shot", "screenshot");
             correctionAdd("screens shot", "screenshot");
             correctionAdd("ScreenShot", "screenshot");
+            correctionAdd("ScreentShot", "screenshot");
+            correctionAdd("Screen Shot", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -10912,6 +10923,7 @@ namespace OverflowHelper.core
             correctionAdd("recommandation", "recommendation");
             correctionAdd("reccomondation", "recommendation");
             correctionAdd("recommondation", "recommendation");
+            correctionAdd("rec", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -10930,6 +10942,7 @@ namespace OverflowHelper.core
 
             correctionAdd("theres", "there's");
             correctionAdd("theres's", "there's");
+            correctionAdd("Theres", "there's");
 
             correctionAdd("transfered", "transferred");
 
@@ -12659,6 +12672,7 @@ namespace OverflowHelper.core
             correctionAdd("Hongkong", "Hong Kong");
 
             correctionAdd("Komodo ide", "Komodo IDE");
+            correctionAdd("Komodo", "Komodo IDE");
 
             correctionAdd("Peurto Rico", "Puerto Rico");
             correctionAdd("Purto Rico", "Puerto Rico");
@@ -12685,6 +12699,7 @@ namespace OverflowHelper.core
             correctionAdd("buch", "bunch");
 
             correctionAdd("exagerrated", "exaggerated");
+            correctionAdd("excagurated", "exaggerated");
 
             correctionAdd("expection", "expectation");
 
@@ -13211,6 +13226,7 @@ namespace OverflowHelper.core
             correctionAdd("xdebug", "Xdebug");
 
             correctionAdd("acct", "account");
+            correctionAdd("acount", "account");
 
             correctionAdd("contributer", "contributor");
 
@@ -13530,6 +13546,8 @@ namespace OverflowHelper.core
             correctionAdd("alegedly", "allegedly");
             correctionAdd("alledgedly", "allegedly");
             correctionAdd("allegdedly", "allegedly");
+            correctionAdd("aledgely", "allegedly");
+            correctionAdd("alledgely", "allegedly");
 
             correctionAdd("contiue", "continue");
 
@@ -13843,6 +13861,7 @@ namespace OverflowHelper.core
 
             correctionAdd("folter", "folder");
             correctionAdd("foleder", "folder");
+            correctionAdd("foler", "folder");
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
@@ -14133,6 +14152,7 @@ namespace OverflowHelper.core
             correctionAdd("non-sensical", "nonsensical");
 
             correctionAdd("percieve", "perceive");
+            correctionAdd("precieve", "perceive");
 
             correctionAdd("s/", "s/PATTERN/REPLACEMENT/msixpodualngcer");
 
@@ -14583,6 +14603,7 @@ namespace OverflowHelper.core
             correctionAdd("memmory", "memory");
 
             correctionAdd("misc", "miscellaneous");
+            correctionAdd("miscelaneous", "miscellaneous");
 
             correctionAdd("multi pass", "multi-pass");
 
@@ -14782,6 +14803,7 @@ namespace OverflowHelper.core
             correctionAdd("configureable", "configurable");
 
             correctionAdd("criterias", "criteria");
+            correctionAdd("citeria", "criteria");
 
             correctionAdd("dead see", "dead sea");
 
@@ -14835,6 +14857,7 @@ namespace OverflowHelper.core
             correctionAdd("re-open", "reopen");
 
             correctionAdd("shockwave", "shock wave");
+            correctionAdd("shock-wave", "shock wave");
 
             correctionAdd("some how", "somehow");
             correctionAdd("sumhow", "somehow");
@@ -15427,6 +15450,7 @@ namespace OverflowHelper.core
             correctionAdd("enviromnment", "environment");
             correctionAdd("environmanet", "environment");
             correctionAdd("environemt", "environment");
+            correctionAdd("Enviroment", "environment");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -15546,6 +15570,7 @@ namespace OverflowHelper.core
 
             correctionAdd("short cut", "shortcut");
             correctionAdd("shortuct", "shortcut");
+            correctionAdd("shortcurt", "shortcut");
 
 
             // --------------------------------------------------------------
@@ -15623,6 +15648,7 @@ namespace OverflowHelper.core
             correctionAdd("againt’s", "against");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
+            correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -16070,6 +16096,8 @@ namespace OverflowHelper.core
             correctionAdd("alapin", "Sicilian Defence, Alapin Variation"); // Chess
 
             correctionAdd("open sicilian", "Open Sicilian"); // Chess
+            
+            correctionAdd("French Exchange", "French Defence, Exchange Variation"); // Chess
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -17076,6 +17104,7 @@ namespace OverflowHelper.core
             correctionAdd("Impliment", "implement");
 
             correctionAdd("mechanim", "mechanism");
+            correctionAdd("mechanisam", "mechanism");
 
             correctionAdd("regristration", "registration");
 
@@ -17795,6 +17824,73 @@ namespace OverflowHelper.core
 
             correctionAdd("traslate", "translate");
 
+            correctionAdd("Agent Ransak", "Agent Ransack");
+            correctionAdd("AgentRansak", "Agent Ransack");
+
+            correctionAdd("mylyn", "Mylyn");
+
+            correctionAdd("Scot Hanselman", "Scott Hanselman");
+            correctionAdd("Scott Hanselmann", "Scott Hanselman");
+
+            correctionAdd("Tortoise CVS", "TortoiseCVS");
+
+            correctionAdd("Ad Words", "AdWords");
+            correctionAdd("adwords", "AdWords");
+
+            correctionAdd("basecamp", "Basecamp");
+
+            correctionAdd("czechia", "Czechia");
+            correctionAdd("Czech Republic", "Czechia");
+
+            correctionAdd("del icio us", "Delicious");
+            correctionAdd("del.icio.us", "Delicious");
+
+            correctionAdd("eastern european", "Eastern European");
+
+            correctionAdd("edit plus", "EditPlus");
+            correctionAdd("Edit Plus", "EditPlus");
+            correctionAdd("editplus", "EditPlus");
+
+            correctionAdd("Free Commander", "FreeCommander");
+            correctionAdd("free commander", "FreeCommander");
+            correctionAdd("freecommander", "FreeCommander");
+
+            correctionAdd("hackerrank", "HackerRank");
+
+            correctionAdd("jms", "JMS");
+
+            correctionAdd("pidgin", "Pidgin");
+
+            correctionAdd("PyLint", "Pylint");
+
+            correctionAdd("Software Recs", "Software Recommendations");
+
+            correctionAdd("tcptrace", "TCPTrace");
+            correctionAdd("Tcptrace", "TCPTrace");
+
+            correctionAdd("technorati", "Technorati");
+
+            correctionAdd("western european", "Western European");
+
+            correctionAdd("cache able", "cacheable");
+            correctionAdd("cachable", "cacheable");
+
+            correctionAdd("criterium", "criterion");
+
+            correctionAdd("culural", "cultural");
+
+            correctionAdd("herritage", "heritage");
+
+            correctionAdd("misinterpretating", "misinterpreting");
+
+            correctionAdd("sacricising", "sacrificing");
+
+            correctionAdd("sutch", "such");
+
+            correctionAdd("troubleshoout", "troubleshoot");
+
+            correctionAdd("which ever", "whichever");
+            correctionAdd("Which ever", "whichever");
 
 
 
@@ -19023,7 +19119,7 @@ namespace OverflowHelper.core
 
             URL_Add("FBML", "https://en.wikipedia.org/wiki/Facebook_features#FBML");
 
-            URL_Add("REST", "https://en.wikipedia.org/wiki/Representational_State_Transfer");
+            URL_Add("REST", "https://en.wikipedia.org/wiki/Representational_state_transfer"); //Old: https://en.wikipedia.org/wiki/Representational_State_Transfer
 
             URL_Add("Windows 2000", "https://en.wikipedia.org/wiki/Windows_2000");
 
@@ -24683,7 +24779,7 @@ namespace OverflowHelper.core
 
             URL_Add("reopen", "https://en.wiktionary.org/wiki/reopen#Verb");
 
-            URL_Add("shock wave", "https://en.wiktionary.org/wiki/shock_wave#English");
+            URL_Add("shock wave", "https://en.wiktionary.org/wiki/shock_wave#Noun");
 
             URL_Add("somehow", "https://en.wiktionary.org/wiki/somehow#Adverb");
 
@@ -27006,6 +27102,65 @@ namespace OverflowHelper.core
             URL_Add("print", "https://en.wiktionary.org/wiki/print#Verb");
 
             URL_Add("translate", "https://en.wiktionary.org/wiki/translate#Verb");
+
+            URL_Add("Agent Ransack", "https://www.mythicsoft.com/agentransack/");
+
+            URL_Add("Mylyn", "https://en.wikipedia.org/wiki/Eclipse_(software)#Application_lifecycle_management");
+
+            URL_Add("Scott Hanselman", "https://www.hanselman.com/about/");
+
+            URL_Add("TortoiseCVS", "https://en.wikipedia.org/wiki/TortoiseCVS");
+
+            URL_Add("French Defence, Exchange Variation", "https://en.wikipedia.org/wiki/French_Defence#Exchange_Variation:_3.exd5_exd5");
+
+            URL_Add("AdWords", "https://en.wikipedia.org/wiki/Google_Ads");
+
+            URL_Add("Basecamp", "https://en.wikipedia.org/wiki/Basecamp_(company)#Basecamp");
+
+            URL_Add("Czechia", "https://en.wikipedia.org/wiki/Czech_Republic");
+
+            URL_Add("Delicious", "https://en.wikipedia.org/wiki/Delicious_(website)");
+
+            URL_Add("Eastern European", "https://en.wiktionary.org/wiki/Eastern_European#Adjective");
+
+            URL_Add("EditPlus", "https://en.wikipedia.org/wiki/EditPlus");
+
+            URL_Add("FreeCommander", "https://freecommander.com/en/summary/");
+
+            URL_Add("HackerRank", "https://en.wikipedia.org/wiki/HackerRank");
+
+            URL_Add("JMS", "https://en.wikipedia.org/wiki/Java_Message_Service");
+
+            URL_Add("Pidgin", "https://en.wikipedia.org/wiki/Pidgin_(software)");
+
+            URL_Add("Pylint", "https://en.wikipedia.org/wiki/Pylint");
+
+            URL_Add("Software Recommendations", "https://softwarerecs.stackexchange.com/tour");
+
+            URL_Add("TCPTrace", "https://en.wikipedia.org/wiki/Tcptrace");
+
+            URL_Add("Technorati", "https://en.wikipedia.org/wiki/Technorati");
+
+            URL_Add("Western European", "https://en.wiktionary.org/wiki/Western_European#Adjective");
+
+            URL_Add("cacheable", "https://en.wiktionary.org/wiki/cacheable#Adjective");
+
+            URL_Add("criterion", "https://en.wiktionary.org/wiki/criterion#Noun");
+
+            URL_Add("cultural", "https://en.wiktionary.org/wiki/cultural#Adjective");
+
+            URL_Add("heritage", "https://en.wiktionary.org/wiki/heritage#Noun");
+
+            URL_Add("misinterpreting", "https://en.wiktionary.org/wiki/misinterpret#Verb");
+
+            URL_Add("sacrificing", "https://en.wiktionary.org/wiki/sacrifice#Verb");
+
+            URL_Add("such", "https://en.wiktionary.org/wiki/such#Determiner");
+
+            URL_Add("troubleshoot", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
+
+            URL_Add("whichever", "https://en.wiktionary.org/wiki/whichever#Pronoun");
+
 
 
 
