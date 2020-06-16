@@ -14578,6 +14578,7 @@ namespace OverflowHelper.core
             correctionAdd("gratefull", "grateful");
 
             correctionAdd("happned", "happened");
+            correctionAdd("happeed", "happened");
 
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
@@ -15149,6 +15150,7 @@ namespace OverflowHelper.core
             correctionAdd("useing", "using");
             correctionAdd("usig", "using");
             correctionAdd("ussing", "using");
+            correctionAdd("uisng", "using");
 
             correctionAdd("udemy", "Udemy");
 
@@ -17906,6 +17908,16 @@ namespace OverflowHelper.core
             correctionAdd("precense", "presence");
 
             correctionAdd("refrenced", "referenced");
+
+            correctionAdd("ietf", "IETF");
+
+            correctionAdd("no-follow", "nofollow");
+
+            correctionAdd("piont", "point");
+
+            correctionAdd("standard faire", "standard fare");
+
+            correctionAdd("stock broker", "stockbroker");
 
 
             // Start of coronavirus part...
@@ -27186,6 +27198,16 @@ namespace OverflowHelper.core
             URL_Add("presence", "https://en.wiktionary.org/wiki/presence#Noun");
 
             URL_Add("referenced", "https://en.wiktionary.org/wiki/reference#Verb");
+
+            URL_Add("IETF", "https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force");
+
+            URL_Add("nofollow", "https://en.wikipedia.org/wiki/Nofollow");
+
+            URL_Add("point", "https://en.wiktionary.org/wiki/point#Noun");
+
+            URL_Add("standard fare", "https://en.wiktionary.org/wiki/standard_fare#Noun");
+
+            URL_Add("stockbroker", "https://en.wiktionary.org/wiki/stockbroker#Noun");
 
 
 
