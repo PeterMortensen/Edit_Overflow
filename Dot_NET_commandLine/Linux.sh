@@ -30,10 +30,10 @@
 # Edit Overflow.                                                       #
 #                                                                      #
 #                                                                      #
-# Installation note:                                                   #
+# Installation notes:                                                  #
 #                                                                      #
 #   To enable compilation and running .NET Core code on                #
-#   Ubuntu/Debian, these installation steps works (last                #
+#   Ubuntu/Debian, these installation steps work (last                 #
 #   tested on 2020-06-01):                                             #
 #                                                                      #
 #       wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -44,7 +44,15 @@
 #       sudo apt-get update                                            #
 #       sudo apt-get install dotnet-sdk-3.1                            #
 #                                                                      #
+#   To enable unit testing with NUnit, install it with NuGet (tested   #
+#   on 2020-06-14 - it installed version 3.12.0. NuGet is part of      #
+#   the .NET Core installation - try e.g. 'dotnet nuget' to see        #
+#   that is the case):                                                 #
+#                                                                      #
+#      dotnet add package NUnit                                        #
+#                                                                      #
 ########################################################################
+
 
 echo
 echo
@@ -59,8 +67,6 @@ export EFFECTIVE_DATE='2020-06-01'
 export EFFECTIVE_DATE='2020-06-03'
 export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
-export EFFECTIVE_DATE='2020-06-17'
-export EFFECTIVE_DATE='2020-06-17b'
 
 
 
