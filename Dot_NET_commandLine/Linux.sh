@@ -175,12 +175,11 @@ cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER
 
 ## cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs  $WORKFOLDER
-cp $SRCFOLDER_TESTS/EnvironmentTests.cs                $WORKFOLDER
-cp $SRCFOLDER_TESTS/Wordlist.cs                        $WORKFOLDER
-cp $SRCFOLDER_TESTS/LookUpStringTests.cs               $WORKFOLDER
-cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs    $WORKFOLDER
-
-
+cp $SRCFOLDER_TESTS/EnvironmentTests.cs                 $WORKFOLDER
+cp $SRCFOLDER_TESTS/Wordlist.cs                         $WORKFOLDER
+cp $SRCFOLDER_TESTS/LookUpStringTests.cs                $WORKFOLDER
+cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs     $WORKFOLDER
+cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
 
 
 
@@ -210,6 +209,8 @@ echo
 #
 dotnet test EditOverflow3_UnitTests.csproj
 
+
+
 # Prepare for the main run (see in the beginning for an explanation)
 mv  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}
 
@@ -220,6 +221,12 @@ mv  $WORKFOLDER/EnvironmentTests.cs               $WORKFOLDER/EnvironmentTests.c
 mv  $WORKFOLDER/Wordlist.cs                       $WORKFOLDER/EnvironmentTests.csZZZ
 mv  $WORKFOLDER/LookUpStringTests.cs              $WORKFOLDER/LookUpStringTests.csZZZ
 mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWithRegexTests.csZZZ
+mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingCheckTests.csZZZ
+
+
+
+
+
 
 
 
