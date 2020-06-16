@@ -9,15 +9,17 @@
 *          use on the published web page with the word list).              *
 *                                                                          *
 *          In the first instance it doesn't check anything - it just       *
-*          knows about the regular expressions that we can use for         *
-*          rudimentary checking for source code (with the associated       *
-*          high rate of false positives that come with regular             *
-*          expressions).                                                   *
+*          knows about the regular expressions that a user can use         *
+*          for rudimentary checking for source code (with the              *
+*          associated high rate of false positives that come               *
+*          with regular expressions).                                      *
+*                                                                          *
+*          Or in other words: This class does not (currently) know         *
+*          anything about the data it is storing... It is mostly           *
+*          just a container for data.                                      *
 *                                                                          *
 *          It also encapsulates the string builder so the client does not  *
-*          have to provide it.                                             *                                                                          *
-*                                                                          *
-*                                                                          *
+*          have to provide it.                                             *
 *                                                                          *
 ****************************************************************************/
 
@@ -49,7 +51,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string missingSpaceBeforeOpeningBracketRegex()
         {
@@ -60,7 +66,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string missingSpaceAfterColonRegex()
         {
@@ -71,7 +81,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string missingSpaceAfterCommaRegex()
         {
@@ -82,7 +96,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string missingSpaceAroundEqualSign()
         {
@@ -93,7 +111,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string missingSpaceAroundStringConcatenationRegex()
         {
@@ -104,7 +126,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string spaceBeforeCommaRegex()
         {
@@ -115,7 +141,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string spaceBeforeColonRegex()
         {
@@ -126,7 +156,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string spaceBeforeParenthesisRegex()
         {
@@ -137,7 +171,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string spaceBeforeSemicommaRegex()
         {
@@ -148,7 +186,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
          ****************************************************************************/
         public string spaceAfterLeftParenthesisRegex()
         {
@@ -217,7 +259,7 @@ namespace OverflowHelper.core
         } //combinedAllOfRegularExpressions()
 
 
-    } //class WikipediaLookup
+    } //class CodeFormattingCheck
 
 
 } //namespace OverflowHelper.core
