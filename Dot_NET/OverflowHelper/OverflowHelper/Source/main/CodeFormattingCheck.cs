@@ -1,5 +1,7 @@
 ﻿/***************************************************************************
-* Copyright (C) 2010 Peter Mortensen                                       *
+*                                                                          *
+* Copyright (C) 2020 Peter Mortensen                                       *
+*                                                                          *
 * This file is part of Overflow Helper.                                    *
 *                                                                          *
 *                                                                          *
