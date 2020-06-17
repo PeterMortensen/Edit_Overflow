@@ -9,7 +9,7 @@
  ****************************************************************************/
 
 
-using NUnit.Framework; //For all versions of NUnit, 
+using NUnit.Framework; //For all versions of NUnit,
                        //file "nunit.framework.dll"
 
 //using NUnit.Engine. No!
@@ -45,17 +45,15 @@ namespace CodeFormattingCheckTests
         [Test]
         public void combinedAllOfRegularExpressions()
         {
-            
-            // Trivial test (as it is unlikely to change), 
+
+            // Trivial test (as it is unlikely to change),
             // but it is a way to get started...
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-                
+
                 Assert.AreEqual(@"\S\{", cfCheck.missingSpaceBeforeOpeningBracketRegex(), "");
-                
+
             }
-
-
 
         } //combinedAllOfRegularExpressions()
 
@@ -64,9 +62,25 @@ namespace CodeFormattingCheckTests
          *    <placeholder for header>                                              *
          ****************************************************************************/
         [Test]
-        public void XXXXX()
+        public void RegExExecutor_basics()
         {
             {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+                
+                // Bad code should be detected
+                string badCode = "auto p=new Son();";
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundEqualSign()));
+
+                // Also using the full regular expression
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
+
+                // Corresponding fixed code
+                Assert.IsFalse(
+                    RegExExecutor.match("auto p = new Son();",
+                                        cfCheck.missingSpaceAroundEqualSign()));
+
 
             }
 
@@ -93,13 +107,12 @@ namespace CodeFormattingCheckTests
                 //string trailing = tt2.getTrailing();
                 //Assert.AreEqual(", ", trailing, "");
             }
-		
+
 
         } //XXXXX
 
 
 
-        
     } //class CodeFormattingCheckTests
 
 

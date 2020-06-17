@@ -69,7 +69,6 @@ export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
 
 
-
 # To make the unit test run ***itself*** succeed when we
 # use a single build folder. We use a file name for the
 # file containing "Main()" that does not end in ".cs" in
@@ -169,6 +168,8 @@ cp $SRCFOLDER_CORE/CodeFormattingCheck.cs       $WORKFOLDER
 cp $SRCFOLDER_CORE/LookUpString.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/StringReplacerWithRegex.cs   $WORKFOLDER
 cp $SRCFOLDER_CORE/Utility.cs                   $WORKFOLDER
+cp $SRCFOLDER_CORE/RegExExecutor.cs             $WORKFOLDER
+
 
 
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER
@@ -211,6 +212,7 @@ dotnet test EditOverflow3_UnitTests.csproj
 
 
 
+
 # Prepare for the main run (see in the beginning for an explanation)
 mv  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}
 
@@ -222,12 +224,7 @@ mv  $WORKFOLDER/Wordlist.cs                       $WORKFOLDER/EnvironmentTests.c
 mv  $WORKFOLDER/LookUpStringTests.cs              $WORKFOLDER/LookUpStringTests.csZZZ
 mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWithRegexTests.csZZZ
 mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingCheckTests.csZZZ
-
-
-
-
-
-
+mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
 
 
 
