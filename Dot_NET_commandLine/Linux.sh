@@ -211,6 +211,8 @@ echo
 dotnet test EditOverflow3_UnitTests.csproj
 
 
+#  exit   # Active: Test only!!!!!!!!!
+
 
 
 # Prepare for the main run (see in the beginning for an explanation)
@@ -299,6 +301,7 @@ pwd
 ls -lsatr $WORKFOLDER
 
 
+
 # Output word list statistics - the first number is close to what
 # is expected in the report for the import into MySQL (a
 # difference of 3).
@@ -320,4 +323,14 @@ grep -v DROP $SQL_FILE | grep -v pmortensen_eu_db | grep -v CREATE | grep -v VAR
 echo
 
 cd -
+
+
+# Usually enough to spot if it succeeded - the size of the generated files
+echo
+echo
+echo
+
+ls -lsatr $HTML_FILE
+ls -lsatr $SQL_FILE
+
 

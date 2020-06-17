@@ -4173,6 +4173,7 @@ namespace OverflowHelper.core
             correctionAdd("super-user", "Super&nbsp;User");
             correctionAdd("superusers", "Super&nbsp;User");
             correctionAdd("Super-User", "Super&nbsp;User");
+            correctionAdd("Super user", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -5853,6 +5854,7 @@ namespace OverflowHelper.core
             correctionAdd("d/c", "domain controller");
 
             correctionAdd("ghostscript", "Ghostscript");
+            correctionAdd("GhostScript", "Ghostscript");
 
             correctionAdd("Power Grep", "PowerGrep");
 
@@ -6859,17 +6861,6 @@ namespace OverflowHelper.core
             correctionAdd("definiton", "definition");
             correctionAdd("defintion", "definition");
 
-            correctionAdd("Asm", "assembly language");
-            correctionAdd("asm", "assembly language");
-            correctionAdd("ASM", "assembly language");
-            correctionAdd("assembly", "assembly language");
-            correctionAdd("Assembly", "assembly language");
-            correctionAdd("Assembler", "assembly language");
-            correctionAdd("assembler", "assembly language");
-            correctionAdd("assmebly", "assembly language");
-            correctionAdd("Assembly language", "assembly language");
-            correctionAdd("ASSEMBLER", "assembly language");
-
             correctionAdd("B2C", "business-to-consumer");
             correctionAdd("b2c", "business-to-consumer");
 
@@ -7026,8 +7017,6 @@ namespace OverflowHelper.core
             correctionAdd("mother board", "motherboard");
             correctionAdd("MOB", "motherboard");
             correctionAdd("MBO", "motherboard");
-
-            correctionAdd("DSL", "domain-specific language");
 
             correctionAdd("ocx", "OCX");
 
@@ -8338,6 +8327,7 @@ namespace OverflowHelper.core
             correctionAdd("Linux Kali", "Kali Linux");
             correctionAdd("kali linux", "Kali Linux");
             correctionAdd("Kali linux", "Kali Linux");
+            correctionAdd("KALI LINUX", "Kali Linux");
 
             correctionAdd("unetbootin", "UNetbootin");
             correctionAdd("Unetbootin", "UNetbootin");
@@ -8933,6 +8923,7 @@ namespace OverflowHelper.core
             correctionAdd("2 Cents", "two cents");
             correctionAdd("$0.02", "two cents");
             correctionAdd("2c", "two cents");
+            correctionAdd("5 cents", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -8949,11 +8940,6 @@ namespace OverflowHelper.core
             correctionAdd("eternal September", "Eternal September");
 
             correctionAdd("msgbox", "MsgBox");
-
-            correctionAdd("K&R", "The C Programming Language");
-            correctionAdd("k&r", "The C Programming Language");
-            correctionAdd("k&R", "The C Programming Language");
-            correctionAdd("K & R", "The C Programming Language");
 
             correctionAdd("phd", "PhD");
             correctionAdd("PHD", "PhD");
@@ -9947,6 +9933,7 @@ namespace OverflowHelper.core
             correctionAdd("DynamoDb", "DynamoDB");
 
             correctionAdd("pythonic", "Pythonic");
+            correctionAdd("pythononic", "Pythonic");
 
             correctionAdd("pullup", "pull-up resistor");
             correctionAdd("pull up", "pull-up resistor");
@@ -10203,6 +10190,7 @@ namespace OverflowHelper.core
             correctionAdd("Vue", "Vue.js");
             correctionAdd("vie.js", "Vue.js");
             correctionAdd("vie", "Vue.js");
+            correctionAdd("Vue JS", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -10737,6 +10725,8 @@ namespace OverflowHelper.core
             correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("Askubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -10762,6 +10752,7 @@ namespace OverflowHelper.core
             correctionAdd("React native", "React Native");
             correctionAdd("ReactNative", "React Native");
             correctionAdd("React-Native", "React Native");
+            correctionAdd("RN", "React Native");
 
             correctionAdd("ionic", "Ionic");
             correctionAdd("IONIC", "Ionic");
@@ -11298,6 +11289,8 @@ namespace OverflowHelper.core
             correctionAdd("rater", "rather");
 
             correctionAdd("2nd", "second");
+            correctionAdd("Secound", "second");
+            correctionAdd("secound", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -11901,11 +11894,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hydrogen", "hydrogen");
 
-            correctionAdd("lang", "language");
-            correctionAdd("langauge", "language");
-            correctionAdd("lanuguage", "language");
-            correctionAdd("languade", "language");
-
             correctionAdd("mins", "minutes");
 
             correctionAdd("sourcetree", "Sourcetree");
@@ -12080,6 +12068,7 @@ namespace OverflowHelper.core
             correctionAdd("rerefence", "reference");
             correctionAdd("refefence", "reference");
             correctionAdd("refrance", "reference");
+            correctionAdd("referance", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -12187,6 +12176,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wierd", "weird");
             correctionAdd("weried", "weird");
+            correctionAdd("weired", "weird");
 
             correctionAdd("squach", "squash");
 
@@ -12917,6 +12907,7 @@ namespace OverflowHelper.core
             correctionAdd("constatnt", "constant");
             correctionAdd("cosnt", "constant");
             correctionAdd("const", "constant");
+            correctionAdd("constnat", "constant");
 
             correctionAdd("dataset", "data set");
 
@@ -15704,6 +15695,7 @@ namespace OverflowHelper.core
             correctionAdd("comodity", "commodity");
 
             correctionAdd("conatiner", "container");
+            correctionAdd("containre", "container");
 
             correctionAdd("instaled", "installed");
 
@@ -17671,6 +17663,10 @@ namespace OverflowHelper.core
             correctionAdd("overal", "overall");
 
             correctionAdd("popuplar", "popular");
+            correctionAdd("poppler", "popular");
+            correctionAdd("poppuler", "popular");
+            correctionAdd("poppular", "popular");
+            correctionAdd("Poppler", "popular");
 
             correctionAdd("waht", "what");
             correctionAdd("Waht", "what");
@@ -17767,6 +17763,7 @@ namespace OverflowHelper.core
             correctionAdd("costed", "cost");
 
             correctionAdd("Encyclopedia", "encyclopedia");
+            correctionAdd("enclopeia", "encyclopedia");
 
             correctionAdd("non-famous", "nonfamous");
             correctionAdd("non famous", "nonfamous");
@@ -17918,6 +17915,58 @@ namespace OverflowHelper.core
             correctionAdd("standard faire", "standard fare");
 
             correctionAdd("stock broker", "stockbroker");
+
+            correctionAdd("Asm", "assembly language");
+            correctionAdd("asm", "assembly language");
+            correctionAdd("ASM", "assembly language");
+            correctionAdd("assembly", "assembly language");
+            correctionAdd("Assembly", "assembly language");
+            correctionAdd("Assembler", "assembly language");
+            correctionAdd("assembler", "assembly language");
+            correctionAdd("assmebly", "assembly language");
+            correctionAdd("Assembly language", "assembly language");
+            correctionAdd("ASSEMBLER", "assembly language");
+
+            correctionAdd("DSL", "domain-specific language");
+
+            correctionAdd("K&R", "The C Programming Language");
+            correctionAdd("k&r", "The C Programming Language");
+            correctionAdd("k&R", "The C Programming Language");
+            correctionAdd("K & R", "The C Programming Language");
+
+            correctionAdd("lang", "language");
+            correctionAdd("langauge", "language");
+            correctionAdd("lanuguage", "language");
+            correctionAdd("languade", "language");
+            correctionAdd("langugae", "language");
+
+            correctionAdd("2-in-1", "2-in-1 PC");
+
+            correctionAdd("codelite", "CodeLite");
+
+            correctionAdd("MIT license", "MIT License");
+
+            correctionAdd("netsuite", "NetSuite");
+            correctionAdd("Netsuite", "NetSuite");
+
+            correctionAdd("suitescipt", "SuiteScript");
+            correctionAdd("Suitescript", "SuiteScript");
+            correctionAdd("suitescript", "SuiteScript");
+            correctionAdd("Suitescipt", "SuiteScript");
+
+            correctionAdd("encyclopeodic", "encyclopedic");
+
+            correctionAdd("Fiancée", "fiancée");
+
+            correctionAdd("Polymorphism", "polymorphism");
+
+            correctionAdd("secrat", "secret");
+            correctionAdd("secrate", "secret");
+
+            correctionAdd("SUDO", "sudo");
+
+            correctionAdd("WIP", "work in progress");
+
 
 
             // Start of coronavirus part...
@@ -27209,6 +27258,29 @@ namespace OverflowHelper.core
 
             URL_Add("stockbroker", "https://en.wiktionary.org/wiki/stockbroker#Noun");
 
+            URL_Add("2-in-1 PC", "https://en.wikipedia.org/wiki/2-in-1_PC");
+
+            URL_Add("CodeLite", "https://en.wikipedia.org/wiki/CodeLite");
+
+            URL_Add("MIT License", "https://en.wikipedia.org/wiki/MIT_License");
+
+            URL_Add("NetSuite", "https://www.netsuite.com/portal/developers/resources/suitescript.shtml");
+
+            URL_Add("SuiteScript", "https://www.netsuite.com/portal/developers/resources/suitescript.shtml");
+
+            URL_Add("encyclopedic", "https://en.wiktionary.org/wiki/encyclopedic#Adjective");
+
+            URL_Add("fiancée", "https://en.wiktionary.org/wiki/fianc%C3%A9e#Noun");
+
+            URL_Add("polymorphism", "https://en.wikipedia.org/wiki/Polymorphism_(computer_science)");
+
+            URL_Add("secret", "https://en.wiktionary.org/wiki/secret#Noun");
+
+            URL_Add("sudo", "https://en.wikipedia.org/wiki/Sudo");
+
+            URL_Add("work in progress", "https://en.wiktionary.org/wiki/WIP#Noun");
+
+
 
 
 
@@ -27823,10 +27895,10 @@ namespace OverflowHelper.core
 
             string presumedURL = "pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_";
 
-            //For now. 
+            //For now.
             if (false) //We want to revert to this. Perhaps make it
-                       //configurable/dynamic on generation time, 
-                       //e.g. a command-line parameter or 
+                       //configurable/dynamic on generation time,
+                       //e.g. a command-line parameter or
                        //environment variable?
             {
                 //Only outcommented for avoid a compiler warning
