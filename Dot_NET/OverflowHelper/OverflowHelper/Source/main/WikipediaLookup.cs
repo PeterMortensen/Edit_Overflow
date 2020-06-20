@@ -4147,6 +4147,10 @@ namespace OverflowHelper.core
             correctionAdd("specs", "specification"); //Not 100% correct - plural.
             correctionAdd("specificaiton", "specification");
             correctionAdd("specficiation", "specification");
+            correctionAdd("Specifiction", "specification");
+            correctionAdd("specifiction", "specification");
+            correctionAdd("spcefication", "specification");
+            correctionAdd("Spcefication", "specification");
 
             correctionAdd("midlet", "MIDlet");
 
@@ -4956,6 +4960,8 @@ namespace OverflowHelper.core
             correctionAdd("for excample", "for example");
             correctionAdd("for exmaple", "for example");
             correctionAdd("for exsample", "for example");
+            correctionAdd("for EXP", "for example");
+            correctionAdd("for exp", "for example");
 
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
@@ -6453,6 +6459,7 @@ namespace OverflowHelper.core
             correctionAdd("alorithum", "algorithm");
             correctionAdd("Algorithms", "algorithm");
             correctionAdd("algorithms", "algorithm");
+            correctionAdd("algorithem", "algorithm");
 
             correctionAdd("nfc", "NFC");
 
@@ -6623,6 +6630,7 @@ namespace OverflowHelper.core
             correctionAdd("object oriented programming", "object-oriented programming");
             correctionAdd("object orientated programming", "object-oriented programming");
             correctionAdd("OOP", "object-oriented programming");
+            correctionAdd("O.O.P", "object-oriented programming");
 
             correctionAdd("squeak", "Squeak");
 
@@ -9606,6 +9614,7 @@ namespace OverflowHelper.core
             correctionAdd("qn", "question");
             correctionAdd("queston", "question");
             correctionAdd("qusetion", "question");
+            correctionAdd("Question", "question");
 
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -9823,6 +9832,8 @@ namespace OverflowHelper.core
             correctionAdd("diffrent", "different");
             correctionAdd("diferent", "different");
             correctionAdd("differemt", "different");
+            correctionAdd("diffrernt", "different");
+            correctionAdd("differernt", "different");
 
             correctionAdd("beyong", "beyond");
 
@@ -10200,6 +10211,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thnx", "thanks");
             correctionAdd("thans", "thanks");
+            correctionAdd("thx", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -11472,6 +11484,8 @@ namespace OverflowHelper.core
             correctionAdd("flex-box", "Flexbox");
             correctionAdd("flex box", "Flexbox");
             correctionAdd("FLEXBOX", "Flexbox");
+            correctionAdd("CSS flex", "Flexbox");
+            correctionAdd("CSS flexbox", "Flexbox");
 
             correctionAdd("incase", "in case");
             correctionAdd("Incase", "in case");
@@ -13176,6 +13190,7 @@ namespace OverflowHelper.core
             correctionAdd("monetization", "monetisation");
             correctionAdd("monitasation", "monetisation");
             correctionAdd("monitisation", "monetisation");
+            correctionAdd("monitasion", "monetisation");
 
             correctionAdd("on wards", "onwards");
 
@@ -15747,6 +15762,7 @@ namespace OverflowHelper.core
             correctionAdd("Defensibility", "defensibility");
 
             correctionAdd("Euro", "euro");
+            correctionAdd("EURO", "euro");
 
             correctionAdd("fallow", "follow");
 
@@ -17148,6 +17164,7 @@ namespace OverflowHelper.core
             correctionAdd("documention", "documentation");
             correctionAdd("DOCS", "documentation");
             correctionAdd("doucmentation", "documentation");
+            correctionAdd("socumentation", "documentation");
 
             correctionAdd("Dox", "doxx");
             correctionAdd("dox", "doxx");
@@ -17471,6 +17488,7 @@ namespace OverflowHelper.core
             correctionAdd("alledge", "allege");
 
             correctionAdd("co worker", "coworker");
+            correctionAdd("co-worker", "coworker");
 
             correctionAdd("Venv", "venv");
 
@@ -17641,6 +17659,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
             correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math", "Mathematics (Stack Exchange site)");
 
             correctionAdd("Physics SE", "Physics (Stack Exchange site)");
             correctionAdd("physics SE", "Physics (Stack Exchange site)");
@@ -17966,6 +17985,35 @@ namespace OverflowHelper.core
             correctionAdd("SUDO", "sudo");
 
             correctionAdd("WIP", "work in progress");
+
+            correctionAdd("Estern Europe", "Eastern Europe");
+
+            correctionAdd("Linux Kernel", "Linux kernel");
+            correctionAdd("linux kernel", "Linux kernel");
+
+            correctionAdd("Aeronautics", "aeronautics");
+
+            correctionAdd("altrenative", "alternative");
+
+            correctionAdd("domen", "domain");
+
+            correctionAdd("Favicon", "favicon");
+
+            correctionAdd("hanling", "handling");
+
+            correctionAdd("ioen", "join");
+
+            correctionAdd("linemanager", "line manager");
+            correctionAdd("line-manager", "line manager");
+
+            correctionAdd("sceptisicm", "scepticism");
+
+            correctionAdd("seperate the wheat from the chaff", "separate the wheat from the chaff");
+
+            correctionAdd("sir name", "surname");
+            correctionAdd("sirname", "surname");
+
+            correctionAdd("un-follow", "unfollow");
 
 
 
@@ -27280,6 +27328,34 @@ namespace OverflowHelper.core
 
             URL_Add("work in progress", "https://en.wiktionary.org/wiki/WIP#Noun");
 
+            URL_Add("Eastern Europe", "https://en.wiktionary.org/wiki/Eastern_Europe#Proper_noun");
+
+            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
+
+            URL_Add("aeronautics", "https://en.wikipedia.org/wiki/Aeronautics");
+
+            URL_Add("alternative", "https://en.wiktionary.org/wiki/alternative#Noun");
+
+            URL_Add("domain", "https://en.wiktionary.org/wiki/domain#Noun");
+
+            URL_Add("favicon", "https://en.wikipedia.org/wiki/Favicon");
+
+            URL_Add("handling", "https://en.wiktionary.org/wiki/handle#Verb");
+
+            URL_Add("join", "https://en.wikipedia.org/wiki/Linux_kernel");
+
+            URL_Add("line manager", "https://en.wiktionary.org/wiki/line_manager#Noun");
+
+            URL_Add("scepticism", "https://en.wiktionary.org/wiki/scepticism#Noun");
+
+            URL_Add("separate the wheat from the chaff", "https://en.wiktionary.org/wiki/separate_the_wheat_from_the_chaff#Verb");
+
+            URL_Add("surname", "https://en.wiktionary.org/wiki/surname#Noun");
+
+            URL_Add("unfollow", "https://en.wiktionary.org/wiki/unfollow#Verb");
+
+
+
 
 
 
@@ -28073,5 +28149,6 @@ namespace OverflowHelper.core
 
 
 } //namespace OverflowHelper.core
+
 
 
