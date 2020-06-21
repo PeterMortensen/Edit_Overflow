@@ -101,7 +101,7 @@ namespace OverflowHelper.core
          *                                                                          *
          *    Example of line that will match:                                      *
          *                                                                          *
-         *      XXXXXX                                                              *
+         *      "auto p=new Son();"                                                 *
          *                                                                          *
          ****************************************************************************/
         public string missingSpaceAroundEqualSign()
@@ -203,6 +203,21 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
+         ****************************************************************************/
+        public string missingSpaceAroundOperators()
+        {
+            string toAdd = @"\S&&|&&\S";
+
+            return toAdd;
+        } //missingSpaceAroundOperators()
+
+
+        /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
         public string combinedAllOfRegularExpressions()
@@ -253,6 +268,9 @@ namespace OverflowHelper.core
                 mScratchSB.Append("|");
 
                 mScratchSB.Append(spaceAfterLeftParenthesisRegex());
+                mScratchSB.Append("|");
+
+                mScratchSB.Append(missingSpaceAroundOperators());
             }
 
             mScratchSB.Append(")");
