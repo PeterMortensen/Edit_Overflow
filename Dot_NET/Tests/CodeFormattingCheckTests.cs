@@ -80,8 +80,6 @@ namespace CodeFormattingCheckTests
                 Assert.IsFalse(
                     RegExExecutor.match("auto p = new Son();",
                                         cfCheck.missingSpaceAroundEqualSign()));
-
-
             }
 
             {
@@ -109,7 +107,42 @@ namespace CodeFormattingCheckTests
             }
 
 
-        } //XXXXX
+        } //RegExExecutor_basics()
+
+
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        [Test]
+        public void tightOperators()
+        {
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+                
+                // Bad code should be detected
+                string badCode = "if($fn&&$em)";
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundOperators()));
+                    
+                // Variation of input    
+                Assert.IsTrue(
+                    RegExExecutor.match("if($fn &&$em)", cfCheck.missingSpaceAroundOperators()));
+                Assert.IsTrue(
+                    RegExExecutor.match("if($fn&& $em)", cfCheck.missingSpaceAroundOperators()));
+
+                // Also using the full regular expression
+                Assert.IsTrue(
+                   RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
+
+                // Corresponding fixed code, with the full regular 
+                // expression to catch false positives
+                Assert.IsFalse(
+                    RegExExecutor.match("if($fn && $em)",
+                                        cfCheck.combinedAllOfRegularExpressions()));
+            }
+
+        } //RegExExecutor_basics()
+
 
 
 
