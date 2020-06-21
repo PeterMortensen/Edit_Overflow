@@ -11357,6 +11357,7 @@ namespace OverflowHelper.core
             correctionAdd("duck duck go", "DuckDuckGo");
             correctionAdd("Duckduckgo", "DuckDuckGo");
             correctionAdd("DuckDockGo", "DuckDuckGo");
+            correctionAdd("DuckDuck", "DuckDuckGo");
 
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
@@ -18014,6 +18015,15 @@ namespace OverflowHelper.core
             correctionAdd("sirname", "surname");
 
             correctionAdd("un-follow", "unfollow");
+
+            correctionAdd("esl", "ESL");
+
+            correctionAdd("network engineering", "Network Engineering");
+
+            correctionAdd("depriciation", "deprecation");
+
+            correctionAdd("publically", "publicly");
+            correctionAdd("pubically", "publicly");
 
 
 
@@ -27354,8 +27364,13 @@ namespace OverflowHelper.core
 
             URL_Add("unfollow", "https://en.wiktionary.org/wiki/unfollow#Verb");
 
+            URL_Add("ESL", "https://en.wiktionary.org/wiki/ESL#Noun");
 
+            URL_Add("Network Engineering", "https://networkengineering.stackexchange.com/tour");
 
+            URL_Add("deprecation", "https://en.wiktionary.org/wiki/deprecation#Noun");
+
+            URL_Add("publicly", "https://en.wiktionary.org/wiki/publicly#Adverb");
 
 
 
