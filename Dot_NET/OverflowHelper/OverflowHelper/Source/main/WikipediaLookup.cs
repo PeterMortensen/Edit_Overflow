@@ -6308,6 +6308,7 @@ namespace OverflowHelper.core
             correctionAdd("contructor", "constructor");
             correctionAdd("ctr", "constructor");
             correctionAdd("CTor", "constructor");
+            correctionAdd("Constructor", "constructor");            
 
             correctionAdd("cli", "CLI");
 
@@ -10346,6 +10347,7 @@ namespace OverflowHelper.core
             correctionAdd("feasable", "feasible");
 
             correctionAdd("Schrodinger", "Schrödinger equation");
+            correctionAdd("Schroedinger's equation", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -11730,6 +11732,7 @@ namespace OverflowHelper.core
             correctionAdd("pwa", "progressive web application");
 
             correctionAdd("RWD", "responsive web design");
+            correctionAdd("responsive design", "responsive web design");
 
             correctionAdd("themself", "themselves");
 
@@ -12028,6 +12031,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Truely", "truly");
             correctionAdd("truely", "truly");
+            correctionAdd("trully", "truly");
 
             correctionAdd("Voilla", "voilà");
             correctionAdd("voila", "voilà");
@@ -14416,6 +14420,9 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
             correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
             correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("visual studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("Visual Studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Express");
 
             correctionAdd("concent", "consent");
 
@@ -15063,6 +15070,8 @@ namespace OverflowHelper.core
             correctionAdd("Asuming", "assuming");
 
             correctionAdd("atribute", "attribute");
+            correctionAdd("Attribut", "attribute");
+            correctionAdd("attribut", "attribute");
 
             correctionAdd("conjuction", "conjunction");
 
@@ -15966,6 +15975,7 @@ namespace OverflowHelper.core
 
             correctionAdd("double Fianchetto", "double fianchetto"); // Chess
             correctionAdd("finchetto", "fianchetto"); // Chess
+            correctionAdd("finneketto", "fianchetto");
 
             correctionAdd("Fianchetto", "fianchetto"); // Chess
             correctionAdd("fiensketö", "fianchetto"); // Chess
@@ -16111,6 +16121,15 @@ namespace OverflowHelper.core
             correctionAdd("open sicilian", "Open Sicilian"); // Chess
 
             correctionAdd("French Exchange", "French Defence, Exchange Variation"); // Chess
+
+            correctionAdd("POG champs", "PogChamps");  // Chess. Is it actually chess-related, or "PogChamp"? - see e.g. <https://knowyourmeme.com/memes/pogchamp> and <https://internet-meme.fandom.com/wiki/PogChamp>
+            correctionAdd("pog champs", "PogChamps"); // Chess
+            correctionAdd("pogchamps", "PogChamps"); // Chess
+            correctionAdd("PogChamp", "PogChamps"); // Chess
+            correctionAdd("Pog Champ", "PogChamps"); // Chess
+            correctionAdd("Pog Champs", "PogChamps"); // Chess
+
+            correctionAdd("zwichenzug", "zwischenzug"); // Chess
 
 
             correctionAdd("demonitisation", "demonetisation");
@@ -18024,6 +18043,42 @@ namespace OverflowHelper.core
 
             correctionAdd("publically", "publicly");
             correctionAdd("pubically", "publicly");
+
+            correctionAdd("business insider", "Business Insider");
+
+            correctionAdd("Electrovoice", "Electro-Voice");
+            correctionAdd("Electro VOICE", "Electro-Voice");
+            correctionAdd("Electro Voice", "Electro-Voice");
+            correctionAdd("ElectroVoice", "Electro-Voice");
+
+            correctionAdd("highlander", "Highlander");
+
+            correctionAdd("Lambo", "Lamborghini");
+            correctionAdd("lambo", "Lamborghini");
+
+            correctionAdd("pytorch", "PyTorch");
+
+            correctionAdd("pelican", "Sveshnikov Variation (Lasker–Pelikan)");
+
+            correctionAdd("mythical manmonth", "The Mythical Man-Month");
+
+            correctionAdd("udacity", "Udacity");
+
+            correctionAdd("wall street", "Wall Street");
+
+            correctionAdd("entrepeneur", "entrepreneur");
+
+            correctionAdd("Fizz buzz", "fizz buzz");
+            correctionAdd("FizzBuzz", "fizz buzz");
+
+            correctionAdd("nick name", "nickname");
+            correctionAdd("Nickname", "nickname");
+
+            correctionAdd("Regression Testing", "regression testing");
+
+            correctionAdd("remebered", "remembered");
+
+            correctionAdd("uv", "ultraviolet");
 
 
 
@@ -27372,6 +27427,39 @@ namespace OverflowHelper.core
 
             URL_Add("publicly", "https://en.wiktionary.org/wiki/publicly#Adverb");
 
+            URL_Add("Business Insider", "https://en.wikipedia.org/wiki/Business_Insider");
+
+            URL_Add("Electro-Voice", "https://en.wikipedia.org/wiki/Electro-Voice");
+
+            URL_Add("Highlander", "https://en.wikipedia.org/wiki/Highlander_(film)");
+
+            URL_Add("Lamborghini", "https://en.wikipedia.org/wiki/Lamborghini#Automobiles");
+
+            URL_Add("PogChamps", "https://www.chess.com/article/view/chesscom-pogchamps");
+
+            URL_Add("PyTorch", "https://en.wikipedia.org/wiki/PyTorch");
+
+            URL_Add("Sveshnikov Variation (Lasker–Pelikan)", "https://en.wikipedia.org/wiki/Sicilian_Defence#Sveshnikov_Variation:_4...Nf6_5.Nc3_e5");
+
+            URL_Add("The Mythical Man-Month", "https://en.wikipedia.org/wiki/The_Mythical_Man-Month");
+
+            URL_Add("Udacity", "https://en.wikipedia.org/wiki/Udacity");
+
+            URL_Add("Wall Street", "https://en.wikipedia.org/wiki/Wall_Street");
+
+            URL_Add("entrepreneur", "https://en.wiktionary.org/wiki/entrepreneur#Noun");
+
+            URL_Add("fizz buzz", "https://en.wikipedia.org/wiki/Fizz_buzz");
+
+            URL_Add("nickname", "https://en.wiktionary.org/wiki/nickname#Noun");
+
+            URL_Add("regression testing", "https://en.wikipedia.org/wiki/Regression_testing");
+
+            URL_Add("remembered", "https://en.wiktionary.org/wiki/remember#Verb");
+
+            URL_Add("ultraviolet", "https://en.wikipedia.org/wiki/Ultraviolet");
+            
+            URL_Add("zwischenzug", "https://en.wikipedia.org/wiki/Zwischenzug");
 
 
 
