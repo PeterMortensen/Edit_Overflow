@@ -143,7 +143,7 @@ xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 #
 echo
 echo
-echo 'Copying files to build folder...'
+echo '1. Copying files to build folder...'
 echo
 
 mkdir -p $WORKFOLDER1
@@ -202,7 +202,7 @@ cd $WORKFOLDER
 #
 echo
 echo
-echo 'Start running unit tests...'
+echo '2. Start running unit tests...'
 echo
 
 # Note: unlike "dotnet run", "dotnet test" does not
@@ -257,7 +257,7 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 echo
 echo
-echo 'Exporting the word list as SQL...'
+echo '3. Exporting the word list as SQL...'
 echo
 export WORDLIST_OUTPUTTYPE=SQL
 dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
@@ -268,7 +268,7 @@ dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_F
 # Some redundancy here - to be eliminated
 echo
 echo
-echo 'Exporting the word list as HTML...'
+echo '4. Exporting the word list as HTML...'
 echo
 export WORDLIST_OUTPUTTYPE=HTML
 dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE
@@ -285,7 +285,7 @@ cp  $HTML_FILE  $HTML_FILE_GENERIC
 #
 echo
 echo
-echo 'Updating the word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
+echo '5. Updating the word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
 echo
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER} /public_html/EditOverflow/_Wordlist ; exit"
