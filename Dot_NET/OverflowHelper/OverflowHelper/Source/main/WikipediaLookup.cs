@@ -3541,6 +3541,7 @@ namespace OverflowHelper.core
             correctionAdd("aplicación", "application");
             correctionAdd("applicattion", "application");
             correctionAdd("aplplication", "application");
+            correctionAdd("applicaltion", "application");
 
             correctionAdd("directx", "DirectX");
             correctionAdd("direct x", "DirectX");
@@ -4830,6 +4831,7 @@ namespace OverflowHelper.core
             correctionAdd("i'm", "I'm");
             correctionAdd("I`m", "I'm");
             correctionAdd("I´m", "I'm");
+            correctionAdd("I'am", "I'm");
 
             correctionAdd("compass", "Compass"); //Conflicts?
 
@@ -6308,7 +6310,7 @@ namespace OverflowHelper.core
             correctionAdd("contructor", "constructor");
             correctionAdd("ctr", "constructor");
             correctionAdd("CTor", "constructor");
-            correctionAdd("Constructor", "constructor");            
+            correctionAdd("Constructor", "constructor");
 
             correctionAdd("cli", "CLI");
 
@@ -8208,6 +8210,7 @@ namespace OverflowHelper.core
             correctionAdd("Osciloscope", "oscilloscope");
             correctionAdd("osciloscope", "oscilloscope");
             correctionAdd("oscilliscope", "oscilloscope");
+            correctionAdd("oscillosope", "oscilloscope");
 
             correctionAdd("Cat 5", "Cat&nbsp;5"); // Sort of identity mapping
             correctionAdd("Cat5", "Cat&nbsp;5");
@@ -9583,6 +9586,7 @@ namespace OverflowHelper.core
             correctionAdd("DV", "downvote");
             correctionAdd("donwvote", "downvote");
             correctionAdd("down vote", "downvote");
+            correctionAdd("down vode", "downvote");
 
             correctionAdd("every", "every time"); //What is this????
             correctionAdd("everytime", "every time");
@@ -14661,6 +14665,7 @@ namespace OverflowHelper.core
             correctionAdd("word list", "wordlist");
 
             correctionAdd("work flow", "workflow");
+            correctionAdd("work-flow", "workflow");
 
             correctionAdd("XCLIP", "xclip");
 
@@ -18079,6 +18084,30 @@ namespace OverflowHelper.core
             correctionAdd("remebered", "remembered");
 
             correctionAdd("uv", "ultraviolet");
+
+            correctionAdd("gaussian", "Gaussian");
+
+            correctionAdd("Json.net", "Json.NET");
+            correctionAdd("JSON.Net", "Json.NET");
+            correctionAdd("JSON.NET", "Json.NET");
+
+            correctionAdd("laplacian", "Laplacian");
+
+            correctionAdd("pyinstaller", "PyInstaller");
+            correctionAdd("Pyinstaller", "PyInstaller");
+
+            correctionAdd("measily", "measly");
+
+            correctionAdd("naieve", "naive");
+
+            correctionAdd("preservce", "preserve");
+
+            correctionAdd("re-cast", "recast");
+
+            correctionAdd("cx_freeze", "cx_Freeze");
+            correctionAdd("CxFreeze", "cx_Freeze");
+            correctionAdd("Cxfreeze", "cx_Freeze");
+            correctionAdd("cxfreeze", "cx_Freeze");
 
 
 
@@ -27458,8 +27487,27 @@ namespace OverflowHelper.core
             URL_Add("remembered", "https://en.wiktionary.org/wiki/remember#Verb");
 
             URL_Add("ultraviolet", "https://en.wikipedia.org/wiki/Ultraviolet");
-            
+
             URL_Add("zwischenzug", "https://en.wikipedia.org/wiki/Zwischenzug");
+
+            URL_Add("Gaussian", "https://en.wiktionary.org/wiki/Gaussian#Adjective");
+
+            URL_Add("Json.NET", "https://www.newtonsoft.com/json/help/html/Introduction.htm");
+
+            URL_Add("Laplacian", "https://en.wiktionary.org/wiki/Laplacian#Adjective");
+
+            URL_Add("PyInstaller", "http://www.pyinstaller.org/");
+
+            URL_Add("measly", "https://en.wiktionary.org/wiki/measly#Adjective");
+
+            URL_Add("naive", "https://en.wiktionary.org/wiki/naive#Adjective");
+
+            URL_Add("preserve", "https://en.wiktionary.org/wiki/preserve#Verb");
+
+            URL_Add("recast", "https://en.wiktionary.org/wiki/recast#Verb");
+
+            URL_Add("cx_Freeze", "https://anthony-tuininga.github.io/cx_Freeze/");
+
 
 
 
