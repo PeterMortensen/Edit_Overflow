@@ -340,7 +340,7 @@
                         echo "value=\"$link_HTML_encoded\"\n";
                     ?>
                     style="width:650px;"
-                    accesskey="M"
+                    accesskey="H"
                     title="Shortcut: Shift + Alt + H"
                 />
 
