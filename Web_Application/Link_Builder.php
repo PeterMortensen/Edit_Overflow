@@ -53,6 +53,7 @@
             $shortMark_part1 = "Part 1";
             $shortMark_part2 = "Part 2";
             $inlineMarkdown = "Part 3";
+            $link_HTML = "Part 4";
             $IDcounter = 1;
             $emphasisStr = "*";
 
@@ -100,6 +101,32 @@
             $shortMark_part1 = "$emphasisStr$linkTextBracketed$IDref$emphasisStr";
             $shortMark_part2 = "  $IDref: $URL";
             $inlineMarkdown = "$emphasisStr$linkTextBracketed($URL)$emphasisStr";
+
+
+            # Note: Some redundancy with "EditOverflow.php"
+            #
+            # Link, in HTML format/syntax
+            #
+            #Note: We already have a utility function for this, get_HTMLlink(),
+            #      but the escaping of double quotes is in doubt. We changed
+            #      it from "&quot;" to "%22" (in get_HTMLattributeEscaped()).
+            #
+            #      That does not work in this case - we get the literal "%22"
+            #      in the (user facing) output.
+            #
+            #      It ought to be resolved, so we don't have
+            #      this redundancy
+            #
+            #$link_HTML = get_HTMLlink($correctTerm,
+            #                          $URL,
+            #                          "");
+            #
+            # Using double quotes in the form may result in "%22" due
+            # to our own function, get_HTMLattributeEscaped().
+            #
+            $link_HTML =
+              "<a href=\"" . $URL . "\"" .
+              ">" . $linkText . "</a>";
 
 
             # For the accumulative feature (we remember past generated
@@ -262,42 +289,60 @@
 
                 <p></p>
 
-                    <label for="ShortMark_part1">Short Markdown, tex<u>t</u></label>
-                    <input
-                        name="ShortMark_part1"
-                        type="text"
-                        id="ShortMark_part1"
-                        class="XX20"
-                        <?php the_formValue($shortMark_part1); ?>
-                        style="width:600px;"
-                        accesskey="T"
-                        title="Shortcut: Shift + Alt + T"
-                    />
+                <label for="ShortMark_part1">Short Markdown, tex<u>t</u></label>
+                <input
+                    name="ShortMark_part1"
+                    type="text"
+                    id="ShortMark_part1"
+                    class="XX20"
+                    <?php the_formValue($shortMark_part1); ?>
+                    style="width:600px;"
+                    accesskey="T"
+                    title="Shortcut: Shift + Alt + T"
+                />
 
-                    <label for="ShortMark_part1">Short Markdown, re<u>f</u>erence</label>
-                    <input
-                        name="ShortMark_part2"
-                        type="text"
-                        id="ShortMark_part2"
-                        class="XX21"
-                        <?php the_formValue($shortMark_part2); ?>
-                        style="width:450px;"
-                        accesskey="F"
-                        title="Shortcut: Shift + Alt + F"
-                    />
+                <label for="ShortMark_part1">Short Markdown, re<u>f</u>erence</label>
+                <input
+                    name="ShortMark_part2"
+                    type="text"
+                    id="ShortMark_part2"
+                    class="XX21"
+                    <?php the_formValue($shortMark_part2); ?>
+                    style="width:450px;"
+                    accesskey="F"
+                    title="Shortcut: Shift + Alt + F"
+                />
 
 
-                    <label for="inlineMarkdown">Inline <u>M</u>arkdown</label>
-                    <input
-                        name="inlineMarkdown"
-                        type="text"
-                        id="inlineMarkdown"
-                        class="XX22"
-                        <?php the_formValue($inlineMarkdown); ?>
-                        style="width:650px;"
-                        accesskey="M"
-                        title="Shortcut: Shift + Alt + M"
-                    />
+                <label for="inlineMarkdown">Inline <u>M</u>arkdown</label>
+                <input
+                    name="inlineMarkdown"
+                    type="text"
+                    id="inlineMarkdown"
+                    class="XX22"
+                    <?php the_formValue($inlineMarkdown); ?>
+                    style="width:650px;"
+                    accesskey="M"
+                    title="Shortcut: Shift + Alt + M"
+                />
+
+
+                <label for="HTML_link"><u>H</u>TML</label>
+                <input
+                    name="HTML_link"
+                    type="text"
+                    id="HTML_link"
+                    class="XX26"
+                    <?php
+                        # Note: Some redundancy with "EditOverflow.php"
+
+                        $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
+                        echo "value=\"$link_HTML_encoded\"\n";
+                    ?>
+                    style="width:650px;"
+                    accesskey="M"
+                    title="Shortcut: Shift + Alt + H"
+                />
 
 
 
