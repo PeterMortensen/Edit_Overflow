@@ -195,9 +195,9 @@
             method="post"
             id="XYZ">
 
-            <p>Build links
-               Lin<u>k</u> text:
+            <div class="formgrid">
 
+                <label for="LinkText">Lin<u>k</u> text</label>
                 <input
                     name="LinkText"
                     type="text"
@@ -208,10 +208,8 @@
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
                 />
-            </p>
 
-            <p><u>U</u>RL:
-
+                <label for="URL"><u>U</u>RL</label>
                 <input
                     name="URL"
                     type="text"
@@ -222,108 +220,111 @@
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
                 /><?php
-                    # Perhaps later: Add links / form fields for opening the provided URL.
-                    #if (!$correctTerm)
-                    #{
-                    #    $baseIndent        = "                ";
-                    #    $EOL_andBaseIndent = "\n$baseIndent";
-                    #    echo
-                    #      "\n$EOL_andBaseIndent" .
-                    #      "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
-                    #
-                    #    # Refactoring opportunity: some redundancy
-                    #
-                    #    # Provide a link to look up the term on Wikipedia
-                    #    echo
-                    #      "<a " .
-                    #      "href=\"" .
-                    #        "https://duckduckgo.com/html/?q=" .
-                    #        "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
-                    #      "   accesskey=\"W\"$EOL_andBaseIndent" .
-                    #      "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
-                    #      ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
-                    #
-                    #    # Provide a link to look up the term on Wiktionary
-                    #    echo
-                    #      "<a " .
-                    #      "href=\"" .
-                    #        "https://duckduckgo.com/html/?q=" .
-                    #        "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
-                    #      "   accesskey=\"K\"$EOL_andBaseIndent" .
-                    #      "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
-                    #      ">Look up on Wi<strong>k</strong>tionary</a>\n";
-                    #}
+
+                # Perhaps later: Add links / form fields for opening the provided URL.
+                #if (!$correctTerm)
+                #{
+                #    $baseIndent        = "                ";
+                #    $EOL_andBaseIndent = "\n$baseIndent";
+                #    echo
+                #      "\n$EOL_andBaseIndent" .
+                #      "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
+                #
+                #    # Refactoring opportunity: some redundancy
+                #
+                #    # Provide a link to look up the term on Wikipedia
+                #    echo
+                #      "<a " .
+                #      "href=\"" .
+                #        "https://duckduckgo.com/html/?q=" .
+                #        "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
+                #      "   accesskey=\"W\"$EOL_andBaseIndent" .
+                #      "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
+                #      ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
+                #
+                #    # Provide a link to look up the term on Wiktionary
+                #    echo
+                #      "<a " .
+                #      "href=\"" .
+                #        "https://duckduckgo.com/html/?q=" .
+                #        "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
+                #      "   accesskey=\"K\"$EOL_andBaseIndent" .
+                #      "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
+                #      ">Look up on Wi<strong>k</strong>tionary</a>\n";
+                #}
                 ?>
-            </p>
 
 
-            <!-- **************************************************** -->
-            <h2>Output</h2>
+                <!-- **************************************************** -->
+                <h2>Output</h2>
 
-            <p>Short Markdown (tex<u>t</u> / re<u>f</u>erence):
+                <p></p>
 
+                <p></p>
+
+                    <label for="ShortMark_part1">Short Markdown, tex<u>t</u></label>
+                    <input
+                        name="ShortMark_part1"
+                        type="text"
+                        id="ShortMark_part1"
+                        class="XX20"
+                        <?php the_formValue($shortMark_part1); ?>
+                        style="width:600px;"
+                        accesskey="T"
+                        title="Shortcut: Shift + Alt + T"
+                    />
+
+                    <label for="ShortMark_part1">Short Markdown, re<u>f</u>erence</label>
+                    <input
+                        name="ShortMark_part2"
+                        type="text"
+                        id="ShortMark_part2"
+                        class="XX21"
+                        <?php the_formValue($shortMark_part2); ?>
+                        style="width:450px;"
+                        accesskey="F"
+                        title="Shortcut: Shift + Alt + F"
+                    />
+
+
+                    <label for="inlineMarkdown">Inline <u>M</u>arkdown</label>
+                    <input
+                        name="inlineMarkdown"
+                        type="text"
+                        id="inlineMarkdown"
+                        class="XX22"
+                        <?php the_formValue($inlineMarkdown); ?>
+                        style="width:650px;"
+                        accesskey="M"
+                        title="Shortcut: Shift + Alt + M"
+                    />
+
+
+
+                <!-- Hidden field, close to the output format for
+                     the edit summary
+
+                  Sample:
+
+                    <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
+
+                -->
+
+
+                <!-- Hidden field, structured format for the edit summary -->
+                <!--
                 <input
-                    name="ShortMark_part1"
-                    type="text"
-                    id="ShortMark_part1"
-                    class="XX20"
-                    <?php the_formValue($shortMark_part1); ?>
-                    style="width:600px;"
-                    accesskey="T"
-                    title="Shortcut: Shift + Alt + T"
+                    name="URLlist_encoded"
+                    type="hidden"
+                    id="URLlist_encoded"
+                    class="XYZ23"
+                    <?php the_formValue($URLlist_encoded); ?>
                 />
-
-                <input
-                    name="ShortMark_part2"
-                    type="text"
-                    id="ShortMark_part2"
-                    class="XX21"
-                    <?php the_formValue($shortMark_part2); ?>
-                    style="width:450px;"
-                    accesskey="F"
-                    title="Shortcut: Shift + Alt + F"
-                />
-            </p>
-
-            <p>Inline <u>M</u>arkdown:
-
-                <input
-                    name="inlineMarkdown"
-                    type="text"
-                    id="inlineMarkdown"
-                    class="XX22"
-                    <?php the_formValue($inlineMarkdown); ?>
-                    style="width:650px;"
-                    accesskey="M"
-                    title="Shortcut: Shift + Alt + M"
-                />
-            </p>
+                -->
 
 
-            <!-- Hidden field, close to the output format for
-                 the edit summary
+                <!-- Reset lookup / edit summary state  -->
 
-              Sample:
-
-                <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
-
-            -->
-
-
-            <!-- Hidden field, structured format for the edit summary -->
-            <!--
-            <input
-                name="URLlist_encoded"
-                type="hidden"
-                id="URLlist_encoded"
-                class="XYZ23"
-                <?php the_formValue($URLlist_encoded); ?>
-            />
-            -->
-
-
-            <!-- Reset lookup / edit summary state  -->
-            <p><u>R</u>eset lookup state:
                 <input
                     name="resetState"
                     type="checkbox"
@@ -332,24 +333,26 @@
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
                 />
-            </p>
+                <label for="resetState"><u>R</u>eset lookup state</label>  <!-- The order matters! -->
 
-            <!-- Submit button  -->
-            <!-- For 'value' (the displayed text in the button), tags 'u'
-                 or 'strong' do not work!! -->
-            <input
-                name="LookUp"
-                type="submit"
-                id="LookUp"
-                class="XYZ03"
-                value="Generate"
-                style="width:75px;"
-                accesskey="U"
-                title="Shortcut: Shift + Alt + U"
-            />
+
+                <!-- Submit button  -->
+                <!-- For 'value' (the displayed text in the button), tags 'u'
+                     or 'strong' do not work!! -->
+                <input
+                    name="LookUp"
+                    type="submit"
+                    id="LookUp"
+                    class="XYZ03"
+                    value="Generate"
+                    style="width:100px;"
+                    accesskey="U"
+                    title="Shortcut: Shift + Alt + U"
+                />
+
+            </div>
+
         </form><?php the_EditOverflowFooter(); ?>
-
-
 
 
             <!--
