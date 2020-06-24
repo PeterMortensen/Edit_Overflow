@@ -4279,6 +4279,7 @@ namespace OverflowHelper.core
             correctionAdd("agurment", "argument");
             correctionAdd("arugument", "argument");
             correctionAdd("arguement", "argument");
+            correctionAdd("Arg", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -5580,6 +5581,9 @@ namespace OverflowHelper.core
             correctionAdd("eth", "Ethernet");
 
             correctionAdd("f#", "F#");
+            correctionAdd("Fsharp", "F#");
+            correctionAdd("fsharp", "F#");
+            correctionAdd("FSharp", "F#");
 
             correctionAdd("c", "C"); //Possible conflicts!!!
 
@@ -8183,6 +8187,7 @@ namespace OverflowHelper.core
             correctionAdd("let`s", "let’s");
 
             correctionAdd("disambig", "disambiguation");
+            correctionAdd("disambugation", "disambiguation");
 
             correctionAdd("wud", "would");
             correctionAdd("whould", "would");
@@ -15400,6 +15405,9 @@ namespace OverflowHelper.core
 
             correctionAdd(".NETStandard", ".NET Standard");
             correctionAdd(".netstandard", ".NET Standard");
+            correctionAdd("net standard", ".NET Standard");
+            correctionAdd(".net standard", ".NET Standard");
+            correctionAdd(".NET standard", ".NET Standard");
 
             correctionAdd("Dotnet CLI", ".NET CLI");
             correctionAdd("Dotnet cli", ".NET CLI");
@@ -16496,6 +16504,7 @@ namespace OverflowHelper.core
             correctionAdd("yacc", "Yacc");
 
             correctionAdd("controll", "control");
+            correctionAdd("contol", "control");
 
             correctionAdd("fatique", "fatigue");
 
@@ -18108,6 +18117,20 @@ namespace OverflowHelper.core
             correctionAdd("CxFreeze", "cx_Freeze");
             correctionAdd("Cxfreeze", "cx_Freeze");
             correctionAdd("cxfreeze", "cx_Freeze");
+
+            correctionAdd("eiffel", "Eiffel");
+
+            correctionAdd("enter", "Enter");
+
+            correctionAdd("gpa", "GPA");
+
+            correctionAdd("git-book", "Pro Git");
+
+            correctionAdd("bee", "be");
+
+            correctionAdd("opied", "copied");
+
+            correctionAdd("procederal", "procedural");
 
 
 
@@ -27507,6 +27530,20 @@ namespace OverflowHelper.core
             URL_Add("recast", "https://en.wiktionary.org/wiki/recast#Verb");
 
             URL_Add("cx_Freeze", "https://anthony-tuininga.github.io/cx_Freeze/");
+
+            URL_Add("Eiffel", "https://en.wikipedia.org/wiki/Eiffel_(programming_language)");
+
+            URL_Add("Enter", "https://en.wikipedia.org/wiki/Enter_key");
+
+            URL_Add("GPA", "https://en.wiktionary.org/wiki/GPA#Noun");
+
+            URL_Add("Pro Git", "https://git-scm.com/book/en/v2");
+
+            URL_Add("be", "https://en.wiktionary.org/wiki/be#Verb");
+
+            URL_Add("copied", "https://en.wiktionary.org/wiki/copy#Verb");
+
+            URL_Add("procedural", "https://en.wiktionary.org/wiki/procedural#Adjective");
 
 
 
