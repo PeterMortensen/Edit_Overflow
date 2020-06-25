@@ -24,7 +24,7 @@ using OverflowHelper.core;
 
 
 
-//What namespace to use?
+//What namespace should we use?
 /****************************************************************************
  *    <placeholder for header>                                              *
  ****************************************************************************/
@@ -66,7 +66,7 @@ namespace CodeFormattingCheckTests
         {
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-                
+
                 // Bad code should be detected
                 string badCode = "auto p=new Son();";
                 Assert.IsTrue(
@@ -116,34 +116,92 @@ namespace CodeFormattingCheckTests
         [Test]
         public void tightOperators()
         {
+            CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+            // Shortcuts / aliases
+            string regex     = cfCheck.missingSpaceAroundOperators();
+            string regex_All = cfCheck.combinedAllOfRegularExpressions();
+
+
+            // Write it out early as any failed test will result in
+            // no output...
+            //
+            TestContext.WriteLine("Output from the unit test!!!!!!!!!!!!!!!!!!!!!");
+
+            // For debugging, etc.
+            TestContext.WriteLine("All regular expressions: " + regex_All);
+
+
             {
-                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-                
                 // Bad code should be detected
                 string badCode = "if($fn&&$em)";
                 Assert.IsTrue(
-                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundOperators()));
-                    
-                // Variation of input    
+                    RegExExecutor.match(badCode, regex));
+
+                // Variation of input
                 Assert.IsTrue(
-                    RegExExecutor.match("if($fn &&$em)", cfCheck.missingSpaceAroundOperators()));
+                    RegExExecutor.match("if($fn &&$em)", regex));
                 Assert.IsTrue(
-                    RegExExecutor.match("if($fn&& $em)", cfCheck.missingSpaceAroundOperators()));
+                    RegExExecutor.match("if($fn&& $em)", regex));
 
                 // Also using the full regular expression
                 Assert.IsTrue(
-                   RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
+                   RegExExecutor.match(badCode, regex_All));
 
-                // Corresponding fixed code, with the full regular 
+                // Corresponding fixed code, with the full regular
                 // expression to catch false positives
                 Assert.IsFalse(
-                    RegExExecutor.match("if($fn && $em)",
-                                        cfCheck.combinedAllOfRegularExpressions()));
+                    RegExExecutor.match("if($fn && $em)", regex_All));
             }
 
-        } //RegExExecutor_basics()
+            {
+                // Bad code should be detected
+                string badCode = "$ARGV[0].\" \".$ARGV[2];";
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, regex));
+
+                // Variation of input - space to either side
+                Assert.IsTrue(
+                    RegExExecutor.match("$ARGV[0] .\"", regex));
+                Assert.IsTrue(
+                    RegExExecutor.match("$ARGV[0]. \"", regex));
+
+                // Test for false positives (for numbers)
+                Assert.IsFalse(
+                    RegExExecutor.match("1.56456", regex));
+                Assert.IsFalse(
+                    RegExExecutor.match(" = .56", regex));
+
+                // We have "." in many places where we don't want it to
+                // match (false positive matches)
+                Assert.IsFalse(
+                    RegExExecutor.match("get started...", regex));
+                Assert.IsFalse(
+                    RegExExecutor.match("using System.Text;", regex));
 
 
+                // Also using the full regular expression
+                Assert.IsTrue(
+                   RegExExecutor.match(badCode, regex_All));
+
+                // Corresponding fixed code, with the full regular
+                // expression to catch false positives. It also important
+                // to catch if they match too much (even matching
+                // everything!)
+                //
+                //     $ARGV[0] . " " . $ARGV[2];
+                //
+                Assert.IsFalse(
+                    RegExExecutor.match("$ARGV[0] . \" \" . $ARGV[2];",
+                                        regex_All));
+
+                //Assert.IsFalse(true); // TestContext.WriteLine() only
+                                        // works if it fails.
+
+            }
+
+
+        } //tightOperators()
 
 
     } //class CodeFormattingCheckTests
