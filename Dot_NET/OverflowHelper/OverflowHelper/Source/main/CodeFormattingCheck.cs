@@ -211,7 +211,38 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public string missingSpaceAroundOperators()
         {
-            string toAdd = @"\S&&|&&\S";
+            // Meta: Escaping double quotes in string:
+            //
+            //         <https://stackoverflow.com/questions/14480724>
+
+
+            // That is, around operators:
+            //
+            //   &&    Logical AND
+            //    .    String concatenation in e.g. Perl and PHP
+
+            // Note: No "|" after the last term
+            //
+            string toAdd = @"\S&&" + "|" + @"&&\S" + "|" +
+
+                           // One possible strategy is a negative list (exclude
+                           // space and numbers):
+                           //
+                           //     [^ \d]
+                           //
+                           // But "." is used in many places, e.g. "using System.Text;"
+                           //
+                           // But we go a positive list: string literals by quotes,
+                           // variables with "$", and array indexing ("[]")
+
+                           @"['\""\]]\."  + "|" +   // Missing space to the left
+                                                    // of "." (unless a number)
+
+
+                           @"\.['\""\]]" + "" +     // Missing space to the right
+                                                    // of "." (unless a number)
+
+                           "";
 
             return toAdd;
         } //missingSpaceAroundOperators()
