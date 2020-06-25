@@ -14426,12 +14426,15 @@ namespace OverflowHelper.core
 
             correctionAdd("openntp", "OpenNTPD");
 
-            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express"); // Sort of identity mapping
             correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
             correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
-            correctionAdd("visual studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Express");
-            correctionAdd("Visual Studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Express");
-            correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Express");
+
+            correctionAdd("Visual Studio 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community"); // Sort of identity mapping
+            correctionAdd("visual studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("Visual Studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("VS 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community");
 
             correctionAdd("concent", "consent");
 
@@ -24603,50 +24606,6 @@ namespace OverflowHelper.core
 
             URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
 
-            URL_Add("Solution&nbsp;Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
-
-            URL_Add("Visual&nbsp;Basic&nbsp;2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
-            URL_Add("Visual&nbsp;Basic&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
-            URL_Add("Visual&nbsp;Basic&nbsp;2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
-
-            URL_Add("Visual&nbsp;C#&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
-
-            URL_Add("Visual&nbsp;C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
-
-            URL_Add("Visual&nbsp;C++&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
-
-            URL_Add("Visual&nbsp;Studio Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
-
-            URL_Add("Visual&nbsp;Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
-
-            URL_Add("Visual&nbsp;Studio", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2005");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2008");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2010");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2012");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2013");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2015 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2015%E2%80%932017_products");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2015", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
-
-            URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
-
             URL_Add("Zune", "https://en.wikipedia.org/wiki/Zune");
 
             URL_Add("deep learning", "https://en.wikipedia.org/wiki/Deep_learning");
@@ -27544,6 +27503,52 @@ namespace OverflowHelper.core
             URL_Add("copied", "https://en.wiktionary.org/wiki/copy#Verb");
 
             URL_Add("procedural", "https://en.wiktionary.org/wiki/procedural#Adjective");
+
+            URL_Add("Solution&nbsp;Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
+
+            URL_Add("Visual&nbsp;Basic&nbsp;2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+
+            URL_Add("Visual&nbsp;Basic&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+
+            URL_Add("Visual&nbsp;Basic&nbsp;2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+
+            URL_Add("Visual&nbsp;C#&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
+
+            URL_Add("Visual&nbsp;C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
+
+            URL_Add("Visual&nbsp;C++&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+
+            URL_Add("Visual&nbsp;Studio Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+
+            URL_Add("Visual&nbsp;Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
+
+            URL_Add("Visual&nbsp;Studio", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2005");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2008");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2010");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2012");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2013");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2015 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2015%E2%80%932017_products");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2015 Community", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2015", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
 
 
 
