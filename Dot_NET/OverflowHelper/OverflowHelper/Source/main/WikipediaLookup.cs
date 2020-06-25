@@ -3985,6 +3985,7 @@ namespace OverflowHelper.core
             correctionAdd("parament", "parameter");
             correctionAdd("parametar", "parameter");
             correctionAdd("parametre", "parameter");
+            correctionAdd("Param", "parameter");
 
             correctionAdd("Ultraedit", "UltraEdit");
             correctionAdd("ultraedit", "UltraEdit");
@@ -5698,10 +5699,6 @@ namespace OverflowHelper.core
             correctionAdd("KATE", "Kate");
             correctionAdd("kate", "Kate");
 
-            correctionAdd("remote desktop", "Remote Desktop Connection");
-            correctionAdd("Remote Desktop", "Remote Desktop Connection");
-            correctionAdd("Remote desktop", "Remote Desktop Connection");
-
             correctionAdd("pic", "PIC");
             correctionAdd("Pic", "PIC");
 
@@ -6315,6 +6312,7 @@ namespace OverflowHelper.core
             correctionAdd("ctr", "constructor");
             correctionAdd("CTor", "constructor");
             correctionAdd("Constructor", "constructor");
+            correctionAdd("Ctor", "constructor");
 
             correctionAdd("cli", "CLI");
 
@@ -7864,6 +7862,7 @@ namespace OverflowHelper.core
             correctionAdd("vs 2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("visual studio 13", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("VS2103", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("MSVS2013", "Visual&nbsp;Studio&nbsp;2013");
 
             correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
             correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
@@ -8091,6 +8090,7 @@ namespace OverflowHelper.core
             correctionAdd("Unit test", "unit test");
             correctionAdd("Unit Test", "unit test");
             correctionAdd("UNIT Test", "unit test");
+            correctionAdd("unit-test", "unit test");
 
             correctionAdd("SMPS", "switched-mode power supply");
             correctionAdd("smps", "switched-mode power supply");
@@ -9078,6 +9078,7 @@ namespace OverflowHelper.core
             correctionAdd("Plz", "please"); // Not 100% correct - case.
             correctionAdd("Pls", "please"); // Not 100% correct - case.
             correctionAdd("PLease", "please");
+            correctionAdd("pleas", "please");
 
             correctionAdd("1 Liner", "one-liner");
             correctionAdd("one liner", "one-liner");
@@ -9486,6 +9487,7 @@ namespace OverflowHelper.core
 
             correctionAdd("no where", "nowhere");
             correctionAdd("nowehre", "nowhere");
+            correctionAdd("no-where", "nowhere");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -9592,6 +9594,7 @@ namespace OverflowHelper.core
             correctionAdd("donwvote", "downvote");
             correctionAdd("down vote", "downvote");
             correctionAdd("down vode", "downvote");
+            correctionAdd("Downvote", "downvote");
 
             correctionAdd("every", "every time"); //What is this????
             correctionAdd("everytime", "every time");
@@ -11697,6 +11700,7 @@ namespace OverflowHelper.core
             correctionAdd("implimenting", "implementing");
 
             correctionAdd("prefectly", "perfectly");
+            correctionAdd("perfectely", "perfectly");
 
             correctionAdd("phonemenia", "phonomena");
 
@@ -11834,6 +11838,7 @@ namespace OverflowHelper.core
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
+            correctionAdd("prograame", "program");
 
             correctionAdd("RLE", "run-length encoding");
 
@@ -12146,6 +12151,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mstest", "MSTest");
             correctionAdd("MS Test", "MSTest");
+            correctionAdd("MsTest", "MSTest");
 
             correctionAdd("MDN", "Mozilla Developer Network");
 
@@ -13017,6 +13023,7 @@ namespace OverflowHelper.core
             correctionAdd("Hello World!", "Hello, World!");
             correctionAdd("hello World", "Hello, World!");
             correctionAdd("hello-world", "Hello, World!");
+            correctionAdd("Hi Hi World", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -13611,10 +13618,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Technet", "TechNet");
 
-            correctionAdd("test-connection", "Test-Connection");
-
-            correctionAdd("test-netconnection", "Test-NetConnection");
-
             correctionAdd("Textedit", "TextEdit");
             correctionAdd("textedit", "TextEdit");
 
@@ -13712,10 +13715,6 @@ namespace OverflowHelper.core
             correctionAdd("Soundcloud", "SoundCloud");
 
             correctionAdd("condidate", "candidate");
-
-            correctionAdd("conection", "connection");
-            correctionAdd("Conntection", "connection");
-            correctionAdd("Connection", "connection");
 
             correctionAdd("containng", "containing");
             correctionAdd("containg", "containing");
@@ -14775,6 +14774,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SCM", "source control management");
             correctionAdd("scm", "source control management");
+            correctionAdd("source control", "source control management");
 
             correctionAdd("syle", "style");
 
@@ -15013,6 +15013,7 @@ namespace OverflowHelper.core
             correctionAdd("Spacy", "spaCy");
 
             correctionAdd("suprisingly", "surprisingly");
+            correctionAdd("Suprisingly", "surprisingly");
 
             correctionAdd("whit", "with");
             correctionAdd("W/", "with");
@@ -17336,6 +17337,7 @@ namespace OverflowHelper.core
             correctionAdd("re-size", "resize");
 
             correctionAdd("rund", "run");
+            correctionAdd("tun", "run"); // True typo
 
             correctionAdd("un-reputable", "unreputable");
 
@@ -18135,6 +18137,36 @@ namespace OverflowHelper.core
 
             correctionAdd("procederal", "procedural");
 
+            correctionAdd("test-connection", "Test-Connection");
+
+            correctionAdd("test-netconnection", "Test-NetConnection");
+
+            correctionAdd("remote desktop", "Remote Desktop Connection");
+            correctionAdd("Remote Desktop", "Remote Desktop Connection");
+            correctionAdd("Remote desktop", "Remote Desktop Connection");
+
+            correctionAdd("conection", "connection");
+            correctionAdd("Conntection", "connection");
+            correctionAdd("Connection", "connection");
+            correctionAdd("connexion", "connection");
+
+            correctionAdd("couchbase", "Couchbase");
+
+            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("caled", "called");
+
+            correctionAdd("check-in", "check in");
+            correctionAdd("checkin", "check in");
+
+            correctionAdd("inot", "into"); // True typo
+
+            correctionAdd("priviledged", "privileged");
+
+            correctionAdd("teh", "the"); // True typo
+
+            correctionAdd("vaild", "valid"); // True typo
 
 
             // Start of coronavirus part...
@@ -27549,6 +27581,22 @@ namespace OverflowHelper.core
             URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
 
             URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
+
+            URL_Add("Couchbase", "https://en.wikipedia.org/wiki/Couchbase_Server");
+
+            URL_Add("Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases");
+
+            URL_Add("called", "https://en.wiktionary.org/wiki/call#Verb");
+
+            URL_Add("check in", "https://en.wiktionary.org/wiki/check_in#Verb");
+
+            URL_Add("into", "https://en.wiktionary.org/wiki/into#Preposition");
+
+            URL_Add("privileged", "https://en.wiktionary.org/wiki/privileged#Adjective");
+
+            URL_Add("the", "https://en.wiktionary.org/wiki/the#Article");
+
+            URL_Add("valid", "https://en.wiktionary.org/wiki/valid#Adjective");
 
 
 
