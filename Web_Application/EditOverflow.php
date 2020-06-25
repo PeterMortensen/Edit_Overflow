@@ -260,7 +260,9 @@
             $items = array_filter($items); # Get rid of empty elements
 
             # Wrap each item in "<>" (URL encoded)
-            $items = substr_replace($items, '&lt;', 0, 0);
+            $items = substr_replace($items, '&lt;', 0, 0); # That is, insert "&lt;" at 
+                                                           # the beginning of the 
+                                                           # element of the array
             $items = preg_replace('/$/', '&gt;', $items);
             $elements = count($items);
 
