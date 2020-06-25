@@ -231,7 +231,7 @@
                     id="LinkText"
                     class="XYZ25"
                     <?php the_formValue($linkText); ?>
-                    style="width:610px;"
+                    style="width:200px;"
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
                 />
@@ -243,7 +243,7 @@
                     id="URL"
                     class="XYZ02"
                     <?php the_formValue($URL); ?>
-                    style="width:500px;"
+                    style="width:650px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
                 /><?php
@@ -296,7 +296,7 @@
                     id="ShortMark_part1"
                     class="XX20"
                     <?php the_formValue($shortMark_part1); ?>
-                    style="width:600px;"
+                    style="width:200px;"
                     accesskey="T"
                     title="Shortcut: Shift + Alt + T"
                 />
@@ -308,7 +308,7 @@
                     id="ShortMark_part2"
                     class="XX21"
                     <?php the_formValue($shortMark_part2); ?>
-                    style="width:450px;"
+                    style="width:650px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
                 />
