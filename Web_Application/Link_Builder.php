@@ -54,6 +54,7 @@
             $shortMark_part2 = "Part 2";
             $inlineMarkdown = "Part 3";
             $link_HTML = "Part 4";
+            $MediaWiki_link = "Part 5";
             $IDcounter = 1;
             $emphasisStr = "*";
 
@@ -128,6 +129,47 @@
               "<a href=\"" . $URL . "\"" .
               ">" . $linkText . "</a>";
 
+            # MediaWiki link
+            #
+            # Note: Some characters could be better handled, especially
+            #       parentheses. Example:
+            #
+            #     https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29
+            #       C Sharp (programming language)
+            #
+            #     It would be better to convert the percentage encoding
+            #     (%28 and %29) to "("/")" for the link text.
+            #
+            # Extract the MediaWiki link from the URL, including
+            # converting underscores to space.
+            #
+            $MediaWiki_link = "";
+
+            # Only if it is actually on Wikipedia
+            if (1) # Stub
+            {
+                # $MediaWiki_link = preg_replace('/\*/', '', $URL);
+                # $MediaWiki_link = substr_replace($URL, 'https://en.wikipedia.org/wiki/', 0, 0);
+                
+                $MediaWiki_firstPart = preg_replace('/https:\/\/en.wikipedia.org\/wiki\//', '', $URL);
+                
+                $MediaWiki_link = '[[' . $MediaWiki_firstPart . '|' . $linkText . ']]';
+            }
+
+
+            # Note: The rest, until the form, is not implemented yet.
+            #
+            #       BTW, why do we want an accumulative feature? Is it
+            #       because we want to invoke link builder from a
+            #       lookup page with multiple terms (so we don't
+            #       have to manually invoke link builder for
+            #       each term?).
+            #
+            #       That would cover the use case from 2020-06-25,
+            #       linkyfying this for a talk page entry:
+            #
+            #          C#, VB.NET, F#
+            #
 
             # For the accumulative feature (we remember past generated
             # link text/URL pairs)
@@ -177,43 +219,6 @@
             # It is simple for Stack Overflow - just separate
             # each item by a space
             $URLlist = implode(' ', $items_URLlist);
-
-
-            ## For normal edit summary, outside Stack Overflow -
-            ## with Oxford comma!
-            ##
-            #$URLlist2 =
-            #    join(', and ',
-            #         array_filter(
-            #             array_merge(
-            #                 array(
-            #                     join(', ',
-            #                          array_slice($items, 0, -1))),
-            #                          array_slice($items, -1)), 'strlen'));
-            #
-            ##Adjust for two elements
-            #
-            #if ($elements == 2)
-            #{
-            #    $URLlist2 = str_replace(', and', ' and', $URLlist2);
-            #}
-
-            # echo "<p>URLlist: >>>$URLlist<<< <p>\n";
-            # echo "<p>URLlist2: >>>$URLlist2<<< <p>\n";
-
-
-            #if ($editSummary) # "$editSummary" is to be eliminated and replaced
-            #                  # with an equivalent if construct.
-            #{
-            #    # Derived
-            #    $editSummary_output = "Active reading [" . $URLlist . "].";
-            #
-            #    $editSummary_output2 = "Copy edited (e.g. ref. $URLlist2).";
-            #
-            #    ## Current compensation for not being sophisticated when generating
-            #    ## a list...
-            #    #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
-            #}
 
         ?>
 
@@ -294,7 +299,7 @@
                     name="ShortMark_part1"
                     type="text"
                     id="ShortMark_part1"
-                    class="XX20"
+                    class="XYZ20"
                     <?php the_formValue($shortMark_part1); ?>
                     style="width:200px;"
                     accesskey="T"
@@ -306,7 +311,7 @@
                     name="ShortMark_part2"
                     type="text"
                     id="ShortMark_part2"
-                    class="XX21"
+                    class="XYZ21"
                     <?php the_formValue($shortMark_part2); ?>
                     style="width:650px;"
                     accesskey="F"
@@ -319,7 +324,7 @@
                     name="inlineMarkdown"
                     type="text"
                     id="inlineMarkdown"
-                    class="XX22"
+                    class="XYZ22"
                     <?php the_formValue($inlineMarkdown); ?>
                     style="width:650px;"
                     accesskey="M"
@@ -332,7 +337,7 @@
                     name="HTML_link"
                     type="text"
                     id="HTML_link"
-                    class="XX26"
+                    class="XYZ26"
                     <?php
                         # Note: Some redundancy with "EditOverflow.php"
 
@@ -342,6 +347,18 @@
                     style="width:650px;"
                     accesskey="H"
                     title="Shortcut: Shift + Alt + H"
+                />
+
+                <label for="MediaWiki_link">Media<u>W</u>iki</label>
+                <input
+                    name="MediaWiki_link"
+                    type="text"
+                    id="MediaWiki_link"
+                    class="XYZ27"
+                    <?php the_formValue($MediaWiki_link); ?>
+                    style="width:650px;"
+                    accesskey="W"
+                    title="Shortcut: Shift + Alt + W"
                 />
 
 
