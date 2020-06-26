@@ -11857,6 +11857,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sintax", "syntax");
             correctionAdd("sytax", "syntax");
+            correctionAdd("syntaxis", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -18233,6 +18234,10 @@ namespace OverflowHelper.core
             correctionAdd("tottally", "totally");
 
             correctionAdd("trafic", "traffic");
+
+            correctionAdd("biopython", "Biopython");
+
+            correctionAdd("buyed", "bought");
 
 
 
@@ -27710,6 +27715,10 @@ namespace OverflowHelper.core
             URL_Add("totally", "https://en.wiktionary.org/wiki/totally#Adverb");
 
             URL_Add("traffic", "https://en.wiktionary.org/wiki/traffic#Noun");
+
+            URL_Add("Biopython", "https://en.wikipedia.org/wiki/Biopython");
+
+            URL_Add("bought", "https://en.wiktionary.org/wiki/buy#Verb");
 
 
 
