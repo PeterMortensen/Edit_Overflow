@@ -129,8 +129,8 @@ namespace CodeFormattingCheckTests
             TestContext.WriteLine("Output from the unit test!!!!!!!!!!!!!!!!!!!!!");
 
             // For debugging, etc.
-            TestContext.WriteLine("Regular expression for tight operators: " + regex);
-            TestContext.WriteLine("All regular expressions: " + regex_All);
+            TestContext.WriteLine("\nRegular expression for tight operators: " + regex);
+            TestContext.WriteLine("\nAll regular expressions: " + regex_All);
 
 
             {
