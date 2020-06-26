@@ -3067,6 +3067,8 @@ namespace OverflowHelper.core
             correctionAdd("overflow", "Stack&nbsp;Overflow");
             correctionAdd("Stack Over Flow", "Stack&nbsp;Overflow");
             correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackerflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackover", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -3196,6 +3198,8 @@ namespace OverflowHelper.core
             correctionAdd("definently", "definitely");
             correctionAdd("Definatly", "definitely");
             correctionAdd("defintely", "definitely");
+            correctionAdd("Deffinatly", "definitely");
+            correctionAdd("deffinatly", "definitely");
 
             correctionAdd("nagios", "Nagios");
 
@@ -4412,6 +4416,7 @@ namespace OverflowHelper.core
             correctionAdd("mod", "moderator"); //Not unique. E.g. modification.
             correctionAdd("mods", "moderator"); //Expansion, not 100% correct. Add a plural feature?
             correctionAdd("Mod", "moderator");
+            correctionAdd("modarator", "moderator");
 
             correctionAdd("cdn", "CDN");
             correctionAdd("content delivery network", "CDN");
@@ -5545,6 +5550,7 @@ namespace OverflowHelper.core
             correctionAdd("media player", "Windows Media Player"); //Unfortunate abbreviation.
             correctionAdd("wmp", "Windows Media Player");
             correctionAdd("mediaplayer", "Windows Media Player"); //Unfortunate abbreviation, e.g. as in <http://superuser.com/questions/228979>.
+            correctionAdd("Media Player", "Windows Media Player");
 
             correctionAdd("applescript", "AppleScript");
             correctionAdd("Applescript", "AppleScript");
@@ -8026,6 +8032,7 @@ namespace OverflowHelper.core
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
             correctionAdd("messeage", "message");
+            correctionAdd("mesage", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -15308,9 +15315,11 @@ namespace OverflowHelper.core
             correctionAdd("take off", "takeoff");
 
             correctionAdd("Thirteenth", "thirteenth");
+            correctionAdd("13th", "thirteenth");
 
             correctionAdd("twelwenth", "twelfth");
             correctionAdd("Twelwenth", "twelfth");
+            correctionAdd("12th", "twelfth");
 
             correctionAdd("Tweteenth", "twentieth");
 
@@ -16408,6 +16417,7 @@ namespace OverflowHelper.core
             correctionAdd("contant", "content");
 
             correctionAdd("drammatically", "dramatically");
+            correctionAdd("dramaticaly", "dramatically");
 
             correctionAdd("lite", "light");
             correctionAdd("ligth", "light");
@@ -16718,6 +16728,7 @@ namespace OverflowHelper.core
             correctionAdd("grafic", "graphic");
 
             correctionAdd("improove", "improve");
+            correctionAdd("imrove", "improve");
 
             correctionAdd("Intranet", "intranet");
 
@@ -16811,8 +16822,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heigher", "higher");
             correctionAdd("Heigher", "higher");
-
-            correctionAdd("indefintely", "indefinitely");
 
             correctionAdd("Last", "last");
 
@@ -16930,6 +16939,7 @@ namespace OverflowHelper.core
             correctionAdd("VS2013 Express", "Visual Studio 2013 Express");
 
             correctionAdd("commment", "comment");
+            correctionAdd("commet", "comment");
 
             correctionAdd("discurage", "discourage");
 
@@ -18167,6 +18177,63 @@ namespace OverflowHelper.core
             correctionAdd("teh", "the"); // True typo
 
             correctionAdd("vaild", "valid"); // True typo
+
+            correctionAdd("indefintely", "indefinitely");
+
+            correctionAdd("achiving", "achieving");
+
+            correctionAdd("agregated", "aggregated");
+
+            correctionAdd("artifitial", "artificial");
+
+            correctionAdd("acpect", "aspect");
+
+            correctionAdd("constuctive", "constructive");
+            correctionAdd("Constuctive", "constructive");
+
+            correctionAdd("11th", "eleventh");
+
+            correctionAdd("eleminated", "eliminated");
+
+            correctionAdd("encorage", "encourage");
+            correctionAdd("encorouge", "encourage");
+
+            correctionAdd("implicite", "implicit");
+
+            correctionAdd("mathematicaly", "mathematically");
+            correctionAdd("mathamaticaly", "mathematically");
+
+            correctionAdd("9th", "ninth");
+
+            correctionAdd("practicaly", "practically");
+            correctionAdd("Practicaly", "practically");
+
+            correctionAdd("quility", "quality");
+
+            correctionAdd("querys", "queries");
+
+            correctionAdd("Query", "query");
+
+            correctionAdd("realize", "realise");
+            correctionAdd("reilize", "realise");
+
+            correctionAdd("regulary", "regularly");
+
+            correctionAdd("rigth", "right");
+
+            correctionAdd("strick", "strict");
+
+            correctionAdd("subjectivness", "subjectiveness");
+            correctionAdd("subjectivnes", "subjectiveness");
+
+            correctionAdd("suppoter", "supporter");
+
+            correctionAdd("totaly", "totally");
+            correctionAdd("tottaly", "totally");
+            correctionAdd("tottally", "totally");
+
+            correctionAdd("trafic", "traffic");
+
 
 
             // Start of coronavirus part...
@@ -27598,6 +27665,51 @@ namespace OverflowHelper.core
 
             URL_Add("valid", "https://en.wiktionary.org/wiki/valid#Adjective");
 
+            URL_Add("achieving", "https://en.wiktionary.org/wiki/achieve#Verb");
+
+            URL_Add("aggregated", "https://en.wiktionary.org/wiki/aggregate#Verb");
+
+            URL_Add("artificial", "https://en.wiktionary.org/wiki/artificial#Adjective");
+
+            URL_Add("aspect", "https://en.wiktionary.org/wiki/aspect#Noun");
+
+            URL_Add("constructive", "https://en.wiktionary.org/wiki/constructive#Adjective");
+
+            URL_Add("eleventh", "https://en.wiktionary.org/wiki/eleventh#Adjective");
+
+            URL_Add("eliminated", "https://en.wiktionary.org/wiki/eliminate#Verb");
+
+            URL_Add("encourage", "https://en.wiktionary.org/wiki/encourage#Verb");
+
+            URL_Add("implicit", "https://en.wiktionary.org/wiki/implicit#Adjective");
+
+            URL_Add("mathematically", "https://en.wiktionary.org/wiki/mathematically#Adverb");
+
+            URL_Add("ninth", "https://en.wiktionary.org/wiki/ninth#Adjective");
+
+            URL_Add("practically", "https://en.wiktionary.org/wiki/practically#Adverb");
+
+            URL_Add("quality", "https://en.wiktionary.org/wiki/quality#Noun");
+
+            URL_Add("queries", "https://en.wiktionary.org/wiki/query#Noun");
+
+            URL_Add("query", "https://en.wiktionary.org/wiki/query#Noun");
+
+            URL_Add("realise", "https://en.wiktionary.org/wiki/realise");
+
+            URL_Add("regularly", "https://en.wiktionary.org/wiki/regularly#Adverb");
+
+            URL_Add("right", "https://en.wiktionary.org/wiki/right#Noun");
+
+            URL_Add("strict", "https://en.wiktionary.org/wiki/strict#Adjective");
+
+            URL_Add("subjectiveness", "https://en.wiktionary.org/wiki/subjectiveness#Noun");
+
+            URL_Add("supporter", "https://en.wiktionary.org/wiki/supporter#Noun");
+
+            URL_Add("totally", "https://en.wiktionary.org/wiki/totally#Adverb");
+
+            URL_Add("traffic", "https://en.wiktionary.org/wiki/traffic#Noun");
 
 
 
