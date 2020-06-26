@@ -129,6 +129,7 @@ namespace CodeFormattingCheckTests
             TestContext.WriteLine("Output from the unit test!!!!!!!!!!!!!!!!!!!!!");
 
             // For debugging, etc.
+            TestContext.WriteLine("Regular expression for tight operators: " + regex);
             TestContext.WriteLine("All regular expressions: " + regex_All);
 
 
@@ -165,6 +166,15 @@ namespace CodeFormattingCheckTests
                     RegExExecutor.match("$ARGV[0] .\"", regex));
                 Assert.IsTrue(
                     RegExExecutor.match("$ARGV[0]. \"", regex));
+
+                // Variation of input - single quotes
+                Assert.IsTrue(
+                    RegExExecutor.match("$ARGV[0] .'", regex));
+                Assert.IsTrue(
+                    RegExExecutor.match("$ARGV[0]. '", regex));
+
+
+
 
                 // Test for false positives (for numbers)
                 Assert.IsFalse(
