@@ -223,26 +223,50 @@ namespace OverflowHelper.core
 
             // Note: No "|" after the last term
             //
-            string toAdd = @"\S&&" + "|" + @"&&\S" + "|" +
+            string toAdd = 
+            
+                // Logical AND
+            
+                @"\S&&" + "|" + @"&&\S" + "|" +
 
-                           // One possible strategy is a negative list (exclude
-                           // space and numbers):
-                           //
-                           //     [^ \d]
-                           //
-                           // But "." is used in many places, e.g. "using System.Text;"
-                           //
-                           // But we go a positive list: string literals by quotes,
-                           // variables with "$", and array indexing ("[]")
+                
+                // String concatenation in e.g. Perl and PHP
+                //
+                // One possible strategy is a negative list (exclude
+                // space and numbers):
+                //
+                //     [^ \d]
+                //
+                // But "." is used in many places, e.g. "using System.Text;"
+                //
+                // But we go with  a positive list: string literals by quotes,
+                // variables with "$", and array indexing ("[]")
+                //
+                
+                // @"['\""\]]\."
+                
+                // Note: A double double quote is for escaping 
+                //       a double quote in C#
+                
+                @"('|\""|\])\."  + "|" +   // Missing space to the left
+                                         // of "." (unless a number or
+                                         // array indexing). However
+                                         // we have a hard time distingushing
+                                         // something like this
+                                         // in PowerShell,
+                                         //
+                                         //     $m.Groups[2].Value
+                                         //
+                                         // from this in PHP:
+                                         //
+                                         //     $ARGV[0]." ".$ARGV[2];
+                                         //
 
-                           @"['\""\]]\."  + "|" +   // Missing space to the left
-                                                    // of "." (unless a number)
 
+                @"\.['\""\]]" + "" +     // Missing space to the right
+                                         // of "." (unless a number)
 
-                           @"\.['\""\]]" + "" +     // Missing space to the right
-                                                    // of "." (unless a number)
-
-                           "";
+                "";
 
             return toAdd;
         } //missingSpaceAroundOperators()
