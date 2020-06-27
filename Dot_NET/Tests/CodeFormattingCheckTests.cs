@@ -182,10 +182,10 @@ namespace CodeFormattingCheckTests
                 Assert.IsFalse(
                     RegExExecutor.match(" = .56", regex));
 
-                // Documenting a false positive
+                // No longer a false positive!
                 //
-                // For the concatenation operator in some lamguages
-                Assert.IsTrue(
+                // For the concatenation operator in some languages
+                Assert.IsFalse(
                     RegExExecutor.match("$m.Groups[2].Value -as [int]", regex));
 
 
