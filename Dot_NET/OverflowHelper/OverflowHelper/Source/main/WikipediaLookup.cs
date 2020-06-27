@@ -1292,6 +1292,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac osX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac os X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("OSx", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("Mac Os X", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
@@ -1352,6 +1353,8 @@ namespace OverflowHelper.core
             correctionAdd("v10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Mac OS X v10.7 (Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Mac&nbsp;OS&nbsp;X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("MacOSX 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -1457,6 +1460,7 @@ namespace OverflowHelper.core
             correctionAdd("10.14", "macOS v10.14 (Mojave)");
             correctionAdd("macOS v10.14", "macOS v10.14 (Mojave)");
             correctionAdd("MacOs Mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("MacOS Mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -2272,14 +2276,6 @@ namespace OverflowHelper.core
             //correctionAdd("voldemort", "Voldemort"); //Not actually observed. For the link.
 
             correctionAdd("Hbase", "HBase"); //Not actually observed. For the link.
-
-            correctionAdd("subversion", "Subversion");
-            correctionAdd("SubVersion", "Subversion");
-            correctionAdd("SVN", "Subversion");
-            correctionAdd("svn", "Subversion");
-            correctionAdd("Svn", "Subversion");
-            correctionAdd("subersion", "Subversion");
-            correctionAdd("sub version", "Subversion");
 
             correctionAdd("cp", "The Code Project");
             correctionAdd("CP", "The Code Project");
@@ -5470,6 +5466,9 @@ namespace OverflowHelper.core
             correctionAdd("Foreing Key", "foreign key");
             correctionAdd("foreing key", "foreign key");
             correctionAdd("foreign Key", "foreign key");
+            correctionAdd("ForeignKey", "foreign key");
+            correctionAdd("Foreign Key", "foreign key");
+            correctionAdd("Foreign key", "foreign key");
 
             correctionAdd("PK", "primary key");
             correctionAdd("pK", "primary key");
@@ -8610,6 +8609,7 @@ namespace OverflowHelper.core
 
             correctionAdd("isr", "ISR");
             correctionAdd("Interrupt Service Routine", "ISR");
+            correctionAdd("interrupt service routine", "ISR");
 
             correctionAdd("avrstudio", "AVR Studio");
             correctionAdd("AVR STUDIO", "AVR Studio");
@@ -9667,6 +9667,7 @@ namespace OverflowHelper.core
             correctionAdd("compatablity", "compatibility");
             correctionAdd("compatibilty", "compatibility");
             correctionAdd("compat", "compatibility");
+            correctionAdd("compatibly", "compatibility");
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
@@ -11583,13 +11584,6 @@ namespace OverflowHelper.core
             correctionAdd("treshold", "threshold");
             correctionAdd("Thershold", "threshold");
 
-            correctionAdd("verision", "version");
-            correctionAdd("verison", "version");
-            correctionAdd("vers", "version");
-            correctionAdd("verion", "version");
-            correctionAdd("verson", "version");
-            correctionAdd("vertion", "version");
-
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
 
@@ -12477,6 +12471,7 @@ namespace OverflowHelper.core
             correctionAdd("concious", "conscious");
             correctionAdd("consicous", "conscious");
             correctionAdd("concisous", "conscious");
+            correctionAdd("consious", "conscious");
 
             correctionAdd("dept", "department");
             correctionAdd("depoartment", "department");
@@ -13707,6 +13702,7 @@ namespace OverflowHelper.core
             correctionAdd("Therefore", "therefore");
             correctionAdd("Therfore", "therefore");
             correctionAdd("therfore", "therefore");
+            correctionAdd("theresfore", "therefore");
 
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
@@ -14783,6 +14779,8 @@ namespace OverflowHelper.core
             correctionAdd("SCM", "source control management");
             correctionAdd("scm", "source control management");
             correctionAdd("source control", "source control management");
+            correctionAdd("VC", "source control management");
+            correctionAdd("version control", "source control management");
 
             correctionAdd("syle", "style");
 
@@ -15349,6 +15347,7 @@ namespace OverflowHelper.core
             correctionAdd("Cmdlet", "cmdlet");
             correctionAdd("CmdLet", "cmdlet");
             correctionAdd("commandlet", "cmdlet");
+            correctionAdd("cmd-let", "cmdlet");
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
@@ -15422,6 +15421,7 @@ namespace OverflowHelper.core
             correctionAdd("net standard", ".NET Standard");
             correctionAdd(".net standard", ".NET Standard");
             correctionAdd(".NET standard", ".NET Standard");
+            correctionAdd(".Net-Standard", ".NET Standard");
 
             correctionAdd("Dotnet CLI", ".NET CLI");
             correctionAdd("Dotnet cli", ".NET CLI");
@@ -16980,7 +16980,8 @@ namespace OverflowHelper.core
 
             correctionAdd("LightTable", "Light Table");
 
-            correctionAdd("MVP", "Minimum viable product");
+            correctionAdd("MVP", "minimum viable product");
+            correctionAdd("Minimum Viable Product", "minimum viable product");
 
             correctionAdd("rider", "Rider");
 
@@ -17691,6 +17692,7 @@ namespace OverflowHelper.core
             correctionAdd("SDLC", "systems development life cycle");
 
             correctionAdd("waterfall", "waterfall model");
+            correctionAdd("Waterfall", "waterfall model");
 
             correctionAdd("skiped", "skipped");
 
@@ -17791,6 +17793,7 @@ namespace OverflowHelper.core
             correctionAdd("falacious", "fallacious");
 
             correctionAdd("mesure", "measure");
+            correctionAdd("meassure", "measure");
 
             correctionAdd("mis-guiding", "misguiding");
 
@@ -17932,6 +17935,7 @@ namespace OverflowHelper.core
             correctionAdd("pidgin", "Pidgin");
 
             correctionAdd("PyLint", "Pylint");
+            correctionAdd("pylint", "Pylint");
 
             correctionAdd("Software Recs", "Software Recommendations");
 
@@ -18238,6 +18242,70 @@ namespace OverflowHelper.core
             correctionAdd("biopython", "Biopython");
 
             correctionAdd("buyed", "bought");
+
+            correctionAdd("subversion", "Subversion");
+            correctionAdd("SubVersion", "Subversion");
+            correctionAdd("SVN", "Subversion");
+            correctionAdd("svn", "Subversion");
+            correctionAdd("Svn", "Subversion");
+            correctionAdd("subersion", "Subversion");
+            correctionAdd("sub version", "Subversion");
+
+            correctionAdd("verision", "version");
+            correctionAdd("verison", "version");
+            correctionAdd("vers", "version");
+            correctionAdd("verion", "version");
+            correctionAdd("verson", "version");
+            correctionAdd("vertion", "version");
+            correctionAdd("vesrion", "version");
+
+            correctionAdd("crockford", "Douglas Crockford");
+            correctionAdd("Crockford", "Douglas Crockford");
+
+            correctionAdd("grunt", "Grunt");
+
+            correctionAdd("jshint", "JSHint");
+
+            correctionAdd("nix", "Nix");
+
+            correctionAdd("Cunningham", "Ward Cunningham");
+
+            correctionAdd("yandex", "Yandex");
+
+            correctionAdd("emdedded", "embedded");
+
+            correctionAdd("Factory Pattern", "factory pattern");
+
+            correctionAdd("flakey", "flaky");
+
+            correctionAdd("jewelry", "jewellery");
+            correctionAdd("juveliery", "jewellery");
+
+            correctionAdd("maner", "manner");
+
+            correctionAdd("meassurement", "measurement");
+
+            correctionAdd("Mechanical engineering", "mechanical engineering");
+
+            correctionAdd("1-shot", "one-shot");
+
+            correctionAdd("oportunities", "opportunities");
+
+            correctionAdd("re-check", "recheck");
+
+            correctionAdd("re-design", "redesign");
+
+            correctionAdd("reprensent", "represent");
+
+            correctionAdd("Technical Debt", "technical debt");
+
+            correctionAdd("todays", "today's");
+
+            correctionAdd("unpredicatable", "unpredictable");
+
+            correctionAdd("Wheel", "wheel");
+
+            correctionAdd("Wiki", "wiki");
 
 
 
@@ -26644,7 +26712,7 @@ namespace OverflowHelper.core
 
             URL_Add("Light Table", "https://en.wikipedia.org/wiki/Light_Table_(software)");
 
-            URL_Add("Minimum viable product", "https://en.wikipedia.org/wiki/Minimum_viable_product");
+            URL_Add("minimum viable product", "https://en.wikipedia.org/wiki/Minimum_viable_product");
 
             URL_Add("Nimzowitsch Defence", "https://en.wikipedia.org/wiki/Nimzowitsch_Defence");
 
@@ -27719,6 +27787,53 @@ namespace OverflowHelper.core
             URL_Add("Biopython", "https://en.wikipedia.org/wiki/Biopython");
 
             URL_Add("bought", "https://en.wiktionary.org/wiki/buy#Verb");
+
+            URL_Add("Douglas Crockford", "https://en.wikipedia.org/wiki/Douglas_Crockford");
+
+            URL_Add("Grunt", "https://en.wikipedia.org/wiki/Grunt_(software)");
+
+            URL_Add("JSHint", "https://en.wikipedia.org/wiki/JSHint");
+
+            URL_Add("Nix", "https://en.wikipedia.org/wiki/Nix_package_manager");
+
+            URL_Add("Ward Cunningham", "https://en.wikipedia.org/wiki/Ward_Cunningham");
+
+            URL_Add("Yandex", "https://en.wikipedia.org/wiki/Yandex");
+
+            URL_Add("embedded", "https://en.wiktionary.org/wiki/embedded#Adjective");
+
+            URL_Add("factory pattern", "https://en.wikipedia.org/wiki/Factory_method_pattern");
+
+            URL_Add("flaky", "https://en.wiktionary.org/wiki/flaky#Adjective");
+
+            URL_Add("jewellery", "https://en.wiktionary.org/wiki/jewellery#Noun");
+
+            URL_Add("manner", "https://en.wiktionary.org/wiki/manner#Noun");
+
+            URL_Add("measurement", "https://en.wiktionary.org/wiki/measurement#Noun");
+
+            URL_Add("mechanical engineering", "https://en.wikipedia.org/wiki/Mechanical_engineering");
+
+            URL_Add("one-shot", "https://en.wiktionary.org/wiki/one-shot#Verb");
+
+            URL_Add("opportunities", "https://en.wiktionary.org/wiki/opportunity#Noun");
+
+            URL_Add("recheck", "https://en.wiktionary.org/wiki/recheck#Verb");
+
+            URL_Add("redesign", "https://en.wiktionary.org/wiki/redesign#Verb");
+
+            URL_Add("represent", "https://en.wiktionary.org/wiki/represent#Verb");
+
+            URL_Add("technical debt", "https://en.wikipedia.org/wiki/Waterfall_model");
+
+            URL_Add("today's", "https://en.wiktionary.org/wiki/today's");
+
+            URL_Add("unpredictable", "https://en.wiktionary.org/wiki/unpredictable#Adjective");
+
+            URL_Add("wheel", "https://en.wikipedia.org/wiki/Setuptools#Package_format");
+
+            URL_Add("wiki", "https://en.wiktionary.org/wiki/wiki#Noun");
+
 
 
 
