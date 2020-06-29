@@ -10223,6 +10223,7 @@ namespace OverflowHelper.core
             correctionAdd("vie.js", "Vue.js");
             correctionAdd("vie", "Vue.js");
             correctionAdd("Vue JS", "Vue.js");
+            correctionAdd("vue js", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -10425,6 +10426,7 @@ namespace OverflowHelper.core
             correctionAdd("introdcution", "introduction");
 
             correctionAdd("who's", "whose");
+            correctionAdd("who’s", "whose");
 
             correctionAdd("lib", "library");
             correctionAdd("Lib", "library"); //Not 100% correct - casing.
@@ -11325,6 +11327,7 @@ namespace OverflowHelper.core
             correctionAdd("2nd", "second");
             correctionAdd("Secound", "second");
             correctionAdd("secound", "second");
+            correctionAdd("seconde", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -13423,8 +13426,6 @@ namespace OverflowHelper.core
 
             correctionAdd("womans", "women");
 
-            correctionAdd("closure", "Closure");
-
             correctionAdd("fiverr", "Fiverr");
 
             correctionAdd("get-filehash", "Get-FileHash");
@@ -14647,6 +14648,8 @@ namespace OverflowHelper.core
             correctionAdd("over-think", "overthink");
 
             correctionAdd("pizo", "piezo");
+            correctionAdd("Piezzo", "piezo");
+            correctionAdd("piezzo", "piezo");
 
             correctionAdd("re-read", "reread");
 
@@ -16929,6 +16932,8 @@ namespace OverflowHelper.core
             correctionAdd("gas light", "gaslight");
 
             correctionAdd("hoard immunity", "herd immunity");
+            correctionAdd("Herd Immunity", "herd immunity");
+            correctionAdd("Herd immunity", "herd immunity");
 
             correctionAdd("here doc", "heredoc");
             correctionAdd("Heredoc", "heredoc");
@@ -17544,6 +17549,7 @@ namespace OverflowHelper.core
             correctionAdd("Venv", "venv");
 
             correctionAdd("frb", "FRB");
+            correctionAdd("fast radio burst", "FRB");
 
             correctionAdd("GW Basic", "GW-BASIC");
             correctionAdd("GWBASIC", "GW-BASIC");
@@ -18306,6 +18312,24 @@ namespace OverflowHelper.core
             correctionAdd("Wheel", "wheel");
 
             correctionAdd("Wiki", "wiki");
+
+            correctionAdd("Closure", "Closure Compiler");
+
+            correctionAdd("coursera", "Coursera");
+
+            correctionAdd("Pollack", "Polack");
+            correctionAdd("pollack", "Polack");
+
+            correctionAdd("conciel", "conceal");
+            correctionAdd("consiel", "conceal");
+
+            correctionAdd("FULL STOP", "full stop");
+
+            correctionAdd("his self", "himself");
+
+            correctionAdd("North", "north");
+
+            correctionAdd("victory’s", "victories");
 
 
 
@@ -23926,8 +23950,6 @@ namespace OverflowHelper.core
 
             URL_Add("women", "https://en.wiktionary.org/wiki/woman#Noun");
 
-            URL_Add("Closure", "https://en.wikipedia.org/wiki/Closure_(computer_programming)");
-
             URL_Add("Fiverr", "https://en.wikipedia.org/wiki/Fiverr");
 
             URL_Add("Get-FileHash", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-FileHash");
@@ -27834,6 +27856,21 @@ namespace OverflowHelper.core
 
             URL_Add("wiki", "https://en.wiktionary.org/wiki/wiki#Noun");
 
+            URL_Add("Closure Compiler", "https://en.wikipedia.org/wiki/Google_Closure_Tools#Closure_Compiler");
+
+            URL_Add("Coursera", "https://en.wikipedia.org/wiki/Coursera");
+
+            URL_Add("Polack", "https://en.wiktionary.org/wiki/Polack#Noun");
+
+            URL_Add("conceal", "https://en.wiktionary.org/wiki/conceal#Verb");
+
+            URL_Add("full stop", "https://en.wiktionary.org/wiki/full_stop#Noun");
+
+            URL_Add("himself", "https://en.wiktionary.org/wiki/himself#Pronoun");
+
+            URL_Add("north", "https://en.wiktionary.org/wiki/north#Noun");
+
+            URL_Add("victories", "https://en.wiktionary.org/wiki/victory#Noun");
 
 
 
