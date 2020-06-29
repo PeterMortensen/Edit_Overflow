@@ -20972,7 +20972,7 @@ namespace OverflowHelper.core
 
             URL_Add("BLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
 
-            URL_Add("Homebrew", "https://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29");
+            URL_Add("Homebrew", "https://en.wikipedia.org/wiki/Homebrew_(package_manager)"); // Old: https://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29
 
             URL_Add("egg", "https://stackoverflow.com/questions/2051192");
 
@@ -21264,7 +21264,7 @@ namespace OverflowHelper.core
 
             URL_Add("Chocolatey", "https://en.wikipedia.org/wiki/NuGet#Chocolatey"); // Old: https://en.wikipedia.org/wiki/Chocolatey
 
-            URL_Add("PSObject", "https://msdn.microsoft.com/en-us/library/system.management.automation.psobject%28v=vs.85%29.aspx");
+            URL_Add("PSObject", "https://docs.microsoft.com/en-us/dotnet/api/system.management.automation.psobject"); // Old: https://msdn.microsoft.com/en-us/library/system.management.automation.psobject%28v=vs.85%29.aspx
 
             URL_Add("Get-Variable", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-Variable"); // Old: https://technet.microsoft.com/en-us/library/hh849899.aspx
 
@@ -21328,7 +21328,7 @@ namespace OverflowHelper.core
 
             URL_Add("Exit", "https://technet.microsoft.com/en-us/library/hh847744.aspx");
 
-            URL_Add("Join-Path", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Join-Path"); // Old: https://technet.microsoft.com/en-us/library/hh849799.aspx
+            URL_Add("Join-Path", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/join-path"); // Old: https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Join-Path. Even older https://technet.microsoft.com/en-us/library/hh849799.aspx
 
             URL_Add("New-Item", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/New-Item"); // Old: https://technet.microsoft.com/en-us/library/hh849795.aspx
 
