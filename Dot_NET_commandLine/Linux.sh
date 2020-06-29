@@ -206,12 +206,14 @@ echo '2. Start running unit tests...'
 echo
 
 # Note: unlike "dotnet run", "dotnet test" does not
-#       use option "-p" (inconsistent)
+#       use option "-p" for specifying the project 
+#       file name (inconsistent)
 #
 dotnet test EditOverflow3_UnitTests.csproj
 
 
-#  exit   # Active: Test only!!!!!!!!!
+#  exit   # Active: Test only!!!!!!!!! (We currently use this to 
+#                                       iterate (aided by unit testing)
 
 
 
