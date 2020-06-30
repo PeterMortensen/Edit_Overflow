@@ -13455,6 +13455,9 @@ namespace OverflowHelper.core
             correctionAdd("yolo", "YOLO");
 
             correctionAdd("abscence", "absence");
+            correctionAdd("Abcense", "absence");
+            correctionAdd("abcense", "absence");
+            correctionAdd("absense", "absence");
 
             correctionAdd("BitWise", "bitwise");
 
@@ -16195,6 +16198,7 @@ namespace OverflowHelper.core
             correctionAdd("italian", "Italian");
 
             correctionAdd("thoughout", "throughout");
+            correctionAdd("through out", "throughout");
 
             correctionAdd("atlas V", "Atlas V");
 
@@ -18175,6 +18179,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
             correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("caled", "called");
 
@@ -18330,6 +18335,22 @@ namespace OverflowHelper.core
             correctionAdd("North", "north");
 
             correctionAdd("victory’s", "victories");
+
+            correctionAdd("monday", "Monday");
+
+            correctionAdd("Balony", "baloney");
+            correctionAdd("balony", "baloney");
+
+            correctionAdd("counter-argument", "counterargument");
+
+            correctionAdd("Median", "median");
+
+            correctionAdd("No true Scotsman", "no true Scotsman");
+            correctionAdd("No true scotsman", "no true Scotsman");
+            correctionAdd("no true scotsman", "no true Scotsman");
+
+            correctionAdd("referree", "referee");
+            correctionAdd("referre", "referee");
 
 
 
@@ -27871,6 +27892,18 @@ namespace OverflowHelper.core
             URL_Add("north", "https://en.wiktionary.org/wiki/north#Noun");
 
             URL_Add("victories", "https://en.wiktionary.org/wiki/victory#Noun");
+
+            URL_Add("Monday", "https://en.wiktionary.org/wiki/Monday#Noun");
+
+            URL_Add("baloney", "https://en.wiktionary.org/wiki/baloney#Noun_2");
+
+            URL_Add("counterargument", "https://en.wiktionary.org/wiki/counterargument#Noun");
+
+            URL_Add("median", "https://en.wikipedia.org/wiki/Median");
+
+            URL_Add("no true Scotsman", "https://en.wikipedia.org/wiki/No_true_Scotsman");
+
+            URL_Add("referee", "https://en.wiktionary.org/wiki/referee#Noun");
 
 
 
