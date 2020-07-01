@@ -42,7 +42,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a49 2020-06-25T081853Z+0";
+        return "Edit Overflow v. 1.1.49a50 2020-06-30T214323Z+0";
     }
 
 
@@ -360,7 +360,8 @@
         # to offer some protection (and avoiding
         # objections to posting)).
         #
-        # For now, just globally replace "@"
+        # For now, just globally replace "@". But note that it
+        # affects LBRY invites (perhaps we should add an exception?).
         #
         $replacer->transform('\@', ' AT ');
 
@@ -372,6 +373,16 @@
         # Note: For YouTube it can not be
         #       the HTML entity, "&rarr;".
         $replacer->transform('->', '→');
+
+        # After 2020-05-21, empty lines no longer work in YouTube
+        # comments (they are silently removed when submitting 
+        # the comment).
+        #
+        # The workaround is to add a space to empty lines.
+        #
+        $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work 
+                                                       # if the LAST line is empty.
+
 
         $someText = $replacer->currentString();
 

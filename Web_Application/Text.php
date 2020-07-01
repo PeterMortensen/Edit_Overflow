@@ -184,6 +184,19 @@
                 $lenAfter  = strlen($aNewText);
                 $diff = $lenBefore - $lenAfter;
 
+                # Some redundancy here (refactor?)
+
+                if ($lenBefore < 2)
+                {
+                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: xxx" . $aOrigText . "xxx </p>" .
+                    assert(false);
+                }
+                if ($lenAfter < 2)
+                {
+                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: xxx" . $aOrigText . "xxx </p>" .
+                    assert(false);
+                }
+
                 if (! ($diff === $aLengthDiff))
                 {
                     echo "<br/><br/>\n";
@@ -309,6 +322,9 @@
             function test_transformFor_YouTubeComments($ID, $aSomeText, $aLengthDiff)
             {
                 $touchedText = transformFor_YouTubeComments($aSomeText);
+
+                #print "<p>$ID: AAAA $touchedText BBBB</pp>";
+
                 assert_strLengths($ID,
                                   $aSomeText,
                                   $touchedText,
@@ -390,8 +406,8 @@
             # URL (but it will cover many JavaScript frameworks).
             #
             # Note: The *first* part of an HTTPS Wikipedia URL happens
-            #       to have the same length after transformation (thus 
-            #       "0") for the third parameter. This is a pure 
+            #       to have the same length after transformation (thus
+            #       "0") for the third parameter. This is a pure
             #       coincidence.
             #
             test_transformFor_YouTubeComments(1014,
@@ -403,6 +419,16 @@
             # Normal full stops
             test_transformFor_YouTubeComments(1016, "first job._", 0);
             test_transformFor_YouTubeComments(1017, "first job.", 0);
+
+            # Insertion of empty space on empty lines - introduced 
+            # after changes to YouTube comments on 2020-05-21
+            #
+            test_transformFor_YouTubeComments(1018,
+                                              "     Graasten\r\n" .
+                                                "\r\n" .
+                                                "XXXX\r\n",
+                                              -1);
+
 
             # ----------------------------------------------------------------
 
