@@ -9535,6 +9535,7 @@ namespace OverflowHelper.core
             correctionAdd("no body", "nobody");
 
             correctionAdd("airbnb", "Airbnb");
+            correctionAdd("AirBnB", "Airbnb");
 
             correctionAdd("FREEBSD", "FreeBSD");
             correctionAdd("freebsd", "FreeBSD");
@@ -15993,6 +15994,7 @@ namespace OverflowHelper.core
 
             correctionAdd("the frence defence", "French Defence"); // Chess
             correctionAdd("the french", "French Defence"); // Chess
+            correctionAdd("french defence", "French Defence");
 
             correctionAdd("Slav defence", "Slav Defense"); // Chess
             correctionAdd("slav defence", "Slav Defense"); // Chess
@@ -18351,6 +18353,14 @@ namespace OverflowHelper.core
 
             correctionAdd("referree", "referee");
             correctionAdd("referre", "referee");
+
+            correctionAdd("discourse", "Discourse");
+
+            correctionAdd("Jq", "jq");
+
+            correctionAdd("jsonpp", "json_pp");
+
+            correctionAdd("painpoint", "pain point");
 
 
 
@@ -27904,6 +27914,14 @@ namespace OverflowHelper.core
             URL_Add("no true Scotsman", "https://en.wikipedia.org/wiki/No_true_Scotsman");
 
             URL_Add("referee", "https://en.wiktionary.org/wiki/referee#Noun");
+
+            URL_Add("Discourse", "https://en.wikipedia.org/wiki/Discourse_%28software%29");
+
+            URL_Add("jq", "https://stedolan.github.io/jq/");
+
+            URL_Add("json_pp", "https://stedolan.github.io/jq/");
+
+            URL_Add("pain point", "https://en.wiktionary.org/wiki/pain_point");
 
 
 
