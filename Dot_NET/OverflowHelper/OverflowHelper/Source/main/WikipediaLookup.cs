@@ -18362,6 +18362,7 @@ namespace OverflowHelper.core
 
             correctionAdd("painpoint", "pain point");
 
+            correctionAdd("introductiory", "introductory");
 
 
             // Start of coronavirus part...
@@ -27923,6 +27924,7 @@ namespace OverflowHelper.core
 
             URL_Add("pain point", "https://en.wiktionary.org/wiki/pain_point");
 
+            URL_Add("introductory", "https://en.wiktionary.org/wiki/introductory#Adjective");
 
 
             //========================================================
