@@ -103,7 +103,8 @@
 
             <a
                 href="$linkBuilerPartialURL"
-                title="Convenient formatting of links in HTML, Markdown, and MediaWiki (Wikipedia)."
+                title="Convenient formatting of links in HTML, Markdown, and MediaWiki (Wikipedia). Shortcut: Shift + Alt + B"
+                accesskey="B"
             >Link builder</a>.
 
             <a
