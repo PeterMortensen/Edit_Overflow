@@ -3134,6 +3134,7 @@ namespace OverflowHelper.core
             correctionAdd("Cse", "computer science");
             correctionAdd("Computer Sc", "computer science");
             correctionAdd("Computer science", "computer science");
+            correctionAdd("Computert Science", "computer science");
 
             correctionAdd("Virtualbox", "VirtualBox");
             correctionAdd("virtualbox", "VirtualBox");
@@ -5232,6 +5233,10 @@ namespace OverflowHelper.core
             correctionAdd("devc++", "Dev-C++");
             correctionAdd("devcpp", "Dev-C++");
             correctionAdd("Dev-CPP", "Dev-C++");
+            correctionAdd("Dev c/c++", "Dev-C++");
+            correctionAdd("dev c/c++", "Dev-C++");
+            correctionAdd("dev C/C++", "Dev-C++");
+            correctionAdd("Dev C/C++", "Dev-C++");
 
             correctionAdd("fql", "FQL");
 
@@ -11280,6 +11285,7 @@ namespace OverflowHelper.core
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
             correctionAdd("mabye", "maybe");
+            correctionAdd("mybe", "maybe");
 
             correctionAdd("Plutonium", "plutonium");
 
@@ -11906,6 +11912,7 @@ namespace OverflowHelper.core
             correctionAdd("Personal Access Token", "personal access token");
 
             correctionAdd("repeatative", "repetitive");
+            correctionAdd("repititive", "repetitive");
 
             correctionAdd("sinewave", "sine wave");
 
@@ -18363,6 +18370,15 @@ namespace OverflowHelper.core
             correctionAdd("painpoint", "pain point");
 
             correctionAdd("introductiory", "introductory");
+
+            correctionAdd("bankrupcy", "bankruptcy");
+
+            correctionAdd("douchbag", "douchebag");
+            correctionAdd("duchbag", "douchebag");
+
+            correctionAdd("saund", "sound");
+
+            correctionAdd("wereing", "wearing");
 
 
             // Start of coronavirus part...
@@ -27925,6 +27941,16 @@ namespace OverflowHelper.core
             URL_Add("pain point", "https://en.wiktionary.org/wiki/pain_point");
 
             URL_Add("introductory", "https://en.wiktionary.org/wiki/introductory#Adjective");
+
+            URL_Add("bankruptcy", "https://en.wiktionary.org/wiki/bankruptcy#Noun");
+
+            URL_Add("douchebag", "https://en.wiktionary.org/wiki/douchebag#Noun");
+
+            URL_Add("sound", "https://en.wiktionary.org/wiki/sound#Noun");
+
+            URL_Add("wearing", "https://en.wiktionary.org/wiki/wear#Verb");
+
+
 
 
             //========================================================
