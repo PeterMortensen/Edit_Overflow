@@ -30,11 +30,18 @@
 <!--
     Note:
 
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+      1. We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
 
-        <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
-
-        <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
+           <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
+           
+      2. Parameters are supported, including for GET:
+      
+           <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
+      
+           <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>
+        
+          
+        
 -->
 
 

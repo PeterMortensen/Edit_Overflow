@@ -23,7 +23,6 @@
 
 
 
-
     # Used by one page (EditOverflow.php)
     const LOOKUPTERM = 'LookUpTerm';
 
@@ -35,9 +34,6 @@
 
 
 
-
-
-
     # Including version number and date
     #
     # Note that we are using the WordPress convention of
@@ -46,7 +42,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a51 2020-07-03T143631Z+0";
+        return "Edit Overflow v. 1.1.49a52 2020-07-03T153936Z+0";
     }
 
 
@@ -554,6 +550,5 @@ HTML_END;
 
 
 ?>
-
 
 
