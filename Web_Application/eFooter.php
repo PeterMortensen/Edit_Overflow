@@ -11,15 +11,11 @@
     function the_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
     {
 
-        # For now: Stub-like - parameters are ignored (only refactoring).
-
-
         # For the last two parameters, sample output HTML for the 
         # link builder part:
         #
         #   https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit
-        #
-        #
+
 
 
         #echo "</p>Value of E_ALL: " . E_ALL . " </p>";
@@ -79,8 +75,11 @@
     #
     function get_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
     {
-        $linkBuilerPartialURL = 'Link_Builder.php';
-        
+        #What about encoding of the URL??? (e.g. if it contains "&")???
+        #
+        $linkBuilerPartialURL = "Link_Builder.php?LinkText=$aLinkText&URL=$aURL";
+
+
         # Yes, the Heredoc style makes it ugly.
         #
         return <<<HTML_END
