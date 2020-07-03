@@ -1,19 +1,22 @@
 <?php
-     # Strange things are happening when this WordPress thing
-     # is included (a fix was added 2019-11-30, and finally
-     # another one fix 2019-12-10).
-     #
-     #   1. The YouTube convert (that uses a separate
-     #      PHP class in another file) had a lot of
-     #      warning lines. This turned out to be genuine
-     #      bug - the WordPress include had a configuration
-     #      that turned on debugging and surfaced the error.
-     #
-     #   2. Removing trailing space escapes single quotes
-     #      with backslash... This is a WordPress thing
-     #      (returned form data is escaped). The workaound
-     #      was to remove backslashes (this may be
-     #      sufficient as we don't XXX).
+    # File: Text.php
+
+
+    # Strange things are happening when this WordPress thing
+    # is included (a fix was added 2019-11-30, and finally
+    # another one fix 2019-12-10).
+    #
+    #   1. The YouTube convert (that uses a separate
+    #      PHP class in another file) had a lot of
+    #      warning lines. This turned out to be genuine
+    #      bug - the WordPress include had a configuration
+    #      that turned on debugging and surfaced the error.
+    #
+    #   2. Removing trailing space escapes single quotes
+    #      with backslash... This is a WordPress thing
+    #      (returned form data is escaped). The workaound
+    #      was to remove backslashes (this may be
+    #      sufficient as we don't XXX).
 ?>
 
 
@@ -188,12 +191,12 @@
 
                 if ($lenBefore < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: xxx" . $aOrigText . "xxx </p>" .
+                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: xxx" . $aOrigText . "xxx </p>\n";
                     assert(false);
                 }
                 if ($lenAfter < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: xxx" . $aOrigText . "xxx </p>" .
+                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: xxx" . $aOrigText . "xxx </p>\n";
                     assert(false);
                 }
 
@@ -420,7 +423,7 @@
             test_transformFor_YouTubeComments(1016, "first job._", 0);
             test_transformFor_YouTubeComments(1017, "first job.", 0);
 
-            # Insertion of empty space on empty lines - introduced 
+            # Insertion of empty space on empty lines - introduced
             # after changes to YouTube comments on 2020-05-21
             #
             test_transformFor_YouTubeComments(1018,
@@ -680,7 +683,7 @@
 
             echo "$message $extraMessage\n\n";
 
-            the_EditOverflowFooter();
+            the_EditOverflowFooter('Text.php', "", "");
         ?>
 
 
@@ -699,5 +702,5 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<?php include("commonEnd.php"); ?>
+<?php the_EditOverflowEnd() ?>
 

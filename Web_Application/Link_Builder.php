@@ -1,4 +1,3 @@
-
 <?php
     # File: Link_Builder.php
 
@@ -150,9 +149,9 @@
             {
                 # $MediaWiki_link = preg_replace('/\*/', '', $URL);
                 # $MediaWiki_link = substr_replace($URL, 'https://en.wikipedia.org/wiki/', 0, 0);
-                
+
                 $MediaWiki_firstPart = preg_replace('/https:\/\/en.wikipedia.org\/wiki\//', '', $URL);
-                
+
                 $MediaWiki_link = '[[' . $MediaWiki_firstPart . '|' . $linkText . ']]';
             }
 
@@ -414,7 +413,7 @@
 
             </div>
 
-        </form><?php the_EditOverflowFooter(); ?>
+        </form><?php the_EditOverflowFooter('Link_Builder.php', $linkText, $URL); ?>
 
 
             <!--
@@ -444,5 +443,5 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
+<?php the_EditOverflowEnd() ?>
 
-<?php include("commonEnd.php"); ?>

@@ -26,10 +26,7 @@
 -->
 
 
-
 <?php include("commonStart.php"); ?>
-
-
 
 
         <?php
@@ -260,8 +257,8 @@
             $items = array_filter($items); # Get rid of empty elements
 
             # Wrap each item in "<>" (URL encoded)
-            $items = substr_replace($items, '&lt;', 0, 0); # That is, insert "&lt;" at 
-                                                           # the beginning of the 
+            $items = substr_replace($items, '&lt;', 0, 0); # That is, insert "&lt;" at
+                                                           # the beginning of the
                                                            # element of the array
             $items = preg_replace('/$/', '&gt;', $items);
             $elements = count($items);
@@ -306,14 +303,50 @@
                 #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
             }
 
+            # If the correct term can not be looked up, we substitute
+            # with the incorrect term. One reason for this is the use
+            # of automatic tools, like a macro keyboard, that blindly
+            # applies a lookup. In this way the term in the original
+            # place, e.g. an edit window will not be blanked out,
+            # but effectively left as it was.
+            #
+            #What about empty input??
+            if ($correctTerm)
+            {
+                $effectiveTerm = $correctTerm;
+            }
+            else
+            {
+                #$itemValue .= "..."; # To force the form input
+                #                     # field to not be empty
+
+                # Fill in the corrected field even though the lookup
+                # failed. Justification: So an automatic process,
+                # like a macro keyboard, will not overwrite the
+                # origin (e.g. in an edit field in a
+                # web browser tab).
+                #
+                # An alternative could be to append some text
+                # to indicate failure (so we achieve not
+                # overwriting, but don't pretend to have
+                # succeeded).
+                #
+                # E.g., it could be subtle, like a few extra
+                # spaces. Or an HTML comment (works for the
+                # common use case).
+                #
+                $effectiveTerm = $lookUpTerm;
+            }
+
         ?>
 
 
         <?php
-            #Now dynamic (shows the term in the title so we can distinguish
-            #e.g. when opening recently closed tabs in Firefox), but we may
-            #to add a special case for ***empty*** input/initial page...
-            #(right now it is using some default).
+            #Now dynamic (shows the term in the title so we can
+            #distinguish e.g. when opening recently closed tabs
+            #in Firefox), but we may to add a special case for
+            #***empty*** input/initial page... (right now it
+            #is using some default).
 
             the_EditOverflowHeadline("Look up of \"$lookUpTerm\"");
         ?>
@@ -483,34 +516,7 @@
                         # version of Edit Overflow) - where we preserve
                         # any leading and trailing white space.
 
-                        #What about empty input??
-                        if ($correctTerm)
-                        {
-                            $itemValue = "$correctTerm ";
-                        }
-                        else
-                        {
-                            #$itemValue .= "..."; # To force the form input
-                            #                     # field to not be empty
-
-                            # Fill in the corrected field even though the lookup
-                            # failed. Justification: So an automatic process,
-                            # like a macro keyboard, will not overwrite the
-                            # origin (e.g. in an edit field in a
-                            # web browser tab).
-                            #
-                            # An alternative could be to append some text
-                            # to indicate failure (so we achieve not
-                            # overwriting, but don't pretend to have
-                            # succeeded).
-                            #
-                            # E.g., it could be subtle, like a few extra
-                            # spaces. Or an HTML comment (works for the
-                            # common use case).
-                            #
-                            $itemValue = "$lookUpTerm ";
-                        }
-                        the_formValue($itemValue);
+                        the_formValue($effectiveTerm . " ");
                     ?>
                     style="width:110px;"
                     accesskey="C"
@@ -687,7 +693,7 @@
 
             </div>
 
-        </form><?php the_EditOverflowFooter(); ?>
+        </form><?php the_EditOverflowFooter('EditOverflow.php', $effectiveTerm, $URL); ?>
 
 
             <!--
@@ -717,6 +723,6 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<?php include("commonEnd.php"); ?>
+<?php the_EditOverflowEnd() ?>
 
 
