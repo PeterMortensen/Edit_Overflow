@@ -19,6 +19,10 @@
 
     require_once('StringReplacerWithRegex.php');
 
+    require_once('commonEnd.php'); # Only function definitions
+
+
+
 
     # Used by one page (EditOverflow.php)
     const LOOKUPTERM = 'LookUpTerm';
@@ -42,7 +46,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a50 2020-06-30T214323Z+0";
+        return "Edit Overflow v. 1.1.49a51 2020-07-03T143631Z+0";
     }
 
 
@@ -74,7 +78,7 @@
 
         get_startOfDocument($someTitle);
 
-        echo "<h1>$someTitle</h1>";
+        echo "<h1>$someTitle</h1>\n";
 
 
         adjustForWordPressMadness();
@@ -96,8 +100,8 @@
             # Note: Warnings are issued only if actually
             #       executed, not at parse time.
             #
-            # When the proper error reporting level, it should result in
-            # something like this:
+            # With the proper error reporting level, it
+            # should result in something like this:
             #
             #     PHP Notice ... Undefined variable: dummy2 in ... commonStart.php on line ...
             #
@@ -105,7 +109,7 @@
         }
 
 
-    }
+    } #the_EditOverflowHeadline()
 
 
     # A central place to express if we should also support
@@ -375,21 +379,18 @@
         $replacer->transform('->', '→');
 
         # After 2020-05-21, empty lines no longer work in YouTube
-        # comments (they are silently removed when submitting 
+        # comments (they are silently removed when submitting
         # the comment).
         #
         # The workaround is to add a space to empty lines.
         #
-        $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work 
+        $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work
                                                        # if the LAST line is empty.
-
 
         $someText = $replacer->currentString();
 
         return $someText;
     } #transformFor_YouTubeComments()
-
-
 
 
     # Note that we are using the WordPress convention of
@@ -453,7 +454,7 @@
             #
             # Note: non-quoted, HTML_END, for heredoc (not newdoc)
             #
-        echo <<<HTML_END
+            echo <<<HTML_END
 <!DOCTYPE html>
 <html lang="en">
 

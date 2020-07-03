@@ -4,10 +4,20 @@
     # Purpose: Output of common footer for Edit Overflow for Web.
 
 
-    function the_EditOverflowFooter()
-    {        
+    # Note: The two parameters are for the link builder and is
+    #       only really used by the main lookup page - they
+    #       are left empty for the other pages.
+    #
+    function the_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
+    {
+
+        # For now: Stub-like - parameters are ignored (only refactoring).
+
+
+
+
         #echo "</p>Value of E_ALL: " . E_ALL . " </p>";
-    
+
         # Side-effect of this function... Use the
         # opportunity for some error detaction as
         # this function is used by all...
@@ -16,22 +26,22 @@
         #          though we have set it to 0 in .htaccess
         #
         #echo "</p>Value of PHP setting 'display_errors': " . ini_get('display_errors') . " </p>";
-        
-        
+
+
         # WordPress likes to override it...
         #
-        # It also expresses that we don't want to risk having the 
-        # first 16 characters of the database password exposed... 
+        # It also expresses that we don't want to risk having the
+        # first 16 characters of the database password exposed...
         # (when the PDO constructor fails).
         #assert(0);
         #
-        # But assert itself is affected by 'display_errors'... We don't 
+        # But assert itself is affected by 'display_errors'... We don't
         # actually see an assert on the web page if 'display_errors'
         # is 0 (only in the PHP error log file)...
         #
         #assert(ini_get('display_errors') === 0);    No!!!!
         #
-        # Note: The strict === identical operator will not do implicit 
+        # Note: The strict === identical operator will not do implicit
         #       conversions (string to integer in this case). ini_get()
         #       returns a string.
         #
@@ -46,20 +56,22 @@
         #     "TRUE if $a is equal to $b, and they are of the same type."
         #
         #   <https://stackoverflow.com/questions/80646>
-        #     How do the PHP equality (== double equals) and identity 
+        #     How do the PHP equality (== double equals) and identity
         #     (=== triple equals) comparison operators differ?
-        #  
+        #
         #     "Difference between == and ==="
         #
-        assert(ini_get('display_errors') === '0'); 
-        
+        assert(ini_get('display_errors') === '0');
 
 
-        echo get_EditOverflowFooter();
-    }
+        echo get_EditOverflowFooter($aParentPage, $aLinkText, $aURL);
+    } #the_EditOverflowFooter()
 
 
-    function get_EditOverflowFooter()
+
+    # For the parameters, see the_EditOverflowFooter()
+    #
+    function get_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
     {
         # Yes, the Heredoc style makes it ugly.
         #
