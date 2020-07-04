@@ -15344,6 +15344,7 @@ namespace OverflowHelper.core
             correctionAdd("clique", "click");
 
             correctionAdd("extremelly", "extremely");
+            correctionAdd("extrimely", "extremely");
 
             correctionAdd("goood", "good");
             correctionAdd("gud", "good");
@@ -18379,6 +18380,12 @@ namespace OverflowHelper.core
             correctionAdd("saund", "sound");
 
             correctionAdd("wereing", "wearing");
+
+            correctionAdd("abrevation", "abbreviation");
+
+            correctionAdd("gaz", "gas");
+
+            correctionAdd("heterogenious", "heterogeneous");
 
 
             // Start of coronavirus part...
@@ -27949,6 +27956,12 @@ namespace OverflowHelper.core
             URL_Add("sound", "https://en.wiktionary.org/wiki/sound#Noun");
 
             URL_Add("wearing", "https://en.wiktionary.org/wiki/wear#Verb");
+
+            URL_Add("abbreviation", "https://en.wiktionary.org/wiki/abbreviation#Noun");
+
+            URL_Add("gas", "https://en.wiktionary.org/wiki/gas#Noun");
+
+            URL_Add("heterogeneous", "https://en.wiktionary.org/wiki/heterogeneous#Adjective");
 
 
 
