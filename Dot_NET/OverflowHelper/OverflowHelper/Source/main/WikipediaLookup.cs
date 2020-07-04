@@ -14696,11 +14696,12 @@ namespace OverflowHelper.core
 
             correctionAdd("XSEL", "xsel");
 
+            correctionAdd("Bob's your uncle", "Bob’s your uncle"); // Sort of self (but not with "nbsp")
             correctionAdd("bob's your uncle", "Bob’s your uncle");
             correctionAdd("Bob's your Uncle", "Bob’s your uncle");
             correctionAdd("bobs your uncle", "Bob’s your uncle");
             correctionAdd("B's ur uncle", "Bob’s your uncle");
-            correctionAdd("Bob's your uncle", "Bob’s your uncle"); // Sort of self (but not with "nbsp")
+            correctionAdd("Bob's yer uncle", "Bob’s your uncle");
 
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
@@ -16634,8 +16635,6 @@ namespace OverflowHelper.core
 
             correctionAdd("webflow", "Webflow");
 
-            correctionAdd("analise", "analysis");
-
             correctionAdd("attemptig", "attempting");
 
             correctionAdd("fiel", "file");
@@ -18386,6 +18385,10 @@ namespace OverflowHelper.core
             correctionAdd("gaz", "gas");
 
             correctionAdd("heterogenious", "heterogeneous");
+
+            correctionAdd("analise", "analyse");
+            correctionAdd("anylise", "analyse");
+
 
 
             // Start of coronavirus part...
@@ -26471,8 +26474,6 @@ namespace OverflowHelper.core
 
             URL_Add("Webflow", "https://en.wikipedia.org/wiki/Webflow#Overview");
 
-            URL_Add("analysis", "https://en.wiktionary.org/wiki/analysis#Noun");
-
             URL_Add("attempting", "https://en.wiktionary.org/wiki/attempt#Verb");
 
             URL_Add("file", "https://en.wiktionary.org/wiki/file#Noun");
@@ -27962,6 +27963,8 @@ namespace OverflowHelper.core
             URL_Add("gas", "https://en.wiktionary.org/wiki/gas#Noun");
 
             URL_Add("heterogeneous", "https://en.wiktionary.org/wiki/heterogeneous#Adjective");
+
+            URL_Add("analyse", "https://en.wiktionary.org/wiki/analyse#Verb");
 
 
 
