@@ -11,7 +11,7 @@
     function the_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
     {
 
-        # For the last two parameters, sample output HTML for the 
+        # For the last two parameters, sample output HTML for the
         # link builder part:
         #
         #   https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit
@@ -70,7 +70,6 @@
     } #the_EditOverflowFooter()
 
 
-
     # For the parameters, see the_EditOverflowFooter()
     #
     function get_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
@@ -78,6 +77,12 @@
         #What about encoding of the URL??? (e.g. if it contains "&")???
         #
         $linkBuilerPartialURL = "Link_Builder.php?LinkText=$aLinkText&URL=$aURL";
+
+
+        # Note: Any keyboard shortcuts used in the footer can conflict
+        #       with keyboard shortcuts on the pages. E.g. page 
+        #       "EditSummaryFragments.php" uses most of the available
+        #       keyboard shortcuts.
 
 
         # Yes, the Heredoc style makes it ugly.
@@ -103,8 +108,7 @@
 
             <a
                 href="$linkBuilerPartialURL"
-                title="Convenient formatting of links in HTML, Markdown, and MediaWiki (Wikipedia). Shortcut: Shift + Alt + B"
-                accesskey="B"
+                title="Convenient formatting of links in HTML, Markdown, and MediaWiki (Wikipedia)."
             >Link builder</a>.
 
             <a
