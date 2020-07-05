@@ -18455,10 +18455,9 @@ namespace OverflowHelper.core
             correctionAdd("cdc", "CDC");
             correctionAdd("cronavirus", "coronavirus");
             correctionAdd("rona", "coronavirus");
+            correctionAdd("C-virus", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
-
-
 
 
 
