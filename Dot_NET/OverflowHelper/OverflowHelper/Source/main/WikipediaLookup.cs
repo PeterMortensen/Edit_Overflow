@@ -9511,6 +9511,7 @@ namespace OverflowHelper.core
             correctionAdd("avialable", "available");
             correctionAdd("avaialble", "available");
             correctionAdd("availabe", "available");
+            correctionAdd("avilable", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -10586,6 +10587,7 @@ namespace OverflowHelper.core
 
             correctionAdd("developement", "development");
             correctionAdd("devolpment", "development");
+            correctionAdd("developpement", "development");
 
             correctionAdd("simulateous", "simultaneous");
             correctionAdd("Similtanous", "simultaneous");  //Not 100% correct - case.
@@ -10951,6 +10953,7 @@ namespace OverflowHelper.core
 
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
+            correctionAdd("reallly", "really");
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
@@ -11572,6 +11575,7 @@ namespace OverflowHelper.core
             correctionAdd("directy", "directly");
             correctionAdd("direcly", "directly");
             correctionAdd("directlly", "directly");
+            correctionAdd("derectly", "directly");
 
             correctionAdd("dicovered", "discovered");
 
@@ -12560,6 +12564,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rememer", "remember");
             correctionAdd("rember", "remember");
+            correctionAdd("remeber", "remember");
 
             correctionAdd("re-written", "rewritten");
 
@@ -14902,6 +14907,8 @@ namespace OverflowHelper.core
 
             correctionAdd("proof-of-concept", "proof of concept");
             correctionAdd("Proof-of-concept", "proof of concept");
+            correctionAdd("Proof of Concept", "proof of concept");
+            correctionAdd("POC", "proof of concept");
 
             correctionAdd("rabbithole", "rabbit hole");
 
@@ -16363,6 +16370,7 @@ namespace OverflowHelper.core
             correctionAdd("ethyl alcohol", "ethanol");
             correctionAdd("Ethyl alcohol", "ethanol");
             correctionAdd("Ethanol", "ethanol");
+            correctionAdd("alchohol", "ethanol");
 
             correctionAdd("Isopropyl alcohol", "isopropyl alcohol");
             correctionAdd("IPA", "isopropyl alcohol");
@@ -18031,6 +18039,7 @@ namespace OverflowHelper.core
             correctionAdd("lanuguage", "language");
             correctionAdd("languade", "language");
             correctionAdd("langugae", "language");
+            correctionAdd("langue", "language");
 
             correctionAdd("2-in-1", "2-in-1 PC");
 
@@ -18241,6 +18250,9 @@ namespace OverflowHelper.core
 
             correctionAdd("realize", "realise");
             correctionAdd("reilize", "realise");
+            correctionAdd("relize", "realise");
+            correctionAdd("relise", "realise");
+            correctionAdd("reliase", "realise");
 
             correctionAdd("regulary", "regularly");
 
@@ -18389,6 +18401,21 @@ namespace OverflowHelper.core
             correctionAdd("analise", "analyse");
             correctionAdd("anylise", "analyse");
 
+            correctionAdd("beam", "BEAM");
+
+            correctionAdd("abandonded", "abandoned");
+
+            correctionAdd("battallion", "battalion");
+
+            correctionAdd("charasteristic", "characteristic");
+
+            correctionAdd("complie", "compile");
+
+            correctionAdd("detialed", "detailed");
+
+            correctionAdd("hrad", "hard");
+
+            correctionAdd("phenomen", "phenomenon");
 
 
             // Start of coronavirus part...
@@ -27965,6 +27992,21 @@ namespace OverflowHelper.core
 
             URL_Add("analyse", "https://en.wiktionary.org/wiki/analyse#Verb");
 
+            URL_Add("BEAM", "https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)");
+
+            URL_Add("abandoned", "https://en.wiktionary.org/wiki/abandon#Verb");
+
+            URL_Add("battalion", "https://en.wiktionary.org/wiki/battalion#Noun");
+
+            URL_Add("characteristic", "https://en.wiktionary.org/wiki/characteristic#Adjective");
+
+            URL_Add("compile", "https://en.wiktionary.org/wiki/compile#Verb");
+
+            URL_Add("detailed", "https://en.wiktionary.org/wiki/detailed#Adjective");
+
+            URL_Add("hard", "https://en.wiktionary.org/wiki/hard#Adjective");
+
+            URL_Add("phenomenon", "https://en.wiktionary.org/wiki/phenomenon#Noun");
 
 
 
