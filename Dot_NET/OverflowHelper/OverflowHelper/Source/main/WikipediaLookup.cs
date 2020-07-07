@@ -9512,6 +9512,8 @@ namespace OverflowHelper.core
             correctionAdd("avaialble", "available");
             correctionAdd("availabe", "available");
             correctionAdd("avilable", "available");
+            correctionAdd("AVILABLE", "available");
+            correctionAdd("AVAILABLE", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -15400,6 +15402,8 @@ namespace OverflowHelper.core
             correctionAdd("RTM", "release to manufacturing");
 
             correctionAdd("Beteljuice", "Betelgeuse");
+            correctionAdd("beetlejuice", "Betelgeuse");
+
 
             correctionAdd("ZX 81", "ZX81");
 
@@ -18416,6 +18420,12 @@ namespace OverflowHelper.core
             correctionAdd("hrad", "hard");
 
             correctionAdd("phenomen", "phenomenon");
+
+            correctionAdd("choosed", "chose");
+
+            correctionAdd("correcction", "correction");
+
+            correctionAdd("aught", "ought");
 
 
             // Start of coronavirus part...
@@ -28007,6 +28017,13 @@ namespace OverflowHelper.core
             URL_Add("hard", "https://en.wiktionary.org/wiki/hard#Adjective");
 
             URL_Add("phenomenon", "https://en.wiktionary.org/wiki/phenomenon#Noun");
+
+            URL_Add("chose", "https://en.wiktionary.org/wiki/choose#Verb");
+
+            URL_Add("correction", "https://en.wiktionary.org/wiki/correction#Noun");
+
+            URL_Add("ought", "https://en.wiktionary.org/wiki/ought#Verb_2");
+
 
 
 
