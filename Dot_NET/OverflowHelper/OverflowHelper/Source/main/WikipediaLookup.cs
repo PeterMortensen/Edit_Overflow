@@ -18427,6 +18427,8 @@ namespace OverflowHelper.core
 
             correctionAdd("aught", "ought");
 
+            correctionAdd("bassis", "basis");
+
 
             // Start of coronavirus part...
 
@@ -28023,7 +28025,8 @@ namespace OverflowHelper.core
             URL_Add("correction", "https://en.wiktionary.org/wiki/correction#Noun");
 
             URL_Add("ought", "https://en.wiktionary.org/wiki/ought#Verb_2");
-
+            
+            URL_Add("basis", "https://en.wiktionary.org/wiki/basis#Noun");
 
 
 
