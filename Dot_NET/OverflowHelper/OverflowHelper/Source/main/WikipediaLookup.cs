@@ -13860,6 +13860,7 @@ namespace OverflowHelper.core
             correctionAdd("next js", "Next.js");
             correctionAdd("Next JS", "Next.js");
             correctionAdd("next.js", "Next.js");
+            correctionAdd("NextJS", "Next.js");
 
             correctionAdd("optix", "OptiX");
 
@@ -18428,6 +18429,10 @@ namespace OverflowHelper.core
             correctionAdd("aught", "ought");
 
             correctionAdd("bassis", "basis");
+
+            correctionAdd("alaska", "Alaska");
+
+            correctionAdd("invovle", "involve");
 
 
             // Start of coronavirus part...
@@ -28027,6 +28032,11 @@ namespace OverflowHelper.core
             URL_Add("ought", "https://en.wiktionary.org/wiki/ought#Verb_2");
             
             URL_Add("basis", "https://en.wiktionary.org/wiki/basis#Noun");
+
+            URL_Add("Alaska", "https://en.wikipedia.org/wiki/Alaska");
+
+            URL_Add("involve", "https://en.wiktionary.org/wiki/involve#Verb");
+
 
 
 
