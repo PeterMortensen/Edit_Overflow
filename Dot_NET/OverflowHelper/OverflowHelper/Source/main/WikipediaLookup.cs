@@ -922,6 +922,7 @@ namespace OverflowHelper.core
             correctionAdd("MSSQLSERVER", "SQL&nbsp;Server");
             correctionAdd("MS-SQL-SERVER", "SQL&nbsp;Server");
             correctionAdd("M$ sql", "SQL&nbsp;Server");
+            correctionAdd("Ms SQl server", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -3759,6 +3760,7 @@ namespace OverflowHelper.core
             correctionAdd("concatinating", "concatenate"); // Not 100% correct...
             correctionAdd("concentenate", "concatenate");
             correctionAdd("concantenate", "concatenate");
+            correctionAdd("comcatenate", "concatenate");
 
             correctionAdd("gif", "GIF");
             correctionAdd("Gif", "GIF");
@@ -6138,6 +6140,7 @@ namespace OverflowHelper.core
             correctionAdd("CNTRL", "Ctrl");
             correctionAdd("ctl", "Ctrl");
             correctionAdd("Crtl", "Ctrl");
+            correctionAdd("cntrl", "Ctrl");
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
@@ -9864,6 +9867,7 @@ namespace OverflowHelper.core
             correctionAdd("differemt", "different");
             correctionAdd("diffrernt", "different");
             correctionAdd("differernt", "different");
+            correctionAdd("differnt", "different");
 
             correctionAdd("beyong", "beyond");
 
@@ -10899,6 +10903,9 @@ namespace OverflowHelper.core
             correctionAdd("anwswer", "answer");
             correctionAdd("ans", "answer");
             correctionAdd("answser", "answer");
+            correctionAdd("Annswer", "answer");
+            correctionAdd("Answer", "answer");
+
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -13861,6 +13868,10 @@ namespace OverflowHelper.core
             correctionAdd("Next JS", "Next.js");
             correctionAdd("next.js", "Next.js");
             correctionAdd("NextJS", "Next.js");
+            correctionAdd("Nextjs", "Next.js");
+            correctionAdd("nextjs", "Next.js");
+            correctionAdd("Next.JS", "Next.js");
+            correctionAdd("nextJs", "Next.js");
 
             correctionAdd("optix", "OptiX");
 
@@ -16186,7 +16197,7 @@ namespace OverflowHelper.core
             correctionAdd("Pog Champs", "PogChamps"); // Chess
 
             correctionAdd("zwichenzug", "zwischenzug"); // Chess
-
+            correctionAdd("Zwischenzug", "zwischenzug"); // Chess
 
             correctionAdd("demonitisation", "demonetisation");
             correctionAdd("demonitization", "demonetisation");
@@ -17961,6 +17972,7 @@ namespace OverflowHelper.core
             correctionAdd("freecommander", "FreeCommander");
 
             correctionAdd("hackerrank", "HackerRank");
+            correctionAdd("Hackerrank", "HackerRank");
 
             correctionAdd("jms", "JMS");
 
@@ -18205,6 +18217,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("caled", "called");
+            correctionAdd("callled", "called");
 
             correctionAdd("check-in", "check in");
             correctionAdd("checkin", "check in");
@@ -18433,6 +18446,10 @@ namespace OverflowHelper.core
             correctionAdd("alaska", "Alaska");
 
             correctionAdd("invovle", "involve");
+
+            correctionAdd("swiftUI", "SwiftUI");
+
+            correctionAdd("deam", "deem");
 
 
             // Start of coronavirus part...
@@ -27041,7 +27058,7 @@ namespace OverflowHelper.core
 
             URL_Add("DAC", "https://en.wikipedia.org/wiki/Digital-to-analog_converter");
 
-            URL_Add("SAP", "https://en.wikipedia.org/wiki/SAP_SE");
+            URL_Add("SAP", "https://en.wikipedia.org/wiki/SAP"); // Old: https://en.wikipedia.org/wiki/SAP_SE
 
             URL_Add("SNOBOL", "https://en.wikipedia.org/wiki/SNOBOL");
 
@@ -28030,13 +28047,16 @@ namespace OverflowHelper.core
             URL_Add("correction", "https://en.wiktionary.org/wiki/correction#Noun");
 
             URL_Add("ought", "https://en.wiktionary.org/wiki/ought#Verb_2");
-            
+
             URL_Add("basis", "https://en.wiktionary.org/wiki/basis#Noun");
 
             URL_Add("Alaska", "https://en.wikipedia.org/wiki/Alaska");
 
             URL_Add("involve", "https://en.wiktionary.org/wiki/involve#Verb");
 
+            URL_Add("SwiftUI", "https://developer.apple.com/xcode/swiftui/");
+
+            URL_Add("deem", "https://en.wiktionary.org/wiki/deem#Verb");
 
 
 
