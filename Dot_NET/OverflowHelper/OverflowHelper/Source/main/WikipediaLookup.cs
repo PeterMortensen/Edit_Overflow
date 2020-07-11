@@ -4441,6 +4441,7 @@ namespace OverflowHelper.core
             correctionAdd("ur", "your");
             correctionAdd("yout", "your");
             correctionAdd("yor", "your");
+            correctionAdd("Yout", "your");
 
             correctionAdd("havent", "haven't");
             correctionAdd("havn't", "haven't");
@@ -4989,6 +4990,7 @@ namespace OverflowHelper.core
             correctionAdd("Whitch", "which");  //Not 100% correct - casing.
             correctionAdd("whihc", "which");
             correctionAdd("whch", "which");
+            correctionAdd("woch", "which");
 
             correctionAdd("fiddler", "Fiddler");
 
@@ -8890,6 +8892,8 @@ namespace OverflowHelper.core
             correctionAdd("mega byte", "&nbsp;MB");
             correctionAdd("megabyte", "&nbsp;MB");
             correctionAdd("Mega byte", "&nbsp;MB");
+            correctionAdd("MBytes", "&nbsp;MB");
+            correctionAdd("Mbyte", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); //Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
@@ -8903,12 +8907,16 @@ namespace OverflowHelper.core
             correctionAdd("KB", "&nbsp;KB"); //Assuming bytes, not bits...
             correctionAdd("Kbyte", "&nbsp;KB");
             correctionAdd("Kb", "&nbsp;KB");
+            correctionAdd("KByte", "&nbsp;KB");
 
             correctionAdd("TurboC++", "Turbo C++");
             correctionAdd("turbo c", "Turbo C++"); //Is this true?
             correctionAdd("turbo C", "Turbo C++");
             correctionAdd("Turbo C", "Turbo C++");
             correctionAdd("TurboC", "Turbo C++");
+            correctionAdd("turbo c++", "Turbo C++");
+            correctionAdd("Turbo c++", "Turbo C++");
+            correctionAdd("turbo C++", "Turbo C++");
 
             correctionAdd("rdbms", "RDBMS");
 
@@ -10119,6 +10127,7 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript6", "ECMAScript&nbsp;6");
             correctionAdd("ECMAScript 6", "ECMAScript&nbsp;6");
             correctionAdd("ES 6", "ECMAScript&nbsp;6");
+            correctionAdd("Es6", "ECMAScript&nbsp;6");
 
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
@@ -13179,6 +13188,7 @@ namespace OverflowHelper.core
             correctionAdd("screenfull", "screenful");
 
             correctionAdd("simpel", "simple");
+            correctionAdd("sinple", "simple");
 
             correctionAdd("soundcard", "sound card");
 
@@ -13447,6 +13457,7 @@ namespace OverflowHelper.core
             correctionAdd("femails", "females");
 
             correctionAdd("womans", "women");
+            correctionAdd("wamen", "women");
 
             correctionAdd("fiverr", "Fiverr");
 
@@ -14324,6 +14335,8 @@ namespace OverflowHelper.core
             correctionAdd("Strtr", "strtr");
 
             correctionAdd("tranform", "transform");
+            correctionAdd("Transfrom", "transform");
+            correctionAdd("transfrom", "transform");
 
             correctionAdd("ambersand", "ampersand");
             correctionAdd("apersand", "ampersand");
@@ -15635,6 +15648,7 @@ namespace OverflowHelper.core
             correctionAdd("tiktock", "TikTok");
             correctionAdd("tiktok", "TikTok");
             correctionAdd("TIC TAC", "TikTok");
+            correctionAdd("Tiktok", "TikTok");
 
             correctionAdd("cobra", "Cobra");
 
@@ -17989,6 +18003,7 @@ namespace OverflowHelper.core
             correctionAdd("technorati", "Technorati");
 
             correctionAdd("western european", "Western European");
+            correctionAdd("western European", "Western European");
 
             correctionAdd("cache able", "cacheable");
             correctionAdd("cachable", "cacheable");
@@ -18450,6 +18465,28 @@ namespace OverflowHelper.core
             correctionAdd("swiftUI", "SwiftUI");
 
             correctionAdd("deam", "deem");
+
+            correctionAdd("cp 850", "Code page 850");
+
+            correctionAdd("ddr2", "DDR2 SDRAM");
+
+            correctionAdd("RAMDISC", "RAM disk");
+
+            correctionAdd("actaul", "actual");
+
+            correctionAdd("collage", "college");
+
+            correctionAdd("GFX", "graphics");
+
+            correctionAdd("overide", "override");
+
+            correctionAdd("Red-Black tree", "red-black tree");
+
+            correctionAdd("stoopidest", "stupidest");
+
+            correctionAdd("super-script", "superscript");
+
+            correctionAdd("waut", "wait");
 
 
             // Start of coronavirus part...
@@ -28057,6 +28094,29 @@ namespace OverflowHelper.core
             URL_Add("SwiftUI", "https://developer.apple.com/xcode/swiftui/");
 
             URL_Add("deem", "https://en.wiktionary.org/wiki/deem#Verb");
+
+            URL_Add("Code page 850", "https://en.wikipedia.org/wiki/Code_page_850");
+
+            URL_Add("DDR2 SDRAM", "https://en.wikipedia.org/wiki/DDR2_SDRAM");
+
+            URL_Add("RAM disk", "https://en.wikipedia.org/wiki/RAM_disk");
+
+            URL_Add("actual", "https://en.wiktionary.org/wiki/actual#Adjective");
+
+            URL_Add("college", "https://en.wiktionary.org/wiki/college#Noun");
+
+            URL_Add("graphics", "https://en.wiktionary.org/wiki/graphics#Noun");
+
+            URL_Add("override", "https://en.wiktionary.org/wiki/override#Verb");
+
+            URL_Add("red-black tree", "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree");
+
+            URL_Add("stupidest", "https://en.wiktionary.org/wiki/stupid#Adjective");
+
+            URL_Add("superscript", "https://en.wiktionary.org/wiki/superscript#Noun");
+
+            URL_Add("wait", "https://en.wiktionary.org/wiki/wait#Verb");
+
 
 
 
