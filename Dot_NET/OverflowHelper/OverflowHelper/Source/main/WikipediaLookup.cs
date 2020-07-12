@@ -9441,6 +9441,7 @@ namespace OverflowHelper.core
             correctionAdd("ain't", "isn't");
             correctionAdd("isn’t", "isn't"); //Quora
             correctionAdd("isn´t", "isn't");
+            correctionAdd("ain´t", "isn't");
 
             correctionAdd("Ironruby", "IronRuby");
 
@@ -10584,6 +10585,8 @@ namespace OverflowHelper.core
             correctionAdd("anaconda", "Anaconda");
 
             correctionAdd("conda", "Conda");
+            correctionAdd("Condo", "Conda");
+            correctionAdd("condo", "Conda");
 
             correctionAdd("jekyll", "Jekyll");
             correctionAdd("Jerkyll", "Jekyll");
@@ -18467,8 +18470,11 @@ namespace OverflowHelper.core
             correctionAdd("deam", "deem");
 
             correctionAdd("cp 850", "Code page 850");
+            correctionAdd("CP-850", "Code page 850");
+            correctionAdd("CP 850", "Code page 850");
 
             correctionAdd("ddr2", "DDR2 SDRAM");
+            correctionAdd("DDR2", "DDR2 SDRAM");
 
             correctionAdd("RAMDISC", "RAM disk");
 
@@ -18477,16 +18483,36 @@ namespace OverflowHelper.core
             correctionAdd("collage", "college");
 
             correctionAdd("GFX", "graphics");
+            correctionAdd("gfx", "graphics");
 
             correctionAdd("overide", "override");
+            correctionAdd("Overide", "override");
 
             correctionAdd("Red-Black tree", "red-black tree");
 
             correctionAdd("stoopidest", "stupidest");
+            correctionAdd("Stoopidest", "stupidest");
 
             correctionAdd("super-script", "superscript");
 
             correctionAdd("waut", "wait");
+
+            correctionAdd("Linus", "Linus Torvalds");
+
+            correctionAdd("dimimish", "diminish");
+
+            correctionAdd("preffer", "prefer");
+
+            correctionAdd("randon", "random");
+
+            correctionAdd("re-orient", "reorient");
+            correctionAdd("Re-orient", "reorient");
+
+            correctionAdd("reproduceable", "reproducible");
+
+            correctionAdd("roate", "rotate");
+
+            correctionAdd("seleting", "selecting");
 
 
             // Start of coronavirus part...
@@ -28117,6 +28143,21 @@ namespace OverflowHelper.core
 
             URL_Add("wait", "https://en.wiktionary.org/wiki/wait#Verb");
 
+            URL_Add("Linus Torvalds", "https://en.wikipedia.org/wiki/Linus_Torvalds");
+
+            URL_Add("diminish", "https://en.wiktionary.org/wiki/diminish#Verb");
+
+            URL_Add("prefer", "https://en.wiktionary.org/wiki/prefer#Verb");
+
+            URL_Add("random", "https://en.wiktionary.org/wiki/random#Adjective");
+
+            URL_Add("reorient", "https://en.wiktionary.org/wiki/reorient#Verb");
+
+            URL_Add("reproducible", "https://en.wiktionary.org/wiki/reproducible#Adjective");
+
+            URL_Add("rotate", "https://en.wiktionary.org/wiki/rotate#Verb");
+
+            URL_Add("selecting", "https://en.wiktionary.org/wiki/select#Verb");
 
 
 
