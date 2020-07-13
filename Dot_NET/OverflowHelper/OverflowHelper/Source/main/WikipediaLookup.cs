@@ -1115,6 +1115,7 @@ namespace OverflowHelper.core
             correctionAdd(".NetFramework", ".NET");
             correctionAdd(".NET frameowkr", ".NET");
             correctionAdd(".Net Framework", ".NET");
+            correctionAdd("dot.NET", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
 
@@ -4022,6 +4023,7 @@ namespace OverflowHelper.core
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
             correctionAdd("mardown", "Markdown");
+            correctionAdd("Mark-down", "Markdown");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -4648,6 +4650,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ZX spectrum", "ZX Spectrum");
             correctionAdd("ZX-Spectrum", "ZX Spectrum");
+            correctionAdd("ZXspectrum", "ZX Spectrum");
+            correctionAdd("ZXSpectrum", "ZX Spectrum");
 
             correctionAdd("IoC", "inversion of control"); //Expansion.
             correctionAdd("IOC", "inversion of control"); //Expansion. And correction.
