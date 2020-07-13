@@ -66,11 +66,14 @@ namespace EditOverflow2
                                    app.fullVersionStr(),
                                    app.versionString_dateOnly()
                                );
+                    break;
 
+                case "JavaScript":
+
+                    toOutput = someWikipediaLookup.dumpWordList_asJavaScript();
                     break;
 
                default:
-
                   //Console.WriteLine("Hello, World!");
 
                   Console.WriteLine("\n");
