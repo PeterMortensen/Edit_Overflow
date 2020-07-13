@@ -44,6 +44,14 @@ namespace OverflowHelper.core
 {
 
 
+    public enum wordListOutputTypeEnum
+    {
+        SQL = 1003,
+        HTML,
+        JavaScript
+    }
+
+
     /****************************************************************************
      *    <placeholder for header>                                              *
      ****************************************************************************/
@@ -28329,7 +28337,7 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static void generateMainTable(
             ref StringBuilder aSomeScratch,
-            bool aGenerateHTML,
+            wordListOutputTypeEnum aWordListOutputType,
             ref string aLongestInCorrectTerm,
             ref string aLongestCorrectTerm,
             ref string aLongestURL,
@@ -28426,35 +28434,54 @@ namespace OverflowHelper.core
                     // term-to-URL mapping).
 
                     // Using a flag for now (for the type of output, HTML, SQL, etc.)
-                    if (aGenerateHTML)
-                    {
-                        addTermsToOutput_HTML(someIncorrectTerm,
-                                              someCorrectTerm,
-                                              ref builder,
-                                              someURL);
-                    }
-                    else
-                    {
-                        addTermsToOutput_SQL(someIncorrectTerm,
-                                             someCorrectTerm,
-                                             ref aSomeScratch,
-                                             someURL);
 
-                        // Add the identity mapping, but only once. We can rely
-                        // on the sorted order, first by incorrect and then
-                        // correct. Thus, we will get a corrected term one
-                        // or more times consecutively.
-                        if (prevCorrectTerm != someCorrectTerm)
-                        {
-                            // "Identity mapping" - a lookup of a correct
-                            // term should also succeeed - e.g. if we only
-                            // want to get the URL.
-                            addTermsToOutput_SQL(someCorrectTerm,
+                    switch (aWordListOutputType)
+                    {
+
+                        case wordListOutputTypeEnum.HTML:
+
+                            addTermsToOutput_HTML(someIncorrectTerm,
+                                                  someCorrectTerm,
+                                                  ref builder,
+                                                  someURL);
+                            break;
+
+
+                        case wordListOutputTypeEnum.SQL:
+
+                            addTermsToOutput_SQL(someIncorrectTerm,
                                                  someCorrectTerm,
                                                  ref aSomeScratch,
                                                  someURL);
-                        }
-                    } // SQL generation variation
+
+                            // Add the identity mapping, but only once. We can rely
+                            // on the sorted order, first by incorrect and then
+                            // correct. Thus, we will get a corrected term one
+                            // or more times consecutively.
+                            if (prevCorrectTerm != someCorrectTerm)
+                            {
+                                // "Identity mapping" - a lookup of a correct
+                                // term should also succeeed - e.g. if we only
+                                // want to get the URL.
+                                addTermsToOutput_SQL(someCorrectTerm,
+                                                     someCorrectTerm,
+                                                     ref aSomeScratch,
+                                                     someURL);
+                            }
+                            break;
+
+
+                        case wordListOutputTypeEnum.JavaScript:
+
+                            //Stub - no output for now for the actual wordlist
+                            //Trace.Assert(false); 
+                            break;
+
+
+                        default:
+                            Trace.Assert(false); // Fall-through. Not allowed.
+                            break;
+                    }
 
 
                     // Update statistics
@@ -28475,7 +28502,7 @@ namespace OverflowHelper.core
                 prevCorrectTerm = someCorrectTerm;
             } //Through the list of incorrect words
 
-            if (aGenerateHTML)
+            if (aWordListOutputType == wordListOutputTypeEnum.HTML)
             {
                 aSomeScratch.Append(builder.currentHTML());
             }
@@ -28487,7 +28514,6 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public string dumpWordList_asSQL()
         {
-
             // For the pre-allocation: We now use a very simple
             // prediction model - linear with the number of entries
             //
@@ -28514,7 +28540,7 @@ namespace OverflowHelper.core
             string longestCorrectTerm = "";
             string longestURL = "";
             generateMainTable(ref SQL_tableRows,
-                              false,
+                              wordListOutputTypeEnum.SQL,
                               ref longestInCorrectTerm,
                               ref longestCorrectTerm,
                               ref longestURL,
@@ -28863,7 +28889,7 @@ namespace OverflowHelper.core
             string longestCorrectTerm = "";
             string longestURL = "";
             generateMainTable(ref HTML_tableRows,
-                              true,
+                              wordListOutputTypeEnum.HTML,
                               ref longestInCorrectTerm,
                               ref longestCorrectTerm,
                               ref longestURL,
@@ -28944,6 +28970,61 @@ namespace OverflowHelper.core
                       aVersionStr,
                       aDateStr);
         } //dumpWordList_asHTML()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *  This output is intended for use in inline lookup in the web             *
+         *  browser using JavaScript (faster than form-based), either               *
+         *  as a faster version of the form lookup or directly                      * 
+         *  manipulating the text in an edit window (the whole                      *
+         *  word list loaded into the browser - on the client-side)                 *
+         *                                                                          *
+         ****************************************************************************/
+        public string dumpWordList_asJavaScript()
+        {
+            // For the pre-allocation: We use a very simple prediction
+            // model - linear with the number of entries.
+            //
+            // Data points (the number of incorrect is only
+            // what is affecting the size):
+            //
+            //    Date        Incorrect   XXXX           Average
+            //                entries     characters       size
+            //    ------------------------------------------------
+            //    2020-07-12  13016        XXXX          XXX.X
+            //
+            //
+            int correctWordEntries = mWord2URL.Count;
+            int incorrectWordEntries = mCaseCorrection.Count;
+
+            //int capacity = 1200000;
+            //
+            // XXX characters per entry, with a 5% margin
+            int capacity = incorrectWordEntries * 126;
+
+            StringBuilder JavaScript_codeSB = new StringBuilder(capacity);
+            
+            // Variable declaration (JavaScript)
+            JavaScript_codeSB.Append("let incorrect2correct = {};\n");
+            JavaScript_codeSB.Append("let correct2URL = {};\n");
+
+            string longestInCorrectTerm = "";
+            string longestCorrectTerm = "";
+            string longestURL = "";
+            generateMainTable(ref JavaScript_codeSB,
+                              wordListOutputTypeEnum.JavaScript,
+                              ref longestInCorrectTerm,
+                              ref longestCorrectTerm,
+                              ref longestURL,
+                              ref mCaseCorrection,
+                              ref mWord2URL);
+
+            // The main side effect is the changing of the content
+            // of ref JavaScript_codeSB...
+
+            return JavaScript_codeSB.ToString();
+        } //dumpWordList_asJavaScript()
 
 
     } //class WikipediaLookup

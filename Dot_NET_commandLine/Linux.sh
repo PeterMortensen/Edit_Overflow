@@ -1,4 +1,5 @@
 
+
 ########################################################################
 #                                                                      #
 # Purpose: Compilation and running of part of the Edit Overflow        #
@@ -118,6 +119,9 @@ export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
 
 export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
 
+export JAVASCRIPT_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.js
+
+
 # Fixed name, not dependent on date, etc.
 export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
 
@@ -212,7 +216,7 @@ echo
 dotnet test EditOverflow3_UnitTests.csproj
 
 
-#  exit   # Active: Test only!!!!!!!!! (We currently use this to 
+#exit   # Active: Test only!!!!!!!!! (We currently use this to 
 #                                       iterate (aided by unit testing)
 
 
@@ -264,6 +268,12 @@ echo
 export WORDLIST_OUTPUTTYPE=SQL
 dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
 
+
+#exit   # Active: Test only!!!!!!!!!
+
+
+
+
 # 2> /dev/null
 
 
@@ -278,6 +288,22 @@ dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_F
 cp  $HTML_FILE  $HTML_FILE_GENERIC
 
 
+
+
+# Some redundancy here - to be eliminated
+echo
+echo
+echo '5. Exporting the word list as JavaScript...'
+echo
+export WORDLIST_OUTPUTTYPE=JavaScript
+dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASCRIPT_FILE
+
+#exit   # Active: Test only!!!!!!!!!
+
+
+
+
+
 # Copy the HTML to the public web site.
 #
 #   Note: Environment variables FTP_USER and FTP_PASSWORD
@@ -287,7 +313,7 @@ cp  $HTML_FILE  $HTML_FILE_GENERIC
 #
 echo
 echo
-echo '5. Updating the word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
+echo '6. Updating the word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
 echo
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER} /public_html/EditOverflow/_Wordlist ; exit"
