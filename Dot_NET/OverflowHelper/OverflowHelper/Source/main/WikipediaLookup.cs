@@ -10281,6 +10281,7 @@ namespace OverflowHelper.core
 
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
+            correctionAdd("back ground", "background");
 
             correctionAdd("kotlin", "Kotlin");
 
@@ -13881,6 +13882,7 @@ namespace OverflowHelper.core
             correctionAdd("bleeding edge", "bleeding-edge");
 
             correctionAdd("developming", "developing");
+            correctionAdd("developping", "developing");
 
             correctionAdd("moducle", "module");
 
@@ -14923,6 +14925,7 @@ namespace OverflowHelper.core
 
             correctionAdd("got ot", "go to");
             correctionAdd("goto", "go to");
+            correctionAdd("Goto", "go to");
 
             correctionAdd("googlable", "googleable");
 
@@ -18525,6 +18528,26 @@ namespace OverflowHelper.core
             correctionAdd("roate", "rotate");
 
             correctionAdd("seleting", "selecting");
+
+            correctionAdd("kivy", "Kivy");
+
+            correctionAdd("newtonsoft", "Newtonsoft");
+
+            correctionAdd("SSN", "Social Security number");
+
+            correctionAdd("balance and checks", "checks and balances");
+
+            correctionAdd("identifyable", "identifiable");
+
+            correctionAdd("life-long", "lifelong");
+            correctionAdd("life long", "lifelong");
+
+            correctionAdd("manufactor", "manufacture");
+            correctionAdd("manifactor", "manufacture");
+
+            correctionAdd("readed", "read");
+
+            correctionAdd("tweek", "tweak");
 
 
             // Start of coronavirus part...
@@ -28170,6 +28193,24 @@ namespace OverflowHelper.core
             URL_Add("rotate", "https://en.wiktionary.org/wiki/rotate#Verb");
 
             URL_Add("selecting", "https://en.wiktionary.org/wiki/select#Verb");
+
+            URL_Add("Kivy", "https://en.wikipedia.org/wiki/Kivy_(framework)");
+
+            URL_Add("Newtonsoft", "https://www.newtonsoft.com/json");
+
+            URL_Add("Social Security number", "https://en.wikipedia.org/wiki/Social_Security_number");
+
+            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
+
+            URL_Add("identifiable", "https://en.wiktionary.org/wiki/identifiable#Adjective");
+
+            URL_Add("lifelong", "https://en.wiktionary.org/wiki/lifelong#Adjective");
+
+            URL_Add("manufacture", "https://en.wiktionary.org/wiki/manufacture#Verb");
+
+            URL_Add("read", "https://en.wiktionary.org/wiki/read#Verb");
+
+            URL_Add("tweak", "https://en.wiktionary.org/wiki/tweak#Verb");
 
 
 
