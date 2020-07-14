@@ -28373,14 +28373,13 @@ namespace OverflowHelper.core
          *   incorrect terms) in a certain order. E.g. to generate the row          *
          *   for an HTML table                                                      *
          *                                                                          *
-         *    Note: For now, aGenerateHTML false, means SQL (later: use an          *
-         *          enum, or better something where the formatting type             *
-         *          (e.g. HTML or SQL) is some user defined thing (e.g.             *
-         *          a concrete instance of an abstract class))                      *
+         *    Note: We currently use an enum. Would it be better with something     *
+         *    where the formatting type (e.g. HTML or SQL) is some user defined     *
+         *    thing (e.g.  a concrete instance of an abstract class)?)              *
          *                                                                          *
          *                                                                          *
          ****************************************************************************/
-        private static void generateMainTable(
+        private static void exportWordlist(
             ref StringBuilder aSomeScratch,
             wordListOutputTypeEnum aWordListOutputType,
             ref string aLongestInCorrectTerm,
@@ -28519,7 +28518,7 @@ namespace OverflowHelper.core
                         case wordListOutputTypeEnum.JavaScript:
 
                             //Stub - no output for now for the actual wordlist
-                            //Trace.Assert(false); 
+                            //Trace.Assert(false);
                             break;
 
 
@@ -28551,7 +28550,7 @@ namespace OverflowHelper.core
             {
                 aSomeScratch.Append(builder.currentHTML());
             }
-        } //generateMainTable()
+        } //exportWordlist()
 
 
         /****************************************************************************
@@ -28584,13 +28583,13 @@ namespace OverflowHelper.core
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
             string longestURL = "";
-            generateMainTable(ref SQL_tableRows,
-                              wordListOutputTypeEnum.SQL,
-                              ref longestInCorrectTerm,
-                              ref longestCorrectTerm,
-                              ref longestURL,
-                              ref mCaseCorrection,
-                              ref mWord2URL);
+            exportWordlist(ref SQL_tableRows,
+                           wordListOutputTypeEnum.SQL,
+                           ref longestInCorrectTerm,
+                           ref longestCorrectTerm,
+                           ref longestURL,
+                           ref mCaseCorrection,
+                           ref mWord2URL);
 
             return SQL_tableRows.ToString();
         } //dumpWordList_asSQL()
@@ -28933,13 +28932,13 @@ namespace OverflowHelper.core
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
             string longestURL = "";
-            generateMainTable(ref HTML_tableRows,
-                              wordListOutputTypeEnum.HTML,
-                              ref longestInCorrectTerm,
-                              ref longestCorrectTerm,
-                              ref longestURL,
-                              ref aCaseCorrection,
-                              ref aWord2URL);
+            exportWordlist(ref HTML_tableRows,
+                           wordListOutputTypeEnum.HTML,
+                           ref longestInCorrectTerm,
+                           ref longestCorrectTerm,
+                           ref longestURL,
+                           ref aCaseCorrection,
+                           ref aWord2URL);
             // The main side effect is the changing of the content
             // of ref HTML_tableRows...
 
@@ -29021,7 +29020,7 @@ namespace OverflowHelper.core
          *                                                                          *
          *  This output is intended for use in inline lookup in the web             *
          *  browser using JavaScript (faster than form-based), either               *
-         *  as a faster version of the form lookup or directly                      * 
+         *  as a faster version of the form lookup or directly                      *
          *  manipulating the text in an edit window (the whole                      *
          *  word list loaded into the browser - on the client-side)                 *
          *                                                                          *
@@ -29049,7 +29048,7 @@ namespace OverflowHelper.core
             int capacity = incorrectWordEntries * 126;
 
             StringBuilder JavaScript_codeSB = new StringBuilder(capacity);
-            
+
             // Variable declaration (JavaScript)
             JavaScript_codeSB.Append("let incorrect2correct = {};\n");
             JavaScript_codeSB.Append("let correct2URL = {};\n");
@@ -29057,13 +29056,13 @@ namespace OverflowHelper.core
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
             string longestURL = "";
-            generateMainTable(ref JavaScript_codeSB,
-                              wordListOutputTypeEnum.JavaScript,
-                              ref longestInCorrectTerm,
-                              ref longestCorrectTerm,
-                              ref longestURL,
-                              ref mCaseCorrection,
-                              ref mWord2URL);
+            exportWordlist(ref JavaScript_codeSB,
+                           wordListOutputTypeEnum.JavaScript,
+                           ref longestInCorrectTerm,
+                           ref longestCorrectTerm,
+                           ref longestURL,
+                           ref mCaseCorrection,
+                           ref mWord2URL);
 
             // The main side effect is the changing of the content
             // of ref JavaScript_codeSB...
@@ -29076,6 +29075,4 @@ namespace OverflowHelper.core
 
 
 } //namespace OverflowHelper.core
-
-
 
