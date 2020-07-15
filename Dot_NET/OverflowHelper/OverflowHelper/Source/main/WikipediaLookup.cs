@@ -11641,6 +11641,7 @@ namespace OverflowHelper.core
             correctionAdd("buracracy", "bureaucracy");
             correctionAdd("buracrocy", "bureaucracy");
             correctionAdd("buracrazy", "bureaucracy");
+            correctionAdd("burecracy", "bureaucracy");
 
             correctionAdd("buereaucrat", "bureaucrat");
             correctionAdd("buesuresucrat", "bureaucrat");
@@ -14702,6 +14703,7 @@ namespace OverflowHelper.core
 
             correctionAdd("1D", "one-dimensional");
             correctionAdd("1-D", "one-dimensional");
+            correctionAdd("single dimension", "one-dimensional");
 
             correctionAdd("overrideable", "overridable");
 
@@ -17834,6 +17836,7 @@ namespace OverflowHelper.core
             correctionAdd("NLC", "noctilucent cloud");
 
             correctionAdd("opion", "option");
+            correctionAdd("otpion", "option");
 
             correctionAdd("pasphrase", "passphrase");
 
@@ -18548,6 +18551,15 @@ namespace OverflowHelper.core
             correctionAdd("readed", "read");
 
             correctionAdd("tweek", "tweak");
+
+            correctionAdd("associative Array", "associative array");
+            correctionAdd("associate array", "associative array");
+
+            correctionAdd("diserve", "deserve");
+
+            correctionAdd("unknow", "unknown");
+
+            correctionAdd("usefullness", "usefulness");
 
 
             // Start of coronavirus part...
@@ -28212,6 +28224,14 @@ namespace OverflowHelper.core
 
             URL_Add("tweak", "https://en.wiktionary.org/wiki/tweak#Verb");
 
+            URL_Add("associative array", "https://en.wikipedia.org/wiki/Associative_array");
+
+            URL_Add("deserve", "https://en.wiktionary.org/wiki/deserve#Verb");
+
+            URL_Add("unknown", "https://en.wiktionary.org/wiki/unknown#Adjective");
+
+            URL_Add("usefulness", "https://en.wiktionary.org/wiki/usefulness#Noun");
+
 
 
             //========================================================
@@ -28372,9 +28392,9 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static void addToAssociativeArray_JavaScript(
             string aVariableName, string aKey, string aValue, ref StringBuilder aSomeScratch)
-        {            
+        {
             aSomeScratch.Append(aVariableName);
-            aSomeScratch.Append(@"[""");            
+            aSomeScratch.Append(@"[""");
             aSomeScratch.Append(aKey);
             aSomeScratch.Append(@"""] = """);
 
@@ -28397,30 +28417,30 @@ namespace OverflowHelper.core
             string effectiveCorrectedTerm = aCorrectedTerm2;
 
             // What escaping, if any, do we need to do for JavaScript?
-            
-            
+
+
             // Example:
             //
             //   incorrect2correct["ZX 81"] = "ZX 81";
             //
             //   correct2URL["ZX81"] = "https://en.wikipedia.org/wiki/ZX81";
-            
-            
-            addToAssociativeArray_JavaScript("incorrect2correct", 
-                                             effectiveBadTerm, 
-                                             effectiveCorrectedTerm, 
+
+
+            addToAssociativeArray_JavaScript("incorrect2correct",
+                                             effectiveBadTerm,
+                                             effectiveCorrectedTerm,
                                              ref aSomeScratch);
-                        
+
             // Assume that this function is called for the identity mapping
             if (aBadTerm2 == aCorrectedTerm2)
-            {                
+            {
 
                 addToAssociativeArray_JavaScript("correct2URL",
-                                                 effectiveCorrectedTerm, 
-                                                 aURL, 
+                                                 effectiveCorrectedTerm,
+                                                 aURL,
                                                  ref aSomeScratch);
             }
-            
+
         } //addTermsToOutput_JavaScript()
 
 
@@ -28593,15 +28613,15 @@ namespace OverflowHelper.core
                                 // term should also succeeed - e.g. if we only
                                 // want to get the URL.
                                 //
-                                // Also implicitly adds the mapping to the URL 
+                                // Also implicitly adds the mapping to the URL
                                 //
                                 addTermsToOutput_JavaScript(someCorrectTerm,
                                                             someCorrectTerm,
                                                             ref aSomeScratch,
                                                             someURL);
-                                
+
                                 // Delineate groups
-                                
+
                                 aSomeScratch.Append("\n\n");
 
                             }
