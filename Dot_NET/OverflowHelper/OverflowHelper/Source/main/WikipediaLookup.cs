@@ -28367,6 +28367,63 @@ namespace OverflowHelper.core
         } //encloseInTag_HTML()
 
 
+       /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        private static void addToAssociativeArray_JavaScript(
+            string aVariableName, string aKey, string aValue, ref StringBuilder aSomeScratch)
+        {            
+            aSomeScratch.Append(aVariableName);
+            aSomeScratch.Append(@"[""");            
+            aSomeScratch.Append(aKey);
+            aSomeScratch.Append(@"""] = """);
+
+            aSomeScratch.Append(aValue);
+            aSomeScratch.Append(@""";");
+
+            aSomeScratch.Append("\n");
+        } //addToAssociativeArray_JavaScript()
+
+
+       /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        private static void addTermsToOutput_JavaScript(string aBadTerm2,
+                                                        string aCorrectedTerm2,
+                                                        ref StringBuilder aSomeScratch,
+                                                        string aURL)
+        {
+            string effectiveBadTerm = aBadTerm2;
+            string effectiveCorrectedTerm = aCorrectedTerm2;
+
+            // What escaping, if any, do we need to do for JavaScript?
+            
+            
+            // Example:
+            //
+            //   incorrect2correct["ZX 81"] = "ZX 81";
+            //
+            //   correct2URL["ZX81"] = "https://en.wikipedia.org/wiki/ZX81";
+            
+            
+            addToAssociativeArray_JavaScript("incorrect2correct", 
+                                             effectiveBadTerm, 
+                                             effectiveCorrectedTerm, 
+                                             ref aSomeScratch);
+                        
+            // Assume that this function is called for the identity mapping
+            if (aBadTerm2 == aCorrectedTerm2)
+            {                
+
+                addToAssociativeArray_JavaScript("correct2URL",
+                                                 effectiveCorrectedTerm, 
+                                                 aURL, 
+                                                 ref aSomeScratch);
+            }
+            
+        } //addTermsToOutput_JavaScript()
+
+
         /****************************************************************************
          *                                                                          *
          *   Encapsulate the loop where we run through the whole word list (of      *
@@ -28517,8 +28574,37 @@ namespace OverflowHelper.core
 
                         case wordListOutputTypeEnum.JavaScript:
 
-                            //Stub - no output for now for the actual wordlist
-                            //Trace.Assert(false);
+                            addTermsToOutput_JavaScript(someIncorrectTerm,
+                                                        someCorrectTerm,
+                                                        ref aSomeScratch,
+                                                        someURL);
+
+                            // Once per correct term:
+                            //
+                            // 1. Identity mapping (so we don't need special
+                            //    code for looking up correct terms)
+                            //
+                            // 2. Establish the mapping from correct term to URL
+                            //
+                            if (prevCorrectTerm != someCorrectTerm)
+                            {
+
+                                // "Identity mapping" - a lookup of a correct
+                                // term should also succeeed - e.g. if we only
+                                // want to get the URL.
+                                //
+                                // Also implicitly adds the mapping to the URL 
+                                //
+                                addTermsToOutput_JavaScript(someCorrectTerm,
+                                                            someCorrectTerm,
+                                                            ref aSomeScratch,
+                                                            someURL);
+                                
+                                // Delineate groups
+                                
+                                aSomeScratch.Append("\n\n");
+
+                            }
                             break;
 
 
