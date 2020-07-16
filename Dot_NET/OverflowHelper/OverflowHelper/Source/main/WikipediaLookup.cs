@@ -14829,6 +14829,7 @@ namespace OverflowHelper.core
             correctionAdd("in the other hand", "on the other hand");
             correctionAdd("In another hand", "on the other hand");
             correctionAdd("in another hand", "on the other hand");
+            correctionAdd("By the other hand", "on the other hand");
 
             correctionAdd("1st complement", "ones' complement");
 
@@ -18560,6 +18561,8 @@ namespace OverflowHelper.core
             correctionAdd("unknow", "unknown");
 
             correctionAdd("usefullness", "usefulness");
+
+            correctionAdd("Web SE", "Web Applications");
 
 
             // Start of coronavirus part...
@@ -28231,6 +28234,8 @@ namespace OverflowHelper.core
             URL_Add("unknown", "https://en.wiktionary.org/wiki/unknown#Adjective");
 
             URL_Add("usefulness", "https://en.wiktionary.org/wiki/usefulness#Noun");
+
+            URL_Add("Web Applications", "https://webapps.stackexchange.com/tour");
 
 
 
