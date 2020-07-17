@@ -1116,6 +1116,7 @@ namespace OverflowHelper.core
             correctionAdd(".NET frameowkr", ".NET");
             correctionAdd(".Net Framework", ".NET");
             correctionAdd("dot.NET", ".NET");
+            correctionAdd(".Net framework", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
 
@@ -3118,6 +3119,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Excange", "Stack&nbsp;Exchange");
             correctionAdd("stack.exchange", "Stack&nbsp;Exchange");
             correctionAdd("stackexachnge", "Stack&nbsp;Exchange");
+            correctionAdd("StackExcchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -8347,10 +8349,6 @@ namespace OverflowHelper.core
             correctionAdd("measure-object", "Measure-Object");
 
             //Of PowerShell...
-            correctionAdd("get-process", "Get-Process");
-            correctionAdd("Get-process", "Get-Process");
-
-            //Of PowerShell...
             correctionAdd("select-object", "Select-Object");
             correctionAdd("select", "Select-Object");
             correctionAdd("Select", "Select-Object");
@@ -8986,8 +8984,6 @@ namespace OverflowHelper.core
             correctionAdd("littleendian", "little-endian");
 
             correctionAdd("fits", "FITS");
-
-            correctionAdd("start-process", "Start-Process");
 
             correctionAdd("eternal September", "Eternal September");
 
@@ -12590,6 +12586,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Per Se", "per se");
             correctionAdd("per-se", "per se");
+            correctionAdd("per say", "per se");
 
             correctionAdd("preceeding", "preceding");
 
@@ -13977,8 +13974,6 @@ namespace OverflowHelper.core
 
             correctionAdd("run of the mill", "run-of-the-mill");
 
-            correctionAdd("sub-process", "subprocess");
-
             correctionAdd("tranformation", "transformation");
 
             correctionAdd("welcomness", "welcomeness");
@@ -14463,9 +14458,6 @@ namespace OverflowHelper.core
             correctionAdd("incorrec", "incorrect");
 
             correctionAdd("Iridium", "iridium");
-
-            correctionAdd("proccess", "process");
-            correctionAdd("porcess", "process");
 
             correctionAdd("releated", "related");
 
@@ -17754,9 +17746,6 @@ namespace OverflowHelper.core
             correctionAdd("superceeded", "superseded");
             correctionAdd("superceded", "superseded");
 
-            correctionAdd("RUP", "Rational Unified Process");
-            correctionAdd("rup", "Rational Unified Process");
-
             correctionAdd("SilkTest", "Silk Test");
             correctionAdd("Silktest", "Silk Test");
 
@@ -18563,6 +18552,31 @@ namespace OverflowHelper.core
             correctionAdd("usefullness", "usefulness");
 
             correctionAdd("Web SE", "Web Applications");
+            correctionAdd("WebApps.StackExchange", "Web Applications");
+
+            //Of PowerShell...
+            correctionAdd("get-process", "Get-Process");
+            correctionAdd("Get-process", "Get-Process");
+
+            correctionAdd("start-process", "Start-Process");
+
+            correctionAdd("sub-process", "subprocess");
+
+            correctionAdd("RUP", "Rational Unified Process");
+            correctionAdd("rup", "Rational Unified Process");
+
+            correctionAdd("proccess", "process");
+            correctionAdd("porcess", "process");
+            correctionAdd("provess", "process");
+
+            correctionAdd("MS Dynamics", "Microsoft Dynamics CRM");
+            correctionAdd("Dynamics CRM", "Microsoft Dynamics CRM");
+
+            correctionAdd("pre-eminent", "preeminent");
+
+            correctionAdd("re-introduce", "reintroduce");
+
+            correctionAdd("succintly", "succinctly");
 
 
             // Start of coronavirus part...
@@ -18611,6 +18625,7 @@ namespace OverflowHelper.core
             correctionAdd("covid", "COVID-19");
             correctionAdd("COVD-19", "COVID-19");
             correctionAdd("the pandemic", "COVID-19");
+            correctionAdd("COVID", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -28236,6 +28251,15 @@ namespace OverflowHelper.core
             URL_Add("usefulness", "https://en.wiktionary.org/wiki/usefulness#Noun");
 
             URL_Add("Web Applications", "https://webapps.stackexchange.com/tour");
+
+            URL_Add("Microsoft Dynamics CRM", "https://en.wikipedia.org/wiki/Microsoft_Dynamics_CRM");
+
+            URL_Add("preeminent", "https://en.wiktionary.org/wiki/preeminent#Adjective");
+
+            URL_Add("reintroduce", "https://en.wiktionary.org/wiki/reintroduce#Verb");
+
+            URL_Add("succinctly", "https://en.wiktionary.org/wiki/succinctly#Adverb");
+
 
 
 
