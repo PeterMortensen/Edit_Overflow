@@ -18578,6 +18578,8 @@ namespace OverflowHelper.core
 
             correctionAdd("succintly", "succinctly");
 
+            correctionAdd("binnary", "binary");
+
 
             // Start of coronavirus part...
 
@@ -28260,6 +28262,7 @@ namespace OverflowHelper.core
 
             URL_Add("succinctly", "https://en.wiktionary.org/wiki/succinctly#Adverb");
 
+            URL_Add("binary", "https://en.wiktionary.org/wiki/binary#Adjective");
 
 
 
