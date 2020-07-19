@@ -106,7 +106,10 @@ export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
 export WORKFOLDER3=${WORKFOLDER2}/EditOverflow4
 export WORKFOLDER=${WORKFOLDER3}
 
-export FTPTRANSFER_FOLDER=${WORKFOLDER}/_transfer
+export FTPTRANSFER_FOLDER_HTML=${WORKFOLDER}/_transfer_HTML
+
+export FTPTRANSFER_FOLDER_JAVASCRIPT=${WORKFOLDER}/_transfer_JavaScript
+
 
 export SRCFOLDER_CORE=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Source/main
 export SRCFOLDER_PLATFORM_SPECIFIC=$SRCFOLDER_BASE/Dot_NET/OverflowHelper/OverflowHelper/Source/platFormSpecific
@@ -124,6 +127,10 @@ export JAVASCRIPT_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.js
 
 # Fixed name, not dependent on date, etc.
 export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
+export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
+
+
+export FTP_SITE_URL='ftp://linux42.simply.com'
 
 
 
@@ -153,19 +160,22 @@ echo
 mkdir -p $WORKFOLDER1
 mkdir -p $WORKFOLDER2
 mkdir -p $WORKFOLDER
-mkdir -p $FTPTRANSFER_FOLDER
+mkdir -p $FTPTRANSFER_FOLDER_HTML
+mkdir -p $FTPTRANSFER_FOLDER_JAVASCRIPT
+
+
 
 # Remove any existing
 mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}          $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
 
 
-cd $SRCFOLDER_BASE/Dot_NET_commandLine          
+cd $SRCFOLDER_BASE/Dot_NET_commandLine
 cp ${FILE_WITH_MAIN_ENTRY}                      $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
-                                                
+
 cp EditOverflow3.csproj                         $WORKFOLDER
 cp EditOverflow3_UnitTests.csproj               $WORKFOLDER
-                                                
+
 cp $SRCFOLDER_CORE/WikipediaLookup.cs           $WORKFOLDER
 cp $SRCFOLDER_CORE/HTML_builder.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/CodeFormattingCheck.cs       $WORKFOLDER
@@ -210,13 +220,13 @@ echo '2. Start running unit tests...'
 echo
 
 # Note: unlike "dotnet run", "dotnet test" does not
-#       use option "-p" for specifying the project 
+#       use option "-p" for specifying the project
 #       file name (inconsistent)
 #
 dotnet test EditOverflow3_UnitTests.csproj
 
 
-#exit   # Active: Test only!!!!!!!!! (We currently use this to 
+#exit   # Active: Test only!!!!!!!!! (We currently use this to
 #                                       iterate (aided by unit testing)
 
 
@@ -224,7 +234,7 @@ dotnet test EditOverflow3_UnitTests.csproj
 # Prepare for the main run (see in the beginning for an explanation)
 mv  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}
 
-# This is to hide the unit test files from the normal project 
+# This is to hide the unit test files from the normal project
 # file (for normal run). Hardcoded for now (some redundancy)
 #
 mv  $WORKFOLDER/EnvironmentTests.cs               $WORKFOLDER/EnvironmentTests.csZZZ
@@ -289,7 +299,6 @@ cp  $HTML_FILE  $HTML_FILE_GENERIC
 
 
 
-
 # Some redundancy here - to be eliminated
 echo
 echo
@@ -297,6 +306,12 @@ echo '5. Exporting the word list as JavaScript...'
 echo
 export WORDLIST_OUTPUTTYPE=JavaScript
 dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASCRIPT_FILE
+
+cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
+
+
+
+
 
 #exit   # Active: Test only!!!!!!!!!
 
@@ -315,9 +330,31 @@ echo
 echo
 echo '6. Updating the word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
 echo
-cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER
-export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER} /public_html/EditOverflow/_Wordlist ; exit"
-export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ftp://linux42.simply.com"
+cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
+export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
+export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
+eval ${LFTP_COMMAND}
+
+
+
+
+
+
+
+# Copy the JavaScript code (for the word list) to the public web site.
+#
+#   Note: Environment variables FTP_USER and FTP_PASSWORD
+#         must have been be set beforehand.
+#
+# The mirror command for 'lftp' does not work for single files...
+#
+echo
+echo
+echo '7. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
+echo
+cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
+export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
+export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
 eval ${LFTP_COMMAND}
 
 

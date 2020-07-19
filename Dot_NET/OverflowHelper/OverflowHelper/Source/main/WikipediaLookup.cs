@@ -29207,8 +29207,9 @@ namespace OverflowHelper.core
             StringBuilder JavaScript_codeSB = new StringBuilder(capacity);
 
             // Variable declaration (JavaScript)
+            JavaScript_codeSB.Append("// Data structure declarations\n");
             JavaScript_codeSB.Append("let incorrect2correct = {};\n");
-            JavaScript_codeSB.Append("let correct2URL = {};\n");
+            JavaScript_codeSB.Append("let correct2URL = {};\n\n\n\n");
 
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
