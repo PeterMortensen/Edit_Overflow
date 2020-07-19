@@ -28444,6 +28444,15 @@ namespace OverflowHelper.core
         private static void addToAssociativeArray_JavaScript(
             string aVariableName, string aKey, string aValue, ref StringBuilder aSomeScratch)
         {
+            // We need to escape double quotes. Example (incorrect term):
+            //
+            //     Mac OS X (10.6 "Snow Leopard")
+            //
+            
+            //Only the incorrect term for now (for the primary mapping).           
+            //
+            aKey = aKey.Replace(@"""", @"\""");            
+            
             aSomeScratch.Append(aVariableName);
             aSomeScratch.Append(@"[""");
             aSomeScratch.Append(aKey);
@@ -28466,9 +28475,6 @@ namespace OverflowHelper.core
         {
             string effectiveBadTerm = aBadTerm2;
             string effectiveCorrectedTerm = aCorrectedTerm2;
-
-            // What escaping, if any, do we need to do for JavaScript?
-
 
             // Example:
             //
@@ -28626,10 +28632,14 @@ namespace OverflowHelper.core
                                                  ref aSomeScratch,
                                                  someURL);
 
-                            // Add the identity mapping, but only once. We can rely
-                            // on the sorted order, first by incorrect and then
-                            // correct. Thus, we will get a corrected term one
-                            // or more times consecutively.
+                            // Add the identity mapping (so we don't special 
+                            // code (and a second database lookup) for 
+                            // looking up the correct term), but only once. 
+                            //
+                            // We can rely on the sorted order, first by 
+                            // incorrect and then correct. Thus, we will 
+                            // get a corrected term one or more times 
+                            // consecutively.
                             if (prevCorrectTerm != someCorrectTerm)
                             {
                                 // "Identity mapping" - a lookup of a correct
