@@ -533,7 +533,6 @@
     </head>
 
     <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 
 HTML_END;
 
