@@ -4021,6 +4021,7 @@ namespace OverflowHelper.core
             correctionAdd("charecters", "characters");
             correctionAdd("caracters", "characters");
             correctionAdd("carracters", "characters");
+            correctionAdd("charchter", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -4063,6 +4064,7 @@ namespace OverflowHelper.core
             correctionAdd("Google-Fu", "Google-fu");
 
             correctionAdd("ssh", "SSH");
+            correctionAdd("Secure Shell", "SSH");
 
             correctionAdd("vpn", "VPN");
 
@@ -11415,6 +11417,7 @@ namespace OverflowHelper.core
             correctionAdd("neigbour", "neighbour");
 
             correctionAdd("untill", "until");
+            correctionAdd("untit", "until");
 
             correctionAdd("Yestarday", "yesterday");
 
@@ -13331,6 +13334,7 @@ namespace OverflowHelper.core
             correctionAdd("unneccesserally", "unnecessarily");
             correctionAdd("unnecceserally", "unnecessarily");
             correctionAdd("unnecceseraly", "unnecessarily");
+            correctionAdd("unneccessarily", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
@@ -13569,6 +13573,7 @@ namespace OverflowHelper.core
             correctionAdd("semi-colon", "semicolon");
 
             correctionAdd("snipet", "snippet");
+            correctionAdd("snipper", "snippet");
 
             correctionAdd("user defined", "user-defined");
 
@@ -16702,6 +16707,7 @@ namespace OverflowHelper.core
             correctionAdd("Sign-Up", "signup");
 
             correctionAdd("sme", "some");
+            correctionAdd("somme", "some");
 
             correctionAdd("targeting", "targetting");
 
@@ -17600,6 +17606,7 @@ namespace OverflowHelper.core
             correctionAdd("stylesheet", "style sheet");
 
             correctionAdd("wor", "work");
+            correctionAdd("workd", "work");
 
             correctionAdd("aaa", "AAA");
 
@@ -18579,6 +18586,12 @@ namespace OverflowHelper.core
             correctionAdd("succintly", "succinctly");
 
             correctionAdd("binnary", "binary");
+
+            correctionAdd("infintely", "infinitely");
+
+            correctionAdd("re-create", "recreate");
+
+            correctionAdd("replase", "replace");
 
 
             // Start of coronavirus part...
@@ -28263,6 +28276,12 @@ namespace OverflowHelper.core
             URL_Add("succinctly", "https://en.wiktionary.org/wiki/succinctly#Adverb");
 
             URL_Add("binary", "https://en.wiktionary.org/wiki/binary#Adjective");
+
+            URL_Add("infinitely", "https://en.wiktionary.org/wiki/infinitely#Adverb");
+
+            URL_Add("recreate", "https://en.wiktionary.org/wiki/recreate#Verb");
+
+            URL_Add("replace", "https://en.wiktionary.org/wiki/replace#Verb");
 
 
 
