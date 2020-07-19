@@ -351,6 +351,16 @@
             the_EditOverflowHeadline("Look up of \"$lookUpTerm\"");
         ?>
 
+        <script src="EditOverflowList.js"></script>
+
+        <script>
+            //document.write("<h1>Hello, World!</h1>");
+
+            var lookup = "php";
+            var correct = incorrect2correct[lookup];
+
+            //document.write("<h2>Lookup value: " + correct + " </h2>");
+        </script>
 
         <form
             name="lookupForm"
