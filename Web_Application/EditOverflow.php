@@ -353,9 +353,9 @@
 
 
         <form
-            name="XYZ"
+            name="lookupForm"
             method="post"
-            id="XYZ">
+            id="lookupForm">
 
             <div class="formgrid">
 
