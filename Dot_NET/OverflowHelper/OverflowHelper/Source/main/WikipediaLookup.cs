@@ -3130,6 +3130,7 @@ namespace OverflowHelper.core
             correctionAdd("sever fault", "Server&nbsp;Fault"); //Misspelling.
             correctionAdd("Server fault", "Server&nbsp;Fault");
             correctionAdd("sf", "Server&nbsp;Fault");
+            correctionAdd("server-fault", "Server&nbsp;Fault");
 
             correctionAdd("CS", "computer science");
             correctionAdd("compsci", "computer science");
@@ -8870,6 +8871,7 @@ namespace OverflowHelper.core
             correctionAdd("4.4", "Android 4.4.x (KitKat)");
             correctionAdd("KITKAT", "Android 4.4.x (KitKat)");
             correctionAdd("Kit Kat", "Android 4.4.x (KitKat)");
+            correctionAdd("android 4.4", "Android 4.4.x (KitKat)");
 
             correctionAdd("Lollipop", "Android 5.0 (Lollipop)");
             correctionAdd("Android 5", "Android 5.0 (Lollipop)");
@@ -9243,6 +9245,7 @@ namespace OverflowHelper.core
             correctionAdd("doesn't", "doesn’t");
             correctionAdd("doesn`t", "doesn’t");
             correctionAdd("doesn´t", "doesn’t");
+            correctionAdd("does'nt", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -12669,6 +12672,7 @@ namespace OverflowHelper.core
             correctionAdd("vs2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("Visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
 
             correctionAdd("xor", "XOR");
             correctionAdd("Xor", "XOR");
@@ -12900,6 +12904,9 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript 7", "ECMAScript&nbsp;7"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;7");
             correctionAdd("ES2016", "ECMAScript&nbsp;7");
+            correctionAdd("ES7", "ECMAScript&nbsp;7");
+            correctionAdd("ES 7", "ECMAScript&nbsp;7");
+            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;7");
 
             correctionAdd("october", "October");
 
@@ -14664,6 +14671,7 @@ namespace OverflowHelper.core
             correctionAdd("gas lighting", "gaslighting");
 
             correctionAdd("gratefull", "grateful");
+            correctionAdd("greatful", "grateful");
 
             correctionAdd("happned", "happened");
             correctionAdd("happeed", "happened");
@@ -14926,6 +14934,7 @@ namespace OverflowHelper.core
             correctionAdd("got ot", "go to");
             correctionAdd("goto", "go to");
             correctionAdd("Goto", "go to");
+            correctionAdd("Go to", "go to");
 
             correctionAdd("googlable", "googleable");
 
@@ -16684,6 +16693,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL server 2017", "SQL Server 2017");
 
             correctionAdd("sql server 2019", "SQL Server 2019");
+            correctionAdd("SQL server 2019", "SQL Server 2019");
 
             correctionAdd("tco", "TCO");
 
@@ -18592,6 +18602,33 @@ namespace OverflowHelper.core
             correctionAdd("re-create", "recreate");
 
             correctionAdd("replase", "replace");
+
+            correctionAdd("CSP", "Content Security Policy");
+            correctionAdd("content security policy", "Content Security Policy");
+
+            correctionAdd("format-hex", "Format-Hex");
+
+            correctionAdd("pari", "PARI/GP");
+            correctionAdd("PARI", "PARI/GP");
+
+            correctionAdd("SAGE", "SageMath");
+            correctionAdd("Sage", "SageMath");
+            correctionAdd("sage", "SageMath");
+
+            correctionAdd("assit", "assist");
+
+            correctionAdd("CAS", "computer algebra system");
+            correctionAdd("cas", "computer algebra system");
+
+            correctionAdd("isssue", "issue");
+
+            correctionAdd("meaningfull", "meaningful");
+
+            correctionAdd("re-license", "relicense");
+
+            correctionAdd("sorey", "sorry");
+
+            correctionAdd("webserver", "web server");
 
 
             // Start of coronavirus part...
@@ -28282,6 +28319,29 @@ namespace OverflowHelper.core
             URL_Add("recreate", "https://en.wiktionary.org/wiki/recreate#Verb");
 
             URL_Add("replace", "https://en.wiktionary.org/wiki/replace#Verb");
+
+            URL_Add("Content Security Policy", "https://en.wikipedia.org/wiki/Content_Security_Policy");
+
+            URL_Add("Format-Hex", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-hex");
+
+            URL_Add("PARI/GP", "https://en.wikipedia.org/wiki/PARI/GP");
+
+            URL_Add("SageMath", "https://en.wikipedia.org/wiki/SageMath");
+
+            URL_Add("assist", "https://en.wiktionary.org/wiki/assist#Verb");
+
+            URL_Add("computer algebra system", "https://en.wikipedia.org/wiki/Computer_algebra_system");
+
+            URL_Add("issue", "https://en.wiktionary.org/wiki/issue#Noun");
+
+            URL_Add("meaningful", "https://en.wiktionary.org/wiki/meaningful#Adjective");
+
+            URL_Add("relicense", "https://en.wiktionary.org/wiki/relicense#Verb");
+
+            URL_Add("sorry", "https://en.wiktionary.org/wiki/sorry#Interjection");
+
+            URL_Add("web server", "https://en.wikipedia.org/wiki/Web_server");
+
 
 
 
