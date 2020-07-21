@@ -652,6 +652,7 @@ namespace OverflowHelper.core
             correctionAdd("Javsacript", "JavaScript");
             correctionAdd("js script", "JavaScript");
             correctionAdd("JavaScrpt", "JavaScript");
+            correctionAdd("JS script", "JavaScript");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -4988,6 +4989,7 @@ namespace OverflowHelper.core
             correctionAdd("for exsample", "for example");
             correctionAdd("for EXP", "for example");
             correctionAdd("for exp", "for example");
+            correctionAdd("For Exam", "for example");
 
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
@@ -18630,6 +18632,20 @@ namespace OverflowHelper.core
 
             correctionAdd("webserver", "web server");
 
+            correctionAdd("fahrenheit", "Fahrenheit");
+            correctionAdd("Farenheit", "Fahrenheit");
+
+            correctionAdd("lodash", "Lodash");
+
+            correctionAdd("data stricture", "data structure");
+
+            correctionAdd("hymen", "human");
+
+            correctionAdd("K-Means", "k-means clustering");
+
+            correctionAdd("stricture", "structure");
+
+
 
             // Start of coronavirus part...
 
@@ -28342,6 +28358,17 @@ namespace OverflowHelper.core
 
             URL_Add("web server", "https://en.wikipedia.org/wiki/Web_server");
 
+            URL_Add("Fahrenheit", "https://en.wiktionary.org/wiki/Fahrenheit#Adjective");
+
+            URL_Add("Lodash", "https://en.wikipedia.org/wiki/Lodash");
+
+            URL_Add("data structure", "https://en.wikipedia.org/wiki/Data_structure");
+
+            URL_Add("human", "https://en.wiktionary.org/wiki/human#Adjective");
+
+            URL_Add("k-means clustering", "https://en.wikipedia.org/wiki/K-means_clustering");
+
+            URL_Add("structure", "https://en.wiktionary.org/wiki/structure#Noun");
 
 
 
