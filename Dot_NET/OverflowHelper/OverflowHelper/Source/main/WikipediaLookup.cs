@@ -9477,6 +9477,7 @@ namespace OverflowHelper.core
 
             correctionAdd("some one", "someone");
             correctionAdd("somone", "someone");
+            correctionAdd("someoone", "someone");
 
             correctionAdd("2-factor auth", "two-factor authentication");
             correctionAdd("2 factor auth", "two-factor authentication");
@@ -10831,6 +10832,7 @@ namespace OverflowHelper.core
             correctionAdd("ReactNative", "React Native");
             correctionAdd("React-Native", "React Native");
             correctionAdd("RN", "React Native");
+            correctionAdd("reactnative", "React Native");
 
             correctionAdd("ionic", "Ionic");
             correctionAdd("IONIC", "Ionic");
@@ -10933,7 +10935,7 @@ namespace OverflowHelper.core
             correctionAdd("answser", "answer");
             correctionAdd("Annswer", "answer");
             correctionAdd("Answer", "answer");
-
+            correctionAdd("anwer", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -12161,6 +12163,7 @@ namespace OverflowHelper.core
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
+            correctionAdd("2d", "two-dimensional");
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
@@ -13203,6 +13206,7 @@ namespace OverflowHelper.core
 
             correctionAdd("quaote", "quote");
             correctionAdd("wuote", "quote");
+            correctionAdd("qoute", "quote");
 
             correctionAdd("reccessive", "recessive");
             correctionAdd("Reccessive", "recessive");
@@ -14295,6 +14299,7 @@ namespace OverflowHelper.core
             correctionAdd("my self", "myself");
 
             correctionAdd("resul", "result");
+            correctionAdd("resault", "result");
 
             correctionAdd("returnig", "returning");
 
@@ -18563,6 +18568,7 @@ namespace OverflowHelper.core
 
             correctionAdd("associative Array", "associative array");
             correctionAdd("associate array", "associative array");
+            correctionAdd("Associative Array", "associative array");
 
             correctionAdd("diserve", "deserve");
 
@@ -18644,6 +18650,25 @@ namespace OverflowHelper.core
             correctionAdd("K-Means", "k-means clustering");
 
             correctionAdd("stricture", "structure");
+
+            correctionAdd("AWS amplify", "AWS Amplify");
+            correctionAdd("aws-amplify", "AWS Amplify");
+
+            correctionAdd("test flight", "TestFlight");
+            correctionAdd("Testflight", "TestFlight");
+            correctionAdd("testflight", "TestFlight");
+
+            correctionAdd("Algorithmic", "algorithmic");
+
+            correctionAdd("aarray", "array");
+
+            correctionAdd("assocciation", "association");
+
+            correctionAdd("instanciating", "instantiating");
+
+            correctionAdd("mows", "moves");
+
+            correctionAdd("strcutured", "structured");
 
 
 
@@ -28370,6 +28395,22 @@ namespace OverflowHelper.core
 
             URL_Add("structure", "https://en.wiktionary.org/wiki/structure#Noun");
 
+            URL_Add("AWS Amplify", "https://aws.amazon.com/amplify/");
+
+            URL_Add("TestFlight", "https://en.wikipedia.org/wiki/TestFlight");
+
+            URL_Add("algorithmic", "https://en.wiktionary.org/wiki/algorithmic#Adjective");
+
+            URL_Add("array", "https://en.wiktionary.org/wiki/array#Noun>");
+
+            URL_Add("association", "https://en.wiktionary.org/wiki/association#Noun");
+
+            URL_Add("instantiating", "https://en.wiktionary.org/wiki/instantiate#Verb");
+
+            URL_Add("moves", "https://en.wiktionary.org/wiki/move#Verb");
+
+            URL_Add("structured", "https://en.wiktionary.org/wiki/structured#Adjective");
+
 
 
             //========================================================
@@ -28535,11 +28576,11 @@ namespace OverflowHelper.core
             //
             //     Mac OS X (10.6 "Snow Leopard")
             //
-            
-            //Only the incorrect term for now (for the primary mapping).           
+
+            //Only the incorrect term for now (for the primary mapping).
             //
-            aKey = aKey.Replace(@"""", @"\""");            
-            
+            aKey = aKey.Replace(@"""", @"\""");
+
             aSomeScratch.Append(aVariableName);
             aSomeScratch.Append(@"[""");
             aSomeScratch.Append(aKey);
@@ -28719,13 +28760,13 @@ namespace OverflowHelper.core
                                                  ref aSomeScratch,
                                                  someURL);
 
-                            // Add the identity mapping (so we don't special 
-                            // code (and a second database lookup) for 
-                            // looking up the correct term), but only once. 
+                            // Add the identity mapping (so we don't special
+                            // code (and a second database lookup) for
+                            // looking up the correct term), but only once.
                             //
-                            // We can rely on the sorted order, first by 
-                            // incorrect and then correct. Thus, we will 
-                            // get a corrected term one or more times 
+                            // We can rely on the sorted order, first by
+                            // incorrect and then correct. Thus, we will
+                            // get a corrected term one or more times
                             // consecutively.
                             if (prevCorrectTerm != someCorrectTerm)
                             {
