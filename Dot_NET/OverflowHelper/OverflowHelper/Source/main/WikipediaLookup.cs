@@ -3809,7 +3809,6 @@ namespace OverflowHelper.core
             correctionAdd("xmlHttpRequest", "XMLHttpRequest");
             correctionAdd("XMLHTTPRequests", "XMLHttpRequest"); //Not 100% correct - plural.
 
-            correctionAdd("tough", "though");
             correctionAdd("tho", "though");
             correctionAdd("thogh", "though");
             correctionAdd("Tho", "though");  //Expansion, not 100% correct. Add a plural feature?
@@ -4024,6 +4023,7 @@ namespace OverflowHelper.core
             correctionAdd("caracters", "characters");
             correctionAdd("carracters", "characters");
             correctionAdd("charchter", "characters");
+            correctionAdd("charcter", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -6967,6 +6967,7 @@ namespace OverflowHelper.core
             correctionAdd("Web-App", "web application");
             correctionAdd("Webapplication", "web application");
             correctionAdd("webapplication", "web application");
+            correctionAdd("web APP", "web application");
 
             correctionAdd("webservice", "web service");
             correctionAdd("WS", "web service");
@@ -7288,11 +7289,6 @@ namespace OverflowHelper.core
             correctionAdd("raii", "RAII");
             correctionAdd("RAAI", "RAII"); //Misspelling...
 
-            correctionAdd("relevent", "relevant");
-            correctionAdd("relavent", "relevant");
-            correctionAdd("relavant", "relevant");
-            correctionAdd("releveant", "relevant");
-
             correctionAdd("relete", "relate");
             correctionAdd("releted", "relate"); //Not 100% correct - word type.
 
@@ -7416,6 +7412,8 @@ namespace OverflowHelper.core
             correctionAdd("straigth forward", "straightforward");
             correctionAdd("strait-forward", "straightforward");
             correctionAdd("staightforward", "straightforward");
+            correctionAdd("strait forward", "straightforward");
+            correctionAdd("straitforward", "straightforward");
 
             correctionAdd("ai", "artificial intelligence");
             correctionAdd("AI", "artificial intelligence");
@@ -9982,6 +9980,7 @@ namespace OverflowHelper.core
             correctionAdd("gilab", "GitLab");
 
             correctionAdd("spanish", "Spanish");
+            correctionAdd("SPanish", "Spanish");
 
             // Part of Castle Project: Castle Windsor
             correctionAdd("castle", "Castle Project");
@@ -11323,6 +11322,7 @@ namespace OverflowHelper.core
             correctionAdd("Insted", "instead");
             correctionAdd("insted", "instead");
             correctionAdd("intead", "instead");
+            correctionAdd("in stead", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -11462,6 +11462,7 @@ namespace OverflowHelper.core
 
             correctionAdd("infact", "in fact");
             correctionAdd("in-fact", "in fact");
+            correctionAdd("Infact", "in fact");
 
             correctionAdd("parlamentary", "parliamentary");
 
@@ -12304,6 +12305,7 @@ namespace OverflowHelper.core
             correctionAdd("FPS", "fps");
 
             correctionAdd("furhter", "further");
+            correctionAdd("furter", "further");
 
             correctionAdd("internaly", "internally");
 
@@ -13265,8 +13267,6 @@ namespace OverflowHelper.core
             correctionAdd("every body", "everybody");
 
             correctionAdd("hilarius", "hilarious");
-
-            correctionAdd("irrelvant", "irrelevant");
 
             correctionAdd("leage", "league");
             correctionAdd("Leage", "league");
@@ -15109,6 +15109,7 @@ namespace OverflowHelper.core
             correctionAdd("whith", "with");
             correctionAdd("wuth", "with");
             correctionAdd("wit", "with");
+            correctionAdd("wiht", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -18670,6 +18671,51 @@ namespace OverflowHelper.core
 
             correctionAdd("strcutured", "structured");
 
+            correctionAdd("irrelvant", "irrelevant");
+
+            correctionAdd("relevent", "relevant");
+            correctionAdd("relavent", "relevant");
+            correctionAdd("relavant", "relevant");
+            correctionAdd("releveant", "relevant");
+            correctionAdd("relevenat", "relevant");
+            correctionAdd("Relevenat", "relevant");
+
+            correctionAdd("borland", "Borland");
+
+            correctionAdd("code review", "Code Review");
+
+            correctionAdd("database administrators", "Database Administrators");
+
+            correctionAdd("drupal answers", "Drupal Answers");
+
+            correctionAdd("embarcadero", "Embarcadero");
+
+            correctionAdd("Joomla SE", "Joomla Stack Exchange site");
+            correctionAdd("Joomla Stack Exchange", "Joomla Stack Exchange site");
+
+            correctionAdd("bilion", "billion");
+
+            correctionAdd("bug fix", "bugfix");
+
+            correctionAdd("concensus", "consensus");
+
+            correctionAdd("crisises", "crises");
+
+            correctionAdd("databinding", "data binding");
+            correctionAdd("Data-binding", "data binding");
+            correctionAdd("data-binding", "data binding");
+
+            correctionAdd("dissapointment", "disappointment");
+
+            correctionAdd("form", "from");
+
+            correctionAdd("overlaping", "overlapping");
+
+            correctionAdd("repaied", "repaid");
+
+            correctionAdd("stingyness", "stinginess");
+
+            correctionAdd("tuff", "tough");
 
 
             // Start of coronavirus part...
@@ -28411,6 +28457,39 @@ namespace OverflowHelper.core
 
             URL_Add("structured", "https://en.wiktionary.org/wiki/structured#Adjective");
 
+            URL_Add("Borland", "https://en.wikipedia.org/wiki/Borland");
+
+            URL_Add("Code Review", "https://codereview.stackexchange.com/tour");
+
+            URL_Add("Database Administrators", "https://dba.stackexchange.com/tour");
+
+            URL_Add("Drupal Answers", "https://drupal.stackexchange.com/tour");
+
+            URL_Add("Embarcadero", "https://en.wikipedia.org/wiki/Embarcadero_Technologies");
+
+            URL_Add("Joomla Stack Exchange site", "https://joomla.stackexchange.com/tour");
+
+            URL_Add("billion", "https://en.wiktionary.org/wiki/billion#Noun");
+
+            URL_Add("bugfix", "https://en.wiktionary.org/wiki/bugfix#Noun");
+
+            URL_Add("consensus", "https://en.wiktionary.org/wiki/consensus#Noun");
+
+            URL_Add("crises", "https://en.wiktionary.org/wiki/crisis#Noun");
+
+            URL_Add("data binding", "https://en.wikipedia.org/wiki/Data_binding");
+
+            URL_Add("disappointment", "https://en.wiktionary.org/wiki/disappointment#Noun");
+
+            URL_Add("from", "https://en.wiktionary.org/wiki/from#Preposition");
+
+            URL_Add("overlapping", "https://en.wiktionary.org/wiki/overlap#Verb");
+
+            URL_Add("repaid", "https://en.wiktionary.org/wiki/repay#Verb");
+
+            URL_Add("stinginess", "https://en.wiktionary.org/wiki/stinginess#Noun");
+
+            URL_Add("tough", "https://en.wiktionary.org/wiki/tough#Adjective");
 
 
             //========================================================
