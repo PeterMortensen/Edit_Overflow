@@ -11111,6 +11111,7 @@ namespace OverflowHelper.core
             correctionAdd("acros", "across");
             correctionAdd("accross", "across");
             correctionAdd("accros", "across");
+            correctionAdd("acfoss", "across");
 
             correctionAdd("alteratively", "alternatively");
             correctionAdd("Alteratively", "alternatively");
@@ -13203,6 +13204,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
+            correctionAdd("Quantum Mechanics", "quantum mechanics");
 
             correctionAdd("quatation mark", "quotation mark");
 
@@ -14422,6 +14424,7 @@ namespace OverflowHelper.core
             correctionAdd("step by step", "step-by-step");
 
             correctionAdd("VR", "virtual reality");
+            correctionAdd("Virtual Reality", "virtual reality");
 
             correctionAdd("XPERF", "xperf");
 
@@ -18278,6 +18281,7 @@ namespace OverflowHelper.core
             correctionAdd("priviledged", "privileged");
 
             correctionAdd("teh", "the"); // True typo
+            correctionAdd("ghe", "the"); // True typo
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -18716,6 +18720,36 @@ namespace OverflowHelper.core
             correctionAdd("stingyness", "stinginess");
 
             correctionAdd("tuff", "tough");
+
+            correctionAdd("Ba'hai", "Baháʼí");
+
+            correctionAdd("Khan academy", "Khan Academy");
+            correctionAdd("khan academy", "Khan Academy");
+
+            correctionAdd("newtonian", "Newtonian");
+
+            correctionAdd("Stokes Law", "Stokes' law");
+
+            correctionAdd("Vadin", "Vaadin");
+
+            correctionAdd("Zen Buddist", "Zen Buddhist");
+
+            correctionAdd("athiest", "atheist");
+
+            correctionAdd("electromagnestism", "electromagnetism");
+            correctionAdd("Electromagnestism", "electromagnetism");
+
+            correctionAdd("higjly", "highly");
+
+            correctionAdd("in your shows", "in your shoes");
+
+            correctionAdd("puled", "pulled");
+
+            correctionAdd("re-invent", "reinvent");
+
+            correctionAdd("speculatijg", "speculating");
+
+            correctionAdd("trigerred", "triggered");
 
 
             // Start of coronavirus part...
@@ -28490,6 +28524,36 @@ namespace OverflowHelper.core
             URL_Add("stinginess", "https://en.wiktionary.org/wiki/stinginess#Noun");
 
             URL_Add("tough", "https://en.wiktionary.org/wiki/tough#Adjective");
+
+            URL_Add("Baháʼí", "https://en.wikipedia.org/wiki/Bah%C3%A1%CA%BC%C3%AD_Faith");
+
+            URL_Add("Khan Academy", "https://en.wikipedia.org/wiki/Khan_Academy");
+
+            URL_Add("Newtonian", "https://en.wiktionary.org/wiki/Newtonian#Adjective");
+
+            URL_Add("Stokes' law", "https://en.wikipedia.org/wiki/Stokes'_law");
+
+            URL_Add("Vaadin", "https://en.wikipedia.org/wiki/Vaadin");
+
+            URL_Add("Zen Buddhist", "https://en.wikipedia.org/wiki/Category:American_Zen_Buddhist_teachers");
+
+            URL_Add("atheist", "https://en.wiktionary.org/wiki/atheist#Noun");
+
+            URL_Add("electromagnetism", "https://en.wiktionary.org/wiki/electromagnetism#Noun");
+
+            URL_Add("highly", "https://en.wiktionary.org/wiki/highly#Adverb");
+
+            URL_Add("in your shoes", "https://en.wiktionary.org/wiki/in_someone%27s_shoes#Prepositional_phrase");
+
+            URL_Add("pulled", "https://en.wiktionary.org/wiki/pull#Verb");
+
+            URL_Add("reinvent", "https://en.wiktionary.org/wiki/reinvent#Verb");
+
+            URL_Add("speculating", "https://en.wiktionary.org/wiki/speculate#Verb");
+
+            URL_Add("triggered", "https://en.wiktionary.org/wiki/trigger#Verb");
+
+
 
 
             //========================================================
