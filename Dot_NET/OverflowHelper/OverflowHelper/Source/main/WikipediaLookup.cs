@@ -4418,6 +4418,7 @@ namespace OverflowHelper.core
             correctionAdd("reputations", "reputation points");
             correctionAdd("rep point", "reputation points");
             correctionAdd("rep. points", "reputation points");
+            correctionAdd("reputaion points", "reputation points");
 
             correctionAdd("squid", "Squid");
 
@@ -13294,6 +13295,7 @@ namespace OverflowHelper.core
             correctionAdd("aggresive", "aggressive");
 
             correctionAdd("anedocte", "anecdote");
+            correctionAdd("annecdote", "anecdote");
 
             correctionAdd("formated", "formatted");
 
@@ -14040,6 +14042,8 @@ namespace OverflowHelper.core
             correctionAdd("indend", "intend");
 
             correctionAdd("Reflection", "reflection");
+            correctionAdd("Refection", "reflection");
+            correctionAdd("refection", "reflection");
 
             correctionAdd("CPU bound", "CPU-bound");
 
@@ -16933,6 +16937,7 @@ namespace OverflowHelper.core
             correctionAdd("smart watch", "smartwatch");
 
             correctionAdd("sock puppet", "sockpuppet");
+            correctionAdd("sock-puppet", "sockpuppet");
 
             correctionAdd("thread safe", "threadsafe");
             correctionAdd("thread-safe", "threadsafe");
@@ -18810,6 +18815,17 @@ namespace OverflowHelper.core
             correctionAdd("tradeoff", "trade-off");
 
             correctionAdd("watc", "watch");
+
+            correctionAdd("AMD threadripper", "AMD Ryzen Threadripper");
+
+            correctionAdd("ATi", "ATI");
+
+            correctionAdd("XEON", "Xeon");
+            correctionAdd("xeon", "Xeon");
+
+            correctionAdd("Northbridge", "northbridge");
+
+            correctionAdd("perurbation", "perturbation");
  
 
             // Start of coronavirus part...
@@ -28648,6 +28664,16 @@ namespace OverflowHelper.core
             URL_Add("trade-off", "https://en.wiktionary.org/wiki/trade-off#Noun");
 
             URL_Add("watch", "https://en.wiktionary.org/wiki/watch#Noun");
+
+            URL_Add("AMD Ryzen Threadripper", "https://en.wikipedia.org/wiki/Ryzen");
+
+            URL_Add("ATI", "https://en.wikipedia.org/wiki/ATI_Technologies");
+
+            URL_Add("Xeon", "https://en.wikipedia.org/wiki/Xeon");
+
+            URL_Add("northbridge", "https://en.wikipedia.org/wiki/Northbridge_(computing)");
+
+            URL_Add("perturbation", "https://en.wiktionary.org/wiki/perturbation#Noun");
 
 
 
