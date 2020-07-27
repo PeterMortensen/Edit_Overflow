@@ -4947,6 +4947,15 @@ namespace OverflowHelper.core
             correctionAdd("Visual basic", "Visual Basic");
             correctionAdd("Visual BASIC", "Visual Basic");
 
+            // Note: We currently can't support terms ending in full
+            //       stop (".") (what was the reason? - SQL issues and/or
+            //       removal of space and punctuation before lookup ??),
+            //       but we would like to!
+            //
+            //       Example:
+            //
+            //              ...("For e.g.", "for example");
+            //
             correctionAdd("Ex", "for example");
             correctionAdd("e.x", "for example"); //Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
             correctionAdd("eg", "for example");
@@ -11045,7 +11054,7 @@ namespace OverflowHelper.core
             correctionAdd("Write-verbose", "Write-Verbose");
 
             correctionAdd("complier", "compiler");
-            correctionAdd("Compiler", "compiler");            
+            correctionAdd("Compiler", "compiler");
 
             correctionAdd("compter", "computer");
 
@@ -12039,6 +12048,10 @@ namespace OverflowHelper.core
             correctionAdd("mstest", "MSTest");
             correctionAdd("MS Test", "MSTest");
             correctionAdd("MsTest", "MSTest");
+            correctionAdd("MSTEST", "MSTest");
+            correctionAdd("MS TEST", "MSTest");
+            correctionAdd("MS test", "MSTest");
+            correctionAdd("ms test", "MSTest");
 
             correctionAdd("MDN", "Mozilla Developer Network");
 
@@ -13245,6 +13258,7 @@ namespace OverflowHelper.core
 
             correctionAdd("probelm", "problem");
             correctionAdd("probem", "problem");
+            correctionAdd("ploblem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -16735,6 +16749,7 @@ namespace OverflowHelper.core
             correctionAdd("design patterns", "Design Patterns");
 
             correctionAdd("attemt", "attempt");
+            correctionAdd("attemp", "attempt");
 
             correctionAdd("code base", "codebase");
 
@@ -16865,6 +16880,8 @@ namespace OverflowHelper.core
 
             correctionAdd("here doc", "heredoc");
             correctionAdd("Heredoc", "heredoc");
+            correctionAdd("heredocs", "heredoc");
+            correctionAdd("Heredocs", "heredoc");
 
             correctionAdd("Logic Programming", "logic programming");
 
@@ -18776,7 +18793,7 @@ namespace OverflowHelper.core
 
             //Of PowerShell...
             correctionAdd("get-itemproperty", "Get-ItemProperty");
- 
+
             correctionAdd("ECMAScript 10", "ECMAScript&nbsp;10");
             correctionAdd("ES2019", "ECMAScript&nbsp;10");
             correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;10");
@@ -18826,7 +18843,11 @@ namespace OverflowHelper.core
             correctionAdd("Northbridge", "northbridge");
 
             correctionAdd("perurbation", "perturbation");
- 
+
+            correctionAdd("Business Logic", "business logic");
+
+            correctionAdd("Presentation Logic", "presentation logic");
+
 
             // Start of coronavirus part...
 
@@ -28674,6 +28695,10 @@ namespace OverflowHelper.core
             URL_Add("northbridge", "https://en.wikipedia.org/wiki/Northbridge_(computing)");
 
             URL_Add("perturbation", "https://en.wiktionary.org/wiki/perturbation#Noun");
+
+            URL_Add("business logic", "https://en.wikipedia.org/wiki/Business_logic");
+
+            URL_Add("presentation logic", "https://en.wikipedia.org/wiki/Presentation_logic");
 
 
 
