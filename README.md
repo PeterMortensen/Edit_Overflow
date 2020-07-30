@@ -192,7 +192,7 @@ on editing to a reasonable level.
 While the intent was always to have a cross-platform solution, it wasn't
 until 2019 that the initial Windows desktop application (Windows Forms
 application written in C#) was supplemented with a web application,
-prompted by an attempted move to move from Windows to Linux.
+prompted by an attempted move from Windows to Linux.
 
 ## Contribute
 
