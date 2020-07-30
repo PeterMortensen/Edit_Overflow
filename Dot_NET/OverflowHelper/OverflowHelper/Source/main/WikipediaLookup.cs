@@ -9293,7 +9293,9 @@ namespace OverflowHelper.core
             correctionAdd("ain´t", "isn't");
 
             correctionAdd("Ironruby", "IronRuby");
-
+            correctionAdd("ironRuby", "IronRuby");
+            correctionAdd("ironruby", "IronRuby");
+ 
             correctionAdd("newb", "newbie");
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
             correctionAdd("noob", "newbie");
@@ -12067,6 +12069,7 @@ namespace OverflowHelper.core
             correctionAdd("MS TEST", "MSTest");
             correctionAdd("MS test", "MSTest");
             correctionAdd("ms test", "MSTest");
+            correctionAdd("msTest", "MSTest");
 
             correctionAdd("MDN", "Mozilla Developer Network");
 
@@ -13109,6 +13112,8 @@ namespace OverflowHelper.core
             correctionAdd("Windows Remote Management", "WinRM");
 
             correctionAdd("accorging", "according");
+            correctionAdd("Accorting", "according");
+            correctionAdd("accorting", "according");
 
             correctionAdd("coerse", "coerce");
 
@@ -18937,6 +18942,32 @@ namespace OverflowHelper.core
 
             correctionAdd("whitespace", "white space");
 
+            correctionAdd("Arduino ide", "Arduino IDE");
+
+            correctionAdd("Biztalk", "BizTalk");
+
+            correctionAdd("marxist", "Marxist");
+
+            correctionAdd("mbUnit", "MbUnit");
+            correctionAdd("MBunit", "MbUnit");
+
+            correctionAdd("rspec", "RSpec");
+
+            correctionAdd("Shakespear", "Shakespeare");
+
+            correctionAdd("heer", "hear");
+
+            correctionAdd("mein", "mean");
+
+            correctionAdd("mught", "might");
+
+            correctionAdd("SBC", "single-board computer");
+
+            correctionAdd("sub set", "subset");
+
+            correctionAdd("succint", "succinct");
+
+            correctionAdd("XUnit.net", "xUnit.net");
 
 
             // Start of coronavirus part...
@@ -28847,6 +28878,33 @@ namespace OverflowHelper.core
             URL_Add("thallium", "https://en.wikipedia.org/wiki/Thallium");
 
             URL_Add("white space", "https://en.wiktionary.org/wiki/white_space#Noun");
+
+            URL_Add("Arduino IDE", "https://en.wikipedia.org/wiki/Arduino_IDE");
+
+            URL_Add("BizTalk", "https://en.wikipedia.org/wiki/Microsoft_BizTalk_Server");
+
+            URL_Add("Marxist", "https://en.wiktionary.org/wiki/Marxist#Adjective");
+
+            URL_Add("MbUnit", "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages");
+
+            URL_Add("RSpec", "https://en.wikipedia.org/wiki/RSpec");
+
+            URL_Add("Shakespeare", "https://en.wikipedia.org/wiki/William_Shakespeare");
+
+            URL_Add("hear", "https://en.wiktionary.org/wiki/hear#Verb");
+
+            URL_Add("mean", "https://en.wiktionary.org/wiki/mean#Verb");
+
+            URL_Add("might", "https://en.wiktionary.org/wiki/might#Verb");
+
+            URL_Add("single-board computer", "https://en.wikipedia.org/wiki/Single-board_computer");
+
+            URL_Add("subset", "https://en.wiktionary.org/wiki/subset#Noun");
+
+            URL_Add("succinct", "https://en.wiktionary.org/wiki/succinct#Adjective");
+
+            URL_Add("xUnit.net", "https://en.wikipedia.org/wiki/XUnit.net");
+
 
 
 
