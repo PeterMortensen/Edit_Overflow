@@ -353,19 +353,22 @@
 
         <script src="EditOverflowList.js"></script>
 
+        <script src="EditOverflow.js"></script>
+
         <script>
-            //document.write("<h1>Hello, World!</h1>");
-
-            var lookup = "php";
-            var correct = incorrect2correct[lookup];
-
-            //document.write("<h2>Lookup value: " + correct + " </h2>");
+            // Only if we want the lookup for the default input
+            window.onload = function() {
+                //document.lookupForm.action = get_action();
+            }
         </script>
 
         <form
             name="lookupForm"
             method="post"
-            id="lookupForm">
+            id="lookupForm"
+
+        >
+            <!--  onsubmit="return get_action(); return false;"   -->
 
             <div class="formgrid">
 
@@ -691,7 +694,7 @@
                 -->
 
                 <input
-                    name="XYZ"
+                    name="LookUp"
                     type="submit"
                     id="LookUp"
                     class="XYZ12"
@@ -699,7 +702,16 @@
                     style="width:90px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
+
                 />
+
+                <!-- The only thing required to get the lookup to happen
+                     in JavaScript (on the client side (in the browser))
+                     is to insert this for button LookUp (just above):
+
+                         onclick="get_action(); return false;"
+
+                -->
 
             </div>
 
