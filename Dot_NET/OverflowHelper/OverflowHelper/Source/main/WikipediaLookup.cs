@@ -9295,7 +9295,7 @@ namespace OverflowHelper.core
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
             correctionAdd("ironruby", "IronRuby");
- 
+
             correctionAdd("newb", "newbie");
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
             correctionAdd("noob", "newbie");
@@ -9650,6 +9650,7 @@ namespace OverflowHelper.core
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
             correctionAdd("dessappear", "disappear");
+            correctionAdd("disapear", "disappear");
 
             correctionAdd("heirarchy", "hierarchy");
             correctionAdd("heirarachy", "hierarchy");
@@ -11987,6 +11988,7 @@ namespace OverflowHelper.core
             correctionAdd("amperage", "current");
             correctionAdd("ampacity", "current");
             correctionAdd("Current", "current");
+            correctionAdd("curent", "current");
 
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
@@ -12051,6 +12053,7 @@ namespace OverflowHelper.core
 
             correctionAdd("warry", "worry");
             correctionAdd("wory", "worry");
+            correctionAdd("worrt", "worry");
 
             correctionAdd("fortnite", "Fortnite");
 
@@ -17216,8 +17219,6 @@ namespace OverflowHelper.core
 
             correctionAdd("snobol", "SNOBOL");
 
-            correctionAdd("Snaplogic", "SnapLogic");
-
             correctionAdd("counter intuitive", "counterintuitive");
             correctionAdd("counter-intuitive", "counterintuitive");
 
@@ -17708,8 +17709,6 @@ namespace OverflowHelper.core
             correctionAdd("biggets", "biggest");
 
             correctionAdd("electricty", "electricity");
-
-            correctionAdd("logique", "logic");
 
             correctionAdd("overal", "overall");
 
@@ -18849,10 +18848,6 @@ namespace OverflowHelper.core
 
             correctionAdd("perurbation", "perturbation");
 
-            correctionAdd("Business Logic", "business logic");
-
-            correctionAdd("Presentation Logic", "presentation logic");
-
             correctionAdd("Asm", "assembly language");
             correctionAdd("asm", "assembly language");
             correctionAdd("ASM", "assembly language");
@@ -18969,6 +18964,36 @@ namespace OverflowHelper.core
 
             correctionAdd("XUnit.net", "xUnit.net");
 
+            correctionAdd("Snaplogic", "SnapLogic");
+
+            correctionAdd("Business Logic", "business logic");
+
+            correctionAdd("Presentation Logic", "presentation logic");
+
+            correctionAdd("logique", "logic");
+            correctionAdd("locic", "logic");
+
+            correctionAdd("Lith", "Lithuania");
+
+            correctionAdd("mig 21", "MiG-21");
+            correctionAdd("mig21", "MiG-21");
+
+            correctionAdd("turing test", "Turing test");
+
+            correctionAdd("air to air missile", "air-to-air missile");
+
+            correctionAdd("competetive", "competitive");
+
+            correctionAdd("excalamation mark", "exclamation mark");
+            correctionAdd("Excalamation mark", "exclamation mark");
+
+            correctionAdd("practise", "practice");
+
+            correctionAdd("quater", "quarter");
+
+            correctionAdd("unemployement", "unemployment");
+
+
 
             // Start of coronavirus part...
 
@@ -18990,6 +19015,7 @@ namespace OverflowHelper.core
             correctionAdd("Common Cold", "common cold");
 
             correctionAdd("diesease", "disease");
+            correctionAdd("desease", "disease");
 
             correctionAdd("epedemic", "epidemic");
 
@@ -28905,6 +28931,23 @@ namespace OverflowHelper.core
 
             URL_Add("xUnit.net", "https://en.wikipedia.org/wiki/XUnit.net");
 
+            URL_Add("Lithuania", "https://en.wikipedia.org/wiki/Lithuania");
+
+            URL_Add("MiG-21", "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21");
+
+            URL_Add("Turing test", "https://en.wikipedia.org/wiki/Turing_test");
+
+            URL_Add("air-to-air missile", "https://en.wikipedia.org/wiki/Air-to-air_missile");
+
+            URL_Add("competitive", "https://en.wiktionary.org/wiki/competitive#Adjective");
+
+            URL_Add("exclamation mark", "https://en.wiktionary.org/wiki/exclamation_mark#Noun");
+
+            URL_Add("practice", "https://en.wiktionary.org/wiki/practise#Noun");
+
+            URL_Add("quarter", "https://en.wiktionary.org/wiki/quarter#Noun");
+
+            URL_Add("unemployment", "https://en.wiktionary.org/wiki/unemployment#Noun");
 
 
 
