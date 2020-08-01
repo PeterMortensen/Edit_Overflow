@@ -1234,34 +1234,6 @@ namespace OverflowHelper.core
             correctionAdd("Classic Asp", "ASP Classic");
             correctionAdd("Asp Classic", "ASP Classic");
 
-            correctionAdd("asp core", "ASP.NET Core");
-            correctionAdd("Asp.net core", "ASP.NET Core");
-            correctionAdd("aspnet core", "ASP.NET Core");
-            correctionAdd("asp.net core", "ASP.NET Core");
-            correctionAdd("ASP core", "ASP.NET Core");
-            correctionAdd("ASP.Net core", "ASP.NET Core");
-            correctionAdd("ASP.Net Core", "ASP.NET Core");
-            correctionAdd("ASP.NET CORE", "ASP.NET Core");
-            correctionAdd("asp net core", "ASP.NET Core");
-            correctionAdd(".net core mvc", "ASP.NET Core");
-            correctionAdd(".NET Core mvc", "ASP.NET Core");
-            correctionAdd(".NET Core MVC", "ASP.NET Core");
-            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
-            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
-            correctionAdd("asp.net core mvc", "ASP.NET Core");
-            correctionAdd("Asp.net MVC core", "ASP.NET Core");
-            correctionAdd("Asp.net Core", "ASP.NET Core");
-            correctionAdd("Asp.Net Core", "ASP.NET Core");
-            correctionAdd("Asp.Net core", "ASP.NET Core");
-            correctionAdd("ASP .NET Core", "ASP.NET Core");
-            correctionAdd("ASP Core", "ASP.NET Core");
-            correctionAdd("aspnetcore", "ASP.NET Core");
-            correctionAdd("ASP.NET core", "ASP.NET Core");
-            correctionAdd("asp.net Core", "ASP.NET Core");
-            correctionAdd("asp.net-core", "ASP.NET Core");
-            correctionAdd("AspNetCore", "ASP.NET Core");
-            correctionAdd("AspNet Core", "ASP.NET Core");
-
             correctionAdd("Mac OS X", "Mac&nbsp;OS&nbsp;X"); // Sort of identity mapping
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -4397,6 +4369,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PW", "password");
             correctionAdd("pw", "password");
+            correctionAdd("passwod", "password");
 
             correctionAdd("phonegap", "PhoneGap");
             correctionAdd("Phonegap", "PhoneGap");
@@ -6030,6 +6003,7 @@ namespace OverflowHelper.core
             correctionAdd("NUGET", "NuGet");
             correctionAdd("nu-get", "NuGet");
             correctionAdd("puget", "NuGet");
+            correctionAdd("nuguet", "NuGet");
 
             correctionAdd("Disk cleanup", "Disk Cleanup");
             correctionAdd("Disk Cleaner", "Disk Cleanup"); //Misremembered name...
@@ -7926,6 +7900,7 @@ namespace OverflowHelper.core
             correctionAdd("visual studio 15", "Visual&nbsp;Studio&nbsp;2015");
             correctionAdd("vs15", "Visual&nbsp;Studio&nbsp;2015");
             correctionAdd("VisualStudio 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("MSVS 2015", "Visual&nbsp;Studio&nbsp;2015");
 
             correctionAdd("Visual Studio 17", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("Visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
@@ -7940,6 +7915,7 @@ namespace OverflowHelper.core
             correctionAdd("2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("vs 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("MSVS 2017", "Visual&nbsp;Studio&nbsp;2017");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -9961,6 +9937,37 @@ namespace OverflowHelper.core
             correctionAdd("dotnet-core", ".NET Core");
             correctionAdd("DotNET core", ".NET Core");
             correctionAdd("Dotnet core", ".NET Core");
+            correctionAdd("NetCore", ".NET Core");
+            correctionAdd("Net.Core", ".NET Core");
+
+            correctionAdd("asp core", "ASP.NET Core");
+            correctionAdd("Asp.net core", "ASP.NET Core");
+            correctionAdd("aspnet core", "ASP.NET Core");
+            correctionAdd("asp.net core", "ASP.NET Core");
+            correctionAdd("ASP core", "ASP.NET Core");
+            correctionAdd("ASP.Net core", "ASP.NET Core");
+            correctionAdd("ASP.Net Core", "ASP.NET Core");
+            correctionAdd("ASP.NET CORE", "ASP.NET Core");
+            correctionAdd("asp net core", "ASP.NET Core");
+            correctionAdd(".net core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core MVC", "ASP.NET Core");
+            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
+            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
+            correctionAdd("asp.net core mvc", "ASP.NET Core");
+            correctionAdd("Asp.net MVC core", "ASP.NET Core");
+            correctionAdd("Asp.net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net core", "ASP.NET Core");
+            correctionAdd("ASP .NET Core", "ASP.NET Core");
+            correctionAdd("ASP Core", "ASP.NET Core");
+            correctionAdd("aspnetcore", "ASP.NET Core");
+            correctionAdd("ASP.NET core", "ASP.NET Core");
+            correctionAdd("asp.net Core", "ASP.NET Core");
+            correctionAdd("asp.net-core", "ASP.NET Core");
+            correctionAdd("AspNetCore", "ASP.NET Core");
+            correctionAdd("AspNet Core", "ASP.NET Core");
+            correctionAdd("aspnet core mvc", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -9986,6 +9993,9 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript 6", "ECMAScript&nbsp;6");
             correctionAdd("ES 6", "ECMAScript&nbsp;6");
             correctionAdd("Es6", "ECMAScript&nbsp;6");
+            correctionAdd("ECMA6", "ECMAScript&nbsp;6");
+            correctionAdd("ECMA 6", "ECMAScript&nbsp;6");
+            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;6");
 
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
@@ -10230,9 +10240,9 @@ namespace OverflowHelper.core
             correctionAdd("Redicoulus", "ridiculous");
             correctionAdd("redicoulus", "ridiculous");
 
-
             correctionAdd("actaully", "actually");
             correctionAdd("actualy", "actually");
+            correctionAdd("Actualy", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -10777,6 +10787,7 @@ namespace OverflowHelper.core
             correctionAdd("Annswer", "answer");
             correctionAdd("Answer", "answer");
             correctionAdd("anwer", "answer");
+            correctionAdd("answere", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -10905,6 +10916,7 @@ namespace OverflowHelper.core
             correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
             correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
             correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
 
             correctionAdd("export-clixml", "Export-Clixml");
 
@@ -12541,6 +12553,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("VS19", "Visual&nbsp;Studio&nbsp;2019");
 
             correctionAdd("xor", "XOR");
             correctionAdd("Xor", "XOR");
@@ -14638,6 +14651,7 @@ namespace OverflowHelper.core
             correctionAdd("bobs your uncle", "Bob’s your uncle");
             correctionAdd("B's ur uncle", "Bob’s your uncle");
             correctionAdd("Bob's yer uncle", "Bob’s your uncle");
+            correctionAdd("Bobs your uncle", "Bob’s your uncle");
 
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
@@ -15070,6 +15084,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Implemented", "implemented");
             correctionAdd("Implemeted", "implemented");
+            correctionAdd("implemeted", "implemented");
 
             correctionAdd("none working", "nonworking");
             correctionAdd("non-working", "nonworking");
@@ -15437,6 +15452,7 @@ namespace OverflowHelper.core
             correctionAdd("medior", "mediocre");
 
             correctionAdd("NPM", "npm");
+            correctionAdd("Npm", "npm");
 
             correctionAdd("Prime Number", "prime number");
 
@@ -15937,6 +15953,9 @@ namespace OverflowHelper.core
             correctionAdd("candidates", "Candidates Tournament 2020"); // Chess
 
             correctionAdd("magnus carlsen", "Magnus Carlsen"); // Chess
+            correctionAdd("Carlsen", "Magnus Carlsen"); // Chess
+            correctionAdd("magnus", "Magnus Carlsen"); // Chess
+            correctionAdd("Magnus", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -16127,6 +16146,12 @@ namespace OverflowHelper.core
 
             correctionAdd("zwichenzug", "zwischenzug"); // Chess
             correctionAdd("Zwischenzug", "zwischenzug"); // Chess
+
+            correctionAdd("Carl Bremen system", "Carl's Bremen system"); // Chess
+
+            correctionAdd("Svidler", "Peter Svidler"); // Chess
+
+
 
             correctionAdd("demonitisation", "demonetisation");
             correctionAdd("demonitization", "demonetisation");
@@ -18993,6 +19018,23 @@ namespace OverflowHelper.core
 
             correctionAdd("unemployement", "unemployment");
 
+            correctionAdd("Airflow", "Apache Airflow");
+            correctionAdd("apache-airflow", "Apache Airflow");
+            correctionAdd("airflow", "Apache Airflow");
+
+            correctionAdd("appened", "appended");
+
+            correctionAdd("common-sense", "common sense");
+
+            correctionAdd("entier", "entire");
+
+            correctionAdd("identitfier", "identifier");
+
+            correctionAdd("Kung Fu", "kung fu");
+
+            correctionAdd("partizan", "partisan");
+
+            correctionAdd("permiability", "permeability");
 
 
             // Start of coronavirus part...
@@ -28948,6 +28990,26 @@ namespace OverflowHelper.core
             URL_Add("quarter", "https://en.wiktionary.org/wiki/quarter#Noun");
 
             URL_Add("unemployment", "https://en.wiktionary.org/wiki/unemployment#Noun");
+
+            URL_Add("Apache Airflow", "https://en.wikipedia.org/wiki/Apache_Airflow");
+
+            URL_Add("appended", "https://en.wiktionary.org/wiki/append#Verb");
+
+            URL_Add("common sense", "https://en.wiktionary.org/wiki/common_sense#Noun");
+
+            URL_Add("entire", "https://en.wiktionary.org/wiki/entire#Adjective");
+
+            URL_Add("identifier", "https://en.wiktionary.org/wiki/identifier#Noun");
+
+            URL_Add("kung fu", "https://en.wiktionary.org/wiki/kung_fu#Noun");
+
+            URL_Add("partisan", "https://en.wiktionary.org/wiki/partisan#Adjective");
+
+            URL_Add("permeability", "https://en.wikipedia.org/wiki/Permeability_(electromagnetism)");
+
+            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
+
+            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
 
 
 
