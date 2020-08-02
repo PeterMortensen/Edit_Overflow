@@ -13892,6 +13892,7 @@ namespace OverflowHelper.core
 
             correctionAdd("GlassDoor", "Glassdoor");
             correctionAdd("glass door", "Glassdoor");
+            correctionAdd("glassdoor", "Glassdoor");
 
             correctionAdd("Indeed.com", "Indeed");
 
@@ -19035,6 +19036,13 @@ namespace OverflowHelper.core
             correctionAdd("partizan", "partisan");
 
             correctionAdd("permiability", "permeability");
+
+            correctionAdd("non native", "non-native");
+
+            correctionAdd("ragret", "regret");
+            correctionAdd("RAGRET", "regret");
+
+            correctionAdd("suspedended", "suspended");
 
 
             // Start of coronavirus part...
@@ -29010,6 +29018,12 @@ namespace OverflowHelper.core
             URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
 
             URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
+
+            URL_Add("non-native", "https://en.wiktionary.org/wiki/non-native#Adjective");
+
+            URL_Add("regret", "https://en.wiktionary.org/wiki/regret#Noun");
+
+            URL_Add("suspended", "https://en.wiktionary.org/wiki/suspend#Verb");
 
 
 
