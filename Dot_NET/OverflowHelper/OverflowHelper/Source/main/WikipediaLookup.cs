@@ -4308,6 +4308,7 @@ namespace OverflowHelper.core
             correctionAdd("do't", "don’t");
             correctionAdd("dnt", "don’t");
             correctionAdd("don`t", "don’t");
+            correctionAdd("dont’t", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -7014,6 +7015,7 @@ namespace OverflowHelper.core
             correctionAdd("WINDOWS10", "Windows&nbsp;10");
             correctionAdd("windows ten", "Windows&nbsp;10");
             correctionAdd("Windows ten", "Windows&nbsp;10");
+            correctionAdd("Microsoft 10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -8048,6 +8050,7 @@ namespace OverflowHelper.core
             correctionAdd("gouverment", "government");
             correctionAdd("governent", "government");
             correctionAdd("Government", "government");
+            correctionAdd("Givernment", "government");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -9058,6 +9061,7 @@ namespace OverflowHelper.core
             correctionAdd("doesn`t", "doesn’t");
             correctionAdd("doesn´t", "doesn’t");
             correctionAdd("does'nt", "doesn’t");
+            correctionAdd("Dosen't", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -9068,6 +9072,7 @@ namespace OverflowHelper.core
             correctionAdd("Chiense", "Chinese");
             correctionAdd("chineese", "Chinese");
             correctionAdd("Chineese", "Chinese");
+            correctionAdd("chinease", "Chinese");
 
             correctionAdd("atleast", "at least");
             correctionAdd("alteast", "at least");
@@ -11599,6 +11604,7 @@ namespace OverflowHelper.core
             correctionAdd("shift", "Shift");
 
             correctionAdd("x509", "X.509");
+            correctionAdd("x.509", "X.509");
 
             correctionAdd("allready", "already");
             correctionAdd("alredy", "already");
@@ -12453,6 +12459,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS", "macOS");
             correctionAdd("Mac-Os", "macOS");
             correctionAdd("Mac os", "macOS");
+            correctionAdd("Mac OS", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -13617,8 +13624,6 @@ namespace OverflowHelper.core
             correctionAdd("happlily", "happily");
             correctionAdd("happilly", "happily");
 
-            correctionAdd("lock-down", "lock down");
-
             correctionAdd("measureable", "measurable");
 
             correctionAdd("pickup", "pick up");
@@ -13688,6 +13693,8 @@ namespace OverflowHelper.core
 
             correctionAdd("correcponding", "corresponding");
             correctionAdd("Correcponding", "corresponding");
+            correctionAdd("coressponding", "corresponding");
+            correctionAdd("coresponding", "corresponding");
 
             correctionAdd("substract", "subtract");
 
@@ -17203,6 +17210,7 @@ namespace OverflowHelper.core
             correctionAdd("teachers lounge", "Teachers' Lounge (TL)");
 
             correctionAdd("TL", "TeX Live");
+            correctionAdd("Texlive", "TeX Live");
 
             correctionAdd("TVS", "Transient voltage suppressor");
             correctionAdd("tvs", "Transient voltage suppressor");
@@ -17849,6 +17857,7 @@ namespace OverflowHelper.core
             correctionAdd("Opposition", "opposition");
 
             correctionAdd("expect", "Expect");
+            correctionAdd("EXPECT", "Expect");
 
             correctionAdd("florida", "Florida");
 
@@ -19009,6 +19018,7 @@ namespace OverflowHelper.core
             correctionAdd("air to air missile", "air-to-air missile");
 
             correctionAdd("competetive", "competitive");
+            correctionAdd("competative", "competitive");
 
             correctionAdd("excalamation mark", "exclamation mark");
             correctionAdd("Excalamation mark", "exclamation mark");
@@ -19043,6 +19053,34 @@ namespace OverflowHelper.core
             correctionAdd("RAGRET", "regret");
 
             correctionAdd("suspedended", "suspended");
+
+            correctionAdd("aspire", "Acer Aspire");
+            correctionAdd("Aser Aspire", "Acer Aspire");
+            correctionAdd("Aspire", "Acer Aspire");
+
+            correctionAdd("GPT3", "GPT-3");
+            correctionAdd("gpt-3", "GPT-3");
+
+            correctionAdd("CoM", "centre of mass");
+
+            correctionAdd("cognative", "cognitive");
+
+            correctionAdd("constrast", "contrast");
+
+            correctionAdd("lock down", "lockdown");
+            correctionAdd("lock-down", "lockdown");
+
+            correctionAdd("logout", "log out");
+
+            correctionAdd("OOB", "out of the box");
+
+            correctionAdd("persuit", "pursuit");
+
+            correctionAdd("re-enter", "reenter");
+
+            correctionAdd("Structured Programming", "structured programming");
+
+            correctionAdd("Torque", "torque");
 
 
             // Start of coronavirus part...
@@ -24867,8 +24905,6 @@ namespace OverflowHelper.core
 
             URL_Add("happily", "https://en.wiktionary.org/wiki/happily#Adverb");
 
-            URL_Add("lock down", "https://en.wiktionary.org/wiki/lock_down#Verb");
-
             URL_Add("measurable", "https://en.wiktionary.org/wiki/measurable#Adjective");
 
             URL_Add("pick up", "https://en.wiktionary.org/wiki/pick_up#Verb");
@@ -29024,6 +29060,30 @@ namespace OverflowHelper.core
             URL_Add("regret", "https://en.wiktionary.org/wiki/regret#Noun");
 
             URL_Add("suspended", "https://en.wiktionary.org/wiki/suspend#Verb");
+
+            URL_Add("Acer Aspire", "https://en.wikipedia.org/wiki/Acer_Aspire");
+
+            URL_Add("GPT-3", "https://en.wikipedia.org/wiki/GPT-3");
+
+            URL_Add("centre of mass", "https://en.wiktionary.org/wiki/COM#Noun");
+
+            URL_Add("cognitive", "https://en.wiktionary.org/wiki/cognitive#Adjective");
+
+            URL_Add("contrast", "https://en.wiktionary.org/wiki/contrast#Noun");
+
+            URL_Add("lockdown", "https://en.wiktionary.org/wiki/lockdown#Noun");
+
+            URL_Add("log out", "https://en.wiktionary.org/wiki/log_out#Verb");
+
+            URL_Add("out of the box", "https://en.wiktionary.org/wiki/OOB#Adjective");
+
+            URL_Add("pursuit", "https://en.wiktionary.org/wiki/pursuit#Noun");
+
+            URL_Add("reenter", "https://en.wiktionary.org/wiki/reenter#Verb");
+
+            URL_Add("structured programming", "https://en.wikipedia.org/wiki/Structured_programming");
+
+            URL_Add("torque", "https://en.wikipedia.org/wiki/Torque");
 
 
 
