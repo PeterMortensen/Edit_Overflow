@@ -12469,6 +12469,7 @@ namespace OverflowHelper.core
 
             correctionAdd("new comer", "newcomer");
             correctionAdd("new-comer", "newcomer");
+            correctionAdd("newcommer", "newcomer");
 
             correctionAdd("no brainer", "no-brainer");
 
@@ -15749,6 +15750,7 @@ namespace OverflowHelper.core
 
             correctionAdd("conatiner", "container");
             correctionAdd("containre", "container");
+            correctionAdd("continer", "container");
 
             correctionAdd("instaled", "installed");
 
