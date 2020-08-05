@@ -1445,10 +1445,12 @@ namespace OverflowHelper.core
             correctionAdd("macOS v10.14", "macOS v10.14 (Mojave)");
             correctionAdd("MacOs Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("MacOS Mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("OSX Mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
-
+            correctionAdd("Macos Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("MacOS Catalina", "macOS v10.15 (Catalina)");
 
             //Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -9899,6 +9901,8 @@ namespace OverflowHelper.core
             correctionAdd("shoud", "should");
             correctionAdd("shuld", "should");
             correctionAdd("hould", "should");
+            correctionAdd("shod", "should");
+            correctionAdd("shood", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -12675,6 +12679,7 @@ namespace OverflowHelper.core
             correctionAdd("excagurated", "exaggerated");
 
             correctionAdd("expection", "expectation");
+            correctionAdd("exoectation", "expectation");
 
             correctionAdd("incidently", "incidentally");
             correctionAdd("Incidently", "incidentally");
@@ -12816,6 +12821,7 @@ namespace OverflowHelper.core
             correctionAdd("requst", "request");
 
             correctionAdd("temorarily", "temporarily");
+            correctionAdd("temporaryly", "temporarily");
 
             correctionAdd("wieght", "weight");
             correctionAdd("waight", "weight");
@@ -13425,6 +13431,7 @@ namespace OverflowHelper.core
             correctionAdd("Democratic", "democratic");
 
             correctionAdd("de-reference", "dereference");
+            correctionAdd("derefence", "dereference");
 
             correctionAdd("elgent", "elegant");
 
@@ -13530,6 +13537,7 @@ namespace OverflowHelper.core
 
             correctionAdd("powerpc", "PowerPC");
             correctionAdd("power-pc", "PowerPC");
+            correctionAdd("Power PC", "PowerPC");
 
             correctionAdd("WOW64", "WoW64");
 
@@ -13972,6 +13980,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cwd", "current working directory");
             correctionAdd("CWD", "current working directory");
+            correctionAdd("pwd", "current working directory");
 
             correctionAdd("Dark Energy", "dark energy");
 
@@ -15747,6 +15756,7 @@ namespace OverflowHelper.core
             correctionAdd("Line-Break", "line break");
 
             correctionAdd("tryng", "trying");
+            correctionAdd("tryting", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -17105,6 +17115,7 @@ namespace OverflowHelper.core
             correctionAdd("CAD", "computer-aided design");
 
             correctionAdd("DS", "data science");
+            correctionAdd("Data Science", "data science");
 
             correctionAdd("fount", "found");
 
@@ -17649,6 +17660,8 @@ namespace OverflowHelper.core
 
             correctionAdd("come-a-gusta", "come a gutser");
             correctionAdd("comma gotcha", "come a gutser");
+            correctionAdd("come-a-gutsa", "come a gutser");
+            correctionAdd("come-a-gotsa", "come a gutser");
 
             correctionAdd("exgress", "egress");
 
@@ -19071,6 +19084,7 @@ namespace OverflowHelper.core
             correctionAdd("lock-down", "lockdown");
 
             correctionAdd("logout", "log out");
+            correctionAdd("log-out", "log out");
 
             correctionAdd("OOB", "out of the box");
 
@@ -19081,6 +19095,38 @@ namespace OverflowHelper.core
             correctionAdd("Structured Programming", "structured programming");
 
             correctionAdd("Torque", "torque");
+
+            correctionAdd("Belorus", "Belarus");
+            correctionAdd("Bylorus", "Belarus");
+
+            correctionAdd("fig forth", "FIG Forth");
+
+            correctionAdd("icbm", "ICBM");
+
+            correctionAdd("Jones Forth", "JonesForth");
+            correctionAdd("jonesforth", "JonesForth");
+            correctionAdd("JONESFORTH", "JonesForth");
+
+            correctionAdd("paramiko", "Paramiko");
+
+            correctionAdd("Data Scientist", "data scientist");
+
+            correctionAdd("debuger", "debugger");
+
+            correctionAdd("Engineer", "engineer");
+
+            correctionAdd("KE", "kinetic energy");
+
+            correctionAdd("mesmerize", "mesmerising");
+            correctionAdd("mezmerising", "mesmerising");
+
+            correctionAdd("reinvent the wheels", "reinvent the wheel");
+
+            correctionAdd("sting", "string");
+
+            correctionAdd("uncoment", "uncomment");
+
+            correctionAdd("wth", "why");
 
 
             // Start of coronavirus part...
@@ -29084,6 +29130,34 @@ namespace OverflowHelper.core
             URL_Add("structured programming", "https://en.wikipedia.org/wiki/Structured_programming");
 
             URL_Add("torque", "https://en.wikipedia.org/wiki/Torque");
+
+            URL_Add("Belarus", "https://en.wikipedia.org/wiki/Belarus");
+
+            URL_Add("FIG Forth", "https://tinymicros.com/wiki/FIG_Forth");
+
+            URL_Add("ICBM", "https://en.wikipedia.org/wiki/Intercontinental_ballistic_missile");
+
+            URL_Add("JonesForth", "https://rwmj.wordpress.com/2010/08/07/jonesforth-git-repository/");
+
+            URL_Add("Paramiko", "http://www.paramiko.org/");
+
+            URL_Add("data scientist", "https://en.wikipedia.org/wiki/Data_science#Careers_in_data_science");
+
+            URL_Add("debugger", "https://en.wikipedia.org/wiki/Debugger");
+
+            URL_Add("engineer", "https://en.wiktionary.org/wiki/engineer#Noun");
+
+            URL_Add("kinetic energy", "https://en.wikipedia.org/wiki/Kinetic_energy");
+
+            URL_Add("mesmerising", "https://en.wiktionary.org/wiki/mesmerize#English");
+
+            URL_Add("reinvent the wheel", "https://en.wiktionary.org/wiki/reinvent_the_wheel#Verb");
+
+            URL_Add("string", "https://en.wiktionary.org/wiki/string#Noun");
+
+            URL_Add("uncomment", "https://en.wiktionary.org/wiki/uncomment#Verb");
+
+            URL_Add("why", "https://en.wiktionary.org/wiki/why#Adverb");
 
 
 
