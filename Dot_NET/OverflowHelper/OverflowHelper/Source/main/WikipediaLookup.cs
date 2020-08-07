@@ -1118,6 +1118,8 @@ namespace OverflowHelper.core
             correctionAdd(".Net Framework", ".NET");
             correctionAdd("dot.NET", ".NET");
             correctionAdd(".Net framework", ".NET");
+            correctionAdd("net framwork", ".NET");
+            correctionAdd("net framework", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
 
@@ -1277,6 +1279,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac os X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("OSx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac Os X", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("MAC OSx", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
@@ -3188,8 +3191,6 @@ namespace OverflowHelper.core
             correctionAdd("Deffinatly", "definitely");
             correctionAdd("deffinatly", "definitely");
 
-            correctionAdd("nagios", "Nagios");
-
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
 
@@ -3661,6 +3662,7 @@ namespace OverflowHelper.core
             correctionAdd("connot", "can't");
             correctionAdd("carn’t", "can't");
             correctionAdd("can´t", "can't");
+            correctionAdd("cand", "can't");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -4092,12 +4094,6 @@ namespace OverflowHelper.core
             correctionAdd("uTorrent", "µTorrent");
             correctionAdd("Utorrent", "µTorrent");
 
-            correctionAdd("ios", "iOS");
-            correctionAdd("IOS", "iOS");
-            correctionAdd("iOs", "iOS");
-            correctionAdd("iO.S", "iOS");
-            correctionAdd("Ios", "iOS");
-
             correctionAdd("sbt", "SBT");
 
             correctionAdd("vimeo", "Vimeo");
@@ -4526,6 +4522,7 @@ namespace OverflowHelper.core
             correctionAdd("beecause", "because");
             correctionAdd("be cause", "because");
             correctionAdd("Because", "because");
+            correctionAdd("becanse", "because");
 
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
@@ -10123,6 +10120,8 @@ namespace OverflowHelper.core
             correctionAdd("vie", "Vue.js");
             correctionAdd("Vue JS", "Vue.js");
             correctionAdd("vue js", "Vue.js");
+            correctionAdd("VueJs", "Vue.js");
+            correctionAdd("vueJs", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -11776,6 +11775,7 @@ namespace OverflowHelper.core
             correctionAdd("runnning", "running");
             correctionAdd("Runnin", "running");
             correctionAdd("Running", "running");
+            correctionAdd("runing", "running");
 
             correctionAdd("spread-sheet", "spreadsheet");
             correctionAdd("spreadshet", "spreadsheet");
@@ -12533,6 +12533,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wan't", "want");
             correctionAdd("whant", "want");
+            correctionAdd("wand", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -15118,6 +15119,9 @@ namespace OverflowHelper.core
             correctionAdd("personnally", "personally");
             correctionAdd("personnaly", "personally");
             correctionAdd("Personnaly", "personally");
+            correctionAdd("Personaly", "personally");
+            correctionAdd("personaly", "personally");
+            correctionAdd("ony", "personally");
 
             correctionAdd("pre-allocated", "preallocated");
 
@@ -15424,9 +15428,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Dotnet CLI", ".NET CLI");
             correctionAdd("Dotnet cli", ".NET CLI");
-
-            correctionAdd("axios", "Axios");
-            correctionAdd("AXIOS", "Axios");
 
             correctionAdd("Billy Bloat", "Bill Gates");
             correctionAdd("billy bloat", "Bill Gates");
@@ -16739,6 +16740,7 @@ namespace OverflowHelper.core
             correctionAdd("assesed", "assessed");
 
             correctionAdd("classis", "classic");
+            correctionAdd("clasic", "classic");
 
             correctionAdd("conotation", "connotation");
 
@@ -16780,6 +16782,9 @@ namespace OverflowHelper.core
             correctionAdd("Al Quada", "Al-Qaeda");
             correctionAdd("Al queda", "Al-Qaeda");
             correctionAdd("Al Queda", "Al-Qaeda");
+            correctionAdd("Alquaeda", "Al-Qaeda");
+            correctionAdd("Al quaeda", "Al-Qaeda");
+            correctionAdd("Al Quaeda", "Al-Qaeda");
 
             correctionAdd("google hangouts", "Google Hangouts");
 
@@ -17508,6 +17513,7 @@ namespace OverflowHelper.core
             correctionAdd("Develop", "develop");
 
             correctionAdd("developped", "developed");
+            correctionAdd("devoped", "developed");
 
             correctionAdd("insteresting", "interesting");
 
@@ -18123,10 +18129,6 @@ namespace OverflowHelper.core
             correctionAdd("uv", "ultraviolet");
 
             correctionAdd("gaussian", "Gaussian");
-
-            correctionAdd("Json.net", "Json.NET");
-            correctionAdd("JSON.Net", "Json.NET");
-            correctionAdd("JSON.NET", "Json.NET");
 
             correctionAdd("laplacian", "Laplacian");
 
@@ -19129,6 +19131,41 @@ namespace OverflowHelper.core
             correctionAdd("uncoment", "uncomment");
 
             correctionAdd("wth", "why");
+
+            correctionAdd("axios", "Axios");
+            correctionAdd("AXIOS", "Axios");
+
+            correctionAdd("nagios", "Nagios");
+
+            correctionAdd("ios", "iOS");
+            correctionAdd("IOS", "iOS");
+            correctionAdd("iOs", "iOS");
+            correctionAdd("iO.S", "iOS");
+            correctionAdd("Ios", "iOS");
+            correctionAdd("IOs", "iOS");
+
+            correctionAdd("Json.net", "Json.NET");
+            correctionAdd("JSON.Net", "Json.NET");
+            correctionAdd("JSON.NET", "Json.NET");
+
+            correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
+
+            correctionAdd("obversely", "conversely");
+            correctionAdd("Obversely", "conversely");
+
+            correctionAdd("curiousity", "curiosity");
+
+            correctionAdd("frustreated", "frustrated");
+            correctionAdd("frsutreated", "frustrated");
+
+            correctionAdd("Game Console", "game console");
+
+            correctionAdd("si", "is");
+
+            correctionAdd("manmade", "man-made");
+
+            correctionAdd("mortals", "mere mortals");
+
 
 
             // Start of coronavirus part...
@@ -29160,6 +29197,22 @@ namespace OverflowHelper.core
             URL_Add("uncomment", "https://en.wiktionary.org/wiki/uncomment#Verb");
 
             URL_Add("why", "https://en.wiktionary.org/wiki/why#Adverb");
+
+            URL_Add("The Hitchhiker's Guide to the Galaxy", "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy");
+
+            URL_Add("conversely", "https://en.wiktionary.org/wiki/conversely#Adverb");
+
+            URL_Add("curiosity", "https://en.wiktionary.org/wiki/curiosity#Noun");
+
+            URL_Add("frustrated", "https://en.wiktionary.org/wiki/frustrated#Adjective");
+
+            URL_Add("game console", "https://en.wikipedia.org/wiki/Video_game_console");
+
+            URL_Add("is", "https://en.wiktionary.org/wiki/is#Verb");
+
+            URL_Add("man-made", "https://en.wiktionary.org/wiki/man-made#Adjective");
+
+            URL_Add("mere mortals", "https://en.wiktionary.org/wiki/mere_mortal#Noun");
 
 
 
