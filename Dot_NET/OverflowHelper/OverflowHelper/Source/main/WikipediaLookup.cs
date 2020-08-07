@@ -5378,6 +5378,7 @@ namespace OverflowHelper.core
             correctionAdd("arch", "architecture"); //Expansion. For a computer hardware context.
             correctionAdd("archetecture", "architecture");
             correctionAdd("archtecture", "architecture");
+            correctionAdd("architecure", "architecture");
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
@@ -16898,6 +16899,7 @@ namespace OverflowHelper.core
             correctionAdd("Honeypot", "honeypot");
 
             correctionAdd("elso", "also");
+            correctionAdd("aso", "also");
 
             correctionAdd("conver", "convert");
 
@@ -18401,6 +18403,7 @@ namespace OverflowHelper.core
             correctionAdd("hrad", "hard");
 
             correctionAdd("phenomen", "phenomenon");
+            correctionAdd("phenomenom", "phenomenon");
 
             correctionAdd("choosed", "chose");
 
@@ -19165,6 +19168,33 @@ namespace OverflowHelper.core
             correctionAdd("manmade", "man-made");
 
             correctionAdd("mortals", "mere mortals");
+
+            correctionAdd("Einstein", "Albert Einstein");
+            correctionAdd("Albert Eisenstein", "Albert Einstein");
+            correctionAdd("Eisenstein", "Albert Einstein");
+
+            correctionAdd("Philly", "Philadelphia");
+
+            correctionAdd("Jobs", "Steve Jobs");
+            correctionAdd("SJ", "Steve Jobs");
+
+            correctionAdd("air tight", "airtight");
+
+            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
+
+            correctionAdd("defense", "defence");
+
+            correctionAdd("Heath Care", "heath care");
+
+            correctionAdd("Nasal Passage", "nasal passage");
+
+            correctionAdd("Ship", "ship");
+
+            correctionAdd("squarrel", "squirrel");
+
+            correctionAdd("usless", "useless");
+
+            correctionAdd("variaton", "variation");
 
 
 
@@ -29213,6 +29243,30 @@ namespace OverflowHelper.core
             URL_Add("man-made", "https://en.wiktionary.org/wiki/man-made#Adjective");
 
             URL_Add("mere mortals", "https://en.wiktionary.org/wiki/mere_mortal#Noun");
+
+            URL_Add("Albert Einstein", "https://en.wikipedia.org/wiki/Albert_Einstein");
+
+            URL_Add("Philadelphia", "https://en.wikipedia.org/wiki/Philadelphia");
+
+            URL_Add("Steve Jobs", "https://en.wikipedia.org/wiki/Steve_Jobs");
+
+            URL_Add("airtight", "https://en.wiktionary.org/wiki/airtight#Adjective");
+
+            URL_Add("ammonium nitrate", "https://en.wikipedia.org/wiki/Ammonium_nitrate");
+
+            URL_Add("defence", "https://en.wiktionary.org/wiki/defence#Noun");
+
+            URL_Add("heath care", "https://en.wiktionary.org/wiki/health_care#Noun");
+
+            URL_Add("nasal passage", "https://en.wikipedia.org/wiki/Nasal_cavity");
+
+            URL_Add("ship", "https://en.wiktionary.org/wiki/ship#Noun");
+
+            URL_Add("squirrel", "https://en.wikipedia.org/wiki/Red_squirrel");
+
+            URL_Add("useless", "https://en.wiktionary.org/wiki/useless#Adjective");
+
+            URL_Add("variation", "https://en.wiktionary.org/wiki/variation#Noun");
 
 
 
