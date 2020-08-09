@@ -1582,6 +1582,7 @@ namespace OverflowHelper.core
             correctionAdd("interent", "Internet");
             correctionAdd("inter-net", "Internet");
             correctionAdd("interwebs", "Internet");
+            correctionAdd("internext", "Internet");
 
             correctionAdd("Youtube", "YouTube");
             correctionAdd("youtube", "YouTube");
@@ -4523,7 +4524,7 @@ namespace OverflowHelper.core
             correctionAdd("be cause", "because");
             correctionAdd("Because", "because");
             correctionAdd("becanse", "because");
-
+            correctionAdd("bcos", "because");
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -9245,6 +9246,7 @@ namespace OverflowHelper.core
             correctionAdd("unnecesesary", "unnecessary");
             correctionAdd("unnecessesary", "unnecessary");
             correctionAdd("unnecessessary", "unnecessary");
+            correctionAdd("unecessary", "unnecessary");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -10699,6 +10701,8 @@ namespace OverflowHelper.core
 
             correctionAdd("tranceiver", "transceiver");
             correctionAdd("transciever", "transceiver");
+            correctionAdd("Tranciever", "transceiver");
+            correctionAdd("tranciever", "transceiver");
 
             correctionAdd("buttom", "bottom");
             correctionAdd("bottum", "bottom");
@@ -12445,6 +12449,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Km", "km");
             correctionAdd("KM", "km");
+            correctionAdd("kM", "km");
 
             correctionAdd("lastest", "latest");
             correctionAdd("Latests", "latest");
@@ -13154,6 +13159,7 @@ namespace OverflowHelper.core
             correctionAdd("contrieved", "contrived");
 
             correctionAdd("crach", "crash");
+            correctionAdd("chrash", "crash");
 
             correctionAdd("day to day", "day-to-day");
 
@@ -13850,6 +13856,7 @@ namespace OverflowHelper.core
             correctionAdd("planing", "planning");
 
             correctionAdd("re-run", "rerun");
+            correctionAdd("re-ran", "rerun");
 
             correctionAdd("substaction", "subtraction");
 
@@ -14939,6 +14946,7 @@ namespace OverflowHelper.core
             correctionAdd("mbs", "&nbsp;Mbit/s"); //Misspelling
             correctionAdd("MBit/s", "&nbsp;Mbit/s"); //Case
             correctionAdd("mbit", "&nbsp;Mbit/s"); //Misspelling
+            correctionAdd("mbit/s", "&nbsp;Mbit/s");
 
             correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
             correctionAdd("gbps", "&nbsp;Gbit/s"); //Different unit.
@@ -14946,6 +14954,8 @@ namespace OverflowHelper.core
             correctionAdd("Gbit", "&nbsp;Gbit/s");
             correctionAdd("Gbps", "&nbsp;Gbit/s");
             correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
+            correctionAdd("gb/s", "&nbsp;Gbit/s");
+            correctionAdd("gbit/s", "&nbsp;Gbit/s");
 
             correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
             correctionAdd("hz", "&nbsp;Hz"); //Spelling.
@@ -16243,6 +16253,8 @@ namespace OverflowHelper.core
             correctionAdd("fairytale", "fairy tale");
 
             correctionAdd("Findland", "Finland");
+            correctionAdd("finnland", "Finland");
+            correctionAdd("finland", "Finland");
 
             correctionAdd("houston", "Houston");
 
@@ -17200,6 +17212,7 @@ namespace OverflowHelper.core
 
             correctionAdd("impliment", "implement");
             correctionAdd("Impliment", "implement");
+            correctionAdd("implament", "implement");
 
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
@@ -17563,6 +17576,7 @@ namespace OverflowHelper.core
 
             correctionAdd("jalous", "jealous");
             correctionAdd("jelous", "jealous");
+            correctionAdd("jeallous", "jealous");
 
             correctionAdd("stylesheet", "style sheet");
 
@@ -17667,6 +17681,7 @@ namespace OverflowHelper.core
             correctionAdd("afore mentioned", "aforementioned");
 
             correctionAdd("agregate", "aggregate");
+            correctionAdd("aggrigate", "aggregate");
 
             correctionAdd("come-a-gusta", "come a gutser");
             correctionAdd("comma gotcha", "come a gutser");
@@ -18335,6 +18350,8 @@ namespace OverflowHelper.core
 
             correctionAdd("conciel", "conceal");
             correctionAdd("consiel", "conceal");
+            correctionAdd("Conseal", "conceal");
+            correctionAdd("conseal", "conceal");
 
             correctionAdd("FULL STOP", "full stop");
 
@@ -19196,6 +19213,46 @@ namespace OverflowHelper.core
 
             correctionAdd("variaton", "variation");
 
+            correctionAdd("ddr4", "DDR4 SDRAM");
+
+            correctionAdd("Messenger", "Facebook Messenger");
+            correctionAdd("messenger", "Facebook Messenger");
+
+            correctionAdd("fields medal", "Fields Medal");
+            correctionAdd("Field's Medal", "Fields Medal");
+
+            correctionAdd("Singapur", "Singapore");
+            correctionAdd("Singapure", "Singapore");
+
+            correctionAdd("sonar", "SonarQube");
+            correctionAdd("Sonar", "SonarQube");
+
+            correctionAdd("aquire", "acquire");
+
+            correctionAdd("aquired", "acquired");
+
+            correctionAdd("actin", "acting");
+
+            correctionAdd("chassi", "chassis");
+
+            correctionAdd("diplay", "display");
+
+            correctionAdd("imagion", "imagine");
+
+            correctionAdd("KW", "kW");
+
+            correctionAdd("ourselfs", "ourselves");
+
+            correctionAdd("powersupply", "power supply");
+
+            correctionAdd("preperation", "preparation");
+
+            correctionAdd("Tertiary", "tertiary");
+
+            correctionAdd("thinkk", "think");
+
+            correctionAdd("througput", "throughput");
+
 
 
             // Start of coronavirus part...
@@ -19246,6 +19303,7 @@ namespace OverflowHelper.core
             correctionAdd("COVD-19", "COVID-19");
             correctionAdd("the pandemic", "COVID-19");
             correctionAdd("COVID", "COVID-19");
+            correctionAdd("Covid", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -28130,7 +28188,7 @@ namespace OverflowHelper.core
 
             URL_Add("aforementioned", "https://en.wiktionary.org/wiki/aforementioned#Adjective");
 
-            URL_Add("aggregate", "https://en.wiktionary.org/wiki/aggregate#Adjective");
+            URL_Add("aggregate", "https://en.wiktionary.org/wiki/aggregate#Verb");
 
             URL_Add("come a gutser", "https://en.wiktionary.org/wiki/come_a_gutser#Verb");
 
@@ -29267,6 +29325,42 @@ namespace OverflowHelper.core
             URL_Add("useless", "https://en.wiktionary.org/wiki/useless#Adjective");
 
             URL_Add("variation", "https://en.wiktionary.org/wiki/variation#Noun");
+
+            URL_Add("DDR4 SDRAM", "https://en.wikipedia.org/wiki/DDR4_SDRAM");
+
+            URL_Add("Facebook Messenger", "https://en.wikipedia.org/wiki/Facebook_Messenger");
+
+            URL_Add("Fields Medal", "https://en.wikipedia.org/wiki/Fields_Medal");
+
+            URL_Add("Singapore", "https://en.wikipedia.org/wiki/Singapore");
+
+            URL_Add("SonarQube", "https://en.wikipedia.org/wiki/SonarQube");
+
+            URL_Add("acquire", "https://en.wiktionary.org/wiki/acquire#Verb");
+
+            URL_Add("acquired", "https://en.wiktionary.org/wiki/acquire#Verb");
+
+            URL_Add("acting", "https://en.wiktionary.org/wiki/act#Verb");
+
+            URL_Add("chassis", "https://en.wikipedia.org/wiki/Chassis#Electronics");
+
+            URL_Add("display", "https://en.wiktionary.org/wiki/display#Verb");
+
+            URL_Add("imagine", "https://en.wiktionary.org/wiki/imagine#Verb");
+
+            URL_Add("kW", "https://en.wikipedia.org/wiki/Watt#Multiples");
+
+            URL_Add("ourselves", "https://en.wiktionary.org/wiki/ourselves#Pronoun");
+
+            URL_Add("power supply", "https://en.wiktionary.org/wiki/power_supply#Noun");
+
+            URL_Add("preparation", "https://en.wiktionary.org/wiki/preparation#Noun");
+
+            URL_Add("tertiary", "https://en.wiktionary.org/wiki/tertiary#Adjective");
+
+            URL_Add("think", "https://en.wiktionary.org/wiki/think#Verb");
+
+            URL_Add("throughput", "https://en.wiktionary.org/wiki/throughput#Noun");
 
 
 
