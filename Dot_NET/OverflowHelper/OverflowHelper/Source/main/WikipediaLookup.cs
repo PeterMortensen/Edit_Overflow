@@ -4525,6 +4525,7 @@ namespace OverflowHelper.core
             correctionAdd("Because", "because");
             correctionAdd("becanse", "because");
             correctionAdd("bcos", "because");
+            correctionAdd("beacus", "because");
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -19253,6 +19254,19 @@ namespace OverflowHelper.core
 
             correctionAdd("througput", "throughput");
 
+            correctionAdd("CosmoDB", "Azure Cosmos DB");
+            correctionAdd("CosmosDB", "Azure Cosmos DB");
+
+            correctionAdd("EF Core", "Entity Framework Core");
+
+            correctionAdd("expellative", "expletive");
+
+            correctionAdd("fire fight", "firefight");
+            correctionAdd("fire-fight", "firefight");
+
+            correctionAdd("philosofy", "philosophy");
+
+
 
 
             // Start of coronavirus part...
@@ -29361,6 +29375,16 @@ namespace OverflowHelper.core
             URL_Add("think", "https://en.wiktionary.org/wiki/think#Verb");
 
             URL_Add("throughput", "https://en.wiktionary.org/wiki/throughput#Noun");
+
+            URL_Add("Azure Cosmos DB", "https://en.wikipedia.org/wiki/Cosmos_DB");
+
+            URL_Add("Entity Framework Core", "https://en.wikipedia.org/wiki/Entity_Framework#History");
+
+            URL_Add("expletive", "https://en.wiktionary.org/wiki/expletive#Noun");
+
+            URL_Add("firefight", "https://en.wiktionary.org/wiki/firefight");
+
+            URL_Add("philosophy", "https://en.wiktionary.org/wiki/philosophy#Noun");
 
 
 
