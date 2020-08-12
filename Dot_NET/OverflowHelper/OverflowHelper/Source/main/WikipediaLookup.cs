@@ -6232,6 +6232,8 @@ namespace OverflowHelper.core
 
             correctionAdd("apple", "Apple");
             correctionAdd("APPLE", "Apple");
+            correctionAdd("aplle", "Apple");
+            correctionAdd("Aplle", "Apple");
 
             correctionAdd("tl;dr", "TLDR");
             correctionAdd("tldr", "TLDR");
@@ -7810,6 +7812,8 @@ namespace OverflowHelper.core
             correctionAdd("VS express", "Visual&nbsp;Studio Express");
             correctionAdd("vs express", "Visual&nbsp;Studio Express");
             correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
+            correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
+            correctionAdd("VS Express", "Visual&nbsp;Studio Express");
 
             correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
             correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
@@ -8798,10 +8802,12 @@ namespace OverflowHelper.core
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
             correctionAdd("bigendian", "big-endian");
+            correctionAdd("big endian", "big-endian");
 
             correctionAdd("Little Endian", "little-endian");
             correctionAdd("LittleEndian", "little-endian");
             correctionAdd("littleendian", "little-endian");
+            correctionAdd("little endian", "little-endian");
 
             correctionAdd("fits", "FITS");
 
@@ -10877,6 +10883,7 @@ namespace OverflowHelper.core
             correctionAdd("statment", "statement");
             correctionAdd("statemet", "statement");
             correctionAdd("statemetns", "statement");
+            correctionAdd("statemaent", "statement");
 
             correctionAdd("staritaway", "straight away");
 
@@ -13507,6 +13514,7 @@ namespace OverflowHelper.core
             correctionAdd("braintree", "Braintree");
 
             correctionAdd("mgtow", "MGTOW");
+            correctionAdd("Mgtow", "MGTOW");
 
             correctionAdd("mta", "MTA");
 
@@ -13912,6 +13920,7 @@ namespace OverflowHelper.core
             correctionAdd("guarantied", "guaranteed");
             correctionAdd("guarantueed", "guaranteed");
             correctionAdd("guarangteed", "guaranteed");
+            correctionAdd("guaranted", "guaranteed");
 
             correctionAdd("heres", "here's");
             correctionAdd("Heres", "here's");
@@ -15857,6 +15866,7 @@ namespace OverflowHelper.core
             correctionAdd("ling", "lung");
 
             correctionAdd("quiat", "quiet");
+            correctionAdd("quite", "quiet");
 
             correctionAdd("universially", "universally");
 
@@ -17535,6 +17545,7 @@ namespace OverflowHelper.core
 
             correctionAdd("kerboard", "keyboard");
             correctionAdd("kerbaord", "keyboard");
+            correctionAdd("keyboatd", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -17627,6 +17638,7 @@ namespace OverflowHelper.core
             correctionAdd("Love 2d", "LÖVE");
             correctionAdd("LOVE", "LÖVE");
             correctionAdd("Love2D", "LÖVE");
+            correctionAdd("Löve 2D", "LÖVE");
 
             correctionAdd("choregraphic", "choreographic");
 
@@ -19266,6 +19278,48 @@ namespace OverflowHelper.core
 
             correctionAdd("philosofy", "philosophy");
 
+            correctionAdd("cia", "CIA");
+
+            correctionAdd("cheerio", "Cheerio");
+
+            correctionAdd("cherry max brown", "Cherry MX Brown");
+
+            correctionAdd("corsair", "Corsair");
+            correctionAdd("CORSAIR", "Corsair");
+
+            correctionAdd("happy hacking", "Happy Hacking Keyboard");
+            correctionAdd("happy hacking keyboard", "Happy Hacking Keyboard");
+            correctionAdd("HHKB", "Happy Hacking Keyboard");
+            correctionAdd("hhkb", "Happy Hacking Keyboard");
+            correctionAdd("Happy hacking", "Happy Hacking Keyboard");
+
+            correctionAdd("JSLT", "JSTL");
+
+            correctionAdd("pbt", "PBT");
+
+            correctionAdd("pug", "Pug");
+
+            correctionAdd("cts", "carpal tunnel syndrome");
+            correctionAdd("karpal tunels", "carpal tunnel syndrome");
+            correctionAdd("CTS", "carpal tunnel syndrome");
+
+            correctionAdd("coul", "could");
+
+            correctionAdd("in-tact", "intact");
+
+            correctionAdd("lifecycle", "life cycle");
+
+            correctionAdd("overs come", "overcome");
+
+            correctionAdd("satyre", "satire");
+
+            correctionAdd("sirious", "serious");
+
+            correctionAdd("siriously", "seriously");
+
+            correctionAdd("unvind", "unwind");
+
+            correctionAdd("unwinded", "unwound");
 
 
 
@@ -29385,6 +29439,42 @@ namespace OverflowHelper.core
             URL_Add("firefight", "https://en.wiktionary.org/wiki/firefight");
 
             URL_Add("philosophy", "https://en.wiktionary.org/wiki/philosophy#Noun");
+
+            URL_Add("CIA", "https://en.wikipedia.org/wiki/Central_Intelligence_Agency");
+
+            URL_Add("Cheerio", "https://cheerio.js.org/");
+
+            URL_Add("Cherry MX Brown", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
+
+            URL_Add("Happy Hacking Keyboard", "https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard");
+
+            URL_Add("JSTL", "https://en.wikipedia.org/wiki/Jakarta_Standard_Tag_Library");
+
+            URL_Add("PBT", "https://en.wikipedia.org/wiki/Polybutylene_terephthalate");
+
+            URL_Add("Pug", "https://pugjs.org/api/getting-started.html");
+
+            URL_Add("carpal tunnel syndrome", "https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome");
+
+            URL_Add("could", "https://en.wiktionary.org/wiki/could#Verb");
+
+            URL_Add("intact", "https://en.wiktionary.org/wiki/intact#Adjective");
+
+            URL_Add("life cycle", "https://en.wiktionary.org/wiki/life_cycle#Noun");
+
+            URL_Add("overcome", "https://en.wiktionary.org/wiki/overcome#Verb");
+
+            URL_Add("satire", "https://en.wiktionary.org/wiki/satire#Noun");
+
+            URL_Add("serious", "https://en.wiktionary.org/wiki/serious#Adverb");
+
+            URL_Add("seriously", "https://en.wiktionary.org/wiki/seriously#Adverb");
+
+            URL_Add("unwind", "https://en.wiktionary.org/wiki/unwind#Verb");
+
+            URL_Add("unwound", "https://en.wiktionary.org/wiki/unwind#Verb");
 
 
 
