@@ -1342,6 +1342,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X v10.7 (Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Mac&nbsp;OS&nbsp;X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("MacOSX 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("MAC OS X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -1454,6 +1455,8 @@ namespace OverflowHelper.core
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("Macos Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("MacOS Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("Mac OSX 10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("Mac OS X 10.15", "macOS v10.15 (Catalina)");
 
             //Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -9799,6 +9802,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recieve", "receive");
             correctionAdd("recive", "receive");
+            correctionAdd("receve", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -14145,6 +14149,10 @@ namespace OverflowHelper.core
             correctionAdd("spectre", "Spectre");
 
             correctionAdd("X-Files", "The X-Files");
+            correctionAdd("x-files", "The X-Files");
+            correctionAdd("x files", "The X-Files");
+            correctionAdd("X files", "The X-Files");
+            correctionAdd("X-files", "The X-Files");
 
             correctionAdd("WIRED Magazine", "Wired");
 
@@ -19321,6 +19329,12 @@ namespace OverflowHelper.core
 
             correctionAdd("unwinded", "unwound");
 
+            correctionAdd("anthy", "Anthy");
+
+            correctionAdd("good samaritan", "Good Samaritan");
+
+            correctionAdd("InfoSec", "information security");
+            correctionAdd("infosec", "information security");
 
 
             // Start of coronavirus part...
@@ -29475,6 +29489,13 @@ namespace OverflowHelper.core
             URL_Add("unwind", "https://en.wiktionary.org/wiki/unwind#Verb");
 
             URL_Add("unwound", "https://en.wiktionary.org/wiki/unwind#Verb");
+
+            URL_Add("Anthy", "https://en.wikipedia.org/wiki/Anthy");
+
+            URL_Add("Good Samaritan", "https://en.wiktionary.org/wiki/Good_Samaritan#Noun");
+
+            URL_Add("information security", "https://en.wikipedia.org/wiki/Information_security");
+
 
 
 
