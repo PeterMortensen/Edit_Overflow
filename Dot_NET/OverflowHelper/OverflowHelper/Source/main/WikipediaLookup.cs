@@ -19484,7 +19484,7 @@ namespace OverflowHelper.core
 
             URL_Add("SubSonic", "https://en.wikipedia.org/wiki/Subsonic_%28software%29");
 
-            URL_Add("ADO.NET Entity Framework", "https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework");
+            URL_Add("ADO.NET Entity Framework", "https://en.wikipedia.org/wiki/Entity_Framework"); // Old: https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework
 
             URL_Add("WPF", "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation");
 
@@ -22695,7 +22695,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dr. Watson", "https://en.wikipedia.org/wiki/Dr._Watson_(debugger)");
 
-            URL_Add("ECMAScript&nbsp;6", "https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015");
+            URL_Add("ECMAScript&nbsp;6", "https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015"); // Old: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
 
             URL_Add("Redux", "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)");
 
