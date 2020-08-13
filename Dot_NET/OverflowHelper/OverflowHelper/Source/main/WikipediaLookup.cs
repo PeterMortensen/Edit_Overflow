@@ -10997,6 +10997,8 @@ namespace OverflowHelper.core
             correctionAdd("Alernativly", "alternatively");
             correctionAdd("alernativly", "alternatively");
             correctionAdd("alernatively", "alternatively");
+            correctionAdd("Alternativey", "alternatively");
+            correctionAdd("alternativey", "alternatively");
 
             correctionAdd("aparent", "apparent");
 
@@ -12138,6 +12140,7 @@ namespace OverflowHelper.core
             correctionAdd("competant", "competent");
 
             correctionAdd("diffrence", "difference");
+            correctionAdd("diference", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -12808,6 +12811,7 @@ namespace OverflowHelper.core
             correctionAdd("receipent", "recipient");
 
             correctionAdd("requirment", "requirement");
+            correctionAdd("requriement", "requirement");
 
             correctionAdd("vonuravle", "vulnerable");
 
@@ -14765,6 +14769,7 @@ namespace OverflowHelper.core
             correctionAdd("MORE", "more");
 
             correctionAdd("neverous", "nervous");
+            correctionAdd("nervus", "nervous");
 
             correctionAdd("not withstanding", "notwithstanding");
 
@@ -18524,10 +18529,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tweek", "tweak");
 
-            correctionAdd("associative Array", "associative array");
-            correctionAdd("associate array", "associative array");
-            correctionAdd("Associative Array", "associative array");
-
             correctionAdd("diserve", "deserve");
 
             correctionAdd("unknow", "unknown");
@@ -18617,8 +18618,6 @@ namespace OverflowHelper.core
             correctionAdd("testflight", "TestFlight");
 
             correctionAdd("Algorithmic", "algorithmic");
-
-            correctionAdd("aarray", "array");
 
             correctionAdd("assocciation", "association");
 
@@ -19335,6 +19334,26 @@ namespace OverflowHelper.core
 
             correctionAdd("InfoSec", "information security");
             correctionAdd("infosec", "information security");
+
+            correctionAdd("associative Array", "associative array");
+            correctionAdd("associate array", "associative array");
+            correctionAdd("Associative Array", "associative array");
+
+            correctionAdd("aarray", "array");
+            correctionAdd("arrary", "array");
+
+            correctionAdd("fire", "FIRE");
+
+            correctionAdd("five", "give");
+            correctionAdd("Five", "give");
+
+            correctionAdd("Locale", "locale");
+
+            correctionAdd("in our hands", "on our hands");
+
+            correctionAdd("psyciatrist", "psychiatrist");
+
+            correctionAdd("upto", "up to");
 
 
             // Start of coronavirus part...
@@ -29496,6 +29515,17 @@ namespace OverflowHelper.core
 
             URL_Add("information security", "https://en.wikipedia.org/wiki/Information_security");
 
+            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
+
+            URL_Add("give", "https://en.wiktionary.org/wiki/give#Verb");
+
+            URL_Add("locale", "https://en.wiktionary.org/wiki/locale#Noun");
+
+            URL_Add("on our hands", "https://en.wiktionary.org/wiki/on_one%27s_hands#Prepositional_phrase");
+
+            URL_Add("psychiatrist", "https://en.wiktionary.org/wiki/psychiatrist#Noun");
+
+            URL_Add("up to", "https://en.wiktionary.org/wiki/up_to#Preposition");
 
 
 
