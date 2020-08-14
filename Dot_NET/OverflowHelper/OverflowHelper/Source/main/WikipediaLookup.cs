@@ -2574,6 +2574,8 @@ namespace OverflowHelper.core
             correctionAdd("Google-chrome", "Google Chrome");
             correctionAdd("Chorme", "Google Chrome");
             correctionAdd("CHROME", "Google Chrome");
+            correctionAdd("Google chrome", "Google Chrome");
+            correctionAdd("Chrom", "Google Chrome");
 
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
@@ -6313,6 +6315,7 @@ namespace OverflowHelper.core
             correctionAdd("sha256", "SHA-256");
             correctionAdd("sha-256", "SHA-256");
             correctionAdd("sha 256", "SHA-256");
+            correctionAdd("Sha256", "SHA-256");
 
             correctionAdd("sha1", "SHA-1");
             correctionAdd("SHA1", "SHA-1");
@@ -11169,6 +11172,9 @@ namespace OverflowHelper.core
             correctionAdd("clear-history", "Clear-History");
 
             correctionAdd("C64", "Commodore 64");
+            correctionAdd("comodore 64", "Commodore 64");
+            correctionAdd("commodore 64", "Commodore 64");
+            correctionAdd("c64", "Commodore 64");
 
             correctionAdd("dna", "DNA");
 
@@ -17086,6 +17092,7 @@ namespace OverflowHelper.core
             correctionAdd("zoom", "Zoom");
 
             correctionAdd("home work", "homework");
+            correctionAdd("homeworks", "homework");
 
             correctionAdd("maily", "mainly");
 
@@ -17559,6 +17566,9 @@ namespace OverflowHelper.core
             correctionAdd("kerboard", "keyboard");
             correctionAdd("kerbaord", "keyboard");
             correctionAdd("keyboatd", "keyboard");
+            correctionAdd("keeb", "keyboard");
+            correctionAdd("keyb", "keyboard");
+            correctionAdd("keybrd", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -19354,6 +19364,21 @@ namespace OverflowHelper.core
             correctionAdd("psyciatrist", "psychiatrist");
 
             correctionAdd("upto", "up to");
+
+            correctionAdd("hsts", "HSTS");
+
+            correctionAdd("Flowchart", "flowchart");
+
+            correctionAdd("moreso", "more so");
+            correctionAdd("more-so", "more so");
+
+            correctionAdd("on topic", "on-topic");
+            correctionAdd("ontopic", "on-topic");
+
+            correctionAdd("other-times", "other times");
+            correctionAdd("othertimes", "other times");
+
+            correctionAdd("re-posting", "reposting");
 
 
             // Start of coronavirus part...
@@ -29526,6 +29551,18 @@ namespace OverflowHelper.core
             URL_Add("psychiatrist", "https://en.wiktionary.org/wiki/psychiatrist#Noun");
 
             URL_Add("up to", "https://en.wiktionary.org/wiki/up_to#Preposition");
+
+            URL_Add("HSTS", "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security");
+
+            URL_Add("flowchart", "https://en.wikipedia.org/wiki/Flowchart");
+
+            URL_Add("more so", "https://en.wiktionary.org/wiki/more_so#Adjective");
+
+            URL_Add("on-topic", "https://en.wiktionary.org/wiki/on-topic#Adjective");
+
+            URL_Add("other times", "https://en.wiktionary.org/wiki/other_times#Adverb");
+
+            URL_Add("reposting", "https://en.wiktionary.org/wiki/repost#Verb");
 
 
 
