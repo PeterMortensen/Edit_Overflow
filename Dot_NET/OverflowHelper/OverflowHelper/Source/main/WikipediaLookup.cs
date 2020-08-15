@@ -1185,6 +1185,7 @@ namespace OverflowHelper.core
             correctionAdd("AspNet", "ASP.NET");
             correctionAdd("Aspdotnet", "ASP.NET");
             correctionAdd("ASP .Net", "ASP.NET");
+            correctionAdd("asp.net net", "ASP.NET");
 
             correctionAdd("ASP.net MVC", "ASP.NET MVC");
             correctionAdd("ASP.Net MVC", "ASP.NET MVC");
@@ -2762,6 +2763,7 @@ namespace OverflowHelper.core
             correctionAdd("regexpr", "regular expression");
             correctionAdd("RegularExpression", "regular expression");
             correctionAdd("regular express", "regular expression");
+            correctionAdd("regex expression", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -3669,6 +3671,7 @@ namespace OverflowHelper.core
             correctionAdd("carn’t", "can't");
             correctionAdd("can´t", "can't");
             correctionAdd("cand", "can't");
+            correctionAdd("Cant", "can't");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -4857,6 +4860,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows CE", "Windows&nbsp;CE"); // Sort of identity mapping
             correctionAdd("WinCE", "Windows&nbsp;CE");
             correctionAdd("wince", "Windows&nbsp;CE");
+            correctionAdd("Win CE", "Windows&nbsp;CE");
 
             correctionAdd("rds", "Amazon RDS");
 
@@ -5114,6 +5118,7 @@ namespace OverflowHelper.core
             correctionAdd("dll file", "DLL file");
             correctionAdd("DLLs", "DLL file");
             correctionAdd("dll-file", "DLL file");
+            correctionAdd("Dynamic Link Library", "DLL file");
 
             correctionAdd("siss", "SSIS"); //Misspelling.
             correctionAdd("ssis", "SSIS");
@@ -6817,6 +6822,7 @@ namespace OverflowHelper.core
             correctionAdd("excelent", "excellent");
             correctionAdd("execelent", "excellent");
             correctionAdd("execellent", "excellent");
+            correctionAdd("Excelent", "excellent");
 
             correctionAdd("pygame", "Pygame");
 
@@ -8742,6 +8748,7 @@ namespace OverflowHelper.core
             correctionAdd("Giga Byte", "&nbsp;GB");
             correctionAdd("Giga byte", "&nbsp;GB");
             correctionAdd("giga byte", "&nbsp;GB");
+            correctionAdd("gigs", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); //Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); //Assuming bytes, not bits...
@@ -8834,6 +8841,7 @@ namespace OverflowHelper.core
             correctionAdd("Follwing", "following");
             correctionAdd("Following", "following");
             correctionAdd("Folowing", "following");
+            correctionAdd("foolowing", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -9856,6 +9864,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stm32", "STM32");
             correctionAdd("Stm32", "STM32");
+            correctionAdd("stm 32", "STM32");
 
             correctionAdd("authenticode", "Authenticode");
             correctionAdd("AuthentiCode", "Authenticode");
@@ -10883,6 +10892,8 @@ namespace OverflowHelper.core
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
             correctionAdd("commend", "recommended");
+            correctionAdd("Recomended", "recommended");
+            correctionAdd("recomended", "recommended");
 
             correctionAdd("seperator", "separator");
             correctionAdd("seprator", "separator");
@@ -12137,6 +12148,7 @@ namespace OverflowHelper.core
             correctionAdd("appricate", "appreciate");
             correctionAdd("appreicate", "appreciate");
             correctionAdd("appriciate", "appreciate");
+            correctionAdd("apprciate", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -17828,6 +17840,7 @@ namespace OverflowHelper.core
 
             correctionAdd("waht", "what");
             correctionAdd("Waht", "what");
+            correctionAdd("wat", "what");
 
             correctionAdd("codidact", "Codidact");
 
@@ -18915,6 +18928,7 @@ namespace OverflowHelper.core
             correctionAdd("allocte", "allocate");
 
             correctionAdd("Applet", "applet");
+            correctionAdd("Java Applet", "applet");
 
             correctionAdd("Chemical Engineering", "chemical engineering");
 
@@ -19379,6 +19393,38 @@ namespace OverflowHelper.core
             correctionAdd("othertimes", "other times");
 
             correctionAdd("re-posting", "reposting");
+
+            correctionAdd("benzene", "Benzene");
+
+            correctionAdd("cpu-z", "CPU-Z");
+
+            correctionAdd("EBNF", "Extended Backus–Naur form");
+            correctionAdd("ebnf", "Extended Backus–Naur form");
+
+            correctionAdd("gsm", "GSM");
+
+            correctionAdd("schwartzian transform", "Schwartzian transform");
+
+            correctionAdd("USBlyser", "USBlyzer");
+
+            correctionAdd("fon", "font");
+
+            correctionAdd("LAF", "look and feel");
+
+            correctionAdd("Of", "of");
+
+            correctionAdd("OC", "organic chemistry");
+
+            correctionAdd("re-ask", "reask");
+
+            correctionAdd("sand box", "sandbox");
+            correctionAdd("Sand Box", "sandbox");
+
+            correctionAdd("2", "two");
+
+            correctionAdd("u", "you");
+
+            correctionAdd("Zinc", "zinc");
 
 
             // Start of coronavirus part...
@@ -29563,6 +29609,36 @@ namespace OverflowHelper.core
             URL_Add("other times", "https://en.wiktionary.org/wiki/other_times#Adverb");
 
             URL_Add("reposting", "https://en.wiktionary.org/wiki/repost#Verb");
+
+            URL_Add("Benzene", "https://en.wikipedia.org/wiki/Benzene");
+
+            URL_Add("CPU-Z", "https://en.wikipedia.org/wiki/CPU-Z");
+
+            URL_Add("Extended Backus–Naur form", "https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form");
+
+            URL_Add("GSM", "https://en.wikipedia.org/wiki/GSM");
+
+            URL_Add("Schwartzian transform", "https://en.wikipedia.org/wiki/Schwartzian_transform");
+
+            URL_Add("USBlyzer", "http://www.usblyzer.com/");
+
+            URL_Add("font", "https://en.wiktionary.org/wiki/font#Noun_2");
+
+            URL_Add("look and feel", "https://en.wikipedia.org/wiki/Look_and_feel");
+
+            URL_Add("of", "https://en.wiktionary.org/wiki/of#Preposition");
+
+            URL_Add("organic chemistry", "https://en.wikipedia.org/wiki/Organic_chemistry");
+
+            URL_Add("reask", "https://en.wiktionary.org/wiki/reask#Verb");
+
+            URL_Add("sandbox", "https://en.wikipedia.org/wiki/Sandbox_(computer_security)");
+
+            URL_Add("two", "https://en.wiktionary.org/wiki/two#Noun");
+
+            URL_Add("you", "https://en.wiktionary.org/wiki/you#Pronoun");
+
+            URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc");
 
 
 
