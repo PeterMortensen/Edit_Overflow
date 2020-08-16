@@ -9730,13 +9730,6 @@ namespace OverflowHelper.core
             correctionAdd("dynamicly", "dynamically");
             correctionAdd("dinamycally", "dynamically");
 
-            correctionAdd("diffrent", "different");
-            correctionAdd("diferent", "different");
-            correctionAdd("differemt", "different");
-            correctionAdd("diffrernt", "different");
-            correctionAdd("differernt", "different");
-            correctionAdd("differnt", "different");
-
             correctionAdd("beyong", "beyond");
 
             correctionAdd("russian", "Russian");
@@ -9971,6 +9964,7 @@ namespace OverflowHelper.core
             correctionAdd("Dotnet core", ".NET Core");
             correctionAdd("NetCore", ".NET Core");
             correctionAdd("Net.Core", ".NET Core");
+            correctionAdd(".NetCore", ".NET Core");
 
             correctionAdd("asp core", "ASP.NET Core");
             correctionAdd("Asp.net core", "ASP.NET Core");
@@ -10173,6 +10167,7 @@ namespace OverflowHelper.core
             correctionAdd("back ground", "background");
 
             correctionAdd("kotlin", "Kotlin");
+            correctionAdd("KOTLIN", "Kotlin");
 
             correctionAdd("arent", "aren't");
 
@@ -10881,6 +10876,7 @@ namespace OverflowHelper.core
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
             correctionAdd("reallly", "really");
+            correctionAdd("relly", "really");
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
@@ -11342,6 +11338,7 @@ namespace OverflowHelper.core
 
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
+            correctionAdd("Yahoo! Answers", "Yahoo Answers");
 
             correctionAdd("democraticly", "democratically");
 
@@ -11544,6 +11541,7 @@ namespace OverflowHelper.core
             correctionAdd("thershold", "threshold");
             correctionAdd("treshold", "threshold");
             correctionAdd("Thershold", "threshold");
+            correctionAdd("thresold", "threshold");
 
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
@@ -17381,8 +17379,6 @@ namespace OverflowHelper.core
             correctionAdd("access-token", "access token");
             correctionAdd("acces-token", "access token");
 
-            correctionAdd("AskDifferent", "Ask Different");
-
             correctionAdd("controlller", "controller");
             correctionAdd("Controlller", "controller");
 
@@ -19425,6 +19421,42 @@ namespace OverflowHelper.core
             correctionAdd("u", "you");
 
             correctionAdd("Zinc", "zinc");
+
+            correctionAdd("AskDifferent", "Ask Different");
+
+            correctionAdd("diffrent", "different");
+            correctionAdd("diferent", "different");
+            correctionAdd("differemt", "different");
+            correctionAdd("diffrernt", "different");
+            correctionAdd("differernt", "different");
+            correctionAdd("differnt", "different");
+            correctionAdd("defferent", "different");
+            correctionAdd("deferent", "different");
+
+            correctionAdd("lsb", "LSB");
+
+            correctionAdd("andd", "and");
+
+            correctionAdd("bagde", "badge");
+
+            correctionAdd("Cadmium", "cadmium");
+
+            correctionAdd("ennineered", "engineered");
+            correctionAdd("engeneered", "engineered");
+
+            correctionAdd("gruntwork", "grunt work");
+
+            correctionAdd("paradygm", "paradigm");
+
+            correctionAdd("single threaded", "singlethreaded");
+            correctionAdd("single-threaded", "singlethreaded");
+
+            correctionAdd("multi threaded", "multithreaded");
+            correctionAdd("multi-threaded", "multithreaded");
+
+            correctionAdd("trust-worthiness", "trustworthiness");
+
+            correctionAdd("willfully", "wilfully");
 
 
             // Start of coronavirus part...
@@ -29639,6 +29671,28 @@ namespace OverflowHelper.core
             URL_Add("you", "https://en.wiktionary.org/wiki/you#Pronoun");
 
             URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc");
+
+            URL_Add("LSB", "https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_byte");
+
+            URL_Add("and", "https://en.wiktionary.org/wiki/and#Conjunction");
+
+            URL_Add("badge", "https://en.wiktionary.org/wiki/badge#Noun");
+
+            URL_Add("cadmium", "https://en.wikipedia.org/wiki/Cadmium");
+
+            URL_Add("engineered", "https://en.wiktionary.org/wiki/engineer#Verb");
+
+            URL_Add("grunt work", "https://en.wiktionary.org/wiki/grunt_work#Noun");
+
+            URL_Add("multithreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
+
+            URL_Add("paradigm", "https://en.wiktionary.org/wiki/paradigm#Noun");
+
+            URL_Add("singlethreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
+
+            URL_Add("trustworthiness", "https://en.wiktionary.org/wiki/trustworthiness#Noun");
+
+            URL_Add("wilfully", "https://en.wiktionary.org/wiki/wilfully#Adverb");
 
 
 
