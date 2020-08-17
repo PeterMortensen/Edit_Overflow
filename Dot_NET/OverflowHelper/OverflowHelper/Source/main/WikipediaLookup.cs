@@ -8040,6 +8040,10 @@ namespace OverflowHelper.core
             correctionAdd("opAmp", "operational amplifier");
             correctionAdd("OA", "operational amplifier"); //Expansion
             correctionAdd("opmap", "operational amplifier");
+            correctionAdd("OP-Amp", "operational amplifier");
+            correctionAdd("OP Amp", "operational amplifier");
+            correctionAdd("OP amp", "operational amplifier");
+            correctionAdd("OPamp", "operational amplifier");
 
             correctionAdd("ASN1", "ASN.1");
             correctionAdd("ASN-1", "ASN.1");
