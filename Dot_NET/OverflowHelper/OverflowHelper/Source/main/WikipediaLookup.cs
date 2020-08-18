@@ -8380,6 +8380,8 @@ namespace OverflowHelper.core
             correctionAdd("Unfortunatelly", "unfortunately");
             correctionAdd("Unfortuneatly", "unfortunately");
             correctionAdd("unfortuneatly", "unfortunately");
+            correctionAdd("Unfortunely", "unfortunately");
+            correctionAdd("unfortunely", "unfortunately");
 
             correctionAdd("beggining", "beginning");
             correctionAdd("beginng", "beginning");
@@ -8536,6 +8538,7 @@ namespace OverflowHelper.core
 
             correctionAdd("task scheduler", "Task Scheduler");
             correctionAdd("Task Scheudler", "Task Scheduler");
+            correctionAdd("Task scheduler", "Task Scheduler");
 
             correctionAdd("N Audio", "NAudio");
             correctionAdd("Naudio", "NAudio");
@@ -10218,6 +10221,8 @@ namespace OverflowHelper.core
             correctionAdd("some times", "sometimes");
             correctionAdd("some time", "sometimes");
             correctionAdd("sometime", "sometimes");
+            correctionAdd("Some times", "sometimes");
+            correctionAdd("Sometimes", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -19461,6 +19466,24 @@ namespace OverflowHelper.core
             correctionAdd("trust-worthiness", "trustworthiness");
 
             correctionAdd("willfully", "wilfully");
+
+            correctionAdd("compromized", "compromised");
+
+            correctionAdd("denyed", "denied");
+
+            correctionAdd("implicity", "implicitly");
+            correctionAdd("imlicity", "implicitly");
+
+            correctionAdd("infeasable", "infeasible");
+            correctionAdd("unfeasabe", "infeasible");
+            correctionAdd("unfeasable", "infeasible");
+            correctionAdd("unfeasible", "infeasible");
+            correctionAdd("infeasabe", "infeasible");
+
+            correctionAdd("pourcentage", "percentage");
+
+            correctionAdd("pinicle", "pinnacle");
+            correctionAdd("panicle", "pinnacle");
 
 
             // Start of coronavirus part...
@@ -29698,6 +29721,17 @@ namespace OverflowHelper.core
 
             URL_Add("wilfully", "https://en.wiktionary.org/wiki/wilfully#Adverb");
 
+            URL_Add("compromised", "https://en.wiktionary.org/wiki/compromise#Verb");
+
+            URL_Add("denied", "https://en.wiktionary.org/wiki/deny#Verb");
+
+            URL_Add("implicitly", "https://en.wiktionary.org/wiki/implicitly#Adverb");
+
+            URL_Add("infeasible", "https://en.wiktionary.org/wiki/infeasible#Adjective");
+
+            URL_Add("percentage", "https://en.wiktionary.org/wiki/percentage#Noun");
+
+            URL_Add("pinnacle", "https://en.wiktionary.org/wiki/pinnacle#Noun");
 
 
             //========================================================
