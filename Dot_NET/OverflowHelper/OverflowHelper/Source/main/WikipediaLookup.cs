@@ -7268,6 +7268,7 @@ namespace OverflowHelper.core
             correctionAdd("altho", "although");
             correctionAdd("Althought", "although");
             correctionAdd("althought", "although");
+            correctionAdd("althougth", "although");
 
             correctionAdd("Scriptaculous", "Script.aculo.us");
             correctionAdd("scriptaculous", "Script.aculo.us");
@@ -9597,6 +9598,7 @@ namespace OverflowHelper.core
             correctionAdd("Screen Shot", "screenshot");
             correctionAdd("Screen shot", "screenshot");
             correctionAdd("Screenshot", "screenshot");
+            correctionAdd("Screenhot", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -11900,6 +11902,9 @@ namespace OverflowHelper.core
 
             correctionAdd("finaly", "finally");
             correctionAdd("finnaly", "finally");
+            correctionAdd("Fianaly", "finally");
+            correctionAdd("fianaly", "finally");
+            correctionAdd("fianally", "finally");
 
             correctionAdd("Hydrogen", "hydrogen");
 
@@ -12918,6 +12923,7 @@ namespace OverflowHelper.core
             correctionAdd("promt", "prompt");
 
             correctionAdd("seting", "setting");
+            correctionAdd("settign", "setting");
 
             correctionAdd("suposed", "supposed");
 
@@ -13843,6 +13849,7 @@ namespace OverflowHelper.core
 
             correctionAdd("antyhing", "anything");
             correctionAdd("any thing", "anything");
+            correctionAdd("anithing", "anything");
 
             correctionAdd("bleeding edge", "bleeding-edge");
 
@@ -17698,6 +17705,8 @@ namespace OverflowHelper.core
             correctionAdd("miniscule", "minuscule");
 
             correctionAdd("raison d'etre", "raison d'être");
+            correctionAdd("raison d’etre", "raison d'être");
+            correctionAdd("raison detre", "raison d'être");
 
             correctionAdd("Android version 10", "Android&nbsp;10");
             correctionAdd("Android 10", "Android&nbsp;10");
@@ -18667,6 +18676,7 @@ namespace OverflowHelper.core
             correctionAdd("borland", "Borland");
 
             correctionAdd("code review", "Code Review");
+            correctionAdd("CodeReview", "Code Review");
 
             correctionAdd("database administrators", "Database Administrators");
 
@@ -19484,6 +19494,12 @@ namespace OverflowHelper.core
 
             correctionAdd("pinicle", "pinnacle");
             correctionAdd("panicle", "pinnacle");
+
+            correctionAdd("cut&dried", "cut and dried");
+
+            correctionAdd("more simple", "simpler");
+
+            correctionAdd("whipper snapper", "whippersnapper");
 
 
             // Start of coronavirus part...
@@ -29732,6 +29748,13 @@ namespace OverflowHelper.core
             URL_Add("percentage", "https://en.wiktionary.org/wiki/percentage#Noun");
 
             URL_Add("pinnacle", "https://en.wiktionary.org/wiki/pinnacle#Noun");
+
+            URL_Add("cut and dried", "https://en.wiktionary.org/wiki/cut_and_dried#Adjective");
+
+            URL_Add("simpler", "https://en.wiktionary.org/wiki/simpler#Adjective");
+
+            URL_Add("whippersnapper", "https://en.wiktionary.org/wiki/whippersnapper#Noun");
+
 
 
             //========================================================
