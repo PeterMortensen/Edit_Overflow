@@ -9816,6 +9816,7 @@ namespace OverflowHelper.core
             correctionAdd("recieve", "receive");
             correctionAdd("recive", "receive");
             correctionAdd("receve", "receive");
+            correctionAdd("receice", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -12888,6 +12889,7 @@ namespace OverflowHelper.core
 
             correctionAdd("codepen", "CodePen");
             correctionAdd("Codepen", "CodePen");
+            correctionAdd("CODEPEN", "CodePen");
 
             correctionAdd("Emporer", "Emperor");
 
@@ -12973,6 +12975,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mutiple", "multiple");
             correctionAdd("mutliple", "multiple");
+            correctionAdd("maltiple", "multiple");
 
             correctionAdd("pronunce", "pronounce");
 
@@ -13591,6 +13594,7 @@ namespace OverflowHelper.core
             correctionAdd("one on one", "one-on-one");
 
             correctionAdd("seam", "seem");
+            correctionAdd("seep", "seem");
 
             correctionAdd("powerpc", "PowerPC");
             correctionAdd("power-pc", "PowerPC");
@@ -16827,6 +16831,7 @@ namespace OverflowHelper.core
             correctionAdd("Intranet", "intranet");
 
             correctionAdd("mannual", "manual");
+            correctionAdd("manuel", "manual");
 
             correctionAdd("PasS", "platform as a service");
             correctionAdd("Pass", "platform as a service");
@@ -16968,6 +16973,7 @@ namespace OverflowHelper.core
 
             correctionAdd("elso", "also");
             correctionAdd("aso", "also");
+            correctionAdd("alos", "also");
 
             correctionAdd("conver", "convert");
 
@@ -19500,6 +19506,17 @@ namespace OverflowHelper.core
             correctionAdd("more simple", "simpler");
 
             correctionAdd("whipper snapper", "whippersnapper");
+
+            correctionAdd("leet code", "LeetCode");
+            correctionAdd("Leetcode", "LeetCode");
+            correctionAdd("leetcode", "LeetCode");
+
+            correctionAdd("WWW", "World Wide Web");
+            correctionAdd("www", "World Wide Web");
+
+            correctionAdd("cameleon", "chameleon");
+
+            correctionAdd("structual", "structural");
 
 
             // Start of coronavirus part...
@@ -29754,6 +29771,14 @@ namespace OverflowHelper.core
             URL_Add("simpler", "https://en.wiktionary.org/wiki/simpler#Adjective");
 
             URL_Add("whippersnapper", "https://en.wiktionary.org/wiki/whippersnapper#Noun");
+
+            URL_Add("LeetCode", "https://leetcode.com/");
+
+            URL_Add("World Wide Web", "https://en.wikipedia.org/wiki/World_Wide_Web");
+
+            URL_Add("chameleon", "https://en.wiktionary.org/wiki/chameleon#Noun");
+
+            URL_Add("structural", "https://en.wiktionary.org/wiki/structural#Adjective");
 
 
 
