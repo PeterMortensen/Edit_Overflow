@@ -12205,6 +12205,7 @@ namespace OverflowHelper.core
             correctionAdd("wierd", "weird");
             correctionAdd("weried", "weird");
             correctionAdd("weired", "weird");
+            correctionAdd("waired", "weird");
 
             correctionAdd("squach", "squash");
 
@@ -13886,6 +13887,8 @@ namespace OverflowHelper.core
             correctionAdd("absolutly", "absolutely");
             correctionAdd("absulotly", "absolutely");
             correctionAdd("absolotly", "absolutely");
+            correctionAdd("absolutley", "absolutely");
+            correctionAdd("absoluteley", "absolutely");
 
             correctionAdd("artifact", "artefact");
 
@@ -15760,6 +15763,8 @@ namespace OverflowHelper.core
             correctionAdd("x axis", "x-axis");
             correctionAdd("X-axis", "x-axis");
             correctionAdd("X axis", "x-axis");
+            correctionAdd("x-Axis", "x-axis");
+            correctionAdd("x Axis", "x-axis");
 
             correctionAdd("Y axis", "y-axis");
             correctionAdd("Y-axis", "y-axis");
@@ -19517,6 +19522,10 @@ namespace OverflowHelper.core
             correctionAdd("cameleon", "chameleon");
 
             correctionAdd("structual", "structural");
+
+            correctionAdd("DMESG", "dmesg");
+
+            correctionAdd("invester", "investor");
 
 
             // Start of coronavirus part...
@@ -29779,6 +29788,11 @@ namespace OverflowHelper.core
             URL_Add("chameleon", "https://en.wiktionary.org/wiki/chameleon#Noun");
 
             URL_Add("structural", "https://en.wiktionary.org/wiki/structural#Adjective");
+
+            URL_Add("dmesg", "https://en.wikipedia.org/wiki/Dmesg");
+
+            URL_Add("investor", "https://en.wiktionary.org/wiki/investor#Noun");
+
 
 
 
