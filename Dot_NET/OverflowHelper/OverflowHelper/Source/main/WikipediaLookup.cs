@@ -8940,6 +8940,7 @@ namespace OverflowHelper.core
             correctionAdd("germany", "Germany");
 
             correctionAdd("french", "French");
+            correctionAdd("FRENCH", "French");
 
             correctionAdd("british", "British");
 
@@ -12086,6 +12087,7 @@ namespace OverflowHelper.core
             correctionAdd("refefence", "reference");
             correctionAdd("refrance", "reference");
             correctionAdd("referance", "reference");
+            correctionAdd("refence", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -13578,6 +13580,7 @@ namespace OverflowHelper.core
             correctionAdd("Latter", "latter");
 
             correctionAdd("local host", "localhost");
+            correctionAdd("loccalhost", "localhost");
 
             correctionAdd("protion", "portion");
 
@@ -15061,6 +15064,8 @@ namespace OverflowHelper.core
 
             correctionAdd("NYT", "The New York Times");
             correctionAdd("NYT-", "The New York Times");
+            correctionAdd("NYTimes", "The New York Times");
+            correctionAdd("NY Times", "The New York Times");
 
             correctionAdd("asociated", "associated");
 
@@ -16428,6 +16433,7 @@ namespace OverflowHelper.core
             correctionAdd("swiss army knife", "Swiss Army knife");
 
             correctionAdd("aluminum", "aluminium");
+            correctionAdd("Al", "aluminium");
 
             correctionAdd("doxygen", "Doxygen");
 
@@ -17267,6 +17273,7 @@ namespace OverflowHelper.core
             correctionAdd("averaring", "averaging");
 
             correctionAdd("coverting", "converting");
+            correctionAdd("convertig", "converting");
 
             correctionAdd("cut-off", "cutoff"); // Context: a noun
             correctionAdd("cut off", "cutoff"); // Context: a noun
@@ -18392,6 +18399,7 @@ namespace OverflowHelper.core
             correctionAdd("maner", "manner");
 
             correctionAdd("meassurement", "measurement");
+            correctionAdd("measurment", "measurement");
 
             correctionAdd("Mechanical engineering", "mechanical engineering");
 
@@ -19526,6 +19534,36 @@ namespace OverflowHelper.core
             correctionAdd("DMESG", "dmesg");
 
             correctionAdd("invester", "investor");
+
+            correctionAdd("Juli", "July");
+            correctionAdd("july", "July");
+
+            correctionAdd("microwave", "Microwave");
+
+            correctionAdd("scss", "SCSS");
+
+            correctionAdd("swede", "Swede");
+
+            correctionAdd("descripte", "describe");
+
+            correctionAdd("interial", "inertial");
+
+            correctionAdd("meta programming", "metaprogramming");
+
+            correctionAdd("pre install", "preinstall");
+
+            correctionAdd("readbility", "readability");
+
+            correctionAdd("relaive", "relative");
+            correctionAdd("realive", "relative");
+
+            correctionAdd("re-start", "restart");
+
+            correctionAdd("sice", "since");
+
+            correctionAdd("Sr", "strontium");
+
+            correctionAdd("Yb", "ytterbium");
 
 
             // Start of coronavirus part...
@@ -29793,6 +29831,33 @@ namespace OverflowHelper.core
 
             URL_Add("investor", "https://en.wiktionary.org/wiki/investor#Noun");
 
+            URL_Add("July", "https://en.wiktionary.org/wiki/July#Proper_noun");
+
+            URL_Add("Microwave", "https://en.wikipedia.org/wiki/Microwave");
+
+            URL_Add("SCSS", "https://en.wikipedia.org/wiki/Sass_%28stylesheet_language%29");
+
+            URL_Add("Swede", "https://en.wiktionary.org/wiki/Swede#Noun");
+
+            URL_Add("describe", "https://en.wiktionary.org/wiki/describe#Verb");
+
+            URL_Add("inertial", "https://en.wiktionary.org/wiki/inertial_frame_of_reference#English");
+
+            URL_Add("metaprogramming", "https://en.wikipedia.org/wiki/Metaprogramming");
+
+            URL_Add("preinstall", "https://en.wiktionary.org/wiki/preinstall");
+
+            URL_Add("readability", "https://en.wiktionary.org/wiki/readability#Noun");
+
+            URL_Add("relative", "https://en.wiktionary.org/wiki/relative#Adjective");
+
+            URL_Add("restart", "https://en.wiktionary.org/wiki/restart#Verb");
+
+            URL_Add("since", "https://en.wiktionary.org/wiki/since#Adverb");
+
+            URL_Add("strontium", "https://en.wikipedia.org/wiki/Strontium");
+
+            URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium");
 
 
 
