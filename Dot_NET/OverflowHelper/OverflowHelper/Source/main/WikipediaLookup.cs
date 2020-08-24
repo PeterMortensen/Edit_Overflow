@@ -1837,6 +1837,7 @@ namespace OverflowHelper.core
             correctionAdd("reSharper", "ReSharper");
             correctionAdd("Re-sharper", "ReSharper");
             correctionAdd("ReShaper", "ReSharper");
+            correctionAdd("Re#", "ReSharper");
 
             correctionAdd("tdd", "test-driven development");
             correctionAdd("Test Driven Development", "test-driven development");
@@ -2971,6 +2972,7 @@ namespace OverflowHelper.core
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
             correctionAdd("Loonix", "Linux");
+            correctionAdd("linuxx", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -3300,6 +3302,7 @@ namespace OverflowHelper.core
             correctionAdd("tfs", "Team Foundation Server"); //Not actually observed.
             correctionAdd("Tfs", "Team Foundation Server");
             correctionAdd("TF", "Team Foundation Server");
+            correctionAdd("team foundation server", "Team Foundation Server");
 
             correctionAdd("mingw", "MinGW");
             correctionAdd("minGW", "MinGW");
@@ -4305,6 +4308,14 @@ namespace OverflowHelper.core
             correctionAdd("directoy", "directory");
             correctionAdd("dirctory", "directory");
             correctionAdd("direcotires", "directory");
+            correctionAdd("direcotry", "directory");
+
+            correctionAdd("cwd", "current working directory");
+            correctionAdd("CWD", "current working directory");
+            correctionAdd("pwd", "current working directory");
+
+            correctionAdd("sub directory", "subdirectory");
+            correctionAdd("subdir", "subdirectory");
 
             correctionAdd("dont", "don’t");
             correctionAdd("Dont", "don’t"); //Not 100% correct - case.
@@ -6505,6 +6516,7 @@ namespace OverflowHelper.core
             correctionAdd("Algorithms", "algorithm");
             correctionAdd("algorithms", "algorithm");
             correctionAdd("algorithem", "algorithm");
+            correctionAdd("Algo", "algorithm");
 
             correctionAdd("nfc", "NFC");
 
@@ -8974,6 +8986,7 @@ namespace OverflowHelper.core
             correctionAdd("minmal", "minimum");
             correctionAdd("minium", "minimum");
             correctionAdd("mininum", "minimum");
+            correctionAdd("minumum", "minimum");
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
@@ -9123,6 +9136,8 @@ namespace OverflowHelper.core
             correctionAdd("Basicly", "basically");
             correctionAdd("basicially", "basically");
             correctionAdd("basiclly", "basically");
+            correctionAdd("Bascially", "basically");
+            correctionAdd("bascially", "basically");
 
             correctionAdd("mdi", "MDI");
 
@@ -9149,6 +9164,7 @@ namespace OverflowHelper.core
             correctionAdd("pcb", "PCB");
 
             correctionAdd("autuomn", "autumn");
+            correctionAdd("Autumn", "autumn");
 
             correctionAdd("accomodate", "accommodate");
 
@@ -11652,6 +11668,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SHIFT", "Shift");
             correctionAdd("shift", "Shift");
+            correctionAdd("Shft", "Shift");
 
             correctionAdd("x509", "X.509");
             correctionAdd("x.509", "X.509");
@@ -12477,6 +12494,7 @@ namespace OverflowHelper.core
             correctionAdd("excatly", "exactly");
             correctionAdd("EXACLTY", "exactly");
             correctionAdd("exaclty", "exactly");
+            correctionAdd("extactly", "exactly");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
             correctionAdd("GRB", "gamma-ray burst");
@@ -13950,6 +13968,7 @@ namespace OverflowHelper.core
             correctionAdd("forground", "foreground");
 
             correctionAdd("longwinded", "long-winded");
+            correctionAdd("long winded", "long-winded");
 
             correctionAdd("long-time", "longtime");
 
@@ -14047,10 +14066,6 @@ namespace OverflowHelper.core
             correctionAdd("tui", "TUI");
 
             correctionAdd("Axion", "axion");
-
-            correctionAdd("cwd", "current working directory");
-            correctionAdd("CWD", "current working directory");
-            correctionAdd("pwd", "current working directory");
 
             correctionAdd("Dark Energy", "dark energy");
 
@@ -17242,9 +17257,6 @@ namespace OverflowHelper.core
 
             correctionAdd("philosphical", "philosophical");
 
-            correctionAdd("sub directory", "subdirectory");
-            correctionAdd("subdir", "subdirectory");
-
             correctionAdd("CanIUse", "Can I use");
 
             correctionAdd("Kopenhagen", "Copenhagen");
@@ -18619,6 +18631,7 @@ namespace OverflowHelper.core
             correctionAdd("succintly", "succinctly");
 
             correctionAdd("binnary", "binary");
+            correctionAdd("binairy", "binary");
 
             correctionAdd("infintely", "infinitely");
 
@@ -19095,6 +19108,8 @@ namespace OverflowHelper.core
 
             correctionAdd("mbUnit", "MbUnit");
             correctionAdd("MBunit", "MbUnit");
+            correctionAdd("MBUnit", "MbUnit");
+            correctionAdd("mbunit", "MbUnit");
 
             correctionAdd("rspec", "RSpec");
 
@@ -19565,6 +19580,36 @@ namespace OverflowHelper.core
 
             correctionAdd("Yb", "ytterbium");
 
+            correctionAdd("asian", "Asian");
+
+            correctionAdd("nCrunch", "NCrunch");
+
+            correctionAdd("nDoc", "NDoc");
+
+            correctionAdd("rhino mocks", "Rhino Mocks");
+            correctionAdd("rhino mock", "Rhino Mocks");
+            correctionAdd("RhinoMocks", "Rhino Mocks");
+            correctionAdd("Rhino.Mocks", "Rhino Mocks");
+
+            correctionAdd("cse", "case");
+
+            correctionAdd("desireable", "desirable");
+
+            correctionAdd("Fall", "fall");
+
+            correctionAdd("for intstance", "for instance");
+            correctionAdd("For intstance", "for instance");
+
+            correctionAdd("rgeular", "regular");
+
+            correctionAdd("share holder", "shareholder");
+
+            correctionAdd("Tenure-Track", "tenure-track");
+
+            correctionAdd("World", "world");
+
+            correctionAdd("youd", "you'd");
+
 
             // Start of coronavirus part...
 
@@ -19615,6 +19660,7 @@ namespace OverflowHelper.core
             correctionAdd("the pandemic", "COVID-19");
             correctionAdd("COVID", "COVID-19");
             correctionAdd("Covid", "COVID-19");
+            correctionAdd("19", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -29858,6 +29904,32 @@ namespace OverflowHelper.core
             URL_Add("strontium", "https://en.wikipedia.org/wiki/Strontium");
 
             URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium");
+
+            URL_Add("Asian", "https://en.wiktionary.org/wiki/Asian#Noun");
+
+            URL_Add("NCrunch", "https://www.ncrunch.net/");
+
+            URL_Add("NDoc", "https://en.wikipedia.org/wiki/NDoc");
+
+            URL_Add("Rhino Mocks", "http://dotnetpattern.com/Rhino-Mocks-Tutorial");
+
+            URL_Add("case", "https://en.wiktionary.org/wiki/case#Noun");
+
+            URL_Add("desirable", "https://en.wiktionary.org/wiki/desirable#Adjective");
+
+            URL_Add("fall", "https://en.wiktionary.org/wiki/fall#Noun");
+
+            URL_Add("for instance", "https://en.wiktionary.org/wiki/for_instance#Adverb");
+
+            URL_Add("regular", "https://en.wiktionary.org/wiki/regular#Adjective");
+
+            URL_Add("shareholder", "https://en.wiktionary.org/wiki/shareholder#Noun");
+
+            URL_Add("tenure-track", "https://en.wiktionary.org/wiki/tenure-track#Adjective");
+
+            URL_Add("world", "https://en.wiktionary.org/wiki/world#Noun");
+
+            URL_Add("you'd", "https://en.wiktionary.org/wiki/you'd#Contraction");
 
 
 
