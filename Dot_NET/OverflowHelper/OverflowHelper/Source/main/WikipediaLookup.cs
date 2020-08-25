@@ -3959,6 +3959,7 @@ namespace OverflowHelper.core
             correctionAdd("IPaddress", "IP address");
             correctionAdd("IPADDRESS", "IP address");
             correctionAdd("ip addresss", "IP address");
+            correctionAdd("IP ADDRESS", "IP address");
 
             correctionAdd("stats", "statistics");
             correctionAdd("stasistics", "statistics");
@@ -4428,6 +4429,7 @@ namespace OverflowHelper.core
             correctionAdd("mods", "moderator"); //Expansion, not 100% correct. Add a plural feature?
             correctionAdd("Mod", "moderator");
             correctionAdd("modarator", "moderator");
+            correctionAdd("moderater", "moderator");
 
             correctionAdd("cdn", "CDN");
             correctionAdd("content delivery network", "CDN");
@@ -6642,6 +6644,7 @@ namespace OverflowHelper.core
             correctionAdd("H/W", "hardware");
             correctionAdd("h/w", "hardware");
             correctionAdd("harwade", "hardware");
+            correctionAdd("hard ware", "hardware");
 
             correctionAdd("mac address", "MAC address");
             correctionAdd("MAC-Adress", "MAC address");
@@ -8981,6 +8984,7 @@ namespace OverflowHelper.core
             correctionAdd("oneline", "one-liner");
             correctionAdd("onliner", "one-liner");
             correctionAdd("one linear", "one-liner");
+            correctionAdd("One Liner", "one-liner");
 
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
@@ -11196,6 +11200,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
+            correctionAdd("kilo", "kg");
+            correctionAdd("kilogram", "kg");
 
             correctionAdd("6th", "sixth");
 
@@ -11461,6 +11467,8 @@ namespace OverflowHelper.core
             correctionAdd("hiarchial", "hierarchical");
 
             correctionAdd("interprete", "interpret");
+            correctionAdd("interperate", "interpret");
+            correctionAdd("interprate", "interpret");
 
             correctionAdd("proceedure", "procedure");
             correctionAdd("precedure", "procedure");
@@ -12000,6 +12008,7 @@ namespace OverflowHelper.core
             correctionAdd("commited", "committed");
 
             correctionAdd("High School", "high school");
+            correctionAdd("HS", "high school");
 
             correctionAdd("no-op", "no operation");
 
@@ -13100,6 +13109,7 @@ namespace OverflowHelper.core
             correctionAdd("united states", "USA");
             correctionAdd("United States", "USA");
             correctionAdd("usa", "USA");
+            correctionAdd("United states", "USA");
 
             correctionAdd("Vic20", "VIC-20");
             correctionAdd("VIC 20", "VIC-20");
@@ -15279,6 +15289,8 @@ namespace OverflowHelper.core
             correctionAdd("uisng", "using");
 
             correctionAdd("udemy", "Udemy");
+            correctionAdd("udmey", "Udemy");
+            correctionAdd("Udmey", "Udemy");
 
             correctionAdd("ActiVision", "Activision");
 
@@ -15592,6 +15604,7 @@ namespace OverflowHelper.core
             correctionAdd("environmanet", "environment");
             correctionAdd("environemt", "environment");
             correctionAdd("Enviroment", "environment");
+            correctionAdd("envrionment", "environment");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -18548,9 +18561,6 @@ namespace OverflowHelper.core
             correctionAdd("GFX", "graphics");
             correctionAdd("gfx", "graphics");
 
-            correctionAdd("overide", "override");
-            correctionAdd("Overide", "override");
-
             correctionAdd("Red-Black tree", "red-black tree");
 
             correctionAdd("stoopidest", "stupidest");
@@ -19609,6 +19619,57 @@ namespace OverflowHelper.core
             correctionAdd("World", "world");
 
             correctionAdd("youd", "you'd");
+
+            correctionAdd("African American", "African-American");
+            correctionAdd("african american", "African-American");
+
+            correctionAdd("australia", "Australia");
+
+            correctionAdd("gdpr", "GDPR");
+
+            correctionAdd("GOM", "Gulf of Mexico");
+
+            correctionAdd("H1B", "H-1B");
+            correctionAdd("h1b", "H-1B");
+
+            correctionAdd("iso2", "ISO&nbsp;2");
+            correctionAdd("ISO 2", "ISO&nbsp;2");
+            correctionAdd("ISO2", "ISO&nbsp;2");
+
+            correctionAdd("iso3", "ISO&nbsp;3");
+            correctionAdd("ISO 3", "ISO&nbsp;3");
+            correctionAdd("ISO3", "ISO&nbsp;3");
+
+            correctionAdd("macdonalds", "McDonald's");
+
+            correctionAdd("SIM", "SIM card");
+            correctionAdd("Sim", "SIM card");
+            correctionAdd("sim", "SIM card");
+
+            correctionAdd("south america", "South America");
+
+            correctionAdd("tuesday", "Tuesday");
+
+            correctionAdd("webwork", "WebWork");
+
+            correctionAdd("ading", "adding");
+
+            correctionAdd("corse", "coarse");
+            correctionAdd("Corse", "coarse");
+
+            correctionAdd("intrest", "interest");
+
+            correctionAdd("meritocrasi", "meritocracy");
+
+            correctionAdd("momment", "moment");
+
+            correctionAdd("re-opening", "reopening");
+
+            correctionAdd("NaCl", "sodium chloride");
+
+            correctionAdd("overide", "override");
+            correctionAdd("Overide", "override");
+            correctionAdd("over-ride", "override");
 
 
             // Start of coronavirus part...
@@ -29930,6 +29991,44 @@ namespace OverflowHelper.core
             URL_Add("world", "https://en.wiktionary.org/wiki/world#Noun");
 
             URL_Add("you'd", "https://en.wiktionary.org/wiki/you'd#Contraction");
+
+            URL_Add("African-American", "https://en.wiktionary.org/wiki/African-American#Noun");
+
+            URL_Add("Australia", "https://en.wikipedia.org/wiki/Australia");
+
+            URL_Add("GDPR", "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation");
+
+            URL_Add("Gulf of Mexico", "https://en.wikipedia.org/wiki/Gulf_of_Mexico");
+
+            URL_Add("H-1B", "https://en.wikipedia.org/wiki/H-1B_visa");
+
+            URL_Add("ISO&nbsp;2", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements");
+
+            URL_Add("ISO&nbsp;3", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements");
+
+            URL_Add("McDonald's", "https://en.wikipedia.org/wiki/McDonald's");
+
+            URL_Add("SIM card", "https://en.wikipedia.org/wiki/SIM_card");
+
+            URL_Add("South America", "https://en.wiktionary.org/wiki/South_America#Proper_noun");
+
+            URL_Add("Tuesday", "https://en.wiktionary.org/wiki/Tuesday#Noun");
+
+            URL_Add("WebWork", "https://en.wikipedia.org/wiki/WebWork");
+
+            URL_Add("adding", "https://en.wiktionary.org/wiki/add#Verb");
+
+            URL_Add("coarse", "https://en.wiktionary.org/wiki/coarse#Adjective");
+
+            URL_Add("interest", "https://en.wiktionary.org/wiki/interest#Noun");
+
+            URL_Add("meritocracy", "https://en.wiktionary.org/wiki/meritocracy#Noun");
+
+            URL_Add("moment", "https://en.wiktionary.org/wiki/moment#Noun");
+
+            URL_Add("reopening", "https://en.wiktionary.org/wiki/reopen#Verb");
+
+            URL_Add("sodium chloride", "https://en.wikipedia.org/wiki/Sodium_chloride");
 
 
 
