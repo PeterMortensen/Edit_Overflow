@@ -4102,7 +4102,21 @@ namespace OverflowHelper.core
             correctionAdd("varialble", "variable");
             correctionAdd("varable", "variable");
             correctionAdd("variabel", "variable");
+            correctionAdd("Variabile", "variable");
+            correctionAdd("variabile", "variable");
 
+            correctionAdd("env var", "environment variable");
+            correctionAdd("Env Var", "environment variable");
+            correctionAdd("ENV-Variable", "environment variable");
+            correctionAdd("envar", "environment variable");
+            correctionAdd("envionmental variable", "environment variable");
+            correctionAdd("Environment Variable", "environment variable");
+            correctionAdd("ENV var", "environment variable");
+            correctionAdd("env variable", "environment variable");
+            correctionAdd("environemt variable", "environment variable");
+            correctionAdd("environement variable", "environment variable");
+            correctionAdd("environment var", "environment variable");
+            
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
             correctionAdd("Utorrent", "µTorrent");
@@ -8199,6 +8213,7 @@ namespace OverflowHelper.core
             correctionAdd("whatsApp", "WhatsApp");
             correctionAdd("Whats app", "WhatsApp");
             correctionAdd("whats app", "WhatsApp");
+            correctionAdd("What'sApp", "WhatsApp");
 
 
             //Currently defunc due to some recent changes!!!
@@ -11193,6 +11208,7 @@ namespace OverflowHelper.core
             correctionAdd("BigO", "big O");
 
             correctionAdd("correclty", "correctly");
+            correctionAdd("corrdctly", "correctly");
 
             correctionAdd("dict", "dictionary");
             correctionAdd("disctionary", "dictionary");
@@ -15287,6 +15303,7 @@ namespace OverflowHelper.core
             correctionAdd("usig", "using");
             correctionAdd("ussing", "using");
             correctionAdd("uisng", "using");
+            correctionAdd("usin", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -15606,17 +15623,6 @@ namespace OverflowHelper.core
             correctionAdd("Enviroment", "environment");
             correctionAdd("envrionment", "environment");
 
-            correctionAdd("env var", "environment variable");
-            correctionAdd("Env Var", "environment variable");
-            correctionAdd("ENV-Variable", "environment variable");
-            correctionAdd("envar", "environment variable");
-            correctionAdd("envionmental variable", "environment variable");
-            correctionAdd("Environment Variable", "environment variable");
-            correctionAdd("ENV var", "environment variable");
-            correctionAdd("env variable", "environment variable");
-            correctionAdd("environemt variable", "environment variable");
-            correctionAdd("environement variable", "environment variable");
-            correctionAdd("environment var", "environment variable");
 
             // Consider:
             //   weaher
@@ -15875,6 +15881,8 @@ namespace OverflowHelper.core
 
             correctionAdd("tampermonkey", "Tampermonkey");
             correctionAdd("tamper monkey", "Tampermonkey");
+            correctionAdd("TamperMonkey", "Tampermonkey");
+            correctionAdd("Tamper Monkey", "Tampermonkey");
 
             correctionAdd("XD", "experience design");
 
@@ -16783,6 +16791,7 @@ namespace OverflowHelper.core
             correctionAdd("simmilar", "similar");
             correctionAdd("Simialr", "similar");
             correctionAdd("Similar", "similar");
+            correctionAdd("similer", "similar");
 
             correctionAdd("Similary", "similarly"); //Not 100% correct - case.
             correctionAdd("similary", "similarly");
@@ -18439,6 +18448,7 @@ namespace OverflowHelper.core
             correctionAdd("reprensent", "represent");
 
             correctionAdd("Technical Debt", "technical debt");
+            correctionAdd("tech debt", "technical debt");
 
             correctionAdd("todays", "today's");
 
@@ -19670,6 +19680,18 @@ namespace OverflowHelper.core
             correctionAdd("overide", "override");
             correctionAdd("Overide", "override");
             correctionAdd("over-ride", "override");
+
+            correctionAdd("retrocomputing", "Retrocomputing (Stack Exchange site)");
+
+            correctionAdd("Symantec endpoint protection", "Symantec Endpoint Protection");
+
+            correctionAdd("binded", "bound");
+
+            correctionAdd("bervity", "brevity");
+
+            correctionAdd("consoloe", "console");
+
+            correctionAdd("convertion", "conversion");
 
 
             // Start of coronavirus part...
@@ -30029,6 +30051,18 @@ namespace OverflowHelper.core
             URL_Add("reopening", "https://en.wiktionary.org/wiki/reopen#Verb");
 
             URL_Add("sodium chloride", "https://en.wikipedia.org/wiki/Sodium_chloride");
+
+            URL_Add("Retrocomputing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
+
+            URL_Add("Symantec Endpoint Protection", "https://en.wikipedia.org/wiki/Symantec_Endpoint_Protection");
+
+            URL_Add("bound", "https://en.wiktionary.org/wiki/bind#Verb");
+
+            URL_Add("brevity", "https://en.wiktionary.org/wiki/brevity#Noun");
+
+            URL_Add("console", "https://en.wiktionary.org/wiki/console#Noun");
+
+            URL_Add("conversion", "https://en.wiktionary.org/wiki/conversion#Noun");
 
 
 
