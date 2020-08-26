@@ -33,7 +33,6 @@
     $formDataSizeDiff = -1;
 
 
-
     # Including version number and date
     #
     # Note that we are using the WordPress convention of
@@ -42,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a60 2020-07-30T153008Z+0";
+        return "Edit Overflow v. 1.1.49a62 2020-08-26T102530Z+0";
     }
 
 
@@ -160,7 +159,19 @@
         #Do any check for undefined, etc.???
 
         return $toReturn;
-    }
+    } #get_postParameter()
+
+
+    # Helper function to support switching between form based
+    # lookup (server) and client-side lookup (JavaScripty).
+    #
+    function useJavaScriptLookup()
+    {
+        $toReturn = true; # Stub
+        $toReturn = false; # Stub
+
+        return $toReturn;
+    } #useJavaScriptLookup()
 
 
     # Helper function to support switching between WordPress
@@ -168,8 +179,8 @@
     #
     function useWordPress()
     {
-        # That is, if we pass OverflowStyle (by GET or POST), we
-        # can turn off the WordPress part (e.g. to ease HTML
+        # That is, if we pass parameter OverflowStyle (by GET or POST), 
+        # we can turn off the WordPress part (e.g. to ease HTML
         # validation (for example, when using WordPress, we
         # got 29 issues in total (14 errors and 15 warnings)
         # for "EditSummaryFragments.php")).
