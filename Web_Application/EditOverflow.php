@@ -365,10 +365,40 @@
         <form
             name="lookupForm"
             method="post"
-            id="lookupForm"
-
+            id="lookupForm"            
+            <?php 
+                if (useJavaScriptLookup())
+                {
+                    //Aparrently also needed...
+                    //
+                    //But it contradicts earlier conclusions that it
+                    //was only needed for the submit button...
+                    //
+                    //What is up???
+                    
+                    echo "onsubmit=\"return get_action(); return false;\"\n";
+                }
+                
+                // For proper indent in the generated HTML - regardless 
+                // of the return value of useJavaScriptLookup() or
+                // whether we actually output anything in PHP.
+                echo "\n";
+            ?>
         >
-            <!--  onsubmit="return get_action(); return false;"   -->
+
+            <!--
+                For manually inserting it above as an attribute
+                to "form" - as we can't have HTML comments
+                inside an HTML tag ("form" in this case).
+
+                But it is not required for our lookup to work
+                (only for the initial opening of the page(?)) -
+                just doing the same for the submit button (below)
+                is sufficient.
+
+                onsubmit="return get_action(); return false;"
+            -->
+
 
             <div class="formgrid">
 
@@ -703,14 +733,35 @@
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
 
+                    <?php
+                        if (useJavaScriptLookup())
+                        {
+                            echo "onsubmit=\"return get_action(); return false;\"";
+                        }
+
+                        // For proper indent in the generated HTML - regardless 
+                        // of the return value of useJavaScriptLookup() or
+                        // whether we actually output anything in PHP.
+                        echo "\n";
+                    ?>
                 />
 
-                <!-- The only thing required to get the lookup to happen
-                     in JavaScript (on the client side (in the browser))
-                     is to insert this for button LookUp (just above):
+                <!--
+                    For ***manually*** inserting it above as an
+                    attribute to the submit button - as we
+                    can't have HTML comments inside an
+                    HTML tag ("form" in this case).
 
-                         onclick="get_action(); return false;"
+                    The ***only*** thing required to get the
+                    lookup to happen in JavaScript (on the
+                    client side (in the browser)) is to
+                    insert this for lookup button (just above):
 
+                        onclick="get_action(); return false;"
+                        
+                    But JavaScript must be enabled in the browser
+                    for it to work - e.g. allowing it in NoScript
+                    in Firefox!!!!    
                 -->
 
             </div>
