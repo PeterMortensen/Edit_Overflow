@@ -1282,6 +1282,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac Os X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MAC OSx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac/OSX", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("osX", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
@@ -1404,6 +1405,8 @@ namespace OverflowHelper.core
             correctionAdd("mac os 10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("Mac OS X 10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("v10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
+            correctionAdd("Mac OS X Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
+            correctionAdd("OS X Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
 
             correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)"); // Sort of identity mapping
             correctionAdd("El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
@@ -1422,6 +1425,8 @@ namespace OverflowHelper.core
             correctionAdd("El Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("El Capitain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("Mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
 
             correctionAdd("Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("10.12", "macOS v10.12 (Sierra)");
@@ -1430,6 +1435,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("Mac Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("OS X 10.12", "macOS v10.12 (Sierra)");
+            correctionAdd("macOS Sierra 10.12", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -8166,6 +8172,7 @@ namespace OverflowHelper.core
             correctionAdd("code academy", "Codecademy");
             correctionAdd("codeacademy", "Codecademy");
             correctionAdd("codeaccademy", "Codecademy");
+            correctionAdd("CodeAcedamy", "Codecademy");
 
             correctionAdd("QBASIC", "QBasic");
             correctionAdd("Qbasic", "QBasic");
@@ -9053,6 +9060,8 @@ namespace OverflowHelper.core
             correctionAdd("CSS 3", "CSS&nbsp;3"); //Sort of self.
             correctionAdd("css3", "CSS&nbsp;3");
             correctionAdd("CSS-3", "CSS&nbsp;3");
+            correctionAdd("Css3", "CSS&nbsp;3");
+            correctionAdd("Css 3", "CSS&nbsp;3");
 
             correctionAdd("perms", "permissions");
 
@@ -11543,6 +11552,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tryed", "tried");
             correctionAdd("tryd", "tried");
+            correctionAdd("trid", "tried");
 
             correctionAdd("justfied", "justified");
 
@@ -15879,6 +15889,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tryng", "trying");
             correctionAdd("tryting", "trying");
+            correctionAdd("triying", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -19085,6 +19096,7 @@ namespace OverflowHelper.core
             correctionAdd("drop-down", "dropdown");
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
+            correctionAdd("Free code camp", "freeCodeCamp");
 
             correctionAdd("getgo", "get-go");
             correctionAdd("get go", "get-go");
@@ -19568,6 +19580,7 @@ namespace OverflowHelper.core
             correctionAdd("www", "World Wide Web");
 
             correctionAdd("cameleon", "chameleon");
+            correctionAdd("chemeleon", "chameleon");
 
             correctionAdd("structual", "structural");
 
@@ -19704,6 +19717,25 @@ namespace OverflowHelper.core
             correctionAdd("Impostor Syndrome", "impostor syndrome");
 
             correctionAdd("WC", "wc");
+
+            correctionAdd("code golf", "Code Golf (Stack Exchange site)");
+
+            correctionAdd("Net BSD", "NetBSD");
+
+            correctionAdd("western", "Western");
+
+            correctionAdd("Nationalism", "nationalism");
+
+            correctionAdd("offically", "officially");
+
+            correctionAdd("Psychologist", "psychologist");
+
+            correctionAdd("re-join", "rejoin");
+
+            correctionAdd("sidenote", "side note");
+            correctionAdd("Sidenote", "side note");
+
+            correctionAdd("solliciting", "soliciting");
 
 
             // Start of coronavirus part...
@@ -30081,6 +30113,24 @@ namespace OverflowHelper.core
             URL_Add("impostor syndrome", "https://en.wikipedia.org/wiki/Impostor_syndrome");
 
             URL_Add("wc", "https://linux.die.net/man/1/wc");
+
+            URL_Add("Code Golf (Stack Exchange site)", "https://codegolf.stackexchange.com/tour");
+
+            URL_Add("NetBSD", "https://en.wikipedia.org/wiki/NetBSD");
+
+            URL_Add("Western", "https://en.wiktionary.org/wiki/Western#Adjective");
+
+            URL_Add("nationalism", "https://en.wiktionary.org/wiki/nationalism#Noun");
+
+            URL_Add("officially", "https://en.wiktionary.org/wiki/officially#Adverb");
+
+            URL_Add("psychologist", "https://en.wiktionary.org/wiki/psychologist#Noun");
+
+            URL_Add("rejoin", "https://en.wiktionary.org/wiki/rejoin#Verb");
+
+            URL_Add("side note", "https://en.wiktionary.org/wiki/side_note#Noun");
+
+            URL_Add("soliciting", "https://en.wiktionary.org/wiki/solicit#Verb");
 
 
 
