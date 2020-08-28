@@ -1281,6 +1281,7 @@ namespace OverflowHelper.core
             correctionAdd("OSx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac Os X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MAC OSx", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("Mac/OSX", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); //Collision with MAC address, but there is an entry for that, "MAC address".
@@ -1440,6 +1441,7 @@ namespace OverflowHelper.core
             correctionAdd("HighSierra", "macOS v10.13 (High Sierra)");
             correctionAdd("Highsierra", "macOS v10.13 (High Sierra)");
             correctionAdd("High sierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("macOS 10.13", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -11819,6 +11821,7 @@ namespace OverflowHelper.core
             correctionAdd("google cloud", "Google Cloud Platform");
             correctionAdd("g cloud", "Google Cloud Platform");
             correctionAdd("G cloud", "Google Cloud Platform");
+            correctionAdd("Google cloud", "Google Cloud Platform");
 
             correctionAdd("Huwei", "Huawei");
 
@@ -12980,6 +12983,7 @@ namespace OverflowHelper.core
             correctionAdd("time-zone", "time zone");
 
             correctionAdd("Busybox", "BusyBox");
+            correctionAdd("busy box", "BusyBox");
 
             correctionAdd("IRIS", "Iris data set");
             correctionAdd("iris data set", "Iris data set");
@@ -13889,6 +13893,7 @@ namespace OverflowHelper.core
             correctionAdd("TAIL", "tail");
 
             correctionAdd("TMUX", "tmux");
+            correctionAdd("Tmux", "tmux");
 
             correctionAdd("verbage", "verbiage");
 
@@ -19692,6 +19697,13 @@ namespace OverflowHelper.core
             correctionAdd("consoloe", "console");
 
             correctionAdd("convertion", "conversion");
+
+            correctionAdd("html tidy", "HTML Tidy");
+
+            correctionAdd("imposter syndrome", "impostor syndrome");
+            correctionAdd("Impostor Syndrome", "impostor syndrome");
+
+            correctionAdd("WC", "wc");
 
 
             // Start of coronavirus part...
@@ -30063,6 +30075,12 @@ namespace OverflowHelper.core
             URL_Add("console", "https://en.wiktionary.org/wiki/console#Noun");
 
             URL_Add("conversion", "https://en.wiktionary.org/wiki/conversion#Noun");
+
+            URL_Add("HTML Tidy", "https://en.wikipedia.org/wiki/HTML_Tidy");
+
+            URL_Add("impostor syndrome", "https://en.wikipedia.org/wiki/Impostor_syndrome");
+
+            URL_Add("wc", "https://linux.die.net/man/1/wc");
 
 
 
