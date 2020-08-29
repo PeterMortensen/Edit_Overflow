@@ -2281,17 +2281,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hbase", "HBase"); //Not actually observed. For the link.
 
-            correctionAdd("cp", "The Code Project");
-            correctionAdd("CP", "The Code Project");
-            correctionAdd("codeproject", "The Code Project");
-            correctionAdd("code project", "The Code Project");
-            correctionAdd("CodeProject", "The Code Project");
-            correctionAdd("the code project", "The Code Project");
-            correctionAdd("Codeproject", "The Code Project");
-            correctionAdd("Code Project", "The Code Project");
-            correctionAdd("the coding project", "The Code Project");
-            correctionAdd("coding project", "The Code Project");
-
             correctionAdd("csv", "CSV");
 
             correctionAdd("clr", "CLR");
@@ -4124,7 +4113,7 @@ namespace OverflowHelper.core
             correctionAdd("environemt variable", "environment variable");
             correctionAdd("environement variable", "environment variable");
             correctionAdd("environment var", "environment variable");
-            
+
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
             correctionAdd("Utorrent", "µTorrent");
@@ -4207,6 +4196,8 @@ namespace OverflowHelper.core
             correctionAdd("superusers", "Super&nbsp;User");
             correctionAdd("Super-User", "Super&nbsp;User");
             correctionAdd("Super user", "Super&nbsp;User");
+            correctionAdd("SuperUse", "Super&nbsp;User");
+            correctionAdd("Super Use", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -4339,6 +4330,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sub directory", "subdirectory");
             correctionAdd("subdir", "subdirectory");
+            correctionAdd("sub dir", "subdirectory");
 
             correctionAdd("dont", "don’t");
             correctionAdd("Dont", "don’t"); //Not 100% correct - case.
@@ -8246,6 +8238,7 @@ namespace OverflowHelper.core
             correctionAdd("notepadd++", "Notepad++");
             correctionAdd("Notepadd++", "Notepad++");
             correctionAdd("N++", "Notepad++");
+            correctionAdd("NotePad ++", "Notepad++");
 
             correctionAdd("MS-Word", "Microsoft Word");
             correctionAdd("MS Word", "Microsoft Word");
@@ -9878,10 +9871,6 @@ namespace OverflowHelper.core
             correctionAdd("spanish", "Spanish");
             correctionAdd("SPanish", "Spanish");
 
-            // Part of Castle Project: Castle Windsor
-            correctionAdd("castle", "Castle Project");
-            correctionAdd("Castle", "Castle Project");
-
             correctionAdd("castle Windsor", "Castle Windsor"); // Alternative URL: <http://www.castleproject.org/container/index.html>
 
             correctionAdd("IIS Express", "IIS&nbsp;Express"); // Sort of identity mapping
@@ -10649,6 +10638,7 @@ namespace OverflowHelper.core
 
             correctionAdd("particuarly", "particularly");
             correctionAdd("particulary", "particularly");
+            correctionAdd("Particulary", "particularly");
 
             correctionAdd("particuliar", "particular");
             correctionAdd("perticular", "particular");
@@ -12214,6 +12204,8 @@ namespace OverflowHelper.core
             correctionAdd("windows 1252", "Windows-1252");
             correctionAdd("WINDOWS-1252", "Windows-1252");
             correctionAdd("windows-1252", "Windows-1252");
+            correctionAdd("CP1252", "Windows-1252");
+            correctionAdd("CP-1252", "Windows-1252");
 
             correctionAdd("appricate", "appreciate");
             correctionAdd("appreicate", "appreciate");
@@ -12401,8 +12393,6 @@ namespace OverflowHelper.core
 
             correctionAdd("prio", "priority");
 
-            correctionAdd("prject", "project");
-
             correctionAdd("simultaneusly", "simultaneously");
 
             correctionAdd("sligtly", "slightly");
@@ -12480,6 +12470,12 @@ namespace OverflowHelper.core
 
             correctionAdd("spacex", "SpaceX");
             correctionAdd("spaceX", "SpaceX");
+            correctionAdd("SPACE X", "SpaceX");
+            correctionAdd("space x", "SpaceX");
+            correctionAdd("space-x", "SpaceX");
+            correctionAdd("space X", "SpaceX");
+            correctionAdd("Space X", "SpaceX");
+            correctionAdd("Spacex", "SpaceX");
 
             correctionAdd("tcpview", "TCPView");
 
@@ -13279,6 +13275,7 @@ namespace OverflowHelper.core
             correctionAdd("every body", "everybody");
 
             correctionAdd("hilarius", "hilarious");
+            correctionAdd("hirarious", "hilarious");
 
             correctionAdd("leage", "league");
             correctionAdd("Leage", "league");
@@ -13561,6 +13558,7 @@ namespace OverflowHelper.core
             correctionAdd("employe", "employee");
 
             correctionAdd("excecute", "execute");
+            correctionAdd("excute", "execute");
 
             correctionAdd("extremeties", "extremities");
             correctionAdd("extremitys", "extremities");
@@ -17184,6 +17182,7 @@ namespace OverflowHelper.core
             correctionAdd("diy", "DIY");
 
             correctionAdd("LEGO", "Lego");
+            correctionAdd("lego", "Lego");
 
             correctionAdd("zoom", "Zoom");
 
@@ -19496,6 +19495,7 @@ namespace OverflowHelper.core
             correctionAdd("fon", "font");
 
             correctionAdd("LAF", "look and feel");
+            correctionAdd("L&F", "look and feel");
 
             correctionAdd("Of", "of");
 
@@ -19736,6 +19736,47 @@ namespace OverflowHelper.core
             correctionAdd("Sidenote", "side note");
 
             correctionAdd("solliciting", "soliciting");
+
+            correctionAdd("cp", "The Code Project");
+            correctionAdd("CP", "The Code Project");
+            correctionAdd("codeproject", "The Code Project");
+            correctionAdd("code project", "The Code Project");
+            correctionAdd("CodeProject", "The Code Project");
+            correctionAdd("the code project", "The Code Project");
+            correctionAdd("Codeproject", "The Code Project");
+            correctionAdd("Code Project", "The Code Project");
+            correctionAdd("the coding project", "The Code Project");
+            correctionAdd("coding project", "The Code Project");
+
+            // Part of Castle Project: Castle Windsor
+            correctionAdd("castle", "Castle Project");
+            correctionAdd("Castle", "Castle Project");
+
+            correctionAdd("prject", "project");
+            correctionAdd("projet", "project");
+
+            correctionAdd("eol", "EOL");
+
+            correctionAdd("Playground", "Swift Playgrounds");
+            correctionAdd("playground", "Swift Playgrounds");
+
+            correctionAdd("Windows 1250", "Windows-1250");
+
+            correctionAdd("explainn", "explain");
+            correctionAdd("explanin", "explain");
+
+            correctionAdd("ICONV", "iconv");
+
+            correctionAdd("noice", "noise");
+
+            correctionAdd("palce", "place");
+
+            correctionAdd("serach", "search");
+
+            correctionAdd("throwh", "thrown");
+
+            correctionAdd("trat", "treat");
+
 
 
             // Start of coronavirus part...
@@ -30131,6 +30172,26 @@ namespace OverflowHelper.core
             URL_Add("side note", "https://en.wiktionary.org/wiki/side_note#Noun");
 
             URL_Add("soliciting", "https://en.wiktionary.org/wiki/solicit#Verb");
+
+            URL_Add("EOL", "https://en.wikipedia.org/wiki/Newline");
+
+            URL_Add("Swift Playgrounds", "https://en.wikipedia.org/wiki/Swift_Playgrounds");
+
+            URL_Add("Windows-1250", "https://en.wikipedia.org/wiki/Windows-1250");
+
+            URL_Add("explain", "https://en.wiktionary.org/wiki/explain#Verb");
+
+            URL_Add("iconv", "https://en.wikipedia.org/wiki/Iconv");
+
+            URL_Add("noise", "https://en.wiktionary.org/wiki/noise#Noun");
+
+            URL_Add("place", "https://en.wiktionary.org/wiki/place#Noun");
+
+            URL_Add("search", "https://en.wiktionary.org/wiki/search#Verb");
+
+            URL_Add("thrown", "https://en.wiktionary.org/wiki/throw#Verb");
+
+            URL_Add("treat", "https://en.wiktionary.org/wiki/treat#Verb");
 
 
 
