@@ -9104,6 +9104,7 @@ namespace OverflowHelper.core
             correctionAdd("black-hole", "black hole"); //Not 100% correct - plural.
             correctionAdd("Blackhole", "black hole");
             correctionAdd("blackhole", "black hole");
+            correctionAdd("Black Hole", "black hole");
 
             correctionAdd("schottky", "Schottky");
             correctionAdd("shottky", "Schottky");
@@ -9430,6 +9431,7 @@ namespace OverflowHelper.core
             correctionAdd("avilable", "available");
             correctionAdd("AVILABLE", "available");
             correctionAdd("AVAILABLE", "available");
+            correctionAdd("avaible", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -13585,6 +13587,7 @@ namespace OverflowHelper.core
 
             correctionAdd("org", "organisation");
             correctionAdd("organiation", "organisation");
+            correctionAdd("organization", "organisation");
 
             correctionAdd("portefolio", "portfolio");
 
@@ -19776,6 +19779,10 @@ namespace OverflowHelper.core
             correctionAdd("throwh", "thrown");
 
             correctionAdd("trat", "treat");
+
+            correctionAdd("tecnique", "technique");
+
+            correctionAdd("Text Editor", "text editor");
 
 
 
@@ -30192,6 +30199,11 @@ namespace OverflowHelper.core
             URL_Add("thrown", "https://en.wiktionary.org/wiki/throw#Verb");
 
             URL_Add("treat", "https://en.wiktionary.org/wiki/treat#Verb");
+
+            URL_Add("technique", "https://en.wiktionary.org/wiki/technique#Noun");
+
+            URL_Add("text editor", "https://en.wikipedia.org/wiki/Text_editor");
+
 
 
 
