@@ -8780,6 +8780,7 @@ namespace OverflowHelper.core
             correctionAdd("Mega byte", "&nbsp;MB");
             correctionAdd("MBytes", "&nbsp;MB");
             correctionAdd("Mbyte", "&nbsp;MB");
+            correctionAdd("meg", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); //Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
@@ -8789,6 +8790,7 @@ namespace OverflowHelper.core
             correctionAdd("Giga byte", "&nbsp;GB");
             correctionAdd("giga byte", "&nbsp;GB");
             correctionAdd("gigs", "&nbsp;GB");
+            correctionAdd("gig", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); //Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); //Assuming bytes, not bits...
@@ -8882,6 +8884,7 @@ namespace OverflowHelper.core
             correctionAdd("Following", "following");
             correctionAdd("Folowing", "following");
             correctionAdd("foolowing", "following");
+            correctionAdd("folllowing", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -10435,6 +10438,7 @@ namespace OverflowHelper.core
             correctionAdd("paratheses", "parentheses");
 
             correctionAdd("utils", "utilities");
+            correctionAdd("utilties", "utilities");
 
             correctionAdd("wouldnt", "wouldn't");
             correctionAdd("wouldn’t", "wouldn't");
@@ -10804,6 +10808,7 @@ namespace OverflowHelper.core
             correctionAdd("Git bash", "Git Bash");
             correctionAdd("Gitbash", "Git Bash");
             correctionAdd("GIT bash", "Git Bash");
+            correctionAdd("Git-Bash", "Git Bash");
 
             correctionAdd("git-extensions", "Git Extensions");
             correctionAdd("GitExtensions", "Git Extensions");
@@ -10949,6 +10954,7 @@ namespace OverflowHelper.core
             correctionAdd("statemet", "statement");
             correctionAdd("statemetns", "statement");
             correctionAdd("statemaent", "statement");
+            correctionAdd("statemnt", "statement");
 
             correctionAdd("staritaway", "straight away");
 
@@ -17670,6 +17676,8 @@ namespace OverflowHelper.core
             correctionAdd("low code", "low-code development platform");
             correctionAdd("low-code", "low-code development platform");
             correctionAdd("no-code", "no-code development platform");
+            correctionAdd("Low-code", "low-code development platform");
+            correctionAdd("Low code", "low-code development platform");
 
             correctionAdd("no code", "no-code development platform");
 
@@ -19783,6 +19791,14 @@ namespace OverflowHelper.core
             correctionAdd("tecnique", "technique");
 
             correctionAdd("Text Editor", "text editor");
+
+            correctionAdd("Outsystems", "OutSystems");
+
+            correctionAdd("tesseract", "Tesseract");
+
+            correctionAdd("HTOP", "htop");
+
+            correctionAdd("parrallism", "parallelism");
 
 
 
@@ -30204,6 +30220,13 @@ namespace OverflowHelper.core
 
             URL_Add("text editor", "https://en.wikipedia.org/wiki/Text_editor");
 
+            URL_Add("OutSystems", "https://en.wikipedia.org/wiki/OutSystems");
+
+            URL_Add("Tesseract", "https://en.wikipedia.org/wiki/Tesseract_(software)");
+
+            URL_Add("htop", "https://en.wikipedia.org/wiki/Htop");
+
+            URL_Add("parallelism", "https://en.wiktionary.org/wiki/parallelism#Noun");
 
 
 
