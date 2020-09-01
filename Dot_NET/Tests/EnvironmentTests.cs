@@ -28,7 +28,7 @@ using NUnit.Framework; //For all versions of NUnit,
 //file "nunit.framework.dll"
 
 //using OverflowHelper.core;
-using OverflowHelper.platFormSpecific;
+//using OverflowHelper.platFormSpecific;
 
 
 //What namespace to use?
@@ -56,7 +56,7 @@ namespace OverflowHelper.Tests
             // Ensure we are actually running the expected version. But what
             // is actually our intent here? Why do we have this test?
 
-            string presumedNewest = "1.1.49a38";
+            string presumedNewest = "1.1.49a45";
 
             {
                 // For the main application
