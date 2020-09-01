@@ -19,11 +19,23 @@ function get_action() {
 
     if (correct === undefined)
     {
-        var correct_out = "No match!!!!" + " YYY3";
+        //var correct_out = "No match!!!!" + " YYY3";
+        //
+        // We return the input so blind application (e.g. by a macro
+        // keybaord) will not overwrite the original text (or rather,
+        // replace it with the same).
+        //
+        var correct_out = input;
     }
     else
     {
-        var correct_out = correct + " XXX2";
+        //Easier to see if JavaScript is used or not. Remove when all
+        //this is established/stable.
+        //var correct_out = correct + " XXX2";
+
+        // The space is to be output compatible with the current
+        // form-based lookup
+        var correct_out = correct + " ";
         //var correct_out = correct;
     }
 

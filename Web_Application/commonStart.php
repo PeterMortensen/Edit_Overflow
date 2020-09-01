@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a62 2020-08-26T102530Z+0";
+        return "Edit Overflow v. 1.1.49a63 2020-08-26T184924Z+0";
     }
 
 
@@ -167,9 +167,20 @@
     #
     function useJavaScriptLookup()
     {
-        $toReturn = true; # Stub
-        $toReturn = false; # Stub
+        #$toReturn = true; # Stub
+        $toReturn = false; # Default
 
+        $clientSideLookup = get_postParameter('UseJavaScript') ?? 'no';
+
+        if ($clientSideLookup === 'yes')
+        {
+            #echo "<p>Client-side lookup is on...</p>\n";
+            $toReturn = true;
+        }
+        else
+        {
+            #echo "<p>Client-side lookup is off...</p>\n";
+        }
         return $toReturn;
     } #useJavaScriptLookup()
 
@@ -179,7 +190,7 @@
     #
     function useWordPress()
     {
-        # That is, if we pass parameter OverflowStyle (by GET or POST), 
+        # That is, if we pass parameter "OverflowStyle" (by GET or POST),
         # we can turn off the WordPress part (e.g. to ease HTML
         # validation (for example, when using WordPress, we
         # got 29 issues in total (14 errors and 15 warnings)
