@@ -3,7 +3,7 @@
 * This file is part of Edit Overflow.                                      *
 *                                                                          *
 *                                                                          *
-* Purpose: Static utility function, various.                               *
+* Purpose: Static utility functions, various.                              *
 *                                                                          *
 ****************************************************************************/
 
@@ -107,8 +107,30 @@ namespace OverflowHelper.core
         }
 
 
-    }
+        /****************************************************************************
+         *                                                                          *
+         *  This function does nothing. Its call is intended to                     *
+         *  be a place where a breakpoint can be reliably set.                      *
+         *                                                                          *
+         *  This is instead of using something like the                             *
+         *  following at the client side (which may                                 *
+         *  result in "warning CS0219: The variable                                 *
+         *  'peter9' is assigned but its value is                                   *
+         *  never used")                                                            *
+         *                                                                          *
+         *      int peter9 = 9;                                                     *
+         *                                                                          *
+         *                                                                          *
+         ****************************************************************************/
+        public static void debuggerRest()
+        {
 
-}
+        }
+
+
+    } //class Utility
+
+
+} //namespace OverflowHelper.core
 
 

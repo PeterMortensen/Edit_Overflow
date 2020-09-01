@@ -1,0 +1,154 @@
+﻿/****************************************************************************
+ * Copyright (C) 2020 Peter Mortensen                                       *
+ *                                                                          *
+ * This file is part of Edit Overflow.                                      *
+ *                                                                          *
+ *                                                                          *
+ * Purpose: Unit testing for class CodeFormattingCheck                      *
+ *                                                                          *
+ ****************************************************************************/
+
+
+using NUnit.Framework; //For all versions of NUnit,
+                       //file "nunit.framework.dll"
+
+//using NUnit.Engine. No!
+
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+
+using OverflowHelper.core;
+
+
+
+//What namespace to use?
+/****************************************************************************
+ *    <placeholder for header>                                              *
+ ****************************************************************************/
+namespace CodeFormattingCheckTests
+{
+
+    /****************************************************************************
+     *    <placeholder for header>                                              *
+     ****************************************************************************/
+    [TestFixture]
+    public class CodeFormattingCheckTests
+    {
+
+
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        [Test]
+        public void combinedAllOfRegularExpressions()
+        {
+
+            // Trivial test (as it is unlikely to change),
+            // but it is a way to get started...
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                Assert.AreEqual(@"\S\{", cfCheck.missingSpaceBeforeOpeningBracketRegex(), "");
+
+            }
+
+        } //combinedAllOfRegularExpressions()
+
+
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        [Test]
+        public void RegExExecutor_basics()
+        {
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+                
+                // Bad code should be detected
+                string badCode = "auto p=new Son();";
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundEqualSign()));
+
+                // Also using the full regular expression
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
+
+                // Corresponding fixed code
+                Assert.IsFalse(
+                    RegExExecutor.match("auto p = new Son();",
+                                        cfCheck.missingSpaceAroundEqualSign()));
+            }
+
+            {
+                //LookUpString tt2 = new LookUpString("   r ");
+                //string cs = tt2.getCoreString();
+                //Assert.AreEqual("r", cs , "");
+                //
+                //string leading = tt2.getLeading();
+                //Assert.AreEqual("   ", leading, "");
+                //
+                //string trailing = tt2.getTrailing();
+                //Assert.AreEqual(" ", trailing, "");
+            }
+
+            {
+                //LookUpString tt2 = new LookUpString("stackoverflow, ");
+                //string cs = tt2.getCoreString();
+                //Assert.AreEqual("stackoverflow", cs, "");
+                //
+                //string leading = tt2.getLeading();
+                //Assert.AreEqual("", leading, "");
+                //
+                //string trailing = tt2.getTrailing();
+                //Assert.AreEqual(", ", trailing, "");
+            }
+
+
+        } //RegExExecutor_basics()
+
+
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        [Test]
+        public void tightOperators()
+        {
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+                
+                // Bad code should be detected
+                string badCode = "if($fn&&$em)";
+                Assert.IsTrue(
+                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundOperators()));
+                    
+                // Variation of input    
+                Assert.IsTrue(
+                    RegExExecutor.match("if($fn &&$em)", cfCheck.missingSpaceAroundOperators()));
+                Assert.IsTrue(
+                    RegExExecutor.match("if($fn&& $em)", cfCheck.missingSpaceAroundOperators()));
+
+                // Also using the full regular expression
+                Assert.IsTrue(
+                   RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
+
+                // Corresponding fixed code, with the full regular 
+                // expression to catch false positives
+                Assert.IsFalse(
+                    RegExExecutor.match("if($fn && $em)",
+                                        cfCheck.combinedAllOfRegularExpressions()));
+            }
+
+        } //RegExExecutor_basics()
+
+
+
+
+    } //class CodeFormattingCheckTests
+
+
+} //namespace CodeFormattingCheckTests
+
+
