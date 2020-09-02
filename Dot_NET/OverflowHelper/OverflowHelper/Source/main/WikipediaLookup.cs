@@ -1651,6 +1651,7 @@ namespace OverflowHelper.core
             correctionAdd("Idea Intellij", "IntelliJ IDEA");
             correctionAdd("Idea intellij", "IntelliJ IDEA");
             correctionAdd("idea intellij", "IntelliJ IDEA");
+            correctionAdd("intelliJ", "IntelliJ IDEA");
 
             correctionAdd("couchdb", "CouchDB");
             correctionAdd("Couchdb", "CouchDB");
@@ -1909,6 +1910,10 @@ namespace OverflowHelper.core
             correctionAdd("EMACS", "Emacs");
             correctionAdd("EMACs", "Emacs");
 
+            correctionAdd("biopython", "Biopython");
+
+            correctionAdd("Python boost", "Boost.Python");
+
             correctionAdd("python", "Python");
             correctionAdd("PYTHON", "Python");
             correctionAdd("Pyton", "Python"); //Misspelling.
@@ -1917,6 +1922,7 @@ namespace OverflowHelper.core
             correctionAdd("phython", "Python");
             correctionAdd("Pthon", "Python");
             correctionAdd("Pytohon", "Python");
+            correctionAdd("phyton", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -3562,6 +3568,8 @@ namespace OverflowHelper.core
             correctionAdd("nTier", "n-tier");
             correctionAdd("3-tier", "n-tier"); //Not 100% correct - mostly for the Wikipedia link.
             correctionAdd("N-Tier", "n-tier");
+            correctionAdd("n tier", "n-tier");
+            correctionAdd("N tier", "n-tier");
 
             correctionAdd("DELPHI", "Delphi");
             correctionAdd("delphi", "Delphi");
@@ -4462,6 +4470,7 @@ namespace OverflowHelper.core
             correctionAdd("REDHAT", "Red Hat Linux");
 
             correctionAdd("phising", "phishing");
+            correctionAdd("Phising", "phishing");
 
             correctionAdd("dhcp", "DHCP");
             correctionAdd("DCHP", "DHCP");
@@ -5022,6 +5031,7 @@ namespace OverflowHelper.core
             correctionAdd("ets", "etc.");
             correctionAdd("ect", "etc.");
             correctionAdd("etc", "etc.");
+            correctionAdd("&c", "etc.");
 
             correctionAdd("midi", "MIDI");
             correctionAdd("Midi", "MIDI");
@@ -8481,6 +8491,8 @@ namespace OverflowHelper.core
             correctionAdd("web API", "Web API");
             correctionAdd("webapi", "Web API");
             correctionAdd("web api", "Web API");
+            correctionAdd("WebApi", "Web API");
+            correctionAdd("Web Api", "Web API");
 
             correctionAdd("duck-typing", "duck typing");
 
@@ -8969,6 +8981,7 @@ namespace OverflowHelper.core
             correctionAdd("SPA", "single-page application");
             correctionAdd("Single-Page Application", "single-page application");
             correctionAdd("single page app", "single-page application");
+            correctionAdd("Single Page Application", "single-page application");
 
             correctionAdd("german", "German");
 
@@ -9014,6 +9027,7 @@ namespace OverflowHelper.core
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
+            correctionAdd("Max", "maximum");
 
             correctionAdd("ecom", "E-commerce");
             correctionAdd("e-Commerce", "E-commerce");
@@ -9133,6 +9147,7 @@ namespace OverflowHelper.core
             correctionAdd("doesn´t", "doesn’t");
             correctionAdd("does'nt", "doesn’t");
             correctionAdd("Dosen't", "doesn’t");
+            correctionAdd("doesn", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -9888,6 +9903,7 @@ namespace OverflowHelper.core
             correctionAdd("referering", "referring");
             correctionAdd("refererring", "referring");
             correctionAdd("referrring", "referring");
+            correctionAdd("refferening", "referring");
 
             correctionAdd("DynamoDb", "DynamoDB");
 
@@ -11654,6 +11670,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows 2016", "Windows Server 2016");
             correctionAdd("windows 2016", "Windows Server 2016");
             correctionAdd("Server 2016", "Windows Server 2016");
+            correctionAdd("windows server 2016", "Windows Server 2016");
 
             correctionAdd("appriciated", "appreciated");
             correctionAdd("appericated", "appreciated");
@@ -11878,6 +11895,8 @@ namespace OverflowHelper.core
 
             correctionAdd("spread-sheet", "spreadsheet");
             correctionAdd("spreadshet", "spreadsheet");
+            correctionAdd("Spreadsheed", "spreadsheet");
+            correctionAdd("spreadsheed", "spreadsheet");
 
             correctionAdd("sintax", "syntax");
             correctionAdd("sytax", "syntax");
@@ -12747,6 +12766,7 @@ namespace OverflowHelper.core
             correctionAdd("serure", "secure");
 
             correctionAdd("stucked", "stuck");
+            correctionAdd("Stucked", "stuck");
 
             correctionAdd("swtich", "switch");
             correctionAdd("swith", "switch");
@@ -12937,6 +12957,7 @@ namespace OverflowHelper.core
             correctionAdd("openning", "opening");
 
             correctionAdd("requst", "request");
+            correctionAdd("resquest", "request");
 
             correctionAdd("temorarily", "temporarily");
             correctionAdd("temporaryly", "temporarily");
@@ -13326,6 +13347,8 @@ namespace OverflowHelper.core
             correctionAdd("Ohm law", "Ohm's law");
             correctionAdd("ohm law", "Ohm's law");
             correctionAdd("Ohm’s Law", "Ohm's law");
+            correctionAdd("Ohm's Law", "Ohm's law");
+            correctionAdd("ohms law", "Ohm's law");
 
             correctionAdd("php composer", "PHP Composer");
             correctionAdd("Composer", "PHP Composer");
@@ -14855,6 +14878,7 @@ namespace OverflowHelper.core
             correctionAdd("fail-proof", "failproof");
 
             correctionAdd("fine grain", "fine-grained");
+            correctionAdd("fine grained", "fine-grained");
 
             correctionAdd("follow up", "follow-up");
 
@@ -17274,6 +17298,7 @@ namespace OverflowHelper.core
             correctionAdd("Data Science", "data science");
 
             correctionAdd("fount", "found");
+            correctionAdd("fund", "found");
 
             correctionAdd("joistick", "joystick");
 
@@ -18414,8 +18439,6 @@ namespace OverflowHelper.core
 
             correctionAdd("trafic", "traffic");
 
-            correctionAdd("biopython", "Biopython");
-
             correctionAdd("buyed", "bought");
 
             correctionAdd("subversion", "Subversion");
@@ -19082,8 +19105,6 @@ namespace OverflowHelper.core
             correctionAdd("langugae", "language");
             correctionAdd("langue", "language");
             correctionAdd("langage", "language");
-
-            correctionAdd("Python boost", "Boost.Python");
 
             correctionAdd("let's encrypt", "Let's Encrypt");
             correctionAdd("lets encrypt", "Let's Encrypt");
@@ -19799,6 +19820,29 @@ namespace OverflowHelper.core
             correctionAdd("HTOP", "htop");
 
             correctionAdd("parrallism", "parallelism");
+
+            correctionAdd("cpm", "CPM");
+
+            correctionAdd("cran", "CRAN");
+
+            correctionAdd("jwt", "JWT");
+
+            correctionAdd("MSMQ", "Microsoft Message Queuing");
+
+            correctionAdd("post man", "Postman");
+            correctionAdd("postman", "Postman");
+
+            correctionAdd("Rabbit MQ", "RabbitMQ");
+
+            correctionAdd("Circuit", "circuit");
+
+            correctionAdd("scientust", "scientist");
+
+            correctionAdd("self explanatory", "self-explanatory");
+
+            correctionAdd("suspention", "suspension");
+
+            correctionAdd("velociy", "velocity");
 
 
 
@@ -30227,6 +30271,29 @@ namespace OverflowHelper.core
             URL_Add("htop", "https://en.wikipedia.org/wiki/Htop");
 
             URL_Add("parallelism", "https://en.wiktionary.org/wiki/parallelism#Noun");
+
+            URL_Add("CPM", "https://en.wikipedia.org/wiki/Cost_per_mille");
+
+            URL_Add("CRAN", "https://en.wikipedia.org/wiki/R_(programming_language)#Packages");
+
+            URL_Add("JWT", "https://en.wikipedia.org/wiki/JSON_Web_Token");
+
+            URL_Add("Microsoft Message Queuing", "https://en.wikipedia.org/wiki/Microsoft_Message_Queuing");
+
+            URL_Add("Postman", "https://stackoverflow.com/tags/postman/info");
+
+            URL_Add("RabbitMQ", "https://en.wikipedia.org/wiki/RabbitMQ");
+
+            URL_Add("circuit", "https://en.wiktionary.org/wiki/circuit#Noun");
+
+            URL_Add("scientist", "https://en.wiktionary.org/wiki/scientist#Noun");
+
+            URL_Add("self-explanatory", "https://en.wiktionary.org/wiki/self-explanatory#Adjective");
+
+            URL_Add("suspension", "https://en.wiktionary.org/wiki/suspension#Noun");
+
+            URL_Add("velocity", "https://en.wiktionary.org/wiki/velocity#Noun");
+
 
 
 
