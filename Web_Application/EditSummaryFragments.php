@@ -1,3 +1,8 @@
+<?php
+    # File: EditSummaryFragments.php
+
+?>
+
 
 <!-- Successor to EditSummaryFragments.html, at least for now
      to get the WordPress styling. But perhaps we can instead
@@ -269,10 +274,10 @@
 
             <p>It is not necessary to capitalise any words for emphasis.
                Both Stack Exchange, Wikipedia, Quora, and even YouTube
-               (though very poorly documented - see 
+               (though very poorly documented - see
                <a href="https://pmortensen.eu/world2/2020/03/22/bold-and-italics-in-youtube-comments/"
-               >my blog post about how to reliably style YouTube comments</a>) 
-               have facilities for <b>bold</b> and <i>italics</i>. 
+               >my blog post about how to reliably style YouTube comments</a>)
+               have facilities for <b>bold</b> and <i>italics</i>.
                It is mostly Indians that do this, but not at all exclusively.
                Anyone who has wasted too much time with (raw text-only)
                forums will have the tendency (and need to unlearn).
@@ -290,12 +295,12 @@
                />
             </p>
 
-            <!-- Or should this be in the pure links section? --> 
-            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange, and other 
-               Stack&nbsp;Exchange sites, etc. No matter how it looks in a logo 
+            <!-- Or should this be in the pure links section? -->
+            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange, and other
+               Stack&nbsp;Exchange sites, etc. No matter how it looks in a logo
                <a href="http://stackoverflow.com/legal/trademark-guidance"
-               ></a>it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange" 
-               (the last section - <em>"Proper Use of the Stack Exchange Name"</em>). 
+               ></a>it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"
+               (the last section - <em>"Proper Use of the Stack Exchange Name"</em>).
                The <strong><em>only</em></strong> exception is "MathOverflow"
                (and Jeff Atwood should have said <strong><em>no</em></strong> at the time).
 
@@ -315,7 +320,7 @@
             <p>Rhetorical questions do not belong in an answer. One of the
                reasons is that an answer should not address the OP - most
                readers (e.g. 99.9999%) will be someone else.
-                
+
                <br/>
                <input
                    name="X29"
@@ -533,9 +538,7 @@
                 accesskey="S"
                 title="Shortcut: Shift + Alt + S"
             />
-        </form><?php the_EditOverflowFooter(); ?>
-
-
+        </form><?php the_EditOverflowFooter('EditSummaryFragments.php', "", ""); ?>
 
 
             <!--
@@ -563,6 +566,5 @@
         </p>
 
 
-<?php include("commonEnd.php"); ?>
-
+<?php the_EditOverflowEnd() ?>
 

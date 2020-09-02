@@ -211,7 +211,62 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public string missingSpaceAroundOperators()
         {
-            string toAdd = @"\S&&|&&\S";
+            // Meta: Escaping double quotes in string:
+            //
+            //         <https://stackoverflow.com/questions/14480724>
+
+
+            // That is, around operators:
+            //
+            //   &&    Logical AND
+            //    .    String concatenation in e.g. Perl and PHP
+
+            // Note: No "|" after the last term
+            //
+            string toAdd =
+
+                // Logical AND
+
+                @"\S&&" + "|" + @"&&\S" + "|" +
+
+
+                // String concatenation in e.g. Perl and PHP
+                //
+                // One possible strategy is a negative list (exclude
+                // space and numbers):
+                //
+                //     [^ \d]
+                //
+                // But "." is used in many places, e.g. "using System.Text;"
+                //
+                // But we go with  a positive list: string literals by quotes,
+                // variables with "$", and array indexing ("[]")
+                //
+                // Note: A double double quote is for escaping
+                //       a double quote in C#...
+                //
+                @"('|\""|(\$\w+\[.+\]))\."  + "|" +
+
+                    // Missing space to the left of "." (unless a number
+                    // or array indexing). However, we have a hard time
+                    // distingushing something like this in PowerShell,
+                    //
+                    //    $m.Groups[2].Value
+                    //
+                    // from this in PHP:
+                    //
+                    //    $ARGV[0]." "
+                    //
+                    // For now, we require simple variables starting
+                    // with "$" - thus we risk false negatives (and
+                    // can probably still get false positives in
+                    // PowerShell in some cases).
+
+
+                @"\.['\""\]]" + "" +     // Missing space to the right
+                                         // of "." (unless a number)
+
+                "";
 
             return toAdd;
         } //missingSpaceAroundOperators()

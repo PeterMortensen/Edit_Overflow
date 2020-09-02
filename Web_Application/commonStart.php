@@ -19,6 +19,9 @@
 
     require_once('StringReplacerWithRegex.php');
 
+    require_once('commonEnd.php'); # Only function definitions
+
+
 
     # Used by one page (EditOverflow.php)
     const LOOKUPTERM = 'LookUpTerm';
@@ -30,10 +33,6 @@
     $formDataSizeDiff = -1;
 
 
-
-
-
-
     # Including version number and date
     #
     # Note that we are using the WordPress convention of
@@ -42,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a45 2020-06-15T162101Z+0";
+        return "Edit Overflow v. 1.1.49a63 2020-08-26T184924Z+0";
     }
 
 
@@ -74,7 +73,7 @@
 
         get_startOfDocument($someTitle);
 
-        echo "<h1>$someTitle</h1>";
+        echo "<h1>$someTitle</h1>\n";
 
 
         adjustForWordPressMadness();
@@ -96,8 +95,8 @@
             # Note: Warnings are issued only if actually
             #       executed, not at parse time.
             #
-            # When the proper error reporting level, it should result in
-            # something like this:
+            # With the proper error reporting level, it
+            # should result in something like this:
             #
             #     PHP Notice ... Undefined variable: dummy2 in ... commonStart.php on line ...
             #
@@ -105,7 +104,7 @@
         }
 
 
-    }
+    } #the_EditOverflowHeadline()
 
 
     # A central place to express if we should also support
@@ -160,7 +159,30 @@
         #Do any check for undefined, etc.???
 
         return $toReturn;
-    }
+    } #get_postParameter()
+
+
+    # Helper function to support switching between form based
+    # lookup (server) and client-side lookup (JavaScripty).
+    #
+    function useJavaScriptLookup()
+    {
+        #$toReturn = true; # Stub
+        $toReturn = false; # Default
+
+        $clientSideLookup = get_postParameter('UseJavaScript') ?? 'no';
+
+        if ($clientSideLookup === 'yes')
+        {
+            #echo "<p>Client-side lookup is on...</p>\n";
+            $toReturn = true;
+        }
+        else
+        {
+            #echo "<p>Client-side lookup is off...</p>\n";
+        }
+        return $toReturn;
+    } #useJavaScriptLookup()
 
 
     # Helper function to support switching between WordPress
@@ -168,8 +190,8 @@
     #
     function useWordPress()
     {
-        # That is, if we pass OverflowStyle (by GET or POST), we
-        # can turn off the WordPress part (e.g. to ease HTML
+        # That is, if we pass parameter "OverflowStyle" (by GET or POST),
+        # we can turn off the WordPress part (e.g. to ease HTML
         # validation (for example, when using WordPress, we
         # got 29 issues in total (14 errors and 15 warnings)
         # for "EditSummaryFragments.php")).
@@ -360,7 +382,8 @@
         # to offer some protection (and avoiding
         # objections to posting)).
         #
-        # For now, just globally replace "@"
+        # For now, just globally replace "@". But note that it
+        # affects LBRY invites (perhaps we should add an exception?).
         #
         $replacer->transform('\@', ' AT ');
 
@@ -373,12 +396,19 @@
         #       the HTML entity, "&rarr;".
         $replacer->transform('->', '→');
 
+        # After 2020-05-21, empty lines no longer work in YouTube
+        # comments (they are silently removed when submitting
+        # the comment).
+        #
+        # The workaround is to add a space to empty lines.
+        #
+        $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work
+                                                       # if the LAST line is empty.
+
         $someText = $replacer->currentString();
 
         return $someText;
     } #transformFor_YouTubeComments()
-
-
 
 
     # Note that we are using the WordPress convention of
@@ -442,7 +472,7 @@
             #
             # Note: non-quoted, HTML_END, for heredoc (not newdoc)
             #
-        echo <<<HTML_END
+            echo <<<HTML_END
 <!DOCTYPE html>
 <html lang="en">
 
@@ -525,7 +555,6 @@
     </head>
 
     <body>
-        <h1>(Note: PoC, to be styled to escape the 1990s...)</h1>
 
 HTML_END;
 
@@ -542,6 +571,5 @@ HTML_END;
 
 
 ?>
-
 
 

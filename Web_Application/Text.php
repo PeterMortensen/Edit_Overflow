@@ -1,19 +1,22 @@
 <?php
-     # Strange things are happening when this WordPress thing
-     # is included (a fix was added 2019-11-30, and finally
-     # another one fix 2019-12-10).
-     #
-     #   1. The YouTube convert (that uses a separate
-     #      PHP class in another file) had a lot of
-     #      warning lines. This turned out to be genuine
-     #      bug - the WordPress include had a configuration
-     #      that turned on debugging and surfaced the error.
-     #
-     #   2. Removing trailing space escapes single quotes
-     #      with backslash... This is a WordPress thing
-     #      (returned form data is escaped). The workaound
-     #      was to remove backslashes (this may be
-     #      sufficient as we don't XXX).
+    # File: Text.php
+
+
+    # Strange things are happening when this WordPress thing
+    # is included (a fix was added 2019-11-30, and finally
+    # another one fix 2019-12-10).
+    #
+    #   1. The YouTube convert (that uses a separate
+    #      PHP class in another file) had a lot of
+    #      warning lines. This turned out to be genuine
+    #      bug - the WordPress include had a configuration
+    #      that turned on debugging and surfaced the error.
+    #
+    #   2. Removing trailing space escapes single quotes
+    #      with backslash... This is a WordPress thing
+    #      (returned form data is escaped). The workaound
+    #      was to remove backslashes (this may be
+    #      sufficient as we don't XXX).
 ?>
 
 
@@ -184,6 +187,19 @@
                 $lenAfter  = strlen($aNewText);
                 $diff = $lenBefore - $lenAfter;
 
+                # Some redundancy here (refactor?)
+
+                if ($lenBefore < 2)
+                {
+                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: xxx" . $aOrigText . "xxx </p>\n";
+                    assert(false);
+                }
+                if ($lenAfter < 2)
+                {
+                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: xxx" . $aOrigText . "xxx </p>\n";
+                    assert(false);
+                }
+
                 if (! ($diff === $aLengthDiff))
                 {
                     echo "<br/><br/>\n";
@@ -309,6 +325,9 @@
             function test_transformFor_YouTubeComments($ID, $aSomeText, $aLengthDiff)
             {
                 $touchedText = transformFor_YouTubeComments($aSomeText);
+
+                #print "<p>$ID: AAAA $touchedText BBBB</pp>";
+
                 assert_strLengths($ID,
                                   $aSomeText,
                                   $touchedText,
@@ -390,8 +409,8 @@
             # URL (but it will cover many JavaScript frameworks).
             #
             # Note: The *first* part of an HTTPS Wikipedia URL happens
-            #       to have the same length after transformation (thus 
-            #       "0") for the third parameter. This is a pure 
+            #       to have the same length after transformation (thus
+            #       "0") for the third parameter. This is a pure
             #       coincidence.
             #
             test_transformFor_YouTubeComments(1014,
@@ -403,6 +422,16 @@
             # Normal full stops
             test_transformFor_YouTubeComments(1016, "first job._", 0);
             test_transformFor_YouTubeComments(1017, "first job.", 0);
+
+            # Insertion of empty space on empty lines - introduced
+            # after changes to YouTube comments on 2020-05-21
+            #
+            test_transformFor_YouTubeComments(1018,
+                                              "     Graasten\r\n" .
+                                                "\r\n" .
+                                                "XXXX\r\n",
+                                              -1);
+
 
             # ----------------------------------------------------------------
 
@@ -654,7 +683,7 @@
 
             echo "$message $extraMessage\n\n";
 
-            the_EditOverflowFooter();
+            the_EditOverflowFooter('Text.php', "", "");
         ?>
 
 
@@ -673,5 +702,5 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<?php include("commonEnd.php"); ?>
+<?php the_EditOverflowEnd() ?>
 

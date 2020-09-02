@@ -26,10 +26,7 @@
 -->
 
 
-
 <?php include("commonStart.php"); ?>
-
-
 
 
         <?php
@@ -260,7 +257,9 @@
             $items = array_filter($items); # Get rid of empty elements
 
             # Wrap each item in "<>" (URL encoded)
-            $items = substr_replace($items, '&lt;', 0, 0);
+            $items = substr_replace($items, '&lt;', 0, 0); # That is, insert "&lt;" at
+                                                           # the beginning of the
+                                                           # element of the array
             $items = preg_replace('/$/', '&gt;', $items);
             $elements = count($items);
 
@@ -304,23 +303,102 @@
                 #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
             }
 
+            # If the correct term can not be looked up, we substitute
+            # with the incorrect term. One reason for this is the use
+            # of automatic tools, like a macro keyboard, that blindly
+            # applies a lookup. In this way the term in the original
+            # place, e.g. an edit window will not be blanked out,
+            # but effectively left as it was.
+            #
+            #What about empty input??
+            if ($correctTerm)
+            {
+                $effectiveTerm = $correctTerm;
+            }
+            else
+            {
+                #$itemValue .= "..."; # To force the form input
+                #                     # field to not be empty
+
+                # Fill in the corrected field even though the lookup
+                # failed. Justification: So an automatic process,
+                # like a macro keyboard, will not overwrite the
+                # origin (e.g. in an edit field in a
+                # web browser tab).
+                #
+                # An alternative could be to append some text
+                # to indicate failure (so we achieve not
+                # overwriting, but don't pretend to have
+                # succeeded).
+                #
+                # E.g., it could be subtle, like a few extra
+                # spaces. Or an HTML comment (works for the
+                # common use case).
+                #
+                $effectiveTerm = $lookUpTerm;
+            }
+
         ?>
 
 
         <?php
-            #Now dynamic (shows the term in the title so we can distinguish
-            #e.g. when opening recently closed tabs in Firefox), but we may
-            #to add a special case for ***empty*** input/initial page...
-            #(right now it is using some default).
+            #Now dynamic (shows the term in the title so we can
+            #distinguish e.g. when opening recently closed tabs
+            #in Firefox), but we may to add a special case for
+            #***empty*** input/initial page... (right now it
+            #is using some default).
 
             the_EditOverflowHeadline("Look up of \"$lookUpTerm\"");
         ?>
 
+        <script src="EditOverflowList.js"></script>
+
+        <script src="EditOverflow.js"></script>
+
+        <script>
+            // Only if we want the lookup for the default input
+            window.onload = function() {
+                //document.lookupForm.action = get_action();
+            }
+        </script>
 
         <form
-            name="XYZ"
+            name="lookupForm"
             method="post"
-            id="XYZ">
+            id="lookupForm"            
+            <?php 
+                if (useJavaScriptLookup())
+                {
+                    //Aparrently also needed...
+                    //
+                    //But it contradicts earlier conclusions that it
+                    //was only needed for the submit button...
+                    //
+                    //What is up???
+                    
+                    echo "onsubmit=\"return get_action(); return false;\"\n";
+                }
+                
+                // For proper indent in the generated HTML - regardless 
+                // of the return value of useJavaScriptLookup() or
+                // whether we actually output anything in PHP.
+                echo "\n";
+            ?>
+        >
+
+            <!--
+                For manually inserting it above as an attribute
+                to "form" - as we can't have HTML comments
+                inside an HTML tag ("form" in this case).
+
+                But it is not required for our lookup to work
+                (only for the initial opening of the page(?)) -
+                just doing the same for the submit button (below)
+                is sufficient.
+
+                onsubmit="return get_action(); return false;"
+            -->
+
 
             <div class="formgrid">
 
@@ -481,34 +559,7 @@
                         # version of Edit Overflow) - where we preserve
                         # any leading and trailing white space.
 
-                        #What about empty input??
-                        if ($correctTerm)
-                        {
-                            $itemValue = "$correctTerm ";
-                        }
-                        else
-                        {
-                            #$itemValue .= "..."; # To force the form input
-                            #                     # field to not be empty
-
-                            # Fill in the corrected field even though the lookup
-                            # failed. Justification: So an automatic process,
-                            # like a macro keyboard, will not overwrite the
-                            # origin (e.g. in an edit field in a
-                            # web browser tab).
-                            #
-                            # An alternative could be to append some text
-                            # to indicate failure (so we achieve not
-                            # overwriting, but don't pretend to have
-                            # succeeded).
-                            #
-                            # E.g., it could be subtle, like a few extra
-                            # spaces. Or an HTML comment (works for the
-                            # common use case).
-                            #
-                            $itemValue = "$lookUpTerm ";
-                        }
-                        the_formValue($itemValue);
+                        the_formValue($effectiveTerm . " ");
                     ?>
                     style="width:110px;"
                     accesskey="C"
@@ -673,7 +724,7 @@
                 -->
 
                 <input
-                    name="XYZ"
+                    name="LookUp"
                     type="submit"
                     id="LookUp"
                     class="XYZ12"
@@ -681,11 +732,41 @@
                     style="width:90px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
+
+                    <?php
+                        if (useJavaScriptLookup())
+                        {
+                            echo "onsubmit=\"return get_action(); return false;\"";
+                        }
+
+                        // For proper indent in the generated HTML - regardless 
+                        // of the return value of useJavaScriptLookup() or
+                        // whether we actually output anything in PHP.
+                        echo "\n";
+                    ?>
                 />
+
+                <!--
+                    For ***manually*** inserting it above as an
+                    attribute to the submit button - as we
+                    can't have HTML comments inside an
+                    HTML tag ("form" in this case).
+
+                    The ***only*** thing required to get the
+                    lookup to happen in JavaScript (on the
+                    client side (in the browser)) is to
+                    insert this for lookup button (just above):
+
+                        onclick="get_action(); return false;"
+                        
+                    But JavaScript must be enabled in the browser
+                    for it to work - e.g. allowing it in NoScript
+                    in Firefox!!!!    
+                -->
 
             </div>
 
-        </form><?php the_EditOverflowFooter(); ?>
+        </form><?php the_EditOverflowFooter('EditOverflow.php', $effectiveTerm, $URL); ?>
 
 
             <!--
@@ -715,6 +796,6 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
-<?php include("commonEnd.php"); ?>
+<?php the_EditOverflowEnd() ?>
 
 
