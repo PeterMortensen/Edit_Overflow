@@ -1,4 +1,3 @@
-
 <?php
     # File: Link_Builder.php
 
@@ -31,11 +30,18 @@
 <!--
     Note:
 
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
+      1. We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
 
-        <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
-
-        <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
+           <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
+           
+      2. Parameters are supported, including for GET:
+      
+           <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
+      
+           <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>
+        
+          
+        
 -->
 
 
@@ -53,6 +59,8 @@
             $shortMark_part1 = "Part 1";
             $shortMark_part2 = "Part 2";
             $inlineMarkdown = "Part 3";
+            $link_HTML = "Part 4";
+            $MediaWiki_link = "Part 5";
             $IDcounter = 1;
             $emphasisStr = "*";
 
@@ -101,6 +109,73 @@
             $shortMark_part2 = "  $IDref: $URL";
             $inlineMarkdown = "$emphasisStr$linkTextBracketed($URL)$emphasisStr";
 
+
+            # Note: Some redundancy with "EditOverflow.php"
+            #
+            # Link, in HTML format/syntax
+            #
+            #Note: We already have a utility function for this, get_HTMLlink(),
+            #      but the escaping of double quotes is in doubt. We changed
+            #      it from "&quot;" to "%22" (in get_HTMLattributeEscaped()).
+            #
+            #      That does not work in this case - we get the literal "%22"
+            #      in the (user facing) output.
+            #
+            #      It ought to be resolved, so we don't have
+            #      this redundancy
+            #
+            #$link_HTML = get_HTMLlink($correctTerm,
+            #                          $URL,
+            #                          "");
+            #
+            # Using double quotes in the form may result in "%22" due
+            # to our own function, get_HTMLattributeEscaped().
+            #
+            $link_HTML =
+              "<a href=\"" . $URL . "\"" .
+              ">" . $linkText . "</a>";
+
+            # MediaWiki link
+            #
+            # Note: Some characters could be better handled, especially
+            #       parentheses. Example:
+            #
+            #     https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29
+            #       C Sharp (programming language)
+            #
+            #     It would be better to convert the percentage encoding
+            #     (%28 and %29) to "("/")" for the link text.
+            #
+            # Extract the MediaWiki link from the URL, including
+            # converting underscores to space.
+            #
+            $MediaWiki_link = "";
+
+            # Only if it is actually on Wikipedia
+            if (1) # Stub
+            {
+                # $MediaWiki_link = preg_replace('/\*/', '', $URL);
+                # $MediaWiki_link = substr_replace($URL, 'https://en.wikipedia.org/wiki/', 0, 0);
+
+                $MediaWiki_firstPart = preg_replace('/https:\/\/en.wikipedia.org\/wiki\//', '', $URL);
+
+                $MediaWiki_link = '[[' . $MediaWiki_firstPart . '|' . $linkText . ']]';
+            }
+
+
+            # Note: The rest, until the form, is not implemented yet.
+            #
+            #       BTW, why do we want an accumulative feature? Is it
+            #       because we want to invoke link builder from a
+            #       lookup page with multiple terms (so we don't
+            #       have to manually invoke link builder for
+            #       each term?).
+            #
+            #       That would cover the use case from 2020-06-25,
+            #       linkyfying this for a talk page entry:
+            #
+            #          C#, VB.NET, F#
+            #
 
             # For the accumulative feature (we remember past generated
             # link text/URL pairs)
@@ -151,43 +226,6 @@
             # each item by a space
             $URLlist = implode(' ', $items_URLlist);
 
-
-            ## For normal edit summary, outside Stack Overflow -
-            ## with Oxford comma!
-            ##
-            #$URLlist2 =
-            #    join(', and ',
-            #         array_filter(
-            #             array_merge(
-            #                 array(
-            #                     join(', ',
-            #                          array_slice($items, 0, -1))),
-            #                          array_slice($items, -1)), 'strlen'));
-            #
-            ##Adjust for two elements
-            #
-            #if ($elements == 2)
-            #{
-            #    $URLlist2 = str_replace(', and', ' and', $URLlist2);
-            #}
-
-            # echo "<p>URLlist: >>>$URLlist<<< <p>\n";
-            # echo "<p>URLlist2: >>>$URLlist2<<< <p>\n";
-
-
-            #if ($editSummary) # "$editSummary" is to be eliminated and replaced
-            #                  # with an equivalent if construct.
-            #{
-            #    # Derived
-            #    $editSummary_output = "Active reading [" . $URLlist . "].";
-            #
-            #    $editSummary_output2 = "Copy edited (e.g. ref. $URLlist2).";
-            #
-            #    ## Current compensation for not being sophisticated when generating
-            #    ## a list...
-            #    #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
-            #}
-
         ?>
 
         <form
@@ -195,135 +233,166 @@
             method="post"
             id="XYZ">
 
-            <p>Build links
-               Lin<u>k</u> text:
+            <div class="formgrid">
 
+                <label for="LinkText">Lin<u>k</u> text</label>
                 <input
                     name="LinkText"
                     type="text"
                     id="LinkText"
                     class="XYZ25"
                     <?php the_formValue($linkText); ?>
-                    style="width:610px;"
+                    style="width:200px;"
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
                 />
-            </p>
 
-            <p><u>U</u>RL:
-
+                <label for="URL"><u>U</u>RL</label>
                 <input
                     name="URL"
                     type="text"
                     id="URL"
                     class="XYZ02"
                     <?php the_formValue($URL); ?>
-                    style="width:500px;"
+                    style="width:650px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
                 /><?php
-                    # Perhaps later: Add links / form fields for opening the provided URL.
-                    #if (!$correctTerm)
-                    #{
-                    #    $baseIndent        = "                ";
-                    #    $EOL_andBaseIndent = "\n$baseIndent";
-                    #    echo
-                    #      "\n$EOL_andBaseIndent" .
-                    #      "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
-                    #
-                    #    # Refactoring opportunity: some redundancy
-                    #
-                    #    # Provide a link to look up the term on Wikipedia
-                    #    echo
-                    #      "<a " .
-                    #      "href=\"" .
-                    #        "https://duckduckgo.com/html/?q=" .
-                    #        "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
-                    #      "   accesskey=\"W\"$EOL_andBaseIndent" .
-                    #      "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
-                    #      ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
-                    #
-                    #    # Provide a link to look up the term on Wiktionary
-                    #    echo
-                    #      "<a " .
-                    #      "href=\"" .
-                    #        "https://duckduckgo.com/html/?q=" .
-                    #        "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
-                    #      "   accesskey=\"K\"$EOL_andBaseIndent" .
-                    #      "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
-                    #      ">Look up on Wi<strong>k</strong>tionary</a>\n";
-                    #}
+
+                # Perhaps later: Add links / form fields for opening the provided URL.
+                #if (!$correctTerm)
+                #{
+                #    $baseIndent        = "                ";
+                #    $EOL_andBaseIndent = "\n$baseIndent";
+                #    echo
+                #      "\n$EOL_andBaseIndent" .
+                #      "<strong>Could not look up \"$lookUpTerm\"!</strong>$EOL_andBaseIndent";
+                #
+                #    # Refactoring opportunity: some redundancy
+                #
+                #    # Provide a link to look up the term on Wikipedia
+                #    echo
+                #      "<a " .
+                #      "href=\"" .
+                #        "https://duckduckgo.com/html/?q=" .
+                #        "Wikipedia%20$lookUpTerm\"$EOL_andBaseIndent" .
+                #      "   accesskey=\"W\"$EOL_andBaseIndent" .
+                #      "   title=\"Shortcut: Shift + Alt + V\"$EOL_andBaseIndent" .
+                #      ">Look up on <strong>W</strong>ikipedia</a>$EOL_andBaseIndent";
+                #
+                #    # Provide a link to look up the term on Wiktionary
+                #    echo
+                #      "<a " .
+                #      "href=\"" .
+                #        "https://duckduckgo.com/html/?q=" .
+                #        "Wiktionary%20$lookUpTerm\"$EOL_andBaseIndent" .
+                #      "   accesskey=\"K\"$EOL_andBaseIndent" .
+                #      "   title=\"Shortcut: Shift + Alt + K\"$EOL_andBaseIndent" .
+                #      ">Look up on Wi<strong>k</strong>tionary</a>\n";
+                #}
                 ?>
-            </p>
 
 
-            <!-- **************************************************** -->
-            <h2>Output</h2>
+                <!-- **************************************************** -->
+                <h2>Output</h2>
 
-            <p>Short Markdown (tex<u>t</u> / re<u>f</u>erence):
+                <p></p>
 
+                <p></p>
+
+                <label for="ShortMark_part1">Short Markdown, tex<u>t</u></label>
                 <input
                     name="ShortMark_part1"
                     type="text"
                     id="ShortMark_part1"
-                    class="XX20"
+                    class="XYZ20"
                     <?php the_formValue($shortMark_part1); ?>
-                    style="width:600px;"
+                    style="width:200px;"
                     accesskey="T"
                     title="Shortcut: Shift + Alt + T"
                 />
 
+                <label for="ShortMark_part1">Short Markdown, re<u>f</u>erence</label>
                 <input
                     name="ShortMark_part2"
                     type="text"
                     id="ShortMark_part2"
-                    class="XX21"
+                    class="XYZ21"
                     <?php the_formValue($shortMark_part2); ?>
-                    style="width:450px;"
+                    style="width:650px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
                 />
-            </p>
 
-            <p>Inline <u>M</u>arkdown:
 
+                <label for="inlineMarkdown">Inline <u>M</u>arkdown</label>
                 <input
                     name="inlineMarkdown"
                     type="text"
                     id="inlineMarkdown"
-                    class="XX22"
+                    class="XYZ22"
                     <?php the_formValue($inlineMarkdown); ?>
                     style="width:650px;"
                     accesskey="M"
                     title="Shortcut: Shift + Alt + M"
                 />
-            </p>
 
 
-            <!-- Hidden field, close to the output format for
-                 the edit summary
+                <label for="HTML_link"><u>H</u>TML</label>
+                <input
+                    name="HTML_link"
+                    type="text"
+                    id="HTML_link"
+                    class="XYZ26"
+                    <?php
+                        # Note: Some redundancy with "EditOverflow.php"
 
-              Sample:
+                        $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
+                        echo "value=\"$link_HTML_encoded\"\n";
+                    ?>
+                    style="width:650px;"
+                    accesskey="H"
+                    title="Shortcut: Shift + Alt + H"
+                />
 
-                <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
-
-            -->
-
-
-            <!-- Hidden field, structured format for the edit summary -->
-            <!--
-            <input
-                name="URLlist_encoded"
-                type="hidden"
-                id="URLlist_encoded"
-                class="XYZ23"
-                <?php the_formValue($URLlist_encoded); ?>
-            />
-            -->
+                <label for="MediaWiki_link">Media<u>W</u>iki</label>
+                <input
+                    name="MediaWiki_link"
+                    type="text"
+                    id="MediaWiki_link"
+                    class="XYZ27"
+                    <?php the_formValue($MediaWiki_link); ?>
+                    style="width:650px;"
+                    accesskey="W"
+                    title="Shortcut: Shift + Alt + W"
+                />
 
 
-            <!-- Reset lookup / edit summary state  -->
-            <p><u>R</u>eset lookup state:
+
+                <!-- Hidden field, close to the output format for
+                     the edit summary
+
+                  Sample:
+
+                    <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
+
+                -->
+
+
+                <!-- Hidden field, structured format for the edit summary -->
+                <!--
+                <input
+                    name="URLlist_encoded"
+                    type="hidden"
+                    id="URLlist_encoded"
+                    class="XYZ23"
+                    <?php the_formValue($URLlist_encoded); ?>
+                />
+                -->
+
+
+                <!-- Reset lookup / edit summary state  -->
+
                 <input
                     name="resetState"
                     type="checkbox"
@@ -332,24 +401,26 @@
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
                 />
-            </p>
-
-            <!-- Submit button  -->
-            <!-- For 'value' (the displayed text in the button), tags 'u'
-                 or 'strong' do not work!! -->
-            <input
-                name="LookUp"
-                type="submit"
-                id="LookUp"
-                class="XYZ03"
-                value="Generate"
-                style="width:75px;"
-                accesskey="U"
-                title="Shortcut: Shift + Alt + U"
-            />
-        </form><?php the_EditOverflowFooter(); ?>
+                <label for="resetState"><u>R</u>eset lookup state</label>  <!-- The order matters! -->
 
 
+                <!-- Submit button  -->
+                <!-- For 'value' (the displayed text in the button), tags 'u'
+                     or 'strong' do not work!! -->
+                <input
+                    name="LookUp"
+                    type="submit"
+                    id="LookUp"
+                    class="XYZ03"
+                    value="Generate"
+                    style="width:100px;"
+                    accesskey="U"
+                    title="Shortcut: Shift + Alt + U"
+                />
+
+            </div>
+
+        </form><?php the_EditOverflowFooter('Link_Builder.php', $linkText, $URL); ?>
 
 
             <!--
@@ -379,5 +450,5 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
 
+<?php the_EditOverflowEnd() ?>
 
-<?php include("commonEnd.php"); ?>

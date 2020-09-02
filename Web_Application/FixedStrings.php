@@ -1,3 +1,8 @@
+<?php
+    # File: FixedStrings.php
+
+?>
+
 
 <!-- Successor to FixedStrings.html, at least for now to get
      the WordPress styling. But perhaps we can instead
@@ -206,7 +211,6 @@
             </p>
 
 
-
             <!-- ******************************************************* -->
             <h2>Regular expressions for code checking</h2>
 
@@ -239,8 +243,6 @@
             </p>
 
 
-
-
             <!-- Submit button  - it ought to be invisible!
             -->
             <!-- For 'value' (the displayed text in the button), tags 'u'
@@ -255,9 +257,7 @@
                 accesskey="S"
                 title="Shortcut: Shift + Alt + S"
             />
-        </form><?php the_EditOverflowFooter(); ?>
-
-
+        </form><?php the_EditOverflowFooter('FixedStrings.php', "", ""); ?>
 
 
             <!--
@@ -286,5 +286,5 @@
         </p>
 
 
-<?php include("commonEnd.php"); ?>
+<?php the_EditOverflowEnd() ?>
 
