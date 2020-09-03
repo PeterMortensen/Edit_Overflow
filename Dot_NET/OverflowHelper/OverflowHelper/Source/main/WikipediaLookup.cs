@@ -1848,14 +1848,6 @@ namespace OverflowHelper.core
             correctionAdd("ReShaper", "ReSharper");
             correctionAdd("Re#", "ReSharper");
 
-            correctionAdd("tdd", "test-driven development");
-            correctionAdd("Test Driven Development", "test-driven development");
-            correctionAdd("Test Driven Developmen", "test-driven development");
-            correctionAdd("Test-driven development", "test-driven development");
-            correctionAdd("Test-Driven Development", "test-driven development");
-            correctionAdd("test driven development", "test-driven development");
-            correctionAdd("TDD", "test-driven development");
-
             correctionAdd("Xampp", "XAMPP");
             correctionAdd("XAMMP", "XAMPP"); //Observed misspelling! P -> M
             correctionAdd("xampp", "XAMPP");
@@ -5923,6 +5915,7 @@ namespace OverflowHelper.core
             correctionAdd("GoF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)"); // Effectively self.
             correctionAdd("Gang of Four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("GOF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("gang of four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
 
             correctionAdd("basic", "BASIC");
             correctionAdd("Basic", "BASIC");
@@ -10262,12 +10255,6 @@ namespace OverflowHelper.core
             correctionAdd("Pycharm", "PyCharm");
             correctionAdd("pyCharm", "PyCharm");
 
-            correctionAdd("BDD", "behavior-driven development");
-            correctionAdd("Behavior Driven Development", "behavior-driven development");
-            correctionAdd("Behavior-Driven Development", "behavior-driven development");
-            correctionAdd("bdd", "behavior-driven development");
-            correctionAdd("Behaviour Driven Development", "behavior-driven development");
-
             correctionAdd("apperently", "apparently");
             correctionAdd("aparently", "apparently");
 
@@ -10570,9 +10557,24 @@ namespace OverflowHelper.core
             correctionAdd("occured", "occurred");
             correctionAdd("ocurred", "occurred");
 
+            correctionAdd("tdd", "test-driven development");
+            correctionAdd("Test Driven Development", "test-driven development");
+            correctionAdd("Test Driven Developmen", "test-driven development");
+            correctionAdd("Test-driven development", "test-driven development");
+            correctionAdd("Test-Driven Development", "test-driven development");
+            correctionAdd("test driven development", "test-driven development");
+            correctionAdd("TDD", "test-driven development");
+
+            correctionAdd("BDD", "behavior-driven development");
+            correctionAdd("Behavior Driven Development", "behavior-driven development");
+            correctionAdd("Behavior-Driven Development", "behavior-driven development");
+            correctionAdd("bdd", "behavior-driven development");
+            correctionAdd("Behaviour Driven Development", "behavior-driven development");
+
             correctionAdd("developement", "development");
             correctionAdd("devolpment", "development");
             correctionAdd("developpement", "development");
+            correctionAdd("develepment", "development");
 
             correctionAdd("simulateous", "simultaneous");
             correctionAdd("Similtanous", "simultaneous");  //Not 100% correct - case.
