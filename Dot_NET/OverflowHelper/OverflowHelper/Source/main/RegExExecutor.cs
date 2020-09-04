@@ -5,14 +5,17 @@
 * This file is part of Overflow Helper.                                    *
 *                                                                          *
 *                                                                          *
-* Purpose: In the first instance, a helper class for testing, but it       *
-*          may later be used on user text (thus its position in the        *
-*          folder structure). We could imagine the same search and         *
-*          accept/reject process as in a text editor (perhaps even         *
-*          with some "learning" - adaptive/dynamic)                        *
+* Purpose: In the first instance, a helper class for testing (e.g.         * 
+*          used in '\Dot_NET\Tests\CodeFormattingCheckTests.cs'),          *
+*          but it may later be used on user text (thus its                 *
+*          position in the folder structure). We could imagine             *
+*          the same search and accept/reject process as in a               *
+*          text editor (perhaps even with some "learning" -                *
+*          adaptive/dynamic)                                               *
 *                                                                          *
 *          It hides how to match some text with a regular expression.      *
 *                                                                          *
+* Reference: For example, used in                                          *
 *                                                                          *
 ****************************************************************************/
 
@@ -37,6 +40,9 @@ namespace OverflowHelper.core
     {
 
 
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
         public RegExExecutor()
         {
 
