@@ -346,6 +346,74 @@ namespace OverflowHelper
         } //updateCheckinMessage()
 
 
+        public struct lookupResultStructure
+        {
+            public string lookUpFailureText;
+            public string coreString;
+            public string correctedText;
+            public string WikipediaURL;
+            public int URlcount;
+        }; //struct lookupResuls
+
+
+        /****************************************************************************
+         *                                                                          *
+         *  This function is independent of the (Windows) UI.                       *
+         *                                                                          *
+         *                                                                          *
+         ****************************************************************************/
+        private lookupResultStructure lookup_Central(string aToLookUp, 
+                                                     bool aGuessURL_ifFailedLookup)
+        {
+            lookupResultStructure toReturn;
+
+            toReturn.lookUpFailureText = string.Empty; // Default.
+            toReturn.coreString = string.Empty;
+            toReturn.correctedText = string.Empty; // Default. We use it as a flag.
+            toReturn.WikipediaURL = string.Empty;
+            toReturn.URlcount = -1;
+
+            // GUI independent
+            {
+                //string wordToLookup = textSearchWord.Text;
+                LookUpString tt2 = new LookUpString(aToLookUp);
+                toReturn.coreString = tt2.getCoreString();
+
+                string leading = tt2.getLeading();
+                string trailing = tt2.getTrailing();
+
+                string correctedWord;
+
+                //Note about the variable name: It is not always
+                //a Wikipedia URL... Some are for Wiktionary, MSDN, etc.
+                toReturn.WikipediaURL =
+                    mWikipediaLookup.lookUp(
+                        toReturn.coreString,
+                        aGuessURL_ifFailedLookup,
+                        out correctedWord);
+                if (toReturn.WikipediaURL.Length > 0)
+                {
+                    mCheckinMessageBuilder.addWord(correctedWord, 
+                                                   toReturn.WikipediaURL);
+
+                    //In user output: include leading and trailing whitespace
+                    //from the input (so it works well with keyboard
+                    //combination Shift + Ctrl + right Arrow).
+                    toReturn.correctedText = leading + correctedWord + trailing;
+
+                    toReturn.URlcount = mCheckinMessageBuilder.getNumberOfWords();
+                }
+                else
+                {
+                    toReturn.lookUpFailureText = 
+                        "Could not lookup " + toReturn.coreString + "!";
+                }
+            } // GUI independent
+
+            return toReturn;
+        } //lookup_Central()
+
+
         /****************************************************************************
          *                                                                          *
          *    This function may change the contents of the clipboard                *
@@ -356,32 +424,20 @@ namespace OverflowHelper
             // Is chkChangeClipboardOnLookup respected? Yes, in
             // clipboardUpdate() below.
 
-            //string wordToLookup = textSearchWord.Text;
-            LookUpString tt2 = new LookUpString(textSearchWord.Text);
-            string cs = tt2.getCoreString();
-            string leading = tt2.getLeading();
-            string trailing = tt2.getTrailing();
+            string toLookUp = textSearchWord.Text;
 
-            string correctedWord;
+            lookupResultStructure lookupResult = lookup_Central(toLookUp, 
+                                                                aGuessURL_ifFailedLookup);
 
-            //Note about the variable name: It is not always
-            //a Wikipedia URL... Some are for Wiktionary, MSDN, etc.
-            string WikipediaURL =
-                mWikipediaLookup.lookUp(
-                    cs,
-                    aGuessURL_ifFailedLookup,
-                    out correctedWord);
-            if (WikipediaURL.Length > 0)
+            string correctedText2 = lookupResult.correctedText;
+            int URlcount = lookupResult.URlcount;
+
+            // GUI
+            if (correctedText2 != string.Empty)
             {
-                mCheckinMessageBuilder.addWord(correctedWord, WikipediaURL);
+                txtCorrected.Text = correctedText2;
+                txtOutputURL.Text = lookupResult.WikipediaURL;
 
-                //In user output: include leading and trailing whitespace
-                //from the input (so it works well with keyboard
-                //combination Shift + Ctrl + right Arrow).
-                string correctedText = leading + correctedWord + trailing;
-                txtCorrected.Text = correctedText;
-
-                int URlcount = mCheckinMessageBuilder.getNumberOfWords();
                 textLookupCounts.Text = URlcount.ToString();
 
                 //textLookupCounts.BackColor = Color.Gray;
@@ -410,23 +466,22 @@ namespace OverflowHelper
 
                 //  Ref: <http://stackoverflow.com/questions/506641>
 
-                txtOutputURL.Text = WikipediaURL;
-
                 updateCheckinMessage();
-                clipboardUpdate(correctedText);
+
+                clipboardUpdate(lookupResult.correctedText);
 
                 // Note: not 100% correct wrt. leading/trailing white space...
                 tstrLabel2.Text =
-                    "\"" + cs + "\" looked up as \"" + correctedText + "\"...";
+                    "\"" + lookupResult.coreString + "\" looked up as \"" +
+                    correctedText2 + "\"...";
 
                 this.ActiveControl = txtCheckinMessage;
             }
             else
             {
-                string msg =
-                  "Could not lookup " + cs + "!";
-                System.Windows.Forms.MessageBox.Show(msg);
+                System.Windows.Forms.MessageBox.Show(lookupResult.lookUpFailureText);
             }
+
 
             //XXXXXXXXX Not yet
             //mLastLookupTick = System.DateTime.Now();
