@@ -10,8 +10,7 @@
 /****************************************************************************
  *                       Mortensen Consulting                               *
  *                         Peter Mortensen                                  *
- *                E-mail: NUKESPAMMERSdrmortensen@get2netZZZZZZ.dk          *
- *                 WWW: http://www.cebi.sdu.dk/                             *
+ *                E-mail: XXX@XXXX                                          *
  *                                                                          *
  *  Program for Wiki editing.                                               *
  *                                                                          *
@@ -103,9 +102,6 @@ namespace OverflowHelper
      ****************************************************************************/
     public partial class frmMainForm : Form
     {
-        private WikipediaLookup mWikipediaLookup;
-        private CheckinMessageBuilder mCheckinMessageBuilder;
-
         private timing mTiming;
 
         private LinkRef mLinkRefGenerator; //Essentially global/unique ref numbers
@@ -122,12 +118,11 @@ namespace OverflowHelper
 
         private StringBuilder mScratchSB;
 
-        private EditSummaryStyle mEditSummaryStyle;
-
-
         private EditorOverflowApplication mApplication;
 
         private CodeFormattingCheck mCodeFormattingCheck;
+
+        private WordCorrector mWordCorrector;
 
 
         /****************************************************************************
@@ -145,16 +140,14 @@ namespace OverflowHelper
 
             try
             {
-                mWikipediaLookup = new WikipediaLookup();
-
                 mSites = new Sites();
-
-                mEditSummaryStyle = new EditSummaryStyle();
+                mWordCorrector = new WordCorrector();
             }
             catch (Exception exceptionObject)
             {
                 //Use something else than speech to get attention.
-                string msg = "Crash in constructor of WikipediaLookup";
+                string msg = 
+                    "Crash in constructor of WikipediaLookup (or some other)";
                 System.Windows.Forms.MessageBox.Show(msg);
             }
             finally
@@ -162,15 +155,12 @@ namespace OverflowHelper
 	            //Clean up.
             }
 
-            //Must be after creation of mEditSummaryStyle...
-            mCheckinMessageBuilder = new CheckinMessageBuilder(mEditSummaryStyle);
             mTiming = new timing(lblTimeLeft);
 
             mLinkRefGenerator = new LinkRef();
 
-            Application.Idle +=
-               new System.EventHandler(this.Idle_Count);
-        }
+            Application.Idle += new System.EventHandler(this.Idle_Count);
+        } //Constructor
 
 
         /****************************************************************************
@@ -307,7 +297,7 @@ namespace OverflowHelper
             bool StackOverflowSpelling = chkSpellingOfStackOverflow.Checked;
 
             txtCheckinMessage.Text =
-              mCheckinMessageBuilder.getCheckinMessage(
+                mWordCorrector.getCheckinMessageBuilder().getCheckinMessage(
                   postHasCruft,
                   postHasSignature,
                   roomForImprovement,
@@ -346,74 +336,6 @@ namespace OverflowHelper
         } //updateCheckinMessage()
 
 
-        public struct lookupResultStructure
-        {
-            public string lookUpFailureText;
-            public string coreString;
-            public string correctedText;
-            public string WikipediaURL;
-            public int URlcount;
-        }; //struct lookupResuls
-
-
-        /****************************************************************************
-         *                                                                          *
-         *  This function is independent of the (Windows) UI.                       *
-         *                                                                          *
-         *                                                                          *
-         ****************************************************************************/
-        private lookupResultStructure lookup_Central(string aToLookUp, 
-                                                     bool aGuessURL_ifFailedLookup)
-        {
-            lookupResultStructure toReturn;
-
-            toReturn.lookUpFailureText = string.Empty; // Default.
-            toReturn.coreString = string.Empty;
-            toReturn.correctedText = string.Empty; // Default. We use it as a flag.
-            toReturn.WikipediaURL = string.Empty;
-            toReturn.URlcount = -1;
-
-            // GUI independent
-            {
-                //string wordToLookup = textSearchWord.Text;
-                LookUpString tt2 = new LookUpString(aToLookUp);
-                toReturn.coreString = tt2.getCoreString();
-
-                string leading = tt2.getLeading();
-                string trailing = tt2.getTrailing();
-
-                string correctedWord;
-
-                //Note about the variable name: It is not always
-                //a Wikipedia URL... Some are for Wiktionary, MSDN, etc.
-                toReturn.WikipediaURL =
-                    mWikipediaLookup.lookUp(
-                        toReturn.coreString,
-                        aGuessURL_ifFailedLookup,
-                        out correctedWord);
-                if (toReturn.WikipediaURL.Length > 0)
-                {
-                    mCheckinMessageBuilder.addWord(correctedWord, 
-                                                   toReturn.WikipediaURL);
-
-                    //In user output: include leading and trailing whitespace
-                    //from the input (so it works well with keyboard
-                    //combination Shift + Ctrl + right Arrow).
-                    toReturn.correctedText = leading + correctedWord + trailing;
-
-                    toReturn.URlcount = mCheckinMessageBuilder.getNumberOfWords();
-                }
-                else
-                {
-                    toReturn.lookUpFailureText = 
-                        "Could not lookup " + toReturn.coreString + "!";
-                }
-            } // GUI independent
-
-            return toReturn;
-        } //lookup_Central()
-
-
         /****************************************************************************
          *                                                                          *
          *    This function may change the contents of the clipboard                *
@@ -426,8 +348,9 @@ namespace OverflowHelper
 
             string toLookUp = textSearchWord.Text;
 
-            lookupResultStructure lookupResult = lookup_Central(toLookUp, 
-                                                                aGuessURL_ifFailedLookup);
+            lookupResultStructure lookupResult =
+                mWordCorrector.lookup_Central(toLookUp, 
+                                              aGuessURL_ifFailedLookup);
 
             string correctedText2 = lookupResult.correctedText;
             int URlcount = lookupResult.URlcount;
@@ -549,7 +472,7 @@ namespace OverflowHelper
             chkSplitParagraph.Checked = false;
             chkJeopardyCompliance.Checked = false;
 
-            mCheckinMessageBuilder.resetWords();
+            mWordCorrector.getCheckinMessageBuilder().resetWords();
             txtCheckinMessage.Text = "";
 
             textLookupCounts.Text = "";
@@ -993,7 +916,7 @@ namespace OverflowHelper
         private void menuExportWordlist_Click(object aSender, EventArgs anEvent)
         {
             string Wordlist_HTML =
-              mWikipediaLookup.dumpWordList_asHTML(
+              mWordCorrector.getWikipediaLookup().dumpWordList_asHTML(
                 mCodeFormattingCheck.combinedAllOfRegularExpressions(),
 
                 // This would be inconsistent if the date changes right 
@@ -1011,7 +934,8 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuExportWordlistAsSQL_Click(object aSender, EventArgs anEvent)
         {
-            string wordlist_SQL = mWikipediaLookup.dumpWordList_asSQL();
+            string wordlist_SQL = 
+                mWordCorrector.getWikipediaLookup().dumpWordList_asSQL();
 
             //Output for now
             txtInputArea.Text = wordlist_SQL;
@@ -3212,7 +3136,7 @@ namespace OverflowHelper
             object aSender, EventArgs anEvent)
         {
             SelectEditSummaryStyle dialog =
-                new SelectEditSummaryStyle(mEditSummaryStyle);
+                new SelectEditSummaryStyle(mWordCorrector.getEditSummaryStyle());
             dialog.ShowDialog();
         }
 

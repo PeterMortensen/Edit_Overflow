@@ -193,6 +193,7 @@
     <Compile Include="OverflowHelper\Source\main\StringReplacerWithRegex.cs" />
     <Compile Include="OverflowHelper\Source\main\Tokeniser.cs" />
     <Compile Include="OverflowHelper\Source\main\Utility.cs" />
+    <Compile Include="OverflowHelper\Source\main\WordCorrector.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\Clipboard.cs" />
     <Compile Include="OverflowHelper\Source\main\network.cs" />
     <Compile Include="OverflowHelper\Source\main\Program.cs" />
