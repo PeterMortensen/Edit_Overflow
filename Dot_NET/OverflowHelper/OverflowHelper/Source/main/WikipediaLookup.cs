@@ -3194,6 +3194,7 @@ namespace OverflowHelper.core
             correctionAdd("defintely", "definitely");
             correctionAdd("Deffinatly", "definitely");
             correctionAdd("deffinatly", "definitely");
+            correctionAdd("defenatly", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -7735,6 +7736,7 @@ namespace OverflowHelper.core
             correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
             correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("VS", "Visual&nbsp;Studio");
             correctionAdd("visual studio", "Visual&nbsp;Studio");
@@ -13303,6 +13305,7 @@ namespace OverflowHelper.core
 
             correctionAdd("likleyhood", "likelihood");
             correctionAdd("likelyhood", "likelihood");
+            correctionAdd("Likelyhood", "likelihood");
 
             correctionAdd("monetization", "monetisation");
             correctionAdd("monitasation", "monetisation");
@@ -14318,6 +14321,7 @@ namespace OverflowHelper.core
 
             correctionAdd("percieve", "perceive");
             correctionAdd("precieve", "perceive");
+            correctionAdd("Percieve", "perceive");
 
             correctionAdd("s/", "s/PATTERN/REPLACEMENT/msixpodualngcer");
 
@@ -19873,6 +19877,24 @@ namespace OverflowHelper.core
             correctionAdd("Vaccine", "vaccine");
 
             correctionAdd("waist", "waste");
+
+            correctionAdd("argb", "ARGB");
+
+            correctionAdd("Angst", "angst");
+
+            correctionAdd("chaning", "changing");
+
+            correctionAdd("credability", "credibility");
+
+            correctionAdd("CYAN", "cyan");
+            correctionAdd("Cyan", "cyan");
+
+            correctionAdd("FTW", "for the win");
+            correctionAdd("ftw", "for the win");
+
+            correctionAdd("improvment", "improvement");
+
+            correctionAdd("targeet", "target");
 
 
             // Start of coronavirus part...
@@ -30347,6 +30369,21 @@ namespace OverflowHelper.core
 
             URL_Add("waste", "https://en.wiktionary.org/wiki/waste#Verb");
 
+            URL_Add("ARGB", "https://en.wikipedia.org/wiki/RGBA_color_space#ARGB_(word-order)");
+
+            URL_Add("angst", "https://en.wiktionary.org/wiki/angst#Noun");
+
+            URL_Add("changing", "https://en.wiktionary.org/wiki/change#Verb");
+
+            URL_Add("credibility", "https://en.wiktionary.org/wiki/credibility#Noun");
+
+            URL_Add("cyan", "https://en.wikipedia.org/wiki/Cyan");
+
+            URL_Add("for the win", "https://en.wiktionary.org/wiki/FTW#Adverb");
+
+            URL_Add("improvement", "https://en.wiktionary.org/wiki/improvement#Noun");
+
+            URL_Add("target", "https://en.wiktionary.org/wiki/target#Noun");
 
 
 
