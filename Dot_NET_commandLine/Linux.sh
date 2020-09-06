@@ -1,5 +1,3 @@
-
-
 ########################################################################
 #                                                                      #
 # Purpose: Compilation and running of part of the Edit Overflow        #
@@ -183,7 +181,9 @@ cp $SRCFOLDER_CORE/LookUpString.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/StringReplacerWithRegex.cs   $WORKFOLDER
 cp $SRCFOLDER_CORE/Utility.cs                   $WORKFOLDER
 cp $SRCFOLDER_CORE/RegExExecutor.cs             $WORKFOLDER
-
+cp $SRCFOLDER_CORE/WordCorrector.cs             $WORKFOLDER
+cp $SRCFOLDER_CORE/EditSummaryStyle.cs          $WORKFOLDER
+cp $SRCFOLDER_CORE/CheckinMessageBuilder.cs     $WORKFOLDER
 
 
 cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication_Unix.cs  $WORKFOLDER

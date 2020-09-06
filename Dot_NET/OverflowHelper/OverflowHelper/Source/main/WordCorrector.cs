@@ -85,12 +85,16 @@ namespace OverflowHelper.core
 
                 mEditSummaryStyle = new EditSummaryStyle();
             }
-            catch (Exception exceptionObject)
+            //Disabled for now (due to the cross-platform effort)
+            //catch (Exception exceptionObject)
+            catch
             {
+                //Disabled for now (due to the cross-platform effort)
+                //
                 //Use something else than speech to get attention.
-                string msg =
-                    "Crash in constructor of WikipediaLookup (or some other)";
-                
+                //string msg =
+                //    "Crash in constructor of WikipediaLookup (or some other)";
+                //
                 //What should we do?
                 //System.Windows.Forms.MessageBox.Show(msg);
             }
