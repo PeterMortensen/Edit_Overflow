@@ -31,7 +31,21 @@ namespace EditOverflow2
                                     // export - we will not do both
                                     // at the same time
             {
-                Console.WriteLine("Stub: lookup");
+                WordCorrector someWordCorrector = new WordCorrector();
+                lookupResultStructure lookupResult =
+                    someWordCorrector.lookup_Central(lookupWord, false);
+
+                string correctedText2 = lookupResult.correctedText;
+                int URlcount = lookupResult.URlcount;
+
+                if (correctedText2 != string.Empty)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine(
+                        "Corrected word for " + lookupWord +
+                        " is: " + correctedText2);
+                    Console.WriteLine();
+                }
             }
             else
             {
