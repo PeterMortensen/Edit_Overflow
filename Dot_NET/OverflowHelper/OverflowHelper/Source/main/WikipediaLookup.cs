@@ -19896,6 +19896,16 @@ namespace OverflowHelper.core
 
             correctionAdd("targeet", "target");
 
+            correctionAdd("paired programming", "pair programming");
+
+            correctionAdd("recognizing", "recognising");
+            correctionAdd("recogonizing", "recognising");
+
+            correctionAdd("signning", "signing");
+
+            correctionAdd("Signning off", "signing off");
+            correctionAdd("signning off", "signing off");
+
 
             // Start of coronavirus part...
 
@@ -30384,6 +30394,14 @@ namespace OverflowHelper.core
             URL_Add("improvement", "https://en.wiktionary.org/wiki/improvement#Noun");
 
             URL_Add("target", "https://en.wiktionary.org/wiki/target#Noun");
+
+            URL_Add("pair programming", "https://en.wikipedia.org/wiki/Pair_programming");
+
+            URL_Add("recognising", "https://en.wiktionary.org/wiki/recognise#Verb");
+
+            URL_Add("signing", "https://en.wiktionary.org/wiki/sign#Verb");
+
+            URL_Add("signing off", "https://en.wiktionary.org/wiki/sign_off#Verb");
 
 
 
