@@ -19561,6 +19561,7 @@ namespace OverflowHelper.core
             correctionAdd("differnt", "different");
             correctionAdd("defferent", "different");
             correctionAdd("deferent", "different");
+            correctionAdd("differant", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -19905,6 +19906,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Signning off", "signing off");
             correctionAdd("signning off", "signing off");
+
+            correctionAdd("npn", "NPN");
+
+            correctionAdd("kapt", "kept");
 
 
             // Start of coronavirus part...
@@ -30402,6 +30407,11 @@ namespace OverflowHelper.core
             URL_Add("signing", "https://en.wiktionary.org/wiki/sign#Verb");
 
             URL_Add("signing off", "https://en.wiktionary.org/wiki/sign_off#Verb");
+
+            URL_Add("NPN", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Regions_of_operation");
+
+            URL_Add("kept", "https://en.wiktionary.org/wiki/keep#Verb");
+
 
 
 
