@@ -1913,6 +1913,7 @@ namespace OverflowHelper.core
             correctionAdd("Pthon", "Python");
             correctionAdd("Pytohon", "Python");
             correctionAdd("phyton", "Python");
+            correctionAdd("pyhthon", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -8111,6 +8112,7 @@ namespace OverflowHelper.core
             correctionAdd("capcitors", "capacitor"); //Not 100% correct - plural.
             correctionAdd("Capcitor", "capacitor");
             correctionAdd("capcitor", "capacitor");
+            correctionAdd("Capacitor", "capacitor");
 
             correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
@@ -10205,6 +10207,8 @@ namespace OverflowHelper.core
             correctionAdd("thnx", "thanks");
             correctionAdd("thans", "thanks");
             correctionAdd("thx", "thanks");
+            correctionAdd("Thenks", "thanks");
+            correctionAdd("thenks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -14025,7 +14029,10 @@ namespace OverflowHelper.core
 
             correctionAdd("color", "colour");
 
+            correctionAdd("re-create", "recreate");
+
             correctionAdd("creat", "create");
+            correctionAdd("craete", "create");
 
             correctionAdd("down voting", "downvoting");
 
@@ -15507,6 +15514,8 @@ namespace OverflowHelper.core
             correctionAdd("extremelly", "extremely");
             correctionAdd("extrimely", "extremely");
             correctionAdd("extremly", "extremely");
+            correctionAdd("extreamly", "extremely");
+            correctionAdd("exstreemly", "extremely");
 
             correctionAdd("goood", "good");
             correctionAdd("gud", "good");
@@ -16122,6 +16131,7 @@ namespace OverflowHelper.core
             correctionAdd("lopez", "Ruy Lopez"); // Chess
 
             correctionAdd("Capablanca", "José Raúl Capablanca"); // Chess
+            correctionAdd("capablanka", "José Raúl Capablanca"); // Chess
 
             correctionAdd("En passant", "en passant"); // Chess
 
@@ -16539,6 +16549,7 @@ namespace OverflowHelper.core
             correctionAdd("Ethyl alcohol", "ethanol");
             correctionAdd("Ethanol", "ethanol");
             correctionAdd("alchohol", "ethanol");
+            correctionAdd("Alcohol", "ethanol");
 
             correctionAdd("Isopropyl alcohol", "isopropyl alcohol");
             correctionAdd("IPA", "isopropyl alcohol");
@@ -18711,8 +18722,6 @@ namespace OverflowHelper.core
 
             correctionAdd("infintely", "infinitely");
 
-            correctionAdd("re-create", "recreate");
-
             correctionAdd("replase", "replace");
 
             correctionAdd("CSP", "Content Security Policy");
@@ -19349,6 +19358,7 @@ namespace OverflowHelper.core
             correctionAdd("Game Console", "game console");
 
             correctionAdd("si", "is");
+            correctionAdd("ia", "is");
 
             correctionAdd("manmade", "man-made");
 
@@ -19843,6 +19853,7 @@ namespace OverflowHelper.core
             correctionAdd("Rabbit MQ", "RabbitMQ");
 
             correctionAdd("Circuit", "circuit");
+            correctionAdd("cicuit", "circuit");
 
             correctionAdd("scientust", "scientist");
 
@@ -19910,6 +19921,40 @@ namespace OverflowHelper.core
             correctionAdd("npn", "NPN");
 
             correctionAdd("kapt", "kept");
+
+            correctionAdd("A350", "Airbus 350");
+
+            correctionAdd("Dreamliner", "Boeing 787");
+            correctionAdd("B787", "Boeing 787");
+
+            correctionAdd("esthetic", "aesthetic");
+
+            correctionAdd("agi", "artificial general intelligence");
+            correctionAdd("AGI", "artificial general intelligence");
+
+            correctionAdd("Ceramic", "ceramic");
+
+            correctionAdd("Electrolytic", "electrolytic");
+
+            correctionAdd("hydride", "hybrid");
+
+            correctionAdd("PUA", "pickup artist");
+            correctionAdd("pua", "pickup artist");
+
+            correctionAdd("PPL", "private pilot licence");
+
+            correctionAdd("berlin", "Berlin");
+
+            correctionAdd("focus in", "focus on");
+
+            correctionAdd("focusing in", "focusing on");
+
+            correctionAdd("here, here", "hear, hear");
+            correctionAdd("Hear, hear", "hear, hear");
+            correctionAdd("Here, here", "hear, hear");
+
+            correctionAdd("posesive", "possessive");
+            correctionAdd("posessive", "possessive");
 
 
             // Start of coronavirus part...
@@ -30412,6 +30457,33 @@ namespace OverflowHelper.core
 
             URL_Add("kept", "https://en.wiktionary.org/wiki/keep#Verb");
 
+            URL_Add("Airbus 350", "https://en.wikipedia.org/wiki/Airbus_A350_XWB");
+
+            URL_Add("Boeing 787", "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner");
+
+            URL_Add("aesthetic", "https://en.wiktionary.org/wiki/aesthetic#Adjective");
+
+            URL_Add("artificial general intelligence", "https://en.wikipedia.org/wiki/Artificial_general_intelligence");
+
+            URL_Add("ceramic", "https://en.wiktionary.org/wiki/ceramic#Adjective");
+
+            URL_Add("electrolytic", "https://en.wiktionary.org/wiki/electrolytic#Adjective");
+
+            URL_Add("hybrid", "https://en.wiktionary.org/wiki/hybrid#Adjective");
+
+            URL_Add("pickup artist", "https://en.wikipedia.org/wiki/Pickup_artist");
+
+            URL_Add("private pilot licence", "https://en.wikipedia.org/wiki/Private_pilot_licence");
+
+            URL_Add("Berlin", "https://en.wikipedia.org/wiki/Berlin");
+
+            URL_Add("focus on", "https://idioms.thefreedictionary.com/focus+on");
+
+            URL_Add("focusing on", "https://idioms.thefreedictionary.com/focus+on");
+
+            URL_Add("hear, hear", "https://en.wiktionary.org/wiki/hear_hear#Interjection");
+
+            URL_Add("possessive", "https://en.wiktionary.org/wiki/possessive#Noun");
 
 
 
