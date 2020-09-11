@@ -3464,6 +3464,9 @@ namespace OverflowHelper.core
             correctionAdd("ui", "user interface"); //Expansion.
             correctionAdd("UI", "user interface"); //Expansion.
             correctionAdd("Ui", "user interface"); //Expansion.
+            correctionAdd("Uiser interface", "user interface");
+            correctionAdd("uiser interface", "user interface");
+            correctionAdd("User interface", "user interface");
 
             correctionAdd("xml", "XML");
             correctionAdd("Xml", "XML");
@@ -6689,6 +6692,8 @@ namespace OverflowHelper.core
 
             correctionAdd("quora", "Quora");
             correctionAdd("quoraa", "Quora");
+            correctionAdd("quota", "Quora");
+            correctionAdd("Quota", "Quora");
 
             correctionAdd("evernote", "Evernote");
 
@@ -11067,6 +11072,7 @@ namespace OverflowHelper.core
             correctionAdd("Python3", "Python&nbsp;3");
 
             correctionAdd("quran", "Qur'an");
+            correctionAdd("Quran", "Qur'an");
 
             correctionAdd("star wars", "Star Wars");
             correctionAdd("star-wars", "Star Wars");
@@ -19994,6 +20000,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Oumuamua", "ʻOumuamua");
             correctionAdd("OUMUAMUA", "ʻOumuamua");
+
+            correctionAdd("complimentary", "complementary");
+
+            correctionAdd("HAIR SPACE", "hair space");
+
+            correctionAdd("liason", "liaison");
+
+            correctionAdd("remans", "remains");
 
 
             // Start of coronavirus part...
@@ -30545,6 +30559,15 @@ namespace OverflowHelper.core
             URL_Add("ubiquitous", "https://en.wiktionary.org/wiki/ubiquitous#Adjective");
 
             URL_Add("ʻOumuamua", "https://en.wikipedia.org/wiki/%CA%BBOumuamua");
+
+            URL_Add("complementary", "https://en.wiktionary.org/wiki/complementary#Adjective");
+
+            URL_Add("hair space", "https://en.wikipedia.org/wiki/Whitespace_character#Unicode");
+
+            URL_Add("liaison", "https://en.wiktionary.org/wiki/liaison#Noun");
+
+            URL_Add("remains", "https://en.wiktionary.org/wiki/remain#Verb");
+
 
 
 
