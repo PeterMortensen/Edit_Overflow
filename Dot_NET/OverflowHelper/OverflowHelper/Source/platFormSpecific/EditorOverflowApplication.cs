@@ -5,7 +5,7 @@
  *                                                                          *
  *     1. Representing global state and information                         *
  *                                                                          *
- *     2. Base class for isolating some platform-specific                   * 
+ *     2. Base class for isolating some platform-specific                   *
  *        things, e.g. access to the clipboard                              *
  *                                                                          *
  ****************************************************************************/
@@ -86,7 +86,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public string versionString_dateOnly()
         {
-            string toReturn = "2020-06-15";
+            string toReturn = "2020-09-11";
             return toReturn;
         }
 
@@ -96,11 +96,11 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString()
         {
-            string toReturn = "1.1.49a45"; 
+            string toReturn = "1.1.49a64";
             return toReturn;
         }
 
-        //Last designer content with version information for the 
+        //Last designer content with version information for the
         //main form: "OverflowHelper v. 0.13 2010-02-15"
 
 
