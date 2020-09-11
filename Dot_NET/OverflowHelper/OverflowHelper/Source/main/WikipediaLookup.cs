@@ -1149,6 +1149,8 @@ namespace OverflowHelper.core
             correctionAdd("Obj C", "Objective-C");
             correctionAdd("objective - c", "Objective-C");
             correctionAdd("Objc", "Objective-C");
+            correctionAdd("Objectivec", "Objective-C");
+            correctionAdd("objectivec", "Objective-C");
 
             correctionAdd("FX cop", "FxCop");
             correctionAdd("fxcop", "FxCop");
@@ -5026,6 +5028,8 @@ namespace OverflowHelper.core
             correctionAdd("ect", "etc.");
             correctionAdd("etc", "etc.");
             correctionAdd("&c", "etc.");
+            correctionAdd("et", "etc."); // Really it should be "et." - but a trailing
+                                         // full stop is not currently accepted.
 
             correctionAdd("midi", "MIDI");
             correctionAdd("Midi", "MIDI");
@@ -5282,15 +5286,6 @@ namespace OverflowHelper.core
             correctionAdd("Open graph", "Open Graph");
             correctionAdd("Opengraph", "Open Graph");
             correctionAdd("OG", "Open Graph");
-
-            //Can not currently be looked up due to a bug!!!!
-            correctionAdd("devc++", "Dev-C++");
-            correctionAdd("devcpp", "Dev-C++");
-            correctionAdd("Dev-CPP", "Dev-C++");
-            correctionAdd("Dev c/c++", "Dev-C++");
-            correctionAdd("dev c/c++", "Dev-C++");
-            correctionAdd("dev C/C++", "Dev-C++");
-            correctionAdd("Dev C/C++", "Dev-C++");
 
             correctionAdd("fql", "FQL");
 
@@ -5844,6 +5839,7 @@ namespace OverflowHelper.core
             correctionAdd("noSQL", "NoSQL");
             correctionAdd("no sql", "NoSQL");
             correctionAdd("no-sql", "NoSQL");
+            correctionAdd("Nosql", "NoSQL");
 
             correctionAdd("mplayer", "MPlayer");
             correctionAdd("Mplayer", "MPlayer");
@@ -6780,37 +6776,6 @@ namespace OverflowHelper.core
             correctionAdd("Two's complement", "two's complement");
             correctionAdd("2nd complement", "two's complement");
             correctionAdd("2 complement", "two's complement");
-
-            correctionAdd("msvc", "Microsoft Visual C++");
-            correctionAdd("ms vc", "Microsoft Visual C++");
-            correctionAdd("ms vc++", "Microsoft Visual C++"); //Will this work???? (considering a recent bug)
-            correctionAdd("vc", "Microsoft Visual C++");
-            correctionAdd("vc++", "Microsoft Visual C++");
-            correctionAdd("VC++", "Microsoft Visual C++");
-            correctionAdd("MSVC", "Microsoft Visual C++");
-            correctionAdd("visual C", "Microsoft Visual C++");
-            correctionAdd("Visual C", "Microsoft Visual C++");
-            correctionAdd("visual c++", "Microsoft Visual C++");
-            correctionAdd("Visual c++", "Microsoft Visual C++");
-            correctionAdd("visual C++", "Microsoft Visual C++");
-            correctionAdd("virsual c++", "Microsoft Visual C++"); //Misspelling.
-            correctionAdd("Viusal C", "Microsoft Visual C++");
-            correctionAdd("msvc++", "Microsoft Visual C++");
-            correctionAdd("MSC", "Microsoft Visual C++");
-            correctionAdd("Microsoft C", "Microsoft Visual C++");
-            correctionAdd("Microsoft C++", "Microsoft Visual C++");
-            correctionAdd("MSC++", "Microsoft Visual C++");
-            correctionAdd("MS Visual C", "Microsoft Visual C++");
-            correctionAdd("Visual C++", "Microsoft Visual C++");
-            correctionAdd("MSVS C++", "Microsoft Visual C++");
-            correctionAdd("virtual c++", "Microsoft Visual C++");
-
-            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
-
-            correctionAdd("VC++2010", "Visual C++ 2010");
 
             correctionAdd("Google play", "Google Play");
             correctionAdd("google play", "Google Play");
@@ -8795,15 +8760,6 @@ namespace OverflowHelper.core
             correctionAdd("Kb", "&nbsp;KB");
             correctionAdd("KByte", "&nbsp;KB");
 
-            correctionAdd("TurboC++", "Turbo C++");
-            correctionAdd("turbo c", "Turbo C++"); //Is this true?
-            correctionAdd("turbo C", "Turbo C++");
-            correctionAdd("Turbo C", "Turbo C++");
-            correctionAdd("TurboC", "Turbo C++");
-            correctionAdd("turbo c++", "Turbo C++");
-            correctionAdd("Turbo c++", "Turbo C++");
-            correctionAdd("turbo C++", "Turbo C++");
-
             correctionAdd("rdbms", "RDBMS");
 
             correctionAdd("tcp", "TCP");
@@ -9567,12 +9523,62 @@ namespace OverflowHelper.core
             correctionAdd("qusetion", "question");
             correctionAdd("Question", "question");
 
+            //Can not currently be looked up due to a bug!!!!
+            correctionAdd("devc++", "Dev-C++");
+            correctionAdd("devcpp", "Dev-C++");
+            correctionAdd("Dev-CPP", "Dev-C++");
+            correctionAdd("Dev c/c++", "Dev-C++");
+            correctionAdd("dev c/c++", "Dev-C++");
+            correctionAdd("dev C/C++", "Dev-C++");
+            correctionAdd("Dev C/C++", "Dev-C++");
+
+            correctionAdd("msvc", "Microsoft Visual C++");
+            correctionAdd("ms vc", "Microsoft Visual C++");
+            correctionAdd("ms vc++", "Microsoft Visual C++"); //Will this work???? (considering a recent bug)
+            correctionAdd("vc", "Microsoft Visual C++");
+            correctionAdd("vc++", "Microsoft Visual C++");
+            correctionAdd("VC++", "Microsoft Visual C++");
+            correctionAdd("MSVC", "Microsoft Visual C++");
+            correctionAdd("visual C", "Microsoft Visual C++");
+            correctionAdd("Visual C", "Microsoft Visual C++");
+            correctionAdd("visual c++", "Microsoft Visual C++");
+            correctionAdd("Visual c++", "Microsoft Visual C++");
+            correctionAdd("visual C++", "Microsoft Visual C++");
+            correctionAdd("virsual c++", "Microsoft Visual C++"); //Misspelling.
+            correctionAdd("Viusal C", "Microsoft Visual C++");
+            correctionAdd("msvc++", "Microsoft Visual C++");
+            correctionAdd("MSC", "Microsoft Visual C++");
+            correctionAdd("Microsoft C", "Microsoft Visual C++");
+            correctionAdd("Microsoft C++", "Microsoft Visual C++");
+            correctionAdd("MSC++", "Microsoft Visual C++");
+            correctionAdd("MS Visual C", "Microsoft Visual C++");
+            correctionAdd("Visual C++", "Microsoft Visual C++");
+            correctionAdd("MSVS C++", "Microsoft Visual C++");
+            correctionAdd("virtual c++", "Microsoft Visual C++");
+
+            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
+
+            correctionAdd("VC++2010", "Visual C++ 2010");
+
+            correctionAdd("TurboC++", "Turbo C++");
+            correctionAdd("turbo c", "Turbo C++"); //Is this true?
+            correctionAdd("turbo C", "Turbo C++");
+            correctionAdd("Turbo C", "Turbo C++");
+            correctionAdd("TurboC", "Turbo C++");
+            correctionAdd("turbo c++", "Turbo C++");
+            correctionAdd("Turbo c++", "Turbo C++");
+            correctionAdd("turbo C++", "Turbo C++");
+
             //Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
             correctionAdd("cpp", "C++");
             correctionAdd("c++", "C++");
             correctionAdd("CPP", "C++");
             correctionAdd("c plus plus", "C++");
+            correctionAdd("C ++", "C++");
 
             correctionAdd("c++11", "C++11");
             correctionAdd("C++ 11", "C++11");
@@ -10421,6 +10427,7 @@ namespace OverflowHelper.core
 
             correctionAdd("three.js", "Three.js");
             correctionAdd("three js", "Three.js");
+            correctionAdd("threeJS", "Three.js");
 
             correctionAdd("0day", "zero-day");
 
@@ -10880,6 +10887,7 @@ namespace OverflowHelper.core
 
             correctionAdd("achive", "achieve");
             correctionAdd("acheive", "achieve");
+            correctionAdd("acheieve", "achieve");
 
             correctionAdd("anwser", "answer");
             correctionAdd("awnser", "answer");
@@ -13221,6 +13229,7 @@ namespace OverflowHelper.core
             correctionAdd("permanant", "permanent");
 
             correctionAdd("Physics", "physics");
+            correctionAdd("phyiscs", "physics");
 
             correctionAdd("place holder", "placeholder");
 
@@ -15597,6 +15606,7 @@ namespace OverflowHelper.core
             correctionAdd("e book", "e-book");
 
             correctionAdd("enthousiastic", "enthusiastic");
+            correctionAdd("enthousiast", "enthusiastic");
 
             correctionAdd("Power for the course", "par for the course");
             correctionAdd("power for the course", "par for the course");
@@ -15639,6 +15649,7 @@ namespace OverflowHelper.core
             correctionAdd("Tailwind", "Tailwind CSS");
 
             correctionAdd("waybackmachine", "Wayback Machine");
+            correctionAdd("wayback machine", "Wayback Machine");
 
             correctionAdd("yarn", "Yarn");
 
@@ -17976,6 +17987,7 @@ namespace OverflowHelper.core
             correctionAdd("waht", "what");
             correctionAdd("Waht", "what");
             correctionAdd("wat", "what");
+            correctionAdd("wath", "what");
 
             correctionAdd("codidact", "Codidact");
 
@@ -19702,6 +19714,7 @@ namespace OverflowHelper.core
             correctionAdd("african american", "African-American");
 
             correctionAdd("australia", "Australia");
+            correctionAdd("austrailia", "Australia");
 
             correctionAdd("gdpr", "GDPR");
 
@@ -19955,6 +19968,32 @@ namespace OverflowHelper.core
 
             correctionAdd("posesive", "possessive");
             correctionAdd("posessive", "possessive");
+            correctionAdd("possisive", "possessive");
+            correctionAdd("possesive", "possessive");
+
+            correctionAdd("commen", "common");
+
+            correctionAdd("musle", "muscle");
+
+            correctionAdd("autodesk", "Autodesk");
+
+            correctionAdd("cmb", "cosmic microwave background");
+            correctionAdd("CMB", "cosmic microwave background");
+
+            correctionAdd("hug", "huge");
+
+            correctionAdd("ideomatic", "idiomatic");
+
+            correctionAdd("resonence", "resonance");
+
+            correctionAdd("tendancies", "tendencies");
+
+            correctionAdd("2 thirds", "two thirds");
+
+            correctionAdd("ubiquetous", "ubiquitous");
+
+            correctionAdd("Oumuamua", "ʻOumuamua");
+            correctionAdd("OUMUAMUA", "ʻOumuamua");
 
 
             // Start of coronavirus part...
@@ -30484,6 +30523,28 @@ namespace OverflowHelper.core
             URL_Add("hear, hear", "https://en.wiktionary.org/wiki/hear_hear#Interjection");
 
             URL_Add("possessive", "https://en.wiktionary.org/wiki/possessive#Noun");
+
+            URL_Add("common", "https://en.wiktionary.org/wiki/common#Adjective");
+
+            URL_Add("muscle", "https://en.wiktionary.org/wiki/muscle#Noun");
+
+            URL_Add("Autodesk", "https://en.wikipedia.org/wiki/Autodesk");
+
+            URL_Add("cosmic microwave background", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
+
+            URL_Add("huge", "https://en.wiktionary.org/wiki/huge#Adjective");
+
+            URL_Add("idiomatic", "https://en.wiktionary.org/wiki/idiomatic#Adjective");
+
+            URL_Add("resonance", "https://en.wiktionary.org/wiki/resonance#Noun");
+
+            URL_Add("tendencies", "https://en.wiktionary.org/wiki/tendency#Noun");
+
+            URL_Add("two thirds", "https://en.wiktionary.org/wiki/two_thirds#Numeral");
+
+            URL_Add("ubiquitous", "https://en.wiktionary.org/wiki/ubiquitous#Adjective");
+
+            URL_Add("ʻOumuamua", "https://en.wikipedia.org/wiki/%CA%BBOumuamua");
 
 
 
