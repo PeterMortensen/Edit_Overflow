@@ -1622,37 +1622,6 @@ namespace OverflowHelper.core
             correctionAdd("UTF16", "UTF-16");
             correctionAdd("utf16", "UTF-16");
 
-            correctionAdd("intellij", "IntelliJ IDEA");
-            correctionAdd("IntellJ Idea", "IntelliJ IDEA");
-            correctionAdd("IntelliJ", "IntelliJ IDEA");
-            correctionAdd("Intellij", "IntelliJ IDEA");
-            correctionAdd("InjelliJ", "IntelliJ IDEA");
-            correctionAdd("IDEA", "IntelliJ IDEA");
-            correctionAdd("IntelliJ Idea", "IntelliJ IDEA");
-            correctionAdd("Intellij IDEA", "IntelliJ IDEA");
-            correctionAdd("intelli", "IntelliJ IDEA"); //Expansion (although it could also be IntelliSense).
-            correctionAdd("Intellij Idea", "IntelliJ IDEA");
-            correctionAdd("INTELLIJ", "IntelliJ IDEA");
-            correctionAdd("INTELLIJ IDEA", "IntelliJ IDEA");
-            correctionAdd("intellij idea", "IntelliJ IDEA");
-            correctionAdd("InteliJ", "IntelliJ IDEA");
-            correctionAdd("Intellj", "IntelliJ IDEA");
-            correctionAdd("IntellijIDEA", "IntelliJ IDEA");
-            correctionAdd("Intelij Idea", "IntelliJ IDEA");
-            correctionAdd("intelliJ IDEA", "IntelliJ IDEA");
-            correctionAdd("inteliJ", "IntelliJ IDEA");
-            correctionAdd("IntelliJ idea", "IntelliJ IDEA");
-            correctionAdd("IntellJDE", "IntelliJ IDEA");
-            correctionAdd("intelijj", "IntelliJ IDEA");
-            correctionAdd("intelij", "IntelliJ IDEA");
-            correctionAdd("Intelli J", "IntelliJ IDEA");
-            correctionAdd("intelj", "IntelliJ IDEA");
-            correctionAdd("inteilli", "IntelliJ IDEA");
-            correctionAdd("Idea Intellij", "IntelliJ IDEA");
-            correctionAdd("Idea intellij", "IntelliJ IDEA");
-            correctionAdd("idea intellij", "IntelliJ IDEA");
-            correctionAdd("intelliJ", "IntelliJ IDEA");
-
             correctionAdd("couchdb", "CouchDB");
             correctionAdd("Couchdb", "CouchDB");
             correctionAdd("CouchDb", "CouchDB");
@@ -11743,6 +11712,7 @@ namespace OverflowHelper.core
             correctionAdd("allready", "already");
             correctionAdd("alredy", "already");
             correctionAdd("alrdy", "already");
+            correctionAdd("all ready", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -13107,7 +13077,39 @@ namespace OverflowHelper.core
             correctionAdd("calss", "class");
             correctionAdd("Class", "class");
 
+            correctionAdd("intellij", "IntelliJ IDEA");
+            correctionAdd("IntellJ Idea", "IntelliJ IDEA");
+            correctionAdd("IntelliJ", "IntelliJ IDEA");
+            correctionAdd("Intellij", "IntelliJ IDEA");
+            correctionAdd("InjelliJ", "IntelliJ IDEA");
+            correctionAdd("IDEA", "IntelliJ IDEA");
+            correctionAdd("IntelliJ Idea", "IntelliJ IDEA");
+            correctionAdd("Intellij IDEA", "IntelliJ IDEA");
+            correctionAdd("intelli", "IntelliJ IDEA"); //Expansion (although it could also be IntelliSense).
+            correctionAdd("Intellij Idea", "IntelliJ IDEA");
+            correctionAdd("INTELLIJ", "IntelliJ IDEA");
+            correctionAdd("INTELLIJ IDEA", "IntelliJ IDEA");
+            correctionAdd("intellij idea", "IntelliJ IDEA");
+            correctionAdd("InteliJ", "IntelliJ IDEA");
+            correctionAdd("Intellj", "IntelliJ IDEA");
+            correctionAdd("IntellijIDEA", "IntelliJ IDEA");
+            correctionAdd("Intelij Idea", "IntelliJ IDEA");
+            correctionAdd("intelliJ IDEA", "IntelliJ IDEA");
+            correctionAdd("inteliJ", "IntelliJ IDEA");
+            correctionAdd("IntelliJ idea", "IntelliJ IDEA");
+            correctionAdd("IntellJDE", "IntelliJ IDEA");
+            correctionAdd("intelijj", "IntelliJ IDEA");
+            correctionAdd("intelij", "IntelliJ IDEA");
+            correctionAdd("Intelli J", "IntelliJ IDEA");
+            correctionAdd("intelj", "IntelliJ IDEA");
+            correctionAdd("inteilli", "IntelliJ IDEA");
+            correctionAdd("Idea Intellij", "IntelliJ IDEA");
+            correctionAdd("Idea intellij", "IntelliJ IDEA");
+            correctionAdd("idea intellij", "IntelliJ IDEA");
+            correctionAdd("intelliJ", "IntelliJ IDEA");
+
             correctionAdd("idear", "idea");
+            correctionAdd("ideia", "idea");
 
             correctionAdd("incomming", "incoming");
 
@@ -13662,6 +13664,8 @@ namespace OverflowHelper.core
 
             correctionAdd("mgtow", "MGTOW");
             correctionAdd("Mgtow", "MGTOW");
+            correctionAdd("Men Going their on Way", "MGTOW");
+            correctionAdd("Men Going their own Way", "MGTOW");
 
             correctionAdd("mta", "MTA");
 
@@ -14834,6 +14838,7 @@ namespace OverflowHelper.core
             correctionAdd("spellchecker", "spell checker");
 
             correctionAdd("sourrounding", "surrounding");
+            correctionAdd("surrouding", "surrounding");
 
             correctionAdd("synchronious", "synchronous");
 
@@ -20023,6 +20028,24 @@ namespace OverflowHelper.core
             correctionAdd("vue native", "Vue Native");
 
             correctionAdd("vuepress", "VuePress");
+
+            correctionAdd("aweosme", "awesome");
+
+            correctionAdd("drivvel", "drivel");
+
+            correctionAdd("PIG", "pig");
+
+            correctionAdd("pitfal", "pitfall");
+            correctionAdd("pittfall", "pitfall");
+
+            correctionAdd("planetecibel", "planetesimal");
+            correctionAdd("Planetecibel", "planetesimal");
+
+            correctionAdd("syntaxic", "syntactic");
+            correctionAdd("syntaxial", "syntactic");
+            correctionAdd("syntaxical", "syntactic");
+
+            correctionAdd("tike", "time");
 
 
             // Start of coronavirus part...
@@ -30595,6 +30618,20 @@ namespace OverflowHelper.core
             URL_Add("Vue Native", "https://vue-native.io/");
 
             URL_Add("VuePress", "https://vuepress.vuejs.org/");
+
+            URL_Add("awesome", "https://en.wiktionary.org/wiki/awesome#Adjective");
+
+            URL_Add("drivel", "https://en.wiktionary.org/wiki/drivel#Noun");
+
+            URL_Add("pig", "http://chessskill.blogspot.com/2016/12/pigs.html");
+
+            URL_Add("pitfall", "https://en.wiktionary.org/wiki/pitfall#Noun");
+
+            URL_Add("planetesimal", "https://en.wikipedia.org/wiki/Planetesimal");
+
+            URL_Add("syntactic", "https://en.wiktionary.org/wiki/syntactic#Adjective");
+
+            URL_Add("time", "https://en.wiktionary.org/wiki/time#Noun");
 
 
 
