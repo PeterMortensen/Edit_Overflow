@@ -3063,6 +3063,7 @@ namespace OverflowHelper.core
             correctionAdd("Stackerflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackover", "Stack&nbsp;Overflow");
             correctionAdd("Satckoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackvoverflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -9421,6 +9422,7 @@ namespace OverflowHelper.core
             correctionAdd("The Valley", "Silicon Valley");
             correctionAdd("silicone valley", "Silicon Valley");
             correctionAdd("Silicone valley", "Silicon Valley");
+            correctionAdd("Silicon Vallay", "Silicon Valley");
 
             correctionAdd("no body", "nobody");
 
@@ -13981,6 +13983,7 @@ namespace OverflowHelper.core
             correctionAdd("nextjs", "Next.js");
             correctionAdd("Next.JS", "Next.js");
             correctionAdd("nextJs", "Next.js");
+            correctionAdd("next", "Next.js");
 
             correctionAdd("optix", "OptiX");
 
@@ -20009,6 +20012,18 @@ namespace OverflowHelper.core
 
             correctionAdd("remans", "remains");
 
+            correctionAdd("Chemdraw", "ChemDraw");
+
+            correctionAdd("gatsby", "Gatsby");
+
+            correctionAdd("gridsome", "Gridsome");
+
+            correctionAdd("nuxt", "Nuxt.js");
+
+            correctionAdd("vue native", "Vue Native");
+
+            correctionAdd("vuepress", "VuePress");
+
 
             // Start of coronavirus part...
 
@@ -20079,6 +20094,7 @@ namespace OverflowHelper.core
             correctionAdd("cronavirus", "coronavirus");
             correctionAdd("rona", "coronavirus");
             correctionAdd("C-virus", "coronavirus");
+            correctionAdd("kuhrona", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
 
@@ -30567,6 +30583,18 @@ namespace OverflowHelper.core
             URL_Add("liaison", "https://en.wiktionary.org/wiki/liaison#Noun");
 
             URL_Add("remains", "https://en.wiktionary.org/wiki/remain#Verb");
+
+            URL_Add("ChemDraw", "https://en.wikipedia.org/wiki/ChemDraw");
+
+            URL_Add("Gatsby", "https://www.gatsbyjs.com/");
+
+            URL_Add("Gridsome", "https://gridsome.org/");
+
+            URL_Add("Nuxt.js", "https://en.wikipedia.org/wiki/Nuxt.js");
+
+            URL_Add("Vue Native", "https://vue-native.io/");
+
+            URL_Add("VuePress", "https://vuepress.vuejs.org/");
 
 
 
