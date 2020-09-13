@@ -20047,6 +20047,12 @@ namespace OverflowHelper.core
 
             correctionAdd("tike", "time");
 
+            correctionAdd("dollar-sign", "dollar sign");
+
+            correctionAdd("RMS", "root mean square");
+            correctionAdd("root-mean sequare", "root mean square");
+            correctionAdd("rms", "root mean square");
+
 
             // Start of coronavirus part...
 
@@ -30633,6 +30639,9 @@ namespace OverflowHelper.core
 
             URL_Add("time", "https://en.wiktionary.org/wiki/time#Noun");
 
+            URL_Add("dollar sign", "https://en.wiktionary.org/wiki/dollar_sign#Noun");
+
+            URL_Add("root mean square", "https://en.wikipedia.org/wiki/Root_mean_square");
 
 
 
