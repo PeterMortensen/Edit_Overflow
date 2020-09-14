@@ -4539,6 +4539,9 @@ namespace OverflowHelper.core
             correctionAdd("becanse", "because");
             correctionAdd("bcos", "because");
             correctionAdd("beacus", "because");
+            correctionAdd("becors", "because");
+            correctionAdd("Bcaz", "because");
+            correctionAdd("bcaz", "because");
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -9954,6 +9957,7 @@ namespace OverflowHelper.core
             correctionAdd("hould", "should");
             correctionAdd("shod", "should");
             correctionAdd("shood", "should");
+            correctionAdd("chud", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -10932,6 +10936,7 @@ namespace OverflowHelper.core
             correctionAdd("raly", "really");
             correctionAdd("reallly", "really");
             correctionAdd("relly", "really");
+            correctionAdd("rlly", "really");
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
@@ -12438,6 +12443,7 @@ namespace OverflowHelper.core
 
             correctionAdd("celsius", "Celsius");
             correctionAdd("celcius", "Celsius");
+            correctionAdd("Celcius", "Celsius");
 
             correctionAdd("eu", "EU");
             correctionAdd("Eu", "EU");
@@ -15473,6 +15479,7 @@ namespace OverflowHelper.core
             correctionAdd("Emms", "EMMS");
 
             correctionAdd("JWST", "James Webb Space Telescope");
+            correctionAdd("JW", "James Webb Space Telescope");
 
             correctionAdd("Lxqt", "LXQt");
 
@@ -17737,6 +17744,7 @@ namespace OverflowHelper.core
             correctionAdd("keeb", "keyboard");
             correctionAdd("keyb", "keyboard");
             correctionAdd("keybrd", "keyboard");
+            correctionAdd("keybroad", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -18603,6 +18611,7 @@ namespace OverflowHelper.core
             correctionAdd("duchbag", "douchebag");
 
             correctionAdd("saund", "sound");
+            correctionAdd("spund", "sound");
 
             correctionAdd("wereing", "wearing");
 
@@ -19446,6 +19455,9 @@ namespace OverflowHelper.core
             correctionAdd("KW", "kW");
 
             correctionAdd("ourselfs", "ourselves");
+            correctionAdd("our self's", "ourselves");
+            correctionAdd("our selfs", "ourselves");
+            correctionAdd("our selves", "ourselves");
 
             correctionAdd("powersupply", "power supply");
 
@@ -19909,11 +19921,7 @@ namespace OverflowHelper.core
 
             correctionAdd("misleaded", "misled");
 
-            correctionAdd("Plandemic", "plandemic");
-
             correctionAdd("Promise", "promise");
-
-            correctionAdd("Vaccine", "vaccine");
 
             correctionAdd("waist", "waste");
 
@@ -20053,6 +20061,43 @@ namespace OverflowHelper.core
             correctionAdd("root-mean sequare", "root mean square");
             correctionAdd("rms", "root mean square");
 
+            correctionAdd("asmr", "ASMR");
+
+            correctionAdd("Alpha Centuri", "Alpha Centauri");
+            correctionAdd("Alpha centuri", "Alpha Centauri");
+
+            correctionAdd("AlpineJs", "Alpine.js");
+
+            correctionAdd("Mx blue", "Cherry MX Blue");
+            correctionAdd("mx blue", "Cherry MX Blue");
+
+            correctionAdd("cherry mx red", "Cherry MX Red");
+
+            correctionAdd("occam's razor", "Occam's razor");
+            correctionAdd("Occams Razor", "Occam's razor");
+            correctionAdd("occams razor", "Occam's razor");
+
+            correctionAdd("Proxima Centuri", "Proxima Centauri");
+
+            correctionAdd("Proxima B", "Proxima Centauri b");
+
+            correctionAdd("trappist-1", "TRAPPIST-1");
+            correctionAdd("trappist one", "TRAPPIST-1");
+
+            correctionAdd("heling", "healing");
+            correctionAdd("heeling", "healing");
+
+            correctionAdd("NSLOOKUP", "nslookup");
+
+            correctionAdd("rejekt", "reject");
+
+            correctionAdd("solar flair", "solar flare");
+            correctionAdd("soloar flair", "solar flare");
+
+            correctionAdd("stomack", "stomach");
+
+            correctionAdd("wack", "whack");
+
 
             // Start of coronavirus part...
 
@@ -20126,6 +20171,12 @@ namespace OverflowHelper.core
             correctionAdd("kuhrona", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
+
+            correctionAdd("Plandemic", "plandemic");
+
+            correctionAdd("Vaccine", "vaccine");
+            correctionAdd("vaccin", "vaccine");
+
 
 
 
@@ -30642,6 +30693,36 @@ namespace OverflowHelper.core
             URL_Add("dollar sign", "https://en.wiktionary.org/wiki/dollar_sign#Noun");
 
             URL_Add("root mean square", "https://en.wikipedia.org/wiki/Root_mean_square");
+
+            URL_Add("ASMR", "https://en.wikipedia.org/wiki/ASMR#Videos");
+
+            URL_Add("Alpha Centauri", "https://en.wikipedia.org/wiki/Alpha_Centauri");
+
+            URL_Add("Alpine.js", "https://github.com/alpinejs/alpine");
+
+            URL_Add("Cherry MX Blue", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Red", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Occam's razor", "https://en.wikipedia.org/wiki/Occam's_razor");
+
+            URL_Add("Proxima Centauri", "https://en.wikipedia.org/wiki/Proxima_Centauri");
+
+            URL_Add("Proxima Centauri b", "https://en.wikipedia.org/wiki/Proxima_Centauri_b");
+
+            URL_Add("TRAPPIST-1", "https://en.wikipedia.org/wiki/TRAPPIST-1");
+
+            URL_Add("healing", "https://en.wiktionary.org/wiki/healing#Noun");
+
+            URL_Add("nslookup", "https://en.wikipedia.org/wiki/Nslookup");
+
+            URL_Add("reject", "https://en.wiktionary.org/wiki/reject#Verb");
+
+            URL_Add("solar flare", "https://en.wikipedia.org/wiki/Solar_flare");
+
+            URL_Add("stomach", "https://en.wiktionary.org/wiki/stomach#Noun");
+
+            URL_Add("whack", "https://en.wiktionary.org/wiki/whack#Verb");
 
 
 
