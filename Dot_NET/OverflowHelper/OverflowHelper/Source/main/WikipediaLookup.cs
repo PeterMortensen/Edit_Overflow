@@ -3578,6 +3578,7 @@ namespace OverflowHelper.core
             correctionAdd("develoepr", "developer");
             correctionAdd("developper", "developer");
             correctionAdd("develepor", "developer");
+            correctionAdd("deloper", "developer");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -8153,6 +8154,8 @@ namespace OverflowHelper.core
             correctionAdd("Whats app", "WhatsApp");
             correctionAdd("whats app", "WhatsApp");
             correctionAdd("What'sApp", "WhatsApp");
+            correctionAdd("Watsap", "WhatsApp");
+            correctionAdd("Whatsap", "WhatsApp");
 
 
             //Currently defunc due to some recent changes!!!
@@ -9281,6 +9284,7 @@ namespace OverflowHelper.core
             correctionAdd("isn’t", "isn't"); //Quora
             correctionAdd("isn´t", "isn't");
             correctionAdd("ain´t", "isn't");
+            correctionAdd("inst", "isn't");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -11891,6 +11895,7 @@ namespace OverflowHelper.core
             correctionAdd("sintax", "syntax");
             correctionAdd("sytax", "syntax");
             correctionAdd("syntaxis", "syntax");
+            correctionAdd("sintaxis", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -13778,6 +13783,7 @@ namespace OverflowHelper.core
             correctionAdd("gotsha", "gotcha");
 
             correctionAdd("Telegram", "Telegram Messenger");
+            correctionAdd("tellygram", "Telegram Messenger");
 
             correctionAdd("Hyperterminal", "HyperTerminal");
             correctionAdd("hyperterminal", "HyperTerminal");
@@ -13994,6 +14000,7 @@ namespace OverflowHelper.core
             correctionAdd("Next.JS", "Next.js");
             correctionAdd("nextJs", "Next.js");
             correctionAdd("next", "Next.js");
+            correctionAdd("Next", "Next.js");
 
             correctionAdd("optix", "OptiX");
 
@@ -15657,6 +15664,11 @@ namespace OverflowHelper.core
             correctionAdd("Network News Transfer Protocol", "NNTP");
 
             correctionAdd("nestjs", "NestJS");
+            correctionAdd("nest", "NestJS");
+            correctionAdd("Nest", "NestJS");
+            correctionAdd("nest.js", "NestJS");
+            correctionAdd("Nest.js", "NestJS");
+            correctionAdd("Nest js", "NestJS");
 
             correctionAdd("rotten tomatoes", "Rotten Tomatoes");
 
@@ -15904,6 +15916,7 @@ namespace OverflowHelper.core
             correctionAdd("Y-axis", "y-axis");
 
             correctionAdd("againt’s", "against");
+            correctionAdd("againt", "against");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -16315,10 +16328,12 @@ namespace OverflowHelper.core
             correctionAdd("roock", "rook"); // Chess
 
             correctionAdd("firouzja", "Alireza Firouzja"); // Chess
+            correctionAdd("alireza firouzja", "Alireza Firouzja");
 
             correctionAdd("Gary Kasparov", "Garry Kasparov"); // Chess
             correctionAdd("kasporav", "Garry Kasparov"); // Chess
             correctionAdd("kasparov", "Garry Kasparov"); // Chess
+            correctionAdd("kasparove", "Garry Kasparov");
 
             correctionAdd("Rapid", "rapid"); // Chess
 
@@ -16384,6 +16399,19 @@ namespace OverflowHelper.core
             correctionAdd("Carl Bremen system", "Carl's Bremen system"); // Chess
 
             correctionAdd("Svidler", "Peter Svidler"); // Chess
+
+            correctionAdd("fabi", "Fabiano Caruana");
+            correctionAdd("fabiano", "Fabiano Caruana");
+            correctionAdd("Caruana", "Fabiano Caruana");
+            correctionAdd("caruana", "Fabiano Caruana");
+
+            correctionAdd("Aronian", "Levon Aronian");
+            correctionAdd("Levon", "Levon Aronian");
+            correctionAdd("levon", "Levon Aronian");
+
+            correctionAdd("Castling", "castling");
+
+            correctionAdd("tourney", "tournament");
 
             // End of chess part
 
@@ -18867,6 +18895,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Khan academy", "Khan Academy");
             correctionAdd("khan academy", "Khan Academy");
+            correctionAdd("khancademy", "Khan Academy");
+            correctionAdd("khan cademy", "Khan Academy");
+            correctionAdd("Khan cademy", "Khan Academy");
+            correctionAdd("Khancademy", "Khan Academy");
 
             correctionAdd("newtonian", "Newtonian");
 
@@ -19179,6 +19211,12 @@ namespace OverflowHelper.core
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
             correctionAdd("Free code camp", "freeCodeCamp");
+            correctionAdd("fcc", "freeCodeCamp");
+            correctionAdd("FCC", "freeCodeCamp");
+            correctionAdd("free code camp", "freeCodeCamp");
+            correctionAdd("Free Code Camp", "freeCodeCamp");
+            correctionAdd("Freecode camp", "freeCodeCamp");
+            correctionAdd("freecodecamp", "freeCodeCamp");
 
             correctionAdd("getgo", "get-go");
             correctionAdd("get go", "get-go");
@@ -20032,6 +20070,7 @@ namespace OverflowHelper.core
             correctionAdd("gridsome", "Gridsome");
 
             correctionAdd("nuxt", "Nuxt.js");
+            correctionAdd("Nuxt", "Nuxt.js");
 
             correctionAdd("vue native", "Vue Native");
 
@@ -20097,6 +20136,25 @@ namespace OverflowHelper.core
             correctionAdd("stomack", "stomach");
 
             correctionAdd("wack", "whack");
+
+            correctionAdd("codingame", "CodinGame");
+
+            correctionAdd("CS50", "Harvard CS50");
+
+            correctionAdd("mit", "MIT");
+
+            correctionAdd("filed", "field");
+
+            correctionAdd("negociate", "negotiate");
+
+            correctionAdd("pursing", "pursuing");
+
+            correctionAdd("reliefed", "relieved");
+
+            correctionAdd("renouned", "renowned");
+            correctionAdd("Renouned", "renowned");
+
+            correctionAdd("vacay", "vacation");
 
 
             // Start of coronavirus part...
@@ -30724,6 +30782,31 @@ namespace OverflowHelper.core
 
             URL_Add("whack", "https://en.wiktionary.org/wiki/whack#Verb");
 
+            URL_Add("CodinGame", "https://en.wikipedia.org/wiki/CodinGame");
+
+            URL_Add("Harvard CS50", "https://en.wikipedia.org/wiki/CS50");
+
+            URL_Add("MIT", "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology");
+
+            URL_Add("field", "https://en.wiktionary.org/wiki/field#Noun");
+
+            URL_Add("negotiate", "https://en.wiktionary.org/wiki/negotiate#Verb");
+
+            URL_Add("pursuing", "https://en.wiktionary.org/wiki/pursue#Verb");
+
+            URL_Add("relieved", "https://en.wiktionary.org/wiki/relieved#Adjective");
+
+            URL_Add("renowned", "https://en.wiktionary.org/wiki/renowned#Adjective");
+
+            URL_Add("vacation", "https://en.wiktionary.org/wiki/vacation#Noun");
+
+            URL_Add("Fabiano Caruana", "https://en.wikipedia.org/wiki/Fabiano_Caruana");
+
+            URL_Add("Levon Aronian", "https://en.wikipedia.org/wiki/Levon_Aronian#Personal_life");
+
+            URL_Add("castling", "https://en.wikipedia.org/wiki/Castling");
+
+            URL_Add("tournament", "https://en.wiktionary.org/wiki/tournament#Noun");
 
 
             //========================================================
