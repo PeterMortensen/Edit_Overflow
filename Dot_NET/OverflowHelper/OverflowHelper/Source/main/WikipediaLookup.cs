@@ -13405,6 +13405,7 @@ namespace OverflowHelper.core
             correctionAdd("thourough", "thorough");
             correctionAdd("Throughrough", "thorough");
             correctionAdd("throughrough", "thorough");
+            correctionAdd("throrough", "thorough");
 
             correctionAdd("unnecesserily", "unnecessarily");
             correctionAdd("uneceesirly", "unnecessarily");
@@ -20155,6 +20156,8 @@ namespace OverflowHelper.core
             correctionAdd("Renouned", "renowned");
 
             correctionAdd("vacay", "vacation");
+
+            correctionAdd("Phosphine", "phosphine");
 
 
             // Start of coronavirus part...
@@ -30807,6 +30810,8 @@ namespace OverflowHelper.core
             URL_Add("castling", "https://en.wikipedia.org/wiki/Castling");
 
             URL_Add("tournament", "https://en.wiktionary.org/wiki/tournament#Noun");
+
+            URL_Add("phosphine", "https://en.wikipedia.org/wiki/Phosphine");
 
 
             //========================================================
