@@ -9358,6 +9358,7 @@ namespace OverflowHelper.core
             correctionAdd("no where", "nowhere");
             correctionAdd("nowehre", "nowhere");
             correctionAdd("no-where", "nowhere");
+            correctionAdd("No where", "nowhere");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -9977,6 +9978,7 @@ namespace OverflowHelper.core
             correctionAdd("Shouldnt", "shouldn't");
 
             correctionAdd("g-drive", "Google Drive");
+            correctionAdd("google drive", "Google Drive");
 
             correctionAdd(".net core", ".NET Core");
             correctionAdd("dot net core", ".NET Core");
@@ -11608,6 +11610,7 @@ namespace OverflowHelper.core
             correctionAdd("solutuion", "solution");
             correctionAdd("soultion", "solution");
             correctionAdd("solutin", "solution");
+            correctionAdd("soluton", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -17538,6 +17541,7 @@ namespace OverflowHelper.core
             correctionAdd("ipaas", "iPaaS");
 
             correctionAdd("mutch", "much");
+            correctionAdd("mush", "much");
 
             correctionAdd("Ohmic", "ohmic");
 
@@ -18638,6 +18642,8 @@ namespace OverflowHelper.core
 
             correctionAdd("douchbag", "douchebag");
             correctionAdd("duchbag", "douchebag");
+            correctionAdd("d-bag", "douchebag");
+            correctionAdd("douche bag", "douchebag");
 
             correctionAdd("saund", "sound");
             correctionAdd("spund", "sound");
@@ -19558,6 +19564,8 @@ namespace OverflowHelper.core
             correctionAdd("sirious", "serious");
 
             correctionAdd("siriously", "seriously");
+            correctionAdd("Seriosuly", "seriously");
+            correctionAdd("seriosuly", "seriously");
 
             correctionAdd("unvind", "unwind");
 
@@ -20158,6 +20166,30 @@ namespace OverflowHelper.core
             correctionAdd("vacay", "vacation");
 
             correctionAdd("Phosphine", "phosphine");
+
+            correctionAdd("avalon", "Avalon");
+
+            correctionAdd("avalonia", "Avalonia");
+
+            correctionAdd("codereview", "Code Review (Stack Exchange site)");
+
+            correctionAdd("JEST", "Jest");
+            correctionAdd("jest", "Jest");
+
+            correctionAdd("Laplace", "Laplace transform");
+
+            correctionAdd("backend", "back end");
+            correctionAdd("BackEnd", "back end");
+
+            correctionAdd("chache", "cache");
+
+            correctionAdd("deterioate", "deteriorate");
+
+            correctionAdd("frontend", "front end");
+            correctionAdd("FrontEnd", "front end");
+
+            correctionAdd("tkl", "tenkeyless"); // Mechanical keyboards
+            correctionAdd("TKL", "tenkeyless"); // Mechanical keyboards
 
 
             // Start of coronavirus part...
@@ -30812,6 +30844,26 @@ namespace OverflowHelper.core
             URL_Add("tournament", "https://en.wiktionary.org/wiki/tournament#Noun");
 
             URL_Add("phosphine", "https://en.wikipedia.org/wiki/Phosphine");
+
+            URL_Add("Avalon", "https://en.wikipedia.org/wiki/Avalon_(disambiguation)#Technology");
+
+            URL_Add("Avalonia", "http://avaloniaui.net/");
+
+            URL_Add("Code Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
+
+            URL_Add("Jest", "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)");
+
+            URL_Add("Laplace transform", "https://en.wikipedia.org/wiki/Laplace_transform");
+
+            URL_Add("back end", "https://en.wiktionary.org/wiki/back_end#Noun");
+
+            URL_Add("cache", "https://en.wiktionary.org/wiki/cache#Noun");
+
+            URL_Add("deteriorate", "https://en.wiktionary.org/wiki/deteriorate#Verb");
+
+            URL_Add("front end", "https://en.wiktionary.org/wiki/front_end#English");
+
+            URL_Add("tenkeyless", "https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=27");
 
 
             //========================================================
