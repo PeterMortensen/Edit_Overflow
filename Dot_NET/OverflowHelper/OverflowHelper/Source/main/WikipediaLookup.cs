@@ -9270,6 +9270,8 @@ namespace OverflowHelper.core
             correctionAdd("codeforces", "Codeforces");
 
             correctionAdd("codechef", "CodeChef");
+            correctionAdd("Code-Chef", "CodeChef");
+            correctionAdd("Code Chef", "CodeChef");
 
             correctionAdd("firemonkey", "FireMonkey");
             correctionAdd("Firemonkey", "FireMonkey");
@@ -20232,6 +20234,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Western World", "western world");
 
+            correctionAdd("moodle", "Moodle");
 
             // Start of coronavirus part...
 
@@ -30925,6 +30928,8 @@ namespace OverflowHelper.core
             URL_Add("vassal", "https://en.wikipedia.org/wiki/Vassal_state#Historical_examples");
 
             URL_Add("western world", "https://en.wiktionary.org/wiki/western_world#Proper_noun");
+
+            URL_Add("Moodle", "https://en.wikipedia.org/wiki/Moodle");
 
 
             //========================================================
