@@ -1610,6 +1610,7 @@ namespace OverflowHelper.core
             correctionAdd("YouTuBe", "YouTube");
             correctionAdd("YOUTUBE", "YouTube");
             correctionAdd("u tube", "YouTube");
+            correctionAdd("utube", "YouTube");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -3138,6 +3139,8 @@ namespace OverflowHelper.core
             correctionAdd("smtp", "SMTP");
             correctionAdd("Smtp", "SMTP");
 
+            correctionAdd("indefintely", "indefinitely");
+
             //Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
             correctionAdd("definately", "definitely");
             correctionAdd("definetely", "definitely");
@@ -3168,6 +3171,7 @@ namespace OverflowHelper.core
             correctionAdd("Deffinatly", "definitely");
             correctionAdd("deffinatly", "definitely");
             correctionAdd("defenatly", "definitely");
+            correctionAdd("definietly", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -10425,6 +10429,12 @@ namespace OverflowHelper.core
             correctionAdd("paren", "parenthesis");
             correctionAdd("paranthesys", "parenthesis");
             correctionAdd("parenthes", "parenthesis");
+            correctionAdd("parenthcy", "parenthesis");
+            correctionAdd("parenthis", "parenthesis");
+            correctionAdd("parentetis", "parenthesis");
+            correctionAdd("parantetis", "parenthesis");
+            correctionAdd("paranthetis", "parenthesis");
+            correctionAdd("parathesis", "parenthesis");
 
             correctionAdd("parens", "parentheses");
             correctionAdd("parantheses", "parentheses");
@@ -11432,6 +11442,9 @@ namespace OverflowHelper.core
 
             correctionAdd("china", "China");
             correctionAdd("CHINA", "China");
+            correctionAdd("Chy-nah", "China");
+            correctionAdd("PRC", "China");
+            correctionAdd("prc", "China");
 
             correctionAdd("japan", "Japan");
 
@@ -15821,6 +15834,11 @@ namespace OverflowHelper.core
             correctionAdd("tiktok", "TikTok");
             correctionAdd("TIC TAC", "TikTok");
             correctionAdd("Tiktok", "TikTok");
+            correctionAdd("ticktok", "TikTok");
+            correctionAdd("tick tok", "TikTok");
+            correctionAdd("tik tok", "TikTok");
+            correctionAdd("tik tock", "TikTok");
+            correctionAdd("Titok", "TikTok");
 
             correctionAdd("cobra", "Cobra");
 
@@ -18465,8 +18483,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vaild", "valid"); // True typo
 
-            correctionAdd("indefintely", "indefinitely");
-
             correctionAdd("achiving", "achieving");
 
             correctionAdd("agregated", "aggregated");
@@ -18704,6 +18720,7 @@ namespace OverflowHelper.core
             correctionAdd("actaul", "actual");
 
             correctionAdd("collage", "college");
+            correctionAdd("colpege", "college");
 
             correctionAdd("GFX", "graphics");
             correctionAdd("gfx", "graphics");
@@ -19282,6 +19299,7 @@ namespace OverflowHelper.core
             correctionAdd("heer", "hear");
 
             correctionAdd("mein", "mean");
+            correctionAdd("msan", "mean");
 
             correctionAdd("mught", "might");
 
@@ -20190,6 +20208,29 @@ namespace OverflowHelper.core
 
             correctionAdd("tkl", "tenkeyless"); // Mechanical keyboards
             correctionAdd("TKL", "tenkeyless"); // Mechanical keyboards
+
+            correctionAdd("Cambridge analytic", "Cambridge Analytica");
+
+            correctionAdd("Communist Party of China", "Chinese Communist Party");
+            correctionAdd("Ccp", "Chinese Communist Party");
+            correctionAdd("ccp", "Chinese Communist Party");
+            correctionAdd("CCP", "Chinese Communist Party");
+
+            correctionAdd("los angeles", "Los Angeles");
+
+            correctionAdd("nashville", "Nashville");
+
+            correctionAdd("covor", "cover");
+
+            correctionAdd("Extreme Programming", "extreme programming");
+
+            correctionAdd("GW", "gigawatt");
+
+            correctionAdd("incidious", "insidious");
+
+            correctionAdd("vasal", "vassal");
+
+            correctionAdd("Western World", "western world");
 
 
             // Start of coronavirus part...
@@ -30864,6 +30905,26 @@ namespace OverflowHelper.core
             URL_Add("front end", "https://en.wiktionary.org/wiki/front_end#English");
 
             URL_Add("tenkeyless", "https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=27");
+
+            URL_Add("Cambridge Analytica", "https://en.wikipedia.org/wiki/Cambridge_Analytica");
+
+            URL_Add("Chinese Communist Party", "https://en.wikipedia.org/wiki/Chinese_Communist_Party");
+
+            URL_Add("Los Angeles", "https://en.wikipedia.org/wiki/Los_Angeles");
+
+            URL_Add("Nashville", "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee");
+
+            URL_Add("cover", "https://en.wiktionary.org/wiki/cover#Verb");
+
+            URL_Add("extreme programming", "https://en.wikipedia.org/wiki/Extreme_programming");
+
+            URL_Add("gigawatt", "https://en.wiktionary.org/wiki/gigawatt#Noun");
+
+            URL_Add("insidious", "https://en.wiktionary.org/wiki/insidious#Adjective");
+
+            URL_Add("vassal", "https://en.wikipedia.org/wiki/Vassal_state#Historical_examples");
+
+            URL_Add("western world", "https://en.wiktionary.org/wiki/western_world#Proper_noun");
 
 
             //========================================================
