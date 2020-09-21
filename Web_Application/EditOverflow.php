@@ -169,6 +169,7 @@
             # in the PHP error log file.
             $linkYouTubeCompatible = "";
             $link_HTML = "";
+            $correctionComment = "";
 
             if ($correctTerm)
             {
@@ -213,6 +214,8 @@
                 #      but the escaping of double quotes is in doubt. We changed
                 #      it from "&quot;" to "%22" (in get_HTMLattributeEscaped()).
                 #
+                #      Is it WordPress that interferes?
+                #
                 #      That does not work in this case - we get the literal "%22"
                 #      in the (user facing) output.
                 #
@@ -229,6 +232,10 @@
                 $link_HTML =
                   "<a href=\"" . $URL . "\"" .
                   ">" . $correctTerm . "</a>";
+
+                $correctionComment =
+                  "It is \"" . $correctTerm . "\" (not \"" .
+                  $lookUpTerm . "\"). See e.g.: " . $URL;
             }
             else
             {
@@ -365,8 +372,8 @@
         <form
             name="lookupForm"
             method="post"
-            id="lookupForm"            
-            <?php 
+            id="lookupForm"
+            <?php
                 if (useJavaScriptLookup())
                 {
                     //Aparrently also needed...
@@ -375,11 +382,11 @@
                     //was only needed for the submit button...
                     //
                     //What is up???
-                    
+
                     echo "onsubmit=\"return get_action(); return false;\"\n";
                 }
-                
-                // For proper indent in the generated HTML - regardless 
+
+                // For proper indent in the generated HTML - regardless
                 // of the return value of useJavaScriptLookup() or
                 // whether we actually output anything in PHP.
                 echo "\n";
@@ -636,31 +643,48 @@
                     class="XYZ92"
 
                     <?php
-                      #Note: We should eliminate the redundancy (introduced
-                      #      due to problems with escaping double quotes) -
-                      #      see get_HTMLattributeEscaped() for details.
+                        #Note: We should eliminate the redundancy (introduced
+                        #      due to problems with escaping double quotes) -
+                        #      see get_HTMLattributeEscaped() for details.
 
 
-                      # the_formValue($link_HTML);
-                      #
-                      ## Direct, using single quotes, so we don't
-                      ## have to escape neither in PHP nor in HTML
-                      ## (but it fails for correct terms containing
-                      ## single quotes, e.g. "don't"):
-                      ##
-                      #echo "value='$link_HTML'\n";
+                        # the_formValue($link_HTML);
+                        #
+                        ## Direct, using single quotes, so we don't
+                        ## have to escape neither in PHP nor in HTML
+                        ## (but it fails for correct terms containing
+                        ## single quotes, e.g. "don't"):
+                        ##
+                        #echo "value='$link_HTML'\n";
 
 
-                      # Using "&quot;", but see notes near "$link_HTML" above.
-                      #
-                      $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
-                      echo "value=\"$link_HTML_encoded\"\n";
+                        # Using "&quot;", but see notes near "$link_HTML" above.
+                        #
+                        $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
+                        echo "value=\"$link_HTML_encoded\"\n";
                     ?>
-
-
                     style="width:400px;"
                     accesskey="H"
                     title="Shortcut: Shift + Alt + H"
+                />
+
+                <label for="URL5">Correction commen<u>t</u></label>
+                <input
+                    name="URL5"
+                    type="text"
+                    id="URL5"
+                    class="XYZ93"
+
+                    <?php
+                        # Using "&quot;", but see notes near "$link_HTML" above.
+                        #
+                        $correctionComment_encoded = str_replace('"', '&quot;', $correctionComment);
+                        echo "value=\"$correctionComment_encoded\"\n";
+                    ?>
+
+                    style="width:400px;"
+                    accesskey="T"
+                    title="Shortcut: Shift + Alt + T"
                 />
 
 
@@ -739,7 +763,7 @@
                             echo "onsubmit=\"return get_action(); return false;\"";
                         }
 
-                        // For proper indent in the generated HTML - regardless 
+                        // For proper indent in the generated HTML - regardless
                         // of the return value of useJavaScriptLookup() or
                         // whether we actually output anything in PHP.
                         echo "\n";
@@ -758,10 +782,10 @@
                     insert this for lookup button (just above):
 
                         onclick="get_action(); return false;"
-                        
+
                     But JavaScript must be enabled in the browser
                     for it to work - e.g. allowing it in NoScript
-                    in Firefox!!!!    
+                    in Firefox!!!!
                 -->
 
             </div>
