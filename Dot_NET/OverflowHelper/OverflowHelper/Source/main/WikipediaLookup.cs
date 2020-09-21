@@ -3999,6 +3999,7 @@ namespace OverflowHelper.core
             correctionAdd("markdown", "Markdown");
             correctionAdd("mardown", "Markdown");
             correctionAdd("Mark-down", "Markdown");
+            correctionAdd("mark down", "Markdown");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -5011,6 +5012,7 @@ namespace OverflowHelper.core
             correctionAdd("&c", "etc.");
             correctionAdd("et", "etc."); // Really it should be "et." - but a trailing
                                          // full stop is not currently accepted.
+            correctionAdd("etcetera", "etc.");
 
             correctionAdd("midi", "MIDI");
             correctionAdd("Midi", "MIDI");
@@ -16219,6 +16221,7 @@ namespace OverflowHelper.core
             correctionAdd("Karpov", "Anatoly Karpov"); // Chess
 
             correctionAdd("Nepo", "Ian Nepomniachtchi"); // Chess
+            correctionAdd("nepo", "Ian Nepomniachtchi");
 
             correctionAdd("Candidates", "Candidates Tournament 2020"); // Chess
             correctionAdd("Candidate's", "Candidates Tournament 2020"); // Chess
@@ -16239,6 +16242,7 @@ namespace OverflowHelper.core
             correctionAdd("alexander grishchuk", "Alexander Grischuk"); // Chess
             correctionAdd("Grisjuk", "Alexander Grischuk"); // Chess
             correctionAdd("grisjuk", "Alexander Grischuk"); // Chess
+            correctionAdd("grischuk", "Alexander Grischuk");
 
             correctionAdd("Alpha Zero", "AlphaZero"); // Chess
             correctionAdd("Alpha zero", "AlphaZero"); // Chess
@@ -16305,6 +16309,7 @@ namespace OverflowHelper.core
             correctionAdd("bong cloud", "Bong-Cloud opening"); // Chess
             correctionAdd("BONG CLOUD", "Bong-Cloud opening"); // Chess
             correctionAdd("Bongcloud", "Bong-Cloud opening"); // Chess
+            correctionAdd("Bong cloud", "Bong-Cloud opening"); // Chess
 
             correctionAdd("catalan", "Catalan Opening"); // Chess
 
@@ -16313,6 +16318,7 @@ namespace OverflowHelper.core
             correctionAdd("The magician from Riga", "Mikhail Tal"); // Chess
             correctionAdd("magician of Riga", "Mikhail Tal"); // Chess
             correctionAdd("magician of riga", "Mikhail Tal"); // Chess
+            correctionAdd("mikhail tal", "Mikhail Tal"); // Chess
 
             correctionAdd("morphy", "Paul Morphy"); // Chess
             correctionAdd("mophy", "Paul Morphy"); // Chess
@@ -16424,18 +16430,30 @@ namespace OverflowHelper.core
 
             correctionAdd("Svidler", "Peter Svidler"); // Chess
 
-            correctionAdd("fabi", "Fabiano Caruana");
-            correctionAdd("fabiano", "Fabiano Caruana");
-            correctionAdd("Caruana", "Fabiano Caruana");
-            correctionAdd("caruana", "Fabiano Caruana");
+            correctionAdd("fabi", "Fabiano Caruana"); // Chess
+            correctionAdd("fabiano", "Fabiano Caruana"); // Chess
+            correctionAdd("Caruana", "Fabiano Caruana"); // Chess
+            correctionAdd("caruana", "Fabiano Caruana"); // Chess
 
-            correctionAdd("Aronian", "Levon Aronian");
-            correctionAdd("Levon", "Levon Aronian");
-            correctionAdd("levon", "Levon Aronian");
+            correctionAdd("Aronian", "Levon Aronian"); // Chess
+            correctionAdd("Levon", "Levon Aronian"); // Chess
+            correctionAdd("levon", "Levon Aronian"); // Chess
 
-            correctionAdd("Castling", "castling");
+            correctionAdd("Castling", "castling"); // Chess
 
-            correctionAdd("tourney", "tournament");
+            correctionAdd("tourney", "tournament"); // Chess
+
+            correctionAdd("nakamura", "Hikaru Nakamura"); // Chess
+            correctionAdd("Hikaru", "Hikaru Nakamura"); // Chess
+            correctionAdd("hikaru", "Hikaru Nakamura"); // Chess
+            correctionAdd("Nakamura", "Hikaru Nakamura"); // Chess
+
+            correctionAdd("Kan", "Kan (Paulsen) Variation"); // Chess
+
+            correctionAdd("Harikrishna", "Pentala Harikrishna"); // Chess
+
+            correctionAdd("Chucky", "Vassily Ivanchuk"); // Chess
+            correctionAdd("chucky", "Vassily Ivanchuk"); // Chess
 
             // End of chess part
 
@@ -19383,6 +19401,10 @@ namespace OverflowHelper.core
 
             correctionAdd("lock down", "lockdown");
             correctionAdd("lock-down", "lockdown");
+            correctionAdd("li keown", "lockdown");
+            correctionAdd("lo keown", "lockdown");
+            correctionAdd("lo kdown", "lockdown");
+            correctionAdd("lokdown", "lockdown");
 
             correctionAdd("logout", "log out");
             correctionAdd("log-out", "log out");
@@ -20235,6 +20257,30 @@ namespace OverflowHelper.core
             correctionAdd("Western World", "western world");
 
             correctionAdd("moodle", "Moodle");
+
+            correctionAdd("indonesia", "Indonesia");
+
+            correctionAdd("nasm", "NASM");
+
+            correctionAdd("poland", "Poland");
+
+            correctionAdd("tasm", "TASM");
+
+            correctionAdd("Dissertation", "dissertation");
+
+            correctionAdd("jock", "joke");
+
+            correctionAdd("non", "none");
+
+            correctionAdd("apponent", "opponent");
+            correctionAdd("Apponent", "opponent");
+
+            correctionAdd("propper", "proper");
+
+            correctionAdd("eate", "rate");
+
+            correctionAdd("vest", "vast");
+
 
             // Start of coronavirus part...
 
@@ -30930,6 +30976,36 @@ namespace OverflowHelper.core
             URL_Add("western world", "https://en.wiktionary.org/wiki/western_world#Proper_noun");
 
             URL_Add("Moodle", "https://en.wikipedia.org/wiki/Moodle");
+
+            URL_Add("Indonesia", "https://en.wikipedia.org/wiki/Indonesia");
+
+            URL_Add("NASM", "https://en.wikipedia.org/wiki/Netwide_Assembler");
+
+            URL_Add("Poland", "https://en.wikipedia.org/wiki/Poland");
+
+            URL_Add("TASM", "https://en.wikipedia.org/wiki/Turbo_Assembler");
+
+            URL_Add("dissertation", "https://en.wiktionary.org/wiki/dissertation#Noun");
+
+            URL_Add("joke", "https://en.wiktionary.org/wiki/joke#Noun");
+
+            URL_Add("none", "https://en.wiktionary.org/wiki/none#Adverb");
+
+            URL_Add("opponent", "https://en.wiktionary.org/wiki/opponent#Noun");
+
+            URL_Add("proper", "https://en.wiktionary.org/wiki/proper#Adjective");
+
+            URL_Add("rate", "https://en.wiktionary.org/wiki/rate#Noun");
+
+            URL_Add("vast", "https://en.wiktionary.org/wiki/vast#Adjective");
+
+            URL_Add("Hikaru Nakamura", "https://en.wikipedia.org/wiki/Hikaru_Nakamura");
+
+            URL_Add("Kan (Paulsen) Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence#Kan_(Paulsen)_Variation:_4...a6");
+
+            URL_Add("Pentala Harikrishna", "https://en.wikipedia.org/wiki/Pentala_Harikrishna");
+
+            URL_Add("Vassily Ivanchuk", "https://en.wikipedia.org/wiki/Vasyl_Ivanchuk");
 
 
             //========================================================
