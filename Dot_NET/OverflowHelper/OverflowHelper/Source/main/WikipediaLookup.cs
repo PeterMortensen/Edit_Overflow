@@ -9718,6 +9718,8 @@ namespace OverflowHelper.core
             correctionAdd("Hiaerchy", "hierarchy");
             correctionAdd("hiaerchy", "hierarchy");
             correctionAdd("hierachy", "hierarchy");
+            correctionAdd("hireachy", "hierarchy");
+            correctionAdd("hiareachy", "hierarchy");
 
             correctionAdd("netduiono", "Netduino");
 
@@ -10390,6 +10392,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gonna", "is going to");
             correctionAdd("gunna", "is going to");
+            correctionAdd("gona", "is going to");
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
@@ -12402,6 +12405,7 @@ namespace OverflowHelper.core
 
             correctionAdd("AFAICT", "as far as I can tell");
             correctionAdd("Afaict", "as far as I can tell");
+            correctionAdd("afaict", "as far as I can tell");
 
             correctionAdd("asignment", "assignment");
 
@@ -14513,6 +14517,7 @@ namespace OverflowHelper.core
             correctionAdd(".profile", ".profile file");
 
             correctionAdd("Blazer", "Blazor");
+            correctionAdd("blazor", "Blazor");
 
             correctionAdd("ETW", "Event Tracing for Windows");
 
@@ -16111,6 +16116,7 @@ namespace OverflowHelper.core
             correctionAdd("positivr", "positive");
             correctionAdd("postive", "positive");
             correctionAdd("possitive", "positive");
+            correctionAdd("posotive", "positive");
 
             correctionAdd("pune", "Pune");
 
@@ -16596,11 +16602,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cua", "CUA");
 
-            correctionAdd("Retina Display", "Retina display");
-            correctionAdd("Retina", "Retina display");
-            correctionAdd("retina display", "Retina display");
-            correctionAdd("retina", "Retina display");
-
             correctionAdd("componenet", "component");
             correctionAdd("componant", "component");
 
@@ -17020,6 +17021,7 @@ namespace OverflowHelper.core
             correctionAdd("mis match", "mismatch");
 
             correctionAdd("mate", "MATE");
+            correctionAdd("Mate", "MATE");
 
             correctionAdd("Me Too", "MeToo");
 
@@ -17277,6 +17279,7 @@ namespace OverflowHelper.core
             correctionAdd("confort", "comfort");
 
             correctionAdd("Boing", "Boeing");
+            correctionAdd("boing", "Boeing");
 
             correctionAdd("ES2020", "ECMAScript 2020");
 
@@ -19535,6 +19538,12 @@ namespace OverflowHelper.core
 
             correctionAdd("chassi", "chassis");
 
+            correctionAdd("Retina Display", "Retina display");
+            correctionAdd("Retina", "Retina display");
+            correctionAdd("retina display", "Retina display");
+            correctionAdd("retina", "Retina display");
+
+            correctionAdd("dispay", "display");
             correctionAdd("diplay", "display");
 
             correctionAdd("imagion", "imagine");
@@ -19637,6 +19646,7 @@ namespace OverflowHelper.core
             correctionAdd("in our hands", "on our hands");
 
             correctionAdd("psyciatrist", "psychiatrist");
+            correctionAdd("psykiatrist", "psychiatrist");
 
             correctionAdd("upto", "up to");
 
@@ -20280,6 +20290,39 @@ namespace OverflowHelper.core
             correctionAdd("eate", "rate");
 
             correctionAdd("vest", "vast");
+
+            correctionAdd("airbus", "Airbus");
+
+            correctionAdd("bing maps", "Bing Maps");
+            correctionAdd("Bing Map", "Bing Maps");
+            correctionAdd("bing map", "Bing Maps");
+
+            correctionAdd("faa", "FAA");
+
+            correctionAdd("gboard", "Gboard");
+
+            correctionAdd("mandarin", "Mandarin");
+
+            correctionAdd("rumantsch", "Rumantsch");
+
+            correctionAdd("switzerland", "Switzerland");
+
+            correctionAdd("wiktionary", "Wiktionary");
+
+            correctionAdd("chauvanism", "chauvinism");
+
+            correctionAdd("complez", "complex");
+
+            correctionAdd("helpdesk", "help desk");
+
+            correctionAdd("laikely", "likely");
+            correctionAdd("laikly", "likely");
+
+            correctionAdd("tipp", "tip");
+
+            correctionAdd("un-welcoming", "unwelcoming");
+
+            correctionAdd("wright", "writeX");
 
 
             // Start of coronavirus part...
@@ -31006,6 +31049,37 @@ namespace OverflowHelper.core
             URL_Add("Pentala Harikrishna", "https://en.wikipedia.org/wiki/Pentala_Harikrishna");
 
             URL_Add("Vassily Ivanchuk", "https://en.wikipedia.org/wiki/Vasyl_Ivanchuk");
+
+            URL_Add("Airbus", "https://en.wikipedia.org/wiki/Airbus");
+
+            URL_Add("Bing Maps", "https://en.wikipedia.org/wiki/Bing_Maps");
+
+            URL_Add("FAA", "https://en.wikipedia.org/wiki/Federal_Aviation_Administration");
+
+            URL_Add("Gboard", "https://en.wikipedia.org/wiki/Gboard");
+
+            URL_Add("Mandarin", "https://en.wiktionary.org/wiki/Mandarin#Noun");
+
+            URL_Add("Rumantsch", "https://en.wiktionary.org/wiki/Rumantsch#Proper_noun");
+
+            URL_Add("Switzerland", "https://en.wikipedia.org/wiki/Switzerland");
+
+            URL_Add("Wiktionary", "https://en.wikipedia.org/wiki/Wiktionary");
+
+            URL_Add("chauvinism", "https://en.wiktionary.org/wiki/chauvinism#Noun");
+
+            URL_Add("complex", "https://en.wiktionary.org/wiki/complex#Adjective");
+
+            URL_Add("help desk", "https://en.wiktionary.org/wiki/help_desk#Noun");
+
+            URL_Add("likely", "https://en.wiktionary.org/wiki/likely#Adverb");
+
+            URL_Add("tip", "https://en.wiktionary.org/wiki/tip#Noun_5");
+
+            URL_Add("unwelcoming", "https://en.wiktionary.org/wiki/unwelcoming");
+
+            URL_Add("writeX", "https://en.wiktionary.org/wiki/write#Verb");
+
 
 
             //========================================================
