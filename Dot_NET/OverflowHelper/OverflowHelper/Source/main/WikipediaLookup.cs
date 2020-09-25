@@ -2067,6 +2067,7 @@ namespace OverflowHelper.core
             correctionAdd("scipy", "SciPy");
             correctionAdd("Scipy", "SciPy");
             correctionAdd("SciPY", "SciPy");
+            correctionAdd("SCIPY", "SciPy");
 
             correctionAdd("ldap", "LDAP");
 
@@ -2634,12 +2635,6 @@ namespace OverflowHelper.core
             correctionAdd("Djanog", "Django"); //Misspelling.
             correctionAdd("DJango", "Django");
 
-            correctionAdd("xcode", "Xcode");
-            correctionAdd("XCode", "Xcode");
-            correctionAdd("xCode", "Xcode");
-            correctionAdd("x-code", "Xcode");
-            correctionAdd("XCODE", "Xcode");
-
             correctionAdd("itunes", "iTunes");
             correctionAdd("Itunes", "iTunes");
             correctionAdd("itune", "iTunes");
@@ -2676,10 +2671,6 @@ namespace OverflowHelper.core
             correctionAdd("rubygem", "RubyGems");
 
             correctionAdd("jruby", "JRuby");
-
-            correctionAdd("unicode", "Unicode");
-            correctionAdd("UNICODE", "Unicode");
-            correctionAdd("UniCode", "Unicode");
 
             //correctionAdd("spring", "Spring"); //Not used anymore
             correctionAdd("SPRING", "Spring Framework");
@@ -4025,6 +4016,7 @@ namespace OverflowHelper.core
             correctionAdd("tmp", "temporary");
             correctionAdd("Temporatly", "temporary");
             correctionAdd("temporatly", "temporary");
+            correctionAdd("Temp", "temporary");
 
             correctionAdd("google-fu", "Google-fu");
             correctionAdd("google fu", "Google-fu");
@@ -5930,11 +5922,6 @@ namespace OverflowHelper.core
             correctionAdd("foursquare", "Foursquare");
             correctionAdd("Four square", "Foursquare");
 
-            correctionAdd("Google code", "Google Code");
-            correctionAdd("google code", "Google Code");
-            correctionAdd("google.code", "Google Code");
-            correctionAdd("googlecode", "Google Code");
-
             correctionAdd("WOW", "WoW"); //Windows on Window, but collision with World of Wordcraft...
 
             correctionAdd("XARGS", "xargs");
@@ -6178,10 +6165,6 @@ namespace OverflowHelper.core
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
-
-            correctionAdd("qr", "QR code");
-            correctionAdd("qr code", "QR code");
-            correctionAdd("QR-code", "QR code");
 
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); //Plural, to avoid nearly duplicate entries.
@@ -9022,17 +9005,6 @@ namespace OverflowHelper.core
             correctionAdd("orca", "Orca");
             correctionAdd("ORCA", "Orca");
 
-            correctionAdd("pseudo code", "pseudocode");
-            correctionAdd("Pseudo Code", "pseudocode");
-            correctionAdd("pseudyo", "pseudocode"); //Not exact, no "code" in the input
-            correctionAdd("Pseudo-code", "pseudocode");
-            correctionAdd("pseudo-code", "pseudocode");
-            correctionAdd("psuedocode", "pseudocode");
-            correctionAdd("psudocode", "pseudocode");
-            correctionAdd("psuedo code", "pseudocode");
-            correctionAdd("psuedo-code", "pseudocode");
-            correctionAdd("Psuedocode", "pseudocode");
-
             correctionAdd("ldo", "LDO");
 
             correctionAdd("t-shirt", "T-shirt");
@@ -9428,6 +9400,7 @@ namespace OverflowHelper.core
             correctionAdd("google group", "Google Groups");
 
             correctionAdd("pandas", "Pandas");
+            correctionAdd("padas", "Pandas");
 
             correctionAdd("MITM", "man-in-the-middle attack");
             correctionAdd("man in the middle attack", "man-in-the-middle attack");
@@ -9912,9 +9885,6 @@ namespace OverflowHelper.core
             correctionAdd("Stm32", "STM32");
             correctionAdd("stm 32", "STM32");
 
-            correctionAdd("authenticode", "Authenticode");
-            correctionAdd("AuthentiCode", "Authenticode");
-
             correctionAdd("gulp", "Gulp.js");
             correctionAdd("Gulp", "Gulp.js");
 
@@ -10358,32 +10328,6 @@ namespace OverflowHelper.core
             correctionAdd("mantained", "maintained");
             correctionAdd("maintaned", "maintained");
 
-            correctionAdd("Visual Studio code", "Visual Studio Code");
-            correctionAdd("VSCode", "Visual Studio Code");
-            correctionAdd("VS Code", "Visual Studio Code");
-            correctionAdd("visual studio code", "Visual Studio Code");
-            correctionAdd("Visual studio code", "Visual Studio Code");
-            correctionAdd("vscode", "Visual Studio Code");
-            correctionAdd("vs code", "Visual Studio Code");
-            correctionAdd("VS code", "Visual Studio Code");
-            correctionAdd("VsCode", "Visual Studio Code");
-            correctionAdd("visual code", "Visual Studio Code");
-            correctionAdd("vsCode", "Visual Studio Code");
-            correctionAdd("vs Code", "Visual Studio Code");
-            correctionAdd("Vscode", "Visual Studio Code");
-            correctionAdd("VScode", "Visual Studio Code");
-            correctionAdd("vs-code", "Visual Studio Code");
-            correctionAdd("Code", "Visual Studio Code");
-            correctionAdd("Visual studio Code", "Visual Studio Code");
-            correctionAdd("VSC", "Visual Studio Code");
-            correctionAdd("VSCODE", "Visual Studio Code");
-            correctionAdd("Visual Code", "Visual Studio Code");
-            correctionAdd("vsc", "Visual Studio Code");
-            correctionAdd("VS CODE", "Visual Studio Code");
-            correctionAdd("VS-Code", "Visual Studio Code");
-            correctionAdd("Visual Studio CODE", "Visual Studio Code");
-            correctionAdd("vs.code", "Visual Studio Code");
-
             correctionAdd("WebStrom", "WebStorm");
             correctionAdd("Webstorm", "WebStorm");
             correctionAdd("webstorm", "WebStorm");
@@ -10709,6 +10653,8 @@ namespace OverflowHelper.core
             correctionAdd("1st", "first");
             correctionAdd("Fist", "first");
             correctionAdd("first's", "first");
+            correctionAdd("Fisrt", "first");
+            correctionAdd("First", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -12688,6 +12634,7 @@ namespace OverflowHelper.core
             correctionAdd("wan't", "want");
             correctionAdd("whant", "want");
             correctionAdd("wand", "want");
+            correctionAdd("wannt", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -13714,10 +13661,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sendmail", "Sendmail");
 
-            correctionAdd("url encode", "URL encode");
-            correctionAdd("URL-encode", "URL encode");
-            correctionAdd("url-encode", "URL encode");
-
             correctionAdd("existant", "existent");
 
             correctionAdd("inpersonation", "impersonation");
@@ -13834,8 +13777,6 @@ namespace OverflowHelper.core
             correctionAdd("Collector", "collector");
 
             correctionAdd("Drain", "drain");
-
-            correctionAdd("endcode", "encode");
 
             correctionAdd("gaue", "gauge");
             correctionAdd("guage", "gauge");
@@ -14932,8 +14873,6 @@ namespace OverflowHelper.core
             correctionAdd("Gitlab ci", "GitLab CI");
             correctionAdd("gitlab-ce", "GitLab CI");
 
-            correctionAdd("gray code", "Gray code");
-
             correctionAdd("iT", "IT");
 
             correctionAdd("Northern Hemiphere", "Northern Hemisphere");
@@ -14967,8 +14906,6 @@ namespace OverflowHelper.core
 
             correctionAdd("foramt", "format");
             correctionAdd("formate", "format");
-
-            correctionAdd("hardcode", "hard code");
 
             correctionAdd("in layman's language", "in layman's terms");
 
@@ -16754,6 +16691,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fft", "FFT");
             correctionAdd("fast fourier transform", "FFT");
+            correctionAdd("Fast Fourier Transform", "FFT");
 
             correctionAdd("fourier transform", "Fourier transform");
 
@@ -17733,8 +17671,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Pseudo Random Number Generator", "pseudorandom number generator");
 
-            correctionAdd("sourcecode", "source code");
-
             correctionAdd("unwieldly", "unwieldy");
 
             correctionAdd("worser", "worse");
@@ -18070,9 +18006,6 @@ namespace OverflowHelper.core
             correctionAdd("worldbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("Worldbuilding SE", "Worldbuilding (Stack Exchange site)");
 
-            correctionAdd("op code", "opcode");
-            correctionAdd("opCode", "opcode");
-
             correctionAdd("alianate", "alienate");
 
             correctionAdd("biggets", "biggest");
@@ -18140,6 +18073,7 @@ namespace OverflowHelper.core
             correctionAdd("crytically", "critically");
 
             correctionAdd("facasious", "facetious");
+            correctionAdd("facacious", "facetious");
 
             correctionAdd("falacious", "fallacious");
 
@@ -19766,10 +19700,6 @@ namespace OverflowHelper.core
 
             correctionAdd("whipper snapper", "whippersnapper");
 
-            correctionAdd("leet code", "LeetCode");
-            correctionAdd("Leetcode", "LeetCode");
-            correctionAdd("leetcode", "LeetCode");
-
             correctionAdd("WWW", "World Wide Web");
             correctionAdd("www", "World Wide Web");
 
@@ -20360,6 +20290,104 @@ namespace OverflowHelper.core
             correctionAdd("startup", "start up");
 
             correctionAdd("watchs", "watches");
+
+            correctionAdd("xcode", "Xcode");
+            correctionAdd("XCode", "Xcode");
+            correctionAdd("xCode", "Xcode");
+            correctionAdd("x-code", "Xcode");
+            correctionAdd("XCODE", "Xcode");
+
+            correctionAdd("unicode", "Unicode");
+            correctionAdd("UNICODE", "Unicode");
+            correctionAdd("UniCode", "Unicode");
+
+            correctionAdd("Google code", "Google Code");
+            correctionAdd("google code", "Google Code");
+            correctionAdd("google.code", "Google Code");
+            correctionAdd("googlecode", "Google Code");
+
+            correctionAdd("qr", "QR code");
+            correctionAdd("qr code", "QR code");
+            correctionAdd("QR-code", "QR code");
+
+            correctionAdd("pseudo code", "pseudocode");
+            correctionAdd("Pseudo Code", "pseudocode");
+            correctionAdd("pseudyo", "pseudocode"); //Not exact, no "code" in the input
+            correctionAdd("Pseudo-code", "pseudocode");
+            correctionAdd("pseudo-code", "pseudocode");
+            correctionAdd("psuedocode", "pseudocode");
+            correctionAdd("psudocode", "pseudocode");
+            correctionAdd("psuedo code", "pseudocode");
+            correctionAdd("psuedo-code", "pseudocode");
+            correctionAdd("Psuedocode", "pseudocode");
+
+            correctionAdd("authenticode", "Authenticode");
+            correctionAdd("AuthentiCode", "Authenticode");
+
+            correctionAdd("Visual Studio code", "Visual Studio Code");
+            correctionAdd("VSCode", "Visual Studio Code");
+            correctionAdd("VS Code", "Visual Studio Code");
+            correctionAdd("visual studio code", "Visual Studio Code");
+            correctionAdd("Visual studio code", "Visual Studio Code");
+            correctionAdd("vscode", "Visual Studio Code");
+            correctionAdd("vs code", "Visual Studio Code");
+            correctionAdd("VS code", "Visual Studio Code");
+            correctionAdd("VsCode", "Visual Studio Code");
+            correctionAdd("visual code", "Visual Studio Code");
+            correctionAdd("vsCode", "Visual Studio Code");
+            correctionAdd("vs Code", "Visual Studio Code");
+            correctionAdd("Vscode", "Visual Studio Code");
+            correctionAdd("VScode", "Visual Studio Code");
+            correctionAdd("vs-code", "Visual Studio Code");
+            correctionAdd("Code", "Visual Studio Code");
+            correctionAdd("Visual studio Code", "Visual Studio Code");
+            correctionAdd("VSC", "Visual Studio Code");
+            correctionAdd("VSCODE", "Visual Studio Code");
+            correctionAdd("Visual Code", "Visual Studio Code");
+            correctionAdd("vsc", "Visual Studio Code");
+            correctionAdd("VS CODE", "Visual Studio Code");
+            correctionAdd("VS-Code", "Visual Studio Code");
+            correctionAdd("Visual Studio CODE", "Visual Studio Code");
+            correctionAdd("vs.code", "Visual Studio Code");
+
+            correctionAdd("url encode", "URL encode");
+            correctionAdd("URL-encode", "URL encode");
+            correctionAdd("url-encode", "URL encode");
+
+            correctionAdd("endcode", "encode");
+
+            correctionAdd("gray code", "Gray code");
+
+            correctionAdd("hardcode", "hard code");
+
+            correctionAdd("sourcecode", "source code");
+
+            correctionAdd("op code", "opcode");
+            correctionAdd("opCode", "opcode");
+
+            correctionAdd("leet code", "LeetCode");
+            correctionAdd("Leetcode", "LeetCode");
+            correctionAdd("leetcode", "LeetCode");
+
+            correctionAdd("coce", "code");
+            correctionAdd("Coce", "code");
+
+            correctionAdd("completinist", "completionist");
+
+            correctionAdd("DFT", "discrete Fourier transform");
+            correctionAdd("Discrete Fourier Transform", "discrete Fourier transform");
+
+            correctionAdd("mini iPad", "iPad Mini");
+            correctionAdd("mini-iPad", "iPad Mini");
+
+            correctionAdd("Orthographic", "orthographic");
+
+            correctionAdd("paraphrashe", "paraphrase");
+
+            correctionAdd("PSD", "power spectral density");
+            correctionAdd("Power Spectral Density", "power spectral density");
+
+            correctionAdd("propperly", "properly");
 
 
             // Start of coronavirus part...
@@ -31144,6 +31172,22 @@ namespace OverflowHelper.core
             URL_Add("watches", "https://en.wiktionary.org/wiki/watch#Verb");
 
             URL_Add("chess", "https://en.wikipedia.org/wiki/Chess");
+
+            URL_Add("code", "https://en.wiktionary.org/wiki/code#Noun");
+
+            URL_Add("completionist", "https://en.wiktionary.org/wiki/completionist#Noun");
+
+            URL_Add("discrete Fourier transform", "https://en.wikipedia.org/wiki/Discrete_Fourier_transform");
+
+            URL_Add("iPad Mini", "https://en.wikipedia.org/wiki/IPad_Mini");
+
+            URL_Add("orthographic", "https://en.wiktionary.org/wiki/orthographic#Adjective");
+
+            URL_Add("paraphrase", "https://en.wiktionary.org/wiki/paraphrase#Verb");
+
+            URL_Add("power spectral density", "https://en.wikipedia.org/wiki/Spectral_density#Power_spectral_density");
+
+            URL_Add("properly", "https://en.wiktionary.org/wiki/properly#Adverb");
 
 
 
