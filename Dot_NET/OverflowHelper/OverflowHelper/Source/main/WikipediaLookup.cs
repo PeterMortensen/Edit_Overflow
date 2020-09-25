@@ -10733,11 +10733,13 @@ namespace OverflowHelper.core
             correctionAdd("React JS", "React");
             correctionAdd("react js", "React");
             correctionAdd("React js", "React");
+            correctionAdd("React.js", "React");
 
             correctionAdd("dependant", "dependent"); //Common misspelling...
 
             correctionAdd("dependancy", "dependency"); //Common misspelling...
             correctionAdd("Dependancy", "dependency");
+            correctionAdd("depedency", "dependency");
 
             // -***** NEW
 
@@ -12315,6 +12317,7 @@ namespace OverflowHelper.core
             correctionAdd("enother", "another");
 
             correctionAdd("catagory", "category");
+            correctionAdd("catgeory", "category");
 
             correctionAdd("Ccache", "ccache");
 
@@ -16256,7 +16259,8 @@ namespace OverflowHelper.core
 
             correctionAdd("the frence defence", "French Defence"); // Chess
             correctionAdd("the french", "French Defence"); // Chess
-            correctionAdd("french defence", "French Defence");
+            correctionAdd("french defence", "French Defence"); // Chess
+            correctionAdd("french defense", "French Defence"); // Chess
 
             correctionAdd("Slav defence", "Slav Defense"); // Chess
             correctionAdd("slav defence", "Slav Defense"); // Chess
@@ -16325,6 +16329,7 @@ namespace OverflowHelper.core
             correctionAdd("magician of Riga", "Mikhail Tal"); // Chess
             correctionAdd("magician of riga", "Mikhail Tal"); // Chess
             correctionAdd("mikhail tal", "Mikhail Tal"); // Chess
+            correctionAdd("Mischa", "Mikhail Tal"); // Chess
 
             correctionAdd("morphy", "Paul Morphy"); // Chess
             correctionAdd("mophy", "Paul Morphy"); // Chess
@@ -16460,6 +16465,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Chucky", "Vassily Ivanchuk"); // Chess
             correctionAdd("chucky", "Vassily Ivanchuk"); // Chess
+
+            correctionAdd("Chess", "chess"); // Chess
 
             // End of chess part
 
@@ -20296,6 +20303,7 @@ namespace OverflowHelper.core
             correctionAdd("bing maps", "Bing Maps");
             correctionAdd("Bing Map", "Bing Maps");
             correctionAdd("bing map", "Bing Maps");
+            correctionAdd("Bing map", "Bing Maps");
 
             correctionAdd("faa", "FAA");
 
@@ -20323,6 +20331,35 @@ namespace OverflowHelper.core
             correctionAdd("un-welcoming", "unwelcoming");
 
             correctionAdd("wright", "writeX");
+
+            correctionAdd("jasmine", "Jasmine");
+
+            correctionAdd("middle age", "Middle Ages");
+            correctionAdd("middle âge", "Middle Ages");
+
+            correctionAdd("mocha", "Mocha");
+
+            correctionAdd("puppeteer", "Puppeteer");
+
+            correctionAdd("Abelian", "abelian");
+
+            correctionAdd("admissble", "admissible");
+
+            correctionAdd("Blog", "blog");
+
+            correctionAdd("conculde", "conclude");
+
+            correctionAdd("full stack", "full-stack");
+            correctionAdd("FullStack", "full-stack");
+            correctionAdd("Full stack", "full-stack");
+
+            correctionAdd("magick", "magic");
+
+            correctionAdd("simiplicity", "simplicity");
+
+            correctionAdd("startup", "start up");
+
+            correctionAdd("watchs", "watches");
 
 
             // Start of coronavirus part...
@@ -31079,6 +31116,34 @@ namespace OverflowHelper.core
             URL_Add("unwelcoming", "https://en.wiktionary.org/wiki/unwelcoming");
 
             URL_Add("writeX", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("Jasmine", "https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework)");
+
+            URL_Add("Middle Ages", "https://en.wikipedia.org/wiki/Middle_Ages");
+
+            URL_Add("Mocha", "https://en.wikipedia.org/wiki/Mocha_(JavaScript_framework)");
+
+            URL_Add("Puppeteer", "https://developers.google.com/web/tools/puppeteer/");
+
+            URL_Add("abelian", "https://en.wiktionary.org/wiki/abelian#Adjective");
+
+            URL_Add("admissible", "https://en.wiktionary.org/wiki/admissible#Adjective");
+
+            URL_Add("blog", "https://en.wikipedia.org/wiki/Blog");
+
+            URL_Add("conclude", "https://en.wiktionary.org/wiki/conclude#Verb");
+
+            URL_Add("full-stack", "https://en.wikipedia.org/wiki/Solution_stack");
+
+            URL_Add("magic", "https://en.wiktionary.org/wiki/magic#Noun");
+
+            URL_Add("simplicity", "https://en.wiktionary.org/wiki/simplicity#Noun");
+
+            URL_Add("start up", "https://en.wiktionary.org/wiki/start_up#Verb");
+
+            URL_Add("watches", "https://en.wiktionary.org/wiki/watch#Verb");
+
+            URL_Add("chess", "https://en.wikipedia.org/wiki/Chess");
 
 
 
