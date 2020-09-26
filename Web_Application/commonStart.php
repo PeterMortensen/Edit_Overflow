@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a65 2020-09-21T223006Z+0";
+        return "Edit Overflow v. 1.1.49a67 2020-09-26T190825Z+0";
     }
 
 
@@ -377,6 +377,8 @@
         $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
         $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
 
+        $replacer->transform('(\d) DOT (\d)', '$1.$2'); # Revert for numbers
+
 
         # Convert email addresses like so... (at least
         # to offer some protection (and avoiding
@@ -384,6 +386,9 @@
         #
         # For now, just globally replace "@". But note that it
         # affects LBRY invites (perhaps we should add an exception?).
+        #
+        # Future: Perhaps don't replace if there is a space before "@"
+        #         or at the beginning of a line.
         #
         $replacer->transform('\@', ' AT ');
 
