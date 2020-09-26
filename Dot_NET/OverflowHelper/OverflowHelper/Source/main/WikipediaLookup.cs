@@ -9574,6 +9574,7 @@ namespace OverflowHelper.core
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
             correctionAdd("compaitible", "compatible");
+            correctionAdd("compatiple", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -12552,6 +12553,8 @@ namespace OverflowHelper.core
             correctionAdd("Lithium", "lithium");
             correctionAdd("Lithion", "lithium");
             correctionAdd("Li", "lithium");
+            correctionAdd("litium", "lithium");
+            correctionAdd("Litium", "lithium");
 
             correctionAdd("M", "m");
             correctionAdd("Meter", "m");
@@ -18355,6 +18358,8 @@ namespace OverflowHelper.core
             correctionAdd("lambo", "Lamborghini");
 
             correctionAdd("pytorch", "PyTorch");
+            correctionAdd("torch", "PyTorch");
+            correctionAdd("Torch", "PyTorch");
 
             correctionAdd("pelican", "Sveshnikov Variation (Lasker–Pelikan)");
 
@@ -20388,6 +20393,27 @@ namespace OverflowHelper.core
             correctionAdd("Power Spectral Density", "power spectral density");
 
             correctionAdd("propperly", "properly");
+
+            correctionAdd("Colab", "Colaboratory");
+            correctionAdd("colab", "Colaboratory");
+
+            correctionAdd("Jpeg 2000", "JPEG 2000");
+
+            correctionAdd("XR", "JPEG XR");
+            correctionAdd("xr", "JPEG XR");
+
+            correctionAdd("lighthouse", "Lighthouse");
+
+            correctionAdd("Ni–MH", "NiMH");
+            correctionAdd("nimh", "NiMH");
+
+            correctionAdd("webp", "WebP");
+
+            correctionAdd("germaine", "germane");
+
+            correctionAdd("rechargable", "rechargeable");
+
+            correctionAdd("renawable", "renewable");
 
 
             // Start of coronavirus part...
@@ -31188,6 +31214,25 @@ namespace OverflowHelper.core
             URL_Add("power spectral density", "https://en.wikipedia.org/wiki/Spectral_density#Power_spectral_density");
 
             URL_Add("properly", "https://en.wiktionary.org/wiki/properly#Adverb");
+
+            URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory");
+
+            URL_Add("JPEG 2000", "https://en.wikipedia.org/wiki/JPEG_2000");
+
+            URL_Add("JPEG XR", "https://en.wikipedia.org/wiki/JPEG_XR");
+
+            URL_Add("Lighthouse", "https://en.wikipedia.org/wiki/Google_Lighthouse");
+
+            URL_Add("NiMH", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery");
+
+            URL_Add("WebP", "https://en.wikipedia.org/wiki/WebP");
+
+            URL_Add("germane", "https://en.wiktionary.org/wiki/germane#Adjective");
+
+            URL_Add("rechargeable", "https://en.wiktionary.org/wiki/rechargeable#Adjective");
+
+            URL_Add("renewable", "https://en.wiktionary.org/wiki/renewable#Adjective");
+
 
 
 
