@@ -234,7 +234,7 @@
             #         the client side instead of just a single
             #         function call) instead of just the length
             #         difference (somewhat redundant) - though
-            #         it would make for a more accurate text.
+            #         it would make for a more accurate test.
             #
             function test_removeTrailingSpacesAndTABs($ID, $aSomeText, $aLengthDiff)
             {
@@ -422,7 +422,7 @@
             # Normal full stops
             test_transformFor_YouTubeComments(1016, "first job._", 0);
             test_transformFor_YouTubeComments(1017, "first job.", 0);
-
+            
             # Insertion of empty space on empty lines - introduced
             # after changes to YouTube comments on 2020-05-21
             #
@@ -431,6 +431,9 @@
                                                 "\r\n" .
                                                 "XXXX\r\n",
                                               -1);
+
+            test_transformFor_YouTubeComments(1019, "Which is 1.7 V higher.", 0);
+
 
 
             # ----------------------------------------------------------------
