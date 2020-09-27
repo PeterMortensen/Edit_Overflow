@@ -235,7 +235,8 @@
 
                 $correctionComment =
                   "It is \"" . $correctTerm . "\" (not \"" .
-                  $lookUpTerm . "\"). See e.g.: " . $URL;
+                  $lookUpTerm . "\"). See e.g.: " . $URL .
+                  ". You can edit your question/comment/answer/post.";
             }
             else
             {
