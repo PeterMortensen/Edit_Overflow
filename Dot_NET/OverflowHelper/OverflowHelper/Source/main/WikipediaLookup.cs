@@ -9360,6 +9360,7 @@ namespace OverflowHelper.core
             correctionAdd("Cpanel", "cPanel");
             correctionAdd("C-Panel", "cPanel");
             correctionAdd("CPanel", "cPanel");
+            correctionAdd("C panel", "cPanel");
 
             correctionAdd("plesk", "Plesk");
 
@@ -10048,6 +10049,8 @@ namespace OverflowHelper.core
             correctionAdd("ECMA6", "ECMAScript&nbsp;6");
             correctionAdd("ECMA 6", "ECMAScript&nbsp;6");
             correctionAdd("ECMAscript 6", "ECMAScript&nbsp;6");
+            correctionAdd("es2015", "ECMAScript&nbsp;6");
+            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;6");
 
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
@@ -12874,6 +12877,7 @@ namespace OverflowHelper.core
 
             correctionAdd("literaly", "literally");
             correctionAdd("literarily", "literally");
+            correctionAdd("literary", "literally");
 
             correctionAdd("maintable", "maintainable");
 
@@ -15189,6 +15193,7 @@ namespace OverflowHelper.core
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
             correctionAdd("from one hand", "on the one hand");
+            correctionAdd("On the one hand", "on the one hand");
 
             correctionAdd("re-point", "repoint");
 
@@ -20414,6 +20419,23 @@ namespace OverflowHelper.core
             correctionAdd("rechargable", "rechargeable");
 
             correctionAdd("renawable", "renewable");
+
+            correctionAdd("Chatzilla", "ChatZilla");
+
+            correctionAdd("commonjs", "CommonJS");
+
+            correctionAdd("ECMAScript Module", "ECMAScript module");
+            correctionAdd("ESM", "ECMAScript module");
+            correctionAdd("esm", "ECMAScript module");
+            correctionAdd("ES Module", "ECMAScript module");
+            correctionAdd("EcmaScript module", "ECMAScript module");
+
+            correctionAdd("iify", "IIFE");
+            correctionAdd("iife", "IIFE");
+            correctionAdd("IIFY", "IIFE");
+
+            correctionAdd("thumb2", "Thumb-2");
+            correctionAdd("thumb-2", "Thumb-2");
 
 
             // Start of coronavirus part...
@@ -31232,6 +31254,16 @@ namespace OverflowHelper.core
             URL_Add("rechargeable", "https://en.wiktionary.org/wiki/rechargeable#Adjective");
 
             URL_Add("renewable", "https://en.wiktionary.org/wiki/renewable#Adjective");
+
+            URL_Add("ChatZilla", "https://en.wikipedia.org/wiki/ChatZilla");
+
+            URL_Add("CommonJS", "https://en.wikipedia.org/wiki/CommonJS");
+
+            URL_Add("ECMAScript module", "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/");
+
+            URL_Add("IIFE", "https://developer.mozilla.org/en-US/docs/Glossary/IIFE");
+
+            URL_Add("Thumb-2", "https://en.wikipedia.org/wiki/ARM_architecture#Thumb-2");
 
 
 
