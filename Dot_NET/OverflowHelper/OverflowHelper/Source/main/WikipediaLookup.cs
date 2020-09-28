@@ -1611,6 +1611,7 @@ namespace OverflowHelper.core
             correctionAdd("YOUTUBE", "YouTube");
             correctionAdd("u tube", "YouTube");
             correctionAdd("utube", "YouTube");
+            correctionAdd("Utube", "YouTube");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -6183,6 +6184,7 @@ namespace OverflowHelper.core
             correctionAdd("nowerdays", "nowadays");
             correctionAdd("knowadays", "nowadays");
             correctionAdd("Now days", "nowadays");
+            correctionAdd("now-days", "nowadays");
 
             correctionAdd("yii", "Yii");
 
@@ -12215,6 +12217,7 @@ namespace OverflowHelper.core
 
             correctionAdd("diffrence", "difference");
             correctionAdd("diference", "difference");
+            correctionAdd("Difference", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -14349,6 +14352,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Unit Testing", "unit testing");
             correctionAdd("Unit testing", "unit testing");
+            correctionAdd("unit-testing", "unit testing");
 
             correctionAdd("un-supported", "unsupported");
             correctionAdd("unsuported", "unsupported");
@@ -16490,6 +16494,7 @@ namespace OverflowHelper.core
 
             correctionAdd("avout", "about");
             correctionAdd("abou", "about");
+            correctionAdd("abt", "about");
 
             correctionAdd("open plan office", "open-plan office");
 
@@ -18013,6 +18018,9 @@ namespace OverflowHelper.core
             correctionAdd("Worldbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("worldbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("Worldbuilding SE", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("word-building", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("world-building", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("world building", "Worldbuilding (Stack Exchange site)");
 
             correctionAdd("alianate", "alienate");
 
@@ -20436,6 +20444,31 @@ namespace OverflowHelper.core
 
             correctionAdd("thumb2", "Thumb-2");
             correctionAdd("thumb-2", "Thumb-2");
+
+            correctionAdd("Ampere's Law", "Ampère's law");
+
+            correctionAdd("Gauss Law", "Gauss's law");
+
+            correctionAdd("Python Anywhere", "PythonAnywhere");
+
+            correctionAdd("been there done that", "been there, done that");
+
+            correctionAdd("compile-time", "compile time");
+
+            correctionAdd("Electric Field", "electric field");
+
+            correctionAdd("if it aint broke dont fix it", "if it ain't broke, don't fix it");
+
+            correctionAdd("monpole", "monopole");
+            correctionAdd("monople", "monopole");
+
+            correctionAdd("re-factoring", "refactoring");
+
+            correctionAdd("spagettified", "spaghettified");
+
+            correctionAdd("whaching", "watching");
+
+            correctionAdd("WebHook", "webhook");
 
 
             // Start of coronavirus part...
@@ -31265,6 +31298,29 @@ namespace OverflowHelper.core
 
             URL_Add("Thumb-2", "https://en.wikipedia.org/wiki/ARM_architecture#Thumb-2");
 
+            URL_Add("Ampère's law", "https://en.wikipedia.org/wiki/Amp%C3%A8re's_circuital_law");
+
+            URL_Add("Gauss's law", "https://en.wikipedia.org/wiki/Gauss's_law");
+
+            URL_Add("PythonAnywhere", "https://en.wikipedia.org/wiki/PythonAnywhere");
+
+            URL_Add("been there, done that", "https://en.wiktionary.org/wiki/been_there,_done_that#Phrase");
+
+            URL_Add("compile time", "https://en.wiktionary.org/wiki/compile_time#Noun");
+
+            URL_Add("electric field", "https://en.wikipedia.org/wiki/Electric_field");
+
+            URL_Add("if it ain't broke, don't fix it", "https://en.wiktionary.org/wiki/if_it_ain%27t_broke,_don%27t_fix_it#Proverb");
+
+            URL_Add("monopole", "https://en.wikipedia.org/wiki/Monopole");
+
+            URL_Add("refactoring", "https://en.wiktionary.org/wiki/refactor#Verb");
+
+            URL_Add("spaghettified", "https://en.wiktionary.org/wiki/spaghettify#Verb");
+
+            URL_Add("watching", "https://en.wiktionary.org/wiki/watching#Verb");
+
+            URL_Add("webhook", "https://en.wikipedia.org/wiki/Webhook");
 
 
 
