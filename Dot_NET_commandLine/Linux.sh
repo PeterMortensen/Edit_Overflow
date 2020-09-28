@@ -66,6 +66,7 @@ export EFFECTIVE_DATE='2020-06-01'
 export EFFECTIVE_DATE='2020-06-03'
 export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
+export EFFECTIVE_DATE='2020-09-29'
 
 
 # To make the unit test run ***itself*** succeed when we
