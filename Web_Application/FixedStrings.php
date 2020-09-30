@@ -210,6 +210,20 @@
                />
             </p>
 
+            <p><a href="https://en.wikipedia.org/wiki/Tilde">Tilde</a>
+
+               <input
+                   name="Tilde"
+                   type="text"
+                   id="Tilde_Unicode"
+                   class="XYZ39"
+                   value="~"
+                   style="width:30px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
+               />
+            </p>
+
 
             <!-- ******************************************************* -->
             <h2>Regular expressions for code checking</h2>
