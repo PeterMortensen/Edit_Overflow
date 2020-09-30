@@ -134,7 +134,7 @@
                />
             </p>
 
-            <p><u>A</u>rrow (Unicode, alternative):
+            <p>Arro<u>w</u> (Unicode, alternative):
 
                <input
                    name="Arrow - Unicode - 2"
@@ -143,8 +143,8 @@
                    class="XYZ40"
                    value="►"
                    style="width:30px;"
-                   accesskey="A"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="W"
+                   title="Shortcut: Shift + Alt + W"
                />
             </p>
 
@@ -182,7 +182,7 @@
                />
             </p>
 
-            <p>True single quote (not the ASCII one):
+            <p>True single <u>q</u>uote (not the ASCII one):
 
                <input
                    name="True single quote"
@@ -196,7 +196,7 @@
                />
             </p>
 
-            <p>True double quotes (not the ASCII ones):
+            <p>True do<u>u</u>ble quotes (not the ASCII ones):
 
                <input
                    name="True double quote"
@@ -210,7 +210,7 @@
                />
             </p>
 
-            <p><a href="https://en.wikipedia.org/wiki/Tilde">Tilde</a>
+            <p><a href="https://en.wikipedia.org/wiki/Tilde">Ti<u>l</u>de</a> (Unicode code point 007E):
 
                <input
                    name="Tilde"
@@ -219,8 +219,8 @@
                    class="XYZ39"
                    value="~"
                    style="width:30px;"
-                   accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   accesskey="L"
+                   title="Shortcut: Shift + Alt + L"
                />
             </p>
 
