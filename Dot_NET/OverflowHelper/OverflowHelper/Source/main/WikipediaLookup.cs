@@ -2283,7 +2283,6 @@ namespace OverflowHelper.core
             correctionAdd("project euler", "Project Euler");
             correctionAdd("project Euler", "Project Euler");
             correctionAdd("Euler project", "Project Euler");
-            correctionAdd("Euler", "Project Euler"); // Other meanings exist!
             correctionAdd("projectEuler", "Project Euler");
 
             correctionAdd("FireSheep", "Firesheep");
@@ -11336,6 +11335,7 @@ namespace OverflowHelper.core
 
             correctionAdd("unity 3d", "Unity 3D");
             correctionAdd("unity3d", "Unity 3D");
+            correctionAdd("Unity3D", "Unity 3D");
 
             correctionAdd("unconfortable", "uncomfortable");
 
@@ -11969,6 +11969,7 @@ namespace OverflowHelper.core
             correctionAdd("spring boot", "Spring Boot");
             correctionAdd("Spring boot", "Spring Boot");
             correctionAdd("springboot", "Spring Boot");
+            correctionAdd("Springboot", "Spring Boot");
 
             correctionAdd("accesible", "accessible");
 
@@ -12342,6 +12343,7 @@ namespace OverflowHelper.core
             correctionAdd("PowerBI", "Power BI");
             correctionAdd("power bi", "Power BI");
             correctionAdd("Power bi", "Power BI");
+            correctionAdd("PBI", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -15072,6 +15074,7 @@ namespace OverflowHelper.core
             correctionAdd("rabbithole", "rabbit hole");
 
             correctionAdd("re-open", "reopen");
+            correctionAdd("Re-open", "reopen");
 
             correctionAdd("shockwave", "shock wave");
             correctionAdd("shock-wave", "shock wave");
@@ -16245,6 +16248,9 @@ namespace OverflowHelper.core
             correctionAdd("Evan gambit", "Evans Gambit"); // Chess
             correctionAdd("EVANS Gambit", "Evans Gambit"); // Chess
             correctionAdd("Evan's gambit", "Evans Gambit"); // Chess
+            correctionAdd("Evin's Gambit", "Evans Gambit");
+            correctionAdd("Evan's Gambit", "Evans Gambit");
+            correctionAdd("Evins Gambit", "Evans Gambit");
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -20338,6 +20344,7 @@ namespace OverflowHelper.core
             correctionAdd("psuedo code", "pseudocode");
             correctionAdd("psuedo-code", "pseudocode");
             correctionAdd("Psuedocode", "pseudocode");
+            correctionAdd("Pseudocode", "pseudocode");
 
             correctionAdd("authenticode", "Authenticode");
             correctionAdd("AuthentiCode", "Authenticode");
@@ -20469,6 +20476,28 @@ namespace OverflowHelper.core
             correctionAdd("whaching", "watching");
 
             correctionAdd("WebHook", "webhook");
+
+            correctionAdd("euler", "Euler");
+
+            correctionAdd("Game development", "Game Development (Stack Exchange site)");
+
+            correctionAdd("terraform", "Terraform");
+
+            correctionAdd("coffe", "coffee");
+
+            correctionAdd("contensious", "contentious");
+
+            correctionAdd("dissappointing", "disappointing");
+
+            correctionAdd("free lancing", "freelancing");
+
+            correctionAdd("gamechanger", "game changer");
+
+            correctionAdd("genereic", "generic");
+
+            correctionAdd("respectt", "respect");
+
+            correctionAdd("Word of Mouth", "word of mouth");
 
 
             // Start of coronavirus part...
@@ -31322,6 +31351,27 @@ namespace OverflowHelper.core
 
             URL_Add("webhook", "https://en.wikipedia.org/wiki/Webhook");
 
+            URL_Add("Euler", "https://en.wikipedia.org/wiki/Leonhard_Euler");
+
+            URL_Add("Game Development (Stack Exchange site)", "https://gamedev.stackexchange.com/tour");
+
+            URL_Add("Terraform", "https://en.wikipedia.org/wiki/Terraform_(software)");
+
+            URL_Add("coffee", "https://en.wiktionary.org/wiki/coffee#Noun");
+
+            URL_Add("contentious", "https://en.wiktionary.org/wiki/contentious#Adjective");
+
+            URL_Add("disappointing", "https://en.wiktionary.org/wiki/disappointing#Adjective");
+
+            URL_Add("freelancing", "https://en.wiktionary.org/wiki/freelance#Verb");
+
+            URL_Add("game changer", "https://en.wiktionary.org/wiki/game_changer#Noun");
+
+            URL_Add("generic", "https://en.wiktionary.org/wiki/generic#Adjective");
+
+            URL_Add("respect", "https://en.wiktionary.org/wiki/respect#Noun");
+
+            URL_Add("word of mouth", "https://en.wiktionary.org/wiki/word_of_mouth#Noun");
 
 
             //========================================================
