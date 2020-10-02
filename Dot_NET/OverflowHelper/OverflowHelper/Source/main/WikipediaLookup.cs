@@ -4540,6 +4540,7 @@ namespace OverflowHelper.core
             correctionAdd("becors", "because");
             correctionAdd("Bcaz", "because");
             correctionAdd("bcaz", "because");
+            correctionAdd("cz", "because");
 
             correctionAdd("adk", "ADK"); //Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -9173,6 +9174,8 @@ namespace OverflowHelper.core
             correctionAdd("grad", "graduate");
 
             correctionAdd("Tant", "tantalum capacitor");
+            correctionAdd("Tantelum", "tantalum capacitor");
+            correctionAdd("tantelum", "tantalum capacitor");
 
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
@@ -12822,6 +12825,7 @@ namespace OverflowHelper.core
             correctionAdd("top level domain", "top-level domain");
             correctionAdd("Top Level Domain", "top-level domain");
             correctionAdd("TLD", "top-level domain");
+            correctionAdd("doamin", "domain");
 
             correctionAdd("tranfer", "transfer");
 
@@ -13042,6 +13046,7 @@ namespace OverflowHelper.core
             correctionAdd("maltiple", "multiple");
 
             correctionAdd("pronunce", "pronounce");
+            correctionAdd("pronuounce", "pronounce");
 
             correctionAdd("quiting", "quitting");
 
@@ -14523,8 +14528,6 @@ namespace OverflowHelper.core
             correctionAdd("XPERF", "xperf");
 
             correctionAdd("christmas", "Christmas");
-
-            correctionAdd("EL", "Expression Language");
 
             correctionAdd("freenode", "Freenode");
 
@@ -16738,6 +16741,7 @@ namespace OverflowHelper.core
             correctionAdd("obatining", "obtaining");
 
             correctionAdd("physisist", "physicist");
+            correctionAdd("physist", "physicist");
 
             correctionAdd("unit-less", "unitless");
             correctionAdd("unit less", "unitless");
@@ -18894,6 +18898,7 @@ namespace OverflowHelper.core
             correctionAdd("dissapointment", "disappointment");
 
             correctionAdd("form", "from");
+            correctionAdd("Form", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -19174,32 +19179,6 @@ namespace OverflowHelper.core
             correctionAdd("Northbridge", "northbridge");
 
             correctionAdd("perurbation", "perturbation");
-
-            correctionAdd("Asm", "assembly language");
-            correctionAdd("asm", "assembly language");
-            correctionAdd("ASM", "assembly language");
-            correctionAdd("assembly", "assembly language");
-            correctionAdd("Assembly", "assembly language");
-            correctionAdd("Assembler", "assembly language");
-            correctionAdd("assembler", "assembly language");
-            correctionAdd("assmebly", "assembly language");
-            correctionAdd("Assembly language", "assembly language");
-            correctionAdd("ASSEMBLER", "assembly language");
-
-            correctionAdd("DSL", "domain-specific language");
-
-            correctionAdd("K&R", "The C Programming Language");
-            correctionAdd("k&r", "The C Programming Language");
-            correctionAdd("k&R", "The C Programming Language");
-            correctionAdd("K & R", "The C Programming Language");
-
-            correctionAdd("lang", "language");
-            correctionAdd("langauge", "language");
-            correctionAdd("lanuguage", "language");
-            correctionAdd("languade", "language");
-            correctionAdd("langugae", "language");
-            correctionAdd("langue", "language");
-            correctionAdd("langage", "language");
 
             correctionAdd("let's encrypt", "Let's Encrypt");
             correctionAdd("lets encrypt", "Let's Encrypt");
@@ -20179,6 +20158,8 @@ namespace OverflowHelper.core
             correctionAdd("vacay", "vacation");
 
             correctionAdd("Phosphine", "phosphine");
+            correctionAdd("Phosphene", "phosphine");
+            correctionAdd("phosphene", "phosphine");
 
             correctionAdd("avalon", "Avalon");
 
@@ -20310,6 +20291,7 @@ namespace OverflowHelper.core
             correctionAdd("magick", "magic");
 
             correctionAdd("simiplicity", "simplicity");
+            correctionAdd("simplictiy", "simplicity");
 
             correctionAdd("startup", "start up");
 
@@ -20498,6 +20480,52 @@ namespace OverflowHelper.core
             correctionAdd("respectt", "respect");
 
             correctionAdd("Word of Mouth", "word of mouth");
+
+            correctionAdd("EL", "Expression Language");
+
+            correctionAdd("Asm", "assembly language");
+            correctionAdd("asm", "assembly language");
+            correctionAdd("ASM", "assembly language");
+            correctionAdd("assembly", "assembly language");
+            correctionAdd("Assembly", "assembly language");
+            correctionAdd("Assembler", "assembly language");
+            correctionAdd("assembler", "assembly language");
+            correctionAdd("assmebly", "assembly language");
+            correctionAdd("Assembly language", "assembly language");
+            correctionAdd("ASSEMBLER", "assembly language");
+
+            correctionAdd("DSL", "domain-specific language");
+
+            correctionAdd("K&R", "The C Programming Language");
+            correctionAdd("k&r", "The C Programming Language");
+            correctionAdd("k&R", "The C Programming Language");
+            correctionAdd("K & R", "The C Programming Language");
+
+            correctionAdd("lang", "language");
+            correctionAdd("langauge", "language");
+            correctionAdd("lanuguage", "language");
+            correctionAdd("languade", "language");
+            correctionAdd("langugae", "language");
+            correctionAdd("langue", "language");
+            correctionAdd("langage", "language");
+            correctionAdd("languague", "language");
+
+            correctionAdd("URL-shortening", "URL shortening");
+
+            correctionAdd("advance", "advanced");
+
+            correctionAdd("emptyness", "emptiness");
+
+            correctionAdd("Jeep", "jeep");
+
+            correctionAdd("out side", "outside");
+
+            correctionAdd("role", "roll");
+
+            correctionAdd("sulfuric acid", "sulphuric acid");
+            correctionAdd("sulphoric acid", "sulphuric acid");
+
+            correctionAdd("Vitamin D", "vitamin D");
 
 
             // Start of coronavirus part...
@@ -21308,7 +21336,7 @@ namespace OverflowHelper.core
 
             URL_Add("Wicket", "https://en.wikipedia.org/wiki/Apache_Wicket");
 
-            URL_Add("dependent", "https://en.wiktionary.org/wiki/dependant#Noun");
+            URL_Add("dependent", "https://en.wiktionary.org/wiki/dependent#Adjective"); // Old: https://en.wiktionary.org/wiki/dependant#Noun
 
             URL_Add("DOM", "https://en.wikipedia.org/wiki/Document_Object_Model");
 
@@ -21417,7 +21445,7 @@ namespace OverflowHelper.core
 
             URL_Add("JS Bin", "http://jsbin.com/");
 
-            URL_Add("JSFiddle", "http://jsfiddle.net/");
+            URL_Add("JSFiddle", "https://en.wikipedia.org/wiki/JSFiddle"); // Old: http://jsfiddle.net/
 
             URL_Add("Cocoa Touch", "https://en.wikipedia.org/wiki/Cocoa_Touch");
 
@@ -28345,7 +28373,7 @@ namespace OverflowHelper.core
 
             URL_Add("oxygen", "https://en.wikipedia.org/wiki/Oxygen");
 
-            URL_Add("Antonio Radić", "https://en.wikipedia.org/wiki/Antonio_Radi%C4%87");
+            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87 
 
             URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
 
@@ -31372,6 +31400,22 @@ namespace OverflowHelper.core
             URL_Add("respect", "https://en.wiktionary.org/wiki/respect#Noun");
 
             URL_Add("word of mouth", "https://en.wiktionary.org/wiki/word_of_mouth#Noun");
+
+            URL_Add("URL shortening", "https://en.wikipedia.org/wiki/URL_shortening");
+
+            URL_Add("advanced", "https://en.wiktionary.org/wiki/advanced#Adjective");
+
+            URL_Add("emptiness", "https://en.wiktionary.org/wiki/emptiness#Noun");
+
+            URL_Add("jeep", "https://en.wiktionary.org/wiki/jeep#Noun");
+
+            URL_Add("outside", "https://en.wiktionary.org/wiki/outside#Adverb");
+
+            URL_Add("roll", "https://en.wiktionary.org/wiki/roll#Verb");
+
+            URL_Add("sulphuric acid", "https://en.wikipedia.org/wiki/Sulfuric_acid");
+
+            URL_Add("vitamin D", "https://en.wikipedia.org/wiki/Vitamin_D");
 
 
             //========================================================
