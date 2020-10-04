@@ -9466,6 +9466,7 @@ namespace OverflowHelper.core
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
+            correctionAdd("requireJS", "RequireJS");
 
             correctionAdd("mongoose", "Mongoose");
 
@@ -12065,6 +12066,7 @@ namespace OverflowHelper.core
             correctionAdd("recntly", "recently");
 
             correctionAdd("runtime", "run time");
+            correctionAdd("run-time", "run time");
 
             correctionAdd("specifiy", "specify");
 
@@ -20420,6 +20422,7 @@ namespace OverflowHelper.core
             correctionAdd("Chatzilla", "ChatZilla");
 
             correctionAdd("commonjs", "CommonJS");
+            correctionAdd("CommonJs", "CommonJS");
 
             correctionAdd("ECMAScript Module", "ECMAScript module");
             correctionAdd("ESM", "ECMAScript module");
@@ -20526,6 +20529,16 @@ namespace OverflowHelper.core
             correctionAdd("sulphoric acid", "sulphuric acid");
 
             correctionAdd("Vitamin D", "vitamin D");
+
+            correctionAdd("2n2222", "2N2222");
+
+            correctionAdd("rewire", "Rewire");
+
+            correctionAdd("uuid", "UUID");
+
+            correctionAdd("additionnal", "additional");
+
+            correctionAdd("bloc", "block");
 
 
             // Start of coronavirus part...
@@ -28373,7 +28386,7 @@ namespace OverflowHelper.core
 
             URL_Add("oxygen", "https://en.wikipedia.org/wiki/Oxygen");
 
-            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87 
+            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
 
             URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
 
@@ -31416,6 +31429,17 @@ namespace OverflowHelper.core
             URL_Add("sulphuric acid", "https://en.wikipedia.org/wiki/Sulfuric_acid");
 
             URL_Add("vitamin D", "https://en.wikipedia.org/wiki/Vitamin_D");
+
+            URL_Add("2N2222", "https://en.wikipedia.org/wiki/2N2222");
+
+            URL_Add("Rewire", "https://github.com/jhnns/rewire");
+
+            URL_Add("UUID", "https://en.wikipedia.org/wiki/Universally_unique_identifier");
+
+            URL_Add("additional", "https://en.wiktionary.org/wiki/additional#Adjective");
+
+            URL_Add("block", "https://en.wiktionary.org/wiki/block#Noun");
+
 
 
             //========================================================
