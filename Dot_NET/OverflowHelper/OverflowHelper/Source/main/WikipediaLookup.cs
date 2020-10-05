@@ -3163,6 +3163,7 @@ namespace OverflowHelper.core
             correctionAdd("deffinatly", "definitely");
             correctionAdd("defenatly", "definitely");
             correctionAdd("definietly", "definitely");
+            correctionAdd("definiteley", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -4994,6 +4995,7 @@ namespace OverflowHelper.core
             correctionAdd("for EXP", "for example");
             correctionAdd("for exp", "for example");
             correctionAdd("For Exam", "for example");
+            correctionAdd("expample", "for example");
 
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
@@ -5913,6 +5915,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gimp", "GIMP");
             correctionAdd("Gimp", "GIMP");
+            correctionAdd("GiMP", "GIMP");
 
             correctionAdd("jtag", "JTAG");
             correctionAdd("Jtag", "JTAG");
@@ -20540,6 +20543,11 @@ namespace OverflowHelper.core
 
             correctionAdd("bloc", "block");
 
+            correctionAdd("hi-res", "high-resolution");
+            correctionAdd("high-res", "high-resolution");
+
+            correctionAdd("movment", "movement");
+
 
             // Start of coronavirus part...
 
@@ -31439,6 +31447,10 @@ namespace OverflowHelper.core
             URL_Add("additional", "https://en.wiktionary.org/wiki/additional#Adjective");
 
             URL_Add("block", "https://en.wiktionary.org/wiki/block#Noun");
+
+            URL_Add("high-resolution", "https://en.wiktionary.org/wiki/high-resolution#Adjective");
+
+            URL_Add("movement", "https://en.wiktionary.org/wiki/movement#Noun");
 
 
 
