@@ -2348,6 +2348,7 @@ namespace OverflowHelper.core
 
             correctionAdd("xbox", "Xbox");
             correctionAdd("XBox", "Xbox");
+            correctionAdd("XBOX", "Xbox");
 
             correctionAdd("ps3", "PS3");
 
@@ -3413,6 +3414,7 @@ namespace OverflowHelper.core
             correctionAdd("adminsitrator", "system administrator");
             correctionAdd("adminstrators", "system administrator"); //Not 100% correct - plural.
             correctionAdd("adminitrator", "system administrator");
+            correctionAdd("adm", "system administrator");
 
             correctionAdd("APP Domains", "application domain");
             correctionAdd("APP Domain", "application domain");
@@ -6775,6 +6777,7 @@ namespace OverflowHelper.core
             correctionAdd("eqivilate", "equivalent");
             correctionAdd("equivilate", "equivalent");
             correctionAdd("equivalate", "equivalent");
+            correctionAdd("eqivalent", "equivalent");
 
             correctionAdd("parallels", "Parallels");
 
@@ -8886,8 +8889,6 @@ namespace OverflowHelper.core
             correctionAdd("usefull", "useful");
             correctionAdd("use full", "useful");
 
-            correctionAdd("gprof", "Gprof");
-
             correctionAdd("Memoization", "memoization");
 
             correctionAdd("spa", "single-page application");
@@ -9242,6 +9243,7 @@ namespace OverflowHelper.core
             correctionAdd("unnecessesary", "unnecessary");
             correctionAdd("unnecessessary", "unnecessary");
             correctionAdd("unecessary", "unnecessary");
+            correctionAdd("uncessesary", "unnecessary");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -9470,6 +9472,8 @@ namespace OverflowHelper.core
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
             correctionAdd("requireJS", "RequireJS");
+            correctionAdd("require.js", "RequireJS");
+            correctionAdd("Require.js", "RequireJS");
 
             correctionAdd("mongoose", "Mongoose");
 
@@ -10044,6 +10048,7 @@ namespace OverflowHelper.core
             correctionAdd("es", "ECMAScript");
             correctionAdd("ecma", "ECMAScript");
             correctionAdd("ECMAscript", "ECMAScript");
+            correctionAdd("ECMA-Script", "ECMAScript");
 
             correctionAdd("es6", "ECMAScript&nbsp;6");
             correctionAdd("ES6", "ECMAScript&nbsp;6");
@@ -10059,6 +10064,7 @@ namespace OverflowHelper.core
             correctionAdd("ECMAscript 6", "ECMAScript&nbsp;6");
             correctionAdd("es2015", "ECMAScript&nbsp;6");
             correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;6");
+            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;6");
 
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
@@ -10349,6 +10355,7 @@ namespace OverflowHelper.core
             correctionAdd("gonna", "is going to");
             correctionAdd("gunna", "is going to");
             correctionAdd("gona", "is going to");
+            correctionAdd("is gonna", "is going to");
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
@@ -11728,6 +11735,8 @@ namespace OverflowHelper.core
 
             correctionAdd("possebilities", "possibilities");
             correctionAdd("possibilites", "possibilities");
+            correctionAdd("possibilies", "possibilities");
+            correctionAdd("posibilies", "possibilities");
 
             correctionAdd("pr", "pull request");
             correctionAdd("PR", "pull request");
@@ -12138,6 +12147,7 @@ namespace OverflowHelper.core
             correctionAdd("refrance", "reference");
             correctionAdd("referance", "reference");
             correctionAdd("refence", "reference");
+            correctionAdd("referecence", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -12198,6 +12208,7 @@ namespace OverflowHelper.core
             correctionAdd("msTest", "MSTest");
 
             correctionAdd("MDN", "Mozilla Developer Network");
+            correctionAdd("mdn", "Mozilla Developer Network");
 
             correctionAdd("pluarlsight", "Pluralsight");
             correctionAdd("PluralSight", "Pluralsight");
@@ -12849,6 +12860,8 @@ namespace OverflowHelper.core
             correctionAdd("ES 5", "ECMAScript&nbsp;5");
             correctionAdd("ES5", "ECMAScript&nbsp;5");
             correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
+            correctionAdd("es5", "ECMAScript&nbsp;5");
 
             correctionAdd("Isreal", "Israel");
 
@@ -12908,6 +12921,7 @@ namespace OverflowHelper.core
             correctionAdd("publising", "publishing");
 
             correctionAdd("quick and dirty", "quick-and-dirty");
+            correctionAdd("quick'n'dirty", "quick-and-dirty");
 
             correctionAdd("recipint", "recipient");
             correctionAdd("receipent", "recipient");
@@ -12927,6 +12941,7 @@ namespace OverflowHelper.core
             correctionAdd("ES7", "ECMAScript&nbsp;7");
             correctionAdd("ES 7", "ECMAScript&nbsp;7");
             correctionAdd("EcmaScript 7", "ECMAScript&nbsp;7");
+            correctionAdd("es7", "ECMAScript&nbsp;7");
 
             correctionAdd("october", "October");
 
@@ -13863,9 +13878,6 @@ namespace OverflowHelper.core
             correctionAdd("containg", "containing");
             correctionAdd("contaning", "containing");
 
-            correctionAdd("inspite of", "in spite of");
-            correctionAdd("inspite", "in spite of");
-
             correctionAdd("verifed", "verified");
 
             correctionAdd("IMDB", "IMDb");
@@ -13892,6 +13904,7 @@ namespace OverflowHelper.core
             correctionAdd("pacakge", "package");
             correctionAdd("Pacakge", "package");
             correctionAdd("packpage", "package");
+            correctionAdd("packge", "package");
 
             correctionAdd("Strace", "strace");
 
@@ -14017,17 +14030,12 @@ namespace OverflowHelper.core
 
             correctionAdd("extrenal", "external");
 
-            correctionAdd("in sake of", "for the sake of");
-
             correctionAdd("integrade", "integrate");
             correctionAdd("intergrate", "integrate");
 
             correctionAdd("minmalistic", "minimalistic");
 
             correctionAdd("planing", "planning");
-
-            correctionAdd("re-run", "rerun");
-            correctionAdd("re-ran", "rerun");
 
             correctionAdd("substaction", "subtraction");
 
@@ -14915,8 +14923,6 @@ namespace OverflowHelper.core
 
             correctionAdd("exitting", "exiting");
             correctionAdd("Exitting", "exiting");
-
-            correctionAdd("fail-proof", "failproof");
 
             correctionAdd("fine grain", "fine-grained");
             correctionAdd("fine grained", "fine-grained");
@@ -16827,13 +16833,14 @@ namespace OverflowHelper.core
             correctionAdd("minite", "minute");
             correctionAdd("munite", "minute");
 
-            correctionAdd("on porpouse", "on purpose");
-
             correctionAdd("pitoresque", "picturesque");
 
             correctionAdd("proportionnaly", "proportionally");
 
+            correctionAdd("on porpouse", "on purpose");            
+
             correctionAdd("porpouse", "purpose");
+            correctionAdd("porpuse", "purpose");
 
             correctionAdd("Kief", "Kiev");
 
@@ -17255,6 +17262,8 @@ namespace OverflowHelper.core
             correctionAdd("boing", "Boeing");
 
             correctionAdd("ES2020", "ECMAScript 2020");
+            correctionAdd("es11", "ECMAScript 2020");
+            correctionAdd("ES11", "ECMAScript 2020");
 
             correctionAdd("arround", "around");
 
@@ -17290,8 +17299,6 @@ namespace OverflowHelper.core
 
             correctionAdd("zirconia", "cubic zirconia");
             correctionAdd("zirkonium", "cubic zirconia");
-
-            correctionAdd("fool proof", "foolproof");
 
             correctionAdd("millinaire", "millionaire");
 
@@ -17584,6 +17591,7 @@ namespace OverflowHelper.core
             correctionAdd("MSc", "Master of Science");
 
             correctionAdd("ternary", "ternary operator");
+            correctionAdd("Ternary Operator", "ternary operator");
 
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
@@ -17601,8 +17609,6 @@ namespace OverflowHelper.core
             correctionAdd("DFS", "depth-first search");
 
             correctionAdd("two-edged sword", "double-edged sword");
-
-            correctionAdd("future proof", "future-proof");
 
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
@@ -17648,9 +17654,6 @@ namespace OverflowHelper.core
             correctionAdd("opertation", "operation");
 
             correctionAdd("re-size", "resize");
-
-            correctionAdd("rund", "run");
-            correctionAdd("tun", "run"); // True typo
 
             correctionAdd("un-reputable", "unreputable");
 
@@ -18188,8 +18191,6 @@ namespace OverflowHelper.core
 
             correctionAdd("blade", "Blade");
 
-            correctionAdd("eof", "EOF");
-
             correctionAdd("OmniSharper", "OmniSharp");
             correctionAdd("omni-sharp", "OmniSharp");
             correctionAdd("Omnisharp", "OmniSharp");
@@ -18289,10 +18290,6 @@ namespace OverflowHelper.core
             correctionAdd("commerically", "commercially");
 
             correctionAdd("compling", "compiling");
-
-            correctionAdd("dotnet-run", "dotnet run");
-
-            correctionAdd("dotnet-test", "dotnet test");
 
             correctionAdd("precense", "presence");
 
@@ -18839,6 +18836,8 @@ namespace OverflowHelper.core
             correctionAdd("Farenheit", "Fahrenheit");
 
             correctionAdd("lodash", "Lodash");
+            correctionAdd("lodash.js", "Lodash");
+            correctionAdd("Lo-Dash", "Lodash");
 
             correctionAdd("data stricture", "data structure");
 
@@ -19562,6 +19561,7 @@ namespace OverflowHelper.core
             correctionAdd("satyre", "satire");
 
             correctionAdd("sirious", "serious");
+            correctionAdd("series", "serious");
 
             correctionAdd("siriously", "seriously");
             correctionAdd("Seriosuly", "seriously");
@@ -19632,7 +19632,23 @@ namespace OverflowHelper.core
             correctionAdd("LAF", "look and feel");
             correctionAdd("L&F", "look and feel");
 
+            correctionAdd("gprof", "Gprof");
+
+            correctionAdd("inspite of", "in spite of");
+            correctionAdd("inspite", "in spite of");
+
+            correctionAdd("in sake of", "for the sake of");
+
+            correctionAdd("fail-proof", "failproof");
+
+            correctionAdd("fool proof", "foolproof");
+
+            correctionAdd("future proof", "future-proof");
+
+            correctionAdd("eof", "EOF");
+
             correctionAdd("Of", "of");
+            correctionAdd("onf", "of");
 
             correctionAdd("OC", "organic chemistry");
 
@@ -20547,6 +20563,56 @@ namespace OverflowHelper.core
             correctionAdd("high-res", "high-resolution");
 
             correctionAdd("movment", "movement");
+
+            correctionAdd("re-run", "rerun");
+            correctionAdd("re-ran", "rerun");            
+
+            correctionAdd("dotnet-run", "dotnet run");
+
+            correctionAdd("dotnet-test", "dotnet test");
+
+            correctionAdd("rund", "run");
+            correctionAdd("tun", "run"); // True typo
+            correctionAdd("rum", "run");
+
+            correctionAdd("ECMA2021", "ECMAScript 2021");
+            correctionAdd("ES12", "ECMAScript 2021");
+
+            correctionAdd("monodroid", "MonoDroid");
+
+            correctionAdd("nand", "NAND");
+
+            correctionAdd("rgba", "RGBA");
+
+            correctionAdd("RJ 45", "RJ45S");
+            correctionAdd("RJ45", "RJ45S");
+
+            correctionAdd("whatwg", "WHATWG");
+
+            correctionAdd("asign", "assign");
+
+            correctionAdd("definitve", "definitive");
+
+            correctionAdd("dilligence", "diligence");
+
+            correctionAdd("due dilligence", "due diligence");
+
+            correctionAdd("faboulous", "fabulous");
+
+            correctionAdd("husstle", "hustle");
+            correctionAdd("hussle", "hustle");
+
+            correctionAdd("no thing", "nothing");
+
+            correctionAdd("off the cuff", "off-the-cuff");
+            correctionAdd("Off the cuff", "off-the-cuff");
+
+            correctionAdd("shrinked", "shrunk");
+
+            correctionAdd("spliting", "splitting");
+
+            correctionAdd("workout", "work out");
+
 
 
             // Start of coronavirus part...
@@ -31451,6 +31517,40 @@ namespace OverflowHelper.core
             URL_Add("high-resolution", "https://en.wiktionary.org/wiki/high-resolution#Adjective");
 
             URL_Add("movement", "https://en.wiktionary.org/wiki/movement#Noun");
+
+            URL_Add("ECMAScript 2021", "https://en.wikipedia.org/wiki/ECMAScript#ES.Next");
+
+            URL_Add("MonoDroid", "https://en.wikipedia.org/wiki/Mono_(software)#Related_projects");
+
+            URL_Add("NAND", "https://en.wikipedia.org/wiki/NAND_gate");
+
+            URL_Add("RGBA", "https://en.wikipedia.org/wiki/RGBA_color_model");
+
+            URL_Add("RJ45S", "https://en.wikipedia.org/wiki/Registered_jack#RJ45S");
+
+            URL_Add("WHATWG", "https://en.wikipedia.org/wiki/WHATWG");
+
+            URL_Add("assign", "https://en.wiktionary.org/wiki/assign#Verb");
+
+            URL_Add("definitive", "https://en.wiktionary.org/wiki/definitive#Adjective");
+
+            URL_Add("diligence", "https://en.wiktionary.org/wiki/diligence#Noun");
+
+            URL_Add("due diligence", "https://en.wiktionary.org/wiki/due_diligence#Noun");
+
+            URL_Add("fabulous", "https://en.wiktionary.org/wiki/fabulous#Adjective");
+
+            URL_Add("hustle", "https://en.wiktionary.org/wiki/hustle#Verb");
+
+            URL_Add("nothing", "https://en.wiktionary.org/wiki/nothing#Pronoun");
+
+            URL_Add("off-the-cuff", "https://en.wiktionary.org/wiki/off-the-cuff#Adjective");
+
+            URL_Add("shrunk", "https://en.wiktionary.org/wiki/shrink#Verb");
+
+            URL_Add("splitting", "https://en.wiktionary.org/wiki/split#Verb");
+
+            URL_Add("work out", "https://en.wiktionary.org/wiki/work_out#Verb");
 
 
 
