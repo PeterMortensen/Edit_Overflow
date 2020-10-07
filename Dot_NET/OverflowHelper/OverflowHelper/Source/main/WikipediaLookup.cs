@@ -8712,6 +8712,7 @@ namespace OverflowHelper.core
 
             correctionAdd("VCS", "version control system"); //Expansion, actually ""
             correctionAdd("vcs", "version control system");
+            correctionAdd("Version Control", "version control system");
 
             correctionAdd("mb", "&nbsp;MB"); //Assuming bytes, not bits...
             correctionAdd("MB", "&nbsp;MB"); //Assuming bytes, not bits...
@@ -8966,6 +8967,7 @@ namespace OverflowHelper.core
 
             correctionAdd("setup", "set up"); //As a verb
             correctionAdd("set-up", "set up");
+            correctionAdd("Setup", "set up");
 
             correctionAdd("runon", "run-on sentence"); //For expansion
             correctionAdd("run on", "run-on sentence"); //For expansion
@@ -10559,6 +10561,7 @@ namespace OverflowHelper.core
             correctionAdd("clearcase", "ClearCase");
             correctionAdd("Clearcase", "ClearCase");
             correctionAdd("clear case", "ClearCase");
+            correctionAdd("Clear Case", "ClearCase");
 
             correctionAdd("off topic", "off-topic");
             correctionAdd("offtopic", "off-topic");
@@ -14973,6 +14976,8 @@ namespace OverflowHelper.core
             correctionAdd("source control", "source control management");
             correctionAdd("VC", "source control management");
             correctionAdd("version control", "source control management");
+            correctionAdd("Software Change Management", "source control management");
+            correctionAdd("software change management", "source control management");
 
             correctionAdd("syle", "style");
 
@@ -15573,6 +15578,7 @@ namespace OverflowHelper.core
             correctionAdd("command line", "command-line");
             correctionAdd("CML", "command-line");
             correctionAdd("commandline", "command-line");
+            correctionAdd("commanline", "command-line");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -16715,6 +16721,7 @@ namespace OverflowHelper.core
             correctionAdd("April's fool", "April fool");
             correctionAdd("April's fools", "April fool");
             correctionAdd("april's fools", "April fool");
+            correctionAdd("Aprils fools", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -16837,7 +16844,7 @@ namespace OverflowHelper.core
 
             correctionAdd("proportionnaly", "proportionally");
 
-            correctionAdd("on porpouse", "on purpose");            
+            correctionAdd("on porpouse", "on purpose");
 
             correctionAdd("porpouse", "purpose");
             correctionAdd("porpuse", "purpose");
@@ -20565,7 +20572,7 @@ namespace OverflowHelper.core
             correctionAdd("movment", "movement");
 
             correctionAdd("re-run", "rerun");
-            correctionAdd("re-ran", "rerun");            
+            correctionAdd("re-ran", "rerun");
 
             correctionAdd("dotnet-run", "dotnet run");
 
@@ -20613,6 +20620,26 @@ namespace OverflowHelper.core
 
             correctionAdd("workout", "work out");
 
+            correctionAdd("Kdevelop", "KDevelop");
+
+            correctionAdd("banable", "bannable");
+
+            correctionAdd("BDFL", "benevolent dictator for life");
+            correctionAdd("BDfL", "benevolent dictator for life");
+
+            correctionAdd("Linguistics", "linguistics");
+
+            correctionAdd("Microgravity", "microgravity");
+
+            correctionAdd("Non Sequitur", "non sequitur");
+
+            correctionAdd("Synchronisation", "synchronisation");
+
+            correctionAdd("Tin", "tin");
+
+            correctionAdd("wandering", "wondering");
+
+            correctionAdd("work-item", "work item");
 
 
             // Start of coronavirus part...
@@ -31551,6 +31578,27 @@ namespace OverflowHelper.core
             URL_Add("splitting", "https://en.wiktionary.org/wiki/split#Verb");
 
             URL_Add("work out", "https://en.wiktionary.org/wiki/work_out#Verb");
+
+            URL_Add("KDevelop", "https://en.wikipedia.org/wiki/KDevelop");
+
+            URL_Add("bannable", "https://en.wiktionary.org/wiki/bannable#Adjective");
+
+            URL_Add("benevolent dictator for life", "https://en.wikipedia.org/wiki/Benevolent_dictator_for_life");
+
+            URL_Add("linguistics", "https://en.wikipedia.org/wiki/Linguistics");
+
+            URL_Add("microgravity", "https://en.wikipedia.org/wiki/Micro-g_environment");
+
+            URL_Add("non sequitur", "https://en.wiktionary.org/wiki/non_sequitur#Noun");
+
+            URL_Add("synchronisation", "https://en.wiktionary.org/wiki/synchronisation#Noun");
+
+            URL_Add("tin", "https://en.wikipedia.org/wiki/Tin");
+
+            URL_Add("wondering", "https://en.wiktionary.org/wiki/wonder#Verb");
+
+            URL_Add("work item", "https://en.wikipedia.org/wiki/Work_stealing");
+
 
 
 
