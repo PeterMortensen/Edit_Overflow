@@ -2117,6 +2117,8 @@ namespace OverflowHelper.core
             correctionAdd("Inckscape", "Inkscape");
             correctionAdd("incscape", "Inkscape");
             correctionAdd("Incscape", "Inkscape");
+            correctionAdd("Inskape", "Inkscape");
+            correctionAdd("Inscape", "Inkscape");
 
             correctionAdd("ndepend", "NDepend");
 
@@ -2455,6 +2457,7 @@ namespace OverflowHelper.core
             correctionAdd("internert explorer", "Internet&nbsp;Explorer");
             correctionAdd("internet Explorer", "Internet&nbsp;Explorer");
             correctionAdd("MSIE", "Internet&nbsp;Explorer");
+            correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
 
             //correctionAdd("ie", ", that is"); //Not included as it conflicts with Internet Explorer.
             correctionAdd("I.e", ", that is, X"); //Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
@@ -9134,6 +9137,7 @@ namespace OverflowHelper.core
             correctionAdd("what so ever", "whatsoever");
             correctionAdd("what-so-ever", "whatsoever");
             correctionAdd("whatsover", "whatsoever");
+            correctionAdd("whasoever", "whatsoever");
 
             correctionAdd("dmz", "DMZ");
 
@@ -10211,9 +10215,13 @@ namespace OverflowHelper.core
             correctionAdd("collegeae", "colleague");
             correctionAdd("collegeaue", "colleague");
 
+            correctionAdd("cmb", "cosmic microwave background");
+            correctionAdd("CMB", "cosmic microwave background");            
+
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
             correctionAdd("back ground", "background");
+            correctionAdd("bcakground", "background");
 
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
@@ -10702,6 +10710,8 @@ namespace OverflowHelper.core
             correctionAdd("react js", "React");
             correctionAdd("React js", "React");
             correctionAdd("React.js", "React");
+            correctionAdd("REACT.js", "React");
+            correctionAdd("REACT", "React");
 
             correctionAdd("dependant", "dependent"); //Common misspelling...
 
@@ -13258,6 +13268,7 @@ namespace OverflowHelper.core
             correctionAdd("migitate", "mitigate");
 
             correctionAdd("nusiance", "nuisance");
+            correctionAdd("nusance", "nuisance");
 
             correctionAdd("ocurr", "occur");
 
@@ -13672,6 +13683,7 @@ namespace OverflowHelper.core
 
             correctionAdd("semi colon", "semicolon");
             correctionAdd("semi-colon", "semicolon");
+            correctionAdd("Semi-colon", "semicolon");
 
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
@@ -14940,6 +14952,7 @@ namespace OverflowHelper.core
             correctionAdd("in layman's language", "in layman's terms");
 
             correctionAdd("inevietable", "inevitable");
+            correctionAdd("invitable", "inevitable");
 
             correctionAdd("inteded", "intended");
 
@@ -18561,6 +18574,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
+            correctionAdd("Doulas Crockford", "Douglas Crockford");
 
             correctionAdd("grunt", "Grunt");
 
@@ -20066,9 +20080,6 @@ namespace OverflowHelper.core
 
             correctionAdd("autodesk", "Autodesk");
 
-            correctionAdd("cmb", "cosmic microwave background");
-            correctionAdd("CMB", "cosmic microwave background");
-
             correctionAdd("hug", "huge");
 
             correctionAdd("ideomatic", "idiomatic");
@@ -20641,6 +20652,19 @@ namespace OverflowHelper.core
 
             correctionAdd("work-item", "work item");
 
+            correctionAdd("JSON 5", "JSON5");
+            correctionAdd("json5", "JSON5");
+
+            correctionAdd("NOLA", "New Orleans");
+
+            correctionAdd("ASI", "automatic semicolon insertion");
+            correctionAdd("asi", "automatic semicolon insertion");
+
+            correctionAdd("miss-direct", "misdirection");
+
+            correctionAdd("Overriden", "overridden");
+            correctionAdd("overriden", "overridden");
+
 
             // Start of coronavirus part...
 
@@ -20712,6 +20736,8 @@ namespace OverflowHelper.core
             correctionAdd("rona", "coronavirus");
             correctionAdd("C-virus", "coronavirus");
             correctionAdd("kuhrona", "coronavirus");
+            correctionAdd("Coronovirus", "coronavirus");
+            correctionAdd("coronovirus", "coronavirus");
 
             correctionAdd("Spanish Flu", "Spanish flu");
 
@@ -31599,6 +31625,15 @@ namespace OverflowHelper.core
 
             URL_Add("work item", "https://en.wikipedia.org/wiki/Work_stealing");
 
+            URL_Add("JSON5", "https://en.wikipedia.org/wiki/JSON#As_a_configuration_language");
+
+            URL_Add("New Orleans", "https://en.wikipedia.org/wiki/New_Orleans");
+
+            URL_Add("automatic semicolon insertion", "https://en.wikipedia.org/wiki/JavaScript_syntax#Whitespace_and_semicolons");
+
+            URL_Add("misdirection", "https://en.wiktionary.org/wiki/misdirection#Noun");
+
+            URL_Add("overridden", "https://en.wiktionary.org/wiki/override#Verb");
 
 
 
