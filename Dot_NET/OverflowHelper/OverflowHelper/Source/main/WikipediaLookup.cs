@@ -4280,6 +4280,7 @@ namespace OverflowHelper.core
             correctionAdd("arugument", "argument");
             correctionAdd("arguement", "argument");
             correctionAdd("Arg", "argument");
+            correctionAdd("arugment", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -9566,6 +9567,7 @@ namespace OverflowHelper.core
 
             correctionAdd("c++11", "C++11");
             correctionAdd("C++ 11", "C++11");
+            correctionAdd("c++ 11", "C++11");
 
             correctionAdd("c++14", "C++14");
 
@@ -10517,6 +10519,7 @@ namespace OverflowHelper.core
             correctionAdd("328", "ATmega328"); // Does this work??
 
             correctionAdd("anaconda", "Anaconda");
+            correctionAdd("anonconda", "Anaconda");
 
             correctionAdd("conda", "Conda");
             correctionAdd("Condo", "Conda");
@@ -11347,6 +11350,7 @@ namespace OverflowHelper.core
             correctionAdd("Secound", "second");
             correctionAdd("secound", "second");
             correctionAdd("seconde", "second");
+            correctionAdd("seond", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -13789,6 +13793,8 @@ namespace OverflowHelper.core
             correctionAdd("React Material-UI", "Material-UI");
             correctionAdd("material-ui", "Material-UI");
             correctionAdd("Material UI", "Material-UI");
+            correctionAdd("Material ui", "Material-UI");
+            correctionAdd("Material Ui", "Material-UI");
 
             correctionAdd("Technet", "TechNet");
 
@@ -17505,6 +17511,7 @@ namespace OverflowHelper.core
             correctionAdd("supercoducting", "superconducting");
 
             correctionAdd("ther", "there");
+            correctionAdd("thers", "there");
 
             correctionAdd("TBH", "to be honest");
             correctionAdd("tbh", "to be honest");
@@ -20664,6 +20671,17 @@ namespace OverflowHelper.core
 
             correctionAdd("Overriden", "overridden");
             correctionAdd("overriden", "overridden");
+
+            correctionAdd("syntastic", "Syntastic");
+            correctionAdd("Synstastic", "Syntastic");
+
+            correctionAdd("tsuquyomi", "Tsuquyomi");
+
+            correctionAdd("twilio", "Twilio");
+
+            correctionAdd("narsissist", "narcissist");
+
+            correctionAdd("staring", "starting");
 
 
             // Start of coronavirus part...
@@ -31635,6 +31653,15 @@ namespace OverflowHelper.core
 
             URL_Add("overridden", "https://en.wiktionary.org/wiki/override#Verb");
 
+            URL_Add("Syntastic", "https://github.com/vim-syntastic/syntastic/blob/master/README.markdown");
+
+            URL_Add("Tsuquyomi", "https://github.com/Quramy/tsuquyomi");
+
+            URL_Add("Twilio", "https://en.wikipedia.org/wiki/Twilio");
+
+            URL_Add("narcissist", "https://en.wiktionary.org/wiki/narcissist#Noun");
+
+            URL_Add("starting", "https://en.wiktionary.org/wiki/start#Verb");
 
 
             //========================================================
