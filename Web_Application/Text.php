@@ -422,7 +422,7 @@
             # Normal full stops
             test_transformFor_YouTubeComments(1016, "first job._", 0);
             test_transformFor_YouTubeComments(1017, "first job.", 0);
-            
+
             # Insertion of empty space on empty lines - introduced
             # after changes to YouTube comments on 2020-05-21
             #
@@ -433,6 +433,11 @@
                                               -1);
 
             test_transformFor_YouTubeComments(1019, "Which is 1.7 V higher.", 0);
+
+            // Happens to be 0 as the expanded two dots correspond
+            // to the removed "https://".
+            test_transformFor_YouTubeComments(1020, "https://www.tutorialspoint.com/design_pattern/filter_pattern.htm", 0);
+            test_transformFor_YouTubeComments(1021, "https://en.wiktionary.org/wiki/File:en-us-tear-verb.ogg", 0);
 
 
 
