@@ -3084,6 +3084,8 @@ namespace OverflowHelper.core
             correctionAdd("Server fault", "Server&nbsp;Fault");
             correctionAdd("sf", "Server&nbsp;Fault");
             correctionAdd("server-fault", "Server&nbsp;Fault");
+            correctionAdd("Sever Fault", "Server&nbsp;Fault");
+            correctionAdd("SeverFault", "Server&nbsp;Fault");
 
             correctionAdd("CS", "computer science");
             correctionAdd("compsci", "computer science");
@@ -8856,6 +8858,7 @@ namespace OverflowHelper.core
             correctionAdd("ts", "TypeScript");
             correctionAdd("Typesript", "TypeScript");
             correctionAdd("Typscript", "TypeScript");
+            correctionAdd("typescrip", "TypeScript");
 
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
@@ -9922,6 +9925,7 @@ namespace OverflowHelper.core
             correctionAdd("Phantomjs", "PhantomJS");
             correctionAdd("phantom", "PhantomJS");
             correctionAdd("phantomjs", "PhantomJS");
+            correctionAdd("Phantom JS", "PhantomJS");
 
             correctionAdd("crsf", "CSRF");
 
@@ -10218,7 +10222,7 @@ namespace OverflowHelper.core
             correctionAdd("collegeaue", "colleague");
 
             correctionAdd("cmb", "cosmic microwave background");
-            correctionAdd("CMB", "cosmic microwave background");            
+            correctionAdd("CMB", "cosmic microwave background");
 
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
@@ -17290,6 +17294,7 @@ namespace OverflowHelper.core
             correctionAdd("ES2020", "ECMAScript 2020");
             correctionAdd("es11", "ECMAScript 2020");
             correctionAdd("ES11", "ECMAScript 2020");
+            correctionAdd("ECMAScript&nbsp;11", "ECMAScript 2020");
 
             correctionAdd("arround", "around");
 
@@ -18104,6 +18109,7 @@ namespace OverflowHelper.core
 
             correctionAdd("opion", "option");
             correctionAdd("otpion", "option");
+            correctionAdd("oprion", "option");
 
             correctionAdd("pasphrase", "passphrase");
 
@@ -19164,6 +19170,7 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript 10", "ECMAScript&nbsp;10");
             correctionAdd("ES2019", "ECMAScript&nbsp;10");
             correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;10");
+            correctionAdd("ES10", "ECMAScript&nbsp;10");
 
             correctionAdd("jnlp", "JNLP");
 
@@ -20682,6 +20689,22 @@ namespace OverflowHelper.core
             correctionAdd("narsissist", "narcissist");
 
             correctionAdd("staring", "starting");
+
+            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
+            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
+            correctionAdd("ES9", "ECMAScript&nbsp;2018");
+            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
+
+            correctionAdd("browserify", "Browserify");
+
+            correctionAdd("ChaiJS", "Chai");
+            correctionAdd("chai", "Chai");
+
+            correctionAdd("selenium-webdriver", "Selenium WebDriver");
+
+            correctionAdd("litteral", "literal");
+
+            correctionAdd("synchroniuosly", "synchronously");
 
 
             // Start of coronavirus part...
@@ -31662,6 +31685,18 @@ namespace OverflowHelper.core
             URL_Add("narcissist", "https://en.wiktionary.org/wiki/narcissist#Noun");
 
             URL_Add("starting", "https://en.wiktionary.org/wiki/start#Verb");
+
+            URL_Add("ECMAScript&nbsp;2018", "https://en.wikipedia.org/wiki/ECMAScript#9th_Edition_%E2%80%93_ECMAScript_2018");
+
+            URL_Add("Browserify", "https://en.wikipedia.org/wiki/Browserify");
+
+            URL_Add("Chai", "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript");
+
+            URL_Add("Selenium WebDriver", "https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_WebDriver");
+
+            URL_Add("literal", "https://en.wiktionary.org/wiki/literal#Noun");
+
+            URL_Add("synchronously", "https://en.wiktionary.org/wiki/synchronously#Adverb");
 
 
             //========================================================
