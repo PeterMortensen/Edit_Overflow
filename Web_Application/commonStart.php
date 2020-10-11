@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a71 2020-10-11T194827Z+0";
+        return "Edit Overflow v. 1.1.49a72 2020-10-11T210111Z+0";
     }
 
 
@@ -380,9 +380,11 @@
             $replacer->transform('(\d) DOT (\d)', '$1.$2'); # Revert for numbers
             
             # Revert for file extensions. Note: Potentially false positives
-            # as we don't currently check for end of line.
+            # as we don't currently check for end of line. But it is
+            # not always at the (example: <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript>)
             $replacer->transform(' DOT htm', '.htm'); 
             $replacer->transform(' DOT ogg', '.ogg');
+            $replacer->transform(' DOT php', '.php');
 
 
         # Convert email addresses like so... (at least
