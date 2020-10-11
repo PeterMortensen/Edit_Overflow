@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a69 2020-09-30T182054Z+0";
+        return "Edit Overflow v. 1.1.49a71 2020-10-11T194827Z+0";
     }
 
 
@@ -372,12 +372,17 @@
         # Future: Perhaps general reversal near the end, after
         #         the last "/"? Say, for ".html".
         #
-        $replacer->transform('E DOT g\.', 'E.g.');
-        $replacer->transform('e DOT g\.', 'e.g.');
-        $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
-        $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
+            $replacer->transform('E DOT g\.', 'E.g.');
+            $replacer->transform('e DOT g\.', 'e.g.');
+            $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
+            $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
 
-        $replacer->transform('(\d) DOT (\d)', '$1.$2'); # Revert for numbers
+            $replacer->transform('(\d) DOT (\d)', '$1.$2'); # Revert for numbers
+            
+            # Revert for file extensions. Note: Potentially false positives
+            # as we don't currently check for end of line.
+            $replacer->transform(' DOT htm', '.htm'); 
+            $replacer->transform(' DOT ogg', '.ogg');
 
 
         # Convert email addresses like so... (at least
