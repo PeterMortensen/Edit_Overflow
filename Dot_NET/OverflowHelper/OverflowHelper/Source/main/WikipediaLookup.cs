@@ -10055,34 +10055,6 @@ namespace OverflowHelper.core
 
             correctionAdd("drwatson", "Dr. Watson");
 
-            correctionAdd("EcmaScript", "ECMAScript");
-            correctionAdd("ecmascript", "ECMAScript");
-            correctionAdd("Ecmascript", "ECMAScript");
-            correctionAdd("ECMA", "ECMAScript");
-            correctionAdd("ECMASCRIPT", "ECMAScript");
-            correctionAdd("ES", "ECMAScript");
-            correctionAdd("es", "ECMAScript");
-            correctionAdd("ecma", "ECMAScript");
-            correctionAdd("ECMAscript", "ECMAScript");
-            correctionAdd("ECMA-Script", "ECMAScript");
-
-            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
-            correctionAdd("es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES6", "ECMAScript&nbsp;2015");
-            correctionAdd("e6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("es2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
-
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
 
@@ -12885,13 +12857,6 @@ namespace OverflowHelper.core
             correctionAdd("Spark", "Apache Spark");
             correctionAdd("sPARK", "Apache Spark");
 
-            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
-            correctionAdd("ES 5", "ECMAScript&nbsp;5");
-            correctionAdd("ES5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
-            correctionAdd("es5", "ECMAScript&nbsp;5");
-
             correctionAdd("Isreal", "Israel");
 
             correctionAdd("Jurasalem", "Jerusalem");
@@ -12963,16 +12928,6 @@ namespace OverflowHelper.core
             correctionAdd("adhd", "ADHD");
 
             correctionAdd("crc32", "CRC-32");
-
-            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
-            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES7", "ECMAScript&nbsp;2016");
-            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
-            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("es7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
 
             correctionAdd("october", "October");
 
@@ -16044,11 +15999,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
-            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
-            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
-            correctionAdd("ES8", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
-
             correctionAdd("swiss", "Swiss");
 
             correctionAdd("Swiss Franc", "Swiss franc");
@@ -17303,12 +17253,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Boing", "Boeing");
             correctionAdd("boing", "Boeing");
-
-            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
-            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
-            correctionAdd("es11", "ECMAScript&nbsp;2020");
-            correctionAdd("ES11", "ECMAScript&nbsp;2020");
-            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
 
             correctionAdd("arround", "around");
 
@@ -19179,12 +19123,6 @@ namespace OverflowHelper.core
             //Of PowerShell...
             correctionAdd("get-itemproperty", "Get-ItemProperty");
 
-            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
-            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
-            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
-            correctionAdd("ES10", "ECMAScript&nbsp;2019");
-            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
-
             correctionAdd("jnlp", "JNLP");
 
             correctionAdd("Roleex", "Rolex");
@@ -20488,12 +20426,6 @@ namespace OverflowHelper.core
             correctionAdd("commonjs", "CommonJS");
             correctionAdd("CommonJs", "CommonJS");
 
-            correctionAdd("ECMAScript Module", "ECMAScript module");
-            correctionAdd("ESM", "ECMAScript module");
-            correctionAdd("esm", "ECMAScript module");
-            correctionAdd("ES Module", "ECMAScript module");
-            correctionAdd("EcmaScript module", "ECMAScript module");
-
             correctionAdd("iify", "IIFE");
             correctionAdd("iife", "IIFE");
             correctionAdd("IIFY", "IIFE");
@@ -20620,13 +20552,6 @@ namespace OverflowHelper.core
             correctionAdd("tun", "run"); // True typo
             correctionAdd("rum", "run");
 
-            correctionAdd("ECMA2021", "ES.Next");
-            correctionAdd("ES12", "ES.Next");
-            correctionAdd("ECMAScript 2021", "ES.Next");
-            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
-            correctionAdd("es-next", "ES.Next");
-            correctionAdd("es12", "ES.Next");
-
             correctionAdd("monodroid", "MonoDroid");
 
             correctionAdd("nand", "NAND");
@@ -20707,11 +20632,6 @@ namespace OverflowHelper.core
 
             correctionAdd("staring", "starting");
 
-            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
-            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
-            correctionAdd("ES9", "ECMAScript&nbsp;2018");
-            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
-
             correctionAdd("browserify", "Browserify");
 
             correctionAdd("ChaiJS", "Chai");
@@ -20731,6 +20651,90 @@ namespace OverflowHelper.core
             correctionAdd("RPGLE", "RPG IV");
             correctionAdd("rpgle", "RPG IV");
             correctionAdd("ILE RPG", "RPG IV");
+
+            correctionAdd("ECMAScript Module", "ECMAScript module");
+            correctionAdd("ESM", "ECMAScript module");
+            correctionAdd("esm", "ECMAScript module");
+            correctionAdd("ES Module", "ECMAScript module");
+            correctionAdd("EcmaScript module", "ECMAScript module");
+
+            correctionAdd("EcmaScript", "ECMAScript");
+            correctionAdd("ecmascript", "ECMAScript");
+            correctionAdd("Ecmascript", "ECMAScript");
+            correctionAdd("ECMA", "ECMAScript");
+            correctionAdd("ECMASCRIPT", "ECMAScript");
+            correctionAdd("ES", "ECMAScript");
+            correctionAdd("es", "ECMAScript");
+            correctionAdd("ecma", "ECMAScript");
+            correctionAdd("ECMAscript", "ECMAScript");
+            correctionAdd("ECMA-Script", "ECMAScript");
+
+            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
+            correctionAdd("ES 5", "ECMAScript&nbsp;5");
+            correctionAdd("ES5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
+            correctionAdd("es5", "ECMAScript&nbsp;5");
+
+            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
+            correctionAdd("es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES6", "ECMAScript&nbsp;2015");
+            correctionAdd("e6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
+
+            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
+            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES7", "ECMAScript&nbsp;2016");
+            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
+            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("es7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
+
+            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
+            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
+            correctionAdd("ES8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
+
+            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
+            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
+            correctionAdd("ES9", "ECMAScript&nbsp;2018");
+            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
+
+            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
+            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
+            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
+            correctionAdd("ES10", "ECMAScript&nbsp;2019");
+            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
+
+            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
+            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
+            correctionAdd("es11", "ECMAScript&nbsp;2020");
+            correctionAdd("ES11", "ECMAScript&nbsp;2020");
+            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
+
+            correctionAdd("ECMA2021", "ES.Next");
+            correctionAdd("ES12", "ES.Next");
+            correctionAdd("ECMAScript 2021", "ES.Next");
+            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
+            correctionAdd("es-next", "ES.Next");
+            correctionAdd("es12", "ES.Next");
+
+
+
+
 
 
             // Start of coronavirus part...
