@@ -6874,6 +6874,7 @@ namespace OverflowHelper.core
             correctionAdd("Third Party", "third-party");
             correctionAdd("3rd-part", "third-party");
             correctionAdd("thirdparty", "third-party");
+            correctionAdd("3d Party", "third-party");
 
             correctionAdd("usecase", "use case");
             correctionAdd("use-case", "use case");
@@ -8810,6 +8811,7 @@ namespace OverflowHelper.core
 
             correctionAdd("phd", "PhD");
             correctionAdd("PHD", "PhD");
+            correctionAdd("Phd", "PhD");
 
             correctionAdd("togheter", "together");
 
@@ -9919,6 +9921,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Model-View-Controller", "model–view–controller");
             correctionAdd("Model-View-Control", "model–view–controller");
+            correctionAdd("Model–view–controller", "model–view–controller");
+            correctionAdd("model view controller", "model–view–controller");
 
             correctionAdd("Model-View-Presenter", "model–view–presenter");
 
@@ -10062,21 +10066,22 @@ namespace OverflowHelper.core
             correctionAdd("ECMAscript", "ECMAScript");
             correctionAdd("ECMA-Script", "ECMAScript");
 
-            correctionAdd("es6", "ECMAScript&nbsp;6");
-            correctionAdd("ES6", "ECMAScript&nbsp;6");
-            correctionAdd("e6", "ECMAScript&nbsp;6");
-            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;6");
-            correctionAdd("ES2015", "ECMAScript&nbsp;6");
-            correctionAdd("ECMAScript6", "ECMAScript&nbsp;6");
-            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;6");
-            correctionAdd("ES 6", "ECMAScript&nbsp;6");
-            correctionAdd("Es6", "ECMAScript&nbsp;6");
-            correctionAdd("ECMA6", "ECMAScript&nbsp;6");
-            correctionAdd("ECMA 6", "ECMAScript&nbsp;6");
-            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;6");
-            correctionAdd("es2015", "ECMAScript&nbsp;6");
-            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;6");
-            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;6");
+            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
+            correctionAdd("es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES6", "ECMAScript&nbsp;2015");
+            correctionAdd("e6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
 
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
@@ -11424,6 +11429,9 @@ namespace OverflowHelper.core
 
             correctionAdd("juge", "judge");
             correctionAdd("jidge", "judge"); // True typo
+            correctionAdd("judje", "judge");
+            correctionAdd("jugje", "judge");
+            correctionAdd("jugde", "judge");
 
             correctionAdd("necssity", "necessity");
 
@@ -12956,13 +12964,15 @@ namespace OverflowHelper.core
 
             correctionAdd("crc32", "CRC-32");
 
-            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;7"); // Sort of identity mapping
-            correctionAdd("ES 2016", "ECMAScript&nbsp;7");
-            correctionAdd("ES2016", "ECMAScript&nbsp;7");
-            correctionAdd("ES7", "ECMAScript&nbsp;7");
-            correctionAdd("ES 7", "ECMAScript&nbsp;7");
-            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;7");
-            correctionAdd("es7", "ECMAScript&nbsp;7");
+            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
+            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES7", "ECMAScript&nbsp;2016");
+            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
+            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("es7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
 
             correctionAdd("october", "October");
 
@@ -13034,6 +13044,7 @@ namespace OverflowHelper.core
 
             correctionAdd("seting", "setting");
             correctionAdd("settign", "setting");
+            correctionAdd("setttnig", "setting");
 
             correctionAdd("suposed", "supposed");
 
@@ -16033,8 +16044,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
-            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;8"); // Sort of identity mapping
-            correctionAdd("ES8", "ECMAScript&nbsp;8");
+            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
+            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
+            correctionAdd("ES8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
 
             correctionAdd("swiss", "Swiss");
 
@@ -17291,10 +17304,11 @@ namespace OverflowHelper.core
             correctionAdd("Boing", "Boeing");
             correctionAdd("boing", "Boeing");
 
-            correctionAdd("ES2020", "ECMAScript 2020");
-            correctionAdd("es11", "ECMAScript 2020");
-            correctionAdd("ES11", "ECMAScript 2020");
-            correctionAdd("ECMAScript&nbsp;11", "ECMAScript 2020");
+            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
+            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
+            correctionAdd("es11", "ECMAScript&nbsp;2020");
+            correctionAdd("ES11", "ECMAScript&nbsp;2020");
+            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
 
             correctionAdd("arround", "around");
 
@@ -17853,8 +17867,6 @@ namespace OverflowHelper.core
             correctionAdd("UAT", "user acceptance testing");
 
             correctionAdd("angular material", "Angular Material");
-
-            correctionAdd("es-next", "ES.Next");
 
             correctionAdd("Scons", "SCons");
 
@@ -19167,10 +19179,11 @@ namespace OverflowHelper.core
             //Of PowerShell...
             correctionAdd("get-itemproperty", "Get-ItemProperty");
 
-            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;10");
-            correctionAdd("ES2019", "ECMAScript&nbsp;10");
-            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;10");
-            correctionAdd("ES10", "ECMAScript&nbsp;10");
+            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
+            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
+            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
+            correctionAdd("ES10", "ECMAScript&nbsp;2019");
+            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
 
             correctionAdd("jnlp", "JNLP");
 
@@ -20607,8 +20620,12 @@ namespace OverflowHelper.core
             correctionAdd("tun", "run"); // True typo
             correctionAdd("rum", "run");
 
-            correctionAdd("ECMA2021", "ECMAScript 2021");
-            correctionAdd("ES12", "ECMAScript 2021");
+            correctionAdd("ECMA2021", "ES.Next");
+            correctionAdd("ES12", "ES.Next");
+            correctionAdd("ECMAScript 2021", "ES.Next");
+            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
+            correctionAdd("es-next", "ES.Next");
+            correctionAdd("es12", "ES.Next");
 
             correctionAdd("monodroid", "MonoDroid");
 
@@ -20705,6 +20722,15 @@ namespace OverflowHelper.core
             correctionAdd("litteral", "literal");
 
             correctionAdd("synchroniuosly", "synchronously");
+
+            correctionAdd("Ghost", "Ghost (blogging platform)");
+            correctionAdd("ghost", "Ghost (blogging platform)");
+
+            correctionAdd("ibm-i", "IBM i");
+
+            correctionAdd("RPGLE", "RPG IV");
+            correctionAdd("rpgle", "RPG IV");
+            correctionAdd("ILE RPG", "RPG IV");
 
 
             // Start of coronavirus part...
@@ -21426,7 +21452,7 @@ namespace OverflowHelper.core
 
             URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
 
-            URL_Add("definitely", "https://en.wiktionary.org/wiki/definately"); //Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
+            URL_Add("definitely", "https://en.wiktionary.org/wiki/definitely#Adverb"); //Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>. Old: https://en.wiktionary.org/wiki/definately
 
             URL_Add("Nagios", "https://en.wikipedia.org/wiki/Nagios");
 
@@ -23720,7 +23746,7 @@ namespace OverflowHelper.core
 
             URL_Add("Out-Null", "https://technet.microsoft.com/en-us/library/hh849716.aspx");
 
-            URL_Add("React", "https://en.wikipedia.org/wiki/React_%28JavaScript_library%29");
+            URL_Add("React", "https://en.wikipedia.org/wiki/React_(web_framework)"); // Old: https://en.wikipedia.org/wiki/React_%28JavaScript_library%29
 
             URL_Add("tantalum capacitor", "https://en.wikipedia.org/wiki/Tantalum_capacitor");
 
@@ -24075,7 +24101,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dr. Watson", "https://en.wikipedia.org/wiki/Dr._Watson_(debugger)");
 
-            URL_Add("ECMAScript&nbsp;6", "https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015"); // Old: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
+            URL_Add("ECMAScript&nbsp;2015", "https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015"); // Old: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
 
             URL_Add("Redux", "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)");
 
@@ -25887,7 +25913,7 @@ namespace OverflowHelper.core
 
             URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
 
-            URL_Add("ECMAScript&nbsp;7", "https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_-_ECMAScript_2016");
+            URL_Add("ECMAScript&nbsp;2016", "https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_-_ECMAScript_2016");
 
             URL_Add("October", "https://en.wiktionary.org/wiki/October#Proper_noun");
 
@@ -26692,7 +26718,7 @@ namespace OverflowHelper.core
 
             URL_Add("module", "https://en.wiktionary.org/wiki/module#Noun");
 
-            URL_Add("Babel", "https://en.wikipedia.org/wiki/Babel_(compiler)");
+            URL_Add("Babel", "https://en.wikipedia.org/wiki/Babel_(transcompiler)"); // Old: https://en.wikipedia.org/wiki/Babel_(compiler)
 
             URL_Add("Bluehost", "https://en.wikipedia.org/wiki/Bluehost");
 
@@ -26884,7 +26910,7 @@ namespace OverflowHelper.core
 
             URL_Add("visionary", "https://en.wiktionary.org/wiki/visionary#Noun");
 
-            URL_Add(".bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions");
+            URL_Add(".bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
 
             URL_Add("PS1", "https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt");
 
@@ -28192,7 +28218,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
 
-            URL_Add("ECMAScript&nbsp;8", "https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017");
+            URL_Add("ECMAScript&nbsp;2017", "https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017");
 
             URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
 
@@ -29092,7 +29118,7 @@ namespace OverflowHelper.core
 
             URL_Add("Boeing", "https://en.wikipedia.org/wiki/Boeing");
 
-            URL_Add("ECMAScript 2020", "https://en.wikipedia.org/wiki/ECMAScript#ES.Next");
+            URL_Add("ECMAScript&nbsp;2020", "https://en.wikipedia.org/wiki/ECMAScript#11th_Edition_%E2%80%93_ECMAScript_2020");
 
             URL_Add("around", "https://en.wiktionary.org/wiki/around#Adverb");
 
@@ -30518,7 +30544,7 @@ namespace OverflowHelper.core
 
             URL_Add("triggered", "https://en.wiktionary.org/wiki/trigger#Verb");
 
-            URL_Add("ECMAScript&nbsp;10", "https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_%E2%80%93_ECMAScript_2019");
+            URL_Add("ECMAScript&nbsp;2019", "https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_%E2%80%93_ECMAScript_2019");
 
             URL_Add("JNLP", "https://en.wikipedia.org/wiki/Java_Web_Start#Java_Network_Launching_Protocol_(JNLP)");
 
@@ -31612,8 +31638,6 @@ namespace OverflowHelper.core
 
             URL_Add("movement", "https://en.wiktionary.org/wiki/movement#Noun");
 
-            URL_Add("ECMAScript 2021", "https://en.wikipedia.org/wiki/ECMAScript#ES.Next");
-
             URL_Add("MonoDroid", "https://en.wikipedia.org/wiki/Mono_(software)#Related_projects");
 
             URL_Add("NAND", "https://en.wikipedia.org/wiki/NAND_gate");
@@ -31697,6 +31721,12 @@ namespace OverflowHelper.core
             URL_Add("literal", "https://en.wiktionary.org/wiki/literal#Noun");
 
             URL_Add("synchronously", "https://en.wiktionary.org/wiki/synchronously#Adverb");
+
+            URL_Add("Ghost (blogging platform)", "https://en.wikipedia.org/wiki/Ghost_(blogging_platform)");
+
+            URL_Add("IBM i", "https://en.wikipedia.org/wiki/IBM_i");
+
+            URL_Add("RPG IV", "https://en.wikipedia.org/wiki/IBM_RPG#RPG_IV");
 
 
             //========================================================
