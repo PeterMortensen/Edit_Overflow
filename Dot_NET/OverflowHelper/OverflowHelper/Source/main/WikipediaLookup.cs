@@ -11109,6 +11109,7 @@ namespace OverflowHelper.core
             correctionAdd("Vis versa", "vice versa");
             correctionAdd("vise versa", "vice versa");
             correctionAdd("visversa", "vice versa");
+            correctionAdd("vica versa", "vice versa");
 
             correctionAdd("your self", "yourself");
             correctionAdd("yourselves", "yourself");
@@ -12642,6 +12643,7 @@ namespace OverflowHelper.core
             correctionAdd("sentencen", "sentence");
 
             correctionAdd("sideeffect", "side effect");
+            correctionAdd("side-effect", "side effect");
 
             correctionAdd("spell-check", "spellcheck");
             correctionAdd("spell check", "spellcheck");
@@ -20731,10 +20733,19 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
             correctionAdd("es-next", "ES.Next");
             correctionAdd("es12", "ES.Next");
+            correctionAdd("ES 12", "ES.Next");
 
+            correctionAdd("Diode", "diode");
 
+            correctionAdd("ESD", "electrostatic discharge");
 
+            correctionAdd("enzyme", "Enzyme");
 
+            correctionAdd("node-webkit", "NW.js");
+
+            correctionAdd("eval", "evaluation");
+
+            correctionAdd("outrage", "outage");
 
 
             // Start of coronavirus part...
@@ -31731,6 +31742,19 @@ namespace OverflowHelper.core
             URL_Add("IBM i", "https://en.wikipedia.org/wiki/IBM_i");
 
             URL_Add("RPG IV", "https://en.wikipedia.org/wiki/IBM_RPG#RPG_IV");
+
+            URL_Add("diode", "https://en.wikipedia.org/wiki/Diode");
+
+            URL_Add("electrostatic discharge", "https://en.wikipedia.org/wiki/Electrostatic_discharge");
+
+            URL_Add("Enzyme", "https://github.com/enzymejs/enzyme");
+
+            URL_Add("NW.js", "https://nwjs.io/");
+
+            URL_Add("evaluation", "https://en.wiktionary.org/wiki/evaluation#Noun");
+
+            URL_Add("outage", "https://en.wiktionary.org/wiki/outage#Noun");
+
 
 
             //========================================================
