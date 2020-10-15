@@ -9220,6 +9220,7 @@ namespace OverflowHelper.core
             correctionAdd("nessarily", "necessarily");
             correctionAdd("neccarily", "necessarily");
             correctionAdd("necassarily", "necessarily");
+            correctionAdd("necessarali", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -10669,6 +10670,7 @@ namespace OverflowHelper.core
             correctionAdd("first's", "first");
             correctionAdd("Fisrt", "first");
             correctionAdd("First", "first");
+            correctionAdd("fist", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -10975,11 +10977,6 @@ namespace OverflowHelper.core
             correctionAdd("poi", "Apache POI");
 
             correctionAdd("artifactory", "Artifactory");
-
-            correctionAdd("boolean", "Boolean");
-            correctionAdd("bolean", "Boolean");
-            correctionAdd("bool", "Boolean");
-            correctionAdd("Bool", "Boolean");
 
             correctionAdd("crm", "CRM");
 
@@ -17963,6 +17960,7 @@ namespace OverflowHelper.core
             correctionAdd("repos", "repositories");
 
             correctionAdd("tranpiling", "transpiling");
+            correctionAdd("transipiling", "transpiling");
 
             correctionAdd("unlinke", "unlike");
             correctionAdd("Unlinke", "unlike");
@@ -20746,6 +20744,21 @@ namespace OverflowHelper.core
             correctionAdd("eval", "evaluation");
 
             correctionAdd("outrage", "outage");
+
+            correctionAdd("Author", "author");
+
+            correctionAdd("feelling", "feeling");
+            correctionAdd("filling", "feeling");
+
+            correctionAdd("hands on", "hands-on");
+
+            correctionAdd("boolean", "Boolean");
+            correctionAdd("bolean", "Boolean");
+            correctionAdd("bool", "Boolean");
+            correctionAdd("Bool", "Boolean");
+
+            correctionAdd("Lean", "lean");
+            correctionAdd("LEAN", "lean");
 
 
             // Start of coronavirus part...
@@ -31754,6 +31767,14 @@ namespace OverflowHelper.core
             URL_Add("evaluation", "https://en.wiktionary.org/wiki/evaluation#Noun");
 
             URL_Add("outage", "https://en.wiktionary.org/wiki/outage#Noun");
+
+            URL_Add("author", "https://en.wiktionary.org/wiki/author#Noun");
+
+            URL_Add("feeling", "https://en.wiktionary.org/wiki/feeling#Noun");
+
+            URL_Add("hands-on", "https://en.wiktionary.org/wiki/hands-on#Adjective");
+
+            URL_Add("lean", "https://en.wikipedia.org/wiki/Lean_thinking");
 
 
 
