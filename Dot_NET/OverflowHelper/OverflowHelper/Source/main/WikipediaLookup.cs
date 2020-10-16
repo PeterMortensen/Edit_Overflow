@@ -2824,6 +2824,8 @@ namespace OverflowHelper.core
             correctionAdd("Google", "Google Search");
             correctionAdd("google search", "Google Search");
             correctionAdd("Google search", "Google Search");
+            correctionAdd("GOOGL", "Google Search");
+            correctionAdd("GOOGLE", "Google Search");
 
             correctionAdd("yahoo", "Yahoo Search"); //Really "Yahoo!", but we don't like special characters in names.
             correctionAdd("Yahoo", "Yahoo Search"); //Really "Yahoo!", but we don't like special characters in names.
@@ -4910,6 +4912,7 @@ namespace OverflowHelper.core
             correctionAdd("amazon", "Amazon DOT com"); //The name is actually Amazon.com.
             correctionAdd("Amazon", "Amazon DOT com");
             correctionAdd("amazon.com", "Amazon DOT com");
+            correctionAdd("AMZN", "Amazon DOT com");
 
             correctionAdd("VB.Net", "VB.NET");
             correctionAdd("Vb.Net", "VB.NET");
@@ -7130,6 +7133,7 @@ namespace OverflowHelper.core
             correctionAdd("especifiqly", "especially");
             correctionAdd("espascially", "especially");
             correctionAdd("expecially", "especially");
+            correctionAdd("Expecially", "especially");
 
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
@@ -9450,8 +9454,6 @@ namespace OverflowHelper.core
             correctionAdd("edge", "Edge");
             correctionAdd("EDGE", "Edge");
 
-            correctionAdd("transitor", "transistor");
-
             correctionAdd("android studio", "Android Studio");
             correctionAdd("AS", "Android Studio");
             correctionAdd("AndroidStudio", "Android Studio");
@@ -9513,6 +9515,7 @@ namespace OverflowHelper.core
             correctionAdd("queston", "question");
             correctionAdd("qusetion", "question");
             correctionAdd("Question", "question");
+            correctionAdd("tread", "question");
 
             //Can not currently be looked up due to a bug!!!!
             correctionAdd("devc++", "Dev-C++");
@@ -9974,6 +9977,7 @@ namespace OverflowHelper.core
             correctionAdd("shod", "should");
             correctionAdd("shood", "should");
             correctionAdd("chud", "should");
+            correctionAdd("chould", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -10382,6 +10386,7 @@ namespace OverflowHelper.core
             correctionAdd("three.js", "Three.js");
             correctionAdd("three js", "Three.js");
             correctionAdd("threeJS", "Three.js");
+            correctionAdd("ThreeJS", "Three.js");
 
             correctionAdd("0day", "zero-day");
 
@@ -10948,6 +10953,7 @@ namespace OverflowHelper.core
             correctionAdd("statemetns", "statement");
             correctionAdd("statemaent", "statement");
             correctionAdd("statemnt", "statement");
+            correctionAdd("statemen", "statement");
 
             correctionAdd("staritaway", "straight away");
 
@@ -11297,6 +11303,9 @@ namespace OverflowHelper.core
             correctionAdd("U", "uranium");
 
             correctionAdd("mcve", "MCVE");
+            correctionAdd("MVCE", "MCVE");
+            correctionAdd("MRE", "MCVE");
+            correctionAdd("mre", "MCVE");
 
             correctionAdd("new-variable", "New-Variable");
 
@@ -11554,6 +11563,7 @@ namespace OverflowHelper.core
             correctionAdd("justfied", "justified");
 
             correctionAdd("perfrom", "perform");
+            correctionAdd("preform", "perform");
 
             correctionAdd("dutch", "Dutch");
 
@@ -11784,8 +11794,6 @@ namespace OverflowHelper.core
             correctionAdd("gigga", "121GW");
             correctionAdd("giggawatt meter", "121GW");
 
-            correctionAdd("BJT", "bipolar junction transistor");
-
             correctionAdd("cam", "camera");
 
             correctionAdd("checkout", "check out");
@@ -11987,6 +11995,7 @@ namespace OverflowHelper.core
             correctionAdd("Springboot", "Spring Boot");
 
             correctionAdd("accesible", "accessible");
+            correctionAdd("accessable", "accessible");
 
             correctionAdd("collumn", "column");
             correctionAdd("colum", "column");
@@ -12382,8 +12391,6 @@ namespace OverflowHelper.core
             correctionAdd("AFAICT", "as far as I can tell");
             correctionAdd("Afaict", "as far as I can tell");
             correctionAdd("afaict", "as far as I can tell");
-
-            correctionAdd("asignment", "assignment");
 
             correctionAdd("childs", "children");
 
@@ -13890,6 +13897,7 @@ namespace OverflowHelper.core
             correctionAdd("perldoc", "Perl Programming Documentation");
 
             correctionAdd("avarage", "average");
+            correctionAdd("avg", "average");
 
             correctionAdd("pacakge", "package");
             correctionAdd("Pacakge", "package");
@@ -13939,6 +13947,8 @@ namespace OverflowHelper.core
             correctionAdd("IFCONFIG", "ifconfig");
 
             correctionAdd("IOW", "in other words");
+            correctionAdd("With other words", "in other words");
+            correctionAdd("with other words", "in other words");
 
             correctionAdd("IPROUTE2", "iproute2");
 
@@ -14389,8 +14399,6 @@ namespace OverflowHelper.core
             correctionAdd("oom", "OOM");
 
             correctionAdd("phpunit", "PHPUnit");
-
-            correctionAdd("destructuring", "destructuring assignment");
 
             correctionAdd("erlier", "earlier");
 
@@ -15905,6 +15913,7 @@ namespace OverflowHelper.core
             correctionAdd("X axis", "x-axis");
             correctionAdd("x-Axis", "x-axis");
             correctionAdd("x Axis", "x-axis");
+            correctionAdd("xaxis", "x-axis");
 
             correctionAdd("Y axis", "y-axis");
             correctionAdd("Y-axis", "y-axis");
@@ -20760,6 +20769,58 @@ namespace OverflowHelper.core
             correctionAdd("Lean", "lean");
             correctionAdd("LEAN", "lean");
 
+            correctionAdd("BJT", "bipolar junction transistor");
+
+            correctionAdd("transitor", "transistor");
+            correctionAdd("Transistor", "transistor");
+
+            correctionAdd("destructuring", "destructuring assignment");
+
+            correctionAdd("asignment", "assignment");
+            correctionAdd("assigment", "assignment");
+
+            correctionAdd("hdc", "HDC");
+
+            correctionAdd("kalman filter", "Kalman filter");
+            correctionAdd("kalman", "Kalman filter");
+
+            correctionAdd("coffeebreak", "coffee break");
+
+            correctionAdd("DCT", "discrete cosine transform");
+
+            correctionAdd("First Things First", "first things first");
+            correctionAdd("first thing first", "first things first");
+            correctionAdd("First Thing First", "first things first");
+
+            correctionAdd("Hoist", "hoist");
+
+            correctionAdd("hosting", "hoisting");
+            correctionAdd("Hoisting", "hoisting");
+
+            correctionAdd("inaccessable", "inaccessible");
+
+            correctionAdd("inexplicibaly", "inexplicably");
+
+            correctionAdd("JSDOM", "jsdom");
+
+            correctionAdd("name space", "namespace");
+
+            correctionAdd("in the fly", "on the fly");
+
+            correctionAdd("preformed", "performed");
+
+            correctionAdd("Quadrant", "quadrant");
+
+            correctionAdd("re assignment", "reassignment");
+
+            correctionAdd("square 1", "square one");
+
+            correctionAdd("sublety", "subtlety");
+
+            correctionAdd("undefied", "undefined");
+
+            correctionAdd("understandig", "understanding");
+
 
             // Start of coronavirus part...
 
@@ -24809,7 +24870,7 @@ namespace OverflowHelper.core
 
             URL_Add("with", "https://en.wiktionary.org/wiki/with#Preposition");
 
-            URL_Add("MCVE", "https://stackoverflow.com/help/mcve");
+            URL_Add("MCVE", "https://stackoverflow.com/help/minimal-reproducible-example"); // Old: <https://stackoverflow.com/help/mcve>
 
             URL_Add("New-Variable", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/New-Variable");
 
@@ -31775,6 +31836,44 @@ namespace OverflowHelper.core
             URL_Add("hands-on", "https://en.wiktionary.org/wiki/hands-on#Adjective");
 
             URL_Add("lean", "https://en.wikipedia.org/wiki/Lean_thinking");
+
+            URL_Add("HDC", "https://en.wikipedia.org/wiki/Graphics_Device_Interface#Technical_details");
+
+            URL_Add("Kalman filter", "https://en.wikipedia.org/wiki/Kalman_filter");
+
+            URL_Add("coffee break", "https://en.wiktionary.org/wiki/coffee_break#Noun");
+
+            URL_Add("discrete cosine transform", "https://en.wikipedia.org/wiki/Discrete_cosine_transform");
+
+            URL_Add("first things first", "https://en.wiktionary.org/wiki/first_things_first#Phrase");
+
+            URL_Add("hoist", "https://en.wikipedia.org/wiki/JavaScript_syntax#Scoping_and_hoisting");
+
+            URL_Add("hoisting", "https://en.wikipedia.org/wiki/JavaScript_syntax#Scoping_and_hoisting");
+
+            URL_Add("inaccessible", "https://en.wiktionary.org/wiki/inaccessible#Adjective");
+
+            URL_Add("inexplicably", "https://en.wiktionary.org/wiki/inexplicably#Adverb");
+
+            URL_Add("jsdom", "https://github.com/jsdom/jsdom");
+
+            URL_Add("namespace", "https://en.wikipedia.org/wiki/Namespace");
+
+            URL_Add("on the fly", "https://en.wiktionary.org/wiki/on_the_fly#Adverb");
+
+            URL_Add("performed", "https://en.wiktionary.org/wiki/perform#Verb");
+
+            URL_Add("quadrant", "https://en.wikipedia.org/wiki/Quadrant_(plane_geometry)");
+
+            URL_Add("reassignment", "https://en.wiktionary.org/wiki/reassignment#Noun");
+
+            URL_Add("square one", "https://en.wiktionary.org/wiki/square_one#Noun");
+
+            URL_Add("subtlety", "https://en.wiktionary.org/wiki/subtlety#Noun");
+
+            URL_Add("undefined", "https://en.wiktionary.org/wiki/undefined#Adjective");
+
+            URL_Add("understanding", "https://en.wiktionary.org/wiki/understand#Verb");
 
 
 
