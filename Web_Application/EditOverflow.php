@@ -22,7 +22,17 @@
 
       We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
 
-        <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
+          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
+
+
+      Alternatively, use JavaScript (client-side) lookup:
+
+          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>
+
+          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>
+
+          Note: JavaScript must be allowed from pmortensen.eu for this to work!
+
 -->
 
 
