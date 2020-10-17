@@ -10137,10 +10137,6 @@ namespace OverflowHelper.core
             correctionAdd("retreive", "retrieve");
             correctionAdd("Retrive", "retrieve");
 
-            correctionAdd("ressource", "resource");
-            correctionAdd("recourse", "resource");
-            correctionAdd("resourse", "resource");
-
             correctionAdd("freertos", "FreeRTOS");
 
             correctionAdd("cortex-m", "Cortex-M");
@@ -11290,6 +11286,7 @@ namespace OverflowHelper.core
 
             correctionAdd("possbile", "possible");
             correctionAdd("posible", "possible");
+            correctionAdd("possiible", "possible");
 
             correctionAdd("programing", "programming");
 
@@ -14124,11 +14121,6 @@ namespace OverflowHelper.core
 
             correctionAdd("grate", "great");
 
-            correctionAdd("Open source", "open source");
-            correctionAdd("Open Source", "open source");
-            correctionAdd("OpenSource", "open source");
-            correctionAdd("opensource", "open source");
-
             correctionAdd("psedo", "pseudo");
             correctionAdd("psuedo", "pseudo");
 
@@ -14467,8 +14459,6 @@ namespace OverflowHelper.core
             correctionAdd("Preg_replace_callback", "preg_replace_callback");
 
             correctionAdd("programatic", "programmatic");
-
-            correctionAdd("scoure", "source");
 
             correctionAdd("Sprintf", "sprintf");
 
@@ -20820,6 +20810,20 @@ namespace OverflowHelper.core
             correctionAdd("undefied", "undefined");
 
             correctionAdd("understandig", "understanding");
+
+            correctionAdd("ressource", "resource");
+            correctionAdd("recourse", "resource");
+            correctionAdd("resourse", "resource");
+
+            correctionAdd("Open source", "open source");
+            correctionAdd("Open Source", "open source");
+            correctionAdd("OpenSource", "open source");
+            correctionAdd("opensource", "open source");
+
+            correctionAdd("scoure", "source");
+            correctionAdd("sorce", "source");
+
+            correctionAdd("verry", "very");
 
 
             // Start of coronavirus part...
@@ -31875,6 +31879,8 @@ namespace OverflowHelper.core
 
             URL_Add("understanding", "https://en.wiktionary.org/wiki/understand#Verb");
 
+            URL_Add("very", "https://en.wiktionary.org/wiki/very#Adverb");
+
 
 
             //========================================================
@@ -32808,11 +32814,33 @@ namespace OverflowHelper.core
 
             StringBuilder JavaScript_codeSB = new StringBuilder(capacity);
 
-            // Variable declaration (JavaScript)
-            JavaScript_codeSB.Append("// Data structure declarations\n");
-            JavaScript_codeSB.Append("let incorrect2correct = {};\n");
-            JavaScript_codeSB.Append("let correct2URL = {};\n\n\n\n");
+            // But using an alias anyway for most operations (as
+            // it is much shorter)
+            StringBuilder sb = JavaScript_codeSB;
 
+            // File header
+            sb.Append("// Wordlist for Edit Overflow, in JavaScript form\n");
+            sb.Append("//\n");
+            sb.Append("// Note: Automatically generated file (by the export\n");
+            sb.Append("//       function dumpWordList_asJavaScript() in C# \n");
+            sb.Append("//       code - e.g. through the command-line\n");
+            sb.Append("//       interface)\n\n\n");
+
+            // Variable declarations (JavaScript)
+            sb.Append("// Data structure declarations\n");
+            sb.Append("let incorrect2correct = {};\n");
+            sb.Append("let correct2URL = {};\n\n\n\n\n");
+
+            // Header for the list, with statistics
+            sb.Append("// The list... ");
+            sb.Append(incorrectWordEntries);
+            sb.Append(" incorrect words and ");
+            sb.Append(correctWordEntries);
+            sb.Append(" correct words.\n\n");
+
+
+            // The main side effect of exportWordlist() is the changing
+            // of the content of ref JavaScript_codeSB...
             string longestInCorrectTerm = "";
             string longestCorrectTerm = "";
             string longestURL = "";
@@ -32824,8 +32852,11 @@ namespace OverflowHelper.core
                            ref mCaseCorrection,
                            ref mWord2URL);
 
-            // The main side effect is the changing of the content
-            // of ref JavaScript_codeSB...
+            // For unit testing under Jest (which runs under Node.js)
+            sb.Append("\n\n\n\n");
+            sb.Append("// For JavaScript unit testing with Jest under Node.js to work...\n");
+            sb.Append("// It is harmless when used in a web browser context.\n");
+            sb.Append("module.exports = incorrect2correct;\n");
 
             return JavaScript_codeSB.ToString();
         } //dumpWordList_asJavaScript()
