@@ -6562,6 +6562,7 @@ namespace OverflowHelper.core
             correctionAdd("Operating system", "operating system");
             correctionAdd("operatating system", "operating system");
             correctionAdd("Operation System", "operating system");
+            correctionAdd("operting system", "operating system");
 
             correctionAdd("colo", "colocation centre");
 
@@ -17104,6 +17105,7 @@ namespace OverflowHelper.core
             correctionAdd("NO-GO", "no go");
 
             correctionAdd("suspecious", "suspicious");
+            correctionAdd("suspicous", "suspicious");
 
             correctionAdd("asia", "Asia");
 
@@ -19752,6 +19754,7 @@ namespace OverflowHelper.core
             correctionAdd("Yb", "ytterbium");
 
             correctionAdd("asian", "Asian");
+            correctionAdd("asain", "Asian");
 
             correctionAdd("nCrunch", "NCrunch");
 
@@ -20824,6 +20827,32 @@ namespace OverflowHelper.core
             correctionAdd("sorce", "source");
 
             correctionAdd("verry", "very");
+
+            correctionAdd("BABYLON", "Babylon");
+
+            correctionAdd("highlightjs", "Highlight.js");
+            correctionAdd("HighlightJS", "Highlight.js");
+            correctionAdd("highlight.js", "Highlight.js");
+
+            correctionAdd("nim", "Nim");
+
+            correctionAdd("SE Asia", "Southeast Asia");
+
+            correctionAdd("cross posted", "crossposted");
+
+            correctionAdd("dis-service", "disservice");
+
+            correctionAdd("epi-center", "epicenter");
+
+            correctionAdd("in-absentia", "in absentia");
+
+            correctionAdd("non-White", "nonwhite");
+
+            correctionAdd("over-simplify", "oversimplify");
+
+            correctionAdd("re-education", "reeducation");
+
+            correctionAdd("upside-down", "upside down");
 
 
             // Start of coronavirus part...
@@ -31880,6 +31909,30 @@ namespace OverflowHelper.core
             URL_Add("understanding", "https://en.wiktionary.org/wiki/understand#Verb");
 
             URL_Add("very", "https://en.wiktionary.org/wiki/very#Adverb");
+
+            URL_Add("Babylon", "https://en.wiktionary.org/wiki/Babylon#Proper_noun");
+
+            URL_Add("Highlight.js", "https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter");
+
+            URL_Add("Nim", "https://en.wikipedia.org/wiki/Nim_(programming_language)");
+
+            URL_Add("Southeast Asia", "https://en.wiktionary.org/wiki/Southeast_Asia#Proper_noun");
+
+            URL_Add("crossposted", "https://en.wiktionary.org/wiki/crosspost#Verb");
+
+            URL_Add("disservice", "https://en.wiktionary.org/wiki/disservice#Noun");
+
+            URL_Add("epicenter", "https://en.wiktionary.org/wiki/epicenter#Noun");
+
+            URL_Add("in absentia", "https://en.wiktionary.org/wiki/in_absentia#Prepositional_phrase");
+
+            URL_Add("nonwhite", "https://en.wiktionary.org/wiki/nonwhite#Adjective");
+
+            URL_Add("oversimplify", "https://en.wiktionary.org/wiki/oversimplify#Verb");
+
+            URL_Add("reeducation", "https://en.wiktionary.org/wiki/reeducation#Noun");
+
+            URL_Add("upside down", "https://en.wiktionary.org/wiki/upside_down#Adverb");
 
 
 
