@@ -3031,6 +3031,7 @@ namespace OverflowHelper.core
             correctionAdd("Stackover", "Stack&nbsp;Overflow");
             correctionAdd("Satckoverflow", "Stack&nbsp;Overflow");
             correctionAdd("stackvoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("So", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -5147,8 +5148,6 @@ namespace OverflowHelper.core
             correctionAdd("siss", "SSIS"); //Misspelling.
             correctionAdd("ssis", "SSIS");
 
-            correctionAdd("enterprise library", "Enterprise Library"); //Really "Microsoft Enterprise Library"
-
             correctionAdd("HyperV", "Hyper-V");
             correctionAdd("hyper-v", "Hyper-V");
             correctionAdd("hyperv", "Hyper-V");
@@ -6219,9 +6218,6 @@ namespace OverflowHelper.core
             correctionAdd("sqli", "MySQLi");
             correctionAdd("MYSQLi", "MySQLi");
             correctionAdd("MySqli", "MySQLi");
-
-            correctionAdd("GD", "GD Graphics Library");
-            correctionAdd("GD library", "GD Graphics Library");
 
             correctionAdd(".Net micro framework", ".NET Micro Framework");
             correctionAdd(".NET micro framework", ".NET Micro Framework");
@@ -10362,16 +10358,6 @@ namespace OverflowHelper.core
             correctionAdd("who's", "whose");
             correctionAdd("who’s", "whose");
 
-            correctionAdd("lib", "library");
-            correctionAdd("Lib", "library"); //Not 100% correct - casing.
-            correctionAdd("librairies", "library"); // Not 100% correct - plural
-            correctionAdd("libraties", "library"); // Not 100% correct - plural
-            correctionAdd("libary", "library");
-
-            correctionAdd("libs", "libraries");
-            correctionAdd("Libs", "libraries");
-            correctionAdd("libaries", "libraries");
-
             correctionAdd("webgl", "WebGL");
 
             correctionAdd("accidently", "accidentally");
@@ -12506,6 +12492,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Tera-term", "Tera Term");
             correctionAdd("teraterm", "Tera Term");
+            correctionAdd("tera term", "Tera Term");
 
             correctionAdd("visual studio professional", "Visual&nbsp;Studio Professional");
             correctionAdd("Visual Studio Professional", "Visual&nbsp;Studio Professional");
@@ -14276,6 +14263,8 @@ namespace OverflowHelper.core
             correctionAdd("ST Link", "ST-LINK");
             correctionAdd("st Link", "ST-LINK");
             correctionAdd("St Link", "ST-LINK");
+            correctionAdd("st-link", "ST-LINK");
+            correctionAdd("stlink", "ST-LINK");            
 
             correctionAdd("swagger", "Swagger");
 
@@ -15223,6 +15212,7 @@ namespace OverflowHelper.core
             correctionAdd("wuth", "with");
             correctionAdd("wit", "with");
             correctionAdd("wiht", "with");
+            correctionAdd("w/", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -18359,6 +18349,8 @@ namespace OverflowHelper.core
 
             correctionAdd("publically", "publicly");
             correctionAdd("pubically", "publicly");
+            correctionAdd("publicaly", "publicly");
+            correctionAdd("publictly", "publicly");
 
             correctionAdd("business insider", "Business Insider");
 
@@ -20633,6 +20625,7 @@ namespace OverflowHelper.core
             correctionAdd("narsissist", "narcissist");
 
             correctionAdd("staring", "starting");
+            correctionAdd("startign", "starting");
 
             correctionAdd("browserify", "Browserify");
 
@@ -20853,6 +20846,43 @@ namespace OverflowHelper.core
             correctionAdd("re-education", "reeducation");
 
             correctionAdd("upside-down", "upside down");
+
+            correctionAdd("enterprise library", "Enterprise Library"); //Really "Microsoft Enterprise Library"
+
+            correctionAdd("GD", "GD Graphics Library");
+            correctionAdd("GD library", "GD Graphics Library");
+
+            correctionAdd("lib", "library");
+            correctionAdd("Lib", "library"); //Not 100% correct - casing.
+            correctionAdd("librairies", "library"); // Not 100% correct - plural
+            correctionAdd("libraties", "library"); // Not 100% correct - plural
+            correctionAdd("libary", "library");
+            correctionAdd("libaray", "library");
+
+            correctionAdd("libs", "libraries");
+            correctionAdd("Libs", "libraries");
+            correctionAdd("libaries", "libraries");
+
+            correctionAdd("blue pill", "Blue Pill");
+            correctionAdd("blue-pill", "Blue Pill");
+
+            correctionAdd("NSA", "National Security Agency");
+
+            correctionAdd("adaper", "adapter");
+
+            correctionAdd("cowered", "coward");
+
+            correctionAdd("doe", "done");
+
+            correctionAdd("hearth", "heart");
+
+            correctionAdd("heart broken", "heartbroken");
+
+            correctionAdd("phase locked loop", "phase-locked loop");
+            correctionAdd("Phase Locked Loop", "phase-locked loop");
+            correctionAdd("PLL", "phase-locked loop");
+
+            correctionAdd("re-answer", "reanswering");
 
 
             // Start of coronavirus part...
@@ -31934,6 +31964,23 @@ namespace OverflowHelper.core
 
             URL_Add("upside down", "https://en.wiktionary.org/wiki/upside_down#Adverb");
 
+            URL_Add("Blue Pill", "https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html");
+
+            URL_Add("National Security Agency", "https://en.wikipedia.org/wiki/National_Security_Agency");
+
+            URL_Add("adapter", "https://en.wiktionary.org/wiki/adapter#Noun");
+
+            URL_Add("coward", "https://en.wiktionary.org/wiki/coward#Noun");
+
+            URL_Add("done", "https://en.wiktionary.org/wiki/do#Verb");
+
+            URL_Add("heart", "https://en.wiktionary.org/wiki/heart#Noun");
+
+            URL_Add("heartbroken", "https://en.wiktionary.org/wiki/heartbroken#Adjective");
+
+            URL_Add("phase-locked loop", "https://en.wikipedia.org/wiki/Phase-locked_loop");
+
+            URL_Add("reanswering", "https://en.wiktionary.org/wiki/reanswer#Verb");
 
 
             //========================================================
