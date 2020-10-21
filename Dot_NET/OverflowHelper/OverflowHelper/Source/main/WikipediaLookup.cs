@@ -12336,6 +12336,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stil", "still");
             correctionAdd("steal", "still");
+            correctionAdd("sitll", "still");
 
             correctionAdd("Godbolt", "Compiler Explorer");
             correctionAdd("godbolt", "Compiler Explorer");
@@ -19823,6 +19824,7 @@ namespace OverflowHelper.core
             correctionAdd("re-opening", "reopening");
 
             correctionAdd("NaCl", "sodium chloride");
+            correctionAdd("salt", "sodium chloride");
 
             correctionAdd("overide", "override");
             correctionAdd("Overide", "override");
@@ -20951,6 +20953,9 @@ namespace OverflowHelper.core
 
             correctionAdd("instable", "unstable");
 
+            correctionAdd("cheeper", "cheaper");
+
+            correctionAdd("cut lose", "cut loose");
 
 
             // Start of coronavirus part...
@@ -32093,6 +32098,10 @@ namespace OverflowHelper.core
             URL_Add("temperature", "https://en.wiktionary.org/wiki/temperature#Noun");
 
             URL_Add("unstable", "https://en.wiktionary.org/wiki/unstable#Adjective");
+
+            URL_Add("cheaper", "https://en.wiktionary.org/wiki/cheaper#Adjective");
+
+            URL_Add("cut loose", "https://en.wiktionary.org/wiki/cut_loose#Verb");
 
 
 
