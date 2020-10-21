@@ -5511,6 +5511,7 @@ namespace OverflowHelper.core
             correctionAdd("ForeignKey", "foreign key");
             correctionAdd("Foreign Key", "foreign key");
             correctionAdd("Foreign key", "foreign key");
+            correctionAdd("Fk", "foreign key");
 
             correctionAdd("PK", "primary key");
             correctionAdd("pK", "primary key");
@@ -7651,6 +7652,7 @@ namespace OverflowHelper.core
             correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
             correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
             correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
+            correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -9066,6 +9068,7 @@ namespace OverflowHelper.core
             correctionAdd("does'nt", "doesn’t");
             correctionAdd("Dosen't", "doesn’t");
             correctionAdd("doesn", "doesn’t");
+            correctionAdd("Doesnt", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -11543,6 +11546,7 @@ namespace OverflowHelper.core
             correctionAdd("tryed", "tried");
             correctionAdd("tryd", "tried");
             correctionAdd("trid", "tried");
+            correctionAdd("trieed", "tried");
 
             correctionAdd("justfied", "justified");
 
@@ -11770,6 +11774,8 @@ namespace OverflowHelper.core
 
             correctionAdd("RWD", "responsive web design");
             correctionAdd("responsive design", "responsive web design");
+            correctionAdd("Responsive web design", "responsive web design");
+            correctionAdd("Responsive design", "responsive web design");
 
             correctionAdd("themself", "themselves");
 
@@ -11931,6 +11937,7 @@ namespace OverflowHelper.core
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
+            correctionAdd("repetative", "repetitive");
 
             correctionAdd("sinewave", "sine wave");
 
@@ -14264,7 +14271,7 @@ namespace OverflowHelper.core
             correctionAdd("st Link", "ST-LINK");
             correctionAdd("St Link", "ST-LINK");
             correctionAdd("st-link", "ST-LINK");
-            correctionAdd("stlink", "ST-LINK");            
+            correctionAdd("stlink", "ST-LINK");
 
             correctionAdd("swagger", "Swagger");
 
@@ -14289,8 +14296,6 @@ namespace OverflowHelper.core
             correctionAdd("Prestashop", "PrestaShop");
 
             correctionAdd("typo3", "TYPO3");
-
-            correctionAdd("Extension Method", "extension method");
 
             correctionAdd("fav", "favourite");
 
@@ -17669,8 +17674,6 @@ namespace OverflowHelper.core
 
             correctionAdd("uninterupted", "uninterrupted");
 
-            correctionAdd("monte carlo", "Monte Carlo method");
-
             correctionAdd("viadeo", "Viadeo");
 
             correctionAdd("constrains", "constraints");
@@ -17968,8 +17971,6 @@ namespace OverflowHelper.core
 
             correctionAdd("manufacturered", "manufactured");
 
-            correctionAdd("mehtod", "method");
-
             correctionAdd("Middleware", "middleware");
 
             correctionAdd("superceeded", "superseded");
@@ -18147,11 +18148,6 @@ namespace OverflowHelper.core
             correctionAdd("florida", "Florida");
 
             correctionAdd("Avatar", "avatar");
-
-            correctionAdd("fem", "finite element method");
-            correctionAdd("FEM", "finite element method");
-            correctionAdd("Finite element analysis", "finite element method");
-            correctionAdd("finite element analysis", "finite element method");
 
             correctionAdd("The Philippines", "the Philippines");
 
@@ -18421,6 +18417,7 @@ namespace OverflowHelper.core
             correctionAdd("bee", "be");
 
             correctionAdd("opied", "copied");
+            correctionAdd("copyied", "copied");
 
             correctionAdd("procederal", "procedural");
 
@@ -18825,6 +18822,7 @@ namespace OverflowHelper.core
             correctionAdd("data stricture", "data structure");
 
             correctionAdd("hymen", "human");
+            correctionAdd("Human", "human");
 
             correctionAdd("K-Means", "k-means clustering");
 
@@ -19398,6 +19396,7 @@ namespace OverflowHelper.core
             correctionAdd("JSON.NET", "Json.NET");
 
             correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
 
             correctionAdd("obversely", "conversely");
             correctionAdd("Obversely", "conversely");
@@ -19563,6 +19562,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aarray", "array");
             correctionAdd("arrary", "array");
+            correctionAdd("arry", "array");
 
             correctionAdd("fire", "FIRE");
 
@@ -20867,6 +20867,7 @@ namespace OverflowHelper.core
             correctionAdd("blue-pill", "Blue Pill");
 
             correctionAdd("NSA", "National Security Agency");
+            correctionAdd("nsa", "National Security Agency");
 
             correctionAdd("adaper", "adapter");
 
@@ -20883,6 +20884,73 @@ namespace OverflowHelper.core
             correctionAdd("PLL", "phase-locked loop");
 
             correctionAdd("re-answer", "reanswering");
+
+            correctionAdd("fem", "finite element method");
+            correctionAdd("FEM", "finite element method");
+            correctionAdd("Finite element analysis", "finite element method");
+            correctionAdd("finite element analysis", "finite element method");
+
+            correctionAdd("Extension Method", "extension method");
+
+            correctionAdd("monte carlo", "Monte Carlo method");
+
+            correctionAdd("mehtod", "method");
+            correctionAdd("methood", "method");
+
+            correctionAdd("kafka", "Kafka");
+            correctionAdd("kafa", "Kafka");
+
+            correctionAdd("OpenBox", "Openbox");
+            correctionAdd("openbox", "Openbox");
+
+            correctionAdd("pentadactyl", "Pentadactyl");
+
+            correctionAdd("vimgolf", "VimGolf");
+
+            correctionAdd("hell of", "a hell of");
+
+            correctionAdd("hell lot of", "a hell of a lot of");
+
+            correctionAdd("brane", "brain");
+
+            correctionAdd("brake bread", "break bread");
+
+            correctionAdd("Chemistry", "chemistry");
+
+            correctionAdd("emisionem", "emission");
+            correctionAdd("emmision", "emission");
+
+            correctionAdd("Joule", "joule");
+
+            correctionAdd("non-english", "non-English");
+
+            correctionAdd("Observer Pattern", "observer pattern");
+
+            correctionAdd("rase", "raise");
+
+            correctionAdd("rases", "raises");
+
+            correctionAdd("relevence", "relevance");
+            correctionAdd("Relivence", "relevance");
+            correctionAdd("relivence", "relevance");            
+
+            correctionAdd("Renewable energy", "renewable energy");
+
+            correctionAdd("same origin policy", "same-origin policy");
+            correctionAdd("Same Origin Policy", "same-origin policy");
+
+            correctionAdd("2nd law of Thermodynamics", "second law of thermodynamics");
+
+            correctionAdd("Semantic Versioning", "semantic versioning");
+            correctionAdd("semver", "semantic versioning");
+            correctionAdd("SemVer", "semantic versioning");
+
+            correctionAdd("temerature", "temperature");
+            correctionAdd("temperture", "temperature");
+            correctionAdd("tempertaure", "temperature");
+
+            correctionAdd("instable", "unstable");
+
 
 
             // Start of coronavirus part...
@@ -31981,6 +32049,51 @@ namespace OverflowHelper.core
             URL_Add("phase-locked loop", "https://en.wikipedia.org/wiki/Phase-locked_loop");
 
             URL_Add("reanswering", "https://en.wiktionary.org/wiki/reanswer#Verb");
+
+            URL_Add("Kafka", "https://en.wikipedia.org/wiki/Apache_Kafka");
+
+            URL_Add("Openbox", "https://en.wikipedia.org/wiki/Openbox");
+
+            URL_Add("Pentadactyl", "https://en.wikipedia.org/wiki/Pentadactyl");
+
+            URL_Add("VimGolf", "http://www.vimgolf.com/");
+
+            URL_Add("a hell of", "https://en.wiktionary.org/wiki/hell_of_a#Adjective");
+
+            URL_Add("a hell of a lot of", "https://idioms.thefreedictionary.com/a+hell+of+a+lot+of");
+
+            URL_Add("brain", "https://en.wiktionary.org/wiki/brain#Noun");
+
+            URL_Add("break bread", "https://en.wiktionary.org/wiki/break_bread#Verb");
+
+            URL_Add("chemistry", "https://en.wikipedia.org/wiki/Chemistry");
+
+            URL_Add("emission", "https://en.wiktionary.org/wiki/emission#Noun");
+
+            URL_Add("joule", "https://en.wikipedia.org/wiki/Joule");
+
+            URL_Add("non-English", "https://en.wiktionary.org/wiki/non-English#Noun");
+
+            URL_Add("observer pattern", "https://en.wikipedia.org/wiki/Observer_pattern");
+
+            URL_Add("raise", "https://en.wiktionary.org/wiki/raise#Verb");
+
+            URL_Add("raises", "https://en.wiktionary.org/wiki/raise#Verb");
+
+            URL_Add("relevance", "https://en.wiktionary.org/wiki/relevance#Noun");
+
+            URL_Add("renewable energy", "https://en.wikipedia.org/wiki/Renewable_energy");
+
+            URL_Add("same-origin policy", "https://en.wikipedia.org/wiki/Same-origin_policy");
+
+            URL_Add("second law of thermodynamics", "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics");
+
+            URL_Add("semantic versioning", "https://semver.org/");
+
+            URL_Add("temperature", "https://en.wiktionary.org/wiki/temperature#Noun");
+
+            URL_Add("unstable", "https://en.wiktionary.org/wiki/unstable#Adjective");
+
 
 
             //========================================================
