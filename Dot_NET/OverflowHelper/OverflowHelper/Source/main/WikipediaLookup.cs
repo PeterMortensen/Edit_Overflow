@@ -9128,6 +9128,7 @@ namespace OverflowHelper.core
 
             correctionAdd("autuomn", "autumn");
             correctionAdd("Autumn", "autumn");
+            correctionAdd("autum", "autumn");
 
             correctionAdd("accomodate", "accommodate");
 
@@ -18831,6 +18832,7 @@ namespace OverflowHelper.core
 
             correctionAdd("AWS amplify", "AWS Amplify");
             correctionAdd("aws-amplify", "AWS Amplify");
+            correctionAdd("Amplify", "AWS Amplify");
 
             correctionAdd("test flight", "TestFlight");
             correctionAdd("Testflight", "TestFlight");
@@ -19148,6 +19150,7 @@ namespace OverflowHelper.core
             correctionAdd("Software Engineering", "software engineering");
 
             correctionAdd("tradeoff", "trade-off");
+            correctionAdd("trade off", "trade-off");
 
             correctionAdd("watc", "watch");
 
@@ -20934,7 +20937,7 @@ namespace OverflowHelper.core
 
             correctionAdd("relevence", "relevance");
             correctionAdd("Relivence", "relevance");
-            correctionAdd("relivence", "relevance");            
+            correctionAdd("relivence", "relevance");
 
             correctionAdd("Renewable energy", "renewable energy");
 
@@ -20956,6 +20959,18 @@ namespace OverflowHelper.core
             correctionAdd("cheeper", "cheaper");
 
             correctionAdd("cut lose", "cut loose");
+
+            correctionAdd("emmet", "Emmet");
+
+            correctionAdd("parcel", "Parcel");
+
+            correctionAdd("saturn", "Saturn");
+
+            correctionAdd("glysine", "glycine");
+
+            correctionAdd("jelly bean", "jellybean");
+
+            correctionAdd("leaning", "learning");
 
 
             // Start of coronavirus part...
@@ -32102,6 +32117,18 @@ namespace OverflowHelper.core
             URL_Add("cheaper", "https://en.wiktionary.org/wiki/cheaper#Adjective");
 
             URL_Add("cut loose", "https://en.wiktionary.org/wiki/cut_loose#Verb");
+
+            URL_Add("Emmet", "https://en.wikipedia.org/wiki/Emmet_(software)");
+
+            URL_Add("Parcel", "https://hungryturtlecode.com/tutorials/parcel-bundler/");
+
+            URL_Add("Saturn", "https://en.wikipedia.org/wiki/Saturn");
+
+            URL_Add("glycine", "https://en.wikipedia.org/wiki/Glycine");
+
+            URL_Add("jellybean", "https://en.wiktionary.org/wiki/jellybean#Adjective");
+
+            URL_Add("learning", "https://en.wiktionary.org/wiki/learn#Verb");
 
 
 
