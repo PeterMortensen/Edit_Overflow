@@ -9725,6 +9725,7 @@ namespace OverflowHelper.core
             correctionAdd("hierachy", "hierarchy");
             correctionAdd("hireachy", "hierarchy");
             correctionAdd("hiareachy", "hierarchy");
+            correctionAdd("hierchy", "hierarchy");
 
             correctionAdd("netduiono", "Netduino");
 
@@ -18512,6 +18513,7 @@ namespace OverflowHelper.core
             correctionAdd("totaly", "totally");
             correctionAdd("tottaly", "totally");
             correctionAdd("tottally", "totally");
+            correctionAdd("totaaly", "totally");
 
             correctionAdd("trafic", "traffic");
 
@@ -20039,6 +20041,7 @@ namespace OverflowHelper.core
             correctionAdd("possesive", "possessive");
 
             correctionAdd("commen", "common");
+            correctionAdd("commone", "common");
 
             correctionAdd("musle", "muscle");
 
@@ -20971,6 +20974,18 @@ namespace OverflowHelper.core
             correctionAdd("jelly bean", "jellybean");
 
             correctionAdd("leaning", "learning");
+
+            correctionAdd("3g", "3G");
+
+            correctionAdd("itil", "ITIL");
+
+            correctionAdd("achievment", "achievement");
+
+            correctionAdd("bad-blood", "bad blood");
+
+            correctionAdd("dicussion", "discussion");
+
+            correctionAdd("right hand", "right-hand");
 
 
             // Start of coronavirus part...
@@ -32129,6 +32144,18 @@ namespace OverflowHelper.core
             URL_Add("jellybean", "https://en.wiktionary.org/wiki/jellybean#Adjective");
 
             URL_Add("learning", "https://en.wiktionary.org/wiki/learn#Verb");
+
+            URL_Add("3G", "https://en.wikipedia.org/wiki/3G");
+
+            URL_Add("ITIL", "https://en.wikipedia.org/wiki/ITIL");
+
+            URL_Add("achievement", "https://en.wiktionary.org/wiki/achievement#Noun");
+
+            URL_Add("bad blood", "https://en.wiktionary.org/wiki/bad_blood#Noun");
+
+            URL_Add("discussion", "https://en.wiktionary.org/wiki/discussion#Noun");
+
+            URL_Add("right-hand", "https://en.wiktionary.org/wiki/right-hand#Adjective");
 
 
 
