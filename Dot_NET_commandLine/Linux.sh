@@ -67,6 +67,7 @@ export EFFECTIVE_DATE='2020-06-03'
 export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
 export EFFECTIVE_DATE='2020-09-29'
+export EFFECTIVE_DATE='2020-10-24'
 
 
 # To make the unit test run ***itself*** succeed when we
@@ -139,6 +140,7 @@ export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
 export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
 
 
+#export FTP_SITE_URL='ftp://linux42.simplyZZZZZZZ.com' # Poor man's dry run
 export FTP_SITE_URL='ftp://linux42.simply.com'
 
 
@@ -182,7 +184,7 @@ cp ${FILE_WITH_MAIN_ENTRY}                      $WORKFOLDER/${FILE_WITH_MAIN_ENT
 cp EditOverflow3.csproj                         $WORKFOLDER
 cp EditOverflow3_UnitTests.csproj               $WORKFOLDER
 
-cp $SRCFOLDER_CORE/WikipediaLookup.cs           $WORKFOLDER
+cp $SRCFOLDER_CORE/TermLookup.cs                $WORKFOLDER
 cp $SRCFOLDER_CORE/HTML_builder.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/CodeFormattingCheck.cs       $WORKFOLDER
 cp $SRCFOLDER_CORE/LookUpString.cs              $WORKFOLDER
@@ -305,7 +307,7 @@ dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASC
 # In the work folder
 cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
 
-# Temporary: Copy the word list in JavaScript to a source folder (for 
+# Temporary: Copy the word list in JavaScript to a source folder (for
 #            unit testing - the next step).
 #
 #            It is not necessary if we use a build folder (it is
