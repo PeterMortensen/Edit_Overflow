@@ -199,7 +199,9 @@ namespace OverflowHelper.core
 
 
             //****************************************************************************
-            //*    Note: input is a key, not an actual value                             *
+            //*                                                                          *
+            //*    Note: The input is keys, not an actual values                         *
+            //*                                                                          *
             //****************************************************************************
             public int Compare(int aItem1, int aItem2)
             {
@@ -274,7 +276,6 @@ namespace OverflowHelper.core
 
 
         } // private class SortByCorrectThenIncorrect_usingIndex
-
 
 
         /***************************************************************************
