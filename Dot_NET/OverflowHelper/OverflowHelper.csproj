@@ -191,13 +191,13 @@
     <Compile Include="OverflowHelper\Source\main\LookUpString.cs" />
     <Compile Include="OverflowHelper\Source\main\Sites.cs" />
     <Compile Include="OverflowHelper\Source\main\StringReplacerWithRegex.cs" />
+    <Compile Include="OverflowHelper\Source\main\TermLookup.cs" />
     <Compile Include="OverflowHelper\Source\main\Tokeniser.cs" />
     <Compile Include="OverflowHelper\Source\main\Utility.cs" />
     <Compile Include="OverflowHelper\Source\main\WordCorrector.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\Clipboard.cs" />
     <Compile Include="OverflowHelper\Source\main\network.cs" />
     <Compile Include="OverflowHelper\Source\main\Program.cs" />
-    <Compile Include="OverflowHelper\Source\main\WikipediaLookup.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverflowApplication.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\EditorOverflowApplication_Windows.cs" />
     <Compile Include="OverflowHelper\Source\platFormSpecific\timing.cs" />
