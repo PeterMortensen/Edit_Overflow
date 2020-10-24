@@ -10308,6 +10308,7 @@ namespace OverflowHelper.core
             correctionAdd("redicoulush", "ridiculous");
             correctionAdd("Redicoulus", "ridiculous");
             correctionAdd("redicoulus", "ridiculous");
+            correctionAdd("redicuous", "ridiculous");
 
             correctionAdd("actaully", "actually");
             correctionAdd("actualy", "actually");
@@ -10867,7 +10868,8 @@ namespace OverflowHelper.core
 
             correctionAdd("before hand", "beforehand");
 
-            correctionAdd("behavoir", "behavior");
+            correctionAdd("behavoir", "behaviour");
+            correctionAdd("behavior", "behaviour");
 
             correctionAdd("bellow", "below");
             correctionAdd("bewlow", "below");
@@ -20528,6 +20530,7 @@ namespace OverflowHelper.core
             correctionAdd("sulphoric acid", "sulphuric acid");
 
             correctionAdd("Vitamin D", "vitamin D");
+            correctionAdd("vitamin d", "vitamin D");
 
             correctionAdd("2n2222", "2N2222");
 
@@ -20988,6 +20991,16 @@ namespace OverflowHelper.core
 
             correctionAdd("right hand", "right-hand");
 
+            correctionAdd("astma", "asthma");
+
+            correctionAdd("brad", "broad");
+
+            correctionAdd("comorbidites", "comorbidities");
+
+            correctionAdd("comorbiditi", "comorbidity");
+
+            correctionAdd("ion", "eon");
+
 
             // Start of coronavirus part...
 
@@ -21039,6 +21052,7 @@ namespace OverflowHelper.core
             correctionAdd("COVID", "COVID-19");
             correctionAdd("Covid", "COVID-19");
             correctionAdd("19", "COVID-19");
+            correctionAdd("COVID9", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -24749,7 +24763,7 @@ namespace OverflowHelper.core
 
             URL_Add("beforehand", "https://en.wiktionary.org/wiki/beforehand#Adverb");
 
-            URL_Add("behavior", "https://en.wiktionary.org/wiki/behavior#Noun");
+            URL_Add("behaviour", "https://en.wiktionary.org/wiki/behaviour#Noun");
 
             URL_Add("below", "https://en.wiktionary.org/wiki/below#Preposition");
 
@@ -32157,6 +32171,16 @@ namespace OverflowHelper.core
             URL_Add("discussion", "https://en.wiktionary.org/wiki/discussion#Noun");
 
             URL_Add("right-hand", "https://en.wiktionary.org/wiki/right-hand#Adjective");
+
+            URL_Add("asthma", "https://en.wikipedia.org/wiki/Asthma");
+
+            URL_Add("broad", "https://en.wiktionary.org/wiki/broad#Adjective");
+
+            URL_Add("comorbidities", "https://en.wiktionary.org/wiki/comorbidity#Noun");
+
+            URL_Add("comorbidity", "https://en.wiktionary.org/wiki/comorbidity#Noun");
+
+            URL_Add("eon", "https://en.wiktionary.org/wiki/eon#Noun");
 
 
 
