@@ -185,6 +185,7 @@ cp EditOverflow3.csproj                         $WORKFOLDER
 cp EditOverflow3_UnitTests.csproj               $WORKFOLDER
 
 cp $SRCFOLDER_CORE/TermLookup.cs                $WORKFOLDER
+cp $SRCFOLDER_CORE/TermData.cs                  $WORKFOLDER
 cp $SRCFOLDER_CORE/HTML_builder.cs              $WORKFOLDER
 cp $SRCFOLDER_CORE/CodeFormattingCheck.cs       $WORKFOLDER
 cp $SRCFOLDER_CORE/LookUpString.cs              $WORKFOLDER
@@ -282,6 +283,12 @@ echo
 export WORDLIST_OUTPUTTYPE=SQL
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
 
+echo
+pwd
+echo
+ls -ls $SQL_FILE
+
+
 #exit   # Active: Test only!!!!!!!!!
 
 
@@ -294,6 +301,9 @@ export WORDLIST_OUTPUTTYPE=HTML
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
+
+echo
+ls -ls $HTML_FILE_GENERIC
 
 
 # Some redundancy here - to be eliminated
@@ -314,6 +324,9 @@ cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
 #            already generated there)
 #
 cp  $JAVASCRIPT_FILE_GENERIC  $WEBFOLDER
+
+echo
+ls -ls $JAVASCRIPT_FILE_GENERIC
 
 
 echo
