@@ -8,7 +8,7 @@
     #
     #   1. The YouTube convert (that uses a separate
     #      PHP class in another file) had a lot of
-    #      warning lines. This turned out to be genuine
+    #      warning lines. This turned out to be a genuine
     #      bug - the WordPress include had a configuration
     #      that turned on debugging and surfaced the error.
     #
@@ -179,7 +179,8 @@
 
 
             # $aLengthDiff is old minus new (so it is ***positive***
-            # if the new string is ***shorter***).
+            # if the new string is ***shorter*** - the most common
+            # case in this context (this file)).
             #
             function assert_strLengths($ID, $aOrigText, $aNewText, $aLengthDiff)
             {
@@ -434,11 +435,16 @@
 
             test_transformFor_YouTubeComments(1019, "Which is 1.7 V higher.", 0);
 
-            // Happens to be 0 as the expanded two dots correspond
-            // to the removed "https://".
+            // Test of not expanding the full stop in file extensions
+            //
+            // Note: It happens to be 0 for the domain names with three
+            //       parts because the expanded two dots correspond
+            //       to the removed "https://".
+            //
             test_transformFor_YouTubeComments(1020, "https://www.tutorialspoint.com/design_pattern/filter_pattern.htm", 0);
             test_transformFor_YouTubeComments(1021, "https://en.wiktionary.org/wiki/File:en-us-tear-verb.ogg", 0);
             test_transformFor_YouTubeComments(1022, "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript", 4);
+            test_transformFor_YouTubeComments(1023, "https://www.dotnetrocks.com/default.aspx?ShowNum=1636", 0);
 
 
 
