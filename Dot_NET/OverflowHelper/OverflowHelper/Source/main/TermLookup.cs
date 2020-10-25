@@ -1,7 +1,7 @@
 ﻿/***************************************************************************
-* Copyright (C) 2010 Peter Mortensen                                       *
-* This file is part of Overflow Helper.                                    *
+* Copyright (C) 2020 Peter Mortensen                                       *
 *                                                                          *
+* This file is part of Edit Overflow.                                      *
 *                                                                          *
 * Purpose: Cached lookup in Wikipedia, Wiktionary, and other places (by    *
 *          2020 the number of new JavaScript libearies has grown so        *
@@ -10,7 +10,7 @@
 *          GitHub repository).                                             *
 *                                                                          *
 *          Opening a simple Wikipedia or Wiktionary page can be            *
-*          slow. 2020-10-25T002040Z+0: 5.6 seconds                         *
+*          slow. 2020-10-25T002040Z+0: 5.6 seconds in an 4G connection     *
 *                                                                          *
 *                                                                          *
 *          E.g. "JavaScript" will return the URL                           *
@@ -18,10 +18,12 @@
 *          cached so it is much faster than going through Google and       *
 *          Wikipedia every time. This typically takes 7 seconds (at        *
 *          least on a 3G Internet connection).                             *
-*                                                                          *
-*                                                                          *
-* Yes, most of the content in this file ought to be in a data file.        *
-*                                                                          *
+* 
+* Note:
+* 
+*    "term" here means XXXX
+* 
+* 
 *                                                                          *
 ****************************************************************************/
 
@@ -137,6 +139,13 @@ namespace OverflowHelper.core
             //    //  f64                    null
             //    //  processorArchitecture  "AMD64"
             //}
+
+
+            //For now (for testing - e.g. the Linux build should initially 
+            //fail): Create a dependency to the new class 
+            //
+            TermData someTermData = new TermData();
+
 
             mCaseCorrection = new Dictionary<string, string>();
             mCaseCorrection_Reverse = new Dictionary<string, string>();
