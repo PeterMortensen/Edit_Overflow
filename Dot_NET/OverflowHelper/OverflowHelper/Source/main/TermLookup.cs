@@ -154,6 +154,46 @@ namespace OverflowHelper.core
         } //Constructor
 
 
+        /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        public string lookUp(
+            string aQueryStr,
+            bool aGuessURLifFailedLookup,
+            out string anOutCorrectedWOrd)
+        {
+            string toReturn = ""; //Default: value indicating failure.
+
+            string corrStr;
+            if (mCaseCorrection.TryGetValue(aQueryStr, out corrStr))
+            {
+                Utility.debuggerRest(); //Found case correction!
+            }
+            else
+            {
+                corrStr = aQueryStr;
+            }
+
+            //Even if there is no case correction it may already be the correct case!
+            anOutCorrectedWOrd = corrStr;
+            string URLStr;
+            if (mWord2URL.TryGetValue(corrStr, out URLStr))
+            {
+                toReturn = URLStr; //We have a match!
+            }
+
+            //If lookup failed then we will guess the Wikipedia URL (if allowed to do so).
+            if (toReturn.Length == 0)
+            {
+                if (aGuessURLifFailedLookup)
+                {
+                    toReturn = "https://en.wikipedia.org/wiki/" + aQueryStr;
+                }
+            }
+            return toReturn;
+        } //lookUp()
+
+
         // *************************************************************************
         // *  CLASS NAME:   SortBySequenceThenScore_usingIndex                     *
         // *                                                                       *
@@ -319,46 +359,6 @@ namespace OverflowHelper.core
                    aCorrectedTerm +
                    "' (URL is '" + aURL + "').";
         }
-
-
-        /****************************************************************************
-         *    <placeholder for header>                                              *
-         ****************************************************************************/
-        public string lookUp(
-            string aQueryStr,
-            bool aGuessURLifFailedLookup,
-            out string anOutCorrectedWOrd)
-        {
-            string toReturn = ""; //Default: value indicating failure.
-
-            string corrStr;
-            if (mCaseCorrection.TryGetValue(aQueryStr, out corrStr))
-            {
-                Utility.debuggerRest(); //Found case correction!
-            }
-            else
-            {
-                corrStr = aQueryStr;
-            }
-
-            //Even if there is no case correction it may already be the correct case!
-            anOutCorrectedWOrd = corrStr;
-            string URLStr;
-            if (mWord2URL.TryGetValue(corrStr, out URLStr))
-            {
-                toReturn = URLStr; //We have a match!
-            }
-
-            //If lookup failed then we will guess the Wikipedia URL (if allowed to do so).
-            if (toReturn.Length == 0)
-            {
-                if (aGuessURLifFailedLookup)
-                {
-                    toReturn = "https://en.wikipedia.org/wiki/" + aQueryStr;
-                }
-            }
-            return toReturn;
-        } //lookUp()
 
 
         /****************************************************************************
@@ -784,7 +784,7 @@ namespace OverflowHelper.core
          *  Add:  T h e   s t a r t   o f   t h e   H T M L   d o c u m e n t       *
          *                                                                          *
          ****************************************************************************/
-        public static void startOfHTML_document(
+        private static void startOfHTML_document(
             ref HTML_builder aInOutBuilder,
             string aTitle,
             string aLongestInCorrectTerm,
@@ -917,7 +917,7 @@ namespace OverflowHelper.core
          *  Add:  T h e   s t a r t   o f   t h e   H T M L   d o c u m e n t       *
          *                                                                          *
          ****************************************************************************/
-        public static void startOfHTML_Table(ref HTML_builder aInOutBuilder)
+        private static void startOfHTML_Table(ref HTML_builder aInOutBuilder)
         {
             //// Start of table, incl. table headers
             aInOutBuilder.startTagWithEmptyLine("table");
@@ -938,7 +938,7 @@ namespace OverflowHelper.core
          *  Add:  T h e   e n d   o f   t h e   H T M L   d o c u m e n t           *
          *                                                                          *
          ****************************************************************************/
-        public static void endOfHTML_document(ref HTML_builder aInOutBuilder,
+        private static void endOfHTML_document(ref HTML_builder aInOutBuilder,
                                               string aCodeCheck_regularExpression,
                                               string aDateStr)
         {
@@ -1069,8 +1069,14 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *    Note: Parameter "aCodeCheck_regularExpression" does not do            *
+         *    Notes:                                                                *
+         *                                                                          *
+         *      1. Parameter "aCodeCheck_regularExpression" does not do             *
          *          anything - it is for output (in the HTML content).              *
+         *                                                                          *
+         *      2. This function is only used by some regression tests              *
+         *         to get a stable output (independent of the ever                  *
+         *         growing word list).                                              *
          *                                                                          *
          ****************************************************************************/
         public static string dumpWordList_asHTML(
