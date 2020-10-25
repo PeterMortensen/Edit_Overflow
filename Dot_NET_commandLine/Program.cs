@@ -58,7 +58,7 @@ namespace EditOverflow2
 
                 // This will result in running the ***first*** level of
                 // integrity testing for the word list data
-                WikipediaLookup someWikipediaLookup = new WikipediaLookup();
+                TermLookup someTermLookup = new TermLookup();
 
                 switch (outputType)
                 {
@@ -70,7 +70,7 @@ namespace EditOverflow2
                         // running ***more*** rigorous integrity
                         // testing for the word list data.
 
-                        toOutput = someWikipediaLookup.dumpWordList_asSQL();
+                        toOutput = someTermLookup.dumpWordList_asSQL();
                         break;
 
                     case "HTML":
@@ -78,7 +78,7 @@ namespace EditOverflow2
                         // integrity testing for the word list data
 
 
-                        //toOutput = someWikipediaLookup.dumpWordList_asHTML(
+                        //toOutput = someTermLookup.dumpWordList_asHTML(
                         //
                         //               // Fixed strings - sufficient for integrity testing
                         //               // of the word list data
@@ -87,7 +87,7 @@ namespace EditOverflow2
                         //               "some version thingie",
                         //               "some date only string");
 
-                        toOutput = someWikipediaLookup.dumpWordList_asHTML(
+                        toOutput = someTermLookup.dumpWordList_asHTML(
 
                                        cfCheck.combinedAllOfRegularExpressions(),
                                        app.fullVersionStr(),
@@ -97,7 +97,7 @@ namespace EditOverflow2
 
                     case "JavaScript":
 
-                        toOutput = someWikipediaLookup.dumpWordList_asJavaScript();
+                        toOutput = someTermLookup.dumpWordList_asJavaScript();
                         break;
 
                    default:

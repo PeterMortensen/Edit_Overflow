@@ -3,11 +3,21 @@
 * This file is part of Overflow Helper.                                    *
 *                                                                          *
 *                                                                          *
-* Purpose: cached lookup in Wikipedia. E.g. "JavaScript" will return       *
-*          the URL <https://en.wikipedia.org/wiki/JavaScript>. The         *
-*          lookups are cached so it is much faster than going              *
-*          through Google and Wikipedia every time. This typically         *
-*          takes 7 seconds (at least on a 3G Internet connection).         *
+* Purpose: Cached lookup in Wikipedia, Wiktionary, and other places (by    *
+*          2020 the number of new JavaScript libearies has grown so        *
+*          insane that even Wikiepdia can't keep up and in some cases      *
+*          there is only an illdefined README file in some obscure         *
+*          GitHub repository).                                             *
+*                                                                          *
+*          Opening a simple Wikipedia or Wiktionary page can be            *
+*          slow. 2020-10-25T002040Z+0: 5.6 seconds                         *
+*                                                                          *
+*                                                                          *
+*          E.g. "JavaScript" will return the URL                           *
+*          <https://en.wikipedia.org/wiki/JavaScript>. The lookups are     *
+*          cached so it is much faster than going through Google and       *
+*          Wikipedia every time. This typically takes 7 seconds (at        *
+*          least on a 3G Internet connection).                             *
 *                                                                          *
 *                                                                          *
 * Yes, most of the content in this file ought to be in a data file.        *
@@ -55,7 +65,7 @@ namespace OverflowHelper.core
     /****************************************************************************
      *    <placeholder for header>                                              *
      ****************************************************************************/
-    public class WikipediaLookup
+    public class TermLookup
     {
         public const string kCodeQuoteStr = "`";
 
@@ -72,7 +82,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    Constructor                                                           *
          ****************************************************************************/
-        public WikipediaLookup()
+        public TermLookup()
         {
             //Why do we have this here?? It is not used and not available
             //on Linux... Should we delete it?
@@ -32835,8 +32845,8 @@ namespace OverflowHelper.core
 
                 aInOutBuilder.smallTextItemWithSpacing(
                   "Code quotes",
-                  WikipediaLookup.kCodeQuoteStr +
-                    WikipediaLookup.kCodeQuoteStr) +
+                  TermLookup.kCodeQuoteStr +
+                    TermLookup.kCodeQuoteStr) +
 
                 aInOutBuilder.smallTextItemWithSpacing(
                   "Keyboard", "&lt;kbd>&lt;/kbd>") +
@@ -33163,7 +33173,7 @@ namespace OverflowHelper.core
         } //dumpWordList_asJavaScript()
 
 
-    } //class WikipediaLookup
+    } //class TermLookup
 
 
 } //namespace OverflowHelper.core
