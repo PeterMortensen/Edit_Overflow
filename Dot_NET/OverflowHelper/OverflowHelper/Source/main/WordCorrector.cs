@@ -71,7 +71,7 @@ namespace OverflowHelper.core
 
         private CheckinMessageBuilder mCheckinMessageBuilder;
 
-        private WikipediaLookup mWikipediaLookup;
+        private TermLookup mTermLookup;
 
 
         /****************************************************************************
@@ -81,7 +81,7 @@ namespace OverflowHelper.core
         {
             try
             {
-                mWikipediaLookup = new WikipediaLookup();
+                mTermLookup = new TermLookup();
 
                 mEditSummaryStyle = new EditSummaryStyle();
             }
@@ -93,7 +93,7 @@ namespace OverflowHelper.core
                 //
                 //Use something else than speech to get attention.
                 //string msg =
-                //    "Crash in constructor of WikipediaLookup (or some other)";
+                //    "Crash in constructor of TermLookup (or some other)";
                 //
                 //What should we do?
                 //System.Windows.Forms.MessageBox.Show(msg);
@@ -136,7 +136,7 @@ namespace OverflowHelper.core
             //Note about the variable name: It is not always
             //a Wikipedia URL... Some are for Wiktionary, MSDN, etc.
             toReturn.WikipediaURL =
-                mWikipediaLookup.lookUp(
+                mTermLookup.lookUp(
                     toReturn.coreString,
                     aGuessURL_ifFailedLookup,
                     out correctedWord);
@@ -192,9 +192,9 @@ namespace OverflowHelper.core
          *  the Windows GUI (adaption)                                              *
          *                                                                          *
          ****************************************************************************/
-        public WikipediaLookup getWikipediaLookup()
+        public TermLookup getWikipediaLookup()
         {
-            return mWikipediaLookup;
+            return mTermLookup;
         }
 
 
