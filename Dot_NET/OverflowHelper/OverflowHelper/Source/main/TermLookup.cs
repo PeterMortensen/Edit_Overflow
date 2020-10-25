@@ -104,7 +104,6 @@ namespace OverflowHelper.core
 
 
 
-
             //This is dependent on "x86", "x64" and "Any CPU":
             //
             //  On 64-bit Windows:
@@ -113,25 +112,31 @@ namespace OverflowHelper.core
             //    "Any CPU":  "C:\\Program Files"
             //
             //
+            //Is this meaningful on Linux???? 
             string folderStr =
                 System.Environment.GetFolderPath(System.Environment.SpecialFolder.ProgramFiles);
 
-            if (true)
-            {
-                //Testing Stack Overflow question, "Refer to 'Program Files' on a 64-bit machine"
-                //  http://stackoverflow.com/questions/1454094/refer-program-files-in-a-64-bit-machine
-
-                string f32 = System.Environment.GetEnvironmentVariable("ProgramFiles");
-                string f64 = System.Environment.GetEnvironmentVariable("ProgramW6432");
-
-                string processorArchitecture =
-                    System.Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE");
-
-                //Result on 2013-03-21.
-                //  f32                    "C:\\Program Files"
-                //  f64                    null
-                //  processorArchitecture  "AMD64"
-            }
+            //Windows specific. Do we need to keep it? What is the result 
+            //on Linux?
+            //
+            //if (true)
+            //{
+            //    //Testing Stack Overflow question, "Refer to 'Program Files' 
+            //    //on a 64-bit machine"
+            //    //  <http://stackoverflow.com/questions/1454094/refer-program-files-in-a-64-bit-machine>
+            //
+            //    string f32 = System.Environment.GetEnvironmentVariable("ProgramFiles");
+            //    string f64 = System.Environment.GetEnvironmentVariable("ProgramW6432");
+            //
+            //    // 
+            //    string processorArchitecture =
+            //        System.Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE");
+            //
+            //    //Result on 2013-03-21.
+            //    //  f32                    "C:\\Program Files"
+            //    //  f64                    null
+            //    //  processorArchitecture  "AMD64"
+            //}
 
             mCaseCorrection = new Dictionary<string, string>();
             mCaseCorrection_Reverse = new Dictionary<string, string>();
@@ -159,7 +164,6 @@ namespace OverflowHelper.core
         private class SortByCorrectThenIncorrect_usingIndex :
           System.Collections.Generic.IComparer<int>
         {
-
             private Dictionary<string, string> mCaseCorrection;
 
             private List<string> mKeys; // Of incorrect terms.
@@ -304,7 +308,6 @@ namespace OverflowHelper.core
             Console.WriteLine(fullErrorMessage); // Linux
 
             Console.WriteLine("");
-
         } //reportError()
 
 
@@ -324,7 +327,6 @@ namespace OverflowHelper.core
             {
                 string curKey = hashEnumerator2.Current.Key;
                 string curValue = hashEnumerator2.Current.Value;
-
 
                 string URL;
                 if (!mWord2URL.TryGetValue(curValue, out URL))
@@ -32292,7 +32294,6 @@ namespace OverflowHelper.core
                 effectiveCorrectedTerm = effectiveBadTerm.Replace(@"\", @"\\");
             }
 
-
             aSomeScratch.Append("INSERT INTO EditOverflow\n");
             aSomeScratch.Append("  (incorrectTerm, correctTerm, URL)\n");
             aSomeScratch.Append("  VALUES(");
@@ -32440,9 +32441,10 @@ namespace OverflowHelper.core
             //        sorted such that looking up the keys in order in
             //        mCaseCorrection will return the entries in the
             //        given defined sort order, in this case the
-            //        correct term as the primary key and the incorrect
-            //        term in as the secondary key. In order words,
-            //        grouping according to the correct term...
+            //        correct term as the primary key and the 
+            //        incorrect term in as the secondary key. 
+            //        In order words, grouping by the 
+            //        correct term...
 
             List<string> someKeys_incorrectTerms = sortObject.keys();
 
@@ -32524,7 +32526,6 @@ namespace OverflowHelper.core
 
                     switch (aWordListOutputType)
                     {
-
                         case wordListOutputTypeEnum.HTML:
 
                             addTermsToOutput_HTML(someIncorrectTerm,
@@ -32532,7 +32533,6 @@ namespace OverflowHelper.core
                                                   ref builder,
                                                   someURL);
                             break;
-
 
                         case wordListOutputTypeEnum.SQL:
 
@@ -32561,7 +32561,6 @@ namespace OverflowHelper.core
                             }
                             break;
 
-
                         case wordListOutputTypeEnum.JavaScript:
 
                             addTermsToOutput_JavaScript(someIncorrectTerm,
@@ -32589,14 +32588,12 @@ namespace OverflowHelper.core
                                                             someCorrectTerm,
                                                             ref aSomeScratch,
                                                             someURL);
-
                                 // Delineate groups
 
                                 aSomeScratch.Append("\n\n");
 
                             }
                             break;
-
 
                         default:
                             Trace.Assert(false); // Fall-through. Not allowed.
