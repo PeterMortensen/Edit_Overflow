@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a74 2020-10-25T064726Z+0";
+        return "Edit Overflow v. 1.1.49a75 2020-10-25T180800Z+0";
     }
 
 
@@ -378,13 +378,13 @@
             $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
 
             $replacer->transform('(\d) DOT (\d)', '$1.$2'); # Revert for numbers
-            
+
             # Revert for file extensions. Note: Potentially false positives
             # as we don't currently check for end of line. But it is
-            # not always at the end  (examples: 
+            # not always at the end  (examples:
             # <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript>
             # <https://www.dotnetrocks.com/default.aspx?ShowNum=1636>)
-            $replacer->transform(' DOT htm', '.htm'); 
+            $replacer->transform(' DOT htm', '.htm');
             $replacer->transform(' DOT ogg', '.ogg');
             $replacer->transform(' DOT php', '.php');
             $replacer->transform(' DOT aspx', '.aspx');
