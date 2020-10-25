@@ -280,7 +280,7 @@ echo
 echo '3. Exporting the word list as SQL...'
 echo
 export WORDLIST_OUTPUTTYPE=SQL
-dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
+time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
 
 #exit   # Active: Test only!!!!!!!!!
 
@@ -291,7 +291,7 @@ echo
 echo '4. Exporting the word list as HTML...'
 echo
 export WORDLIST_OUTPUTTYPE=HTML
-dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE
+time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
 
@@ -302,7 +302,7 @@ echo
 echo '5. Exporting the word list as JavaScript...'
 echo
 export WORDLIST_OUTPUTTYPE=JavaScript
-dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASCRIPT_FILE
+time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASCRIPT_FILE
 
 # In the work folder
 cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
