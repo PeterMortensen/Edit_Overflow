@@ -192,7 +192,7 @@ namespace OverflowHelper.core
          *  the Windows GUI (adaption)                                              *
          *                                                                          *
          ****************************************************************************/
-        public TermLookup getWikipediaLookup()
+        public TermLookup getTermLookup()
         {
             return mTermLookup;
         }

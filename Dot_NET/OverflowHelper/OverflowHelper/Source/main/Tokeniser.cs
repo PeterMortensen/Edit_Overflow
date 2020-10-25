@@ -80,7 +80,7 @@ namespace OverflowHelper.core
             {
                 int endIndex = mRawString.IndexOf(mSeparator, mStartIndex);
 
-                bool end = false;
+                bool end = false; //What is up with this? Its value is never used!
 
                 if (endIndex == -1)
                 {

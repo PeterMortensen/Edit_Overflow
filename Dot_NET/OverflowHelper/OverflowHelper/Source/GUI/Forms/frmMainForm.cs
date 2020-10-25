@@ -146,8 +146,8 @@ namespace OverflowHelper
             catch (Exception exceptionObject)
             {
                 //Use something else than speech to get attention.
-                string msg = 
-                    "Crash in constructor of WikipediaLookup (or some other)";
+                string msg =
+                    "Crash in constructor of TermLookup (or some other)";
                 System.Windows.Forms.MessageBox.Show(msg);
             }
             finally
@@ -916,7 +916,7 @@ namespace OverflowHelper
         private void menuExportWordlist_Click(object aSender, EventArgs anEvent)
         {
             string Wordlist_HTML =
-              mWordCorrector.getWikipediaLookup().dumpWordList_asHTML(
+              mWordCorrector.getTermLookup().dumpWordList_asHTML(
                 mCodeFormattingCheck.combinedAllOfRegularExpressions(),
 
                 // This would be inconsistent if the date changes right 
@@ -934,8 +934,8 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuExportWordlistAsSQL_Click(object aSender, EventArgs anEvent)
         {
-            string wordlist_SQL = 
-                mWordCorrector.getWikipediaLookup().dumpWordList_asSQL();
+            string wordlist_SQL =
+                mWordCorrector.getTermLookup().dumpWordList_asSQL();
 
             //Output for now
             txtInputArea.Text = wordlist_SQL;
@@ -1200,8 +1200,8 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuQuoteAsCode_Click(object aSender, EventArgs anEvent)
         {
-            wrapInputFromClipboard(WikipediaLookup.kCodeQuoteStr,
-                                   WikipediaLookup.kCodeQuoteStr);
+            wrapInputFromClipboard(TermLookup.kCodeQuoteStr,
+                                   TermLookup.kCodeQuoteStr);
         }
 
 
@@ -3169,7 +3169,7 @@ namespace OverflowHelper
             Dictionary<string, string> someCaseCorrection_Reverse =
                 new Dictionary<string, string>();
             string Wordlist_HTML =
-              WikipediaLookup.dumpWordList_asHTML(
+              TermLookup.dumpWordList_asHTML(
                 "",
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
