@@ -11012,6 +11012,7 @@ namespace OverflowHelper.core
             correctionAdd("critisicm", "criticism");
             correctionAdd("critisism", "criticism");
             correctionAdd("critism", "criticism");
+            correctionAdd("critiscism", "criticism");
 
             correctionAdd("instaead", "instead");
             correctionAdd("isntead", "instead");
@@ -15417,6 +15418,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tailwind", "Tailwind CSS");
             correctionAdd("Tailwind", "Tailwind CSS");
+            correctionAdd("tailwind css", "Tailwind CSS");
 
             correctionAdd("waybackmachine", "Wayback Machine");
             correctionAdd("wayback machine", "Wayback Machine");
@@ -15726,6 +15728,7 @@ namespace OverflowHelper.core
             correctionAdd("tryng", "trying");
             correctionAdd("tryting", "trying");
             correctionAdd("triying", "trying");
+            correctionAdd("tring", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -16721,6 +16724,7 @@ namespace OverflowHelper.core
             correctionAdd("yoga", "Yoga");
 
             correctionAdd("AR", "augmented reality");
+            correctionAdd("Augmented Reality", "augmented reality");
 
             correctionAdd("devide", "divide");
 
@@ -17947,6 +17951,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ad Words", "AdWords");
             correctionAdd("adwords", "AdWords");
+            correctionAdd("Adwords", "AdWords");
 
             correctionAdd("basecamp", "Basecamp");
 
@@ -19065,6 +19070,7 @@ namespace OverflowHelper.core
 
             correctionAdd("GPT3", "GPT-3");
             correctionAdd("gpt-3", "GPT-3");
+            correctionAdd("gpt3", "GPT-3");
 
             correctionAdd("CoM", "centre of mass");
 
@@ -20798,6 +20804,42 @@ namespace OverflowHelper.core
             correctionAdd("Relaying", "relying");
 
             correctionAdd("takeing", "taking");
+
+            correctionAdd("Mean", "MEAN");
+
+            correctionAdd("suites", "Swedes");
+            correctionAdd("sweets", "Swedes");
+
+            correctionAdd("Affiliate Marketing", "affiliate marketing");
+
+            correctionAdd("break down", "breakdown");
+
+            correctionAdd("commitee", "committee");
+
+            correctionAdd("Convention over configuration", "convention over configuration");
+
+            correctionAdd("iliteracy", "illiteracy");
+
+            correctionAdd("manufactuer", "manufacturer");
+
+            correctionAdd("mold", "mould");
+
+            correctionAdd("N1", "number one");
+
+            correctionAdd("over use", "overuse");
+
+            correctionAdd("Peer Review", "peer review");
+
+            correctionAdd("possibily", "possibly");
+            correctionAdd("Possibily", "possibly");
+
+            correctionAdd("Procedural programming", "procedural programming");
+
+            correctionAdd("stabilty", "stability");
+
+            correctionAdd("zelotry", "zealotry");
+
+            correctionAdd("fan boy", "fanboy");
 
 
             // Start of coronavirus part...
@@ -32007,6 +32049,40 @@ namespace OverflowHelper.core
             URL_Add("relying", "https://en.wiktionary.org/wiki/rely#Verb");
 
             URL_Add("taking", "https://en.wiktionary.org/wiki/take#Verb");
+
+            URL_Add("MEAN", "https://en.wikipedia.org/wiki/MEAN_(solution_stack)");
+
+            URL_Add("Swedes", "https://en.wiktionary.org/wiki/Swede#Noun");
+
+            URL_Add("affiliate marketing", "https://en.wikipedia.org/wiki/Affiliate_marketing");
+
+            URL_Add("breakdown", "https://en.wiktionary.org/wiki/breakdown#Noun");
+
+            URL_Add("committee", "https://en.wiktionary.org/wiki/committee#Noun");
+
+            URL_Add("convention over configuration", "https://en.wikipedia.org/wiki/Convention_over_configuration");
+
+            URL_Add("illiteracy", "https://en.wiktionary.org/wiki/illiteracy#Noun");
+
+            URL_Add("manufacturer", "https://en.wiktionary.org/wiki/manufacturer#Noun");
+
+            URL_Add("mould", "https://en.wiktionary.org/wiki/mould#Verb");
+
+            URL_Add("number one", "https://en.wiktionary.org/wiki/number_one#Adjective");
+
+            URL_Add("overuse", "https://en.wiktionary.org/wiki/overuse#Verb");
+
+            URL_Add("peer review", "https://en.wiktionary.org/wiki/peer_review#Verb");
+
+            URL_Add("possibly", "https://en.wiktionary.org/wiki/possibly#Adverb");
+
+            URL_Add("procedural programming", "https://en.wikipedia.org/wiki/Procedural_programming");
+
+            URL_Add("stability", "https://en.wiktionary.org/wiki/stability#Noun");
+
+            URL_Add("zealotry", "https://en.wiktionary.org/wiki/zealotry#Noun");
+
+            URL_Add("fanboy", "https://en.wiktionary.org/wiki/fanboy#Noun");
 
 
             //========================================================
