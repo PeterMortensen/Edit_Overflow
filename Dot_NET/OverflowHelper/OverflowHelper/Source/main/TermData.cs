@@ -2304,6 +2304,7 @@ namespace OverflowHelper.core
             correctionAdd("FIRE FOX", "Firefox");
             correctionAdd("mozilla", "Firefox");
             correctionAdd("Mozilla", "Firefox");
+            correctionAdd("FIrefox", "Firefox");
 
             correctionAdd("chrome", "Google Chrome");
             correctionAdd("google-chrome", "Google Chrome");
@@ -4075,6 +4076,7 @@ namespace OverflowHelper.core
             correctionAdd("dirctory", "directory");
             correctionAdd("direcotires", "directory");
             correctionAdd("direcotry", "directory");
+            correctionAdd("diractory", "directory");
 
             correctionAdd("cwd", "current working directory");
             correctionAdd("CWD", "current working directory");
@@ -8063,7 +8065,7 @@ namespace OverflowHelper.core
             correctionAdd("rust", "Rust");
             correctionAdd("RUST", "Rust");
 
-            correctionAdd("yo", "-year-old");
+            correctionAdd("yo", "-year-old"); // Alternative: typo of "to"
             correctionAdd("year old", "-year-old");
             correctionAdd("YO", "-year-old");
             correctionAdd("yr old", "-year-old");
@@ -8708,6 +8710,7 @@ namespace OverflowHelper.core
             correctionAdd("onliner", "one-liner");
             correctionAdd("one linear", "one-liner");
             correctionAdd("One Liner", "one-liner");
+            correctionAdd("1-liner", "one-liner");
 
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
@@ -9228,6 +9231,7 @@ namespace OverflowHelper.core
             correctionAdd("UV", "upvote");
             correctionAdd("UpVote", "upvote");
             correctionAdd("up vote", "upvote");
+            correctionAdd("Up-Vote", "upvote");
 
             correctionAdd("down-vote", "downvote");
             correctionAdd("dv", "downvote");
@@ -9486,6 +9490,7 @@ namespace OverflowHelper.core
             correctionAdd("Machine learning", "machine learning");
             correctionAdd("Machine Learning", "machine learning");
             correctionAdd("MachineLearning", "machine learning");
+            correctionAdd("ml", "machine learning");
 
             correctionAdd(".NetCF", ".NET Compact Framework");
             correctionAdd("Dot.net CF", ".NET Compact Framework");
@@ -9505,6 +9510,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ymmv", "your mileage may vary");
             correctionAdd("YMMV", "your mileage may vary");
+            correctionAdd("Your mileage may vary", "your mileage may vary");
 
             correctionAdd("vxworks", "VxWorks");
 
@@ -9938,6 +9944,7 @@ namespace OverflowHelper.core
             correctionAdd("Farad", "farad");
 
             correctionAdd("Coulomb", "coulomb");
+            correctionAdd("Culomb", "coulomb");
 
             correctionAdd("SYbase", "Sybase");
 
@@ -9958,6 +9965,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
+            correctionAdd("Cosmic Microwave Background", "cosmic microwave background");
 
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
@@ -10177,6 +10185,7 @@ namespace OverflowHelper.core
             correctionAdd("expanation", "explanation");
             correctionAdd("Expanation", "explanation");
             correctionAdd("Explaination", "explanation");
+            correctionAdd("explonation", "explanation");
 
             correctionAdd("Instaltaion", "installation"); //Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -10684,6 +10693,7 @@ namespace OverflowHelper.core
             correctionAdd("commend", "recommended");
             correctionAdd("Recomended", "recommended");
             correctionAdd("recomended", "recommended");
+            correctionAdd("recommmended", "recommended");
 
             correctionAdd("seperator", "separator");
             correctionAdd("seprator", "separator");
@@ -10793,6 +10803,7 @@ namespace OverflowHelper.core
             correctionAdd("accross", "across");
             correctionAdd("accros", "across");
             correctionAdd("acfoss", "across");
+            correctionAdd("acorss", "across");
 
             correctionAdd("alteratively", "alternatively");
             correctionAdd("Alteratively", "alternatively");
@@ -11909,6 +11920,8 @@ namespace OverflowHelper.core
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
             correctionAdd("Ublock Origin", "uBlock Origin");
+            correctionAdd("UBlockOrigin", "uBlock Origin");
+            correctionAdd("UBlock Origin", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -15583,6 +15596,7 @@ namespace OverflowHelper.core
             correctionAdd("short cut", "shortcut");
             correctionAdd("shortuct", "shortcut");
             correctionAdd("shortcurt", "shortcut");
+            correctionAdd("short-cut", "shortcut");
 
 
             // --------------------------------------------------------------
@@ -16493,6 +16507,7 @@ namespace OverflowHelper.core
 
             correctionAdd("physisist", "physicist");
             correctionAdd("physist", "physicist");
+            correctionAdd("Physicist", "physicist");
 
             correctionAdd("unit-less", "unitless");
             correctionAdd("unit less", "unitless");
@@ -17325,6 +17340,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ternary", "ternary operator");
             correctionAdd("Ternary Operator", "ternary operator");
+            correctionAdd("Ternary", "ternary operator");
+            correctionAdd("ternery", "ternary operator");
 
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
@@ -17373,6 +17390,7 @@ namespace OverflowHelper.core
             correctionAdd("calculting", "calculating");
 
             correctionAdd("doule", "double");
+            correctionAdd("doube", "double");
 
             correctionAdd("femenine", "feminine");
 
@@ -18114,8 +18132,6 @@ namespace OverflowHelper.core
             correctionAdd("Torch", "PyTorch");
 
             correctionAdd("pelican", "Sveshnikov Variation (Lasker–Pelikan)");
-
-            correctionAdd("mythical manmonth", "The Mythical Man-Month");
 
             correctionAdd("udacity", "Udacity");
 
@@ -20663,6 +20679,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mehtod", "method");
             correctionAdd("methood", "method");
+            correctionAdd("methode", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -20798,7 +20815,10 @@ namespace OverflowHelper.core
 
             correctionAdd("modren", "modern");
 
+            correctionAdd("mythical manmonth", "The Mythical Man-Month");
+
             correctionAdd("motnh", "month");
+            correctionAdd("Month", "month");
 
             correctionAdd("relaying", "relying");
             correctionAdd("Relaying", "relying");
@@ -20840,6 +20860,44 @@ namespace OverflowHelper.core
             correctionAdd("zelotry", "zealotry");
 
             correctionAdd("fan boy", "fanboy");
+
+            correctionAdd("Electronics", "electronics");
+
+            correctionAdd("soft more", "sophomore");
+
+            correctionAdd("text-based", "textbased");
+            correctionAdd("Text-Based", "textbased");
+
+            correctionAdd("unresonable", "unreasonable");
+
+            correctionAdd("Dlang", "D");
+
+            correctionAdd("hvac", "HVAC");
+
+            correctionAdd("privacy badger", "Privacy Badger");
+
+            correctionAdd("anomoly", "anomaly");
+
+            correctionAdd("Cosmic Microwave Background Radiation", "cosmic microwave background radiation");
+
+            correctionAdd("detrement", "detriment");
+
+            correctionAdd("every one", "everyone");
+
+            correctionAdd("hightlight", "highlight");
+
+            correctionAdd("modifiy", "modify");
+
+            correctionAdd("Nesting", "nesting");
+            correctionAdd("Neseting", "nesting");
+
+            correctionAdd("pat", "path");
+
+            correctionAdd("Renew", "renew");
+
+            correctionAdd("tp", "to");
+
+            correctionAdd("unambigious", "unambiguous");
 
 
             // Start of coronavirus part...
@@ -32083,6 +32141,43 @@ namespace OverflowHelper.core
             URL_Add("zealotry", "https://en.wiktionary.org/wiki/zealotry#Noun");
 
             URL_Add("fanboy", "https://en.wiktionary.org/wiki/fanboy#Noun");
+
+            URL_Add("electronics", "https://en.wikipedia.org/wiki/Electronics");
+
+            URL_Add("sophomore", "https://en.wiktionary.org/wiki/sophomore#Noun");
+
+            URL_Add("textbased", "https://en.wiktionary.org/wiki/textbased#Adjective");
+
+            URL_Add("unreasonable", "https://en.wiktionary.org/wiki/unreasonable#Adjective");
+
+            URL_Add("D", "https://en.wikipedia.org/wiki/D_(programming_language)");
+
+            URL_Add("HVAC", "https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning");
+
+            URL_Add("Privacy Badger", "https://en.wikipedia.org/wiki/Privacy_Badger");
+
+            URL_Add("anomaly", "https://en.wiktionary.org/wiki/anomaly#Noun");
+
+            URL_Add("cosmic microwave background radiation", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
+
+            URL_Add("detriment", "https://en.wiktionary.org/wiki/detriment#Noun");
+
+            URL_Add("everyone", "https://en.wiktionary.org/wiki/everyone#Pronoun");
+
+            URL_Add("highlight", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("modify", "https://en.wiktionary.org/wiki/modify#Verb");
+
+            URL_Add("nesting", "https://en.wiktionary.org/wiki/nest#Verb");
+
+            URL_Add("path", "https://en.wiktionary.org/wiki/path#Noun");
+
+            URL_Add("renew", "https://en.wiktionary.org/wiki/renew#Verb");
+
+            URL_Add("to", "https://en.wiktionary.org/wiki/to#Particle");
+
+            URL_Add("unambiguous", "https://en.wiktionary.org/wiki/unambiguous#Adjective");
+
 
 
             //========================================================
