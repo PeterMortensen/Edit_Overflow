@@ -29,10 +29,10 @@ using System; // For Console
 namespace OverflowHelper.core
 {
 
-    public struct wordListStruct
+    public struct termListStruct
     {
-        public Dictionary<string, string> caseCorrection;
-        public Dictionary<string, string> word2URL;
+        public Dictionary<string, string> incorrect2Correct;
+        public Dictionary<string, string> correctTerm2URL;
     }
 
 
@@ -42,11 +42,11 @@ namespace OverflowHelper.core
     public class TermData
     {
 
-        private Dictionary<string, string> mCaseCorrection;
-        private Dictionary<string, string> mWord2URL;
+        private Dictionary<string, string> mIncorrect2Correct;
+        private Dictionary<string, string> mCorrectTerm2URL;
 
 
-        private Dictionary<string, string> mCaseCorrection_Reverse; //Reverse
+        private Dictionary<string, string> mIncorrect2Correct_Reverse; //Reverse
         //  mapping, for checking purposes only (at the expense of using more
         //  memory).
         //
@@ -61,18 +61,18 @@ namespace OverflowHelper.core
         public TermData()
         {
 
-            mCaseCorrection = new Dictionary<string, string>();
-            mCaseCorrection_Reverse = new Dictionary<string, string>();
+            mIncorrect2Correct = new Dictionary<string, string>();
+            mIncorrect2Correct_Reverse = new Dictionary<string, string>();
 
-            mWord2URL = new Dictionary<string, string>();
+            mCorrectTerm2URL = new Dictionary<string, string>();
 
 
             addLookupData();
 
-            //Assert   length of mCaseCorrection_Reverse equal to
-            //         length of mWord2URL
+            //Assert   length of mIncorrect2Correct_Reverse equal to
+            //         length of mCorrectTerm2URL
 
-            checkSpellingDataStructures();
+            checkTermDataStructures();
 
         } //Constructor
 
@@ -80,12 +80,12 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        public wordListStruct getWordList()
+        public termListStruct getWordList()
         {
-            wordListStruct toReturn;
+            termListStruct toReturn;
 
-            toReturn.caseCorrection = mCaseCorrection;
-            toReturn.word2URL = mWord2URL;
+            toReturn.incorrect2Correct = mIncorrect2Correct;
+            toReturn.correctTerm2URL = mCorrectTerm2URL;
 
             return toReturn;
         }
@@ -94,7 +94,7 @@ namespace OverflowHelper.core
         /***************************************************************************
         *    <placeholder for header>                                              *
         ****************************************************************************/
-        private void checkSpellingDataStructures()
+        private void checkTermDataStructures()
         {
             // Detect if any spelling correction is missing a
             // corresponding URL (this will cause the lookup
@@ -102,21 +102,21 @@ namespace OverflowHelper.core
             // An example was "ILDASM").
 
             Dictionary<string, string>.Enumerator hashEnumerator2 =
-                mCaseCorrection.GetEnumerator();
+                mIncorrect2Correct.GetEnumerator();
             while (hashEnumerator2.MoveNext())
             {
                 string curKey = hashEnumerator2.Current.Key;
                 string curValue = hashEnumerator2.Current.Value;
 
                 string URL;
-                if (!mWord2URL.TryGetValue(curValue, out URL))
+                if (!mCorrectTerm2URL.TryGetValue(curValue, out URL))
                 {
                     string msgStr = "No URL mapping for the term \"" +
                                     curValue + "\".";
                     reportError(msgStr);
                 }
             } //Hash iteration.
-        } //checkSpellingDataStructures()
+        } //checkTermDataStructures()
 
 
         /****************************************************************************
@@ -217,7 +217,7 @@ namespace OverflowHelper.core
             }
 
             string corrStr;
-            if (mCaseCorrection.TryGetValue(aBadTerm, out corrStr))
+            if (mIncorrect2Correct.TryGetValue(aBadTerm, out corrStr))
             {
                 //Double entry!
                 string msg = "Double entry for bad term \"" +
@@ -230,10 +230,10 @@ namespace OverflowHelper.core
                 sanityCheck(aBadTerm,       aBadTerm, aCorrectedTerm);
                 sanityCheck(aCorrectedTerm, aBadTerm, aCorrectedTerm);
 
-                mCaseCorrection.Add(aBadTerm, aCorrectedTerm);
+                mIncorrect2Correct.Add(aBadTerm, aCorrectedTerm);
 
                 string badTerm;
-                if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm,
+                if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm,
                                                         out badTerm))
                 {
                     // If we are here then there is more than one corrected
@@ -242,7 +242,7 @@ namespace OverflowHelper.core
                 }
                 else
                 {
-                    mCaseCorrection_Reverse.Add(aCorrectedTerm, aBadTerm);
+                    mIncorrect2Correct_Reverse.Add(aCorrectedTerm, aBadTerm);
                 }
             }
         } //correctionAdd()
@@ -254,10 +254,10 @@ namespace OverflowHelper.core
         private void URL_Add(string aCorrectedTerm, string aURL)
         {
             //Later: sanity checks, e.g. that the key already
-            //       exists in mCaseCorrection.
+            //       exists in mIncorrect2Correct.
 
             string URL;
-            if (mWord2URL.TryGetValue(aCorrectedTerm, out URL))
+            if (mCorrectTerm2URL.TryGetValue(aCorrectedTerm, out URL))
             {
                 //Later: factor out.
 
@@ -276,7 +276,7 @@ namespace OverflowHelper.core
                 // We expect that the corresponding correction mapping has
                 // already been added.
                 string badTerm;
-                if (mCaseCorrection_Reverse.TryGetValue(aCorrectedTerm, out badTerm))
+                if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm, out badTerm))
                 {
 
                 }
@@ -288,7 +288,7 @@ namespace OverflowHelper.core
                         aCorrectedTerm + "\".";
                     reportError(msg);
                 }
-                mWord2URL.Add(aCorrectedTerm, aURL);
+                mCorrectTerm2URL.Add(aCorrectedTerm, aURL);
             }
         } //URL_Add()
 
