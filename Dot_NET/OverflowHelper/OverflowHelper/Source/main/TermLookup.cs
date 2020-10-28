@@ -78,8 +78,8 @@ namespace OverflowHelper.core
     {
         public const string kCodeQuoteStr = "`";
 
-        private Dictionary<string, string> mCaseCorrection;
-        private Dictionary<string, string> mWord2URL;
+        private Dictionary<string, string> mIncorrect2Correct;
+        private Dictionary<string, string> mCorrectTerm2URL;
 
 
         /****************************************************************************
@@ -145,11 +145,11 @@ namespace OverflowHelper.core
             TermData someTermData = new TermData();
 
 
-            wordListStruct wordList = someTermData.getWordList();
+            termListStruct wordList = someTermData.getWordList();
 
             //Adaptation, at least for now
-            mCaseCorrection = wordList.caseCorrection;
-            mWord2URL = wordList.word2URL;
+            mIncorrect2Correct = wordList.incorrect2Correct;
+            mCorrectTerm2URL = wordList.correctTerm2URL;
 
         } //Constructor
 
@@ -165,7 +165,7 @@ namespace OverflowHelper.core
             string toReturn = ""; //Default: value indicating failure.
 
             string corrStr;
-            if (mCaseCorrection.TryGetValue(aQueryStr, out corrStr))
+            if (mIncorrect2Correct.TryGetValue(aQueryStr, out corrStr))
             {
                 Utility.debuggerRest(); //Found case correction!
             }
@@ -177,7 +177,7 @@ namespace OverflowHelper.core
             //Even if there is no case correction it may already be the correct case!
             anOutCorrectedWOrd = corrStr;
             string URLStr;
-            if (mWord2URL.TryGetValue(corrStr, out URLStr))
+            if (mCorrectTerm2URL.TryGetValue(corrStr, out URLStr))
             {
                 toReturn = URLStr; //We have a match!
             }
@@ -211,7 +211,7 @@ namespace OverflowHelper.core
         private class SortByCorrectThenIncorrect_usingIndex :
           System.Collections.Generic.IComparer<int>
         {
-            private Dictionary<string, string> mCaseCorrection;
+            private Dictionary<string, string> mIncorrect2Correct;
 
             private List<string> mKeys; // Of incorrect terms.
 
@@ -222,12 +222,12 @@ namespace OverflowHelper.core
             //*    <placeholder for header>                                              *
             //****************************************************************************
             public SortByCorrectThenIncorrect_usingIndex(
-                Dictionary<string, string> aCaseCorrection)
+                Dictionary<string, string> anIncorrect2Correct)
             {
-                mCaseCorrection = aCaseCorrection; // We need to remember it for when
+                mIncorrect2Correct = anIncorrect2Correct; // We need to remember it for when
                 // the compare function is called...
 
-                int len = aCaseCorrection.Count;
+                int len = anIncorrect2Correct.Count;
 
                 // 2016-01-31. XXXXXXXX
 
@@ -237,7 +237,7 @@ namespace OverflowHelper.core
 
                 int currentIndex = 0;
                 Dictionary<string, string>.Enumerator hashEnumerator2 =
-                    aCaseCorrection.GetEnumerator();
+                    anIncorrect2Correct.GetEnumerator();
                 while (hashEnumerator2.MoveNext())
                 {
                     string curKey = hashEnumerator2.Current.Key;
@@ -247,7 +247,7 @@ namespace OverflowHelper.core
                     mIndexes.Add(currentIndex);
 
                     //string URL;
-                    //if (!mWord2URL.TryGetValue(curValue, out URL))
+                    //if (!mCorrectTerm2URL.TryGetValue(curValue, out URL))
                     //{
                     //    string msgStr = "No URL mapping for " + curValue;
                     //    System.Windows.Forms.MessageBox.Show(msgStr);
@@ -276,8 +276,8 @@ namespace OverflowHelper.core
                     string secondary2 = mKeys[aItem2];
 
                     // The correct term is the primary key.
-                    string primary1 = mCaseCorrection[secondary1];
-                    string primary2 = mCaseCorrection[secondary2];
+                    string primary1 = mIncorrect2Correct[secondary1];
+                    string primary2 = mIncorrect2Correct[secondary2];
 
                     int compareResult_primary = primary1.CompareTo(primary2);
 
@@ -540,17 +540,17 @@ namespace OverflowHelper.core
             ref string aLongestInCorrectTerm,
             ref string aLongestCorrectTerm,
             ref string aLongestURL,
-            ref Dictionary<string, string> aCaseCorrection,
-            ref Dictionary<string, string> aWord2URL)
+            ref Dictionary<string, string> anIncorrect2Correct,
+            ref Dictionary<string, string> aCorrectTerm2URL)
         {
             SortByCorrectThenIncorrect_usingIndex sortObject =
-                new SortByCorrectThenIncorrect_usingIndex(aCaseCorrection);
+                new SortByCorrectThenIncorrect_usingIndex(anIncorrect2Correct);
 
             List<int> indexes = sortObject.indexes(); // Unsorted at this point
 
             indexes.Sort(sortObject); // After: Those indexes are now
             //        sorted such that looking up the keys in order in
-            //        mCaseCorrection will return the entries in the
+            //        mIncorrect2Correct will return the entries in the
             //        given defined sort order, in this case the
             //        correct term as the primary key and the
             //        incorrect term in as the secondary key.
@@ -570,14 +570,14 @@ namespace OverflowHelper.core
             foreach (int someIndex in indexes)
             {
                 string someIncorrectTerm = someKeys_incorrectTerms[someIndex];
-                string someCorrectTerm = aCaseCorrection[someIncorrectTerm];
+                string someCorrectTerm = anIncorrect2Correct[someIncorrectTerm];
 
                 string msg = string.Empty; // Default: empty - flag for no errors.
 
 
                 // On-the-fly check (but it would be better if
                 // this check was done at program startup)
-                if (aWord2URL.ContainsKey(someIncorrectTerm))
+                if (aCorrectTerm2URL.ContainsKey(someIncorrectTerm))
                 {
                     msg =
                       "Incorrect term \"" + someIncorrectTerm +
@@ -585,7 +585,7 @@ namespace OverflowHelper.core
                 }
 
                 string someURL = null;
-                if (!aWord2URL.TryGetValue(someCorrectTerm, out someURL))
+                if (!aCorrectTerm2URL.TryGetValue(someCorrectTerm, out someURL))
                 {
                     // Fail. What should we do?
 
@@ -753,8 +753,8 @@ namespace OverflowHelper.core
             //    ----------------------------------------------
             //    2019-12-11  9686        1925736        199
             //
-            int correctWordEntries = mWord2URL.Count;
-            int incorrectWordEntries = mCaseCorrection.Count;
+            int correctWordEntries = mCorrectTerm2URL.Count;
+            int incorrectWordEntries = mIncorrect2Correct.Count;
 
             //int capacity = 1200000;
             //int capacity = 2500000;
@@ -772,8 +772,8 @@ namespace OverflowHelper.core
                            ref longestInCorrectTerm,
                            ref longestCorrectTerm,
                            ref longestURL,
-                           ref mCaseCorrection,
-                           ref mWord2URL);
+                           ref mIncorrect2Correct,
+                           ref mCorrectTerm2URL);
 
             return SQL_tableRows.ToString();
         } //dumpWordList_asSQL()
@@ -1081,9 +1081,9 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public static string dumpWordList_asHTML(
             string aCodeCheck_regularExpression,
-            ref Dictionary<string, string> aCaseCorrection,
+            ref Dictionary<string, string> anIncorrect2Correct,
             int aUniqueWords,
-            ref Dictionary<string, string> aWord2URL,
+            ref Dictionary<string, string> aCorrectTerm2URL,
             string aVersionStr,
             string aDateStr
             )
@@ -1105,8 +1105,8 @@ namespace OverflowHelper.core
             //    ------------------------------------------------
             //    2019-12-11  9686        1162309          120.0
             //
-            int correctWordEntries = aWord2URL.Count;
-            int incorrectWordEntries = aCaseCorrection.Count;
+            int correctWordEntries = aCorrectTerm2URL.Count;
+            int incorrectWordEntries = anIncorrect2Correct.Count;
 
             //int capacity = 1200000;
             //
@@ -1127,8 +1127,8 @@ namespace OverflowHelper.core
                            ref longestInCorrectTerm,
                            ref longestCorrectTerm,
                            ref longestURL,
-                           ref aCaseCorrection,
-                           ref aWord2URL);
+                           ref anIncorrect2Correct,
+                           ref aCorrectTerm2URL);
             // The main side effect is the changing of the content
             // of ref HTML_tableRows...
 
@@ -1198,9 +1198,9 @@ namespace OverflowHelper.core
         {
             return dumpWordList_asHTML(
                       aCodeCheck_regularExpression,
-                      ref mCaseCorrection,
-                      mWord2URL.Count,
-                      ref mWord2URL,
+                      ref mIncorrect2Correct,
+                      mCorrectTerm2URL.Count,
+                      ref mCorrectTerm2URL,
                       aVersionStr,
                       aDateStr);
         } //dumpWordList_asHTML()
@@ -1229,8 +1229,8 @@ namespace OverflowHelper.core
             //    2020-07-12  13016        XXXX          XXX.X
             //
             //
-            int correctWordEntries = mWord2URL.Count;
-            int incorrectWordEntries = mCaseCorrection.Count;
+            int correctWordEntries = mCorrectTerm2URL.Count;
+            int incorrectWordEntries = mIncorrect2Correct.Count;
 
             //int capacity = 1200000;
             //
@@ -1274,8 +1274,8 @@ namespace OverflowHelper.core
                            ref longestInCorrectTerm,
                            ref longestCorrectTerm,
                            ref longestURL,
-                           ref mCaseCorrection,
-                           ref mWord2URL);
+                           ref mIncorrect2Correct,
+                           ref mCorrectTerm2URL);
 
             // For unit testing under Jest (which runs under Node.js)
             sb.Append("\n\n\n\n");
