@@ -9507,6 +9507,7 @@ namespace OverflowHelper.core
             correctionAdd("xamarian", "Xamarin");
             correctionAdd("Xamarian", "Xamarin");
             correctionAdd("xamarin", "Xamarin");
+            correctionAdd("Xamarine", "Xamarin");
 
             correctionAdd("ymmv", "your mileage may vary");
             correctionAdd("YMMV", "your mileage may vary");
@@ -10491,6 +10492,7 @@ namespace OverflowHelper.core
 
             correctionAdd("portuguese", "Portuguese");
             correctionAdd("Purtiguise", "Portuguese");
+            correctionAdd("Portugese", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
 
@@ -12175,6 +12177,7 @@ namespace OverflowHelper.core
 
             correctionAdd("opinon", "opinion");
             correctionAdd("opionion", "opinion");
+            correctionAdd("opionon", "opinion");
 
             correctionAdd("prio", "priority");
 
@@ -13955,6 +13958,7 @@ namespace OverflowHelper.core
             correctionAdd("GLIBC", "glibc");
 
             correctionAdd("Helium", "helium");
+            correctionAdd("He", "helium");
 
             correctionAdd("Neutrino", "neutrino");
 
@@ -20283,6 +20287,7 @@ namespace OverflowHelper.core
             correctionAdd("langue", "language");
             correctionAdd("langage", "language");
             correctionAdd("languague", "language");
+            correctionAdd("launguage", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -20898,6 +20903,30 @@ namespace OverflowHelper.core
             correctionAdd("tp", "to");
 
             correctionAdd("unambigious", "unambiguous");
+
+            correctionAdd("Dr. Fauchi", "Dr. Fauci");
+
+            correctionAdd("microweber", "Microweber");
+
+            correctionAdd("anti-hydrogen", "antihydrogen");
+
+            correctionAdd("Graphene", "graphene");
+
+            correctionAdd("hyphothesis", "hypothesis");
+            correctionAdd("hyptothese", "hypothesis");
+            correctionAdd("hyptothesis", "hypothesis");
+
+            correctionAdd("learen", "learn");
+
+            correctionAdd("Nucleosynthesis", "nucleosynthesis");
+
+            correctionAdd("originaly", "originally");
+
+            correctionAdd("paralelly", "parallelly");
+
+            correctionAdd("Percentage Point", "percentage point");
+
+            correctionAdd("indisciplined", "undisciplined");
 
 
             // Start of coronavirus part...
@@ -32177,6 +32206,29 @@ namespace OverflowHelper.core
             URL_Add("to", "https://en.wiktionary.org/wiki/to#Particle");
 
             URL_Add("unambiguous", "https://en.wiktionary.org/wiki/unambiguous#Adjective");
+
+            URL_Add("Dr. Fauci", "https://en.wikipedia.org/wiki/Anthony_Fauci");
+
+            URL_Add("Microweber", "https://en.wikipedia.org/wiki/Microweber");
+
+            URL_Add("antihydrogen", "https://en.wikipedia.org/wiki/Antihydrogen");
+
+            URL_Add("graphene", "https://en.wikipedia.org/wiki/Graphene");
+
+            URL_Add("hypothesis", "https://en.wiktionary.org/wiki/hypothesis#Noun");
+
+            URL_Add("learn", "https://en.wiktionary.org/wiki/learn#Verb");
+
+            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
+
+            URL_Add("originally", "https://en.wiktionary.org/wiki/originally#Adverb");
+
+            URL_Add("parallelly", "https://en.wiktionary.org/wiki/parallelly#Adverb");
+
+            URL_Add("percentage point", "https://en.wikipedia.org/wiki/Percentage_point");
+
+            URL_Add("undisciplined", "https://en.wiktionary.org/wiki/undisciplined#Adjective");
+
 
 
 
