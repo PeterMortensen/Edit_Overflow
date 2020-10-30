@@ -117,12 +117,9 @@
                    value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
                    style="width:680px;"
                    accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   title=""
                />
             </p>
-
-
-
 
             <p>
                <input
@@ -291,7 +288,7 @@
                    value="Used more standard formatting (we have italics and bold on this platform). "
                    style="width:830px;"
                    accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   title=""
                />
             </p>
 
@@ -313,7 +310,7 @@
                    value="<http://stackoverflow.com/legal/trademark-guidance> (the last section) "
                    style="width:830px;"
                    accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   title=""
                />
             </p>
 
@@ -330,7 +327,7 @@
                    value="More affirmative answer (this is not a forum - see e.g. <http://meta.stackexchange.com/a/92115>. It is a think tank (see <http://meta.stackoverflow.com/a/325681>). "
                    style="width:830px;"
                    accesskey="X"
-                   title="Shortcut: Shift + Alt + X"
+                   title=""
                />
             </p>
 
@@ -472,6 +469,24 @@
                    style="width:380px;"
                    accesskey="Z"
                    title="Shortcut: Shift + Alt + Z"
+               />
+            </p>
+
+            <p>US native speakers, especially southern US,
+               <a href="http://www.wikihow.com/Use-Where,-Were-and-We're"
+               >&quot;where&quot; vs.
+                &quot;were&quot;vs.
+                &quot;we're&quot;</a>: <br/>
+
+               <input
+                   name="X30"
+                   type="text"
+                   id="X30"
+                   class=""
+                   value="<http://www.wikihow.com/Use-Where,-Were-and-We're> "
+                   style="width:380px;"
+                   accesskey="X"
+                   title=""
                />
             </p>
 
