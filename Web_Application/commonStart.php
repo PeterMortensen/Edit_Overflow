@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a76 2020-10-31T000312Z+0";
+        return "Edit Overflow v. 1.1.49a77 2020-10-31T040925Z+0";
     }
 
 
@@ -384,10 +384,11 @@
             # not always at the end  (examples:
             # <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript>
             # <https://www.dotnetrocks.com/default.aspx?ShowNum=1636>)
-            $replacer->transform(' DOT htm', '.htm');
-            $replacer->transform(' DOT ogg', '.ogg');
-            $replacer->transform(' DOT php', '.php');
+            $replacer->transform(' DOT htm',  '.htm');
+            $replacer->transform(' DOT ogg',  '.ogg');
+            $replacer->transform(' DOT php',  '.php');
             $replacer->transform(' DOT aspx', '.aspx');
+            $replacer->transform(' DOT pdf',  '.pdf');
 
 
         # Convert email addresses like so... (at least
