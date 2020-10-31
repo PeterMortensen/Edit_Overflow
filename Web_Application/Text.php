@@ -192,12 +192,12 @@
 
                 if ($lenBefore < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: xxx" . $aOrigText . "xxx </p>\n";
+                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: XXX" . $aOrigText . "XXX </p>\n";
                     assert(false);
                 }
                 if ($lenAfter < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: xxx" . $aOrigText . "xxx </p>\n";
+                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: XXX" . $aOrigText . "XXX </p>\n";
                     assert(false);
                 }
 
@@ -209,9 +209,9 @@
                          "Expected difference: $aLengthDiff. Actual: $diff\n";
 
                     echo "<br/><br/>\n";
-                    echo "Before: xxx" . $aOrigText . "xxx. \n";
+                    echo "Before: XXX" . $aOrigText . "XXX. \n";
                     echo "<br/><br/>\n";
-                    echo "After:  xxx" . $aNewText  . "xxx. \n";
+                    echo "After:  XXX" . $aNewText  . "XXX. \n";
                     assert(false);
                 }
                 else
@@ -441,11 +441,14 @@
             //       parts because the expanded two dots correspond
             //       to the removed "https://".
             //
+            //
+            // Note: Positive numbers for output smaller than the input.
+            //
             test_transformFor_YouTubeComments(1020, "https://www.tutorialspoint.com/design_pattern/filter_pattern.htm", 0);
             test_transformFor_YouTubeComments(1021, "https://en.wiktionary.org/wiki/File:en-us-tear-verb.ogg", 0);
             test_transformFor_YouTubeComments(1022, "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript", 4);
             test_transformFor_YouTubeComments(1023, "https://www.dotnetrocks.com/default.aspx?ShowNum=1636", 0);
-
+            test_transformFor_YouTubeComments(1024, "http://www.fullerton.edu/IT/_resources/pdfs/software_students/MATLAB-Toolboxes-AY2017_18.pdf", -1);
 
 
             # ----------------------------------------------------------------
@@ -685,6 +688,7 @@
             # #
             # if (function_exists('do_shortcode'))
             # {
+            #     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
             #     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
             #
             #     #echo do_shortcode('[gallery]'); # Results in some CSS output and also
