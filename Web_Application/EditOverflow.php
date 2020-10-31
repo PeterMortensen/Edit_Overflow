@@ -9,12 +9,6 @@
 
     # Future:
     #
-    #   1. Eliminate/refactor $editSummary, etc. as we now use
-    #      the structured list.
-    #
-    #      We should have some kind of regression test
-    #      because we still use the variable
-    #      $editSummary in an 'if' construct.
 ?>
 
 <!--
@@ -99,14 +93,15 @@
                 $lookUpTerm = 'php';
             }
 
-            # For these two, an empty string is the default / start
-            # value and we don't require it to be set (e.g. from
-            # the start HTML page).
+            # This is the memory of past lookups. We only save the URLs
+            # (list encoded as a text string in the form data) as they
+            # are the only things that need to be remembered (at the
+            # moment). The URLs are used for generating the checkin
+            # message (in two different formats).
             #
-            # To be eliminated
-            $editSummary = get_postParameter('editSummary') ?? '';
+            # An empty string is the default / start value and we don't 
+            # require it to be set (e.g. from the start HTML page, <>).
             #
-            # The structured way (that we actually use now)
             $URLlist_encoded = get_postParameter('URLlist_encoded') ?? '';
 
 
@@ -181,19 +176,36 @@
             $link_HTML = "";
             $correctionComment = "";
 
+
+            # Avoid "Undefined variable: editSummary_output", 
+            # etc. if the lookup of the term failed.
+            #
+            # Or should we simply use a default value
+            # instead (now redundancy with the below)?
+            $editSummary_output  = "";
+            $editSummary_output2 = "";
+            $linkInlineMarkdown = "";
+            
+            $outputEditSummary = 0;
+
+            # True if the (incorrect) term was found in our
+            # huge list (as of 2020-10-29, 14852 items)
             if ($correctTerm)
             {
+                $outputEditSummary = 1;
+                
                 # Add to our built-up edit summary string (using
                 # the carried-over state and our new lookup)
 
-                #Later: more sophisticated, parsing $editSummary_encoded, etc.
-                #To be eliminated
-                $editSummary     = $editSummary . "<" . $URL . "> "; #Error: we get a leading space
-                                                                     #       for the last item
-
-                # The structured way (that we actually use now)
+                # Update our memory (for the edit summary) - it will be
+                # output in the generated HTML in a hidden form field
+                # ("URLlist_encoded". See below in the HTML form part,
+                # near 'name="URLlist_encoded"').
+                #
                 $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____"
-                                                                     #      for the first item
+                                                                     #      for the first item (and
+                                                                     #      thus an empty entry when
+                                                                     #)     decoding it).
 
                 $linkInlineMarkdown = "[$correctTerm]($URL)";
 
@@ -247,27 +259,17 @@
                   "It is \"" . $correctTerm . "\" (not \"" .
                   $lookUpTerm . "\"). See e.g.: " . $URL .
                   ". You can edit your question/comment/answer/post.";
-            }
-            else
-            {
-                # Avoid "Undefined variable: editSummary_output", etc.
-                # Or should we simply use a default value
-                # instead (now redundancy with the below)?
-                $editSummary_output  = "";
-                $editSummary_output2 = "";
+            } //Term lokup succeeded
 
-                $linkInlineMarkdown = "";
-            }
-
-            # At the end, as we want it completely blank. That is, only
-            # the next lookup should be part of the checkin message.
+            # This is at the end, as we want it completely blank, no matter
+            # what. That is, only the next lookup should be part of the 
+            # checkin message.
             if (array_key_exists('resetState', $_REQUEST))
             {
-                $editSummary = ""; #To be eliminated
-                $URLlist_encoded = "";
-
-                $editSummary_output  = "";
-                $editSummary_output2 = "";
+                $outputEditSummary = 0;
+                
+                $URLlist_encoded = ""; # Clear out the memory (between pages,
+                                       # for the edit summary)
             }
 
             $items = preg_split('/____/', $URLlist_encoded);
@@ -308,8 +310,7 @@
             #echo "<p>URLlist: xxx"  . $URLlist  . "xxx <p>\n";
             #echo "<p>URLlist2: xxx" . $URLlist2 . "xxx <p>\n";
 
-            if ($editSummary) # "$editSummary" is to be eliminated and replaced
-                              # with an equivalent 'if' construct.
+            if ($outputEditSummary)
             {
                 # Derived
                 $editSummary_output = "Active reading [" . $URLlist . "].";
@@ -362,9 +363,9 @@
         <?php
             #Now dynamic (shows the term in the title so we can
             #distinguish e.g. when opening recently closed tabs
-            #in Firefox), but we may to add a special case for
-            #***empty*** input/initial page... (right now it
-            #is using some default).
+            #in Firefox), but we may need  to add a special case
+            #for ***empty*** input/initial page... (right now
+            #it is using some default).
 
             the_EditOverflowHeadline("Look up of \"$lookUpTerm\"");
         ?>
@@ -710,25 +711,9 @@
                     }
                 ?>
 
-                <!-- Hidden field, close to the output format for
-                     the edit summary
-
-                  Sample:
-
-                    <https://en.wikipedia.org/wiki/HTML> <https://en.wikipedia.org/wiki/PHP>
-
-                -->
-                <!-- To be eliminated -->
-                <input
-                    name="editSummary"
-                    type="hidden"
-                    id="editSummary"
-                    class="XYZ5"
-                    <?php the_formValue($editSummary); ?>
-                />
-
-
-                <!-- Hidden field, structured format for the edit summary -->
+                <!-- Hidden field, structured format for remembering the
+                     items for the edit summary (currently the list
+                     of associated URLs for the successful term lookups) -->
                 <input
                     name="URLlist_encoded"
                     type="hidden"

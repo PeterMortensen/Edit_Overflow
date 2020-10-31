@@ -84,7 +84,7 @@
                         "</p>\n";
                 }
                 return [$text2, $message2];
-            }
+            } #removeTrailingSpacesAndTABs()
 
 
             function findCommonLeadingSpaces($aText)
@@ -188,7 +188,7 @@
                 $lenAfter  = strlen($aNewText);
                 $diff = $lenBefore - $lenAfter;
 
-                # Some redundancy here (refactor?)
+                #Some redundancy here (refactor?)
 
                 if ($lenBefore < 2)
                 {
@@ -221,7 +221,7 @@
                     #echo "It fits! Text length (incl. end-of-line): " .
                     #     "$lenBefore characters\n";
                 }
-            }
+            } # assert_strLengths()
 
 
             # Helper function for testing
