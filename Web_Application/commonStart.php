@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a75 2020-10-25T180800Z+0";
+        return "Edit Overflow v. 1.1.49a76 2020-10-31T000312Z+0";
     }
 
 
@@ -163,7 +163,7 @@
 
 
     # Helper function to support switching between form based
-    # lookup (server) and client-side lookup (JavaScripty).
+    # lookup (server) and client-side lookup (JavaScript).
     #
     function useJavaScriptLookup()
     {
