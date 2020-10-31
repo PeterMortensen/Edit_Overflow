@@ -1286,6 +1286,7 @@ namespace OverflowHelper.core
             correctionAdd("databese", "database");
             correctionAdd("D/B", "database");
             correctionAdd("Database", "database");
+            correctionAdd("datase", "database");
 
             correctionAdd("ria", "RIA");
             correctionAdd("Rich Internet application", "RIA");
@@ -1841,6 +1842,7 @@ namespace OverflowHelper.core
             correctionAdd("Scipy", "SciPy");
             correctionAdd("SciPY", "SciPy");
             correctionAdd("SCIPY", "SciPy");
+            correctionAdd("ScyPy", "SciPy");
 
             correctionAdd("ldap", "LDAP");
 
@@ -3170,6 +3172,7 @@ namespace OverflowHelper.core
 
             correctionAdd("seperation", "separation");
             correctionAdd("speraration", "separation");
+            correctionAdd("Seperation", "separation");
 
             correctionAdd("cpu", "CPU");
             correctionAdd("Cpu", "CPU");
@@ -3843,6 +3846,15 @@ namespace OverflowHelper.core
             correctionAdd("Iirc", "if I remember correctly");
             correctionAdd("IIRC", "if I remember correctly");
 
+            // Of PowerShell...
+            correctionAdd("get-variable", "Get-Variable");
+
+            // Of PowerShell...
+            correctionAdd("new-variable", "New-Variable");
+
+            // Of PowerShell...
+            correctionAdd("set-variable", "Set-Variable");
+
             correctionAdd("var", "variable");
             correctionAdd("vars", "variable"); //Plural, to avoid nearly duplicate entries.
             correctionAdd("varialbe", "variable");
@@ -3858,6 +3870,8 @@ namespace OverflowHelper.core
             correctionAdd("variabel", "variable");
             correctionAdd("Variabile", "variable");
             correctionAdd("variabile", "variable");
+            correctionAdd("vaibles", "variable");
+            correctionAdd("vaible", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -8884,8 +8898,6 @@ namespace OverflowHelper.core
             correctionAdd("psobject", "PSObject");
             correctionAdd("PsObject", "PSObject");
 
-            correctionAdd("get-variable", "Get-Variable");
-
             correctionAdd("SRP", "single responsibility principle");
             correctionAdd("Single responsability principle", "single responsibility principle");
             correctionAdd("single responsability principle", "single responsibility principle");
@@ -9875,14 +9887,14 @@ namespace OverflowHelper.core
             correctionAdd("futher more", "furthermore");
             correctionAdd("further more", "furthermore");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-winevent", "Get-WinEvent");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-eventlog", "Get-EventLog");
             correctionAdd("Get-eventlog", "Get-EventLog");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("compare-object", "Compare-Object");
 
             correctionAdd("arabic", "Arabic");
@@ -9959,6 +9971,7 @@ namespace OverflowHelper.core
             correctionAdd("thx", "thanks");
             correctionAdd("Thenks", "thanks");
             correctionAdd("thenks", "thanks");
+            correctionAdd("thaks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -10040,12 +10053,12 @@ namespace OverflowHelper.core
             correctionAdd("Leanardo", "Arduino Leonardo");
             correctionAdd("Leo", "Arduino Leonardo");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-service", "Get-Service");
             correctionAdd("Get-service", "Get-Service");
             correctionAdd("get-Service", "Get-Service");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("set-service", "Set-Service");
 
             correctionAdd("AtTiny85", "ATtiny85");
@@ -10902,8 +10915,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ros", "ROS");
 
-            correctionAdd("set-variable", "Set-Variable");
-
             correctionAdd("Tex", "TeX");
             correctionAdd("TEX", "TeX");
             correctionAdd("tex", "TeX");
@@ -11068,8 +11079,6 @@ namespace OverflowHelper.core
             correctionAdd("MVCE", "MCVE");
             correctionAdd("MRE", "MCVE");
             correctionAdd("mre", "MCVE");
-
-            correctionAdd("new-variable", "New-Variable");
 
             correctionAdd("convertto-csv", "ConvertTo-Csv");
 
@@ -13617,6 +13626,7 @@ namespace OverflowHelper.core
             correctionAdd("WebDav", "WebDAV");
 
             correctionAdd("cleanup", "clean up");
+            correctionAdd("clean-up", "clean up");
 
             correctionAdd("surly", "surely");
             correctionAdd("shurely", "surely");
@@ -16203,6 +16213,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Chess", "chess"); // Chess
 
+            correctionAdd("chess board", "chessboard");
+
             // End of chess part
 
             correctionAdd("demonitisation", "demonetisation");
@@ -16550,6 +16562,7 @@ namespace OverflowHelper.core
             correctionAdd("401k", "401(k)");
 
             correctionAdd("big bang", "Big Bang");
+            correctionAdd("bib bang", "Big Bang");
 
             correctionAdd("dfu", "DFU");
 
@@ -16975,6 +16988,8 @@ namespace OverflowHelper.core
 
             correctionAdd("amatur", "amateur");
             correctionAdd("ametur", "amateur");
+            correctionAdd("aimiture", "amateur");
+            correctionAdd("amataur", "amateur");
 
             correctionAdd("entierly", "entirely");
 
@@ -18531,7 +18546,7 @@ namespace OverflowHelper.core
             correctionAdd("Web SE", "Web Applications");
             correctionAdd("WebApps.StackExchange", "Web Applications");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-process", "Get-Process");
             correctionAdd("Get-process", "Get-Process");
 
@@ -18714,10 +18729,10 @@ namespace OverflowHelper.core
             //  PowerShell 4.0:  http://technet.microsoft.com/en-us/library/hh849945.aspx
             //
             //
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("read-host", "Read-Host");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-childitem", "Get-ChildItem");
             correctionAdd("gci", "Get-ChildItem");
             correctionAdd("Get-childitem", "Get-ChildItem");
@@ -18726,60 +18741,60 @@ namespace OverflowHelper.core
             correctionAdd("Get-Children", "Get-ChildItem"); //Actually, there is no such thing as Get-Children in PowerShell.
             correctionAdd("gcm", "Get-ChildItem");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("measure-object", "Measure-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("select-object", "Select-Object");
             correctionAdd("select", "Select-Object");
             correctionAdd("Select", "Select-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-member", "Get-Member");
             correctionAdd("gm", "Get-Member"); // The alias
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-adgroupmember", "Get-ADGroupMember");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("where-object", "Where-Object");
             correctionAdd("where", "Where-Object"); // The alias
             correctionAdd("Where-object", "Where-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("group-object", "Group-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("sort-object", "Sort-Object");
             correctionAdd("sort", "Sort-Object"); // An alias.
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("add-member", "Add-Member");
             correctionAdd("Add-member", "Add-Member");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("new-object", "New-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-content", "Get-Content");
             correctionAdd("GET-CONTENT", "Get-Content");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-help", "Get-Help");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("remove-item", "Remove-Item");
             correctionAdd("rd", "Remove-Item");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("add-content", "Add-Content");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-date", "Get-Date");
             correctionAdd("get-Date", "Get-Date");
             correctionAdd("Get-date", "Get-Date");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("Write-Object", "Write-Output");
             correctionAdd("write-output", "Write-Output");
             correctionAdd("write-Output", "Write-Output");
@@ -18788,72 +18803,72 @@ namespace OverflowHelper.core
             correctionAdd("Write-output", "Write-Output");
             correctionAdd("write-ouptut", "Write-Output");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("write-host", "Write-Host");
             correctionAdd("Write-host", "Write-Host");
             correctionAdd("write-Host", "Write-Host");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("format-list", "Format-List");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("format-table", "Format-Table");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("out-file", "Out-File");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-command", "Get-Command");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-host", "Get-Host");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("tee-object", "Tee-Object");
             correctionAdd("tee", "Tee-Object");
             correctionAdd("Tee-object", "Tee-Object");
             correctionAdd("Tea", "Tee-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("invoke-command", "Invoke-Command");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("set-executionPolicy", "Set-ExecutionPolicy");
             correctionAdd("set-executionpolicy", "Set-ExecutionPolicy");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-wmiobject", "Get-WmiObject");
             correctionAdd("get-WmiObject", "Get-WmiObject");
             correctionAdd("Get-WMIObject", "Get-WmiObject");
             correctionAdd("gwmi", "Get-WmiObject"); // An alias.
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("export-csv", "Export-Csv");
             correctionAdd("export-CSV", "Export-Csv");
             correctionAdd("Export-CSV", "Export-Csv");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("copy-item", "Copy-Item");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("set-item", "Set-Item");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-item", "Get-Item");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("ConvertFrom-CSV", "ConvertFrom-Csv");
             correctionAdd("convertfrom-csv", "ConvertFrom-Csv");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("resolve-path", "Resolve-Path");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("import-csv", "Import-Csv");
             correctionAdd("Import-CSV", "Import-Csv");
             correctionAdd("Import-csv", "Import-Csv");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("foreach-object", "ForEach-Object");
             correctionAdd("ForEach", "ForEach-Object");
             correctionAdd("Foreach", "ForEach-Object");
@@ -18861,37 +18876,37 @@ namespace OverflowHelper.core
             correctionAdd("%", "ForEach-Object");
             correctionAdd("Foreach-Object", "ForEach-Object");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-aduser", "Get-ADUser");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("select-string", "Select-String");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("set-strictmode", "Set-StrictMode");
 
-            //Of PowerShell... What about "clear"?
+            // Of PowerShell... What about "clear"?
             correctionAdd("clear-host", "Clear-Host");
             correctionAdd("cls", "Clear-Host");
             correctionAdd("CLS", "Clear-Host");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("exit", "Exit");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("join-path", "Join-Path");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("new-item", "New-Item");
             correctionAdd("ni", "New-Item");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("out-null", "Out-Null");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("Invoke-Web-Request", "Invoke-WebRequest");
 
-            //Of PowerShell...
+            // Of PowerShell...
             correctionAdd("get-itemproperty", "Get-ItemProperty");
 
             correctionAdd("jnlp", "JNLP");
@@ -20019,6 +20034,7 @@ namespace OverflowHelper.core
             correctionAdd("jock", "joke");
 
             correctionAdd("non", "none");
+            correctionAdd("Non", "none");
 
             correctionAdd("apponent", "opponent");
             correctionAdd("Apponent", "opponent");
@@ -21002,6 +21018,32 @@ namespace OverflowHelper.core
             correctionAdd("tollerate", "tolerate");
 
             correctionAdd("ontop", "on top");
+
+            correctionAdd("islam", "Islam");
+
+            correctionAdd("accleration", "acceleration");
+
+            correctionAdd("astrominer", "astronomer");
+
+            correctionAdd("compaire", "compare");
+
+            correctionAdd("compaired", "compared");
+
+            correctionAdd("enourmous", "enormous");
+
+            correctionAdd("outwheigh", "outweigh");
+
+            correctionAdd("recal", "recall");
+
+            correctionAdd("stesdy stste", "steady state");
+
+            correctionAdd("stroies", "stories");
+
+            correctionAdd("stroy", "story");
+
+            correctionAdd("stubbern", "stubborn");
+
+            correctionAdd("surrend", "surrender");
 
 
             // Start of coronavirus part...
@@ -32353,6 +32395,34 @@ namespace OverflowHelper.core
             URL_Add("tolerate", "https://en.wiktionary.org/wiki/tolerate#Verb");
 
             URL_Add("on top", "https://en.wiktionary.org/wiki/on_top#Adverb");
+
+            URL_Add("Islam", "https://en.wiktionary.org/wiki/Islam#Proper_noun");
+
+            URL_Add("acceleration", "https://en.wiktionary.org/wiki/acceleration#Noun");
+
+            URL_Add("astronomer", "https://en.wiktionary.org/wiki/astronomer#Noun");
+
+            URL_Add("chessboard", "https://en.wiktionary.org/wiki/chessboard#Noun");
+
+            URL_Add("compare", "https://en.wiktionary.org/wiki/compare#Verb");
+
+            URL_Add("compared", "https://en.wiktionary.org/wiki/compare#Verb");
+
+            URL_Add("enormous", "https://en.wiktionary.org/wiki/enormous#Adjective");
+
+            URL_Add("outweigh", "https://en.wiktionary.org/wiki/outweigh#Verb");
+
+            URL_Add("recall", "https://en.wiktionary.org/wiki/recall#Verb");
+
+            URL_Add("steady state", "https://en.wiktionary.org/wiki/steady_state#Noun");
+
+            URL_Add("stories", "https://en.wiktionary.org/wiki/story");
+
+            URL_Add("story", "https://en.wiktionary.org/wiki/story");
+
+            URL_Add("stubborn", "https://en.wiktionary.org/wiki/stubborn#Adjective");
+
+            URL_Add("surrender", "https://en.wiktionary.org/wiki/surrender#Verb");
 
 
 
