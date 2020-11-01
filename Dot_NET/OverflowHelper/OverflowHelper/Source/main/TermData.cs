@@ -5726,6 +5726,7 @@ namespace OverflowHelper.core
             correctionAdd("XARGS", "xargs");
 
             correctionAdd("Find", "find");
+            correctionAdd("fine", "find"); // True typo...
 
             correctionAdd("moonlight", "Moonlight");
 
@@ -6996,6 +6997,8 @@ namespace OverflowHelper.core
             correctionAdd("proprietrary", "proprietary");
             correctionAdd("Propriatory", "proprietary");
             correctionAdd("propriatory", "proprietary");
+            correctionAdd("propitiatory", "proprietary");
+            correctionAdd("propritiatory", "proprietary");
 
             correctionAdd("meteor", "Meteor");
             correctionAdd("Meteor.js", "Meteor");
@@ -9253,6 +9256,7 @@ namespace OverflowHelper.core
             correctionAdd("down vote", "downvote");
             correctionAdd("down vode", "downvote");
             correctionAdd("Downvote", "downvote");
+            correctionAdd("down Vote", "downvote");
 
             correctionAdd("every", "every time"); // What is this????
             correctionAdd("everytime", "every time");
@@ -9565,6 +9569,7 @@ namespace OverflowHelper.core
             correctionAdd("dynamicly", "dynamically");
             correctionAdd("dinamycally", "dynamically");
             correctionAdd("dinamically", "dynamically");
+            correctionAdd("dynamicaly", "dynamically");
 
             correctionAdd("beyong", "beyond");
 
@@ -13159,6 +13164,7 @@ namespace OverflowHelper.core
             correctionAdd("Ohm’s Law", "Ohm's law");
             correctionAdd("Ohm's Law", "Ohm's law");
             correctionAdd("ohms law", "Ohm's law");
+            correctionAdd("Ohms law", "Ohm's law");
 
             correctionAdd("php composer", "PHP Composer");
             correctionAdd("Composer", "PHP Composer");
@@ -15271,6 +15277,7 @@ namespace OverflowHelper.core
             correctionAdd("neotree", "Neo Tree");
 
             correctionAdd("Star link", "Starlink");
+            correctionAdd("starlink", "Starlink");
 
             correctionAdd("Air Portugal", "TAP Air Portugal");
 
@@ -21039,6 +21046,44 @@ namespace OverflowHelper.core
 
             correctionAdd("surrend", "surrender");
 
+            correctionAdd("google photos", "Google Photos");
+
+            correctionAdd("julia", "Julia");
+
+            correctionAdd("Kirchoff's Law", "Kirchoff's law");
+
+            correctionAdd("sanskrit", "Sanskrit");
+            correctionAdd("sanskritt", "Sanskrit");
+
+            correctionAdd("swiftforth", "SwiftForth");
+
+            correctionAdd("tails", "Tails");
+
+            correctionAdd("xlsx", "XLSX");
+
+            correctionAdd("corrupt-ful", "corruptful");
+
+            correctionAdd("de-orbited", "deorbited");
+
+            correctionAdd("de-orbiting", "deorbiting");
+
+            correctionAdd("delutant", "dilutant");
+
+            correctionAdd("F-stop", "f-number");
+            correctionAdd("F-number", "f-number");
+            correctionAdd("F-Stop", "f-number");
+            correctionAdd("f-stop", "f-number");
+
+            correctionAdd("fear-ful", "fearful");
+
+            correctionAdd("Focal Length", "focal length");
+
+            correctionAdd("mis-classifying", "misclassifying");
+
+            correctionAdd("Theorem", "theorem");
+
+            correctionAdd("unsalvagable", "unsalvageable");
+
 
             // Start of coronavirus part...
 
@@ -21146,7 +21191,7 @@ namespace OverflowHelper.core
             //
             //   4. https://en.wikipedia.org/wiki/IPv6
             //      IPv6
-            //   
+            //
             //   5. Microsoft Chart Controls (correct name? What is the Wikipedia page?)
 
 
@@ -21930,7 +21975,7 @@ namespace OverflowHelper.core
             URL_Add("n-tier", "https://en.wikipedia.org/wiki/Multitier_architecture");
 
             // Was https://en.wikipedia.org/wiki/Delphi!!!
-            // 
+            //
             // Old URL was https://en.wikipedia.org/wiki/Delphi_%28language%29, now redirected. And
             // Incorrectly so, to Object Pascal, <https://en.wikipedia.org/wiki/Object_Pascal>.
             //
@@ -32417,6 +32462,40 @@ namespace OverflowHelper.core
             URL_Add("stubborn", "https://en.wiktionary.org/wiki/stubborn#Adjective");
 
             URL_Add("surrender", "https://en.wiktionary.org/wiki/surrender#Verb");
+
+            URL_Add("Google Photos", "https://en.wikipedia.org/wiki/Google_Photos");
+
+            URL_Add("Julia", "https://en.wikipedia.org/wiki/Julia_%28programming_language%29");
+
+            URL_Add("Kirchoff's law", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws");
+
+            URL_Add("Sanskrit", "https://en.wikipedia.org/wiki/Sanskrit");
+
+            URL_Add("SwiftForth", "https://www.forth.com/swiftforth/#Overview");
+
+            URL_Add("Tails", "https://en.wikipedia.org/wiki/Tails_%28operating_system%29");
+
+            URL_Add("XLSX", "https://en.wikipedia.org/wiki/Microsoft_Excel#Current_file_extensions");
+
+            URL_Add("corruptful", "https://en.wiktionary.org/wiki/corruptful#Adjective");
+
+            URL_Add("deorbited", "https://en.wiktionary.org/wiki/deorbit#Verb");
+
+            URL_Add("deorbiting", "https://en.wiktionary.org/wiki/deorbit#Verb");
+
+            URL_Add("dilutant", "https://en.wiktionary.org/wiki/dilutant#Noun");
+
+            URL_Add("f-number", "https://en.wikipedia.org/wiki/F-number");
+
+            URL_Add("fearful", "https://en.wiktionary.org/wiki/fearful#Adjective");
+
+            URL_Add("focal length", "https://en.wiktionary.org/wiki/focal_length#Noun");
+
+            URL_Add("misclassifying", "https://en.wiktionary.org/wiki/misclassify#Verb");
+
+            URL_Add("theorem", "https://en.wiktionary.org/wiki/theorem#Noun");
+
+            URL_Add("unsalvageable", "https://en.wiktionary.org/wiki/unsalvageable#Adjective");
 
 
 
