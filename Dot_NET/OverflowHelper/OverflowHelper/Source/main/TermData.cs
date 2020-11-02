@@ -832,6 +832,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tiff", "TIFF");
             correctionAdd("tif", "TIFF");
+            correctionAdd("TIF", "TIFF");
 
             correctionAdd("android", "Android");
             correctionAdd("andrioid", "Android"); // Misspelling.
@@ -6867,9 +6868,6 @@ namespace OverflowHelper.core
             correctionAdd("uS", "µs"); // Microseconds.
             correctionAdd("uSec", "µs"); // Microseconds.
 
-            correctionAdd("GPO", "Group Policy Object");
-            correctionAdd("gpo", "Group Policy Object");
-
             correctionAdd("n/w", "network");
 
             correctionAdd("pep", "PEP");
@@ -8894,9 +8892,6 @@ namespace OverflowHelper.core
             correctionAdd("Choco", "Chocolatey");
             correctionAdd("Chocolaty", "Chocolatey");
 
-            correctionAdd("psobject", "PSObject");
-            correctionAdd("PsObject", "PSObject");
-
             correctionAdd("SRP", "single responsibility principle");
             correctionAdd("Single responsability principle", "single responsibility principle");
             correctionAdd("single responsability principle", "single responsibility principle");
@@ -9895,9 +9890,6 @@ namespace OverflowHelper.core
             correctionAdd("get-eventlog", "Get-EventLog");
             correctionAdd("Get-eventlog", "Get-EventLog");
 
-            // Of PowerShell...
-            correctionAdd("compare-object", "Compare-Object");
-
             correctionAdd("arabic", "Arabic");
 
             correctionAdd("roman", "Roman");
@@ -10792,9 +10784,6 @@ namespace OverflowHelper.core
             correctionAdd("ORACLE", "Oracle");
 
             correctionAdd("out-gridview", "Out-GridView");
-
-            correctionAdd("pscustomobject", "PSCustomObject");
-            correctionAdd("PsCustomObject", "PSCustomObject");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -11912,7 +11901,22 @@ namespace OverflowHelper.core
 
             correctionAdd("odesk", "oDesk");
 
+            correctionAdd("GPO", "Group Policy Object");
+            correctionAdd("gpo", "Group Policy Object");
+
+            // Of PowerShell...
+            correctionAdd("psobject", "PSObject");
+            correctionAdd("PsObject", "PSObject");
+
+            // Of PowerShell...
+            correctionAdd("compare-object", "Compare-Object");
+
+            // Of PowerShell...
+            correctionAdd("pscustomobject", "PSCustomObject");
+            correctionAdd("PsCustomObject", "PSCustomObject");
+
             correctionAdd("obejct", "object");
+            correctionAdd("objet", "object");
 
             correctionAdd("preceede", "precede");
 
@@ -20233,6 +20237,7 @@ namespace OverflowHelper.core
 
             correctionAdd("commonjs", "CommonJS");
             correctionAdd("CommonJs", "CommonJS");
+            correctionAdd("commonJS", "CommonJS");
 
             correctionAdd("iify", "IIFE");
             correctionAdd("iife", "IIFE");
@@ -21083,6 +21088,28 @@ namespace OverflowHelper.core
             correctionAdd("Theorem", "theorem");
 
             correctionAdd("unsalvagable", "unsalvageable");
+
+            correctionAdd("heic", "HEIC");
+
+            correctionAdd("sonmez", "John Sonmez");
+            correctionAdd("Somnez", "John Sonmez");            
+
+            correctionAdd("open firmware", "Open Firmware");
+
+            correctionAdd("bizare", "bizarre");
+            correctionAdd("baazar", "bizarre");
+
+            correctionAdd("ColorForth", "colorForth");
+            correctionAdd("colorforth", "colorForth");
+
+            correctionAdd("LTR", "long-term relationship");
+            correctionAdd("ltr", "long-term relationship");
+
+            correctionAdd("new fangled", "newfangled");
+
+            correctionAdd("over interpretation", "overinterpretation");
+
+            correctionAdd("touch up", "touch-up");
 
 
             // Start of coronavirus part...
@@ -32496,6 +32523,25 @@ namespace OverflowHelper.core
             URL_Add("theorem", "https://en.wiktionary.org/wiki/theorem#Noun");
 
             URL_Add("unsalvageable", "https://en.wiktionary.org/wiki/unsalvageable#Adjective");
+
+            URL_Add("HEIC", "https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format");
+
+            URL_Add("John Sonmez", "https://stackoverflow.com/users/45365/john-sonmez");
+
+            URL_Add("Open Firmware", "https://en.wikipedia.org/wiki/Open_Firmware");
+
+            URL_Add("bizarre", "https://en.wiktionary.org/wiki/bizarre#Adjective");
+
+            URL_Add("colorForth", "https://en.wikipedia.org/wiki/ColorForth");
+
+            URL_Add("long-term relationship", "https://en.wiktionary.org/wiki/LTR#Noun");
+
+            URL_Add("newfangled", "https://en.wiktionary.org/wiki/newfangled#Adjective");
+
+            URL_Add("overinterpretation", "https://en.wiktionary.org/wiki/overinterpretation");
+
+            URL_Add("touch-up", "https://en.wiktionary.org/wiki/touch-up#Noun");
+
 
 
 
