@@ -23410,7 +23410,7 @@ namespace OverflowHelper.core
 
             URL_Add("Sublime Text", "https://en.wikipedia.org/wiki/Sublime_Text");
 
-            URL_Add("proprietary", "https://en.wiktionary.org/wiki/proprietary");
+            URL_Add("proprietary", "https://en.wiktionary.org/wiki/proprietary#Adjective"); // Old: https://en.wiktionary.org/wiki/proprietary
 
             URL_Add("Meteor", "https://en.wikipedia.org/wiki/Meteor_%28web_framework%29");
 
@@ -24735,7 +24735,7 @@ namespace OverflowHelper.core
 
             URL_Add("ClearCase", "https://en.wikipedia.org/wiki/Rational_ClearCase");
 
-            URL_Add("off-topic", "https://en.wiktionary.org/wiki/off-topic");
+            URL_Add("off-topic", "https://en.wiktionary.org/wiki/off-topic#Adjective"); // Old: https://en.wiktionary.org/wiki/off-topic
 
             URL_Add("particularly", "https://en.wiktionary.org/wiki/particularly#Adverb");
 
@@ -29550,7 +29550,7 @@ namespace OverflowHelper.core
 
             URL_Add("smartwatch", "https://en.wikipedia.org/wiki/Smartwatch");
 
-            URL_Add("sockpuppet", "https://en.wikipedia.org/wiki/Sockpuppet_(Internet)");
+            URL_Add("sockpuppet", "https://en.wikipedia.org/wiki/Sock_puppet_account"); // Old: https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
 
             URL_Add("threadsafe", "https://en.wiktionary.org/wiki/threadsafe#Adjective");
 
