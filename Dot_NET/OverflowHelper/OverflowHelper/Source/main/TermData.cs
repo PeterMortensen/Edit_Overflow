@@ -4154,6 +4154,7 @@ namespace OverflowHelper.core
             correctionAdd("Microshaft", "Microsoft");
             correctionAdd("micro$oft", "Microsoft");
             correctionAdd("Micro$oft", "Microsoft");
+            correctionAdd("Micro$**t", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -6331,22 +6332,6 @@ namespace OverflowHelper.core
             correctionAdd("SAMBA", "Samba");
             correctionAdd("samba", "Samba");
 
-            correctionAdd("os", "operating system");
-            correctionAdd("OS", "operating system");
-            correctionAdd("O/S", "operating system");
-            correctionAdd("o/s", "operating system");
-            correctionAdd("Operating System", "operating system");
-            correctionAdd("Os", "operating system");
-            correctionAdd("Operating Sytem", "operating system");
-            correctionAdd("operation system", "operating system");
-            correctionAdd("operational system", "operating system");
-            correctionAdd("Operative system", "operating system");
-            correctionAdd("operative system", "operating system");
-            correctionAdd("Operating system", "operating system");
-            correctionAdd("operatating system", "operating system");
-            correctionAdd("Operation System", "operating system");
-            correctionAdd("operting system", "operating system");
-
             correctionAdd("colo", "colocation centre");
 
             correctionAdd("windbg", "WinDbg");
@@ -6634,6 +6619,7 @@ namespace OverflowHelper.core
             correctionAdd("imidiately", "immediately");
             correctionAdd("imidiatly", "immediately");
             correctionAdd("immeadiately", "immediately");
+            correctionAdd("immiediately", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -8169,14 +8155,6 @@ namespace OverflowHelper.core
             correctionAdd("Rtsp", "RTSP");
             correctionAdd("rtsp", "RTSP");
 
-            correctionAdd("FileSystem", "file system");
-            correctionAdd("FS", "file system");
-            correctionAdd("filesystem", "file system");
-            correctionAdd("file-system", "file system");
-            correctionAdd("file sytem", "file system");
-            correctionAdd("fs", "file system");
-            correctionAdd("filesytem", "file system");
-
             correctionAdd("mmc", "MMC");
 
             correctionAdd("angstrom", "Ångström Linux");
@@ -8499,10 +8477,6 @@ namespace OverflowHelper.core
             correctionAdd("DRCS", "Distributed revision control"); // Expansion, actually "distributed revision control system"
             correctionAdd("distributed version control system", "Distributed revision control");
             correctionAdd("distributed revision control system", "Distributed revision control");
-
-            correctionAdd("VCS", "version control system"); // Expansion, actually ""
-            correctionAdd("vcs", "version control system");
-            correctionAdd("Version Control", "version control system");
 
             correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
             correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
@@ -9988,6 +9962,8 @@ namespace OverflowHelper.core
             correctionAdd("KOTLIN", "Kotlin");
 
             correctionAdd("arent", "aren't");
+            correctionAdd("arn't", "aren't");
+            correctionAdd("arnt", "aren't");
 
             correctionAdd("Email", "email");
             correctionAdd("meail", "email");
@@ -14381,6 +14357,7 @@ namespace OverflowHelper.core
             correctionAdd("sateligh", "satellite");
             correctionAdd("satalite", "satellite");
             correctionAdd("satellit", "satellite");
+            correctionAdd("sat", "satellite");
 
             correctionAdd("slow down", "slowdown");
 
@@ -14681,6 +14658,7 @@ namespace OverflowHelper.core
             correctionAdd("iT", "IT");
 
             correctionAdd("Northern Hemiphere", "Northern Hemisphere");
+            correctionAdd("northern hemisphere", "Northern Hemisphere");
 
             correctionAdd("PDP11", "PDP-11");
 
@@ -15543,8 +15521,6 @@ namespace OverflowHelper.core
             correctionAdd("die-hard", "diehard");
             correctionAdd("die hard", "diehard");
 
-            correctionAdd("Embedded system", "embedded system");
-
             correctionAdd("Heavy Bomber", "heavy bomber");
 
             correctionAdd("lanch", "launch");
@@ -15934,9 +15910,7 @@ namespace OverflowHelper.core
 
             correctionAdd("spead", "spread");
 
-
             // Start of chess part...
-
             correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
 
             correctionAdd("chessplayer", "chess player"); // Chess
@@ -16218,6 +16192,8 @@ namespace OverflowHelper.core
             correctionAdd("Chess", "chess"); // Chess
 
             correctionAdd("chess board", "chessboard");
+            
+            correctionAdd("Caro-Kann", "Caro–Kann Defence");
 
             // End of chess part
 
@@ -17073,6 +17049,9 @@ namespace OverflowHelper.core
             correctionAdd("rider", "Rider");
 
             correctionAdd("Steve Balmer", "Steve Ballmer");
+            correctionAdd("ballmer", "Steve Ballmer");
+            correctionAdd("Ballmer", "Steve Ballmer");
+            correctionAdd("steve ballmer", "Steve Ballmer");
 
             correctionAdd("brake", "break");
 
@@ -17080,7 +17059,8 @@ namespace OverflowHelper.core
             correctionAdd("zirkonium", "cubic zirconia");
 
             correctionAdd("millinaire", "millionaire");
-
+            correctionAdd("millionair", "millionaire");
+            
             correctionAdd("re-entract", "reentrant");
             correctionAdd("re-entrant", "reentrant");
 
@@ -17789,7 +17769,38 @@ namespace OverflowHelper.core
 
             correctionAdd("skiped", "skipped");
 
+            correctionAdd("Embedded system", "embedded system");
+
+            correctionAdd("os", "operating system");
+            correctionAdd("OS", "operating system");
+            correctionAdd("O/S", "operating system");
+            correctionAdd("o/s", "operating system");
+            correctionAdd("Operating System", "operating system");
+            correctionAdd("Os", "operating system");
+            correctionAdd("Operating Sytem", "operating system");
+            correctionAdd("operation system", "operating system");
+            correctionAdd("operational system", "operating system");
+            correctionAdd("Operative system", "operating system");
+            correctionAdd("operative system", "operating system");
+            correctionAdd("Operating system", "operating system");
+            correctionAdd("operatating system", "operating system");
+            correctionAdd("Operation System", "operating system");
+            correctionAdd("operting system", "operating system");
+
+            correctionAdd("FileSystem", "file system");
+            correctionAdd("FS", "file system");
+            correctionAdd("filesystem", "file system");
+            correctionAdd("file-system", "file system");
+            correctionAdd("file sytem", "file system");
+            correctionAdd("fs", "file system");
+            correctionAdd("filesytem", "file system");
+
+            correctionAdd("VCS", "version control system"); // Expansion, actually ""
+            correctionAdd("vcs", "version control system");
+            correctionAdd("Version Control", "version control system");
+
             correctionAdd("sytem", "system");
+            correctionAdd("sistem", "system");
 
             correctionAdd("ugrade", "upgrade");
 
@@ -21036,7 +21047,6 @@ namespace OverflowHelper.core
 
             correctionAdd("enourmous", "enormous");
 
-
             correctionAdd("outwheigh", "outweigh");
 
             correctionAdd("recal", "recall");
@@ -21111,9 +21121,79 @@ namespace OverflowHelper.core
 
             correctionAdd("touch up", "touch-up");
 
+            correctionAdd("fail2ban", "Fail2ban");
+
+            correctionAdd("gregorian", "Gregorian");
+
+            correctionAdd("jupiter", "Jupiter");
+
+            correctionAdd("leafpad", "Leafpad");
+
+            correctionAdd("mexico", "Mexico");
+
+            correctionAdd("mousepad", "Mousepad");
+
+            correctionAdd("neptune", "Neptune");
+
+            correctionAdd("nixos", "NixOS");
+            correctionAdd("Nix OS", "NixOS");
+
+            correctionAdd("notepadqq", "Notepadqq");
+
+            correctionAdd("november", "November");
+
+            correctionAdd("plc", "PLC");
+
+            correctionAdd("psd", "Photoshop .psd");
+
+            correctionAdd("sun", "Sun");
+
+            correctionAdd("titan", "Titan");
+
+            correctionAdd("uranus", "Uranus");
+
+            correctionAdd("codium", "VSCodium");
+            correctionAdd("Codium", "VSCodium");
+
+            correctionAdd("birdseye view", "bird's-eye view");
+
+            correctionAdd("deliberatly", "deliberately");
+            correctionAdd("deliberratly", "deliberately");
+
+            correctionAdd("excersising", "exercising");
+
+            correctionAdd("frequenrly", "frequently");
+
+            correctionAdd("Germanium", "germanium");
+
+            correctionAdd("ghosttown", "ghost town");
+
+            correctionAdd("imac", "iMac");
+
+            correctionAdd("Payment Processor", "payment processor");
+
+            correctionAdd("powerty", "poverty");
+
+            correctionAdd("preparinng", "preparing");
+
+            correctionAdd("3D", "three-dimensional");
+            correctionAdd("3d", "three-dimensional");
+
+            correctionAdd("tb", "&nbsp;TB");
+
+            correctionAdd("windows server", "Windows Server");
+
+            correctionAdd("windows server 2019", "Windows Server 2019");
+
+            correctionAdd("driveable", "drivable");
+
+            correctionAdd("ops", "operations");
+
+            correctionAdd("recon", "reconnaissance");
+
+            correctionAdd("Search and Rescue", "search and rescue");
 
             // Start of coronavirus part...
-
             correctionAdd("dieing", "dying");
 
             correctionAdd("day", "die");
@@ -21198,9 +21278,6 @@ namespace OverflowHelper.core
             correctionAdd("comorbidites", "comorbidities");
 
             correctionAdd("comorbiditi", "comorbidity");
-
-
-
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -24314,13 +24391,6 @@ namespace OverflowHelper.core
 
             URL_Add("World War II", "https://en.wikipedia.org/wiki/World_War_II");
 
-
-            // URL_Add("", "");
-            // URL_Add("", "");
-            // URL_Add("", "");
-            // URL_Add("", "");
-            // URL_Add("", "");
-
             URL_Add("whereas", "https://en.wiktionary.org/wiki/whereas#Adverb");
 
             URL_Add("everything", "https://en.wiktionary.org/wiki/everything#Pronoun");
@@ -26660,7 +26730,6 @@ namespace OverflowHelper.core
             URL_Add("royal", "https://en.wiktionary.org/wiki/royal#Adjective");
 
             URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
-
 
             URL_Add("Bower", "https://bower.io/");
 
@@ -32542,8 +32611,75 @@ namespace OverflowHelper.core
 
             URL_Add("touch-up", "https://en.wiktionary.org/wiki/touch-up#Noun");
 
+            URL_Add("Caro–Kann Defence", "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence");
 
+            URL_Add("Fail2ban", "https://en.wikipedia.org/wiki/Fail2ban");
 
+            URL_Add("Gregorian", "https://en.wiktionary.org/wiki/Gregorian#Adjective");
+
+            URL_Add("Jupiter", "https://en.wikipedia.org/wiki/Jupiter");
+
+            URL_Add("Leafpad", "https://en.wikipedia.org/wiki/Leafpad");
+
+            URL_Add("Mexico", "https://en.wikipedia.org/wiki/Mexico");
+
+            URL_Add("Mousepad", "https://en.wikipedia.org/wiki/Xfce#Mousepad");
+
+            URL_Add("Neptune", "https://en.wikipedia.org/wiki/Neptune");
+
+            URL_Add("NixOS", "https://en.wikipedia.org/wiki/NixOS");
+
+            URL_Add("Notepadqq", "https://notepadqq.com/s/");
+
+            URL_Add("November", "https://en.wiktionary.org/wiki/November#Proper_noun");
+
+            URL_Add("PLC", "https://en.wikipedia.org/wiki/Programmable_logic_controller");
+
+            URL_Add("Photoshop .psd", "https://en.wikipedia.org/wiki/Adobe_Photoshop#File_format");
+
+            URL_Add("Sun", "https://en.wikipedia.org/wiki/Sun");
+
+            URL_Add("Titan", "https://en.wikipedia.org/wiki/Titan_(moon)");
+
+            URL_Add("Uranus", "https://en.wikipedia.org/wiki/Uranus");
+
+            URL_Add("VSCodium", "https://vscodium.com/");
+
+            URL_Add("bird's-eye view", "https://en.wiktionary.org/wiki/bird%27s-eye_view#Noun");
+
+            URL_Add("deliberately", "https://en.wiktionary.org/wiki/deliberately#Adverb");
+
+            URL_Add("exercising", "https://en.wiktionary.org/wiki/exercise#Verb");
+
+            URL_Add("frequently", "https://en.wiktionary.org/wiki/frequently#Adverb");
+
+            URL_Add("germanium", "https://en.wikipedia.org/wiki/Germanium");
+
+            URL_Add("ghost town", "https://en.wiktionary.org/wiki/ghost_town#Noun");
+
+            URL_Add("iMac", "https://en.wikipedia.org/wiki/IMac");
+
+            URL_Add("payment processor", "https://en.wikipedia.org/wiki/Payment_processor");
+
+            URL_Add("poverty", "https://en.wiktionary.org/wiki/poverty#Noun");
+
+            URL_Add("preparing", "https://en.wiktionary.org/wiki/prepare#Verb");
+
+            URL_Add("three-dimensional", "https://en.wiktionary.org/wiki/three-dimensional#Adjective");
+
+            URL_Add("&nbsp;TB", "https://en.wikipedia.org/wiki/Terabyte");
+
+            URL_Add("Windows Server", "https://en.wikipedia.org/wiki/Windows_Server");
+
+            URL_Add("Windows Server 2019", "https://en.wikipedia.org/wiki/Windows_Server_2019");
+
+            URL_Add("drivable", "https://en.wiktionary.org/wiki/drivable#Adjective");
+
+            URL_Add("operations", "https://en.wiktionary.org/wiki/operations#Noun");
+
+            URL_Add("reconnaissance", "https://en.wiktionary.org/wiki/reconnaissance#Noun");
+
+            URL_Add("search and rescue", "https://en.wikipedia.org/wiki/Search_and_rescue");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
