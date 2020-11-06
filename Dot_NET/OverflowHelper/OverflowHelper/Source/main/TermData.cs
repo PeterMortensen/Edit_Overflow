@@ -21275,6 +21275,25 @@ namespace OverflowHelper.core
             correctionAdd("SAFe", "Scaled Agile Framework");
 
             correctionAdd("framwork", "framework");
+            correctionAdd("frame work", "framework");
+
+            correctionAdd("gpx", "GPX");
+
+            correctionAdd("htmlunit", "HtmlUnit");
+
+            correctionAdd("josm", "JOSM");
+
+            correctionAdd("Osmand", "OsmAnd");
+
+            correctionAdd("Selenium RC", "Selenium Remote Control");
+
+            correctionAdd("vespucci", "Vespucci");
+
+            correctionAdd("cannonical", "canonical");
+
+            correctionAdd("hundereds", "hundreds");
+
+            correctionAdd("unformated", "unformatted");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -32678,6 +32697,24 @@ namespace OverflowHelper.core
             URL_Add("reconnaissance", "https://en.wiktionary.org/wiki/reconnaissance#Noun");
 
             URL_Add("search and rescue", "https://en.wikipedia.org/wiki/Search_and_rescue");
+
+            URL_Add("GPX", "https://en.wikipedia.org/wiki/GPS_Exchange_Format");
+
+            URL_Add("HtmlUnit", "https://en.wikipedia.org/wiki/HtmlUnit");
+
+            URL_Add("JOSM", "https://en.wikipedia.org/wiki/JOSM");
+
+            URL_Add("OsmAnd", "https://en.wikipedia.org/wiki/OsmAnd");
+
+            URL_Add("Selenium Remote Control", "https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_Remote_Control");
+
+            URL_Add("Vespucci", "https://wiki.openstreetmap.org/wiki/Vespucci");
+
+            URL_Add("canonical", "https://en.wiktionary.org/wiki/canonical#Adjective");
+
+            URL_Add("hundreds", "https://en.wiktionary.org/wiki/hundred#Numeral");
+
+            URL_Add("unformatted", "https://en.wiktionary.org/wiki/unformatted");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
