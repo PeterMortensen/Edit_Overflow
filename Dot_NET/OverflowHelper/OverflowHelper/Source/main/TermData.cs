@@ -9610,6 +9610,9 @@ namespace OverflowHelper.core
             correctionAdd("phantom", "PhantomJS");
             correctionAdd("phantomjs", "PhantomJS");
             correctionAdd("Phantom JS", "PhantomJS");
+            correctionAdd("Phantom Js", "PhantomJS");
+            correctionAdd("PhantomJs", "PhantomJS");
+            correctionAdd("Phantom js", "PhantomJS");
 
             correctionAdd("crsf", "CSRF");
 
@@ -10503,6 +10506,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PyPi", "PyPI");
             correctionAdd("pypi", "PyPI");
+            correctionAdd("Pypi", "PyPI");
 
             correctionAdd("scmitt trigger", "Schmitt trigger");
             correctionAdd("Schmidt", "Schmitt trigger");
@@ -12674,6 +12678,7 @@ namespace OverflowHelper.core
             correctionAdd("anon", "anonymous");
             correctionAdd("anonynous", "anonymous");
             correctionAdd("anomyous", "anonymous");
+            correctionAdd("anynomous", "anonymous");
 
             correctionAdd("aproved", "approved");
 
@@ -20396,6 +20401,8 @@ namespace OverflowHelper.core
             correctionAdd("selenium-webdriver", "Selenium WebDriver");
             correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
             correctionAdd("Selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
+            correctionAdd("selenium webdriver", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
 
