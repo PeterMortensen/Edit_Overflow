@@ -11417,6 +11417,7 @@ namespace OverflowHelper.core
 
             correctionAdd("prefectly", "perfectly");
             correctionAdd("perfectely", "perfectly");
+            correctionAdd("perferctly", "perfectly");
 
             correctionAdd("phonemenia", "phonomena");
 
@@ -21391,6 +21392,22 @@ namespace OverflowHelper.core
             correctionAdd("suceed", "succeed");
 
             correctionAdd("turnes", "turns");
+
+            correctionAdd("proxmox", "Proxmox");
+            correctionAdd("promox", "Proxmox");
+
+            correctionAdd("call it the day", "call it a day");
+
+            correctionAdd("pass through", "passthrough");
+
+            correctionAdd("satus", "status");
+
+            correctionAdd("here string", "here-string");
+            correctionAdd("herestring", "here-string");
+
+            correctionAdd("Scientic Linux", "Scientific Linux");
+            correctionAdd("scientic linux", "Scientific Linux");
+            correctionAdd("scientic Linux", "Scientific Linux");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33031,6 +33048,18 @@ namespace OverflowHelper.core
             URL_Add("succeed", "https://en.wiktionary.org/wiki/succeed#Verb");
 
             URL_Add("turns", "https://en.wiktionary.org/wiki/turn#Verb");
+
+            URL_Add("Proxmox", "https://en.wikipedia.org/wiki/Proxmox_Virtual_Environment");
+
+            URL_Add("call it a day", "https://en.wiktionary.org/wiki/call_it_a_day#Verb");
+
+            URL_Add("passthrough", "https://en.wiktionary.org/wiki/passthrough#Noun");
+
+            URL_Add("status", "https://en.wiktionary.org/wiki/status#Noun");
+
+            URL_Add("here-string", "https://en.wikipedia.org/wiki/Here_document");
+
+            URL_Add("Scientific Linux", "https://en.wikipedia.org/wiki/Scientific_Linux");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
