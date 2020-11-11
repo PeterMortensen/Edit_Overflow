@@ -3212,6 +3212,7 @@ namespace OverflowHelper.core
             correctionAdd("Nginx", "nginx");
             correctionAdd("NGINX", "nginx");
             correctionAdd("ngix", "nginx");
+            correctionAdd("NginX", "nginx");
 
             correctionAdd("ligHTTPd", "lighttpd");
 
@@ -7224,6 +7225,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
             correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
 
             correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
             correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
@@ -10583,6 +10585,7 @@ namespace OverflowHelper.core
             correctionAdd("nuff", "enough");
 
             correctionAdd("exisiting", "existing");
+            correctionAdd("exsiting", "existing");
 
             correctionAdd("explainign", "explaining");
             correctionAdd("explainig", "explaining");
@@ -10625,6 +10628,7 @@ namespace OverflowHelper.core
             correctionAdd("seprator", "separator");
             correctionAdd("sepeartor", "separator");
             correctionAdd("seperartor", "separator");
+            correctionAdd("Seperator", "separator");
 
             correctionAdd("statment", "statement");
             correctionAdd("statemet", "statement");
@@ -11887,6 +11891,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Uwsgi", "uWSGI");
             correctionAdd("UWSGI", "uWSGI");
+            correctionAdd("uwsgi", "uWSGI");
 
             correctionAdd("wellbeing", "well-being");
 
@@ -12073,6 +12078,7 @@ namespace OverflowHelper.core
             correctionAdd("power bi", "Power BI");
             correctionAdd("Power bi", "Power BI");
             correctionAdd("PBI", "Power BI");
+            correctionAdd("PowerBi", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -14934,6 +14940,7 @@ namespace OverflowHelper.core
             correctionAdd("From one hand", "on the one hand");
             correctionAdd("from one hand", "on the one hand");
             correctionAdd("On the one hand", "on the one hand");
+            correctionAdd("On one hand", "on the one hand");
 
             correctionAdd("re-point", "repoint");
 
@@ -21386,6 +21393,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Stack Trace", "stack trace");
             correctionAdd("StackTrace", "stack trace");
+            correctionAdd("stacktrace", "stack trace");
 
             correctionAdd("sub folder", "subfolder");
 
@@ -21408,6 +21416,32 @@ namespace OverflowHelper.core
             correctionAdd("Scientic Linux", "Scientific Linux");
             correctionAdd("scientic linux", "Scientific Linux");
             correctionAdd("scientic Linux", "Scientific Linux");
+
+            correctionAdd("kentico", "Kentico CMS");
+
+            correctionAdd("luks", "LUKS");
+
+            correctionAdd("Legendre Polynomialas", "Legendre polynomials");
+
+            correctionAdd("wsl", "Windows Subsystem for Linux");
+            correctionAdd("WSL", "Windows Subsystem for Linux");
+
+            correctionAdd("Emphasize", "emphasis");
+
+            correctionAdd("1 by 1", "one by one");
+
+            correctionAdd("sky scraper", "skyscraper");
+
+            correctionAdd("sop", "standard operating procedure");
+            correctionAdd("SOP", "standard operating procedure");
+
+            correctionAdd("simmetry", "symmetry");
+
+            correctionAdd("tabu", "taboo");
+
+            correctionAdd("under perform", "underperform");
+
+            correctionAdd("under performing", "underperforming");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33060,6 +33094,30 @@ namespace OverflowHelper.core
             URL_Add("here-string", "https://en.wikipedia.org/wiki/Here_document");
 
             URL_Add("Scientific Linux", "https://en.wikipedia.org/wiki/Scientific_Linux");
+
+            URL_Add("Kentico CMS", "https://en.wikipedia.org/wiki/Kentico_CMS");
+
+            URL_Add("LUKS", "https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup");
+
+            URL_Add("Legendre polynomials", "https://en.wikipedia.org/wiki/Legendre_polynomials");
+
+            URL_Add("Windows Subsystem for Linux", "https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux");
+
+            URL_Add("emphasis", "https://en.wiktionary.org/wiki/emphasis#Noun");
+
+            URL_Add("one by one", "https://en.wiktionary.org/wiki/one_by_one#Adverb");
+
+            URL_Add("skyscraper", "https://en.wiktionary.org/wiki/skyscraper#Noun");
+
+            URL_Add("standard operating procedure", "https://en.wikipedia.org/wiki/Standard_operating_procedure");
+
+            URL_Add("symmetry", "https://en.wiktionary.org/wiki/symmetry#Noun");
+
+            URL_Add("taboo", "https://en.wiktionary.org/wiki/taboo#Noun");
+
+            URL_Add("underperform", "https://en.wiktionary.org/wiki/underperform#Verb");
+
+            URL_Add("underperforming", "https://en.wiktionary.org/wiki/underperform#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
