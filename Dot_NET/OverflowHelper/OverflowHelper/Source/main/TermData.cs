@@ -2938,6 +2938,7 @@ namespace OverflowHelper.core
 
             correctionAdd("imho", "IMHO");
             correctionAdd("Imho", "IMHO");
+            correctionAdd("IHMO", "IMHO");
 
             correctionAdd("imo", "IMO");
             correctionAdd("Imo", "IMO");
@@ -6478,6 +6479,8 @@ namespace OverflowHelper.core
             correctionAdd("Play store", "Google Play"); // Old vs. new name???
             correctionAdd("play store", "Google Play"); // Old vs. new name???
             correctionAdd("Andoid Play", "Google Play"); // Does Andoid Play exist????
+            correctionAdd("Google play store", "Google Play");
+            correctionAdd("google play store", "Google Play");
 
             correctionAdd("kinect", "Kinect");
 
@@ -8728,6 +8731,7 @@ namespace OverflowHelper.core
             correctionAdd("Tshirt", "T-shirt");
             correctionAdd("Tee", "T-shirt");
             correctionAdd("T-Shirt", "T-shirt");
+            correctionAdd("tee-shirt", "T-shirt");
 
             correctionAdd("osmc", "OSMC");
 
@@ -8771,6 +8775,7 @@ namespace OverflowHelper.core
             correctionAdd("SmartPhone", "smartphone");
 
             correctionAdd("grammer", "grammar");
+            correctionAdd("Grammar", "grammar");
 
             correctionAdd("chinese", "Chinese");
             correctionAdd("Chiense", "Chinese");
@@ -11491,6 +11496,8 @@ namespace OverflowHelper.core
             correctionAdd("anyways", "anyway");
             correctionAdd("Anyyay", "anyway");
             correctionAdd("anyyay", "anyway");
+            correctionAdd("Anways", "anyway");
+            correctionAdd("Anyways", "anyway");
 
             correctionAdd("breadbord", "breadboard");
             correctionAdd("Breadbord", "breadboard");
@@ -12145,6 +12152,7 @@ namespace OverflowHelper.core
             correctionAdd("vert", "vertical");
 
             correctionAdd("you ll", "you'll");
+            correctionAdd("youll", "you'll");
 
             correctionAdd("APOLLO", "Apollo");
 
@@ -15318,6 +15326,7 @@ namespace OverflowHelper.core
             correctionAdd("STDOUT", "standard output");
             correctionAdd("standard out", "standard output");
             correctionAdd("Standard output", "standard output");
+            correctionAdd("Stdout", "standard output");
 
             correctionAdd("StdErr", "standard error");
             correctionAdd("stderr", "standard error");
@@ -16483,6 +16492,7 @@ namespace OverflowHelper.core
             correctionAdd("physisist", "physicist");
             correctionAdd("physist", "physicist");
             correctionAdd("Physicist", "physicist");
+            correctionAdd("physicis", "physicist");
 
             correctionAdd("unit-less", "unitless");
             correctionAdd("unit less", "unitless");
@@ -20313,6 +20323,8 @@ namespace OverflowHelper.core
             correctionAdd("langage", "language");
             correctionAdd("languague", "language");
             correctionAdd("launguage", "language");
+            correctionAdd("lanuage", "language");
+            correctionAdd("lannguage", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -21442,6 +21454,41 @@ namespace OverflowHelper.core
             correctionAdd("under perform", "underperform");
 
             correctionAdd("under performing", "underperforming");
+
+            correctionAdd("cperl", "CPerl");
+
+            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+
+            correctionAdd("Mercator Projection", "Mercator projection");
+
+            correctionAdd("moose", "Moose");
+
+            correctionAdd("northing", "Northing");
+
+            correctionAdd("wtf8", "WTF-8");
+            correctionAdd("wtf-8", "WTF-8");
+
+            correctionAdd("book seller", "bookseller");
+
+            correctionAdd("Comprehension", "comprehension");
+
+            correctionAdd("Easting", "easting");
+
+            correctionAdd("Equator", "equator");
+
+            correctionAdd("Equatorial", "equatorial");
+
+            correctionAdd("provocator", "provocateur");
+
+            correctionAdd("text book", "textbook");
+
+            correctionAdd("Transverse Mercator Projection", "transverse Mercator projection");
+
+            correctionAdd("wau", "way");
+
+            correctionAdd("Transverse", "transverse");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33118,6 +33165,38 @@ namespace OverflowHelper.core
             URL_Add("underperform", "https://en.wiktionary.org/wiki/underperform#Verb");
 
             URL_Add("underperforming", "https://en.wiktionary.org/wiki/underperform#Verb");
+
+            URL_Add("CPerl", "https://github.com/perl11/cperl/tree/cperl-5.30.0");
+
+            URL_Add("High School English Grammar and Composition by Wren and Martin", "https://en.wikipedia.org/wiki/Wren_%26_Martin");
+
+            URL_Add("Mercator projection", "https://en.wikipedia.org/wiki/Mercator_projection");
+
+            URL_Add("Moose", "https://en.wikipedia.org/wiki/Moose_(Perl)");
+
+            URL_Add("Northing", "https://en.wiktionary.org/wiki/northing#Noun");
+
+            URL_Add("WTF-8", "https://en.wikipedia.org/wiki/UTF-8#WTF-8");
+
+            URL_Add("bookseller", "https://en.wiktionary.org/wiki/bookseller#Noun");
+
+            URL_Add("comprehension", "https://en.wiktionary.org/wiki/comprehension#Noun");
+
+            URL_Add("easting", "https://en.wiktionary.org/wiki/easting#Noun");
+
+            URL_Add("equator", "https://en.wiktionary.org/wiki/equator#Noun");
+
+            URL_Add("equatorial", "https://en.wiktionary.org/wiki/equatorial#Adjective");
+
+            URL_Add("provocateur", "https://en.wiktionary.org/wiki/provocateur#Noun");
+
+            URL_Add("textbook", "https://en.wiktionary.org/wiki/textbook#Noun");
+
+            URL_Add("transverse Mercator projection", "https://en.wikipedia.org/wiki/Transverse_Mercator_projection");
+
+            URL_Add("way", "https://en.wiktionary.org/wiki/way#Noun");
+
+            URL_Add("transverse", "https://en.wiktionary.org/wiki/transverse#AdjectiveEasting");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
