@@ -8960,6 +8960,10 @@ namespace OverflowHelper.core
             correctionAdd("unnecessessary", "unnecessary");
             correctionAdd("unecessary", "unnecessary");
             correctionAdd("uncessesary", "unnecessary");
+            correctionAdd("unnecesarry", "unnecessary");
+            correctionAdd("unneceserry", "unnecessary");
+            correctionAdd("unnecesserry", "unnecessary");
+            correctionAdd("unnecessery", "unnecessary");
 
             correctionAdd("Topcoder", "TopCoder");
             correctionAdd("topcoder", "TopCoder");
@@ -10252,6 +10256,7 @@ namespace OverflowHelper.core
             correctionAdd("preffered", "preferred");
 
             correctionAdd("disapointed", "disappointed");
+            correctionAdd("dissapointed", "disappointed");
 
             correctionAdd("excercise", "exercise");
             correctionAdd("excersise", "exercise");
@@ -10308,6 +10313,8 @@ namespace OverflowHelper.core
             correctionAdd("pronounciation", "pronunciation");
             correctionAdd("pronuncian", "pronunciation");
             correctionAdd("prononciation", "pronunciation");
+            correctionAdd("pronouniciation", "pronunciation");
+            correctionAdd("pronuniciation", "pronunciation");
 
             correctionAdd("requrie", "require");
             correctionAdd("requries", "require"); // Not 100% correct, third-person singular
@@ -10406,6 +10413,8 @@ namespace OverflowHelper.core
 
             correctionAdd("effecient", "efficient");
             correctionAdd("efficiant", "efficient");
+            correctionAdd("Efficent", "efficient");
+            correctionAdd("efficent", "efficient");
 
             correctionAdd("indendation", "indentation");
             correctionAdd("indentitation", "indentation");
@@ -10529,6 +10538,7 @@ namespace OverflowHelper.core
             correctionAdd("Schmidt", "Schmitt trigger");
             correctionAdd("Schmidt trigger", "Schmitt trigger");
             correctionAdd("schmitt trigger", "Schmitt trigger");
+            correctionAdd("Schmitt Trigger", "Schmitt trigger");
 
             correctionAdd("start-job", "Start-Job");
 
@@ -14582,6 +14592,8 @@ namespace OverflowHelper.core
             correctionAdd("surrouding", "surrounding");
 
             correctionAdd("synchronious", "synchronous");
+            correctionAdd("syncroniuous", "synchronous");
+            correctionAdd("synchroniuous", "synchronous");
 
             correctionAdd("trainwreck", "train wreck");
 
@@ -18312,6 +18324,7 @@ namespace OverflowHelper.core
             correctionAdd("verson", "version");
             correctionAdd("vertion", "version");
             correctionAdd("vesrion", "version");
+            correctionAdd("Verison", "version");
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
@@ -21489,6 +21502,24 @@ namespace OverflowHelper.core
             correctionAdd("wau", "way");
 
             correctionAdd("Transverse", "transverse");
+
+            correctionAdd("vga", "VGA");
+
+            correctionAdd("charachter set", "character set");
+            correctionAdd("charachterSet", "character set");
+            correctionAdd("charachter Set", "character set");
+
+            correctionAdd("erraneous", "erroneous");
+
+            correctionAdd("immesurable", "immeasurable");
+
+            correctionAdd("sacrifise", "sacrifice");
+            correctionAdd("sac", "sacrifice");
+
+            correctionAdd("testemonials", "testimonial");
+
+            correctionAdd("upper case", "uppercase");
+            correctionAdd("UPPER case", "uppercase");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33197,6 +33228,20 @@ namespace OverflowHelper.core
             URL_Add("way", "https://en.wiktionary.org/wiki/way#Noun");
 
             URL_Add("transverse", "https://en.wiktionary.org/wiki/transverse#AdjectiveEasting");
+
+            URL_Add("VGA", "https://en.wikipedia.org/wiki/Video_Graphics_Array");
+
+            URL_Add("character set", "https://en.wiktionary.org/wiki/character_set#Noun");
+
+            URL_Add("erroneous", "https://en.wiktionary.org/wiki/erroneous#Adjective");
+
+            URL_Add("immeasurable", "https://en.wiktionary.org/wiki/immeasurable#Adjective");
+
+            URL_Add("sacrifice", "https://en.wiktionary.org/wiki/sacrifice#Noun");
+
+            URL_Add("testimonial", "https://en.wiktionary.org/wiki/testimonial#Noun");
+
+            URL_Add("uppercase", "https://en.wiktionary.org/wiki/uppercase#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
