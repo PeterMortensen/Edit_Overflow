@@ -22233,7 +22233,7 @@ namespace OverflowHelper.core
 
             URL_Add("H2", "https://en.wikipedia.org/wiki/H2_%28DBMS%29");
 
-            URL_Add("YUM", "https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified");
+            URL_Add("YUM", "https://en.wikipedia.org/wiki/Yum_(software)"); // Old: https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified
 
             URL_Add("aptitude", "https://en.wikipedia.org/wiki/Aptitude_%28software%29");
 
@@ -22645,7 +22645,7 @@ namespace OverflowHelper.core
 
             URL_Add("PEAR", "https://en.wikipedia.org/wiki/PEAR");
 
-            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTP_Secure");
+            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
 
             URL_Add("JSONP", "https://en.wikipedia.org/wiki/JSONP");
 
@@ -23981,7 +23981,7 @@ namespace OverflowHelper.core
 
             URL_Add("Intel", "https://en.wikipedia.org/wiki/Intel");
 
-            URL_Add("TextWrangler", "https://en.wikipedia.org/wiki/TextWrangler");
+            URL_Add("TextWrangler", "https://en.wikipedia.org/wiki/BBEdit#TextWrangler"); // Old: https://en.wikipedia.org/wiki/TextWrangler
 
             URL_Add("SlickEdit", "https://en.wikipedia.org/wiki/SlickEdit");
 
@@ -25229,7 +25229,7 @@ namespace OverflowHelper.core
 
             URL_Add("disappointed", "https://en.wiktionary.org/wiki/disappointed#Adjective");
 
-            URL_Add("exercise", "https://en.wiktionary.org/wiki/excercise#Noun");
+            URL_Add("exercise", "https://en.wiktionary.org/wiki/exercise#Noun"); // Old: https://en.wiktionary.org/wiki/excercise#Noun
 
             URL_Add("contiguous", "https://en.wiktionary.org/wiki/contiguous#Adjective");
 
@@ -27962,7 +27962,7 @@ namespace OverflowHelper.core
 
             URL_Add("re-enable", "https://en.wiktionary.org/wiki/re-enable#Verb");
 
-            URL_Add(".profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables");
+            URL_Add(".profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
 
             URL_Add("Blazor", "https://en.wikipedia.org/wiki/Blazor");
 
