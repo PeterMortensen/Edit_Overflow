@@ -1064,6 +1064,8 @@ namespace OverflowHelper.core
             correctionAdd("Tiger", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
             correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
             correctionAdd("MacOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
+            correctionAdd("Mac 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
+            correctionAdd("10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)");
 
             correctionAdd("Mac OS X v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)"); // Sort of identity mapping
             correctionAdd("Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
@@ -1116,6 +1118,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac&nbsp;OS&nbsp;X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("MacOSX 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("MAC OS X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("LION", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -3894,6 +3897,7 @@ namespace OverflowHelper.core
             correctionAdd("Macports", "MacPorts");
             correctionAdd("MacPort", "MacPorts");
             correctionAdd("macport", "MacPorts");
+            correctionAdd("ports", "MacPorts");
 
             correctionAdd("spec", "specification");
             correctionAdd("Spec", "specification");
@@ -7670,6 +7674,7 @@ namespace OverflowHelper.core
             correctionAdd("Shintel", "Intel");
 
             correctionAdd("Textwrangler", "TextWrangler");
+            correctionAdd("Text Wrangler", "TextWrangler");
 
             correctionAdd("Slickedit", "SlickEdit");
 
@@ -8654,6 +8659,7 @@ namespace OverflowHelper.core
             correctionAdd("minium", "minimum");
             correctionAdd("mininum", "minimum");
             correctionAdd("minumum", "minimum");
+            correctionAdd("MINIMUM", "minimum");
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
@@ -9318,6 +9324,8 @@ namespace OverflowHelper.core
             correctionAdd("LiPo", "lithium polymer");
             correctionAdd("Lithium Polymer", "lithium polymer");
             correctionAdd("lithumpolymer", "lithium polymer");
+            correctionAdd("LiPol", "lithium polymer");
+            correctionAdd("Pol", "lithium polymer");
 
             correctionAdd("LIon", "Li-ion");
             correctionAdd("Lithium-Ion", "Li-ion"); // Contraction!
@@ -10519,6 +10527,8 @@ namespace OverflowHelper.core
             correctionAdd("kubernetes", "Kubernetes");
             correctionAdd("kubernete", "Kubernetes");
             correctionAdd("k8s", "Kubernetes");
+            correctionAdd("K8S", "Kubernetes");
+            correctionAdd("K8s", "Kubernetes");
 
             correctionAdd("mamp", "MAMP");
 
@@ -11209,6 +11219,7 @@ namespace OverflowHelper.core
             correctionAdd("visualastion", "visualisation");
 
             correctionAdd("ltspice", "LTspice");
+            correctionAdd("LTSpice", "LTspice");
 
             correctionAdd("Nato", "NATO");
             correctionAdd("nato", "NATO");
@@ -14698,6 +14709,8 @@ namespace OverflowHelper.core
             correctionAdd("By the other hand", "on the other hand");
             correctionAdd("One the other hand", "on the other hand");
             correctionAdd("one the other hand", "on the other hand");
+            correctionAdd("OTOH", "on the other hand");
+            correctionAdd("otoh", "on the other hand");
 
             correctionAdd("1st complement", "ones' complement");
 
@@ -17729,6 +17742,7 @@ namespace OverflowHelper.core
             correctionAdd("Unlinke", "unlike");
 
             correctionAdd("Voltage", "voltage");
+            correctionAdd("coltage", "voltage");
 
             correctionAdd("wuman", "woman");
 
@@ -17796,6 +17810,7 @@ namespace OverflowHelper.core
             correctionAdd("sistem", "system");
 
             correctionAdd("ugrade", "upgrade");
+            correctionAdd("upgade", "upgrade");
 
             correctionAdd("Chemistry SE", "Chemistry (Stack Exchange site)");
             correctionAdd("chemistry SE", "Chemistry (Stack Exchange site)");
@@ -18075,6 +18090,7 @@ namespace OverflowHelper.core
             correctionAdd("no-follow", "nofollow");
 
             correctionAdd("piont", "point");
+            correctionAdd("oint", "point");
 
             correctionAdd("standard faire", "standard fare");
 
@@ -18246,6 +18262,7 @@ namespace OverflowHelper.core
 
             correctionAdd("teh", "the"); // True typo
             correctionAdd("ghe", "the"); // True typo
+            correctionAdd("theb", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -19531,6 +19548,7 @@ namespace OverflowHelper.core
             correctionAdd("meta programming", "metaprogramming");
 
             correctionAdd("pre install", "preinstall");
+            correctionAdd("pre-install", "preinstall");
 
             correctionAdd("readbility", "readability");
 
@@ -21521,6 +21539,63 @@ namespace OverflowHelper.core
             correctionAdd("upper case", "uppercase");
             correctionAdd("UPPER case", "uppercase");
 
+            correctionAdd("arcolinux", "ArcoLinux");
+
+            correctionAdd("Class A", "Class A amplifier");
+
+            correctionAdd("Darlington", "Darlington transistor");
+
+            correctionAdd("fink", "Fink");
+
+            correctionAdd("korea", "Korea");
+
+            correctionAdd("manjaro", "Manjaro");
+
+            correctionAdd("rs", "Rs");
+
+            correctionAdd("git tower", "Tower");
+            correctionAdd("Git Tower", "Tower");
+            correctionAdd("tower", "Tower");
+
+            correctionAdd("adviced", "advised");
+
+            correctionAdd("Biochemistry", "biochemistry");
+
+            correctionAdd("Biology", "biology");
+
+            correctionAdd("Bleach", "bleach");
+
+            correctionAdd("CG", "center of gravity");
+
+            correctionAdd("emitter follower", "common collector");
+            correctionAdd("Common Collector", "common collector");
+
+            correctionAdd("Common Emitter", "common emitter");
+
+            correctionAdd("easili", "easily");
+            correctionAdd("easilly", "easily");
+
+            correctionAdd("executeable", "executable");
+
+            correctionAdd("kicks is", "kicks in");
+
+            correctionAdd("low pass filter", "low-pass filter");
+
+            correctionAdd("micro management", "micromanagement");
+
+            correctionAdd("milliamp", "milliampere");
+
+            correctionAdd("milliVolt", "millivolt");
+
+            correctionAdd("Null Coalescing operator", "null coalescing operator");
+            correctionAdd("Null coalescing operator", "null coalescing operator");
+
+            correctionAdd("upgaded", "upgraded");
+
+            correctionAdd("van't Hoff's", "van 't Hoff");
+
+            correctionAdd("writeup", "write-up");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -21617,6 +21692,10 @@ namespace OverflowHelper.core
 
             correctionAdd("sars", "SARS");
             correctionAdd("sarz", "SARS");
+
+            correctionAdd("WHO", "World Health Organization");
+
+            correctionAdd("T.B", "tuberculosis"); // But it really should be "T.B." (a current limitation in our system)
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -33242,6 +33321,62 @@ namespace OverflowHelper.core
             URL_Add("testimonial", "https://en.wiktionary.org/wiki/testimonial#Noun");
 
             URL_Add("uppercase", "https://en.wiktionary.org/wiki/uppercase#Adjective");
+
+            URL_Add("ArcoLinux", "https://arcolinux.info/");
+
+            URL_Add("Class A amplifier", "https://en.wikipedia.org/wiki/Power_amplifier_classes#Class_A");
+
+            URL_Add("Darlington transistor", "https://en.wikipedia.org/wiki/Darlington_transistor");
+
+            URL_Add("Fink", "https://en.wikipedia.org/wiki/Fink_(software)");
+
+            URL_Add("Korea", "https://en.wikipedia.org/wiki/Korea");
+
+            URL_Add("Manjaro", "https://en.wikipedia.org/wiki/Manjaro");
+
+            URL_Add("Rs", "https://en.wikipedia.org/wiki/Indian_rupee");
+
+            URL_Add("Tower", "https://downloads.zdnet.com/product/2229-75330136/");
+
+            URL_Add("advised", "https://en.wiktionary.org/wiki/advise#Verb");
+
+            URL_Add("biochemistry", "https://en.wikipedia.org/wiki/Biochemistry");
+
+            URL_Add("biology", "https://en.wikipedia.org/wiki/Biology");
+
+            URL_Add("bleach", "https://en.wikipedia.org/wiki/Bleach");
+
+            URL_Add("center of gravity", "https://en.wikipedia.org/wiki/Center_of_mass#Center_of_gravity");
+
+            URL_Add("common collector", "https://en.wikipedia.org/wiki/Common_collector");
+
+            URL_Add("common emitter", "https://en.wikipedia.org/wiki/Common_emitter");
+
+            URL_Add("easily", "https://en.wiktionary.org/wiki/easily#Adverb");
+
+            URL_Add("executable", "https://en.wiktionary.org/wiki/executable#Noun");
+
+            URL_Add("kicks in", "https://en.wiktionary.org/wiki/kick_in#Verb");
+
+            URL_Add("low-pass filter", "https://en.wikipedia.org/wiki/Low-pass_filter");
+
+            URL_Add("micromanagement", "https://en.wikipedia.org/wiki/Micromanagement");
+
+            URL_Add("milliampere", "https://en.wiktionary.org/wiki/milliampere#Noun");
+
+            URL_Add("millivolt", "https://en.wikipedia.org/wiki/Volt");
+
+            URL_Add("null coalescing operator", "https://en.wikipedia.org/wiki/Null_coalescing_operator");
+
+            URL_Add("upgraded", "https://en.wiktionary.org/wiki/upgrade#Verb");
+
+            URL_Add("van 't Hoff", "https://en.wikipedia.org/wiki/Van_%27t_Hoff_equation");
+
+            URL_Add("write-up", "https://en.wiktionary.org/wiki/write-up#Noun");
+
+            URL_Add("World Health Organization", "https://en.wikipedia.org/wiki/World_Health_Organization");
+
+            URL_Add("tuberculosis", "https://en.wikipedia.org/wiki/Tuberculosis");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
