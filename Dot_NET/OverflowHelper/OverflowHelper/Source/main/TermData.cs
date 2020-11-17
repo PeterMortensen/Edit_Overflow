@@ -2665,6 +2665,7 @@ namespace OverflowHelper.core
             correctionAdd("cpython", "CPython");
 
             correctionAdd("mp3", "MP3");
+            correctionAdd("Mp3", "MP3");
 
             correctionAdd("ogg", "Ogg");
 
@@ -4202,6 +4203,7 @@ namespace OverflowHelper.core
 
             correctionAdd("phising", "phishing");
             correctionAdd("Phising", "phishing");
+            correctionAdd("Phishing", "phishing");
 
             correctionAdd("dhcp", "DHCP");
             correctionAdd("DCHP", "DHCP");
@@ -11059,8 +11061,6 @@ namespace OverflowHelper.core
             correctionAdd("unity3d", "Unity 3D");
             correctionAdd("Unity3D", "Unity 3D");
 
-            correctionAdd("unconfortable", "uncomfortable");
-
             correctionAdd("invoke-item", "Invoke-Item");
 
             correctionAdd("Dansk", "dansk");
@@ -12033,6 +12033,7 @@ namespace OverflowHelper.core
 
             correctionAdd("catagory", "category");
             correctionAdd("catgeory", "category");
+            correctionAdd("cathegory", "category");
 
             correctionAdd("Ccache", "ccache");
 
@@ -12163,6 +12164,12 @@ namespace OverflowHelper.core
 
             correctionAdd("supose", "suppose");
             correctionAdd("supost", "suppose");
+            correctionAdd("supouse", "suppose");
+            correctionAdd("suppouse", "suppose");
+
+            correctionAdd("suposed", "supposed");
+            correctionAdd("supoused", "supposed");
+            correctionAdd("suppoused", "supposed");
 
             correctionAdd("jure", "sure");
             correctionAdd("shure", "sure");
@@ -12763,8 +12770,6 @@ namespace OverflowHelper.core
             correctionAdd("seting", "setting");
             correctionAdd("settign", "setting");
             correctionAdd("setttnig", "setting");
-
-            correctionAdd("suposed", "supposed");
 
             correctionAdd("timezone", "time zone");
             correctionAdd("timzeone", "time zone");
@@ -14658,6 +14663,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Northern Hemiphere", "Northern Hemisphere");
             correctionAdd("northern hemisphere", "Northern Hemisphere");
+            correctionAdd("Northern hemisphere", "Northern Hemisphere");
 
             correctionAdd("PDP11", "PDP-11");
 
@@ -15800,6 +15806,7 @@ namespace OverflowHelper.core
             correctionAdd("luck fallow braves", "fortune favours the brave");
 
             correctionAdd("laugth", "laugh");
+            correctionAdd("lought", "laugh");
 
             correctionAdd("post cast", "podcast");
 
@@ -15820,8 +15827,6 @@ namespace OverflowHelper.core
             correctionAdd("acknowledgement", "acknowledgment");
 
             correctionAdd("actrocities", "atrocities");
-
-            correctionAdd("breath", "breathe");
 
             correctionAdd("collequal", "colloquial");
 
@@ -15904,7 +15909,12 @@ namespace OverflowHelper.core
 
             correctionAdd("neighboring", "neighbouring");
 
+            correctionAdd("unconfortable", "uncomfortable");
+
             correctionAdd("comfortaple", "comfortable");
+            correctionAdd("comftravle", "comfortable");
+            correctionAdd("comftrable", "comfortable");
+            correctionAdd("comfrtable", "comfortable");
 
             correctionAdd("dificulty", "difficulty");
 
@@ -18260,9 +18270,13 @@ namespace OverflowHelper.core
 
             correctionAdd("priviledged", "privileged");
 
+            correctionAdd("breath", "breathe");
+
             correctionAdd("teh", "the"); // True typo
             correctionAdd("ghe", "the"); // True typo
             correctionAdd("theb", "the");
+            correctionAdd("tye", "the");
+            correctionAdd("te", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -18540,6 +18554,9 @@ namespace OverflowHelper.core
             correctionAdd("newtonsoft", "Newtonsoft");
 
             correctionAdd("SSN", "Social Security number");
+            correctionAdd("ss#", "Social Security number");
+            correctionAdd("social security", "Social Security number");
+            correctionAdd("social security number", "Social Security number");
 
             correctionAdd("balance and checks", "checks and balances");
 
@@ -19962,6 +19979,7 @@ namespace OverflowHelper.core
             correctionAdd("occam's razor", "Occam's razor");
             correctionAdd("Occams Razor", "Occam's razor");
             correctionAdd("occams razor", "Occam's razor");
+            correctionAdd("Occam's Razor", "Occam's razor");
 
             correctionAdd("Proxima Centuri", "Proxima Centauri");
 
@@ -21595,6 +21613,34 @@ namespace OverflowHelper.core
             correctionAdd("van't Hoff's", "van 't Hoff");
 
             correctionAdd("writeup", "write-up");
+
+            correctionAdd("gofundme", "GoFundMe");
+
+            correctionAdd("El Ninja", "La Niña");
+
+            correctionAdd("mexican", "Mexican");
+
+            correctionAdd("mexicans", "Mexicans");
+
+            correctionAdd("sddm", "SDDM");
+
+            correctionAdd("Date of Birth", "date of birth");
+            correctionAdd("dob", "date of birth");
+            correctionAdd("DOB", "date of birth");
+
+            correctionAdd("Foie Gras", "foie gras");
+
+            correctionAdd("force-feed", "force feed");
+
+            correctionAdd("force-feeding", "force feeding");
+
+            correctionAdd("lest", "least");
+
+            correctionAdd("neuro typical", "neurotypical");
+
+            correctionAdd("responsable", "responsible");
+
+            correctionAdd("war fair", "warfare");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33377,6 +33423,32 @@ namespace OverflowHelper.core
             URL_Add("World Health Organization", "https://en.wikipedia.org/wiki/World_Health_Organization");
 
             URL_Add("tuberculosis", "https://en.wikipedia.org/wiki/Tuberculosis");
+
+            URL_Add("GoFundMe", "https://en.wikipedia.org/wiki/GoFundMe");
+
+            URL_Add("La Niña", "https://en.wiktionary.org/wiki/Mexican#Noun");
+
+            URL_Add("Mexican", "https://en.wiktionary.org/wiki/Mexican#Noun");
+
+            URL_Add("Mexicans", "https://en.wiktionary.org/wiki/Mexican#Noun");
+
+            URL_Add("SDDM", "https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager");
+
+            URL_Add("date of birth", "https://en.wiktionary.org/wiki/date_of_birth#Noun");
+
+            URL_Add("foie gras", "https://en.wikipedia.org/wiki/Foie_gras");
+
+            URL_Add("force feed", "https://en.wiktionary.org/wiki/force_feed#Verb");
+
+            URL_Add("force feeding", "https://en.wiktionary.org/wiki/force_feed#Verb");
+
+            URL_Add("least", "https://en.wiktionary.org/wiki/least#Adjective");
+
+            URL_Add("neurotypical", "https://en.wikipedia.org/wiki/Neurotypical");
+
+            URL_Add("responsible", "https://en.wiktionary.org/wiki/responsible#Adjective");
+
+            URL_Add("warfare", "https://en.wiktionary.org/wiki/warfare#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
