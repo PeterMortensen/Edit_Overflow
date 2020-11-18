@@ -1404,6 +1404,7 @@ namespace OverflowHelper.core
             correctionAdd("PoCos", "POCO"); // Plural
             correctionAdd("PoCo", "POCO");
             correctionAdd("pocos", "POCO"); // Plural
+            correctionAdd("Poco", "POCO");
 
             correctionAdd("struts", "Struts");
             correctionAdd("s2", "Struts"); // Actually Struts 2.
@@ -8140,6 +8141,7 @@ namespace OverflowHelper.core
             correctionAdd("web api", "Web API");
             correctionAdd("WebApi", "Web API");
             correctionAdd("Web Api", "Web API");
+            correctionAdd("web Api", "Web API");
 
             correctionAdd("duck-typing", "duck typing");
 
@@ -8538,6 +8540,7 @@ namespace OverflowHelper.core
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
             correctionAdd("tought", "thought");
+            correctionAdd("thaut", "thought");
 
             correctionAdd("idl", "IDL");
 
@@ -12663,8 +12666,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Iodine", "iodine");
 
-            correctionAdd("irreplacable", "irreplaceable");
-
             correctionAdd("literaly", "literally");
             correctionAdd("literarily", "literally");
             correctionAdd("literary", "literally");
@@ -16697,6 +16698,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sme", "some");
             correctionAdd("somme", "some");
+            correctionAdd("somi", "some");
 
             correctionAdd("targeting", "targetting");
 
@@ -21641,6 +21643,37 @@ namespace OverflowHelper.core
             correctionAdd("responsable", "responsible");
 
             correctionAdd("war fair", "warfare");
+
+            correctionAdd("20th Century", "20th century");
+
+            correctionAdd("omg", "OMG");
+
+            correctionAdd("pythonista", "Pythonista");
+
+            correctionAdd("richard feynman", "Richard Feynman");
+
+            correctionAdd("socvr", "SOCVR");
+
+            correctionAdd("steam", "Steam");
+
+            correctionAdd("bake", "back");
+
+            correctionAdd("Dad", "dad");
+
+            correctionAdd("double-speak", "doublespeak");
+
+            correctionAdd("Pinball", "pinball");
+
+            correctionAdd("replaceble", "replaceable");
+            correctionAdd("replacable", "replaceable");
+
+            correctionAdd("irreplacable", "irreplaceable");
+
+            correctionAdd("schisophrenia", "schizophrenia");
+
+            correctionAdd("take away", "takeaway");
+
+            correctionAdd("trespas", "trespass");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33449,6 +33482,34 @@ namespace OverflowHelper.core
             URL_Add("responsible", "https://en.wiktionary.org/wiki/responsible#Adjective");
 
             URL_Add("warfare", "https://en.wiktionary.org/wiki/warfare#Noun");
+
+            URL_Add("20th century", "https://en.wikipedia.org/wiki/20th_century");
+
+            URL_Add("OMG", "https://en.wiktionary.org/wiki/OMG#Interjection");
+
+            URL_Add("Pythonista", "https://en.wiktionary.org/wiki/Pythonista#Noun");
+
+            URL_Add("Richard Feynman", "https://en.wikipedia.org/wiki/Richard_Feynman");
+
+            URL_Add("SOCVR", "https://socvr.org/");
+
+            URL_Add("Steam", "https://en.wikipedia.org/wiki/Steam_(service)");
+
+            URL_Add("back", "https://en.wiktionary.org/wiki/back#Adverb");
+
+            URL_Add("dad", "https://en.wiktionary.org/wiki/dad#Noun");
+
+            URL_Add("doublespeak", "https://en.wiktionary.org/wiki/doublespeak#Noun");
+
+            URL_Add("pinball", "https://en.wiktionary.org/wiki/pinball#Noun");
+
+            URL_Add("replaceable", "https://en.wiktionary.org/wiki/replaceable#Adjective");
+
+            URL_Add("schizophrenia", "https://en.wikipedia.org/wiki/Schizophrenia");
+
+            URL_Add("takeaway", "https://en.wiktionary.org/wiki/takeaway#Noun");
+
+            URL_Add("trespass", "https://en.wiktionary.org/wiki/trespass#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
