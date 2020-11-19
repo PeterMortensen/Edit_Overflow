@@ -4217,6 +4217,7 @@ namespace OverflowHelper.core
 
             correctionAdd("havent", "haven't");
             correctionAdd("havn't", "haven't");
+            correctionAdd("Havent", "haven't");
 
             correctionAdd("fbml", "FBML");
             correctionAdd("fmbl", "FBML");
@@ -13145,6 +13146,7 @@ namespace OverflowHelper.core
             correctionAdd("Ohm's Law", "Ohm's law");
             correctionAdd("ohms law", "Ohm's law");
             correctionAdd("Ohms law", "Ohm's law");
+            correctionAdd("Ohmn's law", "Ohm's law");
 
             correctionAdd("php composer", "PHP Composer");
             correctionAdd("Composer", "PHP Composer");
@@ -13186,6 +13188,8 @@ namespace OverflowHelper.core
             correctionAdd("unnecceserally", "unnecessarily");
             correctionAdd("unnecceseraly", "unnecessarily");
             correctionAdd("unneccessarily", "unnecessarily");
+            correctionAdd("unnecessaraly", "unnecessarily");
+            correctionAdd("unnecesseraly", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
@@ -14269,6 +14273,8 @@ namespace OverflowHelper.core
             correctionAdd("web assembly", "WebAssembly");
             correctionAdd("webassembly", "WebAssembly");
             correctionAdd("wasm", "WebAssembly");
+            correctionAdd("webasm", "WebAssembly");
+            correctionAdd("web asm", "WebAssembly");
 
             correctionAdd("webvr", "WebVR");
 
@@ -14951,6 +14957,8 @@ namespace OverflowHelper.core
             correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
             correctionAdd("thz", "&nbsp;THz");
             correctionAdd("Thz", "&nbsp;THz");
+            correctionAdd("Terahertz", "&nbsp;THz");
+            correctionAdd("terahertz", "&nbsp;THz");
 
             correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
             correctionAdd("5GHz", "5&nbsp;GHz");
@@ -16210,6 +16218,12 @@ namespace OverflowHelper.core
             correctionAdd("chess board", "chessboard");
 
             correctionAdd("Caro-Kann", "Caro–Kann Defence");
+
+            correctionAdd("bobby fischer", "Bobby Fischer");
+
+            correctionAdd("Spassky", "Boris Spassky");
+            correctionAdd("spasky", "Boris Spassky");
+            correctionAdd("spassky", "Boris Spassky");
             //
             // End of chess part
 
@@ -17964,9 +17978,6 @@ namespace OverflowHelper.core
             correctionAdd("Encyclopedia", "encyclopedia");
             correctionAdd("enclopeia", "encyclopedia");
 
-            correctionAdd("non-famous", "nonfamous");
-            correctionAdd("non famous", "nonfamous");
-
             correctionAdd("Opposition", "opposition");
 
             correctionAdd("expect", "Expect");
@@ -19647,6 +19658,7 @@ namespace OverflowHelper.core
             correctionAdd("ISO3", "ISO&nbsp;3");
 
             correctionAdd("macdonalds", "McDonald's");
+            correctionAdd("McDonalds", "McDonald's");
 
             correctionAdd("SIM", "SIM card");
             correctionAdd("Sim", "SIM card");
@@ -21674,6 +21686,38 @@ namespace OverflowHelper.core
             correctionAdd("take away", "takeaway");
 
             correctionAdd("trespas", "trespass");
+
+            correctionAdd("a2a", "A2A");
+
+            correctionAdd("padre", "Padre");
+
+            correctionAdd("soviet union", "Soviet Union");
+
+            correctionAdd("attatch", "attach");
+
+            correctionAdd("collaberation", "collaboration");
+
+            correctionAdd("condenscending", "condescending");
+
+            correctionAdd("curricila", "curricula");
+
+            correctionAdd("dissambiguating", "disambiguating");
+
+            correctionAdd("elaboratelt", "elaborately");
+
+            correctionAdd("non-famous", "nonfamous");
+            correctionAdd("non famous", "nonfamous");
+
+            correctionAdd("famious", "famous");
+            correctionAdd("Famious", "famous");
+
+            correctionAdd("Oil", "oil");
+
+            correctionAdd("seemless", "seamless");
+
+            correctionAdd("Signal", "signal");
+
+            correctionAdd("Square Wave", "square wave");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33510,6 +33554,38 @@ namespace OverflowHelper.core
             URL_Add("takeaway", "https://en.wiktionary.org/wiki/takeaway#Noun");
 
             URL_Add("trespass", "https://en.wiktionary.org/wiki/trespass#Verb");
+
+            URL_Add("A2A", "https://www.quora.com/What-does-A2A-mean-in-the-Quora-answers");
+
+            URL_Add("Padre", "https://en.wikipedia.org/wiki/Padre_(software)");
+
+            URL_Add("Soviet Union", "https://en.wikipedia.org/wiki/Soviet_Union");
+
+            URL_Add("attach", "https://en.wiktionary.org/wiki/attach#Verb");
+
+            URL_Add("collaboration", "https://en.wiktionary.org/wiki/collaboration#Noun");
+
+            URL_Add("condescending", "https://en.wiktionary.org/wiki/condescending#Adjective");
+
+            URL_Add("curricula", "https://en.wiktionary.org/wiki/curriculum#Noun");
+
+            URL_Add("disambiguating", "https://en.wiktionary.org/wiki/disambiguate#Verb");
+
+            URL_Add("elaborately", "https://en.wiktionary.org/wiki/elaborately#Adverb");
+
+            URL_Add("famous", "https://en.wiktionary.org/wiki/famous#Adjective");
+
+            URL_Add("oil", "https://en.wiktionary.org/wiki/oil#Noun");
+
+            URL_Add("seamless", "https://en.wiktionary.org/wiki/seamless#Adjective");
+
+            URL_Add("signal", "https://en.wiktionary.org/wiki/signal#Noun");
+
+            URL_Add("square wave", "https://en.wiktionary.org/wiki/square_wave");
+
+            URL_Add("Bobby Fischer", "https://en.wikipedia.org/wiki/Bobby_Fischer");
+
+            URL_Add("Boris Spassky", "https://en.wikipedia.org/wiki/Boris_Spassky");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
