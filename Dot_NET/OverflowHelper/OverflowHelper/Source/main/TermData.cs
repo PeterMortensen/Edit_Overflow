@@ -18241,6 +18241,7 @@ namespace OverflowHelper.core
             correctionAdd("eiffel", "Eiffel");
 
             correctionAdd("enter", "Enter");
+            correctionAdd("ENTER", "Enter");
 
             correctionAdd("gpa", "GPA");
 
@@ -20235,6 +20236,7 @@ namespace OverflowHelper.core
             correctionAdd("VS-Code", "Visual Studio Code");
             correctionAdd("Visual Studio CODE", "Visual Studio Code");
             correctionAdd("vs.code", "Visual Studio Code");
+            correctionAdd("Visualstudio Code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -21718,6 +21720,19 @@ namespace OverflowHelper.core
             correctionAdd("Signal", "signal");
 
             correctionAdd("Square Wave", "square wave");
+
+            correctionAdd("TAOCP", "The Art of Computer Programming");
+            correctionAdd("TAOP", "The Art of Computer Programming");
+
+            correctionAdd("interection", "interaction");
+
+            correctionAdd("Liqyefying", "liquefying");
+
+            correctionAdd("Long Scale", "long scale");
+
+            correctionAdd("radiks sort", "radix sort");
+
+            correctionAdd("Short Scale", "short scale");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33586,6 +33601,18 @@ namespace OverflowHelper.core
             URL_Add("Bobby Fischer", "https://en.wikipedia.org/wiki/Bobby_Fischer");
 
             URL_Add("Boris Spassky", "https://en.wikipedia.org/wiki/Boris_Spassky");
+
+            URL_Add("The Art of Computer Programming", "https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming");
+
+            URL_Add("interaction", "https://en.wiktionary.org/wiki/interaction#Noun");
+
+            URL_Add("liquefying", "https://en.wiktionary.org/wiki/liquefy#Verb");
+
+            URL_Add("long scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
+
+            URL_Add("radix sort", "https://en.wikipedia.org/wiki/Radix_sort");
+
+            URL_Add("short scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
