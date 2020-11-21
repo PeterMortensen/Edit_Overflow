@@ -888,6 +888,7 @@ namespace OverflowHelper.core
             correctionAdd(".Net framework", ".NET");
             correctionAdd("net framwork", ".NET");
             correctionAdd("net framework", ".NET");
+            correctionAdd(".NETFramework", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
 
@@ -1757,6 +1758,7 @@ namespace OverflowHelper.core
             correctionAdd("Bootcamp", "Boot Camp");
             correctionAdd("bootcamp", "Boot Camp");
             correctionAdd("boot camp", "Boot Camp");
+            correctionAdd("bootcap", "Boot Camp");
 
             correctionAdd("ironpython", "IronPython");
             correctionAdd("Iron Python", "IronPython");
@@ -2673,6 +2675,7 @@ namespace OverflowHelper.core
             correctionAdd("PIP", "pip"); // Not actually observed. The Python thing.
 
             correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
+            correctionAdd("virtualENV", "virtualenv");
 
             correctionAdd("r", "R"); // Not actually observed.
 
@@ -9191,6 +9194,7 @@ namespace OverflowHelper.core
             correctionAdd("down vode", "downvote");
             correctionAdd("Downvote", "downvote");
             correctionAdd("down Vote", "downvote");
+            correctionAdd("DownVote", "downvote");
 
             correctionAdd("every", "every time"); // What is this????
             correctionAdd("everytime", "every time");
@@ -10171,6 +10175,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wanna", "want to");
             correctionAdd("wanne", "want to");
+            correctionAdd("wana", "want to");
 
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
@@ -10590,6 +10595,7 @@ namespace OverflowHelper.core
             correctionAdd("bellow", "below");
             correctionAdd("bewlow", "below");
             correctionAdd("bellowing", "below");
+            correctionAdd("belowe", "below");
 
             correctionAdd("communciate", "communicate");
 
@@ -11530,6 +11536,7 @@ namespace OverflowHelper.core
 
             correctionAdd("convinient", "convenient");
             correctionAdd("conventient", "convenient");
+            correctionAdd("convient", "convenient");
 
             correctionAdd("howver", "however");
             correctionAdd("how ever", "however");
@@ -11685,6 +11692,7 @@ namespace OverflowHelper.core
             correctionAdd("cappacitive", "capacitive");
 
             correctionAdd("coord", "coordinate");
+            correctionAdd("co-ordinate", "coordinate");
 
             correctionAdd("finaly", "finally");
             correctionAdd("finnaly", "finally");
@@ -14169,6 +14177,7 @@ namespace OverflowHelper.core
             correctionAdd("erlier", "earlier");
 
             correctionAdd("hapen", "happen");
+            correctionAdd("hanppen", "happen");
 
             correctionAdd("hapens", "happens");
             correctionAdd("happends", "happens");
@@ -15006,6 +15015,7 @@ namespace OverflowHelper.core
             correctionAdd("wit", "with");
             correctionAdd("wiht", "with");
             correctionAdd("w/", "with");
+            correctionAdd("wirh", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -16636,6 +16646,7 @@ namespace OverflowHelper.core
             correctionAdd("uncle bob", "Uncle Bob");
 
             correctionAdd("critisising", "criticising");
+            correctionAdd("critising", "criticising");
 
             correctionAdd("Hold my beer", "hold my beer");
 
@@ -16974,6 +16985,9 @@ namespace OverflowHelper.core
             correctionAdd("bruteforce", "brute-force attack");
             correctionAdd("bruteforce attack", "brute-force attack");
             correctionAdd("brute-force", "brute-force attack");
+            correctionAdd("brute-forcing", "brute-force attack");
+            correctionAdd("brute force", "brute-force attack");
+            correctionAdd("brute force attack", "brute-force attack");
 
             correctionAdd("buffring", "buffering");
 
@@ -17748,6 +17762,7 @@ namespace OverflowHelper.core
             correctionAdd("gat", "got");
 
             correctionAdd("heared", "heard");
+            correctionAdd("herd", "heard");
 
             correctionAdd("home grown", "home-grown");
 
@@ -18321,6 +18336,7 @@ namespace OverflowHelper.core
 
             correctionAdd("practicaly", "practically");
             correctionAdd("Practicaly", "practically");
+            correctionAdd("practially", "practically");
 
             correctionAdd("quility", "quality");
 
@@ -19616,6 +19632,9 @@ namespace OverflowHelper.core
 
             correctionAdd("incase", "in case");
             correctionAdd("Incase", "in case");
+            correctionAdd("In-place", "in case");
+            correctionAdd("in-place", "in case");
+            correctionAdd("in place", "in case");
 
             correctionAdd("cse", "case");
             correctionAdd("casse", "case");
@@ -21734,6 +21753,34 @@ namespace OverflowHelper.core
 
             correctionAdd("Short Scale", "short scale");
 
+            correctionAdd("Arecibo", "Arecibo Observatory");
+            correctionAdd("Aricebo", "Arecibo Observatory");
+
+            correctionAdd("Fuse", "FUSE");
+
+            correctionAdd("skeptics", "Skeptics (Stack Exchange site)");
+            correctionAdd("Skeptics", "Skeptics (Stack Exchange site)");
+
+            correctionAdd("AMOF", "as a matter of fact");
+            correctionAdd("amof", "as a matter of fact");
+
+            correctionAdd("backburner", "back burner");
+
+            correctionAdd("cumbsome", "cumbersome");
+
+            correctionAdd("grocerie store", "grocery store");
+
+            correctionAdd("hassle free", "hasslefree");
+            correctionAdd("hassle-free", "hasslefree");
+
+            correctionAdd("kick-in", "kick in");
+
+            correctionAdd("Police", "police");
+
+            correctionAdd("re-earn", "reearn");
+
+            correctionAdd("short term", "short-term");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -21834,6 +21881,8 @@ namespace OverflowHelper.core
             correctionAdd("WHO", "World Health Organization");
 
             correctionAdd("T.B", "tuberculosis"); // But it really should be "T.B." (a current limitation in our system)
+
+            correctionAdd("sputnic", "Sputnik V");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -25943,7 +25992,7 @@ namespace OverflowHelper.core
 
             URL_Add("Flexbox", "https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout");
 
-            URL_Add("in case", "https://en.wiktionary.org/wiki/incase#Conjunction");
+            URL_Add("in case", "https://en.wiktionary.org/wiki/in_case#Conjunction"); // Old: https://en.wiktionary.org/wiki/incase#Conjunction
 
             URL_Add("permission", "https://en.wiktionary.org/wiki/permission#Noun");
 
@@ -29794,7 +29843,7 @@ namespace OverflowHelper.core
 
             URL_Add("Uncle Bob", "https://en.wikipedia.org/wiki/Robert_C._Martin");
 
-            URL_Add("criticising", "https://en.wiktionary.org/wiki/criticise");
+            URL_Add("criticising", "https://en.wiktionary.org/wiki/criticise#Verb"); // Old: https://en.wiktionary.org/wiki/criticise
 
             URL_Add("hold my beer", "https://knowyourmeme.com/memes/hold-my-beer");
 
@@ -33613,6 +33662,32 @@ namespace OverflowHelper.core
             URL_Add("radix sort", "https://en.wikipedia.org/wiki/Radix_sort");
 
             URL_Add("short scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
+
+            URL_Add("Arecibo Observatory", "https://en.wikipedia.org/wiki/Arecibo_Observatory");
+
+            URL_Add("FUSE", "https://en.wikipedia.org/wiki/Filesystem_in_Userspace");
+
+            URL_Add("Skeptics (Stack Exchange site)", "https://skeptics.stackexchange.com/tour");
+
+            URL_Add("as a matter of fact", "https://en.wiktionary.org/wiki/as_a_matter_of_fact#Prepositional_phrase");
+
+            URL_Add("back burner", "https://en.wiktionary.org/wiki/back_burner#Noun");
+
+            URL_Add("cumbersome", "https://en.wiktionary.org/wiki/cumbersome#Adjective");
+
+            URL_Add("grocery store", "https://en.wiktionary.org/wiki/grocery_store#Noun");
+
+            URL_Add("hasslefree", "https://en.wiktionary.org/wiki/hasslefree#Adjective");
+
+            URL_Add("kick in", "https://en.wiktionary.org/wiki/kick_in#Verb");
+
+            URL_Add("police", "https://en.wiktionary.org/wiki/police#Noun");
+
+            URL_Add("reearn", "https://en.wiktionary.org/wiki/reearn#Verb");
+
+            URL_Add("short-term", "https://en.wiktionary.org/wiki/reearn#Verb");
+
+            URL_Add("Sputnik V", "https://en.wikipedia.org/wiki/Gam-COVID-Vac");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
