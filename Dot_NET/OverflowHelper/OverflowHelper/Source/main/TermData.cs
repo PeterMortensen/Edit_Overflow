@@ -21828,6 +21828,8 @@ namespace OverflowHelper.core
 
             correctionAdd("webscraping", "web scraping");
 
+            correctionAdd("re-launch", "relaunch");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -33763,6 +33765,8 @@ namespace OverflowHelper.core
             URL_Add("spurious", "https://en.wiktionary.org/wiki/spurious#Adjective");
 
             URL_Add("web scraping", "https://en.wikipedia.org/wiki/Web_scraping");
+
+            URL_Add("relaunch", "https://en.wiktionary.org/wiki/relaunch#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
