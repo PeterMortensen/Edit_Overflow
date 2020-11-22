@@ -2238,6 +2238,7 @@ namespace OverflowHelper.core
             correctionAdd("iE7", "Internet&nbsp;Explorer&nbsp;7");
             correctionAdd("Internet&nbsp;Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
             correctionAdd("Ie7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("IE-7", "Internet&nbsp;Explorer&nbsp;7");
 
             correctionAdd("IE8", "Internet&nbsp;Explorer&nbsp;8");
             correctionAdd("ie8", "Internet&nbsp;Explorer&nbsp;8");
@@ -4364,6 +4365,7 @@ namespace OverflowHelper.core
             correctionAdd("Jit", "JIT");
             correctionAdd("jit", "JIT");
             correctionAdd("Just-In-Time", "JIT");
+            correctionAdd("JiT", "JIT");
 
             correctionAdd("Dry", "DRY");
             correctionAdd("dry", "DRY"); // Context dependent!
@@ -7378,6 +7380,7 @@ namespace OverflowHelper.core
             correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
             correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
             correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -9097,6 +9100,7 @@ namespace OverflowHelper.core
             correctionAdd("AVILABLE", "available");
             correctionAdd("AVAILABLE", "available");
             correctionAdd("avaible", "available");
+            correctionAdd("avialale", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -9578,6 +9582,7 @@ namespace OverflowHelper.core
             correctionAdd("recive", "receive");
             correctionAdd("receve", "receive");
             correctionAdd("receice", "receive");
+            correctionAdd("receave", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -10139,6 +10144,8 @@ namespace OverflowHelper.core
             correctionAdd("Expanation", "explanation");
             correctionAdd("Explaination", "explanation");
             correctionAdd("explonation", "explanation");
+            correctionAdd("explnation", "explanation");
+            correctionAdd("explantion", "explanation");
 
             correctionAdd("Instaltaion", "installation"); // Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -11729,6 +11736,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crated", "created");
             correctionAdd("creaded", "created");
+            correctionAdd("ceated", "created");
 
             correctionAdd("exlusive", "exclusive");
 
@@ -12332,6 +12340,8 @@ namespace OverflowHelper.core
             correctionAdd("Insecting", "inspecting");
 
             correctionAdd("instuction", "instruction");
+            correctionAdd("intrsuction", "instruction");
+            correctionAdd("instrsuction", "instruction");
 
             correctionAdd("Km", "km");
             correctionAdd("KM", "km");
@@ -12769,6 +12779,7 @@ namespace OverflowHelper.core
             correctionAdd("khow", "know");
 
             correctionAdd("manu", "menu");
+            correctionAdd("munu", "menu");
 
             correctionAdd("mising", "missing");
 
@@ -13263,6 +13274,7 @@ namespace OverflowHelper.core
             correctionAdd("probelm", "problem");
             correctionAdd("probem", "problem");
             correctionAdd("ploblem", "problem");
+            correctionAdd("prb", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -17598,6 +17610,7 @@ namespace OverflowHelper.core
             correctionAdd("keyb", "keyboard");
             correctionAdd("keybrd", "keyboard");
             correctionAdd("keybroad", "keyboard");
+            correctionAdd("key board", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -18404,6 +18417,7 @@ namespace OverflowHelper.core
 
             correctionAdd("emdedded", "embedded");
             correctionAdd("ebmedded", "embedded");
+            correctionAdd("embeded", "embedded");
 
             correctionAdd("Factory Pattern", "factory pattern");
 
@@ -20549,6 +20563,8 @@ namespace OverflowHelper.core
             correctionAdd("selenium web driver", "Selenium WebDriver");
             correctionAdd("Selenium webdriver", "Selenium WebDriver");
             correctionAdd("Selenium Web Driver", "Selenium WebDriver");
+            correctionAdd("webdriver", "Selenium WebDriver");
+            correctionAdd("WebDriver", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
 
@@ -21780,6 +21796,37 @@ namespace OverflowHelper.core
             correctionAdd("re-earn", "reearn");
 
             correctionAdd("short term", "short-term");
+
+            correctionAdd("Ohio State", "Ohio State University");
+
+            correctionAdd("Penn State", "Pennsylvania State University");
+
+            correctionAdd("TOR Browser", "Tor Browser");
+
+            correctionAdd("turkish", "Turkish");
+
+            correctionAdd("file name", "filename");
+            correctionAdd("Filename", "filename");
+            correctionAdd("File name", "filename");
+
+            correctionAdd("guestimate", "guesstimate");
+            correctionAdd("gestimate", "guesstimate");
+
+            correctionAdd("intepreter", "interpreter");
+
+            correctionAdd("memrise", "memorise");
+
+            correctionAdd("micro-manage", "micromanage");
+
+            correctionAdd("P value", "p-value");
+
+            correctionAdd("pub", "pub (package manager)");
+
+            correctionAdd("re-implement", "reimplement");
+
+            correctionAdd("spureous", "spurious");
+
+            correctionAdd("webscraping", "web scraping");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33688,6 +33735,34 @@ namespace OverflowHelper.core
             URL_Add("short-term", "https://en.wiktionary.org/wiki/reearn#Verb");
 
             URL_Add("Sputnik V", "https://en.wikipedia.org/wiki/Gam-COVID-Vac");
+
+            URL_Add("Ohio State University", "https://en.wikipedia.org/wiki/Ohio_State_University");
+
+            URL_Add("Pennsylvania State University", "https://en.wikipedia.org/wiki/Pennsylvania_State_University");
+
+            URL_Add("Tor Browser", "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29#Tor_Browser");
+
+            URL_Add("Turkish", "https://en.wiktionary.org/wiki/Turkish#Adjective");
+
+            URL_Add("filename", "https://en.wiktionary.org/wiki/filename#Noun");
+
+            URL_Add("guesstimate", "https://en.wiktionary.org/wiki/guesstimate#Noun");
+
+            URL_Add("interpreter", "https://en.wiktionary.org/wiki/interpreter#Noun");
+
+            URL_Add("memorise", "https://en.wiktionary.org/wiki/memorise#Verb");
+
+            URL_Add("micromanage", "https://en.wiktionary.org/wiki/micromanage#Verb");
+
+            URL_Add("p-value", "https://en.wikipedia.org/wiki/P-value");
+
+            URL_Add("pub (package manager)", "https://en.wikipedia.org/wiki/Dart_(programming_language)#Usage");
+
+            URL_Add("reimplement", "https://en.wiktionary.org/wiki/reimplement#Verb");
+
+            URL_Add("spurious", "https://en.wiktionary.org/wiki/spurious#Adjective");
+
+            URL_Add("web scraping", "https://en.wikipedia.org/wiki/Web_scraping");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
