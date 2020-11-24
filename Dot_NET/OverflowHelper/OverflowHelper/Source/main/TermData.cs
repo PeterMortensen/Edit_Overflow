@@ -3889,6 +3889,7 @@ namespace OverflowHelper.core
             correctionAdd("Wipedia", "Wikipedia");
             correctionAdd("Wikpedia", "Wikipedia");
             correctionAdd("Wikiepedia", "Wikipedia");
+            correctionAdd("WiKi", "Wikipedia");
 
             correctionAdd("HAML", "Haml");
             correctionAdd("haml", "Haml");
@@ -9486,6 +9487,7 @@ namespace OverflowHelper.core
             correctionAdd("kiloohm", "kilohm");
             correctionAdd("kilo ohm", "kilohm");
             correctionAdd("K ohm", "kilohm");
+            correctionAdd("kohms", "kilohm");
 
             correctionAdd("Mohm", "megohm");
             correctionAdd("megaohm", "megohm");
@@ -10219,6 +10221,7 @@ namespace OverflowHelper.core
             correctionAdd("ATmega-328", "ATmega328P");
             correctionAdd("ATmega-328p", "ATmega328P");
             correctionAdd("ATmega-328P", "ATmega328P");
+            correctionAdd("ATMega328P", "ATmega328P");
 
             correctionAdd("anaconda", "Anaconda");
             correctionAdd("anonconda", "Anaconda");
@@ -12152,6 +12155,7 @@ namespace OverflowHelper.core
             correctionAdd("childs", "children");
 
             correctionAdd("commmented", "commented");
+            correctionAdd("commeted", "commented");
 
             correctionAdd("daugther", "daughter");
 
@@ -15378,6 +15382,7 @@ namespace OverflowHelper.core
             correctionAdd("CML", "command-line");
             correctionAdd("commandline", "command-line");
             correctionAdd("commanline", "command-line");
+            correctionAdd("comandline", "command-line");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -16205,6 +16210,7 @@ namespace OverflowHelper.core
 
             correctionAdd("zwichenzug", "zwischenzug"); // Chess
             correctionAdd("Zwischenzug", "zwischenzug"); // Chess
+            correctionAdd("Fitchentsuke", "zwischenzug");
 
             correctionAdd("Carl Bremen system", "Carl's Bremen system"); // Chess
 
@@ -21830,6 +21836,46 @@ namespace OverflowHelper.core
 
             correctionAdd("re-launch", "relaunch");
 
+            correctionAdd("apophis", "Apophis");
+            correctionAdd("Apophos", "Apophis");
+            correctionAdd("apophos", "Apophis");
+
+            correctionAdd("exim", "Exim");
+
+            correctionAdd("GTK 3", "GTK&nbsp;3");
+            correctionAdd("gtk3", "GTK&nbsp;3");
+            correctionAdd("gtk 3", "GTK&nbsp;3");
+
+            correctionAdd("GreenLand", "Greenland");
+            correctionAdd("greenland", "Greenland");
+
+            correctionAdd("john carmack", "John Carmack");
+
+            correctionAdd("aligment", "alignment");
+
+            correctionAdd("brain dead", "brain-dead");
+
+            correctionAdd("cames", "came");
+
+            correctionAdd("CAT", "cat");
+
+            correctionAdd("emmc", "eMMC");
+
+            correctionAdd("look-a-like", "lookalike");
+            correctionAdd("look a like", "lookalike");
+
+            correctionAdd("1-to-1", "one-to-one");
+
+            correctionAdd("planed", "planned");
+
+            correctionAdd("supersticious", "superstitious");
+
+            correctionAdd("TAC", "tac");
+
+            correctionAdd("udpate", "update");
+
+            correctionAdd("volantory", "voluntary");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -21932,6 +21978,8 @@ namespace OverflowHelper.core
             correctionAdd("T.B", "tuberculosis"); // But it really should be "T.B." (a current limitation in our system)
 
             correctionAdd("sputnic", "Sputnik V");
+
+            correctionAdd("black death", "Black Death");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -33767,6 +33815,42 @@ namespace OverflowHelper.core
             URL_Add("web scraping", "https://en.wikipedia.org/wiki/Web_scraping");
 
             URL_Add("relaunch", "https://en.wiktionary.org/wiki/relaunch#Verb");
+
+            URL_Add("Apophis", "https://en.wikipedia.org/wiki/99942_Apophis");
+
+            URL_Add("Exim", "https://en.wikipedia.org/wiki/Exim");
+
+            URL_Add("GTK&nbsp;3", "https://en.wikipedia.org/wiki/GTK#History");
+
+            URL_Add("Greenland", "https://en.wikipedia.org/wiki/Greenland");
+
+            URL_Add("John Carmack", "https://en.wikipedia.org/wiki/John_Carmack");
+
+            URL_Add("alignment", "https://en.wiktionary.org/wiki/alignment#Noun");
+
+            URL_Add("brain-dead", "https://en.wiktionary.org/wiki/brain-dead#Adjective");
+
+            URL_Add("came", "https://en.wiktionary.org/wiki/came#Verb");
+
+            URL_Add("cat", "https://en.wikipedia.org/wiki/Cat_(Unix)");
+
+            URL_Add("eMMC", "https://en.wikipedia.org/wiki/MultiMediaCard#eMMC");
+
+            URL_Add("lookalike", "https://en.wiktionary.org/wiki/lookalike#Noun");
+
+            URL_Add("one-to-one", "https://en.wiktionary.org/wiki/one-to-one#Adjective");
+
+            URL_Add("planned", "https://en.wiktionary.org/wiki/plan#Verb");
+
+            URL_Add("superstitious", "https://en.wiktionary.org/wiki/superstitious#Adjective");
+
+            URL_Add("tac", "https://en.wikipedia.org/wiki/Cat_(Unix)#tac");
+
+            URL_Add("update", "https://en.wiktionary.org/wiki/update#Verb");
+
+            URL_Add("voluntary", "https://en.wiktionary.org/wiki/voluntary#Adjective");
+
+            URL_Add("Black Death", "https://en.wikipedia.org/wiki/Black_Death");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
