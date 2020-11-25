@@ -9312,6 +9312,7 @@ namespace OverflowHelper.core
             correctionAdd("autoamtically", "automatically");
             correctionAdd("automaticaly", "automatically");
             correctionAdd("automaitcally", "automatically");
+            correctionAdd("automnatically", "automatically");
 
             correctionAdd("Compatability", "compatibility"); // Common misspelling...
             correctionAdd("compatability", "compatibility"); // Common misspelling...
@@ -11612,6 +11613,7 @@ namespace OverflowHelper.core
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
             correctionAdd("prograame", "program");
+            correctionAdd("progrtam", "program");
 
             correctionAdd("RLE", "run-length encoding");
 
@@ -13200,6 +13202,7 @@ namespace OverflowHelper.core
             correctionAdd("Throughrough", "thorough");
             correctionAdd("throughrough", "thorough");
             correctionAdd("throrough", "thorough");
+            correctionAdd("throurough", "thorough");
 
             correctionAdd("unnecesserily", "unnecessarily");
             correctionAdd("uneceesirly", "unnecessarily");
@@ -13468,6 +13471,7 @@ namespace OverflowHelper.core
             correctionAdd("editior", "editor");
 
             correctionAdd("wil", "will");
+            correctionAdd("wlil", "will");
 
             correctionAdd("braintree", "Braintree");
 
@@ -16011,6 +16015,7 @@ namespace OverflowHelper.core
             correctionAdd("Carlsen", "Magnus Carlsen"); // Chess
             correctionAdd("magnus", "Magnus Carlsen"); // Chess
             correctionAdd("Magnus", "Magnus Carlsen"); // Chess
+            correctionAdd("manus", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -16252,6 +16257,12 @@ namespace OverflowHelper.core
             correctionAdd("Spassky", "Boris Spassky");
             correctionAdd("spasky", "Boris Spassky");
             correctionAdd("spassky", "Boris Spassky");
+
+            correctionAdd("plachutta", "Plachutta");
+            correctionAdd("PLACHUTTA", "Plachutta");
+
+            correctionAdd("liren", "Ding Liren");
+            correctionAdd("Liren", "Ding Liren");
             //
             // End of chess part
 
@@ -16723,6 +16734,7 @@ namespace OverflowHelper.core
             correctionAdd("toronto", "Toronto");
 
             correctionAdd("webflow", "Webflow");
+            correctionAdd("WEBFLOW", "Webflow");
 
             correctionAdd("attemptig", "attempting");
 
@@ -17791,6 +17803,7 @@ namespace OverflowHelper.core
             correctionAdd("portemonais", "portmanteau");
 
             correctionAdd("psycology", "psychology");
+            correctionAdd("phychology", "psychology");
 
             correctionAdd("Repos", "repositories");
             correctionAdd("repos", "repositories");
@@ -19164,6 +19177,7 @@ namespace OverflowHelper.core
             correctionAdd("competetive", "competitive");
             correctionAdd("competative", "competitive");
             correctionAdd("Competitive", "competitive");
+            correctionAdd("Competetive", "competitive");
 
             correctionAdd("excalamation mark", "exclamation mark");
             correctionAdd("Excalamation mark", "exclamation mark");
@@ -19683,6 +19697,8 @@ namespace OverflowHelper.core
             correctionAdd("austrailia", "Australia");
 
             correctionAdd("gdpr", "GDPR");
+            correctionAdd("GDRP", "GDPR");
+            correctionAdd("gdrp", "GDPR");
 
             correctionAdd("GOM", "Gulf of Mexico");
 
@@ -21157,6 +21173,7 @@ namespace OverflowHelper.core
             correctionAdd("enourmous", "enormous");
 
             correctionAdd("outwheigh", "outweigh");
+            correctionAdd("outweight", "outweigh");
 
             correctionAdd("recal", "recall");
 
@@ -21777,6 +21794,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Arecibo", "Arecibo Observatory");
             correctionAdd("Aricebo", "Arecibo Observatory");
+            correctionAdd("Arocebo", "Arecibo Observatory");
 
             correctionAdd("Fuse", "FUSE");
 
@@ -21875,6 +21893,34 @@ namespace OverflowHelper.core
             correctionAdd("udpate", "update");
 
             correctionAdd("volantory", "voluntary");
+
+            correctionAdd("Baas", "BaaS");
+
+            correctionAdd("Chrome devtools", "Chrome DevTools");
+
+            correctionAdd("MBaas", "MBaaS");
+
+            correctionAdd("parse", "Parse");
+
+            correctionAdd("Serenity", "Serenity BDD Framework");
+            correctionAdd("serenity", "Serenity BDD Framework");
+
+            correctionAdd("cirtainty", "certainty");
+            correctionAdd("curtainty", "certainty");
+
+            correctionAdd("doubledness", "doubleness");
+
+            correctionAdd("fueled", "fuelled");
+
+            correctionAdd("letiing", "letting");
+
+            correctionAdd("partecipate", "participate");
+
+            correctionAdd("partecipated", "participated");
+
+            correctionAdd("serverless", "serverless computing");
+
+            correctionAdd("strait", "straight");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33851,6 +33897,36 @@ namespace OverflowHelper.core
             URL_Add("voluntary", "https://en.wiktionary.org/wiki/voluntary#Adjective");
 
             URL_Add("Black Death", "https://en.wikipedia.org/wiki/Black_Death");
+
+            URL_Add("BaaS", "https://en.wikipedia.org/wiki/Mobile_backend_as_a_service");
+
+            URL_Add("Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/");
+
+            URL_Add("Ding Liren", "https://en.wikipedia.org/wiki/Ding_Liren");
+
+            URL_Add("MBaaS", "https://en.wikipedia.org/wiki/Mobile_backend_as_a_service");
+
+            URL_Add("Parse", "https://en.wikipedia.org/wiki/Parse_(platform)");
+
+            URL_Add("Plachutta", "https://en.wikipedia.org/wiki/Plachutta");
+
+            URL_Add("Serenity BDD Framework", "https://experitest.com/mobile-app-testing/working-with-serenity-bdd-framework-an-overview/");
+
+            URL_Add("certainty", "https://en.wiktionary.org/wiki/certainty#Noun");
+
+            URL_Add("doubleness", "https://en.wiktionary.org/wiki/doubleness#Noun");
+
+            URL_Add("fuelled", "https://en.wiktionary.org/wiki/fuel#Verb");
+
+            URL_Add("letting", "https://en.wiktionary.org/wiki/let#Verb");
+
+            URL_Add("participate", "https://en.wiktionary.org/wiki/participate#Verb");
+
+            URL_Add("participated", "https://en.wiktionary.org/wiki/participate#Verb");
+
+            URL_Add("serverless computing", "https://en.wikipedia.org/wiki/Serverless_computing");
+
+            URL_Add("straight", "https://en.wiktionary.org/wiki/straight#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
