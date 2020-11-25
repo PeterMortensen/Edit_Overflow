@@ -13358,6 +13358,9 @@ namespace OverflowHelper.core
 
             correctionAdd("womans", "women");
             correctionAdd("wamen", "women");
+            correctionAdd("wimens", "women");
+            correctionAdd("wemen", "women");
+            correctionAdd("wimen", "women");
 
             correctionAdd("fiverr", "Fiverr");
             correctionAdd("fiver", "Fiverr");
@@ -14857,6 +14860,7 @@ namespace OverflowHelper.core
             correctionAdd("Go to", "go to");
 
             correctionAdd("googlable", "googleable");
+            correctionAdd("googleble", "googleable");
 
             correctionAdd("inbetween", "in-between");
             correctionAdd("in between", "in-between");
@@ -17232,6 +17236,7 @@ namespace OverflowHelper.core
 
             correctionAdd("DS", "data science");
             correctionAdd("Data Science", "data science");
+            correctionAdd("datascience", "data science");
 
             correctionAdd("fount", "found");
             correctionAdd("fund", "found");
@@ -19699,6 +19704,8 @@ namespace OverflowHelper.core
             correctionAdd("gdpr", "GDPR");
             correctionAdd("GDRP", "GDPR");
             correctionAdd("gdrp", "GDPR");
+            correctionAdd("GPDR", "GDPR");
+            correctionAdd("gpdr", "GDPR");
 
             correctionAdd("GOM", "Gulf of Mexico");
 
@@ -21921,6 +21928,46 @@ namespace OverflowHelper.core
             correctionAdd("serverless", "serverless computing");
 
             correctionAdd("strait", "straight");
+
+            correctionAdd("Blackboard Learning System", "Blackboard Learn");
+            correctionAdd("Blackboard", "Blackboard Learn");
+
+            correctionAdd("coinbase", "Coinbase");
+            correctionAdd("COINBASE", "Coinbase");
+
+            correctionAdd("EdXPosed", "EdXposed");
+            correctionAdd("Edxposed", "EdXposed");
+            correctionAdd("edxposed", "EdXposed");
+
+            correctionAdd("jbehave", "JBehave");
+
+            correctionAdd("sre", "SRE");
+
+            correctionAdd("TestNg", "TestNG");
+            correctionAdd("testng", "TestNG");
+
+            correctionAdd("Winterbash", "Winter Bash");
+
+            correctionAdd("artculates", "articulates");
+            correctionAdd("artşculates", "articulates");
+
+            correctionAdd("beign", "begin");
+
+            correctionAdd("conecern", "concern");
+
+            correctionAdd("confrontaction", "confrontation");
+
+            correctionAdd("constiutional", "constitutional");
+
+            correctionAdd("eleminate", "eliminate");
+
+            correctionAdd("LMS", "learning management system");
+
+            correctionAdd("Project Based Learning", "project-based learning");
+
+            correctionAdd("querk", "quirk");
+
+            correctionAdd("re-take", "retake");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -33927,6 +33974,40 @@ namespace OverflowHelper.core
             URL_Add("serverless computing", "https://en.wikipedia.org/wiki/Serverless_computing");
 
             URL_Add("straight", "https://en.wiktionary.org/wiki/straight#Adverb");
+
+            URL_Add("Blackboard Learn", "https://en.wikipedia.org/wiki/Blackboard_Learn");
+
+            URL_Add("Coinbase", "https://en.wikipedia.org/wiki/Coinbase");
+
+            URL_Add("EdXposed", "https://github.com/ElderDrivers/EdXposed");
+
+            URL_Add("JBehave", "https://en.wikipedia.org/wiki/Behavior-driven_development#Tooling_principles");
+
+            URL_Add("SRE", "https://en.wikipedia.org/wiki/Site_reliability_engineering");
+
+            URL_Add("TestNG", "https://en.wikipedia.org/wiki/TestNG");
+
+            URL_Add("Winter Bash", "https://meta.stackexchange.com/questions/tagged/winter-bash");
+
+            URL_Add("articulates", "https://en.wiktionary.org/wiki/articulate#Verb");
+
+            URL_Add("begin", "https://en.wiktionary.org/wiki/begin#Verb");
+
+            URL_Add("concern", "https://en.wiktionary.org/wiki/concern#Noun");
+
+            URL_Add("confrontation", "https://en.wiktionary.org/wiki/confrontation#Noun");
+
+            URL_Add("constitutional", "https://en.wiktionary.org/wiki/constitutional#Adjective");
+
+            URL_Add("eliminate", "https://en.wiktionary.org/wiki/eliminate#Verb");
+
+            URL_Add("learning management system", "https://en.wikipedia.org/wiki/Learning_management_system");
+
+            URL_Add("project-based learning", "https://en.wikipedia.org/wiki/Project-based_learning");
+
+            URL_Add("quirk", "https://en.wiktionary.org/wiki/quirk#Noun");
+
+            URL_Add("retake", "https://en.wiktionary.org/wiki/retake#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
