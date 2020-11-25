@@ -1,8 +1,17 @@
 ########################################################################
 #                                                                      #
 # Purpose: Compilation and running of part of the Edit Overflow        #
-#          C# code (.NET) on Linux. It produces SQL and                #
-#          HTML exports of the Edit Overflow wordlist.                 #
+#          on Linux. It produces SQL and HTML exports of the           #
+#          Edit Overflow wordlist.                                     #
+#                                                                      #
+#          The running part is of C# code (.NET). The testing          #
+#          is both for C# and JavaScript. And systen regression        #
+#          tests (currently only for the web interface)                #
+#                                                                      #
+#          We also copy some generated files to the web site,          #
+#          e.g. the word file in HTML (for viewing) and                #
+#          JavaScript (for use in JavaScript-based word                #
+#          lookup).                                                    #
 #                                                                      #
 #          Also, by running the C# code (exactly the same as on        #
 #          Windows), a number of integrity and sanity tests are        #
@@ -349,6 +358,15 @@ cd -
 #exit   # Active: Test only!!!!!!!!!
 
 
+echo
+echo
+echo '7. Starting web interface regression tests...'
+echo
+# For now: directly from the source 
+# folder, not the work folder
+#
+python3 /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/WebRegress.py
+
 
 # Copy the HTML to the public web site.
 #
@@ -359,7 +377,7 @@ cd -
 #
 echo
 echo
-echo '7. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
+echo '8. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
 echo
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
@@ -376,7 +394,7 @@ eval ${LFTP_COMMAND}
 #
 echo
 echo
-echo '8. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
+echo '9. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
 echo
 cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
