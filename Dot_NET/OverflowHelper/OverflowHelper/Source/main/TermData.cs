@@ -6752,6 +6752,7 @@ namespace OverflowHelper.core
             correctionAdd("fucntion", "function");
             correctionAdd("funcion", "function");
             correctionAdd("finction", "function");
+            correctionAdd("functuion", "function");
 
             correctionAdd("cgi", "CGI");
 
@@ -8302,6 +8303,8 @@ namespace OverflowHelper.core
             correctionAdd("outout", "output");
             correctionAdd("outp", "output");
             correctionAdd("outoput", "output");
+            correctionAdd("OUT", "output");
+            correctionAdd("out", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -16267,6 +16270,10 @@ namespace OverflowHelper.core
 
             correctionAdd("liren", "Ding Liren");
             correctionAdd("Liren", "Ding Liren");
+
+            correctionAdd("anish giri", "Anish Giri");
+            correctionAdd("Amish Girl", "Anish Giri");
+            correctionAdd("giri", "Anish Giri");
             //
             // End of chess part
 
@@ -20032,6 +20039,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Alpha Centuri", "Alpha Centauri");
             correctionAdd("Alpha centuri", "Alpha Centauri");
+            correctionAdd("Alpha Centairi", "Alpha Centauri");
 
             correctionAdd("AlpineJs", "Alpine.js");
 
@@ -20594,6 +20602,7 @@ namespace OverflowHelper.core
             correctionAdd("Selenium Web Driver", "Selenium WebDriver");
             correctionAdd("webdriver", "Selenium WebDriver");
             correctionAdd("WebDriver", "Selenium WebDriver");
+            correctionAdd("webDriver", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
 
@@ -21969,6 +21978,24 @@ namespace OverflowHelper.core
 
             correctionAdd("re-take", "retake");
 
+            correctionAdd("ic", "IC");
+
+            correctionAdd("Hepatitis C", "hepatitis C");
+            correctionAdd("hepatetis c", "hepatitis C");
+
+            correctionAdd("incersely", "inversely");
+
+            correctionAdd("big sur", "macOS v11 (Big Sur)");
+            correctionAdd("Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS 11 Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS 11", "macOS v11 (Big Sur)");
+
+            correctionAdd("single core", "single-core");
+
+            correctionAdd("Smart Home", "smart home");
+
+            correctionAdd("there by", "thereby");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -22019,6 +22046,7 @@ namespace OverflowHelper.core
             correctionAdd("Covid", "COVID-19");
             correctionAdd("19", "COVID-19");
             correctionAdd("COVID9", "COVID-19");
+            correctionAdd("convid", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -34008,6 +34036,22 @@ namespace OverflowHelper.core
             URL_Add("quirk", "https://en.wiktionary.org/wiki/quirk#Noun");
 
             URL_Add("retake", "https://en.wiktionary.org/wiki/retake#Verb");
+
+            URL_Add("IC", "https://en.wikipedia.org/wiki/Integrated_circuit");
+
+            URL_Add("hepatitis C", "https://en.wikipedia.org/wiki/Hepatitis_C");
+
+            URL_Add("inversely", "https://en.wiktionary.org/wiki/inversely#Adverb");
+
+            URL_Add("macOS v11 (Big Sur)", "https://en.wikipedia.org/wiki/MacOS_Big_Sur");
+
+            URL_Add("single-core", "https://en.wikipedia.org/wiki/Single-core");
+
+            URL_Add("smart home", "https://en.wikipedia.org/wiki/Smart_home_technology");
+
+            URL_Add("thereby", "https://en.wiktionary.org/wiki/thereby#Adverb");
+
+            URL_Add("Anish Giri", "https://en.wikipedia.org/wiki/Anish_Giri");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
