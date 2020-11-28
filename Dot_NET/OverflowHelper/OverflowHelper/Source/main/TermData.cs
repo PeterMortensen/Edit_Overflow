@@ -3269,11 +3269,6 @@ namespace OverflowHelper.core
             correctionAdd("aplplication", "application");
             correctionAdd("applicaltion", "application");
 
-            correctionAdd("directx", "DirectX");
-            correctionAdd("direct x", "DirectX");
-            correctionAdd("directX", "DirectX");
-            correctionAdd("Direct X", "DirectX");
-
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
             correctionAdd("aPI", "API");
@@ -4059,18 +4054,6 @@ namespace OverflowHelper.core
 
             correctionAdd("swig", "SWIG");
 
-            correctionAdd("dir", "directory");
-            correctionAdd("dirs", "directory"); // Not 100% correct - plural.
-            correctionAdd("directoty", "directory");
-            correctionAdd("diretory", "directory");
-            correctionAdd("direcoty", "directory");
-            correctionAdd("diretcory", "directory");
-            correctionAdd("directoy", "directory");
-            correctionAdd("dirctory", "directory");
-            correctionAdd("direcotires", "directory");
-            correctionAdd("direcotry", "directory");
-            correctionAdd("diractory", "directory");
-
             correctionAdd("cwd", "current working directory");
             correctionAdd("CWD", "current working directory");
             correctionAdd("pwd", "current working directory");
@@ -4484,9 +4467,6 @@ namespace OverflowHelper.core
             correctionAdd("povray", "POV-Ray");
 
             correctionAdd("xna", "XNA");
-
-            correctionAdd("Direct3d", "Direct3D");
-            correctionAdd("direct3d", "Direct3D");
 
             correctionAdd("bezier", "Bézier curve");
             correctionAdd("bezier curve", "Bézier curve");
@@ -11315,11 +11295,6 @@ namespace OverflowHelper.core
             correctionAdd("Team City", "TeamCity");
 
             correctionAdd("write-error", "Write-Error");
-
-            correctionAdd("directy", "directly");
-            correctionAdd("direcly", "directly");
-            correctionAdd("directlly", "directly");
-            correctionAdd("derectly", "directly");
 
             correctionAdd("dicovered", "discovered");
             correctionAdd("discoverd", "discovered");
@@ -21498,6 +21473,31 @@ namespace OverflowHelper.core
 
             correctionAdd("sub-directories", "subdirectories");
 
+            correctionAdd("directx", "DirectX");
+            correctionAdd("direct x", "DirectX");
+            correctionAdd("directX", "DirectX");
+            correctionAdd("Direct X", "DirectX");
+
+            correctionAdd("Direct3d", "Direct3D");
+            correctionAdd("direct3d", "Direct3D");
+
+            correctionAdd("directy", "directly");
+            correctionAdd("direcly", "directly");
+            correctionAdd("directlly", "directly");
+            correctionAdd("derectly", "directly");
+
+            correctionAdd("dir", "directory");
+            correctionAdd("directoty", "directory");
+            correctionAdd("diretory", "directory");
+            correctionAdd("direcoty", "directory");
+            correctionAdd("diretcory", "directory");
+            correctionAdd("directoy", "directory");
+            correctionAdd("dirctory", "directory");
+            correctionAdd("direcotry", "directory");
+            correctionAdd("diractory", "directory");
+
+            correctionAdd("dirs", "directories");
+            correctionAdd("direcotires", "directories");
             correctionAdd("directorys", "directories");
             correctionAdd("directores", "directories");
 
