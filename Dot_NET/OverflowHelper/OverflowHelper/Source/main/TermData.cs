@@ -20783,6 +20783,8 @@ namespace OverflowHelper.core
             correctionAdd("ressource", "resource");
             correctionAdd("recourse", "resource");
             correctionAdd("resourse", "resource");
+            correctionAdd("resurce", "resource");
+            correctionAdd("resurse", "resource");
 
             correctionAdd("Open source", "open source");
             correctionAdd("Open Source", "open source");
@@ -20982,6 +20984,8 @@ namespace OverflowHelper.core
 
             correctionAdd("where as", "whereas");
             correctionAdd("wheras", "whereas");
+            correctionAdd("Where as", "whereas");
+            correctionAdd("Whereas", "whereas");
 
             correctionAdd("christmas", "Christmas");
 
@@ -21995,6 +21999,14 @@ namespace OverflowHelper.core
             correctionAdd("Smart Home", "smart home");
 
             correctionAdd("there by", "thereby");
+
+            correctionAdd("Java Servlet", "Jakarta Servlet");
+            correctionAdd("Servlet", "Jakarta Servlet");
+            correctionAdd("servlet", "Jakarta Servlet");
+
+            correctionAdd("re-think", "rethink");
+
+            correctionAdd("til", "till");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34052,6 +34064,12 @@ namespace OverflowHelper.core
             URL_Add("thereby", "https://en.wiktionary.org/wiki/thereby#Adverb");
 
             URL_Add("Anish Giri", "https://en.wikipedia.org/wiki/Anish_Giri");
+
+            URL_Add("Jakarta Servlet", "https://en.wikipedia.org/wiki/Jakarta_Servlet");
+
+            URL_Add("rethink", "https://en.wiktionary.org/wiki/rethink#Verb");
+
+            URL_Add("till", "https://en.wiktionary.org/wiki/till#Preposition");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
