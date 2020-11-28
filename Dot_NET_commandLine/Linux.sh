@@ -154,16 +154,19 @@ export FTP_SITE_URL='ftp://linux42.simply.com'
 
 
 
-# Open a web page for verification of push to GitHub
-xdg-open "https://github.com/PeterMortensen/Edit_Overflow"
+# ###########################################################################
+echo
+echo
+echo '1. Starting web interface regression tests...'
+echo
 
+# For now: Not assuming executable 'geckodriver' is in the path
+export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 
-# Open the Simply.com (formerly UnoEuro) import
-# page (immediately so we can prepare while
-# the rest of the script is running)
-xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
-
-
+# For now: directly from the source
+# folder, not the work folder
+#
+python3 /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/WebRegress.py
 
 
 # ###########################################################################
@@ -177,7 +180,7 @@ xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 #
 echo
 echo
-echo '1. Copying files to the build folder...'
+echo '2. Copying files to the build folder...'
 echo
 
 mkdir -p $WORKFOLDER1
@@ -239,7 +242,7 @@ cd $WORKFOLDER
 #
 echo
 echo
-echo '2. Start running C# unit tests...'
+echo '3. Start running C# unit tests...'
 echo
 
 # Note: unlike "dotnet run", "dotnet test" does not
@@ -295,7 +298,7 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 echo
 echo
-echo '3. Exporting the word list as SQL...'
+echo '4. Exporting the word list as SQL...'
 echo
 export WORDLIST_OUTPUTTYPE=SQL
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
@@ -309,10 +312,38 @@ ls -ls $SQL_FILE
 #exit   # Active: Test only!!!!!!!!!
 
 
+# ###########################################################################
+#
+# Open some web pages for manual operations. We do this
+# as soon as the SQL file for the word list is ready to
+# be ***imported*** (so the focus changes (Firefox 
+# comes to the foreground) signals that it is 
+# ready for import.
+#
+echo
+echo
+echo '5. Opening some web pages for manual operations...'
+echo
+
+# Open a web page for verification of push to GitHub
+xdg-open "https://github.com/PeterMortensen/Edit_Overflow"
+sleep 2
+
+# Open a web page for verification of MySQL update (for the
+# wordlist) - that new words have actually been added
+xdg-open "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no"
+sleep 2
+
+# Open the Simply.com (formerly UnoEuro) import
+# page (immediately so we can prepare while
+# the rest of the script is running)
+xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
+
+
 # Some redundancy here - to be eliminated
 echo
 echo
-echo '4. Exporting the word list as HTML...'
+echo '6. Exporting the word list as HTML...'
 echo
 export WORDLIST_OUTPUTTYPE=HTML
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE
@@ -326,7 +357,7 @@ ls -ls $HTML_FILE_GENERIC
 # Some redundancy here - to be eliminated
 echo
 echo
-echo '5. Exporting the word list as JavaScript...'
+echo '7. Exporting the word list as JavaScript...'
 echo
 export WORDLIST_OUTPUTTYPE=JavaScript
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASCRIPT_FILE
@@ -348,7 +379,7 @@ ls -ls $JAVASCRIPT_FILE_GENERIC
 
 echo
 echo
-echo '6. Start running JavaScript unit tests...'
+echo '8. Start running JavaScript unit tests...'
 echo
 # Note: For now, directly in source folder. It should
 #       be moved to the work folder.
@@ -366,20 +397,6 @@ cd -
 #exit   # Active: Test only!!!!!!!!!
 
 
-# ###########################################################################
-echo
-echo
-echo '7. Starting web interface regression tests...'
-echo
-
-# For now: Not assuming executable 'geckodriver' is in the path
-export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
-
-# For now: directly from the source 
-# folder, not the work folder
-#
-python3 /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/WebRegress.py
-
 
 # ###########################################################################
 
@@ -392,7 +409,7 @@ python3 /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest_
 #
 echo
 echo
-echo '8. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
+echo '9. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
 echo
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
@@ -409,7 +426,7 @@ eval ${LFTP_COMMAND}
 #
 echo
 echo
-echo '9. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
+echo '10. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
 echo
 cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
