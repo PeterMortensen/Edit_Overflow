@@ -23290,7 +23290,7 @@ namespace OverflowHelper.core
 
             URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
 
-            URL_Add("Mathematica", "https://en.wikipedia.org/wiki/Mathematica");
+            URL_Add("Mathematica", "https://en.wikipedia.org/wiki/Wolfram_Mathematica"); // Old: https://en.wikipedia.org/wiki/Mathematica
 
             URL_Add("JIT", "https://en.wikipedia.org/wiki/Just-in-time_compilation");
 
@@ -24880,7 +24880,7 @@ namespace OverflowHelper.core
 
             URL_Add("SunOS", "https://en.wikipedia.org/wiki/SunOS");
 
-            URL_Add("useful", "https://en.wiktionary.org/wiki/usefull");
+            URL_Add("useful", "https://en.wiktionary.org/wiki/useful#Adjective"); // Old: https://en.wiktionary.org/wiki/usefull
 
             URL_Add("Gprof", "https://en.wikipedia.org/wiki/Gprof");
 
@@ -25642,7 +25642,7 @@ namespace OverflowHelper.core
 
             URL_Add("particularly", "https://en.wiktionary.org/wiki/particularly#Adverb");
 
-            URL_Add("preferred", "https://en.wiktionary.org/wiki/prefered");
+            URL_Add("preferred", "https://en.wiktionary.org/wiki/preferred#Verb"); // Old: https://en.wiktionary.org/wiki/prefered
 
             URL_Add("disappointed", "https://en.wiktionary.org/wiki/disappointed#Adjective");
 
@@ -30851,7 +30851,7 @@ namespace OverflowHelper.core
 
             URL_Add("no-code development platform", "https://en.wikipedia.org/wiki/No-code_development_platform");
 
-            URL_Add("paid", "https://en.wiktionary.org/wiki/pay#English");
+            URL_Add("paid", "https://en.wiktionary.org/wiki/pay#Verb"); // Old: https://en.wiktionary.org/wiki/pay#English
 
             URL_Add("solid rocket booster", "https://en.wikipedia.org/wiki/Solid_rocket_booster");
 
