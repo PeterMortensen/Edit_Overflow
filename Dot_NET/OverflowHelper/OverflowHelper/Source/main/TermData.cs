@@ -3223,6 +3223,7 @@ namespace OverflowHelper.core
             correctionAdd("NGINX", "nginx");
             correctionAdd("ngix", "nginx");
             correctionAdd("NginX", "nginx");
+            correctionAdd("ngnix", "nginx");
 
             correctionAdd("ligHTTPd", "lighttpd");
 
@@ -3232,6 +3233,7 @@ namespace OverflowHelper.core
 
             correctionAdd("guid", "GUID");
             correctionAdd("Guid", "GUID");
+            correctionAdd("Guide", "GUID");
 
             correctionAdd("liveCD", "live CD");
             correctionAdd("LiveCD", "live CD");
@@ -8772,6 +8774,7 @@ namespace OverflowHelper.core
             correctionAdd("Dosen't", "doesn’t");
             correctionAdd("doesn", "doesn’t");
             correctionAdd("Doesnt", "doesn’t");
+            correctionAdd("does't", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -9673,6 +9676,7 @@ namespace OverflowHelper.core
             correctionAdd("FP", "functional programming");
             correctionAdd("functionnal programming", "functional programming");
             correctionAdd("fp", "functional programming");
+            correctionAdd("functional", "functional programming");
 
             correctionAdd("shud", "should");
             correctionAdd("shuold", "should");
@@ -9760,6 +9764,7 @@ namespace OverflowHelper.core
             correctionAdd("AspNetCore", "ASP.NET Core");
             correctionAdd("AspNet Core", "ASP.NET Core");
             correctionAdd("aspnet core mvc", "ASP.NET Core");
+            correctionAdd("core MVC", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10104,6 +10109,7 @@ namespace OverflowHelper.core
             correctionAdd("parens", "parentheses");
             correctionAdd("parantheses", "parentheses");
             correctionAdd("paratheses", "parentheses");
+            correctionAdd("Parens", "parentheses");
 
             correctionAdd("utils", "utilities");
             correctionAdd("utilties", "utilities");
@@ -12201,6 +12207,7 @@ namespace OverflowHelper.core
 
             correctionAdd("CSS 2", "CSS&nbsp;2");
             correctionAdd("css2", "CSS&nbsp;2");
+            correctionAdd("CSS2", "CSS&nbsp;2");
 
             correctionAdd("celsius", "Celsius");
             correctionAdd("celcius", "Celsius");
@@ -14839,6 +14846,9 @@ namespace OverflowHelper.core
 
             correctionAdd("googlable", "googleable");
             correctionAdd("googleble", "googleable");
+            correctionAdd("Googable", "googleable");
+            correctionAdd("googable", "googleable");
+            correctionAdd("googleabe", "googleable");
 
             correctionAdd("inbetween", "in-between");
             correctionAdd("in between", "in-between");
@@ -15595,6 +15605,7 @@ namespace OverflowHelper.core
             correctionAdd("light-weight", "lightweight");
             correctionAdd("light waight", "lightweight");
             correctionAdd("light weight", "lightweight");
+            correctionAdd("ligthweight", "lightweight");
 
             correctionAdd("obcessive", "obsessive");
 
@@ -16737,7 +16748,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Sign-Up", "signup");
 
-            correctionAdd("sme", "some");
             correctionAdd("somme", "some");
             correctionAdd("somi", "some");
 
@@ -19448,6 +19458,7 @@ namespace OverflowHelper.core
             correctionAdd("aarray", "array");
             correctionAdd("arrary", "array");
             correctionAdd("arry", "array");
+            correctionAdd("arra", "array");
 
             correctionAdd("fire", "FIRE");
 
@@ -19488,6 +19499,7 @@ namespace OverflowHelper.core
             correctionAdd("gsm", "GSM");
 
             correctionAdd("schwartzian transform", "Schwartzian transform");
+            correctionAdd("Schwartzian Transform", "Schwartzian transform");
 
             correctionAdd("USBlyser", "USBlyzer");
 
@@ -21917,6 +21929,9 @@ namespace OverflowHelper.core
             correctionAdd("Baas", "BaaS");
 
             correctionAdd("Chrome devtools", "Chrome DevTools");
+            correctionAdd("DevTools", "Chrome DevTools");
+            correctionAdd("Dev Tools", "Chrome DevTools");
+            correctionAdd("Chrome Dev Tools", "Chrome DevTools");
 
             correctionAdd("MBaas", "MBaaS");
 
@@ -22007,6 +22022,25 @@ namespace OverflowHelper.core
             correctionAdd("re-think", "rethink");
 
             correctionAdd("til", "till");
+
+            correctionAdd("ada", "Ada");
+
+            correctionAdd("chua diode", "Chua's diode");
+
+            correctionAdd("Codepad", "CodePad");
+            correctionAdd("codepad", "CodePad");
+
+            correctionAdd("sri", "Subresource Integrity");
+            correctionAdd("SRI", "Subresource Integrity");
+
+            correctionAdd("back_to_back", "back-to-back");
+
+            correctionAdd("SME", "subject-matter expert");
+            correctionAdd("sme", "subject-matter expert");
+
+            correctionAdd("sub string", "substring");
+
+            correctionAdd("Water", "water");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34070,6 +34104,22 @@ namespace OverflowHelper.core
             URL_Add("rethink", "https://en.wiktionary.org/wiki/rethink#Verb");
 
             URL_Add("till", "https://en.wiktionary.org/wiki/till#Preposition");
+
+            URL_Add("Ada", "https://en.wikipedia.org/wiki/Ada_(programming_language)");
+
+            URL_Add("Chua's diode", "https://en.wikipedia.org/wiki/Chua%27s_diode");
+
+            URL_Add("CodePad", "https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds#Online_compiled_source_code_playgrounds");
+
+            URL_Add("Subresource Integrity", "https://en.wikipedia.org/wiki/Subresource_Integrity");
+
+            URL_Add("back-to-back", "https://en.wiktionary.org/wiki/back-to-back#Adjective");
+
+            URL_Add("subject-matter expert", "https://en.wikipedia.org/wiki/Subject-matter_expert");
+
+            URL_Add("substring", "https://en.wiktionary.org/wiki/substring#Noun");
+
+            URL_Add("water", "https://en.wikipedia.org/wiki/Water");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
