@@ -22,34 +22,48 @@ from selenium.webdriver.common.by import By
 
 class TestMainEditOverflowLookup_Web(unittest.TestCase):
 
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+    browser = 0
 
-    def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
+    def setUp(self):
+        # Note: It actually takes 4-5 seconds before
+        #       the Firefox window appears...
+        self.browser = webdriver.Firefox()
 
-    def test_split(self):
-        s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'world'])
-        # check that s.split fails when the separator is not a string
-        with self.assertRaises(TypeError):
-            s.split(2)
+        time.sleep(1.0)
+
+    def tearDown(self):
+
+        time.sleep(5.0) # Let us have a look for a time...
+        self.browser.close()
+
+    #def test_upper(self):
+    #    self.assertEqual('foo'.upper(), 'FOO')
+
+    #def test_isupper(self):
+    #    self.assertTrue('FOO'.isupper())
+    #    self.assertFalse('Foo'.isupper())
+    #
+    #def test_split(self):
+    #    s = 'hello world'
+    #    self.assertEqual(s.split(), ['hello', 'world'])
+    #    # Check that s.split fails when the separator is not a string
+    #    with self.assertRaises(TypeError):
+    #        s.split(2)
 
     def test_mainLookup(self):
-        browser = webdriver.Firefox()
-        time.sleep(6.0)
+        #browser = webdriver.Firefox()
+        #time.sleep(6.0)
 
         # Initial page, with a (known) incorrect term different
         # from the default of 'cpu': 'php'
         #
-        browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
+        self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
         time.sleep(2.0)
 
         if True: # Test a normal lookup (implicitly through HTML get). For
                  # now only regression test for the edit summary field.
 
-            EditSummaryElement = browser.find_element_by_name("editSummary_output")
+            EditSummaryElement = self.browser.find_element_by_name("editSummary_output")
 
             # For the initial page, we expect a non-empty edit summary
             # field (though we actually currently make a lookup
@@ -62,7 +76,7 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
         if True: # Test a failed lookup. For now only regression
                  # test for the edit summary field.
 
-            lookUpElement = browser.find_element_by_name("LookUpTerm")
+            lookUpElement = self.browser.find_element_by_name("LookUpTerm")
             lookUpElement.clear()
             lookUpElement.send_keys("PHP__Z")
             lookUpElement.send_keys(Keys.RETURN)
@@ -79,17 +93,13 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
             #    the DOM, it is not in the current frame context, or
             #    the document has been refreshed"
             #
-            EditSummaryElement = browser.find_element_by_name("editSummary_output")
+            EditSummaryElement = self.browser.find_element_by_name("editSummary_output")
             EditSummary2 = EditSummaryElement.get_attribute("value")
 
             # The edit summary should be unchanged for failed lookup
             self.assertEqual(EditSummary2,
                              'Active reading [<https://en.wikipedia.org/wiki/PHP>].',
                              'Changed edit summary for a failed Edit Overflow lookup')
-
-
-        #To be moved to teardown as we don't here if the test fails
-        browser.close()
 
 
 if __name__ == '__main__':
