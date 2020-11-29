@@ -186,14 +186,15 @@
             $editSummary_output2 = "";
             $linkInlineMarkdown = "";
             
-            $outputEditSummary = 0;
+            $outputEditSummary = 1; # We still want output if the lookup
+                                    # fails - it will just be unchanged.
+                                    # It should only be cleared when the
+                                    # user have chosen "Reset lookup state"
 
             # True if the (incorrect) term was found in our
             # huge list (as of 2020-10-29, 14852 items)
             if ($correctTerm)
             {
-                $outputEditSummary = 1;
-                
                 # Add to our built-up edit summary string (using
                 # the carried-over state and our new lookup)
 

@@ -33,73 +33,105 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
 
     def tearDown(self):
 
-        time.sleep(5.0) # Let us have a look for a time...
+        time.sleep(5.0) # Let us have a look for a while...
         self.browser.close()
 
     #def test_upper(self):
     #    self.assertEqual('foo'.upper(), 'FOO')
 
-    #def test_isupper(self):
-    #    self.assertTrue('FOO'.isupper())
-    #    self.assertFalse('Foo'.isupper())
+
+    # Helper function for testing. For lookUp()
     #
-    #def test_split(self):
-    #    s = 'hello world'
-    #    self.assertEqual(s.split(), ['hello', 'world'])
-    #    # Check that s.split fails when the separator is not a string
-    #    with self.assertRaises(TypeError):
-    #        s.split(2)
+    # Submit a term for Edit Overflow for Web
+    #
+    def submitTerm(self, aLookUpTerm):
+        lookUpElement = self.browser.find_element_by_name("LookUpTerm")
+        lookUpElement.clear()
+        lookUpElement.send_keys(aLookUpTerm)
+        lookUpElement.send_keys(Keys.RETURN)
 
+        # This is crucial: We must wait for the update of the
+        # field (server roundtrip time and Firefox update)
+        time.sleep(2.0)
+
+
+    # Helper function for testing. For mostly for lookUp()
+    #
+    def checkEditSummary(self, aExpectedEditSummary, anExplanation):
+
+        # We must also repeat this to avoid this error (we can not keep
+        # using a previous instance of EditSummaryElement):
+        #
+        #    "The element reference of <input id="editSummary_output"
+        #    class="XYZ4" name="editSummary_output" type="text">
+        #    is stale; either the element is no longer attached to
+        #    the DOM, it is not in the current frame context, or
+        #    the document has been refreshed"
+        #
+        EditSummaryElement = self.browser.find_element_by_name("editSummary_output")
+        EditSummary2 = EditSummaryElement.get_attribute("value")
+
+        self.assertEqual(EditSummary2, aExpectedEditSummary, anExplanation)
+
+
+    # Helper function for testing
+    #
+    # Submitting a term to Edit Overflow for web and
+    # checking that the result is as expected
+    #
+    def lookUp(self, aLookUpTerm, aExpectedEditSummary, anExplanation):
+        self.submitTerm(aLookUpTerm)
+
+        # For now only regression test for
+        # the edit summary field.
+        self.checkEditSummary(aExpectedEditSummary, anExplanation)
+
+
+    # Test of the central function of Edit Overflow for web: Looking
+    # up incorrect terms (typically misspelling words)
+    #
     def test_mainLookup(self):
-        #browser = webdriver.Firefox()
-        #time.sleep(6.0)
-
         # Initial page, with a (known) incorrect term different
         # from the default of 'cpu': 'php'
         #
         self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
         time.sleep(2.0)
 
+        firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
+        defaultMsgForEditSummary = 'Unexpected edit summary '
+
         if True: # Test a normal lookup (implicitly through HTML get). For
                  # now only regression test for the edit summary field.
-
-            EditSummaryElement = self.browser.find_element_by_name("editSummary_output")
 
             # For the initial page, we expect a non-empty edit summary
             # field (though we actually currently make a lookup
             # through the opening URL)
-            EditSummary1 = EditSummaryElement.get_attribute("value")
-            #print('Edit summary after looking up "php": ' + EditSummary1)
-
-            self.assertEqual(EditSummary1, 'Active reading [<https://en.wikipedia.org/wiki/PHP>].')
-
-        if True: # Test a failed lookup. For now only regression
-                 # test for the edit summary field.
-
-            lookUpElement = self.browser.find_element_by_name("LookUpTerm")
-            lookUpElement.clear()
-            lookUpElement.send_keys("PHP__Z")
-            lookUpElement.send_keys(Keys.RETURN)
-
-            # This is crucial: We must wait for the update of the
-            # field (server roundtrip time and Firefox update)
-            time.sleep(2.0)
-
-            # We must also repeat this to avoid this error:
             #
-            #    "The element reference of <input id="editSummary_output"
-            #    class="XYZ4" name="editSummary_output" type="text">
-            #    is stale; either the element is no longer attached to
-            #    the DOM, it is not in the current frame context, or
-            #    the document has been refreshed"
-            #
-            EditSummaryElement = self.browser.find_element_by_name("editSummary_output")
-            EditSummary2 = EditSummaryElement.get_attribute("value")
+            self.checkEditSummary('Active reading [<https://en.wikipedia.org/wiki/PHP>].',
+                                  'Unexpected edit summary after URL POST lookup')
 
-            # The edit summary should be unchanged for failed lookup
-            self.assertEqual(EditSummary2,
-                             'Active reading [<https://en.wikipedia.org/wiki/PHP>].',
-                             'Changed edit summary for a failed Edit Overflow lookup')
+
+            # First direct lookup with a known incorrect term
+            self.lookUp("python", firstRealLookup_editSummary, defaultMsgForEditSummary)
+
+        if True: # Test a failed lookup.
+
+            # The edit summary should be unchanged for a
+            # failed lookup. We had a regression that
+            # was fixed 2020-11-29.
+            #
+            self.lookUp("PHP__Z",
+                        firstRealLookup_editSummary,
+                        'Changed edit summary for a failed Edit Overflow lookup')
+
+
+        if True: # Lookup after a failed lookup.
+
+            # Second direct lookup with a known
+            # correct term (identity mapping)
+            self.lookUp("until",
+                        'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
+                        defaultMsgForEditSummary + 'for looking up a ***correct*** term')
 
 
 if __name__ == '__main__':
