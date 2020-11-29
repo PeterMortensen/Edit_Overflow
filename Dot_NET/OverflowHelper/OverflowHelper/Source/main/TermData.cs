@@ -9951,6 +9951,7 @@ namespace OverflowHelper.core
 
             correctionAdd("apperently", "apparently");
             correctionAdd("aparently", "apparently");
+            correctionAdd("apparantly", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -12010,6 +12011,7 @@ namespace OverflowHelper.core
 
             correctionAdd("on going", "ongoing");
             correctionAdd("on-going", "ongoing");
+            correctionAdd("On going", "ongoing");
 
             correctionAdd("pos", "position");
             correctionAdd("postion", "position");
@@ -13516,6 +13518,7 @@ namespace OverflowHelper.core
             correctionAdd("alledgely", "allegedly");
 
             correctionAdd("contiue", "continue");
+            correctionAdd("countinue", "continue");
 
             correctionAdd("keepign", "keeping");
 
@@ -13854,6 +13857,7 @@ namespace OverflowHelper.core
             correctionAdd("craete", "create");
 
             correctionAdd("down voting", "downvoting");
+            correctionAdd("down-voting", "downvoting");
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
@@ -22041,6 +22045,18 @@ namespace OverflowHelper.core
             correctionAdd("sub string", "substring");
 
             correctionAdd("Water", "water");
+
+            correctionAdd("World Building", "Wordbuilding (Stack Exchange site)");
+            correctionAdd("wordbuilding", "Wordbuilding (Stack Exchange site)");
+            correctionAdd("WorldBuilding", "Wordbuilding (Stack Exchange site)");
+
+            correctionAdd("afterwords", "afterwards");
+
+            correctionAdd("ambigiously", "ambiguously");
+
+            correctionAdd("Diploma", "diploma");
+
+            correctionAdd("smack down", "smackdown");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34120,6 +34136,16 @@ namespace OverflowHelper.core
             URL_Add("substring", "https://en.wiktionary.org/wiki/substring#Noun");
 
             URL_Add("water", "https://en.wikipedia.org/wiki/Water");
+
+            URL_Add("Wordbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
+
+            URL_Add("afterwards", "https://en.wiktionary.org/wiki/afterwards#Adverb");
+
+            URL_Add("ambiguously", "https://en.wiktionary.org/wiki/ambiguously#Adverb");
+
+            URL_Add("diploma", "https://en.wiktionary.org/wiki/diploma#Noun");
+
+            URL_Add("smackdown", "https://en.wiktionary.org/wiki/smackdown#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
