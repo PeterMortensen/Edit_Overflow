@@ -2927,6 +2927,7 @@ namespace OverflowHelper.core
             correctionAdd("defenatly", "definitely");
             correctionAdd("definietly", "definitely");
             correctionAdd("definiteley", "definitely");
+            correctionAdd("def", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -3347,6 +3348,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gui", "GUI");
             correctionAdd("Gui", "GUI");
+            correctionAdd("Graphics user interface", "GUI");
 
             correctionAdd("win32", "Win32");
             correctionAdd("WIN32", "Win32");
@@ -8900,6 +8902,7 @@ namespace OverflowHelper.core
             correctionAdd("Tant", "tantalum capacitor");
             correctionAdd("Tantelum", "tantalum capacitor");
             correctionAdd("tantelum", "tantalum capacitor");
+            correctionAdd("tantalum", "tantalum capacitor");
 
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
@@ -10661,6 +10664,7 @@ namespace OverflowHelper.core
             correctionAdd("Recomended", "recommended");
             correctionAdd("recomended", "recommended");
             correctionAdd("recommmended", "recommended");
+            correctionAdd("reccomended", "recommended");
 
             correctionAdd("seperator", "separator");
             correctionAdd("seprator", "separator");
@@ -12382,6 +12386,7 @@ namespace OverflowHelper.core
             correctionAdd("Per Se", "per se");
             correctionAdd("per-se", "per se");
             correctionAdd("per say", "per se");
+            correctionAdd("par se", "per se");
 
             correctionAdd("preceeding", "preceding");
 
@@ -13809,6 +13814,7 @@ namespace OverflowHelper.core
 
             correctionAdd("communite", "community");
             correctionAdd("cummanty", "community");
+            correctionAdd("comunity", "community");
 
             correctionAdd("easyest", "easiest");
             correctionAdd("easist", "easiest");
@@ -14771,6 +14777,7 @@ namespace OverflowHelper.core
             correctionAdd("TEST", "test");
 
             correctionAdd("tat", "that");
+            correctionAdd("taht", "that");
 
             correctionAdd("TR", "tr");
 
@@ -15513,6 +15520,7 @@ namespace OverflowHelper.core
             correctionAdd("re-usable", "reusable");
 
             correctionAdd("seperated", "separated");
+            correctionAdd("separeted", "separated");
 
             correctionAdd("terrefic", "terrific");
             correctionAdd("Terrefic", "terrific");
@@ -16901,6 +16909,8 @@ namespace OverflowHelper.core
             correctionAdd("sucessful", "successful");
             correctionAdd("succesful", "successful");
             correctionAdd("succesfull", "successful");
+            correctionAdd("sucessfull", "successful");
+            correctionAdd("sucesfull", "successful");
 
             correctionAdd("succesfully", "successfully");
             correctionAdd("secsessfully", "successfully");
@@ -18198,6 +18208,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Linux Kernel", "Linux kernel");
             correctionAdd("linux kernel", "Linux kernel");
+            correctionAdd("linux kernal", "Linux kernel");
+            correctionAdd("Linux kernal", "Linux kernel");
 
             correctionAdd("Aeronautics", "aeronautics");
 
@@ -19724,6 +19736,7 @@ namespace OverflowHelper.core
             correctionAdd("SIM", "SIM card");
             correctionAdd("Sim", "SIM card");
             correctionAdd("sim", "SIM card");
+            correctionAdd("sim card", "SIM card");
 
             correctionAdd("south america", "South America");
 
@@ -19868,6 +19881,9 @@ namespace OverflowHelper.core
             correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
 
             correctionAdd("Linux from Scratch", "Linux From Scratch");
+            correctionAdd("linuxfromscratch", "Linux From Scratch");
+            correctionAdd("linux from scratch", "Linux From Scratch");
+            correctionAdd("Linux from scratch", "Linux From Scratch");
 
             correctionAdd("minix", "MINIX");
 
@@ -20522,6 +20538,7 @@ namespace OverflowHelper.core
             correctionAdd("hussle", "hustle");
 
             correctionAdd("no thing", "nothing");
+            correctionAdd("noting", "nothing");
 
             correctionAdd("off the cuff", "off-the-cuff");
             correctionAdd("Off the cuff", "off-the-cuff");
@@ -20594,6 +20611,7 @@ namespace OverflowHelper.core
             correctionAdd("webdriver", "Selenium WebDriver");
             correctionAdd("WebDriver", "Selenium WebDriver");
             correctionAdd("webDriver", "Selenium WebDriver");
+            correctionAdd("selenium WebDriver", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
 
@@ -22057,6 +22075,51 @@ namespace OverflowHelper.core
             correctionAdd("Diploma", "diploma");
 
             correctionAdd("smack down", "smackdown");
+
+            correctionAdd("Canonical", "Canonical Ltd.");
+
+            correctionAdd("CODESYS", "Codesys");
+            correctionAdd("codesys", "Codesys");
+            correctionAdd("CodeSys", "Codesys");
+
+            correctionAdd("esp8266", "ESP8266");
+
+            correctionAdd("Lxde", "LXDE");
+            correctionAdd("lxde", "LXDE");
+
+            correctionAdd("bubblesort", "bubble sort");
+
+            correctionAdd("Desktop Environment", "desktop environment");
+            correctionAdd("DE", "desktop environment");
+            correctionAdd("desktop env", "desktop environment");
+
+            correctionAdd("elemnet", "element");
+
+            correctionAdd("gut feel", "gut feeling");
+
+            correctionAdd("hedious", "hideous");
+            correctionAdd("beyound", "hideous");
+            correctionAdd("Hideious", "hideous");
+            correctionAdd("hideious", "hideous");
+            correctionAdd("hedeous", "hideous");
+
+            correctionAdd("mot", "not");
+
+            correctionAdd("otehr", "other");
+
+            correctionAdd("poor mans", "poor man's");
+
+            correctionAdd("positionnal", "positional");
+
+            correctionAdd("py test", "pytest");
+
+            correctionAdd("re-routing", "rerouting");
+
+            correctionAdd("Touchpad", "touchpad");
+            correctionAdd("TouchPad", "touchpad");
+
+            correctionAdd("Web browser", "web browser");
+            correctionAdd("Web Browser", "web browser");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34146,6 +34209,40 @@ namespace OverflowHelper.core
             URL_Add("diploma", "https://en.wiktionary.org/wiki/diploma#Noun");
 
             URL_Add("smackdown", "https://en.wiktionary.org/wiki/smackdown#Noun");
+
+            URL_Add("Canonical Ltd.", "https://en.wikipedia.org/wiki/Canonical_%28company%29");
+
+            URL_Add("Codesys", "https://en.wikipedia.org/wiki/CODESYS");
+
+            URL_Add("ESP8266", "https://en.wikipedia.org/wiki/ESP8266");
+
+            URL_Add("LXDE", "https://en.wikipedia.org/wiki/LXDE");
+
+            URL_Add("bubble sort", "https://en.wikipedia.org/wiki/Bubble_sort");
+
+            URL_Add("desktop environment", "https://en.wikipedia.org/wiki/Desktop_environment");
+
+            URL_Add("element", "https://en.wiktionary.org/wiki/element#Noun");
+
+            URL_Add("gut feeling", "https://en.wiktionary.org/wiki/gut_feeling#Noun");
+
+            URL_Add("hideous", "https://en.wiktionary.org/wiki/hideous#Adjective");
+
+            URL_Add("not", "https://en.wiktionary.org/wiki/not#Adverb");
+
+            URL_Add("other", "https://en.wiktionary.org/wiki/other#Determiner");
+
+            URL_Add("poor man's", "https://en.wiktionary.org/wiki/poor_man%27s#Adjective");
+
+            URL_Add("positional", "https://en.wiktionary.org/wiki/positional#Adjective");
+
+            URL_Add("pytest", "https://docs.pytest.org/en/stable/");
+
+            URL_Add("rerouting", "https://en.wiktionary.org/wiki/reroute#Verb");
+
+            URL_Add("touchpad", "https://en.wikipedia.org/wiki/Touchpad");
+
+            URL_Add("web browser", "https://en.wikipedia.org/wiki/Web_browser");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
