@@ -9691,6 +9691,7 @@ namespace OverflowHelper.core
             correctionAdd("shood", "should");
             correctionAdd("chud", "should");
             correctionAdd("chould", "should");
+            correctionAdd("sould", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -13213,6 +13214,7 @@ namespace OverflowHelper.core
             correctionAdd("usally", "usually");
 
             correctionAdd("britain", "Britain");
+            correctionAdd("Britian", "Britain");
 
             correctionAdd("tory", "Tory");
 
@@ -16797,6 +16799,7 @@ namespace OverflowHelper.core
             correctionAdd("hard-codded", "hard coded");
             correctionAdd("hard-coded", "hard coded");
             correctionAdd("hardcoded", "hard coded");
+            correctionAdd("hardcore", "hard coded");
 
             correctionAdd("intance", "instance");
 
@@ -22120,6 +22123,22 @@ namespace OverflowHelper.core
 
             correctionAdd("Web browser", "web browser");
             correctionAdd("Web Browser", "web browser");
+
+            correctionAdd("check box", "checkbox");
+            correctionAdd("check-box", "checkbox");
+            correctionAdd("Check Box", "checkbox");
+
+            correctionAdd("data sheet", "datasheet");
+
+            correctionAdd("FSTAB", "fstab");
+
+            correctionAdd("onces", "once");
+
+            correctionAdd("smalled", "smaller");
+
+            correctionAdd("space key", "space bar");
+            correctionAdd("Space bar", "space bar");
+            correctionAdd("spacebar", "space bar");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34243,6 +34262,18 @@ namespace OverflowHelper.core
             URL_Add("touchpad", "https://en.wikipedia.org/wiki/Touchpad");
 
             URL_Add("web browser", "https://en.wikipedia.org/wiki/Web_browser");
+
+            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("datasheet", "https://en.wiktionary.org/wiki/datasheet#Noun");
+
+            URL_Add("fstab", "https://en.wikipedia.org/wiki/Fstab");
+
+            URL_Add("once", "https://en.wiktionary.org/wiki/once#Adverb");
+
+            URL_Add("smaller", "https://en.wiktionary.org/wiki/smaller#Adjective");
+
+            URL_Add("space bar", "https://en.wikipedia.org/wiki/Space_bar");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
