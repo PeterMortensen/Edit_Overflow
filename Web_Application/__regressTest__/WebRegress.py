@@ -22,7 +22,6 @@ from selenium.webdriver.common.by import By
 
 class TestMainEditOverflowLookup_Web(unittest.TestCase):
 
-    browser = 0
 
     def setUp(self):
         # Note: It actually takes 4-5 seconds before
@@ -31,6 +30,7 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
 
         time.sleep(1.0)
 
+
     def tearDown(self):
 
         time.sleep(5.0) # Let us have a look for a while...
@@ -38,6 +38,22 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
 
     #def test_upper(self):
     #    self.assertEqual('foo'.upper(), 'FOO')
+
+
+    # Helper function for testing.
+    #
+    # Set a checkbox (not assuming anything about the current state)
+    #
+    def setCheckbox(self, anCheckboxName):
+
+        checkboxElement = self.browser.find_element_by_name(anCheckboxName)
+
+        if not checkboxElement.is_selected():
+
+            # Set the checkbox (by toggling - a present
+            # unchecked state is assumed)
+            #checkboxElement.click()
+            checkboxElement.send_keys(Keys.SPACE)
 
 
     # Helper function for testing. For lookUp()
@@ -86,6 +102,24 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
         # the edit summary field.
         self.checkEditSummary(aExpectedEditSummary, anExplanation)
 
+        #time.sleep(3.0) # Not really necessary
+
+
+    # =======================================================================
+
+    # Test of passing parameters through HTML GET
+    #
+    def test_mainLookup_HTTP_GET(self):
+
+        if True: # Start out through HTML GET with an unknown term (new browser window)
+
+            self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu777777&OverflowStyle=Native&UseJavaScript=no')
+            self.checkEditSummary("",
+                                  'Unexpected edit summary after URL GET lookup')
+            time.sleep(3.0)
+
+            #time.sleep(5.0)
+
 
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
@@ -97,6 +131,8 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
         self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
         time.sleep(2.0)
 
+        singleLookup_editSummary_PHP = 'Active reading [<https://en.wikipedia.org/wiki/PHP>].'
+
         firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
         defaultMsgForEditSummary = 'Unexpected edit summary '
 
@@ -107,8 +143,8 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
             # field (though we actually currently make a lookup
             # through the opening URL)
             #
-            self.checkEditSummary('Active reading [<https://en.wikipedia.org/wiki/PHP>].',
-                                  'Unexpected edit summary after URL POST lookup')
+            self.checkEditSummary(singleLookup_editSummary_PHP,
+                                  'Unexpected edit summary after URL GET lookup')
 
 
             # First direct lookup with a known incorrect term
@@ -124,7 +160,6 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
                         firstRealLookup_editSummary,
                         'Changed edit summary for a failed Edit Overflow lookup')
 
-
         if True: # Lookup after a failed lookup.
 
             # Second direct lookup with a known
@@ -132,6 +167,36 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
             self.lookUp("until",
                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
                         defaultMsgForEditSummary + 'for looking up a ***correct*** term')
+
+        if True: # Test clearing the edit summary state (user controlled
+                 # by checkbox "Reset lookup state")
+                 #
+                 # We had a regression with an empty edit summary
+
+            #print("Setting reset checkbox...")
+            self.setCheckbox("resetState")
+
+            # Lookup with a reset, with a known term
+            #
+            self.lookUp("php", singleLookup_editSummary_PHP, defaultMsgForEditSummary)
+            
+
+        if True: # Do a failed lookup after a reset - we had a regression
+                 # with an edit summary of "Active reading []." (should
+                 # be empty (an empty string))
+
+            # Regression 2020-12-01 (now fixed): "Active reading []."
+            #
+            # The edit summary should be unchanged from the previous
+            #
+            self.lookUp("PHP__Z", singleLookup_editSummary_PHP, defaultMsgForEditSummary)
+
+
+        if True: # Test clearing the edit summary state and with
+                 # an initial lookup of an unknown term
+
+            self.setCheckbox("resetState")
+            self.lookUp("PHP__Z", "", defaultMsgForEditSummary)
 
 
 if __name__ == '__main__':
