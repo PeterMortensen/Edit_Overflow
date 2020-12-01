@@ -99,10 +99,16 @@
             # moment). The URLs are used for generating the checkin
             # message (in two different formats).
             #
-            # An empty string is the default / start value and we don't 
+            # An empty string is the default / start value and we don't
             # require it to be set (e.g. from the start HTML page, <>).
             #
             $URLlist_encoded = get_postParameter('URLlist_encoded') ?? '';
+
+            if (array_key_exists('resetState', $_REQUEST))
+            {
+                $URLlist_encoded = ""; # Clear out the memory (between pages,
+                                       # for the edit summary)
+            }
 
 
             // echo "<p>Lookup term: $lookUpTerm</p>\n";
@@ -177,7 +183,7 @@
             $correctionComment = "";
 
 
-            # Avoid "Undefined variable: editSummary_output", 
+            # Avoid "Undefined variable: editSummary_output",
             # etc. if the lookup of the term failed.
             #
             # Or should we simply use a default value
@@ -185,11 +191,6 @@
             $editSummary_output  = "";
             $editSummary_output2 = "";
             $linkInlineMarkdown = "";
-            
-            $outputEditSummary = 1; # We still want output if the lookup
-                                    # fails - it will just be unchanged.
-                                    # It should only be cleared when the
-                                    # user have chosen "Reset lookup state"
 
             # True if the (incorrect) term was found in our
             # huge list (as of 2020-10-29, 14852 items)
@@ -262,16 +263,6 @@
                   ". You can edit your question/comment/answer/post.";
             } //Term lokup succeeded
 
-            # This is at the end, as we want it completely blank, no matter
-            # what. That is, only the next lookup should be part of the 
-            # checkin message.
-            if (array_key_exists('resetState', $_REQUEST))
-            {
-                $outputEditSummary = 0;
-                
-                $URLlist_encoded = ""; # Clear out the memory (between pages,
-                                       # for the edit summary)
-            }
 
             $items = preg_split('/____/', $URLlist_encoded);
 
@@ -311,7 +302,7 @@
             #echo "<p>URLlist: xxx"  . $URLlist  . "xxx <p>\n";
             #echo "<p>URLlist2: xxx" . $URLlist2 . "xxx <p>\n";
 
-            if ($outputEditSummary)
+            if ($URLlist != '')
             {
                 # Derived
                 $editSummary_output = "Active reading [" . $URLlist . "].";
