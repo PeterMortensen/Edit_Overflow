@@ -9580,6 +9580,7 @@ namespace OverflowHelper.core
             correctionAdd("alwys", "always");
             correctionAdd("Alway", "always");
             correctionAdd("alway", "always");
+            correctionAdd("alwasy", "always");
 
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -9794,6 +9795,8 @@ namespace OverflowHelper.core
             correctionAdd("Exapmple", "example");
             correctionAdd("exapmple", "example");
             correctionAdd("exmple", "example");
+            correctionAdd("Exemple", "example");
+            correctionAdd("Example", "example");
 
             correctionAdd("european", "European");
 
@@ -11167,6 +11170,9 @@ namespace OverflowHelper.core
             correctionAdd("Android 9", "Android 9.0 (Pie)");
             correctionAdd("Android P", "Android 9.0 (Pie)");
             correctionAdd("Android 9.0", "Android 9.0 (Pie)");
+            correctionAdd("API 28", "Android 9.0 (Pie)");
+            correctionAdd("Pie", "Android 9.0 (Pie)");
+            correctionAdd("Android Pie", "Android 9.0 (Pie)");
 
             correctionAdd("cordova", "Cordova");
 
@@ -11290,6 +11296,7 @@ namespace OverflowHelper.core
             correctionAdd("broswer", "browser");
             correctionAdd("browswer", "browser");
             correctionAdd("brower", "browser");
+            correctionAdd("browset", "browser");
 
             correctionAdd("Printf", "printf");
 
@@ -13190,6 +13197,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non sense", "nonsense");
             correctionAdd("non-sense", "nonsense");
+            correctionAdd("nonsens", "nonsense");
 
             correctionAdd("thourough", "thorough");
             correctionAdd("Throughrough", "thorough");
@@ -16354,6 +16362,7 @@ namespace OverflowHelper.core
             correctionAdd("avout", "about");
             correctionAdd("abou", "about");
             correctionAdd("abt", "about");
+            correctionAdd("aout", "about");
 
             correctionAdd("open plan office", "open-plan office");
 
@@ -19787,6 +19796,7 @@ namespace OverflowHelper.core
             correctionAdd("WC", "wc");
 
             correctionAdd("code golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("Code Golf", "Code Golf (Stack Exchange site)");
 
             correctionAdd("Net BSD", "NetBSD");
 
@@ -22127,6 +22137,7 @@ namespace OverflowHelper.core
             correctionAdd("check box", "checkbox");
             correctionAdd("check-box", "checkbox");
             correctionAdd("Check Box", "checkbox");
+            correctionAdd("Check box", "checkbox");
 
             correctionAdd("data sheet", "datasheet");
 
@@ -22139,6 +22150,27 @@ namespace OverflowHelper.core
             correctionAdd("space key", "space bar");
             correctionAdd("Space bar", "space bar");
             correctionAdd("spacebar", "space bar");
+
+            correctionAdd("gemarah", "Gemara");
+
+            correctionAdd("jesus", "Jesus");
+
+            correctionAdd("micro-USB", "Micro-USB");
+            correctionAdd("micro USB", "Micro-USB");
+
+            correctionAdd("drys", "dries");
+
+            correctionAdd("iFrame", "iframe");
+
+            correctionAdd("jealouzy", "jealousy");
+
+            correctionAdd("psycopath", "psychopath");
+
+            correctionAdd("re-import", "reimport");
+
+            correctionAdd("symtom", "symptom");
+
+            correctionAdd("vac", "vacuum cleaner");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34274,6 +34306,26 @@ namespace OverflowHelper.core
             URL_Add("smaller", "https://en.wiktionary.org/wiki/smaller#Adjective");
 
             URL_Add("space bar", "https://en.wikipedia.org/wiki/Space_bar");
+
+            URL_Add("Gemara", "https://en.wiktionary.org/wiki/Gemara#Proper_noun");
+
+            URL_Add("Jesus", "https://en.wiktionary.org/wiki/Jesus#Proper_noun");
+
+            URL_Add("Micro-USB", "https://en.wikipedia.org/wiki/USB_hardware#Micro_connectors");
+
+            URL_Add("dries", "https://en.wiktionary.org/wiki/dry#Verb");
+
+            URL_Add("iframe", "https://en.wikipedia.org/wiki/Iframe");
+
+            URL_Add("jealousy", "https://en.wiktionary.org/wiki/jealousy#Noun");
+
+            URL_Add("psychopath", "https://en.wiktionary.org/wiki/psychopath#Noun");
+
+            URL_Add("reimport", "https://en.wiktionary.org/wiki/reimport#Verb");
+
+            URL_Add("symptom", "https://en.wiktionary.org/wiki/symptom#Noun");
+
+            URL_Add("vacuum cleaner", "https://en.wiktionary.org/wiki/vac#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
