@@ -1555,6 +1555,7 @@ namespace OverflowHelper.core
             correctionAdd("JSon", "JSON");
             correctionAdd("JOSN", "JSON");
             correctionAdd("jason", "JSON");
+            correctionAdd("Jason", "JSON");
 
             correctionAdd("firebug", "Firebug");
             correctionAdd("FireBug", "Firebug");
@@ -7925,6 +7926,7 @@ namespace OverflowHelper.core
             correctionAdd("wpa2", "WPA2");
 
             correctionAdd("english", "English");
+            correctionAdd("Englisch", "English");
 
             correctionAdd("lets", "let’s");
             correctionAdd("let's", "let’s");
@@ -11275,6 +11277,7 @@ namespace OverflowHelper.core
             correctionAdd("Problably", "probably");
             correctionAdd("prob", "probably");
             correctionAdd("probobly", "probably");
+            correctionAdd("probly", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -14357,6 +14360,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
+            correctionAdd("pallet", "palette");
 
             correctionAdd("brackets", "Brackets");
 
@@ -14741,6 +14745,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
+            correctionAdd("inevatable", "inevitable");
 
             correctionAdd("inteded", "intended");
 
@@ -22172,6 +22177,16 @@ namespace OverflowHelper.core
 
             correctionAdd("vac", "vacuum cleaner");
 
+            correctionAdd("acheivable", "achievable");
+
+            correctionAdd("forgrt", "forget");
+
+            correctionAdd("ingore", "ignore");
+
+            correctionAdd("reasonate", "resonate");
+
+            correctionAdd("show time", "showtime");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -22277,6 +22292,8 @@ namespace OverflowHelper.core
             correctionAdd("sputnic", "Sputnik V");
 
             correctionAdd("black death", "Black Death");
+
+            correctionAdd("letality", "lethality");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -34326,6 +34343,18 @@ namespace OverflowHelper.core
             URL_Add("symptom", "https://en.wiktionary.org/wiki/symptom#Noun");
 
             URL_Add("vacuum cleaner", "https://en.wiktionary.org/wiki/vac#Noun");
+
+            URL_Add("achievable", "https://en.wiktionary.org/wiki/achievable#Adjective");
+
+            URL_Add("forget", "https://en.wiktionary.org/wiki/forget#Verb");
+
+            URL_Add("ignore", "https://en.wiktionary.org/wiki/ignore#Verb");
+
+            URL_Add("resonate", "https://en.wiktionary.org/wiki/resonate#Verb");
+
+            URL_Add("showtime", "https://en.wiktionary.org/wiki/showtime#Noun");
+
+            URL_Add("lethality", "https://en.wiktionary.org/wiki/lethality#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
