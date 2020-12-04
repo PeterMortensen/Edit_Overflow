@@ -13786,6 +13786,8 @@ namespace OverflowHelper.core
             correctionAdd("antyhing", "anything");
             correctionAdd("any thing", "anything");
             correctionAdd("anithing", "anything");
+            correctionAdd("Anthing", "anything");
+            correctionAdd("anthing", "anything");
 
             correctionAdd("bleeding edge", "bleeding-edge");
 
@@ -18039,6 +18041,7 @@ namespace OverflowHelper.core
             correctionAdd("coreutils", "GNU Core Utilities");
 
             correctionAdd("mathoverflow", "MathOverflow");
+            correctionAdd("MathOverlow", "MathOverflow");
 
             correctionAdd("shopify", "Shopify");
 
@@ -19993,6 +19996,7 @@ namespace OverflowHelper.core
 
             correctionAdd("commen", "common");
             correctionAdd("commone", "common");
+            correctionAdd("commom", "common");
 
             correctionAdd("musle", "muscle");
 
@@ -21371,6 +21375,7 @@ namespace OverflowHelper.core
             correctionAdd("amoung", "among");
 
             correctionAdd("authorites", "authorities");
+            correctionAdd("authorties", "authorities");
 
             correctionAdd("burnd", "burned");
 
@@ -22186,6 +22191,14 @@ namespace OverflowHelper.core
             correctionAdd("reasonate", "resonate");
 
             correctionAdd("show time", "showtime");
+
+            correctionAdd("byte code", "bytecode");
+
+            correctionAdd("havig", "having");
+
+            correctionAdd("Platinum", "platinum");
+
+            correctionAdd("Robotic", "robotic");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34355,6 +34368,14 @@ namespace OverflowHelper.core
             URL_Add("showtime", "https://en.wiktionary.org/wiki/showtime#Noun");
 
             URL_Add("lethality", "https://en.wiktionary.org/wiki/lethality#Noun");
+
+            URL_Add("bytecode", "https://en.wikipedia.org/wiki/Bytecode");
+
+            URL_Add("having", "https://en.wiktionary.org/wiki/have#Verb");
+
+            URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum");
+
+            URL_Add("robotic", "https://en.wiktionary.org/wiki/robotic#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
