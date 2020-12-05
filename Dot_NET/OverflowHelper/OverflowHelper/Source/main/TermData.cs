@@ -1120,6 +1120,9 @@ namespace OverflowHelper.core
             correctionAdd("MacOSX 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("MAC OS X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("LION", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Mac OS Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Mac OS Lion (10.7)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("macOS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -1223,6 +1226,7 @@ namespace OverflowHelper.core
             correctionAdd("Highsierra", "macOS v10.13 (High Sierra)");
             correctionAdd("High sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS 10.13", "macOS v10.13 (High Sierra)");
+            correctionAdd("MacOS High Sierra", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -1886,6 +1890,7 @@ namespace OverflowHelper.core
             correctionAdd("Incscape", "Inkscape");
             correctionAdd("Inskape", "Inkscape");
             correctionAdd("Inscape", "Inkscape");
+            correctionAdd("Inkspace", "Inkscape");
 
             correctionAdd("ndepend", "NDepend");
 
@@ -2310,6 +2315,7 @@ namespace OverflowHelper.core
             correctionAdd("CHROME", "Google Chrome");
             correctionAdd("Google chrome", "Google Chrome");
             correctionAdd("Chrom", "Google Chrome");
+            correctionAdd("chorme", "Google Chrome");
 
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
@@ -4347,6 +4353,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian&nbsp;8", "Debian&nbsp;8 (Jessie)");
             correctionAdd("debian jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian-Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("debian8", "Debian&nbsp;8 (Jessie)");
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
@@ -4881,8 +4888,6 @@ namespace OverflowHelper.core
             correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
 
             correctionAdd("shiro", "Apache Shiro");
-
-            correctionAdd("ehcache", "Ehcache");
 
             correctionAdd("crypto", "cryptography");
             correctionAdd("crypt", "cryptography");
@@ -6352,6 +6357,7 @@ namespace OverflowHelper.core
             correctionAdd("h/w", "hardware");
             correctionAdd("harwade", "hardware");
             correctionAdd("hard ware", "hardware");
+            correctionAdd("Hardware", "hardware");
 
             correctionAdd("mac address", "MAC address");
             correctionAdd("MAC-Adress", "MAC address");
@@ -7865,6 +7871,7 @@ namespace OverflowHelper.core
             correctionAdd("openelec", "OpenELEC");
 
             correctionAdd("fpga", "FPGA");
+            correctionAdd("Fpga", "FPGA");
 
             correctionAdd("whatsapp", "WhatsApp");
             correctionAdd("Whatsapp", "WhatsApp");
@@ -8265,6 +8272,7 @@ namespace OverflowHelper.core
             correctionAdd("work-around", "workaround");
             correctionAdd("work arround", "workaround");
             correctionAdd("workauround", "workaround");
+            correctionAdd("Work around", "workaround");
 
             correctionAdd("thunderbird", "Thunderbird");
             correctionAdd("thunterbird", "Thunderbird");
@@ -9319,6 +9327,7 @@ namespace OverflowHelper.core
             correctionAdd("compatibile", "compatible");
             correctionAdd("compaitible", "compatible");
             correctionAdd("compatiple", "compatible");
+            correctionAdd("compact-able", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -12061,8 +12070,6 @@ namespace OverflowHelper.core
             correctionAdd("catgeory", "category");
             correctionAdd("cathegory", "category");
 
-            correctionAdd("Ccache", "ccache");
-
             correctionAdd("constitude", "constitute");
 
             correctionAdd("debuging", "debugging");
@@ -12472,6 +12479,7 @@ namespace OverflowHelper.core
             correctionAdd("pomodorro", "Pomodoro");
             correctionAdd("Pomodora", "Pomodoro");
             correctionAdd("pomodora", "Pomodoro");
+            correctionAdd("Pomodorro", "Pomodoro");
 
             correctionAdd("Remote Procedure Call", "RPC");
             correctionAdd("rpc", "RPC");
@@ -13013,6 +13021,7 @@ namespace OverflowHelper.core
             correctionAdd("correctnes", "correctness");
 
             correctionAdd("datapoint", "data point");
+            correctionAdd("data-point", "data point");
 
             correctionAdd("dimentional", "dimensional");
 
@@ -14650,6 +14659,7 @@ namespace OverflowHelper.core
             correctionAdd("sincerly", "sincerely");
 
             correctionAdd("specifici", "specific");
+            correctionAdd("speacific", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -17670,6 +17680,7 @@ namespace OverflowHelper.core
 
             correctionAdd("no-code", "no-code development platform");
             correctionAdd("no code", "no-code development platform");
+            correctionAdd("non coding", "no-code development platform");
 
             correctionAdd("payed", "paid");
 
@@ -20153,7 +20164,12 @@ namespace OverflowHelper.core
             correctionAdd("backend", "back end");
             correctionAdd("BackEnd", "back end");
 
+            correctionAdd("ehcache", "Ehcache");
+
+            correctionAdd("Ccache", "ccache");
+
             correctionAdd("chache", "cache");
+            correctionAdd("Cache", "cache");
 
             correctionAdd("deterioate", "deteriorate");
 
@@ -20634,6 +20650,8 @@ namespace OverflowHelper.core
             correctionAdd("WebDriver", "Selenium WebDriver");
             correctionAdd("webDriver", "Selenium WebDriver");
             correctionAdd("selenium WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium web-driver", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
 
@@ -22200,6 +22218,54 @@ namespace OverflowHelper.core
 
             correctionAdd("Robotic", "robotic");
 
+            correctionAdd("audacity", "Audacity");
+
+            correctionAdd("bbc", "BBC");
+
+            correctionAdd("december", "December");
+
+            correctionAdd("eton", "Eton");
+
+            correctionAdd("L1", "L1 cache");
+            correctionAdd("l1", "L1 cache");
+
+            correctionAdd("L2", "L2 cache");
+            correctionAdd("l2", "L2 cache");
+
+            correctionAdd("L3", "L3 cache");
+            correctionAdd("l3", "L3 cache");
+
+            correctionAdd("Navier-Stokes equation", "Navier-Stokes equations");
+            correctionAdd("Navier-Stokes Equation", "Navier-Stokes equations");
+
+            correctionAdd("oxbridge", "Oxbridge");
+
+            correctionAdd("algoritmically", "algorithmically");
+
+            correctionAdd("bacame", "became");
+
+            correctionAdd("bench mark", "benchmark");
+            correctionAdd("BenchMark", "benchmark");
+
+            correctionAdd("for all intents an purposes", "for all intents and purposes");
+
+            correctionAdd("gloebbelist", "globalist");
+
+            correctionAdd("greenfield", "greenfield project");
+
+            correctionAdd("hording", "hoarding");
+
+            correctionAdd("insoire", "inspire");
+
+            correctionAdd("Linear Congruential Generator", "linear congruential generator");
+            correctionAdd("lcg", "linear congruential generator");
+            correctionAdd("LCG", "linear congruential generator");
+
+            correctionAdd("Page file", "page file");
+            correctionAdd("Page File", "page file");
+
+            correctionAdd("Sysfs", "sysfs");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -22251,6 +22317,7 @@ namespace OverflowHelper.core
             correctionAdd("19", "COVID-19");
             correctionAdd("COVID9", "COVID-19");
             correctionAdd("convid", "COVID-19");
+            correctionAdd("C19", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -22307,6 +22374,8 @@ namespace OverflowHelper.core
             correctionAdd("black death", "Black Death");
 
             correctionAdd("letality", "lethality");
+
+            correctionAdd("fatility", "fatality");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -34376,6 +34445,48 @@ namespace OverflowHelper.core
             URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum");
 
             URL_Add("robotic", "https://en.wiktionary.org/wiki/robotic#Adjective");
+
+            URL_Add("Audacity", "https://en.wikipedia.org/wiki/Audacity_(audio_editor)");
+
+            URL_Add("BBC", "https://en.wikipedia.org/wiki/BBC");
+
+            URL_Add("December", "https://en.wiktionary.org/wiki/December#Proper_noun");
+
+            URL_Add("Eton", "https://en.wikipedia.org/wiki/Eton_College");
+
+            URL_Add("L1 cache", "https://en.wikipedia.org/wiki/CPU_cache#Multi-level_caches");
+
+            URL_Add("L2 cache", "https://en.wikipedia.org/wiki/CPU_cache#Multi-level_caches");
+
+            URL_Add("L3 cache", "https://en.wikipedia.org/wiki/CPU_cache#Multi-level_caches");
+
+            URL_Add("Navier-Stokes equations", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
+
+            URL_Add("Oxbridge", "https://en.wikipedia.org/wiki/Oxbridge");
+
+            URL_Add("algorithmically", "https://en.wiktionary.org/wiki/algorithmically#Adverb");
+
+            URL_Add("became", "https://en.wiktionary.org/wiki/become#Verb");
+
+            URL_Add("benchmark", "https://en.wiktionary.org/wiki/benchmark#Noun");
+
+            URL_Add("for all intents and purposes", "https://en.wiktionary.org/wiki/for_all_intents_and_purposes#Prepositional_phrase");
+
+            URL_Add("globalist", "https://en.wiktionary.org/wiki/globalist#Adjective");
+
+            URL_Add("greenfield project", "https://en.wikipedia.org/wiki/Greenfield_project");
+
+            URL_Add("hoarding", "https://en.wiktionary.org/wiki/hoard#Verb");
+
+            URL_Add("inspire", "https://en.wiktionary.org/wiki/inspire#Verb");
+
+            URL_Add("linear congruential generator", "https://en.wikipedia.org/wiki/Linear_congruential_generator");
+
+            URL_Add("page file", "https://en.wikipedia.org/wiki/Paging");
+
+            URL_Add("sysfs", "https://en.wikipedia.org/wiki/Sysfs");
+
+            URL_Add("fatality", "https://en.wiktionary.org/wiki/fatality#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
