@@ -1245,6 +1245,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("Mac OSX 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac OS X 10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("Mac OS Catalina", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -8156,6 +8157,7 @@ namespace OverflowHelper.core
             correctionAdd("home brew", "Homebrew");
             correctionAdd("brew", "Homebrew");
             correctionAdd("Brew", "Homebrew");
+            correctionAdd("home-brew", "Homebrew");
 
             correctionAdd("EGG", "egg");
 
@@ -9876,6 +9878,9 @@ namespace OverflowHelper.core
             correctionAdd("F35", "F-35");
             correctionAdd("f-35", "F-35");
             correctionAdd("f35", "F-35");
+            correctionAdd("joint strike fighter", "F-35");
+            correctionAdd("Joint Strike Fighter", "F-35");
+            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
 
             // Of PowerShell...
             correctionAdd("Set-Aliast", "Set-Alias");
@@ -10050,6 +10055,7 @@ namespace OverflowHelper.core
             correctionAdd("Get", "GET");
 
             correctionAdd("put", "PUT");
+            correctionAdd("Put", "PUT");
 
             correctionAdd("delete", "DELETE");
 
@@ -10458,6 +10464,7 @@ namespace OverflowHelper.core
             correctionAdd("indentitation", "indentation");
             correctionAdd("ident", "indentation");
             correctionAdd("indent", "indentation");
+            correctionAdd("intendation", "indentation");
 
             correctionAdd("horizentaly", "horizontally");
 
@@ -10772,6 +10779,7 @@ namespace OverflowHelper.core
             correctionAdd("python 3", "Python&nbsp;3");
             correctionAdd("py3", "Python&nbsp;3");
             correctionAdd("Python3", "Python&nbsp;3");
+            correctionAdd("Phython 3", "Python&nbsp;3");
 
             correctionAdd("quran", "Qur'an");
             correctionAdd("Quran", "Qur'an");
@@ -11460,6 +11468,7 @@ namespace OverflowHelper.core
             correctionAdd("alredy", "already");
             correctionAdd("alrdy", "already");
             correctionAdd("all ready", "already");
+            correctionAdd("allredy", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -11930,6 +11939,7 @@ namespace OverflowHelper.core
             correctionAdd("Ublock Origin", "uBlock Origin");
             correctionAdd("UBlockOrigin", "uBlock Origin");
             correctionAdd("UBlock Origin", "uBlock Origin");
+            correctionAdd("uBlockOrigin", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -18034,6 +18044,7 @@ namespace OverflowHelper.core
 
             correctionAdd("commonmark", "CommonMark");
             correctionAdd("Commonmark", "CommonMark");
+            correctionAdd("Common Mark", "CommonMark");
 
             correctionAdd("mks", "MKS");
 
@@ -19652,6 +19663,8 @@ namespace OverflowHelper.core
 
             correctionAdd("cameleon", "chameleon");
             correctionAdd("chemeleon", "chameleon");
+            correctionAdd("chamelian", "chameleon");
+            correctionAdd("chamelion", "chameleon");
 
             correctionAdd("structual", "structural");
 
@@ -20521,9 +20534,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sulfuric acid", "sulphuric acid");
             correctionAdd("sulphoric acid", "sulphuric acid");
-
-            correctionAdd("Vitamin D", "vitamin D");
-            correctionAdd("vitamin d", "vitamin D");
 
             correctionAdd("2n2222", "2N2222");
 
@@ -22266,6 +22276,47 @@ namespace OverflowHelper.core
 
             correctionAdd("Sysfs", "sysfs");
 
+            correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
+            correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
+
+            correctionAdd("final cut pro", "Final Cut Pro");
+
+            correctionAdd("MISRA-C", "MISRA C");
+            correctionAdd("MISRA", "MISRA C");
+
+            correctionAdd("raf", "RAF");
+
+            correctionAdd("signal processing", "Signal Processing (Stack Exchange site)");
+
+            correctionAdd("Sound Design", "Sound Design (Stack Exchange site)");
+            correctionAdd("sound design", "Sound Design (Stack Exchange site)");
+
+            correctionAdd("Travel", "Travel (Stack Exchange site)");
+
+            correctionAdd("VMware VSphere", "VMware vSphere");
+
+            correctionAdd("video production", "Video Production (Stack Exchange site)");
+
+            correctionAdd("wechat", "WeChat");
+
+            correctionAdd("close knit", "close-knit");
+
+            correctionAdd("complexty", "complexity");
+
+            correctionAdd("declaire", "declare");
+
+            correctionAdd("dipressed", "depressed");
+            correctionAdd("dipresesd", "depressed");
+            correctionAdd("dipresed", "depressed");
+
+            correctionAdd("mission critical", "mission-critical");
+
+            correctionAdd("pre-pend", "prepend");
+
+            correctionAdd("water-lily", "water lily");
+
+            correctionAdd("Dwm", "dwm");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -22370,12 +22421,17 @@ namespace OverflowHelper.core
             correctionAdd("T.B", "tuberculosis"); // But it really should be "T.B." (a current limitation in our system)
 
             correctionAdd("sputnic", "Sputnik V");
+            correctionAdd("Sputnik 5", "Sputnik V");
 
             correctionAdd("black death", "Black Death");
 
             correctionAdd("letality", "lethality");
 
             correctionAdd("fatility", "fatality");
+
+            correctionAdd("Vitamin D", "vitamin D");
+            correctionAdd("vitamin d", "vitamin D");
+            correctionAdd("Vitimin d", "vitamin D");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -34487,6 +34543,42 @@ namespace OverflowHelper.core
             URL_Add("sysfs", "https://en.wikipedia.org/wiki/Sysfs");
 
             URL_Add("fatality", "https://en.wiktionary.org/wiki/fatality#Noun");
+
+            URL_Add("Expatriates (Stack Exchange site)", "https://expatriates.stackexchange.com/tour");
+
+            URL_Add("Final Cut Pro", "https://en.wikipedia.org/wiki/Final_Cut_Pro");
+
+            URL_Add("MISRA C", "https://en.wikipedia.org/wiki/MISRA_C");
+
+            URL_Add("RAF", "https://en.wikipedia.org/wiki/Royal_Air_Force");
+
+            URL_Add("Signal Processing (Stack Exchange site)", "https://dsp.stackexchange.com/tour");
+
+            URL_Add("Sound Design (Stack Exchange site)", "https://sound.stackexchange.com/tour");
+
+            URL_Add("Travel (Stack Exchange site)", "https://travel.stackexchange.com/tour");
+
+            URL_Add("VMware vSphere", "https://en.wikipedia.org/wiki/VMware_vSphere");
+
+            URL_Add("Video Production (Stack Exchange site)", "https://video.stackexchange.com/tour");
+
+            URL_Add("WeChat", "https://en.wikipedia.org/wiki/WeChat");
+
+            URL_Add("close-knit", "https://en.wiktionary.org/wiki/close-knit#Adjective");
+
+            URL_Add("complexity", "https://en.wiktionary.org/wiki/complexity#Noun");
+
+            URL_Add("declare", "https://en.wiktionary.org/wiki/declare#Verb");
+
+            URL_Add("depressed", "https://en.wiktionary.org/wiki/depressed#Adjective");
+
+            URL_Add("mission-critical", "https://en.wiktionary.org/wiki/mission-critical#Adjective");
+
+            URL_Add("prepend", "https://en.wiktionary.org/wiki/prepend#Verb");
+
+            URL_Add("water lily", "https://en.wiktionary.org/wiki/water_lily#Noun");
+
+            URL_Add("dwm", "https://en.wikipedia.org/wiki/Dwm");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
