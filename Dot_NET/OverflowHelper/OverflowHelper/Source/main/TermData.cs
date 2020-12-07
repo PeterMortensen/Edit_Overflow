@@ -3332,6 +3332,7 @@ namespace OverflowHelper.core
             correctionAdd("developper", "developer");
             correctionAdd("develepor", "developer");
             correctionAdd("deloper", "developer");
+            correctionAdd("develeoper", "developer");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -20283,6 +20284,7 @@ namespace OverflowHelper.core
             correctionAdd("mocha", "Mocha");
 
             correctionAdd("puppeteer", "Puppeteer");
+            correctionAdd("puppetter", "Puppeteer");
 
             correctionAdd("Abelian", "abelian");
 
@@ -22316,6 +22318,31 @@ namespace OverflowHelper.core
             correctionAdd("water-lily", "water lily");
 
             correctionAdd("Dwm", "dwm");
+
+            correctionAdd("http 1.1", "HTTP/1.1");
+            correctionAdd("http/1.1", "HTTP/1.1");
+
+            correctionAdd("HTTP2", "HTTP/2");
+            correctionAdd("http/2", "HTTP/2");
+            correctionAdd("HTTP/2.0", "HTTP/2");
+            correctionAdd("HTTP 2.0", "HTTP/2");
+            correctionAdd("HTTP 2", "HTTP/2");
+
+            correctionAdd("conceptayalising", "conceptualising");
+
+            correctionAdd("Ivory tower", "ivory tower");
+
+            correctionAdd("map", "maximum a posteriori estimation");
+            correctionAdd("MAP", "maximum a posteriori estimation");
+
+            correctionAdd("mle", "maximum likelihood estimation");
+            correctionAdd("MLE", "maximum likelihood estimation");
+
+            correctionAdd("precesion", "precession");
+
+            correctionAdd("prominance", "prominence");
+
+            correctionAdd("Quantum Electrodynamics", "quantum electrodynamics");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34579,6 +34606,24 @@ namespace OverflowHelper.core
             URL_Add("water lily", "https://en.wiktionary.org/wiki/water_lily#Noun");
 
             URL_Add("dwm", "https://en.wikipedia.org/wiki/Dwm");
+
+            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
+
+            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
+
+            URL_Add("conceptualising", "https://en.wiktionary.org/wiki/conceptualise#Verb");
+
+            URL_Add("ivory tower", "https://en.wiktionary.org/wiki/ivory_tower#Noun");
+
+            URL_Add("maximum a posteriori estimation", "https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation");
+
+            URL_Add("maximum likelihood estimation", "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation");
+
+            URL_Add("precession", "https://en.wiktionary.org/wiki/precession#Noun");
+
+            URL_Add("prominence", "https://en.wiktionary.org/wiki/prominence#Noun");
+
+            URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
