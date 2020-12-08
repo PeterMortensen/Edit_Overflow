@@ -335,6 +335,7 @@ namespace OverflowHelper.core
             correctionAdd("windoze", "Windows");
             correctionAdd("Windoze", "Windows");
             correctionAdd("WinBlows", "Windows");
+            correctionAdd("windonws", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -3189,6 +3190,8 @@ namespace OverflowHelper.core
             correctionAdd("adminstrators", "system administrator"); // Not 100% correct - plural.
             correctionAdd("adminitrator", "system administrator");
             correctionAdd("adm", "system administrator");
+            correctionAdd("Administratior", "system administrator");
+            correctionAdd("administratior", "system administrator");
 
             correctionAdd("ui", "user interface"); // Expansion.
             correctionAdd("UI", "user interface"); // Expansion.
@@ -4148,6 +4151,7 @@ namespace OverflowHelper.core
             correctionAdd("PW", "password");
             correctionAdd("pw", "password");
             correctionAdd("passwod", "password");
+            correctionAdd("passwd", "password");
 
             correctionAdd("phonegap", "PhoneGap");
             correctionAdd("Phonegap", "PhoneGap");
@@ -4364,6 +4368,9 @@ namespace OverflowHelper.core
             correctionAdd("jit", "JIT");
             correctionAdd("Just-In-Time", "JIT");
             correctionAdd("JiT", "JIT");
+            correctionAdd("Just In Time", "JIT");
+            correctionAdd("just in time", "JIT");
+            correctionAdd("just-in-time", "JIT");
 
             correctionAdd("Dry", "DRY");
             correctionAdd("dry", "DRY"); // Context dependent!
@@ -5392,6 +5399,7 @@ namespace OverflowHelper.core
             correctionAdd("FSharp", "F#");
 
             correctionAdd("c", "C"); // Possible conflicts!!!
+            correctionAdd("C-lang", "C");
 
             correctionAdd("ScottGu", "Scott Guthrie");
 
@@ -6425,6 +6433,7 @@ namespace OverflowHelper.core
             correctionAdd("google doc", "Google Docs");
 
             correctionAdd("IR", "infrared"); // Expansion
+            correctionAdd("Infrared", "infrared");
 
             correctionAdd("bsd", "BSD");
 
@@ -10833,6 +10842,8 @@ namespace OverflowHelper.core
             correctionAdd("loose", "lose");
 
             correctionAdd("loosing", "losing");
+            correctionAdd("Losing", "losing");
+            correctionAdd("Loosing", "losing");
 
             correctionAdd("managin", "managing");
             correctionAdd("Managin", "managing");
@@ -12858,6 +12869,7 @@ namespace OverflowHelper.core
             correctionAdd("democrazy", "democracy");
 
             correctionAdd("en mass", "en masse");
+            correctionAdd("enmasse", "en masse");
 
             correctionAdd("flaging", "flagging");
 
@@ -13749,6 +13761,7 @@ namespace OverflowHelper.core
 
             correctionAdd("guava", "Google Guava");
             correctionAdd("Guava", "Google Guava");
+            correctionAdd("GUAVA", "Google Guava");
 
             correctionAdd("mutt", "Mutt");
 
@@ -14399,6 +14412,7 @@ namespace OverflowHelper.core
             correctionAdd("moquito", "mosquito");
 
             correctionAdd("often times", "oftentimes");
+            correctionAdd("Often times", "oftentimes");
 
             correctionAdd("user script", "userscript");
 
@@ -16435,6 +16449,7 @@ namespace OverflowHelper.core
 
             correctionAdd("C’mon", "come on");
             correctionAdd("c’mon", "come on");
+            correctionAdd("c'mon", "come on");
 
             correctionAdd("hyderabad", "Hyderabad");
 
@@ -18441,6 +18456,7 @@ namespace OverflowHelper.core
             correctionAdd("regulary", "regularly");
 
             correctionAdd("rigth", "right");
+            correctionAdd("rght", "right");
 
             correctionAdd("strick", "strict");
 
@@ -22343,6 +22359,44 @@ namespace OverflowHelper.core
             correctionAdd("prominance", "prominence");
 
             correctionAdd("Quantum Electrodynamics", "quantum electrodynamics");
+
+            correctionAdd("Emmy-award", "Emmy Award");
+
+            correctionAdd("Hotspot", "HotSpot");
+
+            correctionAdd("toc", "TOC");
+
+            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+
+            correctionAdd("unix time", "Unix time");
+
+            correctionAdd("werkzeug", "Werkzeug");
+
+            correctionAdd("Wing Pro IDE", "Wing IDE");
+            correctionAdd("wing pro IDE", "Wing IDE");
+            correctionAdd("Wing pro IDE", "Wing IDE");
+
+            correctionAdd("banker's rounding", "bankers' rounding");
+
+            correctionAdd("conneting", "connecting");
+
+            correctionAdd("incredably", "incredibly");
+            correctionAdd("Increadibly", "incredibly");
+            correctionAdd("Incredably", "incredibly");
+
+            correctionAdd("lowercase", "lower case");
+            correctionAdd("lover case", "lower case");
+
+            correctionAdd("ocultation", "occultation");
+
+            correctionAdd("perpitrator", "perpetrator");
+
+            correctionAdd("sponser", "sponsor");
+
+            correctionAdd("sufferring", "suffering");
+
+            correctionAdd("Von Neuman machine", "von Neuman machine");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34624,6 +34678,38 @@ namespace OverflowHelper.core
             URL_Add("prominence", "https://en.wiktionary.org/wiki/prominence#Noun");
 
             URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
+
+            URL_Add("Emmy Award", "https://en.wikipedia.org/wiki/Emmy_Award");
+
+            URL_Add("HotSpot", "https://en.wikipedia.org/wiki/HotSpot_(virtual_machine)");
+
+            URL_Add("TOC", "https://en.wiktionary.org/wiki/table_of_contents#Noun");
+
+            URL_Add("Ubuntu&nbsp;20.10 (Groovy Gorilla)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)");
+
+            URL_Add("Unix time", "https://en.wikipedia.org/wiki/Unix_time");
+
+            URL_Add("Werkzeug", "https://stackoverflow.com/tags/werkzeug/info");
+
+            URL_Add("Wing IDE", "https://en.wikipedia.org/wiki/Wing_IDE");
+
+            URL_Add("bankers' rounding", "https://en.wiktionary.org/wiki/bankers%27_rounding");
+
+            URL_Add("connecting", "https://en.wiktionary.org/wiki/connect#Verb");
+
+            URL_Add("incredibly", "https://en.wiktionary.org/wiki/incredibly#Adverb");
+
+            URL_Add("lower case", "https://en.wiktionary.org/wiki/lower_case#Noun");
+
+            URL_Add("occultation", "https://en.wiktionary.org/wiki/occultation#Noun");
+
+            URL_Add("perpetrator", "https://en.wiktionary.org/wiki/perpetrator#Noun");
+
+            URL_Add("sponsor", "https://en.wiktionary.org/wiki/sponsor#Verb");
+
+            URL_Add("suffering", "https://en.wiktionary.org/wiki/suffering#Noun");
+
+            URL_Add("von Neuman machine", "https://en.wikipedia.org/wiki/Von_Neumann_architecture");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
