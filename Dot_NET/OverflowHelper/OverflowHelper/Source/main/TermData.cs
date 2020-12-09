@@ -13370,9 +13370,9 @@ namespace OverflowHelper.core
 
             correctionAdd("rtos", "RTOS");
 
-            correctionAdd("ToS", "TOS");
-            correctionAdd("Terms of Service", "TOS");
-            correctionAdd("terms of service", "TOS");
+            correctionAdd("ToS", "terms of service");
+            correctionAdd("Terms of Service", "terms of service");
+            correctionAdd("TOS", "terms of service");
 
             correctionAdd("aggresive", "aggressive");
 
@@ -28078,7 +28078,7 @@ namespace OverflowHelper.core
 
             URL_Add("Southern", "https://en.wiktionary.org/wiki/Southern#Adjective");
 
-            URL_Add("TOS", "https://en.wiktionary.org/wiki/TOS#Noun");
+            URL_Add("terms of service", "https://en.wiktionary.org/wiki/TOS#Noun");
 
             URL_Add("aggressive", "https://en.wiktionary.org/wiki/aggressive#Adjective");
 
