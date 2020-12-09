@@ -26015,7 +26015,7 @@ namespace OverflowHelper.core
 
             URL_Add("macOS v10.13 (High Sierra)", "https://en.wikipedia.org/wiki/MacOS_High_Sierra");
 
-            URL_Add("Perl&nbsp;6", "https://en.wikipedia.org/wiki/Perl_6");
+            URL_Add("Perl&nbsp;6", "https://en.wikipedia.org/wiki/Raku_(programming_language)"); // Old: https://en.wikipedia.org/wiki/Perl_6
 
             URL_Add("parentheses", "https://en.wiktionary.org/wiki/parentheses#Noun");
 
