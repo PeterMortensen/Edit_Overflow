@@ -23195,7 +23195,7 @@ namespace OverflowHelper.core
 
             URL_Add("Zen Cart", "https://en.wikipedia.org/wiki/Zen_Cart");
 
-            URL_Add("JRE", "https://en.wikipedia.org/wiki/Java_virtual_machine"); // Was https://en.wikipedia.org/wiki/Java_%28software_platform%29#Platform
+            URL_Add("JRE", "https://en.wikipedia.org/wiki/Java_virtual_machine#Java_Runtime_Environment"); // Old: https://en.wikipedia.org/wiki/Java_virtual_machine Even older: https://en.wikipedia.org/wiki/Java_%28software_platform%29#Platform.
 
             URL_Add("Safari", "https://en.wikipedia.org/wiki/Safari_%28web_browser%29");
 
