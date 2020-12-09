@@ -67,6 +67,10 @@ echo
 echo 'Start of building Edit Overflow...'
 echo
 
+echo ; echo "Start time: $(date +%FT%T_%N_ns)"  ; echo
+
+
+
 # Perhaps move to the client side to remove redundancy?
 export EFFECTIVE_DATE='2020-02-05'
 export EFFECTIVE_DATE='2020-02-28'
@@ -478,4 +482,5 @@ ls -lsatr $SQL_FILE
 echo
 echo
 
+echo ; echo "End time:   $(date +%FT%T_%N_ns)"  ; echo
 
