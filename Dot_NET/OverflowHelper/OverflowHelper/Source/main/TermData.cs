@@ -3087,14 +3087,6 @@ namespace OverflowHelper.core
             correctionAdd("SDk", "SDK");
             correctionAdd("Sdk", "SDK");
 
-            correctionAdd("centos", "CentOS");
-            correctionAdd("Centos", "CentOS");
-            correctionAdd("Cent OS", "CentOS");
-            correctionAdd("centOS", "CentOS");
-            correctionAdd("CENTOS", "CentOS");
-            correctionAdd("cent-os", "CentOS");
-            correctionAdd("CentOs", "CentOS");
-
             correctionAdd("OpenWRT", "OpenWrt");
             correctionAdd("openwrt", "OpenWrt");
             correctionAdd("openWRT", "OpenWrt");
@@ -4315,6 +4307,7 @@ namespace OverflowHelper.core
             correctionAdd("cz", "because");
             //correctionAdd("bec", "because"); // Should really be "bec.".  It broke with some recent changes!!!
             //correctionAdd("becasue", "because");
+            correctionAdd("Bc", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -9875,8 +9868,6 @@ namespace OverflowHelper.core
             correctionAdd("retreive", "retrieve");
             correctionAdd("Retrive", "retrieve");
 
-            correctionAdd("freertos", "FreeRTOS");
-
             correctionAdd("cortex-m", "Cortex-M");
             correctionAdd("Cortex-m", "Cortex-M");
             correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
@@ -10748,6 +10739,8 @@ namespace OverflowHelper.core
             correctionAdd("CppCheck", "Cppcheck");
 
             correctionAdd("Cocumber", "Cucumber");
+            correctionAdd("cucumber", "Cucumber");
+            correctionAdd("cucomber", "Cucumber");
 
             correctionAdd("dto", "DTO");
 
@@ -11310,6 +11303,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
+            correctionAdd("serval", "several");
 
             correctionAdd("Socialism", "socialism");
 
@@ -11532,6 +11526,7 @@ namespace OverflowHelper.core
             correctionAdd("exp", "experience");
             correctionAdd("experince", "experience");
             correctionAdd("expirians", "experience");
+            correctionAdd("exparience", "experience");
 
             correctionAdd("low level", "low-level");
             correctionAdd("low-kevel", "low-level");
@@ -11963,6 +11958,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aircrafts", "aircraft");
             correctionAdd("air craft", "aircraft");
+            correctionAdd("aircarft", "aircraft");
 
             correctionAdd("boarder", "border");
             correctionAdd("BOARDER", "border");
@@ -13004,8 +13000,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nigerian", "Nigerian");
 
-            correctionAdd("rtos", "RTOS");
-
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
@@ -13364,7 +13358,21 @@ namespace OverflowHelper.core
 
             correctionAdd("Sothern", "Southern");
 
+            correctionAdd("centos", "CentOS");
+            correctionAdd("Centos", "CentOS");
+            correctionAdd("Cent OS", "CentOS");
+            correctionAdd("centOS", "CentOS");
+            correctionAdd("CENTOS", "CentOS");
+            correctionAdd("cent-os", "CentOS");
+            correctionAdd("CentOs", "CentOS");
+
+            correctionAdd("freertos", "FreeRTOS");
+
+            correctionAdd("rtos", "RTOS");
+
             correctionAdd("ToS", "TOS");
+            correctionAdd("Terms of Service", "TOS");
+            correctionAdd("terms of service", "TOS");
 
             correctionAdd("aggresive", "aggressive");
 
@@ -17495,6 +17503,7 @@ namespace OverflowHelper.core
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
             correctionAdd("Change", "change");
+            correctionAdd("chenge", "change");
 
             correctionAdd("acces token", "access token");
             correctionAdd("access-token", "access token");
@@ -22171,6 +22180,7 @@ namespace OverflowHelper.core
             correctionAdd("Hideious", "hideous");
             correctionAdd("hideious", "hideous");
             correctionAdd("hedeous", "hideous");
+            correctionAdd("hideoous", "hideous");
 
             correctionAdd("mot", "not");
 
@@ -22368,6 +22378,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
             correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
 
             correctionAdd("unix time", "Unix time");
 
@@ -22397,6 +22408,48 @@ namespace OverflowHelper.core
             correctionAdd("sufferring", "suffering");
 
             correctionAdd("Von Neuman machine", "von Neuman machine");
+
+            correctionAdd("capybara", "Capybara");
+
+            correctionAdd("Galleio", "Galileo Galilei");
+
+            correctionAdd("NGL", "I am not going to lie");
+            correctionAdd("ngl", "I am not going to lie");
+
+            correctionAdd("owasp", "OWASP");
+
+            correctionAdd("Perl 5", "Perl&nbsp;5");
+            correctionAdd("perl5", "Perl&nbsp;5");
+            correctionAdd("perl 5", "Perl&nbsp;5");
+
+            correctionAdd("rlua", "RLua");
+
+            correctionAdd("Weblogic", "WebLogic");
+            correctionAdd("weblogic", "WebLogic");
+
+            correctionAdd("fees", "feels");
+
+            correctionAdd("fallowed", "followed");
+
+            correctionAdd("from scrap", "from scratch");
+
+            correctionAdd("lmk", "let me know");
+
+            correctionAdd("lca", "lowest common ancestor");
+            correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
+            correctionAdd("LCA", "lowest common ancestor");
+
+            correctionAdd("MTOW", "maximum takeoff weight");
+
+            correctionAdd("pre-defined", "predefined");
+
+            correctionAdd("replacment", "replacement");
+
+            correctionAdd("scrapped", "scraped");
+
+            correctionAdd("sub-idea", "subidea");
+
+            correctionAdd("user-base", "userbase");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34710,6 +34763,42 @@ namespace OverflowHelper.core
             URL_Add("suffering", "https://en.wiktionary.org/wiki/suffering#Noun");
 
             URL_Add("von Neuman machine", "https://en.wikipedia.org/wiki/Von_Neumann_architecture");
+
+            URL_Add("Capybara", "https://en.wikipedia.org/wiki/Capybara_(software)");
+
+            URL_Add("Galileo Galilei", "https://en.wikipedia.org/wiki/Galileo_Galilei");
+
+            URL_Add("I am not going to lie", "https://en.wiktionary.org/wiki/NGL#Phrase");
+
+            URL_Add("OWASP", "https://en.wikipedia.org/wiki/OWASP");
+
+            URL_Add("Perl&nbsp;5", "https://en.wikipedia.org/wiki/Perl#Perl_5");
+
+            URL_Add("RLua", "https://github.com/whitequark/rlua");
+
+            URL_Add("WebLogic", "https://en.wikipedia.org/wiki/Oracle_WebLogic_Server");
+
+            URL_Add("feels", "https://en.wiktionary.org/wiki/feel#Verb");
+
+            URL_Add("followed", "https://en.wiktionary.org/wiki/follow#Verb");
+
+            URL_Add("from scratch", "https://en.wiktionary.org/wiki/from_scratch#Prepositional_phrase");
+
+            URL_Add("let me know", "https://en.wiktionary.org/wiki/lmk#Phrase");
+
+            URL_Add("lowest common ancestor", "https://en.wikipedia.org/wiki/Lowest_common_ancestor");
+
+            URL_Add("maximum takeoff weight", "https://en.wikipedia.org/wiki/Maximum_takeoff_weight");
+
+            URL_Add("predefined", "https://en.wiktionary.org/wiki/predefined#Adjective");
+
+            URL_Add("replacement", "https://en.wiktionary.org/wiki/replacement#Noun");
+
+            URL_Add("scraped", "https://en.wiktionary.org/wiki/scrape#Verb");
+
+            URL_Add("subidea", "https://en.wiktionary.org/wiki/subidea#Noun");
+
+            URL_Add("userbase", "https://en.wiktionary.org/wiki/userbase#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
