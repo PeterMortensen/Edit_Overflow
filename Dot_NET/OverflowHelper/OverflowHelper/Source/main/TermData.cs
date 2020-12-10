@@ -2121,6 +2121,8 @@ namespace OverflowHelper.core
             correctionAdd("ps3", "PS3");
 
             correctionAdd("tcl/tk", "Tcl/Tk");
+            correctionAdd("TK", "Tcl/Tk");
+            correctionAdd("Tk", "Tcl/Tk");
 
             correctionAdd("symfony", "Symfony");
             correctionAdd("Symphony", "Symfony");
@@ -6573,6 +6575,8 @@ namespace OverflowHelper.core
             correctionAdd("imidiatly", "immediately");
             correctionAdd("immeadiately", "immediately");
             correctionAdd("immiediately", "immediately");
+            correctionAdd("imediatlly", "immediately");
+            correctionAdd("immediatlly", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -6859,6 +6863,7 @@ namespace OverflowHelper.core
             correctionAdd("libre office", "LibreOffice");
             correctionAdd("libreoffice", "LibreOffice");
             correctionAdd("libreOffice", "LibreOffice");
+            correctionAdd("LO", "LibreOffice");
 
             correctionAdd("CKeditor", "CKEditor");
             correctionAdd("ckeditor", "CKEditor");
@@ -7861,6 +7866,7 @@ namespace OverflowHelper.core
             correctionAdd("smd", "SMD");
 
             correctionAdd("Lambda expression", "lambda expression");
+            correctionAdd("lamda expression", "lambda expression");
 
             correctionAdd("GO", "Go");
             correctionAdd("go", "Go");
@@ -13752,6 +13758,7 @@ namespace OverflowHelper.core
             correctionAdd("Strace", "strace");
 
             correctionAdd("time stamp", "timestamp");
+            correctionAdd("time-stamp", "timestamp");
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
@@ -14653,6 +14660,7 @@ namespace OverflowHelper.core
             correctionAdd("ingeters", "integer");
             correctionAdd("intiger", "integer");
             correctionAdd("intager", "integer");
+            correctionAdd("interger", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -14662,6 +14670,7 @@ namespace OverflowHelper.core
             correctionAdd("kindergarden", "kindergarten");
 
             correctionAdd("man", "man page");
+            correctionAdd("Man page", "man page");
 
             correctionAdd("mark-up", "markup");
             correctionAdd("mark up", "markup");
@@ -14787,6 +14796,7 @@ namespace OverflowHelper.core
             correctionAdd("formate", "format");
 
             correctionAdd("in layman's language", "in layman's terms");
+            correctionAdd("in laymans terms", "in layman's terms");
 
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
@@ -15066,6 +15076,8 @@ namespace OverflowHelper.core
             correctionAdd("NY Times", "The New York Times");
 
             correctionAdd("asociated", "associated");
+            correctionAdd("Assiciated", "associated");
+            correctionAdd("assiciated", "associated");
 
             correctionAdd("in the same time", "at the same time");
 
@@ -15549,6 +15561,8 @@ namespace OverflowHelper.core
             correctionAdd("security now", "Security Now");
 
             correctionAdd("smarty", "Smarty");
+            correctionAdd("tpl", "Smarty");
+            correctionAdd("TPL", "Smarty");
 
             correctionAdd("tailwind", "Tailwind CSS");
             correctionAdd("Tailwind", "Tailwind CSS");
@@ -16348,6 +16362,10 @@ namespace OverflowHelper.core
 
             correctionAdd("thansand", "thousand");
             correctionAdd("tousind", "thousand");
+            correctionAdd("thouthand", "thousand");
+            correctionAdd("thoutand", "thousand");
+            correctionAdd("thothand", "thousand");
+            correctionAdd("thouhand", "thousand");
 
             correctionAdd("america", "America");
 
@@ -18086,6 +18104,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Core Utilities", "GNU Core Utilities");
             correctionAdd("coreutils", "GNU Core Utilities");
+            correctionAdd("GNU utils", "GNU Core Utilities");
 
             correctionAdd("mathoverflow", "MathOverflow");
             correctionAdd("MathOverlow", "MathOverflow");
@@ -20096,6 +20115,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pitfal", "pitfall");
             correctionAdd("pittfall", "pitfall");
+            correctionAdd("pit fall", "pitfall");
 
             correctionAdd("planetecibel", "planetesimal");
             correctionAdd("Planetecibel", "planetesimal");
@@ -22450,6 +22470,29 @@ namespace OverflowHelper.core
             correctionAdd("sub-idea", "subidea");
 
             correctionAdd("user-base", "userbase");
+
+            correctionAdd("epoch time", "Epoch time");
+            correctionAdd("EPOC", "Epoch time");
+            correctionAdd("EPOC time", "Epoch time");
+
+            correctionAdd("li-fi", "Li-Fi");
+
+            correctionAdd("Calc", "LibreOffice Calc");
+
+            correctionAdd("fovoured", "favoured");
+
+            correctionAdd("Head", "head");
+
+            correctionAdd("plugin", "plug-in");
+            correctionAdd("pluggin", "plug-in");
+
+            correctionAdd("reccursive", "recursive");
+
+            correctionAdd("Stat", "stat");
+
+            correctionAdd("travers", "traverse");
+
+            correctionAdd("versitile", "versatile");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34799,6 +34842,26 @@ namespace OverflowHelper.core
             URL_Add("subidea", "https://en.wiktionary.org/wiki/subidea#Noun");
 
             URL_Add("userbase", "https://en.wiktionary.org/wiki/userbase#Noun");
+
+            URL_Add("Epoch time", "https://en.wikipedia.org/wiki/Unix_time");
+
+            URL_Add("Li-Fi", "https://en.wikipedia.org/wiki/Li-Fi");
+
+            URL_Add("LibreOffice Calc", "https://en.wikipedia.org/wiki/LibreOffice_Calc");
+
+            URL_Add("favoured", "https://en.wiktionary.org/wiki/favoured#Adjective");
+
+            URL_Add("head", "https://en.wikipedia.org/wiki/Head_(Unix)");
+
+            URL_Add("plug-in", "https://en.wiktionary.org/wiki/plug-in#Noun");
+
+            URL_Add("recursive", "https://en.wiktionary.org/wiki/recursive#Adjective");
+
+            URL_Add("stat", "https://linux.die.net/man/1/stat");
+
+            URL_Add("traverse", "https://en.wiktionary.org/wiki/traverse#Verb");
+
+            URL_Add("versatile", "https://en.wiktionary.org/wiki/versatile#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
