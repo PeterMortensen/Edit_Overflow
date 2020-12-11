@@ -5679,6 +5679,8 @@ namespace OverflowHelper.core
             correctionAdd("Winmerge", "WinMerge");
 
             correctionAdd("imgur", "Imgur");
+            correctionAdd("imugar", "Imgur");
+            correctionAdd("imgar", "Imgur");
 
             correctionAdd("gimp", "GIMP");
             correctionAdd("Gimp", "GIMP");
@@ -8132,6 +8134,7 @@ namespace OverflowHelper.core
             correctionAdd("Sci-Fi", "science fiction");
             correctionAdd("SciFi", "science fiction");
             correctionAdd("SFI", "science fiction");
+            correctionAdd("Sci-fi", "science fiction");
 
             correctionAdd("Ping", "ping");
 
@@ -9031,6 +9034,7 @@ namespace OverflowHelper.core
             correctionAdd("noob", "newbie");
             correctionAdd("newby", "newbie");
             correctionAdd("newbee", "newbie");
+            correctionAdd("noobie", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -10782,6 +10786,7 @@ namespace OverflowHelper.core
             correctionAdd("py2", "Python&nbsp;2");
             correctionAdd("python 2", "Python&nbsp;2");
             correctionAdd("Python2", "Python&nbsp;2");
+            correctionAdd("Py2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
@@ -20828,6 +20833,7 @@ namespace OverflowHelper.core
             correctionAdd("bolean", "Boolean");
             correctionAdd("bool", "Boolean");
             correctionAdd("Bool", "Boolean");
+            correctionAdd("boolian", "Boolean");
 
             correctionAdd("Lean", "lean");
             correctionAdd("LEAN", "lean");
@@ -20910,6 +20916,7 @@ namespace OverflowHelper.core
             correctionAdd("highlightjs", "Highlight.js");
             correctionAdd("HighlightJS", "Highlight.js");
             correctionAdd("highlight.js", "Highlight.js");
+            correctionAdd("hIghlightjs", "Highlight.js");
 
             correctionAdd("nim", "Nim");
 
@@ -21393,6 +21400,7 @@ namespace OverflowHelper.core
             correctionAdd("notepadqq", "Notepadqq");
 
             correctionAdd("november", "November");
+            correctionAdd("Nov", "November");
 
             correctionAdd("plc", "PLC");
 
@@ -22494,6 +22502,49 @@ namespace OverflowHelper.core
 
             correctionAdd("versitile", "versatile");
 
+            correctionAdd("libavg", "Libavg");
+
+            correctionAdd("phoenix", "Phoenix");
+
+            correctionAdd("pyforms", "PyForms");
+
+            correctionAdd("pygui", "PyGUI");
+
+            correctionAdd("pyside", "PySide");
+
+            correctionAdd("PySide2", "PySide&nbsp;2");
+            correctionAdd("PySide 2", "PySide&nbsp;2");
+            correctionAdd("pyside2", "PySide&nbsp;2");
+
+            correctionAdd("pysimplegui", "PySimpleGUI");
+
+            correctionAdd("vietnam", "Vietnam");
+
+            correctionAdd("wax", "Wax");
+
+            correctionAdd("desided", "decided");
+
+            correctionAdd("doubtfull", "doubtful");
+
+            correctionAdd("Facade pattern", "facade pattern");
+
+            correctionAdd("Mental Health", "mental health");
+
+            correctionAdd("preferebly", "preferably");
+            correctionAdd("prefrebly", "preferably");
+
+            correctionAdd("self evident", "self-evident");
+
+            correctionAdd("Senior Engineer", "senior engineer");
+
+            correctionAdd("short-story", "short story");
+
+            correctionAdd("type check", "type-check");
+            correctionAdd("typecheck", "type-check");
+
+            correctionAdd("4g", "4G");
+            correctionAdd("LTE", "4G");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -22587,6 +22638,8 @@ namespace OverflowHelper.core
             correctionAdd("hoard immunity", "herd immunity");
             correctionAdd("Herd Immunity", "herd immunity");
             correctionAdd("Herd immunity", "herd immunity");
+            correctionAdd("Hurd immunity", "herd immunity");
+            correctionAdd("hurd immunity", "herd immunity");
 
             correctionAdd("imunety", "immunity");
 
@@ -34862,6 +34915,44 @@ namespace OverflowHelper.core
             URL_Add("traverse", "https://en.wiktionary.org/wiki/traverse#Verb");
 
             URL_Add("versatile", "https://en.wiktionary.org/wiki/versatile#Adjective");
+
+            URL_Add("Libavg", "https://pypi.org/project/libavg/");
+
+            URL_Add("Phoenix", "https://en.wikipedia.org/wiki/WxPython#Project_Phoenix");
+
+            URL_Add("PyForms", "https://pypi.org/project/PyForms-GUI/");
+
+            URL_Add("PyGUI", "https://www.cosc.canterbury.ac.nz/greg.ewing/python_gui/");
+
+            URL_Add("PySide", "https://en.wikipedia.org/wiki/PySide");
+
+            URL_Add("PySide&nbsp;2", "https://en.wikipedia.org/wiki/PySide");
+
+            URL_Add("PySimpleGUI", "https://pypi.org/project/PySimpleGUI/");
+
+            URL_Add("Vietnam", "https://en.wikipedia.org/wiki/Vietnam");
+
+            URL_Add("Wax", "https://wiki.python.org/moin/Wax");
+
+            URL_Add("decided", "https://en.wiktionary.org/wiki/decide#Verb");
+
+            URL_Add("doubtful", "https://en.wiktionary.org/wiki/doubtful#Adjective");
+
+            URL_Add("facade pattern", "https://en.wikipedia.org/wiki/Facade_pattern");
+
+            URL_Add("mental health", "https://en.wikipedia.org/wiki/Mental_health");
+
+            URL_Add("preferably", "https://en.wiktionary.org/wiki/preferably#Adverb");
+
+            URL_Add("self-evident", "https://en.wiktionary.org/wiki/self-evident#Adjective");
+
+            URL_Add("senior engineer", "https://study.com/articles/difference_between_senior_principle_engineer.html");
+
+            URL_Add("short story", "https://en.wikipedia.org/wiki/Short_story");
+
+            URL_Add("type-check", "https://en.wiktionary.org/wiki/type-check#Verb");
+
+            URL_Add("4G", "https://en.wikipedia.org/wiki/4G");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
