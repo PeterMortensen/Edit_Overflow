@@ -11037,6 +11037,7 @@ namespace OverflowHelper.core
             correctionAdd("insted", "instead");
             correctionAdd("intead", "instead");
             correctionAdd("in stead", "instead");
+            correctionAdd("instad", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -20891,6 +20892,7 @@ namespace OverflowHelper.core
             correctionAdd("undefied", "undefined");
 
             correctionAdd("understandig", "understanding");
+            correctionAdd("udnerstanding", "understanding");
 
             correctionAdd("ressource", "resource");
             correctionAdd("recourse", "resource");
@@ -22440,6 +22442,7 @@ namespace OverflowHelper.core
             correctionAdd("capybara", "Capybara");
 
             correctionAdd("Galleio", "Galileo Galilei");
+            correctionAdd("galilio galilie", "Galileo Galilei");
 
             correctionAdd("NGL", "I am not going to lie");
             correctionAdd("ngl", "I am not going to lie");
@@ -22544,6 +22547,13 @@ namespace OverflowHelper.core
 
             correctionAdd("4g", "4G");
             correctionAdd("LTE", "4G");
+
+            correctionAdd("F22", "F-22 Raptor");
+
+            correctionAdd("SQLite 3", "SQLite&nbsp;3");
+            correctionAdd("SQLite3", "SQLite&nbsp;3");
+
+            correctionAdd("Scientilogy", "Scientology");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34953,6 +34963,12 @@ namespace OverflowHelper.core
             URL_Add("type-check", "https://en.wiktionary.org/wiki/type-check#Verb");
 
             URL_Add("4G", "https://en.wikipedia.org/wiki/4G");
+
+            URL_Add("F-22 Raptor", "https://en.wikipedia.org/wiki/F-22_Raptor");
+
+            URL_Add("SQLite&nbsp;3", "https://en.wikipedia.org/wiki/SQLite#History");
+
+            URL_Add("Scientology", "https://en.wikipedia.org/wiki/Scientology");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
