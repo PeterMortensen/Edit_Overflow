@@ -22552,6 +22552,8 @@ namespace OverflowHelper.core
 
             correctionAdd("SQLite 3", "SQLite&nbsp;3");
             correctionAdd("SQLite3", "SQLite&nbsp;3");
+            correctionAdd("sqlite3", "SQLite&nbsp;3");
+            correctionAdd("sqlite 3", "SQLite&nbsp;3");
 
             correctionAdd("Scientilogy", "Scientology");
 
