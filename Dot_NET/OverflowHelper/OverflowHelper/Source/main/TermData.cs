@@ -5896,6 +5896,7 @@ namespace OverflowHelper.core
             correctionAdd("betweeen", "between");
             correctionAdd("bewteen", "between");
             correctionAdd("betwen", "between");
+            correctionAdd("bwtween", "between");
 
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
@@ -5934,6 +5935,7 @@ namespace OverflowHelper.core
             correctionAdd("ctl", "Ctrl");
             correctionAdd("Crtl", "Ctrl");
             correctionAdd("cntrl", "Ctrl");
+            correctionAdd("Control", "Ctrl");
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
@@ -9550,6 +9552,8 @@ namespace OverflowHelper.core
             correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
             correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
             correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("indigo", "Eclipse&nbsp;v3.7 (Indigo)");
 
             correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
             correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
@@ -9586,6 +9590,7 @@ namespace OverflowHelper.core
             correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
             correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
             correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Eclipse mars", "Eclipse&nbsp;v4.5 (Mars)");
 
             correctionAdd("Eclipse v4.6 (Neon)", "Eclipse&nbsp;v4.6 (Neon)"); // Sort of identity mapping
             correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
@@ -10623,6 +10628,7 @@ namespace OverflowHelper.core
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
+            correctionAdd("aukward", "awkward");
 
             correctionAdd("before hand", "beforehand");
 
@@ -10633,6 +10639,8 @@ namespace OverflowHelper.core
             correctionAdd("bewlow", "below");
             correctionAdd("bellowing", "below");
             correctionAdd("belowe", "below");
+            correctionAdd("Blow", "below");
+            correctionAdd("blow", "below");
 
             correctionAdd("communciate", "communicate");
 
@@ -15089,6 +15097,7 @@ namespace OverflowHelper.core
 
             correctionAdd("diplaying", "displaying");
             correctionAdd("displying", "displaying");
+            correctionAdd("dispalying", "displaying");
 
             correctionAdd("Named Entity Recognition", "named-entity recognition");
 
@@ -15985,6 +15994,7 @@ namespace OverflowHelper.core
             correctionAdd("thursday", "Thursday");
 
             correctionAdd("discusting", "disgusting");
+            correctionAdd("Discusting", "disgusting");
 
             correctionAdd("leek", "leak");
 
@@ -16101,6 +16111,7 @@ namespace OverflowHelper.core
             correctionAdd("magnus", "Magnus Carlsen"); // Chess
             correctionAdd("Magnus", "Magnus Carlsen"); // Chess
             correctionAdd("manus", "Magnus Carlsen"); // Chess
+            correctionAdd("Carsel", "Magnus Carlsen");
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -16541,6 +16552,7 @@ namespace OverflowHelper.core
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
             correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
             correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
+            correctionAdd("Eclipse Oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
 
             correctionAdd("oxigen", "oxygen");
             correctionAdd("oxegen", "oxygen");
@@ -17997,6 +18009,7 @@ namespace OverflowHelper.core
             correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
             correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Math", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
 
             correctionAdd("Physics SE", "Physics (Stack Exchange site)");
             correctionAdd("physics SE", "Physics (Stack Exchange site)");
@@ -19199,6 +19212,7 @@ namespace OverflowHelper.core
             correctionAdd("intropect", "introspect");
 
             correctionAdd("invalud", "invalid");
+            correctionAdd("invaid", "invalid");
 
             correctionAdd("Karate", "karate");
 
@@ -19631,6 +19645,9 @@ namespace OverflowHelper.core
             correctionAdd("future proof", "future-proof");
 
             correctionAdd("eof", "EOF");
+            correctionAdd("End-Of-File", "EOF");
+            correctionAdd("end-of-file", "EOF");
+            correctionAdd("end of file", "EOF");
 
             correctionAdd("Of", "of");
             correctionAdd("onf", "of");
@@ -20899,6 +20916,7 @@ namespace OverflowHelper.core
             correctionAdd("resourse", "resource");
             correctionAdd("resurce", "resource");
             correctionAdd("resurse", "resource");
+            correctionAdd("recource", "resource");
 
             correctionAdd("Open source", "open source");
             correctionAdd("Open Source", "open source");
@@ -22362,6 +22380,7 @@ namespace OverflowHelper.core
             correctionAdd("complexty", "complexity");
 
             correctionAdd("declaire", "declare");
+            correctionAdd("declere", "declare");
 
             correctionAdd("dipressed", "depressed");
             correctionAdd("dipresesd", "depressed");
@@ -22554,8 +22573,49 @@ namespace OverflowHelper.core
             correctionAdd("SQLite3", "SQLite&nbsp;3");
             correctionAdd("sqlite3", "SQLite&nbsp;3");
             correctionAdd("sqlite 3", "SQLite&nbsp;3");
+            correctionAdd("sqllite3", "SQLite&nbsp;3");
 
             correctionAdd("Scientilogy", "Scientology");
+
+            correctionAdd("guacamole", "Guacamole");
+
+            correctionAdd("Java SE 6", "Java&nbsp;SE&nbsp;6");
+            correctionAdd("JDK 6", "Java&nbsp;SE&nbsp;6");
+            correctionAdd("JDK6", "Java&nbsp;SE&nbsp;6");
+
+            correctionAdd("Java SE 7", "Java&nbsp;SE&nbsp;7");
+            correctionAdd("jdk7", "Java&nbsp;SE&nbsp;7");
+            correctionAdd("JDK 7", "Java&nbsp;SE&nbsp;7");
+
+            correctionAdd("Java SE 8", "Java&nbsp;SE&nbsp;8");
+            correctionAdd("jdk8", "Java&nbsp;SE&nbsp;8");
+
+            correctionAdd("client-less", "clientless");
+
+            correctionAdd("compilant", "compliant");
+            correctionAdd("compilani", "compliant");
+
+            correctionAdd("error free", "errorfree");
+            correctionAdd("error-free", "errorfree");
+
+            correctionAdd("go South", "go south");
+
+            correctionAdd("insuline", "insulin");
+
+            correctionAdd("lernt", "learnt");
+
+            correctionAdd("Linear Algebra", "linear algebra");
+
+            correctionAdd("pre-select", "preselect");
+
+            correctionAdd("supervior", "supervisor");
+
+            correctionAdd("They", "they");
+            correctionAdd("Thye", "they");
+
+            correctionAdd("transation", "transaction");
+
+            correctionAdd("went South", "went south");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -34971,6 +35031,38 @@ namespace OverflowHelper.core
             URL_Add("SQLite&nbsp;3", "https://en.wikipedia.org/wiki/SQLite#History");
 
             URL_Add("Scientology", "https://en.wikipedia.org/wiki/Scientology");
+
+            URL_Add("Guacamole", "https://guacamole.apache.org/");
+
+            URL_Add("Java&nbsp;SE&nbsp;6", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6");
+
+            URL_Add("Java&nbsp;SE&nbsp;7", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7");
+
+            URL_Add("Java&nbsp;SE&nbsp;8", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8");
+
+            URL_Add("clientless", "https://en.wiktionary.org/wiki/clientless#Adjective");
+
+            URL_Add("compliant", "https://en.wiktionary.org/wiki/compliant#Adjective");
+
+            URL_Add("errorfree", "https://en.wiktionary.org/wiki/errorfree#Adjective");
+
+            URL_Add("go south", "https://en.wiktionary.org/wiki/go_south#Verb");
+
+            URL_Add("insulin", "https://en.wikipedia.org/wiki/Insulin");
+
+            URL_Add("learnt", "https://en.wiktionary.org/wiki/learn#Verb");
+
+            URL_Add("linear algebra", "https://en.wikipedia.org/wiki/Linear_algebra");
+
+            URL_Add("preselect", "https://en.wiktionary.org/wiki/preselect#Verb");
+
+            URL_Add("supervisor", "https://en.wiktionary.org/wiki/supervisor#Noun");
+
+            URL_Add("they", "https://en.wiktionary.org/wiki/they#Pronoun");
+
+            URL_Add("transaction", "https://en.wiktionary.org/wiki/transaction#Noun");
+
+            URL_Add("went south", "https://en.wiktionary.org/wiki/go_south#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
