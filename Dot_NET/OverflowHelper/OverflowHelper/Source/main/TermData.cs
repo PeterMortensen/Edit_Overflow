@@ -2607,6 +2607,7 @@ namespace OverflowHelper.core
             correctionAdd("faceboook", "Facebook"); // Misspelling.
             correctionAdd("face-book", "Facebook");
             correctionAdd("Facbook", "Facebook");
+            correctionAdd("Facepalm", "Facebook");
 
             correctionAdd("flickr", "Flickr");
 
@@ -3052,6 +3053,7 @@ namespace OverflowHelper.core
             correctionAdd("MINGW", "MinGW");
             correctionAdd("MingGW", "MinGW");
             correctionAdd("MInGW", "MinGW");
+            correctionAdd("Migw", "MinGW");
 
             correctionAdd("CodeBlocks", "Code::Blocks");
             correctionAdd("Code Blocks", "Code::Blocks");
@@ -4580,6 +4582,7 @@ namespace OverflowHelper.core
             correctionAdd("twitter", "Twitter");
             correctionAdd("tritter", "Twitter");
             correctionAdd("twittter", "Twitter");
+            correctionAdd("Twotter", "Twitter");
 
             correctionAdd("dos", "DOS");
             correctionAdd("MS DOS", "DOS");
@@ -6678,7 +6681,7 @@ namespace OverflowHelper.core
             correctionAdd("web APP", "web application");
 
             correctionAdd("webservice", "web service");
-            correctionAdd("WS", "web service");
+            correctionAdd("WS", "web service"); // Alternative: Windows Server
             correctionAdd("webService", "web service");
             correctionAdd("Webservice", "web service");
 
@@ -11435,6 +11438,7 @@ namespace OverflowHelper.core
             correctionAdd("windows 2016", "Windows Server 2016");
             correctionAdd("Server 2016", "Windows Server 2016");
             correctionAdd("windows server 2016", "Windows Server 2016");
+            correctionAdd("2016 Windows Server", "Windows Server 2016");
 
             correctionAdd("appriciated", "appreciated");
             correctionAdd("appericated", "appreciated");
@@ -12896,6 +12900,7 @@ namespace OverflowHelper.core
             correctionAdd("mutiple", "multiple");
             correctionAdd("mutliple", "multiple");
             correctionAdd("maltiple", "multiple");
+            correctionAdd("muliple", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -19857,6 +19862,7 @@ namespace OverflowHelper.core
             correctionAdd("webwork", "WebWork");
 
             correctionAdd("ading", "adding");
+            correctionAdd("addind", "adding");
 
             correctionAdd("corse", "coarse");
             correctionAdd("Corse", "coarse");
@@ -20445,6 +20451,7 @@ namespace OverflowHelper.core
             correctionAdd("gray code", "Gray code");
 
             correctionAdd("hardcode", "hard code");
+            correctionAdd("hard-code", "hard code");
 
             correctionAdd("sourcecode", "source code");
 
@@ -21464,6 +21471,7 @@ namespace OverflowHelper.core
             correctionAdd("windows server", "Windows Server");
 
             correctionAdd("windows server 2019", "Windows Server 2019");
+            correctionAdd("2019 windows server", "Windows Server 2019");
 
             correctionAdd("driveable", "drivable");
 
@@ -22616,6 +22624,14 @@ namespace OverflowHelper.core
             correctionAdd("transation", "transaction");
 
             correctionAdd("went South", "went south");
+
+            correctionAdd("cjk", "CJK");
+
+            correctionAdd("navy seal", "Navy SEAL");
+
+            correctionAdd("modifed", "modified");
+
+            correctionAdd("sayed", "said");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35063,6 +35079,14 @@ namespace OverflowHelper.core
             URL_Add("transaction", "https://en.wiktionary.org/wiki/transaction#Noun");
 
             URL_Add("went south", "https://en.wiktionary.org/wiki/go_south#Verb");
+
+            URL_Add("CJK", "https://en.wikipedia.org/wiki/CJK_characters");
+
+            URL_Add("Navy SEAL", "https://en.wikipedia.org/wiki/United_States_Navy_SEALs");
+
+            URL_Add("modified", "https://en.wiktionary.org/wiki/modify#Verb");
+
+            URL_Add("said", "https://en.wiktionary.org/wiki/say#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
