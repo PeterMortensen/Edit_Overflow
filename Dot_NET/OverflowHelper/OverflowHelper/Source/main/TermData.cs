@@ -18595,8 +18595,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Wiki", "wiki");
 
-            correctionAdd("Closure", "Closure Compiler");
-
             correctionAdd("coursera", "Coursera");
 
             correctionAdd("Pollack", "Polack");
@@ -32191,8 +32189,6 @@ namespace OverflowHelper.core
             URL_Add("wheel", "https://en.wikipedia.org/wiki/Setuptools#Package_format");
 
             URL_Add("wiki", "https://en.wiktionary.org/wiki/wiki#Noun");
-
-            URL_Add("Closure Compiler", "https://en.wikipedia.org/wiki/Google_Closure_Tools#Closure_Compiler");
 
             URL_Add("Coursera", "https://en.wikipedia.org/wiki/Coursera");
 
