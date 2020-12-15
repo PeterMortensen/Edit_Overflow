@@ -1520,6 +1520,7 @@ namespace OverflowHelper.core
             correctionAdd("Openoffice", "OpenOffice");
             correctionAdd("openoffice", "OpenOffice");
             correctionAdd("OOo", "OpenOffice");
+            correctionAdd("Open office", "OpenOffice");
 
             correctionAdd("vb script", "VBScript");
             correctionAdd("vbscript", "VBScript");
@@ -3695,6 +3696,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stats", "statistics");
             correctionAdd("stasistics", "statistics");
+            correctionAdd("Stats", "statistics");
 
             correctionAdd("btw", "by the way");
             correctionAdd("Btw", "by the way");
@@ -7874,6 +7876,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Lambda expression", "lambda expression");
             correctionAdd("lamda expression", "lambda expression");
+            correctionAdd("lambda", "lambda expression");
 
             correctionAdd("GO", "Go");
             correctionAdd("go", "Go");
@@ -9121,6 +9124,7 @@ namespace OverflowHelper.core
             correctionAdd("AVAILABLE", "available");
             correctionAdd("avaible", "available");
             correctionAdd("avialale", "available");
+            correctionAdd("aviable", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -9224,6 +9228,8 @@ namespace OverflowHelper.core
             correctionAdd("everytime", "every time");
             correctionAdd("Everytime", "every time");
             correctionAdd("eveytime", "every time");
+            correctionAdd("Every-time", "every time");
+            correctionAdd("every-time", "every time");
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
@@ -13161,6 +13167,8 @@ namespace OverflowHelper.core
             correctionAdd("accorging", "according");
             correctionAdd("Accorting", "according");
             correctionAdd("accorting", "according");
+            correctionAdd("Accoring", "according");
+            correctionAdd("accoring", "according");
 
             correctionAdd("coerse", "coerce");
 
@@ -15240,6 +15248,7 @@ namespace OverflowHelper.core
             correctionAdd("scroll-able", "scrollable");
 
             correctionAdd("upderstand", "understand");
+            correctionAdd("understang", "understand");
 
             correctionAdd("unterinated", "unterminated");
 
@@ -16977,8 +16986,6 @@ namespace OverflowHelper.core
             correctionAdd("PasS", "platform as a service");
             correctionAdd("Pass", "platform as a service");
 
-            correctionAdd("rleationship", "relationship");
-
             correctionAdd("signaling", "signalling");
 
             correctionAdd("stake holder", "stakeholder");
@@ -17844,6 +17851,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fonctionality", "functionality");
             correctionAdd("fonctionnality", "functionality");
+            correctionAdd("functionnality", "functionality");
 
             correctionAdd("long standing", "long-standing");
 
@@ -19420,6 +19428,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
             correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhiker", "The Hitchhiker's Guide to the Galaxy");
 
             correctionAdd("obversely", "conversely");
             correctionAdd("Obversely", "conversely");
@@ -21396,6 +21405,9 @@ namespace OverflowHelper.core
             correctionAdd("ColorForth", "colorForth");
             correctionAdd("colorforth", "colorForth");
 
+            correctionAdd("rleationship", "relationship");
+            correctionAdd("relation ship", "relationship");
+
             correctionAdd("LTR", "long-term relationship");
             correctionAdd("ltr", "long-term relationship");
 
@@ -22514,6 +22526,9 @@ namespace OverflowHelper.core
             correctionAdd("li-fi", "Li-Fi");
 
             correctionAdd("Calc", "LibreOffice Calc");
+            correctionAdd("Open office calc", "LibreOffice Calc");
+            correctionAdd("OpenOffice calc", "LibreOffice Calc");
+            correctionAdd("OpenOffice Calc", "LibreOffice Calc");
 
             correctionAdd("fovoured", "favoured");
 
@@ -22630,6 +22645,29 @@ namespace OverflowHelper.core
             correctionAdd("modifed", "modified");
 
             correctionAdd("sayed", "said");
+
+            correctionAdd("allowes", "allows");
+
+            correctionAdd("arrise", "arise");
+
+            correctionAdd("artile", "article");
+
+            correctionAdd("clousre", "closure");
+            correctionAdd("clousure", "closure");
+            correctionAdd("Closure", "closure");
+            correctionAdd("clouser", "closure");
+
+            correctionAdd("consept", "concept");
+
+            correctionAdd("Prototypal", "prototypal");
+
+            correctionAdd("recalc", "recalculate");
+            correctionAdd("re-calc", "recalculate");
+
+            correctionAdd("repectively", "respectively");
+
+            correctionAdd("unobrusive", "unobtrusive");
+            correctionAdd("Unobrusive", "unobtrusive");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35083,6 +35121,24 @@ namespace OverflowHelper.core
             URL_Add("modified", "https://en.wiktionary.org/wiki/modify#Verb");
 
             URL_Add("said", "https://en.wiktionary.org/wiki/say#Verb");
+
+            URL_Add("allows", "https://en.wiktionary.org/wiki/allow#Verb");
+
+            URL_Add("arise", "https://en.wiktionary.org/wiki/arise#Verb");
+
+            URL_Add("article", "https://en.wiktionary.org/wiki/article#Noun");
+
+            URL_Add("closure", "https://en.wikipedia.org/wiki/Closure_(computer_programming)");
+
+            URL_Add("concept", "https://en.wiktionary.org/wiki/concept#Noun");
+
+            URL_Add("prototypal", "https://en.wikipedia.org/wiki/Prototype-based_programming");
+
+            URL_Add("recalculate", "https://en.wiktionary.org/wiki/recalculate#Verb");
+
+            URL_Add("respectively", "https://en.wiktionary.org/wiki/respectively#Adverb");
+
+            URL_Add("unobtrusive", "https://en.wiktionary.org/wiki/unobtrusive#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
