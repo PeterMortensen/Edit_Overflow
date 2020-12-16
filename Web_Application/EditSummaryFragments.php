@@ -331,6 +331,23 @@
                />
             </p>
 
+            <p>For preemptive use: Responses to comments should
+               normally be by editing the post, not in comments
+               (and it should not contain meta information).
+               Note: The ID in the link must be set.
+               <br/>
+               <input
+                   name="X29"
+                   type="text"
+                   id="X29"
+                   class=""
+                   value="Please respond by *[editing your question](https://stackoverflow.com/posts/XXXXXXX/edit)*, not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar). "
+                   style="width:830px;"
+                   accesskey="X"
+                   title=""
+               />
+            </p>
+
 
             <!-- ===================================================== -->
             <hr/>
