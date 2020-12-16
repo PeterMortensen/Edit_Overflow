@@ -1247,6 +1247,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OSX 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac OS X 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac OS Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("catalina", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -4439,8 +4440,6 @@ namespace OverflowHelper.core
             correctionAdd("inversion Of control", "inversion of control");
             correctionAdd("ioc", "inversion of control");
 
-            correctionAdd("Websphere", "WebSphere");
-
             correctionAdd("BBedit", "BBEdit");
 
             correctionAdd("wont", "won't");
@@ -4448,6 +4447,7 @@ namespace OverflowHelper.core
             correctionAdd("won´t", "won't");
             correctionAdd("won`t", "won't");
             correctionAdd("wont’t", "won't");
+            correctionAdd("won", "won't");
 
             correctionAdd("xsl", "XSL");
 
@@ -9013,6 +9013,7 @@ namespace OverflowHelper.core
             correctionAdd("codechef", "CodeChef");
             correctionAdd("Code-Chef", "CodeChef");
             correctionAdd("Code Chef", "CodeChef");
+            correctionAdd("Codechef", "CodeChef");
 
             correctionAdd("firemonkey", "FireMonkey");
             correctionAdd("Firemonkey", "FireMonkey");
@@ -9103,11 +9104,6 @@ namespace OverflowHelper.core
             correctionAdd("cound't", "couldn't");
             correctionAdd("could't", "couldn't");
             correctionAdd("coudnt", "couldn't");
-
-            correctionAdd("no where", "nowhere");
-            correctionAdd("nowehre", "nowhere");
-            correctionAdd("no-where", "nowhere");
-            correctionAdd("No where", "nowhere");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -9810,6 +9806,8 @@ namespace OverflowHelper.core
             correctionAdd("AspNet Core", "ASP.NET Core");
             correctionAdd("aspnet core mvc", "ASP.NET Core");
             correctionAdd("core MVC", "ASP.NET Core");
+            correctionAdd("asp dotnet core", "ASP.NET Core");
+            correctionAdd("asp .net core", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10634,6 +10632,7 @@ namespace OverflowHelper.core
             correctionAdd("Answer", "answer");
             correctionAdd("anwer", "answer");
             correctionAdd("answere", "answer");
+            correctionAdd("ansver", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -11007,8 +11006,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Arduino-cli", "Arduino CLI");
 
-            correctionAdd("clear-history", "Clear-History");
-
             correctionAdd("C64", "Commodore 64");
             correctionAdd("comodore 64", "Commodore 64");
             correctionAdd("commodore 64", "Commodore 64");
@@ -11021,8 +11018,6 @@ namespace OverflowHelper.core
             correctionAdd("dev ops", "DevOps");
 
             correctionAdd("germanic", "Germanic");
-
-            correctionAdd("Get-history", "Get-History");
 
             correctionAdd("op", "OP");
 
@@ -11511,6 +11506,7 @@ namespace OverflowHelper.core
             correctionAdd("biz", "business");
             correctionAdd("buisiness", "business");
             correctionAdd("buszness", "business");
+            correctionAdd("bussiness", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -11635,10 +11631,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ammount", "amount");
 
-            correctionAdd("any where", "anywhere");
-            correctionAdd("anyhere", "anywhere");
-            correctionAdd("anywehre", "anywhere");
-
             correctionAdd("aksing", "asking");
 
             correctionAdd("calc", "calculate");
@@ -11647,8 +11639,6 @@ namespace OverflowHelper.core
             correctionAdd("caculate", "calculate");
 
             correctionAdd("consistantly", "consistently");
-
-            correctionAdd("else where", "elsewhere");
 
             correctionAdd("familar", "familiar");
             correctionAdd("familier", "familiar");
@@ -13346,6 +13336,7 @@ namespace OverflowHelper.core
             correctionAdd("probem", "problem");
             correctionAdd("ploblem", "problem");
             correctionAdd("prb", "problem");
+            correctionAdd("proplem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -13359,8 +13350,6 @@ namespace OverflowHelper.core
             correctionAdd("venn diagram", "Venn diagram");
 
             correctionAdd("difficalt", "difficult");
-
-            correctionAdd("every where", "everywhere");
 
             correctionAdd("key-press", "key press");
             correctionAdd("Key-Press", "key press");
@@ -14144,7 +14133,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SMBUS", "SMBus");
 
-            correctionAdd("hemissphere", "hemisphere");
+            correctionAdd("Websphere", "WebSphere");
 
             correctionAdd("PSQL", "psql");
 
@@ -14641,6 +14630,7 @@ namespace OverflowHelper.core
 
             correctionAdd("b ut", "but");
             correctionAdd("bud", "but");
+            correctionAdd("bu", "but");
 
             correctionAdd("Century", "century");
 
@@ -14789,10 +14779,6 @@ namespace OverflowHelper.core
             correctionAdd("gitlab-ce", "GitLab CI");
 
             correctionAdd("iT", "IT");
-
-            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
-            correctionAdd("northern hemisphere", "Northern Hemisphere");
-            correctionAdd("Northern hemisphere", "Northern Hemisphere");
 
             correctionAdd("PDP11", "PDP-11");
 
@@ -15124,8 +15110,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-point", "repoint");
 
-            correctionAdd("some where", "somewhere");
-
             correctionAdd("Spacy", "spaCy");
 
             correctionAdd("suprisingly", "surprisingly");
@@ -15321,9 +15305,6 @@ namespace OverflowHelper.core
             correctionAdd("etf", "ETF");
 
             correctionAdd("decending", "descending");
-
-            correctionAdd("HISTORY", "history");
-            correctionAdd("hirtory", "history");
 
             correctionAdd("cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
@@ -15584,6 +15565,9 @@ namespace OverflowHelper.core
             correctionAdd("nest.js", "NestJS");
             correctionAdd("Nest.js", "NestJS");
             correctionAdd("Nest js", "NestJS");
+            correctionAdd("Nestjs", "NestJS");
+            correctionAdd("Nest Js", "NestJS");
+            correctionAdd("NestJs", "NestJS");
 
             correctionAdd("rotten tomatoes", "Rotten Tomatoes");
 
@@ -15621,6 +15605,7 @@ namespace OverflowHelper.core
             correctionAdd("Prime Number", "prime number");
 
             correctionAdd("re-usable", "reusable");
+            correctionAdd("reuseable", "reusable");
 
             correctionAdd("seperated", "separated");
             correctionAdd("separeted", "separated");
@@ -17364,8 +17349,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tool chain", "toolchain");
 
-            correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
-
             correctionAdd("boundries", "boundaries");
 
             correctionAdd("track", "trick");
@@ -17437,9 +17420,6 @@ namespace OverflowHelper.core
 
             correctionAdd("superconductiong", "superconducting");
             correctionAdd("supercoducting", "superconducting");
-
-            correctionAdd("ther", "there");
-            correctionAdd("thers", "there");
 
             correctionAdd("TBH", "to be honest");
             correctionAdd("tbh", "to be honest");
@@ -18098,6 +18078,7 @@ namespace OverflowHelper.core
             correctionAdd("PLM", "Programmer Lives Matter");
 
             correctionAdd("september", "September");
+            correctionAdd("Sept", "September");
 
             correctionAdd("crytically", "critically");
 
@@ -18512,6 +18493,9 @@ namespace OverflowHelper.core
             correctionAdd("relize", "realise");
             correctionAdd("relise", "realise");
             correctionAdd("reliase", "realise");
+            correctionAdd("relaeies", "realise");
+            correctionAdd("relaeise", "realise");
+            correctionAdd("realeise", "realise");
 
             correctionAdd("regulary", "regularly");
 
@@ -20527,8 +20511,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Gauss Law", "Gauss's law");
 
-            correctionAdd("Python Anywhere", "PythonAnywhere");
-
             correctionAdd("been there done that", "been there, done that");
 
             correctionAdd("compile-time", "compile time");
@@ -21348,7 +21330,15 @@ namespace OverflowHelper.core
 
             correctionAdd("stroies", "stories");
 
+            correctionAdd("HISTORY", "history");
+            correctionAdd("hirtory", "history");
+
+            correctionAdd("clear-history", "Clear-History");
+
+            correctionAdd("Get-history", "Get-History");
+
             correctionAdd("stroy", "story");
+            correctionAdd("stort", "story");
 
             correctionAdd("stubbern", "stubborn");
 
@@ -22387,8 +22377,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Travel", "Travel (Stack Exchange site)");
 
-            correctionAdd("VMware VSphere", "VMware vSphere");
-
             correctionAdd("video production", "Video Production (Stack Exchange site)");
 
             correctionAdd("wechat", "WeChat");
@@ -22668,6 +22656,116 @@ namespace OverflowHelper.core
 
             correctionAdd("unobrusive", "unobtrusive");
             correctionAdd("Unobrusive", "unobtrusive");
+
+            correctionAdd("Asperger's", "Asperger syndrome");
+            correctionAdd("asperger", "Asperger syndrome");
+
+            correctionAdd("chrubuntu", "ChrUbuntu");
+
+            correctionAdd("Farmville", "FarmVille");
+
+            correctionAdd("ideone", "Ideone");
+
+            correctionAdd("march", "March");
+
+            correctionAdd("mooshak", "Mooshak");
+
+            correctionAdd("org mode", "Org-mode");
+            correctionAdd("org-mode", "Org-mode");
+
+            correctionAdd("PHP 4", "PHP&nbsp;4");
+            correctionAdd("php 4", "PHP&nbsp;4");
+            correctionAdd("php4", "PHP&nbsp;4");
+
+            correctionAdd("pid", "PID");
+
+            correctionAdd("playwright", "Playwright");
+
+            correctionAdd("spyder", "Spyder");
+
+            correctionAdd("aproval", "approval");
+
+            correctionAdd("aprove", "approve");
+
+            correctionAdd("assistence", "assistance");
+
+            correctionAdd("bourocratic", "bureaucratic");
+            correctionAdd("Burocratic", "bureaucratic");
+            correctionAdd("burocratic", "bureaucratic");
+            correctionAdd("buroucratic", "bureaucratic");
+            correctionAdd("bouroucratic", "bureaucratic");
+
+            correctionAdd("DX", "developer experience");
+
+            correctionAdd("easyer", "easier");
+
+            correctionAdd("expence", "expense");
+
+            correctionAdd("good manner", "good manners");
+
+            correctionAdd("no where", "nowhere");
+            correctionAdd("nowehre", "nowhere");
+            correctionAdd("no-where", "nowhere");
+            correctionAdd("No where", "nowhere");
+
+            correctionAdd("any where", "anywhere");
+            correctionAdd("anyhere", "anywhere");
+            correctionAdd("anywehre", "anywhere");
+
+            correctionAdd("else where", "elsewhere");
+
+            correctionAdd("every where", "everywhere");
+
+            correctionAdd("hemissphere", "hemisphere");
+
+            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
+            correctionAdd("northern hemisphere", "Northern Hemisphere");
+            correctionAdd("Northern hemisphere", "Northern Hemisphere");
+
+            correctionAdd("some where", "somewhere");
+
+            correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
+
+            correctionAdd("ther", "there");
+            correctionAdd("thers", "there");
+
+            correctionAdd("Python Anywhere", "PythonAnywhere");
+
+            correctionAdd("VMware VSphere", "VMware vSphere");
+
+            correctionAdd("hare", "here");
+            correctionAdd("Hare", "here");
+
+            correctionAdd("judgeing", "judging");
+            correctionAdd("judginh", "judging");
+
+            correctionAdd("juse", "just");
+            correctionAdd("Juse", "just");
+
+            correctionAdd("Logistic Regression", "logistic regression");
+
+            correctionAdd("non-linear", "nonlinear");
+            correctionAdd("non linear", "nonlinear");
+
+            correctionAdd("OJ", "online judge");
+
+            correctionAdd("PHPINFO", "phpinfo");
+
+            correctionAdd("pupulate", "populate");
+
+            correctionAdd("pawer", "power");
+
+            correctionAdd("realeised", "realised");
+            correctionAdd("relaeiesd", "realised");
+            correctionAdd("relaeised", "realised");
+
+            correctionAdd("step father", "stepfather");
+
+            correctionAdd("stor", "store");
+
+            correctionAdd("technichal", "technical");
+
+            correctionAdd("broke the camel's back", "the straw that broke the camel's back");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35139,6 +35237,72 @@ namespace OverflowHelper.core
             URL_Add("respectively", "https://en.wiktionary.org/wiki/respectively#Adverb");
 
             URL_Add("unobtrusive", "https://en.wiktionary.org/wiki/unobtrusive#Adjective");
+
+            URL_Add("Asperger syndrome", "https://en.wikipedia.org/wiki/Asperger_syndrome");
+
+            URL_Add("ChrUbuntu", "https://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/");
+
+            URL_Add("FarmVille", "https://en.wikipedia.org/wiki/FarmVille");
+
+            URL_Add("Ideone", "https://www.ideone.com/");
+
+            URL_Add("March", "https://en.wiktionary.org/wiki/March#Proper_noun");
+
+            URL_Add("Mooshak", "https://mooshak.dcc.fc.up.pt/");
+
+            URL_Add("Org-mode", "https://en.wikipedia.org/wiki/Org-mode");
+
+            URL_Add("PHP&nbsp;4", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("PID", "https://en.wikipedia.org/wiki/Process_identifier");
+
+            URL_Add("Playwright", "https://github.com/microsoft/playwright");
+
+            URL_Add("Spyder", "https://en.wikipedia.org/wiki/Spyder_%28software%29");
+
+            URL_Add("approval", "https://en.wiktionary.org/wiki/approval#Noun");
+
+            URL_Add("approve", "https://en.wiktionary.org/wiki/approve#Verb");
+
+            URL_Add("assistance", "https://en.wiktionary.org/wiki/assistance#Noun");
+
+            URL_Add("bureaucratic", "https://en.wiktionary.org/wiki/bureaucratic#Adjective");
+
+            URL_Add("developer experience", "https://hackernoon.com/the-best-practices-for-a-great-developer-experience-dx-9036834382b0");
+
+            URL_Add("easier", "https://en.wiktionary.org/wiki/easier#Adjective");
+
+            URL_Add("expense", "https://en.wiktionary.org/wiki/expense#Noun");
+
+            URL_Add("good manners", "https://en.wiktionary.org/wiki/good_manners#Noun");
+
+            URL_Add("here", "https://en.wiktionary.org/wiki/here#Noun");
+
+            URL_Add("judging", "https://en.wiktionary.org/wiki/judge#Verb");
+
+            URL_Add("just", "https://en.wiktionary.org/wiki/just#Adverb");
+
+            URL_Add("logistic regression", "https://en.wikipedia.org/wiki/Logistic_regression");
+
+            URL_Add("nonlinear", "https://en.wiktionary.org/wiki/nonlinear#Adjective");
+
+            URL_Add("online judge", "https://en.wikipedia.org/wiki/Competitive_programming#Overview");
+
+            URL_Add("phpinfo", "https://www.php.net/manual/en/function.phpinfo.php");
+
+            URL_Add("populate", "https://en.wiktionary.org/wiki/populate#Verb");
+
+            URL_Add("power", "https://en.wiktionary.org/wiki/power#Noun");
+
+            URL_Add("realised", "https://en.wiktionary.org/wiki/realise#English");
+
+            URL_Add("stepfather", "https://en.wiktionary.org/wiki/stepfather#Noun");
+
+            URL_Add("store", "https://en.wiktionary.org/wiki/store#Verb");
+
+            URL_Add("technical", "https://en.wiktionary.org/wiki/technical#Adjective");
+
+            URL_Add("the straw that broke the camel's back", "https://en.wiktionary.org/wiki/the_straw_that_broke_the_camel%27s_back#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
