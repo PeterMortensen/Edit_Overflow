@@ -11373,6 +11373,9 @@ namespace OverflowHelper.core
             correctionAdd("litle", "little");
             correctionAdd("litte", "little");
 
+            correctionAdd("hi-res", "high-resolution");
+            correctionAdd("high-res", "high-resolution");
+
             correctionAdd("soltuion", "solution");
             correctionAdd("sollution", "solution");
             correctionAdd("Soloution", "solution");
@@ -11382,6 +11385,7 @@ namespace OverflowHelper.core
             correctionAdd("solutin", "solution");
             correctionAdd("soluton", "solution");
             correctionAdd("soln", "solution");
+            correctionAdd("Soultion", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -15189,6 +15193,7 @@ namespace OverflowHelper.core
             correctionAdd("atribute", "attribute");
             correctionAdd("Attribut", "attribute");
             correctionAdd("attribut", "attribute");
+            correctionAdd("attrbute", "attribute");
 
             correctionAdd("conjuction", "conjunction");
 
@@ -20611,9 +20616,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bloc", "block");
 
-            correctionAdd("hi-res", "high-resolution");
-            correctionAdd("high-res", "high-resolution");
-
             correctionAdd("movment", "movement");
 
             correctionAdd("re-run", "rerun");
@@ -22766,6 +22768,8 @@ namespace OverflowHelper.core
             correctionAdd("technichal", "technical");
 
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
+
+            correctionAdd("abble", "able");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35303,6 +35307,8 @@ namespace OverflowHelper.core
             URL_Add("technical", "https://en.wiktionary.org/wiki/technical#Adjective");
 
             URL_Add("the straw that broke the camel's back", "https://en.wiktionary.org/wiki/the_straw_that_broke_the_camel%27s_back#Noun");
+
+            URL_Add("able", "https://en.wiktionary.org/wiki/able#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
