@@ -341,7 +341,7 @@
                    type="text"
                    id="X29"
                    class=""
-                   value="Please respond by *[editing your question](https://stackoverflow.com/posts/XXXXXXX/edit)*, not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar). "
+                   value="Please respond by [editing your question](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar). "
                    style="width:830px;"
                    accesskey="X"
                    title=""
