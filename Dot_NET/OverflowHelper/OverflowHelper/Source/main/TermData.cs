@@ -6827,29 +6827,29 @@ namespace OverflowHelper.core
             correctionAdd("Pep", "PEP");
 
             correctionAdd("AngularJs", "AngularJS");
-            correctionAdd("Angular", "AngularJS");
             correctionAdd("angularjs", "AngularJS");
             correctionAdd("angular.js", "AngularJS");
             correctionAdd("Angular.js", "AngularJS");
-            correctionAdd("AJS", "AngularJS");
             correctionAdd("Angular js", "AngularJS");
-            correctionAdd("angular", "AngularJS");
             correctionAdd("Angularjs", "AngularJS");
             correctionAdd("angularJS", "AngularJS");
-            correctionAdd("Angular Javascript", "AngularJS");
-            correctionAdd("angluar", "AngularJS");
             correctionAdd("Angular Js", "AngularJS");
             correctionAdd("angular js", "AngularJS");
             correctionAdd("angularJs", "AngularJS");
             correctionAdd("Angular JS", "AngularJS");
             correctionAdd("angular JS", "AngularJS");
             correctionAdd("Angular.JS", "AngularJS");
-            correctionAdd("Angualr", "AngularJS");
             correctionAdd("AngluarJS", "AngularJS");
             correctionAdd("angulerjs", "AngularJS");
             correctionAdd("ANGULARJS", "AngularJS");
             correctionAdd("Angular-js", "AngularJS");
             correctionAdd("angularhs", "AngularJS");
+
+            correctionAdd("AJS", "Angular");
+            correctionAdd("angular", "Angular");
+            correctionAdd("Angular Javascript", "Angular");
+            correctionAdd("angluar", "Angular");
+            correctionAdd("Angualr", "Angular");
 
             // Alternative: database administration
             correctionAdd("DBA", "database administrator");
@@ -25073,7 +25073,9 @@ namespace OverflowHelper.core
 
             URL_Add("PEP", "https://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development");
 
-            URL_Add("AngularJS", "https://en.wikipedia.org/wiki/AngularJS");
+            URL_Add("AngularJS", "https://en.wikipedia.org/wiki/AngularJS"); // Angular 1/AngularJS
+
+            URL_Add("Angular", "https://en.wikipedia.org/wiki/Angular_(web_framework)"); // New (Angular 2 and later)
 
             URL_Add("database administrator", "https://en.wikipedia.org/wiki/Database_administrator");
 
