@@ -3699,6 +3699,7 @@ namespace OverflowHelper.core
             correctionAdd("stats", "statistics");
             correctionAdd("stasistics", "statistics");
             correctionAdd("Stats", "statistics");
+            correctionAdd("Statistics", "statistics");
 
             correctionAdd("btw", "by the way");
             correctionAdd("Btw", "by the way");
@@ -14026,6 +14027,8 @@ namespace OverflowHelper.core
 
             correctionAdd("High School", "high school");
             correctionAdd("HS", "high school");
+            correctionAdd("Highschool", "high school");
+            correctionAdd("highschool", "high school");
 
             correctionAdd("School", "school");
             correctionAdd("shcool", "school");
@@ -16879,6 +16882,7 @@ namespace OverflowHelper.core
 
             correctionAdd("someon’es", "someone’s");
             correctionAdd("someone's", "someone’s");
+            correctionAdd("someones", "someone’s");
 
             correctionAdd("similiar", "similar");
             correctionAdd("simillar", "similar");
@@ -18936,6 +18940,7 @@ namespace OverflowHelper.core
 
             correctionAdd("electromagnestism", "electromagnetism");
             correctionAdd("Electromagnestism", "electromagnetism");
+            correctionAdd("Electromagnetism", "electromagnetism");
 
             correctionAdd("higjly", "highly");
 
@@ -21481,6 +21486,7 @@ namespace OverflowHelper.core
 
             correctionAdd("3D", "three-dimensional");
             correctionAdd("3d", "three-dimensional");
+            correctionAdd("three dimensional", "three-dimensional");
 
             correctionAdd("tb", "&nbsp;TB");
 
@@ -22825,6 +22831,12 @@ namespace OverflowHelper.core
             correctionAdd("triplepoint", "triple point");
 
             correctionAdd("un-earn", "unearn");
+
+            correctionAdd("beginns", "begins");
+
+            correctionAdd("Normal distribution", "normal distribution");
+
+            correctionAdd("Special Relativity", "special relativity");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -30967,7 +30979,7 @@ namespace OverflowHelper.core
 
             URL_Add("targetting", "https://en.wiktionary.org/wiki/targetting#Verb");
 
-            URL_Add("someone’s", "https://en.wiktionary.org/wiki/targetting#Verb");
+            URL_Add("someone’s", "https://en.wiktionary.org/wiki/someone's#Adjective");
 
             URL_Add("similar", "https://en.wiktionary.org/wiki/similiar");
 
@@ -35400,6 +35412,12 @@ namespace OverflowHelper.core
             URL_Add("triple point", "https://en.wikipedia.org/wiki/Triple_point");
 
             URL_Add("unearn", "https://en.wiktionary.org/wiki/unearn#Verb");
+
+            URL_Add("begins", "https://en.wiktionary.org/wiki/begin#Verb");
+
+            URL_Add("normal distribution", "https://en.wikipedia.org/wiki/Normal_distribution");
+
+            URL_Add("special relativity", "https://en.wikipedia.org/wiki/Special_relativity");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
