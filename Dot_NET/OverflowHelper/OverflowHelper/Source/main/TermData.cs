@@ -2104,6 +2104,7 @@ namespace OverflowHelper.core
             correctionAdd("MBP", "MacBook Pro");
             correctionAdd("MacBook pro", "MacBook Pro");
             correctionAdd("Macbook pro", "MacBook Pro");
+            correctionAdd("macbookpro", "MacBook Pro");
 
             correctionAdd("bluetooth", "Bluetooth");
             correctionAdd("BT", "Bluetooth"); // Conflict with BitTorrent
@@ -4315,6 +4316,7 @@ namespace OverflowHelper.core
             //correctionAdd("bec", "because"); // Should really be "bec.".  It broke with some recent changes!!!
             //correctionAdd("becasue", "because");
             correctionAdd("Bc", "because");
+            correctionAdd("couse", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -4629,6 +4631,7 @@ namespace OverflowHelper.core
             correctionAdd("I`m", "I'm");
             correctionAdd("I´m", "I'm");
             correctionAdd("I'am", "I'm");
+            correctionAdd("I‘m", "I'm");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -9344,6 +9347,7 @@ namespace OverflowHelper.core
             correctionAdd("compatibilty", "compatibility");
             correctionAdd("compat", "compatibility");
             correctionAdd("compatibly", "compatibility");
+            correctionAdd("compatiblity", "compatibility");
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
@@ -9403,6 +9407,7 @@ namespace OverflowHelper.core
             correctionAdd("World war 2", "World War II");
             correctionAdd("world war II", "World War II");
             correctionAdd("World war II", "World War II");
+            correctionAdd("World war (II)", "World War II");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -12457,6 +12462,7 @@ namespace OverflowHelper.core
             correctionAdd("rememer", "remember");
             correctionAdd("rember", "remember");
             correctionAdd("remeber", "remember");
+            correctionAdd("rememeber", "remember");
 
             correctionAdd("re-written", "rewritten");
 
@@ -13040,6 +13046,7 @@ namespace OverflowHelper.core
             correctionAdd("Vic20", "VIC-20");
             correctionAdd("VIC 20", "VIC-20");
             correctionAdd("Vic 20", "VIC-20");
+            correctionAdd("Vic-20", "VIC-20");
 
             correctionAdd("vpc", "VPC");
             correctionAdd("virtual private cloud", "VPC");
@@ -14308,6 +14315,7 @@ namespace OverflowHelper.core
             correctionAdd("FireStore", "Firestore");
             correctionAdd("Firestorm", "Firestore");
             correctionAdd("firestore", "Firestore");
+            correctionAdd("Firstore", "Firestore");
 
             correctionAdd("gravatar", "Gravatar");
 
@@ -14814,6 +14822,7 @@ namespace OverflowHelper.core
 
             correctionAdd("in layman's language", "in layman's terms");
             correctionAdd("in laymans terms", "in layman's terms");
+            correctionAdd("laymans terms", "in layman's terms");
 
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
@@ -15055,6 +15064,7 @@ namespace OverflowHelper.core
             correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
             correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
             correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("kHZ", "&nbsp;kHz");
 
             correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
             correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
@@ -21119,6 +21129,10 @@ namespace OverflowHelper.core
             correctionAdd("Whereas", "whereas");
 
             correctionAdd("christmas", "Christmas");
+            correctionAdd("xmas", "Christmas");
+            correctionAdd("Xmas", "Christmas");
+            correctionAdd("x-mas", "Christmas");
+            correctionAdd("X-mas", "Christmas");
 
             correctionAdd("Natural gas", "natural gas");
 
@@ -22133,6 +22147,9 @@ namespace OverflowHelper.core
             correctionAdd("testng", "TestNG");
 
             correctionAdd("Winterbash", "Winter Bash");
+            correctionAdd("winter bash", "Winter Bash");
+            correctionAdd("Winter bash", "Winter Bash");
+            correctionAdd("winter-bash", "Winter Bash");
 
             correctionAdd("artculates", "articulates");
             correctionAdd("artşculates", "articulates");
@@ -22770,6 +22787,44 @@ namespace OverflowHelper.core
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
 
             correctionAdd("abble", "able");
+
+            correctionAdd("CP 437", "Code page 437");
+
+            correctionAdd("energy star", "Energy Star");
+
+            correctionAdd("REXX", "Rexx");
+
+            correctionAdd("ul", "UL");
+
+            correctionAdd("WOL", "Wake-on-LAN");
+
+            correctionAdd("bigfer", "bigger");
+
+            correctionAdd("incomprehensive", "incomprehensible");
+
+            correctionAdd("K", "kelvin");
+            correctionAdd("Kelvin", "kelvin");
+
+            correctionAdd("Memory Leak", "memory leak");
+
+            correctionAdd("par-boiled", "parboiled");
+            correctionAdd("par boiled", "parboiled");
+
+            correctionAdd("Par-boil", "parboil");
+            correctionAdd("par boil", "parboil");
+            correctionAdd("par-boil", "parboil");
+
+            correctionAdd("rn", "right now");
+
+            correctionAdd("screen cast", "screencast");
+
+            correctionAdd("shrink wrap", "shrinkwrap");
+
+            correctionAdd("SWAG", "swag");
+
+            correctionAdd("triplepoint", "triple point");
+
+            correctionAdd("un-earn", "unearn");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35262,7 +35317,7 @@ namespace OverflowHelper.core
 
             URL_Add("PID", "https://en.wikipedia.org/wiki/Process_identifier");
 
-            URL_Add("Playwright", "https://github.com/microsoft/playwright");
+            URL_Add("Playwright", "https://playwright.dev/"); // Old: https://github.com/microsoft/playwright
 
             URL_Add("Spyder", "https://en.wikipedia.org/wiki/Spyder_%28software%29");
 
@@ -35311,6 +35366,40 @@ namespace OverflowHelper.core
             URL_Add("the straw that broke the camel's back", "https://en.wiktionary.org/wiki/the_straw_that_broke_the_camel%27s_back#Noun");
 
             URL_Add("able", "https://en.wiktionary.org/wiki/able#Adjective");
+
+            URL_Add("Code page 437", "https://en.wikipedia.org/wiki/Code_page_437");
+
+            URL_Add("Energy Star", "https://en.wikipedia.org/wiki/Energy_Star");
+
+            URL_Add("Rexx", "https://en.wikipedia.org/wiki/Rexx");
+
+            URL_Add("UL", "https://en.wikipedia.org/wiki/UL_(safety_organization)");
+
+            URL_Add("Wake-on-LAN", "https://en.wikipedia.org/wiki/Wake-on-LAN");
+
+            URL_Add("bigger", "https://en.wiktionary.org/wiki/bigger#Adjective");
+
+            URL_Add("incomprehensible", "https://en.wiktionary.org/wiki/incomprehensible#Adjective");
+
+            URL_Add("kelvin", "https://en.wikipedia.org/wiki/Kelvin");
+
+            URL_Add("memory leak", "https://en.wikipedia.org/wiki/Memory_leak");
+
+            URL_Add("parboil", "https://en.wiktionary.org/wiki/parboil#Verb");
+
+            URL_Add("parboiled", "https://en.wiktionary.org/wiki/parboil#Verb");
+
+            URL_Add("right now", "https://en.wiktionary.org/wiki/RN#Adverb");
+
+            URL_Add("screencast", "https://en.wiktionary.org/wiki/screencast#Noun");
+
+            URL_Add("shrinkwrap", "https://en.wiktionary.org/wiki/shrinkwrap#Verb");
+
+            URL_Add("swag", "https://en.wiktionary.org/wiki/swag#Noun_3");
+
+            URL_Add("triple point", "https://en.wikipedia.org/wiki/Triple_point");
+
+            URL_Add("unearn", "https://en.wiktionary.org/wiki/unearn#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
