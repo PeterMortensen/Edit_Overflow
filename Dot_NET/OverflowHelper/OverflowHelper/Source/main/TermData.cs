@@ -5906,6 +5906,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
+            correctionAdd("CPRBA", "CORBA");
 
             correctionAdd("dependency walker", "Dependency Walker");
             correctionAdd("Dependency Wolker", "Dependency Walker");
@@ -7833,6 +7834,7 @@ namespace OverflowHelper.core
             correctionAdd("peaple", "people");
             correctionAdd("peoole", "people");
             correctionAdd("peopel", "people");
+            correctionAdd("peeple", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -11995,6 +11997,7 @@ namespace OverflowHelper.core
             correctionAdd("aircrafts", "aircraft");
             correctionAdd("air craft", "aircraft");
             correctionAdd("aircarft", "aircraft");
+            correctionAdd("A/C", "aircraft");
 
             correctionAdd("boarder", "border");
             correctionAdd("BOARDER", "border");
@@ -15357,6 +15360,7 @@ namespace OverflowHelper.core
             correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmit-cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmitt cassegrain", "Schmidt–Cassegrain");
+            correctionAdd("Cassegrain", "Schmidt–Cassegrain");
 
             correctionAdd("hitch-hike", "hitchhike");
             correctionAdd("hitch hike", "hitchhike");
@@ -16107,6 +16111,7 @@ namespace OverflowHelper.core
             correctionAdd("comfrtable", "comfortable");
 
             correctionAdd("dificulty", "difficulty");
+            correctionAdd("difficuly", "difficulty");
 
             correctionAdd("eatable", "edible");
 
@@ -20595,6 +20600,8 @@ namespace OverflowHelper.core
             correctionAdd("contensious", "contentious");
 
             correctionAdd("dissappointing", "disappointing");
+            correctionAdd("dissapointing", "disappointing");
+            correctionAdd("disapointing", "disappointing");
 
             correctionAdd("free lancing", "freelancing");
 
@@ -22186,6 +22193,7 @@ namespace OverflowHelper.core
             correctionAdd("winter bash", "Winter Bash");
             correctionAdd("Winter bash", "Winter Bash");
             correctionAdd("winter-bash", "Winter Bash");
+            correctionAdd("WB", "Winter Bash");
 
             correctionAdd("artculates", "articulates");
             correctionAdd("artşculates", "articulates");
@@ -22912,6 +22920,19 @@ namespace OverflowHelper.core
 
             correctionAdd("typechecking", "type checking");
             correctionAdd("type-checking", "type checking");
+
+            correctionAdd("purify", "Purify");
+
+            correctionAdd("brusk", "brusque");
+
+            correctionAdd("tomorow", "tomorrow");
+            correctionAdd("tommorow", "tomorrow");
+
+            correctionAdd("WDYT", "what do you think");
+
+            correctionAdd("wiki holiday", "wikiholiday");
+            correctionAdd("Wikiholiday", "wikiholiday");
+            correctionAdd("Wiki holiday", "wikiholiday");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35535,6 +35556,16 @@ namespace OverflowHelper.core
             URL_Add("repair", "https://en.wiktionary.org/wiki/repair#Verb");
 
             URL_Add("type checking", "https://en.wikipedia.org/wiki/Type_system#Type_checking");
+
+            URL_Add("Purify", "https://en.wikipedia.org/wiki/PurifyPlus");
+
+            URL_Add("brusque", "https://en.wiktionary.org/wiki/brusque#Adjective");
+
+            URL_Add("tomorrow", "https://en.wiktionary.org/wiki/tomorrow#Adverb");
+
+            URL_Add("what do you think", "https://en.wiktionary.org/wiki/WDYT");
+
+            URL_Add("wikiholiday", "https://en.wikipedia.org/wiki/Wikipedia:Wikibreak");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
