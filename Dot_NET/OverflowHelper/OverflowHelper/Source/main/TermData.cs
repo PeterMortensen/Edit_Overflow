@@ -5473,9 +5473,6 @@ namespace OverflowHelper.core
             correctionAdd("Qemu", "QEMU");
             correctionAdd("qEmu", "QEMU");
 
-            correctionAdd("myspace", "Myspace");
-            correctionAdd("MySpace", "Myspace");
-
             correctionAdd("gnu", "GNU");
             correctionAdd("Gnu", "GNU");
 
@@ -5803,7 +5800,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Cyanogenmod", "CyanogenMod");
             correctionAdd("Cyanogen Mod", "CyanogenMod");
-            correctionAdd("CM", "CyanogenMod"); // Expansion. Collisions?
+            correctionAdd("CM", "CyanogenMod"); // Expansion. Collisions? Yes! E.g., centimetre and center of mass. The disambig page is <https://en.wikipedia.org/wiki/CM>.
             correctionAdd("cyanogenmod", "CyanogenMod");
 
             correctionAdd("adb", "ADB");
@@ -6148,6 +6145,14 @@ namespace OverflowHelper.core
             correctionAdd("llvm", "LLVM");
 
             correctionAdd("Singleton", "singleton");
+            correctionAdd("singleton pattern", "singleton");
+            correctionAdd("Singleton pattern", "singleton");
+            correctionAdd("singltone", "singleton");
+            correctionAdd("singletone", "singleton");
+            correctionAdd("Singltone", "singleton");
+            correctionAdd("Singleton Pattern", "singleton");
+            correctionAdd("Singleton patern", "singleton");
+            correctionAdd("singlton", "singleton");
 
             correctionAdd("sdhc", "SDHC");
 
@@ -8534,6 +8539,7 @@ namespace OverflowHelper.core
             correctionAdd("$0.02", "two cents");
             correctionAdd("2c", "two cents");
             correctionAdd("5 cents", "two cents");
+            correctionAdd("5 coins", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -10397,6 +10403,7 @@ namespace OverflowHelper.core
             correctionAdd("particuarly", "particularly");
             correctionAdd("particulary", "particularly");
             correctionAdd("Particulary", "particularly");
+            correctionAdd("particularily", "particularly");
 
             correctionAdd("particuliar", "particular");
             correctionAdd("perticular", "particular");
@@ -10864,6 +10871,7 @@ namespace OverflowHelper.core
             correctionAdd("initialized", "initialise");
             correctionAdd("initialize", "initialise");
             correctionAdd("init", "initialise");
+            correctionAdd("initilize", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -11362,8 +11370,6 @@ namespace OverflowHelper.core
             correctionAdd("Lora", "LoRa");
             correctionAdd("lora", "LoRa");
             correctionAdd("LORA", "LoRa");
-
-            correctionAdd("squarespace", "Squarespace");
 
             correctionAdd("Teamcity", "TeamCity");
             correctionAdd("teamcity", "TeamCity");
@@ -12797,6 +12803,8 @@ namespace OverflowHelper.core
             correctionAdd("documentated", "documented");
 
             correctionAdd("expirienced", "experienced");
+            correctionAdd("expereiced", "experienced");
+            correctionAdd("experieced", "experienced");
 
             correctionAdd("openning", "opening");
 
@@ -13366,14 +13374,31 @@ namespace OverflowHelper.core
             correctionAdd("key-press", "key press");
             correctionAdd("Key-Press", "key press");
 
-            correctionAdd("spase", "space");
+            correctionAdd("workspce", "workspace");
 
-            correctionAdd("strategi pattern", "strategy pattern");
+            correctionAdd("meat space", "meatspace");
+
+            correctionAdd("whitespace", "white space");
+
+            correctionAdd("HAIR SPACE", "hair space");
+
+            correctionAdd("name space", "namespace");
+
+            correctionAdd("myspace", "Myspace");
+            correctionAdd("MySpace", "Myspace");
+
+            correctionAdd("squarespace", "Squarespace");
+
+            correctionAdd("spase", "space");
+            correctionAdd("scpace", "space");
 
             correctionAdd("Achiles Heel", "Achilles heel");
 
             correctionAdd("737 MAX", "Boeing 737 MAX");
             correctionAdd("737 Max", "Boeing 737 MAX");
+            correctionAdd("Boeing Max", "Boeing 737 MAX");
+            correctionAdd("Boing Max", "Boeing 737 MAX");
+            correctionAdd("boing max", "Boeing 737 MAX");
 
             correctionAdd("Code Lens", "CodeLens");
             correctionAdd("Codelens", "CodeLens");
@@ -14991,6 +15016,8 @@ namespace OverflowHelper.core
 
             correctionAdd("re-open", "reopen");
             correctionAdd("Re-open", "reopen");
+            correctionAdd("ReOpen", "reopen");
+            correctionAdd("Reopen", "reopen");
 
             correctionAdd("shockwave", "shock wave");
             correctionAdd("shock-wave", "shock wave");
@@ -15251,6 +15278,8 @@ namespace OverflowHelper.core
 
             correctionAdd("upderstand", "understand");
             correctionAdd("understang", "understand");
+            correctionAdd("Undertand", "understand");
+            correctionAdd("undertand", "understand");
 
             correctionAdd("unterinated", "unterminated");
 
@@ -15846,6 +15875,8 @@ namespace OverflowHelper.core
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it´s", "it’s");
+            correctionAdd("It\\`s", "it’s"); // A single backslash
+            correctionAdd("It`s", "it’s");
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -15884,7 +15915,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Introsort", "introsort");
 
+            correctionAdd("Observer Pattern", "observer pattern");
+
+            correctionAdd("Facade pattern", "facade pattern");
+
+            correctionAdd("strategi pattern", "strategy pattern");
+
             correctionAdd("patter", "pattern");
+            correctionAdd("patern", "pattern");
 
             correctionAdd("Heapsort", "heapsort");
 
@@ -16188,6 +16226,7 @@ namespace OverflowHelper.core
             correctionAdd("Evin's Gambit", "Evans Gambit");
             correctionAdd("Evan's Gambit", "Evans Gambit");
             correctionAdd("Evins Gambit", "Evans Gambit");
+            correctionAdd("evans Gambit", "Evans Gambit");
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -16467,8 +16506,6 @@ namespace OverflowHelper.core
             correctionAdd("aout", "about");
 
             correctionAdd("open plan office", "open-plan office");
-
-            correctionAdd("workspce", "workspace");
 
             correctionAdd("minicom", "Minicom");
 
@@ -17602,8 +17639,6 @@ namespace OverflowHelper.core
             correctionAdd("forensic", "forensics");
 
             correctionAdd("KV", "kV");
-
-            correctionAdd("meat space", "meatspace");
 
             correctionAdd("opauqe", "opaque");
 
@@ -19259,8 +19294,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Thallium", "thallium");
 
-            correctionAdd("whitespace", "white space");
-
             correctionAdd("Arduino ide", "Arduino IDE");
 
             correctionAdd("Biztalk", "BizTalk");
@@ -19357,6 +19390,7 @@ namespace OverflowHelper.core
             correctionAdd("gpt3", "GPT-3");
 
             correctionAdd("CoM", "centre of mass");
+            correctionAdd("center of mass", "centre of mass");
 
             correctionAdd("cognative", "cognitive");
 
@@ -19441,8 +19475,6 @@ namespace OverflowHelper.core
 
             correctionAdd("frustreated", "frustrated");
             correctionAdd("frsutreated", "frustrated");
-
-            correctionAdd("Game Console", "game console");
 
             correctionAdd("si", "is");
             correctionAdd("ia", "is");
@@ -19678,6 +19710,7 @@ namespace OverflowHelper.core
             correctionAdd("2", "two");
 
             correctionAdd("u", "you");
+            correctionAdd("yuu", "you");
 
             correctionAdd("Zinc", "zinc");
 
@@ -19901,7 +19934,10 @@ namespace OverflowHelper.core
 
             correctionAdd("bervity", "brevity");
 
+            correctionAdd("Game Console", "game console");
+
             correctionAdd("consoloe", "console");
+            correctionAdd("cnosole", "console");
 
             correctionAdd("convertion", "conversion");
 
@@ -20127,8 +20163,6 @@ namespace OverflowHelper.core
             correctionAdd("OUMUAMUA", "ʻOumuamua");
 
             correctionAdd("complimentary", "complementary");
-
-            correctionAdd("HAIR SPACE", "hair space");
 
             correctionAdd("liason", "liaison");
 
@@ -20905,8 +20939,6 @@ namespace OverflowHelper.core
 
             correctionAdd("JSDOM", "jsdom");
 
-            correctionAdd("name space", "namespace");
-
             correctionAdd("in the fly", "on the fly");
 
             correctionAdd("preformed", "performed");
@@ -21048,8 +21080,6 @@ namespace OverflowHelper.core
             correctionAdd("Joule", "joule");
 
             correctionAdd("non-english", "non-English");
-
-            correctionAdd("Observer Pattern", "observer pattern");
 
             correctionAdd("rase", "raise");
 
@@ -22582,8 +22612,6 @@ namespace OverflowHelper.core
 
             correctionAdd("doubtfull", "doubtful");
 
-            correctionAdd("Facade pattern", "facade pattern");
-
             correctionAdd("Mental Health", "mental health");
 
             correctionAdd("preferebly", "preferably");
@@ -22837,6 +22865,53 @@ namespace OverflowHelper.core
             correctionAdd("Normal distribution", "normal distribution");
 
             correctionAdd("Special Relativity", "special relativity");
+
+            correctionAdd("bamboo", "Bamboo");
+
+            correctionAdd("Google tag manager", "Google Tag Manager");
+
+            correctionAdd("guru", "Guru");
+
+            correctionAdd("TAP", "Test Anything Protocol");
+
+            correctionAdd("usb hub", "USB hub");
+
+            correctionAdd("centimeter", "centimetre");
+            correctionAdd("cm", "centimetre");
+
+            correctionAdd("Digital Electronics", "digital electronics");
+
+            correctionAdd("leap of nerd faith", "leap of faith");
+
+            correctionAdd("mass-less", "massless");
+
+            correctionAdd("Notebook", "notebook");
+
+            correctionAdd("reattach", "re-attach");
+            correctionAdd("Re-attach", "re-attach");
+
+            correctionAdd("multiple ways to Rome", "all roads lead to Rome");
+
+            correctionAdd("codepoint", "code point");
+
+            correctionAdd("insure", "ensure");
+
+            correctionAdd("iPhone xs", "iPhone XS");
+
+            correctionAdd("Module pattern", "module pattern");
+
+            correctionAdd("properities", "properties");
+            correctionAdd("properites", "properties");
+
+            correctionAdd("publics", "public");
+
+            correctionAdd("rebuilded", "rebuilt");
+            correctionAdd("reBuilded", "rebuilt");
+
+            correctionAdd("re-pair", "repair");
+
+            correctionAdd("typechecking", "type checking");
+            correctionAdd("type-checking", "type checking");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35418,6 +35493,48 @@ namespace OverflowHelper.core
             URL_Add("normal distribution", "https://en.wikipedia.org/wiki/Normal_distribution");
 
             URL_Add("special relativity", "https://en.wikipedia.org/wiki/Special_relativity");
+
+            URL_Add("Bamboo", "https://www.atlassian.com/software/bamboo");
+
+            URL_Add("Google Tag Manager", "https://en.wikipedia.org/wiki/List_of_Google_products#Advertising_services");
+
+            URL_Add("Guru", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Test Anything Protocol", "https://en.wikipedia.org/wiki/Test_Anything_Protocol");
+
+            URL_Add("USB hub", "https://en.wikipedia.org/wiki/USB_hub");
+
+            URL_Add("centimetre", "https://en.wikipedia.org/wiki/Centimetre");
+
+            URL_Add("digital electronics", "https://en.wikipedia.org/wiki/Digital_electronics");
+
+            URL_Add("leap of faith", "https://en.wiktionary.org/wiki/leap_of_faith#Noun");
+
+            URL_Add("massless", "https://en.wiktionary.org/wiki/massless#Adjective");
+
+            URL_Add("notebook", "https://en.wikipedia.org/wiki/Notebook");
+
+            URL_Add("re-attach", "https://en.wiktionary.org/wiki/re-attach#Verb");
+
+            URL_Add("all roads lead to Rome", "https://en.wiktionary.org/wiki/all_roads_lead_to_Rome#Proverb");
+
+            URL_Add("code point", "https://en.wikipedia.org/wiki/Code_point");
+
+            URL_Add("ensure", "https://en.wiktionary.org/wiki/ensure#Verb");
+
+            URL_Add("iPhone XS", "https://en.wikipedia.org/wiki/IPhone_XS");
+
+            URL_Add("module pattern", "https://en.wikipedia.org/wiki/Module_pattern");
+
+            URL_Add("properties", "https://en.wiktionary.org/wiki/property#Noun");
+
+            URL_Add("public", "https://en.wiktionary.org/wiki/public#Adjective");
+
+            URL_Add("rebuilt", "https://en.wiktionary.org/wiki/rebuild#Verb");
+
+            URL_Add("repair", "https://en.wiktionary.org/wiki/repair#Verb");
+
+            URL_Add("type checking", "https://en.wikipedia.org/wiki/Type_system#Type_checking");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
