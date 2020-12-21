@@ -2611,6 +2611,7 @@ namespace OverflowHelper.core
             correctionAdd("face-book", "Facebook");
             correctionAdd("Facbook", "Facebook");
             correctionAdd("Facepalm", "Facebook");
+            correctionAdd("Face Book", "Facebook");
 
             correctionAdd("flickr", "Flickr");
 
@@ -3987,6 +3988,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack&nbsp;Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
 
             correctionAdd("coffeescript", "CoffeeScript");
             correctionAdd("Coffeescript", "CoffeeScript");
@@ -4224,6 +4226,7 @@ namespace OverflowHelper.core
             correctionAdd("havent", "haven't");
             correctionAdd("havn't", "haven't");
             correctionAdd("Havent", "haven't");
+            correctionAdd("haven´t", "haven't");
 
             correctionAdd("fbml", "FBML");
             correctionAdd("fmbl", "FBML");
@@ -4255,7 +4258,6 @@ namespace OverflowHelper.core
             correctionAdd("b/c", "because");
             correctionAdd("cuz", "because");
             correctionAdd("bc", "because"); // Does it conflict?
-            correctionAdd("cos", "because"); // Posibble conflict with cosine.
             correctionAdd("cause", "because");
             correctionAdd("becaus", "because");
             correctionAdd("Becaus", "because");
@@ -4495,6 +4497,7 @@ namespace OverflowHelper.core
             correctionAdd("bezier curve", "Bézier curve");
             correctionAdd("beizer", "Bézier curve");
             correctionAdd("beizer curve", "Bézier curve");
+            correctionAdd("Bezier Curve", "Bézier curve");
 
             correctionAdd("w/o", "without");
             correctionAdd("w/out", "without");
@@ -6511,6 +6514,7 @@ namespace OverflowHelper.core
             correctionAdd("Andoid Play", "Google Play"); // Does Andoid Play exist????
             correctionAdd("Google play store", "Google Play");
             correctionAdd("google play store", "Google Play");
+            correctionAdd("Playstore", "Google Play");
 
             correctionAdd("kinect", "Kinect");
 
@@ -6624,6 +6628,7 @@ namespace OverflowHelper.core
             correctionAdd("3rd-part", "third-party");
             correctionAdd("thirdparty", "third-party");
             correctionAdd("3d Party", "third-party");
+            correctionAdd("3d party", "third-party");
 
             correctionAdd("Defination", "definition");
             correctionAdd("defination", "definition");
@@ -11003,6 +11008,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Big O", "big O");
             correctionAdd("BigO", "big O");
+            correctionAdd("Big-O", "big O");
 
             correctionAdd("correclty", "correctly");
             correctionAdd("corrdctly", "correctly");
@@ -11151,6 +11157,7 @@ namespace OverflowHelper.core
             correctionAdd("Engelsk", "engelsk");
 
             correctionAdd("thier", "their");
+            correctionAdd("theur", "their");
 
             correctionAdd("BREXIT", "Brexit");
             correctionAdd("brexit", "Brexit");
@@ -12689,6 +12696,7 @@ namespace OverflowHelper.core
             correctionAdd("stratigic", "strategic");
 
             correctionAdd("sugest", "suggest");
+            correctionAdd("sudgest", "suggest");
 
             correctionAdd("APP Domains", "application domain");
             correctionAdd("APP Domain", "application domain");
@@ -14286,6 +14294,7 @@ namespace OverflowHelper.core
             correctionAdd("Unit Testing", "unit testing");
             correctionAdd("Unit testing", "unit testing");
             correctionAdd("unit-testing", "unit testing");
+            correctionAdd("unittesting", "unit testing");
 
             correctionAdd("un-supported", "unsupported");
             correctionAdd("unsuported", "unsupported");
@@ -14958,6 +14967,8 @@ namespace OverflowHelper.core
 
             correctionAdd("criterias", "criteria");
             correctionAdd("citeria", "criteria");
+            correctionAdd("critiera", "criteria");
+            correctionAdd("critieria", "criteria");
 
             correctionAdd("dead see", "dead sea");
 
@@ -15875,6 +15886,7 @@ namespace OverflowHelper.core
 
             correctionAdd("againt’s", "against");
             correctionAdd("againt", "against");
+            correctionAdd("agaibst", "against");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -16635,6 +16647,7 @@ namespace OverflowHelper.core
             correctionAdd("Hodl", "hodl");
 
             correctionAdd("refacotr", "refactor");
+            correctionAdd("re-factor", "refactor");
 
             correctionAdd("seq", "sequence");
             correctionAdd("seqeuence", "sequence");
@@ -19932,6 +19945,7 @@ namespace OverflowHelper.core
             correctionAdd("over-ride", "override");
 
             correctionAdd("retrocomputing", "Retrocomputing (Stack Exchange site)");
+            correctionAdd("retro computing", "Retrocomputing (Stack Exchange site)");
 
             correctionAdd("Symantec endpoint protection", "Symantec Endpoint Protection");
 
@@ -19990,6 +20004,7 @@ namespace OverflowHelper.core
 
             correctionAdd("prject", "project");
             correctionAdd("projet", "project");
+            correctionAdd("proj", "project");
 
             correctionAdd("eol", "EOL");
 
@@ -20014,6 +20029,7 @@ namespace OverflowHelper.core
             correctionAdd("trat", "treat");
 
             correctionAdd("tecnique", "technique");
+            correctionAdd("techique", "technique");
 
             correctionAdd("Text Editor", "text editor");
 
@@ -20786,6 +20802,7 @@ namespace OverflowHelper.core
             correctionAdd("selenium WebDriver", "Selenium WebDriver");
             correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
             correctionAdd("Selenium web-driver", "Selenium WebDriver");
+            correctionAdd("Selenium WD", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
 
@@ -21628,6 +21645,7 @@ namespace OverflowHelper.core
             correctionAdd("robotframework", "Robot Framework");
             correctionAdd("robot framework", "Robot Framework");
             correctionAdd("Robot framework", "Robot Framework");
+            correctionAdd("Robot", "Robot Framework");
 
             // Expansion, not case correction.
             correctionAdd("Entity Framework", "ADO.NET Entity Framework");
@@ -22036,6 +22054,7 @@ namespace OverflowHelper.core
             correctionAdd("Long Scale", "long scale");
 
             correctionAdd("radiks sort", "radix sort");
+            correctionAdd("Radix Sort", "radix sort");
 
             correctionAdd("Short Scale", "short scale");
 
@@ -22194,6 +22213,7 @@ namespace OverflowHelper.core
             correctionAdd("Winter bash", "Winter Bash");
             correctionAdd("winter-bash", "Winter Bash");
             correctionAdd("WB", "Winter Bash");
+            correctionAdd("winterbash", "Winter Bash");
 
             correctionAdd("artculates", "articulates");
             correctionAdd("artşculates", "articulates");
@@ -22933,6 +22953,47 @@ namespace OverflowHelper.core
             correctionAdd("wiki holiday", "wikiholiday");
             correctionAdd("Wikiholiday", "wikiholiday");
             correctionAdd("Wiki holiday", "wikiholiday");
+
+            correctionAdd("History", "History (Stack Exchange site)");
+
+            correctionAdd("alingn", "align");
+
+            correctionAdd("ALIGNED", "aligned");
+            correctionAdd("ALINGNED", "aligned");
+
+            correctionAdd("Bucket Sort", "bucket sort");
+
+            correctionAdd("cos", "cosine");
+
+            correctionAdd("membet", "member");
+
+            correctionAdd("mergesort", "merge sort");
+
+            correctionAdd("pre-allocate", "preallocate");
+
+            correctionAdd("pre-allocating", "preallocating");
+
+            correctionAdd("pre-allocation", "preallocation");
+
+            correctionAdd("prepop", "prepopulate");
+
+            correctionAdd("pre-seed", "preseed");
+
+            correctionAdd("pricate", "private");
+
+            correctionAdd("pun-y", "punny");
+
+            correctionAdd("re-generation", "regeneration");
+
+            correctionAdd("sin", "sine");
+
+            correctionAdd("topiacality", "topicality");
+
+            correctionAdd("trasactional", "transactional");
+
+            correctionAdd("unnaccountable", "unaccountable");
+
+            correctionAdd("uesd", "used");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35566,6 +35627,46 @@ namespace OverflowHelper.core
             URL_Add("what do you think", "https://en.wiktionary.org/wiki/WDYT");
 
             URL_Add("wikiholiday", "https://en.wikipedia.org/wiki/Wikipedia:Wikibreak");
+
+            URL_Add("History (Stack Exchange site)", "https://history.stackexchange.com/tour");
+
+            URL_Add("align", "https://en.wiktionary.org/wiki/align#Verb");
+
+            URL_Add("aligned", "https://en.wiktionary.org/wiki/align#Verb");
+
+            URL_Add("bucket sort", "https://en.wikipedia.org/wiki/Bucket_sort");
+
+            URL_Add("cosine", "https://en.wiktionary.org/wiki/cosine#Noun");
+
+            URL_Add("member", "https://en.wiktionary.org/wiki/member#Noun");
+
+            URL_Add("merge sort", "https://en.wikipedia.org/wiki/Merge_sort");
+
+            URL_Add("preallocate", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocating", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation");
+
+            URL_Add("prepopulate", "https://en.wiktionary.org/wiki/prepopulate#Verb");
+
+            URL_Add("preseed", "https://en.wiktionary.org/wiki/preseed#Verb");
+
+            URL_Add("private", "https://en.wiktionary.org/wiki/private#Adjective");
+
+            URL_Add("punny", "https://en.wiktionary.org/wiki/punny#Adjective");
+
+            URL_Add("regeneration", "https://en.wiktionary.org/wiki/regeneration#Noun");
+
+            URL_Add("sine", "https://en.wiktionary.org/wiki/sine#Noun");
+
+            URL_Add("topicality", "https://en.wiktionary.org/wiki/topicality#Noun");
+
+            URL_Add("transactional", "https://en.wiktionary.org/wiki/transactional#Adjective");
+
+            URL_Add("unaccountable", "https://en.wiktionary.org/wiki/unaccountable#Adjective");
+
+            URL_Add("used", "https://en.wiktionary.org/wiki/use#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
