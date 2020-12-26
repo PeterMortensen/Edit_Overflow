@@ -8133,6 +8133,7 @@ namespace OverflowHelper.core
             correctionAdd("bigginer", "beginner");
             correctionAdd("begginner", "beginner");
             correctionAdd("beginer", "beginner");
+            correctionAdd("begineer", "beginner");            
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -21816,6 +21817,10 @@ namespace OverflowHelper.core
             correctionAdd("Scientic Linux", "Scientific Linux");
             correctionAdd("scientic linux", "Scientific Linux");
             correctionAdd("scientic Linux", "Scientific Linux");
+            correctionAdd("scientific linux", "Scientific Linux");
+            correctionAdd("scientific Linux", "Scientific Linux");
+            correctionAdd("SL", "Scientific Linux");
+            correctionAdd("sl", "Scientific Linux");
 
             correctionAdd("kentico", "Kentico CMS");
 
