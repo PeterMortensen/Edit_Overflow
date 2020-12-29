@@ -423,6 +423,7 @@ namespace OverflowHelper.core
             correctionAdd("JavaScrpt", "JavaScript");
             correctionAdd("JS script", "JavaScript");
             correctionAdd("JavaScripty", "JavaScript");
+            correctionAdd("javsacript", "JavaScript");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -1838,6 +1839,7 @@ namespace OverflowHelper.core
             correctionAdd("VW Ware", "VMware");
             correctionAdd("VW ware", "VMware");
             correctionAdd("VWware", "VMware");
+            correctionAdd("vMware", "VMware");
 
             correctionAdd("scipy", "SciPy");
             correctionAdd("Scipy", "SciPy");
@@ -1988,7 +1990,6 @@ namespace OverflowHelper.core
             correctionAdd("Silvelight", "Silverlight");
             correctionAdd("Silver light", "Silverlight");
             correctionAdd("siverlight", "Silverlight");
-            correctionAdd("SL", "Silverlight");
             correctionAdd("solverlight", "Silverlight"); // Misspelling...
             correctionAdd("SIlverlight", "Silverlight");
             correctionAdd("silver light", "Silverlight");
@@ -2846,6 +2847,8 @@ namespace OverflowHelper.core
             correctionAdd("stack.exchange", "Stack&nbsp;Exchange");
             correctionAdd("stackexachnge", "Stack&nbsp;Exchange");
             correctionAdd("StackExcchange", "Stack&nbsp;Exchange");
+            correctionAdd("sttackexChange", "Stack&nbsp;Exchange");
+            correctionAdd("stackexChange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -3670,32 +3673,6 @@ namespace OverflowHelper.core
             correctionAdd("infos", "information");
             correctionAdd("informaton", "information");
             correctionAdd("infrormation", "information");
-
-            correctionAdd("ip", "IP address");
-            correctionAdd("IP", "IP address");
-            correctionAdd("@IP", "IP address");
-            correctionAdd("Ipaddress", "IP address");
-            correctionAdd("ip adress", "IP address");
-            correctionAdd("ip address", "IP address");
-            correctionAdd("ipaddress", "IP address");
-            correctionAdd("IPAddress", "IP address");
-            correctionAdd("IP-Address", "IP address");
-            correctionAdd("Ip address", "IP address");
-            correctionAdd("I.P. address", "IP address");
-            correctionAdd("IP-Adress", "IP address");
-            correctionAdd("IP Addres", "IP address");
-            correctionAdd("IP adress", "IP address");
-            correctionAdd("ip-address", "IP address");
-            correctionAdd("Ip Adress", "IP address");
-            correctionAdd("Ip", "IP address");
-            correctionAdd("IP Address", "IP address");
-            correctionAdd("ip Address", "IP address");
-            correctionAdd("IpAddress", "IP address");
-            correctionAdd("IpAdress", "IP address");
-            correctionAdd("IPaddress", "IP address");
-            correctionAdd("IPADDRESS", "IP address");
-            correctionAdd("ip addresss", "IP address");
-            correctionAdd("IP ADDRESS", "IP address");
 
             correctionAdd("stats", "statistics");
             correctionAdd("stasistics", "statistics");
@@ -6386,19 +6363,6 @@ namespace OverflowHelper.core
             correctionAdd("hard ware", "hardware");
             correctionAdd("Hardware", "hardware");
 
-            correctionAdd("mac address", "MAC address");
-            correctionAdd("MAC-Adress", "MAC address");
-            correctionAdd("MAC-Address", "MAC address");
-            correctionAdd("MAC Address", "MAC address");
-            correctionAdd("MAC-adress", "MAC address");
-            correctionAdd("MAC adress", "MAC address");
-            correctionAdd("Mac address", "MAC address");
-            correctionAdd("MAC", "MAC address"); // Note: collision with Mac (as in Macintosh).
-            correctionAdd("mac-address", "MAC address");
-            correctionAdd("MAC addr", "MAC address");
-            correctionAdd("Mac Address", "MAC address");
-            correctionAdd("MAC Adresse", "MAC address");
-
             correctionAdd("rest", "REST");
             correctionAdd("Rest", "REST");
 
@@ -8133,7 +8097,7 @@ namespace OverflowHelper.core
             correctionAdd("bigginer", "beginner");
             correctionAdd("begginner", "beginner");
             correctionAdd("beginer", "beginner");
-            correctionAdd("begineer", "beginner");            
+            correctionAdd("begineer", "beginner");
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -10495,6 +10459,7 @@ namespace OverflowHelper.core
             correctionAdd("dependecies", "dependencies");
             correctionAdd("depencies", "dependencies");
             correctionAdd("Dependancies", "dependencies");
+            correctionAdd("deps", "dependencies");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -12366,9 +12331,49 @@ namespace OverflowHelper.core
             correctionAdd("xubunbtu", "Xubuntu");
             correctionAdd("Xubunbtu", "Xubuntu");
 
+            correctionAdd("ip", "IP address");
+            correctionAdd("IP", "IP address");
+            correctionAdd("@IP", "IP address");
+            correctionAdd("Ipaddress", "IP address");
+            correctionAdd("ip adress", "IP address");
+            correctionAdd("ip address", "IP address");
+            correctionAdd("ipaddress", "IP address");
+            correctionAdd("IPAddress", "IP address");
+            correctionAdd("IP-Address", "IP address");
+            correctionAdd("Ip address", "IP address");
+            correctionAdd("I.P. address", "IP address");
+            correctionAdd("IP-Adress", "IP address");
+            correctionAdd("IP Addres", "IP address");
+            correctionAdd("IP adress", "IP address");
+            correctionAdd("ip-address", "IP address");
+            correctionAdd("Ip Adress", "IP address");
+            correctionAdd("Ip", "IP address");
+            correctionAdd("IP Address", "IP address");
+            correctionAdd("ip Address", "IP address");
+            correctionAdd("IpAddress", "IP address");
+            correctionAdd("IpAdress", "IP address");
+            correctionAdd("IPaddress", "IP address");
+            correctionAdd("IPADDRESS", "IP address");
+            correctionAdd("ip addresss", "IP address");
+            correctionAdd("IP ADDRESS", "IP address");
+
+            correctionAdd("mac address", "MAC address");
+            correctionAdd("MAC-Adress", "MAC address");
+            correctionAdd("MAC-Address", "MAC address");
+            correctionAdd("MAC Address", "MAC address");
+            correctionAdd("MAC-adress", "MAC address");
+            correctionAdd("MAC adress", "MAC address");
+            correctionAdd("Mac address", "MAC address");
+            correctionAdd("MAC", "MAC address"); // Note: collision with Mac (as in Macintosh).
+            correctionAdd("mac-address", "MAC address");
+            correctionAdd("MAC addr", "MAC address");
+            correctionAdd("Mac Address", "MAC address");
+            correctionAdd("MAC Adresse", "MAC address");
+
             correctionAdd("adress", "address");
             correctionAdd("addres", "address");
             correctionAdd("adres", "address");
+            correctionAdd("addresss", "address");
 
             correctionAdd("bare in mind", "bear in mind");
 
@@ -12448,6 +12453,8 @@ namespace OverflowHelper.core
             correctionAdd("Mac-Os", "macOS");
             correctionAdd("Mac os", "macOS");
             correctionAdd("Mac OS", "macOS");
+            correctionAdd("MAC os", "macOS");
+            correctionAdd("macOs", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -13496,6 +13503,7 @@ namespace OverflowHelper.core
             correctionAdd("press keys", "Press Keys");
 
             correctionAdd("pyspark", "PySpark");
+            correctionAdd("Pyspark", "PySpark");
 
             correctionAdd("star trek", "Star Trek");
 
@@ -22999,6 +23007,19 @@ namespace OverflowHelper.core
             correctionAdd("unnaccountable", "unaccountable");
 
             correctionAdd("uesd", "used");
+
+            correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
+
+            correctionAdd("arbitrory", "arbitrary");
+            correctionAdd("arbitory", "arbitrary");
+
+            correctionAdd("criticization", "critique");
+
+            correctionAdd("farewall", "farewell");
+
+            correctionAdd("Page Object Pattern", "page object pattern");
+
+            correctionAdd("speek", "speak");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35672,6 +35693,18 @@ namespace OverflowHelper.core
             URL_Add("unaccountable", "https://en.wiktionary.org/wiki/unaccountable#Adjective");
 
             URL_Add("used", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("Pauli exclusion principle", "https://en.wikipedia.org/wiki/Pauli_exclusion_principle");
+
+            URL_Add("arbitrary", "https://en.wiktionary.org/wiki/arbitrary#Adjective");
+
+            URL_Add("critique", "https://en.wiktionary.org/wiki/critique#Noun");
+
+            URL_Add("farewell", "https://en.wiktionary.org/wiki/farewell#Noun");
+
+            URL_Add("page object pattern", "https://www.automatetheplanet.com/page-object-pattern/");
+
+            URL_Add("speak", "https://en.wiktionary.org/wiki/speak#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
