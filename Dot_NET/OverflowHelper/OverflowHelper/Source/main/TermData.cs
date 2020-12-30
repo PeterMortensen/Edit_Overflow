@@ -6684,6 +6684,11 @@ namespace OverflowHelper.core
             correctionAdd("funcion", "function");
             correctionAdd("finction", "function");
             correctionAdd("functuion", "function");
+            correctionAdd("Funcion", "function");
+
+            correctionAdd("wavefunction", "wave function");
+
+            correctionAdd("disfunction", "dysfunction");
 
             correctionAdd("cgi", "CGI");
 
@@ -8798,6 +8803,7 @@ namespace OverflowHelper.core
             correctionAdd("obvisouly", "obviously");
             correctionAdd("obiously", "obviously");
             correctionAdd("obviouslt", "obviously");
+            correctionAdd("obvioulsy", "obviously");
 
             correctionAdd("VisualSvn", "VisualSVN");
 
@@ -11374,6 +11380,7 @@ namespace OverflowHelper.core
             correctionAdd("soluton", "solution");
             correctionAdd("soln", "solution");
             correctionAdd("Soultion", "solution");
+            correctionAdd("soulution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -12430,6 +12437,8 @@ namespace OverflowHelper.core
             correctionAdd("instuction", "instruction");
             correctionAdd("intrsuction", "instruction");
             correctionAdd("instrsuction", "instruction");
+            correctionAdd("instrucion", "instruction");
+            correctionAdd("instr", "instruction");
 
             correctionAdd("Km", "km");
             correctionAdd("KM", "km");
@@ -13244,6 +13253,8 @@ namespace OverflowHelper.core
             correctionAdd("retun", "return");
             correctionAdd("Retuen", "return");
             correctionAdd("Return", "return");
+            correctionAdd("Retrn", "return");
+            correctionAdd("retrn", "return");
 
             correctionAdd("strewam", "stream");
 
@@ -14800,8 +14811,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tweeted", "tweeted");
 
-            correctionAdd("wavefunction", "wave function");
-
             correctionAdd("wavepacket", "wave packet");
 
             correctionAdd("word list", "wordlist");
@@ -14989,8 +14998,6 @@ namespace OverflowHelper.core
             correctionAdd("dishearteneing", "disheartening");
 
             correctionAdd("dved", "downvoted");
-
-            correctionAdd("disfunction", "dysfunction");
 
             correctionAdd("deja vu", "déjà vu");
 
@@ -23062,6 +23069,19 @@ namespace OverflowHelper.core
 
             correctionAdd("re-fire", "refire");
 
+            correctionAdd("ELL", "English Language Learners (Stack Exchange site)");
+
+            correctionAdd("analizer", "analyzer");
+
+            correctionAdd("abi", "application binary interface");
+            correctionAdd("ABI", "application binary interface");
+
+            correctionAdd("genetate", "generate");
+
+            correctionAdd("in hand", "on hand");
+
+            correctionAdd("seemlessly", "seamlessly");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -23114,6 +23134,7 @@ namespace OverflowHelper.core
             correctionAdd("COVID9", "COVID-19");
             correctionAdd("convid", "COVID-19");
             correctionAdd("C19", "COVID-19");
+            correctionAdd("corona pandemic", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus");
             correctionAdd("Coronavirus", "coronavirus");
@@ -35772,6 +35793,18 @@ namespace OverflowHelper.core
             URL_Add("production", "https://en.wiktionary.org/wiki/production#Noun");
 
             URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
+
+            URL_Add("English Language Learners (Stack Exchange site)", "https://ell.stackexchange.com/tour");
+
+            URL_Add("analyzer", "https://en.wiktionary.org/wiki/analyzer#Noun");
+
+            URL_Add("application binary interface", "https://en.wikipedia.org/wiki/Application_binary_interface");
+
+            URL_Add("generate", "https://en.wiktionary.org/wiki/generate#Verb");
+
+            URL_Add("on hand", "https://en.wiktionary.org/wiki/on_hand#Prepositional_phrase");
+
+            URL_Add("seamlessly", "https://en.wiktionary.org/wiki/seamlessly#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
