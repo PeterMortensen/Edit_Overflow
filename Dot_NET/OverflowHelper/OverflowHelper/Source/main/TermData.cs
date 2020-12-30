@@ -1477,7 +1477,7 @@ namespace OverflowHelper.core
             correctionAdd("poSH", "PowerShell");
             correctionAdd("POSH", "PowerShell");
             correctionAdd("PoSh", "PowerShell");
-            correctionAdd("PS", "PowerShell"); // Conflict with abbr. "PS".
+            correctionAdd("PS", "PowerShell"); // Conflict with abbr. "PS" for "post scriptum" - <https://en.wiktionary.org/wiki/PS#English>
             correctionAdd("posh", "PowerShell");
             correctionAdd("Posh", "PowerShell");
             correctionAdd("powerShell", "PowerShell");
@@ -4702,62 +4702,6 @@ namespace OverflowHelper.core
             correctionAdd("vb", "Visual Basic"); // Conflicts?
             correctionAdd("Visual basic", "Visual Basic");
             correctionAdd("Visual BASIC", "Visual Basic");
-
-            // Note: We currently can't support terms ending in full
-            //       stop (".") (what was the reason? - SQL issues and/or
-            //       removal of space and punctuation before lookup ??),
-            //       but we would like to!
-            //
-            //       Example:
-            //
-            //              ...("For e.g.", "for example");
-            //
-            correctionAdd("Ex", "for example");
-            correctionAdd("e.x", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
-            correctionAdd("eg", "for example");
-            correctionAdd("Eg", "for example");
-            correctionAdd("e.g", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
-            correctionAdd("E.g", "for example");
-            correctionAdd("e. g", "for example"); // Does not work!!!!
-            correctionAdd("E.G", "for example");
-            correctionAdd("exa", "for example");
-            correctionAdd("for ex", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
-            correctionAdd("ex", "for example");
-            correctionAdd("f.e", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
-            correctionAdd("EG", "for example");
-            correctionAdd("f.ex", "for example");
-            correctionAdd("For exampe", "for example"); // Misspelling
-            correctionAdd("for exemple", "for example");
-            correctionAdd("For exemple", "for example");
-            correctionAdd("For ex", "for example");
-            correctionAdd("EX", "for example");
-            correctionAdd("for e.g", "for example");
-            correctionAdd("e.q", "for example"); // Later: add "e.q." when it is allowed.
-            correctionAdd("for eg", "for example");
-            correctionAdd("for examlpe", "for example"); // Misspelling
-            correctionAdd("For examlpe", "for example"); // Misspelling
-            correctionAdd("For Eg", "for example");
-            correctionAdd("For eg", "for example");
-            correctionAdd("For Ex", "for example");
-            correctionAdd("fx", "for example");
-            correctionAdd("for exapmle", "for example"); // Misspelling
-            correctionAdd("For e.g", "for example");
-            correctionAdd("Forexample", "for example");
-            correctionAdd("forexample", "for example");
-            correctionAdd("For Example", "for example");
-            correctionAdd("fe", "for example");
-            correctionAdd("e,g", "for example");
-            correctionAdd("for Ex", "for example");
-            correctionAdd("for examle", "for example");
-            correctionAdd("examp", "for example");
-            correctionAdd("for examp", "for example");
-            correctionAdd("for excample", "for example");
-            correctionAdd("for exmaple", "for example");
-            correctionAdd("for exsample", "for example");
-            correctionAdd("for EXP", "for example");
-            correctionAdd("for exp", "for example");
-            correctionAdd("For Exam", "for example");
-            correctionAdd("expample", "for example");
 
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
@@ -9806,6 +9750,62 @@ namespace OverflowHelper.core
             correctionAdd("firebse", "Firebase");
             correctionAdd("FireBase", "Firebase");
 
+            // Note: We currently can't support terms ending in full
+            //       stop (".") (what was the reason? - SQL issues and/or
+            //       removal of space and punctuation before lookup ??),
+            //       but we would like to!
+            //
+            //       Example:
+            //
+            //              ...("For e.g.", "for example");
+            //
+            correctionAdd("Ex", "for example");
+            correctionAdd("e.x", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
+            correctionAdd("eg", "for example");
+            correctionAdd("Eg", "for example");
+            correctionAdd("e.g", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
+            correctionAdd("E.g", "for example");
+            correctionAdd("e. g", "for example"); // Does not work!!!!
+            correctionAdd("E.G", "for example");
+            correctionAdd("exa", "for example");
+            correctionAdd("for ex", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
+            correctionAdd("ex", "for example");
+            correctionAdd("f.e", "for example"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
+            correctionAdd("EG", "for example");
+            correctionAdd("f.ex", "for example");
+            correctionAdd("For exampe", "for example"); // Misspelling
+            correctionAdd("for exemple", "for example");
+            correctionAdd("For exemple", "for example");
+            correctionAdd("For ex", "for example");
+            correctionAdd("EX", "for example");
+            correctionAdd("for e.g", "for example");
+            correctionAdd("e.q", "for example"); // Later: add "e.q." when it is allowed.
+            correctionAdd("for eg", "for example");
+            correctionAdd("for examlpe", "for example"); // Misspelling
+            correctionAdd("For examlpe", "for example"); // Misspelling
+            correctionAdd("For Eg", "for example");
+            correctionAdd("For eg", "for example");
+            correctionAdd("For Ex", "for example");
+            correctionAdd("fx", "for example");
+            correctionAdd("for exapmle", "for example"); // Misspelling
+            correctionAdd("For e.g", "for example");
+            correctionAdd("Forexample", "for example");
+            correctionAdd("forexample", "for example");
+            correctionAdd("For Example", "for example");
+            correctionAdd("fe", "for example");
+            correctionAdd("e,g", "for example");
+            correctionAdd("for Ex", "for example");
+            correctionAdd("for examle", "for example");
+            correctionAdd("examp", "for example");
+            correctionAdd("for examp", "for example");
+            correctionAdd("for excample", "for example");
+            correctionAdd("for exmaple", "for example");
+            correctionAdd("for exsample", "for example");
+            correctionAdd("for EXP", "for example");
+            correctionAdd("for exp", "for example");
+            correctionAdd("For Exam", "for example");
+            correctionAdd("expample", "for example");
+
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
             correctionAdd("exaplme", "example");
@@ -9819,6 +9819,7 @@ namespace OverflowHelper.core
             correctionAdd("exmple", "example");
             correctionAdd("Exemple", "example");
             correctionAdd("Example", "example");
+            correctionAdd("exammple", "example");
 
             correctionAdd("european", "European");
 
@@ -12218,6 +12219,8 @@ namespace OverflowHelper.core
             correctionAdd("opinon", "opinion");
             correctionAdd("opionion", "opinion");
             correctionAdd("opionon", "opinion");
+            correctionAdd("oppinnion", "opinion");
+            correctionAdd("opinnion", "opinion");
 
             correctionAdd("prio", "priority");
 
@@ -16671,6 +16674,8 @@ namespace OverflowHelper.core
             correctionAdd("disgraful", "disgraceful");
 
             correctionAdd("masters", "master's degree");
+            correctionAdd("Masters degree", "master's degree");
+            correctionAdd("masters degree", "master's degree");
 
             correctionAdd("Lilypad", "LilyPad");
 
@@ -21164,6 +21169,7 @@ namespace OverflowHelper.core
             correctionAdd("bad-blood", "bad blood");
 
             correctionAdd("dicussion", "discussion");
+            correctionAdd("discusion", "discussion");
 
             correctionAdd("right hand", "right-hand");
 
@@ -23020,6 +23026,41 @@ namespace OverflowHelper.core
             correctionAdd("Page Object Pattern", "page object pattern");
 
             correctionAdd("speek", "speak");
+
+            correctionAdd("ES3", "ECMAScript&nbsp;3");
+            correctionAdd("ECMAScript 3", "ECMAScript&nbsp;3");
+
+            correctionAdd("ES4", "ECMAScript&nbsp;4");
+            correctionAdd("ECMAScript 4", "ECMAScript&nbsp;4");
+
+            correctionAdd("jade", "Jade"); // The former name of the Pug JavaScript templating engine
+
+            correctionAdd("m1 pro", "MacBook Pro M1");
+
+            correctionAdd("React Hooks", "React hooks");
+
+            correctionAdd("Cloud computing", "cloud computing");
+
+            correctionAdd("dinasaur", "dinosaur");
+            correctionAdd("dino", "dinosaur");
+            correctionAdd("Dinasaur", "dinosaur");
+
+            correctionAdd("Exclude", "exclude");
+            correctionAdd("Exlude", "exclude");
+            correctionAdd("exlude", "exclude");
+
+            correctionAdd("inhewrited", "inherited");
+            correctionAdd("inhereted", "inherited");
+
+            correctionAdd("IPC", "inter-process communication");
+
+            correctionAdd("P.S", "post scriptum"); // Note: We don't have "PS" as it conflicts with "PowerShell".
+            correctionAdd("P.s", "post scriptum");
+
+            correctionAdd("prod", "production");
+            correctionAdd("producion", "production");
+
+            correctionAdd("re-fire", "refire");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35705,6 +35746,32 @@ namespace OverflowHelper.core
             URL_Add("page object pattern", "https://www.automatetheplanet.com/page-object-pattern/");
 
             URL_Add("speak", "https://en.wiktionary.org/wiki/speak#Verb");
+
+            URL_Add("ECMAScript&nbsp;3", "https://en.wikipedia.org/wiki/ECMAScript#Versions");
+
+            URL_Add("ECMAScript&nbsp;4", "https://en.wikipedia.org/wiki/ECMAScript#Versions");
+
+            URL_Add("Jade", "https://en.wikipedia.org/wiki/Jade_(disambiguation)#Technology");
+
+            URL_Add("MacBook Pro M1", "https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)");
+
+            URL_Add("React hooks", "https://en.wikipedia.org/wiki/React_(web_framework)#React_hooks");
+
+            URL_Add("cloud computing", "https://en.wikipedia.org/wiki/Cloud_computing");
+
+            URL_Add("dinosaur", "https://en.wiktionary.org/wiki/dinosaur#Noun");
+
+            URL_Add("exclude", "https://en.wiktionary.org/wiki/exclude#Verb");
+
+            URL_Add("inherited", "https://en.wiktionary.org/wiki/inherit#Verb");
+
+            URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
+
+            URL_Add("post scriptum", "https://en.wiktionary.org/wiki/PS#Alternative_forms");
+
+            URL_Add("production", "https://en.wiktionary.org/wiki/production#Noun");
+
+            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
