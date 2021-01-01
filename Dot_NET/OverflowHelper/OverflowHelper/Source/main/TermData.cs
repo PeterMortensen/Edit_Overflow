@@ -21461,9 +21461,25 @@ namespace OverflowHelper.core
 
             correctionAdd("julia", "Julia");
 
-            correctionAdd("Kirchoff's Law", "Kirchoff's law");
-            correctionAdd("Kirkoff", "Kirchoff's law");
-            correctionAdd("Kirkoff Law", "Kirchoff's law");
+            correctionAdd("Kirchoff's Law", "Kirchhoff's law");
+            correctionAdd("Kirkoff", "Kirchhoff's law");
+            correctionAdd("Kirkoff Law", "Kirchhoff's law");
+            correctionAdd("Kirchoff's law", "Kirchhoff's law");
+            correctionAdd("Kirchoff's", "Kirchhoff's law");
+            correctionAdd("Kirchoff", "Kirchhoff's law");
+            correctionAdd("kirchoff", "Kirchhoff's law");
+            correctionAdd("kirchhoff", "Kirchhoff's law");
+            correctionAdd("Kirkhoff", "Kirchhoff's law");
+            correctionAdd("kirkhoff", "Kirchhoff's law");
+            correctionAdd("kirkhhoff", "Kirchhoff's law");
+            correctionAdd("kirchof", "Kirchhoff's law");
+            correctionAdd("Kirchoffs", "Kirchhoff's law");
+            correctionAdd("kirchoffs", "Kirchhoff's law");
+            correctionAdd("Kirkoff's", "Kirchhoff's law");
+            correctionAdd("kirkoff's", "Kirchhoff's law");
+            correctionAdd("kirkoff", "Kirchhoff's law");
+            correctionAdd("Kirkoffs", "Kirchhoff's law");
+            correctionAdd("kirkoffs", "Kirchhoff's law");
 
             correctionAdd("sanskrit", "Sanskrit");
             correctionAdd("sanskritt", "Sanskrit");
@@ -34545,7 +34561,7 @@ namespace OverflowHelper.core
 
             URL_Add("Julia", "https://en.wikipedia.org/wiki/Julia_%28programming_language%29");
 
-            URL_Add("Kirchoff's law", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws");
+            URL_Add("Kirchhoff's law", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws");
 
             URL_Add("Sanskrit", "https://en.wikipedia.org/wiki/Sanskrit");
 
