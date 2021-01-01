@@ -25368,7 +25368,7 @@ namespace OverflowHelper.core
 
             URL_Add("Digg", "https://en.wikipedia.org/wiki/Digg");
 
-            URL_Add("immediately", "https://en.wiktionary.org/wiki/immediately");
+            URL_Add("immediately", "https://en.wiktionary.org/wiki/immediately#Adverb"); // Old: https://en.wiktionary.org/wiki/immediately
 
             URL_Add("NSIS", "https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System");
 
@@ -30917,7 +30917,7 @@ namespace OverflowHelper.core
 
             URL_Add("CDC", "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention");
 
-            URL_Add("Candidates Tournament 2020", "https://en.wikipedia.org/wiki/Candidates_Tournament_2020");
+            URL_Add("Candidates Tournament 2020", "https://en.wikipedia.org/wiki/Candidates_Tournament_2020%E2%80%9321"); // Old: https://en.wikipedia.org/wiki/Candidates_Tournament_2020
 
             URL_Add("Magnus Carlsen", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
 
