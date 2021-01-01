@@ -959,6 +959,7 @@ namespace OverflowHelper.core
             correctionAdd("Aspdotnet", "ASP.NET");
             correctionAdd("ASP .Net", "ASP.NET");
             correctionAdd("asp.net net", "ASP.NET");
+            correctionAdd("ASP. NET", "ASP.NET");
 
             correctionAdd("ASP.net MVC", "ASP.NET MVC");
             correctionAdd("ASP.Net MVC", "ASP.NET MVC");
@@ -2587,16 +2588,6 @@ namespace OverflowHelper.core
             correctionAdd("virtual private server", "VPS");
             correctionAdd("Vps", "VPS");
 
-            correctionAdd("google", "Google Search");
-            correctionAdd("Google", "Google Search");
-            correctionAdd("google search", "Google Search");
-            correctionAdd("Google search", "Google Search");
-            correctionAdd("GOOGL", "Google Search");
-            correctionAdd("GOOGLE", "Google Search");
-
-            correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
-            correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
-
             correctionAdd("FaceBook", "Facebook");
             correctionAdd("facebook", "Facebook");
             correctionAdd("FB", "Facebook"); // Conflict with FB for Firebug (but less frequent).
@@ -3084,6 +3075,7 @@ namespace OverflowHelper.core
             correctionAdd("w3", "W3C");
             correctionAdd("w3c", "W3C");
             correctionAdd("W3c", "W3C");
+            correctionAdd("W3", "W3C");
 
             correctionAdd("afaik", "as far as I know");
             correctionAdd("Afaik", "as far as I know");
@@ -5494,6 +5486,7 @@ namespace OverflowHelper.core
             correctionAdd("beyond compare", "Beyond Compare");
 
             correctionAdd("rdp", "RDP");
+            correctionAdd("RPD", "RDP");
 
             correctionAdd("kvm", "KVM"); // Conflict with KVM switch, "keyboard, visual display unit, mouse", <https://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
             correctionAdd("KVm", "KVM");
@@ -7897,6 +7890,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wud", "would");
             correctionAdd("whould", "would");
+            correctionAdd("woudl", "would");
 
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("mine craft", "Minecraft");
@@ -8133,13 +8127,6 @@ namespace OverflowHelper.core
             correctionAdd("kml", "KML");
 
             correctionAdd("puppy linux", "Puppy Linux");
-
-            correctionAdd("elasticsearch", "Elasticsearch");
-            correctionAdd("Elasticsearches", "Elasticsearch");
-            correctionAdd("ElasticSearch", "Elasticsearch");
-            correctionAdd("Elastic Search", "Elasticsearch");
-            correctionAdd("Elastic search", "Elasticsearch");
-            correctionAdd("elastic search", "Elasticsearch");
 
             correctionAdd("webrtc", "WebRTC");
             correctionAdd("webRTC", "WebRTC");
@@ -9445,6 +9432,7 @@ namespace OverflowHelper.core
             correctionAdd("kilo ohm", "kilohm");
             correctionAdd("K ohm", "kilohm");
             correctionAdd("kohms", "kilohm");
+            correctionAdd("kilo-ohm", "kilohm");
 
             correctionAdd("Mohm", "megohm");
             correctionAdd("megaohm", "megohm");
@@ -9945,6 +9933,7 @@ namespace OverflowHelper.core
             correctionAdd("colleage", "colleague");
             correctionAdd("collegeae", "colleague");
             correctionAdd("collegeaue", "colleague");
+            correctionAdd("colleugue", "colleague");
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
@@ -12541,6 +12530,7 @@ namespace OverflowHelper.core
             correctionAdd("whant", "want");
             correctionAdd("wand", "want");
             correctionAdd("wannt", "want");
+            correctionAdd("wnat", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -13154,6 +13144,11 @@ namespace OverflowHelper.core
             correctionAdd("propery", "property");
             correctionAdd("proprty", "property");
             correctionAdd("porperty", "property");
+            correctionAdd("prop", "property");
+
+            correctionAdd("properities", "properties");
+            correctionAdd("properites", "properties");
+            correctionAdd("props", "properties");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
@@ -14183,9 +14178,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pywin32", "PyWin32");
             correctionAdd("pyWin32", "PyWin32");
-
-            correctionAdd("SQL Search", "SQL&nbsp;Search");
-            correctionAdd("SQLSearch", "SQL&nbsp;Search");
 
             correctionAdd("svm", "SVM");
 
@@ -17152,8 +17144,6 @@ namespace OverflowHelper.core
 
             correctionAdd("singaporean", "Singaporean");
 
-            correctionAdd("BFS", "breadth-first search");
-
             correctionAdd("heigher", "higher");
             correctionAdd("Heigher", "higher");
 
@@ -17634,10 +17624,6 @@ namespace OverflowHelper.core
 
             correctionAdd("controlller", "controller");
             correctionAdd("Controlller", "controller");
-
-            correctionAdd("depth first search", "depth-first search");
-            correctionAdd("Depth First Search", "depth-first search");
-            correctionAdd("DFS", "depth-first search");
 
             correctionAdd("two-edged sword", "double-edged sword");
 
@@ -20043,7 +20029,34 @@ namespace OverflowHelper.core
 
             correctionAdd("palce", "place");
 
+            correctionAdd("google", "Google Search");
+            correctionAdd("Google", "Google Search");
+            correctionAdd("google search", "Google Search");
+            correctionAdd("Google search", "Google Search");
+            correctionAdd("GOOGL", "Google Search");
+            correctionAdd("GOOGLE", "Google Search");
+
+            correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
+            correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
+
+            correctionAdd("elasticsearch", "Elasticsearch");
+            correctionAdd("Elasticsearches", "Elasticsearch");
+            correctionAdd("ElasticSearch", "Elasticsearch");
+            correctionAdd("Elastic Search", "Elasticsearch");
+            correctionAdd("Elastic search", "Elasticsearch");
+            correctionAdd("elastic search", "Elasticsearch");
+
+            correctionAdd("SQL Search", "SQL&nbsp;Search");
+            correctionAdd("SQLSearch", "SQL&nbsp;Search");
+
+            correctionAdd("BFS", "breadth-first search");
+
+            correctionAdd("depth first search", "depth-first search");
+            correctionAdd("Depth First Search", "depth-first search");
+            correctionAdd("DFS", "depth-first search");
+
             correctionAdd("serach", "search");
+            correctionAdd("seach", "search");
 
             correctionAdd("throwh", "thrown");
 
@@ -20956,6 +20969,7 @@ namespace OverflowHelper.core
             correctionAdd("Transistor", "transistor");
 
             correctionAdd("destructuring", "destructuring assignment");
+            correctionAdd("destructing", "destructuring assignment"); // Proper words, but we actually saw it in this context.
 
             correctionAdd("asignment", "assignment");
             correctionAdd("assigment", "assignment");
@@ -21242,6 +21256,7 @@ namespace OverflowHelper.core
 
             correctionAdd("motnh", "month");
             correctionAdd("Month", "month");
+            correctionAdd("moth", "month");
 
             correctionAdd("relaying", "relying");
             correctionAdd("Relaying", "relying");
@@ -21446,6 +21461,8 @@ namespace OverflowHelper.core
             correctionAdd("julia", "Julia");
 
             correctionAdd("Kirchoff's Law", "Kirchoff's law");
+            correctionAdd("Kirkoff", "Kirchoff's law");
+            correctionAdd("Kirkoff Law", "Kirchoff's law");
 
             correctionAdd("sanskrit", "Sanskrit");
             correctionAdd("sanskritt", "Sanskrit");
@@ -22273,6 +22290,9 @@ namespace OverflowHelper.core
             correctionAdd("Big Sur", "macOS v11 (Big Sur)");
             correctionAdd("macOS 11 Big Sur", "macOS v11 (Big Sur)");
             correctionAdd("macOS 11", "macOS v11 (Big Sur)");
+            correctionAdd("BigSur", "macOS v11 (Big Sur)");
+            correctionAdd("Bigsur", "macOS v11 (Big Sur)");
+            correctionAdd("Big sur", "macOS v11 (Big Sur)");
 
             correctionAdd("single core", "single-core");
 
@@ -22954,9 +22974,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Module pattern", "module pattern");
 
-            correctionAdd("properities", "properties");
-            correctionAdd("properites", "properties");
-
             correctionAdd("publics", "public");
 
             correctionAdd("rebuilded", "rebuilt");
@@ -23081,6 +23098,41 @@ namespace OverflowHelper.core
             correctionAdd("in hand", "on hand");
 
             correctionAdd("seemlessly", "seamlessly");
+
+            correctionAdd("555", "555 timer IC");
+
+            correctionAdd("deno", "Deno");
+
+            correctionAdd("free software foundation", "Free Software Foundation");
+            correctionAdd("fsf", "Free Software Foundation");
+            correctionAdd("FSF", "Free Software Foundation");
+
+            correctionAdd("802.11", "IEEE 802.11");
+            correctionAdd("80211", "IEEE 802.11");
+
+            correctionAdd("quebec", "Quebec");
+
+            correctionAdd("skyhook", "Skyhook");
+
+            correctionAdd("comutter", "commuter");
+            correctionAdd("commutter", "commuter");
+
+            correctionAdd("DBm", "dBm");
+
+            correctionAdd("liquify", "liquefy");
+
+            correctionAdd("logaritmically", "logarithmically");
+
+            correctionAdd("positionning", "positioning");
+
+            correctionAdd("suggets", "suggests");
+
+            correctionAdd("unintenationally", "unintentionally");
+
+            correctionAdd("WatchOS", "watchOS");
+
+            correctionAdd("Nyquist", "Nyquist frequency");
+            correctionAdd("nyquist", "Nyquist frequency");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35805,6 +35857,36 @@ namespace OverflowHelper.core
             URL_Add("on hand", "https://en.wiktionary.org/wiki/on_hand#Prepositional_phrase");
 
             URL_Add("seamlessly", "https://en.wiktionary.org/wiki/seamlessly#Adverb");
+
+            URL_Add("555 timer IC", "https://en.wikipedia.org/wiki/555_timer_IC");
+
+            URL_Add("Deno", "https://en.wikipedia.org/wiki/Deno_(software)");
+
+            URL_Add("Free Software Foundation", "https://en.wikipedia.org/wiki/Free_Software_Foundation");
+
+            URL_Add("IEEE 802.11", "https://en.wikipedia.org/wiki/IEEE_802.11");
+
+            URL_Add("Quebec", "https://en.wikipedia.org/wiki/Quebec");
+
+            URL_Add("Skyhook", "https://en.wikipedia.org/wiki/Skyhook_Wireless");
+
+            URL_Add("commuter", "https://en.wiktionary.org/wiki/commuter#Noun");
+
+            URL_Add("dBm", "https://en.wikipedia.org/wiki/DBm");
+
+            URL_Add("liquefy", "https://en.wiktionary.org/wiki/liquefy#Verb");
+
+            URL_Add("logarithmically", "https://en.wiktionary.org/wiki/logarithmically#Adverb");
+
+            URL_Add("positioning", "https://en.wiktionary.org/wiki/position#Verb");
+
+            URL_Add("suggests", "https://en.wiktionary.org/wiki/suggest#Verb");
+
+            URL_Add("unintentionally", "https://en.wiktionary.org/wiki/unintentionally#Adverb");
+
+            URL_Add("watchOS", "https://en.wikipedia.org/wiki/WatchOS");
+
+            URL_Add("Nyquist frequency", "https://en.wikipedia.org/wiki/Nyquist_frequency");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
