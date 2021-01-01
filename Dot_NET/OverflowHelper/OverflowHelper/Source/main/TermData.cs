@@ -15656,6 +15656,7 @@ namespace OverflowHelper.core
 
             correctionAdd("waybackmachine", "Wayback Machine");
             correctionAdd("wayback machine", "Wayback Machine");
+            correctionAdd("Wayback machine", "Wayback Machine");
 
             correctionAdd("yarn", "Yarn");
 
@@ -21980,6 +21981,8 @@ namespace OverflowHelper.core
             correctionAdd("kicks is", "kicks in");
 
             correctionAdd("low pass filter", "low-pass filter");
+            correctionAdd("lowpass", "low-pass filter");
+            correctionAdd("lowpass filter", "low-pass filter");
 
             correctionAdd("micro management", "micromanagement");
 
@@ -23133,6 +23136,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Nyquist", "Nyquist frequency");
             correctionAdd("nyquist", "Nyquist frequency");
+
+            correctionAdd("highpass filter", "high-pass filter");
+
+            correctionAdd("singe", "single");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35887,6 +35894,10 @@ namespace OverflowHelper.core
             URL_Add("watchOS", "https://en.wikipedia.org/wiki/WatchOS");
 
             URL_Add("Nyquist frequency", "https://en.wikipedia.org/wiki/Nyquist_frequency");
+
+            URL_Add("high-pass filter", "https://en.wikipedia.org/wiki/High-pass_filter");
+
+            URL_Add("single", "https://en.wiktionary.org/wiki/single#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
