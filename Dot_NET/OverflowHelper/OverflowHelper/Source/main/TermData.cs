@@ -21480,6 +21480,10 @@ namespace OverflowHelper.core
             correctionAdd("kirkoff", "Kirchhoff's law");
             correctionAdd("Kirkoffs", "Kirchhoff's law");
             correctionAdd("kirkoffs", "Kirchhoff's law");
+            correctionAdd("Kirchhoff's", "Kirchhoff's law");
+            correctionAdd("Kirchhoffs", "Kirchhoff's law");
+            correctionAdd("kirchhoffs", "Kirchhoff's law");
+            correctionAdd("kirchhoff's", "Kirchhoff's law");
 
             correctionAdd("sanskrit", "Sanskrit");
             correctionAdd("sanskritt", "Sanskrit");
