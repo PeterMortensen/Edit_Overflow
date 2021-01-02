@@ -6028,6 +6028,7 @@ namespace OverflowHelper.core
             correctionAdd("CTor", "constructor");
             correctionAdd("Constructor", "constructor");
             correctionAdd("Ctor", "constructor");
+            correctionAdd("construstor", "constructor");
 
             correctionAdd("cli", "CLI");
 
@@ -10841,6 +10842,7 @@ namespace OverflowHelper.core
             correctionAdd("initialize", "initialise");
             correctionAdd("init", "initialise");
             correctionAdd("initilize", "initialise");
+            correctionAdd("initalise", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -11280,6 +11282,7 @@ namespace OverflowHelper.core
             correctionAdd("nato", "NATO");
 
             correctionAdd("R-Studio", "RStudio");
+            correctionAdd("rStudio", "RStudio");
 
             correctionAdd("brodcast", "broadcast");
 
@@ -11495,6 +11498,7 @@ namespace OverflowHelper.core
             correctionAdd("buisiness", "business");
             correctionAdd("buszness", "business");
             correctionAdd("bussiness", "business");
+            correctionAdd("bisiness", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -11520,6 +11524,7 @@ namespace OverflowHelper.core
             correctionAdd("Pull Request", "pull request");
 
             correctionAdd("recursivly", "recursively");
+            correctionAdd("recursivelly", "recursively");
 
             correctionAdd("stubled", "stumble");
 
@@ -12089,9 +12094,6 @@ namespace OverflowHelper.core
             correctionAdd("get-diskimage", "Get-DiskImage");
 
             correctionAdd("konqueror", "Konqueror");
-
-            correctionAdd("anyother", "another");
-            correctionAdd("enother", "another");
 
             correctionAdd("catagory", "category");
             correctionAdd("catgeory", "category");
@@ -12804,6 +12806,8 @@ namespace OverflowHelper.core
 
             correctionAdd("requirment", "requirement");
             correctionAdd("requriement", "requirement");
+            correctionAdd("requeriment", "requirement");
+            correctionAdd("requrement", "requirement");
 
             correctionAdd("vonuravle", "vulnerable");
 
@@ -13553,6 +13557,7 @@ namespace OverflowHelper.core
 
             correctionAdd("excecute", "execute");
             correctionAdd("excute", "execute");
+            correctionAdd("exceute", "execute");
 
             correctionAdd("extremeties", "extremities");
             correctionAdd("extremitys", "extremities");
@@ -14448,6 +14453,7 @@ namespace OverflowHelper.core
             correctionAdd("wasm", "WebAssembly");
             correctionAdd("webasm", "WebAssembly");
             correctionAdd("web asm", "WebAssembly");
+            correctionAdd("Web assembly", "WebAssembly");
 
             correctionAdd("webvr", "WebVR");
 
@@ -14593,6 +14599,7 @@ namespace OverflowHelper.core
             correctionAdd("nitty grities", "nitty-gritty");
 
             correctionAdd("phychic", "psychic");
+            correctionAdd("phychich", "psychic");
 
             correctionAdd("alibaba", "Alibaba");
 
@@ -14958,8 +14965,6 @@ namespace OverflowHelper.core
             correctionAdd("surveymonkey", "SurveyMonkey");
 
             correctionAdd("ad blocker", "adblocker");
-
-            correctionAdd("a/o", "and other");
 
             correctionAdd("arrange marriage", "arranged marriage");
 
@@ -16189,19 +16194,33 @@ namespace OverflowHelper.core
             correctionAdd("Candidates", "Candidates Tournament 2020"); // Chess
             correctionAdd("Candidate's", "Candidates Tournament 2020"); // Chess
             correctionAdd("candidates", "Candidates Tournament 2020"); // Chess
+            correctionAdd("Candidates tournament", "Candidates Tournament 2020"); // Chess
 
             correctionAdd("magnus carlsen", "Magnus Carlsen"); // Chess
             correctionAdd("Carlsen", "Magnus Carlsen"); // Chess
             correctionAdd("magnus", "Magnus Carlsen"); // Chess
             correctionAdd("Magnus", "Magnus Carlsen"); // Chess
             correctionAdd("manus", "Magnus Carlsen"); // Chess
-            correctionAdd("Carsel", "Magnus Carlsen");
+            correctionAdd("Carsel", "Magnus Carlsen"); // Chess
+            correctionAdd("karlsen", "Magnus Carlsen"); // Chess
+            correctionAdd("Karlsen", "Magnus Carlsen"); // Chess
+            correctionAdd("karslan", "Magnus Carlsen"); // Chess
+            correctionAdd("karlsan", "Magnus Carlsen"); // Chess
+            correctionAdd("Karlsan", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
             correctionAdd("Rajabov", "Teimour Radjabov"); // Chess
             correctionAdd("Radjabov", "Teimour Radjabov"); // Chess
             correctionAdd("Teymur Rajabov", "Teimour Radjabov"); // Chess
+            correctionAdd("Radja", "Teimour Radjabov"); // Chess
+            correctionAdd("Raja", "Teimour Radjabov"); // Chess
+            correctionAdd("teymur", "Teimour Radjabov"); // Chess
+            correctionAdd("Teymur", "Teimour Radjabov"); // Chess
+            correctionAdd("Teimour", "Teimour Radjabov"); // Chess
+            correctionAdd("teimour", "Teimour Radjabov"); // Chess
+            correctionAdd("Teimur", "Teimour Radjabov"); // Chess
+            correctionAdd("teimur", "Teimour Radjabov"); // Chess
 
             correctionAdd("Grishchuk", "Alexander Grischuk"); // Chess
             correctionAdd("alexander grishchuk", "Alexander Grischuk"); // Chess
@@ -16448,6 +16467,13 @@ namespace OverflowHelper.core
             correctionAdd("anish giri", "Anish Giri");
             correctionAdd("Amish Girl", "Anish Giri");
             correctionAdd("giri", "Anish Giri");
+
+            correctionAdd("fianchettling", "fianchettoing");
+            correctionAdd("Fianchettling", "fianchettoing");
+
+            correctionAdd("Dub-off", "Daniil Dubov");
+            correctionAdd("Dubov", "Daniil Dubov");
+            correctionAdd("dubov", "Daniil Dubov");
             //
             // End of chess part
 
@@ -19868,9 +19894,6 @@ namespace OverflowHelper.core
 
             correctionAdd("incase", "in case");
             correctionAdd("Incase", "in case");
-            correctionAdd("In-place", "in case");
-            correctionAdd("in-place", "in case");
-            correctionAdd("in place", "in case");
 
             correctionAdd("cse", "case");
             correctionAdd("casse", "case");
@@ -20512,6 +20535,7 @@ namespace OverflowHelper.core
             correctionAdd("psuedo-code", "pseudocode");
             correctionAdd("Psuedocode", "pseudocode");
             correctionAdd("Pseudocode", "pseudocode");
+            correctionAdd("pseudo cod", "pseudocode");
 
             correctionAdd("authenticode", "Authenticode");
             correctionAdd("AuthentiCode", "Authenticode");
@@ -22392,7 +22416,14 @@ namespace OverflowHelper.core
 
             correctionAdd("mot", "not");
 
+            correctionAdd("anyother", "another");
+            correctionAdd("enother", "another");
+
+            correctionAdd("a/o", "and other");
+
             correctionAdd("otehr", "other");
+            correctionAdd("outter", "other");
+            correctionAdd("outher", "other");
 
             correctionAdd("poor mans", "poor man's");
 
@@ -23065,6 +23096,7 @@ namespace OverflowHelper.core
 
             correctionAdd("arbitrory", "arbitrary");
             correctionAdd("arbitory", "arbitrary");
+            correctionAdd("arbirary", "arbitrary");
 
             correctionAdd("criticization", "critique");
 
@@ -23087,6 +23119,7 @@ namespace OverflowHelper.core
             correctionAdd("React Hooks", "React hooks");
 
             correctionAdd("Cloud computing", "cloud computing");
+            correctionAdd("cloud", "cloud computing");
 
             correctionAdd("dinasaur", "dinosaur");
             correctionAdd("dino", "dinosaur");
@@ -23160,6 +23193,34 @@ namespace OverflowHelper.core
             correctionAdd("highpass filter", "high-pass filter");
 
             correctionAdd("singe", "single");
+
+            correctionAdd("m1", "Apple M1");
+            correctionAdd("M1", "Apple M1");
+
+            correctionAdd("nextstep", "NeXTSTEP");
+            correctionAdd("Nextstep", "NeXTSTEP");
+
+            correctionAdd("racket", "Racket");
+
+            correctionAdd("reactos", "ReactOS");
+
+            correctionAdd("in-place", "in place");
+            correctionAdd("inplace", "in place");
+
+            correctionAdd("insert sort", "insertion sort");
+
+            correctionAdd("instalable", "installable");
+
+            correctionAdd("Men", "men");
+            correctionAdd("Mens", "men");
+            correctionAdd("mens", "men");
+
+            correctionAdd("mindreader", "mind-reader");
+            correctionAdd("mind reader", "mind-reader");
+
+            correctionAdd("prevale", "prevail");
+
+            correctionAdd("zelot", "zealot");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -35918,6 +35979,32 @@ namespace OverflowHelper.core
             URL_Add("high-pass filter", "https://en.wikipedia.org/wiki/High-pass_filter");
 
             URL_Add("single", "https://en.wiktionary.org/wiki/single#Adjective");
+
+            URL_Add("Apple M1", "https://en.wikipedia.org/wiki/Apple_M1");
+
+            URL_Add("Daniil Dubov", "https://en.wikipedia.org/wiki/Daniil_Dubov");
+
+            URL_Add("NeXTSTEP", "https://en.wikipedia.org/wiki/NeXTSTEP");
+
+            URL_Add("Racket", "https://en.wikipedia.org/wiki/Racket_(programming_language)");
+
+            URL_Add("ReactOS", "https://en.wikipedia.org/wiki/ReactOS");
+
+            URL_Add("fianchettoing", "https://en.wiktionary.org/wiki/fianchetto#Verb");
+
+            URL_Add("in place", "https://en.wiktionary.org/wiki/in_place#Adjective");
+
+            URL_Add("insertion sort", "https://en.wikipedia.org/wiki/Insertion_sort");
+
+            URL_Add("installable", "https://en.wiktionary.org/wiki/installable#Adjective");
+
+            URL_Add("men", "https://en.wiktionary.org/wiki/men#Noun");
+
+            URL_Add("mind-reader", "https://en.wiktionary.org/wiki/mind-reader#Noun");
+
+            URL_Add("prevail", "https://en.wiktionary.org/wiki/prevail#Verb");
+
+            URL_Add("zealot", "https://en.wiktionary.org/wiki/zealot#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
