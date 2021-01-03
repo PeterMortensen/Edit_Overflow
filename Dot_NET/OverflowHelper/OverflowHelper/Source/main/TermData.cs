@@ -10959,10 +10959,6 @@ namespace OverflowHelper.core
 
             correctionAdd("christian", "Christian");
 
-            correctionAdd("elo", "Elo");
-
-            correctionAdd("fide", "FIDE");
-
             correctionAdd("Nasa", "NASA");
             correctionAdd("nasa", "NASA");
 
@@ -16480,6 +16476,10 @@ namespace OverflowHelper.core
             correctionAdd("Dub-off", "Daniil Dubov");
             correctionAdd("Dubov", "Daniil Dubov");
             correctionAdd("dubov", "Daniil Dubov");
+
+            correctionAdd("elo", "Elo");
+
+            correctionAdd("fide", "FIDE");
             //
             // End of chess part
 
