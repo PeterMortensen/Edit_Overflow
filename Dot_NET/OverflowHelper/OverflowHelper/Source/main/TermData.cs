@@ -2651,6 +2651,7 @@ namespace OverflowHelper.core
             correctionAdd("sql management studio", "SQL Server Management Studio");
             correctionAdd("SQL Server Management Tools", "SQL Server Management Studio");
             correctionAdd("managment studio", "SQL Server Management Studio");
+            correctionAdd("SQL server management studio", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -9669,6 +9670,7 @@ namespace OverflowHelper.core
 
             correctionAdd("g-drive", "Google Drive");
             correctionAdd("google drive", "Google Drive");
+            correctionAdd("Google drive", "Google Drive");
 
             correctionAdd(".net core", ".NET Core");
             correctionAdd("dot net core", ".NET Core");
@@ -10070,6 +10072,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Schrodinger", "Schrödinger equation");
             correctionAdd("Schroedinger's equation", "Schrödinger equation");
+            correctionAdd("Schrödinger's equation", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -14018,6 +14021,7 @@ namespace OverflowHelper.core
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
+            correctionAdd("foregroud", "foreground");
 
             correctionAdd("longwinded", "long-winded");
             correctionAdd("long winded", "long-winded");
@@ -16528,6 +16532,7 @@ namespace OverflowHelper.core
             correctionAdd("falcon heavy", "Falcon Heavy");
 
             correctionAdd("G suite", "G Suite");
+            correctionAdd("Gsuite", "G Suite");
 
             correctionAdd("Google Meet", "Google Hangouts Meet");
 
@@ -17035,6 +17040,8 @@ namespace OverflowHelper.core
             correctionAdd("EPIC", "Epic");
 
             correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
 
             correctionAdd("yoga", "Yoga");
 
@@ -19786,6 +19793,7 @@ namespace OverflowHelper.core
             correctionAdd("defferent", "different");
             correctionAdd("deferent", "different");
             correctionAdd("differant", "different");
+            correctionAdd("diffferent", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -23248,6 +23256,27 @@ namespace OverflowHelper.core
             correctionAdd("re-deploy", "redeploy");
 
             correctionAdd("sematically", "semantically");
+
+            correctionAdd("doodle", "Doodle");
+
+            correctionAdd("omnis studio", "Omnis Studio");
+
+            correctionAdd("escallate", "escalate");
+
+            correctionAdd("fyp", "final year project");
+
+            correctionAdd("insitute", "institute");
+
+            correctionAdd("lookup", "look up");
+
+            correctionAdd("mosty", "mostly");
+
+            correctionAdd("protecion", "protection");
+
+            correctionAdd("tamper proof", "tamperproof");
+            correctionAdd("tamper-proof", "tamperproof");
+
+            correctionAdd("tupple", "tuple");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36046,6 +36075,26 @@ namespace OverflowHelper.core
             URL_Add("redeploy", "https://en.wiktionary.org/wiki/redeploy#Verb");
 
             URL_Add("semantically", "https://en.wiktionary.org/wiki/semantically#Adverb");
+
+            URL_Add("Doodle", "https://en.wikipedia.org/wiki/Doodle_(website)");
+
+            URL_Add("Omnis Studio", "https://en.wikipedia.org/wiki/Omnis_Studio");
+
+            URL_Add("escalate", "https://en.wiktionary.org/wiki/escalate#Verb");
+
+            URL_Add("final year project", "https://acronyms.thefreedictionary.com/FYP");
+
+            URL_Add("institute", "https://en.wiktionary.org/wiki/institute#Noun");
+
+            URL_Add("look up", "https://en.wiktionary.org/wiki/look_up#Verb");
+
+            URL_Add("mostly", "https://en.wiktionary.org/wiki/mostly#Adverb");
+
+            URL_Add("protection", "https://en.wiktionary.org/wiki/protection#Noun");
+
+            URL_Add("tamperproof", "https://en.wiktionary.org/wiki/tamperproof#Adjective");
+
+            URL_Add("tuple", "https://en.wiktionary.org/wiki/tuple#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
