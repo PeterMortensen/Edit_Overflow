@@ -5581,6 +5581,7 @@ namespace OverflowHelper.core
             correctionAdd("Gang of Four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("GOF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("gang of four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("GoF book", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
 
             correctionAdd("basic", "BASIC");
             correctionAdd("Basic", "BASIC");
@@ -14740,6 +14741,7 @@ namespace OverflowHelper.core
 
             correctionAdd("happned", "happened");
             correctionAdd("happeed", "happened");
+            correctionAdd("happend", "happened");
 
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
@@ -17846,10 +17848,17 @@ namespace OverflowHelper.core
             correctionAdd("low-code", "low-code development platform");
             correctionAdd("Low-code", "low-code development platform");
             correctionAdd("Low code", "low-code development platform");
+            correctionAdd("LowCode", "low-code development platform");
+            correctionAdd("Low Code", "low-code development platform");
+            correctionAdd("Low-code development platform", "low-code development platform");
+            correctionAdd("lowcode", "low-code development platform");
 
             correctionAdd("no-code", "no-code development platform");
             correctionAdd("no code", "no-code development platform");
             correctionAdd("non coding", "no-code development platform");
+            correctionAdd("NoCode", "no-code development platform");
+            correctionAdd("No Code", "no-code development platform");
+            correctionAdd("nocode", "no-code development platform");
 
             correctionAdd("payed", "paid");
 
@@ -23117,6 +23126,7 @@ namespace OverflowHelper.core
             correctionAdd("m1 pro", "MacBook Pro M1");
 
             correctionAdd("React Hooks", "React hooks");
+            correctionAdd("react hooks", "React hooks");
 
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
@@ -23221,6 +23231,23 @@ namespace OverflowHelper.core
             correctionAdd("prevale", "prevail");
 
             correctionAdd("zelot", "zealot");
+
+            correctionAdd("fu money", "FU money");
+
+            correctionAdd("Householder Matrix", "Householder matrix");
+
+            correctionAdd("JamJS", "Jam.js");
+            correctionAdd("Jamjs", "Jam.js");
+            correctionAdd("Jam", "Jam.js");
+
+            correctionAdd("nexus", "Nexus");
+
+            correctionAdd("Decibel", "decibel");
+            correctionAdd("desibel", "decibel");
+
+            correctionAdd("re-deploy", "redeploy");
+
+            correctionAdd("sematically", "semantically");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36005,6 +36032,20 @@ namespace OverflowHelper.core
             URL_Add("prevail", "https://en.wiktionary.org/wiki/prevail#Verb");
 
             URL_Add("zealot", "https://en.wiktionary.org/wiki/zealot#Noun");
+
+            URL_Add("FU money", "https://lifehacker.com/how-much-is-enough-a-formula-for-fu-money-5925077");
+
+            URL_Add("Householder matrix", "https://en.wikipedia.org/wiki/Householder_transformation#Householder_matrix");
+
+            URL_Add("Jam.js", "https://github.com/caolan/jam");
+
+            URL_Add("Nexus", "https://www.sonatype.com/nexus/repository-pro");
+
+            URL_Add("decibel", "https://en.wikipedia.org/wiki/Decibel");
+
+            URL_Add("redeploy", "https://en.wiktionary.org/wiki/redeploy#Verb");
+
+            URL_Add("semantically", "https://en.wiktionary.org/wiki/semantically#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
