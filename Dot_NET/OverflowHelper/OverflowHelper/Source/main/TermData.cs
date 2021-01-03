@@ -24115,7 +24115,7 @@ namespace OverflowHelper.core
 
             URL_Add("Amazon EC2", "https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud");
 
-            URL_Add("Amazon RDS", "https://en.wikipedia.org/wiki/Amazon_RDS");
+            URL_Add("Amazon RDS", "https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service"); // Old: https://en.wikipedia.org/wiki/Amazon_RDS
 
             URL_Add("user interface", "https://en.wikipedia.org/wiki/User_interface");
 
@@ -30965,7 +30965,7 @@ namespace OverflowHelper.core
 
             URL_Add("Falcon Heavy", "https://en.wikipedia.org/wiki/Falcon_Heavy");
 
-            URL_Add("G Suite", "https://en.wikipedia.org/wiki/G_Suite");
+            URL_Add("G Suite", "https://en.wikipedia.org/wiki/Google_Workspace"); // Old: https://en.wikipedia.org/wiki/G_Suite
 
             URL_Add("Google Hangouts Meet", "https://en.wikipedia.org/wiki/Google_Hangouts#Google_Hangouts_Meet");
 
