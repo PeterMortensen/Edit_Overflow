@@ -341,7 +341,7 @@
                    type="text"
                    id="X29"
                    class=""
-                   value="Please respond by [editing your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if was written today). "
+                   value="Please respond by [editing your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
                    style="width:830px;"
                    accesskey="X"
                    title=""
