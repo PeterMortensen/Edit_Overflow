@@ -124,11 +124,11 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
     #
-    def test_mainLookup(self):
+    def mainLookup(self, aURL):
         # Initial page, with a (known) incorrect term different
         # from the default of 'cpu': 'php'
         #
-        self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
+        self.browser.get(aURL)
         time.sleep(2.0)
 
         singleLookup_editSummary_PHP = 'Active reading [<https://en.wikipedia.org/wiki/PHP>].'
@@ -146,7 +146,6 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
             self.checkEditSummary(singleLookup_editSummary_PHP,
                                   'Unexpected edit summary after URL GET lookup')
 
-
             # First direct lookup with a known incorrect term
             self.lookUp("python", firstRealLookup_editSummary, defaultMsgForEditSummary)
 
@@ -160,7 +159,7 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
                         firstRealLookup_editSummary,
                         'Changed edit summary for a failed Edit Overflow lookup')
 
-        if True: # Lookup after a failed lookup.
+        if True: # Lookup ***after a failed*** lookup.
 
             # Second direct lookup with a known
             # correct term (identity mapping)
@@ -171,7 +170,7 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
         if True: # Test clearing the edit summary state (user controlled
                  # by checkbox "Reset lookup state")
                  #
-                 # We had a regression with an empty edit summary
+                 # We had a regression with an empty edit summary...
 
             #print("Setting reset checkbox...")
             self.setCheckbox("resetState")
@@ -181,9 +180,9 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
             self.lookUp("php", singleLookup_editSummary_PHP, defaultMsgForEditSummary)
             
 
-        if True: # Do a failed lookup after a reset - we had a regression
-                 # with an edit summary of "Active reading []." (should
-                 # be empty (an empty string))
+        if True: # Do a ***failing lookup*** after a reset - we had a 
+                 # regression with an edit summary of "Active reading []." 
+                 # (should be empty (an empty string))
 
             # Regression 2020-12-01 (now fixed): "Active reading []."
             #
@@ -197,6 +196,17 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
 
             self.setCheckbox("resetState")
             self.lookUp("PHP__Z", "", defaultMsgForEditSummary)
+
+
+    # Test of the central function of Edit Overflow for web: Looking
+    # up incorrect terms (typically misspelling words)
+    #
+    # The form-based (server roundtrip) version
+    #
+    def test_mainLookup(self):
+
+        self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
+
 
 
 if __name__ == '__main__':
