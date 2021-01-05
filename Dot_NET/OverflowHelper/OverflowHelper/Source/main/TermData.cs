@@ -2841,6 +2841,8 @@ namespace OverflowHelper.core
             correctionAdd("StackExcchange", "Stack&nbsp;Exchange");
             correctionAdd("sttackexChange", "Stack&nbsp;Exchange");
             correctionAdd("stackexChange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack-exchanged", "Stack&nbsp;Exchange");
+            correctionAdd("Stack-exchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -3524,6 +3526,7 @@ namespace OverflowHelper.core
             correctionAdd("NODE JS", "Node.js");
             correctionAdd("node. Js", "Node.js");
             correctionAdd("node. js", "Node.js");
+            correctionAdd("NODE.JS", "Node.js");
 
             correctionAdd("XHR", "XMLHttpRequest"); // Expansion.
             correctionAdd("xhr", "XMLHttpRequest");
@@ -7261,6 +7264,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
             correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
             correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
 
             correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
             correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
@@ -8387,6 +8391,7 @@ namespace OverflowHelper.core
             correctionAdd("MBytes", "&nbsp;MB");
             correctionAdd("Mbyte", "&nbsp;MB");
             correctionAdd("meg", "&nbsp;MB");
+            correctionAdd("megs", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
@@ -8397,6 +8402,7 @@ namespace OverflowHelper.core
             correctionAdd("giga byte", "&nbsp;GB");
             correctionAdd("gigs", "&nbsp;GB");
             correctionAdd("gig", "&nbsp;GB");
+            correctionAdd("Gig", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
@@ -9181,6 +9187,7 @@ namespace OverflowHelper.core
             correctionAdd("qusetion", "question");
             correctionAdd("Question", "question");
             correctionAdd("tread", "question");
+            correctionAdd("quastion", "question");
 
             // Can not currently be looked up due to a bug!!!!
             correctionAdd("devc++", "Dev-C++");
@@ -11753,6 +11760,7 @@ namespace OverflowHelper.core
             correctionAdd("Hydrogen", "hydrogen");
 
             correctionAdd("mins", "minutes");
+            correctionAdd("Mins", "minutes");
 
             correctionAdd("sourcetree", "Sourcetree");
             correctionAdd("SourceTree", "Sourcetree");
@@ -12381,8 +12389,6 @@ namespace OverflowHelper.core
             correctionAdd("baring in mind", "bearing in mind");
 
             correctionAdd("bombardement", "bombardment");
-
-            correctionAdd("bonafide", "bona fide");
 
             correctionAdd("brillant", "brilliant");
 
@@ -13558,6 +13564,7 @@ namespace OverflowHelper.core
             correctionAdd("excecute", "execute");
             correctionAdd("excute", "execute");
             correctionAdd("exceute", "execute");
+            correctionAdd("exacute", "execute");
 
             correctionAdd("extremeties", "extremities");
             correctionAdd("extremitys", "extremities");
@@ -15519,6 +15526,7 @@ namespace OverflowHelper.core
             correctionAdd("MLM", "multi-level marketing");
 
             correctionAdd("clique", "click");
+            correctionAdd("clic", "click");
 
             correctionAdd("extremelly", "extremely");
             correctionAdd("extrimely", "extremely");
@@ -16480,8 +16488,11 @@ namespace OverflowHelper.core
             correctionAdd("elo", "Elo");
 
             correctionAdd("fide", "FIDE");
+            correctionAdd("Fide", "FIDE");
             //
             // End of chess part
+
+            correctionAdd("bonafide", "bona fide");
 
             correctionAdd("demonitisation", "demonetisation");
             correctionAdd("demonitization", "demonetisation");
@@ -20323,6 +20334,8 @@ namespace OverflowHelper.core
 
             correctionAdd("cherry mx red", "Cherry MX Red");
             correctionAdd("Cherry Red", "Cherry MX Red");
+            correctionAdd("MX red", "Cherry MX Red");
+            correctionAdd("MX Red", "Cherry MX Red");
 
             correctionAdd("cherry max brown", "Cherry MX Brown");
             correctionAdd("Cherry Brown", "Cherry MX Brown");
@@ -23277,6 +23290,55 @@ namespace OverflowHelper.core
             correctionAdd("tamper-proof", "tamperproof");
 
             correctionAdd("tupple", "tuple");
+
+            correctionAdd("jsunit", "JSUnit");
+            correctionAdd("jsUnit", "JSUnit");
+            correctionAdd("JsUnit", "JSUnit");
+
+            correctionAdd("perfmon", "Performance Monitor");
+            correctionAdd("Perfmon", "Performance Monitor");
+            correctionAdd("Perfromance monitor", "Performance Monitor");
+            correctionAdd("perfromance monitor", "Performance Monitor");
+            correctionAdd("performance monitor", "Performance Monitor");
+            correctionAdd("Performance monitor", "Performance Monitor");
+            correctionAdd("PerfMon", "Performance Monitor");
+
+            correctionAdd("pong", "Pong");
+
+            correctionAdd("qunit", "QUnit");
+
+            correctionAdd("SOS", "SOS (Son of Strike)");
+
+            correctionAdd("tess", "Tess Ferrandez");
+            correctionAdd("Tess", "Tess Ferrandez");
+
+            correctionAdd("BA", "business analyst");
+
+            correctionAdd("Chlorine", "chlorine");
+            correctionAdd("clorine", "chlorine");
+
+            correctionAdd("coldblooded", "cold-blooded");
+            correctionAdd("Coldblooded", "cold-blooded");
+
+            correctionAdd("concider", "consider");
+
+            correctionAdd("curtesea", "courtesy");
+
+            correctionAdd("customization", "customisation");
+            correctionAdd("custimization", "customisation");
+
+            correctionAdd("eventhough", "even though");
+
+            correctionAdd("exacution", "execution");
+
+            correctionAdd("mater", "matter");
+
+            correctionAdd("persceptive", "perspective");
+            correctionAdd("presceptive", "perspective");
+
+            correctionAdd("time line", "timeline");
+
+            correctionAdd("apon", "upon");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36095,6 +36157,42 @@ namespace OverflowHelper.core
             URL_Add("tamperproof", "https://en.wiktionary.org/wiki/tamperproof#Adjective");
 
             URL_Add("tuple", "https://en.wiktionary.org/wiki/tuple#Noun");
+
+            URL_Add("JSUnit", "https://plugins.jenkins.io/jsunit/");
+
+            URL_Add("Performance Monitor", "https://en.wikipedia.org/wiki/Performance_Monitor");
+
+            URL_Add("Pong", "https://en.wikipedia.org/wiki/Pong");
+
+            URL_Add("QUnit", "https://code.jquery.com/qunit/");
+
+            URL_Add("SOS (Son of Strike)", "https://en.wikipedia.org/wiki/WinDbg#SOS.dll");
+
+            URL_Add("Tess Ferrandez", "https://twitter.com/TessFerrandez");
+
+            URL_Add("business analyst", "https://en.wikipedia.org/wiki/Business_analyst");
+
+            URL_Add("chlorine", "https://en.wikipedia.org/wiki/Chlorine");
+
+            URL_Add("cold-blooded", "https://en.wiktionary.org/wiki/cold-blooded#Adjective");
+
+            URL_Add("consider", "https://en.wiktionary.org/wiki/consider#Verb");
+
+            URL_Add("courtesy", "https://en.wiktionary.org/wiki/courtesy#Noun");
+
+            URL_Add("customisation", "https://en.wiktionary.org/wiki/customisation#Noun");
+
+            URL_Add("even though", "https://en.wiktionary.org/wiki/even_though#Conjunction");
+
+            URL_Add("execution", "https://en.wiktionary.org/wiki/execution#Noun");
+
+            URL_Add("matter", "https://en.wiktionary.org/wiki/matter#Verb");
+
+            URL_Add("perspective", "https://en.wiktionary.org/wiki/perspective#Noun");
+
+            URL_Add("timeline", "https://en.wiktionary.org/wiki/timeline#Noun");
+
+            URL_Add("upon", "https://en.wiktionary.org/wiki/upon#Preposition");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
