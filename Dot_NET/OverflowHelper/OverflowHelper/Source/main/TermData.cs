@@ -9115,8 +9115,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mvvm", "MVVM");
 
-            correctionAdd("NPE", "null pointer exception");
-
             correctionAdd("edge", "Edge");
             correctionAdd("EDGE", "Edge");
 
@@ -9176,6 +9174,7 @@ namespace OverflowHelper.core
             correctionAdd("comparsion", "comparison");
             correctionAdd("comparism", "comparison");
             correctionAdd("comparisom", "comparison");
+            correctionAdd("Comparision", "comparison");
 
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
@@ -9280,6 +9279,7 @@ namespace OverflowHelper.core
             correctionAdd("compaitible", "compatible");
             correctionAdd("compatiple", "compatible");
             correctionAdd("compact-able", "compatible");
+            correctionAdd("compaible", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -10627,6 +10627,7 @@ namespace OverflowHelper.core
             correctionAdd("anwer", "answer");
             correctionAdd("answere", "answer");
             correctionAdd("ansver", "answer");
+            correctionAdd("anser", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -11103,6 +11104,7 @@ namespace OverflowHelper.core
             correctionAdd("secound", "second");
             correctionAdd("seconde", "second");
             correctionAdd("seond", "second");
+            correctionAdd("2st", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -11146,13 +11148,19 @@ namespace OverflowHelper.core
             correctionAdd("briefely", "briefly");
             correctionAdd("Breifly", "briefly");
 
+            correctionAdd("NPE", "null pointer exception");
+
             correctionAdd("excetpion", "exception");
+            correctionAdd("excepetion", "exception");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
 
             correctionAdd("untill", "until");
             correctionAdd("untit", "until");
+            correctionAdd("In-till", "until");
+            correctionAdd("in-till", "until");
+            correctionAdd("un-till", "until");
 
             correctionAdd("Yestarday", "yesterday");
 
@@ -12407,6 +12415,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dept", "department");
             correctionAdd("depoartment", "department");
+            correctionAdd("deparment", "department");
 
             correctionAdd("en counter", "encounter");
 
@@ -18160,6 +18169,7 @@ namespace OverflowHelper.core
             correctionAdd("poppuler", "popular");
             correctionAdd("poppular", "popular");
             correctionAdd("Poppler", "popular");
+            correctionAdd("populer", "popular");
 
             correctionAdd("waht", "what");
             correctionAdd("Waht", "what");
@@ -20339,6 +20349,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cherry max brown", "Cherry MX Brown");
             correctionAdd("Cherry Brown", "Cherry MX Brown");
+            correctionAdd("MX Brown", "Cherry MX Brown");
 
             correctionAdd("Mx blue", "Cherry MX Blue");
             correctionAdd("mx blue", "Cherry MX Blue");
@@ -22842,6 +22853,7 @@ namespace OverflowHelper.core
             correctionAdd("navy seal", "Navy SEAL");
 
             correctionAdd("modifed", "modified");
+            correctionAdd("modifired", "modified");
 
             correctionAdd("sayed", "said");
 
@@ -23306,6 +23318,7 @@ namespace OverflowHelper.core
             correctionAdd("pong", "Pong");
 
             correctionAdd("qunit", "QUnit");
+            correctionAdd("Qunit", "QUnit");
 
             correctionAdd("SOS", "SOS (Son of Strike)");
 
@@ -23339,6 +23352,39 @@ namespace OverflowHelper.core
             correctionAdd("time line", "timeline");
 
             correctionAdd("apon", "upon");
+
+            correctionAdd("accdient", "accident");
+
+            correctionAdd("blog post", "blogpost");
+
+            correctionAdd("Integration Test", "integration testing");
+            correctionAdd("Integration Testing", "integration testing");
+
+            correctionAdd("GPL v2", "GPLv2");
+            correctionAdd("gplv2", "GPLv2");
+            correctionAdd("gpl v2", "GPLv2");
+
+            correctionAdd("GPL v3", "GPLv3");
+            correctionAdd("gplv3", "GPLv3");
+
+            correctionAdd("minesweeper", "Minesweeper");
+            correctionAdd("mindsweeper", "Minesweeper");
+
+            correctionAdd("classmethod", "class method");
+
+            correctionAdd("Diff", "diff");
+
+            correctionAdd("on the way", "in the way");
+
+            correctionAdd("outocome", "outcome");
+
+            correctionAdd("principially", "principally");
+
+            correctionAdd("syntax sugar", "syntactic sugar");
+
+            correctionAdd("trys", "tries");
+
+            correctionAdd("unpleassant", "unpleasant");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36193,6 +36239,34 @@ namespace OverflowHelper.core
             URL_Add("timeline", "https://en.wiktionary.org/wiki/timeline#Noun");
 
             URL_Add("upon", "https://en.wiktionary.org/wiki/upon#Preposition");
+
+            URL_Add("accident", "https://en.wiktionary.org/wiki/accident#Noun");
+
+            URL_Add("blogpost", "https://en.wiktionary.org/wiki/blogpost#Noun");
+
+            URL_Add("integration testing", "https://en.wikipedia.org/wiki/Integration_testing");
+
+            URL_Add("GPLv2", "https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_2");
+
+            URL_Add("GPLv3", "https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3");
+
+            URL_Add("Minesweeper", "https://en.wikipedia.org/wiki/Minesweeper_(video_game)");
+
+            URL_Add("class method", "https://en.wikipedia.org/wiki/Method_(computer_programming)#Class_methods");
+
+            URL_Add("diff", "https://en.wikipedia.org/wiki/Diff");
+
+            URL_Add("in the way", "https://en.wiktionary.org/wiki/in_the_way#Prepositional_phrase");
+
+            URL_Add("outcome", "https://en.wiktionary.org/wiki/outcome#Noun");
+
+            URL_Add("principally", "https://en.wiktionary.org/wiki/principally#Adverb");
+
+            URL_Add("syntactic sugar", "https://en.wikipedia.org/wiki/Syntactic_sugar");
+
+            URL_Add("tries", "https://en.wiktionary.org/wiki/try#Noun");
+
+            URL_Add("unpleasant", "https://en.wiktionary.org/wiki/unpleasant#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
