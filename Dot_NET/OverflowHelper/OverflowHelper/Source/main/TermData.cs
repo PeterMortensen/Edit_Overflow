@@ -16498,6 +16498,8 @@ namespace OverflowHelper.core
 
             correctionAdd("fide", "FIDE");
             correctionAdd("Fide", "FIDE");
+
+            correctionAdd("MVL", "Maxime Vachier-Lagrave");
             //
             // End of chess part
 
@@ -22882,6 +22884,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Asperger's", "Asperger syndrome");
             correctionAdd("asperger", "Asperger syndrome");
+            correctionAdd("aspergers", "Asperger syndrome");
+            correctionAdd("Aspergers", "Asperger syndrome");
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
@@ -23385,6 +23389,33 @@ namespace OverflowHelper.core
             correctionAdd("trys", "tries");
 
             correctionAdd("unpleassant", "unpleasant");
+
+            correctionAdd("C128", "Commodore 128");
+
+            correctionAdd("siri", "Siri");
+
+            correctionAdd("TheC64", "THEC64");
+
+            correctionAdd("Vice", "VICE");
+
+            correctionAdd("dumn", "dumb");
+            correctionAdd("dum", "dumb");
+            correctionAdd("dumm", "dumb");
+
+            correctionAdd("floppy drive", "floppy disk drive");
+            correctionAdd("Floppy drive", "floppy disk drive");
+
+            correctionAdd("frontrunner", "front runner");
+
+            correctionAdd("pulldown", "pull-down resistor");
+
+            correctionAdd("purschase", "purchase");
+            correctionAdd("Pursache", "purchase");
+            correctionAdd("pursache", "purchase");
+            correctionAdd("purscahe", "purchase");
+            correctionAdd("purscase", "purchase");
+
+            correctionAdd("re-establish", "reestablish");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36267,6 +36298,28 @@ namespace OverflowHelper.core
             URL_Add("tries", "https://en.wiktionary.org/wiki/try#Noun");
 
             URL_Add("unpleasant", "https://en.wiktionary.org/wiki/unpleasant#Adjective");
+
+            URL_Add("Commodore 128", "https://en.wikipedia.org/wiki/Commodore_128");
+
+            URL_Add("Siri", "https://en.wikipedia.org/wiki/Siri");
+
+            URL_Add("THEC64", "https://en.wikipedia.org/wiki/Commodore_64#THEC64_and_THEC64_Mini");
+
+            URL_Add("VICE", "https://en.wikipedia.org/wiki/VICE");
+
+            URL_Add("dumb", "https://en.wiktionary.org/wiki/dumb#Adjective");
+
+            URL_Add("floppy disk drive", "https://en.wikipedia.org/wiki/Floppy_disk");
+
+            URL_Add("front runner", "https://en.wiktionary.org/wiki/front_runner#Noun");
+
+            URL_Add("pull-down resistor", "https://en.wikipedia.org/wiki/Pull-up_resistor");
+
+            URL_Add("purchase", "https://en.wiktionary.org/wiki/purchase#Verb");
+
+            URL_Add("reestablish", "https://en.wiktionary.org/wiki/reestablish#Verb");
+
+            URL_Add("Maxime Vachier-Lagrave", "https://en.wikipedia.org/wiki/Maxime_Vachier-Lagrave");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
