@@ -3085,6 +3085,8 @@ namespace OverflowHelper.core
             correctionAdd("afaik", "as far as I know");
             correctionAdd("Afaik", "as far as I know");
             correctionAdd("AFAIK", "as far as I know");
+            correctionAdd("IFAIK", "as far as I know");
+            correctionAdd("ifaik", "as far as I know");
 
             correctionAdd("dao", "DAO");
             correctionAdd("Dao", "DAO");
@@ -4790,7 +4792,7 @@ namespace OverflowHelper.core
             correctionAdd("virtual pc", "Virtual&nbsp;PC");
             correctionAdd("virtualPC", "Virtual&nbsp;PC");
             correctionAdd("Windows Virtual PC", "Virtual&nbsp;PC");
-            //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...            
+            //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
 
             correctionAdd("Nant", "NAnt");
             correctionAdd("nant", "NAnt");
@@ -4827,6 +4829,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crypto", "cryptography");
             correctionAdd("crypt", "cryptography");
+            correctionAdd("Cryptography", "cryptography");
 
             correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
             correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
@@ -7651,6 +7654,7 @@ namespace OverflowHelper.core
             correctionAdd("guanrantea", "guarantee");
             correctionAdd("garunteed", "guarantee");
             correctionAdd("guatantee", "guarantee");
+            correctionAdd("guarante", "guarantee");
 
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
@@ -10005,6 +10009,7 @@ namespace OverflowHelper.core
             correctionAdd("sometime", "sometimes");
             correctionAdd("Some times", "sometimes");
             correctionAdd("Sometimes", "sometimes");
+            correctionAdd("someties", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -10861,6 +10866,7 @@ namespace OverflowHelper.core
             correctionAdd("initalise", "initialise");
             correctionAdd("initailze", "initialise");
             correctionAdd("initialze", "initialise");
+            correctionAdd("inialize", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -11395,6 +11401,7 @@ namespace OverflowHelper.core
             correctionAdd("soln", "solution");
             correctionAdd("Soultion", "solution");
             correctionAdd("soulution", "solution");
+            correctionAdd("soltution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -11922,6 +11929,7 @@ namespace OverflowHelper.core
             correctionAdd("additonally", "additionally");
 
             correctionAdd("bare bones", "bare-bones");
+            correctionAdd("barebones", "bare-bones");
 
             correctionAdd("amperage", "current");
             correctionAdd("ampacity", "current");
@@ -12686,6 +12694,7 @@ namespace OverflowHelper.core
             correctionAdd("trump", "Trump");
             correctionAdd("DJT", "Trump");
             correctionAdd("Chumpolio", "Trump");
+            correctionAdd("Trumpolini", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -14675,6 +14684,8 @@ namespace OverflowHelper.core
             correctionAdd("case-insensitive", "case insensitive");
 
             correctionAdd("congrats", "congratulations");
+            correctionAdd("Congrats", "congratulations");
+            correctionAdd("Cograts", "congratulations");
 
             correctionAdd("questionmark", "question mark");
 
@@ -14915,6 +14926,13 @@ namespace OverflowHelper.core
             correctionAdd("in layman's language", "in layman's terms");
             correctionAdd("in laymans terms", "in layman's terms");
             correctionAdd("laymans terms", "in layman's terms");
+            correctionAdd("laymen terms", "in layman's terms");
+            correctionAdd("layman terms", "in layman's terms");
+            correctionAdd("layman's terms", "in layman's terms");
+            correctionAdd("layman's term", "in layman's terms");
+            correctionAdd("in laymen terms", "in layman's terms");
+            correctionAdd("in layman terms", "in layman's terms");
+            correctionAdd("in layman's term", "in layman's terms");
 
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
@@ -14972,6 +14990,7 @@ namespace OverflowHelper.core
             correctionAdd("val", "value");
             correctionAdd("vaue", "value");
             correctionAdd("vaule", "value");
+            correctionAdd("vlaue", "value");
 
             correctionAdd("view point", "viewpoint");
 
@@ -15640,6 +15659,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eBook", "e-book");
             correctionAdd("e book", "e-book");
+            correctionAdd("ebook", "e-book");
 
             correctionAdd("enthousiastic", "enthusiastic");
             correctionAdd("enthousiast", "enthusiastic");
@@ -18620,6 +18640,7 @@ namespace OverflowHelper.core
             correctionAdd("agregated", "aggregated");
 
             correctionAdd("artifitial", "artificial");
+            correctionAdd("artifical", "artificial");
 
             correctionAdd("acpect", "aspect");
 
@@ -18821,6 +18842,7 @@ namespace OverflowHelper.core
             correctionAdd("charasteristic", "characteristic");
 
             correctionAdd("complie", "compile");
+            correctionAdd("complile", "compile");
 
             correctionAdd("detialed", "detailed");
 
@@ -19383,6 +19405,7 @@ namespace OverflowHelper.core
             correctionAdd("multiplicty", "multiplicity");
 
             correctionAdd("null-pointer", "null pointer");
+            correctionAdd("nullpointer", "null pointer");
 
             correctionAdd("perhapse", "perhaps");
 
@@ -19459,6 +19482,7 @@ namespace OverflowHelper.core
             correctionAdd("Excalamation mark", "exclamation mark");
 
             correctionAdd("practise", "practice");
+            correctionAdd("practive", "practice");
 
             correctionAdd("quater", "quarter");
 
@@ -22138,6 +22162,7 @@ namespace OverflowHelper.core
             correctionAdd("pythonista", "Pythonista");
 
             correctionAdd("richard feynman", "Richard Feynman");
+            correctionAdd("faynman", "Richard Feynman");
 
             correctionAdd("socvr", "SOCVR");
 
@@ -23461,6 +23486,31 @@ namespace OverflowHelper.core
             correctionAdd("stud", "stood");
 
             correctionAdd("stuggle", "struggle");
+
+            correctionAdd("Shanghi", "Shanghai");
+
+            correctionAdd("uid", "UID");
+
+            correctionAdd("non initialised", "noninitialized");
+            correctionAdd("Non initialized", "noninitialized");
+            correctionAdd("non initialized", "noninitialized");
+            correctionAdd("non-initialized", "noninitialized");
+            correctionAdd("non-initialised", "noninitialized");
+            correctionAdd("Non initialised", "noninitialized");
+
+            correctionAdd("racecondition", "race condition");
+
+            correctionAdd("rational", "rationale");
+
+            correctionAdd("Re-authenticate", "reauthenticate");
+            correctionAdd("re-authenticate", "reauthenticate");
+
+            correctionAdd("relay", "rely");
+
+            correctionAdd("re-trigger", "retrigger");
+
+            correctionAdd("uninitialized", "uninitialised");
+            correctionAdd("un-initialized", "uninitialised");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36387,6 +36437,24 @@ namespace OverflowHelper.core
             URL_Add("stood", "https://en.wiktionary.org/wiki/stand#Verb");
 
             URL_Add("struggle", "https://en.wiktionary.org/wiki/struggle#Verb");
+
+            URL_Add("Shanghai", "https://en.wikipedia.org/wiki/Shanghai");
+
+            URL_Add("UID", "https://en.wikipedia.org/wiki/User_identifier");
+
+            URL_Add("noninitialized", "https://en.wiktionary.org/wiki/noninitialized");
+
+            URL_Add("race condition", "https://en.wikipedia.org/wiki/Race_condition");
+
+            URL_Add("rationale", "https://en.wiktionary.org/wiki/rationale#Noun");
+
+            URL_Add("reauthenticate", "https://en.wiktionary.org/wiki/reauthenticate#Verb");
+
+            URL_Add("rely", "https://en.wiktionary.org/wiki/rely#Verb");
+
+            URL_Add("retrigger", "https://en.wiktionary.org/wiki/retrigger#Verb");
+
+            URL_Add("uninitialised", "https://en.wiktionary.org/wiki/uninitialised#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
