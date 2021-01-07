@@ -2494,6 +2494,7 @@ namespace OverflowHelper.core
             correctionAdd("RegularExpression", "regular expression");
             correctionAdd("regular express", "regular expression");
             correctionAdd("regex expression", "regular expression");
+            correctionAdd("RegEXP", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -2686,6 +2687,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
             correctionAdd("virtualENV", "virtualenv");
+            correctionAdd("virt env", "virtualenv");
 
             correctionAdd("r", "R"); // Not actually observed.
 
@@ -4787,7 +4789,8 @@ namespace OverflowHelper.core
             correctionAdd("Virtual PC", "Virtual&nbsp;PC");
             correctionAdd("virtual pc", "Virtual&nbsp;PC");
             correctionAdd("virtualPC", "Virtual&nbsp;PC");
-            //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
+            correctionAdd("Windows Virtual PC", "Virtual&nbsp;PC");
+            //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...            
 
             correctionAdd("Nant", "NAnt");
             correctionAdd("nant", "NAnt");
@@ -10255,6 +10258,7 @@ namespace OverflowHelper.core
 
             correctionAdd("anaconda", "Anaconda");
             correctionAdd("anonconda", "Anaconda");
+            correctionAdd("Annaconda", "Anaconda");
 
             correctionAdd("conda", "Conda");
             correctionAdd("Condo", "Conda");
@@ -10855,6 +10859,8 @@ namespace OverflowHelper.core
             correctionAdd("init", "initialise");
             correctionAdd("initilize", "initialise");
             correctionAdd("initalise", "initialise");
+            correctionAdd("initailze", "initialise");
+            correctionAdd("initialze", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -10952,6 +10958,7 @@ namespace OverflowHelper.core
 
             correctionAdd("helpfull", "helpful");
             correctionAdd("help full", "helpful");
+            correctionAdd("helful", "helpful");
 
             correctionAdd("intermeidate", "intermediate");
 
@@ -11848,6 +11855,7 @@ namespace OverflowHelper.core
             correctionAdd("so called", "so-called");
 
             correctionAdd("Software Engineer", "software engineer");
+            correctionAdd("SWE", "software engineer");
 
             correctionAdd("Swarm Intelligence", "swarm intelligence");
 
@@ -12635,6 +12643,7 @@ namespace OverflowHelper.core
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
             correctionAdd("WHouse", "White House");
+            correctionAdd("WhiteHouse", "White House");
 
             correctionAdd("comminicating", "communicating");
 
@@ -12676,6 +12685,7 @@ namespace OverflowHelper.core
 
             correctionAdd("trump", "Trump");
             correctionAdd("DJT", "Trump");
+            correctionAdd("Chumpolio", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -13051,6 +13061,8 @@ namespace OverflowHelper.core
             correctionAdd("hello World", "Hello, World!");
             correctionAdd("hello-world", "Hello, World!");
             correctionAdd("Hi Hi World", "Hello, World!");
+            correctionAdd("hello, WORLD", "Hello, World!");
+            correctionAdd("hello WORLD", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -14794,6 +14806,8 @@ namespace OverflowHelper.core
             correctionAdd("1D", "one-dimensional");
             correctionAdd("1-D", "one-dimensional");
             correctionAdd("single dimension", "one-dimensional");
+            correctionAdd("1d", "one-dimensional");
+            correctionAdd("one dimensional", "one-dimensional");
 
             correctionAdd("overrideable", "overridable");
 
@@ -15302,9 +15316,6 @@ namespace OverflowHelper.core
             correctionAdd("Implemeted", "implemented");
             correctionAdd("implemeted", "implemented");
 
-            correctionAdd("none working", "nonworking");
-            correctionAdd("non-working", "nonworking");
-
             correctionAdd("obteined", "obtained");
 
             correctionAdd("offputting", "off-putting");
@@ -15331,9 +15342,14 @@ namespace OverflowHelper.core
 
             correctionAdd("unterinated", "unterminated");
 
+            correctionAdd("none working", "nonworking");
+            correctionAdd("non-working", "nonworking");
+
             correctionAdd("woking", "working");
             correctionAdd("workring", "working");
             correctionAdd("woring", "working");
+            correctionAdd("work'in", "working");
+            correctionAdd("workin", "working");
 
             correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
             correctionAdd("Angular2", "Angular&nbsp;2");
@@ -16084,6 +16100,7 @@ namespace OverflowHelper.core
             correctionAdd("universially", "universally");
 
             correctionAdd("uni", "university");
+            correctionAdd("University", "university");
 
             correctionAdd("useability", "usability");
 
@@ -22461,6 +22478,8 @@ namespace OverflowHelper.core
 
             correctionAdd("anyother", "another");
             correctionAdd("enother", "another");
+            correctionAdd("Anotehr", "another");
+            correctionAdd("anotehr", "another");
 
             correctionAdd("a/o", "and other");
 
@@ -23416,6 +23435,32 @@ namespace OverflowHelper.core
             correctionAdd("purscase", "purchase");
 
             correctionAdd("re-establish", "reestablish");
+
+            correctionAdd("arctic", "Arctic");
+            correctionAdd("Artic", "Arctic");
+            correctionAdd("artic", "Arctic");
+
+            correctionAdd("joshua bloch", "Joshua Bloch");
+
+            correctionAdd("Micheal Jackson", "Michael Jackson");
+
+            correctionAdd("UTF32", "UTF-32");
+
+            correctionAdd("contineing", "continuing");
+            correctionAdd("continueing", "continuing");
+
+            correctionAdd("Easy peasy", "easy peasy");
+
+            correctionAdd("make over", "makeover");
+
+            correctionAdd("middleground", "middle ground");
+
+            correctionAdd("seriliasble", "serialisable");
+            correctionAdd("seriliazble", "serialisable");
+
+            correctionAdd("stud", "stood");
+
+            correctionAdd("stuggle", "struggle");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36320,6 +36365,28 @@ namespace OverflowHelper.core
             URL_Add("reestablish", "https://en.wiktionary.org/wiki/reestablish#Verb");
 
             URL_Add("Maxime Vachier-Lagrave", "https://en.wikipedia.org/wiki/Maxime_Vachier-Lagrave");
+
+            URL_Add("Arctic", "https://en.wiktionary.org/wiki/Arctic#Adjective");
+
+            URL_Add("Joshua Bloch", "https://en.wikipedia.org/wiki/Joshua_Bloch");
+
+            URL_Add("Michael Jackson", "https://en.wikipedia.org/wiki/Michael_Jackson");
+
+            URL_Add("UTF-32", "https://en.wikipedia.org/wiki/UTF-32");
+
+            URL_Add("continuing", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("easy peasy", "https://en.wiktionary.org/wiki/easy_peasy#Adjective");
+
+            URL_Add("makeover", "https://en.wiktionary.org/wiki/makeover#Noun");
+
+            URL_Add("middle ground", "https://en.wiktionary.org/wiki/middle_ground#Noun");
+
+            URL_Add("serialisable", "https://en.wiktionary.org/wiki/serialisable#Adjective");
+
+            URL_Add("stood", "https://en.wiktionary.org/wiki/stand#Verb");
+
+            URL_Add("struggle", "https://en.wiktionary.org/wiki/struggle#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
