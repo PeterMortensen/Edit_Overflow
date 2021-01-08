@@ -26,6 +26,9 @@
         <?php
             the_EditOverflowHeadline("Fixed Strings");
         ?>
+        
+        <p><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML"
+        >Character entity references in HTML</a></p>
 
 
         <form
@@ -106,7 +109,7 @@
                />
             </p>
 
-            <p>Arrow (<u>H</u>MTL):
+            <p>Arrow - &rarr; (<u>H</u>MTL):
 
                <input
                    name="Arrow - HMTL"
@@ -221,6 +224,20 @@
                    style="width:30px;"
                    accesskey="L"
                    title="Shortcut: Shift + Alt + L"
+               />
+            </p>
+
+            <p><a href="https://en.wikipedia.org/wiki/Interpunct">Middle dot</a> - &middot; (Unicode code point 00B7):
+
+               <input
+                   name="middot"
+                   type="text"
+                   id="middot_Unicode"
+                   class="XYZ40"
+                   value="&amp;middot;"
+                   style="width:60px;"
+                   accesskey="X"
+                   title="Shortcut: Shift + Alt + X"
                />
             </p>
 
