@@ -2003,7 +2003,7 @@ namespace OverflowHelper.core
             correctionAdd("CrystalReports", "Crystal Reports");
             correctionAdd("CRYSTEL REPORTs", "Crystal Reports");
             correctionAdd("Crystal reports", "Crystal Reports");
-            correctionAdd("CR", "Crystal Reports"); // Possible collision with Carriage Return.
+            correctionAdd("CR", "Crystal Reports"); // Possible collision with carriage return (CR).
             correctionAdd("Crystal", "Crystal Reports");
             correctionAdd("crytal report", "Crystal Reports");
 
@@ -5238,6 +5238,8 @@ namespace OverflowHelper.core
             correctionAdd("experts-exchange", "Experts-Exchange");
             correctionAdd("hyphen site", "Experts-Exchange");
             correctionAdd("the hyphen site", "Experts-Exchange");
+            correctionAdd("Expert Sexchange", "Experts-Exchange");
+            correctionAdd("Expertsexchange", "Experts-Exchange");
 
             correctionAdd("asus", "Asus");
             correctionAdd("ASUS", "Asus");
@@ -5565,6 +5567,7 @@ namespace OverflowHelper.core
             correctionAdd("Neural Network", "artificial neural network");
             correctionAdd("neural network", "artificial neural network");
             correctionAdd("Artificial neural network", "artificial neural network");
+            correctionAdd("Neural network", "artificial neural network");
 
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
@@ -9817,6 +9820,8 @@ namespace OverflowHelper.core
             correctionAdd("for exp", "for example");
             correctionAdd("For Exam", "for example");
             correctionAdd("expample", "for example");
+            correctionAdd("Fore example", "for example");
+            correctionAdd("fore example", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -10500,6 +10505,7 @@ namespace OverflowHelper.core
             correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("AU", "Ask&nbsp;Ubuntu");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -10637,6 +10643,7 @@ namespace OverflowHelper.core
             correctionAdd("answere", "answer");
             correctionAdd("ansver", "answer");
             correctionAdd("anser", "answer");
+            correctionAdd("ansew", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -11778,6 +11785,7 @@ namespace OverflowHelper.core
             correctionAdd("Fianaly", "finally");
             correctionAdd("fianaly", "finally");
             correctionAdd("fianally", "finally");
+            correctionAdd("Finnaly", "finally");
 
             correctionAdd("Hydrogen", "hydrogen");
 
@@ -11854,6 +11862,7 @@ namespace OverflowHelper.core
             correctionAdd("block chain", "blockchain");
 
             correctionAdd("commited", "committed");
+            correctionAdd("comitted", "committed");
 
             correctionAdd("no-op", "no operation");
 
@@ -12434,6 +12443,7 @@ namespace OverflowHelper.core
             correctionAdd("deparment", "department");
 
             correctionAdd("en counter", "encounter");
+            correctionAdd("encouter", "encounter");
 
             correctionAdd("excatly", "exactly");
             correctionAdd("EXACLTY", "exactly");
@@ -13327,6 +13337,7 @@ namespace OverflowHelper.core
 
             correctionAdd("acct", "account");
             correctionAdd("acount", "account");
+            correctionAdd("accound", "account");
 
             correctionAdd("contributer", "contributor");
 
@@ -17364,6 +17375,7 @@ namespace OverflowHelper.core
 
             correctionAdd("commment", "comment");
             correctionAdd("commet", "comment");
+            correctionAdd("Commet", "comment");
 
             correctionAdd("discurage", "discourage");
 
@@ -22965,6 +22977,7 @@ namespace OverflowHelper.core
             correctionAdd("burocratic", "bureaucratic");
             correctionAdd("buroucratic", "bureaucratic");
             correctionAdd("bouroucratic", "bureaucratic");
+            correctionAdd("beareaucratic", "bureaucratic");
 
             correctionAdd("DX", "developer experience");
 
@@ -23511,6 +23524,26 @@ namespace OverflowHelper.core
 
             correctionAdd("uninitialized", "uninitialised");
             correctionAdd("un-initialized", "uninitialised");
+
+            correctionAdd("Shirky", "Clay Shirky");
+
+            correctionAdd("ld", "GNU linker");
+
+            correctionAdd("lf", "LF");
+
+            correctionAdd("casted", "cast");
+
+            correctionAdd("gethering", "gathering");
+
+            correctionAdd("probabilites", "probabilities");
+
+            correctionAdd("re-implementation", "reimplementation");
+
+            correctionAdd("take into accound", "take into account");
+
+            correctionAdd("tireing", "tiring");
+            correctionAdd("tiering", "tiring");
+            correctionAdd("tyering", "tiring");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36455,6 +36488,24 @@ namespace OverflowHelper.core
             URL_Add("retrigger", "https://en.wiktionary.org/wiki/retrigger#Verb");
 
             URL_Add("uninitialised", "https://en.wiktionary.org/wiki/uninitialised#Adjective");
+
+            URL_Add("Clay Shirky", "https://en.wikipedia.org/wiki/Clay_Shirky");
+
+            URL_Add("GNU linker", "https://en.wikipedia.org/wiki/Linker_%28computing%29#GNU_linker");
+
+            URL_Add("LF", "https://en.wikipedia.org/wiki/Newline#Representation");
+
+            URL_Add("cast", "https://en.wiktionary.org/wiki/cast#Verb");
+
+            URL_Add("gathering", "https://en.wiktionary.org/wiki/gathering#Noun");
+
+            URL_Add("probabilities", "https://en.wiktionary.org/wiki/probability#Noun");
+
+            URL_Add("reimplementation", "https://en.wiktionary.org/wiki/reimplementation");
+
+            URL_Add("take into account", "https://en.wiktionary.org/wiki/take_into_account#Verb");
+
+            URL_Add("tiring", "https://en.wiktionary.org/wiki/tiring#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
