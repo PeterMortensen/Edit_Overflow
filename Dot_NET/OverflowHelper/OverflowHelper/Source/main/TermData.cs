@@ -2075,6 +2075,7 @@ namespace OverflowHelper.core
             correctionAdd("notepad", "Notepad");
             correctionAdd("NotePad", "Notepad");
             correctionAdd("Note Pad", "Notepad");
+            correctionAdd("note pad", "Notepad");
 
             correctionAdd("wordpad", "WordPad");
             correctionAdd("Wordpad", "WordPad");
@@ -8417,6 +8418,7 @@ namespace OverflowHelper.core
             correctionAdd("gigs", "&nbsp;GB");
             correctionAdd("gig", "&nbsp;GB");
             correctionAdd("Gig", "&nbsp;GB");
+            correctionAdd("Gb", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
@@ -10855,6 +10857,8 @@ namespace OverflowHelper.core
             correctionAdd("alternativey", "alternatively");
 
             correctionAdd("aparent", "apparent");
+            correctionAdd("aparrent", "apparent");
+            correctionAdd("apparrent", "apparent");
 
             correctionAdd("beeing", "being");
 
@@ -14654,9 +14658,6 @@ namespace OverflowHelper.core
 
             correctionAdd("idiosyncracies", "idiosyncrasies");
 
-            correctionAdd("lstm", "long short-term memory");
-            correctionAdd("LSTM", "long short-term memory");
-
             correctionAdd("NLP", "natural language processing");
             correctionAdd("nlp", "natural language processing");
 
@@ -14834,7 +14835,11 @@ namespace OverflowHelper.core
             correctionAdd("mark-up", "markup");
             correctionAdd("mark up", "markup");
 
+            correctionAdd("lstm", "long short-term memory");
+            correctionAdd("LSTM", "long short-term memory");
+
             correctionAdd("memmory", "memory");
+            correctionAdd("Memory", "memory");
 
             correctionAdd("misc", "miscellaneous");
             correctionAdd("miscelaneous", "miscellaneous");
@@ -23638,6 +23643,21 @@ namespace OverflowHelper.core
             correctionAdd("micro second", "μs");
             correctionAdd("μsec", "μs");
             correctionAdd("μ sec", "μs");
+
+            correctionAdd("fediverse", "Fediverse");
+
+            correctionAdd("keras", "Keras");
+
+            correctionAdd("nextcloud", "Nextcloud");
+
+            correctionAdd("parler", "Parler");
+
+            correctionAdd("tpu", "TPU");
+
+            correctionAdd("shoutout", "shout out");
+            correctionAdd("s/o", "shout out");
+
+            correctionAdd("tentaive", "tentative");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36649,6 +36669,20 @@ namespace OverflowHelper.core
             URL_Add("witness", "https://en.wiktionary.org/wiki/witness#Noun");
 
             URL_Add("μs", "https://en.wiktionary.org/wiki/microsecond#Noun");
+
+            URL_Add("Fediverse", "https://en.wikipedia.org/wiki/Fediverse");
+
+            URL_Add("Keras", "https://en.wikipedia.org/wiki/Keras");
+
+            URL_Add("Nextcloud", "https://en.wikipedia.org/wiki/Nextcloud");
+
+            URL_Add("Parler", "https://en.wikipedia.org/wiki/Parler");
+
+            URL_Add("TPU", "https://en.wikipedia.org/wiki/Tensor_Processing_Unit");
+
+            URL_Add("shout out", "https://en.wiktionary.org/wiki/shout_out#Noun");
+
+            URL_Add("tentative", "https://en.wiktionary.org/wiki/tentative#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
