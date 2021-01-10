@@ -2653,6 +2653,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL Server Management Tools", "SQL Server Management Studio");
             correctionAdd("managment studio", "SQL Server Management Studio");
             correctionAdd("SQL server management studio", "SQL Server Management Studio");
+            correctionAdd("SMSS", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -3379,6 +3380,7 @@ namespace OverflowHelper.core
             correctionAdd("Winapi", "Win32");
             correctionAdd("win API", "Win32");
             correctionAdd("win api", "Win32");
+            correctionAdd("win32api", "Win32");
 
             correctionAdd("openssl", "OpenSSL");
             correctionAdd("Openssl", "OpenSSL");
@@ -7787,6 +7789,8 @@ namespace OverflowHelper.core
             correctionAdd("codeacademy", "Codecademy");
             correctionAdd("codeaccademy", "Codecademy");
             correctionAdd("CodeAcedamy", "Codecademy");
+            correctionAdd("Codeacademy", "Codecademy");
+            correctionAdd("Codeacademy.com", "Codecademy");
 
             correctionAdd("QBASIC", "QBasic");
             correctionAdd("Qbasic", "QBasic");
@@ -8836,6 +8840,7 @@ namespace OverflowHelper.core
             correctionAdd("dint", "didn’t");
             correctionAdd("didn't", "didn’t"); // Quora...
             correctionAdd("din’t", "didn’t");
+            correctionAdd("did`nt", "didn’t");
 
             correctionAdd("thats", "that's");
             correctionAdd("Thats", "that's"); // Not 100% correct (case)
@@ -10001,6 +10006,7 @@ namespace OverflowHelper.core
             correctionAdd("apperently", "apparently");
             correctionAdd("aparently", "apparently");
             correctionAdd("apparantly", "apparently");
+            correctionAdd("apparantely", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -11064,6 +11070,7 @@ namespace OverflowHelper.core
             correctionAdd("intead", "instead");
             correctionAdd("in stead", "instead");
             correctionAdd("instad", "instead");
+            correctionAdd("Intead", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -11351,6 +11358,8 @@ namespace OverflowHelper.core
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
             correctionAdd("serval", "several");
+            correctionAdd("svereral", "several");
+            correctionAdd("sevreral", "several");
 
             correctionAdd("Socialism", "socialism");
 
@@ -11683,6 +11692,8 @@ namespace OverflowHelper.core
             correctionAdd("milisecond", "millisecond");
             correctionAdd("millisec", "millisecond");
             correctionAdd("mS", "millisecond");
+            correctionAdd("mili second", "millisecond");
+            correctionAdd("milli second", "millisecond");
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
@@ -12087,6 +12098,8 @@ namespace OverflowHelper.core
             correctionAdd("diffrence", "difference");
             correctionAdd("diference", "difference");
             correctionAdd("Difference", "difference");
+            correctionAdd("diffrance", "difference");
+            correctionAdd("differance", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -12736,9 +12749,6 @@ namespace OverflowHelper.core
             correctionAdd("Midevil", "medieval");
             correctionAdd("medieva", "medieval");
 
-            correctionAdd("misspelled", "misspelt");
-            correctionAdd("mispelled", "misspelt");
-
             correctionAdd("prefrence", "preference");
             correctionAdd("Prefences", "preference");
 
@@ -13264,6 +13274,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crach", "crash");
             correctionAdd("chrash", "crash");
+            correctionAdd("cras", "crash");
 
             correctionAdd("day to day", "day-to-day");
 
@@ -13478,6 +13489,9 @@ namespace OverflowHelper.core
             correctionAdd("Boeing Max", "Boeing 737 MAX");
             correctionAdd("Boing Max", "Boeing 737 MAX");
             correctionAdd("boing max", "Boeing 737 MAX");
+            correctionAdd("737 Maxx", "Boeing 737 MAX");
+            correctionAdd("737-MAX", "Boeing 737 MAX");
+            correctionAdd("737 max", "Boeing 737 MAX");
 
             correctionAdd("Code Lens", "CodeLens");
             correctionAdd("Codelens", "CodeLens");
@@ -14132,6 +14146,8 @@ namespace OverflowHelper.core
             correctionAdd("W3School", "W3Schools");
             correctionAdd("w3school", "W3Schools");
             correctionAdd("W3SCHOOLS", "W3Schools");
+            correctionAdd("W3Schools.com", "W3Schools");
+            correctionAdd("W3schools.com", "W3Schools");
 
             correctionAdd("High School", "high school");
             correctionAdd("HS", "high school");
@@ -16379,6 +16395,8 @@ namespace OverflowHelper.core
 
             correctionAdd("morphy", "Paul Morphy"); // Chess
             correctionAdd("mophy", "Paul Morphy"); // Chess
+            correctionAdd("paul charles morphy", "Paul Morphy");
+            correctionAdd("Paul Charles Morphy", "Paul Morphy");
 
             correctionAdd("four knights", "Four Knights Game"); // Chess
 
@@ -16548,6 +16566,8 @@ namespace OverflowHelper.core
             correctionAdd("Fide", "FIDE");
 
             correctionAdd("MVL", "Maxime Vachier-Lagrave");
+
+            correctionAdd("botnivik", "Mikhail Botvinnik");
             //
             // End of chess part
 
@@ -17447,6 +17467,8 @@ namespace OverflowHelper.core
             correctionAdd("thread-safe", "threadsafe");
 
             correctionAdd("diy", "DIY");
+            correctionAdd("DYI", "DIY");
+            correctionAdd("dyi", "DIY");
 
             correctionAdd("LEGO", "Lego");
             correctionAdd("lego", "Lego");
@@ -19104,6 +19126,9 @@ namespace OverflowHelper.core
             correctionAdd("khan cademy", "Khan Academy");
             correctionAdd("Khan cademy", "Khan Academy");
             correctionAdd("Khancademy", "Khan Academy");
+            correctionAdd("khanacademy", "Khan Academy");
+            correctionAdd("khanacademy.com", "Khan Academy");
+            correctionAdd("Khanacademy.com", "Khan Academy");
 
             correctionAdd("newtonian", "Newtonian");
 
@@ -19397,6 +19422,8 @@ namespace OverflowHelper.core
             correctionAdd("Free Code Camp", "freeCodeCamp");
             correctionAdd("Freecode camp", "freeCodeCamp");
             correctionAdd("freecodecamp", "freeCodeCamp");
+            correctionAdd("Freecodecamp.com", "freeCodeCamp");
+            correctionAdd("Freecodecamp.org", "freeCodeCamp");
 
             correctionAdd("getgo", "get-go");
             correctionAdd("get go", "get-go");
@@ -20513,6 +20540,8 @@ namespace OverflowHelper.core
             correctionAdd("moodle", "Moodle");
 
             correctionAdd("indonesia", "Indonesia");
+            correctionAdd("indunesia", "Indonesia");
+            correctionAdd("Indunesia", "Indonesia");
 
             correctionAdd("nasm", "NASM");
 
@@ -20535,6 +20564,7 @@ namespace OverflowHelper.core
             correctionAdd("eate", "rate");
 
             correctionAdd("vest", "vast");
+            correctionAdd("wast", "vast");
 
             correctionAdd("airbus", "Airbus");
 
@@ -23404,6 +23434,7 @@ namespace OverflowHelper.core
             correctionAdd("eventhough", "even though");
 
             correctionAdd("exacution", "execution");
+            correctionAdd("executation", "execution");
 
             correctionAdd("mater", "matter");
 
@@ -23545,6 +23576,69 @@ namespace OverflowHelper.core
             correctionAdd("tiering", "tiring");
             correctionAdd("tyering", "tiring");
 
+            correctionAdd("bbcode", "BBCode");
+
+            correctionAdd("B 737", "Boing 737");
+            correctionAdd("B737", "Boing 737");
+
+            correctionAdd("codeavengers.com", "Code Avengers");
+
+            correctionAdd("misspelled", "misspelt");
+            correctionAdd("mispelled", "misspelt");
+
+            correctionAdd("elt", "ELT");
+            correctionAdd("Elt", "ELT");
+
+            correctionAdd("edureka", "Edureka");
+
+            correctionAdd("Indonisian", "Indonesian");
+            correctionAdd("indonesian", "Indonesian");
+
+            correctionAdd("peertube", "PeerTube");
+
+            correctionAdd("teamtreehouse", "Treehouse");
+            correctionAdd("Teamtreehouse.com", "Treehouse");
+            correctionAdd("Teamtreehouse", "Treehouse");
+
+            correctionAdd("Web Server Gateway Interface", "WSGI");
+            correctionAdd("wsgi", "WSGI");
+
+            correctionAdd("wikitia", "Wikitia");
+
+            correctionAdd("Airline", "airline");
+
+            correctionAdd("bench watching", "binge watching");
+
+            correctionAdd("CURSES", "curses");
+
+            correctionAdd("desintegrate", "disintegrate");
+
+            correctionAdd("familys", "families");
+
+            correctionAdd("faital", "fatal");
+
+            correctionAdd("flactuations", "fluctuation");
+
+            correctionAdd("re-set", "reset");
+
+            correctionAdd("severre", "severe");
+
+            correctionAdd("stastisticaly", "statistically");
+            correctionAdd("Stastisticly", "statistically");
+            correctionAdd("stastisticly", "statistically");
+
+            correctionAdd("wittness", "witness");
+            correctionAdd("Wittness", "witness");
+
+            correctionAdd("microsecond", "μs");
+            correctionAdd("u sec", "μs");
+            correctionAdd("usec", "μs");
+            correctionAdd("usecond", "μs");
+            correctionAdd("u second", "μs");
+            correctionAdd("micro second", "μs");
+            correctionAdd("μsec", "μs");
+            correctionAdd("μ sec", "μs");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -23618,6 +23712,9 @@ namespace OverflowHelper.core
             correctionAdd("kuhrona", "coronavirus");
             correctionAdd("Coronovirus", "coronavirus");
             correctionAdd("coronovirus", "coronavirus");
+            correctionAdd("C-Virus", "coronavirus");
+            correctionAdd("C Virus", "coronavirus");
+            correctionAdd("C virus", "coronavirus");
 
             correctionAdd("ebola", "Ebola");
 
@@ -36506,6 +36603,52 @@ namespace OverflowHelper.core
             URL_Add("take into account", "https://en.wiktionary.org/wiki/take_into_account#Verb");
 
             URL_Add("tiring", "https://en.wiktionary.org/wiki/tiring#Adjective");
+
+            URL_Add("BBCode", "https://en.wikipedia.org/wiki/BBCode");
+
+            URL_Add("Boing 737", "https://en.wikipedia.org/wiki/Boeing_737");
+
+            URL_Add("Code Avengers", "https://www.codeavengers.com/");
+
+            URL_Add("ELT", "https://en.wikipedia.org/wiki/Emergency_position-indicating_radiobeacon_station");
+
+            URL_Add("Edureka", "https://www.edureka.co/blog/new-features-of-chropath/");
+
+            URL_Add("Indonesian", "https://en.wiktionary.org/wiki/Indonesian#Adjective");
+
+            URL_Add("Mikhail Botvinnik", "https://en.wikipedia.org/wiki/Mikhail_Botvinnik");
+
+            URL_Add("PeerTube", "https://en.wikipedia.org/wiki/PeerTube");
+
+            URL_Add("Treehouse", "https://en.wikipedia.org/wiki/Treehouse_(company)");
+
+            URL_Add("WSGI", "https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface");
+
+            URL_Add("Wikitia", "https://www.quora.com/What-is-Wikitia-and-how-is-it-different-from-Wikipedia/answer/Simran-Chaudhary-163");
+
+            URL_Add("airline", "https://en.wiktionary.org/wiki/airline#Noun");
+
+            URL_Add("binge watching", "https://en.wiktionary.org/wiki/binge_watching#Noun");
+
+            URL_Add("curses", "https://en.wikipedia.org/wiki/Curses_%28programming_library%29");
+
+            URL_Add("disintegrate", "https://en.wiktionary.org/wiki/disintegrate#Verb");
+
+            URL_Add("families", "https://en.wiktionary.org/wiki/family#Noun");
+
+            URL_Add("fatal", "https://en.wiktionary.org/wiki/fatal#Adjective");
+
+            URL_Add("fluctuation", "https://en.wiktionary.org/wiki/fluctuation#Noun");
+
+            URL_Add("reset", "https://en.wiktionary.org/wiki/reset#Verb");
+
+            URL_Add("severe", "https://en.wiktionary.org/wiki/severe#Adjective");
+
+            URL_Add("statistically", "https://en.wiktionary.org/wiki/statistically#Adverb");
+
+            URL_Add("witness", "https://en.wiktionary.org/wiki/witness#Noun");
+
+            URL_Add("μs", "https://en.wiktionary.org/wiki/microsecond#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
