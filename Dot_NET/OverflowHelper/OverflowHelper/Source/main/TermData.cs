@@ -9359,6 +9359,7 @@ namespace OverflowHelper.core
             correctionAdd("Everyting", "everything");
             correctionAdd("everyhing", "everything");
             correctionAdd("Everthing", "everything");
+            correctionAdd("everithing", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -9666,6 +9667,8 @@ namespace OverflowHelper.core
             correctionAdd("functionnal programming", "functional programming");
             correctionAdd("fp", "functional programming");
             correctionAdd("functional", "functional programming");
+            correctionAdd("Function Programming", "functional programming");
+            correctionAdd("function programming", "functional programming");
 
             correctionAdd("shud", "should");
             correctionAdd("shuold", "should");
@@ -10040,6 +10043,7 @@ namespace OverflowHelper.core
             correctionAdd("leonardo", "Arduino Leonardo");
             correctionAdd("Leanardo", "Arduino Leonardo");
             correctionAdd("Leo", "Arduino Leonardo");
+            correctionAdd("arduino leonardo", "Arduino Leonardo");
 
             // Of PowerShell...
             correctionAdd("get-service", "Get-Service");
@@ -10657,8 +10661,6 @@ namespace OverflowHelper.core
             correctionAdd("ackward", "awkward");
             correctionAdd("aukward", "awkward");
 
-            correctionAdd("before hand", "beforehand");
-
             correctionAdd("behavoir", "behaviour");
             correctionAdd("behavior", "behaviour");
 
@@ -10940,9 +10942,6 @@ namespace OverflowHelper.core
             correctionAdd("install-package", "Install-Package");
 
             correctionAdd("latin", "Latin");
-
-            correctionAdd("Measure-command", "Measure-Command");
-            correctionAdd("measure-command", "Measure-Command");
 
             correctionAdd("ros", "ROS");
 
@@ -12329,8 +12328,6 @@ namespace OverflowHelper.core
             correctionAdd("eu", "EU");
             correctionAdd("Eu", "EU");
 
-            correctionAdd("england", "England");
-
             correctionAdd("Fyi", "FYI");
             correctionAdd("fyi", "FYI");
 
@@ -12353,16 +12350,12 @@ namespace OverflowHelper.core
 
             correctionAdd("ninja", "Ninja");
 
-            correctionAdd("norther ireland", "Northern Ireland");
-
             correctionAdd("Ponzi Scheme", "Ponzi scheme");
             correctionAdd("ponzi scheme", "Ponzi scheme");
             correctionAdd("Ponzi", "Ponzi scheme");
             correctionAdd("ponzie", "Ponzi scheme");
 
             correctionAdd("sandboxie", "Sandboxie");
-
-            correctionAdd("scotland", "Scotland");
 
             correctionAdd("spacex", "SpaceX");
             correctionAdd("spaceX", "SpaceX");
@@ -12646,6 +12639,7 @@ namespace OverflowHelper.core
             correctionAdd("counter productive", "counterproductive");
 
             correctionAdd("efort", "effort");
+            correctionAdd("afford", "effort");
 
             correctionAdd("5th", "fifth");
 
@@ -13912,6 +13906,7 @@ namespace OverflowHelper.core
 
             correctionAdd("time stamp", "timestamp");
             correctionAdd("time-stamp", "timestamp");
+            correctionAdd("Time stamp", "timestamp");
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
@@ -14492,10 +14487,6 @@ namespace OverflowHelper.core
             correctionAdd("Transfrom", "transform");
             correctionAdd("transfrom", "transform");
 
-            correctionAdd("ambersand", "ampersand");
-            correctionAdd("apersand", "ampersand");
-            correctionAdd("ampesand", "ampersand");
-
             correctionAdd("reenable", "re-enable");
 
             correctionAdd(".profile", ".profile file");
@@ -14512,8 +14503,6 @@ namespace OverflowHelper.core
             correctionAdd("sgml", "SGML");
 
             correctionAdd("silex", "Silex");
-
-            correctionAdd("wayland", "Wayland");
 
             correctionAdd("Wasm", "WebAssembly");
             correctionAdd("WASM", "WebAssembly");
@@ -14717,8 +14706,6 @@ namespace OverflowHelper.core
 
             correctionAdd("questionmark", "question mark");
 
-            correctionAdd("short hand", "shorthand");
-
             correctionAdd("thn", "then");
 
             correctionAdd("tigger", "trigger");
@@ -14767,6 +14754,7 @@ namespace OverflowHelper.core
             correctionAdd("aquisition", "acquisition");
 
             correctionAdd("agein", "again");
+            correctionAdd("againg", "again");
 
             correctionAdd("Baud", "baud");
 
@@ -14978,17 +14966,6 @@ namespace OverflowHelper.core
             correctionAdd("nervus", "nervous");
 
             correctionAdd("not withstanding", "notwithstanding");
-
-            correctionAdd("by the other hand", "on the other hand");
-            correctionAdd("In the other hand", "on the other hand");
-            correctionAdd("in the other hand", "on the other hand");
-            correctionAdd("In another hand", "on the other hand");
-            correctionAdd("in another hand", "on the other hand");
-            correctionAdd("By the other hand", "on the other hand");
-            correctionAdd("One the other hand", "on the other hand");
-            correctionAdd("one the other hand", "on the other hand");
-            correctionAdd("OTOH", "on the other hand");
-            correctionAdd("otoh", "on the other hand");
 
             correctionAdd("1st complement", "ones' complement");
 
@@ -15259,12 +15236,6 @@ namespace OverflowHelper.core
 
             correctionAdd("offchance", "off chance");
 
-            correctionAdd("on one hand", "on the one hand");
-            correctionAdd("From one hand", "on the one hand");
-            correctionAdd("from one hand", "on the one hand");
-            correctionAdd("On the one hand", "on the one hand");
-            correctionAdd("On one hand", "on the one hand");
-
             correctionAdd("re-point", "repoint");
 
             correctionAdd("Spacy", "spaCy");
@@ -15385,11 +15356,6 @@ namespace OverflowHelper.core
             correctionAdd("pre-allocated", "preallocated");
 
             correctionAdd("scroll-able", "scrollable");
-
-            correctionAdd("upderstand", "understand");
-            correctionAdd("understang", "understand");
-            correctionAdd("Undertand", "understand");
-            correctionAdd("undertand", "understand");
 
             correctionAdd("unterinated", "unterminated");
 
@@ -15518,8 +15484,6 @@ namespace OverflowHelper.core
 
             correctionAdd("air canada", "Air Canada");
 
-            correctionAdd("air new zealand", "Air New Zealand");
-
             correctionAdd("A220", "Airbus A220");
 
             correctionAdd("A320", "Airbus A320");
@@ -15627,9 +15591,6 @@ namespace OverflowHelper.core
             correctionAdd("CmdLet", "cmdlet");
             correctionAdd("commandlet", "cmdlet");
             correctionAdd("cmd-let", "cmdlet");
-
-            correctionAdd("commmand", "command");
-            correctionAdd("commad", "command");
 
             correctionAdd("command line", "command-line");
             correctionAdd("CML", "command-line");
@@ -16573,6 +16534,9 @@ namespace OverflowHelper.core
             correctionAdd("MVL", "Maxime Vachier-Lagrave");
 
             correctionAdd("botnivik", "Mikhail Botvinnik");
+
+            correctionAdd("crab opening", "Ware Opening, Crab Variation");
+            correctionAdd("Crab Opening", "Ware Opening, Crab Variation");
             //
             // End of chess part
 
@@ -16588,13 +16552,6 @@ namespace OverflowHelper.core
             correctionAdd("Greenscreen", "green screen");
 
             correctionAdd("supress", "suppress");
-
-            correctionAdd("thansand", "thousand");
-            correctionAdd("tousind", "thousand");
-            correctionAdd("thouthand", "thousand");
-            correctionAdd("thoutand", "thousand");
-            correctionAdd("thothand", "thousand");
-            correctionAdd("thouhand", "thousand");
 
             correctionAdd("america", "America");
 
@@ -16650,10 +16607,6 @@ namespace OverflowHelper.core
             correctionAdd("TLI", "Trans-lunar injection");
 
             correctionAdd("fairytale", "fairy tale");
-
-            correctionAdd("Findland", "Finland");
-            correctionAdd("finnland", "Finland");
-            correctionAdd("finland", "Finland");
 
             correctionAdd("houston", "Houston");
 
@@ -19084,8 +19037,6 @@ namespace OverflowHelper.core
             correctionAdd("relevenat", "relevant");
             correctionAdd("Relevenat", "relevant");
 
-            correctionAdd("borland", "Borland");
-
             correctionAdd("code review", "Code Review");
             correctionAdd("CodeReview", "Code Review");
 
@@ -19257,9 +19208,6 @@ namespace OverflowHelper.core
             correctionAdd("out-file", "Out-File");
 
             // Of PowerShell...
-            correctionAdd("get-command", "Get-Command");
-
-            // Of PowerShell...
             correctionAdd("get-host", "Get-Host");
 
             // Of PowerShell...
@@ -19267,9 +19215,6 @@ namespace OverflowHelper.core
             correctionAdd("tee", "Tee-Object");
             correctionAdd("Tee-object", "Tee-Object");
             correctionAdd("Tea", "Tee-Object");
-
-            // Of PowerShell...
-            correctionAdd("invoke-command", "Invoke-Command");
 
             // Of PowerShell...
             correctionAdd("set-executionPolicy", "Set-ExecutionPolicy");
@@ -19906,6 +19851,88 @@ namespace OverflowHelper.core
             correctionAdd("lsb", "LSB");
 
             correctionAdd("andd", "and");
+            correctionAdd("abd", "and");
+
+            correctionAdd("in hand", "on hand");
+
+            correctionAdd("before hand", "beforehand");
+
+            correctionAdd("ambersand", "ampersand");
+            correctionAdd("apersand", "ampersand");
+            correctionAdd("ampesand", "ampersand");
+
+            correctionAdd("wayland", "Wayland");
+
+            correctionAdd("short hand", "shorthand");
+
+            correctionAdd("by the other hand", "on the other hand");
+            correctionAdd("In the other hand", "on the other hand");
+            correctionAdd("in the other hand", "on the other hand");
+            correctionAdd("In another hand", "on the other hand");
+            correctionAdd("in another hand", "on the other hand");
+            correctionAdd("By the other hand", "on the other hand");
+            correctionAdd("One the other hand", "on the other hand");
+            correctionAdd("one the other hand", "on the other hand");
+            correctionAdd("OTOH", "on the other hand");
+            correctionAdd("otoh", "on the other hand");
+
+            correctionAdd("on one hand", "on the one hand");
+            correctionAdd("From one hand", "on the one hand");
+            correctionAdd("from one hand", "on the one hand");
+            correctionAdd("On the one hand", "on the one hand");
+            correctionAdd("On one hand", "on the one hand");
+
+            correctionAdd("upderstand", "understand");
+            correctionAdd("understang", "understand");
+            correctionAdd("Undertand", "understand");
+            correctionAdd("undertand", "understand");
+
+            correctionAdd("commmand", "command");
+            correctionAdd("commad", "command");
+
+            correctionAdd("thansand", "thousand");
+            correctionAdd("tousind", "thousand");
+            correctionAdd("thouthand", "thousand");
+            correctionAdd("thoutand", "thousand");
+            correctionAdd("thothand", "thousand");
+            correctionAdd("thouhand", "thousand");
+
+            correctionAdd("borland", "Borland");
+
+            correctionAdd("nand", "NAND");
+
+            correctionAdd("right hand", "right-hand");
+
+            correctionAdd("Osmand", "OsmAnd");
+
+            // Of PowerShell...
+            correctionAdd("Measure-command", "Measure-Command");
+            correctionAdd("measure-command", "Measure-Command");
+
+            // Of PowerShell...
+            correctionAdd("get-command", "Get-Command");
+
+            // Of PowerShell...
+            correctionAdd("invoke-command", "Invoke-Command");
+
+            correctionAdd("air new zealand", "Air New Zealand");
+
+            correctionAdd("england", "England");
+
+            correctionAdd("norther ireland", "Northern Ireland");
+
+            correctionAdd("scotland", "Scotland");
+
+            correctionAdd("poland", "Poland");
+
+            correctionAdd("Findland", "Finland");
+            correctionAdd("finnland", "Finland");
+            correctionAdd("finland", "Finland");
+
+            correctionAdd("switzerland", "Switzerland");
+
+            correctionAdd("GreenLand", "Greenland");
+            correctionAdd("greenland", "Greenland");
 
             correctionAdd("bagde", "badge");
 
@@ -20433,10 +20460,12 @@ namespace OverflowHelper.core
             correctionAdd("Cherry Red", "Cherry MX Red");
             correctionAdd("MX red", "Cherry MX Red");
             correctionAdd("MX Red", "Cherry MX Red");
+            correctionAdd("mx red", "Cherry MX Red");
 
             correctionAdd("cherry max brown", "Cherry MX Brown");
             correctionAdd("Cherry Brown", "Cherry MX Brown");
             correctionAdd("MX Brown", "Cherry MX Brown");
+            correctionAdd("mx brown", "Cherry MX Brown");
 
             correctionAdd("Mx blue", "Cherry MX Blue");
             correctionAdd("mx blue", "Cherry MX Blue");
@@ -20550,8 +20579,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nasm", "NASM");
 
-            correctionAdd("poland", "Poland");
-
             correctionAdd("tasm", "TASM");
 
             correctionAdd("Dissertation", "dissertation");
@@ -20585,8 +20612,6 @@ namespace OverflowHelper.core
             correctionAdd("mandarin", "Mandarin");
 
             correctionAdd("rumantsch", "Rumantsch");
-
-            correctionAdd("switzerland", "Switzerland");
 
             correctionAdd("wiktionary", "Wiktionary");
 
@@ -20892,8 +20917,6 @@ namespace OverflowHelper.core
             correctionAdd("rum", "run");
 
             correctionAdd("monodroid", "MonoDroid");
-
-            correctionAdd("nand", "NAND");
 
             correctionAdd("rgba", "RGBA");
 
@@ -21347,8 +21370,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dicussion", "discussion");
             correctionAdd("discusion", "discussion");
-
-            correctionAdd("right hand", "right-hand");
 
             correctionAdd("brad", "broad");
 
@@ -21897,8 +21918,6 @@ namespace OverflowHelper.core
 
             correctionAdd("josm", "JOSM");
 
-            correctionAdd("Osmand", "OsmAnd");
-
             correctionAdd("Selenium RC", "Selenium Remote Control");
 
             correctionAdd("vespucci", "Vespucci");
@@ -21982,6 +22001,7 @@ namespace OverflowHelper.core
             correctionAdd("LS", "ls");
 
             correctionAdd("milllion", "million");
+            correctionAdd("Million", "million");
 
             correctionAdd("mints", "minks");
             correctionAdd("minx", "minks");
@@ -22351,9 +22371,6 @@ namespace OverflowHelper.core
             correctionAdd("GTK 3", "GTK&nbsp;3");
             correctionAdd("gtk3", "GTK&nbsp;3");
             correctionAdd("gtk 3", "GTK&nbsp;3");
-
-            correctionAdd("GreenLand", "Greenland");
-            correctionAdd("greenland", "Greenland");
 
             correctionAdd("john carmack", "John Carmack");
 
@@ -23290,8 +23307,6 @@ namespace OverflowHelper.core
 
             correctionAdd("genetate", "generate");
 
-            correctionAdd("in hand", "on hand");
-
             correctionAdd("seemlessly", "seamlessly");
 
             correctionAdd("555", "555 timer IC");
@@ -23415,6 +23430,7 @@ namespace OverflowHelper.core
 
             correctionAdd("qunit", "QUnit");
             correctionAdd("Qunit", "QUnit");
+            correctionAdd("qUnit", "QUnit");
 
             correctionAdd("SOS", "SOS (Son of Strike)");
 
@@ -23658,6 +23674,46 @@ namespace OverflowHelper.core
             correctionAdd("s/o", "shout out");
 
             correctionAdd("tentaive", "tentative");
+
+            correctionAdd("drop", "Drop");
+            correctionAdd("Massdrop", "Drop");
+            correctionAdd("Mass drop", "Drop");
+            correctionAdd("mass drop", "Drop");
+            correctionAdd("massdrop", "Drop");
+
+            correctionAdd("LoD", "Law of Demeter");
+
+            correctionAdd("uia", "Microsoft UI Automation");
+            correctionAdd("UIA", "Microsoft UI Automation");
+
+            correctionAdd("odysee", "Odysee");
+            correctionAdd("Odyssey", "Odysee");
+            correctionAdd("odyssey", "Odysee");
+
+            correctionAdd("qmk", "QMK");
+
+            correctionAdd("teavm", "TeaVM");
+
+            correctionAdd("benefiting", "benefitting");
+
+            correctionAdd("disclamer", "disclaimer");
+            correctionAdd("Disclamer", "disclaimer");
+
+            correctionAdd("JQUnit", "jqUnit");
+            correctionAdd("jQUnit", "jqUnit");
+
+            correctionAdd("probablity", "probability");
+
+            correctionAdd("re-emergence", "reemergence");
+            correctionAdd("Re-emergence", "reemergence");
+
+            correctionAdd("speacial", "special");
+
+            correctionAdd("subcribe", "subscribe");
+            correctionAdd("Subcribe", "subscribe");
+
+            correctionAdd("ty", "thank you");
+            correctionAdd("Ty", "thank you");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36683,6 +36739,36 @@ namespace OverflowHelper.core
             URL_Add("shout out", "https://en.wiktionary.org/wiki/shout_out#Noun");
 
             URL_Add("tentative", "https://en.wiktionary.org/wiki/tentative#Adjective");
+
+            URL_Add("Drop", "https://en.wikipedia.org/wiki/Drop_(company)");
+
+            URL_Add("Law of Demeter", "https://en.wikipedia.org/wiki/Law_of_Demeter");
+
+            URL_Add("Microsoft UI Automation", "https://en.wikipedia.org/wiki/Microsoft_UI_Automation");
+
+            URL_Add("Odysee", "https://odysee.com/");
+
+            URL_Add("QMK", "https://docs.qmk.fm/#/hardware_avr");
+
+            URL_Add("TeaVM", "https://en.wikipedia.org/wiki/Java_virtual_machine#Compilation_to_JavaScript");
+
+            URL_Add("benefitting", "https://en.wiktionary.org/wiki/benefit#Verb");
+
+            URL_Add("disclaimer", "https://en.wiktionary.org/wiki/disclaimer#Noun");
+
+            URL_Add("jqUnit", "https://docs.fluidproject.org/infusion/development/jqunit");
+
+            URL_Add("probability", "https://en.wiktionary.org/wiki/probability#Noun");
+
+            URL_Add("reemergence", "https://en.wiktionary.org/wiki/reemergence#Noun");
+
+            URL_Add("special", "https://en.wiktionary.org/wiki/special#Adjective");
+
+            URL_Add("subscribe", "https://en.wiktionary.org/wiki/subscribe#Verb");
+
+            URL_Add("thank you", "https://en.wiktionary.org/wiki/thank_you#Interjection");
+
+            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
