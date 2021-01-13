@@ -165,19 +165,19 @@ export FTP_SITE_URL='ftp://linux42.simply.com'
 # ###########################################################################
 echo
 echo
-echo '0. Internal check of the web interface regression tests...'
+echo '1. Internal check of the web interface regression tests...'
 echo
 # Method names in Python are not checked for uniqueness, so only
 # one will be used, risking not running all of the Seleniums
 # tests (sort of a (potential) false negative test).
 cd /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__
-clear ; pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME
+pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME
 
 
 # ###########################################################################
 echo
 echo
-echo '1. Starting web interface regression tests...'
+echo '2. Starting web interface regression tests...'
 echo
 
 # For now: Not assuming executable 'geckodriver' is in the path
@@ -200,7 +200,7 @@ python3 $SELINUM_DRIVERSCRIPT_FILENAME
 #
 echo
 echo
-echo '2. Copying files to the build folder...'
+echo '3. Copying files to the build folder...'
 echo
 
 mkdir -p $WORKFOLDER1
@@ -262,7 +262,7 @@ cd $WORKFOLDER
 #
 echo
 echo
-echo '3. Start running C# unit tests...'
+echo '4. Start running C# unit tests...'
 echo
 
 # Note: unlike "dotnet run", "dotnet test" does not
@@ -318,7 +318,7 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 echo
 echo
-echo '4. Exporting the word list as SQL...'
+echo '5. Exporting the word list as SQL...'
 echo
 export WORDLIST_OUTPUTTYPE=SQL
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE
@@ -342,7 +342,7 @@ ls -ls $SQL_FILE
 #
 echo
 echo
-echo '5. Opening some web pages for manual operations...'
+echo '6. Opening some web pages for manual operations...'
 echo
 
 # Open a web page for verification of push to GitHub
@@ -363,7 +363,7 @@ xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 # Some redundancy here - to be eliminated
 echo
 echo
-echo '6. Exporting the word list as HTML...'
+echo '7. Exporting the word list as HTML...'
 echo
 export WORDLIST_OUTPUTTYPE=HTML
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE
@@ -377,7 +377,7 @@ ls -ls $HTML_FILE_GENERIC
 # Some redundancy here - to be eliminated
 echo
 echo
-echo '7. Exporting the word list as JavaScript...'
+echo '8. Exporting the word list as JavaScript...'
 echo
 export WORDLIST_OUTPUTTYPE=JavaScript
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $JAVASCRIPT_FILE
@@ -399,7 +399,7 @@ ls -ls $JAVASCRIPT_FILE_GENERIC
 
 echo
 echo
-echo '8. Start running JavaScript unit tests...'
+echo '9. Start running JavaScript unit tests...'
 echo
 # Note: For now, directly in source folder. It should
 #       be moved to the work folder.
@@ -429,7 +429,7 @@ cd -
 #
 echo
 echo
-echo '9. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
+echo '10. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
 echo
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
@@ -446,7 +446,7 @@ eval ${LFTP_COMMAND}
 #
 echo
 echo
-echo '10. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
+echo '11. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
 echo
 cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
