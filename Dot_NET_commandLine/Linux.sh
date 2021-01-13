@@ -83,6 +83,9 @@ export EFFECTIVE_DATE='2020-09-29'
 export EFFECTIVE_DATE='2020-10-24'
 
 
+export SELINUM_DRIVERSCRIPT_FILENAME='/home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py'
+
+
 # To make the unit test run ***itself*** succeed when we
 # use a single build folder. We use a file name for the
 # file containing "Main()" that does not end in ".cs" in
@@ -158,6 +161,19 @@ export FTP_SITE_URL='ftp://linux42.simply.com'
 
 
 
+
+# ###########################################################################
+echo
+echo
+echo '0. Internal check of the web interface regression tests...'
+echo
+# Method names in Python are not checked for uniqueness, so only
+# one will be used, risking not running all of the Seleniums
+# tests (sort of a (potential) false negative test).
+cd /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__
+clear ; pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME
+
+
 # ###########################################################################
 echo
 echo
@@ -170,7 +186,7 @@ export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 # For now: directly from the source
 # folder, not the work folder
 #
-python3 /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/WebRegress.py
+python3 $SELINUM_DRIVERSCRIPT_FILENAME
 
 
 # ###########################################################################
@@ -320,8 +336,8 @@ ls -ls $SQL_FILE
 #
 # Open some web pages for manual operations. We do this
 # as soon as the SQL file for the word list is ready to
-# be ***imported*** (so the focus changes (Firefox 
-# comes to the foreground) signals that it is 
+# be ***imported*** (so the focus changes (Firefox
+# comes to the foreground) signals that it is
 # ready for import.
 #
 echo
