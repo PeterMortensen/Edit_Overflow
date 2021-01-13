@@ -1,4 +1,3 @@
-
 ########################################################################
 #
 #  Purpose: Regression test for the main function in Edit Overflow
@@ -13,14 +12,17 @@
 
 import unittest
 
-from selenium import webdriver
 import time
+
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
+
+#Not used (delete?)
+#from selenium.webdriver.common.action_chains import ActionChains
+#from selenium.webdriver.common.by import By
 
 
-class TestMainEditOverflowLookup_Web(unittest.TestCase):
+class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
 
     def setUp(self):
@@ -178,10 +180,10 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
             # Lookup with a reset, with a known term
             #
             self.lookUp("php", singleLookup_editSummary_PHP, defaultMsgForEditSummary)
-            
 
-        if True: # Do a ***failing lookup*** after a reset - we had a 
-                 # regression with an edit summary of "Active reading []." 
+
+        if True: # Do a ***failing lookup*** after a reset - we had a
+                 # regression with an edit summary of "Active reading []."
                  # (should be empty (an empty string))
 
             # Regression 2020-12-01 (now fixed): "Active reading []."
@@ -201,14 +203,26 @@ class TestMainEditOverflowLookup_Web(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
     #
+    # The JavaScript (client-side) version
+    #
+    #def test_mainLookup(self):
+    def test_mainLookup_form(self):
+
+        self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native')
+        #pass
+
+
+    # Test of the central function of Edit Overflow for web: Looking
+    # up incorrect terms (typically misspelling words)
+    #
     # The form-based (server roundtrip) version
     #
-    def test_mainLookup(self):
+    #def test_mainLookup(self):
+    def test_mainLookup_JavaScript(self):
 
-        self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&OverflowStyle=Native&UseJavaScript=no')
-
+        self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=no&OverflowStyle=Native')
+        #pass
 
 
 if __name__ == '__main__':
     unittest.main()
-
