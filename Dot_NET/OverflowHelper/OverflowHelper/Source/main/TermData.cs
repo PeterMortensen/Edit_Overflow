@@ -340,6 +340,7 @@ namespace OverflowHelper.core
             correctionAdd("ms win", "Windows");
             correctionAdd("MS win", "Windows");
             correctionAdd("MS Win", "Windows");
+            correctionAdd("Microsoft Windows", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -2504,6 +2505,8 @@ namespace OverflowHelper.core
             correctionAdd("regular express", "regular expression");
             correctionAdd("regex expression", "regular expression");
             correctionAdd("RegEXP", "regular expression");
+            correctionAdd("regext", "regular expression");
+            correctionAdd("reqular expressions", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -3294,6 +3297,7 @@ namespace OverflowHelper.core
             correctionAdd("applicattion", "application");
             correctionAdd("aplplication", "application");
             correctionAdd("applicaltion", "application");
+            correctionAdd("applicaion", "application");
 
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
@@ -5885,6 +5889,8 @@ namespace OverflowHelper.core
             correctionAdd("Crtl", "Ctrl");
             correctionAdd("cntrl", "Ctrl");
             correctionAdd("Control", "Ctrl");
+            correctionAdd("clt", "Ctrl");
+            correctionAdd("cltf", "Ctrl");
 
             correctionAdd("reddit", "Reddit");
             correctionAdd("Redit", "Reddit");
@@ -5998,6 +6004,9 @@ namespace OverflowHelper.core
             correctionAdd("url-encoding", "URL encoding");
             correctionAdd("URLencoded", "URL encoding"); // Not 100% correct.
             correctionAdd("URL encoded", "URL encoding");
+            correctionAdd("URL Encoding", "URL encoding");
+            correctionAdd("URL-Encoding", "URL encoding");
+            correctionAdd("URL-encoding", "URL encoding");
 
             correctionAdd("ical", "iCal"); // iCal is now known as the (unfortunate generic term) "Calendar".
 
@@ -10202,6 +10211,7 @@ namespace OverflowHelper.core
             correctionAdd("implemention", "implementation");
             correctionAdd("implemenation", "implementation");
             correctionAdd("implementaion", "implementation");
+            correctionAdd("impl", "implementation");
 
             correctionAdd("explaination", "explanation");
             correctionAdd("explenation", "explanation");
@@ -12633,6 +12643,8 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("VS19", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("VS 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("2019", "Visual&nbsp;Studio&nbsp;2019");
 
             correctionAdd("xor", "XOR");
             correctionAdd("Xor", "XOR");
@@ -19900,6 +19912,7 @@ namespace OverflowHelper.core
             correctionAdd("one the other hand", "on the other hand");
             correctionAdd("OTOH", "on the other hand");
             correctionAdd("otoh", "on the other hand");
+            correctionAdd("on the hand", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -23798,6 +23811,14 @@ namespace OverflowHelper.core
             correctionAdd("undesiriable", "undesirable");
 
             correctionAdd("varient", "variant");
+
+            correctionAdd("Branch Prediction", "branch prediction");
+
+            correctionAdd("errorred", "errored");
+
+            correctionAdd("mis-clicking", "misclicking");
+
+            correctionAdd("vulnerablities", "vulnerabilities");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -36910,6 +36931,14 @@ namespace OverflowHelper.core
             URL_Add("variant", "https://en.wiktionary.org/wiki/variant#Noun");
 
             URL_Add("Oxford–AstraZeneca vaccine (AZD1222)", "https://en.wikipedia.org/wiki/AZD1222");
+
+            URL_Add("branch prediction", "https://en.wikipedia.org/wiki/Branch_predictor");
+
+            URL_Add("errored", "https://en.wiktionary.org/wiki/error#Verb");
+
+            URL_Add("misclicking", "https://en.wiktionary.org/wiki/misclick#Verb");
+
+            URL_Add("vulnerabilities", "https://en.wiktionary.org/wiki/vulnerability#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
