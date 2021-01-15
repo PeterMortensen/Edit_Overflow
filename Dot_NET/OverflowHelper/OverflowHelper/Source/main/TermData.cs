@@ -4583,6 +4583,7 @@ namespace OverflowHelper.core
             correctionAdd("tritter", "Twitter");
             correctionAdd("twittter", "Twitter");
             correctionAdd("Twotter", "Twitter");
+            correctionAdd("twatter", "Twitter");
 
             correctionAdd("dos", "DOS");
             correctionAdd("MS DOS", "DOS");
@@ -8131,6 +8132,8 @@ namespace OverflowHelper.core
             correctionAdd("web Api", "Web API");
 
             correctionAdd("duck-typing", "duck typing");
+            correctionAdd("Duck Typing", "duck typing");
+            correctionAdd("Duck typing", "duck typing");
 
             correctionAdd("cassini", "Cassini Web server");
             correctionAdd("cassini web server", "Cassini Web server");
@@ -10223,6 +10226,7 @@ namespace OverflowHelper.core
             correctionAdd("explonation", "explanation");
             correctionAdd("explnation", "explanation");
             correctionAdd("explantion", "explanation");
+            correctionAdd("expaination", "explanation");
 
             correctionAdd("Instaltaion", "installation"); // Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -15307,6 +15311,7 @@ namespace OverflowHelper.core
             correctionAdd("MSpaint", "Microsoft Paint");
             correctionAdd("MSPaint", "Microsoft Paint");
             correctionAdd("paint", "Microsoft Paint");
+            correctionAdd("MS Paint", "Microsoft Paint");
 
             correctionAdd("Path", "PATH");
 
@@ -16523,6 +16528,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Chucky", "Vassily Ivanchuk"); // Chess
             correctionAdd("chucky", "Vassily Ivanchuk"); // Chess
+            correctionAdd("Ivanchuck", "Vassily Ivanchuk"); // Chess
+            correctionAdd("Ivanchuk", "Vassily Ivanchuk"); // Chess
+            correctionAdd("ivanchuk", "Vassily Ivanchuk"); // Chess
 
             correctionAdd("Chess", "chess"); // Chess
 
@@ -16784,6 +16792,7 @@ namespace OverflowHelper.core
             correctionAdd("masters", "master's degree");
             correctionAdd("Masters degree", "master's degree");
             correctionAdd("masters degree", "master's degree");
+            correctionAdd("Masters", "master's degree");
 
             correctionAdd("Lilypad", "LilyPad");
 
@@ -19667,6 +19676,7 @@ namespace OverflowHelper.core
             correctionAdd("usless", "useless");
 
             correctionAdd("variaton", "variation");
+            correctionAdd("varition", "variation");
 
             correctionAdd("ddr4", "DDR4 SDRAM");
 
@@ -22601,6 +22611,7 @@ namespace OverflowHelper.core
             correctionAdd("hideious", "hideous");
             correctionAdd("hedeous", "hideous");
             correctionAdd("hideoous", "hideous");
+            correctionAdd("hidious", "hideous");
 
             correctionAdd("mot", "not");
 
@@ -22992,6 +23003,7 @@ namespace OverflowHelper.core
 
             correctionAdd("They", "they");
             correctionAdd("Thye", "they");
+            correctionAdd("tney", "they");
 
             correctionAdd("transation", "transaction");
 
@@ -23495,6 +23507,7 @@ namespace OverflowHelper.core
 
             correctionAdd("exacution", "execution");
             correctionAdd("executation", "execution");
+            correctionAdd("execuion", "execution");
 
             correctionAdd("mater", "matter");
 
@@ -23820,6 +23833,55 @@ namespace OverflowHelper.core
 
             correctionAdd("vulnerablities", "vulnerabilities");
 
+            correctionAdd("france", "France");
+
+            correctionAdd("peppermint", "Peppermint OS");
+            correctionAdd("PeppermintOS", "Peppermint OS");
+            correctionAdd("Peppermint", "Peppermint OS");
+
+            correctionAdd("solidity", "Solidity");
+
+            correctionAdd("Stephan Mishook", "Stefan Mischook");
+
+            correctionAdd("thinkpad", "ThinkPad");
+            correctionAdd("IBM Stinkpad", "ThinkPad");
+            correctionAdd("Stinkpad", "ThinkPad");
+            correctionAdd("IBM Thinkpad", "ThinkPad");
+            correctionAdd("IBM ThinkPad", "ThinkPad");
+
+            correctionAdd("zorin", "Zorin OS");
+            correctionAdd("ZorinOS", "Zorin OS");
+
+            correctionAdd("anialated", "annihilated");
+            correctionAdd("Anialated", "annihilated");
+
+            correctionAdd("Competitive Programming", "competitive programming");
+
+            correctionAdd("Data Architect", "data architect");
+            correctionAdd("Data architect", "data architect");
+
+            correctionAdd("dubeous", "dubious");
+
+            correctionAdd("efficasy", "efficacy");
+
+            correctionAdd("full stack developer", "full-stack developer");
+            correctionAdd("full stack web developer", "full-stack developer");
+
+            correctionAdd("instantanious", "instantaneous");
+
+            correctionAdd("mpv player", "mpv");
+
+            correctionAdd("MtPaint", "mtPaint");
+
+            correctionAdd("PATTHHETIC", "pathetic");
+            correctionAdd("patthhetic", "pathetic");
+
+            correctionAdd("pleassant", "pleasant");
+            correctionAdd("plesasant", "pleasant");
+            correctionAdd("plessasant", "pleasant");
+
+            correctionAdd("un-indent", "unindent");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -23942,8 +24004,20 @@ namespace OverflowHelper.core
             correctionAdd("Vitamin D", "vitamin D");
             correctionAdd("vitamin d", "vitamin D");
             correctionAdd("Vitimin d", "vitamin D");
+            correctionAdd("Vit D", "vitamin D");
+            correctionAdd("vit D", "vitamin D");
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)");
+            correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)");
+            correctionAdd("AZD1222", "Oxford–AstraZeneca vaccine (AZD1222)");
+
+            correctionAdd("AstraZeneka", "AstraZeneca");
+
+            correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals");
+
+            correctionAdd("Bionicpup", "BionicPup");
+
+            correctionAdd("serum institute of India", "Serum Institute of India");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -36939,6 +37013,50 @@ namespace OverflowHelper.core
             URL_Add("misclicking", "https://en.wiktionary.org/wiki/misclick#Verb");
 
             URL_Add("vulnerabilities", "https://en.wiktionary.org/wiki/vulnerability#Noun");
+
+            URL_Add("France", "https://en.wikipedia.org/wiki/France");
+
+            URL_Add("Peppermint OS", "https://en.wikipedia.org/wiki/Peppermint_OS");
+
+            URL_Add("Solidity", "https://en.wikipedia.org/wiki/Solidity");
+
+            URL_Add("Stefan Mischook", "https://www.youtube.com/c/StefanMischook/videos");
+
+            URL_Add("ThinkPad", "https://en.wikipedia.org/wiki/ThinkPad");
+
+            URL_Add("Zorin OS", "https://en.wikipedia.org/wiki/Zorin_OS");
+
+            URL_Add("annihilated", "https://en.wiktionary.org/wiki/annihilate#Verb");
+
+            URL_Add("competitive programming", "https://en.wikipedia.org/wiki/Competitive_programming");
+
+            URL_Add("data architect", "https://en.wikipedia.org/wiki/Data_architect");
+
+            URL_Add("dubious", "https://en.wiktionary.org/wiki/dubious#Adjective");
+
+            URL_Add("efficacy", "https://en.wikipedia.org/wiki/Efficacy#Medicine");
+
+            URL_Add("full-stack developer", "https://en.wikipedia.org/wiki/Solution_stack");
+
+            URL_Add("instantaneous", "https://en.wiktionary.org/wiki/instantaneous#Adjective");
+
+            URL_Add("mpv", "https://en.wikipedia.org/wiki/Mpv_(media_player)");
+
+            URL_Add("mtPaint", "https://en.wikipedia.org/wiki/MtPaint");
+
+            URL_Add("pathetic", "https://en.wiktionary.org/wiki/pathetic#Adjective");
+
+            URL_Add("pleasant", "https://en.wiktionary.org/wiki/pleasant#Adjective");
+
+            URL_Add("unindent", "https://en.wiktionary.org/wiki/unindent#Verb");
+
+            URL_Add("AstraZeneca", "https://en.wikipedia.org/wiki/AstraZeneca");
+
+            URL_Add("Beximco Pharmaceuticals", "https://en.wikipedia.org/wiki/Beximco_Pharma");
+
+            URL_Add("BionicPup", "https://en.wikipedia.org/wiki/Puppy_Linux#Release_versions");
+
+            URL_Add("Serum Institute of India", "https://en.wikipedia.org/wiki/Serum_Institute_of_India");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
