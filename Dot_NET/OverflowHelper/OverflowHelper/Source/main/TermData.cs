@@ -5238,6 +5238,7 @@ namespace OverflowHelper.core
             correctionAdd("pdo", "PDO"); // Consider alternative URL <http://php.net/manual/en/intro.pdo.php>
 
             correctionAdd("db2", "DB2");
+            correctionAdd("Db2", "DB2");
 
             correctionAdd("mariadb", "MariaDB");
             correctionAdd("Maria DB", "MariaDB");
@@ -23882,6 +23883,9 @@ namespace OverflowHelper.core
 
             correctionAdd("un-indent", "unindent");
 
+            correctionAdd("hr", "human resources");
+            correctionAdd("HR", "human resources");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
 
@@ -37057,6 +37061,8 @@ namespace OverflowHelper.core
             URL_Add("BionicPup", "https://en.wikipedia.org/wiki/Puppy_Linux#Release_versions");
 
             URL_Add("Serum Institute of India", "https://en.wikipedia.org/wiki/Serum_Institute_of_India");
+
+            URL_Add("human resources", "https://en.wikipedia.org/wiki/Human_resources");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
