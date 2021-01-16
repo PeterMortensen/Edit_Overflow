@@ -16399,6 +16399,8 @@ namespace OverflowHelper.core
             correctionAdd("magician of riga", "Mikhail Tal"); // Chess
             correctionAdd("mikhail tal", "Mikhail Tal"); // Chess
             correctionAdd("Mischa", "Mikhail Tal"); // Chess
+            correctionAdd("tal", "Mikhail Tal");
+            correctionAdd("TAL", "Mikhail Tal");
 
             correctionAdd("morphy", "Paul Morphy"); // Chess
             correctionAdd("mophy", "Paul Morphy"); // Chess
@@ -16543,44 +16545,57 @@ namespace OverflowHelper.core
 
             correctionAdd("Chess", "chess"); // Chess
 
-            correctionAdd("chess board", "chessboard");
+            correctionAdd("chess board", "chessboard"); // Chess
 
-            correctionAdd("Caro-Kann", "Caro–Kann Defence");
+            correctionAdd("Caro-Kann", "Caro–Kann Defence"); // Chess
 
-            correctionAdd("bobby fischer", "Bobby Fischer");
+            correctionAdd("bobby fischer", "Bobby Fischer"); // Chess
 
-            correctionAdd("Spassky", "Boris Spassky");
-            correctionAdd("spasky", "Boris Spassky");
-            correctionAdd("spassky", "Boris Spassky");
+            correctionAdd("Spassky", "Boris Spassky"); // Chess
+            correctionAdd("spasky", "Boris Spassky"); // Chess
+            correctionAdd("spassky", "Boris Spassky"); // Chess
 
-            correctionAdd("plachutta", "Plachutta");
-            correctionAdd("PLACHUTTA", "Plachutta");
+            correctionAdd("plachutta", "Plachutta"); // Chess
+            correctionAdd("PLACHUTTA", "Plachutta"); // Chess
 
-            correctionAdd("liren", "Ding Liren");
-            correctionAdd("Liren", "Ding Liren");
+            correctionAdd("liren", "Ding Liren"); // Chess
+            correctionAdd("Liren", "Ding Liren"); // Chess
 
-            correctionAdd("anish giri", "Anish Giri");
-            correctionAdd("Amish Girl", "Anish Giri");
-            correctionAdd("giri", "Anish Giri");
+            correctionAdd("anish giri", "Anish Giri"); // Chess
+            correctionAdd("Amish Girl", "Anish Giri"); // Chess
+            correctionAdd("giri", "Anish Giri"); // Chess
+            correctionAdd("anish", "Anish Giri"); // Chess
+            correctionAdd("Anish", "Anish Giri"); // Chess
+            correctionAdd("Giri", "Anish Giri"); // Chess
+            correctionAdd("Anish giri", "Anish Giri"); // Chess
 
-            correctionAdd("fianchettling", "fianchettoing");
-            correctionAdd("Fianchettling", "fianchettoing");
+            correctionAdd("fianchettling", "fianchettoing"); // Chess
+            correctionAdd("Fianchettling", "fianchettoing"); // Chess
 
-            correctionAdd("Dub-off", "Daniil Dubov");
-            correctionAdd("Dubov", "Daniil Dubov");
-            correctionAdd("dubov", "Daniil Dubov");
+            correctionAdd("Dub-off", "Daniil Dubov"); // Chess
+            correctionAdd("Dubov", "Daniil Dubov"); // Chess
+            correctionAdd("dubov", "Daniil Dubov"); // Chess
 
-            correctionAdd("elo", "Elo");
+            correctionAdd("elo", "Elo"); // Chess
 
-            correctionAdd("fide", "FIDE");
-            correctionAdd("Fide", "FIDE");
+            correctionAdd("fide", "FIDE"); // Chess
+            correctionAdd("Fide", "FIDE"); // Chess
 
-            correctionAdd("MVL", "Maxime Vachier-Lagrave");
+            correctionAdd("MVL", "Maxime Vachier-Lagrave"); // Chess
 
-            correctionAdd("botnivik", "Mikhail Botvinnik");
+            correctionAdd("botnivik", "Mikhail Botvinnik"); // Chess
 
-            correctionAdd("crab opening", "Ware Opening, Crab Variation");
-            correctionAdd("Crab Opening", "Ware Opening, Crab Variation");
+            correctionAdd("crab opening", "Ware Opening, Crab Variation"); // Chess
+            correctionAdd("Crab Opening", "Ware Opening, Crab Variation"); // Chess
+
+            correctionAdd("lichess", "Lichess");
+
+            correctionAdd("Norway chess", "Norway Chess");
+
+            correctionAdd("Artemiev", "Vladislav Artemiev");
+
+            correctionAdd("matting", "checkmating");
+            correctionAdd("mating", "checkmating");
             //
             // End of chess part
 
@@ -17101,6 +17116,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Blob", "BLOB");
             correctionAdd("blob", "BLOB");
+            correctionAdd("binary large object", "BLOB");
+            correctionAdd("Binary Large Object", "BLOB");
+            correctionAdd("Binary Large OBject", "BLOB");
 
             correctionAdd("foot note", "footnote");
 
@@ -21560,6 +21578,8 @@ namespace OverflowHelper.core
             correctionAdd("detrement", "detriment");
 
             correctionAdd("every one", "everyone");
+            correctionAdd("Every1", "everyone");
+            correctionAdd("every1", "everyone");
 
             correctionAdd("hightlight", "highlight");
 
@@ -23919,142 +23939,148 @@ namespace OverflowHelper.core
 
             correctionAdd("thsi", "this");
 
+            correctionAdd("cargo", "cargo cult");
+
+            correctionAdd("parlence", "parlance");
+
+            correctionAdd("re-direct", "redirect");
+
             // Start of coronavirus part...
-            correctionAdd("dieing", "dying");
+            correctionAdd("dieing", "dying"); // Coronavirus
 
-            correctionAdd("day", "die");
+            correctionAdd("day", "die"); // Coronavirus
 
-            correctionAdd("wuhan", "Wuhan");
-            correctionAdd("WUHAR", "Wuhan");
+            correctionAdd("wuhan", "Wuhan"); // Coronavirus
+            correctionAdd("WUHAR", "Wuhan"); // Coronavirus
 
-            correctionAdd("letal", "lethal");
+            correctionAdd("letal", "lethal"); // Coronavirus
 
-            correctionAdd("madical", "medical");
-            correctionAdd("MEDICAL", "medical");
-            correctionAdd("mefucal", "medical");
+            correctionAdd("madical", "medical"); // Coronavirus
+            correctionAdd("MEDICAL", "medical"); // Coronavirus
+            correctionAdd("mefucal", "medical"); // Coronavirus
 
-            correctionAdd("motality", "mortality");
+            correctionAdd("motality", "mortality"); // Coronavirus
 
-            correctionAdd("Common Cold", "common cold");
+            correctionAdd("Common Cold", "common cold"); // Coronavirus
 
-            correctionAdd("diesease", "disease");
-            correctionAdd("desease", "disease");
+            correctionAdd("diesease", "disease"); // Coronavirus
+            correctionAdd("desease", "disease"); // Coronavirus
 
-            correctionAdd("epedemic", "epidemic");
+            correctionAdd("epedemic", "epidemic"); // Coronavirus
 
-            correctionAdd("rhino virus", "rhinovirus");
-            correctionAdd("Rhinovirus", "rhinovirus");
-            correctionAdd("Rhino virus", "rhinovirus");
+            correctionAdd("rhino virus", "rhinovirus"); // Coronavirus
+            correctionAdd("Rhinovirus", "rhinovirus"); // Coronavirus
+            correctionAdd("Rhino virus", "rhinovirus"); // Coronavirus
 
-            correctionAdd("Pandemic", "pandemic");
-            correctionAdd("PANDEMIC", "pandemic");
+            correctionAdd("Pandemic", "pandemic"); // Coronavirus
+            correctionAdd("PANDEMIC", "pandemic"); // Coronavirus
 
-            correctionAdd("virsus", "virus");
-            correctionAdd("Virus", "virus");
-            correctionAdd("VIRUS", "virus");
+            correctionAdd("virsus", "virus"); // Coronavirus
+            correctionAdd("Virus", "virus"); // Coronavirus
+            correctionAdd("VIRUS", "virus"); // Coronavirus
 
-            correctionAdd("COVID 19", "COVID-19");
-            correctionAdd("Covid-19", "COVID-19");
-            correctionAdd("covid 19", "COVID-19");
-            correctionAdd("covid19", "COVID-19");
-            correctionAdd("Covid19", "COVID-19");
-            correctionAdd("COVID19", "COVID-19");
-            correctionAdd("Covid 19", "COVID-19");
-            correctionAdd("covid-19", "COVID-19");
-            correctionAdd("CoVid-19", "COVID-19");
-            correctionAdd("covid", "COVID-19");
-            correctionAdd("COVD-19", "COVID-19");
-            correctionAdd("the pandemic", "COVID-19");
-            correctionAdd("COVID", "COVID-19");
-            correctionAdd("Covid", "COVID-19");
-            correctionAdd("19", "COVID-19");
-            correctionAdd("COVID9", "COVID-19");
-            correctionAdd("convid", "COVID-19");
-            correctionAdd("C19", "COVID-19");
-            correctionAdd("corona pandemic", "COVID-19");
+            correctionAdd("COVID 19", "COVID-19"); // Coronavirus
+            correctionAdd("Covid-19", "COVID-19"); // Coronavirus
+            correctionAdd("covid 19", "COVID-19"); // Coronavirus
+            correctionAdd("covid19", "COVID-19"); // Coronavirus
+            correctionAdd("Covid19", "COVID-19"); // Coronavirus
+            correctionAdd("COVID19", "COVID-19"); // Coronavirus
+            correctionAdd("Covid 19", "COVID-19"); // Coronavirus
+            correctionAdd("covid-19", "COVID-19"); // Coronavirus
+            correctionAdd("CoVid-19", "COVID-19"); // Coronavirus
+            correctionAdd("covid", "COVID-19"); // Coronavirus
+            correctionAdd("COVD-19", "COVID-19"); // Coronavirus
+            correctionAdd("the pandemic", "COVID-19"); // Coronavirus
+            correctionAdd("COVID", "COVID-19"); // Coronavirus
+            correctionAdd("Covid", "COVID-19"); // Coronavirus
+            correctionAdd("19", "COVID-19"); // Coronavirus
+            correctionAdd("COVID9", "COVID-19"); // Coronavirus
+            correctionAdd("convid", "COVID-19"); // Coronavirus
+            correctionAdd("C19", "COVID-19"); // Coronavirus
+            correctionAdd("corona pandemic", "COVID-19"); // Coronavirus
 
-            correctionAdd("Corona Virus", "coronavirus");
-            correctionAdd("Coronavirus", "coronavirus");
-            correctionAdd("Corona virus", "coronavirus");
-            correctionAdd("CoronaVirus", "coronavirus");
-            correctionAdd("corona virus", "coronavirus");
-            correctionAdd("corona", "coronavirus");
-            correctionAdd("karona", "coronavirus");
-            correctionAdd("Corona", "coronavirus");
-            correctionAdd("COROAVIRUS", "coronavirus");
-            correctionAdd("CORONAVIRUS", "coronavirus");
-            correctionAdd("coronavires", "coronavirus");
-            correctionAdd("Corona-virus", "coronavirus");
-            correctionAdd("caronavirus", "coronavirus");
-            correctionAdd("cronavirus", "coronavirus");
-            correctionAdd("rona", "coronavirus");
-            correctionAdd("C-virus", "coronavirus");
-            correctionAdd("kuhrona", "coronavirus");
-            correctionAdd("Coronovirus", "coronavirus");
-            correctionAdd("coronovirus", "coronavirus");
-            correctionAdd("C-Virus", "coronavirus");
-            correctionAdd("C Virus", "coronavirus");
-            correctionAdd("C virus", "coronavirus");
+            correctionAdd("Corona Virus", "coronavirus"); // Coronavirus
+            correctionAdd("Coronavirus", "coronavirus"); // Coronavirus
+            correctionAdd("Corona virus", "coronavirus"); // Coronavirus
+            correctionAdd("CoronaVirus", "coronavirus"); // Coronavirus
+            correctionAdd("corona virus", "coronavirus"); // Coronavirus
+            correctionAdd("corona", "coronavirus"); // Coronavirus
+            correctionAdd("karona", "coronavirus"); // Coronavirus
+            correctionAdd("Corona", "coronavirus"); // Coronavirus
+            correctionAdd("COROAVIRUS", "coronavirus"); // Coronavirus
+            correctionAdd("CORONAVIRUS", "coronavirus"); // Coronavirus
+            correctionAdd("coronavires", "coronavirus"); // Coronavirus
+            correctionAdd("Corona-virus", "coronavirus"); // Coronavirus
+            correctionAdd("caronavirus", "coronavirus"); // Coronavirus
+            correctionAdd("cronavirus", "coronavirus"); // Coronavirus
+            correctionAdd("rona", "coronavirus"); // Coronavirus
+            correctionAdd("C-virus", "coronavirus"); // Coronavirus
+            correctionAdd("kuhrona", "coronavirus"); // Coronavirus
+            correctionAdd("Coronovirus", "coronavirus"); // Coronavirus
+            correctionAdd("coronovirus", "coronavirus"); // Coronavirus
+            correctionAdd("C-Virus", "coronavirus"); // Coronavirus
+            correctionAdd("C Virus", "coronavirus"); // Coronavirus
+            correctionAdd("C virus", "coronavirus"); // Coronavirus
 
-            correctionAdd("ebola", "Ebola");
+            correctionAdd("ebola", "Ebola"); // Coronavirus
 
-            correctionAdd("cdc", "CDC");
+            correctionAdd("cdc", "CDC"); // Coronavirus
 
-            correctionAdd("Spanish Flu", "Spanish flu");
+            correctionAdd("Spanish Flu", "Spanish flu"); // Coronavirus
 
-            correctionAdd("Plandemic", "plandemic");
+            correctionAdd("Plandemic", "plandemic"); // Coronavirus
 
-            correctionAdd("Vaccine", "vaccine");
-            correctionAdd("vaccin", "vaccine");
+            correctionAdd("Vaccine", "vaccine"); // Coronavirus
+            correctionAdd("vaccin", "vaccine"); // Coronavirus
 
-            correctionAdd("astma", "asthma");
+            correctionAdd("astma", "asthma"); // Coronavirus
 
-            correctionAdd("comorbidites", "comorbidities");
+            correctionAdd("comorbidites", "comorbidities"); // Coronavirus
 
-            correctionAdd("comorbiditi", "comorbidity");
+            correctionAdd("comorbiditi", "comorbidity"); // Coronavirus
 
-            correctionAdd("hoard immunity", "herd immunity");
-            correctionAdd("Herd Immunity", "herd immunity");
-            correctionAdd("Herd immunity", "herd immunity");
-            correctionAdd("Hurd immunity", "herd immunity");
-            correctionAdd("hurd immunity", "herd immunity");
-            correctionAdd("heard immunity", "herd immunity");
+            correctionAdd("hoard immunity", "herd immunity"); // Coronavirus
+            correctionAdd("Herd Immunity", "herd immunity"); // Coronavirus
+            correctionAdd("Herd immunity", "herd immunity"); // Coronavirus
+            correctionAdd("Hurd immunity", "herd immunity"); // Coronavirus
+            correctionAdd("hurd immunity", "herd immunity"); // Coronavirus
+            correctionAdd("heard immunity", "herd immunity"); // Coronavirus
 
-            correctionAdd("imunety", "immunity");
+            correctionAdd("imunety", "immunity"); // Coronavirus
 
-            correctionAdd("sars", "SARS");
-            correctionAdd("sarz", "SARS");
+            correctionAdd("sars", "SARS"); // Coronavirus
+            correctionAdd("sarz", "SARS"); // Coronavirus
 
-            correctionAdd("WHO", "World Health Organization");
+            correctionAdd("WHO", "World Health Organization"); // Coronavirus
 
-            correctionAdd("T.B", "tuberculosis"); // But it really should be "T.B." (a current limitation in our system)
+            correctionAdd("T.B", "tuberculosis"); // Coronavirus. But it really should be "T.B." (a current limitation in our system)
 
-            correctionAdd("sputnic", "Sputnik V");
-            correctionAdd("Sputnik 5", "Sputnik V");
+            correctionAdd("sputnic", "Sputnik V"); // Coronavirus
+            correctionAdd("Sputnik 5", "Sputnik V"); // Coronavirus
 
-            correctionAdd("black death", "Black Death");
+            correctionAdd("black death", "Black Death"); // Coronavirus
 
-            correctionAdd("letality", "lethality");
+            correctionAdd("letality", "lethality"); // Coronavirus
 
-            correctionAdd("fatility", "fatality");
+            correctionAdd("fatility", "fatality"); // Coronavirus
 
-            correctionAdd("Vitamin D", "vitamin D");
-            correctionAdd("vitamin d", "vitamin D");
-            correctionAdd("Vitimin d", "vitamin D");
-            correctionAdd("Vit D", "vitamin D");
-            correctionAdd("vit D", "vitamin D");
+            correctionAdd("Vitamin D", "vitamin D"); // Coronavirus
+            correctionAdd("vitamin d", "vitamin D"); // Coronavirus
+            correctionAdd("Vitimin d", "vitamin D"); // Coronavirus
+            correctionAdd("Vit D", "vitamin D"); // Coronavirus
+            correctionAdd("vit D", "vitamin D"); // Coronavirus
 
-            correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)");
-            correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)");
-            correctionAdd("AZD1222", "Oxford–AstraZeneca vaccine (AZD1222)");
+            correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZD1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
-            correctionAdd("AstraZeneka", "AstraZeneca");
+            correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
 
-            correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals");
+            correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
-            correctionAdd("Bionicpup", "BionicPup");
+            correctionAdd("Bionicpup", "BionicPup"); // Coronavirus
 
-            correctionAdd("serum institute of India", "Serum Institute of India");
+            correctionAdd("serum institute of India", "Serum Institute of India"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -37112,6 +37138,20 @@ namespace OverflowHelper.core
             URL_Add("equipped", "https://en.wiktionary.org/wiki/equip#Verb");
 
             URL_Add("this", "https://en.wiktionary.org/wiki/this#Determiner");
+
+            URL_Add("cargo cult", "https://en.wikipedia.org/wiki/Cargo_cult");
+
+            URL_Add("parlance", "https://en.wiktionary.org/wiki/parlance#Noun");
+
+            URL_Add("redirect", "https://en.wiktionary.org/wiki/redirect#Verb");
+
+            URL_Add("Lichess", "https://en.wikipedia.org/wiki/Lichess");
+
+            URL_Add("Norway Chess", "https://en.wikipedia.org/wiki/Norway_Chess");
+
+            URL_Add("Vladislav Artemiev", "https://en.wikipedia.org/wiki/Vladislav_Artemiev");
+
+            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
