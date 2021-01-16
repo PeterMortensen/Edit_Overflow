@@ -2956,6 +2956,7 @@ namespace OverflowHelper.core
             correctionAdd("definietly", "definitely");
             correctionAdd("definiteley", "definitely");
             correctionAdd("def", "definitely");
+            correctionAdd("Defo", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -4569,6 +4570,7 @@ namespace OverflowHelper.core
             correctionAdd("Throught", "through");
             correctionAdd("throught", "through");
             correctionAdd("throug", "through");
+            correctionAdd("throguh", "through");
 
             correctionAdd("tut", "tutorial");
             correctionAdd("tutorail", "tutorial"); // Misspelling
@@ -6808,6 +6810,7 @@ namespace OverflowHelper.core
             correctionAdd("Angular Javascript", "Angular");
             correctionAdd("angluar", "Angular");
             correctionAdd("Angualr", "Angular");
+            correctionAdd("Ng", "Angular");
 
             // Alternative: database administration
             correctionAdd("DBA", "database administrator");
@@ -9294,6 +9297,7 @@ namespace OverflowHelper.core
             correctionAdd("c++builder", "C++Builder");
             correctionAdd("c++ builder", "C++Builder"); // Does not work!
             correctionAdd("C++ builder", "C++Builder");
+            correctionAdd("C++ Builder", "C++Builder");
 
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
@@ -10773,6 +10777,7 @@ namespace OverflowHelper.core
             correctionAdd("statemaent", "statement");
             correctionAdd("statemnt", "statement");
             correctionAdd("statemen", "statement");
+            correctionAdd("Statment", "statement");
 
             correctionAdd("staritaway", "straight away");
 
@@ -15319,6 +15324,7 @@ namespace OverflowHelper.core
             correctionAdd("pareto", "Pareto principle");
             correctionAdd("Pareto's law", "Pareto principle");
             correctionAdd("Pareto", "Pareto principle");
+            correctionAdd("pareto principle", "Pareto principle");
 
             correctionAdd("polymer", "Polymer");
 
@@ -15411,6 +15417,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL server 2014", "SQL Server 2014");
 
             correctionAdd("Big Data", "big data");
+            correctionAdd("Big data", "big data");
 
             correctionAdd("everyday", "every day");
 
@@ -15504,6 +15511,7 @@ namespace OverflowHelper.core
             correctionAdd("Rubik's cube", "Rubik's Cube");
 
             correctionAdd("authorative", "authoritative");
+            correctionAdd("athoritative", "authoritative");
 
             correctionAdd("gabarge", "garbage");
             correctionAdd("garbik", "garbage");
@@ -17247,6 +17255,7 @@ namespace OverflowHelper.core
             correctionAdd("cplex", "CPLEX");
 
             correctionAdd("design patterns", "Design Patterns");
+            correctionAdd("Design patterns", "Design Patterns");
 
             correctionAdd("attemt", "attempt");
             correctionAdd("attemp", "attempt");
@@ -18443,6 +18452,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PyLint", "Pylint");
             correctionAdd("pylint", "Pylint");
+            correctionAdd("pyling", "Pylint");
 
             correctionAdd("Software Recs", "Software Recommendations");
 
@@ -20772,6 +20782,8 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio CODE", "Visual Studio Code");
             correctionAdd("vs.code", "Visual Studio Code");
             correctionAdd("Visualstudio Code", "Visual Studio Code");
+            correctionAdd("VSCod", "Visual Studio Code");
+            correctionAdd("VS code studio", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -22014,6 +22026,7 @@ namespace OverflowHelper.core
             correctionAdd("direcly", "directly");
             correctionAdd("directlly", "directly");
             correctionAdd("derectly", "directly");
+            correctionAdd("direclty", "directly");
 
             correctionAdd("dir", "directory");
             correctionAdd("directoty", "directory");
@@ -23767,6 +23780,9 @@ namespace OverflowHelper.core
 
             correctionAdd("ty", "thank you");
             correctionAdd("Ty", "thank you");
+            correctionAdd("tu", "thank you");
+            correctionAdd("Tu", "thank you");
+            correctionAdd("tnx", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -23885,6 +23901,23 @@ namespace OverflowHelper.core
 
             correctionAdd("hr", "human resources");
             correctionAdd("HR", "human resources");
+
+            correctionAdd("GTA", "Grand Theft Auto");
+            correctionAdd("gta", "Grand Theft Auto");
+
+            correctionAdd("Murphy's Law", "Murphy's law");
+
+            correctionAdd("solar wind", "SolarWinds exploit");
+
+            correctionAdd("auto detect", "autodetect");
+
+            correctionAdd("auto detected", "autodetected");
+
+            correctionAdd("definied", "defined");
+
+            correctionAdd("equiped", "equipped");
+
+            correctionAdd("thsi", "this");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying");
@@ -37063,6 +37096,22 @@ namespace OverflowHelper.core
             URL_Add("Serum Institute of India", "https://en.wikipedia.org/wiki/Serum_Institute_of_India");
 
             URL_Add("human resources", "https://en.wikipedia.org/wiki/Human_resources");
+
+            URL_Add("Grand Theft Auto", "https://en.wikipedia.org/wiki/Grand_Theft_Auto");
+
+            URL_Add("Murphy's law", "https://en.wikipedia.org/wiki/Murphy's_law");
+
+            URL_Add("SolarWinds exploit", "https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach#SolarWinds_exploit");
+
+            URL_Add("autodetect", "https://en.wiktionary.org/wiki/autodetect#Verb");
+
+            URL_Add("autodetected", "https://en.wiktionary.org/wiki/autodetect#Verb");
+
+            URL_Add("defined", "https://en.wiktionary.org/wiki/defined#Adjective");
+
+            URL_Add("equipped", "https://en.wiktionary.org/wiki/equip#Verb");
+
+            URL_Add("this", "https://en.wiktionary.org/wiki/this#Determiner");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
