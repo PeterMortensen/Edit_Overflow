@@ -9511,6 +9511,7 @@ namespace OverflowHelper.core
             correctionAdd("russian", "Russian");
 
             correctionAdd("any one", "anyone");
+            correctionAdd("any onw", "anyone");
 
             correctionAdd("eclipse", "Eclipse");
             correctionAdd("ECLIPSE", "Eclipse");
@@ -10916,6 +10917,7 @@ namespace OverflowHelper.core
             correctionAdd("initailze", "initialise");
             correctionAdd("initialze", "initialise");
             correctionAdd("inialize", "initialise");
+            correctionAdd("initailise", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -18561,6 +18563,8 @@ namespace OverflowHelper.core
             correctionAdd("altrenative", "alternative");
 
             correctionAdd("Favicon", "favicon");
+            correctionAdd("fav icon", "favicon");
+            correctionAdd("Fav icon", "favicon");
 
             correctionAdd("hanling", "handling");
 
@@ -23944,6 +23948,25 @@ namespace OverflowHelper.core
             correctionAdd("parlence", "parlance");
 
             correctionAdd("re-direct", "redirect");
+
+            correctionAdd("Algebra", "algebra");
+
+            correctionAdd("belivable", "believable");
+
+            correctionAdd("bi-lingual", "bilingual");
+            correctionAdd("2-lingual", "bilingual");
+
+            correctionAdd("declartion", "declaration");
+
+            correctionAdd("unexperienced", "inexperienced");
+
+            correctionAdd("quadri-lingual", "quadrilingual");
+            correctionAdd("4-lingual", "quadrilingual");
+
+            correctionAdd("tri-lingual", "trilingual");
+            correctionAdd("3-lingual", "trilingual");
+
+            correctionAdd("type writer", "typewriter");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37152,6 +37175,22 @@ namespace OverflowHelper.core
             URL_Add("Vladislav Artemiev", "https://en.wikipedia.org/wiki/Vladislav_Artemiev");
 
             URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
+
+            URL_Add("algebra", "https://en.wikipedia.org/wiki/Algebra");
+
+            URL_Add("believable", "https://en.wiktionary.org/wiki/believable#Adjective");
+
+            URL_Add("bilingual", "https://en.wiktionary.org/wiki/bilingual#Adjective");
+
+            URL_Add("declaration", "https://en.wiktionary.org/wiki/declaration#Noun");
+
+            URL_Add("inexperienced", "https://en.wiktionary.org/wiki/inexperienced#Adjective");
+
+            URL_Add("quadrilingual", "https://en.wiktionary.org/wiki/quadrilingual#Adjective");
+
+            URL_Add("trilingual", "https://en.wiktionary.org/wiki/trilingual#Adjective");
+
+            URL_Add("typewriter", "https://en.wikipedia.org/wiki/Typewriter");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
