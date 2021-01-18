@@ -24001,6 +24001,7 @@ namespace OverflowHelper.core
             correctionAdd("systemverilog", "SystemVerilog");
             correctionAdd("System Verilog", "SystemVerilog");
             correctionAdd("system verilog", "SystemVerilog");
+            correctionAdd("system Verilog", "SystemVerilog");
 
             correctionAdd("pld", "programmable logic device");
             correctionAdd("Programmable Logic Devices", "programmable logic device");
@@ -24028,6 +24029,8 @@ namespace OverflowHelper.core
             correctionAdd("asic", "ASIC");
             correctionAdd("ASICs", "ASIC");
             correctionAdd("Application-Specific Integrated Circuit", "ASIC");
+
+            correctionAdd("modelsim", "ModelSim");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37283,6 +37286,8 @@ namespace OverflowHelper.core
             URL_Add("SystemVerilog", "https://en.wikipedia.org/wiki/SystemVerilog");
 
             URL_Add("programmable logic device", "https://en.wikipedia.org/wiki/Programmable_logic_device");
+
+            URL_Add("ModelSim", "https://en.wikipedia.org/wiki/ModelSim");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
