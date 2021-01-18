@@ -4715,13 +4715,6 @@ namespace OverflowHelper.core
             correctionAdd("VB 6.0", "Visual Basic 6.0");
             correctionAdd("Visual Basic 6", "Visual Basic 6.0");
 
-            correctionAdd("Vb", "Visual Basic"); // Expansion.
-            correctionAdd("VB", "Visual Basic"); // Expansion. Conflict with VirtualBox.
-            correctionAdd("visual basic", "Visual Basic");
-            correctionAdd("vb", "Visual Basic"); // Conflicts?
-            correctionAdd("Visual basic", "Visual Basic");
-            correctionAdd("Visual BASIC", "Visual Basic");
-
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
             correctionAdd("et cetera", "etc.");
@@ -5615,9 +5608,6 @@ namespace OverflowHelper.core
             correctionAdd("GOF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("gang of four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("GoF book", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
-
-            correctionAdd("basic", "BASIC");
-            correctionAdd("Basic", "BASIC");
 
             correctionAdd("DC", "domain controller"); // Expansion. Direct collision with direct current.
             correctionAdd("dc", "domain controller"); // Expansion
@@ -7817,10 +7807,6 @@ namespace OverflowHelper.core
             correctionAdd("Codeacademy", "Codecademy");
             correctionAdd("Codeacademy.com", "Codecademy");
 
-            correctionAdd("QBASIC", "QBasic");
-            correctionAdd("Qbasic", "QBasic");
-            correctionAdd("qbasic", "QBasic");
-
             correctionAdd("Unit test", "unit test");
             correctionAdd("Unit Test", "unit test");
             correctionAdd("UNIT Test", "unit test");
@@ -7860,6 +7846,8 @@ namespace OverflowHelper.core
 
             correctionAdd("fpga", "FPGA");
             correctionAdd("Fpga", "FPGA");
+            correctionAdd("Field Programmable Gate Array", "FPGA");
+            correctionAdd("field-programmable gate array", "FPGA");
 
             correctionAdd("whatsapp", "WhatsApp");
             correctionAdd("Whatsapp", "WhatsApp");
@@ -11234,6 +11222,7 @@ namespace OverflowHelper.core
             correctionAdd("Duckduckgo", "DuckDuckGo");
             correctionAdd("DuckDockGo", "DuckDuckGo");
             correctionAdd("DuckDuck", "DuckDuckGo");
+            correctionAdd("DuckDuckgo", "DuckDuckGo");
 
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
@@ -18057,10 +18046,6 @@ namespace OverflowHelper.core
             correctionAdd("frb", "FRB");
             correctionAdd("fast radio burst", "FRB");
 
-            correctionAdd("GW Basic", "GW-BASIC");
-            correctionAdd("GWBASIC", "GW-BASIC");
-            correctionAdd("GW BASIC", "GW-BASIC");
-
             correctionAdd("right ascention", "right ascension");
 
             correctionAdd("sinosoidal", "sinusoidal");
@@ -24012,6 +23997,37 @@ namespace OverflowHelper.core
             correctionAdd("RX", "reactive programming");
             correctionAdd("Reactive Programming", "reactive programming");
             correctionAdd("Rx", "reactive programming");
+
+            correctionAdd("systemverilog", "SystemVerilog");
+            correctionAdd("System Verilog", "SystemVerilog");
+            correctionAdd("system verilog", "SystemVerilog");
+
+            correctionAdd("pld", "programmable logic device");
+            correctionAdd("Programmable Logic Devices", "programmable logic device");
+            correctionAdd("PLD", "programmable logic device");
+
+            correctionAdd("Vb", "Visual Basic"); // Expansion.
+            correctionAdd("VB", "Visual Basic"); // Expansion. Conflict with VirtualBox.
+            correctionAdd("visual basic", "Visual Basic");
+            correctionAdd("vb", "Visual Basic"); // Conflicts?
+            correctionAdd("Visual basic", "Visual Basic");
+            correctionAdd("Visual BASIC", "Visual Basic");
+
+            correctionAdd("basic", "BASIC");
+            correctionAdd("Basic", "BASIC");
+
+            correctionAdd("QBASIC", "QBasic");
+            correctionAdd("Qbasic", "QBasic");
+            correctionAdd("qbasic", "QBasic");
+
+            correctionAdd("GW Basic", "GW-BASIC");
+            correctionAdd("GWBASIC", "GW-BASIC");
+            correctionAdd("GW BASIC", "GW-BASIC");
+
+            correctionAdd("application-specific integrated circuit", "ASIC");
+            correctionAdd("asic", "ASIC");
+            correctionAdd("ASICs", "ASIC");
+            correctionAdd("Application-Specific Integrated Circuit", "ASIC");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37261,6 +37277,12 @@ namespace OverflowHelper.core
             URL_Add("Nils Grandelius", "https://en.wikipedia.org/wiki/Nils_Grandelius");
 
             URL_Add("antipositional", "https://en.wikipedia.org/wiki/Glossary_of_chess#A");
+
+            URL_Add("ASIC", "https://en.wikipedia.org/wiki/Application-specific_integrated_circuit");
+
+            URL_Add("SystemVerilog", "https://en.wikipedia.org/wiki/SystemVerilog");
+
+            URL_Add("programmable logic device", "https://en.wikipedia.org/wiki/Programmable_logic_device");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
