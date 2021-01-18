@@ -4358,6 +4358,7 @@ namespace OverflowHelper.core
             correctionAdd("debian jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian-Jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("debian8", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("debian-jessie", "Debian&nbsp;8 (Jessie)");
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
@@ -10720,6 +10721,7 @@ namespace OverflowHelper.core
             correctionAdd("desicion", "decision");
             correctionAdd("decission", "decision");
             correctionAdd("descision", "decision");
+            correctionAdd("desigion", "decision");
 
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
@@ -16601,6 +16603,13 @@ namespace OverflowHelper.core
 
             correctionAdd("matting", "checkmating");
             correctionAdd("mating", "checkmating");
+
+            correctionAdd("Grandelius", "Nils Grandelius");
+            correctionAdd("grandelius", "Nils Grandelius");
+
+            correctionAdd("anti-positional", "antipositional");
+            correctionAdd("Anti-positinal", "antipositional");
+            correctionAdd("anti-positinal", "antipositional");
             //
             // End of chess part
 
@@ -17965,6 +17974,9 @@ namespace OverflowHelper.core
             correctionAdd("devoped", "developed");
 
             correctionAdd("insteresting", "interesting");
+            correctionAdd("Intresting", "interesting");
+            correctionAdd("intresting", "interesting");
+            correctionAdd("intersting", "interesting");
 
             correctionAdd("kerboard", "keyboard");
             correctionAdd("kerbaord", "keyboard");
@@ -21587,6 +21599,7 @@ namespace OverflowHelper.core
             correctionAdd("every one", "everyone");
             correctionAdd("Every1", "everyone");
             correctionAdd("every1", "everyone");
+            correctionAdd("evryone", "everyone");
 
             correctionAdd("hightlight", "highlight");
 
@@ -22486,6 +22499,7 @@ namespace OverflowHelper.core
             correctionAdd("TAC", "tac");
 
             correctionAdd("udpate", "update");
+            correctionAdd("updste", "update");
 
             correctionAdd("volantory", "voluntary");
 
@@ -22792,6 +22806,8 @@ namespace OverflowHelper.core
 
             correctionAdd("MISRA-C", "MISRA C");
             correctionAdd("MISRA", "MISRA C");
+            correctionAdd("Misra", "MISRA C");
+            correctionAdd("misra", "MISRA C");
 
             correctionAdd("raf", "RAF");
 
@@ -23979,6 +23995,24 @@ namespace OverflowHelper.core
             correctionAdd("third party cookies", "third-party cookies");
             correctionAdd("Third-Party Cookies", "third-party cookies");
 
+            correctionAdd("USDC", "USD Coin");
+            correctionAdd("usdc", "USD Coin");
+
+            correctionAdd("boycot", "boycott");
+
+            correctionAdd("luv", "love");
+            correctionAdd("LUV", "love");
+
+            correctionAdd("Monad", "monad");
+
+            correctionAdd("opinonated", "opinionated");
+
+            correctionAdd("frase", "phrase");
+
+            correctionAdd("RX", "reactive programming");
+            correctionAdd("Reactive Programming", "reactive programming");
+            correctionAdd("Rx", "reactive programming");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24066,6 +24100,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Vaccine", "vaccine"); // Coronavirus
             correctionAdd("vaccin", "vaccine"); // Coronavirus
+            correctionAdd("Vax", "vaccine"); // Coronavirus
+            correctionAdd("vax", "vaccine"); // Coronavirus
 
             correctionAdd("astma", "asthma"); // Coronavirus
 
@@ -24103,6 +24139,7 @@ namespace OverflowHelper.core
             correctionAdd("Vitimin d", "vitamin D"); // Coronavirus
             correctionAdd("Vit D", "vitamin D"); // Coronavirus
             correctionAdd("vit D", "vitamin D"); // Coronavirus
+            correctionAdd("vit d", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
@@ -37206,6 +37243,24 @@ namespace OverflowHelper.core
             URL_Add("TeX - LaTeX (Stack Exchange site)", "https://tex.stackexchange.com/tour");
 
             URL_Add("third-party cookies", "https://en.wikipedia.org/wiki/HTTP_cookie#Privacy_and_third-party_cookies");
+
+            URL_Add("USD Coin", "https://en.wikipedia.org/wiki/USD_Coin");
+
+            URL_Add("boycott", "https://en.wiktionary.org/wiki/boycott#Verb");
+
+            URL_Add("love", "https://en.wiktionary.org/wiki/love#Verb");
+
+            URL_Add("monad", "https://en.wikipedia.org/wiki/Monad_(functional_programming)");
+
+            URL_Add("opinionated", "https://en.wiktionary.org/wiki/opinionated#Adjective");
+
+            URL_Add("phrase", "https://en.wiktionary.org/wiki/phrase#Noun");
+
+            URL_Add("reactive programming", "https://en.wikipedia.org/wiki/Reactive_programming");
+
+            URL_Add("Nils Grandelius", "https://en.wikipedia.org/wiki/Nils_Grandelius");
+
+            URL_Add("antipositional", "https://en.wikipedia.org/wiki/Glossary_of_chess#A");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
