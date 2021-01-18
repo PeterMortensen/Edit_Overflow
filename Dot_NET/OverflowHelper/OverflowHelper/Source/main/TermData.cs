@@ -9386,6 +9386,7 @@ namespace OverflowHelper.core
             correctionAdd("everyhing", "everything");
             correctionAdd("Everthing", "everything");
             correctionAdd("everithing", "everything");
+            correctionAdd("everyhting", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -11391,6 +11392,8 @@ namespace OverflowHelper.core
             correctionAdd("prob", "probably");
             correctionAdd("probobly", "probably");
             correctionAdd("probly", "probably");
+            correctionAdd("Propably", "probably");
+            correctionAdd("propably", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -13949,6 +13952,7 @@ namespace OverflowHelper.core
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
             correctionAdd("cross-validated", "Cross Validated");
+            correctionAdd("Cross validated", "Cross Validated");
 
             correctionAdd("enterprise resource planning", "ERP");
 
@@ -23967,6 +23971,14 @@ namespace OverflowHelper.core
             correctionAdd("3-lingual", "trilingual");
 
             correctionAdd("type writer", "typewriter");
+
+            correctionAdd("OPENDOCMAN", "OpenDocMan");
+
+            correctionAdd("TeX - LaTeX", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
+
+            correctionAdd("third party cookies", "third-party cookies");
+            correctionAdd("Third-Party Cookies", "third-party cookies");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37191,6 +37203,12 @@ namespace OverflowHelper.core
             URL_Add("trilingual", "https://en.wiktionary.org/wiki/trilingual#Adjective");
 
             URL_Add("typewriter", "https://en.wikipedia.org/wiki/Typewriter");
+
+            URL_Add("OpenDocMan", "https://en.wikipedia.org/wiki/Talk:Document_management_system#Document_management_systems_embedded_list_falls_foul_of_WP:DIRECTORY?");
+
+            URL_Add("TeX - LaTeX (Stack Exchange site)", "https://tex.stackexchange.com/tour");
+
+            URL_Add("third-party cookies", "https://en.wikipedia.org/wiki/HTTP_cookie#Privacy_and_third-party_cookies");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
