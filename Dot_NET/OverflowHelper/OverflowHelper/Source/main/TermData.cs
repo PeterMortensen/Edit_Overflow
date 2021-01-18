@@ -8003,8 +8003,6 @@ namespace OverflowHelper.core
 
             correctionAdd("slashdot", "Slashdot");
 
-            correctionAdd("Ml", "ML");
-
             correctionAdd("rust", "Rust");
             correctionAdd("RUST", "Rust");
 
@@ -9452,6 +9450,7 @@ namespace OverflowHelper.core
             correctionAdd("Machine Learning", "machine learning");
             correctionAdd("MachineLearning", "machine learning");
             correctionAdd("ml", "machine learning");
+            correctionAdd("ML", "machine learning");
 
             correctionAdd("lldb", "LLDB");
 
@@ -13951,8 +13950,8 @@ namespace OverflowHelper.core
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
-            correctionAdd("cross-validated", "Cross Validated");
-            correctionAdd("Cross validated", "Cross Validated");
+            correctionAdd("cross-validated", "Cross Validated (Stack Exchange site)");
+            correctionAdd("Cross validated", "Cross Validated (Stack Exchange site)");
 
             correctionAdd("enterprise resource planning", "ERP");
 
@@ -19123,7 +19122,7 @@ namespace OverflowHelper.core
             correctionAdd("code review", "Code Review");
             correctionAdd("CodeReview", "Code Review");
 
-            correctionAdd("database administrators", "Database Administrators");
+            correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
 
             correctionAdd("drupal answers", "Drupal Answers");
 
@@ -26549,8 +26548,6 @@ namespace OverflowHelper.core
 
             URL_Add("Slashdot", "https://en.wikipedia.org/wiki/Slashdot");
 
-            URL_Add("ML", "https://en.wikipedia.org/wiki/ML_%28programming_language%29");
-
             URL_Add("Rust", "https://en.wikipedia.org/wiki/Rust_%28programming_language%29");
 
             URL_Add("-year-old", "https://en.wiktionary.org/wiki/-year-old#Suffix");
@@ -29938,7 +29935,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows 10, 2018-04-10 Update (version 1803)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1803_(April_2018_Update)");
 
-            URL_Add("Cross Validated", "https://stats.stackexchange.com/tour");
+            URL_Add("Cross Validated (Stack Exchange site)", "https://stats.stackexchange.com/tour");
 
             URL_Add("ERP", "https://en.wikipedia.org/wiki/Enterprise_resource_planning");
 
@@ -33778,7 +33775,7 @@ namespace OverflowHelper.core
 
             URL_Add("Code Review", "https://codereview.stackexchange.com/tour");
 
-            URL_Add("Database Administrators", "https://dba.stackexchange.com/tour");
+            URL_Add("Database Administrators (Stack Exchange site)", "https://dba.stackexchange.com/tour");
 
             URL_Add("Drupal Answers", "https://drupal.stackexchange.com/tour");
 
