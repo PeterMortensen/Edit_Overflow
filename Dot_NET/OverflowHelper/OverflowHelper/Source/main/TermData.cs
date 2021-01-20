@@ -1222,6 +1222,7 @@ namespace OverflowHelper.core
             correctionAdd("OS X 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("macOS Sierra 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("Mac 10.12", "macOS v10.12 (Sierra)");
+            correctionAdd("Mac OS Sierra 10.12", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -8586,6 +8587,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hpux", "HP-UX");
             correctionAdd("HPUX", "HP-UX");
+            correctionAdd("HP-Unix", "HP-UX");
 
             correctionAdd("SUNOS", "SunOS");
             correctionAdd("sunos", "SunOS");
@@ -10146,6 +10148,7 @@ namespace OverflowHelper.core
             correctionAdd("gunna", "is going to");
             correctionAdd("gona", "is going to");
             correctionAdd("is gonna", "is going to");
+            correctionAdd("ganna", "is going to");
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
@@ -13024,6 +13027,7 @@ namespace OverflowHelper.core
             correctionAdd("mutliple", "multiple");
             correctionAdd("maltiple", "multiple");
             correctionAdd("muliple", "multiple");
+            correctionAdd("multple", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -17057,6 +17061,7 @@ namespace OverflowHelper.core
             correctionAdd("coq", "Coq");
 
             correctionAdd("Jamstack", "JAMstack");
+            correctionAdd("jamstack", "JAMstack");
 
             correctionAdd("PYo3", "PyO3");
             correctionAdd("pyo3", "PyO3");
@@ -17139,6 +17144,7 @@ namespace OverflowHelper.core
 
             correctionAdd("creative commons", "Creative Commons");
             correctionAdd("Creative Common", "Creative Commons");
+            correctionAdd("CreativeCommons", "Creative Commons");
 
             correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
             correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
@@ -21454,6 +21460,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dicussion", "discussion");
             correctionAdd("discusion", "discussion");
+            correctionAdd("discusson", "discussion");
 
             correctionAdd("brad", "broad");
 
@@ -22062,6 +22069,7 @@ namespace OverflowHelper.core
             correctionAdd("dirctory", "directory");
             correctionAdd("direcotry", "directory");
             correctionAdd("diractory", "directory");
+            correctionAdd("DIR", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
@@ -22516,6 +22524,7 @@ namespace OverflowHelper.core
             correctionAdd("partecipated", "participated");
 
             correctionAdd("serverless", "serverless computing");
+            correctionAdd("serviceless", "serverless computing");
 
             correctionAdd("strait", "straight");
 
@@ -23550,6 +23559,7 @@ namespace OverflowHelper.core
             correctionAdd("exacution", "execution");
             correctionAdd("executation", "execution");
             correctionAdd("execuion", "execution");
+            correctionAdd("executin", "execution");
 
             correctionAdd("mater", "matter");
 
@@ -24032,6 +24042,38 @@ namespace OverflowHelper.core
 
             correctionAdd("modelsim", "ModelSim");
 
+            correctionAdd("2 meter band", "2-meter band");
+            correctionAdd("2m", "2-meter band");
+
+            correctionAdd("cw", "CW");
+
+            correctionAdd("ft8", "FT8");
+
+            correctionAdd("finder", "Finder");
+
+            correctionAdd("morse code", "Morse code");
+            correctionAdd("Morse Code", "Morse code");
+
+            correctionAdd("architechtural", "architectural");
+            correctionAdd("artechtural", "architectural");
+
+            correctionAdd("dominate", "dominant");
+
+            correctionAdd("improveded", "improved");
+
+            correctionAdd("inadverently", "inadvertently");
+
+            correctionAdd("lowest-common denominator", "lowest common denominator");
+
+            correctionAdd("od", "overdose");
+            correctionAdd("OD", "overdose");
+
+            correctionAdd("sde", "software development engineer");
+            correctionAdd("SDE", "software development engineer");
+
+            correctionAdd("tid bit", "tidbit");
+            correctionAdd("tit bit", "tidbit");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24114,6 +24156,7 @@ namespace OverflowHelper.core
             correctionAdd("cdc", "CDC"); // Coronavirus
 
             correctionAdd("Spanish Flu", "Spanish flu"); // Coronavirus
+            correctionAdd("spanish flu", "Spanish flu"); // Coronavirus
 
             correctionAdd("Plandemic", "plandemic"); // Coronavirus
 
@@ -24159,10 +24202,12 @@ namespace OverflowHelper.core
             correctionAdd("Vit D", "vitamin D"); // Coronavirus
             correctionAdd("vit D", "vitamin D"); // Coronavirus
             correctionAdd("vit d", "vitamin D"); // Coronavirus
+            correctionAdd("vitimin d", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZD1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("A-Z vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
 
@@ -24171,6 +24216,12 @@ namespace OverflowHelper.core
             correctionAdd("Bionicpup", "BionicPup"); // Coronavirus
 
             correctionAdd("serum institute of India", "Serum Institute of India"); // Coronavirus
+
+            correctionAdd("NICE", "National Institute for Health and Care Excellence (UK)");
+
+            correctionAdd("PHE", "Public Health England (UK)");
+
+            correctionAdd("blood stream", "bloodstream");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -32157,7 +32208,7 @@ namespace OverflowHelper.core
 
             URL_Add("Coq", "https://en.wikipedia.org/wiki/Coq");
 
-            URL_Add("JAMstack", "https://en.wikipedia.org/wiki/Netlify#JAMstack");
+            URL_Add("JAMstack", "https://en.wikipedia.org/wiki/Netlify#Jamstack"); // https://en.wikipedia.org/wiki/Netlify#JAMstack
 
             URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
 
@@ -37288,6 +37339,38 @@ namespace OverflowHelper.core
             URL_Add("programmable logic device", "https://en.wikipedia.org/wiki/Programmable_logic_device");
 
             URL_Add("ModelSim", "https://en.wikipedia.org/wiki/ModelSim");
+
+            URL_Add("2-meter band", "https://en.wikipedia.org/wiki/2-meter_band");
+
+            URL_Add("CW", "https://en.wikipedia.org/wiki/Continuous_wave");
+
+            URL_Add("FT8", "https://en.wikipedia.org/wiki/WSJT_(amateur_radio_software)#FT8");
+
+            URL_Add("Finder", "https://en.wikipedia.org/wiki/Finder_(software)");
+
+            URL_Add("Morse code", "https://en.wikipedia.org/wiki/Morse_code");
+
+            URL_Add("architectural", "https://en.wiktionary.org/wiki/architectural#Adjective");
+
+            URL_Add("dominant", "https://en.wiktionary.org/wiki/dominant#Adjective");
+
+            URL_Add("improved", "https://en.wiktionary.org/wiki/improve#Verb");
+
+            URL_Add("inadvertently", "https://en.wiktionary.org/wiki/inadvertently#Adverb");
+
+            URL_Add("lowest common denominator", "https://en.wikipedia.org/wiki/Lowest_common_denominator#Colloquial_usage");
+
+            URL_Add("overdose", "https://en.wiktionary.org/wiki/OD#Noun");
+
+            URL_Add("software development engineer", "https://en.wikipedia.org/wiki/Programmer");
+
+            URL_Add("tidbit", "https://www.merriam-webster.com/dictionary/tidbit");
+
+            URL_Add("National Institute for Health and Care Excellence (UK)", "https://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence");
+
+            URL_Add("Public Health England (UK)", "https://en.wikipedia.org/wiki/Public_Health_England");
+
+            URL_Add("bloodstream", "https://en.wiktionary.org/wiki/bloodstream#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
