@@ -25022,7 +25022,7 @@ namespace OverflowHelper.core
 
             URL_Add("ActiveX", "https://en.wikipedia.org/wiki/ActiveX");
 
-            URL_Add("compatibility", "https://en.wiktionary.org/wiki/compatability");
+            URL_Add("compatibility", "https://en.wiktionary.org/wiki/compatibility#Noun"); // Old: https://en.wiktionary.org/wiki/compatability
 
             URL_Add("Wicket", "https://en.wikipedia.org/wiki/Apache_Wicket");
 
@@ -29540,7 +29540,7 @@ namespace OverflowHelper.core
 
             URL_Add("Lightbox", "https://en.wikipedia.org/wiki/Lightbox_(JavaScript)");
 
-            URL_Add("MERN", "https://en.wikipedia.org/wiki/Solution_stack");
+            URL_Add("MERN", "https://en.wikipedia.org/wiki/Solution_stack#Examples"); // Old: https://en.wikipedia.org/wiki/Solution_stack
 
             URL_Add("Neo4j", "https://en.wikipedia.org/wiki/Neo4j");
 
