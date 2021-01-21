@@ -896,6 +896,7 @@ namespace OverflowHelper.core
             correctionAdd("net framwork", ".NET");
             correctionAdd("net framework", ".NET");
             correctionAdd(".NETFramework", ".NET");
+            correctionAdd("#net", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
 
@@ -10781,6 +10782,7 @@ namespace OverflowHelper.core
             correctionAdd("Statment", "statement");
 
             correctionAdd("staritaway", "straight away");
+            correctionAdd("straightaway", "straight away");
 
             correctionAdd("strenhgt", "strength");
 
@@ -20828,6 +20830,7 @@ namespace OverflowHelper.core
             correctionAdd("Visualstudio Code", "Visual Studio Code");
             correctionAdd("VSCod", "Visual Studio Code");
             correctionAdd("VS code studio", "Visual Studio Code");
+            correctionAdd("Vs Code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -24122,6 +24125,17 @@ namespace OverflowHelper.core
             correctionAdd("tech", "technology");
             correctionAdd("tecnology", "technology");
             correctionAdd("tecnologie", "technology");
+
+            correctionAdd("flake8", "Flake8");
+
+            correctionAdd("PEP-8", "PEP&nbsp;8");
+            correctionAdd("PEP 8", "PEP&nbsp;8");
+
+            correctionAdd("conventition", "convention");
+
+            correctionAdd("civider", "divider");
+
+            correctionAdd("willful", "wilful");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37465,6 +37479,16 @@ namespace OverflowHelper.core
             URL_Add("Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)", "https://en.wikipedia.org/wiki/Ad26.COV2.S");
 
             URL_Add("ivermectin", "https://en.wikipedia.org/wiki/Ivermectin");
+
+            URL_Add("Flake8", "https://flake8.pycqa.org/en/latest/index.html");
+
+            URL_Add("PEP&nbsp;8", "https://pep8.org/");
+
+            URL_Add("convention", "https://en.wiktionary.org/wiki/convention#Noun");
+
+            URL_Add("divider", "https://en.wiktionary.org/wiki/divider#Noun");
+
+            URL_Add("wilful", "https://en.wiktionary.org/wiki/wilful#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
