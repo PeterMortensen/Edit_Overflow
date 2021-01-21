@@ -1516,6 +1516,7 @@ namespace OverflowHelper.core
             correctionAdd("Cyqwin", "Cygwin");
             correctionAdd("cgywin", "Cygwin");
             correctionAdd("Cggwin", "Cygwin");
+            correctionAdd("CYGWIN", "Cygwin");
 
             correctionAdd("sourceforge", "SourceForge");
             correctionAdd("source forge", "SourceForge");
@@ -2667,6 +2668,7 @@ namespace OverflowHelper.core
             correctionAdd("managment studio", "SQL Server Management Studio");
             correctionAdd("SQL server management studio", "SQL Server Management Studio");
             correctionAdd("SMSS", "SQL Server Management Studio");
+            correctionAdd("sql server managment studio", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -9206,6 +9208,7 @@ namespace OverflowHelper.core
             correctionAdd("comparism", "comparison");
             correctionAdd("comparisom", "comparison");
             correctionAdd("Comparision", "comparison");
+            correctionAdd("comparission", "comparison");
 
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
@@ -9305,6 +9308,10 @@ namespace OverflowHelper.core
             correctionAdd("compat", "compatibility");
             correctionAdd("compatibly", "compatibility");
             correctionAdd("compatiblity", "compatibility");
+            correctionAdd("Compatabilty", "compatibility");
+            correctionAdd("compatabilty", "compatibility");
+            correctionAdd("Compatabily", "compatibility");
+            correctionAdd("compatabily", "compatibility");
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
@@ -12750,6 +12757,13 @@ namespace OverflowHelper.core
             correctionAdd("Chumpolio", "Trump");
             correctionAdd("Trumpolini", "Trump");
             correctionAdd("Orange Jesus", "Trump");
+            correctionAdd("orange Maniac", "Trump");
+            correctionAdd("orange maniac", "Trump");
+            correctionAdd("orange toddler", "Trump");
+            correctionAdd("orange tan man", "Trump");
+            correctionAdd("orange man", "Trump");
+            correctionAdd("Orange baby", "Trump");
+            correctionAdd("orange baby", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -14993,6 +15007,7 @@ namespace OverflowHelper.core
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
             correctionAdd("inevatable", "inevitable");
+            correctionAdd("inevatble", "inevitable");
 
             correctionAdd("inteded", "intended");
 
@@ -16588,21 +16603,21 @@ namespace OverflowHelper.core
             correctionAdd("crab opening", "Ware Opening, Crab Variation"); // Chess
             correctionAdd("Crab Opening", "Ware Opening, Crab Variation"); // Chess
 
-            correctionAdd("lichess", "Lichess");
+            correctionAdd("lichess", "Lichess"); // Chess
 
-            correctionAdd("Norway chess", "Norway Chess");
+            correctionAdd("Norway chess", "Norway Chess"); // Chess
 
-            correctionAdd("Artemiev", "Vladislav Artemiev");
+            correctionAdd("Artemiev", "Vladislav Artemiev"); // Chess
 
-            correctionAdd("matting", "checkmating");
-            correctionAdd("mating", "checkmating");
+            correctionAdd("matting", "checkmating"); // Chess
+            correctionAdd("mating", "checkmating"); // Chess
 
-            correctionAdd("Grandelius", "Nils Grandelius");
-            correctionAdd("grandelius", "Nils Grandelius");
+            correctionAdd("Grandelius", "Nils Grandelius"); // Chess
+            correctionAdd("grandelius", "Nils Grandelius"); // Chess
 
-            correctionAdd("anti-positional", "antipositional");
-            correctionAdd("Anti-positinal", "antipositional");
-            correctionAdd("anti-positinal", "antipositional");
+            correctionAdd("anti-positional", "antipositional"); // Chess
+            correctionAdd("Anti-positinal", "antipositional"); // Chess
+            correctionAdd("anti-positinal", "antipositional"); // Chess
             //
             // End of chess part
 
@@ -18708,6 +18723,7 @@ namespace OverflowHelper.core
             correctionAdd("theb", "the");
             correctionAdd("tye", "the");
             correctionAdd("te", "the");
+            correctionAdd("tha", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -24074,6 +24090,39 @@ namespace OverflowHelper.core
             correctionAdd("tid bit", "tidbit");
             correctionAdd("tit bit", "tidbit");
 
+            correctionAdd("Godwin's Law", "Godwin's law");
+
+            correctionAdd("Macbook M1 air", "MacBook Air (M1)");
+
+            correctionAdd("twitch", "Twitch");
+
+            correctionAdd("AG", "attorney general");
+
+            correctionAdd("coherrent", "coherent");
+
+            correctionAdd("crusial", "crucial");
+
+            correctionAdd("devolced", "devolved");
+            correctionAdd("Devolced", "devolved");
+
+            correctionAdd("hydro electric", "hydroelectric power");
+            correctionAdd("Hydro electric", "hydroelectric power");
+
+            correctionAdd("hypocricy", "hypocrisy");
+
+            correctionAdd("mantain", "maintain");
+
+            correctionAdd("mataches", "matches");
+
+            correctionAdd("metall", "metal");
+
+            correctionAdd("Separation of Concerns", "separation of concerns");
+            correctionAdd("Separation of concerns", "separation of concerns");
+
+            correctionAdd("tech", "technology");
+            correctionAdd("tecnology", "technology");
+            correctionAdd("tecnologie", "technology");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24203,13 +24252,21 @@ namespace OverflowHelper.core
             correctionAdd("vit D", "vitamin D"); // Coronavirus
             correctionAdd("vit d", "vitamin D"); // Coronavirus
             correctionAdd("vitimin d", "vitamin D"); // Coronavirus
+            correctionAdd("Vitty D", "vitamin D"); // Coronavirus
+            correctionAdd("vitty D", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZD1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("A-Z vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Ox/AZ adenovirus vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Ox/AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford/Astra Zeneka", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford-Astra Zeneka", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford-AstraZeneka", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -24217,11 +24274,16 @@ namespace OverflowHelper.core
 
             correctionAdd("serum institute of India", "Serum Institute of India"); // Coronavirus
 
-            correctionAdd("NICE", "National Institute for Health and Care Excellence (UK)");
+            correctionAdd("NICE", "National Institute for Health and Care Excellence (UK)"); // Coronavirus
 
-            correctionAdd("PHE", "Public Health England (UK)");
+            correctionAdd("PHE", "Public Health England (UK)"); // Coronavirus
 
-            correctionAdd("blood stream", "bloodstream");
+            correctionAdd("blood stream", "bloodstream"); // Coronavirus
+
+            correctionAdd("Janssen COVID-19 vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Johnson & Johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+
+            correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -37371,6 +37433,38 @@ namespace OverflowHelper.core
             URL_Add("Public Health England (UK)", "https://en.wikipedia.org/wiki/Public_Health_England");
 
             URL_Add("bloodstream", "https://en.wiktionary.org/wiki/bloodstream#Noun");
+
+            URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
+
+            URL_Add("MacBook Air (M1)", "https://en.wikipedia.org/wiki/MacBook_Air_(M1)");
+
+            URL_Add("Twitch", "https://en.wikipedia.org/wiki/Twitch_(service)");
+
+            URL_Add("attorney general", "https://en.wikipedia.org/wiki/Attorney_general");
+
+            URL_Add("coherent", "https://en.wiktionary.org/wiki/coherent#Adjective");
+
+            URL_Add("crucial", "https://en.wiktionary.org/wiki/crucial#Adjective");
+
+            URL_Add("devolved", "https://en.wiktionary.org/wiki/devolve#Verb");
+
+            URL_Add("hydroelectric power", "https://en.wikipedia.org/wiki/Hydroelectricity");
+
+            URL_Add("hypocrisy", "https://en.wiktionary.org/wiki/hypocrisy#Noun");
+
+            URL_Add("maintain", "https://en.wiktionary.org/wiki/maintain#Verb");
+
+            URL_Add("matches", "https://en.wiktionary.org/wiki/match#Verb");
+
+            URL_Add("metal", "https://en.wiktionary.org/wiki/metal#Noun");
+
+            URL_Add("separation of concerns", "https://en.wikipedia.org/wiki/Separation_of_concerns");
+
+            URL_Add("technology", "https://en.wiktionary.org/wiki/technology#Noun");
+
+            URL_Add("Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)", "https://en.wikipedia.org/wiki/Ad26.COV2.S");
+
+            URL_Add("ivermectin", "https://en.wikipedia.org/wiki/Ivermectin");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
