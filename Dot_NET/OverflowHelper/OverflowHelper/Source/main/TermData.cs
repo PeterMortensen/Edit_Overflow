@@ -6062,6 +6062,7 @@ namespace OverflowHelper.core
             correctionAdd("Constructor", "constructor");
             correctionAdd("Ctor", "constructor");
             correctionAdd("construstor", "constructor");
+            correctionAdd("cotr", "constructor");
 
             correctionAdd("cli", "CLI");
 
@@ -8107,8 +8108,6 @@ namespace OverflowHelper.core
             correctionAdd("Ping", "ping");
 
             correctionAdd("dslr", "DSLR");
-
-            correctionAdd("atm", "at the moment");
 
             correctionAdd("RavenDb", "RavenDB");
             correctionAdd("ravendb", "RavenDB");
@@ -14179,6 +14178,8 @@ namespace OverflowHelper.core
             correctionAdd("announement", "announcement");
 
             correctionAdd("chanel", "channel");
+            correctionAdd("chanal", "channel");
+            correctionAdd("channal", "channel");
 
             correctionAdd("counter-act", "counteract");
 
@@ -16620,6 +16621,20 @@ namespace OverflowHelper.core
             correctionAdd("anti-positional", "antipositional"); // Chess
             correctionAdd("Anti-positinal", "antipositional"); // Chess
             correctionAdd("anti-positinal", "antipositional"); // Chess
+
+            correctionAdd("Jordan van foreest", "Jorden van Foreest"); // Chess
+            correctionAdd("Van Foreest", "Jorden van Foreest"); // Chess
+            correctionAdd("Van Forest", "Jorden van Foreest"); // Chess
+            correctionAdd("Forest", "Jorden van Foreest"); // Chess
+            correctionAdd("Forrest", "Jorden van Foreest"); // Chess
+            correctionAdd("Jorden", "Jorden van Foreest"); // Chess
+            correctionAdd("can Forrest", "Jorden van Foreest"); // Chess
+
+            correctionAdd("Tari", "Aryan Tari"); // Chess
+            correctionAdd("taris", "Aryan Tari"); // Chess
+            correctionAdd("tari", "Aryan Tari"); // Chess
+
+            correctionAdd("Vidit", "Vidit Gujrathi"); // Chess
             //
             // End of chess part
 
@@ -18533,6 +18548,7 @@ namespace OverflowHelper.core
             correctionAdd("compling", "compiling");
 
             correctionAdd("precense", "presence");
+            correctionAdd("presense", "presence");
 
             correctionAdd("refrenced", "referenced");
 
@@ -19408,6 +19424,7 @@ namespace OverflowHelper.core
             correctionAdd("Java Applet", "applet");
 
             correctionAdd("defat", "defeat");
+            correctionAdd("defet", "defeat");
 
             correctionAdd("network engineering", "Network Engineering");
 
@@ -20222,7 +20239,10 @@ namespace OverflowHelper.core
 
             correctionAdd("meritocrasi", "meritocracy");
 
+            correctionAdd("atm", "at the moment");
+
             correctionAdd("momment", "moment");
+            correctionAdd("moemnt", "moment");
 
             correctionAdd("re-opening", "reopening");
 
@@ -20831,6 +20851,7 @@ namespace OverflowHelper.core
             correctionAdd("VSCod", "Visual Studio Code");
             correctionAdd("VS code studio", "Visual Studio Code");
             correctionAdd("Vs Code", "Visual Studio Code");
+            correctionAdd("VS-code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -21572,6 +21593,7 @@ namespace OverflowHelper.core
             correctionAdd("N1", "number one");
 
             correctionAdd("over use", "overuse");
+            correctionAdd("over-use", "overuse");
 
             correctionAdd("Peer Review", "peer review");
 
@@ -24130,12 +24152,19 @@ namespace OverflowHelper.core
 
             correctionAdd("PEP-8", "PEP&nbsp;8");
             correctionAdd("PEP 8", "PEP&nbsp;8");
+            correctionAdd("PEP8", "PEP&nbsp;8");
 
             correctionAdd("conventition", "convention");
 
             correctionAdd("civider", "divider");
 
             correctionAdd("willful", "wilful");
+
+            correctionAdd("emited", "emitted");
+
+            correctionAdd("Hawking", "Stephen Hawking");
+
+            correctionAdd("complied", "compiled");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37489,6 +37518,18 @@ namespace OverflowHelper.core
             URL_Add("divider", "https://en.wiktionary.org/wiki/divider#Noun");
 
             URL_Add("wilful", "https://en.wiktionary.org/wiki/wilful#Adjective");
+
+            URL_Add("Jorden van Foreest", "https://en.wikipedia.org/wiki/Jorden_van_Foreest");
+
+            URL_Add("emitted", "https://en.wiktionary.org/wiki/emit#English");
+
+            URL_Add("Aryan Tari", "https://en.wikipedia.org/wiki/Aryan_Tari");
+
+            URL_Add("Vidit Gujrathi", "https://en.wikipedia.org/wiki/Vidit_Gujrathi");
+
+            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
+
+            URL_Add("compiled", "https://en.wiktionary.org/wiki/compile#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
