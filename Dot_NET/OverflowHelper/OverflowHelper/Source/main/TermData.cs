@@ -5075,6 +5075,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pojo", "POJO");
             correctionAdd("Pojo", "POJO");
+            correctionAdd("Plain Old Java Object", "POJO");
+            correctionAdd("plain old Java object", "POJO");
 
             correctionAdd("hql", "HQL");
 
@@ -5792,6 +5794,8 @@ namespace OverflowHelper.core
             correctionAdd("Javabeans", "JavaBeans");
             correctionAdd("JavaBean", "JavaBeans");
             correctionAdd("javabean", "JavaBeans");
+            correctionAdd("Java beans", "JavaBeans");
+            correctionAdd("Java Beans", "JavaBeans");
 
             correctionAdd("hosts", "hosts file");
 
@@ -7425,6 +7429,7 @@ namespace OverflowHelper.core
             correctionAdd("visual sudio", "Visual&nbsp;Studio");
             correctionAdd("Visual Studio", "Visual&nbsp;Studio");
             correctionAdd("visual stdio", "Visual&nbsp;Studio");
+            correctionAdd("Visiual studio", "Visual&nbsp;Studio");
 
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -10514,6 +10519,7 @@ namespace OverflowHelper.core
             correctionAdd("dependancy", "dependency"); // Common misspelling...
             correctionAdd("Dependancy", "dependency");
             correctionAdd("depedency", "dependency");
+            correctionAdd("dependcy", "dependency");
 
             // -***** NEW
             //
@@ -12843,6 +12849,7 @@ namespace OverflowHelper.core
             correctionAdd("spark", "Apache Spark");
             correctionAdd("Spark", "Apache Spark");
             correctionAdd("sPARK", "Apache Spark");
+            correctionAdd("SPARK", "Apache Spark");
 
             correctionAdd("Isreal", "Israel");
 
@@ -16777,6 +16784,7 @@ namespace OverflowHelper.core
 
             correctionAdd("componenet", "component");
             correctionAdd("componant", "component");
+            correctionAdd("coponent", "component");
 
             correctionAdd("orginal", "original");
 
@@ -19765,6 +19773,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sonar", "SonarQube");
             correctionAdd("Sonar", "SonarQube");
+            correctionAdd("sonarqube", "SonarQube");
 
             correctionAdd("aquire", "acquire");
 
@@ -22440,6 +22449,8 @@ namespace OverflowHelper.core
             correctionAdd("Arecibo", "Arecibo Observatory");
             correctionAdd("Aricebo", "Arecibo Observatory");
             correctionAdd("Arocebo", "Arecibo Observatory");
+            correctionAdd("Arecebo", "Arecibo Observatory");
+            correctionAdd("arecebo", "Arecibo Observatory");
 
             correctionAdd("Fuse", "FUSE");
 
@@ -22704,6 +22715,7 @@ namespace OverflowHelper.core
             correctionAdd("hidious", "hideous");
 
             correctionAdd("mot", "not");
+            correctionAdd("nto", "not");
 
             correctionAdd("anyother", "another");
             correctionAdd("enother", "another");
@@ -24165,6 +24177,32 @@ namespace OverflowHelper.core
             correctionAdd("Hawking", "Stephen Hawking");
 
             correctionAdd("complied", "compiled");
+
+            correctionAdd("pita", "PITA");
+
+            correctionAdd("stolon", "Stolon");
+
+            correctionAdd("controllabe", "controllable");
+
+            correctionAdd("deserialization", "deserialisation");
+            correctionAdd("de-serialization", "deserialisation");
+
+            correctionAdd("extenable", "extendable");
+
+            correctionAdd("grpc", "gRPC");
+
+            correctionAdd("restrication", "restriction");
+
+            correctionAdd("re-usability", "reusability");
+
+            correctionAdd("serialization", "serialisation");
+            correctionAdd("Searialization", "serialisation");
+            correctionAdd("searialization", "serialisation");
+
+            correctionAdd("serailize", "serialise");
+            correctionAdd("seralize", "serialise");
+            correctionAdd("seralise", "serialise");
+            correctionAdd("Serailize", "serialise");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37530,6 +37568,26 @@ namespace OverflowHelper.core
             URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
 
             URL_Add("compiled", "https://en.wiktionary.org/wiki/compile#Verb");
+
+            URL_Add("PITA", "https://en.wiktionary.org/wiki/PITA#Noun");
+
+            URL_Add("Stolon", "https://www.datazoom.io/setting-up-postgresql-on-kubernetes-using-stolon/");
+
+            URL_Add("controllable", "https://en.wiktionary.org/wiki/controllable#Adjective");
+
+            URL_Add("deserialisation", "https://en.wiktionary.org/wiki/deserialisation#Noun");
+
+            URL_Add("extendable", "https://en.wiktionary.org/wiki/extendable#Adjective");
+
+            URL_Add("gRPC", "https://en.wikipedia.org/wiki/GRPC");
+
+            URL_Add("restriction", "https://en.wiktionary.org/wiki/restriction#Noun");
+
+            URL_Add("reusability", "https://en.wiktionary.org/wiki/reusability#Noun");
+
+            URL_Add("serialisation", "https://en.wiktionary.org/wiki/serialisation#Noun");
+
+            URL_Add("serialise", "https://en.wiktionary.org/wiki/serialise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
