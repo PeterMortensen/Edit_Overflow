@@ -4815,13 +4815,6 @@ namespace OverflowHelper.core
             correctionAdd("nAnt", "NAnt");
             correctionAdd("NANT", "NAnt");
 
-            correctionAdd("Red-gate", "Redgate Software");
-            correctionAdd("Redgate", "Redgate Software");
-            correctionAdd("Red Gate", "Redgate Software");
-            correctionAdd("RedGate", "Redgate Software");
-            correctionAdd("Red Gate Software", "Redgate Software"); // The old name...
-            correctionAdd("Red-Gate", "Redgate Software");
-
             correctionAdd("swt", "SWT");
 
             correctionAdd("jetty", "Jetty");
@@ -4873,19 +4866,6 @@ namespace OverflowHelper.core
             correctionAdd("blu ray", "Blu-ray");
             correctionAdd("blueray", "Blu-ray");
             correctionAdd("Blu Ray", "Blu-ray");
-
-            correctionAdd("AV", "antivirus software");
-            correctionAdd("AntiVirus", "antivirus software");
-            correctionAdd("Anti Virus", "antivirus software");
-            correctionAdd("Anti virus", "antivirus software");
-            correctionAdd("anti virus", "antivirus software");
-            correctionAdd("antivirus", "antivirus software");
-            correctionAdd("Anti-virus", "antivirus software");
-            correctionAdd("anti-virus", "antivirus software");
-            correctionAdd("A-V", "antivirus software");
-            correctionAdd("Anti virus Software", "antivirus software");
-            correctionAdd("anti virus Software", "antivirus software");
-            correctionAdd("Anti-Virus", "antivirus software");
 
             correctionAdd("x-ray", "X-ray");
             correctionAdd("X-Ray", "X-ray");
@@ -6325,11 +6305,33 @@ namespace OverflowHelper.core
 
             correctionAdd("UpnP", "UPnP");
 
+            correctionAdd("Red-gate", "Redgate Software");
+            correctionAdd("Redgate", "Redgate Software");
+            correctionAdd("Red Gate", "Redgate Software");
+            correctionAdd("RedGate", "Redgate Software");
+            correctionAdd("Red Gate Software", "Redgate Software"); // The old name...
+            correctionAdd("Red-Gate", "Redgate Software");
+
+            correctionAdd("AV", "antivirus software");
+            correctionAdd("AntiVirus", "antivirus software");
+            correctionAdd("Anti Virus", "antivirus software");
+            correctionAdd("Anti virus", "antivirus software");
+            correctionAdd("anti virus", "antivirus software");
+            correctionAdd("antivirus", "antivirus software");
+            correctionAdd("Anti-virus", "antivirus software");
+            correctionAdd("anti-virus", "antivirus software");
+            correctionAdd("A-V", "antivirus software");
+            correctionAdd("Anti virus Software", "antivirus software");
+            correctionAdd("anti virus Software", "antivirus software");
+            correctionAdd("Anti-Virus", "antivirus software");
+
             correctionAdd("sw", "software");
             correctionAdd("SW", "software");
             correctionAdd("s/w", "software");
             correctionAdd("S/W", "software");
             correctionAdd("sofware", "software");
+            correctionAdd("Softwere", "software");
+            correctionAdd("softwere", "software");
 
             correctionAdd("HW", "hardware");
             correctionAdd("hw", "hardware");
@@ -12161,6 +12163,7 @@ namespace OverflowHelper.core
             correctionAdd("guidline", "guideline");
 
             correctionAdd("highlited", "highlighted");
+            correctionAdd("hightlighted", "highlighted");
 
             correctionAdd("idealy", "ideally");
 
@@ -12410,6 +12413,7 @@ namespace OverflowHelper.core
             correctionAdd("space X", "SpaceX");
             correctionAdd("Space X", "SpaceX");
             correctionAdd("Spacex", "SpaceX");
+            correctionAdd("Space x", "SpaceX");
 
             correctionAdd("tcpview", "TCPView");
 
@@ -13208,6 +13212,7 @@ namespace OverflowHelper.core
             correctionAdd("botten", "button");
             correctionAdd("bottun", "button");
             correctionAdd("botton", "button");
+            correctionAdd("butoon", "button");
 
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
@@ -14191,6 +14196,8 @@ namespace OverflowHelper.core
             correctionAdd("counter-act", "counteract");
 
             correctionAdd("grate", "great");
+            correctionAdd("Greate", "great");
+            correctionAdd("greate", "great");
 
             correctionAdd("psedo", "pseudo");
             correctionAdd("psuedo", "pseudo");
@@ -16429,8 +16436,8 @@ namespace OverflowHelper.core
 
             correctionAdd("morphy", "Paul Morphy"); // Chess
             correctionAdd("mophy", "Paul Morphy"); // Chess
-            correctionAdd("paul charles morphy", "Paul Morphy");
-            correctionAdd("Paul Charles Morphy", "Paul Morphy");
+            correctionAdd("paul charles morphy", "Paul Morphy"); // Chess
+            correctionAdd("Paul Charles Morphy", "Paul Morphy"); // Chess
 
             correctionAdd("four knights", "Four Knights Game"); // Chess
 
@@ -16467,12 +16474,14 @@ namespace OverflowHelper.core
             correctionAdd("roock", "rook"); // Chess
 
             correctionAdd("firouzja", "Alireza Firouzja"); // Chess
-            correctionAdd("alireza firouzja", "Alireza Firouzja");
+            correctionAdd("alireza firouzja", "Alireza Firouzja"); // Chess
+            correctionAdd("Firouzja", "Alireza Firouzja"); // Chess
+            correctionAdd("Alireza", "Alireza Firouzja"); // Chess
 
             correctionAdd("Gary Kasparov", "Garry Kasparov"); // Chess
             correctionAdd("kasporav", "Garry Kasparov"); // Chess
             correctionAdd("kasparov", "Garry Kasparov"); // Chess
-            correctionAdd("kasparove", "Garry Kasparov");
+            correctionAdd("kasparove", "Garry Kasparov"); // Chess
 
             correctionAdd("Rapid", "rapid"); // Chess
 
@@ -16642,6 +16651,11 @@ namespace OverflowHelper.core
             correctionAdd("tari", "Aryan Tari"); // Chess
 
             correctionAdd("Vidit", "Vidit Gujrathi"); // Chess
+
+            correctionAdd("Duda", "Jan-Krzysztof Duda");
+            correctionAdd("duda", "Jan-Krzysztof Duda");
+
+            correctionAdd("Rapport", "Richárd Rapport");
             //
             // End of chess part
 
@@ -18750,6 +18764,7 @@ namespace OverflowHelper.core
             correctionAdd("tye", "the");
             correctionAdd("te", "the");
             correctionAdd("tha", "the");
+            correctionAdd("fhe", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -20017,6 +20032,7 @@ namespace OverflowHelper.core
             correctionAdd("understang", "understand");
             correctionAdd("Undertand", "understand");
             correctionAdd("undertand", "understand");
+            correctionAdd("undertsand", "understand");
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
@@ -20169,6 +20185,7 @@ namespace OverflowHelper.core
 
             correctionAdd("usecase", "use case");
             correctionAdd("use-case", "use case");
+            correctionAdd("Use Case", "use case");
 
             correctionAdd("clearcase", "ClearCase");
             correctionAdd("Clearcase", "ClearCase");
@@ -24165,6 +24182,8 @@ namespace OverflowHelper.core
             correctionAdd("PEP-8", "PEP&nbsp;8");
             correctionAdd("PEP 8", "PEP&nbsp;8");
             correctionAdd("PEP8", "PEP&nbsp;8");
+            correctionAdd("pep8", "PEP&nbsp;8");
+            correctionAdd("pep 8", "PEP&nbsp;8");
 
             correctionAdd("conventition", "convention");
 
@@ -24203,6 +24222,42 @@ namespace OverflowHelper.core
             correctionAdd("seralize", "serialise");
             correctionAdd("seralise", "serialise");
             correctionAdd("Serailize", "serialise");
+
+            correctionAdd("Academia", "Academia (Stack Exchange site)");
+
+            correctionAdd("iceland", "Iceland");
+
+            correctionAdd("newton raphson", "Newton–Raphson");
+
+            correctionAdd("Philosophy", "Philosophy (Stack Exchange site)");
+
+            correctionAdd("ttl", "TTL");
+
+            correctionAdd("Wolfram Alpha", "WolframAlpha");
+            correctionAdd("wolfram alpha", "WolframAlpha");
+
+            correctionAdd("defs", "definitions");
+
+            correctionAdd("detaikl", "detail");
+
+            correctionAdd("Female", "female");
+
+            correctionAdd("mayor", "major");
+
+            correctionAdd("Male", "male");
+
+            correctionAdd("isoelectric point", "pI");
+
+            correctionAdd("Peptide", "peptide");
+
+            correctionAdd("polate", "polite");
+
+            correctionAdd("pre-formatted", "preformatted");
+            correctionAdd("pre-formated", "preformatted");
+
+            correctionAdd("Protein", "protein");
+
+            correctionAdd("thankfull", "thankful");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -37588,6 +37643,44 @@ namespace OverflowHelper.core
             URL_Add("serialisation", "https://en.wiktionary.org/wiki/serialisation#Noun");
 
             URL_Add("serialise", "https://en.wiktionary.org/wiki/serialise#Verb");
+
+            URL_Add("Academia (Stack Exchange site)", "https://academia.stackexchange.com/tour");
+
+            URL_Add("Iceland", "https://en.wikipedia.org/wiki/Iceland");
+
+            URL_Add("Newton–Raphson", "https://en.wikipedia.org/wiki/Newton's_method");
+
+            URL_Add("Philosophy (Stack Exchange site)", "https://philosophy.stackexchange.com/tour");
+
+            URL_Add("TTL", "https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic");
+
+            URL_Add("WolframAlpha", "https://en.wikipedia.org/wiki/WolframAlpha");
+
+            URL_Add("definitions", "https://en.wiktionary.org/wiki/definition#Noun");
+
+            URL_Add("detail", "https://en.wiktionary.org/wiki/detail#Noun");
+
+            URL_Add("female", "https://en.wiktionary.org/wiki/male#Adjective");
+
+            URL_Add("major", "https://en.wiktionary.org/wiki/major#Adjective");
+
+            URL_Add("male", "https://en.wiktionary.org/wiki/male#Adjective");
+
+            URL_Add("pI", "https://en.wikipedia.org/wiki/Isoelectric_point");
+
+            URL_Add("peptide", "https://en.wikipedia.org/wiki/Peptide");
+
+            URL_Add("polite", "https://en.wiktionary.org/wiki/polite#Adjective");
+
+            URL_Add("preformatted", "https://en.wiktionary.org/wiki/preformatted#Adjective");
+
+            URL_Add("protein", "https://en.wikipedia.org/wiki/Protein");
+
+            URL_Add("thankful", "https://en.wiktionary.org/wiki/thankful#Adjective");
+
+            URL_Add("Jan-Krzysztof Duda", "https://en.wikipedia.org/wiki/Jan-Krzysztof_Duda");
+
+            URL_Add("Richárd Rapport", "https://en.wikipedia.org/wiki/Rich%C3%A1rd_Rapport#2019");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
