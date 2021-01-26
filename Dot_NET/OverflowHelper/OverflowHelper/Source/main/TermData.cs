@@ -1584,6 +1584,7 @@ namespace OverflowHelper.core
             correctionAdd("DRUPAL", "Drupal");
 
             correctionAdd("pyqt", "PyQt");
+            correctionAdd("pyQt", "PyQt");
 
             correctionAdd("GMail", "Gmail");
             correctionAdd("gmail", "Gmail");
@@ -13002,6 +13003,7 @@ namespace OverflowHelper.core
             correctionAdd("seting", "setting");
             correctionAdd("settign", "setting");
             correctionAdd("setttnig", "setting");
+            correctionAdd("Seting", "setting");
 
             correctionAdd("timezone", "time zone");
             correctionAdd("timzeone", "time zone");
@@ -15650,6 +15652,7 @@ namespace OverflowHelper.core
 
             correctionAdd("goood", "good");
             correctionAdd("gud", "good");
+            correctionAdd("goot", "good");
 
             correctionAdd("quess", "guess");
 
@@ -16570,6 +16573,8 @@ namespace OverflowHelper.core
             correctionAdd("Kan", "Kan (Paulsen) Variation"); // Chess
 
             correctionAdd("Harikrishna", "Pentala Harikrishna"); // Chess
+            correctionAdd("harichrisna", "Pentala Harikrishna"); // Chess
+            correctionAdd("harikrisna", "Pentala Harikrishna"); // Chess
 
             correctionAdd("Chucky", "Vassily Ivanchuk"); // Chess
             correctionAdd("chucky", "Vassily Ivanchuk"); // Chess
@@ -16656,6 +16661,11 @@ namespace OverflowHelper.core
             correctionAdd("duda", "Jan-Krzysztof Duda");
 
             correctionAdd("Rapport", "Richárd Rapport");
+
+            correctionAdd("nezmedtimov", "Rashid Nezhmetdinov");
+
+            correctionAdd("anand", "Viswanathan Anand");
+            correctionAdd("Anand", "Viswanathan Anand");
             //
             // End of chess part
 
@@ -24259,6 +24269,37 @@ namespace OverflowHelper.core
 
             correctionAdd("thankfull", "thankful");
 
+            correctionAdd("death valley", "Death Valley");
+
+            correctionAdd("Eartth", "Earth");
+
+            correctionAdd("bend", "bent");
+
+            correctionAdd("groundeffect", "ground effect");
+
+            correctionAdd("IMRECT", "imrect");
+            correctionAdd("Imrect", "imrect");
+
+            correctionAdd("IAS", "indicated airspeed");
+            correctionAdd("Indicated Air Speed", "indicated airspeed");
+
+            correctionAdd("percent-encoded", "percent-encoding");
+
+            correctionAdd("round-ish", "roundish");
+
+            correctionAdd("Sea Level", "sea level");
+
+            correctionAdd("spin orbital coupling", "spin–orbit coupling");
+            correctionAdd("Spin orbital coupling", "spin–orbit coupling");
+
+            correctionAdd("tbr", "tournament performance rating");
+            correctionAdd("TPR", "tournament performance rating");
+            correctionAdd("tpr", "tournament performance rating");
+            correctionAdd("TBR", "tournament performance rating");
+
+            correctionAdd("KTAS", "true airspeed");
+            correctionAdd("TAS", "true airspeed");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24342,6 +24383,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Spanish Flu", "Spanish flu"); // Coronavirus
             correctionAdd("spanish flu", "Spanish flu"); // Coronavirus
+            correctionAdd("spanish flue", "Spanish flu"); // Coronavirus
 
             correctionAdd("Plandemic", "plandemic"); // Coronavirus
 
@@ -24420,6 +24462,9 @@ namespace OverflowHelper.core
             correctionAdd("Johnson & Johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
+
+            correctionAdd("Polymerase chain reaction", "PCR");
+            correctionAdd("pcr", "PCR");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -37681,6 +37726,36 @@ namespace OverflowHelper.core
             URL_Add("Jan-Krzysztof Duda", "https://en.wikipedia.org/wiki/Jan-Krzysztof_Duda");
 
             URL_Add("Richárd Rapport", "https://en.wikipedia.org/wiki/Rich%C3%A1rd_Rapport#2019");
+
+            URL_Add("Death Valley", "https://en.wikipedia.org/wiki/Death_Valley");
+
+            URL_Add("Earth", "https://en.wikipedia.org/wiki/Earth");
+
+            URL_Add("PCR", "https://en.wikipedia.org/wiki/Polymerase_chain_reaction");
+
+            URL_Add("bent", "https://en.wiktionary.org/wiki/bent#Adjective");
+
+            URL_Add("ground effect", "https://en.wikipedia.org/wiki/Ground_effect_(aerodynamics)");
+
+            URL_Add("imrect", "https://www.mathworks.com/help/images/ref/imrect.html");
+
+            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
+
+            URL_Add("percent-encoding", "https://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("roundish", "https://en.wiktionary.org/wiki/roundish#Adjective");
+
+            URL_Add("sea level", "https://en.wikipedia.org/wiki/Sea_level");
+
+            URL_Add("spin–orbit coupling", "https://en.wikipedia.org/wiki/Spin%E2%80%93orbit_interaction");
+
+            URL_Add("tournament performance rating", "https://en.wikipedia.org/wiki/TPR");
+
+            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
+
+            URL_Add("Rashid Nezhmetdinov", "https://en.wikipedia.org/wiki/Rashid_Nezhmetdinov");
+
+            URL_Add("Viswanathan Anand", "https://en.wikipedia.org/wiki/Viswanathan_Anand");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
