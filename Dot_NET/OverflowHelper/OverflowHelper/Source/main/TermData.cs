@@ -3868,6 +3868,7 @@ namespace OverflowHelper.core
             correctionAdd("environement variable", "environment variable");
             correctionAdd("environment var", "environment variable");
             correctionAdd("env. variable", "environment variable");
+            correctionAdd("Environment variable", "environment variable");
 
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
@@ -8257,6 +8258,8 @@ namespace OverflowHelper.core
             correctionAdd("work arround", "workaround");
             correctionAdd("workauround", "workaround");
             correctionAdd("Work around", "workaround");
+            correctionAdd("Workarround", "workaround");
+            correctionAdd("workarround", "workaround");
 
             correctionAdd("thunderbird", "Thunderbird");
             correctionAdd("thunterbird", "Thunderbird");
@@ -9902,6 +9905,7 @@ namespace OverflowHelper.core
             correctionAdd("Tek", "Tektronix");
             correctionAdd("tektronix", "Tektronix");
             correctionAdd("tek", "Tektronix");
+            correctionAdd("Textronix", "Tektronix");
 
             correctionAdd("gpib", "GPIB");
 
@@ -11586,6 +11590,7 @@ namespace OverflowHelper.core
             correctionAdd("alrdy", "already");
             correctionAdd("all ready", "already");
             correctionAdd("allredy", "already");
+            correctionAdd("aready", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -12975,6 +12980,7 @@ namespace OverflowHelper.core
             correctionAdd("anonynous", "anonymous");
             correctionAdd("anomyous", "anonymous");
             correctionAdd("anynomous", "anonymous");
+            correctionAdd("anononymous", "anonymous");
 
             correctionAdd("aproved", "approved");
 
@@ -20404,6 +20410,7 @@ namespace OverflowHelper.core
             correctionAdd("techique", "technique");
 
             correctionAdd("Text Editor", "text editor");
+            correctionAdd("text Editor", "text editor");
 
             correctionAdd("Outsystems", "OutSystems");
 
@@ -24300,6 +24307,20 @@ namespace OverflowHelper.core
             correctionAdd("KTAS", "true airspeed");
             correctionAdd("TAS", "true airspeed");
 
+            correctionAdd("8dot3", "8.3 filename");
+            correctionAdd("8.3", "8.3 filename");
+
+            correctionAdd("AZ", "Arizona, United States");
+
+            correctionAdd("RegEdit.exe", "RegEdit");
+            correctionAdd("regedit", "RegEdit");
+
+            correctionAdd("deliverys", "deliveries");
+
+            correctionAdd("erron", "error");
+
+            correctionAdd("re-boot", "reboot");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24442,9 +24463,12 @@ namespace OverflowHelper.core
             correctionAdd("Oxford/Astra Zeneka", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford-Astra Zeneka", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford-AstraZeneka", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford–AstraZeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford–AstraZeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
+            correctionAdd("astrazeneca", "AstraZeneca");
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -24460,11 +24484,20 @@ namespace OverflowHelper.core
 
             correctionAdd("Janssen COVID-19 vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Johnson & Johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Jansen Covid vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Janssen Covid vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
 
-            correctionAdd("Polymerase chain reaction", "PCR");
-            correctionAdd("pcr", "PCR");
+            correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
+            correctionAdd("pcr", "PCR"); // Coronavirus
+
+            correctionAdd("pfilzer", "Pfizer"); // Coronavirus
+
+            correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
+            correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
+
+            correctionAdd("pandami", "pandemia"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -37756,6 +37789,24 @@ namespace OverflowHelper.core
             URL_Add("Rashid Nezhmetdinov", "https://en.wikipedia.org/wiki/Rashid_Nezhmetdinov");
 
             URL_Add("Viswanathan Anand", "https://en.wikipedia.org/wiki/Viswanathan_Anand");
+
+            URL_Add("8.3 filename", "https://en.wikipedia.org/wiki/8.3_filename");
+
+            URL_Add("Arizona, United States", "https://en.wikipedia.org/wiki/Arizona");
+
+            URL_Add("RegEdit", "https://en.wikipedia.org/wiki/Windows_Registry#Registry_editors");
+
+            URL_Add("deliveries", "https://en.wiktionary.org/wiki/delivery#Noun");
+
+            URL_Add("error", "https://en.wiktionary.org/wiki/error#Noun");
+
+            URL_Add("reboot", "https://en.wiktionary.org/wiki/reboot#Verb");
+
+            URL_Add("Pfizer", "https://en.wikipedia.org/wiki/Pfizer");
+
+            URL_Add("Pfizer–BioNTech COVID-19 vaccine", "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine");
+
+            URL_Add("pandemia", "https://en.wiktionary.org/wiki/pandemia#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
