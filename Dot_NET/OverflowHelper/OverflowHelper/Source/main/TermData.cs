@@ -751,6 +751,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL server 2008", "SQL Server 2008");
             correctionAdd("MSSQL-2008", "SQL Server 2008");
             correctionAdd("MS SQL-2008", "SQL Server 2008");
+            correctionAdd("sqlserver 2008", "SQL Server 2008");
 
             correctionAdd("SQL SERVER 2012", "SQL Server 2012");
             correctionAdd("SQL2012", "SQL Server 2012");
@@ -2706,6 +2707,7 @@ namespace OverflowHelper.core
             correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
             correctionAdd("virtualENV", "virtualenv");
             correctionAdd("virt env", "virtualenv");
+            correctionAdd("virtual env", "virtualenv");
 
             correctionAdd("r", "R"); // Not actually observed.
 
@@ -2815,6 +2817,7 @@ namespace OverflowHelper.core
             correctionAdd("So", "Stack&nbsp;Overflow");
             correctionAdd("sof", "Stack&nbsp;Overflow");
             correctionAdd("SOF", "Stack&nbsp;Overflow");
+            correctionAdd("overstackflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -10585,6 +10588,7 @@ namespace OverflowHelper.core
 
             correctionAdd("brake point", "breakpoint");
             correctionAdd("break point", "breakpoint");
+            correctionAdd("break-point", "breakpoint");
 
             correctionAdd("up to date", "up-to-date");
             correctionAdd("up2date", "up-to-date");
@@ -13999,6 +14003,8 @@ namespace OverflowHelper.core
 
             correctionAdd("cross-validated", "Cross Validated (Stack Exchange site)");
             correctionAdd("Cross validated", "Cross Validated (Stack Exchange site)");
+            correctionAdd("Cross Validated", "Cross Validated (Stack Exchange site)");
+            correctionAdd("cross validated", "Cross Validated (Stack Exchange site)");
 
             correctionAdd("enterprise resource planning", "ERP");
 
@@ -15864,6 +15870,7 @@ namespace OverflowHelper.core
             correctionAdd("Enviroment", "environment");
             correctionAdd("envrionment", "environment");
             correctionAdd("environmnet", "environment");
+            correctionAdd("environament", "environment");
 
             // Consider:
             //   weaher
@@ -17564,6 +17571,7 @@ namespace OverflowHelper.core
             correctionAdd("february", "February");
 
             correctionAdd("january", "January");
+            correctionAdd("Jan", "January");
 
             correctionAdd("LightTable", "Light Table");
 
@@ -22808,6 +22816,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Web browser", "web browser");
             correctionAdd("Web Browser", "web browser");
+            correctionAdd("Web-Browser", "web browser");
 
             correctionAdd("check box", "checkbox");
             correctionAdd("check-box", "checkbox");
@@ -24066,6 +24075,9 @@ namespace OverflowHelper.core
             correctionAdd("Murphy's Law", "Murphy's law");
 
             correctionAdd("solar wind", "SolarWinds exploit");
+            correctionAdd("SolarWind", "SolarWinds exploit");
+            correctionAdd("solarwind", "SolarWinds exploit");
+            correctionAdd("solarwinds", "SolarWinds exploit");
 
             correctionAdd("auto detect", "autodetect");
 
@@ -24410,6 +24422,30 @@ namespace OverflowHelper.core
 
             correctionAdd("un-asked", "unasked");
 
+            correctionAdd("Pro Mini", "Arduino Pro Mini");
+            correctionAdd("ProMini", "Arduino Pro Mini");
+
+            correctionAdd("disqus", "Disqus");
+
+            correctionAdd("du-pont connector", "Dupont connector");
+            correctionAdd("dupont connector", "Dupont connector");
+            correctionAdd("du-pont cable", "Dupont connector");
+
+            correctionAdd("esp32", "ESP32");
+
+            correctionAdd("English language and usage", "English Language & Usage (Stack Exchange site)");
+
+            correctionAdd("HL2", "Half-Life 2");
+
+            correctionAdd("Pi Pico", "Raspberry Pi Pico");
+            correctionAdd("pi pico", "Raspberry Pi Pico");
+
+            correctionAdd("blue-print", "blueprint");
+
+            correctionAdd("expresion", "expression");
+
+            correctionAdd("survery", "survey");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24463,6 +24499,7 @@ namespace OverflowHelper.core
             correctionAdd("convid", "COVID-19"); // Coronavirus
             correctionAdd("C19", "COVID-19"); // Coronavirus
             correctionAdd("corona pandemic", "COVID-19"); // Coronavirus
+            correctionAdd("this pandemic", "COVID-19"); // Coronavirus
 
             correctionAdd("Corona Virus", "coronavirus"); // Coronavirus
             correctionAdd("Coronavirus", "coronavirus"); // Coronavirus
@@ -37946,6 +37983,26 @@ namespace OverflowHelper.core
             URL_Add("unasked", "https://en.wiktionary.org/wiki/unasked#Adjective");
 
             URL_Add("Savielly Tartakower", "https://en.wikipedia.org/wiki/Savielly_Tartakowergg");
+
+            URL_Add("Arduino Pro Mini", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Official");
+
+            URL_Add("Disqus", "https://en.wikipedia.org/wiki/Disqus");
+
+            URL_Add("Dupont connector", "http://kerryburton.com/dupont-connectors/");
+
+            URL_Add("ESP32", "https://en.wikipedia.org/wiki/ESP32");
+
+            URL_Add("English Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
+
+            URL_Add("Half-Life 2", "https://en.wikipedia.org/wiki/Half-Life_2");
+
+            URL_Add("Raspberry Pi Pico", "https://en.wikipedia.org/wiki/Raspberry_Pi#Generations");
+
+            URL_Add("blueprint", "https://en.wiktionary.org/wiki/blueprint#Noun");
+
+            URL_Add("expression", "https://en.wiktionary.org/wiki/expression#Noun");
+
+            URL_Add("survey", "https://en.wiktionary.org/wiki/survey#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
