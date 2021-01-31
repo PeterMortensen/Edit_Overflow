@@ -1801,6 +1801,7 @@ namespace OverflowHelper.core
             correctionAdd("Net-beans", "NetBeans");
             correctionAdd("netbean", "NetBeans");
             correctionAdd("NETBEANS", "NetBeans");
+            correctionAdd("netBeans", "NetBeans");
 
             correctionAdd("solr", "Solr");
             correctionAdd("SolR", "Solr");
@@ -3873,6 +3874,9 @@ namespace OverflowHelper.core
             correctionAdd("environment var", "environment variable");
             correctionAdd("env. variable", "environment variable");
             correctionAdd("Environment variable", "environment variable");
+            correctionAdd("env's variable", "environment variable");
+            correctionAdd("ENV variable", "environment variable");
+            correctionAdd("envvar", "environment variable");
 
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
@@ -4324,6 +4328,8 @@ namespace OverflowHelper.core
             //correctionAdd("becasue", "because");
             correctionAdd("Bc", "because");
             correctionAdd("couse", "because");
+            correctionAdd("becEuse", "because");
+            correctionAdd("beceuse", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -12155,6 +12161,7 @@ namespace OverflowHelper.core
             correctionAdd("windows-1252", "Windows-1252");
             correctionAdd("CP1252", "Windows-1252");
             correctionAdd("CP-1252", "Windows-1252");
+            correctionAdd("cp1252", "Windows-1252");
 
             correctionAdd("appricate", "appreciate");
             correctionAdd("appreicate", "appreciate");
@@ -12231,6 +12238,7 @@ namespace OverflowHelper.core
 
             correctionAdd("debuging", "debugging");
             correctionAdd("debuggin", "debugging");
+            correctionAdd("debug", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -20207,6 +20215,7 @@ namespace OverflowHelper.core
             correctionAdd("swede", "Swede");
 
             correctionAdd("descripte", "describe");
+            correctionAdd("decribe", "describe");
 
             correctionAdd("interial", "inertial");
 
@@ -21820,6 +21829,7 @@ namespace OverflowHelper.core
             correctionAdd("islam", "Islam");
 
             correctionAdd("accleration", "acceleration");
+            correctionAdd("accelaration", "acceleration");
 
             correctionAdd("astrominer", "astronomer");
 
@@ -24446,6 +24456,39 @@ namespace OverflowHelper.core
 
             correctionAdd("survery", "survey");
 
+            correctionAdd("canto", "Canto");
+            correctionAdd("Kento", "Canto");
+
+            correctionAdd("elfeed", "Elfeed");
+
+            correctionAdd("Newsflash", "NewsFlash");
+
+            correctionAdd("newsbeuter", "Newsbeuter");
+            correctionAdd("News buiter", "Newsbeuter");
+
+            correctionAdd("News Boat", "Newsboat");
+
+            correctionAdd("pandoc", "Pandoc");
+
+            correctionAdd("react-testing-library", "React Testing Library");
+
+            correctionAdd("SWAY", "Sway");
+
+            correctionAdd("UCS2", "UCS-2");
+
+            correctionAdd("emojies", "emojis");
+
+            correctionAdd("long-run", "long run");
+
+            correctionAdd("NOICE", "nice");
+            correctionAdd("Noyce", "nice");
+            correctionAdd("noyce", "nice");
+            correctionAdd("N O I C E", "nice");
+
+            correctionAdd("snap shot", "snapshot");
+
+            correctionAdd("util", "utility");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24538,6 +24581,7 @@ namespace OverflowHelper.core
             correctionAdd("vaccin", "vaccine"); // Coronavirus
             correctionAdd("Vax", "vaccine"); // Coronavirus
             correctionAdd("vax", "vaccine"); // Coronavirus
+            correctionAdd("VAX", "vaccine");
 
             correctionAdd("astma", "asthma"); // Coronavirus
 
@@ -24612,6 +24656,7 @@ namespace OverflowHelper.core
             correctionAdd("Johnson & Johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Jansen Covid vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Janssen Covid vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("J+J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
 
@@ -38003,6 +38048,34 @@ namespace OverflowHelper.core
             URL_Add("expression", "https://en.wiktionary.org/wiki/expression#Noun");
 
             URL_Add("survey", "https://en.wiktionary.org/wiki/survey#Noun");
+
+            URL_Add("Canto", "https://en.wikipedia.org/wiki/Canto_(news_aggregator)");
+
+            URL_Add("Elfeed", "https://www.emacswiki.org/emacs/Elfeed");
+
+            URL_Add("NewsFlash", "https://jangernert.gitlab.io/blog/posts/news-flash/");
+
+            URL_Add("Newsbeuter", "https://en.wikipedia.org/wiki/Newsbeuter");
+
+            URL_Add("Newsboat", "https://newsboat.org/");
+
+            URL_Add("Pandoc", "https://en.wikipedia.org/wiki/Pandoc");
+
+            URL_Add("React Testing Library", "https://testing-library.com/docs/react-testing-library/intro/");
+
+            URL_Add("Sway", "https://en.wikipedia.org/wiki/Sway_(window_manager)");
+
+            URL_Add("UCS-2", "https://en.wikipedia.org/wiki/Universal_Coded_Character_Set#Encoding_forms");
+
+            URL_Add("emojis", "https://en.wiktionary.org/wiki/emoji#Noun");
+
+            URL_Add("long run", "https://en.wiktionary.org/wiki/long_run#Noun");
+
+            URL_Add("nice", "https://en.wiktionary.org/wiki/nice#Interjection");
+
+            URL_Add("snapshot", "https://en.wiktionary.org/wiki/snapshot#Noun");
+
+            URL_Add("utility", "https://en.wiktionary.org/wiki/utility#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
