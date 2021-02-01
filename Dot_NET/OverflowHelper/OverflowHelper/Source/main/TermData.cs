@@ -10228,6 +10228,7 @@ namespace OverflowHelper.core
             correctionAdd("parantetis", "parenthesis");
             correctionAdd("paranthetis", "parenthesis");
             correctionAdd("parathesis", "parenthesis");
+            correctionAdd("parenthese", "parenthesis");
 
             correctionAdd("parens", "parentheses");
             correctionAdd("parantheses", "parentheses");
@@ -10521,6 +10522,7 @@ namespace OverflowHelper.core
             correctionAdd("occurrance", "occurrence");
             correctionAdd("occurance", "occurrence");
             correctionAdd("occurrrence", "occurrence");
+            correctionAdd("Occurance", "occurrence");
 
             correctionAdd("cred", "credential");
             correctionAdd("crendentials", "credential");
@@ -11398,6 +11400,9 @@ namespace OverflowHelper.core
 
             correctionAdd("R-Studio", "RStudio");
             correctionAdd("rStudio", "RStudio");
+            correctionAdd("R-studio", "RStudio");
+            correctionAdd("R studio", "RStudio");
+            correctionAdd("R Studio", "RStudio");
 
             correctionAdd("brodcast", "broadcast");
 
@@ -12754,6 +12759,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Unix&Linux", "Unix & Linux");
             correctionAdd("U&L", "Unix & Linux");
+            correctionAdd("unix & linux", "Unix & Linux");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -13188,6 +13194,8 @@ namespace OverflowHelper.core
             correctionAdd("Hi Hi World", "Hello, World!");
             correctionAdd("hello, WORLD", "Hello, World!");
             correctionAdd("hello WORLD", "Hello, World!");
+            correctionAdd("hello worls", "Hello, World!");
+            correctionAdd("hello worlds", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -13206,6 +13214,8 @@ namespace OverflowHelper.core
             correctionAdd("get-unique", "Get-Unique");
 
             correctionAdd("IPS", "Interpersonal Skills (Stack Exchange site)");
+            correctionAdd("interpersonal skills", "Interpersonal Skills (Stack Exchange site)");
+            correctionAdd("Interpersonal Skills", "Interpersonal Skills (Stack Exchange site)");
 
             correctionAdd("kerberos", "Kerberos");
 
@@ -14159,6 +14169,7 @@ namespace OverflowHelper.core
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
+            correctionAdd("highlighitng", "highlighting");
 
             correctionAdd("misterious", "mysterious");
 
@@ -16527,6 +16538,7 @@ namespace OverflowHelper.core
             correctionAdd("alireza firouzja", "Alireza Firouzja"); // Chess
             correctionAdd("Firouzja", "Alireza Firouzja"); // Chess
             correctionAdd("Alireza", "Alireza Firouzja"); // Chess
+            correctionAdd("alireza", "Alireza Firouzja"); // Chess
 
             correctionAdd("Gary Kasparov", "Garry Kasparov"); // Chess
             correctionAdd("kasporav", "Garry Kasparov"); // Chess
@@ -16698,6 +16710,14 @@ namespace OverflowHelper.core
             correctionAdd("Forrest", "Jorden van Foreest"); // Chess
             correctionAdd("Jorden", "Jorden van Foreest"); // Chess
             correctionAdd("can Forrest", "Jorden van Foreest"); // Chess
+            correctionAdd("van foreest", "Jorden van Foreest"); // Chess
+            correctionAdd("van Jorden", "Jorden van Foreest"); // Chess
+            correctionAdd("Jordan", "Jorden van Foreest"); // Chess
+            correctionAdd("forresst", "Jorden van Foreest"); // Chess
+            correctionAdd("van forest", "Jorden van Foreest"); // Chess
+            correctionAdd("van Foreest", "Jorden van Foreest"); // Chess
+            correctionAdd("Foreest", "Jorden van Foreest"); // Chess
+            correctionAdd("foreest", "Jorden van Foreest"); // Chess
 
             correctionAdd("Tari", "Aryan Tari"); // Chess
             correctionAdd("taris", "Aryan Tari"); // Chess
@@ -16705,19 +16725,24 @@ namespace OverflowHelper.core
 
             correctionAdd("Vidit", "Vidit Gujrathi"); // Chess
 
-            correctionAdd("Duda", "Jan-Krzysztof Duda");
-            correctionAdd("duda", "Jan-Krzysztof Duda");
+            correctionAdd("Duda", "Jan-Krzysztof Duda"); // Chess
+            correctionAdd("duda", "Jan-Krzysztof Duda"); // Chess
 
-            correctionAdd("Rapport", "Richárd Rapport");
+            correctionAdd("Rapport", "Richárd Rapport"); // Chess
 
-            correctionAdd("nezmedtimov", "Rashid Nezhmetdinov");
+            correctionAdd("nezmedtimov", "Rashid Nezhmetdinov"); // Chess
 
-            correctionAdd("anand", "Viswanathan Anand");
-            correctionAdd("Anand", "Viswanathan Anand");
-            correctionAdd("Vishy", "Viswanathan Anand");
-            correctionAdd("vishy", "Viswanathan Anand");
+            correctionAdd("anand", "Viswanathan Anand"); // Chess
+            correctionAdd("Anand", "Viswanathan Anand"); // Chess
+            correctionAdd("Vishy", "Viswanathan Anand"); // Chess
+            correctionAdd("vishy", "Viswanathan Anand"); // Chess
 
-            correctionAdd("tartakower", "Savielly Tartakower");
+            correctionAdd("tartakower", "Savielly Tartakower"); // Chess
+
+            correctionAdd("SB Score", "Sonneborn–Berger score"); // Chess
+            correctionAdd("sb score", "Sonneborn–Berger score"); // Chess
+            correctionAdd("Sonneborn-Berger score", "Sonneborn–Berger score"); // Chess
+            correctionAdd("SB score", "Sonneborn–Berger score"); // Chess
             //
             // End of chess part
 
@@ -17422,6 +17447,7 @@ namespace OverflowHelper.core
             correctionAdd("Heigher", "higher");
 
             correctionAdd("Last", "last");
+            correctionAdd("lady", "last");
 
             correctionAdd("non-exotic", "nonexotic");
             correctionAdd("non exotic", "nonexotic");
@@ -17580,6 +17606,7 @@ namespace OverflowHelper.core
 
             correctionAdd("january", "January");
             correctionAdd("Jan", "January");
+            correctionAdd("Janaury", "January");
 
             correctionAdd("LightTable", "Light Table");
 
@@ -21344,6 +21371,7 @@ namespace OverflowHelper.core
             correctionAdd("node-webkit", "NW.js");
 
             correctionAdd("eval", "evaluation");
+            correctionAdd("evaluatoin", "evaluation");
 
             correctionAdd("outrage", "outage");
 
@@ -22367,6 +22395,10 @@ namespace OverflowHelper.core
             correctionAdd("UPPER case", "uppercase");
 
             correctionAdd("arcolinux", "ArcoLinux");
+            correctionAdd("Agro Linux", "ArcoLinux");
+            correctionAdd("Arco Linux", "ArcoLinux");
+            correctionAdd("AgroLinux", "ArcoLinux");
+            correctionAdd("arco linux", "ArcoLinux");
 
             correctionAdd("Class A", "Class A amplifier");
 
@@ -22753,6 +22785,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SME", "subject-matter expert");
             correctionAdd("sme", "subject-matter expert");
+            correctionAdd("Subject Matter Expert", "subject-matter expert");
 
             correctionAdd("sub string", "substring");
 
@@ -23290,6 +23323,7 @@ namespace OverflowHelper.core
             correctionAdd("anywehre", "anywhere");
 
             correctionAdd("else where", "elsewhere");
+            correctionAdd("elsehwere", "elsewhere");
 
             correctionAdd("every where", "everywhere");
 
@@ -24467,6 +24501,7 @@ namespace OverflowHelper.core
             correctionAdd("News buiter", "Newsbeuter");
 
             correctionAdd("News Boat", "Newsboat");
+            correctionAdd("newsboat", "Newsboat");
 
             correctionAdd("pandoc", "Pandoc");
 
@@ -24488,6 +24523,57 @@ namespace OverflowHelper.core
             correctionAdd("snap shot", "snapshot");
 
             correctionAdd("util", "utility");
+
+            correctionAdd("Anova", "ANOVA");
+
+            correctionAdd("Chi squared test", "Chi-squared test");
+
+            correctionAdd("Hamilton shell", "Hamilton C shell");
+
+            correctionAdd("kruskall-wallis", "Kruskal–Wallis");
+            correctionAdd("kruskall-Wallis", "Kruskal–Wallis");
+            correctionAdd("Kruskall-wallis", "Kruskal–Wallis");
+
+            correctionAdd("Pop! OS", "Pop!_OS");
+            correctionAdd("POP OS", "Pop!_OS");
+            correctionAdd("Pop OS", "Pop!_OS");
+            correctionAdd("pop os", "Pop!_OS");
+
+            correctionAdd("Sunburst", "SUNBURST");
+
+            correctionAdd("samsung s7", "Samsung Galaxy S7");
+
+            correctionAdd("soas", "Sugar on a Stick");
+            correctionAdd("sugar on a stick", "Sugar on a Stick");
+            correctionAdd("SOAS", "Sugar on a Stick");
+
+            correctionAdd("assumtpion", "assumption");
+
+            correctionAdd("auto-suggest", "autosuggest");
+
+            correctionAdd("Central Limit Theorem", "central limit theorem");
+
+            correctionAdd("CCTV", "closed-circuit television");
+            correctionAdd("cctv", "closed-circuit television");
+
+            correctionAdd("enlightn", "enlighten");
+
+            correctionAdd("general purpose", "general-purpose");
+
+            correctionAdd("hell bent", "hell-bent");
+
+            correctionAdd("homogenous", "homogeneous");
+
+            correctionAdd("inexecusable", "inexcusable");
+
+            correctionAdd("missinterpret", "misinterpret");
+            correctionAdd("miss interpret", "misinterpret");
+
+            correctionAdd("sd", "standard deviation");
+
+            correctionAdd("syntax highlighitng", "syntax highlighting");
+
+            correctionAdd("thorwing", "throwing");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38076,6 +38162,50 @@ namespace OverflowHelper.core
             URL_Add("snapshot", "https://en.wiktionary.org/wiki/snapshot#Noun");
 
             URL_Add("utility", "https://en.wiktionary.org/wiki/utility#Noun");
+
+            URL_Add("ANOVA", "https://en.wikipedia.org/wiki/Analysis_of_variance");
+
+            URL_Add("Chi-squared test", "https://en.wikipedia.org/wiki/Chi-squared_test");
+
+            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
+
+            URL_Add("Kruskal–Wallis", "https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_one-way_analysis_of_variance");
+
+            URL_Add("Pop!_OS", "https://en.wikipedia.org/wiki/Pop!_OS");
+
+            URL_Add("SUNBURST", "https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach#SolarWinds_exploit_2");
+
+            URL_Add("Samsung Galaxy S7", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S7");
+
+            URL_Add("Sonneborn–Berger score", "https://en.wikipedia.org/wiki/Sonneborn%E2%80%93Berger_score");
+
+            URL_Add("Sugar on a Stick", "https://en.wikipedia.org/wiki/Sugar_(software)#Sugar_on_a_Stick");
+
+            URL_Add("assumption", "https://en.wiktionary.org/wiki/assumption#Noun");
+
+            URL_Add("autosuggest", "https://en.wiktionary.org/wiki/autosuggest#Verb");
+
+            URL_Add("central limit theorem", "https://en.wikipedia.org/wiki/Central_limit_theorem");
+
+            URL_Add("closed-circuit television", "https://en.wikipedia.org/wiki/Closed-circuit_television");
+
+            URL_Add("enlighten", "https://en.wiktionary.org/wiki/enlighten#Verb");
+
+            URL_Add("general-purpose", "https://en.wiktionary.org/wiki/general-purpose#Adjective");
+
+            URL_Add("hell-bent", "https://en.wiktionary.org/wiki/hell-bent#Adjective");
+
+            URL_Add("homogeneous", "https://en.wiktionary.org/wiki/homogeneous#Adjective");
+
+            URL_Add("inexcusable", "https://en.wiktionary.org/wiki/inexcusable#Adjective");
+
+            URL_Add("misinterpret", "https://en.wiktionary.org/wiki/misinterpret#Verb");
+
+            URL_Add("standard deviation", "https://en.wikipedia.org/wiki/Standard_deviation");
+
+            URL_Add("syntax highlighting", "https://en.wikipedia.org/wiki/Syntax_highlighting");
+
+            URL_Add("throwing", "https://en.wiktionary.org/wiki/throw#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
