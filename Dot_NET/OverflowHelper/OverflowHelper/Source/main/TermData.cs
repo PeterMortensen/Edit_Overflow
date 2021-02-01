@@ -12757,9 +12757,10 @@ namespace OverflowHelper.core
 
             correctionAdd("samsung", "Samsung");
 
-            correctionAdd("Unix&Linux", "Unix & Linux");
-            correctionAdd("U&L", "Unix & Linux");
-            correctionAdd("unix & linux", "Unix & Linux");
+            correctionAdd("Unix&Linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("U&L", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("unix & linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("Unix & Linux", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -26202,7 +26203,7 @@ namespace OverflowHelper.core
 
             URL_Add("TLS", "https://en.wikipedia.org/wiki/Transport_Layer_Security");
 
-            URL_Add("POJO", "https://en.wikipedia.org/wiki/Plain_Old_Java_Object");
+            URL_Add("POJO", "https://en.wikipedia.org/wiki/Plain_old_Java_object"); // Old: https://en.wikipedia.org/wiki/Plain_Old_Java_Object
 
             URL_Add("HQL", "https://en.wikipedia.org/wiki/Hibernate_%28Java%29#Hibernate_Query_Language_.28HQL.29");
 
@@ -29701,7 +29702,7 @@ namespace OverflowHelper.core
 
             URL_Add("Samsung", "https://en.wikipedia.org/wiki/Samsung");
 
-            URL_Add("Unix & Linux", "https://unix.stackexchange.com/tour");
+            URL_Add("Unix & Linux (Stack Exchange site)", "https://unix.stackexchange.com/tour");
 
             URL_Add("White House", "https://en.wikipedia.org/wiki/White_House");
 
@@ -37739,7 +37740,7 @@ namespace OverflowHelper.core
 
             URL_Add("variant", "https://en.wiktionary.org/wiki/variant#Noun");
 
-            URL_Add("Oxford–AstraZeneca vaccine (AZD1222)", "https://en.wikipedia.org/wiki/AZD1222");
+            URL_Add("Oxford–AstraZeneca vaccine (AZD1222)", "https://en.wikipedia.org/wiki/Oxford%E2%80%93AstraZeneca_COVID-19_vaccine"); // Old: https://en.wikipedia.org/wiki/AZD1222
 
             URL_Add("branch prediction", "https://en.wikipedia.org/wiki/Branch_predictor");
 
