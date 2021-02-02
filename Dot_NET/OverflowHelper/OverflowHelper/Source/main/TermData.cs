@@ -16540,6 +16540,7 @@ namespace OverflowHelper.core
             correctionAdd("Firouzja", "Alireza Firouzja"); // Chess
             correctionAdd("Alireza", "Alireza Firouzja"); // Chess
             correctionAdd("alireza", "Alireza Firouzja"); // Chess
+            correctionAdd("Alireze", "Alireza Firouzja"); // Chess
 
             correctionAdd("Gary Kasparov", "Garry Kasparov"); // Chess
             correctionAdd("kasporav", "Garry Kasparov"); // Chess
@@ -16744,6 +16745,7 @@ namespace OverflowHelper.core
             correctionAdd("sb score", "Sonneborn–Berger score"); // Chess
             correctionAdd("Sonneborn-Berger score", "Sonneborn–Berger score"); // Chess
             correctionAdd("SB score", "Sonneborn–Berger score"); // Chess
+            correctionAdd("sonnenborn-berger", "Sonneborn–Berger score"); // Chess
             //
             // End of chess part
 
@@ -19240,6 +19242,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hymen", "human");
             correctionAdd("Human", "human");
+            correctionAdd("hooman", "human");
 
             correctionAdd("K-Means", "k-means clustering");
 
@@ -24575,6 +24578,23 @@ namespace OverflowHelper.core
             correctionAdd("syntax highlighitng", "syntax highlighting");
 
             correctionAdd("thorwing", "throwing");
+
+            correctionAdd("Lambda", "AWS Lambda");
+
+            correctionAdd("Amazon AWS SNS", "Amazon SNS");
+            correctionAdd("SNS", "Amazon SNS");
+            correctionAdd("sns", "Amazon SNS");
+            correctionAdd("Amazon Simple Notification Service", "Amazon SNS");
+
+            correctionAdd("Amazon Simple Queue Service", "Amazon SQS");
+            correctionAdd("SQS", "Amazon SQS");
+            correctionAdd("sqs", "Amazon SQS");
+
+            correctionAdd("bare-word", "bareword");
+
+            correctionAdd("re-send", "resend");
+
+            correctionAdd("re-sent", "resent");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38207,6 +38227,18 @@ namespace OverflowHelper.core
             URL_Add("syntax highlighting", "https://en.wikipedia.org/wiki/Syntax_highlighting");
 
             URL_Add("throwing", "https://en.wiktionary.org/wiki/throw#Verb");
+
+            URL_Add("AWS Lambda", "https://en.wikipedia.org/wiki/AWS_Lambda");
+
+            URL_Add("Amazon SNS", "https://en.wikipedia.org/wiki/Amazon_Simple_Notification_Service");
+
+            URL_Add("Amazon SQS", "https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service");
+
+            URL_Add("bareword", "https://en.wiktionary.org/wiki/bareword#Noun");
+
+            URL_Add("resend", "https://en.wiktionary.org/wiki/resend#Verb");
+
+            URL_Add("resent", "https://en.wiktionary.org/wiki/resend#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
