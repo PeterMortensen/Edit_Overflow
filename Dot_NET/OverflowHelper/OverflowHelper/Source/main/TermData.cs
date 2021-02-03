@@ -3119,6 +3119,8 @@ namespace OverflowHelper.core
             correctionAdd("sdk", "SDK");
             correctionAdd("SDk", "SDK");
             correctionAdd("Sdk", "SDK");
+            correctionAdd("Software Development Kit", "SDK");
+            correctionAdd("software development kit", "SDK");
 
             correctionAdd("OpenWRT", "OpenWrt");
             correctionAdd("openwrt", "OpenWrt");
@@ -3437,6 +3439,7 @@ namespace OverflowHelper.core
             correctionAdd("can´t", "can't");
             correctionAdd("cand", "can't");
             correctionAdd("Cant", "can't");
+            correctionAdd("can`t", "can't");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -13101,6 +13104,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
+            correctionAdd("prononce", "pronounce");
 
             correctionAdd("quiting", "quitting");
 
@@ -13132,6 +13136,7 @@ namespace OverflowHelper.core
 
             correctionAdd("calss", "class");
             correctionAdd("Class", "class");
+            correctionAdd("classe", "class");
 
             correctionAdd("intellij", "IntelliJ IDEA");
             correctionAdd("IntellJ Idea", "IntelliJ IDEA");
@@ -14423,6 +14428,7 @@ namespace OverflowHelper.core
             correctionAdd("precission", "precision");
 
             correctionAdd("re-add", "readd");
+            correctionAdd("Re-add", "readd");
 
             correctionAdd("shutdown", "shut down");
 
@@ -14765,6 +14771,7 @@ namespace OverflowHelper.core
             correctionAdd("zune", "Zune");
 
             correctionAdd("Deep Learning", "deep learning");
+            correctionAdd("Deep learning", "deep learning");
 
             correctionAdd("idiosyncracies", "idiosyncrasies");
 
@@ -16958,6 +16965,7 @@ namespace OverflowHelper.core
             correctionAdd("DYNDNS", "DynDNS");
 
             correctionAdd("ivy league", "Ivy League");
+            correctionAdd("Ivey", "Ivy League");
 
             correctionAdd("Quippy", "Quibi");
             correctionAdd("Quibby", "Quibi");
@@ -19621,6 +19629,8 @@ namespace OverflowHelper.core
 
             correctionAdd("invalud", "invalid");
             correctionAdd("invaid", "invalid");
+            correctionAdd("Invalide", "invalid");
+            correctionAdd("invalide", "invalid");
 
             correctionAdd("Karate", "karate");
 
@@ -24596,6 +24606,44 @@ namespace OverflowHelper.core
 
             correctionAdd("re-sent", "resent");
 
+            correctionAdd("boto", "Boto");
+
+            correctionAdd("Boto 3", "Boto&nbsp;3");
+            correctionAdd("boto3", "Boto&nbsp;3");
+            correctionAdd("boto 3", "Boto&nbsp;3");
+
+            correctionAdd("gamestop", "GameStop");
+
+            correctionAdd("sqlfiddle", "SQL Fiddle");
+
+            correctionAdd("WWIII", "World War III");
+            correctionAdd("world War 3", "World War III");
+            correctionAdd("World War 3", "World War III");
+            correctionAdd("WW3", "World War III");
+            correctionAdd("WW 3", "World War III");
+            correctionAdd("WW III", "World War III");
+
+            correctionAdd("auto-close", "autoclose");
+
+            correctionAdd("auto-closing", "autoclosing");
+
+            correctionAdd("comma separated", "comma-separated");
+
+            correctionAdd("coup de grace", "coup de grâce");
+
+            correctionAdd("discontinuties", "discontinuities");
+
+            correctionAdd("hedgefund", "hedge fund");
+
+            correctionAdd("instistional", "institutional");
+            correctionAdd("instustional", "institutional");
+
+            correctionAdd("irrisponsible", "irresponsible");
+
+            correctionAdd("loop hole", "loophole");
+
+            correctionAdd("space-time continoum", "spacetime continuum");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24745,7 +24793,7 @@ namespace OverflowHelper.core
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
-            correctionAdd("astrazeneca", "AstraZeneca");
+            correctionAdd("astrazeneca", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -24766,6 +24814,9 @@ namespace OverflowHelper.core
             correctionAdd("J+J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
+            correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
+            correctionAdd("intermectim", "ivermectin"); // Coronavirus
+            correctionAdd("intermectin", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -24776,6 +24827,8 @@ namespace OverflowHelper.core
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
 
             correctionAdd("pandami", "pandemia"); // Coronavirus
+
+            correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -38239,6 +38292,38 @@ namespace OverflowHelper.core
             URL_Add("resend", "https://en.wiktionary.org/wiki/resend#Verb");
 
             URL_Add("resent", "https://en.wiktionary.org/wiki/resend#Verb");
+
+            URL_Add("Boto", "https://stackoverflow.com/tags/boto3/info");
+
+            URL_Add("Boto&nbsp;3", "https://stackoverflow.com/tags/boto3/info");
+
+            URL_Add("GameStop", "https://en.wikipedia.org/wiki/GameStop_short_squeeze");
+
+            URL_Add("SQL Fiddle", "https://sqlfiddle.com/");
+
+            URL_Add("World War III", "https://en.wikipedia.org/wiki/World_War_III");
+
+            URL_Add("autoclose", "https://en.wiktionary.org/wiki/autoclose#Verb");
+
+            URL_Add("autoclosing", "https://en.wiktionary.org/wiki/autoclose#Verb");
+
+            URL_Add("comma-separated", "https://en.wikipedia.org/wiki/Comma-separated_values");
+
+            URL_Add("coup de grâce", "https://en.wiktionary.org/wiki/coup_de_gr%C3%A2ce#Noun");
+
+            URL_Add("discontinuities", "https://en.wiktionary.org/wiki/discontinuity#Noun");
+
+            URL_Add("hedge fund", "https://en.wikipedia.org/wiki/Hedge_fund");
+
+            URL_Add("institutional", "https://en.wiktionary.org/wiki/institutional#Adjective");
+
+            URL_Add("irresponsible", "https://en.wiktionary.org/wiki/irresponsible#Adjective");
+
+            URL_Add("loophole", "https://en.wiktionary.org/wiki/loophole#Noun");
+
+            URL_Add("spacetime continuum", "https://en.wikipedia.org/wiki/Spacetime");
+
+            URL_Add("hydroxychloroquine", "https://en.wikipedia.org/wiki/Hydroxychloroquine");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
