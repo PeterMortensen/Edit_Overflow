@@ -3430,16 +3430,16 @@ namespace OverflowHelper.core
             correctionAdd("windows azure", "Windows Azure");
             correctionAdd("Azure", "Windows Azure");
 
-            correctionAdd("cant", "can't");
-            correctionAdd("cann't", "can't"); // A true typo!
-            correctionAdd("can’t", "can't"); // Quora - mostly for the Wiktionary lookup (URL)
-            correctionAdd("cann’t", "can't");
-            correctionAdd("connot", "can't");
-            correctionAdd("carn’t", "can't");
-            correctionAdd("can´t", "can't");
-            correctionAdd("cand", "can't");
-            correctionAdd("Cant", "can't");
-            correctionAdd("can`t", "can't");
+            correctionAdd("cant", "can’t");
+            correctionAdd("cann't", "can’t"); // A true typo!
+            correctionAdd("cann’t", "can’t");
+            correctionAdd("connot", "can’t");
+            correctionAdd("carn’t", "can’t");
+            correctionAdd("can´t", "can’t");
+            correctionAdd("cand", "can’t");
+            correctionAdd("Cant", "can’t");
+            correctionAdd("can`t", "can’t");
+            correctionAdd("can't", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -25737,7 +25737,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); // Was https://en.wikipedia.org/wiki/Azure_Services_Platform
 
-            URL_Add("can't", "https://en.wiktionary.org/wiki/can%27t");
+            URL_Add("can’t", "https://en.wiktionary.org/wiki/can%27t");
 
             URL_Add("Visual SourceSafe", "https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe");
 
