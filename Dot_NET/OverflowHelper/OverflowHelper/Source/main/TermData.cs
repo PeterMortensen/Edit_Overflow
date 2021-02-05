@@ -7850,6 +7850,7 @@ namespace OverflowHelper.core
             correctionAdd("UT", "unit test");
             correctionAdd("UnitTest", "unit test");
             correctionAdd("Unit-Test", "unit test");
+            correctionAdd("unitest", "unit test");
 
             correctionAdd("SMPS", "switched-mode power supply");
             correctionAdd("smps", "switched-mode power supply");
@@ -9353,6 +9354,7 @@ namespace OverflowHelper.core
             correctionAdd("compatiple", "compatible");
             correctionAdd("compact-able", "compatible");
             correctionAdd("compaible", "compatible");
+            correctionAdd("Compatible", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -9754,6 +9756,7 @@ namespace OverflowHelper.core
             correctionAdd("shoudnt", "shouldn't");
             correctionAdd("shoyuldn't", "shouldn't");
             correctionAdd("Shouldnt", "shouldn't");
+            correctionAdd("souldn't", "shouldn't");
 
             correctionAdd("g-drive", "Google Drive");
             correctionAdd("google drive", "Google Drive");
@@ -9893,6 +9896,7 @@ namespace OverflowHelper.core
             correctionAdd("expample", "for example");
             correctionAdd("Fore example", "for example");
             correctionAdd("fore example", "for example");
+            correctionAdd("eG", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -10985,6 +10989,7 @@ namespace OverflowHelper.core
 
             correctionAdd("3rd", "third");
             correctionAdd("3th", "third");
+            correctionAdd("3Rd", "third");
 
             correctionAdd("visa versa", "vice versa");
             correctionAdd("Vis versa", "vice versa");
@@ -11632,6 +11637,8 @@ namespace OverflowHelper.core
             correctionAdd("buszness", "business");
             correctionAdd("bussiness", "business");
             correctionAdd("bisiness", "business");
+            correctionAdd("bissness", "business");
+            correctionAdd("bussness", "business");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -12840,6 +12847,7 @@ namespace OverflowHelper.core
 
             correctionAdd("back tick", "backtick");
             correctionAdd("back-tick", "backtick");
+            correctionAdd("backquote", "backtick");
 
             correctionAdd("buch", "bunch");
 
@@ -14726,6 +14734,7 @@ namespace OverflowHelper.core
             correctionAdd("Iridium", "iridium");
 
             correctionAdd("releated", "related");
+            correctionAdd("realted", "related");
 
             correctionAdd("sattelite", "satellite");
             correctionAdd("satelite", "satellite");
@@ -16465,10 +16474,11 @@ namespace OverflowHelper.core
             correctionAdd("Evan gambit", "Evans Gambit"); // Chess
             correctionAdd("EVANS Gambit", "Evans Gambit"); // Chess
             correctionAdd("Evan's gambit", "Evans Gambit"); // Chess
-            correctionAdd("Evin's Gambit", "Evans Gambit");
-            correctionAdd("Evan's Gambit", "Evans Gambit");
-            correctionAdd("Evins Gambit", "Evans Gambit");
-            correctionAdd("evans Gambit", "Evans Gambit");
+            correctionAdd("Evin's Gambit", "Evans Gambit"); // Chess
+            correctionAdd("Evan's Gambit", "Evans Gambit"); // Chess
+            correctionAdd("Evins Gambit", "Evans Gambit"); // Chess
+            correctionAdd("evans Gambit", "Evans Gambit"); // Chess
+            correctionAdd("Evens gamit", "Evans Gambit"); // Chess
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -16758,6 +16768,9 @@ namespace OverflowHelper.core
             correctionAdd("Sonneborn-Berger score", "Sonneborn–Berger score"); // Chess
             correctionAdd("SB score", "Sonneborn–Berger score"); // Chess
             correctionAdd("sonnenborn-berger", "Sonneborn–Berger score"); // Chess
+
+            correctionAdd("McDonnell Gambit", "King's Gambit, McDonnell Gambit"); // Chess
+            correctionAdd("Mc donald gambit", "King's Gambit, McDonnell Gambit"); // Chess
             //
             // End of chess part
 
@@ -17840,6 +17853,7 @@ namespace OverflowHelper.core
             correctionAdd("verifiy", "verify");
             correctionAdd("veryfiy", "verify");
             correctionAdd("veryfy", "verify");
+            correctionAdd("veirfy", "verify");
 
             correctionAdd("Freelancer", "freelancer");
 
@@ -20355,6 +20369,9 @@ namespace OverflowHelper.core
 
             correctionAdd("macdonalds", "McDonald's");
             correctionAdd("McDonalds", "McDonald's");
+            correctionAdd("Mc donald", "McDonald's");
+            correctionAdd("Mc Donald", "McDonald's");
+            correctionAdd("McDonald", "McDonald's");
 
             correctionAdd("SIM", "SIM card");
             correctionAdd("Sim", "SIM card");
@@ -24593,6 +24610,7 @@ namespace OverflowHelper.core
             correctionAdd("sd", "standard deviation");
 
             correctionAdd("syntax highlighitng", "syntax highlighting");
+            correctionAdd("syntax-highlighting", "syntax highlighting");
 
             correctionAdd("thorwing", "throwing");
 
@@ -24646,6 +24664,7 @@ namespace OverflowHelper.core
             correctionAdd("instustional", "institutional");
 
             correctionAdd("irrisponsible", "irresponsible");
+            correctionAdd("irresponsiple", "irresponsible");
 
             correctionAdd("loop hole", "loophole");
 
@@ -24668,6 +24687,45 @@ namespace OverflowHelper.core
             correctionAdd("thoughtreader", "thought reader");
 
             correctionAdd("IRAN", "inspect and repair as necessary");
+
+            correctionAdd("gnu parallel", "GNU parallel");
+
+            correctionAdd("iu", "IU");
+
+            correctionAdd("loch ness", "Loch Ness Monster");
+            correctionAdd("Loch Ness", "Loch Ness Monster");
+
+            correctionAdd("cicle", "circle");
+
+            correctionAdd("crasiness", "craziness");
+
+            correctionAdd("imperical", "empirical");
+
+            correctionAdd("imperically", "empirically");
+
+            correctionAdd("fine tune", "fine-tune");
+
+            correctionAdd("fine tuned", "fine-tuned");
+
+            correctionAdd("forumn", "forum");
+
+            correctionAdd("governkng", "governing");
+
+            correctionAdd("inline", "in-line");
+            correctionAdd("in line", "in-line");
+
+            correctionAdd("mockout", "mock out");
+
+            correctionAdd("monkeypatch", "monkey patch");
+
+            correctionAdd("Nose", "nose");
+
+            correctionAdd("seesion", "session");
+
+            correctionAdd("XKCD", "xkcd");
+            correctionAdd("Xkcd", "xkcd");
+
+            correctionAdd("XTERM", "xterm");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -24803,6 +24861,8 @@ namespace OverflowHelper.core
             correctionAdd("vitimin d", "vitamin D"); // Coronavirus
             correctionAdd("Vitty D", "vitamin D"); // Coronavirus
             correctionAdd("vitty D", "vitamin D"); // Coronavirus
+            correctionAdd("VitD", "vitamin D"); // Coronavirus
+            correctionAdd("vitD", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
@@ -38385,6 +38445,44 @@ namespace OverflowHelper.core
             URL_Add("contagion", "https://en.wiktionary.org/wiki/contagion#Noun");
 
             URL_Add("inspect and repair as necessary", "https://www.allacronyms.com/IRAN/Inspect_and_Repair_As_Necessary");
+
+            URL_Add("GNU parallel", "https://en.wikipedia.org/wiki/GNU_parallel");
+
+            URL_Add("IU", "https://en.wikipedia.org/wiki/International_unit");
+
+            URL_Add("Loch Ness Monster", "https://en.wikipedia.org/wiki/Loch_Ness_Monster");
+
+            URL_Add("circle", "https://en.wiktionary.org/wiki/circle#Noun");
+
+            URL_Add("craziness", "https://en.wiktionary.org/wiki/craziness#Noun");
+
+            URL_Add("empirical", "https://en.wiktionary.org/wiki/empirical#Adjective");
+
+            URL_Add("empirically", "https://en.wiktionary.org/wiki/empirically#Adverb");
+
+            URL_Add("fine-tune", "https://en.wiktionary.org/wiki/fine-tune#Verb");
+
+            URL_Add("fine-tuned", "https://en.wiktionary.org/wiki/fine-tune#Verb");
+
+            URL_Add("forum", "https://en.wiktionary.org/wiki/forum#Noun");
+
+            URL_Add("governing", "https://en.wiktionary.org/wiki/govern#Verb");
+
+            URL_Add("in-line", "https://en.wiktionary.org/wiki/in-line#Adjective");
+
+            URL_Add("mock out", "https://en.wiktionary.org/wiki/mock_out#Verb");
+
+            URL_Add("monkey patch", "https://en.wikipedia.org/wiki/Monkey_patch");
+
+            URL_Add("nose", "https://pypi.org/project/nose/");
+
+            URL_Add("session", "https://en.wiktionary.org/wiki/session#Noun");
+
+            URL_Add("xkcd", "https://en.wikipedia.org/wiki/Xkcd");
+
+            URL_Add("xterm", "https://en.wikipedia.org/wiki/Xterm");
+
+            URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
