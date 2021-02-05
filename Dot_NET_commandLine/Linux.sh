@@ -81,6 +81,7 @@ export EFFECTIVE_DATE='2020-06-14'
 export EFFECTIVE_DATE='2020-06-16'
 export EFFECTIVE_DATE='2020-09-29'
 export EFFECTIVE_DATE='2020-10-24'
+export EFFECTIVE_DATE='2021-02-03'
 
 
 export SELINUM_DRIVERSCRIPT_FILENAME='/home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py'
@@ -167,9 +168,11 @@ echo
 echo
 echo '1. Internal check of the web interface regression tests...'
 echo
+#
 # Method names in Python are not checked for uniqueness, so only
 # one will be used, risking not running all of the Seleniums
-# tests (sort of a (potential) false negative test).
+# tests (a sort of a (potential) ***false negative*** test).
+#
 cd /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__
 pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME
 
@@ -205,6 +208,7 @@ echo
 
 mkdir -p $WORKFOLDER1
 mkdir -p $WORKFOLDER2
+mkdir -p $WORKFOLDER3
 mkdir -p $WORKFOLDER
 mkdir -p $FTPTRANSFER_FOLDER_HTML
 mkdir -p $FTPTRANSFER_FOLDER_JAVASCRIPT
