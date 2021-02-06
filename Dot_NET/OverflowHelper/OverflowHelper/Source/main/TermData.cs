@@ -2513,6 +2513,10 @@ namespace OverflowHelper.core
             correctionAdd("RegEXP", "regular expression");
             correctionAdd("regext", "regular expression");
             correctionAdd("reqular expressions", "regular expression");
+            correctionAdd("Reg Expression", "regular expression");
+            correctionAdd("Reg Exp", "regular expression");
+            correctionAdd("reg exp", "regular expression");
+            correctionAdd("reg exps", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -2588,6 +2592,7 @@ namespace OverflowHelper.core
             correctionAdd("CCNET", "CruiseControl.NET");
 
             correctionAdd("jdbc", "JDBC");
+            correctionAdd("JDCB", "JDBC");
 
             correctionAdd("war", "WAR");
 
@@ -10066,6 +10071,7 @@ namespace OverflowHelper.core
 
             correctionAdd("what ever", "whatever");
             correctionAdd("w/e", "whatever");
+            correctionAdd("whatewer", "whatever");
 
             correctionAdd("pydev", "PyDev");
             correctionAdd("Pydev", "PyDev");
@@ -11215,6 +11221,8 @@ namespace OverflowHelper.core
             correctionAdd("seconde", "second");
             correctionAdd("seond", "second");
             correctionAdd("2st", "second");
+            correctionAdd("Secon", "second");
+            correctionAdd("secon", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -12799,8 +12807,6 @@ namespace OverflowHelper.core
             correctionAdd("swtich", "switch");
             correctionAdd("swith", "switch");
 
-            correctionAdd("Yak shaving", "yak shaving");
-
             correctionAdd("CSS Grid", "CSS grid");
             correctionAdd("css grid", "CSS grid");
 
@@ -12874,6 +12880,7 @@ namespace OverflowHelper.core
             correctionAdd("stooped", "stopped");
 
             correctionAdd("stratigic", "strategic");
+            correctionAdd("stratagic", "strategic");
 
             correctionAdd("sugest", "suggest");
             correctionAdd("sudgest", "suggest");
@@ -16455,11 +16462,12 @@ namespace OverflowHelper.core
             correctionAdd("double Fianchetto", "double fianchetto"); // Chess
 
             correctionAdd("finchetto", "fianchetto"); // Chess
-            correctionAdd("finneketto", "fianchetto");
+            correctionAdd("finneketto", "fianchetto"); // Chess
             correctionAdd("Fianchetto", "fianchetto"); // Chess
             correctionAdd("fiensketö", "fianchetto"); // Chess
             correctionAdd("finketta", "fianchetto"); // Chess
             correctionAdd("finnechetto", "fianchetto"); // Chess
+            correctionAdd("feinkettel", "fianchetto"); // Chess
 
             correctionAdd("Petrov", "Petrov's Defence"); // Chess
             correctionAdd("petrov", "Petrov's Defence"); // Chess
@@ -18911,6 +18919,7 @@ namespace OverflowHelper.core
             correctionAdd("encorouge", "encourage");
 
             correctionAdd("implicite", "implicit");
+            correctionAdd("implict", "implicit");
 
             correctionAdd("mathematicaly", "mathematically");
             correctionAdd("mathamaticaly", "mathematically");
@@ -20333,6 +20342,7 @@ namespace OverflowHelper.core
             correctionAdd("For intstance", "for instance");
 
             correctionAdd("rgeular", "regular");
+            correctionAdd("regullar", "regular");
 
             correctionAdd("share holder", "shareholder");
 
@@ -22661,6 +22671,7 @@ namespace OverflowHelper.core
             correctionAdd("spureous", "spurious");
 
             correctionAdd("webscraping", "web scraping");
+            correctionAdd("web-scraping", "web scraping");
 
             correctionAdd("re-launch", "relaunch");
 
@@ -22897,11 +22908,14 @@ namespace OverflowHelper.core
             correctionAdd("Web browser", "web browser");
             correctionAdd("Web Browser", "web browser");
             correctionAdd("Web-Browser", "web browser");
+            correctionAdd("webbrowser", "web browser");
 
             correctionAdd("check box", "checkbox");
             correctionAdd("check-box", "checkbox");
             correctionAdd("Check Box", "checkbox");
             correctionAdd("Check box", "checkbox");
+            correctionAdd("checkbok", "checkbox");
+            correctionAdd("checkboks", "checkbox");
 
             correctionAdd("data sheet", "datasheet");
 
@@ -22948,7 +22962,10 @@ namespace OverflowHelper.core
 
             correctionAdd("byte code", "bytecode");
 
+            correctionAdd("Yak shaving", "yak shaving");
+
             correctionAdd("havig", "having");
+            correctionAdd("havin", "having");
 
             correctionAdd("Platinum", "platinum");
 
@@ -24025,6 +24042,7 @@ namespace OverflowHelper.core
 
             correctionAdd("subcribe", "subscribe");
             correctionAdd("Subcribe", "subscribe");
+            correctionAdd("sub", "subscribe");
 
             correctionAdd("ty", "thank you");
             correctionAdd("Ty", "thank you");
@@ -24726,6 +24744,20 @@ namespace OverflowHelper.core
             correctionAdd("Xkcd", "xkcd");
 
             correctionAdd("XTERM", "xterm");
+
+            correctionAdd("azure devops", "Azure DevOps");
+
+            correctionAdd("nmos", "NMOS");
+
+            correctionAdd("human-like", "humanlike");
+            correctionAdd("human like", "humanlike");
+
+            correctionAdd("includin", "including");
+
+            correctionAdd("N-channel MOSFET", "n-channel MOSFET");
+            correctionAdd("N-Channel MOSFET", "n-channel MOSFET");
+
+            correctionAdd("scrap", "scrape");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38483,6 +38515,18 @@ namespace OverflowHelper.core
             URL_Add("xterm", "https://en.wikipedia.org/wiki/Xterm");
 
             URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
+
+            URL_Add("Azure DevOps", "https://en.wikipedia.org/wiki/Azure_DevOps_Server");
+
+            URL_Add("NMOS", "https://en.wikipedia.org/wiki/NMOS_logic");
+
+            URL_Add("humanlike", "https://en.wiktionary.org/wiki/humanlike#Adjective");
+
+            URL_Add("including", "https://en.wiktionary.org/wiki/include#Verb");
+
+            URL_Add("n-channel MOSFET", "https://en.wikipedia.org/wiki/Field-effect_transistor#n-channel_FET");
+
+            URL_Add("scrape", "https://en.wiktionary.org/wiki/scrape#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
