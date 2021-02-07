@@ -24759,6 +24759,14 @@ namespace OverflowHelper.core
 
             correctionAdd("scrap", "scrape");
 
+            correctionAdd("Zipcode", "ZIP Code");
+            correctionAdd("ZIP code", "ZIP Code");
+            correctionAdd("zip code", "ZIP Code");
+
+            correctionAdd("functional key", "function key");
+
+            correctionAdd("lauched", "launched");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -38527,6 +38535,12 @@ namespace OverflowHelper.core
             URL_Add("n-channel MOSFET", "https://en.wikipedia.org/wiki/Field-effect_transistor#n-channel_FET");
 
             URL_Add("scrape", "https://en.wiktionary.org/wiki/scrape#Verb");
+
+            URL_Add("ZIP Code", "https://en.wikipedia.org/wiki/ZIP_Code");
+
+            URL_Add("function key", "https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows");
+
+            URL_Add("launched", "https://en.wiktionary.org/wiki/launch#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
