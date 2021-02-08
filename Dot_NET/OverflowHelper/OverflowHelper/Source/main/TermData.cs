@@ -11394,6 +11394,7 @@ namespace OverflowHelper.core
             correctionAdd("extesion", "extension");
             correctionAdd("exentension", "extension");
             correctionAdd("exension", "extension");
+            correctionAdd("Extention", "extension");
 
             correctionAdd("hierarchial", "hierarchical");
             correctionAdd("hiarchial", "hierarchical");
@@ -12341,6 +12342,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
+            correctionAdd("data explorer", "Stack Exchange Data Explorer");
 
             correctionAdd("alledged", "alleged");
             correctionAdd("allegded", "alleged");
@@ -13059,6 +13061,7 @@ namespace OverflowHelper.core
 
             correctionAdd("knwo", "know");
             correctionAdd("khow", "know");
+            correctionAdd("knoe", "know");
 
             correctionAdd("manu", "menu");
             correctionAdd("munu", "menu");
@@ -13114,6 +13117,7 @@ namespace OverflowHelper.core
 
             correctionAdd("en mass", "en masse");
             correctionAdd("enmasse", "en masse");
+            correctionAdd("en-masse", "en masse");
 
             correctionAdd("flaging", "flagging");
 
@@ -14417,8 +14421,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SMBUS", "SMBus");
 
-            correctionAdd("Websphere", "WebSphere");
-
             correctionAdd("PSQL", "psql");
 
             correctionAdd("resignment", "resignation");
@@ -14665,6 +14667,7 @@ namespace OverflowHelper.core
             correctionAdd("web asm", "WebAssembly");
             correctionAdd("Web assembly", "WebAssembly");
             correctionAdd("Webassembly", "WebAssembly");
+            correctionAdd("WebAsm", "WebAssembly");
 
             correctionAdd("webvr", "WebVR");
 
@@ -17325,6 +17328,7 @@ namespace OverflowHelper.core
             correctionAdd("hardcore", "hard coded");
 
             correctionAdd("intance", "instance");
+            correctionAdd("instace", "instance");
 
             correctionAdd("Apache commons", "Apache Commons");
             correctionAdd("apache commons", "Apache Commons");
@@ -17513,6 +17517,8 @@ namespace OverflowHelper.core
             correctionAdd("vegies", "vegetables");
 
             correctionAdd("Guido", "Guido van Rossum");
+            correctionAdd("Guido Van Rosum", "Guido van Rossum");
+            correctionAdd("Guido van Rosum", "Guido van Rossum");
 
             correctionAdd("illustrator", "Illustrator");
 
@@ -17839,6 +17845,7 @@ namespace OverflowHelper.core
 
             correctionAdd("coverting", "converting");
             correctionAdd("convertig", "converting");
+            correctionAdd("convertering", "converting");
 
             correctionAdd("cut-off", "cutoff"); // Context: a noun
             correctionAdd("cut off", "cutoff"); // Context: a noun
@@ -20220,6 +20227,7 @@ namespace OverflowHelper.core
             correctionAdd("england", "England");
 
             correctionAdd("norther ireland", "Northern Ireland");
+            correctionAdd("NI", "Northern Ireland");
 
             correctionAdd("scotland", "Scotland");
 
@@ -21653,6 +21661,8 @@ namespace OverflowHelper.core
             correctionAdd("Semantic Versioning", "semantic versioning");
             correctionAdd("semver", "semantic versioning");
             correctionAdd("SemVer", "semantic versioning");
+            correctionAdd("Symantic versioning", "semantic versioning");
+            correctionAdd("symantic versioning", "semantic versioning");
 
             correctionAdd("temerature", "temperature");
             correctionAdd("temperture", "temperature");
@@ -23383,6 +23393,8 @@ namespace OverflowHelper.core
 
             correctionAdd("good manner", "good manners");
 
+            correctionAdd("Websphere", "WebSphere");
+
             correctionAdd("no where", "nowhere");
             correctionAdd("nowehre", "nowhere");
             correctionAdd("no-where", "nowhere");
@@ -23416,6 +23428,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hare", "here");
             correctionAdd("Hare", "here");
+            correctionAdd("herr", "here");
 
             correctionAdd("judgeing", "judging");
             correctionAdd("judginh", "judging");
@@ -24829,6 +24842,33 @@ namespace OverflowHelper.core
             correctionAdd("wesite", "website");
             correctionAdd("web site", "website");
 
+            correctionAdd("excel 2003", "Excel 2003");
+
+            correctionAdd("STEM", "Science, technology, engineering, and mathematics");
+            correctionAdd("stem", "Science, technology, engineering, and mathematics");
+
+            correctionAdd("complains", "complaints");
+
+            correctionAdd("defered", "deferred");
+
+            correctionAdd("file extension", "filename extension");
+            correctionAdd("file extention", "filename extension");
+
+            correctionAdd("instructor's", "instructors");
+
+            correctionAdd("south africa", "South Africa");
+            correctionAdd("SA", "South Africa");
+
+            correctionAdd("tel aviv", "Tel Aviv");
+
+            correctionAdd("exponental", "exponential");
+
+            correctionAdd("heresay", "hearsay");
+
+            correctionAdd("Log", "logarithmic");
+
+            correctionAdd("superseed", "supersede");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -24986,6 +25026,10 @@ namespace OverflowHelper.core
             correctionAdd("AstraZeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ vax", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("oxford vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25017,6 +25061,7 @@ namespace OverflowHelper.core
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
             correctionAdd("intermectim", "ivermectin"); // Coronavirus
             correctionAdd("intermectin", "ivermectin"); // Coronavirus
+            correctionAdd("IVM", "ivermectin");
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -25031,6 +25076,7 @@ namespace OverflowHelper.core
             correctionAdd("pandami", "pandemia"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
+            correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
 
             correctionAdd("BMA", "British Medical Association"); // Coronavirus
 
@@ -38635,6 +38681,30 @@ namespace OverflowHelper.core
             URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
 
             URL_Add("website", "https://en.wikipedia.org/wiki/Website");
+
+            URL_Add("Excel 2003", "https://en.wikipedia.org/wiki/Microsoft_Excel#Excel_2003_(v11.0)");
+
+            URL_Add("Science, technology, engineering, and mathematics", "https://en.wikipedia.org/wiki/Science%2C_technology%2C_engineering%2C_and_mathematics");
+
+            URL_Add("complaints", "https://en.wiktionary.org/wiki/complaint#Noun");
+
+            URL_Add("deferred", "https://en.wiktionary.org/wiki/defer#Verb");
+
+            URL_Add("filename extension", "https://en.wikipedia.org/wiki/Filename_extension");
+
+            URL_Add("instructors", "https://en.wiktionary.org/wiki/instructor#Noun");
+
+            URL_Add("South Africa", "https://en.wikipedia.org/wiki/South_Africa");
+
+            URL_Add("Tel Aviv", "https://en.wikipedia.org/wiki/Tel_Aviv");
+
+            URL_Add("exponential", "https://en.wiktionary.org/wiki/exponential#Adjective");
+
+            URL_Add("hearsay", "https://en.wiktionary.org/wiki/hearsay#Noun");
+
+            URL_Add("logarithmic", "https://en.wiktionary.org/wiki/logarithmic#Adjective");
+
+            URL_Add("supersede", "https://en.wiktionary.org/wiki/supersede#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
