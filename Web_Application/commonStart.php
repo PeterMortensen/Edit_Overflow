@@ -41,7 +41,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a84 2021-01-08T061805Z+0";
+        return "Edit Overflow v. 1.1.49a90 2021-02-07T224853Z+0";
     }
 
 
@@ -418,11 +418,54 @@
         #
         # The workaround is to add a space to empty lines.
         #
+        # Note: Must be double quotes for \r and \n
+        #
         $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work
                                                        # if the LAST line is empty.
 
-        $someText = $replacer->currentString();
+        # Adjust indent for non-timestamp lines
+        #
+        # We wait till ***last*** because the input may
+        # already have timestamps in the final format
+        # (so this should come after the timestamp
+        # conversion)
+        #
+        # It is also a good idea to have any TABs
+        # converted first.
+        #
+        if (! 0) # If we remove common leading spaces first (as in
+                 # our keyboard macro), then we don't need
+                 # to explicitly detect (exclude) lines with
+                 # timestamps.
+        {
+            #$replacer->transform('^(\s{4,4})', '');
 
+            # Note: We can't use "^" to match beginning
+            #       of lines as we use multi-line mode
+            #$replacer->transform("\r\n{4,4}", "\r\n");
+            #$replacer->transform("\r\n    ", "\r\n");
+            
+            
+            # Remove threes space from non-timestamp lines. It 
+            # is to adjust for the total effect of:
+            #
+            #   1) adjust for the reduction in space of the 
+            #      timestamp encoding (e.g. from 
+            #      "04 min 17 secs" to "04:17")
+            #
+            #   2) Much smaller size of spaces compared 
+            #      to letters, numbers, etc.
+            #
+            $replacer->transform("\r\n   ", "\r\n");
+
+
+            # XXX How do we replace only in leading space?
+
+            #$replacer->transform('(\d+)\s+secs',   '$1 ');
+        }
+
+
+        $someText = $replacer->currentString();
         return $someText;
     } #transformFor_YouTubeComments()
 
@@ -587,5 +630,7 @@ HTML_END;
 
 
 ?>
+
+
 
 

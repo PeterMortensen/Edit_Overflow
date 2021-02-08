@@ -372,9 +372,14 @@
                 "\t  00 min 44 secs:  ABC\r\n\t  XYZ", 6);
 
             # Removal of "www" for the encoded YouTube URLs
+            #
+            # The +3 is an adaption for now (changed functionality) - but
+            # perhaps we should only remove leading spaces if there is
+            # at least one timestamp?
+            #
             test_transformFor_YouTubeComments(1008,
                 "     https://www.youtube.com/watch?v=_pybvjmjLT0\r\n        ",
-              8);
+              8 + 3);
 
             # Input containing lines ***without*** leading
             # space - should always be unchanged.
@@ -450,6 +455,22 @@
             test_transformFor_YouTubeComments(1023, "https://www.dotnetrocks.com/default.aspx?ShowNum=1636", 0);
             test_transformFor_YouTubeComments(1024, "http://www.fullerton.edu/IT/_resources/pdfs/software_students/MATLAB-Toolboxes-AY2017_18.pdf", -1);
 
+            # Test for removal of leading spaces (so the text lines up when posted to YouTube)
+            #
+            # Note: Currently it really only works for no leading
+            #       space for the timestamps (e.g. remove common
+            #       leading spaces already applied)
+            #
+            # More than line
+            #
+            # 8 is for the timestamp, -1 for the space on the empty line,
+            # and 3 for removal of leading space.
+            #
+            test_transformFor_YouTubeComments(1025,
+                                              "04 min 17 secs:  Real start of pre Q&A\r\n" .
+                                              "\r\n" .
+                                              "                 Why make.\r\n",
+                                              8 - 1 + 3);
 
             # ----------------------------------------------------------------
 
