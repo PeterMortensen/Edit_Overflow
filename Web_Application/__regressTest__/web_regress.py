@@ -98,6 +98,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # checking that the result is as expected
     #
     def lookUp(self, aLookUpTerm, aExpectedEditSummary, anExplanation):
+
         self.submitTerm(aLookUpTerm)
 
         # For now only regression test for
@@ -121,6 +122,71 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             time.sleep(3.0)
 
             #time.sleep(5.0)
+
+    # That is, general here means the general text field on page Text.php.
+    def setGeneralTextField(self, aText):
+
+        lookUpElement = self.browser.find_element_by_name("someText")
+        lookUpElement.clear()
+        lookUpElement.send_keys(aText)
+
+        #lookUpElement.send_keys(aLookUpTerm)
+        #lookUpElement.send_keys(Keys.RETURN)
+
+
+    # Helper function for testing
+    #
+    # Invoke a Shift + Alt keyboard shortcut (that are
+    # defined for various buttons and text fields
+    # in Edit Overflow for web)
+    #
+    def webpageKeyboardShort(self, aKey):
+
+        # For now: only works on the Text.php page!!! Should we pass in
+        #          element?
+        #
+        lookUpElement = self.browser.find_element_by_name("someText")
+
+        lookUpElement.send_keys(Keys.SHIFT + Keys.ALT + aKey + Keys.SHIFT + Keys.ALT)
+
+        time.sleep(0.5)
+
+
+    # Text.php page: Test formatting of YouTube comments
+    #
+    def checkYouTubeFormatting(self):
+
+        if True: # Start out through HTML GET with an unknown term (new browser window)
+
+            self.browser.get('https://pmortensen.eu/world/Text.php')
+
+            content1_in_old1 =  ("04 min 17 secs:  Real start of pre Q&A\n"
+                                 "\n"
+                                 "                 Why Stef doesn't make Udemy courses.")
+
+            content1_out_old1 = ("04:17 :  Real start of pre Q&A\n"
+                                 " \n"                                 # Note: Space on otherwise empty lines
+                                 "                 Why Stef doesn't make Udemy courses.")
+
+            content1_out_new1 = ("04:17 :  Real start of pre Q&A\n"
+                                 " \n"                                 # Note: Space on otherwise empty lines
+                                 "              Why Stef doesn't make Udemy courses.")
+
+            self.setGeneralTextField(content1_in_old1)
+
+            time.sleep(1.0)
+
+            #Send Shift + Alt + Y for invoking the YouTube formatter
+            self.webpageKeyboardShort("y")
+
+            lookUpElement = self.browser.find_element_by_name("someText")
+
+            formatterResult = lookUpElement.get_attribute("value")
+
+            self.assertEqual(formatterResult, content1_out_new1, "The YouTube formatter result was bad!")
+
+            time.sleep(3.0) # Only for manual inspection of the
+                            # result. Can be removed at any time
 
 
     # Test of the central function of Edit Overflow for web: Looking
@@ -222,6 +288,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=no&OverflowStyle=Native')
         #pass
+
+
+    # Test of the text window functions, e.g. YouTube comment formatting
+    #
+    def test_text(self):
+
+        self.checkYouTubeFormatting()
 
 
 if __name__ == '__main__':

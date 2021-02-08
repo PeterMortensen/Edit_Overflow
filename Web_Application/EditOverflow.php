@@ -1,4 +1,6 @@
 <?php
+    ##########################################################################
+    #
     # File: EditOverflow.php
     #
     # This does the core of Edit Overflow: Looks up incorrect
