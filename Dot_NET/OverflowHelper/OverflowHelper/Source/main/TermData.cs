@@ -1306,6 +1306,7 @@ namespace OverflowHelper.core
             correctionAdd("D/B", "database");
             correctionAdd("Database", "database");
             correctionAdd("datase", "database");
+            correctionAdd("dbs", "database");
 
             correctionAdd("ria", "RIA");
             correctionAdd("Rich Internet application", "RIA");
@@ -2725,6 +2726,7 @@ namespace OverflowHelper.core
             correctionAdd("LINUX", "Linux");
             correctionAdd("Loonix", "Linux");
             correctionAdd("linuxx", "Linux");
+            correctionAdd("Linex", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -3445,6 +3447,8 @@ namespace OverflowHelper.core
             correctionAdd("Cant", "can’t");
             correctionAdd("can`t", "can’t");
             correctionAdd("can't", "can’t");
+            correctionAdd("Cant'", "can’t");
+            correctionAdd("cant'", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -6397,13 +6401,6 @@ namespace OverflowHelper.core
             correctionAdd("BitBucket", "Bitbucket");
             correctionAdd("bit bucket", "Bitbucket");
 
-            correctionAdd("oop", "object-oriented programming");
-            correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
-            correctionAdd("object oriented programming", "object-oriented programming");
-            correctionAdd("object orientated programming", "object-oriented programming");
-            correctionAdd("OOP", "object-oriented programming");
-            correctionAdd("O.O.P", "object-oriented programming");
-
             correctionAdd("squeak", "Squeak");
 
             correctionAdd("allright", "all right");
@@ -7163,6 +7160,8 @@ namespace OverflowHelper.core
             correctionAdd("Downalod", "download");
             correctionAdd("downalod", "download");
 
+            correctionAdd("chrubuntu", "ChrUbuntu");
+
             correctionAdd("ubuntu", "Ubuntu");
             correctionAdd("UBUNTU", "Ubuntu");
             correctionAdd("Ubunutu", "Ubuntu"); // Misspelling.
@@ -7176,6 +7175,7 @@ namespace OverflowHelper.core
             correctionAdd("ubunut", "Ubuntu");
             correctionAdd("ubunbtu", "Ubuntu");
             correctionAdd("Ubunbtu", "Ubuntu");
+            correctionAdd("ubntu", "Ubuntu");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -8164,9 +8164,6 @@ namespace OverflowHelper.core
             correctionAdd("duck-typing", "duck typing");
             correctionAdd("Duck Typing", "duck typing");
             correctionAdd("Duck typing", "duck typing");
-
-            correctionAdd("cassini", "Cassini Web server");
-            correctionAdd("cassini web server", "Cassini Web server");
 
             correctionAdd("wdsl", "WDSL");
 
@@ -9728,15 +9725,6 @@ namespace OverflowHelper.core
 
             correctionAdd("neiboughood", "neighbourhood");
 
-            correctionAdd("Functional programming", "functional programming");
-            correctionAdd("Functional Programming", "functional programming");
-            correctionAdd("FP", "functional programming");
-            correctionAdd("functionnal programming", "functional programming");
-            correctionAdd("fp", "functional programming");
-            correctionAdd("functional", "functional programming");
-            correctionAdd("Function Programming", "functional programming");
-            correctionAdd("function programming", "functional programming");
-
             correctionAdd("shud", "should");
             correctionAdd("shuold", "should");
             correctionAdd("shold", "should");
@@ -11174,7 +11162,24 @@ namespace OverflowHelper.core
             correctionAdd("possiible", "possible");
             correctionAdd("possibile", "possible");
 
+            correctionAdd("oop", "object-oriented programming");
+            correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
+            correctionAdd("object oriented programming", "object-oriented programming");
+            correctionAdd("object orientated programming", "object-oriented programming");
+            correctionAdd("OOP", "object-oriented programming");
+            correctionAdd("O.O.P", "object-oriented programming");
+
+            correctionAdd("Functional programming", "functional programming");
+            correctionAdd("Functional Programming", "functional programming");
+            correctionAdd("FP", "functional programming");
+            correctionAdd("functionnal programming", "functional programming");
+            correctionAdd("fp", "functional programming");
+            correctionAdd("functional", "functional programming");
+            correctionAdd("Function Programming", "functional programming");
+            correctionAdd("function programming", "functional programming");
+
             correctionAdd("programing", "programming");
+            correctionAdd("pragramming", "programming");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -12953,6 +12958,7 @@ namespace OverflowHelper.core
             correctionAdd("interessered", "interested");
             correctionAdd("interesseted", "interested");
             correctionAdd("interessed", "interested");
+            correctionAdd("intersted", "interested");
 
             correctionAdd("Iodine", "iodine");
 
@@ -13649,6 +13655,7 @@ namespace OverflowHelper.core
             correctionAdd("CENTOS", "CentOS");
             correctionAdd("cent-os", "CentOS");
             correctionAdd("CentOs", "CentOS");
+            correctionAdd("cent os", "CentOS");
 
             correctionAdd("freertos", "FreeRTOS");
 
@@ -14666,6 +14673,7 @@ namespace OverflowHelper.core
             correctionAdd("estetics", "aesthetics");
 
             correctionAdd("down-side", "downside");
+            correctionAdd("down side", "downside");
 
             correctionAdd("Ktrace", "ktrace");
 
@@ -15478,6 +15486,8 @@ namespace OverflowHelper.core
 
             correctionAdd("crossplatform", "cross-platform");
             correctionAdd("crossPlatform", "cross-platform");
+            correctionAdd("Cross Platform", "cross-platform");
+            correctionAdd("cross platform", "cross-platform");
 
             correctionAdd("Deuterium", "deuterium");
 
@@ -15737,6 +15747,7 @@ namespace OverflowHelper.core
             correctionAdd("quess", "guess");
 
             correctionAdd("instal", "install");
+            correctionAdd("intsall", "install");
 
             correctionAdd("powerfull", "powerful");
 
@@ -15934,8 +15945,6 @@ namespace OverflowHelper.core
 
             correctionAdd("weater", "weather");
             correctionAdd("wheater", "weather");
-
-            correctionAdd("Cassini", "Cassini web server");
 
             correctionAdd("Guttenberg", "Gutenberg");
 
@@ -17773,6 +17782,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fount", "found");
             correctionAdd("fund", "found");
+            correctionAdd("finded", "found");
 
             correctionAdd("joistick", "joystick");
 
@@ -18413,6 +18423,7 @@ namespace OverflowHelper.core
             correctionAdd("file sytem", "file system");
             correctionAdd("fs", "file system");
             correctionAdd("filesytem", "file system");
+            correctionAdd("File system", "file system");
 
             correctionAdd("VCS", "version control system"); // Expansion, actually ""
             correctionAdd("vcs", "version control system");
@@ -19264,7 +19275,13 @@ namespace OverflowHelper.core
 
             correctionAdd("sorey", "sorry");
 
+            correctionAdd("cassini", "Cassini Web server");
+            correctionAdd("cassini web server", "Cassini Web server");
+
+            correctionAdd("Cassini", "Cassini web server");
+
             correctionAdd("webserver", "web server");
+            correctionAdd("Web Server", "web server");
 
             correctionAdd("fahrenheit", "Fahrenheit");
             correctionAdd("Farenheit", "Fahrenheit");
@@ -20132,6 +20149,7 @@ namespace OverflowHelper.core
 
             correctionAdd("andd", "and");
             correctionAdd("abd", "and");
+            correctionAdd("adn", "and");
 
             correctionAdd("in hand", "on hand");
 
@@ -23323,8 +23341,6 @@ namespace OverflowHelper.core
             correctionAdd("aspergers", "Asperger syndrome");
             correctionAdd("Aspergers", "Asperger syndrome");
 
-            correctionAdd("chrubuntu", "ChrUbuntu");
-
             correctionAdd("Farmville", "FarmVille");
 
             correctionAdd("ideone", "Ideone");
@@ -24766,6 +24782,52 @@ namespace OverflowHelper.core
             correctionAdd("functional key", "function key");
 
             correctionAdd("lauched", "launched");
+
+            correctionAdd("copy paste detector", "Copy/Paste Detector");
+            correctionAdd("CPD", "Copy/Paste Detector");
+            correctionAdd("cpd", "Copy/Paste Detector");
+
+            correctionAdd("HTTP Request Smuggling", "HTTP request smuggling");
+
+            correctionAdd("osi", "OSI model");
+            correctionAdd("OSI", "OSI model");
+
+            correctionAdd("project mess detector", "Programming Mistake Detector");
+            correctionAdd("PMD", "Programming Mistake Detector");
+            correctionAdd("pmd", "Programming Mistake Detector");
+
+            correctionAdd("RAID 10", "RAID&nbsp;10");
+            correctionAdd("RAID10", "RAID&nbsp;10");
+            correctionAdd("raid10", "RAID&nbsp;10");
+            correctionAdd("raid 10", "RAID&nbsp;10");
+
+            correctionAdd("zend studio", "Zend Studio");
+
+            correctionAdd("comp0osed", "composed");
+
+            correctionAdd("deliniated", "delineated");
+
+            correctionAdd("ids", "intrusion detection system");
+            correctionAdd("IDS", "intrusion detection system");
+
+            correctionAdd("letf", "left");
+
+            correctionAdd("Language", "programming language");
+            correctionAdd("Programming Language", "programming language");
+
+            correctionAdd("redesining", "redesigning");
+
+            correctionAdd("re-organise", "reorganise");
+            correctionAdd("re-organize", "reorganise");
+            correctionAdd("reorganize", "reorganise");
+
+            correctionAdd("thins", "things");
+
+            correctionAdd("WAF", "web application firewall");
+
+            correctionAdd("Web site", "website");
+            correctionAdd("wesite", "website");
+            correctionAdd("web site", "website");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38541,6 +38603,38 @@ namespace OverflowHelper.core
             URL_Add("function key", "https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows");
 
             URL_Add("launched", "https://en.wiktionary.org/wiki/launch#Verb");
+
+            URL_Add("Copy/Paste Detector", "https://en.wikipedia.org/wiki/PMD_(software)#Copy/Paste_Detector_(CPD)");
+
+            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
+
+            URL_Add("OSI model", "https://en.wikipedia.org/wiki/OSI_model");
+
+            URL_Add("Programming Mistake Detector", "https://en.wikipedia.org/wiki/PMD_(software)");
+
+            URL_Add("RAID&nbsp;10", "https://en.wikipedia.org/wiki/Nested_RAID_levels#RAID_10_(RAID_1+0)");
+
+            URL_Add("Zend Studio", "https://en.wikipedia.org/wiki/Zend_Studio");
+
+            URL_Add("composed", "https://en.wiktionary.org/wiki/compose#Verb");
+
+            URL_Add("delineated", "https://en.wiktionary.org/wiki/delineate#Verb");
+
+            URL_Add("intrusion detection system", "https://en.wikipedia.org/wiki/Intrusion_detection_system");
+
+            URL_Add("left", "https://en.wiktionary.org/wiki/left#Noun");
+
+            URL_Add("programming language", "https://en.wikipedia.org/wiki/Programming_language");
+
+            URL_Add("redesigning", "https://en.wiktionary.org/wiki/redesign#Verb");
+
+            URL_Add("reorganise", "https://en.wiktionary.org/wiki/reorganise");
+
+            URL_Add("things", "https://en.wiktionary.org/wiki/thing#Noun");
+
+            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
+
+            URL_Add("website", "https://en.wikipedia.org/wiki/Website");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
