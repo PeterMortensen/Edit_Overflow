@@ -6080,11 +6080,6 @@ namespace OverflowHelper.core
             correctionAdd("construstor", "constructor");
             correctionAdd("cotr", "constructor");
 
-            correctionAdd("cli", "CLI");
-            correctionAdd("Command Line Interface", "CLI");
-            correctionAdd("command line interface", "CLI");
-            correctionAdd("command-line interface", "CLI");
-
             correctionAdd("Autoit", "AutoIt");
             correctionAdd("autoit", "AutoIt");
             correctionAdd("autoIt", "AutoIt");
@@ -13391,8 +13386,6 @@ namespace OverflowHelper.core
             correctionAdd("gitweb", "GitWeb");
             correctionAdd("Gitweb", "GitWeb");
 
-            correctionAdd("Reilly", "O'Reilly");
-
             // Of PowerShell...
             correctionAdd("set-location", "Set-Location");
 
@@ -15766,11 +15759,16 @@ namespace OverflowHelper.core
             correctionAdd("commandlet", "cmdlet");
             correctionAdd("cmd-let", "cmdlet");
 
-            correctionAdd("command line", "command-line");
-            correctionAdd("CML", "command-line");
-            correctionAdd("commandline", "command-line");
-            correctionAdd("commanline", "command-line");
-            correctionAdd("comandline", "command-line");
+            correctionAdd("cli", "CLI");
+            correctionAdd("Command Line Interface", "CLI");
+            correctionAdd("command line interface", "CLI");
+            correctionAdd("command-line interface", "CLI");
+
+            correctionAdd("command-line", "command line");
+            correctionAdd("CML", "command line");
+            correctionAdd("commandline", "command line");
+            correctionAdd("commanline", "command line");
+            correctionAdd("comandline", "command line");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -15989,6 +15987,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ntlm", "NTLM");
 
+            correctionAdd("Reilly", "O'Reilly Media");
             correctionAdd("O'Reilley", "O'Reilly Media");
             correctionAdd("Oreilly", "O'Reilly Media");
 
@@ -19288,9 +19287,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sorey", "sorry");
 
-            correctionAdd("cassini", "Cassini Web server");
-            correctionAdd("cassini web server", "Cassini Web server");
-
+            correctionAdd("cassini", "Cassini web server");
+            correctionAdd("cassini web server", "Cassini web server");
             correctionAdd("Cassini", "Cassini web server");
 
             correctionAdd("webserver", "web server");
@@ -27676,8 +27674,6 @@ namespace OverflowHelper.core
 
             URL_Add("duck typing", "https://en.wikipedia.org/wiki/Duck_typing");
 
-            URL_Add("Cassini Web server", "http://support.microsoft.com/kb/893391");
-
             URL_Add("WDSL", "https://en.wikipedia.org/wiki/Web_Services_Description_Language");
 
             URL_Add("BLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
@@ -30385,7 +30381,7 @@ namespace OverflowHelper.core
 
             URL_Add("button", "https://en.wiktionary.org/wiki/button#Noun");
 
-            URL_Add("command-line", "https://en.wikipedia.org/wiki/Command-line_interface");
+            URL_Add("command line", "https://en.wiktionary.org/wiki/command_line#Noun"); // Old: https://en.wikipedia.org/wiki/Command-line_interface
 
             URL_Add("compilation", "https://en.wiktionary.org/wiki/compilation#Noun");
 
@@ -30452,8 +30448,6 @@ namespace OverflowHelper.core
             URL_Add("GNU Make", "https://en.wikipedia.org/wiki/Make_(software)#Derivatives");
 
             URL_Add("GitWeb", "https://git-scm.com/book/en/v2/Git-on-the-Server-GitWeb");
-
-            URL_Add("O'Reilly", "https://en.wikipedia.org/wiki/O%27Reilly_Media");
 
             URL_Add("Set-Location", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-location");
 
@@ -32350,8 +32344,6 @@ namespace OverflowHelper.core
             URL_Add("winner, winner, chicken dinner", "https://en.wiktionary.org/wiki/winner,_winner,_chicken_dinner#Phrase");
 
             URL_Add("NTLM", "https://en.wikipedia.org/wiki/NT_LAN_Manager");
-
-            URL_Add("O'Reilly Media", "https://en.wikipedia.org/wiki/O%27Reilly_Media");
 
             URL_Add("Spotify", "https://en.wikipedia.org/wiki/Spotify");
 
@@ -38754,6 +38746,8 @@ namespace OverflowHelper.core
             URL_Add("should have", "https://en.wiktionary.org/wiki/should%27ve#Contraction");
 
             URL_Add("Novavax COVID-19 vaccine (NVX-CoV2373)", "https://en.wikipedia.org/wiki/Novavax_COVID-19_vaccine");
+
+            URL_Add("O'Reilly Media", "https://en.wikipedia.org/wiki/O%27Reilly_Media");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
