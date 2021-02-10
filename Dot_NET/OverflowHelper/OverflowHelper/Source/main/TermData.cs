@@ -6081,6 +6081,9 @@ namespace OverflowHelper.core
             correctionAdd("cotr", "constructor");
 
             correctionAdd("cli", "CLI");
+            correctionAdd("Command Line Interface", "CLI");
+            correctionAdd("command line interface", "CLI");
+            correctionAdd("command-line interface", "CLI");
 
             correctionAdd("Autoit", "AutoIt");
             correctionAdd("autoit", "AutoIt");
@@ -15987,6 +15990,7 @@ namespace OverflowHelper.core
             correctionAdd("ntlm", "NTLM");
 
             correctionAdd("O'Reilley", "O'Reilly Media");
+            correctionAdd("Oreilly", "O'Reilly Media");
 
             correctionAdd("spotify", "Spotify");
 
@@ -18914,6 +18918,8 @@ namespace OverflowHelper.core
             correctionAdd("te", "the");
             correctionAdd("tha", "the");
             correctionAdd("fhe", "the");
+            correctionAdd("Tha", "the");
+            correctionAdd("The", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -23365,6 +23371,7 @@ namespace OverflowHelper.core
             correctionAdd("PHP 4", "PHP&nbsp;4");
             correctionAdd("php 4", "PHP&nbsp;4");
             correctionAdd("php4", "PHP&nbsp;4");
+            correctionAdd("PHP4", "PHP&nbsp;4");
 
             correctionAdd("pid", "PID");
 
@@ -24869,6 +24876,26 @@ namespace OverflowHelper.core
 
             correctionAdd("superseed", "supersede");
 
+            correctionAdd("$GET", "$_GET");
+
+            correctionAdd("$POST", "$_POST");
+
+            correctionAdd("analisys", "analysis");
+            correctionAdd("alaysis", "analysis");
+            correctionAdd("alnaysis", "analysis");
+            correctionAdd("analisis", "analysis");
+
+            correctionAdd("anyhoo", "anyhow");
+            correctionAdd("Anyhoo", "anyhow");
+
+            correctionAdd("geekie", "geeky");
+            correctionAdd("Geekie", "geeky");
+
+            correctionAdd("passe", "passed");
+
+            correctionAdd("should've", "should have");
+            correctionAdd("shoulda", "should have");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25030,6 +25057,7 @@ namespace OverflowHelper.core
             correctionAdd("AZ vax", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("oxford vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("az vax", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25056,12 +25084,15 @@ namespace OverflowHelper.core
             correctionAdd("Johnson &Johnson", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Johnson & Johnson", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("J & J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("J&J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Janssen", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
             correctionAdd("intermectim", "ivermectin"); // Coronavirus
             correctionAdd("intermectin", "ivermectin"); // Coronavirus
-            correctionAdd("IVM", "ivermectin");
+            correctionAdd("IVM", "ivermectin"); // Coronavirus
+            correctionAdd("IVERMECTIN", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -25082,6 +25113,8 @@ namespace OverflowHelper.core
 
             correctionAdd("contagian", "contagion"); // Coronavirus
             correctionAdd("contaigan", "contagion"); // Coronavirus
+
+            correctionAdd("Novavax", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -38705,6 +38738,22 @@ namespace OverflowHelper.core
             URL_Add("logarithmic", "https://en.wiktionary.org/wiki/logarithmic#Adjective");
 
             URL_Add("supersede", "https://en.wiktionary.org/wiki/supersede#Verb");
+
+            URL_Add("$_GET", "https://www.php.net/manual/en/reserved.variables.get.php");
+
+            URL_Add("$_POST", "https://www.php.net/manual/en/reserved.variables.post.php");
+
+            URL_Add("analysis", "https://en.wiktionary.org/wiki/analysis#Noun");
+
+            URL_Add("anyhow", "https://en.wiktionary.org/wiki/anyhow#Adverb");
+
+            URL_Add("geeky", "https://en.wiktionary.org/wiki/geeky#Adjective");
+
+            URL_Add("passed", "https://en.wiktionary.org/wiki/pass#Verb");
+
+            URL_Add("should have", "https://en.wiktionary.org/wiki/should%27ve#Contraction");
+
+            URL_Add("Novavax COVID-19 vaccine (NVX-CoV2373)", "https://en.wikipedia.org/wiki/Novavax_COVID-19_vaccine");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
