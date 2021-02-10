@@ -30,6 +30,15 @@
     const MAINTEXT = 'someText';
 
 
+    # For running locally on the command line, e.g. for testing 
+    # purposes (faster and without touching production)
+    if (!empty($argv[1])) {
+        #parse_str($argv[1], $_GET);
+        parse_str($argv[1], $_REQUEST);    
+    }
+
+
+
     $formDataSizeDiff = -1;
 
 
@@ -41,7 +50,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a90 2021-02-07T224853Z+0";
+        return "Edit Overflow v. 1.1.49a93 2021-02-10T062646Z+0";
     }
 
 
@@ -108,7 +117,7 @@
 
 
     # A central place to express if we should also support
-    # HTML GET parameters ($_REQUEST) or only POST
+    # HTML GET parameters ($_REQUEST) or ***only*** POST
     # parameters ($_POST).
     #
     # It also frees the clients for checking for existence (as in
@@ -433,7 +442,10 @@
         # It is also a good idea to have any TABs
         # converted first.
         #
-        if (! 0) # If we remove common leading spaces first (as in
+        #if (! 0) # If we remove common leading spaces first (as in
+        if ($replacer->match("\d+:\d+\s")) 
+        
+                 # If we remove common leading spaces first (as in
                  # our keyboard macro), then we don't need
                  # to explicitly detect (exclude) lines with
                  # timestamps.

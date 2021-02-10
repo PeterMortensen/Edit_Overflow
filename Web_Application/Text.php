@@ -373,13 +373,9 @@
 
             # Removal of "www" for the encoded YouTube URLs
             #
-            # The +3 is an adaption for now (changed functionality) - but
-            # perhaps we should only remove leading spaces if there is
-            # at least one timestamp?
-            #
             test_transformFor_YouTubeComments(1008,
                 "     https://www.youtube.com/watch?v=_pybvjmjLT0\r\n        ",
-              8 + 3);
+                8);
 
             # Input containing lines ***without*** leading
             # space - should always be unchanged.

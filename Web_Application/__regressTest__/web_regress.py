@@ -1,6 +1,6 @@
 ########################################################################
 #
-#  Purpose: Regression test for the main function in Edit Overflow
+#  Purpose: Regression test for the main functions in Edit Overflow
 #           for web, in particular the correct built up of edit
 #           summary messages, including looking up terms not in
 #           our word list.
@@ -134,7 +134,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #lookUpElement.send_keys(Keys.RETURN)
 
 
-    # Helper function for testing
+    # Helper function for testing the Edit Overflow text transformation page
     #
     # Invoke a Shift + Alt keyboard shortcut (that are
     # defined for various buttons and text fields
@@ -152,41 +152,76 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         time.sleep(0.5)
 
 
+    # "Text" here means the Edit Overflow "Text.php" page. The main
+    # edit field is used for both input and output (inline text
+    # transformation) and various manipulation can take place, e.g.
+    # using a macro keyboard (as keyboard shortcuts are defined for
+    # all operations, e.g. Ctrl + Shift for formatting  of YouTube
+    # comments (button "Transform for YouTube comments")
+    #
+    # Note: currently we have the huge overhead of creating a
+    #       new browser window for each test
+    #
+    def textTransformation(self,
+                           aTextBefore,
+                           aTextAfter,
+                           aKeyboardShortcutLetter,
+                           anErrorMessage):
+
+        self.browser.get('https://pmortensen.eu/world/Text.php')
+
+        self.setGeneralTextField(aTextBefore)
+
+        time.sleep(1.0)
+
+        self.webpageKeyboardShort(aKeyboardShortcutLetter)
+
+        lookUpElement = self.browser.find_element_by_name("someText")
+
+        formatterResult = lookUpElement.get_attribute("value")
+
+        self.assertEqual(formatterResult, aTextAfter, anErrorMessage)
+
+        time.sleep(3.0) # Only for manual inspection of the
+                        # result. Can be removed at any time
+
+
     # Text.php page: Test formatting of YouTube comments
     #
     def checkYouTubeFormatting(self):
 
-        if True: # Start out through HTML GET with an unknown term (new browser window)
+        content1_in1 =  ("04 min 17 secs:  Real start of pre Q&A\n"
+                             "\n"
+                             "                 Why Stef doesn't make Udemy courses.")
 
-            self.browser.get('https://pmortensen.eu/world/Text.php')
+        #content1_out_old1 = ("04:17 :  Real start of pre Q&A\n"
+        #                     " \n"                                 # Note: Space on otherwise empty lines
+        #                     "                 Why Stef doesn't make Udemy courses.")
+        content1_out_new1 = ("04:17 :  Real start of pre Q&A\n"
+                             " \n"                                 # Note: Space on otherwise empty lines
+                             "              Why Stef doesn't make Udemy courses.")
 
-            content1_in_old1 =  ("04 min 17 secs:  Real start of pre Q&A\n"
-                                 "\n"
-                                 "                 Why Stef doesn't make Udemy courses.")
 
-            content1_out_old1 = ("04:17 :  Real start of pre Q&A\n"
-                                 " \n"                                 # Note: Space on otherwise empty lines
-                                 "                 Why Stef doesn't make Udemy courses.")
+        # Send Shift + Alt + Y for invoking the YouTube formatter
+        self.textTransformation(
+            ("https://en.wikipedia.org/wiki/Ad26.COV2.S\n"
+             "\n"
+             "        Johnson & Johnson (Ad26.COV2.S)"),
 
-            content1_out_new1 = ("04:17 :  Real start of pre Q&A\n"
-                                 " \n"                                 # Note: Space on otherwise empty lines
-                                 "              Why Stef doesn't make Udemy courses.")
+            ("en DOT wikipedia DOT org/wiki/Ad26 DOT COV2 DOT S\n"
+             " \n"  # Yes, trailing space on empty lines.
+             "        Johnson & Johnson (Ad26 DOT COV2 DOT S)"),
+             #"     Johnson & Johnson (Ad26 DOT COV2 DOT S)"),       # Old behaviour
 
-            self.setGeneralTextField(content1_in_old1)
+            "y",
+            "The YouTube formatter result was bad!")
 
-            time.sleep(1.0)
+        # Send Shift + Alt + Y for invoking the YouTube formatter
+        self.textTransformation(content1_in1,
+                                content1_out_new1,
+                                "y",
+                                "The YouTube formatter result was bad!")
 
-            #Send Shift + Alt + Y for invoking the YouTube formatter
-            self.webpageKeyboardShort("y")
-
-            lookUpElement = self.browser.find_element_by_name("someText")
-
-            formatterResult = lookUpElement.get_attribute("value")
-
-            self.assertEqual(formatterResult, content1_out_new1, "The YouTube formatter result was bad!")
-
-            time.sleep(3.0) # Only for manual inspection of the
-                            # result. Can be removed at any time
 
 
     # Test of the central function of Edit Overflow for web: Looking
