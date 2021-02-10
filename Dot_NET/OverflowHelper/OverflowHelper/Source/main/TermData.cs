@@ -11584,6 +11584,7 @@ namespace OverflowHelper.core
             correctionAdd("appriciated", "appreciated");
             correctionAdd("appericated", "appreciated");
             correctionAdd("appreiciated", "appreciated");
+            correctionAdd("appreicated", "appreciated");
 
             correctionAdd("LA", "logic analyser");
             correctionAdd("Logic Analyzer", "logic analyser");
@@ -12542,6 +12543,7 @@ namespace OverflowHelper.core
             correctionAdd("addresss", "address");
 
             correctionAdd("bare in mind", "bear in mind");
+            correctionAdd("Bare in mind", "bear in mind");
 
             correctionAdd("baring in mind", "bearing in mind");
 
@@ -12653,6 +12655,7 @@ namespace OverflowHelper.core
             correctionAdd("prestigous", "prestigious");
 
             correctionAdd("psycological", "psychological");
+            correctionAdd("phycological", "psychological");
 
             correctionAdd("rememer", "remember");
             correctionAdd("rember", "remember");
@@ -13050,7 +13053,11 @@ namespace OverflowHelper.core
 
             correctionAdd("asigning", "assigning");
 
+            correctionAdd("third party cookies", "third-party cookies");
+            correctionAdd("Third-Party Cookies", "third-party cookies");
+
             correctionAdd("coockies", "cookies");
+            correctionAdd("Cookies", "cookies");
 
             correctionAdd("hidding", "hiding");
 
@@ -15996,6 +16003,7 @@ namespace OverflowHelper.core
             correctionAdd("carreer", "career");
             correctionAdd("CARRER", "career");
             correctionAdd("carrer", "career");
+            correctionAdd("Carreer", "career");
 
             correctionAdd("conqer", "conquer");
 
@@ -16577,6 +16585,7 @@ namespace OverflowHelper.core
 
             correctionAdd("scandinavian defense", "Scandinavian Defense"); // Chess
             correctionAdd("scandinavian opening", "Scandinavian Defense"); // Chess
+            correctionAdd("Scandinavian defense", "Scandinavian Defense"); // Chess
 
             correctionAdd("roock", "rook"); // Chess
 
@@ -18444,6 +18453,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ugrade", "upgrade");
             correctionAdd("upgade", "upgrade");
+            correctionAdd("upgrage", "upgrade");
 
             correctionAdd("Chemistry SE", "Chemistry (Stack Exchange site)");
             correctionAdd("chemistry SE", "Chemistry (Stack Exchange site)");
@@ -18655,6 +18665,8 @@ namespace OverflowHelper.core
             correctionAdd("Ad Words", "AdWords");
             correctionAdd("adwords", "AdWords");
             correctionAdd("Adwords", "AdWords");
+            correctionAdd("Google Adwords", "AdWords");
+            correctionAdd("Google AdWords", "AdWords");
 
             correctionAdd("basecamp", "Basecamp");
 
@@ -24253,9 +24265,6 @@ namespace OverflowHelper.core
             correctionAdd("TeX - LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
 
-            correctionAdd("third party cookies", "third-party cookies");
-            correctionAdd("Third-Party Cookies", "third-party cookies");
-
             correctionAdd("USDC", "USD Coin");
             correctionAdd("usdc", "USD Coin");
 
@@ -24894,6 +24903,12 @@ namespace OverflowHelper.core
             correctionAdd("should've", "should have");
             correctionAdd("shoulda", "should have");
 
+            correctionAdd("BeiJing", "Beijing");
+
+            correctionAdd("figma", "Figma");
+
+            correctionAdd("wave form", "waveform");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25056,6 +25071,8 @@ namespace OverflowHelper.core
             correctionAdd("Oxford AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("oxford vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("az vax", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25091,6 +25108,7 @@ namespace OverflowHelper.core
             correctionAdd("intermectin", "ivermectin"); // Coronavirus
             correctionAdd("IVM", "ivermectin"); // Coronavirus
             correctionAdd("IVERMECTIN", "ivermectin"); // Coronavirus
+            correctionAdd("IVERMECTINE", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -38748,6 +38766,12 @@ namespace OverflowHelper.core
             URL_Add("Novavax COVID-19 vaccine (NVX-CoV2373)", "https://en.wikipedia.org/wiki/Novavax_COVID-19_vaccine");
 
             URL_Add("O'Reilly Media", "https://en.wikipedia.org/wiki/O%27Reilly_Media");
+
+            URL_Add("Beijing", "https://en.wikipedia.org/wiki/Beijing");
+
+            URL_Add("Figma", "https://en.wikipedia.org/wiki/Figma_(software)");
+
+            URL_Add("waveform", "https://en.wikipedia.org/wiki/Waveform");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
