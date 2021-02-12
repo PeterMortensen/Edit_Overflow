@@ -8134,6 +8134,8 @@ namespace OverflowHelper.core
             correctionAdd("begginner", "beginner");
             correctionAdd("beginer", "beginner");
             correctionAdd("begineer", "beginner");
+            correctionAdd("Beginnger", "beginner");
+            correctionAdd("beginnger", "beginner");
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -15413,6 +15415,10 @@ namespace OverflowHelper.core
             correctionAdd("dispalying", "displaying");
 
             correctionAdd("Named Entity Recognition", "named-entity recognition");
+            correctionAdd("Named Entity Recoginition", "named-entity recognition");
+            correctionAdd("Named-Entity Eecognition", "named-entity recognition");
+            correctionAdd("Named Entity Eecognition", "named-entity recognition");
+            correctionAdd("NEE", "named-entity recognition");
 
             correctionAdd("offchance", "off chance");
 
@@ -18716,6 +18722,7 @@ namespace OverflowHelper.core
             correctionAdd("pyling", "Pylint");
 
             correctionAdd("Software Recs", "Software Recommendations");
+            correctionAdd("software recommendations", "Software Recommendations");
 
             correctionAdd("tcptrace", "TCPTrace");
             correctionAdd("Tcptrace", "TCPTrace");
@@ -24944,6 +24951,24 @@ namespace OverflowHelper.core
             correctionAdd("plist", "p-list file");
 
             correctionAdd("vauge", "vague");
+
+            correctionAdd("additon", "addition");
+
+            correctionAdd("client side", "client-side");
+
+            correctionAdd("insite", "insight");
+
+            correctionAdd("loadtesting", "load testing");
+
+            correctionAdd("modproxy", "mod_proxy");
+
+            correctionAdd("non-important", "nonimportant");
+            correctionAdd("non important", "nonimportant");
+
+            correctionAdd("server side", "server-side");
+
+            correctionAdd("visualize", "visualise");
+            correctionAdd("visaualize", "visualise");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38835,6 +38860,22 @@ namespace OverflowHelper.core
             URL_Add("p-list file", "https://en.wikipedia.org/wiki/Property_list");
 
             URL_Add("vague", "https://en.wiktionary.org/wiki/vague#Adjective");
+
+            URL_Add("addition", "https://en.wiktionary.org/wiki/addition#Noun");
+
+            URL_Add("client-side", "https://en.wiktionary.org/wiki/client-side#Adjective");
+
+            URL_Add("insight", "https://en.wiktionary.org/wiki/insight#Noun");
+
+            URL_Add("load testing", "https://en.wikipedia.org/wiki/Load_testing");
+
+            URL_Add("mod_proxy", "https://en.wikipedia.org/wiki/Mod_proxy");
+
+            URL_Add("nonimportant", "https://en.wiktionary.org/wiki/nonimportant#Adjective");
+
+            URL_Add("server-side", "https://en.wiktionary.org/wiki/server-side#Adjective");
+
+            URL_Add("visualise", "https://en.wiktionary.org/wiki/visualise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
