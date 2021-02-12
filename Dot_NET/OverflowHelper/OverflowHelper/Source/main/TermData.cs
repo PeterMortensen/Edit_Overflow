@@ -15418,7 +15418,7 @@ namespace OverflowHelper.core
             correctionAdd("Named Entity Recoginition", "named-entity recognition");
             correctionAdd("Named-Entity Eecognition", "named-entity recognition");
             correctionAdd("Named Entity Eecognition", "named-entity recognition");
-            correctionAdd("NEE", "named-entity recognition");
+            correctionAdd("NER", "named-entity recognition");
 
             correctionAdd("offchance", "off chance");
 
