@@ -1447,8 +1447,30 @@ namespace OverflowHelper.core
             correctionAdd("numPy", "NumPy");
             correctionAdd("NUMPY", "NumPy");
 
+            correctionAdd("git BASH", "Git Bash");
+            correctionAdd("gitBash", "Git Bash");
+            correctionAdd("git Bash", "Git Bash");
+            correctionAdd("git bash", "Git Bash");
+            correctionAdd("gitbash", "Git Bash");
+            correctionAdd("git-bash", "Git Bash");
+            correctionAdd("Git BASH", "Git Bash");
+            correctionAdd("GIT Bash", "Git Bash");
+            correctionAdd("GitBash", "Git Bash");
+            correctionAdd("Git bash", "Git Bash");
+            correctionAdd("Gitbash", "Git Bash");
+            correctionAdd("GIT bash", "Git Bash");
+            correctionAdd("Git-Bash", "Git Bash");
+
+            correctionAdd("Winterbash", "Winter Bash");
+            correctionAdd("winter bash", "Winter Bash");
+            correctionAdd("Winter bash", "Winter Bash");
+            correctionAdd("winter-bash", "Winter Bash");
+            correctionAdd("WB", "Winter Bash");
+            correctionAdd("winterbash", "Winter Bash");
+
             correctionAdd("bash", "Bash");
             correctionAdd("BASH", "Bash");
+            correctionAdd("bBsh", "Bash");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -8649,6 +8671,7 @@ namespace OverflowHelper.core
             correctionAdd("FRENCH", "French");
 
             correctionAdd("british", "British");
+            correctionAdd("btish", "British");
 
             correctionAdd("f-15", "F-15");
             correctionAdd("f15", "F-15");
@@ -8836,6 +8859,7 @@ namespace OverflowHelper.core
             correctionAdd("basiclly", "basically");
             correctionAdd("Bascially", "basically");
             correctionAdd("bascially", "basically");
+            correctionAdd("basicilly", "basically");
 
             correctionAdd("mdi", "MDI");
 
@@ -10462,6 +10486,7 @@ namespace OverflowHelper.core
             correctionAdd("prononciation", "pronunciation");
             correctionAdd("pronouniciation", "pronunciation");
             correctionAdd("pronuniciation", "pronunciation");
+            correctionAdd("Pronounciation", "pronunciation");
 
             correctionAdd("requrie", "require");
             correctionAdd("requries", "require"); // Not 100% correct, third-person singular
@@ -10638,20 +10663,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fpu", "FPU");
 
-            correctionAdd("git BASH", "Git Bash");
-            correctionAdd("gitBash", "Git Bash");
-            correctionAdd("git Bash", "Git Bash");
-            correctionAdd("git bash", "Git Bash");
-            correctionAdd("gitbash", "Git Bash");
-            correctionAdd("git-bash", "Git Bash");
-            correctionAdd("Git BASH", "Git Bash");
-            correctionAdd("GIT Bash", "Git Bash");
-            correctionAdd("GitBash", "Git Bash");
-            correctionAdd("Git bash", "Git Bash");
-            correctionAdd("Gitbash", "Git Bash");
-            correctionAdd("GIT bash", "Git Bash");
-            correctionAdd("Git-Bash", "Git Bash");
-
             correctionAdd("git-extensions", "Git Extensions");
             correctionAdd("GitExtensions", "Git Extensions");
             correctionAdd("gitextensions", "Git Extensions");
@@ -10793,6 +10804,7 @@ namespace OverflowHelper.core
             correctionAdd("reccomondation", "recommendation");
             correctionAdd("recommondation", "recommendation");
             correctionAdd("rec", "recommendation");
+            correctionAdd("reccommendation", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -13313,11 +13325,14 @@ namespace OverflowHelper.core
 
             correctionAdd("eloquenctly", "eloquently");
 
+            correctionAdd("targeting", "targetting");
+
             correctionAdd("gettign", "getting");
             correctionAdd("gettting", "getting");
             correctionAdd("gettin", "getting");
             correctionAdd("gettinog", "getting");
             correctionAdd("gettinig", "getting");
+            correctionAdd("gettig", "getting");
 
             correctionAdd("goel", "goal");
 
@@ -14224,6 +14239,7 @@ namespace OverflowHelper.core
 
             correctionAdd("creat", "create");
             correctionAdd("craete", "create");
+            correctionAdd("crate", "create");
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
@@ -16254,6 +16270,7 @@ namespace OverflowHelper.core
             correctionAdd("EURO", "euro");
 
             correctionAdd("fallow", "follow");
+            correctionAdd("folow", "follow");
 
             correctionAdd("Luck fallow braves", "fortune favours the brave");
             correctionAdd("luck fallow braves", "fortune favours the brave");
@@ -16729,6 +16746,8 @@ namespace OverflowHelper.core
             correctionAdd("Dub-off", "Daniil Dubov"); // Chess
             correctionAdd("Dubov", "Daniil Dubov"); // Chess
             correctionAdd("dubov", "Daniil Dubov"); // Chess
+            correctionAdd("Danil", "Daniil Dubov"); // Chess
+            correctionAdd("Daniil", "Daniil Dubov"); // Chess
 
             correctionAdd("elo", "Elo"); // Chess
 
@@ -16787,6 +16806,7 @@ namespace OverflowHelper.core
             correctionAdd("Rapport", "Richárd Rapport"); // Chess
 
             correctionAdd("nezmedtimov", "Rashid Nezhmetdinov"); // Chess
+            correctionAdd("Nezhmetdinov", "Rashid Nezhmetdinov"); // Chess
 
             correctionAdd("anand", "Viswanathan Anand"); // Chess
             correctionAdd("Anand", "Viswanathan Anand"); // Chess
@@ -17298,8 +17318,6 @@ namespace OverflowHelper.core
 
             correctionAdd("somme", "some");
             correctionAdd("somi", "some");
-
-            correctionAdd("targeting", "targetting");
 
             correctionAdd("someon’es", "someone’s");
             correctionAdd("someone's", "someone’s");
@@ -21545,6 +21563,7 @@ namespace OverflowHelper.core
             correctionAdd("Open Source", "open source");
             correctionAdd("OpenSource", "open source");
             correctionAdd("opensource", "open source");
+            correctionAdd("Open-Source", "open source");
 
             correctionAdd("scoure", "source");
             correctionAdd("sorce", "source");
@@ -22805,13 +22824,6 @@ namespace OverflowHelper.core
 
             correctionAdd("TestNg", "TestNG");
             correctionAdd("testng", "TestNG");
-
-            correctionAdd("Winterbash", "Winter Bash");
-            correctionAdd("winter bash", "Winter Bash");
-            correctionAdd("Winter bash", "Winter Bash");
-            correctionAdd("winter-bash", "Winter Bash");
-            correctionAdd("WB", "Winter Bash");
-            correctionAdd("winterbash", "Winter Bash");
 
             correctionAdd("artculates", "articulates");
             correctionAdd("artşculates", "articulates");
@@ -24909,6 +24921,30 @@ namespace OverflowHelper.core
 
             correctionAdd("wave form", "waveform");
 
+            correctionAdd("core data", "Core Data");
+
+            correctionAdd("EasyEda", "EasyEDA");
+
+            correctionAdd("dijkstra", "Edsger W. Dijkstra");
+
+            correctionAdd("progress", "Progress");
+
+            correctionAdd("RISC V", "RISC-V");
+
+            correctionAdd("soyuz", "Soyuz");
+
+            correctionAdd("Dragon", "SpaceX Dragon");
+
+            correctionAdd("degress", "degrees");
+
+            correctionAdd("faliing", "falling");
+
+            correctionAdd("manufactoring", "manufacturing");
+
+            correctionAdd("plist", "p-list file");
+
+            correctionAdd("vauge", "vague");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25027,6 +25063,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sputnic", "Sputnik V"); // Coronavirus
             correctionAdd("Sputnik 5", "Sputnik V"); // Coronavirus
+            correctionAdd("spotnik v", "Sputnik V"); // Coronavirus
 
             correctionAdd("black death", "Black Death"); // Coronavirus
 
@@ -25109,6 +25146,8 @@ namespace OverflowHelper.core
             correctionAdd("IVM", "ivermectin"); // Coronavirus
             correctionAdd("IVERMECTIN", "ivermectin"); // Coronavirus
             correctionAdd("IVERMECTINE", "ivermectin"); // Coronavirus
+            correctionAdd("Ivermecrin", "ivermectin"); // Coronavirus
+            correctionAdd("ivermecrin", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -38772,6 +38811,30 @@ namespace OverflowHelper.core
             URL_Add("Figma", "https://en.wikipedia.org/wiki/Figma_(software)");
 
             URL_Add("waveform", "https://en.wikipedia.org/wiki/Waveform");
+
+            URL_Add("Core Data", "https://developer.apple.com/documentation/coredata");
+
+            URL_Add("EasyEDA", "https://en.wikipedia.org/wiki/EasyEDA");
+
+            URL_Add("Edsger W. Dijkstra", "https://en.wikipedia.org/wiki/Edsger_W._Dijkstra");
+
+            URL_Add("Progress", "https://en.wikipedia.org/wiki/Progress_(spacecraft)");
+
+            URL_Add("RISC-V", "https://en.wikipedia.org/wiki/RISC-V");
+
+            URL_Add("Soyuz", "https://en.wikipedia.org/wiki/Soyuz_(spacecraft)");
+
+            URL_Add("SpaceX Dragon", "https://en.wikipedia.org/wiki/SpaceX_Dragon");
+
+            URL_Add("degrees", "https://en.wiktionary.org/wiki/degree#Noun");
+
+            URL_Add("falling", "https://en.wiktionary.org/wiki/fall#Verb");
+
+            URL_Add("manufacturing", "https://en.wiktionary.org/wiki/manufacturing#Noun");
+
+            URL_Add("p-list file", "https://en.wikipedia.org/wiki/Property_list");
+
+            URL_Add("vague", "https://en.wiktionary.org/wiki/vague#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
