@@ -3272,6 +3272,11 @@ namespace OverflowHelper.core
             correctionAdd("gtalk", "Google Talk");
             correctionAdd("gTalk", "Google Talk");
             correctionAdd("GTalk", "Google Talk");
+            correctionAdd("GChat", "Google Talk");
+            correctionAdd("Gchat", "Google Talk");
+            correctionAdd("Gmessage", "Google Talk");
+            correctionAdd("GMessage", "Google Talk");
+            correctionAdd("Google Chat", "Google Talk");
 
             correctionAdd("Distro", "distribution"); // Expansion.
             correctionAdd("distro", "distribution"); // Expansion.
@@ -5791,10 +5796,6 @@ namespace OverflowHelper.core
             correctionAdd("kies", "Samsung Kies");
             correctionAdd("Samsung kies", "Samsung Kies");
 
-            correctionAdd("ffmpeg", "FFmpeg");
-            correctionAdd("FFMPEG", "FFmpeg");
-            correctionAdd("Ffmpeg", "FFmpeg");
-
             correctionAdd("knoppix", "Knoppix");
 
             correctionAdd("cpan", "CPAN");
@@ -8141,7 +8142,12 @@ namespace OverflowHelper.core
             correctionAdd("byte order mark", "BOM");
             correctionAdd("Byte Order Mark", "BOM");
 
+            correctionAdd("ffmpeg", "FFmpeg");
+            correctionAdd("FFMPEG", "FFmpeg");
+            correctionAdd("Ffmpeg", "FFmpeg");
+
             correctionAdd("mpeg", "MPEG");
+            correctionAdd("mpg", "MPEG");
 
             correctionAdd("Rtsp", "RTSP");
             correctionAdd("rtsp", "RTSP");
@@ -16654,6 +16660,10 @@ namespace OverflowHelper.core
             correctionAdd("grumfeld", "Grünfeld Defence"); // Chess
             correctionAdd("grumfeldt", "Grünfeld Defence"); // Chess
             correctionAdd("grunfeld", "Grünfeld Defence"); // Chess
+            correctionAdd("groomfeld", "Grünfeld Defence"); // Chess
+            correctionAdd("Grundfeld", "Grünfeld Defence"); // Chess
+            correctionAdd("Gruenfeld", "Grünfeld Defence"); // Chess
+            correctionAdd("gruenfeld", "Grünfeld Defence"); // Chess
 
             correctionAdd("nimsovits", "Nimzowitsch Defence"); // Chess
 
@@ -16761,6 +16771,7 @@ namespace OverflowHelper.core
             correctionAdd("Fide", "FIDE"); // Chess
 
             correctionAdd("MVL", "Maxime Vachier-Lagrave"); // Chess
+            correctionAdd("Maxime", "Maxime Vachier-Lagrave"); // Chess
 
             correctionAdd("botnivik", "Mikhail Botvinnik"); // Chess
             correctionAdd("botvinik", "Mikhail Botvinnik"); // Chess
@@ -16829,6 +16840,10 @@ namespace OverflowHelper.core
 
             correctionAdd("McDonnell Gambit", "King's Gambit, McDonnell Gambit"); // Chess
             correctionAdd("Mc donald gambit", "King's Gambit, McDonnell Gambit"); // Chess
+
+            correctionAdd("Wesley", "Wesley So"); // Chess
+
+            correctionAdd("Tempo", "tempo"); // Chess
             //
             // End of chess part
 
@@ -23340,6 +23355,7 @@ namespace OverflowHelper.core
             correctionAdd("pre-select", "preselect");
 
             correctionAdd("supervior", "supervisor");
+            correctionAdd("supervisior", "supervisor");
 
             correctionAdd("They", "they");
             correctionAdd("Thye", "they");
@@ -24969,6 +24985,12 @@ namespace OverflowHelper.core
 
             correctionAdd("visualize", "visualise");
             correctionAdd("visaualize", "visualise");
+
+            correctionAdd("chef", "Chef");
+
+            correctionAdd("SQUISH", "squish");
+
+            correctionAdd("Virtual Machine", "virtual machine");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -26736,7 +26758,7 @@ namespace OverflowHelper.core
 
             URL_Add("LED", "https://en.wikipedia.org/wiki/Light-emitting_diode");
 
-            URL_Add("Experts-Exchange", "https://en.wikipedia.org/wiki/Experts-Exchange");
+            URL_Add("Experts-Exchange", "https://en.wikipedia.org/wiki/Experts_Exchange"); // Old: https://en.wikipedia.org/wiki/Experts-Exchange - though it loses the hyphen...
 
             URL_Add("Asus", "https://en.wikipedia.org/wiki/Asus");
 
@@ -30647,7 +30669,7 @@ namespace OverflowHelper.core
 
             URL_Add("Bower", "https://bower.io/");
 
-            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards"); // Old: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
 
             URL_Add("GTK", "https://en.wikipedia.org/wiki/GTK");
 
@@ -38876,6 +38898,16 @@ namespace OverflowHelper.core
             URL_Add("server-side", "https://en.wiktionary.org/wiki/server-side#Adjective");
 
             URL_Add("visualise", "https://en.wiktionary.org/wiki/visualise#Verb");
+
+            URL_Add("Chef", "https://en.wikipedia.org/wiki/Chef_(software)");
+
+            URL_Add("squish", "https://en.wiktionary.org/wiki/squish#Verb");
+
+            URL_Add("virtual machine", "https://en.wikipedia.org/wiki/Virtual_machine");
+
+            URL_Add("Wesley So", "https://en.wikipedia.org/wiki/Wesley_So");
+
+            URL_Add("tempo", "https://en.wikipedia.org/wiki/Tempo_(chess)");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
