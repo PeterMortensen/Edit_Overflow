@@ -2995,6 +2995,9 @@ namespace OverflowHelper.core
             correctionAdd("definiteley", "definitely");
             correctionAdd("def", "definitely");
             correctionAdd("Defo", "definitely");
+            correctionAdd("Defently", "definitely");
+            correctionAdd("defently", "definitely");
+            correctionAdd("Definitely", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -4938,9 +4941,6 @@ namespace OverflowHelper.core
             correctionAdd("lynx", "Lynx");
 
             correctionAdd("PM", "project management"); // PM is an overloaded term...
-
-            correctionAdd("windows update", "Windows Update");
-            correctionAdd("Windows update", "Windows Update");
 
             correctionAdd("Tortoisesvn", "TortoiseSVN");
             correctionAdd("Tortoise svn", "TortoiseSVN");
@@ -16472,6 +16472,7 @@ namespace OverflowHelper.core
             correctionAdd("karslan", "Magnus Carlsen"); // Chess
             correctionAdd("karlsan", "Magnus Carlsen"); // Chess
             correctionAdd("Karlsan", "Magnus Carlsen"); // Chess
+            correctionAdd("carlsen", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -16491,7 +16492,10 @@ namespace OverflowHelper.core
             correctionAdd("alexander grishchuk", "Alexander Grischuk"); // Chess
             correctionAdd("Grisjuk", "Alexander Grischuk"); // Chess
             correctionAdd("grisjuk", "Alexander Grischuk"); // Chess
-            correctionAdd("grischuk", "Alexander Grischuk");
+            correctionAdd("grischuk", "Alexander Grischuk"); // Chess
+            correctionAdd("Grischuk", "Alexander Grischuk");
+            correctionAdd("Sasha", "Alexander Grischuk");
+            correctionAdd("sasha", "Alexander Grischuk");
 
             correctionAdd("Alpha Zero", "AlphaZero"); // Chess
             correctionAdd("Alpha zero", "AlphaZero"); // Chess
@@ -20027,6 +20031,8 @@ namespace OverflowHelper.core
             correctionAdd("diplay", "display");
 
             correctionAdd("imagion", "imagine");
+            correctionAdd("Emargin", "imagine");
+            correctionAdd("emargin", "imagine");
 
             correctionAdd("KW", "kW");
 
@@ -20051,6 +20057,7 @@ namespace OverflowHelper.core
             correctionAdd("EF Core", "Entity Framework Core");
 
             correctionAdd("expellative", "expletive");
+            correctionAdd("explitive", "expletive");
 
             correctionAdd("fire fight", "firefight");
             correctionAdd("fire-fight", "firefight");
@@ -22798,8 +22805,14 @@ namespace OverflowHelper.core
 
             correctionAdd("TAC", "tac");
 
+            correctionAdd("windows update", "Windows Update");
+            correctionAdd("Windows update", "Windows Update");
+
             correctionAdd("udpate", "update");
             correctionAdd("updste", "update");
+            correctionAdd("UPD", "update");
+            correctionAdd("UPDATE", "update");
+            correctionAdd("upd", "update");
 
             correctionAdd("volantory", "voluntary");
 
@@ -24742,6 +24755,8 @@ namespace OverflowHelper.core
             correctionAdd("gamestop", "GameStop");
 
             correctionAdd("sqlfiddle", "SQL Fiddle");
+            correctionAdd("SQL fiddle", "SQL Fiddle");
+            correctionAdd("SQLfiddle", "SQL Fiddle");
 
             correctionAdd("WWIII", "World War III");
             correctionAdd("world War 3", "World War III");
@@ -25006,6 +25021,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Robo 3T", "Robomongo");
             correctionAdd("robomongo", "Robomongo");
+            correctionAdd("Robomong", "Robomongo");
 
             correctionAdd("contaians", "contains");
             correctionAdd("conatians", "contains");
@@ -25020,6 +25036,30 @@ namespace OverflowHelper.core
             correctionAdd("quadcore", "quad-core");
 
             correctionAdd("RHS", "right-hand side");
+
+            correctionAdd("Matrix", "The Matrix");
+
+            correctionAdd("academia", "achademia");
+            correctionAdd("achedemia", "achademia");
+
+            correctionAdd("analist", "analyst");
+            correctionAdd("annalist", "analyst");
+
+            correctionAdd("annilation", "annihilation");
+            correctionAdd("anaylation", "annihilation");
+
+            correctionAdd("dessert", "desert");
+
+            correctionAdd("dissapoint", "disappoint");
+
+            correctionAdd("dissapoints", "disappoints");
+
+            correctionAdd("flite", "flight");
+
+            correctionAdd("nemezis", "nemesis");
+            correctionAdd("Nemesis", "nemesis");
+
+            correctionAdd("off the hoop", "off the hook");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38955,6 +38995,26 @@ namespace OverflowHelper.core
             URL_Add("quad-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Disadvantages");
 
             URL_Add("right-hand side", "https://en.wiktionary.org/wiki/RHS#Noun");
+
+            URL_Add("The Matrix", "https://en.wikipedia.org/wiki/The_Matrix");
+
+            URL_Add("achademia", "https://en.wiktionary.org/wiki/academia#Noun");
+
+            URL_Add("analyst", "https://en.wiktionary.org/wiki/analyst#Noun");
+
+            URL_Add("annihilation", "https://en.wiktionary.org/wiki/annihilation#Noun");
+
+            URL_Add("desert", "https://en.wiktionary.org/wiki/desert#Noun_2");
+
+            URL_Add("disappoint", "https://en.wiktionary.org/wiki/disappoint#Verb");
+
+            URL_Add("disappoints", "https://en.wiktionary.org/wiki/disappoint#Verb");
+
+            URL_Add("flight", "https://en.wiktionary.org/wiki/flight#Noun");
+
+            URL_Add("nemesis", "https://en.wiktionary.org/wiki/nemesis#Noun");
+
+            URL_Add("off the hook", "https://en.wiktionary.org/wiki/off_the_hook#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
