@@ -4834,6 +4834,7 @@ namespace OverflowHelper.core
             correctionAdd("Apache Web Server", "Apache HTTP Server");
             correctionAdd("Apache", "Apache HTTP Server");
             correctionAdd("appache", "Apache HTTP Server");
+            correctionAdd("Apace", "Apache HTTP Server");
 
             correctionAdd("graphViz", "Graphviz");
             correctionAdd("graphviz", "Graphviz");
@@ -9178,6 +9179,7 @@ namespace OverflowHelper.core
             correctionAdd("Silicon Vallay", "Silicon Valley");
 
             correctionAdd("no body", "nobody");
+            correctionAdd("knowbody", "nobody");
 
             correctionAdd("airbnb", "Airbnb");
             correctionAdd("AirBnB", "Airbnb");
@@ -11179,6 +11181,7 @@ namespace OverflowHelper.core
             correctionAdd("posible", "possible");
             correctionAdd("possiible", "possible");
             correctionAdd("possibile", "possible");
+            correctionAdd("poissible", "possible");
 
             correctionAdd("oop", "object-oriented programming");
             correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
@@ -19057,6 +19060,8 @@ namespace OverflowHelper.core
             correctionAdd("vertion", "version");
             correctionAdd("vesrion", "version");
             correctionAdd("Verison", "version");
+            correctionAdd("Vesion", "version");
+            correctionAdd("vesion", "version");
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
@@ -23025,6 +23030,7 @@ namespace OverflowHelper.core
             correctionAdd("re-import", "reimport");
 
             correctionAdd("symtom", "symptom");
+            correctionAdd("sympthom", "symptom");
 
             correctionAdd("vac", "vacuum cleaner");
 
@@ -24991,6 +24997,29 @@ namespace OverflowHelper.core
             correctionAdd("SQUISH", "squish");
 
             correctionAdd("Virtual Machine", "virtual machine");
+
+            correctionAdd("google authenticator", "Google Authenticator");
+
+            correctionAdd("mongochef", "MongoChef");
+
+            correctionAdd("PC Linux OS", "PCLinuxOS");
+
+            correctionAdd("Robo 3T", "Robomongo");
+            correctionAdd("robomongo", "Robomongo");
+
+            correctionAdd("contaians", "contains");
+            correctionAdd("conatians", "contains");
+
+            correctionAdd("LHS", "left-hand side");
+
+            correctionAdd("mispelling", "misspelling");
+
+            correctionAdd("Quad-Core", "quad-core");
+            correctionAdd("Quad Core", "quad-core");
+            correctionAdd("quad core", "quad-core");
+            correctionAdd("quadcore", "quad-core");
+
+            correctionAdd("RHS", "right-hand side");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38908,6 +38937,24 @@ namespace OverflowHelper.core
             URL_Add("Wesley So", "https://en.wikipedia.org/wiki/Wesley_So");
 
             URL_Add("tempo", "https://en.wikipedia.org/wiki/Tempo_(chess)");
+
+            URL_Add("Google Authenticator", "https://en.wikipedia.org/wiki/Google_Authenticator");
+
+            URL_Add("MongoChef", "http://mongodb-tools.com/tool/3t-mongochef/");
+
+            URL_Add("PCLinuxOS", "https://en.wikipedia.org/wiki/PCLinuxOS");
+
+            URL_Add("Robomongo", "https://robomongo.org/");
+
+            URL_Add("contains", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("left-hand side", "https://en.wiktionary.org/wiki/LHS#Noun");
+
+            URL_Add("misspelling", "https://en.wiktionary.org/wiki/misspelling#Noun");
+
+            URL_Add("quad-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Disadvantages");
+
+            URL_Add("right-hand side", "https://en.wiktionary.org/wiki/RHS#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
