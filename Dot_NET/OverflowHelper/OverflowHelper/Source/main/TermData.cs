@@ -26480,7 +26480,7 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
 
-            URL_Add("because", "https://en.wiktionary.org/wiki/because");
+            URL_Add("because", "https://en.wiktionary.org/wiki/because#Conjunction"); # Old: https://en.wiktionary.org/wiki/because
 
             URL_Add("ADK", "http://developer.android.com/guide/topics/usb/adk.html");
 
