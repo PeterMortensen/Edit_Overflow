@@ -3280,6 +3280,7 @@ namespace OverflowHelper.core
             correctionAdd("Gmessage", "Google Talk");
             correctionAdd("GMessage", "Google Talk");
             correctionAdd("Google Chat", "Google Talk");
+            correctionAdd("gChat", "Google Talk");
 
             correctionAdd("Distro", "distribution"); // Expansion.
             correctionAdd("distro", "distribution"); // Expansion.
@@ -10756,6 +10757,8 @@ namespace OverflowHelper.core
             correctionAdd("belowe", "below");
             correctionAdd("Blow", "below");
             correctionAdd("blow", "below");
+            correctionAdd("Belo", "below");
+            correctionAdd("belo", "below");
 
             correctionAdd("communciate", "communicate");
 
@@ -11851,6 +11854,7 @@ namespace OverflowHelper.core
             correctionAdd("sytax", "syntax");
             correctionAdd("syntaxis", "syntax");
             correctionAdd("sintaxis", "syntax");
+            correctionAdd("synthax", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -16473,6 +16477,7 @@ namespace OverflowHelper.core
             correctionAdd("karlsan", "Magnus Carlsen"); // Chess
             correctionAdd("Karlsan", "Magnus Carlsen"); // Chess
             correctionAdd("carlsen", "Magnus Carlsen"); // Chess
+            correctionAdd("Carlson", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -25061,6 +25066,22 @@ namespace OverflowHelper.core
 
             correctionAdd("off the hoop", "off the hook");
 
+            correctionAdd("Open Solaris", "OpenSolaris");
+
+            correctionAdd("biterly", "bitterly");
+
+            correctionAdd("interms of", "in terms of");
+            correctionAdd("interms", "in terms of");
+
+            correctionAdd("non-zero", "nonzero");
+            correctionAdd("none-zero", "nonzero");
+
+            correctionAdd("second class", "second-class");
+
+            correctionAdd("sufix", "suffix");
+
+            correctionAdd("tody", "today");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25198,6 +25219,7 @@ namespace OverflowHelper.core
             correctionAdd("vitty D", "vitamin D"); // Coronavirus
             correctionAdd("VitD", "vitamin D"); // Coronavirus
             correctionAdd("vitD", "vitamin D"); // Coronavirus
+            correctionAdd("VITIMIN D", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
@@ -25264,6 +25286,7 @@ namespace OverflowHelper.core
             correctionAdd("IVERMECTINE", "ivermectin"); // Coronavirus
             correctionAdd("Ivermecrin", "ivermectin"); // Coronavirus
             correctionAdd("ivermecrin", "ivermectin"); // Coronavirus
+            correctionAdd("Ivermectine", "ivermectin");
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -39015,6 +39038,20 @@ namespace OverflowHelper.core
             URL_Add("nemesis", "https://en.wiktionary.org/wiki/nemesis#Noun");
 
             URL_Add("off the hook", "https://en.wiktionary.org/wiki/off_the_hook#Adjective");
+
+            URL_Add("OpenSolaris", "https://en.wikipedia.org/wiki/OpenSolaris");
+
+            URL_Add("bitterly", "https://en.wiktionary.org/wiki/bitterly#Adverb");
+
+            URL_Add("in terms of", "https://en.wiktionary.org/wiki/in_terms_of#Preposition");
+
+            URL_Add("nonzero", "https://en.wiktionary.org/wiki/nonzero#Adjective");
+
+            URL_Add("second-class", "https://en.wiktionary.org/wiki/second-class#Adjective");
+
+            URL_Add("suffix", "https://en.wiktionary.org/wiki/suffix#Noun");
+
+            URL_Add("today", "https://en.wiktionary.org/wiki/today#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
