@@ -9279,6 +9279,7 @@ namespace OverflowHelper.core
             correctionAdd("comparisom", "comparison");
             correctionAdd("Comparision", "comparison");
             correctionAdd("comparission", "comparison");
+            correctionAdd("Comparrison", "comparison");
 
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
@@ -14192,6 +14193,8 @@ namespace OverflowHelper.core
             correctionAdd("nextJs", "Next.js");
             correctionAdd("next", "Next.js");
             correctionAdd("Next", "Next.js");
+            correctionAdd("Next Js", "Next.js");
+            correctionAdd("NextJs", "Next.js");
 
             correctionAdd("optix", "OptiX");
 
@@ -15254,6 +15257,7 @@ namespace OverflowHelper.core
             correctionAdd("dishearteneing", "disheartening");
 
             correctionAdd("dved", "downvoted");
+            correctionAdd("donwvoted", "downvoted");
 
             correctionAdd("deja vu", "déjà vu");
 
@@ -16860,6 +16864,8 @@ namespace OverflowHelper.core
             correctionAdd("Wesley", "Wesley So"); // Chess
 
             correctionAdd("Tempo", "tempo"); // Chess
+
+            correctionAdd("rooklift", "rook lift"); // Chess
             //
             // End of chess part
 
@@ -22362,6 +22368,7 @@ namespace OverflowHelper.core
             correctionAdd("consumptation", "consumption");
 
             correctionAdd("sub-directories", "subdirectories");
+            correctionAdd("subdirs", "subdirectories");
 
             correctionAdd("directx", "DirectX");
             correctionAdd("direct x", "DirectX");
@@ -23712,6 +23719,7 @@ namespace OverflowHelper.core
 
             correctionAdd("React Hooks", "React hooks");
             correctionAdd("react hooks", "React hooks");
+            correctionAdd("react hook", "React hooks");
 
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
@@ -25106,7 +25114,12 @@ namespace OverflowHelper.core
 
             correctionAdd("obviouse", "obvious");
 
-            correctionAdd("rooklift", "rook lift");
+            correctionAdd("goodby", "goodbye");
+            correctionAdd("Goodby", "goodbye");
+
+            correctionAdd("must read", "must-read");
+
+            correctionAdd("side track", "sidetrack");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -25250,6 +25263,9 @@ namespace OverflowHelper.core
             correctionAdd("VitD", "vitamin D"); // Coronavirus
             correctionAdd("vitD", "vitamin D"); // Coronavirus
             correctionAdd("VITIMIN D", "vitamin D"); // Coronavirus
+            correctionAdd("Vit-D", "vitamin D"); // Coronavirus
+            correctionAdd("vit-D", "vitamin D"); // Coronavirus
+            correctionAdd("vit-d", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
@@ -25325,9 +25341,11 @@ namespace OverflowHelper.core
             correctionAdd("pfilzer", "Pfizer"); // Coronavirus
             correctionAdd("phizer", "Pfizer"); // Coronavirus
             correctionAdd("Phizer", "Pfizer"); // Coronavirus
+            correctionAdd("Pfisor", "Pfizer");
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
+            correctionAdd("pzr", "Pfizer–BioNTech COVID-19 vaccine");
 
             correctionAdd("pandami", "pandemia"); // Coronavirus
 
@@ -25345,6 +25363,9 @@ namespace OverflowHelper.core
 
             correctionAdd("rmna", "mRNA");
             correctionAdd("mrna", "mRNA");
+            correctionAdd("MRNA", "mRNA");
+
+            correctionAdd("biontech", "BioNTech");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -39112,6 +39133,14 @@ namespace OverflowHelper.core
             URL_Add("T cell", "https://en.wikipedia.org/wiki/T_cell");
 
             URL_Add("mRNA", "https://en.wikipedia.org/wiki/Messenger_RNA");
+
+            URL_Add("goodbye", "https://en.wiktionary.org/wiki/goodbye#Interjection");
+
+            URL_Add("must-read", "https://en.wiktionary.org/wiki/must-read");
+
+            URL_Add("sidetrack", "https://en.wiktionary.org/wiki/sidetrack#Verb");
+
+            URL_Add("BioNTech", "https://en.wikipedia.org/wiki/BioNTech");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
