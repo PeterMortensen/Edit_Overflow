@@ -11876,6 +11876,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ack", "acknowledge");
             correctionAdd("ackknowledge", "acknowledge");
+            correctionAdd("achknowledge", "acknowledge");
 
             correctionAdd("committment", "commitment");
 
@@ -11963,6 +11964,7 @@ namespace OverflowHelper.core
             correctionAdd("colume", "column");
             correctionAdd("col", "column");
             correctionAdd("coluomn", "column");
+            correctionAdd("coloumn", "column");
 
             correctionAdd("crated", "created");
             correctionAdd("creaded", "created");
@@ -13036,6 +13038,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aswell", "as well");
             correctionAdd("Aswell", "as well");
+            correctionAdd("aswel", "as well");
 
             correctionAdd("documentated", "documented");
 
@@ -15169,6 +15172,7 @@ namespace OverflowHelper.core
             correctionAdd("opperator", "operator");
 
             correctionAdd("reliablly", "reliably");
+            correctionAdd("realiably", "reliably");
 
             correctionAdd("sever", "server");
 
@@ -20948,6 +20952,7 @@ namespace OverflowHelper.core
             correctionAdd("CCP", "Chinese Communist Party");
 
             correctionAdd("los angeles", "Los Angeles");
+            correctionAdd("Los angels", "Los Angeles");
 
             correctionAdd("nashville", "Nashville");
 
@@ -25082,6 +25087,27 @@ namespace OverflowHelper.core
 
             correctionAdd("tody", "today");
 
+            correctionAdd("usbc", "USB-C");
+            correctionAdd("usb-c", "USB-C");
+
+            correctionAdd("acte", "act");
+
+            correctionAdd("backonym", "backronym");
+
+            correctionAdd("Biblical", "biblical");
+
+            correctionAdd("cellulaure", "cellular");
+
+            correctionAdd("leval", "level");
+
+            correctionAdd("mis-understanding", "misunderstanding");
+
+            correctionAdd("natral", "natural");
+
+            correctionAdd("obviouse", "obvious");
+
+            correctionAdd("rooklift", "rook lift");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25174,7 +25200,8 @@ namespace OverflowHelper.core
             correctionAdd("vaccin", "vaccine"); // Coronavirus
             correctionAdd("Vax", "vaccine"); // Coronavirus
             correctionAdd("vax", "vaccine"); // Coronavirus
-            correctionAdd("VAX", "vaccine");
+            correctionAdd("VAX", "vaccine"); // Coronavirus
+            correctionAdd("vaxine", "vaccine"); // Coronavirus
 
             correctionAdd("astma", "asthma"); // Coronavirus
 
@@ -25190,6 +25217,7 @@ namespace OverflowHelper.core
             correctionAdd("heard immunity", "herd immunity"); // Coronavirus
 
             correctionAdd("imunety", "immunity"); // Coronavirus
+            correctionAdd("imunity", "immunity"); // Coronavirus
 
             correctionAdd("sars", "SARS"); // Coronavirus
             correctionAdd("sarz", "SARS"); // Coronavirus
@@ -25201,6 +25229,8 @@ namespace OverflowHelper.core
             correctionAdd("sputnic", "Sputnik V"); // Coronavirus
             correctionAdd("Sputnik 5", "Sputnik V"); // Coronavirus
             correctionAdd("spotnik v", "Sputnik V"); // Coronavirus
+            correctionAdd("Sputnik", "Sputnik V"); // Coronavirus
+            correctionAdd("sputnik", "Sputnik V"); // Coronavirus
 
             correctionAdd("black death", "Black Death"); // Coronavirus
 
@@ -25248,6 +25278,7 @@ namespace OverflowHelper.core
             correctionAdd("az vax", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZD 1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25309,6 +25340,11 @@ namespace OverflowHelper.core
             correctionAdd("contaigan", "contagion"); // Coronavirus
 
             correctionAdd("Novavax", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
+
+            correctionAdd("t cell", "T cell");
+
+            correctionAdd("rmna", "mRNA");
+            correctionAdd("mrna", "mRNA");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -26480,7 +26516,7 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
 
-            URL_Add("because", "https://en.wiktionary.org/wiki/because#Conjunction"); # Old: https://en.wiktionary.org/wiki/because
+            URL_Add("because", "https://en.wiktionary.org/wiki/because#Conjunction"); // Old: https://en.wiktionary.org/wiki/because
 
             URL_Add("ADK", "http://developer.android.com/guide/topics/usb/adk.html");
 
@@ -39052,6 +39088,30 @@ namespace OverflowHelper.core
             URL_Add("suffix", "https://en.wiktionary.org/wiki/suffix#Noun");
 
             URL_Add("today", "https://en.wiktionary.org/wiki/today#Adverb");
+
+            URL_Add("USB-C", "https://en.wikipedia.org/wiki/USB-C");
+
+            URL_Add("act", "https://en.wiktionary.org/wiki/act#Verb");
+
+            URL_Add("backronym", "https://en.wiktionary.org/wiki/backronym#Noun");
+
+            URL_Add("biblical", "https://en.wiktionary.org/wiki/biblical#Adjective");
+
+            URL_Add("cellular", "https://en.wiktionary.org/wiki/cellular#Adjective");
+
+            URL_Add("level", "https://en.wiktionary.org/wiki/level#Noun");
+
+            URL_Add("misunderstanding", "https://en.wiktionary.org/wiki/misunderstand#Verb");
+
+            URL_Add("natural", "https://en.wiktionary.org/wiki/natural#Adjective");
+
+            URL_Add("obvious", "https://en.wiktionary.org/wiki/obvious#Adjective");
+
+            URL_Add("rook lift", "https://en.wikipedia.org/wiki/Rook_lift#R");
+
+            URL_Add("T cell", "https://en.wikipedia.org/wiki/T_cell");
+
+            URL_Add("mRNA", "https://en.wikipedia.org/wiki/Messenger_RNA");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
