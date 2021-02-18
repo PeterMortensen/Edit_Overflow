@@ -8797,6 +8797,9 @@ namespace OverflowHelper.core
             correctionAdd("Tee", "T-shirt");
             correctionAdd("T-Shirt", "T-shirt");
             correctionAdd("tee-shirt", "T-shirt");
+            correctionAdd("t shirt", "T-shirt");
+            correctionAdd("T shirt", "T-shirt");
+            correctionAdd("tshirt", "T-shirt");
 
             correctionAdd("osmc", "OSMC");
 
@@ -24167,6 +24170,9 @@ namespace OverflowHelper.core
             correctionAdd("tu", "thank you");
             correctionAdd("Tu", "thank you");
             correctionAdd("tnx", "thank you");
+            correctionAdd("Thanku", "thank you");
+            correctionAdd("thanku", "thank you");
+            correctionAdd("thank u", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -25121,6 +25127,16 @@ namespace OverflowHelper.core
 
             correctionAdd("side track", "sidetrack");
 
+            correctionAdd("avx", "AVX");
+
+            correctionAdd("alliviate", "alleviate");
+
+            correctionAdd("delusionial", "delusional");
+
+            correctionAdd("self promotion", "self-promotion");
+
+            correctionAdd("speed up", "speedup");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25295,6 +25311,7 @@ namespace OverflowHelper.core
             correctionAdd("Oxford zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZD 1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astra vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25359,13 +25376,16 @@ namespace OverflowHelper.core
 
             correctionAdd("Novavax", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
 
-            correctionAdd("t cell", "T cell");
+            correctionAdd("t cell", "T cell"); // Coronavirus
 
-            correctionAdd("rmna", "mRNA");
-            correctionAdd("mrna", "mRNA");
-            correctionAdd("MRNA", "mRNA");
+            correctionAdd("rmna", "mRNA"); // Coronavirus
+            correctionAdd("mrna", "mRNA"); // Coronavirus
+            correctionAdd("MRNA", "mRNA"); // Coronavirus
 
-            correctionAdd("biontech", "BioNTech");
+            correctionAdd("biontech", "BioNTech"); // Coronavirus
+
+            correctionAdd("ADE", "Antibody-dependent enhancement"); // Coronavirus
+            correctionAdd("ade", "Antibody-dependent enhancement"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -39141,6 +39161,18 @@ namespace OverflowHelper.core
             URL_Add("sidetrack", "https://en.wiktionary.org/wiki/sidetrack#Verb");
 
             URL_Add("BioNTech", "https://en.wikipedia.org/wiki/BioNTech");
+
+            URL_Add("AVX", "https://en.wikipedia.org/wiki/Advanced_Vector_Extensions");
+
+            URL_Add("alleviate", "https://en.wiktionary.org/wiki/alleviate#Verb");
+
+            URL_Add("delusional", "https://en.wiktionary.org/wiki/delusional#Adjective");
+
+            URL_Add("self-promotion", "https://en.wiktionary.org/wiki/self-promotion#Noun");
+
+            URL_Add("speedup", "https://en.wiktionary.org/wiki/speedup#Noun");
+
+            URL_Add("Antibody-dependent enhancement", "https://en.wikipedia.org/wiki/Antibody-dependent_enhancement#Coronavirus_vaccines");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
