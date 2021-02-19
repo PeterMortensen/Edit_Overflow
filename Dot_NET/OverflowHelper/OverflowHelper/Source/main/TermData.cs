@@ -8246,6 +8246,7 @@ namespace OverflowHelper.core
             correctionAdd("Ps2", "PS/2");
             correctionAdd("ps2", "PS/2");
             correctionAdd("PS2", "PS/2");
+            correctionAdd("ps/2", "PS/2");
 
             correctionAdd("kernal", "kernel");
             correctionAdd("Kernel", "kernel");
@@ -10452,6 +10453,9 @@ namespace OverflowHelper.core
             correctionAdd("exercice", "exercise");
             correctionAdd("Exercices", "exercise");
             correctionAdd("exercices", "exercise");
+            correctionAdd("excerise", "exercise");
+            correctionAdd("exerise", "exercise");
+            correctionAdd("exesise", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -12052,6 +12056,9 @@ namespace OverflowHelper.core
             correctionAdd("malcious", "malicious");
 
             correctionAdd("neglegible", "negligible");
+            correctionAdd("neglibile", "negligible");
+            correctionAdd("negliblie", "negligible");
+            correctionAdd("neglibliable", "negligible");
 
             correctionAdd("recntly", "recently");
 
@@ -13840,6 +13847,7 @@ namespace OverflowHelper.core
             correctionAdd("re-scale", "rescale");
 
             correctionAdd("rewiev", "review");
+            correctionAdd("reciew", "review");
 
             correctionAdd("semi colon", "semicolon");
             correctionAdd("semi-colon", "semicolon");
@@ -16167,6 +16175,7 @@ namespace OverflowHelper.core
             correctionAdd("timibg", "timing");
 
             correctionAdd("visibiltiy", "visibility");
+            correctionAdd("visibilty", "visibility");
 
             correctionAdd("x axis", "x-axis");
             correctionAdd("X-axis", "x-axis");
@@ -19266,6 +19275,7 @@ namespace OverflowHelper.core
             correctionAdd("dimimish", "diminish");
 
             correctionAdd("preffer", "prefer");
+            correctionAdd("prefere", "prefer");
 
             correctionAdd("randon", "random");
 
@@ -23399,6 +23409,7 @@ namespace OverflowHelper.core
             correctionAdd("They", "they");
             correctionAdd("Thye", "they");
             correctionAdd("tney", "they");
+            correctionAdd("tgey", "they");
 
             correctionAdd("transation", "transaction");
 
@@ -25137,6 +25148,37 @@ namespace OverflowHelper.core
 
             correctionAdd("speed up", "speedup");
 
+            correctionAdd("llc", "LLC");
+
+            correctionAdd("wildfly", "WildFly");
+
+            correctionAdd("checkmark", "check mark");
+
+            correctionAdd("conspitorial", "conspiratorial");
+
+            correctionAdd("dangarous", "dangerous");
+
+            correctionAdd("egotitical", "egotistical");
+
+            correctionAdd("Empty", "empty");
+
+            correctionAdd("guidanance", "guidance");
+
+            correctionAdd("isnull", "is_null");
+
+            correctionAdd("isnumeric", "is_numeric");
+
+            correctionAdd("is_set", "isset");
+
+            correctionAdd("non-trivial", "nontrivial");
+            correctionAdd("non trivial", "nontrivial");
+
+            correctionAdd("proceeded", "preceded");
+
+            correctionAdd("str_len", "strlen");
+
+            correctionAdd("up trend", "uptrend");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25383,6 +25425,7 @@ namespace OverflowHelper.core
             correctionAdd("MRNA", "mRNA"); // Coronavirus
 
             correctionAdd("biontech", "BioNTech"); // Coronavirus
+            correctionAdd("BioNtech", "BioNTech"); // Coronavirus
 
             correctionAdd("ADE", "Antibody-dependent enhancement"); // Coronavirus
             correctionAdd("ade", "Antibody-dependent enhancement"); // Coronavirus
@@ -39173,6 +39216,36 @@ namespace OverflowHelper.core
             URL_Add("speedup", "https://en.wiktionary.org/wiki/speedup#Noun");
 
             URL_Add("Antibody-dependent enhancement", "https://en.wikipedia.org/wiki/Antibody-dependent_enhancement#Coronavirus_vaccines");
+
+            URL_Add("LLC", "https://en.wikipedia.org/wiki/Limited_liability_company");
+
+            URL_Add("WildFly", "https://en.wikipedia.org/wiki/WildFly");
+
+            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
+
+            URL_Add("conspiratorial", "https://en.wiktionary.org/wiki/conspiratorial#Adjective");
+
+            URL_Add("dangerous", "https://en.wiktionary.org/wiki/dangerous#Adjective");
+
+            URL_Add("egotistical", "https://en.wiktionary.org/wiki/egotistical#Adjective");
+
+            URL_Add("empty", "https://www.php.net/manual/en/function.empty.php");
+
+            URL_Add("guidance", "https://en.wiktionary.org/wiki/guidance#Noun");
+
+            URL_Add("is_null", "https://www.php.net/manual/en/function.is-null.php");
+
+            URL_Add("is_numeric", "https://www.php.net/manual/en/function.is-numeric.php");
+
+            URL_Add("isset", "https://www.php.net/manual/en/function.isset.php");
+
+            URL_Add("nontrivial", "https://en.wiktionary.org/wiki/nontrivial#Adjective");
+
+            URL_Add("preceded", "https://en.wiktionary.org/wiki/precede#Verb");
+
+            URL_Add("strlen", "https://www.php.net/manual/en/function.strlen.php");
+
+            URL_Add("uptrend", "https://en.wiktionary.org/wiki/uptrend#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
