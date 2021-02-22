@@ -25253,6 +25253,8 @@ namespace OverflowHelper.core
             correctionAdd("Pandemic", "pandemic"); // Coronavirus
             correctionAdd("PANDEMIC", "pandemic"); // Coronavirus
 
+            correctionAdd("pandami", "pandemia"); // Coronavirus
+
             correctionAdd("virsus", "virus"); // Coronavirus
             correctionAdd("Virus", "virus"); // Coronavirus
             correctionAdd("VIRUS", "virus"); // Coronavirus
@@ -25448,13 +25450,12 @@ namespace OverflowHelper.core
             correctionAdd("Phizer", "Pfizer"); // Coronavirus
             correctionAdd("Pfisor", "Pfizer"); // Coronavirus
 
-            correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
-            correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
-            correctionAdd("pzr", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
-            correctionAdd("BNT162b2", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
-            correctionAdd("BNT162", "Pfizer–BioNTech COVID-19 vaccine"); // Coronavirus
-
-            correctionAdd("pandami", "pandemia"); // Coronavirus
+            correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("pzr", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("BNT162b2", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("BNT162", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer–BioNTech COVID-19 vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -29398,7 +29399,7 @@ namespace OverflowHelper.core
 
             URL_Add("Get-History", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-History");
 
-            URL_Add("OP", "https://en.wiktionary.org/wiki/OP#Initialism");
+            URL_Add("OP", "https://en.wiktionary.org/wiki/OP#Noun"); // Old: https://en.wiktionary.org/wiki/OP#Initialism
 
             URL_Add("PowerShell Core", "https://en.wikipedia.org/wiki/PowerShell#PowerShell_Core_6.0");
 
@@ -38779,7 +38780,7 @@ namespace OverflowHelper.core
 
             URL_Add("Pfizer", "https://en.wikipedia.org/wiki/Pfizer");
 
-            URL_Add("Pfizer–BioNTech COVID-19 vaccine", "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine");
+            URL_Add("Pfizer–BioNTech COVID-19 vaccine (BNT162b2)", "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine");
 
             URL_Add("pandemia", "https://en.wiktionary.org/wiki/pandemia#Noun");
 
