@@ -15308,8 +15308,6 @@ namespace OverflowHelper.core
             correctionAdd("millenial", "millennials");
             correctionAdd("Millenials", "millennials");
 
-            correctionAdd("mindfield", "minefield");
-
             correctionAdd("Never ending", "neverending");
 
             correctionAdd("optinal", "optional");
@@ -20925,7 +20923,10 @@ namespace OverflowHelper.core
 
             correctionAdd("mit", "MIT");
 
+            correctionAdd("mindfield", "minefield");
+
             correctionAdd("filed", "field");
+            correctionAdd("fiald", "field");
 
             correctionAdd("negociate", "negotiate");
 
@@ -23005,6 +23006,7 @@ namespace OverflowHelper.core
             correctionAdd("desktop env", "desktop environment");
 
             correctionAdd("elemnet", "element");
+            correctionAdd("elemnt", "element");
 
             correctionAdd("gut feel", "gut feeling");
 
@@ -25223,6 +25225,24 @@ namespace OverflowHelper.core
             correctionAdd("thumbnale", "thumbnail");
             correctionAdd("Thumbnale", "thumbnail");
 
+            correctionAdd("nih", "NIH");
+
+            correctionAdd("Asparagus", "asparagus");
+            correctionAdd("aspargus", "asparagus");
+
+            correctionAdd("for better or for worse", "for better or worse");
+            correctionAdd("for good and for bad", "for better or worse");
+
+            correctionAdd("lawier", "lawyer");
+
+            correctionAdd("POG", "pog");
+
+            correctionAdd("sclalar", "scalar");
+
+            correctionAdd("under-paid", "underpaid");
+
+            correctionAdd("valus", "values");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
 
@@ -25400,6 +25420,7 @@ namespace OverflowHelper.core
             correctionAdd("Oxford Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZD 1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astra vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25429,6 +25450,7 @@ namespace OverflowHelper.core
             correctionAdd("J & J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("J&J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Janssen", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("J&J vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
@@ -25480,6 +25502,8 @@ namespace OverflowHelper.core
             correctionAdd("ade", "Antibody-dependent enhancement"); // Coronavirus
 
             correctionAdd("Yellow Fever", "yellow fever"); // Coronavirus
+
+            correctionAdd("Moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -39323,6 +39347,24 @@ namespace OverflowHelper.core
             URL_Add("thumbnail", "https://en.wiktionary.org/wiki/thumbnail#Noun");
 
             URL_Add("yellow fever", "https://en.wikipedia.org/wiki/Yellow_fever");
+
+            URL_Add("NIH", "https://en.wikipedia.org/wiki/Not_invented_here");
+
+            URL_Add("asparagus", "https://en.wikipedia.org/wiki/Asparagus");
+
+            URL_Add("for better or worse", "https://en.wiktionary.org/wiki/for_better_or_worse#Prepositional_phrase");
+
+            URL_Add("lawyer", "https://en.wiktionary.org/wiki/lawyer#Noun");
+
+            URL_Add("pog", "https://en.wiktionary.org/wiki/pog#Interjection");
+
+            URL_Add("scalar", "https://en.wiktionary.org/wiki/scalar#Noun");
+
+            URL_Add("underpaid", "https://en.wiktionary.org/wiki/underpaid#Adjective");
+
+            URL_Add("values", "https://en.wiktionary.org/wiki/value#Noun");
+
+            URL_Add("Moderna COVID-19 vaccine (mRNA-1273)", "https://en.wikipedia.org/wiki/Moderna_COVID-19_vaccine");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
