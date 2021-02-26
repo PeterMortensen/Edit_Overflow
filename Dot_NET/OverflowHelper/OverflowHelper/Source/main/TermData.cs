@@ -1064,6 +1064,7 @@ namespace OverflowHelper.core
             correctionAdd("MAC OSx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac/OSX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("osX", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("OS x", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
@@ -2021,18 +2022,6 @@ namespace OverflowHelper.core
             correctionAdd("prototype", "Prototype");
             correctionAdd("Prototype.js", "Prototype");
             correctionAdd("prototype.js", "Prototype");
-
-            correctionAdd("silverlight", "Silverlight");
-            correctionAdd("sliverlight", "Silverlight"); // Common misspelling...
-            correctionAdd("Sliverlight", "Silverlight"); // Common misspelling...
-            correctionAdd("Silverligt", "Silverlight");
-            correctionAdd("Silvelight", "Silverlight");
-            correctionAdd("Silver light", "Silverlight");
-            correctionAdd("siverlight", "Silverlight");
-            correctionAdd("solverlight", "Silverlight"); // Misspelling...
-            correctionAdd("SIlverlight", "Silverlight");
-            correctionAdd("silver light", "Silverlight");
-            correctionAdd("SilverLight", "Silverlight");
 
             correctionAdd("crystal report", "Crystal Reports"); // Common misspelling...
             correctionAdd("crystal reports", "Crystal Reports"); // Common misspelling...
@@ -5698,8 +5687,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Find", "find");
             correctionAdd("fine", "find"); // True typo...
-
-            correctionAdd("moonlight", "Moonlight");
 
             correctionAdd("Qmake", "qmake");
             correctionAdd("QMake", "qmake");
@@ -12123,6 +12110,7 @@ namespace OverflowHelper.core
             correctionAdd("nvertheless", "nevertheless");
 
             correctionAdd("none the less", "nonetheless");
+            correctionAdd("non the less", "nonetheless");
 
             correctionAdd("odesk", "oDesk");
 
@@ -13896,6 +13884,7 @@ namespace OverflowHelper.core
             correctionAdd("existant", "existent");
 
             correctionAdd("inpersonation", "impersonation");
+            correctionAdd("imporsonation", "impersonation");
 
             correctionAdd("Latter", "latter");
 
@@ -15077,6 +15066,8 @@ namespace OverflowHelper.core
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
+            correctionAdd("spell ckecker", "spell checker");
+            correctionAdd("spellckecker", "spell checker");
 
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
@@ -16275,6 +16266,9 @@ namespace OverflowHelper.core
             correctionAdd("type cast", "typecast");
 
             correctionAdd("vedio", "video");
+            correctionAdd("viddy", "video");
+            correctionAdd("vid", "video");
+            correctionAdd("vids", "video");
 
             correctionAdd("tampermonkey", "Tampermonkey");
             correctionAdd("tamper monkey", "Tampermonkey");
@@ -16883,6 +16877,9 @@ namespace OverflowHelper.core
             correctionAdd("Tempo", "tempo"); // Chess
 
             correctionAdd("rooklift", "rook lift"); // Chess
+
+            correctionAdd("alekhine", "Alexander Alekhine"); // Chess
+            correctionAdd("Alekhine", "Alexander Alekhine"); // Chess
             //
             // End of chess part
 
@@ -17154,8 +17151,23 @@ namespace OverflowHelper.core
             correctionAdd("drammatically", "dramatically");
             correctionAdd("dramaticaly", "dramatically");
 
+            correctionAdd("silverlight", "Silverlight");
+            correctionAdd("sliverlight", "Silverlight"); // Common misspelling...
+            correctionAdd("Sliverlight", "Silverlight"); // Common misspelling...
+            correctionAdd("Silverligt", "Silverlight");
+            correctionAdd("Silvelight", "Silverlight");
+            correctionAdd("Silver light", "Silverlight");
+            correctionAdd("siverlight", "Silverlight");
+            correctionAdd("solverlight", "Silverlight"); // Misspelling...
+            correctionAdd("SIlverlight", "Silverlight");
+            correctionAdd("silver light", "Silverlight");
+            correctionAdd("SilverLight", "Silverlight");
+
+            correctionAdd("moonlight", "Moonlight");
+
             correctionAdd("lite", "light");
             correctionAdd("ligth", "light");
+            correctionAdd("ligt", "light");
 
             correctionAdd("Umlaut", "umlaut");
 
@@ -17749,6 +17761,7 @@ namespace OverflowHelper.core
             correctionAdd("january", "January");
             correctionAdd("Jan", "January");
             correctionAdd("Janaury", "January");
+            correctionAdd("Januari", "January");
 
             correctionAdd("LightTable", "Light Table");
 
@@ -25243,8 +25256,34 @@ namespace OverflowHelper.core
 
             correctionAdd("valus", "values");
 
+            correctionAdd("Cooler Master QuickFire Rapid", "Cooler Master Quick Fire Rapid");
+            correctionAdd("QFR", "Cooler Master Quick Fire Rapid");
+            correctionAdd("qfr", "Cooler Master Quick Fire Rapid");
+            correctionAdd("CM Quickfire Rapid", "Cooler Master Quick Fire Rapid");
+            correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
+
+            correctionAdd("southern hemisphere", "Southern Hemisphere");
+
+            correctionAdd("backligt", "backlight");
+
+            correctionAdd("disguested", "disgusted");
+
+            correctionAdd("Figuratively", "figuratively");
+
+            correctionAdd("Impersonate", "impersonate");
+
+            correctionAdd("overwhelving", "overwhelming");
+            correctionAdd("Overwhelving", "overwhelming");
+
+            correctionAdd("preciuos", "precious");
+
+            correctionAdd("seldonly", "seldomly");
+
+            correctionAdd("sended", "sent");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
+            correctionAdd("dyeing", "dying"); // Coronavirus
 
             correctionAdd("day", "die"); // Coronavirus
 
@@ -25352,6 +25391,7 @@ namespace OverflowHelper.core
             correctionAdd("Hurd immunity", "herd immunity"); // Coronavirus
             correctionAdd("hurd immunity", "herd immunity"); // Coronavirus
             correctionAdd("heard immunity", "herd immunity"); // Coronavirus
+            correctionAdd("here immunity", "herd immunity"); // Coronavirus
 
             correctionAdd("imunety", "immunity"); // Coronavirus
             correctionAdd("imunity", "immunity"); // Coronavirus
@@ -25421,6 +25461,10 @@ namespace OverflowHelper.core
             correctionAdd("AZD 1222", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astra vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astra Zeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ vaccination", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("dose of AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford-AstraZeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25478,6 +25522,10 @@ namespace OverflowHelper.core
             correctionAdd("BNT162b2", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("BNT162", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer–BioNTech COVID-19 vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Phizered", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("dose of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer dose", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer one", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -25504,6 +25552,8 @@ namespace OverflowHelper.core
             correctionAdd("Yellow Fever", "yellow fever"); // Coronavirus
 
             correctionAdd("Moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna Vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -39365,6 +39415,28 @@ namespace OverflowHelper.core
             URL_Add("values", "https://en.wiktionary.org/wiki/value#Noun");
 
             URL_Add("Moderna COVID-19 vaccine (mRNA-1273)", "https://en.wikipedia.org/wiki/Moderna_COVID-19_vaccine");
+
+            URL_Add("Cooler Master Quick Fire Rapid", "https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-rapid/");
+
+            URL_Add("Southern Hemisphere", "https://en.wiktionary.org/wiki/Southern_Hemisphere#Noun");
+
+            URL_Add("backlight", "https://en.wiktionary.org/wiki/backlight#Noun");
+
+            URL_Add("disgusted", "https://en.wiktionary.org/wiki/disgusted#Adjective");
+
+            URL_Add("figuratively", "https://en.wiktionary.org/wiki/figuratively#Adverb");
+
+            URL_Add("impersonate", "https://en.wiktionary.org/wiki/impersonate#Verb");
+
+            URL_Add("overwhelming", "https://en.wiktionary.org/wiki/overwhelming#Adjective");
+
+            URL_Add("precious", "https://en.wiktionary.org/wiki/precious#Adjective");
+
+            URL_Add("seldomly", "https://en.wiktionary.org/wiki/seldomly#Adverb");
+
+            URL_Add("sent", "https://en.wiktionary.org/wiki/send#Verb");
+
+            URL_Add("Alexander Alekhine", "https://en.wikipedia.org/wiki/Alexander_Alekhine");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
