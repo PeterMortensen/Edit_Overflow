@@ -1068,6 +1068,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
+            correctionAdd("Macintosh", "Mac");
 
             correctionAdd("Mac OS X v10.2 (Jaguar)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"); // Sort of identity mapping
             correctionAdd("Jaguar", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
@@ -5191,6 +5192,7 @@ namespace OverflowHelper.core
             correctionAdd("doublicate", "duplicate");
             correctionAdd("dublicate", "duplicate");
             correctionAdd("diplicate", "duplicate");
+            correctionAdd("dupliate", "duplicate");
 
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
@@ -10048,6 +10050,8 @@ namespace OverflowHelper.core
             correctionAdd("Thenks", "thanks");
             correctionAdd("thenks", "thanks");
             correctionAdd("thaks", "thanks");
+            correctionAdd("Tks", "thanks");
+            correctionAdd("tks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -14218,6 +14222,7 @@ namespace OverflowHelper.core
             correctionAdd("absolotly", "absolutely");
             correctionAdd("absolutley", "absolutely");
             correctionAdd("absoluteley", "absolutely");
+            correctionAdd("absoluely", "absolutely");
 
             correctionAdd("artifact", "artefact");
 
@@ -19808,6 +19813,7 @@ namespace OverflowHelper.core
 
             correctionAdd("null-pointer", "null pointer");
             correctionAdd("nullpointer", "null pointer");
+            correctionAdd("nullptr", "null pointer");
 
             correctionAdd("perhapse", "perhaps");
 
@@ -20251,6 +20257,7 @@ namespace OverflowHelper.core
 
             correctionAdd("u", "you");
             correctionAdd("yuu", "you");
+            correctionAdd("upi", "you"); // A true typo (of all three letters)!!!
 
             correctionAdd("Zinc", "zinc");
 
@@ -21515,6 +21522,8 @@ namespace OverflowHelper.core
             correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
             correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
             correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecma6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
 
             correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
@@ -24957,6 +24966,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Language", "programming language");
             correctionAdd("Programming Language", "programming language");
+            correctionAdd("prog lang", "programming language");
+            correctionAdd("proglang", "programming language");
 
             correctionAdd("redesining", "redesigning");
 
@@ -25281,6 +25292,23 @@ namespace OverflowHelper.core
 
             correctionAdd("sended", "sent");
 
+            correctionAdd("karl marx", "Karl Marx");
+
+            correctionAdd("NZ", "New Zealand");
+
+            correctionAdd("borne", "born");
+
+            correctionAdd("destinguish", "distinguish");
+
+            correctionAdd("gentlemen's agreement", "gentleman's agreement");
+
+            correctionAdd("Quasi", "quasi");
+
+            correctionAdd("rudness", "rudeness");
+
+            correctionAdd("South East", "southeast");
+            correctionAdd("south east", "southeast");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25465,12 +25493,18 @@ namespace OverflowHelper.core
             correctionAdd("AZ vaccination", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("dose of AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford-AstraZeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford-Astrazenaca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("astrazeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astrazeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("astrazeneca", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneca", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zenica", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astrazenaca", "AstraZeneca"); // Coronavirus
+            correctionAdd("AstraZenaca", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astra Zenaca", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -25495,6 +25529,7 @@ namespace OverflowHelper.core
             correctionAdd("J&J", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Janssen", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("J&J vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("JnJ", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
@@ -25526,6 +25561,7 @@ namespace OverflowHelper.core
             correctionAdd("dose of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer dose", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer one", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer vac", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -25554,6 +25590,13 @@ namespace OverflowHelper.core
             correctionAdd("Moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Moderna Vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna shot", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+
+            correctionAdd("Zoe App", "ZOE app");
+
+            correctionAdd("vene", "vein");
+
+            correctionAdd("veinous", "venous");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -39437,6 +39480,28 @@ namespace OverflowHelper.core
             URL_Add("sent", "https://en.wiktionary.org/wiki/send#Verb");
 
             URL_Add("Alexander Alekhine", "https://en.wikipedia.org/wiki/Alexander_Alekhine");
+
+            URL_Add("Karl Marx", "https://en.wikipedia.org/wiki/Karl_Marx");
+
+            URL_Add("New Zealand", "https://en.wikipedia.org/wiki/New_Zealand");
+
+            URL_Add("born", "https://en.wiktionary.org/wiki/bear#Usage_notes");
+
+            URL_Add("distinguish", "https://en.wiktionary.org/wiki/distinguish#Verb");
+
+            URL_Add("gentleman's agreement", "https://en.wiktionary.org/wiki/gentleman%27s_agreement#Noun");
+
+            URL_Add("quasi", "https://en.wiktionary.org/wiki/quasi#Adjective");
+
+            URL_Add("rudeness", "https://en.wiktionary.org/wiki/rudeness#Noun");
+
+            URL_Add("southeast", "https://en.wiktionary.org/wiki/southeast#Noun");
+
+            URL_Add("ZOE app", "https://en.wikipedia.org/wiki/COVID_Symptom_Study");
+
+            URL_Add("vein", "https://en.wikipedia.org/wiki/Vein");
+
+            URL_Add("venous", "https://en.wiktionary.org/wiki/venous#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
