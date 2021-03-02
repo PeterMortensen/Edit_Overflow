@@ -18463,9 +18463,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gat", "got");
 
-            correctionAdd("heared", "heard");
-            correctionAdd("herd", "heard");
-
             correctionAdd("home grown", "home-grown");
 
             correctionAdd("hot spot", "hotspot");
@@ -34527,8 +34524,6 @@ namespace OverflowHelper.core
             URL_Add("facemask", "https://en.wiktionary.org/wiki/facemask#Noun");
 
             URL_Add("got", "https://en.wiktionary.org/wiki/get#Verb");
-
-            URL_Add("heard", "https://en.wiktionary.org/wiki/hear#Verb");
 
             URL_Add("home-grown", "https://en.wiktionary.org/wiki/home-grown#Adjective");
 
