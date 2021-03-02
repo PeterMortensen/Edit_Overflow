@@ -10856,6 +10856,7 @@ namespace OverflowHelper.core
             correctionAdd("theres", "there's");
             correctionAdd("theres's", "there's");
             correctionAdd("Theres", "there's");
+            correctionAdd("theirs", "there's");
 
             correctionAdd("transfered", "transferred");
 
@@ -15972,6 +15973,8 @@ namespace OverflowHelper.core
 
             correctionAdd("seperated", "separated");
             correctionAdd("separeted", "separated");
+            correctionAdd("sparted", "separated");
+            correctionAdd("separted", "separated");
 
             correctionAdd("terrefic", "terrific");
             correctionAdd("Terrefic", "terrific");
@@ -16300,6 +16303,7 @@ namespace OverflowHelper.core
             correctionAdd("YC", "Y Combinator");
 
             correctionAdd("in a moment's notice", "at a moment's notice");
+            correctionAdd("moment notice", "at a moment's notice");
 
             correctionAdd("Blessing in Disguise", "blessing in disguise");
 
@@ -16740,6 +16744,7 @@ namespace OverflowHelper.core
             correctionAdd("fabiano", "Fabiano Caruana"); // Chess
             correctionAdd("Caruana", "Fabiano Caruana"); // Chess
             correctionAdd("caruana", "Fabiano Caruana"); // Chess
+            correctionAdd("Fabi", "Fabiano Caruana"); // Chess
 
             correctionAdd("Aronian", "Levon Aronian"); // Chess
             correctionAdd("Levon", "Levon Aronian"); // Chess
@@ -16885,6 +16890,8 @@ namespace OverflowHelper.core
 
             correctionAdd("alekhine", "Alexander Alekhine"); // Chess
             correctionAdd("Alekhine", "Alexander Alekhine"); // Chess
+
+            correctionAdd("Judit", "Judit Polgár"); // Chess
             //
             // End of chess part
 
@@ -18768,6 +18775,8 @@ namespace OverflowHelper.core
 
             correctionAdd("czechia", "Czechia");
             correctionAdd("Czech Republic", "Czechia");
+            correctionAdd("Tcheck republic", "Czechia");
+            correctionAdd("Czech republic", "Czechia");
 
             correctionAdd("del icio us", "Delicious");
             correctionAdd("del.icio.us", "Delicious");
@@ -19028,6 +19037,8 @@ namespace OverflowHelper.core
             correctionAdd("fhe", "the");
             correctionAdd("Tha", "the");
             correctionAdd("The", "the");
+            correctionAdd("tge", "the"); // True typo
+            correctionAdd("thr", "the"); // True typo
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -20391,6 +20402,7 @@ namespace OverflowHelper.core
 
             correctionAdd("implicity", "implicitly");
             correctionAdd("imlicity", "implicitly");
+            correctionAdd("impliciltly", "implicitly");
 
             correctionAdd("infeasable", "infeasible");
             correctionAdd("unfeasabe", "infeasible");
@@ -20896,12 +20908,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Cherry mx", "Cherry MX");
             correctionAdd("cherry mx", "Cherry MX");
+            correctionAdd("chery mx", "Cherry MX");
+            correctionAdd("cherry", "Cherry MX");
 
             correctionAdd("cherry mx red", "Cherry MX Red");
             correctionAdd("Cherry Red", "Cherry MX Red");
             correctionAdd("MX red", "Cherry MX Red");
             correctionAdd("MX Red", "Cherry MX Red");
             correctionAdd("mx red", "Cherry MX Red");
+            correctionAdd("CHERRY MX RED", "Cherry MX Red");
 
             correctionAdd("cherry max brown", "Cherry MX Brown");
             correctionAdd("Cherry Brown", "Cherry MX Brown");
@@ -20910,6 +20925,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Mx blue", "Cherry MX Blue");
             correctionAdd("mx blue", "Cherry MX Blue");
+            correctionAdd("MX Blue", "Cherry MX Blue");
+            correctionAdd("MX blue", "Cherry MX Blue");
+            correctionAdd("Cherry MX blue", "Cherry MX Blue");
 
             correctionAdd("occam's razor", "Occam's razor");
             correctionAdd("Occams Razor", "Occam's razor");
@@ -22220,6 +22238,7 @@ namespace OverflowHelper.core
 
             correctionAdd("deliberatly", "deliberately");
             correctionAdd("deliberratly", "deliberately");
+            correctionAdd("delibertely", "deliberately");
 
             correctionAdd("excersising", "exercising");
 
@@ -25309,6 +25328,54 @@ namespace OverflowHelper.core
             correctionAdd("South East", "southeast");
             correctionAdd("south east", "southeast");
 
+            correctionAdd("iron curtain", "Iron Curtain");
+
+            correctionAdd("TERM", "SIGTERM");
+
+            correctionAdd("There's more than one way to do it", "TIMTOWTDI");
+            correctionAdd("TMTOWTDI", "TIMTOWTDI");
+
+            correctionAdd("awat", "away");
+
+            correctionAdd("cess pool", "cesspool");
+            correctionAdd("session pool", "cesspool");
+
+            correctionAdd("crysis", "crisis");
+
+            correctionAdd("daisychain", "daisy chain");
+            correctionAdd("daisy-chain", "daisy chain");
+
+            correctionAdd("durign", "during");
+
+            correctionAdd("firtly", "firstly");
+            correctionAdd("Firtly", "firstly");
+
+            correctionAdd("Group Velocity", "group velocity");
+
+            correctionAdd("lrr", "lather, rinse, repeat");
+            correctionAdd("LRR", "lather, rinse, repeat");
+
+            correctionAdd("Mechatronics", "mechatronics");
+
+            correctionAdd("opto coupler", "optocoupler");
+
+            correctionAdd("Phase Velocity", "phase velocity");
+
+            correctionAdd("phonecall", "phone call");
+
+            correctionAdd("Sourcing", "sourcing");
+
+            correctionAdd("swiching", "switching");
+
+            correctionAdd("Technological Singularity", "technological singularity");
+            correctionAdd("technical singularity", "technological singularity");
+
+            correctionAdd("timetravel", "time travel");
+
+            correctionAdd("towords", "towards");
+
+            correctionAdd("wizzard", "wizard");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25591,12 +25658,20 @@ namespace OverflowHelper.core
             correctionAdd("Moderna Vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Moderna shot", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("Zoe App", "ZOE app");
 
             correctionAdd("vene", "vein");
 
             correctionAdd("veinous", "venous");
+
+            correctionAdd("CoronaVac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)");
+            correctionAdd("Chinese Vaccine", "Sinopharm COVID-19 vaccine (BBIBP-CorV)");
+            correctionAdd("Sinopharm", "Sinopharm COVID-19 vaccine (BBIBP-CorV)");
+            correctionAdd("Chinese vaccine", "Sinopharm COVID-19 vaccine (BBIBP-CorV)");
+            correctionAdd("sinovac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)");
+            correctionAdd("Sinovac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -39502,6 +39577,52 @@ namespace OverflowHelper.core
             URL_Add("vein", "https://en.wikipedia.org/wiki/Vein");
 
             URL_Add("venous", "https://en.wiktionary.org/wiki/venous#Adjective");
+
+            URL_Add("Iron Curtain", "https://en.wikipedia.org/wiki/Iron_Curtain");
+
+            URL_Add("SIGTERM", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
+
+            URL_Add("Sinopharm COVID-19 vaccine (BBIBP-CorV)", "https://en.wikipedia.org/wiki/BBIBP-CorV");
+
+            URL_Add("TIMTOWTDI", "https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it");
+
+            URL_Add("away", "https://en.wiktionary.org/wiki/away#Adverb");
+
+            URL_Add("cesspool", "https://en.wiktionary.org/wiki/cesspool#Noun");
+
+            URL_Add("crisis", "https://en.wiktionary.org/wiki/crisis#Noun");
+
+            URL_Add("daisy chain", "https://en.wiktionary.org/wiki/daisy_chain#Verb");
+
+            URL_Add("during", "https://en.wiktionary.org/wiki/during#Preposition");
+
+            URL_Add("firstly", "https://en.wiktionary.org/wiki/firstly#Adverb");
+
+            URL_Add("group velocity", "https://en.wikipedia.org/wiki/Group_velocity");
+
+            URL_Add("lather, rinse, repeat", "https://en.wiktionary.org/wiki/lather,_rinse,_repeat#Phrase");
+
+            URL_Add("mechatronics", "https://en.wikipedia.org/wiki/Mechatronics");
+
+            URL_Add("optocoupler", "https://en.wikipedia.org/wiki/Opto-isolator");
+
+            URL_Add("phase velocity", "https://en.wikipedia.org/wiki/Phase_velocity");
+
+            URL_Add("phone call", "https://en.wiktionary.org/wiki/phone_call#Noun");
+
+            URL_Add("sourcing", "https://en.wikipedia.org/wiki/Dot_(command)#Source");
+
+            URL_Add("switching", "https://en.wiktionary.org/wiki/switch#Verb");
+
+            URL_Add("technological singularity", "https://en.wikipedia.org/wiki/Technological_singularity");
+
+            URL_Add("time travel", "https://en.wiktionary.org/wiki/time_travel#Noun");
+
+            URL_Add("towards", "https://en.wiktionary.org/wiki/towards#Adverb");
+
+            URL_Add("wizard", "https://en.wiktionary.org/wiki/wizard#Noun");
+
+            URL_Add("Judit Polgár", "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
