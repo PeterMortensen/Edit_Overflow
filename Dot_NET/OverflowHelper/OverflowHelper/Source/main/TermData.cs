@@ -11905,8 +11905,6 @@ namespace OverflowHelper.core
             correctionAdd("itsself", "itself");
             correctionAdd("itselft", "itself");
 
-            correctionAdd("knowhow", "know-how");
-
             correctionAdd("milliamps", "milliamperes");
 
             correctionAdd("over written", "overwritten");
@@ -15242,6 +15240,7 @@ namespace OverflowHelper.core
             correctionAdd("surveymonkey", "SurveyMonkey");
 
             correctionAdd("ad blocker", "adblocker");
+            correctionAdd("ad-blocker", "adblocker");
 
             correctionAdd("arrange marriage", "arranged marriage");
 
@@ -15327,9 +15326,6 @@ namespace OverflowHelper.core
 
             correctionAdd("shockwave", "shock wave");
             correctionAdd("shock-wave", "shock wave");
-
-            correctionAdd("some how", "somehow");
-            correctionAdd("sumhow", "somehow");
 
             correctionAdd("stricktly", "strictly");
 
@@ -17327,7 +17323,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Hold my beer", "hold my beer");
 
+            correctionAdd("knowhow", "know-how");
+
+            correctionAdd("some how", "somehow");
+            correctionAdd("sumhow", "somehow");
+
             correctionAdd("How", "how");
+            correctionAdd("haw", "how");
 
             correctionAdd("Java6", "Java&nbsp;6");
             correctionAdd("java 6", "Java&nbsp;6");
@@ -18774,6 +18776,7 @@ namespace OverflowHelper.core
             correctionAdd("Czech Republic", "Czechia");
             correctionAdd("Tcheck republic", "Czechia");
             correctionAdd("Czech republic", "Czechia");
+            correctionAdd("Checkia", "Czechia");
 
             correctionAdd("del icio us", "Delicious");
             correctionAdd("del.icio.us", "Delicious");
@@ -25372,6 +25375,18 @@ namespace OverflowHelper.core
             correctionAdd("towords", "towards");
 
             correctionAdd("wizzard", "wizard");
+
+            correctionAdd("conseptionally", "conceptionally");
+
+            correctionAdd("hird", "herd");
+
+            correctionAdd("lut", "lookup table");
+            correctionAdd("LUT", "lookup table");
+
+            correctionAdd("researche", "research");
+            correctionAdd("reseache", "research");
+
+            correctionAdd("Thermocouple", "thermocouple");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -39618,6 +39633,16 @@ namespace OverflowHelper.core
             URL_Add("wizard", "https://en.wiktionary.org/wiki/wizard#Noun");
 
             URL_Add("Judit Polgár", "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r");
+
+            URL_Add("conceptionally", "https://en.wiktionary.org/wiki/conceptionally#Adverb");
+
+            URL_Add("herd", "https://en.wiktionary.org/wiki/herd#Noun");
+
+            URL_Add("lookup table", "https://en.wikipedia.org/wiki/Lookup_table");
+
+            URL_Add("research", "https://en.wiktionary.org/wiki/research#Verb");
+
+            URL_Add("thermocouple", "https://en.wikipedia.org/wiki/Thermocouple");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
