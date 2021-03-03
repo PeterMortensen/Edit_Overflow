@@ -836,6 +836,7 @@ namespace OverflowHelper.core
             correctionAdd("winfrom", "Windows Forms");
             correctionAdd("Win forms", "Windows Forms");
             correctionAdd("WindowForm", "Windows Forms");
+            correctionAdd("Window Forms", "Windows Forms");
 
             correctionAdd("tiff", "TIFF");
             correctionAdd("tif", "TIFF");
@@ -1473,6 +1474,9 @@ namespace OverflowHelper.core
             correctionAdd("bash", "Bash");
             correctionAdd("BASH", "Bash");
             correctionAdd("bBsh", "Bash");
+            correctionAdd("Bourne-Again", "Bash");
+            correctionAdd("Bourne Again Shell", "Bash");
+            correctionAdd("B.A.S.H", "Bash"); // But it should really be ""B.A.S.H." (we currently can't accept something that ends in punctuation)
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -4416,14 +4420,6 @@ namespace OverflowHelper.core
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
 
-            correctionAdd("Jit", "JIT");
-            correctionAdd("jit", "JIT");
-            correctionAdd("Just-In-Time", "JIT");
-            correctionAdd("JiT", "JIT");
-            correctionAdd("Just In Time", "JIT");
-            correctionAdd("just in time", "JIT");
-            correctionAdd("just-in-time", "JIT");
-
             correctionAdd("Dry", "DRY");
             correctionAdd("dry", "DRY"); // Context dependent!
 
@@ -4873,15 +4869,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jabber", "Jabber"); // Jabber is the former name, XMPP the new.
 
-            correctionAdd("facebook connect", "Facebook Connect");
-            correctionAdd("Facebook connect", "Facebook Connect");
-            correctionAdd("FBConnect", "Facebook Connect");
-            correctionAdd("FB Connect", "Facebook Connect");
-            correctionAdd("fb-connect", "Facebook Connect");
-            correctionAdd("fconnect", "Facebook Connect");
-            correctionAdd("FB connect", "Facebook Connect");
-            correctionAdd("fb connect", "Facebook Connect");
-
             correctionAdd("fc", "Fedora Core"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
 
             correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
@@ -5046,6 +5033,7 @@ namespace OverflowHelper.core
             correctionAdd("sumthing", "something");
             correctionAdd("somerthing", "something");
             correctionAdd("seomthing", "something");
+            correctionAdd("somrthing", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -9745,6 +9733,7 @@ namespace OverflowHelper.core
             correctionAdd("programically", "programmatically");
             correctionAdd("programtically", "programmatically");
             correctionAdd("programmaticaly", "programmatically");
+            correctionAdd("Programatically", "programmatically");
 
             correctionAdd("Hex", "hexadecimal");
             correctionAdd("hex", "hexadecimal");
@@ -10504,6 +10493,7 @@ namespace OverflowHelper.core
             correctionAdd("pronouniciation", "pronunciation");
             correctionAdd("pronuniciation", "pronunciation");
             correctionAdd("Pronounciation", "pronunciation");
+            correctionAdd("pronuncation", "pronunciation");
 
             correctionAdd("requrie", "require");
             correctionAdd("requries", "require"); // Not 100% correct, third-person singular
@@ -12432,6 +12422,8 @@ namespace OverflowHelper.core
             correctionAdd("prio", "priority");
 
             correctionAdd("simultaneusly", "simultaneously");
+            correctionAdd("Simultaniously", "simultaneously");
+            correctionAdd("simultaniously", "simultaneously");
 
             correctionAdd("sligtly", "slightly");
             correctionAdd("slighty", "slightly");
@@ -14103,6 +14095,7 @@ namespace OverflowHelper.core
             correctionAdd("time stamp", "timestamp");
             correctionAdd("time-stamp", "timestamp");
             correctionAdd("Time stamp", "timestamp");
+            correctionAdd("TimeStamp", "timestamp");
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
@@ -14979,7 +14972,17 @@ namespace OverflowHelper.core
             correctionAdd("codesnippet", "code snippet");
             correctionAdd("code-snippet", "code snippet");
 
+            correctionAdd("facebook connect", "Facebook Connect");
+            correctionAdd("Facebook connect", "Facebook Connect");
+            correctionAdd("FBConnect", "Facebook Connect");
+            correctionAdd("FB Connect", "Facebook Connect");
+            correctionAdd("fb-connect", "Facebook Connect");
+            correctionAdd("fconnect", "Facebook Connect");
+            correctionAdd("FB connect", "Facebook Connect");
+            correctionAdd("fb connect", "Facebook Connect");
+
             correctionAdd("connnect", "connect");
+            correctionAdd("conenct", "connect");
 
             correctionAdd("de-coupling", "decoupling");
 
@@ -15126,7 +15129,16 @@ namespace OverflowHelper.core
             correctionAdd("Gitlab ci", "GitLab CI");
             correctionAdd("gitlab-ce", "GitLab CI");
 
+            correctionAdd("Jit", "JIT");
+            correctionAdd("jit", "JIT");
+            correctionAdd("Just-In-Time", "JIT");
+            correctionAdd("JiT", "JIT");
+            correctionAdd("Just In Time", "JIT");
+            correctionAdd("just in time", "JIT");
+            correctionAdd("just-in-time", "JIT");
+
             correctionAdd("iT", "IT");
+            correctionAdd("Information Technology", "IT");
 
             correctionAdd("PDP11", "PDP-11");
 
@@ -16464,6 +16476,7 @@ namespace OverflowHelper.core
             correctionAdd("capablanka", "José Raúl Capablanca"); // Chess
             correctionAdd("Jose Raul Capablancy", "José Raúl Capablanca"); // Chess
             correctionAdd("Capablancy", "José Raúl Capablanca"); // Chess
+            correctionAdd("capablanca", "José Raúl Capablanca"); // Chess
 
             correctionAdd("En passant", "en passant"); // Chess
 
@@ -16647,6 +16660,7 @@ namespace OverflowHelper.core
             correctionAdd("najdorf defence", "Sicilian Defence, Najdorf Variation"); // Chess
 
             correctionAdd("blitz chess", "Blitz (chess)"); // Chess
+            correctionAdd("Blitiz", "Blitz (chess)"); // Chess
 
             correctionAdd("scandinavian defense", "Scandinavian Defense"); // Chess
             correctionAdd("scandinavian opening", "Scandinavian Defense"); // Chess
@@ -16774,6 +16788,7 @@ namespace OverflowHelper.core
             correctionAdd("Caro-Kann", "Caro–Kann Defence"); // Chess
 
             correctionAdd("bobby fischer", "Bobby Fischer"); // Chess
+            correctionAdd("Fischer", "Bobby Fischer"); // Chess
 
             correctionAdd("Spassky", "Boris Spassky"); // Chess
             correctionAdd("spasky", "Boris Spassky"); // Chess
@@ -19380,6 +19395,7 @@ namespace OverflowHelper.core
 
             correctionAdd("binnary", "binary");
             correctionAdd("binairy", "binary");
+            correctionAdd("ninary", "binary");
 
             correctionAdd("infintely", "infinitely");
 
@@ -24558,6 +24574,7 @@ namespace OverflowHelper.core
             correctionAdd("grpc", "gRPC");
 
             correctionAdd("restrication", "restriction");
+            correctionAdd("Restriccione", "restriction");
 
             correctionAdd("re-usability", "reusability");
 
@@ -25388,6 +25405,34 @@ namespace OverflowHelper.core
 
             correctionAdd("Thermocouple", "thermocouple");
 
+            correctionAdd("cp/m", "CP/M");
+
+            correctionAdd("financial times", "Financial Times");
+
+            correctionAdd("krita", "Krita");
+
+            correctionAdd("Openshift", "OpenShift");
+
+            correctionAdd("Tomi Nyback", "Tomi Nybäck");
+
+            correctionAdd("At the first sight", "at first sight");
+            correctionAdd("At first sight", "at first sight");
+
+            correctionAdd("back yard", "backyard");
+
+            correctionAdd("life span", "lifespan");
+
+            correctionAdd("methdologies", "methodologies");
+
+            correctionAdd("primarilly", "primarily");
+
+            correctionAdd("Telecommunication", "telecommunication");
+            correctionAdd("Telecommunications", "telecommunication");
+
+            correctionAdd("utterley", "utterly");
+
+            correctionAdd("wear out", "wearout");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25575,6 +25620,13 @@ namespace OverflowHelper.core
             correctionAdd("Oxford-Astrazenaca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("astrazeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astrazeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Astrazenica Vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford vax", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astrazeneca Vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("oxford jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astra Zeneca jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25584,6 +25636,10 @@ namespace OverflowHelper.core
             correctionAdd("Astrazenaca", "AstraZeneca"); // Coronavirus
             correctionAdd("AstraZenaca", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zenaca", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astrazenica", "AstraZeneca"); // Coronavirus
+            correctionAdd("AstraZenica", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astra zeneca", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astrazeneca", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -25609,6 +25665,9 @@ namespace OverflowHelper.core
             correctionAdd("Janssen", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("J&J vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("JnJ", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("J/J vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
@@ -39643,6 +39702,32 @@ namespace OverflowHelper.core
             URL_Add("research", "https://en.wiktionary.org/wiki/research#Verb");
 
             URL_Add("thermocouple", "https://en.wikipedia.org/wiki/Thermocouple");
+
+            URL_Add("CP/M", "https://en.wikipedia.org/wiki/CP/M");
+
+            URL_Add("Financial Times", "https://en.wikipedia.org/wiki/Financial_Times");
+
+            URL_Add("Krita", "https://en.wikipedia.org/wiki/Krita");
+
+            URL_Add("OpenShift", "https://en.wikipedia.org/wiki/OpenShift");
+
+            URL_Add("Tomi Nybäck", "https://en.wikipedia.org/wiki/Tomi_Nyb%C3%A4ck");
+
+            URL_Add("at first sight", "https://en.wiktionary.org/wiki/at_first_sight#Prepositional_phrase");
+
+            URL_Add("backyard", "https://en.wiktionary.org/wiki/backyard#Noun");
+
+            URL_Add("lifespan", "https://en.wiktionary.org/wiki/lifespan#Noun");
+
+            URL_Add("methodologies", "https://en.wiktionary.org/wiki/methodology#Noun");
+
+            URL_Add("primarily", "https://en.wiktionary.org/wiki/primarily#Adverb");
+
+            URL_Add("telecommunication", "https://en.wikipedia.org/wiki/Telecommunication");
+
+            URL_Add("utterly", "https://en.wiktionary.org/wiki/utterly#Adverb");
+
+            URL_Add("wearout", "https://en.wiktionary.org/wiki/wearout#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
