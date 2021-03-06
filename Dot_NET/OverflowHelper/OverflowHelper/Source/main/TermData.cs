@@ -24094,6 +24094,7 @@ namespace OverflowHelper.core
             correctionAdd("frontrunner", "front runner");
 
             correctionAdd("pulldown", "pull-down resistor");
+            correctionAdd("pull down resistor", "pull-down resistor");
 
             correctionAdd("purschase", "purchase");
             correctionAdd("Pursache", "purchase");
@@ -25566,6 +25567,8 @@ namespace OverflowHelper.core
 
             correctionAdd("tech writing", "technical writing");
 
+            correctionAdd("volt meter", "voltmeter");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25821,6 +25824,7 @@ namespace OverflowHelper.core
             correctionAdd("ivermecrin", "ivermectin"); // Coronavirus
             correctionAdd("Ivermectine", "ivermectin"); // Coronavirus
             correctionAdd("ivermectine", "ivermectin"); // Coronavirus
+            correctionAdd("Iver Mectin", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -39966,6 +39970,8 @@ namespace OverflowHelper.core
             URL_Add("technical writing", "https://en.wikipedia.org/wiki/Technical_writing");
 
             URL_Add("COPD", "https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease");
+
+            URL_Add("voltmeter", "https://en.wikipedia.org/wiki/Voltmeter");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
