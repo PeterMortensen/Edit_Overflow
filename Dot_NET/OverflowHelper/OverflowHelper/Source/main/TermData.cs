@@ -3120,6 +3120,7 @@ namespace OverflowHelper.core
             correctionAdd("codeblock", "Code::Blocks");
             correctionAdd("code::block", "Code::Blocks");
             correctionAdd("code blocks", "Code::Blocks");
+            correctionAdd("code::blocks", "Code::Blocks");
 
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
