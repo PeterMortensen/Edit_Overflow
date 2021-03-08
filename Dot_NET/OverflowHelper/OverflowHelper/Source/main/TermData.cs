@@ -1139,6 +1139,10 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Mac OS Lion (10.7)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("macOS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("OS X.7.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("OS X.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("7.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("OS X.10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -5792,6 +5796,7 @@ namespace OverflowHelper.core
             correctionAdd("strawberry perl", "Strawberry Perl");
             correctionAdd("Strawberry perl", "Strawberry Perl");
             correctionAdd("Strawberry", "Strawberry Perl");
+            correctionAdd("StrawberryPerl", "Strawberry Perl");
 
             correctionAdd("ntfs", "NTFS");
             correctionAdd("NFTS", "NTFS");
@@ -8481,6 +8486,7 @@ namespace OverflowHelper.core
             correctionAdd("Mbyte", "&nbsp;MB");
             correctionAdd("meg", "&nbsp;MB");
             correctionAdd("megs", "&nbsp;MB");
+            correctionAdd("Mb", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
@@ -16228,6 +16234,7 @@ namespace OverflowHelper.core
             correctionAdd("againt’s", "against");
             correctionAdd("againt", "against");
             correctionAdd("agaibst", "against");
+            correctionAdd("agains", "against");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -16931,6 +16938,7 @@ namespace OverflowHelper.core
 
             correctionAdd("alekhine", "Alexander Alekhine"); // Chess
             correctionAdd("Alekhine", "Alexander Alekhine"); // Chess
+            correctionAdd("Aljechin", "Alexander Alekhine"); // Chess
 
             correctionAdd("Judit", "Judit Polgár"); // Chess
 
@@ -19109,6 +19117,7 @@ namespace OverflowHelper.core
             correctionAdd("artifical", "artificial");
 
             correctionAdd("acpect", "aspect");
+            correctionAdd("spect", "aspect");
 
             correctionAdd("constuctive", "constructive");
             correctionAdd("Constuctive", "constructive");
@@ -25569,6 +25578,10 @@ namespace OverflowHelper.core
             correctionAdd("tech writing", "technical writing");
 
             correctionAdd("volt meter", "voltmeter");
+
+            correctionAdd("finnish", "Finnish");
+
+            correctionAdd("Width", "width");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -39973,6 +39986,10 @@ namespace OverflowHelper.core
             URL_Add("COPD", "https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease");
 
             URL_Add("voltmeter", "https://en.wikipedia.org/wiki/Voltmeter");
+
+            URL_Add("Finnish", "https://en.wiktionary.org/wiki/Finnish#Adjective");
+
+            URL_Add("width", "https://en.wiktionary.org/wiki/width#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
