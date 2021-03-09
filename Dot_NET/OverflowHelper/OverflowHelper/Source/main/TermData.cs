@@ -1709,6 +1709,7 @@ namespace OverflowHelper.core
             correctionAdd("Pytohon", "Python");
             correctionAdd("phyton", "Python");
             correctionAdd("pyhthon", "Python");
+            correctionAdd("Pyhton", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -10943,6 +10944,7 @@ namespace OverflowHelper.core
             correctionAdd("py3", "Python&nbsp;3");
             correctionAdd("Python3", "Python&nbsp;3");
             correctionAdd("Phython 3", "Python&nbsp;3");
+            correctionAdd("Pyhton3", "Python&nbsp;3");
 
             correctionAdd("quran", "Qur'an");
             correctionAdd("Quran", "Qur'an");
@@ -25583,6 +25585,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Width", "width");
 
+            correctionAdd("pokemon go", "Pokémon Go");
+            correctionAdd("Pokémon go", "Pokémon Go");
+            correctionAdd("pokémon go", "Pokémon Go");
+            correctionAdd("Pokemon Go", "Pokémon Go");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -39990,6 +39997,8 @@ namespace OverflowHelper.core
             URL_Add("Finnish", "https://en.wiktionary.org/wiki/Finnish#Adjective");
 
             URL_Add("width", "https://en.wiktionary.org/wiki/width#Noun");
+
+            URL_Add("Pokémon Go", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
