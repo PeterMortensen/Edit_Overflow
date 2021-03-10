@@ -3911,6 +3911,7 @@ namespace OverflowHelper.core
             correctionAdd("vaibles", "variable");
             correctionAdd("vaible", "variable");
             correctionAdd("vairiables", "variable");
+            correctionAdd("vairable", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -8052,6 +8053,7 @@ namespace OverflowHelper.core
             correctionAdd("alot", "a lot");
             correctionAdd("allot", "a lot");
             correctionAdd("Alot", "a lot");
+            correctionAdd("a lott", "a lot");
 
             correctionAdd("slashdot", "Slashdot");
 
@@ -10079,6 +10081,7 @@ namespace OverflowHelper.core
             correctionAdd("bg", "background");
             correctionAdd("back ground", "background");
             correctionAdd("bcakground", "background");
+            correctionAdd("backgrond", "background");
 
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
@@ -16948,6 +16951,17 @@ namespace OverflowHelper.core
             correctionAdd("Petrusian", "Tigran Petrosian"); // Chess
             correctionAdd("Petrosian", "Tigran Petrosian"); // Chess
             correctionAdd("petrosian", "Tigran Petrosian"); // Chess
+
+            correctionAdd("harrwitz", "Daniel Harrwitz"); // Chess
+            correctionAdd("Harrwitz", "Daniel Harrwitz"); // Chess
+            correctionAdd("Harwitz", "Daniel Harrwitz"); // Chess
+
+            correctionAdd("lowenthal", "Johann Löwenthal"); // Chess
+            correctionAdd("lovental", "Johann Löwenthal"); // Chess
+            correctionAdd("Löwenthal", "Johann Löwenthal"); // Chess
+            correctionAdd("löwenthal", "Johann Löwenthal"); // Chess
+
+            correctionAdd("queen's gambit accepted", "Queen's Gambit Accepted"); // Chess
             //
             // End of chess part
 
@@ -18230,6 +18244,7 @@ namespace OverflowHelper.core
             correctionAdd("pre-shared key", "PSK");
             correctionAdd("psk", "PSK");
             correctionAdd("Pre-Shared key", "PSK");
+            correctionAdd("pre shared key", "PSK");
 
             correctionAdd("dictionary's", "dictionaries");
 
@@ -18351,6 +18366,8 @@ namespace OverflowHelper.core
             correctionAdd("Intresting", "interesting");
             correctionAdd("intresting", "interesting");
             correctionAdd("intersting", "interesting");
+            correctionAdd("Instresting", "interesting");
+            correctionAdd("instresting", "interesting");
 
             correctionAdd("kerboard", "keyboard");
             correctionAdd("kerbaord", "keyboard");
@@ -19427,6 +19444,8 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("get-process", "Get-Process");
             correctionAdd("Get-process", "Get-Process");
+            correctionAdd("getprocess", "Get-Process");
+            correctionAdd("GetProcess", "Get-Process");
 
             correctionAdd("start-process", "Start-Process");
 
@@ -25590,6 +25609,32 @@ namespace OverflowHelper.core
             correctionAdd("pokémon go", "Pokémon Go");
             correctionAdd("Pokemon Go", "Pokémon Go");
 
+            correctionAdd("a record", "A record");
+
+            correctionAdd("alltrails", "AllTrails");
+
+            correctionAdd("colemak", "Colemak");
+
+            correctionAdd("evga", "EVGA");
+
+            correctionAdd("night vision goggle", "NVG");
+            correctionAdd("nvgs", "NVG");
+            correctionAdd("nvg", "NVG");
+
+            correctionAdd("stop-process", "Stop-Process");
+
+            correctionAdd("back emf", "back-EMF");
+            correctionAdd("back-emf", "back-EMF");
+            correctionAdd("back EMF", "back-EMF");
+
+            correctionAdd("fit", "feet");
+
+            correctionAdd("fetisist", "feticist");
+
+            correctionAdd("Immunocompromised", "immunocompromised");
+
+            correctionAdd("programable", "programmable");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25870,6 +25915,7 @@ namespace OverflowHelper.core
             correctionAdd("Pfizer vac", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer Vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer shot", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -39999,6 +40045,34 @@ namespace OverflowHelper.core
             URL_Add("width", "https://en.wiktionary.org/wiki/width#Noun");
 
             URL_Add("Pokémon Go", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go");
+
+            URL_Add("A record", "https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records");
+
+            URL_Add("AllTrails", "https://en.wikipedia.org/wiki/AllTrails");
+
+            URL_Add("Colemak", "https://en.wikipedia.org/wiki/Colemak");
+
+            URL_Add("EVGA", "https://en.wikipedia.org/wiki/Extended_Video_Graphics_Array");
+
+            URL_Add("NVG", "https://en.wikipedia.org/wiki/Night_vision#Current_technology");
+
+            URL_Add("Stop-Process", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Stop-Process");
+
+            URL_Add("back-EMF", "https://en.wikipedia.org/wiki/Counter-electromotive_force");
+
+            URL_Add("feet", "https://en.wikipedia.org/wiki/Foot_(unit)");
+
+            URL_Add("feticist", "https://en.wiktionary.org/wiki/fetishist#Noun");
+
+            URL_Add("immunocompromised", "https://en.wikipedia.org/wiki/Immunodeficiency");
+
+            URL_Add("programmable", "https://en.wiktionary.org/wiki/programmable#Adjective");
+
+            URL_Add("Daniel Harrwitz", "https://en.wikipedia.org/wiki/Daniel_Harrwitz");
+
+            URL_Add("Johann Löwenthal", "https://en.wikipedia.org/wiki/Johann_L%C3%B6wenthal");
+
+            URL_Add("Queen's Gambit Accepted", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
