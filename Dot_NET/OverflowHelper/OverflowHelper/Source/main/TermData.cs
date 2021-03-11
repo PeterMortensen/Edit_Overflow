@@ -15733,6 +15733,8 @@ namespace OverflowHelper.core
             correctionAdd("zuckerturd", "Mark Zuckerberg");
             correctionAdd("zuck", "Mark Zuckerberg");
             correctionAdd("The Zuck", "Mark Zuckerberg");
+            correctionAdd("Zuckenberg", "Mark Zuckerberg");
+            correctionAdd("Zuckerberg", "Mark Zuckerberg");
 
             correctionAdd("office space", "Office Space");
 
@@ -21979,6 +21981,7 @@ namespace OverflowHelper.core
             correctionAdd("wheras", "whereas");
             correctionAdd("Where as", "whereas");
             correctionAdd("Whereas", "whereas");
+            correctionAdd("where-as", "whereas");
 
             correctionAdd("christmas", "Christmas");
             correctionAdd("xmas", "Christmas");
@@ -25645,6 +25648,7 @@ namespace OverflowHelper.core
             correctionAdd("fetisist", "feticist");
 
             correctionAdd("Immunocompromised", "immunocompromised");
+            correctionAdd("immune compromise", "immunocompromised");
 
             correctionAdd("programable", "programmable");
 
@@ -25662,6 +25666,9 @@ namespace OverflowHelper.core
             correctionAdd("laufing", "laughing");
 
             correctionAdd("mans", "means");
+
+            correctionAdd("long term", "long-term");
+            correctionAdd("long terms", "long-term");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -25762,6 +25769,8 @@ namespace OverflowHelper.core
             correctionAdd("vax", "vaccine"); // Coronavirus
             correctionAdd("VAX", "vaccine"); // Coronavirus
             correctionAdd("vaxine", "vaccine"); // Coronavirus
+            correctionAdd("vxin", "vaccine"); // Coronavirus
+            correctionAdd("vxins", "vaccine"); // Coronavirus
 
             correctionAdd("vacination", "vaccination"); // Coronavirus
             correctionAdd("Vacination", "vaccination"); // Coronavirus
@@ -25864,6 +25873,11 @@ namespace OverflowHelper.core
             correctionAdd("Astra Zeneca jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AstraZeneca jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Zenica vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("astra zenica vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford VAX", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("A/Z jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("astra zeneca jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25905,7 +25919,12 @@ namespace OverflowHelper.core
             correctionAdd("johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Johnson vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("J/J vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
-            correctionAdd("Johnson & Johnson Vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)");
+            correctionAdd("Johnson & Johnson Vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("j&j jab", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("J&J jab", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Janssen vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Ad26.COV2.S", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Johnson & Johnson COVID-19 vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
@@ -25929,6 +25948,8 @@ namespace OverflowHelper.core
             correctionAdd("Pfisor", "Pfizer"); // Coronavirus
             correctionAdd("PHIZER", "Pfizer"); // Coronavirus
             correctionAdd("phfizer", "Pfizer"); // Coronavirus
+            correctionAdd("pfizer", "Pfizer"); // Coronavirus
+            correctionAdd("pfiezer", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -25944,6 +25965,8 @@ namespace OverflowHelper.core
             correctionAdd("Pfizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer Vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer shot", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("shot of pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("shot of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -25995,7 +26018,10 @@ namespace OverflowHelper.core
             correctionAdd("CureVac vaccine", "CureVac COVID-19 vaccine"); // Coronavirus
             correctionAdd("Curevac vaccine", "CureVac COVID-19 vaccine"); // Coronavirus
 
-            correctionAdd("copd", "COPD");
+            correctionAdd("copd", "COPD"); // Coronavirus
+
+            correctionAdd("long covid", "Long COVID"); // Coronavirus
+            correctionAdd("Long covid", "Long COVID"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -40113,6 +40139,10 @@ namespace OverflowHelper.core
             URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
 
             URL_Add("means", "https://en.wiktionary.org/wiki/mean#Verb");
+
+            URL_Add("Long COVID", "https://en.wikipedia.org/wiki/Long_COVID");
+
+            URL_Add("long-term", "https://en.wiktionary.org/wiki/long-term#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
