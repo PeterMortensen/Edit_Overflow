@@ -6127,6 +6127,7 @@ namespace OverflowHelper.core
             correctionAdd("jail breaking", "jailbreaking");
 
             correctionAdd("clang", "Clang");
+            correctionAdd("CLANG", "Clang");
 
             correctionAdd("llvm", "LLVM");
 
@@ -9255,6 +9256,7 @@ namespace OverflowHelper.core
             correctionAdd("Downvote", "downvote");
             correctionAdd("down Vote", "downvote");
             correctionAdd("DownVote", "downvote");
+            correctionAdd("Down Vote", "downvote");
 
             correctionAdd("every", "every time"); // What is this????
             correctionAdd("everytime", "every time");
@@ -10302,6 +10304,9 @@ namespace OverflowHelper.core
             correctionAdd("implemenation", "implementation");
             correctionAdd("implementaion", "implementation");
             correctionAdd("impl", "implementation");
+            correctionAdd("implemetation", "implementation");
+
+            correctionAdd("re-implementation", "reimplementation");
 
             correctionAdd("explaination", "explanation");
             correctionAdd("explenation", "explanation");
@@ -11507,6 +11512,7 @@ namespace OverflowHelper.core
             correctionAdd("probly", "probably");
             correctionAdd("Propably", "probably");
             correctionAdd("propably", "probably");
+            correctionAdd("porb", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -11820,11 +11826,6 @@ namespace OverflowHelper.core
             correctionAdd("game of thrones", "Game of Thrones");
             correctionAdd("GOT", "Game of Thrones");
 
-            correctionAdd("google cloud", "Google Cloud Platform");
-            correctionAdd("g cloud", "Google Cloud Platform");
-            correctionAdd("G cloud", "Google Cloud Platform");
-            correctionAdd("Google cloud", "Google Cloud Platform");
-
             correctionAdd("Huwei", "Huawei");
 
             correctionAdd("ammount", "amount");
@@ -11921,6 +11922,7 @@ namespace OverflowHelper.core
             correctionAdd("it self", "itself");
             correctionAdd("itsself", "itself");
             correctionAdd("itselft", "itself");
+            correctionAdd("it'self", "itself");
 
             correctionAdd("milliamps", "milliamperes");
 
@@ -15589,11 +15591,6 @@ namespace OverflowHelper.core
 
             correctionAdd("corosion", "corrosion");
 
-            correctionAdd("crossplatform", "cross-platform");
-            correctionAdd("crossPlatform", "cross-platform");
-            correctionAdd("Cross Platform", "cross-platform");
-            correctionAdd("cross platform", "cross-platform");
-
             correctionAdd("Deuterium", "deuterium");
 
             correctionAdd("equilibrum", "equilibrium");
@@ -16669,6 +16666,9 @@ namespace OverflowHelper.core
             correctionAdd("mophy", "Paul Morphy"); // Chess
             correctionAdd("paul charles morphy", "Paul Morphy"); // Chess
             correctionAdd("Paul Charles Morphy", "Paul Morphy"); // Chess
+            correctionAdd("Paul Charles Morphe", "Paul Morphy"); // Chess
+            correctionAdd("Morphe", "Paul Morphy"); // Chess
+            correctionAdd("morph", "Paul Morphy"); // Chess
 
             correctionAdd("four knights", "Four Knights Game"); // Chess
 
@@ -16960,6 +16960,7 @@ namespace OverflowHelper.core
             correctionAdd("lovental", "Johann Löwenthal"); // Chess
             correctionAdd("Löwenthal", "Johann Löwenthal"); // Chess
             correctionAdd("löwenthal", "Johann Löwenthal"); // Chess
+            correctionAdd("Lowenthal", "Johann Löwenthal"); // Chess
 
             correctionAdd("queen's gambit accepted", "Queen's Gambit Accepted"); // Chess
             //
@@ -17821,7 +17822,18 @@ namespace OverflowHelper.core
             correctionAdd("elce", "else");
             correctionAdd("elss", "else");
 
+            correctionAdd("google cloud", "Google Cloud Platform");
+            correctionAdd("g cloud", "Google Cloud Platform");
+            correctionAdd("G cloud", "Google Cloud Platform");
+            correctionAdd("Google cloud", "Google Cloud Platform");
+
+            correctionAdd("crossplatform", "cross-platform");
+            correctionAdd("crossPlatform", "cross-platform");
+            correctionAdd("Cross Platform", "cross-platform");
+            correctionAdd("cross platform", "cross-platform");
+
             correctionAdd("plattform", "platform");
+            correctionAdd("platoform", "platform");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -18160,6 +18172,7 @@ namespace OverflowHelper.core
             correctionAdd("I've", "I’ve");
             correctionAdd("iv", "I’ve");
             correctionAdd("I'v", "I’ve");
+            correctionAdd("I´ve", "I’ve");
 
             correctionAdd("msc", "Master of Science");
             correctionAdd("Msc", "Master of Science");
@@ -23789,6 +23802,7 @@ namespace OverflowHelper.core
             correctionAdd("Module pattern", "module pattern");
 
             correctionAdd("publics", "public");
+            correctionAdd("puplic", "public");
 
             correctionAdd("rebuilded", "rebuilt");
             correctionAdd("reBuilded", "rebuilt");
@@ -24197,8 +24211,6 @@ namespace OverflowHelper.core
             correctionAdd("gethering", "gathering");
 
             correctionAdd("probabilites", "probabilities");
-
-            correctionAdd("re-implementation", "reimplementation");
 
             correctionAdd("take into accound", "take into account");
 
@@ -25517,6 +25529,7 @@ namespace OverflowHelper.core
             correctionAdd("Cypres", "Cyprus");
 
             correctionAdd("gateron yellow", "Gateron Yellow");
+            correctionAdd("gat yellows", "Gateron Yellow");
 
             correctionAdd("Abbott", "Greg Abbott");
             correctionAdd("Greg", "Greg Abbott");
@@ -25634,6 +25647,21 @@ namespace OverflowHelper.core
             correctionAdd("Immunocompromised", "immunocompromised");
 
             correctionAdd("programable", "programmable");
+
+            correctionAdd("pImpl", "PIMPL");
+            correctionAdd("Pimpl", "PIMPL");
+            correctionAdd("pimpl", "PIMPL");
+            correctionAdd("PImpl", "PIMPL");
+
+            correctionAdd("crosss", "cross");
+
+            correctionAdd("inteegral", "integral");
+
+            correctionAdd("key-stroke", "keystroke");
+
+            correctionAdd("laufing", "laughing");
+
+            correctionAdd("mans", "means");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40073,6 +40101,18 @@ namespace OverflowHelper.core
             URL_Add("Johann Löwenthal", "https://en.wikipedia.org/wiki/Johann_L%C3%B6wenthal");
 
             URL_Add("Queen's Gambit Accepted", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted");
+
+            URL_Add("PIMPL", "https://cpppatterns.com/patterns/pimpl.html");
+
+            URL_Add("cross", "https://en.wiktionary.org/wiki/cross#Adjective");
+
+            URL_Add("integral", "https://en.wiktionary.org/wiki/integral#Adjective");
+
+            URL_Add("keystroke", "https://en.wiktionary.org/wiki/keystroke#Noun");
+
+            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
+
+            URL_Add("means", "https://en.wiktionary.org/wiki/mean#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
