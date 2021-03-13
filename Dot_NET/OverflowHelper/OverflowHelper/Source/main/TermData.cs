@@ -1268,6 +1268,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac OS Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("macOS 10.15", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -10470,6 +10471,7 @@ namespace OverflowHelper.core
             correctionAdd("excerise", "exercise");
             correctionAdd("exerise", "exercise");
             correctionAdd("exesise", "exercise");
+            correctionAdd("excersice", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -10573,6 +10575,7 @@ namespace OverflowHelper.core
             correctionAdd("Fisrt", "first");
             correctionAdd("First", "first");
             correctionAdd("fist", "first");
+            correctionAdd("f1st", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -16218,8 +16221,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spectaculary", "spectacularly");
 
-            correctionAdd("stop watch", "stopwatch");
-
             correctionAdd("timibg", "timing");
 
             correctionAdd("visibiltiy", "visibility");
@@ -17473,6 +17474,8 @@ namespace OverflowHelper.core
 
             correctionAdd("inpromptu", "impromptu");
             correctionAdd("in promptu", "impromptu");
+            correctionAdd("im promptu", "impromptu");
+            correctionAdd("impromtu", "impromptu");
 
             correctionAdd("maniuplation", "manipulation");
 
@@ -17892,8 +17895,6 @@ namespace OverflowHelper.core
             correctionAdd("re-entrant", "reentrant");
 
             correctionAdd("sematic", "semantic");
-
-            correctionAdd("smart watch", "smartwatch");
 
             correctionAdd("sock puppet", "sockpuppet");
             correctionAdd("sock-puppet", "sockpuppet");
@@ -19826,10 +19827,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jnlp", "JNLP");
 
-            correctionAdd("Roleex", "Rolex");
-
-            correctionAdd("Roleex watc", "Rolex watch");
-
             correctionAdd("allocte", "allocate");
 
             correctionAdd("Applet", "applet");
@@ -19866,7 +19863,16 @@ namespace OverflowHelper.core
             correctionAdd("tradeoff", "trade-off");
             correctionAdd("trade off", "trade-off");
 
+            correctionAdd("Roleex", "Rolex");
+
+            correctionAdd("stop watch", "stopwatch");
+
+            correctionAdd("smart watch", "smartwatch");
+
+            correctionAdd("Roleex watc", "Rolex watch");
+
             correctionAdd("watc", "watch");
+            correctionAdd("wacht", "watch");
 
             correctionAdd("AMD threadripper", "AMD Ryzen Threadripper");
 
@@ -23138,6 +23144,8 @@ namespace OverflowHelper.core
             correctionAdd("smack down", "smackdown");
 
             correctionAdd("Canonical", "Canonical Ltd.");
+            correctionAdd("Chaonical", "Canonical Ltd.");
+            correctionAdd("Canoical", "Canonical Ltd.");
 
             correctionAdd("CODESYS", "Codesys");
             correctionAdd("codesys", "Codesys");
@@ -23821,6 +23829,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tomorow", "tomorrow");
             correctionAdd("tommorow", "tomorrow");
+            correctionAdd("tommrow", "tomorrow");
 
             correctionAdd("WDYT", "what do you think");
 
@@ -24393,6 +24402,7 @@ namespace OverflowHelper.core
             correctionAdd("PyType", "pytype");
 
             correctionAdd("role out", "roll out");
+            correctionAdd("rool out", "roll out");
 
             correctionAdd("rumor", "rumour");
 
@@ -25670,6 +25680,19 @@ namespace OverflowHelper.core
             correctionAdd("long term", "long-term");
             correctionAdd("long terms", "long-term");
 
+            correctionAdd("chilean", "Chilean");
+
+            correctionAdd("self confidence", "self-confidence");
+
+            correctionAdd("ware", "were");
+
+            correctionAdd("INR", "international normalized ratio");
+
+            correctionAdd("vaxxed", "vaccinated");
+            correctionAdd("Vaxxed", "vaccinated");
+
+            correctionAdd("K2", "vitamin K2");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25771,6 +25794,7 @@ namespace OverflowHelper.core
             correctionAdd("vaxine", "vaccine"); // Coronavirus
             correctionAdd("vxin", "vaccine"); // Coronavirus
             correctionAdd("vxins", "vaccine"); // Coronavirus
+            correctionAdd("Vaccin", "vaccine"); // Coronavirus
 
             correctionAdd("vacination", "vaccination"); // Coronavirus
             correctionAdd("Vacination", "vaccination"); // Coronavirus
@@ -25878,6 +25902,10 @@ namespace OverflowHelper.core
             correctionAdd("Oxford VAX", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("A/Z jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("astra zeneca jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("oxfort vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("az vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ vaccin", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("oxford astrazeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25977,6 +26005,10 @@ namespace OverflowHelper.core
             correctionAdd("contaigan", "contagion"); // Coronavirus
 
             correctionAdd("Novavax", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
+            correctionAdd("Novamax", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
+            correctionAdd("Novamax vaccine", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
+            correctionAdd("Novavax vaccine", "Novavax COVID-19 vaccine (NVX-CoV2373)"); // Coronavirus
+            correctionAdd("NVX vaccine", "Novavax COVID-19 vaccine (NVX-CoV2373)");
 
             correctionAdd("t cell", "T cell"); // Coronavirus
 
@@ -26012,6 +26044,7 @@ namespace OverflowHelper.core
             correctionAdd("sinovac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
             correctionAdd("Sinovac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
             correctionAdd("Sinopharm vaccine", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
+            correctionAdd("Sinovax", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
 
             correctionAdd("CureVac", "CureVac COVID-19 vaccine"); // Coronavirus
             correctionAdd("Curevac", "CureVac COVID-19 vaccine"); // Coronavirus
@@ -40143,6 +40176,18 @@ namespace OverflowHelper.core
             URL_Add("Long COVID", "https://en.wikipedia.org/wiki/Long_COVID");
 
             URL_Add("long-term", "https://en.wiktionary.org/wiki/long-term#Adjective");
+
+            URL_Add("Chilean", "https://en.wiktionary.org/wiki/Chilean#Adjective");
+
+            URL_Add("self-confidence", "https://en.wiktionary.org/wiki/self-confidence#Noun");
+
+            URL_Add("were", "https://en.wiktionary.org/wiki/were#Verb");
+
+            URL_Add("international normalized ratio", "https://en.wikipedia.org/wiki/Prothrombin_time");
+
+            URL_Add("vaccinated", "https://en.wiktionary.org/wiki/vaccinate#Verb");
+
+            URL_Add("vitamin K2", "https://en.wikipedia.org/wiki/Vitamin_K2");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
