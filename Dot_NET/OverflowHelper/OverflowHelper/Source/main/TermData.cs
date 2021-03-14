@@ -9160,6 +9160,7 @@ namespace OverflowHelper.core
             correctionAdd("avaible", "available");
             correctionAdd("avialale", "available");
             correctionAdd("aviable", "available");
+            correctionAdd("avail", "available");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -12111,6 +12112,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
+            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
 
             correctionAdd("transifex", "Transifex");
 
@@ -15093,8 +15095,6 @@ namespace OverflowHelper.core
             correctionAdd("one dimensional", "one-dimensional");
 
             correctionAdd("overrideable", "overridable");
-
-            correctionAdd("over-think", "overthink");
 
             correctionAdd("pizo", "piezo");
             correctionAdd("Piezzo", "piezo");
@@ -20223,7 +20223,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Tertiary", "tertiary");
 
+            correctionAdd("over-think", "overthink");
+
             correctionAdd("thinkk", "think");
+            correctionAdd("thunk", "think");
 
             correctionAdd("througput", "throughput");
 
@@ -20396,6 +20399,7 @@ namespace OverflowHelper.core
             correctionAdd("deferent", "different");
             correctionAdd("differant", "different");
             correctionAdd("diffferent", "different");
+            correctionAdd("differeny", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -25692,6 +25696,24 @@ namespace OverflowHelper.core
             correctionAdd("Vaxxed", "vaccinated");
 
             correctionAdd("K2", "vitamin K2");
+
+            correctionAdd("Apparmor", "AppArmor");
+
+            correctionAdd("intel atom", "Intel Atom");
+
+            correctionAdd("pale moon", "Pale Moon");
+
+            correctionAdd("react-router", "React Router");
+            correctionAdd("react router", "React Router");
+
+            correctionAdd("AntiX Linux", "antiX");
+            correctionAdd("AntiX", "antiX");
+
+            correctionAdd("callstack", "call stack");
+
+            correctionAdd("Civil Engineer", "civil engineer");
+
+            correctionAdd("qute browser", "qutebrowser");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40188,6 +40210,22 @@ namespace OverflowHelper.core
             URL_Add("vaccinated", "https://en.wiktionary.org/wiki/vaccinate#Verb");
 
             URL_Add("vitamin K2", "https://en.wikipedia.org/wiki/Vitamin_K2");
+
+            URL_Add("AppArmor", "https://en.wikipedia.org/wiki/AppArmor");
+
+            URL_Add("Intel Atom", "https://en.wikipedia.org/wiki/Intel_Atom");
+
+            URL_Add("Pale Moon", "https://en.wikipedia.org/wiki/Pale_Moon_(web_browser)");
+
+            URL_Add("React Router", "https://reactrouter.com/");
+
+            URL_Add("antiX", "https://en.wikipedia.org/wiki/AntiX");
+
+            URL_Add("call stack", "https://en.wikipedia.org/wiki/Call_stack");
+
+            URL_Add("civil engineer", "https://en.wikipedia.org/wiki/Civil_engineer");
+
+            URL_Add("qutebrowser", "https://en.wikipedia.org/wiki/Qutebrowser");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
