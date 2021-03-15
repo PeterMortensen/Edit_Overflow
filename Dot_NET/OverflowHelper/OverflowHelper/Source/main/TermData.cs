@@ -3631,6 +3631,7 @@ namespace OverflowHelper.core
             correctionAdd("authenticaion", "authentication");
             correctionAdd("Authentiaction", "authentication"); // Expansion, but case problem
             correctionAdd("authentiaction", "authentication");
+            correctionAdd("authencation", "authentication");
 
             correctionAdd("Zip", "ZIP");
             correctionAdd("zip", "ZIP");
@@ -12022,6 +12023,8 @@ namespace OverflowHelper.core
 
             correctionAdd("substution", "substitution");
             correctionAdd("substituion", "substitution");
+            correctionAdd("subsitution", "substitution");
+            correctionAdd("substiution", "substitution");
 
             correctionAdd("symetrically", "symmetrically");
 
@@ -12617,6 +12620,7 @@ namespace OverflowHelper.core
             correctionAdd("bombardement", "bombardment");
 
             correctionAdd("brillant", "brilliant");
+            correctionAdd("briliant", "brilliant");
 
             correctionAdd("costal", "coastal");
 
@@ -13096,6 +13100,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wieght", "weight");
             correctionAdd("waight", "weight");
+            correctionAdd("weigth", "weight");
 
             correctionAdd("Beligum", "Belgium");
             correctionAdd("beligum", "Belgium");
@@ -25708,12 +25713,28 @@ namespace OverflowHelper.core
 
             correctionAdd("AntiX Linux", "antiX");
             correctionAdd("AntiX", "antiX");
+            correctionAdd("antix", "antiX");
 
             correctionAdd("callstack", "call stack");
 
             correctionAdd("Civil Engineer", "civil engineer");
 
             correctionAdd("qute browser", "qutebrowser");
+
+            correctionAdd("twi", "TWI");
+
+            correctionAdd("bit-bang", "bit bang");
+            correctionAdd("bit- bash", "bit bang");
+            correctionAdd("bit-bash", "bit bang");
+
+            correctionAdd("easeses", "eases");
+
+            correctionAdd("embrittelment", "embrittlement");
+
+            correctionAdd("reptillian", "reptilian");
+            correctionAdd("raptillian", "reptilian");
+
+            correctionAdd("roll-back", "roll back");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40226,6 +40247,18 @@ namespace OverflowHelper.core
             URL_Add("civil engineer", "https://en.wikipedia.org/wiki/Civil_engineer");
 
             URL_Add("qutebrowser", "https://en.wikipedia.org/wiki/Qutebrowser");
+
+            URL_Add("TWI", "https://en.wikipedia.org/wiki/I%C2%B2C#Derivative_technologies");
+
+            URL_Add("bit bang", "https://en.wikipedia.org/wiki/Bit_banging");
+
+            URL_Add("eases", "https://en.wiktionary.org/wiki/ease#Verb");
+
+            URL_Add("embrittlement", "https://en.wiktionary.org/wiki/embrittlement#Noun");
+
+            URL_Add("reptilian", "https://en.wiktionary.org/wiki/reptilian#Adjective");
+
+            URL_Add("roll back", "https://en.wiktionary.org/wiki/roll_back#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
