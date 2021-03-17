@@ -5167,6 +5167,7 @@ namespace OverflowHelper.core
             correctionAdd("Davlik", "Dalvik");
 
             correctionAdd("Tracert", "tracert");
+            correctionAdd("traceroute", "tracert");
 
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
@@ -6766,6 +6767,7 @@ namespace OverflowHelper.core
             correctionAdd("finction", "function");
             correctionAdd("functuion", "function");
             correctionAdd("Funcion", "function");
+            correctionAdd("fiunction", "function");
 
             correctionAdd("wavefunction", "wave function");
 
@@ -7804,6 +7806,7 @@ namespace OverflowHelper.core
             correctionAdd("governent", "government");
             correctionAdd("Government", "government");
             correctionAdd("Givernment", "government");
+            correctionAdd("Gouverment", "government");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -11765,6 +11768,7 @@ namespace OverflowHelper.core
 
             correctionAdd("low level", "low-level");
             correctionAdd("low-kevel", "low-level");
+            correctionAdd("lowlevel", "low-level");
 
             correctionAdd("PWA", "progressive web application");
             correctionAdd("Progressive Web Application", "progressive web application");
@@ -12749,6 +12753,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sideeffect", "side effect");
             correctionAdd("side-effect", "side effect");
+            correctionAdd("side affects", "side effect");
+            correctionAdd("side affect", "side effect");
 
             correctionAdd("spell-check", "spellcheck");
             correctionAdd("spell check", "spellcheck");
@@ -15078,6 +15084,7 @@ namespace OverflowHelper.core
 
             correctionAdd("man", "man page");
             correctionAdd("Man page", "man page");
+            correctionAdd("manual page", "man page");
 
             correctionAdd("mark-up", "markup");
             correctionAdd("mark up", "markup");
@@ -15616,6 +15623,7 @@ namespace OverflowHelper.core
             correctionAdd("offputting", "off-putting");
 
             correctionAdd("offten", "often");
+            correctionAdd("oftenly", "often");
 
             correctionAdd("over write", "overwrite");
 
@@ -16328,6 +16336,7 @@ namespace OverflowHelper.core
             correctionAdd("viddy", "video");
             correctionAdd("vid", "video");
             correctionAdd("vids", "video");
+            correctionAdd("vdo", "video");
 
             correctionAdd("tampermonkey", "Tampermonkey");
             correctionAdd("tamper monkey", "Tampermonkey");
@@ -16944,6 +16953,7 @@ namespace OverflowHelper.core
             correctionAdd("Mc donald gambit", "King's Gambit, McDonnell Gambit"); // Chess
 
             correctionAdd("Wesley", "Wesley So"); // Chess
+            correctionAdd("Wesly", "Wesley So"); // Chess
 
             correctionAdd("Tempo", "tempo"); // Chess
 
@@ -18217,6 +18227,7 @@ namespace OverflowHelper.core
             correctionAdd("ENRON", "Enron");
 
             correctionAdd("GPG", "GNU Privacy Guard");
+            correctionAdd("GnuPG", "GNU Privacy Guard");
 
             correctionAdd("mx", "MX record");
             correctionAdd("MX", "MX record");
@@ -20720,6 +20731,7 @@ namespace OverflowHelper.core
 
             correctionAdd("imposter syndrome", "impostor syndrome");
             correctionAdd("Impostor Syndrome", "impostor syndrome");
+            correctionAdd("Imposter Syndrome", "impostor syndrome");
 
             correctionAdd("WC", "wc");
 
@@ -21466,6 +21478,7 @@ namespace OverflowHelper.core
             correctionAdd("lanuage", "language");
             correctionAdd("lannguage", "language");
             correctionAdd("lanugage", "language");
+            correctionAdd("lanague", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -21637,6 +21650,9 @@ namespace OverflowHelper.core
             correctionAdd("ECMAscript", "ECMAScript");
             correctionAdd("ECMA-Script", "ECMAScript");
             correctionAdd("ECMA Script", "ECMAScript");
+            correctionAdd("ecama script", "ECMAScript");
+            correctionAdd("ecma script", "ECMAScript");
+            correctionAdd("Ecama script", "ECMAScript");
 
             correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
             correctionAdd("ES 5", "ECMAScript&nbsp;5");
@@ -22155,6 +22171,8 @@ namespace OverflowHelper.core
             correctionAdd("jake", "Jake");
 
             correctionAdd("Joe editor", "Joe's Own Editor");
+            correctionAdd("joe", "Joe's Own Editor");
+            correctionAdd("JOE", "Joe's Own Editor");
 
             correctionAdd("Nobjective", "NObjective");
 
@@ -25736,6 +25754,44 @@ namespace OverflowHelper.core
 
             correctionAdd("roll-back", "roll back");
 
+            correctionAdd("Dunning kruger effekt", "Dunning–Kruger effect");
+
+            correctionAdd("gateron pink", "Gateron Pink");
+
+            correctionAdd("be come", "become");
+
+            correctionAdd("commandos", "commands");
+
+            correctionAdd("DF", "df");
+
+            correctionAdd("GROUPADD", "groupadd");
+
+            correctionAdd("hava", "have");
+
+            correctionAdd("HDPARM", "hdparm");
+
+            correctionAdd("hestancy", "hesitancy");
+
+            correctionAdd("in a short", "in short");
+            correctionAdd("In a short", "in short");
+
+            correctionAdd("inadeqate", "inadequate");
+
+            correctionAdd("KILL", "kill");
+
+            correctionAdd("procfs", "proc");
+            correctionAdd("PROC", "proc");
+
+            correctionAdd("RM", "rm");
+
+            correctionAdd("roll up the sleeves", "roll up your sleeves");
+
+            correctionAdd("SYSLOG", "syslog");
+
+            correctionAdd("TOP", "top");
+
+            correctionAdd("USERADD", "useradd");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25893,6 +25949,7 @@ namespace OverflowHelper.core
             correctionAdd("Vit-D", "vitamin D"); // Coronavirus
             correctionAdd("vit-D", "vitamin D"); // Coronavirus
             correctionAdd("vit-d", "vitamin D"); // Coronavirus
+            correctionAdd("vitamind", "vitamin D"); // Coronavirus
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
@@ -25949,6 +26006,15 @@ namespace OverflowHelper.core
             correctionAdd("az vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ vaccin", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("oxford astrazeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Az Jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("az jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AstraZeneca vaccin", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Aztrazeneca jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Astra Zenica shot", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AstraZeneca vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZO", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -25962,6 +26028,7 @@ namespace OverflowHelper.core
             correctionAdd("AstraZenica", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra zeneca", "AstraZeneca"); // Coronavirus
             correctionAdd("Astrazeneca", "AstraZeneca"); // Coronavirus
+            correctionAdd("Aztrazeneca", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -26038,6 +26105,7 @@ namespace OverflowHelper.core
             correctionAdd("Pfizer shot", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("shot of pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("shot of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pz", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -26072,7 +26140,9 @@ namespace OverflowHelper.core
             correctionAdd("Moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Moderna shot", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("Moderna jab", "Moderna COVID-19 vaccine (mRNA-1273)");
+            correctionAdd("Moderna jab", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("moderma", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
 
@@ -26098,6 +26168,10 @@ namespace OverflowHelper.core
 
             correctionAdd("long covid", "Long COVID"); // Coronavirus
             correctionAdd("Long covid", "Long COVID"); // Coronavirus
+
+            correctionAdd("Cellulitis", "cellulitis");
+
+            correctionAdd("farmaceutical", "pharmaceutical");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -40259,6 +40333,46 @@ namespace OverflowHelper.core
             URL_Add("reptilian", "https://en.wiktionary.org/wiki/reptilian#Adjective");
 
             URL_Add("roll back", "https://en.wiktionary.org/wiki/roll_back#Verb");
+
+            URL_Add("Dunning–Kruger effect", "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect");
+
+            URL_Add("Gateron Pink", "https://dailyclack.com/products/gateron-pink");
+
+            URL_Add("become", "https://en.wiktionary.org/wiki/become#Verb");
+
+            URL_Add("commands", "https://en.wiktionary.org/wiki/command#Noun");
+
+            URL_Add("df", "https://en.wikipedia.org/wiki/Df_(Unix)");
+
+            URL_Add("groupadd", "https://linux.die.net/man/8/groupadd");
+
+            URL_Add("have", "https://en.wiktionary.org/wiki/have#Verb");
+
+            URL_Add("hdparm", "https://en.wikipedia.org/wiki/Hdparm");
+
+            URL_Add("hesitancy", "https://en.wiktionary.org/wiki/hesitancy#Noun");
+
+            URL_Add("in short", "https://en.wiktionary.org/wiki/in_short#Prepositional_phrase");
+
+            URL_Add("inadequate", "https://en.wiktionary.org/wiki/inadequate#Adjective");
+
+            URL_Add("kill", "https://en.wikipedia.org/wiki/Kill_(command)");
+
+            URL_Add("proc", "https://en.wikipedia.org/wiki/Procfs");
+
+            URL_Add("rm", "https://en.wikipedia.org/wiki/Rm_(Unix)");
+
+            URL_Add("roll up your sleeves", "https://en.wiktionary.org/wiki/roll_up_one%27s_sleeves#Verb");
+
+            URL_Add("syslog", "https://en.wikipedia.org/wiki/Syslog");
+
+            URL_Add("top", "https://en.wikipedia.org/wiki/Top_(software)");
+
+            URL_Add("useradd", "https://linux.die.net/man/8/useradd");
+
+            URL_Add("cellulitis", "https://en.wikipedia.org/wiki/Cellulitis");
+
+            URL_Add("pharmaceutical", "https://en.wiktionary.org/wiki/pharmaceutical#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
