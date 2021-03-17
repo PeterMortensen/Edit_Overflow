@@ -25792,6 +25792,14 @@ namespace OverflowHelper.core
 
             correctionAdd("USERADD", "useradd");
 
+            correctionAdd("ATMEGA32U4", "ATmega32U4");
+            correctionAdd("AtMega32U4", "ATmega32U4");
+            correctionAdd("ATMega32u4", "ATmega32U4");
+            correctionAdd("atmega32u4", "ATmega32U4");
+            correctionAdd("ATmega32u4", "ATmega32U4");
+
+            correctionAdd("p5", "p5.js");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -25851,6 +25859,7 @@ namespace OverflowHelper.core
             correctionAdd("this pandemic", "COVID-19"); // Coronavirus
             correctionAdd("c-19", "COVID-19"); // Coronavirus
             correctionAdd("C-19", "COVID-19"); // Coronavirus
+            correctionAdd("Covide-19", "COVID-19"); // Coronavirus
 
             correctionAdd("Corona Virus", "coronavirus"); // Coronavirus
             correctionAdd("Coronavirus", "coronavirus"); // Coronavirus
@@ -26015,6 +26024,9 @@ namespace OverflowHelper.core
             correctionAdd("AstraZeneca vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZO", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford one", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("AZ Vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("shot of AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -26106,6 +26118,9 @@ namespace OverflowHelper.core
             correctionAdd("shot of pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("shot of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pz", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("phizered", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("pfizered", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pzr", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -40373,6 +40388,10 @@ namespace OverflowHelper.core
             URL_Add("cellulitis", "https://en.wikipedia.org/wiki/Cellulitis");
 
             URL_Add("pharmaceutical", "https://en.wiktionary.org/wiki/pharmaceutical#Adjective");
+
+            URL_Add("ATmega32U4", "https://www.microchip.com/wwwproducts/en/ATmega32U4");
+
+            URL_Add("p5.js", "https://en.wikipedia.org/wiki/Processing_(programming_language)#p5.js");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
