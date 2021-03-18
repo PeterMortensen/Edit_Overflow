@@ -8234,6 +8234,7 @@ namespace OverflowHelper.core
             correctionAdd("kml", "KML");
 
             correctionAdd("puppy linux", "Puppy Linux");
+            correctionAdd("Puppy", "Puppy Linux");
 
             correctionAdd("webrtc", "WebRTC");
             correctionAdd("webRTC", "WebRTC");
@@ -10169,6 +10170,7 @@ namespace OverflowHelper.core
             correctionAdd("set-service", "Set-Service");
 
             correctionAdd("AtTiny85", "ATtiny85");
+            correctionAdd("ATTiny85", "ATtiny85");
 
             correctionAdd("fritzing", "Fritzing");
 
@@ -10399,6 +10401,8 @@ namespace OverflowHelper.core
             correctionAdd("ATmega-328p", "ATmega328P");
             correctionAdd("ATmega-328P", "ATmega328P");
             correctionAdd("ATMega328P", "ATmega328P");
+            correctionAdd("ATMega328p", "ATmega328P");
+            correctionAdd("Atmega 328P", "ATmega328P");
 
             correctionAdd("anaconda", "Anaconda");
             correctionAdd("anonconda", "Anaconda");
@@ -12688,6 +12692,7 @@ namespace OverflowHelper.core
             correctionAdd("Li", "lithium");
             correctionAdd("litium", "lithium");
             correctionAdd("Litium", "lithium");
+            correctionAdd("lithim", "lithium");
 
             correctionAdd("M", "m");
             correctionAdd("Meter", "m");
@@ -15439,6 +15444,8 @@ namespace OverflowHelper.core
             correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
             correctionAdd("mbit", "&nbsp;Mbit/s"); // Misspelling
             correctionAdd("mbit/s", "&nbsp;Mbit/s");
+            correctionAdd("MBit", "&nbsp;Mbit/s");
+            correctionAdd("Mbit", "&nbsp;Mbit/s");
 
             correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
             correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
@@ -17604,6 +17611,7 @@ namespace OverflowHelper.core
             correctionAdd("DOD", "data-oriented design");
 
             correctionAdd("dimenson", "dimension");
+            correctionAdd("dimenion", "dimension");
 
             correctionAdd("dis-assembly", "disassembly");
 
@@ -25686,6 +25694,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Immunocompromised", "immunocompromised");
             correctionAdd("immune compromise", "immunocompromised");
+            correctionAdd("immune compromised", "immunocompromised");
 
             correctionAdd("programable", "programmable");
 
@@ -25797,8 +25806,33 @@ namespace OverflowHelper.core
             correctionAdd("ATMega32u4", "ATmega32U4");
             correctionAdd("atmega32u4", "ATmega32U4");
             correctionAdd("ATmega32u4", "ATmega32U4");
+            correctionAdd("Atmega32U4", "ATmega32U4");
+            correctionAdd("Atmega 32u4", "ATmega32U4");
+            correctionAdd("ATmega 32u4", "ATmega32U4");
+            correctionAdd("ATmega 32U4", "ATmega32U4");
 
             correctionAdd("p5", "p5.js");
+
+            correctionAdd("Atmega16U2", "ATmega16U2");
+            correctionAdd("ATMEGA16U2", "ATmega16U2");
+
+            correctionAdd("BJ", "Boris Johnson");
+            correctionAdd("BoJo", "Boris Johnson");
+            correctionAdd("bojo", "Boris Johnson");
+
+            correctionAdd("I2S", "I²S");
+
+            correctionAdd("Papua New Gunnea", "Papua New Guinea");
+
+            correctionAdd("algebracally", "algebraically");
+
+            correctionAdd("blu", "blue");
+
+            correctionAdd("grn", "green");
+
+            correctionAdd("prp", "purple");
+
+            correctionAdd("view port", "viewport");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -26027,6 +26061,7 @@ namespace OverflowHelper.core
             correctionAdd("Oxford one", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ Vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("shot of AZ", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Astrazenica vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -26041,6 +26076,8 @@ namespace OverflowHelper.core
             correctionAdd("Astra zeneca", "AstraZeneca"); // Coronavirus
             correctionAdd("Astrazeneca", "AstraZeneca"); // Coronavirus
             correctionAdd("Aztrazeneca", "AstraZeneca"); // Coronavirus
+            correctionAdd("AstraGenica", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astrazanica", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -26075,6 +26112,8 @@ namespace OverflowHelper.core
             correctionAdd("Janssen vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Ad26.COV2.S", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Johnson & Johnson COVID-19 vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("J&J shot", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Johnson and Johnson", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
@@ -26100,6 +26139,7 @@ namespace OverflowHelper.core
             correctionAdd("phfizer", "Pfizer"); // Coronavirus
             correctionAdd("pfizer", "Pfizer"); // Coronavirus
             correctionAdd("pfiezer", "Pfizer"); // Coronavirus
+            correctionAdd("pfiser", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -26121,6 +26161,8 @@ namespace OverflowHelper.core
             correctionAdd("phizered", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("pfizered", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pzr", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("phizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("pfiser vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -26158,6 +26200,7 @@ namespace OverflowHelper.core
             correctionAdd("Moderna jab", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("moderma", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Maderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
 
@@ -40392,6 +40435,24 @@ namespace OverflowHelper.core
             URL_Add("ATmega32U4", "https://www.microchip.com/wwwproducts/en/ATmega32U4");
 
             URL_Add("p5.js", "https://en.wikipedia.org/wiki/Processing_(programming_language)#p5.js");
+
+            URL_Add("ATmega16U2", "https://www.microchip.com/wwwproducts/en/ATmega16U2");
+
+            URL_Add("Boris Johnson", "https://en.wikipedia.org/wiki/Boris_Johnson");
+
+            URL_Add("I²S", "https://en.wikipedia.org/wiki/I%C2%B2S");
+
+            URL_Add("Papua New Guinea", "https://en.wikipedia.org/wiki/Papua_New_Guinea");
+
+            URL_Add("algebraically", "https://en.wiktionary.org/wiki/algebraically#Adverb");
+
+            URL_Add("blue", "https://en.wiktionary.org/wiki/blue#Noun");
+
+            URL_Add("green", "https://en.wiktionary.org/wiki/green#Noun");
+
+            URL_Add("purple", "https://en.wiktionary.org/wiki/purple#Noun");
+
+            URL_Add("viewport", "https://en.wiktionary.org/wiki/viewport#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
