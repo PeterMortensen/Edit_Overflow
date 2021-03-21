@@ -23297,6 +23297,8 @@ namespace OverflowHelper.core
 
             correctionAdd("symtom", "symptom");
             correctionAdd("sympthom", "symptom");
+            correctionAdd("synptom", "symptom");
+            correctionAdd("symtums", "symptom");
 
             correctionAdd("vac", "vacuum cleaner");
 
@@ -25884,6 +25886,10 @@ namespace OverflowHelper.core
 
             correctionAdd("warnning", "warning");
 
+            correctionAdd("etiology", "etymology");
+
+            correctionAdd("imposter", "impostor");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26117,6 +26123,7 @@ namespace OverflowHelper.core
             correctionAdd("AztraZeneca-Oxford", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AstraZeneca-Oxford", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Astra Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Astra Zeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -26133,6 +26140,7 @@ namespace OverflowHelper.core
             correctionAdd("Aztrazeneca", "AstraZeneca"); // Coronavirus
             correctionAdd("AstraGenica", "AstraZeneca"); // Coronavirus
             correctionAdd("Astrazanica", "AstraZeneca"); // Coronavirus
+            correctionAdd("astravenica", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -26220,6 +26228,7 @@ namespace OverflowHelper.core
             correctionAdd("pfiser vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("jab of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Biontec vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("pfizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -26274,6 +26283,7 @@ namespace OverflowHelper.core
             correctionAdd("Sinopharm vaccine", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
             correctionAdd("Sinovax", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
             correctionAdd("sinovac's vaccine", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
+            correctionAdd("CoviVac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
 
             correctionAdd("CureVac", "CureVac COVID-19 vaccine"); // Coronavirus
             correctionAdd("Curevac", "CureVac COVID-19 vaccine"); // Coronavirus
@@ -26291,6 +26301,8 @@ namespace OverflowHelper.core
             correctionAdd("pharma", "pharmaceutical");
 
             correctionAdd("flu", "influenza");
+
+            correctionAdd("covaxin", "Covaxin");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -40538,6 +40550,12 @@ namespace OverflowHelper.core
             URL_Add("solely", "https://en.wiktionary.org/wiki/solely#Adverb");
 
             URL_Add("warning", "https://en.wiktionary.org/wiki/warning#Noun");
+
+            URL_Add("etymology", "https://en.wiktionary.org/wiki/etymology#Noun");
+
+            URL_Add("impostor", "https://en.wiktionary.org/wiki/impostor#Noun");
+
+            URL_Add("Covaxin", "https://en.wikipedia.org/wiki/BBV152");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
