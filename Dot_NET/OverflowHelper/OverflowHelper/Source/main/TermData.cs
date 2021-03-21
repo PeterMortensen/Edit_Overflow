@@ -1364,6 +1364,7 @@ namespace OverflowHelper.core
             correctionAdd("QTCreator", "Qt Creator");
             correctionAdd("QtCreater", "Qt Creator");
             correctionAdd("Qt Createor", "Qt Creator");
+            correctionAdd("Qt Designer", "Qt Creator");
 
             correctionAdd("Intellisense", "IntelliSense");
             correctionAdd("intellisense", "IntelliSense");
@@ -9482,6 +9483,7 @@ namespace OverflowHelper.core
             correctionAdd("Everthing", "everything");
             correctionAdd("everithing", "everything");
             correctionAdd("everyhting", "everything");
+            correctionAdd("everythin", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -11819,6 +11821,7 @@ namespace OverflowHelper.core
             correctionAdd("anyyay", "anyway");
             correctionAdd("Anways", "anyway");
             correctionAdd("Anyways", "anyway");
+            correctionAdd("Anyway", "anyway");
 
             correctionAdd("breadbord", "breadboard");
             correctionAdd("Breadbord", "breadboard");
@@ -15701,6 +15704,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recognize", "recognise");
             correctionAdd("reccognize", "recognise");
+            correctionAdd("recogzine", "recognise");
 
             correctionAdd("repeatation", "repetition");
 
@@ -16193,6 +16197,7 @@ namespace OverflowHelper.core
             correctionAdd("shortuct", "shortcut");
             correctionAdd("shortcurt", "shortcut");
             correctionAdd("short-cut", "shortcut");
+            correctionAdd("shorcut", "shortcut");
 
             // --------------------------------------------------------------
             //
@@ -17684,6 +17689,7 @@ namespace OverflowHelper.core
             correctionAdd("sucessfully", "successfully");
             correctionAdd("Succesfully", "successfully");
             correctionAdd("succesfuly", "successfully");
+            correctionAdd("succesefully", "successfully");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -23150,6 +23156,7 @@ namespace OverflowHelper.core
             correctionAdd("BigSur", "macOS v11 (Big Sur)");
             correctionAdd("Bigsur", "macOS v11 (Big Sur)");
             correctionAdd("Big sur", "macOS v11 (Big Sur)");
+            correctionAdd("MacOS 11", "macOS v11 (Big Sur)");
 
             correctionAdd("single core", "single-core");
 
@@ -23267,6 +23274,7 @@ namespace OverflowHelper.core
             correctionAdd("checkboks", "checkbox");
 
             correctionAdd("data sheet", "datasheet");
+            correctionAdd("Datasheet", "datasheet");
 
             correctionAdd("FSTAB", "fstab");
 
@@ -23299,6 +23307,7 @@ namespace OverflowHelper.core
             correctionAdd("sympthom", "symptom");
             correctionAdd("synptom", "symptom");
             correctionAdd("symtums", "symptom");
+            correctionAdd("symtum", "symptom");
 
             correctionAdd("vac", "vacuum cleaner");
 
@@ -23646,6 +23655,7 @@ namespace OverflowHelper.core
 
             correctionAdd("modifed", "modified");
             correctionAdd("modifired", "modified");
+            correctionAdd("modificated", "modified");
 
             correctionAdd("sayed", "said");
 
@@ -25890,6 +25900,27 @@ namespace OverflowHelper.core
 
             correctionAdd("imposter", "impostor");
 
+            correctionAdd("compiz", "Compiz");
+
+            correctionAdd("GenyMotion", "Genymotion");
+            correctionAdd("genymotion", "Genymotion");
+
+            correctionAdd("lircd", "LIRC");
+
+            correctionAdd("thunderbolt", "Thunderbolt");
+
+            correctionAdd("advantagoues", "advantageous");
+
+            correctionAdd("horde", "hoard");
+
+            correctionAdd("invitability", "inevitability");
+
+            correctionAdd("re-compile", "recompile");
+
+            correctionAdd("tbqh", "to be quite honest");
+
+            correctionAdd("utopical", "utopic");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26124,6 +26155,7 @@ namespace OverflowHelper.core
             correctionAdd("AstraZeneca-Oxford", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Astra Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Astra Zeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Oxford Astra", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -40556,6 +40588,26 @@ namespace OverflowHelper.core
             URL_Add("impostor", "https://en.wiktionary.org/wiki/impostor#Noun");
 
             URL_Add("Covaxin", "https://en.wikipedia.org/wiki/BBV152");
+
+            URL_Add("Compiz", "https://en.wikipedia.org/wiki/Compiz");
+
+            URL_Add("Genymotion", "https://stackoverflow.com/tags/genymotion/info");
+
+            URL_Add("LIRC", "https://en.wikipedia.org/wiki/LIRC");
+
+            URL_Add("Thunderbolt", "https://en.wikipedia.org/wiki/Thunderbolt_(interface)");
+
+            URL_Add("advantageous", "https://en.wiktionary.org/wiki/advantageous#Adjective");
+
+            URL_Add("hoard", "https://en.wiktionary.org/wiki/hoard#Verb");
+
+            URL_Add("inevitability", "https://en.wiktionary.org/wiki/inevitability#Noun");
+
+            URL_Add("recompile", "https://en.wiktionary.org/wiki/recompile#Verb");
+
+            URL_Add("to be quite honest", "https://en.wiktionary.org/wiki/tbqh#Phrase");
+
+            URL_Add("utopic", "https://en.wiktionary.org/wiki/utopic#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
