@@ -5770,6 +5770,7 @@ namespace OverflowHelper.core
             correctionAdd("Rasberry", "Raspberry Pi");
             correctionAdd("RaspBerryPi", "Raspberry Pi");
             correctionAdd("Rapserry pi", "Raspberry Pi");
+            correctionAdd("Raspi Pi", "Raspberry Pi");
 
             correctionAdd("gps", "GPS");
             correctionAdd("Gps", "GPS");
@@ -9395,6 +9396,7 @@ namespace OverflowHelper.core
             correctionAdd("automaticaly", "automatically");
             correctionAdd("automaitcally", "automatically");
             correctionAdd("automnatically", "automatically");
+            correctionAdd("otomatically", "automatically");
 
             correctionAdd("Compatability", "compatibility"); // Common misspelling...
             correctionAdd("compatability", "compatibility"); // Common misspelling...
@@ -22225,6 +22227,7 @@ namespace OverflowHelper.core
             correctionAdd("Coupling", "coupling");
 
             correctionAdd("fall back", "fallback");
+            correctionAdd("fall-back", "fallback");
 
             correctionAdd("introducted", "introduced");
 
@@ -25921,6 +25924,8 @@ namespace OverflowHelper.core
             correctionAdd("tbqh", "to be quite honest");
 
             correctionAdd("utopical", "utopic");
+
+            correctionAdd("Zmodem", "ZMODEM");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40611,6 +40616,8 @@ namespace OverflowHelper.core
             URL_Add("utopic", "https://en.wiktionary.org/wiki/utopic#Adjective");
 
             URL_Add("DC", "https://en.wikipedia.org/wiki/Direct_current");
+
+            URL_Add("ZMODEM", "https://en.wikipedia.org/wiki/ZMODEM");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
