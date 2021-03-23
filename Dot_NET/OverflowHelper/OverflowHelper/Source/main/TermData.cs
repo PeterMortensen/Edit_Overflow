@@ -6775,6 +6775,8 @@ namespace OverflowHelper.core
             correctionAdd("functuion", "function");
             correctionAdd("Funcion", "function");
             correctionAdd("fiunction", "function");
+            correctionAdd("sub routine", "function");
+            correctionAdd("subroutine", "function");
 
             correctionAdd("wavefunction", "wave function");
 
@@ -11034,6 +11036,7 @@ namespace OverflowHelper.core
             correctionAdd("initialze", "initialise");
             correctionAdd("inialize", "initialise");
             correctionAdd("initailise", "initialise");
+            correctionAdd("initiliaze", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -11290,6 +11293,7 @@ namespace OverflowHelper.core
             correctionAdd("carefull", "careful");
             correctionAdd("carrefull", "careful");
             correctionAdd("carreful", "careful");
+            correctionAdd("carefuly", "careful");
 
             correctionAdd("parti", "party");
 
@@ -12207,6 +12211,10 @@ namespace OverflowHelper.core
             correctionAdd("bidimentional", "two-dimensional");
             correctionAdd("two dimentional", "two-dimensional");
             correctionAdd("two dimensional", "two-dimensional");
+            correctionAdd("2-dimensional", "two-dimensional");
+            correctionAdd("Two dimensional", "two-dimensional");
+            correctionAdd("2 dimensional", "two-dimensional");
+            correctionAdd("2 dim", "two-dimensional");
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
@@ -12509,6 +12517,7 @@ namespace OverflowHelper.core
 
             correctionAdd("you ll", "you'll");
             correctionAdd("youll", "you'll");
+            correctionAdd("you'l", "you'll");
 
             correctionAdd("APOLLO", "Apollo");
 
@@ -19404,6 +19413,7 @@ namespace OverflowHelper.core
 
             correctionAdd("complie", "compile");
             correctionAdd("complile", "compile");
+            correctionAdd("coompile", "compile");
 
             correctionAdd("detialed", "detailed");
 
@@ -19842,6 +19852,7 @@ namespace OverflowHelper.core
             correctionAdd("msan", "mean");
 
             correctionAdd("mught", "might");
+            correctionAdd("migh", "might");
 
             correctionAdd("SBC", "single-board computer");
 
@@ -25926,6 +25937,22 @@ namespace OverflowHelper.core
             correctionAdd("utopical", "utopic");
 
             correctionAdd("Zmodem", "ZMODEM");
+
+            correctionAdd("codding", "coding");
+
+            correctionAdd("controversion", "controversy");
+
+            correctionAdd("post doc", "postdoc");
+            correctionAdd("Post-Doc", "postdoc");
+            correctionAdd("post-doc", "postdoc");
+
+            correctionAdd("re-assign", "reassign");
+
+            correctionAdd("re-declare", "redeclare");
+
+            correctionAdd("re-initiliaze", "reinitialise");
+
+            correctionAdd("spedifies", "specifies");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40618,6 +40645,20 @@ namespace OverflowHelper.core
             URL_Add("DC", "https://en.wikipedia.org/wiki/Direct_current");
 
             URL_Add("ZMODEM", "https://en.wikipedia.org/wiki/ZMODEM");
+
+            URL_Add("coding", "https://en.wiktionary.org/wiki/coding#Verb");
+
+            URL_Add("controversy", "https://en.wiktionary.org/wiki/controversy#Noun");
+
+            URL_Add("postdoc", "https://en.wikipedia.org/wiki/Postdoctoral_researcher");
+
+            URL_Add("reassign", "https://en.wiktionary.org/wiki/reassign#Verb");
+
+            URL_Add("redeclare", "https://en.wiktionary.org/wiki/redeclare#Verb");
+
+            URL_Add("reinitialise", "https://en.wiktionary.org/wiki/reinitialise#Verb");
+
+            URL_Add("specifies", "https://en.wiktionary.org/wiki/specify#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
