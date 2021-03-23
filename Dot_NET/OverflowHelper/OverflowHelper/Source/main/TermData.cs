@@ -5660,8 +5660,8 @@ namespace OverflowHelper.core
             correctionAdd("gang of four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("GoF book", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
 
-            correctionAdd("DC", "domain controller"); // Expansion. Direct collision with direct current.
-            correctionAdd("dc", "domain controller"); // Expansion
+            correctionAdd("dc", "DC"); // Note: Collision with "domain controller" (Windows Server).
+
             correctionAdd("Domain Controller", "domain controller");
             correctionAdd("Domain controller", "domain controller");
             correctionAdd("d/c", "domain controller");
@@ -21173,8 +21173,9 @@ namespace OverflowHelper.core
             correctionAdd("frontend", "front end");
             correctionAdd("FrontEnd", "front end");
 
-            correctionAdd("tkl", "tenkeyless"); // Mechanical keyboards
-            correctionAdd("TKL", "tenkeyless"); // Mechanical keyboards
+            correctionAdd("tkl", "tenkeyless (80%)"); // Mechanical keyboards
+            correctionAdd("TKL", "tenkeyless (80%)"); // Mechanical keyboards
+            correctionAdd("tenkeyless", "tenkeyless (80%)"); // Mechanical keyboards
 
             correctionAdd("Cambridge analytic", "Cambridge Analytica");
 
@@ -27762,7 +27763,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Server 2003", "https://en.wikipedia.org/wiki/Windows_Server_2003");
 
-            URL_Add("Exchange Server 2003", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003");
+            URL_Add("Exchange Server 2003", "https://en.wikipedia.org/wiki/History_of_Microsoft_Exchange_Server#Exchange_Server_2003"); // Old: https://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003
 
             URL_Add("SHA-256", "https://en.wikipedia.org/wiki/SHA-2");
 
@@ -27798,7 +27799,7 @@ namespace OverflowHelper.core
 
             URL_Add("Arch Linux", "https://en.wikipedia.org/wiki/Arch_Linux");
 
-            URL_Add("Pacman", "https://en.wikipedia.org/wiki/Pacman_%28package_manager%29");
+            URL_Add("Pacman", "https://en.wikipedia.org/wiki/Arch_Linux#Pacman"); // Old: https://en.wikipedia.org/wiki/Pacman_%28package_manager%29
 
             URL_Add("grep", "https://en.wikipedia.org/wiki/Grep");
 
@@ -29062,7 +29063,7 @@ namespace OverflowHelper.core
 
             URL_Add("following", "https://en.wiktionary.org/wiki/following#Noun");
 
-            URL_Add("thought", "https://en.wiktionary.org/wiki/thought");
+            URL_Add("thought", "https://en.wiktionary.org/wiki/thought#Verb"); // Old: https://en.wiktionary.org/wiki/thought
 
             URL_Add("IDL", "https://en.wikipedia.org/wiki/IDL_%28programming_language%29");
 
@@ -30828,7 +30829,7 @@ namespace OverflowHelper.core
 
             URL_Add("Catch-22", "https://en.wiktionary.org/wiki/Catch-22#Noun");
 
-            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspbian#Version_history");
+            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
 
             URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
 
@@ -33791,7 +33792,7 @@ namespace OverflowHelper.core
 
             URL_Add("usability", "https://en.wiktionary.org/wiki/usability#Noun");
 
-            URL_Add("COVID-19", "https://en.wikipedia.org/wiki/Coronavirus_disease_2019");
+            URL_Add("COVID-19", "https://en.wikipedia.org/wiki/COVID-19"); // Old: https://en.wikipedia.org/wiki/Coronavirus_disease_2019
 
             URL_Add("emphasising", "https://en.wiktionary.org/wiki/emphasise#English");
 
@@ -36907,7 +36908,7 @@ namespace OverflowHelper.core
 
             URL_Add("front end", "https://en.wiktionary.org/wiki/front_end#English");
 
-            URL_Add("tenkeyless", "https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=27");
+            URL_Add("tenkeyless (80%)", "https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=27");
 
             URL_Add("Cambridge Analytica", "https://en.wikipedia.org/wiki/Cambridge_Analytica");
 
@@ -40608,6 +40609,8 @@ namespace OverflowHelper.core
             URL_Add("to be quite honest", "https://en.wiktionary.org/wiki/tbqh#Phrase");
 
             URL_Add("utopic", "https://en.wiktionary.org/wiki/utopic#Adjective");
+
+            URL_Add("DC", "https://en.wikipedia.org/wiki/Direct_current");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
