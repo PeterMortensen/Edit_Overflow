@@ -1742,6 +1742,7 @@ namespace OverflowHelper.core
             correctionAdd("GreaseMonkey", "Greasemonkey");
             correctionAdd("greasmonkey", "Greasemonkey");
             correctionAdd("GM", "Greasemonkey");
+            correctionAdd("Grease Monkey", "Greasemonkey");
 
             correctionAdd("putty", "PuTTY");
             correctionAdd("Putty", "PuTTY");
@@ -3815,6 +3816,8 @@ namespace OverflowHelper.core
             correctionAdd("carracters", "characters");
             correctionAdd("charchter", "characters");
             correctionAdd("charcter", "characters");
+            correctionAdd("characher", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("charachers", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -8646,6 +8649,8 @@ namespace OverflowHelper.core
             correctionAdd("Typesript", "TypeScript");
             correctionAdd("Typscript", "TypeScript");
             correctionAdd("typescrip", "TypeScript");
+            correctionAdd("type Script", "TypeScript");
+            correctionAdd("typeScript", "TypeScript");
 
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
@@ -9958,6 +9963,7 @@ namespace OverflowHelper.core
             correctionAdd("Fore example", "for example");
             correctionAdd("fore example", "for example");
             correctionAdd("eG", "for example");
+            correctionAdd("for exaple", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -9973,6 +9979,7 @@ namespace OverflowHelper.core
             correctionAdd("Exemple", "example");
             correctionAdd("Example", "example");
             correctionAdd("exammple", "example");
+            correctionAdd("exaple", "example");
 
             correctionAdd("european", "European");
 
@@ -10628,6 +10635,7 @@ namespace OverflowHelper.core
             correctionAdd("React.js", "React");
             correctionAdd("REACT.js", "React");
             correctionAdd("REACT", "React");
+            correctionAdd("reactJS", "React");
 
             correctionAdd("dependant", "dependent"); // Common misspelling...
 
@@ -12375,6 +12383,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eigther", "either");
             correctionAdd("eiether", "either");
+            correctionAdd("eighter", "either");
 
             correctionAdd("FPS", "fps");
 
@@ -15122,6 +15131,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lstm", "long short-term memory");
             correctionAdd("LSTM", "long short-term memory");
+            correctionAdd("Long Short Term Memory", "long short-term memory");
 
             correctionAdd("memmory", "memory");
             correctionAdd("Memory", "memory");
@@ -15659,6 +15669,7 @@ namespace OverflowHelper.core
             correctionAdd("oftenly", "often");
 
             correctionAdd("over write", "overwrite");
+            correctionAdd("overwite", "overwrite");
 
             correctionAdd("personnally", "personally");
             correctionAdd("personnaly", "personally");
@@ -15785,6 +15796,7 @@ namespace OverflowHelper.core
             correctionAdd("The Zuck", "Mark Zuckerberg");
             correctionAdd("Zuckenberg", "Mark Zuckerberg");
             correctionAdd("Zuckerberg", "Mark Zuckerberg");
+            correctionAdd("Zuckerbook", "Mark Zuckerberg");
 
             correctionAdd("office space", "Office Space");
 
@@ -16784,6 +16796,7 @@ namespace OverflowHelper.core
             correctionAdd("queens gambit", "Queen's Gambit"); // Chess
 
             correctionAdd("arma", "Armageddon"); // Chess
+            correctionAdd("armageddon", "Armageddon"); // Chess
 
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
             correctionAdd("alekhins defence", "Alekhine's Defence"); // Chess
@@ -17732,6 +17745,7 @@ namespace OverflowHelper.core
             correctionAdd("attemp", "attempt");
 
             correctionAdd("code base", "codebase");
+            correctionAdd("code-base", "codebase");
 
             correctionAdd("Design pattern", "design pattern");
 
@@ -20340,6 +20354,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sirious", "serious");
             correctionAdd("series", "serious");
+            correctionAdd("sirius", "serious");
+            correctionAdd("siris", "serious");
 
             correctionAdd("siriously", "seriously");
             correctionAdd("Seriosuly", "seriously");
@@ -20759,6 +20775,7 @@ namespace OverflowHelper.core
 
             correctionAdd("retrocomputing", "Retrocomputing (Stack Exchange site)");
             correctionAdd("retro computing", "Retrocomputing (Stack Exchange site)");
+            correctionAdd("Retrocomputing", "Retrocomputing (Stack Exchange site)");
 
             correctionAdd("Symantec endpoint protection", "Symantec Endpoint Protection");
 
@@ -25325,6 +25342,7 @@ namespace OverflowHelper.core
             correctionAdd("conatians", "contains");
 
             correctionAdd("LHS", "left-hand side");
+            correctionAdd("left hand side", "left-hand side");
 
             correctionAdd("mispelling", "misspelling");
 
@@ -25954,6 +25972,37 @@ namespace OverflowHelper.core
 
             correctionAdd("spedifies", "specifies");
 
+            correctionAdd("catholic", "Catholic");
+
+            correctionAdd("catholicism", "Catholicism");
+
+            correctionAdd("protestantism", "Protestantism");
+
+            correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
+
+            correctionAdd("shia", "Shia");
+
+            correctionAdd("sunni", "Sunni");
+
+            correctionAdd("eachother", "each other");
+
+            correctionAdd("expasion", "expansion");
+
+            correctionAdd("fund rising", "fundraising");
+
+            correctionAdd("on the mood", "in the mood");
+
+            correctionAdd("inputing", "inputting");
+
+            correctionAdd("mistankenly", "mistakenly");
+
+            correctionAdd("painfull", "painful");
+
+            correctionAdd("subj", "subject");
+
+            correctionAdd("trooth", "truth");
+            correctionAdd("Trooth", "truth");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26268,6 +26317,7 @@ namespace OverflowHelper.core
             correctionAdd("pfizer", "Pfizer"); // Coronavirus
             correctionAdd("pfiezer", "Pfizer"); // Coronavirus
             correctionAdd("pfiser", "Pfizer"); // Coronavirus
+            correctionAdd("Pfyzer", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -40659,6 +40709,36 @@ namespace OverflowHelper.core
             URL_Add("reinitialise", "https://en.wiktionary.org/wiki/reinitialise#Verb");
 
             URL_Add("specifies", "https://en.wiktionary.org/wiki/specify#Verb");
+
+            URL_Add("Catholic", "https://en.wiktionary.org/wiki/Catholic#Adjective");
+
+            URL_Add("Catholicism", "https://en.wiktionary.org/wiki/Catholicism#Noun");
+
+            URL_Add("Protestantism", "https://en.wiktionary.org/wiki/Protestantism#Noun");
+
+            URL_Add("Puzzling (Stack Exchange site)", "https://puzzling.stackexchange.com/tour");
+
+            URL_Add("Shia", "https://en.wikipedia.org/wiki/Shia_Islam");
+
+            URL_Add("Sunni", "https://en.wikipedia.org/wiki/Sunni_Islam");
+
+            URL_Add("each other", "https://en.wiktionary.org/wiki/each_other#Pronoun");
+
+            URL_Add("expansion", "https://en.wiktionary.org/wiki/expansion#Noun");
+
+            URL_Add("fundraising", "https://en.wiktionary.org/wiki/fundraising#Noun");
+
+            URL_Add("in the mood", "https://en.wiktionary.org/wiki/in_the_mood#Prepositional_phrase");
+
+            URL_Add("inputting", "https://en.wiktionary.org/wiki/input#Verb");
+
+            URL_Add("mistakenly", "https://en.wiktionary.org/wiki/mistakenly#Adverb");
+
+            URL_Add("painful", "https://en.wiktionary.org/wiki/painful#Adjective");
+
+            URL_Add("subject", "https://en.wiktionary.org/wiki/subject#Noun");
+
+            URL_Add("truth", "https://en.wiktionary.org/wiki/truth#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
