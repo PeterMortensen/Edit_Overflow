@@ -4813,6 +4813,7 @@ namespace OverflowHelper.core
             correctionAdd("whch", "which");
             correctionAdd("woch", "which");
             correctionAdd("whidh", "which");
+            correctionAdd("Wich", "which");
 
             correctionAdd("fiddler", "Fiddler");
 
@@ -7213,6 +7214,7 @@ namespace OverflowHelper.core
             correctionAdd("ubunbtu", "Ubuntu");
             correctionAdd("Ubunbtu", "Ubuntu");
             correctionAdd("ubntu", "Ubuntu");
+            correctionAdd("Buguntu", "Ubuntu");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -15167,6 +15169,7 @@ namespace OverflowHelper.core
             correctionAdd("spellchecker", "spell checker");
             correctionAdd("spell ckecker", "spell checker");
             correctionAdd("spellckecker", "spell checker");
+            correctionAdd("Spell checker", "spell checker");
 
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
@@ -15212,6 +15215,7 @@ namespace OverflowHelper.core
             correctionAdd("brian kernighan", "Brian Kernighan");
 
             correctionAdd("cinnamon", "Cinnamon");
+            correctionAdd("Cinnemon", "Cinnamon");
 
             correctionAdd("euclidean", "Euclidean");
 
@@ -15598,6 +15602,13 @@ namespace OverflowHelper.core
             correctionAdd("gtk#", "Gtk#");
 
             correctionAdd("Linux MX", "MX Linux");
+            correctionAdd("MX-Linux", "MX Linux");
+            correctionAdd("MXLinux", "MX Linux");
+            correctionAdd("mxlinux", "MX Linux");
+            correctionAdd("mx linux", "MX Linux");
+            correctionAdd("MX linux", "MX Linux");
+            correctionAdd("Mx Linux", "MX Linux");
+            correctionAdd("MxLinux", "MX Linux");
 
             correctionAdd("Paint", "Microsoft Paint");
             correctionAdd("MSpaint", "Microsoft Paint");
@@ -15631,6 +15642,8 @@ namespace OverflowHelper.core
             correctionAdd("xfce", "Xfce");
             correctionAdd("XFCE", "Xfce");
             correctionAdd("fxce", "Xfce");
+            correctionAdd("XCFE", "Xfce");
+            correctionAdd("xcfe", "Xfce");
 
             correctionAdd("accompyning", "accompanying");
 
@@ -16180,6 +16193,8 @@ namespace OverflowHelper.core
             correctionAdd("light waight", "lightweight");
             correctionAdd("light weight", "lightweight");
             correctionAdd("ligthweight", "lightweight");
+            correctionAdd("Lightweigth", "lightweight");
+            correctionAdd("lightweigth", "lightweight");
 
             correctionAdd("obcessive", "obsessive");
 
@@ -18245,6 +18260,7 @@ namespace OverflowHelper.core
             correctionAdd("iv", "I’ve");
             correctionAdd("I'v", "I’ve");
             correctionAdd("I´ve", "I’ve");
+            correctionAdd("Iv", "I’ve");
 
             correctionAdd("msc", "Master of Science");
             correctionAdd("Msc", "Master of Science");
@@ -19211,6 +19227,8 @@ namespace OverflowHelper.core
             correctionAdd("thje", "the");
             correctionAdd("Thw", "the");
             correctionAdd("thw", "the");
+            correctionAdd("Thi", "the");
+            correctionAdd("thi", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -26003,6 +26021,22 @@ namespace OverflowHelper.core
             correctionAdd("trooth", "truth");
             correctionAdd("Trooth", "truth");
 
+            correctionAdd("Colerado", "Colorado");
+
+            correctionAdd("itv", "ITV");
+
+            correctionAdd("xed", "Xed");
+
+            correctionAdd("antromorphic", "anthropomorphic");
+
+            correctionAdd("change log", "changelog");
+
+            correctionAdd("illinformed", "ill-informed");
+
+            correctionAdd("lovley", "lovely");
+
+            correctionAdd("prevalance", "prevalence");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26107,7 +26141,8 @@ namespace OverflowHelper.core
             correctionAdd("vxin", "vaccine"); // Coronavirus
             correctionAdd("vxins", "vaccine"); // Coronavirus
             correctionAdd("Vaccin", "vaccine"); // Coronavirus
-            correctionAdd("viccene", "vaccine");
+            correctionAdd("viccene", "vaccine"); // Coronavirus
+            correctionAdd("vacine", "vaccine"); // Coronavirus
 
             correctionAdd("vacination", "vaccination"); // Coronavirus
             correctionAdd("Vacination", "vaccination"); // Coronavirus
@@ -26255,6 +26290,7 @@ namespace OverflowHelper.core
             correctionAdd("AstraGenica", "AstraZeneca"); // Coronavirus
             correctionAdd("Astrazanica", "AstraZeneca"); // Coronavirus
             correctionAdd("astravenica", "AstraZeneca"); // Coronavirus
+            correctionAdd("Astra zenica", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -26318,6 +26354,8 @@ namespace OverflowHelper.core
             correctionAdd("pfiezer", "Pfizer"); // Coronavirus
             correctionAdd("pfiser", "Pfizer"); // Coronavirus
             correctionAdd("Pfyzer", "Pfizer"); // Coronavirus
+            correctionAdd("Pziezer", "Pfizer"); // Coronavirus
+            correctionAdd("phyzer", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -40739,6 +40777,22 @@ namespace OverflowHelper.core
             URL_Add("subject", "https://en.wiktionary.org/wiki/subject#Noun");
 
             URL_Add("truth", "https://en.wiktionary.org/wiki/truth#Noun");
+
+            URL_Add("Colorado", "https://en.wikipedia.org/wiki/Colorado");
+
+            URL_Add("ITV", "https://en.wikipedia.org/wiki/ITV_(TV_network)");
+
+            URL_Add("Xed", "https://en.wikipedia.org/wiki/Xed");
+
+            URL_Add("anthropomorphic", "https://en.wiktionary.org/wiki/anthropomorphic#Adjective");
+
+            URL_Add("changelog", "https://en.wiktionary.org/wiki/changelog#Noun");
+
+            URL_Add("ill-informed", "https://en.wiktionary.org/wiki/ill-informed#Adjective");
+
+            URL_Add("lovely", "https://en.wiktionary.org/wiki/lovely#Adjective");
+
+            URL_Add("prevalence", "https://en.wiktionary.org/wiki/prevalence#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
