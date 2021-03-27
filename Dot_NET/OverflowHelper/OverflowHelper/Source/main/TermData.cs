@@ -1530,6 +1530,7 @@ namespace OverflowHelper.core
             correctionAdd("powerShell", "PowerShell");
             correctionAdd("POsh", "PowerShell");
             correctionAdd("powsershell", "PowerShell");
+            correctionAdd("PoweShell", "PowerShell");
 
             correctionAdd("Expression blend", "Expression Blend");
             correctionAdd("blend", "Expression Blend");
@@ -4451,6 +4452,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gnome", "GNOME");
             correctionAdd("Gnome", "GNOME");
+            correctionAdd("Gmome", "GNOME");
 
             correctionAdd("avd", "Android Virtual Device"); // Expansion. AVD.
 
@@ -14909,6 +14911,8 @@ namespace OverflowHelper.core
             correctionAdd("Git gui", "Git GUI");
             correctionAdd("git-gui", "Git GUI");
             correctionAdd("GIT GUI", "Git GUI");
+            correctionAdd("git gui", "Git GUI");
+            correctionAdd("gitgui", "Git GUI");
 
             correctionAdd("ksh", "KornShell");
             correctionAdd("korn shell", "KornShell");
@@ -15644,6 +15648,7 @@ namespace OverflowHelper.core
             correctionAdd("fxce", "Xfce");
             correctionAdd("XCFE", "Xfce");
             correctionAdd("xcfe", "Xfce");
+            correctionAdd("XFce", "Xfce");
 
             correctionAdd("accompyning", "accompanying");
 
@@ -20761,6 +20766,7 @@ namespace OverflowHelper.core
             correctionAdd("sim card", "SIM card");
 
             correctionAdd("south america", "South America");
+            correctionAdd("south America", "South America");
 
             correctionAdd("tuesday", "Tuesday");
 
@@ -26036,6 +26042,16 @@ namespace OverflowHelper.core
             correctionAdd("lovley", "lovely");
 
             correctionAdd("prevalance", "prevalence");
+
+            correctionAdd("AMP", "Accelerated Mobile Pages");
+
+            correctionAdd("WAMPSERVER", "WampServer");
+
+            correctionAdd("in two minds", "of two minds");
+            correctionAdd("in 2 minds", "of two minds");
+
+            correctionAdd("semi-conductor", "semiconductor");
+            correctionAdd("semi conductor", "semiconductor");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40793,6 +40809,14 @@ namespace OverflowHelper.core
             URL_Add("lovely", "https://en.wiktionary.org/wiki/lovely#Adjective");
 
             URL_Add("prevalence", "https://en.wiktionary.org/wiki/prevalence#Noun");
+
+            URL_Add("Accelerated Mobile Pages", "https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages");
+
+            URL_Add("WampServer", "https://en.wikipedia.org/wiki/WampServer");
+
+            URL_Add("of two minds", "https://en.wiktionary.org/wiki/of_two_minds#Prepositional_phrase");
+
+            URL_Add("semiconductor", "https://en.wikipedia.org/wiki/Semiconductor");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
