@@ -433,26 +433,6 @@ namespace OverflowHelper.core
             correctionAdd("JAVA Script", "JavaScript");
             correctionAdd("JAVAScript", "JavaScript");
 
-            correctionAdd("jquery", "jQuery");
-            correctionAdd("JQuery", "jQuery");
-            correctionAdd("Jquery", "jQuery");
-            correctionAdd("JQUERY", "jQuery");
-            correctionAdd("JQUery", "jQuery"); // In an email...
-            correctionAdd("Jquey", "jQuery");
-            correctionAdd("j-query", "jQuery");
-            correctionAdd("Jquer", "jQuery"); // Misspelling.
-            correctionAdd("jquey", "jQuery"); // Misspelling.
-            correctionAdd("j query", "jQuery");
-            correctionAdd("JQ", "jQuery");
-            correctionAdd("JQueru", "jQuery"); // Misspelling.
-            correctionAdd("Juery", "jQuery"); // Misspelling.
-            correctionAdd("jqury", "jQuery"); // Misspelling.
-            correctionAdd("jquary", "jQuery"); // Misspelling.
-            correctionAdd("jQery", "jQuery"); // Misspelling.
-            correctionAdd("jqyery", "jQuery"); // Misspelling.
-            correctionAdd("jQuory", "jQuery");
-            correctionAdd("jqery", "jQuery");
-
             correctionAdd("Jquery-UI", "jQuery UI");
             correctionAdd("jquery ui", "jQuery UI");
             correctionAdd("jquery-ui", "jQuery UI");
@@ -3336,6 +3316,8 @@ namespace OverflowHelper.core
             correctionAdd("octave", "Octave");
             correctionAdd("OCTAVE", "Octave");
             correctionAdd("Ocatve", "Octave");
+            correctionAdd("GNU octave", "Octave");
+            correctionAdd("GNU Octave", "Octave");
 
             correctionAdd("apps", "application"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("Apps", "application"); // Plural, to avoid nearly duplicate entries.
@@ -4947,6 +4929,7 @@ namespace OverflowHelper.core
             correctionAdd("Blue Screen of Death", "BSoD");
 
             correctionAdd("lynx", "Lynx");
+            correctionAdd("LYNX", "Lynx");
 
             correctionAdd("PM", "project management"); // PM is an overloaded term...
 
@@ -6050,6 +6033,7 @@ namespace OverflowHelper.core
             correctionAdd("exe file", "EXE file");
 
             correctionAdd("simulink", "Simulink");
+            correctionAdd("SIMULINK", "Simulink");
 
             correctionAdd("url-encoding", "URL encoding");
             correctionAdd("URLencoded", "URL encoding"); // Not 100% correct.
@@ -7019,6 +7003,8 @@ namespace OverflowHelper.core
             correctionAdd("paralel", "parallel");
             correctionAdd("parallell", "parallel");
             correctionAdd("parralel", "parallel");
+            correctionAdd("pareller", "parallel");
+            correctionAdd("paraller", "parallel");
 
             correctionAdd("frontpage", "FrontPage");
 
@@ -7037,11 +7023,6 @@ namespace OverflowHelper.core
 
             correctionAdd("relete", "relate");
             correctionAdd("releted", "relate"); // Not 100% correct - word type.
-
-            correctionAdd("Bigquery", "BigQuery");
-            correctionAdd("bigquery", "BigQuery");
-            correctionAdd("bq", "BigQuery");
-            correctionAdd("BQ", "BigQuery");
 
             correctionAdd("google storage", "Google Storage");
             correctionAdd("Google storage", "Google Storage");
@@ -10687,6 +10668,8 @@ namespace OverflowHelper.core
             correctionAdd("portuguese", "Portuguese");
             correctionAdd("Purtiguise", "Portuguese");
             correctionAdd("Portugese", "Portuguese");
+            correctionAdd("Portuguise", "Portuguese");
+            correctionAdd("portuguise", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
 
@@ -19273,7 +19256,33 @@ namespace OverflowHelper.core
 
             correctionAdd("querys", "queries");
 
+            correctionAdd("jquery", "jQuery");
+            correctionAdd("JQuery", "jQuery");
+            correctionAdd("Jquery", "jQuery");
+            correctionAdd("JQUERY", "jQuery");
+            correctionAdd("JQUery", "jQuery"); // In an email...
+            correctionAdd("Jquey", "jQuery");
+            correctionAdd("j-query", "jQuery");
+            correctionAdd("Jquer", "jQuery"); // Misspelling.
+            correctionAdd("jquey", "jQuery"); // Misspelling.
+            correctionAdd("j query", "jQuery");
+            correctionAdd("JQ", "jQuery");
+            correctionAdd("JQueru", "jQuery"); // Misspelling.
+            correctionAdd("Juery", "jQuery"); // Misspelling.
+            correctionAdd("jqury", "jQuery"); // Misspelling.
+            correctionAdd("jquary", "jQuery"); // Misspelling.
+            correctionAdd("jQery", "jQuery"); // Misspelling.
+            correctionAdd("jqyery", "jQuery"); // Misspelling.
+            correctionAdd("jQuory", "jQuery");
+            correctionAdd("jqery", "jQuery");
+
+            correctionAdd("Bigquery", "BigQuery");
+            correctionAdd("bigquery", "BigQuery");
+            correctionAdd("bq", "BigQuery");
+            correctionAdd("BQ", "BigQuery");
+
             correctionAdd("Query", "query");
+            correctionAdd("queri", "query");
 
             correctionAdd("realize", "realise");
             correctionAdd("reilize", "realise");
@@ -20640,6 +20649,7 @@ namespace OverflowHelper.core
 
             correctionAdd("WWW", "World Wide Web");
             correctionAdd("www", "World Wide Web");
+            correctionAdd("world wide web", "World Wide Web");
 
             correctionAdd("cameleon", "chameleon");
             correctionAdd("chemeleon", "chameleon");
@@ -22223,6 +22233,8 @@ namespace OverflowHelper.core
             correctionAdd("Dr. Fauchi", "Dr. Fauci");
             correctionAdd("fauci", "Dr. Fauci");
             correctionAdd("Fauci", "Dr. Fauci");
+            correctionAdd("Dr fochi", "Dr. Fauci");
+            correctionAdd("fochi", "Dr. Fauci");
 
             correctionAdd("microweber", "Microweber");
 
@@ -22729,6 +22741,7 @@ namespace OverflowHelper.core
             correctionAdd("permanantly", "permanently");
             correctionAdd("permentantly", "permanently");
             correctionAdd("permantantly", "permanently");
+            correctionAdd("permentaly", "permanently");
 
             correctionAdd("reveiled", "revealed");
 
@@ -24319,8 +24332,6 @@ namespace OverflowHelper.core
             correctionAdd("non-initialized", "noninitialized");
             correctionAdd("non-initialised", "noninitialized");
             correctionAdd("Non initialised", "noninitialized");
-
-            correctionAdd("racecondition", "race condition");
 
             correctionAdd("rational", "rationale");
 
@@ -26053,6 +26064,39 @@ namespace OverflowHelper.core
             correctionAdd("semi-conductor", "semiconductor");
             correctionAdd("semi conductor", "semiconductor");
 
+            correctionAdd("DomainMath", "DomainMath IDE");
+
+            correctionAdd("perseverance", "Perseverance");
+
+            correctionAdd("portugal", "Portugal");
+
+            correctionAdd("azimut", "azimuth");
+
+            correctionAdd("racecondition", "race condition");
+
+            correctionAdd("conditon", "condition");
+            correctionAdd("coniditon", "condition");
+
+            correctionAdd("earth rays", "earth radiation");
+
+            correctionAdd("new", "knew");
+
+            correctionAdd("learn-able", "learnable");
+
+            correctionAdd("mad", "made");
+
+            correctionAdd("Neuron", "neuron");
+
+            correctionAdd("photo diode", "photodiode");
+
+            correctionAdd("suze", "size");
+
+            correctionAdd("sizable", "sizeable");
+
+            correctionAdd("superiour", "superior");
+
+            correctionAdd("transmissibilty", "transmissibility");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26215,6 +26259,7 @@ namespace OverflowHelper.core
             correctionAdd("vit-D", "vitamin D"); // Coronavirus
             correctionAdd("vit-d", "vitamin D"); // Coronavirus
             correctionAdd("vitamind", "vitamin D"); // Coronavirus
+            correctionAdd("VITAMIN D", "vitamin D");
 
             correctionAdd("AZ vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("AZ/Oxford vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
@@ -26289,6 +26334,7 @@ namespace OverflowHelper.core
             correctionAdd("Oxford Astra Zeneca", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Astra Zeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Astra", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astrazenica jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -26343,6 +26389,8 @@ namespace OverflowHelper.core
             correctionAdd("Johnson & Johnson COVID-19 vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("J&J shot", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
             correctionAdd("Johnson and Johnson", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("Jenssen vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
+            correctionAdd("JJ Jassen vaccine", "Johnson & Johnson COVID-19 vaccine (Ad26.COV2.S)"); // Coronavirus
 
             correctionAdd("Ivermectin", "ivermectin"); // Coronavirus
             correctionAdd("INTERMECTIM", "ivermectin"); // Coronavirus
@@ -26372,6 +26420,7 @@ namespace OverflowHelper.core
             correctionAdd("Pfyzer", "Pfizer"); // Coronavirus
             correctionAdd("Pziezer", "Pfizer"); // Coronavirus
             correctionAdd("phyzer", "Pfizer"); // Coronavirus
+            correctionAdd("plizfer", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -26398,6 +26447,7 @@ namespace OverflowHelper.core
             correctionAdd("jab of Pfizer", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Biontec vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("pfizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -26472,6 +26522,12 @@ namespace OverflowHelper.core
             correctionAdd("flu", "influenza");
 
             correctionAdd("covaxin", "Covaxin");
+
+            correctionAdd("SARS 2", "SARS-COV2");
+            correctionAdd("sar-cov2", "SARS-COV2");
+            correctionAdd("sars-cov2", "SARS-COV2");
+            correctionAdd("sars2", "SARS-COV2");
+            correctionAdd("sars 2", "SARS-COV2");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -40817,6 +40873,38 @@ namespace OverflowHelper.core
             URL_Add("of two minds", "https://en.wiktionary.org/wiki/of_two_minds#Prepositional_phrase");
 
             URL_Add("semiconductor", "https://en.wikipedia.org/wiki/Semiconductor");
+
+            URL_Add("DomainMath IDE", "https://sourceforge.net/p/domainmath/wiki/wiki-home%20/");
+
+            URL_Add("Perseverance", "https://en.wikipedia.org/wiki/Perseverance_(rover)");
+
+            URL_Add("Portugal", "https://en.wikipedia.org/wiki/Portugal");
+
+            URL_Add("azimuth", "https://en.wiktionary.org/wiki/azimuth#Noun");
+
+            URL_Add("condition", "https://en.wiktionary.org/wiki/condition#Noun");
+
+            URL_Add("earth radiation", "https://en.wikipedia.org/wiki/Geopathology");
+
+            URL_Add("knew", "https://en.wiktionary.org/wiki/know#Verb");
+
+            URL_Add("learnable", "https://en.wiktionary.org/wiki/learnable#Adjective");
+
+            URL_Add("made", "https://en.wiktionary.org/wiki/make#Verb");
+
+            URL_Add("neuron", "https://en.wiktionary.org/wiki/neuron#Noun");
+
+            URL_Add("photodiode", "https://en.wikipedia.org/wiki/Photodiode");
+
+            URL_Add("size", "https://en.wiktionary.org/wiki/size#Noun");
+
+            URL_Add("sizeable", "https://en.wiktionary.org/wiki/sizeable#Adjective");
+
+            URL_Add("superior", "https://en.wiktionary.org/wiki/superior#Adjective");
+
+            URL_Add("transmissibility", "https://en.wiktionary.org/wiki/transmissibility#Noun");
+
+            URL_Add("SARS-COV2", "https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
