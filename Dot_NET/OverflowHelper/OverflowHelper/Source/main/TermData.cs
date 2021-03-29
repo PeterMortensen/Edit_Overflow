@@ -8829,6 +8829,10 @@ namespace OverflowHelper.core
             correctionAdd("shottky", "Schottky");
             correctionAdd("Schottkey", "Schottky");
             correctionAdd("SCHOTTKY", "Schottky");
+            correctionAdd("schotsky", "Schottky");
+            correctionAdd("Schotsky", "Schottky");
+            correctionAdd("Schosky", "Schottky");
+            correctionAdd("Schotski", "Schottky");
 
             correctionAdd("doesnt", "doesn’t");
             correctionAdd("doest", "doesn’t");
@@ -11802,6 +11806,9 @@ namespace OverflowHelper.core
             correctionAdd("Responsive design", "responsive web design");
 
             correctionAdd("themself", "themselves");
+            correctionAdd("them selfs", "themselves");
+            correctionAdd("themselfs", "themselves");
+            correctionAdd("themselvs", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -17264,6 +17271,7 @@ namespace OverflowHelper.core
 
             correctionAdd("synaptic", "Synaptic");
             correctionAdd("synaptic package manager", "Synaptic");
+            correctionAdd("Synaptic Package Manager", "Synaptic");
 
             correctionAdd("dedsired", "desired");
             correctionAdd("desire", "desired");
@@ -18589,6 +18597,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Android version 10", "Android&nbsp;10");
             correctionAdd("Android 10", "Android&nbsp;10");
+            correctionAdd("Android Q", "Android&nbsp;10");
+            correctionAdd("Android q", "Android&nbsp;10");
+            correctionAdd("android q", "Android&nbsp;10");
+            correctionAdd("AndroidX", "Android&nbsp;10");
 
             correctionAdd("fasta", "FASTA format");
 
@@ -21960,6 +21972,7 @@ namespace OverflowHelper.core
             correctionAdd("libraties", "library"); // Not 100% correct - plural
             correctionAdd("libary", "library");
             correctionAdd("libaray", "library");
+            correctionAdd("libray", "library");
 
             correctionAdd("libs", "libraries");
             correctionAdd("Libs", "libraries");
@@ -22910,6 +22923,9 @@ namespace OverflowHelper.core
             correctionAdd("low pass filter", "low-pass filter");
             correctionAdd("lowpass", "low-pass filter");
             correctionAdd("lowpass filter", "low-pass filter");
+            correctionAdd("low pass", "low-pass filter");
+            correctionAdd("low-pass", "low-pass filter");
+            correctionAdd("LPF", "low-pass filter");
 
             correctionAdd("micro management", "micromanagement");
 
@@ -26096,6 +26112,16 @@ namespace OverflowHelper.core
             correctionAdd("superiour", "superior");
 
             correctionAdd("transmissibilty", "transmissibility");
+
+            correctionAdd("orwellian", "Orwellian");
+
+            correctionAdd("Ubuntu software center", "Ubuntu Software Center");
+            correctionAdd("usc", "Ubuntu Software Center");
+            correctionAdd("USC", "Ubuntu Software Center");
+            correctionAdd("Software Center", "Ubuntu Software Center");
+            correctionAdd("Ubuntu Software center", "Ubuntu Software Center");
+
+            correctionAdd("insesire", "insincere");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40905,6 +40931,12 @@ namespace OverflowHelper.core
             URL_Add("transmissibility", "https://en.wiktionary.org/wiki/transmissibility#Noun");
 
             URL_Add("SARS-COV2", "https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2");
+
+            URL_Add("Orwellian", "https://en.wikipedia.org/wiki/Orwellian");
+
+            URL_Add("Ubuntu Software Center", "https://en.wikipedia.org/wiki/Ubuntu_Software_Center");
+
+            URL_Add("insincere", "https://en.wiktionary.org/wiki/insincere#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
