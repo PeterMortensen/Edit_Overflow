@@ -11355,6 +11355,8 @@ namespace OverflowHelper.core
 
             correctionAdd("excetpion", "exception");
             correctionAdd("excepetion", "exception");
+            correctionAdd("xeption", "exception");
+            correctionAdd("exeption", "exception");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -12193,6 +12195,11 @@ namespace OverflowHelper.core
 
             correctionAdd("preceede", "precede");
 
+            correctionAdd("de-reference", "dereference");
+            correctionAdd("derefence", "dereference");
+
+            correctionAdd("cross reference", "cross-reference");
+
             correctionAdd("ref", "reference");
             correctionAdd("refernce", "reference");
             correctionAdd("refrence", "reference");
@@ -12206,6 +12213,7 @@ namespace OverflowHelper.core
             correctionAdd("referance", "reference");
             correctionAdd("refence", "reference");
             correctionAdd("referecence", "reference");
+            correctionAdd("referecne", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -12255,6 +12263,7 @@ namespace OverflowHelper.core
 
             correctionAdd("with in", "within");
             correctionAdd("w/in", "within");
+            correctionAdd("withing", "within");
 
             correctionAdd("warry", "worry");
             correctionAdd("wory", "worry");
@@ -13474,6 +13483,7 @@ namespace OverflowHelper.core
             correctionAdd("properities", "properties");
             correctionAdd("properites", "properties");
             correctionAdd("props", "properties");
+            correctionAdd("properies", "properties");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
@@ -13871,9 +13881,6 @@ namespace OverflowHelper.core
             correctionAdd("compliment", "complement");
 
             correctionAdd("Democratic", "democratic");
-
-            correctionAdd("de-reference", "dereference");
-            correctionAdd("derefence", "dereference");
 
             correctionAdd("elgent", "elegant");
 
@@ -16387,6 +16394,7 @@ namespace OverflowHelper.core
             correctionAdd("tryting", "trying");
             correctionAdd("triying", "trying");
             correctionAdd("tring", "trying");
+            correctionAdd("tryin", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -16699,6 +16707,7 @@ namespace OverflowHelper.core
             correctionAdd("Evins Gambit", "Evans Gambit"); // Chess
             correctionAdd("evans Gambit", "Evans Gambit"); // Chess
             correctionAdd("Evens gamit", "Evans Gambit"); // Chess
+            correctionAdd("Evens gambit", "Evans Gambit"); // Chess
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -16955,6 +16964,7 @@ namespace OverflowHelper.core
 
             correctionAdd("matting", "checkmating"); // Chess
             correctionAdd("mating", "checkmating"); // Chess
+            correctionAdd("Check Mated", "checkmating"); // Chess
 
             correctionAdd("Grandelius", "Nils Grandelius"); // Chess
             correctionAdd("grandelius", "Nils Grandelius"); // Chess
@@ -17341,6 +17351,9 @@ namespace OverflowHelper.core
             correctionAdd("April's fools", "April fool");
             correctionAdd("april's fools", "April fool");
             correctionAdd("Aprils fools", "April fool");
+            correctionAdd("april joke", "April fool");
+            correctionAdd("April Fools", "April fool");
+            correctionAdd("April Fool", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -17919,6 +17932,7 @@ namespace OverflowHelper.core
 
             correctionAdd("plattform", "platform");
             correctionAdd("platoform", "platform");
+            correctionAdd("platfrom", "platform");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -17930,8 +17944,6 @@ namespace OverflowHelper.core
             correctionAdd("arround", "around");
 
             correctionAdd("aks", "ask");
-
-            correctionAdd("cross reference", "cross-reference");
 
             correctionAdd("over night", "overnight");
 
@@ -21985,6 +21997,7 @@ namespace OverflowHelper.core
             correctionAdd("nsa", "National Security Agency");
 
             correctionAdd("adaper", "adapter");
+            correctionAdd("adaptor", "adapter");
 
             correctionAdd("cowered", "coward");
 
@@ -26122,6 +26135,17 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Software center", "Ubuntu Software Center");
 
             correctionAdd("insesire", "insincere");
+
+            correctionAdd("nft", "NFT");
+
+            correctionAdd("sigrok", "Sigrok");
+            correctionAdd("sigrock", "Sigrok");
+
+            correctionAdd("idoim", "idiom");
+
+            correctionAdd("timeperiod", "time period");
+
+            correctionAdd("wouldve", "would’ve");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40937,6 +40961,16 @@ namespace OverflowHelper.core
             URL_Add("Ubuntu Software Center", "https://en.wikipedia.org/wiki/Ubuntu_Software_Center");
 
             URL_Add("insincere", "https://en.wiktionary.org/wiki/insincere#Adjective");
+
+            URL_Add("NFT", "https://en.wikipedia.org/wiki/Non-fungible_token#Description");
+
+            URL_Add("Sigrok", "https://sigrok.org/wiki/PulseView");
+
+            URL_Add("idiom", "https://en.wiktionary.org/wiki/idiom#Noun");
+
+            URL_Add("time period", "https://en.wiktionary.org/wiki/time_period#Noun");
+
+            URL_Add("would’ve", "https://en.wiktionary.org/wiki/would%27ve#Contraction");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
