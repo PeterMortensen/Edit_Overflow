@@ -17354,6 +17354,7 @@ namespace OverflowHelper.core
             correctionAdd("april joke", "April fool");
             correctionAdd("April Fools", "April fool");
             correctionAdd("April Fool", "April fool");
+            correctionAdd("april fool", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -26146,6 +26147,14 @@ namespace OverflowHelper.core
             correctionAdd("timeperiod", "time period");
 
             correctionAdd("wouldve", "would’ve");
+
+            correctionAdd("Picoscope", "PicoScope");
+
+            correctionAdd("Rick Ashley", "Rick Astley");
+
+            correctionAdd("failurle", "failure");
+
+            correctionAdd("rick roll", "rickroll");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -40971,6 +40980,14 @@ namespace OverflowHelper.core
             URL_Add("time period", "https://en.wiktionary.org/wiki/time_period#Noun");
 
             URL_Add("would’ve", "https://en.wiktionary.org/wiki/would%27ve#Contraction");
+
+            URL_Add("PicoScope", "https://www.picotech.com/products/oscilloscope");
+
+            URL_Add("Rick Astley", "https://en.wikipedia.org/wiki/Rick_Astley");
+
+            URL_Add("failure", "https://en.wiktionary.org/wiki/failure#Noun");
+
+            URL_Add("rickroll", "https://en.wiktionary.org/wiki/rickroll#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
