@@ -5882,6 +5882,7 @@ namespace OverflowHelper.core
             correctionAdd("bewteen", "between");
             correctionAdd("betwen", "between");
             correctionAdd("bwtween", "between");
+            correctionAdd("betwween", "between");
 
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
@@ -6187,6 +6188,8 @@ namespace OverflowHelper.core
             correctionAdd("ace", "ACE");
 
             correctionAdd("hta", "HTA");
+            correctionAdd("Mshta.exe", "HTA");
+            correctionAdd("MSHTA", "HTA");
 
             correctionAdd("fat32", "FAT32");
             correctionAdd("Fat 32", "FAT32");
@@ -7071,6 +7074,8 @@ namespace OverflowHelper.core
             correctionAdd("wsh", "Windows Script Host");
             correctionAdd("windows script host", "Windows Script Host");
             correctionAdd("Windows Scripting Host", "Windows Script Host");
+            correctionAdd("wscript", "Windows Script Host");
+            correctionAdd("WScript", "Windows Script Host");
 
             correctionAdd("pre-req", "prerequisite");
             correctionAdd("prereq", "prerequisite");
@@ -10324,6 +10329,7 @@ namespace OverflowHelper.core
             correctionAdd("implementaion", "implementation");
             correctionAdd("impl", "implementation");
             correctionAdd("implemetation", "implementation");
+            correctionAdd("implemtation", "implementation");
 
             correctionAdd("re-implementation", "reimplementation");
 
@@ -20702,6 +20708,7 @@ namespace OverflowHelper.core
             correctionAdd("interial", "inertial");
 
             correctionAdd("meta programming", "metaprogramming");
+            correctionAdd("meta-programming", "metaprogramming");
 
             correctionAdd("pre install", "preinstall");
             correctionAdd("pre-install", "preinstall");
@@ -22756,6 +22763,7 @@ namespace OverflowHelper.core
 
             correctionAdd("milllion", "million");
             correctionAdd("Million", "million");
+            correctionAdd("mio", "million");
 
             correctionAdd("mints", "minks");
             correctionAdd("minx", "minks");
@@ -26143,6 +26151,7 @@ namespace OverflowHelper.core
             correctionAdd("sigrock", "Sigrok");
 
             correctionAdd("idoim", "idiom");
+            correctionAdd("idion", "idiom");
 
             correctionAdd("timeperiod", "time period");
 
@@ -26155,6 +26164,24 @@ namespace OverflowHelper.core
             correctionAdd("failurle", "failure");
 
             correctionAdd("rick roll", "rickroll");
+
+            correctionAdd("Eaater", "Easter");
+            correctionAdd("easter", "Easter");
+
+            correctionAdd("RFC 4122", "RFC&nbsp;4122");
+            correctionAdd("RFC4122", "RFC&nbsp;4122");
+            correctionAdd("rfc4122", "RFC&nbsp;4122");
+
+            correctionAdd("sdf", "SDF");
+
+            correctionAdd("smiles", "SMILES");
+
+            correctionAdd("aspect oriented programming", "aspect-oriented programming");
+
+            correctionAdd("any case", "in any case");
+            correctionAdd("anycase", "in any case");
+
+            correctionAdd("in-compatible", "incompatible");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -26394,6 +26421,7 @@ namespace OverflowHelper.core
             correctionAdd("Oxford Astra Zeneca vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Oxford Astra", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astrazenica jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astra Z", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -40988,6 +41016,20 @@ namespace OverflowHelper.core
             URL_Add("failure", "https://en.wiktionary.org/wiki/failure#Noun");
 
             URL_Add("rickroll", "https://en.wiktionary.org/wiki/rickroll#Verb");
+
+            URL_Add("Easter", "https://en.wiktionary.org/wiki/Easter#Noun");
+
+            URL_Add("RFC&nbsp;4122", "https://en.wikipedia.org/wiki/Universally_unique_identifier#History");
+
+            URL_Add("SDF", "https://en.wikipedia.org/wiki/Chemical_table_file#SDF");
+
+            URL_Add("SMILES", "https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system");
+
+            URL_Add("aspect-oriented programming", "https://en.wikipedia.org/wiki/Aspect-oriented_programming");
+
+            URL_Add("in any case", "https://en.wiktionary.org/wiki/in_any_case#Adverb");
+
+            URL_Add("incompatible", "https://en.wiktionary.org/wiki/incompatible#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
