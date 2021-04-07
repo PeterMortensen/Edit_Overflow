@@ -4376,6 +4376,7 @@ namespace OverflowHelper.core
             correctionAdd("couse", "because");
             correctionAdd("becEuse", "because");
             correctionAdd("beceuse", "because");
+            correctionAdd("cus", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -8977,6 +8978,7 @@ namespace OverflowHelper.core
             correctionAdd("what’s", "what's"); // For Quora.
             correctionAdd("what`s", "what's");
             correctionAdd("What's", "what's");
+            correctionAdd("whts", "what's");
 
             correctionAdd("american", "American");
 
@@ -13551,6 +13553,7 @@ namespace OverflowHelper.core
             correctionAdd("coersive", "coercive");
 
             correctionAdd("contrieved", "contrived");
+            correctionAdd("Contrived", "contrived");
 
             correctionAdd("crach", "crash");
             correctionAdd("chrash", "crash");
@@ -15748,6 +15751,7 @@ namespace OverflowHelper.core
             correctionAdd("recognize", "recognise");
             correctionAdd("reccognize", "recognise");
             correctionAdd("recogzine", "recognise");
+            correctionAdd("recoqnize", "recognise");
 
             correctionAdd("repeatation", "repetition");
 
@@ -15990,6 +15994,7 @@ namespace OverflowHelper.core
             correctionAdd("ad homium", "ad hominem");
             correctionAdd("ad hominum", "ad hominem");
             correctionAdd("ad honium", "ad hominem");
+            correctionAdd("adhoniem attack", "ad hominem");
 
             correctionAdd("appologizing", "apologizing");
 
@@ -18515,6 +18520,7 @@ namespace OverflowHelper.core
             correctionAdd("nocode", "no-code development platform");
 
             correctionAdd("payed", "paid");
+            correctionAdd("paied", "paid");
 
             correctionAdd("Solid Rocket Booster", "solid rocket booster");
 
@@ -20343,6 +20349,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dispay", "display");
             correctionAdd("diplay", "display");
+            correctionAdd("diaplay", "display");
 
             correctionAdd("imagion", "imagine");
             correctionAdd("Emargin", "imagine");
@@ -20776,6 +20783,7 @@ namespace OverflowHelper.core
 
             correctionAdd("australia", "Australia");
             correctionAdd("austrailia", "Australia");
+            correctionAdd("Oz", "Australia");
 
             correctionAdd("gdpr", "GDPR");
             correctionAdd("GDRP", "GDPR");
@@ -21609,6 +21617,7 @@ namespace OverflowHelper.core
             correctionAdd("lannguage", "language");
             correctionAdd("lanugage", "language");
             correctionAdd("lanague", "language");
+            correctionAdd("languaje", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -22536,6 +22545,7 @@ namespace OverflowHelper.core
             correctionAdd("three dimensional", "three-dimensional");
 
             correctionAdd("tb", "&nbsp;TB");
+            correctionAdd("Tb", "&nbsp;TB");
 
             correctionAdd("windows server", "Windows Server");
 
@@ -25310,6 +25320,7 @@ namespace OverflowHelper.core
             correctionAdd("south africa", "South Africa");
             correctionAdd("SA", "South Africa");
             correctionAdd("south Africa", "South Africa");
+            correctionAdd("S A", "South Africa");
 
             correctionAdd("tel aviv", "Tel Aviv");
 
@@ -25609,6 +25620,7 @@ namespace OverflowHelper.core
             correctionAdd("karl marx", "Karl Marx");
 
             correctionAdd("NZ", "New Zealand");
+            correctionAdd("nz", "New Zealand");
 
             correctionAdd("borne", "born");
 
@@ -26182,6 +26194,28 @@ namespace OverflowHelper.core
             correctionAdd("anycase", "in any case");
 
             correctionAdd("in-compatible", "incompatible");
+
+            correctionAdd("Maily Dale", "Daily Mail");
+
+            correctionAdd("ISTR", "I seem to remember");
+
+            correctionAdd("musicXML", "MusicXML");
+
+            correctionAdd("Nazi", "Nazis");
+
+            correctionAdd("box of pandora", "Pandora's box");
+
+            correctionAdd("US Dollar", "US dollar");
+
+            correctionAdd("above-mentioned", "abovementioned");
+
+            correctionAdd("feld", "felt");
+
+            correctionAdd("quilty", "guilty");
+
+            correctionAdd("plaid", "played");
+
+            correctionAdd("the quarter drop", "the penny drop");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41030,6 +41064,28 @@ namespace OverflowHelper.core
             URL_Add("in any case", "https://en.wiktionary.org/wiki/in_any_case#Adverb");
 
             URL_Add("incompatible", "https://en.wiktionary.org/wiki/incompatible#Adjective");
+
+            URL_Add("Daily Mail", "https://en.wikipedia.org/wiki/Daily_Mail");
+
+            URL_Add("I seem to remember", "https://en.wiktionary.org/wiki/ISTR#Phrase");
+
+            URL_Add("MusicXML", "https://en.wikipedia.org/wiki/MusicXML");
+
+            URL_Add("Nazis", "https://en.wiktionary.org/wiki/Nazi#Noun");
+
+            URL_Add("Pandora's box", "https://en.wikipedia.org/wiki/Pandora's_box");
+
+            URL_Add("US dollar", "https://en.wikipedia.org/wiki/United_States_dollar");
+
+            URL_Add("abovementioned", "https://en.wiktionary.org/wiki/abovementioned#Adjective");
+
+            URL_Add("felt", "https://en.wiktionary.org/wiki/feel#Verb");
+
+            URL_Add("guilty", "https://en.wiktionary.org/wiki/guilty#Adjective");
+
+            URL_Add("played", "https://en.wiktionary.org/wiki/play#Verb");
+
+            URL_Add("the penny drop", "https://en.wiktionary.org/wiki/the_penny_drops#Phrase");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
