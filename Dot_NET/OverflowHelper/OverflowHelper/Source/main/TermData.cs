@@ -1511,6 +1511,7 @@ namespace OverflowHelper.core
             correctionAdd("POsh", "PowerShell");
             correctionAdd("powsershell", "PowerShell");
             correctionAdd("PoweShell", "PowerShell");
+            correctionAdd("psh", "PowerShell");
 
             correctionAdd("Expression blend", "Expression Blend");
             correctionAdd("blend", "Expression Blend");
@@ -4682,6 +4683,7 @@ namespace OverflowHelper.core
             correctionAdd("Image magick", "ImageMagick");
             correctionAdd("Imagick", "ImageMagick");
             correctionAdd("image magick", "ImageMagick");
+            correctionAdd("Image Magick", "ImageMagick");
 
             correctionAdd("im", "I'm"); // Collision with Instant messaging and ImageMagick.
             correctionAdd("i m", "I'm");
@@ -6408,6 +6410,7 @@ namespace OverflowHelper.core
             correctionAdd("RESTFUL", "RESTful");
 
             correctionAdd("BI", "business intelligence"); // Expansion
+            correctionAdd("Business Intelligence", "business intelligence");
 
             correctionAdd("quora", "Quora");
             correctionAdd("quoraa", "Quora");
@@ -7783,6 +7786,7 @@ namespace OverflowHelper.core
             correctionAdd("OP Amp", "operational amplifier");
             correctionAdd("OP amp", "operational amplifier");
             correctionAdd("OPamp", "operational amplifier");
+            correctionAdd("Op-Amp", "operational amplifier");
 
             correctionAdd("ASN1", "ASN.1");
             correctionAdd("ASN-1", "ASN.1");
@@ -11831,6 +11835,7 @@ namespace OverflowHelper.core
             correctionAdd("Checkout", "check out");
 
             correctionAdd("prof", "professor");
+            correctionAdd("Prof", "professor");
 
             correctionAdd("re-writing", "rewriting");
 
@@ -12830,6 +12835,7 @@ namespace OverflowHelper.core
             correctionAdd("wand", "want");
             correctionAdd("wannt", "want");
             correctionAdd("wnat", "want");
+            correctionAdd("wanr", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -18807,6 +18813,7 @@ namespace OverflowHelper.core
             correctionAdd("Waht", "what");
             correctionAdd("wat", "what");
             correctionAdd("wath", "what");
+            correctionAdd("wht", "what");
 
             correctionAdd("codidact", "Codidact");
             correctionAdd("Codedact", "Codidact");
@@ -19225,6 +19232,7 @@ namespace OverflowHelper.core
             correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("caled", "called");
             correctionAdd("callled", "called");
@@ -21818,6 +21826,7 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
             correctionAdd("ecma6", "ECMAScript&nbsp;2015");
             correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
 
             correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
@@ -26013,6 +26022,7 @@ namespace OverflowHelper.core
             correctionAdd("soley", "solely");
 
             correctionAdd("warnning", "warning");
+            correctionAdd("waring", "warning");
 
             correctionAdd("etiology", "etymology");
 
@@ -26216,6 +26226,36 @@ namespace OverflowHelper.core
             correctionAdd("plaid", "played");
 
             correctionAdd("the quarter drop", "the penny drop");
+
+            correctionAdd("DRF", "Django REST Framework");
+
+            correctionAdd("MicroCap", "Micro-Cap");
+
+            correctionAdd("S expression", "S-expression");
+            correctionAdd("s-expression", "S-expression");
+            correctionAdd("s expression", "S-expression");
+
+            correctionAdd("appriately", "appropriately");
+            correctionAdd("aproperiately", "appropriately");
+            correctionAdd("approeriately", "appropriately");
+
+            correctionAdd("astroid", "asteroid");
+
+            correctionAdd("brown bag lunch", "brown-bag lunch");
+
+            correctionAdd("code-monkey", "code monkey");
+
+            correctionAdd("condusive", "conducive");
+
+            correctionAdd("ER model", "entity–relationship model");
+            correctionAdd("ER", "entity–relationship model");
+
+            correctionAdd("roadmap", "road map");
+
+            correctionAdd("TCSH", "tcsh");
+
+            correctionAdd("unis", "universities");
+            correctionAdd("Unis", "universities");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41086,6 +41126,30 @@ namespace OverflowHelper.core
             URL_Add("played", "https://en.wiktionary.org/wiki/play#Verb");
 
             URL_Add("the penny drop", "https://en.wiktionary.org/wiki/the_penny_drops#Phrase");
+
+            URL_Add("Django REST Framework", "https://www.django-rest-framework.org/");
+
+            URL_Add("Micro-Cap", "https://en.wikipedia.org/wiki/Micro-Cap");
+
+            URL_Add("S-expression", "https://en.wikipedia.org/wiki/S-expression");
+
+            URL_Add("appropriately", "https://en.wiktionary.org/wiki/appropriately#Adverb");
+
+            URL_Add("asteroid", "https://en.wikipedia.org/wiki/Asteroid");
+
+            URL_Add("brown-bag lunch", "https://en.wikipedia.org/wiki/Packed_lunch#Technique");
+
+            URL_Add("code monkey", "https://en.wiktionary.org/wiki/code_monkey#Noun");
+
+            URL_Add("conducive", "https://en.wiktionary.org/wiki/conducive#Adjective");
+
+            URL_Add("entity–relationship model", "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model");
+
+            URL_Add("road map", "https://en.wiktionary.org/wiki/road_map#Noun");
+
+            URL_Add("tcsh", "https://en.wikipedia.org/wiki/Tcsh");
+
+            URL_Add("universities", "https://en.wiktionary.org/wiki/university#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
