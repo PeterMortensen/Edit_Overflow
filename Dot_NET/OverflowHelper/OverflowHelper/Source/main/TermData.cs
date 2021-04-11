@@ -10253,6 +10253,7 @@ namespace OverflowHelper.core
             correctionAdd("Schrodinger", "Schrödinger equation");
             correctionAdd("Schroedinger's equation", "Schrödinger equation");
             correctionAdd("Schrödinger's equation", "Schrödinger equation");
+            correctionAdd("Schrodinger Equation", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -12169,6 +12170,8 @@ namespace OverflowHelper.core
             //
             //                                  "Could not lookup voil!"
             correctionAdd("Voila", "voilà");
+            correctionAdd("Viola", "voilà");
+            correctionAdd("viola", "voilà");
 
             correctionAdd("catch 22", "Catch-22");
             correctionAdd("catch-22", "Catch-22");
@@ -17403,6 +17406,8 @@ namespace OverflowHelper.core
             correctionAdd("April Fools", "April fool");
             correctionAdd("April Fool", "April fool");
             correctionAdd("april fool", "April fool");
+            correctionAdd("april fools", "April fool");
+            correctionAdd("April fools", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -20544,6 +20549,7 @@ namespace OverflowHelper.core
             correctionAdd("inspite", "in spite of");
 
             correctionAdd("in sake of", "for the sake of");
+            correctionAdd("for sake of", "for the sake of");
 
             correctionAdd("fail-proof", "failproof");
 
@@ -23253,6 +23259,7 @@ namespace OverflowHelper.core
             correctionAdd("letiing", "letting");
 
             correctionAdd("partecipate", "participate");
+            correctionAdd("partipate", "participate");
 
             correctionAdd("partecipated", "participated");
 
@@ -26316,6 +26323,37 @@ namespace OverflowHelper.core
             correctionAdd("unprofessinal", "unprofessional");
 
             correctionAdd("voilated", "violated");
+
+            correctionAdd("allen key", "Allen key");
+
+            correctionAdd("bugs bunny", "Bugs Bunny");
+
+            correctionAdd("Computer Architecture", "computer architecture");
+            correctionAdd("Computer architecture", "computer architecture");
+
+            correctionAdd("data-uri", "data URI");
+
+            correctionAdd("due cause", "due course");
+
+            correctionAdd("journaling filesystem", "journaling file system");
+
+            correctionAdd("mahcine", "machine");
+
+            correctionAdd("occures", "occurs");
+
+            correctionAdd("oscilate", "oscillate");
+
+            correctionAdd("oscilating", "oscillating");
+
+            correctionAdd("percentage encoded", "percentage-encoded");
+
+            correctionAdd("Pick'n'place machine", "pick-and-place machine");
+
+            correctionAdd("vertexes", "vertices");
+            correctionAdd("Vertecies", "vertices");
+            correctionAdd("vertecies", "vertices");
+
+            correctionAdd("visble", "visible");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41245,6 +41283,34 @@ namespace OverflowHelper.core
             URL_Add("violated", "https://en.wiktionary.org/wiki/violate#Verb");
 
             URL_Add("infection fatality rate", "https://en.wikipedia.org/wiki/Case_fatality_rate#Infection_fatality_rate");
+
+            URL_Add("Allen key", "https://en.wikipedia.org/wiki/Hex_key");
+
+            URL_Add("Bugs Bunny", "https://en.wikipedia.org/wiki/Bugs_Bunny");
+
+            URL_Add("computer architecture", "https://en.wikipedia.org/wiki/Computer_architecture");
+
+            URL_Add("data URI", "https://en.wikipedia.org/wiki/Data_URI_scheme");
+
+            URL_Add("due course", "https://en.wiktionary.org/wiki/due_course#Noun");
+
+            URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
+
+            URL_Add("machine", "https://en.wiktionary.org/wiki/machine#Noun");
+
+            URL_Add("occurs", "https://en.wiktionary.org/wiki/occur#Verb");
+
+            URL_Add("oscillate", "https://en.wiktionary.org/wiki/oscillate#Verb");
+
+            URL_Add("oscillating", "https://en.wiktionary.org/wiki/oscillate#Verb");
+
+            URL_Add("percentage-encoded", "https://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("pick-and-place machine", "https://en.wikipedia.org/wiki/Pick-and-place_machine");
+
+            URL_Add("vertices", "https://en.wiktionary.org/wiki/vertex#Noun");
+
+            URL_Add("visible", "https://en.wiktionary.org/wiki/visible#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
