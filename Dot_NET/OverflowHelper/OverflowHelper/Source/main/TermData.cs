@@ -4847,6 +4847,8 @@ namespace OverflowHelper.core
 
             correctionAdd("graphViz", "Graphviz");
             correctionAdd("graphviz", "Graphviz");
+            correctionAdd("graphiz", "Graphviz");
+            correctionAdd("Graphiz", "Graphviz");
 
             correctionAdd("ad", "Active Directory"); // Expansion.
             correctionAdd("AD", "Active Directory"); // Expansion.
@@ -5833,6 +5835,8 @@ namespace OverflowHelper.core
             correctionAdd("javabean", "JavaBeans");
             correctionAdd("Java beans", "JavaBeans");
             correctionAdd("Java Beans", "JavaBeans");
+            correctionAdd("java beans", "JavaBeans");
+            correctionAdd("javabeans", "JavaBeans");
 
             correctionAdd("hosts", "hosts file");
 
@@ -7762,6 +7766,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
+            correctionAdd("eeProm", "EEPROM");
 
             correctionAdd("eprom", "EPROM");
             correctionAdd("Eprom", "EPROM");
@@ -8014,6 +8019,7 @@ namespace OverflowHelper.core
             correctionAdd("wud", "would");
             correctionAdd("whould", "would");
             correctionAdd("woudl", "would");
+            correctionAdd("wold", "would");
 
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("mine craft", "Minecraft");
@@ -8583,6 +8589,7 @@ namespace OverflowHelper.core
             correctionAdd("2c", "two cents");
             correctionAdd("5 cents", "two cents");
             correctionAdd("5 coins", "two cents");
+            correctionAdd("2¢", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -9706,6 +9713,7 @@ namespace OverflowHelper.core
             correctionAdd("receve", "receive");
             correctionAdd("receice", "receive");
             correctionAdd("receave", "receive");
+            correctionAdd("rx", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -11404,6 +11412,7 @@ namespace OverflowHelper.core
             correctionAdd("yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo answers", "Yahoo Answers");
             correctionAdd("Yahoo! Answers", "Yahoo Answers");
+            correctionAdd("Yahoo!Answers", "Yahoo Answers");
 
             correctionAdd("democraticly", "democratically");
 
@@ -16484,6 +16493,7 @@ namespace OverflowHelper.core
             correctionAdd("crypto-currency", "cryptocurrency");
             correctionAdd("crypto currency", "cryptocurrency");
             correctionAdd("CryptoCurrency", "cryptocurrency");
+            correctionAdd("crypt-currency", "cryptocurrency");
 
             correctionAdd("Defensibility", "defensibility");
 
@@ -20457,6 +20467,7 @@ namespace OverflowHelper.core
             correctionAdd("CTS", "carpal tunnel syndrome");
 
             correctionAdd("coul", "could");
+            correctionAdd("coulld", "could");
 
             correctionAdd("in-tact", "intact");
 
@@ -20955,6 +20966,7 @@ namespace OverflowHelper.core
             correctionAdd("prject", "project");
             correctionAdd("projet", "project");
             correctionAdd("proj", "project");
+            correctionAdd("projcet", "project");
 
             correctionAdd("eol", "EOL");
 
@@ -24363,8 +24375,6 @@ namespace OverflowHelper.core
 
             correctionAdd("trys", "tries");
 
-            correctionAdd("unpleassant", "unpleasant");
-
             correctionAdd("C128", "Commodore 128");
 
             correctionAdd("siri", "Siri");
@@ -24696,9 +24706,13 @@ namespace OverflowHelper.core
             correctionAdd("PATTHHETIC", "pathetic");
             correctionAdd("patthhetic", "pathetic");
 
+            correctionAdd("unpleassant", "unpleasant");
+
             correctionAdd("pleassant", "pleasant");
             correctionAdd("plesasant", "pleasant");
             correctionAdd("plessasant", "pleasant");
+            correctionAdd("Pleasent", "pleasant");
+            correctionAdd("pleasent", "pleasant");
 
             correctionAdd("un-indent", "unindent");
 
@@ -26355,6 +26369,25 @@ namespace OverflowHelper.core
 
             correctionAdd("visble", "visible");
 
+            correctionAdd("1n4001", "1N4001");
+
+            correctionAdd("1n4148", "1N4148");
+
+            correctionAdd("dag", "DAG");
+
+            correctionAdd("Dev.to", "DEV");
+
+            correctionAdd("SQL*Plus", "SQL Plus");
+            correctionAdd("sql * plus", "SQL Plus");
+
+            correctionAdd("wagtail", "Wagtail");
+
+            correctionAdd("clearify", "clarify");
+
+            correctionAdd("eigen value", "eigenvalue");
+
+            correctionAdd("tx", "transmit");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26667,6 +26700,7 @@ namespace OverflowHelper.core
             correctionAdd("Ivermectine", "ivermectin"); // Coronavirus
             correctionAdd("ivermectine", "ivermectin"); // Coronavirus
             correctionAdd("Iver Mectin", "ivermectin"); // Coronavirus
+            correctionAdd("IVMCTN", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -26751,6 +26785,7 @@ namespace OverflowHelper.core
             correctionAdd("Maderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
+            correctionAdd("ZOE", "ZOE app"); // Coronavirus
 
             correctionAdd("vene", "vein"); // Coronavirus
 
@@ -41311,6 +41346,24 @@ namespace OverflowHelper.core
             URL_Add("vertices", "https://en.wiktionary.org/wiki/vertex#Noun");
 
             URL_Add("visible", "https://en.wiktionary.org/wiki/visible#Adjective");
+
+            URL_Add("1N4001", "https://en.wikipedia.org/wiki/1N400x_general-purpose_diodes");
+
+            URL_Add("1N4148", "https://en.wikipedia.org/wiki/1N4148_signal_diode");
+
+            URL_Add("DAG", "https://en.wikipedia.org/wiki/Directed_acyclic_graph");
+
+            URL_Add("DEV", "https://dev.to/about");
+
+            URL_Add("SQL Plus", "https://en.wikipedia.org/wiki/SQL_Plus");
+
+            URL_Add("Wagtail", "https://en.wikipedia.org/wiki/Wagtail_(CMS)");
+
+            URL_Add("clarify", "https://en.wiktionary.org/wiki/clarify#Verb");
+
+            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("transmit", "https://en.wiktionary.org/wiki/transmit#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
