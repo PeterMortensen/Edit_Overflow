@@ -2993,6 +2993,7 @@ namespace OverflowHelper.core
             correctionAdd("Defently", "definitely");
             correctionAdd("defently", "definitely");
             correctionAdd("Definitely", "definitely");
+            correctionAdd("definitelt", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -4651,6 +4652,8 @@ namespace OverflowHelper.core
             correctionAdd("twittter", "Twitter");
             correctionAdd("Twotter", "Twitter");
             correctionAdd("twatter", "Twitter");
+            correctionAdd("twitte", "Twitter");
+            correctionAdd("Tweeter", "Twitter");
 
             correctionAdd("dos", "DOS");
             correctionAdd("MS DOS", "DOS");
@@ -4666,6 +4669,7 @@ namespace OverflowHelper.core
             correctionAdd("app store", "App&nbsp;Store");
             correctionAdd("appstore", "App&nbsp;Store");
             correctionAdd("Apple store", "App&nbsp;Store"); // Not 100% correct
+            correctionAdd("app-store", "App&nbsp;Store");
 
             correctionAdd("Antlr", "ANTLR");
             correctionAdd("Antler", "ANTLR");
@@ -10262,6 +10266,7 @@ namespace OverflowHelper.core
             correctionAdd("Schroedinger's equation", "Schrödinger equation");
             correctionAdd("Schrödinger's equation", "Schrödinger equation");
             correctionAdd("Schrodinger Equation", "Schrödinger equation");
+            correctionAdd("Schrodinger equation", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -26388,6 +26393,21 @@ namespace OverflowHelper.core
 
             correctionAdd("tx", "transmit");
 
+            correctionAdd("sensorship", "censorship");
+
+            correctionAdd("furtur", "future");
+
+            correctionAdd("inital", "initial");
+
+            correctionAdd("rovide", "provide");
+
+            correctionAdd("re-apply", "reapply");
+
+            correctionAdd("re-stage", "restage");
+
+            correctionAdd("speach", "speech");
+            correctionAdd("Speach", "speech");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26701,6 +26721,7 @@ namespace OverflowHelper.core
             correctionAdd("ivermectine", "ivermectin"); // Coronavirus
             correctionAdd("Iver Mectin", "ivermectin"); // Coronavirus
             correctionAdd("IVMCTN", "ivermectin"); // Coronavirus
+            correctionAdd("Invermectin", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -41364,6 +41385,20 @@ namespace OverflowHelper.core
             URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
 
             URL_Add("transmit", "https://en.wiktionary.org/wiki/transmit#Verb");
+
+            URL_Add("censorship", "https://en.wiktionary.org/wiki/censorship#Noun");
+
+            URL_Add("future", "https://en.wiktionary.org/wiki/future#Adjective");
+
+            URL_Add("initial", "https://en.wiktionary.org/wiki/initial#Adjective");
+
+            URL_Add("provide", "https://en.wiktionary.org/wiki/provide#Verb");
+
+            URL_Add("reapply", "https://en.wiktionary.org/wiki/reapply#Verb");
+
+            URL_Add("restage", "https://en.wiktionary.org/wiki/restage#Verb");
+
+            URL_Add("speech", "https://en.wiktionary.org/wiki/speech#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
