@@ -11672,6 +11672,8 @@ namespace OverflowHelper.core
 
             correctionAdd("buereaucrat", "bureaucrat");
             correctionAdd("buesuresucrat", "bureaucrat");
+            correctionAdd("beurocrats", "bureaucrat");
+            correctionAdd("burocrat", "bureaucrat");
 
             correctionAdd("giberish", "gibberish");
 
@@ -22084,6 +22086,7 @@ namespace OverflowHelper.core
             correctionAdd("doe", "done");
 
             correctionAdd("hearth", "heart");
+            correctionAdd("hart", "heart");
 
             correctionAdd("heart broken", "heartbroken");
 
@@ -26648,6 +26651,7 @@ namespace OverflowHelper.core
             correctionAdd("Astrazenica jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astra Z", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astra vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Astrozenica vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
