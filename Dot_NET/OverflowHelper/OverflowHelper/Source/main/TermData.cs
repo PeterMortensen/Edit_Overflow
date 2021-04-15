@@ -4713,6 +4713,7 @@ namespace OverflowHelper.core
             correctionAdd("base 64", "Base64");
             correctionAdd("Base-64", "Base64");
             correctionAdd("base46", "Base64");
+            correctionAdd("base-64", "Base64");
 
             correctionAdd("Windows CE", "Windows&nbsp;CE"); // Sort of identity mapping
             correctionAdd("WinCE", "Windows&nbsp;CE");
@@ -13016,6 +13017,7 @@ namespace OverflowHelper.core
             correctionAdd("Orange baby", "Trump");
             correctionAdd("orange baby", "Trump");
             correctionAdd("Orange Julius", "Trump");
+            correctionAdd("orange predecessor", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -14117,6 +14119,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Telegram", "Telegram Messenger");
             correctionAdd("tellygram", "Telegram Messenger");
+            correctionAdd("telegram", "Telegram Messenger");
 
             correctionAdd("Hyperterminal", "HyperTerminal");
             correctionAdd("hyperterminal", "HyperTerminal");
@@ -18421,6 +18424,8 @@ namespace OverflowHelper.core
             correctionAdd("802.11 g", "802.11g");
 
             correctionAdd("Brasil", "Brazil");
+            correctionAdd("brasil", "Brazil");
+            correctionAdd("brazil", "Brazil");
 
             correctionAdd("pre-shared key", "PSK");
             correctionAdd("psk", "PSK");
@@ -18586,6 +18591,8 @@ namespace OverflowHelper.core
             correctionAdd("cypress", "Cypress");
 
             correctionAdd("taiwan", "Taiwan");
+            correctionAdd("TAWAN", "Taiwan");
+            correctionAdd("tawan", "Taiwan");
 
             correctionAdd("E2E", "end-to-end");
             correctionAdd("e2e", "end-to-end");
@@ -18979,6 +18986,7 @@ namespace OverflowHelper.core
             correctionAdd("EXPECT", "Expect");
 
             correctionAdd("florida", "Florida");
+            correctionAdd("Fla", "Florida");
 
             correctionAdd("Avatar", "avatar");
 
@@ -22949,6 +22957,7 @@ namespace OverflowHelper.core
             correctionAdd("provocator", "provocateur");
 
             correctionAdd("text book", "textbook");
+            correctionAdd("Textbook", "textbook");
 
             correctionAdd("Transverse Mercator Projection", "transverse Mercator projection");
 
@@ -25019,6 +25028,7 @@ namespace OverflowHelper.core
             correctionAdd("deliverys", "deliveries");
 
             correctionAdd("erron", "error");
+            correctionAdd("Error", "error");
 
             correctionAdd("re-boot", "reboot");
 
@@ -25883,6 +25893,7 @@ namespace OverflowHelper.core
             correctionAdd("tech writing", "technical writing");
 
             correctionAdd("volt meter", "voltmeter");
+            correctionAdd("Voltmeter", "voltmeter");
 
             correctionAdd("finnish", "Finnish");
 
@@ -25964,6 +25975,7 @@ namespace OverflowHelper.core
             correctionAdd("AntiX Linux", "antiX");
             correctionAdd("AntiX", "antiX");
             correctionAdd("antix", "antiX");
+            correctionAdd("Antix", "antiX");
 
             correctionAdd("callstack", "call stack");
 
@@ -26411,6 +26423,31 @@ namespace OverflowHelper.core
             correctionAdd("speach", "speech");
             correctionAdd("Speach", "speech");
 
+            correctionAdd("spacefm", "SpaceFM");
+
+            correctionAdd("Ammeter", "ammeter");
+            correctionAdd("Amperemeter", "ammeter");
+            correctionAdd("amperemeter", "ammeter");
+            correctionAdd("ampere meter", "ammeter");
+
+            correctionAdd("automatical", "automatic");
+
+            correctionAdd("draconic", "draconian");
+
+            correctionAdd("electro chemistry", "electrochemistry");
+
+            correctionAdd("feedbacks", "feedback");
+
+            correctionAdd("Galvanic cell", "galvanic cell");
+
+            correctionAdd("offest", "offset");
+
+            correctionAdd("outputed", "outputted");
+
+            correctionAdd("thoughtexperiment", "thought experiment");
+
+            correctionAdd("inacceptable", "unacceptable");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26652,6 +26689,7 @@ namespace OverflowHelper.core
             correctionAdd("Astra Z", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astra vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astrozenica vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("astra vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -26672,6 +26710,7 @@ namespace OverflowHelper.core
             correctionAdd("Astra zenica", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra zeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Azeneca", "AstraZeneca"); // Coronavirus
+            correctionAdd("astra zenika", "AstraZeneca"); // Coronavirus
 
             correctionAdd("Beximco Pharma", "Beximco Pharmaceuticals"); // Coronavirus
 
@@ -26854,6 +26893,8 @@ namespace OverflowHelper.core
 
             correctionAdd("IFR", "infection fatality rate");
             correctionAdd("ifr", "infection fatality rate");
+
+            correctionAdd("P1", "Brazilian variant");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -41403,6 +41444,30 @@ namespace OverflowHelper.core
             URL_Add("restage", "https://en.wiktionary.org/wiki/restage#Verb");
 
             URL_Add("speech", "https://en.wiktionary.org/wiki/speech#Noun");
+
+            URL_Add("SpaceFM", "https://en.wikipedia.org/wiki/SpaceFM");
+
+            URL_Add("ammeter", "https://en.wikipedia.org/wiki/Ammeter");
+
+            URL_Add("automatic", "https://en.wiktionary.org/wiki/automatic#Adjective");
+
+            URL_Add("draconian", "https://en.wiktionary.org/wiki/draconian#Adjective");
+
+            URL_Add("electrochemistry", "https://en.wikipedia.org/wiki/Electrochemistry");
+
+            URL_Add("feedback", "https://en.wiktionary.org/wiki/feedback#Noun");
+
+            URL_Add("galvanic cell", "https://en.wikipedia.org/wiki/Galvanic_cell");
+
+            URL_Add("offset", "https://en.wiktionary.org/wiki/offset#Noun");
+
+            URL_Add("outputted", "https://en.wiktionary.org/wiki/output#Verb");
+
+            URL_Add("thought experiment", "https://en.wiktionary.org/wiki/thought_experiment#Noun");
+
+            URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
+
+            URL_Add("Brazilian variant", "https://en.wikipedia.org/wiki/Lineage_P.1");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
