@@ -1239,6 +1239,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOs Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("MacOS Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("OSX Mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("MacOS Mojave 10.14", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -3929,6 +3930,9 @@ namespace OverflowHelper.core
             correctionAdd("env's variable", "environment variable");
             correctionAdd("ENV variable", "environment variable");
             correctionAdd("envvar", "environment variable");
+            correctionAdd("Environment variables", "environment variable");
+            correctionAdd("environment variables", "environment variable");
+            correctionAdd("env vars", "environment variable");
 
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
@@ -5010,6 +5014,7 @@ namespace OverflowHelper.core
             correctionAdd("Tortoise git", "TortoiseGit");
             correctionAdd("TortoiseGIT", "TortoiseGit");
             correctionAdd("tortoise-git", "TortoiseGit");
+            correctionAdd("tortoiseGit", "TortoiseGit");
 
             correctionAdd("CanOpen", "CANopen");
             correctionAdd("CANOpen", "CANopen");
@@ -6488,6 +6493,9 @@ namespace OverflowHelper.core
             correctionAdd("Galaxy III", "Samsung Galaxy&nbsp;S&nbsp;III");
             correctionAdd("Galaxy S III", "Samsung Galaxy&nbsp;S&nbsp;III");
             correctionAdd("Galaxy s3", "Samsung Galaxy&nbsp;S&nbsp;III");
+            correctionAdd("Samsung GalaxyIII", "Samsung Galaxy&nbsp;S&nbsp;III");
+            correctionAdd("Samsung Galaxy III", "Samsung Galaxy&nbsp;S&nbsp;III");
+            correctionAdd("Samsung Galaxy 3", "Samsung Galaxy&nbsp;S&nbsp;III");
 
             correctionAdd("heroku", "Heroku");
             correctionAdd("HEROKU", "Heroku");
@@ -9153,6 +9161,7 @@ namespace OverflowHelper.core
             correctionAdd("Two-factor", "two-factor authentication");
             correctionAdd("two-factor", "two-factor authentication");
             correctionAdd("2 factor", "two-factor authentication");
+            correctionAdd("Two Factor authentication", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -10724,6 +10733,7 @@ namespace OverflowHelper.core
             correctionAdd("up to date", "up-to-date");
             correctionAdd("up2date", "up-to-date");
             correctionAdd("uptodate", "up-to-date");
+            correctionAdd("upto date", "up-to-date");
 
             correctionAdd("react native", "React Native");
             correctionAdd("react-native", "React Native");
@@ -11456,6 +11466,8 @@ namespace OverflowHelper.core
             correctionAdd("parlamentary", "parliamentary");
 
             correctionAdd("Android 7", "Android 7.0 (Nougat)");
+            correctionAdd("Nougart", "Android 7.0 (Nougat)");
+            correctionAdd("Nougat", "Android 7.0 (Nougat)");
 
             correctionAdd("Android 8.1", "Android 8.1 (Oreo)");
             correctionAdd("Android O", "Android 8.1 (Oreo)");
@@ -11648,6 +11660,7 @@ namespace OverflowHelper.core
             correctionAdd("Soultion", "solution");
             correctionAdd("soulution", "solution");
             correctionAdd("soltution", "solution");
+            correctionAdd("sulotion", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -12430,6 +12443,8 @@ namespace OverflowHelper.core
             correctionAdd("debuging", "debugging");
             correctionAdd("debuggin", "debugging");
             correctionAdd("debug", "debugging");
+            correctionAdd("Debbugging", "debugging");
+            correctionAdd("debbugging", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -15805,6 +15820,8 @@ namespace OverflowHelper.core
             correctionAdd("reccognize", "recognise");
             correctionAdd("recogzine", "recognise");
             correctionAdd("recoqnize", "recognise");
+            correctionAdd("recgize", "recognise");
+            correctionAdd("recogize", "recognise");
 
             correctionAdd("repeatation", "repetition");
 
@@ -26447,6 +26464,23 @@ namespace OverflowHelper.core
             correctionAdd("thoughtexperiment", "thought experiment");
 
             correctionAdd("inacceptable", "unacceptable");
+
+            correctionAdd("AVD manager", "AVD Manager");
+
+            correctionAdd("PCMan File Manager", "PCManFM");
+            correctionAdd("pcmanfm", "PCManFM");
+
+            correctionAdd("alian", "alien");
+
+            correctionAdd("awe inspiring", "awe-inspiring");
+
+            correctionAdd("configed", "configured");
+
+            correctionAdd("embarrasment", "embarrassment");
+
+            correctionAdd("space ship", "spaceship");
+
+            correctionAdd("termina", "terminal");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41468,6 +41502,22 @@ namespace OverflowHelper.core
             URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
 
             URL_Add("Brazilian variant", "https://en.wikipedia.org/wiki/Lineage_P.1");
+
+            URL_Add("AVD Manager", "https://developer.android.com/studio/run/managing-avds");
+
+            URL_Add("PCManFM", "https://en.wikipedia.org/wiki/PCMan_File_Manager");
+
+            URL_Add("alien", "https://en.wiktionary.org/wiki/alien#Noun");
+
+            URL_Add("awe-inspiring", "https://en.wiktionary.org/wiki/awe-inspiring#Adjective");
+
+            URL_Add("configured", "https://en.wiktionary.org/wiki/configure#Verb");
+
+            URL_Add("embarrassment", "https://en.wiktionary.org/wiki/embarrassment#Noun");
+
+            URL_Add("spaceship", "https://en.wiktionary.org/wiki/spaceship#Noun");
+
+            URL_Add("terminal", "https://en.wiktionary.org/wiki/terminal#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
