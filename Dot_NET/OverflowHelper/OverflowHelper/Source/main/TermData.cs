@@ -3814,6 +3814,7 @@ namespace OverflowHelper.core
             correctionAdd("mardown", "Markdown");
             correctionAdd("Mark-down", "Markdown");
             correctionAdd("mark down", "Markdown");
+            correctionAdd("Markdow", "Markdown");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -6261,8 +6262,6 @@ namespace OverflowHelper.core
             correctionAdd("labview", "LabVIEW");
             correctionAdd("labVIEW", "LabVIEW");
 
-            correctionAdd("pinterest", "Pinterest");
-
             correctionAdd("algo", "algorithm");
             correctionAdd("alghorithm", "algorithm");
             correctionAdd("algoritms", "algorithm"); // Not 100% correct - case.
@@ -6415,8 +6414,11 @@ namespace OverflowHelper.core
             correctionAdd("hard ware", "hardware");
             correctionAdd("Hardware", "hardware");
 
+            correctionAdd("pinterest", "Pinterest");
+
             correctionAdd("rest", "REST");
             correctionAdd("Rest", "REST");
+            correctionAdd("ReST", "REST");
 
             correctionAdd("Restful", "RESTful");
             correctionAdd("Restfull", "RESTful");
@@ -7402,6 +7404,7 @@ namespace OverflowHelper.core
             correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
             correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
             correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -12117,6 +12120,8 @@ namespace OverflowHelper.core
             correctionAdd("substituion", "substitution");
             correctionAdd("subsitution", "substitution");
             correctionAdd("substiution", "substitution");
+            correctionAdd("subsition", "substitution");
+            correctionAdd("substition", "substitution");
 
             correctionAdd("symetrically", "symmetrically");
 
@@ -12130,6 +12135,7 @@ namespace OverflowHelper.core
             correctionAdd("jetbrains", "JetBrains");
             correctionAdd("Jetbrains", "JetBrains");
             correctionAdd("Jet Brains", "JetBrains");
+            correctionAdd("jetbrain", "JetBrains");
 
             correctionAdd("SQL workbench", "MySQL Workbench");
 
@@ -12384,6 +12390,7 @@ namespace OverflowHelper.core
             correctionAdd("Difference", "difference");
             correctionAdd("diffrance", "difference");
             correctionAdd("differance", "difference");
+            correctionAdd("diffrerence", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -14124,6 +14131,7 @@ namespace OverflowHelper.core
 
             correctionAdd("androidx", "Android X");
             correctionAdd("android x", "Android X");
+            correctionAdd("X Android", "Android X");
 
             correctionAdd("beatiful", "beautiful");
             correctionAdd("beutiful", "beautiful");
@@ -15509,6 +15517,7 @@ namespace OverflowHelper.core
             correctionAdd("Re-open", "reopen");
             correctionAdd("ReOpen", "reopen");
             correctionAdd("Reopen", "reopen");
+            correctionAdd("reOpen", "reopen");
 
             correctionAdd("shockwave", "shock wave");
             correctionAdd("shock-wave", "shock wave");
@@ -17486,6 +17495,7 @@ namespace OverflowHelper.core
             correctionAdd("physist", "physicist");
             correctionAdd("Physicist", "physicist");
             correctionAdd("physicis", "physicist");
+            correctionAdd("phycisist", "physicist");
 
             correctionAdd("unit-less", "unitless");
             correctionAdd("unit less", "unitless");
@@ -26482,6 +26492,31 @@ namespace OverflowHelper.core
 
             correctionAdd("termina", "terminal");
 
+            correctionAdd("Beer-Lambert law", "Beer–Lambert law");
+            correctionAdd("Beer-Lambert Law", "Beer–Lambert law");
+
+            correctionAdd("mustache", "Mustache");
+
+            correctionAdd("interactivly", "interactively");
+
+            correctionAdd("kinda", "kind of");
+
+            correctionAdd("night mare", "nightmare");
+
+            correctionAdd("non-inverting", "noninverting");
+            correctionAdd("non inverting", "noninverting");
+
+            correctionAdd("optionaly", "optionally");
+            correctionAdd("Optionaly", "optionally");
+
+            correctionAdd("persistes", "persists");
+
+            correctionAdd("significative", "significant");
+
+            correctionAdd("typo's", "typos");
+
+            correctionAdd("word-wise", "wordwise");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26843,6 +26878,7 @@ namespace OverflowHelper.core
             correctionAdd("Biontec vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("pfizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("the PFIZER", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -41518,6 +41554,28 @@ namespace OverflowHelper.core
             URL_Add("spaceship", "https://en.wiktionary.org/wiki/spaceship#Noun");
 
             URL_Add("terminal", "https://en.wiktionary.org/wiki/terminal#Noun");
+
+            URL_Add("Beer–Lambert law", "https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law");
+
+            URL_Add("Mustache", "https://en.wikipedia.org/wiki/Mustache_%28template_system%29");
+
+            URL_Add("interactively", "https://en.wiktionary.org/wiki/interactively#Adverb");
+
+            URL_Add("kind of", "https://en.wiktionary.org/wiki/kind_of#Adverb");
+
+            URL_Add("nightmare", "https://en.wiktionary.org/wiki/nightmare#Noun");
+
+            URL_Add("noninverting", "https://en.wiktionary.org/wiki/noninverting#Adjective");
+
+            URL_Add("optionally", "https://en.wiktionary.org/wiki/optionally#Adverb");
+
+            URL_Add("persists", "https://en.wiktionary.org/wiki/persist#Verb");
+
+            URL_Add("significant", "https://en.wiktionary.org/wiki/significant#Adjective");
+
+            URL_Add("typos", "https://en.wiktionary.org/wiki/typo#Noun");
+
+            URL_Add("wordwise", "https://en.wiktionary.org/wiki/wordwise#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
