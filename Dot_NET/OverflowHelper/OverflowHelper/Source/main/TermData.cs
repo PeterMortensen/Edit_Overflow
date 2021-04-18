@@ -1240,6 +1240,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("OSX Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("MacOS Mojave 10.14", "macOS v10.14 (Mojave)");
+            correctionAdd("Mac OS Mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -1250,6 +1251,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("catalina", "macOS v10.15 (Catalina)");
             correctionAdd("macOS 10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("macOS Catalina", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -12794,6 +12796,7 @@ namespace OverflowHelper.core
             correctionAdd("lastest", "latest");
             correctionAdd("Latests", "latest");
             correctionAdd("Latest", "latest");
+            correctionAdd("lates", "latest");
 
             correctionAdd("Lithium", "lithium");
             correctionAdd("Lithion", "lithium");
@@ -12815,6 +12818,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS", "macOS");
             correctionAdd("MAC os", "macOS");
             correctionAdd("macOs", "macOS");
+            correctionAdd("MAC OS", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -26516,6 +26520,8 @@ namespace OverflowHelper.core
             correctionAdd("typo's", "typos");
 
             correctionAdd("word-wise", "wordwise");
+
+            correctionAdd("iTerm 2", "iTerm2");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41576,6 +41582,8 @@ namespace OverflowHelper.core
             URL_Add("typos", "https://en.wiktionary.org/wiki/typo#Noun");
 
             URL_Add("wordwise", "https://en.wiktionary.org/wiki/wordwise#Adverb");
+
+            URL_Add("iTerm2", "https://en.wikipedia.org/wiki/ITerm2");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
