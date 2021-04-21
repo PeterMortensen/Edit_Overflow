@@ -1252,6 +1252,7 @@ namespace OverflowHelper.core
             correctionAdd("catalina", "macOS v10.15 (Catalina)");
             correctionAdd("macOS 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("macOS Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("MacOs Catalina", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -2537,6 +2538,7 @@ namespace OverflowHelper.core
             correctionAdd("Reg Exp", "regular expression");
             correctionAdd("reg exp", "regular expression");
             correctionAdd("reg exps", "regular expression");
+            correctionAdd("regulare expression", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -9024,6 +9026,7 @@ namespace OverflowHelper.core
             //  correctionAdd("", "Indian");   missing one
             //     from <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA>...
             correctionAdd("INDIAN", "Indian");
+            correctionAdd("Idian", "Indian");
 
             correctionAdd("grad", "graduate");
 
@@ -10980,11 +10983,6 @@ namespace OverflowHelper.core
 
             correctionAdd("crm", "CRM");
 
-            correctionAdd("CPPcheck", "Cppcheck");
-            correctionAdd("cppcheck", "Cppcheck");
-            correctionAdd("CPPCheck", "Cppcheck");
-            correctionAdd("CppCheck", "Cppcheck");
-
             correctionAdd("Cocumber", "Cucumber");
             correctionAdd("cucumber", "Cucumber");
             correctionAdd("cucomber", "Cucumber");
@@ -12873,9 +12871,6 @@ namespace OverflowHelper.core
             correctionAdd("side affects", "side effect");
             correctionAdd("side affect", "side effect");
 
-            correctionAdd("spell-check", "spellcheck");
-            correctionAdd("spell check", "spellcheck");
-
             correctionAdd("strugling", "struggling");
 
             correctionAdd("superflous", "superfluous");
@@ -13044,6 +13039,7 @@ namespace OverflowHelper.core
             correctionAdd("orange baby", "Trump");
             correctionAdd("Orange Julius", "Trump");
             correctionAdd("orange predecessor", "Trump");
+            correctionAdd("Citizen Trump", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -14832,9 +14828,6 @@ namespace OverflowHelper.core
             correctionAdd("counter example", "counterexample");
             correctionAdd("counter-example", "counterexample");
 
-            correctionAdd("doublecheck", "double check");
-            correctionAdd("double-check", "double check");
-
             correctionAdd("Echo", "echo");
 
             correctionAdd("French fries", "french fries");
@@ -15081,6 +15074,9 @@ namespace OverflowHelper.core
             correctionAdd("Zsh", "Z shell");
             correctionAdd("zsh", "Z shell");
             correctionAdd("ZSH", "Z shell");
+            correctionAdd("Z-shell", "Z shell");
+            correctionAdd("ZSH Shell", "Z shell");
+            correctionAdd("zsh shell", "Z shell");
 
             correctionAdd("case-insensitive", "case insensitive");
 
@@ -19505,8 +19501,6 @@ namespace OverflowHelper.core
 
             correctionAdd("oportunities", "opportunities");
 
-            correctionAdd("re-check", "recheck");
-
             correctionAdd("re-design", "redesign");
 
             correctionAdd("reprensent", "represent");
@@ -19785,10 +19779,6 @@ namespace OverflowHelper.core
             correctionAdd("AWS amplify", "AWS Amplify");
             correctionAdd("aws-amplify", "AWS Amplify");
             correctionAdd("Amplify", "AWS Amplify");
-
-            correctionAdd("test flight", "TestFlight");
-            correctionAdd("Testflight", "TestFlight");
-            correctionAdd("testflight", "TestFlight");
 
             correctionAdd("Algorithmic", "algorithmic");
 
@@ -21116,6 +21106,8 @@ namespace OverflowHelper.core
 
             correctionAdd("handfull", "handful");
             correctionAdd("hand-full", "handful");
+            correctionAdd("hand fulll", "handful");
+            correctionAdd("hand full", "handful");
 
             correctionAdd("janki", "janky");
 
@@ -23815,9 +23807,6 @@ namespace OverflowHelper.core
 
             correctionAdd("short-story", "short story");
 
-            correctionAdd("type check", "type-check");
-            correctionAdd("typecheck", "type-check");
-
             correctionAdd("4g", "4G");
             correctionAdd("LTE", "4G");
 
@@ -24702,6 +24691,7 @@ namespace OverflowHelper.core
 
             correctionAdd("varient", "variant");
             correctionAdd("varrient", "variant");
+            correctionAdd("veriant", "variant");
 
             correctionAdd("Branch Prediction", "branch prediction");
 
@@ -25092,9 +25082,6 @@ namespace OverflowHelper.core
             correctionAdd("causees", "causes");
 
             correctionAdd("combos", "combinations");
-
-            correctionAdd("counter check", "countercheck");
-            correctionAdd("Counter check", "countercheck");
 
             correctionAdd("execeuting", "executing");
 
@@ -25567,7 +25554,12 @@ namespace OverflowHelper.core
 
             correctionAdd("dissapoints", "disappoints");
 
+            correctionAdd("test flight", "TestFlight");
+            correctionAdd("Testflight", "TestFlight");
+            correctionAdd("testflight", "TestFlight");
+
             correctionAdd("flite", "flight");
+            correctionAdd("fligth", "flight");
 
             correctionAdd("nemezis", "nemesis");
             correctionAdd("Nemesis", "nemesis");
@@ -26109,9 +26101,6 @@ namespace OverflowHelper.core
 
             correctionAdd("breaked", "broke");
 
-            correctionAdd("cross check", "cross-check");
-            correctionAdd("crosscheck", "cross-check");
-
             correctionAdd("indexes", "indices");
             correctionAdd("indicies", "indices");
 
@@ -26523,6 +26512,74 @@ namespace OverflowHelper.core
 
             correctionAdd("iTerm 2", "iTerm2");
 
+            correctionAdd("Hidu", "Hindu");
+
+            correctionAdd("MN", "Minnesota, United States");
+
+            correctionAdd("anti-semitic", "anti-Semitic");
+
+            correctionAdd("captuer", "capture");
+            correctionAdd("caputer", "capture");
+            correctionAdd("caupter", "capture");
+
+            correctionAdd("celabration", "celebration");
+
+            correctionAdd("celabrations", "celebrations");
+
+            correctionAdd("CPPcheck", "Cppcheck");
+            correctionAdd("cppcheck", "Cppcheck");
+            correctionAdd("CPPCheck", "Cppcheck");
+            correctionAdd("CppCheck", "Cppcheck");
+
+            correctionAdd("spell-check", "spellcheck");
+            correctionAdd("spell check", "spellcheck");
+
+            correctionAdd("doublecheck", "double check");
+            correctionAdd("double-check", "double check");
+
+            correctionAdd("re-check", "recheck");
+
+            correctionAdd("type check", "type-check");
+            correctionAdd("typecheck", "type-check");
+
+            correctionAdd("counter check", "countercheck");
+            correctionAdd("Counter check", "countercheck");
+
+            correctionAdd("cross check", "cross-check");
+            correctionAdd("crosscheck", "cross-check");
+
+            correctionAdd("cheak", "check");
+            correctionAdd("Cheak", "check");
+
+            correctionAdd("clibatic", "clbuttic");
+
+            correctionAdd("de-railing", "derailing");
+
+            correctionAdd("discriminaty", "discriminatory");
+
+            correctionAdd("efficency", "efficiency");
+
+            correctionAdd("evidense", "evidence");
+
+            correctionAdd("flight bans", "flight ban");
+            correctionAdd("flights band", "flight ban");
+            correctionAdd("flights ban", "flight ban");
+
+            correctionAdd("foriner", "foreigner");
+
+            correctionAdd("foriners", "foreigners");
+            correctionAdd("FORINERS", "foreigners");
+
+            correctionAdd("immitate", "imitate");
+
+            correctionAdd("MD5SUM", "md5sum");
+
+            correctionAdd("SERP", "search engine results page");
+
+            correctionAdd("seding", "sending");
+
+            correctionAdd("wild fire", "wildfire");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26629,6 +26686,7 @@ namespace OverflowHelper.core
             correctionAdd("Vaccin", "vaccine"); // Coronavirus
             correctionAdd("viccene", "vaccine"); // Coronavirus
             correctionAdd("vacine", "vaccine"); // Coronavirus
+            correctionAdd("vaxx", "vaccine"); // Coronavirus
 
             correctionAdd("vacination", "vaccination"); // Coronavirus
             correctionAdd("Vacination", "vaccination"); // Coronavirus
@@ -26926,6 +26984,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
             correctionAdd("ZOE", "ZOE app"); // Coronavirus
+            correctionAdd("Zoe app", "ZOE app"); // Coronavirus
 
             correctionAdd("vene", "vein"); // Coronavirus
 
@@ -26971,6 +27030,10 @@ namespace OverflowHelper.core
             correctionAdd("ifr", "infection fatality rate");
 
             correctionAdd("P1", "Brazilian variant");
+
+            correctionAdd("covax", "COVAX");
+
+            correctionAdd("PVT", "portal vein thrombosis");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -41584,6 +41647,50 @@ namespace OverflowHelper.core
             URL_Add("wordwise", "https://en.wiktionary.org/wiki/wordwise#Adverb");
 
             URL_Add("iTerm2", "https://en.wikipedia.org/wiki/ITerm2");
+
+            URL_Add("Hindu", "https://en.wiktionary.org/wiki/Hindu#Adjective");
+
+            URL_Add("Minnesota, United States", "https://en.wikipedia.org/wiki/Minnesota");
+
+            URL_Add("anti-Semitic", "https://en.wiktionary.org/wiki/anti-Semitic#Adjective");
+
+            URL_Add("capture", "https://en.wiktionary.org/wiki/capture#Noun");
+
+            URL_Add("celebration", "https://en.wiktionary.org/wiki/celebration#Noun");
+
+            URL_Add("celebrations", "https://en.wiktionary.org/wiki/celebration#Noun");
+
+            URL_Add("check", "https://en.wiktionary.org/wiki/check#Verb");
+
+            URL_Add("clbuttic", "https://en.wikipedia.org/wiki/Scunthorpe_problem");
+
+            URL_Add("derailing", "https://en.wiktionary.org/wiki/derail#Verb");
+
+            URL_Add("discriminatory", "https://en.wiktionary.org/wiki/discriminatory#Adjective");
+
+            URL_Add("efficiency", "https://en.wiktionary.org/wiki/efficiency#Noun");
+
+            URL_Add("evidence", "https://en.wiktionary.org/wiki/evidence#Noun");
+
+            URL_Add("flight ban", "https://en.wikipedia.org/wiki/Short-haul_flight_ban");
+
+            URL_Add("foreigner", "https://en.wiktionary.org/wiki/foreigner#Noun");
+
+            URL_Add("foreigners", "https://en.wiktionary.org/wiki/foreigner#Noun");
+
+            URL_Add("imitate", "https://en.wiktionary.org/wiki/imitate#Verb");
+
+            URL_Add("md5sum", "http://linux.die.net/man/1/md5sum");
+
+            URL_Add("search engine results page", "https://en.wikipedia.org/wiki/Search_engine_results_page");
+
+            URL_Add("sending", "https://en.wiktionary.org/wiki/send#Verb");
+
+            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
+
+            URL_Add("COVAX", "https://en.wikipedia.org/wiki/COVAX");
+
+            URL_Add("portal vein thrombosis", "https://en.wikipedia.org/wiki/Portal_vein_thrombosis");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
