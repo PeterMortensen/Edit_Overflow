@@ -228,8 +228,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # up incorrect terms (typically misspelling words)
     #
     def mainLookup(self, aURL):
-        # Initial page, with a (known) incorrect term different
-        # from the default of 'cpu': 'php'
+        # Initial page, with a (known) incorrect term ***different***
+        # from the ***default*** of 'cpu': 'php'
         #
         self.browser.get(aURL)
         time.sleep(2.0)
@@ -307,7 +307,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # The JavaScript (client-side) version
     #
     #def test_mainLookup(self):
-    def test_mainLookup_form(self):
+    def test_mainLookup_JavaScript(self):
 
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native')
         #pass
@@ -319,7 +319,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # The form-based (server roundtrip) version
     #
     #def test_mainLookup(self):
-    def test_mainLookup_JavaScript(self):
+    def test_mainLookup_form(self):
 
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=no&OverflowStyle=Native')
         #pass
