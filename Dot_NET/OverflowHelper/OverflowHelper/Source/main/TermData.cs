@@ -28313,7 +28313,7 @@ namespace OverflowHelper.core
 
             URL_Add("DOS", "https://en.wikipedia.org/wiki/DOS");
 
-            URL_Add("App&nbsp;Store", "https://en.wikipedia.org/wiki/App_Store_%28iOS%29");
+            URL_Add("App&nbsp;Store", "https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS)"); // Old: https://en.wikipedia.org/wiki/App_Store_%28iOS%29
 
             URL_Add("Mac", "https://en.wikipedia.org/wiki/Macintosh"); // Collision with MAC, Media Access Control (computer networking related).
 
@@ -32958,7 +32958,7 @@ namespace OverflowHelper.core
 
             URL_Add("external", "https://en.wiktionary.org/wiki/external#Adjective");
 
-            URL_Add("for the sake of", "https://en.wiktionary.org/wiki/for_the_sake_of#Preposition");
+            URL_Add("for the sake of", "https://en.wiktionary.org/wiki/for_the_sake_of#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/for_the_sake_of#Preposition
 
             URL_Add("integrate", "https://en.wiktionary.org/wiki/integrate#Verb");
 
@@ -36000,7 +36000,7 @@ namespace OverflowHelper.core
 
             URL_Add("FrSky", "https://www.frsky-rc.com/faq-page/");
 
-            URL_Add("George Floyd", "https://en.wikipedia.org/wiki/Killing_of_George_Floyd");
+            URL_Add("George Floyd", "https://en.wikipedia.org/wiki/Murder_of_George_Floyd"); // Old: https://en.wikipedia.org/wiki/Killing_of_George_Floyd
 
             URL_Add("Karen", "https://en.wiktionary.org/wiki/Karen#Noun");
 
