@@ -5068,6 +5068,7 @@ namespace OverflowHelper.core
             correctionAdd("somerthing", "something");
             correctionAdd("seomthing", "something");
             correctionAdd("somrthing", "something");
+            correctionAdd("smt", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -8936,6 +8937,7 @@ namespace OverflowHelper.core
             correctionAdd("Bascially", "basically");
             correctionAdd("bascially", "basically");
             correctionAdd("basicilly", "basically");
+            correctionAdd("basicallly", "basically");
 
             correctionAdd("mdi", "MDI");
 
@@ -26580,6 +26582,9 @@ namespace OverflowHelper.core
 
             correctionAdd("wild fire", "wildfire");
 
+            correctionAdd("spider monkey", "SpiderMonkey");
+            correctionAdd("spidermonkey", "SpiderMonkey");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26641,6 +26646,7 @@ namespace OverflowHelper.core
             correctionAdd("C-19", "COVID-19"); // Coronavirus
             correctionAdd("Covide-19", "COVID-19"); // Coronavirus
             correctionAdd("CoViD", "COVID-19"); // Coronavirus
+            correctionAdd("Convid", "COVID-19"); // Coronavirus
 
             correctionAdd("Corona Virus", "coronavirus"); // Coronavirus
             correctionAdd("Coronavirus", "coronavirus"); // Coronavirus
@@ -41691,6 +41697,8 @@ namespace OverflowHelper.core
             URL_Add("COVAX", "https://en.wikipedia.org/wiki/COVAX");
 
             URL_Add("portal vein thrombosis", "https://en.wikipedia.org/wiki/Portal_vein_thrombosis");
+
+            URL_Add("SpiderMonkey", "https://en.wikipedia.org/wiki/SpiderMonkey");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
