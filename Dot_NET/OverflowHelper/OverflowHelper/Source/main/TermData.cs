@@ -1253,6 +1253,8 @@ namespace OverflowHelper.core
             correctionAdd("macOS 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("macOS Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("MacOs Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("MAC Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("Mac Catalina", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -1985,6 +1987,7 @@ namespace OverflowHelper.core
             correctionAdd("wordress", "WordPress");
             correctionAdd("Word Press", "WordPress");
             correctionAdd("WOrdpress", "WordPress");
+            correctionAdd("Wp", "WordPress");
 
             correctionAdd("ssl", "SSL");
 
@@ -3769,6 +3772,7 @@ namespace OverflowHelper.core
             correctionAdd("https", "HTTPS");
             correctionAdd("Https", "HTTPS");
             correctionAdd("httpS", "HTTPS");
+            correctionAdd("htttps", "HTTPS");
 
             correctionAdd("jsonp", "JSONP");
             correctionAdd("JSON-P", "JSONP");
@@ -12379,6 +12383,7 @@ namespace OverflowHelper.core
             correctionAdd("appreicate", "appreciate");
             correctionAdd("appriciate", "appreciate");
             correctionAdd("apprciate", "appreciate");
+            correctionAdd("Appriciate", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -12819,6 +12824,7 @@ namespace OverflowHelper.core
             correctionAdd("MAC os", "macOS");
             correctionAdd("macOs", "macOS");
             correctionAdd("MAC OS", "macOS");
+            correctionAdd("mac OS", "macOS");
 
             correctionAdd("Netstat", "netstat");
 
@@ -14321,7 +14327,8 @@ namespace OverflowHelper.core
 
             correctionAdd("LOCATE", "locate");
 
-            correctionAdd("NANO", "nano");
+            correctionAdd("NANO", "nano"); // The text editor
+            correctionAdd("Nano", "nano"); // The text editor
 
             correctionAdd("POPD", "popd");
 
@@ -14422,6 +14429,7 @@ namespace OverflowHelper.core
             correctionAdd("folter", "folder");
             correctionAdd("foleder", "folder");
             correctionAdd("foler", "folder");
+            correctionAdd("floder", "folder");
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
@@ -17294,6 +17302,7 @@ namespace OverflowHelper.core
             correctionAdd("coponent", "component");
 
             correctionAdd("orginal", "original");
+            correctionAdd("orignal", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -18264,6 +18273,7 @@ namespace OverflowHelper.core
             correctionAdd("impliment", "implement");
             correctionAdd("Impliment", "implement");
             correctionAdd("implament", "implement");
+            correctionAdd("impement", "implement");
 
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
@@ -19938,6 +19948,7 @@ namespace OverflowHelper.core
 
             correctionAdd("let's encrypt", "Let's Encrypt");
             correctionAdd("lets encrypt", "Let's Encrypt");
+            correctionAdd("letsencrypt", "Let's Encrypt");
 
             correctionAdd("m3u8", "M3U8");
 
@@ -22852,6 +22863,7 @@ namespace OverflowHelper.core
 
             correctionAdd("effictiently", "efficiently");
             correctionAdd("effectiently", "efficiently");
+            correctionAdd("efficientlly", "efficiently");
 
             correctionAdd("fugittive", "fugitive");
 
@@ -23930,6 +23942,7 @@ namespace OverflowHelper.core
             correctionAdd("aprove", "approve");
 
             correctionAdd("assistence", "assistance");
+            correctionAdd("assitance", "assistance");
 
             correctionAdd("bourocratic", "bureaucratic");
             correctionAdd("Burocratic", "bureaucratic");
@@ -23956,6 +23969,9 @@ namespace OverflowHelper.core
             correctionAdd("any where", "anywhere");
             correctionAdd("anyhere", "anywhere");
             correctionAdd("anywehre", "anywhere");
+            correctionAdd("any ware", "anywhere");
+            correctionAdd("anyware", "anywhere");
+            correctionAdd("anywere", "anywhere");
 
             correctionAdd("else where", "elsewhere");
             correctionAdd("elsehwere", "elsewhere");
@@ -25271,6 +25287,7 @@ namespace OverflowHelper.core
 
             correctionAdd("irrisponsible", "irresponsible");
             correctionAdd("irresponsiple", "irresponsible");
+            correctionAdd("irresponsable", "irresponsible");
 
             correctionAdd("loop hole", "loophole");
 
@@ -26552,6 +26569,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cheak", "check");
             correctionAdd("Cheak", "check");
+            correctionAdd("ceck", "check");
 
             correctionAdd("clibatic", "clbuttic");
 
@@ -26584,6 +26602,31 @@ namespace OverflowHelper.core
 
             correctionAdd("spider monkey", "SpiderMonkey");
             correctionAdd("spidermonkey", "SpiderMonkey");
+
+            correctionAdd("csh", "C shell");
+
+            correctionAdd("NM", "New Mexico");
+
+            correctionAdd("afer", "after");
+
+            correctionAdd("beat-'em-up", "beat 'em up");
+            correctionAdd("Beat 'em Up", "beat 'em up");
+            correctionAdd("beat'em up", "beat 'em up");
+            correctionAdd("beat-em-up", "beat 'em up");
+
+            correctionAdd("choosen", "chosen");
+
+            correctionAdd("inadvertant", "inadvertent");
+            correctionAdd("Inadvertant", "inadvertent");
+
+            correctionAdd("infeority", "inferiority");
+
+            correctionAdd("lupe warm", "lukewarm");
+            correctionAdd("luke warm", "lukewarm");
+
+            correctionAdd("region", "religion");
+
+            correctionAdd("un-tick", "untick");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -26949,6 +26992,7 @@ namespace OverflowHelper.core
             correctionAdd("pfizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("the PFIZER", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("Pfizer vaccin", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -27040,6 +27084,8 @@ namespace OverflowHelper.core
             correctionAdd("covax", "COVAX");
 
             correctionAdd("PVT", "portal vein thrombosis");
+
+            correctionAdd("Serotonin", "serotonin");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -41699,6 +41745,28 @@ namespace OverflowHelper.core
             URL_Add("portal vein thrombosis", "https://en.wikipedia.org/wiki/Portal_vein_thrombosis");
 
             URL_Add("SpiderMonkey", "https://en.wikipedia.org/wiki/SpiderMonkey");
+
+            URL_Add("C shell", "https://en.wikipedia.org/wiki/C_shell");
+
+            URL_Add("New Mexico", "https://en.wikipedia.org/wiki/New_Mexico");
+
+            URL_Add("after", "https://en.wiktionary.org/wiki/after#Adverb");
+
+            URL_Add("beat 'em up", "https://en.wiktionary.org/wiki/beat_%27em_up#Noun");
+
+            URL_Add("chosen", "https://en.wiktionary.org/wiki/choose#Verb");
+
+            URL_Add("inadvertent", "https://en.wiktionary.org/wiki/inadvertent#Adjective");
+
+            URL_Add("inferiority", "https://en.wiktionary.org/wiki/inferiority#Noun");
+
+            URL_Add("lukewarm", "https://en.wiktionary.org/wiki/lukewarm#Adjective");
+
+            URL_Add("religion", "https://en.wiktionary.org/wiki/religion#Noun");
+
+            URL_Add("untick", "https://en.wiktionary.org/wiki/untick#Verb");
+
+            URL_Add("serotonin", "https://en.wikipedia.org/wiki/Serotonin");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
