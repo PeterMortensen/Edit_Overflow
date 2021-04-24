@@ -7491,6 +7491,10 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
+            correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
+
             correctionAdd("VS", "Visual&nbsp;Studio");
             correctionAdd("visual studio", "Visual&nbsp;Studio");
             correctionAdd("vs", "Visual&nbsp;Studio");
@@ -11317,6 +11321,8 @@ namespace OverflowHelper.core
 
             correctionAdd("programing", "programming");
             correctionAdd("pragramming", "programming");
+            correctionAdd("proggraming", "programming");
+            correctionAdd("proggramming", "programming");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -14194,6 +14200,7 @@ namespace OverflowHelper.core
             correctionAdd("DOS2UNIX", "dos2unix");
 
             correctionAdd("Line Feed", "line feed");
+            correctionAdd("linefeed", "line feed");
 
             correctionAdd("photoshoping", "photoshopping");
 
@@ -15257,6 +15264,7 @@ namespace OverflowHelper.core
             correctionAdd("specifici", "specific");
             correctionAdd("speacific", "specific");
             correctionAdd("speicfic", "specific");
+            correctionAdd("specfic", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -26627,6 +26635,8 @@ namespace OverflowHelper.core
             correctionAdd("region", "religion");
 
             correctionAdd("un-tick", "untick");
+
+            correctionAdd("NL", "newline");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41767,6 +41777,10 @@ namespace OverflowHelper.core
             URL_Add("untick", "https://en.wiktionary.org/wiki/untick#Verb");
 
             URL_Add("serotonin", "https://en.wikipedia.org/wiki/Serotonin");
+
+            URL_Add("Ubuntu 21.04 (Hirsute Hippo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)");
+
+            URL_Add("newline", "https://en.wiktionary.org/wiki/newline#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
