@@ -3142,12 +3142,6 @@ namespace OverflowHelper.core
             correctionAdd("W3c", "W3C");
             correctionAdd("W3", "W3C");
 
-            correctionAdd("afaik", "as far as I know");
-            correctionAdd("Afaik", "as far as I know");
-            correctionAdd("AFAIK", "as far as I know");
-            correctionAdd("IFAIK", "as far as I know");
-            correctionAdd("ifaik", "as far as I know");
-
             correctionAdd("dao", "DAO");
             correctionAdd("Dao", "DAO");
 
@@ -8723,6 +8717,8 @@ namespace OverflowHelper.core
             correctionAdd("hpux", "HP-UX");
             correctionAdd("HPUX", "HP-UX");
             correctionAdd("HP-Unix", "HP-UX");
+            correctionAdd("hp ux", "HP-UX");
+            correctionAdd("HP UX", "HP-UX");
 
             correctionAdd("SUNOS", "SunOS");
             correctionAdd("sunos", "SunOS");
@@ -10620,9 +10616,6 @@ namespace OverflowHelper.core
             correctionAdd("particuliar", "particular");
             correctionAdd("perticular", "particular");
 
-            correctionAdd("dunno", "don't know");
-            correctionAdd("Dunno", "don't know");
-
             correctionAdd("canadian", "Canadian");
 
             correctionAdd("pulseview", "PulseView");
@@ -10794,10 +10787,6 @@ namespace OverflowHelper.core
             correctionAdd("GIT extensions", "Git Extensions");
             correctionAdd("GIT ext", "Git Extensions");
             correctionAdd("git extension", "Git Extensions");
-
-            correctionAdd("idk", "I don't know");
-            correctionAdd("Idk", "I don't know");
-            correctionAdd("IDK", "I don't know");
 
             correctionAdd("invoke-expression", "Invoke-Expression");
             correctionAdd("Invoke-expression", "Invoke-Expression");
@@ -11489,6 +11478,7 @@ namespace OverflowHelper.core
             correctionAdd("Android Oreo", "Android 8.1 (Oreo)");
             correctionAdd("oreo", "Android 8.1 (Oreo)");
             correctionAdd("Oreo", "Android 8.1 (Oreo)");
+            correctionAdd("Android 8", "Android 8.1 (Oreo)");
 
             correctionAdd("Android 9", "Android 9.0 (Pie)");
             correctionAdd("Android P", "Android 9.0 (Pie)");
@@ -12348,6 +12338,7 @@ namespace OverflowHelper.core
             correctionAdd("warry", "worry");
             correctionAdd("wory", "worry");
             correctionAdd("worrt", "worry");
+            correctionAdd("wourrie", "worry");
 
             correctionAdd("fortnite", "Fortnite");
 
@@ -13275,9 +13266,23 @@ namespace OverflowHelper.core
             correctionAdd("in-house", "in house");
             correctionAdd("inhouse", "in house");
 
+            correctionAdd("afaik", "as far as I know");
+            correctionAdd("Afaik", "as far as I know");
+            correctionAdd("AFAIK", "as far as I know");
+            correctionAdd("IFAIK", "as far as I know");
+            correctionAdd("ifaik", "as far as I know");
+
+            correctionAdd("dunno", "don't know");
+            correctionAdd("Dunno", "don't know");
+
+            correctionAdd("idk", "I don't know");
+            correctionAdd("Idk", "I don't know");
+            correctionAdd("IDK", "I don't know");
+
             correctionAdd("knwo", "know");
             correctionAdd("khow", "know");
             correctionAdd("knoe", "know");
+            correctionAdd("konw", "know");
 
             correctionAdd("manu", "menu");
             correctionAdd("munu", "menu");
@@ -15009,6 +15014,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ksh", "KornShell");
             correctionAdd("korn shell", "KornShell");
+            correctionAdd("Kornshell", "KornShell");
+            correctionAdd("Korn shell", "KornShell");
 
             correctionAdd("openntp", "OpenNTPD");
 
@@ -22412,6 +22419,7 @@ namespace OverflowHelper.core
             correctionAdd("Nucleosynthesis", "nucleosynthesis");
 
             correctionAdd("originaly", "originally");
+            correctionAdd("orginally", "originally");
 
             correctionAdd("paralelly", "parallelly");
 
@@ -23395,6 +23403,7 @@ namespace OverflowHelper.core
             correctionAdd("Bigsur", "macOS v11 (Big Sur)");
             correctionAdd("Big sur", "macOS v11 (Big Sur)");
             correctionAdd("MacOS 11", "macOS v11 (Big Sur)");
+            correctionAdd("macOS Big Sur", "macOS v11 (Big Sur)");
 
             correctionAdd("single core", "single-core");
 
@@ -24579,6 +24588,7 @@ namespace OverflowHelper.core
             correctionAdd("re-set", "reset");
 
             correctionAdd("severre", "severe");
+            correctionAdd("servier", "severe");
 
             correctionAdd("stastisticaly", "statistically");
             correctionAdd("Stastisticly", "statistically");
@@ -25376,6 +25386,7 @@ namespace OverflowHelper.core
             correctionAdd("Zipcode", "ZIP Code");
             correctionAdd("ZIP code", "ZIP Code");
             correctionAdd("zip code", "ZIP Code");
+            correctionAdd("Zip code", "ZIP Code");
 
             correctionAdd("functional key", "function key");
 
@@ -26638,6 +26649,16 @@ namespace OverflowHelper.core
 
             correctionAdd("NL", "newline");
 
+            correctionAdd("adafruit", "Adafruit");
+
+            correctionAdd("pyusb", "PyUSB");
+
+            correctionAdd("airconditiong", "air conditioning");
+
+            correctionAdd("propogating", "propagating");
+
+            correctionAdd("speakig", "speaking");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26957,6 +26978,7 @@ namespace OverflowHelper.core
             correctionAdd("Iver Mectin", "ivermectin"); // Coronavirus
             correctionAdd("IVMCTN", "ivermectin"); // Coronavirus
             correctionAdd("Invermectin", "ivermectin"); // Coronavirus
+            correctionAdd("invermectin", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -27092,10 +27114,14 @@ namespace OverflowHelper.core
             correctionAdd("P1", "Brazilian variant");
 
             correctionAdd("covax", "COVAX");
+            correctionAdd("Covax", "COVAX");
 
             correctionAdd("PVT", "portal vein thrombosis");
 
             correctionAdd("Serotonin", "serotonin");
+
+            correctionAdd("Prenazone", "prednisolone");
+            correctionAdd("predisalone", "prednisolone");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -41781,6 +41807,18 @@ namespace OverflowHelper.core
             URL_Add("Ubuntu 21.04 (Hirsute Hippo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)");
 
             URL_Add("newline", "https://en.wiktionary.org/wiki/newline#Noun");
+
+            URL_Add("Adafruit", "https://en.wikipedia.org/wiki/Adafruit_Industries");
+
+            URL_Add("PyUSB", "https://pyusb.github.io/pyusb/");
+
+            URL_Add("air conditioning", "https://en.wiktionary.org/wiki/air_conditioning#Noun");
+
+            URL_Add("propagating", "https://en.wiktionary.org/wiki/propagate#Verb");
+
+            URL_Add("speaking", "https://en.wiktionary.org/wiki/speak#Verb");
+
+            URL_Add("prednisolone", "https://en.wikipedia.org/wiki/Prednisolone");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
