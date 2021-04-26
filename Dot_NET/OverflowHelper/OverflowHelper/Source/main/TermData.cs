@@ -16830,6 +16830,8 @@ namespace OverflowHelper.core
             correctionAdd("evans Gambit", "Evans Gambit"); // Chess
             correctionAdd("Evens gamit", "Evans Gambit"); // Chess
             correctionAdd("Evens gambit", "Evans Gambit"); // Chess
+            correctionAdd("Even's gambit", "Evans Gambit"); // Chess
+            correctionAdd("evans gmabit", "Evans Gambit"); // Chess
 
             correctionAdd("agadmator", "Antonio Radić"); // Chess
             correctionAdd("Agadmator", "Antonio Radić"); // Chess
@@ -20652,6 +20654,7 @@ namespace OverflowHelper.core
             correctionAdd("u", "you");
             correctionAdd("yuu", "you");
             correctionAdd("upi", "you"); // A true typo (of all three letters)!!!
+            correctionAdd("You", "you");
 
             correctionAdd("Zinc", "zinc");
 
@@ -26658,6 +26661,11 @@ namespace OverflowHelper.core
             correctionAdd("propogating", "propagating");
 
             correctionAdd("speakig", "speaking");
+
+            correctionAdd("Text Editing and Authoring", "TEA");
+            correctionAdd("tea", "TEA");
+
+            correctionAdd("re-arrange", "rearrange");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41819,6 +41827,10 @@ namespace OverflowHelper.core
             URL_Add("speaking", "https://en.wiktionary.org/wiki/speak#Verb");
 
             URL_Add("prednisolone", "https://en.wikipedia.org/wiki/Prednisolone");
+
+            URL_Add("TEA", "https://en.wikipedia.org/wiki/TEA_(text_editor)");
+
+            URL_Add("rearrange", "https://en.wiktionary.org/wiki/rearrange#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
