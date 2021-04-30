@@ -1049,6 +1049,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac/OSX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("osX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("OS x", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("MaxOSX", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
@@ -9333,6 +9334,7 @@ namespace OverflowHelper.core
             correctionAdd("down Vote", "downvote");
             correctionAdd("DownVote", "downvote");
             correctionAdd("Down Vote", "downvote");
+            correctionAdd("Down-vote", "downvote");
 
             correctionAdd("every", "every time"); // What is this????
             correctionAdd("everytime", "every time");
@@ -11395,6 +11397,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thier", "their");
             correctionAdd("theur", "their");
+            correctionAdd("thiere", "their");
 
             correctionAdd("BREXIT", "Brexit");
             correctionAdd("brexit", "Brexit");
@@ -12960,6 +12963,7 @@ namespace OverflowHelper.core
             correctionAdd("childd", "child");
 
             correctionAdd("contruct", "construct");
+            correctionAdd("constuct", "construct");
 
             correctionAdd("counter productive", "counterproductive");
 
@@ -14684,6 +14688,8 @@ namespace OverflowHelper.core
 
             correctionAdd("specificially", "specifically");
             correctionAdd("Specificially", "specifically");
+            correctionAdd("specificly", "specifically");
+            correctionAdd("specificaly", "specifically");
 
             correctionAdd("Summar", "summer");
             correctionAdd("summar", "summer");
@@ -19531,6 +19537,7 @@ namespace OverflowHelper.core
             correctionAdd("emdedded", "embedded");
             correctionAdd("ebmedded", "embedded");
             correctionAdd("embeded", "embedded");
+            correctionAdd("Embeded", "embedded");
 
             correctionAdd("Factory Pattern", "factory pattern");
 
@@ -23793,6 +23800,7 @@ namespace OverflowHelper.core
             correctionAdd("pre-defined", "predefined");
 
             correctionAdd("replacment", "replacement");
+            correctionAdd("replacemeent", "replacement");
 
             correctionAdd("scrapped", "scraped");
 
@@ -26713,6 +26721,32 @@ namespace OverflowHelper.core
 
             correctionAdd("wapon", "weapon");
             correctionAdd("wappon", "weapon");
+
+            correctionAdd("BibTex", "BibTeX");
+            correctionAdd("Bibtex", "BibTeX");
+
+            correctionAdd("Bitcloud", "BitClout");
+            correctionAdd("BitCloud", "BitClout");
+
+            correctionAdd("JDT", "Eclipse JDT");
+
+            correctionAdd("Parallel", "GNU Parallel");
+
+            correctionAdd("LSP", "Language Server Protocol");
+            correctionAdd("Language Server protocol", "Language Server Protocol");
+
+            correctionAdd("programming perl", "Programming Perl");
+
+            correctionAdd("clearifying", "clarifying");
+
+            correctionAdd("ns", "nanosecond");
+            correctionAdd("Nanosecond", "nanosecond");
+
+            correctionAdd("re-compilation", "recompilation");
+
+            correctionAdd("re-typing", "retyping");
+
+            correctionAdd("willy nilly", "willy-nilly");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -41907,6 +41941,28 @@ namespace OverflowHelper.core
             URL_Add("case fatality rate", "https://en.wikipedia.org/wiki/Case_fatality_rate");
 
             URL_Add("myocarditis", "https://en.wikipedia.org/wiki/Myocarditis");
+
+            URL_Add("BibTeX", "https://en.wikipedia.org/wiki/BibTeX");
+
+            URL_Add("BitClout", "https://en.wikipedia.org/wiki/BitClout");
+
+            URL_Add("Eclipse JDT", "https://en.wikipedia.org/wiki/Eclipse_(software)#Architecture");
+
+            URL_Add("GNU Parallel", "https://en.wikipedia.org/wiki/GNU_parallel");
+
+            URL_Add("Language Server Protocol", "https://en.wikipedia.org/wiki/Language_Server_Protocol");
+
+            URL_Add("Programming Perl", "https://en.wikipedia.org/wiki/Programming_Perl");
+
+            URL_Add("clarifying", "https://en.wiktionary.org/wiki/clarify#Verb");
+
+            URL_Add("nanosecond", "https://en.wiktionary.org/wiki/nanosecond#Noun");
+
+            URL_Add("recompilation", "https://en.wiktionary.org/wiki/recompilation#Noun");
+
+            URL_Add("retyping", "https://en.wiktionary.org/wiki/retype#Verb");
+
+            URL_Add("willy-nilly", "https://en.wiktionary.org/wiki/willy-nilly#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
