@@ -1124,6 +1124,8 @@ namespace OverflowHelper.core
             correctionAdd("OS X.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("7.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OS X.10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("MacOS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Mac OS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -10561,6 +10563,7 @@ namespace OverflowHelper.core
             correctionAdd("exerise", "exercise");
             correctionAdd("exesise", "exercise");
             correctionAdd("excersice", "exercise");
+            correctionAdd("excerisise", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -11181,6 +11184,7 @@ namespace OverflowHelper.core
 
             correctionAdd("complier", "compiler");
             correctionAdd("Compiler", "compiler");
+            correctionAdd("compliler", "compiler");
 
             correctionAdd("compter", "computer");
 
@@ -12568,6 +12572,7 @@ namespace OverflowHelper.core
             correctionAdd("essentialy", "essentially");
 
             correctionAdd("formating", "formatting");
+            correctionAdd("formmating", "formatting");
 
             correctionAdd("framerate", "frame rate");
 
@@ -12920,6 +12925,7 @@ namespace OverflowHelper.core
             correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
 
             correctionAdd("eslint", "ESLint");
+            correctionAdd("eslinter", "ESLint");
 
             correctionAdd("elance", "Elance");
 
@@ -13013,6 +13019,7 @@ namespace OverflowHelper.core
             correctionAdd("manualy", "manually");
             correctionAdd("mannually", "manually");
             correctionAdd("mannualy", "manually");
+            correctionAdd("manully", "manually");
 
             correctionAdd("multi meter", "multimeter");
             correctionAdd("Multimeter", "multimeter");
@@ -18749,6 +18756,9 @@ namespace OverflowHelper.core
             correctionAdd("fonctionality", "functionality");
             correctionAdd("fonctionnality", "functionality");
             correctionAdd("functionnality", "functionality");
+            correctionAdd("funccionallity", "functionality");
+            correctionAdd("funcionallity", "functionality");
+            correctionAdd("functionallity", "functionality");
 
             correctionAdd("long standing", "long-standing");
 
@@ -19081,6 +19091,7 @@ namespace OverflowHelper.core
 
             correctionAdd("specifing", "specifying");
             correctionAdd("Specifing", "specifying");
+            correctionAdd("specifiying", "specifying");
 
             correctionAdd("White noise", "white noise");
 
@@ -19803,6 +19814,8 @@ namespace OverflowHelper.core
             correctionAdd("re-license", "relicense");
 
             correctionAdd("sorey", "sorry");
+            correctionAdd("sry", "sorry");
+            correctionAdd("sory", "sorry");
 
             correctionAdd("cassini", "Cassini web server");
             correctionAdd("cassini web server", "Cassini web server");
@@ -20395,6 +20408,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sting", "string");
             correctionAdd("str", "string");
+            correctionAdd("strung", "string");
 
             correctionAdd("uncoment", "uncomment");
 
@@ -23344,6 +23358,7 @@ namespace OverflowHelper.core
             correctionAdd("UPD", "update");
             correctionAdd("UPDATE", "update");
             correctionAdd("upd", "update");
+            correctionAdd("updeate", "update");
 
             correctionAdd("volantory", "voluntary");
 
@@ -26748,6 +26763,28 @@ namespace OverflowHelper.core
 
             correctionAdd("willy nilly", "willy-nilly");
 
+            correctionAdd("chemspider", "ChemSpider");
+
+            correctionAdd("sram", "SRAM");
+
+            correctionAdd("USB3", "USB 3.0");
+
+            correctionAdd("artisitcally", "artistically");
+
+            correctionAdd("cab", "can");
+
+            correctionAdd("quiker", "quicker");
+
+            correctionAdd("re-format", "reformat");
+
+            correctionAdd("hash-pling", "shebang");
+            correctionAdd("sha-bang", "shebang");
+            correctionAdd("hashbang", "shebang");
+            correctionAdd("pound-bang", "shebang");
+
+            correctionAdd("vlume", "volume");
+            correctionAdd("vulme", "volume");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -27087,6 +27124,7 @@ namespace OverflowHelper.core
             correctionAdd("Pziezer", "Pfizer"); // Coronavirus
             correctionAdd("phyzer", "Pfizer"); // Coronavirus
             correctionAdd("plizfer", "Pfizer"); // Coronavirus
+            correctionAdd("Pfiser", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -41963,6 +42001,24 @@ namespace OverflowHelper.core
             URL_Add("retyping", "https://en.wiktionary.org/wiki/retype#Verb");
 
             URL_Add("willy-nilly", "https://en.wiktionary.org/wiki/willy-nilly#Adverb");
+
+            URL_Add("ChemSpider", "https://en.wikipedia.org/wiki/ChemSpider");
+
+            URL_Add("SRAM", "https://en.wikipedia.org/wiki/Static_random-access_memory");
+
+            URL_Add("USB 3.0", "https://en.wikipedia.org/wiki/USB_3.0");
+
+            URL_Add("artistically", "https://en.wiktionary.org/wiki/artistically#Adverb");
+
+            URL_Add("can", "https://en.wiktionary.org/wiki/can#Verb");
+
+            URL_Add("quicker", "https://en.wiktionary.org/wiki/quicker#Adjective");
+
+            URL_Add("reformat", "https://en.wiktionary.org/wiki/reformat#Verb");
+
+            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
+
+            URL_Add("volume", "https://en.wiktionary.org/wiki/volume#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
