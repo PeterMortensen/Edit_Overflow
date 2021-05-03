@@ -15451,6 +15451,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tat", "that");
             correctionAdd("taht", "that");
+            correctionAdd("thst", "that");
 
             correctionAdd("TR", "tr");
 
@@ -26784,6 +26785,13 @@ namespace OverflowHelper.core
 
             correctionAdd("vlume", "volume");
             correctionAdd("vulme", "volume");
+
+            correctionAdd("photography", "Photography (Stack Exchange site)");
+
+            correctionAdd("uSB2", "USB 2.0");
+            correctionAdd("USB2", "USB 2.0");
+
+            correctionAdd("non destructively", "nondestructively");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42019,6 +42027,12 @@ namespace OverflowHelper.core
             URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
 
             URL_Add("volume", "https://en.wiktionary.org/wiki/volume#Noun");
+
+            URL_Add("Photography (Stack Exchange site)", "https://photo.stackexchange.com/tour");
+
+            URL_Add("USB 2.0", "https://en.wikipedia.org/wiki/USB#USB_2.0");
+
+            URL_Add("nondestructively", "https://en.wiktionary.org/wiki/nondestructively");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
