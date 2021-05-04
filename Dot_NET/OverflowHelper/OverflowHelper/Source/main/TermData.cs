@@ -5269,6 +5269,8 @@ namespace OverflowHelper.core
             correctionAdd("skectch", "sketch");
             correctionAdd("skecth", "sketch");
             correctionAdd("skecht", "sketch");
+            correctionAdd("scetch", "sketch");
+            correctionAdd("schetch", "sketch");
 
             correctionAdd("POD", "plain old data structure");
             correctionAdd("pod", "plain old data structure");
@@ -9851,6 +9853,7 @@ namespace OverflowHelper.core
             correctionAdd("hexi-decimal", "hexadecimal");
             correctionAdd("hexdec", "hexadecimal");
             correctionAdd("Hexadecimal", "hexadecimal");
+            correctionAdd("Hexa", "hexadecimal");
 
             correctionAdd("neiboughood", "neighbourhood");
 
@@ -10213,6 +10216,7 @@ namespace OverflowHelper.core
             correctionAdd("rs485", "RS-485");
             correctionAdd("Rs485", "RS-485");
             correctionAdd("RS485", "RS-485");
+            correctionAdd("rs-485", "RS-485");
 
             correctionAdd("some times", "sometimes");
             correctionAdd("some time", "sometimes");
@@ -14956,6 +14960,7 @@ namespace OverflowHelper.core
 
             correctionAdd("most simple", "simplest");
             correctionAdd("simpliest", "simplest");
+            correctionAdd("simples", "simplest");
 
             correctionAdd("step by step", "step-by-step");
 
@@ -16542,6 +16547,7 @@ namespace OverflowHelper.core
             correctionAdd("triying", "trying");
             correctionAdd("tring", "trying");
             correctionAdd("tryin", "trying");
+            correctionAdd("tying", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -19061,6 +19067,8 @@ namespace OverflowHelper.core
             correctionAdd("Wordpress dev", "WordPress Development (Stack Exchange site)");
             correctionAdd("WordPress development", "WordPress Development (Stack Exchange site)");
             correctionAdd("WordPress Development", "WordPress Development (Stack Exchange site)");
+            correctionAdd("wordpress dev", "WordPress Development (Stack Exchange site)");
+            correctionAdd("WordPress dev", "WordPress Development (Stack Exchange site)");
 
             correctionAdd("achknowledged", "acknowledged");
 
@@ -19437,6 +19445,7 @@ namespace OverflowHelper.core
 
             correctionAdd("encorage", "encourage");
             correctionAdd("encorouge", "encourage");
+            correctionAdd("incourage", "encourage");
 
             correctionAdd("implicite", "implicit");
             correctionAdd("implict", "implicit");
@@ -19756,6 +19765,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Web SE", "Web Applications");
             correctionAdd("WebApps.StackExchange", "Web Applications");
+            correctionAdd("WebApps", "Web Applications");
+            correctionAdd("Web Apps", "Web Applications");
 
             // Of PowerShell...
             correctionAdd("get-process", "Get-Process");
@@ -21478,6 +21489,7 @@ namespace OverflowHelper.core
             correctionAdd("indonesia", "Indonesia");
             correctionAdd("indunesia", "Indonesia");
             correctionAdd("Indunesia", "Indonesia");
+            correctionAdd("Indonisia", "Indonesia");
 
             correctionAdd("nasm", "NASM");
 
@@ -22442,6 +22454,7 @@ namespace OverflowHelper.core
             correctionAdd("tp", "to");
 
             correctionAdd("unambigious", "unambiguous");
+            correctionAdd("unambigous", "unambiguous");
 
             correctionAdd("Dr. Fauchi", "Dr. Fauci");
             correctionAdd("fauci", "Dr. Fauci");
@@ -22737,6 +22750,7 @@ namespace OverflowHelper.core
 
             correctionAdd("authorites", "authorities");
             correctionAdd("authorties", "authorities");
+            correctionAdd("authoroties", "authorities");
 
             correctionAdd("burnd", "burned");
 
@@ -23917,6 +23931,7 @@ namespace OverflowHelper.core
 
             correctionAdd("compilant", "compliant");
             correctionAdd("compilani", "compliant");
+            correctionAdd("complaint", "compliant");
 
             correctionAdd("error free", "errorfree");
             correctionAdd("error-free", "errorfree");
@@ -24590,6 +24605,7 @@ namespace OverflowHelper.core
             correctionAdd("tireing", "tiring");
             correctionAdd("tiering", "tiring");
             correctionAdd("tyering", "tiring");
+            correctionAdd("tyring", "tiring");
 
             correctionAdd("bbcode", "BBCode");
 
@@ -26793,6 +26809,32 @@ namespace OverflowHelper.core
 
             correctionAdd("non destructively", "nondestructively");
 
+            correctionAdd("bluebird", "Bluebird");
+
+            correctionAdd("California", "California, United States");
+
+            correctionAdd("Chili", "Chile");
+
+            correctionAdd("NV", "Nevada, United States");
+
+            correctionAdd("Oracle ASM", "Oracle Automatic Storage Management");
+
+            correctionAdd("pySerial", "PySerial");
+
+            correctionAdd("Shog", "Shog9");
+
+            correctionAdd("entousiast", "enthusiast");
+
+            correctionAdd("in depth", "in-depth");
+
+            correctionAdd("ruels", "rules");
+
+            correctionAdd("super set", "superset");
+
+            correctionAdd("2 pennies' worth", "two pennies' worth");
+            correctionAdd("2 pence", "two pennies' worth");
+            correctionAdd("two pence", "two pennies' worth");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -26902,6 +26944,8 @@ namespace OverflowHelper.core
             correctionAdd("viccene", "vaccine"); // Coronavirus
             correctionAdd("vacine", "vaccine"); // Coronavirus
             correctionAdd("vaxx", "vaccine"); // Coronavirus
+            correctionAdd("baxine", "vaccine"); // Coronavirus. True typo.
+            correctionAdd("baccine", "vaccine"); // Coronavirus. True typo.
 
             correctionAdd("vacination", "vaccination"); // Coronavirus
             correctionAdd("Vacination", "vaccination"); // Coronavirus
@@ -27221,6 +27265,7 @@ namespace OverflowHelper.core
             correctionAdd("Sinovax", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
             correctionAdd("sinovac's vaccine", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
             correctionAdd("CoviVac", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
+            correctionAdd("Sinofarm", "Sinopharm COVID-19 vaccine (BBIBP-CorV)"); // Coronavirus
 
             correctionAdd("CureVac", "CureVac COVID-19 vaccine"); // Coronavirus
             correctionAdd("Curevac", "CureVac COVID-19 vaccine"); // Coronavirus
@@ -42033,6 +42078,30 @@ namespace OverflowHelper.core
             URL_Add("USB 2.0", "https://en.wikipedia.org/wiki/USB#USB_2.0");
 
             URL_Add("nondestructively", "https://en.wiktionary.org/wiki/nondestructively");
+
+            URL_Add("Bluebird", "https://github.com/petkaantonov/bluebird");
+
+            URL_Add("California, United States", "https://en.wikipedia.org/wiki/California");
+
+            URL_Add("Chile", "https://en.wikipedia.org/wiki/Chile");
+
+            URL_Add("Nevada, United States", "https://en.wikipedia.org/wiki/Nevada");
+
+            URL_Add("Oracle Automatic Storage Management", "https://en.wikipedia.org/wiki/Automatic_Storage_Management");
+
+            URL_Add("PySerial", "https://wiki.python.org/moin/PySerial");
+
+            URL_Add("Shog9", "https://meta.stackexchange.com/users/811/shog9");
+
+            URL_Add("enthusiast", "https://en.wiktionary.org/wiki/enthusiast#Noun");
+
+            URL_Add("in-depth", "https://en.wiktionary.org/wiki/in-depth");
+
+            URL_Add("rules", "https://en.wiktionary.org/wiki/rule#Noun");
+
+            URL_Add("superset", "https://en.wiktionary.org/wiki/superset#Noun");
+
+            URL_Add("two pennies' worth", "https://en.wiktionary.org/wiki/two_pennies%27_worth#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
