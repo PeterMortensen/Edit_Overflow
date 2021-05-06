@@ -2657,6 +2657,9 @@ namespace OverflowHelper.core
             correctionAdd("Facbook", "Facebook");
             correctionAdd("Facepalm", "Facebook");
             correctionAdd("Face Book", "Facebook");
+            correctionAdd("Bookface", "Facebook");
+            correctionAdd("bookface", "Facebook");
+            correctionAdd("Fakebook", "Facebook");
 
             correctionAdd("flickr", "Flickr");
 
@@ -3212,6 +3215,7 @@ namespace OverflowHelper.core
             correctionAdd("openSuse", "openSUSE");
             correctionAdd("OpenSuSE", "openSUSE");
             correctionAdd("Open Suse", "openSUSE");
+            correctionAdd("openSuSE", "openSUSE");
 
             correctionAdd("seperate", "separate");
             correctionAdd("separete", "separate");
@@ -3293,6 +3297,7 @@ namespace OverflowHelper.core
             correctionAdd("ditro", "distribution");
             correctionAdd("distor", "distribution"); // Misspelling. Expansion.
             correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("Distros", "distribution");
 
             correctionAdd("soap", "SOAP");
             correctionAdd("Soap", "SOAP");
@@ -8939,6 +8944,8 @@ namespace OverflowHelper.core
             correctionAdd("Atlest", "at least");
             correctionAdd("atlest", "at least");
             correctionAdd("at lest", "at least");
+            correctionAdd("At least", "at least");
+            correctionAdd("Atleast", "at least");
 
             correctionAdd("freq", "frequency");
             correctionAdd("frequancy", "frequency");
@@ -14557,6 +14564,7 @@ namespace OverflowHelper.core
             correctionAdd("grt", "great");
             correctionAdd("Gret", "great");
             correctionAdd("Great", "great");
+            correctionAdd("gr8", "great");
 
             correctionAdd("psedo", "pseudo");
             correctionAdd("psuedo", "pseudo");
@@ -15958,6 +15966,7 @@ namespace OverflowHelper.core
             correctionAdd("Zuckenberg", "Mark Zuckerberg");
             correctionAdd("Zuckerberg", "Mark Zuckerberg");
             correctionAdd("Zuckerbook", "Mark Zuckerberg");
+            correctionAdd("Zuk", "Mark Zuckerberg");
 
             correctionAdd("office space", "Office Space");
 
@@ -17627,6 +17636,7 @@ namespace OverflowHelper.core
 
             correctionAdd("raid 1", "RAID&nbsp;1");
             correctionAdd("RAID 1", "RAID&nbsp;1");
+            correctionAdd("RAID-1", "RAID&nbsp;1");
 
             correctionAdd("RAID 5", "RAID&nbsp;5");
             correctionAdd("Raid5", "RAID&nbsp;5");
@@ -21281,6 +21291,7 @@ namespace OverflowHelper.core
             correctionAdd("autodesk", "Autodesk");
 
             correctionAdd("hug", "huge");
+            correctionAdd("hugh", "huge");
 
             correctionAdd("ideomatic", "idiomatic");
 
@@ -26835,6 +26846,29 @@ namespace OverflowHelper.core
             correctionAdd("2 pence", "two pennies' worth");
             correctionAdd("two pence", "two pennies' worth");
 
+            correctionAdd("dolphin", "Dolphin");
+
+            correctionAdd("slax", "Slax");
+
+            correctionAdd("acamedic", "academic");
+
+            correctionAdd("cheked", "checked");
+            correctionAdd("Cheked", "checked");
+
+            correctionAdd("interpretaion", "interpretation");
+            correctionAdd("Interpretaion", "interpretation");
+
+            correctionAdd("judgemental", "judgmental");
+            correctionAdd("judge mental", "judgmental");
+
+            correctionAdd("millimeter", "millimetre");
+            correctionAdd("milimiter", "millimetre");
+            correctionAdd("milimeter", "millimetre");
+
+            correctionAdd("seem fit", "see fit");
+
+            correctionAdd("seems fit", "sees fit");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -27159,6 +27193,9 @@ namespace OverflowHelper.core
             correctionAdd("IVMCTN", "ivermectin"); // Coronavirus
             correctionAdd("Invermectin", "ivermectin"); // Coronavirus
             correctionAdd("invermectin", "ivermectin"); // Coronavirus
+            correctionAdd("ivm", "ivermectin"); // Coronavirus
+            correctionAdd("Iv3rm3ctin", "ivermectin"); // Coronavirus
+            correctionAdd("Ivar's nectarin", "ivermectin"); // Coronavirus
 
             correctionAdd("Polymerase chain reaction", "PCR"); // Coronavirus
             correctionAdd("pcr", "PCR"); // Coronavirus
@@ -27311,6 +27348,8 @@ namespace OverflowHelper.core
             correctionAdd("CFR", "case fatality rate");
 
             correctionAdd("Myocarditis", "myocarditis");
+
+            correctionAdd("HCW", "health care worker");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -42102,6 +42141,26 @@ namespace OverflowHelper.core
             URL_Add("superset", "https://en.wiktionary.org/wiki/superset#Noun");
 
             URL_Add("two pennies' worth", "https://en.wiktionary.org/wiki/two_pennies%27_worth#Noun");
+
+            URL_Add("Dolphin", "https://en.wikipedia.org/wiki/Dolphin_(file_manager)");
+
+            URL_Add("Slax", "https://en.wikipedia.org/wiki/Slax");
+
+            URL_Add("academic", "https://en.wiktionary.org/wiki/academic#Adjective");
+
+            URL_Add("checked", "https://en.wiktionary.org/wiki/check#Verb");
+
+            URL_Add("interpretation", "https://en.wiktionary.org/wiki/interpretation#Noun");
+
+            URL_Add("judgmental", "https://en.wiktionary.org/wiki/judgmental#Adjective");
+
+            URL_Add("millimetre", "https://en.wiktionary.org/wiki/millimetre#Noun");
+
+            URL_Add("see fit", "https://en.wiktionary.org/wiki/see_fit#Verb");
+
+            URL_Add("sees fit", "https://en.wiktionary.org/wiki/see_fit#Verb");
+
+            URL_Add("health care worker", "https://en.wikipedia.org/wiki/Health_professional");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
