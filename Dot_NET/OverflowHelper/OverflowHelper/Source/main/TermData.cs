@@ -3894,10 +3894,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gpl", "GPL");
 
-            correctionAdd("iirc", "if I remember correctly");
-            correctionAdd("Iirc", "if I remember correctly");
-            correctionAdd("IIRC", "if I remember correctly");
-
             // Of PowerShell...
             correctionAdd("get-variable", "Get-Variable");
 
@@ -8936,6 +8932,7 @@ namespace OverflowHelper.core
             correctionAdd("chineese", "Chinese");
             correctionAdd("Chineese", "Chinese");
             correctionAdd("chinease", "Chinese");
+            correctionAdd("chinise", "Chinese");
 
             correctionAdd("atleast", "at least");
             correctionAdd("alteast", "at least");
@@ -11237,8 +11234,13 @@ namespace OverflowHelper.core
             correctionAdd("BigO", "big O");
             correctionAdd("Big-O", "big O");
 
+            correctionAdd("iirc", "if I remember correctly");
+            correctionAdd("Iirc", "if I remember correctly");
+            correctionAdd("IIRC", "if I remember correctly");
+
             correctionAdd("correclty", "correctly");
             correctionAdd("corrdctly", "correctly");
+            correctionAdd("correcty", "correctly");
 
             correctionAdd("dict", "dictionary");
             correctionAdd("disctionary", "dictionary");
@@ -21820,6 +21822,7 @@ namespace OverflowHelper.core
             correctionAdd("Jeep", "jeep");
 
             correctionAdd("out side", "outside");
+            correctionAdd("outsite", "outside");
 
             correctionAdd("role", "roll");
 
@@ -26868,6 +26871,17 @@ namespace OverflowHelper.core
             correctionAdd("seem fit", "see fit");
 
             correctionAdd("seems fit", "sees fit");
+
+            correctionAdd("OneUI", "One UI");
+
+            correctionAdd("atributtes", "attributes");
+            correctionAdd("atributes", "attributes");
+
+            correctionAdd("forseen", "foreseen");
+
+            correctionAdd("IV", "initialization vector");
+
+            correctionAdd("seacrhing", "searching");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42161,6 +42175,16 @@ namespace OverflowHelper.core
             URL_Add("sees fit", "https://en.wiktionary.org/wiki/see_fit#Verb");
 
             URL_Add("health care worker", "https://en.wikipedia.org/wiki/Health_professional");
+
+            URL_Add("One UI", "https://en.wikipedia.org/wiki/One_UI");
+
+            URL_Add("attributes", "https://en.wiktionary.org/wiki/attribute#Noun");
+
+            URL_Add("foreseen", "https://en.wiktionary.org/wiki/foresee#Verb");
+
+            URL_Add("initialization vector", "https://en.wikipedia.org/wiki/Initialization_vector");
+
+            URL_Add("searching", "https://en.wiktionary.org/wiki/search#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
