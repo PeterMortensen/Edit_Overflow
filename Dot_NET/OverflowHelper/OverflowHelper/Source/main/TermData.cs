@@ -3882,6 +3882,7 @@ namespace OverflowHelper.core
             correctionAdd("certicate", "certificate");
             correctionAdd("certifcate", "certificate");
             correctionAdd("certitificate", "certificate");
+            correctionAdd("cerificate", "certificate");
 
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
@@ -15807,6 +15808,7 @@ namespace OverflowHelper.core
 
             correctionAdd("asuming", "assuming");
             correctionAdd("Asuming", "assuming");
+            correctionAdd("asusming", "assuming");
 
             correctionAdd("atribute", "attribute");
             correctionAdd("Attribut", "attribute");
@@ -16296,6 +16298,7 @@ namespace OverflowHelper.core
 
             correctionAdd("weater", "weather");
             correctionAdd("wheater", "weather");
+            correctionAdd("wethar", "weather");
 
             correctionAdd("Guttenberg", "Gutenberg");
 
@@ -16639,6 +16642,7 @@ namespace OverflowHelper.core
             correctionAdd("collequal", "colloquial");
 
             correctionAdd("Communist", "communist");
+            correctionAdd("coomunist", "communist");
 
             correctionAdd("Global warming", "global warming");
             correctionAdd("Global Warming", "global warming");
@@ -18232,8 +18236,6 @@ namespace OverflowHelper.core
             correctionAdd("app inventor", "App Inventor");
 
             correctionAdd("hairless", "Hairless");
-
-            correctionAdd("DAW", "digital audio workstation");
 
             correctionAdd("EULA", "end-user license agreement");
 
@@ -19918,6 +19920,7 @@ namespace OverflowHelper.core
 
             correctionAdd("form", "from");
             correctionAdd("Form", "from");
+            correctionAdd("fom", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -20936,6 +20939,7 @@ namespace OverflowHelper.core
             correctionAdd("usecase", "use case");
             correctionAdd("use-case", "use case");
             correctionAdd("Use Case", "use case");
+            correctionAdd("UseCase", "use case");
 
             correctionAdd("clearcase", "ClearCase");
             correctionAdd("Clearcase", "ClearCase");
@@ -21322,6 +21326,8 @@ namespace OverflowHelper.core
 
             correctionAdd("nuxt", "Nuxt.js");
             correctionAdd("Nuxt", "Nuxt.js");
+            correctionAdd("nuxt.js", "Nuxt.js");
+            correctionAdd("nuxt js", "Nuxt.js");
 
             correctionAdd("vue native", "Vue Native");
 
@@ -25386,6 +25392,7 @@ namespace OverflowHelper.core
             correctionAdd("irrisponsible", "irresponsible");
             correctionAdd("irresponsiple", "irresponsible");
             correctionAdd("irresponsable", "irresponsible");
+            correctionAdd("iresponsable", "irresponsible");
 
             correctionAdd("loop hole", "loophole");
 
@@ -25690,6 +25697,7 @@ namespace OverflowHelper.core
 
             correctionAdd("interms of", "in terms of");
             correctionAdd("interms", "in terms of");
+            correctionAdd("in therms of", "in terms of");
 
             correctionAdd("non-zero", "nonzero");
             correctionAdd("none-zero", "nonzero");
@@ -25745,6 +25753,7 @@ namespace OverflowHelper.core
             correctionAdd("conspitorial", "conspiratorial");
 
             correctionAdd("dangarous", "dangerous");
+            correctionAdd("dengerous", "dangerous");
 
             correctionAdd("egotitical", "egotistical");
 
@@ -26882,6 +26891,28 @@ namespace OverflowHelper.core
             correctionAdd("IV", "initialization vector");
 
             correctionAdd("seacrhing", "searching");
+
+            correctionAdd("Buenos aires", "Buenos Aires");
+
+            correctionAdd("kerbal space program", "Kerbal Space Program");
+            correctionAdd("KSP", "Kerbal Space Program");
+            correctionAdd("ksp", "Kerbal Space Program");
+            correctionAdd("Kerbal", "Kerbal Space Program");
+            correctionAdd("kerbal", "Kerbal Space Program");
+
+            correctionAdd("flightfath", "flight path");
+
+            correctionAdd("G-Force", "g-force");
+
+            correctionAdd("kickstart", "kick start");
+
+            correctionAdd("SNR", "signal-to-noise ratio");
+            correctionAdd("Signal-to-Noise Ratio", "signal-to-noise ratio");
+
+            correctionAdd("DAW", "digital audio workstation");
+
+            correctionAdd("statuon", "station");
+            correctionAdd("Statuon", "station");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42185,6 +42216,20 @@ namespace OverflowHelper.core
             URL_Add("initialization vector", "https://en.wikipedia.org/wiki/Initialization_vector");
 
             URL_Add("searching", "https://en.wiktionary.org/wiki/search#Verb");
+
+            URL_Add("Buenos Aires", "https://en.wikipedia.org/wiki/Buenos_Aires");
+
+            URL_Add("Kerbal Space Program", "https://en.wikipedia.org/wiki/Kerbal_Space_Program");
+
+            URL_Add("flight path", "https://en.wiktionary.org/wiki/flight_path#Noun");
+
+            URL_Add("g-force", "https://en.wikipedia.org/wiki/G-force");
+
+            URL_Add("kick start", "https://en.wiktionary.org/wiki/kick_start#Verb");
+
+            URL_Add("signal-to-noise ratio", "https://en.wikipedia.org/wiki/Signal-to-noise_ratio");
+
+            URL_Add("station", "https://en.wiktionary.org/wiki/station#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
