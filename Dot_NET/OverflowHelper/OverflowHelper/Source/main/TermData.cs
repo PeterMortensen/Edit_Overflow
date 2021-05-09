@@ -690,6 +690,8 @@ namespace OverflowHelper.core
             correctionAdd("MS-SQL-SERVER", "SQL&nbsp;Server");
             correctionAdd("M$ sql", "SQL&nbsp;Server");
             correctionAdd("Ms SQl server", "SQL&nbsp;Server");
+            correctionAdd("sql srever", "SQL&nbsp;Server");
+            correctionAdd("SQL Srever", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -23146,6 +23148,7 @@ namespace OverflowHelper.core
             correctionAdd("Bleach", "bleach");
 
             correctionAdd("CG", "center of gravity");
+            correctionAdd("c.g", "center of gravity");
 
             correctionAdd("emitter follower", "common collector");
             correctionAdd("Common Collector", "common collector");
@@ -26913,6 +26916,15 @@ namespace OverflowHelper.core
 
             correctionAdd("statuon", "station");
             correctionAdd("Statuon", "station");
+
+            correctionAdd("braking", "breaking");
+
+            correctionAdd("flamewar", "flame war");
+
+            correctionAdd("main stream", "mainstream");
+
+            correctionAdd("Stryofoam", "styrofoam");
+            correctionAdd("stryofoam", "styrofoam");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42230,6 +42242,14 @@ namespace OverflowHelper.core
             URL_Add("signal-to-noise ratio", "https://en.wikipedia.org/wiki/Signal-to-noise_ratio");
 
             URL_Add("station", "https://en.wiktionary.org/wiki/station#Noun");
+
+            URL_Add("breaking", "https://en.wiktionary.org/wiki/break#Verb");
+
+            URL_Add("flame war", "https://en.wiktionary.org/wiki/flame_war#Noun");
+
+            URL_Add("mainstream", "https://en.wiktionary.org/wiki/mainstream#Adjective");
+
+            URL_Add("styrofoam", "https://en.wikipedia.org/wiki/Styrofoam");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
