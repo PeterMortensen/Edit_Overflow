@@ -31,7 +31,10 @@
             the_EditOverflowHeadline("Some edit summary fragments");
         ?>
 
-        <form
+            <!-- It is not really a form - just a page where we want 
+                 to be able to tab between field (and )
+            -->
+            <form
             name="XYZ"
             method="post"
             action="EditOverflow.php"
@@ -342,6 +345,22 @@
                    id="X29"
                    class=""
                    value="Please respond by [editing your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
+                   style="width:830px;"
+                   accesskey="X"
+                   title=""
+               />
+            </p>
+
+            <p>Some older posts on Stack Overflow have strange syntax 
+               highlighting, probably caused by later changes to the 
+               Stack Exchange software
+               <br/>
+               <input
+                   name="X31"
+                   type="text"
+                   id="X31"
+                   class=""
+                   value="Fixed the weird syntax highlighting (as a result, the diff looks more extensive than it really is - use view &quot;Side-by-side markdown&quot; to compare). "
                    style="width:830px;"
                    accesskey="X"
                    title=""
