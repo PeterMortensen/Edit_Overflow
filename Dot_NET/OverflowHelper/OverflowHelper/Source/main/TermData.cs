@@ -9546,6 +9546,7 @@ namespace OverflowHelper.core
             correctionAdd("world war II", "World War II");
             correctionAdd("World war II", "World War II");
             correctionAdd("World war (II)", "World War II");
+            correctionAdd("WW II", "World War II");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -11189,6 +11190,9 @@ namespace OverflowHelper.core
             correctionAdd("world war 1", "World War I");
             correctionAdd("ww1", "World War I");
             correctionAdd("WW1", "World War I");
+            correctionAdd("first worldwar", "World War I");
+            correctionAdd("WWI", "World War I");
+            correctionAdd("WW I", "World War I");
 
             correctionAdd("write-verbose", "Write-Verbose");
             correctionAdd("Write-verbose", "Write-Verbose");
@@ -11503,6 +11507,7 @@ namespace OverflowHelper.core
             correctionAdd("Android 7", "Android 7.0 (Nougat)");
             correctionAdd("Nougart", "Android 7.0 (Nougat)");
             correctionAdd("Nougat", "Android 7.0 (Nougat)");
+            correctionAdd("Android N", "Android 7.0 (Nougat)");
 
             correctionAdd("Android 8.1", "Android 8.1 (Oreo)");
             correctionAdd("Android O", "Android 8.1 (Oreo)");
@@ -13081,6 +13086,9 @@ namespace OverflowHelper.core
             correctionAdd("Orange Julius", "Trump");
             correctionAdd("orange predecessor", "Trump");
             correctionAdd("Citizen Trump", "Trump");
+            correctionAdd("Mango Mussolini", "Trump");
+            correctionAdd("Dump", "Trump");
+            correctionAdd("Conald Chump", "Trump");
 
             correctionAdd("Yugoeslavia", "Yugoslavia");
 
@@ -15035,6 +15043,7 @@ namespace OverflowHelper.core
 
             correctionAdd("releated", "related");
             correctionAdd("realted", "related");
+            correctionAdd("realated", "related");
 
             correctionAdd("sattelite", "satellite");
             correctionAdd("satelite", "satellite");
@@ -19013,6 +19022,7 @@ namespace OverflowHelper.core
             correctionAdd("tutch", "touch");
 
             correctionAdd("walk through", "walkthrough");
+            correctionAdd("walk-through", "walkthrough");
 
             correctionAdd("BLM", "Black Lives Matter");
             correctionAdd("blm", "Black Lives Matter");
@@ -19420,6 +19430,8 @@ namespace OverflowHelper.core
             correctionAdd("inot", "into"); // True typo
 
             correctionAdd("priviledged", "privileged");
+            correctionAdd("privelaged", "privileged");
+            correctionAdd("priveleged", "privileged");
 
             correctionAdd("breath", "breathe");
 
@@ -20513,6 +20525,7 @@ namespace OverflowHelper.core
             correctionAdd("Messenger", "Facebook Messenger");
             correctionAdd("messenger", "Facebook Messenger");
             correctionAdd("messanger", "Facebook Messenger");
+            correctionAdd("messender", "Facebook Messenger");
 
             correctionAdd("fields medal", "Fields Medal");
             correctionAdd("Field's Medal", "Fields Medal");
@@ -26690,6 +26703,7 @@ namespace OverflowHelper.core
             correctionAdd("discriminaty", "discriminatory");
 
             correctionAdd("efficency", "efficiency");
+            correctionAdd("effeciency", "efficiency");
 
             correctionAdd("evidense", "evidence");
 
@@ -26925,6 +26939,41 @@ namespace OverflowHelper.core
 
             correctionAdd("Stryofoam", "styrofoam");
             correctionAdd("stryofoam", "styrofoam");
+
+            correctionAdd("Algol 60", "ALGOL 60");
+            correctionAdd("Algol-60", "ALGOL 60");
+            correctionAdd("ALGOL60", "ALGOL 60");
+            correctionAdd("Algol60", "ALGOL 60");
+
+            correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
+            correctionAdd("eks", "Amazon Elastic Kubernetes Service");
+            correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
+
+            correctionAdd("FDM", "Free Download Manager");
+
+            correctionAdd("Putin", "Vladimir Putin");
+
+            correctionAdd("sny", "any");
+
+            correctionAdd("HLL", "high-level programming language");
+
+            correctionAdd("icecube", "ice cube");
+
+            correctionAdd("IaC", "infrastructure as code");
+
+            correctionAdd("lanucher", "launcher");
+
+            correctionAdd("Least Recently Used", "least recently used");
+            correctionAdd("LRU", "least recently used");
+
+            correctionAdd("ripoff", "rip-off");
+            correctionAdd("rip off", "rip-off");
+
+            correctionAdd("winodw", "window");
+            correctionAdd("Winodw", "window");
+
+            correctionAdd("passioned", "passionate");
+            correctionAdd("pasioned", "passionate");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -27173,6 +27222,8 @@ namespace OverflowHelper.core
             correctionAdd("Astra vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Astrozenica vaccine", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("astra vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("Chadox1", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("ChAdOx1", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -42250,6 +42301,32 @@ namespace OverflowHelper.core
             URL_Add("mainstream", "https://en.wiktionary.org/wiki/mainstream#Adjective");
 
             URL_Add("styrofoam", "https://en.wikipedia.org/wiki/Styrofoam");
+
+            URL_Add("ALGOL 60", "https://en.wikipedia.org/wiki/ALGOL_60");
+
+            URL_Add("Amazon Elastic Kubernetes Service", "https://aws.amazon.com/eks/");
+
+            URL_Add("Free Download Manager", "https://en.wikipedia.org/wiki/Free_Download_Manager");
+
+            URL_Add("Vladimir Putin", "https://en.wikipedia.org/wiki/Vladimir_Putin");
+
+            URL_Add("any", "https://en.wiktionary.org/wiki/any#Adverb");
+
+            URL_Add("high-level programming language", "https://en.wikipedia.org/wiki/High-level_programming_language");
+
+            URL_Add("ice cube", "https://en.wiktionary.org/wiki/ice_cube#Noun");
+
+            URL_Add("infrastructure as code", "https://en.wikipedia.org/wiki/Infrastructure_as_code");
+
+            URL_Add("launcher", "https://en.wiktionary.org/wiki/launcher#Noun");
+
+            URL_Add("least recently used", "https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)");
+
+            URL_Add("rip-off", "https://en.wiktionary.org/wiki/rip-off#Noun");
+
+            URL_Add("window", "https://en.wiktionary.org/wiki/window#Noun");
+
+            URL_Add("passionate", "https://en.wiktionary.org/wiki/passionate#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
