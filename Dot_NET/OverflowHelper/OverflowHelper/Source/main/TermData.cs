@@ -2063,6 +2063,8 @@ namespace OverflowHelper.core
             correctionAdd("mongoo", "MongoDB");
             correctionAdd("mongo DB", "MongoDB");
             correctionAdd("monogdb", "MongoDB");
+            correctionAdd("MongoBD", "MongoDB");
+            correctionAdd("mongobd", "MongoDB");
 
             // Wikipedia can not handle having an entry, instead it is tugged into
             // the article about LinkedIn!!!
@@ -11252,6 +11254,7 @@ namespace OverflowHelper.core
             correctionAdd("dict", "dictionary");
             correctionAdd("disctionary", "dictionary");
             correctionAdd("dictinary", "dictionary");
+            correctionAdd("dictionare", "dictionary");
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
@@ -12514,6 +12517,8 @@ namespace OverflowHelper.core
             correctionAdd("nither", "neither");
 
             correctionAdd("offical", "official");
+            correctionAdd("Offical", "official");
+            correctionAdd("Official", "official");
 
             correctionAdd("other wise", "otherwise");
             correctionAdd("o/w", "otherwise");
@@ -22981,8 +22986,6 @@ namespace OverflowHelper.core
 
             correctionAdd("he's", "his");
 
-            correctionAdd("in addiction", "in addition");
-
             correctionAdd("jouce", "juice");
 
             correctionAdd("Kanban", "kanban");
@@ -23001,8 +23004,6 @@ namespace OverflowHelper.core
 
             correctionAdd("num", "number");
             correctionAdd("no", "number");
-
-            correctionAdd("obcession", "obsession");
 
             correctionAdd("permanantly", "permanently");
             correctionAdd("permentantly", "permanently");
@@ -24031,6 +24032,8 @@ namespace OverflowHelper.core
             correctionAdd("asperger", "Asperger syndrome");
             correctionAdd("aspergers", "Asperger syndrome");
             correctionAdd("Aspergers", "Asperger syndrome");
+            correctionAdd("Asbergers", "Asperger syndrome");
+            correctionAdd("asbergers", "Asperger syndrome");
 
             correctionAdd("Farmville", "FarmVille");
 
@@ -25465,7 +25468,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Nose", "nose");
 
+            correctionAdd("obcession", "obsession");
+
             correctionAdd("seesion", "session");
+            correctionAdd("sesion", "session");
 
             correctionAdd("XKCD", "xkcd");
             correctionAdd("Xkcd", "xkcd");
@@ -25623,7 +25629,10 @@ namespace OverflowHelper.core
 
             correctionAdd("vauge", "vague");
 
+            correctionAdd("in addiction", "in addition");
+
             correctionAdd("additon", "addition");
+            correctionAdd("addion", "addition");
 
             correctionAdd("client side", "client-side");
 
@@ -26974,6 +26983,16 @@ namespace OverflowHelper.core
 
             correctionAdd("passioned", "passionate");
             correctionAdd("pasioned", "passionate");
+
+            correctionAdd("Dinar", "dinar");
+
+            correctionAdd("mayority", "majority");
+
+            correctionAdd("more pretty", "prettier");
+
+            correctionAdd("re-throw", "rethrow");
+
+            correctionAdd("wronng", "wrong");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42327,6 +42346,16 @@ namespace OverflowHelper.core
             URL_Add("window", "https://en.wiktionary.org/wiki/window#Noun");
 
             URL_Add("passionate", "https://en.wiktionary.org/wiki/passionate#Adjective");
+
+            URL_Add("dinar", "https://en.wiktionary.org/wiki/dinar#Noun");
+
+            URL_Add("majority", "https://en.wiktionary.org/wiki/majority#Noun");
+
+            URL_Add("prettier", "https://en.wiktionary.org/wiki/prettier#Adjective");
+
+            URL_Add("rethrow", "https://en.wiktionary.org/wiki/rethrow#Verb");
+
+            URL_Add("wrong", "https://en.wiktionary.org/wiki/wrong#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
