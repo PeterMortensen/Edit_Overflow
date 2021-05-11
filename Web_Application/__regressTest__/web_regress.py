@@ -307,6 +307,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # The JavaScript (client-side) version
     #
     #def test_mainLookup(self):
+    @unittest.skip("Skipping test_mainLookup_JavaScript() for now")
     def test_mainLookup_JavaScript(self):
 
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native')
