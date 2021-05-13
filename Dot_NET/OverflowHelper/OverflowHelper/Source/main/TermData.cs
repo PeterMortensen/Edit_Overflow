@@ -779,6 +779,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pl/sql", "PL/SQL");
             correctionAdd("plsql", "PL/SQL");
+            correctionAdd("PL SQL", "PL/SQL");
 
             correctionAdd("msn", "MSN");
 
@@ -1849,13 +1850,6 @@ namespace OverflowHelper.core
             correctionAdd("idle", "IDLE");
             correctionAdd("Idle", "IDLE");
 
-            //correctionAdd("SP", "SharePoint"); // Collisions with stored procedure. And possibly Service Pack?
-            correctionAdd("Sharepoint", "SharePoint");
-            correctionAdd("sharepoint", "SharePoint");
-            correctionAdd("share point", "SharePoint");
-            correctionAdd("share-point", "SharePoint");
-            correctionAdd("sharePoint", "SharePoint");
-
             correctionAdd("paypal", "PayPal");
             correctionAdd("pay pal", "PayPal");
             correctionAdd("Paypal", "PayPal");
@@ -2375,13 +2369,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
-
-            correctionAdd("powerpoint", "PowerPoint");
-            correctionAdd("power point", "PowerPoint");
-            correctionAdd("Powerpoint", "PowerPoint");
-            correctionAdd("Power Point", "PowerPoint");
-            correctionAdd("power-point", "PowerPoint");
-            correctionAdd("POWERPOINT", "PowerPoint");
 
             correctionAdd("c#", "C#");
             correctionAdd("C Sharp", "C#");
@@ -8066,11 +8053,6 @@ namespace OverflowHelper.core
             correctionAdd("Mine craft", "Minecraft");
             correctionAdd("Minceraft", "Minecraft");
 
-            correctionAdd("AP", "access point");
-            correctionAdd("Access point", "access point");
-            correctionAdd("Access Point", "access point");
-            correctionAdd("access-point", "access point");
-
             correctionAdd("pop3", "POP3");
 
             correctionAdd("imap", "IMAP");
@@ -8669,6 +8651,7 @@ namespace OverflowHelper.core
             correctionAdd("thougt", "thought");
             correctionAdd("tought", "thought");
             correctionAdd("thaut", "thought");
+            correctionAdd("thaught", "thought");
 
             correctionAdd("idl", "IDL");
 
@@ -8963,6 +8946,7 @@ namespace OverflowHelper.core
             correctionAdd("bascially", "basically");
             correctionAdd("basicilly", "basically");
             correctionAdd("basicallly", "basically");
+            correctionAdd("basiacally", "basically");
 
             correctionAdd("mdi", "MDI");
 
@@ -9046,8 +9030,6 @@ namespace OverflowHelper.core
             correctionAdd("what`s", "what's");
             correctionAdd("What's", "what's");
             correctionAdd("whts", "what's");
-
-            correctionAdd("american", "American");
 
             correctionAdd("indian", "Indian");
             //  correctionAdd("", "Indian");   missing one
@@ -9600,6 +9582,7 @@ namespace OverflowHelper.core
             correctionAdd("build-in", "built-in");
             correctionAdd("in-build", "built-in");
             correctionAdd("buildin", "built-in");
+            correctionAdd("bulit in", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -10763,10 +10746,6 @@ namespace OverflowHelper.core
 
             correctionAdd("refered", "referred");
             correctionAdd("reffered", "referred");
-
-            correctionAdd("brake point", "breakpoint");
-            correctionAdd("break point", "breakpoint");
-            correctionAdd("break-point", "breakpoint");
 
             correctionAdd("up to date", "up-to-date");
             correctionAdd("up2date", "up-to-date");
@@ -12123,6 +12102,7 @@ namespace OverflowHelper.core
             correctionAdd("Spring boot", "Spring Boot");
             correctionAdd("springboot", "Spring Boot");
             correctionAdd("Springboot", "Spring Boot");
+            correctionAdd("spring-boot", "Spring Boot");
 
             correctionAdd("accesible", "accessible");
             correctionAdd("accessable", "accessible");
@@ -13576,9 +13556,6 @@ namespace OverflowHelper.core
 
             correctionAdd("correctnes", "correctness");
 
-            correctionAdd("datapoint", "data point");
-            correctionAdd("data-point", "data point");
-
             correctionAdd("dimentional", "dimensional");
 
             correctionAdd("eloquenctly", "eloquently");
@@ -14303,6 +14280,8 @@ namespace OverflowHelper.core
             correctionAdd("containng", "containing");
             correctionAdd("containg", "containing");
             correctionAdd("contaning", "containing");
+            correctionAdd("cantaing", "containing");
+            correctionAdd("cantaning", "containing");
 
             correctionAdd("verifed", "verified");
 
@@ -14803,8 +14782,6 @@ namespace OverflowHelper.core
             correctionAdd("back slash", "backslash");
             correctionAdd("backlash", "backslash");
             correctionAdd("baskslash", "backslash");
-
-            correctionAdd("bulletpoint", "bullet point");
 
             correctionAdd("boot-camp", "coding bootcamp");
             correctionAdd("coding boot-camp", "coding bootcamp");
@@ -15330,6 +15307,7 @@ namespace OverflowHelper.core
             correctionAdd("speacific", "specific");
             correctionAdd("speicfic", "specific");
             correctionAdd("specfic", "specific");
+            correctionAdd("spacific", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -15492,8 +15470,6 @@ namespace OverflowHelper.core
             correctionAdd("vaule", "value");
             correctionAdd("vlaue", "value");
 
-            correctionAdd("view point", "viewpoint");
-
             correctionAdd("WHOAMI", "whoami");
 
             correctionAdd("ALT", "Alt");
@@ -15585,8 +15561,6 @@ namespace OverflowHelper.core
             correctionAdd("Never ending", "neverending");
 
             correctionAdd("optinal", "optional");
-
-            correctionAdd("pin point", "pinpoint");
 
             correctionAdd("PROCMAIL", "procmail");
 
@@ -15732,8 +15706,6 @@ namespace OverflowHelper.core
             correctionAdd("NER", "named-entity recognition");
 
             correctionAdd("offchance", "off chance");
-
-            correctionAdd("re-point", "repoint");
 
             correctionAdd("Spacy", "spaCy");
 
@@ -17725,8 +17697,6 @@ namespace OverflowHelper.core
             correctionAdd("taxing", "taxiing");
             correctionAdd("taxying", "taxiing");
 
-            correctionAdd("trashcan", "trash can");
-
             correctionAdd("unsable", "unusable");
 
             correctionAdd("fiance", "fiancé");
@@ -18042,8 +18012,6 @@ namespace OverflowHelper.core
 
             correctionAdd("enduser", "end user");
             correctionAdd("end-user", "end user");
-
-            correctionAdd("must have", "must-have");
 
             correctionAdd("bruteforce", "brute-force attack");
             correctionAdd("bruteforce attack", "brute-force attack");
@@ -18898,6 +18866,7 @@ namespace OverflowHelper.core
             correctionAdd("manufacturered", "manufactured");
 
             correctionAdd("Middleware", "middleware");
+            correctionAdd("middle ware", "middleware");
 
             correctionAdd("superceeded", "superseded");
             correctionAdd("superceded", "superseded");
@@ -19042,8 +19011,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lufthansa", "Lufthansa");
 
-            correctionAdd("native american", "Native American");
-
             correctionAdd("plm", "Programmer Lives Matter"); // From a single TechLead video
             correctionAdd("PLM", "Programmer Lives Matter");
 
@@ -19143,8 +19110,6 @@ namespace OverflowHelper.core
             correctionAdd("omnisharp", "OmniSharp");
 
             correctionAdd("slovakia", "Slovakia");
-
-            correctionAdd("van neumann", "Von Neumann machine");
 
             correctionAdd("command pallette", "command palette");
             correctionAdd("command pallet", "command palette");
@@ -19257,8 +19222,43 @@ namespace OverflowHelper.core
 
             correctionAdd("no-follow", "nofollow");
 
+            //correctionAdd("SP", "SharePoint"); // Collisions with stored procedure. And possibly Service Pack?
+            correctionAdd("Sharepoint", "SharePoint");
+            correctionAdd("sharepoint", "SharePoint");
+            correctionAdd("share point", "SharePoint");
+            correctionAdd("share-point", "SharePoint");
+            correctionAdd("sharePoint", "SharePoint");
+
+            correctionAdd("powerpoint", "PowerPoint");
+            correctionAdd("power point", "PowerPoint");
+            correctionAdd("Powerpoint", "PowerPoint");
+            correctionAdd("Power Point", "PowerPoint");
+            correctionAdd("power-point", "PowerPoint");
+            correctionAdd("POWERPOINT", "PowerPoint");
+
+            correctionAdd("AP", "access point");
+            correctionAdd("Access point", "access point");
+            correctionAdd("Access Point", "access point");
+            correctionAdd("access-point", "access point");
+
+            correctionAdd("brake point", "breakpoint");
+            correctionAdd("break point", "breakpoint");
+            correctionAdd("break-point", "breakpoint");
+
+            correctionAdd("datapoint", "data point");
+            correctionAdd("data-point", "data point");
+
+            correctionAdd("bulletpoint", "bullet point");
+
+            correctionAdd("view point", "viewpoint");
+
+            correctionAdd("pin point", "pinpoint");
+
+            correctionAdd("re-point", "repoint");
+
             correctionAdd("piont", "point");
             correctionAdd("oint", "point");
+            correctionAdd("pt", "point");
 
             correctionAdd("standard faire", "standard fare");
 
@@ -20990,9 +20990,6 @@ namespace OverflowHelper.core
 
             correctionAdd("youd", "you'd");
 
-            correctionAdd("African American", "African-American");
-            correctionAdd("african american", "African-American");
-
             correctionAdd("australia", "Australia");
             correctionAdd("austrailia", "Australia");
             correctionAdd("Oz", "Australia");
@@ -22267,6 +22264,7 @@ namespace OverflowHelper.core
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
+            correctionAdd("kakfa", "Kafka");
 
             correctionAdd("OpenBox", "Openbox");
             correctionAdd("openbox", "Openbox");
@@ -23202,10 +23200,6 @@ namespace OverflowHelper.core
 
             correctionAdd("El Ninja", "La Niña");
 
-            correctionAdd("mexican", "Mexican");
-
-            correctionAdd("mexicans", "Mexicans");
-
             correctionAdd("sddm", "SDDM");
 
             correctionAdd("Date of Birth", "date of birth");
@@ -23456,8 +23450,6 @@ namespace OverflowHelper.core
             correctionAdd("EdXPosed", "EdXposed");
             correctionAdd("Edxposed", "EdXposed");
             correctionAdd("edxposed", "EdXposed");
-
-            correctionAdd("jbehave", "JBehave");
 
             correctionAdd("sre", "SRE");
 
@@ -23829,7 +23821,11 @@ namespace OverflowHelper.core
 
             correctionAdd("sufferring", "suffering");
 
-            correctionAdd("Von Neuman machine", "von Neuman machine");
+            correctionAdd("Von Neuman machine", "von Neumann machine");
+            correctionAdd("von Neumann", "von Neumann machine");
+            correctionAdd("von Neuman machine", "von Neumann machine");
+            correctionAdd("Von Neumann machine", "von Neumann machine");
+            correctionAdd("van neumann", "von Neumann machine");
 
             correctionAdd("capybara", "Capybara");
 
@@ -24254,6 +24250,7 @@ namespace OverflowHelper.core
             correctionAdd("wiki holiday", "wikiholiday");
             correctionAdd("Wikiholiday", "wikiholiday");
             correctionAdd("Wiki holiday", "wikiholiday");
+            correctionAdd("wikiholic", "wikiholiday");
 
             correctionAdd("History", "History (Stack Exchange site)");
 
@@ -24877,6 +24874,7 @@ namespace OverflowHelper.core
             correctionAdd("full stack web developer", "full-stack developer");
 
             correctionAdd("instantanious", "instantaneous");
+            correctionAdd("instantaious", "instantaneous");
 
             correctionAdd("mpv player", "mpv");
 
@@ -25529,6 +25527,7 @@ namespace OverflowHelper.core
             correctionAdd("IDS", "intrusion detection system");
 
             correctionAdd("letf", "left");
+            correctionAdd("leaved", "left");
 
             correctionAdd("Language", "programming language");
             correctionAdd("Programming Language", "programming language");
@@ -25595,9 +25594,6 @@ namespace OverflowHelper.core
             correctionAdd("Geekie", "geeky");
 
             correctionAdd("passe", "passed");
-
-            correctionAdd("should've", "should have");
-            correctionAdd("shoulda", "should have");
 
             correctionAdd("BeiJing", "Beijing");
 
@@ -26185,7 +26181,16 @@ namespace OverflowHelper.core
 
             correctionAdd("GROUPADD", "groupadd");
 
+            correctionAdd("must have", "must-have");
+
+            correctionAdd("jbehave", "JBehave");
+
+            correctionAdd("should've", "should have");
+            correctionAdd("shoulda", "should have");
+
             correctionAdd("hava", "have");
+            correctionAdd("Hvae", "have");
+            correctionAdd("hvae", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -26587,6 +26592,7 @@ namespace OverflowHelper.core
             correctionAdd("inital", "initial");
 
             correctionAdd("rovide", "provide");
+            correctionAdd("proide", "provide");
 
             correctionAdd("re-apply", "reapply");
 
@@ -26837,7 +26843,21 @@ namespace OverflowHelper.core
 
             correctionAdd("artisitcally", "artistically");
 
+            correctionAdd("american", "American");
+
+            correctionAdd("trashcan", "trash can");
+
+            correctionAdd("native american", "Native American");
+
+            correctionAdd("African American", "African-American");
+            correctionAdd("african american", "African-American");
+
+            correctionAdd("mexican", "Mexican");
+
+            correctionAdd("mexicans", "Mexicans");
+
             correctionAdd("cab", "can");
+            correctionAdd("cann", "can");
 
             correctionAdd("quiker", "quicker");
 
@@ -26993,6 +27013,17 @@ namespace OverflowHelper.core
             correctionAdd("re-throw", "rethrow");
 
             correctionAdd("wronng", "wrong");
+
+            correctionAdd("clear type", "ClearType");
+            correctionAdd("clear-type", "ClearType");
+
+            correctionAdd("oxford comma", "Oxford comma");
+
+            correctionAdd("xiaomi", "Xiaomi");
+
+            correctionAdd("Newton", "newton");
+
+            correctionAdd("non destructive", "nondestructive");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -36533,8 +36564,6 @@ namespace OverflowHelper.core
 
             URL_Add("Slovakia", "https://en.wikipedia.org/wiki/Slovakia");
 
-            URL_Add("Von Neumann machine", "https://en.wikipedia.org/wiki/Von_Neumann_cellular_automaton");
-
             URL_Add("command palette", "https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette");
 
             URL_Add("document", "https://en.wiktionary.org/wiki/document#Noun");
@@ -39661,7 +39690,7 @@ namespace OverflowHelper.core
 
             URL_Add("suffering", "https://en.wiktionary.org/wiki/suffering#Noun");
 
-            URL_Add("von Neuman machine", "https://en.wikipedia.org/wiki/Von_Neumann_architecture");
+            URL_Add("von Neumann machine", "https://en.wikipedia.org/wiki/Von_Neumann_architecture");
 
             URL_Add("Capybara", "https://en.wikipedia.org/wiki/Capybara_(software)");
 
@@ -42356,6 +42385,16 @@ namespace OverflowHelper.core
             URL_Add("rethrow", "https://en.wiktionary.org/wiki/rethrow#Verb");
 
             URL_Add("wrong", "https://en.wiktionary.org/wiki/wrong#Adverb");
+
+            URL_Add("ClearType", "https://en.wikipedia.org/wiki/ClearType");
+
+            URL_Add("Oxford comma", "https://en.wikipedia.org/wiki/Serial_comma");
+
+            URL_Add("Xiaomi", "https://en.wikipedia.org/wiki/Xiaomi");
+
+            URL_Add("newton", "https://en.wikipedia.org/wiki/Newton_(unit)");
+
+            URL_Add("nondestructive", "https://en.wiktionary.org/wiki/nondestructive#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
