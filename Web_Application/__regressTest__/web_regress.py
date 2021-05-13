@@ -306,6 +306,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     # The JavaScript (client-side) version
     #
+    # The skip: suppress running one of the tests (it will not pass
+    #           until we implement the cross-platform system -
+    #           with single source for C#, PHP, and JavaScript).
+    #
     #def test_mainLookup(self):
     @unittest.skip("Skipping test_mainLookup_JavaScript() for now")
     def test_mainLookup_JavaScript(self):
