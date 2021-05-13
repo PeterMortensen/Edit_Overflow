@@ -353,7 +353,8 @@
 
             <p>Some older posts on Stack Overflow have strange syntax 
                highlighting, probably caused by later changes to the 
-               Stack Exchange software
+               Stack Exchange software. Possible code fencing formatting: 
+                ```lang-none, ```lang-javascript, ```lang-html 
                <br/>
                <input
                    name="X31"
