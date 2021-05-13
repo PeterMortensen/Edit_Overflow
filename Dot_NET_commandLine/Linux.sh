@@ -112,13 +112,15 @@ export EFFECTIVE_DATE='2020-10-24'
 export EFFECTIVE_DATE='2021-02-03'
 
 
-export SELINUM_DRIVERSCRIPT_FILENAME='/home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py'
+export SELINUM_DRIVERSCRIPT_DIR='/home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__'
+export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
 # To make the unit test run ***itself*** succeed when we
-# use a single build folder. We use a file name for the
-# file containing "Main()" that does not end in ".cs" in
-# order to hide it (until after the unit tests have run).
+# use a single build folder, we rename a file... We use
+# a file name for the file containing "Main()" that
+# does not end in ".cs" in order to hide it (until
+# after the unit tests have run).
 #
 # Otherwise we will get an error like this:
 #
@@ -523,11 +525,28 @@ echo
 # For now: Not assuming executable 'geckodriver' is in the path
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 
-# For now: directly from the source
-# folder, not the work folder
-#
-python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 11 $? "web interface regression tests"
 
+# For exploring what "discover" is actually useful for...
+#
+#cd ${SELINUM_DRIVERSCRIPT_DIR}
+#ls -lsatr
+##python3 -m unittest discover  # Nothing is output to the screen from the python3 line...
+##python3 -m unittest discover $SELINUM_DRIVERSCRIPT_FILENAME
+#python3 -m unittest discover $SELINUM_DRIVERSCRIPT_DIR   # No tests are run "Ran 0 tests in 0.000s"
+#cd -
+
+
+# For now: directly from the source folder,
+#          not the work folder
+#
+# Note: We can run a specific test, but we can't do the opposite,
+#       ***exclude*** a particular test from the command line
+#       ("not" is supported in Pytest, but not in 'unittest').
+#       This is instead done by modification of
+#       the 'web_regress.py' file.
+#
+#python3 $SELINUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
+python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 11 $? "web interface regression tests"
 
 
 # List the result files - for manual checking
