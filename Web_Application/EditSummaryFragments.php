@@ -290,7 +290,7 @@
                    class=""
                    value="Used more standard formatting (we have italics and bold on this platform). "
                    style="width:830px;"
-                   accesskey="X"
+                   accesskey=""
                    title=""
                />
             </p>
@@ -312,7 +312,7 @@
                    class=""
                    value="<http://stackoverflow.com/legal/trademark-guidance> (the last section) "
                    style="width:830px;"
-                   accesskey="X"
+                   accesskey=""
                    title=""
                />
             </p>
@@ -329,7 +329,7 @@
                    class=""
                    value="More affirmative answer (this is not a forum - see e.g. <http://meta.stackexchange.com/a/92115>. It is a think tank (see <http://meta.stackoverflow.com/a/325681>). "
                    style="width:830px;"
-                   accesskey="X"
+                   accesskey=""
                    title=""
                />
             </p>
@@ -346,7 +346,7 @@
                    class=""
                    value="Please respond by [editing your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
                    style="width:830px;"
-                   accesskey="X"
+                   accesskey=""
                    title=""
                />
             </p>
@@ -354,7 +354,7 @@
             <p>Some older posts on Stack Overflow have strange syntax 
                highlighting, probably caused by later changes to the 
                Stack Exchange software. Possible code fencing formatting: 
-                ```lang-none, ```lang-javascript, ```lang-html 
+                ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash 
                <br/>
                <input
                    name="X31"
@@ -363,7 +363,7 @@
                    class=""
                    value="Fixed the weird syntax highlighting (as a result, the diff looks more extensive than it really is - use view &quot;Side-by-side markdown&quot; to compare). "
                    style="width:830px;"
-                   accesskey="X"
+                   accesskey=""
                    title=""
                />
             </p>
@@ -469,8 +469,8 @@
                    class=""
                    value="<https://www.wikihow.com/Use-You%27re-and-Your> "
                    style="width:340px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -487,8 +487,8 @@
                    class=""
                    value="<https://www.wikihow.com/Use-There,-Their-and-They%27re> "
                    style="width:400px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -504,8 +504,8 @@
                    class=""
                    value="<https://www.wikihow.com/Use-Affect-and-Effect-Properly> "
                    style="width:380px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -522,7 +522,7 @@
                    class=""
                    value="<http://www.wikihow.com/Use-Where,-Were-and-We're> "
                    style="width:380px;"
-                   accesskey="X"
+                   accesskey=""
                    title=""
                />
             </p>
