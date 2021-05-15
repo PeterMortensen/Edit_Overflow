@@ -111,8 +111,11 @@ export EFFECTIVE_DATE='2020-09-29'
 export EFFECTIVE_DATE='2020-10-24'
 export EFFECTIVE_DATE='2021-02-03'
 
+export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
+export WEB_SRCFOLDER_BASE="${SRCFOLDER_BASE}/Web_Application"
 
-export SELINUM_DRIVERSCRIPT_DIR='/home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__'
+
+export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
 export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
@@ -144,7 +147,6 @@ export FILE_WITH_MAIN_ENTRY_HIDE=${FILE_WITH_MAIN_ENTRY}ZZZ
 ##export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
 #export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
 #export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
-export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
 export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
 
 
@@ -157,9 +159,9 @@ export FTPTRANSFER_FOLDER_HTML=${WORKFOLDER}/_transfer_HTML
 export FTPTRANSFER_FOLDER_JAVASCRIPT=${WORKFOLDER}/_transfer_JavaScript
 
 
-export SRCFOLDER_DOTNET=$SRCFOLDER_BASE/Dot_NET
-export SRCFOLDER_DOTNETCOMMANDLINE=$SRCFOLDER_BASE/Dot_NET_commandLine
-export SRCFOLDER_WEB=$SRCFOLDER_BASE/Web_Application
+export SRCFOLDER_DOTNET=${SRCFOLDER_BASE}/Dot_NET
+export SRCFOLDER_DOTNETCOMMANDLINE=${SRCFOLDER_BASE}/Dot_NET_commandLine
+export SRCFOLDER_WEB=${SRCFOLDER_BASE}/Web_Application
 
 
 export SRCFOLDER_CORE=$SRCFOLDER_DOTNET/OverflowHelper/OverflowHelper/Source/main
@@ -191,6 +193,10 @@ export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
 export FTP_SITE_URL='ftp://linux42.simply.com'
 
 
+export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
+
+
+
 # ###########################################################################
 #
 # Helper function to test a build step for errors. We exit
@@ -203,10 +209,28 @@ export FTP_SITE_URL='ftp://linux42.simply.com'
 function evaluateBuildResult() {
 
     case $2 in
-      0|7) echo "Build step $1 succeeded"    >&2        ;;
-      *)   echo "Build step $1 ($3) failed." >&2 ; exit ;;
+      0|7) echo ; echo "Build step $1 succeeded"    >&2               ;;
+      *)   echo ; echo "Build step $1 ($3) failed." >&2 ; echo ; exit ;;
     esac
 }
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy
+#
+function keyboardShortcutConsistencyCheck() {
+
+    echo
+    echo
+    echo "$3. Starting keyboard shortcut consistency check for $1..."
+    echo
+
+    perl -w $WEBFORM_CHECK_FILENAME ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
+}
+
+
+
 
 
 # ###########################################################################
@@ -222,7 +246,8 @@ echo
 # one will be used, risking not running all of the Seleniums
 # tests (a sort of a (potential) ***false negative*** test).
 #
-cd /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__
+#cd /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__
+cd ${SELINUM_DRIVERSCRIPT_DIR}
 pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
 
 
@@ -455,6 +480,9 @@ cd $WEBFOLDER
 npm test  ; evaluateBuildResult 8 $? "JavaScript unit tests"
 
 # Back to the previous folder (expected to be the work folder)
+#
+echo
+# But will output something...
 cd -
 
 
@@ -513,8 +541,6 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 10 $? "copying the word list in Java
 #
 
 
-
-
 # ###########################################################################
 #
 echo
@@ -525,7 +551,6 @@ echo
 # For now: Not assuming executable 'geckodriver' is in the path
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 
-
 # For exploring what "discover" is actually useful for...
 #
 #cd ${SELINUM_DRIVERSCRIPT_DIR}
@@ -534,7 +559,6 @@ export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 ##python3 -m unittest discover $SELINUM_DRIVERSCRIPT_FILENAME
 #python3 -m unittest discover $SELINUM_DRIVERSCRIPT_DIR   # No tests are run "Ran 0 tests in 0.000s"
 #cd -
-
 
 # For now: directly from the source folder,
 #          not the work folder
@@ -549,6 +573,18 @@ export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 11 $? "web interface regression tests"
 
 
+
+
+keyboardShortcutConsistencyCheck EditOverflow.php         "Edit Overflow lookup" 12
+keyboardShortcutConsistencyCheck Text.php                 "text stuff"           13
+keyboardShortcutConsistencyCheck FixedStrings.php         "fixed string"         14
+keyboardShortcutConsistencyCheck EditSummaryFragments.php "edit summary"         15
+
+
+
+
+# ###########################################################################
+#
 # List the result files - for manual checking
 #
 echo
