@@ -108,8 +108,8 @@
 
             if (array_key_exists('resetState', $_REQUEST))
             {
-                $URLlist_encoded = ""; # Clear out the memory (between pages,
-                                       # for the edit summary)
+                $URLlist_encoded = "";  # Clear out the memory (between pages,
+                                        # for the edit summary)
             }
 
 
@@ -206,10 +206,10 @@
                 # ("URLlist_encoded". See below in the HTML form part,
                 # near 'name="URLlist_encoded"').
                 #
-                $URLlist_encoded = $URLlist_encoded . "____" . $URL; #Note: we get a leading "____"
-                                                                     #      for the first item (and
-                                                                     #      thus an empty entry when
-                                                                     #)     decoding it).
+                $URLlist_encoded = $URLlist_encoded . "____" . $URL;  #Note: we get a leading "____"
+                                                                      #      for the first item (and
+                                                                      #      thus an empty entry when
+                                                                      #)     decoding it).
 
                 $linkInlineMarkdown = "[$correctTerm]($URL)";
 
@@ -271,9 +271,9 @@
             $items = array_filter($items); # Get rid of empty elements
 
             # Wrap each item in "<>" (URL encoded)
-            $items = substr_replace($items, '&lt;', 0, 0); # That is, insert "&lt;" at
-                                                           # the beginning of the
-                                                           # element of the array
+            $items = substr_replace($items, '&lt;', 0, 0);  # That is, insert "&lt;" at
+                                                            # the beginning of the
+                                                            # element of the array
             $items = preg_replace('/$/', '&gt;', $items);
             $elements = count($items);
 
@@ -288,12 +288,12 @@
             #
             $URLlist2 =
                 join(', and ',
-                     array_filter(
-                         array_merge(
-                             array(
-                                 join(', ',
-                                      array_slice($items, 0, -1))),
-                                      array_slice($items, -1)), 'strlen'));
+                      array_filter(
+                          array_merge(
+                              array(
+                                  join(', ',
+                                        array_slice($items, 0, -1))),
+                                        array_slice($items, -1)), 'strlen'));
 
             # Revert: Adjust for two elements (no comma)
             if ($elements == 2)
@@ -458,8 +458,8 @@
                         $linkText = "Look up on <strong>W</strong>ikipedia";
 
                         $URL = "https://duckduckgo.com/html/?q=" .
-                               "Wikipedia%20$lookUpTerm"
-                               ;
+                                "Wikipedia%20$lookUpTerm"
+                                ;
                         $extraAttributes =
                           $EOL_andBaseIndent .
                           "   accesskey=\"W\"$EOL_andBaseIndent" .
@@ -467,8 +467,8 @@
                           ;
 
                         $linkPart = get_HTMLlink($linkText,
-                                                 $URL,
-                                                 $extraAttributes);
+                                                  $URL,
+                                                  $extraAttributes);
 
                         echo $linkPart . $EOL_andBaseIndent;
 
@@ -525,8 +525,8 @@
                     autofocus
                 />
 
-                <!-- Note: we keep the same identifier "CorrectedTerm", even
-                           if the lookup fails.
+                <!-- Note: we keep the same identifier "CorrectedTerm",
+                            even if the lookup fails.
                 -->
                 <label for="CorrectedTerm">
                     <?php
@@ -706,8 +706,8 @@
                 ?>
 
                 <!-- Hidden field, structured format for remembering the
-                     items for the edit summary (currently the list
-                     of associated URLs for the successful term lookups) -->
+                      items for the edit summary (currently the list
+                      of associated URLs for the successful term lookups) -->
                 <input
                     name="URLlist_encoded"
                     type="hidden"
@@ -731,7 +731,7 @@
 
                 <!-- Submit button  -->
                 <!-- For 'value' (the displayed text in the button), tags 'u'
-                     or 'strong' do not work!! -->
+                      or 'strong' do not work!! -->
 
                 <!--
                     action="#"

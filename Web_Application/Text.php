@@ -205,8 +205,8 @@
                 {
                     echo "<br/><br/>\n";
                     echo "Failed test. ID: $ID. $lenBefore characters before. " .
-                         "$lenAfter characters after. " .
-                         "Expected difference: $aLengthDiff. Actual: $diff\n";
+                          "$lenAfter characters after. " .
+                          "Expected difference: $aLengthDiff. Actual: $diff\n";
 
                     echo "<br/><br/>\n";
                     echo "Before: XXX" . $aOrigText . "XXX. \n";
@@ -283,19 +283,20 @@
                 # But at least $aLengthDiff should be a multiplum
                 # of $leadingSpaceToRemove:
 
-                if (! (
-                        (  $aLengthDiff >= $leadingSpaceToRemove)       &&
-
-                        (
-                          ($leadingSpaceToRemove === 0) # Guard for division
-                                                        # by zero - short circuit
-                                                        # Boolean presumed
-
-                                                   ||
-                          (($aLengthDiff % $leadingSpaceToRemove) === 0)
+                if  (!  (
+                          (  $aLengthDiff >= $leadingSpaceToRemove)       &&
+                        
+                          (
+                            ($leadingSpaceToRemove === 0) # Guard for division
+                                                          # by zero - short circuit
+                                                          # Boolean presumed
+                        
+                                                      ||
+                        
+                            (($aLengthDiff % $leadingSpaceToRemove) === 0)
+                          )
                         )
-                      )
-                   )
+                    )
                 {
                     echo "<br/><br/>\n";
                     echo
@@ -578,10 +579,10 @@
                         $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
 
                         $someText = removeCommonLeadingSpaces(
-                                       $someText, $leadingSpaceToRemove);
+                                        $someText, $leadingSpaceToRemove);
 
                         $message = "<p>Removed " . $leadingSpaceToRemove .
-                                   " leading spaces from all lines...</p>\n";
+                                    " leading spaces from all lines...</p>\n";
                         break;
 
                     default:
@@ -616,7 +617,7 @@
                 accesskey="T"
                 title="Shortcut: Shift + Alt + T"
             ><?php
-                 echo "$someText";
+                echo "$someText";
             ?></textarea>
 
 

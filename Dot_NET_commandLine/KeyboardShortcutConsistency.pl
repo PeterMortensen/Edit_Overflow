@@ -44,7 +44,33 @@ $exitCode = 0;
 
 while (<>)
 {
+    chop;
+
     $line++;
+    my $len = length;
+    #print "$len - >>>$_<<<\n\n";
+
+    my $leadingSpace = "";
+    if (/^(\s+)/)
+    {
+        $leadingSpace = $1;
+    }
+    my $leadingSpaces = length $leadingSpace;
+    #print "$leadingSpaces leading spaces - >>>$_<<<\n\n";
+
+    my $hasUnevenSpaces = $leadingSpaces % 2;
+    #print "Uneven: $leadingSpaces leading spaces - >>>$_<<<\n\n"
+    #  if $hasUnevenSpaces;
+
+    if ($hasUnevenSpaces)
+    {
+        print
+          "\nUneven: $leadingSpaces leading spaces " .
+          "on line $line. " .
+          #"For \"$value\"\n"
+          "";
+        $exitCode = 3;
+    }
 
     if (/value=\"(.*)\"/) # The copyable content (not strictly
                           # needed when we have line numbers -

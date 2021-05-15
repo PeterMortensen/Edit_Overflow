@@ -226,9 +226,8 @@ function keyboardShortcutConsistencyCheck() {
     echo "$3. Starting keyboard shortcut consistency check for $1..."
     echo
 
-    perl -w $WEBFORM_CHECK_FILENAME ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
+    perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
 }
-
 
 
 
@@ -574,12 +573,13 @@ python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 11 $? "web interfa
 
 
 
-
 keyboardShortcutConsistencyCheck EditOverflow.php         "Edit Overflow lookup" 12
-keyboardShortcutConsistencyCheck Text.php                 "text stuff"           13
-keyboardShortcutConsistencyCheck FixedStrings.php         "fixed string"         14
-keyboardShortcutConsistencyCheck EditSummaryFragments.php "edit summary"         15
 
+keyboardShortcutConsistencyCheck Text.php                 "text stuff"           13
+
+keyboardShortcutConsistencyCheck FixedStrings.php         "fixed string"         14
+
+keyboardShortcutConsistencyCheck EditSummaryFragments.php "edit summary"         15
 
 
 
