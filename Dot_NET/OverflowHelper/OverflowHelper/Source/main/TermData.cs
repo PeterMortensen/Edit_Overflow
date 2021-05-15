@@ -6984,6 +6984,9 @@ namespace OverflowHelper.core
             correctionAdd("Of course", "of course");
             correctionAdd("OF course", "of course");
             correctionAdd("Of-course", "of course");
+            correctionAdd("O/c", "of course");
+            correctionAdd("o/c", "of course");
+            correctionAdd("oc", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -9657,6 +9660,8 @@ namespace OverflowHelper.core
             correctionAdd("uF", "µF");
 
             correctionAdd("appearence", "appearance");
+            correctionAdd("appearrance", "appearance");
+            correctionAdd("appearrence", "appearance");
 
             correctionAdd("dymancyly", "dynamically");
             correctionAdd("dynamicly", "dynamically");
@@ -9800,6 +9805,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gulp", "Gulp.js");
             correctionAdd("Gulp", "Gulp.js");
+            correctionAdd("GULP", "Gulp.js");
 
             correctionAdd("intel hex", "Intel HEX");
 
@@ -12668,6 +12674,7 @@ namespace OverflowHelper.core
             correctionAdd("gibraltar", "Gibraltar");
 
             correctionAdd("kubuntu", "Kubuntu");
+            correctionAdd("KUbuntu", "Kubuntu");
 
             correctionAdd("Luke skywalker", "Luke Skywalker");
 
@@ -12770,6 +12777,7 @@ namespace OverflowHelper.core
             correctionAdd("collpase", "collapse");
 
             correctionAdd("comming", "coming");
+            correctionAdd("Comming", "coming");
 
             correctionAdd("compition", "competition");
 
@@ -16755,6 +16763,7 @@ namespace OverflowHelper.core
             correctionAdd("capablanca", "José Raúl Capablanca"); // Chess
 
             correctionAdd("En passant", "en passant"); // Chess
+            correctionAdd("en peasant", "en passant"); // Chess
 
             correctionAdd("english opening", "English Opening"); // Chess
             correctionAdd("English opening", "English Opening"); // Chess
@@ -21235,6 +21244,7 @@ namespace OverflowHelper.core
             correctionAdd("Promise", "promise");
 
             correctionAdd("waist", "waste");
+            correctionAdd("waiste", "waste");
 
             correctionAdd("argb", "ARGB");
 
@@ -23615,6 +23625,7 @@ namespace OverflowHelper.core
             correctionAdd("FSTAB", "fstab");
 
             correctionAdd("onces", "once");
+            correctionAdd("Once", "once");
 
             correctionAdd("smalled", "smaller");
 
@@ -25976,6 +25987,7 @@ namespace OverflowHelper.core
             correctionAdd("wear out", "wearout");
 
             correctionAdd("Chechnia", "Chechnya");
+            correctionAdd("Cechya", "Chechnya");
 
             correctionAdd("Cypres", "Cyprus");
 
@@ -27024,6 +27036,23 @@ namespace OverflowHelper.core
             correctionAdd("Newton", "newton");
 
             correctionAdd("non destructive", "nondestructive");
+
+            correctionAdd("ghostery", "Ghostery");
+
+            correctionAdd("oppy", "Opportunity");
+
+            correctionAdd("upstart", "Upstart");
+
+            correctionAdd("happenning", "happening");
+
+            correctionAdd("helpt", "helped");
+
+            correctionAdd("pre-existing", "preexisting");
+
+            correctionAdd("roleacoster", "rollercoaster");
+
+            correctionAdd("waisting", "wasting");
+            correctionAdd("waising", "wasting");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42395,6 +42424,22 @@ namespace OverflowHelper.core
             URL_Add("newton", "https://en.wikipedia.org/wiki/Newton_(unit)");
 
             URL_Add("nondestructive", "https://en.wiktionary.org/wiki/nondestructive#Adjective");
+
+            URL_Add("Ghostery", "https://en.wikipedia.org/wiki/Ghostery");
+
+            URL_Add("Opportunity", "https://en.wikipedia.org/wiki/Opportunity_(rover)");
+
+            URL_Add("Upstart", "https://en.wikipedia.org/wiki/Upstart_(software)");
+
+            URL_Add("happening", "https://en.wiktionary.org/wiki/happen#Verb");
+
+            URL_Add("helped", "https://en.wiktionary.org/wiki/help#Verb");
+
+            URL_Add("preexisting", "https://en.wiktionary.org/wiki/preexisting#Adjective");
+
+            URL_Add("rollercoaster", "https://en.wiktionary.org/wiki/rollercoaster#Noun");
+
+            URL_Add("wasting", "https://en.wiktionary.org/wiki/waste#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
