@@ -132,8 +132,8 @@
                    class=""
                    value="Active reading [<URL1> <URL2>]. "
                    style="width:230px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + Z"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -158,8 +158,8 @@
                    class=""
                    value="Applied some formatting. "
                    style="width:170px;"
-                   accesskey="Z"
-                   title="Shortcut: Shift + Alt + F"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -234,7 +234,7 @@
             </p>
 
             <p>Unfortunately, Stack Exchange does not
-               <strong><i>w</i></strong>arn when text is
+               warn when text is
                enclosed in "&lt;>". It is just ignored and becomes
                invisible without warning. <br/>
                <input
@@ -244,8 +244,8 @@
                    class=""
                    value="Unhid &quot;<XXX>&quot; by encoding &quot;<&quot; as &quot;&amp;lt;&quot; (see the original revision (<https://stackoverflow.com/XXX/view-source>) - or use view &quot;side-by-side markdown&quot;). "
                    style="width:980px;"
-                   accesskey="W"
-                   title="Shortcut: Shift + Alt + W"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -607,6 +607,7 @@
             -->
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FEditSummaryFragments.php"
+                accesskey="W"
                 title="Shortcut: Shift + Alt + W"
             >HTML validation</a>.
             <a
