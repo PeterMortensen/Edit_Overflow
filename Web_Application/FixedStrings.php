@@ -26,7 +26,7 @@
         <?php
             the_EditOverflowHeadline("Fixed Strings");
         ?>
-        
+
         <p><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML"
         >Character entity references in HTML</a></p>
 
@@ -146,8 +146,8 @@
                    class="XYZ40"
                    value="►"
                    style="width:30px;"
-                   accesskey="W"
-                   title="Shortcut: Shift + Alt + W"
+                   accesskey=""
+                   title=""
                />
             </p>
 
@@ -268,8 +268,8 @@
                    class="XYZ36"
                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s)"
                    style="width:320px;"
-                   accesskey="L"
-                   title="Shortcut: Shift + Alt + L"
+                   accesskey=""
+                   title=""
                />
             </p>
 
