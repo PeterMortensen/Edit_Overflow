@@ -354,7 +354,9 @@
             <p>Some older posts on Stack Overflow have strange syntax
                 highlighting, probably caused by later changes to the
                 Stack Exchange software. Possible code fencing formatting:
-                ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash
+                ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash,
+                ```lang-php
+
                 <br/>
                 <input
                     name="X31"
@@ -566,7 +568,7 @@
                     type="text"
                     id="X"
                     class=""
-                    value="XXX. "
+                    value="<template>"
                     style="width:110px;"
                     accesskey="Z"
                     title="Shortcut: Shift + Alt + Z"
@@ -587,8 +589,8 @@
                 class="XYZ3"
                 value="XX"
                 style="width:75px;"
-                accesskey="S"
-                title="Shortcut: Shift + Alt + S"
+                accesskey=""
+                title=""
             />
         </form><?php the_EditOverflowFooter('EditSummaryFragments.php', "", ""); ?>
 

@@ -251,16 +251,16 @@
 
 
             <p>A<u>l</u>l combined
-                  ("Missing space before {",
-                  "Missing space after colon",
-                  "Missing space after comma",
-                  "Missing space around equal sign",
-                  "Missing space around string concatenation (by \"+\")",
-                  "Space before comma",
-                  "Space before colon",
-                  "Space before parenthesis",
-                  and
-                  "Space before semicolon"):
+                  ("missing space before {",
+                  "missing space after colon",
+                  "missing space after comma",
+                  "missing space around equal sign",
+                  "missing space around string concatenation (by \"+\")",
+                  "space before comma",
+                  "space before colon",
+                  "space before parenthesis",
+                    and
+                  "space before semicolon"):
 
                 <input
                     name="All combined"
@@ -286,8 +286,8 @@
                 class="XYZ27"
                 value="XXXXX"
                 style="width:75px;"
-                accesskey="S"
-                title="Shortcut: Shift + Alt + S"
+                accesskey=""
+                title=""
             />
         </form><?php the_EditOverflowFooter('FixedStrings.php', "", ""); ?>
 
