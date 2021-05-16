@@ -168,7 +168,6 @@
             } #removeCommonLeadingSpaces()
 
 
-
             # -------------------- End of main functions ---------------------
 
 
@@ -285,14 +284,14 @@
 
                 if  (!  (
                           (  $aLengthDiff >= $leadingSpaceToRemove)       &&
-                        
+
                           (
                             ($leadingSpaceToRemove === 0) # Guard for division
                                                           # by zero - short circuit
                                                           # Boolean presumed
-                        
+
                                                       ||
-                        
+
                             (($aLengthDiff % $leadingSpaceToRemove) === 0)
                           )
                         )
@@ -621,7 +620,7 @@
             ?></textarea>
 
 
-            <!-- Submit button  -->
+            <!-- Remove TABs and trailing whitespace button  -->
             <input
                 name="action"
                 type="Submit"
@@ -633,7 +632,7 @@
                 title="Shortcut: Shift + Alt + U"
             />
 
-            <!-- Submit button  -->
+            <!-- Format as keyboard button  -->
             <input
                 name="action"
                 type="Submit"
@@ -645,7 +644,7 @@
                 title="Shortcut: Shift + Alt + B"
             />
 
-            <!-- Submit button  -->
+            <!-- Quote as code button  -->
             <input
                 name="action"
                 type="Submit"
@@ -657,7 +656,7 @@
                 title="Shortcut: Shift + Alt + K"
             />
 
-            <!-- Submit button  -->
+            <!-- Real quotes button  -->
             <input
                 name="action"
                 type="Submit"
@@ -669,7 +668,7 @@
                 title="Shortcut: Shift + Alt + Q"
             />
 
-            <!-- Submit button  -->
+            <!-- Transform for YouTube comments button  -->
             <input
                 name="action"
                 type="Submit"
@@ -681,7 +680,7 @@
                 title="Shortcut: Shift + Alt + Y"
             />
 
-            <!-- Submit button  -->
+            <!-- Remove common leading space button  -->
             <input
                 name="action"
                 type="Submit"
