@@ -206,11 +206,13 @@ export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
 #    $2   Result code (e.g. 0 for no error)
 #    $3   String identifying the build step
 #
+# What is "7" below??? Is it spurious? Should we remove it?
+#
 function evaluateBuildResult() {
 
     case $2 in
-      0|7) echo ; echo "Build step $1 succeeded"    >&2               ;;
-      *)   echo ; echo "Build step $1 ($3) failed." >&2 ; echo ; exit ;;
+      0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
+      *)   echo ; echo "Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
     esac
 }
 
@@ -228,7 +230,6 @@ function keyboardShortcutConsistencyCheck() {
 
     perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
 }
-
 
 
 
