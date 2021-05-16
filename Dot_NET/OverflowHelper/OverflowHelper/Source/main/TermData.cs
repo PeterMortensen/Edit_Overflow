@@ -341,6 +341,7 @@ namespace OverflowHelper.core
             correctionAdd("MS win", "Windows");
             correctionAdd("MS Win", "Windows");
             correctionAdd("Microsoft Windows", "Windows");
+            correctionAdd("Wondows", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -8401,6 +8402,7 @@ namespace OverflowHelper.core
             correctionAdd("outoput", "output");
             correctionAdd("OUT", "output");
             correctionAdd("out", "output");
+            correctionAdd("putput", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -10949,6 +10951,7 @@ namespace OverflowHelper.core
             correctionAdd("sepeartor", "separator");
             correctionAdd("seperartor", "separator");
             correctionAdd("Seperator", "separator");
+            correctionAdd("saperator", "separator");
 
             correctionAdd("statment", "statement");
             correctionAdd("statemet", "statement");
@@ -11076,6 +11079,7 @@ namespace OverflowHelper.core
 
             correctionAdd("concatention", "concatenation");
             correctionAdd("concatanation", "concatenation");
+            correctionAdd("concatination", "concatenation");
 
             correctionAdd("dtor", "destructor");
             correctionAdd("destructur", "destructor");
@@ -12778,6 +12782,7 @@ namespace OverflowHelper.core
 
             correctionAdd("comming", "coming");
             correctionAdd("Comming", "coming");
+            correctionAdd("COMMING", "coming");
 
             correctionAdd("compition", "competition");
 
@@ -16112,6 +16117,7 @@ namespace OverflowHelper.core
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
             correctionAdd("standard in", "standard input");
+            correctionAdd("Stdin", "standard input");
 
             correctionAdd("StdOut", "standard output");
             correctionAdd("stdout", "standard output");
@@ -16600,6 +16606,7 @@ namespace OverflowHelper.core
             correctionAdd("crypto currency", "cryptocurrency");
             correctionAdd("CryptoCurrency", "cryptocurrency");
             correctionAdd("crypt-currency", "cryptocurrency");
+            correctionAdd("Crypto", "cryptocurrency");
 
             correctionAdd("Defensibility", "defensibility");
 
@@ -18562,6 +18569,9 @@ namespace OverflowHelper.core
             correctionAdd("NDA", "non-disclosure agreement");
 
             correctionAdd("Pseudo Random Number Generator", "pseudorandom number generator");
+            correctionAdd("pseudo random number generation", "pseudorandom number generator");
+            correctionAdd("pseudo random number generator", "pseudorandom number generator");
+            correctionAdd("pseudorandom number", "pseudorandom number generator");
 
             correctionAdd("unwieldly", "unwieldy");
 
@@ -22455,6 +22465,7 @@ namespace OverflowHelper.core
             correctionAdd("Possibily", "possibly");
 
             correctionAdd("Procedural programming", "procedural programming");
+            correctionAdd("Procedural Programming", "procedural programming");
 
             correctionAdd("stabilty", "stability");
 
@@ -25558,6 +25569,7 @@ namespace OverflowHelper.core
             correctionAdd("Web site", "website");
             correctionAdd("wesite", "website");
             correctionAdd("web site", "website");
+            correctionAdd("Website", "website");
 
             correctionAdd("excel 2003", "Excel 2003");
 
@@ -27044,6 +27056,7 @@ namespace OverflowHelper.core
             correctionAdd("upstart", "Upstart");
 
             correctionAdd("happenning", "happening");
+            correctionAdd("happeneing", "happening");
 
             correctionAdd("helpt", "helped");
 
@@ -27053,6 +27066,15 @@ namespace OverflowHelper.core
 
             correctionAdd("waisting", "wasting");
             correctionAdd("waising", "wasting");
+
+            correctionAdd("hardware recommendations", "Hardware Recommendations");
+
+            correctionAdd("the painter", "Schlemiel the Painter's algorithm");
+
+            correctionAdd("factoral", "factorial");
+
+            correctionAdd("thingamajig", "thingamajiggy");
+            correctionAdd("thingamadigi", "thingamajiggy");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42440,6 +42462,14 @@ namespace OverflowHelper.core
             URL_Add("rollercoaster", "https://en.wiktionary.org/wiki/rollercoaster#Noun");
 
             URL_Add("wasting", "https://en.wiktionary.org/wiki/waste#Verb");
+
+            URL_Add("Hardware Recommendations", "https://hardwarerecs.stackexchange.com/tour");
+
+            URL_Add("Schlemiel the Painter's algorithm", "https://en.wikipedia.org/wiki/Joel_Spolsky#Schlemiel_the_Painter's_algorithm");
+
+            URL_Add("factorial", "https://en.wikipedia.org/wiki/Factorial");
+
+            URL_Add("thingamajiggy", "https://en.wiktionary.org/wiki/thingamajiggy#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
