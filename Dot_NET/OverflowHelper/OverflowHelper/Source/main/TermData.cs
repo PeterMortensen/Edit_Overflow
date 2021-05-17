@@ -7902,6 +7902,10 @@ namespace OverflowHelper.core
             correctionAdd("peoole", "people");
             correctionAdd("peopel", "people");
             correctionAdd("peeple", "people");
+            correctionAdd("Peapole", "people");
+            correctionAdd("peapole", "people");
+            correctionAdd("pepole", "people");
+            correctionAdd("Pepole", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -21997,6 +22001,7 @@ namespace OverflowHelper.core
             correctionAdd("Selenium WD", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
+            correctionAdd("leteral", "literal");
 
             correctionAdd("synchroniuosly", "synchronously");
 
@@ -25617,6 +25622,7 @@ namespace OverflowHelper.core
             correctionAdd("Geekie", "geeky");
 
             correctionAdd("passe", "passed");
+            correctionAdd("passsed", "passed");
 
             correctionAdd("BeiJing", "Beijing");
 
@@ -27076,6 +27082,8 @@ namespace OverflowHelper.core
             correctionAdd("thingamajig", "thingamajiggy");
             correctionAdd("thingamadigi", "thingamajiggy");
 
+            correctionAdd("input", "input (HTML form)");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -27106,6 +27114,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Pandemic", "pandemic"); // Coronavirus
             correctionAdd("PANDEMIC", "pandemic"); // Coronavirus
+            correctionAdd("pendamic", "pandemic"); // Coronavirus
 
             correctionAdd("pandami", "pandemia"); // Coronavirus
 
@@ -42470,6 +42479,8 @@ namespace OverflowHelper.core
             URL_Add("factorial", "https://en.wikipedia.org/wiki/Factorial");
 
             URL_Add("thingamajiggy", "https://en.wiktionary.org/wiki/thingamajiggy#Noun");
+
+            URL_Add("input (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
