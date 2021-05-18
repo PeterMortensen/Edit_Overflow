@@ -2849,6 +2849,7 @@ namespace OverflowHelper.core
             correctionAdd("sof", "Stack&nbsp;Overflow");
             correctionAdd("SOF", "Stack&nbsp;Overflow");
             correctionAdd("overstackflow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOvertflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -9551,6 +9552,8 @@ namespace OverflowHelper.core
             correctionAdd("everithing", "everything");
             correctionAdd("everyhting", "everything");
             correctionAdd("everythin", "everything");
+            correctionAdd("Everythink", "everything");
+            correctionAdd("everythink", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -9678,6 +9681,8 @@ namespace OverflowHelper.core
             correctionAdd("beyong", "beyond");
 
             correctionAdd("russian", "Russian");
+            correctionAdd("RUSZYN", "Russian");
+            correctionAdd("ruszyn", "Russian");
 
             correctionAdd("any one", "anyone");
             correctionAdd("any onw", "anyone");
@@ -10838,6 +10843,7 @@ namespace OverflowHelper.core
             correctionAdd("Schmidt trigger", "Schmitt trigger");
             correctionAdd("schmitt trigger", "Schmitt trigger");
             correctionAdd("Schmitt Trigger", "Schmitt trigger");
+            correctionAdd("schmitd trigger", "Schmitt trigger");
 
             correctionAdd("start-job", "Start-Job");
 
@@ -11491,6 +11497,8 @@ namespace OverflowHelper.core
             correctionAdd("Chy-nah", "China");
             correctionAdd("PRC", "China");
             correctionAdd("prc", "China");
+            correctionAdd("CHINY", "China");
+            correctionAdd("chiny", "China");
 
             correctionAdd("japan", "Japan");
 
@@ -12033,6 +12041,7 @@ namespace OverflowHelper.core
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
             correctionAdd("indea", "India");
+            correctionAdd("Endia", "India");
 
             correctionAdd("Puttygen", "PuTTYgen");
 
@@ -18011,6 +18020,7 @@ namespace OverflowHelper.core
 
             correctionAdd("intentionnally", "intentionally");
             correctionAdd("intentionnaly", "intentionally");
+            correctionAdd("intentinally", "intentionally");
 
             correctionAdd("integrety", "integrity");
             correctionAdd("Integrety", "integrity");
@@ -18978,6 +18988,7 @@ namespace OverflowHelper.core
             correctionAdd("biggets", "biggest");
 
             correctionAdd("electricty", "electricity");
+            correctionAdd("Electricty", "electricity");
 
             correctionAdd("overal", "overall");
 
@@ -21888,9 +21899,6 @@ namespace OverflowHelper.core
 
             correctionAdd("movment", "movement");
 
-            correctionAdd("re-run", "rerun");
-            correctionAdd("re-ran", "rerun");
-
             correctionAdd("dotnet-run", "dotnet run");
 
             correctionAdd("dotnet-test", "dotnet test");
@@ -23050,6 +23058,7 @@ namespace OverflowHelper.core
             correctionAdd("stacktrace", "stack trace");
 
             correctionAdd("sub folder", "subfolder");
+            correctionAdd("sub-folder", "subfolder");
 
             correctionAdd("suceed", "succeed");
 
@@ -25653,6 +25662,7 @@ namespace OverflowHelper.core
             correctionAdd("plist", "p-list file");
 
             correctionAdd("vauge", "vague");
+            correctionAdd("wage", "vague");
 
             correctionAdd("in addiction", "in addition");
 
@@ -25952,6 +25962,7 @@ namespace OverflowHelper.core
             correctionAdd("phonecall", "phone call");
 
             correctionAdd("Sourcing", "sourcing");
+            correctionAdd("dot source", "sourcing");
 
             correctionAdd("swiching", "switching");
 
@@ -26042,6 +26053,7 @@ namespace OverflowHelper.core
             correctionAdd("facism", "fascism");
 
             correctionAdd("firmwar", "firmware");
+            correctionAdd("FW", "firmware");
 
             correctionAdd("hount", "haunt");
 
@@ -26419,6 +26431,8 @@ namespace OverflowHelper.core
             correctionAdd("coniditon", "condition");
 
             correctionAdd("earth rays", "earth radiation");
+            correctionAdd("Earth ray", "earth radiation");
+            correctionAdd("Earth rays", "earth radiation");
 
             correctionAdd("new", "knew");
 
@@ -27078,11 +27092,60 @@ namespace OverflowHelper.core
             correctionAdd("the painter", "Schlemiel the Painter's algorithm");
 
             correctionAdd("factoral", "factorial");
+            correctionAdd("Factorial", "factorial");
 
             correctionAdd("thingamajig", "thingamajiggy");
             correctionAdd("thingamadigi", "thingamajiggy");
 
             correctionAdd("input", "input (HTML form)");
+
+            correctionAdd("re-run", "rerun");
+
+            correctionAdd("crlf", "CRLF");
+
+            correctionAdd("fm", "FM");
+
+            correctionAdd("if", "IF");
+
+            correctionAdd("nemerle", "Nemerle");
+
+            correctionAdd("Pastebin", "Pastebin.com");
+            correctionAdd("pastebin", "Pastebin.com");
+
+            correctionAdd("teflon", "Teflon");
+
+            correctionAdd("LOTR", "The Lord of the Rings");
+
+            correctionAdd("Windows 10 home", "Windows 10 Home");
+
+            correctionAdd("budge", "bodge");
+
+            correctionAdd("compresional", "compressional");
+
+            correctionAdd("copule", "couple");
+
+            correctionAdd("electromagnatic", "electromagnetic");
+
+            correctionAdd("establishe", "establish");
+
+            correctionAdd("infrigement", "infringement");
+
+            correctionAdd("local osc", "local oscillator (LO)");
+
+            correctionAdd("re-ran", "reran");
+
+            correctionAdd("RVO", "return value optimization");
+
+            correctionAdd("Spectrum Analyser", "spectrum analyser");
+
+            correctionAdd("stronly", "strongly");
+            correctionAdd("STRONLY", "strongly");
+
+            correctionAdd("vegitarian", "vegetarian");
+
+            correctionAdd("wave guide", "waveguide");
+
+            correctionAdd("wraped", "wrapped");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -27105,6 +27168,11 @@ namespace OverflowHelper.core
 
             correctionAdd("diesease", "disease"); // Coronavirus
             correctionAdd("desease", "disease"); // Coronavirus
+            correctionAdd("desiece", "disease"); // Coronavirus
+            correctionAdd("desiese", "disease"); // Coronavirus
+            correctionAdd("deciese", "disease"); // Coronavirus
+            correctionAdd("decese", "disease"); // Coronavirus
+            correctionAdd("decease", "disease"); // Coronavirus
 
             correctionAdd("epedemic", "epidemic"); // Coronavirus
 
@@ -27229,6 +27297,9 @@ namespace OverflowHelper.core
             correctionAdd("spotnik v", "Sputnik V"); // Coronavirus
             correctionAdd("Sputnik", "Sputnik V"); // Coronavirus
             correctionAdd("sputnik", "Sputnik V"); // Coronavirus
+            correctionAdd("SPUTNIK 5", "Sputnik V"); // Coronavirus
+            correctionAdd("sputnik 5", "Sputnik V"); // Coronavirus
+            correctionAdd("sputnik V", "Sputnik V"); // Coronavirus
 
             correctionAdd("black death", "Black Death"); // Coronavirus
 
@@ -27568,6 +27639,8 @@ namespace OverflowHelper.core
             correctionAdd("Myocarditis", "myocarditis");
 
             correctionAdd("HCW", "health care worker");
+
+            correctionAdd("hospitilised", "hospitalised");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -42481,6 +42554,52 @@ namespace OverflowHelper.core
             URL_Add("thingamajiggy", "https://en.wiktionary.org/wiki/thingamajiggy#Noun");
 
             URL_Add("input (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text");
+
+            URL_Add("CRLF", "https://en.wikipedia.org/wiki/Newline#Representation");
+
+            URL_Add("FM", "https://en.wikipedia.org/wiki/Frequency_modulation");
+
+            URL_Add("IF", "https://en.wikipedia.org/wiki/Intermediate_frequency");
+
+            URL_Add("Nemerle", "https://en.wikipedia.org/wiki/Nemerle");
+
+            URL_Add("Pastebin.com", "https://pastebin.com/");
+
+            URL_Add("Teflon", "https://en.wikipedia.org/wiki/Polytetrafluoroethylene");
+
+            URL_Add("The Lord of the Rings", "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings");
+
+            URL_Add("Windows 10 Home", "https://en.wikipedia.org/wiki/Windows_10_editions#Baseline_editions");
+
+            URL_Add("bodge", "https://en.wiktionary.org/wiki/bodge#Noun");
+
+            URL_Add("compressional", "https://en.wiktionary.org/wiki/compressional#Adjective");
+
+            URL_Add("couple", "https://en.wiktionary.org/wiki/couple#Noun");
+
+            URL_Add("electromagnetic", "https://en.wiktionary.org/wiki/electromagnetic#Adjective");
+
+            URL_Add("establish", "https://en.wiktionary.org/wiki/establish#Verb");
+
+            URL_Add("infringement", "https://en.wiktionary.org/wiki/infringement#Noun");
+
+            URL_Add("local oscillator (LO)", "https://en.wikipedia.org/wiki/Local_oscillator");
+
+            URL_Add("reran", "https://en.wiktionary.org/wiki/rerun#Verb");
+
+            URL_Add("return value optimization", "https://en.wikipedia.org/wiki/Copy_elision#Return_value_optimization");
+
+            URL_Add("spectrum analyser", "https://en.wikipedia.org/wiki/Spectrum_analyzer");
+
+            URL_Add("strongly", "https://en.wiktionary.org/wiki/strongly#Adverb");
+
+            URL_Add("vegetarian", "https://en.wiktionary.org/wiki/vegetarian#Adjective");
+
+            URL_Add("waveguide", "https://en.wikipedia.org/wiki/Waveguide");
+
+            URL_Add("wrapped", "https://en.wiktionary.org/wiki/wrap#Verb");
+
+            URL_Add("hospitalised", "https://en.wiktionary.org/wiki/hospitalise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
