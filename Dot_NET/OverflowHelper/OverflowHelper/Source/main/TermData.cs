@@ -11948,6 +11948,9 @@ namespace OverflowHelper.core
 
             correctionAdd("howver", "however");
             correctionAdd("how ever", "however");
+            correctionAdd("Howerver", "however");
+            correctionAdd("howerver", "however");
+            correctionAdd("However", "however");
 
             correctionAdd("Perf Board", "perfboard");
             correctionAdd("Purfboard", "perfboard");
@@ -16585,6 +16588,8 @@ namespace OverflowHelper.core
             correctionAdd("vid", "video");
             correctionAdd("vids", "video");
             correctionAdd("vdo", "video");
+            correctionAdd("vidieo", "video");
+            correctionAdd("vidio", "video");
 
             correctionAdd("tampermonkey", "Tampermonkey");
             correctionAdd("tamper monkey", "Tampermonkey");
@@ -16910,6 +16915,7 @@ namespace OverflowHelper.core
             correctionAdd("Antonio Radic", "Antonio Radić"); // Chess
             correctionAdd("Abadmator", "Antonio Radić"); // Chess
             correctionAdd("agadmantor", "Antonio Radić"); // Chess
+            correctionAdd("radic", "Antonio Radić"); // Chess
 
             correctionAdd("piano", "Giuoco Piano"); // Chess
             correctionAdd("Piano", "Giuoco Piano"); // Chess
@@ -20738,9 +20744,6 @@ namespace OverflowHelper.core
             correctionAdd("USBlyser", "USBlyzer");
 
             correctionAdd("fon", "font");
-
-            correctionAdd("LAF", "look and feel");
-            correctionAdd("L&F", "look and feel");
 
             correctionAdd("gprof", "Gprof");
 
@@ -25460,6 +25463,7 @@ namespace OverflowHelper.core
 
             correctionAdd("disengenious", "disingenuous");
             correctionAdd("disingenous", "disingenuous");
+            correctionAdd("disenginous", "disingenuous");
 
             correctionAdd("Play list", "playlist");
             correctionAdd("Playlist", "playlist");
@@ -26078,6 +26082,7 @@ namespace OverflowHelper.core
 
             correctionAdd("volotile", "volatile");
             correctionAdd("volitile", "volatile");
+            correctionAdd("voltatile", "volatile");
 
             correctionAdd("Exchange server", "Exchange Server");
 
@@ -26279,6 +26284,7 @@ namespace OverflowHelper.core
             correctionAdd("B.J", "Boris Johnson");
             correctionAdd("Boris", "Boris Johnson");
             correctionAdd("boris", "Boris Johnson");
+            correctionAdd("Borris", "Boris Johnson");
 
             correctionAdd("I2S", "I²S");
 
@@ -27147,6 +27153,34 @@ namespace OverflowHelper.core
 
             correctionAdd("wraped", "wrapped");
 
+            correctionAdd("LAF", "look and feel");
+            correctionAdd("L&F", "look and feel");
+
+            correctionAdd("teel", "feel");
+            correctionAdd("teal", "feel"); // True typo + dyslexia
+
+            correctionAdd("GaN", "gallium nitride");
+
+            correctionAdd("globals", "global variables");
+            correctionAdd("gloabls", "global variables");
+
+            correctionAdd("HAGL", "height above ground level");
+            correctionAdd("AGL", "height above ground level");
+
+            correctionAdd("dislexia", "dyslexia");
+
+            correctionAdd("inement", "imminent");
+
+            correctionAdd("english man", "Englishman");
+
+            correctionAdd("Fatalism", "fatalism");
+
+            correctionAdd("foundering", "floundering");
+
+            correctionAdd("heart strings", "heartstrings");
+
+            correctionAdd("tair", "tear");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -27405,6 +27439,7 @@ namespace OverflowHelper.core
             correctionAdd("astra vac", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("Chadox1", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
             correctionAdd("ChAdOx1", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
+            correctionAdd("astra jab", "Oxford–AstraZeneca vaccine (AZD1222)"); // Coronavirus
 
             correctionAdd("AstraZeneka", "AstraZeneca"); // Coronavirus
             correctionAdd("Astra Zeneka", "AstraZeneca"); // Coronavirus
@@ -27534,6 +27569,7 @@ namespace OverflowHelper.core
             correctionAdd("Pfizer vaccin", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Phizer vac", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("phizer vac", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
+            correctionAdd("phizer jab", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
 
             correctionAdd("hydroxy", "hydroxychloroquine"); // Coronavirus
             correctionAdd("HCQ", "hydroxychloroquine"); // Coronavirus
@@ -42600,6 +42636,28 @@ namespace OverflowHelper.core
             URL_Add("wrapped", "https://en.wiktionary.org/wiki/wrap#Verb");
 
             URL_Add("hospitalised", "https://en.wiktionary.org/wiki/hospitalise#Verb");
+
+            URL_Add("feel", "https://en.wiktionary.org/wiki/feel#Verb");
+
+            URL_Add("gallium nitride", "https://en.wikipedia.org/wiki/Gallium_nitride");
+
+            URL_Add("global variables", "https://en.wikipedia.org/wiki/Global_variable");
+
+            URL_Add("height above ground level", "https://en.wikipedia.org/wiki/Height_above_ground_level");
+
+            URL_Add("dyslexia", "https://en.wikipedia.org/wiki/Dyslexia");
+
+            URL_Add("imminent", "https://en.wiktionary.org/wiki/imminent#Adjective");
+
+            URL_Add("Englishman", "https://en.wiktionary.org/wiki/Englishman#Noun");
+
+            URL_Add("fatalism", "https://en.wiktionary.org/wiki/fatalism#Noun");
+
+            URL_Add("floundering", "https://en.wiktionary.org/wiki/flounder#Verb");
+
+            URL_Add("heartstrings", "https://en.wiktionary.org/wiki/heartstrings#Noun");
+
+            URL_Add("tear", "https://en.wiktionary.org/wiki/tear#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
