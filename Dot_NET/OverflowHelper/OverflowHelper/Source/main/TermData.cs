@@ -11261,6 +11261,7 @@ namespace OverflowHelper.core
             correctionAdd("kilogram", "kg");
 
             correctionAdd("6th", "sixth");
+            correctionAdd("Sixth", "sixth");
 
             correctionAdd("add-type", "Add-Type");
 
@@ -12348,6 +12349,7 @@ namespace OverflowHelper.core
             correctionAdd("UBlockOrigin", "uBlock Origin");
             correctionAdd("UBlock Origin", "uBlock Origin");
             correctionAdd("uBlockOrigin", "uBlock Origin");
+            correctionAdd("uBlock origin", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -13012,6 +13014,7 @@ namespace OverflowHelper.core
             correctionAdd("afford", "effort");
 
             correctionAdd("5th", "fifth");
+            correctionAdd("Fifth", "fifth");
 
             correctionAdd("greather", "greater");
 
@@ -17250,6 +17253,8 @@ namespace OverflowHelper.core
             correctionAdd("Lowenthal", "Johann Löwenthal"); // Chess
 
             correctionAdd("queen's gambit accepted", "Queen's Gambit Accepted"); // Chess
+
+            correctionAdd("jobava", "Jobava London"); // Chess
             //
             // End of chess part
 
@@ -20905,6 +20910,7 @@ namespace OverflowHelper.core
             correctionAdd("multi-threaded", "multithreaded");
 
             correctionAdd("trust-worthiness", "trustworthiness");
+            correctionAdd("trustworthyness", "trustworthiness");
 
             correctionAdd("willfully", "wilfully");
 
@@ -22689,6 +22695,7 @@ namespace OverflowHelper.core
             correctionAdd("sanskritt", "Sanskrit");
 
             correctionAdd("swiftforth", "SwiftForth");
+            correctionAdd("Swiftforth", "SwiftForth");
 
             correctionAdd("tails", "Tails");
 
@@ -23737,6 +23744,7 @@ namespace OverflowHelper.core
             correctionAdd("BenchMark", "benchmark");
 
             correctionAdd("for all intents an purposes", "for all intents and purposes");
+            correctionAdd("for all purposes", "for all intents and purposes");
 
             correctionAdd("gloebbelist", "globalist");
 
@@ -25652,6 +25660,7 @@ namespace OverflowHelper.core
             correctionAdd("progress", "Progress");
 
             correctionAdd("RISC V", "RISC-V");
+            correctionAdd("RISCV", "RISC-V");
 
             correctionAdd("soyuz", "Soyuz");
 
@@ -27181,6 +27190,24 @@ namespace OverflowHelper.core
 
             correctionAdd("tair", "tear");
 
+            correctionAdd("goat", "greatest of all time");
+            correctionAdd("GOAT", "greatest of all time");
+
+            correctionAdd("unoperational", "inoperational");
+            correctionAdd("in-operational", "inoperational");
+
+            correctionAdd("savvi", "savvy");
+
+            correctionAdd("under-aged", "underaged");
+
+            correctionAdd("peak to peak", "peak-to-peak");
+            correctionAdd("pk-pk", "peak-to-peak");
+            correctionAdd("p-p", "peak-to-peak");
+
+            correctionAdd("sub section", "subsection");
+
+            correctionAdd("TIL", "threaded-interpreted language");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -27608,6 +27635,7 @@ namespace OverflowHelper.core
             correctionAdd("moderma", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Maderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("mondera", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
             correctionAdd("ZOE", "ZOE app"); // Coronavirus
@@ -42658,6 +42686,22 @@ namespace OverflowHelper.core
             URL_Add("heartstrings", "https://en.wiktionary.org/wiki/heartstrings#Noun");
 
             URL_Add("tear", "https://en.wiktionary.org/wiki/tear#Verb");
+
+            URL_Add("Jobava London", "https://en.wikipedia.org/wiki/London_System#Early_play");
+
+            URL_Add("greatest of all time", "https://en.wiktionary.org/wiki/GOAT#Noun");
+
+            URL_Add("inoperational", "https://en.wiktionary.org/wiki/inoperational#Adjective");
+
+            URL_Add("savvy", "https://en.wiktionary.org/wiki/savvy#Adjective");
+
+            URL_Add("underaged", "https://en.wiktionary.org/wiki/underaged#Adjective");
+
+            URL_Add("peak-to-peak", "https://en.wikipedia.org/wiki/Amplitude#Peak-to-peak_amplitude");
+
+            URL_Add("subsection", "https://en.wiktionary.org/wiki/subsection#Noun");
+
+            URL_Add("threaded-interpreted language", "http://wiki.c2.com/?ThreadedInterpretiveLanguage");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
