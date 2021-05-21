@@ -23789,6 +23789,7 @@ namespace OverflowHelper.core
             correctionAdd("close knit", "close-knit");
 
             correctionAdd("complexty", "complexity");
+            correctionAdd("complexitiy", "complexity");
 
             correctionAdd("declaire", "declare");
             correctionAdd("declere", "declare");
@@ -26846,6 +26847,8 @@ namespace OverflowHelper.core
             correctionAdd("re-arrange", "rearrange");
 
             correctionAdd("depdening", "depending");
+            correctionAdd("Dependending", "depending");
+            correctionAdd("dependending", "depending");
 
             correctionAdd("dicotomi", "dichotomy");
 
@@ -27207,6 +27210,12 @@ namespace OverflowHelper.core
             correctionAdd("sub section", "subsection");
 
             correctionAdd("TIL", "threaded-interpreted language");
+
+            correctionAdd("Chicago manual of style", "The Chicago Manual of Style");
+
+            correctionAdd("PFC", "power-factor correction");
+            correctionAdd("power factor correction", "power-factor correction");
+            correctionAdd("pfc", "power-factor correction");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42702,6 +42711,10 @@ namespace OverflowHelper.core
             URL_Add("subsection", "https://en.wiktionary.org/wiki/subsection#Noun");
 
             URL_Add("threaded-interpreted language", "http://wiki.c2.com/?ThreadedInterpretiveLanguage");
+
+            URL_Add("The Chicago Manual of Style", "https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style");
+
+            URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
