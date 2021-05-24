@@ -9637,6 +9637,8 @@ namespace OverflowHelper.core
 
             correctionAdd("More over", "moreover"); // Not 100% correct - case.
             correctionAdd("more over", "moreover");
+            correctionAdd("Moreoever", "moreover");
+            correctionAdd("moreoever", "moreover");
 
             correctionAdd("elf", "ELF");
 
@@ -24048,6 +24050,7 @@ namespace OverflowHelper.core
             correctionAdd("modificated", "modified");
 
             correctionAdd("sayed", "said");
+            correctionAdd("saids", "said");
 
             correctionAdd("allowes", "allows");
 
@@ -27217,6 +27220,14 @@ namespace OverflowHelper.core
             correctionAdd("power factor correction", "power-factor correction");
             correctionAdd("pfc", "power-factor correction");
 
+            correctionAdd("abillity", "ability");
+
+            correctionAdd("cps", "continuation-passing style");
+            correctionAdd("CPS", "continuation-passing style");
+            correctionAdd("continuation passing style", "continuation-passing style");
+
+            correctionAdd("over head", "overhead");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -27574,6 +27585,7 @@ namespace OverflowHelper.core
             correctionAdd("phyzer", "Pfizer"); // Coronavirus
             correctionAdd("plizfer", "Pfizer"); // Coronavirus
             correctionAdd("Pfiser", "Pfizer"); // Coronavirus
+            correctionAdd("Phiser", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -42715,6 +42727,12 @@ namespace OverflowHelper.core
             URL_Add("The Chicago Manual of Style", "https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style");
 
             URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
+
+            URL_Add("ability", "https://en.wiktionary.org/wiki/ability#Noun");
+
+            URL_Add("continuation-passing style", "https://en.wikipedia.org/wiki/Continuation-passing_style");
+
+            URL_Add("overhead", "https://en.wiktionary.org/wiki/overhead#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
