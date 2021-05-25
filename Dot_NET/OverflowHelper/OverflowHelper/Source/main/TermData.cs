@@ -15909,7 +15909,13 @@ namespace OverflowHelper.core
 
             correctionAdd("globaly", "globally");
 
-            correctionAdd("licence", "license");
+            correctionAdd("license", "licence");
+
+            correctionAdd("EULA", "end-user license agreement");
+
+            correctionAdd("MIT license", "MIT License");
+
+            correctionAdd("re-license", "relicense");
 
             correctionAdd("mambo jumbo", "mumbo jumbo");
 
@@ -18267,8 +18273,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hairless", "Hairless");
 
-            correctionAdd("EULA", "end-user license agreement");
-
             correctionAdd("in-efficient", "inefficient");
 
             correctionAdd("intermitent", "intermittent");
@@ -18992,13 +18996,6 @@ namespace OverflowHelper.core
             correctionAdd("Physics SE", "Physics (Stack Exchange site)");
             correctionAdd("physics SE", "Physics (Stack Exchange site)");
 
-            correctionAdd("Worldbuilding", "Worldbuilding (Stack Exchange site)");
-            correctionAdd("worldbuilding", "Worldbuilding (Stack Exchange site)");
-            correctionAdd("Worldbuilding SE", "Worldbuilding (Stack Exchange site)");
-            correctionAdd("word-building", "Worldbuilding (Stack Exchange site)");
-            correctionAdd("world-building", "Worldbuilding (Stack Exchange site)");
-            correctionAdd("world building", "Worldbuilding (Stack Exchange site)");
-
             correctionAdd("alianate", "alienate");
 
             correctionAdd("biggets", "biggest");
@@ -19317,8 +19314,6 @@ namespace OverflowHelper.core
             correctionAdd("2-in-1", "2-in-1 PC");
 
             correctionAdd("codelite", "CodeLite");
-
-            correctionAdd("MIT license", "MIT License");
 
             correctionAdd("netsuite", "NetSuite");
             correctionAdd("Netsuite", "NetSuite");
@@ -19846,10 +19841,11 @@ namespace OverflowHelper.core
 
             correctionAdd("usefullness", "usefulness");
 
-            correctionAdd("Web SE", "Web Applications");
-            correctionAdd("WebApps.StackExchange", "Web Applications");
-            correctionAdd("WebApps", "Web Applications");
-            correctionAdd("Web Apps", "Web Applications");
+            correctionAdd("Web SE", "Web Applications (Stack Exchange site)");
+            correctionAdd("WebApps.StackExchange", "Web Applications (Stack Exchange site)");
+            correctionAdd("WebApps", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web Apps", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
 
             // Of PowerShell...
             correctionAdd("get-process", "Get-Process");
@@ -19905,8 +19901,6 @@ namespace OverflowHelper.core
             correctionAdd("isssue", "issue");
 
             correctionAdd("meaningfull", "meaningful");
-
-            correctionAdd("re-license", "relicense");
 
             correctionAdd("sorey", "sorry");
             correctionAdd("sry", "sorry");
@@ -23578,9 +23572,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Water", "water");
 
-            correctionAdd("World Building", "Wordbuilding (Stack Exchange site)");
-            correctionAdd("wordbuilding", "Wordbuilding (Stack Exchange site)");
-            correctionAdd("WorldBuilding", "Wordbuilding (Stack Exchange site)");
+            correctionAdd("Worldbuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("worldbuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("Worldbuilding SE", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("word-building", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("world-building", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("world building", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("World Building", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("wordbuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("WorldBuilding", "Worldbuilding (Stack Exchange site)");
 
             correctionAdd("afterwords", "afterwards");
 
@@ -28474,7 +28474,7 @@ namespace OverflowHelper.core
 
             URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
 
-            URL_Add("separate", "https://en.wiktionary.org/wiki/seperate");
+            URL_Add("separate", "https://en.wiktionary.org/wiki/seperate"); // Old: https://en.wiktionary.org/wiki/seperate
 
             URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
 
@@ -31053,7 +31053,7 @@ namespace OverflowHelper.core
 
             URL_Add("TensorFlow", "https://en.wikipedia.org/wiki/TensorFlow");
 
-            URL_Add("retrieve", "https://en.wiktionary.org/wiki/retrieve");
+            URL_Add("retrieve", "https://en.wiktionary.org/wiki/retrieve#Verb"); // Old: https://en.wiktionary.org/wiki/retrieve
 
             URL_Add("resource", "https://en.wiktionary.org/wiki/resource#Noun");
 
@@ -34666,7 +34666,7 @@ namespace OverflowHelper.core
 
             URL_Add("globally", "https://en.wiktionary.org/wiki/globally#Adverb");
 
-            URL_Add("license", "https://en.wiktionary.org/wiki/license#Noun");
+            URL_Add("licence", "https://en.wiktionary.org/wiki/license#Noun");
 
             URL_Add("mumbo jumbo", "https://en.wiktionary.org/wiki/mumbo_jumbo#Noun");
 
@@ -36654,8 +36654,6 @@ namespace OverflowHelper.core
 
             URL_Add("Physics (Stack Exchange site)", "https://physics.stackexchange.com/tour");
 
-            URL_Add("Worldbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
-
             URL_Add("opcode", "https://en.wikipedia.org/wiki/Opcode");
 
             URL_Add("alienate", "https://en.wiktionary.org/wiki/alienate#Verb");
@@ -37316,7 +37314,7 @@ namespace OverflowHelper.core
 
             URL_Add("usefulness", "https://en.wiktionary.org/wiki/usefulness#Noun");
 
-            URL_Add("Web Applications", "https://webapps.stackexchange.com/tour");
+            URL_Add("Web Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
 
             URL_Add("Microsoft Dynamics CRM", "https://en.wikipedia.org/wiki/Microsoft_Dynamics_CRM");
 
@@ -39698,7 +39696,7 @@ namespace OverflowHelper.core
 
             URL_Add("water", "https://en.wikipedia.org/wiki/Water");
 
-            URL_Add("Wordbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
+            URL_Add("Worldbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
 
             URL_Add("afterwards", "https://en.wiktionary.org/wiki/afterwards#Adverb");
 
@@ -42502,7 +42500,7 @@ namespace OverflowHelper.core
 
             URL_Add("USB 2.0", "https://en.wikipedia.org/wiki/USB#USB_2.0");
 
-            URL_Add("nondestructively", "https://en.wiktionary.org/wiki/nondestructively");
+            URL_Add("nondestructively", "https://en.wiktionary.org/wiki/nondestructively#Adverb"); // Old: https://en.wiktionary.org/wiki/nondestructively
 
             URL_Add("Bluebird", "https://github.com/petkaantonov/bluebird");
 
