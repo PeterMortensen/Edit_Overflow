@@ -17493,6 +17493,9 @@ namespace OverflowHelper.core
             correctionAdd("Masters degree", "master's degree");
             correctionAdd("masters degree", "master's degree");
             correctionAdd("Masters", "master's degree");
+            correctionAdd("Master's", "master's degree");
+            correctionAdd("master's", "master's degree");
+            correctionAdd("Master's degree", "master's degree");
 
             correctionAdd("Lilypad", "LilyPad");
 
@@ -26574,6 +26577,7 @@ namespace OverflowHelper.core
 
             correctionAdd("unis", "universities");
             correctionAdd("Unis", "universities");
+            correctionAdd("Universities", "universities");
 
             correctionAdd("font awesome", "Font Awesome");
 
@@ -27239,6 +27243,16 @@ namespace OverflowHelper.core
             correctionAdd("Garbage Collector", "garbage collector");
 
             correctionAdd("lineterminator", "line terminator");
+
+            correctionAdd("ETH Zurich", "ETH Zürich");
+
+            correctionAdd("bachelors", "bachelor's degree");
+
+            correctionAdd("Carriage Return", "carriage return");
+
+            correctionAdd("dealbreaker", "deal breaker");
+
+            correctionAdd("disambigate", "disambiguate");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42751,6 +42765,16 @@ namespace OverflowHelper.core
             URL_Add("garbage collector", "https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)");
 
             URL_Add("line terminator", "https://en.wikipedia.org/wiki/Newline#History");
+
+            URL_Add("ETH Zürich", "https://en.wikipedia.org/wiki/ETH_Zurich");
+
+            URL_Add("bachelor's degree", "https://en.wiktionary.org/wiki/bachelor%27s_degree#Noun");
+
+            URL_Add("carriage return", "https://en.wiktionary.org/wiki/carriage_return#Noun");
+
+            URL_Add("deal breaker", "https://en.wiktionary.org/wiki/deal_breaker#Noun");
+
+            URL_Add("disambiguate", "https://en.wiktionary.org/wiki/disambiguate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
