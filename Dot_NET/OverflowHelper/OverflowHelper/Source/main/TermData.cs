@@ -1915,6 +1915,8 @@ namespace OverflowHelper.core
             correctionAdd("Excell", "Excel");
             correctionAdd("excell", "Excel");
             correctionAdd("MS Excel", "Excel");
+            correctionAdd("Ms Excel", "Excel");
+            correctionAdd("Microsoft Excel", "Excel");
 
             correctionAdd("wysiwyg", "WYSIWYG");
             correctionAdd("WSIWYG", "WYSIWYG");
@@ -4622,6 +4624,7 @@ namespace OverflowHelper.core
             correctionAdd("gc", "GC"); // Possible conflict with "Google Chrome".
             correctionAdd("Gargbage collection", "GC");
             correctionAdd("garbage collection", "GC");
+            correctionAdd("garbagge collection", "GC");
 
             correctionAdd("uri", "URI");
             correctionAdd("Uri", "URI");
@@ -23931,6 +23934,7 @@ namespace OverflowHelper.core
             correctionAdd("Open office calc", "LibreOffice Calc");
             correctionAdd("OpenOffice calc", "LibreOffice Calc");
             correctionAdd("OpenOffice Calc", "LibreOffice Calc");
+            correctionAdd("libreoffice calc", "LibreOffice Calc");
 
             correctionAdd("fovoured", "favoured");
 
@@ -27227,6 +27231,14 @@ namespace OverflowHelper.core
             correctionAdd("continuation passing style", "continuation-passing style");
 
             correctionAdd("over head", "overhead");
+
+            correctionAdd("dask", "Dask");
+
+            correctionAdd("garbage-collect", "garbage collect");
+
+            correctionAdd("Garbage Collector", "garbage collector");
+
+            correctionAdd("lineterminator", "line terminator");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42733,6 +42745,14 @@ namespace OverflowHelper.core
             URL_Add("continuation-passing style", "https://en.wikipedia.org/wiki/Continuation-passing_style");
 
             URL_Add("overhead", "https://en.wiktionary.org/wiki/overhead#Noun");
+
+            URL_Add("Dask", "https://en.wikipedia.org/wiki/Dask_(software)");
+
+            URL_Add("garbage collect", "https://en.wiktionary.org/wiki/garbage_collect#Verb");
+
+            URL_Add("garbage collector", "https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)");
+
+            URL_Add("line terminator", "https://en.wikipedia.org/wiki/Newline#History");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
