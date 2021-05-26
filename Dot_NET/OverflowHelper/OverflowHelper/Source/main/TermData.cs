@@ -6031,6 +6031,7 @@ namespace OverflowHelper.core
             correctionAdd("Tldr", "TLDR");
             correctionAdd("Tl:DR", "TLDR");
             correctionAdd("tl:dr", "TLDR");
+            correctionAdd("TL;RD", "TLDR");
 
             correctionAdd("lcd", "LCD");
             correctionAdd("Lcd", "LCD");
@@ -6542,6 +6543,7 @@ namespace OverflowHelper.core
             correctionAdd("Google play store", "Google Play");
             correctionAdd("google play store", "Google Play");
             correctionAdd("Playstore", "Google Play");
+            correctionAdd("PlayStore", "Google Play");
 
             correctionAdd("kinect", "Kinect");
 
@@ -9598,6 +9600,7 @@ namespace OverflowHelper.core
             correctionAdd("in-build", "built-in");
             correctionAdd("buildin", "built-in");
             correctionAdd("bulit in", "built-in");
+            correctionAdd("builitin", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -11712,6 +11715,9 @@ namespace OverflowHelper.core
             correctionAdd("soulution", "solution");
             correctionAdd("soltution", "solution");
             correctionAdd("sulotion", "solution");
+            correctionAdd("SOLUTIION", "solution");
+            correctionAdd("solutiion", "solution");
+            correctionAdd("SOLUTION", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -13049,6 +13055,7 @@ namespace OverflowHelper.core
             correctionAdd("U&L", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix & linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("Unix & Linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("Unix and Linux", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -13448,6 +13455,7 @@ namespace OverflowHelper.core
             correctionAdd("PL-1", "PL/I");
             correctionAdd("PL1", "PL/I");
             correctionAdd("PL/1", "PL/I");
+            correctionAdd("pl1", "PL/I");
 
             correctionAdd("xfs", "XFS");
 
@@ -14273,6 +14281,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Line Feed", "line feed");
             correctionAdd("linefeed", "line feed");
+            correctionAdd("LineFeed", "line feed");
 
             correctionAdd("photoshoping", "photoshopping");
 
@@ -17266,6 +17275,9 @@ namespace OverflowHelper.core
             correctionAdd("queen's gambit accepted", "Queen's Gambit Accepted"); // Chess
 
             correctionAdd("jobava", "Jobava London"); // Chess
+
+            correctionAdd("Fide Master", "FIDE Master"); // Chess
+            correctionAdd("FIDE master", "FIDE Master"); // Chess
             //
             // End of chess part
 
@@ -17961,6 +17973,7 @@ namespace OverflowHelper.core
             correctionAdd("Succesfully", "successfully");
             correctionAdd("succesfuly", "successfully");
             correctionAdd("succesefully", "successfully");
+            correctionAdd("Sucessfully", "successfully");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -21167,6 +21180,8 @@ namespace OverflowHelper.core
             correctionAdd("projcet", "project");
 
             correctionAdd("eol", "EOL");
+            correctionAdd("End of Line", "EOL");
+            correctionAdd("end of line", "EOL");
 
             correctionAdd("Playground", "Swift Playgrounds");
             correctionAdd("playground", "Swift Playgrounds");
@@ -21804,6 +21819,7 @@ namespace OverflowHelper.core
             correctionAdd("been there done that", "been there, done that");
 
             correctionAdd("compile-time", "compile time");
+            correctionAdd("compiletime", "compile time");
 
             correctionAdd("Electric Field", "electric field");
 
@@ -27253,6 +27269,25 @@ namespace OverflowHelper.core
             correctionAdd("dealbreaker", "deal breaker");
 
             correctionAdd("disambigate", "disambiguate");
+
+            correctionAdd("telethon", "Telethon");
+
+            correctionAdd("Gate Array", "gate array");
+
+            correctionAdd("homepage", "home page");
+            correctionAdd("Homepage", "home page");
+
+            correctionAdd("overiding", "overriding");
+
+            correctionAdd("post-process", "postprocess");
+
+            correctionAdd("practioners", "practitioners");
+
+            correctionAdd("queen-side", "queenside");
+
+            correctionAdd("sugested", "suggested");
+
+            correctionAdd("un-check", "uncheck");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42775,6 +42810,26 @@ namespace OverflowHelper.core
             URL_Add("deal breaker", "https://en.wiktionary.org/wiki/deal_breaker#Noun");
 
             URL_Add("disambiguate", "https://en.wiktionary.org/wiki/disambiguate#Verb");
+
+            URL_Add("Telethon", "https://pypi.python.org/pypi/Telethon");
+
+            URL_Add("gate array", "https://en.wikipedia.org/wiki/Gate_array");
+
+            URL_Add("home page", "https://en.wiktionary.org/wiki/home_page#Noun");
+
+            URL_Add("overriding", "https://en.wiktionary.org/wiki/override#Verb");
+
+            URL_Add("postprocess", "https://en.wiktionary.org/wiki/postprocess#Verb");
+
+            URL_Add("practitioners", "https://en.wiktionary.org/wiki/practitioner#Noun");
+
+            URL_Add("queenside", "https://en.wiktionary.org/wiki/queenside#Noun");
+
+            URL_Add("suggested", "https://en.wiktionary.org/wiki/suggest#Verb");
+
+            URL_Add("uncheck", "https://en.wiktionary.org/wiki/uncheck#Verb");
+
+            URL_Add("FIDE Master", "https://en.wikipedia.org/wiki/FIDE_titles#FIDE_Master_(FM)");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
