@@ -2852,6 +2852,7 @@ namespace OverflowHelper.core
             correctionAdd("SOF", "Stack&nbsp;Overflow");
             correctionAdd("overstackflow", "Stack&nbsp;Overflow");
             correctionAdd("StackOvertflow", "Stack&nbsp;Overflow");
+            correctionAdd("STACK OVERFLOW", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -3253,6 +3254,7 @@ namespace OverflowHelper.core
             correctionAdd("adm", "system administrator");
             correctionAdd("Administratior", "system administrator");
             correctionAdd("administratior", "system administrator");
+            correctionAdd("admistrator", "system administrator");
 
             correctionAdd("ui", "user interface"); // Expansion.
             correctionAdd("UI", "user interface"); // Expansion.
@@ -4027,6 +4029,7 @@ namespace OverflowHelper.core
             correctionAdd("Super user", "Super&nbsp;User");
             correctionAdd("SuperUse", "Super&nbsp;User");
             correctionAdd("Super Use", "Super&nbsp;User");
+            correctionAdd("superUser", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -4566,6 +4569,8 @@ namespace OverflowHelper.core
             correctionAdd("beizer", "Bézier curve");
             correctionAdd("beizer curve", "Bézier curve");
             correctionAdd("Bezier Curve", "Bézier curve");
+            correctionAdd("BEZIER", "Bézier curve");
+            correctionAdd("beziers", "Bézier curve");
 
             correctionAdd("w/o", "without");
             correctionAdd("w/out", "without");
@@ -6663,6 +6668,7 @@ namespace OverflowHelper.core
             correctionAdd("thirdparty", "third-party");
             correctionAdd("3d Party", "third-party");
             correctionAdd("3d party", "third-party");
+            correctionAdd("3th party", "third-party");
 
             correctionAdd("Defination", "definition");
             correctionAdd("defination", "definition");
@@ -10586,6 +10592,7 @@ namespace OverflowHelper.core
             correctionAdd("exesise", "exercise");
             correctionAdd("excersice", "exercise");
             correctionAdd("excerisise", "exercise");
+            correctionAdd("excecise", "exercise");
 
             correctionAdd("contiguos", "contiguous");
 
@@ -13394,6 +13401,7 @@ namespace OverflowHelper.core
             correctionAdd("msysgit", "MSysGit");
 
             correctionAdd("netscape", "Netscape");
+            correctionAdd("NETSCAPE", "Netscape");
 
             correctionAdd("sse2", "SSE2");
 
@@ -13975,6 +13983,8 @@ namespace OverflowHelper.core
             correctionAdd("ToS", "terms of service");
             correctionAdd("Terms of Service", "terms of service");
             correctionAdd("TOS", "terms of service");
+            correctionAdd("Term of Service", "terms of service");
+            correctionAdd("term of service", "terms of service");
 
             correctionAdd("aggresive", "aggressive");
 
@@ -13996,6 +14006,7 @@ namespace OverflowHelper.core
             correctionAdd("ethereum", "Ethereum");
             correctionAdd("Etherium", "Ethereum");
             correctionAdd("Ethereuem", "Ethereum");
+            correctionAdd("etherium", "Ethereum");
 
             correctionAdd("ammend", "amend");
 
@@ -17521,6 +17532,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dedsired", "desired");
             correctionAdd("desire", "desired");
+            correctionAdd("disered", "desired");
 
             correctionAdd("editting", "editing");
             correctionAdd("EDITING", "editing");
@@ -27312,6 +27324,26 @@ namespace OverflowHelper.core
             correctionAdd("lakhs", "lakh");
 
             correctionAdd("re-evaluate", "reevaluate");
+
+            correctionAdd("cc0", "CC0");
+
+            correctionAdd("mecrisp", "Mecrisp Stellaris");
+            correctionAdd("MeCrisp Stellaris", "Mecrisp Stellaris");
+            correctionAdd("mecrisp stellaris", "Mecrisp Stellaris");
+
+            correctionAdd("Retro Computing", "Retro Computing (Stack Exchange site)");
+
+            correctionAdd("snowflake", "Snowflake");
+
+            correctionAdd("voltaire", "Voltaire");
+
+            correctionAdd("infisibly", "infeasibly");
+
+            correctionAdd("non-standard", "nonstandard");
+
+            correctionAdd("pasifism", "pacifism");
+
+            correctionAdd("resizeable", "resizable");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42870,6 +42902,24 @@ namespace OverflowHelper.core
             URL_Add("lakh", "https://en.wiktionary.org/wiki/lakh#Numeral");
 
             URL_Add("reevaluate", "https://en.wiktionary.org/wiki/re-evaluate#Verb");
+
+            URL_Add("CC0", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
+
+            URL_Add("Mecrisp Stellaris", "https://mecrisp-stellaris-folkdoc.sourceforge.io/");
+
+            URL_Add("Retro Computing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
+
+            URL_Add("Snowflake", "https://en.wikipedia.org/wiki/Snowflake_Inc.");
+
+            URL_Add("Voltaire", "https://en.wikipedia.org/wiki/Voltaire");
+
+            URL_Add("infeasibly", "https://en.wiktionary.org/wiki/infeasibly#Adverb");
+
+            URL_Add("nonstandard", "https://en.wiktionary.org/wiki/nonstandard#Adjective");
+
+            URL_Add("pacifism", "https://en.wiktionary.org/wiki/pacifism#Noun");
+
+            URL_Add("resizable", "https://en.wiktionary.org/wiki/resizable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
