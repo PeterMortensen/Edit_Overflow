@@ -11926,6 +11926,8 @@ namespace OverflowHelper.core
             correctionAdd("them selfs", "themselves");
             correctionAdd("themselfs", "themselves");
             correctionAdd("themselvs", "themselves");
+            correctionAdd("theirself", "themselves");
+            correctionAdd("their self", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -15439,6 +15441,7 @@ namespace OverflowHelper.core
 
             correctionAdd("disbale", "disable");
             correctionAdd("dissable", "disable");
+            correctionAdd("diable", "disable");
 
             correctionAdd("embarassing", "embarrassing");
 
@@ -15968,6 +15971,7 @@ namespace OverflowHelper.core
             correctionAdd("ActiVision", "Activision");
 
             correctionAdd("april", "April");
+            correctionAdd("Apr", "April");
 
             correctionAdd("Cosco", "Costco");
             correctionAdd("cosco", "Costco");
@@ -20776,6 +20780,7 @@ namespace OverflowHelper.core
             correctionAdd("fail-proof", "failproof");
 
             correctionAdd("fool proof", "foolproof");
+            correctionAdd("fool-proof", "foolproof");
 
             correctionAdd("future proof", "future-proof");
 
@@ -21182,6 +21187,8 @@ namespace OverflowHelper.core
             correctionAdd("eol", "EOL");
             correctionAdd("End of Line", "EOL");
             correctionAdd("end of line", "EOL");
+            correctionAdd("End-of-line", "EOL");
+            correctionAdd("end-of-line", "EOL");
 
             correctionAdd("Playground", "Swift Playgrounds");
             correctionAdd("playground", "Swift Playgrounds");
@@ -27141,6 +27148,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thingamajig", "thingamajiggy");
             correctionAdd("thingamadigi", "thingamajiggy");
+            correctionAdd("thingamabob", "thingamajiggy");
 
             correctionAdd("input", "input (HTML form)");
 
@@ -27288,6 +27296,22 @@ namespace OverflowHelper.core
             correctionAdd("sugested", "suggested");
 
             correctionAdd("un-check", "uncheck");
+
+            correctionAdd("jbod", "JBOD");
+
+            correctionAdd("nvme", "NVMe");
+
+            correctionAdd("qgis", "QGIS");
+
+            correctionAdd("Rapid Storage Technolgy", "Rapid Storage Technology");
+
+            correctionAdd("campain", "campaign");
+
+            correctionAdd("crores", "crore");
+
+            correctionAdd("lakhs", "lakh");
+
+            correctionAdd("re-evaluate", "reevaluate");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42830,6 +42854,22 @@ namespace OverflowHelper.core
             URL_Add("uncheck", "https://en.wiktionary.org/wiki/uncheck#Verb");
 
             URL_Add("FIDE Master", "https://en.wikipedia.org/wiki/FIDE_titles#FIDE_Master_(FM)");
+
+            URL_Add("JBOD", "https://en.wikipedia.org/wiki/Non-RAID_drive_architectures");
+
+            URL_Add("NVMe", "https://en.wikipedia.org/wiki/NVM_Express");
+
+            URL_Add("QGIS", "https://en.wikipedia.org/wiki/QGIS");
+
+            URL_Add("Rapid Storage Technology", "https://en.wikipedia.org/wiki/Intel_Rapid_Storage_Technology");
+
+            URL_Add("campaign", "https://en.wiktionary.org/wiki/campaign#Noun");
+
+            URL_Add("crore", "https://en.wiktionary.org/wiki/crore#Noun");
+
+            URL_Add("lakh", "https://en.wiktionary.org/wiki/lakh#Numeral");
+
+            URL_Add("reevaluate", "https://en.wiktionary.org/wiki/re-evaluate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
