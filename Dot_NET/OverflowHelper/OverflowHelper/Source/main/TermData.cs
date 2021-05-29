@@ -2319,6 +2319,7 @@ namespace OverflowHelper.core
             correctionAdd("IE 10", "Internet&nbsp;Explorer&nbsp;10");
             correctionAdd("IE10", "Internet&nbsp;Explorer&nbsp;10");
             correctionAdd("Internet&nbsp;Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
 
             correctionAdd("ie11", "Internet&nbsp;Explorer&nbsp;11");
             correctionAdd("ie 11", "Internet&nbsp;Explorer&nbsp;11");
@@ -5170,6 +5171,8 @@ namespace OverflowHelper.core
             correctionAdd("Arch linux", "Arch Linux");
 
             correctionAdd("pacman", "Pacman");
+            correctionAdd("packman", "Pacman");
+            correctionAdd("pakman", "Pacman");
 
             correctionAdd("grepp", "grep");
 
@@ -9519,6 +9522,7 @@ namespace OverflowHelper.core
             correctionAdd("li ion", "Li-ion");
             correctionAdd("li-ion", "Li-ion");
             correctionAdd("Li-Ion", "Li-ion");
+            correctionAdd("liion", "Li-ion");
 
             correctionAdd("Ni-cad", "NiCad");
 
@@ -9581,6 +9585,7 @@ namespace OverflowHelper.core
             correctionAdd("phpstorm", "PhpStorm");
             correctionAdd("php storm", "PhpStorm");
             correctionAdd("Phpstorm", "PhpStorm");
+            correctionAdd("Php Storm", "PhpStorm");
 
             correctionAdd("perf", "performance");
             correctionAdd("preformance", "performance");
@@ -10165,6 +10170,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Coulomb", "coulomb");
             correctionAdd("Culomb", "coulomb");
+            correctionAdd("Coloumb", "coulomb");
 
             correctionAdd("SYbase", "Sybase");
 
@@ -10993,6 +10999,7 @@ namespace OverflowHelper.core
             correctionAdd("straightaway", "straight away");
 
             correctionAdd("strenhgt", "strength");
+            correctionAdd("strengtb", "strength");
 
             correctionAdd("theres", "there's");
             correctionAdd("theres's", "there's");
@@ -12079,6 +12086,7 @@ namespace OverflowHelper.core
             correctionAdd("defult", "default");
             correctionAdd("defaul", "default");
             correctionAdd("dafault", "default");
+            correctionAdd("deafault", "default");
 
             correctionAdd("4th", "fourth");
 
@@ -12415,6 +12423,10 @@ namespace OverflowHelper.core
             correctionAdd("iso-8859", "ISO&nbsp;8859-1");
             correctionAdd("ISO 8859", "ISO&nbsp;8859-1");
             correctionAdd("iso 8859", "ISO&nbsp;8859-1");
+            correctionAdd("ISO8859", "ISO&nbsp;8859-1");
+            correctionAdd("8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("8859", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -12803,6 +12815,8 @@ namespace OverflowHelper.core
             correctionAdd("addres", "address");
             correctionAdd("adres", "address");
             correctionAdd("addresss", "address");
+            correctionAdd("Addres", "address");
+            correctionAdd("Address", "address");
 
             correctionAdd("bare in mind", "bear in mind");
             correctionAdd("Bare in mind", "bear in mind");
@@ -13411,6 +13425,7 @@ namespace OverflowHelper.core
             correctionAdd("cosnt", "constant");
             correctionAdd("const", "constant");
             correctionAdd("constnat", "constant");
+            correctionAdd("contstant", "constant");
 
             correctionAdd("dataset", "data set");
 
@@ -16726,6 +16741,7 @@ namespace OverflowHelper.core
             correctionAdd("postive", "positive");
             correctionAdd("possitive", "positive");
             correctionAdd("posotive", "positive");
+            correctionAdd("positve", "positive");
 
             correctionAdd("pune", "Pune");
 
@@ -27344,6 +27360,18 @@ namespace OverflowHelper.core
             correctionAdd("pasifism", "pacifism");
 
             correctionAdd("resizeable", "resizable");
+
+            correctionAdd("battries", "batteries");
+
+            correctionAdd("wholistic", "holistic");
+
+            correctionAdd("nagivation", "navigation");
+
+            correctionAdd("whiney", "whiny");
+
+            correctionAdd("warp", "wrap");
+
+            correctionAdd("wraping", "wrapping");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42920,6 +42948,18 @@ namespace OverflowHelper.core
             URL_Add("pacifism", "https://en.wiktionary.org/wiki/pacifism#Noun");
 
             URL_Add("resizable", "https://en.wiktionary.org/wiki/resizable#Adjective");
+
+            URL_Add("batteries", "https://en.wiktionary.org/wiki/battery#Noun");
+
+            URL_Add("holistic", "https://en.wiktionary.org/wiki/holistic#Adjective");
+
+            URL_Add("navigation", "https://en.wiktionary.org/wiki/navigation#Noun");
+
+            URL_Add("whiny", "https://en.wiktionary.org/wiki/whiny#Adjective");
+
+            URL_Add("wrap", "https://en.wiktionary.org/wiki/wrap#Verb");
+
+            URL_Add("wrapping", "https://en.wiktionary.org/wiki/wrap#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
