@@ -355,7 +355,7 @@
                 highlighting, probably caused by later changes to the
                 Stack Exchange software. Possible code fencing formatting:
                 ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash,
-                ```lang-php
+                ```lang-php, ```lang-css
 
                 <br/>
                 <input
