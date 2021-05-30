@@ -8988,6 +8988,7 @@ namespace OverflowHelper.core
             correctionAdd("Single Object Responsibility", "single responsibility principle");
             correctionAdd("single responsibility", "single responsibility principle");
             correctionAdd("Single Responsibility principle", "single responsibility principle");
+            correctionAdd("Single Responsibility Principle", "single responsibility principle");
 
             correctionAdd("pcb", "PCB");
 
@@ -10762,6 +10763,7 @@ namespace OverflowHelper.core
             correctionAdd("intendation", "indentation");
 
             correctionAdd("horizentaly", "horizontally");
+            correctionAdd("horizondally", "horizontally");
 
             correctionAdd("askubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu");
@@ -11150,6 +11152,7 @@ namespace OverflowHelper.core
             correctionAdd("perivous", "previous");
 
             correctionAdd("responsabilities", "responsibilities");
+            correctionAdd("responsibilitites", "responsibilities");
 
             correctionAdd("responsability", "responsibility");
             correctionAdd("responsbility", "responsibility");
@@ -11875,6 +11878,7 @@ namespace OverflowHelper.core
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
             correctionAdd("explicity", "explicitly");
+            correctionAdd("explictly", "explicitly");
 
             correctionAdd("hebrew", "Hebrew");
 
@@ -15468,6 +15472,7 @@ namespace OverflowHelper.core
             correctionAdd("disbale", "disable");
             correctionAdd("dissable", "disable");
             correctionAdd("diable", "disable");
+            correctionAdd("disablink", "disable");
 
             correctionAdd("embarassing", "embarrassing");
 
@@ -17277,6 +17282,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Wesley", "Wesley So"); // Chess
             correctionAdd("Wesly", "Wesley So"); // Chess
+            correctionAdd("wesley", "Wesley So");
 
             correctionAdd("Tempo", "tempo"); // Chess
 
@@ -21908,6 +21914,8 @@ namespace OverflowHelper.core
             correctionAdd("assmebly", "assembly language");
             correctionAdd("Assembly language", "assembly language");
             correctionAdd("ASSEMBLER", "assembly language");
+            correctionAdd("assemble-language", "assembly language");
+            correctionAdd("assemble language", "assembly language");
 
             correctionAdd("DSL", "domain-specific language");
             correctionAdd("Domain Specific Language", "domain-specific language");
@@ -22427,6 +22435,7 @@ namespace OverflowHelper.core
             correctionAdd("jelly bean", "jellybean");
 
             correctionAdd("leaning", "learning");
+            correctionAdd("learing", "learning");
 
             correctionAdd("3g", "3G");
 
@@ -25955,6 +25964,7 @@ namespace OverflowHelper.core
             correctionAdd("sclalar", "scalar");
 
             correctionAdd("under-paid", "underpaid");
+            correctionAdd("under paid", "underpaid");
 
             correctionAdd("valus", "values");
 
@@ -26610,6 +26620,7 @@ namespace OverflowHelper.core
             correctionAdd("appriately", "appropriately");
             correctionAdd("aproperiately", "appropriately");
             correctionAdd("approeriately", "appropriately");
+            correctionAdd("approriately", "appropriately");
 
             correctionAdd("astroid", "asteroid");
 
@@ -27372,6 +27383,33 @@ namespace OverflowHelper.core
             correctionAdd("warp", "wrap");
 
             correctionAdd("wraping", "wrapping");
+
+            correctionAdd("basilisk", "Basilisk");
+
+            correctionAdd("blink", "Blink");
+
+            correctionAdd("Cascadia", "Cascadia Code");
+            correctionAdd("cascadia", "Cascadia Code");
+
+            correctionAdd("verizon", "Verizon");
+
+            correctionAdd("end-up", "end up");
+
+            correctionAdd("exta", "extra");
+
+            correctionAdd("first-hand", "firsthand");
+
+            correctionAdd("Glyph", "glyph");
+
+            correctionAdd("mat", "may");
+
+            correctionAdd("over-engineered", "overengineered");
+
+            correctionAdd("pulguin", "pulling");
+
+            correctionAdd("ventricle", "vertically");
+
+            correctionAdd("wored", "wired");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42960,6 +42998,32 @@ namespace OverflowHelper.core
             URL_Add("wrap", "https://en.wiktionary.org/wiki/wrap#Verb");
 
             URL_Add("wrapping", "https://en.wiktionary.org/wiki/wrap#Verb");
+
+            URL_Add("Basilisk", "https://en.wikipedia.org/wiki/Basilisk_(web_browser)");
+
+            URL_Add("Blink", "https://en.wikipedia.org/wiki/Blink_(browser_engine)");
+
+            URL_Add("Cascadia Code", "https://en.wikipedia.org/wiki/Cascadia_Code");
+
+            URL_Add("Verizon", "https://en.wikipedia.org/wiki/Verizon_Communications");
+
+            URL_Add("end up", "https://en.wiktionary.org/wiki/end_up#Verb");
+
+            URL_Add("extra", "https://en.wiktionary.org/wiki/extra#Adjective");
+
+            URL_Add("firsthand", "https://en.wiktionary.org/wiki/firsthand#Adjective");
+
+            URL_Add("glyph", "https://en.wiktionary.org/wiki/glyph#Noun");
+
+            URL_Add("may", "https://en.wiktionary.org/wiki/may#Verb");
+
+            URL_Add("overengineered", "https://en.wiktionary.org/wiki/overengineered#Adjective");
+
+            URL_Add("pulling", "https://en.wiktionary.org/wiki/pull#Verb");
+
+            URL_Add("vertically", "https://en.wiktionary.org/wiki/vertically#Adverb");
+
+            URL_Add("wired", "https://en.wiktionary.org/wiki/wired#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
