@@ -6970,6 +6970,7 @@ namespace OverflowHelper.core
             correctionAdd("WebSocktes", "WebSocket"); // Misspelling.
             correctionAdd("web sockets", "WebSocket");
             correctionAdd("Websockets", "WebSocket");
+            correctionAdd("webSocket", "WebSocket");
 
             correctionAdd("of cource", "of course");
             correctionAdd("Of cource", "of course"); // Not 100% correct (case)
@@ -7509,6 +7510,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
@@ -8120,6 +8123,9 @@ namespace OverflowHelper.core
 
             correctionAdd("SocketIO", "Socket.IO");
             correctionAdd("socket.io", "Socket.IO");
+            correctionAdd("sockets.io", "Socket.IO");
+            correctionAdd("Sockets.io", "Socket.IO");
+            correctionAdd("Socket.io", "Socket.IO");
 
             correctionAdd("oData", "OData");
 
@@ -9876,6 +9882,7 @@ namespace OverflowHelper.core
             correctionAdd("programtically", "programmatically");
             correctionAdd("programmaticaly", "programmatically");
             correctionAdd("Programatically", "programmatically");
+            correctionAdd("Progrmatically", "programmatically");
 
             correctionAdd("Hex", "hexadecimal");
             correctionAdd("hex", "hexadecimal");
@@ -10574,6 +10581,7 @@ namespace OverflowHelper.core
             correctionAdd("Similtanous", "simultaneous"); // Not 100% correct - case.
 
             correctionAdd("redifine", "redefine");
+            correctionAdd("re-define", "redefine");
 
             correctionAdd("Objective-c++", "Objective-C++");
             correctionAdd("Objective C++", "Objective-C++");
@@ -12629,6 +12637,7 @@ namespace OverflowHelper.core
 
             correctionAdd("almos", "almost");
             correctionAdd("alomst", "almost");
+            correctionAdd("allmost", "almost");
 
             correctionAdd("answeared", "answered");
 
@@ -14581,6 +14590,7 @@ namespace OverflowHelper.core
             correctionAdd("creat", "create");
             correctionAdd("craete", "create");
             correctionAdd("crate", "create");
+            correctionAdd("vreate", "create");
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
@@ -15534,6 +15544,7 @@ namespace OverflowHelper.core
             correctionAdd("realiably", "reliably");
 
             correctionAdd("sever", "server");
+            correctionAdd("SEVER", "server");
 
             correctionAdd("situtation", "situation");
 
@@ -16512,6 +16523,7 @@ namespace OverflowHelper.core
             correctionAdd("Irak", "Iraq");
 
             correctionAdd("irssi", "Irssi");
+            correctionAdd("IRSSI", "Irssi");
 
             correctionAdd("latino", "Latino");
 
@@ -21998,6 +22010,7 @@ namespace OverflowHelper.core
             correctionAdd("whatwg", "WHATWG");
 
             correctionAdd("asign", "assign");
+            correctionAdd("sssign", "assign");
 
             correctionAdd("definitve", "definitive");
 
@@ -27430,6 +27443,26 @@ namespace OverflowHelper.core
             correctionAdd("Main sequence", "main sequence");
 
             correctionAdd("non desirable", "nondesirable");
+
+            correctionAdd("ac", "AC");
+
+            correctionAdd("eurasia", "Eurasia");
+
+            correctionAdd("9/11", "September 11 attacks");
+            correctionAdd("9/11 attacks", "September 11 attacks");
+
+            correctionAdd("dissconnected", "disconnected");
+
+            correctionAdd("hand work", "handwork");
+
+            correctionAdd("hand worked", "handworked");
+
+            correctionAdd("postrait", "portrait");
+
+            correctionAdd("qties", "quantities");
+            correctionAdd("qty's", "quantities");
+
+            correctionAdd("re-flag", "reflag");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43052,6 +43085,24 @@ namespace OverflowHelper.core
             URL_Add("main sequence", "https://en.wikipedia.org/wiki/Main_sequence");
 
             URL_Add("nondesirable", "https://en.wiktionary.org/wiki/nondesirable#Adjective");
+
+            URL_Add("AC", "https://en.wikipedia.org/wiki/Alternating_current");
+
+            URL_Add("Eurasia", "https://en.wiktionary.org/wiki/Eurasia#Proper_noun");
+
+            URL_Add("September 11 attacks", "https://en.wikipedia.org/wiki/September_11_attacks");
+
+            URL_Add("disconnected", "https://en.wiktionary.org/wiki/disconnected#Adjective");
+
+            URL_Add("handwork", "https://en.wiktionary.org/wiki/handwork#Verb");
+
+            URL_Add("handworked", "https://en.wiktionary.org/wiki/handwork#Verb");
+
+            URL_Add("portrait", "https://en.wiktionary.org/wiki/portrait#Adjective");
+
+            URL_Add("quantities", "https://en.wiktionary.org/wiki/quantity#Noun");
+
+            URL_Add("reflag", "https://en.wiktionary.org/wiki/reflag#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
