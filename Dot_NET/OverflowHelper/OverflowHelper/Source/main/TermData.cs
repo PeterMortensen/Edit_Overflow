@@ -955,6 +955,7 @@ namespace OverflowHelper.core
             correctionAdd("ASP .Net", "ASP.NET");
             correctionAdd("asp.net net", "ASP.NET");
             correctionAdd("ASP. NET", "ASP.NET");
+            correctionAdd("aspx", "ASP.NET");
 
             correctionAdd("ASP.net MVC", "ASP.NET MVC");
             correctionAdd("ASP.Net MVC", "ASP.NET MVC");
@@ -4719,6 +4720,7 @@ namespace OverflowHelper.core
             correctionAdd("I´m", "I'm");
             correctionAdd("I'am", "I'm");
             correctionAdd("I‘m", "I'm");
+            correctionAdd("i'am", "I'm");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -7882,6 +7884,8 @@ namespace OverflowHelper.core
             correctionAdd("massege", "message");
             correctionAdd("messeage", "message");
             correctionAdd("mesage", "message");
+            correctionAdd("messge", "message");
+            correctionAdd("messaget", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -10255,6 +10259,7 @@ namespace OverflowHelper.core
             correctionAdd("Some times", "sometimes");
             correctionAdd("Sometimes", "sometimes");
             correctionAdd("someties", "sometimes");
+            correctionAdd("sometime's", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -12036,6 +12041,7 @@ namespace OverflowHelper.core
             correctionAdd("millisonds", "millisecond");
             correctionAdd("milliseonds", "millisecond");
             correctionAdd("milliseconds", "millisecond");
+            correctionAdd("millis", "millisecond");
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
@@ -12614,6 +12620,7 @@ namespace OverflowHelper.core
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
             correctionAdd("data explorer", "Stack Exchange Data Explorer");
+            correctionAdd("Data Explorer", "Stack Exchange Data Explorer");
 
             correctionAdd("alledged", "alleged");
             correctionAdd("allegded", "alleged");
@@ -13775,6 +13782,7 @@ namespace OverflowHelper.core
 
             correctionAdd("P Channel mosfet", "p-channel MOSFET");
             correctionAdd("PMOS", "p-channel MOSFET");
+            correctionAdd("pMOS", "p-channel MOSFET");
 
             correctionAdd("pro-bono", "pro bono");
 
@@ -14327,6 +14335,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cleanup", "clean up");
             correctionAdd("clean-up", "clean up");
+            correctionAdd("Cleanup", "clean up");
 
             correctionAdd("surly", "surely");
             correctionAdd("shurely", "surely");
@@ -14614,6 +14623,7 @@ namespace OverflowHelper.core
             correctionAdd("Indeed.com", "Indeed");
 
             correctionAdd("readme", "README");
+            correctionAdd("Readme", "README");
 
             correctionAdd("scratch", "Scratch");
 
@@ -21057,6 +21067,7 @@ namespace OverflowHelper.core
             correctionAdd("use-case", "use case");
             correctionAdd("Use Case", "use case");
             correctionAdd("UseCase", "use case");
+            correctionAdd("Usecase", "use case");
 
             correctionAdd("clearcase", "ClearCase");
             correctionAdd("Clearcase", "ClearCase");
@@ -25598,6 +25609,7 @@ namespace OverflowHelper.core
             correctionAdd("azure devops", "Azure DevOps");
 
             correctionAdd("nmos", "NMOS");
+            correctionAdd("nMOS", "NMOS");
 
             correctionAdd("human-like", "humanlike");
             correctionAdd("human like", "humanlike");
@@ -27410,6 +27422,14 @@ namespace OverflowHelper.core
             correctionAdd("ventricle", "vertically");
 
             correctionAdd("wored", "wired");
+
+            correctionAdd("addedd", "added");
+
+            correctionAdd("Axiom", "axiom");
+
+            correctionAdd("Main sequence", "main sequence");
+
+            correctionAdd("non desirable", "nondesirable");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43024,6 +43044,14 @@ namespace OverflowHelper.core
             URL_Add("vertically", "https://en.wiktionary.org/wiki/vertically#Adverb");
 
             URL_Add("wired", "https://en.wiktionary.org/wiki/wired#Adjective");
+
+            URL_Add("added", "https://en.wiktionary.org/wiki/add#Verb");
+
+            URL_Add("axiom", "https://en.wiktionary.org/wiki/axiom#Noun");
+
+            URL_Add("main sequence", "https://en.wikipedia.org/wiki/Main_sequence");
+
+            URL_Add("nondesirable", "https://en.wiktionary.org/wiki/nondesirable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
