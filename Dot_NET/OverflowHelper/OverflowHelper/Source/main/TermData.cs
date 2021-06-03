@@ -11567,6 +11567,7 @@ namespace OverflowHelper.core
             correctionAdd("Android Pie", "Android 9.0 (Pie)");
 
             correctionAdd("cordova", "Cordova");
+            correctionAdd("apache cordova", "Cordova");
 
             correctionAdd("attenttion", "attention");
             correctionAdd("atenttion", "attention");
@@ -13492,6 +13493,8 @@ namespace OverflowHelper.core
             correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
 
             correctionAdd("discord", "Discord");
+            correctionAdd("Discod", "Discord");
+            correctionAdd("discod", "Discord");
 
             correctionAdd("hfs", "HFS");
 
@@ -14032,6 +14035,7 @@ namespace OverflowHelper.core
             correctionAdd("Mediaeval", "mediaeval");
 
             correctionAdd("skillful", "skilful");
+            correctionAdd("skill full", "skilful");
 
             correctionAdd("Soviet", "soviet");
 
@@ -14443,6 +14447,10 @@ namespace OverflowHelper.core
             correctionAdd("pine", "Pine");
 
             correctionAdd("screen", "Screen");
+            correctionAdd("GNU Screen", "Screen");
+            correctionAdd("gnu screen", "Screen");
+            correctionAdd("GNU screen", "Screen");
+            correctionAdd("GNU/screen", "Screen");
 
             correctionAdd("wtf", "WTF");
 
@@ -15367,6 +15375,7 @@ namespace OverflowHelper.core
             correctionAdd("man", "man page");
             correctionAdd("Man page", "man page");
             correctionAdd("manual page", "man page");
+            correctionAdd("manpage", "man page");
 
             correctionAdd("mark-up", "markup");
             correctionAdd("mark up", "markup");
@@ -16804,6 +16813,7 @@ namespace OverflowHelper.core
 
             correctionAdd("klient", "client");
             correctionAdd("cliant", "client");
+            correctionAdd("cleint", "client");
 
             correctionAdd("Fusion", "fusion");
 
@@ -27463,6 +27473,16 @@ namespace OverflowHelper.core
             correctionAdd("qty's", "quantities");
 
             correctionAdd("re-flag", "reflag");
+
+            correctionAdd("bode plot", "Bode plot");
+
+            correctionAdd("leafs", "leaves");
+
+            correctionAdd("maginitude", "magnitude");
+
+            correctionAdd("mi", "me");
+
+            correctionAdd("Silver", "silver");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43103,6 +43123,16 @@ namespace OverflowHelper.core
             URL_Add("quantities", "https://en.wiktionary.org/wiki/quantity#Noun");
 
             URL_Add("reflag", "https://en.wiktionary.org/wiki/reflag#Verb");
+
+            URL_Add("Bode plot", "https://en.wikipedia.org/wiki/Bode_plot");
+
+            URL_Add("leaves", "https://en.wiktionary.org/wiki/leaf#Noun");
+
+            URL_Add("magnitude", "https://en.wiktionary.org/wiki/magnitude#Noun");
+
+            URL_Add("me", "https://en.wiktionary.org/wiki/me#Pronoun");
+
+            URL_Add("silver", "https://en.wikipedia.org/wiki/Silver");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
