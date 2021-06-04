@@ -9670,10 +9670,6 @@ namespace OverflowHelper.core
 
             correctionAdd("elf", "ELF");
 
-            correctionAdd("when ever", "whenever");
-            correctionAdd("whenver", "whenever");
-            correctionAdd("When ever", "whenever");
-
             correctionAdd("Ohm", "ohm");
             correctionAdd("OHM", "ohm");
             correctionAdd("Om", "ohm");
@@ -27484,6 +27480,21 @@ namespace OverflowHelper.core
 
             correctionAdd("Silver", "silver");
 
+            correctionAdd("bitchute", "BitChute");
+
+            correctionAdd("grammarly", "Grammarly");
+
+            correctionAdd("juristiction", "jurisdiction");
+
+            correctionAdd("when ever", "whenever");
+            correctionAdd("whenver", "whenever");
+            correctionAdd("When ever", "whenever");
+
+            correctionAdd("nevar", "never");
+            correctionAdd("Nevar", "never");
+
+            correctionAdd("outragious", "outrageous");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -43133,6 +43144,16 @@ namespace OverflowHelper.core
             URL_Add("me", "https://en.wiktionary.org/wiki/me#Pronoun");
 
             URL_Add("silver", "https://en.wikipedia.org/wiki/Silver");
+
+            URL_Add("BitChute", "https://en.wikipedia.org/wiki/BitChute");
+
+            URL_Add("Grammarly", "https://en.wikipedia.org/wiki/Grammarly");
+
+            URL_Add("jurisdiction", "https://en.wiktionary.org/wiki/jurisdiction#Noun");
+
+            URL_Add("never", "https://en.wiktionary.org/wiki/never#Adverb");
+
+            URL_Add("outrageous", "https://en.wiktionary.org/wiki/outrageous#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
