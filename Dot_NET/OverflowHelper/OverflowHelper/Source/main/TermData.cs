@@ -12102,6 +12102,7 @@ namespace OverflowHelper.core
             correctionAdd("defaul", "default");
             correctionAdd("dafault", "default");
             correctionAdd("deafault", "default");
+            correctionAdd("defalut", "default");
 
             correctionAdd("4th", "fourth");
 
@@ -14228,6 +14229,7 @@ namespace OverflowHelper.core
 
             correctionAdd("contiue", "continue");
             correctionAdd("countinue", "continue");
+            correctionAdd("contiune", "continue");
 
             correctionAdd("keepign", "keeping");
 
@@ -18459,6 +18461,7 @@ namespace OverflowHelper.core
             correctionAdd("Impliment", "implement");
             correctionAdd("implament", "implement");
             correctionAdd("impement", "implement");
+            correctionAdd("implemet", "implement");
 
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
@@ -18614,6 +18617,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sweden", "Sweden");
             correctionAdd("SWEDEN", "Sweden");
+            correctionAdd("Sweeden", "Sweden");
+            correctionAdd("sweeden", "Sweden");
 
             correctionAdd("advice", "advise");
 
@@ -21968,6 +21973,7 @@ namespace OverflowHelper.core
             correctionAdd("lanugage", "language");
             correctionAdd("lanague", "language");
             correctionAdd("languaje", "language");
+            correctionAdd("languange", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -27481,6 +27487,7 @@ namespace OverflowHelper.core
             correctionAdd("Silver", "silver");
 
             correctionAdd("bitchute", "BitChute");
+            correctionAdd("Bitchute", "BitChute");
 
             correctionAdd("grammarly", "Grammarly");
 
@@ -27494,6 +27501,37 @@ namespace OverflowHelper.core
             correctionAdd("Nevar", "never");
 
             correctionAdd("outragious", "outrageous");
+
+            correctionAdd("bic", "Bayesian information criterion");
+            correctionAdd("BIC", "Bayesian information criterion");
+
+            correctionAdd("google street view", "Google Street View");
+
+            correctionAdd("proguard", "ProGuard");
+            correctionAdd("Proguard", "ProGuard");
+
+            correctionAdd("Capture the Flag", "capture the flag");
+            correctionAdd("CTF", "capture the flag");
+            correctionAdd("ctf", "capture the flag");
+
+            correctionAdd("cfi", "comparative fit index");
+            correctionAdd("CFI", "comparative fit index");
+
+            correctionAdd("humerous", "humorous");
+
+            correctionAdd("inculded", "included");
+
+            correctionAdd("kt", "knot");
+            correctionAdd("kn", "knot");
+
+            correctionAdd("lightyear", "light year");
+
+            correctionAdd("long running", "long-running");
+
+            correctionAdd("sprcified", "specified");
+
+            correctionAdd("aic", "Akaike information criterion");
+            correctionAdd("AIC", "Akaike information criterion");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43154,6 +43192,30 @@ namespace OverflowHelper.core
             URL_Add("never", "https://en.wiktionary.org/wiki/never#Adverb");
 
             URL_Add("outrageous", "https://en.wiktionary.org/wiki/outrageous#Adjective");
+
+            URL_Add("Bayesian information criterion", "https://en.wikipedia.org/wiki/Bayesian_information_criterion");
+
+            URL_Add("Google Street View", "https://en.wikipedia.org/wiki/Google_Street_View");
+
+            URL_Add("ProGuard", "https://en.wikipedia.org/wiki/ProGuard_(software)");
+
+            URL_Add("capture the flag", "https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security");
+
+            URL_Add("comparative fit index", "https://en.wikipedia.org/wiki/Confirmatory_factor_analysis#Comparative_fit_index");
+
+            URL_Add("humorous", "https://en.wiktionary.org/wiki/humorous#Adjective");
+
+            URL_Add("included", "https://en.wiktionary.org/wiki/include#Verb");
+
+            URL_Add("knot", "https://en.wikipedia.org/wiki/Knot_(unit)");
+
+            URL_Add("light year", "https://en.wiktionary.org/wiki/light_year#Noun");
+
+            URL_Add("long-running", "https://en.wiktionary.org/wiki/long-running");
+
+            URL_Add("specified", "https://en.wiktionary.org/wiki/specified#Adjective");
+
+            URL_Add("Akaike information criterion", "https://en.wikipedia.org/wiki/Akaike_information_criterion");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
