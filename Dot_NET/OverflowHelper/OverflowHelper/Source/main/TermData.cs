@@ -7889,6 +7889,7 @@ namespace OverflowHelper.core
             correctionAdd("mesage", "message");
             correctionAdd("messge", "message");
             correctionAdd("messaget", "message");
+            correctionAdd("meesage", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -15150,6 +15151,7 @@ namespace OverflowHelper.core
             correctionAdd("GIT GUI", "Git GUI");
             correctionAdd("git gui", "Git GUI");
             correctionAdd("gitgui", "Git GUI");
+            correctionAdd("Git Gui", "Git GUI");
 
             correctionAdd("ksh", "KornShell");
             correctionAdd("korn shell", "KornShell");
@@ -17823,6 +17825,7 @@ namespace OverflowHelper.core
             correctionAdd("Java 9", "Java&nbsp;9"); // Sort of self
 
             correctionAdd("brach", "branch");
+            correctionAdd("Brach", "branch");
 
             correctionAdd("remotly", "remotely");
 
@@ -26186,6 +26189,7 @@ namespace OverflowHelper.core
             correctionAdd("amune", "immune");
 
             correctionAdd("miss interpretation", "misinterpretation");
+            correctionAdd("mis-interpretation", "misinterpretation");
 
             correctionAdd("numurous", "numerous");
 
@@ -27532,6 +27536,15 @@ namespace OverflowHelper.core
 
             correctionAdd("aic", "Akaike information criterion");
             correctionAdd("AIC", "Akaike information criterion");
+
+            correctionAdd("digestable", "digestible");
+
+            correctionAdd("grience", "grievance");
+
+            correctionAdd("mis-reading", "misreading");
+
+            correctionAdd("re-visit", "revisit");
+            correctionAdd("Re-visit", "revisit");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43216,6 +43229,14 @@ namespace OverflowHelper.core
             URL_Add("specified", "https://en.wiktionary.org/wiki/specified#Adjective");
 
             URL_Add("Akaike information criterion", "https://en.wikipedia.org/wiki/Akaike_information_criterion");
+
+            URL_Add("digestible", "https://en.wiktionary.org/wiki/digestible#Adjective");
+
+            URL_Add("grievance", "https://en.wiktionary.org/wiki/grievance#Noun");
+
+            URL_Add("misreading", "https://en.wiktionary.org/wiki/misreading#Noun");
+
+            URL_Add("revisit", "https://en.wiktionary.org/wiki/revisit#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
