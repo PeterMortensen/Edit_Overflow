@@ -2944,6 +2944,7 @@ namespace OverflowHelper.core
             correctionAdd("VirualBox", "VirtualBox");
             correctionAdd("vbox", "VirtualBox");
             correctionAdd("VirtualBOX", "VirtualBox");
+            correctionAdd("VirtuaBox", "VirtualBox");
 
             correctionAdd("VirualPC", "Virual PC");
 
@@ -4734,6 +4735,7 @@ namespace OverflowHelper.core
             correctionAdd("Base-64", "Base64");
             correctionAdd("base46", "Base64");
             correctionAdd("base-64", "Base64");
+            correctionAdd("Base 64", "Base64");
 
             correctionAdd("Windows CE", "Windows&nbsp;CE"); // Sort of identity mapping
             correctionAdd("WinCE", "Windows&nbsp;CE");
@@ -5429,6 +5431,7 @@ namespace OverflowHelper.core
             correctionAdd("core 2 duo", "Core 2 Duo");
 
             correctionAdd("rss", "RSS");
+            correctionAdd("Rss", "RSS");
 
             correctionAdd("combo", "combination"); // "combo" is slang - <https://en.wiktionary.orgz/wiki/combo#Noun>.
             correctionAdd("comb", "combination");
@@ -8414,8 +8417,9 @@ namespace OverflowHelper.core
             correctionAdd("tbird", "Thunderbird");
             correctionAdd("T Bird", "Thunderbird");
             correctionAdd("T-Bird", "Thunderbird");
-            correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts!
+            correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts! E.g., "terrabyte"
             correctionAdd("Thunderbir", "Thunderbird");
+            correctionAdd("TBird", "Thunderbird");
 
             correctionAdd("o/p", "output"); // Can it be confused with "OP"?
             correctionAdd("ouptut", "output");
@@ -10104,6 +10108,8 @@ namespace OverflowHelper.core
 
             correctionAdd("futher more", "furthermore");
             correctionAdd("further more", "furthermore");
+            correctionAdd("Further more", "furthermore");
+            correctionAdd("Furthermore", "furthermore");
 
             // Of PowerShell...
             correctionAdd("get-winevent", "Get-WinEvent");
@@ -14227,6 +14233,7 @@ namespace OverflowHelper.core
             correctionAdd("allegdedly", "allegedly");
             correctionAdd("aledgely", "allegedly");
             correctionAdd("alledgely", "allegedly");
+            correctionAdd("Allegedly", "allegedly");
 
             correctionAdd("contiue", "continue");
             correctionAdd("countinue", "continue");
@@ -18735,6 +18742,7 @@ namespace OverflowHelper.core
             correctionAdd("disappate", "dissipate");
 
             correctionAdd("logarithmith", "logarithm");
+            correctionAdd("log", "logarithm");
 
             correctionAdd("sub expression", "subexpression");
 
@@ -20936,6 +20944,7 @@ namespace OverflowHelper.core
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
+            correctionAdd("comand", "command");
 
             correctionAdd("thansand", "thousand");
             correctionAdd("tousind", "thousand");
@@ -22583,6 +22592,7 @@ namespace OverflowHelper.core
             correctionAdd("over-use", "overuse");
 
             correctionAdd("Peer Review", "peer review");
+            correctionAdd("peer-review", "peer review");
 
             correctionAdd("possibily", "possibly");
             correctionAdd("Possibily", "possibly");
@@ -22912,7 +22922,11 @@ namespace OverflowHelper.core
             correctionAdd("three dimensional", "three-dimensional");
 
             correctionAdd("tb", "&nbsp;TB");
-            correctionAdd("Tb", "&nbsp;TB");
+            correctionAdd("Tb", "&nbsp;TB"); // Conflicts with Thunderbird
+            correctionAdd("terrabyte", "&nbsp;TB");
+            correctionAdd("terra byte", "&nbsp;TB");
+            correctionAdd("tera byte", "&nbsp;TB");
+            correctionAdd("terabyte", "&nbsp;TB");
 
             correctionAdd("windows server", "Windows Server");
 
@@ -25064,6 +25078,7 @@ namespace OverflowHelper.core
             correctionAdd("solarwinds", "SolarWinds exploit");
 
             correctionAdd("auto detect", "autodetect");
+            correctionAdd("auto-detect", "autodetect");
 
             correctionAdd("auto detected", "autodetected");
 
@@ -26739,6 +26754,7 @@ namespace OverflowHelper.core
             correctionAdd("vertecies", "vertices");
 
             correctionAdd("visble", "visible");
+            correctionAdd("visable", "visible");
 
             correctionAdd("1n4001", "1N4001");
 
@@ -27545,6 +27561,38 @@ namespace OverflowHelper.core
 
             correctionAdd("re-visit", "revisit");
             correctionAdd("Re-visit", "revisit");
+
+            correctionAdd("douglas adams", "Douglas Adams");
+
+            correctionAdd("Easter Egg", "Easter egg");
+
+            correctionAdd("jmap", "JMAP");
+
+            correctionAdd("Homestead", "Laravel Homestead");
+
+            correctionAdd("Resource Description Framework", "RDF");
+            correctionAdd("rdf", "RDF");
+
+            correctionAdd("victoria's secret", "Victoria's Secret");
+
+            correctionAdd("Chat", "chat");
+
+            correctionAdd("Digital Easter Egg", "digital easter egg");
+
+            correctionAdd("exercise to the reader", "exercise for the reader");
+
+            correctionAdd("logs", "logarithms");
+
+            correctionAdd("peer-reviewed", "peer reviewed");
+
+            correctionAdd("re-using", "reusing");
+
+            correctionAdd("re-work", "rework");
+
+            correctionAdd("stroing", "storing");
+
+            correctionAdd("kvl", "Kirchhoff's voltage law");
+            correctionAdd("KVL", "Kirchhoff's voltage law");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43237,6 +43285,36 @@ namespace OverflowHelper.core
             URL_Add("misreading", "https://en.wiktionary.org/wiki/misreading#Noun");
 
             URL_Add("revisit", "https://en.wiktionary.org/wiki/revisit#Verb");
+
+            URL_Add("Douglas Adams", "https://en.wikipedia.org/wiki/Douglas_Adams");
+
+            URL_Add("Easter egg", "https://en.wiktionary.org/wiki/Easter_egg#Noun");
+
+            URL_Add("JMAP", "https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol");
+
+            URL_Add("Laravel Homestead", "https://en.wikipedia.org/wiki/Laravel#Features");
+
+            URL_Add("RDF", "https://en.wikipedia.org/wiki/Resource_Description_Framework");
+
+            URL_Add("Victoria's Secret", "https://en.wikipedia.org/wiki/Victoria's_Secret");
+
+            URL_Add("chat", "https://en.wiktionary.org/wiki/chat#Noun");
+
+            URL_Add("digital easter egg", "https://en.wikipedia.org/wiki/Easter_egg_(media)#In_computing");
+
+            URL_Add("exercise for the reader", "https://en.wiktionary.org/wiki/exercise_for_the_reader#Noun");
+
+            URL_Add("logarithms", "https://en.wiktionary.org/wiki/logarithm#Noun");
+
+            URL_Add("peer reviewed", "https://en.wiktionary.org/wiki/peer_review#Verb");
+
+            URL_Add("reusing", "https://en.wiktionary.org/wiki/reuse#Verb");
+
+            URL_Add("rework", "https://en.wiktionary.org/wiki/rework#Verb");
+
+            URL_Add("storing", "https://en.wiktionary.org/wiki/store#Verb");
+
+            URL_Add("Kirchhoff's voltage law", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff's_voltage_law");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
