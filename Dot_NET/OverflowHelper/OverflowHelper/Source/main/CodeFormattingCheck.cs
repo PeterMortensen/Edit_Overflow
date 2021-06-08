@@ -273,14 +273,19 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Returns a directly usable regular expression for source               *
+         *    code checking. To get a user-oriented explanation of                  *
+         *    the different parts of the regular expression, use                    *
+         *    function XXXX().                                                      *
+         *                                                                          *
          ****************************************************************************/
         public string combinedAllOfRegularExpressions()
         {
             mScratchSB.Length = 0;
 
-            //The clipboard is way too unstable to use!!! But this could be
-            //used as a test case when it is going to be fixed...
+            //The clipboard (in Windows) is way too unstable to use!!! But this
+            //could be used as a test case when it is going to be fixed...
             //
             //EditorOverflowApplication.setClipboard("(", false);
             //
