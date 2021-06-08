@@ -3215,6 +3215,9 @@ namespace OverflowHelper.core
             correctionAdd("OpenSuSE", "openSUSE");
             correctionAdd("Open Suse", "openSUSE");
             correctionAdd("openSuSE", "openSUSE");
+            correctionAdd("open suse", "openSUSE");
+            correctionAdd("open SUSE", "openSUSE");
+            correctionAdd("Open SUSE", "openSUSE");
 
             correctionAdd("seperate", "separate");
             correctionAdd("separete", "separate");
@@ -13104,6 +13107,8 @@ namespace OverflowHelper.core
             correctionAdd("unix & linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("Unix & Linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("Unix and Linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("linux and unix", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("unix and linux", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -15104,8 +15109,12 @@ namespace OverflowHelper.core
 
             correctionAdd("cartesian", "Cartesian");
 
-            correctionAdd("Data Studio", "Data&nbsp;Studio");
-            correctionAdd("DataStudio", "Data&nbsp;Studio");
+            correctionAdd("Google Data Studio", "Google&nbsp;Data&nbsp;Studio"); // Sort of identity mapping
+            correctionAdd("Data Studio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("DataStudio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("Google Data studio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("data studio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("Data&nbsp;Studio", "Google&nbsp;Data&nbsp;Studio");
 
             correctionAdd("neovim", "Neovim");
 
@@ -18874,6 +18883,7 @@ namespace OverflowHelper.core
 
             correctionAdd("co worker", "coworker");
             correctionAdd("co-worker", "coworker");
+            correctionAdd("Coworker", "coworker");
 
             correctionAdd("Venv", "venv");
 
@@ -27594,6 +27604,14 @@ namespace OverflowHelper.core
             correctionAdd("kvl", "Kirchhoff's voltage law");
             correctionAdd("KVL", "Kirchhoff's voltage law");
 
+            correctionAdd("deepin", "Deepin");
+
+            correctionAdd("ParrotOS", "Parrot OS");
+            correctionAdd("parrot os", "Parrot OS");
+            correctionAdd("parrot OS", "Parrot OS");
+
+            correctionAdd("noraml", "normal");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -34420,7 +34438,7 @@ namespace OverflowHelper.core
 
             URL_Add("Cartesian", "https://en.wiktionary.org/wiki/Cartesian#Adjective");
 
-            URL_Add("Data&nbsp;Studio", "https://datastudio.google.com/navigation/reporting");
+            URL_Add("Google&nbsp;Data&nbsp;Studio", "https://datastudio.google.com/navigation/reporting");
 
             URL_Add("Neovim", "https://en.wikipedia.org/wiki/Vim_(text_editor)#Neovim");
 
@@ -43315,6 +43333,12 @@ namespace OverflowHelper.core
             URL_Add("storing", "https://en.wiktionary.org/wiki/store#Verb");
 
             URL_Add("Kirchhoff's voltage law", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff's_voltage_law");
+
+            URL_Add("Deepin", "https://en.wikipedia.org/wiki/Deepin");
+
+            URL_Add("Parrot OS", "https://en.wikipedia.org/wiki/Parrot_OS");
+
+            URL_Add("normal", "https://en.wiktionary.org/wiki/normal#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
