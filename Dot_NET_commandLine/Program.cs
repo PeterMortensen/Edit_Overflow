@@ -49,7 +49,7 @@ namespace EditOverflow2
             }
             else
             {
-                //Word list exports
+                // Word list exports
 
                 EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
@@ -88,7 +88,6 @@ namespace EditOverflow2
                         //               "some date only string");
 
                         toOutput = someTermLookup.dumpWordList_asHTML(
-
                                        cfCheck.combinedAllOfRegularExpressions(),
                                        app.fullVersionStr(),
                                        app.versionString_dateOnly()

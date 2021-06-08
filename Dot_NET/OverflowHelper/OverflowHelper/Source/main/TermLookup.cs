@@ -174,15 +174,15 @@ namespace OverflowHelper.core
                 corrStr = aQueryStr;
             }
 
-            //Even if there is no case correction it may already be the correct case!
+            // Even if there is no case correction it may already be the correct case!
             anOutCorrectedWOrd = corrStr;
             string URLStr;
             if (mCorrectTerm2URL.TryGetValue(corrStr, out URLStr))
             {
-                toReturn = URLStr; //We have a match!
+                toReturn = URLStr; // We have a match!
             }
 
-            //If lookup failed then we will guess the Wikipedia URL (if allowed to do so).
+            // If lookup failed then we will guess the Wikipedia URL (if allowed to do so).
             if (toReturn.Length == 0)
             {
                 if (aGuessURLifFailedLookup)
@@ -231,7 +231,7 @@ namespace OverflowHelper.core
 
                 // 2016-01-31. XXXXXXXX
 
-                //Prepare the list of keys
+                // Prepare the list of keys
                 mKeys = new List<string>(len);
                 mIndexes = new List<int>(len);
 
@@ -525,13 +525,13 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          *   Encapsulate the loop where we run through the whole word list (of      *
-         *   incorrect terms) in a certain order. E.g. to generate the row          *
+         *   incorrect terms) in a certain order. E.g., to generate the row         *
          *   for an HTML table                                                      *
          *                                                                          *
          *    Note: We currently use an enum. Would it be better with something     *
-         *    where the formatting type (e.g. HTML or SQL) is some user defined     *
-         *    thing (e.g.  a concrete instance of an abstract class)?)              *
-         *                                                                          *
+         *          where the formatting type (e.g., HTML or SQL) is some           *
+         *          user-defined thing (e.g., a concrete instance of an             *
+         *          abstract class)?)                                               *
          *                                                                          *
          ****************************************************************************/
         private static void exportWordlist(
@@ -690,7 +690,7 @@ namespace OverflowHelper.core
                             {
 
                                 // "Identity mapping" - a lookup of a correct
-                                // term should also succeeed - e.g. if we only
+                                // term should also succeeed - e.g., if we only
                                 // want to get the URL.
                                 //
                                 // Also implicitly adds the mapping to the URL
@@ -702,7 +702,6 @@ namespace OverflowHelper.core
                                 // Delineate groups
 
                                 aSomeScratch.Append("\n\n");
-
                             }
                             break;
 
@@ -797,7 +796,7 @@ namespace OverflowHelper.core
         {
             aInOutBuilder.startHTML(aTitle);
 
-            //CSS for table
+            // CSS for table
             {
                 aInOutBuilder.startTagWithEmptyLine("style");
 
@@ -831,10 +830,10 @@ namespace OverflowHelper.core
             aInOutBuilder.endTagOneSeparateLine("head");
 
 
-            //Start of body
+            // Start of body
             aInOutBuilder.startTagWithEmptyLine("body");
 
-            //Headline
+            // Headline
             aInOutBuilder.addHeader(1, aTitle);
 
             // Link to the service
@@ -881,10 +880,10 @@ namespace OverflowHelper.core
                   "every match should be manually checked."
                 );
 
-            //Some statistics
+            // Some statistics
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
-            //There is some redundancy here...
+            // There is some redundancy here...
             aInOutBuilder.addParagraph(
                 "Longest incorrect term: \"" +
                   aLongestInCorrectTerm +
@@ -919,7 +918,7 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static void startOfHTML_Table(ref HTML_builder aInOutBuilder)
         {
-            //// Start of table, incl. table headers
+            // Start of table, incl. table headers (title row)
             aInOutBuilder.startTagWithEmptyLine("table");
 
             aInOutBuilder.singleLineTagOnSeparateLine(
@@ -939,15 +938,15 @@ namespace OverflowHelper.core
          *                                                                          *
          ****************************************************************************/
         private static void endOfHTML_document(ref HTML_builder aInOutBuilder,
-                                              string aCodeCheck_regularExpression,
-                                              string aDateStr)
+                                               string aCodeCheck_regularExpression,
+                                               string aDateStr)
         {
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
-            //Headline
+            // Headline
             aInOutBuilder.addHeader(2, "Some common strings and characters");
 
-            //Things for copy-paste
+            // Things for copy-paste
             aInOutBuilder.addParagraph(
                 "&nbsp;" +
 
@@ -986,7 +985,7 @@ namespace OverflowHelper.core
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
-            ////Headline
+            //Headline
 
             //Later: From the program (when we generalise
             //       these wrappings in HTML tags)
@@ -1074,9 +1073,9 @@ namespace OverflowHelper.core
          *      1. Parameter "aCodeCheck_regularExpression" does not do             *
          *          anything - it is for output (in the HTML content).              *
          *                                                                          *
-         *      2. This function is only used by some regression tests              *
-         *         to get a stable output (independent of the ever                  *
-         *         growing word list).                                              *
+         *      2. This function, with six parameters, is only used (directly,      *
+         *         as a public function) by some regression tests to get a          *
+         *         stable output (independent of the ever-growing word list).       *
          *                                                                          *
          ****************************************************************************/
         public static string dumpWordList_asHTML(
@@ -1091,8 +1090,8 @@ namespace OverflowHelper.core
             // For the pre-allocation: We now use a very simple prediction
             // model - linear with the number of entries.
             //
-            // Data points (the number of incorrect is only
-            // what is affecting the size):
+            // Data points (the number of incorrect entries
+            // is the only thing that affects the size):
             //
             //    Date        Incorrect   HTML_tableRows   Average
             //                entries     characters       size
@@ -1133,19 +1132,11 @@ namespace OverflowHelper.core
             // of ref HTML_tableRows...
 
 
-            //Delete at any time.
-            // string versionStr = EditorOverflowApplication.fullVersionStr();
-            //
-            // // This would be inconsistent if the date changes right after the
-            // // call of fullVersionStr()...
-            // string dateStr = EditorOverflowApplication.versionString_dateOnly();
-
-
             string lenLongestInCorrectTermStr = longestInCorrectTerm.Length.ToString();
             string lenLongestCorrectTermStr = longestCorrectTerm.Length.ToString();
             string lenLongestURLStr = longestURL.Length.ToString();
 
-            //Separate HTML generation for title (used in two places)
+            // Separate HTML generation for title (used in two places)
             scratchSB.Append("Edit Overflow wordlist. ");
             scratchSB.Append(incorrectWordEntries);
             scratchSB.Append(" input words and ");
@@ -1189,7 +1180,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          *  This is the function used by the main user-facing functionality         *
-         *  (menu command), exporting the current wordlist to HTML.                 *
+         *  (e.g., menu command), exporting the current wordlist to HTML.           *
          *                                                                          *
          ****************************************************************************/
         public string dumpWordList_asHTML(string aCodeCheck_regularExpression,
