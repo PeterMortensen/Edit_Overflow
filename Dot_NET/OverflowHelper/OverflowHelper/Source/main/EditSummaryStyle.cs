@@ -94,7 +94,7 @@ namespace OverflowHelper.core
             #else
                 mCurrentStyle = EditSummaryEnum.Stack_Overflow;
             #endif            
-        }
+        } //Constructor.
 
 
         //For now, clients handles what to do depending on the current 
@@ -125,8 +125,6 @@ namespace OverflowHelper.core
         //{
         //
         //}
-
-
 
 
     } //class EditSummaryStyle

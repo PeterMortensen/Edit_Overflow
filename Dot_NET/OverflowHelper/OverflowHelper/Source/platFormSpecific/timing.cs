@@ -94,7 +94,7 @@ namespace OverflowHelper.platFormSpecific
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *    Constructor                                                           *
          ****************************************************************************/
         public timing(System.Windows.Forms.Label anInLabelForTimeOutput)
         {
