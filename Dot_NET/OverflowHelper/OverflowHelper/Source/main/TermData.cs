@@ -12518,6 +12518,7 @@ namespace OverflowHelper.core
             correctionAdd("hightlighted", "highlighted");
 
             correctionAdd("idealy", "ideally");
+            correctionAdd("Ideally", "ideally");
 
             correctionAdd("judgment", "judgement");
 
@@ -27611,6 +27612,12 @@ namespace OverflowHelper.core
             correctionAdd("parrot OS", "Parrot OS");
 
             correctionAdd("noraml", "normal");
+
+            correctionAdd("beta-decay", "beta decay");
+
+            correctionAdd("debuged", "debugged");
+
+            correctionAdd("outdata", "outdated");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43339,6 +43346,12 @@ namespace OverflowHelper.core
             URL_Add("Parrot OS", "https://en.wikipedia.org/wiki/Parrot_OS");
 
             URL_Add("normal", "https://en.wiktionary.org/wiki/normal#Adjective");
+
+            URL_Add("beta decay", "https://en.wikipedia.org/wiki/Beta_decay");
+
+            URL_Add("debugged", "https://en.wiktionary.org/wiki/debug#Verb");
+
+            URL_Add("outdated", "https://en.wiktionary.org/wiki/outdated#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
