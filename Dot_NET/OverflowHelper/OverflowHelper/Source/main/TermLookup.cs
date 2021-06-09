@@ -219,7 +219,7 @@ namespace OverflowHelper.core
 
 
             //****************************************************************************
-            //*    <placeholder for header>                                              *
+            //*    Constructor                                                           *
             //****************************************************************************
             public SortByCorrectThenIncorrect_usingIndex(
                 Dictionary<string, string> anIncorrect2Correct)

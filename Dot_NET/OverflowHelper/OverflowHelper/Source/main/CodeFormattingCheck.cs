@@ -46,10 +46,13 @@ namespace OverflowHelper.core
         private StringBuilder mScratchSB;
 
 
+        /****************************************************************************
+         *    Constructor                                                           *
+         ****************************************************************************/
         public CodeFormattingCheck()
         {
             mScratchSB = new StringBuilder(200);
-        }
+        } //Constructor.
 
 
         /****************************************************************************
