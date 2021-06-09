@@ -34,7 +34,7 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *    Constructor                                                           *
          ****************************************************************************/
         public Tokeniser(string aRawString, string aSeparator)
         {

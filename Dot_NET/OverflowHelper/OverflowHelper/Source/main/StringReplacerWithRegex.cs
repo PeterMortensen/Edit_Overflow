@@ -54,7 +54,7 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *    Constructor                                                           *
          ****************************************************************************/
         public StringReplacerWithRegex(string anInputString)
         {

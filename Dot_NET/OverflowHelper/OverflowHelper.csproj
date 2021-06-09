@@ -189,6 +189,7 @@
     <Compile Include="OverflowHelper\Source\main\HTML_builder.cs" />
     <Compile Include="OverflowHelper\Source\main\LinkRef.cs" />
     <Compile Include="OverflowHelper\Source\main\LookUpString.cs" />
+    <Compile Include="OverflowHelper\Source\main\RegExExecutor.cs" />
     <Compile Include="OverflowHelper\Source\main\Sites.cs" />
     <Compile Include="OverflowHelper\Source\main\StringReplacerWithRegex.cs" />
     <Compile Include="OverflowHelper\Source\main\TermData.cs" />
