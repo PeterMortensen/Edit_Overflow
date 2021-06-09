@@ -29,6 +29,7 @@
 using System.Text; //For StringBuilder.
 //using System.Diagnostics; //For Trace. And its Assert.
 
+using System.Collections.Generic; //For List.
 
 
 /****************************************************************************
@@ -36,6 +37,14 @@ using System.Text; //For StringBuilder.
  ****************************************************************************/
 namespace OverflowHelper.core
 {
+
+    public struct codeCheckItemStruct
+    {
+        public int ID;
+        public int groupID;
+        public string regularExpression;
+        public string explanation;
+    };
 
 
     /****************************************************************************
@@ -45,6 +54,8 @@ namespace OverflowHelper.core
     {
         private StringBuilder mScratchSB;
 
+        private List<codeCheckItemStruct> mCodeCheckItems;
+
 
         /****************************************************************************
          *    Constructor                                                           *
@@ -52,7 +63,106 @@ namespace OverflowHelper.core
         public CodeFormattingCheck()
         {
             mScratchSB = new StringBuilder(200);
+
+            mCodeCheckItems = new List<codeCheckItemStruct>();
+
+            // Set up the datastructures
+
+            // Note: the "&"s are bleeding of some Windows Forms
+            //       specific stuff (they are only relevant in
+            //       that context)
+
+            addCodeCheck(
+              1, 1,
+              missingSpaceBeforeOpeningBracketRegex(),
+              "M&issing space before {");
+
+            addCodeCheck(
+              2, 2,
+              missingSpaceAfterColonRegex(),
+              "Missing space after &colon");
+
+            addCodeCheck(
+              3, 2,
+              missingSpaceAfterCommaRegex(),
+              "Missing space after co&mma");
+
+            addCodeCheck(
+              4, 3,
+              missingSpaceAroundEqualSign(),
+              "Missing space around &equal sign");
+
+            addCodeCheck(
+              5, 3,
+              missingSpaceAroundStringConcatenationRegex(),
+              "Missing space around string concate&nation (by \"+\")");
+
+            addCodeCheck(
+              6, 4,
+              spaceBeforeCommaRegex(),
+              "&Space before comma");
+
+            addCodeCheck(
+              7, 4,
+              spaceBeforeColonRegex(),
+              "Space &before colon");
+
+            addCodeCheck(
+              8, 4,
+              spaceBeforeParenthesisRegex(),
+              "Space before right &parenthesis");
+
+            addCodeCheck(
+              9, 4,
+              spaceBeforeSemicommaRegex(),
+              "Space before semicolo&n");
+
+            addCodeCheck(
+              10, 5,
+              spaceAfterLeftParenthesisRegex(),
+              "Space after &left parenthesis");
+        
         } //Constructor.
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Helper function for the constructor (for setting up the               *
+         *    datastructures that defines the regular expressions for               *
+         *    source code check). It is also preparation for                        *
+         *    (by configuration).                                                   *
+         *                                                                          *
+         ****************************************************************************/
+        private void addCodeCheck(int anID,
+                                  int aGroupID,
+                                  string aRegularExpression,
+                                  string anExplanation)
+        {
+            codeCheckItemStruct someItem;
+
+            someItem.ID = anID;
+            someItem.groupID = aGroupID;
+            someItem.regularExpression = aRegularExpression;
+            someItem.explanation = anExplanation;
+            mCodeCheckItems.Add(someItem);
+        }//addCodeCheck()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Example of line that will match:                                      *
+         *                                                                          *
+         *      XXXXXX                                                              *
+         *                                                                          *
+         ****************************************************************************/
+        public List<codeCheckItemStruct> getCodeCheckItems()
+        {
+            //No real encapsulation for now, but the client needs
+            //to iterate through the items (for some Windows Forms
+            //specific things).
+            //
+            return mCodeCheckItems;
+        } //missingSpaceBeforeOpeningBracketRegex()
 
 
         /****************************************************************************

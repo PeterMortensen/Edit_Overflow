@@ -76,7 +76,8 @@
 using System; //For EventArgs.
 using System.Collections.Generic; //For List.
 using System.Drawing; //For Color and KnownColor.
-using System.Windows.Forms; //For Form.
+using System.Windows.Forms; //For Form, MessageBox, Clipboard, 
+                            //ToolStripMenuItem, ToolStripSeparator, etc.
 
 using System.Text.RegularExpressions; //For MatchCollection.
 
@@ -96,13 +97,6 @@ using OverflowHelper.platFormSpecific;
 namespace OverflowHelper
 {
 
-    public struct codeCheckItemStruct
-    {
-        public int ID;
-        public int groupID;        
-        public string regularExpression;
-        public string explanation;
-    };
 
 
 
@@ -133,10 +127,9 @@ namespace OverflowHelper
 
         private WordCorrector mWordCorrector;
 
+        //private ToolStripMenuItem mnuSomeDynamicMenuItem;
 
-        private System.Windows.Forms.ToolStripMenuItem mnuSomeDynamicMenuItem;
-
-        private List<codeCheckItemStruct> mCodeCheckItems;
+        
 
 
         /****************************************************************************
@@ -154,73 +147,18 @@ namespace OverflowHelper
 
             if (true)
             {
-                mCodeCheckItems = new List<codeCheckItemStruct>();
+                
 
                 // PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP 
 
 
-                // Set up the datastructures
-
-                // Note: the "&"s are bleeding of some Windows Forms
-                //       specific stuff (they are only relevant in
-                //       that context)
-
-                addCodeCheck(
-                  1, 1,
-                  mCodeFormattingCheck.missingSpaceBeforeOpeningBracketRegex(), 
-                  "M&issing space before {");
-
-                addCodeCheck(
-                  2, 2,
-                  mCodeFormattingCheck.missingSpaceAfterColonRegex(),
-                  "Missing space after &colon");
-
-                addCodeCheck(
-                  3, 2,
-                  mCodeFormattingCheck.missingSpaceAfterCommaRegex(),
-                  "Missing space after co&mma");
-
-                addCodeCheck(
-                  4, 3,
-                  mCodeFormattingCheck.missingSpaceAroundEqualSign(),
-                  "Missing space around &equal sign");
-
-                addCodeCheck(
-                  5, 3,
-                  mCodeFormattingCheck.missingSpaceAroundStringConcatenationRegex(),
-                  "Missing space around string concate&nation (by \"+\")");
-
-                addCodeCheck(
-                  6, 4,
-                  mCodeFormattingCheck.spaceBeforeCommaRegex(),
-                  "&Space before comma");
-
-                addCodeCheck(
-                  7, 4,
-                  mCodeFormattingCheck.spaceBeforeColonRegex(),
-                  "Space &before colon");
-
-                addCodeCheck(
-                  8, 4,
-                  mCodeFormattingCheck.spaceBeforeParenthesisRegex(),
-                  "Space before right &parenthesis");
-
-                addCodeCheck(
-                  9, 4,
-                  mCodeFormattingCheck.spaceBeforeSemicommaRegex(),
-                  "Space before semicolo&n");
-
-                addCodeCheck(
-                  10, 5,
-                  mCodeFormattingCheck.spaceAfterLeftParenthesisRegex(),
-                  "Space after &left parenthesis");
 
 
                 //Delet at any time
                 ////Experimental: Add an item to a submenu 
                 ////              (menu "Text" -> "Regular expression to Clipboard")
                 ////
-                //mnuSomeDynamicMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+                //mnuSomeDynamicMenuItem = new ToolStripMenuItem();
                 //mnuSomeDynamicMenuItem.Name = "mnuSomeDynamicMenuItem";
                 //mnuSomeDynamicMenuItem.Size = new System.Drawing.Size(416, 24);
                 //mnuSomeDynamicMenuItem.Text = "SOME dynamic menu item...";
@@ -228,15 +166,18 @@ namespace OverflowHelper
                 //this.mnuRegularExpressionToClipboard.DropDownItems.Add(mnuSomeDynamicMenuItem);
 
 
+                List<codeCheckItemStruct> codeCheckItems = 
+                    mCodeFormattingCheck.getCodeCheckItems();
+
+
                 int oldGroupID = -1;
-                int len = mCodeCheckItems.Count;
+                int len = codeCheckItems.Count;
                 //int lastIndex = len - 1;
                 for (int i = 0; i < len; i++)
                 {
-                    codeCheckItemStruct someItem = mCodeCheckItems[i];
+                    codeCheckItemStruct someItem = codeCheckItems[i];
 
-                    System.Windows.Forms.ToolStripMenuItem newMenuItem =
-                        new System.Windows.Forms.ToolStripMenuItem();
+                    ToolStripMenuItem newMenuItem = new ToolStripMenuItem();
 
                     string IDstr = someItem.ID.ToString();
                     newMenuItem.Name = IDstr; //Add some prefix, e.g. to comply
@@ -251,7 +192,11 @@ namespace OverflowHelper
                     newMenuItem.Tag = IDstr; // For later identification (in the
                                              // common (single) event handler)
 
-                    //newMenuItem.Click += new System.EventHandler(this.mnuMissingSpaceBeforeOpeningBracket_Click);
+                    // The same handler for all menu items. The "Tag" 
+                    // property is used for identification.
+                    newMenuItem.Click += 
+                        new System.EventHandler(
+                            this.mnuCodeFormattingChecks_Common_Click);
 
 
                     //Note: A check for the last item may also be needed.
@@ -262,9 +207,9 @@ namespace OverflowHelper
                         //
                         //Do we need to set property "Size"?
                         //
-                        //this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+                        //this.toolStripSeparator6 = new ToolStripSeparator();
                         this.mnuRegularExpressionToClipboard.DropDownItems.Add(
-                          new System.Windows.Forms.ToolStripSeparator());
+                          new ToolStripSeparator());
                     }
                     this.mnuRegularExpressionToClipboard.DropDownItems.Add(newMenuItem);
 
@@ -283,7 +228,7 @@ namespace OverflowHelper
                 //Use something else than speech to get attention.
                 string msg =
                     "Crash in constructor of TermLookup (or some other)";
-                System.Windows.Forms.MessageBox.Show(msg);
+                MessageBox.Show(msg);
             }
             finally
             {
@@ -362,29 +307,6 @@ namespace OverflowHelper
         {
             mRunning = false;
         }
-
-
-        /****************************************************************************
-         *                                                                          *
-         *    Helper function for the constructor (for setting up the               *
-         *    datastructures that defines the regular expressions for               *
-         *    source code check). It is also preparation for                        *
-         *    (by configuration).                                                   *
-         *                                                                          *
-         ****************************************************************************/
-        private void addCodeCheck(int anID,
-                                  int aGroupID, 
-                                  string aRegularExpression, 
-                                  string anExplanation)
-        {
-            codeCheckItemStruct someItem;
-
-            someItem.ID = anID;
-            someItem.groupID = aGroupID;
-            someItem.regularExpression = aRegularExpression;
-            someItem.explanation = anExplanation;
-            mCodeCheckItems.Add(someItem);
-        }//addCodeCheck()
 
 
         /****************************************************************************
@@ -560,7 +482,7 @@ namespace OverflowHelper
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show(lookupResult.lookUpFailureText);
+                MessageBox.Show(lookupResult.lookUpFailureText);
             }
 
 
@@ -583,7 +505,7 @@ namespace OverflowHelper
             else
             {
                 string msg = "Nothing to look up!";
-                System.Windows.Forms.MessageBox.Show(msg);
+                MessageBox.Show(msg);
             }
         } //doLookup()
 
@@ -843,7 +765,7 @@ namespace OverflowHelper
                 result = Int32.TryParse(IDstr, out ID);
                 if (!result)
                 {
-                    System.Windows.Forms.MessageBox.Show(
+                    MessageBox.Show(
                         "Could not extract post ID from " + aURLwithID);
                 }
             }
@@ -1319,7 +1241,7 @@ namespace OverflowHelper
 
 
             // What about non-text, etc.???? Is this a bug?
-            return System.Windows.Forms.Clipboard.GetText();
+            return Clipboard.GetText();
         }
 
 
@@ -1424,7 +1346,7 @@ namespace OverflowHelper
         private void mnuHelpAbout_Click(object aSender, EventArgs anEvent)
         {
             string msg = mApplication.fullVersionStr();
-            System.Windows.Forms.MessageBox.Show(msg);
+            MessageBox.Show(msg);
         }
 
 
@@ -1524,7 +1446,7 @@ namespace OverflowHelper
                       effectivePath + ", will be opened instead.";
                 }
 
-                System.Windows.Forms.MessageBox.Show(msgStr1 + msgStr2);
+                MessageBox.Show(msgStr1 + msgStr2);
             } //File does not exist.
 
             if (doOpen)
@@ -1718,7 +1640,7 @@ namespace OverflowHelper
             string msg3 = "  -m        : Open the Markdown window. "+
                           "If -l is specified then the lookup is performed first.\n";
 
-            System.Windows.Forms.MessageBox.Show(
+            MessageBox.Show(
                 msg1 + "\n" + msg2 + msg3,
                 "Edit Overflow CommandLine Parameters Documentation");
         }
@@ -1895,7 +1817,7 @@ namespace OverflowHelper
             double elapsedSecs = elapsedTicks * 0.001;
             double callsPerSecond = calls / elapsedSecs;
 
-            System.Windows.Forms.MessageBox.Show(
+            MessageBox.Show(
                 "Elapsed ticks: " + elapsedTicks +
                 " (" + callsPerSecond.ToString("0.0") +
                 " calls to DoEvents() per second");
@@ -2218,7 +2140,7 @@ namespace OverflowHelper
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show(
+                MessageBox.Show(
                     "There isn't any text in the clipboard! " +
                     "Use Copy to place text into the clipboard.");
             }
@@ -2386,7 +2308,7 @@ namespace OverflowHelper
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show(
+                MessageBox.Show(
                     "YouTube URL stuff was not found in the clipboard...");
             }
         } //mnuFilterHTML_forYouTube_2_Click()
@@ -2534,6 +2456,46 @@ namespace OverflowHelper
         {
             setClipboard2(mCodeFormattingCheck.combinedAllOfRegularExpressions());
         }
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Common handler for the new dynamically added menu                     *       
+         *    items for code formatting checks (copy to                             *
+         *    clipboard action)                                                     *
+         *                                                                          *
+         ****************************************************************************/
+        private void mnuCodeFormattingChecks_Common_Click(object aSender, 
+                                                          EventArgs anEvent)
+        {
+            string toTransfer = "XYZ"; //Stub
+
+            ToolStripMenuItem menuItem = (ToolStripMenuItem)aSender;
+
+            try 
+	        {
+                int ID = Int32.Parse((string)menuItem.Tag);
+
+                //Direct access for now (and assuming the IDs
+                //are consecutive and start at 1). We will 
+                //encapsulate in the next step (and remove 
+                //the assumption).
+                int index = ID - 1; //Explicit assumption...
+
+                List<codeCheckItemStruct> codeCheckItems =
+                    mCodeFormattingCheck.getCodeCheckItems();
+
+                codeCheckItemStruct someItem = codeCheckItems[index];
+                toTransfer = someItem.regularExpression;
+	        }
+	        catch (Exception)
+	        {
+                // We don't want to crash and risk 
+                // exiting the entire application
+	        }
+
+            setClipboard2(toTransfer);
+        } //mnuCodeFormattingChecks_Common_Click()
 
 
         /****************************************************************************
@@ -2731,7 +2693,7 @@ namespace OverflowHelper
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show(
+                MessageBox.Show(
                     "Links to MP3/M4A audio files were not found in the clipboard...");
             }
         } //mnuFilterHTML_forMediaURLsAndOpenLinkPage_2_Click()
