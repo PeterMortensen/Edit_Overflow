@@ -28,7 +28,7 @@ namespace OverflowHelper.core
         
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *    Constructor                                                           *
          ****************************************************************************/
         public LookUpString(string aRawString)
         {
@@ -104,7 +104,7 @@ namespace OverflowHelper.core
             mTrailingWhiteSpace = aRawString.Substring(endIdx + 1, trailingLen);
 
             //mCenterString = aRawString;
-        } //update.
+        } //update().
 
 
         /****************************************************************************
@@ -113,7 +113,7 @@ namespace OverflowHelper.core
         public string getCoreString()
         {
             return mCenterString;
-        } //Constructor.
+        }
         
 
         /****************************************************************************
@@ -122,7 +122,7 @@ namespace OverflowHelper.core
         public string getLeading()
         {
             return mLeadingWhiteSpace;
-        } //Constructor.
+        }
 
 
         /****************************************************************************
@@ -131,7 +131,7 @@ namespace OverflowHelper.core
         public string getTrailing()
         {
             return mTrailingWhiteSpace;
-        } //Constructor.
+        }
 
 
     } //class LookUpString
