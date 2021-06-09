@@ -96,6 +96,15 @@ using OverflowHelper.platFormSpecific;
 namespace OverflowHelper
 {
 
+    public struct codeCheckItemStruct
+    {
+        public int ID;
+        public int groupID;        
+        public string regularExpression;
+        public string explanation;
+    };
+
+
 
     /****************************************************************************
      *    <placeholder for header>                                              *
@@ -125,6 +134,11 @@ namespace OverflowHelper
         private WordCorrector mWordCorrector;
 
 
+        private System.Windows.Forms.ToolStripMenuItem mnuSomeDynamicMenuItem;
+
+        private List<codeCheckItemStruct> mCodeCheckItems;
+
+
         /****************************************************************************
          *    Constructor                                                           *
          ****************************************************************************/
@@ -137,6 +151,127 @@ namespace OverflowHelper
             mCodeFormattingCheck = new CodeFormattingCheck();
 
             InitializeComponent();
+
+            if (true)
+            {
+                mCodeCheckItems = new List<codeCheckItemStruct>();
+
+                // PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP 
+
+
+                // Set up the datastructures
+
+                // Note: the "&"s are bleeding of some Windows Forms
+                //       specific stuff (they are only relevant in
+                //       that context)
+
+                addCodeCheck(
+                  1, 1,
+                  mCodeFormattingCheck.missingSpaceBeforeOpeningBracketRegex(), 
+                  "M&issing space before {");
+
+                addCodeCheck(
+                  2, 2,
+                  mCodeFormattingCheck.missingSpaceAfterColonRegex(),
+                  "Missing space after &colon");
+
+                addCodeCheck(
+                  3, 2,
+                  mCodeFormattingCheck.missingSpaceAfterCommaRegex(),
+                  "Missing space after co&mma");
+
+                addCodeCheck(
+                  4, 3,
+                  mCodeFormattingCheck.missingSpaceAroundEqualSign(),
+                  "Missing space around &equal sign");
+
+                addCodeCheck(
+                  5, 3,
+                  mCodeFormattingCheck.missingSpaceAroundStringConcatenationRegex(),
+                  "Missing space around string concate&nation (by \"+\")");
+
+                addCodeCheck(
+                  6, 4,
+                  mCodeFormattingCheck.spaceBeforeCommaRegex(),
+                  "&Space before comma");
+
+                addCodeCheck(
+                  7, 4,
+                  mCodeFormattingCheck.spaceBeforeColonRegex(),
+                  "Space &before colon");
+
+                addCodeCheck(
+                  8, 4,
+                  mCodeFormattingCheck.spaceBeforeParenthesisRegex(),
+                  "Space before right &parenthesis");
+
+                addCodeCheck(
+                  9, 4,
+                  mCodeFormattingCheck.spaceBeforeSemicommaRegex(),
+                  "Space before semicolo&n");
+
+                addCodeCheck(
+                  10, 5,
+                  mCodeFormattingCheck.spaceAfterLeftParenthesisRegex(),
+                  "Space after &left parenthesis");
+
+
+                //Delet at any time
+                ////Experimental: Add an item to a submenu 
+                ////              (menu "Text" -> "Regular expression to Clipboard")
+                ////
+                //mnuSomeDynamicMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+                //mnuSomeDynamicMenuItem.Name = "mnuSomeDynamicMenuItem";
+                //mnuSomeDynamicMenuItem.Size = new System.Drawing.Size(416, 24);
+                //mnuSomeDynamicMenuItem.Text = "SOME dynamic menu item...";
+                ////mnuSomeDynamicMenuItem.Click += new System.EventHandler(this.mnuMissingSpaceBeforeOpeningBracket_Click);
+                //this.mnuRegularExpressionToClipboard.DropDownItems.Add(mnuSomeDynamicMenuItem);
+
+
+                int oldGroupID = -1;
+                int len = mCodeCheckItems.Count;
+                //int lastIndex = len - 1;
+                for (int i = 0; i < len; i++)
+                {
+                    codeCheckItemStruct someItem = mCodeCheckItems[i];
+
+                    System.Windows.Forms.ToolStripMenuItem newMenuItem =
+                        new System.Windows.Forms.ToolStripMenuItem();
+
+                    string IDstr = someItem.ID.ToString();
+                    newMenuItem.Name = IDstr; //Add some prefix, e.g. to comply
+                                              //with the naming convention?  
+
+                    //Is it really necessary to set this??
+                    newMenuItem.Size = new System.Drawing.Size(416, 24);
+
+                    //Note: The  prefix is only for this version...
+                    newMenuItem.Text = "DYNAMIC (inactive): " + someItem.explanation; 
+
+                    newMenuItem.Tag = IDstr; // For later identification (in the
+                                             // common (single) event handler)
+
+                    //newMenuItem.Click += new System.EventHandler(this.mnuMissingSpaceBeforeOpeningBracket_Click);
+
+
+                    //Note: A check for the last item may also be needed.
+                    if ((someItem.groupID != oldGroupID) && 
+                        oldGroupID >= 0)
+                    {
+                        // Add a separator
+                        //
+                        //Do we need to set property "Size"?
+                        //
+                        //this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+                        this.mnuRegularExpressionToClipboard.DropDownItems.Add(
+                          new System.Windows.Forms.ToolStripSeparator());
+                    }
+                    this.mnuRegularExpressionToClipboard.DropDownItems.Add(newMenuItem);
+
+                    oldGroupID = someItem.groupID;
+                } //Through code check items (setting up menu items)
+            } //Block.
+
 
             try
             {
@@ -227,6 +362,29 @@ namespace OverflowHelper
         {
             mRunning = false;
         }
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Helper function for the constructor (for setting up the               *
+         *    datastructures that defines the regular expressions for               *
+         *    source code check). It is also preparation for                        *
+         *    (by configuration).                                                   *
+         *                                                                          *
+         ****************************************************************************/
+        private void addCodeCheck(int anID,
+                                  int aGroupID, 
+                                  string aRegularExpression, 
+                                  string anExplanation)
+        {
+            codeCheckItemStruct someItem;
+
+            someItem.ID = anID;
+            someItem.groupID = aGroupID;
+            someItem.regularExpression = aRegularExpression;
+            someItem.explanation = anExplanation;
+            mCodeCheckItems.Add(someItem);
+        }//addCodeCheck()
 
 
         /****************************************************************************
