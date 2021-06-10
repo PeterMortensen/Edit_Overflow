@@ -87,7 +87,7 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\=|\=\S",
-                  cfCheck.missingSpaceAroundEqualSign(), "");
+                  cfCheck.missingSpaceAroundEqualSignRegex(), "");
             }
 
             {
@@ -145,7 +145,7 @@ namespace CodeFormattingCheckTests
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
                   @"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
-                  cfCheck.missingSpaceAroundOperators(), "");                  
+                  cfCheck.missingSpaceAroundOperatorsRegex(), "");                  
             }
 
             {
@@ -173,7 +173,7 @@ namespace CodeFormattingCheckTests
                 // Bad code should be detected
                 string badCode = "auto p=new Son();";
                 Assert.IsTrue(
-                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundEqualSign()));
+                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundEqualSignRegex()));
 
                 // Also using the full regular expression
                 Assert.IsTrue(
@@ -182,7 +182,7 @@ namespace CodeFormattingCheckTests
                 // Corresponding fixed code
                 Assert.IsFalse(
                     RegExExecutor.match("auto p = new Son();",
-                                        cfCheck.missingSpaceAroundEqualSign()));
+                                        cfCheck.missingSpaceAroundEqualSignRegex()));
             }
 
             {
@@ -222,7 +222,7 @@ namespace CodeFormattingCheckTests
             CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
             // Shortcuts / aliases
-            string regex     = cfCheck.missingSpaceAroundOperators();
+            string regex     = cfCheck.missingSpaceAroundOperatorsRegex();
             string regex_All = cfCheck.combinedAllOfRegularExpressions();
 
 
