@@ -939,6 +939,7 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static void endOfHTML_document(ref HTML_builder aInOutBuilder,
                                                string aCodeCheck_regularExpression,
+                                               string aCodeCheck_AllOfExplanations,
                                                string aDateStr)
         {
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
@@ -999,7 +1000,7 @@ namespace OverflowHelper.core
             //What is the "&nbsp;" for??
             aInOutBuilder.addParagraph(
                 "&nbsp;Regular expression" +
-                ": <br/>" +
+                "" + aCodeCheck_AllOfExplanations + ": <br/>" +
                 aCodeCheck_regularExpression);
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
@@ -1083,7 +1084,8 @@ namespace OverflowHelper.core
          *                                                                          *
          ****************************************************************************/
         public static string dumpWordList_asHTML(
-            string aCodeCheck_regularExpression,
+            string aCodeCheck_regularExpression,            
+            string aCodeCheck_AllOfExplanations,            
             ref Dictionary<string, string> anIncorrect2Correct,
             int aUniqueWords,
             ref Dictionary<string, string> aCorrectTerm2URL,
@@ -1172,7 +1174,10 @@ namespace OverflowHelper.core
 
             builder.endTagOneSeparateLine("table");
 
-            endOfHTML_document(ref builder, aCodeCheck_regularExpression, aDateStr);
+            endOfHTML_document(ref builder, 
+                               aCodeCheck_regularExpression, 
+                               aCodeCheck_AllOfExplanations, 
+                               aDateStr);
 
             scratchSB.Append(builder.currentHTML());
             //--------------------------------------------------------
@@ -1188,11 +1193,13 @@ namespace OverflowHelper.core
          *                                                                          *
          ****************************************************************************/
         public string dumpWordList_asHTML(string aCodeCheck_regularExpression,
+                                          string aCodeCheck_AllOfExplanations,
                                           string aVersionStr,
                                           string aDateStr)
         {
             return dumpWordList_asHTML(
                       aCodeCheck_regularExpression,
+                      aCodeCheck_AllOfExplanations,
                       ref mIncorrect2Correct,
                       mCorrectTerm2URL.Count,
                       ref mCorrectTerm2URL,

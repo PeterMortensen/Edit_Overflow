@@ -51,6 +51,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
+                "",
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
                 ref someWord2URL,
@@ -166,6 +167,7 @@ namespace OverflowHelper.Tests
 
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
+                "",
                 "",
                 ref someCaseCorrection,
                 someWord2URL.Count,
