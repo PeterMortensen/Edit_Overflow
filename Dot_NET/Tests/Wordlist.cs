@@ -77,7 +77,8 @@ namespace OverflowHelper.Tests
                     404 + 153 +
                     36 + 85 + 4 +
                     2 +
-                    177 + 6,
+                    177 + 6 +
+                    37,
                 len,
                 "XYZ");
             //    +3 because we discovered and eliminated a tab...
@@ -108,6 +109,7 @@ namespace OverflowHelper.Tests
             //    +2 New version number.
             //  +177 New paragraph added to the beginning
             //    +6 The longest incorrect term changed
+            //   +37 Different static HTML content close to "Code formatting check"
 
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
@@ -190,7 +192,8 @@ namespace OverflowHelper.Tests
                 3572 - 24 + 153 +
                     36 + 85 + 4 +
                     2 +
-                    177 + 6,
+                    177 + 6 +
+                    37,
                 len,
                 "XYZ");
             //   -24 because we removed unnecessary space...
@@ -205,6 +208,7 @@ namespace OverflowHelper.Tests
             //    +2 New version number.
             //  +177 New paragraph added to the beginning
             //    +6 The longest incorrect term changed
+            //   +37 Different static HTML content close to "Code formatting check"
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
