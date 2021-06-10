@@ -993,9 +993,13 @@ namespace OverflowHelper.core
             aInOutBuilder.addHeader(2, "Code formatting check");
 
             aInOutBuilder.addParagraph(
-                "&nbsp;Regular expression " +
-                "(rudimentary, high false-positive rate - " +
-                "every hit should be checked manually): <br/>" +
+              "Note: It is rudimentary. As the false positive rate is high, " + 
+              "every match should be checked manually");
+
+            //What is the "&nbsp;" for??
+            aInOutBuilder.addParagraph(
+                "&nbsp;Regular expression" +
+                ": <br/>" +
                 aCodeCheck_regularExpression);
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
