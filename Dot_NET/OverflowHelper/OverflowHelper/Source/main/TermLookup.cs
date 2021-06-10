@@ -995,13 +995,14 @@ namespace OverflowHelper.core
 
             aInOutBuilder.addParagraph(
               "Note: It is rudimentary. As the false positive rate is high, " + 
-              "every match should be checked manually");
+              "every match should be checked manually.");
 
             //What is the "&nbsp;" for??
+            string lineBreakAndIndent = "\n                  ";
             aInOutBuilder.addParagraph(
-                "&nbsp;Regular expression" +
-                "" + aCodeCheck_AllOfExplanations + ": <br/>" +
-                aCodeCheck_regularExpression);
+                "&nbsp;Regular expression" +                 
+                lineBreakAndIndent + aCodeCheck_AllOfExplanations + ": <br/>" +
+                lineBreakAndIndent + aCodeCheck_regularExpression);
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
