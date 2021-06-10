@@ -89,6 +89,7 @@ namespace EditOverflow2
 
                         toOutput = someTermLookup.dumpWordList_asHTML(
                                        cfCheck.combinedAllOfRegularExpressions(),
+                                       cfCheck.combinedAllOfExplanations(),
                                        app.fullVersionStr(),
                                        app.versionString_dateOnly()
                                    );

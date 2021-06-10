@@ -389,7 +389,7 @@ mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingChec
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
 
 
-exit   # Active: Test only!!!!!!!!! (We currently use this to
+#exit   # Active: Test only!!!!!!!!! (We currently use this to
        #                             iterate (aided by unit testing)
 
 
