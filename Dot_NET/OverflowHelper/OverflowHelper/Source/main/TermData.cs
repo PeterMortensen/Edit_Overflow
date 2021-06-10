@@ -5285,9 +5285,6 @@ namespace OverflowHelper.core
             correctionAdd("scetch", "sketch");
             correctionAdd("schetch", "sketch");
 
-            correctionAdd("POD", "plain old data structure");
-            correctionAdd("pod", "plain old data structure");
-
             correctionAdd("fk", "foreign key");
             correctionAdd("FK", "foreign key");
             correctionAdd("foreignkey", "foreign key");
@@ -6402,6 +6399,8 @@ namespace OverflowHelper.core
             correctionAdd("privillege", "privilege");
             correctionAdd("priveldge", "privilege");
             correctionAdd("previledge", "privilege");
+            correctionAdd("previllage", "privilege");
+            correctionAdd("previllege", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -6580,6 +6579,7 @@ namespace OverflowHelper.core
             correctionAdd("equivilate", "equivalent");
             correctionAdd("equivalate", "equivalent");
             correctionAdd("eqivalent", "equivalent");
+            correctionAdd("equivilant", "equivalent");
 
             correctionAdd("parallels", "Parallels");
 
@@ -9304,6 +9304,7 @@ namespace OverflowHelper.core
 
             correctionAdd("no body", "nobody");
             correctionAdd("knowbody", "nobody");
+            correctionAdd("noboy", "nobody");
 
             correctionAdd("airbnb", "Airbnb");
             correctionAdd("AirBnB", "Airbnb");
@@ -9631,6 +9632,8 @@ namespace OverflowHelper.core
             correctionAdd("buildin", "built-in");
             correctionAdd("bulit in", "built-in");
             correctionAdd("builitin", "built-in");
+            correctionAdd("in built", "built-in");
+            correctionAdd("in-built", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -20031,7 +20034,11 @@ namespace OverflowHelper.core
             correctionAdd("lo-dash", "Lodash");
             correctionAdd("Lodash.js", "Lodash");
 
+            correctionAdd("POD", "plain old data structure");
+            correctionAdd("pod", "plain old data structure");
+
             correctionAdd("data stricture", "data structure");
+            correctionAdd("datastructure", "data structure");
 
             correctionAdd("hymen", "human");
             correctionAdd("Human", "human");
@@ -20420,6 +20427,7 @@ namespace OverflowHelper.core
             correctionAdd("mezmerising", "mesmerising");
 
             correctionAdd("reinvent the wheels", "reinvent the wheel");
+            correctionAdd("reinvent the tire", "reinvent the wheel");
 
             // Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
             //
@@ -20630,6 +20638,7 @@ namespace OverflowHelper.core
             correctionAdd("JSON.NET", "Json.NET");
             correctionAdd("Json.Net", "Json.NET");
             correctionAdd("json.net", "Json.NET");
+            correctionAdd("newton.json", "Json.NET");
 
             correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
             correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
@@ -20880,6 +20889,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Of", "of");
             correctionAdd("onf", "of");
+            correctionAdd("ot", "of");
 
             correctionAdd("OC", "organic chemistry");
 
@@ -22913,6 +22923,8 @@ namespace OverflowHelper.core
             correctionAdd("delibertely", "deliberately");
 
             correctionAdd("excersising", "exercising");
+            correctionAdd("ecersising", "exercising");
+            correctionAdd("exersising", "exercising");
 
             correctionAdd("frequenrly", "frequently");
 
@@ -25537,6 +25549,8 @@ namespace OverflowHelper.core
             correctionAdd("syntax-highlighting", "syntax highlighting");
 
             correctionAdd("thorwing", "throwing");
+            correctionAdd("Thowing", "throwing");
+            correctionAdd("thowing", "throwing");
 
             correctionAdd("Lambda", "AWS Lambda");
 
@@ -27618,6 +27632,34 @@ namespace OverflowHelper.core
             correctionAdd("debuged", "debugged");
 
             correctionAdd("outdata", "outdated");
+
+            correctionAdd("Einstein Field Equations", "Einstein field equations");
+
+            correctionAdd("JIT-compiler", "JIT compiler");
+
+            correctionAdd("snap package", "Snap package");
+            correctionAdd("snap", "Snap package");
+            correctionAdd("Snap", "Snap package");
+
+            correctionAdd("answeres", "answers");
+
+            correctionAdd("cath", "catch");
+
+            correctionAdd("dm", "direct message");
+            correctionAdd("DM", "direct message");
+
+            correctionAdd("ilu", "incomplete LU factorization");
+            correctionAdd("ILU", "incomplete LU factorization");
+
+            correctionAdd("over-react", "overreact");
+
+            correctionAdd("sanitasion", "sanitation");
+
+            correctionAdd("sliped", "slipped");
+
+            correctionAdd("updation", "updating");
+
+            correctionAdd("week-end", "weekend");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43352,6 +43394,30 @@ namespace OverflowHelper.core
             URL_Add("debugged", "https://en.wiktionary.org/wiki/debug#Verb");
 
             URL_Add("outdated", "https://en.wiktionary.org/wiki/outdated#Adjective");
+
+            URL_Add("Einstein field equations", "https://en.wikipedia.org/wiki/Einstein_field_equations");
+
+            URL_Add("JIT compiler", "https://en.wikipedia.org/wiki/Just-in-time_compilation");
+
+            URL_Add("Snap package", "https://en.wikipedia.org/wiki/Snap_(package_manager)");
+
+            URL_Add("answers", "https://en.wiktionary.org/wiki/answer#Noun");
+
+            URL_Add("catch", "https://en.wiktionary.org/wiki/catch#Verb");
+
+            URL_Add("direct message", "https://en.wikipedia.org/wiki/Private_message");
+
+            URL_Add("incomplete LU factorization", "https://en.wikipedia.org/wiki/Incomplete_LU_factorization");
+
+            URL_Add("overreact", "https://en.wiktionary.org/wiki/overreact#Verb");
+
+            URL_Add("sanitation", "https://en.wiktionary.org/wiki/sanitation#Noun");
+
+            URL_Add("slipped", "https://en.wiktionary.org/wiki/slip#Verb");
+
+            URL_Add("updating", "https://en.wiktionary.org/wiki/update#Verb");
+
+            URL_Add("weekend", "https://en.wiktionary.org/wiki/weekend#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
