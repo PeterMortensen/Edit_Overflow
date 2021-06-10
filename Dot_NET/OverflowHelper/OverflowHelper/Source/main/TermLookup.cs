@@ -65,7 +65,7 @@ namespace OverflowHelper.core
 
     public enum wordListOutputTypeEnum
     {
-        SQL = 1003,
+        SQL = 1009,
         HTML,
         JavaScript
     }

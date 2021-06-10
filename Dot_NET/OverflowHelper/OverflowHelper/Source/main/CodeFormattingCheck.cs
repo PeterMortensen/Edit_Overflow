@@ -38,6 +38,31 @@ using System.Collections.Generic; //For List.
 namespace OverflowHelper.core
 {
 
+
+    public enum codeFormattingsRegexEnum
+    {
+        // Currently an assumption of IDs being consecutive and starting at 1...
+        //SQL = 1237,
+        missingSpaceBeforeOpeningBracket = 1,
+
+
+        //missingSpaceBeforeOpeningBracket
+        //missingSpaceAfterColon
+        //missingSpaceAfterComma
+        //missingSpaceAroundEqualSign(),
+        //missingSpaceAroundStringConcatenation
+        //spaceBeforeComma
+        //spaceBeforeColon
+        //spaceBeforeParenthesis
+        //spaceBeforeSemicomma
+        //spaceAfterLeftParenthesis
+        //missingSpaceAroundOperators(),
+        //
+        //Regex(),
+        //
+    }
+
+
     public struct codeCheckItemStruct
     {
         public int ID;
@@ -91,7 +116,7 @@ namespace OverflowHelper.core
 
             addCodeCheck(
               4, 3,
-              missingSpaceAroundEqualSign(),
+              missingSpaceAroundEqualSignRegex(),
               "Missing space around &equal sign");
 
             addCodeCheck(
@@ -126,7 +151,7 @@ namespace OverflowHelper.core
 
             addCodeCheck(
               11, 5,
-              missingSpaceAroundOperators(),
+              missingSpaceAroundOperatorsRegex(),
               "Missing space around some operators");
 
         } //Constructor.
@@ -159,10 +184,10 @@ namespace OverflowHelper.core
                 //Somewhat confusing (the exception type) - perhaps
                 //throw our own exception instead?
 
-                throw new 
+                throw new
                   System.IndexOutOfRangeException(
-                    "The explanation (" + anExplanation + ") is too short (" + 
-                    explanationLen + "), below the minimum of " + 
+                    "The explanation (" + anExplanation + ") is too short (" +
+                    explanationLen + "), below the minimum of " +
                     kMinimumExplanationLength.ToString() + " characters.");
             }
 
@@ -192,7 +217,7 @@ namespace OverflowHelper.core
             //specific things).
             //
             return mCodeCheckItems;
-        } //missingSpaceBeforeOpeningBracketRegex()
+        } //getCodeCheckItems()
 
 
         /****************************************************************************
@@ -247,12 +272,12 @@ namespace OverflowHelper.core
          *      "auto p=new Son();"                                                 *
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundEqualSign()
+        public string missingSpaceAroundEqualSignRegex()
         {
             string toAdd = @"\S\=|\=\S";
 
             return toAdd;
-        } //missingSpaceAroundEqualSign()
+        } //missingSpaceAroundEqualSignRegex()
 
 
         /****************************************************************************
@@ -352,7 +377,7 @@ namespace OverflowHelper.core
          *      XXXXXX                                                              *
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundOperators()
+        public string missingSpaceAroundOperatorsRegex()
         {
             // Meta: Escaping double quotes in string:
             //
@@ -409,7 +434,7 @@ namespace OverflowHelper.core
                 "";
 
             return toAdd;
-        } //missingSpaceAroundOperators()
+        } //missingSpaceAroundOperatorsRegex()
 
 
         /****************************************************************************
@@ -449,7 +474,7 @@ namespace OverflowHelper.core
                 mScratchSB.Append(missingSpaceAfterCommaRegex());
                 mScratchSB.Append("|");
 
-                mScratchSB.Append(missingSpaceAroundEqualSign());
+                mScratchSB.Append(missingSpaceAroundEqualSignRegex());
                 mScratchSB.Append("|");
 
                 mScratchSB.Append(missingSpaceAroundStringConcatenationRegex());
@@ -470,7 +495,7 @@ namespace OverflowHelper.core
                 mScratchSB.Append(spaceAfterLeftParenthesisRegex());
                 mScratchSB.Append("|");
 
-                mScratchSB.Append(missingSpaceAroundOperators());
+                mScratchSB.Append(missingSpaceAroundOperatorsRegex());
             }
 
             mScratchSB.Append(")");
