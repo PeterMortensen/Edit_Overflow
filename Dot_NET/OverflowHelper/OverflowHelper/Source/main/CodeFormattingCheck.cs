@@ -124,6 +124,11 @@ namespace OverflowHelper.core
               spaceAfterLeftParenthesisRegex(),
               "Space after &left parenthesis");
 
+            addCodeCheck(
+              11, 5,
+              missingSpaceAroundOperators(),
+              "Missing space around some operators");
+
         } //Constructor.
 
 
@@ -141,6 +146,26 @@ namespace OverflowHelper.core
                                   string anExplanation)
         {
             codeCheckItemStruct someItem;
+
+            // It is an (internal) client error to pass a string that
+            // is too short (for example, an empty string). Or in
+            // other words, the sanitation should already have
+            // taken place.
+            //
+            const int kMinimumExplanationLength = 10;
+            int explanationLen = anExplanation.Length;
+            if (explanationLen < kMinimumExplanationLength)
+            {
+                //Somewhat confusing (the exception type) - perhaps
+                //throw our own exception instead?
+
+                throw new 
+                  System.IndexOutOfRangeException(
+                    "The explanation (" + anExplanation + ") is too short (" + 
+                    explanationLen + "), below the minimum of " + 
+                    kMinimumExplanationLength.ToString() + " characters.");
+            }
+
 
             someItem.ID = anID;
             someItem.groupID = aGroupID;
@@ -344,9 +369,7 @@ namespace OverflowHelper.core
             string toAdd =
 
                 // Logical AND
-
                 @"\S&&" + "|" + @"&&\S" + "|" +
-
 
                 // String concatenation in e.g. Perl and PHP
                 //
@@ -357,7 +380,7 @@ namespace OverflowHelper.core
                 //
                 // But "." is used in many places, e.g. "using System.Text;"
                 //
-                // But we go with  a positive list: string literals by quotes,
+                // But we go with a positive list: string literals by quotes,
                 // variables with "$", and array indexing ("[]")
                 //
                 // Note: A double double quote is for escaping
@@ -365,22 +388,21 @@ namespace OverflowHelper.core
                 //
                 @"('|\""|(\$\w+\[.+\]))\."  + "|" +
 
-                    // Missing space to the left of "." (unless a number
-                    // or array indexing). However, we have a hard time
-                    // distingushing something like this in PowerShell,
-                    //
-                    //    $m.Groups[2].Value
-                    //
-                    // from this in PHP:
-                    //
-                    //    $ARGV[0]." "
-                    //
-                    // For now, we require simple variables starting
-                    // with "$" - thus we risk false negatives (and
-                    // can probably still get false positives in
-                    // PowerShell in some cases).
-
-
+                // Missing space to the left of "." (unless a number
+                // or array indexing). However, we have a hard time
+                // distingushing something like this in PowerShell,
+                //
+                //    $m.Groups[2].Value
+                //
+                // from this in PHP:
+                //
+                //    $ARGV[0]." "
+                //
+                // For now, we require simple variables starting
+                // with "$" - thus we risk false negatives (and
+                // can probably still get false positives in
+                // PowerShell in some cases).
+                //
                 @"\.['\""\]]" + "" +     // Missing space to the right
                                          // of "." (unless a number)
 
@@ -503,7 +525,7 @@ namespace OverflowHelper.core
                 {
                     // Only lists with three or more items have
                     // commas - covers an Oxford comma...
-                    //                    
+                    //
                     scratchSB.Append(@", ");
                 }
 
@@ -511,7 +533,7 @@ namespace OverflowHelper.core
                 if (i == lastIndex - 1) // Will not work if the list is too short
                                         // In any case, the Oxford comma is only
                                         // for three or more elements...
-                {                    
+                {
                     scratchSB.Append(@"and ");
                 }
 
