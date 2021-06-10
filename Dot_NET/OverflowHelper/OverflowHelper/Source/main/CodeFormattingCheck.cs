@@ -44,6 +44,8 @@ namespace OverflowHelper.core
         public int groupID;
         public string regularExpression;
         public string explanation;
+        public string explanation_cleaned; // Without the "&" for indicated
+                                           // keyboard shorcuts.
     };
 
 
@@ -121,7 +123,7 @@ namespace OverflowHelper.core
               10, 5,
               spaceAfterLeftParenthesisRegex(),
               "Space after &left parenthesis");
-        
+
         } //Constructor.
 
 
@@ -144,8 +146,11 @@ namespace OverflowHelper.core
             someItem.groupID = aGroupID;
             someItem.regularExpression = aRegularExpression;
             someItem.explanation = anExplanation;
+
+            someItem.explanation_cleaned = anExplanation.Replace("&", "");
+
             mCodeCheckItems.Add(someItem);
-        }//addCodeCheck()
+        } //addCodeCheck()
 
 
         /****************************************************************************
@@ -390,7 +395,7 @@ namespace OverflowHelper.core
          *    Returns a directly usable regular expression for source               *
          *    code checking. To get a user-oriented explanation of                  *
          *    the different parts of the regular expression, use                    *
-         *    function XXXX().                                                      *
+         *    function combinedAllOfExplanations().                                 *
          *                                                                          *
          ****************************************************************************/
         public string combinedAllOfRegularExpressions()
@@ -449,6 +454,91 @@ namespace OverflowHelper.core
             mScratchSB.Append(")");
 
             return mScratchSB.ToString();
+        } //combinedAllOfRegularExpressions()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    In particular: static/stateless...                                    *
+         *                                                                          *
+         ****************************************************************************/
+        private static string combinedAllOfExplanations_internal(
+            List<codeCheckItemStruct> aCodeCheckItems)
+        {
+            StringBuilder scratchSB = new StringBuilder(200);
+
+
+            //Note: Some of this (outputting a list of items as an English text
+            //      list with an Oxford comma) is not specific to this class/
+            //      place. Perhaps move that part to a utility class?
+            //      That would also make it easier to unit test.
+            //
+            //      The first step could be to split this into
+            //      two loops, one for the filtering and one
+            //      for the formatting.
+
+            scratchSB.Append("(");
+
+            int len = aCodeCheckItems.Count;
+            int lastIndex = len - 1;
+            for (int i = 0; i < len; i++)
+            {
+                codeCheckItemStruct someItem = aCodeCheckItems[i];
+
+                string explanation = someItem.explanation_cleaned;
+
+                // Make the first letter is not capitalised (it is for a
+                // normal text list)
+                string explanation_lower =
+                    char.ToLower(explanation[0]) + explanation.Substring(1);
+
+                scratchSB.Append(@"""");
+                scratchSB.Append(explanation_lower);
+                scratchSB.Append(@"""");
+
+                // No trailing comma for the list
+                if ((i != lastIndex) &&
+                    len >= 3
+                   )
+                {
+                    // Only lists with three or more items have
+                    // commas - covers an Oxford comma...
+                    //                    
+                    scratchSB.Append(@", ");
+                }
+
+                // After second to last (before the last item)
+                if (i == lastIndex - 1) // Will not work if the list is too short
+                                        // In any case, the Oxford comma is only
+                                        // for three or more elements...
+                {                    
+                    scratchSB.Append(@"and ");
+                }
+
+
+            } //Through code check items (generating of the explanation string
+              //for the code formatting regular expressions)
+
+            scratchSB.Append(")");
+
+            //return "XYZ"; // Stub
+            return scratchSB.ToString();
+        } //combinedAllOfExplanations_internal()
+
+//public int ID;
+//public int groupID;
+//public string regularExpression;
+//public string explanation;
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Returns a XXXX                                                        *
+         *                                                                          *
+         ****************************************************************************/
+        public string combinedAllOfExplanations()
+        {
+            return CodeFormattingCheck.combinedAllOfExplanations_internal(mCodeCheckItems);
         } //combinedAllOfRegularExpressions()
 
 
