@@ -257,7 +257,7 @@ namespace OverflowHelper.core
          *    Helper function for lookup in the main datastructure                  *
          *                                                                          *
          ****************************************************************************/
-        private string getRegularExpression(codeFormattingsRegexEnum anID)
+        public string getRegularExpression(codeFormattingsRegexEnum anID)
         {
             // Currently relying on a convention between the ID and the index...
             // At least the assumption is isolated here (except for use
@@ -270,12 +270,8 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceBeforeOpeningBracketRegex()
+        private string missingSpaceBeforeOpeningBracketRegex()
         {
-            //return toAdd;
-            //
-            //return mCodeCheckItems[(int)codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket-1].regularExpression;
-            //
             return getRegularExpression(codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket);
         } //missingSpaceBeforeOpeningBracketRegex()
 
@@ -283,7 +279,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAfterColonRegex()
+        private string missingSpaceAfterColonRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterColon);
         } //spaceAfterColonRegex()
@@ -292,7 +288,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAfterCommaRegex()
+        private string missingSpaceAfterCommaRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterComma);
         } //spaceAfterCommaRegex()
@@ -301,7 +297,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundEqualSignRegex()
+        private string missingSpaceAroundEqualSignRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign);
         } //missingSpaceAroundEqualSignRegex()
@@ -310,7 +306,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundStringConcatenationRegex()
+        private string missingSpaceAroundStringConcatenationRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation);
         } //spaceAroundStringConcatenationRegex()
@@ -319,7 +315,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeCommaRegex()
+        private string spaceBeforeCommaRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeComma);
         } //spaceBeforeCommaRegex()
@@ -328,7 +324,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeColonRegex()
+        private string spaceBeforeColonRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeColon);
         } //spaceBeforeColonRegex()
@@ -337,7 +333,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeParenthesisRegex()
+        private string spaceBeforeParenthesisRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeParenthesis);
         } //spaceBeforeParenthesisRegex()
@@ -346,7 +342,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeSemicommaRegex()
+        private string spaceBeforeSemicommaRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeSemicomma);
         } //spaceBeforeSemicommaRegex()
@@ -355,7 +351,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string spaceAfterLeftParenthesisRegex()
+        private string spaceAfterLeftParenthesisRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.spaceAfterLeftParenthesis);
         } //spaceAfterLeftParenthesisRegex()
@@ -364,12 +360,10 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundOperatorsRegex()
+        private string missingSpaceAroundOperatorsRegex()
         {
             return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators);
-
         } //missingSpaceAroundOperatorsRegex()
-
 
 
         /****************************************************************************
