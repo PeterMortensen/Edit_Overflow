@@ -51,16 +51,6 @@ namespace CodeFormattingCheckTests
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: Double quote (") is escaped as "" (two double quotes).
-                //       Backslash is NOT escaped (using "@")
-                Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]])",
-                  cfCheck.combinedAllOfRegularExpressions(), "");
-            }
-
-            {
-                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-
                 Assert.AreEqual(
                   @"\S\{",
                   cfCheck.missingSpaceBeforeOpeningBracketRegex(), "");
@@ -146,6 +136,16 @@ namespace CodeFormattingCheckTests
                 Assert.AreEqual(
                   @"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
                   cfCheck.missingSpaceAroundOperatorsRegex(), "");                  
+            }
+
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                // Note: Double quote (") is escaped as "" (two double quotes).
+                //       Backslash is NOT escaped (using "@")
+                Assert.AreEqual(
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]])",
+                  cfCheck.combinedAllOfRegularExpressions(), "");
             }
 
             {
