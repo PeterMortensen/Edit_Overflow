@@ -145,16 +145,9 @@ namespace OverflowHelper
 
             InitializeComponent();
 
-            if (true)
+            if (true) //Block. Could be moved to a helper function.
             {
-                
-
-                // PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP 
-
-
-
-
-                //Delet at any time
+                //Delete at any time
                 ////Experimental: Add an item to a submenu 
                 ////              (menu "Text" -> "Regular expression to Clipboard")
                 ////
@@ -164,11 +157,9 @@ namespace OverflowHelper
                 //mnuSomeDynamicMenuItem.Text = "SOME dynamic menu item...";
                 ////mnuSomeDynamicMenuItem.Click += new System.EventHandler(this.mnuMissingSpaceBeforeOpeningBracket_Click);
                 //this.mnuRegularExpressionToClipboard.DropDownItems.Add(mnuSomeDynamicMenuItem);
-
-
+                
                 List<codeCheckItemStruct> codeCheckItems = 
                     mCodeFormattingCheck.getCodeCheckItems();
-
 
                 int oldGroupID = -1;
                 int len = codeCheckItems.Count;
@@ -179,19 +170,39 @@ namespace OverflowHelper
 
                     ToolStripMenuItem newMenuItem = new ToolStripMenuItem();
 
-                    string IDstr = someItem.ID.ToString();
-                    newMenuItem.Name = IDstr; //Add some prefix, e.g. to comply
-                                              //with the naming convention?  
+                    string IDstr = ((int)someItem.ID).ToString();
 
+                    // We expect a (short) integer... (as a string)
+                    Trace.Assert(
+                        IDstr.Length <= 4,
+                        "Internal error. The ID string (\"" + IDstr +
+                        "\") does not appear to be a short integer..."); 
+
+                    // Add a prefix to comply
+                    // with the naming convention?  
+                    //
+                    // Note: With the enum, it is the ***name*** of that 
+                    //       enum, NOT an integer (the value)...
+                    //
+                    // To verify in the debugger, manually enter something like (but 
+                    // note that the index is not the same as in our datastructure
+                    // due to preceding menu elements and separators...):
+                    //
+                    //     this.mnuRegularExpressionToClipboard.DropDownItems[7] 
+                    //
+                    newMenuItem.Name = "mnu" + someItem.ID.ToString() + IDstr; 
+                                              
                     //Is it really necessary to set this??
                     newMenuItem.Size = new System.Drawing.Size(416, 24);
 
-                    //Note: The  prefix is only for this version...
-                    newMenuItem.Text = "DYNAMIC (inactive): " + someItem.explanation; 
+                    newMenuItem.Text = someItem.explanation; 
 
-                    newMenuItem.Tag = IDstr; // For later identification (in the
-                                             // common (single) event handler)
-
+                    newMenuItem.Tag = IDstr; // An integer (as a string). For later 
+                                             // identification of the particular 
+                                             // code check regular expression (in 
+                                             // the common (single) event handler
+                                             // for menu clicks/invocations).
+ 
                     // The same handler for all menu items. The "Tag" 
                     // property is used for identification.
                     newMenuItem.Click += 
@@ -2486,7 +2497,8 @@ namespace OverflowHelper
         private void mnuCodeFormattingChecks_Common_Click(object aSender, 
                                                           EventArgs anEvent)
         {
-            string toTransfer = "XYZ"; //Stub
+            //Always set some value (even in the face of errors)
+            string toTransfer = "Failed..."; 
 
             ToolStripMenuItem menuItem = (ToolStripMenuItem)aSender;
 
@@ -2510,6 +2522,9 @@ namespace OverflowHelper
 	        {
                 // We don't want to crash and risk 
                 // exiting the entire application
+                MessageBox.Show(
+                    "Internal error. Could not get the regular expression text. " +
+                    "In mnuCodeFormattingChecks_Common_Click.");
 	        }
 
             setClipboard2(toTransfer);
