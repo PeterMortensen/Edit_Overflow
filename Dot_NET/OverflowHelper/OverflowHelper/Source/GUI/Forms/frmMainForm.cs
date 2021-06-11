@@ -998,6 +998,7 @@ namespace OverflowHelper
             string Wordlist_HTML =
               mWordCorrector.getTermLookup().dumpWordList_asHTML(
                 mCodeFormattingCheck.combinedAllOfRegularExpressions(),
+                mCodeFormattingCheck.combinedAllOfExplanations(),
 
                 // This would be inconsistent if the date changes right 
                 // after the call of fullVersionStr()...
@@ -2368,7 +2369,9 @@ namespace OverflowHelper
         private void mnuMissingSpaceBeforeOpeningBracket_Click(
             object aSender, EventArgs anEvent)
         {
-            setClipboard2(mCodeFormattingCheck.missingSpaceBeforeOpeningBracketRegex()); // 0
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket)); // 0
         }
 
 
@@ -2377,7 +2380,9 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuMissingSpaceAfterColon_Click(object sender, EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.missingSpaceAfterColonRegex()); // 1
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.missingSpaceAfterColon)); // 1
         }
 
 
@@ -2386,7 +2391,9 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuMissingSpaceAfterComma_Click(object sender, EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.missingSpaceAfterCommaRegex()); // 2
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.missingSpaceAfterComma)); // 2
         }
 
 
@@ -2396,7 +2403,9 @@ namespace OverflowHelper
         private void mnuMissingSpaceAroundEqualSign_Click(object sender,
                                                           EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.missingSpaceAroundEqualSign()); // 3
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                  codeFormattingsRegexEnum.missingSpaceAroundEqualSign)); // 3
         }
 
 
@@ -2406,7 +2415,9 @@ namespace OverflowHelper
         private void mnuMissingSpaceAroundStringConcatenation_Click(
             object sender, EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.missingSpaceAroundStringConcatenationRegex()); // 4
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation)); // 4
         }
 
         /****************************************************************************
@@ -2414,8 +2425,9 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSpaceBeforeComma_Click(object sender, EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.spaceBeforeCommaRegex()); // 5
-
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.spaceBeforeComma)); // 5
         }
 
 
@@ -2424,7 +2436,9 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSpaceBeforeColon_Click(object sender, EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.spaceBeforeColonRegex()); // 6
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.spaceBeforeColon)); // 6
         }
 
 
@@ -2434,7 +2448,9 @@ namespace OverflowHelper
         private void mnuSpaceBeforeParenthesis_Click(object aSender,
                                                      EventArgs anEvent)
         {
-            setClipboard2(mCodeFormattingCheck.spaceBeforeParenthesisRegex()); // 7
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.spaceBeforeParenthesis)); // 7
         }
 
 
@@ -2443,7 +2459,9 @@ namespace OverflowHelper
          ****************************************************************************/
         private void mnuSpaceBeforeSemicolon_Click(object sender, EventArgs e)
         {
-            setClipboard2(mCodeFormattingCheck.spaceBeforeSemicommaRegex());
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.spaceBeforeSemicomma));
         }
 
 
@@ -3290,6 +3308,7 @@ namespace OverflowHelper
                 new Dictionary<string, string>();
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
+                "", 
                 "",
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
@@ -3314,7 +3333,9 @@ namespace OverflowHelper
         private void mnuSpaceAfterLeftParenthesis_Click(object aSender,
                                                         EventArgs anEvent)
         {
-            setClipboard2(mCodeFormattingCheck.spaceAfterLeftParenthesisRegex()); //
+            setClipboard2(
+                mCodeFormattingCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.spaceAfterLeftParenthesis)); //
         }
 
 
