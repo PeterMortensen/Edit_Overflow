@@ -653,5 +653,12 @@ ls -lsatr $SQL_FILE
 echo
 echo
 
+
+# Not really a build step, but it is easier to spot if the build
+# failed or not (as we will not get here if it fails).
+startOfBuildStep "16" "End of build"
+
+
+
 echo ; echo "End time:   $(date +%FT%T_%N_ns)"  ; echo
 

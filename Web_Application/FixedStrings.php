@@ -247,7 +247,7 @@
             <h2>Regular expressions for code checking</h2>
 
             <p>Note: As the false positive rate is high, every match
-                     should be checked manually</p>
+                      should be checked manually</p>
 
 
             <p>A<u>l</u>l combined
