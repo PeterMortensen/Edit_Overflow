@@ -13978,6 +13978,7 @@ namespace OverflowHelper.core
             correctionAdd("meat space", "meatspace");
 
             correctionAdd("whitespace", "white space");
+            correctionAdd("white-space", "white space");
 
             correctionAdd("HAIR SPACE", "hair space");
 
@@ -18475,6 +18476,8 @@ namespace OverflowHelper.core
 
             correctionAdd("double-quote", "double quote");
             correctionAdd("doublequote", "double quote");
+            correctionAdd("doubleqoute", "double quote");
+            correctionAdd("double-qoute", "double quote");
 
             correctionAdd("down sample", "downsample");
 
@@ -27660,6 +27663,26 @@ namespace OverflowHelper.core
             correctionAdd("updation", "updating");
 
             correctionAdd("week-end", "weekend");
+
+            correctionAdd("C# 2", "C# 2.0");
+            correctionAdd("C#2", "C# 2.0");
+
+            correctionAdd("C# 3", "C# 3.0");
+            correctionAdd("C#3", "C# 3.0");
+
+            correctionAdd("PDFs", "PDF files");
+
+            correctionAdd("cerfified", "certified");
+
+            correctionAdd("double quoted", "double-quoted");
+
+            correctionAdd("enties", "entries");
+
+            correctionAdd("sorta", "sort of");
+
+            correctionAdd("tab", "tab character");
+            correctionAdd("TAB character", "tab character");
+            correctionAdd("TAB", "tab character");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43418,6 +43441,22 @@ namespace OverflowHelper.core
             URL_Add("updating", "https://en.wiktionary.org/wiki/update#Verb");
 
             URL_Add("weekend", "https://en.wiktionary.org/wiki/weekend#Noun");
+
+            URL_Add("C# 2.0", "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29#Versions");
+
+            URL_Add("C# 3.0", "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29#Versions");
+
+            URL_Add("PDF files", "https://en.wikipedia.org/wiki/Portable_Document_Format");
+
+            URL_Add("certified", "https://en.wiktionary.org/wiki/certify#Verb");
+
+            URL_Add("double-quoted", "https://en.wiktionary.org/wiki/double-quoted");
+
+            URL_Add("entries", "https://en.wiktionary.org/wiki/entry#Noun");
+
+            URL_Add("sort of", "https://en.wiktionary.org/wiki/sort_of#Adverb");
+
+            URL_Add("tab character", "https://en.wikipedia.org/wiki/Tab_key#Tab_characters");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
