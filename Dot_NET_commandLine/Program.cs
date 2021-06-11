@@ -49,7 +49,7 @@ namespace EditOverflow2
             }
             else
             {
-                //Word list exports
+                // Word list exports
 
                 EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
@@ -86,10 +86,19 @@ namespace EditOverflow2
                         //               "some combined regular expressions",
                         //               "some version thingie",
                         //               "some date only string");
+                        
+                        string explanations = cfCheck.combinedAllOfExplanations();
+                        
+                        // For internal formatting in the HTML source: Break
+                        // up into separate lines and indent. The indent fits
+                        // the one used in FixedStrings.php.
+                        //                        
+                        string explanations_HTML = 
+                          explanations.Replace(",", ",\n                  ");
 
                         toOutput = someTermLookup.dumpWordList_asHTML(
-
                                        cfCheck.combinedAllOfRegularExpressions(),
+                                       explanations_HTML,
                                        app.fullVersionStr(),
                                        app.versionString_dateOnly()
                                    );

@@ -38,12 +38,33 @@ using System.Collections.Generic; //For List.
 namespace OverflowHelper.core
 {
 
+    public enum codeFormattingsRegexEnum
+    {
+        // Currently an assumption of IDs being consecutive and starting at 1...
+        //missingSpaceBeforeOpeningBracket = 1237,
+        missingSpaceBeforeOpeningBracket = 1,
+
+        missingSpaceAfterColon,
+        missingSpaceAfterComma,
+        missingSpaceAroundEqualSign,
+        missingSpaceAroundStringConcatenation,
+        spaceBeforeComma,
+        spaceBeforeColon,
+        spaceBeforeParenthesis,
+        spaceBeforeSemicomma,
+        spaceAfterLeftParenthesis,
+        missingSpaceAroundOperators
+    }
+
+
     public struct codeCheckItemStruct
     {
-        public int ID;
+        public codeFormattingsRegexEnum ID;
         public int groupID;
         public string regularExpression;
         public string explanation;
+        public string explanation_cleaned; // Without the "&" for indicated
+                                           // keyboard shorcuts.
     };
 
 
@@ -73,55 +94,102 @@ namespace OverflowHelper.core
             //       that context)
 
             addCodeCheck(
-              1, 1,
-              missingSpaceBeforeOpeningBracketRegex(),
+              codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket, 1,
+              @"\S\{",
               "M&issing space before {");
 
             addCodeCheck(
-              2, 2,
-              missingSpaceAfterColonRegex(),
+              codeFormattingsRegexEnum.missingSpaceAfterColon, 2,
+              @":\S",
               "Missing space after &colon");
 
             addCodeCheck(
-              3, 2,
-              missingSpaceAfterCommaRegex(),
+              codeFormattingsRegexEnum.missingSpaceAfterComma, 2,
+              @",\S",
               "Missing space after co&mma");
 
             addCodeCheck(
-              4, 3,
-              missingSpaceAroundEqualSign(),
+              codeFormattingsRegexEnum.missingSpaceAroundEqualSign, 3,
+              @"\S\=|\=\S",
               "Missing space around &equal sign");
 
             addCodeCheck(
-              5, 3,
-              missingSpaceAroundStringConcatenationRegex(),
+              codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation, 3,
+              @"\S\+|\+\S",
               "Missing space around string concate&nation (by \"+\")");
 
             addCodeCheck(
-              6, 4,
-              spaceBeforeCommaRegex(),
+              codeFormattingsRegexEnum.spaceBeforeComma, 4,
+              @"\s,",
               "&Space before comma");
 
             addCodeCheck(
-              7, 4,
-              spaceBeforeColonRegex(),
+              codeFormattingsRegexEnum.spaceBeforeColon, 4,
+              @"\s:",
               "Space &before colon");
 
             addCodeCheck(
-              8, 4,
-              spaceBeforeParenthesisRegex(),
+              codeFormattingsRegexEnum.spaceBeforeParenthesis, 4,
+              @"\s\)",
               "Space before right &parenthesis");
 
             addCodeCheck(
-              9, 4,
-              spaceBeforeSemicommaRegex(),
+              codeFormattingsRegexEnum.spaceBeforeSemicomma, 4,
+              @"\s;",
               "Space before semicolo&n");
 
             addCodeCheck(
-              10, 5,
-              spaceAfterLeftParenthesisRegex(),
+              codeFormattingsRegexEnum.spaceAfterLeftParenthesis, 5,
+              @"\(\s",
               "Space after &left parenthesis");
-        
+
+
+            string missingSpaceAroundOperatorsStr =
+              // Logical AND
+              @"\S&&" + "|" + @"&&\S" + "|" +
+
+              // String concatenation in e.g. Perl and PHP
+              //
+              // One possible strategy is a negative list (exclude
+              // space and numbers):
+              //
+              //     [^ \d]
+              //
+              // But "." is used in many places, e.g. "using System.Text;"
+              //
+              // But we go with a positive list: string literals by quotes,
+              // variables with "$", and array indexing ("[]")
+              //
+              // Note: A double double quote is for escaping
+              //       a double quote in C#...
+              //
+              @"('|\""|(\$\w+\[.+\]))\."  + "|" +
+
+              // Missing space to the left of "." (unless a number
+              // or array indexing). However, we have a hard time
+              // distingushing something like this in PowerShell,
+              //
+              //    $m.Groups[2].Value
+              //
+              // from this in PHP:
+              //
+              //    $ARGV[0]." "
+              //
+              // For now, we require simple variables starting
+              // with "$" - thus we risk false negatives (and
+              // can probably still get false positives in
+              // PowerShell in some cases).
+              //
+              @"\.['\""\]]" + "" +     // Missing space to the right
+                                       // of "." (unless a number)
+
+              "";
+
+            addCodeCheck(
+              codeFormattingsRegexEnum.missingSpaceAroundOperators, 5,
+              missingSpaceAroundOperatorsStr,
+              "Missing space around some operators");
+
         } //Constructor.
 
 
@@ -133,26 +201,45 @@ namespace OverflowHelper.core
          *    (by configuration).                                                   *
          *                                                                          *
          ****************************************************************************/
-        private void addCodeCheck(int anID,
+        private void addCodeCheck(codeFormattingsRegexEnum anID,
                                   int aGroupID,
                                   string aRegularExpression,
                                   string anExplanation)
         {
             codeCheckItemStruct someItem;
 
+            // It is an (internal) client error to pass a string that
+            // is too short (for example, an empty string). Or in
+            // other words, the sanitation should already have
+            // taken place.
+            //
+            const int kMinimumExplanationLength = 10;
+            int explanationLen = anExplanation.Length;
+            if (explanationLen < kMinimumExplanationLength)
+            {
+                //Somewhat confusing (the exception type) - perhaps
+                //throw our own exception instead?
+
+                throw new
+                  System.IndexOutOfRangeException(
+                    "The explanation (" + anExplanation + ") is too short (" +
+                    explanationLen + "), below the minimum of " +
+                    kMinimumExplanationLength.ToString() + " characters.");
+            }
+
+
             someItem.ID = anID;
             someItem.groupID = aGroupID;
             someItem.regularExpression = aRegularExpression;
             someItem.explanation = anExplanation;
+
+            someItem.explanation_cleaned = anExplanation.Replace("&", "");
+
             mCodeCheckItems.Add(someItem);
-        }//addCodeCheck()
+        } //addCodeCheck()
 
 
         /****************************************************************************
-         *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
          *                                                                          *
          ****************************************************************************/
         public List<codeCheckItemStruct> getCodeCheckItems()
@@ -162,238 +249,166 @@ namespace OverflowHelper.core
             //specific things).
             //
             return mCodeCheckItems;
+        } //getCodeCheckItems()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Helper function for lookup in the main datastructure                  *
+         *                                                                          *
+         ****************************************************************************/
+        public string getRegularExpression(codeFormattingsRegexEnum anID)
+        {
+            // Currently relying on a convention between the ID and the index...
+            // At least the assumption is isolated here (except for use
+            // of the whole list by clients (currently two instance)).
+            //
+            return mCodeCheckItems[(int)anID-1].regularExpression;
+        } //getRegularExpression()
+
+
+        /****************************************************************************
+         *                                                                          *
+         ****************************************************************************/
+        private string missingSpaceBeforeOpeningBracketRegex()
+        {
+            return getRegularExpression(codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket);
         } //missingSpaceBeforeOpeningBracketRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string missingSpaceBeforeOpeningBracketRegex()
+        private string missingSpaceAfterColonRegex()
         {
-            string toAdd = @"\S\{";
-
-            return toAdd;
-        } //missingSpaceBeforeOpeningBracketRegex()
-
-
-        /****************************************************************************
-         *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
-         ****************************************************************************/
-        public string missingSpaceAfterColonRegex()
-        {
-            string toAdd = @":\S";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterColon);
         } //spaceAfterColonRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAfterCommaRegex()
+        private string missingSpaceAfterCommaRegex()
         {
-            string toAdd = @",\S";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterComma);
         } //spaceAfterCommaRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      "auto p=new Son();"                                                 *
-         *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundEqualSign()
+        private string missingSpaceAroundEqualSignRegex()
         {
-            string toAdd = @"\S\=|\=\S";
-
-            return toAdd;
-        } //missingSpaceAroundEqualSign()
+            return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign);
+        } //missingSpaceAroundEqualSignRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundStringConcatenationRegex()
+        private string missingSpaceAroundStringConcatenationRegex()
         {
-            string toAdd = @"\S\+|\+\S";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation);
         } //spaceAroundStringConcatenationRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeCommaRegex()
+        private string spaceBeforeCommaRegex()
         {
-            string toAdd = @"\s,";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeComma);
         } //spaceBeforeCommaRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeColonRegex()
+        private string spaceBeforeColonRegex()
         {
-            string toAdd = @"\s:";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeColon);
         } //spaceBeforeColonRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeParenthesisRegex()
+        private string spaceBeforeParenthesisRegex()
         {
-            string toAdd = @"\s\)";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeParenthesis);
         } //spaceBeforeParenthesisRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string spaceBeforeSemicommaRegex()
+        private string spaceBeforeSemicommaRegex()
         {
-            string toAdd = @"\s;";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.spaceBeforeSemicomma);
         } //spaceBeforeSemicommaRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string spaceAfterLeftParenthesisRegex()
+        private string spaceAfterLeftParenthesisRegex()
         {
-            string toAdd = @"\(\s";
-
-            return toAdd;
+            return getRegularExpression(codeFormattingsRegexEnum.spaceAfterLeftParenthesis);
         } //spaceAfterLeftParenthesisRegex()
 
 
         /****************************************************************************
          *                                                                          *
-         *    Example of line that will match:                                      *
-         *                                                                          *
-         *      XXXXXX                                                              *
-         *                                                                          *
          ****************************************************************************/
-        public string missingSpaceAroundOperators()
+        private string missingSpaceAroundOperatorsRegex()
         {
-            // Meta: Escaping double quotes in string:
-            //
-            //         <https://stackoverflow.com/questions/14480724>
-
-
-            // That is, around operators:
-            //
-            //   &&    Logical AND
-            //    .    String concatenation in e.g. Perl and PHP
-
-            // Note: No "|" after the last term
-            //
-            string toAdd =
-
-                // Logical AND
-
-                @"\S&&" + "|" + @"&&\S" + "|" +
-
-
-                // String concatenation in e.g. Perl and PHP
-                //
-                // One possible strategy is a negative list (exclude
-                // space and numbers):
-                //
-                //     [^ \d]
-                //
-                // But "." is used in many places, e.g. "using System.Text;"
-                //
-                // But we go with  a positive list: string literals by quotes,
-                // variables with "$", and array indexing ("[]")
-                //
-                // Note: A double double quote is for escaping
-                //       a double quote in C#...
-                //
-                @"('|\""|(\$\w+\[.+\]))\."  + "|" +
-
-                    // Missing space to the left of "." (unless a number
-                    // or array indexing). However, we have a hard time
-                    // distingushing something like this in PowerShell,
-                    //
-                    //    $m.Groups[2].Value
-                    //
-                    // from this in PHP:
-                    //
-                    //    $ARGV[0]." "
-                    //
-                    // For now, we require simple variables starting
-                    // with "$" - thus we risk false negatives (and
-                    // can probably still get false positives in
-                    // PowerShell in some cases).
-
-
-                @"\.['\""\]]" + "" +     // Missing space to the right
-                                         // of "." (unless a number)
-
-                "";
-
-            return toAdd;
-        } //missingSpaceAroundOperators()
+            return getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators);
+        } //missingSpaceAroundOperatorsRegex()
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    In particular: static/stateless...                                    *
+         *                                                                          *
+         ****************************************************************************/
+        private static string combinedAllOfRegularExpressions_internal(
+            List<codeCheckItemStruct> aCodeCheckItems)
+        {
+            StringBuilder scratchSB = new StringBuilder(200);
+
+            //There is probably a simpler way than an explicit loop...
+            //
+            // Prepare a list for stirng.Join()
+            int len = aCodeCheckItems.Count;
+            int lastIndex = len - 1;
+            List<string> CodeRegExList = new List<string>(len);
+            for (int i = 0; i < len; i++)
+            {
+                codeCheckItemStruct someItem = aCodeCheckItems[i];
+
+                CodeRegExList.Add(someItem.regularExpression);
+            }
+
+            scratchSB.Append("(");
+            scratchSB.Append(string.Join("|", CodeRegExList));
+            scratchSB.Append(")");
+            
+            return scratchSB.ToString();
+        } //combinedAllOfExplanations_internal()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Returns a directly usable regular expression for source               *
+         *    code checking. To get a user-oriented explanation of                  *
+         *    the different parts of the regular expression, use                    *
+         *    function combinedAllOfExplanations().                                 *
+         *                                                                          *
          ****************************************************************************/
         public string combinedAllOfRegularExpressions()
         {
-            mScratchSB.Length = 0;
-
-            //The clipboard is way too unstable to use!!! But this could be
-            //used as a test case when it is going to be fixed...
+            //The clipboard (in Windows) is way too unstable to use!!! But this
+            //could be used as a test case when it is going to be fixed...
             //
             //EditorOverflowApplication.setClipboard("(", false);
             //
@@ -405,45 +420,111 @@ namespace OverflowHelper.core
             //
             //EditorOverflowApplication.setClipboard(")", true);
 
-            mScratchSB.Append("(");
+            return combinedAllOfRegularExpressions_internal(mCodeCheckItems);
+        } //combinedAllOfRegularExpressions()
 
+
+        /****************************************************************************
+         *                                                                          *
+         *    In particular: static/stateless...                                    *
+         *                                                                          *
+         ****************************************************************************/
+        private static string combinedAllOfExplanations_internal(
+            List<codeCheckItemStruct> aCodeCheckItems)
+        {
+
+            //Isn't there a built-in function to format a list with a
+            //separator string?? E.g. like Perl's join()? Yes, String.Join()
+            //
+            //What about System.Configuration.CommaDelimitedStringCollection?
+            //
+            // Some references:
+            //
+            //   <https://stackoverflow.com/questions/10540584>
+            //     String.Join on a List of Objects
+            //
+            //   <https://stackoverflow.com/questions/10347455>
+            //     string.Format with string.Join
+            //
+            //   <https://stackoverflow.com/questions/330493>
+            //     Join collection of objects into comma-separated string
+            //
+            //     From 2008
+
+            StringBuilder scratchSB = new StringBuilder(200);
+
+
+            //Note: Some of this (outputting a list of items as an English text
+            //      list with an Oxford comma) is not specific to this class/
+            //      place. Perhaps move that part to a utility class?
+            //      That would also make it easier to unit test.
+            //
+            //      The first step could be to split this into
+            //      two loops, one for the filtering and one
+            //      for the formatting.
+
+            scratchSB.Append("(");
+
+            int len = aCodeCheckItems.Count;
+            int lastIndex = len - 1;
+            for (int i = 0; i < len; i++)
             {
-                mScratchSB.Append(missingSpaceBeforeOpeningBracketRegex());
-                mScratchSB.Append("|");
+                codeCheckItemStruct someItem = aCodeCheckItems[i];
 
-                mScratchSB.Append(missingSpaceAfterColonRegex());
-                mScratchSB.Append("|");
+                string explanation = someItem.explanation_cleaned;
 
-                mScratchSB.Append(missingSpaceAfterCommaRegex());
-                mScratchSB.Append("|");
+                // Make the first letter is not capitalised (it is for a
+                // normal text list)
+                string explanation_lower =
+                    char.ToLower(explanation[0]) + explanation.Substring(1);
 
-                mScratchSB.Append(missingSpaceAroundEqualSign());
-                mScratchSB.Append("|");
+                scratchSB.Append(@"""");
+                scratchSB.Append(explanation_lower);
+                scratchSB.Append(@"""");
 
-                mScratchSB.Append(missingSpaceAroundStringConcatenationRegex());
-                mScratchSB.Append("|");
+                // No trailing comma for the list
+                if ((i != lastIndex) &&
+                    len >= 3
+                   )
+                {
+                    // Only lists with three or more items have
+                    // commas - covers an Oxford comma...
+                    //
+                    scratchSB.Append(@", ");
+                }
 
-                mScratchSB.Append(spaceBeforeCommaRegex());
-                mScratchSB.Append("|");
+                // After second to last (before the last item)
+                if (i == lastIndex - 1) // Will not work if the list is too short
+                                        // In any case, the Oxford comma is only
+                                        // for three or more elements...
+                {
+                    scratchSB.Append(@"and ");
+                }
 
-                mScratchSB.Append(spaceBeforeColonRegex());
-                mScratchSB.Append("|");
 
-                mScratchSB.Append(spaceBeforeParenthesisRegex());
-                mScratchSB.Append("|");
+            } //Through code check items (generating of the explanation string
+              //for the code formatting regular expressions)
 
-                mScratchSB.Append(spaceBeforeSemicommaRegex());
-                mScratchSB.Append("|");
+            scratchSB.Append(")");
 
-                mScratchSB.Append(spaceAfterLeftParenthesisRegex());
-                mScratchSB.Append("|");
+            //return "XYZ"; // Stub
+            return scratchSB.ToString();
+        } //combinedAllOfExplanations_internal()
 
-                mScratchSB.Append(missingSpaceAroundOperators());
-            }
+//public int ID;
+//public int groupID;
+//public string regularExpression;
+//public string explanation;
 
-            mScratchSB.Append(")");
 
-            return mScratchSB.ToString();
+        /****************************************************************************
+         *                                                                          *
+         *    Returns a XXXX                                                        *
+         *                                                                          *
+         ****************************************************************************/
+        public string combinedAllOfExplanations()
+        {
+            return CodeFormattingCheck.combinedAllOfExplanations_internal(mCodeCheckItems);
         } //combinedAllOfRegularExpressions()
 
 

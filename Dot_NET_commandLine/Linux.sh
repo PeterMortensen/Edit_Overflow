@@ -199,8 +199,8 @@ export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
 
 # ###########################################################################
 #
-# Helper function to test a build step for errors. We exit
-# if there is an error.
+# Helper function to test a build step for errors. We exit/stop
+# the script altogether if there is an error.
 #
 #    $1   Build step number
 #    $2   Result code (e.g. 0 for no error)
@@ -208,8 +208,22 @@ export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
 #
 # What is "7" below??? Is it spurious? Should we remove it?
 #
-function evaluateBuildResult() {
-
+# Note:
+#
+#   On the caller side, "$?" is the error code of the 
+#   last run command (in Bash, at least) -
+#
+#     "$? Gives the exit status of the most recently executed command." -
+#
+#       <https://www.thegeekstuff.com/2010/05/bash-shell-special-parameters/>   
+#         Bash special parameters explained with four example shell scripts
+#
+#     See also:
+#
+#       <https://www.gnu.org/software/bash/manual/bash.html>
+#
+function evaluateBuildResult() 
+{
     case $2 in
       0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
       *)   echo ; echo "Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
@@ -221,8 +235,8 @@ function evaluateBuildResult() {
 #
 # Helper function to reduce redundancy
 #
-function keyboardShortcutConsistencyCheck() {
-
+function keyboardShortcutConsistencyCheck() 
+{
     echo
     echo
     echo "$3. Starting keyboard shortcut consistency check for $1..."
@@ -232,13 +246,37 @@ function keyboardShortcutConsistencyCheck() {
 }
 
 
-
 # ###########################################################################
 #
-echo
-echo
-echo '1. Internal check of the web interface regression tests...'
-echo
+# Helper function to reduce redundancy.
+#
+# Mostly for the screen output, but we can also use it 
+# for marking the start of a step in time (e.g., to 
+# record / output ***timing*** information).
+#
+#    $1   Build step number
+#    $2   Build step description
+#
+function startOfBuildStep() 
+{
+    echo
+    echo
+    echo "$1. $2..."
+    echo
+    
+    # Future: 
+    #
+    #   1. Record the time (absolute or relative) - for later use
+    #
+    #   2. Output a timestamp (so we know the absolute time it
+    #      was run)
+}
+
+
+
+# ###########################################################################
+startOfBuildStep "1" "Internal check of the web interface regression tests"
+
 #
 # Sort of prerequisite for testing
 #
@@ -260,10 +298,7 @@ pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable
 #
 #     "mkdir: cannot create directory ‘/home/embo/temp2/2020-06-03’: File exists"
 #
-echo
-echo
-echo '2. Copying files to the build folder...'
-echo
+startOfBuildStep "2" "Copying files to the build folder"
 
 mkdir -p $WORKFOLDER1
 mkdir -p $WORKFOLDER2
@@ -274,6 +309,14 @@ mkdir -p $FTPTRANSFER_FOLDER_JAVASCRIPT
 
 
 # Remove any existing
+#
+# Note: If the previous run of this script stopped prematurely, 
+#       we may get (as a later step moved ):
+#
+#           mv: cannot stat '/home/embo/temp2/2021-02-03/_DotNET_tryout/EditOverflow4/Program.cs': No such file or directory
+#
+#                  
+#
 mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}          $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
 
@@ -323,20 +366,13 @@ cd $WORKFOLDER
 #       tests separately or rerun this script until all
 #       errors are gone)
 #
-echo
-echo
-echo '3. Start running C# unit tests...'
-echo
+startOfBuildStep "3" "Start running C# unit tests"
 
 # Note: unlike "dotnet run", "dotnet test" does not
 #       use option "-p" for specifying the project
 #       file name (inconsistent)
 #
 dotnet test EditOverflow3_UnitTests.csproj  ; evaluateBuildResult 3 $? "C# unit tests"
-
-
-#exit   # Active: Test only!!!!!!!!! (We currently use this to
-#                                       iterate (aided by unit testing)
 
 
 # Prepare for the main run (see in the beginning for an explanation)
@@ -351,6 +387,11 @@ mv  $WORKFOLDER/LookUpStringTests.cs              $WORKFOLDER/LookUpStringTests.
 mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWithRegexTests.csZZZ
 mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingCheckTests.csZZZ
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
+
+
+#exit   # Active: Test only!!!!!!!!! (We currently use this to
+       #                             iterate (aided by unit testing)
+
 
 
 # ###########################################################################
@@ -379,10 +420,8 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 #       CS0162 is "warning : Unreachable code detected"
 #
-echo
-echo
-echo '4. Exporting the word list as SQL...'
-echo
+startOfBuildStep "4" "Exporting the word list as SQL"
+
 export WORDLIST_OUTPUTTYPE=SQL
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 4 $? "generation of word list in SQL format"
 
@@ -403,10 +442,7 @@ ls -ls $SQL_FILE
 # comes to the foreground) signals that it is
 # ready for import.
 #
-echo
-echo
-echo '5. Opening some web pages for manual operations...'
-echo
+startOfBuildStep "5" "Opening some web pages for manual operations"
 
 # Open a web page for verification of push to GitHub
 xdg-open "https://github.com/PeterMortensen/Edit_Overflow"
@@ -426,10 +462,8 @@ xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 # ###########################################################################
 #
 # Some redundancy here - to be eliminated
-echo
-echo
-echo '6. Exporting the word list as HTML...'
-echo
+startOfBuildStep "6" "Exporting the word list as HTML"
+
 export WORDLIST_OUTPUTTYPE=HTML
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE  ; evaluateBuildResult 6 $? "generation of word list in HTML format"
 
@@ -442,10 +476,8 @@ ls -ls $HTML_FILE_GENERIC
 # ###########################################################################
 #
 # Some redundancy here - to be eliminated
-echo
-echo
-echo '7. Exporting the word list as JavaScript...'
-echo
+startOfBuildStep "7" "Exporting the word list as JavaScript"
+
 export WORDLIST_OUTPUTTYPE=JavaScript
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162  > $JAVASCRIPT_FILE  ; evaluateBuildResult 7 $? "generation of word list in JavaScript format"
 
@@ -466,10 +498,8 @@ ls -ls $JAVASCRIPT_FILE_GENERIC
 
 # ###########################################################################
 #
-echo
-echo
-echo '8. Start running JavaScript unit tests...'
-echo
+startOfBuildStep "8" "Start running JavaScript unit tests"
+
 # Note: For now, directly in source folder. It should
 #       be moved to the work folder.
 
@@ -499,10 +529,8 @@ cd -
 #
 # The mirror command for 'lftp' does not work for single files...
 #
-echo
-echo
-echo '9. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)...'
-echo
+startOfBuildStep "9" "Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)"
+
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
 export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
@@ -518,10 +546,8 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 9 $? "copying the HTML word list to 
 #
 # The mirror command for 'lftp' does not work for single files...
 #
-echo
-echo
-echo '10. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)...'
-echo
+startOfBuildStep "10" "Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)"
+
 cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
 export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
@@ -543,10 +569,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 10 $? "copying the word list in Java
 
 # ###########################################################################
 #
-echo
-echo
-echo '11. Starting web interface regression tests...'
-echo
+startOfBuildStep "11" "Starting web interface regression tests"
 
 # For now: Not assuming executable 'geckodriver' is in the path
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
@@ -629,6 +652,13 @@ ls -lsatr $HTML_FILE
 ls -lsatr $SQL_FILE
 echo
 echo
+
+
+# Not really a build step, but it is easier to spot if the build
+# failed or not (as we will not get here if it fails).
+startOfBuildStep "16" "End of build"
+
+
 
 echo ; echo "End time:   $(date +%FT%T_%N_ns)"  ; echo
 
