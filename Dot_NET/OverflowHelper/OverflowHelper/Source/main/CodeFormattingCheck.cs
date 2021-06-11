@@ -131,7 +131,7 @@ namespace OverflowHelper.core
             addCodeCheck(
               codeFormattingsRegexEnum.spaceBeforeParenthesis, 4,
               @"\s\)",
-              "Space before right &parenthesis");        
+              "Space before right &parenthesis");
 
             addCodeCheck(
               codeFormattingsRegexEnum.spaceBeforeSemicomma, 4,
@@ -264,7 +264,7 @@ namespace OverflowHelper.core
             // of the whole list by clients (currently two instance)).
             //
             return mCodeCheckItems[(int)anID-1].regularExpression;
-        } //missingSpaceBeforeOpeningBracketRegex()
+        } //getRegularExpression()
 
 
         /****************************************************************************
@@ -371,6 +371,38 @@ namespace OverflowHelper.core
         } //missingSpaceAroundOperatorsRegex()
 
 
+
+        /****************************************************************************
+         *                                                                          *
+         *    In particular: static/stateless...                                    *
+         *                                                                          *
+         ****************************************************************************/
+        private static string combinedAllOfRegularExpressions_internal(
+            List<codeCheckItemStruct> aCodeCheckItems)
+        {
+            StringBuilder scratchSB = new StringBuilder(200);
+
+            //There is probably a simpler way than an explicit loop...
+            //
+            // Prepare a list for stirng.Join()
+            int len = aCodeCheckItems.Count;
+            int lastIndex = len - 1;
+            List<string> CodeRegExList = new List<string>(len);
+            for (int i = 0; i < len; i++)
+            {
+                codeCheckItemStruct someItem = aCodeCheckItems[i];
+
+                CodeRegExList.Add(someItem.regularExpression);
+            }
+
+            scratchSB.Append("(");
+            scratchSB.Append(string.Join("|", CodeRegExList));
+            scratchSB.Append(")");
+            
+            return scratchSB.ToString();
+        } //combinedAllOfExplanations_internal()
+
+
         /****************************************************************************
          *                                                                          *
          *    Returns a directly usable regular expression for source               *
@@ -381,8 +413,6 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public string combinedAllOfRegularExpressions()
         {
-            mScratchSB.Length = 0;
-
             //The clipboard (in Windows) is way too unstable to use!!! But this
             //could be used as a test case when it is going to be fixed...
             //
@@ -396,45 +426,7 @@ namespace OverflowHelper.core
             //
             //EditorOverflowApplication.setClipboard(")", true);
 
-            mScratchSB.Append("(");
-
-            {
-                mScratchSB.Append(missingSpaceBeforeOpeningBracketRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(missingSpaceAfterColonRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(missingSpaceAfterCommaRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(missingSpaceAroundEqualSignRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(missingSpaceAroundStringConcatenationRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(spaceBeforeCommaRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(spaceBeforeColonRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(spaceBeforeParenthesisRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(spaceBeforeSemicommaRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(spaceAfterLeftParenthesisRegex());
-                mScratchSB.Append("|");
-
-                mScratchSB.Append(missingSpaceAroundOperatorsRegex());
-            }
-
-            mScratchSB.Append(")");
-
-            return mScratchSB.ToString();
+            return combinedAllOfRegularExpressions_internal(mCodeCheckItems);
         } //combinedAllOfRegularExpressions()
 
 
@@ -446,6 +438,25 @@ namespace OverflowHelper.core
         private static string combinedAllOfExplanations_internal(
             List<codeCheckItemStruct> aCodeCheckItems)
         {
+
+            //Isn't there a built-in function to format a list with a
+            //separator string?? E.g. like Perl's join()? Yes, String.Join()
+            //
+            //What about System.Configuration.CommaDelimitedStringCollection?
+            //
+            // Some references:
+            //
+            //   <https://stackoverflow.com/questions/10540584>
+            //     String.Join on a List of Objects
+            //
+            //   <https://stackoverflow.com/questions/10347455>
+            //     string.Format with string.Join
+            //
+            //   <https://stackoverflow.com/questions/330493>
+            //     Join collection of objects into comma-separated string
+            //
+            //     From 2008
+
             StringBuilder scratchSB = new StringBuilder(200);
 
 
