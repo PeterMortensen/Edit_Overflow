@@ -40,7 +40,7 @@ namespace CodeFormattingCheckTests
 
         /****************************************************************************
          *                                                                          *
-         *   These may seem trivial (just checking what is essentially              * 
+         *   These may seem trivial (just checking what is essentially              *
          *   constants), but we have used them during refactoring. Thus             *
          *   mostly useful as regression tests.                                     *
          *                                                                          *
@@ -51,122 +51,141 @@ namespace CodeFormattingCheckTests
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
-                Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]])",
-                  cfCheck.combinedAllOfRegularExpressions(), "");
-            }
-
-            {
-                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\S\{",
-                  cfCheck.missingSpaceBeforeOpeningBracketRegex(), "");
+                  //cfCheck.missingSpaceBeforeOpeningBracketRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @":\S",
-                  cfCheck.missingSpaceAfterColonRegex(), "");
+                  //cfCheck.missingSpaceAfterColonRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterColon),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @",\S",
-                  cfCheck.missingSpaceAfterCommaRegex(), "");
+                  //cfCheck.missingSpaceAfterCommaRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterComma),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\S\=|\=\S",
-                  cfCheck.missingSpaceAroundEqualSign(), "");
+                  //cfCheck.missingSpaceAroundEqualSignRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\S\+|\+\S",
-                  cfCheck.missingSpaceAroundStringConcatenationRegex(), "");
+                  //cfCheck.missingSpaceAroundStringConcatenationRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\s,",
-                  cfCheck.spaceBeforeCommaRegex(), "");
+                  //cfCheck.spaceBeforeCommaRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeComma),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\s:",
-                  cfCheck.spaceBeforeColonRegex(), "");
+                  //cfCheck.spaceBeforeColonRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeColon),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\s\)",
-                  cfCheck.spaceBeforeParenthesisRegex(), "");
+                  //cfCheck.spaceBeforeParenthesisRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeParenthesis),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\s;",
-                  cfCheck.spaceBeforeSemicommaRegex(), "");
+                  //cfCheck.spaceBeforeSemicommaRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeSemicomma),
+                  "");
             }
 
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: " (double quote) escaped as "" (two double quotes) 
                 Assert.AreEqual(
                   @"\(\s",
-                  cfCheck.spaceAfterLeftParenthesisRegex(), "");
+                  //cfCheck.spaceAfterLeftParenthesisRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceAfterLeftParenthesis),
+                  "");
+            }
+
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                // Note: Double quote (") is escaped as "" (two double quotes).
+                //       Backslash is NOT escaped (using "@")
+                Assert.AreEqual(
+                  @"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
+                  //cfCheck.missingSpaceAroundOperatorsRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators),
+                  "");
+            }
+
+
+            // A combined / all one
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                // Note: Double quote (") is escaped as "" (two double quotes).
+                //       Backslash is NOT escaped (using "@")
+                Assert.AreEqual(
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]])",
+                  cfCheck.combinedAllOfRegularExpressions(),
+                  "");
+            }
+
+            // A combined / all one
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                // Note: Double quote (") is escaped as "" (two double quotes).
+                Assert.AreEqual(
+                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", and ""missing space around some operators"")",
+                  // @"XYZ",
+                  cfCheck.combinedAllOfExplanations(),
+                  "");
             }
 
         } //constants()
-
-
-        /****************************************************************************
-         *    <placeholder for header>                                              *
-         ****************************************************************************/
-        [Test]
-        public void combinedAllOfRegularExpressions()
-        {
-
-            // Trivial test (as it is unlikely to change),
-            // but it is a way to get started...
-            {
-                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-
-                Assert.AreEqual(@"\S\{", cfCheck.missingSpaceBeforeOpeningBracketRegex(), "");
-
-            }
-
-        } //combinedAllOfRegularExpressions()
 
 
         /****************************************************************************
@@ -181,7 +200,9 @@ namespace CodeFormattingCheckTests
                 // Bad code should be detected
                 string badCode = "auto p=new Son();";
                 Assert.IsTrue(
-                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundEqualSign()));
+                    RegExExecutor.match(
+                      badCode, 
+                      cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
 
                 // Also using the full regular expression
                 Assert.IsTrue(
@@ -190,7 +211,7 @@ namespace CodeFormattingCheckTests
                 // Corresponding fixed code
                 Assert.IsFalse(
                     RegExExecutor.match("auto p = new Son();",
-                                        cfCheck.missingSpaceAroundEqualSign()));
+                                        cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
             }
 
             {
@@ -230,7 +251,7 @@ namespace CodeFormattingCheckTests
             CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
             // Shortcuts / aliases
-            string regex     = cfCheck.missingSpaceAroundOperators();
+            string regex     = cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators);
             string regex_All = cfCheck.combinedAllOfRegularExpressions();
 
 
