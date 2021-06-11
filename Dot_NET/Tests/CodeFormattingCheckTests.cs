@@ -53,7 +53,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\{",
-                  cfCheck.missingSpaceBeforeOpeningBracketRegex(), "");
+                  //cfCheck.missingSpaceBeforeOpeningBracketRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket),
+                  "");
             }
 
             {
@@ -61,7 +63,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @":\S",
-                  cfCheck.missingSpaceAfterColonRegex(), "");
+                  //cfCheck.missingSpaceAfterColonRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterColon),
+                  "");
             }
 
             {
@@ -69,7 +73,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @",\S",
-                  cfCheck.missingSpaceAfterCommaRegex(), "");
+                  //cfCheck.missingSpaceAfterCommaRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterComma),
+                  "");
             }
 
             {
@@ -77,7 +83,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\=|\=\S",
-                  cfCheck.missingSpaceAroundEqualSignRegex(), "");
+                  //cfCheck.missingSpaceAroundEqualSignRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign),
+                  "");
             }
 
             {
@@ -85,7 +93,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\+|\+\S",
-                  cfCheck.missingSpaceAroundStringConcatenationRegex(), "");
+                  //cfCheck.missingSpaceAroundStringConcatenationRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation),
+                  "");
             }
 
             {
@@ -93,7 +103,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s,",
-                  cfCheck.spaceBeforeCommaRegex(), "");
+                  //cfCheck.spaceBeforeCommaRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeComma),
+                  "");
             }
 
             {
@@ -101,7 +113,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s:",
-                  cfCheck.spaceBeforeColonRegex(), "");
+                  //cfCheck.spaceBeforeColonRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeColon),
+                  "");
             }
 
             {
@@ -109,7 +123,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s\)",
-                  cfCheck.spaceBeforeParenthesisRegex(), "");
+                  //cfCheck.spaceBeforeParenthesisRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeParenthesis),
+                  "");
             }
 
             {
@@ -117,7 +133,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s;",
-                  cfCheck.spaceBeforeSemicommaRegex(), "");
+                  //cfCheck.spaceBeforeSemicommaRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeSemicomma),
+                  "");
             }
 
             {
@@ -125,7 +143,9 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\(\s",
-                  cfCheck.spaceAfterLeftParenthesisRegex(), "");
+                  //cfCheck.spaceAfterLeftParenthesisRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceAfterLeftParenthesis),
+                  "");
             }
 
             {
@@ -135,9 +155,13 @@ namespace CodeFormattingCheckTests
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
                   @"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
-                  cfCheck.missingSpaceAroundOperatorsRegex(), "");                  
+                  //cfCheck.missingSpaceAroundOperatorsRegex(),
+                  cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators),
+                  "");
             }
 
+
+            // A combined / all one
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
@@ -145,9 +169,11 @@ namespace CodeFormattingCheckTests
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
                   @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]])",
-                  cfCheck.combinedAllOfRegularExpressions(), "");
+                  cfCheck.combinedAllOfRegularExpressions(),
+                  "");
             }
 
+            // A combined / all one
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
@@ -155,7 +181,8 @@ namespace CodeFormattingCheckTests
                 Assert.AreEqual(
                   @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", and ""missing space around some operators"")",
                   // @"XYZ",
-                  cfCheck.combinedAllOfExplanations(), "");
+                  cfCheck.combinedAllOfExplanations(),
+                  "");
             }
 
         } //constants()
@@ -173,7 +200,9 @@ namespace CodeFormattingCheckTests
                 // Bad code should be detected
                 string badCode = "auto p=new Son();";
                 Assert.IsTrue(
-                    RegExExecutor.match(badCode, cfCheck.missingSpaceAroundEqualSignRegex()));
+                    RegExExecutor.match(
+                      badCode, 
+                      cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
 
                 // Also using the full regular expression
                 Assert.IsTrue(
@@ -182,7 +211,7 @@ namespace CodeFormattingCheckTests
                 // Corresponding fixed code
                 Assert.IsFalse(
                     RegExExecutor.match("auto p = new Son();",
-                                        cfCheck.missingSpaceAroundEqualSignRegex()));
+                                        cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
             }
 
             {
@@ -222,7 +251,7 @@ namespace CodeFormattingCheckTests
             CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
             // Shortcuts / aliases
-            string regex     = cfCheck.missingSpaceAroundOperatorsRegex();
+            string regex     = cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators);
             string regex_All = cfCheck.combinedAllOfRegularExpressions();
 
 
