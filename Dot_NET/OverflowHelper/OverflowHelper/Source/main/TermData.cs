@@ -7252,6 +7252,8 @@ namespace OverflowHelper.core
             correctionAdd("donwload", "download");
             correctionAdd("Downalod", "download");
             correctionAdd("downalod", "download");
+            correctionAdd("Dowloaad", "download");
+            correctionAdd("Dowload", "download");
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
@@ -7404,6 +7406,7 @@ namespace OverflowHelper.core
             correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
 
             correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
             correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
@@ -10723,6 +10726,7 @@ namespace OverflowHelper.core
             correctionAdd("First", "first");
             correctionAdd("fist", "first");
             correctionAdd("f1st", "first");
+            correctionAdd("firs", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -11887,6 +11891,7 @@ namespace OverflowHelper.core
             correctionAdd("all ready", "already");
             correctionAdd("allredy", "already");
             correctionAdd("aready", "already");
+            correctionAdd("alread", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -13029,6 +13034,8 @@ namespace OverflowHelper.core
 
             correctionAdd("eslint", "ESLint");
             correctionAdd("eslinter", "ESLint");
+            correctionAdd("ES lint", "ESLint");
+            correctionAdd("es lint", "ESLint");
 
             correctionAdd("elance", "Elance");
 
@@ -13244,6 +13251,7 @@ namespace OverflowHelper.core
             correctionAdd("domen", "domain");
 
             correctionAdd("tranfer", "transfer");
+            correctionAdd("Tranfer", "transfer");
 
             correctionAdd("Trillion", "trillion");
 
@@ -14028,6 +14036,7 @@ namespace OverflowHelper.core
             correctionAdd("cent-os", "CentOS");
             correctionAdd("CentOs", "CentOS");
             correctionAdd("cent os", "CentOS");
+            correctionAdd("centOs", "CentOS");
 
             correctionAdd("freertos", "FreeRTOS");
 
@@ -14999,6 +15008,7 @@ namespace OverflowHelper.core
             correctionAdd("admitedly", "admittedly");
 
             correctionAdd("backward", "backwards");
+            correctionAdd("backwords", "backwards");
 
             correctionAdd("cheatsheet", "cheat sheet");
 
@@ -15034,6 +15044,7 @@ namespace OverflowHelper.core
             correctionAdd("transfrom", "transform");
 
             correctionAdd("reenable", "re-enable");
+            correctionAdd("ReEnable", "re-enable");
 
             correctionAdd(".profile", ".profile file");
 
@@ -15442,6 +15453,7 @@ namespace OverflowHelper.core
             correctionAdd("spell ckecker", "spell checker");
             correctionAdd("spellckecker", "spell checker");
             correctionAdd("Spell checker", "spell checker");
+            correctionAdd("spelling checker", "spell checker");
 
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
@@ -18491,6 +18503,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
+            correctionAdd("mecanism", "mechanism");
 
             correctionAdd("regristration", "registration");
 
@@ -18739,6 +18752,7 @@ namespace OverflowHelper.core
             correctionAdd("Polio", "polio");
 
             correctionAdd("re-appear", "reappear");
+            correctionAdd("reapper", "reappear");
 
             correctionAdd("re-appeared", "reappeared");
 
@@ -22489,6 +22503,7 @@ namespace OverflowHelper.core
             correctionAdd("temerature", "temperature");
             correctionAdd("temperture", "temperature");
             correctionAdd("tempertaure", "temperature");
+            correctionAdd("Temperature", "temperature");
 
             correctionAdd("instable", "unstable");
 
@@ -25519,6 +25534,8 @@ namespace OverflowHelper.core
             correctionAdd("Sunburst", "SUNBURST");
 
             correctionAdd("samsung s7", "Samsung Galaxy S7");
+            correctionAdd("Samsung galaxy s7", "Samsung Galaxy S7");
+            correctionAdd("Galaxy S7", "Samsung Galaxy S7");
 
             correctionAdd("soas", "Sugar on a Stick");
             correctionAdd("sugar on a stick", "Sugar on a Stick");
@@ -26043,6 +26060,8 @@ namespace OverflowHelper.core
             correctionAdd("lawier", "lawyer");
 
             correctionAdd("POG", "pog");
+            correctionAdd("POGCHAMP", "pog");
+            correctionAdd("pogchamp", "pog");
 
             correctionAdd("sclalar", "scalar");
 
@@ -26887,6 +26906,8 @@ namespace OverflowHelper.core
             correctionAdd("word-wise", "wordwise");
 
             correctionAdd("iTerm 2", "iTerm2");
+            correctionAdd("iterm", "iTerm2");
+            correctionAdd("iTerm", "iTerm2");
 
             correctionAdd("Hidu", "Hindu");
 
@@ -27529,6 +27550,7 @@ namespace OverflowHelper.core
             correctionAdd("leafs", "leaves");
 
             correctionAdd("maginitude", "magnitude");
+            correctionAdd("magnetude", "magnitude");
 
             correctionAdd("mi", "me");
 
@@ -27683,6 +27705,37 @@ namespace OverflowHelper.core
             correctionAdd("tab", "tab character");
             correctionAdd("TAB character", "tab character");
             correctionAdd("TAB", "tab character");
+
+            correctionAdd("c# 9", "C# 9.0");
+            correctionAdd("c#9", "C# 9.0");
+            correctionAdd("C#9", "C# 9.0");
+
+            correctionAdd("Martin", "Martin Fowler");
+
+            correctionAdd("open hardware monitor", "Open Hardware Monitor");
+
+            correctionAdd("OSC", "Operating System Command");
+
+            correctionAdd("PROMPTCOMMAND", "PROMPT_COMMAND");
+
+            correctionAdd("ryzen", "Ryzen");
+
+            correctionAdd("Snell's Law", "Snell's law");
+
+            correctionAdd("contactys", "contacts");
+
+            correctionAdd("descreetly", "discreetly");
+
+            correctionAdd("laymay", "layman");
+
+            correctionAdd("non-relativistic", "nonrelativistic");
+            correctionAdd("non relativistic", "nonrelativistic");
+
+            correctionAdd("problemantic", "problematic");
+
+            correctionAdd("re build", "rebuild");
+
+            correctionAdd("white board", "whiteboard");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43457,6 +43510,34 @@ namespace OverflowHelper.core
             URL_Add("sort of", "https://en.wiktionary.org/wiki/sort_of#Adverb");
 
             URL_Add("tab character", "https://en.wikipedia.org/wiki/Tab_key#Tab_characters");
+
+            URL_Add("C# 9.0", "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29#Versions");
+
+            URL_Add("Martin Fowler", "https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)");
+
+            URL_Add("Open Hardware Monitor", "https://openhardwaremonitor.org/");
+
+            URL_Add("Operating System Command", "https://en.wikipedia.org/wiki/ANSI_escape_code#OSC_(Operating_System_Command)_sequences");
+
+            URL_Add("PROMPT_COMMAND", "http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html");
+
+            URL_Add("Ryzen", "https://en.wikipedia.org/wiki/Ryzen");
+
+            URL_Add("Snell's law", "https://en.wikipedia.org/wiki/Snell's_law");
+
+            URL_Add("contacts", "https://en.wiktionary.org/wiki/contact#Noun");
+
+            URL_Add("discreetly", "https://en.wiktionary.org/wiki/discreetly#Adverb");
+
+            URL_Add("layman", "https://en.wiktionary.org/wiki/layman#Noun");
+
+            URL_Add("nonrelativistic", "https://en.wiktionary.org/wiki/nonrelativistic#Adjective");
+
+            URL_Add("problematic", "https://en.wiktionary.org/wiki/problematic#Adjective");
+
+            URL_Add("rebuild", "https://en.wiktionary.org/wiki/rebuild#Verb");
+
+            URL_Add("whiteboard", "https://en.wiktionary.org/wiki/whiteboard#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
