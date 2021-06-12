@@ -53,7 +53,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\{",
-                  //cfCheck.missingSpaceBeforeOpeningBracketRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceBeforeOpeningBracket),
                   "");
             }
@@ -63,7 +62,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @":\S",
-                  //cfCheck.missingSpaceAfterColonRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterColon),
                   "");
             }
@@ -73,7 +71,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @",\S",
-                  //cfCheck.missingSpaceAfterCommaRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAfterComma),
                   "");
             }
@@ -83,7 +80,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\=|\=\S",
-                  //cfCheck.missingSpaceAroundEqualSignRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign),
                   "");
             }
@@ -93,7 +89,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\S\+|\+\S",
-                  //cfCheck.missingSpaceAroundStringConcatenationRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation),
                   "");
             }
@@ -103,7 +98,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s,",
-                  //cfCheck.spaceBeforeCommaRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeComma),
                   "");
             }
@@ -113,7 +107,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s:",
-                  //cfCheck.spaceBeforeColonRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeColon),
                   "");
             }
@@ -123,7 +116,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s\)",
-                  //cfCheck.spaceBeforeParenthesisRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeParenthesis),
                   "");
             }
@@ -133,7 +125,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\s;",
-                  //cfCheck.spaceBeforeSemicommaRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceBeforeSemicomma),
                   "");
             }
@@ -143,7 +134,6 @@ namespace CodeFormattingCheckTests
 
                 Assert.AreEqual(
                   @"\(\s",
-                  //cfCheck.spaceAfterLeftParenthesisRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.spaceAfterLeftParenthesis),
                   "");
             }
@@ -155,7 +145,6 @@ namespace CodeFormattingCheckTests
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
                   @"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
-                  //cfCheck.missingSpaceAroundOperatorsRegex(),
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators),
                   "");
             }
