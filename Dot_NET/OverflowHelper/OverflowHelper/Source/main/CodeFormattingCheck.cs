@@ -40,9 +40,7 @@ namespace OverflowHelper.core
 
     public enum codeFormattingsRegexEnum
     {
-        // Currently an assumption of IDs being consecutive and starting at 1...
-        //missingSpaceBeforeOpeningBracket = 1237,
-        missingSpaceBeforeOpeningBracket = 1,
+        missingSpaceBeforeOpeningBracket = 1237,
 
         missingSpaceAfterColon,
         missingSpaceAfterComma,
@@ -254,16 +252,58 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
+         *    Helper function for getRegularExpression(). In particular: static/    *
+         *    stateless...                                                          *
+         *                                                                          *
+         *    If found, returns a (zero-based) index. Otherwise,                    *
+         *    returns a negative value.                                             *
+         *                                                                          *
+         ****************************************************************************/
+        private static int findId(List<codeCheckItemStruct> aCodeCheckItems,
+                                  codeFormattingsRegexEnum anID)
+        {
+            //There is probably a simpler way than an explicit loop...
+            //
+
+            int index = -1; // Flag for not found
+
+            // Prepare a list for string.Join()
+            int len = aCodeCheckItems.Count;
+            int lastIndex = len - 1;
+            for (int i = 0; i < len; i++)
+            {
+                codeCheckItemStruct someItem = aCodeCheckItems[i];
+
+                if (someItem.ID == anID)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
+        } //findId()
+
+
+        /****************************************************************************
+         *                                                                          *
          *    Helper function for lookup in the main datastructure                  *
          *                                                                          *
          ****************************************************************************/
         public string getRegularExpression(codeFormattingsRegexEnum anID)
         {
-            // Currently relying on a convention between the ID and the index...
-            // At least the assumption is isolated here (except for use
-            // of the whole list by clients (currently two instance)).
-            //
-            return mCodeCheckItems[(int)anID-1].regularExpression;
+            int index = findId(mCodeCheckItems, anID);
+            if (index < 0)
+            {
+                //Somewhat confusing (the exception type) - perhaps
+                //throw our own exception instead?
+
+                throw new
+                  System.IndexOutOfRangeException(
+                    "getRegularExpression(): The ID (" + anID + ") was not found...");
+            }
+
+            //return mCodeCheckItems[(int)anID-1].regularExpression; // Old way
+            return mCodeCheckItems[index].regularExpression;
         } //getRegularExpression()
 
 
@@ -279,7 +319,7 @@ namespace OverflowHelper.core
 
             //There is probably a simpler way than an explicit loop...
             //
-            // Prepare a list for stirng.Join()
+            // Prepare a list for string.Join()
             int len = aCodeCheckItems.Count;
             int lastIndex = len - 1;
             List<string> CodeRegExList = new List<string>(len);
@@ -293,7 +333,7 @@ namespace OverflowHelper.core
             scratchSB.Append("(");
             scratchSB.Append(string.Join("|", CodeRegExList));
             scratchSB.Append(")");
-            
+
             return scratchSB.ToString();
         } //combinedAllOfExplanations_internal()
 
