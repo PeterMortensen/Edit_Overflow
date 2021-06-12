@@ -1,4 +1,17 @@
-﻿
+﻿/****************************************************************************
+ * Copyright (C) 2010 Peter Mortensen                                       *
+ * This file is part of Edit Overflow.                                      *
+ *                                                                          *
+ * Note: "wordlist" here refers to the Edit Overflow word list              *
+ *       (mapping from incorrect words to correct words)                    *
+ *                                                                          *
+ *                                                                          *
+ * Purpose: Regression testing for word list generation (mainly HTML).      *
+ *                                                                          *
+ *          For example, detect inadvertent changes to the HTML             *
+ *          generation, including encoding changes (UTF-8, etc.)            *
+ *                                                                          *
+ ****************************************************************************/
 
 
 using System.Collections.Generic; //For Dictionary.
@@ -325,5 +338,6 @@ namespace OverflowHelper.Tests
 
 
 } //namespace OverflowHelper.Tests
+
 
 
