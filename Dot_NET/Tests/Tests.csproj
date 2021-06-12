@@ -71,7 +71,7 @@
     <Compile Include="LookUpStringTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringReplacerWithRegexTests.cs" />
-    <Compile Include="Wordlist.cs" />
+    <Compile Include="WordlistTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OverflowHelper\OverflowHelper.csproj">
