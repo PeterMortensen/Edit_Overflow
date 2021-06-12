@@ -146,18 +146,7 @@ namespace OverflowHelper
             InitializeComponent();
 
             if (true) //Block. Could be moved to a helper function.
-            {
-                //Delete at any time
-                ////Experimental: Add an item to a submenu 
-                ////              (menu "Text" -> "Regular expression to Clipboard")
-                ////
-                //mnuSomeDynamicMenuItem = new ToolStripMenuItem();
-                //mnuSomeDynamicMenuItem.Name = "mnuSomeDynamicMenuItem";
-                //mnuSomeDynamicMenuItem.Size = new System.Drawing.Size(416, 24);
-                //mnuSomeDynamicMenuItem.Text = "SOME dynamic menu item...";
-                ////mnuSomeDynamicMenuItem.Click += new System.EventHandler(this.mnuMissingSpaceBeforeOpeningBracket_Click);
-                //this.mnuRegularExpressionToClipboard.DropDownItems.Add(mnuSomeDynamicMenuItem);
-                
+            {                
                 List<codeCheckItemStruct> codeCheckItems = 
                     mCodeFormattingCheck.getCodeCheckItems();
 
@@ -2504,20 +2493,11 @@ namespace OverflowHelper
 
             try 
 	        {
-                int ID = Int32.Parse((string)menuItem.Tag);
+                codeFormattingsRegexEnum ID = 
+                    (codeFormattingsRegexEnum)Int32.Parse((string)menuItem.Tag);
 
-                //Direct access for now (and assuming the IDs
-                //are consecutive and start at 1). We will 
-                //encapsulate in the next step (and remove 
-                //the assumption).
-                int index = ID - 1; //Explicit assumption...
-
-                List<codeCheckItemStruct> codeCheckItems =
-                    mCodeFormattingCheck.getCodeCheckItems();
-
-                codeCheckItemStruct someItem = codeCheckItems[index];
-                toTransfer = someItem.regularExpression;
-	        }
+                toTransfer = mCodeFormattingCheck.getRegularExpression(ID);
+            }
 	        catch (Exception)
 	        {
                 // We don't want to crash and risk 
