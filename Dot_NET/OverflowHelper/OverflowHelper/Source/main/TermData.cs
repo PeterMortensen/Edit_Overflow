@@ -13023,6 +13023,7 @@ namespace OverflowHelper.core
             correctionAdd("wannt", "want");
             correctionAdd("wnat", "want");
             correctionAdd("wanr", "want");
+            correctionAdd("wan", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -14980,6 +14981,7 @@ namespace OverflowHelper.core
 
             correctionAdd("resul", "result");
             correctionAdd("resault", "result");
+            correctionAdd("resut", "result");
 
             correctionAdd("returnig", "returning");
 
@@ -16873,6 +16875,7 @@ namespace OverflowHelper.core
             correctionAdd("comftravle", "comfortable");
             correctionAdd("comftrable", "comfortable");
             correctionAdd("comfrtable", "comfortable");
+            correctionAdd("confortable", "comfortable");
 
             correctionAdd("dificulty", "difficulty");
             correctionAdd("difficuly", "difficulty");
@@ -19611,6 +19614,7 @@ namespace OverflowHelper.core
             correctionAdd("priviledged", "privileged");
             correctionAdd("privelaged", "privileged");
             correctionAdd("priveleged", "privileged");
+            correctionAdd("prjvileged", "privileged");
 
             correctionAdd("breath", "breathe");
 
@@ -25562,6 +25566,7 @@ namespace OverflowHelper.core
 
             correctionAdd("missinterpret", "misinterpret");
             correctionAdd("miss interpret", "misinterpret");
+            correctionAdd("misinterpet", "misinterpret");
 
             correctionAdd("sd", "standard deviation");
 
@@ -27736,6 +27741,36 @@ namespace OverflowHelper.core
             correctionAdd("re build", "rebuild");
 
             correctionAdd("white board", "whiteboard");
+
+            correctionAdd("Webfaction", "WebFaction");
+
+            correctionAdd("misinterpeted", "misinterpreted");
+
+            correctionAdd("resuts", "results");
+
+            correctionAdd("kenya", "Kenya");
+
+            correctionAdd("bin laden", "Osama bin Laden");
+            correctionAdd("Bin Laden", "Osama bin Laden");
+
+            correctionAdd("qanon", "QAnon");
+
+            correctionAdd("tanzania", "Tanzania");
+
+            correctionAdd("fracton", "fraction");
+
+            correctionAdd("legaly", "legally");
+
+            correctionAdd("RNA vaccine", "mRNA vaccine");
+
+            correctionAdd("nonstarter", "non-starter");
+            correctionAdd("non starter", "non-starter");
+
+            correctionAdd("self created", "self-created");
+
+            correctionAdd("sterialised", "sterilised");
+
+            correctionAdd("world-wide", "worldwide");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43538,6 +43573,34 @@ namespace OverflowHelper.core
             URL_Add("rebuild", "https://en.wiktionary.org/wiki/rebuild#Verb");
 
             URL_Add("whiteboard", "https://en.wiktionary.org/wiki/whiteboard#Noun");
+
+            URL_Add("WebFaction", "https://www.webfaction.com/faq/");
+
+            URL_Add("misinterpreted", "https://en.wiktionary.org/wiki/misinterpret#Verb");
+
+            URL_Add("results", "https://en.wiktionary.org/wiki/result#Noun");
+
+            URL_Add("Kenya", "https://en.wikipedia.org/wiki/Kenya");
+
+            URL_Add("Osama bin Laden", "https://en.wikipedia.org/wiki/Osama_bin_Laden");
+
+            URL_Add("QAnon", "https://en.wikipedia.org/wiki/QAnon");
+
+            URL_Add("Tanzania", "https://en.wikipedia.org/wiki/Tanzania");
+
+            URL_Add("fraction", "https://en.wiktionary.org/wiki/fraction#Noun");
+
+            URL_Add("legally", "https://en.wiktionary.org/wiki/legally#Adverb");
+
+            URL_Add("mRNA vaccine", "https://en.wikipedia.org/wiki/RNA_vaccine#Efficacy_of_mRNA_vaccines_for_COVID-19");
+
+            URL_Add("non-starter", "https://en.wiktionary.org/wiki/non-starter#Noun");
+
+            URL_Add("self-created", "https://www.merriam-webster.com/dictionary/self-created");
+
+            URL_Add("sterilised", "https://en.wiktionary.org/wiki/sterilise#English");
+
+            URL_Add("worldwide", "https://en.wiktionary.org/wiki/worldwide#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
