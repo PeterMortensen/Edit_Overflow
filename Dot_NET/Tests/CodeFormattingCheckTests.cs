@@ -295,8 +295,6 @@ namespace CodeFormattingCheckTests
                     RegExExecutor.match("$ARGV[0]. '", regex));
 
 
-
-
                 // Test for false positives (for numbers)
                 Assert.IsFalse(
                     RegExExecutor.match("1.56456", regex));
@@ -335,7 +333,6 @@ namespace CodeFormattingCheckTests
 
                 //Assert.IsFalse(true); // TestContext.WriteLine() only
                                         // works if it fails.
-
             }
 
 

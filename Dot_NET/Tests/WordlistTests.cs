@@ -36,6 +36,23 @@ namespace OverflowHelper.Tests
     class WordlistTests
     {
 
+        /****************************************************************************
+         *                                                                          *
+         *    Intent: State assumptions about String.Replace(), including for       *
+         *            special characters, like "{"                                  *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void StringReplace()
+        {
+            string str1 = "xyx";
+            Assert.AreEqual(str1.Replace("x", "Z"), "ZyZ", "BBB"); // Detect
+            Assert.AreEqual("xyx".Replace("x", "Z"), "ZyZ", "BBB"); // Detect
+
+            Assert.AreEqual("{".Replace("{", "<strong>{</strong>"), "<strong>{</strong>", "BBB"); // Detect
+
+        } //HTMLexport_emptyWordList()
+
 
         /****************************************************************************
          *                                                                          *
@@ -64,7 +81,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
-                "",
+                "+ operators {", // Some of it will be transformed...
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
                 ref someWord2URL,
@@ -73,7 +90,7 @@ namespace OverflowHelper.Tests
                 //should we use fixed or empty strings instead??
                 app.fullVersionStr(),
                 app.versionString_dateOnly()
-                );
+              );
 
             int len = Wordlist_HTML.Length;
 
@@ -92,7 +109,10 @@ namespace OverflowHelper.Tests
                     36 + 85 + 4 +
                     2 +
                     177 + 6 +
-                    37 + 39,
+                    37 + 39 +
+                    1 + 10 + 2 +
+                    17 + 17 +
+                    0,
                 len,
                 "XYZ");
             //    +3 because we discovered and eliminated a tab...
@@ -125,6 +145,10 @@ namespace OverflowHelper.Tests
             //    +6 The longest incorrect term changed
             //   +37 Different static HTML content close to "Code formatting check"
             //   +39 Slightly different formatting/punctuation and internal HTML formatting.
+            //   +11 Using a non-empty code regular expression explanation (something
+            //       that is going to transformed (change in length))
+            //   +17 Bold formatting for some special characters, like "}"
+            //       (in the code regular expression explanation)
 
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
@@ -182,7 +206,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
-                "",
+                "+ operators {", // Some of it will be transformed...
                 ref someCaseCorrection,
                 someWord2URL.Count,
                 ref someWord2URL,
@@ -209,7 +233,10 @@ namespace OverflowHelper.Tests
                     36 + 85 + 4 +
                     2 +
                     177 + 6 +
-                    37 + 39,
+                    37 + 39 +
+                    1 + 10 + 2 +
+                    17 + 17 +
+                    0,
                 len,
                 "XYZ");
             //   -24 because we removed unnecessary space...
@@ -226,6 +253,10 @@ namespace OverflowHelper.Tests
             //    +6 The longest incorrect term changed
             //   +37 Different static HTML content close to "Code formatting check"
             //   +39 Slightly different formatting/punctuation and internal HTML formatting.
+            //   +13 Using a non-empty code regular expression explanation (something
+            //       that is going to transformed (change in length))
+            //   +17 Bold formatting for some special characters, like "}"
+            //       (in the code regular expression explanation)
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...

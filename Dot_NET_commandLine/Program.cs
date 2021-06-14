@@ -90,8 +90,8 @@ namespace EditOverflow2
                         string explanations = cfCheck.combinedAllOfExplanations();
                         
                         // For internal formatting in the HTML source: Break
-                        // up into separate lines and indent. The indent fits
-                        // the one used in FixedStrings.php.
+                        // up into separate lines and indent. The indent 
+                        // fits the one used in FixedStrings.php.
                         //                        
                         string explanations_HTML = 
                           explanations.Replace(",", ",\n                  ");

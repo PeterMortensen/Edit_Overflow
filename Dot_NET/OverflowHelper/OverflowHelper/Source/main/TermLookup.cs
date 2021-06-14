@@ -994,14 +994,34 @@ namespace OverflowHelper.core
             aInOutBuilder.addHeader(2, "Code formatting check");
 
             aInOutBuilder.addParagraph(
-              "Note: It is rudimentary. As the false positive rate is high, " + 
+              "Note: It is rudimentary. As the false positive rate is high, " +
               "every match should be checked manually.");
+
+
+            // Apply some (HTML) formatting to special characters
+            // that makes it difficult to see where an item (an
+            // explanation) ends (especially when near the end
+            // double quote).
+            //
+            // In particlar for a current item ending "{".
+            //
+            string codeCheck_AllOfExplanations_formatted =
+              aCodeCheck_AllOfExplanations.Replace("{", "<strong>{</strong>").Replace("+", "<strong>+</strong>");
+
+            // No output during NUnit run (unit test)
+            //System.Console.WriteLine("aCodeCheck_AllOfExplanations2: " + aCodeCheck_AllOfExplanations2);
+            //System.Diagnostics.Debug.WriteLine("aCodeCheck_AllOfExplanations2: " + aCodeCheck_AllOfExplanations2);
+
+            // Actually outputs during NUnit run (unit test)
+            //System.Console.Error.WriteLine("aCodeCheck_AllOfExplanations2: " + aCodeCheck_AllOfExplanations2);
+
 
             //What is the "&nbsp;" for??
             string lineBreakAndIndent = "\n                  ";
             aInOutBuilder.addParagraph(
-                "&nbsp;Regular expression" +                 
-                lineBreakAndIndent + aCodeCheck_AllOfExplanations + ": <br/>" +
+                "&nbsp;Regular expression" +
+                lineBreakAndIndent + codeCheck_AllOfExplanations_formatted +
+                ": <br/>" +
                 lineBreakAndIndent + aCodeCheck_regularExpression);
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
@@ -1085,8 +1105,8 @@ namespace OverflowHelper.core
          *                                                                          *
          ****************************************************************************/
         public static string dumpWordList_asHTML(
-            string aCodeCheck_regularExpression,            
-            string aCodeCheck_AllOfExplanations,            
+            string aCodeCheck_regularExpression,
+            string aCodeCheck_AllOfExplanations,
             ref Dictionary<string, string> anIncorrect2Correct,
             int aUniqueWords,
             ref Dictionary<string, string> aCorrectTerm2URL,
@@ -1175,9 +1195,9 @@ namespace OverflowHelper.core
 
             builder.endTagOneSeparateLine("table");
 
-            endOfHTML_document(ref builder, 
-                               aCodeCheck_regularExpression, 
-                               aCodeCheck_AllOfExplanations, 
+            endOfHTML_document(ref builder,
+                               aCodeCheck_regularExpression,
+                               aCodeCheck_AllOfExplanations,
                                aDateStr);
 
             scratchSB.Append(builder.currentHTML());
