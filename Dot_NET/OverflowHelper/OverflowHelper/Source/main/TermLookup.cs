@@ -1006,7 +1006,12 @@ namespace OverflowHelper.core
             // In particlar for a current item ending "{".
             //
             string codeCheck_AllOfExplanations_formatted =
-              aCodeCheck_AllOfExplanations.Replace("{", "<strong>{</strong>").Replace("+", "<strong>+</strong>");
+              aCodeCheck_AllOfExplanations
+                  .Replace("{", "<strong>{</strong>")
+                  .Replace("+", "<strong>+</strong>")
+                  .Replace(",", ",\n                  ") // Insert (internal) linebreaks
+                ;
+
 
             // No output during NUnit run (unit test)
             //System.Console.WriteLine("aCodeCheck_AllOfExplanations2: " + aCodeCheck_AllOfExplanations2);
