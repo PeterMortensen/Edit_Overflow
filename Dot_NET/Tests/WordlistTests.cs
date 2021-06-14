@@ -81,7 +81,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
-                "+ operators {", // Some of it will be transformed...
+                ", + , operators , {", // Some of it will be transformed...
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
                 ref someWord2URL,
@@ -97,8 +97,8 @@ namespace OverflowHelper.Tests
             // Poor man's hash: check length (later, use a real
             // hashing function). At least it should catch that
             // indentation in the HTML source is not broken
-            // by changes (e.g. refactoring) and unintended omissions
-            // deletions.
+            // by changes (e.g. refactoring) and unintended
+            // omissions deletions.
             //
             // But it will not detect single spaces replaced by single TAB...
             //
@@ -112,6 +112,7 @@ namespace OverflowHelper.Tests
                     37 + 39 +
                     1 + 10 + 2 +
                     17 + 17 +
+                    3 * 20 + 3 +
                     0,
                 len,
                 "XYZ");
@@ -148,15 +149,17 @@ namespace OverflowHelper.Tests
             //   +11 Using a non-empty code regular expression explanation (something
             //       that is going to transformed (change in length))
             //   +17 Bold formatting for some special characters, like "}"
-            //       (in the code regular expression explanation)
+            //       (in the code regular expression explanation). 
+            //   +17 For a non-empty code regular expression explanation.
+            //   +63 Internal linebreaks and indentation for code regular
+            //       expression explanations (and some extra space). 3 
+            //       (simulated) items in the example input.
 
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
 
-
             System.Console.WriteLine(Wordlist_HTML);
-
         } //HTMLexport_emptyWordList()
 
 
@@ -206,7 +209,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
-                "+ operators {", // Some of it will be transformed...
+                ", + , operators , {", // Some of it will be transformed...
                 ref someCaseCorrection,
                 someWord2URL.Count,
                 ref someWord2URL,
@@ -222,8 +225,8 @@ namespace OverflowHelper.Tests
             // Poor man's hash: check length (later, use a real
             // hashing function). At least it should catch that
             // indentation in the HTML source is not broken
-            // by changes (e.g. refactoring) and unintended omissions
-            // deletions.
+            // by changes (e.g. refactoring) and unintended
+            // omissions deletions.
             //
             // But it will not detect single spaces replaced by single TAB...
             //
@@ -236,6 +239,7 @@ namespace OverflowHelper.Tests
                     37 + 39 +
                     1 + 10 + 2 +
                     17 + 17 +
+                    3 * 20 + 3 +
                     0,
                 len,
                 "XYZ");
@@ -257,6 +261,10 @@ namespace OverflowHelper.Tests
             //       that is going to transformed (change in length))
             //   +17 Bold formatting for some special characters, like "}"
             //       (in the code regular expression explanation)
+            //   +17 For a non-empty code regular expression explanation.
+            //   +63 Internal linebreaks and indentation for code regular
+            //       expression explanations (and some extra space). 3 
+            //       (simulated) items in the example input.
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
