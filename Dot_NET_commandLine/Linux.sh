@@ -100,7 +100,11 @@ echo ; echo "Start time: $(date +%FT%T_%N_ns)"  ; echo
 
 
 
-# Perhaps move to the client side to remove redundancy?
+# Perhaps move to the client side to remove redundancy (as 
+# we currenly also need to update the client side (for 
+# postprocessing after this script) when we change 
+# the date - e.g., "SQLFILE_DATE")?
+#
 export EFFECTIVE_DATE='2020-02-05'
 export EFFECTIVE_DATE='2020-02-28'
 export EFFECTIVE_DATE='2020-04-23'
@@ -111,6 +115,8 @@ export EFFECTIVE_DATE='2020-06-16'
 export EFFECTIVE_DATE='2020-09-29'
 export EFFECTIVE_DATE='2020-10-24'
 export EFFECTIVE_DATE='2021-02-03'
+export EFFECTIVE_DATE='2021-06-14'
+
 
 export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
 export WEB_SRCFOLDER_BASE="${SRCFOLDER_BASE}/Web_Application"
@@ -345,7 +351,7 @@ cp $SRCFOLDER_PLATFORM_SPECIFIC/EditorOverflowApplication.cs       $WORKFOLDER
 
 ## cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs  $WORKFOLDER
 cp $SRCFOLDER_TESTS/EnvironmentTests.cs                 $WORKFOLDER
-cp $SRCFOLDER_TESTS/Wordlist.cs                         $WORKFOLDER
+cp $SRCFOLDER_TESTS/WordlistTests.cs                    $WORKFOLDER
 cp $SRCFOLDER_TESTS/LookUpStringTests.cs                $WORKFOLDER
 cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs     $WORKFOLDER
 cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
@@ -383,7 +389,7 @@ mv  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}  $WORKFOLDER/${FILE_WITH_MAIN_ENTRY
 # file (for normal run). Hardcoded for now (some redundancy)
 #
 mv  $WORKFOLDER/EnvironmentTests.cs               $WORKFOLDER/EnvironmentTests.csZZZ
-mv  $WORKFOLDER/Wordlist.cs                       $WORKFOLDER/EnvironmentTests.csZZZ
+mv  $WORKFOLDER/WordlistTests.cs                  $WORKFOLDER/WordlistTests.csZZZ
 mv  $WORKFOLDER/LookUpStringTests.cs              $WORKFOLDER/LookUpStringTests.csZZZ
 mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWithRegexTests.csZZZ
 mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingCheckTests.csZZZ
@@ -391,7 +397,7 @@ mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZ
 
 
 #exit   # Active: Test only!!!!!!!!! (We currently use this to
-       #                             iterate (aided by unit testing)
+        #                             iterate (aided by unit testing)
 
 
 
