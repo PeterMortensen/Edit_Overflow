@@ -436,12 +436,14 @@ namespace OverflowHelper.core
                                                   ref HTML_builder aInOutBuilder,
                                                   string aURL)
         {
+            //aInOutBuilder.Append(" "); // Test only!!!!!!!!!!
+
             aInOutBuilder.singleLineTagOnSeparateLine(
                 "tr",
                 " " +
-                  aInOutBuilder.singleLineTagStr("td", aBadTerm) + " " +
-                  aInOutBuilder.singleLineTagStr("td", aCorrectedTerm) + " " +
-                  aInOutBuilder.singleLineTagStr("td", aURL) + " "
+                  HTML_builder.singleLineTagStr("td", aBadTerm) + " " +
+                  HTML_builder.singleLineTagStr("td", aCorrectedTerm) + " " +
+                  HTML_builder.singleLineTagStr("td", aURL) + " "
                 );
         } //addTermsToOutput_HTML()
 
@@ -573,7 +575,6 @@ namespace OverflowHelper.core
                 string someCorrectTerm = anIncorrect2Correct[someIncorrectTerm];
 
                 string msg = string.Empty; // Default: empty - flag for no errors.
-
 
                 // On-the-fly check (but it would be better if
                 // this check was done at program startup)
@@ -924,9 +925,9 @@ namespace OverflowHelper.core
             aInOutBuilder.singleLineTagOnSeparateLine(
                 "tr",
                 " " +
-                  aInOutBuilder.singleLineTagStr("th", "Incorrect") + " " +
-                  aInOutBuilder.singleLineTagStr("th", "Correct") + " " +
-                  aInOutBuilder.singleLineTagStr("th", "URL") + " "
+                  HTML_builder.singleLineTagStr("th", "Incorrect") + " " +
+                  HTML_builder.singleLineTagStr("th", "Correct") + " " +
+                  HTML_builder.singleLineTagStr("th", "URL") + " "
                 );
             aInOutBuilder.addEmptyLine();
         } //startOfHTML_Table()
@@ -986,17 +987,23 @@ namespace OverflowHelper.core
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
-            //Headline
 
-            //Later: From the program (when we generalise
-            //       these wrappings in HTML tags)
-            //builder.singleLineTagWithEmptyLine("h2", "Code formatting check");
+            // Regular expresions for code formatting check
+
+            aInOutBuilder.addEmptyLine();
+            aInOutBuilder.addEmptyLine();
+            aInOutBuilder.addComment("Note: Updates to this part (e.g., more code checks) is to be updated in FixedStrings.php...");
+
             aInOutBuilder.addHeader(2, "Code formatting check");
 
             aInOutBuilder.addParagraph(
               "Note: It is rudimentary. As the false positive rate is high, " +
               "every match should be checked manually.");
 
+            // 12 spaces. 18 would match the old indent in FixedStrings.php,
+            // but we need to manually edit anyway and we want to keep it
+            // regular in this generated HTML file.
+            string lineBreakAndIndent = "\n            ";
 
             // Apply some (HTML) formatting to special characters
             // that makes it difficult to see where an item (an
@@ -1007,11 +1014,21 @@ namespace OverflowHelper.core
             //
             string codeCheck_AllOfExplanations_formatted =
               aCodeCheck_AllOfExplanations
-                  .Replace("{", "<strong>{</strong>")
-                  .Replace("+", "<strong>+</strong>")
-                  .Replace(",", ",\n                  ") // Insert (internal) linebreaks
-                ;
 
+                  // For the first item...
+                  .Replace("{", "<strong>{</strong>")
+
+                  // For the fifth item...
+                  .Replace("+", "<strong>+</strong>")
+
+                  // Insert (internal) linebreaks with indent. Note the
+                  // trailing space in the first argument (to avoid an
+                  // odd number of space in the output...)
+                  //
+                  .Replace(", ", "," + lineBreakAndIndent)
+
+                  //.Replace(", ", "," + lineBreakAndIndent + " ")  // Test only!!!!!!
+                ;
 
             // No output during NUnit run (unit test)
             //System.Console.WriteLine("aCodeCheck_AllOfExplanations2: " + aCodeCheck_AllOfExplanations2);
@@ -1022,11 +1039,10 @@ namespace OverflowHelper.core
 
 
             //What is the "&nbsp;" for??
-            string lineBreakAndIndent = "\n                  ";
             aInOutBuilder.addParagraph(
-                "&nbsp;Regular expression" +
+                "Regular expression" +
                 lineBreakAndIndent + codeCheck_AllOfExplanations_formatted +
-                ": <br/>" +
+                  ": <br/>" +
                 lineBreakAndIndent + aCodeCheck_regularExpression);
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
@@ -1102,7 +1118,7 @@ namespace OverflowHelper.core
          *    Notes:                                                                *
          *                                                                          *
          *      1. Parameter "aCodeCheck_regularExpression" does not do             *
-         *          anything - it is for output (in the HTML content).              *
+         *         anything - it is for output (in the HTML content).               *
          *                                                                          *
          *      2. This function, with six parameters, is only used (directly,      *
          *         as a public function) by some regression tests to get a          *

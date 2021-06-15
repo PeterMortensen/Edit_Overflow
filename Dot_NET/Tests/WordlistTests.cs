@@ -102,7 +102,6 @@ namespace OverflowHelper.Tests
             //
             // But it will not detect single spaces replaced by single TAB...
             //
-
             Assert.AreEqual(
                 2708 + 3 + 1 + 12 - 10 + 1 + 8 - 22 + 9 - 2 - 1 - 1 + 1 +
                     404 + 153 +
@@ -112,7 +111,11 @@ namespace OverflowHelper.Tests
                     37 + 39 +
                     1 + 10 + 2 +
                     17 + 17 +
-                    3 * 20 + 3 +
+                    3 * (18 + 2 + 1) +  //2 is for CR+LF. 3 is the number of items (separated by comma)
+                    -3 +
+                    -6 +
+                    5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + // Indent + HTML comment syntax + space + some HTML comment + newline + an empty line
                     0,
                 len,
                 "XYZ");
@@ -149,12 +152,17 @@ namespace OverflowHelper.Tests
             //   +11 Using a non-empty code regular expression explanation (something
             //       that is going to transformed (change in length))
             //   +17 Bold formatting for some special characters, like "}"
-            //       (in the code regular expression explanation). 
+            //       (in the code regular expression explanation).
             //   +17 For a non-empty code regular expression explanation.
             //   +63 Internal linebreaks and indentation for code regular
-            //       expression explanations (and some extra space). 3 
+            //       expression explanations (and some extra space). 3
             //       (simulated) items in the example input.
-
+            //    -3 A problem with an uneven number of indent spaces was fixed...
+            //    -6 We removed a weird leading (HTML) non-break space...
+            //   -30 We changed the indent to be regular in the generated
+            //       HTML (***not*** trying to match the indentation in
+            //       file "FixedStrings.php")
+            //  +110 Added an (HTML) comment
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -230,7 +238,6 @@ namespace OverflowHelper.Tests
             //
             // But it will not detect single spaces replaced by single TAB...
             //
-
             Assert.AreEqual(
                 3572 - 24 + 153 +
                     36 + 85 + 4 +
@@ -240,6 +247,10 @@ namespace OverflowHelper.Tests
                     1 + 10 + 2 +
                     17 + 17 +
                     3 * 20 + 3 +
+                    -3 +
+                    -6 +
+                    5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + // Indent + HTML comment syntax + space + some HTML comment + newline + an empty line
                     0,
                 len,
                 "XYZ");
@@ -263,8 +274,14 @@ namespace OverflowHelper.Tests
             //       (in the code regular expression explanation)
             //   +17 For a non-empty code regular expression explanation.
             //   +63 Internal linebreaks and indentation for code regular
-            //       expression explanations (and some extra space). 3 
+            //       expression explanations (and some extra space). 3
             //       (simulated) items in the example input.
+            //    -3 A problem with an uneven number of indent spaces was fixed...
+            //    -6 We removed a weird leading (HTML) non-break space...
+            //   -30 We changed the indent to be regular in the generated
+            //       HTML (***not*** trying to match the indentation in
+            //       file "FixedStrings.php")
+            //  +110 Added an (HTML) comment
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -306,6 +323,16 @@ namespace OverflowHelper.Tests
         {
             HTML_builder builder = new HTML_builder();
 
+            // Note: the readout, currentHTML(), resets the buffer. That
+            //       is the reason we can reuse the single HTML_builder
+            //       instance... But it only works if we don't use
+            //       indents (directly or indirectly) - that is, if
+            //       we do then the order of tests becomes important
+            //       (and then they should be changed to be completely
+            //        independent)
+            //
+            //
+
             {
                 builder.addContent("<head>");
 
@@ -317,6 +344,7 @@ namespace OverflowHelper.Tests
                 // will be more clear (as it may be difficult spaces).
             }
 
+            // With end of line at the end...
             {
                 builder.addContentOnSeparateLine("<head>");
 
@@ -328,6 +356,24 @@ namespace OverflowHelper.Tests
                 // will be more clear (as it may be difficult spaces).
             }
 
+            // HTML comments, combined with indents. Shifting this test
+            // around also tests if the indent state is reset or not.
+            //
+            {
+                HTML_builder builder2 = new HTML_builder();
+
+                builder2.indentLevelUp();
+                builder2.addComment("Some comment");
+
+                string HTMLcontent4 = builder2.currentHTML(); // Side effect!
+                int len4 = HTMLcontent4.Length;
+
+                Assert.AreEqual("    <!-- Some comment -->\n", HTMLcontent4, "XYZ");
+                Assert.AreEqual(26, len4, "XYZ"); // Weaker, but the report
+                // will be more clear (as it may be difficult spaces).
+            }
+
+            // With end of line at the end and starting with an empty line
             {
                 builder.addContentWithEmptyLine("<head>");
 
