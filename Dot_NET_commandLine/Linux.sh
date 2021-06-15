@@ -495,11 +495,10 @@ ls -ls $HTML_FILE_GENERIC
 #
 startOfBuildStep "7" "Starting checking generated HTML"
 
-${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 16  $? "Checking generated HTML (file ${HTML_FILE_GENERIC})"
+${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 7  $? "Checking generated HTML (file ${HTML_FILE_GENERIC})"
 
+#exit   # Active: Test only!!!!!!!!!
 
-
-exit   # Active: Test only!!!!!!!!!
 
 
 
