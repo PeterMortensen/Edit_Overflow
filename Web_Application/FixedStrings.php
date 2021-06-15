@@ -244,34 +244,37 @@
 
 
             <!-- ******************************************************* -->
-            <h2>Regular expressions for code checking</h2>
 
-            <p>Note: As the false positive rate is high, every match
-                      should be checked manually</p>
+            <h2>Code formatting check</h2>
 
+            <p>Note: It is rudimentary. As the false positive rate is high, every match should be checked manually.</p>
 
-            <p>A<u>l</u>l combined
-                  ("missing space before {",
-                  "missing space after colon",
-                  "missing space after comma",
-                  "missing space around equal sign",
-                  "missing space around string concatenation (by \"+\")",
-                  "space before comma",
-                  "space before colon",
-                  "space before parenthesis",
-                    and
-                  "space before semicolon"):
+            <p>Regular expression
+                ("missing space before <strong>{</strong>",
+                "missing space after colon",
+                "missing space after comma",
+                "missing space around equal sign",
+                "missing space around string concatenation (by "<strong>+</strong>")",
+                "space before comma",
+                "space before colon",
+                "space before right parenthesis",
+                "space before semicolon",
+                "space after left parenthesis",
+                and "missing space around some operators"): <br/>
+
+                
 
                 <input
                     name="All combined"
                     type="text"
                     id="codeRegex_AllCombined"
                     class="XYZ36"
-                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s)"
+                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\&quot;|(\$\w+\[.+\]))\.|\.['\&quot;\]])"
                     style="width:320px;"
                     accesskey=""
                     title=""
                 />
+
             </p>
 
 
