@@ -115,7 +115,7 @@ namespace OverflowHelper.Tests
                     -3 +
                     -6 +
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
-                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + // Indent + HTML comment syntax + space + some HTML comment + newline + an empty line
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
                     0,
                 len,
                 "XYZ");
@@ -250,7 +250,7 @@ namespace OverflowHelper.Tests
                     -3 +
                     -6 +
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
-                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + // Indent + HTML comment syntax + space + some HTML comment + newline + an empty line
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
                     0,
                 len,
                 "XYZ");
