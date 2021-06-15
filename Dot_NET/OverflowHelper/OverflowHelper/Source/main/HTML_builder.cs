@@ -3,7 +3,10 @@
  * This file is part of OverflowHelper.                                     *
  *                                                                          *
  *                                                                          *
- * Purpose: XXXX                                                            *
+ * Purpose: Builds HTML, including automatic indentation and                *
+ *          standard boilerplate HTML (e.g., the beginning                  *
+ *          of an HTML document). This prevents a lot of                    *
+ *          redundancy on the client side.                                  *
  *                                                                          *
  ****************************************************************************/
 
@@ -53,12 +56,12 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private void changeIndents(int aChange)
         {
-            mIndents += aChange;        
-            
+            mIndents += aChange;
+
             mScratchSB.Length = 0;
             for (int i = 0; i < mIndents; i++)
 			{
-                mScratchSB.Append(" ");		 
+                mScratchSB.Append(" ");
 			}
             mSpaces = mScratchSB.ToString();
         }
@@ -79,7 +82,7 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *    Adds an empty line in the HTML content.                               *
+         *    Adds an (internal) empty line in the HTML content.                    *
          *                                                                          *
          ****************************************************************************/
         public void addEmptyLine()
@@ -126,7 +129,7 @@ namespace OverflowHelper.core
             addContentRaw("\n");
             addContentOnSeparateLine(aContent);
         }
-        
+
 
         /****************************************************************************
          *                                                                          *
@@ -149,7 +152,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          ****************************************************************************/
-        public string singleLineTagStr(string aTagName, string aTagContentText)
+        public static string singleLineTagStr(string aTagName, string aTagContentText)
         {
             return "<" + aTagName + ">" + aTagContentText + "</" + aTagName + ">";
         }
@@ -168,7 +171,7 @@ namespace OverflowHelper.core
             string prefix = "\n" + mSpaces;
             indentLevelDown();
 
-            return prefix + 
+            return prefix +
                    aName + ": " + aContent + "&nbsp;&nbsp;";
         }
 
@@ -224,9 +227,9 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *              
-         *  With an empty line before  
-         * 
+         *
+         *  With an empty line before
+         *
          ****************************************************************************/
         public void addParagraph(string aText)
         {
@@ -242,45 +245,33 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public void startHTML(string aTitle)
         {
-            //scratchSB.Append("<!DOCTYPE html>\n");
             addContentOnSeparateLine("<!DOCTYPE html>");
 
-            ////scratchSB.Append("\n");
-            ////scratchSB.Append("<html lang=\"en\">\n");
+            // This also works, even though it also has attributes...
             addContentWithEmptyLine("<html lang=\"en\">");
-            //startTagWithEmptyLine("html lang=\"en\""); // This also works, even
-            //                                            though it also 
-            //                                            has attributes...
             indentLevelUp();
 
-            //scratchSB.Append("\n");
-            //scratchSB.Append("    <head>\n");
-            //addContentWithEmptyLine("<head>");
-            //indentLevelUp();
             startTagWithEmptyLine("head");
 
             //To make the special characters at the end (e.g. for arrow) actually
             //work on the resulting web opened in the browser
-            //scratchSB.Append("    	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-            //scratchSB.Append("\n");
             addContentOnSeparateLine(
                 "<meta http-equiv=\"Content-Type\" " +
                 "content=\"text/html; charset=UTF-8\">");
 
             //Title
-            //scratchSB.Append("        <title>");
-            //scratchSB.Append(title);
-            //scratchSB.Append("</title>\n");
-            //addContentWithEmptyLine("<title>" + aTitle + "</title>");
             singleLineTagWithEmptyLine("title", aTitle);
         }
-        
+
 
         /****************************************************************************
          *                                                                          *
          *  Returns the current HTML content. The side effect is that               *
-         *  the current HTML is cleared (but the current indentation                *
-         *  level is maintained)                                                    *
+         *  the current HTML is cleared.                                            *
+         *                                                                          *
+         *  But note that the ***current indentation level*** is maintained -       * 
+         *  the reason being we want to be able to insert HTML content              * 
+         *  generated somewhat independently).                                      *
          *                                                                          *
          ****************************************************************************/
         public string currentHTML()
@@ -288,6 +279,18 @@ namespace OverflowHelper.core
             string toReturn = mHTMLcontentSB.ToString();
             mHTMLcontentSB.Length = 0;
             return toReturn;
+        }
+
+
+        /****************************************************************************
+         *
+         ****************************************************************************/
+        public void addComment(string aText)
+        {
+            addContent("<!-- ");
+            addContentRaw(aText);
+            addContentRaw(" -->");
+            addContentRaw("\n");
         }
 
 
