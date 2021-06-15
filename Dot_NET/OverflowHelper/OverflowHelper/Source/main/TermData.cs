@@ -6483,7 +6483,11 @@ namespace OverflowHelper.core
             correctionAdd("Aight", "all right");
             correctionAdd("aight", "all right");
 
+            correctionAdd("argb", "ARGB");
+
             correctionAdd("rgb", "RGB");
+            correctionAdd("rbg", "RGB"); // Letter order (typo)
+            correctionAdd("RBG", "RGB"); // Letter order (typo)
 
             correctionAdd("google docs", "Google Docs");
             correctionAdd("Google Doc", "Google Docs");
@@ -7242,6 +7246,7 @@ namespace OverflowHelper.core
             correctionAdd("Office", "Microsoft Office");
             correctionAdd("Ms Office", "Microsoft Office");
             correctionAdd("ms office", "Microsoft Office");
+            correctionAdd("MS OFfice", "Microsoft Office");
 
             correctionAdd("DL", "download");
             correctionAdd("dwnld", "download");
@@ -8269,6 +8274,7 @@ namespace OverflowHelper.core
             correctionAdd("SciFi", "science fiction");
             correctionAdd("SFI", "science fiction");
             correctionAdd("Sci-fi", "science fiction");
+            correctionAdd("Sci fi", "science fiction");
 
             correctionAdd("Ping", "ping");
 
@@ -9422,6 +9428,7 @@ namespace OverflowHelper.core
             correctionAdd("Question", "question");
             correctionAdd("tread", "question");
             correctionAdd("quastion", "question");
+            correctionAdd("questionj", "question");
 
             // Can not currently be looked up due to a bug!!!!
             correctionAdd("devc++", "Dev-C++");
@@ -11762,6 +11769,7 @@ namespace OverflowHelper.core
             correctionAdd("SOLUTIION", "solution");
             correctionAdd("solutiion", "solution");
             correctionAdd("SOLUTION", "solution");
+            correctionAdd("soution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -14312,6 +14320,8 @@ namespace OverflowHelper.core
             correctionAdd("beautuful", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
+            correctionAdd("gottach", "gotcha");
+            correctionAdd("gotach", "gotcha");
 
             correctionAdd("Telegram", "Telegram Messenger");
             correctionAdd("tellygram", "Telegram Messenger");
@@ -14999,6 +15009,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dash", "Dash");
             correctionAdd("DASH", "Dash");
+            correctionAdd("Debian Almquist Shell", "Dash");
 
             correctionAdd("FireStore", "Firestore");
             correctionAdd("Firestorm", "Firestore");
@@ -15186,6 +15197,7 @@ namespace OverflowHelper.core
             correctionAdd("git gui", "Git GUI");
             correctionAdd("gitgui", "Git GUI");
             correctionAdd("Git Gui", "Git GUI");
+            correctionAdd("git GUI", "Git GUI");
 
             correctionAdd("ksh", "KornShell");
             correctionAdd("korn shell", "KornShell");
@@ -15398,6 +15410,7 @@ namespace OverflowHelper.core
             correctionAdd("intiger", "integer");
             correctionAdd("intager", "integer");
             correctionAdd("interger", "integer");
+            correctionAdd("intger", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -15532,6 +15545,7 @@ namespace OverflowHelper.core
             correctionAdd("apologize", "apologise");
             correctionAdd("apoligise", "apologise");
             correctionAdd("apoligize", "apologise");
+            correctionAdd("apolagise", "apologise");
 
             correctionAdd("disbale", "disable");
             correctionAdd("dissable", "disable");
@@ -16257,6 +16271,7 @@ namespace OverflowHelper.core
             correctionAdd("STDIN", "standard input");
             correctionAdd("standard in", "standard input");
             correctionAdd("Stdin", "standard input");
+            correctionAdd("standard in put", "standard input");
 
             correctionAdd("StdOut", "standard output");
             correctionAdd("stdout", "standard output");
@@ -18986,6 +19001,7 @@ namespace OverflowHelper.core
             correctionAdd("wellfare", "welfare");
 
             correctionAdd("apt", "APT");
+            correctionAdd("apt-get", "APT");
 
             correctionAdd("Android Enthusiast", "Android Enthusiasts");
 
@@ -19017,6 +19033,7 @@ namespace OverflowHelper.core
             correctionAdd("face mask", "facemask");
 
             correctionAdd("gat", "got");
+            correctionAdd("god", "got");
 
             correctionAdd("home grown", "home-grown");
 
@@ -20714,6 +20731,8 @@ namespace OverflowHelper.core
             correctionAdd("messenger", "Facebook Messenger");
             correctionAdd("messanger", "Facebook Messenger");
             correctionAdd("messender", "Facebook Messenger");
+            correctionAdd("facebook messenger", "Facebook Messenger");
+            correctionAdd("Facebook messenger", "Facebook Messenger");
 
             correctionAdd("fields medal", "Fields Medal");
             correctionAdd("Field's Medal", "Fields Medal");
@@ -21425,8 +21444,6 @@ namespace OverflowHelper.core
 
             correctionAdd("waist", "waste");
             correctionAdd("waiste", "waste");
-
-            correctionAdd("argb", "ARGB");
 
             correctionAdd("Angst", "angst");
 
@@ -27771,6 +27788,67 @@ namespace OverflowHelper.core
             correctionAdd("sterialised", "sterilised");
 
             correctionAdd("world-wide", "worldwide");
+
+            correctionAdd("alexa", "Amazon Alexa");
+            correctionAdd("Alexa", "Amazon Alexa");
+
+            correctionAdd("Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
+
+            correctionAdd("3DES", "Triple DES");
+            correctionAdd("3des", "Triple DES");
+            correctionAdd("3 DES", "Triple DES");
+
+            correctionAdd("des", "DES");
+
+            correctionAdd("zenlike", "Zenlike");
+
+            correctionAdd("contomperary", "contemporary");
+
+            correctionAdd("flexibily", "flexibly");
+
+            correctionAdd("head wind", "headwind");
+
+            correctionAdd("lift off", "liftoff");
+
+            correctionAdd("non-prejudiced", "nonprejudiced");
+
+            correctionAdd("silient", "silent");
+
+            correctionAdd("stiking", "sticking");
+
+            correctionAdd("stiking up", "sticking up");
+
+            correctionAdd("user friendly", "user-friendly");
+
+            correctionAdd("czech", "Czech");
+            correctionAdd("Czeck", "Czech");
+
+            correctionAdd("mothership", "mother ship");
+
+            correctionAdd("oaragravity", "paragravity");
+            correctionAdd("Paragravity", "paragravity");
+            correctionAdd("Parargrvity", "paragravity");
+
+            correctionAdd("path name", "pathname");
+
+            correctionAdd("RootCA", "root certificate authority");
+            correctionAdd("Root Ca", "root certificate authority");
+            correctionAdd("Root CA", "root certificate authority");
+            correctionAdd("Root certificate authority", "root certificate authority");
+
+            correctionAdd("scema", "schema");
+
+            correctionAdd("worth there salt", "worth their salt");
+
+            correctionAdd("intgers", "integers");
+
+            correctionAdd("NOTE", "note");
+
+            correctionAdd("textfile", "text file");
+
+            correctionAdd("well defined", "well-defined");
+
+            correctionAdd("re-parent", "reparent");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43601,6 +43679,58 @@ namespace OverflowHelper.core
             URL_Add("sterilised", "https://en.wiktionary.org/wiki/sterilise#English");
 
             URL_Add("worldwide", "https://en.wiktionary.org/wiki/worldwide#Adjective");
+
+            URL_Add("Amazon Alexa", "https://en.wikipedia.org/wiki/Amazon_Alexa");
+
+            URL_Add("DES", "https://en.wikipedia.org/wiki/Data_Encryption_Standard");
+
+            URL_Add("Science Fiction & Fantasy (Stack Exchange site)", "https://scifi.stackexchange.com/users/1957/peter-mortensen");
+
+            URL_Add("Triple DES", "https://en.wikipedia.org/wiki/Triple_DES");
+
+            URL_Add("Zenlike", "https://en.wiktionary.org/wiki/Zenlike#Adjective");
+
+            URL_Add("contemporary", "https://en.wiktionary.org/wiki/contemporary#Adjective");
+
+            URL_Add("flexibly", "https://en.wiktionary.org/wiki/flexibly#Adverb");
+
+            URL_Add("headwind", "https://en.wiktionary.org/wiki/headwind#Noun");
+
+            URL_Add("liftoff", "https://en.wiktionary.org/wiki/liftoff#Noun");
+
+            URL_Add("nonprejudiced", "https://en.wiktionary.org/wiki/nonprejudiced#Adjective");
+
+            URL_Add("silent", "https://en.wiktionary.org/wiki/silent#Adjective");
+
+            URL_Add("sticking", "https://en.wiktionary.org/wiki/stick#Verb_2");
+
+            URL_Add("sticking up", "https://en.wiktionary.org/wiki/stick_up#Verb");
+
+            URL_Add("user-friendly", "https://en.wiktionary.org/wiki/user-friendly#Adjective");
+
+            URL_Add("Czech", "https://en.wiktionary.org/wiki/Czech#Adjective");
+
+            URL_Add("mother ship", "https://en.wiktionary.org/wiki/mother_ship#Noun");
+
+            URL_Add("paragravity", "https://en.wiktionary.org/wiki/paragravity#Noun");
+
+            URL_Add("pathname", "https://en.wiktionary.org/wiki/pathname#Noun");
+
+            URL_Add("root certificate authority", "https://en.wikipedia.org/wiki/Root_certificate");
+
+            URL_Add("schema", "https://en.wiktionary.org/wiki/schema#Noun");
+
+            URL_Add("worth their salt", "https://en.wiktionary.org/wiki/worth_one%27s_salt#Adjective");
+
+            URL_Add("integers", "https://en.wiktionary.org/wiki/integer#Noun");
+
+            URL_Add("note", "https://en.wiktionary.org/wiki/note#Verb");
+
+            URL_Add("text file", "https://en.wiktionary.org/wiki/text_file#Noun");
+
+            URL_Add("well-defined", "https://en.wiktionary.org/wiki/well-defined#Adjective");
+
+            URL_Add("reparent", "https://en.wiktionary.org/wiki/reparent#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
