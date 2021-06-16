@@ -22861,6 +22861,9 @@ namespace OverflowHelper.core
             correctionAdd("Kirchhoffs", "Kirchhoff's law");
             correctionAdd("kirchhoffs", "Kirchhoff's law");
             correctionAdd("kirchhoff's", "Kirchhoff's law");
+            correctionAdd("Kirchhoff Circuit Laws", "Kirchhoff's law");
+            correctionAdd("Kirchhoff circuit laws", "Kirchhoff's law");
+            correctionAdd("Kirchhoff's laws", "Kirchhoff's law");
 
             correctionAdd("sanskrit", "Sanskrit");
             correctionAdd("sanskritt", "Sanskrit");
@@ -27849,6 +27852,16 @@ namespace OverflowHelper.core
             correctionAdd("well defined", "well-defined");
 
             correctionAdd("re-parent", "reparent");
+
+            correctionAdd("OS's", "OSes");
+
+            correctionAdd("comform", "conform");
+
+            correctionAdd("non-constant", "nonconstant");
+
+            correctionAdd("permmitted", "permitted");
+
+            correctionAdd("sscce", "short self-contained correct example");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43731,6 +43744,16 @@ namespace OverflowHelper.core
             URL_Add("well-defined", "https://en.wiktionary.org/wiki/well-defined#Adjective");
 
             URL_Add("reparent", "https://en.wiktionary.org/wiki/reparent#Verb");
+
+            URL_Add("OSes", "https://en.wiktionary.org/wiki/OS#Noun");
+
+            URL_Add("conform", "https://en.wiktionary.org/wiki/conform#Verb");
+
+            URL_Add("nonconstant", "https://en.wiktionary.org/wiki/nonconstant#Adjective");
+
+            URL_Add("permitted", "https://en.wiktionary.org/wiki/permit#Verb");
+
+            URL_Add("short self-contained correct example", "https://en.wikipedia.org/wiki/Minimal_working_example");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
