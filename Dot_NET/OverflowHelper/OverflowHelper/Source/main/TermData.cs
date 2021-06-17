@@ -4452,6 +4452,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
+            correctionAdd("Mathetmica", "Mathematica");
 
             correctionAdd("Dry", "DRY");
             correctionAdd("dry", "DRY"); // Context dependent!
@@ -19177,6 +19178,7 @@ namespace OverflowHelper.core
             correctionAdd("LuaLaTeX", "LuaTeX");
             correctionAdd("Lualatex", "LuaTeX");
             correctionAdd("lualatex", "LuaTeX");
+            correctionAdd("lulatex", "LuaTeX");
 
             correctionAdd("key chain", "keychain");
 
@@ -23929,9 +23931,6 @@ namespace OverflowHelper.core
             correctionAdd("bench mark", "benchmark");
             correctionAdd("BenchMark", "benchmark");
 
-            correctionAdd("for all intents an purposes", "for all intents and purposes");
-            correctionAdd("for all purposes", "for all intents and purposes");
-
             correctionAdd("gloebbelist", "globalist");
 
             correctionAdd("greenfield", "greenfield project");
@@ -27853,15 +27852,55 @@ namespace OverflowHelper.core
 
             correctionAdd("re-parent", "reparent");
 
+            correctionAdd("for all intents an purposes", "for all intents and purposes");
+            correctionAdd("for all purposes", "for all intents and purposes");
+
             correctionAdd("OS's", "OSes");
+            correctionAdd("OSs", "OSes");
 
             correctionAdd("comform", "conform");
 
             correctionAdd("non-constant", "nonconstant");
+            correctionAdd("non constant", "nonconstant");
 
             correctionAdd("permmitted", "permitted");
 
             correctionAdd("sscce", "short self-contained correct example");
+            correctionAdd("SSCCE", "short self-contained correct example");
+
+            correctionAdd("Comprehensive TeX Archive Network", "CTAN");
+            correctionAdd("ctan", "CTAN");
+
+            correctionAdd("apporoximated", "approximated");
+            correctionAdd("aproroximated", "approximated");
+
+            correctionAdd("Bohrium", "bohrium");
+
+            correctionAdd("Copernicium", "copernicium");
+
+            correctionAdd("Dubnium", "dubnium");
+
+            correctionAdd("pdftex", "pdfTeX");
+            correctionAdd("pdflatex", "pdfTeX");
+
+            correctionAdd("Rhenium", "rhenium");
+
+            correctionAdd("rcp", "rich client platform");
+            correctionAdd("RCP", "rich client platform");
+
+            correctionAdd("Rutherfordium", "rutherfordium");
+
+            correctionAdd("Seaborgium", "seaborgium");
+
+            correctionAdd("super-heavy", "superheavy");
+
+            correctionAdd("the other way round", "the other way around");
+
+            correctionAdd("Tungsten", "tungsten");
+
+            correctionAdd("Unbihexium", "unbihexium");
+
+            correctionAdd("Unbinilium", "unbinilium");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -28361,6 +28400,9 @@ namespace OverflowHelper.core
             correctionAdd("HCW", "health care worker");
 
             correctionAdd("hospitilised", "hospitalised");
+
+            correctionAdd("anti-vaxxers", "anti-vaccine groups");
+            correctionAdd("anti-vaccinationists", "anti-vaccine groups");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -43754,6 +43796,38 @@ namespace OverflowHelper.core
             URL_Add("permitted", "https://en.wiktionary.org/wiki/permit#Verb");
 
             URL_Add("short self-contained correct example", "https://en.wikipedia.org/wiki/Minimal_working_example");
+
+            URL_Add("CTAN", "https://en.wikipedia.org/wiki/CTAN");
+
+            URL_Add("approximated", "https://en.wiktionary.org/wiki/approximate#Verb");
+
+            URL_Add("bohrium", "https://en.wikipedia.org/wiki/Bohrium");
+
+            URL_Add("copernicium", "https://en.wikipedia.org/wiki/Copernicium");
+
+            URL_Add("dubnium", "https://en.wikipedia.org/wiki/Dubnium");
+
+            URL_Add("pdfTeX", "http://tug.org/applications/pdftex/");
+
+            URL_Add("rhenium", "https://en.wikipedia.org/wiki/Rhenium");
+
+            URL_Add("rich client platform", "https://en.wikipedia.org/wiki/Rich_client_platform");
+
+            URL_Add("rutherfordium", "https://en.wikipedia.org/wiki/Rutherfordium");
+
+            URL_Add("seaborgium", "https://en.wikipedia.org/wiki/Seaborgium");
+
+            URL_Add("superheavy", "https://en.wiktionary.org/wiki/superheavy#Adjective");
+
+            URL_Add("the other way around", "https://en.wiktionary.org/wiki/the_other_way_around#Adverb");
+
+            URL_Add("tungsten", "https://en.wikipedia.org/wiki/Tungsten");
+
+            URL_Add("unbihexium", "https://en.wikipedia.org/wiki/Unbihexium");
+
+            URL_Add("unbinilium", "https://en.wikipedia.org/wiki/Unbinilium");
+
+            URL_Add("anti-vaccine groups", "https://en.wikipedia.org/wiki/Vaccine_hesitancy");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
