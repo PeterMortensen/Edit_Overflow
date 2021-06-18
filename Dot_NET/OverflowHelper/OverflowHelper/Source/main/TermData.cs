@@ -3927,6 +3927,7 @@ namespace OverflowHelper.core
             correctionAdd("vairiables", "variable");
             correctionAdd("vairable", "variable");
             correctionAdd("variabes", "variable");
+            correctionAdd("VARABLE", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -4403,6 +4404,7 @@ namespace OverflowHelper.core
             correctionAdd("becEuse", "because");
             correctionAdd("beceuse", "because");
             correctionAdd("cus", "because");
+            correctionAdd("Beacause", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -9266,6 +9268,7 @@ namespace OverflowHelper.core
             correctionAdd("cound't", "couldn't");
             correctionAdd("could't", "couldn't");
             correctionAdd("coudnt", "couldn't");
+            correctionAdd("couldn´t", "couldn't");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -12098,6 +12101,7 @@ namespace OverflowHelper.core
             correctionAdd("syntaxis", "syntax");
             correctionAdd("sintaxis", "syntax");
             correctionAdd("synthax", "syntax");
+            correctionAdd("synatx", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -22909,6 +22913,8 @@ namespace OverflowHelper.core
 
             correctionAdd("bizare", "bizarre");
             correctionAdd("baazar", "bizarre");
+            correctionAdd("Bizzare", "bizarre");
+            correctionAdd("bizzare", "bizarre");
 
             correctionAdd("ColorForth", "colorForth");
             correctionAdd("colorforth", "colorForth");
@@ -26174,6 +26180,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Sourcing", "sourcing");
             correctionAdd("dot source", "sourcing");
+            correctionAdd("Bash source", "sourcing");
+            correctionAdd("bash source", "sourcing");
+            correctionAdd("source in Bash", "sourcing");
+            correctionAdd("source in bash", "sourcing");
 
             correctionAdd("swiching", "switching");
 
@@ -27901,6 +27911,18 @@ namespace OverflowHelper.core
             correctionAdd("Unbihexium", "unbihexium");
 
             correctionAdd("Unbinilium", "unbinilium");
+
+            correctionAdd("Politics", "Politics (Stack Exchange site)");
+
+            correctionAdd("snafu", "SNAFU");
+
+            correctionAdd("TexMaker", "Texmaker");
+
+            correctionAdd("aduquate", "adequate");
+
+            correctionAdd("inherites", "inherits");
+
+            correctionAdd("pen testing", "pentesting");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43828,6 +43850,18 @@ namespace OverflowHelper.core
             URL_Add("unbinilium", "https://en.wikipedia.org/wiki/Unbinilium");
 
             URL_Add("anti-vaccine groups", "https://en.wikipedia.org/wiki/Vaccine_hesitancy");
+
+            URL_Add("Politics (Stack Exchange site)", "https://politics.stackexchange.com/tour");
+
+            URL_Add("SNAFU", "https://en.wiktionary.org/wiki/SNAFU#Noun");
+
+            URL_Add("Texmaker", "https://en.wikipedia.org/wiki/Texmaker");
+
+            URL_Add("adequate", "https://en.wiktionary.org/wiki/adequate#Adjective");
+
+            URL_Add("inherits", "https://en.wiktionary.org/wiki/inherit#Verb");
+
+            URL_Add("pentesting", "https://en.wiktionary.org/wiki/pentesting");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
