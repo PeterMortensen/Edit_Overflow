@@ -2399,6 +2399,7 @@ namespace OverflowHelper.core
             correctionAdd("ASCI", "ASCII");
             correctionAdd("asci", "ASCII");
             correctionAdd("ASCIi", "ASCII");
+            correctionAdd("acii", "ASCII");
 
             correctionAdd("fluent nhibernate", "Fluent NHibernate");
             correctionAdd("Fluentnhibernate", "Fluent NHibernate");
@@ -7139,6 +7140,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ambig", "ambiguity");
             correctionAdd("ambi", "ambiguity");
+            correctionAdd("ambigity", "ambiguity");
 
             correctionAdd("mage", "Mage");
             correctionAdd("mage.exe", "Mage");
@@ -9821,6 +9823,8 @@ namespace OverflowHelper.core
             correctionAdd("Alway", "always");
             correctionAdd("alway", "always");
             correctionAdd("alwasy", "always");
+            correctionAdd("alwes", "always");
+            correctionAdd("alweys", "always");
 
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -10729,6 +10733,7 @@ namespace OverflowHelper.core
             correctionAdd("ganymede", "Eclipse v3.4 (Ganymede)");
 
             correctionAdd("instanciate", "instantiate");
+            correctionAdd("inatantiate", "instantiate");
 
             correctionAdd("1st", "first");
             correctionAdd("Fist", "first");
@@ -10798,6 +10803,7 @@ namespace OverflowHelper.core
             correctionAdd("ident", "indentation");
             correctionAdd("indent", "indentation");
             correctionAdd("intendation", "indentation");
+            correctionAdd("identation", "indentation");
 
             correctionAdd("horizentaly", "horizontally");
             correctionAdd("horizondally", "horizontally");
@@ -14311,6 +14317,7 @@ namespace OverflowHelper.core
             correctionAdd("Material Ui", "Material-UI");
 
             correctionAdd("Technet", "TechNet");
+            correctionAdd("technet", "TechNet");
 
             correctionAdd("Textedit", "TextEdit");
             correctionAdd("textedit", "TextEdit");
@@ -18390,6 +18397,7 @@ namespace OverflowHelper.core
             correctionAdd("Maker", "maker");
 
             correctionAdd("meet-up", "meetup");
+            correctionAdd("meet up", "meetup");
 
             correctionAdd("outtro", "outro");
 
@@ -21855,6 +21863,9 @@ namespace OverflowHelper.core
             correctionAdd("Psuedocode", "pseudocode");
             correctionAdd("Pseudocode", "pseudocode");
             correctionAdd("pseudo cod", "pseudocode");
+            correctionAdd("Psudo-Code", "pseudocode");
+            correctionAdd("psudo-code", "pseudocode");
+            correctionAdd("psudo code", "pseudocode");
 
             correctionAdd("authenticode", "Authenticode");
             correctionAdd("AuthentiCode", "Authenticode");
@@ -22027,6 +22038,7 @@ namespace OverflowHelper.core
             correctionAdd("ASSEMBLER", "assembly language");
             correctionAdd("assemble-language", "assembly language");
             correctionAdd("assemble language", "assembly language");
+            correctionAdd("assebmly", "assembly language");
 
             correctionAdd("DSL", "domain-specific language");
             correctionAdd("Domain Specific Language", "domain-specific language");
@@ -27629,6 +27641,7 @@ namespace OverflowHelper.core
             correctionAdd("kn", "knot");
 
             correctionAdd("lightyear", "light year");
+            correctionAdd("light-year", "light year");
 
             correctionAdd("long running", "long-running");
 
@@ -27923,6 +27936,59 @@ namespace OverflowHelper.core
             correctionAdd("inherites", "inherits");
 
             correctionAdd("pen testing", "pentesting");
+
+            correctionAdd("circuitikz", "CircuiTikZ");
+
+            correctionAdd("dlr", "DLR");
+            correctionAdd("Dynamic Language Runtime", "DLR");
+
+            correctionAdd("Knuth", "Donald Knuth");
+
+            correctionAdd("excite", "Excite");
+
+            correctionAdd("Export-Module", "Export-ModuleMember");
+            correctionAdd("export-module", "Export-ModuleMember");
+
+            correctionAdd("ielts", "IELTS");
+
+            correctionAdd("mba", "MBA");
+
+            correctionAdd("netsh", "NETSH");
+
+            correctionAdd("remove-module", "Remove-Module");
+
+            correctionAdd("saxon", "Saxon");
+
+            correctionAdd("STAX", "StAX");
+
+            correctionAdd("universe sandbox", "Universe Sandbox");
+
+            correctionAdd("actove", "active");
+
+            correctionAdd("AT", "at");
+
+            correctionAdd("black bodies", "blackbodies");
+
+            correctionAdd("black body", "blackbody");
+
+            correctionAdd("case-sensitive", "case sensitive");
+            correctionAdd("casesensitive", "case sensitive");
+
+            correctionAdd("circuitdiagram", "circuit diagram");
+
+            correctionAdd("easy-going", "easygoing");
+            correctionAdd("easy going", "easygoing");
+
+            correctionAdd("non obvious", "non-obvious");
+            correctionAdd("nonobvious", "non-obvious");
+
+            correctionAdd("preservers", "preserves");
+
+            correctionAdd("re-frame", "reframe");
+
+            correctionAdd("re-load", "reload");
+
+            correctionAdd("rigit", "rigid");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43862,6 +43928,54 @@ namespace OverflowHelper.core
             URL_Add("inherits", "https://en.wiktionary.org/wiki/inherit#Verb");
 
             URL_Add("pentesting", "https://en.wiktionary.org/wiki/pentesting");
+
+            URL_Add("CircuiTikZ", "https://en.wikipedia.org/wiki/CircuiTikZ");
+
+            URL_Add("DLR", "https://en.wikipedia.org/wiki/Dynamic_Language_Runtime");
+
+            URL_Add("Donald Knuth", "https://en.wikipedia.org/wiki/Donald_Knuth");
+
+            URL_Add("Excite", "https://en.wikipedia.org/wiki/Excite");
+
+            URL_Add("Export-ModuleMember", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/export-modulemember");
+
+            URL_Add("IELTS", "https://en.wikipedia.org/wiki/International_English_Language_Testing_System");
+
+            URL_Add("MBA", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
+
+            URL_Add("NETSH", "https://ss64.com/nt/netsh.html");
+
+            URL_Add("Remove-Module", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/remove-module");
+
+            URL_Add("Saxon", "https://en.wikipedia.org/wiki/Saxon_XSLT");
+
+            URL_Add("StAX", "https://en.wikipedia.org/wiki/StAX");
+
+            URL_Add("Universe Sandbox", "https://en.wikipedia.org/wiki/Universe_Sandbox");
+
+            URL_Add("active", "https://en.wiktionary.org/wiki/active#Adjective");
+
+            URL_Add("at", "https://en.wiktionary.org/wiki/at#Preposition");
+
+            URL_Add("blackbodies", "https://en.wiktionary.org/wiki/blackbody#Noun");
+
+            URL_Add("blackbody", "https://en.wiktionary.org/wiki/blackbody#Noun");
+
+            URL_Add("case sensitive", "https://en.wiktionary.org/wiki/case_sensitive#Adjective");
+
+            URL_Add("circuit diagram", "https://en.wikipedia.org/wiki/Circuit_diagram");
+
+            URL_Add("easygoing", "https://en.wiktionary.org/wiki/easygoing#Adjective");
+
+            URL_Add("non-obvious", "https://en.wiktionary.org/wiki/non-obvious#Adjective");
+
+            URL_Add("preserves", "https://en.wiktionary.org/wiki/preserve#Verb");
+
+            URL_Add("reframe", "https://en.wiktionary.org/wiki/reframe#Verb");
+
+            URL_Add("reload", "https://en.wiktionary.org/wiki/reload#Verb");
+
+            URL_Add("rigid", "https://en.wiktionary.org/wiki/rigid#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
