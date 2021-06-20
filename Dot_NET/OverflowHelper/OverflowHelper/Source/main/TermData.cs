@@ -10979,6 +10979,7 @@ namespace OverflowHelper.core
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
             correctionAdd("nuff", "enough");
+            correctionAdd("anough", "enough");
 
             correctionAdd("exisiting", "existing");
             correctionAdd("exsiting", "existing");
@@ -14257,6 +14258,8 @@ namespace OverflowHelper.core
 
             correctionAdd("1-on-1", "one-on-one");
             correctionAdd("one on one", "one-on-one");
+            correctionAdd("1on1", "one-on-one");
+            correctionAdd("1 on 1", "one-on-one");
 
             correctionAdd("seam", "seem");
             correctionAdd("seep", "seem");
@@ -15004,6 +15007,7 @@ namespace OverflowHelper.core
             correctionAdd("resul", "result");
             correctionAdd("resault", "result");
             correctionAdd("resut", "result");
+            correctionAdd("reuslt", "result");
 
             correctionAdd("returnig", "returning");
 
@@ -17612,6 +17616,8 @@ namespace OverflowHelper.core
             correctionAdd("FAANG", "FANG");
 
             correctionAdd("Indieweb", "IndieWeb");
+            correctionAdd("indie web", "IndieWeb");
+            correctionAdd("Indie Web", "IndieWeb");
 
             correctionAdd("circutry", "circuitry");
 
@@ -17945,6 +17951,7 @@ namespace OverflowHelper.core
 
             correctionAdd("somme", "some");
             correctionAdd("somi", "some");
+            correctionAdd("som", "some");
 
             correctionAdd("someon’es", "someone’s");
             correctionAdd("someone's", "someone’s");
@@ -18011,6 +18018,7 @@ namespace OverflowHelper.core
             correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
             correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
             correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
 
             correctionAdd("yoga", "Yoga");
 
@@ -18640,6 +18648,7 @@ namespace OverflowHelper.core
             correctionAdd("I'v", "I’ve");
             correctionAdd("I´ve", "I’ve");
             correctionAdd("Iv", "I’ve");
+            correctionAdd("iver", "I’ve");
 
             correctionAdd("msc", "Master of Science");
             correctionAdd("Msc", "Master of Science");
@@ -19269,6 +19278,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mathoverflow", "MathOverflow");
             correctionAdd("MathOverlow", "MathOverflow");
+            correctionAdd("MO", "MathOverflow");
 
             correctionAdd("shopify", "Shopify");
 
@@ -22415,6 +22425,7 @@ namespace OverflowHelper.core
             correctionAdd("HighlightJS", "Highlight.js");
             correctionAdd("highlight.js", "Highlight.js");
             correctionAdd("hIghlightjs", "Highlight.js");
+            correctionAdd("Highlight.JS", "Highlight.js");
 
             correctionAdd("nim", "Nim");
 
@@ -22618,6 +22629,7 @@ namespace OverflowHelper.core
             correctionAdd("das", "DAS");
 
             correctionAdd("wes", "was");
+            correctionAdd("wass", "was");
 
             correctionAdd("ipaas", "iPaaS");
 
@@ -27989,6 +28001,49 @@ namespace OverflowHelper.core
             correctionAdd("re-load", "reload");
 
             correctionAdd("rigit", "rigid");
+
+            correctionAdd("MWI", "Everett interpretation");
+            correctionAdd("Everett Interpretation", "Everett interpretation");
+            correctionAdd("Many worlds interpretation", "Everett interpretation");
+            correctionAdd("Many-worlds interpretation", "Everett interpretation");
+            correctionAdd("many worlds interpretation", "Everett interpretation");
+            correctionAdd("many-worlds interpretation", "Everett interpretation");
+
+            correctionAdd("Klein Gordon equation", "Klein–Gordon equation");
+            correctionAdd("Klein-Gordon equation", "Klein–Gordon equation");
+
+            correctionAdd("Landau and Livshitz", "Landau and Lifshitz (text book)");
+            correctionAdd("Landau&Livshitz", "Landau and Lifshitz (text book)");
+            correctionAdd("Landau & Livshitz", "Landau and Lifshitz (text book)");
+
+            correctionAdd("SoCal", "Southern California");
+
+            correctionAdd("co-authorship", "coauthorship");
+
+            correctionAdd("instert", "insert");
+
+            correctionAdd("meta physical", "metaphysical");
+
+            correctionAdd("mis-detect", "misdetect");
+
+            correctionAdd("obderved", "observed");
+
+            correctionAdd("othogonal", "orthogonal");
+
+            correctionAdd("avast antivirus", "Avast Antivirus");
+            correctionAdd("Avast", "Avast Antivirus");
+            correctionAdd("avast", "Avast Antivirus");
+
+            correctionAdd("T state", "T&nbsp;state");
+            correctionAdd("T-state", "T&nbsp;state");
+            correctionAdd("t-state", "T&nbsp;state");
+
+            correctionAdd("multi position", "multiposition");
+            correctionAdd("multi-position", "multiposition");
+
+            correctionAdd("realestate", "real estate");
+
+            correctionAdd("theam", "team");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -43976,6 +44031,36 @@ namespace OverflowHelper.core
             URL_Add("reload", "https://en.wiktionary.org/wiki/reload#Verb");
 
             URL_Add("rigid", "https://en.wiktionary.org/wiki/rigid#Adjective");
+
+            URL_Add("Everett interpretation", "https://en.wikipedia.org/wiki/Many-worlds_interpretation");
+
+            URL_Add("Klein–Gordon equation", "https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation");
+
+            URL_Add("Landau and Lifshitz (text book)", "https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics");
+
+            URL_Add("Southern California", "https://en.wikipedia.org/wiki/Southern_California");
+
+            URL_Add("coauthorship", "https://en.wiktionary.org/wiki/coauthorship#Noun");
+
+            URL_Add("insert", "https://en.wiktionary.org/wiki/insert#Verb");
+
+            URL_Add("metaphysical", "https://en.wiktionary.org/wiki/metaphysical#Adjective");
+
+            URL_Add("misdetect", "https://en.wiktionary.org/wiki/misdetect#Verb");
+
+            URL_Add("observed", "https://en.wiktionary.org/wiki/observe#Verb");
+
+            URL_Add("orthogonal", "https://en.wiktionary.org/wiki/orthogonal#Adjective");
+
+            URL_Add("Avast Antivirus", "https://en.wikipedia.org/wiki/Avast_Antivirus");
+
+            URL_Add("T&nbsp;state", "http://z80.info/zip/z80cpu_um.pdf");
+
+            URL_Add("multiposition", "https://en.wiktionary.org/wiki/multiposition#Adjective");
+
+            URL_Add("real estate", "https://en.wiktionary.org/wiki/real_estate#Noun");
+
+            URL_Add("team", "https://en.wiktionary.org/wiki/team#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
