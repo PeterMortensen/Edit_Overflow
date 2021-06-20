@@ -6,7 +6,8 @@
  *       (mapping from incorrect words to correct words)                    *
  *                                                                          *
  *                                                                          *
- * Purpose: Regression testing for word list generation (mainly HTML).      *
+ * Purpose: Regression testing for word list output                         *
+ *          generation (mainly HTML).                                       *
  *                                                                          *
  *          For example, detect inadvertent changes to the HTML             *
  *          generation, including encoding changes (UTF-8, etc.)            *
