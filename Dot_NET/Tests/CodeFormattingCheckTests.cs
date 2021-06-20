@@ -40,9 +40,9 @@ namespace CodeFormattingCheckTests
 
         /****************************************************************************
          *                                                                          *
-         *   These may seem trivial (just checking what is essentially              *
+         *   These may seem trivial (just checking what are essentially             *
          *   constants), but we have used them during refactoring. Thus             *
-         *   mostly useful as regression tests.                                     *
+         *   they are mostly useful as regression tests.                            *
          *                                                                          *
          ****************************************************************************/
         [Test]
@@ -232,7 +232,9 @@ namespace CodeFormattingCheckTests
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    That is, too little space (as in none) around operators               *
+         *                                                                          *
          ****************************************************************************/
         [Test]
         public void tightOperators()
