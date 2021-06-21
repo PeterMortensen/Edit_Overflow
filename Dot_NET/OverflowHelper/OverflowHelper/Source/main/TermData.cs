@@ -8866,6 +8866,7 @@ namespace OverflowHelper.core
             correctionAdd("setup", "set up"); // As a verb
             correctionAdd("set-up", "set up");
             correctionAdd("Setup", "set up");
+            correctionAdd("Set-up", "set up");
 
             correctionAdd("runon", "run-on sentence"); // For expansion
             correctionAdd("run on", "run-on sentence"); // For expansion
@@ -10221,6 +10222,9 @@ namespace OverflowHelper.core
             correctionAdd("thaks", "thanks");
             correctionAdd("Tks", "thanks");
             correctionAdd("tks", "thanks");
+            correctionAdd("Thnaks", "thanks");
+            correctionAdd("thnaks", "thanks");
+            correctionAdd("tnks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -11853,6 +11857,8 @@ namespace OverflowHelper.core
             correctionAdd("appreiciated", "appreciated");
             correctionAdd("appreicated", "appreciated");
             correctionAdd("apprishiated", "appreciated");
+            correctionAdd("aperciated", "appreciated");
+            correctionAdd("apreciated", "appreciated");
 
             correctionAdd("LA", "logic analyser");
             correctionAdd("Logic Analyzer", "logic analyser");
@@ -15114,6 +15120,7 @@ namespace OverflowHelper.core
             correctionAdd("Ktrace", "ktrace");
 
             correctionAdd("proced", "proceed");
+            correctionAdd("procede", "proceed");
 
             correctionAdd("programatical", "programmatical");
 
@@ -28044,6 +28051,12 @@ namespace OverflowHelper.core
             correctionAdd("realestate", "real estate");
 
             correctionAdd("theam", "team");
+
+            correctionAdd("WGS84", "WGS 84");
+
+            correctionAdd("geo referencing", "georeferencing");
+
+            correctionAdd("Parsec", "parsec");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44061,6 +44074,12 @@ namespace OverflowHelper.core
             URL_Add("real estate", "https://en.wiktionary.org/wiki/real_estate#Noun");
 
             URL_Add("team", "https://en.wiktionary.org/wiki/team#Noun");
+
+            URL_Add("WGS 84", "https://en.wikipedia.org/wiki/World_Geodetic_System#1984_version");
+
+            URL_Add("georeferencing", "https://en.wiktionary.org/wiki/georeference#Verb");
+
+            URL_Add("parsec", "https://en.wikipedia.org/wiki/Parsec");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
