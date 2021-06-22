@@ -8240,6 +8240,7 @@ namespace OverflowHelper.core
             correctionAdd("begning", "beginning");
             correctionAdd("beginnig", "beginning");
             correctionAdd("beguining", "beginning");
+            correctionAdd("biginning", "beginning");
 
             correctionAdd("begginer", "beginner");
             correctionAdd("bigginer", "beginner");
@@ -11230,16 +11231,12 @@ namespace OverflowHelper.core
 
             correctionAdd("cyrillic", "Cyrillic");
 
-            correctionAdd("find-package", "Find-Package");
-
             correctionAdd("get-module", "Get-Module");
 
             correctionAdd("import-clixml", "Import-Clixml");
             correctionAdd("import-cliXml", "Import-Clixml");
 
             correctionAdd("import-module", "Import-Module");
-
-            correctionAdd("install-package", "Install-Package");
 
             correctionAdd("latin", "Latin");
 
@@ -12198,6 +12195,7 @@ namespace OverflowHelper.core
             correctionAdd("fianaly", "finally");
             correctionAdd("fianally", "finally");
             correctionAdd("Finnaly", "finally");
+            correctionAdd("Finaly", "finally");
 
             correctionAdd("Hydrogen", "hydrogen");
 
@@ -12387,6 +12385,7 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("psobject", "PSObject");
             correctionAdd("PsObject", "PSObject");
+            correctionAdd("PSOject", "PSObject");
 
             // Of PowerShell...
             correctionAdd("compare-object", "Compare-Object");
@@ -14464,10 +14463,16 @@ namespace OverflowHelper.core
             correctionAdd("avarage", "average");
             correctionAdd("avg", "average");
 
+            correctionAdd("find-package", "Find-Package");
+
+            correctionAdd("install-package", "Install-Package");
+
             correctionAdd("pacakge", "package");
             correctionAdd("Pacakge", "package");
             correctionAdd("packpage", "package");
             correctionAdd("packge", "package");
+            correctionAdd("Pakage", "package");
+            correctionAdd("pakage", "package");
 
             correctionAdd("Strace", "strace");
 
@@ -15133,6 +15138,7 @@ namespace OverflowHelper.core
             correctionAdd("most simple", "simplest");
             correctionAdd("simpliest", "simplest");
             correctionAdd("simples", "simplest");
+            correctionAdd("Simpliest", "simplest");
 
             correctionAdd("step by step", "step-by-step");
 
@@ -24657,6 +24663,7 @@ namespace OverflowHelper.core
             correctionAdd("suggets", "suggests");
 
             correctionAdd("unintenationally", "unintentionally");
+            correctionAdd("unintentionaly", "unintentionally");
 
             correctionAdd("WatchOS", "watchOS");
 
@@ -26063,6 +26070,7 @@ namespace OverflowHelper.core
             correctionAdd("egotitical", "egotistical");
 
             correctionAdd("Empty", "empty");
+            correctionAdd("emty", "empty");
 
             correctionAdd("guidanance", "guidance");
 
@@ -26076,6 +26084,7 @@ namespace OverflowHelper.core
             correctionAdd("non trivial", "nontrivial");
 
             correctionAdd("proceeded", "preceded");
+            correctionAdd("preceeded", "preceded");
 
             correctionAdd("str_len", "strlen");
 
@@ -26251,6 +26260,7 @@ namespace OverflowHelper.core
 
             correctionAdd("At the first sight", "at first sight");
             correctionAdd("At first sight", "at first sight");
+            correctionAdd("on first sight", "at first sight");
 
             correctionAdd("back yard", "backyard");
 
@@ -26472,6 +26482,7 @@ namespace OverflowHelper.core
             correctionAdd("be come", "become");
 
             correctionAdd("commandos", "commands");
+            correctionAdd("commads", "commands");
 
             correctionAdd("DF", "df");
 
@@ -28057,6 +28068,20 @@ namespace OverflowHelper.core
             correctionAdd("geo referencing", "georeferencing");
 
             correctionAdd("Parsec", "parsec");
+
+            correctionAdd("CompuServer", "CompuServe");
+
+            correctionAdd("f5", "F5");
+
+            correctionAdd("caculates", "calculates");
+
+            correctionAdd("movitate", "motivate");
+
+            correctionAdd("PBR", "physically based rendering");
+            correctionAdd("Physically Based Rendering", "physically based rendering");
+
+            correctionAdd("uninsall", "uninstall");
+            correctionAdd("Uninsall", "uninstall");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44080,6 +44105,18 @@ namespace OverflowHelper.core
             URL_Add("georeferencing", "https://en.wiktionary.org/wiki/georeference#Verb");
 
             URL_Add("parsec", "https://en.wikipedia.org/wiki/Parsec");
+
+            URL_Add("CompuServe", "https://en.wikipedia.org/wiki/CompuServe");
+
+            URL_Add("F5", "https://en.wikipedia.org/wiki/Function_key");
+
+            URL_Add("calculates", "https://en.wiktionary.org/wiki/calculate#Verb");
+
+            URL_Add("motivate", "https://en.wiktionary.org/wiki/motivate#Verb");
+
+            URL_Add("physically based rendering", "https://en.wikipedia.org/wiki/Physically_based_rendering");
+
+            URL_Add("uninstall", "https://en.wiktionary.org/wiki/uninstall#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
