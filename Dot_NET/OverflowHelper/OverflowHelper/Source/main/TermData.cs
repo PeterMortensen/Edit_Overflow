@@ -7061,6 +7061,8 @@ namespace OverflowHelper.core
             correctionAdd("Althought", "although");
             correctionAdd("althought", "although");
             correctionAdd("althougth", "although");
+            correctionAdd("Allthough", "although");
+            correctionAdd("allthough", "although");
 
             correctionAdd("Scriptaculous", "Script.aculo.us");
             correctionAdd("scriptaculous", "Script.aculo.us");
@@ -10481,6 +10483,8 @@ namespace OverflowHelper.core
             correctionAdd("explnation", "explanation");
             correctionAdd("explantion", "explanation");
             correctionAdd("expaination", "explanation");
+            correctionAdd("Explannation", "explanation");
+            correctionAdd("explannation", "explanation");
 
             correctionAdd("Instaltaion", "installation"); // Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
@@ -14008,6 +14012,8 @@ namespace OverflowHelper.core
             correctionAdd("key-press", "key press");
             correctionAdd("Key-Press", "key press");
 
+            correctionAdd("office space", "Office Space");
+
             correctionAdd("workspce", "workspace");
 
             correctionAdd("meat space", "meatspace");
@@ -14026,6 +14032,7 @@ namespace OverflowHelper.core
 
             correctionAdd("spase", "space");
             correctionAdd("scpace", "space");
+            correctionAdd("Space", "space");
 
             correctionAdd("Achiles Heel", "Achilles heel");
 
@@ -14210,6 +14217,7 @@ namespace OverflowHelper.core
             correctionAdd("semi colon", "semicolon");
             correctionAdd("semi-colon", "semicolon");
             correctionAdd("Semi-colon", "semicolon");
+            correctionAdd("Semicolon", "semicolon");
 
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
@@ -16158,8 +16166,6 @@ namespace OverflowHelper.core
             correctionAdd("Zuckerbook", "Mark Zuckerberg");
             correctionAdd("Zuk", "Mark Zuckerberg");
 
-            correctionAdd("office space", "Office Space");
-
             correctionAdd("Rubik's cube", "Rubik's Cube");
 
             correctionAdd("authorative", "authoritative");
@@ -16877,8 +16883,6 @@ namespace OverflowHelper.core
             correctionAdd("Magnesium", "magnesium");
 
             correctionAdd("Point of Sale", "point of sale");
-
-            correctionAdd("double A batteries", "AA batteries");
 
             correctionAdd("nickle", "nickel");
             correctionAdd("Nickle", "nickel");
@@ -27562,7 +27566,10 @@ namespace OverflowHelper.core
 
             correctionAdd("resizeable", "resizable");
 
+            correctionAdd("double A batteries", "AA batteries");
+
             correctionAdd("battries", "batteries");
+            correctionAdd("batterys", "batteries");
 
             correctionAdd("wholistic", "holistic");
 
@@ -28129,6 +28136,10 @@ namespace OverflowHelper.core
             correctionAdd("Try", "try");
 
             correctionAdd("Use", "use");
+
+            correctionAdd("delimite", "delimit");
+
+            correctionAdd("YTD", "year-to-date");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44200,6 +44211,10 @@ namespace OverflowHelper.core
             URL_Add("try", "https://en.wiktionary.org/wiki/try#Verb");
 
             URL_Add("use", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
+
+            URL_Add("year-to-date", "https://en.wiktionary.org/wiki/year-to-date#English");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
