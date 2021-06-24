@@ -3617,13 +3617,6 @@ namespace OverflowHelper.core
             correctionAdd("NODE.JS", "Node.js");
             correctionAdd("NODEJS", "Node.js");
 
-            correctionAdd("XHR", "XMLHttpRequest"); // Expansion.
-            correctionAdd("xhr", "XMLHttpRequest");
-            correctionAdd("XMLHTTPRequest", "XMLHttpRequest");
-            correctionAdd("xmlhttprequest", "XMLHttpRequest");
-            correctionAdd("xmlHttpRequest", "XMLHttpRequest");
-            correctionAdd("XMLHTTPRequests", "XMLHttpRequest"); // Not 100% correct - plural.
-
             correctionAdd("tho", "though");
             correctionAdd("thogh", "though");
             correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
@@ -11945,10 +11938,6 @@ namespace OverflowHelper.core
             correctionAdd("possibilies", "possibilities");
             correctionAdd("posibilies", "possibilities");
 
-            correctionAdd("pr", "pull request");
-            correctionAdd("PR", "pull request");
-            correctionAdd("Pull Request", "pull request");
-
             correctionAdd("recursivly", "recursively");
             correctionAdd("recursivelly", "recursively");
 
@@ -13384,8 +13373,20 @@ namespace OverflowHelper.core
 
             correctionAdd("openning", "opening");
 
+            correctionAdd("XHR", "XMLHttpRequest"); // Expansion.
+            correctionAdd("xhr", "XMLHttpRequest");
+            correctionAdd("XMLHTTPRequest", "XMLHttpRequest");
+            correctionAdd("xmlhttprequest", "XMLHttpRequest");
+            correctionAdd("xmlHttpRequest", "XMLHttpRequest");
+            correctionAdd("XMLHTTPRequests", "XMLHttpRequest"); // Not 100% correct - plural.
+
+            correctionAdd("pr", "pull request");
+            correctionAdd("PR", "pull request");
+            correctionAdd("Pull Request", "pull request");
+
             correctionAdd("requst", "request");
             correctionAdd("resquest", "request");
+            correctionAdd("Request", "request");
 
             correctionAdd("temorarily", "temporarily");
             correctionAdd("temporaryly", "temporarily");
@@ -14631,6 +14632,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wen", "when");
             correctionAdd("whe", "when");
+            correctionAdd("When", "when");
 
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
@@ -14802,6 +14804,7 @@ namespace OverflowHelper.core
             correctionAdd("espaced", "escape");
             correctionAdd("esacape", "escape");
             correctionAdd("escapce", "escape");
+            correctionAdd("Escape", "escape");
 
             correctionAdd("GLIBC", "glibc");
 
@@ -19254,6 +19257,7 @@ namespace OverflowHelper.core
             correctionAdd("facasious", "facetious");
             correctionAdd("facacious", "facetious");
             correctionAdd("fasacious", "facetious");
+            correctionAdd("facecious", "facetious");
 
             correctionAdd("falacious", "fallacious");
 
@@ -20324,6 +20328,7 @@ namespace OverflowHelper.core
             correctionAdd("Karate", "karate");
 
             correctionAdd("Pb", "lead");
+            correctionAdd("Lead", "lead");
 
             correctionAdd("Mercury", "mercury");
 
@@ -20714,6 +20719,7 @@ namespace OverflowHelper.core
             correctionAdd("Json.Net", "Json.NET");
             correctionAdd("json.net", "Json.NET");
             correctionAdd("newton.json", "Json.NET");
+            correctionAdd("Newtonsoft.Json", "Json.NET");
 
             correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
             correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
@@ -25874,6 +25880,7 @@ namespace OverflowHelper.core
             correctionAdd("alnaysis", "analysis");
             correctionAdd("analisis", "analysis");
             correctionAdd("anaylisis", "analysis");
+            correctionAdd("analsys", "analysis");
 
             correctionAdd("anyhoo", "anyhow");
             correctionAdd("Anyhoo", "anyhow");
@@ -26204,6 +26211,7 @@ namespace OverflowHelper.core
 
             correctionAdd("firtly", "firstly");
             correctionAdd("Firtly", "firstly");
+            correctionAdd("Firstly", "firstly");
 
             correctionAdd("Group Velocity", "group velocity");
 
@@ -28082,6 +28090,45 @@ namespace OverflowHelper.core
 
             correctionAdd("uninsall", "uninstall");
             correctionAdd("Uninsall", "uninstall");
+
+            correctionAdd("activity monitor", "Activity Monitor");
+
+            correctionAdd("google sheets", "Google Sheets");
+
+            correctionAdd("Pd", "Palladium");
+            correctionAdd("palladium", "Palladium");
+
+            correctionAdd("Above", "above");
+
+            correctionAdd("Call", "call");
+
+            correctionAdd("char coal", "charcoal");
+
+            correctionAdd("Commit", "commit");
+
+            correctionAdd("creme brulee", "crème brûlée");
+
+            correctionAdd("gigling", "giggling");
+
+            correctionAdd("on-boarding", "onboarding");
+
+            correctionAdd("p-n junction", "p-n&nbsp;junction");
+            correctionAdd("pn junction", "p-n&nbsp;junction");
+
+            correctionAdd("Palladised", "palladised");
+
+            correctionAdd("p-n diode", "p–n diode");
+            correctionAdd("PN diode", "p–n diode");
+
+            correctionAdd("reluctancy", "reluctance");
+
+            correctionAdd("striked", "struck");
+
+            correctionAdd("truck load", "truckload");
+
+            correctionAdd("Try", "try");
+
+            correctionAdd("Use", "use");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44117,6 +44164,42 @@ namespace OverflowHelper.core
             URL_Add("physically based rendering", "https://en.wikipedia.org/wiki/Physically_based_rendering");
 
             URL_Add("uninstall", "https://en.wiktionary.org/wiki/uninstall#Verb");
+
+            URL_Add("Activity Monitor", "https://en.wikipedia.org/wiki/List_of_macOS_components#Activity_Monitor");
+
+            URL_Add("Google Sheets", "https://en.wikipedia.org/wiki/Google_Sheets");
+
+            URL_Add("Palladium", "https://en.wikipedia.org/wiki/Palladium");
+
+            URL_Add("above", "https://en.wiktionary.org/wiki/above#Adverb");
+
+            URL_Add("call", "https://en.wiktionary.org/wiki/call#Verb");
+
+            URL_Add("charcoal", "https://en.wikipedia.org/wiki/Charcoal");
+
+            URL_Add("commit", "https://en.wiktionary.org/wiki/commit#Noun");
+
+            URL_Add("crème brûlée", "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e");
+
+            URL_Add("giggling", "https://en.wiktionary.org/wiki/giggle#Verb");
+
+            URL_Add("onboarding", "https://en.wiktionary.org/wiki/onboarding#Noun");
+
+            URL_Add("p-n&nbsp;junction", "https://en.wikipedia.org/wiki/P%E2%80%93n_junction");
+
+            URL_Add("palladised", "https://en.wikipedia.org/wiki/Palladium");
+
+            URL_Add("p–n diode", "https://en.wikipedia.org/wiki/P%E2%80%93n_diode");
+
+            URL_Add("reluctance", "https://en.wiktionary.org/wiki/reluctance#Noun");
+
+            URL_Add("struck", "https://en.wiktionary.org/wiki/strike#Verb");
+
+            URL_Add("truckload", "https://en.wiktionary.org/wiki/truckload#Noun");
+
+            URL_Add("try", "https://en.wiktionary.org/wiki/try#Verb");
+
+            URL_Add("use", "https://en.wiktionary.org/wiki/use#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
