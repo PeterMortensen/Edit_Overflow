@@ -1602,6 +1602,7 @@ namespace OverflowHelper.core
             correctionAdd("segv", "segmentation fault");
             correctionAdd("seg-fault", "segmentation fault");
             correctionAdd("Segmentation Fault", "segmentation fault");
+            correctionAdd("segmantation error", "segmentation fault");
 
             correctionAdd("json", "JSON");
             correctionAdd("Json", "JSON");
@@ -5800,6 +5801,7 @@ namespace OverflowHelper.core
             correctionAdd("RaspBerryPi", "Raspberry Pi");
             correctionAdd("Rapserry pi", "Raspberry Pi");
             correctionAdd("Raspi Pi", "Raspberry Pi");
+            correctionAdd("Raspberry-Pi", "Raspberry Pi");
 
             correctionAdd("gps", "GPS");
             correctionAdd("Gps", "GPS");
@@ -8876,6 +8878,7 @@ namespace OverflowHelper.core
             correctionAdd("DreamWeawer", "Dreamweaver");
             correctionAdd("dreamwaver", "Dreamweaver");
             correctionAdd("DreamWeaver", "Dreamweaver");
+            correctionAdd("Adobe Dreamweaver", "Dreamweaver");
 
             correctionAdd("css", "CSS");
             correctionAdd("Css", "CSS");
@@ -9009,15 +9012,6 @@ namespace OverflowHelper.core
             correctionAdd("choco", "Chocolatey");
             correctionAdd("Choco", "Chocolatey");
             correctionAdd("Chocolaty", "Chocolatey");
-
-            correctionAdd("SRP", "single responsibility principle");
-            correctionAdd("Single responsability principle", "single responsibility principle");
-            correctionAdd("single responsability principle", "single responsibility principle");
-            correctionAdd("Single Responsibility Principal", "single responsibility principle");
-            correctionAdd("Single Object Responsibility", "single responsibility principle");
-            correctionAdd("single responsibility", "single responsibility principle");
-            correctionAdd("Single Responsibility principle", "single responsibility principle");
-            correctionAdd("Single Responsibility Principle", "single responsibility principle");
 
             correctionAdd("pcb", "PCB");
 
@@ -9402,8 +9396,31 @@ namespace OverflowHelper.core
 
             correctionAdd("mongoose", "Mongoose");
 
+            correctionAdd("SRP", "single responsibility principle");
+            correctionAdd("Single responsability principle", "single responsibility principle");
+            correctionAdd("single responsability principle", "single responsibility principle");
+            correctionAdd("Single Responsibility Principal", "single responsibility principle");
+            correctionAdd("Single Object Responsibility", "single responsibility principle");
+            correctionAdd("single responsibility", "single responsibility principle");
+            correctionAdd("Single Responsibility principle", "single responsibility principle");
+            correctionAdd("Single Responsibility Principle", "single responsibility principle");
+
+            correctionAdd("pareto", "Pareto principle");
+            correctionAdd("Pareto's law", "Pareto principle");
+            correctionAdd("Pareto", "Pareto principle");
+            correctionAdd("pareto principle", "Pareto principle");
+            correctionAdd("Pareto Principle", "Pareto principle");
+
+            correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
+
+            correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
+
             correctionAdd("principal", "principle");
             correctionAdd("priciple", "principle");
+            correctionAdd("princpiple", "principle");
 
             correctionAdd("etl", "ETL");
 
@@ -12698,6 +12715,8 @@ namespace OverflowHelper.core
             correctionAdd("framerate", "frame rate");
 
             correctionAdd("independantly", "independently");
+            correctionAdd("indepentenly", "independently");
+            correctionAdd("independenly", "independently");
 
             correctionAdd("manuver", "maneuver");
 
@@ -15960,12 +15979,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Path", "PATH");
 
-            correctionAdd("pareto", "Pareto principle");
-            correctionAdd("Pareto's law", "Pareto principle");
-            correctionAdd("Pareto", "Pareto principle");
-            correctionAdd("pareto principle", "Pareto principle");
-            correctionAdd("Pareto Principle", "Pareto principle");
-
             correctionAdd("polymer", "Polymer");
 
             correctionAdd("reason", "Reason");
@@ -16072,8 +16085,6 @@ namespace OverflowHelper.core
             correctionAdd("globaly", "globally");
 
             correctionAdd("license", "licence");
-
-            correctionAdd("EULA", "end-user license agreement");
 
             correctionAdd("MIT license", "MIT License");
 
@@ -18035,11 +18046,6 @@ namespace OverflowHelper.core
 
             correctionAdd("EPIC", "Epic");
 
-            correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
-            correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
-            correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
-            correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
-
             correctionAdd("yoga", "Yoga");
 
             correctionAdd("AR", "augmented reality");
@@ -18784,9 +18790,6 @@ namespace OverflowHelper.core
             correctionAdd("constrains", "constraints");
 
             correctionAdd("first class citizen", "first-class citizen");
-
-            correctionAdd("nda", "non-disclosure agreement");
-            correctionAdd("NDA", "non-disclosure agreement");
 
             correctionAdd("Pseudo Random Number Generator", "pseudorandom number generator");
             correctionAdd("pseudo random number generation", "pseudorandom number generator");
@@ -24581,8 +24584,6 @@ namespace OverflowHelper.core
 
             correctionAdd("uesd", "used");
 
-            correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
-
             correctionAdd("arbitrory", "arbitrary");
             correctionAdd("arbitory", "arbitrary");
             correctionAdd("arbirary", "arbitrary");
@@ -26184,8 +26185,6 @@ namespace OverflowHelper.core
             correctionAdd("borne", "born");
 
             correctionAdd("destinguish", "distinguish");
-
-            correctionAdd("gentlemen's agreement", "gentleman's agreement");
 
             correctionAdd("Quasi", "quasi");
 
@@ -28140,6 +28139,24 @@ namespace OverflowHelper.core
             correctionAdd("delimite", "delimit");
 
             correctionAdd("YTD", "year-to-date");
+
+            correctionAdd("EULA", "end-user license agreement");
+
+            correctionAdd("nda", "non-disclosure agreement");
+            correctionAdd("NDA", "non-disclosure agreement");
+
+            correctionAdd("gentlemen's agreement", "gentleman's agreement");
+
+            correctionAdd("aggreement", "agreement");
+            correctionAdd("aggrement", "agreement");
+
+            correctionAdd("Continuous Variable Transmission", "continuous variable transmission");
+            correctionAdd("Continuous variable transmission", "continuous variable transmission");
+            correctionAdd("CVT", "continuous variable transmission");
+
+            correctionAdd("mey", "my");
+
+            correctionAdd("secretely", "secretly");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44215,6 +44232,14 @@ namespace OverflowHelper.core
             URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
 
             URL_Add("year-to-date", "https://en.wiktionary.org/wiki/year-to-date#English");
+
+            URL_Add("agreement", "https://en.wiktionary.org/wiki/agreement#Noun");
+
+            URL_Add("continuous variable transmission", "https://en.wikipedia.org/wiki/Continuously_variable_transmission");
+
+            URL_Add("my", "https://en.wiktionary.org/wiki/my#Determiner");
+
+            URL_Add("secretly", "https://en.wiktionary.org/wiki/secretly#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
