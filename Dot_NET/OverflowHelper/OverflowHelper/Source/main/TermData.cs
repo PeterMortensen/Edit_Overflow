@@ -6088,7 +6088,24 @@ namespace OverflowHelper.core
             correctionAdd("URL-Encoding", "URL encoding");
             correctionAdd("URL-encoding", "URL encoding");
 
+            correctionAdd("imperical", "empirical");
+
+            correctionAdd("imperically", "empirically");
+
+            correctionAdd("Biblical", "biblical");
+
+            correctionAdd("egotitical", "egotistical");
+
+            correctionAdd("sugrical", "surgical");
+
+            correctionAdd("paranthetical", "parenthetical");
+
+            correctionAdd("meta physical", "metaphysical");
+
             correctionAdd("ical", "iCal"); // iCal is now known as the (unfortunate generic term) "Calendar".
+            correctionAdd("ICal", "iCal");
+            correctionAdd("Ical", "iCal");
+            correctionAdd("Calendar", "iCal");
 
             correctionAdd("sparkfun", "SparkFun");
             correctionAdd("Sparkfun", "SparkFun");
@@ -11640,6 +11657,7 @@ namespace OverflowHelper.core
             correctionAdd("aproach", "approach");
             correctionAdd("aproch", "approach");
             correctionAdd("aprroach", "approach");
+            correctionAdd("appraoch", "approach");
 
             correctionAdd("clip-board", "clipboard");
             correctionAdd("CLIP-BOARD", "clipboard");
@@ -11765,8 +11783,6 @@ namespace OverflowHelper.core
             correctionAdd("Teamcity", "TeamCity");
             correctionAdd("teamcity", "TeamCity");
             correctionAdd("Team City", "TeamCity");
-
-            correctionAdd("write-error", "Write-Error");
 
             correctionAdd("dicovered", "discovered");
             correctionAdd("discoverd", "discovered");
@@ -14693,6 +14709,8 @@ namespace OverflowHelper.core
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
+            correctionAdd("Dowvoting", "downvoting");
+            correctionAdd("dowvoting", "downvoting");
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
@@ -16328,11 +16346,6 @@ namespace OverflowHelper.core
             correctionAdd("standard out", "standard output");
             correctionAdd("Standard output", "standard output");
             correctionAdd("Stdout", "standard output");
-
-            correctionAdd("StdErr", "standard error");
-            correctionAdd("stderr", "standard error");
-            correctionAdd("STDERR", "standard error");
-            correctionAdd("standard err", "standard error");
 
             correctionAdd("yeoman", "Yeoman");
 
@@ -25478,8 +25491,16 @@ namespace OverflowHelper.core
 
             correctionAdd("deliverys", "deliveries");
 
+            correctionAdd("write-error", "Write-Error");
+
+            correctionAdd("StdErr", "standard error");
+            correctionAdd("stderr", "standard error");
+            correctionAdd("STDERR", "standard error");
+            correctionAdd("standard err", "standard error");
+
             correctionAdd("erron", "error");
             correctionAdd("Error", "error");
+            correctionAdd("eror", "error");
 
             correctionAdd("re-boot", "reboot");
 
@@ -25741,10 +25762,6 @@ namespace OverflowHelper.core
             correctionAdd("cicle", "circle");
 
             correctionAdd("crasiness", "craziness");
-
-            correctionAdd("imperical", "empirical");
-
-            correctionAdd("imperically", "empirically");
 
             correctionAdd("fine tune", "fine-tune");
 
@@ -26039,8 +26056,6 @@ namespace OverflowHelper.core
 
             correctionAdd("backonym", "backronym");
 
-            correctionAdd("Biblical", "biblical");
-
             correctionAdd("cellulaure", "cellular");
 
             correctionAdd("leval", "level");
@@ -26078,8 +26093,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dangarous", "dangerous");
             correctionAdd("dengerous", "dangerous");
-
-            correctionAdd("egotitical", "egotistical");
 
             correctionAdd("Empty", "empty");
             correctionAdd("emty", "empty");
@@ -26347,8 +26360,6 @@ namespace OverflowHelper.core
             correctionAdd("super market", "supermarket");
             correctionAdd("Super Marker", "supermarket");
             correctionAdd("super marker", "supermarket");
-
-            correctionAdd("sugrical", "surgical");
 
             correctionAdd("volotile", "volatile");
             correctionAdd("volitile", "volatile");
@@ -26844,8 +26855,6 @@ namespace OverflowHelper.core
             correctionAdd("inststing", "insisting");
 
             correctionAdd("old-school", "old school");
-
-            correctionAdd("paranthetical", "parenthetical");
 
             correctionAdd("re-creating", "recreating");
 
@@ -28054,8 +28063,6 @@ namespace OverflowHelper.core
 
             correctionAdd("instert", "insert");
 
-            correctionAdd("meta physical", "metaphysical");
-
             correctionAdd("mis-detect", "misdetect");
 
             correctionAdd("obderved", "observed");
@@ -28157,6 +28164,10 @@ namespace OverflowHelper.core
             correctionAdd("mey", "my");
 
             correctionAdd("secretely", "secretly");
+
+            correctionAdd("tpm", "TPM");
+
+            correctionAdd("extent", "extend");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44240,6 +44251,10 @@ namespace OverflowHelper.core
             URL_Add("my", "https://en.wiktionary.org/wiki/my#Determiner");
 
             URL_Add("secretly", "https://en.wiktionary.org/wiki/secretly#Adverb");
+
+            URL_Add("TPM", "https://en.wikipedia.org/wiki/Trusted_Platform_Module");
+
+            URL_Add("extend", "https://en.wiktionary.org/wiki/extend#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
