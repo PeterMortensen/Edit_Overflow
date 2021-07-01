@@ -8647,6 +8647,8 @@ namespace OverflowHelper.core
             correctionAdd("tcp ip", "TCP/IP");
             correctionAdd("TCP IP", "TCP/IP");
             correctionAdd("tcpip", "TCP/IP");
+            correctionAdd("Tcp/Ip", "TCP/IP");
+            correctionAdd("Tcp/ip", "TCP/IP");
 
             correctionAdd("IOT", "IoT");
             correctionAdd("Internet of Things", "IoT"); // Contraction...
@@ -10779,6 +10781,7 @@ namespace OverflowHelper.core
             correctionAdd("fist", "first");
             correctionAdd("f1st", "first");
             correctionAdd("firs", "first");
+            correctionAdd("fisrt", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -13455,6 +13458,7 @@ namespace OverflowHelper.core
             correctionAdd("anomyous", "anonymous");
             correctionAdd("anynomous", "anonymous");
             correctionAdd("anononymous", "anonymous");
+            correctionAdd("anomymous", "anonymous");
 
             correctionAdd("aproved", "approved");
 
@@ -19632,6 +19636,8 @@ namespace OverflowHelper.core
             correctionAdd("measily", "measly");
 
             correctionAdd("naieve", "naive");
+            correctionAdd("nieve", "naive");
+            correctionAdd("naeve", "naive");
 
             correctionAdd("preservce", "preserve");
 
@@ -21023,6 +21029,7 @@ namespace OverflowHelper.core
             correctionAdd("differant", "different");
             correctionAdd("diffferent", "different");
             correctionAdd("differeny", "different");
+            correctionAdd("differents", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -28168,6 +28175,14 @@ namespace OverflowHelper.core
             correctionAdd("tpm", "TPM");
 
             correctionAdd("extent", "extend");
+
+            correctionAdd("crowfounding", "crowdfunding");
+            correctionAdd("crowfouding", "crowdfunding");
+
+            correctionAdd("gretaly", "greatly");
+
+            correctionAdd("luckely", "luckily");
+            correctionAdd("Luckely", "luckily");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44255,6 +44270,12 @@ namespace OverflowHelper.core
             URL_Add("TPM", "https://en.wikipedia.org/wiki/Trusted_Platform_Module");
 
             URL_Add("extend", "https://en.wiktionary.org/wiki/extend#Verb");
+
+            URL_Add("crowdfunding", "https://en.wiktionary.org/wiki/crowdfunding#Noun");
+
+            URL_Add("greatly", "https://en.wiktionary.org/wiki/greatly#Adverb");
+
+            URL_Add("luckily", "https://en.wiktionary.org/wiki/luckily#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
