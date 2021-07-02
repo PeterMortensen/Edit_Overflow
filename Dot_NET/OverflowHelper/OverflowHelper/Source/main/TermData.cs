@@ -11236,6 +11236,7 @@ namespace OverflowHelper.core
 
             correctionAdd("responsabilities", "responsibilities");
             correctionAdd("responsibilitites", "responsibilities");
+            correctionAdd("responsobilities", "responsibilities");
 
             correctionAdd("responsability", "responsibility");
             correctionAdd("responsbility", "responsibility");
@@ -11875,6 +11876,7 @@ namespace OverflowHelper.core
             correctionAdd("mispell", "misspell");
 
             correctionAdd("uA", "µA");
+            correctionAdd("microampere", "µA");
 
             correctionAdd("Windows 2016", "Windows Server 2016");
             correctionAdd("windows 2016", "Windows Server 2016");
@@ -15112,6 +15114,7 @@ namespace OverflowHelper.core
             correctionAdd("French fries", "french fries");
 
             correctionAdd("iterference", "interference");
+            correctionAdd("interferance", "interference");
 
             correctionAdd("no harm no foul", "no harm, no foul");
 
@@ -15543,6 +15546,7 @@ namespace OverflowHelper.core
             correctionAdd("speicfic", "specific");
             correctionAdd("specfic", "specific");
             correctionAdd("spacific", "specific");
+            correctionAdd("specifique", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -15960,6 +15964,7 @@ namespace OverflowHelper.core
             correctionAdd("wiht", "with");
             correctionAdd("w/", "with");
             correctionAdd("wirh", "with");
+            correctionAdd("wiuth", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -16146,6 +16151,7 @@ namespace OverflowHelper.core
             correctionAdd("uisng", "using");
             correctionAdd("usin", "using");
             correctionAdd("usign", "using");
+            correctionAdd("uing", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -19718,6 +19724,7 @@ namespace OverflowHelper.core
             correctionAdd("thw", "the");
             correctionAdd("Thi", "the");
             correctionAdd("thi", "the");
+            correctionAdd("hte", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -20852,6 +20859,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thinkk", "think");
             correctionAdd("thunk", "think");
+            correctionAdd("thibk", "think");
 
             correctionAdd("througput", "throughput");
 
@@ -23796,6 +23804,8 @@ namespace OverflowHelper.core
             correctionAdd("Big sur", "macOS v11 (Big Sur)");
             correctionAdd("MacOS 11", "macOS v11 (Big Sur)");
             correctionAdd("macOS Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS BIG SUR", "macOS v11 (Big Sur)");
+            correctionAdd("BIG SUR", "macOS v11 (Big Sur)");
 
             correctionAdd("single core", "single-core");
 
@@ -26231,6 +26241,7 @@ namespace OverflowHelper.core
             correctionAdd("daisy-chain", "daisy chain");
 
             correctionAdd("durign", "during");
+            correctionAdd("druing", "during");
 
             correctionAdd("firtly", "firstly");
             correctionAdd("Firtly", "firstly");
@@ -28183,6 +28194,10 @@ namespace OverflowHelper.core
 
             correctionAdd("luckely", "luckily");
             correctionAdd("Luckely", "luckily");
+
+            correctionAdd("voronoi texture", "Voronoi texture");
+
+            correctionAdd("proffesionality", "professionality");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44276,6 +44291,10 @@ namespace OverflowHelper.core
             URL_Add("greatly", "https://en.wiktionary.org/wiki/greatly#Adverb");
 
             URL_Add("luckily", "https://en.wiktionary.org/wiki/luckily#Adverb");
+
+            URL_Add("Voronoi texture", "https://en.wikipedia.org/wiki/Georgy_Voronoy#Works");
+
+            URL_Add("professionality", "https://en.wiktionary.org/wiki/professionality#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
