@@ -5114,8 +5114,6 @@ namespace OverflowHelper.core
             correctionAdd("exchange 2003 server", "Exchange Server 2003");
             correctionAdd("exchange server 2003", "Exchange Server 2003");
 
-            correctionAdd("google calendar", "Google Calendar");
-
             correctionAdd("taskmgr", "Task Manager");
             correctionAdd("task manager", "Task Manager");
             correctionAdd("taskmanager", "Task Manager");
@@ -5201,12 +5199,6 @@ namespace OverflowHelper.core
             correctionAdd("DALVIK", "Dalvik");
             correctionAdd("Dalivk", "Dalvik"); // Misspelling.
             correctionAdd("Davlik", "Dalvik");
-
-            correctionAdd("Tracert", "tracert");
-            correctionAdd("traceroute", "tracert");
-
-            correctionAdd("dtrace", "DTrace");
-            correctionAdd("Dtrace", "DTrace");
 
             correctionAdd("watin", "WatiN");
             correctionAdd("Watin", "WatiN");
@@ -6102,10 +6094,12 @@ namespace OverflowHelper.core
 
             correctionAdd("meta physical", "metaphysical");
 
-            correctionAdd("ical", "iCal"); // iCal is now known as the (unfortunate generic term) "Calendar".
-            correctionAdd("ICal", "iCal");
-            correctionAdd("Ical", "iCal");
-            correctionAdd("Calendar", "iCal");
+            correctionAdd("google calendar", "Google Calendar");
+
+            correctionAdd("ical", "Calendar"); // iCal is now known as the (unfortunate generic term) "Calendar".
+            correctionAdd("ICal", "Calendar");
+            correctionAdd("Ical", "Calendar");
+            correctionAdd("iCal", "Calendar");
 
             correctionAdd("sparkfun", "SparkFun");
             correctionAdd("Sparkfun", "SparkFun");
@@ -14575,8 +14569,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FDISK", "fdisk");
 
-            correctionAdd("IFCONFIG", "ifconfig");
-
             correctionAdd("IOW", "in other words");
             correctionAdd("With other words", "in other words");
             correctionAdd("with other words", "in other words");
@@ -16111,7 +16103,7 @@ namespace OverflowHelper.core
 
             correctionAdd("globaly", "globally");
 
-            correctionAdd("license", "licence");
+            correctionAdd("licence", "license");
 
             correctionAdd("MIT license", "MIT License");
 
@@ -19323,9 +19315,10 @@ namespace OverflowHelper.core
             correctionAdd("coreutils", "GNU Core Utilities");
             correctionAdd("GNU utils", "GNU Core Utilities");
 
-            correctionAdd("mathoverflow", "MathOverflow");
-            correctionAdd("MathOverlow", "MathOverflow");
-            correctionAdd("MO", "MathOverflow");
+            correctionAdd("mathoverflow", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MathOverlow", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MO", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MathOverflow", "MathOverflow (Stack Exchange site)");
 
             correctionAdd("shopify", "Shopify");
 
@@ -22694,8 +22687,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cliche", "cliché");
 
-            correctionAdd("dwarves", "dwarfes");
-
             correctionAdd("lo", "lo and behold");
 
             correctionAdd("modren", "modern");
@@ -22922,32 +22913,34 @@ namespace OverflowHelper.core
 
             correctionAdd("julia", "Julia");
 
-            correctionAdd("Kirchoff's Law", "Kirchhoff's law");
-            correctionAdd("Kirkoff", "Kirchhoff's law");
-            correctionAdd("Kirkoff Law", "Kirchhoff's law");
-            correctionAdd("Kirchoff's law", "Kirchhoff's law");
-            correctionAdd("Kirchoff's", "Kirchhoff's law");
-            correctionAdd("Kirchoff", "Kirchhoff's law");
-            correctionAdd("kirchoff", "Kirchhoff's law");
-            correctionAdd("kirchhoff", "Kirchhoff's law");
-            correctionAdd("Kirkhoff", "Kirchhoff's law");
-            correctionAdd("kirkhoff", "Kirchhoff's law");
-            correctionAdd("kirkhhoff", "Kirchhoff's law");
-            correctionAdd("kirchof", "Kirchhoff's law");
-            correctionAdd("Kirchoffs", "Kirchhoff's law");
-            correctionAdd("kirchoffs", "Kirchhoff's law");
-            correctionAdd("Kirkoff's", "Kirchhoff's law");
-            correctionAdd("kirkoff's", "Kirchhoff's law");
-            correctionAdd("kirkoff", "Kirchhoff's law");
-            correctionAdd("Kirkoffs", "Kirchhoff's law");
-            correctionAdd("kirkoffs", "Kirchhoff's law");
-            correctionAdd("Kirchhoff's", "Kirchhoff's law");
-            correctionAdd("Kirchhoffs", "Kirchhoff's law");
-            correctionAdd("kirchhoffs", "Kirchhoff's law");
-            correctionAdd("kirchhoff's", "Kirchhoff's law");
-            correctionAdd("Kirchhoff Circuit Laws", "Kirchhoff's law");
-            correctionAdd("Kirchhoff circuit laws", "Kirchhoff's law");
-            correctionAdd("Kirchhoff's laws", "Kirchhoff's law");
+            correctionAdd("Kirchhoff's law", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchoff's Law", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirkoff", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirkoff Law", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchoff's law", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchoff's", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchoff", "Kirchhoff Circuit Laws");
+            correctionAdd("kirchoff", "Kirchhoff Circuit Laws");
+            correctionAdd("kirchhoff", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirkhoff", "Kirchhoff Circuit Laws");
+            correctionAdd("kirkhoff", "Kirchhoff Circuit Laws");
+            correctionAdd("kirkhhoff", "Kirchhoff Circuit Laws");
+            correctionAdd("kirchof", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchoffs", "Kirchhoff Circuit Laws");
+            correctionAdd("kirchoffs", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirkoff's", "Kirchhoff Circuit Laws");
+            correctionAdd("kirkoff's", "Kirchhoff Circuit Laws");
+            correctionAdd("kirkoff", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirkoffs", "Kirchhoff Circuit Laws");
+            correctionAdd("kirkoffs", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchhoff's", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchhoffs", "Kirchhoff Circuit Laws");
+            correctionAdd("kirchhoffs", "Kirchhoff Circuit Laws");
+            correctionAdd("kirchhoff's", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchhoff circuit laws", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchhoff's laws", "Kirchhoff Circuit Laws");
+            correctionAdd("KCL", "Kirchhoff Circuit Laws");
+            correctionAdd("kcl", "Kirchhoff Circuit Laws");
 
             correctionAdd("sanskrit", "Sanskrit");
             correctionAdd("sanskritt", "Sanskrit");
@@ -27874,8 +27867,6 @@ namespace OverflowHelper.core
 
             correctionAdd("legaly", "legally");
 
-            correctionAdd("RNA vaccine", "mRNA vaccine");
-
             correctionAdd("nonstarter", "non-starter");
             correctionAdd("non starter", "non-starter");
 
@@ -28198,6 +28189,24 @@ namespace OverflowHelper.core
             correctionAdd("voronoi texture", "Voronoi texture");
 
             correctionAdd("proffesionality", "professionality");
+
+            correctionAdd("dtrace", "DTrace");
+            correctionAdd("Dtrace", "DTrace");
+
+            correctionAdd("Tracert", "mtr"); // On Windows. Not incorrect, just the replacement on Linux...
+            correctionAdd("tracert", "mtr"); // On Windows. Not incorrect, just the replacement on Linux...
+            correctionAdd("traceroute", "mtr"); // On Linux. Not incorrect, just the replacement on Linux...
+            correctionAdd("MTR", "mtr");
+
+            correctionAdd("IPCONFIG", "ip addr");
+            correctionAdd("ipconfig", "ip addr"); // On Windows. Not incorrect, just the replacement on Linux...
+            correctionAdd("IFCONFIG", "ip addr");
+            correctionAdd("ifconfig", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
+            correctionAdd("ip a", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
+
+            correctionAdd("dwarves", "dwarfs");
+            correctionAdd("dwarfes", "dwarfs"); // Is OK for mythological beings
+            correctionAdd("dwarvs", "dwarfs");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -28606,10 +28615,6 @@ namespace OverflowHelper.core
 
             correctionAdd("t cell", "T cell"); // Coronavirus
 
-            correctionAdd("rmna", "mRNA"); // Coronavirus
-            correctionAdd("mrna", "mRNA"); // Coronavirus
-            correctionAdd("MRNA", "mRNA"); // Coronavirus
-
             correctionAdd("biontech", "BioNTech"); // Coronavirus
             correctionAdd("BioNtech", "BioNTech"); // Coronavirus
 
@@ -28617,17 +28622,6 @@ namespace OverflowHelper.core
             correctionAdd("ade", "Antibody-dependent enhancement"); // Coronavirus
 
             correctionAdd("Yellow Fever", "yellow fever"); // Coronavirus
-
-            correctionAdd("Moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("Moderna Vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("Moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("Moderna shot", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("Moderna jab", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("moderma", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("Maderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
-            correctionAdd("mondera", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
             correctionAdd("ZOE", "ZOE app"); // Coronavirus
@@ -28700,6 +28694,23 @@ namespace OverflowHelper.core
 
             correctionAdd("anti-vaxxers", "anti-vaccine groups");
             correctionAdd("anti-vaccinationists", "anti-vaccine groups");
+
+            correctionAdd("rmna", "mRNA"); // Coronavirus
+            correctionAdd("mrna", "mRNA"); // Coronavirus
+            correctionAdd("MRNA", "mRNA"); // Coronavirus
+
+            correctionAdd("Moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna Vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna shot", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("moderna vaccine", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna jab", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("moderma", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Maderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("mondera", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+
+            correctionAdd("RNA vaccine", "mRNA vaccine"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -30175,7 +30186,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dalvik", "https://en.wikipedia.org/wiki/Dalvik_%28software%29");
 
-            URL_Add("tracert", "https://en.wikipedia.org/wiki/Traceroute");
+            URL_Add("mtr", "https://en.wikipedia.org/wiki/MTR_(software)"); // Old: https://en.wikipedia.org/wiki/Traceroute
 
             URL_Add("DTrace", "https://en.wikipedia.org/wiki/DTrace");
 
@@ -30567,7 +30578,7 @@ namespace OverflowHelper.core
 
             URL_Add("Play Framework", "https://en.wikipedia.org/wiki/Play_Framework");
 
-            URL_Add("iCal", "https://en.wikipedia.org/wiki/Calendar_%28application%29");
+            URL_Add("Calendar", "https://en.wikipedia.org/wiki/Calendar_(Apple)"); // Old: https://en.wikipedia.org/wiki/Calendar_%28application%29
 
             URL_Add("SparkFun", "https://en.wikipedia.org/wiki/SparkFun_Electronics");
 
@@ -30947,7 +30958,7 @@ namespace OverflowHelper.core
 
             URL_Add("BeagleBone Black", "https://en.wikipedia.org/wiki/BeagleBoard#BeagleBone_Black");
 
-            URL_Add("ambiguity", "https://en.wiktionary.org/wiki/ambiguity");
+            URL_Add("ambiguity", "https://en.wiktionary.org/wiki/ambiguity#Noun"); // Old: https://en.wiktionary.org/wiki/ambiguity
 
             URL_Add("dependency", "https://en.wiktionary.org/wiki/dependancy");
 
@@ -32131,7 +32142,7 @@ namespace OverflowHelper.core
 
             URL_Add("introduction", "https://en.wiktionary.org/wiki/introduction#Noun");
 
-            URL_Add("whose", "https://en.wiktionary.org/wiki/who%27s#Contraction");
+            URL_Add("whose", "https://en.wiktionary.org/wiki/whose#Determiner"); // Old: https://en.wiktionary.org/wiki/who%27s#Contraction
 
             URL_Add("libraries", "https://en.wiktionary.org/wiki/libraries#Noun");
 
@@ -32883,7 +32894,7 @@ namespace OverflowHelper.core
 
             URL_Add("misspell", "https://en.wiktionary.org/wiki/misspell#Verb");
 
-            URL_Add("µA", "https://en.wikipedia.org/wiki/Ampere#Portable_devices");
+            URL_Add("µA", "https://en.wiktionary.org/wiki/microampere#Noun"); // Old: https://en.wikipedia.org/wiki/Ampere#Portable_devices
 
             URL_Add("Windows Server 2016", "https://en.wikipedia.org/wiki/Windows_Server_2016");
 
@@ -34554,8 +34565,6 @@ namespace OverflowHelper.core
 
             URL_Add("fdisk", "https://en.wikipedia.org/wiki/Fdisk");
 
-            URL_Add("ifconfig", "https://en.wikipedia.org/wiki/Ifconfig");
-
             URL_Add("in other words", "https://en.wiktionary.org/wiki/IOW#Adverb");
 
             URL_Add("iproute2", "https://en.wikipedia.org/wiki/Iproute2");
@@ -35628,7 +35637,7 @@ namespace OverflowHelper.core
 
             URL_Add("globally", "https://en.wiktionary.org/wiki/globally#Adverb");
 
-            URL_Add("licence", "https://en.wiktionary.org/wiki/license#Noun");
+            URL_Add("license", "https://en.wiktionary.org/wiki/license#Noun");
 
             URL_Add("mumbo jumbo", "https://en.wiktionary.org/wiki/mumbo_jumbo#Noun");
 
@@ -37704,7 +37713,7 @@ namespace OverflowHelper.core
 
             URL_Add("GNU Core Utilities", "https://en.wikipedia.org/wiki/GNU_Core_Utilities");
 
-            URL_Add("MathOverflow", "https://mathoverflow.net/tour");
+            URL_Add("MathOverflow (Stack Exchange site)", "https://mathoverflow.net/tour");
 
             URL_Add("Shopify", "https://en.wikipedia.org/wiki/Shopify");
 
@@ -39784,7 +39793,7 @@ namespace OverflowHelper.core
 
             URL_Add("cliché", "https://en.wiktionary.org/wiki/clich%C3%A9#Noun");
 
-            URL_Add("dwarfes", "https://en.wiktionary.org/wiki/as#Conjunction");
+            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
 
             URL_Add("lo and behold", "https://en.wiktionary.org/wiki/lo_and_behold#Interjection");
 
@@ -39970,7 +39979,7 @@ namespace OverflowHelper.core
 
             URL_Add("Julia", "https://en.wikipedia.org/wiki/Julia_%28programming_language%29");
 
-            URL_Add("Kirchhoff's law", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws");
+            URL_Add("Kirchhoff Circuit Laws", "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws");
 
             URL_Add("Sanskrit", "https://en.wikipedia.org/wiki/Sanskrit");
 
@@ -40074,7 +40083,7 @@ namespace OverflowHelper.core
 
             URL_Add("three-dimensional", "https://en.wiktionary.org/wiki/three-dimensional#Adjective");
 
-            URL_Add("&nbsp;TB", "https://en.wikipedia.org/wiki/Terabyte");
+            URL_Add("&nbsp;TB", "https://en.wikipedia.org/wiki/Byte#Multiple-byte_units"); // Old: https://en.wikipedia.org/wiki/Terabyte
 
             URL_Add("Windows Server", "https://en.wikipedia.org/wiki/Windows_Server");
 
@@ -44295,6 +44304,8 @@ namespace OverflowHelper.core
             URL_Add("Voronoi texture", "https://en.wikipedia.org/wiki/Georgy_Voronoy#Works");
 
             URL_Add("professionality", "https://en.wiktionary.org/wiki/professionality#Noun");
+
+            URL_Add("ip addr", "https://en.wikipedia.org/wiki/Iproute2");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
