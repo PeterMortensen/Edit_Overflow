@@ -654,6 +654,7 @@ namespace OverflowHelper.core
             correctionAdd("PgSQL", "PostgreSQL");
             correctionAdd("PL/pgSQL", "PostgreSQL");
             correctionAdd("PostGresql", "PostgreSQL");
+            correctionAdd("PGSQL", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -12701,6 +12702,7 @@ namespace OverflowHelper.core
             correctionAdd("allegded", "alleged");
 
             correctionAdd("alllow", "allow");
+            correctionAdd("alow", "allow");
 
             correctionAdd("almos", "almost");
             correctionAdd("alomst", "almost");
@@ -19116,6 +19118,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Voltage", "voltage");
             correctionAdd("coltage", "voltage");
+            correctionAdd("voltange", "voltage");
 
             correctionAdd("wuman", "woman");
 
@@ -19504,6 +19507,7 @@ namespace OverflowHelper.core
             correctionAdd("brake point", "breakpoint");
             correctionAdd("break point", "breakpoint");
             correctionAdd("break-point", "breakpoint");
+            correctionAdd("breapoint", "breakpoint");
 
             correctionAdd("datapoint", "data point");
             correctionAdd("data-point", "data point");
@@ -21533,6 +21537,7 @@ namespace OverflowHelper.core
             correctionAdd("targeet", "target");
 
             correctionAdd("paired programming", "pair programming");
+            correctionAdd("peer programming", "pair programming");
 
             correctionAdd("recognizing", "recognising");
             correctionAdd("recogonizing", "recognising");
@@ -26244,6 +26249,8 @@ namespace OverflowHelper.core
 
             correctionAdd("lrr", "lather, rinse, repeat");
             correctionAdd("LRR", "lather, rinse, repeat");
+            correctionAdd("Wash, rinse, repeat", "lather, rinse, repeat");
+            correctionAdd("wash, rinse, repeat", "lather, rinse, repeat");
 
             correctionAdd("Mechatronics", "mechatronics");
 
@@ -28207,6 +28214,14 @@ namespace OverflowHelper.core
             correctionAdd("dwarves", "dwarfs");
             correctionAdd("dwarfes", "dwarfs"); // Is OK for mythological beings
             correctionAdd("dwarvs", "dwarfs");
+
+            correctionAdd("halloween", "Halloween");
+
+            correctionAdd("over complicated", "overcomplicated");
+
+            correctionAdd("Performance Improvement Plan", "performance improvement plan");
+
+            correctionAdd("pikc", "pick");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44306,6 +44321,14 @@ namespace OverflowHelper.core
             URL_Add("professionality", "https://en.wiktionary.org/wiki/professionality#Noun");
 
             URL_Add("ip addr", "https://en.wikipedia.org/wiki/Iproute2");
+
+            URL_Add("Halloween", "https://en.wikipedia.org/wiki/Halloween");
+
+            URL_Add("overcomplicated", "https://en.wiktionary.org/wiki/overcomplicated#Adjective");
+
+            URL_Add("performance improvement plan", "https://en.wiktionary.org/wiki/PIP#Noun");
+
+            URL_Add("pick", "https://en.wiktionary.org/wiki/pick#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
