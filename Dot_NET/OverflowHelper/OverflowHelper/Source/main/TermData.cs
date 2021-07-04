@@ -11700,6 +11700,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ltspice", "LTspice");
             correctionAdd("LTSpice", "LTspice");
+            correctionAdd("LTSPICE", "LTspice");
 
             correctionAdd("Nato", "NATO");
             correctionAdd("nato", "NATO");
@@ -21018,6 +21019,7 @@ namespace OverflowHelper.core
             correctionAdd("yuu", "you");
             correctionAdd("upi", "you"); // A true typo (of all three letters)!!!
             correctionAdd("You", "you");
+            correctionAdd("tou", "you");
 
             correctionAdd("Zinc", "zinc");
 
@@ -22741,6 +22743,7 @@ namespace OverflowHelper.core
             correctionAdd("Procedural Programming", "procedural programming");
 
             correctionAdd("stabilty", "stability");
+            correctionAdd("staibility", "stability");
 
             correctionAdd("zelotry", "zealotry");
 
@@ -28222,6 +28225,30 @@ namespace OverflowHelper.core
             correctionAdd("Performance Improvement Plan", "performance improvement plan");
 
             correctionAdd("pikc", "pick");
+
+            correctionAdd("filemerge", "FileMerge");
+
+            correctionAdd("kompare", "Kompare");
+
+            correctionAdd("meld", "Meld");
+
+            correctionAdd("xemacs", "XEmacs");
+
+            correctionAdd("branchs", "branches");
+
+            correctionAdd("ddl", "DDL");
+
+            correctionAdd("dml", "DML");
+
+            correctionAdd("diffuse", "Diffuse");
+
+            correctionAdd("hspice", "HSPICE");
+
+            correctionAdd("sklearn", "scikit-learn");
+
+            correctionAdd("micrometer", "μm");
+            correctionAdd("um", "μm");
+            correctionAdd("micrometre", "μm");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44329,6 +44356,28 @@ namespace OverflowHelper.core
             URL_Add("performance improvement plan", "https://en.wiktionary.org/wiki/PIP#Noun");
 
             URL_Add("pick", "https://en.wiktionary.org/wiki/pick#Verb");
+
+            URL_Add("FileMerge", "https://en.wikipedia.org/wiki/Apple_Developer_Tools#FileMerge");
+
+            URL_Add("Kompare", "https://en.wikipedia.org/wiki/Kompare");
+
+            URL_Add("Meld", "http://meldmerge.org/");
+
+            URL_Add("XEmacs", "https://en.wikipedia.org/wiki/XEmacs");
+
+            URL_Add("branches", "https://en.wiktionary.org/wiki/branch#Noun");
+
+            URL_Add("DDL", "https://en.wikipedia.org/wiki/Data_definition_language");
+
+            URL_Add("DML", "https://en.wikipedia.org/wiki/Data_manipulation_language");
+
+            URL_Add("Diffuse", "http://diffuse.sourceforge.net/index.html");
+
+            URL_Add("HSPICE", "https://en.wikipedia.org/wiki/SPICE#Commercial_versions_and_spinoffs");
+
+            URL_Add("scikit-learn", "https://en.wikipedia.org/wiki/Scikit-learn");
+
+            URL_Add("μm", "https://en.wikipedia.org/wiki/Micrometre");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
