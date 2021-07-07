@@ -4478,6 +4478,7 @@ namespace OverflowHelper.core
             correctionAdd("Yout", "your");
             correctionAdd("you'r", "your");
             correctionAdd("You'r", "your");
+            correctionAdd("Your", "your");
 
             correctionAdd("havent", "haven't");
             correctionAdd("havn't", "haven't");
@@ -8973,6 +8974,7 @@ namespace OverflowHelper.core
 
             correctionAdd("usefull", "useful");
             correctionAdd("use full", "useful");
+            correctionAdd("usedful", "useful");
 
             correctionAdd("Memoization", "memoization");
 
@@ -9382,6 +9384,7 @@ namespace OverflowHelper.core
             correctionAdd("isn´t", "isn't");
             correctionAdd("ain´t", "isn't");
             correctionAdd("inst", "isn't");
+            correctionAdd("isnt't", "isn't");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -11462,6 +11465,9 @@ namespace OverflowHelper.core
             correctionAdd("compliler", "compiler");
 
             correctionAdd("compter", "computer");
+            correctionAdd("comp", "computer");
+
+            correctionAdd("SBC", "single-board computer");
 
             correctionAdd("eigth", "eight");
 
@@ -19121,6 +19127,9 @@ namespace OverflowHelper.core
             correctionAdd("funccionallity", "functionality");
             correctionAdd("funcionallity", "functionality");
             correctionAdd("functionallity", "functionality");
+            correctionAdd("functionalitly", "functionality");
+            correctionAdd("functionalilty", "functionality");
+            correctionAdd("functionalility", "functionality");
 
             correctionAdd("long standing", "long-standing");
 
@@ -20496,8 +20505,6 @@ namespace OverflowHelper.core
             correctionAdd("mught", "might");
             correctionAdd("migh", "might");
 
-            correctionAdd("SBC", "single-board computer");
-
             correctionAdd("sub set", "subset");
 
             correctionAdd("succint", "succinct");
@@ -20623,6 +20630,8 @@ namespace OverflowHelper.core
 
             correctionAdd("reinvent the wheels", "reinvent the wheel");
             correctionAdd("reinvent the tire", "reinvent the wheel");
+            correctionAdd("recreate wheel", "reinvent the wheel");
+            correctionAdd("recreate the wheel", "reinvent the wheel");
 
             // Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
             //
@@ -23542,6 +23551,7 @@ namespace OverflowHelper.core
 
             correctionAdd("easili", "easily");
             correctionAdd("easilly", "easily");
+            correctionAdd("easyly", "easily");
 
             correctionAdd("kicks is", "kicks in");
 
@@ -26606,6 +26616,7 @@ namespace OverflowHelper.core
             correctionAdd("ATmega 32U4", "ATmega32U4");
 
             correctionAdd("p5", "p5.js");
+            correctionAdd("P5js", "p5.js");
 
             correctionAdd("Atmega16U2", "ATmega16U2");
             correctionAdd("ATMEGA16U2", "ATmega16U2");
@@ -28289,6 +28300,29 @@ namespace OverflowHelper.core
 
             correctionAdd("worth a grain of salt", "with a grain of salt");
             correctionAdd("a grain of salt", "with a grain of salt");
+
+            correctionAdd("giteye", "GitEye");
+
+            correctionAdd("Livescript", "LiveScript");
+
+            correctionAdd("smartgit", "SmartGit");
+
+            correctionAdd("angel", "angle");
+            correctionAdd("Angel", "angle");
+
+            correctionAdd("fulfillment", "fulfilment");
+
+            correctionAdd("impacter", "impactor");
+
+            correctionAdd("implementor", "implementer");
+
+            correctionAdd("perpare", "prepare");
+
+            correctionAdd("syntacticaly", "syntactically");
+
+            correctionAdd("trackdown", "track down");
+
+            correctionAdd("Wannabe", "wannabe");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44438,6 +44472,28 @@ namespace OverflowHelper.core
             URL_Add("uniq", "https://en.wikipedia.org/wiki/Uniq");
 
             URL_Add("with a grain of salt", "https://en.wiktionary.org/wiki/with_a_grain_of_salt#Adverb");
+
+            URL_Add("GitEye", "https://www.collab.net/downloads/giteye");
+
+            URL_Add("LiveScript", "https://en.wikipedia.org/wiki/LiveScript");
+
+            URL_Add("SmartGit", "https://www.syntevo.com/smartgit/");
+
+            URL_Add("angle", "https://en.wiktionary.org/wiki/angle#Noun");
+
+            URL_Add("fulfilment", "https://en.wiktionary.org/wiki/fulfilment#Noun");
+
+            URL_Add("impactor", "https://en.wiktionary.org/wiki/impactor#Noun");
+
+            URL_Add("implementer", "https://en.wiktionary.org/wiki/implementer#Noun");
+
+            URL_Add("prepare", "https://en.wiktionary.org/wiki/prepare#Verb");
+
+            URL_Add("syntactically", "https://en.wiktionary.org/wiki/syntactically#Adverb");
+
+            URL_Add("track down", "https://en.wiktionary.org/wiki/track_down#Verb");
+
+            URL_Add("wannabe", "https://en.wiktionary.org/wiki/wannabe#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
