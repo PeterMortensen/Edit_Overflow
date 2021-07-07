@@ -7806,6 +7806,7 @@ namespace OverflowHelper.core
             correctionAdd("2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("Studio2010", "Visual&nbsp;Studio&nbsp;2010");
 
             correctionAdd("Visual Studio 2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express"); // Sort of identity mapping
             correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
@@ -9423,6 +9424,7 @@ namespace OverflowHelper.core
             correctionAdd("two-factor", "two-factor authentication");
             correctionAdd("2 factor", "two-factor authentication");
             correctionAdd("Two Factor authentication", "two-factor authentication");
+            correctionAdd("2fa", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -9511,6 +9513,7 @@ namespace OverflowHelper.core
             correctionAdd("MitM", "man-in-the-middle attack");
             correctionAdd("mitm", "man-in-the-middle attack");
             correctionAdd("man in the middle", "man-in-the-middle attack");
+            correctionAdd("MiTM", "man-in-the-middle attack");
 
             correctionAdd("adobe illustrator", "Adobe Illustrator");
 
@@ -10819,6 +10822,7 @@ namespace OverflowHelper.core
 
             correctionAdd("prefered", "preferred");
             correctionAdd("preffered", "preferred");
+            correctionAdd("preferrred", "preferred");
 
             correctionAdd("disapointed", "disappointed");
             correctionAdd("dissapointed", "disappointed");
@@ -21460,6 +21464,7 @@ namespace OverflowHelper.core
             correctionAdd("Nationalism", "nationalism");
 
             correctionAdd("offically", "officially");
+            correctionAdd("officialy", "officially");
 
             correctionAdd("Psychologist", "psychologist");
 
@@ -28323,6 +28328,27 @@ namespace OverflowHelper.core
             correctionAdd("trackdown", "track down");
 
             correctionAdd("Wannabe", "wannabe");
+
+            correctionAdd("agn", "AGN");
+
+            correctionAdd("Karmin line", "Kármán line");
+
+            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
+
+            correctionAdd("simjacking", "SIM swap scam");
+            correctionAdd("SIM swapping", "SIM swap scam");
+
+            correctionAdd("Virgin galactic", "Virgin Galactic");
+
+            correctionAdd("Left Mouse Button", "left mouse button");
+            correctionAdd("LMB", "left mouse button");
+            correctionAdd("lmb", "left mouse button");
+
+            correctionAdd("Right Mouse Button", "right mouse button");
+            correctionAdd("RMB", "right mouse button");
+            correctionAdd("rmb", "right mouse button");
+
+            correctionAdd("Vomit Comet", "vomit comet");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44494,6 +44520,22 @@ namespace OverflowHelper.core
             URL_Add("track down", "https://en.wiktionary.org/wiki/track_down#Verb");
 
             URL_Add("wannabe", "https://en.wiktionary.org/wiki/wannabe#Noun");
+
+            URL_Add("AGN", "https://en.wikipedia.org/wiki/Active_galactic_nucleus");
+
+            URL_Add("Kármán line", "https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line");
+
+            URL_Add("Newton's first law of motion", "https://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton's_first_law");
+
+            URL_Add("SIM swap scam", "https://en.wikipedia.org/wiki/SIM_swap_scam");
+
+            URL_Add("Virgin Galactic", "https://en.wikipedia.org/wiki/Virgin_Galactic");
+
+            URL_Add("left mouse button", "https://en.wiktionary.org/wiki/LMB#Noun");
+
+            URL_Add("right mouse button", "https://en.wiktionary.org/wiki/RMB#Noun");
+
+            URL_Add("vomit comet", "https://en.wikipedia.org/wiki/Reduced-gravity_aircraft");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
