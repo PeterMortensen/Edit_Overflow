@@ -5670,6 +5670,7 @@ namespace OverflowHelper.core
             correctionAdd("Jeff", "Jeff Atwood");
 
             correctionAdd("Joel", "Joel Spolsky");
+            correctionAdd("Spolsky", "Joel Spolsky");
 
             correctionAdd("Yslow", "YSlow");
             correctionAdd("yslow", "YSlow");
@@ -10103,6 +10104,8 @@ namespace OverflowHelper.core
             correctionAdd("programmaticaly", "programmatically");
             correctionAdd("Programatically", "programmatically");
             correctionAdd("Progrmatically", "programmatically");
+            correctionAdd("programaticly", "programmatically");
+            correctionAdd("programmaticly", "programmatically");
 
             correctionAdd("Hex", "hexadecimal");
             correctionAdd("hex", "hexadecimal");
@@ -12414,6 +12417,7 @@ namespace OverflowHelper.core
             correctionAdd("springboot", "Spring Boot");
             correctionAdd("Springboot", "Spring Boot");
             correctionAdd("spring-boot", "Spring Boot");
+            correctionAdd("SpringBoot", "Spring Boot");
 
             correctionAdd("accesible", "accessible");
             correctionAdd("accessable", "accessible");
@@ -13264,6 +13268,7 @@ namespace OverflowHelper.core
 
             correctionAdd("material design", "Material Design");
             correctionAdd("Material design", "Material Design");
+            correctionAdd("Meterial Design", "Material Design");
 
             correctionAdd("Ntp", "NTP");
             correctionAdd("ntp", "NTP");
@@ -15785,6 +15790,8 @@ namespace OverflowHelper.core
             correctionAdd("fine grained", "fine-grained");
 
             correctionAdd("follow up", "follow-up");
+            correctionAdd("Followup", "follow-up");
+            correctionAdd("followup", "follow-up");
 
             correctionAdd("foramt", "format");
             correctionAdd("formate", "format");
@@ -21131,6 +21138,7 @@ namespace OverflowHelper.core
             correctionAdd("diffferent", "different");
             correctionAdd("differeny", "different");
             correctionAdd("differents", "different");
+            correctionAdd("Differnt", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -21149,6 +21157,7 @@ namespace OverflowHelper.core
             correctionAdd("wayland", "Wayland");
 
             correctionAdd("short hand", "shorthand");
+            correctionAdd("short-hand", "shorthand");
 
             correctionAdd("by the other hand", "on the other hand");
             correctionAdd("In the other hand", "on the other hand");
@@ -23395,6 +23404,8 @@ namespace OverflowHelper.core
             correctionAdd("permentantly", "permanently");
             correctionAdd("permantantly", "permanently");
             correctionAdd("permentaly", "permanently");
+            correctionAdd("permently", "permanently");
+            correctionAdd("permantly", "permanently");
 
             correctionAdd("reveiled", "revealed");
 
@@ -28349,6 +28360,31 @@ namespace OverflowHelper.core
             correctionAdd("rmb", "right mouse button");
 
             correctionAdd("Vomit Comet", "vomit comet");
+
+            correctionAdd("ng-if", "*ngIf");
+            correctionAdd("NgIf", "*ngIf");
+            correctionAdd("ngif", "*ngIf");
+            correctionAdd("ngIf", "*ngIf");
+
+            correctionAdd("camel", "Apache Camel");
+            correctionAdd("Camel", "Apache Camel");
+
+            correctionAdd("John Skeet", "Jon Skeet");
+
+            correctionAdd("pbuh", "PBUH");
+
+            correctionAdd("Qt5", "Qt&nbsp;5");
+            correctionAdd("Qt 5", "Qt&nbsp;5");
+
+            correctionAdd("Stackblitz", "StackBlitz");
+            correctionAdd("stackblitz", "StackBlitz");
+
+            correctionAdd("wdio", "WebdriverIO");
+            correctionAdd("WebDriver IO", "WebdriverIO");
+            correctionAdd("Webdriver.IO", "WebdriverIO");
+            correctionAdd("WebDriverIO", "WebdriverIO");
+
+            correctionAdd("mess", "messy");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44536,6 +44572,22 @@ namespace OverflowHelper.core
             URL_Add("right mouse button", "https://en.wiktionary.org/wiki/RMB#Noun");
 
             URL_Add("vomit comet", "https://en.wikipedia.org/wiki/Reduced-gravity_aircraft");
+
+            URL_Add("*ngIf", "https://angular.io/api/common/NgIf");
+
+            URL_Add("Apache Camel", "https://en.wikipedia.org/wiki/Apache_Camel");
+
+            URL_Add("Jon Skeet", "https://stackoverflow.com/users/22656/jon-skeet");
+
+            URL_Add("PBUH", "https://en.wiktionary.org/wiki/PBUH#Interjection");
+
+            URL_Add("Qt&nbsp;5", "https://en.wikipedia.org/wiki/Qt_version_history#Qt_5");
+
+            URL_Add("StackBlitz", "https://stackblitz.com/");
+
+            URL_Add("WebdriverIO", "https://webdriver.io/docs/gettingstarted/");
+
+            URL_Add("messy", "https://en.wiktionary.org/wiki/messy#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
