@@ -6755,6 +6755,7 @@ namespace OverflowHelper.core
             correctionAdd("google play store", "Google Play");
             correctionAdd("Playstore", "Google Play");
             correctionAdd("PlayStore", "Google Play");
+            correctionAdd("play market", "Google Play");
 
             correctionAdd("kinect", "Kinect");
 
@@ -11758,6 +11759,7 @@ namespace OverflowHelper.core
 
             correctionAdd("negociation", "negotiation");
             correctionAdd("Negociation", "negotiation");
+            correctionAdd("negotation", "negotiation");
 
             correctionAdd("oportunity", "opportunity");
 
@@ -11930,6 +11932,8 @@ namespace OverflowHelper.core
             correctionAdd("trieed", "tried");
             correctionAdd("tired", "tried");
             correctionAdd("tryied", "tried");
+            correctionAdd("TREID", "tried");
+            correctionAdd("treid", "tried");
 
             correctionAdd("justfied", "justified");
 
@@ -15554,10 +15558,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Atmel studio", "Atmel Studio");
 
-            correctionAdd("Micro Bit", "BBC Micro Bit");
-            correctionAdd("micro:bit", "BBC Micro Bit");
-            correctionAdd("BBC micro:bit", "BBC Micro Bit");
-
             correctionAdd("bbs", "BBS");
 
             correctionAdd("De Morgans laws", "De Morgan's laws");
@@ -17895,6 +17895,11 @@ namespace OverflowHelper.core
             correctionAdd("april fool", "April fool");
             correctionAdd("april fools", "April fool");
             correctionAdd("April fools", "April fool");
+            correctionAdd("aprils fool", "April fool");
+            correctionAdd("Aprils fool", "April fool");
+            correctionAdd("Aprils Fool", "April fool");
+            correctionAdd("April's Fool", "April fool");
+            correctionAdd("April's Fools", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -18195,6 +18200,7 @@ namespace OverflowHelper.core
             correctionAdd("left most", "leftmost");
 
             correctionAdd("mis match", "mismatch");
+            correctionAdd("mis-match", "mismatch");
 
             correctionAdd("mate", "MATE");
             correctionAdd("Mate", "MATE");
@@ -18294,7 +18300,12 @@ namespace OverflowHelper.core
             correctionAdd("anti pattern", "antipattern");
             correctionAdd("anti-pattern", "antipattern");
 
+            correctionAdd("Micro Bit", "BBC Micro Bit");
+            correctionAdd("micro:bit", "BBC Micro Bit");
+            correctionAdd("BBC micro:bit", "BBC Micro Bit");
+
             correctionAdd("bt", "bit");
+            correctionAdd("Bit", "bit");
 
             correctionAdd("cplex", "CPLEX");
 
@@ -21182,6 +21193,7 @@ namespace OverflowHelper.core
             correctionAdd("Undertand", "understand");
             correctionAdd("undertand", "understand");
             correctionAdd("undertsand", "understand");
+            correctionAdd("undestand", "understand");
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
@@ -21583,6 +21595,8 @@ namespace OverflowHelper.core
             correctionAdd("postman", "Postman");
 
             correctionAdd("Rabbit MQ", "RabbitMQ");
+            correctionAdd("rabbitmq", "RabbitMQ");
+            correctionAdd("rabbit mq", "RabbitMQ");
 
             correctionAdd("Circuit", "circuit");
             correctionAdd("cicuit", "circuit");
@@ -22204,6 +22218,7 @@ namespace OverflowHelper.core
 
             correctionAdd("DSL", "domain-specific language");
             correctionAdd("Domain Specific Language", "domain-specific language");
+            correctionAdd("dsl", "domain-specific language");
 
             correctionAdd("K&R", "The C Programming Language");
             correctionAdd("k&r", "The C Programming Language");
@@ -28368,6 +28383,8 @@ namespace OverflowHelper.core
 
             correctionAdd("camel", "Apache Camel");
             correctionAdd("Camel", "Apache Camel");
+            correctionAdd("apache camel", "Apache Camel");
+            correctionAdd("Apache camel", "Apache Camel");
 
             correctionAdd("John Skeet", "Jon Skeet");
 
@@ -28385,6 +28402,39 @@ namespace OverflowHelper.core
             correctionAdd("WebDriverIO", "WebdriverIO");
 
             correctionAdd("mess", "messy");
+
+            correctionAdd("dead letter queue", "DLQ");
+            correctionAdd("dlq", "DLQ");
+
+            correctionAdd("debezium", "Debezium");
+
+            correctionAdd("hangman", "Hangman");
+
+            correctionAdd("materialize css", "Materialize CSS");
+            correctionAdd("materialize", "Materialize CSS");
+
+            correctionAdd("Android Wear", "Wear OS");
+            correctionAdd("wear os", "Wear OS");
+            correctionAdd("wear OS", "Wear OS");
+            correctionAdd("wear", "Wear OS");
+            correctionAdd("Wear", "Wear OS");
+
+            correctionAdd("co-author", "coauthor");
+
+            correctionAdd("collogically", "colloquially");
+
+            correctionAdd("Data Engineering", "data engineering");
+
+            correctionAdd("fullblown", "full-blown");
+
+            correctionAdd("full time", "full-time");
+
+            correctionAdd("hyper cube", "hypercube");
+
+            correctionAdd("mid-stream", "midstream");
+
+            correctionAdd("year-long", "yearlong");
+            correctionAdd("year long", "yearlong");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44588,6 +44638,32 @@ namespace OverflowHelper.core
             URL_Add("WebdriverIO", "https://webdriver.io/docs/gettingstarted/");
 
             URL_Add("messy", "https://en.wiktionary.org/wiki/messy#Adjective");
+
+            URL_Add("DLQ", "https://en.wikipedia.org/wiki/Dead_letter_queue");
+
+            URL_Add("Debezium", "https://debezium.io/");
+
+            URL_Add("Hangman", "https://en.wikipedia.org/wiki/Hangman_(game)");
+
+            URL_Add("Materialize CSS", "https://materializecss.com/getting-started.html");
+
+            URL_Add("Wear OS", "https://en.wikipedia.org/wiki/Wear_OS");
+
+            URL_Add("coauthor", "https://en.wiktionary.org/wiki/coauthor#Noun");
+
+            URL_Add("colloquially", "https://en.wiktionary.org/wiki/colloquially#Adverb");
+
+            URL_Add("data engineering", "https://en.wikipedia.org/wiki/Information_engineering");
+
+            URL_Add("full-blown", "https://en.wiktionary.org/wiki/full-blown#Adjective");
+
+            URL_Add("full-time", "https://en.wiktionary.org/wiki/full-time#Adjective");
+
+            URL_Add("hypercube", "https://en.wikipedia.org/wiki/Hypercube");
+
+            URL_Add("midstream", "https://en.wiktionary.org/wiki/midstream#Noun");
+
+            URL_Add("yearlong", "https://en.wiktionary.org/wiki/yearlong#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
