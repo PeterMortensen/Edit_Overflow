@@ -13645,24 +13645,6 @@ namespace OverflowHelper.core
             correctionAdd("in-house", "in house");
             correctionAdd("inhouse", "in house");
 
-            correctionAdd("afaik", "as far as I know");
-            correctionAdd("Afaik", "as far as I know");
-            correctionAdd("AFAIK", "as far as I know");
-            correctionAdd("IFAIK", "as far as I know");
-            correctionAdd("ifaik", "as far as I know");
-
-            correctionAdd("dunno", "don't know");
-            correctionAdd("Dunno", "don't know");
-
-            correctionAdd("idk", "I don't know");
-            correctionAdd("Idk", "I don't know");
-            correctionAdd("IDK", "I don't know");
-
-            correctionAdd("knwo", "know");
-            correctionAdd("khow", "know");
-            correctionAdd("knoe", "know");
-            correctionAdd("konw", "know");
-
             correctionAdd("manu", "menu");
             correctionAdd("munu", "menu");
 
@@ -15016,6 +14998,7 @@ namespace OverflowHelper.core
             correctionAdd("esacape", "escape");
             correctionAdd("escapce", "escape");
             correctionAdd("Escape", "escape");
+            correctionAdd("esapce", "escape");
 
             correctionAdd("GLIBC", "glibc");
 
@@ -16096,6 +16079,7 @@ namespace OverflowHelper.core
             correctionAdd("w/", "with");
             correctionAdd("wirh", "with");
             correctionAdd("wiuth", "with");
+            correctionAdd("Whit", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -16570,8 +16554,6 @@ namespace OverflowHelper.core
             correctionAdd("NestJs", "NestJS");
 
             correctionAdd("rotten tomatoes", "Rotten Tomatoes");
-
-            correctionAdd("security now", "Security Now");
 
             correctionAdd("smarty", "Smarty");
             correctionAdd("tpl", "Smarty");
@@ -17859,6 +17841,8 @@ namespace OverflowHelper.core
             correctionAdd("klunky", "clunky");
 
             correctionAdd("contant", "content");
+            correctionAdd("con taint", "content");
+            correctionAdd("containt", "content");
 
             correctionAdd("drammatically", "dramatically");
             correctionAdd("dramaticaly", "dramatically");
@@ -24265,8 +24249,6 @@ namespace OverflowHelper.core
 
             correctionAdd("from scrap", "from scratch");
 
-            correctionAdd("lmk", "let me know");
-
             correctionAdd("lca", "lowest common ancestor");
             correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
             correctionAdd("LCA", "lowest common ancestor");
@@ -24586,8 +24568,6 @@ namespace OverflowHelper.core
             correctionAdd("Par-boil", "parboil");
             correctionAdd("par boil", "parboil");
             correctionAdd("par-boil", "parboil");
-
-            correctionAdd("rn", "right now");
 
             correctionAdd("screen cast", "screencast");
 
@@ -28435,6 +28415,39 @@ namespace OverflowHelper.core
 
             correctionAdd("year-long", "yearlong");
             correctionAdd("year long", "yearlong");
+
+            correctionAdd("napster", "Napster");
+
+            correctionAdd("resident evil", "Resident Evil");
+
+            correctionAdd("GROFF", "groff");
+
+            correctionAdd("afaik", "as far as I know");
+            correctionAdd("Afaik", "as far as I know");
+            correctionAdd("AFAIK", "as far as I know");
+            correctionAdd("IFAIK", "as far as I know");
+            correctionAdd("ifaik", "as far as I know");
+
+            correctionAdd("dunno", "don't know");
+            correctionAdd("Dunno", "don't know");
+
+            correctionAdd("idk", "I don't know");
+            correctionAdd("Idk", "I don't know");
+            correctionAdd("IDK", "I don't know");
+
+            correctionAdd("knwo", "know");
+            correctionAdd("khow", "know");
+            correctionAdd("knoe", "know");
+            correctionAdd("konw", "know");
+
+            correctionAdd("security now", "Security Now");
+
+            correctionAdd("lmk", "let me know");
+
+            correctionAdd("rn", "right now");
+
+            correctionAdd("nowm", "now");
+            correctionAdd("Nowm", "now");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44664,6 +44677,14 @@ namespace OverflowHelper.core
             URL_Add("midstream", "https://en.wiktionary.org/wiki/midstream#Noun");
 
             URL_Add("yearlong", "https://en.wiktionary.org/wiki/yearlong#Adjective");
+
+            URL_Add("Napster", "https://en.wikipedia.org/wiki/Napster");
+
+            URL_Add("Resident Evil", "https://en.wikipedia.org/wiki/Resident_Evil_(film_series)");
+
+            URL_Add("groff", "https://en.wikipedia.org/wiki/Groff_%28software%29");
+
+            URL_Add("now", "https://en.wiktionary.org/wiki/now#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
