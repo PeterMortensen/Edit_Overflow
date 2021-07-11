@@ -2116,6 +2116,7 @@ namespace OverflowHelper.core
             correctionAdd("Bittorrent", "BitTorrent");
             correctionAdd("bittorrent", "BitTorrent");
             correctionAdd("bit torrent", "BitTorrent");
+            correctionAdd("Bit Torrent", "BitTorrent");
 
             correctionAdd("notepad", "Notepad");
             correctionAdd("NotePad", "Notepad");
@@ -8375,6 +8376,8 @@ namespace OverflowHelper.core
             correctionAdd("indepent", "independent");
             correctionAdd("indepedent", "independent");
             correctionAdd("independient", "independent");
+            correctionAdd("independed", "independent");
+            correctionAdd("independend", "independent");
 
             correctionAdd("shellshock", "Shellshock");
             correctionAdd("shelllock", "Shellshock");
@@ -14188,6 +14191,7 @@ namespace OverflowHelper.core
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
             correctionAdd("SUPORT", "support");
+            correctionAdd("suppport", "support");
 
             correctionAdd("fltk", "FLTK");
 
@@ -14862,6 +14866,8 @@ namespace OverflowHelper.core
             correctionAdd("down-voting", "downvoting");
             correctionAdd("Dowvoting", "downvoting");
             correctionAdd("dowvoting", "downvoting");
+            correctionAdd("Down voting", "downvoting");
+            correctionAdd("Downvoting", "downvoting");
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
@@ -26342,6 +26348,7 @@ namespace OverflowHelper.core
 
             correctionAdd("researche", "research");
             correctionAdd("reseache", "research");
+            correctionAdd("re-search", "research");
 
             correctionAdd("Thermocouple", "thermocouple");
 
@@ -28448,6 +28455,21 @@ namespace OverflowHelper.core
 
             correctionAdd("nowm", "now");
             correctionAdd("Nowm", "now");
+
+            correctionAdd("2 4", "24");
+
+            correctionAdd("lost", "Lost");
+
+            correctionAdd("back-fire", "backfire");
+
+            correctionAdd("high-definition", "high definition");
+
+            correctionAdd("knowledgebase", "knowledge base");
+
+            correctionAdd("Network topology", "network topology");
+
+            correctionAdd("self contained", "self-contained");
+            correctionAdd("Self Contained", "self-contained");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44685,6 +44707,20 @@ namespace OverflowHelper.core
             URL_Add("groff", "https://en.wikipedia.org/wiki/Groff_%28software%29");
 
             URL_Add("now", "https://en.wiktionary.org/wiki/now#Adverb");
+
+            URL_Add("24", "https://en.wikipedia.org/wiki/24_(TV_series)");
+
+            URL_Add("Lost", "https://en.wikipedia.org/wiki/Lost_(TV_series)");
+
+            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
+
+            URL_Add("high definition", "https://en.wiktionary.org/wiki/high_definition#Noun");
+
+            URL_Add("knowledge base", "https://en.wiktionary.org/wiki/knowledge_base#Noun");
+
+            URL_Add("network topology", "https://en.wikipedia.org/wiki/Network_topology");
+
+            URL_Add("self-contained", "https://en.wiktionary.org/wiki/self-contained#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
