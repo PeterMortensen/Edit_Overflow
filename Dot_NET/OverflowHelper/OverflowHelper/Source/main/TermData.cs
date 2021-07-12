@@ -8037,6 +8037,7 @@ namespace OverflowHelper.core
             correctionAdd("oo", "object-oriented (OO)");
             correctionAdd("OO", "object-oriented (OO)"); // Expansion
             correctionAdd("Object Oriented", "object-oriented (OO)");
+            correctionAdd("O.O", "object-oriented (OO)");
 
             correctionAdd("google IO", "Google I/O");
             correctionAdd("Google io", "Google I/O");
@@ -11724,6 +11725,7 @@ namespace OverflowHelper.core
             correctionAdd("excepetion", "exception");
             correctionAdd("xeption", "exception");
             correctionAdd("exeption", "exception");
+            correctionAdd("execption", "exception");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -12724,6 +12726,7 @@ namespace OverflowHelper.core
             correctionAdd("CP1252", "Windows-1252");
             correctionAdd("CP-1252", "Windows-1252");
             correctionAdd("cp1252", "Windows-1252");
+            correctionAdd("1252", "Windows-1252");
 
             correctionAdd("appricate", "appreciate");
             correctionAdd("appreicate", "appreciate");
@@ -21116,6 +21119,7 @@ namespace OverflowHelper.core
             correctionAdd("Sand Box", "sandbox");
 
             correctionAdd("2", "two");
+            correctionAdd("tow", "two");
 
             correctionAdd("u", "you");
             correctionAdd("yuu", "you");
@@ -24091,6 +24095,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Navier-Stokes equation", "Navier-Stokes equations");
             correctionAdd("Navier-Stokes Equation", "Navier-Stokes equations");
+            correctionAdd("Naiver Stokes equation", "Navier-Stokes equations");
+            correctionAdd("Naiver Stokes equations", "Navier-Stokes equations");
 
             correctionAdd("oxbridge", "Oxbridge");
 
@@ -24546,6 +24552,7 @@ namespace OverflowHelper.core
             correctionAdd("stor", "store");
 
             correctionAdd("technichal", "technical");
+            correctionAdd("technial", "technical");
 
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
 
@@ -26037,6 +26044,7 @@ namespace OverflowHelper.core
 
             correctionAdd("insite", "insight");
             correctionAdd("incite", "insight");
+            correctionAdd("insides", "insight");
 
             correctionAdd("loadtesting", "load testing");
 
@@ -27155,6 +27163,8 @@ namespace OverflowHelper.core
             correctionAdd("NM", "New Mexico");
 
             correctionAdd("afer", "after");
+            correctionAdd("Ater", "after");
+            correctionAdd("ater", "after");
 
             correctionAdd("beat-'em-up", "beat 'em up");
             correctionAdd("Beat 'em Up", "beat 'em up");
@@ -28470,6 +28480,50 @@ namespace OverflowHelper.core
 
             correctionAdd("self contained", "self-contained");
             correctionAdd("Self Contained", "self-contained");
+
+            correctionAdd("Brillouin Zone", "Brillouin zone");
+
+            correctionAdd("Dalmatiner", "Dalmatian");
+            correctionAdd("dalmatiner", "Dalmatian");
+
+            correctionAdd("Ethereum Virtual Machine", "EVM");
+            correctionAdd("evm", "EVM");
+
+            correctionAdd("risc", "RISC");
+
+            correctionAdd("xgboost", "XGBoost");
+            correctionAdd("Xgboost", "XGBoost");
+
+            correctionAdd("appraoches", "approaches");
+
+            correctionAdd("code Page", "code page");
+
+            correctionAdd("Curly", "curly");
+
+            correctionAdd("inturn", "in turn");
+
+            correctionAdd("inputed", "inputted");
+
+            correctionAdd("manuvre", "manoeuvre");
+
+            correctionAdd("mid-point", "midpoint");
+
+            correctionAdd("modyfying", "modifying");
+
+            correctionAdd("Pit Bull", "pit bull");
+
+            correctionAdd("principle of least surprise", "principle of least astonishment");
+            correctionAdd("Principle of Least Surprise", "principle of least astonishment");
+
+            correctionAdd("red-herring", "red herring");
+
+            correctionAdd("re-occur", "reoccur");
+
+            correctionAdd("re-wrap", "rewrap");
+
+            correctionAdd("sayinf", "saying");
+
+            correctionAdd("trimed", "trimmed");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44721,6 +44775,46 @@ namespace OverflowHelper.core
             URL_Add("network topology", "https://en.wikipedia.org/wiki/Network_topology");
 
             URL_Add("self-contained", "https://en.wiktionary.org/wiki/self-contained#Adjective");
+
+            URL_Add("Brillouin zone", "https://en.wikipedia.org/wiki/Brillouin_zone");
+
+            URL_Add("Dalmatian", "https://en.wikipedia.org/wiki/Dalmatian_(dog)");
+
+            URL_Add("EVM", "https://en.wikipedia.org/wiki/Ethereum#Virtual_machine");
+
+            URL_Add("RISC", "https://en.wikipedia.org/wiki/Reduced_instruction_set_computer");
+
+            URL_Add("XGBoost", "https://en.wikipedia.org/wiki/XGBoost");
+
+            URL_Add("approaches", "https://en.wiktionary.org/wiki/approach#Noun");
+
+            URL_Add("code page", "https://en.wikipedia.org/wiki/Code_page");
+
+            URL_Add("curly", "https://en.wiktionary.org/wiki/curly#Adjective");
+
+            URL_Add("in turn", "https://en.wiktionary.org/wiki/in_turn#Prepositional_phrase");
+
+            URL_Add("inputted", "https://en.wiktionary.org/wiki/input#Verb");
+
+            URL_Add("manoeuvre", "https://en.wiktionary.org/wiki/manoeuvre#Noun");
+
+            URL_Add("midpoint", "https://en.wiktionary.org/wiki/midpoint#Noun");
+
+            URL_Add("modifying", "https://en.wiktionary.org/wiki/modify#Verb");
+
+            URL_Add("pit bull", "https://en.wikipedia.org/wiki/Pit_bull");
+
+            URL_Add("principle of least astonishment", "https://en.wikipedia.org/wiki/Principle_of_least_astonishment");
+
+            URL_Add("red herring", "https://en.wiktionary.org/wiki/red_herring#Noun");
+
+            URL_Add("reoccur", "https://en.wiktionary.org/wiki/reoccur#Verb");
+
+            URL_Add("rewrap", "https://en.wiktionary.org/wiki/rewrap#Verb");
+
+            URL_Add("saying", "https://en.wiktionary.org/wiki/say#Verb");
+
+            URL_Add("trimmed", "https://en.wiktionary.org/wiki/trim#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
