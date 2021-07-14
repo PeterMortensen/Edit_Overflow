@@ -1732,6 +1732,7 @@ namespace OverflowHelper.core
             correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
             correctionAdd("Jupyter notebook", "Jupyter Notebook");
             correctionAdd("Jypiter Notebook", "Jupyter Notebook");
+            correctionAdd("Jupiter Notebook", "Jupyter Notebook");
 
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
@@ -4823,6 +4824,17 @@ namespace OverflowHelper.core
             correctionAdd("uri", "URI");
             correctionAdd("Uri", "URI");
 
+            correctionAdd("fallthrough", "fall-through");
+            correctionAdd("fall through", "fall-through");
+            correctionAdd("fall thought", "fall-through");
+            correctionAdd("fall though", "fall-through");
+            correctionAdd("fallthough", "fall-through");
+
+            correctionAdd("walk through", "walkthrough");
+            correctionAdd("walk-through", "walkthrough");
+
+            correctionAdd("pass through", "passthrough");
+
             correctionAdd("trough", "through");
             correctionAdd("thru", "through"); // Expansion
             correctionAdd("througt", "through");
@@ -4841,6 +4853,8 @@ namespace OverflowHelper.core
             correctionAdd("throught", "through");
             correctionAdd("throug", "through");
             correctionAdd("throguh", "through");
+            correctionAdd("Troough", "through");
+            correctionAdd("troough", "through");
 
             correctionAdd("tut", "tutorial");
             correctionAdd("tutorail", "tutorial"); // Misspelling
@@ -9043,6 +9057,7 @@ namespace OverflowHelper.core
             correctionAdd("mininum", "minimum");
             correctionAdd("minumum", "minimum");
             correctionAdd("MINIMUM", "minimum");
+            correctionAdd("minimu", "minimum");
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
@@ -9408,6 +9423,7 @@ namespace OverflowHelper.core
             correctionAdd("newby", "newbie");
             correctionAdd("newbee", "newbie");
             correctionAdd("noobie", "newbie");
+            correctionAdd("nooby", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -11190,6 +11206,8 @@ namespace OverflowHelper.core
             correctionAdd("decission", "decision");
             correctionAdd("descision", "decision");
             correctionAdd("desigion", "decision");
+            correctionAdd("Decesion", "decision");
+            correctionAdd("decesion", "decision");
 
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
@@ -18798,12 +18816,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dissagreed", "disagreed");
 
-            correctionAdd("fallthrough", "fall-through");
-            correctionAdd("fall through", "fall-through");
-            correctionAdd("fall thought", "fall-through");
-            correctionAdd("fall though", "fall-through");
-            correctionAdd("fallthough", "fall-through");
-
             correctionAdd("mutch", "much");
             correctionAdd("mush", "much");
 
@@ -19391,9 +19403,6 @@ namespace OverflowHelper.core
             correctionAdd("pasphrase", "passphrase");
 
             correctionAdd("tutch", "touch");
-
-            correctionAdd("walk through", "walkthrough");
-            correctionAdd("walk-through", "walkthrough");
 
             correctionAdd("BLM", "Black Lives Matter");
             correctionAdd("blm", "Black Lives Matter");
@@ -21668,6 +21677,7 @@ namespace OverflowHelper.core
             correctionAdd("improvment", "improvement");
 
             correctionAdd("targeet", "target");
+            correctionAdd("taget", "target");
 
             correctionAdd("paired programming", "pair programming");
             correctionAdd("peer programming", "pair programming");
@@ -23465,8 +23475,6 @@ namespace OverflowHelper.core
             correctionAdd("promox", "Proxmox");
 
             correctionAdd("call it the day", "call it a day");
-
-            correctionAdd("pass through", "passthrough");
 
             correctionAdd("satus", "status");
 
@@ -26169,6 +26177,7 @@ namespace OverflowHelper.core
             correctionAdd("acte", "act");
 
             correctionAdd("backonym", "backronym");
+            correctionAdd("backcronym", "backronym");
 
             correctionAdd("cellulaure", "cellular");
 
@@ -28617,6 +28626,18 @@ namespace OverflowHelper.core
 
             correctionAdd("my GitHub", "my GitHub account");
             correctionAdd("my github", "my GitHub account");
+
+            correctionAdd("c++0x", "C++0x");
+
+            correctionAdd("Winer", "Dave Winer");
+
+            correctionAdd("complet", "complete");
+
+            correctionAdd("qudratic", "quadratic");
+
+            correctionAdd("rerturns", "returns");
+
+            correctionAdd("tag line", "tagline");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -44970,6 +44991,18 @@ namespace OverflowHelper.core
             URL_Add("modifier", "https://en.wiktionary.org/wiki/modifier#Noun");
 
             URL_Add("my GitHub account", "https://github.com/PeterMortensen");
+
+            URL_Add("C++0x", "https://en.wikipedia.org/wiki/C%2B%2B11");
+
+            URL_Add("Dave Winer", "https://en.wikipedia.org/wiki/Dave_Winer");
+
+            URL_Add("complete", "https://en.wiktionary.org/wiki/complete#Adjective");
+
+            URL_Add("quadratic", "https://en.wiktionary.org/wiki/quadratic#Adjective");
+
+            URL_Add("returns", "https://en.wiktionary.org/wiki/return#Verb");
+
+            URL_Add("tagline", "https://en.wiktionary.org/wiki/tagline#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
