@@ -344,7 +344,7 @@
                     type="text"
                     id="X32"
                     class=""
-                    value="Please respond by [editing your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
+                    value="Please respond by [editing (changing) your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
                     style="width:830px;"
                     accesskey=""
                     title=""
@@ -356,7 +356,7 @@
                 Stack Exchange software. Possible code fencing formatting:
                 ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash,
                 ```lang-php, ```lang-css, ```lang-xml, ```lang-java,
-                ```lang-csharp
+                ```lang-csharp, ```lang-vbnet
 
                 <br/>
                 <input
