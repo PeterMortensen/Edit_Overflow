@@ -3950,6 +3950,7 @@ namespace OverflowHelper.core
             correctionAdd("Environment variables", "environment variable");
             correctionAdd("environment variables", "environment variable");
             correctionAdd("env vars", "environment variable");
+            correctionAdd("ENV VARIABLE", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -4331,14 +4332,6 @@ namespace OverflowHelper.core
             correctionAdd("Expresso", "Espresso");
 
             correctionAdd("swig", "SWIG");
-
-            correctionAdd("cwd", "current working directory");
-            correctionAdd("CWD", "current working directory");
-            correctionAdd("pwd", "current working directory");
-
-            correctionAdd("sub directory", "subdirectory");
-            correctionAdd("subdir", "subdirectory");
-            correctionAdd("sub dir", "subdirectory");
 
             correctionAdd("dont", "don’t");
             correctionAdd("Dont", "don’t"); // Not 100% correct - case.
@@ -5077,11 +5070,6 @@ namespace OverflowHelper.core
             correctionAdd("graphviz", "Graphviz");
             correctionAdd("graphiz", "Graphviz");
             correctionAdd("Graphiz", "Graphviz");
-
-            correctionAdd("ad", "Active Directory"); // Expansion.
-            correctionAdd("AD", "Active Directory"); // Expansion.
-            correctionAdd("active directory", "Active Directory");
-            correctionAdd("ActiveDirectory", "Active Directory");
 
             correctionAdd("Ads", "advertisement"); // Not 100% correct - capitalisation and plural.
             correctionAdd("ads", "advertisement"); // Not 100% correct - capitalisation and plural.
@@ -11920,6 +11908,7 @@ namespace OverflowHelper.core
             correctionAdd("R-studio", "RStudio");
             correctionAdd("R studio", "RStudio");
             correctionAdd("R Studio", "RStudio");
+            correctionAdd("Rstudio", "RStudio");
 
             correctionAdd("brodcast", "broadcast");
 
@@ -12442,6 +12431,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mins", "minutes");
             correctionAdd("Mins", "minutes");
+            correctionAdd("minut", "minutes");
 
             correctionAdd("sourcetree", "Sourcetree");
             correctionAdd("SourceTree", "Sourcetree");
@@ -12910,6 +12900,7 @@ namespace OverflowHelper.core
             correctionAdd("Power bi", "Power BI");
             correctionAdd("PBI", "Power BI");
             correctionAdd("PowerBi", "Power BI");
+            correctionAdd("power BI", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -13304,6 +13295,7 @@ namespace OverflowHelper.core
             correctionAdd("eslinter", "ESLint");
             correctionAdd("ES lint", "ESLint");
             correctionAdd("es lint", "ESLint");
+            correctionAdd("es-lint", "ESLint");
 
             correctionAdd("elance", "Elance");
 
@@ -14221,6 +14213,7 @@ namespace OverflowHelper.core
             correctionAdd("proplem", "problem");
             correctionAdd("probel", "problem");
             correctionAdd("proble", "problem");
+            correctionAdd("probelem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -15868,6 +15861,7 @@ namespace OverflowHelper.core
             correctionAdd("tat", "that");
             correctionAdd("taht", "that");
             correctionAdd("thst", "that");
+            correctionAdd("thant", "that");
 
             correctionAdd("TR", "tr");
 
@@ -23249,6 +23243,7 @@ namespace OverflowHelper.core
             correctionAdd("embarress", "embarrass");
 
             correctionAdd("fo pa", "faux pas");
+            correctionAdd("pau faux", "faux pas");
 
             correctionAdd("houshold", "household");
 
@@ -23397,6 +23392,19 @@ namespace OverflowHelper.core
             correctionAdd("derectly", "directly");
             correctionAdd("direclty", "directly");
 
+            correctionAdd("cwd", "current working directory");
+            correctionAdd("CWD", "current working directory");
+            correctionAdd("pwd", "current working directory");
+
+            correctionAdd("sub directory", "subdirectory");
+            correctionAdd("subdir", "subdirectory");
+            correctionAdd("sub dir", "subdirectory");
+
+            correctionAdd("ad", "Active Directory"); // Expansion.
+            correctionAdd("AD", "Active Directory"); // Expansion.
+            correctionAdd("active directory", "Active Directory");
+            correctionAdd("ActiveDirectory", "Active Directory");
+
             correctionAdd("dir", "directory");
             correctionAdd("directoty", "directory");
             correctionAdd("diretory", "directory");
@@ -23407,6 +23415,7 @@ namespace OverflowHelper.core
             correctionAdd("direcotry", "directory");
             correctionAdd("diractory", "directory");
             correctionAdd("DIR", "directory");
+            correctionAdd("director", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
@@ -24231,6 +24240,7 @@ namespace OverflowHelper.core
             correctionAdd("Hotspot", "HotSpot");
 
             correctionAdd("toc", "TOC");
+            correctionAdd("ToC", "TOC");
 
             correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
             correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
@@ -28638,6 +28648,40 @@ namespace OverflowHelper.core
             correctionAdd("rerturns", "returns");
 
             correctionAdd("tag line", "tagline");
+
+            correctionAdd("bier", "beer");
+
+            correctionAdd("clorinated", "chlorinated");
+
+            correctionAdd("gramatically", "grammatically");
+
+            correctionAdd("Mind map", "mind map");
+
+            correctionAdd("Procrastinate", "procrastinate");
+            correctionAdd("Procastinate", "procrastinate");
+
+            correctionAdd("conemu", "ConEmu");
+
+            correctionAdd("Edited", "edited");
+            correctionAdd("Editted", "edited");
+            correctionAdd("editted", "edited");
+
+            correctionAdd("error-message", "error message");
+
+            correctionAdd("Get the memo", "get the memo");
+
+            correctionAdd("pgadmin", "pgAdmin");
+            correctionAdd("PG Admin", "pgAdmin");
+
+            correctionAdd("reginol", "regional");
+
+            correctionAdd("Relational Calculus", "relational calculus");
+
+            correctionAdd("reopended", "reopened");
+
+            correctionAdd("Strangely", "strangely");
+            correctionAdd("Strangly", "strangely");
+            correctionAdd("strangly", "strangely");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45003,6 +45047,34 @@ namespace OverflowHelper.core
             URL_Add("returns", "https://en.wiktionary.org/wiki/return#Verb");
 
             URL_Add("tagline", "https://en.wiktionary.org/wiki/tagline#Noun");
+
+            URL_Add("beer", "https://en.wiktionary.org/wiki/beer#Noun");
+
+            URL_Add("chlorinated", "https://en.wiktionary.org/wiki/chlorinated#Adjective");
+
+            URL_Add("grammatically", "https://en.wiktionary.org/wiki/grammatically#Adverb");
+
+            URL_Add("mind map", "https://en.wikipedia.org/wiki/Mind_map");
+
+            URL_Add("procrastinate", "https://en.wiktionary.org/wiki/procrastinate#Verb");
+
+            URL_Add("ConEmu", "https://en.wikipedia.org/wiki/ConEmu");
+
+            URL_Add("edited", "https://en.wiktionary.org/wiki/edit#Verb");
+
+            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message");
+
+            URL_Add("get the memo", "https://www.youtube.com/watch?v=g0L-ry0jn6I");
+
+            URL_Add("pgAdmin", "https://en.wikipedia.org/wiki/PostgreSQL#Database_administration");
+
+            URL_Add("regional", "https://en.wiktionary.org/wiki/regional#Adjective");
+
+            URL_Add("relational calculus", "https://en.wikipedia.org/wiki/Relational_calculus");
+
+            URL_Add("reopened", "https://en.wiktionary.org/wiki/reopen#Verb");
+
+            URL_Add("strangely", "https://en.wiktionary.org/wiki/strangely#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
