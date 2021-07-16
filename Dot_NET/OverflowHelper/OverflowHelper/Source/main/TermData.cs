@@ -1225,6 +1225,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS Sierra 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("Mac 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("Mac OS Sierra 10.12", "macOS v10.12 (Sierra)");
+            correctionAdd("MacOS Sierra", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -1298,6 +1299,7 @@ namespace OverflowHelper.core
             correctionAdd("Storedprocedure", "stored procedure");
             correctionAdd("StoreProcedure", "stored procedure");
             correctionAdd("stored porcedure", "stored procedure");
+            correctionAdd("procs", "stored procedure");
 
             // Expansion, not case correction.
             correctionAdd("db", "database");
@@ -6172,6 +6174,7 @@ namespace OverflowHelper.core
             correctionAdd("knowadays", "nowadays");
             correctionAdd("Now days", "nowadays");
             correctionAdd("now-days", "nowadays");
+            correctionAdd("Now a days", "nowadays");
 
             correctionAdd("yii", "Yii");
 
@@ -6954,6 +6957,7 @@ namespace OverflowHelper.core
             correctionAdd("Webapplication", "web application");
             correctionAdd("webapplication", "web application");
             correctionAdd("web APP", "web application");
+            correctionAdd("Web application", "web application");
 
             correctionAdd("webservice", "web service");
             correctionAdd("WS", "web service"); // Alternative: Windows Server
@@ -10822,6 +10826,7 @@ namespace OverflowHelper.core
             correctionAdd("develepment", "development");
             correctionAdd("Devlopment", "development");
             correctionAdd("devlopment", "development");
+            correctionAdd("Development", "development");
 
             correctionAdd("simulateous", "simultaneous");
             correctionAdd("Similtanous", "simultaneous"); // Not 100% correct - case.
@@ -11035,6 +11040,7 @@ namespace OverflowHelper.core
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
+            correctionAdd("Management", "management");
 
             correctionAdd("portuguese", "Portuguese");
             correctionAdd("Purtiguise", "Portuguese");
@@ -15281,6 +15287,7 @@ namespace OverflowHelper.core
             correctionAdd("backwords", "backwards");
 
             correctionAdd("cheatsheet", "cheat sheet");
+            correctionAdd("cheat-sheet", "cheat sheet");
 
             correctionAdd("counter example", "counterexample");
             correctionAdd("counter-example", "counterexample");
@@ -15908,6 +15915,7 @@ namespace OverflowHelper.core
 
             correctionAdd("condtional", "conditional");
             correctionAdd("coditional", "conditional");
+            correctionAdd("conditionnal", "conditional");
 
             correctionAdd("criterias", "criteria");
             correctionAdd("citeria", "criteria");
@@ -20170,6 +20178,7 @@ namespace OverflowHelper.core
             correctionAdd("kivy", "Kivy");
 
             correctionAdd("newtonsoft", "Newtonsoft");
+            correctionAdd("NewtonSoft", "Newtonsoft");
 
             correctionAdd("SSN", "Social Security number");
             correctionAdd("ss#", "Social Security number");
@@ -27646,6 +27655,7 @@ namespace OverflowHelper.core
             correctionAdd("dealbreaker", "deal breaker");
 
             correctionAdd("disambigate", "disambiguate");
+            correctionAdd("disambuguate", "disambiguate");
 
             correctionAdd("telethon", "Telethon");
 
@@ -28523,6 +28533,7 @@ namespace OverflowHelper.core
             correctionAdd("high-definition", "high definition");
 
             correctionAdd("knowledgebase", "knowledge base");
+            correctionAdd("knowledge-base", "knowledge base");
 
             correctionAdd("Network topology", "network topology");
 
@@ -28682,6 +28693,35 @@ namespace OverflowHelper.core
             correctionAdd("Strangely", "strangely");
             correctionAdd("Strangly", "strangely");
             correctionAdd("strangly", "strangely");
+
+            correctionAdd("canopy", "Enthought Canopy");
+            correctionAdd("Canopy", "Enthought Canopy");
+
+            correctionAdd("london", "London");
+
+            correctionAdd("moscow", "Moscow");
+
+            correctionAdd("Burma", "Myanmar");
+
+            correctionAdd("russia", "Russia");
+
+            correctionAdd("san francisco", "San Francisco");
+
+            correctionAdd("washington", "Washington");
+
+            correctionAdd("DotTrace", "dotTrace");
+
+            correctionAdd("Infrastructure", "infrastructure");
+
+            correctionAdd("Law", "law");
+
+            correctionAdd("referer", "referrer");
+
+            correctionAdd("referers", "referrers");
+
+            correctionAdd("timeconsuming", "time-consuming");
+
+            correctionAdd("zig-zag", "zigzag");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45075,6 +45115,34 @@ namespace OverflowHelper.core
             URL_Add("reopened", "https://en.wiktionary.org/wiki/reopen#Verb");
 
             URL_Add("strangely", "https://en.wiktionary.org/wiki/strangely#Adverb");
+
+            URL_Add("Enthought Canopy", "https://en.wikipedia.org/wiki/Enthought");
+
+            URL_Add("London", "https://en.wikipedia.org/wiki/London");
+
+            URL_Add("Moscow", "https://en.wikipedia.org/wiki/Moscow");
+
+            URL_Add("Myanmar", "https://en.wikipedia.org/wiki/Myanmar");
+
+            URL_Add("Russia", "https://en.wikipedia.org/wiki/Russia");
+
+            URL_Add("San Francisco", "https://en.wikipedia.org/wiki/San_Francisco");
+
+            URL_Add("Washington", "https://en.wikipedia.org/wiki/Washington,_D.C.");
+
+            URL_Add("dotTrace", "https://en.wikipedia.org/wiki/JetBrains#ReSharper_Ultimate");
+
+            URL_Add("infrastructure", "https://en.wiktionary.org/wiki/infrastructure#Noun");
+
+            URL_Add("law", "https://en.wiktionary.org/wiki/law#Noun");
+
+            URL_Add("referrer", "https://en.wiktionary.org/wiki/referrer#Noun");
+
+            URL_Add("referrers", "https://en.wiktionary.org/wiki/referrer#Noun");
+
+            URL_Add("time-consuming", "https://en.wiktionary.org/wiki/time-consuming#Adjective");
+
+            URL_Add("zigzag", "https://en.wiktionary.org/wiki/zigzag#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
