@@ -6603,6 +6603,7 @@ namespace OverflowHelper.core
             correctionAdd("previledge", "privilege");
             correctionAdd("previllage", "privilege");
             correctionAdd("previllege", "privilege");
+            correctionAdd("Priviledge", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -12243,6 +12244,8 @@ namespace OverflowHelper.core
 
             correctionAdd("prof", "professor");
             correctionAdd("Prof", "professor");
+            correctionAdd("Professor", "professor");
+            correctionAdd("proffesor", "professor");
 
             correctionAdd("re-writing", "rewriting");
             correctionAdd("Re-writing", "rewriting");
@@ -14354,6 +14357,7 @@ namespace OverflowHelper.core
             correctionAdd("mtp", "MTP");
 
             correctionAdd("new york", "New York");
+            correctionAdd("NewYork", "New York");
 
             correctionAdd("onenote", "OneNote");
 
@@ -23028,6 +23032,7 @@ namespace OverflowHelper.core
             correctionAdd("astrominer", "astronomer");
 
             correctionAdd("compaire", "compare");
+            correctionAdd("comapre", "compare");
 
             correctionAdd("compaired", "compared");
 
@@ -25366,6 +25371,7 @@ namespace OverflowHelper.core
             correctionAdd("equiped", "equipped");
 
             correctionAdd("thsi", "this");
+            correctionAdd("tis", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -28258,6 +28264,7 @@ namespace OverflowHelper.core
             correctionAdd("gigling", "giggling");
 
             correctionAdd("on-boarding", "onboarding");
+            correctionAdd("on boarding", "onboarding");
 
             correctionAdd("p-n junction", "p-n&nbsp;junction");
             correctionAdd("pn junction", "p-n&nbsp;junction");
@@ -28722,6 +28729,33 @@ namespace OverflowHelper.core
             correctionAdd("timeconsuming", "time-consuming");
 
             correctionAdd("zig-zag", "zigzag");
+
+            correctionAdd("nxp", "NXP");
+
+            correctionAdd("nan", "NaN");
+
+            correctionAdd("Sri lanka", "Sri Lanka");
+            correctionAdd("Srilanka", "Sri Lanka");
+
+            correctionAdd("auto correct", "autocorrect");
+
+            correctionAdd("bi-monthly", "bimonthly");
+            correctionAdd("bi monthly", "bimonthly");
+
+            correctionAdd("cat and mouse", "cat-and-mouse");
+
+            correctionAdd("ro", "room owner (RO - chat)");
+
+            correctionAdd("trilogy", "the trilogy");
+
+            correctionAdd("thoughtfull", "thoughtful");
+
+            correctionAdd("catholic church", "Catholic Church");
+
+            correctionAdd("Texas", "Texas, United States");
+            correctionAdd("texas", "Texas, United States");
+
+            correctionAdd("at will employment", "at-will employment");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45143,6 +45177,30 @@ namespace OverflowHelper.core
             URL_Add("time-consuming", "https://en.wiktionary.org/wiki/time-consuming#Adjective");
 
             URL_Add("zigzag", "https://en.wiktionary.org/wiki/zigzag#Noun");
+
+            URL_Add("NXP", "https://en.wikipedia.org/wiki/NXP_Semiconductors");
+
+            URL_Add("NaN", "https://en.wiktionary.org/wiki/NaN#Noun");
+
+            URL_Add("Sri Lanka", "https://en.wikipedia.org/wiki/Sri_Lanka");
+
+            URL_Add("autocorrect", "https://en.wiktionary.org/wiki/autocorrect#Verb");
+
+            URL_Add("bimonthly", "https://en.wiktionary.org/wiki/bimonthly#Adjective");
+
+            URL_Add("cat-and-mouse", "https://en.wiktionary.org/wiki/cat-and-mouse#Adjective");
+
+            URL_Add("room owner (RO - chat)", "https://en.wikipedia.org/wiki/Online_chat");
+
+            URL_Add("the trilogy", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
+
+            URL_Add("thoughtful", "https://en.wiktionary.org/wiki/thoughtful#Adjective");
+
+            URL_Add("Catholic Church", "https://en.wikipedia.org/wiki/Catholic_Church");
+
+            URL_Add("Texas, United States", "https://en.wikipedia.org/wiki/Texas");
+
+            URL_Add("at-will employment", "https://en.wikipedia.org/wiki/At-will_employment");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
