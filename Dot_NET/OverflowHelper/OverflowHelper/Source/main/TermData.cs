@@ -717,6 +717,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL&nbsp;Server 2005", "SQL Server 2005");
             correctionAdd("MS SQL 2005", "SQL Server 2005");
             correctionAdd("MSSQL 2005", "SQL Server 2005");
+            correctionAdd("SQLServer 2005", "SQL Server 2005");
 
             correctionAdd("sql server 2008", "SQL Server 2008");
             correctionAdd("SQL 2008", "SQL Server 2008");
@@ -10871,6 +10872,8 @@ namespace OverflowHelper.core
 
             correctionAdd("consequtive", "consecutive");
             correctionAdd("consequitive", "consecutive");
+            correctionAdd("conseqitive", "consecutive");
+            correctionAdd("conseuqitive", "consecutive");
 
             correctionAdd("beleive", "believe");
             correctionAdd("belive", "believe");
@@ -15268,12 +15271,6 @@ namespace OverflowHelper.core
 
             correctionAdd("uesr", "user");
 
-            correctionAdd("Preg_replace", "preg_replace");
-
-            correctionAdd("Preg_match", "preg_match");
-
-            correctionAdd("Preg_match_all", "preg_match_all");
-
             correctionAdd("dash", "Dash");
             correctionAdd("DASH", "Dash");
             correctionAdd("Debian Almquist Shell", "Dash");
@@ -15985,8 +15982,6 @@ namespace OverflowHelper.core
             correctionAdd("shock-wave", "shock wave");
 
             correctionAdd("stricktly", "strictly");
-
-            correctionAdd("SUBSTR_REPLACE", "substr_replace");
 
             correctionAdd("thought out", "thought-out");
 
@@ -18392,6 +18387,7 @@ namespace OverflowHelper.core
             correctionAdd("Guido", "Guido van Rossum");
             correctionAdd("Guido Van Rosum", "Guido van Rossum");
             correctionAdd("Guido van Rosum", "Guido van Rossum");
+            correctionAdd("Guido Van Rossum", "Guido van Rossum");
 
             correctionAdd("illustrator", "Illustrator");
 
@@ -19591,6 +19587,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Software Recs", "Software Recommendations");
             correctionAdd("software recommendations", "Software Recommendations");
+            correctionAdd("sof rec", "Software Recommendations");
 
             correctionAdd("tcptrace", "TCPTrace");
             correctionAdd("Tcptrace", "TCPTrace");
@@ -19836,6 +19833,8 @@ namespace OverflowHelper.core
             correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("caled", "called");
             correctionAdd("callled", "called");
@@ -20245,7 +20244,16 @@ namespace OverflowHelper.core
 
             correctionAdd("infintely", "infinitely");
 
+            correctionAdd("Preg_replace", "preg_replace");
+
+            correctionAdd("Preg_match", "preg_match");
+
+            correctionAdd("Preg_match_all", "preg_match_all");
+
+            correctionAdd("SUBSTR_REPLACE", "substr_replace");
+
             correctionAdd("replase", "replace");
+            correctionAdd("repalce", "replace");
 
             correctionAdd("CSP", "Content Security Policy");
             correctionAdd("content security policy", "Content Security Policy");
@@ -22540,6 +22548,7 @@ namespace OverflowHelper.core
             correctionAdd("bool", "Boolean");
             correctionAdd("Bool", "Boolean");
             correctionAdd("boolian", "Boolean");
+            correctionAdd("boolena", "Boolean");
 
             correctionAdd("Lean", "lean");
             correctionAdd("LEAN", "lean");
@@ -22808,6 +22817,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pandas", "Pandas");
             correctionAdd("padas", "Pandas");
+            correctionAdd("Panda", "Pandas");
 
             correctionAdd("where as", "whereas");
             correctionAdd("wheras", "whereas");
@@ -27657,6 +27667,7 @@ namespace OverflowHelper.core
             correctionAdd("bachelors", "bachelor's degree");
 
             correctionAdd("Carriage Return", "carriage return");
+            correctionAdd("c/r", "carriage return");
 
             correctionAdd("dealbreaker", "deal breaker");
 
@@ -28756,6 +28767,44 @@ namespace OverflowHelper.core
             correctionAdd("texas", "Texas, United States");
 
             correctionAdd("at will employment", "at-will employment");
+
+            correctionAdd("amd module", "AMD module");
+
+            correctionAdd("dirac delta", "Dirac delta function");
+            correctionAdd("Dirac Delta", "Dirac delta function");
+
+            correctionAdd("IDLE3", "IDLE&nbsp;3");
+            correctionAdd("IDLE 3", "IDLE&nbsp;3");
+
+            correctionAdd("jed", "JED");
+
+            correctionAdd("Universal Module Definition", "UMD");
+            correctionAdd("umd", "UMD");
+            correctionAdd("universal module definition", "UMD");
+
+            correctionAdd("archtypical", "archetypical");
+
+            correctionAdd("on my own risk", "at my own risk");
+
+            correctionAdd("blaim", "blame");
+
+            correctionAdd("inconveniente", "inconvenient");
+
+            correctionAdd("Micro", "micro");
+
+            correctionAdd("profylactic", "prophylactic");
+
+            correctionAdd("re-assure", "reassure");
+
+            correctionAdd("referr", "refer");
+
+            correctionAdd("replys", "replies");
+
+            correctionAdd("teamplayer", "team player");
+
+            correctionAdd("unpredicability", "unpredictability");
+
+            correctionAdd("vecorized", "vectorized");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45201,6 +45250,40 @@ namespace OverflowHelper.core
             URL_Add("Texas, United States", "https://en.wikipedia.org/wiki/Texas");
 
             URL_Add("at-will employment", "https://en.wikipedia.org/wiki/At-will_employment");
+
+            URL_Add("AMD module", "https://en.wikipedia.org/wiki/Asynchronous_module_definition");
+
+            URL_Add("Dirac delta function", "https://en.wikipedia.org/wiki/Dirac_delta_function");
+
+            URL_Add("IDLE&nbsp;3", "https://en.wikipedia.org/wiki/IDLE");
+
+            URL_Add("JED", "https://en.wikipedia.org/wiki/JED_(text_editor)");
+
+            URL_Add("UMD", "http://jargon.js.org/_glossary/UMD.md");
+
+            URL_Add("archetypical", "https://en.wiktionary.org/wiki/archetypical#Adjective");
+
+            URL_Add("at my own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
+
+            URL_Add("blame", "https://en.wiktionary.org/wiki/blame#Verb");
+
+            URL_Add("inconvenient", "https://en.wiktionary.org/wiki/inconvenient#Adjective");
+
+            URL_Add("micro", "https://micro-editor.github.io/");
+
+            URL_Add("prophylactic", "https://en.wiktionary.org/wiki/prophylactic#Adjective");
+
+            URL_Add("reassure", "https://en.wiktionary.org/wiki/reassure#Verb");
+
+            URL_Add("refer", "https://en.wiktionary.org/wiki/refer#Verb");
+
+            URL_Add("replies", "https://en.wiktionary.org/wiki/reply#Noun");
+
+            URL_Add("team player", "https://en.wiktionary.org/wiki/team_player#Noun");
+
+            URL_Add("unpredictability", "https://en.wiktionary.org/wiki/unpredictability#Noun");
+
+            URL_Add("vectorized", "https://en.wiktionary.org/wiki/vectorize#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
