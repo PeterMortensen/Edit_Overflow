@@ -3371,6 +3371,7 @@ namespace OverflowHelper.core
             correctionAdd("aplplication", "application");
             correctionAdd("applicaltion", "application");
             correctionAdd("applicaion", "application");
+            correctionAdd("applciation", "application");
 
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
@@ -5596,6 +5597,7 @@ namespace OverflowHelper.core
             correctionAdd("ETHERNET", "Ethernet");
             correctionAdd("ehternet", "Ethernet");
             correctionAdd("eth", "Ethernet");
+            correctionAdd("EtherNet", "Ethernet");
 
             correctionAdd("f#", "F#");
             correctionAdd("Fsharp", "F#");
@@ -6915,6 +6917,7 @@ namespace OverflowHelper.core
             correctionAdd("no-one", "no one");
             correctionAdd("No one", "no one");
             correctionAdd("No-one", "no one");
+            correctionAdd("NOONE", "no one");
 
             correctionAdd("gprs", "GPRS");
 
@@ -8116,6 +8119,7 @@ namespace OverflowHelper.core
             correctionAdd("messge", "message");
             correctionAdd("messaget", "message");
             correctionAdd("meesage", "message");
+            correctionAdd("messsage", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -10526,6 +10530,7 @@ namespace OverflowHelper.core
 
             correctionAdd("youre", "you're");
             correctionAdd("Ur", "you're");
+            correctionAdd("your'e", "you're");
 
             correctionAdd("umbraco", "Umbraco");
 
@@ -13344,6 +13349,7 @@ namespace OverflowHelper.core
             correctionAdd("absorbtion", "absorption");
 
             correctionAdd("arxiv", "arXiv");
+            correctionAdd("ArXiv", "arXiv");
 
             correctionAdd("buddhist", "Buddhist");
 
@@ -15557,6 +15563,8 @@ namespace OverflowHelper.core
             correctionAdd("congrats", "congratulations");
             correctionAdd("Congrats", "congratulations");
             correctionAdd("Cograts", "congratulations");
+            correctionAdd("Congrates", "congratulations");
+            correctionAdd("congrates", "congratulations");
 
             correctionAdd("questionmark", "question mark");
 
@@ -19181,6 +19189,7 @@ namespace OverflowHelper.core
             correctionAdd("functionalility", "functionality");
 
             correctionAdd("long standing", "long-standing");
+            correctionAdd("longstanding", "long-standing");
 
             correctionAdd("coup d'etat", "coup d'état");
 
@@ -28805,6 +28814,47 @@ namespace OverflowHelper.core
             correctionAdd("unpredicability", "unpredictability");
 
             correctionAdd("vecorized", "vectorized");
+
+            correctionAdd("csc", "CSC");
+            correctionAdd("CVC", "CSC");
+            correctionAdd("cvc", "CSC");
+
+            correctionAdd("game of life", "Game of Life");
+
+            correctionAdd("google translator toolkit", "Google Translator Toolkit");
+
+            correctionAdd("Windows Live translator", "Microsoft Translator");
+            correctionAdd("Bing Translate", "Microsoft Translator");
+            correctionAdd("Bing Translator", "Microsoft Translator");
+
+            correctionAdd("roblox", "Roblox");
+
+            correctionAdd("auto correcting", "autocorrecting");
+
+            correctionAdd("collectivly", "collectively");
+
+            correctionAdd("illlustion", "illusion");
+
+            correctionAdd("industrial strength", "industrial-strength");
+            correctionAdd("industrial grade", "industrial-strength");
+
+            correctionAdd("laughbale", "laughable");
+
+            correctionAdd("listenning", "listening");
+
+            correctionAdd("Machine Translation", "machine translation");
+
+            correctionAdd("re-display", "redisplay");
+
+            correctionAdd("re-displayed", "redisplayed");
+
+            correctionAdd("star", "start");
+            correctionAdd("Start", "start");
+            correctionAdd("Star", "start");
+
+            correctionAdd("turnoff", "turn off");
+
+            correctionAdd("ELI5", "explain like I'm five"); // But note it is now ambiguous due to the machine learning dataset of the same name (see e.g. <https://huggingface.co/datasets/eli5>)
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45284,6 +45334,40 @@ namespace OverflowHelper.core
             URL_Add("unpredictability", "https://en.wiktionary.org/wiki/unpredictability#Noun");
 
             URL_Add("vectorized", "https://en.wiktionary.org/wiki/vectorize#Verb");
+
+            URL_Add("CSC", "https://en.wikipedia.org/wiki/Card_security_code");
+
+            URL_Add("Game of Life", "https://en.wikipedia.org/wiki/Conway's_Game_of_Life");
+
+            URL_Add("Google Translator Toolkit", "https://en.wikipedia.org/wiki/Google_Translator_Toolkit");
+
+            URL_Add("Microsoft Translator", "https://en.wikipedia.org/wiki/Microsoft_Translator#History");
+
+            URL_Add("Roblox", "https://en.wikipedia.org/wiki/Roblox");
+
+            URL_Add("autocorrecting", "https://en.wiktionary.org/wiki/autocorrect#Verb");
+
+            URL_Add("collectively", "https://en.wiktionary.org/wiki/collectively#Adverb");
+
+            URL_Add("explain like I'm five", "https://en.wiktionary.org/wiki/ELI5#Phrase");
+
+            URL_Add("illusion", "https://en.wiktionary.org/wiki/illusion#Noun");
+
+            URL_Add("industrial-strength", "https://en.wiktionary.org/wiki/industrial-strength");
+
+            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
+
+            URL_Add("listening", "https://en.wiktionary.org/wiki/listen#Verb");
+
+            URL_Add("machine translation", "https://en.wikipedia.org/wiki/Machine_translation");
+
+            URL_Add("redisplay", "https://en.wiktionary.org/wiki/redisplay#Verb");
+
+            URL_Add("redisplayed", "https://en.wiktionary.org/wiki/redisplay#Verb");
+
+            URL_Add("start", "https://en.wiktionary.org/wiki/start#Verb");
+
+            URL_Add("turn off", "https://en.wiktionary.org/wiki/turn_off#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
