@@ -5299,6 +5299,8 @@ namespace OverflowHelper.core
             correctionAdd("win 2k3", "Windows Server 2003");
             correctionAdd("Srv2003", "Windows Server 2003");
             correctionAdd("Srv 2003", "Windows Server 2003");
+            correctionAdd("W2K3", "Windows Server 2003");
+            correctionAdd("w2k3", "Windows Server 2003");
 
             correctionAdd("exchange", "Microsoft Exchange Server");
             correctionAdd("Exchange", "Microsoft Exchange Server");
@@ -10492,6 +10494,7 @@ namespace OverflowHelper.core
             correctionAdd("what ever", "whatever");
             correctionAdd("w/e", "whatever");
             correctionAdd("whatewer", "whatever");
+            correctionAdd("What ever", "whatever");
 
             correctionAdd("pydev", "PyDev");
             correctionAdd("Pydev", "PyDev");
@@ -11457,6 +11460,7 @@ namespace OverflowHelper.core
             correctionAdd("your self", "yourself");
             correctionAdd("yourselves", "yourself");
             correctionAdd("yourselv", "yourself");
+            correctionAdd("urself", "yourself");
 
             correctionAdd("atom", "Atom");
             correctionAdd("ATOM", "Atom");
@@ -16038,6 +16042,7 @@ namespace OverflowHelper.core
             correctionAdd("mbit/s", "&nbsp;Mbit/s");
             correctionAdd("MBit", "&nbsp;Mbit/s");
             correctionAdd("Mbit", "&nbsp;Mbit/s");
+            correctionAdd("megabit/s", "&nbsp;Mbit/s");
 
             correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
             correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
@@ -16047,6 +16052,7 @@ namespace OverflowHelper.core
             correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
             correctionAdd("gb/s", "&nbsp;Gbit/s");
             correctionAdd("gbit/s", "&nbsp;Gbit/s");
+            correctionAdd("GBit/s", "&nbsp;Gbit/s");
 
             correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
             correctionAdd("hz", "&nbsp;Hz"); // Spelling.
@@ -20326,6 +20332,8 @@ namespace OverflowHelper.core
             correctionAdd("Algorithmic", "algorithmic");
 
             correctionAdd("assocciation", "association");
+            correctionAdd("Assocation", "association");
+            correctionAdd("assocation", "association");
 
             correctionAdd("instanciating", "instantiating");
 
@@ -22039,6 +22047,7 @@ namespace OverflowHelper.core
 
             correctionAdd("puppeteer", "Puppeteer");
             correctionAdd("puppetter", "Puppeteer");
+            correctionAdd("pypeteer", "Puppeteer");
 
             correctionAdd("Abelian", "abelian");
 
@@ -22506,6 +22515,7 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
             correctionAdd("ES8", "ECMAScript&nbsp;2017");
             correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
 
             correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
             correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
@@ -26114,6 +26124,7 @@ namespace OverflowHelper.core
 
             correctionAdd("additon", "addition");
             correctionAdd("addion", "addition");
+            correctionAdd("addtion", "addition");
 
             correctionAdd("client side", "client-side");
 
@@ -28855,6 +28866,31 @@ namespace OverflowHelper.core
             correctionAdd("turnoff", "turn off");
 
             correctionAdd("ELI5", "explain like I'm five"); // But note it is now ambiguous due to the machine learning dataset of the same name (see e.g. <https://huggingface.co/datasets/eli5>)
+
+            correctionAdd("2g", "2G");
+
+            correctionAdd("alder lake", "Alder Lake");
+
+            correctionAdd("watir", "Watir");
+
+            correctionAdd("auto-complete", "autocomplete");
+
+            correctionAdd("datacenter", "data center");
+
+            correctionAdd("identied", "identified");
+
+            correctionAdd("iocp", "input/output completion port");
+            correctionAdd("completion port", "input/output completion port");
+            correctionAdd("Completion Port", "input/output completion port");
+            correctionAdd("I/O completion port", "input/output completion port");
+            correctionAdd("IOCP", "input/output completion port");
+
+            correctionAdd("knee jerk", "knee-jerk");
+
+            correctionAdd("LOH", "large object heap");
+            correctionAdd("Large Object Heap", "large object heap");
+
+            correctionAdd("push back", "pushback");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45368,6 +45404,26 @@ namespace OverflowHelper.core
             URL_Add("start", "https://en.wiktionary.org/wiki/start#Verb");
 
             URL_Add("turn off", "https://en.wiktionary.org/wiki/turn_off#Verb");
+
+            URL_Add("2G", "https://en.wikipedia.org/wiki/2G");
+
+            URL_Add("Alder Lake", "https://en.wikipedia.org/wiki/Alder_Lake_(microprocessor)");
+
+            URL_Add("Watir", "https://en.wikipedia.org/wiki/Watir");
+
+            URL_Add("autocomplete", "https://en.wiktionary.org/wiki/autocomplete#Verb");
+
+            URL_Add("data center", "https://en.wikipedia.org/wiki/Data_center");
+
+            URL_Add("identified", "https://en.wiktionary.org/wiki/identify#Verb");
+
+            URL_Add("input/output completion port", "https://en.wikipedia.org/wiki/Input/output_completion_port");
+
+            URL_Add("knee-jerk", "https://en.wiktionary.org/wiki/knee-jerk#Adjective");
+
+            URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
+
+            URL_Add("pushback", "https://en.wiktionary.org/wiki/pushback#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
