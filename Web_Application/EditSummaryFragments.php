@@ -351,8 +351,10 @@
                 />
             </p>
 
-            <p>Some older posts on Stack Overflow have strange syntax
-                highlighting, probably caused by later changes to the
+            <p>Some older posts on Stack Overflow have strange 
+                <a href="https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109"
+                >syntax highlighting</a>, 
+                probably caused by later changes to the
                 Stack Exchange software. Possible code fencing formatting:
                 ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash,
                 ```lang-php, ```lang-css, ```lang-xml, ```lang-java,
