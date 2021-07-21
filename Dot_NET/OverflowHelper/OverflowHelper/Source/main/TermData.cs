@@ -342,6 +342,7 @@ namespace OverflowHelper.core
             correctionAdd("MS Win", "Windows");
             correctionAdd("Microsoft Windows", "Windows");
             correctionAdd("Wondows", "Windows");
+            correctionAdd("MS WINDOWS", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -1317,6 +1318,7 @@ namespace OverflowHelper.core
             correctionAdd("Database", "database");
             correctionAdd("datase", "database");
             correctionAdd("dbs", "database");
+            correctionAdd("Data Base", "database");
 
             correctionAdd("ria", "RIA");
             correctionAdd("Rich Internet application", "RIA");
@@ -4960,6 +4962,7 @@ namespace OverflowHelper.core
             correctionAdd("amazon-s3", "Amazon S3");
             correctionAdd("aws-s3", "Amazon S3");
             correctionAdd("aws s3", "Amazon S3");
+            correctionAdd("S3 Amazon", "Amazon S3");
 
             correctionAdd("Amazon aws", "Amazon AWS");
             correctionAdd("aws", "Amazon AWS");
@@ -6060,6 +6063,7 @@ namespace OverflowHelper.core
             correctionAdd("javabeans", "JavaBeans");
 
             correctionAdd("hosts", "hosts file");
+            correctionAdd("host file", "hosts file");
 
             correctionAdd("chkdsk", "CHKDSK");
             correctionAdd("ChkDsk", "CHKDSK");
@@ -9872,6 +9876,7 @@ namespace OverflowHelper.core
             correctionAdd("builitin", "built-in");
             correctionAdd("in built", "built-in");
             correctionAdd("in-built", "built-in");
+            correctionAdd("buid-in", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -12579,6 +12584,8 @@ namespace OverflowHelper.core
             correctionAdd("specifiy", "specify");
 
             correctionAdd("splitted", "split");
+            correctionAdd("spited", "split");
+            correctionAdd("splited", "split");
 
             correctionAdd("spontaniously", "spontaneously");
 
@@ -13199,6 +13206,7 @@ namespace OverflowHelper.core
             correctionAdd("instr", "instruction");
             correctionAdd("instruciton", "instruction");
             correctionAdd("intruction", "instruction");
+            correctionAdd("insn", "instruction");
 
             correctionAdd("Km", "km");
             correctionAdd("KM", "km");
@@ -13527,6 +13535,7 @@ namespace OverflowHelper.core
             correctionAdd("top level domain", "top-level domain");
             correctionAdd("Top Level Domain", "top-level domain");
             correctionAdd("TLD", "top-level domain");
+            correctionAdd("tld", "top-level domain");
 
             correctionAdd("doamin", "domain");
             correctionAdd("domen", "domain");
@@ -13973,6 +13982,7 @@ namespace OverflowHelper.core
             correctionAdd("nusance", "nuisance");
 
             correctionAdd("ocurr", "occur");
+            correctionAdd("occure", "occur");
 
             correctionAdd("permanant", "permanent");
 
@@ -15157,6 +15167,8 @@ namespace OverflowHelper.core
 
             correctionAdd("re-add", "readd");
             correctionAdd("Re-add", "readd");
+            correctionAdd("Re add", "readd");
+            correctionAdd("re add", "readd");
 
             correctionAdd("shutdown", "shut down");
 
@@ -15541,6 +15553,7 @@ namespace OverflowHelper.core
             correctionAdd("hostmane", "hostname");
             correctionAdd("hostmame", "hostname");
             correctionAdd("hostnane", "hostname");
+            correctionAdd("host-name", "hostname");
 
             correctionAdd("limitter", "limiter");
 
@@ -16729,6 +16742,7 @@ namespace OverflowHelper.core
             correctionAdd("Reilly", "O'Reilly Media");
             correctionAdd("O'Reilley", "O'Reilly Media");
             correctionAdd("Oreilly", "O'Reilly Media");
+            correctionAdd("O'Reilly", "O'Reilly Media");
 
             correctionAdd("spotify", "Spotify");
 
@@ -17798,15 +17812,16 @@ namespace OverflowHelper.core
             correctionAdd("Aliminium", "aluminium");
             correctionAdd("aliminium", "aluminium");
 
-            correctionAdd("doxygen", "Doxygen");
-
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
             correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
             correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
             correctionAdd("Eclipse Oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
 
+            correctionAdd("doxygen", "Doxygen");
+
             correctionAdd("oxigen", "oxygen");
             correctionAdd("oxegen", "oxygen");
+            correctionAdd("Oxygen", "oxygen");
 
             correctionAdd("alcohol", "ethanol");
             correctionAdd("ethyl alcohol", "ethanol");
@@ -18210,6 +18225,7 @@ namespace OverflowHelper.core
             correctionAdd("creative commons", "Creative Commons");
             correctionAdd("Creative Common", "Creative Commons");
             correctionAdd("CreativeCommons", "Creative Commons");
+            correctionAdd("cc", "Creative Commons");
 
             correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
             correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
@@ -24459,6 +24475,7 @@ namespace OverflowHelper.core
             correctionAdd("compilant", "compliant");
             correctionAdd("compilani", "compliant");
             correctionAdd("complaint", "compliant");
+            correctionAdd("complient", "compliant");
 
             correctionAdd("error free", "errorfree");
             correctionAdd("error-free", "errorfree");
@@ -28891,6 +28908,65 @@ namespace OverflowHelper.core
             correctionAdd("Large Object Heap", "large object heap");
 
             correctionAdd("push back", "pushback");
+
+            correctionAdd("gitignore", ".gitignore file");
+
+            correctionAdd("Core 2", "Core&nbsp;2");
+            correctionAdd("Core2", "Core&nbsp;2");
+            correctionAdd("core2", "Core&nbsp;2");
+            correctionAdd("core 2", "Core&nbsp;2");
+            correctionAdd("core i2", "Core&nbsp;2");
+
+            correctionAdd("haswell", "Haswell");
+
+            correctionAdd("Landau", "Martin Landau");
+
+            correctionAdd("npc", "NPC");
+
+            correctionAdd("opteron", "Opteron");
+
+            correctionAdd("P5 pentium", "P5");
+            correctionAdd("P5 Pentium", "P5");
+
+            correctionAdd("P6 pentium", "P6");
+            correctionAdd("P6 Pentium", "P6");
+
+            correctionAdd("Pentium III", "Pentium&nbsp;III");
+            correctionAdd("Pentium 3", "Pentium&nbsp;III");
+            correctionAdd("PentiumIII", "Pentium&nbsp;III");
+
+            correctionAdd("Moonbase Alpha", "Space: 1999");
+            correctionAdd("Space 1999", "Space: 1999");
+
+            correctionAdd("tlb", "TLB");
+
+            correctionAdd("Temple OS", "TempleOS");
+            correctionAdd("templeos", "TempleOS");
+            correctionAdd("temple os", "TempleOS");
+            correctionAdd("temple OS", "TempleOS");
+
+            correctionAdd("auto-completing", "autocompleting");
+
+            correctionAdd("hillybilly", "hillbilly");
+
+            correctionAdd("Mainframe", "mainframe");
+
+            correctionAdd("microarch", "microarchitecture");
+            correctionAdd("µarch", "microarchitecture");
+
+            correctionAdd("mindreading", "mind-reading");
+
+            correctionAdd("noun-phrase", "noun phrase");
+
+            correctionAdd("provived", "provided");
+
+            correctionAdd("re order", "reorder");
+
+            correctionAdd("skimable", "skimmable");
+
+            correctionAdd("Software Developer", "software developer");
+
+            correctionAdd("spended", "spent");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45424,6 +45500,52 @@ namespace OverflowHelper.core
             URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
 
             URL_Add("pushback", "https://en.wiktionary.org/wiki/pushback#Noun");
+
+            URL_Add(".gitignore file", "https://git-scm.com/docs/gitignore");
+
+            URL_Add("Core&nbsp;2", "https://en.wikipedia.org/wiki/Intel_Core_2");
+
+            URL_Add("Haswell", "https://en.wikipedia.org/wiki/Haswell_%28microarchitecture%29");
+
+            URL_Add("Martin Landau", "https://en.wikipedia.org/wiki/Martin_Landau");
+
+            URL_Add("NPC", "https://en.wikipedia.org/wiki/NP-completeness");
+
+            URL_Add("Opteron", "https://en.wikipedia.org/wiki/Opteron");
+
+            URL_Add("P5", "https://en.wikipedia.org/wiki/P5_%28microarchitecture%29");
+
+            URL_Add("P6", "https://en.wikipedia.org/wiki/P6_(microarchitecture)");
+
+            URL_Add("Pentium&nbsp;III", "https://en.wikipedia.org/wiki/Pentium_III");
+
+            URL_Add("Space: 1999", "https://en.wikipedia.org/wiki/Space%3A_1999");
+
+            URL_Add("TLB", "https://en.wikipedia.org/wiki/Translation_lookaside_buffer");
+
+            URL_Add("TempleOS", "https://en.wikipedia.org/wiki/TempleOS");
+
+            URL_Add("autocompleting", "https://en.wiktionary.org/wiki/autocomplete#Verb");
+
+            URL_Add("hillbilly", "https://en.wiktionary.org/wiki/hillbilly#Noun");
+
+            URL_Add("mainframe", "https://en.wiktionary.org/wiki/mainframe#Noun");
+
+            URL_Add("microarchitecture", "https://en.wikipedia.org/wiki/Microarchitecture");
+
+            URL_Add("mind-reading", "https://en.wiktionary.org/wiki/mind-reading#Noun");
+
+            URL_Add("noun phrase", "https://en.wiktionary.org/wiki/noun_phrase#Noun");
+
+            URL_Add("provided", "https://en.wiktionary.org/wiki/provide#Verb");
+
+            URL_Add("reorder", "https://en.wiktionary.org/wiki/reorder#Verb");
+
+            URL_Add("skimmable", "https://en.wiktionary.org/wiki/skimmable");
+
+            URL_Add("software developer", "https://simple.wikipedia.org/wiki/Software_developer");
+
+            URL_Add("spent", "https://en.wiktionary.org/wiki/spend#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
