@@ -4487,10 +4487,11 @@ namespace OverflowHelper.core
             correctionAdd("You'r", "your");
             correctionAdd("Your", "your");
 
-            correctionAdd("havent", "haven't");
-            correctionAdd("havn't", "haven't");
-            correctionAdd("Havent", "haven't");
-            correctionAdd("haven´t", "haven't");
+            correctionAdd("havent", "haven’t");
+            correctionAdd("havn't", "haven’t");
+            correctionAdd("Havent", "haven’t");
+            correctionAdd("haven´t", "haven’t");
+            correctionAdd("haven't", "haven’t");
 
             correctionAdd("fbml", "FBML");
             correctionAdd("fmbl", "FBML");
@@ -6380,7 +6381,8 @@ namespace OverflowHelper.core
 
             correctionAdd("xstream", "XStream");
 
-            correctionAdd("jersey", "Jersey");
+            correctionAdd("jersey", "Eclipse Jersey");
+            correctionAdd("Jersey", "Eclipse Jersey");
 
             correctionAdd("opera mini", "Opera Mini");
 
@@ -8912,9 +8914,10 @@ namespace OverflowHelper.core
 
             correctionAdd("msgbox", "MsgBox");
 
-            correctionAdd("phd", "PhD");
-            correctionAdd("PHD", "PhD");
-            correctionAdd("Phd", "PhD");
+            correctionAdd("phd", "Ph.D.");
+            correctionAdd("PHD", "Ph.D.");
+            correctionAdd("Phd", "Ph.D.");
+            correctionAdd("PhD", "Ph.D.");
 
             correctionAdd("togheter", "together");
 
@@ -9284,10 +9287,11 @@ namespace OverflowHelper.core
             correctionAdd("din’t", "didn’t");
             correctionAdd("did`nt", "didn’t");
 
-            correctionAdd("thats", "that's");
-            correctionAdd("Thats", "that's"); // Not 100% correct (case)
-            correctionAdd("That’s", "that's"); // Not 100% correct (case)
-            correctionAdd("that’s", "that's");
+            correctionAdd("thats", "that’s");
+            correctionAdd("Thats", "that’s"); // Not 100% correct (case)
+            correctionAdd("That’s", "that’s"); // Not 100% correct (case)
+            correctionAdd("That's", "that’s"); // Not 100% correct (case)
+            correctionAdd("that's", "that’s");
 
             // correctionAdd("v.s", "vs."); // Bug...
             correctionAdd("versus", "vs."); //
@@ -12411,11 +12415,6 @@ namespace OverflowHelper.core
             correctionAdd("full fill", "fulfill");
             correctionAdd("ful fill", "fulfill");
             correctionAdd("fulfil", "fulfill");
-
-            correctionAdd("it self", "itself");
-            correctionAdd("itsself", "itself");
-            correctionAdd("itselft", "itself");
-            correctionAdd("it'self", "itself");
 
             correctionAdd("milliamps", "milliamperes");
 
@@ -16888,6 +16887,11 @@ namespace OverflowHelper.core
             correctionAdd("agaibst", "against");
             correctionAdd("agains", "against");
 
+            correctionAdd("it self", "itself");
+            correctionAdd("itsself", "itself");
+            correctionAdd("itselft", "itself");
+            correctionAdd("it'self", "itself");
+
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it´s", "it’s");
@@ -20806,7 +20810,6 @@ namespace OverflowHelper.core
             correctionAdd("Write-Object", "Write-Output");
             correctionAdd("write-output", "Write-Output");
             correctionAdd("write-Output", "Write-Output");
-            correctionAdd("write", "Write-Output");
             correctionAdd("Write", "Write-Output");
             correctionAdd("Write-output", "Write-Output");
             correctionAdd("write-ouptut", "Write-Output");
@@ -30037,7 +30040,7 @@ namespace OverflowHelper.core
 
             URL_Add("JDBC", "https://en.wikipedia.org/wiki/Java_Database_Connectivity");
 
-            URL_Add("WAR", "https://en.wikipedia.org/wiki/WAR_%28Sun_file_format%29");
+            URL_Add("WAR", "https://en.wikipedia.org/wiki/WAR_(file_format)"); // Old: <https://en.wikipedia.org/wiki/WAR_%28Sun_file_format%29>
 
             URL_Add("H2", "https://en.wikipedia.org/wiki/H2_%28DBMS%29");
 
@@ -30069,7 +30072,7 @@ namespace OverflowHelper.core
 
             URL_Add("LINQ&nbsp;to&nbsp;Objects", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_Objects");
 
-            URL_Add("iBATIS", "https://en.wikipedia.org/wiki/IBATIS");
+            URL_Add("iBATIS", "https://en.wikipedia.org/wiki/Apache_iBATIS"); // Old: <https://en.wikipedia.org/wiki/IBATIS>
 
             URL_Add("Wireshark", "https://en.wikipedia.org/wiki/Wireshark");
 
@@ -30653,7 +30656,7 @@ namespace OverflowHelper.core
 
             URL_Add("your", "https://en.wiktionary.org/wiki/your");
 
-            URL_Add("haven't", "https://en.wiktionary.org/wiki/haven%27t#Contraction");
+            URL_Add("haven’t", "https://en.wiktionary.org/wiki/haven%27t#Contraction");
 
             URL_Add("Emacs&nbsp;Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
 
@@ -31405,7 +31408,7 @@ namespace OverflowHelper.core
 
             URL_Add("XStream", "https://en.wikipedia.org/wiki/XStream");
 
-            URL_Add("Jersey", "https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services#Jersey");
+            URL_Add("Eclipse Jersey", "https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services#Jersey");
 
             URL_Add("Opera Mini", "https://en.wikipedia.org/wiki/Opera_Mini");
 
@@ -32225,7 +32228,7 @@ namespace OverflowHelper.core
 
             URL_Add("The C Programming Language", "https://en.wikipedia.org/wiki/The_C_Programming_Language");
 
-            URL_Add("PhD", "https://en.wikipedia.org/wiki/Doctor_of_Philosophy");
+            URL_Add("Ph.D.", "https://en.wikipedia.org/wiki/Doctor_of_Philosophy");
 
             URL_Add("together", "https://en.wiktionary.org/wiki/together#Adverb");
 
@@ -32395,7 +32398,7 @@ namespace OverflowHelper.core
 
             URL_Add("didn’t", "https://en.wiktionary.org/wiki/didn't#Contraction");
 
-            URL_Add("that's", "https://en.wiktionary.org/wiki/that's#Contraction");
+            URL_Add("that’s", "https://en.wiktionary.org/wiki/that's#Contraction");
 
             URL_Add("vs.", "https://en.wiktionary.org/wiki/vs.#Preposition");
 
@@ -43266,7 +43269,7 @@ namespace OverflowHelper.core
 
             URL_Add("goodbye", "https://en.wiktionary.org/wiki/goodbye#Interjection");
 
-            URL_Add("must-read", "https://en.wiktionary.org/wiki/must-read");
+            URL_Add("must-read", "https://en.wiktionary.org/wiki/must-read#Noun"); // Old: <https://en.wiktionary.org/wiki/must-read>
 
             URL_Add("sidetrack", "https://en.wiktionary.org/wiki/sidetrack#Verb");
 
