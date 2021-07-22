@@ -5064,6 +5064,13 @@ namespace OverflowHelper.core
             correctionAdd("gentoo", "Gentoo Linux");
             correctionAdd("Gentoo linux", "Gentoo Linux");
             correctionAdd("Gentoo", "Gentoo Linux");
+            correctionAdd("gent0os", "Gentoo Linux");
+            correctionAdd("gentoos", "Gentoo Linux");
+            correctionAdd("gentos", "Gentoo Linux");
+            correctionAdd("Gentos", "Gentoo Linux");
+            correctionAdd("gent0", "Gentoo Linux");
+            correctionAdd("gent0o", "Gentoo Linux");
+            correctionAdd("gento0", "Gentoo Linux");
 
             correctionAdd("java webstart", "Java Web Start");
             correctionAdd("WebStart", "Java Web Start");
@@ -9579,6 +9586,7 @@ namespace OverflowHelper.core
             correctionAdd("android studios", "Android Studio");
             correctionAdd("Android studio", "Android Studio");
             correctionAdd("andriod studio", "Android Studio");
+            correctionAdd("Android-Studio", "Android Studio");
 
             correctionAdd("western digital", "Western Digital");
             correctionAdd("WD", "Western Digital");
@@ -10462,6 +10470,7 @@ namespace OverflowHelper.core
             correctionAdd("Thnaks", "thanks");
             correctionAdd("thnaks", "thanks");
             correctionAdd("tnks", "thanks");
+            correctionAdd("THX", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -12045,6 +12054,7 @@ namespace OverflowHelper.core
             correctionAdd("solutiion", "solution");
             correctionAdd("SOLUTION", "solution");
             correctionAdd("soution", "solution");
+            correctionAdd("Solution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -12495,6 +12505,7 @@ namespace OverflowHelper.core
             correctionAdd("exlusive", "exclusive");
 
             correctionAdd("Iron", "iron");
+            correctionAdd("Fe", "iron");
 
             correctionAdd("loks", "looks");
 
@@ -14249,6 +14260,7 @@ namespace OverflowHelper.core
             correctionAdd("probel", "problem");
             correctionAdd("proble", "problem");
             correctionAdd("probelem", "problem");
+            correctionAdd("Problem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -14432,6 +14444,8 @@ namespace OverflowHelper.core
             correctionAdd("excute", "execute");
             correctionAdd("exceute", "execute");
             correctionAdd("exacute", "execute");
+            correctionAdd("Execurte", "execute");
+            correctionAdd("execurte", "execute");
 
             correctionAdd("extremeties", "extremities");
             correctionAdd("extremitys", "extremities");
@@ -17095,6 +17109,7 @@ namespace OverflowHelper.core
             correctionAdd("highrise", "high-rise");
 
             correctionAdd("Magnesium", "magnesium");
+            correctionAdd("Mg", "magnesium");
 
             correctionAdd("Point of Sale", "point of sale");
 
@@ -17830,6 +17845,7 @@ namespace OverflowHelper.core
             correctionAdd("oxigen", "oxygen");
             correctionAdd("oxegen", "oxygen");
             correctionAdd("Oxygen", "oxygen");
+            correctionAdd("O", "oxygen");
 
             correctionAdd("alcohol", "ethanol");
             correctionAdd("ethyl alcohol", "ethanol");
@@ -18185,6 +18201,7 @@ namespace OverflowHelper.core
             correctionAdd("somme", "some");
             correctionAdd("somi", "some");
             correctionAdd("som", "some");
+            correctionAdd("sum", "some");
 
             correctionAdd("someon’es", "someone’s");
             correctionAdd("someone's", "someone’s");
@@ -20917,6 +20934,8 @@ namespace OverflowHelper.core
             correctionAdd("sting", "string");
             correctionAdd("str", "string");
             correctionAdd("strung", "string");
+            correctionAdd("Sring", "string");
+            correctionAdd("String", "string");
 
             correctionAdd("uncoment", "uncomment");
 
@@ -29001,6 +29020,48 @@ namespace OverflowHelper.core
             correctionAdd("jahia", "Jahia");
 
             correctionAdd("tapestry", "Tapestry");
+
+            correctionAdd("bash_profile", ".bash_profile");
+
+            correctionAdd("Ion", "Amazon Ion");
+
+            correctionAdd("byobu", "Byobu");
+
+            correctionAdd("gson", "Gson");
+
+            correctionAdd("population I", "Population I stars");
+
+            correctionAdd("population II", "Population II stars");
+
+            correctionAdd("population III", "Population III stars");
+
+            correctionAdd("question and answer", "Q&A");
+            correctionAdd("q&a", "Q&A");
+
+            correctionAdd("retrofit", "Retrofit");
+
+            correctionAdd("Type II", "Type II supernova");
+
+            correctionAdd("Type Ia", "Type Ia supernova");
+
+            correctionAdd("volley", "Volley");
+
+            correctionAdd("Calcium", "calcium");
+            correctionAdd("Ca", "calcium");
+
+            correctionAdd("currecy", "currency");
+
+            correctionAdd("matrixes", "matrices");
+
+            correctionAdd("Ne", "neon (element)");
+
+            correctionAdd("one off", "one-off");
+            correctionAdd("One off", "one-off");
+
+            correctionAdd("up-side", "upside");
+            correctionAdd("Up-side", "upside");
+
+            correctionAdd("wrie", "write");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45598,6 +45659,44 @@ namespace OverflowHelper.core
             URL_Add("Jahia", "https://en.wikipedia.org/wiki/Jahia#Products");
 
             URL_Add("Tapestry", "https://en.wikipedia.org/wiki/Apache_Tapestry");
+
+            URL_Add(".bash_profile", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
+
+            URL_Add("Amazon Ion", "https://amzn.github.io/ion-docs/");
+
+            URL_Add("Byobu", "https://en.wikipedia.org/wiki/Byobu_(software)");
+
+            URL_Add("Gson", "https://en.wikipedia.org/wiki/Gson");
+
+            URL_Add("Population I stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_I_stars");
+
+            URL_Add("Population II stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_II_stars");
+
+            URL_Add("Population III stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_III_stars");
+
+            URL_Add("Q&A", "https://en.wikipedia.org/wiki/Q%26A_software");
+
+            URL_Add("Retrofit", "http://square.github.io/retrofit/");
+
+            URL_Add("Type II supernova", "https://en.wikipedia.org/wiki/Type_II_supernova");
+
+            URL_Add("Type Ia supernova", "https://en.wikipedia.org/wiki/Type_Ia_supernova");
+
+            URL_Add("Volley", "https://developer.android.com/training/volley/");
+
+            URL_Add("calcium", "https://en.wikipedia.org/wiki/Calcium");
+
+            URL_Add("currency", "https://en.wiktionary.org/wiki/currency#Noun");
+
+            URL_Add("matrices", "https://en.wiktionary.org/wiki/matrices#Noun");
+
+            URL_Add("neon (element)", "https://en.wikipedia.org/wiki/Neon");
+
+            URL_Add("one-off", "https://en.wiktionary.org/wiki/one-off#Adjective");
+
+            URL_Add("upside", "https://en.wiktionary.org/wiki/upside#Noun");
+
+            URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
