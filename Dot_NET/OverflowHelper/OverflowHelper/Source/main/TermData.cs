@@ -1228,6 +1228,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("Mac OS Sierra 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("MacOS Sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("sierra", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -1254,6 +1255,7 @@ namespace OverflowHelper.core
             correctionAdd("OSX Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("MacOS Mojave 10.14", "macOS v10.14 (Mojave)");
             correctionAdd("Mac OS Mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("mac Mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -1272,6 +1274,7 @@ namespace OverflowHelper.core
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
             correctionAdd("FLEX", "Flex");
+            correctionAdd("Adobe Flex", "Flex");
 
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
@@ -7749,6 +7752,7 @@ namespace OverflowHelper.core
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
 
             correctionAdd("VS", "Visual&nbsp;Studio");
             correctionAdd("visual studio", "Visual&nbsp;Studio");
@@ -19233,6 +19237,7 @@ namespace OverflowHelper.core
             correctionAdd("Android q", "Android&nbsp;10");
             correctionAdd("android q", "Android&nbsp;10");
             correctionAdd("AndroidX", "Android&nbsp;10");
+            correctionAdd("androidX", "Android&nbsp;10");
 
             correctionAdd("fasta", "FASTA format");
 
@@ -21360,6 +21365,7 @@ namespace OverflowHelper.core
             correctionAdd("cut&dried", "cut and dried");
 
             correctionAdd("more simple", "simpler");
+            correctionAdd("simplier", "simpler");
 
             correctionAdd("whipper snapper", "whippersnapper");
 
@@ -23395,6 +23401,7 @@ namespace OverflowHelper.core
 
             correctionAdd("framwork", "framework");
             correctionAdd("frame work", "framework");
+            correctionAdd("framewrok", "framework");
 
             correctionAdd("gpx", "GPX");
 
@@ -24167,6 +24174,7 @@ namespace OverflowHelper.core
             correctionAdd("show time", "showtime");
 
             correctionAdd("byte code", "bytecode");
+            correctionAdd("Bytecode", "bytecode");
 
             correctionAdd("Yak shaving", "yak shaving");
 
@@ -24904,6 +24912,7 @@ namespace OverflowHelper.core
 
             correctionAdd("m1", "Apple M1");
             correctionAdd("M1", "Apple M1");
+            correctionAdd("M1 mac", "Apple M1");
 
             correctionAdd("nextstep", "NeXTSTEP");
             correctionAdd("Nextstep", "NeXTSTEP");
@@ -26446,6 +26455,7 @@ namespace OverflowHelper.core
             correctionAdd("bash source", "sourcing");
             correctionAdd("source in Bash", "sourcing");
             correctionAdd("source in bash", "sourcing");
+            correctionAdd("Dot Source", "sourcing");
 
             correctionAdd("swiching", "switching");
 
@@ -28538,6 +28548,7 @@ namespace OverflowHelper.core
             correctionAdd("fullblown", "full-blown");
 
             correctionAdd("full time", "full-time");
+            correctionAdd("fulltime", "full-time");
 
             correctionAdd("hyper cube", "hypercube");
 
@@ -28967,6 +28978,26 @@ namespace OverflowHelper.core
             correctionAdd("Software Developer", "software developer");
 
             correctionAdd("spended", "spent");
+
+            correctionAdd("amf", "AMF");
+
+            correctionAdd("aspectj", "AspectJ");
+
+            correctionAdd("Photon", "Eclipse Photon");
+
+            correctionAdd("Guice", "Google Guice");
+
+            correctionAdd("Jakarta RESTful Web Services", "JAX-RS");
+
+            correctionAdd("Java Data Objects", "JDO");
+            correctionAdd("jdo", "JDO");
+
+            correctionAdd("jsr", "JSR");
+            correctionAdd("Java Community Process", "JSR");
+
+            correctionAdd("jahia", "Jahia");
+
+            correctionAdd("tapestry", "Tapestry");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45546,6 +45577,24 @@ namespace OverflowHelper.core
             URL_Add("software developer", "https://simple.wikipedia.org/wiki/Software_developer");
 
             URL_Add("spent", "https://en.wiktionary.org/wiki/spend#Verb");
+
+            URL_Add("AMF", "https://en.wikipedia.org/wiki/Action_Message_Format");
+
+            URL_Add("AspectJ", "https://en.wikipedia.org/wiki/AspectJ");
+
+            URL_Add("Eclipse Photon", "https://en.wikipedia.org/wiki/Eclipse_(software)#Releases");
+
+            URL_Add("Google Guice", "https://en.wikipedia.org/wiki/Google_Guice");
+
+            URL_Add("JAX-RS", "https://en.wikipedia.org/wiki/Jakarta_RESTful_Web_Services");
+
+            URL_Add("JDO", "https://en.wikipedia.org/wiki/Java_Data_Objects");
+
+            URL_Add("JSR", "https://en.wikipedia.org/wiki/Java_Community_Process#List_of_JSRs");
+
+            URL_Add("Jahia", "https://en.wikipedia.org/wiki/Jahia#Products");
+
+            URL_Add("Tapestry", "https://en.wikipedia.org/wiki/Apache_Tapestry");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
