@@ -4019,6 +4019,7 @@ namespace OverflowHelper.core
             correctionAdd("invitable", "inevitable");
             correctionAdd("inevatable", "inevitable");
             correctionAdd("inevatble", "inevitable");
+            correctionAdd("ineviable", "inevitable");
 
             correctionAdd("configureable", "configurable");
 
@@ -12775,6 +12776,7 @@ namespace OverflowHelper.core
 
             correctionAdd("MDN", "Mozilla Developer Network");
             correctionAdd("mdn", "Mozilla Developer Network");
+            correctionAdd("MDC", "Mozilla Developer Network");
 
             correctionAdd("pluarlsight", "Pluralsight");
             correctionAdd("PluralSight", "Pluralsight");
@@ -14044,6 +14046,7 @@ namespace OverflowHelper.core
 
             correctionAdd("suggestiong", "suggestion");
             correctionAdd("Suggestiong", "suggestion");
+            correctionAdd("sugestion", "suggestion");
 
             correctionAdd("friday", "Friday");
 
@@ -16911,6 +16914,7 @@ namespace OverflowHelper.core
             correctionAdd("it´s", "it’s");
             correctionAdd("It\\`s", "it’s"); // A single backslash
             correctionAdd("It`s", "it’s");
+            correctionAdd("It's", "it’s");
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -22524,6 +22528,10 @@ namespace OverflowHelper.core
             correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
             correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
             correctionAdd("es5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA 5", "ECMAScript&nbsp;5");
+            correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
+            correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
 
             correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
             correctionAdd("es6", "ECMAScript&nbsp;2015");
@@ -25643,6 +25651,7 @@ namespace OverflowHelper.core
             correctionAdd("iceland", "Iceland");
 
             correctionAdd("newton raphson", "Newton–Raphson");
+            correctionAdd("Newton's method", "Newton–Raphson");
 
             correctionAdd("Philosophy", "Philosophy (Stack Exchange site)");
 
@@ -25650,6 +25659,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Wolfram Alpha", "WolframAlpha");
             correctionAdd("wolfram alpha", "WolframAlpha");
+            correctionAdd("wolfarm alpha", "WolframAlpha");
+            correctionAdd("WA", "WolframAlpha");
 
             correctionAdd("defs", "definitions");
 
@@ -26192,6 +26203,8 @@ namespace OverflowHelper.core
             correctionAdd("non important", "nonimportant");
 
             correctionAdd("server side", "server-side");
+            correctionAdd("Serverside", "server-side");
+            correctionAdd("serverside", "server-side");
 
             correctionAdd("visualize", "visualise");
             correctionAdd("visaualize", "visualise");
@@ -26557,6 +26570,9 @@ namespace OverflowHelper.core
             correctionAdd("cupying", "copying");
 
             correctionAdd("sinicism", "cynicism");
+            correctionAdd("cinism", "cynicism");
+            correctionAdd("cynism", "cynicism");
+            correctionAdd("cynisism", "cynicism");
 
             correctionAdd("Dealt", "dealt");
             correctionAdd("Delt", "dealt");
@@ -27170,6 +27186,7 @@ namespace OverflowHelper.core
             correctionAdd("electro chemistry", "electrochemistry");
 
             correctionAdd("feedbacks", "feedback");
+            correctionAdd("feed back", "feedback");
 
             correctionAdd("Galvanic cell", "galvanic cell");
 
@@ -29062,6 +29079,72 @@ namespace OverflowHelper.core
             correctionAdd("Up-side", "upside");
 
             correctionAdd("wrie", "write");
+
+            correctionAdd("4Chan", "4chan");
+
+            correctionAdd("jetpack", "Android Jetpack");
+            correctionAdd("Jetpack", "Android Jetpack");
+
+            correctionAdd("anko", "Anko");
+            correctionAdd("ANKO", "Anko");
+
+            correctionAdd("dexguard", "DexGuard");
+
+            correctionAdd("google cloud messaging", "Google Cloud Messaging");
+
+            correctionAdd("Ligo", "LIGO");
+
+            correctionAdd("MTG", "Magic: The Gathering");
+            correctionAdd("mtg", "Magic: The Gathering");
+
+            correctionAdd("Arena", "Magic: The Gathering Arena");
+
+            correctionAdd("Moto G", "Moto&nbsp;G");
+
+            correctionAdd("Redex", "ReDex");
+            correctionAdd("redex", "ReDex");
+
+            correctionAdd("rx-java", "RxJava");
+            correctionAdd("rxJava", "RxJava");
+
+            correctionAdd("upx", "UPX");
+
+            correctionAdd("vuforia", "Vuforia");
+
+            correctionAdd("webm", "WebM");
+
+            correctionAdd("xperia", "Xperia");
+
+            correctionAdd("Based", "based");
+
+            correctionAdd("benefitted", "benefited");
+
+            correctionAdd("bif", "big");
+
+            correctionAdd("Binomial", "binomial");
+
+            correctionAdd("Binomial Distribution", "binomial distribution");
+
+            correctionAdd("Carbon", "carbon");
+
+            correctionAdd("Coroutine", "coroutine");
+
+            correctionAdd("Credit Card", "credit card");
+
+            correctionAdd("ECC", "elliptic-curve cryptography");
+
+            correctionAdd("enrypt", "encrypt");
+
+            correctionAdd("intervine", "intervene");
+
+            correctionAdd("obleged", "obliged");
+
+            correctionAdd("Reverse Engineering", "reverse engineering");
+
+            correctionAdd("self signed", "self-signed");
+
+            correctionAdd("square-root", "square root");
+            correctionAdd("Square root", "square root");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45697,6 +45780,66 @@ namespace OverflowHelper.core
             URL_Add("upside", "https://en.wiktionary.org/wiki/upside#Noun");
 
             URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("4chan", "https://en.wikipedia.org/wiki/4chan");
+
+            URL_Add("Android Jetpack", "https://developer.android.com/jetpack/");
+
+            URL_Add("Anko", "https://github.com/Kotlin/anko");
+
+            URL_Add("DexGuard", "https://www.guardsquare.com/dexguard");
+
+            URL_Add("Google Cloud Messaging", "https://en.wikipedia.org/wiki/Google_Cloud_Messaging");
+
+            URL_Add("LIGO", "https://en.wikipedia.org/wiki/LIGO");
+
+            URL_Add("Magic: The Gathering", "https://en.wikipedia.org/wiki/Magic:_The_Gathering");
+
+            URL_Add("Magic: The Gathering Arena", "https://en.wikipedia.org/wiki/Magic:_The_Gathering_Arena");
+
+            URL_Add("Moto&nbsp;G", "https://en.wikipedia.org/wiki/Motorola_Moto#Moto_G");
+
+            URL_Add("ReDex", "https://fbredex.com/docs/installation");
+
+            URL_Add("RxJava", "https://stackoverflow.com/tags/rx-java/info");
+
+            URL_Add("UPX", "https://en.wikipedia.org/wiki/UPX");
+
+            URL_Add("Vuforia", "https://en.wikipedia.org/wiki/Vuforia_Augmented_Reality_SDK");
+
+            URL_Add("WebM", "https://en.wikipedia.org/wiki/WebM");
+
+            URL_Add("Xperia", "https://en.wikipedia.org/wiki/Sony_Xperia");
+
+            URL_Add("based", "https://en.wiktionary.org/wiki/based#Adjective_2");
+
+            URL_Add("benefited", "https://en.wiktionary.org/wiki/benefit#Verb");
+
+            URL_Add("big", "https://en.wiktionary.org/wiki/big#Adjective");
+
+            URL_Add("binomial", "https://en.wiktionary.org/wiki/binomial#Adjective");
+
+            URL_Add("binomial distribution", "https://en.wikipedia.org/wiki/Binomial_distribution");
+
+            URL_Add("carbon", "https://en.wikipedia.org/wiki/Carbon");
+
+            URL_Add("coroutine", "https://en.wikipedia.org/wiki/Coroutine");
+
+            URL_Add("credit card", "https://en.wikipedia.org/wiki/Credit_card");
+
+            URL_Add("elliptic-curve cryptography", "https://en.wikipedia.org/wiki/Elliptic-curve_cryptography");
+
+            URL_Add("encrypt", "https://en.wiktionary.org/wiki/encrypt#Verb");
+
+            URL_Add("intervene", "https://en.wiktionary.org/wiki/intervene#Verb");
+
+            URL_Add("obliged", "https://en.wiktionary.org/wiki/obliged#Adjective");
+
+            URL_Add("reverse engineering", "https://en.wikipedia.org/wiki/Reverse_engineering");
+
+            URL_Add("self-signed", "https://en.wiktionary.org/wiki/self-signed#Adjective");
+
+            URL_Add("square root", "https://en.wiktionary.org/wiki/square_root#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
