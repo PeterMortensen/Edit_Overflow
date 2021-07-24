@@ -16408,6 +16408,7 @@ namespace OverflowHelper.core
 
             correctionAdd("authorative", "authoritative");
             correctionAdd("athoritative", "authoritative");
+            correctionAdd("authoritive", "authoritative");
 
             correctionAdd("gabarge", "garbage");
             correctionAdd("garbik", "garbage");
@@ -17905,6 +17906,7 @@ namespace OverflowHelper.core
             correctionAdd("dedsired", "desired");
             correctionAdd("desire", "desired");
             correctionAdd("disered", "desired");
+            correctionAdd("desried", "desired");
 
             correctionAdd("editting", "editing");
             correctionAdd("EDITING", "editing");
@@ -25897,6 +25899,8 @@ namespace OverflowHelper.core
             correctionAdd("misinterpet", "misinterpret");
 
             correctionAdd("sd", "standard deviation");
+            correctionAdd("std. dev", "standard deviation");
+            correctionAdd("std dev", "standard deviation");
 
             correctionAdd("syntax highlighitng", "syntax highlighting");
             correctionAdd("syntax-highlighting", "syntax highlighting");
@@ -29145,6 +29149,15 @@ namespace OverflowHelper.core
 
             correctionAdd("square-root", "square root");
             correctionAdd("Square root", "square root");
+
+            correctionAdd("ingenuity", "Ingenuity (helicopter)");
+            correctionAdd("Ingenuity", "Ingenuity (helicopter)");
+
+            correctionAdd("numba", "Numba");
+
+            correctionAdd("comprehensability", "comprehensibility");
+
+            correctionAdd("offsite", "off-site");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45840,6 +45853,14 @@ namespace OverflowHelper.core
             URL_Add("self-signed", "https://en.wiktionary.org/wiki/self-signed#Adjective");
 
             URL_Add("square root", "https://en.wiktionary.org/wiki/square_root#Noun");
+
+            URL_Add("Ingenuity (helicopter)", "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)");
+
+            URL_Add("Numba", "https://en.wikipedia.org/wiki/Numba");
+
+            URL_Add("comprehensibility", "https://en.wiktionary.org/wiki/comprehensibility#Noun");
+
+            URL_Add("off-site", "https://en.wiktionary.org/wiki/offsite#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
