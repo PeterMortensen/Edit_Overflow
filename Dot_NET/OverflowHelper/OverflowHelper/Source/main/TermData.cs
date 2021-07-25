@@ -10511,6 +10511,7 @@ namespace OverflowHelper.core
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
             correctionAdd("alltogether", "altogether");
+            correctionAdd("altogeher", "altogether");
 
             correctionAdd("middle east", "Middle East");
 
@@ -11082,6 +11083,7 @@ namespace OverflowHelper.core
             correctionAdd("Portugese", "Portuguese");
             correctionAdd("Portuguise", "Portuguese");
             correctionAdd("portuguise", "Portuguese");
+            correctionAdd("Portugeese", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
 
@@ -12166,6 +12168,8 @@ namespace OverflowHelper.core
 
             correctionAdd("inorder", "in order");
             correctionAdd("Inorder", "in order");
+            correctionAdd("In-order", "in order");
+            correctionAdd("in-order", "in order");
 
             correctionAdd("incriment", "increment");
 
@@ -15594,6 +15598,7 @@ namespace OverflowHelper.core
             correctionAdd("Z-shell", "Z shell");
             correctionAdd("ZSH Shell", "Z shell");
             correctionAdd("zsh shell", "Z shell");
+            correctionAdd("Z Shell", "Z shell");
 
             correctionAdd("case-insensitive", "case insensitive");
 
@@ -15748,6 +15753,7 @@ namespace OverflowHelper.core
             correctionAdd("single dimension", "one-dimensional");
             correctionAdd("1d", "one-dimensional");
             correctionAdd("one dimensional", "one-dimensional");
+            correctionAdd("1 dimensional", "one-dimensional");
 
             correctionAdd("pizo", "piezo");
             correctionAdd("Piezzo", "piezo");
@@ -15915,6 +15921,7 @@ namespace OverflowHelper.core
             correctionAdd("taht", "that");
             correctionAdd("thst", "that");
             correctionAdd("thant", "that");
+            correctionAdd("That", "that");
 
             correctionAdd("TR", "tr");
 
@@ -15950,6 +15957,7 @@ namespace OverflowHelper.core
             correctionAdd("arrange marriage", "arranged marriage");
 
             correctionAdd("backup", "back up");
+            correctionAdd("bacakup", "back up");
 
             correctionAdd("bluepencil", "blue-pencil");
 
@@ -16543,6 +16551,7 @@ namespace OverflowHelper.core
             correctionAdd("commandline", "command line");
             correctionAdd("commanline", "command line");
             correctionAdd("comandline", "command line");
+            correctionAdd("Commandline", "command line");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -16592,6 +16601,8 @@ namespace OverflowHelper.core
             correctionAdd("spear time", "spare time");
 
             correctionAdd("systemD", "systemd");
+            correctionAdd("SystemD", "systemd");
+            correctionAdd("System D", "systemd");
 
             correctionAdd("wave length", "wavelength");
 
@@ -19031,6 +19042,7 @@ namespace OverflowHelper.core
             correctionAdd("C172", "Cessna 172");
 
             correctionAdd("Desktop", "desktop");
+            correctionAdd("dekstop", "desktop");
 
             correctionAdd("evac", "evacuation");
 
@@ -29058,6 +29070,7 @@ namespace OverflowHelper.core
 
             correctionAdd("question and answer", "Q&A");
             correctionAdd("q&a", "Q&A");
+            correctionAdd("Q/A", "Q&A");
 
             correctionAdd("retrofit", "Retrofit");
 
@@ -29158,6 +29171,26 @@ namespace OverflowHelper.core
             correctionAdd("comprehensability", "comprehensibility");
 
             correctionAdd("offsite", "off-site");
+
+            correctionAdd("core duo", "Core Duo");
+
+            correctionAdd("pam", "PAM");
+
+            correctionAdd("ShockWave", "Shockwave");
+
+            correctionAdd("aggregetion", "aggregation");
+
+            correctionAdd("hyper link", "hyperlink");
+
+            correctionAdd("owership", "ownership");
+
+            correctionAdd("setting-up", "setting up");
+
+            correctionAdd("TIA", "thanks in advance");
+
+            correctionAdd("the bees kneeze", "the bee's knees");
+
+            correctionAdd("workedd", "worked");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45861,6 +45894,26 @@ namespace OverflowHelper.core
             URL_Add("comprehensibility", "https://en.wiktionary.org/wiki/comprehensibility#Noun");
 
             URL_Add("off-site", "https://en.wiktionary.org/wiki/offsite#Adjective");
+
+            URL_Add("Core Duo", "https://en.wikipedia.org/wiki/Intel_Core#Core_Duo");
+
+            URL_Add("PAM", "https://en.wikipedia.org/wiki/Linux_PAM");
+
+            URL_Add("Shockwave", "https://en.wikipedia.org/wiki/Adobe_Shockwave");
+
+            URL_Add("aggregation", "https://en.wiktionary.org/wiki/aggregation#Noun");
+
+            URL_Add("hyperlink", "https://en.wiktionary.org/wiki/hyperlink#Noun");
+
+            URL_Add("ownership", "https://en.wiktionary.org/wiki/ownership#Noun");
+
+            URL_Add("setting up", "https://en.wiktionary.org/wiki/set_up#Verb");
+
+            URL_Add("thanks in advance", "https://en.wiktionary.org/wiki/thanks_in_advance#Interjection");
+
+            URL_Add("the bee's knees", "https://en.wiktionary.org/wiki/the_bee%27s_knees#Noun");
+
+            URL_Add("worked", "https://en.wiktionary.org/wiki/work#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
