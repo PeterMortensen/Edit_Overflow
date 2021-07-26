@@ -6389,9 +6389,6 @@ namespace OverflowHelper.core
 
             correctionAdd("xstream", "XStream");
 
-            correctionAdd("jersey", "Eclipse Jersey");
-            correctionAdd("Jersey", "Eclipse Jersey");
-
             correctionAdd("opera mini", "Opera Mini");
 
             correctionAdd("jail broken", "jailbreaking"); // Not exact...
@@ -9985,74 +9982,6 @@ namespace OverflowHelper.core
             correctionAdd("any onw", "anyone");
             correctionAdd("anyonw", "anyone");
 
-            correctionAdd("eclipse", "Eclipse");
-            correctionAdd("ECLIPSE", "Eclipse");
-            correctionAdd("EClpise", "Eclipse"); // Misspelling.
-            correctionAdd("Eclispe", "Eclipse"); // Misspelling.
-            correctionAdd("eclpse", "Eclipse"); // Misspelling.
-            correctionAdd("eclipde", "Eclipse"); // Misspelling.
-            correctionAdd("ecliplse", "Eclipse"); // Misspelling.
-            correctionAdd("eclipses", "Eclipse");
-            correctionAdd("eclips", "Eclipse"); // Misspelling.
-            correctionAdd("Ecilpse", "Eclipse"); // Misspelling.
-            correctionAdd("eclise", "Eclipse"); // Misspelling.
-            correctionAdd("ecplise", "Eclipse"); // Misspelling.
-
-            correctionAdd("Eclipse v3.5 (Galileo)", "Eclipse&nbsp;v3.5 (Galileo)"); // Sort of identity mapping
-            correctionAdd("Eclipse Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-            correctionAdd("Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-            correctionAdd("galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-
-            correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
-            correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-
-            correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
-            correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("Eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("juno", "Eclipse&nbsp;v4.2 (Juno)");
-
-            correctionAdd("Eclipse v4.3 (Kepler)", "Eclipse&nbsp;v4.3 (Kepler)"); // Sort of identity mapping
-            correctionAdd("Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("Keplar", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("Eclipse Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-
-            correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
-            correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse 4.4", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            // Does not work due to the ending ")"...
-            //correctionAdd("Eclipse Luna(4.4)", "Eclipse&nbsp;v4.4 (Luna)");
-            //correctionAdd("Eclipse Luna (4.4)", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
-
-            // Resolve the conclict with the planet Mars by adding
-            // a qualifying "Eclipse" with order and capitalisation
-            // variations (though it does require the user to
-            // know this).
-            correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
-            correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Eclipse mars", "Eclipse&nbsp;v4.5 (Mars)");
-
-            correctionAdd("Eclipse v4.6 (Neon)", "Eclipse&nbsp;v4.6 (Neon)"); // Sort of identity mapping
-            correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("eclipse neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("Eclipse Neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("eclipse-neon", "Eclipse&nbsp;v4.6 (Neon)");
-
             correctionAdd("recieving", "receiving");
 
             correctionAdd("recieve", "receive");
@@ -10983,12 +10912,6 @@ namespace OverflowHelper.core
             correctionAdd("openJDK", "OpenJDK");
             correctionAdd("open jdk", "OpenJDK");
 
-            correctionAdd("callisto", "Eclipse v3.2 (Callisto)");
-
-            correctionAdd("europa", "Eclipse v3.3 (Europa)");
-
-            correctionAdd("ganymede", "Eclipse v3.4 (Ganymede)");
-
             correctionAdd("instanciate", "instantiate");
             correctionAdd("inatantiate", "instantiate");
 
@@ -11763,6 +11686,7 @@ namespace OverflowHelper.core
             correctionAdd("thier", "their");
             correctionAdd("theur", "their");
             correctionAdd("thiere", "their");
+            correctionAdd("thei", "their");
 
             correctionAdd("BREXIT", "Brexit");
             correctionAdd("brexit", "Brexit");
@@ -14017,6 +13941,7 @@ namespace OverflowHelper.core
             correctionAdd("proprty", "property");
             correctionAdd("porperty", "property");
             correctionAdd("prop", "property");
+            correctionAdd("Property", "property");
 
             correctionAdd("properities", "properties");
             correctionAdd("properites", "properties");
@@ -14283,6 +14208,7 @@ namespace OverflowHelper.core
             correctionAdd("venn diagram", "Venn diagram");
 
             correctionAdd("difficalt", "difficult");
+            correctionAdd("dificult", "difficult");
 
             correctionAdd("key-press", "key press");
             correctionAdd("Key-Press", "key press");
@@ -15455,6 +15381,7 @@ namespace OverflowHelper.core
             correctionAdd("Google Data studio", "Google&nbsp;Data&nbsp;Studio");
             correctionAdd("data studio", "Google&nbsp;Data&nbsp;Studio");
             correctionAdd("Data&nbsp;Studio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("GDS", "Google&nbsp;Data&nbsp;Studio");
 
             correctionAdd("neovim", "Neovim");
 
@@ -18581,6 +18508,7 @@ namespace OverflowHelper.core
             correctionAdd("plattform", "platform");
             correctionAdd("platoform", "platform");
             correctionAdd("platfrom", "platform");
+            correctionAdd("platorm", "platform");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -18615,6 +18543,8 @@ namespace OverflowHelper.core
             correctionAdd("Minimum Viable Product", "minimum viable product");
 
             correctionAdd("rider", "Rider");
+            correctionAdd("RIDER IDE", "Rider");
+            correctionAdd("RIDER", "Rider");
 
             correctionAdd("Steve Balmer", "Steve Ballmer");
             correctionAdd("ballmer", "Steve Ballmer");
@@ -20617,6 +20547,7 @@ namespace OverflowHelper.core
             correctionAdd("someday", "some day");
 
             correctionAdd("Thallium", "thallium");
+            correctionAdd("Tl", "thallium");
 
             correctionAdd("Arduino ide", "Arduino IDE");
 
@@ -21364,6 +21295,7 @@ namespace OverflowHelper.core
             correctionAdd("bagde", "badge");
 
             correctionAdd("Cadmium", "cadmium");
+            correctionAdd("Cd", "cadmium");
 
             correctionAdd("ennineered", "engineered");
             correctionAdd("engeneered", "engineered");
@@ -23295,6 +23227,7 @@ namespace OverflowHelper.core
             correctionAdd("frequenrly", "frequently");
 
             correctionAdd("Germanium", "germanium");
+            correctionAdd("Ge", "germanium");
 
             correctionAdd("ghosttown", "ghost town");
 
@@ -29071,6 +29004,7 @@ namespace OverflowHelper.core
             correctionAdd("question and answer", "Q&A");
             correctionAdd("q&a", "Q&A");
             correctionAdd("Q/A", "Q&A");
+            correctionAdd("q/a", "Q&A");
 
             correctionAdd("retrofit", "Retrofit");
 
@@ -29191,6 +29125,143 @@ namespace OverflowHelper.core
             correctionAdd("the bees kneeze", "the bee's knees");
 
             correctionAdd("workedd", "worked");
+
+            correctionAdd("eclipse", "Eclipse");
+            correctionAdd("ECLIPSE", "Eclipse");
+            correctionAdd("EClpise", "Eclipse"); // Misspelling.
+            correctionAdd("Eclispe", "Eclipse"); // Misspelling.
+            correctionAdd("eclpse", "Eclipse"); // Misspelling.
+            correctionAdd("eclipde", "Eclipse"); // Misspelling.
+            correctionAdd("ecliplse", "Eclipse"); // Misspelling.
+            correctionAdd("eclipses", "Eclipse");
+            correctionAdd("eclips", "Eclipse"); // Misspelling.
+            correctionAdd("Ecilpse", "Eclipse"); // Misspelling.
+            correctionAdd("eclise", "Eclipse"); // Misspelling.
+            correctionAdd("ecplise", "Eclipse"); // Misspelling.
+
+            correctionAdd("callisto", "Eclipse v3.2 (Callisto)");
+
+            correctionAdd("europa", "Eclipse v3.3 (Europa)");
+
+            correctionAdd("ganymede", "Eclipse v3.4 (Ganymede)");
+
+            correctionAdd("Eclipse v3.5 (Galileo)", "Eclipse&nbsp;v3.5 (Galileo)"); // Sort of identity mapping
+            correctionAdd("Eclipse Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+            correctionAdd("Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+            correctionAdd("galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+
+            correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
+            correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+
+            correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
+            correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("Eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("juno", "Eclipse&nbsp;v4.2 (Juno)");
+
+            correctionAdd("Eclipse v4.3 (Kepler)", "Eclipse&nbsp;v4.3 (Kepler)"); // Sort of identity mapping
+            correctionAdd("Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("Keplar", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("Eclipse Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+
+            correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
+            correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("eclipse 4.4", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            // Does not work due to the ending ")"...
+            //correctionAdd("Eclipse Luna(4.4)", "Eclipse&nbsp;v4.4 (Luna)");
+            //correctionAdd("Eclipse Luna (4.4)", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
+
+            // Resolve the conclict with the planet Mars by adding
+            // a qualifying "Eclipse" with order and capitalisation
+            // variations (though it does require the user to
+            // know this).
+            correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
+            correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Eclipse mars", "Eclipse&nbsp;v4.5 (Mars)");
+
+            correctionAdd("Eclipse v4.6 (Neon)", "Eclipse&nbsp;v4.6 (Neon)"); // Sort of identity mapping
+            correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("eclipse neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("Eclipse Neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("eclipse-neon", "Eclipse&nbsp;v4.6 (Neon)");
+
+            correctionAdd("jersey", "Eclipse Jersey");
+            correctionAdd("Jersey", "Eclipse Jersey");
+            correctionAdd("Jersey RESTful Web Services", "Eclipse Jersey");
+            correctionAdd("Glassfish Jersey", "Eclipse Jersey");
+
+            correctionAdd("enceladus", "Enceladus");
+
+            correctionAdd("Europa", "Europa (moon)");
+
+            correctionAdd("ftps", "FTPS");
+
+            correctionAdd("newtons laws", "Newton's laws of motion");
+
+            correctionAdd("Antimony", "antimony");
+            correctionAdd("Sb", "antimony");
+
+            correctionAdd("Arsenic", "arsenic");
+            correctionAdd("As", "arsenic");
+
+            correctionAdd("atmosfere", "atmosphere");
+
+            correctionAdd("Bismuth", "bismuth");
+            correctionAdd("Bi", "bismuth");
+
+            correctionAdd("braket", "bracket");
+
+            correctionAdd("Cr", "chromium (element)");
+
+            correctionAdd("freakin", "freaking");
+
+            correctionAdd("Indium", "indium");
+            correctionAdd("In", "indium");
+
+            correctionAdd("mendelson", "mendelson AS2");
+
+            correctionAdd("non tilted", "non-tilting");
+
+            correctionAdd("retro rocket", "retrorocket");
+
+            correctionAdd("Se", "selenium (element)");
+
+            correctionAdd("self reliant", "self-reliant");
+
+            correctionAdd("setted", "set");
+
+            correctionAdd("sulpur", "sulphur");
+            correctionAdd("S", "sulphur");
+            correctionAdd("Sulphur", "sulphur");
+            correctionAdd("Sulpur", "sulphur");
+
+            correctionAdd("Swastika", "swastika");
+
+            correctionAdd("tell appart", "tell apart");
+
+            correctionAdd("Tellurium", "tellurium");
+            correctionAdd("Te", "tellurium");
+
+            correctionAdd("threepronged", "three-pronged");
+            correctionAdd("3 prong", "three-pronged");
+
+            correctionAdd("twopronged", "two-pronged");
+            correctionAdd("2 prong", "two-pronged");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -45914,6 +45985,54 @@ namespace OverflowHelper.core
             URL_Add("the bee's knees", "https://en.wiktionary.org/wiki/the_bee%27s_knees#Noun");
 
             URL_Add("worked", "https://en.wiktionary.org/wiki/work#Verb");
+
+            URL_Add("Enceladus", "https://en.wikipedia.org/wiki/Enceladus");
+
+            URL_Add("Europa (moon)", "https://en.wikipedia.org/wiki/Europa_(moon)");
+
+            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
+
+            URL_Add("Newton's laws of motion", "https://en.wikipedia.org/wiki/Newton's_laws_of_motion");
+
+            URL_Add("antimony", "https://en.wikipedia.org/wiki/Antimony");
+
+            URL_Add("arsenic", "https://en.wikipedia.org/wiki/Arsenic");
+
+            URL_Add("atmosphere", "https://en.wiktionary.org/wiki/atmosphere#Noun");
+
+            URL_Add("bismuth", "https://en.wikipedia.org/wiki/Bismuth");
+
+            URL_Add("bracket", "https://en.wiktionary.org/wiki/bracket#Noun");
+
+            URL_Add("chromium (element)", "https://en.wikipedia.org/wiki/Chromium");
+
+            URL_Add("freaking", "https://en.wiktionary.org/wiki/freaking#Adjective");
+
+            URL_Add("indium", "https://en.wikipedia.org/wiki/Indium");
+
+            URL_Add("mendelson AS2", "https://sourceforge.net/projects/mec-as2/");
+
+            URL_Add("non-tilting", "https://en.wiktionary.org/wiki/non-tilting#Adjective");
+
+            URL_Add("retrorocket", "https://en.wiktionary.org/wiki/retrorocket#Noun");
+
+            URL_Add("selenium (element)", "https://en.wikipedia.org/wiki/Selenium");
+
+            URL_Add("self-reliant", "https://en.wiktionary.org/wiki/self-reliant#Adjective");
+
+            URL_Add("set", "https://en.wiktionary.org/wiki/set#Verb");
+
+            URL_Add("sulphur", "https://en.wikipedia.org/wiki/Sulfur");
+
+            URL_Add("swastika", "https://en.wiktionary.org/wiki/swastika#Noun");
+
+            URL_Add("tell apart", "https://en.wiktionary.org/wiki/tell_apart#Verb");
+
+            URL_Add("tellurium", "https://en.wikipedia.org/wiki/Tellurium");
+
+            URL_Add("three-pronged", "https://en.wiktionary.org/wiki/three-pronged#Adjective");
+
+            URL_Add("two-pronged", "https://en.wiktionary.org/wiki/two-pronged#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
