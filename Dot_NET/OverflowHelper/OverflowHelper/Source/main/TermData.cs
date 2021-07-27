@@ -18713,8 +18713,6 @@ namespace OverflowHelper.core
 
             correctionAdd("iir", "IIR");
 
-            correctionAdd("Maths", "Mathematics");
-
             correctionAdd("plotly.py", "Plotly");
             correctionAdd("plotly", "Plotly");
 
@@ -19362,6 +19360,7 @@ namespace OverflowHelper.core
             correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
             correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
 
+            correctionAdd("Maths", "Mathematics (Stack Exchange site)");
             correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
             correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Math", "Mathematics (Stack Exchange site)");
@@ -19596,10 +19595,10 @@ namespace OverflowHelper.core
             correctionAdd("pylint", "Pylint");
             correctionAdd("pyling", "Pylint");
 
-            correctionAdd("Software Recs", "Software Recommendations");
-            correctionAdd("software recommendations", "Software Recommendations");
-            correctionAdd("sof rec", "Software Recommendations");
-            correctionAdd("software recs", "Software Recommendations");
+            correctionAdd("Software Recs", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("software recommendations", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("sof rec", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("software recs", "Software Recommendations (Stack Exchange site)");
 
             correctionAdd("tcptrace", "TCPTrace");
             correctionAdd("Tcptrace", "TCPTrace");
@@ -31708,7 +31707,7 @@ namespace OverflowHelper.core
 
             URL_Add("XStream", "https://en.wikipedia.org/wiki/XStream");
 
-            URL_Add("Eclipse Jersey", "https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services#Jersey");
+            URL_Add("Eclipse Jersey", "https://en.wikipedia.org/wiki/Eclipse_Jersey"); // Old: https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services#Jersey
 
             URL_Add("Opera Mini", "https://en.wikipedia.org/wiki/Opera_Mini");
 
@@ -38269,8 +38268,6 @@ namespace OverflowHelper.core
 
             URL_Add("IIR", "https://en.wikipedia.org/wiki/Infinite_impulse_response");
 
-            URL_Add("Mathematics", "https://math.stackexchange.com/tour");
-
             URL_Add("Plotly", "https://pypi.org/project/plotly/");
 
             URL_Add("RegexBuddy", "https://en.wikipedia.org/wiki/RegexBuddy");
@@ -38905,7 +38902,7 @@ namespace OverflowHelper.core
 
             URL_Add("Pylint", "https://en.wikipedia.org/wiki/Pylint");
 
-            URL_Add("Software Recommendations", "https://softwarerecs.stackexchange.com/tour");
+            URL_Add("Software Recommendations (Stack Exchange site)", "https://softwarerecs.stackexchange.com/tour");
 
             URL_Add("TCPTrace", "https://en.wikipedia.org/wiki/Tcptrace");
 
@@ -40501,7 +40498,7 @@ namespace OverflowHelper.core
 
             URL_Add("properly", "https://en.wiktionary.org/wiki/properly#Adverb");
 
-            URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory");
+            URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#Google_Colaboratory"); // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory
 
             URL_Add("JPEG 2000", "https://en.wikipedia.org/wiki/JPEG_2000");
 
