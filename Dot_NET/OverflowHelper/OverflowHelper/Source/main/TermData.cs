@@ -695,6 +695,8 @@ namespace OverflowHelper.core
             correctionAdd("Ms SQl server", "SQL&nbsp;Server");
             correctionAdd("sql srever", "SQL&nbsp;Server");
             correctionAdd("SQL Srever", "SQL&nbsp;Server");
+            correctionAdd("MSSQLserver", "SQL&nbsp;Server");
+            correctionAdd("SQLserver", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -4590,6 +4592,7 @@ namespace OverflowHelper.core
             correctionAdd("beceuse", "because");
             correctionAdd("cus", "because");
             correctionAdd("Beacause", "because");
+            correctionAdd("cuase", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -8916,6 +8919,7 @@ namespace OverflowHelper.core
             correctionAdd("fits", "FITS");
 
             correctionAdd("eternal September", "Eternal September");
+            correctionAdd("eternal september", "Eternal September");
 
             correctionAdd("msgbox", "MsgBox");
 
@@ -9359,6 +9363,7 @@ namespace OverflowHelper.core
             correctionAdd("neccarily", "necessarily");
             correctionAdd("necassarily", "necessarily");
             correctionAdd("necessarali", "necessarily");
+            correctionAdd("necessaily", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -17815,6 +17820,7 @@ namespace OverflowHelper.core
 
             correctionAdd("seq", "sequence");
             correctionAdd("seqeuence", "sequence");
+            correctionAdd("seqence", "sequence");
 
             correctionAdd("DYNDNS", "DynDNS");
 
@@ -19593,6 +19599,7 @@ namespace OverflowHelper.core
             correctionAdd("Software Recs", "Software Recommendations");
             correctionAdd("software recommendations", "Software Recommendations");
             correctionAdd("sof rec", "Software Recommendations");
+            correctionAdd("software recs", "Software Recommendations");
 
             correctionAdd("tcptrace", "TCPTrace");
             correctionAdd("Tcptrace", "TCPTrace");
@@ -24598,6 +24605,7 @@ namespace OverflowHelper.core
             correctionAdd("Northern hemisphere", "Northern Hemisphere");
 
             correctionAdd("some where", "somewhere");
+            correctionAdd("somwhere", "somewhere");
 
             correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
 
@@ -29262,6 +29270,37 @@ namespace OverflowHelper.core
 
             correctionAdd("twopronged", "two-pronged");
             correctionAdd("2 prong", "two-pronged");
+
+            correctionAdd("android 11", "Android&nbsp;11");
+            correctionAdd("Android 11", "Android&nbsp;11");
+
+            correctionAdd("greek", "Greek");
+
+            correctionAdd("ReLU", "Rectified Linear Unit");
+
+            correctionAdd("Accounting System", "accounting system");
+
+            correctionAdd("Baryonic", "baryonic");
+
+            correctionAdd("Con", "con");
+
+            correctionAdd("daily Scrum", "daily scrum");
+
+            correctionAdd("decmial", "decimal");
+
+            correctionAdd("enlightment", "enlightenment");
+
+            correctionAdd("gardient", "gradient");
+
+            correctionAdd("homeschooled", "home schooled");
+
+            correctionAdd("hypofetical", "hypothetical");
+
+            correctionAdd("randonly", "randomly");
+
+            correctionAdd("seqences", "sequences");
+
+            correctionAdd("star light", "starlight");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46033,6 +46072,36 @@ namespace OverflowHelper.core
             URL_Add("three-pronged", "https://en.wiktionary.org/wiki/three-pronged#Adjective");
 
             URL_Add("two-pronged", "https://en.wiktionary.org/wiki/two-pronged#Adjective");
+
+            URL_Add("Android&nbsp;11", "https://en.wikipedia.org/wiki/Android_11");
+
+            URL_Add("Greek", "https://en.wiktionary.org/wiki/Greek#Adjective");
+
+            URL_Add("Rectified Linear Unit", "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)");
+
+            URL_Add("accounting system", "https://en.wikipedia.org/wiki/Accounting_information_system");
+
+            URL_Add("baryonic", "https://en.wiktionary.org/wiki/baryonic#Adjective");
+
+            URL_Add("con", "https://en.wiktionary.org/wiki/con#Noun");
+
+            URL_Add("daily scrum", "https://en.wikipedia.org/wiki/Scrum_%28software_development%29#Daily_scrum");
+
+            URL_Add("decimal", "https://en.wiktionary.org/wiki/decimal#Noun");
+
+            URL_Add("enlightenment", "https://en.wiktionary.org/wiki/enlightenment#Noun");
+
+            URL_Add("gradient", "https://en.wiktionary.org/wiki/gradient#Noun");
+
+            URL_Add("home schooled", "https://en.wiktionary.org/wiki/home_school#Verb");
+
+            URL_Add("hypothetical", "https://en.wiktionary.org/wiki/hypothetical#Adjective");
+
+            URL_Add("randomly", "https://en.wiktionary.org/wiki/randomly#Adverb");
+
+            URL_Add("sequences", "https://en.wiktionary.org/wiki/sequence#Noun");
+
+            URL_Add("starlight", "https://en.wiktionary.org/wiki/starlight#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
