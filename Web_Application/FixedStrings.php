@@ -124,6 +124,34 @@
                 />
             </p>
 
+            <p>Subscri<u>p</u>t (HTML):
+
+                <input
+                    name="Subscript - HTML"
+                    type="text"
+                    id="Subscript_HTML"
+                    class="XYZ31"
+                    value="<sub></sub>"
+                    style="width:100px;"
+                    accesskey="P"
+                    title="Shortcut: Shift + Alt + P"
+                />
+            </p>
+
+            <p>Super<u>s</u>cript (HTML):
+
+                <input
+                    name="Superscript - HTML"
+                    type="text"
+                    id="Superscript_HTML"
+                    class="XYZ31"
+                    value="<sup></sup>"
+                    style="width:100px;"
+                    accesskey="S"
+                    title="Shortcut: Shift + Alt + S"
+                />
+            </p>
+
             <p><u>A</u>rrow (Unicode):
 
                 <input
@@ -262,7 +290,7 @@
                 "space after left parenthesis",
                 and "missing space around some operators"): <br/>
 
-                
+
 
                 <input
                     name="All combined"
