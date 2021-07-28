@@ -4355,6 +4355,7 @@ namespace OverflowHelper.core
             correctionAdd("dnt", "don’t");
             correctionAdd("don`t", "don’t");
             correctionAdd("dont’t", "don’t");
+            correctionAdd("Don`t", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -8595,6 +8596,7 @@ namespace OverflowHelper.core
 
             correctionAdd("kernal", "kernel");
             correctionAdd("Kernel", "kernel");
+            correctionAdd("kenel", "kernel");
 
             correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
             correctionAdd("kde4", "KDE&nbsp;4");
@@ -21344,6 +21346,7 @@ namespace OverflowHelper.core
 
             correctionAdd("more simple", "simpler");
             correctionAdd("simplier", "simpler");
+            correctionAdd("simpleper", "simpler");
 
             correctionAdd("whipper snapper", "whippersnapper");
 
@@ -29300,6 +29303,17 @@ namespace OverflowHelper.core
             correctionAdd("seqences", "sequences");
 
             correctionAdd("star light", "starlight");
+
+            correctionAdd("Joule Thief", "Joule thief");
+
+            correctionAdd("skylake", "Skylake");
+
+            correctionAdd("flat-out", "flat out");
+
+            correctionAdd("simly", "simply");
+
+            correctionAdd("microhenry", "µH");
+            correctionAdd("uH", "µH");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46099,6 +46113,16 @@ namespace OverflowHelper.core
             URL_Add("sequences", "https://en.wiktionary.org/wiki/sequence#Noun");
 
             URL_Add("starlight", "https://en.wiktionary.org/wiki/starlight#Noun");
+
+            URL_Add("Joule thief", "https://en.wikipedia.org/wiki/Joule_thief");
+
+            URL_Add("Skylake", "https://en.wikipedia.org/wiki/Skylake_(microarchitecture)");
+
+            URL_Add("flat out", "https://en.wiktionary.org/wiki/flat_out#Adjective");
+
+            URL_Add("simply", "https://en.wiktionary.org/wiki/simply#Adverb");
+
+            URL_Add("µH", "https://en.wikipedia.org/wiki/Inductor");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
