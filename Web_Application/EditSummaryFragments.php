@@ -56,7 +56,7 @@
                 />
             </p>
 
-            <p>
+            <p id="Capitalise_I">
                 <input
                     name="X2"
                     type="text"
@@ -376,9 +376,9 @@
 
             <!-- ===================================================== -->
             <hr/>
-            <h2>Pure links</h2>
+            <h2 id="PureLinks">Pure links</h2>
 
-            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"
+            <p id="Run-on_sentences"><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"
                 >Run-on sentences</a>
                 (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
                 >YouTube video</a>).
@@ -429,6 +429,7 @@
                 />
             </p>
 
+            <div id="IndianSpace"> </div>
             <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
                 >The Indian spa<strong><i>c</i></strong>e</a>
                 (from the outdated 1935
@@ -447,7 +448,7 @@
                 />
             </p>
 
-            <p><u>U</u>S native speakers, especially southern US,
+            <p id="Than-and-Then"><u>U</u>S native speakers, especially southern US,
                 <a href="https://www.wikihow.com/Use-Than-and-Then"
                 >&quot;than&quot; vs. &quot;then&quot;</a>: <br/>
 
