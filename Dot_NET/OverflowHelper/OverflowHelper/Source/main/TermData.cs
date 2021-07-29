@@ -2386,6 +2386,8 @@ namespace OverflowHelper.core
             correctionAdd("Google chrome", "Google Chrome");
             correctionAdd("Chrom", "Google Chrome");
             correctionAdd("chorme", "Google Chrome");
+            correctionAdd("chorm", "Google Chrome");
+            correctionAdd("chrom", "Google Chrome");
 
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
@@ -8168,6 +8170,10 @@ namespace OverflowHelper.core
             correctionAdd("meta stock exchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("META StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("Meta.StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta Stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
 
             correctionAdd("ppl", "people");
             correctionAdd("peole", "people");
@@ -9828,6 +9834,8 @@ namespace OverflowHelper.core
             correctionAdd("Screen shot", "screenshot");
             correctionAdd("Screenshot", "screenshot");
             correctionAdd("Screenhot", "screenshot");
+            correctionAdd("Screnshot", "screenshot");
+            correctionAdd("screnshot", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -9898,6 +9906,7 @@ namespace OverflowHelper.core
             correctionAdd("in built", "built-in");
             correctionAdd("in-built", "built-in");
             correctionAdd("buid-in", "built-in");
+            correctionAdd("inbuild", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -10317,6 +10326,7 @@ namespace OverflowHelper.core
             correctionAdd("further more", "furthermore");
             correctionAdd("Further more", "furthermore");
             correctionAdd("Furthermore", "furthermore");
+            correctionAdd("Futhermore", "furthermore");
 
             // Of PowerShell...
             correctionAdd("get-winevent", "Get-WinEvent");
@@ -11501,6 +11511,7 @@ namespace OverflowHelper.core
             correctionAdd("scandinavian", "Scandinavian");
             correctionAdd("Scandinvian", "Scandinavian");
             correctionAdd("Scandanavian", "Scandinavian");
+            correctionAdd("Scandinavianb", "Scandinavian");
 
             correctionAdd("venus", "Venus");
 
@@ -16293,6 +16304,7 @@ namespace OverflowHelper.core
             correctionAdd("usin", "using");
             correctionAdd("usign", "using");
             correctionAdd("uing", "using");
+            correctionAdd("unsing", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -18512,6 +18524,7 @@ namespace OverflowHelper.core
             correctionAdd("crossPlatform", "cross-platform");
             correctionAdd("Cross Platform", "cross-platform");
             correctionAdd("cross platform", "cross-platform");
+            correctionAdd("cross-platfrom", "cross-platform");
 
             correctionAdd("plattform", "platform");
             correctionAdd("platoform", "platform");
@@ -19157,6 +19170,7 @@ namespace OverflowHelper.core
             correctionAdd("tomorrows", "tomorrow's");
 
             correctionAdd("Id", "I'd");
+            correctionAdd("I´d", "I'd");
 
             correctionAdd("Shindler's list", "Schindler's List");
 
@@ -20018,6 +20032,7 @@ namespace OverflowHelper.core
             correctionAdd("ebmedded", "embedded");
             correctionAdd("embeded", "embedded");
             correctionAdd("Embeded", "embedded");
+            correctionAdd("imbedded", "embedded");
 
             correctionAdd("Factory Pattern", "factory pattern");
 
@@ -20105,6 +20120,8 @@ namespace OverflowHelper.core
             correctionAdd("wereing", "wearing");
 
             correctionAdd("abrevation", "abbreviation");
+            correctionAdd("ABRV", "abbreviation");
+            correctionAdd("abrv", "abbreviation");
 
             correctionAdd("heterogenious", "heterogeneous");
 
@@ -20299,6 +20316,7 @@ namespace OverflowHelper.core
 
             correctionAdd("webserver", "web server");
             correctionAdd("Web Server", "web server");
+            correctionAdd("web-server", "web server");
 
             correctionAdd("fahrenheit", "Fahrenheit");
             correctionAdd("Farenheit", "Fahrenheit");
@@ -20458,6 +20476,7 @@ namespace OverflowHelper.core
             correctionAdd("scenarions", "scenarios");
 
             correctionAdd("Software Engineering", "software engineering");
+            correctionAdd("softwareengineering", "software engineering");
 
             correctionAdd("tradeoff", "trade-off");
             correctionAdd("trade off", "trade-off");
@@ -20638,6 +20657,8 @@ namespace OverflowHelper.core
             correctionAdd("permiability", "permeability");
 
             correctionAdd("non native", "non-native");
+            correctionAdd("not native", "non-native");
+            correctionAdd("nonnative", "non-native");
 
             correctionAdd("ragret", "regret");
             correctionAdd("RAGRET", "regret");
@@ -24613,6 +24634,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ther", "there");
             correctionAdd("thers", "there");
+            correctionAdd("thre", "there");
 
             correctionAdd("Python Anywhere", "PythonAnywhere");
 
@@ -29314,6 +29336,22 @@ namespace OverflowHelper.core
 
             correctionAdd("microhenry", "µH");
             correctionAdd("uH", "µH");
+
+            correctionAdd("lwip", "LwIP");
+            correctionAdd("LWIP", "LwIP");
+
+            correctionAdd("anchore", "anchor");
+
+            correctionAdd("anti matter", "antimatter");
+            correctionAdd("anti-matter", "antimatter");
+
+            correctionAdd("managebility", "manageability");
+
+            correctionAdd("pre selected", "preselected");
+
+            correctionAdd("recieved", "received");
+
+            correctionAdd("red shift", "redshift");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46123,6 +46161,20 @@ namespace OverflowHelper.core
             URL_Add("simply", "https://en.wiktionary.org/wiki/simply#Adverb");
 
             URL_Add("µH", "https://en.wikipedia.org/wiki/Inductor");
+
+            URL_Add("LwIP", "https://en.wikipedia.org/wiki/LwIP");
+
+            URL_Add("anchor", "https://en.wiktionary.org/wiki/anchor#Noun");
+
+            URL_Add("antimatter", "https://en.wikipedia.org/wiki/Antimatter");
+
+            URL_Add("manageability", "https://en.wiktionary.org/wiki/manageability#Noun");
+
+            URL_Add("preselected", "https://en.wiktionary.org/wiki/preselected#Adjective");
+
+            URL_Add("received", "https://en.wiktionary.org/wiki/receive#Verb");
+
+            URL_Add("redshift", "https://en.wikipedia.org/wiki/Redshift");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
