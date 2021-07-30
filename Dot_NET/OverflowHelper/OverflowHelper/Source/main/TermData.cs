@@ -2725,6 +2725,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL server management studio", "SQL Server Management Studio");
             correctionAdd("SMSS", "SQL Server Management Studio");
             correctionAdd("sql server managment studio", "SQL Server Management Studio");
+            correctionAdd("ssms", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -3159,6 +3160,7 @@ namespace OverflowHelper.core
 
             correctionAdd("legit", "legitimate"); // Expansion, not case correction.
             correctionAdd("legimate", "legitimate");
+            correctionAdd("legitimite", "legitimate");
 
             correctionAdd("px", "pixels"); // Expansion, not case correction.
 
@@ -6215,6 +6217,7 @@ namespace OverflowHelper.core
             correctionAdd("sql-injection", "SQL injection");
             correctionAdd("Sql Injection", "SQL injection");
             correctionAdd("SQL-Injection", "SQL injection");
+            correctionAdd("SQl injection", "SQL injection");
 
             correctionAdd("mysqli", "MySQLi");
             correctionAdd("Mysqli", "MySQLi");
@@ -7382,6 +7385,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows Scripting Host", "Windows Script Host");
             correctionAdd("wscript", "Windows Script Host");
             correctionAdd("WScript", "Windows Script Host");
+            correctionAdd("Wscript", "Windows Script Host");
 
             correctionAdd("pre-req", "prerequisite");
             correctionAdd("prereq", "prerequisite");
@@ -12135,6 +12139,7 @@ namespace OverflowHelper.core
             correctionAdd("allredy", "already");
             correctionAdd("aready", "already");
             correctionAdd("alread", "already");
+            correctionAdd("laready", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -12228,9 +12233,6 @@ namespace OverflowHelper.core
             correctionAdd("Prof", "professor");
             correctionAdd("Professor", "professor");
             correctionAdd("proffesor", "professor");
-
-            correctionAdd("re-writing", "rewriting");
-            correctionAdd("Re-writing", "rewriting");
 
             correctionAdd("anyways", "anyway");
             correctionAdd("Anyyay", "anyway");
@@ -12855,8 +12857,12 @@ namespace OverflowHelper.core
             correctionAdd("scrollbar", "scroll bar");
             correctionAdd("scroll-bar", "scroll bar");
 
+            correctionAdd("re-writing", "rewriting");
+            correctionAdd("Re-writing", "rewriting");
+
             correctionAdd("writting", "writing");
             correctionAdd("writtitng", "writing");
+            correctionAdd("wrting", "writing");
 
             correctionAdd("vagrant", "Vagrant");
 
@@ -15874,6 +15880,7 @@ namespace OverflowHelper.core
             correctionAdd("vaue", "value");
             correctionAdd("vaule", "value");
             correctionAdd("vlaue", "value");
+            correctionAdd("valae", "value");
 
             correctionAdd("WHOAMI", "whoami");
 
@@ -19826,6 +19833,7 @@ namespace OverflowHelper.core
 
             correctionAdd("enter", "Enter");
             correctionAdd("ENTER", "Enter");
+            correctionAdd("Eneter", "Enter");
 
             correctionAdd("gpa", "GPA");
 
@@ -28552,6 +28560,8 @@ namespace OverflowHelper.core
 
             correctionAdd("materialize css", "Materialize CSS");
             correctionAdd("materialize", "Materialize CSS");
+            correctionAdd("MaterializeCSS", "Materialize CSS");
+            correctionAdd("Materializecss", "Materialize CSS");
 
             correctionAdd("Android Wear", "Wear OS");
             correctionAdd("wear os", "Wear OS");
@@ -29352,6 +29362,18 @@ namespace OverflowHelper.core
             correctionAdd("recieved", "received");
 
             correctionAdd("red shift", "redshift");
+
+            correctionAdd("jCenter", "JCenter");
+            correctionAdd("jcenter", "JCenter");
+
+            correctionAdd("chip", "chips");
+            correctionAdd("Chips", "chips");
+
+            correctionAdd("critcal", "critical");
+
+            correctionAdd("denomination", "denominator");
+
+            correctionAdd("soleless", "soulless");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46175,6 +46197,16 @@ namespace OverflowHelper.core
             URL_Add("received", "https://en.wiktionary.org/wiki/receive#Verb");
 
             URL_Add("redshift", "https://en.wikipedia.org/wiki/Redshift");
+
+            URL_Add("JCenter", "https://stackoverflow.com/tags/jcenter/info");
+
+            URL_Add("chips", "https://materializecss.com/chips.html");
+
+            URL_Add("critical", "https://en.wiktionary.org/wiki/critical#Adjective");
+
+            URL_Add("denominator", "https://en.wiktionary.org/wiki/denominator#Noun");
+
+            URL_Add("soulless", "https://en.wiktionary.org/wiki/soulless#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
