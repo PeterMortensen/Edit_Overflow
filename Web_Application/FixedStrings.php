@@ -144,7 +144,7 @@
                     name="Superscript - HTML"
                     type="text"
                     id="Superscript_HTML"
-                    class="XYZ31"
+                    class="XYZ41"
                     value="<sup></sup>"
                     style="width:100px;"
                     accesskey="S"
@@ -158,7 +158,7 @@
                     name="Arrow - Unicode"
                     type="text"
                     id="Arrow_Unicode"
-                    class="XYZ31"
+                    class="XYZ42"
                     value="→"
                     style="width:30px;"
                     accesskey="A"
@@ -248,7 +248,7 @@
                     name="Tilde"
                     type="text"
                     id="Tilde_Unicode"
-                    class="XYZ39"
+                    class="XYZ43"
                     value="~"
                     style="width:30px;"
                     accesskey="L"
@@ -262,7 +262,7 @@
                     name="middot"
                     type="text"
                     id="middot_Unicode"
-                    class="XYZ40"
+                    class="XYZ44"
                     value="&amp;middot;"
                     style="width:60px;"
                     accesskey="X"
@@ -311,8 +311,10 @@
             -->
             <!--  For 'value' (the displayed text in the button), tags 'u'
                   or 'strong' do not work!! -->
+                  
+            <!-- Does field 'name' have any significance???   -->       
             <input
-                name="XYZ"
+                name="XYZ_7777"
                 type="submit"
                 id="NotReally"
                 class="XYZ27"

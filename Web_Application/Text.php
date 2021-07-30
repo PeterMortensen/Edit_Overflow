@@ -634,7 +634,7 @@
 
             <!-- Format as keyboard button  -->
             <input
-                name="action"
+                name="action2"
                 type="Submit"
                 id="LookUp2"
                 class="XYZ19"
@@ -646,7 +646,7 @@
 
             <!-- Quote as code button  -->
             <input
-                name="action"
+                name="action3"
                 type="Submit"
                 id="LookUp3"
                 class="XYZ20"
@@ -658,7 +658,7 @@
 
             <!-- Real quotes button  -->
             <input
-                name="action"
+                name="action4"
                 type="Submit"
                 id="LookUp28"
                 class="XYZ28"
@@ -670,7 +670,7 @@
 
             <!-- Transform for YouTube comments button  -->
             <input
-                name="action"
+                name="action5"
                 type="Submit"
                 id="LookUp29"
                 class="XYZ29"
@@ -682,7 +682,7 @@
 
             <!-- Remove common leading space button  -->
             <input
-                name="action"
+                name="action6"
                 type="Submit"
                 id="LookUp30"
                 class="XYZ30"
