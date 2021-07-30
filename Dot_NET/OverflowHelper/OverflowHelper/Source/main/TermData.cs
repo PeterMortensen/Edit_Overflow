@@ -1682,6 +1682,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ANT", "Ant");
             correctionAdd("ant", "Ant");
+            correctionAdd("Apache Ant", "Ant");
 
             correctionAdd("WIFI", "Wi-Fi");
             correctionAdd("Wifi", "Wi-Fi");
@@ -1747,6 +1748,7 @@ namespace OverflowHelper.core
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
             correctionAdd("mave", "Maven");
+            correctionAdd("Apache Maven", "Maven");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -4151,6 +4153,8 @@ namespace OverflowHelper.core
             correctionAdd("Utorrent", "µTorrent");
 
             correctionAdd("sbt", "SBT");
+            correctionAdd("Simple Build Tool", "SBT");
+            correctionAdd("simple build tool", "SBT");
 
             correctionAdd("vimeo", "Vimeo");
 
@@ -5265,39 +5269,6 @@ namespace OverflowHelper.core
             correctionAdd("OG", "Open Graph");
 
             correctionAdd("fql", "FQL");
-
-            correctionAdd("sth", "something");
-            correctionAdd("smth", "something");
-            correctionAdd("sumthin", "something");
-            correctionAdd("sthg", "something");
-            correctionAdd("somthing", "something");
-            correctionAdd("soemthign", "something");
-            correctionAdd("some thing", "something");
-            correctionAdd("Soemthing", "something");
-            correctionAdd("soemthing", "something");
-            correctionAdd("somethign", "something");
-            correctionAdd("somhing", "something");
-            correctionAdd("somenting", "something");
-            correctionAdd("Somting", "something");
-            correctionAdd("somting", "something"); // Not 100% correct - casing.
-            correctionAdd("somthig", "something");
-            correctionAdd("Somthig", "something"); // Not 100% correct - casing.
-            correctionAdd("somethng", "something");
-            correctionAdd("somethink", "something");
-            correctionAdd("somethig", "something");
-            correctionAdd("someting", "something");
-            correctionAdd("somethin", "something");
-            correctionAdd("somithing", "something");
-            correctionAdd("somethnig", "something");
-            correctionAdd("sonething", "something");
-            correctionAdd("Someting", "something");
-            correctionAdd("sum’n", "something");
-            correctionAdd("Somthing", "something");
-            correctionAdd("sumthing", "something");
-            correctionAdd("somerthing", "something");
-            correctionAdd("seomthing", "something");
-            correctionAdd("somrthing", "something");
-            correctionAdd("smt", "something");
 
             correctionAdd("WS2003", "Windows Server 2003");
             correctionAdd("Server 2003", "Windows Server 2003");
@@ -9858,19 +9829,6 @@ namespace OverflowHelper.core
             correctionAdd("World war II", "World War II");
             correctionAdd("World war (II)", "World War II");
             correctionAdd("WW II", "World War II");
-
-            correctionAdd("every thing", "everything");
-            correctionAdd("Every thing", "everything");
-            correctionAdd("everyting", "everything");
-            correctionAdd("everthing", "everything");
-            correctionAdd("Everyting", "everything");
-            correctionAdd("everyhing", "everything");
-            correctionAdd("Everthing", "everything");
-            correctionAdd("everithing", "everything");
-            correctionAdd("everyhting", "everything");
-            correctionAdd("everythin", "everything");
-            correctionAdd("Everythink", "everything");
-            correctionAdd("everythink", "everything");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -14498,7 +14456,54 @@ namespace OverflowHelper.core
             correctionAdd("powers-that-be", "powers that be");
             correctionAdd("Powers-That-Be", "powers that be");
 
+            correctionAdd("sth", "something");
+            correctionAdd("smth", "something");
+            correctionAdd("sumthin", "something");
+            correctionAdd("sthg", "something");
+            correctionAdd("somthing", "something");
+            correctionAdd("soemthign", "something");
+            correctionAdd("some thing", "something");
+            correctionAdd("Soemthing", "something");
+            correctionAdd("soemthing", "something");
+            correctionAdd("somethign", "something");
+            correctionAdd("somhing", "something");
+            correctionAdd("somenting", "something");
+            correctionAdd("Somting", "something");
+            correctionAdd("somting", "something"); // Not 100% correct - casing.
+            correctionAdd("somthig", "something");
+            correctionAdd("Somthig", "something"); // Not 100% correct - casing.
+            correctionAdd("somethng", "something");
+            correctionAdd("somethink", "something");
+            correctionAdd("somethig", "something");
+            correctionAdd("someting", "something");
+            correctionAdd("somethin", "something");
+            correctionAdd("somithing", "something");
+            correctionAdd("somethnig", "something");
+            correctionAdd("sonething", "something");
+            correctionAdd("Someting", "something");
+            correctionAdd("sum’n", "something");
+            correctionAdd("Somthing", "something");
+            correctionAdd("sumthing", "something");
+            correctionAdd("somerthing", "something");
+            correctionAdd("seomthing", "something");
+            correctionAdd("somrthing", "something");
+            correctionAdd("smt", "something");
+
+            correctionAdd("every thing", "everything");
+            correctionAdd("Every thing", "everything");
+            correctionAdd("everyting", "everything");
+            correctionAdd("everthing", "everything");
+            correctionAdd("Everyting", "everything");
+            correctionAdd("everyhing", "everything");
+            correctionAdd("Everthing", "everything");
+            correctionAdd("everithing", "everything");
+            correctionAdd("everyhting", "everything");
+            correctionAdd("everythin", "everything");
+            correctionAdd("Everythink", "everything");
+            correctionAdd("everythink", "everything");
+
             correctionAdd("thig", "thing");
+            correctionAdd("thang", "thing");
 
             correctionAdd("tooo", "too");
 
@@ -23382,6 +23387,7 @@ namespace OverflowHelper.core
 
             correctionAdd("play", "Play Framework");
             correctionAdd("Play", "Play Framework");
+            correctionAdd("Play framework", "Play Framework");
 
             correctionAdd(".NetCF", ".NET Compact Framework");
             correctionAdd("Dot.net CF", ".NET Compact Framework");
@@ -26297,6 +26303,7 @@ namespace OverflowHelper.core
             correctionAdd("leval", "level");
 
             correctionAdd("mis-understanding", "misunderstanding");
+            correctionAdd("missunderstanding", "misunderstanding");
 
             correctionAdd("natral", "natural");
 
@@ -29397,6 +29404,14 @@ namespace OverflowHelper.core
 
             correctionAdd("jackson", "Jackson");
 
+            correctionAdd("AAP", "A-A-P");
+
+            correctionAdd("clojars", "Clojars");
+
+            correctionAdd("leiningen", "Leiningen");
+
+            correctionAdd("commentor", "commenter");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -29489,6 +29504,8 @@ namespace OverflowHelper.core
             correctionAdd("C-Virus", "coronavirus"); // Coronavirus
             correctionAdd("C Virus", "coronavirus"); // Coronavirus
             correctionAdd("C virus", "coronavirus"); // Coronavirus
+            correctionAdd("Coranavirus", "coronavirus"); // Coronavirus
+            correctionAdd("coranavirus", "coronavirus"); // Coronavirus
 
             correctionAdd("ebola", "Ebola"); // Coronavirus
 
@@ -46237,6 +46254,14 @@ namespace OverflowHelper.core
             URL_Add("JAXB", "https://en.wikipedia.org/wiki/Jakarta_XML_Binding");
 
             URL_Add("Jackson", "https://github.com/FasterXML/jackson");
+
+            URL_Add("A-A-P", "https://en.wikipedia.org/wiki/A-A-P");
+
+            URL_Add("Clojars", "https://clojars.org/");
+
+            URL_Add("Leiningen", "https://en.wikipedia.org/wiki/Leiningen_(software)");
+
+            URL_Add("commenter", "https://en.wiktionary.org/wiki/commenter#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
