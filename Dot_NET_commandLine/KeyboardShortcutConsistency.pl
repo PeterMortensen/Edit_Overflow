@@ -23,6 +23,8 @@
 #                                                                           #
 #             4. Output of unassigned keys (optional)                       #
 #                                                                           #
+#             5. Uniqueness of some form attributes, e.g. "id" and "name"   #
+#                                                                           #
 #############################################################################
 
 #############################################################################
@@ -49,7 +51,30 @@
 #                          or if there is an error (so it is easier         #
 #                          to spot if something went wrong).                #
 #                                                                           #
+#             2021-07-30   Added general check of uniqueness of             #
+#                          some forms fields.                               #
+#                                                                           #
 #############################################################################
+
+# Future:
+#
+#   1. Detect TAB characters
+#
+#   2. Require some fields to be equal. Or even that they should not be.
+#
+#      Note that we now use "id" for anchors and thus may want to 
+#      give them meaningful names instead of (arbitrary) numbers.
+#
+#      Example:
+#     
+#        name="Non-breaking space"
+#        id="Non-breaking_space"
+#        class="XYZ32"
+#     
+#   3. XXXX
+#
+
+
 
 use strict;
 
@@ -112,6 +137,32 @@ my %keyboardShortcutSet =
 );
 
 
+# We use the value for each key as a list (hash) of values
+# that we encounter in the input file for that key (HTML
+# attribute/field).
+#
+# For the secondary hash, we store the linenumber 
+# (so we can report both line numbers of 
+# conflicting (non-unique) values)
+#
+my %uniqueFields =
+(
+    'class',      {},
+    'id',         {},
+    'name',       {},
+    
+    #'title',      {},   # <Same as accesskey.>
+
+    #'accesskey',  {},   # Not for now. Possible special 
+                         # treatment for an empty value.
+                         
+    'value',      {},   
+);
+
+#my %fields = ();
+
+
+
 # We don't want it empty or undefined as we depend on it later on.
 my $kValuePreset = "<Not set>";
 
@@ -165,8 +216,11 @@ if ($proceedWithMainProcessing)
         chop;
 
         $line++;
+        my $currentlLine = $_; # Because iterating through the
+                               # hash (below) will overwrite
+                               # $_...
         my $len = length;
-        #print "$len - >>>$_<<<\n\n";
+        #print "$len - >>>$currentlLine<<<\n\n";
 
         my $leadingSpace = "";
         if (/^(\s+)/)
@@ -174,10 +228,10 @@ if ($proceedWithMainProcessing)
             $leadingSpace = $1;
         }
         my $leadingSpaces = length $leadingSpace;
-        #print "$leadingSpaces leading spaces - >>>$_<<<\n\n";
+        #print "$leadingSpaces leading spaces - >>>$currentlLine<<<\n\n";
 
         my $hasUnevenSpaces = $leadingSpaces % 2;
-        #print "Uneven: $leadingSpaces leading spaces - >>>$_<<<\n\n"
+        #print "Uneven: $leadingSpaces leading spaces - >>>$currentlLine<<<\n\n"
         #  if $hasUnevenSpaces;
 
         if ($hasUnevenSpaces)
@@ -308,7 +362,58 @@ if ($proceedWithMainProcessing)
             $value = $kValuePreset;
         } #Line with "title="
 
-    } #while()
+        # General check of uniqueness for some fields
+        #
+        # Note: This must be last as it overwrites $_...
+        #
+        foreach (sort keys %uniqueFields) # Sort: for a deterministic behaviour
+        {
+            my $someFieldName = $_;
+            #my $value = $accesskeys{$key};
+
+            #print "On line $line: Looking for field \"$someFieldName\"...\n";
+            #die;
+
+            # Example line that should match:
+            #
+            #                       class="XYZ29"
+            #
+            # The anchor to the start of the line is to avoid false 
+            # positives, e.g. for:
+            #
+            #     <!--  class="XYZ3"  -->
+            #
+            if ($currentlLine =~ /^\s+$someFieldName=\"(.*)\"/)
+            {
+                my $fieldValue = $1;
+
+                #print "On line $line: Detected field name \"$someFieldName\". " .
+                #      "Value: \"$fieldValue\"\n";
+                #die;
+
+                my $prevLineNumber = $uniqueFields{$someFieldName}->{$fieldValue};
+                if ($prevLineNumber)
+                {
+                    print 
+                      "\n\nOn line $line: Non-unique field value that is also " .
+                      "at line $prevLineNumber. Field name \"$someFieldName\". " .
+                      "Value: \"$fieldValue\"\n\n\n";
+                    die;
+                }
+                $uniqueFields{$someFieldName}->{$fieldValue} = $line;
+               
+
+                #print
+                #  "\nKeyboard shortcut is already used. " .
+                #  "On line $line: $accKey for \"$value\" " .
+                #  "(other: \"$oldValue\")\n";
+
+            } # Detected a field that should be unique
+
+        } # Through looking for fields that must be unique
+
+    } #while(). Through the input file
+
 
     if (
          ($line != 0) &&   # Don't output anything for empty input
