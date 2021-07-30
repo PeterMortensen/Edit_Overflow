@@ -24602,8 +24602,6 @@ namespace OverflowHelper.core
             correctionAdd("bouroucratic", "bureaucratic");
             correctionAdd("beareaucratic", "bureaucratic");
 
-            correctionAdd("DX", "developer experience");
-
             correctionAdd("easyer", "easier");
 
             correctionAdd("expence", "expense");
@@ -30576,7 +30574,7 @@ namespace OverflowHelper.core
 
             URL_Add("ADSL", "https://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line");
 
-            URL_Add("legitimate", "https://en.wiktionary.org/wiki/legit");
+            URL_Add("legitimate", "https://en.wiktionary.org/wiki/legitimate#Adjective"); // Old: https://en.wiktionary.org/wiki/legit
 
             URL_Add("pixels", "https://en.wikipedia.org/wiki/Pixel");
 
@@ -32175,7 +32173,7 @@ namespace OverflowHelper.core
 
             URL_Add("EPROM", "https://en.wikipedia.org/wiki/EPROM");
 
-            URL_Add("Android&nbsp;4.1 (Jelly Bean)", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean_.28API_level_16.29");
+            URL_Add("Android&nbsp;4.1 (Jelly Bean)", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean"); // Old: https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean_.28API_level_16.29
 
             URL_Add("Nexus&nbsp;7", "https://en.wikipedia.org/wiki/Nexus_7_%282012_version%29");
 
@@ -32433,7 +32431,7 @@ namespace OverflowHelper.core
 
             URL_Add("RavenDB", "http://ravendb.net/");
 
-            URL_Add("Android&nbsp;3 (Honeycomb)", "https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29");
+            URL_Add("Android&nbsp;3 (Honeycomb)", "https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb"); // https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29
 
             URL_Add("Salesforce", "https://en.wikipedia.org/wiki/Salesforce.com");
 
@@ -32551,7 +32549,7 @@ namespace OverflowHelper.core
 
             URL_Add("Android 5.0 (Lollipop)", "https://en.wikipedia.org/wiki/Android_Lollipop");
 
-            URL_Add("Android 4.4.x (KitKat)", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.4_KitKat_.28API_level_19.29");
+            URL_Add("Android 4.4.x (KitKat)", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.4_KitKat"); // Old: https://en.wikipedia.org/wiki/Android_version_history#Android_4.4_KitKat_.28API_level_19.29
 
             URL_Add("inheritance", "https://en.wiktionary.org/wiki/inheritance#Noun");
 
@@ -42245,8 +42243,6 @@ namespace OverflowHelper.core
             URL_Add("assistance", "https://en.wiktionary.org/wiki/assistance#Noun");
 
             URL_Add("bureaucratic", "https://en.wiktionary.org/wiki/bureaucratic#Adjective");
-
-            URL_Add("developer experience", "https://hackernoon.com/the-best-practices-for-a-great-developer-experience-dx-9036834382b0");
 
             URL_Add("easier", "https://en.wiktionary.org/wiki/easier#Adjective");
 
