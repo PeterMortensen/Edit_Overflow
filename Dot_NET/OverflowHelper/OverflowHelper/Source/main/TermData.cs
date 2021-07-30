@@ -8775,6 +8775,10 @@ namespace OverflowHelper.core
             correctionAdd("Honeycomb", "Android&nbsp;3 (Honeycomb)");
             correctionAdd("HoneyComb", "Android&nbsp;3 (Honeycomb)");
             correctionAdd("Android&nbsp;3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("android-3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("android 3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("Android 3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("Android3", "Android&nbsp;3 (Honeycomb)");
 
             correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich)"); // Sort of identity mapping
             correctionAdd("Android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
@@ -8785,6 +8789,9 @@ namespace OverflowHelper.core
             correctionAdd("icecream", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("Android&nbsp;4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("ICS", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("android-4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("Android4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
 
             correctionAdd("Android 4.1 (Jelly Bean)", "Android&nbsp;4.1 (Jelly Bean)"); // Sort of identity mapping
             correctionAdd("JB", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
@@ -16505,6 +16512,7 @@ namespace OverflowHelper.core
             correctionAdd("commanline", "command line");
             correctionAdd("comandline", "command line");
             correctionAdd("Commandline", "command line");
+            correctionAdd("cmd line", "command line");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -22308,8 +22316,10 @@ namespace OverflowHelper.core
             correctionAdd("assebmly", "assembly language");
 
             correctionAdd("DSL", "domain-specific language");
-            correctionAdd("Domain Specific Language", "domain-specific language");
             correctionAdd("dsl", "domain-specific language");
+            correctionAdd("Domain Specific Language", "domain-specific language");
+            correctionAdd("domain specific language", "domain-specific language");
+            correctionAdd("specific domain language", "domain-specific language");
 
             correctionAdd("K&R", "The C Programming Language");
             correctionAdd("k&r", "The C Programming Language");
@@ -29372,6 +29382,20 @@ namespace OverflowHelper.core
             correctionAdd("denomination", "denominator");
 
             correctionAdd("soleless", "soulless");
+
+            correctionAdd("AAPT2", "Android Asset Packaging Tool");
+            correctionAdd("aapt", "Android Asset Packaging Tool");
+            correctionAdd("aapt2", "Android Asset Packaging Tool");
+            correctionAdd("AAPT", "Android Asset Packaging Tool");
+
+            correctionAdd("d8", "D8");
+
+            correctionAdd("dx", "DX");
+
+            correctionAdd("Jakarta XML Binding", "JAXB");
+            correctionAdd("jaxb", "JAXB");
+
+            correctionAdd("jackson", "Jackson");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46203,6 +46227,16 @@ namespace OverflowHelper.core
             URL_Add("denominator", "https://en.wiktionary.org/wiki/denominator#Noun");
 
             URL_Add("soulless", "https://en.wiktionary.org/wiki/soulless#Adjective");
+
+            URL_Add("Android Asset Packaging Tool", "https://developer.android.com/studio/command-line/aapt2");
+
+            URL_Add("D8", "https://android-developers.googleblog.com/2020/02/the-path-to-dx-deprecation.html");
+
+            URL_Add("DX", "https://android-developers.googleblog.com/2020/02/the-path-to-dx-deprecation.html");
+
+            URL_Add("JAXB", "https://en.wikipedia.org/wiki/Jakarta_XML_Binding");
+
+            URL_Add("Jackson", "https://github.com/FasterXML/jackson");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
