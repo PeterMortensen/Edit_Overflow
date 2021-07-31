@@ -4370,6 +4370,7 @@ namespace OverflowHelper.core
 
             correctionAdd("elisp", "Emacs&nbsp;Lisp");
             correctionAdd("Emacs Lisp", "Emacs&nbsp;Lisp");
+            correctionAdd("emacs lisp", "Emacs&nbsp;Lisp");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -5492,9 +5493,6 @@ namespace OverflowHelper.core
             correctionAdd("db2", "DB2");
             correctionAdd("Db2", "DB2");
 
-            correctionAdd("mariadb", "MariaDB");
-            correctionAdd("Maria DB", "MariaDB");
-
             correctionAdd("led", "LED");
             correctionAdd("Led", "LED");
 
@@ -6007,8 +6005,12 @@ namespace OverflowHelper.core
             correctionAdd("CM", "CyanogenMod"); // Expansion. Collisions? Yes! E.g., centimetre and center of mass. The disambig page is <https://en.wikipedia.org/wiki/CM>.
             correctionAdd("cyanogenmod", "CyanogenMod");
 
+            correctionAdd("mariadb", "MariaDB");
+            correctionAdd("Maria DB", "MariaDB");
+
             correctionAdd("adb", "ADB");
             correctionAdd("Adb", "ADB");
+            correctionAdd("AVD", "ADB");
 
             correctionAdd("Kies", "Samsung Kies");
             correctionAdd("kies", "Samsung Kies");
@@ -9199,6 +9201,7 @@ namespace OverflowHelper.core
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
+            correctionAdd("Smart Phone", "smartphone");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -9514,6 +9517,8 @@ namespace OverflowHelper.core
             correctionAdd("bare", "bear");
 
             correctionAdd("gradle", "Gradle");
+            correctionAdd("Gralde", "Gradle");
+            correctionAdd("Graddle", "Gradle");
 
             correctionAdd("stand alone", "stand-alone");
             correctionAdd("standalone", "stand-alone");
@@ -9988,6 +9993,7 @@ namespace OverflowHelper.core
             correctionAdd("gitlab", "GitLab");
             correctionAdd("Git-lab", "GitLab");
             correctionAdd("gilab", "GitLab");
+            correctionAdd("GitLAb", "GitLab");
 
             correctionAdd("spanish", "Spanish");
             correctionAdd("SPanish", "Spanish");
@@ -10955,6 +10961,7 @@ namespace OverflowHelper.core
             correctionAdd("depencies", "dependencies");
             correctionAdd("Dependancies", "dependencies");
             correctionAdd("deps", "dependencies");
+            correctionAdd("dependancis", "dependencies");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -11353,6 +11360,7 @@ namespace OverflowHelper.core
             correctionAdd("inialize", "initialise");
             correctionAdd("initailise", "initialise");
             correctionAdd("initiliaze", "initialise");
+            correctionAdd("intialise", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -15402,6 +15410,7 @@ namespace OverflowHelper.core
             correctionAdd("currenctly", "currently");
 
             correctionAdd("emdash", "em dash");
+            correctionAdd("em-dash", "em dash");
 
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
@@ -19108,6 +19117,7 @@ namespace OverflowHelper.core
             correctionAdd("keybrd", "keyboard");
             correctionAdd("keybroad", "keyboard");
             correctionAdd("key board", "keyboard");
+            correctionAdd("keybord", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -19569,8 +19579,6 @@ namespace OverflowHelper.core
             correctionAdd("command pallette", "command palette");
             correctionAdd("command pallet", "command palette");
 
-            correctionAdd("ducument", "document");
-
             correctionAdd("error prone", "error-prone");
 
             correctionAdd("Go-Around", "go-around");
@@ -19891,6 +19899,7 @@ namespace OverflowHelper.core
             correctionAdd("checkin", "check in");
 
             correctionAdd("inot", "into"); // True typo
+            correctionAdd("unto", "into"); // Als a true typo
 
             correctionAdd("priviledged", "privileged");
             correctionAdd("privelaged", "privileged");
@@ -22183,6 +22192,7 @@ namespace OverflowHelper.core
             correctionAdd("VS code studio", "Visual Studio Code");
             correctionAdd("Vs Code", "Visual Studio Code");
             correctionAdd("VS-code", "Visual Studio Code");
+            correctionAdd("visual sutdio code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -22325,6 +22335,8 @@ namespace OverflowHelper.core
             correctionAdd("Domain Specific Language", "domain-specific language");
             correctionAdd("domain specific language", "domain-specific language");
             correctionAdd("specific domain language", "domain-specific language");
+            correctionAdd("Dsl", "domain-specific language");
+            correctionAdd("Domain specific language", "domain-specific language");
 
             correctionAdd("K&R", "The C Programming Language");
             correctionAdd("k&r", "The C Programming Language");
@@ -25371,6 +25383,7 @@ namespace OverflowHelper.core
             correctionAdd("varient", "variant");
             correctionAdd("varrient", "variant");
             correctionAdd("veriant", "variant");
+            correctionAdd("varaint", "variant");
 
             correctionAdd("Branch Prediction", "branch prediction");
 
@@ -28112,6 +28125,7 @@ namespace OverflowHelper.core
             correctionAdd("Alexa", "Amazon Alexa");
 
             correctionAdd("Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
+            correctionAdd("SFF", "Science Fiction & Fantasy (Stack Exchange site)");
 
             correctionAdd("3DES", "Triple DES");
             correctionAdd("3des", "Triple DES");
@@ -29411,6 +29425,37 @@ namespace OverflowHelper.core
             correctionAdd("leiningen", "Leiningen");
 
             correctionAdd("commentor", "commenter");
+
+            correctionAdd("automate the boring stuff", "Automate the Boring Stuff with Python");
+
+            correctionAdd("elpa", "Emacs Lisp Package Archive");
+            correctionAdd("ELPA", "Emacs Lisp Package Archive");
+
+            correctionAdd("Lit", "Literature");
+
+            correctionAdd("melpa", "MELPA");
+
+            correctionAdd("ndk", "NDK");
+
+            correctionAdd("Parenting", "Parenting (Stack Exchange site)");
+
+            correctionAdd("pyperclip", "Pyperclip");
+
+            correctionAdd("ubi", "UBI");
+
+            correctionAdd("documentate", "document");
+
+            correctionAdd("eco system", "ecosystem");
+
+            correctionAdd("intractive", "interactive");
+
+            correctionAdd("time-lapse", "timelapse");
+
+            correctionAdd("TW", "trigger warning");
+
+            correctionAdd("varities", "varieties");
+
+            correctionAdd("M&TV", "Movies & TV (Stack Exchange site)");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -38971,8 +39016,6 @@ namespace OverflowHelper.core
 
             URL_Add("command palette", "https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette");
 
-            URL_Add("document", "https://en.wiktionary.org/wiki/document#Noun");
-
             URL_Add("error-prone", "https://en.wiktionary.org/wiki/error-prone#Adjective");
 
             URL_Add("go-around", "https://en.wikipedia.org/wiki/Go-around");
@@ -46262,6 +46305,36 @@ namespace OverflowHelper.core
             URL_Add("Leiningen", "https://en.wikipedia.org/wiki/Leiningen_(software)");
 
             URL_Add("commenter", "https://en.wiktionary.org/wiki/commenter#Noun");
+
+            URL_Add("Automate the Boring Stuff with Python", "https://automatetheboringstuff.com/");
+
+            URL_Add("Emacs Lisp Package Archive", "https://en.wikipedia.org/wiki/GNU_Emacs#Release_history");
+
+            URL_Add("Literature", "https://literature.stackexchange.com/tour");
+
+            URL_Add("MELPA", "https://www.emacswiki.org/emacs/MELPA");
+
+            URL_Add("NDK", "https://en.wikipedia.org/wiki/Android_software_development#Android_NDK");
+
+            URL_Add("Parenting (Stack Exchange site)", "https://parenting.stackexchange.com/tour");
+
+            URL_Add("Pyperclip", "https://github.com/asweigart/pyperclip");
+
+            URL_Add("UBI", "https://en.wikipedia.org/wiki/UBIFS#UBI");
+
+            URL_Add("document", "https://en.wiktionary.org/wiki/document#Verb");
+
+            URL_Add("ecosystem", "https://en.wiktionary.org/wiki/ecosystem#Noun");
+
+            URL_Add("interactive", "https://en.wiktionary.org/wiki/interactive#Adjective");
+
+            URL_Add("timelapse", "https://en.wiktionary.org/wiki/timelapse#Noun");
+
+            URL_Add("trigger warning", "https://en.wiktionary.org/wiki/trigger_warning#Noun");
+
+            URL_Add("varieties", "https://en.wiktionary.org/wiki/variety#Noun");
+
+            URL_Add("Movies & TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
