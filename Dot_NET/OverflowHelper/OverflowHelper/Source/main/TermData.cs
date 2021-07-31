@@ -4930,15 +4930,16 @@ namespace OverflowHelper.core
             correctionAdd("image magick", "ImageMagick");
             correctionAdd("Image Magick", "ImageMagick");
 
-            correctionAdd("im", "I'm"); // Collision with Instant messaging and ImageMagick.
-            correctionAdd("i m", "I'm");
-            correctionAdd("Im", "I'm");
-            correctionAdd("i'm", "I'm");
-            correctionAdd("I`m", "I'm");
-            correctionAdd("I´m", "I'm");
-            correctionAdd("I'am", "I'm");
-            correctionAdd("I‘m", "I'm");
-            correctionAdd("i'am", "I'm");
+            correctionAdd("im", "I’m"); // Collision with Instant messaging and ImageMagick.
+            correctionAdd("i m", "I’m");
+            correctionAdd("Im", "I’m");
+            correctionAdd("i'm", "I’m");
+            correctionAdd("I`m", "I’m");
+            correctionAdd("I´m", "I’m");
+            correctionAdd("I'am", "I’m");
+            correctionAdd("I‘m", "I’m");
+            correctionAdd("i'am", "I’m");
+            correctionAdd("I'm", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -9419,14 +9420,14 @@ namespace OverflowHelper.core
 
             correctionAdd("verilog", "Verilog");
 
-            correctionAdd("isnt", "isn't");
-            correctionAdd("aint", "isn't");
-            correctionAdd("ain't", "isn't");
-            correctionAdd("isn’t", "isn't"); // Quora
-            correctionAdd("isn´t", "isn't");
-            correctionAdd("ain´t", "isn't");
-            correctionAdd("inst", "isn't");
-            correctionAdd("isnt't", "isn't");
+            correctionAdd("isnt", "isn’t");
+            correctionAdd("aint", "isn’t");
+            correctionAdd("ain't", "isn’t");
+            correctionAdd("isn´t", "isn’t");
+            correctionAdd("ain´t", "isn’t");
+            correctionAdd("inst", "isn’t");
+            correctionAdd("isnt't", "isn’t");
+            correctionAdd("isn't", "isn’t");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -19199,8 +19200,9 @@ namespace OverflowHelper.core
 
             correctionAdd("tomorrows", "tomorrow's");
 
-            correctionAdd("Id", "I'd");
-            correctionAdd("I´d", "I'd");
+            correctionAdd("Id", "I’d");
+            correctionAdd("I´d", "I’d");
+            correctionAdd("I'd", "I’d");
 
             correctionAdd("Shindler's list", "Schindler's List");
 
@@ -29431,7 +29433,8 @@ namespace OverflowHelper.core
             correctionAdd("elpa", "Emacs Lisp Package Archive");
             correctionAdd("ELPA", "Emacs Lisp Package Archive");
 
-            correctionAdd("Lit", "Literature");
+            correctionAdd("Lit", "Literature (Stack Exchange site)");
+            correctionAdd("Literature", "Literature (Stack Exchange site)");
 
             correctionAdd("melpa", "MELPA");
 
@@ -30821,7 +30824,7 @@ namespace OverflowHelper.core
 
             URL_Add("JUnit", "https://en.wikipedia.org/wiki/JUnit");
 
-            URL_Add("I'm", "https://en.wiktionary.org/wiki/I'm#Contraction");
+            URL_Add("I’m", "https://en.wiktionary.org/wiki/I'm#Contraction");
 
             URL_Add("IIS", "https://en.wikipedia.org/wiki/Internet_Information_Services");
 
@@ -32923,7 +32926,7 @@ namespace OverflowHelper.core
 
             URL_Add("Verilog", "https://en.wikipedia.org/wiki/Verilog");
 
-            URL_Add("isn't", "https://en.wiktionary.org/wiki/isn't#Verb"); // Old: https://en.wiktionary.org/wiki/isn't#Contraction
+            URL_Add("isn’t", "https://en.wiktionary.org/wiki/isn't#Verb"); // Old: https://en.wiktionary.org/wiki/isn't#Contraction
 
             URL_Add("IronRuby", "https://en.wikipedia.org/wiki/IronRuby");
 
@@ -38744,7 +38747,7 @@ namespace OverflowHelper.core
 
             URL_Add("tomorrow's", "https://en.wiktionary.org/wiki/tomorrow's");
 
-            URL_Add("I'd", "https://en.wiktionary.org/wiki/I%27d#Contraction");
+            URL_Add("I’d", "https://en.wiktionary.org/wiki/I%27d#Contraction");
 
             URL_Add("Schindler's List", "https://en.wikipedia.org/wiki/Schindler's_List");
 
@@ -45292,7 +45295,7 @@ namespace OverflowHelper.core
 
             URL_Add("DES", "https://en.wikipedia.org/wiki/Data_Encryption_Standard");
 
-            URL_Add("Science Fiction & Fantasy (Stack Exchange site)", "https://scifi.stackexchange.com/users/1957/peter-mortensen");
+            URL_Add("Science Fiction & Fantasy (Stack Exchange site)", "https://scifi.stackexchange.com/tour");
 
             URL_Add("Triple DES", "https://en.wikipedia.org/wiki/Triple_DES");
 
@@ -46310,7 +46313,7 @@ namespace OverflowHelper.core
 
             URL_Add("Emacs Lisp Package Archive", "https://en.wikipedia.org/wiki/GNU_Emacs#Release_history");
 
-            URL_Add("Literature", "https://literature.stackexchange.com/tour");
+            URL_Add("Literature (Stack Exchange site)", "https://literature.stackexchange.com/tour");
 
             URL_Add("MELPA", "https://www.emacswiki.org/emacs/MELPA");
 
