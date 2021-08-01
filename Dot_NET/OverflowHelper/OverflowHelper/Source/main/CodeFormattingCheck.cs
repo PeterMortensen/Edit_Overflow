@@ -414,6 +414,7 @@ namespace OverflowHelper.core
 
                 string explanation = someItem.explanation_cleaned;
 
+
                 // Make the first letter is not capitalised (it is for a
                 // normal text list)
                 string explanation_lower =
@@ -422,6 +423,7 @@ namespace OverflowHelper.core
                 scratchSB.Append(@"""");
                 scratchSB.Append(explanation_lower);
                 scratchSB.Append(@"""");
+
 
                 // No trailing comma for the list
                 if ((i != lastIndex) &&
@@ -451,11 +453,6 @@ namespace OverflowHelper.core
             //return "XYZ"; // Stub
             return scratchSB.ToString();
         } //combinedAllOfExplanations_internal()
-
-//public int ID;
-//public int groupID;
-//public string regularExpression;
-//public string explanation;
 
 
         /****************************************************************************

@@ -1,4 +1,18 @@
-﻿
+﻿/****************************************************************************
+ * Copyright (C) 2010 Peter Mortensen                                       *
+ * This file is part of Edit Overflow.                                      *
+ *                                                                          *
+ * Note: "wordlist" here refers to the Edit Overflow word list              *
+ *       (mapping from incorrect words to correct words)                    *
+ *                                                                          *
+ *                                                                          *
+ * Purpose: Regression testing for word list output                         *
+ *          generation (mainly HTML).                                       *
+ *                                                                          *
+ *          For example, detect inadvertent changes to the HTML             *
+ *          generation, including encoding changes (UTF-8, etc.)            *
+ *                                                                          *
+ ****************************************************************************/
 
 
 using System.Collections.Generic; //For Dictionary.
@@ -22,6 +36,23 @@ namespace OverflowHelper.Tests
     [TestFixture]
     class WordlistTests
     {
+
+        /****************************************************************************
+         *                                                                          *
+         *    Intent: State assumptions about String.Replace(), including for       *
+         *            special characters, like "{"                                  *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void StringReplace()
+        {
+            string str1 = "xyx";
+            Assert.AreEqual(str1.Replace("x", "Z"), "ZyZ", "BBB"); // Detect
+            Assert.AreEqual("xyx".Replace("x", "Z"), "ZyZ", "BBB"); // Detect
+
+            Assert.AreEqual("{".Replace("{", "<strong>{</strong>"), "<strong>{</strong>", "BBB"); // Detect
+
+        } //HTMLexport_emptyWordList()
 
 
         /****************************************************************************
@@ -51,7 +82,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
-                "",
+                ", + , operators , {", // Some of it will be transformed...
                 ref someCaseCorrection,
                 someCaseCorrection_Reverse.Count,
                 ref someWord2URL,
@@ -60,26 +91,33 @@ namespace OverflowHelper.Tests
                 //should we use fixed or empty strings instead??
                 app.fullVersionStr(),
                 app.versionString_dateOnly()
-                );
+              );
 
             int len = Wordlist_HTML.Length;
 
             // Poor man's hash: check length (later, use a real
             // hashing function). At least it should catch that
             // indentation in the HTML source is not broken
-            // by changes (e.g. refactoring) and unintended omissions
-            // deletions.
+            // by changes (e.g. refactoring) and unintended
+            // omissions deletions.
             //
             // But it will not detect single spaces replaced by single TAB...
             //
-
             Assert.AreEqual(
                 2708 + 3 + 1 + 12 - 10 + 1 + 8 - 22 + 9 - 2 - 1 - 1 + 1 +
                     404 + 153 +
                     36 + 85 + 4 +
                     2 +
                     177 + 6 +
-                    37 + 39,
+                    37 + 39 +
+                    1 + 10 + 2 +
+                    17 + 17 +
+                    3 * (18 + 2 + 1) +  //2 is for CR+LF. 3 is the number of items (separated by comma)
+                    -3 +
+                    -6 +
+                    5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
+                    0,
                 len,
                 "XYZ");
             //    +3 because we discovered and eliminated a tab...
@@ -112,14 +150,25 @@ namespace OverflowHelper.Tests
             //    +6 The longest incorrect term changed
             //   +37 Different static HTML content close to "Code formatting check"
             //   +39 Slightly different formatting/punctuation and internal HTML formatting.
-
+            //   +11 Using a non-empty code regular expression explanation (something
+            //       that is going to transformed (change in length))
+            //   +17 Bold formatting for some special characters, like "}"
+            //       (in the code regular expression explanation).
+            //   +17 For a non-empty code regular expression explanation.
+            //   +63 Internal linebreaks and indentation for code regular
+            //       expression explanations (and some extra space). 3
+            //       (simulated) items in the example input.
+            //    -3 A problem with an uneven number of indent spaces was fixed...
+            //    -6 We removed a weird leading (HTML) non-break space...
+            //   -30 We changed the indent to be regular in the generated
+            //       HTML (***not*** trying to match the indentation in
+            //       file "FixedStrings.php")
+            //  +110 Added an (HTML) comment
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
 
-
             System.Console.WriteLine(Wordlist_HTML);
-
         } //HTMLexport_emptyWordList()
 
 
@@ -169,7 +218,7 @@ namespace OverflowHelper.Tests
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
                 "",
-                "",
+                ", + , operators , {", // Some of it will be transformed...
                 ref someCaseCorrection,
                 someWord2URL.Count,
                 ref someWord2URL,
@@ -185,18 +234,25 @@ namespace OverflowHelper.Tests
             // Poor man's hash: check length (later, use a real
             // hashing function). At least it should catch that
             // indentation in the HTML source is not broken
-            // by changes (e.g. refactoring) and unintended omissions
-            // deletions.
+            // by changes (e.g. refactoring) and unintended
+            // omissions deletions.
             //
             // But it will not detect single spaces replaced by single TAB...
             //
-
             Assert.AreEqual(
                 3572 - 24 + 153 +
                     36 + 85 + 4 +
                     2 +
                     177 + 6 +
-                    37 + 39,
+                    37 + 39 +
+                    1 + 10 + 2 +
+                    17 + 17 +
+                    3 * 20 + 3 +
+                    -3 +
+                    -6 +
+                    5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
+                    0,
                 len,
                 "XYZ");
             //   -24 because we removed unnecessary space...
@@ -213,6 +269,20 @@ namespace OverflowHelper.Tests
             //    +6 The longest incorrect term changed
             //   +37 Different static HTML content close to "Code formatting check"
             //   +39 Slightly different formatting/punctuation and internal HTML formatting.
+            //   +13 Using a non-empty code regular expression explanation (something
+            //       that is going to transformed (change in length))
+            //   +17 Bold formatting for some special characters, like "}"
+            //       (in the code regular expression explanation)
+            //   +17 For a non-empty code regular expression explanation.
+            //   +63 Internal linebreaks and indentation for code regular
+            //       expression explanations (and some extra space). 3
+            //       (simulated) items in the example input.
+            //    -3 A problem with an uneven number of indent spaces was fixed...
+            //    -6 We removed a weird leading (HTML) non-break space...
+            //   -30 We changed the indent to be regular in the generated
+            //       HTML (***not*** trying to match the indentation in
+            //       file "FixedStrings.php")
+            //  +110 Added an (HTML) comment
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -254,6 +324,16 @@ namespace OverflowHelper.Tests
         {
             HTML_builder builder = new HTML_builder();
 
+            // Note: the readout, currentHTML(), resets the buffer. That
+            //       is the reason we can reuse the single HTML_builder
+            //       instance... But it only works if we don't use
+            //       indents (directly or indirectly) - that is, if
+            //       we do then the order of tests becomes important
+            //       (and then they should be changed to be completely
+            //        independent)
+            //
+            //
+
             {
                 builder.addContent("<head>");
 
@@ -265,6 +345,7 @@ namespace OverflowHelper.Tests
                 // will be more clear (as it may be difficult spaces).
             }
 
+            // With end of line at the end...
             {
                 builder.addContentOnSeparateLine("<head>");
 
@@ -276,6 +357,24 @@ namespace OverflowHelper.Tests
                 // will be more clear (as it may be difficult spaces).
             }
 
+            // HTML comments, combined with indents. Shifting this test
+            // around also tests if the indent state is reset or not.
+            //
+            {
+                HTML_builder builder2 = new HTML_builder();
+
+                builder2.indentLevelUp();
+                builder2.addComment("Some comment");
+
+                string HTMLcontent4 = builder2.currentHTML(); // Side effect!
+                int len4 = HTMLcontent4.Length;
+
+                Assert.AreEqual("    <!-- Some comment -->\n", HTMLcontent4, "XYZ");
+                Assert.AreEqual(26, len4, "XYZ"); // Weaker, but the report
+                // will be more clear (as it may be difficult spaces).
+            }
+
+            // With end of line at the end and starting with an empty line
             {
                 builder.addContentWithEmptyLine("<head>");
 
@@ -325,5 +424,6 @@ namespace OverflowHelper.Tests
 
 
 } //namespace OverflowHelper.Tests
+
 
 

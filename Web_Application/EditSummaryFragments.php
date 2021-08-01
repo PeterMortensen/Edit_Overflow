@@ -34,7 +34,7 @@
             <!--  It is not really a form - just a page where we want
                   to be able to tab between field (and )
             -->
-            <form
+        <form
             name="XYZ"
             method="post"
             action="EditOverflow.php"
@@ -48,7 +48,7 @@
                     name="X25"
                     type="text"
                     id="X25"
-                    class=""
+                    class="X25"
                     value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)). "
                     style="width:680px;"
                     accesskey="F"
@@ -56,12 +56,12 @@
                 />
             </p>
 
-            <p>
+            <p id="Capitalise_I">
                 <input
                     name="X2"
                     type="text"
                     id="X2"
-                    class=""
+                    class="X2"
                     value="In English, the subjective form of the singular first-person pronoun, &quot;I&quot;, is capitalized, along with all its contractions such as I'll and I'm. "
                     style="width:810px;"
                     accesskey="Y"
@@ -74,8 +74,8 @@
                     name="X7"
                     type="text"
                     id="X7"
-                    class=""
-                    value="Applied some formatting (as a result the diff looks more extensive than it really is - use view &quot;side-by-side markdown&quot; to compare). "
+                    class="X7"
+                    value="Applied some formatting (as a result the diff looks more extensive than it really is - use view &quot;side-by-side Markdown&quot; to compare). "
                     style="width:780px;"
                     accesskey="D"
                     title="Shortcut: Shift + Alt + D"
@@ -88,7 +88,7 @@
                     name="X14"
                     type="text"
                     id="X14"
-                    class=""
+                    class="X14"
                     value="Removed meta information (this belongs in comments). "
                     style="width:360px;"
                     accesskey="M"
@@ -103,7 +103,7 @@
                     name="X17"
                     type="text"
                     id="X17"
-                    class=""
+                    class="X17"
                     value="(References to relative positions of answers are not reliable as they depend on the view (votes/oldest/active) and changing of the accepted answer and change over time (for votes, active, and accepted state)). "
                     style="width:1260px;"
                     accesskey="O"
@@ -116,7 +116,7 @@
                     name="X19"
                     type="text"
                     id="X19"
-                    class=""
+                    class="X19"
                     value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
                     style="width:680px;"
                     accesskey="X"
@@ -129,7 +129,7 @@
                     name="X1"
                     type="text"
                     id="X1"
-                    class=""
+                    class="X1"
                     value="Active reading [<URL1> <URL2>]. "
                     style="width:230px;"
                     accesskey=""
@@ -142,7 +142,7 @@
                     name="X3"
                     type="text"
                     id="X3"
-                    class=""
+                    class="X3"
                     value="Dressed the naked link. "
                     style="width:170px;"
                     accesskey="N"
@@ -155,7 +155,7 @@
                     name="X4"
                     type="text"
                     id="X4"
-                    class=""
+                    class="X4"
                     value="Applied some formatting. "
                     style="width:170px;"
                     accesskey=""
@@ -168,7 +168,7 @@
                     name="X5"
                     type="text"
                     id="X5"
-                    class=""
+                    class="X5"
                     value="Fixed the indentation. "
                     style="width:150px;"
                     accesskey="I"
@@ -181,7 +181,7 @@
                     name="X6"
                     type="text"
                     id="X6"
-                    class=""
+                    class="X6"
                     value="Expanded. "
                     style="width:90px;"
                     accesskey="P"
@@ -195,7 +195,7 @@
                     name="X13"
                     type="text"
                     id="X13"
-                    class=""
+                    class="X13"
                     value="IP is a protocol; it is IP addresses that are static, filtered, blocked, assigned, bound, fetched, accessed, resolved, checked, banned, tracked, detected, dynamic, grabbed, scanned, whitelisted, have different representations, that devices have, etc., not the protocol itself. "
                     style="width:1600px;"
                     accesskey="K"
@@ -210,7 +210,7 @@
                     name="X15"
                     type="text"
                     id="X15"
-                    class=""
+                    class="X15"
                     value="Changed to sentence casing for the title. "
                     style="width:270px;"
                     accesskey="L"
@@ -225,7 +225,7 @@
                     name="X16"
                     type="text"
                     id="X16"
-                    class=""
+                    class="X16"
                     value="Used more standard formatting. "
                     style="width:220px;"
                     accesskey="G"
@@ -241,8 +241,8 @@
                     name="X18"
                     type="text"
                     id="X18"
-                    class=""
-                    value="Unhid &quot;<XXX>&quot; by encoding &quot;<&quot; as &quot;&amp;lt;&quot; (see the original revision (<https://stackoverflow.com/XXX/view-source>) - or use view &quot;side-by-side markdown&quot;). "
+                    class="X18"
+                    value="Unhid &quot;<XXX>&quot; by encoding &quot;<&quot; as &quot;&amp;lt;&quot; (see the original revision (<https://stackoverflow.com/XXX/view-source>) - or use view &quot;side-by-side Markdown&quot;). "
                     style="width:980px;"
                     accesskey=""
                     title=""
@@ -264,7 +264,7 @@
                     name="X20"
                     type="text"
                     id="X20"
-                    class=""
+                    class="X20"
                     value="Removed historical information (e.g. ref. <https://meta.stackexchange.com/a/230693> and <https://meta.stackexchange.com/a/127655>). "
                     style="width:830px;"
                     accesskey="B"
@@ -287,7 +287,7 @@
                     name="X27"
                     type="text"
                     id="X27"
-                    class=""
+                    class="X27"
                     value="Used more standard formatting (we have italics and bold on this platform). "
                     style="width:830px;"
                     accesskey=""
@@ -309,7 +309,7 @@
                     name="X28"
                     type="text"
                     id="X28"
-                    class=""
+                    class="X28"
                     value="<http://stackoverflow.com/legal/trademark-guidance> (the last section) "
                     style="width:830px;"
                     accesskey=""
@@ -326,7 +326,7 @@
                     name="X29"
                     type="text"
                     id="X29"
-                    class=""
+                    class="X29"
                     value="More affirmative answer (this is not a forum - see e.g. <http://meta.stackexchange.com/a/92115>. It is a think tank (see <http://meta.stackoverflow.com/a/325681>). "
                     style="width:830px;"
                     accesskey=""
@@ -343,27 +343,30 @@
                     name="X32"
                     type="text"
                     id="X32"
-                    class=""
-                    value="Please respond by [editing your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
+                    class="X32"
+                    value="Please respond by [editing (changing) your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
                     style="width:830px;"
                     accesskey=""
                     title=""
                 />
             </p>
 
-            <p>Some older posts on Stack Overflow have strange syntax
-                highlighting, probably caused by later changes to the
+            <p id="FixedSyntaxHighlighting">Some older posts on Stack Overflow have strange 
+                <a href="https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109"
+                >syntax highlighting</a>, 
+                probably caused by later changes to the
                 Stack Exchange software. Possible code fencing formatting:
                 ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash,
-                ```lang-php, ```lang-css, ```lang-xml, ```lang-java
+                ```lang-php, ```lang-css, ```lang-xml, ```lang-java,
+                ```lang-csharp, ```lang-vbnet
 
                 <br/>
                 <input
                     name="X31"
                     type="text"
                     id="X31"
-                    class=""
-                    value="Fixed the weird syntax highlighting (as a result, the diff looks more extensive than it really is - use view &quot;Side-by-side markdown&quot; to compare). "
+                    class="X31"
+                    value="Fixed the weird syntax highlighting (as a result, the diff looks more extensive than it really is - use view &quot;Side-by-side Markdown&quot; to compare). "
                     style="width:830px;"
                     accesskey=""
                     title=""
@@ -373,9 +376,9 @@
 
             <!-- ===================================================== -->
             <hr/>
-            <h2>Pure links</h2>
+            <h2 id="PureLinks">Pure links</h2>
 
-            <p><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"
+            <p id="Run-on_sentences"><a href="https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"
                 >Run-on sentences</a>
                 (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
                 >YouTube video</a>).
@@ -386,7 +389,7 @@
                     name="X26"
                     type="text"
                     id="X26"
-                    class=""
+                    class="X26"
                     value="<https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences> (see also <https://twitter.com/PeterMortensen/status/1199839973215739907>) "
                     style="width:590px;"
                     accesskey="R"
@@ -402,7 +405,7 @@
                     name="X10"
                     type="text"
                     id="X10"
-                    class=""
+                    class="X10"
                     value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s> "
                     style="width:410px;"
                     accesskey="A"
@@ -418,7 +421,7 @@
                     name="X11"
                     type="text"
                     id="X11"
-                    class=""
+                    class="X11"
                     value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s> "
                     style="width:410px;"
                     accesskey="T"
@@ -426,6 +429,7 @@
                 />
             </p>
 
+            <div id="IndianSpace"> </div>
             <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
                 >The Indian spa<strong><i>c</i></strong>e</a>
                 (from the outdated 1935
@@ -436,7 +440,7 @@
                     name="X9"
                     type="text"
                     id="X9"
-                    class=""
+                    class="X9"
                     value="<https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645> "
                     style="width:910px;"
                     accesskey="C"
@@ -444,7 +448,7 @@
                 />
             </p>
 
-            <p><u>U</u>S native speakers, especially southern US,
+            <p id="Than-and-Then"><u>U</u>S native speakers, especially southern US,
                 <a href="https://www.wikihow.com/Use-Than-and-Then"
                 >&quot;than&quot; vs. &quot;then&quot;</a>: <br/>
 
@@ -452,7 +456,7 @@
                     name="X8"
                     type="text"
                     id="X8"
-                    class=""
+                    class="X8"
                     value="<https://www.wikihow.com/Use-Than-and-Then> "
                     style="width:310px;"
                     accesskey="U"
@@ -468,7 +472,7 @@
                     name="X22"
                     type="text"
                     id="X22"
-                    class=""
+                    class="X22"
                     value="<https://www.wikihow.com/Use-You%27re-and-Your> "
                     style="width:340px;"
                     accesskey=""
@@ -486,7 +490,7 @@
                     name="X23"
                     type="text"
                     id="X23"
-                    class=""
+                    class="X23"
                     value="<https://www.wikihow.com/Use-There,-Their-and-They%27re> "
                     style="width:400px;"
                     accesskey=""
@@ -503,7 +507,7 @@
                     name="X24"
                     type="text"
                     id="X24"
-                    class=""
+                    class="X24"
                     value="<https://www.wikihow.com/Use-Affect-and-Effect-Properly> "
                     style="width:380px;"
                     accesskey=""
@@ -521,7 +525,7 @@
                     name="X30"
                     type="text"
                     id="X30"
-                    class=""
+                    class="X30"
                     value="<http://www.wikihow.com/Use-Where,-Were-and-We're> "
                     style="width:380px;"
                     accesskey=""
@@ -536,7 +540,7 @@
                     name="X12"
                     type="text"
                     id="X12"
-                    class=""
+                    class="X12"
                     value="<https://english.stackexchange.com/questions/15953> "
                     style="width:350px;"
                     accesskey="Q"
@@ -552,7 +556,7 @@
                     name="X21"
                     type="text"
                     id="X21"
-                    class=""
+                    class="X21"
                     value="<https://www.youtube.com/watch?v=1Dax90QyXgI&t=0m38s> "
                     style="width:410px;"
                     accesskey="H"
