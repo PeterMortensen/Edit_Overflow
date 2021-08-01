@@ -87,18 +87,11 @@ namespace EditOverflow2
                         //               "some version thingie",
                         //               "some date only string");
                         
-                        string explanations = cfCheck.combinedAllOfExplanations();
-                        
-                        // For internal formatting in the HTML source: Break
-                        // up into separate lines and indent. The indent fits
-                        // the one used in FixedStrings.php.
-                        //                        
-                        string explanations_HTML = 
-                          explanations.Replace(",", ",\n                  ");
+                        string explanations = cfCheck.combinedAllOfExplanations();                       
 
                         toOutput = someTermLookup.dumpWordList_asHTML(
                                        cfCheck.combinedAllOfRegularExpressions(),
-                                       explanations_HTML,
+                                       explanations,
                                        app.fullVersionStr(),
                                        app.versionString_dateOnly()
                                    );

@@ -124,13 +124,41 @@
                 />
             </p>
 
+            <p>Subscri<u>p</u>t (HTML):
+
+                <input
+                    name="Subscript - HTML"
+                    type="text"
+                    id="Subscript_HTML"
+                    class="XYZ31"
+                    value="<sub></sub>"
+                    style="width:100px;"
+                    accesskey="P"
+                    title="Shortcut: Shift + Alt + P"
+                />
+            </p>
+
+            <p>Super<u>s</u>cript (HTML):
+
+                <input
+                    name="Superscript - HTML"
+                    type="text"
+                    id="Superscript_HTML"
+                    class="XYZ41"
+                    value="<sup></sup>"
+                    style="width:100px;"
+                    accesskey="S"
+                    title="Shortcut: Shift + Alt + S"
+                />
+            </p>
+
             <p><u>A</u>rrow (Unicode):
 
                 <input
                     name="Arrow - Unicode"
                     type="text"
                     id="Arrow_Unicode"
-                    class="XYZ31"
+                    class="XYZ42"
                     value="→"
                     style="width:30px;"
                     accesskey="A"
@@ -220,7 +248,7 @@
                     name="Tilde"
                     type="text"
                     id="Tilde_Unicode"
-                    class="XYZ39"
+                    class="XYZ43"
                     value="~"
                     style="width:30px;"
                     accesskey="L"
@@ -234,7 +262,7 @@
                     name="middot"
                     type="text"
                     id="middot_Unicode"
-                    class="XYZ40"
+                    class="XYZ44"
                     value="&amp;middot;"
                     style="width:60px;"
                     accesskey="X"
@@ -244,34 +272,37 @@
 
 
             <!-- ******************************************************* -->
-            <h2>Regular expressions for code checking</h2>
 
-            <p>Note: As the false positive rate is high, every match
-                      should be checked manually</p>
+            <h2>Code formatting check</h2>
+
+            <p>Note: It is rudimentary. As the false positive rate is high, every match should be checked manually.</p>
+
+            <p>Regular expression
+                ("missing space before <strong>{</strong>",
+                "missing space after colon",
+                "missing space after comma",
+                "missing space around equal sign",
+                "missing space around string concatenation (by "<strong>+</strong>")",
+                "space before comma",
+                "space before colon",
+                "space before right parenthesis",
+                "space before semicolon",
+                "space after left parenthesis",
+                and "missing space around some operators"): <br/>
 
 
-            <p>A<u>l</u>l combined
-                  ("missing space before {",
-                  "missing space after colon",
-                  "missing space after comma",
-                  "missing space around equal sign",
-                  "missing space around string concatenation (by \"+\")",
-                  "space before comma",
-                  "space before colon",
-                  "space before parenthesis",
-                    and
-                  "space before semicolon"):
 
                 <input
                     name="All combined"
                     type="text"
                     id="codeRegex_AllCombined"
                     class="XYZ36"
-                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s)"
+                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\&quot;|(\$\w+\[.+\]))\.|\.['\&quot;\]])"
                     style="width:320px;"
                     accesskey=""
                     title=""
                 />
+
             </p>
 
 
@@ -280,8 +311,10 @@
             -->
             <!--  For 'value' (the displayed text in the button), tags 'u'
                   or 'strong' do not work!! -->
+                  
+            <!-- Does field 'name' have any significance???   -->       
             <input
-                name="XYZ"
+                name="XYZ_7777"
                 type="submit"
                 id="NotReally"
                 class="XYZ27"

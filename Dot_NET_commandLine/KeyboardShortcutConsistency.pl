@@ -23,6 +23,8 @@
 #                                                                           #
 #             4. Output of unassigned keys (optional)                       #
 #                                                                           #
+#             5. Uniqueness of some form attributes, e.g. "id" and "name"   #
+#                                                                           #
 #############################################################################
 
 #############################################################################
@@ -41,8 +43,38 @@
 #                          keyboard shortcut. In this version               #
 #                          configured by changing this script               #
 #                                                                           #
+#             2021-06-16   Now detects if a file name is supplied on        #
+#                          the command line (standard input is NOT          #
+#                          accepted as input) and that it exists.           #
+#                                                                           #
+#                          No longer outputs anything with empty input      #
+#                          or if there is an error (so it is easier         #
+#                          to spot if something went wrong).                #
+#                                                                           #
+#             2021-07-30   Added general check of uniqueness of             #
+#                          some forms fields.                               #
 #                                                                           #
 #############################################################################
+
+# Future:
+#
+#   1. Detect TAB characters
+#
+#   2. Require some fields to be equal. Or even that they should not be.
+#
+#      Note that we now use "id" for anchors and thus may want to 
+#      give them meaningful names instead of (arbitrary) numbers.
+#
+#      Example:
+#     
+#        name="Non-breaking space"
+#        id="Non-breaking_space"
+#        class="XYZ32"
+#     
+#   3. XXXX
+#
+
+
 
 use strict;
 
@@ -64,13 +96,15 @@ use diagnostics;
 # Configuration, end
 
 
-my $exitCode = 0;
+my $exitCode = 0; # Default: no error
+my $errors = 0; # For statistics
+
 
 my %assignedKeyboardShortcut = ();
 
 
 # We only use the key in this hash
-my %keyboardShortcutSet = 
+my %keyboardShortcutSet =
 (
     'A',  1,
     'B',  2,
@@ -103,6 +137,32 @@ my %keyboardShortcutSet =
 );
 
 
+# We use the value for each key as a list (hash) of values
+# that we encounter in the input file for that key (HTML
+# attribute/field).
+#
+# For the secondary hash, we store the linenumber 
+# (so we can report both line numbers of 
+# conflicting (non-unique) values)
+#
+my %uniqueFields =
+(
+    'class',      {},
+    'id',         {},
+    'name',       {},
+    
+    #'title',      {},   # <Same as accesskey.>
+
+    #'accesskey',  {},   # Not for now. Possible special 
+                         # treatment for an empty value.
+                         
+    'value',      {},   
+);
+
+#my %fields = ();
+
+
+
 # We don't want it empty or undefined as we depend on it later on.
 my $kValuePreset = "<Not set>";
 
@@ -115,202 +175,320 @@ my %accesskeys = ();
 
 my $detectedShortcuts = 0; # Including duplicates, if any.
 
+my $filename = $ARGV[0];
 
-while (<>)
+
+my $proceedWithMainProcessing = 1; # Default
+
+if (! $filename)
 {
-    chop;
+    # While making it less flexible, it also prevent some user errors.
+    print "This script should be invoked with an actual file... " .
+          "(standard input is not supported)\n";
 
-    $line++;
-    my $len = length;
-    #print "$len - >>>$_<<<\n\n";
+    $proceedWithMainProcessing = 0;
 
-    my $leadingSpace = "";
-    if (/^(\s+)/)
+    $exitCode = 6;
+    $errors++; # Some redundancy here...
+}
+
+# File existence
+if (! -e $filename)
+{
+    # This may prevent unusable output (so it is easier to spot)
+    print
+      "The script could not proceed. The file $filename does not " .
+      "exist (for example, not in the current directory). " .
+      "Invoke the script an existing file...\n";
+    $proceedWithMainProcessing = 0;
+
+    $exitCode = 7;
+    $errors++; # Some redundancy here...
+}
+
+
+if ($proceedWithMainProcessing)
+{
+    print "File name: $filename\n\n";
+
+    while (<>)
     {
-        $leadingSpace = $1;
-    }
-    my $leadingSpaces = length $leadingSpace;
-    #print "$leadingSpaces leading spaces - >>>$_<<<\n\n";
+        chop;
 
-    my $hasUnevenSpaces = $leadingSpaces % 2;
-    #print "Uneven: $leadingSpaces leading spaces - >>>$_<<<\n\n"
-    #  if $hasUnevenSpaces;
+        $line++;
+        my $currentlLine = $_; # Because iterating through the
+                               # hash (below) will overwrite
+                               # $_...
+        my $len = length;
+        #print "$len - >>>$currentlLine<<<\n\n";
 
-    if ($hasUnevenSpaces)
-    {
-        print
-          "\nUneven: $leadingSpaces leading spaces " .
-          "on line $line. " .
-          #"For \"$value\"\n"
-          "";
-        $exitCode = 5;
-    }
-
-    # Note: In file "EditOverflow.php" most of the "value=" lines are
-    #       entirely generated by a PHP function or the value is
-    #       in a PHP variable. E.g.:
-    #
-    #          <?php the_formValue($lookUpTerm); ?>
-    #
-    #          echo "value=\"$correctionComment_encoded\"\n";
-    #
-    #       This is in contrast to the other PHP files whose
-    #       main part is really static HTML.
-    #
-    # We only use "value" for informational purposes, so its
-    # content is not that important, except it shouldn't be
-    # an empty string or undefined.
-    #
-    if (/value=\"(.*)\"/) # The copyable content (not strictly
-                          # needed when we have line numbers -
-                          # for identification)
-    {
-        $value = $1;
-        #print "Detected value: >>>$value<<<\n";
-        #die;
-    } #Line with "value="
-
-    if (/accesskey=\"(.*)\"/) # The keyboard shortcut
-    {
-        $accKey = $1;
-        #print "Keyboard shortcut: $accKey for $value\n";
-    } #Line with "accesskey="
-
-    # Note: The 'title=' is presumed to be after the
-    #       'value=' and 'accesskey=' lines
-    #
-    if (/title=\"(.*)\"/) # The tooltip (for the keyboard shortcut)
-    {
-        my $toolTip = $1;
-
-        if ($accKey ne "") # Allow empty keyboard shortcut
+        my $leadingSpace = "";
+        if (/^(\s+)/)
         {
-            $detectedShortcuts++;
-
-            if ($outputKeyboardShortcutInfo)
-            {
-                # To keep it on one line in a terminal
-                my $limitedOutput = substr($value, 0, 95);
-
-                # Esacpe "%" for printf (by a "%"). Note that we get
-                # a double "%" if we use normal print...
-                $limitedOutput =~ s/\%/\%\%/g;
-
-                printf
-                  "Keyboard shortcut %2d: $accKey for \"$limitedOutput...\"\n",
-                       $detectedShortcuts;
-            }
-
-            my $oldValue = $accesskeys{$accKey};
-            if ($oldValue)
-            {
-                print
-                  "\nKeyboard shortcut is already used. " .
-                  "On line $line: $accKey for \"$value\" " .
-                  "(other: \"$oldValue\")\n";
-                $exitCode = 1;
-            }
-            $accesskeys{$accKey} = $value;
+            $leadingSpace = $1;
         }
-        else
-        {
-            # But then the title should be empty as well
+        my $leadingSpaces = length $leadingSpace;
+        #print "$leadingSpaces leading spaces - >>>$currentlLine<<<\n\n";
 
-            if ($toolTip ne "")
-            {
-                print
-                  "\nThe tooltip text should be empty when the " .
-                  "keyboard shortcut is empty. " .
-                  "On line $line for \"$value\"\n";
-                $exitCode = 2;
-            }
+        my $hasUnevenSpaces = $leadingSpaces % 2;
+        #print "Uneven: $leadingSpaces leading spaces - >>>$currentlLine<<<\n\n"
+        #  if $hasUnevenSpaces;
+
+        if ($hasUnevenSpaces)
+        {
+            print
+              "\nUneven: $leadingSpaces leading spaces " .
+              "on line $line. " .
+              #"For \"$value\"\n"
+              "";
+            $exitCode = 5;
+            $errors++; # Some redundancy here...
         }
 
-        if ($toolTip ne "") # Allow empty tooltip shortcut (but see above)
+        # Note: In file "EditOverflow.php" most of the "value=" lines are
+        #       entirely generated by a PHP function or the value is
+        #       in a PHP variable. E.g.:
+        #
+        #          <?php the_formValue($lookUpTerm); ?>
+        #
+        #          echo "value=\"$correctionComment_encoded\"\n";
+        #
+        #       This is in contrast to the other PHP files whose
+        #       main part is really static HTML.
+        #
+        # We only use "value" for informational purposes, so its
+        # content is not that important, except it shouldn't be
+        # an empty string or undefined.
+        #
+        if (/value=\"(.*)\"/) # The copyable content (not strictly
+                              # needed when we have line numbers -
+                              # for identification)
         {
-            if ($toolTip =~ /Shortcut: Shift \+ Alt \+ (.*)/)
-            {
-                my $keyboardShortcut_inTooltip = $1;
-                #print "Keyboard shortcut in tooltip: $keyboardShortcut_inTooltip\n";
+            $value = $1;
+            #print "Detected value: >>>$value<<<\n";
+            #die;
+        } #Line with "value="
 
-                if ($keyboardShortcut_inTooltip ne $accKey)
+        if (/accesskey=\"(.*)\"/) # The keyboard shortcut
+        {
+            $accKey = $1;
+            #print "Keyboard shortcut: $accKey for $value\n";
+        } #Line with "accesskey="
+
+        # Note: The 'title=' is presumed to be after the
+        #       'value=' and 'accesskey=' lines
+        #
+        if (/title=\"(.*)\"/) # The tooltip (for the keyboard shortcut)
+        {
+            my $toolTip = $1;
+
+            if ($accKey ne "") # Allow empty keyboard shortcut
+            {
+                $detectedShortcuts++;
+
+                if ($outputKeyboardShortcutInfo)
+                {
+                    # To keep it on one line in a terminal
+                    my $limitedOutput = substr($value, 0, 95);
+
+                    # Esacpe "%" for printf (by a "%"). Note that we get
+                    # a double "%" if we use normal print...
+                    $limitedOutput =~ s/\%/\%\%/g;
+
+                    printf
+                      "Keyboard shortcut %2d: $accKey for \"$limitedOutput...\"\n",
+                           $detectedShortcuts;
+                }
+
+                my $oldValue = $accesskeys{$accKey};
+                if ($oldValue)
                 {
                     print
-                      "\nKeyboard shortcut in tooltip " .
-                      "(\"$keyboardShortcut_inTooltip\") is not the same " .
-                      "as specified (\"$accKey\"). " .
-                      "On line $line. For \"$value\"\n";
-                    $exitCode = 3;
+                      "\nKeyboard shortcut is already used. " .
+                      "On line $line: $accKey for \"$value\" " .
+                      "(other: \"$oldValue\")\n";
+
+                    $exitCode = 1;
+                    $errors++; # Some redundancy here...
                 }
+                $accesskeys{$accKey} = $value;
             }
             else
             {
-                print
-                  "\nThe tooltip text (\"$toolTip\") is not proper. " .
-                  "On line $line for \"$value\"\n";
-                $exitCode = 4;
+                # But then the title should be empty as well
+
+                if ($toolTip ne "")
+                {
+                    print
+                      "\nThe tooltip text should be empty when the " .
+                      "keyboard shortcut is empty. " .
+                      "On line $line for \"$value\"\n";
+
+                    $exitCode = 2;
+                    $errors++; # Some redundancy here...
+                }
             }
-        }
-        # Prepare for next block
-        $value = $kValuePreset;
-    } #Line with "title="
-    
-} #while()
+
+            if ($toolTip ne "") # Allow empty tooltip shortcut (but see above)
+            {
+                if ($toolTip =~ /Shortcut: Shift \+ Alt \+ (.*)/)
+                {
+                    my $keyboardShortcut_inTooltip = $1;
+                    #print "Keyboard shortcut in tooltip: $keyboardShortcut_inTooltip\n";
+
+                    if ($keyboardShortcut_inTooltip ne $accKey)
+                    {
+                        print
+                          "\nKeyboard shortcut in tooltip " .
+                          "(\"$keyboardShortcut_inTooltip\") is not the same " .
+                          "as specified (\"$accKey\"). " .
+                          "On line $line. For \"$value\"\n";
+
+                        $exitCode = 3;
+                        $errors++; # Some redundancy here...
+                    }
+                }
+                else
+                {
+                    print
+                      "\nThe tooltip text (\"$toolTip\") is not proper. " .
+                      "On line $line for \"$value\"\n";
+
+                    $exitCode = 4;
+                    $errors++; # Some redundancy here...
+                }
+            }
+            # Prepare for next block
+            $value = $kValuePreset;
+        } #Line with "title="
+
+        # General check of uniqueness for some fields
+        #
+        # Note: This must be last as it overwrites $_...
+        #
+        foreach (sort keys %uniqueFields) # Sort: for a deterministic behaviour
+        {
+            my $someFieldName = $_;
+            #my $value = $accesskeys{$key};
+
+            #print "On line $line: Looking for field \"$someFieldName\"...\n";
+            #die;
+
+            # Example line that should match:
+            #
+            #                       class="XYZ29"
+            #
+            # The anchor to the start of the line is to avoid false 
+            # positives, e.g. for:
+            #
+            #     <!--  class="XYZ3"  -->
+            #
+            if ($currentlLine =~ /^\s+$someFieldName=\"(.*)\"/)
+            {
+                my $fieldValue = $1;
+
+                #print "On line $line: Detected field name \"$someFieldName\". " .
+                #      "Value: \"$fieldValue\"\n";
+                #die;
+
+                my $prevLineNumber = $uniqueFields{$someFieldName}->{$fieldValue};
+                if ($prevLineNumber)
+                {
+                    print 
+                      "\n\nOn line $line: Non-unique field value that is also " .
+                      "at line $prevLineNumber. Field name \"$someFieldName\". " .
+                      "Value: \"$fieldValue\"\n\n\n";
+                    die;
+                }
+                $uniqueFields{$someFieldName}->{$fieldValue} = $line;
+               
+
+                #print
+                #  "\nKeyboard shortcut is already used. " .
+                #  "On line $line: $accKey for \"$value\" " .
+                #  "(other: \"$oldValue\")\n";
+
+            } # Detected a field that should be unique
+
+        } # Through looking for fields that must be unique
+
+    } #while(). Through the input file
 
 
-my $possibleShortcuts = keys %keyboardShortcutSet;
-my $shortcuts = keys %accesskeys;
-my $expectedUnassigned = $possibleShortcuts - $shortcuts;
+    if (
+         ($line != 0) &&   # Don't output anything for empty input
 
-if ($outputKeyboardShortcutInfo)
-{
-    print "\n";
-    print "Number of possible shortcuts: $possibleShortcuts\n";
-    print "Detected shortcuts (including duplicates) in this file: $detectedShortcuts\n";
-    print "Detected shortcuts in this file: $shortcuts\n";
-    print "\n";
-}
-
-#foreach my $someShortcutLetter (%keyboardShortcutSet)
-my $unassignedCount = 0;
-foreach (sort keys %keyboardShortcutSet)
-{
-    my $key = $_;
-    my $value = $accesskeys{$key};
-
-    #print "Key: $key\n";
-    #print "Value: >>>$value<<<\n";
-
-    if (! ($value))
+         ($exitCode == 0)  # Or if we detected one or more errors
+                           # in the input. Even though we could
+                           # output some information, we prefer
+                           # not to obscure the errors with too
+                           # much output.
+       )
     {
-        $unassignedCount++;
+        my $possibleShortcuts = keys %keyboardShortcutSet;
+        my $shortcuts = keys %accesskeys;
+        my $expectedUnassigned = $possibleShortcuts - $shortcuts;
 
         if ($outputKeyboardShortcutInfo)
         {
-            printf "Unassigned letter %2d: $_\n", $unassignedCount;
+            print "\n\n";
+            print "Number of possible shortcuts: $possibleShortcuts\n";
+            print "Detected shortcuts (including duplicates) in this file: $detectedShortcuts\n";
+            print "Detected shortcuts in this file: $shortcuts\n";
+            print "\n";
         }
+
+        #foreach my $someShortcutLetter (%keyboardShortcutSet)
+        my $unassignedCount = 0;
+        foreach (sort keys %keyboardShortcutSet)
+        {
+            my $key = $_;
+            my $value = $accesskeys{$key};
+
+            #print "Key: $key\n";
+            #print "Value: >>>$value<<<\n";
+
+            if (! ($value))
+            {
+                $unassignedCount++;
+
+                if ($outputKeyboardShortcutInfo)
+                {
+                    printf "Unassigned letter %2d: $_\n", $unassignedCount;
+                }
+            }
+        }
+
+        # Internal program checks - it would normally never fire
+        if ($expectedUnassigned != $unassignedCount)
+        {
+            print
+              "\nInternal error: The unassigned keyboard shortcut count ($unassignedCount) ".
+              "was not the expected ($expectedUnassigned).\n";
+            $exitCode = 100 + 1;
+        }
+        if ($detectedShortcuts != $shortcuts) # Can also be due to duplicate keyboard
+                                              # shortcuts, but this would be detected
+                                              # before we get here.
+        {
+            print
+              "\nInternal error: The detected shortcuts counter ($detectedShortcuts) ".
+              "does not correspond to data structure \"accesskeys\"'s ".
+              "count ($shortcuts)\n";
+            $exitCode = 100 + 2;
+        }
+
     }
-}
 
-# Internal program checks - it would normally never fire
-if ($expectedUnassigned != $unassignedCount)
-{
-    print
-      "\nInternal error: The unassigned keyboard shortcut count ($unassignedCount) ".
-      "was not the expected ($expectedUnassigned).\n";
-    $exitCode = 100 + 1;
-}
-if ($detectedShortcuts != $shortcuts) # Can also be due to duplicate keyboard
-                                      # shortcuts, but this would be detected
-                                      # before we get here.
-{
-    print
-      "\nInternal error: The detected shortcuts counter ($detectedShortcuts) ".
-      "does not correspond to data structure \"accesskeys\"'s ".
-      "count ($shortcuts)\n";
-    $exitCode = 100 + 2;
-}
+} #An actual file name (and existing file) was provided in the script invocation
 
+if ($exitCode != 0)
+{
+    # As the reason for the error(s) may be obscured by some other output.
+    print
+      "\n\n$errors errors detected. Review the beginning of the output " .
+      "(as the error information may or may be obscured by other output). \n";
+}
 
 exit $exitCode;
 
