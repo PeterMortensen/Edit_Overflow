@@ -4846,6 +4846,7 @@ namespace OverflowHelper.core
             correctionAdd("fall thought", "fall-through");
             correctionAdd("fall though", "fall-through");
             correctionAdd("fallthough", "fall-through");
+            correctionAdd("fall thru", "fall-through");
 
             correctionAdd("walk through", "walkthrough");
             correctionAdd("walk-through", "walkthrough");
@@ -9408,6 +9409,7 @@ namespace OverflowHelper.core
             correctionAdd("Code-Chef", "CodeChef");
             correctionAdd("Code Chef", "CodeChef");
             correctionAdd("Codechef", "CodeChef");
+            correctionAdd("code chef", "CodeChef");
 
             correctionAdd("firemonkey", "FireMonkey");
             correctionAdd("Firemonkey", "FireMonkey");
@@ -14694,6 +14696,7 @@ namespace OverflowHelper.core
             correctionAdd("contaning", "containing");
             correctionAdd("cantaing", "containing");
             correctionAdd("cantaning", "containing");
+            correctionAdd("contianing", "containing");
 
             correctionAdd("verifed", "verified");
 
@@ -16507,9 +16510,10 @@ namespace OverflowHelper.core
 
             correctionAdd("powerfull", "powerful");
 
-            correctionAdd("Command Prompt", "Command&nbsp;Prompt"); // Sort of identity mapping
-            correctionAdd("cmd", "Command&nbsp;Prompt");
-            correctionAdd("cmd.exe", "Command&nbsp;Prompt");
+            correctionAdd("Command Prompt", "cmd.exe");
+            correctionAdd("cmd", "cmd.exe");
+            correctionAdd("Command&nbsp;Prompt", "cmd.exe");
+            correctionAdd("CMD", "cmd.exe");
 
             correctionAdd("Cmdlet", "cmdlet");
             correctionAdd("CmdLet", "cmdlet");
@@ -17821,6 +17825,7 @@ namespace OverflowHelper.core
             correctionAdd("PostGis", "PostGIS");
 
             correctionAdd("swiss army knife", "Swiss Army knife");
+            correctionAdd("swiss-army", "Swiss Army knife");
 
             correctionAdd("aluminum", "aluminium");
             correctionAdd("Al", "aluminium");
@@ -20181,6 +20186,7 @@ namespace OverflowHelper.core
             correctionAdd("phenomenom", "phenomenon");
 
             correctionAdd("choosed", "chose");
+            correctionAdd("chosed", "chose");
 
             correctionAdd("correcction", "correction");
 
@@ -20364,6 +20370,8 @@ namespace OverflowHelper.core
 
             correctionAdd("data stricture", "data structure");
             correctionAdd("datastructure", "data structure");
+            correctionAdd("data-structure", "data structure");
+            correctionAdd("data Structure", "data structure");
 
             correctionAdd("hymen", "human");
             correctionAdd("Human", "human");
@@ -22051,6 +22059,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non", "none");
             correctionAdd("Non", "none");
+            correctionAdd("nonw", "none");
 
             correctionAdd("apponent", "opponent");
             correctionAdd("Apponent", "opponent");
@@ -29078,6 +29087,7 @@ namespace OverflowHelper.core
             correctionAdd("q&a", "Q&A");
             correctionAdd("Q/A", "Q&A");
             correctionAdd("q/a", "Q&A");
+            correctionAdd("QnA", "Q&A");
 
             correctionAdd("retrofit", "Retrofit");
 
@@ -29459,6 +29469,24 @@ namespace OverflowHelper.core
             correctionAdd("varities", "varieties");
 
             correctionAdd("M&TV", "Movies & TV (Stack Exchange site)");
+
+            correctionAdd("blessing and curse", "a blessing and a curse");
+
+            correctionAdd("at-will", "at will");
+
+            correctionAdd("choses", "chooses");
+
+            correctionAdd("cercumvent", "circumvent");
+
+            correctionAdd("installment", "instalment");
+
+            correctionAdd("OLS", "ordinary least squares");
+
+            correctionAdd("Shenanigan", "shenanigan");
+
+            correctionAdd("user-guide", "user guide");
+
+            correctionAdd("Westerner", "westerner");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -31714,7 +31742,7 @@ namespace OverflowHelper.core
 
             URL_Add("NuGet", "https://en.wikipedia.org/wiki/NuGet");
 
-            URL_Add("Command&nbsp;Prompt", "https://en.wikipedia.org/wiki/Command_Prompt");
+            URL_Add("cmd.exe", "https://en.wikipedia.org/wiki/Cmd.exe"); // Old: https://en.wikipedia.org/wiki/Command_Prompt
 
             URL_Add("Disk Cleanup", "https://en.wikipedia.org/wiki/Disk_Cleanup");
 
@@ -46338,6 +46366,24 @@ namespace OverflowHelper.core
             URL_Add("varieties", "https://en.wiktionary.org/wiki/variety#Noun");
 
             URL_Add("Movies & TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
+
+            URL_Add("a blessing and a curse", "https://en.wiktionary.org/wiki/a_blessing_and_a_curse#Noun");
+
+            URL_Add("at will", "https://en.wiktionary.org/wiki/at_will#Prepositional_phrase");
+
+            URL_Add("chooses", "https://en.wiktionary.org/wiki/choose#Verb");
+
+            URL_Add("circumvent", "https://en.wiktionary.org/wiki/circumvent#Verb");
+
+            URL_Add("instalment", "https://en.wiktionary.org/wiki/instalment#Noun");
+
+            URL_Add("ordinary least squares", "https://en.wikipedia.org/wiki/Ordinary_least_squares");
+
+            URL_Add("shenanigan", "https://en.wiktionary.org/wiki/shenanigan#Noun");
+
+            URL_Add("user guide", "https://en.wiktionary.org/wiki/user_guide#Noun");
+
+            URL_Add("westerner", "https://en.wiktionary.org/wiki/westerner#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
