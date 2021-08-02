@@ -12798,6 +12798,7 @@ namespace OverflowHelper.core
             correctionAdd("debug", "debugging");
             correctionAdd("Debbugging", "debugging");
             correctionAdd("debbugging", "debugging");
+            correctionAdd("degugging", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -19208,6 +19209,7 @@ namespace OverflowHelper.core
             correctionAdd("Id", "I’d");
             correctionAdd("I´d", "I’d");
             correctionAdd("I'd", "I’d");
+            correctionAdd("i'd", "I’d");
 
             correctionAdd("Shindler's list", "Schindler's List");
 
@@ -27637,6 +27639,7 @@ namespace OverflowHelper.core
 
             correctionAdd("happenning", "happening");
             correctionAdd("happeneing", "happening");
+            correctionAdd("happenening", "happening");
 
             correctionAdd("helpt", "helped");
 
@@ -29487,6 +29490,18 @@ namespace OverflowHelper.core
             correctionAdd("user-guide", "user guide");
 
             correctionAdd("Westerner", "westerner");
+
+            correctionAdd("avocode", "Avocode");
+
+            correctionAdd("nuclide", "Nuclide");
+
+            correctionAdd("cd prompt", "command prompt");
+
+            correctionAdd("deterence", "deterrence");
+
+            correctionAdd("labor-intensive", "labour-intensive");
+
+            correctionAdd("salaray", "salary");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46384,6 +46399,18 @@ namespace OverflowHelper.core
             URL_Add("user guide", "https://en.wiktionary.org/wiki/user_guide#Noun");
 
             URL_Add("westerner", "https://en.wiktionary.org/wiki/westerner#Noun");
+
+            URL_Add("Avocode", "https://help.avocode.com/en/articles/510690-what-is-avocode");
+
+            URL_Add("Nuclide", "https://nuclide.io/docs/platforms/react-native/");
+
+            URL_Add("command prompt", "https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt");
+
+            URL_Add("deterrence", "https://en.wiktionary.org/wiki/deterrence#Noun");
+
+            URL_Add("labour-intensive", "https://en.wiktionary.org/wiki/labour-intensive#Adjective");
+
+            URL_Add("salary", "https://en.wiktionary.org/wiki/salary#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
