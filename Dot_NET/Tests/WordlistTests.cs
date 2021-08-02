@@ -117,6 +117,7 @@ namespace OverflowHelper.Tests
                     -6 +
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
                     8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
+                    93 - 93 +
                     0,
                 len,
                 "XYZ");
@@ -164,6 +165,7 @@ namespace OverflowHelper.Tests
             //       HTML (***not*** trying to match the indentation in
             //       file "FixedStrings.php")
             //  +110 Added an (HTML) comment
+            //   +0  For Git shenanigans...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -212,8 +214,8 @@ namespace OverflowHelper.Tests
             someWord2URL.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
 
-            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+            //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
@@ -252,6 +254,7 @@ namespace OverflowHelper.Tests
                     -6 +
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
                     8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
+                    93 - 93 +
                     0,
                 len,
                 "XYZ");
@@ -283,6 +286,7 @@ namespace OverflowHelper.Tests
             //       HTML (***not*** trying to match the indentation in
             //       file "FixedStrings.php")
             //  +110 Added an (HTML) comment
+            //   +0  For Git shenanigans...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
