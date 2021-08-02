@@ -214,8 +214,8 @@ namespace OverflowHelper.Tests
             someWord2URL.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
 
-            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
