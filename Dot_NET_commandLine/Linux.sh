@@ -567,6 +567,16 @@ cd -
 #
 startOfBuildStep "10" "Starting web interface regression tests"
 
+# Note:
+#
+#   1. Sometimes the test fails and we get:
+#
+#         selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="someText"]
+#
+#      The reason is we have interfered by doing GUI stuff while
+#      the test is running... To fix it, rerun this build script.
+
+
 # For now: Not assuming executable 'geckodriver' is in the path
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 
