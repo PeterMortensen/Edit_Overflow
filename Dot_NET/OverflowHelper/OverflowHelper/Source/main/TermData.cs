@@ -14894,6 +14894,7 @@ namespace OverflowHelper.core
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
             correctionAdd("custum", "custom");
+            correctionAdd("custome", "custom");
 
             correctionAdd("folter", "folder");
             correctionAdd("foleder", "folder");
@@ -16338,6 +16339,7 @@ namespace OverflowHelper.core
             correctionAdd("usign", "using");
             correctionAdd("uing", "using");
             correctionAdd("unsing", "using");
+            correctionAdd("ising", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -16546,6 +16548,7 @@ namespace OverflowHelper.core
             correctionAdd("standard out", "standard output");
             correctionAdd("Standard output", "standard output");
             correctionAdd("Stdout", "standard output");
+            correctionAdd("stdOut", "standard output");
 
             correctionAdd("yeoman", "Yeoman");
 
@@ -18257,6 +18260,7 @@ namespace OverflowHelper.core
             correctionAdd("BY-SA", "Creative Commons BY-SA");
             correctionAdd("cc by-sa", "Creative Commons BY-SA");
             correctionAdd("CC BY-SA", "Creative Commons BY-SA");
+            correctionAdd("cc-by-sa", "Creative Commons BY-SA");
 
             correctionAdd("Code complete", "Code Complete");
 
@@ -29502,6 +29506,17 @@ namespace OverflowHelper.core
             correctionAdd("labor-intensive", "labour-intensive");
 
             correctionAdd("salaray", "salary");
+
+            correctionAdd("Content-type", "Content-Type");
+
+            correctionAdd("mime type", "MIME type");
+            correctionAdd("Mime-Type", "MIME type");
+            correctionAdd("Mime Type", "MIME type");
+            correctionAdd("MIME Type", "MIME type");
+
+            correctionAdd("interferred", "interfered");
+
+            correctionAdd("xinted", "xinetd");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46411,6 +46426,14 @@ namespace OverflowHelper.core
             URL_Add("labour-intensive", "https://en.wiktionary.org/wiki/labour-intensive#Adjective");
 
             URL_Add("salary", "https://en.wiktionary.org/wiki/salary#Noun");
+
+            URL_Add("Content-Type", "https://en.wikipedia.org/wiki/MIME#Content-Type");
+
+            URL_Add("MIME type", "https://en.wikipedia.org/wiki/MIME#MIME_header_fields");
+
+            URL_Add("interfered", "https://en.wiktionary.org/wiki/interfere#Verb");
+
+            URL_Add("xinetd", "https://en.wikipedia.org/wiki/Xinetd");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
