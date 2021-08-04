@@ -1084,6 +1084,8 @@ namespace OverflowHelper.core
             correctionAdd("OSX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
+            correctionAdd("MacOS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
+            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
 
             correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)"); // Sort of identity mapping
             correctionAdd("snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
@@ -9679,7 +9681,8 @@ namespace OverflowHelper.core
             correctionAdd("quastion", "question");
             correctionAdd("questionj", "question");
 
-            // Can not currently be looked up due to a bug!!!!
+            // Can not currently be looked up due to a bug!!!! It works fine
+            // in the web interface 2021-08-04, though.
             correctionAdd("devc++", "Dev-C++");
             correctionAdd("devcpp", "Dev-C++");
             correctionAdd("Dev-CPP", "Dev-C++");
@@ -9687,6 +9690,8 @@ namespace OverflowHelper.core
             correctionAdd("dev c/c++", "Dev-C++");
             correctionAdd("dev C/C++", "Dev-C++");
             correctionAdd("Dev C/C++", "Dev-C++");
+            correctionAdd("Dev C++", "Dev-C++");
+            correctionAdd("DevC++", "Dev-C++");
 
             correctionAdd("msvc", "Microsoft Visual C++");
             correctionAdd("ms vc", "Microsoft Visual C++");
@@ -19170,6 +19175,7 @@ namespace OverflowHelper.core
             correctionAdd("angular material", "Angular Material");
 
             correctionAdd("Scons", "SCons");
+            correctionAdd("scons", "SCons");
 
             //correctionAdd("FT.", "featuring"); // Not currently allowed...
             correctionAdd("FT", "featuring");
@@ -21652,6 +21658,8 @@ namespace OverflowHelper.core
             correctionAdd("playground", "Swift Playgrounds");
 
             correctionAdd("Windows 1250", "Windows-1250");
+            correctionAdd("CP-1250", "Windows-1250");
+            correctionAdd("1250", "Windows-1250");
 
             correctionAdd("explainn", "explain");
             correctionAdd("explanin", "explain");
@@ -24796,6 +24804,7 @@ namespace OverflowHelper.core
             correctionAdd("multiple ways to Rome", "all roads lead to Rome");
 
             correctionAdd("codepoint", "code point");
+            correctionAdd("Unicode code point", "code point");
 
             correctionAdd("insure", "ensure");
 
@@ -29517,6 +29526,32 @@ namespace OverflowHelper.core
             correctionAdd("interferred", "interfered");
 
             correctionAdd("xinted", "xinetd");
+
+            correctionAdd("C.H.I.P", "CHIP");
+
+            correctionAdd("Sunmi", "SUNMI");
+            correctionAdd("sunmi", "SUNMI");
+
+            correctionAdd("SONATA", "Sonata");
+            correctionAdd("sonata", "Sonata");
+
+            correctionAdd("typeorm", "TypeORM");
+
+            correctionAdd("Bioinformatics", "bioinformatics");
+
+            correctionAdd("cosmetolegy", "cosmetology");
+
+            correctionAdd("cutting edge", "cutting-edge");
+
+            correctionAdd("dvice", "device");
+
+            correctionAdd("dispell", "dispel");
+
+            correctionAdd("Inverted pyramid", "inverted pyramid");
+
+            correctionAdd("questionaire", "questionnaire");
+
+            correctionAdd("re-type", "retype");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46434,6 +46469,30 @@ namespace OverflowHelper.core
             URL_Add("interfered", "https://en.wiktionary.org/wiki/interfere#Verb");
 
             URL_Add("xinetd", "https://en.wikipedia.org/wiki/Xinetd");
+
+            URL_Add("CHIP", "https://en.wikipedia.org/wiki/CHIP_(computer)");
+
+            URL_Add("SUNMI", "https://www.sunmi.com/en/aboutus/");
+
+            URL_Add("Sonata", "https://symfony.com/projects/sonataproject");
+
+            URL_Add("TypeORM", "https://github.com/typeorm/typeorm");
+
+            URL_Add("bioinformatics", "https://en.wikipedia.org/wiki/Bioinformatics");
+
+            URL_Add("cosmetology", "https://en.wikipedia.org/wiki/Cosmetology");
+
+            URL_Add("cutting-edge", "https://en.wiktionary.org/wiki/cutting-edge");
+
+            URL_Add("device", "https://en.wiktionary.org/wiki/device#Noun");
+
+            URL_Add("dispel", "https://en.wiktionary.org/wiki/dispel#Verb");
+
+            URL_Add("inverted pyramid", "https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)");
+
+            URL_Add("questionnaire", "https://en.wiktionary.org/wiki/questionnaire#Noun");
+
+            URL_Add("retype", "https://en.wiktionary.org/wiki/retype#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
