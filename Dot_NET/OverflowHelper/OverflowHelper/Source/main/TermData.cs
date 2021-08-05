@@ -10280,6 +10280,7 @@ namespace OverflowHelper.core
             correctionAdd("Example", "example");
             correctionAdd("exammple", "example");
             correctionAdd("exaple", "example");
+            correctionAdd("exmample", "example");
 
             correctionAdd("european", "European");
 
@@ -11998,6 +11999,7 @@ namespace OverflowHelper.core
 
             correctionAdd("BW", "bandwidth");
             correctionAdd("bandwith", "bandwidth");
+            correctionAdd("badwidth", "bandwidth");
 
             correctionAdd("buracracy", "bureaucracy");
             correctionAdd("buracrocy", "bureaucracy");
@@ -18963,6 +18965,7 @@ namespace OverflowHelper.core
             correctionAdd("advice", "advise");
 
             correctionAdd("bandpass filter", "band-pass filter");
+            correctionAdd("BPF", "band-pass filter");
 
             correctionAdd("bisquet", "biscuit");
 
@@ -20970,6 +20973,8 @@ namespace OverflowHelper.core
             correctionAdd("uncoment", "uncomment");
 
             correctionAdd("wth", "why");
+            correctionAdd("Whi", "why");
+            correctionAdd("whi", "why");
 
             correctionAdd("axios", "Axios");
             correctionAdd("AXIOS", "Axios");
@@ -22167,6 +22172,7 @@ namespace OverflowHelper.core
             correctionAdd("qr", "QR code");
             correctionAdd("qr code", "QR code");
             correctionAdd("QR-code", "QR code");
+            correctionAdd("qrcode", "QR code");
 
             correctionAdd("pseudo code", "pseudocode");
             correctionAdd("Pseudo Code", "pseudocode");
@@ -24407,6 +24413,7 @@ namespace OverflowHelper.core
             correctionAdd("sponser", "sponsor");
 
             correctionAdd("sufferring", "suffering");
+            correctionAdd("stuffering", "suffering");
 
             correctionAdd("Von Neuman machine", "von Neumann machine");
             correctionAdd("von Neumann", "von Neumann machine");
@@ -27198,6 +27205,7 @@ namespace OverflowHelper.core
             correctionAdd("eigen value", "eigenvalue");
 
             correctionAdd("tx", "transmit");
+            correctionAdd("trasmit", "transmit");
 
             correctionAdd("sensorship", "censorship");
 
@@ -29104,6 +29112,7 @@ namespace OverflowHelper.core
             correctionAdd("Q/A", "Q&A");
             correctionAdd("q/a", "Q&A");
             correctionAdd("QnA", "Q&A");
+            correctionAdd("Q & A", "Q&A");
 
             correctionAdd("retrofit", "Retrofit");
 
@@ -29552,6 +29561,30 @@ namespace OverflowHelper.core
             correctionAdd("questionaire", "questionnaire");
 
             correctionAdd("re-type", "retype");
+
+            correctionAdd("Cat 3", "Cat&nbsp;3");
+            correctionAdd("cat3", "Cat&nbsp;3");
+            correctionAdd("cat 3", "Cat&nbsp;3");
+
+            correctionAdd("THP", "Tomlinson-Harashima precoding");
+
+            correctionAdd("Creators Update", "Windows 10 version 1703");
+            correctionAdd("creators update", "Windows 10 version 1703");
+
+            correctionAdd("high level", "high-level");
+
+            correctionAdd("impedanse", "impedance");
+
+            correctionAdd("LIFO", "last in, first out");
+            correctionAdd("first in, last out", "last in, first out");
+            correctionAdd("first in last out", "last in, first out");
+
+            correctionAdd("pf", "pF");
+
+            correctionAdd("pre-determined", "predetermined");
+
+            correctionAdd("pi network filter", "π-network filter");
+            correctionAdd("pi_network filter", "π-network filter");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46493,6 +46526,24 @@ namespace OverflowHelper.core
             URL_Add("questionnaire", "https://en.wiktionary.org/wiki/questionnaire#Noun");
 
             URL_Add("retype", "https://en.wiktionary.org/wiki/retype#Verb");
+
+            URL_Add("Cat&nbsp;3", "https://en.wikipedia.org/wiki/Category_3_cable");
+
+            URL_Add("Tomlinson-Harashima precoding", "https://en.wikipedia.org/wiki/Dirty_paper_coding#Variants");
+
+            URL_Add("Windows 10 version 1703", "https://en.wikipedia.org/wiki/Windows_10_version_1703");
+
+            URL_Add("high-level", "https://en.wiktionary.org/wiki/high-level#Adjective");
+
+            URL_Add("impedance", "https://en.wiktionary.org/wiki/impedance#Noun");
+
+            URL_Add("last in, first out", "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)");
+
+            URL_Add("pF", "https://en.wikipedia.org/wiki/Farad#Definition");
+
+            URL_Add("predetermined", "https://en.wiktionary.org/wiki/predetermined#Adjective");
+
+            URL_Add("π-network filter", "https://en.wikipedia.org/wiki/Electronic_filter#T_and_%CF%80_filters");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
