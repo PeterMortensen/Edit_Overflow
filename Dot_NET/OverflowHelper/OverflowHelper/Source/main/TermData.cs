@@ -2091,6 +2091,7 @@ namespace OverflowHelper.core
             correctionAdd("csv", "CSV");
 
             correctionAdd("clr", "CLR");
+            correctionAdd("Clr", "CLR");
 
             correctionAdd("magento", "Magento");
             correctionAdd("magneto", "Magento");
@@ -3117,9 +3118,12 @@ namespace OverflowHelper.core
 
             correctionAdd("innodb", "InnoDB");
             correctionAdd("innoDB", "InnoDB");
+            correctionAdd("INNO DB", "InnoDB");
+            correctionAdd("inno db", "InnoDB");
 
             correctionAdd("myisam", "MyISAM");
             correctionAdd("MyIsam", "MyISAM");
+            correctionAdd("MYISAM", "MyISAM");
 
             correctionAdd("html5", "HTML5"); // Not actually observed.
             correctionAdd("Html5", "HTML5");
@@ -9132,6 +9136,7 @@ namespace OverflowHelper.core
 
             correctionAdd("login", "log in");
             correctionAdd("log-in", "log in");
+            correctionAdd("Login", "log in");
 
             correctionAdd("i3", "Core&nbsp;i3");
             correctionAdd("Core i3", "Core&nbsp;i3");
@@ -10190,6 +10195,8 @@ namespace OverflowHelper.core
             correctionAdd("core MVC", "ASP.NET Core");
             correctionAdd("asp dotnet core", "ASP.NET Core");
             correctionAdd("asp .net core", "ASP.NET Core");
+            correctionAdd(".net core MVC", "ASP.NET Core");
+            correctionAdd(".Net Core MVC", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -11931,6 +11938,7 @@ namespace OverflowHelper.core
             correctionAdd("tryied", "tried");
             correctionAdd("TREID", "tried");
             correctionAdd("treid", "tried");
+            correctionAdd("tied", "tried");
 
             correctionAdd("justfied", "justified");
 
@@ -12477,6 +12485,7 @@ namespace OverflowHelper.core
             correctionAdd("jetbrain", "JetBrains");
 
             correctionAdd("SQL workbench", "MySQL Workbench");
+            correctionAdd("Workbench", "MySQL Workbench");
 
             correctionAdd("Blockchain", "blockchain");
             correctionAdd("Block chain", "blockchain");
@@ -12806,6 +12815,7 @@ namespace OverflowHelper.core
             correctionAdd("Debbugging", "debugging");
             correctionAdd("debbugging", "debugging");
             correctionAdd("degugging", "debugging");
+            correctionAdd("debbuging", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -13886,6 +13896,7 @@ namespace OverflowHelper.core
             correctionAdd("virtual private cloud", "VPC");
 
             correctionAdd("acomplish", "accomplish");
+            correctionAdd("accmplish", "accomplish");
 
             correctionAdd("alineation", "alienation");
 
@@ -19334,6 +19345,8 @@ namespace OverflowHelper.core
 
             correctionAdd("psycology", "psychology");
             correctionAdd("phychology", "psychology");
+            correctionAdd("physology", "psychology");
+            correctionAdd("phycology", "psychology");
 
             correctionAdd("Repos", "repositories");
             correctionAdd("repos", "repositories");
@@ -29128,6 +29141,7 @@ namespace OverflowHelper.core
             correctionAdd("currecy", "currency");
 
             correctionAdd("matrixes", "matrices");
+            correctionAdd("Matrices", "matrices");
 
             correctionAdd("Ne", "neon (element)");
 
@@ -29585,6 +29599,25 @@ namespace OverflowHelper.core
 
             correctionAdd("pi network filter", "π-network filter");
             correctionAdd("pi_network filter", "π-network filter");
+
+            correctionAdd("macvim", "MacVim");
+
+            correctionAdd("Abstract Algebra", "abstract algebra");
+
+            correctionAdd("Calculus", "calculus");
+
+            correctionAdd("droped", "dropped");
+
+            correctionAdd("map-making", "mapmaking");
+
+            correctionAdd("matriks", "matrix");
+
+            correctionAdd("offroad", "off-road");
+            correctionAdd("Offroad", "off-road");
+
+            correctionAdd("Prepared Statement", "prepared statement");
+
+            correctionAdd("Real Analysis", "real analysis");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46544,6 +46577,24 @@ namespace OverflowHelper.core
             URL_Add("predetermined", "https://en.wiktionary.org/wiki/predetermined#Adjective");
 
             URL_Add("π-network filter", "https://en.wikipedia.org/wiki/Electronic_filter#T_and_%CF%80_filters");
+
+            URL_Add("MacVim", "https://macvim-dev.github.io/macvim/");
+
+            URL_Add("abstract algebra", "https://en.wikipedia.org/wiki/Abstract_algebra");
+
+            URL_Add("calculus", "https://en.wikipedia.org/wiki/Calculus");
+
+            URL_Add("dropped", "https://en.wiktionary.org/wiki/drop#Verb");
+
+            URL_Add("mapmaking", "https://en.wiktionary.org/wiki/mapmaking#Noun");
+
+            URL_Add("matrix", "https://en.wiktionary.org/wiki/matrix#Noun");
+
+            URL_Add("off-road", "https://en.wiktionary.org/wiki/off-road#Adjective");
+
+            URL_Add("prepared statement", "https://en.wikipedia.org/wiki/Prepared_statement");
+
+            URL_Add("real analysis", "https://en.wikipedia.org/wiki/Real_analysis");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
