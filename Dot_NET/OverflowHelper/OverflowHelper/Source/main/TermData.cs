@@ -5024,6 +5024,9 @@ namespace OverflowHelper.core
             correctionAdd("VBNet", "VB.NET");
             correctionAdd("Visual Basic.Net", "VB.NET");
             correctionAdd("visual basic.net", "VB.NET");
+            correctionAdd("Visual Basic .Net", "VB.NET");
+            correctionAdd("Visual Basic .NET", "VB.NET");
+            correctionAdd("VB .NET", "VB.NET");
 
             correctionAdd("VB6", "Visual Basic 6.0");
             correctionAdd("vb6", "Visual Basic 6.0");
@@ -8688,6 +8691,7 @@ namespace OverflowHelper.core
             correctionAdd("OUT", "output");
             correctionAdd("out", "output");
             correctionAdd("putput", "output");
+            correctionAdd("outptut", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -10492,6 +10496,8 @@ namespace OverflowHelper.core
             correctionAdd("Sometimes", "sometimes");
             correctionAdd("someties", "sometimes");
             correctionAdd("sometime's", "sometimes");
+            correctionAdd("Somtimes", "sometimes");
+            correctionAdd("somtimes", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -14455,6 +14461,7 @@ namespace OverflowHelper.core
             correctionAdd("semi-colon", "semicolon");
             correctionAdd("Semi-colon", "semicolon");
             correctionAdd("Semicolon", "semicolon");
+            correctionAdd("semi", "semicolon");
 
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
@@ -14548,6 +14555,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thig", "thing");
             correctionAdd("thang", "thing");
+            correctionAdd("thign", "thing");
 
             correctionAdd("tooo", "too");
 
@@ -15072,6 +15080,7 @@ namespace OverflowHelper.core
             correctionAdd("divi", "Divi");
 
             correctionAdd("easyphp", "EasyPHP");
+            correctionAdd("EasyPhp", "EasyPHP");
 
             correctionAdd("Git 2.0", "Git&nbsp;2.0"); // Sort of identity mapping
             correctionAdd("git2", "Git&nbsp;2.0");
@@ -17386,6 +17395,7 @@ namespace OverflowHelper.core
             correctionAdd("Paul Charles Morphe", "Paul Morphy"); // Chess
             correctionAdd("Morphe", "Paul Morphy"); // Chess
             correctionAdd("morph", "Paul Morphy"); // Chess
+            correctionAdd("Morphy", "Paul Morphy"); // Chess
 
             correctionAdd("four knights", "Four Knights Game"); // Chess
 
@@ -19946,6 +19956,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("caled", "called");
             correctionAdd("callled", "called");
@@ -20483,6 +20494,7 @@ namespace OverflowHelper.core
             correctionAdd("form", "from");
             correctionAdd("Form", "from");
             correctionAdd("fom", "from");
+            correctionAdd("från", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -23961,6 +23973,7 @@ namespace OverflowHelper.core
             correctionAdd("gestimate", "guesstimate");
 
             correctionAdd("intepreter", "interpreter");
+            correctionAdd("interpretter", "interpreter");
 
             correctionAdd("memrise", "memorise");
 
@@ -29687,6 +29700,24 @@ namespace OverflowHelper.core
             correctionAdd("status qoe", "status quo");
 
             correctionAdd("walkie talkie", "walkie-talkie");
+
+            correctionAdd("flymake", "Flymake");
+            correctionAdd("FlyMake", "Flymake");
+
+            correctionAdd("lindlar catalyst", "Lindlar catalyst");
+            correctionAdd("Lindlar's catalyst", "Lindlar catalyst");
+
+            correctionAdd("Scholastic Assessment Test", "SAT");
+
+            correctionAdd("bike-shedding", "bikeshedding");
+            correctionAdd("bike shedding", "bikeshedding");
+
+            correctionAdd("FULL OUTER JOIN", "full outer join");
+            correctionAdd("Full Outer Join", "full outer join");
+
+            correctionAdd("metafor", "metaphor");
+
+            correctionAdd("enco­urax", "encouraged");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46702,6 +46733,20 @@ namespace OverflowHelper.core
             URL_Add("status quo", "https://en.wiktionary.org/wiki/status_quo#Noun");
 
             URL_Add("walkie-talkie", "https://en.wikipedia.org/wiki/Walkie-talkie");
+
+            URL_Add("Flymake", "http://www.gnu.org/software/emacs/manual/html_mono/flymake.html");
+
+            URL_Add("Lindlar catalyst", "https://en.wikipedia.org/wiki/Lindlar_catalyst");
+
+            URL_Add("SAT", "https://en.wikipedia.org/wiki/SAT");
+
+            URL_Add("bikeshedding", "https://en.wikipedia.org/wiki/Law_of_triviality");
+
+            URL_Add("full outer join", "https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join");
+
+            URL_Add("metaphor", "https://en.wiktionary.org/wiki/metaphor#Noun");
+
+            URL_Add("encouraged", "https://en.wiktionary.org/wiki/encourage#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
