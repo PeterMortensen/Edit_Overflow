@@ -4372,6 +4372,7 @@ namespace OverflowHelper.core
             correctionAdd("don`t", "don’t");
             correctionAdd("dont’t", "don’t");
             correctionAdd("Don`t", "don’t");
+            correctionAdd("donw", "don’t");
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
@@ -5539,6 +5540,7 @@ namespace OverflowHelper.core
             correctionAdd("re-captcha", "reCAPTCHA");
             correctionAdd("reCaptuav", "reCAPTCHA");
             correctionAdd("RECAPTCHA", "reCAPTCHA");
+            correctionAdd("reCAPTHA", "reCAPTCHA");
 
             correctionAdd("Spinrite", "SpinRite");
             correctionAdd("spinrite", "SpinRite");
@@ -9314,6 +9316,7 @@ namespace OverflowHelper.core
             correctionAdd("That’s", "that’s"); // Not 100% correct (case)
             correctionAdd("That's", "that’s"); // Not 100% correct (case)
             correctionAdd("that's", "that’s");
+            correctionAdd("that s", "that’s");
 
             // correctionAdd("v.s", "vs."); // Bug...
             correctionAdd("versus", "vs."); //
@@ -12980,6 +12983,7 @@ namespace OverflowHelper.core
             correctionAdd("supost", "suppose");
             correctionAdd("supouse", "suppose");
             correctionAdd("suppouse", "suppose");
+            correctionAdd("Supose", "suppose");
 
             correctionAdd("suposed", "supposed");
             correctionAdd("supoused", "supposed");
@@ -15572,6 +15576,7 @@ namespace OverflowHelper.core
 
             correctionAdd("phychic", "psychic");
             correctionAdd("phychich", "psychic");
+            correctionAdd("phycic", "psychic");
 
             correctionAdd("alibaba", "Alibaba");
 
@@ -16953,6 +16958,7 @@ namespace OverflowHelper.core
             correctionAdd("It\\`s", "it’s"); // A single backslash
             correctionAdd("It`s", "it’s");
             correctionAdd("It's", "it’s");
+            correctionAdd("it s", "it’s");
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -29718,6 +29724,22 @@ namespace OverflowHelper.core
             correctionAdd("metafor", "metaphor");
 
             correctionAdd("enco­urax", "encouraged");
+
+            correctionAdd("Alma Linux", "AlmaLinux");
+
+            correctionAdd("flathub", "Flathub");
+
+            correctionAdd("golden shield", "Golden Shield Project");
+            correctionAdd("Golden Shield", "Golden Shield Project");
+
+            correctionAdd("Rocky", "Rocky Linux");
+
+            correctionAdd("TailScale", "Tailscale");
+            correctionAdd("Tail scale", "Tailscale");
+
+            correctionAdd("Wireguard", "WireGuard");
+
+            correctionAdd("detente", "détente");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46747,6 +46769,20 @@ namespace OverflowHelper.core
             URL_Add("metaphor", "https://en.wiktionary.org/wiki/metaphor#Noun");
 
             URL_Add("encouraged", "https://en.wiktionary.org/wiki/encourage#Verb");
+
+            URL_Add("AlmaLinux", "https://en.wikipedia.org/wiki/AlmaLinux");
+
+            URL_Add("Flathub", "https://en.wikipedia.org/wiki/Flatpak#Features");
+
+            URL_Add("Golden Shield Project", "https://en.wikipedia.org/wiki/Golden_Shield_Project");
+
+            URL_Add("Rocky Linux", "https://en.wikipedia.org/wiki/Rocky_Linux");
+
+            URL_Add("Tailscale", "https://wiki.archlinux.org/title/Tailscale");
+
+            URL_Add("WireGuard", "https://en.wikipedia.org/wiki/WireGuard");
+
+            URL_Add("détente", "https://en.wiktionary.org/wiki/d%C3%A9tente#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
