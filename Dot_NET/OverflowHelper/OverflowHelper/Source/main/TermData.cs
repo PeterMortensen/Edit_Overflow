@@ -4491,8 +4491,9 @@ namespace OverflowHelper.core
             correctionAdd("Redhat Linux", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("linux redhat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RedHat Linux", "Red Hat Linux");
-            correctionAdd("REDHAT", "Red Hat Linux");
+            correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("rhel", "Red Hat Linux"); // The OS, not the company.
 
             correctionAdd("phising", "phishing");
             correctionAdd("Phising", "phishing");
@@ -11011,6 +11012,8 @@ namespace OverflowHelper.core
             correctionAdd("indent", "indentation");
             correctionAdd("intendation", "indentation");
             correctionAdd("identation", "indentation");
+            correctionAdd("Identation", "indentation");
+            correctionAdd("Indentation", "indentation");
 
             correctionAdd("horizentaly", "horizontally");
             correctionAdd("horizondally", "horizontally");
@@ -13266,6 +13269,7 @@ namespace OverflowHelper.core
             correctionAdd("scrol", "scroll");
             correctionAdd("schroll", "scroll");
             correctionAdd("schrol", "scroll");
+            correctionAdd("scholl", "scroll");
 
             correctionAdd("sentance", "sentence");
             correctionAdd("sentencen", "sentence");
@@ -15129,6 +15133,7 @@ namespace OverflowHelper.core
             correctionAdd("modrewrite", "mod_rewrite");
 
             correctionAdd("rewrited", "rewrote");
+            correctionAdd("re-wrote", "rewrote");
 
             correctionAdd("re-write", "rewrite");
 
@@ -15367,6 +15372,7 @@ namespace OverflowHelper.core
 
             correctionAdd("iterference", "interference");
             correctionAdd("interferance", "interference");
+            correctionAdd("intereference", "interference");
 
             correctionAdd("no harm no foul", "no harm, no foul");
 
@@ -17069,6 +17075,7 @@ namespace OverflowHelper.core
 
             correctionAdd("in a moment's notice", "at a moment's notice");
             correctionAdd("moment notice", "at a moment's notice");
+            correctionAdd("at a moments notice", "at a moment's notice");
 
             correctionAdd("Blessing in Disguise", "blessing in disguise");
 
@@ -29740,6 +29747,23 @@ namespace OverflowHelper.core
             correctionAdd("Wireguard", "WireGuard");
 
             correctionAdd("detente", "détente");
+
+            correctionAdd("InfluxDb", "InfluxDB");
+
+            correctionAdd("attributon", "attribution");
+
+            correctionAdd("double slit experiment", "double-slit experiment");
+
+            correctionAdd("emultate", "emulate");
+
+            correctionAdd("flip side", "flipside");
+
+            correctionAdd("In my humble opinion", "in my humble opinion");
+
+            correctionAdd("the powers", "the powers that be");
+
+            correctionAdd("Un-addressed", "unaddressed");
+            correctionAdd("un-addressed", "unaddressed");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46783,6 +46807,22 @@ namespace OverflowHelper.core
             URL_Add("WireGuard", "https://en.wikipedia.org/wiki/WireGuard");
 
             URL_Add("détente", "https://en.wiktionary.org/wiki/d%C3%A9tente#Noun");
+
+            URL_Add("InfluxDB", "https://en.wikipedia.org/wiki/InfluxDB");
+
+            URL_Add("attribution", "https://en.wiktionary.org/wiki/attribution#Noun");
+
+            URL_Add("double-slit experiment", "https://en.wikipedia.org/wiki/Double-slit_experiment");
+
+            URL_Add("emulate", "https://en.wiktionary.org/wiki/emulate#Verb");
+
+            URL_Add("flipside", "https://en.wiktionary.org/wiki/flipside#Noun");
+
+            URL_Add("in my humble opinion", "https://en.wiktionary.org/wiki/in_my_humble_opinion#Prepositional_phrase");
+
+            URL_Add("the powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
+
+            URL_Add("unaddressed", "https://en.wiktionary.org/wiki/unaddress#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
