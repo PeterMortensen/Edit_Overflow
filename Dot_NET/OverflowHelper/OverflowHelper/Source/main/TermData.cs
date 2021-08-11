@@ -9452,6 +9452,8 @@ namespace OverflowHelper.core
             correctionAdd("inst", "isn’t");
             correctionAdd("isnt't", "isn’t");
             correctionAdd("isn't", "isn’t");
+            correctionAdd("is't", "isn’t");
+            correctionAdd("is’t", "isn’t");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -19846,6 +19848,7 @@ namespace OverflowHelper.core
             correctionAdd("Fav icon", "favicon");
 
             correctionAdd("hanling", "handling");
+            correctionAdd("Hanling", "handling");
 
             correctionAdd("ioen", "join");
 
@@ -21785,6 +21788,9 @@ namespace OverflowHelper.core
             correctionAdd("cran", "CRAN");
 
             correctionAdd("jwt", "JWT");
+            correctionAdd("jsonwebtoken", "JWT");
+            correctionAdd("json web token", "JWT");
+            correctionAdd("JSON Web Token", "JWT");
 
             correctionAdd("MSMQ", "Microsoft Message Queuing");
 
@@ -24049,6 +24055,7 @@ namespace OverflowHelper.core
             correctionAdd("updeate", "update");
 
             correctionAdd("volantory", "voluntary");
+            correctionAdd("voluntory", "voluntary");
 
             correctionAdd("Baas", "BaaS");
 
@@ -29764,6 +29771,26 @@ namespace OverflowHelper.core
 
             correctionAdd("Un-addressed", "unaddressed");
             correctionAdd("un-addressed", "unaddressed");
+
+            correctionAdd("passportJS", "Passport.js");
+
+            correctionAdd("thrift", "Thrift");
+
+            correctionAdd("chatises", "chastises");
+
+            correctionAdd("dead reconing", "dead reckoning");
+
+            correctionAdd("etiquitte", "etiquette");
+            correctionAdd("ettiquite", "etiquette");
+            correctionAdd("etiquite", "etiquette");
+
+            correctionAdd("LFP", "lithium iron phosphate");
+            correctionAdd("LiFPo4", "lithium iron phosphate");
+            correctionAdd("LiFePO4", "lithium iron phosphate");
+
+            correctionAdd("MOD_PHP", "mod_php");
+
+            correctionAdd("over writing", "overwriting");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46823,6 +46850,22 @@ namespace OverflowHelper.core
             URL_Add("the powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
 
             URL_Add("unaddressed", "https://en.wiktionary.org/wiki/unaddress#Verb");
+
+            URL_Add("Passport.js", "http://www.passportjs.org/");
+
+            URL_Add("Thrift", "https://en.wikipedia.org/wiki/Apache_Thrift");
+
+            URL_Add("chastises", "https://en.wiktionary.org/wiki/chastise#Verb");
+
+            URL_Add("dead reckoning", "https://en.wiktionary.org/wiki/dead_reckoning#Noun");
+
+            URL_Add("etiquette", "https://en.wiktionary.org/wiki/etiquette#Noun");
+
+            URL_Add("lithium iron phosphate", "https://en.wikipedia.org/wiki/Lithium_iron_phosphate");
+
+            URL_Add("mod_php", "https://en.wikipedia.org/wiki/List_of_Apache_modules");
+
+            URL_Add("overwriting", "https://en.wiktionary.org/wiki/overwrite#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
