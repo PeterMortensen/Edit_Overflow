@@ -3111,6 +3111,8 @@ namespace OverflowHelper.core
             correctionAdd("Dependency injection", "dependency injection");
 
             correctionAdd("seo", "SEO");
+            correctionAdd("Search Engine Optimization", "SEO");
+            correctionAdd("search engine optimization", "SEO");
 
             correctionAdd("md5", "MD5");
             correctionAdd("md 5", "MD5");
@@ -10587,6 +10589,10 @@ namespace OverflowHelper.core
             correctionAdd("Schrödinger's equation", "Schrödinger equation");
             correctionAdd("Schrodinger Equation", "Schrödinger equation");
             correctionAdd("Schrodinger equation", "Schrödinger equation");
+            correctionAdd("schrodinger equation", "Schrödinger equation");
+            correctionAdd("schroedinger equation", "Schrödinger equation");
+            correctionAdd("Schroedinger equation", "Schrödinger equation");
+            correctionAdd("Schrödinger", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -12016,6 +12022,7 @@ namespace OverflowHelper.core
             correctionAdd("SOLUTION", "solution");
             correctionAdd("soution", "solution");
             correctionAdd("Solution", "solution");
+            correctionAdd("Sollution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -12565,6 +12572,7 @@ namespace OverflowHelper.core
             correctionAdd("splitted", "split");
             correctionAdd("spited", "split");
             correctionAdd("splited", "split");
+            correctionAdd("spilt", "split");
 
             correctionAdd("spontaniously", "spontaneously");
 
@@ -17861,6 +17869,7 @@ namespace OverflowHelper.core
 
             correctionAdd("orginal", "original");
             correctionAdd("orignal", "original");
+            correctionAdd("origlnal", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -20290,6 +20299,7 @@ namespace OverflowHelper.core
 
             correctionAdd("collage", "college");
             correctionAdd("colpege", "college");
+            correctionAdd("College", "college");
 
             correctionAdd("GFX", "graphics");
             correctionAdd("gfx", "graphics");
@@ -20844,6 +20854,7 @@ namespace OverflowHelper.core
             correctionAdd("reinvent the tire", "reinvent the wheel");
             correctionAdd("recreate wheel", "reinvent the wheel");
             correctionAdd("recreate the wheel", "reinvent the wheel");
+            correctionAdd("re-invent the wheel", "reinvent the wheel");
 
             // Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
             //
@@ -25178,6 +25189,7 @@ namespace OverflowHelper.core
             correctionAdd("accdient", "accident");
 
             correctionAdd("blog post", "blogpost");
+            correctionAdd("blog-post", "blogpost");
 
             correctionAdd("Integration Test", "integration testing");
             correctionAdd("Integration Testing", "integration testing");
@@ -28818,6 +28830,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ansi escape code", "ANSI escape code");
             correctionAdd("ANSI color", "ANSI escape code");
+            correctionAdd("ANSI color sequence", "ANSI escape code");
 
             correctionAdd("arabian", "Arabian");
 
@@ -29773,6 +29786,7 @@ namespace OverflowHelper.core
             correctionAdd("un-addressed", "unaddressed");
 
             correctionAdd("passportJS", "Passport.js");
+            correctionAdd("passport.js", "Passport.js");
 
             correctionAdd("thrift", "Thrift");
 
@@ -29791,6 +29805,18 @@ namespace OverflowHelper.core
             correctionAdd("MOD_PHP", "mod_php");
 
             correctionAdd("over writing", "overwriting");
+
+            correctionAdd("galilean relativity", "Galilean relativity");
+
+            correctionAdd("colision", "collision");
+
+            correctionAdd("mannged", "managed");
+
+            correctionAdd("Nirvana", "nirvana");
+
+            correctionAdd("Quantum field", "quantum field");
+
+            correctionAdd("QFT", "quantum field theory");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46866,6 +46892,18 @@ namespace OverflowHelper.core
             URL_Add("mod_php", "https://en.wikipedia.org/wiki/List_of_Apache_modules");
 
             URL_Add("overwriting", "https://en.wiktionary.org/wiki/overwrite#Verb");
+
+            URL_Add("Galilean relativity", "https://en.wikipedia.org/wiki/Galilean_invariance");
+
+            URL_Add("collision", "https://en.wiktionary.org/wiki/collision#Noun");
+
+            URL_Add("managed", "https://en.wiktionary.org/wiki/manage#Verb");
+
+            URL_Add("nirvana", "https://en.wiktionary.org/wiki/nirvana#Noun");
+
+            URL_Add("quantum field", "https://en.wikipedia.org/wiki/Quantum_field_theory");
+
+            URL_Add("quantum field theory", "https://en.wikipedia.org/wiki/Quantum_field_theory");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
