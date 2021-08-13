@@ -2395,6 +2395,7 @@ namespace OverflowHelper.core
             correctionAdd("chorme", "Google Chrome");
             correctionAdd("chorm", "Google Chrome");
             correctionAdd("chrom", "Google Chrome");
+            correctionAdd("Ch", "Google Chrome");
 
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
@@ -2987,6 +2988,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SAFARI", "Safari");
             correctionAdd("safari", "Safari");
+            correctionAdd("Saf", "Safari");
 
             correctionAdd("opera", "Opera");
             correctionAdd("OPERA", "Opera");
@@ -3113,6 +3115,7 @@ namespace OverflowHelper.core
             correctionAdd("seo", "SEO");
             correctionAdd("Search Engine Optimization", "SEO");
             correctionAdd("search engine optimization", "SEO");
+            correctionAdd("Seo", "SEO");
 
             correctionAdd("md5", "MD5");
             correctionAdd("md 5", "MD5");
@@ -4192,6 +4195,8 @@ namespace OverflowHelper.core
             correctionAdd("Wikpedia", "Wikipedia");
             correctionAdd("Wikiepedia", "Wikipedia");
             correctionAdd("WiKi", "Wikipedia");
+            correctionAdd("WIKIPEDIA", "Wikipedia");
+            correctionAdd("wikipeida", "Wikipedia");
 
             correctionAdd("HAML", "Haml");
             correctionAdd("haml", "Haml");
@@ -11219,6 +11224,7 @@ namespace OverflowHelper.core
             correctionAdd("meantine", "meantime");
 
             correctionAdd("paraghaph", "paragraph");
+            correctionAdd("pagagraph", "paragraph");
 
             correctionAdd("readonly", "read-only");
             correctionAdd("RO", "read-only");
@@ -20138,6 +20144,9 @@ namespace OverflowHelper.core
             correctionAdd("Crockford", "Douglas Crockford");
             correctionAdd("Doulas Crockford", "Douglas Crockford");
             correctionAdd("Doug Crockford", "Douglas Crockford");
+            correctionAdd("crowford", "Douglas Crockford");
+            correctionAdd("Crowford", "Douglas Crockford");
+            correctionAdd("Douglas Crowford", "Douglas Crockford");
 
             correctionAdd("grunt", "Grunt");
 
@@ -22248,6 +22257,8 @@ namespace OverflowHelper.core
             correctionAdd("qr code", "QR code");
             correctionAdd("QR-code", "QR code");
             correctionAdd("qrcode", "QR code");
+            correctionAdd("QR Code", "QR code");
+            correctionAdd("QRCode", "QR code");
 
             correctionAdd("pseudo code", "pseudocode");
             correctionAdd("Pseudo Code", "pseudocode");
@@ -25315,6 +25326,9 @@ namespace OverflowHelper.core
             correctionAdd("tyring", "tiring");
 
             correctionAdd("bbcode", "BBCode");
+            correctionAdd("BBCODE", "BBCode");
+            correctionAdd("BB code", "BBCode");
+            correctionAdd("BBcode", "BBCode");
 
             correctionAdd("B 737", "Boing 737");
             correctionAdd("B737", "Boing 737");
@@ -29817,6 +29831,28 @@ namespace OverflowHelper.core
             correctionAdd("Quantum field", "quantum field");
 
             correctionAdd("QFT", "quantum field theory");
+
+            correctionAdd("framework7", "Framework7");
+
+            correctionAdd("JS the good parts", "JavaScript: The Good Parts");
+
+            correctionAdd("joi", "Joi");
+
+            correctionAdd("Ascorbic Acid", "ascorbic acid");
+
+            correctionAdd("Folic acid", "folic acid");
+
+            correctionAdd("Functor", "functor");
+
+            correctionAdd("Glass", "glass");
+
+            correctionAdd("Titanium", "titanium");
+
+            correctionAdd("Vitamin A", "vitamin A");
+
+            correctionAdd("Vitamin B12", "vitamin B12");
+
+            correctionAdd("Vitamin C", "vitamin C");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46904,6 +46940,28 @@ namespace OverflowHelper.core
             URL_Add("quantum field", "https://en.wikipedia.org/wiki/Quantum_field_theory");
 
             URL_Add("quantum field theory", "https://en.wikipedia.org/wiki/Quantum_field_theory");
+
+            URL_Add("Framework7", "https://en.wikipedia.org/wiki/Framework7");
+
+            URL_Add("JavaScript: The Good Parts", "https://en.wikipedia.org/wiki/Douglas_Crockford#Bibliography");
+
+            URL_Add("Joi", "https://www.digitalocean.com/community/tutorials/how-to-use-joi-for-node-api-schema-validation");
+
+            URL_Add("ascorbic acid", "https://en.wikipedia.org/wiki/Vitamin_C");
+
+            URL_Add("folic acid", "https://en.wikipedia.org/wiki/Folate");
+
+            URL_Add("functor", "https://en.wikipedia.org/wiki/Functor_(functional_programming)");
+
+            URL_Add("glass", "https://en.wiktionary.org/wiki/glass#Noun");
+
+            URL_Add("titanium", "https://en.wikipedia.org/wiki/Titanium");
+
+            URL_Add("vitamin A", "https://en.wikipedia.org/wiki/Vitamin_A");
+
+            URL_Add("vitamin B12", "https://en.wikipedia.org/wiki/Vitamin_B12");
+
+            URL_Add("vitamin C", "https://en.wikipedia.org/wiki/Vitamin_C");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
