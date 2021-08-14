@@ -1248,6 +1248,7 @@ namespace OverflowHelper.core
             correctionAdd("High sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS 10.13", "macOS v10.13 (High Sierra)");
             correctionAdd("MacOS High Sierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("MacOs High Sierra", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -14590,6 +14591,7 @@ namespace OverflowHelper.core
             correctionAdd("one on one", "one-on-one");
             correctionAdd("1on1", "one-on-one");
             correctionAdd("1 on 1", "one-on-one");
+            correctionAdd("1:1", "one-on-one");
 
             correctionAdd("seam", "seem");
             correctionAdd("seep", "seem");
@@ -29853,6 +29855,17 @@ namespace OverflowHelper.core
             correctionAdd("Vitamin B12", "vitamin B12");
 
             correctionAdd("Vitamin C", "vitamin C");
+
+            correctionAdd("Hstore", "H-Store");
+
+            correctionAdd("jsonb", "JSONB");
+
+            correctionAdd("PGopen", "PostgresOpen");
+            correctionAdd("pgopen", "PostgresOpen");
+
+            correctionAdd("yup", "Yup");
+
+            correctionAdd("the benefit of the doubt", "benefit of the doubt");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46962,6 +46975,16 @@ namespace OverflowHelper.core
             URL_Add("vitamin B12", "https://en.wikipedia.org/wiki/Vitamin_B12");
 
             URL_Add("vitamin C", "https://en.wikipedia.org/wiki/Vitamin_C");
+
+            URL_Add("H-Store", "https://en.wikipedia.org/wiki/H-Store");
+
+            URL_Add("JSONB", "https://stackoverflow.com/questions/22654170/explanation-of-jsonb-introduced-by-postgresql");
+
+            URL_Add("PostgresOpen", "https://2019.postgresopen.org/about/");
+
+            URL_Add("Yup", "https://github.com/jquense/yup");
+
+            URL_Add("benefit of the doubt", "https://en.wiktionary.org/wiki/benefit_of_the_doubt#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
