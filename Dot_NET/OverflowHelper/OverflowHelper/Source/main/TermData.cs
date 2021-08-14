@@ -32447,7 +32447,7 @@ namespace OverflowHelper.core
 
             URL_Add("3ds&nbsp;Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
 
-            URL_Add("equivalent", "https://en.wiktionary.org/wiki/equivalent");
+            URL_Add("equivalent", "https://en.wiktionary.org/wiki/equivalent#Adjective"); // Old: https://en.wiktionary.org/wiki/equivalent
 
             URL_Add("Parallels", "https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac");
 
@@ -37152,13 +37152,13 @@ namespace OverflowHelper.core
 
             URL_Add("HID Macros", "http://www.hidmacros.eu/whatisit.php");
 
-            URL_Add("&nbsp;bit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("&nbsp;bit/s", "https://en.wikipedia.org/wiki/Data-rate_units"); // Old: https://en.wikipedia.org/wiki/Data_rate_units
 
-            URL_Add("&nbsp;kbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("&nbsp;kbit/s", "https://en.wikipedia.org/wiki/Data-rate_units"); // Old: https://en.wikipedia.org/wiki/Data_rate_units
 
-            URL_Add("&nbsp;Mbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("&nbsp;Mbit/s", "https://en.wikipedia.org/wiki/Data-rate_units"); // Old: https://en.wikipedia.org/wiki/Data_rate_units
 
-            URL_Add("&nbsp;Gbit/s", "https://en.wikipedia.org/wiki/Data_rate_units");
+            URL_Add("&nbsp;Gbit/s", "https://en.wikipedia.org/wiki/Data-rate_units"); // Old: https://en.wikipedia.org/wiki/Data_rate_units
 
             URL_Add("&nbsp;Hz", "https://en.wikipedia.org/wiki/Hertz");
 
