@@ -3184,6 +3184,7 @@ namespace OverflowHelper.core
             correctionAdd("w3c", "W3C");
             correctionAdd("W3c", "W3C");
             correctionAdd("W3", "W3C");
+            correctionAdd("w3C", "W3C");
 
             correctionAdd("dao", "DAO");
             correctionAdd("Dao", "DAO");
@@ -6204,6 +6205,7 @@ namespace OverflowHelper.core
             correctionAdd("Now days", "nowadays");
             correctionAdd("now-days", "nowadays");
             correctionAdd("Now a days", "nowadays");
+            correctionAdd("Nowadays", "nowadays");
 
             correctionAdd("yii", "Yii");
 
@@ -10296,6 +10298,7 @@ namespace OverflowHelper.core
             correctionAdd("eG", "for example");
             correctionAdd("for exaple", "for example");
             correctionAdd("t.ex", "for example");
+            correctionAdd("sg", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -10435,6 +10438,8 @@ namespace OverflowHelper.core
             correctionAdd("thnaks", "thanks");
             correctionAdd("tnks", "thanks");
             correctionAdd("THX", "thanks");
+            correctionAdd("tanx", "thanks");
+            correctionAdd("thanx", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -11433,6 +11438,8 @@ namespace OverflowHelper.core
 
             correctionAdd("responsability", "responsibility");
             correctionAdd("responsbility", "responsibility");
+            correctionAdd("reponsibility", "responsibility");
+            correctionAdd("responsiblity", "responsibility");
 
             correctionAdd("Silicon", "silicon");
             correctionAdd("Si", "silicon");
@@ -11618,6 +11625,7 @@ namespace OverflowHelper.core
             correctionAdd("in stead", "instead");
             correctionAdd("instad", "instead");
             correctionAdd("Intead", "instead");
+            correctionAdd("in state", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -12792,6 +12800,7 @@ namespace OverflowHelper.core
             correctionAdd("diffrance", "difference");
             correctionAdd("differance", "difference");
             correctionAdd("diffrerence", "difference");
+            correctionAdd("Diference", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -14577,6 +14586,7 @@ namespace OverflowHelper.core
             correctionAdd("everythin", "everything");
             correctionAdd("Everythink", "everything");
             correctionAdd("everythink", "everything");
+            correctionAdd("evreything", "everything");
 
             correctionAdd("thig", "thing");
             correctionAdd("thang", "thing");
@@ -16144,6 +16154,11 @@ namespace OverflowHelper.core
             correctionAdd("gb/s", "&nbsp;Gbit/s");
             correctionAdd("gbit/s", "&nbsp;Gbit/s");
             correctionAdd("GBit/s", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
 
             correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
             correctionAdd("hz", "&nbsp;Hz"); // Spelling.
@@ -16241,6 +16256,7 @@ namespace OverflowHelper.core
             correctionAdd("cors", "CORS");
 
             correctionAdd("chromium", "Chromium");
+            correctionAdd("chrom(ium)", "Chromium");
 
             correctionAdd("clojurescript", "ClojureScript");
 
@@ -16937,6 +16953,7 @@ namespace OverflowHelper.core
             correctionAdd("USB stick", "USB flash drive");
             correctionAdd("pendrive", "USB flash drive");
             correctionAdd("USB drive", "USB flash drive");
+            correctionAdd("usb stick", "USB flash drive");
 
             correctionAdd("counter part", "counterpart");
 
@@ -21735,6 +21752,7 @@ namespace OverflowHelper.core
             correctionAdd("projet", "project");
             correctionAdd("proj", "project");
             correctionAdd("projcet", "project");
+            correctionAdd("proyect", "project");
 
             correctionAdd("eol", "EOL");
             correctionAdd("End of Line", "EOL");
@@ -21978,6 +21996,7 @@ namespace OverflowHelper.core
             correctionAdd("vuepress", "VuePress");
 
             correctionAdd("aweosme", "awesome");
+            correctionAdd("aswesome", "awesome");
 
             correctionAdd("drivvel", "drivel");
 
@@ -22312,6 +22331,7 @@ namespace OverflowHelper.core
             correctionAdd("Vs Code", "Visual Studio Code");
             correctionAdd("VS-code", "Visual Studio Code");
             correctionAdd("visual sutdio code", "Visual Studio Code");
+            correctionAdd("Vs code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -22424,6 +22444,7 @@ namespace OverflowHelper.core
 
             correctionAdd("free lancing", "freelancing");
             correctionAdd("Freelancing", "freelancing");
+            correctionAdd("Free lancing", "freelancing");
 
             correctionAdd("gamechanger", "game changer");
 
@@ -22682,6 +22703,8 @@ namespace OverflowHelper.core
             correctionAdd("ecma6", "ECMAScript&nbsp;2015");
             correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
             correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es 6", "ECMAScript&nbsp;2015");
 
             correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
@@ -22824,6 +22847,8 @@ namespace OverflowHelper.core
 
             correctionAdd("scoure", "source");
             correctionAdd("sorce", "source");
+            correctionAdd("Souce", "source");
+            correctionAdd("Source", "source");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -22911,6 +22936,7 @@ namespace OverflowHelper.core
             correctionAdd("mehtod", "method");
             correctionAdd("methood", "method");
             correctionAdd("methode", "method");
+            correctionAdd("menthod", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -23140,7 +23166,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Renew", "renew");
 
-            correctionAdd("tp", "to");
+            correctionAdd("tp", "to"); // True typo
+            correctionAdd("fo", "to"); // True typo
 
             correctionAdd("unambigious", "unambiguous");
             correctionAdd("unambigous", "unambiguous");
@@ -25846,6 +25873,7 @@ namespace OverflowHelper.core
             correctionAdd("Indicated Air Speed", "indicated airspeed");
 
             correctionAdd("percent-encoded", "percent-encoding");
+            correctionAdd("percent encoding", "percent-encoding");
 
             correctionAdd("round-ish", "roundish");
 
@@ -26010,6 +26038,8 @@ namespace OverflowHelper.core
             correctionAdd("POP OS", "Pop!_OS");
             correctionAdd("Pop OS", "Pop!_OS");
             correctionAdd("pop os", "Pop!_OS");
+            correctionAdd("PopOS", "Pop!_OS");
+            correctionAdd("PopOS Linux", "Pop!_OS");
 
             correctionAdd("Sunburst", "SUNBURST");
 
@@ -27372,6 +27402,7 @@ namespace OverflowHelper.core
             correctionAdd("interactivly", "interactively");
 
             correctionAdd("kinda", "kind of");
+            correctionAdd("kind-of", "kind of");
 
             correctionAdd("night mare", "nightmare");
 
@@ -29866,6 +29897,35 @@ namespace OverflowHelper.core
             correctionAdd("yup", "Yup");
 
             correctionAdd("the benefit of the doubt", "benefit of the doubt");
+
+            correctionAdd("HTML 4.0", "HTML&nbsp;4"); // Sort of identity mapping
+            correctionAdd("HTML 4", "HTML&nbsp;4");
+            correctionAdd("HTML4", "HTML&nbsp;4");
+
+            correctionAdd("constanst", "constants");
+
+            correctionAdd("double click", "double-click");
+
+            correctionAdd("Echoes", "echoes");
+            correctionAdd("Echos", "echoes");
+            correctionAdd("echos", "echoes");
+
+            correctionAdd("egine", "engine");
+
+            correctionAdd("fixeded", "fixed");
+
+            correctionAdd("keep up appearance", "keep up appearances");
+
+            correctionAdd("metatag", "meta tag");
+
+            correctionAdd("rending", "rendering");
+
+            correctionAdd("right click", "right-click");
+            correctionAdd("Right-Click", "right-click");
+
+            correctionAdd("troubleshot", "troubleshooted");
+
+            correctionAdd("weasely", "weaselly");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46985,6 +47045,30 @@ namespace OverflowHelper.core
             URL_Add("Yup", "https://github.com/jquense/yup");
 
             URL_Add("benefit of the doubt", "https://en.wiktionary.org/wiki/benefit_of_the_doubt#Noun");
+
+            URL_Add("HTML&nbsp;4", "https://en.wikipedia.org/wiki/HTML#HTML_4");
+
+            URL_Add("constants", "https://en.wiktionary.org/wiki/constant#Noun");
+
+            URL_Add("double-click", "https://en.wiktionary.org/wiki/double-click#Verb");
+
+            URL_Add("echoes", "https://en.wiktionary.org/wiki/echo#Verb");
+
+            URL_Add("engine", "https://en.wiktionary.org/wiki/engine#Noun");
+
+            URL_Add("fixed", "https://en.wiktionary.org/wiki/fix#Verb");
+
+            URL_Add("keep up appearances", "https://en.wiktionary.org/wiki/keep_up_appearances#Verb");
+
+            URL_Add("meta tag", "https://en.wiktionary.org/wiki/meta_tag#Noun");
+
+            URL_Add("rendering", "https://en.wiktionary.org/wiki/render#Verb");
+
+            URL_Add("right-click", "https://en.wiktionary.org/wiki/right-click#Verb");
+
+            URL_Add("troubleshooted", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
+
+            URL_Add("weaselly", "https://en.wiktionary.org/wiki/weaselly#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
