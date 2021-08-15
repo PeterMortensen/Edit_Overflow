@@ -151,10 +151,29 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
+         * anAttrString: Unstructured text with one or more attributes for the      *
+         *               HTML tag - the client is responsible for formatting        *
+         *               it properly, including a leading space (an empty           *
+         *               string results in output with no spaces around             *
+         *               the starting tag)                                          *
+         *                                                                          *
+         ****************************************************************************/
+        public static string singleLineTagStrWithAttr(
+            string aTagName, string aTagContentText, string anAttrString)
+        {
+            // Example output: <div id="IndianSpace"></div>
+            // 
+            return "<" + aTagName + anAttrString + ">" + aTagContentText + 
+                   "</" + aTagName + ">";
+        }
+
+
+        /****************************************************************************
+         *                                                                          *
          ****************************************************************************/
         public static string singleLineTagStr(string aTagName, string aTagContentText)
         {
-            return "<" + aTagName + ">" + aTagContentText + "</" + aTagName + ">";
+            return singleLineTagStrWithAttr(aTagName, aTagContentText, "");
         }
 
 

@@ -255,6 +255,7 @@ namespace OverflowHelper.Tests
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
                     8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
                     93 - 93 +
+                    83 + 
                     0,
                 len,
                 "XYZ");
@@ -287,6 +288,8 @@ namespace OverflowHelper.Tests
             //       file "FixedStrings.php")
             //  +110 Added an (HTML) comment
             //   +0  For Git shenanigans...
+            //  +83  For adding an anchor to some lines in the table
+            
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...

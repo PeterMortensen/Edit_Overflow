@@ -92,8 +92,6 @@
 #   cat ~/UserProf/At_XP64/Edit_Overflow/Dot_NET_commandLine/Linux.sh | grep echo  | grep '\. ' | perl -nle 'printf "#    %2d%s\n", $1, $2 if /^echo\s+.(\d+)(.+)\.\.\./'
 
 
-
-
 echo
 echo
 echo 'Start of building Edit Overflow...'
@@ -195,7 +193,8 @@ export JAVASCRIPT_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.js
 
 
 # Fixed name, not dependent on date, etc.
-export HTML_FILE_GENERIC=$WORKFOLDER/EditOverflowList_latest.html
+export HTML_FILE_GENERIC_FILENAMEONLY=EditOverflowList_latest.html
+export HTML_FILE_GENERIC=$WORKFOLDER/$HTML_FILE_GENERIC_FILENAMEONLY
 export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
 
 
@@ -206,8 +205,6 @@ export FTP_SITE_URL='ftp://linux42.simply.com'
 export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
 
 export WEBFORM_CHECK_CMD="perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}"
-
-
 
 
 
@@ -248,6 +245,24 @@ function evaluateBuildResult()
 
 # ###########################################################################
 #
+#    $1   String 1
+#    $2   String 2
+#    $3   Build step number
+#    $4   String identifying the build step
+#
+function mustBeEqual()
+{
+    #if [ $1 == $2 ] ; evaluateBuildResult $3  $? "Two stings not equal: $1 and $2 ($4)"
+    [[ $1 == $2 ]] ; evaluateBuildResult $3  $? "two stings not equal: $1 and $2 ($4)"
+}
+
+#    $1   Build step number
+#    $2   Result code (e.g. 0 for no error)
+#    $3   String identifying the build step
+
+
+# ###########################################################################
+#
 # Helper function to reduce redundancy
 #
 function keyboardShortcutConsistencyCheck()
@@ -257,9 +272,66 @@ function keyboardShortcutConsistencyCheck()
     echo "$3. Starting keyboard shortcut consistency check for $1..."
     echo
 
-
     #perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
     ${WEBFORM_CHECK_CMD}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
+}
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy
+#
+#   $1   File name
+#
+#   $2   Identification string
+#
+#   $3   Build number
+#
+#   $4   Sub folder / URL.
+#
+#        Examples:
+#
+#          %2Fworld                     for  https://pmortensen.eu/world/FixedStrings.php?OverflowStyle=Native
+#
+#          %2FEditOverflow%2F_Wordlist  for  https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html
+#
+function HTML_validation_base()
+{
+    #echo "In HTML_validation_base()..."
+    #echo "Dollar 1: $1..."
+    #echo "Dollar 2: $2..."
+    #echo "Dollar 3: $3..."
+    #echo "Dollar 4: $4..."
+    #exit
+
+    echo
+    echo
+    echo "$3. Starting HTML validation for $1..."
+    echo
+
+    export SUBMIT_URL="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu$4%2F$1%3FOverflowStyle=Native"
+    
+    # Output the submit URL (to the W3 validator), so we can easier and faster reproduce a problem
+    echo "Submit URL for HTML validation: ${SUBMIT_URL}"
+    echo
+   
+    wget -q -O- ${SUBMIT_URL} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
+}
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy
+#
+function HTML_validation()
+{
+    #echo "In HTML_validation()..."
+    #exit
+
+    # Note: The quoting is needed, at least for "$2", so spaces
+    #       in a string are not seen as separate parameters...
+
+    HTML_validation_base "$1" "$2" "$3" '%2Fworld'
 }
 
 
@@ -291,8 +363,6 @@ function startOfBuildStep()
 
 
 
-
-
 # ###########################################################################
 startOfBuildStep "1" "Internal check of the web interface regression tests"
 
@@ -303,7 +373,8 @@ startOfBuildStep "1" "Internal check of the web interface regression tests"
 # one will be used, risking not running all of the Seleniums
 # tests (a sort of a (potential) ***false negative*** test).
 #
-#cd /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__
+#geany /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py
+#
 cd ${SELINUM_DRIVERSCRIPT_DIR}
 pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
 
@@ -373,6 +444,9 @@ cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
 #
 echo
 cd $WORKFOLDER
+
+
+
 
 
 # ###########################################################################
@@ -491,16 +565,16 @@ echo
 ls -ls $HTML_FILE_GENERIC
 
 
-
 # ###########################################################################
+#
+# That is, for keyboard shortcut and ID uniqueness
+# rules, etc. (using a Perl script).
 #
 startOfBuildStep "7" "Starting checking generated HTML"
 
 ${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 7  $? "Checking generated HTML (file ${HTML_FILE_GENERIC})"
 
 #exit   # Active: Test only!!!!!!!!!
-
-
 
 
 # ###########################################################################
@@ -619,7 +693,6 @@ keyboardShortcutConsistencyCheck EditSummaryFragments.php "edit summary"        
 
 
 
-
 # ###########################################################################
 #
 # Copy the JavaScript code (for the word list) to the public web site.
@@ -658,6 +731,39 @@ cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
 export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
 eval ${LFTP_COMMAND}  ; evaluateBuildResult 16 $? "copying the HTML word list to the web site"
+
+
+# ###########################################################################
+#
+# HTML validation, both for the semi-static HTML pages and 
+# the (generated) word list in HTML format.
+#
+HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    17
+HTML_validation      Text.php                           "Text stuff"              18
+HTML_validation      FixedStrings.php                   "Fixed strings"           19
+HTML_validation      EditSummaryFragments.php           "Edit summary fragments"  20
+
+# The URL is <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
+#
+# Sometimes we get this result:
+#
+#     503 Service Unavailable
+#     No server is available to handle this request.
+#
+HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        21  '%2FEditOverflow%2F_Wordlist'
+
+
+# ###########################################################################
+#
+# Some checks of the generated HTML:
+#
+#   1. Unique HTML anchors
+#
+#   2. XXX
+
+export MATCHING_LINES=`grep -c '<div id="Mark_Zuckerberg">'  ${HTML_FILE_GENERIC}`
+mustBeEqual ${MATCHING_LINES} 1  22   "HTML anchor is not unique"
+
 
 
 
@@ -710,7 +816,7 @@ echo
 
 # Not really a build step, but it is easier to spot if the build
 # failed or not (as we will not get here if it fails).
-startOfBuildStep "17" "End of build"
+startOfBuildStep "23" "End of build. All build steps succeeded!!"
 
 
 

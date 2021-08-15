@@ -429,20 +429,38 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         * aFirstCorrectedTerm:                                                     *
+         *                                                                          *
+         *   True for the first (correct word) in a series of one or more           *
+         *   (presumes the addTermsToOutput_HTML() call order is in a               *
+         *   sorted way, with the corrected term as the primary key).               *
+         *                                                                          *
          ****************************************************************************/
         private static void addTermsToOutput_HTML(string aBadTerm,
                                                   string aCorrectedTerm,
                                                   ref HTML_builder aInOutBuilder,
-                                                  string aURL)
+                                                  string aURL,
+                                                  bool aFirstCorrectedTerm)
         {
-            //aInOutBuilder.Append(" "); // Test only!!!!!!!!!!
+            string anchor = "";
+            if (aFirstCorrectedTerm)
+            {
+                string escapedCorrectedTerm = aCorrectedTerm.Replace(@" ", @"_");
+                                
+                string attrStr =
+                  @" id=""" + escapedCorrectedTerm + @""""; // Note: Leading space
+
+                anchor = HTML_builder.singleLineTagStrWithAttr("div", "", attrStr);
+            }
 
             aInOutBuilder.singleLineTagOnSeparateLine(
                 "tr",
                 " " +
                   HTML_builder.singleLineTagStr("td", aBadTerm) + " " +
-                  HTML_builder.singleLineTagStr("td", aCorrectedTerm) + " " +
+
+                  HTML_builder.singleLineTagStr("td", anchor + aCorrectedTerm) + " " +
+
                   HTML_builder.singleLineTagStr("td", aURL) + " "
                 );
         } //addTermsToOutput_HTML()
@@ -561,20 +579,22 @@ namespace OverflowHelper.core
 
             List<string> someKeys_incorrectTerms = sortObject.keys();
 
-            string prevCorrectTerm = "";
-
             HTML_builder builder = new HTML_builder();
             for (int i = 0; i < 3; i++)
             {
                 builder.indentLevelUp();
             }
 
+            string prevCorrectTerm = "";
             foreach (int someIndex in indexes)
             {
                 string someIncorrectTerm = someKeys_incorrectTerms[someIndex];
                 string someCorrectTerm = anIncorrect2Correct[someIncorrectTerm];
 
                 string msg = string.Empty; // Default: empty - flag for no errors.
+
+                bool firstCorrectedTerm = someCorrectTerm != prevCorrectTerm;
+
 
                 // On-the-fly check (but it would be better if
                 // this check was done at program startup)
@@ -643,7 +663,8 @@ namespace OverflowHelper.core
                             addTermsToOutput_HTML(someIncorrectTerm,
                                                   someCorrectTerm,
                                                   ref builder,
-                                                  someURL);
+                                                  someURL,
+                                                  firstCorrectedTerm);
                             break;
 
                         case wordListOutputTypeEnum.SQL:
@@ -657,15 +678,16 @@ namespace OverflowHelper.core
                             // code (and a second database lookup) for
                             // looking up the correct term), but only once.
                             //
-                            // We can rely on the sorted order, first by
-                            // incorrect and then correct. Thus, we will
+                            // Note: We can rely on the sorted order, first 
+                            // by incorrect and then correct. Thus, we will
                             // get a corrected term one or more times
                             // consecutively.
-                            if (prevCorrectTerm != someCorrectTerm)
+                            //
+                            if (firstCorrectedTerm)
                             {
-                                // "Identity mapping" - a lookup of a correct
-                                // term should also succeeed - e.g. if we only
-                                // want to get the URL.
+                                // Extra output for SQL: "Identity mapping" - a lookup 
+                                // of a correct term should also succeeed - e.g. if we 
+                                // only want to get the URL.
                                 addTermsToOutput_SQL(someCorrectTerm,
                                                      someCorrectTerm,
                                                      ref aSomeScratch,
@@ -685,11 +707,11 @@ namespace OverflowHelper.core
                             // 1. Identity mapping (so we don't need special
                             //    code for looking up correct terms)
                             //
-                            // 2. Establish the mapping from correct term to URL
+                            // 2. Establish the mapping from correct term to 
+                            //    URL (in the generated JavaScript code)
                             //
-                            if (prevCorrectTerm != someCorrectTerm)
+                            if (firstCorrectedTerm)
                             {
-
                                 // "Identity mapping" - a lookup of a correct
                                 // term should also succeeed - e.g., if we only
                                 // want to get the URL.
