@@ -223,7 +223,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                 "The YouTube formatter result was bad!")
 
 
-
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
     #

@@ -30,13 +30,18 @@
     const MAINTEXT = 'someText';
 
 
-    # For running locally on the command line, e.g. for testing 
-    # purposes (faster and without touching production)
+    # For running locally on the command line with standard a 
+    # standard HTML query string , e.g., for testing purposes 
+    # (faster and without touching production)
+    #
+    # Sample command line (note: "&" is percent encoded (as "%3F")):
+    #
+    #     wget -o __xyz5.html "https://validator.w3.org/nu/?showsource=yes%3Fdoc=https://pmortensen.eu/world/EditSummaryFragments.php%3FOverflowStyle=Native"
+    #
     if (!empty($argv[1])) {
         #parse_str($argv[1], $_GET);
         parse_str($argv[1], $_REQUEST);    
     }
-
 
 
     $formDataSizeDiff = -1;
@@ -304,7 +309,6 @@
         # But why did we have to use "%22" instead of "&quot;"???? Was it
         # due to escaping of double quote by WordPress? Or for W3C
         # validation submit to work?
-        #
         #
         # Is there a difference between HTML links ("href") and form field
         # values ("value")?? Does one need percent encoding and the other
