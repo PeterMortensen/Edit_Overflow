@@ -25906,6 +25906,8 @@ namespace OverflowHelper.core
             correctionAdd("stderr", "standard error");
             correctionAdd("STDERR", "standard error");
             correctionAdd("standard err", "standard error");
+            correctionAdd("std-err", "standard error");
+            correctionAdd("std err", "standard error");
 
             correctionAdd("erron", "error");
             correctionAdd("Error", "error");
@@ -29926,6 +29928,21 @@ namespace OverflowHelper.core
             correctionAdd("troubleshot", "troubleshooted");
 
             correctionAdd("weasely", "weaselly");
+
+            correctionAdd("Redshift", "Amazon Redshift");
+            correctionAdd("AWS redshift", "Amazon Redshift");
+            correctionAdd("AWS Redshift", "Amazon Redshift");
+
+            correctionAdd("memored", "Memored");
+
+            correctionAdd("deccelerated", "decelerated");
+
+            correctionAdd("FD", "file descriptor");
+
+            correctionAdd("inp", "input (also output)");
+            correctionAdd("i/p", "input (also output)");
+
+            correctionAdd("lengthly", "lengthy");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47069,6 +47086,18 @@ namespace OverflowHelper.core
             URL_Add("troubleshooted", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
 
             URL_Add("weaselly", "https://en.wiktionary.org/wiki/weaselly#Adjective");
+
+            URL_Add("Amazon Redshift", "https://en.wikipedia.org/wiki/Amazon_Redshift");
+
+            URL_Add("Memored", "https://github.com/PaquitoSoft/memored");
+
+            URL_Add("decelerated", "https://en.wiktionary.org/wiki/decelerate#Verb");
+
+            URL_Add("file descriptor", "https://en.wikipedia.org/wiki/File_descriptor");
+
+            URL_Add("input (also output)", "https://en.wiktionary.org/wiki/input#Noun");
+
+            URL_Add("lengthy", "https://en.wiktionary.org/wiki/lengthy#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
