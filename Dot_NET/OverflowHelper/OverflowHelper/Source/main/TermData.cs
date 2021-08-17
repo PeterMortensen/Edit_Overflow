@@ -1277,6 +1277,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOs Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("MAC Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("Mac Catalina", "macOS v10.15 (Catalina)");
+            correctionAdd("Mac (Catalina)", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -2012,6 +2013,7 @@ namespace OverflowHelper.core
             correctionAdd("Word Press", "WordPress");
             correctionAdd("WOrdpress", "WordPress");
             correctionAdd("Wp", "WordPress");
+            correctionAdd("Worpress", "WordPress");
 
             correctionAdd("ssl", "SSL");
 
@@ -13963,6 +13965,7 @@ namespace OverflowHelper.core
             correctionAdd("bottun", "button");
             correctionAdd("botton", "button");
             correctionAdd("butoon", "button");
+            correctionAdd("buuton", "button");
 
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
@@ -22978,6 +22981,9 @@ namespace OverflowHelper.core
 
             correctionAdd("same origin policy", "same-origin policy");
             correctionAdd("Same Origin Policy", "same-origin policy");
+            correctionAdd("Same-origin-policies", "same-origin policy");
+            correctionAdd("Same origin policies", "same-origin policy");
+            correctionAdd("same origin policies", "same-origin policy");
 
             correctionAdd("2nd law of Thermodynamics", "second law of thermodynamics");
 
@@ -23462,6 +23468,8 @@ namespace OverflowHelper.core
             correctionAdd("terabyte", "&nbsp;TB");
 
             correctionAdd("windows server", "Windows Server");
+            correctionAdd("Windows server", "Windows Server");
+            correctionAdd("winserver", "Windows Server");
 
             correctionAdd("windows server 2019", "Windows Server 2019");
             correctionAdd("2019 windows server", "Windows Server 2019");
@@ -25908,6 +25916,7 @@ namespace OverflowHelper.core
             correctionAdd("standard err", "standard error");
             correctionAdd("std-err", "standard error");
             correctionAdd("std err", "standard error");
+            correctionAdd("stderror", "standard error");
 
             correctionAdd("erron", "error");
             correctionAdd("Error", "error");
@@ -29943,6 +29952,27 @@ namespace OverflowHelper.core
             correctionAdd("i/p", "input (also output)");
 
             correctionAdd("lengthly", "lengthy");
+
+            correctionAdd("kernels", "CUDA kernels");
+
+            correctionAdd("CrunchBase", "Crunchbase");
+
+            correctionAdd("gid", "GID");
+
+            correctionAdd("hot corners", "Hot Corners");
+
+            correctionAdd("parquet", "Parquet");
+
+            correctionAdd("deffer", "defer");
+
+            correctionAdd("screenscrape", "screen-scrape");
+            correctionAdd("screen scrap", "screen-scrape");
+            correctionAdd("screen scrape", "screen-scrape");
+            correctionAdd("screen scrabe", "screen-scrape");
+
+            correctionAdd("Ångström", "ångström");
+            correctionAdd("Ångstrom", "ångström");
+            correctionAdd("Ångstrøm", "ångström");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47098,6 +47128,22 @@ namespace OverflowHelper.core
             URL_Add("input (also output)", "https://en.wiktionary.org/wiki/input#Noun");
 
             URL_Add("lengthy", "https://en.wiktionary.org/wiki/lengthy#Adjective");
+
+            URL_Add("CUDA kernels", "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#kernels");
+
+            URL_Add("Crunchbase", "https://en.wikipedia.org/wiki/Crunchbase");
+
+            URL_Add("GID", "https://en.wikipedia.org/wiki/Group_identifier");
+
+            URL_Add("Hot Corners", "https://citymacsite.wordpress.com/2018/07/07/hot-corners-in-macos-what-they-are-and-how-to-use-them/");
+
+            URL_Add("Parquet", "https://en.wikipedia.org/wiki/Apache_Parquet");
+
+            URL_Add("defer", "https://en.wiktionary.org/wiki/defer#Verb");
+
+            URL_Add("screen-scrape", "https://en.wiktionary.org/wiki/screen-scrape#Verb");
+
+            URL_Add("ångström", "https://en.wikipedia.org/wiki/Angstrom");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
