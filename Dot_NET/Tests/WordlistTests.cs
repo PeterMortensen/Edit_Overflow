@@ -116,7 +116,7 @@ namespace OverflowHelper.Tests
                     -3 +
                     -6 +
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
-                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline +
                     93 - 93 +
                     0,
                 len,
@@ -197,6 +197,7 @@ namespace OverflowHelper.Tests
             //Dictionary<string, string> someCaseCorrection_Reverse =
             //    new Dictionary<string, string>();
 
+
             // First
             someCaseCorrection.Add("JS", "JavaScript");
             someWord2URL.Add(
@@ -213,6 +214,8 @@ namespace OverflowHelper.Tests
             someCaseCorrection.Add("utorrent", "µTorrent");
             someWord2URL.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+
+            int incorrectWords = someCaseCorrection.Count;
 
             //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
             EditorOverflowApplication app = new EditorOverflowApplication_Unix();
@@ -239,7 +242,8 @@ namespace OverflowHelper.Tests
             // by changes (e.g. refactoring) and unintended
             // omissions deletions.
             //
-            // But it will not detect single spaces replaced by single TAB...
+            // But it will not detect single spaces 
+            // replaced by single TAB...
             //
             Assert.AreEqual(
                 3572 - 24 + 153 +
@@ -253,9 +257,10 @@ namespace OverflowHelper.Tests
                     -3 +
                     -6 +
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
-                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline + 
+                    8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline +
                     93 - 93 +
-                    83 + 
+                    83 +
+                    incorrectWords * -2 +
                     0,
                 len,
                 "XYZ");
@@ -289,7 +294,7 @@ namespace OverflowHelper.Tests
             //  +110 Added an (HTML) comment
             //   +0  For Git shenanigans...
             //  +83  For adding an anchor to some lines in the table
-            
+            //    -6 For removal of two spaces per HTML row
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
