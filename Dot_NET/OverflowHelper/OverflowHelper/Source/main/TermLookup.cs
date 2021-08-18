@@ -475,10 +475,10 @@ namespace OverflowHelper.core
                 "tr",
                    outerColumnsSeparator +
 
-                   HTML_builder.singleLineTagStr("td", aBadTerm) + 
+                   HTML_builder.singleLineTagStr("td", anchor + aBadTerm) + 
                    innerColumnsSeparator +
                    
-                   HTML_builder.singleLineTagStr("td", anchor + aCorrectedTerm) + 
+                   HTML_builder.singleLineTagStr("td", aCorrectedTerm) + 
                    innerColumnsSeparator +
                    
                    HTML_builder.singleLineTagStr("td", aURL) + 
