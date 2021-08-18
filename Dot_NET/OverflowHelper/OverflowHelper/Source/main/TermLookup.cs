@@ -446,42 +446,46 @@ namespace OverflowHelper.core
                                                   string aURL,
                                                   bool aFirstCorrectedTerm)
         {
-            // Only include the HTML anchor for the ***first*** word in a group. 
-            // It would be wasteful and would not pass HTML validation ('id' 
+            // Only include the HTML anchor for the ***first*** word in a group.
+            // It would be wasteful and would not pass HTML validation ('id'
             // must be unique).
             //
             string anchor = "";
             if (aFirstCorrectedTerm)
             {
+                // Spaces are not allowed in IDs
                 string escapedCorrectedTerm = aCorrectedTerm.Replace(@" ", @"_");
-                                
+
+                // HTML non-breaking spaces do not work to scroll in a web browser
+                escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"&nbsp;", @"_");
+
                 string attrStr =
                   @" id=""" + escapedCorrectedTerm + @""""; // Note: Leading space
 
                 anchor = HTML_builder.singleLineTagStrWithAttr("div", "", attrStr);
             }
-            
+
             string outerColumnsSeparator = " ";
 
             // Empty: We avoid extra trailing space when copy-pasting
             //        from the word list page in a web browser.
-            //string innerColumnsSeparator = " "; //It might seem like a null
+            //string innerColumnsSeparator = " ";
             string innerColumnsSeparator = ""; //It might seem like a null
-                                                //operation, but we want to
-                                                //keep the option open and
-                                                //explicit.  
+                                               //operation, but we want to
+                                               //keep the option open and
+                                               //explicit.
 
             aInOutBuilder.singleLineTagOnSeparateLine(
                 "tr",
                    outerColumnsSeparator +
 
-                   HTML_builder.singleLineTagStr("td", anchor + aBadTerm) + 
+                   HTML_builder.singleLineTagStr("td", anchor + aBadTerm) +
                    innerColumnsSeparator +
-                   
-                   HTML_builder.singleLineTagStr("td", aCorrectedTerm) + 
+
+                   HTML_builder.singleLineTagStr("td", aCorrectedTerm) +
                    innerColumnsSeparator +
-                   
-                   HTML_builder.singleLineTagStr("td", aURL) + 
+
+                   HTML_builder.singleLineTagStr("td", aURL) +
                    outerColumnsSeparator
                 );
         } //addTermsToOutput_HTML()
@@ -699,15 +703,15 @@ namespace OverflowHelper.core
                             // code (and a second database lookup) for
                             // looking up the correct term), but only once.
                             //
-                            // Note: We can rely on the sorted order, first 
+                            // Note: We can rely on the sorted order, first
                             // by incorrect and then correct. Thus, we will
                             // get a corrected term one or more times
                             // consecutively.
                             //
                             if (firstCorrectedTerm)
                             {
-                                // Extra output for SQL: "Identity mapping" - a lookup 
-                                // of a correct term should also succeeed - e.g. if we 
+                                // Extra output for SQL: "Identity mapping" - a lookup
+                                // of a correct term should also succeeed - e.g. if we
                                 // only want to get the URL.
                                 addTermsToOutput_SQL(someCorrectTerm,
                                                      someCorrectTerm,
@@ -728,7 +732,7 @@ namespace OverflowHelper.core
                             // 1. Identity mapping (so we don't need special
                             //    code for looking up correct terms)
                             //
-                            // 2. Establish the mapping from correct term to 
+                            // 2. Establish the mapping from correct term to
                             //    URL (in the generated JavaScript code)
                             //
                             if (firstCorrectedTerm)

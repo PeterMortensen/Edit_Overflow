@@ -242,7 +242,7 @@ namespace OverflowHelper.Tests
             // by changes (e.g. refactoring) and unintended
             // omissions deletions.
             //
-            // But it will not detect single spaces 
+            // But it will not detect single spaces
             // replaced by single TAB...
             //
             Assert.AreEqual(
