@@ -492,6 +492,7 @@ namespace OverflowHelper.core
             correctionAdd("phpAdmin", "phpMyAdmin");
             correctionAdd("PHPadmin", "phpMyAdmin");
             correctionAdd("PHPmyadmin", "phpMyAdmin");
+            correctionAdd("myPHPadmin", "phpMyAdmin");
 
             correctionAdd("cakePhp", "CakePHP");
             correctionAdd("cakePHP", "CakePHP");
@@ -10376,6 +10377,7 @@ namespace OverflowHelper.core
             correctionAdd("retrive", "retrieve");
             correctionAdd("retreive", "retrieve");
             correctionAdd("Retrive", "retrieve");
+            correctionAdd("reteive", "retrieve");
 
             correctionAdd("cortex-m", "Cortex-M");
             correctionAdd("Cortex-m", "Cortex-M");
@@ -11124,6 +11126,8 @@ namespace OverflowHelper.core
             correctionAdd("k8s", "Kubernetes");
             correctionAdd("K8S", "Kubernetes");
             correctionAdd("K8s", "Kubernetes");
+            correctionAdd("K8", "Kubernetes");
+            correctionAdd("k8", "Kubernetes");
 
             correctionAdd("mamp", "MAMP");
 
@@ -11227,6 +11231,7 @@ namespace OverflowHelper.core
             correctionAdd("gen", "generation");
 
             correctionAdd("lenght", "length");
+            correctionAdd("Lenght", "length");
 
             correctionAdd("mean time", "meantime");
             correctionAdd("meantine", "meantime");
@@ -14754,6 +14759,7 @@ namespace OverflowHelper.core
             correctionAdd("Therfore", "therefore");
             correctionAdd("therfore", "therefore");
             correctionAdd("theresfore", "therefore");
+            correctionAdd("therfor", "therefore");
 
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
@@ -16759,8 +16765,6 @@ namespace OverflowHelper.core
             correctionAdd("NPM", "npm");
             correctionAdd("Npm", "npm");
 
-            correctionAdd("Prime Number", "prime number");
-
             correctionAdd("seperated", "separated");
             correctionAdd("separeted", "separated");
             correctionAdd("sparted", "separated");
@@ -17158,6 +17162,7 @@ namespace OverflowHelper.core
             correctionAdd("actrocities", "atrocities");
 
             correctionAdd("collequal", "colloquial");
+            correctionAdd("collegual", "colloquial");
 
             correctionAdd("Communist", "communist");
             correctionAdd("coomunist", "communist");
@@ -20367,11 +20372,6 @@ namespace OverflowHelper.core
             correctionAdd("newtonsoft", "Newtonsoft");
             correctionAdd("NewtonSoft", "Newtonsoft");
 
-            correctionAdd("SSN", "Social Security number");
-            correctionAdd("ss#", "Social Security number");
-            correctionAdd("social security", "Social Security number");
-            correctionAdd("social security number", "Social Security number");
-
             correctionAdd("balance and checks", "checks and balances");
 
             correctionAdd("life-long", "lifelong");
@@ -21638,6 +21638,8 @@ namespace OverflowHelper.core
 
             correctionAdd("H1B", "H-1B");
             correctionAdd("h1b", "H-1B");
+            correctionAdd("H1(b)", "H-1B");
+            correctionAdd("H1b", "H-1B");
 
             correctionAdd("iso2", "ISO&nbsp;2");
             correctionAdd("ISO 2", "ISO&nbsp;2");
@@ -22902,6 +22904,9 @@ namespace OverflowHelper.core
             correctionAdd("libs", "libraries");
             correctionAdd("Libs", "libraries");
             correctionAdd("libaries", "libraries");
+            correctionAdd("libearies", "libraries");
+            correctionAdd("liberies", "libraries");
+            correctionAdd("libreries", "libraries");
 
             correctionAdd("blue pill", "Blue Pill");
             correctionAdd("blue-pill", "Blue Pill");
@@ -23356,11 +23361,6 @@ namespace OverflowHelper.core
 
             correctionAdd("delutant", "dilutant");
 
-            correctionAdd("F-stop", "f-number");
-            correctionAdd("F-number", "f-number");
-            correctionAdd("F-Stop", "f-number");
-            correctionAdd("f-stop", "f-number");
-
             correctionAdd("fear-ful", "fearful");
 
             correctionAdd("Focal Length", "focal length");
@@ -23711,8 +23711,21 @@ namespace OverflowHelper.core
             correctionAdd("mints", "minks");
             correctionAdd("minx", "minks");
 
+            correctionAdd("Prime Number", "prime number");
+
+            correctionAdd("SSN", "Social Security number");
+            correctionAdd("ss#", "Social Security number");
+            correctionAdd("social security", "Social Security number");
+            correctionAdd("social security number", "Social Security number");
+
+            correctionAdd("F-stop", "f-number");
+            correctionAdd("F-number", "f-number");
+            correctionAdd("F-Stop", "f-number");
+            correctionAdd("f-stop", "f-number");
+
             correctionAdd("num", "number");
             correctionAdd("no", "number");
+            correctionAdd("numer", "number");
 
             correctionAdd("permanantly", "permanently");
             correctionAdd("permentantly", "permanently");
@@ -29973,6 +29986,24 @@ namespace OverflowHelper.core
             correctionAdd("Ångström", "ångström");
             correctionAdd("Ångstrom", "ångström");
             correctionAdd("Ångstrøm", "ångström");
+
+            correctionAdd("kazakhstan", "Kazakhstan");
+
+            correctionAdd("kyrgyzstan", "Kyrgyzstan");
+
+            correctionAdd("tajikistan", "Tajikistan");
+
+            correctionAdd("turkmenistan", "Turkmenistan");
+
+            correctionAdd("uzbekistan", "Uzbekistan");
+
+            correctionAdd("as follow", "as follows");
+
+            correctionAdd("brain child", "brainchild");
+
+            correctionAdd("nation state", "nation-state");
+
+            correctionAdd("clamming", "claiming");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47144,6 +47175,24 @@ namespace OverflowHelper.core
             URL_Add("screen-scrape", "https://en.wiktionary.org/wiki/screen-scrape#Verb");
 
             URL_Add("ångström", "https://en.wikipedia.org/wiki/Angstrom");
+
+            URL_Add("Kazakhstan", "https://en.wikipedia.org/wiki/Kazakhstan");
+
+            URL_Add("Kyrgyzstan", "https://en.wikipedia.org/wiki/Kyrgyzstan");
+
+            URL_Add("Tajikistan", "https://en.wikipedia.org/wiki/Tajikistan");
+
+            URL_Add("Turkmenistan", "https://en.wikipedia.org/wiki/Turkmenistan");
+
+            URL_Add("Uzbekistan", "https://en.wikipedia.org/wiki/Uzbekistan");
+
+            URL_Add("as follows", "https://en.wiktionary.org/wiki/as_follows#Adverb");
+
+            URL_Add("brainchild", "https://en.wiktionary.org/wiki/brainchild#Noun");
+
+            URL_Add("nation-state", "https://en.wiktionary.org/wiki/nation-state#Noun");
+
+            URL_Add("claiming", "https://en.wiktionary.org/wiki/claiming#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
