@@ -5,13 +5,15 @@
 *                                                                          *
 * Purpose: Effectively cached lookup in Wikipedia, Wiktionary, and         *
 *          other places (by 2020 the number of new JavaScript              *
-*          libearies has grown so insane that even Wikiepdia               *
+*          libraries has grown so insane that even Wikiepdia               *
 *          can't keep up and in some cases there is only an                *
 *          illdefined README file in some obscure GitHub                   *
 *          repository).                                                    *
 *                                                                          *
 *          Opening a simple Wikipedia or Wiktionary page can be slow.      *
-*          2020-10-25T002040Z+0: 5.6 seconds with a 4G connection          *
+*          Examples:                                                       *
+*                                                                          *
+*              2020-10-25T002040Z+0: 5.6 seconds with a 4G connection      *
 *                                                                          *
 *                                                                          *
 *          E.g. "JavaScript" will return the URL                           *
@@ -432,9 +434,10 @@ namespace OverflowHelper.core
          *                                                                          *
          * aFirstCorrectedTerm:                                                     *
          *                                                                          *
-         *   True for the first (correct word) in a series of one or more           *
-         *   (presumes the addTermsToOutput_HTML() call order is in a               *
-         *   sorted way, with the corrected term as the primary key).               *
+         *   True for the first (correct) word in a series of one or more           *
+         *   (correct) words (presumes the 'addTermsToOutput_HTML' call             *
+         *   order is in a sorted way, with the corrected term as the               *
+         *   primary key).                                                          *
          *                                                                          *
          ****************************************************************************/
         private static void addTermsToOutput_HTML(string aBadTerm,
@@ -443,6 +446,10 @@ namespace OverflowHelper.core
                                                   string aURL,
                                                   bool aFirstCorrectedTerm)
         {
+            // Only include the HTML anchor for the ***first*** word in a group. 
+            // It would be wasteful and would not pass HTML validation ('id' 
+            // must be unique).
+            //
             string anchor = "";
             if (aFirstCorrectedTerm)
             {
@@ -453,15 +460,29 @@ namespace OverflowHelper.core
 
                 anchor = HTML_builder.singleLineTagStrWithAttr("div", "", attrStr);
             }
+            
+            string outerColumnsSeparator = " ";
+
+            // Empty: We avoid extra trailing space when copy-pasting
+            //        from the word list page in a web browser.
+            //string innerColumnsSeparator = " "; //It might seem like a null
+            string innerColumnsSeparator = ""; //It might seem like a null
+                                                //operation, but we want to
+                                                //keep the option open and
+                                                //explicit.  
 
             aInOutBuilder.singleLineTagOnSeparateLine(
                 "tr",
-                " " +
-                  HTML_builder.singleLineTagStr("td", aBadTerm) + " " +
+                   outerColumnsSeparator +
 
-                  HTML_builder.singleLineTagStr("td", anchor + aCorrectedTerm) + " " +
-
-                  HTML_builder.singleLineTagStr("td", aURL) + " "
+                   HTML_builder.singleLineTagStr("td", aBadTerm) + 
+                   innerColumnsSeparator +
+                   
+                   HTML_builder.singleLineTagStr("td", anchor + aCorrectedTerm) + 
+                   innerColumnsSeparator +
+                   
+                   HTML_builder.singleLineTagStr("td", aURL) + 
+                   outerColumnsSeparator
                 );
         } //addTermsToOutput_HTML()
 
