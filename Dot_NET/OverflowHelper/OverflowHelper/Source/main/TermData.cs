@@ -2887,6 +2887,8 @@ namespace OverflowHelper.core
             correctionAdd("overstackflow", "Stack&nbsp;Overflow");
             correctionAdd("StackOvertflow", "Stack&nbsp;Overflow");
             correctionAdd("STACK OVERFLOW", "Stack&nbsp;Overflow");
+            correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -3342,6 +3344,7 @@ namespace OverflowHelper.core
             correctionAdd("distor", "distribution"); // Misspelling. Expansion.
             correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
             correctionAdd("Distros", "distribution");
+            correctionAdd("distritutions", "distribution");
 
             correctionAdd("soap", "SOAP");
             correctionAdd("Soap", "SOAP");
@@ -4359,6 +4362,7 @@ namespace OverflowHelper.core
             correctionAdd("arguement", "argument");
             correctionAdd("Arg", "argument");
             correctionAdd("arugment", "argument");
+            correctionAdd("arrgument", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -4901,6 +4905,7 @@ namespace OverflowHelper.core
             correctionAdd("tutiorial", "tutorial"); // Misspelling
             correctionAdd("toutoriall", "tutorial");
             correctionAdd("toutorial", "tutorial");
+            correctionAdd("Tutorial", "tutorial");
 
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
@@ -5041,6 +5046,8 @@ namespace OverflowHelper.core
             correctionAdd("Visual Basic .Net", "VB.NET");
             correctionAdd("Visual Basic .NET", "VB.NET");
             correctionAdd("VB .NET", "VB.NET");
+            correctionAdd("Visual Basic.net", "VB.NET");
+            correctionAdd("Visual Basic .net", "VB.NET");
 
             correctionAdd("VB6", "Visual Basic 6.0");
             correctionAdd("vb6", "Visual Basic 6.0");
@@ -10383,6 +10390,7 @@ namespace OverflowHelper.core
             correctionAdd("Cortex-m", "Cortex-M");
             correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
             correctionAdd("Cortex M", "Cortex-M");
+            correctionAdd("ARM cortex-m", "Cortex-M");
 
             correctionAdd("sims", "seems");
             correctionAdd("seams", "seems");
@@ -12113,6 +12121,8 @@ namespace OverflowHelper.core
             correctionAdd("Server 2016", "Windows Server 2016");
             correctionAdd("windows server 2016", "Windows Server 2016");
             correctionAdd("2016 Windows Server", "Windows Server 2016");
+            correctionAdd("Windows Server/10", "Windows Server 2016");
+            correctionAdd("Windows 10 Server", "Windows Server 2016");
 
             correctionAdd("appriciated", "appreciated");
             correctionAdd("appericated", "appreciated");
@@ -14997,6 +15007,7 @@ namespace OverflowHelper.core
             correctionAdd("norwegian", "Norwegian");
 
             correctionAdd("activally", "actively");
+            correctionAdd("activly", "actively");
 
             correctionAdd("color", "colour");
 
@@ -15497,6 +15508,7 @@ namespace OverflowHelper.core
             correctionAdd("freenode", "Freenode");
 
             correctionAdd("PPA", "Personal Package Archive");
+            correctionAdd("ppa", "Personal Package Archive");
 
             correctionAdd("VC6", "Visual C++ 6.0");
 
@@ -18065,6 +18077,7 @@ namespace OverflowHelper.core
             correctionAdd("lite", "light");
             correctionAdd("ligth", "light");
             correctionAdd("ligt", "light");
+            correctionAdd("lignt", "light");
 
             correctionAdd("Umlaut", "umlaut");
 
@@ -21424,6 +21437,8 @@ namespace OverflowHelper.core
             correctionAdd("from one hand", "on the one hand");
             correctionAdd("On the one hand", "on the one hand");
             correctionAdd("On one hand", "on the one hand");
+            correctionAdd("In one hand", "on the one hand");
+            correctionAdd("in one hand", "on the one hand");
 
             correctionAdd("upderstand", "understand");
             correctionAdd("understang", "understand");
@@ -21607,6 +21622,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cse", "case");
             correctionAdd("casse", "case");
+            correctionAdd("cae", "case");
 
             correctionAdd("Fall", "fall");
 
@@ -27865,6 +27881,7 @@ namespace OverflowHelper.core
             correctionAdd("copule", "couple");
 
             correctionAdd("electromagnatic", "electromagnetic");
+            correctionAdd("Electro-Magnetic", "electromagnetic");
 
             correctionAdd("establishe", "establish");
 
@@ -30004,6 +30021,32 @@ namespace OverflowHelper.core
             correctionAdd("nation state", "nation-state");
 
             correctionAdd("clamming", "claiming");
+
+            correctionAdd("cypher", "Cypher");
+
+            correctionAdd("Windows Nano server", "Microsoft Nano Server");
+            correctionAdd("Windows Nano", "Microsoft Nano Server");
+
+            correctionAdd("OL", "Oracle Linux");
+            correctionAdd("oracle linux", "Oracle Linux");
+
+            correctionAdd("QuickBasic", "QuickBASIC");
+            correctionAdd("quick basic", "QuickBASIC");
+            correctionAdd("Quick Basic", "QuickBASIC");
+
+            correctionAdd("vala", "Vala");
+
+            correctionAdd("buffled", "baffled");
+
+            correctionAdd("confliction", "conflict");
+
+            correctionAdd("conumdrum", "conundrum");
+
+            correctionAdd("Electro-Magnetic field", "electromagnetic field");
+
+            correctionAdd("realeased", "released");
+
+            correctionAdd("Speed of light", "speed of light");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47193,6 +47236,28 @@ namespace OverflowHelper.core
             URL_Add("nation-state", "https://en.wiktionary.org/wiki/nation-state#Noun");
 
             URL_Add("claiming", "https://en.wiktionary.org/wiki/claiming#Verb");
+
+            URL_Add("Cypher", "https://en.wikipedia.org/wiki/Cypher_(query_language)");
+
+            URL_Add("Microsoft Nano Server", "https://en.wikipedia.org/wiki/Windows_Server_2016#Nano_Server");
+
+            URL_Add("Oracle Linux", "https://en.wikipedia.org/wiki/Oracle_Linux");
+
+            URL_Add("QuickBASIC", "https://en.wikipedia.org/wiki/QuickBASIC");
+
+            URL_Add("Vala", "https://en.wikipedia.org/wiki/Vala_(programming_language)");
+
+            URL_Add("baffled", "https://en.wiktionary.org/wiki/baffled#Adjective");
+
+            URL_Add("conflict", "https://en.wiktionary.org/wiki/conflict#Noun");
+
+            URL_Add("conundrum", "https://en.wiktionary.org/wiki/conundrum#Noun");
+
+            URL_Add("electromagnetic field", "https://en.wikipedia.org/wiki/Electromagnetic_field");
+
+            URL_Add("released", "https://en.wiktionary.org/wiki/release#Verb");
+
+            URL_Add("speed of light", "https://en.wikipedia.org/wiki/Speed_of_light");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
