@@ -30,8 +30,8 @@
     const MAINTEXT = 'someText';
 
 
-    # For running locally on the command line with standard a 
-    # standard HTML query string , e.g., for testing purposes 
+    # For running locally on the command line with standard a
+    # standard HTML query string , e.g., for testing purposes
     # (faster and without touching production)
     #
     # Sample command line (note: "&" is percent encoded (as "%3F")):
@@ -40,7 +40,7 @@
     #
     if (!empty($argv[1])) {
         #parse_str($argv[1], $_GET);
-        parse_str($argv[1], $_REQUEST);    
+        parse_str($argv[1], $_REQUEST);
     }
 
 
@@ -55,7 +55,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a98 2021-07-21T105605Z+0";
+        return "Edit Overflow v. 1.1.49a99 2021-08-19T102514Z+0";
     }
 
 
@@ -447,8 +447,8 @@
         # converted first.
         #
         #if (! 0) # If we remove common leading spaces first (as in
-        if ($replacer->match("\d+:\d+\s")) 
-        
+        if ($replacer->match("\d+:\d+\s"))
+
                  # If we remove common leading spaces first (as in
                  # our keyboard macro), then we don't need
                  # to explicitly detect (exclude) lines with
@@ -460,16 +460,16 @@
             #       of lines as we use multi-line mode
             #$replacer->transform("\r\n{4,4}", "\r\n");
             #$replacer->transform("\r\n    ", "\r\n");
-            
-            
-            # Remove threes space from non-timestamp lines. It 
+
+
+            # Remove threes space from non-timestamp lines. It
             # is to adjust for the total effect of:
             #
-            #   1) adjust for the reduction in space of the 
-            #      timestamp encoding (e.g. from 
+            #   1) adjust for the reduction in space of the
+            #      timestamp encoding (e.g. from
             #      "04 min 17 secs" to "04:17")
             #
-            #   2) Much smaller size of spaces compared 
+            #   2) Much smaller size of spaces compared
             #      to letters, numbers, etc.
             #
             $replacer->transform("\r\n   ", "\r\n");
