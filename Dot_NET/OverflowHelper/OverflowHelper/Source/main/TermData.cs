@@ -3238,6 +3238,8 @@ namespace OverflowHelper.core
 
             correctionAdd("dom", "DOM");
             correctionAdd("Dom", "DOM");
+            correctionAdd("Document Object Model", "DOM");
+            correctionAdd("document object model", "DOM");
 
             correctionAdd("latex", "LaTeX");
             correctionAdd("Latex", "LaTeX");
@@ -15929,6 +15931,7 @@ namespace OverflowHelper.core
             correctionAdd("princeton", "Princeton");
 
             correctionAdd("zookeeper", "ZooKeeper");
+            correctionAdd("Zookeeper", "ZooKeeper");
 
             correctionAdd("appologize", "apologise");
             correctionAdd("apologize", "apologise");
@@ -20527,6 +20530,7 @@ namespace OverflowHelper.core
             correctionAdd("strcutured", "structured");
 
             correctionAdd("irrelvant", "irrelevant");
+            correctionAdd("irrelavant", "irrelevant");
 
             correctionAdd("relevent", "relevant");
             correctionAdd("relavent", "relevant");
@@ -25553,6 +25557,8 @@ namespace OverflowHelper.core
             correctionAdd("inculate", "insulate");
 
             correctionAdd("JEdit", "jEdit");
+            correctionAdd("jedit", "jEdit");
+            correctionAdd("Jedit", "jEdit");
 
             correctionAdd("mantiss", "mantissa");
 
@@ -30047,6 +30053,28 @@ namespace OverflowHelper.core
             correctionAdd("realeased", "released");
 
             correctionAdd("Speed of light", "speed of light");
+
+            correctionAdd("BC Canada", "British Columbia, Canada");
+
+            correctionAdd("elvis", "Elvis");
+
+            correctionAdd("F1", "Formula One");
+            correctionAdd("formula one", "Formula One");
+            correctionAdd("formula 1", "Formula One");
+            correctionAdd("Formula 1", "Formula One");
+
+            correctionAdd("Vista Ultimate", "Windows Vista Ultimate");
+
+            correctionAdd("definies", "defines");
+
+            correctionAdd("every once and a while", "every once in a while");
+
+            correctionAdd("feedreader", "feed reader");
+
+            correctionAdd("loocking", "looking");
+            correctionAdd("locking", "looking");
+
+            correctionAdd("radiobutton", "radio button");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47258,6 +47286,24 @@ namespace OverflowHelper.core
             URL_Add("released", "https://en.wiktionary.org/wiki/release#Verb");
 
             URL_Add("speed of light", "https://en.wikipedia.org/wiki/Speed_of_light");
+
+            URL_Add("British Columbia, Canada", "https://en.wikipedia.org/wiki/British_Columbia");
+
+            URL_Add("Elvis", "https://en.wikipedia.org/wiki/Elvis_(text_editor)");
+
+            URL_Add("Formula One", "https://en.wikipedia.org/wiki/Formula_One");
+
+            URL_Add("Windows Vista Ultimate", "https://en.wikipedia.org/wiki/Windows_Vista_editions#Editions_for_personal_computers");
+
+            URL_Add("defines", "https://en.wiktionary.org/wiki/define#Verb");
+
+            URL_Add("every once in a while", "https://en.wiktionary.org/wiki/every_once_in_a_while#Adverb");
+
+            URL_Add("feed reader", "https://en.wikipedia.org/wiki/News_aggregator");
+
+            URL_Add("looking", "https://en.wiktionary.org/wiki/look#Verb");
+
+            URL_Add("radio button", "https://en.wikipedia.org/wiki/Radio_button");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
