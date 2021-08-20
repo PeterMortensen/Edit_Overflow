@@ -118,6 +118,7 @@ namespace OverflowHelper.Tests
                     5 * -6 +  // 5 is 3 + 2 (3 is number of items and 2 is fixed)
                     8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline +
                     93 - 93 +
+                    2 +
                     0,
                 len,
                 "XYZ");
@@ -165,7 +166,8 @@ namespace OverflowHelper.Tests
             //       HTML (***not*** trying to match the indentation in
             //       file "FixedStrings.php")
             //  +110 Added an (HTML) comment
-            //   +0  For Git shenanigans...
+            //    +0 For Git shenanigans...
+            //    +2 For alfa version 99 -> 100...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -261,6 +263,7 @@ namespace OverflowHelper.Tests
                     93 - 93 +
                     83 +
                     incorrectWords * -2 +
+                    2 +
                     0,
                 len,
                 "XYZ");
@@ -292,9 +295,10 @@ namespace OverflowHelper.Tests
             //       HTML (***not*** trying to match the indentation in
             //       file "FixedStrings.php")
             //  +110 Added an (HTML) comment
-            //   +0  For Git shenanigans...
-            //  +83  For adding an anchor to some lines in the table
+            //    +0 For Git shenanigans...
+            //   +83 For adding an anchor to some lines in the table
             //    -6 For removal of two spaces per HTML row
+            //    +2 For alfa version 99 -> 100...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
