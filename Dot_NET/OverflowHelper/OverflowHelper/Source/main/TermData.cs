@@ -757,6 +757,8 @@ namespace OverflowHelper.core
             correctionAdd("sql 2016", "SQL Server 2016");
             correctionAdd("SQL 2016", "SQL Server 2016");
             correctionAdd("MSSQL-2016", "SQL Server 2016");
+            correctionAdd("SqlServer 2016", "SQL Server 2016");
+            correctionAdd("Sql Server 2016", "SQL Server 2016");
 
             correctionAdd("sql ce", "SQL Server Compact");
             correctionAdd("SQL compact", "SQL Server Compact");
@@ -12055,6 +12057,7 @@ namespace OverflowHelper.core
             correctionAdd("soution", "solution");
             correctionAdd("Solution", "solution");
             correctionAdd("Sollution", "solution");
+            correctionAdd("Soution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -17173,6 +17176,8 @@ namespace OverflowHelper.core
             correctionAdd("kolkata", "Kolkata");
 
             correctionAdd("acknowledgement", "acknowledgment");
+            correctionAdd("acknowledegement", "acknowledgment");
+            correctionAdd("acknowledegment", "acknowledgment");
 
             correctionAdd("actrocities", "atrocities");
 
@@ -18290,6 +18295,12 @@ namespace OverflowHelper.core
 
             correctionAdd("sql server 2017", "SQL Server 2017");
             correctionAdd("SQL server 2017", "SQL Server 2017");
+            correctionAdd("MS-SQL 2017", "SQL Server 2017");
+            correctionAdd("MS SQL 2017", "SQL Server 2017");
+            correctionAdd("SQL 2017", "SQL Server 2017");
+            correctionAdd("MSSQL 2017", "SQL Server 2017");
+            correctionAdd("ms sql Server 2017", "SQL Server 2017");
+            correctionAdd("sql Server 2017", "SQL Server 2017");
 
             correctionAdd("sql server 2019", "SQL Server 2019");
             correctionAdd("SQL server 2019", "SQL Server 2019");
@@ -19100,6 +19111,8 @@ namespace OverflowHelper.core
             correctionAdd("WebCam", "webcam");
 
             correctionAdd("802.11 b", "802.11b");
+            correctionAdd("802.1b", "802.11b");
+            correctionAdd("802.1 b", "802.11b");
 
             correctionAdd("802.11 g", "802.11g");
 
@@ -29903,6 +29916,8 @@ namespace OverflowHelper.core
             correctionAdd("galilean relativity", "Galilean relativity");
 
             correctionAdd("colision", "collision");
+            correctionAdd("collission", "collision");
+            correctionAdd("colission", "collision");
 
             correctionAdd("mannged", "managed");
 
@@ -30075,6 +30090,18 @@ namespace OverflowHelper.core
             correctionAdd("locking", "looking");
 
             correctionAdd("radiobutton", "radio button");
+
+            correctionAdd("11ac", "802.11ac");
+
+            correctionAdd("11ax", "802.11ax");
+
+            correctionAdd("faraday cage", "Faraday cage");
+
+            correctionAdd("MU-MIMO", "Multi-user MIMO");
+
+            correctionAdd("CTE", "common table expression");
+
+            correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47304,6 +47331,18 @@ namespace OverflowHelper.core
             URL_Add("looking", "https://en.wiktionary.org/wiki/look#Verb");
 
             URL_Add("radio button", "https://en.wikipedia.org/wiki/Radio_button");
+
+            URL_Add("802.11ac", "https://en.wikipedia.org/wiki/IEEE_802.11ac-2013");
+
+            URL_Add("802.11ax", "https://en.wikipedia.org/wiki/Wi-Fi_6");
+
+            URL_Add("Faraday cage", "https://en.wikipedia.org/wiki/Faraday_cage");
+
+            URL_Add("Multi-user MIMO", "https://en.wikipedia.org/wiki/Multi-user_MIMO");
+
+            URL_Add("common table expression", "https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression");
+
+            URL_Add("orthogonal frequency-division multiple access", "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
