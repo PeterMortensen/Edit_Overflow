@@ -1066,6 +1066,7 @@ namespace OverflowHelper.core
             correctionAdd("osX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("OS x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MaxOSX", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("MAC X", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
@@ -4367,6 +4368,7 @@ namespace OverflowHelper.core
             correctionAdd("Arg", "argument");
             correctionAdd("arugment", "argument");
             correctionAdd("arrgument", "argument");
+            correctionAdd("argumet", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -6614,6 +6616,8 @@ namespace OverflowHelper.core
             correctionAdd("reccomened", "recommend");
 
             correctionAdd("PDT", "PHP Development Tools");
+            correctionAdd("eclipse pdt", "PHP Development Tools");
+            correctionAdd("pdt", "PHP Development Tools");
 
             correctionAdd("priv", "privilege");
             correctionAdd("priveledges", "privilege"); // Not 100% correct - plural.
@@ -7646,6 +7650,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
             correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
 
             correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
             correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
@@ -11233,6 +11238,7 @@ namespace OverflowHelper.core
             correctionAdd("Nuff", "enough");
             correctionAdd("nuff", "enough");
             correctionAdd("anough", "enough");
+            correctionAdd("enaought", "enough");
 
             correctionAdd("exisiting", "existing");
             correctionAdd("exsiting", "existing");
@@ -12424,6 +12430,7 @@ namespace OverflowHelper.core
             correctionAdd("dafault", "default");
             correctionAdd("deafault", "default");
             correctionAdd("defalut", "default");
+            correctionAdd("defauls", "default");
 
             correctionAdd("4th", "fourth");
 
@@ -13638,6 +13645,9 @@ namespace OverflowHelper.core
             correctionAdd("object orientated", "object-oriented");
             correctionAdd("object oriented", "object-oriented");
             correctionAdd("Object orientated", "object-oriented");
+            correctionAdd("Object Orientated", "object-oriented");
+            correctionAdd("Object-Orientated", "object-oriented");
+            correctionAdd("object-orientated", "object-oriented");
 
             correctionAdd("obselete", "obsolete");
 
@@ -17872,6 +17882,8 @@ namespace OverflowHelper.core
             correctionAdd("criticize", "criticise");
 
             correctionAdd("ExFat", "exFAT");
+            correctionAdd("exfat", "exFAT");
+            correctionAdd("EXFAT", "exFAT");
 
             correctionAdd("humor", "humour");
             correctionAdd("homour", "humour");
@@ -21398,6 +21410,7 @@ namespace OverflowHelper.core
             correctionAdd("upi", "you"); // A true typo (of all three letters)!!!
             correctionAdd("You", "you");
             correctionAdd("tou", "you");
+            correctionAdd("Yu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -21463,6 +21476,7 @@ namespace OverflowHelper.core
             correctionAdd("undertand", "understand");
             correctionAdd("undertsand", "understand");
             correctionAdd("undestand", "understand");
+            correctionAdd("understrand", "understand");
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
@@ -23424,6 +23438,7 @@ namespace OverflowHelper.core
             correctionAdd("ltr", "long-term relationship");
 
             correctionAdd("new fangled", "newfangled");
+            correctionAdd("new-fangled", "newfangled");
 
             correctionAdd("over interpretation", "overinterpretation");
 
@@ -23871,6 +23886,7 @@ namespace OverflowHelper.core
             correctionAdd("Transverse", "transverse");
 
             correctionAdd("vga", "VGA");
+            correctionAdd("Vga", "VGA");
 
             correctionAdd("charachter set", "character set");
             correctionAdd("charachterSet", "character set");
@@ -26080,6 +26096,8 @@ namespace OverflowHelper.core
             correctionAdd("N O I C E", "nice");
 
             correctionAdd("snap shot", "snapshot");
+            correctionAdd("shap shot", "snapshot");
+            correctionAdd("shapshot", "snapshot");
 
             correctionAdd("util", "utility");
 
@@ -27851,6 +27869,7 @@ namespace OverflowHelper.core
             correctionAdd("happenning", "happening");
             correctionAdd("happeneing", "happening");
             correctionAdd("happenening", "happening");
+            correctionAdd("hapenning", "happening");
 
             correctionAdd("helpt", "helped");
 
@@ -27871,6 +27890,7 @@ namespace OverflowHelper.core
             correctionAdd("thingamajig", "thingamajiggy");
             correctionAdd("thingamadigi", "thingamajiggy");
             correctionAdd("thingamabob", "thingamajiggy");
+            correctionAdd("thingamagic", "thingamajiggy");
 
             correctionAdd("input", "input (HTML form)");
 
@@ -29294,6 +29314,7 @@ namespace OverflowHelper.core
             correctionAdd("byobu", "Byobu");
 
             correctionAdd("gson", "Gson");
+            correctionAdd("GSON", "Gson");
 
             correctionAdd("population I", "Population I stars");
 
@@ -30102,6 +30123,42 @@ namespace OverflowHelper.core
             correctionAdd("CTE", "common table expression");
 
             correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
+
+            correctionAdd("CDT", "Eclipse CDT");
+            correctionAdd("Eclipse/CDT", "Eclipse CDT");
+
+            correctionAdd("Linpack", "LINPACK");
+
+            correctionAdd("Missisippi", "Mississippi");
+            correctionAdd("missisippi", "Mississippi");
+
+            correctionAdd("phpcli", "PHP CLI");
+
+            correctionAdd("Server Application Programming Interface", "SAPI");
+
+            correctionAdd("sun microsystems", "Sun Microsystems");
+
+            correctionAdd("BUS error", "bus error");
+
+            correctionAdd("careffully", "carefully");
+
+            correctionAdd("coma", "comma");
+
+            correctionAdd("convertor", "converter");
+
+            correctionAdd("eliptical", "elliptical");
+            correctionAdd("elipitcal", "elliptical");
+
+            correctionAdd("formater", "formatter");
+            correctionAdd("Formater", "formatter");
+
+            correctionAdd("geives", "gives");
+
+            correctionAdd("mis-align", "misalign");
+
+            correctionAdd("mis-aligned", "misaligned");
+
+            correctionAdd("pro-active", "proactive");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47343,6 +47400,38 @@ namespace OverflowHelper.core
             URL_Add("common table expression", "https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression");
 
             URL_Add("orthogonal frequency-division multiple access", "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access");
+
+            URL_Add("Eclipse CDT", "https://en.wikipedia.org/wiki/Eclipse_(software)");
+
+            URL_Add("LINPACK", "https://en.wikipedia.org/wiki/LINPACK");
+
+            URL_Add("Mississippi", "https://en.wikipedia.org/wiki/Mississippi");
+
+            URL_Add("PHP CLI", "http://php-cli.com/");
+
+            URL_Add("SAPI", "https://en.wikipedia.org/wiki/Server_Application_Programming_Interface");
+
+            URL_Add("Sun Microsystems", "https://en.wikipedia.org/wiki/Sun_Microsystems");
+
+            URL_Add("bus error", "https://en.wikipedia.org/wiki/Bus_error");
+
+            URL_Add("carefully", "https://en.wiktionary.org/wiki/carefully#Adverb");
+
+            URL_Add("comma", "https://en.wiktionary.org/wiki/comma#Noun");
+
+            URL_Add("converter", "https://en.wiktionary.org/wiki/converter#Noun");
+
+            URL_Add("elliptical", "https://en.wiktionary.org/wiki/elliptical#Adjective");
+
+            URL_Add("formatter", "https://en.wiktionary.org/wiki/formatter#Noun");
+
+            URL_Add("gives", "https://en.wiktionary.org/wiki/give#Verb");
+
+            URL_Add("misalign", "https://en.wiktionary.org/wiki/misalign#Verb");
+
+            URL_Add("misaligned", "https://en.wiktionary.org/wiki/misaligned#Adjective");
+
+            URL_Add("proactive", "https://en.wiktionary.org/wiki/proactive#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
