@@ -16285,6 +16285,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Android 2.0", "Android 2.0 (Eclair)");
             correctionAdd("Android 2", "Android 2.0 (Eclair)");
+            correctionAdd("Eclair", "Android 2.0 (Eclair)");
+            correctionAdd("eclair", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.1", "Android 2.0 (Eclair)");
+            correctionAdd("Android 2.1", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.0", "Android 2.0 (Eclair)");
 
             correctionAdd("blogspot", "BlogSpot");
 
@@ -21461,6 +21466,8 @@ namespace OverflowHelper.core
             correctionAdd("OTOH", "on the other hand");
             correctionAdd("otoh", "on the other hand");
             correctionAdd("on the hand", "on the other hand");
+            correctionAdd("On the other side", "on the other hand");
+            correctionAdd("on the other side", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -24380,6 +24387,7 @@ namespace OverflowHelper.core
             correctionAdd("Web Browser", "web browser");
             correctionAdd("Web-Browser", "web browser");
             correctionAdd("webbrowser", "web browser");
+            correctionAdd("WebBrowser", "web browser");
 
             correctionAdd("check box", "checkbox");
             correctionAdd("check-box", "checkbox");
@@ -26287,6 +26295,7 @@ namespace OverflowHelper.core
             correctionAdd("human like", "humanlike");
 
             correctionAdd("includin", "including");
+            correctionAdd("inc", "including");
 
             correctionAdd("N-channel MOSFET", "n-channel MOSFET");
             correctionAdd("N-Channel MOSFET", "n-channel MOSFET");
@@ -30159,6 +30168,16 @@ namespace OverflowHelper.core
             correctionAdd("mis-aligned", "misaligned");
 
             correctionAdd("pro-active", "proactive");
+
+            correctionAdd("BlackBerryOS", "BlackBerry OS");
+
+            correctionAdd("connect-AzureAD", "Connect-AzureAD");
+
+            correctionAdd("pyshark", "PyShark");
+
+            correctionAdd("ation", "action");
+
+            correctionAdd("backdoor", "back door");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47432,6 +47451,16 @@ namespace OverflowHelper.core
             URL_Add("misaligned", "https://en.wiktionary.org/wiki/misaligned#Adjective");
 
             URL_Add("proactive", "https://en.wiktionary.org/wiki/proactive#Adjective");
+
+            URL_Add("BlackBerry OS", "https://en.wikipedia.org/wiki/BlackBerry_OS");
+
+            URL_Add("Connect-AzureAD", "https://docs.microsoft.com/en-us/powershell/module/azuread/connect-azuread");
+
+            URL_Add("PyShark", "https://kiminewt.github.io/pyshark/");
+
+            URL_Add("action", "https://en.wiktionary.org/wiki/action#Noun");
+
+            URL_Add("back door", "https://en.wiktionary.org/wiki/back_door#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
