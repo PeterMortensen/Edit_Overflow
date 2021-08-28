@@ -4989,6 +4989,7 @@ namespace OverflowHelper.core
             correctionAdd("base-64", "Base64");
             correctionAdd("Base 64", "Base64");
             correctionAdd("B64", "Base64");
+            correctionAdd("bas64", "Base64");
 
             correctionAdd("Windows CE", "Windows&nbsp;CE"); // Sort of identity mapping
             correctionAdd("WinCE", "Windows&nbsp;CE");
@@ -10739,6 +10740,7 @@ namespace OverflowHelper.core
             correctionAdd("Instaltaion", "installation"); // Not 100% correct - case.
             correctionAdd("instaltaion", "installation");
             correctionAdd("instalation", "installation");
+            correctionAdd("insallation", "installation");
 
             correctionAdd("openbsd", "OpenBSD");
 
@@ -18389,9 +18391,6 @@ namespace OverflowHelper.core
             correctionAdd("hardcoded", "hard coded");
             correctionAdd("hardcore", "hard coded");
 
-            correctionAdd("intance", "instance");
-            correctionAdd("instace", "instance");
-
             correctionAdd("Apache commons", "Apache Commons");
             correctionAdd("apache commons", "Apache Commons");
 
@@ -21664,8 +21663,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Fall", "fall");
 
+            correctionAdd("intance", "instance");
+            correctionAdd("instace", "instance");
+            correctionAdd("instacnce", "instance");
+            correctionAdd("instancce", "instance");
+
             correctionAdd("for intstance", "for instance");
             correctionAdd("For intstance", "for instance");
+            correctionAdd("for instacnce", "for instance");
 
             correctionAdd("rgeular", "regular");
             correctionAdd("regullar", "regular");
@@ -22118,6 +22123,7 @@ namespace OverflowHelper.core
             correctionAdd("MX Blue", "Cherry MX Blue");
             correctionAdd("MX blue", "Cherry MX Blue");
             correctionAdd("Cherry MX blue", "Cherry MX Blue");
+            correctionAdd("Cherry Blue", "Cherry MX Blue");
 
             correctionAdd("occam's razor", "Occam's razor");
             correctionAdd("Occams Razor", "Occam's razor");
@@ -22908,6 +22914,7 @@ namespace OverflowHelper.core
             correctionAdd("sorce", "source");
             correctionAdd("Souce", "source");
             correctionAdd("Source", "source");
+            correctionAdd("souce", "source");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -26093,6 +26100,7 @@ namespace OverflowHelper.core
             correctionAdd("SWAY", "Sway");
 
             correctionAdd("UCS2", "UCS-2");
+            correctionAdd("ucs-2", "UCS-2");
 
             correctionAdd("emojies", "emojis");
 
@@ -30178,6 +30186,12 @@ namespace OverflowHelper.core
             correctionAdd("ation", "action");
 
             correctionAdd("backdoor", "back door");
+
+            correctionAdd("dismotivated", "demotivated");
+
+            correctionAdd("narcicsts", "narcissists");
+
+            correctionAdd("regardles", "regardless");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47461,6 +47475,12 @@ namespace OverflowHelper.core
             URL_Add("action", "https://en.wiktionary.org/wiki/action#Noun");
 
             URL_Add("back door", "https://en.wiktionary.org/wiki/back_door#Noun");
+
+            URL_Add("demotivated", "https://en.wiktionary.org/wiki/demotivate#Verb");
+
+            URL_Add("narcissists", "https://en.wiktionary.org/wiki/narcissist#Noun");
+
+            URL_Add("regardless", "https://en.wiktionary.org/wiki/regardless#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
