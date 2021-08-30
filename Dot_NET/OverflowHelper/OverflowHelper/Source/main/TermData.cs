@@ -4506,7 +4506,6 @@ namespace OverflowHelper.core
             correctionAdd("Content Delivery Network", "CDN");
 
             correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RHEL", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("red-hat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("Redhat", "Red Hat Linux"); // The OS, not the company.
@@ -4516,7 +4515,9 @@ namespace OverflowHelper.core
             correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("rhel", "Red Hat Linux"); // The OS, not the company.
+
+            correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The OS, not the company.
+            correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
 
             correctionAdd("phising", "phishing");
             correctionAdd("Phising", "phishing");
@@ -5907,14 +5908,6 @@ namespace OverflowHelper.core
             correctionAdd("FORTRAN", "Fortran");
             correctionAdd("fortran", "Fortran");
             correctionAdd("fotran", "Fortran");
-
-            correctionAdd("gof", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
-            correctionAdd("Gof", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
-            correctionAdd("GoF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)"); // Effectively self.
-            correctionAdd("Gang of Four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
-            correctionAdd("GOF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
-            correctionAdd("gang of four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
-            correctionAdd("GoF book", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
 
             correctionAdd("dc", "DC"); // Note: Collision with "domain controller" (Windows Server).
 
@@ -8101,11 +8094,6 @@ namespace OverflowHelper.core
             correctionAdd("eprom", "EPROM");
             correctionAdd("Eprom", "EPROM");
 
-            correctionAdd("oo", "object-oriented (OO)");
-            correctionAdd("OO", "object-oriented (OO)"); // Expansion
-            correctionAdd("Object Oriented", "object-oriented (OO)");
-            correctionAdd("O.O", "object-oriented (OO)");
-
             correctionAdd("google IO", "Google I/O");
             correctionAdd("Google io", "Google I/O");
             correctionAdd("Google IO", "Google I/O");
@@ -9357,10 +9345,6 @@ namespace OverflowHelper.core
             // result in "Double entry for the
             // key 'vs' (value is 'vs.')."
             correctionAdd("v/s", "vs."); //
-
-            correctionAdd("Where ever", "wherever");
-            correctionAdd("where ever", "wherever");
-            correctionAdd("whereever", "wherever");
 
             correctionAdd("whats", "what's");
             correctionAdd("Whats", "what's"); // Not 100% correct - case.
@@ -11672,13 +11656,6 @@ namespace OverflowHelper.core
             correctionAdd("possibile", "possible");
             correctionAdd("poissible", "possible");
 
-            correctionAdd("oop", "object-oriented programming");
-            correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
-            correctionAdd("object oriented programming", "object-oriented programming");
-            correctionAdd("object orientated programming", "object-oriented programming");
-            correctionAdd("OOP", "object-oriented programming");
-            correctionAdd("O.O.P", "object-oriented programming");
-
             correctionAdd("Functional programming", "functional programming");
             correctionAdd("Functional Programming", "functional programming");
             correctionAdd("FP", "functional programming");
@@ -13646,12 +13623,31 @@ namespace OverflowHelper.core
             correctionAdd("literarily", "literally");
             correctionAdd("literary", "literally");
 
-            correctionAdd("object orientated", "object-oriented");
-            correctionAdd("object oriented", "object-oriented");
-            correctionAdd("Object orientated", "object-oriented");
-            correctionAdd("Object Orientated", "object-oriented");
-            correctionAdd("Object-Orientated", "object-oriented");
-            correctionAdd("object-orientated", "object-oriented");
+            correctionAdd("gof", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("Gof", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("GoF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)"); // Effectively self.
+            correctionAdd("Gang of Four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("GOF", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("gang of four", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+            correctionAdd("GoF book", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
+
+            correctionAdd("oop", "object-oriented programming");
+            correctionAdd("Object Oriented Programming", "object-oriented programming"); // Mostly for the URL
+            correctionAdd("object oriented programming", "object-oriented programming");
+            correctionAdd("object orientated programming", "object-oriented programming");
+            correctionAdd("OOP", "object-oriented programming");
+            correctionAdd("O.O.P", "object-oriented programming");
+
+            correctionAdd("oo", "object-oriented (OO)");
+            correctionAdd("OO", "object-oriented (OO)"); // Expansion
+            correctionAdd("Object Oriented", "object-oriented (OO)");
+            correctionAdd("O.O", "object-oriented (OO)");
+            correctionAdd("object orientated", "object-oriented (OO)");
+            correctionAdd("object oriented", "object-oriented (OO)");
+            correctionAdd("Object orientated", "object-oriented (OO)");
+            correctionAdd("Object Orientated", "object-oriented (OO)");
+            correctionAdd("Object-Orientated", "object-oriented (OO)");
+            correctionAdd("object-orientated", "object-oriented (OO)");
 
             correctionAdd("obselete", "obsolete");
 
@@ -15130,8 +15126,6 @@ namespace OverflowHelper.core
 
             correctionAdd("School", "school");
             correctionAdd("shcool", "school");
-
-            correctionAdd("where in", "wherein");
 
             correctionAdd("mindstorm", "Lego Mindstorms");
             correctionAdd("Lego Mindstorm", "Lego Mindstorms");
@@ -16656,10 +16650,10 @@ namespace OverflowHelper.core
             correctionAdd("commandlet", "cmdlet");
             correctionAdd("cmd-let", "cmdlet");
 
-            correctionAdd("cli", "CLI");
-            correctionAdd("Command Line Interface", "CLI");
-            correctionAdd("command line interface", "CLI");
-            correctionAdd("command-line interface", "CLI");
+            correctionAdd("cli", "command-line interface");
+            correctionAdd("Command Line Interface", "command-line interface");
+            correctionAdd("command line interface", "command-line interface");
+            correctionAdd("CLI", "command-line interface");
 
             correctionAdd("command-line", "command line");
             correctionAdd("CML", "command line");
@@ -16668,20 +16662,6 @@ namespace OverflowHelper.core
             correctionAdd("comandline", "command line");
             correctionAdd("Commandline", "command line");
             correctionAdd("cmd line", "command line");
-
-            correctionAdd("stdin", "standard input");
-            correctionAdd("STDIN", "standard input");
-            correctionAdd("standard in", "standard input");
-            correctionAdd("Stdin", "standard input");
-            correctionAdd("standard in put", "standard input");
-
-            correctionAdd("StdOut", "standard output");
-            correctionAdd("stdout", "standard output");
-            correctionAdd("STDOUT", "standard output");
-            correctionAdd("standard out", "standard output");
-            correctionAdd("Standard output", "standard output");
-            correctionAdd("Stdout", "standard output");
-            correctionAdd("stdOut", "standard output");
 
             correctionAdd("yeoman", "Yeoman");
 
@@ -20969,9 +20949,14 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("get-adgroupmember", "Get-ADGroupMember");
 
+            correctionAdd("Where ever", "wherever");
+            correctionAdd("where ever", "wherever");
+            correctionAdd("whereever", "wherever");
+
+            correctionAdd("where in", "wherein");
+
             // Of PowerShell...
             correctionAdd("where-object", "Where-Object");
-            correctionAdd("where", "Where-Object"); // The alias
             correctionAdd("Where-object", "Where-Object");
 
             // Of PowerShell...
@@ -27187,8 +27172,6 @@ namespace OverflowHelper.core
 
             correctionAdd("on the mood", "in the mood");
 
-            correctionAdd("inputing", "inputting");
-
             correctionAdd("mistankenly", "mistakenly");
 
             correctionAdd("painfull", "painful");
@@ -27912,7 +27895,25 @@ namespace OverflowHelper.core
             correctionAdd("thingamabob", "thingamajiggy");
             correctionAdd("thingamagic", "thingamajiggy");
 
-            correctionAdd("input", "input (HTML form)");
+            correctionAdd("stdin", "standard input");
+            correctionAdd("STDIN", "standard input");
+            correctionAdd("standard in", "standard input");
+            correctionAdd("Stdin", "standard input");
+            correctionAdd("standard in put", "standard input");
+
+            correctionAdd("StdOut", "standard output");
+            correctionAdd("stdout", "standard output");
+            correctionAdd("STDOUT", "standard output");
+            correctionAdd("standard out", "standard output");
+            correctionAdd("Standard output", "standard output");
+            correctionAdd("Stdout", "standard output");
+            correctionAdd("stdOut", "standard output");
+
+            correctionAdd("inputing", "inputting");
+
+            correctionAdd("input tag", "input (HTML form)");
+
+            correctionAdd("inputed", "inputted");
 
             correctionAdd("re-run", "rerun");
 
@@ -28951,8 +28952,6 @@ namespace OverflowHelper.core
             correctionAdd("Curly", "curly");
 
             correctionAdd("inturn", "in turn");
-
-            correctionAdd("inputed", "inputted");
 
             correctionAdd("manuvre", "manoeuvre");
 
@@ -31865,6 +31864,8 @@ namespace OverflowHelper.core
 
             URL_Add("Red Hat Linux", "https://en.wikipedia.org/wiki/Red_Hat_Linux");
 
+            URL_Add("Red Hat Enterprise Linux", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux");
+
             URL_Add("phishing", "https://en.wikipedia.org/wiki/Phishing");
 
             URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
@@ -32531,7 +32532,7 @@ namespace OverflowHelper.core
 
             URL_Add("EFI", "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
 
-            URL_Add("LogCat", "https://sites.google.com/site/androidhowto/how-to-1/save-logcat-to-a-text-file");
+            URL_Add("LogCat", "https://developer.android.com/studio/debug/am-logcat"); // Old (404 now): https://sites.google.com/site/androidhowto/how-to-1/save-logcat-to-a-text-file
 
             URL_Add("between", "https://en.wiktionary.org/wiki/between");
 
@@ -32615,7 +32616,7 @@ namespace OverflowHelper.core
 
             URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
 
-            URL_Add("CLI", "https://en.wikipedia.org/wiki/Command-line_interface");
+            URL_Add("command-line interface", "https://en.wikipedia.org/wiki/Command-line_interface");
 
             URL_Add("AutoIt", "https://en.wikipedia.org/wiki/AutoIt");
 
@@ -33023,7 +33024,7 @@ namespace OverflowHelper.core
 
             URL_Add("Nexus&nbsp;7", "https://en.wikipedia.org/wiki/Nexus_7_%282012_version%29");
 
-            URL_Add("object-oriented (OO)", "https://en.wikipedia.org/wiki/Object-oriented_programming");
+            URL_Add("object-oriented (OO)", "https://en.wikipedia.org/wiki/Object-orientation");
 
             URL_Add("Process&nbsp;Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
 
@@ -33219,7 +33220,7 @@ namespace OverflowHelper.core
 
             URL_Add("WMI", "https://en.wikipedia.org/wiki/Windows_Management_Instrumentation");
 
-            URL_Add("Add-Content", "http://technet.microsoft.com/en-us/library/hh849859.aspx");
+            URL_Add("Add-Content", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content"); // Old: http://technet.microsoft.com/en-us/library/hh849859.aspx
 
             URL_Add("Get-Date", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-Date"); // Old URL: http://technet.microsoft.com/en-us/library/hh849887.aspx
 
@@ -35791,8 +35792,6 @@ namespace OverflowHelper.core
             URL_Add("literally", "https://en.wiktionary.org/wiki/literally#Adverb");
 
             URL_Add("maintainable", "https://en.wiktionary.org/wiki/maintainable#Adjective");
-
-            URL_Add("object-oriented", "https://en.wikipedia.org/wiki/Object-orientation");
 
             URL_Add("obsolete", "https://en.wiktionary.org/wiki/obsolete#Adjective");
 
