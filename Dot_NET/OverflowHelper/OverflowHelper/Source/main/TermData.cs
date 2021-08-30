@@ -11124,6 +11124,7 @@ namespace OverflowHelper.core
             correctionAdd("KDiff 3", "KDiff3");
             correctionAdd("Kdiff", "KDiff3");
             correctionAdd("KDiff", "KDiff3");
+            correctionAdd("kdiff", "KDiff3");
 
             correctionAdd("kubernetes", "Kubernetes");
             correctionAdd("kubernete", "Kubernetes");
@@ -14227,6 +14228,7 @@ namespace OverflowHelper.core
             correctionAdd("unneccessarily", "unnecessarily");
             correctionAdd("unnecessaraly", "unnecessarily");
             correctionAdd("unnecesseraly", "unnecessarily");
+            correctionAdd("unnecessraly", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
@@ -16053,6 +16055,7 @@ namespace OverflowHelper.core
 
             correctionAdd("backup", "back up");
             correctionAdd("bacakup", "back up");
+            correctionAdd("back-up", "back up");
 
             correctionAdd("bluepencil", "blue-pencil");
 
@@ -18363,6 +18366,7 @@ namespace OverflowHelper.core
             correctionAdd("binary large object", "BLOB");
             correctionAdd("Binary Large Object", "BLOB");
             correctionAdd("Binary Large OBject", "BLOB");
+            correctionAdd("blop", "BLOB");
 
             correctionAdd("foot note", "footnote");
 
@@ -20580,6 +20584,7 @@ namespace OverflowHelper.core
             correctionAdd("Form", "from");
             correctionAdd("fom", "from");
             correctionAdd("från", "from");
+            correctionAdd("frmo", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -21281,6 +21286,7 @@ namespace OverflowHelper.core
             correctionAdd("coulld", "could");
 
             correctionAdd("in-tact", "intact");
+            correctionAdd("in tact", "intact");
 
             correctionAdd("lifecycle", "life cycle");
 
@@ -25474,6 +25480,7 @@ namespace OverflowHelper.core
             correctionAdd("flactuations", "fluctuation");
 
             correctionAdd("re-set", "reset");
+            correctionAdd("reseted", "reset");
 
             correctionAdd("severre", "severe");
             correctionAdd("servier", "severe");
@@ -26327,6 +26334,9 @@ namespace OverflowHelper.core
             correctionAdd("raid 10", "RAID&nbsp;10");
 
             correctionAdd("zend studio", "Zend Studio");
+            correctionAdd("ZendSudio", "Zend Studio");
+            correctionAdd("ZendStudio", "Zend Studio");
+            correctionAdd("ZS", "Zend Studio");
 
             correctionAdd("comp0osed", "composed");
 
@@ -27245,6 +27255,7 @@ namespace OverflowHelper.core
             correctionAdd("USC", "Ubuntu Software Center");
             correctionAdd("Software Center", "Ubuntu Software Center");
             correctionAdd("Ubuntu Software center", "Ubuntu Software Center");
+            correctionAdd("software center", "Ubuntu Software Center");
 
             correctionAdd("insesire", "insincere");
 
@@ -27530,6 +27541,7 @@ namespace OverflowHelper.core
             correctionAdd("double-check", "double check");
 
             correctionAdd("re-check", "recheck");
+            correctionAdd("Re-check", "recheck");
 
             correctionAdd("type check", "type-check");
             correctionAdd("typecheck", "type-check");
@@ -27981,6 +27993,7 @@ namespace OverflowHelper.core
             correctionAdd("dislexia", "dyslexia");
 
             correctionAdd("inement", "imminent");
+            correctionAdd("immenent", "imminent");
 
             correctionAdd("english man", "Englishman");
 
@@ -30215,6 +30228,18 @@ namespace OverflowHelper.core
             correctionAdd("ommitting", "omitting");
 
             correctionAdd("psush", "push");
+
+            correctionAdd("Spider Oak", "SpiderOak");
+
+            correctionAdd("Ubuntu one", "Ubuntu One");
+
+            correctionAdd("re-clone", "reclone");
+
+            correctionAdd("re-cloning", "recloning");
+
+            correctionAdd("safety-net", "safety net");
+
+            correctionAdd("whare", "where");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47520,6 +47545,18 @@ namespace OverflowHelper.core
             URL_Add("omitting", "https://en.wiktionary.org/wiki/omit#Verb");
 
             URL_Add("push", "https://en.wiktionary.org/wiki/push#Verb");
+
+            URL_Add("SpiderOak", "https://en.wikipedia.org/wiki/SpiderOak");
+
+            URL_Add("Ubuntu One", "https://en.wikipedia.org/wiki/Ubuntu_One#Features");
+
+            URL_Add("reclone", "https://en.wiktionary.org/wiki/reclone#Verb");
+
+            URL_Add("recloning", "https://en.wiktionary.org/wiki/reclone#Verb");
+
+            URL_Add("safety net", "https://en.wiktionary.org/wiki/safety_net#Noun");
+
+            URL_Add("where", "https://en.wiktionary.org/wiki/where#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
