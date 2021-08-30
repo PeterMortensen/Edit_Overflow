@@ -1,4 +1,4 @@
-﻿/***************************************************************************
+/***************************************************************************
 * Copyright (C) 2020 Peter Mortensen                                       *
 *                                                                          *
 * This file is part of Edit Overflow.                                      *
@@ -3249,6 +3249,7 @@ namespace OverflowHelper.core
             correctionAdd("LATEX", "LaTeX");
             correctionAdd("LaTex", "LaTeX");
             correctionAdd("LateX", "LaTeX");
+            correctionAdd("laTeX", "LaTeX");
 
             correctionAdd("suse", "SUSE&nbsp;Linux");
             correctionAdd("SuSE", "SUSE&nbsp;Linux");
@@ -13637,6 +13638,7 @@ namespace OverflowHelper.core
             correctionAdd("interesseted", "interested");
             correctionAdd("interessed", "interested");
             correctionAdd("intersted", "interested");
+            correctionAdd("intereased", "interested");
 
             correctionAdd("Iodine", "iodine");
 
@@ -23844,6 +23846,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wsl", "Windows Subsystem for Linux");
             correctionAdd("WSL", "Windows Subsystem for Linux");
+            correctionAdd("Windows subsystem for Linux", "Windows Subsystem for Linux");
 
             correctionAdd("Emphasize", "emphasis");
 
@@ -29914,6 +29917,7 @@ namespace OverflowHelper.core
             correctionAdd("detente", "détente");
 
             correctionAdd("InfluxDb", "InfluxDB");
+            correctionAdd("influxdb", "InfluxDB");
 
             correctionAdd("attributon", "attribution");
 
@@ -30192,6 +30196,26 @@ namespace OverflowHelper.core
             correctionAdd("narcicsts", "narcissists");
 
             correctionAdd("regardles", "regardless");
+
+            correctionAdd("Newton's Third Law", "Newton's third law of motion");
+
+            correctionAdd("unices", "Unices");
+
+            correctionAdd("intensional", "intentional");
+
+            correctionAdd("lightsail", "light sail");
+
+            correctionAdd("Low Earth orbit", "low Earth orbit");
+            correctionAdd("Low Earth Orbit", "low Earth orbit");
+            correctionAdd("low earth orbit", "low Earth orbit");
+            correctionAdd("LEO", "low Earth orbit");
+
+            correctionAdd("Multi-platform", "multi-platform");
+            correctionAdd("Multi platform", "multi-platform");
+
+            correctionAdd("ommitting", "omitting");
+
+            correctionAdd("psush", "push");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47481,6 +47505,22 @@ namespace OverflowHelper.core
             URL_Add("narcissists", "https://en.wiktionary.org/wiki/narcissist#Noun");
 
             URL_Add("regardless", "https://en.wiktionary.org/wiki/regardless#Adverb");
+
+            URL_Add("Newton's third law of motion", "https://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton's_third_law");
+
+            URL_Add("Unices", "https://en.wiktionary.org/wiki/Unices#Noun");
+
+            URL_Add("intentional", "https://en.wiktionary.org/wiki/intentional#Adjective");
+
+            URL_Add("light sail", "https://en.wikipedia.org/wiki/Solar_sail");
+
+            URL_Add("low Earth orbit", "https://en.wikipedia.org/wiki/Low_Earth_orbit");
+
+            URL_Add("multi-platform", "https://en.wiktionary.org/wiki/multi-platform#Adjective");
+
+            URL_Add("omitting", "https://en.wiktionary.org/wiki/omit#Verb");
+
+            URL_Add("push", "https://en.wiktionary.org/wiki/push#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
