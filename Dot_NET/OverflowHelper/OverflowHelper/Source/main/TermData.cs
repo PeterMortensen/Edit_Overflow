@@ -1886,14 +1886,6 @@ namespace OverflowHelper.core
             correctionAdd("mono", "Mono");
             correctionAdd("MONO", "Mono");
 
-            correctionAdd("Monodevelop", "MonoDevelop");
-            correctionAdd("mono develop", "MonoDevelop");
-            correctionAdd("Mono Develop", "MonoDevelop");
-            correctionAdd("mono develope", "MonoDevelop"); // Misspelling.
-            correctionAdd("monoDevelop", "MonoDevelop");
-            correctionAdd("MD", "MonoDevelop");
-            correctionAdd("monodevelop", "MonoDevelop");
-
             correctionAdd("vmware", "VMware");
             correctionAdd("VMWare", "VMware");
             correctionAdd("VM Ware", "VMware");
@@ -2149,6 +2141,7 @@ namespace OverflowHelper.core
             correctionAdd("note pad", "Notepad");
             correctionAdd("nodepad", "Notepad");
             correctionAdd("Nodepad", "Notepad");
+            correctionAdd("notepad.exe", "Notepad");
 
             correctionAdd("wordpad", "WordPad");
             correctionAdd("Wordpad", "WordPad");
@@ -4397,13 +4390,6 @@ namespace OverflowHelper.core
             correctionAdd("Don`t", "don’t");
             correctionAdd("donw", "don’t");
 
-            correctionAdd("lisp", "Lisp");
-            correctionAdd("LISP", "Lisp");
-
-            correctionAdd("elisp", "Emacs&nbsp;Lisp");
-            correctionAdd("Emacs Lisp", "Emacs&nbsp;Lisp");
-            correctionAdd("emacs lisp", "Emacs&nbsp;Lisp");
-
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
 
@@ -4739,10 +4725,6 @@ namespace OverflowHelper.core
 
             correctionAdd("smalltalk", "Smalltalk");
             correctionAdd("SmallTalk", "Smalltalk");
-
-            correctionAdd("Sharpdevelop", "SharpDevelop");
-            correctionAdd("sharpdevelop", "SharpDevelop");
-            correctionAdd("sharp develop", "SharpDevelop");
 
             correctionAdd("ZX spectrum", "ZX Spectrum");
             correctionAdd("ZX-Spectrum", "ZX Spectrum");
@@ -5747,7 +5729,15 @@ namespace OverflowHelper.core
             correctionAdd("Ccleaner", "CCleaner");
             correctionAdd("ccleaner", "CCleaner");
 
+            correctionAdd("lisp", "Lisp");
+            correctionAdd("LISP", "Lisp");
+
+            correctionAdd("elisp", "Emacs&nbsp;Lisp");
+            correctionAdd("Emacs Lisp", "Emacs&nbsp;Lisp");
+            correctionAdd("emacs lisp", "Emacs&nbsp;Lisp");
+
             correctionAdd("isp", "ISP");
+            correctionAdd("Internet Service Provider", "ISP");
 
             correctionAdd("KATE", "Kate");
             correctionAdd("kate", "Kate");
@@ -6043,6 +6033,7 @@ namespace OverflowHelper.core
             correctionAdd("Cyanogen Mod", "CyanogenMod");
             correctionAdd("CM", "CyanogenMod"); // Expansion. Collisions? Yes! E.g., centimetre and center of mass. The disambig page is <https://en.wikipedia.org/wiki/CM>.
             correctionAdd("cyanogenmod", "CyanogenMod");
+            correctionAdd("cynogenmod", "CyanogenMod");
 
             correctionAdd("mariadb", "MariaDB");
             correctionAdd("Maria DB", "MariaDB");
@@ -12711,6 +12702,7 @@ namespace OverflowHelper.core
             correctionAdd("UBlock Origin", "uBlock Origin");
             correctionAdd("uBlockOrigin", "uBlock Origin");
             correctionAdd("uBlock origin", "uBlock Origin");
+            correctionAdd("uBO", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -12877,6 +12869,7 @@ namespace OverflowHelper.core
             correctionAdd("debbugging", "debugging");
             correctionAdd("degugging", "debugging");
             correctionAdd("debbuging", "debugging");
+            correctionAdd("dubugging", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -18353,6 +18346,7 @@ namespace OverflowHelper.core
             correctionAdd("Simialr", "similar");
             correctionAdd("Similar", "similar");
             correctionAdd("similer", "similar");
+            correctionAdd("simialr", "similar");
 
             correctionAdd("Similary", "similarly"); // Not 100% correct - case.
             correctionAdd("similary", "similarly");
@@ -19241,7 +19235,20 @@ namespace OverflowHelper.core
             correctionAdd("ben", "been");
             correctionAdd("bean", "been");
 
+            correctionAdd("Monodevelop", "MonoDevelop");
+            correctionAdd("mono develop", "MonoDevelop");
+            correctionAdd("Mono Develop", "MonoDevelop");
+            correctionAdd("mono develope", "MonoDevelop"); // Misspelling.
+            correctionAdd("monoDevelop", "MonoDevelop");
+            correctionAdd("MD", "MonoDevelop");
+            correctionAdd("monodevelop", "MonoDevelop");
+
+            correctionAdd("Sharpdevelop", "SharpDevelop");
+            correctionAdd("sharpdevelop", "SharpDevelop");
+            correctionAdd("sharp develop", "SharpDevelop");
+
             correctionAdd("Develop", "develop");
+            correctionAdd("develope", "develop");
 
             correctionAdd("developped", "developed");
             correctionAdd("devoped", "developed");
@@ -27484,6 +27491,7 @@ namespace OverflowHelper.core
             correctionAdd("space ship", "spaceship");
 
             correctionAdd("termina", "terminal");
+            correctionAdd("termianl", "terminal");
 
             correctionAdd("Beer-Lambert law", "Beer–Lambert law");
             correctionAdd("Beer-Lambert Law", "Beer–Lambert law");
@@ -28748,6 +28756,7 @@ namespace OverflowHelper.core
             correctionAdd("kompare", "Kompare");
 
             correctionAdd("meld", "Meld");
+            correctionAdd("MELD", "Meld");
 
             correctionAdd("xemacs", "XEmacs");
 
@@ -30240,6 +30249,12 @@ namespace OverflowHelper.core
             correctionAdd("safety-net", "safety net");
 
             correctionAdd("whare", "where");
+
+            correctionAdd("one plus", "OnePlus");
+
+            correctionAdd("cup-of-tea", "cup of tea");
+
+            correctionAdd("the're", "they're");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47557,6 +47572,12 @@ namespace OverflowHelper.core
             URL_Add("safety net", "https://en.wiktionary.org/wiki/safety_net#Noun");
 
             URL_Add("where", "https://en.wiktionary.org/wiki/where#Adverb");
+
+            URL_Add("OnePlus", "https://en.wikipedia.org/wiki/OnePlus");
+
+            URL_Add("cup of tea", "https://en.wiktionary.org/wiki/cup_of_tea#Noun");
+
+            URL_Add("they're", "https://en.wiktionary.org/wiki/they%27re#Contraction");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
