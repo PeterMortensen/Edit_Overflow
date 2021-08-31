@@ -373,6 +373,22 @@
                 />
             </p>
 
+            <p id="CodeOnlyComment">
+                Code-only answers normally need some explanation to be useful.
+
+                <br/>
+                <input
+                    name="X33"
+                    type="text"
+                    id="X33"
+                    class="X33"
+                    value="An explanation would be in order. E.g., what is the idea/gist? Please respond by [editing (changing) your answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the answer should appear as if it was written today). "
+                    style="width:830px;"
+                    accesskey=""
+                    title=""
+                />
+            </p>
+
 
             <!-- ===================================================== -->
             <hr/>
