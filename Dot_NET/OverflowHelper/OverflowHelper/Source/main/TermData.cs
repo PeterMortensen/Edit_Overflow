@@ -2017,6 +2017,7 @@ namespace OverflowHelper.core
             correctionAdd("webkit", "WebKit");
             correctionAdd("Webkit", "WebKit");
             correctionAdd("webKit", "WebKit");
+            correctionAdd("web kit", "WebKit");
 
             correctionAdd("arduino", "Arduino");
             correctionAdd("arduion", "Arduino");
@@ -3602,6 +3603,7 @@ namespace OverflowHelper.core
             correctionAdd("repositorie", "repository");
             correctionAdd("repertory", "repository");
             correctionAdd("reposiory", "repository");
+            correctionAdd("REPO", "repository");
 
             correctionAdd("wmd", "WMD");
 
@@ -4234,6 +4236,8 @@ namespace OverflowHelper.core
             correctionAdd("midlet", "MIDlet");
 
             correctionAdd("s60", "S60");
+            correctionAdd("Symbian s60", "S60");
+            correctionAdd("Symbian S60", "S60");
 
             correctionAdd("wsdl", "WSDL"); // Not actually observed.
             correctionAdd("Wsdl", "WSDL");
@@ -9321,6 +9325,7 @@ namespace OverflowHelper.core
             correctionAdd("didn't", "didn’t"); // Quora...
             correctionAdd("din’t", "didn’t");
             correctionAdd("did`nt", "didn’t");
+            correctionAdd("didn t", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -11435,6 +11440,7 @@ namespace OverflowHelper.core
             correctionAdd("previus", "previous");
             correctionAdd("prev", "previous");
             correctionAdd("perivous", "previous");
+            correctionAdd("previos", "previous");
 
             correctionAdd("responsabilities", "responsibilities");
             correctionAdd("responsibilitites", "responsibilities");
@@ -11830,6 +11836,7 @@ namespace OverflowHelper.core
             correctionAdd("Nougart", "Android 7.0 (Nougat)");
             correctionAdd("Nougat", "Android 7.0 (Nougat)");
             correctionAdd("Android N", "Android 7.0 (Nougat)");
+            correctionAdd("Android Nougat", "Android 7.0 (Nougat)");
 
             correctionAdd("Android 8.1", "Android 8.1 (Oreo)");
             correctionAdd("Android O", "Android 8.1 (Oreo)");
@@ -14103,6 +14110,7 @@ namespace OverflowHelper.core
             correctionAdd("accorting", "according");
             correctionAdd("Accoring", "according");
             correctionAdd("accoring", "according");
+            correctionAdd("accrding", "according");
 
             correctionAdd("coerse", "coerce");
 
@@ -14852,6 +14860,7 @@ namespace OverflowHelper.core
             correctionAdd("Cross validated", "Cross Validated (Stack Exchange site)");
             correctionAdd("Cross Validated", "Cross Validated (Stack Exchange site)");
             correctionAdd("cross validated", "Cross Validated (Stack Exchange site)");
+            correctionAdd("CrossValidated", "Cross Validated (Stack Exchange site)");
 
             correctionAdd("enterprise resource planning", "ERP");
 
@@ -14878,6 +14887,7 @@ namespace OverflowHelper.core
             correctionAdd("gnu screen", "Screen");
             correctionAdd("GNU screen", "Screen");
             correctionAdd("GNU/screen", "Screen");
+            correctionAdd("gnu-screen", "Screen");
 
             correctionAdd("wtf", "WTF");
 
@@ -16333,6 +16343,7 @@ namespace OverflowHelper.core
             correctionAdd("travis CI", "Travis CI");
             correctionAdd("Travis ci", "Travis CI");
             correctionAdd("travis ci", "Travis CI");
+            correctionAdd("Travis-CI", "Travis CI");
 
             correctionAdd("xfce", "Xfce");
             correctionAdd("XFCE", "Xfce");
@@ -18600,6 +18611,7 @@ namespace OverflowHelper.core
             correctionAdd("elso", "also");
             correctionAdd("aso", "also");
             correctionAdd("alos", "also");
+            correctionAdd("alsso", "also");
 
             correctionAdd("conver", "convert");
 
@@ -19472,6 +19484,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Repos", "repositories");
             correctionAdd("repos", "repositories");
+            correctionAdd("REPOs", "repositories");
 
             correctionAdd("tranpiling", "transpiling");
             correctionAdd("transipiling", "transpiling");
@@ -21434,6 +21447,7 @@ namespace OverflowHelper.core
             correctionAdd("differeny", "different");
             correctionAdd("differents", "different");
             correctionAdd("Differnt", "different");
+            correctionAdd("differente", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -25759,6 +25773,8 @@ namespace OverflowHelper.core
             correctionAdd("Monad", "monad");
 
             correctionAdd("opinonated", "opinionated");
+            correctionAdd("Oppinionated", "opinionated");
+            correctionAdd("oppinionated", "opinionated");
 
             correctionAdd("frase", "phrase");
 
@@ -26558,6 +26574,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non-zero", "nonzero");
             correctionAdd("none-zero", "nonzero");
+            correctionAdd("non zero", "nonzero");
 
             correctionAdd("second class", "second-class");
 
@@ -30255,6 +30272,41 @@ namespace OverflowHelper.core
             correctionAdd("cup-of-tea", "cup of tea");
 
             correctionAdd("the're", "they're");
+
+            correctionAdd("gdal", "GDAL");
+
+            correctionAdd("net cdf", "NetCDF");
+            correctionAdd("netCDF", "NetCDF");
+            correctionAdd("net CDF", "NetCDF");
+
+            correctionAdd("objectscript", "ObjectScript");
+
+            correctionAdd("Theoretical Computer Science", "Theoretical Computer Science (Stack Exchange site)");
+
+            correctionAdd("MSHTML", "Trident");
+            correctionAdd("trident", "Trident");
+
+            correctionAdd("bogstandard", "bog-standard");
+            correctionAdd("bog standard", "bog-standard");
+
+            correctionAdd("horizonal", "horizontal");
+
+            correctionAdd("iPhone xr", "iPhone XR");
+
+            correctionAdd("IPhoto", "iPhoto");
+
+            correctionAdd("includ", "include");
+
+            correctionAdd("Launchd", "launchd");
+
+            correctionAdd("Line integral", "line integral");
+
+            correctionAdd("nativelly", "natively");
+
+            correctionAdd("Recent", "recent");
+
+            correctionAdd("you've", "you’ve");
+            correctionAdd("youve", "you’ve");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47578,6 +47630,36 @@ namespace OverflowHelper.core
             URL_Add("cup of tea", "https://en.wiktionary.org/wiki/cup_of_tea#Noun");
 
             URL_Add("they're", "https://en.wiktionary.org/wiki/they%27re#Contraction");
+
+            URL_Add("GDAL", "https://en.wikipedia.org/wiki/GDAL");
+
+            URL_Add("NetCDF", "https://en.wikipedia.org/wiki/NetCDF");
+
+            URL_Add("ObjectScript", "https://en.wikipedia.org/wiki/Cach%C3%A9_ObjectScript");
+
+            URL_Add("Theoretical Computer Science (Stack Exchange site)", "https://cstheory.stackexchange.com/tour");
+
+            URL_Add("Trident", "https://en.wikipedia.org/wiki/Trident_(software)");
+
+            URL_Add("bog-standard", "https://en.wiktionary.org/wiki/bog-standard#Adjective");
+
+            URL_Add("horizontal", "https://en.wiktionary.org/wiki/horizontal#Adjective");
+
+            URL_Add("iPhone XR", "https://en.wikipedia.org/wiki/IPhone_XR");
+
+            URL_Add("iPhoto", "https://en.wikipedia.org/wiki/IPhoto");
+
+            URL_Add("include", "https://en.wiktionary.org/wiki/include#Verb");
+
+            URL_Add("launchd", "https://en.wikipedia.org/wiki/Launchd");
+
+            URL_Add("line integral", "https://en.wikipedia.org/wiki/Line_integral");
+
+            URL_Add("natively", "https://en.wiktionary.org/wiki/natively#Adverb");
+
+            URL_Add("recent", "https://en.wiktionary.org/wiki/recent#Adjective");
+
+            URL_Add("you’ve", "https://en.wiktionary.org/wiki/you%27ve#Contraction");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
