@@ -1733,6 +1733,7 @@ namespace OverflowHelper.core
             correctionAdd("phyton", "Python");
             correctionAdd("pyhthon", "Python");
             correctionAdd("Pyhton", "Python");
+            correctionAdd("Pythen", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -3406,6 +3407,8 @@ namespace OverflowHelper.core
             correctionAdd("applicaltion", "application");
             correctionAdd("applicaion", "application");
             correctionAdd("applciation", "application");
+            correctionAdd("Appl", "application");
+            correctionAdd("appl", "application");
 
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
@@ -3502,6 +3505,7 @@ namespace OverflowHelper.core
             correctionAdd("win API", "Win32");
             correctionAdd("win api", "Win32");
             correctionAdd("win32api", "Win32");
+            correctionAdd("W32", "Win32");
 
             correctionAdd("openssl", "OpenSSL");
             correctionAdd("Openssl", "OpenSSL");
@@ -3540,6 +3544,7 @@ namespace OverflowHelper.core
             correctionAdd("cant'", "can’t");
             correctionAdd("Carnt", "can’t");
             correctionAdd("carnt", "can’t");
+            correctionAdd("can'T", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -3679,6 +3684,7 @@ namespace OverflowHelper.core
             correctionAdd("Authentiaction", "authentication"); // Expansion, but case problem
             correctionAdd("authentiaction", "authentication");
             correctionAdd("authencation", "authentication");
+            correctionAdd("authenticatrion", "authentication");
 
             correctionAdd("Zip", "ZIP");
             correctionAdd("zip", "ZIP");
@@ -6415,6 +6421,8 @@ namespace OverflowHelper.core
             correctionAdd("CLANG", "Clang");
 
             correctionAdd("llvm", "LLVM");
+            correctionAdd("LVVM", "LLVM");
+            correctionAdd("lvvm", "LLVM");
 
             correctionAdd("Singleton", "singleton");
             correctionAdd("singleton pattern", "singleton");
@@ -6999,11 +7007,6 @@ namespace OverflowHelper.core
             correctionAdd("web APP", "web application");
             correctionAdd("Web application", "web application");
 
-            correctionAdd("webservice", "web service");
-            correctionAdd("WS", "web service"); // Alternative: Windows Server
-            correctionAdd("webService", "web service");
-            correctionAdd("Webservice", "web service");
-
             correctionAdd("Libusb", "libusb");
             correctionAdd("libUsb", "libusb");
             correctionAdd("LibUsb", "libusb");
@@ -7082,6 +7085,7 @@ namespace OverflowHelper.core
             correctionAdd("fiunction", "function");
             correctionAdd("sub routine", "function");
             correctionAdd("subroutine", "function");
+            correctionAdd("functiion", "function");
 
             correctionAdd("wavefunction", "wave function");
 
@@ -10539,14 +10543,6 @@ namespace OverflowHelper.core
             correctionAdd("Leanardo", "Arduino Leonardo");
             correctionAdd("Leo", "Arduino Leonardo");
             correctionAdd("arduino leonardo", "Arduino Leonardo");
-
-            // Of PowerShell...
-            correctionAdd("get-service", "Get-Service");
-            correctionAdd("Get-service", "Get-Service");
-            correctionAdd("get-Service", "Get-Service");
-
-            // Of PowerShell...
-            correctionAdd("set-service", "Set-Service");
 
             correctionAdd("AtTiny85", "ATtiny85");
             correctionAdd("ATTiny85", "ATtiny85");
@@ -14386,12 +14382,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rtos", "RTOS");
 
-            correctionAdd("ToS", "terms of service");
-            correctionAdd("Terms of Service", "terms of service");
-            correctionAdd("TOS", "terms of service");
-            correctionAdd("Term of Service", "terms of service");
-            correctionAdd("term of service", "terms of service");
-
             correctionAdd("aggresive", "aggressive");
 
             correctionAdd("anedocte", "anecdote");
@@ -15507,8 +15497,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ptrace", "ptrace");
 
-            correctionAdd("web hotel", "shared web hosting service");
-
             correctionAdd("Sigil", "sigil");
 
             correctionAdd("most simple", "simplest");
@@ -15533,6 +15521,8 @@ namespace OverflowHelper.core
             correctionAdd("configur", "configure");
 
             correctionAdd("currenctly", "currently");
+            correctionAdd("Currenly", "currently");
+            correctionAdd("currenly", "currently");
 
             correctionAdd("emdash", "em dash");
             correctionAdd("em-dash", "em dash");
@@ -16303,6 +16293,7 @@ namespace OverflowHelper.core
 
             correctionAdd("chromium", "Chromium");
             correctionAdd("chrom(ium)", "Chromium");
+            correctionAdd("Chrom(ium)", "Chromium");
 
             correctionAdd("clojurescript", "ClojureScript");
 
@@ -16444,8 +16435,6 @@ namespace OverflowHelper.core
             correctionAdd("politicans", "politicians");
 
             correctionAdd("PSTREE", "pstree");
-
-            correctionAdd("QoS", "quality of service");
 
             correctionAdd("recognize", "recognise");
             correctionAdd("reccognize", "recognise");
@@ -18455,9 +18444,6 @@ namespace OverflowHelper.core
             correctionAdd("mannual", "manual");
             correctionAdd("manuel", "manual");
 
-            correctionAdd("PasS", "platform as a service");
-            correctionAdd("Pass", "platform as a service");
-
             correctionAdd("signaling", "signalling");
 
             correctionAdd("stake holder", "stakeholder");
@@ -18504,6 +18490,7 @@ namespace OverflowHelper.core
             correctionAdd("succesfuly", "successfully");
             correctionAdd("succesefully", "successfully");
             correctionAdd("Sucessfully", "successfully");
+            correctionAdd("succefully", "successfully");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -18941,6 +18928,7 @@ namespace OverflowHelper.core
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
             correctionAdd("mecanism", "mechanism");
+            correctionAdd("meachanism", "mechanism");
 
             correctionAdd("regristration", "registration");
 
@@ -22948,8 +22936,6 @@ namespace OverflowHelper.core
             correctionAdd("SE Asia", "Southeast Asia");
 
             correctionAdd("cross posted", "crossposted");
-
-            correctionAdd("dis-service", "disservice");
 
             correctionAdd("epi-center", "epicenter");
 
@@ -27177,6 +27163,7 @@ namespace OverflowHelper.core
             correctionAdd("post doc", "postdoc");
             correctionAdd("Post-Doc", "postdoc");
             correctionAdd("post-doc", "postdoc");
+            correctionAdd("Post-doc", "postdoc");
 
             correctionAdd("re-assign", "reassign");
 
@@ -27848,10 +27835,6 @@ namespace OverflowHelper.core
             correctionAdd("Algol-60", "ALGOL 60");
             correctionAdd("ALGOL60", "ALGOL 60");
             correctionAdd("Algol60", "ALGOL 60");
-
-            correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
-            correctionAdd("eks", "Amazon Elastic Kubernetes Service");
-            correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
 
             correctionAdd("FDM", "Free Download Manager");
 
@@ -29883,8 +29866,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FEEL", "Friendly Enough Expression Language");
 
-            correctionAdd("MURS", "Multi-Use Radio Service");
-
             correctionAdd("QPF", "QFP");
 
             correctionAdd("solaar", "Solaar");
@@ -30307,6 +30288,65 @@ namespace OverflowHelper.core
 
             correctionAdd("you've", "you’ve");
             correctionAdd("youve", "you’ve");
+
+            correctionAdd("Eid", "Eid al-Adha");
+
+            correctionAdd("Endgadget", "Engadget");
+
+            correctionAdd("mark pilgrim", "Mark Pilgrim");
+
+            correctionAdd("PBKDF", "PBKDF2");
+
+            correctionAdd("packer", "Packer");
+
+            correctionAdd("Buck converter", "buck converter");
+
+            correctionAdd("deplyoment", "deployment");
+
+            correctionAdd("jerry-rigged", "jury-rigged");
+
+            correctionAdd("sanitizaiton", "sanitization");
+
+            correctionAdd("webservice", "web service");
+            correctionAdd("WS", "web service"); // Alternative: Windows Server
+            correctionAdd("webService", "web service");
+            correctionAdd("Webservice", "web service");
+
+            // Of PowerShell...
+            correctionAdd("get-service", "Get-Service");
+            correctionAdd("Get-service", "Get-Service");
+            correctionAdd("get-Service", "Get-Service");
+
+            // Of PowerShell...
+            correctionAdd("set-service", "Set-Service");
+
+            correctionAdd("ToS", "terms of service");
+            correctionAdd("Terms of Service", "terms of service");
+            correctionAdd("TOS", "terms of service");
+            correctionAdd("Term of Service", "terms of service");
+            correctionAdd("term of service", "terms of service");
+
+            correctionAdd("web hotel", "shared web hosting service");
+
+            correctionAdd("QoS", "quality of service");
+
+            correctionAdd("PasS", "platform as a service");
+            correctionAdd("Pass", "platform as a service");
+
+            correctionAdd("dis-service", "disservice");
+
+            correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
+            correctionAdd("eks", "Amazon Elastic Kubernetes Service");
+            correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
+
+            correctionAdd("MURS", "Multi-Use Radio Service");
+
+            correctionAdd("servcie", "service");
+            correctionAdd("Servcie", "service");
+
+            correctionAdd("substracting", "subtracting");
+
+            correctionAdd("virtuallization", "virtualization");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47660,6 +47700,30 @@ namespace OverflowHelper.core
             URL_Add("recent", "https://en.wiktionary.org/wiki/recent#Adjective");
 
             URL_Add("you’ve", "https://en.wiktionary.org/wiki/you%27ve#Contraction");
+
+            URL_Add("Eid al-Adha", "https://en.wikipedia.org/wiki/Eid_al-Adha");
+
+            URL_Add("Engadget", "https://en.wikipedia.org/wiki/Engadget");
+
+            URL_Add("Mark Pilgrim", "https://en.wikipedia.org/wiki/Mark_Pilgrim");
+
+            URL_Add("PBKDF2", "https://en.wikipedia.org/wiki/PBKDF2");
+
+            URL_Add("Packer", "https://www.packer.io/");
+
+            URL_Add("buck converter", "https://en.wikipedia.org/wiki/Buck_converter");
+
+            URL_Add("deployment", "https://en.wiktionary.org/wiki/deployment#Noun");
+
+            URL_Add("jury-rigged", "https://en.wiktionary.org/wiki/jury-rigged#Adjective");
+
+            URL_Add("sanitization", "https://en.wiktionary.org/wiki/sanitization#Noun");
+
+            URL_Add("service", "https://en.wiktionary.org/wiki/service#Noun");
+
+            URL_Add("subtracting", "https://en.wiktionary.org/wiki/subtract#Verb");
+
+            URL_Add("virtualization", "https://en.wiktionary.org/wiki/virtualization#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
