@@ -1239,6 +1239,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS Sierra 10.12", "macOS v10.12 (Sierra)");
             correctionAdd("MacOS Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("Siera", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -4529,6 +4530,7 @@ namespace OverflowHelper.core
             correctionAdd("you'r", "your");
             correctionAdd("You'r", "your");
             correctionAdd("Your", "your");
+            correctionAdd("yourt", "your");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -4863,6 +4865,7 @@ namespace OverflowHelper.core
             correctionAdd("Gargbage collection", "GC");
             correctionAdd("garbage collection", "GC");
             correctionAdd("garbagge collection", "GC");
+            correctionAdd("Garbage Collection", "GC");
 
             correctionAdd("uri", "URI");
             correctionAdd("Uri", "URI");
@@ -8950,9 +8953,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fits", "FITS");
 
-            correctionAdd("eternal September", "Eternal September");
-            correctionAdd("eternal september", "Eternal September");
-
             correctionAdd("msgbox", "MsgBox");
 
             correctionAdd("phd", "Ph.D.");
@@ -11311,6 +11311,7 @@ namespace OverflowHelper.core
             correctionAdd("apache poi", "Apache POI");
             correctionAdd("Apache poi", "Apache POI");
             correctionAdd("poi", "Apache POI");
+            correctionAdd("apache POI", "Apache POI");
 
             correctionAdd("artifactory", "Artifactory");
 
@@ -12313,6 +12314,7 @@ namespace OverflowHelper.core
             correctionAdd("GOT", "Game of Thrones");
 
             correctionAdd("Huwei", "Huawei");
+            correctionAdd("huawei", "Huawei");
 
             correctionAdd("ammount", "amount");
             correctionAdd("amounf", "amount");
@@ -16327,6 +16329,7 @@ namespace OverflowHelper.core
             correctionAdd("ReasonML", "Reason");
 
             correctionAdd("RPN", "Reverse Polish notation");
+            correctionAdd("reverse-polish", "Reverse Polish notation");
 
             correctionAdd("svelte", "Svelte");
 
@@ -18747,6 +18750,7 @@ namespace OverflowHelper.core
             correctionAdd("re-entrant", "reentrant");
 
             correctionAdd("sematic", "semantic");
+            correctionAdd("sementic", "semantic");
 
             correctionAdd("sock puppet", "sockpuppet");
             correctionAdd("sock-puppet", "sockpuppet");
@@ -19637,8 +19641,13 @@ namespace OverflowHelper.core
             correctionAdd("plm", "Programmer Lives Matter"); // From a single TechLead video
             correctionAdd("PLM", "Programmer Lives Matter");
 
+            correctionAdd("eternal September", "Eternal September");
+            correctionAdd("eternal september", "Eternal September");
+
             correctionAdd("september", "September");
             correctionAdd("Sept", "September");
+            correctionAdd("SEP", "September");
+            correctionAdd("sep", "September");
 
             correctionAdd("crytically", "critically");
 
@@ -20205,6 +20214,7 @@ namespace OverflowHelper.core
             correctionAdd("Verison", "version");
             correctionAdd("Vesion", "version");
             correctionAdd("vesion", "version");
+            correctionAdd("versión", "version");
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
@@ -25835,6 +25845,7 @@ namespace OverflowHelper.core
             correctionAdd("tit bit", "tidbit");
 
             correctionAdd("Godwin's Law", "Godwin's law");
+            correctionAdd("godwins law", "Godwin's law");
 
             correctionAdd("Macbook M1 air", "MacBook Air (M1)");
 
@@ -28242,6 +28253,7 @@ namespace OverflowHelper.core
             correctionAdd("long running", "long-running");
 
             correctionAdd("sprcified", "specified");
+            correctionAdd("speciﬁed", "specified");
 
             correctionAdd("aic", "Akaike information criterion");
             correctionAdd("AIC", "Akaike information criterion");
@@ -29741,6 +29753,7 @@ namespace OverflowHelper.core
             correctionAdd("documentate", "document");
 
             correctionAdd("eco system", "ecosystem");
+            correctionAdd("eco-system", "ecosystem");
 
             correctionAdd("intractive", "interactive");
 
@@ -30347,6 +30360,40 @@ namespace OverflowHelper.core
             correctionAdd("substracting", "subtracting");
 
             correctionAdd("virtuallization", "virtualization");
+
+            correctionAdd("Blizzard", "Activision Blizzard");
+
+            correctionAdd("CAFFE", "Caffe");
+            correctionAdd("caffe", "Caffe");
+
+            correctionAdd("dbaa", "DBAA");
+
+            correctionAdd("Grover's Algorithm", "Grover's algorithm");
+
+            correctionAdd("H265", "H.265");
+
+            correctionAdd("MAY", "May");
+
+            correctionAdd("schrödinger's cat", "Schrödinger's cat");
+
+            correctionAdd("spring integration", "Spring Integration");
+            correctionAdd("spring Integration", "Spring Integration");
+
+            correctionAdd("top gun", "Top Gun");
+
+            correctionAdd("DOJ", "United States Department of Justice");
+
+            correctionAdd("WLS", "WebLogic Server");
+
+            correctionAdd("cancelation", "cancellation");
+
+            correctionAdd("dowloaded", "downloaded");
+
+            correctionAdd("no mater", "no matter");
+
+            correctionAdd("over done", "overdone");
+
+            correctionAdd("responsivness", "responsiveness");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47724,6 +47771,38 @@ namespace OverflowHelper.core
             URL_Add("subtracting", "https://en.wiktionary.org/wiki/subtract#Verb");
 
             URL_Add("virtualization", "https://en.wiktionary.org/wiki/virtualization#Noun");
+
+            URL_Add("Activision Blizzard", "https://en.wikipedia.org/wiki/Activision_Blizzard");
+
+            URL_Add("Caffe", "https://en.wikipedia.org/wiki/Caffe_(software)");
+
+            URL_Add("DBAA", "https://www.acronymfinder.com/Slang/DBAA.html");
+
+            URL_Add("Grover's algorithm", "https://en.wikipedia.org/wiki/Grover's_algorithm");
+
+            URL_Add("H.265", "https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding");
+
+            URL_Add("May", "https://en.wiktionary.org/wiki/May#Proper_noun");
+
+            URL_Add("Schrödinger's cat", "https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat");
+
+            URL_Add("Spring Integration", "https://en.wikipedia.org/wiki/Spring_Integration");
+
+            URL_Add("Top Gun", "https://en.wikipedia.org/wiki/Top_Gun");
+
+            URL_Add("United States Department of Justice", "https://en.wikipedia.org/wiki/United_States_Department_of_Justice");
+
+            URL_Add("WebLogic Server", "https://en.wikipedia.org/wiki/Oracle_WebLogic_Server");
+
+            URL_Add("cancellation", "https://en.wiktionary.org/wiki/cancellation#Noun");
+
+            URL_Add("downloaded", "https://en.wiktionary.org/wiki/download#Verb");
+
+            URL_Add("no matter", "https://en.wiktionary.org/wiki/no_matter#Preposition");
+
+            URL_Add("overdone", "https://en.wiktionary.org/wiki/overdo#Verb");
+
+            URL_Add("responsiveness", "https://en.wiktionary.org/wiki/responsiveness#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
