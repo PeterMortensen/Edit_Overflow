@@ -1268,6 +1268,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Mojave 10.14", "macOS v10.14 (Mojave)");
             correctionAdd("Mac OS Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("mac Mojave", "macOS v10.14 (Mojave)");
+            correctionAdd("macOS 10.14", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -8512,6 +8513,7 @@ namespace OverflowHelper.core
             correctionAdd("byte order mark", "BOM");
             correctionAdd("Byte Order Mark", "BOM");
             correctionAdd("B.O.M", "BOM");
+            correctionAdd("Byte order mark", "BOM");
 
             correctionAdd("ffmpeg", "FFmpeg");
             correctionAdd("FFMPEG", "FFmpeg");
@@ -8716,6 +8718,7 @@ namespace OverflowHelper.core
             correctionAdd("out", "output");
             correctionAdd("putput", "output");
             correctionAdd("outptut", "output");
+            correctionAdd("outpout", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -9436,6 +9439,7 @@ namespace OverflowHelper.core
             correctionAdd("unneceserry", "unnecessary");
             correctionAdd("unnecesserry", "unnecessary");
             correctionAdd("unnecessery", "unnecessary");
+            correctionAdd("un-necessary", "unnecessary");
 
             correctionAdd("Topcoder", "TopCoder");
             correctionAdd("topcoder", "TopCoder");
@@ -10494,6 +10498,7 @@ namespace OverflowHelper.core
             correctionAdd("w/e", "whatever");
             correctionAdd("whatewer", "whatever");
             correctionAdd("What ever", "whatever");
+            correctionAdd("whaterver", "whatever");
 
             correctionAdd("pydev", "PyDev");
             correctionAdd("Pydev", "PyDev");
@@ -12325,6 +12330,7 @@ namespace OverflowHelper.core
             correctionAdd("claculate", "calculate");
             correctionAdd("calcualte", "calculate");
             correctionAdd("caculate", "calculate");
+            correctionAdd("calculte", "calculate");
 
             correctionAdd("consistantly", "consistently");
 
@@ -14013,6 +14019,7 @@ namespace OverflowHelper.core
             correctionAdd("gettinog", "getting");
             correctionAdd("gettinig", "getting");
             correctionAdd("gettig", "getting");
+            correctionAdd("geting", "getting");
 
             correctionAdd("goel", "goal");
 
@@ -16445,6 +16452,7 @@ namespace OverflowHelper.core
             correctionAdd("recoqnize", "recognise");
             correctionAdd("recgize", "recognise");
             correctionAdd("recogize", "recognise");
+            correctionAdd("regonize", "recognise");
 
             correctionAdd("repeatation", "repetition");
 
@@ -20676,9 +20684,6 @@ namespace OverflowHelper.core
             correctionAdd("engeniring", "engineering");
             correctionAdd("engeneering", "engineering");
 
-            correctionAdd("Enque", "enqueue");
-            correctionAdd("enqueu", "enqueue");
-
             correctionAdd("profit-sharing", "profit sharing");
 
             correctionAdd("scenarions", "scenarios");
@@ -21912,6 +21917,7 @@ namespace OverflowHelper.core
 
             correctionAdd("post man", "Postman");
             correctionAdd("postman", "Postman");
+            correctionAdd("PostMan", "Postman");
 
             correctionAdd("Rabbit MQ", "RabbitMQ");
             correctionAdd("rabbitmq", "RabbitMQ");
@@ -22782,6 +22788,10 @@ namespace OverflowHelper.core
             correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
             correctionAdd("Es 6", "ECMAScript&nbsp;2015");
             correctionAdd("es 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Ecma-Script-6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
 
             correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
@@ -24795,6 +24805,8 @@ namespace OverflowHelper.core
             correctionAdd("Thye", "they");
             correctionAdd("tney", "they");
             correctionAdd("tgey", "they");
+            correctionAdd("Yhey", "they");
+            correctionAdd("yhey", "they");
 
             correctionAdd("transation", "transaction");
 
@@ -25329,6 +25341,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Integration Test", "integration testing");
             correctionAdd("Integration Testing", "integration testing");
+            correctionAdd("Intregration Test", "integration testing");
 
             correctionAdd("GPL v2", "GPLv2");
             correctionAdd("gplv2", "GPLv2");
@@ -27128,10 +27141,14 @@ namespace OverflowHelper.core
             correctionAdd("indexes", "indices");
             correctionAdd("indicies", "indices");
 
+            correctionAdd("Enque", "enqueue");
+            correctionAdd("enqueu", "enqueue");
+
             correctionAdd("jumped the queue", "jump the queue");
             correctionAdd("jumped the cue", "jump the queue");
 
             correctionAdd("cue", "queue");
+            correctionAdd("que", "queue");
 
             correctionAdd("scenerio", "scenario");
 
@@ -28595,6 +28612,8 @@ namespace OverflowHelper.core
             correctionAdd("re-frame", "reframe");
 
             correctionAdd("re-load", "reload");
+            correctionAdd("Relaod", "reload");
+            correctionAdd("relaod", "reload");
 
             correctionAdd("rigit", "rigid");
 
@@ -30394,6 +30413,11 @@ namespace OverflowHelper.core
             correctionAdd("over done", "overdone");
 
             correctionAdd("responsivness", "responsiveness");
+
+            correctionAdd("fortran 90", "Fortran 90");
+            correctionAdd("fortran90", "Fortran 90");
+
+            correctionAdd("FCRON", "fcron");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47803,6 +47827,10 @@ namespace OverflowHelper.core
             URL_Add("overdone", "https://en.wiktionary.org/wiki/overdo#Verb");
 
             URL_Add("responsiveness", "https://en.wiktionary.org/wiki/responsiveness#Noun");
+
+            URL_Add("Fortran 90", "https://en.wikipedia.org/wiki/Fortran#Fortran_90");
+
+            URL_Add("fcron", "https://en.wikipedia.org/wiki/Fcron");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
