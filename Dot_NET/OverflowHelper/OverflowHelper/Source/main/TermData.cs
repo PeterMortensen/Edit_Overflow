@@ -16340,8 +16340,9 @@ namespace OverflowHelper.core
             correctionAdd("reasonml", "Reason");
             correctionAdd("ReasonML", "Reason");
 
-            correctionAdd("RPN", "Reverse Polish notation");
-            correctionAdd("reverse-polish", "Reverse Polish notation");
+            correctionAdd("RPN", "reverse Polish notation");
+            correctionAdd("reverse-polish", "reverse Polish notation");
+            correctionAdd("Reverse Polish notation", "reverse Polish notation");
 
             correctionAdd("svelte", "Svelte");
 
@@ -26551,8 +26552,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Matrix", "The Matrix");
 
-            correctionAdd("academia", "achademia");
-            correctionAdd("achedemia", "achademia");
+            correctionAdd("achademia", "academia");
+            correctionAdd("achedemia", "academia");
 
             correctionAdd("analist", "analyst");
             correctionAdd("annalist", "analyst");
@@ -35312,7 +35313,7 @@ namespace OverflowHelper.core
 
             URL_Add("overwritten", "https://en.wiktionary.org/wiki/overwritten#Verb");
 
-            URL_Add("personal access token", "https://microclimate.dev/creatingpat");
+            URL_Add("personal access token", "https://en.wikipedia.org/wiki/Personal_access_token"); // Old: https://microclimate.dev/creatingpat
 
             URL_Add("repetitive", "https://en.wiktionary.org/wiki/repetitive#Adjective");
 
@@ -37793,7 +37794,7 @@ namespace OverflowHelper.core
 
             URL_Add("Reason", "https://en.wikipedia.org/wiki/Reason_(programming_language)");
 
-            URL_Add("Reverse Polish notation", "https://en.wikipedia.org/wiki/Reverse_Polish_notation");
+            URL_Add("reverse Polish notation", "https://en.wikipedia.org/wiki/Reverse_Polish_notation");
 
             URL_Add("Svelte", "https://en.wikipedia.org/wiki/Svelte");
 
@@ -44637,7 +44638,7 @@ namespace OverflowHelper.core
 
             URL_Add("The Matrix", "https://en.wikipedia.org/wiki/The_Matrix");
 
-            URL_Add("achademia", "https://en.wiktionary.org/wiki/academia#Noun");
+            URL_Add("academia", "https://en.wiktionary.org/wiki/academia#Noun");
 
             URL_Add("analyst", "https://en.wiktionary.org/wiki/analyst#Noun");
 
