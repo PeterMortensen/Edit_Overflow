@@ -2937,6 +2937,7 @@ namespace OverflowHelper.core
             correctionAdd("stackexChange", "Stack&nbsp;Exchange");
             correctionAdd("Stack-exchanged", "Stack&nbsp;Exchange");
             correctionAdd("Stack-exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack excange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -4644,6 +4645,7 @@ namespace OverflowHelper.core
             correctionAdd("deb", "Debian");
             correctionAdd("Debain", "Debian");
             correctionAdd("debain", "Debian");
+            correctionAdd("DEBIAN", "Debian");
 
             correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
             correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
@@ -12428,6 +12430,8 @@ namespace OverflowHelper.core
             correctionAdd("over writen", "overwritten");
 
             correctionAdd("Personal Access Token", "personal access token");
+            correctionAdd("Personal access token", "personal access token");
+            correctionAdd("PAT", "personal access token");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -14608,6 +14612,7 @@ namespace OverflowHelper.core
             correctionAdd("seomthing", "something");
             correctionAdd("somrthing", "something");
             correctionAdd("smt", "something");
+            correctionAdd("somethimg", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -28260,6 +28265,7 @@ namespace OverflowHelper.core
             correctionAdd("humerous", "humorous");
 
             correctionAdd("inculded", "included");
+            correctionAdd("includede", "included");
 
             correctionAdd("kt", "knot");
             correctionAdd("kn", "knot");
@@ -30418,6 +30424,13 @@ namespace OverflowHelper.core
             correctionAdd("fortran90", "Fortran 90");
 
             correctionAdd("FCRON", "fcron");
+
+            correctionAdd("fajans' rules", "Fajans' rules");
+
+            correctionAdd("linode", "Linode");
+
+            correctionAdd("Beryllium", "beryllium");
+            correctionAdd("Be", "beryllium");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47831,6 +47844,12 @@ namespace OverflowHelper.core
             URL_Add("Fortran 90", "https://en.wikipedia.org/wiki/Fortran#Fortran_90");
 
             URL_Add("fcron", "https://en.wikipedia.org/wiki/Fcron");
+
+            URL_Add("Fajans' rules", "https://en.wikipedia.org/wiki/Fajans'_rules");
+
+            URL_Add("Linode", "https://en.wikipedia.org/wiki/Linode");
+
+            URL_Add("beryllium", "https://en.wikipedia.org/wiki/Beryllium");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
