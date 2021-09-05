@@ -3466,6 +3466,7 @@ namespace OverflowHelper.core
             correctionAdd("develepor", "developer");
             correctionAdd("deloper", "developer");
             correctionAdd("develeoper", "developer");
+            correctionAdd("Developper", "developer");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -6656,6 +6657,7 @@ namespace OverflowHelper.core
             correctionAdd("previllage", "privilege");
             correctionAdd("previllege", "privilege");
             correctionAdd("Priviledge", "privilege");
+            correctionAdd("priviledges", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -9372,11 +9374,6 @@ namespace OverflowHelper.core
             correctionAdd("tantelum", "tantalum capacitor");
             correctionAdd("tantalum", "tantalum capacitor");
 
-            correctionAdd("knowlege", "knowledge");
-            correctionAdd("knowlodge", "knowledge");
-            correctionAdd("KNAWLEDGE", "knowledge");
-            correctionAdd("knawledge", "knowledge");
-
             correctionAdd("necessaraily", "necessarily");
             correctionAdd("nessessarily", "necessarily");
             correctionAdd("neccesarily", "necessarily");
@@ -9621,8 +9618,14 @@ namespace OverflowHelper.core
 
             correctionAdd("mvvm", "MVVM");
 
+            correctionAdd("knowlege", "knowledge");
+            correctionAdd("knowlodge", "knowledge");
+            correctionAdd("KNAWLEDGE", "knowledge");
+            correctionAdd("knawledge", "knowledge");
+
             correctionAdd("edge", "Edge");
             correctionAdd("EDGE", "Edge");
+            correctionAdd("Microsoft Edge", "Edge");
 
             correctionAdd("android studio", "Android Studio");
             correctionAdd("AS", "Android Studio");
@@ -11114,6 +11117,7 @@ namespace OverflowHelper.core
             correctionAdd("GIT extensions", "Git Extensions");
             correctionAdd("GIT ext", "Git Extensions");
             correctionAdd("git extension", "Git Extensions");
+            correctionAdd("GitExtension", "Git Extensions");
 
             correctionAdd("invoke-expression", "Invoke-Expression");
             correctionAdd("Invoke-expression", "Invoke-Expression");
@@ -11972,6 +11976,7 @@ namespace OverflowHelper.core
             correctionAdd("Propably", "probably");
             correctionAdd("propably", "probably");
             correctionAdd("porb", "probably");
+            correctionAdd("proably", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -12432,6 +12437,7 @@ namespace OverflowHelper.core
             correctionAdd("Personal Access Token", "personal access token");
             correctionAdd("Personal access token", "personal access token");
             correctionAdd("PAT", "personal access token");
+            correctionAdd("P.A.T", "personal access token");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -12914,6 +12920,7 @@ namespace OverflowHelper.core
             correctionAdd("O/W", "otherwise");
             correctionAdd("Elsewise", "otherwise");
             correctionAdd("elsewise", "otherwise");
+            correctionAdd("ohterwise", "otherwise");
 
             correctionAdd("res", "resolution");
 
@@ -13657,6 +13664,7 @@ namespace OverflowHelper.core
             correctionAdd("Object Orientated", "object-oriented (OO)");
             correctionAdd("Object-Orientated", "object-oriented (OO)");
             correctionAdd("object-orientated", "object-oriented (OO)");
+            correctionAdd("object-oriented", "object-oriented (OO)");
 
             correctionAdd("obselete", "obsolete");
 
@@ -16104,6 +16112,7 @@ namespace OverflowHelper.core
             correctionAdd("goto", "go to");
             correctionAdd("Goto", "go to");
             correctionAdd("Go to", "go to");
+            correctionAdd("got to", "go to");
 
             correctionAdd("inbetween", "in-between");
             correctionAdd("in between", "in-between");
@@ -16675,6 +16684,7 @@ namespace OverflowHelper.core
             correctionAdd("comandline", "command line");
             correctionAdd("Commandline", "command line");
             correctionAdd("cmd line", "command line");
+            correctionAdd("CL", "command line");
 
             correctionAdd("yeoman", "Yeoman");
 
@@ -19067,6 +19077,7 @@ namespace OverflowHelper.core
             correctionAdd("acces token", "access token");
             correctionAdd("access-token", "access token");
             correctionAdd("acces-token", "access token");
+            correctionAdd("Access Token", "access token");
 
             correctionAdd("controlller", "controller");
             correctionAdd("Controlller", "controller");
@@ -24009,6 +24020,7 @@ namespace OverflowHelper.core
             correctionAdd("van't Hoff's", "van 't Hoff");
 
             correctionAdd("writeup", "write-up");
+            correctionAdd("write up", "write-up");
 
             correctionAdd("gofundme", "GoFundMe");
 
@@ -24307,6 +24319,8 @@ namespace OverflowHelper.core
             correctionAdd("macOS Big Sur", "macOS v11 (Big Sur)");
             correctionAdd("macOS BIG SUR", "macOS v11 (Big Sur)");
             correctionAdd("BIG SUR", "macOS v11 (Big Sur)");
+            correctionAdd("Mac OS Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS v11", "macOS v11 (Big Sur)");
 
             correctionAdd("single core", "single-core");
 
@@ -28378,6 +28392,7 @@ namespace OverflowHelper.core
             correctionAdd("double quoted", "double-quoted");
 
             correctionAdd("enties", "entries");
+            correctionAdd("entrees", "entries");
 
             correctionAdd("sorta", "sort of");
 
@@ -30432,6 +30447,37 @@ namespace OverflowHelper.core
 
             correctionAdd("Beryllium", "beryllium");
             correctionAdd("Be", "beryllium");
+
+            correctionAdd("CRA", "Create React App");
+            correctionAdd("create-react-app", "Create React App");
+
+            correctionAdd("Credential manager", "Credential Manager");
+            correctionAdd("credential manager", "Credential Manager");
+            correctionAdd("Credentials manager", "Credential Manager");
+
+            correctionAdd("mikroORM", "MikroORM");
+
+            correctionAdd("moment.js", "Moment.js");
+            correctionAdd("Momentjs", "Moment.js");
+
+            correctionAdd("Strapi CMS", "Strapi");
+
+            correctionAdd("aplicable", "applicable");
+
+            correctionAdd("Authenticate", "authenticate");
+
+            correctionAdd("calrity", "clarity");
+
+            correctionAdd("dam", "damn");
+
+            correctionAdd("hand-wavy", "handwavy");
+
+            correctionAdd("life-time", "lifetime");
+            correctionAdd("life time", "lifetime");
+
+            correctionAdd("mockup", "mock-up");
+
+            correctionAdd("Token", "token");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47851,6 +47897,32 @@ namespace OverflowHelper.core
             URL_Add("Linode", "https://en.wikipedia.org/wiki/Linode");
 
             URL_Add("beryllium", "https://en.wikipedia.org/wiki/Beryllium");
+
+            URL_Add("Create React App", "https://create-react-app.dev/docs/getting-started/");
+
+            URL_Add("Credential Manager", "https://www.techradar.com/uk/news/what-is-windows-credential-manager");
+
+            URL_Add("MikroORM", "https://github.com/mikro-orm/mikro-orm");
+
+            URL_Add("Moment.js", "https://momentjs.com/");
+
+            URL_Add("Strapi", "https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project");
+
+            URL_Add("applicable", "https://en.wiktionary.org/wiki/applicable#Adjective");
+
+            URL_Add("authenticate", "https://en.wiktionary.org/wiki/authenticate#Verb");
+
+            URL_Add("clarity", "https://en.wiktionary.org/wiki/clarity#Noun");
+
+            URL_Add("damn", "https://en.wiktionary.org/wiki/damn#Adjective");
+
+            URL_Add("handwavy", "https://en.wiktionary.org/wiki/handwavy#Adjective");
+
+            URL_Add("lifetime", "https://en.wiktionary.org/wiki/lifetime#Noun");
+
+            URL_Add("mock-up", "https://en.wiktionary.org/wiki/mockup#Noun");
+
+            URL_Add("token", "https://en.wiktionary.org/wiki/token#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
