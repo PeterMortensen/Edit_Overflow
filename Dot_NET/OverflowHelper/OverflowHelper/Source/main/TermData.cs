@@ -1071,6 +1071,7 @@ namespace OverflowHelper.core
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("Macintosh", "Mac");
+            correctionAdd("MaC", "Mac");
 
             correctionAdd("Mac OS X v10.2 (Jaguar)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"); // Sort of identity mapping
             correctionAdd("Jaguar", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
@@ -15514,6 +15515,7 @@ namespace OverflowHelper.core
 
             correctionAdd("proced", "proceed");
             correctionAdd("procede", "proceed");
+            correctionAdd("procced", "proceed");
 
             correctionAdd("programatical", "programmatical");
 
@@ -16685,6 +16687,8 @@ namespace OverflowHelper.core
             correctionAdd("Commandline", "command line");
             correctionAdd("cmd line", "command line");
             correctionAdd("CL", "command line");
+            correctionAdd("CommandLine", "command line");
+            correctionAdd("Command Line", "command line");
 
             correctionAdd("yeoman", "Yeoman");
 
@@ -30478,6 +30482,8 @@ namespace OverflowHelper.core
             correctionAdd("mockup", "mock-up");
 
             correctionAdd("Token", "token");
+
+            correctionAdd("dart-pad", "DartPad");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47923,6 +47929,8 @@ namespace OverflowHelper.core
             URL_Add("mock-up", "https://en.wiktionary.org/wiki/mockup#Noun");
 
             URL_Add("token", "https://en.wiktionary.org/wiki/token#Noun");
+
+            URL_Add("DartPad", "https://dart.dev/tools/dartpad");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
