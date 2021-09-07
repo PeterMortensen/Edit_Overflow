@@ -3898,6 +3898,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ram", "RAM");
             correctionAdd("Ram", "RAM");
+            correctionAdd("RAm", "RAM");
 
             correctionAdd("rake", "Rake");
 
@@ -5030,10 +5031,11 @@ namespace OverflowHelper.core
             correctionAdd("amazon aws", "Amazon AWS");
             correctionAdd("Aws", "Amazon AWS");
 
-            correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com.
+            correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
             correctionAdd("Amazon", "Amazon DOT com");
             correctionAdd("amazon.com", "Amazon DOT com");
             correctionAdd("AMZN", "Amazon DOT com");
+            correctionAdd("amzon", "Amazon DOT com");
 
             correctionAdd("VB.Net", "VB.NET");
             correctionAdd("Vb.Net", "VB.NET");
@@ -10016,6 +10018,7 @@ namespace OverflowHelper.core
             correctionAdd("dinamycally", "dynamically");
             correctionAdd("dinamically", "dynamically");
             correctionAdd("dynamicaly", "dynamically");
+            correctionAdd("dinamicaly", "dynamically");
 
             correctionAdd("beyong", "beyond");
 
@@ -18669,6 +18672,7 @@ namespace OverflowHelper.core
             correctionAdd("ametur", "amateur");
             correctionAdd("aimiture", "amateur");
             correctionAdd("amataur", "amateur");
+            correctionAdd("amatuer", "amateur");
 
             correctionAdd("entierly", "entirely");
             correctionAdd("intirely", "entirely");
@@ -18909,6 +18913,7 @@ namespace OverflowHelper.core
             correctionAdd("White Dwarf", "white dwarf");
 
             correctionAdd("philosphical", "philosophical");
+            correctionAdd("phylosophical", "philosophical");
 
             correctionAdd("CanIUse", "Can I use");
 
@@ -23761,6 +23766,8 @@ namespace OverflowHelper.core
             correctionAdd("cwd", "current working directory");
             correctionAdd("CWD", "current working directory");
             correctionAdd("pwd", "current working directory");
+            correctionAdd("Current working directory", "current working directory");
+            correctionAdd("Current Working Directory", "current working directory");
 
             correctionAdd("sub directory", "subdirectory");
             correctionAdd("subdir", "subdirectory");
@@ -25914,6 +25921,7 @@ namespace OverflowHelper.core
             correctionAdd("tech", "technology");
             correctionAdd("tecnology", "technology");
             correctionAdd("tecnologie", "technology");
+            correctionAdd("Technology", "technology");
 
             correctionAdd("flake8", "Flake8");
 
@@ -27100,8 +27108,6 @@ namespace OverflowHelper.core
 
             correctionAdd("in a short", "in short");
             correctionAdd("In a short", "in short");
-
-            correctionAdd("inadeqate", "inadequate");
 
             correctionAdd("KILL", "kill");
 
@@ -28582,6 +28588,9 @@ namespace OverflowHelper.core
 
             correctionAdd("TexMaker", "Texmaker");
 
+            correctionAdd("inadeqate", "inadequate");
+
+            correctionAdd("adecuate", "adequate");
             correctionAdd("aduquate", "adequate");
 
             correctionAdd("inherites", "inherits");
@@ -30484,6 +30493,20 @@ namespace OverflowHelper.core
             correctionAdd("Token", "token");
 
             correctionAdd("dart-pad", "DartPad");
+
+            correctionAdd("abc", "ABC");
+
+            correctionAdd("Constitutionally", "constitutionally");
+
+            correctionAdd("listner", "listener");
+
+            correctionAdd("Science", "science");
+
+            correctionAdd("Spam", "spam");
+
+            correctionAdd("spoooler", "spoiler");
+            correctionAdd("Sp-oooler", "spoiler");
+            correctionAdd("sp-oooler", "spoiler");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47931,6 +47954,18 @@ namespace OverflowHelper.core
             URL_Add("token", "https://en.wiktionary.org/wiki/token#Noun");
 
             URL_Add("DartPad", "https://dart.dev/tools/dartpad");
+
+            URL_Add("ABC", "https://en.wiktionary.org/wiki/ABC#Noun");
+
+            URL_Add("constitutionally", "https://en.wiktionary.org/wiki/constitutionally#Adverb");
+
+            URL_Add("listener", "https://en.wiktionary.org/wiki/listener#Noun");
+
+            URL_Add("science", "https://en.wiktionary.org/wiki/science#Noun");
+
+            URL_Add("spam", "https://en.wikipedia.org/wiki/Spamming");
+
+            URL_Add("spoiler", "https://en.wiktionary.org/wiki/spoiler#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
