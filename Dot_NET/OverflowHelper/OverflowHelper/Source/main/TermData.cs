@@ -2890,6 +2890,7 @@ namespace OverflowHelper.core
             correctionAdd("STACK OVERFLOW", "Stack&nbsp;Overflow");
             correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
             correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -11101,6 +11102,7 @@ namespace OverflowHelper.core
             correctionAdd("bottum", "bottom");
             correctionAdd("buttum", "bottom");
             correctionAdd("bottem", "bottom");
+            correctionAdd("btwn", "bottom");
 
             // DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
             ////////////////////////////////////////////////////////////////
@@ -12590,6 +12592,7 @@ namespace OverflowHelper.core
             correctionAdd("asc", "ascending");
 
             correctionAdd("genereated", "generated");
+            correctionAdd("genetated", "generated");
 
             correctionAdd("hight", "height");
             correctionAdd("hieght", "height");
@@ -25610,6 +25613,7 @@ namespace OverflowHelper.core
             correctionAdd("Re-emergence", "reemergence");
 
             correctionAdd("speacial", "special");
+            correctionAdd("spcial", "special");
 
             correctionAdd("subcribe", "subscribe");
             correctionAdd("Subcribe", "subscribe");
@@ -26675,6 +26679,7 @@ namespace OverflowHelper.core
             correctionAdd("emty", "empty");
 
             correctionAdd("guidanance", "guidance");
+            correctionAdd("guidence", "guidance");
 
             correctionAdd("isnull", "is_null");
 
@@ -29437,6 +29442,7 @@ namespace OverflowHelper.core
             correctionAdd("Q & A", "Q&A");
 
             correctionAdd("retrofit", "Retrofit");
+            correctionAdd("RetroFit", "Retrofit");
 
             correctionAdd("Type II", "Type II supernova");
 
@@ -30344,6 +30350,7 @@ namespace OverflowHelper.core
             correctionAdd("IPhoto", "iPhoto");
 
             correctionAdd("includ", "include");
+            correctionAdd("inlcude", "include");
 
             correctionAdd("Launchd", "launchd");
 
@@ -30507,6 +30514,37 @@ namespace OverflowHelper.core
             correctionAdd("spoooler", "spoiler");
             correctionAdd("Sp-oooler", "spoiler");
             correctionAdd("sp-oooler", "spoiler");
+
+            correctionAdd("AEM", "Adobe Experience Manager");
+            correctionAdd("aem", "Adobe Experience Manager");
+
+            correctionAdd("free and open-source software", "FOSS");
+            correctionAdd("foss", "FOSS");
+
+            correctionAdd("logisim", "Logisim");
+
+            correctionAdd("ukrainian", "Ukrainian");
+
+            correctionAdd("compenstation", "compensation");
+
+            correctionAdd("confliciting", "conflicting");
+
+            correctionAdd("DNN", "deep neural network");
+            correctionAdd("Deep Neural Network", "deep neural network");
+
+            correctionAdd("agredious", "egregious");
+
+            correctionAdd("FSCK", "fsck");
+
+            correctionAdd("held in chess", "held in check");
+
+            correctionAdd("QE", "quality engineering");
+
+            correctionAdd("RCA", "root cause analysis");
+
+            correctionAdd("taxnomy", "taxonomy");
+
+            correctionAdd("typsetter", "typesetter");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47966,6 +48004,34 @@ namespace OverflowHelper.core
             URL_Add("spam", "https://en.wikipedia.org/wiki/Spamming");
 
             URL_Add("spoiler", "https://en.wiktionary.org/wiki/spoiler#Noun");
+
+            URL_Add("Adobe Experience Manager", "https://en.wikipedia.org/wiki/Adobe_Experience_Cloud#Products");
+
+            URL_Add("FOSS", "https://en.wikipedia.org/wiki/Free_and_open-source_software");
+
+            URL_Add("Logisim", "http://www.cburch.com/logisim/");
+
+            URL_Add("Ukrainian", "https://en.wiktionary.org/wiki/Ukrainian#Proper_noun");
+
+            URL_Add("compensation", "https://en.wiktionary.org/wiki/compensation#Noun");
+
+            URL_Add("conflicting", "https://en.wiktionary.org/wiki/conflicting#Adjective");
+
+            URL_Add("deep neural network", "https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks");
+
+            URL_Add("egregious", "https://en.wiktionary.org/wiki/egregious#Adjective");
+
+            URL_Add("fsck", "https://en.wikipedia.org/wiki/Fsck");
+
+            URL_Add("held in check", "https://en.wiktionary.org/wiki/in_check#Usage_notes");
+
+            URL_Add("quality engineering", "https://en.wikipedia.org/wiki/Quality_engineering");
+
+            URL_Add("root cause analysis", "https://en.wikipedia.org/wiki/Root_cause_analysis");
+
+            URL_Add("taxonomy", "https://en.wiktionary.org/wiki/taxonomy#Noun");
+
+            URL_Add("typesetter", "https://en.wiktionary.org/wiki/typesetter#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
