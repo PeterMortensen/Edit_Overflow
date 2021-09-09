@@ -3351,6 +3351,7 @@ namespace OverflowHelper.core
             correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
             correctionAdd("Distros", "distribution");
             correctionAdd("distritutions", "distribution");
+            correctionAdd("distro's", "distribution");
 
             correctionAdd("soap", "SOAP");
             correctionAdd("Soap", "SOAP");
@@ -9476,6 +9477,7 @@ namespace OverflowHelper.core
             correctionAdd("isn't", "isn’t");
             correctionAdd("is't", "isn’t");
             correctionAdd("is’t", "isn’t");
+            correctionAdd("ISN'T", "isn’t");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -9516,6 +9518,7 @@ namespace OverflowHelper.core
             correctionAdd("2 factor", "two-factor authentication");
             correctionAdd("Two Factor authentication", "two-factor authentication");
             correctionAdd("2fa", "two-factor authentication");
+            correctionAdd("Two factor authentication", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -10438,6 +10441,7 @@ namespace OverflowHelper.core
             correctionAdd("VueJs", "Vue.js");
             correctionAdd("vueJs", "Vue.js");
             correctionAdd("VUE", "Vue.js");
+            correctionAdd("Vue.JS", "Vue.js");
 
             correctionAdd("Farad", "farad");
 
@@ -10984,6 +10988,7 @@ namespace OverflowHelper.core
             correctionAdd("f1st", "first");
             correctionAdd("firs", "first");
             correctionAdd("fisrt", "first");
+            correctionAdd("firts", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -11190,6 +11195,7 @@ namespace OverflowHelper.core
             correctionAdd("anser", "answer");
             correctionAdd("ansew", "answer");
             correctionAdd("answerd", "answer");
+            correctionAdd("aswer", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -12444,6 +12450,7 @@ namespace OverflowHelper.core
             correctionAdd("Personal access token", "personal access token");
             correctionAdd("PAT", "personal access token");
             correctionAdd("P.A.T", "personal access token");
+            correctionAdd("Personal Access token", "personal access token");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -16483,6 +16490,7 @@ namespace OverflowHelper.core
             correctionAdd("Yelllow", "yellow");
 
             correctionAdd("Afghanisthan", "Afghanistan");
+            correctionAdd("afghanistan", "Afghanistan");
 
             correctionAdd("pc", "PC");
 
@@ -24482,6 +24490,7 @@ namespace OverflowHelper.core
             correctionAdd("drys", "dries");
 
             correctionAdd("iFrame", "iframe");
+            correctionAdd("IFRAME", "iframe");
 
             correctionAdd("jealouzy", "jealousy");
 
@@ -25976,6 +25985,7 @@ namespace OverflowHelper.core
 
             correctionAdd("newton raphson", "Newton–Raphson");
             correctionAdd("Newton's method", "Newton–Raphson");
+            correctionAdd("newton's method", "Newton–Raphson");
 
             correctionAdd("Philosophy", "Philosophy (Stack Exchange site)");
 
@@ -30545,6 +30555,22 @@ namespace OverflowHelper.core
             correctionAdd("taxnomy", "taxonomy");
 
             correctionAdd("typsetter", "typesetter");
+
+            correctionAdd("akkeris", "Akkeris");
+
+            correctionAdd("circleci", "CircleCI");
+
+            correctionAdd("cling", "Cling");
+
+            correctionAdd("gitea", "Gitea");
+
+            correctionAdd("Nord VPN", "NordVPN");
+
+            correctionAdd("taylor series", "Taylor series");
+
+            correctionAdd("plaintext", "plain text");
+
+            correctionAdd("re-generate", "regenerate");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48032,6 +48058,22 @@ namespace OverflowHelper.core
             URL_Add("taxonomy", "https://en.wiktionary.org/wiki/taxonomy#Noun");
 
             URL_Add("typesetter", "https://en.wiktionary.org/wiki/typesetter#Noun");
+
+            URL_Add("Akkeris", "https://beta.akkeris.io/features.html");
+
+            URL_Add("CircleCI", "https://circleci.com/about/");
+
+            URL_Add("Cling", "https://en.wikipedia.org/wiki/CINT");
+
+            URL_Add("Gitea", "https://en.wikipedia.org/wiki/Gitea");
+
+            URL_Add("NordVPN", "https://en.wikipedia.org/wiki/NordVPN");
+
+            URL_Add("Taylor series", "https://en.wikipedia.org/wiki/Taylor_series");
+
+            URL_Add("plain text", "https://en.wiktionary.org/wiki/plain_text#Noun");
+
+            URL_Add("regenerate", "https://en.wiktionary.org/wiki/regenerate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
