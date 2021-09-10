@@ -9519,6 +9519,7 @@ namespace OverflowHelper.core
             correctionAdd("Two Factor authentication", "two-factor authentication");
             correctionAdd("2fa", "two-factor authentication");
             correctionAdd("Two factor authentication", "two-factor authentication");
+            correctionAdd("2FO", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -15906,6 +15907,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
+            correctionAdd("sorrounding", "surrounding");
 
             correctionAdd("synchronious", "synchronous");
             correctionAdd("syncroniuous", "synchronous");
@@ -30032,6 +30034,7 @@ namespace OverflowHelper.core
             correctionAdd("In my humble opinion", "in my humble opinion");
 
             correctionAdd("the powers", "the powers that be");
+            correctionAdd("TPTB", "the powers that be");
 
             correctionAdd("Un-addressed", "unaddressed");
             correctionAdd("un-addressed", "unaddressed");
@@ -30571,6 +30574,22 @@ namespace OverflowHelper.core
             correctionAdd("plaintext", "plain text");
 
             correctionAdd("re-generate", "regenerate");
+
+            correctionAdd("lulu", "Lulu");
+
+            correctionAdd("oauth 2", "OAuth 2");
+            correctionAdd("oauth2", "OAuth 2");
+
+            correctionAdd("12 factor app", "Twelve-Factor Application methodology");
+
+            correctionAdd("border-line", "borderline");
+            correctionAdd("Border case", "borderline");
+            correctionAdd("border case", "borderline");
+            correctionAdd("border line", "borderline");
+
+            correctionAdd("heatmap", "heat map");
+
+            correctionAdd("sereal", "serial");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48074,6 +48093,18 @@ namespace OverflowHelper.core
             URL_Add("plain text", "https://en.wiktionary.org/wiki/plain_text#Noun");
 
             URL_Add("regenerate", "https://en.wiktionary.org/wiki/regenerate#Verb");
+
+            URL_Add("Lulu", "https://en.wikipedia.org/wiki/Lulu.com");
+
+            URL_Add("OAuth 2", "https://en.wikipedia.org/wiki/OAuth#OAuth_2.0");
+
+            URL_Add("Twelve-Factor Application methodology", "https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology");
+
+            URL_Add("borderline", "https://en.wiktionary.org/wiki/borderline#Adjective");
+
+            URL_Add("heat map", "https://en.wiktionary.org/wiki/heat_map#Noun");
+
+            URL_Add("serial", "https://en.wiktionary.org/wiki/serial#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
