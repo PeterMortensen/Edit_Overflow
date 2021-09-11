@@ -1875,6 +1875,7 @@ namespace OverflowHelper.core
 
             correctionAdd("adblock", "Adblock");
             correctionAdd("AdBlock", "Adblock");
+            correctionAdd("adBlock", "Adblock");
 
             correctionAdd("matplotlib", "Matplotlib");
             correctionAdd("MatPlotLib", "Matplotlib");
@@ -2016,12 +2017,6 @@ namespace OverflowHelper.core
             correctionAdd("Worpress", "WordPress");
 
             correctionAdd("ssl", "SSL");
-
-            // Not actually observed.
-            correctionAdd("webkit", "WebKit");
-            correctionAdd("Webkit", "WebKit");
-            correctionAdd("webKit", "WebKit");
-            correctionAdd("web kit", "WebKit");
 
             correctionAdd("arduino", "Arduino");
             correctionAdd("arduion", "Arduino");
@@ -5135,10 +5130,6 @@ namespace OverflowHelper.core
             correctionAdd("gent0o", "Gentoo Linux");
             correctionAdd("gento0", "Gentoo Linux");
 
-            correctionAdd("java webstart", "Java Web Start");
-            correctionAdd("WebStart", "Java Web Start");
-            correctionAdd("Web Start", "Java Web Start");
-
             correctionAdd("APACHE", "Apache HTTP Server");
             correctionAdd("apache", "Apache HTTP Server");
             correctionAdd("Appache", "Apache HTTP Server");
@@ -6537,8 +6528,6 @@ namespace OverflowHelper.core
             correctionAdd("signal r", "SignalR");
             correctionAdd("Signal R", "SignalR");
 
-            correctionAdd("webOS", "WebOS");
-
             correctionAdd("LabView", "LabVIEW");
             correctionAdd("Labview", "LabVIEW");
             correctionAdd("labview", "LabVIEW");
@@ -7002,24 +6991,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GP", "Group Policy");
 
-            correctionAdd("Web-app", "web application");
-            correctionAdd("web-app", "web application");
-            correctionAdd("web app", "web application");
-            correctionAdd("webapp", "web application");
-            correctionAdd("webApp", "web application");
-            correctionAdd("Web app", "web application");
-            correctionAdd("Web App", "web application");
-            correctionAdd("WebApp", "web application");
-            correctionAdd("Web-Apps", "web application"); // Plural, to avoid
-            // nearly duplicate entries.
-            correctionAdd("Web Application", "web application");
-            correctionAdd("web-application", "web application");
-            correctionAdd("Web-App", "web application");
-            correctionAdd("Webapplication", "web application");
-            correctionAdd("webapplication", "web application");
-            correctionAdd("web APP", "web application");
-            correctionAdd("Web application", "web application");
-
             correctionAdd("Libusb", "libusb");
             correctionAdd("libUsb", "libusb");
             correctionAdd("LibUsb", "libusb");
@@ -7223,10 +7194,6 @@ namespace OverflowHelper.core
             correctionAdd("CK Editor", "CKEditor");
             correctionAdd("Ck Editor", "CKEditor");
 
-            correctionAdd("Webpage", "web page");
-            correctionAdd("webpage", "web page");
-            correctionAdd("web-page", "web page");
-
             correctionAdd("map/reduce", "MapReduce");
             correctionAdd("Map/Reduce", "MapReduce");
             correctionAdd("Map/reduce", "MapReduce");
@@ -7234,15 +7201,6 @@ namespace OverflowHelper.core
             correctionAdd("mapreduce", "MapReduce");
 
             correctionAdd("hdfs", "HDFS");
-
-            correctionAdd("WebSockets", "WebSocket");
-            correctionAdd("Websocket", "WebSocket");
-            correctionAdd("websocket", "WebSocket");
-            correctionAdd("websockets", "WebSocket");
-            correctionAdd("WebSocktes", "WebSocket"); // Misspelling.
-            correctionAdd("web sockets", "WebSocket");
-            correctionAdd("Websockets", "WebSocket");
-            correctionAdd("webSocket", "WebSocket");
 
             correctionAdd("of cource", "of course");
             correctionAdd("Of cource", "of course"); // Not 100% correct (case)
@@ -8563,15 +8521,6 @@ namespace OverflowHelper.core
             correctionAdd("salesforce", "Salesforce");
             correctionAdd("sales force", "Salesforce");
 
-            correctionAdd("WEB API", "Web API");
-            correctionAdd("WebAPI", "Web API");
-            correctionAdd("web API", "Web API");
-            correctionAdd("webapi", "Web API");
-            correctionAdd("web api", "Web API");
-            correctionAdd("WebApi", "Web API");
-            correctionAdd("Web Api", "Web API");
-            correctionAdd("web Api", "Web API");
-
             correctionAdd("duck-typing", "duck typing");
             correctionAdd("Duck Typing", "duck typing");
             correctionAdd("Duck typing", "duck typing");
@@ -8609,9 +8558,6 @@ namespace OverflowHelper.core
 
             correctionAdd("puppy linux", "Puppy Linux");
             correctionAdd("Puppy", "Puppy Linux");
-
-            correctionAdd("webrtc", "WebRTC");
-            correctionAdd("webRTC", "WebRTC");
 
             correctionAdd("puppet", "Puppet");
 
@@ -9721,6 +9667,7 @@ namespace OverflowHelper.core
             correctionAdd("comparission", "comparison");
             correctionAdd("Comparrison", "comparison");
             correctionAdd("comaparision", "comparison");
+            correctionAdd("comparaison", "comparison");
 
             correctionAdd("quesition", "question");
             correctionAdd("thread", "question");
@@ -10637,12 +10584,6 @@ namespace OverflowHelper.core
             correctionAdd("mantained", "maintained");
             correctionAdd("maintaned", "maintained");
 
-            correctionAdd("WebStrom", "WebStorm");
-            correctionAdd("Webstorm", "WebStorm");
-            correctionAdd("webstorm", "WebStorm");
-            correctionAdd("Web Storm", "WebStorm");
-            correctionAdd("webstrome", "WebStorm");
-
             correctionAdd("gonna", "is going to");
             correctionAdd("gunna", "is going to");
             correctionAdd("gona", "is going to");
@@ -10658,9 +10599,6 @@ namespace OverflowHelper.core
 
             correctionAdd("who's", "whose");
             correctionAdd("who’s", "whose");
-
-            correctionAdd("webgl", "WebGL");
-            correctionAdd("Web GL", "WebGL");
 
             correctionAdd("accidently", "accidentally");
             correctionAdd("accidentaly", "accidentally");
@@ -11737,6 +11675,7 @@ namespace OverflowHelper.core
             correctionAdd("2st", "second");
             correctionAdd("Secon", "second");
             correctionAdd("secon", "second");
+            correctionAdd("segs", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -12463,11 +12402,6 @@ namespace OverflowHelper.core
             correctionAdd("Undefined Behavior", "undefined behaviour");
 
             correctionAdd("TI", "Texas Instruments");
-
-            correctionAdd("webpack", "Webpack");
-            correctionAdd("WebPack", "Webpack");
-            correctionAdd("Web pack", "Webpack");
-            correctionAdd("web pack", "Webpack");
 
             correctionAdd("Ad Hoc", "ad hoc");
             correctionAdd("adhoc", "ad hoc");
@@ -14797,9 +14731,6 @@ namespace OverflowHelper.core
             correctionAdd("Cmdr", "Cmder");
             correctionAdd("cmder", "Cmder");
 
-            correctionAdd("webdav", "WebDAV");
-            correctionAdd("WebDav", "WebDAV");
-
             correctionAdd("cleanup", "clean up");
             correctionAdd("clean-up", "clean up");
             correctionAdd("Cleanup", "clean up");
@@ -15505,19 +15436,6 @@ namespace OverflowHelper.core
 
             correctionAdd("silex", "Silex");
 
-            correctionAdd("Wasm", "WebAssembly");
-            correctionAdd("WASM", "WebAssembly");
-            correctionAdd("web assembly", "WebAssembly");
-            correctionAdd("webassembly", "WebAssembly");
-            correctionAdd("wasm", "WebAssembly");
-            correctionAdd("webasm", "WebAssembly");
-            correctionAdd("web asm", "WebAssembly");
-            correctionAdd("Web assembly", "WebAssembly");
-            correctionAdd("Webassembly", "WebAssembly");
-            correctionAdd("WebAsm", "WebAssembly");
-
-            correctionAdd("webvr", "WebVR");
-
             correctionAdd("aestetics", "aesthetics");
             correctionAdd("esthetics", "aesthetics");
             correctionAdd("estetics", "aesthetics");
@@ -16174,8 +16092,6 @@ namespace OverflowHelper.core
             correctionAdd("timeframe", "time frame");
 
             correctionAdd("trigging", "triggering");
-
-            correctionAdd("webservers", "web servers");
 
             correctionAdd("WRT", "with respect to");
             correctionAdd("Wrt", "with respect to");
@@ -18303,6 +18219,7 @@ namespace OverflowHelper.core
             correctionAdd("Java7", "Java&nbsp;7");
             correctionAdd("java 7", "Java&nbsp;7");
             correctionAdd("Java 7", "Java&nbsp;7"); // Sort of self
+            correctionAdd("java7", "Java&nbsp;7");
 
             correctionAdd("java 8", "Java&nbsp;8");
             correctionAdd("Java8", "Java&nbsp;8");
@@ -18352,9 +18269,6 @@ namespace OverflowHelper.core
             correctionAdd("tco", "TCO");
 
             correctionAdd("toronto", "Toronto");
-
-            correctionAdd("webflow", "Webflow");
-            correctionAdd("WEBFLOW", "Webflow");
 
             correctionAdd("attemptig", "attempting");
 
@@ -18694,15 +18608,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Razor Pages", "Razor pages");
 
-            correctionAdd("web forms", "Web Forms");
-            correctionAdd("webforms", "Web Forms");
-
             correctionAdd("october cms", "October (CMS)");
 
             correctionAdd("SSH2", "SSH-2");
             correctionAdd("SSH 2", "SSH-2");
-
-            correctionAdd("WHM", "WebHost Manager");
 
             correctionAdd("concact", "contact");
 
@@ -19153,9 +19062,6 @@ namespace OverflowHelper.core
             correctionAdd("opertation", "operation");
 
             correctionAdd("re-size", "resize");
-
-            correctionAdd("web cam", "webcam");
-            correctionAdd("WebCam", "webcam");
 
             correctionAdd("802.11 b", "802.11b");
             correctionAdd("802.1b", "802.11b");
@@ -20486,12 +20392,6 @@ namespace OverflowHelper.core
 
             correctionAdd("usefullness", "usefulness");
 
-            correctionAdd("Web SE", "Web Applications (Stack Exchange site)");
-            correctionAdd("WebApps.StackExchange", "Web Applications (Stack Exchange site)");
-            correctionAdd("WebApps", "Web Applications (Stack Exchange site)");
-            correctionAdd("Web Apps", "Web Applications (Stack Exchange site)");
-            correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
-
             // Of PowerShell...
             correctionAdd("get-process", "Get-Process");
             correctionAdd("Get-process", "Get-Process");
@@ -20563,10 +20463,6 @@ namespace OverflowHelper.core
             correctionAdd("cassini", "Cassini web server");
             correctionAdd("cassini web server", "Cassini web server");
             correctionAdd("Cassini", "Cassini web server");
-
-            correctionAdd("webserver", "web server");
-            correctionAdd("Web Server", "web server");
-            correctionAdd("web-server", "web server");
 
             correctionAdd("fahrenheit", "Fahrenheit");
             correctionAdd("Farenheit", "Fahrenheit");
@@ -21780,8 +21676,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tuesday", "Tuesday");
 
-            correctionAdd("webwork", "WebWork");
-
             correctionAdd("ading", "adding");
             correctionAdd("addind", "adding");
 
@@ -22508,8 +22402,6 @@ namespace OverflowHelper.core
             correctionAdd("Ni–MH", "NiMH");
             correctionAdd("nimh", "NiMH");
 
-            correctionAdd("webp", "WebP");
-
             correctionAdd("germaine", "germane");
 
             correctionAdd("Chatzilla", "ChatZilla");
@@ -22547,8 +22439,6 @@ namespace OverflowHelper.core
 
             correctionAdd("whaching", "watching");
             correctionAdd("wathing", "watching");
-
-            correctionAdd("WebHook", "webhook");
 
             correctionAdd("euler", "Euler");
 
@@ -22743,22 +22633,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ChaiJS", "Chai");
             correctionAdd("chai", "Chai");
-
-            correctionAdd("selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
-            correctionAdd("selenium webdriver", "Selenium WebDriver");
-            correctionAdd("selenium web driver", "Selenium WebDriver");
-            correctionAdd("Selenium webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
-            correctionAdd("webdriver", "Selenium WebDriver");
-            correctionAdd("WebDriver", "Selenium WebDriver");
-            correctionAdd("webDriver", "Selenium WebDriver");
-            correctionAdd("selenium WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium web-driver", "Selenium WebDriver");
-            correctionAdd("Selenium WD", "Selenium WebDriver");
 
             correctionAdd("litteral", "literal");
             correctionAdd("leteral", "literal");
@@ -24204,9 +24078,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spureous", "spurious");
 
-            correctionAdd("webscraping", "web scraping");
-            correctionAdd("web-scraping", "web scraping");
-
             correctionAdd("re-launch", "relaunch");
 
             correctionAdd("apophis", "Apophis");
@@ -24419,6 +24290,7 @@ namespace OverflowHelper.core
 
             correctionAdd("elemnet", "element");
             correctionAdd("elemnt", "element");
+            correctionAdd("elelment", "element");
 
             correctionAdd("gut feel", "gut feeling");
 
@@ -24454,12 +24326,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Touchpad", "touchpad");
             correctionAdd("TouchPad", "touchpad");
-
-            correctionAdd("Web browser", "web browser");
-            correctionAdd("Web Browser", "web browser");
-            correctionAdd("Web-Browser", "web browser");
-            correctionAdd("webbrowser", "web browser");
-            correctionAdd("WebBrowser", "web browser");
 
             correctionAdd("check box", "checkbox");
             correctionAdd("check-box", "checkbox");
@@ -24707,9 +24573,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rlua", "RLua");
 
-            correctionAdd("Weblogic", "WebLogic");
-            correctionAdd("weblogic", "WebLogic");
-
             correctionAdd("fees", "feels");
 
             correctionAdd("fallowed", "followed");
@@ -24939,8 +24802,6 @@ namespace OverflowHelper.core
             correctionAdd("expence", "expense");
 
             correctionAdd("good manner", "good manners");
-
-            correctionAdd("Websphere", "WebSphere");
 
             correctionAdd("no where", "nowhere");
             correctionAdd("nowehre", "nowhere");
@@ -25535,9 +25396,6 @@ namespace OverflowHelper.core
             correctionAdd("Teamtreehouse.com", "Treehouse");
             correctionAdd("Teamtreehouse", "Treehouse");
 
-            correctionAdd("Web Server Gateway Interface", "WSGI");
-            correctionAdd("wsgi", "WSGI");
-
             correctionAdd("wikitia", "Wikitia");
 
             correctionAdd("Airline", "airline");
@@ -26096,8 +25954,6 @@ namespace OverflowHelper.core
 
             correctionAdd("skynet", "Skynet");
 
-            correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
-
             correctionAdd("aot", "ahead-of-time compilation");
             correctionAdd("AOT", "ahead-of-time compilation");
 
@@ -26441,13 +26297,6 @@ namespace OverflowHelper.core
             correctionAdd("reorganize", "reorganise");
 
             correctionAdd("thins", "things");
-
-            correctionAdd("WAF", "web application firewall");
-
-            correctionAdd("Web site", "website");
-            correctionAdd("wesite", "website");
-            correctionAdd("web site", "website");
-            correctionAdd("Website", "website");
 
             correctionAdd("excel 2003", "Excel 2003");
 
@@ -28459,8 +28308,6 @@ namespace OverflowHelper.core
 
             correctionAdd("white board", "whiteboard");
 
-            correctionAdd("Webfaction", "WebFaction");
-
             correctionAdd("misinterpeted", "misinterpreted");
 
             correctionAdd("resuts", "results");
@@ -28944,11 +28791,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Stackblitz", "StackBlitz");
             correctionAdd("stackblitz", "StackBlitz");
-
-            correctionAdd("wdio", "WebdriverIO");
-            correctionAdd("WebDriver IO", "WebdriverIO");
-            correctionAdd("Webdriver.IO", "WebdriverIO");
-            correctionAdd("WebDriverIO", "WebdriverIO");
 
             correctionAdd("mess", "messy");
 
@@ -29510,8 +29352,6 @@ namespace OverflowHelper.core
             correctionAdd("upx", "UPX");
 
             correctionAdd("vuforia", "Vuforia");
-
-            correctionAdd("webm", "WebM");
 
             correctionAdd("xperia", "Xperia");
 
@@ -30394,11 +30234,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sanitizaiton", "sanitization");
 
-            correctionAdd("webservice", "web service");
-            correctionAdd("WS", "web service"); // Alternative: Windows Server
-            correctionAdd("webService", "web service");
-            correctionAdd("Webservice", "web service");
-
             // Of PowerShell...
             correctionAdd("get-service", "Get-Service");
             correctionAdd("Get-service", "Get-Service");
@@ -30412,8 +30247,6 @@ namespace OverflowHelper.core
             correctionAdd("TOS", "terms of service");
             correctionAdd("Term of Service", "terms of service");
             correctionAdd("term of service", "terms of service");
-
-            correctionAdd("web hotel", "shared web hosting service");
 
             correctionAdd("QoS", "quality of service");
 
@@ -30456,8 +30289,6 @@ namespace OverflowHelper.core
             correctionAdd("top gun", "Top Gun");
 
             correctionAdd("DOJ", "United States Department of Justice");
-
-            correctionAdd("WLS", "WebLogic Server");
 
             correctionAdd("cancelation", "cancellation");
 
@@ -30589,7 +30420,218 @@ namespace OverflowHelper.core
 
             correctionAdd("heatmap", "heat map");
 
+            correctionAdd("Web site", "website");
+            correctionAdd("wesite", "website");
+            correctionAdd("web site", "website");
+            correctionAdd("Website", "website");
+            correctionAdd("web-site", "website");
+
+            correctionAdd("Webpage", "web page");
+            correctionAdd("webpage", "web page");
+            correctionAdd("web-page", "web page");
+            correctionAdd("WebPage", "web page");
+            correctionAdd("Web Page", "web page");
+
+            correctionAdd("webserver", "web server");
+            correctionAdd("Web Server", "web server");
+            correctionAdd("web-server", "web server");
+
+            correctionAdd("webservers", "web servers");
+
+            correctionAdd("webpack", "Webpack");
+            correctionAdd("WebPack", "Webpack");
+            correctionAdd("Web pack", "Webpack");
+            correctionAdd("web pack", "Webpack");
+
+            correctionAdd("Web-app", "web application");
+            correctionAdd("web-app", "web application");
+            correctionAdd("web app", "web application");
+            correctionAdd("webapp", "web application");
+            correctionAdd("webApp", "web application");
+            correctionAdd("Web app", "web application");
+            correctionAdd("Web App", "web application");
+            correctionAdd("WebApp", "web application");
+            correctionAdd("Web-Apps", "web application"); // Plural, to avoid
+            // nearly duplicate entries.
+            correctionAdd("Web Application", "web application");
+            correctionAdd("web-application", "web application");
+            correctionAdd("Web-App", "web application");
+            correctionAdd("Webapplication", "web application");
+            correctionAdd("webapplication", "web application");
+            correctionAdd("web APP", "web application");
+            correctionAdd("Web application", "web application");
+
+            correctionAdd("webkit", "WebKit");
+            correctionAdd("Webkit", "WebKit");
+            correctionAdd("webKit", "WebKit");
+            correctionAdd("web kit", "WebKit");
+
+            correctionAdd("webOS", "WebOS");
+
+            correctionAdd("WebSockets", "WebSocket");
+            correctionAdd("Websocket", "WebSocket");
+            correctionAdd("websocket", "WebSocket");
+            correctionAdd("websockets", "WebSocket");
+            correctionAdd("WebSocktes", "WebSocket"); // Misspelling.
+            correctionAdd("web sockets", "WebSocket");
+            correctionAdd("Websockets", "WebSocket");
+            correctionAdd("webSocket", "WebSocket");
+
+            correctionAdd("WEB API", "Web API");
+            correctionAdd("WebAPI", "Web API");
+            correctionAdd("web API", "Web API");
+            correctionAdd("webapi", "Web API");
+            correctionAdd("web api", "Web API");
+            correctionAdd("WebApi", "Web API");
+            correctionAdd("Web Api", "Web API");
+            correctionAdd("web Api", "Web API");
+
+            correctionAdd("webrtc", "WebRTC");
+            correctionAdd("webRTC", "WebRTC");
+
+            correctionAdd("WebStrom", "WebStorm");
+            correctionAdd("Webstorm", "WebStorm");
+            correctionAdd("webstorm", "WebStorm");
+            correctionAdd("Web Storm", "WebStorm");
+            correctionAdd("webstrome", "WebStorm");
+
+            correctionAdd("webgl", "WebGL");
+            correctionAdd("Web GL", "WebGL");
+
+            correctionAdd("webdav", "WebDAV");
+            correctionAdd("WebDav", "WebDAV");
+
+            correctionAdd("Wasm", "WebAssembly");
+            correctionAdd("WASM", "WebAssembly");
+            correctionAdd("web assembly", "WebAssembly");
+            correctionAdd("webassembly", "WebAssembly");
+            correctionAdd("wasm", "WebAssembly");
+            correctionAdd("webasm", "WebAssembly");
+            correctionAdd("web asm", "WebAssembly");
+            correctionAdd("Web assembly", "WebAssembly");
+            correctionAdd("Webassembly", "WebAssembly");
+            correctionAdd("WebAsm", "WebAssembly");
+
+            correctionAdd("webvr", "WebVR");
+
+            correctionAdd("webflow", "Webflow");
+            correctionAdd("WEBFLOW", "Webflow");
+
+            correctionAdd("web forms", "Web Forms");
+            correctionAdd("webforms", "Web Forms");
+
+            correctionAdd("WHM", "WebHost Manager");
+
+            correctionAdd("web cam", "webcam");
+            correctionAdd("WebCam", "webcam");
+
+            correctionAdd("Web SE", "Web Applications (Stack Exchange site)");
+            correctionAdd("WebApps.StackExchange", "Web Applications (Stack Exchange site)");
+            correctionAdd("WebApps", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web Apps", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
+
+            correctionAdd("webwork", "WebWork");
+
+            correctionAdd("webp", "WebP");
+
+            correctionAdd("WebHook", "webhook");
+
+            correctionAdd("selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
+            correctionAdd("selenium webdriver", "Selenium WebDriver");
+            correctionAdd("selenium web driver", "Selenium WebDriver");
+            correctionAdd("Selenium webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
+            correctionAdd("webdriver", "Selenium WebDriver");
+            correctionAdd("WebDriver", "Selenium WebDriver");
+            correctionAdd("webDriver", "Selenium WebDriver");
+            correctionAdd("selenium WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium web-driver", "Selenium WebDriver");
+            correctionAdd("Selenium WD", "Selenium WebDriver");
+
+            correctionAdd("webscraping", "web scraping");
+            correctionAdd("web-scraping", "web scraping");
+
+            correctionAdd("Web browser", "web browser");
+            correctionAdd("Web Browser", "web browser");
+            correctionAdd("Web-Browser", "web browser");
+            correctionAdd("webbrowser", "web browser");
+            correctionAdd("WebBrowser", "web browser");
+
+            correctionAdd("Weblogic", "WebLogic");
+            correctionAdd("weblogic", "WebLogic");
+
+            correctionAdd("Websphere", "WebSphere");
+
+            correctionAdd("Web Server Gateway Interface", "WSGI");
+            correctionAdd("wsgi", "WSGI");
+
+            correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
+
+            correctionAdd("WAF", "web application firewall");
+
+            correctionAdd("Webfaction", "WebFaction");
+
+            correctionAdd("wdio", "WebdriverIO");
+            correctionAdd("WebDriver IO", "WebdriverIO");
+            correctionAdd("Webdriver.IO", "WebdriverIO");
+            correctionAdd("WebDriverIO", "WebdriverIO");
+
+            correctionAdd("webm", "WebM");
+
+            correctionAdd("webservice", "web service");
+            correctionAdd("WS", "web service"); // Alternative: Windows Server
+            correctionAdd("webService", "web service");
+            correctionAdd("Webservice", "web service");
+
+            correctionAdd("web hotel", "shared web hosting service");
+
+            correctionAdd("WLS", "WebLogic Server");
+
+            correctionAdd("java webstart", "Java Web Start");
+            correctionAdd("WebStart", "Java Web Start");
+            correctionAdd("Web Start", "Java Web Start");
+
             correctionAdd("sereal", "serial");
+
+            correctionAdd("AoA", "AOA");
+
+            correctionAdd("Commons-IO", "Commons IO");
+
+            correctionAdd("ipcc", "IPCC");
+            correctionAdd("Intergovernmental Panel on Climate Change", "IPCC");
+
+            correctionAdd("Keeling Curve", "Keeling curve");
+
+            correctionAdd("KendoUI", "Kendo UI");
+            correctionAdd("kendo Telerik Ui", "Kendo UI");
+            correctionAdd("kendo Ui", "Kendo UI");
+            correctionAdd("kendo ui", "Kendo UI");
+
+            correctionAdd("Telerk", "Telerik");
+
+            correctionAdd("sensor", "censor");
+
+            correctionAdd("dowloading", "downloading");
+
+            correctionAdd("econ", "economics");
+
+            correctionAdd("NIO", "non-blocking I/O");
+            correctionAdd("nio", "non-blocking I/O");
+
+            correctionAdd("old fashioned", "old-fashioned");
+
+            correctionAdd("timeout", "time-out");
+            correctionAdd("time out", "time-out");
+
+            correctionAdd("under-sampled", "undersampled");
+            correctionAdd("under sampled", "undersampled");
+
+            correctionAdd("understable", "understandable");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48105,6 +48147,34 @@ namespace OverflowHelper.core
             URL_Add("heat map", "https://en.wiktionary.org/wiki/heat_map#Noun");
 
             URL_Add("serial", "https://en.wiktionary.org/wiki/serial#Adjective");
+
+            URL_Add("AOA", "https://en.wiktionary.org/wiki/AOA#Noun");
+
+            URL_Add("Commons IO", "https://commons.apache.org/proper/commons-io/");
+
+            URL_Add("IPCC", "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change");
+
+            URL_Add("Keeling curve", "https://en.wikipedia.org/wiki/Keeling_Curve");
+
+            URL_Add("Kendo UI", "https://en.wikipedia.org/wiki/Telerik#Controls_Suite");
+
+            URL_Add("Telerik", "https://en.wikipedia.org/wiki/Telerik");
+
+            URL_Add("censor", "https://en.wiktionary.org/wiki/censor#Verb");
+
+            URL_Add("downloading", "https://en.wiktionary.org/wiki/download#Verb");
+
+            URL_Add("economics", "https://en.wiktionary.org/wiki/economics#English");
+
+            URL_Add("non-blocking I/O", "https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)");
+
+            URL_Add("old-fashioned", "https://en.wiktionary.org/wiki/old-fashioned#Adjective");
+
+            URL_Add("time-out", "https://en.wiktionary.org/wiki/time-out#Noun");
+
+            URL_Add("undersampled", "https://en.wiktionary.org/wiki/undersampled#Adjective");
+
+            URL_Add("understandable", "https://en.wiktionary.org/wiki/understandable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
