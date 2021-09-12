@@ -1227,6 +1227,10 @@ namespace OverflowHelper.core
             correctionAdd("El Capitain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("Mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("Mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("Mac 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("Mac OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
 
             correctionAdd("Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("10.12", "macOS v10.12 (Sierra)");
@@ -2407,6 +2411,7 @@ namespace OverflowHelper.core
             correctionAdd("CSharp", "C#");
             correctionAdd("c-sharp", "C#");
             correctionAdd("c sharp", "C#");
+            correctionAdd("C #", "C#");
 
             correctionAdd("sql", "SQL");
             correctionAdd("Sql", "SQL");
@@ -4503,6 +4508,7 @@ namespace OverflowHelper.core
             correctionAdd("cdn", "CDN");
             correctionAdd("content delivery network", "CDN");
             correctionAdd("Content Delivery Network", "CDN");
+            correctionAdd("Content delivery network", "CDN");
 
             correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
@@ -5413,6 +5419,8 @@ namespace OverflowHelper.core
             correctionAdd("archtecture", "architecture");
             correctionAdd("architecure", "architecture");
             correctionAdd("arhitecture", "architecture");
+            correctionAdd("Architechure", "architecture");
+            correctionAdd("architechure", "architecture");
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
@@ -7797,6 +7805,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio", "Visual&nbsp;Studio");
             correctionAdd("visual stdio", "Visual&nbsp;Studio");
             correctionAdd("Visiual studio", "Visual&nbsp;Studio");
+            correctionAdd("visualStudio", "Visual&nbsp;Studio");
 
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -8566,6 +8575,7 @@ namespace OverflowHelper.core
             correctionAdd("powershell ise", "PowerShell ISE");
             correctionAdd("ise", "PowerShell ISE");
             correctionAdd("Powershell ISE", "PowerShell ISE");
+            correctionAdd("PowerShell ise", "PowerShell ISE");
 
             correctionAdd("existance", "existence");
             correctionAdd("existanse", "existence");
@@ -11676,6 +11686,7 @@ namespace OverflowHelper.core
             correctionAdd("Secon", "second");
             correctionAdd("secon", "second");
             correctionAdd("segs", "second");
+            correctionAdd("seg", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -12045,6 +12056,8 @@ namespace OverflowHelper.core
 
             correctionAdd("realease", "release");
             correctionAdd("releas", "release");
+            correctionAdd("Relese", "release");
+            correctionAdd("Release", "release");
 
             correctionAdd("seperatist", "separatist");
 
@@ -14570,6 +14583,7 @@ namespace OverflowHelper.core
             correctionAdd("somrthing", "something");
             correctionAdd("smt", "something");
             correctionAdd("somethimg", "something");
+            correctionAdd("somtings", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -14963,6 +14977,7 @@ namespace OverflowHelper.core
             correctionAdd("wen", "when");
             correctionAdd("whe", "when");
             correctionAdd("When", "when");
+            correctionAdd("wehn", "when");
 
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
@@ -16029,6 +16044,7 @@ namespace OverflowHelper.core
             correctionAdd("dissapeared", "disappeared");
             correctionAdd("disapeard", "disappeared");
             correctionAdd("disapeared", "disappeared");
+            correctionAdd("disappeard", "disappeared");
 
             correctionAdd("dishearteneing", "disheartening");
 
@@ -18002,6 +18018,8 @@ namespace OverflowHelper.core
             correctionAdd("noticably", "noticeably");
 
             correctionAdd("re-install", "reinstall");
+            correctionAdd("Re-install", "reinstall");
+            correctionAdd("Reinstall", "reinstall");
 
             correctionAdd("bindding", "binding");
 
@@ -24115,6 +24133,7 @@ namespace OverflowHelper.core
 
             correctionAdd("windows update", "Windows Update");
             correctionAdd("Windows update", "Windows Update");
+            correctionAdd("Windows Updates", "Windows Update");
 
             correctionAdd("udpate", "update");
             correctionAdd("updste", "update");
@@ -25124,6 +25143,7 @@ namespace OverflowHelper.core
             correctionAdd("m1", "Apple M1");
             correctionAdd("M1", "Apple M1");
             correctionAdd("M1 mac", "Apple M1");
+            correctionAdd("Mac M1", "Apple M1");
 
             correctionAdd("nextstep", "NeXTSTEP");
             correctionAdd("Nextstep", "NeXTSTEP");
@@ -30632,6 +30652,43 @@ namespace OverflowHelper.core
             correctionAdd("under sampled", "undersampled");
 
             correctionAdd("understable", "understandable");
+
+            correctionAdd("Apple Silicon", "Apple silicon");
+            correctionAdd("Silicon MAC", "Apple silicon");
+            correctionAdd("Silicon Mac", "Apple silicon");
+
+            correctionAdd("calabash", "Calabash");
+
+            correctionAdd("cocoa pods", "CocoaPods");
+            correctionAdd("Pod", "CocoaPods");
+            correctionAdd("Cocoapods", "CocoaPods");
+            correctionAdd("cocoapods", "CocoaPods");
+
+            correctionAdd("msp", "MSP");
+
+            correctionAdd("mcafee", "McAfee");
+            correctionAdd("McAffe", "McAfee");
+            correctionAdd("McAFee", "McAfee");
+            correctionAdd("Mcafee", "McAfee");
+
+            correctionAdd("imature", "immature");
+
+            correctionAdd("landord", "landlord");
+
+            correctionAdd("minifiacation", "minification");
+            correctionAdd("Minifiacation", "minification");
+
+            correctionAdd("notifiction", "notification");
+            correctionAdd("Notifiction", "notification");
+
+            correctionAdd("short cuts", "shortcuts");
+
+            correctionAdd("similator", "simulator");
+
+            correctionAdd("sourcemap", "source map");
+            correctionAdd("SourceMap", "source map");
+
+            correctionAdd("Tritium", "tritium");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48175,6 +48232,32 @@ namespace OverflowHelper.core
             URL_Add("undersampled", "https://en.wiktionary.org/wiki/undersampled#Adjective");
 
             URL_Add("understandable", "https://en.wiktionary.org/wiki/understandable#Adjective");
+
+            URL_Add("Apple silicon", "https://en.wikipedia.org/wiki/Apple_silicon");
+
+            URL_Add("Calabash", "https://www.guru99.com/calabash-android-ios-testing.html");
+
+            URL_Add("CocoaPods", "https://en.wikipedia.org/wiki/CocoaPods");
+
+            URL_Add("MSP", "https://docs.microsoft.com/en-us/windows/win32/msi/patch-packages");
+
+            URL_Add("McAfee", "https://en.wikipedia.org/wiki/McAfee#Products");
+
+            URL_Add("immature", "https://en.wiktionary.org/wiki/immature#Adjective");
+
+            URL_Add("landlord", "https://en.wiktionary.org/wiki/landlord#Noun");
+
+            URL_Add("minification", "https://en.wiktionary.org/wiki/minification#Noun");
+
+            URL_Add("notification", "https://en.wiktionary.org/wiki/notification#Noun");
+
+            URL_Add("shortcuts", "https://en.wiktionary.org/wiki/shortcut#Noun");
+
+            URL_Add("simulator", "https://en.wiktionary.org/wiki/simulator#Noun");
+
+            URL_Add("source map", "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map");
+
+            URL_Add("tritium", "https://en.wikipedia.org/wiki/Tritium");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
