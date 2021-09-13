@@ -1231,6 +1231,14 @@ namespace OverflowHelper.core
             correctionAdd("mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("Mac 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("Mac OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("10.11 Mac OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("10.11 Mac OSX", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("10.11 Mac OS X", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("Mac OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("Mac OS X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("EL CAPITAN", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
 
             correctionAdd("Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("10.12", "macOS v10.12 (Sierra)");
@@ -9284,6 +9292,7 @@ namespace OverflowHelper.core
             correctionAdd("what-so-ever", "whatsoever");
             correctionAdd("whatsover", "whatsoever");
             correctionAdd("whasoever", "whatsoever");
+            correctionAdd("whatosever", "whatsoever");
 
             correctionAdd("dmz", "DMZ");
 
@@ -11078,6 +11087,8 @@ namespace OverflowHelper.core
             correctionAdd("GIT ext", "Git Extensions");
             correctionAdd("git extension", "Git Extensions");
             correctionAdd("GitExtension", "Git Extensions");
+            correctionAdd("Git extensions", "Git Extensions");
+            correctionAdd("GE", "Git Extensions");
 
             correctionAdd("invoke-expression", "Invoke-Expression");
             correctionAdd("Invoke-expression", "Invoke-Expression");
@@ -11088,6 +11099,7 @@ namespace OverflowHelper.core
             correctionAdd("Kdiff", "KDiff3");
             correctionAdd("KDiff", "KDiff3");
             correctionAdd("kdiff", "KDiff3");
+            correctionAdd("Kdif3", "KDiff3");
 
             correctionAdd("kubernetes", "Kubernetes");
             correctionAdd("kubernete", "Kubernetes");
@@ -14141,6 +14153,7 @@ namespace OverflowHelper.core
             correctionAdd("retrn", "return");
 
             correctionAdd("strewam", "stream");
+            correctionAdd("sream", "stream");
 
             correctionAdd("synthetize", "synthetise");
             correctionAdd("sinthetize", "synthetise");
@@ -21801,6 +21814,7 @@ namespace OverflowHelper.core
 
             correctionAdd("explainn", "explain");
             correctionAdd("explanin", "explain");
+            correctionAdd("expain", "explain");
 
             correctionAdd("ICONV", "iconv");
 
@@ -22245,6 +22259,7 @@ namespace OverflowHelper.core
             correctionAdd("rumantsch", "Rumantsch");
 
             correctionAdd("wiktionary", "Wiktionary");
+            correctionAdd("Wikitionary", "Wiktionary");
 
             correctionAdd("chauvanism", "chauvinism");
 
@@ -23430,6 +23445,7 @@ namespace OverflowHelper.core
 
             correctionAdd("november", "November");
             correctionAdd("Nov", "November");
+            correctionAdd("nov", "November");
 
             correctionAdd("plc", "PLC");
 
@@ -24418,6 +24434,7 @@ namespace OverflowHelper.core
             correctionAdd("bbc", "BBC");
 
             correctionAdd("december", "December");
+            correctionAdd("Dec", "December");
 
             correctionAdd("eton", "Eton");
 
@@ -30663,6 +30680,9 @@ namespace OverflowHelper.core
             correctionAdd("Pod", "CocoaPods");
             correctionAdd("Cocoapods", "CocoaPods");
             correctionAdd("cocoapods", "CocoaPods");
+            correctionAdd("cocaopods", "CocoaPods");
+            correctionAdd("cocoa pod", "CocoaPods");
+            correctionAdd("cocoapod", "CocoaPods");
 
             correctionAdd("msp", "MSP");
 
@@ -30689,6 +30709,34 @@ namespace OverflowHelper.core
             correctionAdd("SourceMap", "source map");
 
             correctionAdd("Tritium", "tritium");
+
+            correctionAdd("I'll", "I’ll");
+            correctionAdd("ill", "I’ll");
+            correctionAdd("i'll", "I’ll");
+
+            correctionAdd("kentucky", "Kentucky");
+
+            correctionAdd("louisiana", "Louisiana");
+
+            correctionAdd("p4merge", "P4Merge");
+
+            correctionAdd("WV", "West Virginia");
+
+            correctionAdd("change directory", "cd");
+
+            correctionAdd("dit", "did");
+
+            correctionAdd("down stream", "downstream");
+            correctionAdd("down-stream", "downstream");
+
+            correctionAdd("extra-tropical", "extratropical");
+
+            correctionAdd("fullcircle", "full circle");
+
+            correctionAdd("noreaster", "nor'easter");
+
+            correctionAdd("up-stream", "upstream");
+            correctionAdd("up stream", "upstream");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -33792,7 +33840,7 @@ namespace OverflowHelper.core
 
             URL_Add("Set-ExecutionPolicy", "https://technet.microsoft.com/en-us/library/hh849812.aspx");
 
-            URL_Add("PowerShell ISE", "https://technet.microsoft.com/en-us/library/dd315244.aspx");
+            URL_Add("PowerShell ISE", "https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise"); // Old: https://technet.microsoft.com/en-us/library/dd315244.aspx
 
             URL_Add("existence", "https://en.wiktionary.org/wiki/existance");
 
@@ -33980,7 +34028,7 @@ namespace OverflowHelper.core
 
             URL_Add("Copy-Item", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Copy-Item"); // Old: https://technet.microsoft.com/en-us/library/hh849793.aspx
 
-            URL_Add("Set-Item", "https://technet.microsoft.com/en-us/library/hh849797.aspx");
+            URL_Add("Set-Item", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-item"); // Old: https://technet.microsoft.com/en-us/library/hh849797.aspx
 
             URL_Add("Get-Item", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Get-Item"); // Old: https://technet.microsoft.com/en-us/library/hh849788.aspx
 
@@ -48258,6 +48306,30 @@ namespace OverflowHelper.core
             URL_Add("source map", "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map");
 
             URL_Add("tritium", "https://en.wikipedia.org/wiki/Tritium");
+
+            URL_Add("I’ll", "https://en.wiktionary.org/wiki/I%27ll#Contraction");
+
+            URL_Add("Kentucky", "https://en.wikipedia.org/wiki/Kentucky");
+
+            URL_Add("Louisiana", "https://en.wikipedia.org/wiki/Louisiana");
+
+            URL_Add("P4Merge", "https://en.wikipedia.org/wiki/Comparison_of_file_comparison_tools#General");
+
+            URL_Add("West Virginia", "https://en.wikipedia.org/wiki/West_Virginia");
+
+            URL_Add("cd", "https://en.wikipedia.org/wiki/Cd_(command)");
+
+            URL_Add("did", "https://en.wiktionary.org/wiki/did#Verb");
+
+            URL_Add("downstream", "https://en.wiktionary.org/wiki/downstream#Adverb");
+
+            URL_Add("extratropical", "https://en.wiktionary.org/wiki/extratropical#Adjective");
+
+            URL_Add("full circle", "https://en.wiktionary.org/wiki/full_circle#Adverb");
+
+            URL_Add("nor'easter", "https://en.wikipedia.org/wiki/Nor'easter");
+
+            URL_Add("upstream", "https://en.wiktionary.org/wiki/upstream#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
