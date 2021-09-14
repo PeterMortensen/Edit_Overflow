@@ -1146,6 +1146,7 @@ namespace OverflowHelper.core
             correctionAdd("OS X.10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("MacOS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Mac OS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("Lion OS X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -9804,6 +9805,7 @@ namespace OverflowHelper.core
             correctionAdd("compact-able", "compatible");
             correctionAdd("compaible", "compatible");
             correctionAdd("Compatible", "compatible");
+            correctionAdd("compactible", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -9862,6 +9864,7 @@ namespace OverflowHelper.core
             correctionAdd("World war II", "World War II");
             correctionAdd("World war (II)", "World War II");
             correctionAdd("WW II", "World War II");
+            correctionAdd("World War Two", "World War II");
 
             correctionAdd("continiously", "continuously");
             correctionAdd("continously", "continuously");
@@ -12454,6 +12457,8 @@ namespace OverflowHelper.core
             correctionAdd("sourcetree", "Sourcetree");
             correctionAdd("SourceTree", "Sourcetree");
             correctionAdd("Source Tree", "Sourcetree");
+            correctionAdd("source tree", "Sourcetree");
+            correctionAdd("sourceTree", "Sourcetree");
 
             correctionAdd("asap", "ASAP");
 
@@ -17085,6 +17090,7 @@ namespace OverflowHelper.core
             correctionAdd("tring", "trying");
             correctionAdd("tryin", "trying");
             correctionAdd("tying", "trying");
+            correctionAdd("triing", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -19558,6 +19564,7 @@ namespace OverflowHelper.core
             correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Math", "Mathematics (Stack Exchange site)");
             correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Mathematics", "Mathematics (Stack Exchange site)");
 
             correctionAdd("Physics SE", "Physics (Stack Exchange site)");
             correctionAdd("physics SE", "Physics (Stack Exchange site)");
@@ -23628,6 +23635,7 @@ namespace OverflowHelper.core
             correctionAdd("framwork", "framework");
             correctionAdd("frame work", "framework");
             correctionAdd("framewrok", "framework");
+            correctionAdd("freamwork", "framework");
 
             correctionAdd("gpx", "GPX");
 
@@ -30737,6 +30745,21 @@ namespace OverflowHelper.core
 
             correctionAdd("up-stream", "upstream");
             correctionAdd("up stream", "upstream");
+
+            correctionAdd("cortana", "Cortana");
+
+            correctionAdd("Google assistant", "Google Assistant");
+
+            correctionAdd("NP hard", "NP-hard");
+            correctionAdd("NP-Hard", "NP-hard");
+
+            correctionAdd("Pyaudio", "PyAudio");
+            correctionAdd("pyaudio", "PyAudio");
+
+            correctionAdd("pip3", "pip&nbsp;3");
+            correctionAdd("pip 3", "pip&nbsp;3");
+
+            correctionAdd("VA", "virtual assistant");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48330,6 +48353,18 @@ namespace OverflowHelper.core
             URL_Add("nor'easter", "https://en.wikipedia.org/wiki/Nor'easter");
 
             URL_Add("upstream", "https://en.wiktionary.org/wiki/upstream#Adverb");
+
+            URL_Add("Cortana", "https://en.wikipedia.org/wiki/Cortana");
+
+            URL_Add("Google Assistant", "https://en.wikipedia.org/wiki/Google_Assistant");
+
+            URL_Add("NP-hard", "https://en.wikipedia.org/wiki/NP-hardness");
+
+            URL_Add("PyAudio", "http://people.csail.mit.edu/hubert/pyaudio/");
+
+            URL_Add("pip&nbsp;3", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29");
+
+            URL_Add("virtual assistant", "https://en.wikipedia.org/wiki/Virtual_assistant");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
