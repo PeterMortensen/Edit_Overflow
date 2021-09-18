@@ -352,6 +352,7 @@ namespace OverflowHelper.core
             correctionAdd("javafx", "JavaFX"); // Not actually observed.
             correctionAdd("Java fx", "JavaFX");
             correctionAdd("java fx", "JavaFX");
+            correctionAdd("JavaFx", "JavaFX");
 
             // ME = Micro Edition
             // Old name: "Java ME was formerly known as Java 2 Platform, Micro Edition (J2ME)".
@@ -5109,8 +5110,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fiddler", "Fiddler");
 
-            correctionAdd("outlook", "Outlook");
-
             correctionAdd("Google plus", "Google+");
             correctionAdd("Google Plus", "Google+");
             correctionAdd("google+", "Google+");
@@ -7085,6 +7084,7 @@ namespace OverflowHelper.core
             correctionAdd("functiion", "function");
 
             correctionAdd("wavefunction", "wave function");
+            correctionAdd("wave-function", "wave function");
 
             correctionAdd("disfunction", "dysfunction");
 
@@ -9799,6 +9799,7 @@ namespace OverflowHelper.core
             correctionAdd("Compatabily", "compatibility");
             correctionAdd("compatabily", "compatibility");
             correctionAdd("Compatiblity", "compatibility");
+            correctionAdd("comptability", "compatibility");
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
@@ -9808,6 +9809,7 @@ namespace OverflowHelper.core
             correctionAdd("compaible", "compatible");
             correctionAdd("Compatible", "compatible");
             correctionAdd("compactible", "compatible");
+            correctionAdd("comptabilble", "compatible");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -11383,6 +11385,7 @@ namespace OverflowHelper.core
             correctionAdd("alernatively", "alternatively");
             correctionAdd("Alternativey", "alternatively");
             correctionAdd("alternativey", "alternatively");
+            correctionAdd("alternativela", "alternatively");
 
             correctionAdd("aparent", "apparent");
             correctionAdd("aparrent", "apparent");
@@ -11657,6 +11660,7 @@ namespace OverflowHelper.core
             correctionAdd("pragramming", "programming");
             correctionAdd("proggraming", "programming");
             correctionAdd("proggramming", "programming");
+            correctionAdd("prgramming", "programming");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -12816,6 +12820,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eaay", "easy");
             correctionAdd("rasy", "easy");
+            correctionAdd("esay", "easy");
 
             correctionAdd("gamfication", "gamification");
             correctionAdd("gameification", "gamification");
@@ -14084,6 +14089,7 @@ namespace OverflowHelper.core
 
             correctionAdd("simpel", "simple");
             correctionAdd("sinple", "simple");
+            correctionAdd("simpal", "simple");
 
             correctionAdd("soundcard", "sound card");
 
@@ -15131,6 +15137,7 @@ namespace OverflowHelper.core
             correctionAdd("HS", "high school");
             correctionAdd("Highschool", "high school");
             correctionAdd("highschool", "high school");
+            correctionAdd("High school", "high school");
 
             correctionAdd("School", "school");
             correctionAdd("shcool", "school");
@@ -15158,6 +15165,7 @@ namespace OverflowHelper.core
 
             correctionAdd("easyphp", "EasyPHP");
             correctionAdd("EasyPhp", "EasyPHP");
+            correctionAdd("Easyphp", "EasyPHP");
 
             correctionAdd("Git 2.0", "Git&nbsp;2.0"); // Sort of identity mapping
             correctionAdd("git2", "Git&nbsp;2.0");
@@ -16765,6 +16773,7 @@ namespace OverflowHelper.core
             correctionAdd("tailwind", "Tailwind CSS");
             correctionAdd("Tailwind", "Tailwind CSS");
             correctionAdd("tailwind css", "Tailwind CSS");
+            correctionAdd("tailwindCSS", "Tailwind CSS");
 
             correctionAdd("waybackmachine", "Wayback Machine");
             correctionAdd("wayback machine", "Wayback Machine");
@@ -18689,6 +18698,7 @@ namespace OverflowHelper.core
             correctionAdd("g cloud", "Google Cloud Platform");
             correctionAdd("G cloud", "Google Cloud Platform");
             correctionAdd("Google cloud", "Google Cloud Platform");
+            correctionAdd("gcloud", "Google Cloud Platform"); // Not entirely true - actual a command-line tool
 
             correctionAdd("crossplatform", "cross-platform");
             correctionAdd("crossPlatform", "cross-platform");
@@ -19680,9 +19690,6 @@ namespace OverflowHelper.core
             correctionAdd("mks", "MKS");
 
             correctionAdd("PV", "photovoltaics"); // Conflict with PulseView
-
-            correctionAdd("Codesandbox", "CodeSandbox");
-            correctionAdd("codesandbox", "CodeSandbox");
 
             correctionAdd("dcl", "DCL");
 
@@ -21408,8 +21415,12 @@ namespace OverflowHelper.core
 
             correctionAdd("re-ask", "reask");
 
+            correctionAdd("Codesandbox", "CodeSandbox");
+            correctionAdd("codesandbox", "CodeSandbox");
+
             correctionAdd("sand box", "sandbox");
             correctionAdd("Sand Box", "sandbox");
+            correctionAdd("sanbox", "sandbox");
 
             correctionAdd("2", "two");
             correctionAdd("tow", "two");
@@ -21883,6 +21894,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Text Editor", "text editor");
             correctionAdd("text Editor", "text editor");
+            correctionAdd("txt editor", "text editor");
 
             correctionAdd("Outsystems", "OutSystems");
 
@@ -22591,6 +22603,7 @@ namespace OverflowHelper.core
             correctionAdd("uuid", "UUID");
 
             correctionAdd("additionnal", "additional");
+            correctionAdd("aditional", "additional");
 
             correctionAdd("bloc", "block");
 
@@ -24181,6 +24194,7 @@ namespace OverflowHelper.core
             correctionAdd("UPDATE", "update");
             correctionAdd("upd", "update");
             correctionAdd("updeate", "update");
+            correctionAdd("upadte", "update");
 
             correctionAdd("volantory", "voluntary");
             correctionAdd("voluntory", "voluntary");
@@ -26569,6 +26583,7 @@ namespace OverflowHelper.core
             correctionAdd("natral", "natural");
 
             correctionAdd("obviouse", "obvious");
+            correctionAdd("obv", "obvious");
 
             correctionAdd("goodby", "goodbye");
             correctionAdd("Goodby", "goodbye");
@@ -30807,6 +30822,46 @@ namespace OverflowHelper.core
             correctionAdd("self centered", "self-centered");
 
             correctionAdd("Sigmoid function", "sigmoid function");
+
+            correctionAdd("GTMO", "Guantanamo Bay Naval Base");
+            correctionAdd("Gitmo", "Guantanamo Bay Naval Base");
+
+            correctionAdd("unexpecedly", "unexpectedly");
+
+            correctionAdd("GETENT", "getent");
+
+            correctionAdd("do", "so");
+
+            correctionAdd("vertrigo", "Vertrigo");
+
+            correctionAdd("can not", "cannot");
+            correctionAdd("canot", "cannot");
+
+            correctionAdd("combinatorical", "combinatorial");
+
+            correctionAdd("eigen state", "eigenstate");
+
+            correctionAdd("ERROR_LOG", "error_log");
+
+            correctionAdd("LOG_ERRORS", "log_errors");
+
+            correctionAdd("outlook", "Outlook");
+
+            correctionAdd("loot", "look");
+            correctionAdd("Loot", "look");
+
+            correctionAdd("non-existing", "nonexisting");
+            correctionAdd("non existing", "nonexisting");
+
+            correctionAdd("ponted", "pointed");
+
+            correctionAdd("purposfully", "purposefully");
+
+            correctionAdd("state-variable", "state variable");
+
+            correctionAdd("sybolic", "symbolic");
+
+            correctionAdd("techologies", "technologies");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48432,6 +48487,40 @@ namespace OverflowHelper.core
             URL_Add("self-centered", "https://en.wiktionary.org/wiki/self-centered#Adjective");
 
             URL_Add("sigmoid function", "https://en.wikipedia.org/wiki/Sigmoid_function");
+
+            URL_Add("Guantanamo Bay Naval Base", "https://en.wikipedia.org/wiki/Guantanamo_Bay_Naval_Base");
+
+            URL_Add("unexpectedly", "https://en.wiktionary.org/wiki/unexpectedly#Adverb");
+
+            URL_Add("getent", "https://en.wikipedia.org/wiki/Getent");
+
+            URL_Add("so", "https://en.wiktionary.org/wiki/so#Conjunction");
+
+            URL_Add("Vertrigo", "https://www.vswamp.com/");
+
+            URL_Add("cannot", "https://en.wiktionary.org/wiki/cannot#Verb");
+
+            URL_Add("combinatorial", "https://en.wiktionary.org/wiki/combinatorial#Adjective");
+
+            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
+
+            URL_Add("error_log", "https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-log");
+
+            URL_Add("log_errors", "https://www.php.net/manual/en/errorfunc.configuration.php#ini.log-errors");
+
+            URL_Add("look", "https://en.wiktionary.org/wiki/look#Verb");
+
+            URL_Add("nonexisting", "https://en.wiktionary.org/wiki/nonexisting#Adjective");
+
+            URL_Add("pointed", "https://en.wiktionary.org/wiki/point#Verb");
+
+            URL_Add("purposefully", "https://en.wiktionary.org/wiki/purposefully#Adverb");
+
+            URL_Add("state variable", "https://en.wikipedia.org/wiki/State_variable");
+
+            URL_Add("symbolic", "https://en.wiktionary.org/wiki/symbolic#Adjective");
+
+            URL_Add("technologies", "https://en.wiktionary.org/wiki/technology#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
