@@ -110,6 +110,32 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
     # =======================================================================
 
+
+    # Local testing first (using the local web server to
+    # test in a non-production environment) - at the
+    # very least for practical reasons.
+    #
+    # Are we actually assured of the order of test execution? No, at least
+    # not by position in the file. Alphabetically?
+    #
+
+    # Test of the text window functions, e.g. YouTube comment formatting
+    #
+    def test_local_text(self):
+
+        # Note: HTTPS does not work locally (for now)
+        #
+        self.checkYouTubeFormatting('http://localhost/world/Text.php?OverflowStyle=Native')
+
+
+    # Test of the text window functions, e.g. YouTube comment formatting
+    #
+    def test_text(self):
+
+        self.checkYouTubeFormatting('https://pmortensen.eu/world/Text.php')
+
+
+
     # Test of passing parameters through HTML GET
     #
     def test_mainLookup_HTTP_GET(self):
@@ -163,12 +189,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #       new browser window for each test
     #
     def textTransformation(self,
+                           aURL,
                            aTextBefore,
                            aTextAfter,
                            aKeyboardShortcutLetter,
                            anErrorMessage):
 
-        self.browser.get('https://pmortensen.eu/world/Text.php')
+        self.browser.get(aURL)
 
         self.setGeneralTextField(aTextBefore)
 
@@ -188,7 +215,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
     # Text.php page: Test formatting of YouTube comments
     #
-    def checkYouTubeFormatting(self):
+    def checkYouTubeFormatting(self, aURL):
 
         content1_in1 =  ("04 min 17 secs:  Real start of pre Q&A\n"
                              "\n"
@@ -204,6 +231,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         # Send Shift + Alt + Y for invoking the YouTube formatter
         self.textTransformation(
+            aURL,
+
             ("https://en.wikipedia.org/wiki/Ad26.COV2.S\n"
              "\n"
              "        Johnson & Johnson (Ad26.COV2.S)"),
@@ -217,14 +246,15 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             "The YouTube formatter result was bad!")
 
         # Send Shift + Alt + Y for invoking the YouTube formatter
-        self.textTransformation(content1_in1,
+        self.textTransformation(aURL,
+                                content1_in1,
                                 content1_out_new1,
                                 "y",
                                 "The YouTube formatter result was bad!")
 
 
     # Test of the central function of Edit Overflow for web: Looking
-    # up incorrect terms (typically misspelling words)
+    # up incorrect terms (typically misspelled words)
     #
     def mainLookup(self, aURL):
         # Initial page, with a (known) incorrect term ***different***
@@ -329,11 +359,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #pass
 
 
-    # Test of the text window functions, e.g. YouTube comment formatting
-    #
-    def test_text(self):
-
-        self.checkYouTubeFormatting()
 
 
 if __name__ == '__main__':
