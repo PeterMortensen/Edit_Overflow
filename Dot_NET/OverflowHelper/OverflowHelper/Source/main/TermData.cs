@@ -6179,6 +6179,7 @@ namespace OverflowHelper.core
 
             correctionAdd("photoshop", "Photoshop");
             correctionAdd("Adobe Photoshop", "Photoshop"); // Shorten...
+            correctionAdd("Ps", "Photoshop");
 
             correctionAdd("Sd Card", "SD card");
             correctionAdd("SDCard", "SD card");
@@ -6919,6 +6920,7 @@ namespace OverflowHelper.core
             correctionAdd("immeditalty", "immediately");
             correctionAdd("immediatlty", "immediately");
             correctionAdd("immediatety", "immediately");
+            correctionAdd("immedidately", "immediately");
 
             correctionAdd("nsis", "NSIS");
             correctionAdd("Nsis", "NSIS");
@@ -19110,6 +19112,8 @@ namespace OverflowHelper.core
 
             correctionAdd("doule", "double");
             correctionAdd("doube", "double");
+            correctionAdd("dubble", "double");
+            correctionAdd("doubble", "double");
 
             correctionAdd("femenine", "feminine");
 
@@ -30033,6 +30037,8 @@ namespace OverflowHelper.core
             correctionAdd("constanst", "constants");
 
             correctionAdd("double click", "double-click");
+            correctionAdd("dubble click", "double-click");
+            correctionAdd("doubble click", "double-click");
 
             correctionAdd("Echoes", "echoes");
             correctionAdd("Echos", "echoes");
@@ -30862,6 +30868,21 @@ namespace OverflowHelper.core
             correctionAdd("sybolic", "symbolic");
 
             correctionAdd("techologies", "technologies");
+
+            correctionAdd("cherrypy", "CherryPy");
+
+            correctionAdd("R1CS", "Rank 1 Constraint System");
+
+            correctionAdd("Icon", "icon");
+
+            correctionAdd("ZK SNARK", "zk-SNARK");
+            correctionAdd("non-interactive zero-knowledge proof", "zk-SNARK");
+            correctionAdd("zkSnark", "zk-SNARK");
+            correctionAdd("ZkSnark", "zk-SNARK");
+            correctionAdd("Zk-SNARK", "zk-SNARK");
+            correctionAdd("Zk-Snark", "zk-SNARK");
+            correctionAdd("zk-Snark", "zk-SNARK");
+            correctionAdd("zkSNARK", "zk-SNARK");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48521,6 +48542,14 @@ namespace OverflowHelper.core
             URL_Add("symbolic", "https://en.wiktionary.org/wiki/symbolic#Adjective");
 
             URL_Add("technologies", "https://en.wiktionary.org/wiki/technology#Noun");
+
+            URL_Add("CherryPy", "https://en.wikipedia.org/wiki/CherryPy");
+
+            URL_Add("Rank 1 Constraint System", "https://github.com/scipr-lab/libsnark");
+
+            URL_Add("icon", "https://en.wiktionary.org/wiki/icon#Noun");
+
+            URL_Add("zk-SNARK", "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
