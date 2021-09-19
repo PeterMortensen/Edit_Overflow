@@ -181,29 +181,32 @@
             # if the new string is ***shorter*** - the most common
             # case in this context (this file)).
             #
-            function assert_strLengths($ID, $aOrigText, $aNewText, $aLengthDiff)
+            function assert_strLengths($anID, $aOrigText, $aNewText, $aLengthDiff)
             {
                 $lenBefore = strlen($aOrigText);
                 $lenAfter  = strlen($aNewText);
                 $diff = $lenBefore - $lenAfter;
 
-                #Some redundancy here (refactor?)
 
+                # Sanity check of parameters
+                #
+                #Some redundancy here (refactor?)
                 if ($lenBefore < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $ID. $lenBefore characters before. Original text: XXX" . $aOrigText . "XXX </p>\n";
+                    echo "<p>Likely flawed test. ID: $anID. $lenBefore characters before. Original text: XXX" . $aOrigText . "XXX </p>\n";
                     assert(false);
                 }
                 if ($lenAfter < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $ID. $lenAfter characters after. New text: XXX" . $aOrigText . "XXX </p>\n";
+                    echo "<p>Likely flawed test. ID: $anID. $lenAfter characters after. New text: XXX" . $aOrigText . "XXX </p>\n";
                     assert(false);
                 }
 
+                # Actual test
                 if (! ($diff === $aLengthDiff))
                 {
                     echo "<br/><br/>\n";
-                    echo "Failed test. ID: $ID. $lenBefore characters before. " .
+                    echo "Failed test. ID: $anID. $lenBefore characters before. " .
                           "$lenAfter characters after. " .
                           "Expected difference: $aLengthDiff. Actual: $diff\n";
 
@@ -229,20 +232,20 @@
             # removeTrailingSpacesAndTABs()?
             #
             # Answer: because then we would have to specify the input
-            #         string two times on the client side (or use a
-            #         variable, making it ***two*** statements on
-            #         the client side instead of just a single
+            #         string ***two times*** on the client side (or
+            #         use a variable, making it ***two*** statements
+            #         on the client side instead of just a single
             #         function call) instead of just the length
             #         difference (somewhat redundant) - though
             #         it would make for a more accurate test.
             #
-            function test_removeTrailingSpacesAndTABs($ID, $aSomeText, $aLengthDiff)
+            function test_removeTrailingSpacesAndTABs($anID, $aSomeText, $aLengthDiff)
             {
                 # [] because removeTrailingSpacesAndTABs() is returning
                 # an array and we are only using the first element...
                 #
                 [$touchedText] = removeTrailingSpacesAndTABs($aSomeText);
-                assert_strLengths($ID,
+                assert_strLengths($anID,
                                   $aSomeText,
                                   $touchedText,
                                   $aLengthDiff);
@@ -266,10 +269,10 @@
             #the output string and the number as an array? We
             #are already doing it for removeTrailingSpacesAndTABs().
             #
-            function test_removeCommonLeadingSpaces($ID, $aSomeText, $aLengthDiff)
+            function test_removeCommonLeadingSpaces($anID, $aSomeText, $aLengthDiff)
             {
                 #echo "<br/><br/>\n";
-                #echo "Start of test $ID ...\n";
+                #echo "Start of test $anID ...\n";
 
                 #Later: refactor these two calls (we also have
                 #       it in the normal client code)
@@ -299,23 +302,23 @@
                 {
                     echo "<br/><br/>\n";
                     echo
-                      "Failed test. ID: $ID. Leading spaces to remove " .
+                      "Failed test. ID: $anID. Leading spaces to remove " .
                       "(per line), $leadingSpaceToRemove, is larger than " .
                       "(or otherwise incompatiple) the total number " .
                       "of removed spaces, $aLengthDiff...\n";
                     assert(false);
                 }
 
-                #echo "In test $ID: $leadingSpaceToRemove leading spaces to remove.\n";
+                #echo "In test $anID: $leadingSpaceToRemove leading spaces to remove.\n";
 
                 $someText7 = removeCommonLeadingSpaces(
                               $aSomeText, $leadingSpaceToRemove);
 
-                assert_strLengths($ID,
+                assert_strLengths($anID,
                                   $aSomeText,
                                   $someText7,
                                   $aLengthDiff);
-            }
+            } #test_removeCommonLeadingSpaces()
 
 
             # Helper function for testing
@@ -323,16 +326,41 @@
             #As to why not substitution of transformFor_YouTubeComments(),
             #see comments for test_removeTrailingSpacesAndTABs().
             #
-            function test_transformFor_YouTubeComments($ID, $aSomeText, $aLengthDiff)
+            function test_transformFor_YouTubeComments($anID, $aSomeText, $aLengthDiff)
             {
                 $touchedText = transformFor_YouTubeComments($aSomeText);
 
-                #print "<p>$ID: AAAA $touchedText BBBB</pp>";
+                #print "<p>$anID: AAAA $touchedText BBBB</p>";
 
-                assert_strLengths($ID,
+                assert_strLengths($anID,
                                   $aSomeText,
                                   $touchedText,
                                   $aLengthDiff);
+            }
+
+
+            # Helper function for testing
+            #
+            function test_generateWikiMedia_Link(
+                $anID, $aSomeURL, $aSomeCorrectTerm, $anExpectedOutput)
+            {
+                #Delete at any time
+                #$WikiLink = WikiMedia_Link("https://en.wikipedia.org/wiki/PHP", $aSomeCorrectTerm);
+
+                $WikiLink = WikiMedia_Link($aSomeURL, $aSomeCorrectTerm);
+
+                #print "<p>For $anID. Output: >>>$WikiLink<<<</p>";
+                #print "<p>Some URL: >>>$aSomeURL<<</p>";
+
+                if ($WikiLink !== $anExpectedOutput)
+                {
+                    echo "<br/><br/>\n";
+                    echo
+                      "Failed test. ID: $anID. " .
+                      "The output, \"$WikiLink\" is not as expected " .
+                      "(\"$anExpectedOutput\").\n";
+                    #assert(false);
+                }
             }
 
 
@@ -468,8 +496,16 @@
                                               "                 Why make.\r\n",
                                               8 - 1 + 3);
 
-            # ----------------------------------------------------------------
+            test_generateWikiMedia_Link(1026, "https://en.wikipedia.org/wiki/PHP", "PHP", "[[PHP|PHP]]");
 
+            # Cover the result for the MediaWiki link for terms that are not in our word list
+            test_generateWikiMedia_Link(1027, "https://duckduckgo.com/html/?q=Wikipedia%20phpZZ", "phpZZ", "Does not apply");
+
+            test_generateWikiMedia_Link(1028, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "Cherry MX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
+
+
+
+            # ----------------------------------------------------------------
 
             $message = "";
             $extraMessage = "";
@@ -499,10 +535,11 @@
                       " characters saved from WordPress madness...";
                 }
 
-
                 $someText = htmlentities(get_postParameter(MAINTEXT));
 
-                assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
+                #assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
+                assert(array_key_exists('someAction', $_REQUEST));  # From example:  isset($this->records)
+                
 
                 # The default value could be 'Some text </textarea>', for
                 # making direct HTML validation by https://validator.w3.org/
@@ -526,67 +563,156 @@
                 #$someText = htmlentities(get_postParameter('someText');
 
 
-                $actionStr = get_postParameter('action');
+                $button = get_postParameter('someAction'); # An array!
+                $fallThrough = 1;
 
-                switch ($actionStr)
+                # There is quite a bit of redundancy here. We could
+                # have the keys in an array, use a loop to convert
+                # to a numeric code (-1 of not found) and use a
+                # switch statement as before
+                #
+                # Do we actually need the array? Couldn't we just use
+                # e.g. "remove_TABs_and_trailing_whitespace" by itself?
+
+                if (isset($button['remove_TABs_and_trailing_whitespace']))
                 {
-                    case "Remove TABs and trailing whitespace":
-
-                        #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
-
-                        [$someText, $message] = removeTrailingSpacesAndTABs($someText);
-                        break;
-
-                    case "Format as keyboard":
-
-                        #echo '<p>Actions for: Format as keyboard</p>';
-
-                        $someText = "<kbd>$someText</kbd>";
-                        break;
-
-                    case "Quote as code":
-
-                        $someText = "`$someText`";
-                        break;
-
-                    case "Real quotes":
-
-                        #Does not work... $someText is zapped and it shows two backticks...
-
-                        $someText = "“$someText”";
-                        break;
-
-                    case "Transform for YouTube comments":
-
-                        $someText = transformFor_YouTubeComments($someText);
-                        break;
-
-                    case "Remove common leading space":
-
-                        #echo '<h3>Lines...</h3>' . "\n";
-
-                        # Note: We have two functions because we need to first
-                        #       scan all lines before we know how many spaces
-                        #       to remove from each line (thus, it is not
-                        #       just for statistics - we actually need it
-                        #       for correct operation).
-                        #
-                        #       But perhaps we could use the same technique
-                        #       as for removeTrailingSpacesAndTABs() and
-                        #       combine it into one function?
-
-                        $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
-
-                        $someText = removeCommonLeadingSpaces(
-                                        $someText, $leadingSpaceToRemove);
-
-                        $message = "<p>Removed " . $leadingSpaceToRemove .
-                                    " leading spaces from all lines...</p>\n";
-                        break;
-
-                    default:
-                        assert(0, "Switch fall-through...");
+                    [$someText, $message] = removeTrailingSpacesAndTABs($someText);
                 }
+
+                if (isset($button['format_as_keyboard']))
+                {
+                    $someText = "<kbd>$someText</kbd>";
+                    $fallThrough = 0;
+                }
+
+                if (isset($button['quote_as_code']))
+                {
+                    $someText = "`$someText`";
+                    $fallThrough = 0;
+                }
+
+                if (isset($button['real_quotes']))
+                {
+                    $someText = "“$someText”";  # A bug here... The result
+                                                # is a single "“"...
+                    $fallThrough = 0;
+                }
+
+                if (isset($button['transform_for_YouTube_comments']))
+                {
+                    $someText = transformFor_YouTubeComments($someText);
+                    $fallThrough = 0;
+                }
+
+                if (isset($button['remove_common_leading_space']))
+                {
+                    # Note: We have two functions because we need to first
+                    #       scan all lines before we know how many spaces
+                    #       to remove from each line (thus, it is not
+                    #       just for statistics - we actually need it
+                    #       for correct operation).
+                    #
+                    #       But perhaps we could use the same technique
+                    #       as for removeTrailingSpacesAndTABs() and
+                    #       combine it into one function?
+
+                    $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
+
+                    $someText = removeCommonLeadingSpaces(
+                                    $someText, $leadingSpaceToRemove);
+
+                    $message = "<p>Removed " . $leadingSpaceToRemove .
+                                " leading spaces from all lines...</p>\n";
+                }
+
+                if ($fallThrough === 1)
+                {
+                    assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
+                }
+
+                #Why doesn't this work????? - no error output, etc. It seems
+                #to to in production - is it a configuration issue?
+                #
+                #
+                ##if ($fallThrough === 1)
+                #if (1 === 1)
+                #{
+                #    assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
+                #}
+                #assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
+                #assert(4 === 5, "Switch fall-through... Variable button is: >>>$button<<<");
+
+
+
+                #Keep, as we will probably use a similar construct again, but with
+                #a numeric code
+                #$actionStr = get_postParameter('action');
+                #switch ($actionStr)
+                #{
+                #    case "Remove TABs and trailing whitespace":
+                #
+                #        #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
+                #
+                #        #Temp!!!!!!!!!!
+                #        #[$someText, $message] = removeTrailingSpacesAndTABs($someText);
+                #        break;
+                #
+                #    case "Format as keyboard":
+                #
+                #        #echo '<p>Actions for: Format as keyboard</p>';
+                #
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$someText = "<kbd>$someText</kbd>";
+                #        break;
+                #
+                #    case "Quote as code":
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$someText = "`$someText`";
+                #        break;
+                #
+                #    case "Real quotes":
+                #
+                #        #Does not work... $someText is zapped and it shows two backticks...
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$someText = "“$someText”";
+                #        break;
+                #
+                #    case "Transform for YouTube comments":
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$someText = transformFor_YouTubeComments($someText);
+                #        break;
+                #
+                #    case "Remove common leading space":
+                #
+                #        #echo '<h3>Lines...</h3>' . "\n";
+                #
+                #        # Note: We have two functions because we need to first
+                #        #       scan all lines before we know how many spaces
+                #        #       to remove from each line (thus, it is not
+                #        #       just for statistics - we actually need it
+                #        #       for correct operation).
+                #        #
+                #        #       But perhaps we could use the same technique
+                #        #       as for removeTrailingSpacesAndTABs() and
+                #        #       combine it into one function?
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$leadingSpaceToRemove = findCommonLeadingSpaces($someText);
+                #        #
+                #        #$someText = removeCommonLeadingSpaces(
+                #        #                $someText, $leadingSpaceToRemove);
+                #        #
+                #        #$message = "<p>Removed " . $leadingSpaceToRemove .
+                #        #            " leading spaces from all lines...</p>\n";
+                #        break;
+                #
+                #    default:
+                #        assert(0, "Switch fall-through... Variable actionStr is: >>>$actionStr<<<");
+                #}
             }
             else
             {
@@ -622,7 +748,7 @@
 
             <!-- Remove TABs and trailing whitespace button  -->
             <input
-                name="action"
+                name="someAction[remove_TABs_and_trailing_whitespace]"
                 type="Submit"
                 id="LookUp"
                 class="XYZ3"
@@ -634,7 +760,7 @@
 
             <!-- Format as keyboard button  -->
             <input
-                name="action2"
+                name="someAction[format_as_keyboard]"
                 type="Submit"
                 id="LookUp2"
                 class="XYZ19"
@@ -646,7 +772,7 @@
 
             <!-- Quote as code button  -->
             <input
-                name="action3"
+                name="someAction[quote_as_code]"
                 type="Submit"
                 id="LookUp3"
                 class="XYZ20"
@@ -658,7 +784,7 @@
 
             <!-- Real quotes button  -->
             <input
-                name="action4"
+                name="someAction[real_quotes]"
                 type="Submit"
                 id="LookUp28"
                 class="XYZ28"
@@ -670,7 +796,7 @@
 
             <!-- Transform for YouTube comments button  -->
             <input
-                name="action5"
+                name="someAction[transform_for_YouTube_comments]"
                 type="Submit"
                 id="LookUp29"
                 class="XYZ29"
@@ -682,7 +808,7 @@
 
             <!-- Remove common leading space button  -->
             <input
-                name="action6"
+                name="someAction[remove_common_leading_space]"
                 type="Submit"
                 id="LookUp30"
                 class="XYZ30"

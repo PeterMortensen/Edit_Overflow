@@ -1,10 +1,18 @@
 <?php
     # File: commonStart.php
-
+    #
+    # Note: This file doesn't output anything (to standard output) by 
+    #       itself (though it does execute some code (command-line 
+    #       argument parsing for use locally for testng, defining 
+    #       some constants, and setting up some globals used for 
+    #       error detection/logging)).
+    #
+    #       Clients must explicitly call the functions here, e.g.
+    #       the_EditOverflowHeadline();
+    #
     # Purposes (though we should probably split the WordPress-specific
     #           parts into a separate file, as this file has now
     #           taken on more responsibilities):
-    #
     #
     #   1. Centralise the WordPress-specific things. E.g. to minimise
     #      redundancy on individual pages.
@@ -16,10 +24,11 @@
     #      some redundancy (e.g. Edit Overflow version).
 
     require_once('eFooter.php'); # Our own file, not WordPress...
+                                 # Only function definitions (no output)
 
     require_once('StringReplacerWithRegex.php');
 
-    require_once('commonEnd.php'); # Only function definitions
+    require_once('commonEnd.php'); # Only function definitions (no output)
 
 
 
@@ -30,17 +39,22 @@
     const MAINTEXT = 'someText';
 
 
-    # For running locally on the command line with standard a
-    # standard HTML query string , e.g., for testing purposes
-    # (faster and without touching production)
+    # For running locally on the command line with a standard HTML
+    # query string, e.g., for testing purposes (faster and
+    # without touching production)
     #
     # Sample command line (note: "&" is percent encoded (as "%3F")):
     #
     #     wget -o __xyz5.html "https://validator.w3.org/nu/?showsource=yes%3Fdoc=https://pmortensen.eu/world/EditSummaryFragments.php%3FOverflowStyle=Native"
     #
-    if (!empty($argv[1])) {
+    $firstArgument = $argv[1];
+    if (!empty($firstArgument)) {
         #parse_str($argv[1], $_GET);
-        parse_str($argv[1], $_REQUEST);
+
+        # This is required for our build script regression tests, etc. to work
+        parse_str($firstArgument, $_REQUEST);
+
+        #echo "\n\nFirst argument: $firstArgument\n\n\n";
     }
 
 
@@ -55,12 +69,12 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a123 2021-09-14T124405Z+0";
+        return "Edit Overflow v. 1.1.49a128 2021-09-18T230933Z+0";
     }
 
 
-    # Note that we are using the WordPress convention of
-    # name prefixing functions (with "the_") that echo's.
+    # Note that we are using the WordPress convention of name
+    # prefixing functions that echo's (with "the_").
     #
     function the_EditOverflowHeadline($aHeadline)
     {
@@ -117,7 +131,6 @@
             $dummy1 = $dummy2;
         }
 
-
     } #the_EditOverflowHeadline()
 
 
@@ -133,8 +146,9 @@
     {
         #echo "<p>About to retrieve key >>>$aKey<<<...</p>";
         #
-        # The "if" is to avoid the following error (as no POST parameters
-        # are defined in $_REQUEST when just initial opening a .php page):
+        # The "if" is to avoid the following error (as no POST
+        # parameters are defined in $_REQUEST when just
+        # initially opening a .php page):
         #
         #    Notice: Undefined index: editSummary in ... commonStart.php ...
         #
@@ -176,12 +190,11 @@
     } #get_postParameter()
 
 
-    # Helper function to support switching between form based
+    # Helper function to support switching between form-based
     # lookup (server) and client-side lookup (JavaScript).
     #
     function useJavaScriptLookup()
     {
-        #$toReturn = true; # Stub
         $toReturn = false; # Default
 
         $clientSideLookup = get_postParameter('UseJavaScript') ?? 'no';
@@ -296,7 +309,7 @@
 
             #echo "<p>formDataSizeDiff: $formDataSizeDiff</p>\n";
         }
-    }
+    } #adjustForWordPressMadness()
 
 
     function get_HTMLattributeEscaped($aRawContent)
@@ -325,7 +338,7 @@
         #echo "<p>After: xxx" . $aRawContent . "xxx</p>\n";
 
         return $encodedContent;
-    }
+    } #get_HTMLattributeEscaped()
 
 
     # Single place for HTML links
@@ -339,7 +352,7 @@
             ">" . $aRawLinkText . "</a>";
 
         return $toReturn;
-    }
+    } #get_HTMLlink()
 
 
     # Single place for output of dynamic "value" attributes
@@ -350,7 +363,7 @@
         $encodedContent = get_HTMLattributeEscaped($aRawContent);
 
         echo "value=\"$encodedContent\"\n";
-    }
+    } #the_formValue()
 
 
     function transformFor_YouTubeComments($aText)
@@ -403,7 +416,6 @@
             $replacer->transform(' DOT aspx', '.aspx');
             $replacer->transform(' DOT pdf',  '.pdf');
 
-
         # Convert email addresses like so... (at least
         # to offer some protection (and avoiding
         # objections to posting)).
@@ -441,12 +453,11 @@
         # We wait till ***last*** because the input may
         # already have timestamps in the final format
         # (so this should come after the timestamp
-        # conversion)
+        # conversion).
         #
         # It is also a good idea to have any TABs
         # converted first.
         #
-        #if (! 0) # If we remove common leading spaces first (as in
         if ($replacer->match("\d+:\d+\s"))
 
                  # If we remove common leading spaces first (as in
@@ -462,7 +473,7 @@
             #$replacer->transform("\r\n    ", "\r\n");
 
 
-            # Remove threes space from non-timestamp lines. It
+            # Remove three spaces from non-timestamp lines. It
             # is to adjust for the total effect of:
             #
             #   1) adjust for the reduction in space of the
@@ -474,16 +485,65 @@
             #
             $replacer->transform("\r\n   ", "\r\n");
 
-
             # XXX How do we replace only in leading space?
 
             #$replacer->transform('(\d+)\s+secs',   '$1 ');
         }
 
-
         $someText = $replacer->currentString();
         return $someText;
     } #transformFor_YouTubeComments()
+
+
+    function WikiMedia_Link($aURL, $aCorrectTerm)
+    {
+        #Note: This is redundant with the corresponding
+        #      encoding in the C# source code...
+        #
+        # First stab (we probably also need to handle URL encoding
+        # (example: <https://en.wikipedia.org/wiki/Pip_%28package_manager%29>)):
+        #
+        # Only for Wikipedia for now (not Wiktionary):
+        #
+        $linkStr = "Does not apply";    # Default
+        if (1)
+        {
+            # Note: We need to derive the link word (reference) from
+            #       the URL instead of the correct term (as the
+            #       title on e.g. Wikipedia may not be the same
+            #       of the correct term).
+
+            $replacer7 = new StringReplacerWithRegex($aURL);
+
+            #Delete at any time
+            #$replacer->transform('(\d+)\s+secs',   '$1 ');
+
+            #$replacer7->transform('https:\/\/en.wikipedia.org\/wiki\/(.*)', '[[$1|$1]]');
+
+            # We can't use $aCorrectTerm for the second parameter(?).
+            # We do it in two steps instead, by using a sentinel.
+            #
+            # Could we use a combination of single and double quotes? -
+            #
+            #     '[[$1|' . "$aCorrectTerm]]"
+            #
+            #       or
+            #
+            #     '[[$1|' . $aCorrectTerm . ']]'
+            #
+            $replacer7->transform('https:\/\/en.wikipedia.org\/wiki\/(.*)', '[[$1|SENTINEL_ZZ]]');
+            $replacer7->transform('SENTINEL_ZZ', $aCorrectTerm);
+
+            $linkStr = $replacer7->currentString();
+
+            if ($linkStr === $aURL) # That is, it was not transformed at all -
+                                    # it did not match the regular expression
+            {
+                $linkStr = "Does not apply";
+            }
+        }
+        return $linkStr;
+    } #WikiMedia_Link()
 
 
     # Note that we are using the WordPress convention of

@@ -216,9 +216,11 @@
                 # We preformat it in the most commonly used form in YouTube
                 # comments:
                 #
-                #     1. Styled as bold (by "*" (which is the marker for
-                #        **italics** in YouTube comments). As the
-                #        Wikipedia URLs often contain underscore)
+                #     1. Styled as ***bold*** (by using "*").
+                #
+                #        We use bold instead of italics (by "_") as Wikipedia
+                #        URLs often contain underscores and thus the
+                #        formatting would not work with italics).
                 #
                 #     2. Used indented on a separate line in a comment with
                 #        a list of timestamps. Note: It is indented deeper
@@ -258,6 +260,19 @@
                 $link_HTML =
                   "<a href=\"" . $URL . "\"" .
                   ">" . $correctTerm . "</a>";
+
+
+                # Link, in MediaWiki format (e.g., for Wikipedia)
+                #
+                # We preformat it in italics (two single quotes on Wikipeida)
+                # as we will often want to indicate it is literal (e.g.,
+                # on a talk page)-
+                #
+                $link_WikiMedia =
+                    "''" .
+                    WikiMedia_Link($URL, $correctTerm) .
+                    "''"
+                    ;
 
                 $correctionComment =
                   "It is \"" . $correctTerm . "\" (not \"" .
@@ -672,6 +687,38 @@
                     style="width:400px;"
                     accesskey="H"
                     title="Shortcut: Shift + Alt + H"
+                />
+
+                <label for="URL6">Link (MediaWi<u>k</u>i)</label>
+                <input
+                    name="URL6"
+                    type="text"
+                    id="URL6"
+                    class="XYZ94"
+
+                    <?php
+                        #Note: We should eliminate the redundancy (introduced
+                        #      due to problems with escaping double quotes) -
+                        #      see get_HTMLattributeEscaped() for details.
+
+
+                        # the_formValue($link_HTML);
+                        #
+                        ## Direct, using single quotes, so we don't
+                        ## have to escape neither in PHP nor in HTML
+                        ## (but it fails for correct terms containing
+                        ## single quotes, e.g. "don't"):
+                        ##
+                        #echo "value='$link_HTML'\n";
+
+                        # Using "&quot;", but see notes near "$link_HTML" above.
+                        #
+                        $link_WikiMedia_encoded = str_replace('"', '&quot;', $link_WikiMedia);
+                        echo "value=\"$link_WikiMedia_encoded\"\n";
+                    ?>
+                    style="width:400px;"
+                    accesskey="K"
+                    title="Shortcut: Shift + Alt + K"
                 />
 
                 <label for="URL5">Correction commen<u>t</u></label>
