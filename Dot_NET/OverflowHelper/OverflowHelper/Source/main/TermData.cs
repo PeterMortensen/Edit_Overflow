@@ -3987,6 +3987,7 @@ namespace OverflowHelper.core
             correctionAdd("vairable", "variable");
             correctionAdd("variabes", "variable");
             correctionAdd("VARABLE", "variable");
+            correctionAdd("Varialbe", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -9532,6 +9533,7 @@ namespace OverflowHelper.core
             correctionAdd("C-Panel", "cPanel");
             correctionAdd("CPanel", "cPanel");
             correctionAdd("C panel", "cPanel");
+            correctionAdd("c panel", "cPanel");
 
             correctionAdd("plesk", "Plesk");
 
@@ -11784,13 +11786,6 @@ namespace OverflowHelper.core
             correctionAdd("DuckDockGo", "DuckDuckGo");
             correctionAdd("DuckDuck", "DuckDuckGo");
             correctionAdd("DuckDuckgo", "DuckDuckGo");
-
-            correctionAdd("yahoo answers", "Yahoo Answers");
-            correctionAdd("Yahoo answers", "Yahoo Answers");
-            correctionAdd("Yahoo! Answers", "Yahoo Answers");
-            correctionAdd("Yahoo!Answers", "Yahoo Answers");
-            correctionAdd("yahoo!Answers", "Yahoo Answers");
-            correctionAdd("yahoo! Answers", "Yahoo Answers");
 
             correctionAdd("democraticly", "democratically");
 
@@ -14167,6 +14162,9 @@ namespace OverflowHelper.core
             correctionAdd("PMOS", "p-channel MOSFET");
             correctionAdd("pMOS", "p-channel MOSFET");
             correctionAdd("Pch FET", "p-channel MOSFET");
+            correctionAdd("P-mos", "p-channel MOSFET");
+            correctionAdd("P mos", "p-channel MOSFET");
+            correctionAdd("P MOS", "p-channel MOSFET");
 
             correctionAdd("pro-bono", "pro bono");
 
@@ -14175,6 +14173,7 @@ namespace OverflowHelper.core
             correctionAdd("Return", "return");
             correctionAdd("Retrn", "return");
             correctionAdd("retrn", "return");
+            correctionAdd("retunr", "return");
 
             correctionAdd("strewam", "stream");
             correctionAdd("sream", "stream");
@@ -14913,6 +14912,7 @@ namespace OverflowHelper.core
             correctionAdd("IOW", "in other words");
             correctionAdd("With other words", "in other words");
             correctionAdd("with other words", "in other words");
+            correctionAdd("another words", "in other words");
 
             correctionAdd("IPROUTE2", "iproute2");
 
@@ -15998,6 +15998,7 @@ namespace OverflowHelper.core
             correctionAdd("opearator", "operator");
             correctionAdd("operater", "operator");
             correctionAdd("opperator", "operator");
+            correctionAdd("oprator", "operator");
 
             correctionAdd("reliablly", "reliably");
             correctionAdd("realiably", "reliably");
@@ -19061,6 +19062,8 @@ namespace OverflowHelper.core
             correctionAdd("Ternary Operator", "ternary operator");
             correctionAdd("Ternary", "ternary operator");
             correctionAdd("ternery", "ternary operator");
+            correctionAdd("Ternary oprator", "ternary operator");
+            correctionAdd("Ternary operator", "ternary operator");
 
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
@@ -20470,6 +20473,8 @@ namespace OverflowHelper.core
             correctionAdd("proccess", "process");
             correctionAdd("porcess", "process");
             correctionAdd("provess", "process");
+            correctionAdd("procces", "process");
+            correctionAdd("proces", "process");
 
             correctionAdd("MS Dynamics", "Microsoft Dynamics CRM");
             correctionAdd("Dynamics CRM", "Microsoft Dynamics CRM");
@@ -20584,8 +20589,6 @@ namespace OverflowHelper.core
             correctionAdd("CodeReview", "Code Review");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
-
-            correctionAdd("drupal answers", "Drupal Answers");
 
             correctionAdd("embarcadero", "Embarcadero");
 
@@ -23987,6 +23990,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Null Coalescing operator", "null coalescing operator");
             correctionAdd("Null coalescing operator", "null coalescing operator");
+            correctionAdd("Null Coalescing Operator", "null coalescing operator");
 
             correctionAdd("upgaded", "upgraded");
 
@@ -25875,6 +25879,8 @@ namespace OverflowHelper.core
             correctionAdd("tecnology", "technology");
             correctionAdd("tecnologie", "technology");
             correctionAdd("Technology", "technology");
+            correctionAdd("technlogie", "technology");
+            correctionAdd("technlogy", "technology");
 
             correctionAdd("flake8", "Flake8");
 
@@ -28316,7 +28322,17 @@ namespace OverflowHelper.core
             correctionAdd("snap", "Snap package");
             correctionAdd("Snap", "Snap package");
 
+            correctionAdd("yahoo answers", "Yahoo Answers");
+            correctionAdd("Yahoo answers", "Yahoo Answers");
+            correctionAdd("Yahoo! Answers", "Yahoo Answers");
+            correctionAdd("Yahoo!Answers", "Yahoo Answers");
+            correctionAdd("yahoo!Answers", "Yahoo Answers");
+            correctionAdd("yahoo! Answers", "Yahoo Answers");
+
+            correctionAdd("drupal answers", "Drupal Answers");
+
             correctionAdd("answeres", "answers");
+            correctionAdd("aswers", "answers");
 
             correctionAdd("cath", "catch");
 
@@ -30883,6 +30899,21 @@ namespace OverflowHelper.core
             correctionAdd("Zk-Snark", "zk-SNARK");
             correctionAdd("zk-Snark", "zk-SNARK");
             correctionAdd("zkSNARK", "zk-SNARK");
+
+            correctionAdd("Neopixel", "NeoPixel");
+            correctionAdd("neopixel", "NeoPixel");
+
+            correctionAdd("causual", "casual");
+
+            correctionAdd("PARSE_STR", "parse_str");
+
+            correctionAdd("PRINT_R", "print_r");
+
+            correctionAdd("salutions", "salutations");
+
+            correctionAdd("tollerable", "tolerable");
+
+            correctionAdd("VAR_DUMP", "var_dump");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48550,6 +48581,20 @@ namespace OverflowHelper.core
             URL_Add("icon", "https://en.wiktionary.org/wiki/icon#Noun");
 
             URL_Add("zk-SNARK", "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof");
+
+            URL_Add("NeoPixel", "https://en.wikipedia.org/wiki/Adafruit_Industries#NeoPixel");
+
+            URL_Add("casual", "https://en.wiktionary.org/wiki/casual#Adjective");
+
+            URL_Add("parse_str", "https://www.php.net/manual/en/function.parse-str.php");
+
+            URL_Add("print_r", "https://www.php.net/manual/en/function.print-r.php");
+
+            URL_Add("salutations", "https://en.wiktionary.org/wiki/salutation#Noun");
+
+            URL_Add("tolerable", "https://en.wiktionary.org/wiki/tolerable#Adjective");
+
+            URL_Add("var_dump", "https://www.php.net/manual/en/function.var-dump.php");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
