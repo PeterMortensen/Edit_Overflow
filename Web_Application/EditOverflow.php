@@ -182,6 +182,7 @@
             # in the PHP error log file.
             $linkYouTubeCompatible = "";
             $link_HTML = "";
+            $link_WikiMedia = "";
             $correctionComment = "";
 
 

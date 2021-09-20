@@ -1,10 +1,10 @@
 <?php
     # File: commonStart.php
     #
-    # Note: This file doesn't output anything (to standard output) by 
-    #       itself (though it does execute some code (command-line 
-    #       argument parsing for use locally for testng, defining 
-    #       some constants, and setting up some globals used for 
+    # Note: This file doesn't output anything (to standard output) by
+    #       itself (though it does execute some code (command-line
+    #       argument parsing for use locally for testng, defining
+    #       some constants, and setting up some globals used for
     #       error detection/logging)).
     #
     #       Clients must explicitly call the functions here, e.g.
@@ -43,18 +43,19 @@
     # query string, e.g., for testing purposes (faster and
     # without touching production)
     #
-    # Sample command line (note: "&" is percent encoded (as "%3F")):
-    #
-    #     wget -o __xyz5.html "https://validator.w3.org/nu/?showsource=yes%3Fdoc=https://pmortensen.eu/world/EditSummaryFragments.php%3FOverflowStyle=Native"
-    #
-    $firstArgument = $argv[1];
-    if (!empty($firstArgument)) {
-        #parse_str($argv[1], $_GET);
+    if (isset($argv)) # argv is not defined at all when this is running in
+                      # a web context. We need this to avoid entries in 
+                      # web server error log like "Trying to access 
+                      # array offset on value of type null" 
+    {
+        $firstArgument = $argv[1];
+        if (!empty($firstArgument))
+        {
+            # This is required for our build script regression tests, etc. to work
+            parse_str($firstArgument, $_REQUEST);
 
-        # This is required for our build script regression tests, etc. to work
-        parse_str($firstArgument, $_REQUEST);
-
-        #echo "\n\nFirst argument: $firstArgument\n\n\n";
+            #echo "\n\nFirst argument: $firstArgument\n\n\n";
+        }
     }
 
 

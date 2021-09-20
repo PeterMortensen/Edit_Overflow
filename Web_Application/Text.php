@@ -504,6 +504,17 @@
             test_generateWikiMedia_Link(1028, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "Cherry MX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
 
 
+            #assert(0, "Unconditionnal assert failure...");
+
+            #For debugging
+            #echo "<pre>";
+            #print_r($_REQUEST);
+            ##print_r($_POST);
+            #print_r(file_get_contents("php://input"));
+            #echo "</pre>";
+
+
+
 
             # ----------------------------------------------------------------
 
@@ -539,7 +550,7 @@
 
                 #assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
                 assert(array_key_exists('someAction', $_REQUEST));  # From example:  isset($this->records)
-                
+
 
                 # The default value could be 'Some text </textarea>', for
                 # making direct HTML validation by https://validator.w3.org/
@@ -577,6 +588,7 @@
                 if (isset($button['remove_TABs_and_trailing_whitespace']))
                 {
                     [$someText, $message] = removeTrailingSpacesAndTABs($someText);
+                    $fallThrough = 0;
                 }
 
                 if (isset($button['format_as_keyboard']))
@@ -623,24 +635,14 @@
 
                     $message = "<p>Removed " . $leadingSpaceToRemove .
                                 " leading spaces from all lines...</p>\n";
+
+                    $fallThrough = 0;
                 }
 
                 if ($fallThrough === 1)
                 {
                     assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
                 }
-
-                #Why doesn't this work????? - no error output, etc. It seems
-                #to to in production - is it a configuration issue?
-                #
-                #
-                ##if ($fallThrough === 1)
-                #if (1 === 1)
-                #{
-                #    assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
-                #}
-                #assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
-                #assert(4 === 5, "Switch fall-through... Variable button is: >>>$button<<<");
 
 
 
