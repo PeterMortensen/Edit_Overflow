@@ -353,12 +353,6 @@ function mustBeEqual()
 #
 function keyboardShortcutConsistencyCheck()
 {
-    #Delete at any time
-    #echo
-    #echo
-    #echo "$3. Starting keyboard shortcut consistency check for $1..."
-    #echo
-
     startOfBuildStep $3 "Starting keyboard shortcut consistency check for $1..."
 
     #perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
@@ -388,12 +382,6 @@ function keyboardShortcutConsistencyCheck()
 #
 function HTML_validation_base()
 {
-    #Delete at any time
-    #echo
-    #echo
-    #echo "$3. Starting HTML validation for $1..."
-    #echo
-
     startOfBuildStep $3 "Starting HTML validation for $1..."
 
     export SUBMIT_URL="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu$4%2F$1%3FOverflowStyle=Native"
@@ -421,7 +409,6 @@ function HTML_validation_base()
 function HTML_validation()
 {
     #echo "In HTML_validation()..."
-    #exit
 
     # Note: The quoting is needed, at least for "$2", so spaces
     #       in a string are not seen as separate parameters...
@@ -463,6 +450,12 @@ function HTML_validation()
 #   $5   Match string for standard error output (standard error
 #        MUST contain this string for the test to pass)
 #
+#        Note: Specifying an empty string currently does not work. That is,
+#              it can not be specified that standard error should be empty
+#              (it will fail).
+#
+#              Thus the script MUST produce something to standard error...
+#
 function PHP_code_test()
 {
     startOfBuildStep $3 "Start running PHP tests for $1: $2"
@@ -472,7 +465,6 @@ function PHP_code_test()
     #echo "Dollar 2: $2..."
     #echo "Dollar 3: $3..."
     #echo "Dollar 4: $4..."
-    #exit
 
     #echo
     #echo "In PHP_code_test(). Current folder:" `pwd`
@@ -490,7 +482,8 @@ function PHP_code_test()
 
     # #####################################
     #
-    # 2. Execute the PHP script
+    # 2. Execute the PHP script (and capture both
+    #    standard output and standard error)
     #
     # Note: $3 (build number) is to make it unique (so we don't overwrite
     #       previous output files (for the current build script run)).
@@ -507,15 +500,20 @@ function PHP_code_test()
     php $1 "$4"  > ${HTML_FILE}  2> ${STDERR_FILE}
 
     #cat ${STDERR_FILE}
-
-
-    #exit
     #echo "Standard error:" `cat ${STDERR_FILE}`
 
 
     # #####################################
     #
-    # 3. Evaluate the result from standard error (from the script).
+    # 3. Detect missing files (as seen by the PHP interpreter)
+    #
+    export MISSINGFILES_MATCHSTRING="Could not open input file: "
+    grep -q "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE}`\""
+
+
+    # #####################################
+    #
+    # 4. Evaluate the result from standard error (from the script).
     #    It must match the passed in match string.
     #
     # Note: This will indirectly detect syntax errors as
@@ -530,12 +528,12 @@ function PHP_code_test()
     #
     # 'head' is for limiting the output (but there is usually only one line)
     #
-    grep -q "$5" ${STDERR_FILE} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${STDERR_FILE}`"
+    grep -q "$5" ${STDERR_FILE} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: expected \"$5\", but got \"`head -n 3 ${STDERR_FILE}`\"  "
 
 
     # #####################################
     #
-    # 4. Detect some stray debug output in our PHP code
+    # 5. Detect some stray debug output in our PHP code
     #    (to standard output). Common for all.
     #
     # "test $? -ne 0" is for inverting/negating the return code ("$?").
@@ -544,29 +542,27 @@ function PHP_code_test()
     #! (grep -q "First argument: " ${HTML_FILE}) ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE}`"
     #grep -q "First argument: " ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE}`"
     #grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE}`"
-    grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE}`\""
+    grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE}`\"  "
 
     export STRAYDEBUGGING_MATCHSTRING2="Some URL: "
-    grep -q "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE}`\""
-
-
+    grep -q "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE}`\"  "
 
 
     # #####################################
     #
-    # 5. Detect unit test failures. Note: Currently only executed in the
+    # 6. Detect unit test failures. Note: Currently only executed in the
     #    context of Text.php
     #
     # Is there an easier way? Could we configure the PHP installation to
     # automatically stop on all errors and warnings?
     #
     export UNITTEST_MATCHSTRING="Failed test. ID: "
-    grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE}`\""
+    grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE}`\"  "
 
 
     # #####################################
     #
-    # 6. Detect more errors that are not syntax errors (they
+    # 7. Detect more errors that are not syntax errors (they
     #    will not happen until run time, but they still
     #    terminate the execution).
     #
@@ -584,7 +580,7 @@ function PHP_code_test()
 
     # #####################################
     #
-    # 7. Stop on all "PHP notices", except the
+    # 8. Stop on all "PHP notices", except the
     #    intentional one (variable "dummy2")
     #
     # For dummy2:
@@ -597,18 +593,101 @@ function PHP_code_test()
     #
     export NOTICE_MATCHSTRING="PHP Notice: "
     grep -v dummy2 ${STDERR_FILE} | grep -q "${NOTICE_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`  grep -v dummy2 ${STDERR_FILE} | grep "${NOTICE_MATCHSTRING}"  `\""
+}
 
 
+# ###########################################################################
+#
+# Helper function to reduce redundancy. For PHP code.
+#
+#   For now, the primary purpose is to detect new entries in the
+#   web server error log (most likely only due to PHP errors) as
+#   a result of retrieving a web page (with wget).
+#
+#   This is to detect errors when the PHP scripts are running in
+#   a web server context, as opposed to a command line context
+#   that we also use for testing. For instance, a PHP file
+#   gets passed command-line parameters from our tests
+#   when running in command line context, whereas in
+#   a web context it does not get any command line
+#   parameters (we had an actual error due to this).
+#
+#   PHP may also be configured differently for command line
+#   and web (e.g., two different )
+#
+# Future:
+#
+#   1. Positive tests to test if particular configuration
+#      changes actually have the expected effect.
+#
+#      Will then become regression tests for the expected
+#      configuration.
+#
+#   2. XXXXXXXXXx
+#
+#
+# Note: For now it only works for the ***local web server***
+#       (but it could be extended as soon as we have a means
+#       to programmatically retrieve the error log from the
+#       remote web server (we already push files in the
+#       opposite direction))
+#
+# It is assumed the PHP files have been copied
+# to the web server by some other means.
+#
+#
+# Parameters:
+#
+#   $1   URL. Including any query string
+#
+#   $2   Identification string. Must not contain space - is used for
+#        file names (and command-line arguments)
+#
+#   $3   Build number
+#
+function webServer_test()
+{
+    #Delete at any time
+    #echo "In webServer_test()..."
+    #echo "Dollar 1: $1..."
+    #echo "Dollar 2: $2..."
+    #echo "Dollar 3: $3..."
+    #echo "Dollar 4: $4..."
 
+    startOfBuildStep $3 "Start detection of error log entries for a web server. ID: $2"
+
+    # Hardcoded for now
+    export WEB_ERRORLOG_FILE="/var/log/apache2/error.log"
+
+    export HTML_FILE="_$2.html"
+
+
+    export SIZE_BEFORE_WEBERROR_LOG=`wc ${WEB_ERRORLOG_FILE}`
+    wget -o ${HTML_FILE} "$1"
+    export SIZE_AFTER_WEBERROR_LOG=`wc ${WEB_ERRORLOG_FILE}`
+
+    #echo "Web server error log size before: ${SIZE_BEFORE_WEBERROR_LOG}"
+    #echo "Web server error log size after: ${SIZE_AFTER_WEBERROR_LOG}"
+
+    #echo ; date ; echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 5
+
+
+    # Detect new entries in the web server error log
+    # file as a result of retrieving a web page.
+    #
+    #[ "${SIZE_BEFORE_WEBERROR_LOG}" != "${SIZE_AFTER_WEBERROR_LOG}" ] ; test $? -ne 0 ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+    [ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ] ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 1`\"  "
 
     #Delete at any time
-    #export SUBMIT_URL="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu$4%2F$1%3FOverflowStyle=Native"
+    ##if [ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ]; then
+    #if [ "${SIZE_BEFORE_WEBERROR_LOG}" != "${SIZE_AFTER_WEBERROR_LOG}" ]; then
     #
-    ## Output the submit URL (to the W3 validator), so we can easier and faster reproduce a problem
-    #echo "Submit URL for HTML validation: ${SUBMIT_URL}"
-    #echo
+    #    echo
+    #    echo "New entries in the web server log!"
     #
-    #wget -q -O- ${SUBMIT_URL} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
+    #    #echo ; date ;
+    #    echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 2
+    #fi
 }
 
 
@@ -665,7 +744,7 @@ cd ${SELINUM_DRIVERSCRIPT_DIR}
 #   the Selenium Python script is now 6, triggering Pylint (disabled for
 #   now (R0913). Pylint is OK with 5...).
 #
-#   Alternatively, we could configure Pylint to accept 6 instead of 5. 
+#   Alternatively, we could configure Pylint to accept 6 instead of 5.
 #   See e.g. <https://stackoverflow.com/a/816789>.
 #
 #pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
@@ -742,7 +821,10 @@ cp $SRCFOLDER_WEB/eFooter.php                           $WORKFOLDER
 cp $SRCFOLDER_WEB/StringReplacerWithRegex.php           $WORKFOLDER
 cp $SRCFOLDER_WEB/commonEnd.php                         $WORKFOLDER
 cp $SRCFOLDER_WEB/deploymentSpecific.php                $WORKFOLDER
+#
 cp $SRCFOLDER_WEB/Text.php                              $WORKFOLDER
+cp $SRCFOLDER_WEB/FixedStrings.php                      $WORKFOLDER
+cp $SRCFOLDER_WEB/EditSummaryFragments.php              $WORKFOLDER
 
 
 # To the local web server
@@ -752,9 +834,12 @@ sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
+#
 sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
 
-#exit
+
 
 
 # Compile, run unit tests, run, and redirect SQL & HTML output to files
@@ -762,45 +847,6 @@ sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
 echo
 cd $WORKFOLDER
 echo Work folder: $WORKFOLDER
-
-
-# ###########################################################################
-#
-#  Self test of PHP configuration, syntax errors in some scripts, etc.
-#
-#  Sort of self test (that we can actually detect undefined
-#  variables). Note that we don't use EditOverflow.php as
-#  it is subject to an early database access error.
-#
-#  We expect to get something like this on standard error:
-#
-#      PHP Notice:  Undefined variable: dummy2 in /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/commonStart.php on line 120
-#
-#  Note that it will also detect any syntax errors in commonStart.php
-#
-PHP_code_test  Text.php  "self test"  17  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
-
-#exit
-
-
-#Delete at any time
-## Evaluate the result (only for undefined variables part (to standard error))
-##
-##Note: For now, some redundancy in numbers, file names, etc.
-##
-#export FILENAME_TEXT=Text.php
-#export ID_STR="Self test, for undefined PHP variables"
-#export BUILDNUMBER=17
-#export STDERR_TEXT=_stdErr_17_Text.php.txt
-##cat ${STDERR_TEXT}
-##
-## That is, standard error MUST positively contain this warning
-## message (that is the essence of this self test)
-##
-#grep -q 'Undefined variable: dummy2' ${STDERR_TEXT} ; evaluateBuildResult ${BUILDNUMBER} $? "PHP test: ${ID_STR} (file ${FILENAME_TEXT}). Extra information: `cat ${STDERR_TEXT}`"
-
-
-#exit
 
 
 # ###########################################################################
@@ -824,10 +870,81 @@ PHP_code_test  Text.php  "self test"  17  "OverflowStyle=Native&PHP_DoWarnings=O
 # and some other error? At least for syntax error that
 # is not the case.
 
-PHP_code_test  EditOverflow.php  "main lookup"  18  "LookUpTerm=JS&OverflowStyle=Native"  "Access denied for user"
-#               1                  2             3   4                                     5
+PHP_code_test  EditOverflow.php          "main lookup"             17  "OverflowStyle=Native&LookUpTerm=JS"  "Access denied for user"
+
+
+# ###########################################################################
+#
+#  Self test of PHP configuration, syntax errors in some scripts, etc.
+#
+#  It also happens to run the unit tests for this 'text' window (of
+#  the helper functions).
+#
+#  Sort of self test (that we can actually detect undefined variables
+#  in PHP). Note that we don't use EditOverflow.php as it is
+#  (currently) subject to an early database access error
+#  when running locally.
+#
+#  We expect to get something like this on standard error:
+#
+#      PHP Notice:  Undefined variable: dummy2 in /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/commonStart.php on line 120
+#
+#  Note that it will also detect any syntax errors in commonStart.php
+#
+PHP_code_test  Text.php                  "self test, unit tests"   18  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
+
+
+# ###########################################################################
+#
+#  Test of the fixed strings page (essentially static HTML)
+#
+#  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
+#        due to a current limitation in PHP_code_test()...
+#
+PHP_code_test  FixedStrings.php          "fixed strings"           19  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+
+
+# ###########################################################################
+#
+#  Test of the edit summary fragments page (essentially static HTML)
+#
+#  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
+#        due to a current limitation in PHP_code_test()...
+#
+PHP_code_test  EditSummaryFragments.php  "edit summary fragments"  20  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+
+
+# ###########################################################################
+#
+#  Detection of error log entries for the local web server (there shouldn't
+#  be any).
+#
+#
+# Note: Only HTTP works with our local webserver...
+#
+#
+# We can't use EditOverflow.php at the moment because the 
+# database error goes to the web server log...
+#
+#webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native"          "localWebserver_Edit_Overflow_lookup"    21
+
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native"                  "localWebserver_Text"                    22
+webServer_test  "http://localhost/world/FixedStrings.php?OverflowStyle=Native"          "localWebserver_fixed_strings"           23
+webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=Native"  "localWebserver_Edit_summary_fragments"  24
+
+# Invoke the function "Remove TABs and trailing whitespace" in 
+# the Edit Overflow "text" window
+#
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=XYZ%20%20%20&someAction%5Bremove_TABs_and_trailing_whitespace%5D=Remove+TABs+and+trailing+whitespace"  "localWebserver_Text_RemoveTABsAndTrailingWhitespace"  25
+
+# Invoke the function "Remove common leading space in 
+# the Edit Overflow "text" window
+#
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%20%20%20XYZ&someAction%5Bremove_common_leading_space%5D=Remove+common+leading+space"  "localWebserver_Text_RemoveCommonLeadingSpace"  26
+
 
 #exit
+
 
 
 
@@ -837,8 +954,6 @@ startOfBuildStep "27" "Starting web interface regression tests, local"
 
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 27 $? "web interface regression tests"
-
-#exit
 
 
 
@@ -875,9 +990,6 @@ mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWith
 mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingCheckTests.csZZZ
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
 
-
-#exit   # Active: Test only!!!!!!!!! (We currently use this to
-        #                             iterate (aided by unit testing)
 
 
 # ###########################################################################
@@ -917,7 +1029,6 @@ echo
 ls -ls $SQL_FILE
 
 
-#exit   # Active: Test only!!!!!!!!!
 
 
 # ###########################################################################
@@ -971,7 +1082,6 @@ startOfBuildStep "7" "Starting checking generated HTML"
 
 ${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 7  $? "Checking generated HTML (file ${HTML_FILE_GENERIC})"
 
-#exit   # Active: Test only!!!!!!!!!
 
 
 # ###########################################################################
@@ -1017,8 +1127,6 @@ echo
 cd -
 
 
-
-#exit   # Active: Test only!!!!!!!!!
 
 
 # #################################################################
