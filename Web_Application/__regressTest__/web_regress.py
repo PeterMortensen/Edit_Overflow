@@ -107,6 +107,16 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         #time.sleep(3.0) # Not really necessary
 
+    # Helper function for testing
+    #
+    # Test of text transformations in the 'text' window
+    #
+    def checkText_window(self, aURL):
+
+        self.checkYouTubeFormatting(aURL)
+
+        self.checkRealQuotes(aURL)
+
 
     # =======================================================================
 
@@ -125,15 +135,14 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         # Note: HTTPS does not work locally (for now)
         #
-        self.checkYouTubeFormatting('http://localhost/world/Text.php?OverflowStyle=Native')
+        self.checkText_window('http://localhost/world/Text.php?OverflowStyle=Native')
 
 
     # Test of the text window functions, e.g. YouTube comment formatting
     #
     def test_text(self):
 
-        self.checkYouTubeFormatting('https://pmortensen.eu/world/Text.php')
-
+        self.checkText_window('https://pmortensen.eu/world/Text.php')
 
 
     # Test of passing parameters through HTML GET
@@ -213,7 +222,33 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                         # result. Can be removed at any time
 
 
+    # Text.php page: Test enclosing text in real quotes
+    #
+    # Note: The specific function / button (for YouTube comments) is
+    #       by the keyboard shortcut Shift + Alt + Q (the fourth
+    #       parameter to textTransformation(), "q")
+    #
+    #
+    def checkRealQuotes(self, aURL):
+
+        content1_in1 = "secure"
+        #content1_out_new1 = "“" # Adaptation to the current bug
+        content1_out_new1 = "“secure”" # Adaptation to the current bug
+
+        # Send Shift + Alt + Q for invoking the formatting
+        self.textTransformation(aURL,
+                                content1_in1,
+                                content1_out_new1,
+                                "q",
+                                "The real quotes formatting result was bad!")
+
+
     # Text.php page: Test formatting of YouTube comments
+    #
+    # Note: The specific function / button (for YouTube comments) is
+    #       by the keyboard shortcut Shift + Alt + Y (the fourth
+    #       parameter to textTransformation(), "y")
+    #
     #
     def checkYouTubeFormatting(self, aURL):
 
