@@ -504,15 +504,17 @@
             test_generateWikiMedia_Link(1028, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "Cherry MX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
 
 
-            #assert(0, "Unconditionnal assert failure...");
-
             #For debugging
+            #assert(0, "Unconditional assert failure...");
+            #
+            #For debugging - e.g. for easily finding the URL query string
+            #for the various button actions.
+            ##
             #echo "<pre>";
-            #print_r($_REQUEST);
-            ##print_r($_POST);
-            #print_r(file_get_contents("php://input"));
+            ##print_r($_REQUEST);
+            ###print_r($_POST);
+            #print_r(file_get_contents("php://input")); # Raw URL query string
             #echo "</pre>";
-
 
 
 
@@ -605,8 +607,8 @@
 
                 if (isset($button['real_quotes']))
                 {
-                    $someText = "“$someText”";  # A bug here... The result
-                                                # is a single "“"...
+                    $someText = "“" . $someText . "”";
+
                     $fallThrough = 0;
                 }
 

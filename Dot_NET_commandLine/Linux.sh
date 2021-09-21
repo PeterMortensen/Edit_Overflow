@@ -297,6 +297,11 @@ export HTML_FILE_GENERIC=$WORKFOLDER/$HTML_FILE_GENERIC_FILENAMEONLY
 export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
 
 
+
+# Hardcoded for now
+export LOCAL_WEB_ERRORLOG_FILE="/var/log/apache2/error.log"
+
+
 #export FTP_SITE_URL='ftp://linux42.simplyZZZZZZZ.com' # Poor man's dry run
 export FTP_SITE_URL='ftp://linux42.simply.com'
 
@@ -307,14 +312,13 @@ export WEB_ERRORLOG_SUBFOLDER='_webErrorlog'
 # Yes, that is the actual file name that has been configured at
 # the web hosting (through file <public_html/world/.htaccess>)...
 #
-export WEB_ERRORLOG_FILENAME='phperrors_777.log'
+export REMOTE_WEB_ERRORLOG_FILENAME='phperrors_777.log'
 
 
-
-export BEFORE_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_before_${WEB_ERRORLOG_FILENAME}"
-export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${WEB_ERRORLOG_FILENAME}"
-
-
+#Not used - delete at any time
+#Too complicated - use use startWatchFile() / endWatchFile() instead.
+export BEFORE_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_before_${REMOTE_WEB_ERRORLOG_FILENAME}"
+export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${REMOTE_WEB_ERRORLOG_FILENAME}"
 
 
 export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
@@ -644,6 +648,52 @@ function PHP_code_test()
 
 # ###########################################################################
 #
+# Helper function to reduce redundancy.
+#
+# Used to detect changes to files (e.g. a web
+# server error log). Used with endWatchFile().
+#
+# Parameters:
+#
+#   $1   File to watch for changes
+#
+function startWatchFile()
+{
+    # File size for now. Perhaps MD5 hash later
+
+    export FILE_SIZE_BEFORE=`wc $1`
+}
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy.
+#
+# Used to detect changes to files (e.g. a web 
+# server error log). Used with startWatchFile()
+#
+# Parameters:
+#
+#   $1   File to check for changes
+#
+# Return code:
+#
+#   0 if not change to the file
+#
+#   Non-zero if there was a change to the file
+#
+function endWatchFile()
+{
+    # File size for now. Perhaps MD5 hash later
+
+    export FILE_SIZE_AFTER=`wc $1`
+    
+    [ "${FILE_SIZE_BEFORE}" = "${FILE_SIZE_AFTER}" ] 
+}
+
+
+# ###########################################################################
+#
 # Helper function to reduce redundancy. For PHP code.
 #
 #   For now, the primary purpose is to detect new entries in the
@@ -702,29 +752,36 @@ function webServer_test()
 
     startOfBuildStep $3 "Start detection of error log entries for a web server. ID: $2"
 
-    # Hardcoded for now
-    export WEB_ERRORLOG_FILE="/var/log/apache2/error.log"
 
     export RETRIEVED_HTML_FILE="_$2.html"
 
+    #Delete at any time
+    #export SIZE_BEFORE_WEBERROR_LOG=`wc ${LOCAL_WEB_ERRORLOG_FILE}`
 
-    export SIZE_BEFORE_WEBERROR_LOG=`wc ${WEB_ERRORLOG_FILE}`
+    startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
+
+    # That is, invoke the specified web page with PHP on the
+    # web server. If this results in entries to the error
+    # log, we will detect it below.
+    #
     #wget -o ${RETRIEVED_HTML_FILE} "$1"
     wget -q -O ${RETRIEVED_HTML_FILE} "$1"
 
-    export SIZE_AFTER_WEBERROR_LOG=`wc ${WEB_ERRORLOG_FILE}`
+    #Delete at any time
+    #export SIZE_AFTER_WEBERROR_LOG=`wc ${LOCAL_WEB_ERRORLOG_FILE}`
 
     #echo "Web server error log size before: ${SIZE_BEFORE_WEBERROR_LOG}"
     #echo "Web server error log size after: ${SIZE_AFTER_WEBERROR_LOG}"
 
-    #echo ; date ; echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 5
+    #echo ; date ; echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 5
 
 
     # Detect new entries in the web server error log
     # file as a result of retrieving a web page.
     #
-    #[ "${SIZE_BEFORE_WEBERROR_LOG}" != "${SIZE_AFTER_WEBERROR_LOG}" ] ; test $? -ne 0 ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 1`\"  "
-    [ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ] ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+    #[ "${SIZE_BEFORE_WEBERROR_LOG}" != "${SIZE_AFTER_WEBERROR_LOG}" ] ; test $? -ne 0 ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+    #[ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ] ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+    endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
 
     #Delete at any time
     ##if [ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ]; then
@@ -734,7 +791,7 @@ function webServer_test()
     #    echo "New entries in the web server log!"
     #
     #    #echo ; date ;
-    #    echo ; cat ${WEB_ERRORLOG_FILE} | tail -n 2
+    #    echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 2
     #fi
 }
 
@@ -814,12 +871,14 @@ function retrieveWebHostingErrorLog()
     eval ${LFTP_COMMAND}
         #     ; evaluateBuildResult 25 $? "copying the HTML word list to the web site"
 
-    export NEW_FILENAME="$1${WEB_ERRORLOG_FILENAME}"
+
+    #Too complicated - use startWatchFile() / endWatchFile() instead.
+    export NEW_FILENAME="$1${REMOTE_WEB_ERRORLOG_FILENAME}"
     export NEW_FILENAME_PARTIALPATH="${WEB_ERRORLOG_SUBFOLDER}/${NEW_FILENAME}"
 
-    mv ${WEB_ERRORLOG_SUBFOLDER}/${WEB_ERRORLOG_FILENAME}  ${NEW_FILENAME_PARTIALPATH}
+    mv ${WEB_ERRORLOG_SUBFOLDER}/${REMOTE_WEB_ERRORLOG_FILENAME}  ${NEW_FILENAME_PARTIALPATH}
 
-    # Note: Use of md5sum this way to avoid the input file name 
+    # Note: Use of md5sum this way to avoid the input file name
     #       in the output.
     #
     cat ${NEW_FILENAME_PARTIALPATH} | md5sum > "$1WebHostingErrorLog_MD5.txt"
@@ -966,7 +1025,6 @@ echo Work folder: $WORKFOLDER
 
 
 
-
 # #################################################################
 #
 # Local test of web part/PHP files before remote/production
@@ -1025,6 +1083,18 @@ PHP_code_test  Text.php                  "self test, unit tests"    4  "Overflow
 
 # ###########################################################################
 #
+# Invoke the function "Real quotes" in the Edit Overflow "text" window
+#
+#  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
+#        due to a current limitation in PHP_code_test()...
+#
+PHP_code_test  Text.php                  "text transformation - 'Real quotes'"    5  "OverflowStyle=Native&PHP_DoWarnings=On&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "Undefined variable: dummy2"
+
+#exit
+
+
+# ###########################################################################
+#
 #  Test of the fixed strings page (essentially static HTML)
 #
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
@@ -1066,12 +1136,17 @@ webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=N
 #
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=XYZ%20%20%20&someAction%5Bremove_TABs_and_trailing_whitespace%5D=Remove+TABs+and+trailing+whitespace"  "localWebserver_Text_RemoveTABsAndTrailingWhitespace"  11
 
-# Invoke the function "Remove common leading space in
+# Invoke the function "Remove common leading space" in
 # the Edit Overflow "text" window
 #
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%20%20%20XYZ&someAction%5Bremove_common_leading_space%5D=Remove+common+leading+space"  "localWebserver_Text_RemoveCommonLeadingSpace"                         12
 
+# Invoke the function "Real quotes" in the Edit Overflow "text" window
+#
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            13
+
 #exit
+
 
 
 
@@ -1336,16 +1411,19 @@ mustBeEqual ${MATCHING_LINES} 1  31   "HTML anchor is not unique"
 #
 startOfBuildStep "32" "Starting web interface regression tests, local"
 
+startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
+
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 32 $? "web interface regression tests"
 
+endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 32 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
 
 
 # ###########################################################################
 #
 # End-to-end testing of the web interface, using the hosting (live server).
 #
-# Note: This presumes the PHP files have been deployed to 
+# Note: This presumes the PHP files have been deployed to
 #       production (this is currently a manual process)
 #
 # It uses Selenium and is quite slow
@@ -1390,6 +1468,8 @@ python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 34 $? "web interfa
 
 retrieveWebHostingErrorLog  "_after_"
 
+
+#Too complicated - use startWatchFile() / endWatchFile() instead.
 # Detection of new entries to the error log (normally PHP errors) as
 # a result of our excersing web pages in production
 #
