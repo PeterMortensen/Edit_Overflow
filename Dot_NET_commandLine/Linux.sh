@@ -300,6 +300,22 @@ export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
 #export FTP_SITE_URL='ftp://linux42.simplyZZZZZZZ.com' # Poor man's dry run
 export FTP_SITE_URL='ftp://linux42.simply.com'
 
+# That is, a local sub folder with a copy of some
+# files from the web hosting (production)
+export WEB_ERRORLOG_SUBFOLDER='_webErrorlog'
+
+# Yes, that is the actual file name that has been configured at
+# the web hosting (through file <public_html/world/.htaccess>)...
+#
+export WEB_ERRORLOG_FILENAME='phperrors_777.log'
+
+
+
+export BEFORE_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_before_${WEB_ERRORLOG_FILENAME}"
+export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${WEB_ERRORLOG_FILENAME}"
+
+
+
 
 export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
 
@@ -523,11 +539,11 @@ function PHP_code_test()
     export STDERR_FILE="_stdErr_${PHPRUN_ID}.txt"
 
     # The PHP script outputs HTML to standard output
-    export HTML_FILE="_HTML_${PHPRUN_ID}.html"
+    export HTML_FILE_PHP="_HTML_${PHPRUN_ID}.html"
 
     #php $1 "$4" > /home/embo/temp2/2021-09-14/_Text.html 2> ${STDERR_FILE}
     #php $1 "$4"
-    php $1 "$4"  > ${HTML_FILE}  2> ${STDERR_FILE}
+    php $1 "$4"  > ${HTML_FILE_PHP}  2> ${STDERR_FILE}
 
     #cat ${STDERR_FILE}
     #echo "Standard error:" `cat ${STDERR_FILE}`
@@ -538,7 +554,7 @@ function PHP_code_test()
     # 3. Detect missing files (as seen by the PHP interpreter)
     #
     export MISSINGFILES_MATCHSTRING="Could not open input file: "
-    grep -q "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE}`\""
+    grep -q "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP}`\""
 
 
     # #####################################
@@ -569,13 +585,13 @@ function PHP_code_test()
     # "test $? -ne 0" is for inverting/negating the return code ("$?").
     #
     export STRAYDEBUGGING_MATCHSTRING1="First argument: "
-    #! (grep -q "First argument: " ${HTML_FILE}) ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE}`"
-    #grep -q "First argument: " ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE}`"
-    #grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE}`"
-    grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE}`\"  "
+    #! (grep -q "First argument: " ${HTML_FILE_PHP}) ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE_PHP}`"
+    #grep -q "First argument: " ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE_PHP}`"
+    #grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP}`"
+    grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP}`\"  "
 
     export STRAYDEBUGGING_MATCHSTRING2="Some URL: "
-    grep -q "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE}`\"  "
+    grep -q "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE_PHP}`\"  "
 
 
     # #####################################
@@ -587,7 +603,7 @@ function PHP_code_test()
     # automatically stop on all errors and warnings?
     #
     export UNITTEST_MATCHSTRING="Failed test. ID: "
-    grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE}`\"  "
+    grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP}`\"  "
 
 
     # #####################################
@@ -689,11 +705,13 @@ function webServer_test()
     # Hardcoded for now
     export WEB_ERRORLOG_FILE="/var/log/apache2/error.log"
 
-    export HTML_FILE="_$2.html"
+    export RETRIEVED_HTML_FILE="_$2.html"
 
 
     export SIZE_BEFORE_WEBERROR_LOG=`wc ${WEB_ERRORLOG_FILE}`
-    wget -o ${HTML_FILE} "$1"
+    #wget -o ${RETRIEVED_HTML_FILE} "$1"
+    wget -q -O ${RETRIEVED_HTML_FILE} "$1"
+
     export SIZE_AFTER_WEBERROR_LOG=`wc ${WEB_ERRORLOG_FILE}`
 
     #echo "Web server error log size before: ${SIZE_BEFORE_WEBERROR_LOG}"
@@ -748,6 +766,76 @@ function startOfBuildStep()
     #
     #   2. Output a timestamp (so we know the absolute time this
     #      particular test was run)
+}
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy.
+#
+# Retrieve the web server error log (or is it the PHP one only?).
+#
+# We currently expect the name "phperrors_777.log". It is
+# set up in the WordPress root folder - one of them is
+# <public_html/world/.htaccess>
+#
+function retrieveWebHostingErrorLog()
+{
+    # The
+    #
+    # Or should it be </var/www/pmortensen.eu>?
+    #
+    export FTP_COMMANDS="mirror --verbose  _webErrorlog  / ; exit"
+    export FTP_COMMANDS="mirror --verbose  _webErrorlog  /test ; exit"
+    export FTP_COMMANDS="mirror --verbose  /test  _webErrorlog   ; exit"
+    export FTP_COMMANDS="mirror --verbose  --include com*.php   /test  _webErrorlog   ; exit"
+    export FTP_COMMANDS="mirror --verbose  --include *.html     /test  _webErrorlog   ; exit"
+    export FTP_COMMANDS="mirror --verbose  --exclude *.html     /test  _webErrorlog   ; exit"
+    export FTP_COMMANDS="mirror --verbose  --no-recursion       /test  _webErrorlog   ; exit"
+    export FTP_COMMANDS="mirror --verbose  --no-recursion  --include *.log  /  ${WEB_ERRORLOG_SUBFOLDER}  ; exit"
+
+    # We couldn't get the "--include" option to work. It failed
+    # with an error and no files transferred. E.g.:
+    #
+    #     mv: cannot stat '_webErrorlog3/phperrors_777.log': No such file or directory
+    #
+    # Instead we download all files in the root folder
+    # (currently four files and the two files
+    # starting with "." are not transferred
+    # be default).
+    #
+    # Should we use option "--include-glob" instead?
+    #
+    export FTP_COMMANDS="mirror --verbose  --no-recursion  /  _webErrorlog               ; exit"
+    export FTP_COMMANDS="mirror --verbose  --no-recursion  /  ${WEB_ERRORLOG_SUBFOLDER}  ; exit"
+
+
+    export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
+    eval ${LFTP_COMMAND}
+        #     ; evaluateBuildResult 25 $? "copying the HTML word list to the web site"
+
+    export NEW_FILENAME="$1${WEB_ERRORLOG_FILENAME}"
+    export NEW_FILENAME_PARTIALPATH="${WEB_ERRORLOG_SUBFOLDER}/${NEW_FILENAME}"
+
+    mv ${WEB_ERRORLOG_SUBFOLDER}/${WEB_ERRORLOG_FILENAME}  ${NEW_FILENAME_PARTIALPATH}
+
+    # Note: Use of md5sum this way to avoid the input file name 
+    #       in the output.
+    #
+    cat ${NEW_FILENAME_PARTIALPATH} | md5sum > "$1WebHostingErrorLog_MD5.txt"
+
+
+    #ls -ls
+    #ls -lsatr ${WEB_ERRORLOG_SUBFOLDER}
+    #
+    #echo
+    #
+    #ls -lsatr | grep MD5
+    #
+    #echo
+    #tail -n 5 ${NEW_FILENAME_PARTIALPATH}
+    #echo
+    #echo
 }
 
 
@@ -870,13 +958,12 @@ sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
 
 
-
-
 # Compile, run unit tests, run, and redirect SQL & HTML output to files
 #
 echo
 cd $WORKFOLDER
 echo Work folder: $WORKFOLDER
+
 
 
 
@@ -1017,7 +1104,6 @@ mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingChec
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
 
 
-
 # ###########################################################################
 #
 # Fixed header for the SQL (not generated by Edit Overflow)
@@ -1152,7 +1238,6 @@ cd -
 
 
 
-
 # ###########################################################################
 #
 # Check of:
@@ -1237,7 +1322,7 @@ HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"      
 #   1. Unique HTML anchors
 #
 #   2. XXX
-
+#
 export MATCHING_LINES=`grep -c '<div id="Mark_Zuckerberg">'  ${HTML_FILE_GENERIC}`
 mustBeEqual ${MATCHING_LINES} 1  31   "HTML anchor is not unique"
 
@@ -1252,7 +1337,7 @@ mustBeEqual ${MATCHING_LINES} 1  31   "HTML anchor is not unique"
 startOfBuildStep "32" "Starting web interface regression tests, local"
 
 export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
-python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 27 $? "web interface regression tests"
+python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 32 $? "web interface regression tests"
 
 
 
@@ -1260,9 +1345,14 @@ python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_
 #
 # End-to-end testing of the web interface, using the hosting (live server).
 #
+# Note: This presumes the PHP files have been deployed to 
+#       production (this is currently a manual process)
+#
 # It uses Selenium and is quite slow
 #
 startOfBuildStep "33" "Starting web interface regression tests, production"
+
+retrieveWebHostingErrorLog  "_before_"
 
 # Note:
 #
@@ -1297,6 +1387,14 @@ export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
 #
 #python3 $SELINUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
 python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 34 $? "web interface regression tests"
+
+retrieveWebHostingErrorLog  "_after_"
+
+# Detection of new entries to the error log (normally PHP errors) as
+# a result of our excersing web pages in production
+#
+mustBeEqual  "`cat _before_WebHostingErrorLog_MD5.txt`"  "`cat _after_WebHostingErrorLog_MD5.txt`"  34  "New entry in error log: `tail -n 1 ${AFTER_LOGFILE}` "
+
 
 
 
