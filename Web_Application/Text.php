@@ -607,6 +607,8 @@
 
                 if (isset($button['real_quotes']))
                 {
+                    # Note: For unknown reasons, we can ***not*** use string 
+                    #       interpolation here. A bug was fixed 2021-09-21.   
                     $someText = "“" . $someText . "”";
 
                     $fallThrough = 0;
