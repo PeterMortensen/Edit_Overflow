@@ -1197,6 +1197,8 @@ namespace OverflowHelper.core
             correctionAdd("mac osx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("mac os x 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
             correctionAdd("mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
+            correctionAdd("Max OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
+            correctionAdd("Max OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)");
 
             correctionAdd("Mac OS X v10.10 (Yosemite)", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)"); // Sort of identity mapping
             correctionAdd("Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
@@ -6063,6 +6065,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mariadb", "MariaDB");
             correctionAdd("Maria DB", "MariaDB");
+            correctionAdd("Mariadb", "MariaDB");
 
             correctionAdd("adb", "ADB");
             correctionAdd("Adb", "ADB");
@@ -7730,6 +7733,7 @@ namespace OverflowHelper.core
             correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
             correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -13698,6 +13702,7 @@ namespace OverflowHelper.core
             correctionAdd("experieced", "experienced");
 
             correctionAdd("openning", "opening");
+            correctionAdd("opeing", "opening");
 
             correctionAdd("XHR", "XMLHttpRequest"); // Expansion.
             correctionAdd("xhr", "XMLHttpRequest");
@@ -14045,6 +14050,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ocurr", "occur");
             correctionAdd("occure", "occur");
+            correctionAdd("ocur", "occur");
 
             correctionAdd("permanant", "permanent");
 
@@ -16481,6 +16487,7 @@ namespace OverflowHelper.core
             correctionAdd("uing", "using");
             correctionAdd("unsing", "using");
             correctionAdd("ising", "using");
+            correctionAdd("sing", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -18713,6 +18720,7 @@ namespace OverflowHelper.core
             correctionAdd("platoform", "platform");
             correctionAdd("platfrom", "platform");
             correctionAdd("platorm", "platform");
+            correctionAdd("Platform", "platform");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -20814,6 +20822,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mught", "might");
             correctionAdd("migh", "might");
+            correctionAdd("mite", "might");
 
             correctionAdd("sub set", "subset");
 
@@ -25498,6 +25507,7 @@ namespace OverflowHelper.core
 
             correctionAdd("re-set", "reset");
             correctionAdd("reseted", "reset");
+            correctionAdd("Reset", "reset");
 
             correctionAdd("severre", "severe");
             correctionAdd("servier", "severe");
@@ -26938,6 +26948,7 @@ namespace OverflowHelper.core
             correctionAdd("Pokémon go", "Pokémon Go");
             correctionAdd("pokémon go", "Pokémon Go");
             correctionAdd("Pokemon Go", "Pokémon Go");
+            correctionAdd("pokemon", "Pokémon Go");
 
             correctionAdd("a record", "A record");
 
@@ -27044,9 +27055,9 @@ namespace OverflowHelper.core
 
             correctionAdd("GROUPADD", "groupadd");
 
-            correctionAdd("must have", "must-have");
-
             correctionAdd("jbehave", "JBehave");
+
+            correctionAdd("must have", "must-have");
 
             correctionAdd("should've", "should have");
             correctionAdd("shoulda", "should have");
@@ -27054,6 +27065,7 @@ namespace OverflowHelper.core
             correctionAdd("hava", "have");
             correctionAdd("Hvae", "have");
             correctionAdd("hvae", "have");
+            correctionAdd("hhave", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -27824,6 +27836,7 @@ namespace OverflowHelper.core
             correctionAdd("G-Force", "g-force");
 
             correctionAdd("kickstart", "kick start");
+            correctionAdd("Kick start", "kick start");
 
             correctionAdd("SNR", "signal-to-noise ratio");
             correctionAdd("Signal-to-Noise Ratio", "signal-to-noise ratio");
@@ -28305,6 +28318,7 @@ namespace OverflowHelper.core
             correctionAdd("ParrotOS", "Parrot OS");
             correctionAdd("parrot os", "Parrot OS");
             correctionAdd("parrot OS", "Parrot OS");
+            correctionAdd("Parrot", "Parrot OS");
 
             correctionAdd("noraml", "normal");
 
@@ -30561,6 +30575,7 @@ namespace OverflowHelper.core
             correctionAdd("webapplication", "web application");
             correctionAdd("web APP", "web application");
             correctionAdd("Web application", "web application");
+            correctionAdd("web ap", "web application");
 
             correctionAdd("webkit", "WebKit");
             correctionAdd("Webkit", "WebKit");
@@ -30914,6 +30929,54 @@ namespace OverflowHelper.core
             correctionAdd("tollerable", "tolerable");
 
             correctionAdd("VAR_DUMP", "var_dump");
+
+            correctionAdd("unconditionnal", "unconditional");
+            correctionAdd("Unconditionnal", "unconditional");
+
+            correctionAdd("Black Arch", "BlackArch");
+
+            correctionAdd("Java Black Belt", "JavaBlackBelt");
+            correctionAdd("java-black-belt", "JavaBlackBelt");
+            correctionAdd("Java-black-belt", "JavaBlackBelt");
+            correctionAdd("Javablackbelt", "JavaBlackBelt");
+
+            correctionAdd("navicat", "Navicat");
+
+            correctionAdd("okta", "Okta");
+
+            correctionAdd("Security Assertion Markup Language", "SAML");
+            correctionAdd("saml", "SAML");
+
+            correctionAdd("Agricultural", "agricultural");
+
+            correctionAdd("Agriculture", "agriculture");
+
+            correctionAdd("credentias", "credentials");
+
+            correctionAdd("erros", "errors");
+
+            correctionAdd("Grayscale", "grayscale");
+
+            correctionAdd("IDP", "identity provider");
+            correctionAdd("IdP", "identity provider");
+
+            correctionAdd("MFA", "multi-factor authentication");
+
+            correctionAdd("plowing", "ploughing");
+
+            correctionAdd("SSPR", "self-service password reset");
+
+            correctionAdd("Service Level Agreement", "service-level agreement");
+            correctionAdd("SLA", "service-level agreement");
+
+            correctionAdd("SSO", "single sign-on");
+
+            correctionAdd("three-letter abbreviation", "three-letter acronym");
+            correctionAdd("TLA", "three-letter acronym");
+
+            correctionAdd("trainner", "trainer");
+
+            correctionAdd("Twin paradox", "twin paradox");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48595,6 +48658,46 @@ namespace OverflowHelper.core
             URL_Add("tolerable", "https://en.wiktionary.org/wiki/tolerable#Adjective");
 
             URL_Add("var_dump", "https://www.php.net/manual/en/function.var-dump.php");
+
+            URL_Add("unconditional", "https://en.wiktionary.org/wiki/unconditional#Adjective");
+
+            URL_Add("BlackArch", "https://en.wikipedia.org/wiki/BlackArch");
+
+            URL_Add("JavaBlackBelt", "http://javablackbelt-rip.org/");
+
+            URL_Add("Navicat", "https://en.wikipedia.org/wiki/Navicat");
+
+            URL_Add("Okta", "https://en.wikipedia.org/wiki/Okta_(company)#Products");
+
+            URL_Add("SAML", "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language");
+
+            URL_Add("agricultural", "https://en.wiktionary.org/wiki/agricultural#Adjective");
+
+            URL_Add("agriculture", "https://en.wiktionary.org/wiki/agriculture#Noun");
+
+            URL_Add("credentials", "https://en.wiktionary.org/wiki/credential#Noun");
+
+            URL_Add("errors", "https://en.wiktionary.org/wiki/error#Noun");
+
+            URL_Add("grayscale", "https://en.wiktionary.org/wiki/grayscale#Noun");
+
+            URL_Add("identity provider", "https://en.wikipedia.org/wiki/Identity_provider");
+
+            URL_Add("multi-factor authentication", "https://en.wikipedia.org/wiki/Multi-factor_authentication");
+
+            URL_Add("ploughing", "https://en.wiktionary.org/wiki/ploughing#Noun");
+
+            URL_Add("self-service password reset", "https://en.wikipedia.org/wiki/Self-service_password_reset");
+
+            URL_Add("service-level agreement", "https://en.wikipedia.org/wiki/Service-level_agreement");
+
+            URL_Add("single sign-on", "https://en.wikipedia.org/wiki/Single_sign-on");
+
+            URL_Add("three-letter acronym", "https://en.wikipedia.org/wiki/Three-letter_acronym");
+
+            URL_Add("trainer", "https://en.wiktionary.org/wiki/trainer#Noun");
+
+            URL_Add("twin paradox", "https://en.wikipedia.org/wiki/Twin_paradox");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
