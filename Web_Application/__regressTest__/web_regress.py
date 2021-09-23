@@ -293,7 +293,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     # Notes:
     #
-    #   1. Currently we implicitly expect it to 
+    #   1. Currently we implicitly expect it to
     #      be called with "LookUpTerm=php"....
     #
     #   2. the URL is expected to be one that results in a succesful
