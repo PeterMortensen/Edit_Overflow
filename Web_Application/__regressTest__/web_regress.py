@@ -291,6 +291,17 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelled words)
     #
+    # Notes:
+    #
+    #   1. Currently we implicitly expect it to 
+    #      be called with "LookUpTerm=php"....
+    #
+    #   2. the URL is expected to be one that results in a succesful
+    #      lookup (the request word exists in the wordlist)
+    #
+    #   3. Incorrect words "php", "python", and "until" must exist
+    #      in the word list (MySQL/MariaDB database).
+    #
     def mainLookup(self, aURL):
         # Initial page, with a (known) incorrect term ***different***
         # from the ***default*** of 'cpu': 'php'
@@ -368,16 +379,18 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
     #
-    # The JavaScript (client-side) version
+    # ***Note***: The JavaScript (client-side) version
     #
-    # The skip: suppress running one of the tests (it will not pass
-    #           until we implement the cross-platform system -
-    #           with single source for C#, PHP, and JavaScript).
+    # For now: The skip suppress running one of the tests (it
+    #          will not pass until we implement the
+    #          cross-platform system -
+    #          with single source for C#, PHP, and JavaScript).
     #
     #def test_mainLookup(self):
     @unittest.skip("Skipping test_mainLookup_JavaScript() for now")
     def test_mainLookup_JavaScript(self):
 
+        # "php"
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native')
         #pass
 
@@ -385,15 +398,29 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
     #
-    # The form-based (server roundtrip) version
+    # ***Note***: The form-based (server roundtrip) version
     #
     #def test_mainLookup(self):
     def test_mainLookup_form(self):
 
+        # "php"
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=no&OverflowStyle=Native')
         #pass
 
 
+    # Form-based lookup, using a local web server
+    #
+    # Test of the central function of Edit Overflow for web: Looking
+    # up incorrect terms (typically misspelling words)
+    #
+    #def test_mainLookup(self):
+    def test_mainLookup_form_localWebserver(self):
+
+        #self.mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz')
+
+        # "php"
+        self.mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php')
+        #pass
 
 
 if __name__ == '__main__':

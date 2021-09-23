@@ -669,7 +669,7 @@ function startWatchFile()
 #
 # Helper function to reduce redundancy.
 #
-# Used to detect changes to files (e.g. a web 
+# Used to detect changes to files (e.g. a web
 # server error log). Used with startWatchFile()
 #
 # Parameters:
@@ -687,8 +687,8 @@ function endWatchFile()
     # File size for now. Perhaps MD5 hash later
 
     export FILE_SIZE_AFTER=`wc $1`
-    
-    [ "${FILE_SIZE_BEFORE}" = "${FILE_SIZE_AFTER}" ] 
+
+    [ "${FILE_SIZE_BEFORE}" = "${FILE_SIZE_AFTER}" ]
 }
 
 
@@ -1010,8 +1010,12 @@ sudo cp $SRCFOLDER_WEB/commonStart.php                  $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
+
+# Only once at the web server location. Though ideally we want to
+# patch it on the fly so we are it is actually updated if needed.
 #
+#sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
+
 sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
@@ -1125,11 +1129,23 @@ PHP_code_test  EditSummaryFragments.php  "edit summary fragments"   6  "Overflow
 # We can't use EditOverflow.php at the moment because the
 # database error goes to the web server log...
 #
-#webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native"          "localWebserver_Edit_Overflow_lookup"     7
+# Note: Query parameter "LookUpTerm" must be specified. Otherwise we get
+#       at strange error in the line "$URL = htmlentities($row['URL']);"
+#
+#
 
-webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native"                  "localWebserver_Text"                     8
-webServer_test  "http://localhost/world/FixedStrings.php?OverflowStyle=Native"          "localWebserver_fixed_strings"            9
-webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=Native"  "localWebserver_Edit_summary_fragments"  10
+# A word lookup that fails (the word does not exist in the database)
+webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=JS"   "localWebserver_Edit_Overflow_lookup"    7
+
+# Missing expected query parameter "LookUpTerm"
+webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native"                 "localWebserver_Edit_Overflow_lookup"    8
+
+# A word lookup that succeeds
+webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz"  "localWebserver_Edit_Overflow_lookup"    9
+
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native"                        "localWebserver_Text"                     8
+webServer_test  "http://localhost/world/FixedStrings.php?OverflowStyle=Native"                "localWebserver_fixed_strings"            9
+webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=Native"        "localWebserver_Edit_summary_fragments"  10
 
 # Invoke the function "Remove TABs and trailing whitespace" in
 # the Edit Overflow "text" window
@@ -1144,6 +1160,7 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%
 # Invoke the function "Real quotes" in the Edit Overflow "text" window
 #
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            13
+
 
 #exit
 
@@ -1407,6 +1424,8 @@ mustBeEqual ${MATCHING_LINES} 1  31   "HTML anchor is not unique"
 #
 # End-to-end testing of the web interface, using the local web server.
 #
+# Note: Only the ***"Text" window*** and limited testing on that.
+#
 # It uses Selenium and is quite slow, even using a local web server...
 #
 startOfBuildStep "32" "Starting web interface regression tests, local"
@@ -1421,6 +1440,25 @@ endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 32 $? "Web server 
 
 # ###########################################################################
 #
+# End-to-end testing of the web interface, using the local web server.
+#
+# Note: For the ***main look*** (primary function of Edit Overflow)
+#
+# It uses Selenium and is quite slow, even using a local web server...
+#
+startOfBuildStep "33" "Starting web interface regression tests, local"
+
+startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
+
+export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
+python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_mainLookup_form_localWebserver ; evaluateBuildResult 33 $? "web interface, main lookup, using the local web server"
+
+endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 33 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+
+
+
+# ###########################################################################
+#
 # End-to-end testing of the web interface, using the hosting (live server).
 #
 # Note: This presumes the PHP files have been deployed to
@@ -1428,7 +1466,7 @@ endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 32 $? "Web server 
 #
 # It uses Selenium and is quite slow
 #
-startOfBuildStep "33" "Starting web interface regression tests, production"
+startOfBuildStep "34" "Starting web interface regression tests, production"
 
 retrieveWebHostingErrorLog  "_before_"
 
@@ -1527,7 +1565,7 @@ echo
 
 # Not really a build step, but it is easier to spot if the build
 # failed or not (as we will not get here if it fails).
-startOfBuildStep "34" "End of build. All build steps succeeded!!"
+startOfBuildStep "35" "End of build. All build steps succeeded!!"
 
 
 
