@@ -165,18 +165,35 @@
                 $statement->execute(array('name' => $lookUpTerm));
             }
 
-            $row = $statement->fetch(PDO::FETCH_ASSOC);
+            # Default: For words that are not in our word list
+            $incorrectTerm = "";
+            $correctTerm   = "";
+            $URL           = "";            
 
-            // echo htmlentities($row['correctTerm']);
-            $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
+            if ($statement->rowCount() > 0)
+            {
+                # "PDO::FETCH_ASSOC" it to return the result as an associative array.
+                $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-            $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
-            #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
-                                                  # a term containing the U+FFFD
-                                                  # REPLACEMENT CHARACTER will make
-                                                  # $correctTerm an empty string...
+                // echo htmlentities($row['correctTerm']);
+                $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
-            $URL          = htmlentities($row['URL']);
+                $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
+                #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
+                                                      # a term containing the U+FFFD
+                                                      # REPLACEMENT CHARACTER will make
+                                                      # $correctTerm an empty string...
+
+                #Delete at any time
+                #echo "\n\n\n\n<p>incorrectTerm: $incorrectTerm  <p>\n\n\n\n";
+
+                #Doesn't fire on the local web server. Why????
+                #assert(0, "XYZ);
+                #assert(0, "Unconditional assert failure...");
+
+                $URL          = htmlentities($row['URL']);
+                #$URL          = htmlentities($row['URL'], ENT_QUOTES);
+            }
 
             # To avoid "Undefined variable: linkYouTubeCompatible"
             # in the PHP error log file.
