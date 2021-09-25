@@ -1271,6 +1271,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS 10.13", "macOS v10.13 (High Sierra)");
             correctionAdd("MacOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("MacOs High Sierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("Mac OS X High Sierra", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -3422,6 +3423,7 @@ namespace OverflowHelper.core
             correctionAdd("applciation", "application");
             correctionAdd("Appl", "application");
             correctionAdd("appl", "application");
+            correctionAdd("Application", "application");
 
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
@@ -12163,6 +12165,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Mac mini", "Mac Mini");
             correctionAdd("mac mini", "Mac Mini");
+            correctionAdd("macmini", "Mac Mini");
 
             correctionAdd("scpi", "SCPI");
 
@@ -12245,6 +12248,7 @@ namespace OverflowHelper.core
             correctionAdd("biografy", "biography");
 
             correctionAdd("discriptive", "descriptive");
+            correctionAdd("desciriptive", "descriptive");
 
             correctionAdd("exp", "experience");
             correctionAdd("experince", "experience");
@@ -14572,6 +14576,7 @@ namespace OverflowHelper.core
             correctionAdd("snipper", "snippet");
 
             correctionAdd("user defined", "user-defined");
+            correctionAdd("User Defined", "user-defined");
 
             correctionAdd("wonderfull", "wonderful");
             correctionAdd("wonder full", "wonderful");
@@ -18299,6 +18304,7 @@ namespace OverflowHelper.core
 
             correctionAdd("some how", "somehow");
             correctionAdd("sumhow", "somehow");
+            correctionAdd("Some how", "somehow");
 
             correctionAdd("How", "how");
             correctionAdd("haw", "how");
@@ -30126,6 +30132,7 @@ namespace OverflowHelper.core
 
             correctionAdd("right click", "right-click");
             correctionAdd("Right-Click", "right-click");
+            correctionAdd("Right Click", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -31077,8 +31084,29 @@ namespace OverflowHelper.core
             correctionAdd("quetes", "quotes");
 
             correctionAdd("tell-tale", "telltale");
+            correctionAdd("tell tale", "telltale");
 
             correctionAdd("un quote", "unquote");
+
+            correctionAdd("shimano", "Shimano");
+
+            correctionAdd("tiagra", "Tiagra");
+
+            correctionAdd("extranious", "extraneous");
+
+            correctionAdd("game play", "gameplay");
+            correctionAdd("game-play", "gameplay");
+
+            correctionAdd("Line", "line");
+
+            correctionAdd("non legitimate", "nonlegitimate");
+
+            correctionAdd("other-wordly", "otherworldly");
+            correctionAdd("other-worldly", "otherworldly");
+            correctionAdd("otherwordly", "otherworldly");
+
+            correctionAdd("surefire", "sure-fire");
+            correctionAdd("sure fire", "sure-fire");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48854,6 +48882,22 @@ namespace OverflowHelper.core
             URL_Add("telltale", "https://en.wiktionary.org/wiki/telltale#Adjective");
 
             URL_Add("unquote", "https://en.wiktionary.org/wiki/unquote#Verb");
+
+            URL_Add("Shimano", "https://en.wikipedia.org/wiki/Shimano");
+
+            URL_Add("Tiagra", "https://en.wikipedia.org/wiki/Groupset#Road_groupsets");
+
+            URL_Add("extraneous", "https://en.wiktionary.org/wiki/extraneous#Adjective");
+
+            URL_Add("gameplay", "https://en.wiktionary.org/wiki/gameplay#Noun");
+
+            URL_Add("line", "https://en.wiktionary.org/wiki/line#Noun");
+
+            URL_Add("nonlegitimate", "https://en.wiktionary.org/wiki/nonlegitimate#Adjective");
+
+            URL_Add("otherworldly", "https://en.wiktionary.org/wiki/otherworldly#Adjective");
+
+            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
