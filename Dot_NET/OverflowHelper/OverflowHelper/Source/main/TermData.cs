@@ -2143,10 +2143,6 @@ namespace OverflowHelper.core
             correctionAdd("flash", "Flash"); // Adobe's, not what is inside USB sticks.
             correctionAdd("Adobe Flash", "Flash"); // Adobe's, not what is inside USB sticks.
 
-            correctionAdd("curl", "cURL");
-            correctionAdd("CURL", "cURL");
-            correctionAdd("Curl", "cURL");
-
             correctionAdd("Bittorrent", "BitTorrent");
             correctionAdd("bittorrent", "BitTorrent");
             correctionAdd("bit torrent", "BitTorrent");
@@ -2591,9 +2587,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Vtune", "VTune");
 
-            correctionAdd("oprofile", "OProfile");
-            correctionAdd("Oprofile", "OProfile");
-
             correctionAdd("pspad", "PSPad");
 
             correctionAdd("Textpad", "TextPad");
@@ -2753,9 +2746,14 @@ namespace OverflowHelper.core
             correctionAdd("mime", "MIME");
             correctionAdd("Mime", "MIME");
 
+            correctionAdd("curl", "cURL");
+            correctionAdd("CURL", "cURL");
+            correctionAdd("Curl", "cURL");
+
             correctionAdd("url", "URL");
             correctionAdd("Url", "URL");
             correctionAdd("URl", "URL");
+            correctionAdd("ulr", "URL");
 
             correctionAdd("mercurial", "Mercurial");
             correctionAdd("hg", "Mercurial");
@@ -3539,6 +3537,8 @@ namespace OverflowHelper.core
 
             correctionAdd("IIs", "IIS");
             correctionAdd("iis", "IIS");
+            correctionAdd("Internet Information Services", "IIS");
+            correctionAdd("internet information services", "IIS");
 
             // It should really be "Microsoft Azure"
             correctionAdd("AZURE", "Windows Azure");
@@ -5204,14 +5204,6 @@ namespace OverflowHelper.core
             correctionAdd("crypt", "cryptography");
             correctionAdd("Cryptography", "cryptography");
 
-            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("dll file", "DLL file");
-            correctionAdd("DLLs", "DLL file");
-            correctionAdd("dll-file", "DLL file");
-            correctionAdd("Dynamic Link Library", "DLL file");
-
             correctionAdd("siss", "SSIS"); // Misspelling.
             correctionAdd("ssis", "SSIS");
 
@@ -6120,9 +6112,6 @@ namespace OverflowHelper.core
             correctionAdd("java beans", "JavaBeans");
             correctionAdd("javabeans", "JavaBeans");
 
-            correctionAdd("hosts", "hosts file");
-            correctionAdd("host file", "hosts file");
-
             correctionAdd("chkdsk", "CHKDSK");
             correctionAdd("ChkDsk", "CHKDSK");
             correctionAdd("Chkdsk", "CHKDSK");
@@ -6325,12 +6314,6 @@ namespace OverflowHelper.core
             correctionAdd("X11", "X Window");
             correctionAdd("x11", "X Window");
             correctionAdd("X Window System", "X Window");
-
-            correctionAdd(".exe", "EXE file");
-            correctionAdd("exe", "EXE file");
-            correctionAdd("Exe", "EXE file");
-            correctionAdd("EXE", "EXE file");
-            correctionAdd("exe file", "EXE file");
 
             correctionAdd("simulink", "Simulink");
             correctionAdd("SIMULINK", "Simulink");
@@ -7512,6 +7495,7 @@ namespace OverflowHelper.core
             correctionAdd("downalod", "download");
             correctionAdd("Dowloaad", "download");
             correctionAdd("Dowload", "download");
+            correctionAdd("downlead", "download");
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
@@ -9331,6 +9315,7 @@ namespace OverflowHelper.core
             correctionAdd("din’t", "didn’t");
             correctionAdd("did`nt", "didn’t");
             correctionAdd("didn t", "didn’t");
+            correctionAdd("did'nt", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -14035,6 +14020,7 @@ namespace OverflowHelper.core
             correctionAdd("botton", "button");
             correctionAdd("butoon", "button");
             correctionAdd("buuton", "button");
+            correctionAdd("Button", "button");
 
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
@@ -14425,6 +14411,7 @@ namespace OverflowHelper.core
             correctionAdd("CentOs", "CentOS");
             correctionAdd("cent os", "CentOS");
             correctionAdd("centOs", "CentOS");
+            correctionAdd("CentoS", "CentOS");
 
             correctionAdd("freertos", "FreeRTOS");
 
@@ -15284,9 +15271,6 @@ namespace OverflowHelper.core
 
             correctionAdd("visonary", "visionary");
 
-            correctionAdd("bashrc", ".bashrc file");
-            correctionAdd(".bashrc", ".bashrc file");
-
             correctionAdd("ps1", "PS1");
 
             correctionAdd("SMBUS", "SMBus");
@@ -15506,8 +15490,6 @@ namespace OverflowHelper.core
             correctionAdd("tranform", "transform");
             correctionAdd("Transfrom", "transform");
             correctionAdd("transfrom", "transform");
-
-            correctionAdd(".profile", ".profile file");
 
             correctionAdd("Blazer", "Blazor");
             correctionAdd("blazor", "Blazor");
@@ -18369,7 +18351,33 @@ namespace OverflowHelper.core
 
             correctionAdd("attemptig", "attempting");
 
+            correctionAdd("oprofile", "OProfile");
+            correctionAdd("Oprofile", "OProfile");
+
+            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("dll file", "DLL file");
+            correctionAdd("DLLs", "DLL file");
+            correctionAdd("dll-file", "DLL file");
+            correctionAdd("Dynamic Link Library", "DLL file");
+
+            correctionAdd("hosts", "hosts file");
+            correctionAdd("host file", "hosts file");
+
+            correctionAdd(".exe", "EXE file");
+            correctionAdd("exe", "EXE file");
+            correctionAdd("Exe", "EXE file");
+            correctionAdd("EXE", "EXE file");
+            correctionAdd("exe file", "EXE file");
+
+            correctionAdd("bashrc", ".bashrc file");
+            correctionAdd(".bashrc", ".bashrc file");
+
+            correctionAdd(".profile", ".profile file");
+
             correctionAdd("fiel", "file");
+            correctionAdd("fiie", "file");
 
             correctionAdd("inpromptu", "impromptu");
             correctionAdd("in promptu", "impromptu");
@@ -19859,6 +19867,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hackerrank", "HackerRank");
             correctionAdd("Hackerrank", "HackerRank");
+            correctionAdd("hacker rank", "HackerRank");
 
             correctionAdd("jms", "JMS");
 
@@ -28086,6 +28095,9 @@ namespace OverflowHelper.core
             correctionAdd("in-operational", "inoperational");
 
             correctionAdd("savvi", "savvy");
+            correctionAdd("Saavy", "savvy");
+            correctionAdd("saavy", "savvy");
+            correctionAdd("savy", "savvy");
 
             correctionAdd("under-aged", "underaged");
 
@@ -30597,6 +30609,8 @@ namespace OverflowHelper.core
             correctionAdd("webserver", "web server");
             correctionAdd("Web Server", "web server");
             correctionAdd("web-server", "web server");
+            correctionAdd("Webserver", "web server");
+            correctionAdd("Web server", "web server");
 
             correctionAdd("webservers", "web servers");
 
@@ -30826,6 +30840,7 @@ namespace OverflowHelper.core
 
             correctionAdd("notifiction", "notification");
             correctionAdd("Notifiction", "notification");
+            correctionAdd("notfication", "notification");
 
             correctionAdd("short cuts", "shortcuts");
 
@@ -31107,6 +31122,33 @@ namespace OverflowHelper.core
 
             correctionAdd("surefire", "sure-fire");
             correctionAdd("sure fire", "sure-fire");
+
+            correctionAdd("hope this helps", "I hope this helps");
+            correctionAdd("hth", "I hope this helps");
+            correctionAdd("HTH", "I hope this helps");
+
+            correctionAdd("php_eol", "PHP_EOL");
+
+            correctionAdd("Tutorialspoint", "Tutorials Point");
+            correctionAdd("tutorialspoint", "Tutorials Point");
+
+            correctionAdd("XY-Problem", "XY problem");
+
+            correctionAdd("day dream", "daydream");
+
+            correctionAdd("LSOF", "lsof");
+
+            correctionAdd("notfications", "notifications");
+
+            correctionAdd("restared", "restarted");
+
+            correctionAdd("software raid", "software RAID");
+            correctionAdd("Software RAID", "software RAID");
+            correctionAdd("Software raid", "software RAID");
+
+            correctionAdd("SuPHP", "suPHP");
+
+            correctionAdd("testet", "tested");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48898,6 +48940,28 @@ namespace OverflowHelper.core
             URL_Add("otherworldly", "https://en.wiktionary.org/wiki/otherworldly#Adjective");
 
             URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
+
+            URL_Add("I hope this helps", "https://en.wiktionary.org/wiki/HTH#Phrase");
+
+            URL_Add("PHP_EOL", "https://www.php.net/manual/en/reserved.constants.php#constant.php-eol");
+
+            URL_Add("Tutorials Point", "https://www.tutorialspoint.com/about/about_team.htm");
+
+            URL_Add("XY problem", "https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem");
+
+            URL_Add("daydream", "https://en.wiktionary.org/wiki/daydream#Verb");
+
+            URL_Add("lsof", "https://en.wikipedia.org/wiki/Lsof");
+
+            URL_Add("notifications", "https://en.wiktionary.org/wiki/notification#Noun");
+
+            URL_Add("restarted", "https://en.wiktionary.org/wiki/restart#Verb");
+
+            URL_Add("software RAID", "https://en.wikipedia.org/wiki/RAID#Software-based");
+
+            URL_Add("suPHP", "https://wiki.archlinux.org/title/SuPHP");
+
+            URL_Add("tested", "https://en.wiktionary.org/wiki/tested#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
