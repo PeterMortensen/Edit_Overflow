@@ -3655,9 +3655,6 @@ namespace OverflowHelper.core
             correctionAdd("concantenate", "concatenate");
             correctionAdd("comcatenate", "concatenate");
 
-            correctionAdd("gif", "GIF");
-            correctionAdd("Gif", "GIF");
-
             correctionAdd("node.js", "Node.js");
             correctionAdd("NodeJS", "Node.js");
             correctionAdd("nodejs", "Node.js");
@@ -5396,6 +5393,7 @@ namespace OverflowHelper.core
             correctionAdd("lamp", "LAMP");
             correctionAdd("Lamp", "LAMP");
             correctionAdd("L.A.M.P", "LAMP"); // Actually, it should be "L.A.M.P.", but we currently have a limitation in the web interface (false negative lookup)
+            correctionAdd("LAMPP", "LAMP");
 
             correctionAdd("Fisheye", "FishEye");
             correctionAdd("fisheye", "FishEye");
@@ -5798,6 +5796,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows2k8", "Windows Server 2008");
             correctionAdd("Win2k8", "Windows Server 2008");
             correctionAdd("W2008", "Windows Server 2008");
+            correctionAdd("Windows 2008 server", "Windows Server 2008");
 
             correctionAdd("windows server 2012", "Windows Server 2012");
             correctionAdd("WS 2012", "Windows Server 2012");
@@ -9452,6 +9451,8 @@ namespace OverflowHelper.core
             correctionAdd("is't", "isn’t");
             correctionAdd("is’t", "isn’t");
             correctionAdd("ISN'T", "isn’t");
+            correctionAdd("Isn't", "isn’t");
+            correctionAdd("Isn’t", "isn’t");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -12944,9 +12945,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Digital Ocean", "DigitalOcean");
 
-            correctionAdd("EXIF", "Exif");
-            correctionAdd("exif", "Exif");
-
             correctionAdd("fifo", "FIFO");
 
             correctionAdd("google scholar", "Google Scholar");
@@ -15449,6 +15447,7 @@ namespace OverflowHelper.core
             correctionAdd("Firstore", "Firestore");
 
             correctionAdd("gravatar", "Gravatar");
+            correctionAdd("Gravater", "Gravatar");
 
             correctionAdd("admitedly", "admittedly");
 
@@ -20205,6 +20204,7 @@ namespace OverflowHelper.core
             correctionAdd("quility", "quality");
 
             correctionAdd("querys", "queries");
+            correctionAdd("Queries", "queries");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -21375,6 +21375,7 @@ namespace OverflowHelper.core
             correctionAdd("series", "serious");
             correctionAdd("sirius", "serious");
             correctionAdd("siris", "serious");
+            correctionAdd("srs", "serious");
 
             correctionAdd("siriously", "seriously");
             correctionAdd("Seriosuly", "seriously");
@@ -24995,6 +24996,7 @@ namespace OverflowHelper.core
             correctionAdd("OJ", "online judge");
 
             correctionAdd("PHPINFO", "phpinfo");
+            correctionAdd("phpinfo()", "phpinfo");
 
             correctionAdd("pupulate", "populate");
 
@@ -25650,6 +25652,7 @@ namespace OverflowHelper.core
             correctionAdd("check list", "checklist");
 
             correctionAdd("Citizen Science", "citizen science");
+            correctionAdd("Citizen science", "citizen science");
 
             correctionAdd("co-founder", "cofounder");
 
@@ -28016,7 +28019,14 @@ namespace OverflowHelper.core
 
             correctionAdd("fm", "FM");
 
+            correctionAdd("gif", "GIF");
+            correctionAdd("Gif", "GIF");
+
+            correctionAdd("EXIF", "Exif");
+            correctionAdd("exif", "Exif");
+
             correctionAdd("if", "IF");
+            correctionAdd("intermediate frequency", "IF");
 
             correctionAdd("nemerle", "Nemerle");
 
@@ -30197,6 +30207,7 @@ namespace OverflowHelper.core
             correctionAdd("uzbekistan", "Uzbekistan");
 
             correctionAdd("as follow", "as follows");
+            correctionAdd("as followed", "as follows");
 
             correctionAdd("brain child", "brainchild");
 
@@ -31149,6 +31160,17 @@ namespace OverflowHelper.core
             correctionAdd("SuPHP", "suPHP");
 
             correctionAdd("testet", "tested");
+
+            correctionAdd("emiting", "emitting");
+            correctionAdd("emmiting", "emitting");
+
+            correctionAdd("iniset", "ini_set");
+
+            correctionAdd("Re-installing", "reinstalling");
+            correctionAdd("Re-Installing", "reinstalling");
+            correctionAdd("re-installing", "reinstalling");
+
+            correctionAdd("write protected", "write-protected");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48962,6 +48984,14 @@ namespace OverflowHelper.core
             URL_Add("suPHP", "https://wiki.archlinux.org/title/SuPHP");
 
             URL_Add("tested", "https://en.wiktionary.org/wiki/tested#Verb");
+
+            URL_Add("emitting", "https://en.wiktionary.org/wiki/emit#Verb");
+
+            URL_Add("ini_set", "https://www.php.net/manual/en/function.ini-set.php");
+
+            URL_Add("reinstalling", "https://en.wiktionary.org/wiki/reinstall#Verb");
+
+            URL_Add("write-protected", "https://www.collinsdictionary.com/dictionary/english/write-protected");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
