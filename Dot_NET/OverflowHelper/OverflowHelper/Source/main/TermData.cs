@@ -2053,6 +2053,8 @@ namespace OverflowHelper.core
             correctionAdd("Aeduino", "Arduino");
             correctionAdd("Ardiuno", "Arduino");
             correctionAdd("ardiuno", "Arduino");
+            correctionAdd("ARDUION", "Arduino");
+            correctionAdd("Arduion", "Arduino");
 
             correctionAdd("arduino Uno", "Arduino Uno");
             correctionAdd("arduino uno", "Arduino Uno");
@@ -8134,6 +8136,7 @@ namespace OverflowHelper.core
             correctionAdd("Government", "government");
             correctionAdd("Givernment", "government");
             correctionAdd("Gouverment", "government");
+            correctionAdd("governement", "government");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -12807,6 +12810,8 @@ namespace OverflowHelper.core
             correctionAdd("appriciate", "appreciate");
             correctionAdd("apprciate", "appreciate");
             correctionAdd("Appriciate", "appreciate");
+            correctionAdd("apricate", "appreciate");
+            correctionAdd("apriciate", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -13331,6 +13336,7 @@ namespace OverflowHelper.core
             correctionAdd("strugling", "struggling");
 
             correctionAdd("superflous", "superfluous");
+            correctionAdd("superfluos", "superfluous");
 
             correctionAdd("Supervolcano", "supervolcano");
 
@@ -19999,6 +20005,7 @@ namespace OverflowHelper.core
             correctionAdd("Aeronautics", "aeronautics");
 
             correctionAdd("altrenative", "alternative");
+            correctionAdd("alterative", "alternative");
 
             correctionAdd("Favicon", "favicon");
             correctionAdd("fav icon", "favicon");
@@ -31171,6 +31178,19 @@ namespace OverflowHelper.core
             correctionAdd("re-installing", "reinstalling");
 
             correctionAdd("write protected", "write-protected");
+
+            correctionAdd("1bitsy", "1Bitsy");
+
+            correctionAdd("mersenne twister", "Mersenne Twister");
+
+            correctionAdd("salmonella", "Salmonella");
+            correctionAdd("salmonela", "Salmonella");
+
+            correctionAdd("FFI", "foreign function interface");
+
+            correctionAdd("Space program", "space program");
+
+            correctionAdd("unwated", "unwanted");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48992,6 +49012,18 @@ namespace OverflowHelper.core
             URL_Add("reinstalling", "https://en.wiktionary.org/wiki/reinstall#Verb");
 
             URL_Add("write-protected", "https://www.collinsdictionary.com/dictionary/english/write-protected");
+
+            URL_Add("1Bitsy", "https://1bitsy.org/");
+
+            URL_Add("Mersenne Twister", "https://en.wikipedia.org/wiki/Mersenne_Twister");
+
+            URL_Add("Salmonella", "https://en.wikipedia.org/wiki/Salmonella");
+
+            URL_Add("foreign function interface", "https://en.wikipedia.org/wiki/Foreign_function_interface");
+
+            URL_Add("space program", "https://en.wiktionary.org/wiki/space_program#Noun");
+
+            URL_Add("unwanted", "https://en.wiktionary.org/wiki/unwanted#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
