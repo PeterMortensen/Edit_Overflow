@@ -4287,6 +4287,7 @@ namespace OverflowHelper.core
             correctionAdd("SuperUse", "Super&nbsp;User");
             correctionAdd("Super Use", "Super&nbsp;User");
             correctionAdd("superUser", "Super&nbsp;User");
+            correctionAdd("SuperUsers", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -4839,6 +4840,7 @@ namespace OverflowHelper.core
             correctionAdd("whit out", "without");
             correctionAdd("witout", "without");
             correctionAdd("witch out", "without");
+            correctionAdd("with not", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -5155,6 +5157,7 @@ namespace OverflowHelper.core
             correctionAdd("Apache", "Apache HTTP Server");
             correctionAdd("appache", "Apache HTTP Server");
             correctionAdd("Apace", "Apache HTTP Server");
+            correctionAdd("Apche", "Apache HTTP Server");
 
             correctionAdd("graphViz", "Graphviz");
             correctionAdd("graphviz", "Graphviz");
@@ -13958,6 +13961,7 @@ namespace OverflowHelper.core
             correctionAdd("Heelo World", "Hello, World!");
             correctionAdd("heelo world", "Hello, World!");
             correctionAdd("Héllo World", "Hello, World!");
+            correctionAdd("Hello", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -22316,6 +22320,7 @@ namespace OverflowHelper.core
             correctionAdd("vasal", "vassal");
 
             correctionAdd("Western World", "western world");
+            correctionAdd("Western world", "western world");
 
             correctionAdd("moodle", "Moodle");
 
@@ -27082,6 +27087,8 @@ namespace OverflowHelper.core
             correctionAdd("Antix", "antiX");
 
             correctionAdd("callstack", "call stack");
+            correctionAdd("call- stack", "call stack");
+            correctionAdd("call-stack", "call stack");
 
             correctionAdd("Civil Engineer", "civil engineer");
 
@@ -28054,6 +28061,7 @@ namespace OverflowHelper.core
 
             correctionAdd("electromagnatic", "electromagnetic");
             correctionAdd("Electro-Magnetic", "electromagnetic");
+            correctionAdd("EM", "electromagnetic");
 
             correctionAdd("establishe", "establish");
 
@@ -30913,6 +30921,7 @@ namespace OverflowHelper.core
             correctionAdd("VA", "virtual assistant");
 
             correctionAdd("fpm", "FastCGI Process Manager");
+            correctionAdd("PHP-FPM", "FastCGI Process Manager");
 
             correctionAdd("Salesforce Object Query Language", "SOQL");
             correctionAdd("soql", "SOQL");
@@ -31191,6 +31200,50 @@ namespace OverflowHelper.core
             correctionAdd("Space program", "space program");
 
             correctionAdd("unwated", "unwanted");
+
+            correctionAdd("Black Alps", "Alps SKCM Black");
+
+            correctionAdd("Alps", "Alps SKCM Cream damped");
+            correctionAdd("Alps SKCM Cream", "Alps SKCM Cream damped");
+            correctionAdd("Alps SKCM", "Alps SKCM Cream damped");
+
+            correctionAdd("event viewer", "Event Viewer");
+            correctionAdd("Event viewer", "Event Viewer");
+
+            correctionAdd("google compute engine", "Google Compute Engine");
+
+            correctionAdd("HP NonStop", "HPE NonStop");
+            correctionAdd("hp-nonstop", "HPE NonStop");
+
+            correctionAdd("MCCV", "Monte Carlo cross-validation");
+
+            correctionAdd("Stefan-Boltzmann law", "Stefan–Boltzmann law");
+            correctionAdd("Stefan-Boltzmann Law", "Stefan–Boltzmann law");
+
+            correctionAdd("Tandem computers", "Tandem Computers");
+
+            correctionAdd("XNS", "Xerox Network Systems");
+
+            correctionAdd("Byte", "byte");
+
+            correctionAdd("down-voter", "downvoter");
+
+            correctionAdd("equaling", "equalling");
+
+            correctionAdd("featureset", "feature set");
+
+            correctionAdd("in any way or form", "in any way, shape, or form");
+
+            correctionAdd("non-specific", "nonspecific");
+            correctionAdd("non specific", "nonspecific");
+
+            correctionAdd("non transparent", "nontransparent");
+
+            correctionAdd("Photosphere", "photosphere");
+
+            correctionAdd("radistive", "radiative");
+
+            correctionAdd("Type Erasure", "type erasure");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49024,6 +49077,44 @@ namespace OverflowHelper.core
             URL_Add("space program", "https://en.wiktionary.org/wiki/space_program#Noun");
 
             URL_Add("unwanted", "https://en.wiktionary.org/wiki/unwanted#Adjective");
+
+            URL_Add("Alps SKCM Black", "https://www.youtube.com/watch?v=jvDluHoe7ro&t=4m45s");
+
+            URL_Add("Alps SKCM Cream damped", "https://www.youtube.com/watch?v=huCdi0bljgk");
+
+            URL_Add("Event Viewer", "https://en.wikipedia.org/wiki/Event_Viewer");
+
+            URL_Add("Google Compute Engine", "https://en.wikipedia.org/wiki/Google_Compute_Engine");
+
+            URL_Add("HPE NonStop", "https://en.wikipedia.org/wiki/NonStop_(server_computers)#Hardware");
+
+            URL_Add("Monte Carlo cross-validation", "https://en.wikipedia.org/wiki/Cross-validation_(statistics)#Repeated_random_sub-sampling_validation");
+
+            URL_Add("Stefan–Boltzmann law", "https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law");
+
+            URL_Add("Tandem Computers", "https://en.wikipedia.org/wiki/Tandem_Computers");
+
+            URL_Add("Xerox Network Systems", "https://en.wikipedia.org/wiki/Xerox_Network_Systems");
+
+            URL_Add("byte", "https://en.wikipedia.org/wiki/Byte");
+
+            URL_Add("downvoter", "https://en.wiktionary.org/wiki/downvoter#Noun");
+
+            URL_Add("equalling", "https://en.wiktionary.org/wiki/equal#Verb");
+
+            URL_Add("feature set", "https://www.pcmag.com/encyclopedia/term/feature-set");
+
+            URL_Add("in any way, shape, or form", "https://en.wiktionary.org/wiki/in_any_way,_shape,_or_form#Prepositional_phrase");
+
+            URL_Add("nonspecific", "https://en.wiktionary.org/wiki/non-specific#Adjective");
+
+            URL_Add("nontransparent", "https://en.wiktionary.org/wiki/nontransparent#Adjective");
+
+            URL_Add("photosphere", "https://en.wikipedia.org/wiki/Photosphere");
+
+            URL_Add("radiative", "https://en.wiktionary.org/wiki/radiative#Adjective");
+
+            URL_Add("type erasure", "https://en.wikipedia.org/wiki/Type_erasure");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
