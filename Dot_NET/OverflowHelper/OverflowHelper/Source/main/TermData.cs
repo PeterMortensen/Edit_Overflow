@@ -3644,6 +3644,7 @@ namespace OverflowHelper.core
             correctionAdd("Integrated Development Environment", "IDE");
             correctionAdd("I.D.E", "IDE");
             correctionAdd("YDE", "IDE");
+            correctionAdd("Integrated Development Editor", "IDE");
 
             correctionAdd("concat", "concatenate"); // Expansion.
             correctionAdd("cancat", "concatenate");
@@ -9053,16 +9054,6 @@ namespace OverflowHelper.core
             correctionAdd("single page app", "single-page application");
             correctionAdd("Single Page Application", "single-page application");
 
-            correctionAdd("german", "German");
-
-            correctionAdd("germany", "Germany");
-
-            correctionAdd("french", "French");
-            correctionAdd("FRENCH", "French");
-
-            correctionAdd("british", "British");
-            correctionAdd("btish", "British");
-
             correctionAdd("f-15", "F-15");
             correctionAdd("f15", "F-15");
             correctionAdd("F15", "F-15");
@@ -11651,6 +11642,7 @@ namespace OverflowHelper.core
             correctionAdd("mabey", "maybe");
             correctionAdd("May be", "maybe");
             correctionAdd("Maybe", "maybe");
+            correctionAdd("may be", "maybe");
 
             correctionAdd("Plutonium", "plutonium");
             correctionAdd("Pu", "plutonium");
@@ -17141,6 +17133,7 @@ namespace OverflowHelper.core
             correctionAdd("tryin", "trying");
             correctionAdd("tying", "trying");
             correctionAdd("triing", "trying");
+            correctionAdd("traying", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -18395,7 +18388,18 @@ namespace OverflowHelper.core
 
             correctionAdd("maniuplation", "manipulation");
 
+            correctionAdd("german", "German");
+
+            correctionAdd("germany", "Germany");
+
+            correctionAdd("french", "French");
+            correctionAdd("FRENCH", "French");
+
+            correctionAdd("british", "British");
+            correctionAdd("btish", "British");
+
             correctionAdd("Many", "many");
+            correctionAdd("manay", "many");
 
             correctionAdd("marrage", "marriage");
 
@@ -20878,6 +20882,7 @@ namespace OverflowHelper.core
             correctionAdd("mite", "might");
 
             correctionAdd("sub set", "subset");
+            correctionAdd("sub-set", "subset");
 
             correctionAdd("succint", "succinct");
 
@@ -27987,6 +27992,7 @@ namespace OverflowHelper.core
             correctionAdd("hapenning", "happening");
 
             correctionAdd("helpt", "helped");
+            correctionAdd("halped", "helped");
 
             correctionAdd("pre-existing", "preexisting");
 
@@ -31244,6 +31250,25 @@ namespace OverflowHelper.core
             correctionAdd("radistive", "radiative");
 
             correctionAdd("Type Erasure", "type erasure");
+
+            correctionAdd("auctex", "AUCTeX");
+
+            correctionAdd("black magic probe", "Black Magic Probe");
+
+            correctionAdd("accomodation", "accommodation");
+
+            correctionAdd("casesensitivity", "case-sensitivity");
+            correctionAdd("casesensitity", "case-sensitivity");
+
+            correctionAdd("statments", "statements");
+
+            correctionAdd("vender", "vendor");
+
+            correctionAdd("venders", "vendors");
+
+            correctionAdd("Small or Wee Hours", "wee small hours");
+
+            correctionAdd("wordwrap", "word wrap");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49115,6 +49140,24 @@ namespace OverflowHelper.core
             URL_Add("radiative", "https://en.wiktionary.org/wiki/radiative#Adjective");
 
             URL_Add("type erasure", "https://en.wikipedia.org/wiki/Type_erasure");
+
+            URL_Add("AUCTeX", "https://en.wikipedia.org/wiki/AUCTeX");
+
+            URL_Add("Black Magic Probe", "https://1bitsquared.com/products/black-magic-probe");
+
+            URL_Add("accommodation", "https://en.wiktionary.org/wiki/accommodation#Noun");
+
+            URL_Add("case-sensitivity", "https://en.wiktionary.org/wiki/case-sensitivity#Noun");
+
+            URL_Add("statements", "https://en.wiktionary.org/wiki/statement#Noun");
+
+            URL_Add("vendor", "https://en.wiktionary.org/wiki/vendor#Noun");
+
+            URL_Add("vendors", "https://en.wiktionary.org/wiki/vendor#Noun");
+
+            URL_Add("wee small hours", "https://en.wiktionary.org/wiki/wee_small_hours#Noun");
+
+            URL_Add("word wrap", "https://en.wiktionary.org/wiki/word_wrap#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
