@@ -22164,6 +22164,7 @@ namespace OverflowHelper.core
             correctionAdd("pitfal", "pitfall");
             correctionAdd("pittfall", "pitfall");
             correctionAdd("pit fall", "pitfall");
+            correctionAdd("Pitfall", "pitfall");
 
             correctionAdd("planetecibel", "planetesimal");
             correctionAdd("Planetecibel", "planetesimal");
@@ -25655,6 +25656,8 @@ namespace OverflowHelper.core
             correctionAdd("Thanku", "thank you");
             correctionAdd("thanku", "thank you");
             correctionAdd("thank u", "thank you");
+            correctionAdd("Thnak you", "thank you");
+            correctionAdd("thnak you", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -25806,6 +25809,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thsi", "this");
             correctionAdd("tis", "this");
+            correctionAdd("ths", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -29913,6 +29917,7 @@ namespace OverflowHelper.core
             correctionAdd("Mime-Type", "MIME type");
             correctionAdd("Mime Type", "MIME type");
             correctionAdd("MIME Type", "MIME type");
+            correctionAdd("mimetype", "MIME type");
 
             correctionAdd("interferred", "interfered");
 
@@ -30152,6 +30157,8 @@ namespace OverflowHelper.core
             correctionAdd("HTML 4.0", "HTML&nbsp;4"); // Sort of identity mapping
             correctionAdd("HTML 4", "HTML&nbsp;4");
             correctionAdd("HTML4", "HTML&nbsp;4");
+            correctionAdd("html 4", "HTML&nbsp;4");
+            correctionAdd("html4", "HTML&nbsp;4");
 
             correctionAdd("constanst", "constants");
 
@@ -31269,6 +31276,28 @@ namespace OverflowHelper.core
             correctionAdd("Small or Wee Hours", "wee small hours");
 
             correctionAdd("wordwrap", "word wrap");
+
+            correctionAdd("Arquade", "Arqade (Stack Exchange site)");
+            correctionAdd("arquade", "Arqade (Stack Exchange site)");
+
+            correctionAdd("real VNC", "RealVNC");
+            correctionAdd("real vnc", "RealVNC");
+
+            correctionAdd("tesla coil", "Tesla coil");
+
+            correctionAdd("aer", "are");
+
+            correctionAdd("FSA", "finite-state automaton");
+
+            correctionAdd("Fresher", "fresher");
+
+            correctionAdd("high-explosives", "high explosives");
+            correctionAdd("High-explosives", "high explosives");
+
+            correctionAdd("iMac pro", "iMac Pro");
+            correctionAdd("imac pro", "iMac Pro");
+
+            correctionAdd("6", "six");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49158,6 +49187,24 @@ namespace OverflowHelper.core
             URL_Add("wee small hours", "https://en.wiktionary.org/wiki/wee_small_hours#Noun");
 
             URL_Add("word wrap", "https://en.wiktionary.org/wiki/word_wrap#Verb");
+
+            URL_Add("Arqade (Stack Exchange site)", "https://gaming.stackexchange.com/tour");
+
+            URL_Add("RealVNC", "https://www.realvnc.com/en/");
+
+            URL_Add("Tesla coil", "https://en.wikipedia.org/wiki/Tesla_coil");
+
+            URL_Add("are", "https://en.wiktionary.org/wiki/are#Verb");
+
+            URL_Add("finite-state automaton", "https://en.wikipedia.org/wiki/Finite-state_automaton");
+
+            URL_Add("fresher", "https://en.wiktionary.org/wiki/fresher#Noun");
+
+            URL_Add("high explosives", "https://en.wiktionary.org/wiki/high_explosive#Noun");
+
+            URL_Add("iMac Pro", "https://en.wikipedia.org/wiki/IMac_Pro");
+
+            URL_Add("six", "https://en.wiktionary.org/wiki/six#Numeral_2");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
