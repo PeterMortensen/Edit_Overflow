@@ -5497,6 +5497,8 @@ namespace OverflowHelper.core
 
             correctionAdd("symlink", "symbolic link");
             correctionAdd("symlinked", "symbolic link"); // Not 100% correct - verbified.
+            correctionAdd("Symbolic Link", "symbolic link");
+            correctionAdd("Symbolic link", "symbolic link");
 
             correctionAdd("adt", "ADT");
 
@@ -10536,6 +10538,7 @@ namespace OverflowHelper.core
             correctionAdd("youre", "you're");
             correctionAdd("Ur", "you're");
             correctionAdd("your'e", "you're");
+            correctionAdd("you´re", "you're");
 
             correctionAdd("umbraco", "Umbraco");
 
@@ -11464,6 +11467,7 @@ namespace OverflowHelper.core
             correctionAdd("vise versa", "vice versa");
             correctionAdd("visversa", "vice versa");
             correctionAdd("vica versa", "vice versa");
+            correctionAdd("viceversa", "vice versa");
 
             correctionAdd("your self", "yourself");
             correctionAdd("yourselves", "yourself");
@@ -11743,10 +11747,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Engelsk", "engelsk");
 
-            correctionAdd("thier", "their");
+            correctionAdd("thier", "their"); // A true typo
             correctionAdd("theur", "their");
             correctionAdd("thiere", "their");
             correctionAdd("thei", "their");
+            correctionAdd("theri", "their"); // A true typo
 
             correctionAdd("BREXIT", "Brexit");
             correctionAdd("brexit", "Brexit");
@@ -18773,6 +18778,10 @@ namespace OverflowHelper.core
             correctionAdd("platfrom", "platform");
             correctionAdd("platorm", "platform");
             correctionAdd("Platform", "platform");
+            correctionAdd("Plattform", "platform");
+
+            correctionAdd("plattforms", "platforms");
+            correctionAdd("Plattforms", "platforms");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -21908,6 +21917,8 @@ namespace OverflowHelper.core
             correctionAdd("proj", "project");
             correctionAdd("projcet", "project");
             correctionAdd("proyect", "project");
+            correctionAdd("Projekt", "project");
+            correctionAdd("projekt", "project");
 
             correctionAdd("eol", "EOL");
             correctionAdd("End of Line", "EOL");
@@ -24626,6 +24637,7 @@ namespace OverflowHelper.core
 
             correctionAdd("complexty", "complexity");
             correctionAdd("complexitiy", "complexity");
+            correctionAdd("Complexity", "complexity");
 
             correctionAdd("declaire", "declare");
             correctionAdd("declere", "declare");
@@ -25383,6 +25395,7 @@ namespace OverflowHelper.core
             correctionAdd("custimization", "customisation");
 
             correctionAdd("eventhough", "even though");
+            correctionAdd("even thought", "even though");
 
             correctionAdd("exacution", "execution");
             correctionAdd("executation", "execution");
@@ -31298,6 +31311,14 @@ namespace OverflowHelper.core
             correctionAdd("imac pro", "iMac Pro");
 
             correctionAdd("6", "six");
+
+            correctionAdd("brussels sprouts", "Brussels sprout");
+
+            correctionAdd("quatumn", "quantum");
+
+            correctionAdd("time Complexity", "time complexity");
+
+            correctionAdd("Dialog box", "dialog box");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49205,6 +49226,16 @@ namespace OverflowHelper.core
             URL_Add("iMac Pro", "https://en.wikipedia.org/wiki/IMac_Pro");
 
             URL_Add("six", "https://en.wiktionary.org/wiki/six#Numeral_2");
+
+            URL_Add("Brussels sprout", "https://en.wikipedia.org/wiki/Brussels_sprout");
+
+            URL_Add("quantum", "https://en.wiktionary.org/wiki/quantum#Noun");
+
+            URL_Add("time complexity", "https://en.wikipedia.org/wiki/Time_complexity");
+
+            URL_Add("dialog box", "https://en.wikipedia.org/wiki/Dialog_box");
+
+            URL_Add("platforms", "https://en.wiktionary.org/wiki/platform#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
