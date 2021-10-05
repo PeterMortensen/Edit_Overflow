@@ -8350,6 +8350,7 @@ namespace OverflowHelper.core
             correctionAdd("whould", "would");
             correctionAdd("woudl", "would");
             correctionAdd("wold", "would");
+            correctionAdd("woul", "would");
 
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("mine craft", "Minecraft");
@@ -9044,6 +9045,7 @@ namespace OverflowHelper.core
             correctionAdd("usefull", "useful");
             correctionAdd("use full", "useful");
             correctionAdd("usedful", "useful");
+            correctionAdd("usefsul", "useful");
 
             correctionAdd("Memoization", "memoization");
 
@@ -9221,6 +9223,7 @@ namespace OverflowHelper.core
             correctionAdd("doesn", "doesn’t");
             correctionAdd("Doesnt", "doesn’t");
             correctionAdd("does't", "doesn’t");
+            correctionAdd("donst", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -9261,6 +9264,8 @@ namespace OverflowHelper.core
             correctionAdd("basicilly", "basically");
             correctionAdd("basicallly", "basically");
             correctionAdd("basiacally", "basically");
+            correctionAdd("Bsically", "basically");
+            correctionAdd("bsically", "basically");
 
             correctionAdd("mdi", "MDI");
 
@@ -9710,6 +9715,7 @@ namespace OverflowHelper.core
             correctionAdd("tread", "question");
             correctionAdd("quastion", "question");
             correctionAdd("questionj", "question");
+            correctionAdd("querstion", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -10089,6 +10095,7 @@ namespace OverflowHelper.core
             correctionAdd("Model–view–controller", "model–view–controller");
             correctionAdd("model view controller", "model–view–controller");
             correctionAdd("model-view controller", "model–view–controller");
+            correctionAdd("model-view-controller", "model–view–controller");
 
             correctionAdd("Model-View-Presenter", "model–view–presenter");
 
@@ -14312,6 +14319,8 @@ namespace OverflowHelper.core
             correctionAdd("Gtk", "GTK");
             correctionAdd("gtk+", "GTK");
             correctionAdd("Gtk+", "GTK");
+            correctionAdd("GTK++", "GTK");
+            correctionAdd("GTK+", "GTK");
 
             correctionAdd("Indigogogo", "Indiegogo");
             correctionAdd("indigogogo", "Indiegogo");
@@ -14463,6 +14472,7 @@ namespace OverflowHelper.core
             correctionAdd("get-filehash", "Get-FileHash");
 
             correctionAdd("Jmeter", "JMeter");
+            correctionAdd("jMeter", "JMeter");
 
             correctionAdd("mtp", "MTP");
 
@@ -20607,6 +20617,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fahrenheit", "Fahrenheit");
             correctionAdd("Farenheit", "Fahrenheit");
+            correctionAdd("farenheit", "Fahrenheit");
 
             correctionAdd("lodash", "Lodash");
             correctionAdd("lodash.js", "Lodash");
@@ -21345,6 +21356,7 @@ namespace OverflowHelper.core
             correctionAdd("thinkk", "think");
             correctionAdd("thunk", "think");
             correctionAdd("thibk", "think");
+            correctionAdd("htink", "think");
 
             correctionAdd("througput", "throughput");
 
@@ -21393,6 +21405,7 @@ namespace OverflowHelper.core
             correctionAdd("lifecycle", "life cycle");
 
             correctionAdd("overs come", "overcome");
+            correctionAdd("over come", "overcome");
 
             correctionAdd("satyre", "satire");
 
@@ -23402,6 +23415,7 @@ namespace OverflowHelper.core
             correctionAdd("fall-back", "fallback");
 
             correctionAdd("introducted", "introduced");
+            correctionAdd("introducuced", "introduced");
 
             correctionAdd("foundtemental", "fundamental");
 
@@ -29972,6 +29986,7 @@ namespace OverflowHelper.core
             correctionAdd("creators update", "Windows 10 version 1703");
 
             correctionAdd("high level", "high-level");
+            correctionAdd("high-lvl", "high-level");
 
             correctionAdd("impedanse", "impedance");
 
@@ -30196,6 +30211,7 @@ namespace OverflowHelper.core
             correctionAdd("right click", "right-click");
             correctionAdd("Right-Click", "right-click");
             correctionAdd("Right Click", "right-click");
+            correctionAdd("Right-click", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -31319,6 +31335,34 @@ namespace OverflowHelper.core
             correctionAdd("time Complexity", "time complexity");
 
             correctionAdd("Dialog box", "dialog box");
+
+            correctionAdd("Apache batik", "Apache Batik");
+            correctionAdd("batik", "Apache Batik");
+
+            correctionAdd("desmos", "Desmos");
+
+            correctionAdd("Richedit", "RichEdit");
+
+            correctionAdd("soapui", "SoapUI");
+
+            correctionAdd("Ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+
+            correctionAdd("avoir", "avoid");
+
+            correctionAdd("constutionality", "constitutionality");
+
+            correctionAdd("evidentially", "evidently");
+            correctionAdd("Evidentially", "evidently");
+
+            correctionAdd("immence", "immense");
+
+            correctionAdd("interchaneable", "interchangeable");
+
+            correctionAdd("Owned", "owned");
+            correctionAdd("0wned", "owned");
+            correctionAdd("pwned", "owned");
+
+            correctionAdd("syntactial", "syntactical");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49236,6 +49280,30 @@ namespace OverflowHelper.core
             URL_Add("dialog box", "https://en.wikipedia.org/wiki/Dialog_box");
 
             URL_Add("platforms", "https://en.wiktionary.org/wiki/platform#Noun");
+
+            URL_Add("Apache Batik", "https://en.wikipedia.org/wiki/Apache_Batik");
+
+            URL_Add("Desmos", "https://en.wikipedia.org/wiki/Desmos_(graphing)");
+
+            URL_Add("RichEdit", "https://en.wikipedia.org/wiki/Text_Object_Model");
+
+            URL_Add("SoapUI", "https://en.wikipedia.org/wiki/SoapUI");
+
+            URL_Add("Ubuntu 21.10 (Impish Indri)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)");
+
+            URL_Add("avoid", "https://en.wiktionary.org/wiki/avoid#Verb");
+
+            URL_Add("constitutionality", "https://en.wiktionary.org/wiki/constitutionality#Noun");
+
+            URL_Add("evidently", "https://en.wiktionary.org/wiki/evidently#Adverb");
+
+            URL_Add("immense", "https://en.wiktionary.org/wiki/immense#Adjective");
+
+            URL_Add("interchangeable", "https://en.wiktionary.org/wiki/interchangeable#Adjective");
+
+            URL_Add("owned", "https://en.wikipedia.org/wiki/Owned_(slang)");
+
+            URL_Add("syntactical", "https://en.wiktionary.org/wiki/syntactical#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
