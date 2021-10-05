@@ -351,14 +351,22 @@
                 />
             </p>
 
-            <p id="FixedSyntaxHighlighting">Some older posts on Stack Overflow have strange 
+            <p id="FixedSyntaxHighlighting">Some older posts on Stack Overflow have strange
                 <a href="https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109"
-                >syntax highlighting</a>, 
+                >syntax highlighting</a>,
                 probably caused by later changes to the
                 Stack Exchange software. Possible code fencing formatting:
-                ```lang-none, ```lang-javascript, ```lang-html, ```lang-bash,
-                ```lang-php, ```lang-css, ```lang-xml, ```lang-java,
-                ```lang-csharp, ```lang-vbnet
+                    ```lang-none,
+                    ```lang-html,
+                    ```lang-php,
+                    ```lang-javascript,
+                    ```lang-css,
+                    ```lang-java,
+                    ```lang-csharp,
+                    ```lang-vbnet,
+                    ```lang-python,
+                    ```lang-xml,
+                    ```lang-bash
 
                 <br/>
                 <input
