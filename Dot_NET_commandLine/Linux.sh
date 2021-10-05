@@ -193,23 +193,16 @@ echo
 echo 'Start of building Edit Overflow...'
 echo
 
-echo ; echo "Start time: $(date +%FT%T_%N_ns)"  ; echo
+
+# ####################
+# Configuration, start
 
 
-# Force entering the password at the beginning of the
-# script run (to avoid prompting for it in the middle
-# of the run).
+# Selectively disable some test (e.g., if an external service we
+# depend on is not available)
 #
-# Note: This will ***not*** work as expected (if entering the
-#       password is required) if pasting ***several*** lines
-#       ***after*** invoking this script (e.g. with
-#       "./Linux.sh").
-#
-#       In this case, enter the following manually, as a
-#       separate step. In order words, this line should
-#       be the LAST line if pasting several lines.
-#
-sudo ls > /dev/null
+# Normally, ***ALL*** should be outcommented
+#export DISABLE_HTMLVALIDATION=1
 
 
 
@@ -239,11 +232,11 @@ export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
 export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
-# To make the unit test run ***itself*** succeed when we
-# use a single build folder, we rename a file... We use
-# a file name for the file containing "Main()" that
-# does not end in ".cs" in order to hide it (until
-# after the unit tests have run).
+# To make the C# unit test run ***itself*** succeed when
+# we use a single build folder, we rename a file... We
+# use a file name for the file containing "Main()"
+# that does not end in ".cs" in order to hide it
+# (until after the C# unit tests have run).
 #
 # Otherwise we will get an error like this:
 #
@@ -279,7 +272,6 @@ export WORKFOLDER=${WORKFOLDER3}
 export LOCAL_WEBSERVER_FOLDER=/var/www/html/world
 
 
-
 export FTPTRANSFER_FOLDER_HTML=${WORKFOLDER}/_transfer_HTML
 
 export FTPTRANSFER_FOLDER_JAVASCRIPT=${WORKFOLDER}/_transfer_JavaScript
@@ -303,18 +295,11 @@ export SRCFOLDER_TESTS=$SRCFOLDER_DOTNET/Tests
 export WEBFOLDER=${SRCFOLDER_WEB}
 
 
-export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
-
-export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
-
-export JAVASCRIPT_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.js
-
 
 # Fixed name, not dependent on date, etc.
 export HTML_FILE_GENERIC_FILENAMEONLY=EditOverflowList_latest.html
 export HTML_FILE_GENERIC=$WORKFOLDER/$HTML_FILE_GENERIC_FILENAMEONLY
 export JAVASCRIPT_FILE_GENERIC=$WORKFOLDER/EditOverflowList.js
-
 
 
 # Hardcoded for now
@@ -333,6 +318,26 @@ export WEB_ERRORLOG_SUBFOLDER='_webErrorlog'
 #
 export REMOTE_WEB_ERRORLOG_FILENAME='phperrors_777.log'
 
+export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
+
+export WEBFORM_CHECK_CMD="perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}"
+
+
+# Configuration, end
+# ####################
+
+
+# #########################################################################
+#
+# Derive from configuration / prepare / convenience (declutter the main script)
+#
+
+export SQL_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.sql
+
+export HTML_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.html
+
+export JAVASCRIPT_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.js
+
 
 #Not used - delete at any time
 #Too complicated - use use startWatchFile() / endWatchFile() instead.
@@ -340,10 +345,15 @@ export BEFORE_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_before_${REMOTE_WEB_ERRORLOG_F
 export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${REMOTE_WEB_ERRORLOG_FILENAME}"
 
 
-export WEBFORM_CHECK_FILENAME='KeyboardShortcutConsistency.pl'
 
-export WEBFORM_CHECK_CMD="perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}"
-
+# Avoid "unary operator expected" error. We want to make it work
+# when environment variable "DISABLE_HTMLVALIDATION" is left out
+# entirely. It is also to declutter the main script with test
+# test.
+#
+if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
+    export DISABLE_HTMLVALIDATION=0
+fi
 
 
 # ###########################################################################
@@ -918,6 +928,30 @@ function retrieveWebHostingErrorLog()
 }
 
 
+
+# ###########################################################################
+#
+#   Start of the build script
+
+echo ; echo "Start time: $(date +%FT%T_%N_ns)"  ; echo
+
+
+# Force entering the password at the beginning of the
+# script run (to avoid prompting for it in the middle
+# of the run).
+#
+# Note: This will ***not*** work as expected (if entering the
+#       password is required) if pasting ***several*** lines
+#       ***after*** invoking this script (e.g. with
+#       "./Linux.sh").
+#
+#       In this case, enter the following manually, as a
+#       separate step. In order words, this line should
+#       be the LAST line if pasting several lines.
+#
+sudo ls > /dev/null
+
+
 # ###########################################################################
 #
 #  Self test of Python/Selenium script
@@ -1181,10 +1215,7 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%
 #
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            16
 
-
 #exit
-
-
 
 
 # ###########################################################################
@@ -1412,19 +1443,37 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 29 $? "copying the HTML word list to
 # HTML validation, both for the semi-static HTML pages and
 # the (generated) word list in HTML format.
 #
-HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    30
-HTML_validation      Text.php                           "Text stuff"              31
-HTML_validation      FixedStrings.php                   "Fixed strings"           32
-HTML_validation      EditSummaryFragments.php           "Edit summary fragments"  33
+# It is currently dependent on an external service,
+# over the Internet. Service failures:
+#
+#   2021-10-05T154904   "The connection has timed out. The server at
+#                        validator.w3.org is taking too long to respond."
+#
+#                        Still not up as of:
+#
+#                           2021-10-05T151046Z+0
+#                           2021-10-05T160837Z+0 
+#                           2021-10-05T161242Z+0
+#
+#if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
+#if [ -z "${DISABLE_HTMLVALIDATION}" ] || [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
+#if [ -n "${DISABLE_HTMLVALIDATION}" ] && [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
+if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
+    HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    30
+    HTML_validation      Text.php                           "Text stuff"              31
+    HTML_validation      FixedStrings.php                   "Fixed strings"           32
+    HTML_validation      EditSummaryFragments.php           "Edit summary fragments"  33
 
-# The URL is <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
-#
-# Sometimes we get this result:
-#
-#     503 Service Unavailable
-#     No server is available to handle this request.
-#
-HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        34  '%2FEditOverflow%2F_Wordlist'
+    # The URL is <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
+    #
+    # Sometimes we get this result:
+    #
+    #     503 Service Unavailable
+    #     No server is available to handle this request.
+    #
+    HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        34  '%2FEditOverflow%2F_Wordlist'
+fi
+
 
 
 # ###########################################################################
@@ -1532,7 +1581,7 @@ retrieveWebHostingErrorLog  "_after_"
 # Detection of new entries to the error log (normally PHP errors) as
 # a result of our excersing web pages in production
 #
-# Note: Not a separate build number as we are just detecting errors (on 
+# Note: Not a separate build number as we are just detecting errors (on
 #       the web server) as a result of running a Selenium test.
 #
 mustBeEqual  "`cat _before_WebHostingErrorLog_MD5.txt`"  "`cat _after_WebHostingErrorLog_MD5.txt`"  38  "New entry in error log: `tail -n 1 ${AFTER_LOGFILE}` "
