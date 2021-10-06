@@ -2313,6 +2313,7 @@ namespace OverflowHelper.core
             correctionAdd("internet Explorer", "Internet&nbsp;Explorer");
             correctionAdd("MSIE", "Internet&nbsp;Explorer");
             correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
+            correctionAdd("Internet Exploere", "Internet&nbsp;Explorer");
 
             //correctionAdd("ie", ", that is"); // Not included as it conflicts with Internet Explorer.
             correctionAdd("I.e", ", that is, X"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
@@ -9074,6 +9075,8 @@ namespace OverflowHelper.core
             correctionAdd("Pls", "please"); // Not 100% correct - case.
             correctionAdd("PLease", "please");
             correctionAdd("pleas", "please");
+            correctionAdd("Plese", "please");
+            correctionAdd("plese", "please");
 
             correctionAdd("1 Liner", "one-liner");
             correctionAdd("one liner", "one-liner");
@@ -14453,6 +14456,7 @@ namespace OverflowHelper.core
             correctionAdd("Etherium", "Ethereum");
             correctionAdd("Ethereuem", "Ethereum");
             correctionAdd("etherium", "Ethereum");
+            correctionAdd("Etherum", "Ethereum");
 
             correctionAdd("ammend", "amend");
 
@@ -16219,6 +16223,7 @@ namespace OverflowHelper.core
             correctionAdd("MBit", "&nbsp;Mbit/s");
             correctionAdd("Mbit", "&nbsp;Mbit/s");
             correctionAdd("megabit/s", "&nbsp;Mbit/s");
+            correctionAdd("Mbs", "&nbsp;Mbit/s");
 
             correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
             correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
@@ -16909,6 +16914,7 @@ namespace OverflowHelper.core
             correctionAdd("Tank", "tank");
 
             correctionAdd("thurst", "thrust");
+            correctionAdd("Thrust", "thrust");
 
             correctionAdd("Winner winner chicken dinner", "winner, winner, chicken dinner");
             correctionAdd("winner winner chicken dinner", "winner, winner, chicken dinner");
@@ -17173,6 +17179,7 @@ namespace OverflowHelper.core
             correctionAdd("UXD", "user experience design");
 
             correctionAdd("vis-a-vis", "vis-à-vis");
+            correctionAdd("vis a vis", "vis-à-vis");
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
@@ -23112,6 +23119,8 @@ namespace OverflowHelper.core
             correctionAdd("methood", "method");
             correctionAdd("methode", "method");
             correctionAdd("menthod", "method");
+            correctionAdd("Methodl", "method");
+            correctionAdd("methodl", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -31363,6 +31372,25 @@ namespace OverflowHelper.core
             correctionAdd("pwned", "owned");
 
             correctionAdd("syntactial", "syntactical");
+
+            correctionAdd("dogecoin", "Dogecoin");
+
+            correctionAdd("investopedia", "Investopedia");
+
+            correctionAdd("arithmatic", "arithmetic");
+
+            correctionAdd("bunus", "bonus");
+            correctionAdd("Bunus", "bonus");
+
+            correctionAdd("hush hush", "hush-hush");
+
+            correctionAdd("non-numerical", "nonnumeric");
+            correctionAdd("non-numeric", "nonnumeric");
+            correctionAdd("non numeric", "nonnumeric");
+            correctionAdd("non numerical", "nonnumeric");
+            correctionAdd("nonnumerical", "nonnumeric");
+
+            correctionAdd("Specific Impulse", "specific impulse");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49304,6 +49332,20 @@ namespace OverflowHelper.core
             URL_Add("owned", "https://en.wikipedia.org/wiki/Owned_(slang)");
 
             URL_Add("syntactical", "https://en.wiktionary.org/wiki/syntactical#Adjective");
+
+            URL_Add("Dogecoin", "https://en.wikipedia.org/wiki/Dogecoin");
+
+            URL_Add("Investopedia", "https://en.wikipedia.org/wiki/Investopedia");
+
+            URL_Add("arithmetic", "https://en.wiktionary.org/wiki/arithmetic#Adjective");
+
+            URL_Add("bonus", "https://en.wiktionary.org/wiki/bonus#Noun");
+
+            URL_Add("hush-hush", "https://en.wiktionary.org/wiki/hush-hush#Adjective");
+
+            URL_Add("nonnumeric", "https://en.wiktionary.org/wiki/nonnumeric#Adjective");
+
+            URL_Add("specific impulse", "https://en.wikipedia.org/wiki/Specific_impulse");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
