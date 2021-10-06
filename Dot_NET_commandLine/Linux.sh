@@ -348,7 +348,7 @@ export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${REMOTE_WEB_ERRORLOG_FIL
 
 # Avoid "unary operator expected" error. We want to make it work
 # when environment variable "DISABLE_HTMLVALIDATION" is left out
-# entirely. It is also to declutter the main script with test
+# entirely. It is also to declutter the main script with this
 # test.
 #
 if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
@@ -1454,10 +1454,10 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 29 $? "copying the HTML word list to
 #                           2021-10-05T151046Z+0
 #                           2021-10-05T160837Z+0 
 #                           2021-10-05T161242Z+0
+#                           2021-10-06T002617Z+0
 #
-#if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
-#if [ -z "${DISABLE_HTMLVALIDATION}" ] || [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
-#if [ -n "${DISABLE_HTMLVALIDATION}" ] && [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
+#                        Worked again on 2021-10-06T072909.
+#
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    30
     HTML_validation      Text.php                           "Text stuff"              31
