@@ -4710,6 +4710,8 @@ namespace OverflowHelper.core
             correctionAdd("debian-jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("8 Jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian 8 Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian 8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
@@ -5002,6 +5004,7 @@ namespace OverflowHelper.core
             correctionAdd("I‘m", "I’m");
             correctionAdd("i'am", "I’m");
             correctionAdd("I'm", "I’m");
+            correctionAdd("I\"m", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -5288,6 +5291,7 @@ namespace OverflowHelper.core
             correctionAdd("drm", "DRM");
 
             correctionAdd("tkinter", "Tkinter");
+            correctionAdd("TKinter", "Tkinter");
 
             correctionAdd("graph api", "Graph API"); // Part of the Facebook Platform.
             correctionAdd("graph API", "Graph API"); // Part of the Facebook Platform.
@@ -6870,6 +6874,7 @@ namespace OverflowHelper.core
             correctionAdd("exelant", "excellent");
 
             correctionAdd("pygame", "Pygame");
+            correctionAdd("PyGame", "Pygame");
 
             // This one maps one.
             correctionAdd("SQL Express", "SQL Server Express Edition");
@@ -7034,6 +7039,8 @@ namespace OverflowHelper.core
             correctionAdd("8", "Windows&nbsp;8"); // Ambiguous!
             correctionAdd("windows8", "Windows&nbsp;8");
             correctionAdd("Win-8", "Windows&nbsp;8");
+            correctionAdd("win 8.0", "Windows&nbsp;8");
+            correctionAdd("windows 8.0", "Windows&nbsp;8");
 
             correctionAdd("Win 8.1", "Windows&nbsp;8.1");
             correctionAdd("Windows 8.1", "Windows&nbsp;8.1");
@@ -12657,10 +12664,6 @@ namespace OverflowHelper.core
             correctionAdd("catch-22", "Catch-22");
             correctionAdd("Catch 22", "Catch-22");
 
-            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
-            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
-            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
-
             correctionAdd("transifex", "Transifex");
 
             correctionAdd("Additionaly", "additionally");
@@ -13890,10 +13893,15 @@ namespace OverflowHelper.core
             correctionAdd("CloudFlare", "Cloudflare");
             correctionAdd("cloudflare", "Cloudflare");
 
+            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
+            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
+            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
+
             correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
 
             correctionAdd("discord", "Discord");
             correctionAdd("Discod", "Discord");
@@ -15381,6 +15389,7 @@ namespace OverflowHelper.core
             correctionAdd("X-files", "The X-Files");
 
             correctionAdd("WIRED Magazine", "Wired");
+            correctionAdd("\"WIRED\" Magazine", "Wired");
 
             correctionAdd("analyics", "analytics");
 
@@ -26045,6 +26054,7 @@ namespace OverflowHelper.core
 
             correctionAdd("restrication", "restriction");
             correctionAdd("Restriccione", "restriction");
+            correctionAdd("restrction", "restriction");
 
             correctionAdd("re-usability", "reusability");
 
@@ -31436,6 +31446,16 @@ namespace OverflowHelper.core
 
             correctionAdd("un-commenting", "uncommenting");
 
+            correctionAdd("acumulate", "accumulate");
+
+            correctionAdd("deted", "deleted");
+
+            correctionAdd("obnosious", "obnoxious");
+
+            correctionAdd("restrctions", "restrictions");
+
+            correctionAdd("scropt", "script");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -36436,8 +36456,6 @@ namespace OverflowHelper.core
 
             URL_Add("Catch-22", "https://en.wiktionary.org/wiki/Catch-22#Noun");
 
-            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
-
             URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
 
             URL_Add("Ubuntu&nbsp;19.10 (Eoan Ermine)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)");
@@ -37134,8 +37152,6 @@ namespace OverflowHelper.core
             URL_Add("separating", "https://en.wiktionary.org/wiki/separating#Adjective");
 
             URL_Add("Cloudflare", "https://en.wikipedia.org/wiki/Cloudflare");
-
-            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
 
             URL_Add("Discord", "https://en.wikipedia.org/wiki/Discord_(software)");
 
@@ -49404,6 +49420,20 @@ namespace OverflowHelper.core
             URL_Add("thingies", "https://en.wiktionary.org/wiki/thingy#Noun");
 
             URL_Add("uncommenting", "https://en.wiktionary.org/wiki/uncomment#Verb");
+
+            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
+
+            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
+
+            URL_Add("accumulate", "https://en.wiktionary.org/wiki/accumulate#Verb");
+
+            URL_Add("deleted", "https://en.wiktionary.org/wiki/delete#Verb");
+
+            URL_Add("obnoxious", "https://en.wiktionary.org/wiki/obnoxious#Adjective");
+
+            URL_Add("restrictions", "https://en.wiktionary.org/wiki/restriction#Noun");
+
+            URL_Add("script", "https://en.wiktionary.org/wiki/script#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
