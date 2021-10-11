@@ -7793,11 +7793,18 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+
+            correctionAdd("kubuntu", "Kubuntu");
+            correctionAdd("KUbuntu", "Kubuntu");
+
+            correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("VS", "Visual&nbsp;Studio");
             correctionAdd("visual studio", "Visual&nbsp;Studio");
@@ -11945,6 +11952,7 @@ namespace OverflowHelper.core
             correctionAdd("interprete", "interpret");
             correctionAdd("interperate", "interpret");
             correctionAdd("interprate", "interpret");
+            correctionAdd("intepret", "interpret");
 
             correctionAdd("proceedure", "procedure");
             correctionAdd("precedure", "procedure");
@@ -12876,9 +12884,6 @@ namespace OverflowHelper.core
             correctionAdd("gameification", "gamification");
             correctionAdd("gamefication", "gamification");
 
-            correctionAdd("guide line", "guideline");
-            correctionAdd("guidline", "guideline");
-
             correctionAdd("highlited", "highlighted");
             correctionAdd("hightlighted", "highlighted");
 
@@ -13133,9 +13138,6 @@ namespace OverflowHelper.core
             correctionAdd("gekko", "Gecko");
 
             correctionAdd("gibraltar", "Gibraltar");
-
-            correctionAdd("kubuntu", "Kubuntu");
-            correctionAdd("KUbuntu", "Kubuntu");
 
             correctionAdd("Luke skywalker", "Luke Skywalker");
 
@@ -16740,17 +16742,6 @@ namespace OverflowHelper.core
             correctionAdd("command line interface", "command-line interface");
             correctionAdd("CLI", "command-line interface");
 
-            correctionAdd("command-line", "command line");
-            correctionAdd("CML", "command line");
-            correctionAdd("commandline", "command line");
-            correctionAdd("commanline", "command line");
-            correctionAdd("comandline", "command line");
-            correctionAdd("Commandline", "command line");
-            correctionAdd("cmd line", "command line");
-            correctionAdd("CL", "command line");
-            correctionAdd("CommandLine", "command line");
-            correctionAdd("Command Line", "command line");
-
             correctionAdd("yeoman", "Yeoman");
 
             correctionAdd("interop", "interoperability");
@@ -18013,6 +18004,7 @@ namespace OverflowHelper.core
             correctionAdd("componenet", "component");
             correctionAdd("componant", "component");
             correctionAdd("coponent", "component");
+            correctionAdd("componet", "component");
 
             correctionAdd("orginal", "original");
             correctionAdd("orignal", "original");
@@ -21598,6 +21590,7 @@ namespace OverflowHelper.core
             correctionAdd("differents", "different");
             correctionAdd("Differnt", "different");
             correctionAdd("differente", "different");
+            correctionAdd("diffent", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -22136,6 +22129,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recognizing", "recognising");
             correctionAdd("recogonizing", "recognising");
+            correctionAdd("regognizing", "recognising");
 
             correctionAdd("signning", "signing");
 
@@ -24229,6 +24223,7 @@ namespace OverflowHelper.core
             correctionAdd("seemless", "seamless");
 
             correctionAdd("Signal", "signal");
+            correctionAdd("singal", "signal");
 
             correctionAdd("Square Wave", "square wave");
 
@@ -25478,8 +25473,6 @@ namespace OverflowHelper.core
             correctionAdd("persceptive", "perspective");
             correctionAdd("presceptive", "perspective");
 
-            correctionAdd("time line", "timeline");
-
             correctionAdd("apon", "upon");
 
             correctionAdd("accdient", "accident");
@@ -25639,8 +25632,6 @@ namespace OverflowHelper.core
             correctionAdd("Teamtreehouse", "Treehouse");
 
             correctionAdd("wikitia", "Wikitia");
-
-            correctionAdd("Airline", "airline");
 
             correctionAdd("bench watching", "binge watching");
 
@@ -26456,9 +26447,6 @@ namespace OverflowHelper.core
             correctionAdd("forumn", "forum");
 
             correctionAdd("governkng", "governing");
-
-            correctionAdd("inline", "in-line");
-            correctionAdd("in line", "in-line");
 
             correctionAdd("mockout", "mock out");
 
@@ -27813,8 +27801,6 @@ namespace OverflowHelper.core
 
             correctionAdd("un-tick", "untick");
 
-            correctionAdd("NL", "newline");
-
             correctionAdd("adafruit", "Adafruit");
 
             correctionAdd("pyusb", "PyUSB");
@@ -29041,8 +29027,6 @@ namespace OverflowHelper.core
 
             correctionAdd("agn", "AGN");
 
-            correctionAdd("Karmin line", "Kármán line");
-
             correctionAdd("Newtons first law of motion", "Newton's first law of motion");
 
             correctionAdd("simjacking", "SIM swap scam");
@@ -29285,8 +29269,6 @@ namespace OverflowHelper.core
             correctionAdd("qudratic", "quadratic");
 
             correctionAdd("rerturns", "returns");
-
-            correctionAdd("tag line", "tagline");
 
             correctionAdd("bier", "beer");
 
@@ -30728,11 +30710,6 @@ namespace OverflowHelper.core
 
             correctionAdd("12 factor app", "Twelve-Factor Application methodology");
 
-            correctionAdd("border-line", "borderline");
-            correctionAdd("Border case", "borderline");
-            correctionAdd("border case", "borderline");
-            correctionAdd("border line", "borderline");
-
             correctionAdd("heatmap", "heat map");
 
             correctionAdd("Web site", "website");
@@ -31255,7 +31232,41 @@ namespace OverflowHelper.core
             correctionAdd("game play", "gameplay");
             correctionAdd("game-play", "gameplay");
 
+            correctionAdd("guide line", "guideline");
+            correctionAdd("guidline", "guideline");
+
+            correctionAdd("command-line", "command line");
+            correctionAdd("CML", "command line");
+            correctionAdd("commandline", "command line");
+            correctionAdd("commanline", "command line");
+            correctionAdd("comandline", "command line");
+            correctionAdd("Commandline", "command line");
+            correctionAdd("cmd line", "command line");
+            correctionAdd("CL", "command line");
+            correctionAdd("CommandLine", "command line");
+            correctionAdd("Command Line", "command line");
+
+            correctionAdd("time line", "timeline");
+
+            correctionAdd("Airline", "airline");
+
+            correctionAdd("inline", "in-line");
+            correctionAdd("in line", "in-line");
+
+            correctionAdd("NL", "newline");
+
+            correctionAdd("Karmin line", "Kármán line");
+
+            correctionAdd("tag line", "tagline");
+
+            correctionAdd("border-line", "borderline");
+            correctionAdd("Border case", "borderline");
+            correctionAdd("border case", "borderline");
+            correctionAdd("border line", "borderline");
+
             correctionAdd("Line", "line");
+            correctionAdd("lones", "line");
+            correctionAdd("lone", "line");
 
             correctionAdd("non legitimate", "nonlegitimate");
 
@@ -31523,6 +31534,8 @@ namespace OverflowHelper.core
             correctionAdd("re-routes", "reroutes");
 
             correctionAdd("suported", "supported");
+
+            correctionAdd("conseqeuent", "consequent");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49538,6 +49551,10 @@ namespace OverflowHelper.core
             URL_Add("reroutes", "https://en.wiktionary.org/wiki/reroute#Verb");
 
             URL_Add("supported", "https://en.wiktionary.org/wiki/supported#Adjective");
+
+            URL_Add("Kubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Kubuntu#History");
+
+            URL_Add("consequent", "https://en.wiktionary.org/wiki/consequent#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
