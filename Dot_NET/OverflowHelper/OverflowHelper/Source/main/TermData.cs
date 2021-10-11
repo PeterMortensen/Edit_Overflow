@@ -2580,6 +2580,7 @@ namespace OverflowHelper.core
             correctionAdd("reg exps", "regular expression");
             correctionAdd("regulare expression", "regular expression");
             correctionAdd("reg-ex", "regular expression");
+            correctionAdd("REGEXP", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -2949,6 +2950,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack-exchanged", "Stack&nbsp;Exchange");
             correctionAdd("Stack-exchange", "Stack&nbsp;Exchange");
             correctionAdd("Stack excange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack-Exchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -4017,6 +4019,9 @@ namespace OverflowHelper.core
             correctionAdd("environment variables", "environment variable");
             correctionAdd("env vars", "environment variable");
             correctionAdd("ENV VARIABLE", "environment variable");
+            correctionAdd("environments vars", "environment variable");
+            correctionAdd("environment vars", "environment variable");
+            correctionAdd("environments var", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -6784,6 +6789,7 @@ namespace OverflowHelper.core
             correctionAdd("CANBus", "CAN bus");
             correctionAdd("CANBUS", "CAN bus");
             correctionAdd("CAN-bus", "CAN bus");
+            correctionAdd("CNA", "CAN bus");
 
             correctionAdd("vba", "VBA");
             correctionAdd("Vba", "VBA");
@@ -9208,6 +9214,7 @@ namespace OverflowHelper.core
             correctionAdd("Blackhole", "black hole");
             correctionAdd("blackhole", "black hole");
             correctionAdd("Black Hole", "black hole");
+            correctionAdd("BH", "black hole");
 
             correctionAdd("schottky", "Schottky");
             correctionAdd("shottky", "Schottky");
@@ -10222,6 +10229,7 @@ namespace OverflowHelper.core
             correctionAdd("Net.Core", ".NET Core");
             correctionAdd(".NetCore", ".NET Core");
             correctionAdd("notnetcore", ".NET Core");
+            correctionAdd("core", ".NET Core");
 
             correctionAdd("asp core", "ASP.NET Core");
             correctionAdd("Asp.net core", "ASP.NET Core");
@@ -11999,6 +12007,8 @@ namespace OverflowHelper.core
             correctionAdd("porb", "probably");
             correctionAdd("proably", "probably");
             correctionAdd("proly", "probably");
+            correctionAdd("poribably", "probably");
+            correctionAdd("proibably", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -12709,6 +12719,8 @@ namespace OverflowHelper.core
 
             correctionAdd("obejct", "object");
             correctionAdd("objet", "object");
+            correctionAdd("oblect", "object");
+            correctionAdd("oblects", "object");
 
             correctionAdd("preceede", "precede");
 
@@ -13504,6 +13516,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stucked", "stuck");
             correctionAdd("Stucked", "stuck");
+            correctionAdd("sticked", "stuck");
 
             correctionAdd("swtich", "switch");
             correctionAdd("swith", "switch");
@@ -14958,6 +14971,9 @@ namespace OverflowHelper.core
             correctionAdd("GNU screen", "Screen");
             correctionAdd("GNU/screen", "Screen");
             correctionAdd("gnu-screen", "Screen");
+            correctionAdd("Gnu Screen", "Screen");
+            correctionAdd("gnu Screen", "Screen");
+            correctionAdd("GnuScreen", "Screen");
 
             correctionAdd("wtf", "WTF");
 
@@ -15060,6 +15076,7 @@ namespace OverflowHelper.core
 
             correctionAdd("exept", "except");
             correctionAdd("cept", "except");
+            correctionAdd("excpet", "except");
 
             correctionAdd("extrenal", "external");
 
@@ -18428,6 +18445,7 @@ namespace OverflowHelper.core
             correctionAdd("maniuplation", "manipulation");
 
             correctionAdd("german", "German");
+            correctionAdd("gearman", "German");
 
             correctionAdd("germany", "Germany");
 
@@ -19708,6 +19726,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Physics SE", "Physics (Stack Exchange site)");
             correctionAdd("physics SE", "Physics (Stack Exchange site)");
+            correctionAdd("Physics.SE", "Physics (Stack Exchange site)");
+            correctionAdd("Physics (SE)", "Physics (Stack Exchange site)");
 
             correctionAdd("alianate", "alienate");
 
@@ -24472,6 +24492,7 @@ namespace OverflowHelper.core
             correctionAdd("World Building", "Worldbuilding (Stack Exchange site)");
             correctionAdd("wordbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("WorldBuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("Worldbuilding.SE", "Worldbuilding (Stack Exchange site)");
 
             correctionAdd("afterwords", "afterwards");
 
@@ -24775,6 +24796,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Galleio", "Galileo Galilei");
             correctionAdd("galilio galilie", "Galileo Galilei");
+            correctionAdd("Gallio Galileo", "Galileo Galilei");
 
             correctionAdd("NGL", "I am not going to lie");
             correctionAdd("ngl", "I am not going to lie");
@@ -28280,6 +28302,8 @@ namespace OverflowHelper.core
             correctionAdd("mecrisp", "Mecrisp Stellaris");
             correctionAdd("MeCrisp Stellaris", "Mecrisp Stellaris");
             correctionAdd("mecrisp stellaris", "Mecrisp Stellaris");
+            correctionAdd("Mecrisp-Stellaris", "Mecrisp Stellaris");
+            correctionAdd("Mecrisp-stellaris", "Mecrisp Stellaris");
 
             correctionAdd("Retro Computing", "Retro Computing (Stack Exchange site)");
 
@@ -30065,6 +30089,7 @@ namespace OverflowHelper.core
             correctionAdd("Offroad", "off-road");
 
             correctionAdd("Prepared Statement", "prepared statement");
+            correctionAdd("prepare statement", "prepared statement");
 
             correctionAdd("Real Analysis", "real analysis");
 
@@ -31100,6 +31125,7 @@ namespace OverflowHelper.core
             correctionAdd("causual", "casual");
 
             correctionAdd("PARSE_STR", "parse_str");
+            correctionAdd("parse_str()", "parse_str");
 
             correctionAdd("PRINT_R", "print_r");
 
@@ -31455,6 +31481,48 @@ namespace OverflowHelper.core
             correctionAdd("restrctions", "restrictions");
 
             correctionAdd("scropt", "script");
+
+            correctionAdd("bitnami", "Bitnami");
+
+            correctionAdd("clion", "CLion");
+
+            correctionAdd("helm", "Helm");
+
+            correctionAdd("RPG.SE", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("RPG", "Role-playing Games (Stack Exchange site)");
+
+            correctionAdd("Sagittarius A", "Sagittarius A*");
+            correctionAdd("Sgr A", "Sagittarius A*");
+            correctionAdd("Sgr A*", "Sagittarius A*");
+
+            correctionAdd("Schwartzchild metric", "Schwarzschild metric");
+            correctionAdd("schwarzschild metric", "Schwarzschild metric");
+
+            correctionAdd("Schwartzchild", "Schwarzschild radius");
+            correctionAdd("Schwarzschild", "Schwarzschild radius");
+
+            correctionAdd("collapsars", "collapsar");
+
+            correctionAdd("damanged", "damaged");
+
+            correctionAdd("geda", "gEDA");
+
+            correctionAdd("GWs", "gravitational wave");
+            correctionAdd("Gravitational Wave", "gravitational wave");
+
+            correctionAdd("gSchem", "gschem");
+
+            correctionAdd("MYSQL_ESCAPE_STRING", "mysql_escape_string");
+
+            correctionAdd("fellow swoop", "one fell swoop");
+
+            correctionAdd("powerline", "power line");
+
+            correctionAdd("re-route", "reroute");
+
+            correctionAdd("re-routes", "reroutes");
+
+            correctionAdd("suported", "supported");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49434,6 +49502,42 @@ namespace OverflowHelper.core
             URL_Add("restrictions", "https://en.wiktionary.org/wiki/restriction#Noun");
 
             URL_Add("script", "https://en.wiktionary.org/wiki/script#Noun");
+
+            URL_Add("Bitnami", "https://en.wikipedia.org/wiki/Bitnami#Technology_overview");
+
+            URL_Add("CLion", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
+
+            URL_Add("Helm", "https://en.wikipedia.org/wiki/Kubernetes#History");
+
+            URL_Add("Role-playing Games (Stack Exchange site)", "https://rpg.stackexchange.com/tour");
+
+            URL_Add("Sagittarius A*", "https://en.wikipedia.org/wiki/Sagittarius_A*");
+
+            URL_Add("Schwarzschild metric", "https://en.wikipedia.org/wiki/Schwarzschild_metric");
+
+            URL_Add("Schwarzschild radius", "https://en.wikipedia.org/wiki/Schwarzschild_radius");
+
+            URL_Add("collapsar", "https://en.wikipedia.org/wiki/Collapsar");
+
+            URL_Add("damaged", "https://en.wiktionary.org/wiki/damage#Verb");
+
+            URL_Add("gEDA", "https://en.wikipedia.org/wiki/GEDA");
+
+            URL_Add("gravitational wave", "https://en.wikipedia.org/wiki/Gravitational_wave");
+
+            URL_Add("gschem", "https://en.wikipedia.org/wiki/GEDA");
+
+            URL_Add("mysql_escape_string", "https://www.php.net/manual/en/function.mysql-escape-string.php");
+
+            URL_Add("one fell swoop", "https://en.wiktionary.org/wiki/one_fell_swoop#Noun");
+
+            URL_Add("power line", "https://en.wikipedia.org/wiki/Overhead_power_line");
+
+            URL_Add("reroute", "https://en.wiktionary.org/wiki/reroute#Verb");
+
+            URL_Add("reroutes", "https://en.wiktionary.org/wiki/reroute#Verb");
+
+            URL_Add("supported", "https://en.wiktionary.org/wiki/supported#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
