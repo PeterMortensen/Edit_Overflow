@@ -1639,6 +1639,7 @@ namespace OverflowHelper.core
             correctionAdd("seg-fault", "segmentation fault");
             correctionAdd("Segmentation Fault", "segmentation fault");
             correctionAdd("segmantation error", "segmentation fault");
+            correctionAdd("SIGSEGV", "segmentation fault");
 
             correctionAdd("json", "JSON");
             correctionAdd("Json", "JSON");
@@ -6461,6 +6462,8 @@ namespace OverflowHelper.core
             correctionAdd("Singleton Pattern", "singleton");
             correctionAdd("Singleton patern", "singleton");
             correctionAdd("singlton", "singleton");
+            correctionAdd("Singelton", "singleton");
+            correctionAdd("singelton", "singleton");
 
             correctionAdd("sdhc", "SDHC");
 
@@ -16046,6 +16049,7 @@ namespace OverflowHelper.core
             correctionAdd("follow up", "follow-up");
             correctionAdd("Followup", "follow-up");
             correctionAdd("followup", "follow-up");
+            correctionAdd("foĺlow-up", "follow-up");
 
             correctionAdd("foramt", "format");
             correctionAdd("formate", "format");
@@ -24028,6 +24032,7 @@ namespace OverflowHelper.core
             correctionAdd("wsl", "Windows Subsystem for Linux");
             correctionAdd("WSL", "Windows Subsystem for Linux");
             correctionAdd("Windows subsystem for Linux", "Windows Subsystem for Linux");
+            correctionAdd("Linux Sub-System for Windows", "Windows Subsystem for Linux");
 
             correctionAdd("Emphasize", "emphasis");
 
@@ -28800,6 +28805,7 @@ namespace OverflowHelper.core
 
             correctionAdd("case-sensitive", "case sensitive");
             correctionAdd("casesensitive", "case sensitive");
+            correctionAdd("case senstive", "case sensitive");
 
             correctionAdd("circuitdiagram", "circuit diagram");
 
@@ -31645,6 +31651,26 @@ namespace OverflowHelper.core
 
             correctionAdd("periph", "peripheral");
             correctionAdd("Periph", "peripheral");
+
+            correctionAdd("allah", "Allah");
+
+            correctionAdd("sqlite_orm", "SQLite ORM");
+
+            correctionAdd("wangle", "Wangle");
+
+            correctionAdd("attachement", "attachment");
+
+            correctionAdd("buid", "build");
+
+            correctionAdd("expensiv", "expensive");
+
+            correctionAdd("ITNOA", "in the name of Allah");
+            correctionAdd("In The Name Of Allah", "in the name of Allah");
+
+            correctionAdd("in Jesus' name", "in the name of Jesus");
+            correctionAdd("ITNOJ", "in the name of Jesus");
+
+            correctionAdd("whistle blowing", "whistleblowing");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49726,6 +49752,24 @@ namespace OverflowHelper.core
             URL_Add("objective", "https://en.wiktionary.org/wiki/objective#Noun");
 
             URL_Add("peripheral", "https://en.wiktionary.org/wiki/peripheral#Noun");
+
+            URL_Add("Allah", "https://en.wiktionary.org/wiki/Allah#Proper_noun");
+
+            URL_Add("SQLite ORM", "https://github.com/fnc12/sqlite_orm");
+
+            URL_Add("Wangle", "https://github.com/facebook/wangle");
+
+            URL_Add("attachment", "https://en.wiktionary.org/wiki/attachment#Noun");
+
+            URL_Add("build", "https://en.wiktionary.org/wiki/build#Verb");
+
+            URL_Add("expensive", "https://en.wiktionary.org/wiki/expensive#Adjective");
+
+            URL_Add("in the name of Allah", "https://glosbe.com/en/ar/in%20the%20name%20of%20allah");
+
+            URL_Add("in the name of Jesus", "https://www.allaboutprayer.org/in-the-name-of-jesus-faq.htm");
+
+            URL_Add("whistleblowing", "https://en.wiktionary.org/wiki/whistleblowing#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
