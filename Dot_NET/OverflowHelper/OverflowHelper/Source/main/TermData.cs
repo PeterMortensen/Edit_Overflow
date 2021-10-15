@@ -5422,6 +5422,7 @@ namespace OverflowHelper.core
             correctionAdd("pacman", "Pacman");
             correctionAdd("packman", "Pacman");
             correctionAdd("pakman", "Pacman");
+            correctionAdd("pac-man", "Pacman");
 
             correctionAdd("grepp", "grep");
 
@@ -10580,6 +10581,7 @@ namespace OverflowHelper.core
             correctionAdd("Ur", "you're");
             correctionAdd("your'e", "you're");
             correctionAdd("you´re", "you're");
+            correctionAdd("you re", "you're");
 
             correctionAdd("umbraco", "Umbraco");
 
@@ -11218,6 +11220,7 @@ namespace OverflowHelper.core
             correctionAdd("ansew", "answer");
             correctionAdd("answerd", "answer");
             correctionAdd("aswer", "answer");
+            correctionAdd("asnwer", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -12996,6 +12999,7 @@ namespace OverflowHelper.core
             correctionAdd("Digital Ocean", "DigitalOcean");
 
             correctionAdd("fifo", "FIFO");
+            correctionAdd("Fifo", "FIFO");
 
             correctionAdd("google scholar", "Google Scholar");
 
@@ -14470,6 +14474,7 @@ namespace OverflowHelper.core
             correctionAdd("CentoS", "CentOS");
 
             correctionAdd("freertos", "FreeRTOS");
+            correctionAdd("freeRTOS", "FreeRTOS");
 
             correctionAdd("rtos", "RTOS");
 
@@ -16535,6 +16540,7 @@ namespace OverflowHelper.core
             correctionAdd("regonize", "recognise");
 
             correctionAdd("repeatation", "repetition");
+            correctionAdd("repetiton", "repetition");
 
             correctionAdd("Yellow", "yellow");
             correctionAdd("Yelllow", "yellow");
@@ -23465,8 +23471,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Nobjective", "NObjective");
 
-            correctionAdd("narwhal", "Narwhal");
-
             correctionAdd("ObjectiveJ", "Objective-J");
             correctionAdd("Objective J", "Objective-J");
             correctionAdd("ObjJ", "Objective-J");
@@ -24253,6 +24257,7 @@ namespace OverflowHelper.core
             correctionAdd("TAOP", "The Art of Computer Programming");
 
             correctionAdd("interection", "interaction");
+            correctionAdd("iteraction", "interaction");
 
             correctionAdd("Liqyefying", "liquefying");
 
@@ -27633,6 +27638,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tx", "transmit");
             correctionAdd("trasmit", "transmit");
+            correctionAdd("TX", "transmit");
 
             correctionAdd("sensorship", "censorship");
 
@@ -30735,6 +30741,7 @@ namespace OverflowHelper.core
             correctionAdd("12 factor app", "Twelve-Factor Application methodology");
 
             correctionAdd("heatmap", "heat map");
+            correctionAdd("heats map", "heat map");
 
             correctionAdd("Web site", "website");
             correctionAdd("wesite", "website");
@@ -31199,6 +31206,7 @@ namespace OverflowHelper.core
             correctionAdd("odt", "OpenDocument");
 
             correctionAdd("fetchall", "PDOStatement::fetchAll");
+            correctionAdd("fetchAll", "PDOStatement::fetchAll");
 
             correctionAdd("coments", "comments");
 
@@ -31608,6 +31616,35 @@ namespace OverflowHelper.core
             correctionAdd("sort (unix)", "sort (Unix)");
 
             correctionAdd("Tablet", "tablet");
+
+            correctionAdd("ferrari", "Ferrari");
+            correctionAdd("ferrary", "Ferrari");
+            correctionAdd("Ferrary", "Ferrari");
+
+            correctionAdd("narwhal", "Narwhal");
+
+            correctionAdd("hardware abstraction layer", "HAL");
+            correctionAdd("hal", "HAL");
+            correctionAdd("Hardware Abstraction Layer", "HAL");
+
+            correctionAdd("fetch", "PDOStatement::fetch");
+
+            correctionAdd("STM32Cube", "STM32CubeMX");
+            correctionAdd("cube", "STM32CubeMX");
+
+            correctionAdd("FREE", "free");
+
+            correctionAdd("mainteiner", "maintainer");
+            correctionAdd("maintener", "maintainer");
+
+            correctionAdd("non-blocking", "nonblocking");
+            correctionAdd("non blocking", "nonblocking");
+
+            correctionAdd("objetive", "objective");
+            correctionAdd("Objetive", "objective");
+
+            correctionAdd("periph", "peripheral");
+            correctionAdd("Periph", "peripheral");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49671,6 +49708,24 @@ namespace OverflowHelper.core
             URL_Add("sort (Unix)", "https://en.wikipedia.org/wiki/Sort_(Unix)");
 
             URL_Add("tablet", "https://en.wikipedia.org/wiki/Tablet_computer");
+
+            URL_Add("Ferrari", "https://en.wikipedia.org/wiki/Ferrari#Road_cars");
+
+            URL_Add("HAL", "https://en.wikipedia.org/wiki/HAL_%28software%29");
+
+            URL_Add("PDOStatement::fetch", "https://www.php.net/manual/en/pdostatement.fetch.php");
+
+            URL_Add("STM32CubeMX", "https://en.wikipedia.org/wiki/STM32#Cortex-M");
+
+            URL_Add("free", "https://linux.die.net/man/1/free");
+
+            URL_Add("maintainer", "https://en.wiktionary.org/wiki/maintainer#Noun");
+
+            URL_Add("nonblocking", "https://en.wiktionary.org/wiki/nonblocking");
+
+            URL_Add("objective", "https://en.wiktionary.org/wiki/objective#Noun");
+
+            URL_Add("peripheral", "https://en.wiktionary.org/wiki/peripheral#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
