@@ -4717,6 +4717,8 @@ namespace OverflowHelper.core
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
             correctionAdd("Mathetmica", "Mathematica");
+            correctionAdd("Wolfarm Mathematica", "Mathematica");
+            correctionAdd("Wolfram Mathematica", "Mathematica");
 
             correctionAdd("Dry", "DRY");
             correctionAdd("dry", "DRY"); // Context dependent!
@@ -12610,6 +12612,7 @@ namespace OverflowHelper.core
             correctionAdd("mysql workbench", "MySQL Workbench");
             correctionAdd("mysql-workbenck", "MySQL Workbench");
             correctionAdd("sql workbench", "MySQL Workbench");
+            correctionAdd("workbench", "MySQL Workbench");
 
             correctionAdd("Blockchain", "blockchain");
             correctionAdd("Block chain", "blockchain");
@@ -16753,6 +16756,7 @@ namespace OverflowHelper.core
             correctionAdd("Command Line Interface", "command-line interface");
             correctionAdd("command line interface", "command-line interface");
             correctionAdd("CLI", "command-line interface");
+            correctionAdd("Command line interface", "command-line interface");
 
             correctionAdd("yeoman", "Yeoman");
 
@@ -17051,6 +17055,7 @@ namespace OverflowHelper.core
 
             correctionAdd("irssi", "Irssi");
             correctionAdd("IRSSI", "Irssi");
+            correctionAdd("Irrsi", "Irssi");
 
             correctionAdd("latino", "Latino");
 
@@ -21671,6 +21676,7 @@ namespace OverflowHelper.core
             correctionAdd("undertsand", "understand");
             correctionAdd("undestand", "understand");
             correctionAdd("understrand", "understand");
+            correctionAdd("understnad", "understand");
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
@@ -27479,6 +27485,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sigrok", "Sigrok");
             correctionAdd("sigrock", "Sigrok");
+            correctionAdd("Sigrog", "Sigrok");
 
             correctionAdd("idoim", "idiom");
             correctionAdd("idion", "idiom");
@@ -30019,6 +30026,7 @@ namespace OverflowHelper.core
             correctionAdd("nuclide", "Nuclide");
 
             correctionAdd("cd prompt", "command prompt");
+            correctionAdd("cmd prompt", "command prompt");
 
             correctionAdd("deterence", "deterrence");
 
@@ -31671,6 +31679,13 @@ namespace OverflowHelper.core
             correctionAdd("ITNOJ", "in the name of Jesus");
 
             correctionAdd("whistle blowing", "whistleblowing");
+
+            correctionAdd("Stack Overflow teams", "Stack Overflow Teams");
+
+            correctionAdd("Wolfarm", "Wolfram Research");
+            correctionAdd("Wolfram", "Wolfram Research");
+
+            correctionAdd("postet", "posted");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49770,6 +49785,12 @@ namespace OverflowHelper.core
             URL_Add("in the name of Jesus", "https://www.allaboutprayer.org/in-the-name-of-jesus-faq.htm");
 
             URL_Add("whistleblowing", "https://en.wiktionary.org/wiki/whistleblowing#Noun");
+
+            URL_Add("Stack Overflow Teams", "https://meta.stackoverflow.com/questions/tagged/stack-overflow-for-teams");
+
+            URL_Add("Wolfram Research", "https://en.wikipedia.org/wiki/Wolfram_Research");
+
+            URL_Add("posted", "https://en.wiktionary.org/wiki/post#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
