@@ -1272,6 +1272,8 @@ namespace OverflowHelper.core
             correctionAdd("MacOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("MacOs High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("Mac OS X High Sierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("Mac OS X 10.13", "macOS v10.13 (High Sierra)");
+            correctionAdd("OS X 10.13", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -2029,6 +2031,7 @@ namespace OverflowHelper.core
             correctionAdd("Worpress", "WordPress");
 
             correctionAdd("ssl", "SSL");
+            correctionAdd("SLL", "SSL");
 
             correctionAdd("arduino", "Arduino");
             correctionAdd("arduion", "Arduino");
@@ -6795,6 +6798,7 @@ namespace OverflowHelper.core
             correctionAdd("CAN-bus", "CAN bus");
             correctionAdd("CNA", "CAN bus");
             correctionAdd("CAN-BUS", "CAN bus");
+            correctionAdd("canbus", "CAN bus");
 
             correctionAdd("vba", "VBA");
             correctionAdd("Vba", "VBA");
@@ -7679,6 +7683,10 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
             correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
             correctionAdd("Ubuntu Unity 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
 
             correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
             correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
@@ -14398,6 +14406,7 @@ namespace OverflowHelper.core
             correctionAdd("proble", "problem");
             correctionAdd("probelem", "problem");
             correctionAdd("Problem", "problem");
+            correctionAdd("probleme", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -17123,6 +17132,7 @@ namespace OverflowHelper.core
             correctionAdd("It`s", "it’s");
             correctionAdd("It's", "it’s");
             correctionAdd("it s", "it’s");
+            correctionAdd("its'", "it’s");
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -17896,6 +17906,7 @@ namespace OverflowHelper.core
 
             correctionAdd("third world", "Third World");
             correctionAdd("3rd World", "Third World");
+            correctionAdd("3rd world", "Third World");
 
             correctionAdd("the Canyon", "Grand Canyon");
 
@@ -20868,6 +20879,7 @@ namespace OverflowHelper.core
             correctionAdd("let's encrypt", "Let's Encrypt");
             correctionAdd("lets encrypt", "Let's Encrypt");
             correctionAdd("letsencrypt", "Let's Encrypt");
+            correctionAdd("Let's encrypt", "Let's Encrypt");
 
             correctionAdd("m3u8", "M3U8");
 
@@ -25118,6 +25130,7 @@ namespace OverflowHelper.core
 
             correctionAdd("juse", "just");
             correctionAdd("Juse", "just");
+            correctionAdd("juste", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -31686,6 +31699,39 @@ namespace OverflowHelper.core
             correctionAdd("Wolfram", "Wolfram Research");
 
             correctionAdd("postet", "posted");
+
+            correctionAdd("certbot", "Certbot");
+
+            correctionAdd("certify the web", "Certify The Web");
+
+            correctionAdd("eFence", "Electric Fence");
+            correctionAdd("efence", "Electric Fence");
+
+            correctionAdd("Electrical Engineering SE", "Electrical Engineering (Stack Exchange site)");
+            correctionAdd("EE.SE", "Electrical Engineering (Stack Exchange site)");
+            correctionAdd("EE SE", "Electrical Engineering (Stack Exchange site)");
+
+            correctionAdd("game maker studio", "GameMaker Studio");
+            correctionAdd("GameMaker", "GameMaker Studio");
+            correctionAdd("Game Maker Studio", "GameMaker Studio");
+
+            correctionAdd("libgnutls", "GnuTLS");
+
+            correctionAdd("Norton Antivirus", "Norton AntiVirus");
+            correctionAdd("Norton", "Norton AntiVirus");
+
+            correctionAdd("sophos", "Sophos");
+
+            correctionAdd("cxml", "cXML");
+
+            correctionAdd("Complain", "complain");
+
+            correctionAdd("Kernel Density Estimation", "kernel density estimation");
+            correctionAdd("Kernel Density Estimates", "kernel density estimation");
+
+            correctionAdd("Mixture Model", "mixture model");
+
+            correctionAdd("naivete", "naïveté");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49791,6 +49837,32 @@ namespace OverflowHelper.core
             URL_Add("Wolfram Research", "https://en.wikipedia.org/wiki/Wolfram_Research");
 
             URL_Add("posted", "https://en.wiktionary.org/wiki/post#Verb");
+
+            URL_Add("Certbot", "https://en.wikipedia.org/wiki/Let%27s_Encrypt#Software_implementation");
+
+            URL_Add("Certify The Web", "https://certifytheweb.com/");
+
+            URL_Add("Electric Fence", "https://en.wikipedia.org/wiki/Electric_Fence");
+
+            URL_Add("Electrical Engineering (Stack Exchange site)", "https://electronics.stackexchange.com/tour");
+
+            URL_Add("GameMaker Studio", "https://en.wikipedia.org/wiki/GameMaker");
+
+            URL_Add("GnuTLS", "https://en.wikipedia.org/wiki/GnuTLS");
+
+            URL_Add("Norton AntiVirus", "https://en.wikipedia.org/wiki/Norton_AntiVirus");
+
+            URL_Add("Sophos", "https://en.wikipedia.org/wiki/Sophos#History");
+
+            URL_Add("cXML", "https://en.wikipedia.org/wiki/CXML");
+
+            URL_Add("complain", "https://en.wiktionary.org/wiki/complain#Verb");
+
+            URL_Add("kernel density estimation", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
+
+            URL_Add("mixture model", "https://en.wikipedia.org/wiki/Mixture_model");
+
+            URL_Add("naïveté", "https://en.wiktionary.org/wiki/na%C3%AFvet%C3%A9#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
