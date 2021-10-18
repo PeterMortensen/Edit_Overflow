@@ -494,6 +494,7 @@ namespace OverflowHelper.core
             correctionAdd("PHPadmin", "phpMyAdmin");
             correctionAdd("PHPmyadmin", "phpMyAdmin");
             correctionAdd("myPHPadmin", "phpMyAdmin");
+            correctionAdd("myphpadmin", "phpMyAdmin");
 
             correctionAdd("cakePhp", "CakePHP");
             correctionAdd("cakePHP", "CakePHP");
@@ -9210,6 +9211,10 @@ namespace OverflowHelper.core
             correctionAdd("core i7", "Core&nbsp;i7");
             correctionAdd("core-i7", "Core&nbsp;i7");
 
+            correctionAdd("i9", "Core&nbsp;i9");
+            correctionAdd("Core i9", "Core&nbsp;i9");
+            correctionAdd("Intel Core i9", "Core&nbsp;i9");
+
             correctionAdd("orca", "Orca");
             correctionAdd("ORCA", "Orca");
 
@@ -10692,6 +10697,7 @@ namespace OverflowHelper.core
 
             correctionAdd("who's", "whose");
             correctionAdd("who’s", "whose");
+            correctionAdd("whos", "whose");
 
             correctionAdd("accidently", "accidentally");
             correctionAdd("accidentaly", "accidentally");
@@ -11260,6 +11266,7 @@ namespace OverflowHelper.core
             correctionAdd("cont", "continuous");
             correctionAdd("continous", "continuous");
             correctionAdd("continious", "continuous");
+            correctionAdd("Continous", "continuous");
 
             correctionAdd("Continuous Deployment", "continuous deployment");
 
@@ -12065,6 +12072,7 @@ namespace OverflowHelper.core
             correctionAdd("browswer", "browser");
             correctionAdd("brower", "browser");
             correctionAdd("browset", "browser");
+            correctionAdd("Browswer", "browser");
 
             correctionAdd("Printf", "printf");
 
@@ -12753,6 +12761,9 @@ namespace OverflowHelper.core
 
             correctionAdd("de-reference", "dereference");
             correctionAdd("derefence", "dereference");
+            correctionAdd("deferenece", "dereference");
+            correctionAdd("deference", "dereference");
+            correctionAdd("derefenece", "dereference");
 
             correctionAdd("cross reference", "cross-reference");
 
@@ -12781,6 +12792,7 @@ namespace OverflowHelper.core
             correctionAdd("Two dimensional", "two-dimensional");
             correctionAdd("2 dimensional", "two-dimensional");
             correctionAdd("2 dim", "two-dimensional");
+            correctionAdd("2-D", "two-dimensional");
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
@@ -13129,6 +13141,8 @@ namespace OverflowHelper.core
             correctionAdd("argentina", "Argentina");
 
             correctionAdd("ARTEMIS", "Artemis");
+            correctionAdd("artimis", "Artemis");
+            correctionAdd("artemis", "Artemis");
 
             correctionAdd("Buzzfeed", "BuzzFeed");
 
@@ -13987,6 +14001,7 @@ namespace OverflowHelper.core
             correctionAdd("Idea intellij", "IntelliJ IDEA");
             correctionAdd("idea intellij", "IntelliJ IDEA");
             correctionAdd("intelliJ", "IntelliJ IDEA");
+            correctionAdd("intelli j", "IntelliJ IDEA");
 
             correctionAdd("idear", "idea");
             correctionAdd("ideia", "idea");
@@ -15318,6 +15333,7 @@ namespace OverflowHelper.core
             correctionAdd("URL Rewriting", "URL rewriting");
             correctionAdd("URI Rewriting", "URL rewriting");
             correctionAdd("URI rewriting", "URL rewriting");
+            correctionAdd("url-rewriting", "URL rewriting");
 
             correctionAdd("Babylon 5", "Babylon&nbsp;5"); // Sort of identity mapping
             correctionAdd("B5", "Babylon&nbsp;5");
@@ -17208,6 +17224,7 @@ namespace OverflowHelper.core
             correctionAdd("tying", "trying");
             correctionAdd("triing", "trying");
             correctionAdd("traying", "trying");
+            correctionAdd("Tying", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -19539,6 +19556,9 @@ namespace OverflowHelper.core
             correctionAdd("hiaerchies", "hierarchies");
 
             correctionAdd("suspicien", "suspicion");
+            correctionAdd("suspion", "suspicion");
+            correctionAdd("suspecion", "suspicion");
+            correctionAdd("suspesion", "suspicion");
 
             correctionAdd("Löve", "LÖVE");
             correctionAdd("LOVE2D", "LÖVE");
@@ -20521,6 +20541,7 @@ namespace OverflowHelper.core
             correctionAdd("coompile", "compile");
 
             correctionAdd("detialed", "detailed");
+            correctionAdd("detailled", "detailed");
 
             correctionAdd("hrad", "hard");
 
@@ -20584,6 +20605,7 @@ namespace OverflowHelper.core
             correctionAdd("Re-orient", "reorient");
 
             correctionAdd("reproduceable", "reproducible");
+            correctionAdd("reporducible", "reproducible");
 
             correctionAdd("roate", "rotate");
 
@@ -27673,6 +27695,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rovide", "provide");
             correctionAdd("proide", "provide");
+            correctionAdd("provie", "provide");
 
             correctionAdd("re-apply", "reapply");
 
@@ -31732,6 +31755,26 @@ namespace OverflowHelper.core
             correctionAdd("Mixture Model", "mixture model");
 
             correctionAdd("naivete", "naïveté");
+
+            correctionAdd("dungeon master", "Dungeon Master");
+
+            correctionAdd("D&D", "Dungeons & Dragons");
+
+            correctionAdd("iperf", "Iperf");
+
+            correctionAdd("advantange", "advantage");
+
+            correctionAdd("catalogoues", "catalogues");
+
+            correctionAdd("co-creator", "cocreator");
+
+            correctionAdd("home-made", "homemade");
+
+            correctionAdd("Lunar", "lunar");
+
+            correctionAdd("reentry", "re-entry");
+
+            correctionAdd("whent", "went");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49863,6 +49906,28 @@ namespace OverflowHelper.core
             URL_Add("mixture model", "https://en.wikipedia.org/wiki/Mixture_model");
 
             URL_Add("naïveté", "https://en.wiktionary.org/wiki/na%C3%AFvet%C3%A9#Noun");
+
+            URL_Add("Core&nbsp;i9", "https://en.wikipedia.org/wiki/Intel_Core#9th_generation");
+
+            URL_Add("Dungeon Master", "https://en.wikipedia.org/wiki/Dungeon_Master");
+
+            URL_Add("Dungeons & Dragons", "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons");
+
+            URL_Add("Iperf", "https://en.wikipedia.org/wiki/Iperf");
+
+            URL_Add("advantage", "https://en.wiktionary.org/wiki/advantage#Noun");
+
+            URL_Add("catalogues", "https://en.wiktionary.org/wiki/catalogue#Noun");
+
+            URL_Add("cocreator", "https://en.wiktionary.org/wiki/cocreator#Noun");
+
+            URL_Add("homemade", "https://en.wiktionary.org/wiki/homemade#Adjective");
+
+            URL_Add("lunar", "https://en.wiktionary.org/wiki/lunar#Adjective");
+
+            URL_Add("re-entry", "https://en.wiktionary.org/wiki/re-entry#Noun");
+
+            URL_Add("went", "https://en.wiktionary.org/wiki/went#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
