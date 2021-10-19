@@ -1830,6 +1830,7 @@ namespace OverflowHelper.core
             correctionAdd("7 zip", "7-Zip");
             correctionAdd("7 Zip", "7-Zip");
             correctionAdd("7-ZIP", "7-Zip");
+            correctionAdd("7Z", "7-Zip");
 
             // Not really for a Wikipedia link, but more to get the expansion.
             correctionAdd("syncornize", "synchronise");
@@ -3102,6 +3103,7 @@ namespace OverflowHelper.core
             correctionAdd("hard-drive", "hard disk drive");
             correctionAdd("Hard Disk Drive", "hard disk drive");
             correctionAdd("hard-disk", "hard disk drive");
+            correctionAdd("Harddisk", "hard disk drive");
 
             correctionAdd("ssd", "SSD");
             correctionAdd("Solid State Disk", "SSD");
@@ -3969,6 +3971,7 @@ namespace OverflowHelper.core
 
             correctionAdd("abble", "able");
             correctionAdd("ale", "able");
+            correctionAdd("ablr", "able");
 
             // Of PowerShell...
             correctionAdd("new-variable", "New-Variable");
@@ -4561,6 +4564,7 @@ namespace OverflowHelper.core
             correctionAdd("You'r", "your");
             correctionAdd("Your", "your");
             correctionAdd("yourt", "your");
+            correctionAdd("youe", "your");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -6689,6 +6693,8 @@ namespace OverflowHelper.core
             correctionAdd("previllege", "privilege");
             correctionAdd("Priviledge", "privilege");
             correctionAdd("priviledges", "privilege");
+            correctionAdd("previledges", "privilege");
+            correctionAdd("preiveledge", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -7357,6 +7363,7 @@ namespace OverflowHelper.core
             correctionAdd("arp", "ARP");
 
             correctionAdd("uefi", "UEFI");
+            correctionAdd("UFEI", "UEFI");
 
             correctionAdd("raii", "RAII");
             correctionAdd("RAAI", "RAII"); // Misspelling...
@@ -7724,6 +7731,7 @@ namespace OverflowHelper.core
             correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
             correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -10290,6 +10298,7 @@ namespace OverflowHelper.core
             correctionAdd("asp .net core", "ASP.NET Core");
             correctionAdd(".net core MVC", "ASP.NET Core");
             correctionAdd(".Net Core MVC", "ASP.NET Core");
+            correctionAdd("ASP.Net CORE", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -11757,6 +11766,7 @@ namespace OverflowHelper.core
             correctionAdd("convertto-csv", "ConvertTo-Csv");
 
             correctionAdd("doppler", "Doppler");
+            correctionAdd("doppler shift", "Doppler");
 
             correctionAdd("mathworks", "MathWorks");
             correctionAdd("Mathworks", "MathWorks");
@@ -11880,6 +11890,7 @@ namespace OverflowHelper.core
             correctionAdd("negotation", "negotiation");
 
             correctionAdd("oportunity", "opportunity");
+            correctionAdd("oppertunity", "opportunity");
 
             correctionAdd("parlement", "parliament");
             correctionAdd("Parlement", "parliament"); // Not 100% correct - case.
@@ -12260,6 +12271,8 @@ namespace OverflowHelper.core
             correctionAdd("aready", "already");
             correctionAdd("alread", "already");
             correctionAdd("laready", "already");
+            correctionAdd("alradzy", "already");
+            correctionAdd("alrady", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -13023,6 +13036,7 @@ namespace OverflowHelper.core
             correctionAdd("godbolt", "Compiler Explorer");
 
             correctionAdd("Digital Ocean", "DigitalOcean");
+            correctionAdd("digital ocean", "DigitalOcean");
 
             correctionAdd("fifo", "FIFO");
             correctionAdd("Fifo", "FIFO");
@@ -14138,6 +14152,7 @@ namespace OverflowHelper.core
             correctionAdd("instaling", "installing");
 
             correctionAdd("liek", "like");
+            correctionAdd("lke", "like");
 
             correctionAdd("Mathematician", "mathematician");
             correctionAdd("mathematicien", "mathematician");
@@ -18088,6 +18103,7 @@ namespace OverflowHelper.core
             correctionAdd("Al", "aluminium");
             correctionAdd("Aliminium", "aluminium");
             correctionAdd("aliminium", "aluminium");
+            correctionAdd("Aluminium", "aluminium");
 
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
             correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
@@ -19764,6 +19780,7 @@ namespace OverflowHelper.core
             correctionAdd("Math", "Mathematics (Stack Exchange site)");
             correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Mathematics", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math Stack Exchange", "Mathematics (Stack Exchange site)");
 
             correctionAdd("Physics SE", "Physics (Stack Exchange site)");
             correctionAdd("physics SE", "Physics (Stack Exchange site)");
@@ -25985,6 +26002,7 @@ namespace OverflowHelper.core
 
             correctionAdd("TeX - LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("Tex Stack Exchange", "TeX - LaTeX (Stack Exchange site)");
 
             correctionAdd("USDC", "USD Coin");
             correctionAdd("usdc", "USD Coin");
@@ -29304,6 +29322,7 @@ namespace OverflowHelper.core
             correctionAdd("auto-didactically", "autodidactically");
 
             correctionAdd("bairly", "barely");
+            correctionAdd("barley", "barely");
 
             correctionAdd("blackbox", "black box");
 
@@ -31775,6 +31794,26 @@ namespace OverflowHelper.core
             correctionAdd("reentry", "re-entry");
 
             correctionAdd("whent", "went");
+
+            correctionAdd("De Lorean", "DeLorean");
+
+            correctionAdd("File Allocation Table", "FAT");
+
+            correctionAdd("FreeDos", "FreeDOS");
+
+            correctionAdd("Michelson-Morley experiment", "Michelson–Morley experiment");
+
+            correctionAdd("Virtual Disk Image", "VDI");
+
+            correctionAdd("Windows 98", "Windows&nbsp;98");
+            correctionAdd("windows 98", "Windows&nbsp;98");
+
+            correctionAdd("b rowse", "browse");
+
+            correctionAdd("electric car", "electric vehicle");
+            correctionAdd("EV", "electric vehicle");
+
+            correctionAdd("whacko", "wacko");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49928,6 +49967,24 @@ namespace OverflowHelper.core
             URL_Add("re-entry", "https://en.wiktionary.org/wiki/re-entry#Noun");
 
             URL_Add("went", "https://en.wiktionary.org/wiki/went#Verb");
+
+            URL_Add("DeLorean", "https://en.wikipedia.org/wiki/DeLorean_time_machine");
+
+            URL_Add("FAT", "https://en.wikipedia.org/wiki/File_Allocation_Table");
+
+            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
+
+            URL_Add("Michelson–Morley experiment", "https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment");
+
+            URL_Add("VDI", "https://en.wikipedia.org/wiki/VirtualBox#Device_virtualization");
+
+            URL_Add("Windows&nbsp;98", "https://en.wikipedia.org/wiki/Windows_98");
+
+            URL_Add("browse", "https://en.wiktionary.org/wiki/browse#Verb");
+
+            URL_Add("electric vehicle", "https://en.wikipedia.org/wiki/Electric_car#Terminology");
+
+            URL_Add("wacko", "https://en.wiktionary.org/wiki/wacko#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
