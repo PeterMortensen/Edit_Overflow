@@ -1305,6 +1305,8 @@ namespace OverflowHelper.core
             correctionAdd("MAC Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("Mac Catalina", "macOS v10.15 (Catalina)");
             correctionAdd("Mac (Catalina)", "macOS v10.15 (Catalina)");
+            correctionAdd("mac 10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("Mac 10.15", "macOS v10.15 (Catalina)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -4491,6 +4493,9 @@ namespace OverflowHelper.core
             correctionAdd("pw", "password");
             correctionAdd("passwod", "password");
             correctionAdd("passwd", "password");
+            correctionAdd("pass", "password");
+            correctionAdd("passw", "password");
+            correctionAdd("pass word", "password");
 
             correctionAdd("phonegap", "PhoneGap");
             correctionAdd("Phonegap", "PhoneGap");
@@ -9776,6 +9781,7 @@ namespace OverflowHelper.core
             correctionAdd("quastion", "question");
             correctionAdd("questionj", "question");
             correctionAdd("querstion", "question");
+            correctionAdd("questin", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -27266,6 +27272,7 @@ namespace OverflowHelper.core
             correctionAdd("Civil Engineer", "civil engineer");
 
             correctionAdd("qute browser", "qutebrowser");
+            correctionAdd("Qutebrowser", "qutebrowser");
 
             correctionAdd("twi", "TWI");
 
@@ -27307,6 +27314,7 @@ namespace OverflowHelper.core
             correctionAdd("hvae", "have");
             correctionAdd("hhave", "have");
             correctionAdd("hv", "have");
+            correctionAdd("haave", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -28482,6 +28490,7 @@ namespace OverflowHelper.core
             correctionAdd("Bitchute", "BitChute");
 
             correctionAdd("grammarly", "Grammarly");
+            correctionAdd("Grammary", "Grammarly");
 
             correctionAdd("juristiction", "jurisdiction");
 
@@ -31814,6 +31823,25 @@ namespace OverflowHelper.core
             correctionAdd("EV", "electric vehicle");
 
             correctionAdd("whacko", "wacko");
+
+            correctionAdd("ArtiX", "Artix Linux");
+            correctionAdd("Artix", "Artix Linux");
+
+            correctionAdd("Apple SE", "Ask Different (Stack Exchange site)");
+
+            correctionAdd("Bioinformatics SE", "Bioinformatics (Stack Exchange site)");
+
+            correctionAdd("protestant", "Protestant");
+
+            correctionAdd("Thevenin's theorem", "Thévenin's theorem");
+            correctionAdd("Thevenin equivalent", "Thévenin's theorem");
+            correctionAdd("Thevenin", "Thévenin's theorem");
+
+            correctionAdd("inconveniance", "inconvenience");
+
+            correctionAdd("KYC", "know your customer");
+
+            correctionAdd("MYSQLADMIN", "mysqladmin");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -49985,6 +50013,22 @@ namespace OverflowHelper.core
             URL_Add("electric vehicle", "https://en.wikipedia.org/wiki/Electric_car#Terminology");
 
             URL_Add("wacko", "https://en.wiktionary.org/wiki/wacko#Adjective");
+
+            URL_Add("Artix Linux", "https://en.wikipedia.org/wiki/Artix_Linux");
+
+            URL_Add("Ask Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
+
+            URL_Add("Bioinformatics (Stack Exchange site)", "https://bioinformatics.stackexchange.com/tour");
+
+            URL_Add("Protestant", "https://en.wiktionary.org/wiki/Protestant#Adjective");
+
+            URL_Add("Thévenin's theorem", "https://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem");
+
+            URL_Add("inconvenience", "https://en.wiktionary.org/wiki/inconvenience#Noun");
+
+            URL_Add("know your customer", "https://en.wikipedia.org/wiki/Know_your_customer");
+
+            URL_Add("mysqladmin", "https://dev.mysql.com/doc/refman/8.0/en/mysqladmin.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
