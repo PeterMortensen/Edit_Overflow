@@ -3272,6 +3272,7 @@ namespace OverflowHelper.core
             correctionAdd("SuSE", "SUSE&nbsp;Linux");
             correctionAdd("Suse", "SUSE&nbsp;Linux");
             correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
+            correctionAdd("SUSE", "SUSE&nbsp;Linux");
 
             correctionAdd("Opensuse", "openSUSE");
             correctionAdd("opensuse", "openSUSE");
@@ -5418,6 +5419,7 @@ namespace OverflowHelper.core
             correctionAdd("Lamp", "LAMP");
             correctionAdd("L.A.M.P", "LAMP"); // Actually, it should be "L.A.M.P.", but we currently have a limitation in the web interface (false negative lookup)
             correctionAdd("LAMPP", "LAMP");
+            correctionAdd("lampp", "LAMP");
 
             correctionAdd("Fisheye", "FishEye");
             correctionAdd("fisheye", "FishEye");
@@ -10827,6 +10829,7 @@ namespace OverflowHelper.core
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
             correctionAdd("Laraval", "Laravel");
+            correctionAdd("larval", "Laravel");
 
             correctionAdd("wasnt", "wasn't");
 
@@ -12994,6 +12997,8 @@ namespace OverflowHelper.core
             correctionAdd("eigther", "either");
             correctionAdd("eiether", "either");
             correctionAdd("eighter", "either");
+            correctionAdd("Eiter", "either");
+            correctionAdd("eiter", "either");
 
             correctionAdd("FPS", "fps");
 
@@ -13072,6 +13077,7 @@ namespace OverflowHelper.core
 
             correctionAdd("alledged", "alleged");
             correctionAdd("allegded", "alleged");
+            correctionAdd("alleded", "alleged");
 
             correctionAdd("alllow", "allow");
             correctionAdd("alow", "allow");
@@ -13632,6 +13638,7 @@ namespace OverflowHelper.core
             correctionAdd("backquote", "backtick");
 
             correctionAdd("buch", "bunch");
+            correctionAdd("bunhc", "bunch");
 
             correctionAdd("exagerrated", "exaggerated");
             correctionAdd("excagurated", "exaggerated");
@@ -14578,6 +14585,8 @@ namespace OverflowHelper.core
 
             correctionAdd("new york", "New York");
             correctionAdd("NewYork", "New York");
+            correctionAdd("NYC", "New York");
+            correctionAdd("New York City", "New York");
 
             correctionAdd("onenote", "OneNote");
 
@@ -14753,6 +14762,7 @@ namespace OverflowHelper.core
             correctionAdd("smt", "something");
             correctionAdd("somethimg", "something");
             correctionAdd("somtings", "something");
+            correctionAdd("somethings", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -23206,6 +23216,7 @@ namespace OverflowHelper.core
             correctionAdd("libary", "library");
             correctionAdd("libaray", "library");
             correctionAdd("libray", "library");
+            correctionAdd("Library", "library");
 
             correctionAdd("libs", "libraries");
             correctionAdd("Libs", "libraries");
@@ -24548,6 +24559,7 @@ namespace OverflowHelper.core
             correctionAdd("Java Servlet", "Jakarta Servlet");
             correctionAdd("Servlet", "Jakarta Servlet");
             correctionAdd("servlet", "Jakarta Servlet");
+            correctionAdd("servelet", "Jakarta Servlet");
 
             correctionAdd("re-think", "rethink");
 
@@ -25188,6 +25200,7 @@ namespace OverflowHelper.core
             correctionAdd("phpinfo()", "phpinfo");
             correctionAdd("phpInfo", "phpinfo");
             correctionAdd("phpInfo()", "phpinfo");
+            correctionAdd("php info", "phpinfo");
 
             correctionAdd("pupulate", "populate");
 
@@ -25394,6 +25407,7 @@ namespace OverflowHelper.core
             correctionAdd("P.S", "post scriptum"); // Note: We don't have "PS" as it conflicts with "PowerShell".
             correctionAdd("P.s", "post scriptum");
             correctionAdd("P/S", "post scriptum");
+            correctionAdd("p.s", "post scriptum");
 
             correctionAdd("prod", "production");
             correctionAdd("producion", "production");
@@ -26769,6 +26783,7 @@ namespace OverflowHelper.core
             correctionAdd("left hand side", "left-hand side");
 
             correctionAdd("mispelling", "misspelling");
+            correctionAdd("misspeling", "misspelling");
 
             correctionAdd("Quad-Core", "quad-core");
             correctionAdd("Quad Core", "quad-core");
@@ -26934,6 +26949,7 @@ namespace OverflowHelper.core
             correctionAdd("for good and for bad", "for better or worse");
 
             correctionAdd("lawier", "lawyer");
+            correctionAdd("Lawyer", "lawyer");
 
             correctionAdd("POG", "pog");
             correctionAdd("POGCHAMP", "pog");
@@ -28960,6 +28976,7 @@ namespace OverflowHelper.core
             correctionAdd("activity monitor", "Activity Monitor");
 
             correctionAdd("google sheets", "Google Sheets");
+            correctionAdd("googlesheet", "Google Sheets");
 
             correctionAdd("Pd", "Palladium");
             correctionAdd("palladium", "Palladium");
@@ -31842,6 +31859,37 @@ namespace OverflowHelper.core
             correctionAdd("KYC", "know your customer");
 
             correctionAdd("MYSQLADMIN", "mysqladmin");
+
+            correctionAdd("alcubierre drive", "Alcubierre drive");
+
+            correctionAdd("C130", "C-130");
+
+            correctionAdd("ciq", "CIQ");
+
+            correctionAdd("CloudLinux", "CloudLinux OS");
+
+            correctionAdd("Euro Linux", "EuroLinux");
+
+            correctionAdd("hugo", "Hugo");
+
+            correctionAdd("JsDelivr", "JSDelivr");
+
+            correctionAdd("Bezos", "Jeff Bezos");
+
+            correctionAdd("quarkus", "Quarkus");
+
+            correctionAdd("SLED", "SUSE Linux Enterprise");
+            correctionAdd("SLES", "SUSE Linux Enterprise");
+            correctionAdd("SLE", "SUSE Linux Enterprise");
+
+            correctionAdd("SpringdaleLinux", "Springdale Linux");
+
+            correctionAdd("stim", "Stim");
+
+            correctionAdd("dependance", "dependence");
+
+            correctionAdd("qecc", "quantum error correcting code");
+            correctionAdd("QECC", "quantum error correcting code");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50029,6 +50077,34 @@ namespace OverflowHelper.core
             URL_Add("know your customer", "https://en.wikipedia.org/wiki/Know_your_customer");
 
             URL_Add("mysqladmin", "https://dev.mysql.com/doc/refman/8.0/en/mysqladmin.html");
+
+            URL_Add("Alcubierre drive", "https://en.wikipedia.org/wiki/Alcubierre_drive");
+
+            URL_Add("C-130", "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules");
+
+            URL_Add("CIQ", "https://ctrliq.com/");
+
+            URL_Add("CloudLinux OS", "https://en.wikipedia.org/wiki/CloudLinux_OS");
+
+            URL_Add("EuroLinux", "https://en.wikipedia.org/wiki/EuroLinux");
+
+            URL_Add("Hugo", "https://en.wikipedia.org/wiki/Hugo_(software)");
+
+            URL_Add("JSDelivr", "https://en.wikipedia.org/wiki/JSDelivr");
+
+            URL_Add("Jeff Bezos", "https://en.wikipedia.org/wiki/Jeff_Bezos");
+
+            URL_Add("Quarkus", "https://en.wikipedia.org/wiki/Quarkus");
+
+            URL_Add("SUSE Linux Enterprise", "https://en.wikipedia.org/wiki/SUSE_Linux_Enterprise");
+
+            URL_Add("Springdale Linux", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux_derivatives#Notable_Red_Hat_Enterprise_Linux_derivatives");
+
+            URL_Add("Stim", "https://github.com/quantumlib/stim");
+
+            URL_Add("dependence", "https://en.wiktionary.org/wiki/dependence#Noun");
+
+            URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
