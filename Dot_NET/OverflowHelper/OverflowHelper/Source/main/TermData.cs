@@ -13078,6 +13078,7 @@ namespace OverflowHelper.core
             correctionAdd("alledged", "alleged");
             correctionAdd("allegded", "alleged");
             correctionAdd("alleded", "alleged");
+            correctionAdd("Alledged", "alleged");
 
             correctionAdd("alllow", "allow");
             correctionAdd("alow", "allow");
@@ -13800,6 +13801,8 @@ namespace OverflowHelper.core
             correctionAdd("crc32", "CRC-32");
 
             correctionAdd("october", "October");
+            correctionAdd("oct", "October");
+            correctionAdd("Oct", "October");
 
             correctionAdd("swi prolog", "SWI-Prolog");
             correctionAdd("swi Prolog", "SWI-Prolog");
@@ -17303,6 +17306,7 @@ namespace OverflowHelper.core
             correctionAdd("CryptoCurrency", "cryptocurrency");
             correctionAdd("crypt-currency", "cryptocurrency");
             correctionAdd("Crypto", "cryptocurrency");
+            correctionAdd("Cryptocurrency", "cryptocurrency");
 
             correctionAdd("Defensibility", "defensibility");
 
@@ -18072,6 +18076,7 @@ namespace OverflowHelper.core
 
             correctionAdd("occassionally", "occasionally");
             correctionAdd("occationally", "occasionally");
+            correctionAdd("ocassionally", "occasionally");
 
             correctionAdd("ocassional", "occasional");
             correctionAdd("occational", "occasional");
@@ -21166,6 +21171,8 @@ namespace OverflowHelper.core
             correctionAdd("debuger", "debugger");
 
             correctionAdd("Engineer", "engineer");
+            correctionAdd("enginner", "engineer");
+            correctionAdd("enginneer", "engineer");
 
             correctionAdd("KE", "kinetic energy");
 
@@ -23779,6 +23786,7 @@ namespace OverflowHelper.core
             correctionAdd("3D", "three-dimensional");
             correctionAdd("3d", "three-dimensional");
             correctionAdd("three dimensional", "three-dimensional");
+            correctionAdd("3 dimension", "three-dimensional");
 
             correctionAdd("tb", "&nbsp;TB");
             correctionAdd("Tb", "&nbsp;TB"); // Conflicts with Thunderbird
@@ -31890,6 +31898,24 @@ namespace OverflowHelper.core
 
             correctionAdd("qecc", "quantum error correcting code");
             correctionAdd("QECC", "quantum error correcting code");
+
+            correctionAdd("Pearson Vue", "Pearson VUE");
+
+            correctionAdd("Repl.it", "Replit");
+            correctionAdd("replit", "Replit");
+            correctionAdd("ReplIT", "Replit");
+
+            correctionAdd("hade", "had");
+
+            correctionAdd("ndim", "n-dimensional");
+
+            correctionAdd("non ordered", "nonordered");
+
+            correctionAdd("perma-link", "permalink");
+
+            correctionAdd("readbly", "readably");
+
+            correctionAdd("re-inventing", "reinventing");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50105,6 +50131,22 @@ namespace OverflowHelper.core
             URL_Add("dependence", "https://en.wiktionary.org/wiki/dependence#Noun");
 
             URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
+
+            URL_Add("Pearson VUE", "https://en.wikipedia.org/wiki/Pearson_plc#Pearson_VUE");
+
+            URL_Add("Replit", "https://en.wikipedia.org/wiki/Replit");
+
+            URL_Add("had", "https://en.wiktionary.org/wiki/had#Verb");
+
+            URL_Add("n-dimensional", "https://en.wiktionary.org/wiki/n-dimensional#Adjective");
+
+            URL_Add("nonordered", "https://en.wiktionary.org/wiki/nonordered#Adjective");
+
+            URL_Add("permalink", "https://en.wiktionary.org/wiki/permalink#Noun");
+
+            URL_Add("readably", "https://en.wiktionary.org/wiki/readably#Adverb");
+
+            URL_Add("reinventing", "https://en.wiktionary.org/wiki/reinvent#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
