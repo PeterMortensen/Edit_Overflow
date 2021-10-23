@@ -383,6 +383,9 @@ namespace OverflowHelper.core
 
             correctionAdd("jsp", "JSP"); // Not actually observed.
             correctionAdd("Jsp", "JSP");
+            correctionAdd("Java Server Pages", "JSP");
+            correctionAdd("java server pages", "JSP");
+            correctionAdd("JavaServer Pages", "JSP");
 
             correctionAdd("jdk", "JDK");
 
@@ -1754,6 +1757,7 @@ namespace OverflowHelper.core
             correctionAdd("pyhthon", "Python");
             correctionAdd("Pyhton", "Python");
             correctionAdd("Pythen", "Python");
+            correctionAdd("Phyton", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -11082,6 +11086,7 @@ namespace OverflowHelper.core
             correctionAdd("Dependancy", "dependency");
             correctionAdd("depedency", "dependency");
             correctionAdd("dependcy", "dependency");
+            correctionAdd("dep", "dependency");
 
             // -***** NEW
             //
@@ -11314,6 +11319,8 @@ namespace OverflowHelper.core
             correctionAdd("explainig", "explaining");
 
             correctionAdd("gen", "generation");
+            correctionAdd("geneation", "generation");
+            correctionAdd("genenration", "generation");
 
             correctionAdd("lenght", "length");
             correctionAdd("Lenght", "length");
@@ -11498,6 +11505,7 @@ namespace OverflowHelper.core
             correctionAdd("Desctructor", "destructor");
             correctionAdd("desctructor", "destructor");
             correctionAdd("destcructor", "destructor");
+            correctionAdd("descructor", "destructor");
 
             correctionAdd("initalize", "initialise");
             correctionAdd("initiliazed", "initialise");
@@ -12138,6 +12146,7 @@ namespace OverflowHelper.core
             correctionAdd("Solution", "solution");
             correctionAdd("Sollution", "solution");
             correctionAdd("Soution", "solution");
+            correctionAdd("selution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -12383,6 +12392,7 @@ namespace OverflowHelper.core
             correctionAdd("Anways", "anyway");
             correctionAdd("Anyways", "anyway");
             correctionAdd("Anyway", "anyway");
+            correctionAdd("any way", "anyway");
 
             correctionAdd("breadbord", "breadboard");
             correctionAdd("Breadbord", "breadboard");
@@ -23418,6 +23428,7 @@ namespace OverflowHelper.core
             correctionAdd("modren", "modern");
 
             correctionAdd("mythical manmonth", "The Mythical Man-Month");
+            correctionAdd("The Mythical Man Month", "The Mythical Man-Month");
 
             correctionAdd("motnh", "month");
             correctionAdd("Month", "month");
@@ -31705,6 +31716,7 @@ namespace OverflowHelper.core
             correctionAdd("HPC", "high-performance computing");
 
             correctionAdd("List Comprehension", "list comprehension");
+            correctionAdd("List comprehension", "list comprehension");
 
             correctionAdd("orbiatal", "orbital");
 
@@ -31916,6 +31928,21 @@ namespace OverflowHelper.core
             correctionAdd("readbly", "readably");
 
             correctionAdd("re-inventing", "reinventing");
+
+            correctionAdd("CodeMentor", "Codementor");
+
+            correctionAdd("eric raymond", "Eric S. Raymond (ESR)");
+            correctionAdd("Eric Steven Raymond", "Eric S. Raymond (ESR)");
+            correctionAdd("eric s. raymond", "Eric S. Raymond (ESR)");
+            correctionAdd("eric s raymond", "Eric S. Raymond (ESR)");
+
+            correctionAdd("raptor engine", "Raptor engine");
+
+            correctionAdd("Sabatier process", "Sabatier reaction");
+
+            correctionAdd("rxn", "reaction");
+
+            correctionAdd("self sufficient", "self-sufficient");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50147,6 +50174,18 @@ namespace OverflowHelper.core
             URL_Add("readably", "https://en.wiktionary.org/wiki/readably#Adverb");
 
             URL_Add("reinventing", "https://en.wiktionary.org/wiki/reinvent#Verb");
+
+            URL_Add("Codementor", "https://en.wikipedia.org/wiki/Codementor");
+
+            URL_Add("Eric S. Raymond (ESR)", "https://en.wikipedia.org/wiki/Eric_S._Raymond");
+
+            URL_Add("Raptor engine", "https://en.wikipedia.org/wiki/SpaceX_Raptor");
+
+            URL_Add("Sabatier reaction", "https://en.wikipedia.org/wiki/Sabatier_reaction");
+
+            URL_Add("reaction", "https://en.wiktionary.org/wiki/reaction#Noun");
+
+            URL_Add("self-sufficient", "https://en.wiktionary.org/wiki/self-sufficient#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
