@@ -3185,6 +3185,7 @@ namespace OverflowHelper.core
             correctionAdd("MingGW", "MinGW");
             correctionAdd("MInGW", "MinGW");
             correctionAdd("Migw", "MinGW");
+            correctionAdd("mingw32", "MinGW");
 
             correctionAdd("CodeBlocks", "Code::Blocks");
             correctionAdd("Code Blocks", "Code::Blocks");
@@ -4575,6 +4576,7 @@ namespace OverflowHelper.core
             correctionAdd("Your", "your");
             correctionAdd("yourt", "your");
             correctionAdd("youe", "your");
+            correctionAdd("yyour", "your");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -4956,6 +4958,7 @@ namespace OverflowHelper.core
             correctionAdd("toutoriall", "tutorial");
             correctionAdd("toutorial", "tutorial");
             correctionAdd("Tutorial", "tutorial");
+            correctionAdd("tuto", "tutorial");
 
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
@@ -5969,6 +5972,9 @@ namespace OverflowHelper.core
             correctionAdd("Power Grep", "PowerGrep");
 
             correctionAdd("razor", "Razor");
+            correctionAdd(".cshtml", "Razor");
+            correctionAdd("cshtml", "Razor");
+            correctionAdd("CSHTML", "Razor");
 
             correctionAdd("winmerge", "WinMerge");
             correctionAdd("Winmerge", "WinMerge");
@@ -7824,6 +7830,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
@@ -10092,6 +10099,7 @@ namespace OverflowHelper.core
             correctionAdd("any one", "anyone");
             correctionAdd("any onw", "anyone");
             correctionAdd("anyonw", "anyone");
+            correctionAdd("any1", "anyone");
 
             correctionAdd("recieving", "receiving");
 
@@ -10719,6 +10727,7 @@ namespace OverflowHelper.core
             correctionAdd("who's", "whose");
             correctionAdd("who’s", "whose");
             correctionAdd("whos", "whose");
+            correctionAdd("whom's", "whose");
 
             correctionAdd("accidently", "accidentally");
             correctionAdd("accidentaly", "accidentally");
@@ -12560,6 +12569,7 @@ namespace OverflowHelper.core
             correctionAdd("ad-hoc", "ad hoc");
 
             correctionAdd("cappacitive", "capacitive");
+            correctionAdd("capacitative", "capacitive");
 
             correctionAdd("coord", "coordinate");
             correctionAdd("co-ordinate", "coordinate");
@@ -14267,6 +14277,8 @@ namespace OverflowHelper.core
             correctionAdd("Accoring", "according");
             correctionAdd("accoring", "according");
             correctionAdd("accrding", "according");
+            correctionAdd("Accroding", "according");
+            correctionAdd("According", "according");
 
             correctionAdd("coerse", "coerce");
 
@@ -16793,6 +16805,7 @@ namespace OverflowHelper.core
 
             correctionAdd("clique", "click");
             correctionAdd("clic", "click");
+            correctionAdd("lick", "click");
 
             correctionAdd("extremelly", "extremely");
             correctionAdd("extrimely", "extremely");
@@ -19713,6 +19726,7 @@ namespace OverflowHelper.core
             correctionAdd("Repos", "repositories");
             correctionAdd("repos", "repositories");
             correctionAdd("REPOs", "repositories");
+            correctionAdd("repo's", "repositories");
 
             correctionAdd("tranpiling", "transpiling");
             correctionAdd("transipiling", "transpiling");
@@ -21744,6 +21758,8 @@ namespace OverflowHelper.core
             correctionAdd("on the hand", "on the other hand");
             correctionAdd("On the other side", "on the other hand");
             correctionAdd("on the other side", "on the other hand");
+            correctionAdd("In the other side", "on the other hand");
+            correctionAdd("in the other side", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -24488,6 +24504,7 @@ namespace OverflowHelper.core
 
             correctionAdd("parse", "Parse");
             correctionAdd("Parse.com", "Parse");
+            correctionAdd("prase", "Parse");
 
             correctionAdd("Serenity", "Serenity BDD Framework");
             correctionAdd("serenity", "Serenity BDD Framework");
@@ -25207,6 +25224,7 @@ namespace OverflowHelper.core
             correctionAdd("juse", "just");
             correctionAdd("Juse", "just");
             correctionAdd("juste", "just");
+            correctionAdd("jsut", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -25320,6 +25338,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rebuilded", "rebuilt");
             correctionAdd("reBuilded", "rebuilt");
+            correctionAdd("re-built", "rebuilt");
 
             correctionAdd("re-pair", "repair");
 
@@ -29608,6 +29627,7 @@ namespace OverflowHelper.core
             correctionAdd("push back", "pushback");
 
             correctionAdd("gitignore", ".gitignore file");
+            correctionAdd(".gitignore", ".gitignore file");
 
             correctionAdd("Core 2", "Core&nbsp;2");
             correctionAdd("Core2", "Core&nbsp;2");
@@ -31052,6 +31072,7 @@ namespace OverflowHelper.core
             correctionAdd("kendo Telerik Ui", "Kendo UI");
             correctionAdd("kendo Ui", "Kendo UI");
             correctionAdd("kendo ui", "Kendo UI");
+            correctionAdd("kendo UI", "Kendo UI");
 
             correctionAdd("Telerk", "Telerik");
 
@@ -31943,6 +31964,41 @@ namespace OverflowHelper.core
             correctionAdd("rxn", "reaction");
 
             correctionAdd("self sufficient", "self-sufficient");
+
+            correctionAdd("dbms", "DBMS");
+
+            correctionAdd("Gnome-Latex", "GNOME LaTeX");
+
+            correctionAdd("LFS", "Git LFS");
+
+            correctionAdd("Jupyterlab", "JupyterLab");
+            correctionAdd("jupyterlab", "JupyterLab");
+
+            correctionAdd("mwe", "MWE");
+
+            correctionAdd("Brocolli", "broccoli");
+
+            correctionAdd("dash board", "dashboard");
+
+            correctionAdd("encyrpted", "encrypted");
+
+            correctionAdd("extarct", "extract");
+
+            correctionAdd("MPC", "model predictive control");
+
+            correctionAdd("moderationg", "moderation");
+
+            correctionAdd("OneHot", "one-hot");
+            correctionAdd("One-hot", "one-hot");
+
+            correctionAdd("one-hot Encoding", "one-hot encoding");
+
+            correctionAdd("re-applies", "reapplies");
+
+            correctionAdd("Reinforcement learning", "reinforcement learning");
+            correctionAdd("RL", "reinforcement learning");
+
+            correctionAdd("stripped down", "stripped-down");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50186,6 +50242,38 @@ namespace OverflowHelper.core
             URL_Add("reaction", "https://en.wiktionary.org/wiki/reaction#Noun");
 
             URL_Add("self-sufficient", "https://en.wiktionary.org/wiki/self-sufficient#Adjective");
+
+            URL_Add("DBMS", "https://en.wikipedia.org/wiki/Database#Database_management_system");
+
+            URL_Add("GNOME LaTeX", "https://wiki.gnome.org/Apps/GNOME-LaTeX");
+
+            URL_Add("Git LFS", "https://git-lfs.github.com/");
+
+            URL_Add("JupyterLab", "https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook");
+
+            URL_Add("MWE", "https://en.wikipedia.org/wiki/Minimal_working_example");
+
+            URL_Add("broccoli", "https://en.wikipedia.org/wiki/Broccoli");
+
+            URL_Add("dashboard", "https://en.wiktionary.org/wiki/dashboard#Noun");
+
+            URL_Add("encrypted", "https://en.wiktionary.org/wiki/encrypted#Adjective");
+
+            URL_Add("extract", "https://en.wiktionary.org/wiki/extract#Verb");
+
+            URL_Add("model predictive control", "https://en.wikipedia.org/wiki/Model_predictive_control");
+
+            URL_Add("moderation", "https://en.wiktionary.org/wiki/moderation#Noun");
+
+            URL_Add("one-hot", "https://en.wikipedia.org/wiki/One-hot");
+
+            URL_Add("one-hot encoding", "https://en.wikipedia.org/wiki/One-hot#Machine_learning_and_statistics");
+
+            URL_Add("reapplies", "https://en.wiktionary.org/wiki/reapply#Verb");
+
+            URL_Add("reinforcement learning", "https://en.wikipedia.org/wiki/Reinforcement_learning");
+
+            URL_Add("stripped-down", "https://en.wiktionary.org/wiki/stripped-down#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
