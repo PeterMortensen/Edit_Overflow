@@ -608,8 +608,8 @@
 
                 if (isset($button['real_quotes']))
                 {
-                    # Note: For unknown reasons, we can ***not*** use string 
-                    #       interpolation here. A bug was fixed 2021-09-21.   
+                    # Note: For unknown reasons, we can ***not*** use string
+                    #       interpolation here. A bug was fixed 2021-09-21.
                     $someText = "“" . $someText . "”";
 
                     $fallThrough = 0;
@@ -649,6 +649,9 @@
                     assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
                 }
 
+                $lengthAfter = strlen($someText);
+
+                $message .= "<p>Now $lengthAfter characters (incl. newlines).</p>";
 
 
                 #Keep, as we will probably use a similar construct again, but with
