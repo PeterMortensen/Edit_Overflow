@@ -3155,6 +3155,7 @@ namespace OverflowHelper.core
             correctionAdd("innoDB", "InnoDB");
             correctionAdd("INNO DB", "InnoDB");
             correctionAdd("inno db", "InnoDB");
+            correctionAdd("INNODB", "InnoDB");
 
             correctionAdd("myisam", "MyISAM");
             correctionAdd("MyIsam", "MyISAM");
@@ -3196,6 +3197,7 @@ namespace OverflowHelper.core
             correctionAdd("code::block", "Code::Blocks");
             correctionAdd("code blocks", "Code::Blocks");
             correctionAdd("code::blocks", "Code::Blocks");
+            correctionAdd("code:blocks", "Code::Blocks");
 
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
@@ -3278,6 +3280,7 @@ namespace OverflowHelper.core
             correctionAdd("Suse", "SUSE&nbsp;Linux");
             correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
             correctionAdd("SUSE", "SUSE&nbsp;Linux");
+            correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
 
             correctionAdd("Opensuse", "openSUSE");
             correctionAdd("opensuse", "openSUSE");
@@ -4110,6 +4113,7 @@ namespace OverflowHelper.core
             correctionAdd("reuseable", "reusable");
 
             correctionAdd("compile-able", "compilable");
+            correctionAdd("compileable", "compilable");
 
             correctionAdd("noticable", "noticeable");
 
@@ -6787,15 +6791,6 @@ namespace OverflowHelper.core
 
             correctionAdd("squeak", "Squeak");
 
-            correctionAdd("allright", "all right");
-            correctionAdd("alright", "all right");
-            correctionAdd("al right", "all right");
-            correctionAdd("Alright", "all right"); // Not 100% correct - case.
-            correctionAdd("Aright", "all right");
-            correctionAdd("aright", "all right");
-            correctionAdd("Aight", "all right");
-            correctionAdd("aight", "all right");
-
             correctionAdd("argb", "ARGB");
 
             correctionAdd("rgb", "RGB");
@@ -7883,6 +7878,7 @@ namespace OverflowHelper.core
             correctionAdd("visual stdio", "Visual&nbsp;Studio");
             correctionAdd("Visiual studio", "Visual&nbsp;Studio");
             correctionAdd("visualStudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
 
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -10411,6 +10407,7 @@ namespace OverflowHelper.core
             correctionAdd("exammple", "example");
             correctionAdd("exaple", "example");
             correctionAdd("exmample", "example");
+            correctionAdd("eample", "example");
 
             correctionAdd("european", "European");
 
@@ -10427,6 +10424,7 @@ namespace OverflowHelper.core
             correctionAdd("baudRate", "baud rate");
             correctionAdd("baudrate", "baud rate");
             correctionAdd("Baud rate", "baud rate");
+            correctionAdd("BAUD rate", "baud rate");
 
             correctionAdd("Tektronics", "Tektronix");
             correctionAdd("Tek", "Tektronix");
@@ -11314,6 +11312,7 @@ namespace OverflowHelper.core
             correctionAdd("desigion", "decision");
             correctionAdd("Decesion", "decision");
             correctionAdd("decesion", "decision");
+            correctionAdd("decisson", "decision");
 
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
@@ -12581,6 +12580,7 @@ namespace OverflowHelper.core
             correctionAdd("fianally", "finally");
             correctionAdd("Finnaly", "finally");
             correctionAdd("Finaly", "finally");
+            correctionAdd("fianlly", "finally");
 
             correctionAdd("Hydrogen", "hydrogen");
 
@@ -13660,6 +13660,7 @@ namespace OverflowHelper.core
 
             correctionAdd("buch", "bunch");
             correctionAdd("bunhc", "bunch");
+            correctionAdd("punch", "bunch");
 
             correctionAdd("exagerrated", "exaggerated");
             correctionAdd("excagurated", "exaggerated");
@@ -18665,6 +18666,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dimenson", "dimension");
             correctionAdd("dimenion", "dimension");
+            correctionAdd("dimenstion", "dimension");
 
             correctionAdd("dis-assembly", "disassembly");
 
@@ -20432,8 +20434,18 @@ namespace OverflowHelper.core
 
             correctionAdd("regulary", "regularly");
 
+            correctionAdd("allright", "all right");
+            correctionAdd("alright", "all right");
+            correctionAdd("al right", "all right");
+            correctionAdd("Alright", "all right"); // Not 100% correct - case.
+            correctionAdd("Aright", "all right");
+            correctionAdd("aright", "all right");
+            correctionAdd("Aight", "all right");
+            correctionAdd("aight", "all right");
+
             correctionAdd("rigth", "right");
             correctionAdd("rght", "right");
+            correctionAdd("riht", "right");
 
             correctionAdd("strick", "strict");
 
@@ -20927,6 +20939,7 @@ namespace OverflowHelper.core
             correctionAdd("Engineering", "engineering");
             correctionAdd("engeniring", "engineering");
             correctionAdd("engeneering", "engineering");
+            correctionAdd("enginerring", "engineering");
 
             correctionAdd("profit-sharing", "profit sharing");
 
@@ -28771,6 +28784,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
             correctionAdd("SFF", "Science Fiction & Fantasy (Stack Exchange site)");
+            correctionAdd("Sci-Fi and Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
+            correctionAdd("Science Fiction & Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
 
             correctionAdd("3DES", "Triple DES");
             correctionAdd("3des", "Triple DES");
@@ -30398,6 +30413,7 @@ namespace OverflowHelper.core
             correctionAdd("yup", "Yup");
 
             correctionAdd("the benefit of the doubt", "benefit of the doubt");
+            correctionAdd("benefit of doubt", "benefit of the doubt");
 
             correctionAdd("HTML 4.0", "HTML&nbsp;4"); // Sort of identity mapping
             correctionAdd("HTML 4", "HTML&nbsp;4");
@@ -31999,6 +32015,29 @@ namespace OverflowHelper.core
             correctionAdd("RL", "reinforcement learning");
 
             correctionAdd("stripped down", "stripped-down");
+
+            correctionAdd("Rohde Scharz", "Rohde & Schwarz");
+
+            correctionAdd("tex4ht", "TeX4ht");
+
+            correctionAdd("deployd", "deployed");
+
+            correctionAdd("encounted", "encountered");
+
+            correctionAdd("execured", "executed");
+
+            correctionAdd("handeld", "handled");
+
+            correctionAdd("PICOCOM", "picocom");
+
+            correctionAdd("snubber", "snub circuit");
+            correctionAdd("Snubber", "snub circuit");
+
+            correctionAdd("tweeters", "tweezers");
+
+            correctionAdd("wateing", "waiting");
+
+            correctionAdd("work tree", "worktree");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50274,6 +50313,28 @@ namespace OverflowHelper.core
             URL_Add("reinforcement learning", "https://en.wikipedia.org/wiki/Reinforcement_learning");
 
             URL_Add("stripped-down", "https://en.wiktionary.org/wiki/stripped-down#Adjective");
+
+            URL_Add("Rohde & Schwarz", "https://en.wikipedia.org/wiki/Rohde_%26_Schwarz");
+
+            URL_Add("TeX4ht", "https://en.wikipedia.org/wiki/TeX4ht");
+
+            URL_Add("deployed", "https://en.wiktionary.org/wiki/deploy#Verb");
+
+            URL_Add("encountered", "https://en.wiktionary.org/wiki/encounter#Verb");
+
+            URL_Add("executed", "https://en.wiktionary.org/wiki/execute#Verb");
+
+            URL_Add("handled", "https://en.wiktionary.org/wiki/handle#Verb");
+
+            URL_Add("picocom", "https://linux.die.net/man/8/picocom");
+
+            URL_Add("snub circuit", "https://en.wikipedia.org/wiki/Snubber");
+
+            URL_Add("tweezers", "https://en.wiktionary.org/wiki/tweezers#Noun");
+
+            URL_Add("waiting", "https://en.wiktionary.org/wiki/wait#Verb");
+
+            URL_Add("worktree", "https://devtut.github.io/git/worktrees.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
