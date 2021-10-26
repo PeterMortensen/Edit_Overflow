@@ -87,10 +87,24 @@
             } #removeTrailingSpacesAndTABs()
 
 
-            function findCommonLeadingSpaces($aText)
+            # Helper functions.
+            #
+            # Used by several functions.
+            #
+            function preprocessTextForRemovingCommonLeadingSpaces($aText)
             {
                 # Implicit convert of TABs (as 4 spaces)
                 $someText = replaceTABS_withSpace($aText);
+
+                [$someText, $message] = removeTrailingSpacesAndTABs($someText);
+
+                return $someText;
+            } #preprocessTextForRemovingCommonLeadingSpaces()
+
+
+            function findCommonLeadingSpaces($aText)
+            {
+                $someText = preprocessTextForRemovingCommonLeadingSpaces($aText);
 
                 #For some reason, it is Windows-like when coming from
                 #the web browser (Firefox), even when all is Linux...
@@ -140,16 +154,18 @@
             } # findCommonLeadingSpaces()
 
 
-            function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
+            #function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
+            function removeCommonLeadingSpaces($aText)
             {
-                # Implicit convert of TABs (as 4 spaces)
-                $someText = replaceTABS_withSpace($aText);
+                $someText = preprocessTextForRemovingCommonLeadingSpaces($aText);
+
+                $leadingSpaces = findCommonLeadingSpaces($someText);
 
                 #For some reason, it is Windows-like when coming from
                 #the web browser (Firefox), even when all is Linux...
                 $lines = explode("\r\n", $someText);
 
-                $toRemove = str_repeat(" ", $aLeadingSpaces);
+                $toRemove = str_repeat(" ", $leadingSpaces);
 
                 #echo '<p>To remove: xxx' . $toRemove . 'xxx </p>' . "\n";
 
@@ -311,8 +327,7 @@
 
                 #echo "In test $anID: $leadingSpaceToRemove leading spaces to remove.\n";
 
-                $someText7 = removeCommonLeadingSpaces(
-                              $aSomeText, $leadingSpaceToRemove);
+                $someText7 = removeCommonLeadingSpaces($aSomeText);
 
                 assert_strLengths($anID,
                                   $aSomeText,
@@ -404,6 +419,9 @@
             test_transformFor_YouTubeComments(1008,
                 "     https://www.youtube.com/watch?v=_pybvjmjLT0\r\n        ",
                 8);
+
+            # Note: The two space indent is to set it apart from
+            #       the second parameter...
 
             # Input containing lines ***without*** leading
             # space - should always be unchanged.
@@ -503,6 +521,20 @@
 
             test_generateWikiMedia_Link(1028, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "Cherry MX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
 
+            # Two and three leading spaces in two content lines,
+            # respectively and a space an the empty line. We
+            # presume trailing space is removed first,
+            # before the primary transformation.
+            #
+            # Note: We can currently only use test input where the
+            #       size difference is a multiplum of the number
+            #       of spaces removed per line... (because of
+            #       previous assumptions)
+            test_removeCommonLeadingSpaces(1029,
+                "  00 min 44 secs:  ABC\r\n" .
+                  "    \r\n" .
+                  "   04 min 17 secs:  Real start of pre Q&A\r\n",
+                8);
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
             #For debugging
@@ -635,8 +667,7 @@
 
                     $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
 
-                    $someText = removeCommonLeadingSpaces(
-                                    $someText, $leadingSpaceToRemove);
+                    $someText = removeCommonLeadingSpaces($someText);
 
                     $message = "<p>Removed " . $leadingSpaceToRemove .
                                 " leading spaces from all lines...</p>\n";
