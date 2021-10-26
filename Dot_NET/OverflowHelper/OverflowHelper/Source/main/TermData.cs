@@ -3990,6 +3990,8 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("set-variable", "Set-Variable");
 
+            correctionAdd("state-variable", "state variable");
+
             correctionAdd("var", "variable");
             correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("varialbe", "variable");
@@ -4012,6 +4014,8 @@ namespace OverflowHelper.core
             correctionAdd("variabes", "variable");
             correctionAdd("VARABLE", "variable");
             correctionAdd("Varialbe", "variable");
+            correctionAdd("varaibles", "variable");
+            correctionAdd("vraiable", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -11680,6 +11684,7 @@ namespace OverflowHelper.core
             correctionAdd("disctionary", "dictionary");
             correctionAdd("dictinary", "dictionary");
             correctionAdd("dictionare", "dictionary");
+            correctionAdd("dictionnary", "dictionary");
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
@@ -12773,6 +12778,8 @@ namespace OverflowHelper.core
             correctionAdd("Nvertheless", "nevertheless");
             correctionAdd("nvertheless", "nevertheless");
             correctionAdd("neverleless", "nevertheless");
+            correctionAdd("Neverteless", "nevertheless");
+            correctionAdd("neverteless", "nevertheless");
 
             correctionAdd("none the less", "nonetheless");
             correctionAdd("non the less", "nonetheless");
@@ -15216,6 +15223,7 @@ namespace OverflowHelper.core
             correctionAdd("color", "colour");
 
             correctionAdd("re-create", "recreate");
+            correctionAdd("Re-create", "recreate");
 
             correctionAdd("creat", "create");
             correctionAdd("craete", "create");
@@ -16130,6 +16138,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fine grain", "fine-grained");
             correctionAdd("fine grained", "fine-grained");
+            correctionAdd("finegrained", "fine-grained");
 
             correctionAdd("follow up", "follow-up");
             correctionAdd("Followup", "follow-up");
@@ -19172,6 +19181,7 @@ namespace OverflowHelper.core
             correctionAdd("mechanisam", "mechanism");
             correctionAdd("mecanism", "mechanism");
             correctionAdd("meachanism", "mechanism");
+            correctionAdd("mechnism", "mechanism");
 
             correctionAdd("regristration", "registration");
 
@@ -19308,8 +19318,6 @@ namespace OverflowHelper.core
 
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
-
-            correctionAdd("disk utility", "Disk Utility");
 
             correctionAdd("el-al", "El Al");
 
@@ -25308,6 +25316,7 @@ namespace OverflowHelper.core
             correctionAdd("beginns", "begins");
 
             correctionAdd("Normal distribution", "normal distribution");
+            correctionAdd("Normal Distribution", "normal distribution");
 
             correctionAdd("Special Relativity", "special relativity");
 
@@ -26450,7 +26459,10 @@ namespace OverflowHelper.core
             correctionAdd("shap shot", "snapshot");
             correctionAdd("shapshot", "snapshot");
 
+            correctionAdd("disk utility", "Disk Utility");
+
             correctionAdd("util", "utility");
+            correctionAdd("Utility", "utility");
 
             correctionAdd("Anova", "ANOVA");
 
@@ -28069,6 +28081,7 @@ namespace OverflowHelper.core
             correctionAdd("sha-bang", "shebang");
             correctionAdd("hashbang", "shebang");
             correctionAdd("pound-bang", "shebang");
+            correctionAdd("Shebang", "shebang");
 
             correctionAdd("vlume", "volume");
             correctionAdd("vulme", "volume");
@@ -28424,6 +28437,7 @@ namespace OverflowHelper.core
 
             correctionAdd("homepage", "home page");
             correctionAdd("Homepage", "home page");
+            correctionAdd("Home Page", "home page");
 
             correctionAdd("overiding", "overriding");
 
@@ -31258,8 +31272,6 @@ namespace OverflowHelper.core
 
             correctionAdd("purposfully", "purposefully");
 
-            correctionAdd("state-variable", "state variable");
-
             correctionAdd("sybolic", "symbolic");
 
             correctionAdd("techologies", "technologies");
@@ -32038,6 +32050,44 @@ namespace OverflowHelper.core
             correctionAdd("wateing", "waiting");
 
             correctionAdd("work tree", "worktree");
+
+            correctionAdd("ECR", "Amazon Elastic Container Registry");
+
+            correctionAdd("basheclipse", "BashEclipse");
+            correctionAdd("Basheclipse", "BashEclipse");
+
+            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
+            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
+
+            correctionAdd("cmu sphinx", "CMU Sphinx");
+            correctionAdd("cmusphinx", "CMU Sphinx");
+
+            correctionAdd("GKE", "Google Kubernetes Engine");
+
+            correctionAdd("Hidden Markov Model", "Hidden Markov model");
+
+            correctionAdd("Compose", "Jetpack Compose");
+            correctionAdd("compose", "Jetpack Compose");
+
+            correctionAdd("a couple", "a couple of");
+
+            correctionAdd("attennuator", "attenuator");
+
+            correctionAdd("Bootstrap Test", "bootstrap test");
+
+            correctionAdd("Hypothesis Test", "hypothesis test");
+
+            correctionAdd("introdducing", "introducing");
+
+            correctionAdd("modeled", "modelled");
+
+            correctionAdd("self hosted", "self-hosted");
+
+            correctionAdd("sideshow", "side show");
+
+            correctionAdd("superfically", "superficially");
+
+            correctionAdd("under developed", "underdeveloped");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50335,6 +50385,40 @@ namespace OverflowHelper.core
             URL_Add("waiting", "https://en.wiktionary.org/wiki/wait#Verb");
 
             URL_Add("worktree", "https://devtut.github.io/git/worktrees.html");
+
+            URL_Add("Amazon Elastic Container Registry", "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html");
+
+            URL_Add("BashEclipse", "https://sourceforge.net/projects/basheclipse/");
+
+            URL_Add("Baum–Welch algorithm", "https://en.wikipedia.org/wiki/Baum%E2%80%93Welch_algorithm");
+
+            URL_Add("CMU Sphinx", "https://en.wikipedia.org/wiki/CMU_Sphinx");
+
+            URL_Add("Google Kubernetes Engine", "https://en.wikipedia.org/wiki/Google_Cloud_Platform#Compute");
+
+            URL_Add("Hidden Markov model", "https://en.wikipedia.org/wiki/Hidden_Markov_model");
+
+            URL_Add("Jetpack Compose", "https://developer.android.com/jetpack/compose");
+
+            URL_Add("a couple of", "https://www.merriam-webster.com/dictionary/a%20couple%20of");
+
+            URL_Add("attenuator", "https://en.wikipedia.org/wiki/Attenuator_%28electronics%29");
+
+            URL_Add("bootstrap test", "https://en.wikipedia.org/wiki/Bootstrapping_(statistics)");
+
+            URL_Add("hypothesis test", "https://en.wikipedia.org/wiki/Statistical_hypothesis_testing");
+
+            URL_Add("introducing", "https://en.wiktionary.org/wiki/introduce#Verb");
+
+            URL_Add("modelled", "https://en.wiktionary.org/wiki/modelled#Verb");
+
+            URL_Add("self-hosted", "https://github.com/topics/self-hosted");
+
+            URL_Add("side show", "https://en.wiktionary.org/wiki/sideshow#Noun");
+
+            URL_Add("superficially", "https://en.wiktionary.org/wiki/superficially#Adverb");
+
+            URL_Add("underdeveloped", "https://en.wiktionary.org/wiki/underdeveloped#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
