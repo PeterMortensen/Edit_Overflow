@@ -232,6 +232,11 @@ export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
 export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
+export SELINUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"
+
+export PATH=$PATH:${SELINUM_DRIVERFOLDER}
+
+
 # To make the C# unit test run ***itself*** succeed when
 # we use a single build folder, we rename a file... We
 # use a file name for the file containing "Main()"
@@ -1502,7 +1507,7 @@ startOfBuildStep "36" "Starting web interface regression tests, local"
 
 startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
 
-export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
+#export PATH=$PATH:${SELINUM_DRIVERFOLDER}
 python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 36 $? "web interface regression tests"
 
 endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 36 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
@@ -1520,7 +1525,7 @@ startOfBuildStep "37" "Starting web interface regression tests, local"
 
 startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
 
-export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
+#export PATH=$PATH:${SELINUM_DRIVERFOLDER}
 python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_mainLookup_form_localWebserver ; evaluateBuildResult 37 $? "web interface, main lookup, using the local web server"
 
 endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 37 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
@@ -1551,7 +1556,7 @@ retrieveWebHostingErrorLog  "_before_"
 
 
 # For now: Not assuming executable 'geckodriver' is in the path
-export PATH=$PATH:/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0
+#export PATH=$PATH:${SELINUM_DRIVERFOLDER}
 
 # For exploring what "discover" is actually useful for...
 #
