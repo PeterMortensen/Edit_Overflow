@@ -3823,6 +3823,7 @@ namespace OverflowHelper.core
             correctionAdd("congifuration", "configuration");
             correctionAdd("configuation", "configuration");
             correctionAdd("confuguration", "configuration");
+            correctionAdd("configutation", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -9155,6 +9156,7 @@ namespace OverflowHelper.core
             correctionAdd("one linear", "one-liner");
             correctionAdd("One Liner", "one-liner");
             correctionAdd("1-liner", "one-liner");
+            correctionAdd("One liner", "one-liner");
 
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
@@ -10674,6 +10676,7 @@ namespace OverflowHelper.core
             correctionAdd("actaully", "actually");
             correctionAdd("actualy", "actually");
             correctionAdd("Actualy", "actually");
+            correctionAdd("acually", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -12160,6 +12163,8 @@ namespace OverflowHelper.core
             correctionAdd("Sollution", "solution");
             correctionAdd("Soution", "solution");
             correctionAdd("selution", "solution");
+            correctionAdd("soltions", "solution");
+            correctionAdd("soltion", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -14108,6 +14113,7 @@ namespace OverflowHelper.core
             correctionAdd("Domain Driven Design", "domain-driven design");
             correctionAdd("Domain-Driven Design", "domain-driven design");
             correctionAdd("ddd", "domain-driven design");
+            correctionAdd("domain driven development", "domain-driven design");
 
             correctionAdd("hive", "Apache Hive");
 
@@ -15334,6 +15340,7 @@ namespace OverflowHelper.core
             correctionAdd(".htaccess file", ".htaccess");
             correctionAdd("htaccess file", ".htaccess");
             correctionAdd(".htacces", ".htaccess");
+            correctionAdd("Htaccess", ".htaccess");
 
             correctionAdd("1and1", "1&1 IONOS");
             correctionAdd("1&1", "1&1 IONOS");
@@ -20537,6 +20544,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Technical Debt", "technical debt");
             correctionAdd("tech debt", "technical debt");
+            correctionAdd("Tech Debt", "technical debt");
 
             correctionAdd("todays", "today's");
 
@@ -27316,6 +27324,7 @@ namespace OverflowHelper.core
 
             correctionAdd("long term", "long-term");
             correctionAdd("long terms", "long-term");
+            correctionAdd("longterm", "long-term");
 
             correctionAdd("chilean", "Chilean");
 
@@ -31912,6 +31921,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ArtiX", "Artix Linux");
             correctionAdd("Artix", "Artix Linux");
+            correctionAdd("artix", "Artix Linux");
 
             correctionAdd("Apple SE", "Ask Different (Stack Exchange site)");
 
@@ -32088,6 +32098,33 @@ namespace OverflowHelper.core
             correctionAdd("superfically", "superficially");
 
             correctionAdd("under developed", "underdeveloped");
+
+            correctionAdd("dapper", "Dapper");
+
+            correctionAdd("devuan", "Devuan");
+
+            correctionAdd("suhosin", "Suhosin");
+
+            correctionAdd("degredation", "degradation");
+            correctionAdd("degratation", "degradation");
+            correctionAdd("Degredation", "degradation");
+
+            correctionAdd("Graceful Degradation", "graceful degradation");
+
+            correctionAdd("initialy", "initially");
+
+            correctionAdd("non integer", "noninteger");
+
+            correctionAdd("pay rise", "payrise");
+
+            correctionAdd("Progressive Enhancement", "progressive enhancement");
+
+            correctionAdd("provifing", "providing");
+
+            correctionAdd("sec", "seconds");
+            correctionAdd("secs", "seconds");
+
+            correctionAdd("tel", "tell");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50419,6 +50456,30 @@ namespace OverflowHelper.core
             URL_Add("superficially", "https://en.wiktionary.org/wiki/superficially#Adverb");
 
             URL_Add("underdeveloped", "https://en.wiktionary.org/wiki/underdeveloped#Adjective");
+
+            URL_Add("Dapper", "https://en.wikipedia.org/wiki/Dapper_ORM");
+
+            URL_Add("Devuan", "https://en.wikipedia.org/wiki/Devuan");
+
+            URL_Add("Suhosin", "https://en.wikipedia.org/wiki/Suhosin");
+
+            URL_Add("degradation", "https://en.wiktionary.org/wiki/degradation#Noun");
+
+            URL_Add("graceful degradation", "https://en.wikipedia.org/wiki/Progressive_enhancement#Introduction");
+
+            URL_Add("initially", "https://en.wiktionary.org/wiki/initially#Adverb");
+
+            URL_Add("noninteger", "https://en.wiktionary.org/wiki/noninteger#Adjective");
+
+            URL_Add("payrise", "https://en.wiktionary.org/wiki/payrise#Noun");
+
+            URL_Add("progressive enhancement", "https://en.wikipedia.org/wiki/Progressive_enhancement");
+
+            URL_Add("providing", "https://en.wiktionary.org/wiki/provide#Verb");
+
+            URL_Add("seconds", "https://en.wiktionary.org/wiki/second#Noun_2");
+
+            URL_Add("tell", "https://en.wiktionary.org/wiki/tell#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
