@@ -1895,10 +1895,6 @@ namespace OverflowHelper.core
             correctionAdd("solr", "Solr");
             correctionAdd("SolR", "Solr");
 
-            correctionAdd("adblock", "Adblock");
-            correctionAdd("AdBlock", "Adblock");
-            correctionAdd("adBlock", "Adblock");
-
             correctionAdd("matplotlib", "Matplotlib");
             correctionAdd("MatPlotLib", "Matplotlib");
 
@@ -4759,8 +4755,6 @@ namespace OverflowHelper.core
             correctionAdd("Gnome", "GNOME");
             correctionAdd("Gmome", "GNOME");
 
-            correctionAdd("avd", "Android Virtual Device"); // Expansion. AVD.
-
             correctionAdd("ocaml", "OCaml");
             correctionAdd("OCaML", "OCaml");
             correctionAdd("Ocaml", "OCaml");
@@ -4816,12 +4810,12 @@ namespace OverflowHelper.core
 
             correctionAdd("BBedit", "BBEdit");
 
-            correctionAdd("wont", "won't");
-            correctionAdd("won’t", "won't"); // Quora...
-            correctionAdd("won´t", "won't");
-            correctionAdd("won`t", "won't");
-            correctionAdd("wont’t", "won't");
-            correctionAdd("won", "won't");
+            correctionAdd("wont", "won’t");
+            correctionAdd("won´t", "won’t");
+            correctionAdd("won`t", "won’t");
+            correctionAdd("wont’t", "won’t");
+            correctionAdd("won", "won’t");
+            correctionAdd("won't", "won’t");
 
             correctionAdd("xsl", "XSL");
 
@@ -6108,13 +6102,21 @@ namespace OverflowHelper.core
             correctionAdd("cyanogenmod", "CyanogenMod");
             correctionAdd("cynogenmod", "CyanogenMod");
 
+            correctionAdd("adblock", "Adblock");
+            correctionAdd("AdBlock", "Adblock");
+            correctionAdd("adBlock", "Adblock");
+
             correctionAdd("mariadb", "MariaDB");
             correctionAdd("Maria DB", "MariaDB");
             correctionAdd("Mariadb", "MariaDB");
 
             correctionAdd("adb", "ADB");
             correctionAdd("Adb", "ADB");
-            correctionAdd("AVD", "ADB");
+
+            correctionAdd("avd", "Android Virtual Device"); // Expansion. AVD.
+            correctionAdd("AVD", "Android Virtual Device");
+
+            correctionAdd("AVD manager", "AVD Manager");
 
             correctionAdd("Kies", "Samsung Kies");
             correctionAdd("kies", "Samsung Kies");
@@ -10628,11 +10630,15 @@ namespace OverflowHelper.core
 
             correctionAdd("pci", "PCI");
 
-            correctionAdd("youre", "you're");
-            correctionAdd("Ur", "you're");
-            correctionAdd("your'e", "you're");
-            correctionAdd("you´re", "you're");
-            correctionAdd("you re", "you're");
+            correctionAdd("youre", "you’re");
+            correctionAdd("Ur", "you’re");
+            correctionAdd("your'e", "you’re");
+            correctionAdd("you´re", "you’re");
+            correctionAdd("you re", "you’re");
+            correctionAdd("you're", "you’re");
+
+            correctionAdd("no one knows you're a dog", "On the Internet, nobody knows you’re a dog");
+            correctionAdd("On the Internet, nobody knows you're a dog", "On the Internet, nobody knows you’re a dog");
 
             correctionAdd("umbraco", "Umbraco");
 
@@ -11798,8 +11804,9 @@ namespace OverflowHelper.core
 
             correctionAdd("convertto-csv", "ConvertTo-Csv");
 
-            correctionAdd("doppler", "Doppler");
-            correctionAdd("doppler shift", "Doppler");
+            correctionAdd("doppler", "Doppler effect");
+            correctionAdd("doppler shift", "Doppler effect");
+            correctionAdd("Doppler", "Doppler effect");
 
             correctionAdd("mathworks", "MathWorks");
             correctionAdd("Mathworks", "MathWorks");
@@ -13188,9 +13195,10 @@ namespace OverflowHelper.core
             correctionAdd("veritcal", "vertical");
             correctionAdd("vert", "vertical");
 
-            correctionAdd("you ll", "you'll");
-            correctionAdd("youll", "you'll");
-            correctionAdd("you'l", "you'll");
+            correctionAdd("you ll", "you’ll");
+            correctionAdd("youll", "you’ll");
+            correctionAdd("you'l", "you’ll");
+            correctionAdd("you'll", "you’ll");
 
             correctionAdd("APOLLO", "Apollo");
 
@@ -16479,9 +16487,9 @@ namespace OverflowHelper.core
             correctionAdd("Android 2", "Android 2.0 (Eclair)");
             correctionAdd("Android 2.0", "Android 2.0 (Eclair)");
             correctionAdd("android 2.0", "Android 2.0 (Eclair)");
-            correctionAdd("android 2.1", "Android 2.0 (Eclair)");
-            correctionAdd("Android 2.1", "Android 2.0 (Eclair)");
-            correctionAdd("2.1", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            correctionAdd("Android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            correctionAdd("2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
 
             correctionAdd("blogspot", "BlogSpot");
 
@@ -25262,11 +25270,11 @@ namespace OverflowHelper.core
 
             correctionAdd("OJ", "online judge");
 
-            correctionAdd("PHPINFO", "phpinfo");
-            correctionAdd("phpinfo()", "phpinfo");
-            correctionAdd("phpInfo", "phpinfo");
-            correctionAdd("phpInfo()", "phpinfo");
-            correctionAdd("php info", "phpinfo");
+            correctionAdd("PHPINFO", "phpinfo()");
+            correctionAdd("phpInfo()", "phpinfo()");
+            correctionAdd("phpInfo", "phpinfo()");
+            correctionAdd("php info", "phpinfo()");
+            correctionAdd("phpinfo", "phpinfo()");
 
             correctionAdd("pupulate", "populate");
 
@@ -27359,8 +27367,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Civil Engineer", "civil engineer");
 
-            correctionAdd("qute browser", "qutebrowser");
-            correctionAdd("Qutebrowser", "qutebrowser");
+            correctionAdd("qute browser", "Qutebrowser");
+            correctionAdd("qutebrowser", "Qutebrowser");
 
             correctionAdd("twi", "TWI");
 
@@ -27841,8 +27849,6 @@ namespace OverflowHelper.core
             correctionAdd("outputed", "outputted");
 
             correctionAdd("thoughtexperiment", "thought experiment");
-
-            correctionAdd("AVD manager", "AVD Manager");
 
             correctionAdd("PCMan File Manager", "PCManFM");
             correctionAdd("pcmanfm", "PCManFM");
@@ -29408,8 +29414,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Mechwarrior", "MechWarrior");
 
-            correctionAdd("no one knows you're a dog", "On the Internet, nobody knows you're a dog");
-
             correctionAdd("RFC5322", "RFC&nbsp;5322");
             correctionAdd("RFC 5322", "RFC&nbsp;5322");
 
@@ -30676,9 +30680,10 @@ namespace OverflowHelper.core
 
             correctionAdd("cup-of-tea", "cup of tea");
 
-            correctionAdd("the're", "they're");
-            correctionAdd("they re", "they're");
-            correctionAdd("theyre", "they're");
+            correctionAdd("the're", "they’re");
+            correctionAdd("they re", "they’re");
+            correctionAdd("theyre", "they’re");
+            correctionAdd("they're", "they’re");
 
             correctionAdd("gdal", "GDAL");
 
@@ -33127,7 +33132,7 @@ namespace OverflowHelper.core
 
             URL_Add("JSF", "https://en.wikipedia.org/wiki/JavaServer_Faces");
 
-            URL_Add("JSP", "https://en.wikipedia.org/wiki/JavaServer_Pages");
+            URL_Add("JSP", "https://en.wikipedia.org/wiki/Jakarta_Server_Pages"); // Old: https://en.wikipedia.org/wiki/JavaServer_Pages
 
             URL_Add("Paint.NET", "https://en.wikipedia.org/wiki/Paint.NET");
 
@@ -33822,8 +33827,6 @@ namespace OverflowHelper.core
 
             URL_Add("GNOME", "https://en.wikipedia.org/wiki/GNOME");
 
-            URL_Add("Android Virtual Device", "http://developer.android.com/guide/developing/devices/index.html");
-
             URL_Add("OCaml", "https://en.wikipedia.org/wiki/Objective_Caml");
 
             URL_Add("Boo", "https://en.wikipedia.org/wiki/Boo_%28programming_language%29");
@@ -33852,7 +33855,7 @@ namespace OverflowHelper.core
 
             URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
-            URL_Add("won't", "https://en.wiktionary.org/wiki/won%27t");
+            URL_Add("won’t", "https://en.wiktionary.org/wiki/won%27t");
 
             URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
 
@@ -34346,7 +34349,7 @@ namespace OverflowHelper.core
 
             URL_Add("PowerGrep", "http://www.powergrep.com/");
 
-            URL_Add("Razor", "https://en.wikipedia.org/wiki/Microsoft_ASP.NET_Razor_view_engine");
+            URL_Add("Razor", "https://en.wikipedia.org/wiki/ASP.NET_Razor"); // Old: https://en.wikipedia.org/wiki/Microsoft_ASP.NET_Razor_view_engine
 
             URL_Add("WinMerge", "https://en.wikipedia.org/wiki/WinMerge");
 
@@ -34600,7 +34603,7 @@ namespace OverflowHelper.core
 
             URL_Add("algorithm", "https://en.wikipedia.org/wiki/Algorithm");
 
-            URL_Add("NFC", "https://en.wikipedia.org/wiki/Near_field_communication");
+            URL_Add("NFC", "https://en.wikipedia.org/wiki/Near-field_communication"); // Old: https://en.wikipedia.org/wiki/Near_field_communication
 
             URL_Add("web application", "https://en.wikipedia.org/wiki/Web_application");
 
@@ -35474,7 +35477,7 @@ namespace OverflowHelper.core
 
             URL_Add("Schottky", "https://en.wikipedia.org/wiki/Schottky_diode");
 
-            URL_Add("doesn’t", "https://en.wiktionary.org/wiki/doesnt#Verb"); // Old: https://en.wiktionary.org/wiki/doesnt
+            URL_Add("doesn’t", "https://en.wiktionary.org/wiki/doesn%27t#Verb"); // Old: https://en.wiktionary.org/wiki/doesnt#Verb. Old: https://en.wiktionary.org/wiki/doesnt
 
             URL_Add("smartphone", "https://en.wikipedia.org/wiki/Smartphone");
 
@@ -35486,7 +35489,7 @@ namespace OverflowHelper.core
 
             URL_Add("frequency", "https://en.wikipedia.org/wiki/Frequency");
 
-            URL_Add("basically", "https://en.wiktionary.org/wiki/basicly");
+            URL_Add("basically", "https://en.wiktionary.org/wiki/basically#Adverb"); // Old: https://en.wiktionary.org/wiki/basicly
 
             URL_Add("MDI", "https://en.wikipedia.org/wiki/Multiple_document_interface");
 
@@ -35716,7 +35719,7 @@ namespace OverflowHelper.core
 
             URL_Add("automatically", "https://en.wiktionary.org/wiki/automatically#Adverb");
 
-            URL_Add("compatible", "https://en.wiktionary.org/wiki/compatable");
+            URL_Add("compatible", "https://en.wiktionary.org/wiki/compatible#Adjective"); // Old: https://en.wiktionary.org/wiki/compatable
 
             URL_Add("thoroughly", "https://en.wiktionary.org/wiki/thoroughly#Adverb");
 
@@ -36008,7 +36011,9 @@ namespace OverflowHelper.core
 
             URL_Add("PCI", "https://en.wikipedia.org/wiki/Conventional_PCI");
 
-            URL_Add("you're", "https://en.wiktionary.org/wiki/you're#Contraction");
+            URL_Add("you’re", "https://en.wiktionary.org/wiki/you're#Contraction");
+
+            URL_Add("On the Internet, nobody knows you’re a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
 
             URL_Add("Umbraco", "https://en.wikipedia.org/wiki/Umbraco");
 
@@ -36594,7 +36599,7 @@ namespace OverflowHelper.core
 
             URL_Add("ConvertTo-Csv", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/ConvertTo-Csv");
 
-            URL_Add("Doppler", "https://en.wikipedia.org/wiki/Doppler_effect");
+            URL_Add("Doppler effect", "https://en.wikipedia.org/wiki/Doppler_effect");
 
             URL_Add("MathWorks", "https://en.wikipedia.org/wiki/MathWorks");
 
@@ -36900,7 +36905,7 @@ namespace OverflowHelper.core
 
             URL_Add("low-level", "https://en.wiktionary.org/wiki/low-level#Adjective");
 
-            URL_Add("progressive web application", "https://en.wikipedia.org/wiki/Progressive_web_applications");
+            URL_Add("progressive web application", "https://en.wikipedia.org/wiki/Progressive_web_application"); // Old: https://en.wikipedia.org/wiki/Progressive_web_applications
 
             URL_Add("responsive web design", "https://en.wikipedia.org/wiki/Responsive_web_design");
 
@@ -37351,7 +37356,7 @@ namespace OverflowHelper.core
 
             URL_Add("vertical", "https://en.wiktionary.org/wiki/vertical#Adjective");
 
-            URL_Add("you'll", "https://en.wiktionary.org/wiki/you%27ll#Contraction");
+            URL_Add("you’ll", "https://en.wiktionary.org/wiki/you%27ll#Contraction");
 
             URL_Add("Apollo", "https://en.wikipedia.org/wiki/Apollo_program");
 
@@ -37359,7 +37364,7 @@ namespace OverflowHelper.core
 
             URL_Add("Argentina", "https://en.wikipedia.org/wiki/Argentina");
 
-            URL_Add("Artemis", "https://en.wikipedia.org/wiki/Artemis_Project");
+            URL_Add("Artemis", "https://en.wikipedia.org/wiki/Artemis_program"); // Old: https://en.wikipedia.org/wiki/Artemis_Project
 
             URL_Add("BuzzFeed", "https://en.wikipedia.org/wiki/BuzzFeed");
 
@@ -38425,7 +38430,7 @@ namespace OverflowHelper.core
 
             URL_Add("clear cut", "https://en.wiktionary.org/wiki/clear_cut#Adjective");
 
-            URL_Add("corresponding", "https://en.wiktionary.org/wiki/correspond#Verb");
+            URL_Add("corresponding", "https://en.wiktionary.org/wiki/corresponding#Adjective"); // Old: https://en.wiktionary.org/wiki/correspond#Verb
 
             URL_Add("subtract", "https://en.wiktionary.org/wiki/subtract#Verb");
 
@@ -40007,7 +40012,7 @@ namespace OverflowHelper.core
 
             URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
 
-            URL_Add("vis-à-vis", "https://en.wiktionary.org/wiki/vis-%C3%A0-vis#Adverb");
+            URL_Add("vis-à-vis", "https://en.wiktionary.org/wiki/vis-%C3%A0-vis#Preposition"); // Old: https://en.wiktionary.org/wiki/vis-%C3%A0-vis#Adverb
 
             URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
 
@@ -42039,7 +42044,7 @@ namespace OverflowHelper.core
 
             URL_Add("represent", "https://en.wiktionary.org/wiki/represent#Verb");
 
-            URL_Add("technical debt", "https://en.wikipedia.org/wiki/Waterfall_model");
+            URL_Add("technical debt", "https://en.wikipedia.org/wiki/Technical_debt"); // Old (probably in error): https://en.wikipedia.org/wiki/Waterfall_model
 
             URL_Add("today's", "https://en.wiktionary.org/wiki/today's");
 
@@ -45009,7 +45014,7 @@ namespace OverflowHelper.core
 
             URL_Add("online judge", "https://en.wikipedia.org/wiki/Competitive_programming#Overview");
 
-            URL_Add("phpinfo", "https://www.php.net/manual/en/function.phpinfo.php");
+            URL_Add("phpinfo()", "https://www.php.net/manual/en/function.phpinfo.php");
 
             URL_Add("populate", "https://en.wiktionary.org/wiki/populate#Verb");
 
@@ -46763,7 +46768,7 @@ namespace OverflowHelper.core
 
             URL_Add("civil engineer", "https://en.wikipedia.org/wiki/Civil_engineer");
 
-            URL_Add("qutebrowser", "https://en.wikipedia.org/wiki/Qutebrowser");
+            URL_Add("Qutebrowser", "https://en.wikipedia.org/wiki/Qutebrowser");
 
             URL_Add("TWI", "https://en.wikipedia.org/wiki/I%C2%B2C#Derivative_technologies");
 
@@ -47188,8 +47193,6 @@ namespace OverflowHelper.core
             URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
 
             URL_Add("Brazilian variant", "https://en.wikipedia.org/wiki/Lineage_P.1");
-
-            URL_Add("AVD Manager", "https://developer.android.com/studio/run/managing-avds");
 
             URL_Add("PCManFM", "https://en.wikipedia.org/wiki/PCMan_File_Manager");
 
@@ -48423,8 +48426,6 @@ namespace OverflowHelper.core
 
             URL_Add("MechWarrior", "https://en.wikipedia.org/wiki/MechWarrior");
 
-            URL_Add("On the Internet, nobody knows you're a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
-
             URL_Add("RFC&nbsp;5322", "https://en.wikipedia.org/wiki/Email#Message_format");
 
             URL_Add("SAS", "https://en.wikipedia.org/wiki/SAS_(software)");
@@ -49441,7 +49442,7 @@ namespace OverflowHelper.core
 
             URL_Add("cup of tea", "https://en.wiktionary.org/wiki/cup_of_tea#Noun");
 
-            URL_Add("they're", "https://en.wiktionary.org/wiki/they%27re#Contraction");
+            URL_Add("they’re", "https://en.wiktionary.org/wiki/they%27re#Contraction");
 
             URL_Add("GDAL", "https://en.wikipedia.org/wiki/GDAL");
 
@@ -49561,7 +49562,7 @@ namespace OverflowHelper.core
 
             URL_Add("lifetime", "https://en.wiktionary.org/wiki/lifetime#Noun");
 
-            URL_Add("mock-up", "https://en.wiktionary.org/wiki/mockup#Noun");
+            URL_Add("mock-up", "https://en.wiktionary.org/wiki/mock-up#Noun"); // Old: https://en.wiktionary.org/wiki/mockup#Noun
 
             URL_Add("token", "https://en.wiktionary.org/wiki/token#Noun");
 
@@ -50480,6 +50481,10 @@ namespace OverflowHelper.core
             URL_Add("seconds", "https://en.wiktionary.org/wiki/second#Noun_2");
 
             URL_Add("tell", "https://en.wiktionary.org/wiki/tell#Verb");
+
+            URL_Add("AVD Manager", "https://developer.android.com/studio/run/managing-avds");
+
+            URL_Add("Android Virtual Device", "https://developer.android.com/studio/run/managing-avds"); // Old (broken): http://developer.android.com/guide/developing/devices/index.html
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
