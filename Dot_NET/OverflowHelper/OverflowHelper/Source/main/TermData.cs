@@ -1152,6 +1152,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Mac OS 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("Lion OS X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
+            correctionAdd("MacOS X 10.7", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
 
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"); // Sort of identity mapping
             correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
@@ -1324,27 +1325,6 @@ namespace OverflowHelper.core
             correctionAdd("AS3", "ActionScript"); // No stricly correct as the "3" will be left out.
             correctionAdd("as3", "ActionScript"); // No stricly correct as the "3" will be left out.
             correctionAdd("as2", "ActionScript"); // No stricly correct as the "2" will be left out.
-
-            correctionAdd("SP", "stored procedure"); // Collision with SharePoint.
-            correctionAdd("SPs", "stored procedure");
-            correctionAdd("sp", "stored procedure");
-            correctionAdd("sproc", "stored procedure");
-            correctionAdd("sprocs", "stored procedure");
-            correctionAdd("StoredProcedure", "stored procedure");
-            correctionAdd("stored proc", "stored procedure");
-            correctionAdd("Stored Procedure", "stored procedure");
-            correctionAdd("Stored Procedures", "stored procedure"); // Not 100% correct - plural.
-            correctionAdd("StoredProcedures", "stored procedure");
-            correctionAdd("Stored procedures", "stored procedure");
-            correctionAdd("stored procedures", "stored procedure");
-            correctionAdd("Stored Procs", "stored procedure"); // Not 100% correct - plural.
-            correctionAdd("store procedure", "stored procedure");
-            correctionAdd("Stored procedure", "stored procedure");
-            correctionAdd("stored procedured", "stored procedure");
-            correctionAdd("Storedprocedure", "stored procedure");
-            correctionAdd("StoreProcedure", "stored procedure");
-            correctionAdd("stored porcedure", "stored procedure");
-            correctionAdd("procs", "stored procedure");
 
             // Expansion, not case correction.
             correctionAdd("db", "database");
@@ -4269,6 +4249,8 @@ namespace OverflowHelper.core
             correctionAdd("MacPort", "MacPorts");
             correctionAdd("macport", "MacPorts");
             correctionAdd("ports", "MacPorts");
+            correctionAdd("Mac Port", "MacPorts");
+            correctionAdd("Mac Ports", "MacPorts");
 
             correctionAdd("spec", "specification");
             correctionAdd("Spec", "specification");
@@ -4313,6 +4295,7 @@ namespace OverflowHelper.core
             correctionAdd("Super Use", "Super&nbsp;User");
             correctionAdd("superUser", "Super&nbsp;User");
             correctionAdd("SuperUsers", "Super&nbsp;User");
+            correctionAdd("superuser.com", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -6458,6 +6441,7 @@ namespace OverflowHelper.core
             correctionAdd("Ctor", "constructor");
             correctionAdd("construstor", "constructor");
             correctionAdd("cotr", "constructor");
+            correctionAdd("constuctor", "constructor");
 
             correctionAdd("Autoit", "AutoIt");
             correctionAdd("autoit", "AutoIt");
@@ -8411,6 +8395,7 @@ namespace OverflowHelper.core
             correctionAdd("Let's", "let’s"); // Not 100% correct - case.
             correctionAdd("Let`s", "let’s"); // Not 100% correct - case.
             correctionAdd("let`s", "let’s");
+            correctionAdd("let'", "let’s");
 
             correctionAdd("disambig", "disambiguation");
             correctionAdd("disambugation", "disambiguation");
@@ -9075,6 +9060,7 @@ namespace OverflowHelper.core
             correctionAdd("typescrip", "TypeScript");
             correctionAdd("type Script", "TypeScript");
             correctionAdd("typeScript", "TypeScript");
+            correctionAdd("typescipt", "TypeScript");
 
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
@@ -10288,6 +10274,7 @@ namespace OverflowHelper.core
             correctionAdd(".NetCore", ".NET Core");
             correctionAdd("notnetcore", ".NET Core");
             correctionAdd("core", ".NET Core");
+            correctionAdd(". Net-core", ".NET Core");
 
             correctionAdd("asp core", "ASP.NET Core");
             correctionAdd("Asp.net core", "ASP.NET Core");
@@ -10778,6 +10765,7 @@ namespace OverflowHelper.core
 
             correctionAdd("utils", "utilities");
             correctionAdd("utilties", "utilities");
+            correctionAdd("utilies", "utilities");
 
             correctionAdd("wouldnt", "wouldn't");
             correctionAdd("wouldn’t", "wouldn't");
@@ -12030,8 +12018,31 @@ namespace OverflowHelper.core
             correctionAdd("interprate", "interpret");
             correctionAdd("intepret", "interpret");
 
+            correctionAdd("SP", "stored procedure"); // Collision with SharePoint.
+            correctionAdd("SPs", "stored procedure");
+            correctionAdd("sp", "stored procedure");
+            correctionAdd("sproc", "stored procedure");
+            correctionAdd("sprocs", "stored procedure");
+            correctionAdd("StoredProcedure", "stored procedure");
+            correctionAdd("stored proc", "stored procedure");
+            correctionAdd("Stored Procedure", "stored procedure");
+            correctionAdd("Stored Procedures", "stored procedure"); // Not 100% correct - plural.
+            correctionAdd("StoredProcedures", "stored procedure");
+            correctionAdd("Stored procedures", "stored procedure");
+            correctionAdd("stored procedures", "stored procedure");
+            correctionAdd("Stored Procs", "stored procedure"); // Not 100% correct - plural.
+            correctionAdd("store procedure", "stored procedure");
+            correctionAdd("Stored procedure", "stored procedure");
+            correctionAdd("stored procedured", "stored procedure");
+            correctionAdd("Storedprocedure", "stored procedure");
+            correctionAdd("StoreProcedure", "stored procedure");
+            correctionAdd("stored porcedure", "stored procedure");
+            correctionAdd("procs", "stored procedure");
+
             correctionAdd("proceedure", "procedure");
             correctionAdd("precedure", "procedure");
+            correctionAdd("procuedure", "procedure");
+            correctionAdd("proucedure", "procedure");
 
             correctionAdd("seperately", "separately");
             correctionAdd("seperatly", "separately");
@@ -12395,6 +12406,7 @@ namespace OverflowHelper.core
             correctionAdd("themselvs", "themselves");
             correctionAdd("theirself", "themselves");
             correctionAdd("their self", "themselves");
+            correctionAdd("themselved", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -12604,6 +12616,7 @@ namespace OverflowHelper.core
             correctionAdd("mins", "minutes");
             correctionAdd("Mins", "minutes");
             correctionAdd("minut", "minutes");
+            correctionAdd("mintues", "minutes");
 
             correctionAdd("sourcetree", "Sourcetree");
             correctionAdd("SourceTree", "Sourcetree");
@@ -12688,6 +12701,7 @@ namespace OverflowHelper.core
             correctionAdd("mysql-workbenck", "MySQL Workbench");
             correctionAdd("sql workbench", "MySQL Workbench");
             correctionAdd("workbench", "MySQL Workbench");
+            correctionAdd("MySql workbench", "MySQL Workbench");
 
             correctionAdd("Blockchain", "blockchain");
             correctionAdd("Block chain", "blockchain");
@@ -12735,6 +12749,7 @@ namespace OverflowHelper.core
             correctionAdd("neglibliable", "negligible");
 
             correctionAdd("recntly", "recently");
+            correctionAdd("recenlty", "recently");
 
             correctionAdd("runtime", "run time");
             correctionAdd("run-time", "run time");
@@ -13562,6 +13577,7 @@ namespace OverflowHelper.core
 
             correctionAdd("efort", "effort");
             correctionAdd("afford", "effort");
+            correctionAdd("effor", "effort");
 
             correctionAdd("5th", "fifth");
             correctionAdd("Fifth", "fifth");
@@ -13597,6 +13613,7 @@ namespace OverflowHelper.core
             correctionAdd("Unix and Linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("linux and unix", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix and linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("unix.SE", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -16496,6 +16513,8 @@ namespace OverflowHelper.core
             correctionAdd("blogger", "Blogger");
 
             correctionAdd("cors", "CORS");
+            correctionAdd("Cross-Origin Resource Sharing", "CORS");
+            correctionAdd("cross-origin resource sharing", "CORS");
 
             correctionAdd("chromium", "Chromium");
             correctionAdd("chrom(ium)", "Chromium");
@@ -18850,6 +18869,7 @@ namespace OverflowHelper.core
 
             correctionAdd("regester", "register");
             correctionAdd("Regester", "register");
+            correctionAdd("reg", "register");
 
             correctionAdd("raport", "report");
 
@@ -19698,6 +19718,7 @@ namespace OverflowHelper.core
             correctionAdd("cutout", "cut-out");
 
             correctionAdd("immidiate", "immediate");
+            correctionAdd("inmediate", "immediate");
 
             correctionAdd("wellfare", "welfare");
 
@@ -22108,6 +22129,8 @@ namespace OverflowHelper.core
 
             correctionAdd("code golf", "Code Golf (Stack Exchange site)");
             correctionAdd("Code Golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("code-golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("CodeGolf", "Code Golf (Stack Exchange site)");
 
             correctionAdd("Net BSD", "NetBSD");
 
@@ -22354,6 +22377,7 @@ namespace OverflowHelper.core
             correctionAdd("commen", "common");
             correctionAdd("commone", "common");
             correctionAdd("commom", "common");
+            correctionAdd("comman", "common");
 
             correctionAdd("musle", "muscle");
 
@@ -24564,6 +24588,7 @@ namespace OverflowHelper.core
             correctionAdd("serviceless", "serverless computing");
 
             correctionAdd("strait", "straight");
+            correctionAdd("straitght", "straight");
 
             correctionAdd("Blackboard Learning System", "Blackboard Learn");
             correctionAdd("Blackboard", "Blackboard Learn");
@@ -24691,6 +24716,8 @@ namespace OverflowHelper.core
             correctionAdd("lxde", "LXDE");
 
             correctionAdd("bubblesort", "bubble sort");
+            correctionAdd("Bubble Sort", "bubble sort");
+            correctionAdd("BubbleSort", "bubble sort");
 
             correctionAdd("Desktop Environment", "desktop environment");
             correctionAdd("DE", "desktop environment");
@@ -26188,6 +26215,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Godwin's Law", "Godwin's law");
             correctionAdd("godwins law", "Godwin's law");
+            correctionAdd("godwin's law", "Godwin's law");
 
             correctionAdd("Macbook M1 air", "MacBook Air (M1)");
 
@@ -26575,12 +26603,6 @@ namespace OverflowHelper.core
             correctionAdd("WW3", "World War III");
             correctionAdd("WW 3", "World War III");
             correctionAdd("WW III", "World War III");
-
-            correctionAdd("auto-close", "autoclose");
-
-            correctionAdd("auto-closing", "autoclosing");
-
-            correctionAdd("comma separated", "comma-separated");
 
             correctionAdd("coup de grace", "coup de grâce");
 
@@ -27491,6 +27513,8 @@ namespace OverflowHelper.core
             correctionAdd("que", "queue");
 
             correctionAdd("scenerio", "scenario");
+            correctionAdd("Scanario", "scenario");
+            correctionAdd("scanario", "scenario");
 
             correctionAdd("soley", "solely");
 
@@ -29713,6 +29737,7 @@ namespace OverflowHelper.core
 
             correctionAdd("microarch", "microarchitecture");
             correctionAdd("µarch", "microarchitecture");
+            correctionAdd("uarch", "microarchitecture");
 
             correctionAdd("mindreading", "mind-reading");
 
@@ -31106,6 +31131,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Commons-IO", "Commons IO");
             correctionAdd("commons-io", "Commons IO");
+            correctionAdd("commons", "Commons IO");
+            correctionAdd("Commons", "Commons IO");
 
             correctionAdd("ipcc", "IPCC");
             correctionAdd("Intergovernmental Panel on Climate Change", "IPCC");
@@ -32050,6 +32077,7 @@ namespace OverflowHelper.core
             correctionAdd("deployd", "deployed");
 
             correctionAdd("encounted", "encountered");
+            correctionAdd("encounterd", "encountered");
 
             correctionAdd("execured", "executed");
 
@@ -32130,6 +32158,74 @@ namespace OverflowHelper.core
             correctionAdd("secs", "seconds");
 
             correctionAdd("tel", "tell");
+
+            correctionAdd("bcpl", "BCPL");
+
+            correctionAdd("fanatic badge", "Fanatic badge");
+
+            correctionAdd("geronimo", "Geronimo");
+
+            correctionAdd("ice lake", "Ice Lake");
+
+            correctionAdd("Jovial", "JOVIAL");
+
+            correctionAdd("Access 2010", "Microsoft Access 2010");
+
+            correctionAdd("MULTICS", "Multics");
+
+            correctionAdd("zen", "Zen");
+
+            correctionAdd("zen2", "Zen 2");
+            correctionAdd("Zen2", "Zen 2");
+
+            correctionAdd("branch-less", "branchless");
+
+            correctionAdd("brand-new", "brand new");
+
+            correctionAdd("auto-close", "autoclose");
+
+            correctionAdd("auto-closing", "autoclosing");
+
+            correctionAdd("comma separated", "comma-separated");
+
+            correctionAdd("clocsing", "closing");
+            correctionAdd("Clocsing", "closing");
+
+            correctionAdd("conculsion", "conclusion");
+
+            correctionAdd("DnD", "drag and drop");
+            correctionAdd("drag'n'drop", "drag and drop");
+
+            correctionAdd("error-handling", "error handling");
+
+            correctionAdd("good will", "goodwill");
+
+            correctionAdd("IINM", "if I'm not mistaken");
+
+            correctionAdd("inconsequntial", "inconsequential");
+
+            correctionAdd("interation", "iteration");
+
+            correctionAdd("interations", "iterations");
+
+            correctionAdd("messagebox", "message box");
+
+            correctionAdd("uarches", "microarchitectures");
+
+            correctionAdd("non-comprehensive", "noncomprehensive");
+
+            correctionAdd("non-existent", "nonexistent");
+            correctionAdd("nonexistant", "nonexistent");
+            correctionAdd("non existant", "nonexistent");
+            correctionAdd("non existent", "nonexistent");
+
+            correctionAdd("regs", "registers");
+
+            correctionAdd("re-supply", "resupply");
+
+            correctionAdd("typcially", "typically");
+
+            correctionAdd("uppar", "upper");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50485,6 +50581,62 @@ namespace OverflowHelper.core
             URL_Add("AVD Manager", "https://developer.android.com/studio/run/managing-avds");
 
             URL_Add("Android Virtual Device", "https://developer.android.com/studio/run/managing-avds"); // Old (broken): http://developer.android.com/guide/developing/devices/index.html
+
+            URL_Add("BCPL", "https://en.wikipedia.org/wiki/BCPL");
+
+            URL_Add("Fanatic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
+
+            URL_Add("Geronimo", "https://en.wikipedia.org/wiki/Apache_Geronimo");
+
+            URL_Add("Ice Lake", "https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)");
+
+            URL_Add("JOVIAL", "https://en.wikipedia.org/wiki/JOVIAL");
+
+            URL_Add("Microsoft Access 2010", "https://en.wikipedia.org/wiki/Microsoft_Access#Timeline");
+
+            URL_Add("Multics", "https://en.wikipedia.org/wiki/Multics");
+
+            URL_Add("Zen", "https://en.wikipedia.org/wiki/Zen_(microarchitecture)");
+
+            URL_Add("Zen 2", "https://en.wikipedia.org/wiki/Zen_2");
+
+            URL_Add("branchless", "https://en.wiktionary.org/wiki/branchless#Adjective");
+
+            URL_Add("brand new", "https://en.wiktionary.org/wiki/brand_new#Adjective");
+
+            URL_Add("closing", "https://en.wiktionary.org/wiki/close#Verb");
+
+            URL_Add("conclusion", "https://en.wiktionary.org/wiki/conclusion#Noun");
+
+            URL_Add("drag and drop", "https://en.wiktionary.org/wiki/drag_and_drop#Noun");
+
+            URL_Add("error handling", "https://en.wikipedia.org/wiki/Exception_handling#Exception_handling_in_UI_hierarchies");
+
+            URL_Add("goodwill", "https://en.wiktionary.org/wiki/goodwill#Noun");
+
+            URL_Add("if I'm not mistaken", "https://en.wiktionary.org/wiki/IINM#Adverb");
+
+            URL_Add("inconsequential", "https://en.wiktionary.org/wiki/inconsequential#Adjective");
+
+            URL_Add("iteration", "https://en.wiktionary.org/wiki/iteration#Noun");
+
+            URL_Add("iterations", "https://en.wiktionary.org/wiki/iteration#Noun");
+
+            URL_Add("message box", "https://en.wikipedia.org/wiki/Dialog_box");
+
+            URL_Add("microarchitectures", "https://en.wikipedia.org/wiki/Microarchitecture");
+
+            URL_Add("noncomprehensive", "https://en.wiktionary.org/wiki/noncomprehensive#Adjective");
+
+            URL_Add("nonexistent", "https://en.wiktionary.org/wiki/nonexistent#Adjective");
+
+            URL_Add("registers", "https://en.wikipedia.org/wiki/Processor_register");
+
+            URL_Add("resupply", "https://en.wiktionary.org/wiki/resupply#Noun");
+
+            URL_Add("typically", "https://en.wiktionary.org/wiki/typically#Adverb");
+
+            URL_Add("upper", "https://en.wiktionary.org/wiki/upper#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
