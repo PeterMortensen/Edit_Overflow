@@ -9289,6 +9289,7 @@ namespace OverflowHelper.core
             correctionAdd("Doesnt", "doesn’t");
             correctionAdd("does't", "doesn’t");
             correctionAdd("donst", "doesn’t");
+            correctionAdd("doesnt't", "doesn’t");
 
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
@@ -16494,6 +16495,7 @@ namespace OverflowHelper.core
             correctionAdd("wirh", "with");
             correctionAdd("wiuth", "with");
             correctionAdd("Whit", "with");
+            correctionAdd("witht", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -26296,6 +26298,7 @@ namespace OverflowHelper.core
             correctionAdd("Serailize", "serialise");
 
             correctionAdd("Academia", "Academia (Stack Exchange site)");
+            correctionAdd("academia SE", "Academia (Stack Exchange site)");
 
             correctionAdd("iceland", "Iceland");
 
@@ -32226,6 +32229,23 @@ namespace OverflowHelper.core
             correctionAdd("typcially", "typically");
 
             correctionAdd("uppar", "upper");
+
+            correctionAdd("FLRW", "Friedmann–Lemaître–Robertson–Walker metric");
+
+            correctionAdd("rtti", "RTTI");
+
+            correctionAdd("spaniard", "Spaniard");
+
+            correctionAdd("blue-shifted", "blueshifted");
+
+            correctionAdd("Computational Biology", "computational biology");
+
+            correctionAdd("non-consecutive", "nonconsecutive");
+
+            correctionAdd("slo-mo", "slow motion");
+
+            correctionAdd("time-dilation", "time dilation");
+            correctionAdd("Time-dilation", "time dilation");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50637,6 +50657,22 @@ namespace OverflowHelper.core
             URL_Add("typically", "https://en.wiktionary.org/wiki/typically#Adverb");
 
             URL_Add("upper", "https://en.wiktionary.org/wiki/upper#Adjective");
+
+            URL_Add("Friedmann–Lemaître–Robertson–Walker metric", "https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric");
+
+            URL_Add("RTTI", "https://en.wikipedia.org/wiki/Run-time_type_information");
+
+            URL_Add("Spaniard", "https://en.wiktionary.org/wiki/Spaniard#Noun");
+
+            URL_Add("blueshifted", "https://en.wiktionary.org/wiki/blueshifted");
+
+            URL_Add("computational biology", "https://en.wikipedia.org/wiki/Computational_biology");
+
+            URL_Add("nonconsecutive", "https://en.wiktionary.org/wiki/nonconsecutive#Adjective");
+
+            URL_Add("slow motion", "https://en.wiktionary.org/wiki/slow_motion#Noun");
+
+            URL_Add("time dilation", "https://en.wikipedia.org/wiki/Time_dilation");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
