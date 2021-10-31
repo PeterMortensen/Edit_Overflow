@@ -5130,6 +5130,7 @@ namespace OverflowHelper.core
             correctionAdd("woch", "which");
             correctionAdd("whidh", "which");
             correctionAdd("Wich", "which");
+            correctionAdd("Which", "which");
 
             correctionAdd("fiddler", "Fiddler");
 
@@ -18487,11 +18488,6 @@ namespace OverflowHelper.core
 
             correctionAdd("proportionnaly", "proportionally");
 
-            correctionAdd("on porpouse", "on purpose");
-
-            correctionAdd("porpouse", "purpose");
-            correctionAdd("porpuse", "purpose");
-
             correctionAdd("Kief", "Kiev");
 
             correctionAdd("uncle bob", "Uncle Bob");
@@ -22058,6 +22054,7 @@ namespace OverflowHelper.core
             correctionAdd("australia", "Australia");
             correctionAdd("austrailia", "Australia");
             correctionAdd("Oz", "Australia");
+            correctionAdd("OZ", "Australia");
 
             correctionAdd("gdpr", "GDPR");
             correctionAdd("GDRP", "GDPR");
@@ -26569,7 +26566,13 @@ namespace OverflowHelper.core
 
             correctionAdd("enlightn", "enlighten");
 
+            correctionAdd("on porpouse", "on purpose");
+
             correctionAdd("general purpose", "general-purpose");
+
+            correctionAdd("porpouse", "purpose");
+            correctionAdd("porpuse", "purpose");
+            correctionAdd("putpose", "purpose");
 
             correctionAdd("hell bent", "hell-bent");
 
@@ -32169,6 +32172,7 @@ namespace OverflowHelper.core
             correctionAdd("Degredation", "degradation");
 
             correctionAdd("Graceful Degradation", "graceful degradation");
+            correctionAdd("gracefully degradation", "graceful degradation");
 
             correctionAdd("initialy", "initially");
 
@@ -32291,6 +32295,8 @@ namespace OverflowHelper.core
             correctionAdd("re-made", "remade");
 
             correctionAdd("restting", "resting");
+
+            correctionAdd("tailing", "trailing");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50738,6 +50744,8 @@ namespace OverflowHelper.core
             URL_Add("remade", "https://en.wiktionary.org/wiki/remake#Verb");
 
             URL_Add("resting", "https://en.wiktionary.org/wiki/rest#Verb");
+
+            URL_Add("trailing", "https://en.wiktionary.org/wiki/trailing#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
