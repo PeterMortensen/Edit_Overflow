@@ -1629,6 +1629,7 @@ namespace OverflowHelper.core
             correctionAdd("Segmentation Fault", "segmentation fault");
             correctionAdd("segmantation error", "segmentation fault");
             correctionAdd("SIGSEGV", "segmentation fault");
+            correctionAdd("Segmentation fault", "segmentation fault");
 
             correctionAdd("json", "JSON");
             correctionAdd("Json", "JSON");
@@ -32298,6 +32299,28 @@ namespace OverflowHelper.core
 
             correctionAdd("tailing", "trailing");
 
+            correctionAdd("fluxbox", "Fluxbox");
+
+            correctionAdd("mrl", "MRL");
+
+            correctionAdd("α particle", "alpha particle");
+            correctionAdd("α-particle", "alpha particle");
+
+            correctionAdd("altrurist", "altruist");
+            correctionAdd("Altruist", "altruist");
+            correctionAdd("Altrurist", "altruist");
+
+            correctionAdd("freefall", "free fall");
+
+            correctionAdd("monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Monterey", "macOS&nbsp;v12 (Monterey)");
+
+            correctionAdd("stetching", "stretching");
+
+            correctionAdd("stuppid", "stupid");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -50746,6 +50769,22 @@ namespace OverflowHelper.core
             URL_Add("resting", "https://en.wiktionary.org/wiki/rest#Verb");
 
             URL_Add("trailing", "https://en.wiktionary.org/wiki/trailing#Adjective");
+
+            URL_Add("Fluxbox", "https://en.wikipedia.org/wiki/Fluxbox");
+
+            URL_Add("MRL", "https://en.wikipedia.org/wiki/Media_resource_locator");
+
+            URL_Add("alpha particle", "https://en.wikipedia.org/wiki/Alpha_particle");
+
+            URL_Add("altruist", "https://en.wiktionary.org/wiki/altruist#Noun");
+
+            URL_Add("free fall", "https://en.wikipedia.org/wiki/Free_fall");
+
+            URL_Add("macOS&nbsp;v12 (Monterey)", "https://en.wikipedia.org/wiki/MacOS_Monterey");
+
+            URL_Add("stretching", "https://en.wiktionary.org/wiki/stretch#Verb");
+
+            URL_Add("stupid", "https://en.wiktionary.org/wiki/stupid#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
