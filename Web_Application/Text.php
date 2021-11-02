@@ -351,7 +351,7 @@
                                   $aSomeText,
                                   $touchedText,
                                   $aLengthDiff);
-            }
+            } #test_transformFor_YouTubeComments()
 
 
             # Helper function for testing
@@ -376,7 +376,7 @@
                       "(\"$anExpectedOutput\").\n";
                     #assert(false);
                 }
-            }
+            } #test_generateWikiMedia_Link()
 
 
             # General comments/notes about testing:
@@ -535,6 +535,30 @@
                   "    \r\n" .
                   "   04 min 17 secs:  Real start of pre Q&A\r\n",
                 8);
+
+            # Note: The size test happens to be not sensitive when there
+            #       are two dots in the domain (e.g. "en.wikipedia.org" 
+            #       or "www.youtube.com" and https:// is used). A 
+            #       workaround is to use http://, but it is easy to
+            #       make an off-by-one error when computing the 
+            #       expected result.
+            #
+            #       Or in other words, we risk false negative tests!
+            #
+            # Test for not converting Markdown links (used in LBRY comments)
+            #
+            test_transformFor_YouTubeComments(1030,
+                "01 h 06 min 51 secs: \"OZ\" = [Australia](https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=OZ)\r\n",
+                10);
+
+            # Not a real Markdown link (or misformed). We could add more lines
+            # in the same test here, for more variations.
+            #
+            test_transformFor_YouTubeComments(1031,
+                "53 min 23 secs: Dave has issues with [Neomi Wu(http://en.wikipedia.org/wiki/Naomi_Wu)\r\n" .
+                "53 min 23 secs: Dave has issues with [Neomi Wu](http://en.wikipedia.org/wiki/Naomi_Wu",
+                7 + 7);
+
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
             #For debugging

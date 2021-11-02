@@ -39,6 +39,9 @@
                                        $this->mCurrentString);
         }
 
+        # Use for tests (using regular expressions) 
+        # on the current state of the string
+        #
         function match($aMatchString)
         {
             $toReturn = preg_match('/' . $aMatchString . '/',
