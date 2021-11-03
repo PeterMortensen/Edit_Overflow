@@ -1630,6 +1630,7 @@ namespace OverflowHelper.core
             correctionAdd("segmantation error", "segmentation fault");
             correctionAdd("SIGSEGV", "segmentation fault");
             correctionAdd("Segmentation fault", "segmentation fault");
+            correctionAdd("segment violation", "segmentation fault");
 
             correctionAdd("json", "JSON");
             correctionAdd("Json", "JSON");
@@ -3042,6 +3043,7 @@ namespace OverflowHelper.core
             correctionAdd("defently", "definitely");
             correctionAdd("Definitely", "definitely");
             correctionAdd("definitelt", "definitely");
+            correctionAdd("defintitely", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -3802,6 +3804,7 @@ namespace OverflowHelper.core
             correctionAdd("configuation", "configuration");
             correctionAdd("confuguration", "configuration");
             correctionAdd("configutation", "configuration");
+            correctionAdd("configuarion", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -3883,6 +3886,7 @@ namespace OverflowHelper.core
             correctionAdd("characher", "characters"); // Not 100% correct. Add a plural feature?
             correctionAdd("charachers", "characters");
             correctionAdd("character", "characters");
+            correctionAdd("caracter", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -9189,10 +9193,6 @@ namespace OverflowHelper.core
             correctionAdd("Setup", "set up");
             correctionAdd("Set-up", "set up");
 
-            correctionAdd("runon", "run-on sentence"); // For expansion
-            correctionAdd("run on", "run-on sentence"); // For expansion
-            correctionAdd("run-on", "run-on sentence");
-
             correctionAdd("gpio", "GPIO");
 
             correctionAdd("dreamweaver", "Dreamweaver");
@@ -10232,6 +10232,8 @@ namespace OverflowHelper.core
             correctionAdd("chud", "should");
             correctionAdd("chould", "should");
             correctionAdd("sould", "should");
+            correctionAdd("Shoud", "should");
+            correctionAdd("Should", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -13495,8 +13497,13 @@ namespace OverflowHelper.core
             correctionAdd("scholl", "scroll");
             correctionAdd("Scroll", "scroll");
 
+            correctionAdd("runon", "run-on sentence"); // For expansion
+            correctionAdd("run on", "run-on sentence"); // For expansion
+            correctionAdd("run-on", "run-on sentence");
+
             correctionAdd("sentance", "sentence");
             correctionAdd("sentencen", "sentence");
+            correctionAdd("sentense", "sentence");
 
             correctionAdd("sideeffect", "side effect");
             correctionAdd("side-effect", "side effect");
@@ -16250,6 +16257,7 @@ namespace OverflowHelper.core
             correctionAdd("thst", "that");
             correctionAdd("thant", "that");
             correctionAdd("That", "that");
+            correctionAdd("thhat", "that");
 
             correctionAdd("TR", "tr");
 
@@ -16634,7 +16642,7 @@ namespace OverflowHelper.core
             correctionAdd("Personnaly", "personally");
             correctionAdd("Personaly", "personally");
             correctionAdd("personaly", "personally");
-            correctionAdd("ony", "personally");
+            correctionAdd("persinally", "personally");
 
             correctionAdd("pre-allocated", "preallocated");
 
@@ -18179,6 +18187,7 @@ namespace OverflowHelper.core
             correctionAdd("orginal", "original");
             correctionAdd("orignal", "original");
             correctionAdd("origlnal", "original");
+            correctionAdd("origintal", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -20418,6 +20427,7 @@ namespace OverflowHelper.core
             correctionAdd("vaild", "valid"); // True typo
 
             correctionAdd("achiving", "achieving");
+            correctionAdd("archiving", "achieving");
 
             correctionAdd("agregated", "aggregated");
 
@@ -21995,6 +22005,7 @@ namespace OverflowHelper.core
             correctionAdd("re-start", "restart");
 
             correctionAdd("sice", "since");
+            correctionAdd("sonce", "since");
 
             correctionAdd("Sr", "strontium");
 
@@ -28927,6 +28938,9 @@ namespace OverflowHelper.core
 
             correctionAdd("for all intents an purposes", "for all intents and purposes");
             correctionAdd("for all purposes", "for all intents and purposes");
+            correctionAdd("intents and purposes", "for all intents and purposes");
+            correctionAdd("the intents and purposes", "for all intents and purposes");
+            correctionAdd("for the intents and purposes", "for all intents and purposes");
 
             correctionAdd("OS's", "OSes");
             correctionAdd("OSs", "OSes");
@@ -29440,6 +29454,7 @@ namespace OverflowHelper.core
 
             correctionAdd("principle of least surprise", "principle of least astonishment");
             correctionAdd("Principle of Least Surprise", "principle of least astonishment");
+            correctionAdd("least astonishment", "principle of least astonishment");
 
             correctionAdd("red-herring", "red herring");
 
@@ -32320,6 +32335,51 @@ namespace OverflowHelper.core
             correctionAdd("stetching", "stretching");
 
             correctionAdd("stuppid", "stupid");
+
+            correctionAdd("eevblog", "EEVBlog");
+
+            correctionAdd("CoPilot", "GitHub Copilot");
+            correctionAdd("Github Copilot", "GitHub Copilot");
+
+            correctionAdd("mbed", "Mbed");
+
+            correctionAdd("DU", "du");
+
+            correctionAdd("live usb", "live USB");
+
+            correctionAdd("pretense", "pretence");
+
+            correctionAdd("publihsed", "published");
+
+            correctionAdd("sub-par", "subpar");
+            correctionAdd("sub par", "subpar");
+
+            correctionAdd("summarly", "summarily");
+
+            correctionAdd("NXOpen", "NX Open");
+            correctionAdd("Nx open", "NX Open");
+
+            correctionAdd("Win11", "Windows&nbsp;11");
+            correctionAdd("Windows 11", "Windows&nbsp;11");
+            correctionAdd("windows 11", "Windows&nbsp;11");
+
+            correctionAdd("beief", "belief");
+
+            correctionAdd("best-practice", "best practice");
+
+            correctionAdd("cries faul", "cries foul");
+
+            correctionAdd("derivates", "derivatives");
+
+            correctionAdd("gftp", "gFTP");
+
+            correctionAdd("occupyes", "occupies");
+
+            correctionAdd("powerplay", "power play");
+
+            correctionAdd("retro", "retrospective");
+
+            correctionAdd("win win", "win-win");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50785,6 +50845,46 @@ namespace OverflowHelper.core
             URL_Add("stretching", "https://en.wiktionary.org/wiki/stretch#Verb");
 
             URL_Add("stupid", "https://en.wiktionary.org/wiki/stupid#Adjective");
+
+            URL_Add("EEVBlog", "https://en.wikipedia.org/wiki/David_L._Jones_(video_blogger)#EEVBlog");
+
+            URL_Add("GitHub Copilot", "https://en.wikipedia.org/wiki/GitHub_Copilot");
+
+            URL_Add("Mbed", "https://en.wikipedia.org/wiki/Mbed");
+
+            URL_Add("du", "https://en.wikipedia.org/wiki/Du_(Unix)");
+
+            URL_Add("live USB", "https://en.wikipedia.org/wiki/Live_USB");
+
+            URL_Add("pretence", "https://en.wiktionary.org/wiki/pretence#Noun");
+
+            URL_Add("published", "https://en.wiktionary.org/wiki/publish#Verb");
+
+            URL_Add("subpar", "https://en.wiktionary.org/wiki/subpar#Adjective");
+
+            URL_Add("summarily", "https://en.wiktionary.org/wiki/summarily#Adverb");
+
+            URL_Add("NX Open", "https://docs.plm.automation.siemens.com/tdoc/nx/10/nx_api/#uid:index");
+
+            URL_Add("Windows&nbsp;11", "https://en.wikipedia.org/wiki/Windows_11");
+
+            URL_Add("belief", "https://en.wiktionary.org/wiki/belief#Noun");
+
+            URL_Add("best practice", "https://en.wiktionary.org/wiki/best_practice#Noun");
+
+            URL_Add("cries foul", "https://en.wiktionary.org/wiki/cry_foul#Verb");
+
+            URL_Add("derivatives", "https://en.wiktionary.org/wiki/derivative#Noun");
+
+            URL_Add("gFTP", "https://en.wikipedia.org/wiki/GFTP");
+
+            URL_Add("occupies", "https://en.wiktionary.org/wiki/occupy#Verb");
+
+            URL_Add("power play", "https://en.wiktionary.org/wiki/power_play#Noun");
+
+            URL_Add("retrospective", "https://en.wikipedia.org/wiki/Retrospective#Software_development");
+
+            URL_Add("win-win", "https://en.wiktionary.org/wiki/win-win#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
