@@ -70,7 +70,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a180 2021-11-03T123746Z+0";
+        return "Edit Overflow v. 1.1.49a181 2021-11-03T191243Z+0";
     }
 
 
@@ -367,6 +367,10 @@
     } #the_formValue()
 
 
+    #Why is it here when similar functions are in Text.php? Probably
+    #because it uses StringReplacerWithRegex (that is in a separate
+    #file).
+    # 
     function transformFor_YouTubeComments($aText)
     {
         $replacer = new StringReplacerWithRegex($aText);
@@ -507,7 +511,24 @@
         return $someText;
     } #transformFor_YouTubeComments()
 
-
+    
+    # Format a link in WikiMedia (Wikipedia format). 
+    #
+    # The first part is related to the URL (essentially the title of 
+    # the Wikipedia article). The second part is what we have chosen
+    # to be the output word (correct term). Sometimes the two parts
+    # are the same    
+    #
+    # Example:
+    #
+    #    ''[[Uniform_resource_locator|URL]]''
+    #
+    # Future:
+    #
+    #   1. We should replace "_" with space (as it is more 
+    #      readable in Wikipedia source text).   
+    #
+    #
     function WikiMedia_Link($aURL, $aCorrectTerm)
     {
         #Note: This is redundant with the corresponding

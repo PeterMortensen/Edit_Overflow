@@ -154,7 +154,6 @@
             } # findCommonLeadingSpaces()
 
 
-            #function removeCommonLeadingSpaces($aText, $aLeadingSpaces)
             function removeCommonLeadingSpaces($aText)
             {
                 $someText = preprocessTextForRemovingCommonLeadingSpaces($aText);
@@ -182,6 +181,26 @@
                 }
                 return implode("\r\n", $newContent);
             } #removeCommonLeadingSpaces()
+
+
+            function convertToMarkdownCodefencing_none($aText)
+            {
+                $replacer = new StringReplacerWithRegex($aText);
+
+                # ".*" seems to be non-greedy (unlike Perl). This should
+                # be investigated further
+                #
+                #$replacer->transform('\s\s\s\s(.*)\r\n', '$1' . "\r\n");
+                $replacer->transform('    (.*)\r\n', '$1' . "\r\n");
+
+                $someText = $replacer->currentString();
+
+                return
+                    "```lang-none\r\n" .
+                    $someText .
+                    "```\r\n";
+
+            } #convertToMarkdownCodefencing_none()
 
 
             # -------------------- End of main functions ---------------------
@@ -265,7 +284,7 @@
                                   $aSomeText,
                                   $touchedText,
                                   $aLengthDiff);
-            }
+            } #test_removeTrailingSpacesAndTABs()
 
 
             #Not used yet.
@@ -346,6 +365,37 @@
                 $touchedText = transformFor_YouTubeComments($aSomeText);
 
                 #print "<p>$anID: AAAA $touchedText BBBB</p>";
+
+                assert_strLengths($anID,
+                                  $aSomeText,
+                                  $touchedText,
+                                  $aLengthDiff);
+            } #test_transformFor_YouTubeComments()
+
+            # Helper function for testing
+            #
+            function test_convert_to_Markdown_codefencing($anID, $aSomeText, $aLengthDiff)
+            {
+                $touchedText = convertToMarkdownCodefencing_none($aSomeText);
+
+                $newLinesBefore = substr_count($aSomeText,   "\r\n");
+                $newLinesAfter =  substr_count($touchedText, "\r\n");
+                $expectedNewLinesAfter = $newLinesBefore + 2;
+
+                # Assumptions made about this function, no matter
+                # the current expected set of inputs:
+                #
+                # 1.No leading space (this presumes all non-empty lines in
+                #   in the input have four spaces indent).
+                #
+                # 2. Number of newlines has increased by 2 (for the code fencing)
+                if ($newLinesAfter != $expectedNewLinesAfter)
+                {
+                    echo "<p>The output does not contain the expected number of newlines " .
+                          "(it has $newLinesAfter, but $expectedNewLinesAfter was expected). " .
+                          "ID: $anID. The output: ___" . $touchedText . "___ </p>\n";
+                    assert(false);
+                }
 
                 assert_strLengths($anID,
                                   $aSomeText,
@@ -537,10 +587,10 @@
                 8);
 
             # Note: The size test happens to be not sensitive when there
-            #       are two dots in the domain (e.g. "en.wikipedia.org" 
-            #       or "www.youtube.com" and https:// is used). A 
+            #       are two dots in the domain (e.g. "en.wikipedia.org"
+            #       or "www.youtube.com" and https:// is used). A
             #       workaround is to use http://, but it is easy to
-            #       make an off-by-one error when computing the 
+            #       make an off-by-one error when computing the
             #       expected result.
             #
             #       Or in other words, we risk false negative tests!
@@ -558,6 +608,27 @@
                 "53 min 23 secs: Dave has issues with [Neomi Wu(http://en.wikipedia.org/wiki/Naomi_Wu)\r\n" .
                 "53 min 23 secs: Dave has issues with [Neomi Wu](http://en.wikipedia.org/wiki/Naomi_Wu",
                 7 + 7);
+
+
+
+            test_convert_to_Markdown_codefencing(1032,
+                "    XXX\r\n",
+                1*4 - (12 + 2 + 3 + 2)); # The 2's are for the CR+LF.
+
+            test_convert_to_Markdown_codefencing(1033,
+                "    if (\$next)\r\n" .
+                "    {\r\n" .
+                "        \$next .= \"Extras\";\r\n" .
+                "    }\r\n" .
+                "",
+                4*4 - (12 + 2 + 3 + 2)); # The 2's are for the CR+LF.
+
+            test_convert_to_Markdown_codefencing(1034,
+                "    AAA\r\n" .
+                "\r\n" .
+                "    BBB\r\n" .
+                "",
+                2*4 - (12 + 2 + 3 + 2)); # The 2's are for the CR+LF.
 
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
@@ -695,6 +766,17 @@
 
                     $message = "<p>Removed " . $leadingSpaceToRemove .
                                 " leading spaces from all lines...</p>\n";
+
+                    $fallThrough = 0;
+                }
+
+                if (isset($button['convert_to_Markdown_codefencing']))
+                {
+                    $someText = convertToMarkdownCodefencing_none($someText);
+
+                    $message = "";
+                    #$message = "<p>Converted " . $leadingSpaceToRemove .
+                    #            " lines of code Markdown codefencing...</p>\n";
 
                     $fallThrough = 0;
                 }
@@ -881,6 +963,18 @@
                 style="width:275px;"
                 accesskey="L"
                 title="Shortcut: Shift + Alt + L"
+            />
+
+            <!-- Convert to Markdown codefencing button  -->
+            <input
+                name="someAction[convert_to_Markdown_codefencing]"
+                type="Submit"
+                id="LookUp31"
+                class="XYZ31"
+                value="Convert to Markdown codefencing"
+                style="width:275px;"
+                accesskey="M"
+                title="Shortcut: Shift + Alt + M"
             />
 
         </form>
