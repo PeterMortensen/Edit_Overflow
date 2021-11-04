@@ -3136,6 +3136,7 @@ namespace OverflowHelper.core
             correctionAdd("INNO DB", "InnoDB");
             correctionAdd("inno db", "InnoDB");
             correctionAdd("INNODB", "InnoDB");
+            correctionAdd("Innodb", "InnoDB");
 
             correctionAdd("myisam", "MyISAM");
             correctionAdd("MyIsam", "MyISAM");
@@ -3562,6 +3563,8 @@ namespace OverflowHelper.core
             correctionAdd("Carnt", "can’t");
             correctionAdd("carnt", "can’t");
             correctionAdd("can'T", "can’t");
+            correctionAdd("CAN'T", "can’t");
+            correctionAdd("CANT", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -4075,6 +4078,7 @@ namespace OverflowHelper.core
             correctionAdd("dissable", "disable");
             correctionAdd("diable", "disable");
             correctionAdd("disablink", "disable");
+            correctionAdd("disble", "disable");
 
             correctionAdd("fore-see-able", "foreseeable");
 
@@ -4550,6 +4554,7 @@ namespace OverflowHelper.core
             correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("RHL", "Red Hat Linux");
 
             correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The OS, not the company.
             correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
@@ -5555,6 +5560,7 @@ namespace OverflowHelper.core
             correctionAdd("Foreign Key", "foreign key");
             correctionAdd("Foreign key", "foreign key");
             correctionAdd("Fk", "foreign key");
+            correctionAdd("foriegn key", "foreign key");
 
             correctionAdd("PK", "primary key");
             correctionAdd("pK", "primary key");
@@ -6999,6 +7005,9 @@ namespace OverflowHelper.core
             correctionAdd("3d Party", "third-party");
             correctionAdd("3d party", "third-party");
             correctionAdd("3th party", "third-party");
+            correctionAdd("Thired party", "third-party");
+            correctionAdd("thired party", "third-party");
+            correctionAdd("thired-party", "third-party");
 
             correctionAdd("Defination", "definition");
             correctionAdd("defination", "definition");
@@ -9388,11 +9397,13 @@ namespace OverflowHelper.core
             correctionAdd("didn`t", "didn’t");
             correctionAdd("did't", "didn’t");
             correctionAdd("dint", "didn’t");
-            correctionAdd("didn't", "didn’t"); // Quora...
+            correctionAdd("didn't", "didn’t");
             correctionAdd("din’t", "didn’t");
             correctionAdd("did`nt", "didn’t");
             correctionAdd("didn t", "didn’t");
             correctionAdd("did'nt", "didn’t");
+            correctionAdd("diedn#t", "didn’t");
+            correctionAdd("diedn't", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -11021,6 +11032,7 @@ namespace OverflowHelper.core
             correctionAdd("pronuniciation", "pronunciation");
             correctionAdd("Pronounciation", "pronunciation");
             correctionAdd("pronuncation", "pronunciation");
+            correctionAdd("pronouciation", "pronunciation");
 
             correctionAdd("requrie", "require");
             correctionAdd("requries", "require"); // Not 100% correct, third-person singular
@@ -12659,6 +12671,8 @@ namespace OverflowHelper.core
             correctionAdd("col", "column");
             correctionAdd("coluomn", "column");
             correctionAdd("coloumn", "column");
+            correctionAdd("Coloum", "column");
+            correctionAdd("coloum", "column");
 
             correctionAdd("crated", "created");
             correctionAdd("creaded", "created");
@@ -12717,6 +12731,7 @@ namespace OverflowHelper.core
             correctionAdd("workbench", "MySQL Workbench");
             correctionAdd("MySql workbench", "MySQL Workbench");
             correctionAdd("MySQLWorkbench", "MySQL Workbench");
+            correctionAdd("Mysql Workbench", "MySQL Workbench");
 
             correctionAdd("Blockchain", "blockchain");
             correctionAdd("Block chain", "blockchain");
@@ -15782,6 +15797,7 @@ namespace OverflowHelper.core
             correctionAdd("data studio", "Google&nbsp;Data&nbsp;Studio");
             correctionAdd("Data&nbsp;Studio", "Google&nbsp;Data&nbsp;Studio");
             correctionAdd("GDS", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("Datastudio", "Google&nbsp;Data&nbsp;Studio");
 
             correctionAdd("neovim", "Neovim");
 
@@ -19027,6 +19043,7 @@ namespace OverflowHelper.core
             correctionAdd("Code Mirror", "CodeMirror");
 
             correctionAdd("february", "February");
+            correctionAdd("Februari", "February");
 
             correctionAdd("january", "January");
             correctionAdd("Jan", "January");
@@ -19463,6 +19480,7 @@ namespace OverflowHelper.core
             correctionAdd("viadeo", "Viadeo");
 
             correctionAdd("constrains", "constraints");
+            correctionAdd("contraints", "constraints");
 
             correctionAdd("first class citizen", "first-class citizen");
 
@@ -23474,6 +23492,7 @@ namespace OverflowHelper.core
             correctionAdd("dicussion", "discussion");
             correctionAdd("discusion", "discussion");
             correctionAdd("discusson", "discussion");
+            correctionAdd("disscusion", "discussion");
 
             correctionAdd("brad", "broad");
 
@@ -24775,6 +24794,7 @@ namespace OverflowHelper.core
             correctionAdd("enother", "another");
             correctionAdd("Anotehr", "another");
             correctionAdd("anotehr", "another");
+            correctionAdd("anthoer", "another");
 
             correctionAdd("a/o", "and other");
 
@@ -27834,6 +27854,7 @@ namespace OverflowHelper.core
             correctionAdd("mahcine", "machine");
 
             correctionAdd("occures", "occurs");
+            correctionAdd("occurrs", "occurs");
 
             correctionAdd("oscilate", "oscillate");
 
@@ -32380,6 +32401,20 @@ namespace OverflowHelper.core
             correctionAdd("retro", "retrospective");
 
             correctionAdd("win win", "win-win");
+
+            correctionAdd("august", "August");
+
+            correctionAdd("changable", "changeable");
+
+            correctionAdd("contraint", "constraint");
+
+            correctionAdd("disscusions", "discussions");
+
+            correctionAdd("error_reporting()", "error_reporting");
+
+            correctionAdd("foriegn", "foreign");
+
+            correctionAdd("Syntaxes", "syntaxes");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50885,6 +50920,20 @@ namespace OverflowHelper.core
             URL_Add("retrospective", "https://en.wikipedia.org/wiki/Retrospective#Software_development");
 
             URL_Add("win-win", "https://en.wiktionary.org/wiki/win-win#Noun");
+
+            URL_Add("August", "https://en.wiktionary.org/wiki/August#Proper_noun");
+
+            URL_Add("changeable", "https://en.wiktionary.org/wiki/changeable#Adjective");
+
+            URL_Add("constraint", "https://en.wiktionary.org/wiki/constraint#Noun");
+
+            URL_Add("discussions", "https://en.wiktionary.org/wiki/discussion#Noun");
+
+            URL_Add("error_reporting", "https://www.php.net/manual/en/function.error-reporting.php");
+
+            URL_Add("foreign", "https://en.wiktionary.org/wiki/foreign#Adjective");
+
+            URL_Add("syntaxes", "https://en.wiktionary.org/wiki/syntax#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
