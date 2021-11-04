@@ -12554,6 +12554,7 @@ namespace OverflowHelper.core
             correctionAdd("synthax", "syntax");
             correctionAdd("synatx", "syntax");
             correctionAdd("snytax", "syntax");
+            correctionAdd("syntaxe", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -19312,6 +19313,7 @@ namespace OverflowHelper.core
             correctionAdd("documentaions", "documentation");
             correctionAdd("documentions", "documentation");
             correctionAdd("documentations", "documentation");
+            correctionAdd("Documentation", "documentation");
 
             correctionAdd("Dox", "doxx");
             correctionAdd("dox", "doxx");
@@ -20832,6 +20834,7 @@ namespace OverflowHelper.core
             correctionAdd("infintely", "infinitely");
 
             correctionAdd("Preg_replace", "preg_replace");
+            correctionAdd("preg_replace()", "preg_replace");
 
             correctionAdd("Preg_match", "preg_match");
 
@@ -24194,6 +24197,7 @@ namespace OverflowHelper.core
             correctionAdd("num", "number");
             correctionAdd("no", "number");
             correctionAdd("numer", "number");
+            correctionAdd("nbr", "number");
 
             correctionAdd("permanantly", "permanently");
             correctionAdd("permentantly", "permanently");
@@ -31611,6 +31615,7 @@ namespace OverflowHelper.core
             correctionAdd("emmiting", "emitting");
 
             correctionAdd("iniset", "ini_set");
+            correctionAdd("ini_set()", "ini_set");
 
             correctionAdd("Re-installing", "reinstalling");
             correctionAdd("Re-Installing", "reinstalling");
@@ -32415,6 +32420,16 @@ namespace OverflowHelper.core
             correctionAdd("foriegn", "foreign");
 
             correctionAdd("Syntaxes", "syntaxes");
+
+            correctionAdd("codeql", "CodeQL");
+
+            correctionAdd("ini_get()", "ini_get");
+            correctionAdd("iniget", "ini_get");
+
+            correctionAdd("parse_ini_file()", "parse_ini_file");
+
+            correctionAdd("taping", "tapping");
+            correctionAdd("Taping", "tapping");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50934,6 +50949,14 @@ namespace OverflowHelper.core
             URL_Add("foreign", "https://en.wiktionary.org/wiki/foreign#Adjective");
 
             URL_Add("syntaxes", "https://en.wiktionary.org/wiki/syntax#Noun");
+
+            URL_Add("CodeQL", "https://codeql.github.com/");
+
+            URL_Add("ini_get", "https://www.php.net/manual/en/function.ini-get.php");
+
+            URL_Add("parse_ini_file", "https://www.php.net/manual/en/function.parse-ini-file.php");
+
+            URL_Add("tapping", "https://en.wiktionary.org/wiki/tap#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
