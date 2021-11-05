@@ -12366,6 +12366,7 @@ namespace OverflowHelper.core
             correctionAdd("expicitely", "explicitly");
             correctionAdd("explicity", "explicitly");
             correctionAdd("explictly", "explicitly");
+            correctionAdd("eplicitly", "explicitly");
 
             correctionAdd("hebrew", "Hebrew");
 
@@ -19880,6 +19881,7 @@ namespace OverflowHelper.core
             correctionAdd("Operation System", "operating system");
             correctionAdd("operting system", "operating system");
             correctionAdd("Operation system", "operating system");
+            correctionAdd("Opearting System", "operating system");
 
             correctionAdd("FileSystem", "file system");
             correctionAdd("FS", "file system");
@@ -25545,6 +25547,7 @@ namespace OverflowHelper.core
             correctionAdd("React Hooks", "React hooks");
             correctionAdd("react hooks", "React hooks");
             correctionAdd("react hook", "React hooks");
+            correctionAdd("react Hooks", "React hooks");
 
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
@@ -31322,6 +31325,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fpm", "FastCGI Process Manager");
             correctionAdd("PHP-FPM", "FastCGI Process Manager");
+            correctionAdd("php-fpm", "FastCGI Process Manager");
 
             correctionAdd("Salesforce Object Query Language", "SOQL");
             correctionAdd("soql", "SOQL");
@@ -32430,6 +32434,21 @@ namespace OverflowHelper.core
 
             correctionAdd("taping", "tapping");
             correctionAdd("Taping", "tapping");
+
+            correctionAdd("Noether's Theorem", "Noether's theorem");
+
+            correctionAdd("Six Day War", "Six-Day War");
+
+            correctionAdd("Thirty Years' war", "Thirty Years' War");
+
+            correctionAdd("accurracy", "accuracy");
+
+            correctionAdd("ASD", "autism spectrum disorder");
+
+            correctionAdd("nu", "by"); // A true typo! (observed in the wild)
+
+            correctionAdd("sacing", "saving");
+            correctionAdd("saciing", "saving");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50957,6 +50976,20 @@ namespace OverflowHelper.core
             URL_Add("parse_ini_file", "https://www.php.net/manual/en/function.parse-ini-file.php");
 
             URL_Add("tapping", "https://en.wiktionary.org/wiki/tap#Verb");
+
+            URL_Add("Noether's theorem", "https://en.wikipedia.org/wiki/Noether's_theorem");
+
+            URL_Add("Six-Day War", "https://en.wikipedia.org/wiki/Six-Day_War");
+
+            URL_Add("Thirty Years' War", "https://en.wikipedia.org/wiki/Thirty_Years'_War");
+
+            URL_Add("accuracy", "https://en.wiktionary.org/wiki/accuracy#Noun");
+
+            URL_Add("autism spectrum disorder", "https://en.wikipedia.org/wiki/Autism_spectrum");
+
+            URL_Add("by", "https://en.wiktionary.org/wiki/by#Preposition");
+
+            URL_Add("saving", "https://en.wiktionary.org/wiki/save#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
