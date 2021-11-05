@@ -407,6 +407,20 @@ function timeStamp()
     #     Start time: 2021-11-05T16:19:29_537064013_ns
     #
 
+    # Note: absoluteTimestamp() doesn't output an extra end-of-line,
+    #       resulting in two empty lines between the timestamp and
+    #       following output to the screen.
+    #
+    #       That is the fault of particular build steps.
+    #
+    #
+    # "-n" is to turn off end-of-line output (historically,
+    # this has been troublesome - see e.g.:
+    #
+    #   <https://stackoverflow.com/questions/11193466/>)
+    #     "echo -n" prints "-n"
+    #
+    #echo ; echo -n "$1: $(absoluteTimestamp)" ; echo
     echo ; echo "$1: $(absoluteTimestamp)" ; echo
 }
 
@@ -431,7 +445,9 @@ function startOfBuildStep()
     echo
     echo "============================================================================="
     echo "$1. $2..."
-    echo
+    #echo
+
+    timeStamp "At"
 
     # Future:
     #
@@ -1387,7 +1403,8 @@ ls -ls $HTML_FILE_GENERIC
 # ###########################################################################
 #
 # That is, for keyboard shortcut and ID uniqueness
-# rules, etc. (using a Perl script).
+# rules in the generated HTML for the word list,
+# etc. (using a Perl script).
 #
 startOfBuildStep "21" "Starting checking generated HTML"
 
