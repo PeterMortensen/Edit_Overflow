@@ -540,7 +540,7 @@ function mustBeEqual()
 #
 function keyboardShortcutConsistencyCheck()
 {
-    startOfBuildStep $3 "Starting keyboard shortcut consistency check for $1..."
+    startOfBuildStep $3 "Starting keyboard shortcut consistency check for $1"
 
     #perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
     ${WEBFORM_CHECK_CMD}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
@@ -569,7 +569,7 @@ function keyboardShortcutConsistencyCheck()
 #
 function HTML_validation_base()
 {
-    startOfBuildStep $3 "Starting HTML validation for $1..."
+    startOfBuildStep $3 "Starting HTML validation for $1"
 
     export SUBMIT_URL="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu$4%2F$1%3FOverflowStyle=Native"
 
