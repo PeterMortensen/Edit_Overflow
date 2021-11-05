@@ -186,7 +186,17 @@
 #
 #############################################################################
 
-
+#############################################################################
+#
+# Meta: Perl one-liner to compute the run time for each 
+#       build step. It works on the saved output from 
+#       a run of the build script
+#
+#       The output is TAB-separated and can thus easily be 
+#       post processed in LibreOffice Calc or similar.
+#
+# perl -nle 'if (/^\d+\./) { $prevBuildLine = $buildLine; $buildLine = $_; }  if (/^At: /) { $prevHours = $hours; $prevMinutes = $minutes; $prevSeconds = $seconds; if (/T(\d+):(\d+):(\d+)_(\d+)/) { $hours = $1; $minutes = $2; $seconds = $3 + $4 / 1000000000.0} $runTimeSeconds = 3600 * ($hours - $prevHours) + 60 * ($minutes - $prevMinutes) + ($seconds - $prevSeconds); print "Run time [secs]\t$runTimeSeconds\t$prevBuildLine" if $prevHours; }   '   '/home/embo/temp2/2021-11-05/Transcript of Edit Overflow build, 2021-11-05T171256.txt'  >  _BuildStepsTimings.txt
+#
 
 echo
 echo
