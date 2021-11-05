@@ -361,9 +361,59 @@ if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
 fi
 
 
+
 # ###########################################################################
 #
-# Helper function to reduce redundancy.
+# A helper function to reduce redundancy.
+#
+# Outputs the current date and time in ISO 8601 format, followed
+# by subsecond information
+#
+# Notes:
+#
+#   * What about leading zero for the "ns" part? Would it sort properly?
+#
+#   * Consider making the seconds a real decimal number. Is this
+#     allowed by ISO 8601?
+#
+function absoluteTimestamp()
+{
+    # Sample output:
+    #
+    #     2021-11-05T14:39:34_230550955_ns
+
+    date +%FT%T_%N_ns
+}
+
+
+# ###########################################################################
+#
+# A helper function to reduce redundancy.
+#
+# Outputs the current date and time in ISO 8601 format,
+# followed by subsecond information, prefixed by the
+# specified string (e.g., "Start time"), and with
+# leading and trailing empty lines.
+#
+# Parameters:
+#
+#    $1   Prefix (string)
+#
+function timeStamp()
+{
+    # Sample output (with leading and trailing empty lines):
+    #
+    #
+    #     Start time: 2021-11-05T16:19:29_537064013_ns
+    #
+
+    echo ; echo "$1: $(absoluteTimestamp)" ; echo
+}
+
+
+# ###########################################################################
+#
+# A helper function to reduce redundancy.
 #
 # Mostly for the screen output, but we can also use it
 # for marking the start of a step in time (e.g., to
@@ -938,7 +988,7 @@ function retrieveWebHostingErrorLog()
 #
 #   Start of the build script
 
-echo ; echo "Start time: $(date +%FT%T_%N_ns)"  ; echo
+timeStamp "Start time"
 
 
 # Force entering the password at the beginning of the
@@ -1141,7 +1191,10 @@ PHP_code_test  EditOverflow.php          "main lookup"              3  "Overflow
 #
 #  Note that it will also detect any syntax errors in commonStart.php
 #
-PHP_code_test  Text.php                  "self test, unit tests"    4  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
+PHP_code_test  Text.php                  "self test, unit tests"                  4  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
+
+#exit
+
 
 
 # ###########################################################################
@@ -1163,7 +1216,7 @@ PHP_code_test  Text.php                  "text transformation - 'Real quotes'"  
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  FixedStrings.php          "fixed strings"            6  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  FixedStrings.php          "fixed strings"                          6  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
 # ###########################################################################
@@ -1173,7 +1226,7 @@ PHP_code_test  FixedStrings.php          "fixed strings"            6  "Overflow
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  EditSummaryFragments.php  "edit summary fragments"   7  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  EditSummaryFragments.php  "edit summary fragments"                 7  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
 # ###########################################################################
@@ -1457,7 +1510,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 29 $? "copying the HTML word list to
 #                        Still not up as of:
 #
 #                           2021-10-05T151046Z+0
-#                           2021-10-05T160837Z+0 
+#                           2021-10-05T160837Z+0
 #                           2021-10-05T161242Z+0
 #                           2021-10-06T002617Z+0
 #
@@ -1579,6 +1632,22 @@ retrieveWebHostingErrorLog  "_before_"
 #python3 $SELINUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
 python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 38 $? "web interface regression tests"
 
+# Observed 2021-11-05T003000, but only once (it
+# did not happen when repeating the build):
+#
+#     (New entry in error log:
+#
+#     [04-Nov-2021 23:24:28 UTC]
+#
+#     PHP Warning:  Cannot modify header information - headers already sent by
+#     (output started at
+#     /var/www/pmortensen.eu/public_html/world/wp-includes/link-template.php:682)
+#     in /var/www/pmortensen.eu/public_html/world/wp-includes/pluggable.php
+#     on line 1265 )) failed (error code 1).
+#
+# Some temporary problem on the hosting?
+
+
 retrieveWebHostingErrorLog  "_after_"
 
 
@@ -1640,12 +1709,13 @@ echo
 echo
 
 
-# Not really a build step, but it is easier to spot if the build
-# failed or not (as we will not get here if it fails).
+# Not really a build step, but this makes it easier to spot
+# if the build failed or not (as we would not be here if
+# any of the previous build steps failed).
+#
 startOfBuildStep "39" "End of build. All build steps succeeded!!"
 
+timeStamp "End time"
 
-
-echo ; echo "End time:   $(date +%FT%T_%N_ns)"  ; echo
 
 
