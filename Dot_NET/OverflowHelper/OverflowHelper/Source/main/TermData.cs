@@ -662,6 +662,7 @@ namespace OverflowHelper.core
             correctionAdd("PL/pgSQL", "PostgreSQL");
             correctionAdd("PostGresql", "PostgreSQL");
             correctionAdd("PGSQL", "PostgreSQL");
+            correctionAdd("postgre sql", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -3888,8 +3889,9 @@ namespace OverflowHelper.core
             correctionAdd("charcter", "characters");
             correctionAdd("characher", "characters"); // Not 100% correct. Add a plural feature?
             correctionAdd("charachers", "characters");
-            correctionAdd("character", "characters");
-            correctionAdd("caracter", "characters");
+            correctionAdd("character", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("caracter", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("charecter", "characters"); // Not 100% correct. Add a plural feature?
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -5019,6 +5021,7 @@ namespace OverflowHelper.core
             correctionAdd("i'am", "I’m");
             correctionAdd("I'm", "I’m");
             correctionAdd("I\"m", "I’m");
+            correctionAdd("I m", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -9805,6 +9808,7 @@ namespace OverflowHelper.core
             correctionAdd("questionj", "question");
             correctionAdd("querstion", "question");
             correctionAdd("questin", "question");
+            correctionAdd("guestion", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -10553,6 +10557,8 @@ namespace OverflowHelper.core
             correctionAdd("THX", "thanks");
             correctionAdd("tanx", "thanks");
             correctionAdd("thanx", "thanks");
+            correctionAdd("Thans", "thanks");
+            correctionAdd("Thanks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -10828,6 +10834,7 @@ namespace OverflowHelper.core
             correctionAdd("insallation", "installation");
 
             correctionAdd("openbsd", "OpenBSD");
+            correctionAdd("obsd", "OpenBSD");
 
             correctionAdd("Theorically", "theoretically"); // Not 100% correct - case.
             correctionAdd("theorically", "theoretically");
@@ -13531,6 +13538,7 @@ namespace OverflowHelper.core
 
             correctionAdd("superflous", "superfluous");
             correctionAdd("superfluos", "superfluous");
+            correctionAdd("Superflous", "superfluous");
 
             correctionAdd("Supervolcano", "supervolcano");
 
@@ -15320,6 +15328,7 @@ namespace OverflowHelper.core
             correctionAdd("ment", "meant");
 
             correctionAdd("out-of-date", "out of date");
+            correctionAdd("ot of date", "out of date");
 
             correctionAdd("run of the mill", "run-of-the-mill");
 
@@ -15591,6 +15600,7 @@ namespace OverflowHelper.core
             correctionAdd("back slash", "backslash");
             correctionAdd("backlash", "backslash");
             correctionAdd("baskslash", "backslash");
+            correctionAdd("back-slash", "backslash");
 
             correctionAdd("boot-camp", "coding bootcamp");
             correctionAdd("coding boot-camp", "coding bootcamp");
@@ -18279,6 +18289,7 @@ namespace OverflowHelper.core
             correctionAdd("seq", "sequence");
             correctionAdd("seqeuence", "sequence");
             correctionAdd("seqence", "sequence");
+            correctionAdd("sequenct", "sequence");
 
             correctionAdd("DYNDNS", "DynDNS");
 
@@ -18403,6 +18414,9 @@ namespace OverflowHelper.core
             correctionAdd("fft", "FFT");
             correctionAdd("fast fourier transform", "FFT");
             correctionAdd("Fast Fourier Transform", "FFT");
+            correctionAdd("Fast Fourier Transforms", "FFT");
+            correctionAdd("fast Fourier transform", "FFT");
+            correctionAdd("Fast Fourier transform", "FFT");
 
             correctionAdd("fourier transform", "Fourier transform");
 
@@ -18776,6 +18790,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ZOS", "z/OS");
             correctionAdd("zos", "z/OS");
+            correctionAdd("IBM z/OS", "z/OS");
+            correctionAdd("IMB z/OS", "z/OS");
 
             correctionAdd("zvm", "z/VM");
 
@@ -19795,6 +19811,7 @@ namespace OverflowHelper.core
             correctionAdd("comma gotcha", "come a gutser");
             correctionAdd("come-a-gutsa", "come a gutser");
             correctionAdd("come-a-gotsa", "come a gutser");
+            correctionAdd("Come-a-Gutsa", "come a gutser");
 
             correctionAdd("exgress", "egress");
 
@@ -19911,6 +19928,7 @@ namespace OverflowHelper.core
             correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
             correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
             correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("IE5", "Internet&nbsp;Explorer&nbsp;5");
 
             correctionAdd("Maths", "Mathematics (Stack Exchange site)");
             correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
@@ -32227,6 +32245,7 @@ namespace OverflowHelper.core
             correctionAdd("pay rise", "payrise");
 
             correctionAdd("Progressive Enhancement", "progressive enhancement");
+            correctionAdd("PE", "progressive enhancement");
 
             correctionAdd("provifing", "providing");
 
@@ -32449,6 +32468,47 @@ namespace OverflowHelper.core
 
             correctionAdd("sacing", "saving");
             correctionAdd("saciing", "saving");
+
+            correctionAdd("cloudwatch", "Amazon CloudWatch");
+            correctionAdd("CloudWatch", "Amazon CloudWatch");
+            correctionAdd("Cloudwatch", "Amazon CloudWatch");
+
+            correctionAdd("Airtel", "Bharti Airtel");
+            correctionAdd("airtel", "Bharti Airtel");
+
+            correctionAdd("Document Type Defination", "DTD");
+            correctionAdd("Document Type Definition", "DTD");
+            correctionAdd("document type definition", "DTD");
+
+            correctionAdd("IMB", "IBM");
+
+            correctionAdd("Kiwi", "Kiwi TCMS");
+            correctionAdd("KIWI", "Kiwi TCMS");
+
+            correctionAdd("ordinary differential equation", "ODE");
+
+            correctionAdd("Sitepoint", "SitePoint");
+
+            correctionAdd("Skype chat", "Skype Chat");
+
+            correctionAdd("bookMark", "bookmark");
+
+            correctionAdd("embeding", "embedding");
+
+            correctionAdd("enterd", "entered");
+
+            correctionAdd("quirk mode", "quirks mode");
+            correctionAdd("QUIRK MODE", "quirks mode");
+
+            correctionAdd("STANDARD MODE", "standards mode");
+
+            correctionAdd("statemachine", "state machine");
+
+            correctionAdd("truckin'", "trucking");
+
+            correctionAdd("unintensional", "unintentional");
+
+            correctionAdd("whathaveyou", "what have you");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -50990,6 +51050,40 @@ namespace OverflowHelper.core
             URL_Add("by", "https://en.wiktionary.org/wiki/by#Preposition");
 
             URL_Add("saving", "https://en.wiktionary.org/wiki/save#Verb");
+
+            URL_Add("Amazon CloudWatch", "https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud#Amazon_CloudWatch");
+
+            URL_Add("Bharti Airtel", "https://en.wikipedia.org/wiki/Bharti_Airtel");
+
+            URL_Add("DTD", "https://en.wikipedia.org/wiki/Document_type_definition");
+
+            URL_Add("IBM", "https://en.wikipedia.org/wiki/IBM");
+
+            URL_Add("Kiwi TCMS", "https://kiwitcms.org/");
+
+            URL_Add("ODE", "https://en.wikipedia.org/wiki/Ordinary_differential_equation");
+
+            URL_Add("SitePoint", "https://en.wikipedia.org/wiki/SitePoint");
+
+            URL_Add("Skype Chat", "https://en.wikipedia.org/wiki/Features_of_Skype#Skype_chat");
+
+            URL_Add("bookmark", "https://en.wiktionary.org/wiki/bookmark#Noun");
+
+            URL_Add("embedding", "https://en.wiktionary.org/wiki/embed#Verb");
+
+            URL_Add("entered", "https://en.wiktionary.org/wiki/enter#Verb");
+
+            URL_Add("quirks mode", "https://en.wikipedia.org/wiki/Quirks_mode");
+
+            URL_Add("standards mode", "https://en.wikipedia.org/wiki/Quirks_mode");
+
+            URL_Add("state machine", "https://en.wiktionary.org/wiki/state_machine#Noun");
+
+            URL_Add("trucking", "https://en.wiktionary.org/wiki/truck#Verb");
+
+            URL_Add("unintentional", "https://en.wiktionary.org/wiki/unintentional#Adjective");
+
+            URL_Add("what have you", "https://en.wiktionary.org/wiki/what_have_you#Pronoun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
