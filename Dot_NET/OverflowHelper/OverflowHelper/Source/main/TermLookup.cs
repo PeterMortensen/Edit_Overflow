@@ -11,16 +11,21 @@
 *          repository).                                                    *
 *                                                                          *
 *          Opening a simple Wikipedia or Wiktionary page can be slow.      *
+*                                                                          *
 *          Examples:                                                       *
 *                                                                          *
 *              2020-10-25T002040Z+0: 5.6 seconds with a 4G connection      *
-*                                                                          *
 *                                                                          *
 *          E.g. "JavaScript" will return the URL                           *
 *          <https://en.wikipedia.org/wiki/JavaScript>. The lookups are     *
 *          cached so it is much faster than going through Google and       *
 *          Wikipedia every time. This typically takes 7 seconds (at        *
 *          least on a 3G Internet connection).                             *
+*                                                                          *
+*                                                                          *
+* Apart from the main function of looks, it knows how to export            *
+* the word list in various text formats (e.g. SQL).                        *
+*                                                                          *
 *                                                                          *
 * Note:                                                                    *
 *                                                                          *
