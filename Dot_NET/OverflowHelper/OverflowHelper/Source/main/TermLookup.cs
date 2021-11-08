@@ -436,6 +436,24 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
+         *    <placeholder for header>                                              *
+         ****************************************************************************/
+        private static string escapeHTML(string aStringForHTML)
+        {
+            Trace.Assert(aStringForHTML != null);
+            
+            //Would it be more memory efficient to test first and then return 
+            //the original string? - very few of these calls result in an 
+            //actual replacement
+            //
+            //Does this result in actual copying of the unchanged string? -
+            //or is something like "interning" of strings in effect?
+
+            return aStringForHTML.Replace("<", "&lt;");
+        } //escapeHTML()
+
+
+        /****************************************************************************
          *                                                                          *
          * aFirstCorrectedTerm:                                                     *
          *                                                                          *
@@ -451,13 +469,18 @@ namespace OverflowHelper.core
                                                   string aURL,
                                                   bool aFirstCorrectedTerm)
         {
-            // Only include the HTML anchor for the ***first*** word in a group.
+            // Only include the HTML anchor for the ***first*** word in
+            // a group of words (the same correct word, but different
+            // incorrect words).
+            //
             // It would be wasteful and would not pass HTML validation ('id'
             // must be unique).
             //
             string anchor = "";
             if (aFirstCorrectedTerm)
             {
+                // Generate an acceptable identifier (for the HTML anchor)
+                
                 // Spaces are not allowed in IDs
                 string escapedCorrectedTerm = aCorrectedTerm.Replace(@" ", @"_");
 
@@ -474,6 +497,10 @@ namespace OverflowHelper.core
 
             // Empty: We avoid extra trailing space when copy-pasting
             //        from the word list page in a web browser.
+            //
+            //        We may simply opt for direct substitution at 
+            //        some point (if this turns out to be stable)
+            //
             //string innerColumnsSeparator = " ";
             string innerColumnsSeparator = ""; //It might seem like a null
                                                //operation, but we want to
@@ -484,14 +511,14 @@ namespace OverflowHelper.core
                 "tr",
                    outerColumnsSeparator +
 
-                   HTML_builder.singleLineTagStr("td", anchor + aBadTerm) +
-                   innerColumnsSeparator +
+                   HTML_builder.singleLineTagStr(
+                     "td", anchor + escapeHTML(aBadTerm)) + innerColumnsSeparator +
 
-                   HTML_builder.singleLineTagStr("td", aCorrectedTerm) +
-                   innerColumnsSeparator +
+                   HTML_builder.singleLineTagStr(
+                     "td", escapeHTML(aCorrectedTerm)) + innerColumnsSeparator +
 
-                   HTML_builder.singleLineTagStr("td", aURL) +
-                   outerColumnsSeparator
+                   HTML_builder.singleLineTagStr(
+                     "td", aURL) + outerColumnsSeparator
                 );
         } //addTermsToOutput_HTML()
 
@@ -604,6 +631,7 @@ namespace OverflowHelper.core
             //        given defined sort order, in this case the
             //        correct term as the primary key and the
             //        incorrect term in as the secondary key.
+            //
             //        In order words, grouping by the
             //        correct term...
 
@@ -626,8 +654,8 @@ namespace OverflowHelper.core
                 bool firstCorrectedTerm = someCorrectTerm != prevCorrectTerm;
 
 
-                // On-the-fly check (but it would be better if
-                // this check was done at program startup)
+                // On-the-fly check - during the export (but it would be
+                // better if this check was done at program startup)
                 if (aCorrectTerm2URL.ContainsKey(someIncorrectTerm))
                 {
                     msg =
