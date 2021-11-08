@@ -3979,6 +3979,7 @@ namespace OverflowHelper.core
             correctionAdd("Varialbe", "variable");
             correctionAdd("varaibles", "variable");
             correctionAdd("vraiable", "variable");
+            correctionAdd("Variable", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -4788,6 +4789,7 @@ namespace OverflowHelper.core
             correctionAdd("wont’t", "won’t");
             correctionAdd("won", "won’t");
             correctionAdd("won't", "won’t");
+            correctionAdd("WON'T", "won’t");
 
             correctionAdd("xsl", "XSL");
 
@@ -11657,6 +11659,7 @@ namespace OverflowHelper.core
             correctionAdd("correclty", "correctly");
             correctionAdd("corrdctly", "correctly");
             correctionAdd("correcty", "correctly");
+            correctionAdd("correcltly", "correctly");
 
             correctionAdd("dict", "dictionary");
             correctionAdd("disctionary", "dictionary");
@@ -14952,6 +14955,7 @@ namespace OverflowHelper.core
             correctionAdd("astrix", "asterisk");
 
             correctionAdd("cetian", "certain");
+            correctionAdd("certian", "certain");
 
             correctionAdd("Collector", "collector");
 
@@ -22635,6 +22639,8 @@ namespace OverflowHelper.core
 
             correctionAdd("backend", "back end");
             correctionAdd("BackEnd", "back end");
+            correctionAdd("Back-End", "back end");
+            correctionAdd("Back End", "back end");
 
             correctionAdd("ehcache", "Ehcache");
 
@@ -22649,6 +22655,8 @@ namespace OverflowHelper.core
             correctionAdd("FrontEnd", "front end");
             correctionAdd("Front-end", "front end");
             correctionAdd("front-end", "front end");
+            correctionAdd("Front-End", "front end");
+            correctionAdd("Front End", "front end");
 
             correctionAdd("tkl", "tenkeyless (80%)"); // Mechanical keyboards
             correctionAdd("TKL", "tenkeyless (80%)"); // Mechanical keyboards
@@ -23036,6 +23044,7 @@ namespace OverflowHelper.core
 
             correctionAdd("additionnal", "additional");
             correctionAdd("aditional", "additional");
+            correctionAdd("additonal", "additional");
 
             correctionAdd("bloc", "block");
 
@@ -24362,6 +24371,7 @@ namespace OverflowHelper.core
 
             correctionAdd("upper case", "uppercase");
             correctionAdd("UPPER case", "uppercase");
+            correctionAdd("Uppercase", "uppercase");
 
             correctionAdd("arcolinux", "ArcoLinux");
             correctionAdd("Agro Linux", "ArcoLinux");
@@ -24858,6 +24868,7 @@ namespace OverflowHelper.core
             correctionAdd("Check box", "checkbox");
             correctionAdd("checkbok", "checkbox");
             correctionAdd("checkboks", "checkbox");
+            correctionAdd("Checkbox", "checkbox");
 
             correctionAdd("data sheet", "datasheet");
             correctionAdd("Datasheet", "datasheet");
@@ -27081,6 +27092,7 @@ namespace OverflowHelper.core
             correctionAdd("llc", "LLC");
 
             correctionAdd("wildfly", "WildFly");
+            correctionAdd("widfly", "WildFly");
 
             correctionAdd("checkmark", "check mark");
 
@@ -27611,6 +27623,8 @@ namespace OverflowHelper.core
 
             correctionAdd("cue", "queue");
             correctionAdd("que", "queue");
+            correctionAdd("ques", "queue");
+            correctionAdd("queues", "queue");
 
             correctionAdd("scenerio", "scenario");
             correctionAdd("Scanario", "scenario");
@@ -27856,6 +27870,8 @@ namespace OverflowHelper.core
             correctionAdd("Universities", "universities");
 
             correctionAdd("font awesome", "Font Awesome");
+            correctionAdd("FontAwesome", "Font Awesome");
+            correctionAdd("fontawsome", "Font Awesome");
 
             correctionAdd("ansynchronous", "asynchronous");
 
@@ -29759,6 +29775,7 @@ namespace OverflowHelper.core
             correctionAdd("laughbale", "laughable");
 
             correctionAdd("listenning", "listening");
+            correctionAdd("listerning", "listening");
 
             correctionAdd("Machine Translation", "machine translation");
 
@@ -32571,6 +32588,74 @@ namespace OverflowHelper.core
 
             correctionAdd("zwnj", "zero-width non-joiner");
             correctionAdd("ZWNJ", "zero-width non-joiner");
+
+            correctionAdd("&LT;", "&lt;");
+            correctionAdd("<", "&lt;");
+            correctionAdd("less-than sign", "&lt;");
+            correctionAdd("lt", "&lt;");
+
+            correctionAdd("aurelia", "Aurelia");
+
+            correctionAdd("dbeaver", "DBeaver");
+
+            correctionAdd("haproxy", "HAProxy");
+
+            correctionAdd("numeric HTML character reference", "HTML character entity reference");
+            correctionAdd("html entity", "HTML character entity reference");
+            correctionAdd("HTML entity", "HTML character entity reference");
+            correctionAdd("character entity reference", "HTML character entity reference");
+            correctionAdd("entity reference", "HTML character entity reference");
+            correctionAdd("character entity", "HTML character entity reference");
+            correctionAdd("HTML character entity", "HTML character entity reference");
+            correctionAdd("numeric character reference", "HTML character entity reference");
+
+            correctionAdd("web form", "HTML form");
+            correctionAdd("HTML Form", "HTML form");
+            correctionAdd("Html Form", "HTML form");
+            correctionAdd("webform", "HTML form");
+
+            correctionAdd("linphone", "Linphone");
+
+            correctionAdd("mercure", "Mercure");
+
+            correctionAdd("Bumping", "bumping");
+
+            correctionAdd("cliff-hanger", "cliffhanger");
+            correctionAdd("cliff hanger", "cliffhanger");
+
+            correctionAdd("connectec", "connects");
+
+            correctionAdd("enlightning", "enlightening");
+
+            correctionAdd("Link", "link");
+
+            correctionAdd("microservice", "microservices");
+            correctionAdd("Microservices", "microservices");
+            correctionAdd("Microservice", "microservices");
+
+            correctionAdd("necro posting", "necroposting");
+
+            correctionAdd("one to many", "one-to-many");
+
+            correctionAdd("SSR", "server-side rendering");
+            correctionAdd("Server side rendering", "server-side rendering");
+            correctionAdd("server side rendering", "server-side rendering");
+            correctionAdd("Server-side rendering", "server-side rendering");
+            correctionAdd("ssr rendering", "server-side rendering");
+            correctionAdd("ssr", "server-side rendering");
+
+            correctionAdd("supper", "super");
+
+            correctionAdd("SYSTEMCTL", "systemctl");
+
+            correctionAdd("VMSTAT", "vmstat");
+
+            correctionAdd("well formed", "well-formed");
+
+            correctionAdd("Client side rendering", "client-side rendering");
+            correctionAdd("Client-side rendering", "client-side rendering");
+            correctionAdd("CSR", "client-side rendering");
+            correctionAdd("csr", "client-side rendering");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51186,6 +51271,50 @@ namespace OverflowHelper.core
             URL_Add("who", "https://en.wiktionary.org/wiki/who#Pronoun");
 
             URL_Add("zero-width non-joiner", "https://en.wikipedia.org/wiki/Zero-width_non-joiner");
+
+            URL_Add("&lt;", "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
+
+            URL_Add("Aurelia", "https://aurelia.io/");
+
+            URL_Add("DBeaver", "https://en.wikipedia.org/wiki/DBeaver");
+
+            URL_Add("HAProxy", "https://en.wikipedia.org/wiki/HAProxy");
+
+            URL_Add("HTML character entity reference", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML");
+
+            URL_Add("HTML form", "https://en.wikipedia.org/wiki/Form_(HTML)");
+
+            URL_Add("Linphone", "https://en.wikipedia.org/wiki/Linphone");
+
+            URL_Add("Mercure", "https://github.com/dunglas/mercure");
+
+            URL_Add("bumping", "https://en.wikipedia.org/wiki/Internet_forum#Bumping");
+
+            URL_Add("cliffhanger", "https://en.wiktionary.org/wiki/cliffhanger#Noun");
+
+            URL_Add("connects", "https://en.wiktionary.org/wiki/connect#Verb");
+
+            URL_Add("enlightening", "https://en.wiktionary.org/wiki/enlighten#Verb");
+
+            URL_Add("link", "https://en.wiktionary.org/wiki/link#Noun");
+
+            URL_Add("microservices", "https://en.wikipedia.org/wiki/Microservices");
+
+            URL_Add("necroposting", "https://en.wiktionary.org/wiki/necropost#Verb");
+
+            URL_Add("one-to-many", "https://en.wiktionary.org/wiki/one-to-many#Adjective");
+
+            URL_Add("server-side rendering", "https://en.wikipedia.org/wiki/Server-side_scripting#Server-side_rendering");
+
+            URL_Add("super", "https://en.wiktionary.org/wiki/super#Adjective");
+
+            URL_Add("systemctl", "https://en.wikipedia.org/wiki/Systemd#Core_components_and_libraries");
+
+            URL_Add("vmstat", "https://en.wikipedia.org/wiki/Vmstat");
+
+            URL_Add("well-formed", "https://en.wikipedia.org/wiki/Well-formed_element");
+
+            URL_Add("client-side rendering", "https://en.wikipedia.org/wiki/Dynamic_web_page");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
