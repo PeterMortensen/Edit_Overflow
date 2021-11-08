@@ -29,7 +29,8 @@
 using System.Text; //For StringBuilder.
 //using System.Diagnostics; //For Trace. And its Assert.
 
-using System.Collections.Generic; //For List.
+using System.Collections.Generic; //For Dictionary and List
+
 
 
 /****************************************************************************
@@ -51,7 +52,9 @@ namespace OverflowHelper.core
         spaceBeforeParenthesis,
         spaceBeforeSemicomma,
         spaceAfterLeftParenthesis,
-        missingSpaceAroundOperators
+        missingSpaceAroundOperators,
+        missingCapitalisationInComment_Jon_Skeet_decree,
+        missingSpaceInComment_Jon_Skeet_decree        
     }
 
 
@@ -76,6 +79,19 @@ namespace OverflowHelper.core
         private List<codeCheckItemStruct> mCodeCheckItems;
 
 
+        // Helper members to check for uniqueness in input
+        // to mCodeCheckItems. An alternative would be to
+        // search in the current list for every insert.
+        // The quadratic behaviour would not be a problem
+        // with the low number of items in the list.
+        //
+        // We use use the keys, not the values
+        //
+        private Dictionary<codeFormattingsRegexEnum, int> mIDs;
+        private Dictionary<string, int> mRegExes;
+        private Dictionary<string, int> mExplanations;
+
+
         /****************************************************************************
          *    Constructor                                                           *
          ****************************************************************************/
@@ -84,6 +100,10 @@ namespace OverflowHelper.core
             mScratchSB = new StringBuilder(200);
 
             mCodeCheckItems = new List<codeCheckItemStruct>();
+
+            mIDs = new Dictionary<codeFormattingsRegexEnum, int>();
+            mRegExes = new Dictionary<string, int>();
+            mExplanations = new Dictionary<string, int>();
 
             // Set up the datastructures
 
@@ -188,6 +208,23 @@ namespace OverflowHelper.core
               missingSpaceAroundOperatorsStr,
               "Missing space around some operators");
 
+
+            // For comment character sequences "//" (C++, JavaScript, etc.), 
+            // "/*" (C, CSS, etc.), and "#" (Perl, Bash, etc.).
+            //
+            addCodeCheck(
+              codeFormattingsRegexEnum.missingCapitalisationInComment_Jon_Skeet_decree, 6,
+              @"(\/\/|\/\*|\#)\s*\p{Ll}",
+              "Missing capitalisation in comment (Jon Skeet decree)");
+
+            // For comment character sequences "//" (C++, JavaScript, etc.), 
+            // "/*" (C, CSS, etc.), and "#" (Perl, Bash, etc.).
+            //
+            addCodeCheck(
+              codeFormattingsRegexEnum.missingSpaceInComment_Jon_Skeet_decree, 6,
+              @"(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#)",
+              "Missing space in comment (Jon Skeet decree)");
+
         } //Constructor.
 
 
@@ -195,8 +232,14 @@ namespace OverflowHelper.core
          *                                                                          *
          *    Helper function for the constructor (for setting up the               *
          *    datastructures that defines the regular expressions for               *
-         *    source code check). It is also preparation for                        *
-         *    (by configuration).                                                   *
+         *    source code check). It is also preparation for a data                 *
+         *    driven approach (by configuration / reading from a                    *
+         *    file or other data source).                                           *
+         *                                                                          *
+         *    aGroupID is used as a hint for the UI part (currrenly only            *
+         *    Windows Forms), to separate (group) related code checks,              *
+         *    e.g. by separating them by separators in a menu.                      *
+         *                                                                          *
          *                                                                          *
          ****************************************************************************/
         private void addCodeCheck(codeFormattingsRegexEnum anID,
@@ -224,6 +267,43 @@ namespace OverflowHelper.core
                     explanationLen + "), below the minimum of " +
                     kMinimumExplanationLength.ToString() + " characters.");
             }
+
+            // The ID must be unique...
+            if (mIDs.ContainsKey(anID))
+            {
+                //Somewhat confusing (the exception type) - perhaps
+                //throw our own exception instead?
+
+                throw new
+                  System.IndexOutOfRangeException(
+                    "The code check ID is not unique! In addCodeCheck().");
+            }
+            mIDs.Add(anID, 1);
+
+            // Both the regular expression and the corresponding user string
+            // must be unique (e.g., to detect copy-paste errors early).
+            if (mRegExes.ContainsKey(aRegularExpression))
+            {
+                //Somewhat confusing (the exception type) - perhaps
+                //throw our own exception instead?
+
+                throw new
+                  System.IndexOutOfRangeException(
+                    "The regular expression for code testing is not unique! " +
+                    "anID: " + anID.ToString() + ". In addCodeCheck().");
+            }
+            if (mExplanations.ContainsKey(anExplanation))
+            {
+                //Somewhat confusing (the exception type) - perhaps
+                //throw our own exception instead?
+
+                throw new
+                  System.IndexOutOfRangeException(
+                    "The explanation for a code testing item is not unique! " +
+                    "anID: " + anID.ToString() + ". In addCodeCheck().");
+            }
+            mRegExes.Add(aRegularExpression, 1);
+            mExplanations.Add(anExplanation, 1);
 
 
             someItem.ID = anID;
