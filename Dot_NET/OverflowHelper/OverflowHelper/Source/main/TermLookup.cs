@@ -449,7 +449,7 @@ namespace OverflowHelper.core
             //Does this result in actual copying of the unchanged string? -
             //or is something like "interning" of strings in effect?
 
-            return aStringForHTML.Replace("<", "&lt;");
+            return aStringForHTML.Replace("<", "&lt;").Replace("&", "&amp;");
         } //escapeHTML()
 
 
