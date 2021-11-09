@@ -54,7 +54,7 @@ namespace OverflowHelper.core
         spaceAfterLeftParenthesis,
         missingSpaceAroundOperators,
         missingCapitalisationInComment_Jon_Skeet_decree,
-        missingSpaceInComment_Jon_Skeet_decree        
+        missingSpaceInComment_Jon_Skeet_decree
     }
 
 
@@ -209,21 +209,49 @@ namespace OverflowHelper.core
               "Missing space around some operators");
 
 
-            // For comment character sequences "//" (C++, JavaScript, etc.), 
+            string matchACommentCharacterSequenceStr =
+
+              @"(" +
+                      @"\/\/" + // C++, JavaScript, etc.
+
+                        "|"   +
+                      @"\/\*" + // C, CSS, etc.
+
+                        "|"   +
+                      @"\#"   + // Perl, Bash, PowerShell, etc.
+
+                        "|"   +
+                      @"<!--" + // HTML
+              @")";
+
+            // For comment character sequences "//" (C++, JavaScript, etc.),
             // "/*" (C, CSS, etc.), and "#" (Perl, Bash, etc.).
+            //
+            // Capatalisation of the comment text
             //
             addCodeCheck(
               codeFormattingsRegexEnum.missingCapitalisationInComment_Jon_Skeet_decree, 6,
-              @"(\/\/|\/\*|\#)\s*\p{Ll}",
+              //@"(\/\/|\/\*|\#)\s*\p{Ll}",
+              matchACommentCharacterSequenceStr + @"\s*\p{Ll}",
               "Missing capitalisation in comment (Jon Skeet decree)");
 
-            // For comment character sequences "//" (C++, JavaScript, etc.), 
+            // For comment character sequences "//" (C++, JavaScript, etc.),
             // "/*" (C, CSS, etc.), and "#" (Perl, Bash, etc.).
+            //
+            // Space close to the comment character sequence
             //
             addCodeCheck(
               codeFormattingsRegexEnum.missingSpaceInComment_Jon_Skeet_decree, 6,
-              @"(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#)",
+              //@"(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#|<!--)",
+              matchACommentCharacterSequenceStr + @"\S" + // Space after comment
+                                                          // character sequence
+                  @"|" +
+              @"\S" + matchACommentCharacterSequenceStr,  // Space before commen
+                                                          // character sequence
               "Missing space in comment (Jon Skeet decree)");
+
+              //  \S(\/\/|\/\*|\#)",
+              //  matchACommentCharacterSequenceStr
 
         } //Constructor.
 

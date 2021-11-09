@@ -159,24 +159,23 @@ namespace CodeFormattingCheckTests
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
                 Assert.AreEqual(
-                  @"(\/\/|\/\*|\#)\s*\p{Ll}",
+                  @"(\/\/|\/\*|\#|<!--)\s*\p{Ll}",
                   cfCheck.getRegularExpression(
                     codeFormattingsRegexEnum.missingCapitalisationInComment_Jon_Skeet_decree),
                   "");
             }
 
-            // Code comments. Sentence casing
+            // Code comments. Space near.
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
                 Assert.AreEqual(
-                  @"(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#)",
+                  @"(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--)",
+                  //@"(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#|<!--)",
                   cfCheck.getRegularExpression(
                     codeFormattingsRegexEnum.missingSpaceInComment_Jon_Skeet_decree),
                   "");
             }
-
-
 
 
 
@@ -187,7 +186,7 @@ namespace CodeFormattingCheckTests
                 // Note: Double quote (") is escaped as "" (two double quotes).
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#)\s*\p{Ll}|(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#))",
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--))",
                   cfCheck.combinedAllOfRegularExpressions(),
                   "");
             }
@@ -406,6 +405,8 @@ namespace CodeFormattingCheckTests
             string badCap1 = "// respect the Jon Skeet decree!";
             string badSpace1 = "//Respect the Jon Skeet decree!";
             string badSpace2 = ";// Respect the Jon Skeet decree!";
+            
+            string badHTML1 = "<!--Respect the Jon Skeet decree!-->";
 
             // All 3 problems at the same times
             string allBad1 = ";//respect the Jon Skeet decree!";
@@ -428,7 +429,11 @@ namespace CodeFormattingCheckTests
                 //
                 // Only the capitalisation problem for this one
                 Assert.IsFalse(RegExExecutor.match(badCap1, regexSpace));
+                
+                // 2021-11-09. 
+                Assert.IsTrue(RegExExecutor.match(badHTML1, regexSpace));
             }
+                        
 
             // Comments, sentence capitalisation
             {
@@ -448,6 +453,10 @@ namespace CodeFormattingCheckTests
                 Assert.IsFalse(RegExExecutor.match(allGood2, regex_All));
                 Assert.IsFalse(RegExExecutor.match(allGood3, regex_All));
                 Assert.IsFalse(RegExExecutor.match(allGood4, regex_All));
+
+                // 2021-11-09. 
+                // This one only has the space problem, thus should not match. 
+                Assert.IsFalse(RegExExecutor.match(badHTML1, regexCap));
             }
 
             // Comments, all three problems at once
