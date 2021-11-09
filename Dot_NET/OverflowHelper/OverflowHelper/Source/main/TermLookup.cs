@@ -436,20 +436,40 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    More officially, HTML character entity reference encoding:            *
+         *                                                                          *
+         *    We should probably replace the implementation (or                     *
+         *    this function) with some standard library                             *
+         *    function (instead of doing it manually).                              *
+         *                                                                          *
          ****************************************************************************/
         private static string escapeHTML(string aStringForHTML)
         {
             Trace.Assert(aStringForHTML != null);
-            
-            //Would it be more memory efficient to test first and then return 
-            //the original string? - very few of these calls result in an 
+
+            //Would it be more memory efficient to test first and then return
+            //the original string? - very few of these calls result in an
             //actual replacement
             //
             //Does this result in actual copying of the unchanged string? -
             //or is something like "interning" of strings in effect?
 
-            return aStringForHTML.Replace("<", "&lt;").Replace("&", "&amp;");
+
+            // Note: We don't want to apply more than one level of
+            //       encoding at a time (that is up to the client).
+            //
+            //       So the order matters. E.g., if the ***input*** is
+            //       "<", we ***don't*** want this to happen:
+            //
+            //           "<" -> "&lt;" -> "&amp;lt;"
+            //
+
+            //Incorrect!!!!!
+            //return aStringForHTML.Replace("<", "&lt;").Replace("&", "&amp;");
+
+            //Correct
+            return aStringForHTML.Replace("&", "&amp;").Replace("<", "&lt;");
         } //escapeHTML()
 
 
@@ -480,7 +500,7 @@ namespace OverflowHelper.core
             if (aFirstCorrectedTerm)
             {
                 // Generate an acceptable identifier (for the HTML anchor)
-                
+
                 // Spaces are not allowed in IDs
                 string escapedCorrectedTerm = aCorrectedTerm.Replace(@" ", @"_");
 
@@ -498,7 +518,7 @@ namespace OverflowHelper.core
             // Empty: We avoid extra trailing space when copy-pasting
             //        from the word list page in a web browser.
             //
-            //        We may simply opt for direct substitution at 
+            //        We may simply opt for direct substitution at
             //        some point (if this turns out to be stable)
             //
             //string innerColumnsSeparator = " ";
@@ -1090,6 +1110,9 @@ namespace OverflowHelper.core
             // explanation) ends (especially when near the end
             // double quote).
             //
+            // Note that this is not encoding. It is
+            // essentially formatting as bold.
+            //
             // In particlar for a current item ending "{".
             //
             string codeCheck_AllOfExplanations_formatted =
@@ -1117,13 +1140,24 @@ namespace OverflowHelper.core
             // Actually outputs during NUnit run (unit test)
             //System.Console.Error.WriteLine("aCodeCheck_AllOfExplanations2: " + aCodeCheck_AllOfExplanations2);
 
-
             //What is the "&nbsp;" for??
+
+            // Note:
+            //
+            //   We do not want to HTML escape 'codeCheck_AllOfExplanations_formatted'.
+            //   At this point it is already formatted as actual HTML for
+            //   presentation purposes (e.g. "<strong>"). If we need to
+            //   escape the text itself (aCodeCheck_regularExpression)
+            //   in it, it should be done above, before any HTML
+            //   presentation formatting is added.
+            //
             aInOutBuilder.addParagraph(
                 "Regular expression" +
-                lineBreakAndIndent + codeCheck_AllOfExplanations_formatted +
+                lineBreakAndIndent +
+                  codeCheck_AllOfExplanations_formatted +
                   ": <br/>" +
-                lineBreakAndIndent + aCodeCheck_regularExpression);
+                lineBreakAndIndent +
+                  escapeHTML(aCodeCheck_regularExpression));
 
             aInOutBuilder.addContentWithEmptyLine("<hr/>");
 
