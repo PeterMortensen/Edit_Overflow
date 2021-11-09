@@ -37,6 +37,7 @@ namespace OverflowHelper.Tests
     class WordlistTests
     {
 
+
         /****************************************************************************
          *                                                                          *
          *    Intent: State assumptions about String.Replace(), including for       *
@@ -57,6 +58,39 @@ namespace OverflowHelper.Tests
 
         /****************************************************************************
          *                                                                          *
+         *    Helper function for some of the tests. To reduce redundancy.          *
+         *                                                                          *
+         *    It also isolates the Unix / Windows dependency.                       *
+         *                                                                          *
+         *                                                                          *
+         ****************************************************************************/
+        private string wordListAsHTML(
+            Dictionary<string, string> aSomeCaseCorrections,
+            Dictionary<string, string> aSomeWord2URLs)
+        {
+            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+
+            string Wordlist_HTML =
+              TermLookup.dumpWordList_asHTML(
+                "",
+                ", + , operators , {", // Some of it will be transformed...
+                ref aSomeCaseCorrections,
+                aSomeWord2URLs.Count,
+                ref aSomeWord2URLs,
+
+                //This is equivalent, for the refactoring, but
+                //should we use fixed or empty strings instead??
+                app.fullVersionStr(),
+                app.versionString_dateOnly()
+              );
+
+            return Wordlist_HTML;
+        } //wordListAsHTML()
+
+
+        /****************************************************************************
+         *                                                                          *
          *    Intent: More like a regression test (detect (unexpected) changes)     *
          *            for the HTML export result than a unit test.                  *
          *                                                                          *
@@ -69,29 +103,12 @@ namespace OverflowHelper.Tests
             // HTML, with only the begining and end, with an empty
             // word table. And empty XXX)
             //
-            Dictionary<string, string> someCaseCorrection =
+            Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URL =
-                new Dictionary<string, string>();
-            Dictionary<string, string> someCaseCorrection_Reverse =
+            Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
 
-            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
-
-            string Wordlist_HTML =
-              TermLookup.dumpWordList_asHTML(
-                "",
-                ", + , operators , {", // Some of it will be transformed...
-                ref someCaseCorrection,
-                someCaseCorrection_Reverse.Count,
-                ref someWord2URL,
-
-                //This is equivalent, for the refactoring, but
-                //should we use fixed or empty strings instead??
-                app.fullVersionStr(),
-                app.versionString_dateOnly()
-              );
+            string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
 
             int len = Wordlist_HTML.Length;
 
@@ -192,49 +209,31 @@ namespace OverflowHelper.Tests
             // on a web page due to the wrong encoding (should be UTF-8).
             //
 
-            Dictionary<string, string> someCaseCorrection =
+            Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URL =
+            Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
-            //Dictionary<string, string> someCaseCorrection_Reverse =
-            //    new Dictionary<string, string>();
-
 
             // First
-            someCaseCorrection.Add("JS", "JavaScript");
-            someWord2URL.Add(
+            someCaseCorrections.Add("JS", "JavaScript");
+            someWord2URLs.Add(
                 "JavaScript",
                 "https://en.wikipedia.org/wiki/JavaScript");
 
             // Second
-            someCaseCorrection.Add("angstrom", "Ångström Linux");
-            someWord2URL.Add(
+            someCaseCorrections.Add("angstrom", "Ångström Linux");
+            someWord2URLs.Add(
                 "Ångström Linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
 
             // Third
-            someCaseCorrection.Add("utorrent", "µTorrent");
-            someWord2URL.Add(
+            someCaseCorrections.Add("utorrent", "µTorrent");
+            someWord2URLs.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
 
-            int incorrectWords = someCaseCorrection.Count;
+            int incorrectWords = someCaseCorrections.Count;
 
-            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
-
-            string Wordlist_HTML =
-              TermLookup.dumpWordList_asHTML(
-                "",
-                ", + , operators , {", // Some of it will be transformed...
-                ref someCaseCorrection,
-                someWord2URL.Count,
-                ref someWord2URL,
-
-                //This is equivalent, for the refactoring, but
-                //should we use fixed or empty strings instead??
-                app.fullVersionStr(),
-                app.versionString_dateOnly()
-              );
+            string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
 
             int len = Wordlist_HTML.Length;
 
@@ -307,7 +306,9 @@ namespace OverflowHelper.Tests
 
         /****************************************************************************
          *                                                                          *
-         *    Intent: Test the indent functionality of the HTML build               *
+         *    Intent: Test the indent (internal, in the HTML source,                *
+         *            not presentation) functionality of the HTML                   *
+         *            builder                                                       *
          *                                                                          *
          ****************************************************************************/
         [Test]
