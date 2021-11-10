@@ -3826,6 +3826,8 @@ namespace OverflowHelper.core
             correctionAdd("JSON-P", "JSONP");
             correctionAdd("Jsonp", "JSONP");
             correctionAdd("jsonP", "JSONP");
+            correctionAdd("json-P", "JSONP");
+            correctionAdd("json-p", "JSONP");
 
             correctionAdd("param", "parameter"); // Expansion.
             correctionAdd("params", "parameter"); // Expansion, not 100% correct. Add a plural feature?
@@ -4250,6 +4252,7 @@ namespace OverflowHelper.core
             correctionAdd("specifiction", "specification");
             correctionAdd("spcefication", "specification");
             correctionAdd("Spcefication", "specification");
+            correctionAdd("specificaion", "specification");
 
             correctionAdd("midlet", "MIDlet");
 
@@ -8239,6 +8242,7 @@ namespace OverflowHelper.core
             correctionAdd("peapole", "people");
             correctionAdd("pepole", "people");
             correctionAdd("Pepole", "people");
+            correctionAdd("People", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -9175,6 +9179,7 @@ namespace OverflowHelper.core
             correctionAdd("set-up", "set up");
             correctionAdd("Setup", "set up");
             correctionAdd("Set-up", "set up");
+            correctionAdd("Set up", "set up");
 
             correctionAdd("gpio", "GPIO");
 
@@ -15724,6 +15729,7 @@ namespace OverflowHelper.core
             correctionAdd("Simpliest", "simplest");
 
             correctionAdd("step by step", "step-by-step");
+            correctionAdd("Step by step", "step-by-step");
 
             correctionAdd("VR", "virtual reality");
             correctionAdd("Virtual Reality", "virtual reality");
@@ -16184,6 +16190,7 @@ namespace OverflowHelper.core
 
             correctionAdd("foramt", "format");
             correctionAdd("formate", "format");
+            correctionAdd("foramat", "format");
 
             correctionAdd("in layman's language", "in layman's terms");
             correctionAdd("in laymans terms", "in layman's terms");
@@ -20592,6 +20599,7 @@ namespace OverflowHelper.core
             correctionAdd("conseal", "conceal");
 
             correctionAdd("FULL STOP", "full stop");
+            correctionAdd("fullstop", "full stop");
 
             correctionAdd("his self", "himself");
 
@@ -21559,6 +21567,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Y axis", "y-axis");
             correctionAdd("Y-axis", "y-axis");
+            correctionAdd("y axis", "y-axis");
 
             correctionAdd("vis-a-vis", "vis-à-vis");
             correctionAdd("vis a vis", "vis-à-vis");
@@ -23361,6 +23370,7 @@ namespace OverflowHelper.core
             correctionAdd("Souce", "source");
             correctionAdd("Source", "source");
             correctionAdd("souce", "source");
+            correctionAdd("sourse", "source");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
 
@@ -25864,6 +25874,7 @@ namespace OverflowHelper.core
             correctionAdd("Micheal Jackson", "Michael Jackson");
 
             correctionAdd("UTF32", "UTF-32");
+            correctionAdd("utf-32", "UTF-32");
 
             correctionAdd("contineing", "continuing");
             correctionAdd("continueing", "continuing");
@@ -30347,6 +30358,7 @@ namespace OverflowHelper.core
             correctionAdd("salaray", "salary");
 
             correctionAdd("Content-type", "Content-Type");
+            correctionAdd("content-type", "Content-Type");
 
             correctionAdd("mime type", "MIME type");
             correctionAdd("Mime-Type", "MIME type");
@@ -32619,6 +32631,7 @@ namespace OverflowHelper.core
             correctionAdd("mercure", "Mercure");
 
             correctionAdd("Bumping", "bumping");
+            correctionAdd("bumped", "bumping");
 
             correctionAdd("cliff-hanger", "cliffhanger");
             correctionAdd("cliff hanger", "cliffhanger");
@@ -32656,6 +32669,38 @@ namespace OverflowHelper.core
             correctionAdd("Client-side rendering", "client-side rendering");
             correctionAdd("CSR", "client-side rendering");
             correctionAdd("csr", "client-side rendering");
+
+            correctionAdd("entrypoint", "ENTRYPOINT");
+
+            correctionAdd("Elgamal", "ElGamal");
+
+            correctionAdd("erazor", "Erazor");
+
+            correctionAdd("haxe", "Haxe");
+            correctionAdd("haXe", "Haxe");
+
+            correctionAdd("indexOf", "IndexOf");
+
+            correctionAdd("kibana", "Kibana");
+
+            correctionAdd("ufront", "Ufront");
+
+            correctionAdd("ambisious", "ambitious");
+            correctionAdd("ambicious", "ambitious");
+
+            correctionAdd("DDH", "decisional Diffie–Hellman");
+
+            correctionAdd("ISA", "instruction set architecture");
+
+            correctionAdd("many to many", "many-to-many");
+
+            correctionAdd("mind bender", "mindbender");
+
+            correctionAdd("serielizer", "serializer");
+
+            correctionAdd("smooting", "smoothing");
+
+            correctionAdd("vector", "std::vector");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51315,6 +51360,36 @@ namespace OverflowHelper.core
             URL_Add("well-formed", "https://en.wikipedia.org/wiki/Well-formed_element");
 
             URL_Add("client-side rendering", "https://en.wikipedia.org/wiki/Dynamic_web_page");
+
+            URL_Add("ENTRYPOINT", "https://docs.docker.com/engine/reference/builder/#entrypoint");
+
+            URL_Add("ElGamal", "https://en.wikipedia.org/wiki/ElGamal_encryption");
+
+            URL_Add("Erazor", "https://stackoverflow.com/tags/erazor/info");
+
+            URL_Add("Haxe", "https://en.wikipedia.org/wiki/Haxe");
+
+            URL_Add("IndexOf", "https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof");
+
+            URL_Add("Kibana", "https://en.wikipedia.org/wiki/Kibana");
+
+            URL_Add("Ufront", "https://github.com/ufront/ufront");
+
+            URL_Add("ambitious", "https://en.wiktionary.org/wiki/ambitious#Adjective");
+
+            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
+
+            URL_Add("instruction set architecture", "https://en.wikipedia.org/wiki/Instruction_set_architecture");
+
+            URL_Add("many-to-many", "https://en.wiktionary.org/wiki/many-to-many#Adjective");
+
+            URL_Add("mindbender", "https://en.wiktionary.org/wiki/mindbender#Noun");
+
+            URL_Add("serializer", "https://en.wiktionary.org/wiki/serializer#Noun");
+
+            URL_Add("smoothing", "https://en.wiktionary.org/wiki/smooth#Verb");
+
+            URL_Add("std::vector", "https://en.wikipedia.org/wiki/Sequence_container_(C%2B%2B)#Vector");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
