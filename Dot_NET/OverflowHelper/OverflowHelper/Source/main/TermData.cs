@@ -3878,6 +3878,7 @@ namespace OverflowHelper.core
             correctionAdd("Mark-down", "Markdown");
             correctionAdd("mark down", "Markdown");
             correctionAdd("Markdow", "Markdown");
+            correctionAdd("Makrdown", "Markdown");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -21673,6 +21674,7 @@ namespace OverflowHelper.core
             correctionAdd("thunk", "think");
             correctionAdd("thibk", "think");
             correctionAdd("htink", "think");
+            correctionAdd("thnik", "think");
 
             correctionAdd("througput", "throughput");
 
@@ -31941,6 +31943,7 @@ namespace OverflowHelper.core
             correctionAdd("correllation", "correlation");
 
             correctionAdd("Domain Name", "domain name");
+            correctionAdd("domainname", "domain name");
 
             correctionAdd("HPC", "high-performance computing");
 
@@ -32649,6 +32652,7 @@ namespace OverflowHelper.core
             correctionAdd("necro posting", "necroposting");
 
             correctionAdd("one to many", "one-to-many");
+            correctionAdd("1 to many", "one-to-many");
 
             correctionAdd("SSR", "server-side rendering");
             correctionAdd("Server side rendering", "server-side rendering");
@@ -32701,6 +32705,8 @@ namespace OverflowHelper.core
             correctionAdd("smooting", "smoothing");
 
             correctionAdd("vector", "std::vector");
+
+            correctionAdd("guies", "guys");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51390,6 +51396,8 @@ namespace OverflowHelper.core
             URL_Add("smoothing", "https://en.wiktionary.org/wiki/smooth#Verb");
 
             URL_Add("std::vector", "https://en.wikipedia.org/wiki/Sequence_container_(C%2B%2B)#Vector");
+
+            URL_Add("guys", "https://en.wiktionary.org/wiki/guys#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
