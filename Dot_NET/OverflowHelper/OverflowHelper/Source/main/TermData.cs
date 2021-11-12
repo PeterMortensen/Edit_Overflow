@@ -3934,6 +3934,7 @@ namespace OverflowHelper.core
             correctionAdd("certifcate", "certificate");
             correctionAdd("certitificate", "certificate");
             correctionAdd("cerificate", "certificate");
+            correctionAdd("Certificate", "certificate");
 
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
@@ -4457,6 +4458,8 @@ namespace OverflowHelper.core
             correctionAdd("micro$oft", "Microsoft");
             correctionAdd("Micro$oft", "Microsoft");
             correctionAdd("Micro$**t", "Microsoft");
+            correctionAdd("Micorosft", "Microsoft");
+            correctionAdd("Microosft", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -5359,6 +5362,8 @@ namespace OverflowHelper.core
 
             correctionAdd("exchange", "Microsoft Exchange Server");
             correctionAdd("Exchange", "Microsoft Exchange Server");
+            correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
+            correctionAdd("Exhange", "Microsoft Exchange Server");
 
             correctionAdd("exchange 2003 server", "Exchange Server 2003");
             correctionAdd("exchange server 2003", "Exchange Server 2003");
@@ -8160,9 +8165,6 @@ namespace OverflowHelper.core
             correctionAdd("OPamp", "operational amplifier");
             correctionAdd("Op-Amp", "operational amplifier");
 
-            correctionAdd("ASN1", "ASN.1");
-            correctionAdd("ASN-1", "ASN.1");
-
             correctionAdd("nexus s", "Nexus S");
 
             correctionAdd("nexus 4", "Nexus&nbsp;4");
@@ -10956,6 +10958,7 @@ namespace OverflowHelper.core
             correctionAdd("consequitive", "consecutive");
             correctionAdd("conseqitive", "consecutive");
             correctionAdd("conseuqitive", "consecutive");
+            correctionAdd("consequetive", "consecutive");
 
             correctionAdd("beleive", "believe");
             correctionAdd("belive", "believe");
@@ -10985,6 +10988,7 @@ namespace OverflowHelper.core
             correctionAdd("mController", "microcontroller");
             correctionAdd("microncontroller", "microcontroller");
             correctionAdd("mictrocontrollers", "microcontroller");
+            correctionAdd("microctroller", "microcontroller");
 
             correctionAdd("uP", "microprocessor");
             correctionAdd("µp", "microprocessor");
@@ -12522,6 +12526,7 @@ namespace OverflowHelper.core
             correctionAdd("synatx", "syntax");
             correctionAdd("snytax", "syntax");
             correctionAdd("syntaxe", "syntax");
+            correctionAdd("syntex", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -14467,6 +14472,7 @@ namespace OverflowHelper.core
             correctionAdd("Independence", "independence");
             correctionAdd("Independance", "independence");
             correctionAdd("independance", "independence");
+            correctionAdd("independece", "independence");
 
             correctionAdd("King", "king");
 
@@ -14855,6 +14861,9 @@ namespace OverflowHelper.core
 
             correctionAdd("distination", "destination");
             correctionAdd("dest", "destination");
+
+            correctionAdd("ASN1", "ASN.1");
+            correctionAdd("ASN-1", "ASN.1");
 
             correctionAdd("1-on-1", "one-on-one");
             correctionAdd("one on one", "one-on-one");
@@ -19571,6 +19580,7 @@ namespace OverflowHelper.core
             correctionAdd("keybroad", "keyboard");
             correctionAdd("key board", "keyboard");
             correctionAdd("keybord", "keyboard");
+            correctionAdd("KeyBoard", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -30462,6 +30472,7 @@ namespace OverflowHelper.core
             correctionAdd("eachothers", "each other's");
 
             correctionAdd("empheral", "ephemeral");
+            correctionAdd("ephmeral", "ephemeral");
 
             correctionAdd("Geometry", "geometry");
 
@@ -32222,6 +32233,7 @@ namespace OverflowHelper.core
             correctionAdd("encounterd", "encountered");
 
             correctionAdd("execured", "executed");
+            correctionAdd("excuted", "executed");
 
             correctionAdd("handeld", "handled");
 
@@ -32707,6 +32719,45 @@ namespace OverflowHelper.core
             correctionAdd("vector", "std::vector");
 
             correctionAdd("guies", "guys");
+            correctionAdd("Guies", "guys");
+
+            correctionAdd("Graph", "Microsoft Graph");
+            correctionAdd("Microsoft graph", "Microsoft Graph");
+
+            correctionAdd("takeoff/go-around", "TO/GA");
+            correctionAdd("toga", "TO/GA");
+            correctionAdd("TOGA", "TO/GA");
+
+            correctionAdd("Uservoice", "UserVoice");
+
+            correctionAdd("WinRT XAML", "WinUI");
+            correctionAdd("UWP XAML", "WinUI");
+            correctionAdd("winui", "WinUI");
+
+            correctionAdd("asymetric", "asymmetric");
+
+            correctionAdd("assymetry", "asymmetry");
+
+            correctionAdd("at the time of this writing", "at the time of writing");
+            correctionAdd("At the time of writing", "at the time of writing");
+            correctionAdd("As of writing", "at the time of writing");
+            correctionAdd("as of writing", "at the time of writing");
+
+            correctionAdd("Comparator", "comparator");
+
+            correctionAdd("destalinization", "de-Stalinization");
+
+            correctionAdd("1337", "leet");
+            correctionAdd("eleet", "leet");
+            correctionAdd("leetspeak", "leet");
+
+            correctionAdd("Metro", "metro");
+
+            correctionAdd("simplyfied", "simplified");
+
+            correctionAdd("step up", "step-up");
+
+            correctionAdd("studyig", "studying");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51398,6 +51449,34 @@ namespace OverflowHelper.core
             URL_Add("std::vector", "https://en.wikipedia.org/wiki/Sequence_container_(C%2B%2B)#Vector");
 
             URL_Add("guys", "https://en.wiktionary.org/wiki/guys#Noun");
+
+            URL_Add("Microsoft Graph", "https://en.wikipedia.org/wiki/Microsoft_Graph");
+
+            URL_Add("TO/GA", "https://en.wikipedia.org/wiki/Takeoff/go-around_switch");
+
+            URL_Add("UserVoice", "https://en.wikipedia.org/wiki/UserVoice#History");
+
+            URL_Add("WinUI", "https://en.wikipedia.org/wiki/Windows_UI_Library");
+
+            URL_Add("asymmetric", "https://en.wiktionary.org/wiki/asymmetric#Adjective");
+
+            URL_Add("asymmetry", "https://en.wiktionary.org/wiki/asymmetry#Noun");
+
+            URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
+
+            URL_Add("comparator", "https://en.wikipedia.org/wiki/Comparator");
+
+            URL_Add("de-Stalinization", "https://en.wikipedia.org/wiki/De-Stalinization");
+
+            URL_Add("leet", "https://en.wikipedia.org/wiki/Leet");
+
+            URL_Add("metro", "https://en.wikipedia.org/wiki/Rapid_transit");
+
+            URL_Add("simplified", "https://en.wiktionary.org/wiki/simplified#Adjective");
+
+            URL_Add("step-up", "https://en.wiktionary.org/wiki/step-up#Adjective");
+
+            URL_Add("studying", "https://en.wiktionary.org/wiki/study#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
