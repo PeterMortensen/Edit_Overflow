@@ -3841,6 +3841,8 @@ namespace OverflowHelper.core
             correctionAdd("parametar", "parameter");
             correctionAdd("parametre", "parameter");
             correctionAdd("Param", "parameter");
+            correctionAdd("parametera", "parameter"); // Some other language? Plural?
+            correctionAdd("parameters", "parameter"); // Not 100% correct - plural.
 
             correctionAdd("Ultraedit", "UltraEdit");
             correctionAdd("ultraedit", "UltraEdit");
@@ -6779,6 +6781,7 @@ namespace OverflowHelper.core
             correctionAdd("BitBucket", "Bitbucket");
             correctionAdd("bit bucket", "Bitbucket");
             correctionAdd("BITBUCKET", "Bitbucket");
+            correctionAdd("bitbecket", "Bitbucket");
 
             correctionAdd("squeak", "Squeak");
 
@@ -7126,11 +7129,18 @@ namespace OverflowHelper.core
             correctionAdd("subroutine", "function");
             correctionAdd("functiion", "function");
             correctionAdd("fn", "function");
+            correctionAdd("functonn", "function");
+            correctionAdd("Function", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
 
             correctionAdd("disfunction", "dysfunction");
+
+            correctionAdd("dirac delta", "Dirac delta function");
+            correctionAdd("Dirac Delta", "Dirac delta function");
+
+            correctionAdd("Sigmoid function", "sigmoid function");
 
             correctionAdd("cgi", "CGI");
 
@@ -10200,6 +10210,7 @@ namespace OverflowHelper.core
             correctionAdd("Progrmatically", "programmatically");
             correctionAdd("programaticly", "programmatically");
             correctionAdd("programmaticly", "programmatically");
+            correctionAdd("programmically", "programmatically");
 
             correctionAdd("Hex", "hexadecimal");
             correctionAdd("hex", "hexadecimal");
@@ -11624,6 +11635,7 @@ namespace OverflowHelper.core
             correctionAdd("SBC", "single-board computer");
 
             correctionAdd("eigth", "eight");
+            correctionAdd("Eight", "eight");
 
             correctionAdd("8th", "eighth");
             correctionAdd("Eighth", "eighth");
@@ -11736,6 +11748,7 @@ namespace OverflowHelper.core
             correctionAdd("instad", "instead");
             correctionAdd("Intead", "instead");
             correctionAdd("in state", "instead");
+            correctionAdd("instand", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -12983,6 +12996,7 @@ namespace OverflowHelper.core
             correctionAdd("differance", "difference");
             correctionAdd("diffrerence", "difference");
             correctionAdd("Diference", "difference");
+            correctionAdd("differece", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -14968,6 +14982,8 @@ namespace OverflowHelper.core
             correctionAdd("asterics", "asterisk");
             correctionAdd("asteriks", "asterisk");
             correctionAdd("astrix", "asterisk");
+            correctionAdd("Asterik", "asterisk");
+            correctionAdd("asterik", "asterisk");
 
             correctionAdd("cetian", "certain");
             correctionAdd("certian", "certain");
@@ -19354,6 +19370,7 @@ namespace OverflowHelper.core
             correctionAdd("Chnage", "change");
             correctionAdd("Change", "change");
             correctionAdd("chenge", "change");
+            correctionAdd("chnage", "change");
 
             correctionAdd("acces token", "access token");
             correctionAdd("access-token", "access token");
@@ -19450,10 +19467,6 @@ namespace OverflowHelper.core
             correctionAdd("uninterupted", "uninterrupted");
 
             correctionAdd("viadeo", "Viadeo");
-
-            correctionAdd("constrains", "constraints");
-            correctionAdd("contraints", "constraints");
-            correctionAdd("constrainst", "constraints");
 
             correctionAdd("first class citizen", "first-class citizen");
 
@@ -23022,6 +23035,7 @@ namespace OverflowHelper.core
             correctionAdd("k&r", "The C Programming Language");
             correctionAdd("k&R", "The C Programming Language");
             correctionAdd("K & R", "The C Programming Language");
+            correctionAdd("KnR", "The C Programming Language");
 
             correctionAdd("lang", "language");
             correctionAdd("langauge", "language");
@@ -24317,6 +24331,7 @@ namespace OverflowHelper.core
             correctionAdd("luks", "LUKS");
 
             correctionAdd("Legendre Polynomialas", "Legendre polynomials");
+            correctionAdd("Legendre polynomial", "Legendre polynomials");
 
             correctionAdd("wsl", "Windows Subsystem for Linux");
             correctionAdd("WSL", "Windows Subsystem for Linux");
@@ -27398,6 +27413,7 @@ namespace OverflowHelper.core
 
             correctionAdd("relitively", "relatively");
             correctionAdd("relativeley", "relatively");
+            correctionAdd("reletively", "relatively");
 
             correctionAdd("super market", "supermarket");
             correctionAdd("Super Marker", "supermarket");
@@ -29736,9 +29752,6 @@ namespace OverflowHelper.core
 
             correctionAdd("amd module", "AMD module");
 
-            correctionAdd("dirac delta", "Dirac delta function");
-            correctionAdd("Dirac Delta", "Dirac delta function");
-
             correctionAdd("IDLE3", "IDLE&nbsp;3");
             correctionAdd("IDLE 3", "IDLE&nbsp;3");
 
@@ -31428,8 +31441,6 @@ namespace OverflowHelper.core
 
             correctionAdd("self centered", "self-centered");
 
-            correctionAdd("Sigmoid function", "sigmoid function");
-
             correctionAdd("GTMO", "Guantanamo Bay Naval Base");
             correctionAdd("Gitmo", "Guantanamo Bay Naval Base");
 
@@ -32495,7 +32506,12 @@ namespace OverflowHelper.core
 
             correctionAdd("changable", "changeable");
 
+            correctionAdd("constrains", "constraints");
+            correctionAdd("contraints", "constraints");
+            correctionAdd("constrainst", "constraints");
+
             correctionAdd("contraint", "constraint");
+            correctionAdd("constaint", "constraint");
 
             correctionAdd("disscusions", "discussions");
 
@@ -32758,6 +32774,43 @@ namespace OverflowHelper.core
             correctionAdd("step up", "step-up");
 
             correctionAdd("studyig", "studying");
+
+            correctionAdd("--Wall", "-Wall");
+
+            correctionAdd("--Werror", "-Werror");
+
+            correctionAdd("--Wextra", "-Wextra");
+
+            correctionAdd("--Wuninitialized", "-Wuninitialized");
+
+            correctionAdd("--ansi", "-ansi");
+
+            correctionAdd("--pedantic", "-pedantic");
+
+            correctionAdd("--pedantic-errors", "-pedantic-errors");
+
+            correctionAdd("commons math", "Commons-Math");
+
+            correctionAdd("Getx", "GetX");
+            correctionAdd("getX", "GetX");
+
+            correctionAdd("Laguerre", "Laguerre's method");
+
+            correctionAdd("mingw64", "Mingw-w64");
+
+            correctionAdd("Karjakin", "Sergey Karjakin");
+
+            correctionAdd("vulkan", "Vulkan");
+
+            correctionAdd("auxilaries", "auxiliaries");
+
+            correctionAdd("beast", "best");
+
+            correctionAdd("Criminology", "criminology");
+
+            correctionAdd("differeces", "differences");
+
+            correctionAdd("mis-use", "misuse");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51477,6 +51530,42 @@ namespace OverflowHelper.core
             URL_Add("step-up", "https://en.wiktionary.org/wiki/step-up#Adjective");
 
             URL_Add("studying", "https://en.wiktionary.org/wiki/study#Verb");
+
+            URL_Add("-Wall", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wall");
+
+            URL_Add("-Werror", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror");
+
+            URL_Add("-Wextra", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra");
+
+            URL_Add("-Wuninitialized", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized");
+
+            URL_Add("-ansi", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ANSI-support");
+
+            URL_Add("-pedantic", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-pedantic-1");
+
+            URL_Add("-pedantic-errors", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-pedantic-errors-1");
+
+            URL_Add("Commons-Math", "https://cwiki.apache.org/confluence/display/COMMONS/Math");
+
+            URL_Add("GetX", "https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#getx");
+
+            URL_Add("Laguerre's method", "https://en.wikipedia.org/wiki/Laguerre%27s_method");
+
+            URL_Add("Mingw-w64", "https://en.wikipedia.org/wiki/Mingw-w64");
+
+            URL_Add("Sergey Karjakin", "https://en.wikipedia.org/wiki/Sergey_Karjakin");
+
+            URL_Add("Vulkan", "https://en.wikipedia.org/wiki/Vulkan");
+
+            URL_Add("auxiliaries", "https://en.wiktionary.org/wiki/auxiliary#Noun");
+
+            URL_Add("best", "https://en.wiktionary.org/wiki/best#Adjective");
+
+            URL_Add("criminology", "https://en.wikipedia.org/wiki/Criminology");
+
+            URL_Add("differences", "https://en.wiktionary.org/wiki/difference#Noun");
+
+            URL_Add("misuse", "https://en.wiktionary.org/wiki/misuse#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
