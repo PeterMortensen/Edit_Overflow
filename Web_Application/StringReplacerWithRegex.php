@@ -31,7 +31,11 @@
 
         function transform($aMatchString, $aReplaceSpecification)
         {
-            # Not used: "s" is for "." matching newlines.
+            # Not used: "s" is for "." matching newlines(?).
+
+            // From <https://www.php.net/manual/en/function.preg-replace.php>:
+            //
+            //  "replacement... XXX"
 
             $this->mCurrentString = preg_replace(
                                        '/' . $aMatchString . '/',
@@ -39,7 +43,7 @@
                                        $this->mCurrentString);
         }
 
-        # Use for tests (using regular expressions) 
+        # Use for tests (using regular expressions)
         # on the current state of the string
         #
         function match($aMatchString)

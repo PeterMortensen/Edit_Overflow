@@ -188,11 +188,11 @@
 
 #############################################################################
 #
-# Meta: Perl one-liner to compute the run time for each 
-#       build step. It works on the saved output from 
+# Meta: Perl one-liner to compute the run time for each
+#       build step. It works on the saved output from
 #       a run of the build script
 #
-#       The output is TAB-separated and can thus easily be 
+#       The output is TAB-separated and can thus easily be
 #       post processed in LibreOffice Calc or similar.
 #
 # perl -nle 'if (/^\d+\./) { $prevBuildLine = $buildLine; $buildLine = $_; }  if (/^At: /) { $prevHours = $hours; $prevMinutes = $minutes; $prevSeconds = $seconds; if (/T(\d+):(\d+):(\d+)_(\d+)/) { $hours = $1; $minutes = $2; $seconds = $3 + $4 / 1000000000.0} $runTimeSeconds = 3600 * ($hours - $prevHours) + 60 * ($minutes - $prevMinutes) + ($seconds - $prevSeconds); print "Run time [secs]\t$runTimeSeconds\t$prevBuildLine" if $prevHours; }   '   '/home/embo/temp2/2021-11-05/Transcript of Edit Overflow build, 2021-11-05T171256.txt'  >  _BuildStepsTimings.txt
@@ -393,7 +393,7 @@ function absoluteTimestamp()
     #     2021-11-05T14:39:34_230550955_ns
 
     date +%FT%T_%N_ns
-}
+} #absoluteTimestamp()
 
 
 # ###########################################################################
@@ -432,7 +432,7 @@ function timeStamp()
     #
     #echo ; echo -n "$1: $(absoluteTimestamp)" ; echo
     echo ; echo "$1: $(absoluteTimestamp)" ; echo
-}
+} #timeStamp()
 
 
 # ###########################################################################
@@ -465,7 +465,7 @@ function startOfBuildStep()
     #
     #   2. Output a timestamp (so we know the absolute time this
     #      particular test was run)
-}
+} #startOfBuildStep()
 
 
 # ###########################################################################
@@ -504,7 +504,7 @@ function evaluateBuildResult()
       0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
       *)   echo ; echo "Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
     esac
-}
+} #evaluateBuildResult()
 
 
 # ###########################################################################
@@ -523,7 +523,7 @@ function mustBeEqual()
 {
     #if [ $1 == $2 ] ; evaluateBuildResult $3  $? "Two strings not equal: $1 and $2 ($4)"
     [[ $1 == $2 ]] ; evaluateBuildResult $3  $? "two strings not equal: $1 and $2 ($4)"
-}
+} #mustBeEqual()
 
 
 # ###########################################################################
@@ -544,7 +544,7 @@ function keyboardShortcutConsistencyCheck()
 
     #perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
     ${WEBFORM_CHECK_CMD}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
-}
+} #keyboardShortcutConsistencyCheck()
 
 
 # ###########################################################################
@@ -578,7 +578,7 @@ function HTML_validation_base()
     echo
 
     wget -q -O- ${SUBMIT_URL} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
-}
+} #HTML_validation_base()
 
 
 # ###########################################################################
@@ -601,7 +601,7 @@ function HTML_validation()
     #       in a string are not seen as separate parameters...
 
     HTML_validation_base "$1" "$2" "$3" '%2Fworld'
-}
+} #HTML_validation()
 
 
 # ###########################################################################
@@ -664,7 +664,7 @@ function PHP_code_test()
     # Later: Also for build number (small integer)
     #
     # The fourth parameter should be in URL query format
-    echo $4 | grep -q "=" ; evaluateBuildResult $3 $? "PHP test, internal test: The fourth parameter to function PHP_code_test() does not appear to be in URL query format: $4 "
+    echo $4 | grep -q "=" ; evaluateBuildResult $3 $? "PHP test (step 1), internal test: The fourth parameter to function PHP_code_test() does not appear to be in URL query format: $4 "
 
 
     # #####################################
@@ -695,7 +695,7 @@ function PHP_code_test()
     # 3. Detect missing files (as seen by the PHP interpreter)
     #
     export MISSINGFILES_MATCHSTRING="Could not open input file: "
-    grep -q "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP}`\""
+    grep -q "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 3): $2 (file $1). Extra information: \"`grep "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP}`\""
 
 
     # #####################################
@@ -715,7 +715,7 @@ function PHP_code_test()
     #
     # 'head' is for limiting the output (but there is usually only one line)
     #
-    grep -q "$5" ${STDERR_FILE} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: expected \"$5\", but got \"`head -n 3 ${STDERR_FILE}`\"  "
+    grep -q "$5" ${STDERR_FILE} ; evaluateBuildResult $3 $? "PHP test (step 14: $2 (file $1). Extra information: expected \"$5\", but got \"`head -n 3 ${STDERR_FILE}`\"  "
 
 
     # #####################################
@@ -729,10 +729,10 @@ function PHP_code_test()
     #! (grep -q "First argument: " ${HTML_FILE_PHP}) ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE_PHP}`"
     #grep -q "First argument: " ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE_PHP}`"
     #grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP} ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP}`"
-    grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP}`\"  "
+    grep -q "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 5a): $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING1}" ${HTML_FILE_PHP}`\"  "
 
     export STRAYDEBUGGING_MATCHSTRING2="Some URL: "
-    grep -q "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE_PHP}`\"  "
+    grep -q "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 5b): $2 (file $1). Extra information: \"`grep "${STRAYDEBUGGING_MATCHSTRING2}" ${HTML_FILE_PHP}`\"  "
 
 
     # #####################################
@@ -744,7 +744,7 @@ function PHP_code_test()
     # automatically stop on all errors and warnings?
     #
     export UNITTEST_MATCHSTRING="Failed test. ID: "
-    grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP}`\"  "
+    grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 6): $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP}`\"  "
 
 
     # #####################################
@@ -762,7 +762,7 @@ function PHP_code_test()
     #
     export FATALERROR_MATCHSTRING="PHP Fatal error: "
     #grep -q "${FATALERROR_MATCHSTRING}" ${STDERR_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${FATALERROR_MATCHSTRING}" ${STDERR_FILE}`\""
-    grep -v 'Access denied for user' ${STDERR_FILE} | grep -q "${FATALERROR_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`  grep -v 'Access denied for user' ${STDERR_FILE} | grep -q "${FATALERROR_MATCHSTRING}"  `\""
+    grep -v 'Access denied for user' ${STDERR_FILE} | grep -q "${FATALERROR_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 7): $2 (file $1). Extra information: \"`  grep -v 'Access denied for user' ${STDERR_FILE} | grep -q "${FATALERROR_MATCHSTRING}"  `\". Standard error: `head -n 3 ${STDERR_FILE}`   "
 
 
     # #####################################
@@ -779,8 +779,8 @@ function PHP_code_test()
     #   PHP Notice:  Undefined variable: URLZZZZZZZ in /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/commonStart.php on line 504
     #
     export NOTICE_MATCHSTRING="PHP Notice: "
-    grep -v dummy2 ${STDERR_FILE} | grep -q "${NOTICE_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`  grep -v dummy2 ${STDERR_FILE} | grep "${NOTICE_MATCHSTRING}"  `\""
-}
+    grep -v dummy2 ${STDERR_FILE} | grep -q "${NOTICE_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test  (step 8): $2 (file $1). Extra information: \"`  grep -v dummy2 ${STDERR_FILE} | grep "${NOTICE_MATCHSTRING}"  `\""
+} #PHP_code_test()
 
 
 # ###########################################################################
@@ -799,7 +799,7 @@ function startWatchFile()
     # File size for now. Perhaps MD5 hash later
 
     export FILE_SIZE_BEFORE=`wc $1`
-}
+} #startWatchFile()
 
 
 # ###########################################################################
@@ -826,7 +826,7 @@ function endWatchFile()
     export FILE_SIZE_AFTER=`wc $1`
 
     [ "${FILE_SIZE_BEFORE}" = "${FILE_SIZE_AFTER}" ]
-}
+} #endWatchFile()
 
 
 # ###########################################################################
@@ -930,7 +930,7 @@ function webServer_test()
     #    #echo ; date ;
     #    echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 2
     #fi
-}
+} #webServer_test()
 
 
 # ###########################################################################
@@ -1006,10 +1006,13 @@ function retrieveWebHostingErrorLog()
     #tail -n 5 ${NEW_FILENAME_PARTIALPATH}
     #echo
     #echo
-}
+} #retrieveWebHostingErrorLog()
 
 
 
+
+# ###########################################################################
+# ###########################################################################
 # ###########################################################################
 #
 #   Start of the build script
@@ -1075,6 +1078,9 @@ pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable
 #     "mkdir: cannot create directory ‘/home/embo/temp2/2020-06-03’: File exists"
 #
 startOfBuildStep "2" "Copying files to the build folder, etc."
+
+echo "Build folder: ${WORKFOLDER}"
+echo
 
 mkdir -p $WORKFOLDER1
 mkdir -p $WORKFOLDER2
@@ -1160,7 +1166,7 @@ sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
 #
 echo
 cd $WORKFOLDER
-echo Work folder: $WORKFOLDER
+#echo Work folder: $WORKFOLDER
 
 
 
@@ -1314,6 +1320,7 @@ startOfBuildStep "17" "Start running C# unit tests"
 #       file name (inconsistent)
 #
 dotnet test EditOverflow3_UnitTests.csproj  ; evaluateBuildResult 17 $? "C# unit tests"
+
 
 
 # Prepare for the main run (see in the beginning for an explanation)
