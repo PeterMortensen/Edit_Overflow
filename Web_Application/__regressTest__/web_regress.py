@@ -347,7 +347,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             aURL, content_in_1, content_out_1,
             "m", "The Markdown formatter result was bad!")
 
-        # Source code input with more than 4 space indent (e.g., when 
+        # Source code input with more than 4 space indent (e.g., when
         # part of a Markdown list) must be formatted correctly.
         #
         content_in_2 =  ("        warning: ignoring #pragma untiunti\n"
