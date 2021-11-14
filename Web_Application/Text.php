@@ -182,23 +182,58 @@
                 return implode("\r\n", $newContent);
             } #removeCommonLeadingSpaces()
 
-
+            // "none" as in Markdowm "lang_none" - syntax
+            // highlighting turned off.
+            //
             function convertToMarkdownCodefencing_none($aText)
             {
                 $replacer = new StringReplacerWithRegex($aText);
 
+                # Remove four leading spaces from each line (if there
+                # are at least four leading in a line).
+                #
                 # ".*" seems to be non-greedy (unlike Perl). This should
-                # be investigated further
+                # be investigated further.
+                #
+                # Note: \s also seems to match the CR+LF sequence, so
+                #       we use a literal space here.
                 #
                 #$replacer->transform('\s\s\s\s(.*)\r\n', '$1' . "\r\n");
                 $replacer->transform('    (.*)\r\n', '$1' . "\r\n");
 
                 $someText = $replacer->currentString();
 
+                # Find indent for the codefences. It should be the indent
+                # for the line with the minimum amount of indent (except
+                # empty linese), but for ***now*** we take it from the
+                # ***first line***.
+
+                $replacer2 = new StringReplacerWithRegex($someText);
+
+                # Find the space by removing everything else, but
+                # leading space on the first line
+                #
+                # Note: Everything that matches is replaced. () and $
+                #       is dynamic content (e.g., some number)
+                #
+                # Major gotcha: ".*" does not match everything! It doesn't
+                # match the end of line... So instead of just ".*" we
+                # have to use "(.|\r|\n)*".
+                #
+                $replacer2->transform('^([ \t]*)(.|\r|\n)*', '$1');
+
+                $codefenceIndent = $replacer2->currentString();
+
+                #echo
+                #    "\n\ncodefenceIndent: ___" . $codefenceIndent . "___\n\n" .
+                #    "someText: ___" . $someText . "___\n\n"
+                #    ;
+
+                # Wrap in Markdown codefences
                 return
-                    "```lang-none\r\n" .
+                    $codefenceIndent . "```lang-none\r\n" .
                     $someText .
-                    "```\r\n";
+                    $codefenceIndent . "```\r\n";
 
             } #convertToMarkdownCodefencing_none()
 
@@ -216,24 +251,28 @@
             # if the new string is ***shorter*** - the most common
             # case in this context (this file)).
             #
+            # Note: We can not test aLengthDiff for 0 as some tests actually
+            #       specify a value of 0 - e.g., to test that some content 
+            #       is NOT converted (e.g., some "."s are not seen as 
+            #       belonging to a URL...)
+            #
             function assert_strLengths($anID, $aOrigText, $aNewText, $aLengthDiff)
             {
                 $lenBefore = strlen($aOrigText);
                 $lenAfter  = strlen($aNewText);
                 $diff = $lenBefore - $lenAfter;
 
-
                 # Sanity check of parameters
                 #
                 #Some redundancy here (refactor?)
                 if ($lenBefore < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $anID. $lenBefore characters before. Original text: XXX" . $aOrigText . "XXX </p>\n";
+                    echo "<p>Likely flawed test. ID: $anID. $lenBefore characters before. Original text: ___" . $aOrigText . "___ </p>\n";
                     assert(false);
                 }
                 if ($lenAfter < 2)
                 {
-                    echo "<p>Likely flawed test. ID: $anID. $lenAfter characters after. New text: XXX" . $aOrigText . "XXX </p>\n";
+                    echo "<p>Likely flawed test. ID: $anID. $lenAfter characters after. New text: ___" . $aOrigText . "___ </p>\n";
                     assert(false);
                 }
 
@@ -241,14 +280,18 @@
                 if (! ($diff === $aLengthDiff))
                 {
                     echo "<br/><br/>\n";
-                    echo "Failed test. ID: $anID. $lenBefore characters before. " .
+                    echo "    Failed test. ID: $anID. $lenBefore characters before. " .
                           "$lenAfter characters after. " .
-                          "Expected difference: $aLengthDiff. Actual: $diff\n";
+                          "Expected difference: $aLengthDiff. Actual: $diff" .
+                          ". New text: >>>$aNewText<<<" .
+                          #"\n\n" .
+                          #"\n"
+                          "";
 
                     echo "<br/><br/>\n";
-                    echo "Before: XXX" . $aOrigText . "XXX. \n";
+                    echo "Before: ___" . $aOrigText . "___. \n";
                     echo "<br/><br/>\n";
-                    echo "After:  XXX" . $aNewText  . "XXX. \n";
+                    echo "After:  ___" . $aNewText  . "___. \n";
                     assert(false);
                 }
                 else
@@ -372,6 +415,38 @@
                                   $aLengthDiff);
             } #test_transformFor_YouTubeComments()
 
+
+            # Helper function for testing
+            #
+            function test_StringReplacer(
+                $anID,
+                $anInputText,
+                $aRegularExpressionSearch,
+                $aRegularExpressionReplace,
+                $anExpectedOutputText,
+                $aLengthDiff)
+            {
+                $replacer2 = new StringReplacerWithRegex($anInputText);
+
+                # We actually know the expected result - parameter
+                # anExpectedOutputText (in contrast to the other
+                # test), but we use the existing report system
+                # for the actual assert.
+                #
+                #anExpectedOutputText
+
+                $replacer2->transform($aRegularExpressionSearch,
+                                      $aRegularExpressionReplace);
+
+                $outputText = $replacer2->currentString();
+
+                assert_strLengths($anID,
+                                  $anInputText,
+                                  $outputText,
+                                  $aLengthDiff);
+            } #test_StringReplacer()
+
+
             # Helper function for testing
             #
             function test_convert_to_Markdown_codefencing($anID, $aSomeText, $aLengthDiff)
@@ -385,10 +460,16 @@
                 # Assumptions made about this function, no matter
                 # the current expected set of inputs:
                 #
-                # 1.No leading space (this presumes all non-empty lines in
-                #   in the input have four spaces indent).
+                # 1. No leading space (this presumes all non-empty lines
+                #    in the input have four spaces indent). This is due
+                #    to the current inability of function
+                #    convertToMarkdownCodefencing_none() to handle it
+                #    (incorrect output - missing ***leading space***
+                #    (indent) for the code fences).
                 #
-                # 2. Number of newlines has increased by 2 (for the code fencing)
+                # 2. Number of newlines has increased by 2 (for the
+                #    code fencing)
+                #
                 if ($newLinesAfter != $expectedNewLinesAfter)
                 {
                     echo "<p>The output does not contain the expected number of newlines " .
@@ -610,25 +691,69 @@
                 7 + 7);
 
 
+            # Magic numbers (we should probably eliminate them):
+            #
+            #   12: "```lang-none"
+            #    3: "```"
+            #    2: CR+LF
 
             test_convert_to_Markdown_codefencing(1032,
-                "    XXX\r\n",
-                1*4 - (12 + 2 + 3 + 2)); # The 2's are for the CR+LF.
+                "    End\r\n",
+                1*4 - (12 + 2 + 3 + 2));
 
+            #Extra spaces so the indent is not zero spaces
             test_convert_to_Markdown_codefencing(1033,
+                "     End\r\n",
+                1*4 - 2*1 - (12 + 2 + 3 + 2));
+
+            test_convert_to_Markdown_codefencing(1034,
                 "    if (\$next)\r\n" .
                 "    {\r\n" .
                 "        \$next .= \"Extras\";\r\n" .
                 "    }\r\n" .
                 "",
-                4*4 - (12 + 2 + 3 + 2)); # The 2's are for the CR+LF.
+                4*4 - (12 + 2 + 3 + 2));
 
-            test_convert_to_Markdown_codefencing(1034,
+
+            test_convert_to_Markdown_codefencing(1035,
                 "    AAA\r\n" .
                 "\r\n" .
                 "    BBB\r\n" .
                 "",
-                2*4 - (12 + 2 + 3 + 2)); # The 2's are for the CR+LF.
+                2*4 - (12 + 2 + 3 + 2));
+
+            # Testing for more than 4 spaces indent - only
+            # four spaces should be removed - not all spaces.
+            # Also, the code fences should be indented the
+            # same as the resulting content.
+            #
+            # This is for it to work well with code in
+            # Markdown lists.
+            #
+            test_convert_to_Markdown_codefencing(1036,
+                "         End\r\n",
+                1*4 - (12 + 2 + 3 + 2)
+                - 2 * 5   # 5: remaining space after removing 4 space
+                        #    indent - the indent for each of the
+                        #    two code fences.
+                );
+
+            # Major gotcha: ".*" does not match everything!
+            # It doesn't match the end of line...
+            #
+            # This will not work:
+            #
+            #     '^([ \t]*).*'
+            #
+            # Note: The result string can not be shorter than 2
+            #       due to constraints in the testing system.
+            #       So we need more than one leading space...
+            #
+            test_StringReplacer(1037,
+                "   End\r\n",
+                '^([ \t]+)(.|\r|\n)*', '$1',
+                '   ',
+                5);
 
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
@@ -990,8 +1115,8 @@
             # #
             # if (function_exists('do_shortcode'))
             # {
-            #     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-            #     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+            #     echo "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ";
+            #     echo "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ";
             #
             #     #echo do_shortcode('[gallery]'); # Results in some CSS output and also
             #                                     # URLs to some of our images, e.g.:
