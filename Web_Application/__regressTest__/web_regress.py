@@ -314,8 +314,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                 "The YouTube formatter result was bad!")
 
 
-    # Text.php page: Test transformation of Markdown code formatting in
-    #                one format (four-space indent) to another
+    # Text.php page: Test transformation of Markdown code formatting
+    #                in one format (four-space indent) to another
     #                (code fencing, with syntax highlighting
     #                turned of)
     #
@@ -324,6 +324,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #       parameter to textTransformation(), "m")
     #
     def checkMarkdownCodeFormatting(self, aURL):
+
+        # Note: Send Shift + Alt + M for invoking the Markdown formatter
+        # (button "Convert to Markdown codefencing")
 
         content_in_1 =  ("    ;short_open_tag = On\n"
                          "\n"
@@ -340,11 +343,28 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "short_open_tag = On (just remove the ; and restart your Apache server)\n"
                          "```\n"
                          "")
-
-        # Send Shift + Alt + M for invoking the Markdown formatter
-        # (button "Convert to Markdown codefencing")
         self.textTransformation(
             aURL, content_in_1, content_out_1,
+            "m", "The Markdown formatter result was bad!")
+
+        # Source code input with more than 4 space indent (e.g., when 
+        # part of a Markdown list) must be formatted correctly.
+        #
+        content_in_2 =  ("        warning: ignoring #pragma untiunti\n"
+                         "\n"
+                         "        g++ pragma.cpp -Wall\n"
+                         "\n"
+                         "")
+
+        content_out_2 = ("    ```lang-none\n"
+                         "    warning: ignoring #pragma untiunti\n"
+                         "\n"
+                         "    g++ pragma.cpp -Wall\n"
+                         "\n"
+                         "    ```\n"
+                         "")
+        self.textTransformation(
+            aURL, content_in_2, content_out_2,
             "m", "The Markdown formatter result was bad!")
 
 
