@@ -70,7 +70,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a195 2021-11-12T235844Z+0";
+        return "Edit Overflow v. 1.1.49a197 2021-11-14T014411Z+0";
     }
 
 
@@ -367,9 +367,9 @@
     } #the_formValue()
 
 
-    #Why is it here when similar functions are in Text.php? Probably
-    #because it uses StringReplacerWithRegex (that is in a separate
-    #file).
+    #Why is it here when similar functions are in Text.php? 
+    #Probably because it uses StringReplacerWithRegex 
+    #(which is in a *separate* file).
     # 
     function transformFor_YouTubeComments($aText)
     {
@@ -436,8 +436,9 @@
         # to offer some protection (and avoiding
         # objections to posting)).
         #
-        # For now, just globally replace "@". But note that it
-        # affects LBRY invites (perhaps we should add an exception?).
+        # For now, just globally replace "@". But note 
+        # that it affects LBRY invites (perhaps we 
+        # should add an exception?).
         #
         # Future: Perhaps don't replace if there is a space before "@"
         #         or at the beginning of a line.
@@ -502,7 +503,7 @@
             #
             $replacer->transform("\r\n   ", "\r\n");
 
-            # XXX How do we replace only in leading space?
+            # XXX How do we replace only in leading space????
 
             #$replacer->transform('(\d+)\s+secs',   '$1 ');
         }

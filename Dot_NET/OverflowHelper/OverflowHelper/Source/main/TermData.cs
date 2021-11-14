@@ -12334,6 +12334,7 @@ namespace OverflowHelper.core
             correctionAdd("laready", "already");
             correctionAdd("alradzy", "already");
             correctionAdd("alrady", "already");
+            correctionAdd("alerady", "already");
 
             correctionAdd("buisness", "business");
             correctionAdd("busines", "business");
@@ -14384,6 +14385,7 @@ namespace OverflowHelper.core
             correctionAdd("P-mos", "p-channel MOSFET");
             correctionAdd("P mos", "p-channel MOSFET");
             correctionAdd("P MOS", "p-channel MOSFET");
+            correctionAdd("P-Channel", "p-channel MOSFET");
 
             correctionAdd("pro-bono", "pro bono");
 
@@ -16368,6 +16370,7 @@ namespace OverflowHelper.core
             correctionAdd("Never ending", "neverending");
 
             correctionAdd("optinal", "optional");
+            correctionAdd("optoional", "optional");
 
             correctionAdd("PROCMAIL", "procmail");
 
@@ -18150,6 +18153,7 @@ namespace OverflowHelper.core
             correctionAdd("vms", "VMS");
 
             correctionAdd("Googled", "googled");
+            correctionAdd("googeled", "googled");
 
             correctionAdd("rootcause", "root cause");
 
@@ -19212,6 +19216,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Regex Buddy", "RegexBuddy");
             correctionAdd("regexbuddy", "RegexBuddy");
+            correctionAdd("RB", "RegexBuddy");
 
             correctionAdd("Salt", "SaltStack");
 
@@ -20428,6 +20433,7 @@ namespace OverflowHelper.core
             correctionAdd("thi", "the");
             correctionAdd("hte", "the");
             correctionAdd("thge", "the");
+            correctionAdd("thee", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -27156,6 +27162,7 @@ namespace OverflowHelper.core
 
             correctionAdd("proceeded", "preceded");
             correctionAdd("preceeded", "preceded");
+            correctionAdd("Preceded", "preceded");
 
             correctionAdd("str_len", "strlen");
 
@@ -29161,6 +29168,8 @@ namespace OverflowHelper.core
             correctionAdd("case senstive", "case sensitive");
 
             correctionAdd("circuitdiagram", "circuit diagram");
+            correctionAdd("schematics", "circuit diagram");
+            correctionAdd("schematic", "circuit diagram");
 
             correctionAdd("easy-going", "easygoing");
             correctionAdd("easy going", "easygoing");
@@ -31328,6 +31337,7 @@ namespace OverflowHelper.core
             correctionAdd("under sampled", "undersampled");
 
             correctionAdd("understable", "understandable");
+            correctionAdd("undestandable", "understandable");
 
             correctionAdd("Apple Silicon", "Apple silicon");
             correctionAdd("Silicon MAC", "Apple silicon");
@@ -32811,6 +32821,62 @@ namespace OverflowHelper.core
             correctionAdd("differeces", "differences");
 
             correctionAdd("mis-use", "misuse");
+
+            correctionAdd("U+2217", "ASTERISK OPERATOR");
+
+            correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
+
+            correctionAdd("chromecast", "Chromecast");
+
+            correctionAdd("U+2014", "EM DASH");
+
+            correctionAdd("U+2013", "EN DASH");
+
+            correctionAdd("U+00E4", "LATIN SMALL LETTER A WITH DIAERESIS");
+
+            correctionAdd("U+201C", "LEFT DOUBLE QUOTATION MARK");
+
+            correctionAdd("U+2212", "MINUS SIGN");
+
+            correctionAdd("U+00A0", "NO-BREAK SPACE");
+
+            correctionAdd("U+FFFD", "REPLACEMENT CHARACTER");
+
+            correctionAdd("U+201D", "RIGHT DOUBLE QUOTATION MARK");
+
+            correctionAdd("roku", "Roku");
+
+            correctionAdd("U+0020", "SPACE");
+
+            correctionAdd("voyager 1", "Voyager 1");
+
+            correctionAdd("voyager 2", "Voyager 2");
+
+            correctionAdd("U+200C", "ZERO WIDTH NON-JOINER");
+
+            correctionAdd("U+200B", "ZERO WIDTH SPACE");
+
+            correctionAdd("Bupkis", "bupkis");
+
+            correctionAdd("definitviely", "definitively");
+
+            correctionAdd("1st person", "first person");
+
+            correctionAdd("Gravity assist", "gravity assist");
+
+            correctionAdd("imperitive", "imperative");
+
+            correctionAdd("nonword", "non-word");
+            correctionAdd("non word", "non-word");
+
+            correctionAdd("one way", "one-way");
+
+            correctionAdd("sais", "says");
+
+            correctionAdd("2nd person", "second person");
+
+            correctionAdd("sub equation", "sub-equation");
+            correctionAdd("subequation", "sub-equation");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51566,6 +51632,60 @@ namespace OverflowHelper.core
             URL_Add("differences", "https://en.wiktionary.org/wiki/difference#Noun");
 
             URL_Add("misuse", "https://en.wiktionary.org/wiki/misuse#Verb");
+
+            URL_Add("ASTERISK OPERATOR", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8704&number=128");
+
+            URL_Add("Andromeda Galaxy", "https://en.wikipedia.org/wiki/Andromeda_Galaxy");
+
+            URL_Add("Chromecast", "https://en.wikipedia.org/wiki/Chromecast");
+
+            URL_Add("EM DASH", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("EN DASH", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("LATIN SMALL LETTER A WITH DIAERESIS", "https://www.utf8-chartable.de/");
+
+            URL_Add("LEFT DOUBLE QUOTATION MARK", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("MINUS SIGN", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8704&number=128");
+
+            URL_Add("NO-BREAK SPACE", "https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x");
+
+            URL_Add("REPLACEMENT CHARACTER", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=65280");
+
+            URL_Add("RIGHT DOUBLE QUOTATION MARK", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("Roku", "https://en.wikipedia.org/wiki/Roku");
+
+            URL_Add("SPACE", "https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x");
+
+            URL_Add("Voyager 1", "https://en.wikipedia.org/wiki/Voyager_1");
+
+            URL_Add("Voyager 2", "https://en.wikipedia.org/wiki/Voyager_2");
+
+            URL_Add("ZERO WIDTH NON-JOINER", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("ZERO WIDTH SPACE", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("bupkis", "https://en.wiktionary.org/wiki/bupkis#Noun");
+
+            URL_Add("definitively", "https://en.wiktionary.org/wiki/definitively#Adverb");
+
+            URL_Add("first person", "https://en.wiktionary.org/wiki/first_person#Noun");
+
+            URL_Add("gravity assist", "https://en.wikipedia.org/wiki/Gravity_assist");
+
+            URL_Add("imperative", "https://en.wiktionary.org/wiki/imperative#Noun");
+
+            URL_Add("non-word", "https://en.wiktionary.org/wiki/non-word#Noun");
+
+            URL_Add("one-way", "https://en.wiktionary.org/wiki/one-way#Adjective");
+
+            URL_Add("says", "https://en.wiktionary.org/wiki/say#Verb");
+
+            URL_Add("second person", "https://en.wiktionary.org/wiki/second_person#Noun");
+
+            URL_Add("sub-equation", "https://en.wiktionary.org/wiki/subequation#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
