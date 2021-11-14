@@ -32878,6 +32878,23 @@ namespace OverflowHelper.core
             correctionAdd("sub equation", "sub-equation");
             correctionAdd("subequation", "sub-equation");
 
+            correctionAdd("--fno-diagnostics-show-option", "-fno-diagnostics-show-option");
+
+            correctionAdd("Digital Mars C/C++ compiler", "Digital Mars C/C++ Compiler");
+
+            correctionAdd("IAR C/C++ compiler", "IAR C/C++ Compiler");
+
+            correctionAdd("Intel C++ compiler", "Intel C++ Compiler");
+
+            correctionAdd("PGI", "PGI compiler");
+
+            correctionAdd("x/open", "X/Open");
+
+            correctionAdd("relais", "relays");
+
+            correctionAdd("standardization", "standardisation");
+            correctionAdd("standarization", "standardisation");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -51686,6 +51703,22 @@ namespace OverflowHelper.core
             URL_Add("second person", "https://en.wiktionary.org/wiki/second_person#Noun");
 
             URL_Add("sub-equation", "https://en.wiktionary.org/wiki/subequation#Noun");
+
+            URL_Add("-fno-diagnostics-show-option", "https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Message-Formatting-Options.html#index-fno-diagnostics-show-option");
+
+            URL_Add("Digital Mars C/C++ Compiler", "https://en.wikipedia.org/wiki/Digital_Mars");
+
+            URL_Add("IAR C/C++ Compiler", "https://en.wikipedia.org/wiki/IAR_Systems#IAR_Embedded_Workbench");
+
+            URL_Add("Intel C++ Compiler", "https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler");
+
+            URL_Add("PGI compiler", "https://en.wikipedia.org/wiki/The_Portland_Group#Compilers");
+
+            URL_Add("X/Open", "https://en.wikipedia.org/wiki/X/Open");
+
+            URL_Add("relays", "https://en.wikipedia.org/wiki/Relay");
+
+            URL_Add("standardisation", "https://en.wiktionary.org/wiki/standardisation#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
