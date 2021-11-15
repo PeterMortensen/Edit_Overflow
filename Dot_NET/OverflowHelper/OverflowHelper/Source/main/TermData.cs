@@ -6474,6 +6474,7 @@ namespace OverflowHelper.core
 
             correctionAdd("clang", "Clang");
             correctionAdd("CLANG", "Clang");
+            correctionAdd("CLang", "Clang");
 
             correctionAdd("llvm", "LLVM");
             correctionAdd("LVVM", "LLVM");
@@ -8002,6 +8003,10 @@ namespace OverflowHelper.core
             correctionAdd("visual studio 8", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("visual studio.net 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS2K8", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS 9.0", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS 9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
 
             correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
@@ -9633,6 +9638,7 @@ namespace OverflowHelper.core
             correctionAdd("stand alone", "stand-alone");
             correctionAdd("standalone", "stand-alone");
             correctionAdd("stand alowne", "stand-alone");
+            correctionAdd("Standalone", "stand-alone");
 
             correctionAdd("Silican Valley", "Silicon Valley");
             correctionAdd("silicon valley", "Silicon Valley");
@@ -9864,6 +9870,8 @@ namespace OverflowHelper.core
             correctionAdd("c++ 11", "C++11");
 
             correctionAdd("c++14", "C++14");
+            correctionAdd("C14", "C++14");
+            correctionAdd("C14++", "C++14");
 
             correctionAdd("C++builder", "C++Builder");
             correctionAdd("c++builder", "C++Builder");
@@ -10485,6 +10493,8 @@ namespace OverflowHelper.core
             correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
             correctionAdd("Cortex M", "Cortex-M");
             correctionAdd("ARM cortex-m", "Cortex-M");
+            correctionAdd("Arm Cortex", "Cortex-M");
+            correctionAdd("ARM Cortex", "Cortex-M");
 
             correctionAdd("sims", "seems");
             correctionAdd("seams", "seems");
@@ -13459,6 +13469,7 @@ namespace OverflowHelper.core
             correctionAdd("newcommer", "newcomer");
 
             correctionAdd("no brainer", "no-brainer");
+            correctionAdd("nobrainer", "no-brainer");
 
             correctionAdd("on-premise", "on-premises");
             correctionAdd("on premise", "on-premises");
@@ -19773,6 +19784,7 @@ namespace OverflowHelper.core
             correctionAdd("qualcomm", "Qualcomm");
 
             correctionAdd("afore mentioned", "aforementioned");
+            correctionAdd("aformentioned", "aforementioned");
 
             correctionAdd("agregate", "aggregate");
             correctionAdd("aggrigate", "aggregate");
@@ -23396,6 +23408,7 @@ namespace OverflowHelper.core
             correctionAdd("OpenSource", "open source");
             correctionAdd("opensource", "open source");
             correctionAdd("Open-Source", "open source");
+            correctionAdd("Opensource", "open source");
 
             correctionAdd("scoure", "source");
             correctionAdd("sorce", "source");
@@ -25579,6 +25592,7 @@ namespace OverflowHelper.core
             correctionAdd("Bucket Sort", "bucket sort");
 
             correctionAdd("cos", "cosine");
+            correctionAdd("Cosine", "cosine");
 
             correctionAdd("membet", "member");
 
@@ -26991,6 +27005,7 @@ namespace OverflowHelper.core
             correctionAdd("addion", "addition");
             correctionAdd("addtion", "addition");
             correctionAdd("adition", "addition");
+            correctionAdd("ADDITION", "addition");
 
             correctionAdd("client side", "client-side");
 
@@ -30669,6 +30684,7 @@ namespace OverflowHelper.core
             correctionAdd("Right-Click", "right-click");
             correctionAdd("Right Click", "right-click");
             correctionAdd("Right-click", "right-click");
+            correctionAdd("rigth click", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -30965,6 +30981,7 @@ namespace OverflowHelper.core
 
             correctionAdd("servcie", "service");
             correctionAdd("Servcie", "service");
+            correctionAdd("servie", "service");
 
             correctionAdd("substracting", "subtracting");
 
@@ -32181,6 +32198,7 @@ namespace OverflowHelper.core
             correctionAdd("Repl.it", "Replit");
             correctionAdd("replit", "Replit");
             correctionAdd("ReplIT", "Replit");
+            correctionAdd("repl.it", "Replit");
 
             correctionAdd("hade", "had");
 
@@ -32883,8 +32901,11 @@ namespace OverflowHelper.core
             correctionAdd("Digital Mars C/C++ compiler", "Digital Mars C/C++ Compiler");
 
             correctionAdd("IAR C/C++ compiler", "IAR C/C++ Compiler");
+            correctionAdd("IAR", "IAR C/C++ Compiler");
 
             correctionAdd("Intel C++ compiler", "Intel C++ Compiler");
+            correctionAdd("Intel C Compiler", "Intel C++ Compiler");
+            correctionAdd("ICC", "Intel C++ Compiler");
 
             correctionAdd("PGI", "PGI compiler");
 
@@ -32894,6 +32915,75 @@ namespace OverflowHelper.core
 
             correctionAdd("standardization", "standardisation");
             correctionAdd("standarization", "standardisation");
+
+            correctionAdd("#pragma GCC diagnostic ignored", "#pragma GCC diagnostic");
+            correctionAdd("#pragma gcc diagnostic", "#pragma GCC diagnostic");
+            correctionAdd("#pragma GCC diagnostic warning", "#pragma GCC diagnostic");
+            correctionAdd("#pragma GCC diagnostic error", "#pragma GCC diagnostic");
+
+            correctionAdd("--Wsystem-headers", "-Wsystem-headers");
+
+            correctionAdd("--fdiagnostics-show-option", "-fdiagnostics-show-option");
+
+            correctionAdd("--w", "-w");
+
+            correctionAdd("CCS", "Code Composer Studio");
+            correctionAdd("TI compiler", "Code Composer Studio");
+            correctionAdd("TI C++ compiler", "Code Composer Studio");
+            correctionAdd("Texas Instruments compiler", "Code Composer Studio");
+            correctionAdd("Texas Instruments C++ compiler", "Code Composer Studio");
+            correctionAdd("CCStudio", "Code Composer Studio");
+
+            correctionAdd("craig", "Craig Wright");
+
+            correctionAdd("Metaverse", "Facebook Metaverse");
+
+            correctionAdd("jinja", "Jinja");
+
+            correctionAdd("John Von Neumann", "John von Neumann");
+
+            correctionAdd("ODS", "Oracle Developer Studio");
+            correctionAdd("Oracle Solaris Studio", "Oracle Developer Studio");
+            correctionAdd("Sun Studio", "Oracle Developer Studio");
+            correctionAdd("Sun WorkShop", "Oracle Developer Studio");
+            correctionAdd("Forte Developer", "Oracle Developer Studio");
+            correctionAdd("SunPro Compilers", "Oracle Developer Studio");
+
+            correctionAdd("Pelles", "Pelles C");
+            correctionAdd("pelles c", "Pelles C");
+
+            correctionAdd("satoshi", "Satoshi Nakamoto");
+
+            correctionAdd("IBM XL C/C++ Compilers", "XL C/C++");
+
+            correctionAdd("xtensa", "Xtensa");
+
+            correctionAdd("Asyncio", "asyncio");
+
+            correctionAdd("attibuted", "attributed");
+
+            correctionAdd("black and white", "black-and-white");
+            correctionAdd("B&W", "black-and-white");
+
+            correctionAdd("DEI", "diversity, equity, and inclusion");
+
+            correctionAdd("homecomputer", "home computer");
+
+            correctionAdd("misstagged", "mistagged");
+
+            correctionAdd("multipurpose", "multi-purpose");
+
+            correctionAdd("non-conforming", "nonconforming");
+
+            correctionAdd("pramga", "pragma");
+
+            correctionAdd("second-to-last", "second to last");
+
+            correctionAdd("smoothes", "smooths");
+
+            correctionAdd("Stroke", "stroke");
+
+            correctionAdd("unused_", "unused");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51719,6 +51809,60 @@ namespace OverflowHelper.core
             URL_Add("relays", "https://en.wikipedia.org/wiki/Relay");
 
             URL_Add("standardisation", "https://en.wiktionary.org/wiki/standardisation#Noun");
+
+            URL_Add("#pragma GCC diagnostic", "https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Pragmas.html#index-pragma_002c-diagnostic");
+
+            URL_Add("-Wsystem-headers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsystem-headers");
+
+            URL_Add("-fdiagnostics-show-option", "https://gcc.gnu.org/onlinedocs/gcc-4.3.2/gcc/Language-Independent-Options.html#index-fdiagnostics_002dshow_002doption-217");
+
+            URL_Add("-w", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-w");
+
+            URL_Add("Code Composer Studio", "https://en.wikipedia.org/wiki/Code_Composer_Studio#Code_Composer_Studio");
+
+            URL_Add("Craig Wright", "https://en.wikipedia.org/wiki/Satoshi_Nakamoto#Craig_Wright");
+
+            URL_Add("Facebook Metaverse", "https://www.pocket-lint.com/apps/news/facebook/157854-what-is-facebook-metaverse-the-potential-future-of-the-internet-explained");
+
+            URL_Add("Jinja", "https://en.wikipedia.org/wiki/Jinja_(template_engine)");
+
+            URL_Add("John von Neumann", "https://en.wikipedia.org/wiki/John_von_Neumann");
+
+            URL_Add("Oracle Developer Studio", "https://en.wikipedia.org/wiki/Oracle_Developer_Studio");
+
+            URL_Add("Pelles C", "https://en.wikipedia.org/wiki/LCC_(compiler)#Pelles_C");
+
+            URL_Add("Satoshi Nakamoto", "https://en.wikipedia.org/wiki/Satoshi_Nakamoto");
+
+            URL_Add("XL C/C++", "https://en.wikipedia.org/wiki/IBM_XL_C/C%2B%2B_Compilers");
+
+            URL_Add("Xtensa", "https://en.wikipedia.org/wiki/Tensilica");
+
+            URL_Add("asyncio", "https://docs.python.org/3/library/asyncio.html");
+
+            URL_Add("attributed", "https://en.wiktionary.org/wiki/attribute#Verb");
+
+            URL_Add("black-and-white", "https://en.wiktionary.org/wiki/black-and-white#Adjective");
+
+            URL_Add("diversity, equity, and inclusion", "https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion");
+
+            URL_Add("home computer", "https://en.wikipedia.org/wiki/Home_computer");
+
+            URL_Add("mistagged", "https://en.wiktionary.org/wiki/mistag#Verb");
+
+            URL_Add("multi-purpose", "https://en.wiktionary.org/wiki/multi-purpose#Adjective");
+
+            URL_Add("nonconforming", "https://en.wiktionary.org/wiki/nonconforming#Adjective");
+
+            URL_Add("pragma", "https://en.wikipedia.org/wiki/Directive_(programming)");
+
+            URL_Add("second to last", "https://en.wiktionary.org/wiki/second_to_last#Adjective");
+
+            URL_Add("smooths", "https://en.wiktionary.org/wiki/smooth#Verb");
+
+            URL_Add("stroke", "https://en.wikipedia.org/wiki/Stroke");
+
+            URL_Add("unused", "https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Function-Attributes.html#index-g_t_0040code_007bunused_007d-attribute_002e-2640");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
