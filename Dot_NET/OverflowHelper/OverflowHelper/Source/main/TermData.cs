@@ -12309,6 +12309,8 @@ namespace OverflowHelper.core
             correctionAdd("Mac mini", "Mac Mini");
             correctionAdd("mac mini", "Mac Mini");
             correctionAdd("macmini", "Mac Mini");
+            correctionAdd("apple mini", "Mac Mini");
+            correctionAdd("Apple Mini", "Mac Mini");
 
             correctionAdd("scpi", "SCPI");
 
@@ -12427,6 +12429,7 @@ namespace OverflowHelper.core
             correctionAdd("theirself", "themselves");
             correctionAdd("their self", "themselves");
             correctionAdd("themselved", "themselves");
+            correctionAdd("theirselves", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -27807,6 +27810,7 @@ namespace OverflowHelper.core
 
             correctionAdd("conditon", "condition");
             correctionAdd("coniditon", "condition");
+            correctionAdd("contition", "condition");
 
             correctionAdd("earth rays", "earth radiation");
             correctionAdd("Earth ray", "earth radiation");
@@ -28389,6 +28393,8 @@ namespace OverflowHelper.core
 
             correctionAdd("SNR", "signal-to-noise ratio");
             correctionAdd("Signal-to-Noise Ratio", "signal-to-noise ratio");
+            correctionAdd("signal to noise ratio", "signal-to-noise ratio");
+            correctionAdd("S/N", "signal-to-noise ratio");
 
             correctionAdd("DAW", "digital audio workstation");
 
@@ -32806,6 +32812,7 @@ namespace OverflowHelper.core
             correctionAdd("--Wall", "-Wall");
 
             correctionAdd("--Werror", "-Werror");
+            correctionAdd("Werror", "-Werror");
 
             correctionAdd("--Wextra", "-Wextra");
 
@@ -32935,6 +32942,7 @@ namespace OverflowHelper.core
             correctionAdd("CCStudio", "Code Composer Studio");
 
             correctionAdd("craig", "Craig Wright");
+            correctionAdd("Craig", "Craig Wright");
 
             correctionAdd("Metaverse", "Facebook Metaverse");
 
@@ -32984,6 +32992,43 @@ namespace OverflowHelper.core
             correctionAdd("Stroke", "stroke");
 
             correctionAdd("unused_", "unused");
+
+            correctionAdd("--Wno-pragmas", "-Wno-pragmas");
+
+            correctionAdd("-Wno-unknown-pragmas", "-Wunknown-pragmas");
+            correctionAdd("--Wunknown-pragmas", "-Wunknown-pragmas");
+
+            correctionAdd("--Wunused-variable", "-Wunused-variable");
+
+            correctionAdd("Arctic fox", "Android Studio 4.2");
+            correctionAdd("Arctic Fox", "Android Studio 4.2");
+
+            correctionAdd("avro", "Apache Avro");
+            correctionAdd("Avro", "Apache Avro");
+
+            correctionAdd("azul", "Azul");
+
+            correctionAdd("Stroustrup", "Bjarne Stroustrup");
+
+            correctionAdd("epicurus", "Epicurus");
+
+            correctionAdd("early access", "JDK early-access");
+            correctionAdd("EA", "JDK early-access");
+            correctionAdd("Early Access", "JDK early-access");
+
+            correctionAdd("JDK Enhancement Proposal", "JEP");
+            correctionAdd("jep", "JEP");
+
+            correctionAdd("rosetta", "Rosetta");
+
+            correctionAdd("turing complete", "Turing complete");
+
+            correctionAdd("a mean of", "a means of");
+
+            correctionAdd("huberis", "hubris");
+
+            correctionAdd("selfdiscipline", "self-discipline");
+            correctionAdd("self discipline", "self-discipline");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51863,6 +51908,36 @@ namespace OverflowHelper.core
             URL_Add("stroke", "https://en.wikipedia.org/wiki/Stroke");
 
             URL_Add("unused", "https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Function-Attributes.html#index-g_t_0040code_007bunused_007d-attribute_002e-2640");
+
+            URL_Add("-Wno-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-pragmas");
+
+            URL_Add("-Wunknown-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas");
+
+            URL_Add("-Wunused-variable", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas#index-Wunused-variable");
+
+            URL_Add("Android Studio 4.2", "https://en.wikipedia.org/wiki/Android_Studio#Version_history");
+
+            URL_Add("Apache Avro", "https://en.wikipedia.org/wiki/Apache_Avro");
+
+            URL_Add("Azul", "https://en.wikipedia.org/wiki/Azul_Systems");
+
+            URL_Add("Bjarne Stroustrup", "https://en.wikipedia.org/wiki/Bjarne_Stroustrup");
+
+            URL_Add("Epicurus", "https://en.wiktionary.org/wiki/Epicurus#Proper_noun");
+
+            URL_Add("JDK early-access", "https://jdk.java.net/18/");
+
+            URL_Add("JEP", "https://en.wikipedia.org/wiki/JDK_Enhancement_Proposal");
+
+            URL_Add("Rosetta", "https://en.wikipedia.org/wiki/Rosetta_%28software%29");
+
+            URL_Add("Turing complete", "https://en.wikipedia.org/wiki/Turing_completeness");
+
+            URL_Add("a means of", "https://en.wiktionary.org/wiki/means#Noun_2");
+
+            URL_Add("hubris", "https://en.wiktionary.org/wiki/hubris#Noun");
+
+            URL_Add("self-discipline", "https://en.wiktionary.org/wiki/self-discipline#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
