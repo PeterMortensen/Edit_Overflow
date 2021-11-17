@@ -33985,7 +33985,7 @@ namespace OverflowHelper.core
 
             URL_Add("Fluent NHibernate", "https://github.com/FluentNHibernate/fluent-nhibernate/wiki/getting-started"); // XXX Old (completely broken): http://fluentnhibernate.org/
 
-            URL_Add("asynchronously", "https://en.wiktionary.org/wiki/asynchronously");
+            URL_Add("asynchronously", "https://en.wiktionary.org/wiki/asynchronously#Adverb"); // Old: https://en.wiktionary.org/wiki/asynchronously
 
             URL_Add("Haskell", "https://en.wikipedia.org/wiki/Haskell_%28programming_language%29");
 
@@ -34187,7 +34187,7 @@ namespace OverflowHelper.core
 
             URL_Add("XMPP", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
 
-            URL_Add("IMHO", "https://en.wiktionary.org/wiki/IMHO");
+            URL_Add("IMHO", "https://en.wiktionary.org/wiki/IMHO#Phrase"); // Old: https://en.wiktionary.org/wiki/IMHO
 
             URL_Add("RMI", "https://en.wikipedia.org/wiki/Java_remote_method_invocation");
 
@@ -34239,7 +34239,7 @@ namespace OverflowHelper.core
 
             URL_Add("W3C", "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium");
 
-            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK");
+            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK#Adverb"); // Old: https://en.wiktionary.org/wiki/AFAIK
 
             URL_Add("Ubuntu", "https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29");
 
@@ -34273,7 +34273,7 @@ namespace OverflowHelper.core
 
             URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
 
-            URL_Add("separate", "https://en.wiktionary.org/wiki/seperate"); // Old: https://en.wiktionary.org/wiki/seperate
+            URL_Add("separate", "https://en.wiktionary.org/wiki/separate#Adjective"); // Old: https://en.wiktionary.org/wiki/seperate
 
             URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
 
@@ -34400,7 +34400,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); // Was https://en.wikipedia.org/wiki/Azure_Services_Platform
 
-            URL_Add("can’t", "https://en.wiktionary.org/wiki/can%27t");
+            URL_Add("can’t", "https://en.wiktionary.org/wiki/can%27t#Verb"); // Old: https://en.wiktionary.org/wiki/can%27t
 
             URL_Add("Visual SourceSafe", "https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe");
 
@@ -34412,7 +34412,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
 
-            URL_Add("code-behind", "https://en.wiktionary.org/wiki/code-behind");
+            URL_Add("code-behind", "https://en.wiktionary.org/wiki/code-behind#Noun"); // Old: https://en.wiktionary.org/wiki/code-behind
 
             URL_Add("BCP", "https://en.wikipedia.org/wiki/Bulk_Copy_Program");
 
@@ -34432,7 +34432,7 @@ namespace OverflowHelper.core
 
             URL_Add("IDE", "https://en.wikipedia.org/wiki/Integrated_development_environment");
 
-            URL_Add("concatenate", "https://en.wiktionary.org/wiki/concatenate");
+            URL_Add("concatenate", "https://en.wiktionary.org/wiki/concatenate#Verb"); // Old: https://en.wiktionary.org/wiki/concatenate
 
             URL_Add("GIF", "https://en.wikipedia.org/wiki/Graphics_Interchange_Format");
 
@@ -34442,11 +34442,11 @@ namespace OverflowHelper.core
 
             URL_Add("XMLHttpRequest", "https://en.wikipedia.org/wiki/XMLHttpRequest");
 
-            URL_Add("though", "https://en.wiktionary.org/wiki/though");
+            URL_Add("though", "https://en.wiktionary.org/wiki/though#Adverb"); // Old: https://en.wiktionary.org/wiki/though
 
             URL_Add("RADIUS", "https://en.wikipedia.org/wiki/RADIUS");
 
-            URL_Add("authentication", "https://en.wiktionary.org/wiki/authentication");
+            URL_Add("authentication", "https://en.wiktionary.org/wiki/authentication#Noun"); // Old: https://en.wiktionary.org/wiki/authentication
 
             URL_Add("ZIP", "https://en.wikipedia.org/wiki/ZIP_%28file_format%29");
 
@@ -34460,7 +34460,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows&nbsp;7", "https://en.wikipedia.org/wiki/Windows_7");
 
-            URL_Add("configuration", "https://en.wiktionary.org/wiki/configuration");
+            URL_Add("configuration", "https://en.wiktionary.org/wiki/configuration#Noun"); // Old: https://en.wiktionary.org/wiki/configuration
 
             URL_Add("VoIP", "https://en.wikipedia.org/wiki/Voice_over_IP");
 
@@ -34472,13 +34472,13 @@ namespace OverflowHelper.core
 
             URL_Add("IP address", "https://en.wikipedia.org/wiki/IP_address");
 
-            URL_Add("statistics", "https://en.wiktionary.org/wiki/statistics");
+            URL_Add("statistics", "https://en.wiktionary.org/wiki/statistics#Noun"); // Old: https://en.wiktionary.org/wiki/statistics
 
-            URL_Add("by the way", "https://en.wiktionary.org/wiki/BTW");
+            URL_Add("by the way", "https://en.wiktionary.org/wiki/BTW#Phrase"); // Old: https://en.wiktionary.org/wiki/BTW
 
-            URL_Add("for example", "https://en.wiktionary.org/wiki/for_example");
+            URL_Add("for example", "https://en.wiktionary.org/wiki/for_example#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/for_example
 
-            URL_Add(", that is, X", "https://en.wiktionary.org/wiki/i.e.");
+            URL_Add(", that is, X", "https://en.wiktionary.org/wiki/i.e.#Adverb"); // Old: https://en.wiktionary.org/wiki/i.e.
 
             URL_Add("Kohana", "https://en.wikipedia.org/wiki/Kohana");
 
@@ -34490,11 +34490,11 @@ namespace OverflowHelper.core
 
             URL_Add("JSONP", "https://en.wikipedia.org/wiki/JSONP");
 
-            URL_Add("parameter", "https://en.wiktionary.org/wiki/parameter");
+            URL_Add("parameter", "https://en.wiktionary.org/wiki/parameter#Noun"); // Old: https://en.wiktionary.org/wiki/parameter
 
             URL_Add("UltraEdit", "https://en.wikipedia.org/wiki/UltraEdit");
 
-            URL_Add("characters", "https://en.wiktionary.org/wiki/characters");
+            URL_Add("characters", "https://en.wiktionary.org/wiki/character#Noun"); // Old: https://en.wiktionary.org/wiki/characters
 
             URL_Add("Markdown", "https://en.wikipedia.org/wiki/Markdown");
 
@@ -34510,11 +34510,11 @@ namespace OverflowHelper.core
 
             URL_Add("Rake", "https://en.wikipedia.org/wiki/Rake_(software)");
 
-            URL_Add("temporary", "https://en.wiktionary.org/wiki/temp#Abbreviation");
+            URL_Add("temporary", "https://en.wiktionary.org/wiki/temp#Adjective"); // Old: https://en.wiktionary.org/wiki/temp#Abbreviation
 
-            URL_Add("IMO", "https://en.wiktionary.org/wiki/IMO#Initialism");
+            URL_Add("IMO", "https://en.wiktionary.org/wiki/IMO#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/IMO#Initialism
 
-            URL_Add("Google-fu", "https://en.wiktionary.org/wiki/Google-fu");
+            URL_Add("Google-fu", "https://en.wiktionary.org/wiki/Google-fu#Noun"); // Old: https://en.wiktionary.org/wiki/Google-fu
 
             URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
 
@@ -34532,7 +34532,7 @@ namespace OverflowHelper.core
 
             URL_Add("LGPL", "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License");
 
-            URL_Add("if I remember correctly", "https://en.wiktionary.org/wiki/IIRC");
+            URL_Add("if I remember correctly", "https://en.wiktionary.org/wiki/IIRC#Phrase"); // Old: https://en.wiktionary.org/wiki/IIRC
 
             URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
 
@@ -34540,7 +34540,7 @@ namespace OverflowHelper.core
 
             URL_Add("iOS", "https://en.wikipedia.org/wiki/IOS"); // Old: https://en.wikipedia.org/wiki/IOS_%28Apple%29
 
-            URL_Add("SBT", "https://en.wikipedia.org/wiki/Simple_Build_Tool");
+            URL_Add("SBT", "https://en.wikipedia.org/wiki/Sbt_(software)"); // Old: https://en.wikipedia.org/wiki/Simple_Build_Tool
 
             URL_Add("Vimeo", "https://en.wikipedia.org/wiki/Vimeo");
 
@@ -34562,7 +34562,7 @@ namespace OverflowHelper.core
 
             URL_Add("MacPorts", "https://en.wikipedia.org/wiki/MacPorts");
 
-            URL_Add("specification", "https://en.wiktionary.org/wiki/specification");
+            URL_Add("specification", "https://en.wiktionary.org/wiki/specification#Noun"); // Old: https://en.wiktionary.org/wiki/specification
 
             URL_Add("MIDlet", "https://en.wikipedia.org/wiki/MIDlet");
 
@@ -34632,7 +34632,7 @@ namespace OverflowHelper.core
 
             URL_Add("directory", "https://en.wikipedia.org/wiki/Folder_%28computing%29");
 
-            URL_Add("don’t", "https://en.wiktionary.org/wiki/don%27t");
+            URL_Add("don’t", "https://en.wiktionary.org/wiki/don%27t#Verb"); // Old: https://en.wiktionary.org/wiki/don%27t
 
             URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
 
@@ -34686,7 +34686,11 @@ namespace OverflowHelper.core
 
             URL_Add("IPython", "https://en.wikipedia.org/wiki/IPython");
 
-            URL_Add("your", "https://en.wiktionary.org/wiki/your");
+            URL_Add("your", "https://en.wiktionary.org/wiki/your#Determiner"); // Old: https://en.wiktionary.org/wiki/your
+
+            URL_Add("yourself", "https://en.wiktionary.org/wiki/yourself#Pronoun");
+
+            URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
 
             URL_Add("haven’t", "https://en.wiktionary.org/wiki/haven%27t#Contraction");
 
@@ -34754,7 +34758,7 @@ namespace OverflowHelper.core
 
             URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
-            URL_Add("won’t", "https://en.wiktionary.org/wiki/won%27t");
+            URL_Add("won’t", "https://en.wiktionary.org/wiki/won%27t#Verb"); // Old: https://en.wiktionary.org/wiki/won%27t
 
             URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
 
@@ -34800,9 +34804,13 @@ namespace OverflowHelper.core
 
             URL_Add("URI", "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier");
 
-            URL_Add("through", "https://en.wiktionary.org/wiki/through");
+            URL_Add("through", "https://en.wiktionary.org/wiki/through#Preposition"); // Old: https://en.wiktionary.org/wiki/through
 
-            URL_Add("tutorial", "https://en.wiktionary.org/wiki/tutorial");
+            URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
+
+            URL_Add("throughput", "https://en.wiktionary.org/wiki/throughput#Noun");
+
+            URL_Add("tutorial", "https://en.wiktionary.org/wiki/tutorial#Noun"); // Old: https://en.wiktionary.org/wiki/tutorial
 
             URL_Add("jQuery&nbsp;Isotope", "http://isotope.metafizzy.co/docs/introduction.html");
 
@@ -34850,7 +34858,9 @@ namespace OverflowHelper.core
 
             URL_Add("WinRAR", "https://en.wikipedia.org/wiki/WinRAR");
 
-            URL_Add("which", "https://en.wiktionary.org/wiki/which");
+            URL_Add("which", "https://en.wiktionary.org/wiki/which#Pronoun"); // Old: https://en.wiktionary.org/wiki/which
+
+            URL_Add("whichever", "https://en.wiktionary.org/wiki/whichever#Pronoun");
 
             URL_Add("Fiddler", "https://en.wikipedia.org/wiki/Fiddler_%28software%29");
 
@@ -34858,7 +34868,9 @@ namespace OverflowHelper.core
 
             URL_Add("Google+", "https://en.wikipedia.org/wiki/Google%2B");
 
-            URL_Add("software", "https://en.wiktionary.org/wiki/software");
+            URL_Add("software", "https://en.wiktionary.org/wiki/software#Noun"); // Old: https://en.wiktionary.org/wiki/software
+
+            URL_Add("software engineering", "https://en.wiktionary.org/wiki/software_engineering#Noun");
 
             URL_Add("NCover", "https://en.wikipedia.org/wiki/NCover");
 
@@ -34886,7 +34898,7 @@ namespace OverflowHelper.core
 
             URL_Add("Open&nbsp;MPI", "https://en.wikipedia.org/wiki/Open_MPI");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)", "https://en.wikipedia.org/wiki/Mac_OS_X_Lion");
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)", "https://en.wikipedia.org/wiki/OS_X_Lion"); // Old: https://en.wikipedia.org/wiki/Mac_OS_X_Lion
 
             URL_Add("Virtual&nbsp;PC", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
 
@@ -34960,7 +34972,7 @@ namespace OverflowHelper.core
 
             URL_Add("FQL", "https://en.wikipedia.org/wiki/Facebook_Query_Language");
 
-            URL_Add("something", "https://en.wiktionary.org/wiki/something");
+            URL_Add("something", "https://en.wiktionary.org/wiki/something#Pronoun"); // Old: https://en.wiktionary.org/wiki/something
 
             URL_Add("Windows Server 2003", "https://en.wikipedia.org/wiki/Windows_Server_2003");
 
@@ -35020,7 +35032,7 @@ namespace OverflowHelper.core
 
             URL_Add("Device Manager", "https://en.wikipedia.org/wiki/Device_Manager");
 
-            URL_Add("duplicate", "https://en.wiktionary.org/wiki/duplicate");
+            URL_Add("duplicate", "https://en.wiktionary.org/wiki/duplicate#Noun"); // Old: https://en.wiktionary.org/wiki/duplicate
 
             URL_Add("Stack&nbsp;Apps", "http://stackapps.com/about");
 
@@ -35060,7 +35072,7 @@ namespace OverflowHelper.core
 
             URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
 
-            URL_Add("AKA", "https://en.wiktionary.org/wiki/AKA");
+            URL_Add("AKA", "https://en.wiktionary.org/wiki/AKA#Adverb"); // Old: https://en.wiktionary.org/wiki/AKA
 
             URL_Add("sketch", "http://www.arduino.cc/en/Tutorial/Sketch");
 
@@ -35134,7 +35146,9 @@ namespace OverflowHelper.core
 
             URL_Add("AVR Studio", "http://www.atmel.com/microsite/avr_studio_5/default.aspx");
 
-            URL_Add("combination", "https://en.wiktionary.org/wiki/combination");
+            URL_Add("combination", "https://en.wiktionary.org/wiki/combination#Noun"); // Old: https://en.wiktionary.org/wiki/combination
+
+            URL_Add("combinations", "https://en.wiktionary.org/wiki/combination#Noun");
 
             URL_Add("IPv6", "https://en.wikipedia.org/wiki/IPv6");
 
@@ -35148,7 +35162,13 @@ namespace OverflowHelper.core
 
             URL_Add("AOL", "https://en.wikipedia.org/wiki/AOL");
 
-            URL_Add("benefit", "https://en.wiktionary.org/wiki/benefit");
+            URL_Add("benefit", "https://en.wiktionary.org/wiki/benefit#Noun"); // Old: https://en.wiktionary.org/wiki/benefit
+
+            URL_Add("benefitting", "https://en.wiktionary.org/wiki/benefit#Verb");
+
+            URL_Add("benefit of the doubt", "https://en.wiktionary.org/wiki/benefit_of_the_doubt#Noun");
+
+            URL_Add("benefited", "https://en.wiktionary.org/wiki/benefit#Verb");
 
             URL_Add("TestDriven.NET", "http://www.testdriven.net/");
 
@@ -35346,7 +35366,7 @@ namespace OverflowHelper.core
 
             URL_Add("LogCat", "https://developer.android.com/studio/debug/am-logcat"); // Old (404 now): https://sites.google.com/site/androidhowto/how-to-1/save-logcat-to-a-text-file
 
-            URL_Add("between", "https://en.wiktionary.org/wiki/between");
+            URL_Add("between", "https://en.wiktionary.org/wiki/between#Preposition"); // Old: https://en.wiktionary.org/wiki/between
 
             URL_Add("CORBA", "https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture");
 
@@ -35366,7 +35386,7 @@ namespace OverflowHelper.core
 
             URL_Add("intent", "http://developer.android.com/guide/components/intents-filters.html");
 
-            URL_Add("nowadays", "https://en.wiktionary.org/wiki/nowadays");
+            URL_Add("nowadays", "https://en.wiktionary.org/wiki/nowadays#Adverb"); // Old: https://en.wiktionary.org/wiki/nowadays
 
             URL_Add("Yii", "https://en.wikipedia.org/wiki/Yii");
 
@@ -35386,7 +35406,7 @@ namespace OverflowHelper.core
 
             URL_Add("Apple", "https://en.wikipedia.org/wiki/Apple_Inc.");
 
-            URL_Add("TLDR", "https://en.wiktionary.org/wiki/TLDR");
+            URL_Add("TLDR", "https://en.wiktionary.org/wiki/TLDR#Phrase"); // Old: https://en.wiktionary.org/wiki/TLDR
 
             URL_Add("LCD", "https://en.wikipedia.org/wiki/Liquid_crystal_display");
 
@@ -35540,7 +35560,13 @@ namespace OverflowHelper.core
 
             URL_Add("Application Verifier", "http://msdn.microsoft.com/en-us/library/windows/desktop/dd371695%28v=vs.85%29.aspx");
 
-            URL_Add("recommend", "https://en.wiktionary.org/wiki/recommend");
+            URL_Add("recommend", "https://en.wiktionary.org/wiki/recommend#Verb"); // Old: https://en.wiktionary.org/wiki/recommend
+
+            URL_Add("recommending", "https://en.wiktionary.org/wiki/recommend#Verb"); // Old: https://en.wiktionary.org/wiki/recommend
+
+            URL_Add("recommendation", "https://en.wiktionary.org/wiki/recommendation#Noun");
+
+            URL_Add("recommended", "https://en.wiktionary.org/wiki/recommended#Verb");
 
             URL_Add("PHP Development Tools", "https://en.wikipedia.org/wiki/PHP_Development_Tools");
 
@@ -35570,7 +35596,7 @@ namespace OverflowHelper.core
 
             URL_Add("Squeak", "https://en.wikipedia.org/wiki/Squeak");
 
-            URL_Add("all right", "https://en.wiktionary.org/wiki/all_right");
+            URL_Add("all right", "https://en.wiktionary.org/wiki/all_right#Adjective"); // Old: https://en.wiktionary.org/wiki/all_right
 
             URL_Add("RGB", "https://en.wikipedia.org/wiki/RGB_color_model");
 
@@ -35632,7 +35658,7 @@ namespace OverflowHelper.core
 
             URL_Add("Inno Setup", "https://en.wikipedia.org/wiki/Inno_Setup");
 
-            URL_Add("prerequisite", "https://en.wiktionary.org/wiki/prerequisite");
+            URL_Add("prerequisite", "https://en.wiktionary.org/wiki/prerequisite#Noun"); // Old: https://en.wiktionary.org/wiki/prerequisite
 
             URL_Add("RXTX", "http://jlog.org/rxtx-mac.html");
 
@@ -35640,7 +35666,9 @@ namespace OverflowHelper.core
 
             URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
 
-            URL_Add("definition", "https://en.wiktionary.org/wiki/definition");
+            URL_Add("definition", "https://en.wiktionary.org/wiki/definition#Noun"); // Old: https://en.wiktionary.org/wiki/definition
+
+            URL_Add("definitions", "https://en.wiktionary.org/wiki/definition#Noun");
 
             URL_Add("assembly language", "https://en.wikipedia.org/wiki/Assembly_language");
 
@@ -35660,7 +35688,7 @@ namespace OverflowHelper.core
 
             URL_Add("Wikimedia Foundation", "https://en.wikipedia.org/wiki/Wikimedia_Foundation");
 
-            URL_Add("LOL", "https://en.wiktionary.org/wiki/LOL#Initialism");
+            URL_Add("LOL", "https://en.wiktionary.org/wiki/LOL#Interjection"); // Old: https://en.wiktionary.org/wiki/LOL#Initialism
 
             URL_Add("Verisign", "https://en.wikipedia.org/wiki/Verisign");
 
@@ -35690,7 +35718,7 @@ namespace OverflowHelper.core
 
             URL_Add("Burn", "https://en.wikipedia.org/wiki/WiX#Burn");
 
-            URL_Add("Bing", "https://en.wikipedia.org/wiki/Bing");
+            URL_Add("Bing", "https://en.wikipedia.org/wiki/Microsoft_Bing"); // Old: https://en.wikipedia.org/wiki/Bing
 
             URL_Add("motherboard", "https://en.wikipedia.org/wiki/Motherboard");
 
@@ -35728,7 +35756,7 @@ namespace OverflowHelper.core
 
             URL_Add("database administrator", "https://en.wikipedia.org/wiki/Database_administrator");
 
-            URL_Add("especially", "https://en.wiktionary.org/wiki/especially");
+            URL_Add("especially", "https://en.wiktionary.org/wiki/especially#Adverb"); // Old: https://en.wiktionary.org/wiki/especially
 
             URL_Add("LibreOffice", "https://en.wikipedia.org/wiki/LibreOffice");
 
@@ -35760,7 +35788,11 @@ namespace OverflowHelper.core
 
             URL_Add("Script.aculo.us", "https://en.wikipedia.org/wiki/Script.aculo.us");
 
-            URL_Add("parallel", "https://en.wiktionary.org/wiki/parallel");
+            URL_Add("parallel", "https://en.wiktionary.org/wiki/parallel#Adverb"); // Old: https://en.wiktionary.org/wiki/parallel
+
+            URL_Add("parallelism", "https://en.wiktionary.org/wiki/parallelism#Noun");
+
+            URL_Add("parallelly", "https://en.wiktionary.org/wiki/parallelly#Adverb");
 
             URL_Add("FrontPage", "https://en.wikipedia.org/wiki/Microsoft_FrontPage");
 
@@ -35786,13 +35818,13 @@ namespace OverflowHelper.core
 
             URL_Add("ambiguity", "https://en.wiktionary.org/wiki/ambiguity#Noun"); // Old: https://en.wiktionary.org/wiki/ambiguity
 
-            URL_Add("dependency", "https://en.wiktionary.org/wiki/dependancy");
+            URL_Add("dependency", "https://en.wiktionary.org/wiki/dependency#Noun"); // Old: https://en.wiktionary.org/wiki/dependancy
 
             URL_Add("Windows Script Host", "https://en.wikipedia.org/wiki/Windows_Script_Host");
 
             URL_Add("GPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit");
 
-            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward");
+            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward#Adjective"); // Old: https://en.wiktionary.org/wiki/straightforward
 
             URL_Add("artificial intelligence", "https://en.wikipedia.org/wiki/Artificial_intelligence");
 
@@ -35864,7 +35896,7 @@ namespace OverflowHelper.core
 
             URL_Add("Meta&nbsp;Stack&nbsp;Exchange", "https://meta.stackexchange.com/help/whats-meta");
 
-            URL_Add("people", "https://en.wiktionary.org/wiki/people");
+            URL_Add("people", "https://en.wiktionary.org/wiki/people#Noun"); // Old: https://en.wiktionary.org/wiki/people
 
             URL_Add("LOC", "https://en.wikipedia.org/wiki/Source_lines_of_code");
 
@@ -35914,7 +35946,7 @@ namespace OverflowHelper.core
 
             URL_Add("SQL Server 2012", "https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2012"); // https://en.wikipedia.org/wiki/Microsoft_SQL_Server#SQL_Server_2012
 
-            URL_Add("should", "https://en.wiktionary.org/wiki/should");
+            URL_Add("should", "https://en.wiktionary.org/wiki/should#Verb"); // Old: https://en.wiktionary.org/wiki/should
 
             URL_Add("DOCTYPE", "https://en.wikipedia.org/wiki/Document_type_declaration");
 
@@ -35928,7 +35960,11 @@ namespace OverflowHelper.core
 
             URL_Add("disambiguation", "https://en.wiktionary.org/wiki/disambiguation#Noun");
 
-            URL_Add("would", "https://en.wiktionary.org/wiki/would");
+            URL_Add("would", "https://en.wiktionary.org/wiki/would#Verb"); // Old: https://en.wiktionary.org/wiki/would
+
+            URL_Add("wouldn't", "https://en.wiktionary.org/wiki/wouldn%27t#Verb"); // Old: <https://en.wiktionary.org/wiki/wouldn%27t#Contraction>
+
+            URL_Add("would’ve", "https://en.wiktionary.org/wiki/would%27ve#Contraction");
 
             URL_Add("Minecraft", "https://en.wikipedia.org/wiki/Minecraft");
 
@@ -35972,7 +36008,7 @@ namespace OverflowHelper.core
 
             URL_Add("Rust", "https://en.wikipedia.org/wiki/Rust_%28programming_language%29");
 
-            URL_Add("-year-old", "https://en.wiktionary.org/wiki/-year-old#Suffix");
+            URL_Add("-year-old", "https://en.wiktionary.org/wiki/-year-old#Adjective"); // Note: No longer exists at Wiktionary... Old: https://en.wiktionary.org/wiki/-year-old#Suffix
 
             URL_Add("Boot-Repair", "https://help.ubuntu.com/community/Boot-Repair");
 
@@ -35992,7 +36028,7 @@ namespace OverflowHelper.core
 
             URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
 
-            URL_Add("requisites", "https://en.wiktionary.org/wiki/requisites");
+            URL_Add("requisites", "https://en.wiktionary.org/wiki/requisite#Noun"); // Old: https://en.wiktionary.org/wiki/requisites
 
             URL_Add("DDoS", "https://en.wikipedia.org/wiki/Denial-of-service_attack");
 
@@ -36054,7 +36090,7 @@ namespace OverflowHelper.core
 
             URL_Add("unfortunately", "https://en.wiktionary.org/wiki/unfortunately#Adverb");
 
-            URL_Add("beginning", "https://en.wiktionary.org/wiki/beginning");
+            URL_Add("beginning", "https://en.wiktionary.org/wiki/beginning#Noun"); // Old: https://en.wiktionary.org/wiki/beginning
 
             URL_Add("Get-Host", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-Host"); // Old: http://technet.microsoft.com/en-us/library/hh849946.aspx
 
@@ -36082,7 +36118,7 @@ namespace OverflowHelper.core
 
             URL_Add("DSLR", "https://en.wikipedia.org/wiki/Digital_single-lens_reflex_camera");
 
-            URL_Add("at the moment", "https://en.wiktionary.org/wiki/atm#Abbreviation");
+            URL_Add("at the moment", "https://en.wiktionary.org/wiki/atm#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/atm#Abbreviation
 
             URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
 
@@ -36132,7 +36168,7 @@ namespace OverflowHelper.core
 
             URL_Add("PowerShell ISE", "https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise"); // Old: https://technet.microsoft.com/en-us/library/dd315244.aspx
 
-            URL_Add("existence", "https://en.wiktionary.org/wiki/existance");
+            URL_Add("existence", "https://en.wiktionary.org/wiki/existence#Noun"); // Old: https://en.wiktionary.org/wiki/existance
 
             URL_Add("PS/2", "https://en.wikipedia.org/wiki/PS/2_port");
 
@@ -36228,7 +36264,7 @@ namespace OverflowHelper.core
 
             URL_Add("IoT", "https://en.wikipedia.org/wiki/Internet_of_things"); // Old: https://en.wikipedia.org/wiki/Internet_of_Things
 
-            URL_Add("approximately", "https://en.wiktionary.org/wiki/approximately");
+            URL_Add("approximately", "https://en.wiktionary.org/wiki/approximately#Adverb"); // Old: https://en.wiktionary.org/wiki/approximately
 
             URL_Add("CorFlags", "http://msdn.microsoft.com/en-us/library/ms164699%28v=vs.80%29.aspx");
 
@@ -36380,11 +36416,11 @@ namespace OverflowHelper.core
 
             URL_Add("smartphone", "https://en.wikipedia.org/wiki/Smartphone");
 
-            URL_Add("grammar", "https://en.wiktionary.org/wiki/grammer");
+            URL_Add("grammar", "https://en.wiktionary.org/wiki/grammar#Noun"); // Old: https://en.wiktionary.org/wiki/grammer
 
             URL_Add("Chinese", "https://en.wiktionary.org/wiki/Chinese#Adjective");
 
-            URL_Add("at least", "https://en.wiktionary.org/wiki/at_least");
+            URL_Add("at least", "https://en.wiktionary.org/wiki/at_least#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/at_least
 
             URL_Add("frequency", "https://en.wikipedia.org/wiki/Frequency");
 
@@ -36596,9 +36632,15 @@ namespace OverflowHelper.core
 
             URL_Add("Western Digital", "https://en.wikipedia.org/wiki/Western_Digital");
 
-            URL_Add("upvote", "https://en.wiktionary.org/wiki/upvote");
+            URL_Add("downvoter", "https://en.wiktionary.org/wiki/downvoter#Noun");
 
-            URL_Add("downvote", "https://en.wiktionary.org/wiki/downvote");
+            URL_Add("downvote", "https://en.wiktionary.org/wiki/downvote#Verb"); // Old: https://en.wiktionary.org/wiki/downvote
+
+            URL_Add("downvoted", "https://en.wiktionary.org/wiki/downvote#Verb"); // Old: https://en.wiktionary.org/wiki/downvote
+
+            URL_Add("downvoting", "https://en.wiktionary.org/wiki/downvote#Verb");
+
+            URL_Add("upvote", "https://en.wiktionary.org/wiki/upvote#Verb"); // Old: https://en.wiktionary.org/wiki/upvote
 
             URL_Add("every time", "https://en.wiktionary.org/wiki/every_time#Adverb");
 
@@ -36654,7 +36696,7 @@ namespace OverflowHelper.core
 
             URL_Add("PhpStorm", "https://en.wikipedia.org/wiki/PhpStorm");
 
-            URL_Add("performance", "https://en.wiktionary.org/wiki/performance#English");
+            URL_Add("performance", "https://en.wiktionary.org/wiki/performance#Noun"); // Old: https://en.wiktionary.org/wiki/performance#English
 
             URL_Add("eSATA", "https://en.wikipedia.org/wiki/Serial_ATA#eSATA");
 
@@ -36665,8 +36707,6 @@ namespace OverflowHelper.core
             URL_Add("Android&nbsp;4.3 (Jelly Bean)", "https://en.wikipedia.org/wiki/Android_Jelly_Bean");
 
             URL_Add("Scrapy", "https://en.wikipedia.org/wiki/Scrapy");
-
-            URL_Add("occurring", "https://en.wiktionary.org/wiki/occurring#Verb");
 
             URL_Add("OpenStack", "https://en.wikipedia.org/wiki/OpenStack");
 
@@ -36708,7 +36748,7 @@ namespace OverflowHelper.core
 
             URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
 
-            URL_Add("your mileage may vary", "https://en.wiktionary.org/wiki/YMMV");
+            URL_Add("your mileage may vary", "https://en.wiktionary.org/wiki/YMMV#Phrase"); // Old: https://en.wiktionary.org/wiki/YMMV
 
             URL_Add("ASP.NET Core", "https://en.wikipedia.org/wiki/ASP.NET_Core");
 
@@ -36742,11 +36782,11 @@ namespace OverflowHelper.core
 
             URL_Add("receive", "https://en.wiktionary.org/wiki/receive#Verb");
 
-            URL_Add("always", "https://en.wiktionary.org/wiki/allways");
+            URL_Add("always", "https://en.wiktionary.org/wiki/always#Adverb"); // Old: https://en.wiktionary.org/wiki/allways
 
             URL_Add("GitLab", "https://en.wikipedia.org/wiki/GitLab");
 
-            URL_Add("Spanish", "https://en.wiktionary.org/wiki/Spanish");
+            URL_Add("Spanish", "https://en.wiktionary.org/wiki/Spanish#Adjective"); // Old: https://en.wiktionary.org/wiki/Spanish
 
             URL_Add("macOS v10.12 (Sierra)", "https://en.wikipedia.org/wiki/MacOS_Sierra");
 
@@ -36754,13 +36794,27 @@ namespace OverflowHelper.core
 
             URL_Add("IIS&nbsp;Express", "https://en.wikipedia.org/wiki/Internet_Information_Services#IIS_Express");
 
-            URL_Add("referring", "https://en.wiktionary.org/wiki/refering");
+            URL_Add("referring", "https://en.wiktionary.org/wiki/refer#Verb"); // Old: https://en.wiktionary.org/wiki/refering
+
+            URL_Add("refer", "https://en.wiktionary.org/wiki/refer#Verb");
+
+            URL_Add("referred", "https://en.wiktionary.org/wiki/referred#Verb");
+
+            URL_Add("referenced", "https://en.wiktionary.org/wiki/reference#Verb");
+
+            URL_Add("reference", "https://en.wiktionary.org/wiki/reference#Noun");
+
+            URL_Add("referee", "https://en.wiktionary.org/wiki/referee#Noun");
+
+            URL_Add("referrer", "https://en.wiktionary.org/wiki/referrer#Noun");
+
+            URL_Add("referrers", "https://en.wiktionary.org/wiki/referrer#Noun");
 
             URL_Add("DynamoDB", "https://en.wikipedia.org/wiki/Amazon_DynamoDB");
 
             URL_Add("Pythonic", "https://en.wiktionary.org/wiki/Pythonic#Adjective");
 
-            URL_Add("separation", "https://en.wiktionary.org/wiki/seperation");
+            URL_Add("separation", "https://en.wiktionary.org/wiki/seperation#Noun"); // Old: https://en.wiktionary.org/wiki/seperation
 
             URL_Add("pull-up resistor", "https://en.wikipedia.org/wiki/Pull-up_resistor");
 
@@ -36796,7 +36850,7 @@ namespace OverflowHelper.core
 
             URL_Add("hexadecimal", "https://en.wikipedia.org/wiki/Hexadecimal");
 
-            URL_Add("neighbourhood", "https://en.wiktionary.org/wiki/neighbourhood");
+            URL_Add("neighbourhood", "https://en.wiktionary.org/wiki/neighbourhood#Noun"); // Old: https://en.wiktionary.org/wiki/neighbourhood
 
             URL_Add("shouldn't", "https://en.wiktionary.org/wiki/shouldn%27t#Verb");
 
@@ -36964,7 +37018,7 @@ namespace OverflowHelper.core
 
             URL_Add("WebStorm", "https://en.wikipedia.org/wiki/JetBrains#WebStorm");
 
-            URL_Add("is going to", "https://en.wiktionary.org/wiki/going_to#English");
+            URL_Add("is going to", "https://en.wiktionary.org/wiki/going_to#Phrase"); // Old: https://en.wiktionary.org/wiki/going_to#English
 
             URL_Add("introduction", "https://en.wiktionary.org/wiki/introduction#Noun");
 
@@ -36988,9 +37042,7 @@ namespace OverflowHelper.core
 
             URL_Add("parentheses", "https://en.wiktionary.org/wiki/parentheses#Noun");
 
-            URL_Add("utilities", "https://en.wiktionary.org/wiki/utilities#English");
-
-            URL_Add("wouldn't", "https://en.wiktionary.org/wiki/wouldn%27t#Verb"); // Old: <https://en.wiktionary.org/wiki/wouldn%27t#Contraction>
+            URL_Add("utilities", "https://en.wiktionary.org/wiki/utilities#Noun"); // Old: https://en.wiktionary.org/wiki/utilities#English
 
             URL_Add("implementation", "https://en.wiktionary.org/wiki/implementation#Noun");
 
@@ -37016,7 +37068,7 @@ namespace OverflowHelper.core
 
             URL_Add("MIPS", "https://en.wikipedia.org/wiki/MIPS_architecture");
 
-            URL_Add("want to", "https://en.wiktionary.org/wiki/wanna#Contraction_2");
+            URL_Add("want to", "https://en.wiktionary.org/wiki/wanna#Contraction"); // Old: https://en.wiktionary.org/wiki/wanna#Contraction_2
 
             URL_Add("Laravel", "https://en.wikipedia.org/wiki/Laravel");
 
@@ -37046,7 +37098,15 @@ namespace OverflowHelper.core
 
             URL_Add("C89", "https://en.wikipedia.org/wiki/ANSI_C#C89");
 
-            URL_Add("occurred", "https://en.wiktionary.org/wiki/occured");
+            URL_Add("occurring", "https://en.wiktionary.org/wiki/occurring#Verb");
+
+            URL_Add("occurred", "https://en.wiktionary.org/wiki/occur#Verb"); // Old: https://en.wiktionary.org/wiki/occured
+
+            URL_Add("occur", "https://en.wiktionary.org/wiki/occur#Verb");
+
+            URL_Add("occurs", "https://en.wiktionary.org/wiki/occur#Verb");
+
+            URL_Add("occurrence", "https://en.wiktionary.org/wiki/occurrence#Noun");
 
             URL_Add("development", "https://en.wiktionary.org/wiki/development#Noun");
 
@@ -37062,8 +37122,6 @@ namespace OverflowHelper.core
 
             URL_Add("off-topic", "https://en.wiktionary.org/wiki/off-topic#Adjective"); // Old: https://en.wiktionary.org/wiki/off-topic
 
-            URL_Add("particularly", "https://en.wiktionary.org/wiki/particularly#Adverb");
-
             URL_Add("preferred", "https://en.wiktionary.org/wiki/preferred#Verb"); // Old: https://en.wiktionary.org/wiki/prefered
 
             URL_Add("disappointed", "https://en.wiktionary.org/wiki/disappointed#Adjective");
@@ -37078,11 +37136,13 @@ namespace OverflowHelper.core
 
             URL_Add("usable", "https://en.wiktionary.org/wiki/usable#Adjective");
 
-            URL_Add("pronunciation", "https://en.wiktionary.org/wiki/pronounciation");
+            URL_Add("pronunciation", "https://en.wiktionary.org/wiki/pronunciation#Noun"); // Old: https://en.wiktionary.org/wiki/pronounciation
 
             URL_Add("require", "https://en.wiktionary.org/wiki/require#Verb");
 
-            URL_Add("particular", "https://en.wiktionary.org/wiki/particular");
+            URL_Add("particular", "https://en.wiktionary.org/wiki/particular#Adjective"); // Old: https://en.wiktionary.org/wiki/particular
+
+            URL_Add("particularly", "https://en.wiktionary.org/wiki/particularly#Adverb");
 
             URL_Add("don't know", "https://en.wiktionary.org/wiki/I_don%27t_know#Phrase");
 
@@ -37118,15 +37178,15 @@ namespace OverflowHelper.core
 
             URL_Add("MCP2515", "http://www.microchip.com/wwwproducts/en/en010406");
 
-            URL_Add("occurrence", "https://en.wiktionary.org/wiki/occurrence#Noun");
-
             URL_Add("credential", "https://en.wiktionary.org/wiki/credential#Noun"); // Old: https://en.wiktionary.org/wiki/cred#Noun
 
             URL_Add("dependencies", "https://en.wiktionary.org/wiki/dependencies#Noun");
 
             URL_Add("LINQPad", "https://en.wikipedia.org/wiki/LINQPad");
 
-            URL_Add("efficient", "https://en.wiktionary.org/wiki/efficient");
+            URL_Add("efficient", "https://en.wiktionary.org/wiki/efficient#Adjective"); // Old: https://en.wiktionary.org/wiki/efficient
+
+            URL_Add("efficiently", "https://en.wiktionary.org/wiki/efficiently#Adverb");
 
             URL_Add("indentation", "https://en.wiktionary.org/wiki/indentation#Noun");
 
@@ -37139,8 +37199,6 @@ namespace OverflowHelper.core
             URL_Add("Portuguese", "https://en.wiktionary.org/wiki/Portuguese#Proper_noun");
 
             URL_Add("Mockito", "https://en.wikipedia.org/wiki/Mockito");
-
-            URL_Add("referred", "https://en.wiktionary.org/wiki/referred#Verb");
 
             URL_Add("breakpoint", "https://en.wiktionary.org/wiki/breakpoint#Noun");
 
@@ -37234,17 +37292,13 @@ namespace OverflowHelper.core
 
             URL_Add("length", "https://en.wiktionary.org/wiki/length#Noun");
 
-            URL_Add("meantime", "https://en.wiktionary.org/wiki/in_the_meantime");
+            URL_Add("meantime", "https://en.wiktionary.org/wiki/in_the_meantime#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/in_the_meantime
 
             URL_Add("paragraph", "https://en.wiktionary.org/wiki/paragraph#Noun");
 
             URL_Add("read-only", "https://en.wiktionary.org/wiki/read-only#Adjective");
 
             URL_Add("really", "https://en.wiktionary.org/wiki/really#Adverb");
-
-            URL_Add("recommendation", "https://en.wiktionary.org/wiki/recommendation#Noun");
-
-            URL_Add("recommended", "https://en.wiktionary.org/wiki/recommended#Verb");
 
             URL_Add("separator", "https://en.wiktionary.org/wiki/separator#Noun");
 
@@ -37324,7 +37378,7 @@ namespace OverflowHelper.core
 
             URL_Add("bear with me", "https://en.wiktionary.org/wiki/bear_with#Verb");
 
-            URL_Add("being", "https://en.wiktionary.org/wiki/being#Verbs");
+            URL_Add("being", "https://en.wiktionary.org/wiki/being#Verb"); // Old: https://en.wiktionary.org/wiki/being#Verbs
 
             URL_Add("concatenation", "https://en.wiktionary.org/wiki/concatenation#Noun");
 
@@ -37336,7 +37390,7 @@ namespace OverflowHelper.core
 
             URL_Add("losing", "https://en.wiktionary.org/wiki/lose#Verb");
 
-            URL_Add("managing", "https://en.wiktionary.org/wiki/managing#English");
+            URL_Add("managing", "https://en.wiktionary.org/wiki/managing#Verb"); // Old: https://en.wiktionary.org/wiki/managing#English
 
             URL_Add("previous", "https://en.wiktionary.org/wiki/previous#Adjective");
 
@@ -37353,8 +37407,6 @@ namespace OverflowHelper.core
             URL_Add("third", "https://en.wiktionary.org/wiki/third#Adjective");
 
             URL_Add("vice versa", "https://en.wiktionary.org/wiki/vice_versa#Adverb");
-
-            URL_Add("yourself", "https://en.wiktionary.org/wiki/yourself#Pronoun");
 
             URL_Add("Atom", "https://en.wikipedia.org/wiki/Atom_(text_editor)");
 
@@ -37542,7 +37594,7 @@ namespace OverflowHelper.core
 
             URL_Add("Docker Hub", "https://en.wikipedia.org/wiki/Docker_(software)#Components");
 
-            URL_Add("Marxism", "https://en.wiktionary.org/wiki/Marxism#English");
+            URL_Add("Marxism", "https://en.wiktionary.org/wiki/Marxism#Noun"); // Old: https://en.wiktionary.org/wiki/Marxism#English
 
             URL_Add("afraid", "https://en.wiktionary.org/wiki/afraid#Adjective");
 
@@ -37790,7 +37842,7 @@ namespace OverflowHelper.core
 
             URL_Add("written", "https://en.wiktionary.org/wiki/written#Verb");
 
-            URL_Add("BSc", "https://en.wiktionary.org/wiki/Bachelor_of_Science#Abbreviations");
+            URL_Add("BSc", "https://en.wiktionary.org/wiki/Bachelor_of_Science#Noun"); // Old: https://en.wiktionary.org/wiki/Bachelor_of_Science#Abbreviations
 
             URL_Add("Hindi", "https://en.wiktionary.org/wiki/Hindi#Noun");
 
@@ -37936,7 +37988,7 @@ namespace OverflowHelper.core
 
             URL_Add("Sourcetree", "https://en.wikipedia.org/wiki/Atlassian#Acquisitions_and_product_announcements");
 
-            URL_Add("environment variable", "https://en.wiktionary.org/wiki/environment_variable");
+            URL_Add("environment variable", "https://en.wiktionary.org/wiki/environment_variable#Noun"); // Old: https://en.wiktionary.org/wiki/environment_variable
 
             URL_Add("ASAP", "https://en.wiktionary.org/wiki/ASAP#Adverb");
 
@@ -38049,8 +38101,6 @@ namespace OverflowHelper.core
             URL_Add("object", "https://en.wiktionary.org/wiki/object#Noun");
 
             URL_Add("precede", "https://en.wiktionary.org/wiki/precede#Verb");
-
-            URL_Add("reference", "https://en.wiktionary.org/wiki/reference#Noun");
 
             URL_Add("standard input", "https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)");
 
@@ -38335,7 +38385,7 @@ namespace OverflowHelper.core
 
             URL_Add("competition", "https://en.wiktionary.org/wiki/competition#Noun");
 
-            URL_Add("conscious", "https://en.wiktionary.org/wiki/concious");
+            URL_Add("conscious", "https://en.wiktionary.org/wiki/conscious#Adjective"); // Old: https://en.wiktionary.org/wiki/concious
 
             URL_Add("department", "https://en.wiktionary.org/wiki/department#Noun");
 
@@ -38357,7 +38407,7 @@ namespace OverflowHelper.core
 
             URL_Add("instruction", "https://en.wiktionary.org/wiki/instruction#Noun");
 
-            URL_Add("km", "https://en.wiktionary.org/wiki/km#Abbreviation");
+            URL_Add("km", "https://en.wiktionary.org/wiki/km#Symbol"); // Old: https://en.wiktionary.org/wiki/km#Abbreviation
 
             URL_Add("latest", "https://en.wiktionary.org/wiki/latest#Adjective");
 
@@ -38401,7 +38451,7 @@ namespace OverflowHelper.core
 
             URL_Add("side effect", "https://en.wiktionary.org/wiki/side_effect#Noun");
 
-            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#English");
+            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
 
             URL_Add("struggling", "https://en.wiktionary.org/wiki/struggle#Verb");
 
@@ -38539,7 +38589,7 @@ namespace OverflowHelper.core
 
             URL_Add("medieval", "https://en.wiktionary.org/wiki/medieval#Adjective");
 
-            URL_Add("misspelt", "https://en.wiktionary.org/wiki/misspelt");
+            URL_Add("misspelt", "https://en.wiktionary.org/wiki/misspelt#Verb"); // Old: https://en.wiktionary.org/wiki/misspelt
 
             URL_Add("preference", "https://en.wiktionary.org/wiki/preference#Noun");
 
@@ -38585,7 +38635,7 @@ namespace OverflowHelper.core
 
             URL_Add("capacitance", "https://en.wikipedia.org/wiki/Capacitance");
 
-            URL_Add("cost-effective", "https://en.wiktionary.org/wiki/cost-effective");
+            URL_Add("cost-effective", "https://en.wiktionary.org/wiki/cost-effective#Adjective"); // Old: https://en.wiktionary.org/wiki/cost-effective
 
             URL_Add("encryption", "https://en.wiktionary.org/wiki/encryption#Noun");
 
@@ -38597,7 +38647,7 @@ namespace OverflowHelper.core
 
             URL_Add("iodine", "https://en.wikipedia.org/wiki/Iodine");
 
-            URL_Add("irreplaceable", "https://en.wiktionary.org/wiki/irreplacable");
+            URL_Add("irreplaceable", "https://en.wiktionary.org/wiki/irreplacable#Adjective"); // Old: https://en.wiktionary.org/wiki/irreplacable
 
             URL_Add("literally", "https://en.wiktionary.org/wiki/literally#Adverb");
 
@@ -38829,8 +38879,6 @@ namespace OverflowHelper.core
 
             URL_Add("nuisance", "https://en.wiktionary.org/wiki/nuisance#Noun");
 
-            URL_Add("occur", "https://en.wiktionary.org/wiki/occur#Verb");
-
             URL_Add("permanent", "https://en.wiktionary.org/wiki/permanent#Adjective");
 
             URL_Add("physics", "https://en.wikipedia.org/wiki/Physics");
@@ -38915,7 +38963,7 @@ namespace OverflowHelper.core
 
             URL_Add("stream", "https://en.wiktionary.org/wiki/stream#Noun");
 
-            URL_Add("synthetise", "https://en.wiktionary.org/wiki/synthetise");
+            URL_Add("synthetise", "https://en.wiktionary.org/wiki/synthetise#Verb"); // Old: https://en.wiktionary.org/wiki/synthetise
 
             URL_Add("transparency", "https://en.wiktionary.org/wiki/transparency#Noun");
 
@@ -39013,7 +39061,7 @@ namespace OverflowHelper.core
 
             URL_Add("everywhere", "https://en.wiktionary.org/wiki/everywhere#Adverb");
 
-            URL_Add("key press", "https://en.wiktionary.org/wiki/key_press");
+            URL_Add("key press", "https://en.wiktionary.org/wiki/key_press#Noun"); // Old: https://en.wiktionary.org/wiki/key_press
 
             URL_Add("space", "https://en.wiktionary.org/wiki/space#Noun");
 
@@ -39141,8 +39189,6 @@ namespace OverflowHelper.core
 
             URL_Add("portfolio", "https://en.wiktionary.org/wiki/portfolio#Noun");
 
-            URL_Add("recommending", "https://en.wiktionary.org/wiki/recommend");
-
             URL_Add("religious", "https://en.wiktionary.org/wiki/religious#Adjective");
 
             URL_Add("rescale", "https://en.wiktionary.org/wiki/rescale#Verb");
@@ -39153,7 +39199,7 @@ namespace OverflowHelper.core
 
             URL_Add("snippet", "https://en.wiktionary.org/wiki/snippet#Noun");
 
-            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function");
+            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function#Noun"); // Old: https://en.wiktionary.org/wiki/user-defined_function
 
             URL_Add("wonderful", "https://en.wiktionary.org/wiki/wonderful#Adjective");
 
@@ -39479,8 +39525,6 @@ namespace OverflowHelper.core
 
             URL_Add("create", "https://en.wiktionary.org/wiki/create#Verb");
 
-            URL_Add("downvoting", "https://en.wiktionary.org/wiki/downvote#Verb");
-
             URL_Add("foreground", "https://en.wiktionary.org/wiki/foreground#Noun");
 
             URL_Add("guaranteed", "https://en.wiktionary.org/wiki/guaranteed#Adjective");
@@ -39607,7 +39651,7 @@ namespace OverflowHelper.core
 
             URL_Add("boost converter", "https://en.wikipedia.org/wiki/Boost_converter");
 
-            URL_Add("help vampire", "https://en.wiktionary.org/wiki/help_vampire");
+            URL_Add("help vampire", "https://en.wiktionary.org/wiki/help_vampire#Noun"); // Old: https://en.wiktionary.org/wiki/help_vampire
 
             URL_Add("udev", "https://en.wikipedia.org/wiki/Udev");
 
@@ -39636,8 +39680,6 @@ namespace OverflowHelper.core
             URL_Add("ST-LINK", "https://www.st.com/en/development-tools/st-link-v2.html");
 
             URL_Add("Swagger", "https://en.wikipedia.org/wiki/Swagger_(software)");
-
-            URL_Add("autogenerated", "https://en.wiktionary.org/wiki/autogenerate#Verb");
 
             URL_Add("code generation", "https://en.wikipedia.org/wiki/Automatic_programming#Source-code_generation");
 
@@ -39679,7 +39721,9 @@ namespace OverflowHelper.core
 
             URL_Add("analytics", "https://en.wiktionary.org/wiki/analytics#Noun");
 
-            URL_Add("autogenerate", "https://en.wiktionary.org/wiki/autogenerate");
+            URL_Add("autogenerate", "https://en.wiktionary.org/wiki/autogenerate#Verb"); // Old: https://en.wiktionary.org/wiki/autogenerate
+
+            URL_Add("autogenerated", "https://en.wiktionary.org/wiki/autogenerate#Verb");
 
             URL_Add("backslash", "https://en.wiktionary.org/wiki/backslash#Noun");
 
@@ -39759,7 +39803,7 @@ namespace OverflowHelper.core
 
             URL_Add("counterexample", "https://en.wiktionary.org/wiki/counterexample#Noun");
 
-            URL_Add("double check", "https://en.wiktionary.org/wiki/double_check");
+            URL_Add("double check", "https://en.wiktionary.org/wiki/double_check#Verb"); // Old: https://en.wiktionary.org/wiki/double_check
 
             URL_Add("echo", "https://www.php.net/manual/en/function.echo.php");
 
@@ -39945,7 +39989,7 @@ namespace OverflowHelper.core
 
             URL_Add("guarantees", "https://en.wiktionary.org/wiki/guarantee#Noun");
 
-            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#English");
+            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#Noun"); // Old: https://en.wiktionary.org/wiki/heat_sink#English
 
             URL_Add("hostname", "https://en.wiktionary.org/wiki/hostname#Noun");
 
@@ -40035,17 +40079,13 @@ namespace OverflowHelper.core
 
             URL_Add("derogatory", "https://en.wiktionary.org/wiki/derogatory#Adjective");
 
-            URL_Add("embarrassingly", "https://en.wiktionary.org/wiki/embarrassingly");
+            URL_Add("embarrassingly", "https://en.wiktionary.org/wiki/embarrassingly#Adverb"); // Old: https://en.wiktionary.org/wiki/embarrassingly
 
             URL_Add("empathy", "https://en.wiktionary.org/wiki/empathy#Noun");
 
             URL_Add("euphemism", "https://en.wiktionary.org/wiki/euphemism#Noun");
 
             URL_Add("ferrite", "https://en.wikipedia.org/wiki/Ferrite_%28magnet%29");
-
-            URL_Add("firefighting", "https://en.wiktionary.org/wiki/firefighting#Noun");
-
-            URL_Add("gaslighting", "https://en.wiktionary.org/wiki/gaslight#Verb");
 
             URL_Add("grateful", "https://en.wiktionary.org/wiki/grateful#Adjective");
 
@@ -40239,13 +40279,11 @@ namespace OverflowHelper.core
 
             URL_Add("criteria", "https://en.wiktionary.org/wiki/criterion#Noun");
 
-            URL_Add("dead sea", "https://en.wiktionary.org/wiki/Dead_Sea");
+            URL_Add("dead sea", "https://en.wiktionary.org/wiki/Dead_Sea#Proper_noun"); // Old: https://en.wiktionary.org/wiki/Dead_Sea
 
             URL_Add("disappeared", "https://en.wiktionary.org/wiki/disappear#Verb");
 
             URL_Add("disheartening", "https://en.wiktionary.org/wiki/disheartening#Adjective");
-
-            URL_Add("downvoted", "https://en.wiktionary.org/wiki/downvote");
 
             URL_Add("dysfunction", "https://en.wiktionary.org/wiki/dysfunction#Noun");
 
@@ -40301,11 +40339,11 @@ namespace OverflowHelper.core
 
             URL_Add("triggering", "https://en.wiktionary.org/wiki/trigger#Verb");
 
-            URL_Add("wall of text", "https://en.wiktionary.org/wiki/wall_of_text");
+            URL_Add("wall of text", "https://en.wiktionary.org/wiki/wall_of_text#Noun"); // Old: https://en.wiktionary.org/wiki/wall_of_text
 
             URL_Add("web servers", "https://en.wikipedia.org/wiki/Web_server");
 
-            URL_Add("with respect to", "https://en.wiktionary.org/wiki/WRT#English");
+            URL_Add("with respect to", "https://en.wiktionary.org/wiki/WRT#Preposition"); // Old: https://en.wiktionary.org/wiki/WRT#English
 
             URL_Add("HID Macros", "http://www.hidmacros.eu/whatisit.php");
 
@@ -40430,8 +40468,6 @@ namespace OverflowHelper.core
             URL_Add("overwrite", "https://en.wiktionary.org/wiki/overwrite#Verb");
 
             URL_Add("personally", "https://en.wiktionary.org/wiki/personally#Adverb");
-
-            URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
 
             URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
 
@@ -40837,7 +40873,7 @@ namespace OverflowHelper.core
 
             URL_Add("single-handedly", "https://en.wiktionary.org/wiki/single-handedly#Adverb");
 
-            URL_Add("spectacularly", "https://en.wiktionary.org/wiki/spectacularly");
+            URL_Add("spectacularly", "https://en.wiktionary.org/wiki/spectacularly#Adverb"); // Old: https://en.wiktionary.org/wiki/spectacularly
 
             URL_Add("stopwatch", "https://en.wiktionary.org/wiki/stopwatch#Noun");
 
@@ -40945,7 +40981,7 @@ namespace OverflowHelper.core
 
             URL_Add("follow", "https://en.wiktionary.org/wiki/follow#Verb");
 
-            URL_Add("fortune favours the brave", "https://en.wiktionary.org/wiki/fortune_favours_the_brave#English");
+            URL_Add("fortune favours the brave", "https://en.wiktionary.org/wiki/fortune_favours_the_brave#Proverb"); // Old: https://en.wiktionary.org/wiki/fortune_favours_the_brave#English
 
             URL_Add("laugh", "https://en.wiktionary.org/wiki/laugh#Noun");
 
@@ -40987,7 +41023,7 @@ namespace OverflowHelper.core
 
             URL_Add("COVID-19", "https://en.wikipedia.org/wiki/COVID-19"); // Old: https://en.wikipedia.org/wiki/Coronavirus_disease_2019
 
-            URL_Add("emphasising", "https://en.wiktionary.org/wiki/emphasise#English");
+            URL_Add("emphasising", "https://en.wiktionary.org/wiki/emphasise#Verb"); // Old: https://en.wiktionary.org/wiki/emphasise#English
 
             URL_Add("national", "https://en.wiktionary.org/wiki/national#Adjective");
 
@@ -41083,7 +41119,7 @@ namespace OverflowHelper.core
 
             URL_Add("medical", "https://en.wiktionary.org/wiki/medical#Adjective");
 
-            URL_Add("mortality", "https://en.wiktionary.org/wiki/mortality");
+            URL_Add("mortality", "https://en.wiktionary.org/wiki/mortality#Noun"); // Old: https://en.wiktionary.org/wiki/mortality
 
             URL_Add("America", "https://en.wiktionary.org/wiki/America#Proper_noun");
 
@@ -41106,8 +41142,6 @@ namespace OverflowHelper.core
             URL_Add("en passant", "https://en.wikipedia.org/wiki/En_passant");
 
             URL_Add("strcpy", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
-
-            URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
 
             URL_Add("Atlas V", "https://en.wikipedia.org/wiki/Atlas_V");
 
@@ -41187,7 +41221,7 @@ namespace OverflowHelper.core
 
             URL_Add("footprint", "https://en.wiktionary.org/wiki/footprint#Noun");
 
-            URL_Add("generalising", "https://en.wiktionary.org/wiki/generalising");
+            URL_Add("generalising", "https://en.wiktionary.org/wiki/generalising#Verb"); // Old: https://en.wiktionary.org/wiki/generalising
 
             URL_Add("EAGLE", "https://en.wikipedia.org/wiki/EAGLE_(program)");
 
@@ -41331,7 +41365,7 @@ namespace OverflowHelper.core
 
             URL_Add("in-circuit serial programming", "https://en.wikipedia.org/wiki/In-system_programming");
 
-            URL_Add("key binding", "https://en.wiktionary.org/wiki/key_binding#English");
+            URL_Add("key binding", "https://en.wiktionary.org/wiki/key_binding#Noun"); // Old: https://en.wiktionary.org/wiki/key_binding#English
 
             URL_Add("normally", "https://en.wiktionary.org/wiki/normally#Adverb");
 
@@ -41467,7 +41501,7 @@ namespace OverflowHelper.core
 
             URL_Add("proportionally", "https://en.wiktionary.org/wiki/proportionally#Adverb");
 
-            URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#English");
+            URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#Noun"); // Old: https://en.wiktionary.org/wiki/purpose#English
 
             URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
 
@@ -41495,7 +41529,7 @@ namespace OverflowHelper.core
 
             URL_Add("taxiing", "https://en.wiktionary.org/wiki/taxi#Verb");
 
-            URL_Add("trash can", "https://en.wiktionary.org/wiki/trash_can#English");
+            URL_Add("trash can", "https://en.wiktionary.org/wiki/trash_can#Noun"); // Old: https://en.wiktionary.org/wiki/trash_can#English
 
             URL_Add("unusable", "https://en.wiktionary.org/wiki/unusable#Adjective");
 
@@ -41545,7 +41579,7 @@ namespace OverflowHelper.core
 
             URL_Add("someone’s", "https://en.wiktionary.org/wiki/someone's#Adjective");
 
-            URL_Add("similar", "https://en.wiktionary.org/wiki/similiar");
+            URL_Add("similar", "https://en.wiktionary.org/wiki/similar#Adjective"); // Old: https://en.wiktionary.org/wiki/similiar
 
             URL_Add("similarly", "https://en.wiktionary.org/wiki/similarly#Adverb");
 
@@ -41701,7 +41735,7 @@ namespace OverflowHelper.core
 
             URL_Add("last", "https://en.wiktionary.org/wiki/last#Adjective");
 
-            URL_Add("nonexotic", "https://en.wiktionary.org/wiki/nonexotic");
+            URL_Add("nonexotic", "https://en.wiktionary.org/wiki/nonexotic#Adjective"); // Old: https://en.wiktionary.org/wiki/nonexotic
 
             URL_Add("passageway", "https://en.wiktionary.org/wiki/passageway#Noun");
 
@@ -41909,9 +41943,7 @@ namespace OverflowHelper.core
 
             URL_Add("consecutively", "https://en.wiktionary.org/wiki/consecutively#Adverb");
 
-            URL_Add("keyboard shortcut", "https://en.wiktionary.org/wiki/keyboard_shortcut");
-
-            URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
+            URL_Add("keyboard shortcut", "https://en.wiktionary.org/wiki/keyboard_shortcut#Noun"); // Old: https://en.wiktionary.org/wiki/keyboard_shortcut
 
             URL_Add("zugzwang", "https://en.wikipedia.org/wiki/Zugzwang");
 
@@ -42171,7 +42203,7 @@ namespace OverflowHelper.core
 
             URL_Add("constraints", "https://en.wiktionary.org/wiki/constraint#Noun");
 
-            URL_Add("first-class citizen", "https://en.wiktionary.org/wiki/first-class_citizen");
+            URL_Add("first-class citizen", "https://en.wiktionary.org/wiki/first-class_citizen#Noun"); // Old: https://en.wiktionary.org/wiki/first-class_citizen
 
             URL_Add("non-disclosure agreement", "https://en.wikipedia.org/wiki/Non-disclosure_agreement");
 
@@ -42221,7 +42253,7 @@ namespace OverflowHelper.core
 
             URL_Add("arose", "https://en.wiktionary.org/wiki/arise#Verb");
 
-            URL_Add("coincidence", "https://en.wiktionary.org/wiki/coincidence#English");
+            URL_Add("coincidence", "https://en.wiktionary.org/wiki/coincidence#Noun"); // Old: https://en.wiktionary.org/wiki/coincidence#English
 
             URL_Add("company", "https://en.wiktionary.org/wiki/company#Noun");
 
@@ -42231,7 +42263,7 @@ namespace OverflowHelper.core
 
             URL_Add("Spain", "https://en.wikipedia.org/wiki/Spain");
 
-            URL_Add("anthropomorphising", "https://en.wiktionary.org/wiki/anthropomorphise#English");
+            URL_Add("anthropomorphising", "https://en.wiktionary.org/wiki/anthropomorphise#Verb"); // Old: https://en.wiktionary.org/wiki/anthropomorphise#English
 
             URL_Add("bluechip", "https://en.wiktionary.org/wiki/bluechip#Adjective");
 
@@ -42309,7 +42341,9 @@ namespace OverflowHelper.core
 
             URL_Add("sinusoidal", "https://en.wiktionary.org/wiki/sinusoidal#Adjective");
 
-            URL_Add("tomorrow's", "https://en.wiktionary.org/wiki/tomorrow's");
+            URL_Add("tomorrow's", "https://en.wiktionary.org/wiki/tomorrow's#Adjective"); // Does not actually exist at Wiktionary. But "today's" exists. Was it deleted?
+
+            URL_Add("today's", "https://en.wiktionary.org/wiki/today's#Adjective"); // Old: https://en.wiktionary.org/wiki/today's
 
             URL_Add("I’d", "https://en.wiktionary.org/wiki/I%27d#Contraction");
 
@@ -42325,7 +42359,7 @@ namespace OverflowHelper.core
 
             URL_Add("LÖVE", "https://en.wikipedia.org/wiki/L%C3%B6ve_(game_engine)");
 
-            URL_Add("choreographic", "https://en.wiktionary.org/wiki/choreographic#English");
+            URL_Add("choreographic", "https://en.wiktionary.org/wiki/choreographic#Adjective"); // Old: https://en.wiktionary.org/wiki/choreographic#English
 
             URL_Add("functionality", "https://en.wiktionary.org/wiki/functionality#Noun");
 
@@ -42649,8 +42683,6 @@ namespace OverflowHelper.core
 
             URL_Add("troubleshoot", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
 
-            URL_Add("whichever", "https://en.wiktionary.org/wiki/whichever#Pronoun");
-
             URL_Add("commercially", "https://en.wiktionary.org/wiki/commercially#Adverb");
 
             URL_Add("compiling", "https://en.wiktionary.org/wiki/compile#Verb");
@@ -42660,8 +42692,6 @@ namespace OverflowHelper.core
             URL_Add("dotnet test", "https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test");
 
             URL_Add("presence", "https://en.wiktionary.org/wiki/presence#Noun");
-
-            URL_Add("referenced", "https://en.wiktionary.org/wiki/reference#Verb");
 
             URL_Add("IETF", "https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force");
 
@@ -42887,7 +42917,7 @@ namespace OverflowHelper.core
 
             URL_Add("query", "https://en.wiktionary.org/wiki/query#Noun");
 
-            URL_Add("realise", "https://en.wiktionary.org/wiki/realise");
+            URL_Add("realise", "https://en.wiktionary.org/wiki/realise#Verb"); // Old: https://en.wiktionary.org/wiki/realise
 
             URL_Add("regularly", "https://en.wiktionary.org/wiki/regularly#Adverb");
 
@@ -42945,8 +42975,6 @@ namespace OverflowHelper.core
 
             URL_Add("technical debt", "https://en.wikipedia.org/wiki/Technical_debt"); // Old (probably in error): https://en.wikipedia.org/wiki/Waterfall_model
 
-            URL_Add("today's", "https://en.wiktionary.org/wiki/today's");
-
             URL_Add("unpredictable", "https://en.wiktionary.org/wiki/unpredictable#Adjective");
 
             URL_Add("wheel", "https://en.wikipedia.org/wiki/Setuptools#Package_format");
@@ -42977,15 +43005,13 @@ namespace OverflowHelper.core
 
             URL_Add("no true Scotsman", "https://en.wikipedia.org/wiki/No_true_Scotsman");
 
-            URL_Add("referee", "https://en.wiktionary.org/wiki/referee#Noun");
-
             URL_Add("Discourse", "https://en.wikipedia.org/wiki/Discourse_%28software%29");
 
             URL_Add("jq", "https://stedolan.github.io/jq/");
 
             URL_Add("json_pp", "https://stedolan.github.io/jq/");
 
-            URL_Add("pain point", "https://en.wiktionary.org/wiki/pain_point");
+            URL_Add("pain point", "https://en.wiktionary.org/wiki/pain_point#Noun"); // Old: https://en.wiktionary.org/wiki/pain_point
 
             URL_Add("introductory", "https://en.wiktionary.org/wiki/introductory#Adjective");
 
@@ -43159,7 +43185,7 @@ namespace OverflowHelper.core
 
             URL_Add("algorithmic", "https://en.wiktionary.org/wiki/algorithmic#Adjective");
 
-            URL_Add("array", "https://en.wiktionary.org/wiki/array#Noun>");
+            URL_Add("array", "https://en.wiktionary.org/wiki/array#Noun"); // Old: https://en.wiktionary.org/wiki/array#Noun>
 
             URL_Add("association", "https://en.wiktionary.org/wiki/association#Noun");
 
@@ -43261,8 +43287,6 @@ namespace OverflowHelper.core
 
             URL_Add("scenarios", "https://en.wiktionary.org/wiki/scenario#Noun");
 
-            URL_Add("software engineering", "https://en.wiktionary.org/wiki/software_engineering#Noun");
-
             URL_Add("trade-off", "https://en.wiktionary.org/wiki/trade-off#Noun");
 
             URL_Add("watch", "https://en.wiktionary.org/wiki/watch#Noun");
@@ -43333,7 +43357,7 @@ namespace OverflowHelper.core
 
             URL_Add("sensical", "https://en.wiktionary.org/wiki/sensical#Adjective");
 
-            URL_Add("some day", "https://en.wiktionary.org/wiki/some_day");
+            URL_Add("some day", "https://en.wiktionary.org/wiki/some_day#Adverb"); // Old: https://en.wiktionary.org/wiki/some_day
 
             URL_Add("thallium", "https://en.wikipedia.org/wiki/Thallium");
 
@@ -43451,7 +43475,7 @@ namespace OverflowHelper.core
 
             URL_Add("kinetic energy", "https://en.wikipedia.org/wiki/Kinetic_energy");
 
-            URL_Add("mesmerising", "https://en.wiktionary.org/wiki/mesmerize#English");
+            URL_Add("mesmerising", "https://en.wiktionary.org/wiki/mesmerize#Verb"); // Old: https://en.wiktionary.org/wiki/mesmerize#English
 
             URL_Add("reinvent the wheel", "https://en.wiktionary.org/wiki/reinvent_the_wheel#Verb");
 
@@ -43535,15 +43559,17 @@ namespace OverflowHelper.core
 
             URL_Add("think", "https://en.wiktionary.org/wiki/think#Verb");
 
-            URL_Add("throughput", "https://en.wiktionary.org/wiki/throughput#Noun");
-
             URL_Add("Azure Cosmos DB", "https://en.wikipedia.org/wiki/Cosmos_DB");
 
             URL_Add("Entity Framework Core", "https://en.wikipedia.org/wiki/Entity_Framework#History");
 
             URL_Add("expletive", "https://en.wiktionary.org/wiki/expletive#Noun");
 
-            URL_Add("firefight", "https://en.wiktionary.org/wiki/firefight");
+            URL_Add("firefight", "https://en.wiktionary.org/wiki/firefight#Noun"); // Old: https://en.wiktionary.org/wiki/firefight
+
+            URL_Add("firefighting", "https://en.wiktionary.org/wiki/firefighting#Noun");
+
+            URL_Add("gaslighting", "https://en.wiktionary.org/wiki/gaslight#Verb");
 
             URL_Add("philosophy", "https://en.wiktionary.org/wiki/philosophy#Noun");
 
@@ -43705,11 +43731,11 @@ namespace OverflowHelper.core
 
             URL_Add("describe", "https://en.wiktionary.org/wiki/describe#Verb");
 
-            URL_Add("inertial", "https://en.wiktionary.org/wiki/inertial_frame_of_reference#English");
+            URL_Add("inertial", "https://en.wiktionary.org/wiki/inertial_frame_of_reference#Noun"); // Old: https://en.wiktionary.org/wiki/inertial_frame_of_reference#English
 
             URL_Add("metaprogramming", "https://en.wikipedia.org/wiki/Metaprogramming");
 
-            URL_Add("preinstall", "https://en.wiktionary.org/wiki/preinstall");
+            URL_Add("preinstall", "https://en.wiktionary.org/wiki/preinstall#Verb"); // Old: https://en.wiktionary.org/wiki/preinstall
 
             URL_Add("readability", "https://en.wiktionary.org/wiki/readability#Noun");
 
@@ -43852,8 +43878,6 @@ namespace OverflowHelper.core
             URL_Add("Tesseract", "https://en.wikipedia.org/wiki/Tesseract_(software)");
 
             URL_Add("htop", "https://en.wikipedia.org/wiki/Htop");
-
-            URL_Add("parallelism", "https://en.wiktionary.org/wiki/parallelism#Noun");
 
             URL_Add("CPM", "https://en.wikipedia.org/wiki/Cost_per_mille");
 
@@ -44091,7 +44115,7 @@ namespace OverflowHelper.core
 
             URL_Add("deteriorate", "https://en.wiktionary.org/wiki/deteriorate#Verb");
 
-            URL_Add("front end", "https://en.wiktionary.org/wiki/front_end#English");
+            URL_Add("front end", "https://en.wiktionary.org/wiki/front_end#Noun"); // Old: https://en.wiktionary.org/wiki/front_end#English
 
             URL_Add("tenkeyless (80%)", "https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=27");
 
@@ -44173,7 +44197,7 @@ namespace OverflowHelper.core
 
             URL_Add("tip", "https://en.wiktionary.org/wiki/tip#Noun_5");
 
-            URL_Add("unwelcoming", "https://en.wiktionary.org/wiki/unwelcoming");
+            URL_Add("unwelcoming", "https://en.wiktionary.org/wiki/unwelcoming#Adjective"); // Old: https://en.wiktionary.org/wiki/unwelcoming
 
             URL_Add("writeX", "https://en.wiktionary.org/wiki/write#Verb");
 
@@ -44707,8 +44731,6 @@ namespace OverflowHelper.core
 
             URL_Add("originally", "https://en.wiktionary.org/wiki/originally#Adverb");
 
-            URL_Add("parallelly", "https://en.wiktionary.org/wiki/parallelly#Adverb");
-
             URL_Add("percentage point", "https://en.wikipedia.org/wiki/Percentage_point");
 
             URL_Add("undisciplined", "https://en.wiktionary.org/wiki/undisciplined#Adjective");
@@ -44783,9 +44805,9 @@ namespace OverflowHelper.core
 
             URL_Add("steady state", "https://en.wiktionary.org/wiki/steady_state#Noun");
 
-            URL_Add("stories", "https://en.wiktionary.org/wiki/story");
+            URL_Add("stories", "https://en.wiktionary.org/wiki/story#Noun"); // Old: https://en.wiktionary.org/wiki/story
 
-            URL_Add("story", "https://en.wiktionary.org/wiki/story");
+            URL_Add("story", "https://en.wiktionary.org/wiki/story#Noun"); // Old: https://en.wiktionary.org/wiki/story
 
             URL_Add("stubborn", "https://en.wiktionary.org/wiki/stubborn#Adjective");
 
@@ -44839,7 +44861,7 @@ namespace OverflowHelper.core
 
             URL_Add("newfangled", "https://en.wiktionary.org/wiki/newfangled#Adjective");
 
-            URL_Add("overinterpretation", "https://en.wiktionary.org/wiki/overinterpretation");
+            URL_Add("overinterpretation", "https://en.wiktionary.org/wiki/overinterpretation#Noun"); // Old: https://en.wiktionary.org/wiki/overinterpretation
 
             URL_Add("touch-up", "https://en.wiktionary.org/wiki/touch-up#Noun");
 
@@ -44929,7 +44951,7 @@ namespace OverflowHelper.core
 
             URL_Add("hundreds", "https://en.wiktionary.org/wiki/hundred#Numeral");
 
-            URL_Add("unformatted", "https://en.wiktionary.org/wiki/unformatted");
+            URL_Add("unformatted", "https://en.wiktionary.org/wiki/unformatted#Adjective"); // Old: https://en.wiktionary.org/wiki/unformatted
 
             URL_Add("Wix.com", "https://en.wikipedia.org/wiki/Wix.com");
 
@@ -45006,8 +45028,6 @@ namespace OverflowHelper.core
             URL_Add("consumption", "https://en.wiktionary.org/wiki/consumption#Noun");
 
             URL_Add("directories", "https://en.wiktionary.org/wiki/directory#Noun");
-
-            URL_Add("efficiently", "https://en.wiktionary.org/wiki/efficiently#Adverb");
 
             URL_Add("fugitive", "https://en.wiktionary.org/wiki/fugitive#Noun");
 
@@ -45119,7 +45139,7 @@ namespace OverflowHelper.core
 
             URL_Add("way", "https://en.wiktionary.org/wiki/way#Noun");
 
-            URL_Add("transverse", "https://en.wiktionary.org/wiki/transverse#AdjectiveEasting");
+            URL_Add("transverse", "https://en.wiktionary.org/wiki/transverse#Adjective"); // Old: https://en.wiktionary.org/wiki/transverse#AdjectiveEasting
 
             URL_Add("VGA", "https://en.wikipedia.org/wiki/Video_Graphics_Array");
 
@@ -45271,7 +45291,7 @@ namespace OverflowHelper.core
 
             URL_Add("signal", "https://en.wiktionary.org/wiki/signal#Noun");
 
-            URL_Add("square wave", "https://en.wiktionary.org/wiki/square_wave");
+            URL_Add("square wave", "https://en.wiktionary.org/wiki/square_wave#Noun"); // Old: https://en.wiktionary.org/wiki/square_wave
 
             URL_Add("Bobby Fischer", "https://en.wikipedia.org/wiki/Bobby_Fischer");
 
@@ -45689,7 +45709,7 @@ namespace OverflowHelper.core
 
             URL_Add("Wing IDE", "https://en.wikipedia.org/wiki/Wing_IDE");
 
-            URL_Add("bankers' rounding", "https://en.wiktionary.org/wiki/bankers%27_rounding");
+            URL_Add("bankers' rounding", "https://en.wiktionary.org/wiki/bankers%27_rounding#Noun"); // Old: https://en.wiktionary.org/wiki/bankers%27_rounding
 
             URL_Add("connecting", "https://en.wiktionary.org/wiki/connect#Verb");
 
@@ -45919,7 +45939,7 @@ namespace OverflowHelper.core
 
             URL_Add("power", "https://en.wiktionary.org/wiki/power#Noun");
 
-            URL_Add("realised", "https://en.wiktionary.org/wiki/realise#English");
+            URL_Add("realised", "https://en.wiktionary.org/wiki/realise#Verb"); // Old: https://en.wiktionary.org/wiki/realise#English
 
             URL_Add("stepfather", "https://en.wiktionary.org/wiki/stepfather#Noun");
 
@@ -46019,7 +46039,7 @@ namespace OverflowHelper.core
 
             URL_Add("tomorrow", "https://en.wiktionary.org/wiki/tomorrow#Adverb");
 
-            URL_Add("what do you think", "https://en.wiktionary.org/wiki/WDYT");
+            URL_Add("what do you think", "https://en.wiktionary.org/wiki/WDYT#Phrase"); // Old: https://en.wiktionary.org/wiki/WDYT
 
             URL_Add("wikiholiday", "https://en.wikipedia.org/wiki/Wikipedia:Wikibreak");
 
@@ -46041,7 +46061,9 @@ namespace OverflowHelper.core
 
             URL_Add("preallocating", "https://en.wiktionary.org/wiki/preallocate#Verb");
 
-            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation");
+            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation#Noun"); // Old: https://en.wiktionary.org/wiki/preallocation
+
+            URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
 
             URL_Add("prepopulate", "https://en.wiktionary.org/wiki/prepopulate#Verb");
 
@@ -46319,7 +46341,7 @@ namespace OverflowHelper.core
 
             URL_Add("UID", "https://en.wikipedia.org/wiki/User_identifier");
 
-            URL_Add("noninitialized", "https://en.wiktionary.org/wiki/noninitialized");
+            URL_Add("noninitialized", "https://en.wiktionary.org/wiki/noninitialized#Adjective"); // Old: https://en.wiktionary.org/wiki/noninitialized
 
             URL_Add("race condition", "https://en.wikipedia.org/wiki/Race_condition");
 
@@ -46345,7 +46367,7 @@ namespace OverflowHelper.core
 
             URL_Add("probabilities", "https://en.wiktionary.org/wiki/probability#Noun");
 
-            URL_Add("reimplementation", "https://en.wiktionary.org/wiki/reimplementation");
+            URL_Add("reimplementation", "https://en.wiktionary.org/wiki/reimplementation#Noun"); // Old: https://en.wiktionary.org/wiki/reimplementation
 
             URL_Add("take into account", "https://en.wiktionary.org/wiki/take_into_account#Verb");
 
@@ -46422,8 +46444,6 @@ namespace OverflowHelper.core
             URL_Add("QMK", "https://docs.qmk.fm/#/hardware_avr");
 
             URL_Add("TeaVM", "https://en.wikipedia.org/wiki/Java_virtual_machine#Compilation_to_JavaScript");
-
-            URL_Add("benefitting", "https://en.wiktionary.org/wiki/benefit#Verb");
 
             URL_Add("disclaimer", "https://en.wiktionary.org/wiki/disclaimer#Noun");
 
@@ -46705,7 +46725,7 @@ namespace OverflowHelper.core
 
             URL_Add("Jorden van Foreest", "https://en.wikipedia.org/wiki/Jorden_van_Foreest");
 
-            URL_Add("emitted", "https://en.wiktionary.org/wiki/emit#English");
+            URL_Add("emitted", "https://en.wiktionary.org/wiki/emit#Verb"); // Old: https://en.wiktionary.org/wiki/emit#English
 
             URL_Add("Aryan Tari", "https://en.wikipedia.org/wiki/Aryan_Tari");
 
@@ -46746,8 +46766,6 @@ namespace OverflowHelper.core
             URL_Add("TTL", "https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic");
 
             URL_Add("WolframAlpha", "https://en.wikipedia.org/wiki/WolframAlpha");
-
-            URL_Add("definitions", "https://en.wiktionary.org/wiki/definition#Noun");
 
             URL_Add("detail", "https://en.wiktionary.org/wiki/detail#Noun");
 
@@ -46842,8 +46860,6 @@ namespace OverflowHelper.core
             URL_Add("catches", "https://en.wiktionary.org/wiki/catch#Verb");
 
             URL_Add("causes", "https://en.wiktionary.org/wiki/cause#Verb");
-
-            URL_Add("combinations", "https://en.wiktionary.org/wiki/combination#Noun");
 
             URL_Add("countercheck", "https://en.wiktionary.org/wiki/countercheck#Verb");
 
@@ -47103,7 +47119,7 @@ namespace OverflowHelper.core
 
             URL_Add("redesigning", "https://en.wiktionary.org/wiki/redesign#Verb");
 
-            URL_Add("reorganise", "https://en.wiktionary.org/wiki/reorganise");
+            URL_Add("reorganise", "https://en.wiktionary.org/wiki/reorganise#Verb"); // Old: https://en.wiktionary.org/wiki/reorganise
 
             URL_Add("things", "https://en.wiktionary.org/wiki/thing#Noun");
 
@@ -47749,7 +47765,7 @@ namespace OverflowHelper.core
 
             URL_Add("broke", "https://en.wiktionary.org/wiki/broke#Verb");
 
-            URL_Add("cross-check", "https://en.wiktionary.org/wiki/cross-check");
+            URL_Add("cross-check", "https://en.wiktionary.org/wiki/cross-check#Verb"); // Old: https://en.wiktionary.org/wiki/cross-check
 
             URL_Add("indices", "https://en.wiktionary.org/wiki/indices#Noun");
 
@@ -47911,8 +47927,6 @@ namespace OverflowHelper.core
 
             URL_Add("time period", "https://en.wiktionary.org/wiki/time_period#Noun");
 
-            URL_Add("would’ve", "https://en.wiktionary.org/wiki/would%27ve#Contraction");
-
             URL_Add("PicoScope", "https://www.picotech.com/products/oscilloscope");
 
             URL_Add("Rick Astley", "https://en.wikipedia.org/wiki/Rick_Astley");
@@ -48022,8 +48036,6 @@ namespace OverflowHelper.core
             URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
 
             URL_Add("machine", "https://en.wiktionary.org/wiki/machine#Noun");
-
-            URL_Add("occurs", "https://en.wiktionary.org/wiki/occur#Verb");
 
             URL_Add("oscillate", "https://en.wiktionary.org/wiki/oscillate#Verb");
 
@@ -48301,7 +48313,7 @@ namespace OverflowHelper.core
 
             URL_Add("enthusiast", "https://en.wiktionary.org/wiki/enthusiast#Noun");
 
-            URL_Add("in-depth", "https://en.wiktionary.org/wiki/in-depth");
+            URL_Add("in-depth", "https://en.wiktionary.org/wiki/in-depth#Adjective"); // Old: https://en.wiktionary.org/wiki/in-depth
 
             URL_Add("rules", "https://en.wiktionary.org/wiki/rule#Noun");
 
@@ -48701,7 +48713,7 @@ namespace OverflowHelper.core
 
             URL_Add("light year", "https://en.wiktionary.org/wiki/light_year#Noun");
 
-            URL_Add("long-running", "https://en.wiktionary.org/wiki/long-running");
+            URL_Add("long-running", "https://en.wiktionary.org/wiki/long-running#Adjective"); // Old: https://en.wiktionary.org/wiki/long-running
 
             URL_Add("specified", "https://en.wiktionary.org/wiki/specified#Adjective");
 
@@ -48789,7 +48801,7 @@ namespace OverflowHelper.core
 
             URL_Add("certified", "https://en.wiktionary.org/wiki/certify#Verb");
 
-            URL_Add("double-quoted", "https://en.wiktionary.org/wiki/double-quoted");
+            URL_Add("double-quoted", "https://en.wiktionary.org/wiki/double-quoted#Verb"); // Old: https://en.wiktionary.org/wiki/double-quoted
 
             URL_Add("entries", "https://en.wiktionary.org/wiki/entry#Noun");
 
@@ -48849,7 +48861,7 @@ namespace OverflowHelper.core
 
             URL_Add("self-created", "https://www.merriam-webster.com/dictionary/self-created");
 
-            URL_Add("sterilised", "https://en.wiktionary.org/wiki/sterilise#English");
+            URL_Add("sterilised", "https://en.wiktionary.org/wiki/sterilise#Verb"); // Old: https://en.wiktionary.org/wiki/sterilise#English
 
             URL_Add("worldwide", "https://en.wiktionary.org/wiki/worldwide#Adjective");
 
@@ -48957,7 +48969,7 @@ namespace OverflowHelper.core
 
             URL_Add("inherits", "https://en.wiktionary.org/wiki/inherit#Verb");
 
-            URL_Add("pentesting", "https://en.wiktionary.org/wiki/pentesting");
+            URL_Add("pentesting", "https://en.wiktionary.org/wiki/pentesting#Noun"); // Old: https://en.wiktionary.org/wiki/pentesting
 
             URL_Add("CircuiTikZ", "https://en.wikipedia.org/wiki/CircuiTikZ");
 
@@ -49093,7 +49105,7 @@ namespace OverflowHelper.core
 
             URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
 
-            URL_Add("year-to-date", "https://en.wiktionary.org/wiki/year-to-date#English");
+            URL_Add("year-to-date", "https://en.wiktionary.org/wiki/year-to-date#Adjective"); // Old: https://en.wiktionary.org/wiki/year-to-date#English
 
             URL_Add("agreement", "https://en.wiktionary.org/wiki/agreement#Noun");
 
@@ -49357,7 +49369,7 @@ namespace OverflowHelper.core
 
             URL_Add("misspent", "https://en.wiktionary.org/wiki/misspend#Verb");
 
-            URL_Add("nonprogramming", "https://en.wiktionary.org/wiki/nonprogramming");
+            URL_Add("nonprogramming", "https://en.wiktionary.org/wiki/nonprogramming#Adjective"); // Old: https://en.wiktionary.org/wiki/nonprogramming
 
             URL_Add("prolonged", "https://en.wiktionary.org/wiki/prolonged#Adjective");
 
@@ -49395,7 +49407,7 @@ namespace OverflowHelper.core
 
             URL_Add("edited", "https://en.wiktionary.org/wiki/edit#Verb");
 
-            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message");
+            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message#Noun"); // Old: https://en.wiktionary.org/wiki/error_message
 
             URL_Add("get the memo", "https://www.youtube.com/watch?v=g0L-ry0jn6I");
 
@@ -49428,10 +49440,6 @@ namespace OverflowHelper.core
             URL_Add("infrastructure", "https://en.wiktionary.org/wiki/infrastructure#Noun");
 
             URL_Add("law", "https://en.wiktionary.org/wiki/law#Noun");
-
-            URL_Add("referrer", "https://en.wiktionary.org/wiki/referrer#Noun");
-
-            URL_Add("referrers", "https://en.wiktionary.org/wiki/referrer#Noun");
 
             URL_Add("time-consuming", "https://en.wiktionary.org/wiki/time-consuming#Adjective");
 
@@ -49485,8 +49493,6 @@ namespace OverflowHelper.core
 
             URL_Add("reassure", "https://en.wiktionary.org/wiki/reassure#Verb");
 
-            URL_Add("refer", "https://en.wiktionary.org/wiki/refer#Verb");
-
             URL_Add("replies", "https://en.wiktionary.org/wiki/reply#Noun");
 
             URL_Add("team player", "https://en.wiktionary.org/wiki/team_player#Noun");
@@ -49513,7 +49519,7 @@ namespace OverflowHelper.core
 
             URL_Add("illusion", "https://en.wiktionary.org/wiki/illusion#Noun");
 
-            URL_Add("industrial-strength", "https://en.wiktionary.org/wiki/industrial-strength");
+            URL_Add("industrial-strength", "https://en.wiktionary.org/wiki/industrial-strength#Adjective"); // Old: https://en.wiktionary.org/wiki/industrial-strength
 
             URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
 
@@ -49589,7 +49595,7 @@ namespace OverflowHelper.core
 
             URL_Add("reorder", "https://en.wiktionary.org/wiki/reorder#Verb");
 
-            URL_Add("skimmable", "https://en.wiktionary.org/wiki/skimmable");
+            URL_Add("skimmable", "https://en.wiktionary.org/wiki/skimmable#Adjective"); // Old: https://en.wiktionary.org/wiki/skimmable
 
             URL_Add("software developer", "https://simple.wikipedia.org/wiki/Software_developer");
 
@@ -49682,8 +49688,6 @@ namespace OverflowHelper.core
             URL_Add("Xperia", "https://en.wikipedia.org/wiki/Sony_Xperia");
 
             URL_Add("based", "https://en.wiktionary.org/wiki/based#Adjective_2");
-
-            URL_Add("benefited", "https://en.wiktionary.org/wiki/benefit#Verb");
 
             URL_Add("big", "https://en.wiktionary.org/wiki/big#Adjective");
 
@@ -49949,7 +49953,7 @@ namespace OverflowHelper.core
 
             URL_Add("cosmetology", "https://en.wikipedia.org/wiki/Cosmetology");
 
-            URL_Add("cutting-edge", "https://en.wiktionary.org/wiki/cutting-edge");
+            URL_Add("cutting-edge", "https://en.wiktionary.org/wiki/cutting-edge#Adjective"); // Old: https://en.wiktionary.org/wiki/cutting-edge
 
             URL_Add("device", "https://en.wiktionary.org/wiki/device#Noun");
 
@@ -50136,8 +50140,6 @@ namespace OverflowHelper.core
             URL_Add("PostgresOpen", "https://2019.postgresopen.org/about/");
 
             URL_Add("Yup", "https://github.com/jquense/yup");
-
-            URL_Add("benefit of the doubt", "https://en.wiktionary.org/wiki/benefit_of_the_doubt#Noun");
 
             URL_Add("HTML&nbsp;4", "https://en.wikipedia.org/wiki/HTML#HTML_4");
 
@@ -50551,7 +50553,7 @@ namespace OverflowHelper.core
 
             URL_Add("downloading", "https://en.wiktionary.org/wiki/download#Verb");
 
-            URL_Add("economics", "https://en.wiktionary.org/wiki/economics#English");
+            URL_Add("economics", "https://en.wiktionary.org/wiki/economics#Noun"); // Old: https://en.wiktionary.org/wiki/economics#English
 
             URL_Add("non-blocking I/O", "https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)");
 
@@ -50875,8 +50877,6 @@ namespace OverflowHelper.core
 
             URL_Add("byte", "https://en.wikipedia.org/wiki/Byte");
 
-            URL_Add("downvoter", "https://en.wiktionary.org/wiki/downvoter#Noun");
-
             URL_Add("equalling", "https://en.wiktionary.org/wiki/equal#Verb");
 
             URL_Add("feature set", "https://www.pcmag.com/encyclopedia/term/feature-set");
@@ -51101,7 +51101,7 @@ namespace OverflowHelper.core
 
             URL_Add("maintainer", "https://en.wiktionary.org/wiki/maintainer#Noun");
 
-            URL_Add("nonblocking", "https://en.wiktionary.org/wiki/nonblocking");
+            URL_Add("nonblocking", "https://en.wiktionary.org/wiki/nonblocking#Adjective"); // Old: https://en.wiktionary.org/wiki/nonblocking
 
             URL_Add("objective", "https://en.wiktionary.org/wiki/objective#Noun");
 
@@ -51447,7 +51447,7 @@ namespace OverflowHelper.core
 
             URL_Add("Spaniard", "https://en.wiktionary.org/wiki/Spaniard#Noun");
 
-            URL_Add("blueshifted", "https://en.wiktionary.org/wiki/blueshifted");
+            URL_Add("blueshifted", "https://en.wiktionary.org/wiki/blueshifted#Adjective"); // Old: https://en.wiktionary.org/wiki/blueshifted
 
             URL_Add("computational biology", "https://en.wikipedia.org/wiki/Computational_biology");
 
@@ -51555,7 +51555,7 @@ namespace OverflowHelper.core
 
             URL_Add("parse_ini_file", "https://www.php.net/manual/en/function.parse-ini-file.php");
 
-            URL_Add("tapping", "https://en.wiktionary.org/wiki/tap#Verb");
+            URL_Add("tapping", "https://en.wiktionary.org/wiki/tap#Verb_2"); // Old: https://en.wiktionary.org/wiki/tap#Verb
 
             URL_Add("Noether's theorem", "https://en.wikipedia.org/wiki/Noether's_theorem");
 
