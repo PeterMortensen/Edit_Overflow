@@ -343,6 +343,8 @@ namespace OverflowHelper.core
             correctionAdd("Microsoft Windows", "Windows");
             correctionAdd("Wondows", "Windows");
             correctionAdd("MS WINDOWS", "Windows");
+            correctionAdd("windowd", "Windows");
+            correctionAdd("Windowd", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -3267,6 +3269,7 @@ namespace OverflowHelper.core
             correctionAdd("Separete", "separate");
             correctionAdd("Separate", "separate");
             correctionAdd("Seperate", "separate");
+            correctionAdd("seaparate", "separate");
 
             correctionAdd("seperation", "separation");
             correctionAdd("speraration", "separation");
@@ -4053,6 +4056,7 @@ namespace OverflowHelper.core
 
             correctionAdd("reenable", "re-enable");
             correctionAdd("ReEnable", "re-enable");
+            correctionAdd("Re-enable", "re-enable");
 
             correctionAdd("associatable", "associable");
 
@@ -4487,6 +4491,8 @@ namespace OverflowHelper.core
             correctionAdd("pass", "password");
             correctionAdd("passw", "password");
             correctionAdd("pass word", "password");
+            correctionAdd("passwork", "password");
+            correctionAdd("Password", "password");
 
             correctionAdd("phonegap", "PhoneGap");
             correctionAdd("Phonegap", "PhoneGap");
@@ -5514,6 +5520,7 @@ namespace OverflowHelper.core
             correctionAdd("symlinked", "symbolic link"); // Not 100% correct - verbified.
             correctionAdd("Symbolic Link", "symbolic link");
             correctionAdd("Symbolic link", "symbolic link");
+            correctionAdd("symoblic link", "symbolic link");
 
             correctionAdd("adt", "ADT");
 
@@ -7787,6 +7794,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -7828,6 +7836,10 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
@@ -8217,6 +8229,7 @@ namespace OverflowHelper.core
             correctionAdd("meesage", "message");
             correctionAdd("messsage", "message");
             correctionAdd("Message", "message");
+            correctionAdd("mesaage", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -10247,6 +10260,7 @@ namespace OverflowHelper.core
             correctionAdd("sould", "should");
             correctionAdd("Shoud", "should");
             correctionAdd("Should", "should");
+            correctionAdd("shoul", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -11373,6 +11387,7 @@ namespace OverflowHelper.core
             correctionAdd("recommondation", "recommendation");
             correctionAdd("rec", "recommendation");
             correctionAdd("reccommendation", "recommendation");
+            correctionAdd("recomondation", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -12074,6 +12089,7 @@ namespace OverflowHelper.core
             correctionAdd("ltspice", "LTspice");
             correctionAdd("LTSpice", "LTspice");
             correctionAdd("LTSPICE", "LTspice");
+            correctionAdd("LtSpice", "LTspice");
 
             correctionAdd("Nato", "NATO");
             correctionAdd("nato", "NATO");
@@ -12108,6 +12124,7 @@ namespace OverflowHelper.core
             correctionAdd("permision", "permission");
 
             correctionAdd("personnal", "personal");
+            correctionAdd("personall", "personal");
 
             correctionAdd("probaly", "probably");
             correctionAdd("Problably", "probably");
@@ -12606,6 +12623,7 @@ namespace OverflowHelper.core
             correctionAdd("PAT", "personal access token");
             correctionAdd("P.A.T", "personal access token");
             correctionAdd("Personal Access token", "personal access token");
+            correctionAdd("personall access token", "personal access token");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -14868,6 +14886,7 @@ namespace OverflowHelper.core
             correctionAdd("somtings", "something");
             correctionAdd("somethings", "something");
             correctionAdd("Smt", "something");
+            correctionAdd("somthign", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -15891,6 +15910,7 @@ namespace OverflowHelper.core
             correctionAdd("nut shell", "nutshell");
 
             correctionAdd("user name", "username");
+            correctionAdd("UserName", "username");
 
             correctionAdd("zune", "Zune");
 
@@ -23366,6 +23386,7 @@ namespace OverflowHelper.core
             correctionAdd("coffeebreak", "coffee break");
 
             correctionAdd("DCT", "discrete cosine transform");
+            correctionAdd("dct", "discrete cosine transform");
 
             correctionAdd("First Things First", "first things first");
             correctionAdd("first thing first", "first things first");
@@ -25577,6 +25598,7 @@ namespace OverflowHelper.core
             correctionAdd("tomorow", "tomorrow");
             correctionAdd("tommorow", "tomorrow");
             correctionAdd("tommrow", "tomorrow");
+            correctionAdd("tomrrow", "tomorrow");
 
             correctionAdd("WDYT", "what do you think");
 
@@ -26074,6 +26096,8 @@ namespace OverflowHelper.core
             correctionAdd("odysee", "Odysee");
             correctionAdd("Odyssey", "Odysee");
             correctionAdd("odyssey", "Odysee");
+            correctionAdd("odesee", "Odysee");
+            correctionAdd("Odesee", "Odysee");
 
             correctionAdd("qmk", "QMK");
 
@@ -31048,6 +31072,10 @@ namespace OverflowHelper.core
 
             correctionAdd("moment.js", "Moment.js");
             correctionAdd("Momentjs", "Moment.js");
+            correctionAdd("MomentJs", "Moment.js");
+            correctionAdd("MomentJS", "Moment.js");
+            correctionAdd("Moment", "Moment.js");
+            correctionAdd("momentjs", "Moment.js");
 
             correctionAdd("Strapi CMS", "Strapi");
 
@@ -31509,6 +31537,7 @@ namespace OverflowHelper.core
             correctionAdd("purposfully", "purposefully");
 
             correctionAdd("sybolic", "symbolic");
+            correctionAdd("symoblic", "symbolic"); // True typo
 
             correctionAdd("techologies", "technologies");
 
@@ -32495,6 +32524,8 @@ namespace OverflowHelper.core
 
             correctionAdd("CoPilot", "GitHub Copilot");
             correctionAdd("Github Copilot", "GitHub Copilot");
+            correctionAdd("co-pilot", "GitHub Copilot");
+            correctionAdd("copilot", "GitHub Copilot");
 
             correctionAdd("mbed", "Mbed");
 
@@ -32792,6 +32823,8 @@ namespace OverflowHelper.core
             correctionAdd("At the time of writing", "at the time of writing");
             correctionAdd("As of writing", "at the time of writing");
             correctionAdd("as of writing", "at the time of writing");
+            correctionAdd("At time of writing", "at the time of writing");
+            correctionAdd("at time of writing", "at the time of writing");
 
             correctionAdd("Comparator", "comparator");
 
@@ -33029,6 +33062,60 @@ namespace OverflowHelper.core
 
             correctionAdd("selfdiscipline", "self-discipline");
             correctionAdd("self discipline", "self-discipline");
+
+            correctionAdd("Baltics", "Baltic states");
+            correctionAdd("Baltic countries", "Baltic states");
+            correctionAdd("Baltic nations", "Baltic states");
+            correctionAdd("Baltic republics", "Baltic states");
+            correctionAdd("Baltic lands", "Baltic states");
+
+            correctionAdd("Bayes–Price theorem", "Bayes' theorem");
+            correctionAdd("bayes theorem", "Bayes' theorem");
+            correctionAdd("Bayes' law", "Bayes' theorem");
+            correctionAdd("Bayes' rule", "Bayes' theorem");
+
+            correctionAdd("blue origin", "Blue Origin");
+
+            correctionAdd("ChromeBook", "Chromebook");
+
+            correctionAdd("citrix", "Citrix");
+
+            correctionAdd("Konky", "Conky");
+            correctionAdd("conky", "Conky");
+            correctionAdd("konky", "Conky");
+
+            correctionAdd("Moore-Penrose inverse", "Moore–Penrose inverse");
+            correctionAdd("Moore-Penrose pseudoinverse", "Moore–Penrose inverse");
+
+            correctionAdd("Ridge Regression", "Ridge regression");
+
+            correctionAdd("Ruby Mine", "RubyMine");
+
+            correctionAdd("stack snippets", "Stack Snippets");
+
+            correctionAdd("functionning", "functioning");
+
+            correctionAdd("Has", "has");
+
+            correctionAdd("lit", "literature");
+
+            correctionAdd("Tumbleweed", "openSUSE Tumbleweed");
+
+            correctionAdd("PCA", "principal component analysis");
+            correctionAdd("Principal Component Analysis", "principal component analysis");
+
+            correctionAdd("publickey", "public key");
+
+            correctionAdd("secruity", "security");
+            correctionAdd("scruity", "security");
+
+            correctionAdd("settigns", "settings");
+
+            correctionAdd("svd", "singular value decomposition");
+            correctionAdd("Singular Value Decomposition", "singular value decomposition");
+            correctionAdd("SVD", "singular value decomposition");
+
+            correctionAdd("un-assign", "unassign");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -51938,6 +52025,46 @@ namespace OverflowHelper.core
             URL_Add("hubris", "https://en.wiktionary.org/wiki/hubris#Noun");
 
             URL_Add("self-discipline", "https://en.wiktionary.org/wiki/self-discipline#Noun");
+
+            URL_Add("Baltic states", "https://en.wikipedia.org/wiki/Baltic_states");
+
+            URL_Add("Bayes' theorem", "https://en.wikipedia.org/wiki/Bayes'_theorem");
+
+            URL_Add("Blue Origin", "https://en.wikipedia.org/wiki/Blue_Origin");
+
+            URL_Add("Chromebook", "https://en.wikipedia.org/wiki/Chromebook");
+
+            URL_Add("Citrix", "https://en.wikipedia.org/wiki/Citrix_Systems#Products");
+
+            URL_Add("Conky", "https://en.wikipedia.org/wiki/Conky_%28software%29");
+
+            URL_Add("Moore–Penrose inverse", "https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse");
+
+            URL_Add("Ridge regression", "https://en.wikipedia.org/wiki/Ridge_regression");
+
+            URL_Add("RubyMine", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
+
+            URL_Add("Stack Snippets", "https://meta.stackoverflow.com/tags/stack-snippets/info");
+
+            URL_Add("functioning", "https://en.wiktionary.org/wiki/functioning#Adjective");
+
+            URL_Add("has", "https://en.wiktionary.org/wiki/has#Verb");
+
+            URL_Add("literature", "https://en.wiktionary.org/wiki/literature#Noun");
+
+            URL_Add("openSUSE Tumbleweed", "https://en.wikipedia.org/wiki/OpenSUSE#openSUSE_Tumbleweed");
+
+            URL_Add("principal component analysis", "https://en.wikipedia.org/wiki/Principal_component_analysis");
+
+            URL_Add("public key", "https://en.wikipedia.org/wiki/Public-key_cryptography");
+
+            URL_Add("security", "https://en.wiktionary.org/wiki/security#Noun");
+
+            URL_Add("settings", "https://en.wiktionary.org/wiki/setting#Noun");
+
+            URL_Add("singular value decomposition", "https://en.wikipedia.org/wiki/Singular_value_decomposition");
+
+            URL_Add("unassign", "https://en.wiktionary.org/wiki/unassign#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
