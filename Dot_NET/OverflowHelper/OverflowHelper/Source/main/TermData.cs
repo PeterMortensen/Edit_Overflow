@@ -5975,6 +5975,13 @@ namespace OverflowHelper.core
             correctionAdd("winmerge", "WinMerge");
             correctionAdd("Winmerge", "WinMerge");
 
+            correctionAdd("filemerge", "FileMerge");
+
+            correctionAdd("p4merge", "P4Merge");
+
+            correctionAdd("merg", "merge");
+            correctionAdd("Merg", "merge");
+
             correctionAdd("imgur", "Imgur");
             correctionAdd("imugar", "Imgur");
             correctionAdd("imgar", "Imgur");
@@ -9140,6 +9147,11 @@ namespace OverflowHelper.core
             correctionAdd("Single-Page Application", "single-page application");
             correctionAdd("single page app", "single-page application");
             correctionAdd("Single Page Application", "single-page application");
+            correctionAdd("Single Page App", "single-page application");
+            correctionAdd("single-page applications", "single-page application");
+            correctionAdd("Single Page Apps", "single-page application");
+            correctionAdd("single page apps", "single-page application");
+            correctionAdd("single-page apps", "single-page application");
 
             correctionAdd("f-15", "F-15");
             correctionAdd("f15", "F-15");
@@ -16211,6 +16223,7 @@ namespace OverflowHelper.core
             correctionAdd("gitlab-ci", "GitLab CI");
             correctionAdd("Gitlab ci", "GitLab CI");
             correctionAdd("gitlab-ce", "GitLab CI");
+            correctionAdd("gitlab CI", "GitLab CI");
 
             correctionAdd("Jit", "JIT");
             correctionAdd("jit", "JIT");
@@ -18574,6 +18587,7 @@ namespace OverflowHelper.core
 
             correctionAdd("brach", "branch");
             correctionAdd("Brach", "branch");
+            correctionAdd("Branch", "branch");
 
             correctionAdd("remotly", "remotely");
 
@@ -24924,6 +24938,7 @@ namespace OverflowHelper.core
             correctionAdd("Anotehr", "another");
             correctionAdd("anotehr", "another");
             correctionAdd("anthoer", "another");
+            correctionAdd("antoher", "another");
 
             correctionAdd("a/o", "and other");
 
@@ -29399,8 +29414,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pikc", "pick");
 
-            correctionAdd("filemerge", "FileMerge");
-
             correctionAdd("kompare", "Kompare");
 
             correctionAdd("meld", "Meld");
@@ -31439,8 +31452,6 @@ namespace OverflowHelper.core
 
             correctionAdd("louisiana", "Louisiana");
 
-            correctionAdd("p4merge", "P4Merge");
-
             correctionAdd("WV", "West Virginia");
 
             correctionAdd("change directory", "cd");
@@ -33116,6 +33127,18 @@ namespace OverflowHelper.core
             correctionAdd("SVD", "singular value decomposition");
 
             correctionAdd("un-assign", "unassign");
+
+            correctionAdd("crowdflower", "CrowdFlower");
+
+            correctionAdd("jeopardy", "Jeopardy");
+
+            correctionAdd("pybossa", "Pybossa");
+
+            correctionAdd("toloka", "Toloka");
+
+            correctionAdd("cathegorization", "categorization");
+
+            correctionAdd("Crowdsourcing", "crowdsourcing");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52065,6 +52088,20 @@ namespace OverflowHelper.core
             URL_Add("singular value decomposition", "https://en.wikipedia.org/wiki/Singular_value_decomposition");
 
             URL_Add("unassign", "https://en.wiktionary.org/wiki/unassign#Verb");
+
+            URL_Add("CrowdFlower", "https://stackoverflow.com/questions/tagged/crowdflower");
+
+            URL_Add("Jeopardy", "https://en.wikipedia.org/wiki/Jeopardy!");
+
+            URL_Add("Pybossa", "https://stackoverflow.com/questions/tagged/pybossa");
+
+            URL_Add("Toloka", "https://stackoverflow.com/questions/tagged/toloka");
+
+            URL_Add("categorization", "https://en.wiktionary.org/wiki/categorization#Noun");
+
+            URL_Add("crowdsourcing", "https://en.wiktionary.org/wiki/crowdsourcing#Noun");
+
+            URL_Add("merge", "https://en.wiktionary.org/wiki/merge#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
