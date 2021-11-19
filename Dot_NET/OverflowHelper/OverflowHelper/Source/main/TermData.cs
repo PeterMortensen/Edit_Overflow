@@ -2561,6 +2561,7 @@ namespace OverflowHelper.core
             correctionAdd("regulare expression", "regular expression");
             correctionAdd("reg-ex", "regular expression");
             correctionAdd("REGEXP", "regular expression");
+            correctionAdd("Regular-Expression", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -5721,6 +5722,7 @@ namespace OverflowHelper.core
 
             correctionAdd("benifit", "benefit");
             correctionAdd("benift", "benefit");
+            correctionAdd("benfit", "benefit");
 
             correctionAdd("TestDriven.Net", "TestDriven.NET");
             correctionAdd("TD.NET", "TestDriven.NET");
@@ -14625,6 +14627,7 @@ namespace OverflowHelper.core
             correctionAdd("spase", "space");
             correctionAdd("scpace", "space");
             correctionAdd("Space", "space");
+            correctionAdd("sapce", "space"); // A true typo
 
             correctionAdd("Achiles Heel", "Achilles heel");
 
@@ -27621,6 +27624,7 @@ namespace OverflowHelper.core
             correctionAdd("raptillian", "reptilian");
 
             correctionAdd("roll-back", "roll back");
+            correctionAdd("rollback", "roll back");
 
             correctionAdd("Dunning kruger effekt", "Dunning–Kruger effect");
 
@@ -32041,6 +32045,8 @@ namespace OverflowHelper.core
             correctionAdd("domainname", "domain name");
 
             correctionAdd("HPC", "high-performance computing");
+            correctionAdd("high performance compute", "high-performance computing");
+            correctionAdd("High Performance Compute", "high-performance computing");
 
             correctionAdd("List Comprehension", "list comprehension");
             correctionAdd("List comprehension", "list comprehension");
@@ -32352,6 +32358,7 @@ namespace OverflowHelper.core
             correctionAdd("compose", "Jetpack Compose");
 
             correctionAdd("a couple", "a couple of");
+            correctionAdd("A couple of", "a couple of");
 
             correctionAdd("attennuator", "attenuator");
 
@@ -33139,6 +33146,16 @@ namespace OverflowHelper.core
             correctionAdd("cathegorization", "categorization");
 
             correctionAdd("Crowdsourcing", "crowdsourcing");
+
+            correctionAdd("gedcom", "GEDCOM");
+
+            correctionAdd("powergrep", "PowerGREP");
+
+            correctionAdd("w2web", "W2web");
+
+            correctionAdd("wien2k", "WIEN2k");
+
+            correctionAdd("intion", "intention");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52102,6 +52119,16 @@ namespace OverflowHelper.core
             URL_Add("crowdsourcing", "https://en.wiktionary.org/wiki/crowdsourcing#Noun");
 
             URL_Add("merge", "https://en.wiktionary.org/wiki/merge#Verb");
+
+            URL_Add("GEDCOM", "https://en.wikipedia.org/wiki/GEDCOM");
+
+            URL_Add("PowerGREP", "https://www.powergrep.com/");
+
+            URL_Add("W2web", "https://en.wikipedia.org/wiki/WIEN2k");
+
+            URL_Add("WIEN2k", "https://en.wikipedia.org/wiki/WIEN2k");
+
+            URL_Add("intention", "https://en.wiktionary.org/wiki/intention#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
