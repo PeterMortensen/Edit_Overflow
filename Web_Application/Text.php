@@ -755,6 +755,12 @@
                 '   ',
                 5);
 
+            #Future: Experiment with getting modifier "/s" to work. But
+            #        we would have to modify file 
+            #        StringReplacerWithRegex.php as it is outside 
+            #        the "//" pair.
+
+
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
             #For debugging
