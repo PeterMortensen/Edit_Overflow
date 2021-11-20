@@ -3609,6 +3609,7 @@ namespace OverflowHelper.core
             correctionAdd("repertory", "repository");
             correctionAdd("reposiory", "repository");
             correctionAdd("REPO", "repository");
+            correctionAdd("reposiotry", "repository");
 
             correctionAdd("wmd", "WMD");
 
@@ -3825,6 +3826,7 @@ namespace OverflowHelper.core
             correctionAdd("Https", "HTTPS");
             correctionAdd("httpS", "HTTPS");
             correctionAdd("htttps", "HTTPS");
+            correctionAdd("HTTPs", "HTTPS");
 
             correctionAdd("jsonp", "JSONP");
             correctionAdd("JSON-P", "JSONP");
@@ -4467,6 +4469,7 @@ namespace OverflowHelper.core
             correctionAdd("Micro$**t", "Microsoft");
             correctionAdd("Micorosft", "Microsoft");
             correctionAdd("Microosft", "Microsoft");
+            correctionAdd("micro$\\**t", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -6568,6 +6571,7 @@ namespace OverflowHelper.core
             correctionAdd("fat 16", "FAT16");
 
             correctionAdd("rfc", "RFC");
+            correctionAdd("Request for Comments", "RFC");
 
             correctionAdd("winRt", "WinRT");
 
@@ -8177,6 +8181,22 @@ namespace OverflowHelper.core
             correctionAdd("google IO", "Google I/O");
             correctionAdd("Google io", "Google I/O");
             correctionAdd("Google IO", "Google I/O");
+
+            correctionAdd("IO", "I/O");
+            correctionAdd("io", "I/O");
+            correctionAdd("i/o", "I/O");
+            correctionAdd("i / o", "I/O");
+            correctionAdd("I/o", "I/O");
+            correctionAdd("I\\O", "I/O"); // Backslash... How will the rest
+                                          // of system handle this? Generated
+                                          // SQL for MySQL needs to be escaped:
+                                          //
+                                          //    INSERT INTO EditOverflow
+                                          //    (incorrectTerm, correctTerm, URL)
+                                          //    VALUES('I\\O', 'I/O', 'https://en.wikipedia.org/wiki/Input/output');
+
+            correctionAdd("NIO", "non-blocking I/O");
+            correctionAdd("nio", "non-blocking I/O");
 
             correctionAdd("BrainFuck", "Brainfuck");
             correctionAdd("BRAINFUCK", "Brainfuck");
@@ -11788,6 +11808,7 @@ namespace OverflowHelper.core
             correctionAdd("Intead", "instead");
             correctionAdd("in state", "instead");
             correctionAdd("instand", "instead");
+            correctionAdd("instaed", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -14937,6 +14958,7 @@ namespace OverflowHelper.core
 
             correctionAdd("seam", "seem");
             correctionAdd("seep", "seem");
+            correctionAdd("seemt", "seem");
 
             correctionAdd("powerpc", "PowerPC");
             correctionAdd("power-pc", "PowerPC");
@@ -15285,6 +15307,8 @@ namespace OverflowHelper.core
 
             correctionAdd("easyest", "easiest");
             correctionAdd("easist", "easiest");
+            correctionAdd("esasiest", "easiest");
+            correctionAdd("esiest", "easiest");
 
             correctionAdd("exept", "except");
             correctionAdd("cept", "except");
@@ -15667,19 +15691,6 @@ namespace OverflowHelper.core
             correctionAdd("unsuported", "unsupported");
 
             correctionAdd("vocabolary", "vocabulary");
-
-            correctionAdd("IO", "I/O");
-            correctionAdd("io", "I/O");
-            correctionAdd("i/o", "I/O");
-            correctionAdd("i / o", "I/O");
-            correctionAdd("I/o", "I/O");
-            correctionAdd(@"I\O", "I/O"); // Backslash... How will the rest
-                                          // of system handle this? Generated
-                                          // SQL for MySQL needs to be escaped:
-                                          //
-                                          //    INSERT INTO EditOverflow
-                                          //    (incorrectTerm, correctTerm, URL)
-                                          //    VALUES('I\\O', 'I/O', 'https://en.wikipedia.org/wiki/Input/output');
 
             correctionAdd("ATMEGA32", "ATmega32");
             correctionAdd("ATMEGA 32", "ATmega32");
@@ -19058,6 +19069,7 @@ namespace OverflowHelper.core
             correctionAdd("platorm", "platform");
             correctionAdd("Platform", "platform");
             correctionAdd("Plattform", "platform");
+            correctionAdd("plateform", "platform");
 
             correctionAdd("plattforms", "platforms");
             correctionAdd("Plattforms", "platforms");
@@ -23111,6 +23123,10 @@ namespace OverflowHelper.core
             correctionAdd("languaje", "language");
             correctionAdd("languange", "language");
             correctionAdd("languge", "language");
+            correctionAdd("languates", "language");
+            correctionAdd("languaes", "language");
+            correctionAdd("languages", "language");
+            correctionAdd("languae", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -31393,9 +31409,6 @@ namespace OverflowHelper.core
 
             correctionAdd("econ", "economics");
 
-            correctionAdd("NIO", "non-blocking I/O");
-            correctionAdd("nio", "non-blocking I/O");
-
             correctionAdd("old fashioned", "old-fashioned");
 
             correctionAdd("timeout", "time-out");
@@ -33156,6 +33169,34 @@ namespace OverflowHelper.core
             correctionAdd("wien2k", "WIEN2k");
 
             correctionAdd("intion", "intention");
+
+            correctionAdd("--Wshadow", "-Wshadow");
+
+            correctionAdd("FORTRAN 77", "Fortran 77");
+            correctionAdd("Fortran-77", "Fortran 77");
+
+            correctionAdd("Fortune 50", "Fortune 500");
+
+            correctionAdd("MCMC", "Markov chain Monte Carlo");
+
+            correctionAdd("Poisson Distribution", "Poisson distribution");
+
+            correctionAdd("VSO", "Visual Studio Online");
+            correctionAdd("VS Online", "Visual Studio Online");
+
+            correctionAdd("your computer", "Your Computer");
+
+            correctionAdd("apalls", "appalls");
+
+            correctionAdd("Exponential Family", "exponential family");
+
+            correctionAdd("Gamma Distribution", "gamma distribution");
+
+            correctionAdd("Probability Distribution Function", "probability distribution function");
+
+            correctionAdd("solid state relay", "solid-state relay");
+
+            correctionAdd("Variational Bayes", "variational Bayes");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52129,6 +52170,32 @@ namespace OverflowHelper.core
             URL_Add("WIEN2k", "https://en.wikipedia.org/wiki/WIEN2k");
 
             URL_Add("intention", "https://en.wiktionary.org/wiki/intention#Noun");
+
+            URL_Add("-Wshadow", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow");
+
+            URL_Add("Fortran 77", "https://en.wikipedia.org/wiki/Fortran#FORTRAN_77");
+
+            URL_Add("Fortune 500", "https://en.wikipedia.org/wiki/Fortune_500");
+
+            URL_Add("Markov chain Monte Carlo", "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo");
+
+            URL_Add("Poisson distribution", "https://en.wikipedia.org/wiki/Poisson_distribution");
+
+            URL_Add("Visual Studio Online", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#On-premises_vs._online");
+
+            URL_Add("Your Computer", "https://en.wikipedia.org/wiki/Your_Computer_(British_magazine)");
+
+            URL_Add("appalls", "https://en.wiktionary.org/wiki/appall#Verb");
+
+            URL_Add("exponential family", "https://en.wikipedia.org/wiki/Exponential_family");
+
+            URL_Add("gamma distribution", "https://en.wikipedia.org/wiki/Gamma_distribution");
+
+            URL_Add("probability distribution function", "https://en.wikipedia.org/wiki/Probability_distribution_function");
+
+            URL_Add("solid-state relay", "https://en.wikipedia.org/wiki/Solid-state_relay");
+
+            URL_Add("variational Bayes", "https://en.wikipedia.org/wiki/Variational_Bayesian_methods");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
