@@ -3232,6 +3232,7 @@ namespace OverflowHelper.core
             correctionAdd("Dom", "DOM");
             correctionAdd("Document Object Model", "DOM");
             correctionAdd("document object model", "DOM");
+            correctionAdd("document object", "DOM");
 
             correctionAdd("latex", "LaTeX");
             correctionAdd("Latex", "LaTeX");
@@ -4016,6 +4017,7 @@ namespace OverflowHelper.core
             correctionAdd("environments vars", "environment variable");
             correctionAdd("environment vars", "environment variable");
             correctionAdd("environments var", "environment variable");
+            correctionAdd("env. var", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -7325,6 +7327,8 @@ namespace OverflowHelper.core
             correctionAdd("o/c", "of course");
             correctionAdd("oc", "of course");
             correctionAdd("Of-cause", "of course");
+            correctionAdd("offcrs", "of course");
+            correctionAdd("offcors", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -11312,6 +11316,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
 
             correctionAdd("vsts", "VSTS");
+            correctionAdd("Visual Studio Team Services", "VSTS");
+            correctionAdd("visual studio team services", "VSTS");
 
             correctionAdd("achive", "achieve");
             correctionAdd("acheive", "achieve");
@@ -16342,6 +16348,7 @@ namespace OverflowHelper.core
             correctionAdd("vaule", "value");
             correctionAdd("vlaue", "value");
             correctionAdd("valae", "value");
+            correctionAdd("Value", "value");
 
             correctionAdd("WHOAMI", "whoami");
 
@@ -17118,6 +17125,8 @@ namespace OverflowHelper.core
 
             correctionAdd("tic tac toe", "tic-tac-toe");
             correctionAdd("Tic Tac To", "tic-tac-toe");
+            correctionAdd("tictac toe", "tic-tac-toe");
+            correctionAdd("noughts and crosses", "tic-tac-toe");
 
             correctionAdd("traefik", "Træfik");
             correctionAdd("Traefik", "Træfik");
@@ -21996,6 +22005,8 @@ namespace OverflowHelper.core
             correctionAdd("on the other side", "on the other hand");
             correctionAdd("In the other side", "on the other hand");
             correctionAdd("in the other side", "on the other hand");
+            correctionAdd("In other hand", "on the other hand");
+            correctionAdd("in other hand", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -22017,6 +22028,8 @@ namespace OverflowHelper.core
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
             correctionAdd("comand", "command");
+            correctionAdd("Commande", "command");
+            correctionAdd("Command", "command");
 
             correctionAdd("thansand", "thousand");
             correctionAdd("tousind", "thousand");
@@ -23677,6 +23690,7 @@ namespace OverflowHelper.core
             correctionAdd("pandas", "Pandas");
             correctionAdd("padas", "Pandas");
             correctionAdd("Panda", "Pandas");
+            correctionAdd("panda", "Pandas");
 
             correctionAdd("where as", "whereas");
             correctionAdd("wheras", "whereas");
@@ -28203,6 +28217,7 @@ namespace OverflowHelper.core
             correctionAdd("Cheak", "check");
             correctionAdd("ceck", "check");
             correctionAdd("chek", "check");
+            correctionAdd("chack", "check");
 
             correctionAdd("clibatic", "clbuttic");
             correctionAdd("Clbuttic", "clbuttic");
@@ -28545,6 +28560,7 @@ namespace OverflowHelper.core
             correctionAdd("hardware recommendations", "Hardware Recommendations");
 
             correctionAdd("the painter", "Schlemiel the Painter's algorithm");
+            correctionAdd("Shlemiel the painter’s algorithm", "Schlemiel the Painter's algorithm");
 
             correctionAdd("factoral", "factorial");
             correctionAdd("Factorial", "factorial");
@@ -31622,6 +31638,7 @@ namespace OverflowHelper.core
             correctionAdd("Agriculture", "agriculture");
 
             correctionAdd("credentias", "credentials");
+            correctionAdd("credentails", "credentials");
 
             correctionAdd("erros", "errors");
 
@@ -33197,6 +33214,39 @@ namespace OverflowHelper.core
             correctionAdd("solid state relay", "solid-state relay");
 
             correctionAdd("Variational Bayes", "variational Bayes");
+
+            correctionAdd("eviews", "EViews");
+
+            correctionAdd("GNU Fortran", "GFortran");
+            correctionAdd("gfortran", "GFortran");
+            correctionAdd("Gfortran", "GFortran");
+
+            correctionAdd("github desktop", "GitHub Desktop");
+            correctionAdd("Git Desktop", "GitHub Desktop");
+
+            correctionAdd("mnist", "MNIST data set");
+            correctionAdd("mnist dataset", "MNIST data set");
+            correctionAdd("MNIST dataset", "MNIST data set");
+            correctionAdd("MNIST database", "MNIST data set");
+            correctionAdd("Mnist", "MNIST data set");
+
+            correctionAdd("openMP", "OpenMP");
+            correctionAdd("openmp", "OpenMP");
+
+            correctionAdd("spss", "SPSS");
+
+            correctionAdd("Schengen", "Schengen Area");
+
+            correctionAdd("W3C Validator", "W3C validator");
+
+            correctionAdd("Coaxial cable", "coax");
+            correctionAdd("co-ax", "coax");
+
+            correctionAdd("cross post", "crosspost");
+
+            correctionAdd("hepler", "helper");
+
+            correctionAdd("re-input", "reinput");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52196,6 +52246,30 @@ namespace OverflowHelper.core
             URL_Add("solid-state relay", "https://en.wikipedia.org/wiki/Solid-state_relay");
 
             URL_Add("variational Bayes", "https://en.wikipedia.org/wiki/Variational_Bayesian_methods");
+
+            URL_Add("EViews", "https://en.wikipedia.org/wiki/EViews");
+
+            URL_Add("GFortran", "https://en.wikipedia.org/wiki/GNU_Fortran");
+
+            URL_Add("GitHub Desktop", "https://desktop.github.com/");
+
+            URL_Add("MNIST data set", "https://en.wikipedia.org/wiki/MNIST_database");
+
+            URL_Add("OpenMP", "https://en.wikipedia.org/wiki/OpenMP");
+
+            URL_Add("SPSS", "https://en.wikipedia.org/wiki/SPSS");
+
+            URL_Add("Schengen Area", "https://en.wikipedia.org/wiki/Schengen_Area");
+
+            URL_Add("W3C validator", "https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service");
+
+            URL_Add("coax", "https://en.wikipedia.org/wiki/Coaxial_cable");
+
+            URL_Add("crosspost", "https://en.wiktionary.org/wiki/crosspost#Noun");
+
+            URL_Add("helper", "https://en.wiktionary.org/wiki/helper#Noun");
+
+            URL_Add("reinput", "https://en.wiktionary.org/wiki/reinput#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
