@@ -1361,6 +1361,7 @@ namespace OverflowHelper.core
             correctionAdd("Ado.Net", "ADO.NET");
             correctionAdd("ADO.Net", "ADO.NET");
             correctionAdd("ADO.net", "ADO.NET");
+            correctionAdd("ADO", "ADO.NET");
 
             correctionAdd("wpf", "WPF");
             correctionAdd("Wpf", "WPF");
@@ -4542,6 +4543,8 @@ namespace OverflowHelper.core
             correctionAdd("content delivery network", "CDN");
             correctionAdd("Content Delivery Network", "CDN");
             correctionAdd("Content delivery network", "CDN");
+            correctionAdd("CONTENT DISPLAY NETWORK", "CDN");
+            correctionAdd("content display network", "CDN");
 
             correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
@@ -9965,9 +9968,6 @@ namespace OverflowHelper.core
             correctionAdd("compactible", "compatible");
             correctionAdd("comptabilble", "compatible");
 
-            correctionAdd("throughly", "thoroughly");
-            correctionAdd("thorougly", "thoroughly");
-
             correctionAdd("z80", "Z80");
 
             correctionAdd("lipo", "lithium polymer");
@@ -10750,6 +10750,7 @@ namespace OverflowHelper.core
             correctionAdd("actualy", "actually");
             correctionAdd("Actualy", "actually");
             correctionAdd("acually", "actually");
+            correctionAdd("akshually", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -11693,6 +11694,7 @@ namespace OverflowHelper.core
             correctionAdd("complier", "compiler");
             correctionAdd("Compiler", "compiler");
             correctionAdd("compliler", "compiler");
+            correctionAdd("compilator", "compiler");
 
             correctionAdd("compter", "computer");
             correctionAdd("comp", "computer");
@@ -11949,6 +11951,8 @@ namespace OverflowHelper.core
             correctionAdd("Breifly", "briefly");
 
             correctionAdd("NPE", "null pointer exception");
+            correctionAdd("NullPointer Exception", "null pointer exception");
+            correctionAdd("nullpointer exception", "null pointer exception");
 
             correctionAdd("excetpion", "exception");
             correctionAdd("excepetion", "exception");
@@ -12665,6 +12669,8 @@ namespace OverflowHelper.core
             correctionAdd("P.A.T", "personal access token");
             correctionAdd("Personal Access token", "personal access token");
             correctionAdd("personall access token", "personal access token");
+            correctionAdd("Public Access Token", "personal access token");
+            correctionAdd("public access token", "personal access token");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -13124,6 +13130,7 @@ namespace OverflowHelper.core
             correctionAdd("catagory", "category");
             correctionAdd("catgeory", "category");
             correctionAdd("cathegory", "category");
+            correctionAdd("categorie", "category");
 
             correctionAdd("constitude", "constitute");
 
@@ -13561,7 +13568,11 @@ namespace OverflowHelper.core
 
             correctionAdd("re-written", "rewritten");
 
+            correctionAdd("throughly", "thoroughly");
+            correctionAdd("thorougly", "thoroughly");
+
             correctionAdd("roughy", "roughly");
+            correctionAdd("roughtly", "roughly");
 
             correctionAdd("scrol", "scroll");
             correctionAdd("schroll", "scroll");
@@ -15065,6 +15076,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cetian", "certain");
             correctionAdd("certian", "certain");
+            correctionAdd("cetain", "certain");
 
             correctionAdd("Collector", "collector");
 
@@ -15507,10 +15519,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Axion", "axion");
 
-            correctionAdd("Dark Energy", "dark energy");
-
-            correctionAdd("Dark Matter", "dark matter");
-
             correctionAdd("dilema", "dilemma");
 
             correctionAdd("espaced", "escape");
@@ -15695,6 +15703,7 @@ namespace OverflowHelper.core
 
             correctionAdd("un-supported", "unsupported");
             correctionAdd("unsuported", "unsupported");
+            correctionAdd("unspported", "unsupported");
 
             correctionAdd("vocabolary", "vocabulary");
 
@@ -20033,9 +20042,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tutch", "touch");
 
-            correctionAdd("BLM", "Black Lives Matter");
-            correctionAdd("blm", "Black Lives Matter");
-
             correctionAdd("eurowings", "Eurowings");
 
             correctionAdd("frsky", "FrSky");
@@ -20045,9 +20051,6 @@ namespace OverflowHelper.core
             correctionAdd("karen", "Karen");
 
             correctionAdd("lufthansa", "Lufthansa");
-
-            correctionAdd("plm", "Programmer Lives Matter"); // From a single TechLead video
-            correctionAdd("PLM", "Programmer Lives Matter");
 
             correctionAdd("eternal September", "Eternal September");
             correctionAdd("eternal september", "Eternal September");
@@ -21667,6 +21670,7 @@ namespace OverflowHelper.core
             correctionAdd("x-Axis", "x-axis");
             correctionAdd("x Axis", "x-axis");
             correctionAdd("xaxis", "x-axis");
+            correctionAdd("`x` axis", "x-axis");
 
             correctionAdd("Y axis", "y-axis");
             correctionAdd("Y-axis", "y-axis");
@@ -24264,6 +24268,7 @@ namespace OverflowHelper.core
             correctionAdd("jfet", "JFET");
 
             correctionAdd("netherlands", "Netherlands");
+            correctionAdd("the Netherlands", "Netherlands");
 
             correctionAdd("ted turner", "Ted Turner");
 
@@ -24272,8 +24277,6 @@ namespace OverflowHelper.core
             correctionAdd("warren buffet", "Warren Buffett");
 
             correctionAdd("air plane", "airplane");
-
-            correctionAdd("bovine faecal matter", "bovine fecal matter");
 
             correctionAdd("consumptation", "consumption");
 
@@ -25658,6 +25661,7 @@ namespace OverflowHelper.core
             correctionAdd("History", "History (Stack Exchange site)");
 
             correctionAdd("alingn", "align");
+            correctionAdd("allign", "align");
 
             correctionAdd("ALIGNED", "aligned");
             correctionAdd("ALINGNED", "aligned");
@@ -25914,7 +25918,20 @@ namespace OverflowHelper.core
             correctionAdd("executin", "execution");
             correctionAdd("exicution", "execution");
 
+            correctionAdd("Dark Energy", "dark energy");
+
+            correctionAdd("Dark Matter", "dark matter");
+
+            correctionAdd("BLM", "Black Lives Matter");
+            correctionAdd("blm", "Black Lives Matter");
+
+            correctionAdd("plm", "Programmer Lives Matter"); // From a single TechLead video
+            correctionAdd("PLM", "Programmer Lives Matter");
+
+            correctionAdd("bovine faecal matter", "bovine fecal matter");
+
             correctionAdd("mater", "matter");
+            correctionAdd("metter", "matter");
 
             correctionAdd("persceptive", "perspective");
             correctionAdd("presceptive", "perspective");
@@ -27593,6 +27610,7 @@ namespace OverflowHelper.core
             correctionAdd("crosss", "cross");
 
             correctionAdd("inteegral", "integral");
+            correctionAdd("intergal", "integral");
 
             correctionAdd("key-stroke", "keystroke");
 
@@ -30482,6 +30500,7 @@ namespace OverflowHelper.core
             correctionAdd("deterence", "deterrence");
 
             correctionAdd("labor-intensive", "labour-intensive");
+            correctionAdd("labor intensive", "labour-intensive");
 
             correctionAdd("salaray", "salary");
 
@@ -33103,6 +33122,7 @@ namespace OverflowHelper.core
             correctionAdd("rosetta", "Rosetta");
 
             correctionAdd("turing complete", "Turing complete");
+            correctionAdd("Turing-complete", "Turing complete");
 
             correctionAdd("a mean of", "a means of");
 
@@ -33180,6 +33200,7 @@ namespace OverflowHelper.core
             correctionAdd("gedcom", "GEDCOM");
 
             correctionAdd("powergrep", "PowerGREP");
+            correctionAdd("Powergrep", "PowerGREP");
 
             correctionAdd("w2web", "W2web");
 
@@ -33247,6 +33268,60 @@ namespace OverflowHelper.core
             correctionAdd("hepler", "helper");
 
             correctionAdd("re-input", "reinput");
+
+            correctionAdd("cdu", "CDU");
+            correctionAdd("Christian Democratic Union of Germany", "CDU");
+
+            correctionAdd("csu", "CSU");
+            correctionAdd("Christian Social Union in Bavaria", "CSU");
+
+            correctionAdd("CoreAudio", "Core Audio");
+
+            correctionAdd("dobsonian telescope", "Dobsonian telescope");
+            correctionAdd("dobsonian", "Dobsonian telescope");
+
+            correctionAdd("gawk", "Gawk");
+
+            correctionAdd("GAS", "Google Apps Script");
+
+            correctionAdd("high-performance liquid chromatography", "HPLC");
+
+            correctionAdd("iEEEtran", "IEEEtran");
+            correctionAdd("ieeetrans", "IEEEtran");
+
+            correctionAdd("Mathematica site", "Mathematica (Stack Exchange site)");
+            correctionAdd("Mathematica SE", "Mathematica (Stack Exchange site)");
+
+            correctionAdd("poytning theorem", "Poynting's theorem");
+            correctionAdd("Poynting theorem", "Poynting's theorem");
+            correctionAdd("Poytning theorem", "Poynting's theorem");
+
+            correctionAdd("richter scale", "Richter scale");
+            correctionAdd("Richter magnitude scale", "Richter scale");
+
+            correctionAdd("System C", "SystemC");
+
+            correctionAdd("VST", "Virtual Studio Technology");
+
+            correctionAdd("chromatic distortion", "chromatic aberration");
+
+            correctionAdd("clunkyness", "clunkiness");
+
+            correctionAdd("conservartive", "conservative");
+            correctionAdd("Conservertive", "conservative");
+            correctionAdd("conservertive", "conservative");
+
+            correctionAdd("grepwin", "grepWin");
+
+            correctionAdd("MMU", "memory management unit");
+
+            correctionAdd("outpus", "outputs");
+
+            correctionAdd("SDR", "software-defined radio");
+
+            correctionAdd("uplaod", "upload");
+
+            correctionAdd("Wireless Communication", "wireless communication");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52270,6 +52345,50 @@ namespace OverflowHelper.core
             URL_Add("helper", "https://en.wiktionary.org/wiki/helper#Noun");
 
             URL_Add("reinput", "https://en.wiktionary.org/wiki/reinput#Verb");
+
+            URL_Add("CDU", "https://en.wikipedia.org/wiki/Christian_Democratic_Union_of_Germany");
+
+            URL_Add("CSU", "https://en.wikipedia.org/wiki/Christian_Social_Union_in_Bavaria");
+
+            URL_Add("Core Audio", "https://en.wikipedia.org/wiki/Core_Audio");
+
+            URL_Add("Dobsonian telescope", "https://en.wikipedia.org/wiki/Dobsonian_telescope");
+
+            URL_Add("Gawk", "https://en.wikipedia.org/wiki/AWK#Versions_and_implementations");
+
+            URL_Add("Google Apps Script", "https://en.wikipedia.org/wiki/Google_Apps_Script");
+
+            URL_Add("HPLC", "https://en.wikipedia.org/wiki/High-performance_liquid_chromatography");
+
+            URL_Add("IEEEtran", "https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf");
+
+            URL_Add("Mathematica (Stack Exchange site)", "https://mathematica.stackexchange.com/tour");
+
+            URL_Add("Poynting's theorem", "https://en.wikipedia.org/wiki/Poynting's_theorem");
+
+            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
+
+            URL_Add("SystemC", "https://en.wikipedia.org/wiki/SystemC");
+
+            URL_Add("Virtual Studio Technology", "https://en.wikipedia.org/wiki/Virtual_Studio_Technology");
+
+            URL_Add("chromatic aberration", "https://en.wikipedia.org/wiki/Chromatic_aberration");
+
+            URL_Add("clunkiness", "https://en.wiktionary.org/wiki/clunkiness#Noun");
+
+            URL_Add("conservative", "https://en.wiktionary.org/wiki/conservative#Adjective");
+
+            URL_Add("grepWin", "https://tools.stefankueng.com/grepWin.html");
+
+            URL_Add("memory management unit", "https://en.wikipedia.org/wiki/Memory_management_unit");
+
+            URL_Add("outputs", "https://en.wiktionary.org/wiki/output#Verb");
+
+            URL_Add("software-defined radio", "https://en.wikipedia.org/wiki/Software-defined_radio");
+
+            URL_Add("upload", "https://en.wiktionary.org/wiki/upload#Verb");
+
+            URL_Add("wireless communication", "https://en.wikipedia.org/wiki/Wireless");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
