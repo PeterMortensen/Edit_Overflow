@@ -6735,6 +6735,8 @@ namespace OverflowHelper.core
             correctionAdd("priviledges", "privilege");
             correctionAdd("previledges", "privilege");
             correctionAdd("preiveledge", "privilege");
+            correctionAdd("privilages", "privilege");
+            correctionAdd("privileges", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -10625,6 +10627,7 @@ namespace OverflowHelper.core
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
             correctionAdd("Cosmic Microwave Background", "cosmic microwave background");
+            correctionAdd("CMBR", "cosmic microwave background");
 
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
@@ -12262,6 +12265,7 @@ namespace OverflowHelper.core
             correctionAdd("selution", "solution");
             correctionAdd("soltions", "solution");
             correctionAdd("soltion", "solution");
+            correctionAdd("solulution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -16405,6 +16409,7 @@ namespace OverflowHelper.core
             correctionAdd("citeria", "criteria");
             correctionAdd("critiera", "criteria");
             correctionAdd("critieria", "criteria");
+            correctionAdd("critera", "criteria");
 
             correctionAdd("dead see", "dead sea");
 
@@ -21980,6 +21985,7 @@ namespace OverflowHelper.core
             correctionAdd("andd", "and");
             correctionAdd("abd", "and");
             correctionAdd("adn", "and");
+            correctionAdd("und", "and");
 
             correctionAdd("in hand", "on hand");
 
@@ -33322,6 +33328,32 @@ namespace OverflowHelper.core
             correctionAdd("uplaod", "upload");
 
             correctionAdd("Wireless Communication", "wireless communication");
+
+            correctionAdd("Barban-Davenport-Halberstam theorem", "Barban–Davenport–Halberstam theorem");
+
+            correctionAdd("dexie", "Dexie.js");
+            correctionAdd("Dexie", "Dexie.js");
+
+            correctionAdd("findstr", "FINDSTR");
+            correctionAdd("FindStr", "FINDSTR");
+
+            correctionAdd("modernizr", "Modernizr");
+
+            correctionAdd("TO220", "TO-220");
+
+            correctionAdd("Home Depot", "The Home Depot");
+
+            correctionAdd("blackbody radiation", "black-body radiation");
+
+            correctionAdd("emr", "electromagnetic radiation");
+            correctionAdd("EMR", "electromagnetic radiation");
+
+            correctionAdd("galary", "gallery");
+            correctionAdd("galory", "gallery");
+
+            correctionAdd("unpdated", "updated");
+
+            correctionAdd("writed", "wrote");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52389,6 +52421,28 @@ namespace OverflowHelper.core
             URL_Add("upload", "https://en.wiktionary.org/wiki/upload#Verb");
 
             URL_Add("wireless communication", "https://en.wikipedia.org/wiki/Wireless");
+
+            URL_Add("Barban–Davenport–Halberstam theorem", "https://en.wikipedia.org/wiki/Barban%E2%80%93Davenport%E2%80%93Halberstam_theorem");
+
+            URL_Add("Dexie.js", "https://dexie.org/");
+
+            URL_Add("FINDSTR", "https://ss64.com/nt/findstr.html");
+
+            URL_Add("Modernizr", "https://en.wikipedia.org/wiki/Modernizr");
+
+            URL_Add("TO-220", "https://en.wikipedia.org/wiki/TO-220");
+
+            URL_Add("The Home Depot", "https://en.wikipedia.org/wiki/The_Home_Depot");
+
+            URL_Add("black-body radiation", "https://en.wikipedia.org/wiki/Black-body_radiation");
+
+            URL_Add("electromagnetic radiation", "https://en.wikipedia.org/wiki/Electromagnetic_radiation");
+
+            URL_Add("gallery", "https://en.wiktionary.org/wiki/gallery#Noun");
+
+            URL_Add("updated", "https://en.wiktionary.org/wiki/update#Verb");
+
+            URL_Add("wrote", "https://en.wiktionary.org/wiki/write#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
