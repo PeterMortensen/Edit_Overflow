@@ -37,6 +37,7 @@ namespace OverflowHelper.Tests
     class WordlistTests
     {
 
+
         /****************************************************************************
          *                                                                          *
          *    Intent: State assumptions about String.Replace(), including for       *
@@ -57,6 +58,81 @@ namespace OverflowHelper.Tests
 
         /****************************************************************************
          *                                                                          *
+         *    Helper function for some of the tests. To reduce redundancy.          *
+         *                                                                          *
+         *    It also isolates the Unix / Windows dependency.                       *
+         *                                                                          *
+         *                                                                          *
+         ****************************************************************************/
+        private string wordListAsHTML(
+            Dictionary<string, string> aSomeCaseCorrections,
+            Dictionary<string, string> aSomeWord2URLs)
+        {
+            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+            //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+
+            string Wordlist_HTML =
+              TermLookup.dumpWordList_asHTML(
+                "",
+                ", + , operators , {", // Some of it will be transformed...
+                ref aSomeCaseCorrections,
+                aSomeWord2URLs.Count,
+                ref aSomeWord2URLs,
+
+                //This is equivalent, for the refactoring, but
+                //should we use fixed or empty strings instead??
+                app.fullVersionStr(),
+                app.versionString_dateOnly()
+              );
+
+            return Wordlist_HTML;
+        } //wordListAsHTML()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Helper function for some of the tests                                 *
+         *                                                                          *
+         *    It presumes the HTML source is formatted in a certain                 *
+         *    way (it is not a generally applicable function).                      *
+         *    E.g., for now, we assume a particular (internal)                      *
+         *    space indent).                                                        *
+         *                                                                          *
+         *                                                                          *
+         ****************************************************************************/
+        private string extractHTMLtable(string aSomeHTML)
+        {
+            // Rudimentary, but some of the tests in this file ***will***
+            // detect if we get some false positive matches (e.g., due
+            // to a later change).
+
+            //"<table>"
+
+
+            //Later: Complain if not found (with a specific error message, etc.)
+
+            // Isn't there a simple way than all these calculations?
+            //const string startToken = "        <table>";
+
+            // End of the HTML table header and an empty
+            // separating it from the table itself...
+            const string startToken = "</th> </tr>\n\n";
+
+            int startIndex = aSomeHTML.IndexOf(startToken) + startToken.Length;
+            int endIndex = aSomeHTML.IndexOf("        </table>");
+            int len = endIndex - startIndex;
+
+            string toReturn = aSomeHTML.Substring(startIndex, len);
+
+
+            //Stub!!!!
+            //return "YYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
+            return toReturn;
+        } //extractHTMLtable()
+
+
+        /****************************************************************************
+         *                                                                          *
          *    Intent: More like a regression test (detect (unexpected) changes)     *
          *            for the HTML export result than a unit test.                  *
          *                                                                          *
@@ -69,29 +145,12 @@ namespace OverflowHelper.Tests
             // HTML, with only the begining and end, with an empty
             // word table. And empty XXX)
             //
-            Dictionary<string, string> someCaseCorrection =
+            Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URL =
-                new Dictionary<string, string>();
-            Dictionary<string, string> someCaseCorrection_Reverse =
+            Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
 
-            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
-
-            string Wordlist_HTML =
-              TermLookup.dumpWordList_asHTML(
-                "",
-                ", + , operators , {", // Some of it will be transformed...
-                ref someCaseCorrection,
-                someCaseCorrection_Reverse.Count,
-                ref someWord2URL,
-
-                //This is equivalent, for the refactoring, but
-                //should we use fixed or empty strings instead??
-                app.fullVersionStr(),
-                app.versionString_dateOnly()
-              );
+            string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
 
             int len = Wordlist_HTML.Length;
 
@@ -192,49 +251,33 @@ namespace OverflowHelper.Tests
             // on a web page due to the wrong encoding (should be UTF-8).
             //
 
-            Dictionary<string, string> someCaseCorrection =
+            Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URL =
+            Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
-            //Dictionary<string, string> someCaseCorrection_Reverse =
-            //    new Dictionary<string, string>();
-
 
             // First
-            someCaseCorrection.Add("JS", "JavaScript");
-            someWord2URL.Add(
+            someCaseCorrections.Add("JS", "JavaScript");
+            someWord2URLs.Add(
                 "JavaScript",
                 "https://en.wikipedia.org/wiki/JavaScript");
 
             // Second
-            someCaseCorrection.Add("angstrom", "Ångström Linux");
-            someWord2URL.Add(
+            someCaseCorrections.Add("angstrom", "Ångström Linux");
+            someWord2URLs.Add(
                 "Ångström Linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
 
             // Third
-            someCaseCorrection.Add("utorrent", "µTorrent");
-            someWord2URL.Add(
+            someCaseCorrections.Add("utorrent", "µTorrent");
+            someWord2URLs.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
 
-            int incorrectWords = someCaseCorrection.Count;
+            int incorrectWords = someCaseCorrections.Count;
 
             EditorOverflowApplication app = new EditorOverflowApplication_Windows();
             //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
-
-            string Wordlist_HTML =
-              TermLookup.dumpWordList_asHTML(
-                "",
-                ", + , operators , {", // Some of it will be transformed...
-                ref someCaseCorrection,
-                someWord2URL.Count,
-                ref someWord2URL,
-
-                //This is equivalent, for the refactoring, but
-                //should we use fixed or empty strings instead??
-                app.fullVersionStr(),
-                app.versionString_dateOnly()
-              );
+            string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
 
             int len = Wordlist_HTML.Length;
 
@@ -307,7 +350,84 @@ namespace OverflowHelper.Tests
 
         /****************************************************************************
          *                                                                          *
-         *    Intent: Test the indent functionality of the HTML build               *
+         *    Intents:                                                              *
+         *                                                                          *
+         *      1. Detect ***double*** HTML encoding of word list items             *
+         *                                                                          *
+         *      2. More generally, the generated HTML for word list mappings        *
+         *         are exactly as expected, incl. any special encoding/             *
+         *         escaping for it to be valid HTML                                 *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void HTMLexport_WordlistItems()
+        {
+            // Four HTML table rows (2021-11-09) for the correct
+            // word "&lt;" (without the space indent):
+            //
+            //     <tr> <td><div id="&lt;"></div>&amp;LT;</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>
+            //     <tr> <td>&lt;</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>
+            //     <tr> <td>less-than sign</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>
+            //     <tr> <td>lt</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>
+
+            Dictionary<string, string> someCaseCorrections =
+               new Dictionary<string, string>();
+            Dictionary<string, string> someWord2URLs =
+                new Dictionary<string, string>();
+
+            // Detect if we get double HTML encoding (an error - not what
+            // we want. For example, order matters in escapeHTML()
+            // in file *main/TermLookup.cs*.)
+            {
+                // The real item
+                someCaseCorrections.Add("<", "&lt;");
+
+                //Disabled for now - for more than one item we need a helper
+                //function to pull out a single row from the HTML table.
+                //When we do, we should also add a test to test (regress)
+                //for the sort order in the output.
+                //
+                //Until then, we need to include the HTML anchor in the
+                //expected result.
+                //
+                //The helper function should strip the indent space and the
+                //end of line (so the client side becomes simple and less
+                //redundant).
+                //
+                //// To push the real item to the second place in the
+                //// (defined) sort order in the HTML output (to avoid
+                //// the HTML anchor).
+                //someCaseCorrections.Add("&LT;", "&lt;");
+
+                // Only once per correct item
+                someWord2URLs.Add(
+                    "&lt;",
+                    "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
+
+                string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
+                string table = extractHTMLtable(Wordlist_HTML);
+
+                const string expectedIndent = "            ";
+
+                //Not yet. See above.
+                //Assert.AreEqual(
+                //  expectedIndent +
+                //    "<tr> <td>&lt;</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>",
+                //  table, "XYZ");
+                Assert.AreEqual(
+                  expectedIndent +
+                    "<tr> <td><div id=\"&lt;\"></div>&lt;</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>\n",
+                  table, "XYZ");
+            }
+
+        } //HTMLexport_WordlistItems()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Intent: Test the indent (internal, in the HTML source,                *
+         *            not presentation) functionality of the HTML                   *
+         *            builder                                                       *
          *                                                                          *
          ****************************************************************************/
         [Test]
