@@ -1,12 +1,24 @@
 ########################################################################
 #
 #  Purpose: Regression test for the main functions in Edit Overflow
-#           for web, in particular the correct built up of edit
+#           for web, most importantly the correct built up of edit
 #           summary messages, including looking up terms not in
 #           our word list.
 #
-#           It uses Selenium with Selenium Webdriver to control Firefox
+#           It uses Selenium with "Selenium Webdriver" to control Firefox
 #           windows and send information to and from them.
+#
+#             Reference: <https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_WebDriver>
+#
+#           It uses the Python module "unittest" to run the tests
+#           (which in turn calls/uses Selenium). Thus they are
+#           effectively not unit tests, but integration
+#           tests...
+#
+#           By convention of the Python module "unittest", only functions
+#           starting with "test" are run. Other functions are helper
+#           functions (to reduce the redundancy). Or they are functions
+#           whose names are expected by "unittest" (e.g. for setup).
 #
 ########################################################################
 
@@ -113,6 +125,17 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     def checkText_window(self, aURL):
 
+        # Note: The start state of the Edit Overflow text window before
+        #       each of these tests is actually different, depending on
+        #       the order here. While the tests of text functions
+        #       should be independent of the start state (as we
+        #       overwrite the contents of text field in the
+        #       tests), whether we discover any state
+        #       dependency may depend on the order
+        #       here...
+
+        self.checkMarkdownCodeFormatting(aURL)
+
         self.checkYouTubeFormatting(aURL)
 
         self.checkRealQuotes(aURL)
@@ -187,6 +210,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         time.sleep(0.5)
 
 
+    # Helper function for testing the Edit Overflow text transformation
+    # page, for a single test for a particular function (check if the
+    # input results in the expected output in the text field).
+    #
     # "Text" here means the Edit Overflow "Text.php" page. The main
     # edit field is used for both input and output (inline text
     # transformation) and various manipulation can take place, e.g.
@@ -249,7 +276,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #       by the keyboard shortcut Shift + Alt + Y (the fourth
     #       parameter to textTransformation(), "y")
     #
-    #
     def checkYouTubeFormatting(self, aURL):
 
         content1_in1 =  ("04 min 17 secs:  Real start of pre Q&A\n"
@@ -288,8 +314,73 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                 "The YouTube formatter result was bad!")
 
 
+    # Text.php page: Test transformation of Markdown code formatting
+    #                in one format (four-space indent) to another
+    #                (code fencing, with syntax highlighting
+    #                turned of)
+    #
+    # Note: The specific function / button (for Markdown code formatting)
+    #       is by the keyboard shortcut Shift + Alt + M (the fourth
+    #       parameter to textTransformation(), "m")
+    #
+    def checkMarkdownCodeFormatting(self, aURL):
+
+        # Note: Send Shift + Alt + M for invoking the Markdown formatter
+        # (button "Convert to Markdown codefencing")
+
+        content_in_1 =  ("    ;short_open_tag = On\n"
+                         "\n"
+                         "    with\n"
+                         "\n"
+                         "    short_open_tag = On (just remove the ; and restart your Apache server)\n"
+                         "")
+
+        content_out_1 = ("```lang-none\n"
+                         ";short_open_tag = On\n"
+                         "\n"
+                         "with\n"
+                         "\n"
+                         "short_open_tag = On (just remove the ; and restart your Apache server)\n"
+                         "```\n"
+                         "")
+        self.textTransformation(
+            aURL, content_in_1, content_out_1,
+            "m", "The Markdown formatter result was bad!")
+
+        # Source code input with more than 4 space indent (e.g., when
+        # part of a Markdown list) must be formatted correctly.
+        #
+        content_in_2 =  ("        warning: ignoring #pragma untiunti\n"
+                         "\n"
+                         "        g++ pragma.cpp -Wall\n"
+                         "\n"
+                         "")
+
+        content_out_2 = ("    ```lang-none\n"
+                         "    warning: ignoring #pragma untiunti\n"
+                         "\n"
+                         "    g++ pragma.cpp -Wall\n"
+                         "\n"
+                         "    ```\n"
+                         "")
+        self.textTransformation(
+            aURL, content_in_2, content_out_2,
+            "m", "The Markdown formatter result was bad!")
+
+
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelled words)
+    #
+    # Notes:
+    #
+    #   1. Currently we implicitly expect it to
+    #      be called with "LookUpTerm=php"....
+    #
+    #   2. the URL is expected to be one that results in a succesful
+    #      lookup (the request word exists in the wordlist)
+    #
+    #   3. Incorrect words "php", "python", and "until" must exist
+    #      in the word list (MySQL/MariaDB database).
     #
     def mainLookup(self, aURL):
         # Initial page, with a (known) incorrect term ***different***
@@ -366,18 +457,20 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
 
     # Test of the central function of Edit Overflow for web: Looking
-    # up incorrect terms (typically misspelling words)
+    # up incorrect terms (typically misspelled words)
     #
-    # The JavaScript (client-side) version
+    # ***Note***: The JavaScript (client-side) version
     #
-    # The skip: suppress running one of the tests (it will not pass
-    #           until we implement the cross-platform system -
-    #           with single source for C#, PHP, and JavaScript).
+    # For now: The skip suppress running one of the tests (it
+    #          will not pass until we implement the
+    #          cross-platform system -
+    #          with single source for C#, PHP, and JavaScript).
     #
     #def test_mainLookup(self):
     @unittest.skip("Skipping test_mainLookup_JavaScript() for now")
     def test_mainLookup_JavaScript(self):
 
+        # "php"
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native')
         #pass
 
@@ -385,15 +478,29 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelling words)
     #
-    # The form-based (server roundtrip) version
+    # ***Note***: The form-based (server roundtrip) version
     #
     #def test_mainLookup(self):
     def test_mainLookup_form(self):
 
+        # "php"
         self.mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=no&OverflowStyle=Native')
         #pass
 
 
+    # Form-based lookup, using a local web server
+    #
+    # Test of the central function of Edit Overflow for web: Looking
+    # up incorrect terms (typically misspelling words)
+    #
+    #def test_mainLookup(self):
+    def test_mainLookup_form_localWebserver(self):
+
+        #self.mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz')
+
+        # "php"
+        self.mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php')
+        #pass
 
 
 if __name__ == '__main__':

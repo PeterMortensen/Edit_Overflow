@@ -288,16 +288,16 @@
                 "space before right parenthesis",
                 "space before semicolon",
                 "space after left parenthesis",
-                and "missing space around some operators"): <br/>
-
-
+                "missing space around some operators",
+                "missing capitalisation in comment (Jon Skeet decree)",
+                and "missing space in comment (Jon Skeet decree)"): <br/>
 
                 <input
                     name="All combined"
                     type="text"
                     id="codeRegex_AllCombined"
                     class="XYZ36"
-                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\&quot;|(\$\w+\[.+\]))\.|\.['\&quot;\]])"
+                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--))"
                     style="width:320px;"
                     accesskey=""
                     title=""
@@ -311,8 +311,8 @@
             -->
             <!--  For 'value' (the displayed text in the button), tags 'u'
                   or 'strong' do not work!! -->
-                  
-            <!-- Does field 'name' have any significance???   -->       
+
+            <!-- Does field 'name' have any significance???   -->
             <input
                 name="XYZ_7777"
                 type="submit"

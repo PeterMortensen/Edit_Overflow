@@ -43,10 +43,10 @@
     # query string, e.g., for testing purposes (faster and
     # without touching production)
     #
-    if (isset($argv)) # argv is not defined at all when this is running in
-                      # a web context. We need this to avoid entries in 
-                      # web server error log like "Trying to access 
-                      # array offset on value of type null" 
+    if (isset($argv)) # 'argv' is not defined at all when this is running in
+                      # a web context. We need this to avoid entries in the
+                      # web server error log, like "Trying to access
+                      # array offset on value of type null"
     {
         $firstArgument = $argv[1];
         if (!empty($firstArgument))
@@ -70,7 +70,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a136 2021-09-22T115943Z+0";
+        return "Edit Overflow v. 1.1.49a211 2021-11-23T162304Z+0";
     }
 
 
@@ -367,44 +367,58 @@
     } #the_formValue()
 
 
+    #Why is it here when similar functions are in Text.php? 
+    #Probably because it uses StringReplacerWithRegex 
+    #(which is in a *separate* file).
+    # 
     function transformFor_YouTubeComments($aText)
     {
         $replacer = new StringReplacerWithRegex($aText);
-
-        # We strip the "www" in YouTube URLs. For unknown
-        # reasons, in some cases, replacing the " DOT "
-        # back to "." and using it in a browser, results
-        # in a ***double*** "www" and thus fails to load properly.
-        #
-        # Example: www.www.youtube.com/watch?v=_pybvjmjLT0&lc=Ugw6kcW_X3ulHZugaLB4AaABAg
-        #
-        $replacer->transform('www\.(youtube\..*)', '$1');
 
         # Convert time to YouTube format
         $replacer->transform('(\d+)\s+secs',   '$1 ');
         $replacer->transform('(\d+)\s+min\s+', '$1:');
         $replacer->transform('(\d+)\s+h\s+',   '$1:');
 
-        # Convert URLs so they do not look like URLs...
-        # (otherwise, the entire comment will be
-        # automatically removed by YouTube after
-        # one or two days).
-        $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
-        $replacer->transform('https:\/\/', ''         );
-        $replacer->transform('http:\/\/',  ''         );
+        # Don't transform URLs if there just a single link in
+        # Markdown format (e.g., used in LBRY/Odysee comments).
+        #
+        # Note that this check is global (for all the text),
+        # not on a line-for-line basis
+        #
+        if (! $replacer->match("\[[^\]]+\]\([^)]+\)"))
+        {
+            # We strip the "www" in YouTube URLs. For unknown
+            # reasons, in some cases, replacing the " DOT "
+            # back to "." and using it in a browser, results
+            # in a ***double*** "www" and thus fails to load
+            # properly. Is it a web browser problem?
+            #
+            # Example: www.www.youtube.com/watch?v=_pybvjmjLT0&lc=Ugw6kcW_X3ulHZugaLB4AaABAg
+            #
+            $replacer->transform('www\.(youtube\..*)', '$1');
 
-        # Reversals for some of the false
-        # positives in URL processing
-        #
-        # Future: Perhaps general reversal near the end, after
-        #         the last "/"? Say, for ".html".
-        #
+            # Convert URLs so they do not look like URLs...
+            # (otherwise, the entire comment will be
+            # automatically removed by YouTube after
+            # one or two days).
+            $replacer->transform('(\w)\.(\w)', '$1 DOT $2');
+            $replacer->transform('https:\/\/', ''         );
+            $replacer->transform('http:\/\/',  ''         );
+
+            # Reversals for some of the false positives
+            # in URL processing, e.g. for "Node.js"
+            #
+            # Future: Perhaps general reversal near the end, after
+            #         the last "/"? Say, for ".html".
+            #
             $replacer->transform('E DOT g\.', 'E.g.');
             $replacer->transform('e DOT g\.', 'e.g.');
             $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
             $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
 
-            $replacer->transform('(\d) DOT (\d)', '$1.$2'); # Revert for numbers
+            # Revert for numbers, e.g. 3.141
+            $replacer->transform('(\d) DOT (\d)', '$1.$2');
 
             # Revert for file extensions. Note: Potentially false positives
             # as we don't currently check for end of line. But it is
@@ -416,13 +430,15 @@
             $replacer->transform(' DOT php',  '.php');
             $replacer->transform(' DOT aspx', '.aspx');
             $replacer->transform(' DOT pdf',  '.pdf');
+        } //If doing URL processing
 
         # Convert email addresses like so... (at least
         # to offer some protection (and avoiding
         # objections to posting)).
         #
-        # For now, just globally replace "@". But note that it
-        # affects LBRY invites (perhaps we should add an exception?).
+        # For now, just globally replace "@". But note 
+        # that it affects LBRY invites (perhaps we 
+        # should add an exception?).
         #
         # Future: Perhaps don't replace if there is a space before "@"
         #         or at the beginning of a line.
@@ -449,7 +465,8 @@
         $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work
                                                        # if the LAST line is empty.
 
-        # Adjust indent for non-timestamp lines
+        # Adjust indent for non-timestamp lines (due
+        # to non-proportional fonts).
         #
         # We wait till ***last*** because the input may
         # already have timestamps in the final format
@@ -486,7 +503,7 @@
             #
             $replacer->transform("\r\n   ", "\r\n");
 
-            # XXX How do we replace only in leading space?
+            # XXX How do we replace only in leading space????
 
             #$replacer->transform('(\d+)\s+secs',   '$1 ');
         }
@@ -495,7 +512,24 @@
         return $someText;
     } #transformFor_YouTubeComments()
 
-
+    
+    # Format a link in WikiMedia (Wikipedia format). 
+    #
+    # The first part is related to the URL (essentially the title of 
+    # the Wikipedia article). The second part is what we have chosen
+    # to be the output word (correct term). Sometimes the two parts
+    # are the same    
+    #
+    # Example:
+    #
+    #    ''[[Uniform_resource_locator|URL]]''
+    #
+    # Future:
+    #
+    #   1. We should replace "_" with space (as it is more 
+    #      readable in Wikipedia source text).   
+    #
+    #
     function WikiMedia_Link($aURL, $aCorrectTerm)
     {
         #Note: This is redundant with the corresponding

@@ -44,6 +44,10 @@ namespace CodeFormattingCheckTests
          *   constants), but we have used them during refactoring. Thus             *
          *   they are mostly useful as regression tests.                            *
          *                                                                          *
+         *   It is also useful to detect if we forget to update the                 *
+         *   combined regular expression when we add new checks (or                 *
+         *   conversely if that is not generated properly)                          *
+         *                                                                          *
          ****************************************************************************/
         [Test]
         public void constants()
@@ -150,6 +154,31 @@ namespace CodeFormattingCheckTests
             }
 
 
+            // Code comments. Sentence casing
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                Assert.AreEqual(
+                  @"(\/\/|\/\*|\#|<!--)\s*\p{Ll}",
+                  cfCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.missingCapitalisationInComment_Jon_Skeet_decree),
+                  "");
+            }
+
+            // Code comments. Space near.
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                Assert.AreEqual(
+                  @"(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--)",
+                  //@"(\/\/|\/\*|\#)\S|\S(\/\/|\/\*|\#|<!--)",
+                  cfCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.missingSpaceInComment_Jon_Skeet_decree),
+                  "");
+            }
+
+
+
             // A combined / all one
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
@@ -157,7 +186,7 @@ namespace CodeFormattingCheckTests
                 // Note: Double quote (") is escaped as "" (two double quotes).
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]])",
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--))",
                   cfCheck.combinedAllOfRegularExpressions(),
                   "");
             }
@@ -168,7 +197,7 @@ namespace CodeFormattingCheckTests
 
                 // Note: Double quote (") is escaped as "" (two double quotes).
                 Assert.AreEqual(
-                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", and ""missing space around some operators"")",
+                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", ""missing space around some operators"", ""missing capitalisation in comment (Jon Skeet decree)"", and ""missing space in comment (Jon Skeet decree)"")",
                   // @"XYZ",
                   cfCheck.combinedAllOfExplanations(),
                   "");
@@ -178,7 +207,9 @@ namespace CodeFormattingCheckTests
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    That is, a kind of smoke test - broad relatively unspecific tests.    *
+         *                                                                          *
          ****************************************************************************/
         [Test]
         public void RegExExecutor_basics()
@@ -190,20 +221,30 @@ namespace CodeFormattingCheckTests
                 string badCode = "auto p=new Son();";
                 Assert.IsTrue(
                     RegExExecutor.match(
-                      badCode, 
-                      cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+                      badCode,
+                      cfCheck.getRegularExpression(
+                        codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
 
-                // Also using the full regular expression
+                // Also using the full (combined) regular expression
                 Assert.IsTrue(
                     RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
 
-                // Corresponding fixed code
+                // Corresponding fixed code should not be detected
+                // (neither real or false positives).
                 Assert.IsFalse(
-                    RegExExecutor.match("auto p = new Son();",
-                                        cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+                    RegExExecutor.match(
+                      "auto p = new Son();",
+                      cfCheck.getRegularExpression(
+                        codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                // The full (combined) regular expression should not give
+                // a false positive, etc.
+                //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
+
             }
 
             {
+                //What is this for???
                 //LookUpString tt2 = new LookUpString("   r ");
                 //string cs = tt2.getCoreString();
                 //Assert.AreEqual("r", cs , "");
@@ -216,6 +257,7 @@ namespace CodeFormattingCheckTests
             }
 
             {
+                //What is this for???
                 //LookUpString tt2 = new LookUpString("stackoverflow, ");
                 //string cs = tt2.getCoreString();
                 //Assert.AreEqual("stackoverflow", cs, "");
@@ -337,8 +379,94 @@ namespace CodeFormattingCheckTests
                                         // works if it fails.
             }
 
-
         } //tightOperators()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    That is, space and capitalisation requirement for code comments       *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void Jon_Skeet_decree()
+        {
+            CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+            // Shortcuts / aliases
+            string regexCap   = cfCheck.getRegularExpression(
+              codeFormattingsRegexEnum.missingCapitalisationInComment_Jon_Skeet_decree);
+
+            string regexSpace = cfCheck.getRegularExpression(
+              codeFormattingsRegexEnum.missingSpaceInComment_Jon_Skeet_decree);
+
+
+            string regex_All = cfCheck.combinedAllOfRegularExpressions();
+
+            string badCap1 = "// respect the Jon Skeet decree!";
+            string badSpace1 = "//Respect the Jon Skeet decree!";
+            string badSpace2 = ";// Respect the Jon Skeet decree!";
+            
+            string badHTML1 = "<!--Respect the Jon Skeet decree!-->";
+
+            // All 3 problems at the same times
+            string allBad1 = ";//respect the Jon Skeet decree!";
+
+            string allGood1 = "// Respect the Jon Skeet decree!";
+            string allGood2 = "XXXXX  // Respect the Jon Skeet decree!";
+            string allGood3 = "/* Respect the Jon Skeet decree!";
+            string allGood4 = "# Respect the Jon Skeet decree!";
+
+            // Comments, space
+            {
+                // Bad code should be detected
+                Assert.IsTrue(RegExExecutor.match(badSpace1, regexSpace));
+                Assert.IsTrue(RegExExecutor.match(badSpace1, regex_All));
+                Assert.IsTrue(RegExExecutor.match(badSpace2, regexSpace));
+                Assert.IsTrue(RegExExecutor.match(badSpace2, regex_All));
+
+                // One particular kind of comment test should not match
+                // content with some of the other problems.
+                //
+                // Only the capitalisation problem for this one
+                Assert.IsFalse(RegExExecutor.match(badCap1, regexSpace));
+                
+                // 2021-11-09. 
+                Assert.IsTrue(RegExExecutor.match(badHTML1, regexSpace));
+            }
+                        
+
+            // Comments, sentence capitalisation
+            {
+                // Bad code should be detected
+                Assert.IsTrue(RegExExecutor.match(badCap1, regexCap));
+                Assert.IsTrue(RegExExecutor.match(badCap1, regex_All));
+
+                // Good code should not result in false postives
+                Assert.IsFalse(RegExExecutor.match(allGood1, regexCap));
+                Assert.IsFalse(RegExExecutor.match(allGood2, regexCap));
+                Assert.IsFalse(RegExExecutor.match(allGood3, regexCap));
+                Assert.IsFalse(RegExExecutor.match(allGood4, regexCap));
+
+                // Good code should not result in false postives, not even
+                // with the full regular expression
+                Assert.IsFalse(RegExExecutor.match(allGood1, regex_All));
+                Assert.IsFalse(RegExExecutor.match(allGood2, regex_All));
+                Assert.IsFalse(RegExExecutor.match(allGood3, regex_All));
+                Assert.IsFalse(RegExExecutor.match(allGood4, regex_All));
+
+                // 2021-11-09. 
+                // This one only has the space problem, thus should not match. 
+                Assert.IsFalse(RegExExecutor.match(badHTML1, regexCap));
+            }
+
+            // Comments, all three problems at once
+            {
+                Assert.IsTrue(RegExExecutor.match(allBad1, regexCap));
+                Assert.IsTrue(RegExExecutor.match(allBad1, regex_All));
+            }
+
+
+        } //Jon_Skeet_decree()
 
 
     } //class CodeFormattingCheckTests
