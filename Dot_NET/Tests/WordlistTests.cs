@@ -76,8 +76,8 @@ namespace OverflowHelper.Tests
             Dictionary<string, string> someCaseCorrection_Reverse =
                 new Dictionary<string, string>();
 
-            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+            //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
@@ -219,8 +219,8 @@ namespace OverflowHelper.Tests
 
             int incorrectWords = someCaseCorrection.Count;
 
-            //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
-            EditorOverflowApplication app = new EditorOverflowApplication_Unix();
+            EditorOverflowApplication app = new EditorOverflowApplication_Windows();
+            //EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
             string Wordlist_HTML =
               TermLookup.dumpWordList_asHTML(
