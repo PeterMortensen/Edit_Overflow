@@ -70,7 +70,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a213 2021-11-26T014913Z+0";
+        return "Edit Overflow v. 1.1.49a214 2021-11-26T160428Z+0";
     }
 
 
@@ -367,10 +367,10 @@
     } #the_formValue()
 
 
-    #Why is it here when similar functions are in Text.php? 
-    #Probably because it uses StringReplacerWithRegex 
+    #Why is it here when similar functions are in Text.php?
+    #Probably because it uses StringReplacerWithRegex
     #(which is in a *separate* file).
-    # 
+    #
     function transformFor_YouTubeComments($aText)
     {
         $replacer = new StringReplacerWithRegex($aText);
@@ -436,8 +436,8 @@
         # to offer some protection (and avoiding
         # objections to posting)).
         #
-        # For now, just globally replace "@". But note 
-        # that it affects LBRY invites (perhaps we 
+        # For now, just globally replace "@". But note
+        # that it affects LBRY invites (perhaps we
         # should add an exception?).
         #
         # Future: Perhaps don't replace if there is a space before "@"
@@ -512,13 +512,13 @@
         return $someText;
     } #transformFor_YouTubeComments()
 
-    
-    # Format a link in WikiMedia (Wikipedia format). 
+
+    # Format a link in WikiMedia (Wikipedia format).
     #
-    # The first part is related to the URL (essentially the title of 
+    # The first part is related to the URL (essentially the title of
     # the Wikipedia article). The second part is what we have chosen
     # to be the output word (correct term). Sometimes the two parts
-    # are the same    
+    # are the same
     #
     # Example:
     #
@@ -526,8 +526,8 @@
     #
     # Future:
     #
-    #   1. We should replace "_" with space (as it is more 
-    #      readable in Wikipedia source text).   
+    #   1. We should replace "_" with space (as it is more
+    #      readable in Wikipedia source text).
     #
     #
     function WikiMedia_Link($aURL, $aCorrectTerm)
