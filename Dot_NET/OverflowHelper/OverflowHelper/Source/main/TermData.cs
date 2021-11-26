@@ -2868,6 +2868,7 @@ namespace OverflowHelper.core
             correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
             correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
             correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -15190,6 +15191,7 @@ namespace OverflowHelper.core
             correctionAdd("coressponding", "corresponding");
             correctionAdd("coresponding", "corresponding");
             correctionAdd("correspondients", "corresponding");
+            correctionAdd("correspnding", "corresponding");
 
             correctionAdd("substract", "subtract");
 
@@ -29504,6 +29506,9 @@ namespace OverflowHelper.core
 
             correctionAdd("over complicated", "overcomplicated");
 
+            correctionAdd("complicate", "complicated");
+            correctionAdd("complicative", "complicated");
+
             correctionAdd("Performance Improvement Plan", "performance improvement plan");
 
             correctionAdd("pikc", "pick");
@@ -32121,8 +32126,6 @@ namespace OverflowHelper.core
             correctionAdd("Windows Sockets API", "Winsock");
             correctionAdd("winsock", "Winsock");
 
-            correctionAdd("complicate", "complicated");
-
             correctionAdd("correllation", "correlation");
 
             correctionAdd("Domain Name", "domain name");
@@ -33449,6 +33452,11 @@ namespace OverflowHelper.core
 
             correctionAdd("reseting", "resetting");
             correctionAdd("Reseting", "resetting");
+
+            correctionAdd("labeled", "labelled");
+            correctionAdd("labeld", "labelled");
+
+            correctionAdd("in the order of", "on the order of");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52610,6 +52618,10 @@ namespace OverflowHelper.core
             URL_Add("Vitamin K", "https://en.wikipedia.org/wiki/Vitamin_K");
 
             URL_Add("adenovirus", "https://en.wikipedia.org/wiki/Adenoviridae");
+
+            URL_Add("labelled", "https://en.wiktionary.org/wiki/label#Verb");
+
+            URL_Add("on the order of", "https://en.wiktionary.org/wiki/on_the_order_of#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
