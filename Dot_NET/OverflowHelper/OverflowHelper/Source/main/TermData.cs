@@ -67,8 +67,8 @@ namespace OverflowHelper.core
 
             addLookupData();
 
-            // Assert   length of mIncorrect2Correct_Reverse equal to
-            //          length of mCorrectTerm2URL
+            //Future: Assert   length of mIncorrect2Correct_Reverse equal to
+            //                 length of mCorrectTerm2URL
 
             checkTermDataStructures();
         } //Constructor
@@ -145,13 +145,6 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private void sanityCheck(string aSomeString, string aKey, string aValue)
         {
-            //Delete at any time
-            //Trace.Assert(
-            //    aSomeString.Length > 0,
-            //    "LANG ASSERT. aSomeString is empty in sanityCheck(). " +
-            //    "(aKey is \"" + aKey + "\", aValue is \"" + aValue + "\"). ");
-
-
             if (aSomeString.Length == 0)
             {
                 string msg = "Empty term - " +
@@ -183,7 +176,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          *    Add a correction to the word list. We also perform various            *
-         *    integrity tests (e.g. double entries are not allowed)                 *
+         *    integrity tests (e.g., double entries are not allowed)                *
          *                                                                          *
          ****************************************************************************/
         private void correctionAdd(string aBadTerm, string aCorrectedTerm)
@@ -3998,6 +3991,7 @@ namespace OverflowHelper.core
             correctionAdd("varaibles", "variable");
             correctionAdd("vraiable", "variable");
             correctionAdd("Variable", "variable");
+            correctionAdd("variale", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -11423,6 +11417,7 @@ namespace OverflowHelper.core
 
             correctionAdd("exisiting", "existing");
             correctionAdd("exsiting", "existing");
+            correctionAdd("xisting", "existing");
 
             correctionAdd("explainign", "explaining");
             correctionAdd("explainig", "explaining");
@@ -11744,6 +11739,7 @@ namespace OverflowHelper.core
             correctionAdd("helful", "helpful");
 
             correctionAdd("intermeidate", "intermediate");
+            correctionAdd("intermadiate", "intermediate");
 
             correctionAdd("peice", "piece");
 
@@ -12714,6 +12710,7 @@ namespace OverflowHelper.core
 
             correctionAdd("UB", "undefined behaviour");
             correctionAdd("Undefined Behavior", "undefined behaviour");
+            correctionAdd("ub", "undefined behaviour");
 
             correctionAdd("TI", "Texas Instruments");
 
@@ -12844,6 +12841,7 @@ namespace OverflowHelper.core
             correctionAdd("profficient", "proficient");
 
             correctionAdd("so called", "so-called");
+            correctionAdd("So called", "so-called");
 
             correctionAdd("Software Engineer", "software engineer");
             correctionAdd("SWE", "software engineer");
@@ -14843,6 +14841,7 @@ namespace OverflowHelper.core
             correctionAdd("exacute", "execute");
             correctionAdd("Execurte", "execute");
             correctionAdd("execurte", "execute");
+            correctionAdd("exwcute", "execute");
 
             correctionAdd("extremeties", "extremities");
             correctionAdd("extremitys", "extremities");
@@ -15313,6 +15312,8 @@ namespace OverflowHelper.core
 
             correctionAdd("developming", "developing");
             correctionAdd("developping", "developing");
+            correctionAdd("Develpoing", "developing");
+            correctionAdd("develpoing", "developing");
 
             correctionAdd("moducle", "module");
 
@@ -19108,6 +19109,7 @@ namespace OverflowHelper.core
             correctionAdd("G cloud", "Google Cloud Platform");
             correctionAdd("Google cloud", "Google Cloud Platform");
             correctionAdd("gcloud", "Google Cloud Platform"); // Not entirely true - actual a command-line tool
+            correctionAdd("GCP", "Google Cloud Platform");
 
             correctionAdd("crossplatform", "cross-platform");
             correctionAdd("crossPlatform", "cross-platform");
@@ -20455,6 +20457,7 @@ namespace OverflowHelper.core
             correctionAdd("naieve", "naive");
             correctionAdd("nieve", "naive");
             correctionAdd("naeve", "naive");
+            correctionAdd("naïve", "naive");
 
             correctionAdd("preservce", "preserve");
 
@@ -20858,6 +20861,7 @@ namespace OverflowHelper.core
             correctionAdd("waut", "wait");
 
             correctionAdd("Linus", "Linus Torvalds");
+            correctionAdd("Linus Trovalds", "Linus Torvalds");
 
             correctionAdd("dimimish", "diminish");
 
@@ -21830,6 +21834,8 @@ namespace OverflowHelper.core
             correctionAdd("fire-fight", "firefight");
 
             correctionAdd("philosofy", "philosophy");
+            correctionAdd("phiolosopjy", "philosophy");
+            correctionAdd("phiolosophy", "philosophy");
 
             correctionAdd("cia", "CIA");
 
@@ -31052,6 +31058,7 @@ namespace OverflowHelper.core
 
             correctionAdd("includ", "include");
             correctionAdd("inlcude", "include");
+            correctionAdd("inculde", "include");
 
             correctionAdd("Launchd", "launchd");
 
@@ -31623,6 +31630,8 @@ namespace OverflowHelper.core
 
             correctionAdd("non-existing", "nonexisting");
             correctionAdd("non existing", "nonexisting");
+            correctionAdd("non-xisting", "nonexisting");
+            correctionAdd("nonxisting", "nonexisting");
 
             correctionAdd("ponted", "pointed");
 
@@ -33402,6 +33411,45 @@ namespace OverflowHelper.core
 
             correctionAdd("warm fussies", "warm fuzzies");
 
+            correctionAdd("Cherry Black", "Cherry MX Black");
+
+            correctionAdd("Google Closure Compiler", "Closure Compiler");
+
+            correctionAdd("gitian", "Gitian");
+
+            correctionAdd("gitian-builder", "Gitian Builder");
+            correctionAdd("gitian-build", "Gitian Builder");
+
+            correctionAdd("husky", "Husky");
+
+            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
+            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
+            correctionAdd("Newton's Second Law", "Newton's second law of motion");
+
+            correctionAdd("ONEPLUS A5000", "OnePlus A5000");
+
+            correctionAdd("PRETTIER", "Prettier");
+
+            correctionAdd("Richard Stalman", "Richard Stallman");
+            correctionAdd("Stallman", "Richard Stallman");
+
+            correctionAdd("boot loader", "bootloader");
+
+            correctionAdd("contribues", "contributes");
+
+            correctionAdd("dual boot", "dual-boot");
+
+            correctionAdd("ICE", "internal combustion engine");
+
+            correctionAdd("life form", "lifeform");
+
+            correctionAdd("nerve-wracking", "nerve-racking");
+            correctionAdd("nervwrecking", "nerve-racking");
+            correctionAdd("nervewrecking", "nerve-racking");
+
+            correctionAdd("reseting", "resetting");
+            correctionAdd("Reseting", "resetting");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -33762,6 +33810,7 @@ namespace OverflowHelper.core
             correctionAdd("plizfer", "Pfizer"); // Coronavirus
             correctionAdd("Pfiser", "Pfizer"); // Coronavirus
             correctionAdd("Phiser", "Pfizer"); // Coronavirus
+            correctionAdd("Pziser", "Pfizer"); // Coronavirus
 
             correctionAdd("BioNTech vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
             correctionAdd("Pfizer vaccine", "Pfizer–BioNTech COVID-19 vaccine (BNT162b2)"); // Coronavirus
@@ -33907,8 +33956,17 @@ namespace OverflowHelper.core
             correctionAdd("moderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("Maderna", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
             correctionAdd("mondera", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
+            correctionAdd("Moderna vac", "Moderna COVID-19 vaccine (mRNA-1273)"); // Coronavirus
 
             correctionAdd("RNA vaccine", "mRNA vaccine"); // Coronavirus
+
+            correctionAdd("human immunodeficiency virus", "HIV");
+
+            correctionAdd("SARS-CoV2", "SARS‑CoV‑2");
+
+            correctionAdd("vitamin K", "Vitamin K");
+
+            correctionAdd("adeno virus", "adenovirus");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -52512,6 +52570,46 @@ namespace OverflowHelper.core
             URL_Add("predecessor", "https://en.wiktionary.org/wiki/predecessor#Noun");
 
             URL_Add("warm fuzzies", "https://en.wiktionary.org/wiki/warm_fuzzy#Noun");
+
+            URL_Add("Cherry MX Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Closure Compiler", "https://en.wikipedia.org/wiki/Google_Closure_Tools#Closure_Compiler");
+
+            URL_Add("Gitian", "https://gitian.org/");
+
+            URL_Add("Gitian Builder", "https://gitian.org/");
+
+            URL_Add("Husky", "https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/#what-is-husky");
+
+            URL_Add("Newton's second law of motion", "https://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton's_second_law");
+
+            URL_Add("OnePlus A5000", "https://en.wikipedia.org/wiki/OnePlus_5");
+
+            URL_Add("Prettier", "https://prettier.io/");
+
+            URL_Add("Richard Stallman", "https://en.wikipedia.org/wiki/Richard_Stallman");
+
+            URL_Add("bootloader", "https://en.wikipedia.org/wiki/Bootloader");
+
+            URL_Add("contributes", "https://en.wiktionary.org/wiki/contribute#Verb");
+
+            URL_Add("dual-boot", "https://en.wiktionary.org/wiki/dual-boot#Adjective");
+
+            URL_Add("internal combustion engine", "https://en.wikipedia.org/wiki/Internal_combustion_engine");
+
+            URL_Add("lifeform", "https://en.wiktionary.org/wiki/lifeform#Noun");
+
+            URL_Add("nerve-racking", "https://en.wiktionary.org/wiki/nerve-racking#Adjective");
+
+            URL_Add("resetting", "https://en.wiktionary.org/wiki/reset#Verb");
+
+            URL_Add("HIV", "https://en.wikipedia.org/wiki/HIV");
+
+            URL_Add("SARS‑CoV‑2", "https://en.wikipedia.org/wiki/SARS-CoV2");
+
+            URL_Add("Vitamin K", "https://en.wikipedia.org/wiki/Vitamin_K");
+
+            URL_Add("adenovirus", "https://en.wikipedia.org/wiki/Adenoviridae");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
