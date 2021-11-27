@@ -1507,6 +1507,37 @@ namespace OverflowHelper.core
             correctionAdd("Bourne Again Shell", "Bash");
             correctionAdd("B.A.S.H", "Bash"); // But it should really be ""B.A.S.H." (we currently can't accept something that ends in punctuation)
 
+            correctionAdd("dash", "Dash");
+            correctionAdd("DASH", "Dash");
+            correctionAdd("Debian Almquist Shell", "Dash");
+
+            correctionAdd("Ash", "ash");
+            correctionAdd("Almquist", "ash");
+            correctionAdd("Almquist shell", "ash");
+
+            correctionAdd("flash", "Flash"); // Adobe's, not what is inside USB sticks.
+            correctionAdd("Adobe Flash", "Flash"); // Adobe's, not what is inside USB sticks.
+
+            // "CF" is taken by ColdFusion.
+            correctionAdd("compactflash", "CompactFlash");
+            correctionAdd("Compactflash", "CompactFlash");
+
+            correctionAdd("squach", "squash");
+
+            correctionAdd("crach", "crash");
+            correctionAdd("chrash", "crash");
+            correctionAdd("cras", "crash");
+
+            correctionAdd("get-filehash", "Get-FileHash");
+
+            correctionAdd("back slash", "backslash");
+            correctionAdd("backlash", "backslash");
+            correctionAdd("baskslash", "backslash");
+            correctionAdd("back-slash", "backslash");
+
+            correctionAdd("emdash", "em dash");
+            correctionAdd("em-dash", "em dash");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -2125,9 +2156,6 @@ namespace OverflowHelper.core
             correctionAdd("FireSheep", "Firesheep");
 
             correctionAdd("processing", "Processing");
-
-            correctionAdd("flash", "Flash"); // Adobe's, not what is inside USB sticks.
-            correctionAdd("Adobe Flash", "Flash"); // Adobe's, not what is inside USB sticks.
 
             correctionAdd("Bittorrent", "BitTorrent");
             correctionAdd("bittorrent", "BitTorrent");
@@ -6451,10 +6479,6 @@ namespace OverflowHelper.core
             correctionAdd("sha2", "SHA-2");
             correctionAdd("sha-2", "SHA-2");
 
-            // "CF" is taken by ColdFusion.
-            correctionAdd("compactflash", "CompactFlash");
-            correctionAdd("Compactflash", "CompactFlash");
-
             correctionAdd("Devexpress", "DevExpress");
             correctionAdd("devexpress", "DevExpress");
 
@@ -8449,6 +8473,7 @@ namespace OverflowHelper.core
             correctionAdd("microsoft word", "Microsoft Word");
             correctionAdd("msword", "Microsoft Word");
             correctionAdd("winword", "Microsoft Word");
+            correctionAdd("WORD", "Microsoft Word");
 
             correctionAdd("iso", "ISO image");
             correctionAdd("ISO", "ISO image");
@@ -9948,6 +9973,7 @@ namespace OverflowHelper.core
             correctionAdd("automaitcally", "automatically");
             correctionAdd("automnatically", "automatically");
             correctionAdd("otomatically", "automatically");
+            correctionAdd("automaticly", "automatically");
 
             correctionAdd("Compatability", "compatibility"); // Common misspelling...
             correctionAdd("compatability", "compatibility"); // Common misspelling...
@@ -11100,6 +11126,7 @@ namespace OverflowHelper.core
 
             correctionAdd("particuliar", "particular");
             correctionAdd("perticular", "particular");
+            correctionAdd("particuler", "particular");
 
             correctionAdd("canadian", "Canadian");
 
@@ -13147,8 +13174,6 @@ namespace OverflowHelper.core
             correctionAdd("weired", "weird");
             correctionAdd("waired", "weird");
 
-            correctionAdd("squach", "squash");
-
             correctionAdd("ocr", "OCR");
 
             correctionAdd("odbc", "ODBC");
@@ -14466,10 +14491,6 @@ namespace OverflowHelper.core
             correctionAdd("contrieved", "contrived");
             correctionAdd("Contrived", "contrived");
 
-            correctionAdd("crach", "crash");
-            correctionAdd("chrash", "crash");
-            correctionAdd("cras", "crash");
-
             correctionAdd("day to day", "day-to-day");
 
             correctionAdd("emmigrate", "emigrate");
@@ -14780,8 +14801,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fiverr", "Fiverr");
             correctionAdd("fiver", "Fiverr");
-
-            correctionAdd("get-filehash", "Get-FileHash");
 
             correctionAdd("Jmeter", "JMeter");
             correctionAdd("jMeter", "JMeter");
@@ -15702,11 +15721,6 @@ namespace OverflowHelper.core
 
             correctionAdd("auto generate", "autogenerate");
 
-            correctionAdd("back slash", "backslash");
-            correctionAdd("backlash", "backslash");
-            correctionAdd("baskslash", "backslash");
-            correctionAdd("back-slash", "backslash");
-
             correctionAdd("boot-camp", "coding bootcamp");
             correctionAdd("coding boot-camp", "coding bootcamp");
 
@@ -15772,10 +15786,6 @@ namespace OverflowHelper.core
             correctionAdd("unlimeted", "unlimited");
 
             correctionAdd("uesr", "user");
-
-            correctionAdd("dash", "Dash");
-            correctionAdd("DASH", "Dash");
-            correctionAdd("Debian Almquist Shell", "Dash");
 
             correctionAdd("FireStore", "Firestore");
             correctionAdd("Firestorm", "Firestore");
@@ -15884,9 +15894,6 @@ namespace OverflowHelper.core
             correctionAdd("currenctly", "currently");
             correctionAdd("Currenly", "currently");
             correctionAdd("currenly", "currently");
-
-            correctionAdd("emdash", "em dash");
-            correctionAdd("em-dash", "em dash");
 
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
@@ -16011,8 +16018,6 @@ namespace OverflowHelper.core
             correctionAdd("Abstract Base Class", "abstract base class");
 
             correctionAdd("ammendment", "amendment");
-
-            correctionAdd("Ash", "ash");
 
             correctionAdd("eventully", "eventually");
 
@@ -17146,6 +17151,7 @@ namespace OverflowHelper.core
             correctionAdd("yarn", "Yarn");
 
             correctionAdd("conveyance", "convenience");
+            correctionAdd("convinience", "convenience");
 
             correctionAdd("coverup", "cover-up");
             correctionAdd("cover up", "cover-up");
@@ -18632,6 +18638,7 @@ namespace OverflowHelper.core
             correctionAdd("some how", "somehow");
             correctionAdd("sumhow", "somehow");
             correctionAdd("Some how", "somehow");
+            correctionAdd("someway", "somehow");
 
             correctionAdd("How", "how");
             correctionAdd("haw", "how");
@@ -20549,6 +20556,7 @@ namespace OverflowHelper.core
             correctionAdd("hte", "the");
             correctionAdd("thge", "the");
             correctionAdd("thee", "the");
+            correctionAdd("Theb", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -20587,6 +20595,7 @@ namespace OverflowHelper.core
             correctionAdd("practially", "practically");
 
             correctionAdd("quility", "quality");
+            correctionAdd("qulity", "quality");
 
             correctionAdd("querys", "queries");
             correctionAdd("Queries", "queries");
@@ -27482,6 +27491,7 @@ namespace OverflowHelper.core
             correctionAdd("krita", "Krita");
 
             correctionAdd("Openshift", "OpenShift");
+            correctionAdd("openshift", "OpenShift");
 
             correctionAdd("Tomi Nyback", "Tomi Nybäck");
 
@@ -27652,6 +27662,7 @@ namespace OverflowHelper.core
             correctionAdd("intergal", "integral");
 
             correctionAdd("key-stroke", "keystroke");
+            correctionAdd("key stroke", "keystroke");
 
             correctionAdd("laufing", "laughing");
 
@@ -28436,6 +28447,8 @@ namespace OverflowHelper.core
             correctionAdd("hashbang", "shebang");
             correctionAdd("pound-bang", "shebang");
             correctionAdd("Shebang", "shebang");
+            correctionAdd("she-bang", "shebang");
+            correctionAdd("she bang", "shebang");
 
             correctionAdd("vlume", "volume");
             correctionAdd("vulme", "volume");
@@ -28593,6 +28606,7 @@ namespace OverflowHelper.core
             correctionAdd("Newton", "newton");
 
             correctionAdd("non destructive", "nondestructive");
+            correctionAdd("none destructive", "nondestructive");
 
             correctionAdd("ghostery", "Ghostery");
 
@@ -29409,6 +29423,7 @@ namespace OverflowHelper.core
 
             correctionAdd("google sheets", "Google Sheets");
             correctionAdd("googlesheet", "Google Sheets");
+            correctionAdd("googlesheets", "Google Sheets");
 
             correctionAdd("Pd", "Palladium");
             correctionAdd("palladium", "Palladium");
@@ -33457,6 +33472,36 @@ namespace OverflowHelper.core
             correctionAdd("labeld", "labelled");
 
             correctionAdd("in the order of", "on the order of");
+
+            correctionAdd("Git hook", "Git hooks");
+
+            correctionAdd("Islam SE", "Islam (Stack Exchange site)");
+
+            correctionAdd("Wall", "Larry Wall");
+
+            correctionAdd("PyGithub", "PyGitHub");
+            correctionAdd("pyGithub", "PyGitHub");
+
+            correctionAdd("quip", "Quip");
+
+            correctionAdd("shellcheck", "ShellCheck");
+
+            correctionAdd("WPML", "WordPress Multilingual");
+
+            correctionAdd("beside", "besides");
+
+            correctionAdd("cal", "calorie");
+
+            correctionAdd("causasion", "causation");
+
+            correctionAdd("drumroll", "drum roll");
+
+            correctionAdd("Lithium battery", "lithium-ion battery");
+            correctionAdd("lithium battery", "lithium-ion battery");
+
+            correctionAdd("missprint", "misprint");
+
+            correctionAdd("re-activate", "reactivate");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52622,6 +52667,34 @@ namespace OverflowHelper.core
             URL_Add("labelled", "https://en.wiktionary.org/wiki/label#Verb");
 
             URL_Add("on the order of", "https://en.wiktionary.org/wiki/on_the_order_of#Adverb");
+
+            URL_Add("Git hooks", "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks");
+
+            URL_Add("Islam (Stack Exchange site)", "https://islam.stackexchange.com/tour");
+
+            URL_Add("Larry Wall", "https://en.wikipedia.org/wiki/Larry_Wall");
+
+            URL_Add("PyGitHub", "https://pypi.org/project/PyGithub/");
+
+            URL_Add("Quip", "https://en.wikipedia.org/wiki/Quip_(software)");
+
+            URL_Add("ShellCheck", "https://www.shellcheck.net/");
+
+            URL_Add("WordPress Multilingual", "https://hr.wikipedia.org/wiki/WPML");
+
+            URL_Add("besides", "https://en.wiktionary.org/wiki/besides#Preposition");
+
+            URL_Add("calorie", "https://en.wikipedia.org/wiki/Calorie");
+
+            URL_Add("causation", "https://en.wiktionary.org/wiki/causation#Noun");
+
+            URL_Add("drum roll", "https://en.wiktionary.org/wiki/drum_roll#Noun");
+
+            URL_Add("lithium-ion battery", "https://en.wikipedia.org/wiki/Lithium-ion_battery");
+
+            URL_Add("misprint", "https://en.wiktionary.org/wiki/misprint#Verb");
+
+            URL_Add("reactivate", "https://en.wiktionary.org/wiki/reactivate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
