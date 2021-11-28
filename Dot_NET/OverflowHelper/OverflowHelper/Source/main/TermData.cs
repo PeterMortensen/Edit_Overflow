@@ -37175,7 +37175,7 @@ namespace OverflowHelper.core
 
             URL_Add("World War II", "https://en.wikipedia.org/wiki/World_War_II");
 
-            URL_Add("whereas", "https://en.wiktionary.org/wiki/whereas#Adverb");
+            URL_Add("whereas", "https://en.wiktionary.org/wiki/whereas#Conjunction"); // Old: https://en.wiktionary.org/wiki/whereas#Adverb
 
             URL_Add("everything", "https://en.wiktionary.org/wiki/everything#Pronoun");
 
@@ -39918,7 +39918,7 @@ namespace OverflowHelper.core
 
             URL_Add("fdisk", "https://en.wikipedia.org/wiki/Fdisk");
 
-            URL_Add("in other words", "https://en.wiktionary.org/wiki/IOW#Adverb");
+            URL_Add("in other words", "https://en.wiktionary.org/wiki/in_other_words#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/IOW#Adverb
 
             URL_Add("iproute2", "https://en.wikipedia.org/wiki/Iproute2");
 
@@ -40274,7 +40274,7 @@ namespace OverflowHelper.core
 
             URL_Add("user", "https://en.wiktionary.org/wiki/user#Noun");
 
-            URL_Add("Dash", "https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions");
+            URL_Add("Dash", "https://en.wikipedia.org/wiki/Almquist_shell#Dash"); // Old: https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions
 
             URL_Add("Firestore", "https://en.wikipedia.org/wiki/Firebase#Firebase_Cloud_Firestore");
 
@@ -45820,7 +45820,7 @@ namespace OverflowHelper.core
 
             URL_Add("short-term", "https://en.wiktionary.org/wiki/reearn#Verb");
 
-            URL_Add("Sputnik V", "https://en.wikipedia.org/wiki/Gam-COVID-Vac");
+            URL_Add("Sputnik V", "https://en.wikipedia.org/wiki/Sputnik_V_COVID-19_vaccine"); // Old: https://en.wikipedia.org/wiki/Gam-COVID-Vac
 
             URL_Add("Ohio State University", "https://en.wikipedia.org/wiki/Ohio_State_University");
 
