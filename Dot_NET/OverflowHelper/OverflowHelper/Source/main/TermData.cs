@@ -26693,6 +26693,7 @@ namespace OverflowHelper.core
             correctionAdd("erron", "error");
             correctionAdd("Error", "error");
             correctionAdd("eror", "error");
+            correctionAdd("errorr", "error");
 
             correctionAdd("re-boot", "reboot");
 
@@ -33502,6 +33503,13 @@ namespace OverflowHelper.core
             correctionAdd("missprint", "misprint");
 
             correctionAdd("re-activate", "reactivate");
+
+            correctionAdd("caucious", "cautious");
+
+            correctionAdd("stumbled into", "stumbled upon");
+            correctionAdd("stumbled onto", "stumbled upon");
+
+            correctionAdd("swapiness", "swappiness");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52695,6 +52703,12 @@ namespace OverflowHelper.core
             URL_Add("misprint", "https://en.wiktionary.org/wiki/misprint#Verb");
 
             URL_Add("reactivate", "https://en.wiktionary.org/wiki/reactivate#Verb");
+
+            URL_Add("cautious", "https://en.wiktionary.org/wiki/cautious#Adjective");
+
+            URL_Add("stumbled upon", "https://en.wiktionary.org/wiki/stumble_upon#Verb");
+
+            URL_Add("swappiness", "https://www.howtogeek.com/449691/what-is-swapiness-on-linux-and-how-to-change-it/");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...

@@ -1,8 +1,8 @@
 ########################################################################
 #                                                                      #
-# Purpose: Compilation and running of part of the Edit Overflow        #
-#          on Linux. It produces SQL and HTML exports of the           #
-#          Edit Overflow wordlist.                                     #
+# Purpose: Compilation and running of part of Edit Overflow            #
+#          on Linux. It produces SQL and HTML exports of               #
+#          the Edit Overflow wordlist.                                 #
 #                                                                      #
 #          The running part is of C# code (.NET). The testing          #
 #          is both for C# and JavaScript. And systen regression        #
@@ -32,6 +32,10 @@
 #          We also use the opportunity to run all the unit             #
 #          tests (based on NUnit).                                     #
 #                                                                      #
+#          We also run the PHP code (for the web application),         #
+#          both from the command line and through a local web          #
+#          server, effectively both unit tests and                     #
+#          integration tests Selenium                                  #
 #                                                                      #
 # Driver script for copying only the necessary files to a              #
 # work folder, compile and run part of the .NET code for               #
@@ -363,8 +367,11 @@ export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${REMOTE_WEB_ERRORLOG_FIL
 
 # Avoid "unary operator expected" error. We want to make it work
 # when environment variable "DISABLE_HTMLVALIDATION" is left out
-# entirely. It is also to declutter the main script with this
-# test.
+# entirely (e.g., it is only defined when selectively leaving 
+# out the HTML validation build step when the (external) 
+# service is down) - the normal (nominal case) is that 
+# it is left out (undefined). It is also to declutter 
+# the main script with this test.
 #
 if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
     export DISABLE_HTMLVALIDATION=0
@@ -377,7 +384,7 @@ fi
 # A helper function to reduce redundancy.
 #
 # Outputs the current date and time in ISO 8601 format, followed
-# by subsecond information
+# by subsecond information (to standard output)
 #
 # Notes:
 #
@@ -400,10 +407,11 @@ function absoluteTimestamp()
 #
 # A helper function to reduce redundancy.
 #
-# Outputs the current date and time in ISO 8601 format,
-# followed by subsecond information, prefixed by the
-# specified string (e.g., "Start time"), and with
-# leading and trailing empty lines.
+# Outputs the current date and time in ISO 8601 format (to 
+# standard output), followed by subsecond information, 
+# prefixed by the specified string (e.g., "Start time"), 
+# and with the specified prefix, and leading and 
+# trailing empty lines.
 #
 # Parameters:
 #
@@ -439,9 +447,12 @@ function timeStamp()
 #
 # A helper function to reduce redundancy.
 #
+# For marking start of a build step.
+#
 # Mostly for the screen output, but we can also use it
 # for marking the start of a step in time (e.g., to
-# record / output ***timing*** information).
+# record / output ***timing*** information) - as a
+# timestamp is automatically output.
 #
 # Parameters:
 #
@@ -509,6 +520,11 @@ function evaluateBuildResult()
 
 # ###########################################################################
 #
+# A helper function to reduce redundancy.
+#
+# Check if two strings are equal. It stops the entire build and 
+# outputs a message (to standard output) if they are not. 
+#
 # Parameters:
 #
 #    $1   String 1
@@ -518,6 +534,10 @@ function evaluateBuildResult()
 #    $3   Build step number
 #
 #    $4   String identifying the build step
+#
+# Return value:
+#
+#   0 if            
 #
 function mustBeEqual()
 {
@@ -617,8 +637,8 @@ function HTML_validation()
 #        does not end up on web pages
 #
 #     3. Detection of failed PHP unit tests (so we don't overlook them
-#        (every run of the build script will check for it). The result
-#        would end up on the web page)
+#        (every run of the build script will check for it). The output
+#        from failed tests would end up on the web page).
 #
 # Parameters:
 #
@@ -674,7 +694,7 @@ function PHP_code_test()
     #
     # Note: $3 (build number) is to make it unique (so we don't overwrite
     #       previous output files (for the current build script run)).
-    #       $1 is for information only
+    #       $1 is for information only.
     #
     export PHPRUN_ID="$3_$1"
     export STDERR_FILE="_stdErr_${PHPRUN_ID}.txt"
@@ -1541,7 +1561,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 29 $? "copying the HTML word list to
 #   2021-10-05T154904   "The connection has timed out. The server at
 #                        validator.w3.org is taking too long to respond."
 #
-#                        Still not up as of:
+#                        Still not up as of (a Tuesday):
 #
 #                           2021-10-05T151046Z+0
 #                           2021-10-05T160837Z+0
@@ -1572,7 +1592,7 @@ fi
 #
 # Some checks of the generated HTML:
 #
-#   1. Unique HTML anchors
+#   1. Unique HTML anchors (only one if we 'grep' for one)
 #
 #   2. XXX
 #
