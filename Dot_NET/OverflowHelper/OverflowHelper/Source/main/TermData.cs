@@ -11369,6 +11369,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
 
             correctionAdd("vsts", "VSTS");
             correctionAdd("Visual Studio Team Services", "VSTS");
@@ -17147,6 +17148,7 @@ namespace OverflowHelper.core
             correctionAdd("waybackmachine", "Wayback Machine");
             correctionAdd("wayback machine", "Wayback Machine");
             correctionAdd("Wayback machine", "Wayback Machine");
+            correctionAdd("web archive", "Wayback Machine");
 
             correctionAdd("yarn", "Yarn");
 
@@ -20812,6 +20814,7 @@ namespace OverflowHelper.core
             correctionAdd("beam", "BEAM");
 
             correctionAdd("abandonded", "abandoned");
+            correctionAdd("abandonned", "abandoned");
 
             correctionAdd("battallion", "battalion");
 
@@ -33475,6 +33478,9 @@ namespace OverflowHelper.core
             correctionAdd("in the order of", "on the order of");
 
             correctionAdd("Git hook", "Git hooks");
+            correctionAdd("githooks", "Git hooks");
+            correctionAdd("git-hooks", "Git hooks");
+            correctionAdd("git hooks", "Git hooks");
 
             correctionAdd("Islam SE", "Islam (Stack Exchange site)");
 
@@ -33510,6 +33516,28 @@ namespace OverflowHelper.core
             correctionAdd("stumbled onto", "stumbled upon");
 
             correctionAdd("swapiness", "swappiness");
+            correctionAdd("Swappiness", "swappiness");
+
+            correctionAdd("git filter-branch", "Git filter branch");
+            correctionAdd("BFG", "Git filter branch");
+            correctionAdd("BGF", "Git filter branch");
+            correctionAdd("git-filter-branch", "Git filter branch");
+
+            correctionAdd("git-filter-repo", "Git filter-repo");
+
+            correctionAdd("championship 2021", "World Chess Championship 2021");
+
+            correctionAdd("appeace", "appease");
+
+            correctionAdd("convinse", "convince");
+
+            correctionAdd("Our", "our");
+
+            correctionAdd("Pyramid scheme", "pyramid scheme");
+
+            correctionAdd("confidence trick", "scam");
+
+            correctionAdd("split second", "split-second");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52709,6 +52737,24 @@ namespace OverflowHelper.core
             URL_Add("stumbled upon", "https://en.wiktionary.org/wiki/stumble_upon#Verb");
 
             URL_Add("swappiness", "https://www.howtogeek.com/449691/what-is-swapiness-on-linux-and-how-to-change-it/");
+
+            URL_Add("Git filter branch", "http://rtyley.github.io/bfg-repo-cleaner/");
+
+            URL_Add("Git filter-repo", "https://github.com/newren/git-filter-repo/");
+
+            URL_Add("World Chess Championship 2021", "https://en.wikipedia.org/wiki/World_Chess_Championship_2021");
+
+            URL_Add("appease", "https://en.wiktionary.org/wiki/appease#Verb");
+
+            URL_Add("convince", "https://en.wiktionary.org/wiki/convince#Verb");
+
+            URL_Add("our", "https://en.wiktionary.org/wiki/our#Determiner");
+
+            URL_Add("pyramid scheme", "https://en.wikipedia.org/wiki/Pyramid_scheme");
+
+            URL_Add("scam", "https://en.wikipedia.org/wiki/Confidence_trick");
+
+            URL_Add("split-second", "https://en.wiktionary.org/wiki/split-second#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
