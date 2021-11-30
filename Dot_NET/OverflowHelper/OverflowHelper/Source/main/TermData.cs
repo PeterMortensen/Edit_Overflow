@@ -9567,6 +9567,7 @@ namespace OverflowHelper.core
             correctionAdd("neccesery", "necessary");
             correctionAdd("necesarry", "necessary");
             correctionAdd("necessarry", "necessary");
+            correctionAdd("necessasry", "necessary");
 
             correctionAdd("unneccessary", "unnecessary");
             correctionAdd("unncessary", "unnecessary");
@@ -9853,6 +9854,7 @@ namespace OverflowHelper.core
             correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
             correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
             correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Heisenberg's Uncertainty Principle", "Heisenberg's uncertainty principle");
 
             correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
 
@@ -9991,6 +9993,7 @@ namespace OverflowHelper.core
             correctionAdd("compatabily", "compatibility");
             correctionAdd("Compatiblity", "compatibility");
             correctionAdd("comptability", "compatibility");
+            correctionAdd("Compatibly", "compatibility");
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
@@ -10812,6 +10815,7 @@ namespace OverflowHelper.core
             correctionAdd("schroedinger equation", "Schrödinger equation");
             correctionAdd("Schroedinger equation", "Schrödinger equation");
             correctionAdd("Schrödinger", "Schrödinger equation");
+            correctionAdd("Schrodinger's equation", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -19163,6 +19167,8 @@ namespace OverflowHelper.core
 
             correctionAdd("february", "February");
             correctionAdd("Februari", "February");
+            correctionAdd("Fab", "February");
+            correctionAdd("Feb", "February");
 
             correctionAdd("january", "January");
             correctionAdd("Jan", "January");
@@ -19373,6 +19379,7 @@ namespace OverflowHelper.core
             correctionAdd("implament", "implement");
             correctionAdd("impement", "implement");
             correctionAdd("implemet", "implement");
+            correctionAdd("implemnt", "implement");
 
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
@@ -24111,6 +24118,7 @@ namespace OverflowHelper.core
             correctionAdd("november", "November");
             correctionAdd("Nov", "November");
             correctionAdd("nov", "November");
+            correctionAdd("Nav", "November");
 
             correctionAdd("plc", "PLC");
 
@@ -25120,6 +25128,7 @@ namespace OverflowHelper.core
 
             correctionAdd("december", "December");
             correctionAdd("Dec", "December");
+            correctionAdd("Des", "December");
 
             correctionAdd("eton", "Eton");
 
@@ -32692,6 +32701,8 @@ namespace OverflowHelper.core
             correctionAdd("win win", "win-win");
 
             correctionAdd("august", "August");
+            correctionAdd("Agu", "August");
+            correctionAdd("Aug", "August");
 
             correctionAdd("changable", "changeable");
 
@@ -33538,6 +33549,35 @@ namespace OverflowHelper.core
             correctionAdd("confidence trick", "scam");
 
             correctionAdd("split second", "split-second");
+
+            correctionAdd("AIDA", "AIDA64");
+
+            correctionAdd("HP", "Hewlett-Packard");
+
+            correctionAdd("Quinoline yellow", "Quinoline Yellow SS");
+            correctionAdd("quinoline yellow", "Quinoline Yellow SS");
+
+            correctionAdd("TP-LINK", "TP-Link");
+
+            correctionAdd("Power Delivery", "USB power delivery");
+            correctionAdd("USB Power Delivery", "USB power delivery");
+
+            correctionAdd("Windows Management Instrumentation Command-line", "WMIC");
+            correctionAdd("wmic", "WMIC");
+
+            correctionAdd("best case scenario", "best-case scenario");
+
+            correctionAdd("commision", "commission");
+
+            correctionAdd("gose", "goes");
+
+            correctionAdd("heder", "header");
+
+            correctionAdd("heding", "heading");
+
+            correctionAdd("Specialty", "specialty");
+
+            correctionAdd("Spectrophotometry", "spectrophotometry");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52755,6 +52795,32 @@ namespace OverflowHelper.core
             URL_Add("scam", "https://en.wikipedia.org/wiki/Confidence_trick");
 
             URL_Add("split-second", "https://en.wiktionary.org/wiki/split-second#Noun");
+
+            URL_Add("AIDA64", "https://en.wikipedia.org/wiki/AIDA64");
+
+            URL_Add("Hewlett-Packard", "https://en.wikipedia.org/wiki/Hewlett-Packard");
+
+            URL_Add("Quinoline Yellow SS", "https://en.wikipedia.org/wiki/Quinoline_Yellow_SS");
+
+            URL_Add("TP-Link", "https://en.wikipedia.org/wiki/TP-Link");
+
+            URL_Add("USB power delivery", "https://en.wikipedia.org/wiki/USB_hardware#USB_power_delivery");
+
+            URL_Add("WMIC", "https://en.wikipedia.org/wiki/Windows_Management_Instrumentation");
+
+            URL_Add("best-case scenario", "https://en.wiktionary.org/wiki/best-case_scenario#Noun");
+
+            URL_Add("commission", "https://en.wiktionary.org/wiki/commission#Verb");
+
+            URL_Add("goes", "https://en.wiktionary.org/wiki/go#Verb");
+
+            URL_Add("header", "https://en.wiktionary.org/wiki/header#Noun");
+
+            URL_Add("heading", "https://en.wiktionary.org/wiki/heading#Noun");
+
+            URL_Add("specialty", "https://en.wiktionary.org/wiki/specialty#Noun");
+
+            URL_Add("spectrophotometry", "https://en.wikipedia.org/wiki/Spectrophotometry");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
