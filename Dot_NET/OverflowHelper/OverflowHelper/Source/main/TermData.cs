@@ -2621,12 +2621,6 @@ namespace OverflowHelper.core
             correctionAdd("ASCIi", "ASCII");
             correctionAdd("acii", "ASCII");
 
-            correctionAdd("fluent nhibernate", "Fluent NHibernate");
-            correctionAdd("Fluentnhibernate", "Fluent NHibernate");
-            correctionAdd("fluentnhibernate", "Fluent NHibernate");
-            correctionAdd("fluent", "Fluent NHibernate");
-            correctionAdd("FluentNhibernate", "Fluent NHibernate");
-
             correctionAdd("haskell", "Haskell");
             correctionAdd("Haskall", "Haskell");
 
@@ -10963,8 +10957,6 @@ namespace OverflowHelper.core
             correctionAdd("put", "PUT");
             correctionAdd("Put", "PUT");
 
-            correctionAdd("delete", "DELETE");
-
             correctionAdd("fieasable", "feasible");
             correctionAdd("fisible", "feasible");
             correctionAdd("feasable", "feasible");
@@ -17519,8 +17511,6 @@ namespace OverflowHelper.core
             correctionAdd("pinta", "Pinta");
             correctionAdd("Pinto", "Pinta");
 
-            correctionAdd("transmission", "Transmission");
-
             correctionAdd("USB memory", "USB flash drive");
             correctionAdd("thum drive", "USB flash drive");
             correctionAdd("thumb drive", "USB flash drive");
@@ -23000,8 +22990,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Extreme Programming", "extreme programming");
 
-            correctionAdd("GW", "gigawatt");
-
             correctionAdd("incidious", "insidious");
 
             correctionAdd("vasal", "vassal");
@@ -23631,9 +23619,6 @@ namespace OverflowHelper.core
             correctionAdd("upside-down", "upside down");
 
             correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
-
-            correctionAdd("GD", "GD Graphics Library");
-            correctionAdd("GD library", "GD Graphics Library");
 
             correctionAdd("lib", "library");
             correctionAdd("Lib", "library"); // Not 100% correct - casing.
@@ -28518,8 +28503,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Chili", "Chile");
 
-            correctionAdd("NV", "Nevada, United States");
-
             correctionAdd("Oracle ASM", "Oracle Automatic Storage Management");
 
             correctionAdd("pySerial", "PySerial");
@@ -28640,7 +28623,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mayority", "majority");
 
-            correctionAdd("more pretty", "prettier");
+            correctionAdd("PRETTIER", "Prettier");
 
             correctionAdd("re-throw", "rethrow");
 
@@ -30469,8 +30452,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Baryonic", "baryonic");
 
-            correctionAdd("Con", "con");
-
             correctionAdd("daily Scrum", "daily scrum");
 
             correctionAdd("decmial", "decimal");
@@ -32027,8 +32008,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tesla coil", "Tesla coil");
 
-            correctionAdd("aer", "are");
-
             correctionAdd("FSA", "finite-state automaton");
 
             correctionAdd("Fresher", "fresher");
@@ -32146,6 +32125,7 @@ namespace OverflowHelper.core
 
             correctionAdd("GWs", "gravitational wave");
             correctionAdd("Gravitational Wave", "gravitational wave");
+            correctionAdd("GW", "gravitational wave");
 
             correctionAdd("gSchem", "gschem");
 
@@ -33476,8 +33456,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ONEPLUS A5000", "OnePlus A5000");
 
-            correctionAdd("PRETTIER", "Prettier");
-
             correctionAdd("Richard Stalman", "Richard Stallman");
             correctionAdd("Stallman", "Richard Stallman");
 
@@ -33562,6 +33540,7 @@ namespace OverflowHelper.core
             correctionAdd("Pyramid scheme", "pyramid scheme");
 
             correctionAdd("confidence trick", "scam");
+            correctionAdd("con", "scam");
 
             correctionAdd("split second", "split-second");
 
@@ -33664,6 +33643,12 @@ namespace OverflowHelper.core
             correctionAdd("varios", "various");
 
             correctionAdd("uTox", "µTox");
+
+            correctionAdd("deleate", "delete");
+
+            correctionAdd("fluent", "fluent interface");
+
+            correctionAdd("transmision", "transmission");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -34627,8 +34612,6 @@ namespace OverflowHelper.core
             URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
 
             URL_Add("ASCII", "https://en.wikipedia.org/wiki/ASCII");
-
-            URL_Add("Fluent NHibernate", "https://github.com/FluentNHibernate/fluent-nhibernate/wiki/getting-started"); // XXX Old (completely broken): http://fluentnhibernate.org/
 
             URL_Add("asynchronously", "https://en.wiktionary.org/wiki/asynchronously#Adverb"); // Old: https://en.wiktionary.org/wiki/asynchronously
 
@@ -36036,8 +36019,6 @@ namespace OverflowHelper.core
             URL_Add("SQL injection", "https://en.wikipedia.org/wiki/SQL_injection");
 
             URL_Add("MySQLi", "https://en.wikipedia.org/wiki/MySQLi");
-
-            URL_Add("GD Graphics Library", "https://en.wikipedia.org/wiki/GD_Graphics_Library");
 
             // URL_Add("NETMF", "https://en.wikipedia.org/wiki/.NET_Micro_Framework");
             //
@@ -37642,8 +37623,6 @@ namespace OverflowHelper.core
             URL_Add("actually", "https://en.wiktionary.org/wiki/actually#Adverb");
 
             URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("DELETE", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
 
             URL_Add("feasible", "https://en.wiktionary.org/wiki/feasible#Adjective");
 
@@ -41494,8 +41473,6 @@ namespace OverflowHelper.core
 
             URL_Add("Pinta", "https://en.wikipedia.org/wiki/Pinta_%28software%29");
 
-            URL_Add("Transmission", "https://en.wikipedia.org/wiki/Transmission_(BitTorrent_client)");
-
             URL_Add("USB flash drive", "https://en.wikipedia.org/wiki/USB_flash_drive");
 
             URL_Add("compilable", "https://en.wiktionary.org/wiki/compilable#Adjective");
@@ -44769,8 +44746,6 @@ namespace OverflowHelper.core
             URL_Add("cover", "https://en.wiktionary.org/wiki/cover#Verb");
 
             URL_Add("extreme programming", "https://en.wikipedia.org/wiki/Extreme_programming");
-
-            URL_Add("gigawatt", "https://en.wiktionary.org/wiki/gigawatt#Noun");
 
             URL_Add("insidious", "https://en.wiktionary.org/wiki/insidious#Adjective");
 
@@ -48942,8 +48917,6 @@ namespace OverflowHelper.core
 
             URL_Add("Chile", "https://en.wikipedia.org/wiki/Chile");
 
-            URL_Add("Nevada, United States", "https://en.wikipedia.org/wiki/Nevada");
-
             URL_Add("Oracle Automatic Storage Management", "https://en.wikipedia.org/wiki/Automatic_Storage_Management");
 
             URL_Add("PySerial", "https://wiki.python.org/moin/PySerial");
@@ -49041,8 +49014,6 @@ namespace OverflowHelper.core
             URL_Add("dinar", "https://en.wiktionary.org/wiki/dinar#Noun");
 
             URL_Add("majority", "https://en.wiktionary.org/wiki/majority#Noun");
-
-            URL_Add("prettier", "https://en.wiktionary.org/wiki/prettier#Adjective");
 
             URL_Add("rethrow", "https://en.wiktionary.org/wiki/rethrow#Verb");
 
@@ -50440,8 +50411,6 @@ namespace OverflowHelper.core
 
             URL_Add("baryonic", "https://en.wiktionary.org/wiki/baryonic#Adjective");
 
-            URL_Add("con", "https://en.wiktionary.org/wiki/con#Noun");
-
             URL_Add("daily scrum", "https://en.wikipedia.org/wiki/Scrum_%28software_development%29#Daily_scrum");
 
             URL_Add("decimal", "https://en.wiktionary.org/wiki/decimal#Noun");
@@ -51555,8 +51524,6 @@ namespace OverflowHelper.core
             URL_Add("RealVNC", "https://www.realvnc.com/en/");
 
             URL_Add("Tesla coil", "https://en.wikipedia.org/wiki/Tesla_coil");
-
-            URL_Add("are", "https://en.wiktionary.org/wiki/are#Verb");
 
             URL_Add("finite-state automaton", "https://en.wikipedia.org/wiki/Finite-state_automaton");
 
@@ -52960,6 +52927,12 @@ namespace OverflowHelper.core
 
             URL_Add("µTox", "https://en.wikipedia.org/wiki/Tox_(protocol)#Clients");
 
+            URL_Add("delete", "https://en.wiktionary.org/wiki/delete#Verb");
+
+            URL_Add("fluent interface", "https://en.wikipedia.org/wiki/Fluent_interface");
+
+            URL_Add("transmission", "https://en.wiktionary.org/wiki/transmission#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53006,6 +52979,75 @@ namespace OverflowHelper.core
 
             correctionAdd("if_", "of_");
 
+            correctionAdd("GW_", "gigawatt_");
+
+            correctionAdd("transmission_", "Transmission_");
+
+            correctionAdd("fluent nhibernate_", "Fluent NHibernate_");
+            correctionAdd("Fluentnhibernate_", "Fluent NHibernate_");
+            correctionAdd("fluentnhibernate_", "Fluent NHibernate_");
+            correctionAdd("fluent_", "Fluent NHibernate_");
+            correctionAdd("FluentNhibernate_", "Fluent NHibernate_");
+
+            correctionAdd("GD_", "GD Graphics Library_");
+            correctionAdd("GD library_", "GD Graphics Library_");
+
+            correctionAdd("delete_", "DELETE_");
+
+            correctionAdd("NV_", "Nevada, United States_");
+
+            correctionAdd("aer_", "are_");
+            correctionAdd("hare_", "are_");
+
+            correctionAdd("more pretty_", "prettier_");
+            correctionAdd("Prettier_", "prettier_");
+
+            correctionAdd("Con_", "con_");
+
+            correctionAdd("BLM_", "Bureau of Land Management_");
+
+            correctionAdd("cake_", "Cake_");
+
+            correctionAdd("GNU DDD_", "Data Display Debugger_");
+            correctionAdd("DDD_", "Data Display Debugger_");
+
+            correctionAdd("homestead_", "Homestead_");
+
+            correctionAdd("kde_", "KDE_");
+
+            correctionAdd("n1_", "N1_");
+
+            correctionAdd("OSC_", "Open Sound Control_");
+
+            correctionAdd("vdi_", "Virtual Desktop Infrastructure_");
+            correctionAdd("VDI_", "Virtual Desktop Infrastructure_");
+
+            correctionAdd("VI_", "Vodafone Idea_");
+            correctionAdd("vi_", "Vodafone Idea_");
+            correctionAdd("Vi_", "Vodafone Idea_");
+
+            correctionAdd("ans_", "and_");
+
+            correctionAdd("BC_", "bc_");
+
+            correctionAdd("COMM_", "comm_");
+
+            correctionAdd("df_", "dataframe_");
+
+            correctionAdd("GA_", "general-availability_");
+
+            correctionAdd("quiete_", "quite_");
+
+            correctionAdd("sheild_", "shield_");
+
+            correctionAdd("Signal Processing_", "signal processing_");
+
+            correctionAdd("sop_", "stop_");
+
+            correctionAdd("tex_", "text_");
+
+            correctionAdd("tieing_", "tying_");
+
             // URL mappings
             //
             //
@@ -53024,6 +53066,64 @@ namespace OverflowHelper.core
             URL_Add("new_", "https://en.wiktionary.org/wiki/new#Adjective");
 
             URL_Add("of_", "https://en.wiktionary.org/wiki/of#Preposition");
+
+            URL_Add("gigawatt_", "https://en.wiktionary.org/wiki/gigawatt#Noun");
+
+            URL_Add("Transmission_", "https://en.wikipedia.org/wiki/Transmission_(BitTorrent_client)");
+
+            URL_Add("Fluent NHibernate_", "https://github.com/FluentNHibernate/fluent-nhibernate/wiki/getting-started"); // XXX Old (completely broken): http://fluentnhibernate.org/
+
+            URL_Add("GD Graphics Library_", "https://en.wikipedia.org/wiki/GD_Graphics_Library");
+
+            URL_Add("DELETE_", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("Nevada, United States_", "https://en.wikipedia.org/wiki/Nevada");
+
+            URL_Add("are_", "https://en.wiktionary.org/wiki/are#Verb");
+
+            URL_Add("prettier_", "https://en.wiktionary.org/wiki/prettier#Adjective");
+
+            URL_Add("con_", "https://en.wiktionary.org/wiki/con#Noun");
+
+            URL_Add("Bureau of Land Management_", "https://en.wikipedia.org/wiki/Bureau_of_Land_Management");
+
+            URL_Add("Cake_", "https://github.com/cake-build/cake");
+
+            URL_Add("Data Display Debugger_", "https://en.wikipedia.org/wiki/Data_Display_Debugger");
+
+            URL_Add("Homestead_", "https://en.wikipedia.org/wiki/Homestead_Technologies");
+
+            URL_Add("KDE_", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
+
+            URL_Add("N1_", "https://en.wikipedia.org/wiki/Airbreathing_jet_engine#Terminology");
+
+            URL_Add("Open Sound Control_", "https://en.wikipedia.org/wiki/Open_Sound_Control");
+
+            URL_Add("Virtual Desktop Infrastructure_", "https://en.wikipedia.org/wiki/Desktop_virtualization#Remote_desktop_virtualization");
+
+            URL_Add("Vodafone Idea_", "https://en.wikipedia.org/wiki/Vodafone_Idea");
+
+            URL_Add("and_", "https://en.wiktionary.org/wiki/and#Conjunction");
+
+            URL_Add("bc_", "https://en.wikipedia.org/wiki/Bc_(programming_language)");
+
+            URL_Add("comm_", "http://linux.die.net/man/1/comm");
+
+            URL_Add("dataframe_", "https://en.wiktionary.org/wiki/dataframe#Noun");
+
+            URL_Add("general-availability_", "https://jdk.java.net/17/");
+
+            URL_Add("quite_", "https://en.wiktionary.org/wiki/quite#Adverb");
+
+            URL_Add("shield_", "https://en.wiktionary.org/wiki/shield#Noun");
+
+            URL_Add("signal processing_", "https://en.wikipedia.org/wiki/Signal_processing");
+
+            URL_Add("stop_", "https://en.wiktionary.org/wiki/stop#Verb");
+
+            URL_Add("text_", "https://en.wiktionary.org/wiki/text#Noun");
+
+            URL_Add("tying_", "https://en.wiktionary.org/wiki/tie#Verb");
 
         } //addLookupData_alternativeWordSet()
 
