@@ -288,9 +288,7 @@ namespace OverflowHelper.core
         /****************************************************************************
          *    addLookupData                                                         *
          *                                                                          *
-         *                                                                          *
          *  Yes, most of the content in this function ought to be in a data file.   *
-         *                                                                          *
          *                                                                          *
          ****************************************************************************/
         private void addLookupData()
@@ -302,6 +300,8 @@ namespace OverflowHelper.core
             //           ToToTryExtract.pl
             //
             // Yes, most of the following content ought to be in a data file.
+
+            addLookupData_alternativeWordSet();
 
             correctionAdd("windows", "Windows");
             correctionAdd("WINDOWS", "Windows");
@@ -3466,15 +3466,21 @@ namespace OverflowHelper.core
             correctionAdd("Google map", "Google Maps");
             correctionAdd("Google maps", "Google Maps");
 
-            correctionAdd("msaccess", "Microsoft Access");
-            correctionAdd("ms-access", "Microsoft Access");
-            correctionAdd("Access", "Microsoft Access");
-            correctionAdd("ACCESS", "Microsoft Access");
-            correctionAdd("MS ACCESS", "Microsoft Access");
-            correctionAdd("ms access", "Microsoft Access");
-            correctionAdd("microsoft access", "Microsoft Access");
-            correctionAdd("MS-Access", "Microsoft Access");
-            correctionAdd("MS Access", "Microsoft Access");
+            correctionAdd("acess", "access");
+            correctionAdd("acces", "access");
+
+            correctionAdd("htacces", ".htaccess");
+            correctionAdd("htaccess", ".htaccess");
+            correctionAdd(".htaccess file", ".htaccess");
+            correctionAdd("htaccess file", ".htaccess");
+            correctionAdd(".htacces", ".htaccess");
+            correctionAdd("Htaccess", ".htaccess");
+
+            correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
+
+            correctionAdd("early access", "JDK early-access");
+            correctionAdd("EA", "JDK early-access");
+            correctionAdd("Early Access", "JDK early-access");
 
             correctionAdd("sftp", "SFTP");
             correctionAdd("sFTP", "SFTP");
@@ -15258,9 +15264,6 @@ namespace OverflowHelper.core
             correctionAdd("uwp", "UWP");
             correctionAdd("Universal Windows Platform", "UWP");
 
-            correctionAdd("acess", "access");
-            correctionAdd("acces", "access");
-
             correctionAdd("nCurses", "ncurses");
 
             correctionAdd("guava", "Google Guava");
@@ -15541,13 +15544,6 @@ namespace OverflowHelper.core
             correctionAdd("mindstorm", "Lego Mindstorms");
             correctionAdd("Lego Mindstorm", "Lego Mindstorms");
             correctionAdd("Mindstorm", "Lego Mindstorms");
-
-            correctionAdd("htacces", ".htaccess");
-            correctionAdd("htaccess", ".htaccess");
-            correctionAdd(".htaccess file", ".htaccess");
-            correctionAdd("htaccess file", ".htaccess");
-            correctionAdd(".htacces", ".htaccess");
-            correctionAdd("Htaccess", ".htaccess");
 
             correctionAdd("1and1", "1&1 IONOS");
             correctionAdd("1&1", "1&1 IONOS");
@@ -30972,8 +30968,6 @@ namespace OverflowHelper.core
 
             correctionAdd("CTE", "common table expression");
 
-            correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
-
             correctionAdd("CDT", "Eclipse CDT");
             correctionAdd("Eclipse/CDT", "Eclipse CDT");
 
@@ -33159,7 +33153,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Stroke", "stroke");
 
-            correctionAdd("unused_", "unused");
+            correctionAdd("UNUSED", "unused");
 
             correctionAdd("--Wno-pragmas", "-Wno-pragmas");
 
@@ -33179,10 +33173,6 @@ namespace OverflowHelper.core
             correctionAdd("Stroustrup", "Bjarne Stroustrup");
 
             correctionAdd("epicurus", "Epicurus");
-
-            correctionAdd("early access", "JDK early-access");
-            correctionAdd("EA", "JDK early-access");
-            correctionAdd("Early Access", "JDK early-access");
 
             correctionAdd("JDK Enhancement Proposal", "JEP");
             correctionAdd("jep", "JEP");
@@ -34908,8 +34898,6 @@ namespace OverflowHelper.core
             URL_Add("PDF", "https://en.wikipedia.org/wiki/Portable_Document_Format");
 
             URL_Add("Google Maps", "https://en.wikipedia.org/wiki/Google_Maps");
-
-            URL_Add("Microsoft Access", "https://en.wikipedia.org/wiki/Microsoft_Access");
 
             URL_Add("documentation", "https://en.wikipedia.org/wiki/Documentation");
 
@@ -52832,6 +52820,62 @@ namespace OverflowHelper.core
             //    spelling mapping (we already check for the other way
             //    around).
         } // addLookupData()
+
+
+        /****************************************************************************
+         *    addLookupData_alternativeWordSet                                      *
+         *                                                                          *
+         *  Yes, most of the content in this function ought to be in a data file.   *
+         *                                                                          *
+         ****************************************************************************/
+        private void addLookupData_alternativeWordSet()
+        {
+            correctionAdd("prase_", "parse_");
+
+            correctionAdd("geht_", "get_");
+
+            correctionAdd("msaccess_", "Microsoft Access_");
+            correctionAdd("ms-access_", "Microsoft Access_");
+            correctionAdd("Access_", "Microsoft Access_");
+            correctionAdd("ACCESS_", "Microsoft Access_");
+            correctionAdd("MS ACCESS_", "Microsoft Access_");
+            correctionAdd("ms access_", "Microsoft Access_");
+            correctionAdd("microsoft access_", "Microsoft Access_");
+            correctionAdd("MS-Access_", "Microsoft Access_");
+            correctionAdd("MS Access_", "Microsoft Access_");
+            correctionAdd("access_", "Microsoft Access_");
+
+            correctionAdd("cutted_", "cut_");
+
+            correctionAdd("Nexus_", "Nexus Repository_");
+            correctionAdd("nexus_", "Nexus Repository_");
+
+            correctionAdd("evry_", "every_");
+
+            correctionAdd("nee_", "new_");
+
+            correctionAdd("if_", "of_");
+
+            // URL mappings
+            //
+            //
+            URL_Add("parse_", "https://en.wiktionary.org/wiki/parse#Verb");
+
+            URL_Add("get_", "https://en.wiktionary.org/wiki/get#Verb");
+
+            URL_Add("Microsoft Access_", "https://en.wikipedia.org/wiki/Microsoft_Access");
+
+            URL_Add("cut_", "https://en.wiktionary.org/wiki/cut#Verb");
+
+            URL_Add("Nexus Repository_", "https://www.sonatype.com/nexus/repository-pro");
+
+            URL_Add("every_", "https://en.wiktionary.org/wiki/every#Determiner");
+
+            URL_Add("new_", "https://en.wiktionary.org/wiki/new#Adjective");
+
+            URL_Add("of_", "https://en.wiktionary.org/wiki/of#Preposition");
+
+        } //addLookupData_alternativeWordSet()
 
 
         //Ought to be moved somewhere else - it does not belong in this class
