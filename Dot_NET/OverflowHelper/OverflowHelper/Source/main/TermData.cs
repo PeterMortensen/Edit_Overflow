@@ -434,6 +434,204 @@ namespace OverflowHelper.core
             correctionAdd("JAVA Script", "JavaScript");
             correctionAdd("JAVAScript", "JavaScript");
 
+            correctionAdd("action script", "ActionScript");
+            correctionAdd("actionscript", "ActionScript");
+            correctionAdd("Actionscript", "ActionScript");
+            correctionAdd("Actinscript", "ActionScript");
+            correctionAdd("Action Script", "ActionScript");
+            correctionAdd("AS3", "ActionScript"); // No stricly correct as the "3" will be left out.
+            correctionAdd("as3", "ActionScript"); // No stricly correct as the "3" will be left out.
+            correctionAdd("as2", "ActionScript"); // No stricly correct as the "2" will be left out.
+
+            correctionAdd("vb script", "VBScript");
+            correctionAdd("vbscript", "VBScript");
+            correctionAdd("Vbscript", "VBScript");
+            correctionAdd("VB Script", "VBScript");
+            correctionAdd("VBSscript", "VBScript"); // Misspelling.
+            correctionAdd("vbs", "VBScript");
+            correctionAdd("VBS", "VBScript");
+            correctionAdd("VBscript", "VBScript");
+            correctionAdd("VB-script", "VBScript");
+            correctionAdd("VB script", "VBScript");
+            correctionAdd("VBS script", "VBScript");
+            correctionAdd("VBSCRIPT", "VBScript");
+            correctionAdd("vbsscript", "VBScript");
+            correctionAdd("Visual Basic Script", "VBScript");
+            correctionAdd("vbScript", "VBScript");
+
+            correctionAdd("coffeescript", "CoffeeScript");
+            correctionAdd("Coffeescript", "CoffeeScript");
+            correctionAdd("Coffee Script", "CoffeeScript");
+            correctionAdd("coffee-script", "CoffeeScript");
+            correctionAdd("coffescript", "CoffeeScript");
+            correctionAdd("Coffescript", "CoffeeScript");
+            correctionAdd("coffee script", "CoffeeScript");
+            correctionAdd("CoffeScript", "CoffeeScript");
+            correctionAdd("coffeeScript", "CoffeeScript");
+
+            correctionAdd("Jscript", "JScript");
+            correctionAdd("jscript", "JScript");
+            correctionAdd("JSCRIPT", "JScript");
+
+            correctionAdd("cscript", "CScript");
+            correctionAdd("Cscript", "CScript");
+
+            correctionAdd("applescript", "AppleScript");
+            correctionAdd("Applescript", "AppleScript");
+            correctionAdd("apple script", "AppleScript");
+            correctionAdd("Apple Script", "AppleScript");
+
+            correctionAdd("ghostscript", "Ghostscript");
+            correctionAdd("GhostScript", "Ghostscript");
+
+            correctionAdd("Postscript", "PostScript");
+            correctionAdd("postscript", "PostScript");
+            correctionAdd("ps", "PostScript"); // Possible collision with the Unix
+                                               // command-line command. And
+                                               // PowerShell alias for Get-Process...
+
+            correctionAdd("type script", "TypeScript");
+            correctionAdd("typescript", "TypeScript");
+            correctionAdd("Typescript", "TypeScript");
+            correctionAdd("TS", "TypeScript");
+            correctionAdd("Typescritp", "TypeScript");
+            correctionAdd("typescritp", "TypeScript");
+            correctionAdd("typoscript", "TypeScript");
+            // "I have this code in my typoscript"
+            correctionAdd("typescrypt", "TypeScript");
+            correctionAdd("TSC", "TypeScript");
+            correctionAdd("tsc", "TypeScript");
+            correctionAdd("ts", "TypeScript");
+            correctionAdd("Typesript", "TypeScript");
+            correctionAdd("Typscript", "TypeScript");
+            correctionAdd("typescrip", "TypeScript");
+            correctionAdd("type Script", "TypeScript");
+            correctionAdd("typeScript", "TypeScript");
+            correctionAdd("typescipt", "TypeScript");
+
+            // Of PowerShell...
+            correctionAdd("start-transcript", "Start-Transcript");
+
+            // Of PowerShell...
+            correctionAdd("stop-transcript", "Stop-Transcript");
+
+            correctionAdd("user script", "userscript");
+
+            correctionAdd("clojurescript", "ClojureScript");
+
+            correctionAdd("noscript", "NoScript");
+            correctionAdd("Noscript", "NoScript");
+            correctionAdd("no script", "NoScript");
+
+            correctionAdd("suitescipt", "SuiteScript");
+            correctionAdd("Suitescript", "SuiteScript");
+            correctionAdd("suitescript", "SuiteScript");
+            correctionAdd("Suitescipt", "SuiteScript");
+
+            correctionAdd("super-script", "superscript");
+
+            correctionAdd("EcmaScript", "ECMAScript");
+            correctionAdd("ecmascript", "ECMAScript");
+            correctionAdd("Ecmascript", "ECMAScript");
+            correctionAdd("ECMA", "ECMAScript");
+            correctionAdd("ECMASCRIPT", "ECMAScript");
+            correctionAdd("ES", "ECMAScript");
+            correctionAdd("es", "ECMAScript");
+            correctionAdd("ecma", "ECMAScript");
+            correctionAdd("ECMAscript", "ECMAScript");
+            correctionAdd("ECMA-Script", "ECMAScript");
+            correctionAdd("ECMA Script", "ECMAScript");
+            correctionAdd("ecama script", "ECMAScript");
+            correctionAdd("ecma script", "ECMAScript");
+            correctionAdd("Ecama script", "ECMAScript");
+
+            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
+            correctionAdd("ES 5", "ECMAScript&nbsp;5");
+            correctionAdd("ES5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
+            correctionAdd("es5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA 5", "ECMAScript&nbsp;5");
+            correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
+            correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
+
+            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
+            correctionAdd("es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES6", "ECMAScript&nbsp;2015");
+            correctionAdd("e6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecma6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Ecma-Script-6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
+
+            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
+            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES7", "ECMAScript&nbsp;2016");
+            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
+            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("es7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
+
+            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
+            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
+            correctionAdd("ES8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
+
+            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
+            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
+            correctionAdd("ES9", "ECMAScript&nbsp;2018");
+            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
+
+            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
+            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
+            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
+            correctionAdd("ES10", "ECMAScript&nbsp;2019");
+            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
+
+            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
+            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
+            correctionAdd("es11", "ECMAScript&nbsp;2020");
+            correctionAdd("ES11", "ECMAScript&nbsp;2020");
+            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
+
+            correctionAdd("ECMA2021", "ES.Next");
+            correctionAdd("ES12", "ES.Next");
+            correctionAdd("ECMAScript 2021", "ES.Next");
+            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
+            correctionAdd("es-next", "ES.Next");
+            correctionAdd("es12", "ES.Next");
+            correctionAdd("ES 12", "ES.Next");
+
+            correctionAdd("Livescript", "LiveScript");
+
+            correctionAdd("objectscript", "ObjectScript");
+
+            correctionAdd("scropt", "script");
+            correctionAdd("scrip", "script");
+
+            correctionAdd("GAS", "Google Apps Script");
+
             correctionAdd("Jquery-UI", "jQuery UI");
             correctionAdd("jquery ui", "jQuery UI");
             correctionAdd("jquery-ui", "jQuery UI");
@@ -1318,15 +1516,6 @@ namespace OverflowHelper.core
             correctionAdd("FLEX", "Flex");
             correctionAdd("Adobe Flex", "Flex");
 
-            correctionAdd("action script", "ActionScript");
-            correctionAdd("actionscript", "ActionScript");
-            correctionAdd("Actionscript", "ActionScript");
-            correctionAdd("Actinscript", "ActionScript");
-            correctionAdd("Action Script", "ActionScript");
-            correctionAdd("AS3", "ActionScript"); // No stricly correct as the "3" will be left out.
-            correctionAdd("as3", "ActionScript"); // No stricly correct as the "3" will be left out.
-            correctionAdd("as2", "ActionScript"); // No stricly correct as the "2" will be left out.
-
             // Expansion, not case correction.
             correctionAdd("db", "database");
             correctionAdd("DB", "database");
@@ -1624,22 +1813,6 @@ namespace OverflowHelper.core
             correctionAdd("openoffice", "OpenOffice");
             correctionAdd("OOo", "OpenOffice");
             correctionAdd("Open office", "OpenOffice");
-
-            correctionAdd("vb script", "VBScript");
-            correctionAdd("vbscript", "VBScript");
-            correctionAdd("Vbscript", "VBScript");
-            correctionAdd("VB Script", "VBScript");
-            correctionAdd("VBSscript", "VBScript"); // Misspelling.
-            correctionAdd("vbs", "VBScript");
-            correctionAdd("VBS", "VBScript");
-            correctionAdd("VBscript", "VBScript");
-            correctionAdd("VB-script", "VBScript");
-            correctionAdd("VB script", "VBScript");
-            correctionAdd("VBS script", "VBScript");
-            correctionAdd("VBSCRIPT", "VBScript");
-            correctionAdd("vbsscript", "VBScript");
-            correctionAdd("Visual Basic Script", "VBScript");
-            correctionAdd("vbScript", "VBScript");
 
             correctionAdd("matlab", "MATLAB");
             correctionAdd("Matlab", "MATLAB");
@@ -3578,6 +3751,7 @@ namespace OverflowHelper.core
             correctionAdd("can'T", "can’t");
             correctionAdd("CAN'T", "can’t");
             correctionAdd("CANT", "can’t");
+            correctionAdd("camn't", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -4365,20 +4539,6 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-
-            correctionAdd("coffeescript", "CoffeeScript");
-            correctionAdd("Coffeescript", "CoffeeScript");
-            correctionAdd("Coffee Script", "CoffeeScript");
-            correctionAdd("coffee-script", "CoffeeScript");
-            correctionAdd("coffescript", "CoffeeScript");
-            correctionAdd("Coffescript", "CoffeeScript");
-            correctionAdd("coffee script", "CoffeeScript");
-            correctionAdd("CoffeScript", "CoffeeScript");
-            correctionAdd("coffeeScript", "CoffeeScript");
-
-            correctionAdd("Jscript", "JScript");
-            correctionAdd("jscript", "JScript");
-            correctionAdd("JSCRIPT", "JScript");
 
             correctionAdd("rhino", "Rhino");
 
@@ -5192,9 +5352,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ncover", "NCover");
 
-            correctionAdd("cscript", "CScript");
-            correctionAdd("Cscript", "CScript");
-
             correctionAdd("smartsvn", "SmartSVN");
 
             correctionAdd("sms", "SMS");
@@ -5683,11 +5840,6 @@ namespace OverflowHelper.core
             correctionAdd("mediaplayer", "Windows Media Player"); // Unfortunate abbreviation, e.g. as in <http://superuser.com/questions/228979>.
             correctionAdd("Media Player", "Windows Media Player");
 
-            correctionAdd("applescript", "AppleScript");
-            correctionAdd("Applescript", "AppleScript");
-            correctionAdd("apple script", "AppleScript");
-            correctionAdd("Apple Script", "AppleScript");
-
             correctionAdd("Mathjax", "MathJax");
             correctionAdd("mathjax", "MathJax");
             correctionAdd("MatJaX", "MathJax");
@@ -6004,9 +6156,6 @@ namespace OverflowHelper.core
             correctionAdd("Domain Controller", "domain controller");
             correctionAdd("Domain controller", "domain controller");
             correctionAdd("d/c", "domain controller");
-
-            correctionAdd("ghostscript", "Ghostscript");
-            correctionAdd("GhostScript", "Ghostscript");
 
             correctionAdd("Power Grep", "PowerGREP");
             correctionAdd("powergrep", "PowerGREP");
@@ -6430,6 +6579,20 @@ namespace OverflowHelper.core
             correctionAdd("URL-Encoding", "URL encoding");
             correctionAdd("URL-encoding", "URL encoding");
 
+            correctionAdd("RLE", "run-length encoding");
+
+            correctionAdd("percent-encoded", "percent-encoding");
+            correctionAdd("percent encoding", "percent-encoding");
+
+            correctionAdd("codding", "coding");
+            correctionAdd("Coding", "coding");
+
+            correctionAdd("enconding", "encoding");
+
+            correctionAdd("THP", "Tomlinson-Harashima precoding");
+
+            correctionAdd("one-hot Encoding", "one-hot encoding");
+
             correctionAdd("imperical", "empirical");
 
             correctionAdd("imperically", "empirically");
@@ -6458,12 +6621,6 @@ namespace OverflowHelper.core
             correctionAdd("factor", "Factor");
 
             correctionAdd("eps", "EPS"); // Encapsulated PostScript
-
-            correctionAdd("Postscript", "PostScript");
-            correctionAdd("postscript", "PostScript");
-            correctionAdd("ps", "PostScript"); // Possible collision with the Unix
-                                               // command-line command. And
-                                               // PowerShell alias for Get-Process...
 
             correctionAdd("SHA256", "SHA-256");
             correctionAdd("SHA 256", "SHA-256");
@@ -6555,6 +6712,8 @@ namespace OverflowHelper.core
 
             correctionAdd("lmgtfy", "LMGTFY");
             correctionAdd("lmgty", "LMGTFY"); // Misspelling.
+            correctionAdd("Let Me Google That For You", "LMGTFY");
+            correctionAdd("let me google that for you", "LMGTFY");
 
             correctionAdd("ISO8601", "ISO&nbsp;8601");
             correctionAdd("iso8601", "ISO&nbsp;8601");
@@ -9152,25 +9311,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vhdl", "VHDL");
 
-            correctionAdd("type script", "TypeScript");
-            correctionAdd("typescript", "TypeScript");
-            correctionAdd("Typescript", "TypeScript");
-            correctionAdd("TS", "TypeScript");
-            correctionAdd("Typescritp", "TypeScript");
-            correctionAdd("typescritp", "TypeScript");
-            correctionAdd("typoscript", "TypeScript");
-            // "I have this code in my typoscript"
-            correctionAdd("typescrypt", "TypeScript");
-            correctionAdd("TSC", "TypeScript");
-            correctionAdd("tsc", "TypeScript");
-            correctionAdd("ts", "TypeScript");
-            correctionAdd("Typesript", "TypeScript");
-            correctionAdd("Typscript", "TypeScript");
-            correctionAdd("typescrip", "TypeScript");
-            correctionAdd("type Script", "TypeScript");
-            correctionAdd("typeScript", "TypeScript");
-            correctionAdd("typescipt", "TypeScript");
-
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
             correctionAdd("obd II", "OBD-II");
@@ -9555,6 +9695,9 @@ namespace OverflowHelper.core
             correctionAdd("necassarily", "necessarily");
             correctionAdd("necessarali", "necessarily");
             correctionAdd("necessaily", "necessarily");
+            correctionAdd("necessaraliy", "necessarily");
+            correctionAdd("necessariliy", "necessarily");
+            correctionAdd("necessaralliy", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -10139,6 +10282,19 @@ namespace OverflowHelper.core
             correctionAdd("MachineLearning", "machine learning");
             correctionAdd("ml", "machine learning");
             correctionAdd("ML", "machine learning");
+            correctionAdd("machine-learning", "machine learning");
+
+            correctionAdd("Deep Learning", "deep learning");
+            correctionAdd("Deep learning", "deep learning");
+
+            correctionAdd("leaning", "learning");
+            correctionAdd("learing", "learning");
+            correctionAdd("learniong", "learning");
+
+            correctionAdd("Project Based Learning", "project-based learning");
+
+            correctionAdd("Reinforcement learning", "reinforcement learning");
+            correctionAdd("RL", "reinforcement learning");
 
             correctionAdd("lldb", "LLDB");
 
@@ -10505,6 +10661,7 @@ namespace OverflowHelper.core
             correctionAdd("for exaple", "for example");
             correctionAdd("t.ex", "for example");
             correctionAdd("sg", "for example");
+            correctionAdd("i.g", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -11082,6 +11239,7 @@ namespace OverflowHelper.core
 
             correctionAdd("beleive", "believe");
             correctionAdd("belive", "believe");
+            correctionAdd("bslieve", "believe");
 
             correctionAdd("uContoller", "microcontroller");
             correctionAdd("uController", "microcontroller");
@@ -12250,6 +12408,7 @@ namespace OverflowHelper.core
             correctionAdd("proly", "probably");
             correctionAdd("poribably", "probably");
             correctionAdd("proibably", "probably");
+            correctionAdd("prolly", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -12662,8 +12821,6 @@ namespace OverflowHelper.core
             correctionAdd("Programm", "program");
             correctionAdd("prograame", "program");
             correctionAdd("progrtam", "program");
-
-            correctionAdd("RLE", "run-length encoding");
 
             correctionAdd("runnig", "running");
             correctionAdd("runnning", "running");
@@ -14337,12 +14494,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nigerian", "Nigerian");
 
-            // Of PowerShell...
-            correctionAdd("start-transcript", "Start-Transcript");
-
-            // Of PowerShell...
-            correctionAdd("stop-transcript", "Stop-Transcript");
-
             correctionAdd("US", "USA");
             correctionAdd("united states", "USA");
             correctionAdd("United States", "USA");
@@ -15079,6 +15230,25 @@ namespace OverflowHelper.core
             correctionAdd("Geney", "Geany");
             correctionAdd("Geaney", "Geany");
             correctionAdd("Genea", "Geany");
+
+            correctionAdd("germany", "Germany");
+
+            correctionAdd("Many", "many");
+            correctionAdd("manay", "many");
+            correctionAdd("meny", "many");
+
+            correctionAdd("telco", "telecommunications company");
+
+            correctionAdd("compay", "company");
+            correctionAdd("Company", "company");
+
+            correctionAdd("sny", "any");
+            correctionAdd("anny", "any");
+
+            correctionAdd("one to many", "one-to-many");
+            correctionAdd("1 to many", "one-to-many");
+
+            correctionAdd("many to many", "many-to-many");
 
             correctionAdd("gerrit", "Gerrit");
 
@@ -15923,8 +16093,6 @@ namespace OverflowHelper.core
             correctionAdd("often times", "oftentimes");
             correctionAdd("Often times", "oftentimes");
 
-            correctionAdd("user script", "userscript");
-
             correctionAdd("cisco", "Cisco");
             correctionAdd("CISCO", "Cisco");
 
@@ -15996,9 +16164,6 @@ namespace OverflowHelper.core
             correctionAdd("UserName", "username");
 
             correctionAdd("zune", "Zune");
-
-            correctionAdd("Deep Learning", "deep learning");
-            correctionAdd("Deep learning", "deep learning");
 
             correctionAdd("idiosyncracies", "idiosyncrasies");
 
@@ -16682,8 +16847,6 @@ namespace OverflowHelper.core
             correctionAdd("chromium", "Chromium");
             correctionAdd("chrom(ium)", "Chromium");
             correctionAdd("Chrom(ium)", "Chromium");
-
-            correctionAdd("clojurescript", "ClojureScript");
 
             correctionAdd("dart", "Dart");
 
@@ -17418,6 +17581,7 @@ namespace OverflowHelper.core
             correctionAdd("Plaigarism", "plagiarism");
             correctionAdd("plaigarism", "plagiarism");
             correctionAdd("plagariasm", "plagiarism");
+            correctionAdd("plagorism", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -18750,12 +18914,6 @@ namespace OverflowHelper.core
             correctionAdd("british", "British");
             correctionAdd("btish", "British");
 
-            correctionAdd("germany", "Germany");
-
-            correctionAdd("Many", "many");
-            correctionAdd("manay", "many");
-            correctionAdd("meny", "many");
-
             correctionAdd("marrage", "marriage");
 
             correctionAdd("Sign-Up", "signup");
@@ -19061,6 +19219,7 @@ namespace OverflowHelper.core
 
             correctionAdd("kepp", "keep");
             correctionAdd("Kepp", "keep");
+            correctionAdd("kerep", "keep");
 
             correctionAdd("perojory", "pejorative");
 
@@ -19662,11 +19821,6 @@ namespace OverflowHelper.core
             correctionAdd("coincident", "coincidence");
             correctionAdd("co-incident", "coincidence");
 
-            correctionAdd("telco", "telecommunications company");
-
-            correctionAdd("compay", "company");
-            correctionAdd("Company", "company");
-
             correctionAdd("daze", "days");
 
             correctionAdd("greece", "Greece");
@@ -19678,10 +19832,6 @@ namespace OverflowHelper.core
             correctionAdd("blue chip", "bluechip");
             correctionAdd("Blue-chip", "bluechip");
             correctionAdd("blue-chip", "bluechip");
-
-            correctionAdd("noscript", "NoScript");
-            correctionAdd("Noscript", "NoScript");
-            correctionAdd("no script", "NoScript");
 
             correctionAdd("NS", "name server"); // Alternative: "NoScript"
             correctionAdd("nameserver", "name server");
@@ -20363,11 +20513,6 @@ namespace OverflowHelper.core
             correctionAdd("netsuite", "NetSuite");
             correctionAdd("Netsuite", "NetSuite");
 
-            correctionAdd("suitescipt", "SuiteScript");
-            correctionAdd("Suitescript", "SuiteScript");
-            correctionAdd("suitescript", "SuiteScript");
-            correctionAdd("Suitescipt", "SuiteScript");
-
             correctionAdd("encyclopeodic", "encyclopedic");
 
             correctionAdd("Fiancée", "fiancée");
@@ -20562,6 +20707,8 @@ namespace OverflowHelper.core
             correctionAdd("thge", "the");
             correctionAdd("thee", "the");
             correctionAdd("Theb", "the");
+            correctionAdd("ht", "the");
+            correctionAdd("th", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -20872,8 +21019,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stoopidest", "stupidest");
             correctionAdd("Stoopidest", "stupidest");
-
-            correctionAdd("super-script", "superscript");
 
             correctionAdd("waut", "wait");
 
@@ -23347,99 +23492,6 @@ namespace OverflowHelper.core
             correctionAdd("ES Module", "ECMAScript module");
             correctionAdd("EcmaScript module", "ECMAScript module");
 
-            correctionAdd("EcmaScript", "ECMAScript");
-            correctionAdd("ecmascript", "ECMAScript");
-            correctionAdd("Ecmascript", "ECMAScript");
-            correctionAdd("ECMA", "ECMAScript");
-            correctionAdd("ECMASCRIPT", "ECMAScript");
-            correctionAdd("ES", "ECMAScript");
-            correctionAdd("es", "ECMAScript");
-            correctionAdd("ecma", "ECMAScript");
-            correctionAdd("ECMAscript", "ECMAScript");
-            correctionAdd("ECMA-Script", "ECMAScript");
-            correctionAdd("ECMA Script", "ECMAScript");
-            correctionAdd("ecama script", "ECMAScript");
-            correctionAdd("ecma script", "ECMAScript");
-            correctionAdd("Ecama script", "ECMAScript");
-
-            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
-            correctionAdd("ES 5", "ECMAScript&nbsp;5");
-            correctionAdd("ES5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
-            correctionAdd("es5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA 5", "ECMAScript&nbsp;5");
-            correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
-            correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
-
-            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
-            correctionAdd("es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES6", "ECMAScript&nbsp;2015");
-            correctionAdd("e6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("es2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
-            correctionAdd("ecma6", "ECMAScript&nbsp;2015");
-            correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es 6", "ECMAScript&nbsp;2015");
-            correctionAdd("es 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Ecma-Script-6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
-
-            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
-            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES7", "ECMAScript&nbsp;2016");
-            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
-            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("es7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
-
-            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
-            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
-            correctionAdd("ES8", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
-
-            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
-            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
-            correctionAdd("ES9", "ECMAScript&nbsp;2018");
-            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
-
-            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
-            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
-            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
-            correctionAdd("ES10", "ECMAScript&nbsp;2019");
-            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
-
-            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
-            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
-            correctionAdd("es11", "ECMAScript&nbsp;2020");
-            correctionAdd("ES11", "ECMAScript&nbsp;2020");
-            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
-
-            correctionAdd("ECMA2021", "ES.Next");
-            correctionAdd("ES12", "ES.Next");
-            correctionAdd("ECMAScript 2021", "ES.Next");
-            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
-            correctionAdd("es-next", "ES.Next");
-            correctionAdd("es12", "ES.Next");
-            correctionAdd("ES 12", "ES.Next");
-
             correctionAdd("Diode", "diode");
 
             correctionAdd("ESD", "electrostatic discharge");
@@ -23709,9 +23761,6 @@ namespace OverflowHelper.core
             correctionAdd("glysine", "glycine");
 
             correctionAdd("jelly bean", "jellybean");
-
-            correctionAdd("leaning", "learning");
-            correctionAdd("learing", "learning");
 
             correctionAdd("3g", "3G");
 
@@ -24905,8 +24954,6 @@ namespace OverflowHelper.core
             correctionAdd("eleminate", "eliminate");
 
             correctionAdd("LMS", "learning management system");
-
-            correctionAdd("Project Based Learning", "project-based learning");
 
             correctionAdd("querk", "quirk");
 
@@ -26660,9 +26707,6 @@ namespace OverflowHelper.core
             correctionAdd("IAS", "indicated airspeed");
             correctionAdd("Indicated Air Speed", "indicated airspeed");
 
-            correctionAdd("percent-encoded", "percent-encoding");
-            correctionAdd("percent encoding", "percent-encoding");
-
             correctionAdd("round-ish", "roundish");
 
             correctionAdd("Sea Level", "sea level");
@@ -27876,14 +27920,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Zmodem", "ZMODEM");
 
-            correctionAdd("codding", "coding");
-
             correctionAdd("controversion", "controversy");
 
             correctionAdd("post doc", "postdoc");
             correctionAdd("Post-Doc", "postdoc");
             correctionAdd("post-doc", "postdoc");
             correctionAdd("Post-doc", "postdoc");
+            correctionAdd("PostDoc", "postdoc");
 
             correctionAdd("re-assign", "reassign");
 
@@ -27914,6 +27957,7 @@ namespace OverflowHelper.core
             correctionAdd("on the mood", "in the mood");
 
             correctionAdd("mistankenly", "mistakenly");
+            correctionAdd("mistakely", "mistakenly");
 
             correctionAdd("painfull", "painful");
 
@@ -27988,6 +28032,7 @@ namespace OverflowHelper.core
             correctionAdd("Software Center", "Ubuntu Software Center");
             correctionAdd("Ubuntu Software center", "Ubuntu Software Center");
             correctionAdd("software center", "Ubuntu Software Center");
+            correctionAdd("software centre", "Ubuntu Software Center");
 
             correctionAdd("insesire", "insincere");
 
@@ -28093,8 +28138,6 @@ namespace OverflowHelper.core
             correctionAdd("bulldodge", "bulldoze");
 
             correctionAdd("disatisfying", "dissatisfying");
-
-            correctionAdd("enconding", "encoding");
 
             correctionAdd("inststing", "insisting");
 
@@ -28572,8 +28615,6 @@ namespace OverflowHelper.core
             correctionAdd("FDM", "Free Download Manager");
 
             correctionAdd("Putin", "Vladimir Putin");
-
-            correctionAdd("sny", "any");
 
             correctionAdd("HLL", "high-level programming language");
 
@@ -29078,6 +29119,8 @@ namespace OverflowHelper.core
             correctionAdd("aswers", "answers");
             correctionAdd("awsers", "answers");
             correctionAdd("anwsers", "answers");
+            correctionAdd("Answsers", "answers");
+            correctionAdd("answsers", "answers");
 
             correctionAdd("cath", "catch");
 
@@ -29583,8 +29626,6 @@ namespace OverflowHelper.core
             correctionAdd("a grain of salt", "with a grain of salt");
 
             correctionAdd("giteye", "GitEye");
-
-            correctionAdd("Livescript", "LiveScript");
 
             correctionAdd("smartgit", "SmartGit");
 
@@ -30184,6 +30225,9 @@ namespace OverflowHelper.core
             correctionAdd("wrie", "write");
             correctionAdd("wirte", "write");
 
+            correctionAdd("writed", "wrote");
+            correctionAdd("wrot", "wrote");
+
             correctionAdd("4Chan", "4chan");
 
             correctionAdd("jetpack", "Android Jetpack");
@@ -30613,8 +30657,6 @@ namespace OverflowHelper.core
             correctionAdd("Cat 3", "Cat&nbsp;3");
             correctionAdd("cat3", "Cat&nbsp;3");
             correctionAdd("cat 3", "Cat&nbsp;3");
-
-            correctionAdd("THP", "Tomlinson-Harashima precoding");
 
             correctionAdd("Creators Update", "Windows 10 version 1703");
             correctionAdd("creators update", "Windows 10 version 1703");
@@ -31066,8 +31108,6 @@ namespace OverflowHelper.core
             correctionAdd("net cdf", "NetCDF");
             correctionAdd("netCDF", "NetCDF");
             correctionAdd("net CDF", "NetCDF");
-
-            correctionAdd("objectscript", "ObjectScript");
 
             correctionAdd("Theoretical Computer Science", "Theoretical Computer Science (Stack Exchange site)");
 
@@ -32079,8 +32119,6 @@ namespace OverflowHelper.core
 
             correctionAdd("restrctions", "restrictions");
 
-            correctionAdd("scropt", "script");
-
             correctionAdd("bitnami", "Bitnami");
 
             correctionAdd("clion", "CLion");
@@ -32414,12 +32452,7 @@ namespace OverflowHelper.core
             correctionAdd("OneHot", "one-hot");
             correctionAdd("One-hot", "one-hot");
 
-            correctionAdd("one-hot Encoding", "one-hot encoding");
-
             correctionAdd("re-applies", "reapplies");
-
-            correctionAdd("Reinforcement learning", "reinforcement learning");
-            correctionAdd("RL", "reinforcement learning");
 
             correctionAdd("stripped down", "stripped-down");
 
@@ -32873,9 +32906,6 @@ namespace OverflowHelper.core
 
             correctionAdd("necro posting", "necroposting");
 
-            correctionAdd("one to many", "one-to-many");
-            correctionAdd("1 to many", "one-to-many");
-
             correctionAdd("SSR", "server-side rendering");
             correctionAdd("Server side rendering", "server-side rendering");
             correctionAdd("server side rendering", "server-side rendering");
@@ -32917,8 +32947,6 @@ namespace OverflowHelper.core
             correctionAdd("DDH", "decisional Diffie–Hellman");
 
             correctionAdd("ISA", "instruction set architecture");
-
-            correctionAdd("many to many", "many-to-many");
 
             correctionAdd("mind bender", "mindbender");
 
@@ -33218,6 +33246,7 @@ namespace OverflowHelper.core
             correctionAdd("Ruby Mine", "RubyMine");
 
             correctionAdd("stack snippets", "Stack Snippets");
+            correctionAdd("StackSnippets", "Stack Snippets");
 
             correctionAdd("functionning", "functioning");
 
@@ -33337,8 +33366,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gawk", "Gawk");
 
-            correctionAdd("GAS", "Google Apps Script");
-
             correctionAdd("high-performance liquid chromatography", "HPLC");
 
             correctionAdd("iEEEtran", "IEEEtran");
@@ -33401,8 +33428,6 @@ namespace OverflowHelper.core
             correctionAdd("galory", "gallery");
 
             correctionAdd("unpdated", "updated");
-
-            correctionAdd("writed", "wrote");
 
             correctionAdd("da Vinci Resolve", "DaVinci Resolve");
             correctionAdd("DaVinici resolve", "DaVinci Resolve");
@@ -33568,6 +33593,77 @@ namespace OverflowHelper.core
             correctionAdd("Specialty", "specialty");
 
             correctionAdd("Spectrophotometry", "spectrophotometry");
+
+            correctionAdd("alacritty", "Alacritty");
+
+            correctionAdd("IBN", "Internet background radiation");
+            correctionAdd("IBR", "Internet background radiation");
+
+            correctionAdd("pipewire", "PipeWire");
+
+            correctionAdd("PowerApp", "Power Apps");
+            correctionAdd("PowerApps", "Power Apps");
+            correctionAdd("powerapps", "Power Apps");
+
+            correctionAdd("pulseaudio", "PulseAudio");
+
+            correctionAdd("solidworks", "SolidWorks");
+            correctionAdd("Solidworks", "SolidWorks");
+
+            correctionAdd("Solus Linux", "Solus");
+            correctionAdd("Evolve OS", "Solus");
+            correctionAdd("solus", "Solus");
+
+            correctionAdd("trojan horse", "Trojan horse");
+            correctionAdd("Trojan Horse", "Trojan horse");
+
+            correctionAdd("National Capital Region", "Washington metropolitan area");
+            correctionAdd("DMV", "Washington metropolitan area");
+
+            correctionAdd("Afterall", "after all");
+            correctionAdd("afterall", "after all");
+
+            correctionAdd("along these lines", "along those lines");
+            correctionAdd("along the lines", "along those lines");
+            correctionAdd("along the lines of", "along those lines");
+
+            correctionAdd("bad-faith", "bad faith");
+            correctionAdd("poor-faith", "bad faith");
+            correctionAdd("poor faith", "bad faith");
+
+            correctionAdd("beta-male", "beta male");
+            correctionAdd("betamale", "beta male");
+
+            correctionAdd("Bot", "bot");
+
+            correctionAdd("britle", "brittle");
+
+            correctionAdd("insentive", "incentive");
+
+            correctionAdd("mindlesslly", "mindlessly");
+
+            correctionAdd("reliablle", "reliable");
+
+            correctionAdd("second worst", "second-worst");
+
+            correctionAdd("strawman", "straw man");
+
+            correctionAdd("sub-field", "subfield");
+
+            correctionAdd("suming", "summing");
+            correctionAdd("Suming", "summing");
+
+            correctionAdd("survival bias", "survivorship bias");
+
+            correctionAdd("valient", "valiant");
+
+            correctionAdd("valueing", "valuing");
+            correctionAdd("Valueing", "valuing");
+
+            correctionAdd("variuos", "various");
+            correctionAdd("varios", "various");
+
+            correctionAdd("uTox", "µTox");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52809,6 +52905,60 @@ namespace OverflowHelper.core
             URL_Add("specialty", "https://en.wiktionary.org/wiki/specialty#Noun");
 
             URL_Add("spectrophotometry", "https://en.wikipedia.org/wiki/Spectrophotometry");
+
+            URL_Add("Alacritty", "https://en.wikipedia.org/wiki/Alacritty");
+
+            URL_Add("Internet background radiation", "https://en.wikipedia.org/wiki/Internet_background_noise");
+
+            URL_Add("PipeWire", "https://en.wikipedia.org/wiki/PipeWire");
+
+            URL_Add("Power Apps", "https://en.wikipedia.org/wiki/Microsoft_Power_Platform#Products");
+
+            URL_Add("PulseAudio", "https://en.wikipedia.org/wiki/PulseAudio");
+
+            URL_Add("SolidWorks", "https://en.wikipedia.org/wiki/SolidWorks");
+
+            URL_Add("Solus", "https://en.wikipedia.org/wiki/Solus_(operating_system)");
+
+            URL_Add("Trojan horse", "https://en.wikipedia.org/wiki/Trojan_Horse");
+
+            URL_Add("Washington metropolitan area", "https://en.wikipedia.org/wiki/Washington_metropolitan_area");
+
+            URL_Add("after all", "https://en.wiktionary.org/wiki/afterall#Adverb");
+
+            URL_Add("along those lines", "https://www.ldoceonline.com/dictionary/along-these-those-lines");
+
+            URL_Add("bad faith", "https://en.wiktionary.org/wiki/bad_faith#Noun");
+
+            URL_Add("beta male", "https://en.wikipedia.org/wiki/Alpha_and_beta_male_(slang)");
+
+            URL_Add("bot", "https://en.wiktionary.org/wiki/bot#Noun_2");
+
+            URL_Add("brittle", "https://en.wiktionary.org/wiki/brittle#Adjective");
+
+            URL_Add("incentive", "https://en.wiktionary.org/wiki/incentive#Noun");
+
+            URL_Add("mindlessly", "https://en.wiktionary.org/wiki/mindlessly#Adverb");
+
+            URL_Add("reliable", "https://en.wiktionary.org/wiki/reliable#Adjective");
+
+            URL_Add("second-worst", "https://www.euronews.com/2021/10/23/with-europe-s-second-worst-vaccination-rate-ukraine-suffers-covid-surge");
+
+            URL_Add("straw man", "https://en.wikipedia.org/wiki/Straw_man");
+
+            URL_Add("subfield", "https://en.wiktionary.org/wiki/subfield#Noun");
+
+            URL_Add("summing", "https://en.wiktionary.org/wiki/sum#Verb");
+
+            URL_Add("survivorship bias", "https://en.wikipedia.org/wiki/Survivorship_bias");
+
+            URL_Add("valiant", "https://en.wiktionary.org/wiki/valiant#Adjective");
+
+            URL_Add("valuing", "https://en.wiktionary.org/wiki/value#Verb");
+
+            URL_Add("various", "https://en.wiktionary.org/wiki/various#Adjective");
+
+            URL_Add("µTox", "https://en.wikipedia.org/wiki/Tox_(protocol)#Clients");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
