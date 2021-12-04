@@ -338,6 +338,7 @@ namespace OverflowHelper.core
             correctionAdd("MS WINDOWS", "Windows");
             correctionAdd("windowd", "Windows");
             correctionAdd("Windowd", "Windows");
+            correctionAdd("wondows", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -1293,6 +1294,7 @@ namespace OverflowHelper.core
             correctionAdd("OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("MacOS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
             correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
+            correctionAdd("OS-X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)");
 
             correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)"); // Sort of identity mapping
             correctionAdd("snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
@@ -1312,6 +1314,8 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
+            correctionAdd("Mac OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
+            correctionAdd("Mac OS X v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
 
             correctionAdd("Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
@@ -11065,6 +11069,10 @@ namespace OverflowHelper.core
 
             correctionAdd("openbsd", "OpenBSD");
             correctionAdd("obsd", "OpenBSD");
+            correctionAdd("OPEN BSD", "OpenBSD");
+            correctionAdd("open bsd", "OpenBSD");
+            correctionAdd("Open bsd", "OpenBSD");
+            correctionAdd("Open BSD", "OpenBSD");
 
             correctionAdd("Theorically", "theoretically"); // Not 100% correct - case.
             correctionAdd("theorically", "theoretically");
@@ -18314,6 +18322,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Fide Master", "FIDE Master"); // Chess
             correctionAdd("FIDE master", "FIDE Master"); // Chess
+
+            correctionAdd("championship 2021", "World Chess Championship 2021"); // Chess
+            correctionAdd("world championship 2021", "World Chess Championship 2021"); // Chess
             //
             // End of chess part
 
@@ -24965,6 +24976,9 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS Big Sur", "macOS v11 (Big Sur)");
             correctionAdd("macOS v11", "macOS v11 (Big Sur)");
             correctionAdd("MacOS Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("Big Suwer", "macOS v11 (Big Sur)");
+            correctionAdd("Big Sewer", "macOS v11 (Big Sur)");
+            correctionAdd("Big Sir", "macOS v11 (Big Sur)");
 
             correctionAdd("single core", "single-core");
 
@@ -33529,8 +33543,6 @@ namespace OverflowHelper.core
 
             correctionAdd("git-filter-repo", "Git filter-repo");
 
-            correctionAdd("championship 2021", "World Chess Championship 2021");
-
             correctionAdd("appeace", "appease");
 
             correctionAdd("convinse", "convince");
@@ -33649,6 +33661,25 @@ namespace OverflowHelper.core
             correctionAdd("fluent", "fluent interface");
 
             correctionAdd("transmision", "transmission");
+
+            correctionAdd("slackware", "Slackware");
+
+            correctionAdd("man bash", "`man bash`");
+
+            correctionAdd("heebie jeebies", "heebie-jeebies");
+            correctionAdd("eebie-jeebies", "heebie-jeebies");
+
+            correctionAdd("Osmium", "osmium");
+
+            correctionAdd("re-interpret", "reinterpret");
+
+            correctionAdd("shoot yourself on the foot", "shoot yourself in the foot");
+
+            correctionAdd("Staff", "staff");
+
+            correctionAdd("totem poll", "totem pole");
+
+            correctionAdd("valuad", "valued");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52933,6 +52964,24 @@ namespace OverflowHelper.core
 
             URL_Add("transmission", "https://en.wiktionary.org/wiki/transmission#Noun");
 
+            URL_Add("Slackware", "https://en.wikipedia.org/wiki/Slackware");
+
+            URL_Add("`man bash`", "https://linux.die.net/man/1/bash");
+
+            URL_Add("heebie-jeebies", "https://en.wikipedia.org/wiki/Heebie-jeebies");
+
+            URL_Add("osmium", "https://en.wikipedia.org/wiki/Osmium");
+
+            URL_Add("reinterpret", "https://en.wiktionary.org/wiki/reinterpret#Verb");
+
+            URL_Add("shoot yourself in the foot", "https://en.wiktionary.org/wiki/shoot_oneself_in_the_foot#Verb");
+
+            URL_Add("staff", "https://en.wiktionary.org/wiki/staff#Noun");
+
+            URL_Add("totem pole", "https://en.wiktionary.org/wiki/totem_pole#Noun");
+
+            URL_Add("valued", "https://en.wiktionary.org/wiki/value#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53048,6 +53097,12 @@ namespace OverflowHelper.core
 
             correctionAdd("tieing_", "tying_");
 
+            correctionAdd("cd_", "CD_");
+
+            correctionAdd("Echo_", "echo_");
+
+            correctionAdd("eval_", "eval (near \"*The args are read and concatenated together\"*)_");
+
             // URL mappings
             //
             //
@@ -53124,6 +53179,12 @@ namespace OverflowHelper.core
             URL_Add("text_", "https://en.wiktionary.org/wiki/text#Noun");
 
             URL_Add("tying_", "https://en.wiktionary.org/wiki/tie#Verb");
+
+            URL_Add("CD_", "https://en.wikipedia.org/wiki/Compact_disc");
+
+            URL_Add("echo_", "https://linux.die.net/man/1/echo");
+
+            URL_Add("eval (near \"*The args are read and concatenated together\"*)_", "https://linux.die.net/man/1/bash");
 
         } //addLookupData_alternativeWordSet()
 
