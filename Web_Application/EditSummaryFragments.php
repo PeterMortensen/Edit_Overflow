@@ -31,6 +31,15 @@
             the_EditOverflowHeadline("Some edit summary fragments");
         ?>
 
+        <p>Th<strong>e</strong>re is also a page
+            <a
+                href="https://pmortensen.eu/world/CannedComments.php"
+                accesskey="E"
+                title="Shortcut: Shift + Alt + E"
+            >for canned comments.</a></p>
+
+        <hr/>
+
             <!--  It is not really a form - just a page where we want
                   to be able to tab between field (and )
             -->
@@ -299,7 +308,7 @@
             <p>Spelling of Stack Overflow, Stack&nbsp;Exchange, and other
                 Stack&nbsp;Exchange sites, etc. No matter how it looks in a logo
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
-                ></a>it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"
+                >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
                 (the last section - <em>"Proper Use of the Stack Exchange Name"</em>).
                 The <strong><em>only</em></strong> exception is "MathOverflow"
                 (and Jeff Atwood should have said <strong><em>no</em></strong> at the time).
@@ -334,23 +343,6 @@
                 />
             </p>
 
-            <p>For preemptive use: Responses to comments should
-                normally be by editing the post, not in comments
-                (and it should not contain meta information).
-                Note: The ID in the link must be set.
-                <br/>
-                <input
-                    name="X32"
-                    type="text"
-                    id="X32"
-                    class="X32"
-                    value="Please respond by [editing (changing) your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
-                    style="width:830px;"
-                    accesskey=""
-                    title=""
-                />
-            </p>
-
             <p id="FixedSyntaxHighlighting">Some older posts on Stack Overflow have strange
                 <a href="https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109"
                 >syntax highlighting</a>,
@@ -375,22 +367,6 @@
                     id="X31"
                     class="X31"
                     value="Fixed the weird syntax highlighting (as a result, the diff looks more extensive than it really is - use view &quot;Side-by-side Markdown&quot; to compare). "
-                    style="width:830px;"
-                    accesskey=""
-                    title=""
-                />
-            </p>
-
-            <p id="CodeOnlyComment">
-                Code-only answers normally need some explanation to be useful.
-
-                <br/>
-                <input
-                    name="X33"
-                    type="text"
-                    id="X33"
-                    class="X33"
-                    value="An explanation would be in order. E.g., what is the idea/gist? Please respond by [editing (changing) your answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the answer should appear as if it was written today). "
                     style="width:830px;"
                     accesskey=""
                     title=""

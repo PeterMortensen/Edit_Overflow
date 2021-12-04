@@ -42,6 +42,22 @@
 # Edit Overflow.                                                       #
 #                                                                      #
 #                                                                      #
+# Historical note:                                                     #
+#                                                                      #
+#     This script started as a way to automate compiling the C#        #
+#     Edit Overflow source code on Linux (.NET Core) (as we had        #
+#     copy the necessary source files to a (single) build              #
+#     folder in order to build). And to automate callling the          #
+#     resulting executable to generate the SQL for the word            #
+#     input file (for import into web hosting based on MySQL           #
+#     and PHP). That was at the end of 2019 (September), but           #
+#     the first publix commit was not before 2020-02-06.               #
+#                                                                      #
+#     But it has developed into a full-blown build script to           #
+#     e.g. run unit tests and automatically deploy to a web            #
+#     hosting site.                                                    #
+#                                                                      #
+#                                                                      #
 # Installation notes:                                                  #
 #                                                                      #
 #   To enable compilation and running .NET Core code on                #
@@ -367,10 +383,10 @@ export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${REMOTE_WEB_ERRORLOG_FIL
 
 # Avoid "unary operator expected" error. We want to make it work
 # when environment variable "DISABLE_HTMLVALIDATION" is left out
-# entirely (e.g., it is only defined when selectively leaving 
-# out the HTML validation build step when the (external) 
-# service is down) - the normal (nominal case) is that 
-# it is left out (undefined). It is also to declutter 
+# entirely (e.g., it is only defined when selectively leaving
+# out the HTML validation build step when the (external)
+# service is down) - the normal (nominal case) is that
+# it is left out (undefined). It is also to declutter
 # the main script with this test.
 #
 if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
@@ -407,10 +423,10 @@ function absoluteTimestamp()
 #
 # A helper function to reduce redundancy.
 #
-# Outputs the current date and time in ISO 8601 format (to 
-# standard output), followed by subsecond information, 
-# prefixed by the specified string (e.g., "Start time"), 
-# and with the specified prefix, and leading and 
+# Outputs the current date and time in ISO 8601 format (to
+# standard output), followed by subsecond information,
+# prefixed by the specified string (e.g., "Start time"),
+# and with the specified prefix, and leading and
 # trailing empty lines.
 #
 # Parameters:
@@ -520,10 +536,16 @@ function evaluateBuildResult()
 
 # ###########################################################################
 #
-# A helper function to reduce redundancy.
+# Purpose: Relieve the clients of boilerplate related to comparing
+#          two strings (and actions if they are not equal). 
+#          Typically one of the strings is the result from 
+#          some build action  
 #
-# Check if two strings are equal. It stops the entire build and 
-# outputs a message (to standard output) if they are not. 
+#          Check if two strings are equal. It stops the entire 
+#          build and outputs a message (to standard output) 
+#          if they are not.
+#
+# A helper function to reduce redundancy.
 #
 # Parameters:
 #
@@ -537,7 +559,7 @@ function evaluateBuildResult()
 #
 # Return value:
 #
-#   0 if            
+#   0 if the two strings are the same
 #
 function mustBeEqual()
 {
@@ -853,12 +875,12 @@ function endWatchFile()
 #
 # Helper function to reduce redundancy. For PHP code.
 #
-#   For now, the primary purpose is to detect new entries in the
-#   web server error log (most likely only due to PHP errors) as
-#   a result of retrieving a web page (with wget).
+#   For now, the primary purpose is to detect ***new entries*** in the
+#   ***web server error log*** (most likely only due to PHP errors) 
+#   as a result of retrieving a web page (with wget).
 #
 #   This is to detect errors when the PHP scripts are running in
-#   a web server context, as opposed to a command line context
+#   a web server context, as opposed to a command-line context
 #   that we also use for testing. For instance, a PHP file
 #   gets passed command-line parameters from our tests
 #   when running in command line context, whereas in
@@ -866,7 +888,7 @@ function endWatchFile()
 #   parameters (we had an actual error due to this).
 #
 #   PHP may also be configured differently for command line
-#   and web (e.g., two different )
+#   and web (e.g., two different XXX)
 #
 # Future:
 #
@@ -876,10 +898,7 @@ function endWatchFile()
 #      Will then become regression tests for the expected
 #      configuration.
 #
-#   2. XXXXXXXXXx
-#
-#
-# Note: For now it only works for the ***local web server***
+# Note: For now, it only works for the ***local web server***
 #       (but it could be extended as soon as we have a means
 #       to programmatically retrieve the error log from the
 #       remote web server (we already push files in the
@@ -1221,7 +1240,33 @@ cd $WORKFOLDER
 # false negatives if the output contains BOTH this error
 # and some other error? At least for syntax error that
 # is not the case.
-
+#
+# Error encountered 2021-12-02T193908:
+#
+#     Build step 3 (PHP test (step 14: main lookup (file EditOverflow.php).
+#     Extra information: expected "Access denied for user", but got
+#     "PHP Fatal error:  Uncaught PDOException: PDO::__construct():
+#     php_network_getaddresses: getaddrinfo failed: Temporary failure in name
+#     resolution in
+#     /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/deploymentSpecific.php:55
+#
+#     Stack trace:
+#
+#     0 /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/deploymentSpecific.php(55):
+#     PDO->__construct()"  ) failed (error code 1).
+#
+#   Reason:
+#
+#     Missing network connection (to the Internet). Not even a connection
+#     to nearest router (without an Internet connection) is enough. Is
+#     a name server (DNS) required ("failure in name resolution"
+#     suggests it)? What needs to be looked up?
+#
+#     Is there a workaround? Putting 'localhost' in the hosts file? It
+#     is already there...
+#
+#     Why is this required??? Interface "lo" (loopback) should work for localhost.
+#
 PHP_code_test  EditOverflow.php          "main lookup"              3  "OverflowStyle=Native&LookUpTerm=JS"  "Access denied for user"
 
 
@@ -1368,11 +1413,13 @@ mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZ
 #             MySQL said: Documentation
 #             #1062 - Duplicate entry 'y.o' for key 'PRIMARY'
 #
-# Note 2: File "Header_EditOverflow_forMySQL_UTF8.sql" is in the
-#         standard backup (not yet formally checked in)
+# Note 2: File "Header_EditOverflow_forMySQL_UTF8.sql" is in
+#         the standard backup (not yet formally checked in)
 #
 # Note 3: The containing folder of $SQL_FILE (from the
-#         client side) must also exist
+#         client side) must also exist (that is, it
+#         is not automatically created by this
+#         script if it doesn't exist).
 #
 # Moved to PC2016 after SSD-related Linux system crash 2020-05-31
 #cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
@@ -1498,15 +1545,18 @@ cd -
 # Check of:
 #
 #   1. keyboard shortcuts conflicts and
-#   2. Indentation rules (even even number of spaces)
 #
-keyboardShortcutConsistencyCheck EditOverflow.php         "Edit Overflow lookup"       24
-
-keyboardShortcutConsistencyCheck Text.php                 "text stuff"                 25
-
-keyboardShortcutConsistencyCheck FixedStrings.php         "fixed string"               26
-
-keyboardShortcutConsistencyCheck EditSummaryFragments.php "edit summary"               27
+#   2. Indentation rules (even number of spaces)
+#
+keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       24
+                                                            
+keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 25
+                                                            
+keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               26
+                                                            
+keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               27
+                                                            
+keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            28
 
 
 
