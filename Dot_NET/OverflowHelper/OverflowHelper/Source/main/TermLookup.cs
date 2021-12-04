@@ -236,8 +236,6 @@ namespace OverflowHelper.core
 
                 int len = anIncorrect2Correct.Count;
 
-                // 2016-01-31. XXXXXXXX
-
                 // Prepare the list of keys
                 mKeys = new List<string>(len);
                 mIndexes = new List<int>(len);
@@ -368,66 +366,169 @@ namespace OverflowHelper.core
         }
 
 
+       /*****************************************************************************
+         *                                                                          *
+         *    Escape backslashes in a string by means of                            *
+         *    backslash itself: "\" -> "\\"                                         *
+         *                                                                          *
+         ****************************************************************************/
+        private static string escapeBackslash(string aString)
+        {
+            // This is true to where it is refactored from, but is it necessary?
+            if (aString.IndexOf(@"\") >= 0)
+	        {
+                aString = aString.Replace(@"\", @"\\"); // Escape backslash itself... (if any)
+          	}
+
+            return aString;
+        } //escape_backslash()
+
+
+       /*****************************************************************************
+         *                                                                          *
+         *    Escape various characters in a string by means of backslash (\):      *
+         *                                                                          *
+         *      1. Double quote                                                     *
+         *                                                                          *
+         *      2. Backslash                                                        *
+         *                                                                          *
+         *    This is suitable for JavaScript. It is not known if it is for SQL     *
+         *    (we currently use single quotes for the SQL strings and thus          *
+         *    double quote can be used without escape)                              *
+         *                                                                          *
+         *                                                                          *
+         ****************************************************************************/
+        private static string escape_withBackslash(string aString)
+        {
+            // Possible optimisation (as we had in a place where we
+            // refactored): Test for existence before changing
+            // the string. Example:
+            //
+            //   if (effectiveBadTerm.IndexOf(@"\") >= 0)
+	        //   {
+            //       effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");
+          	//   }
+            //
+            // But is it actually a problem at all? Is the string actually
+            // physically copied if Replace() did not do anyting? Is it
+            // taken care of automatically by the .NET runtime?
+
+
+            // Escape backslash itself
+            //
+            // Note: This ***must*** be the first. Otherwise we risk
+            //       unintended double backslashes in the output.
+            //
+            //aString = escapeBackslash(aString);
+
+
+            // Escape double quote (if any)
+            aString = aString.Replace(@"""", @"\""");
+
+            return aString;
+        } //escape_withBackslash()
+
+
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Escaping of SQL                                                       *
+         *                                                                          *
+         *    For now (we need more, though):                                       *
+         *                                                                          *
+         *      1. Backslash                                                        *
+         *                                                                          *
+         *         Escaped by backslash itself                                      *
+         *                                                                          *
+         *      2. Single quotes.                                                   *
+         *                                                                          *
+         *         Escaped by single quote itself                                   *
+         *                                                                          *
          ****************************************************************************/
         private static string escapeSQL(string aStringForSQL)
         {
             Trace.Assert(aStringForSQL != null);
 
-            return aStringForSQL.Replace("'", "''");
+            // In any case, we should have some unit test, including
+            // when the backslash is at the beginning or the end of
+            // the string.
+
+
+            // Escape backslash itself
+            //
+            // Note: This ***must*** be the first. Otherwise we risk unintended
+            //       double backslashes in the output (if we escape other
+            //       characters using backslash).
+            //
+            aStringForSQL = escapeBackslash(aStringForSQL);
+
+
+            aStringForSQL = aStringForSQL.Replace("'", "''");
+
+            return aStringForSQL;
         } //escapeSQL()
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *
+         *    Add SQL for a word (to the buffer)                                    *
+         *                                                                          *
+         *    Parameter "anIdentityMapping" is only for internal testing            *
+         *    purposes - it does not affect the output.                             *
+         *                                                                          *
          ****************************************************************************/
-        private static void addTermsToOutput_SQL(string aBadTerm2,
-                                                 string aCorrectedTerm2,
+        private static void addTermsToOutput_SQL(string aBadTerm3,
+                                                 string aCorrectedTerm3,
+                                                 bool anIdentityMapping,
                                                  ref StringBuilder aSomeScratch,
-                                                 string aURL)
+                                                 string aURL3)
         {
-            if (aBadTerm2.IndexOf("'") >= 0)
+            if (aBadTerm3.IndexOf("'") >= 0)
             {
                 Utility.debuggerRest();
             }
 
-            string effectiveBadTerm = aBadTerm2;
-            string effectiveCorrectedTerm = aCorrectedTerm2;
+            // Escape the SQL, e.g. backslash
+            string effectiveIncorrectTerm = escapeSQL(aBadTerm3);
+            string effectiveCorrectTerm =escapeSQL(aCorrectedTerm3);
+            string effectiveURL = escapeSQL(aURL3);
 
-            // Escaping of SQL. For now, only backslash. We need
-            // more, though. We can refactor and reduce the
-            // redundancy in the below when we generalise.
-            //
-            // In any case, we should have some unit test, including
-            // when the backslash is at the beginning or the end of
-            // the string.
-            //
-            if (effectiveBadTerm.IndexOf(@"\") >= 0)
-	        {
-                effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");
-          	}
-            if (effectiveCorrectedTerm.IndexOf(@"\") >= 0)
+
+            //Delete at any time
+            //if (effectiveBadTerm.IndexOf(@"\") >= 0)
+	        //{
+            //    effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");
+          	//}
+            //if (effectiveCorrectedTerm.IndexOf(@"\") >= 0)
+            //{
+            //    effectiveCorrectedTerm = effectiveBadTerm.Replace(@"\", @"\\");
+            //}
+
+
+            // Sanity check
+            if (anIdentityMapping)
             {
-                effectiveCorrectedTerm = effectiveBadTerm.Replace(@"\", @"\\");
-            }
+                // Check for errors made by the client and internally
+                // here (e.g. differences in escaping).
+                Trace.Assert(aBadTerm3  == aCorrectedTerm3);
+                Trace.Assert(effectiveIncorrectTerm  == effectiveCorrectTerm);
+           }
 
             aSomeScratch.Append("INSERT INTO EditOverflow\n");
             aSomeScratch.Append("  (incorrectTerm, correctTerm, URL)\n");
             aSomeScratch.Append("  VALUES(");
 
             aSomeScratch.Append("'");
-            aSomeScratch.Append(escapeSQL(effectiveBadTerm));
+            aSomeScratch.Append(effectiveIncorrectTerm);
             aSomeScratch.Append("', '");
 
-            aSomeScratch.Append(escapeSQL(effectiveCorrectedTerm));
+            aSomeScratch.Append(effectiveCorrectTerm);
             aSomeScratch.Append("', '");
 
             // Example of where escape of single quotes is necessary:
             //
             //   https://en.wiktionary.org/wiki/couldn't#Contraction
             //
-            aSomeScratch.Append(escapeSQL(aURL));
+            aSomeScratch.Append(effectiveURL);
 
             aSomeScratch.Append("');");
 
@@ -465,7 +566,7 @@ namespace OverflowHelper.core
             //           "<" -> "&lt;" -> "&amp;lt;"
             //
 
-            //Incorrect!!!!!
+            //Incorrect!!!!! (The order matters)
             //return aStringForHTML.Replace("<", "&lt;").Replace("&", "&amp;");
 
             //Correct
@@ -506,6 +607,12 @@ namespace OverflowHelper.core
 
                 // HTML non-breaking spaces do not work to scroll in a web browser
                 escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"&nbsp;", @"_");
+
+                // We also filter out double quotes. Unchanged they will cause
+                // HTML validation to fail. We don't know if it is possible to
+                // escape them in this context ("&quot;"?), but it is a very
+                // minor problem - we have only one entry in the entire word list.
+                escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"""", @"");
 
                 string attrStr =
                   @" id=""" + escapedCorrectedTerm + @""""; // Note: Leading space
@@ -557,19 +664,28 @@ namespace OverflowHelper.core
 
 
        /****************************************************************************
-         *    <placeholder for header>                                              *
-         ****************************************************************************/
+        *                                                                          *
+        *    Add JavaScript code for a word (to the buffer)                        *
+        *                                                                          *
+        *    Parameter "anIdentityMapping" is only for internal testing            *
+        *    purposes - it does not affect the output.                             *
+        *                                                                          *
+        *                                                                          *
+        ****************************************************************************/
         private static void addToAssociativeArray_JavaScript(
-            string aVariableName, string aKey, string aValue, ref StringBuilder aSomeScratch)
+            string aVariableName, string aKey, string aValue,
+            bool anIdentityMapping,
+            ref StringBuilder aSomeScratch)
         {
             // We need to escape double quotes. Example (incorrect term):
             //
             //     Mac OS X (10.6 "Snow Leopard")
             //
 
-            //Only the incorrect term for now (for the primary mapping).
-            //
-            aKey = aKey.Replace(@"""", @"\""");
+            //Delete at any time
+            //aKey   =   aKey.Replace(@"""", @"\""");
+            //aValue = aValue.Replace(@"""", @"\""");
+
 
             aSomeScratch.Append(aVariableName);
             aSomeScratch.Append(@"[""");
@@ -586,33 +702,57 @@ namespace OverflowHelper.core
        /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private static void addTermsToOutput_JavaScript(string aBadTerm2,
-                                                        string aCorrectedTerm2,
+        private static void addTermsToOutput_JavaScript(string aBadTerm,
+                                                        string aCorrectedTerm,
+                                                        bool anIdentityMapping,
                                                         ref StringBuilder aSomeScratch,
                                                         string aURL)
         {
-            string effectiveBadTerm = aBadTerm2;
-            string effectiveCorrectedTerm = aCorrectedTerm2;
+            string effectiveBadTerm = escape_withBackslash(aBadTerm);
 
-            // Example:
+            //string effectiveCorrectedTerm = aCorrectedTerm;
+            string effectiveCorrectedTerm = escape_withBackslash(aCorrectedTerm);
+
+            // Example (this example is for identity mapping so we can also
+            //          lookup the correct words (with explicit program
+            //          code)):
             //
             //   incorrect2correct["ZX 81"] = "ZX 81";
             //
             //   correct2URL["ZX81"] = "https://en.wikipedia.org/wiki/ZX81";
 
 
+            // Sanity check (we ought to also add them to
+            // addTermsToOutput_HTML())
+            if (anIdentityMapping)
+            {
+                // Check for errors made by the client and internally
+                // here (e.g. differences in escaping).
+                Trace.Assert(aBadTerm  == aCorrectedTerm);
+                Trace.Assert(effectiveBadTerm  == effectiveCorrectedTerm);
+            }
+
+            // Word mapping
             addToAssociativeArray_JavaScript("incorrect2correct",
                                              effectiveBadTerm,
                                              effectiveCorrectedTerm,
+                                             anIdentityMapping,
                                              ref aSomeScratch);
 
-            // Assume that this function is called for the identity mapping
-            if (aBadTerm2 == aCorrectedTerm2)
+            // URL mapping
+            //
+            // Assume that this function is called one
+            // and only time for the identity mapping.
+            //
+            // The actual identity mapping is implicitly
+            // by the above in that case.
+            //
+            if (anIdentityMapping)
             {
-
                 addToAssociativeArray_JavaScript("correct2URL",
                                                  effectiveCorrectedTerm,
                                                  aURL,
+                                                 anIdentityMapping,
                                                  ref aSomeScratch);
             }
 
@@ -622,8 +762,8 @@ namespace OverflowHelper.core
         /****************************************************************************
          *                                                                          *
          *   Encapsulate the loop where we run through the whole word list (of      *
-         *   incorrect terms) in a certain order. E.g., to generate the row         *
-         *   for an HTML table                                                      *
+         *   incorrect terms) in a certain order. E.g., to generate the rows        *
+         *   for an HTML table.                                                     *
          *                                                                          *
          *    Note: We currently use an enum. Would it be better with something     *
          *          where the formatting type (e.g., HTML or SQL) is some           *
@@ -749,6 +889,7 @@ namespace OverflowHelper.core
 
                             addTermsToOutput_SQL(someIncorrectTerm,
                                                  someCorrectTerm,
+                                                 false,
                                                  ref aSomeScratch,
                                                  someURL);
 
@@ -768,6 +909,7 @@ namespace OverflowHelper.core
                                 // only want to get the URL.
                                 addTermsToOutput_SQL(someCorrectTerm,
                                                      someCorrectTerm,
+                                                     true,
                                                      ref aSomeScratch,
                                                      someURL);
                             }
@@ -777,6 +919,7 @@ namespace OverflowHelper.core
 
                             addTermsToOutput_JavaScript(someIncorrectTerm,
                                                         someCorrectTerm,
+                                                        false,
                                                         ref aSomeScratch,
                                                         someURL);
 
@@ -798,6 +941,7 @@ namespace OverflowHelper.core
                                 //
                                 addTermsToOutput_JavaScript(someCorrectTerm,
                                                             someCorrectTerm,
+                                                            true,
                                                             ref aSomeScratch,
                                                             someURL);
                                 // Delineate groups
