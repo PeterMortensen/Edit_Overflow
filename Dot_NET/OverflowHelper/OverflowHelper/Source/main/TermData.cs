@@ -15134,6 +15134,7 @@ namespace OverflowHelper.core
             correctionAdd("NewYork", "New York");
             correctionAdd("NYC", "New York");
             correctionAdd("New York City", "New York");
+            correctionAdd("NEW YORK", "New York");
 
             correctionAdd("onenote", "OneNote");
 
@@ -17251,6 +17252,8 @@ namespace OverflowHelper.core
 
             correctionAdd("JWST", "James Webb Space Telescope");
             correctionAdd("JW", "James Webb Space Telescope");
+            correctionAdd("JAMES WEBB SPACE TELESCOPE", "James Webb Space Telescope");
+            correctionAdd("James Webb", "James Webb Space Telescope");
 
             correctionAdd("Lxqt", "LXQt");
 
@@ -21537,6 +21540,7 @@ namespace OverflowHelper.core
             correctionAdd("rspec", "RSpec");
 
             correctionAdd("Shakespear", "Shakespeare");
+            correctionAdd("William Shakespeare", "Shakespeare");
 
             correctionAdd("heer", "hear");
 
@@ -23435,6 +23439,8 @@ namespace OverflowHelper.core
             correctionAdd("languaes", "language");
             correctionAdd("languages", "language");
             correctionAdd("languae", "language");
+            correctionAdd("lenguaje", "language");
+            correctionAdd("lenguage", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -33686,6 +33692,13 @@ namespace OverflowHelper.core
             correctionAdd("lowerCamelCase", "lower camel case");
 
             correctionAdd("UpperCamelCase", "upper camel case");
+
+            correctionAdd("counsilor", "counselor");
+            correctionAdd("Counsilor", "counselor");
+
+            correctionAdd("kerfufle", "kerfuffle");
+
+            correctionAdd("scanable", "scannable");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -52991,6 +53004,12 @@ namespace OverflowHelper.core
             URL_Add("lower camel case", "https://en.wikipedia.org/wiki/Camel_case");
 
             URL_Add("upper camel case", "https://en.wikipedia.org/wiki/Camel_case");
+
+            URL_Add("counselor", "https://en.wiktionary.org/wiki/counselor#Noun");
+
+            URL_Add("kerfuffle", "https://en.wiktionary.org/wiki/kerfuffle#Noun");
+
+            URL_Add("scannable", "https://en.wiktionary.org/wiki/scannable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
