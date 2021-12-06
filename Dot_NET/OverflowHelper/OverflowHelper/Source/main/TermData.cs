@@ -9817,6 +9817,7 @@ namespace OverflowHelper.core
             correctionAdd("did'nt", "didn’t");
             correctionAdd("diedn#t", "didn’t");
             correctionAdd("diedn't", "didn’t");
+            correctionAdd("didn;t", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -13388,6 +13389,8 @@ namespace OverflowHelper.core
             correctionAdd("diffrentiate", "differentiate");
             correctionAdd("differ", "differentiate");
             correctionAdd("differenciate", "differentiate");
+            correctionAdd("diferences", "differentiate");
+            correctionAdd("diferenciate", "differentiate");
 
             correctionAdd("Uwsgi", "uWSGI");
             correctionAdd("UWSGI", "uWSGI");
@@ -18063,6 +18066,8 @@ namespace OverflowHelper.core
             correctionAdd("Alpha Zero", "AlphaZero"); // Chess
             correctionAdd("Alpha zero", "AlphaZero"); // Chess
             correctionAdd("alpha zero", "AlphaZero"); // Chess
+            correctionAdd("Alphazero", "AlphaZero"); // Chess
+            correctionAdd("alphazero", "AlphaZero"); // Chess
 
             correctionAdd("the frence defence", "French Defence"); // Chess
             correctionAdd("the french", "French Defence"); // Chess
@@ -19646,6 +19651,7 @@ namespace OverflowHelper.core
             correctionAdd("doublequote", "double quote");
             correctionAdd("doubleqoute", "double quote");
             correctionAdd("double-qoute", "double quote");
+            correctionAdd("speech mark", "double quote");
 
             correctionAdd("down sample", "downsample");
 
@@ -21131,6 +21137,7 @@ namespace OverflowHelper.core
             correctionAdd("gfx", "graphics");
 
             correctionAdd("Red-Black tree", "red-black tree");
+            correctionAdd("Red-Black-Tree", "red-black tree");
 
             correctionAdd("stoopidest", "stupidest");
             correctionAdd("Stoopidest", "stupidest");
@@ -22720,10 +22727,12 @@ namespace OverflowHelper.core
             correctionAdd("SQLSearch", "SQL&nbsp;Search");
 
             correctionAdd("BFS", "breadth-first search");
+            correctionAdd("breath first search", "breadth-first search");
 
             correctionAdd("depth first search", "depth-first search");
             correctionAdd("Depth First Search", "depth-first search");
             correctionAdd("DFS", "depth-first search");
+            correctionAdd("depth first seach", "depth-first search");
 
             correctionAdd("serach", "search");
             correctionAdd("seach", "search");
@@ -28694,6 +28703,7 @@ namespace OverflowHelper.core
             correctionAdd("re-throw", "rethrow");
 
             correctionAdd("wronng", "wrong");
+            correctionAdd("wront", "wrong");
 
             correctionAdd("clear type", "ClearType");
             correctionAdd("clear-type", "ClearType");
@@ -33699,6 +33709,67 @@ namespace OverflowHelper.core
             correctionAdd("kerfufle", "kerfuffle");
 
             correctionAdd("scanable", "scannable");
+
+            correctionAdd("c5", "C5");
+
+            correctionAdd("Delta_", "Delta Air Lines_");
+
+            correctionAdd("geeksforgeeks", "GeeksforGeeks");
+            correctionAdd("gfg", "GeeksforGeeks");
+            correctionAdd("GFG", "GeeksforGeeks");
+
+            correctionAdd("graphml", "GraphML");
+
+            correctionAdd("guitar pro", "Guitar Pro");
+
+            correctionAdd("LQ", "LQP");
+
+            correctionAdd("LoopBack.js", "LoopBack");
+            correctionAdd("loopback", "LoopBack");
+            correctionAdd("Loopback", "LoopBack");
+            correctionAdd("loopbackjs", "LoopBack");
+            correctionAdd("Loopback.js", "LoopBack");
+
+            correctionAdd("Loopback 4", "LoopBack 4");
+            correctionAdd("loopback-4", "LoopBack 4");
+            correctionAdd("loopback 4", "LoopBack 4");
+
+            correctionAdd("LAX", "Los Angeles International Airport");
+
+            correctionAdd("GLEE", "MSAGL");
+            correctionAdd("msagl", "MSAGL");
+
+            correctionAdd("LAS", "McCarran International Airport");
+
+            correctionAdd("SYD", "Sydney Airport");
+
+            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
+
+            correctionAdd("windows task scheduler", "Windows Task Scheduler");
+            correctionAdd("window task scheduler", "Windows Task Scheduler");
+
+            correctionAdd("wordnik", "Wordnik");
+
+            correctionAdd("BST", "binary search tree");
+
+            correctionAdd("CamelCase", "camel case");
+
+            correctionAdd("gobbledigook", "gobbledygook");
+
+            correctionAdd("integreted", "integrated");
+
+            correctionAdd("LESS_", "less_");
+
+            correctionAdd("`node_modules`", "node_modules folder");
+            correctionAdd("node_modules", "node_modules folder");
+
+            correctionAdd("propertional", "proportional");
+
+            correctionAdd("relys", "relies");
+
+            correctionAdd("traped", "trapped");
+
+            correctionAdd("VLQ", "very low quality");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53011,6 +53082,56 @@ namespace OverflowHelper.core
 
             URL_Add("scannable", "https://en.wiktionary.org/wiki/scannable#Adjective");
 
+            URL_Add("C5", "https://itu.dk/research/c5/");
+
+            URL_Add("Delta Air Lines_", "https://en.wikipedia.org/wiki/Delta_Air_Lines");
+
+            URL_Add("GeeksforGeeks", "https://www.geeksforgeeks.org/about/");
+
+            URL_Add("GraphML", "https://en.wikipedia.org/wiki/GraphML");
+
+            URL_Add("Guitar Pro", "https://en.wikipedia.org/wiki/Guitar_Pro");
+
+            URL_Add("LQP", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
+
+            URL_Add("LoopBack", "https://loopback.io/");
+
+            URL_Add("LoopBack 4", "https://loopback.io/");
+
+            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
+
+            URL_Add("MSAGL", "https://en.wikipedia.org/wiki/Microsoft_Automatic_Graph_Layout");
+
+            URL_Add("McCarran International Airport", "https://en.wikipedia.org/wiki/McCarran_International_Airport");
+
+            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
+
+            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
+
+            URL_Add("Windows Task Scheduler", "https://en.wikipedia.org/wiki/Windows_Task_Scheduler");
+
+            URL_Add("Wordnik", "https://en.wikipedia.org/wiki/Wordnik");
+
+            URL_Add("binary search tree", "https://en.wikipedia.org/wiki/Binary_search_tree");
+
+            URL_Add("camel case", "https://en.wikipedia.org/wiki/Camel_case");
+
+            URL_Add("gobbledygook", "https://www.youtube.com/c/SabineHossenfelder/videos");
+
+            URL_Add("integrated", "https://en.wiktionary.org/wiki/integrated#Adjective");
+
+            URL_Add("less_", "https://en.wikipedia.org/wiki/Less_(Unix)");
+
+            URL_Add("node_modules folder", "https://stackoverflow.com/questions/63294260/what-is-the-purpose-of-the-node-modules-folder");
+
+            URL_Add("proportional", "https://en.wiktionary.org/wiki/proportional#Adjective");
+
+            URL_Add("relies", "https://en.wiktionary.org/wiki/rely#Verb");
+
+            URL_Add("trapped", "https://en.wiktionary.org/wiki/trap#Verb");
+
+            URL_Add("very low quality", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53134,6 +53255,16 @@ namespace OverflowHelper.core
 
             correctionAdd("int_", "it_");
 
+            correctionAdd("[tag:node.js]_", "Node.js_");
+
+            correctionAdd("[tag:iOS]_", "iOS_");
+
+            correctionAdd("[tag:Android]_", "Android_");
+
+            correctionAdd("[tag:HTML5]_", "HTML5_");
+
+            correctionAdd("[tag:loopbackjs]_", "LoopBack_");
+
             // URL mappings
             //
             //
@@ -53218,6 +53349,16 @@ namespace OverflowHelper.core
             URL_Add("eval (near \"*The args are read and concatenated together\"*)_", "https://linux.die.net/man/1/bash");
 
             URL_Add("it_", "https://en.wiktionary.org/wiki/it#Pronoun");
+
+            URL_Add("Node.js_", "https://stackoverflow.com/questions/tagged/node.js");
+
+            URL_Add("iOS_", "https://stackoverflow.com/questions/tagged/ios");
+
+            URL_Add("Android_", "https://stackoverflow.com/questions/tagged/android");
+
+            URL_Add("HTML5_", "https://stackoverflow.com/questions/tagged/html5");
+
+            URL_Add("LoopBack_", "https://stackoverflow.com/tags/loopbackjs/info");
 
         } //addLookupData_alternativeWordSet()
 
