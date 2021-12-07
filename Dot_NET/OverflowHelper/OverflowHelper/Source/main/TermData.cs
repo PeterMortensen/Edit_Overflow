@@ -3936,6 +3936,7 @@ namespace OverflowHelper.core
             correctionAdd("openSSl", "OpenSSL");
             correctionAdd("openSSL", "OpenSSL");
             correctionAdd("Open SSL", "OpenSSL");
+            correctionAdd("OpenSS", "OpenSSL");
 
             correctionAdd("opencv", "OpenCV");
             correctionAdd("openCV", "OpenCV");
@@ -9636,6 +9637,7 @@ namespace OverflowHelper.core
             correctionAdd("Css 3", "CSS&nbsp;3");
 
             correctionAdd("perms", "permissions");
+            correctionAdd("premissions", "permissions");
 
             correctionAdd("login", "log in");
             correctionAdd("log-in", "log in");
@@ -11600,6 +11602,7 @@ namespace OverflowHelper.core
             correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("AU", "Ask&nbsp;Ubuntu");
+            correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -11740,6 +11743,7 @@ namespace OverflowHelper.core
             correctionAdd("answerd", "answer");
             correctionAdd("aswer", "answer");
             correctionAdd("asnwer", "answer");
+            correctionAdd("answah", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -11757,6 +11761,7 @@ namespace OverflowHelper.core
             correctionAdd("blow", "below");
             correctionAdd("Belo", "below");
             correctionAdd("belo", "below");
+            correctionAdd("beliow", "below");
 
             correctionAdd("communciate", "communicate");
             correctionAdd("commuicate", "communicate");
@@ -12249,6 +12254,7 @@ namespace OverflowHelper.core
             correctionAdd("proggraming", "programming");
             correctionAdd("proggramming", "programming");
             correctionAdd("prgramming", "programming");
+            correctionAdd("protramming", "programming");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -15552,6 +15558,7 @@ namespace OverflowHelper.core
             correctionAdd("correspnding", "corresponding");
 
             correctionAdd("substract", "subtract");
+            correctionAdd("subsrac", "subtract");
 
             correctionAdd("bouncy", "Bouncy Castle");
             correctionAdd("bouncy castle", "Bouncy Castle");
@@ -16227,6 +16234,15 @@ namespace OverflowHelper.core
             correctionAdd("pallet", "palette");
 
             correctionAdd("brackets", "Brackets");
+
+            correctionAdd("braket", "bracket");
+
+            correctionAdd("brach", "branch");
+            correctionAdd("Brach", "branch");
+            correctionAdd("Branch", "branch");
+
+            correctionAdd("branchs", "branches");
+            correctionAdd("braches", "branches");
 
             correctionAdd("cartesian", "Cartesian");
 
@@ -17259,6 +17275,7 @@ namespace OverflowHelper.core
             correctionAdd("James Webb", "James Webb Space Telescope");
 
             correctionAdd("Lxqt", "LXQt");
+            correctionAdd("lxqt", "LXQt");
 
             correctionAdd("Labanon", "Lebanon");
 
@@ -18470,6 +18487,9 @@ namespace OverflowHelper.core
 
             correctionAdd("championship 2021", "World Chess Championship 2021"); // Chess
             correctionAdd("world championship 2021", "World Chess Championship 2021"); // Chess
+
+            correctionAdd("Leela chess Zero", "Leela Chess Zero"); // Chess
+            correctionAdd("Leela", "Leela Chess Zero"); // Chess
             //
             // End of chess part
 
@@ -18964,10 +18984,6 @@ namespace OverflowHelper.core
             correctionAdd("java9", "Java&nbsp;9");
             correctionAdd("Java9", "Java&nbsp;9");
             correctionAdd("Java 9", "Java&nbsp;9"); // Sort of self
-
-            correctionAdd("brach", "branch");
-            correctionAdd("Brach", "branch");
-            correctionAdd("Branch", "branch");
 
             correctionAdd("remotly", "remotely");
 
@@ -25605,6 +25621,7 @@ namespace OverflowHelper.core
             correctionAdd("arrise", "arise");
 
             correctionAdd("artile", "article");
+            correctionAdd("artical", "article");
 
             correctionAdd("clousre", "closure");
             correctionAdd("clousure", "closure");
@@ -25703,6 +25720,7 @@ namespace OverflowHelper.core
             correctionAdd("ther", "there");
             correctionAdd("thers", "there");
             correctionAdd("thre", "there");
+            correctionAdd("theree", "there");
 
             correctionAdd("Python Anywhere", "PythonAnywhere");
 
@@ -25861,6 +25879,7 @@ namespace OverflowHelper.core
 
             correctionAdd("alingn", "align");
             correctionAdd("allign", "align");
+            correctionAdd("algin", "align");
 
             correctionAdd("ALIGNED", "aligned");
             correctionAdd("ALINGNED", "aligned");
@@ -29637,8 +29656,6 @@ namespace OverflowHelper.core
 
             correctionAdd("xemacs", "XEmacs");
 
-            correctionAdd("branchs", "branches");
-
             correctionAdd("ddl", "DDL");
 
             correctionAdd("dml", "DML");
@@ -30460,8 +30477,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bismuth", "bismuth");
             correctionAdd("Bi", "bismuth");
-
-            correctionAdd("braket", "bracket");
 
             correctionAdd("Cr", "chromium (element)");
 
@@ -31449,6 +31464,7 @@ namespace OverflowHelper.core
 
             correctionAdd("webgl", "WebGL");
             correctionAdd("Web GL", "WebGL");
+            correctionAdd("Webgl", "WebGL");
 
             correctionAdd("webdav", "WebDAV");
             correctionAdd("WebDav", "WebDAV");
@@ -31547,6 +31563,9 @@ namespace OverflowHelper.core
             correctionAdd("java webstart", "Java Web Start");
             correctionAdd("WebStart", "Java Web Start");
             correctionAdd("Web Start", "Java Web Start");
+            correctionAdd("Webstart", "Java Web Start");
+            correctionAdd("JavaWS", "Java Web Start");
+            correctionAdd("javaws", "Java Web Start");
 
             correctionAdd("sereal", "serial");
 
@@ -33744,6 +33763,7 @@ namespace OverflowHelper.core
             correctionAdd("SYD", "Sydney Airport");
 
             correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
+            correctionAdd("TBIT", "Tom Bradley International Terminal");
 
             correctionAdd("windows task scheduler", "Windows Task Scheduler");
             correctionAdd("window task scheduler", "Windows Task Scheduler");
@@ -33770,6 +33790,44 @@ namespace OverflowHelper.core
             correctionAdd("traped", "trapped");
 
             correctionAdd("VLQ", "very low quality");
+
+            correctionAdd("nth-child()", ":nth-child()");
+            correctionAdd("nth-child", ":nth-child()");
+
+            correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
+
+            correctionAdd("Bible hermeneutics", "Biblical Hermeneutics (Stack Exchange site)");
+
+            correctionAdd("prometheus", "Prometheus");
+
+            correctionAdd("Protobuf", "Protocol Buffers");
+            correctionAdd("protocol buffers", "Protocol Buffers");
+
+            correctionAdd("RS422", "RS-422");
+            correctionAdd("R422", "RS-422");
+
+            correctionAdd("space exploration", "Space Exploration (Stack Exchange site)");
+            correctionAdd("Space Exploration", "Space Exploration (Stack Exchange site)");
+
+            correctionAdd("zabbix", "Zabbix");
+
+            correctionAdd("alphabatically", "alphabetically");
+
+            correctionAdd("concentrat", "concentrate");
+            correctionAdd("concencrate", "concentrate");
+
+            correctionAdd("LibGDX", "libGDX");
+            correctionAdd("libgdx", "libGDX");
+
+            correctionAdd("nonissue", "non-issue");
+
+            correctionAdd("ordeing", "ordering");
+
+            correctionAdd("persue", "pursue");
+
+            correctionAdd("substracted", "subtracted");
+
+            correctionAdd("synth", "synthesizer");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53132,6 +53190,40 @@ namespace OverflowHelper.core
 
             URL_Add("very low quality", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
 
+            URL_Add(":nth-child()", "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child");
+
+            URL_Add("Astronomy (Stack Exchange site)", "https://astronomy.stackexchange.com/tour");
+
+            URL_Add("Biblical Hermeneutics (Stack Exchange site)", "https://hermeneutics.stackexchange.com/tour");
+
+            URL_Add("Leela Chess Zero", "https://en.wikipedia.org/wiki/Leela_Chess_Zero");
+
+            URL_Add("Prometheus", "https://en.wikipedia.org/wiki/Prometheus_(software)");
+
+            URL_Add("Protocol Buffers", "https://en.wikipedia.org/wiki/Protocol_Buffers");
+
+            URL_Add("RS-422", "https://en.wikipedia.org/wiki/RS-422");
+
+            URL_Add("Space Exploration (Stack Exchange site)", "https://space.stackexchange.com/tour");
+
+            URL_Add("Zabbix", "https://en.wikipedia.org/wiki/Zabbix");
+
+            URL_Add("alphabetically", "https://en.wiktionary.org/wiki/alphabetically#Adverb");
+
+            URL_Add("concentrate", "https://en.wiktionary.org/wiki/concentrate#Verb");
+
+            URL_Add("libGDX", "https://en.wikipedia.org/wiki/LibGDX");
+
+            URL_Add("non-issue", "https://en.wiktionary.org/wiki/non-issue#Noun");
+
+            URL_Add("ordering", "https://en.wiktionary.org/wiki/order#Verb");
+
+            URL_Add("pursue", "https://en.wiktionary.org/wiki/pursue#Verb");
+
+            URL_Add("subtracted", "https://en.wiktionary.org/wiki/subtract#Verb");
+
+            URL_Add("synthesizer", "https://en.wikipedia.org/wiki/Synthesizer");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53265,6 +53357,8 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:loopbackjs]_", "LoopBack_");
 
+            correctionAdd("set-up_", "setup_");
+
             // URL mappings
             //
             //
@@ -53359,6 +53453,8 @@ namespace OverflowHelper.core
             URL_Add("HTML5_", "https://stackoverflow.com/questions/tagged/html5");
 
             URL_Add("LoopBack_", "https://stackoverflow.com/tags/loopbackjs/info");
+
+            URL_Add("setup_", "https://en.wiktionary.org/wiki/setup#Noun");
 
         } //addLookupData_alternativeWordSet()
 
