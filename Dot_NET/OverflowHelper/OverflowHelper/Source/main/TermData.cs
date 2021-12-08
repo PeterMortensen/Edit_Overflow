@@ -517,6 +517,7 @@ namespace OverflowHelper.core
             correctionAdd("stop-transcript", "Stop-Transcript");
 
             correctionAdd("user script", "userscript");
+            correctionAdd("Userscript", "userscript");
 
             correctionAdd("clojurescript", "ClojureScript");
 
@@ -9002,6 +9003,8 @@ namespace OverflowHelper.core
             correctionAdd("begineer", "beginner");
             correctionAdd("Beginnger", "beginner");
             correctionAdd("beginnger", "beginner");
+            correctionAdd("Beginener", "beginner");
+            correctionAdd("beginener", "beginner");
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -10134,6 +10137,8 @@ namespace OverflowHelper.core
             correctionAdd("UpVote", "upvote");
             correctionAdd("up vote", "upvote");
             correctionAdd("Up-Vote", "upvote");
+            correctionAdd("Upvote", "upvote");
+            correctionAdd("Up vote", "upvote");
 
             correctionAdd("down-vote", "downvote");
             correctionAdd("dv", "downvote");
@@ -11969,6 +11974,9 @@ namespace OverflowHelper.core
             correctionAdd("alternativey", "alternatively");
             correctionAdd("alternativela", "alternatively");
 
+            correctionAdd("altrenative", "alternative");
+            correctionAdd("alterative", "alternative");
+
             correctionAdd("aparent", "apparent");
             correctionAdd("aparrent", "apparent");
             correctionAdd("apparrent", "apparent");
@@ -13210,6 +13218,8 @@ namespace OverflowHelper.core
             correctionAdd("comitted", "committed");
 
             correctionAdd("no-op", "no operation");
+            correctionAdd("noop", "no operation");
+            correctionAdd("nop", "no operation");
 
             correctionAdd("profficient", "proficient");
 
@@ -13979,6 +13989,7 @@ namespace OverflowHelper.core
             correctionAdd("schrol", "scroll");
             correctionAdd("scholl", "scroll");
             correctionAdd("Scroll", "scroll");
+            correctionAdd("scrool", "scroll");
 
             correctionAdd("runon", "run-on sentence"); // For expansion
             correctionAdd("run on", "run-on sentence"); // For expansion
@@ -17208,6 +17219,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Interstellar", "interstellar");
 
+            correctionAdd("xlm", "Stellar");
+            correctionAdd("stellar", "Stellar");
+            correctionAdd("XLM", "Stellar");
+
             correctionAdd("Wasi", "WASI");
 
             correctionAdd("recipi", "recipe");
@@ -20358,6 +20373,7 @@ namespace OverflowHelper.core
             correctionAdd("wat", "what");
             correctionAdd("wath", "what");
             correctionAdd("wht", "what");
+            correctionAdd("whar", "what");
 
             correctionAdd("codidact", "Codidact");
             correctionAdd("Codedact", "Codidact");
@@ -20676,9 +20692,6 @@ namespace OverflowHelper.core
             correctionAdd("Linux kernal", "Linux kernel");
 
             correctionAdd("Aeronautics", "aeronautics");
-
-            correctionAdd("altrenative", "alternative");
-            correctionAdd("alterative", "alternative");
 
             correctionAdd("Favicon", "favicon");
             correctionAdd("fav icon", "favicon");
@@ -32708,6 +32721,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS Monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("MacOS Monterey", "macOS&nbsp;v12 (Monterey)");
 
             correctionAdd("stetching", "stretching");
 
@@ -33000,6 +33014,8 @@ namespace OverflowHelper.core
             correctionAdd("TOGA", "TO/GA");
 
             correctionAdd("Uservoice", "UserVoice");
+            correctionAdd("user voice", "UserVoice");
+            correctionAdd("uservoice", "UserVoice");
 
             correctionAdd("WinRT XAML", "WinUI");
             correctionAdd("UWP XAML", "WinUI");
@@ -33731,8 +33747,6 @@ namespace OverflowHelper.core
 
             correctionAdd("c5", "C5");
 
-            correctionAdd("Delta_", "Delta Air Lines_");
-
             correctionAdd("geeksforgeeks", "GeeksforGeeks");
             correctionAdd("gfg", "GeeksforGeeks");
             correctionAdd("GFG", "GeeksforGeeks");
@@ -33777,8 +33791,6 @@ namespace OverflowHelper.core
             correctionAdd("gobbledigook", "gobbledygook");
 
             correctionAdd("integreted", "integrated");
-
-            correctionAdd("LESS_", "less_");
 
             correctionAdd("`node_modules`", "node_modules folder");
             correctionAdd("node_modules", "node_modules folder");
@@ -33828,6 +33840,38 @@ namespace OverflowHelper.core
             correctionAdd("substracted", "subtracted");
 
             correctionAdd("synth", "synthesizer");
+
+            correctionAdd("Airplay", "AirPlay");
+
+            correctionAdd("Papa smurf", "Papa Smurf");
+
+            correctionAdd("payoneer", "Payoneer");
+
+            correctionAdd("SharePoint online", "SharePoint Online");
+
+            correctionAdd("smurfette", "Smurfette");
+
+            correctionAdd("smurfs", "The Smurfs");
+
+            correctionAdd("Youtuber", "YouTuber");
+
+            correctionAdd("counter argued", "counterargued");
+
+            correctionAdd("de-referencing", "dereferencing");
+
+            correctionAdd("urks", "irks");
+
+            correctionAdd("non-committed", "noncommitted");
+            correctionAdd("non-comitted", "noncommitted");
+
+            correctionAdd("non-recoverable", "nonrecoverable");
+            correctionAdd("non recoverable", "nonrecoverable");
+
+            correctionAdd("reality-distortion field", "reality distortion field");
+
+            correctionAdd("de-hashing", "rehashing");
+
+            correctionAdd("re-programming", "reprogramming");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53142,8 +53186,6 @@ namespace OverflowHelper.core
 
             URL_Add("C5", "https://itu.dk/research/c5/");
 
-            URL_Add("Delta Air Lines_", "https://en.wikipedia.org/wiki/Delta_Air_Lines");
-
             URL_Add("GeeksforGeeks", "https://www.geeksforgeeks.org/about/");
 
             URL_Add("GraphML", "https://en.wikipedia.org/wiki/GraphML");
@@ -53177,8 +53219,6 @@ namespace OverflowHelper.core
             URL_Add("gobbledygook", "https://www.youtube.com/c/SabineHossenfelder/videos");
 
             URL_Add("integrated", "https://en.wiktionary.org/wiki/integrated#Adjective");
-
-            URL_Add("less_", "https://en.wikipedia.org/wiki/Less_(Unix)");
 
             URL_Add("node_modules folder", "https://stackoverflow.com/questions/63294260/what-is-the-purpose-of-the-node-modules-folder");
 
@@ -53223,6 +53263,38 @@ namespace OverflowHelper.core
             URL_Add("subtracted", "https://en.wiktionary.org/wiki/subtract#Verb");
 
             URL_Add("synthesizer", "https://en.wikipedia.org/wiki/Synthesizer");
+
+            URL_Add("AirPlay", "https://en.wikipedia.org/wiki/AirPlay");
+
+            URL_Add("Papa Smurf", "https://en.wikipedia.org/wiki/Papa_Smurf");
+
+            URL_Add("Payoneer", "https://en.wikipedia.org/wiki/Payoneer");
+
+            URL_Add("SharePoint Online", "https://en.wikipedia.org/wiki/SharePoint#SharePoint_Online");
+
+            URL_Add("Smurfette", "https://en.wikipedia.org/wiki/Smurfette");
+
+            URL_Add("Stellar", "https://en.wikipedia.org/wiki/Stellar_(payment_network)");
+
+            URL_Add("The Smurfs", "https://en.wikipedia.org/wiki/The_Smurfs");
+
+            URL_Add("YouTuber", "https://en.wiktionary.org/wiki/YouTuber#Noun");
+
+            URL_Add("counterargued", "https://en.wiktionary.org/wiki/counterargue#Verb");
+
+            URL_Add("dereferencing", "https://en.wiktionary.org/wiki/dereference#Verb");
+
+            URL_Add("irks", "https://en.wiktionary.org/wiki/irk#Verb");
+
+            URL_Add("noncommitted", "https://en.wiktionary.org/wiki/noncommitted#Adjective");
+
+            URL_Add("nonrecoverable", "https://en.wiktionary.org/wiki/nonrecoverable#Adjective");
+
+            URL_Add("reality distortion field", "https://en.wikipedia.org/wiki/Reality_distortion_field#Steve_Jobs");
+
+            URL_Add("rehashing", "https://en.wiktionary.org/wiki/rehash#Verb");
+
+            URL_Add("reprogramming", "https://en.wiktionary.org/wiki/reprogram#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -53358,6 +53430,13 @@ namespace OverflowHelper.core
             correctionAdd("[tag:loopbackjs]_", "LoopBack_");
 
             correctionAdd("set-up_", "setup_");
+            correctionAdd("set up_", "setup_");
+
+            correctionAdd("VC_", "viewcontroller_");
+
+            correctionAdd("LESS_", "less_");
+
+            correctionAdd("Delta_", "Delta Air Lines_");
 
             // URL mappings
             //
@@ -53455,6 +53534,12 @@ namespace OverflowHelper.core
             URL_Add("LoopBack_", "https://stackoverflow.com/tags/loopbackjs/info");
 
             URL_Add("setup_", "https://en.wiktionary.org/wiki/setup#Noun");
+
+            URL_Add("viewcontroller_", "https://stackoverflow.com/tags/viewcontroller/info");
+
+            URL_Add("less_", "https://en.wikipedia.org/wiki/Less_(Unix)");
+
+            URL_Add("Delta Air Lines_", "https://en.wikipedia.org/wiki/Delta_Air_Lines");
 
         } //addLookupData_alternativeWordSet()
 
