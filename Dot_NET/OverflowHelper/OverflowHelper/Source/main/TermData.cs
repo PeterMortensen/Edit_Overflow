@@ -1466,6 +1466,7 @@ namespace OverflowHelper.core
             correctionAdd("mac OS 12", "macOS v10.12 (Sierra)");
             correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
             correctionAdd("macOS 10.12", "macOS v10.12 (Sierra)");
+            correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -4487,6 +4488,8 @@ namespace OverflowHelper.core
             correctionAdd("associatable", "associable");
 
             correctionAdd("overrideable", "overridable");
+            correctionAdd("ovveridable", "overridable");
+            correctionAdd("overidable", "overridable");
 
             correctionAdd("disbale", "disable");
             correctionAdd("dissable", "disable");
@@ -9376,6 +9379,7 @@ namespace OverflowHelper.core
             correctionAdd("gig", "&nbsp;GB");
             correctionAdd("Gig", "&nbsp;GB");
             correctionAdd("Gb", "&nbsp;GB");
+            correctionAdd("Gigabyte", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
@@ -14526,6 +14530,7 @@ namespace OverflowHelper.core
             correctionAdd("maltiple", "multiple");
             correctionAdd("muliple", "multiple");
             correctionAdd("multple", "multiple");
+            correctionAdd("multible", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -16404,6 +16409,7 @@ namespace OverflowHelper.core
             correctionAdd("ZSH Shell", "Z shell");
             correctionAdd("zsh shell", "Z shell");
             correctionAdd("Z Shell", "Z shell");
+            correctionAdd("z shell", "Z shell");
 
             correctionAdd("case-insensitive", "case insensitive");
 
@@ -18068,6 +18074,8 @@ namespace OverflowHelper.core
             correctionAdd("MAGZY", "Magnus Carlsen"); // Chess
             correctionAdd("magzy", "Magnus Carlsen"); // Chess
             correctionAdd("Magzy", "Magnus Carlsen"); // Chess
+            correctionAdd("Magnus Carlsson", "Magnus Carlsen"); // Chess
+            correctionAdd("Magnus Carlson", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -18505,6 +18513,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Leela chess Zero", "Leela Chess Zero"); // Chess
             correctionAdd("Leela", "Leela Chess Zero"); // Chess
+            correctionAdd("LeelaChessZero", "Leela Chess Zero"); // Chess
             //
             // End of chess part
 
@@ -20616,6 +20625,7 @@ namespace OverflowHelper.core
             correctionAdd("presense", "presence");
 
             correctionAdd("refrenced", "referenced");
+            correctionAdd("reffed", "referenced");
 
             correctionAdd("ietf", "IETF");
 
@@ -22326,6 +22336,7 @@ namespace OverflowHelper.core
             correctionAdd("in hand", "on hand");
 
             correctionAdd("before hand", "beforehand");
+            correctionAdd("beforhand", "beforehand");
 
             correctionAdd("ambersand", "ampersand");
             correctionAdd("apersand", "ampersand");
@@ -22508,6 +22519,7 @@ namespace OverflowHelper.core
             correctionAdd("pre-install", "preinstall");
 
             correctionAdd("readbility", "readability");
+            correctionAdd("readibility", "readability");
 
             correctionAdd("relaive", "relative");
             correctionAdd("realive", "relative");
@@ -23473,12 +23485,16 @@ namespace OverflowHelper.core
             correctionAdd("languaje", "language");
             correctionAdd("languange", "language");
             correctionAdd("languge", "language");
-            correctionAdd("languates", "language");
-            correctionAdd("languaes", "language");
-            correctionAdd("languages", "language");
+            correctionAdd("languates", "language"); // Not 100% correct - plural.
+            correctionAdd("languaes", "language"); // Not 100% correct - plural.
+            correctionAdd("languages", "language"); // Not 100% correct - plural.
             correctionAdd("languae", "language");
             correctionAdd("lenguaje", "language");
             correctionAdd("lenguage", "language");
+            correctionAdd("launagues", "language"); // Not 100% correct - plural.
+            correctionAdd("lanagues", "language"); // Not 100% correct - plural.
+            correctionAdd("langaues", "language"); // Not 100% correct - plural.
+            correctionAdd("launague", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -24164,6 +24180,7 @@ namespace OverflowHelper.core
 
             correctionAdd("outwheigh", "outweigh");
             correctionAdd("outweight", "outweigh");
+            correctionAdd("out-weigh", "outweigh");
 
             correctionAdd("recal", "recall");
 
@@ -28338,6 +28355,7 @@ namespace OverflowHelper.core
 
             correctionAdd("feedbacks", "feedback");
             correctionAdd("feed back", "feedback");
+            correctionAdd("feeback", "feedback");
 
             correctionAdd("Galvanic cell", "galvanic cell");
 
@@ -33872,6 +33890,30 @@ namespace OverflowHelper.core
             correctionAdd("de-hashing", "rehashing");
 
             correctionAdd("re-programming", "reprogramming");
+
+            correctionAdd("A380", "Airbus A380");
+
+            correctionAdd("Alzheimer's Disease", "Alzheimer's disease");
+
+            correctionAdd("Brain JS", "Brain.js");
+            correctionAdd("brain.js", "Brain.js");
+
+            correctionAdd("perpendicular magnetic recording", "CMR");
+            correctionAdd("conventional magnetic recording", "CMR");
+
+            correctionAdd("97", "Excel 97");
+
+            correctionAdd("shingled magnetic recording", "SMR");
+
+            correctionAdd("cooldown", "cool down");
+
+            correctionAdd("she's", "her");
+
+            correctionAdd("Hydrochloric acid", "hydrochloric acid");
+
+            correctionAdd("non-overridable", "nonoverridable");
+
+            correctionAdd("soveld", "solved");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53296,6 +53338,28 @@ namespace OverflowHelper.core
 
             URL_Add("reprogramming", "https://en.wiktionary.org/wiki/reprogram#Verb");
 
+            URL_Add("Airbus A380", "https://en.wikipedia.org/wiki/Airbus_A380");
+
+            URL_Add("Alzheimer's disease", "https://en.wikipedia.org/wiki/Alzheimer's_disease");
+
+            URL_Add("Brain.js", "https://www.freecodecamp.org/news/want-to-learn-neural-networks-heres-a-free-brain-js-course-merry-christmas-ea801f378041/");
+
+            URL_Add("CMR", "https://en.wikipedia.org/wiki/Perpendicular_recording");
+
+            URL_Add("Excel 97", "https://en.wikipedia.org/wiki/Microsoft_Excel#Excel_97_(v8.0)");
+
+            URL_Add("SMR", "https://en.wikipedia.org/wiki/Shingled_magnetic_recording");
+
+            URL_Add("cool down", "https://en.wiktionary.org/wiki/cool_down#Verb");
+
+            URL_Add("her", "https://en.wiktionary.org/wiki/her#Determiner");
+
+            URL_Add("hydrochloric acid", "https://en.wikipedia.org/wiki/Hydrochloric_acid");
+
+            URL_Add("nonoverridable", "https://en.wiktionary.org/wiki/nonoverridable#Adjective");
+
+            URL_Add("solved", "https://en.wiktionary.org/wiki/solve#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53438,6 +53502,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Delta_", "Delta Air Lines_");
 
+            correctionAdd("nota bene_", "NB_");
+            correctionAdd("Nota bene_", "NB_");
+
+            correctionAdd("postscriptum_", "PS_");
+            correctionAdd("P.S._", "PS_");
+            correctionAdd("post scriptum_", "PS_");
+
             // URL mappings
             //
             //
@@ -53540,6 +53611,10 @@ namespace OverflowHelper.core
             URL_Add("less_", "https://en.wikipedia.org/wiki/Less_(Unix)");
 
             URL_Add("Delta Air Lines_", "https://en.wikipedia.org/wiki/Delta_Air_Lines");
+
+            URL_Add("NB_", "https://en.wiktionary.org/wiki/NB#Phrase");
+
+            URL_Add("PS_", "https://en.wiktionary.org/wiki/PS#Noun");
 
         } //addLookupData_alternativeWordSet()
 
