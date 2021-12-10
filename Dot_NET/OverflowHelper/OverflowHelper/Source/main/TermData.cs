@@ -4780,6 +4780,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sqlalchemy", "SQLAlchemy");
             correctionAdd("Sqlalchemy", "SQLAlchemy");
+            correctionAdd("SQLAalchemy", "SQLAlchemy");
 
             correctionAdd("bios", "BIOS");
             correctionAdd("Bios", "BIOS");
@@ -9596,6 +9597,10 @@ namespace OverflowHelper.core
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
             correctionAdd("Max", "maximum");
+            correctionAdd("Max imam", "maximum");
+            correctionAdd("max imam", "maximum");
+            correctionAdd("Maximam", "maximum");
+            correctionAdd("maximam", "maximum");
 
             correctionAdd("ecom", "E-commerce");
             correctionAdd("e-Commerce", "E-commerce");
@@ -10686,6 +10691,7 @@ namespace OverflowHelper.core
             correctionAdd("Should", "should");
             correctionAdd("shoul", "should");
             correctionAdd("shoulb", "should");
+            correctionAdd("shoule", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -11836,6 +11842,7 @@ namespace OverflowHelper.core
             correctionAdd("reallly", "really");
             correctionAdd("relly", "really");
             correctionAdd("rlly", "really");
+            correctionAdd("rly", "really");
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
@@ -12931,6 +12938,7 @@ namespace OverflowHelper.core
             correctionAdd("Anyways", "anyway");
             correctionAdd("Anyway", "anyway");
             correctionAdd("any way", "anyway");
+            correctionAdd("Any way", "anyway");
 
             correctionAdd("breadbord", "breadboard");
             correctionAdd("Breadbord", "breadboard");
@@ -17064,6 +17072,7 @@ namespace OverflowHelper.core
             correctionAdd("Travis ci", "Travis CI");
             correctionAdd("travis ci", "Travis CI");
             correctionAdd("Travis-CI", "Travis CI");
+            correctionAdd("travis-ci", "Travis CI");
 
             correctionAdd("xfce", "Xfce");
             correctionAdd("XFCE", "Xfce");
@@ -24531,6 +24540,12 @@ namespace OverflowHelper.core
 
             correctionAdd("sub-directories", "subdirectories");
             correctionAdd("subdirs", "subdirectories");
+            correctionAdd("sibdirs", "subdirectories");
+
+            correctionAdd("sub directory", "subdirectory");
+            correctionAdd("subdir", "subdirectory");
+            correctionAdd("sub dir", "subdirectory");
+            correctionAdd("sibdir", "subdirectory");
 
             correctionAdd("directx", "DirectX");
             correctionAdd("direct x", "DirectX");
@@ -24551,10 +24566,6 @@ namespace OverflowHelper.core
             correctionAdd("pwd", "current working directory");
             correctionAdd("Current working directory", "current working directory");
             correctionAdd("Current Working Directory", "current working directory");
-
-            correctionAdd("sub directory", "subdirectory");
-            correctionAdd("subdir", "subdirectory");
-            correctionAdd("sub dir", "subdirectory");
 
             correctionAdd("ad", "Active Directory"); // Expansion.
             correctionAdd("AD", "Active Directory"); // Expansion.
@@ -24594,6 +24605,9 @@ namespace OverflowHelper.core
             correctionAdd("Kannan", "kanban");
 
             correctionAdd("loosely goosy", "loosey-goosey");
+            correctionAdd("loosi goosy", "loosey-goosey");
+            correctionAdd("loosey goosey", "loosey-goosey");
+            correctionAdd("loosy-goosy", "loosey-goosey");
 
             correctionAdd("LS", "ls");
 
@@ -31425,6 +31439,7 @@ namespace OverflowHelper.core
             correctionAdd("web site", "website");
             correctionAdd("Website", "website");
             correctionAdd("web-site", "website");
+            correctionAdd("webdite", "website");
 
             correctionAdd("Webpage", "web page");
             correctionAdd("webpage", "web page");
@@ -33914,6 +33929,30 @@ namespace OverflowHelper.core
             correctionAdd("non-overridable", "nonoverridable");
 
             correctionAdd("soveld", "solved");
+
+            correctionAdd("ASCII Art", "ASCII art");
+
+            correctionAdd("binhex", "BinHex");
+
+            correctionAdd("DISPLAY", "DISPLAY environment variable");
+
+            correctionAdd("SML/NJ", "Standard ML of New Jersey");
+
+            correctionAdd("Wordstar", "WordStar");
+
+            correctionAdd("signed char", "`signed char`");
+
+            correctionAdd("unsigned char", "`unsigned char`");
+
+            correctionAdd("DUT", "device under test");
+
+            correctionAdd("exisst", "exists");
+
+            correctionAdd("linarity", "linearity");
+
+            correctionAdd("rpeating", "repeating");
+
+            correctionAdd("UUcoding", "uuencoding");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53360,6 +53399,30 @@ namespace OverflowHelper.core
 
             URL_Add("solved", "https://en.wiktionary.org/wiki/solve#Verb");
 
+            URL_Add("ASCII art", "https://en.wikipedia.org/wiki/ASCII_art");
+
+            URL_Add("BinHex", "https://en.wikipedia.org/wiki/BinHex");
+
+            URL_Add("DISPLAY environment variable", "https://en.wikipedia.org/wiki/Environment_variable#True_environment_variables");
+
+            URL_Add("Standard ML of New Jersey", "https://en.wikipedia.org/wiki/Standard_ML_of_New_Jersey");
+
+            URL_Add("WordStar", "https://en.wikipedia.org/wiki/WordStar");
+
+            URL_Add("`signed char`", "https://en.wikipedia.org/wiki/C_data_types#Main_types");
+
+            URL_Add("`unsigned char`", "https://en.wikipedia.org/wiki/C_data_types#Main_types");
+
+            URL_Add("device under test", "https://en.wikipedia.org/wiki/Device_under_test");
+
+            URL_Add("exists", "https://en.wiktionary.org/wiki/exist#Verb");
+
+            URL_Add("linearity", "https://en.wiktionary.org/wiki/linearity#Noun");
+
+            URL_Add("repeating", "https://en.wiktionary.org/wiki/repeating#Adjective");
+
+            URL_Add("uuencoding", "https://en.wikipedia.org/wiki/Uuencoding");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53509,6 +53572,21 @@ namespace OverflowHelper.core
             correctionAdd("P.S._", "PS_");
             correctionAdd("post scriptum_", "PS_");
 
+            correctionAdd("epic_", "Epic_");
+            correctionAdd("epic privacy browser_", "Epic_");
+
+            correctionAdd("lsb_", "LSB_");
+            correctionAdd("right-most bit_", "LSB_");
+            correctionAdd("right most bit_", "LSB_");
+            correctionAdd("rmb_", "LSB_");
+            correctionAdd("least significant bit_", "LSB_");
+
+            correctionAdd("msb_", "MSB_");
+            correctionAdd("left-most bit_", "MSB_");
+            correctionAdd("left most bit_", "MSB_");
+            correctionAdd("lmb_", "MSB_");
+            correctionAdd("most significant bit_", "MSB_");
+
             // URL mappings
             //
             //
@@ -53615,6 +53693,12 @@ namespace OverflowHelper.core
             URL_Add("NB_", "https://en.wiktionary.org/wiki/NB#Phrase");
 
             URL_Add("PS_", "https://en.wiktionary.org/wiki/PS#Noun");
+
+            URL_Add("Epic_", "https://en.wikipedia.org/wiki/Epic_(web_browser)");
+
+            URL_Add("LSB_", "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
+
+            URL_Add("MSB_", "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
 
         } //addLookupData_alternativeWordSet()
 
