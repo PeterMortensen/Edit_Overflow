@@ -70,7 +70,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a232 2021-12-10T165256Z+0";
+        return "Edit Overflow v. 1.1.49a233 2021-12-11T172043Z+0";
     }
 
 
@@ -384,7 +384,7 @@
         # Markdown format (e.g., used in LBRY/Odysee comments).
         #
         # Note that this check is global (for all the text),
-        # not on a line-for-line basis
+        # not on a line-for-line basis.
         #
         if (! $replacer->match("\[[^\]]+\]\([^)]+\)"))
         {
@@ -461,6 +461,10 @@
         # The workaround is to add a space to empty lines.
         #
         # Note: Must be double quotes for \r and \n
+        #
+        # For it to work in LBRY comments, a space followed by a
+        # non-breakspace (" &nbsp;") would be need instead.
+        # However, this is incompatible with YouTube comments...
         #
         $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work
                                                        # if the LAST line is empty.
