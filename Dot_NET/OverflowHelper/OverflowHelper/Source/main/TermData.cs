@@ -3612,6 +3612,7 @@ namespace OverflowHelper.core
             correctionAdd("Sdk", "SDK");
             correctionAdd("Software Development Kit", "SDK");
             correctionAdd("software development kit", "SDK");
+            correctionAdd("SKD", "SDK");
 
             correctionAdd("OpenWRT", "OpenWrt");
             correctionAdd("openwrt", "OpenWrt");
@@ -6662,6 +6663,7 @@ namespace OverflowHelper.core
             correctionAdd("Control", "Ctrl");
             correctionAdd("clt", "Ctrl");
             correctionAdd("cltf", "Ctrl");
+            correctionAdd("Ctl", "Ctrl");
 
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); // Plural, to avoid nearly duplicate entries.
@@ -8292,6 +8294,7 @@ namespace OverflowHelper.core
             correctionAdd("Visiual studio", "Visual&nbsp;Studio");
             correctionAdd("visualStudio", "Visual&nbsp;Studio");
             correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
+            correctionAdd("sudio", "Visual&nbsp;Studio");
 
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -11015,6 +11018,7 @@ namespace OverflowHelper.core
             correctionAdd("collegeae", "colleague");
             correctionAdd("collegeaue", "colleague");
             correctionAdd("colleugue", "colleague");
+            correctionAdd("Colleague", "colleague");
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
@@ -11261,6 +11265,7 @@ namespace OverflowHelper.core
             correctionAdd("instaltaion", "installation");
             correctionAdd("instalation", "installation");
             correctionAdd("insallation", "installation");
+            correctionAdd("intallation", "installation");
 
             correctionAdd("openbsd", "OpenBSD");
             correctionAdd("obsd", "OpenBSD");
@@ -11299,6 +11304,7 @@ namespace OverflowHelper.core
             correctionAdd("wanna", "want to");
             correctionAdd("wanne", "want to");
             correctionAdd("wana", "want to");
+            correctionAdd("wnna", "want to");
 
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
@@ -14565,6 +14571,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
 
             correctionAdd("discord", "Discord");
             correctionAdd("Discod", "Discord");
@@ -14839,6 +14846,7 @@ namespace OverflowHelper.core
             correctionAdd("accrding", "according");
             correctionAdd("Accroding", "according");
             correctionAdd("According", "according");
+            correctionAdd("accroding", "according");
 
             correctionAdd("coerse", "coerce");
 
@@ -26623,6 +26631,7 @@ namespace OverflowHelper.core
             correctionAdd("TeX - LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("Tex Stack Exchange", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("TeX LaTeX", "TeX - LaTeX (Stack Exchange site)");
 
             correctionAdd("USDC", "USD Coin");
             correctionAdd("usdc", "USD Coin");
@@ -33783,6 +33792,7 @@ namespace OverflowHelper.core
             correctionAdd("geeksforgeeks", "GeeksforGeeks");
             correctionAdd("gfg", "GeeksforGeeks");
             correctionAdd("GFG", "GeeksforGeeks");
+            correctionAdd("geeks for geeks", "GeeksforGeeks");
 
             correctionAdd("graphml", "GraphML");
 
@@ -33953,6 +33963,33 @@ namespace OverflowHelper.core
             correctionAdd("rpeating", "repeating");
 
             correctionAdd("UUcoding", "uuencoding");
+
+            correctionAdd("bulldog", "Bulldog");
+            correctionAdd("bull dog", "Bulldog");
+
+            correctionAdd("JP", "Jurassic Park");
+
+            correctionAdd("Northwind", "Northwind database");
+
+            correctionAdd("SFC", "Software Freedom Conservancy");
+            correctionAdd("software freedom conservancy", "Software Freedom Conservancy");
+
+            correctionAdd("SAA", "South Atlantic Anomaly");
+            correctionAdd("South Atlantic Anomnaly", "South Atlantic Anomaly");
+
+            correctionAdd("Tyrannosaurus Rex", "T-Rex");
+            correctionAdd("T-rex", "T-Rex");
+            correctionAdd("Tyrannosaurus", "T-Rex");
+            correctionAdd("T. rex", "T-Rex");
+            correctionAdd("Tyrannosaurus rex", "T-Rex");
+
+            correctionAdd("Binary tree", "binary tree");
+
+            correctionAdd("bio-weapon", "bioweapon");
+
+            correctionAdd("re-running", "rerunning");
+
+            correctionAdd("sub-page", "subpage");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53423,6 +53460,26 @@ namespace OverflowHelper.core
 
             URL_Add("uuencoding", "https://en.wikipedia.org/wiki/Uuencoding");
 
+            URL_Add("Bulldog", "https://en.wikipedia.org/wiki/Bulldog");
+
+            URL_Add("Jurassic Park", "https://en.wikipedia.org/wiki/Jurassic_Park");
+
+            URL_Add("Northwind database", "https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases");
+
+            URL_Add("Software Freedom Conservancy", "https://en.wikipedia.org/wiki/Software_Freedom_Conservancy");
+
+            URL_Add("South Atlantic Anomaly", "https://en.wikipedia.org/wiki/South_Atlantic_Anomaly");
+
+            URL_Add("T-Rex", "https://en.wikipedia.org/wiki/Tyrannosaurus");
+
+            URL_Add("binary tree", "https://en.wikipedia.org/wiki/Binary_tree");
+
+            URL_Add("bioweapon", "https://en.wiktionary.org/wiki/bioweapon#Noun");
+
+            URL_Add("rerunning", "https://en.wiktionary.org/wiki/rerun#Verb");
+
+            URL_Add("subpage", "https://en.wiktionary.org/wiki/subpage#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53587,6 +53644,10 @@ namespace OverflowHelper.core
             correctionAdd("lmb_", "MSB_");
             correctionAdd("most significant bit_", "MSB_");
 
+            correctionAdd("0755_", "755_");
+
+            correctionAdd("0777_", "777_");
+
             // URL mappings
             //
             //
@@ -53699,6 +53760,10 @@ namespace OverflowHelper.core
             URL_Add("LSB_", "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
 
             URL_Add("MSB_", "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
+
+            URL_Add("755_", "https://chmodcommand.com/chmod-755/");
+
+            URL_Add("777_", "https://chmodcommand.com/chmod-777/");
 
         } //addLookupData_alternativeWordSet()
 
