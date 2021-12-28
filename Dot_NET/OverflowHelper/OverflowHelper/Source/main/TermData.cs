@@ -13566,6 +13566,7 @@ namespace OverflowHelper.core
             correctionAdd("catgeory", "category");
             correctionAdd("cathegory", "category");
             correctionAdd("categorie", "category");
+            correctionAdd("catogory", "category");
 
             correctionAdd("constitude", "constitute");
 
@@ -19895,6 +19896,8 @@ namespace OverflowHelper.core
             correctionAdd("sweeden", "Sweden");
 
             correctionAdd("advice", "advise");
+            correctionAdd("advaces", "advise");
+            correctionAdd("advace", "advise");
 
             correctionAdd("bandpass filter", "band-pass filter");
             correctionAdd("BPF", "band-pass filter");
@@ -22748,6 +22751,7 @@ namespace OverflowHelper.core
             correctionAdd("proyect", "project");
             correctionAdd("Projekt", "project");
             correctionAdd("projekt", "project");
+            correctionAdd("Project", "project");
 
             correctionAdd("eol", "EOL");
             correctionAdd("End of Line", "EOL");
@@ -28763,6 +28767,7 @@ namespace OverflowHelper.core
             correctionAdd("icecube", "ice cube");
 
             correctionAdd("IaC", "infrastructure as code");
+            correctionAdd("iac", "infrastructure as code");
 
             correctionAdd("lanucher", "launcher");
 
@@ -34014,6 +34019,24 @@ namespace OverflowHelper.core
             correctionAdd("canceled", "cancelled");
 
             correctionAdd("sumorey", "summary");
+
+            correctionAdd("Fujisy", "Fujitsu");
+
+            correctionAdd("challanges", "challenges");
+
+            correctionAdd("dirting", "dirtying");
+
+            correctionAdd("f string", "f-string");
+
+            correctionAdd("phase", "face");
+
+            correctionAdd("prize", "price");
+
+            correctionAdd("reverse engineer", "reverse-engineer");
+
+            correctionAdd("reverse engineered", "reverse-engineered");
+
+            correctionAdd("thought-process", "thought process");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53511,6 +53534,24 @@ namespace OverflowHelper.core
             URL_Add("cancelled", "https://en.wiktionary.org/wiki/cancel#Verb");
 
             URL_Add("summary", "https://en.wiktionary.org/wiki/summary#Noun");
+
+            URL_Add("Fujitsu", "https://en.wikipedia.org/wiki/Fujitsu_Siemens_Computers");
+
+            URL_Add("challenges", "https://en.wiktionary.org/wiki/challenge#Noun");
+
+            URL_Add("dirtying", "https://en.wiktionary.org/wiki/dirty#Verb");
+
+            URL_Add("f-string", "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions");
+
+            URL_Add("face", "https://en.wiktionary.org/wiki/face#Verb");
+
+            URL_Add("price", "https://en.wiktionary.org/wiki/price#Noun");
+
+            URL_Add("reverse-engineer", "https://en.wiktionary.org/wiki/reverse-engineer#Verb");
+
+            URL_Add("reverse-engineered", "https://en.wiktionary.org/wiki/reverse-engineer#Verb");
+
+            URL_Add("thought process", "https://en.wiktionary.org/wiki/thought_process#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
