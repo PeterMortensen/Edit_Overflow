@@ -572,6 +572,15 @@ function mustBeEqual()
 #
 # Helper function to reduce redundancy
 #
+# Run a Perl script on the indicated PHP source code and check:
+#
+#   1. Consistency between the shortcut key and the corresponding 
+#      help text for it.
+#
+#   2. Consistency of name, ID, etc. numbers of forms elements.
+#
+#   3. Some rules regarding indentation.
+#
 # Parameters:
 #
 #   $1   File name (a PHP file)
@@ -579,6 +588,11 @@ function mustBeEqual()
 #   $2   Identification string (for use in the error message)
 #
 #   $3   Build number
+#
+# Globals: 
+#
+#   WEB_SRCFOLDER_BASE   (so we check directly at the source location. 
+#                         Perhaps use the build folder instead?)
 #
 function keyboardShortcutConsistencyCheck()
 {
@@ -1208,6 +1222,27 @@ cd $WORKFOLDER
 #echo Work folder: $WORKFOLDER
 
 
+# ###########################################################################
+#
+# Check of:
+#
+#   1. keyboard shortcuts conflicts and
+#
+#   2. Indentation rules (even number of spaces)
+#
+# Note: This is direct inspection of the PHP source code, ***not*** as
+#       run by a web serber (rendered HTML).
+#
+keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       24
+                                                            
+keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 25
+                                                            
+keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               26
+                                                            
+keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               27
+                                                            
+keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            28
+
 
 # #################################################################
 #
@@ -1537,27 +1572,6 @@ npm test  ; evaluateBuildResult 23 $? "JavaScript unit tests"
 echo
 # But will output something...
 cd -
-
-
-
-# ###########################################################################
-#
-# Check of:
-#
-#   1. keyboard shortcuts conflicts and
-#
-#   2. Indentation rules (even number of spaces)
-#
-keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       24
-                                                            
-keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 25
-                                                            
-keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               26
-                                                            
-keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               27
-                                                            
-keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            28
-
 
 
 # ###########################################################################
