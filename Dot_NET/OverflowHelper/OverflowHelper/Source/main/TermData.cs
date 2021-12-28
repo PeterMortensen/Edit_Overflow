@@ -2744,6 +2744,7 @@ namespace OverflowHelper.core
             correctionAdd("MSIE", "Internet&nbsp;Explorer");
             correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
             correctionAdd("Internet Exploere", "Internet&nbsp;Explorer");
+            correctionAdd("INTERNET EXPLORER", "Internet&nbsp;Explorer");
 
             correctionAdd("IE6", "Internet&nbsp;Explorer&nbsp;6");
             correctionAdd("IE 6", "Internet&nbsp;Explorer&nbsp;6");
@@ -5236,6 +5237,7 @@ namespace OverflowHelper.core
             correctionAdd("openSSH", "OpenSSH");
             correctionAdd("Open SSH", "OpenSSH");
             correctionAdd("open-ssh", "OpenSSH");
+            correctionAdd("Openssh", "OpenSSH");
 
             correctionAdd("Opml", "OPML");
 
@@ -7711,6 +7713,8 @@ namespace OverflowHelper.core
             correctionAdd("Of-cause", "of course");
             correctionAdd("offcrs", "of course");
             correctionAdd("offcors", "of course");
+            correctionAdd("OfCourse", "of course");
+            correctionAdd("Of Course", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -10140,6 +10144,7 @@ namespace OverflowHelper.core
             correctionAdd("Android-Studio", "Android Studio");
             correctionAdd("AndroidStudios", "Android Studio");
             correctionAdd("Android Studios", "Android Studio");
+            correctionAdd("androidstudio", "Android Studio");
 
             correctionAdd("western digital", "Western Digital");
             correctionAdd("WD", "Western Digital");
@@ -11559,6 +11564,8 @@ namespace OverflowHelper.core
             correctionAdd("Credential manager", "Credential Manager");
             correctionAdd("credential manager", "Credential Manager");
             correctionAdd("Credentials manager", "Credential Manager");
+            correctionAdd("Windows credential manager", "Credential Manager");
+            correctionAdd("Windows Credential Manager", "Credential Manager");
 
             correctionAdd("react", "React");
             correctionAdd("reactjs", "React");
@@ -15806,6 +15813,7 @@ namespace OverflowHelper.core
 
             correctionAdd("re-create", "recreate");
             correctionAdd("Re-create", "recreate");
+            correctionAdd("recate", "recreate");
 
             correctionAdd("creat", "create");
             correctionAdd("craete", "create");
@@ -25121,6 +25129,8 @@ namespace OverflowHelper.core
             correctionAdd("LMS", "learning management system");
 
             correctionAdd("querk", "quirk");
+            correctionAdd("qurck", "quirk");
+            correctionAdd("quirck", "quirk");
 
             correctionAdd("re-take", "retake");
 
@@ -28562,6 +28572,7 @@ namespace OverflowHelper.core
             correctionAdd("espected", "expected");
             correctionAdd("ecpected", "expected");
             correctionAdd("escpected", "expected");
+            correctionAdd("expeded", "expected");
 
             correctionAdd("justfiy", "justify");
 
@@ -28800,6 +28811,7 @@ namespace OverflowHelper.core
             correctionAdd("happeneing", "happening");
             correctionAdd("happenening", "happening");
             correctionAdd("hapenning", "happening");
+            correctionAdd("happing", "happening");
 
             correctionAdd("helpt", "helped");
             correctionAdd("halped", "helped");
@@ -33990,6 +34002,18 @@ namespace OverflowHelper.core
             correctionAdd("re-running", "rerunning");
 
             correctionAdd("sub-page", "subpage");
+
+            correctionAdd("canary", "Android Studio Canary");
+            correctionAdd("Android studio canary", "Android Studio Canary");
+            correctionAdd("Android Studio canary", "Android Studio Canary");
+            correctionAdd("Canary", "Android Studio Canary");
+
+            correctionAdd("Java Native Access", "JNA");
+            correctionAdd("jna", "JNA");
+
+            correctionAdd("canceled", "cancelled");
+
+            correctionAdd("sumorey", "summary");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53479,6 +53503,14 @@ namespace OverflowHelper.core
             URL_Add("rerunning", "https://en.wiktionary.org/wiki/rerun#Verb");
 
             URL_Add("subpage", "https://en.wiktionary.org/wiki/subpage#Noun");
+
+            URL_Add("Android Studio Canary", "https://developer.android.com/studio/preview");
+
+            URL_Add("JNA", "https://en.wikipedia.org/wiki/Java_Native_Access");
+
+            URL_Add("cancelled", "https://en.wiktionary.org/wiki/cancel#Verb");
+
+            URL_Add("summary", "https://en.wiktionary.org/wiki/summary#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
