@@ -58,7 +58,7 @@
                     type="text"
                     id="X25"
                     class="X25"
-                    value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)). "
+                    value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)) - alternatively, drop the question mark."
                     style="width:680px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
