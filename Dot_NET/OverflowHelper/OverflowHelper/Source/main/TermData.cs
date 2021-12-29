@@ -13129,6 +13129,7 @@ namespace OverflowHelper.core
 
             correctionAdd("coord", "coordinate");
             correctionAdd("co-ordinate", "coordinate");
+            correctionAdd("co ordinate", "coordinate");
 
             correctionAdd("finaly", "finally");
             correctionAdd("finnaly", "finally");
@@ -17320,6 +17321,7 @@ namespace OverflowHelper.core
             correctionAdd("JW", "James Webb Space Telescope");
             correctionAdd("JAMES WEBB SPACE TELESCOPE", "James Webb Space Telescope");
             correctionAdd("James Webb", "James Webb Space Telescope");
+            correctionAdd("James Webb Telescope", "James Webb Space Telescope");
 
             correctionAdd("Lxqt", "LXQt");
             correctionAdd("lxqt", "LXQt");
@@ -23551,6 +23553,7 @@ namespace OverflowHelper.core
             correctionAdd("additionnal", "additional");
             correctionAdd("aditional", "additional");
             correctionAdd("additonal", "additional");
+            correctionAdd("Aditional", "additional");
 
             correctionAdd("bloc", "block");
 
@@ -25261,6 +25264,7 @@ namespace OverflowHelper.core
             correctionAdd("anotehr", "another");
             correctionAdd("anthoer", "another");
             correctionAdd("antoher", "another");
+            correctionAdd("an other", "another");
 
             correctionAdd("a/o", "and other");
 
@@ -29241,6 +29245,7 @@ namespace OverflowHelper.core
             correctionAdd("debuged", "debugged");
 
             correctionAdd("outdata", "outdated");
+            correctionAdd("out-dated", "outdated");
 
             correctionAdd("Einstein Field Equations", "Einstein field equations");
 
@@ -34037,6 +34042,36 @@ namespace OverflowHelper.core
             correctionAdd("reverse engineered", "reverse-engineered");
 
             correctionAdd("thought-process", "thought process");
+
+            correctionAdd("APA", "APA style");
+
+            correctionAdd("Edifact", "EDIFACT");
+            correctionAdd("edifact", "EDIFACT");
+
+            correctionAdd("livewire", "Livewire");
+
+            correctionAdd("power toy", "PowerToys");
+
+            correctionAdd("US keyboard", "United States keyboard layout");
+
+            correctionAdd("URP", "Universal Render Pipeline");
+
+            correctionAdd("busses", "buses");
+
+            correctionAdd("LSUSB", "lsusb");
+
+            correctionAdd("awail", "no avail");
+            correctionAdd("no awail", "no avail");
+
+            correctionAdd("re-implementing", "reimplementing");
+
+            correctionAdd("requried", "required");
+
+            correctionAdd("s/c", "spacecraft");
+
+            correctionAdd("sun shield", "sunshield");
+
+            correctionAdd("un-suspending", "unsuspending");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53553,6 +53588,34 @@ namespace OverflowHelper.core
 
             URL_Add("thought process", "https://en.wiktionary.org/wiki/thought_process#Noun");
 
+            URL_Add("APA style", "https://en.wikipedia.org/wiki/APA_style");
+
+            URL_Add("EDIFACT", "https://en.wikipedia.org/wiki/EDIFACT");
+
+            URL_Add("Livewire", "https://en.wikipedia.org/wiki/Livewire_(networking)");
+
+            URL_Add("PowerToys", "https://en.wikipedia.org/wiki/Microsoft_PowerToys");
+
+            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
+
+            URL_Add("Universal Render Pipeline", "https://unity.com/srp/universal-render-pipeline");
+
+            URL_Add("buses", "https://en.wiktionary.org/wiki/buses#Noun");
+
+            URL_Add("lsusb", "https://en.wikipedia.org/wiki/Lspci#lsusb");
+
+            URL_Add("no avail", "https://en.wiktionary.org/wiki/avail#Noun");
+
+            URL_Add("reimplementing", "https://en.wiktionary.org/wiki/reimplement#Verb");
+
+            URL_Add("required", "https://en.wiktionary.org/wiki/required#Adjective");
+
+            URL_Add("spacecraft", "https://en.wiktionary.org/wiki/spacecraft#Noun");
+
+            URL_Add("sunshield", "https://en.wikipedia.org/wiki/Space_sunshade");
+
+            URL_Add("unsuspending", "https://en.wiktionary.org/wiki/unsuspend#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53721,6 +53784,18 @@ namespace OverflowHelper.core
 
             correctionAdd("0777_", "777_");
 
+            correctionAdd("CM_", "Community Manager_");
+
+            correctionAdd("ECHO_", "Laravel Echo_");
+            correctionAdd("Laravel echo_", "Laravel Echo_");
+
+            correctionAdd("livewire_", "Laravel Livewire_");
+
+            correctionAdd("pusher_", "Laravel Pusher Channels_");
+            correctionAdd("Laravel pusher_", "Laravel Pusher Channels_");
+
+            correctionAdd("unity_", "Unity_");
+
             // URL mappings
             //
             //
@@ -53837,6 +53912,16 @@ namespace OverflowHelper.core
             URL_Add("755_", "https://chmodcommand.com/chmod-755/");
 
             URL_Add("777_", "https://chmodcommand.com/chmod-777/");
+
+            URL_Add("Community Manager_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
+
+            URL_Add("Laravel Echo_", "https://github.com/laravel/echo");
+
+            URL_Add("Laravel Livewire_", "https://laravel-livewire.com/docs/2.x/laravel-echo");
+
+            URL_Add("Laravel Pusher Channels_", "https://pusher.com/laravel");
+
+            URL_Add("Unity_", "https://en.wikipedia.org/wiki/Unity_(game_engine)");
 
         } //addLookupData_alternativeWordSet()
 
