@@ -7420,6 +7420,7 @@ namespace OverflowHelper.core
             correctionAdd("proc Mon", "Process Monitor");
 
             correctionAdd("qa", "QA");
+            correctionAdd("Quality Assurance", "QA");
 
             correctionAdd("noone", "no one");
             correctionAdd("no-one", "no one");
@@ -9016,6 +9017,7 @@ namespace OverflowHelper.core
             correctionAdd("beginnger", "beginner");
             correctionAdd("Beginener", "beginner");
             correctionAdd("beginener", "beginner");
+            correctionAdd("Begginer", "beginner");
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -9499,6 +9501,7 @@ namespace OverflowHelper.core
             correctionAdd("elementary os", "Elementary&nbsp;OS");
             correctionAdd("elementary OS", "Elementary&nbsp;OS");
             correctionAdd("Elementary", "Elementary&nbsp;OS");
+            correctionAdd("ElementaryOS", "Elementary&nbsp;OS");
 
             correctionAdd("vhdl", "VHDL");
 
@@ -12375,6 +12378,7 @@ namespace OverflowHelper.core
             correctionAdd("DockerHub", "Docker Hub");
             correctionAdd("Docker hub", "Docker Hub");
             correctionAdd("dockerhub", "Docker Hub");
+            correctionAdd("Dockerhub", "Docker Hub");
 
             correctionAdd("marxism", "Marxism");
 
@@ -14872,6 +14876,8 @@ namespace OverflowHelper.core
 
             correctionAdd("hilarius", "hilarious");
             correctionAdd("hirarious", "hilarious");
+            correctionAdd("hillarous", "hilarious");
+            correctionAdd("hillarious", "hilarious");
 
             correctionAdd("leage", "league");
             correctionAdd("Leage", "league");
@@ -19656,6 +19662,7 @@ namespace OverflowHelper.core
             correctionAdd("fount", "found");
             correctionAdd("fund", "found");
             correctionAdd("finded", "found");
+            correctionAdd("faund", "found");
 
             correctionAdd("joistick", "joystick");
 
@@ -34072,6 +34079,30 @@ namespace OverflowHelper.core
             correctionAdd("sun shield", "sunshield");
 
             correctionAdd("un-suspending", "unsuspending");
+
+            correctionAdd("7 days to die", "7 Days to Die");
+
+            correctionAdd("App Center", "AppCenter");
+
+            correctionAdd("kdenlive", "Kdenlive");
+
+            correctionAdd("TA-1053", "Nokia 5 (variant TA-1053)");
+
+            correctionAdd("quality control", "QC");
+            correctionAdd("Quality Control", "QC");
+
+            correctionAdd("TypeScript Playground", "TS Playground");
+
+            correctionAdd("vertica", "Vertica");
+
+            correctionAdd("ones", "one's");
+
+            correctionAdd("Points of Presence", "point of presence");
+
+            correctionAdd("Quality Management", "quality management");
+
+            correctionAdd("Software Quality Assurance", "software quality assurance");
+            correctionAdd("SQA", "software quality assurance");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53616,6 +53647,28 @@ namespace OverflowHelper.core
 
             URL_Add("unsuspending", "https://en.wiktionary.org/wiki/unsuspend#Verb");
 
+            URL_Add("7 Days to Die", "https://en.wikipedia.org/wiki/7_Days_to_Die");
+
+            URL_Add("AppCenter", "https://en.wikipedia.org/wiki/Elementary_OS#Development");
+
+            URL_Add("Kdenlive", "https://en.wikipedia.org/wiki/Kdenlive");
+
+            URL_Add("Nokia 5 (variant TA-1053)", "https://en.wikipedia.org/wiki/Nokia_5");
+
+            URL_Add("QC", "https://en.wikipedia.org/wiki/Quality_control");
+
+            URL_Add("TS Playground", "https://www.typescriptlang.org/play/");
+
+            URL_Add("Vertica", "https://en.wikipedia.org/wiki/Vertica#Products");
+
+            URL_Add("one's", "https://en.wiktionary.org/wiki/one%27s#Pronoun");
+
+            URL_Add("point of presence", "https://en.wikipedia.org/wiki/Point_of_presence");
+
+            URL_Add("quality management", "https://en.wikipedia.org/wiki/Quality_management");
+
+            URL_Add("software quality assurance", "https://en.wikipedia.org/wiki/Software_quality_assurance");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53796,6 +53849,8 @@ namespace OverflowHelper.core
 
             correctionAdd("unity_", "Unity_");
 
+            correctionAdd("npc_", "NPC_");
+
             // URL mappings
             //
             //
@@ -53922,6 +53977,8 @@ namespace OverflowHelper.core
             URL_Add("Laravel Pusher Channels_", "https://pusher.com/laravel");
 
             URL_Add("Unity_", "https://en.wikipedia.org/wiki/Unity_(game_engine)");
+
+            URL_Add("NPC_", "https://en.wikipedia.org/wiki/Non-player_character");
 
         } //addLookupData_alternativeWordSet()
 
