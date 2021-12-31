@@ -976,6 +976,69 @@ namespace OverflowHelper.core
             correctionAdd("SQL Server Compact edition", "SQL Server Compact");
             correctionAdd("sql server ce", "SQL Server Compact");
 
+            correctionAdd("TFS", "Team Foundation Server"); // Expansion.
+            correctionAdd("tfs", "Team Foundation Server"); // Not actually observed.
+            correctionAdd("Tfs", "Team Foundation Server");
+            correctionAdd("TF", "Team Foundation Server");
+            correctionAdd("team foundation server", "Team Foundation Server");
+
+            correctionAdd("APACHE", "Apache HTTP Server");
+            correctionAdd("apache", "Apache HTTP Server");
+            correctionAdd("Appache", "Apache HTTP Server");
+            correctionAdd("Apache Web Server", "Apache HTTP Server");
+            correctionAdd("Apache", "Apache HTTP Server");
+            correctionAdd("appache", "Apache HTTP Server");
+            correctionAdd("Apace", "Apache HTTP Server");
+            correctionAdd("Apche", "Apache HTTP Server");
+
+            correctionAdd("exchange", "Microsoft Exchange Server");
+            correctionAdd("Exchange", "Microsoft Exchange Server");
+            correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
+            correctionAdd("Exhange", "Microsoft Exchange Server");
+
+            correctionAdd("exchange 2003 server", "Exchange Server 2003");
+            correctionAdd("exchange server 2003", "Exchange Server 2003");
+
+            correctionAdd("MySQL Server", "MySQL server");
+            correctionAdd("MySqlServer", "MySQL server");
+            correctionAdd("MySql Server", "MySQL server");
+
+            correctionAdd("NS", "name server"); // Alternative: "NoScript"
+            correctionAdd("nameserver", "name server");
+
+            correctionAdd("cassini", "Cassini web server");
+            correctionAdd("cassini web server", "Cassini web server");
+            correctionAdd("Cassini", "Cassini web server");
+
+            correctionAdd("windows server", "Windows Server");
+            correctionAdd("Windows server", "Windows Server");
+            correctionAdd("winserver", "Windows Server");
+
+            correctionAdd("windows server 2019", "Windows Server 2019");
+            correctionAdd("2019 windows server", "Windows Server 2019");
+
+            correctionAdd("Exchange server", "Exchange Server");
+
+            correctionAdd("WAMPSERVER", "WampServer");
+
+            correctionAdd("Windows Nano server", "Microsoft Nano Server");
+            correctionAdd("Windows Nano", "Microsoft Nano Server");
+
+            correctionAdd("webserver", "web server");
+            correctionAdd("Web Server", "web server");
+            correctionAdd("web-server", "web server");
+            correctionAdd("Webserver", "web server");
+            correctionAdd("Web server", "web server");
+
+            correctionAdd("webservers", "web servers");
+
+            correctionAdd("WLS", "WebLogic Server");
+
+            correctionAdd("sever", "server");
+            correctionAdd("SEVER", "server");
+            correctionAdd("Sever", "server");
+            correctionAdd("Server", "server");
+
             correctionAdd("Tsql", "T-SQL"); // Not actually observed.
             correctionAdd("T/SQL", "T-SQL"); // Is observed!
             correctionAdd("TSQL", "T-SQL");
@@ -3557,12 +3620,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scrum", "Scrum");
 
-            correctionAdd("TFS", "Team Foundation Server"); // Expansion.
-            correctionAdd("tfs", "Team Foundation Server"); // Not actually observed.
-            correctionAdd("Tfs", "Team Foundation Server");
-            correctionAdd("TF", "Team Foundation Server");
-            correctionAdd("team foundation server", "Team Foundation Server");
-
             correctionAdd("mingw", "MinGW");
             correctionAdd("minGW", "MinGW");
             correctionAdd("MingW", "MinGW");
@@ -5593,15 +5650,6 @@ namespace OverflowHelper.core
             correctionAdd("gent0o", "Gentoo Linux");
             correctionAdd("gento0", "Gentoo Linux");
 
-            correctionAdd("APACHE", "Apache HTTP Server");
-            correctionAdd("apache", "Apache HTTP Server");
-            correctionAdd("Appache", "Apache HTTP Server");
-            correctionAdd("Apache Web Server", "Apache HTTP Server");
-            correctionAdd("Apache", "Apache HTTP Server");
-            correctionAdd("appache", "Apache HTTP Server");
-            correctionAdd("Apace", "Apache HTTP Server");
-            correctionAdd("Apche", "Apache HTTP Server");
-
             correctionAdd("graphViz", "Graphviz");
             correctionAdd("graphviz", "Graphviz");
             correctionAdd("graphiz", "Graphviz");
@@ -5779,14 +5827,6 @@ namespace OverflowHelper.core
             correctionAdd("Srv 2003", "Windows Server 2003");
             correctionAdd("W2K3", "Windows Server 2003");
             correctionAdd("w2k3", "Windows Server 2003");
-
-            correctionAdd("exchange", "Microsoft Exchange Server");
-            correctionAdd("Exchange", "Microsoft Exchange Server");
-            correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
-            correctionAdd("Exhange", "Microsoft Exchange Server");
-
-            correctionAdd("exchange 2003 server", "Exchange Server 2003");
-            correctionAdd("exchange server 2003", "Exchange Server 2003");
 
             correctionAdd("taskmgr", "Task Manager");
             correctionAdd("task manager", "Task Manager");
@@ -16750,9 +16790,6 @@ namespace OverflowHelper.core
             correctionAdd("reliablly", "reliably");
             correctionAdd("realiably", "reliably");
 
-            correctionAdd("sever", "server");
-            correctionAdd("SEVER", "server");
-
             correctionAdd("situtation", "situation");
 
             correctionAdd("SCM", "source control management");
@@ -20009,10 +20046,6 @@ namespace OverflowHelper.core
 
             correctionAdd("docbook", "DocBook");
 
-            correctionAdd("MySQL Server", "MySQL server");
-            correctionAdd("MySqlServer", "MySQL server");
-            correctionAdd("MySql Server", "MySQL server");
-
             correctionAdd("new year", "New Year");
 
             correctionAdd("open doc", "OpenDoc");
@@ -20045,9 +20078,6 @@ namespace OverflowHelper.core
             correctionAdd("blue chip", "bluechip");
             correctionAdd("Blue-chip", "bluechip");
             correctionAdd("blue-chip", "bluechip");
-
-            correctionAdd("NS", "name server"); // Alternative: "NoScript"
-            correctionAdd("nameserver", "name server");
 
             correctionAdd("patreon", "Patreon");
 
@@ -21342,10 +21372,6 @@ namespace OverflowHelper.core
             correctionAdd("sorey", "sorry");
             correctionAdd("sry", "sorry");
             correctionAdd("sory", "sorry");
-
-            correctionAdd("cassini", "Cassini web server");
-            correctionAdd("cassini web server", "Cassini web server");
-            correctionAdd("Cassini", "Cassini web server");
 
             correctionAdd("lodash", "Lodash");
             correctionAdd("lodash.js", "Lodash");
@@ -24409,13 +24435,6 @@ namespace OverflowHelper.core
             correctionAdd("terra byte", "&nbsp;TB");
             correctionAdd("tera byte", "&nbsp;TB");
             correctionAdd("terabyte", "&nbsp;TB");
-
-            correctionAdd("windows server", "Windows Server");
-            correctionAdd("Windows server", "Windows Server");
-            correctionAdd("winserver", "Windows Server");
-
-            correctionAdd("windows server 2019", "Windows Server 2019");
-            correctionAdd("2019 windows server", "Windows Server 2019");
 
             correctionAdd("ops", "operations");
 
@@ -27822,8 +27841,6 @@ namespace OverflowHelper.core
             correctionAdd("volitile", "volatile");
             correctionAdd("voltatile", "volatile");
 
-            correctionAdd("Exchange server", "Exchange Server");
-
             correctionAdd("micro python", "MicroPython");
             correctionAdd("Micropython", "MicroPython");
             correctionAdd("Micro Python", "MicroPython");
@@ -28164,8 +28181,6 @@ namespace OverflowHelper.core
             correctionAdd("prevalance", "prevalence");
 
             correctionAdd("AMP", "Accelerated Mobile Pages");
-
-            correctionAdd("WAMPSERVER", "WampServer");
 
             correctionAdd("in two minds", "of two minds");
             correctionAdd("in 2 minds", "of two minds");
@@ -31107,9 +31122,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cypher", "Cypher");
 
-            correctionAdd("Windows Nano server", "Microsoft Nano Server");
-            correctionAdd("Windows Nano", "Microsoft Nano Server");
-
             correctionAdd("OL", "Oracle Linux");
             correctionAdd("oracle linux", "Oracle Linux");
 
@@ -31502,14 +31514,6 @@ namespace OverflowHelper.core
             correctionAdd("WebPage", "web page");
             correctionAdd("Web Page", "web page");
 
-            correctionAdd("webserver", "web server");
-            correctionAdd("Web Server", "web server");
-            correctionAdd("web-server", "web server");
-            correctionAdd("Webserver", "web server");
-            correctionAdd("Web server", "web server");
-
-            correctionAdd("webservers", "web servers");
-
             correctionAdd("webpack", "Webpack");
             correctionAdd("WebPack", "Webpack");
             correctionAdd("Web pack", "Webpack");
@@ -31658,8 +31662,6 @@ namespace OverflowHelper.core
             correctionAdd("Webservice", "web service");
 
             correctionAdd("web hotel", "shared web hosting service");
-
-            correctionAdd("WLS", "WebLogic Server");
 
             correctionAdd("java webstart", "Java Web Start");
             correctionAdd("WebStart", "Java Web Start");
@@ -34157,6 +34159,9 @@ namespace OverflowHelper.core
             correctionAdd("traveling-salesman", "travelling salesman problem");
             correctionAdd("traveling-salesman problem", "travelling salesman problem");
             correctionAdd("Travelling Salesman", "travelling salesman problem");
+            correctionAdd("Travelling Salesman Problem", "travelling salesman problem");
+
+            correctionAdd("hadeline", "headline");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53752,6 +53757,8 @@ namespace OverflowHelper.core
             URL_Add("tidy-up", "https://en.wiktionary.org/wiki/tidy-up#Noun");
 
             URL_Add("travelling salesman problem", "https://en.wikipedia.org/wiki/Travelling_salesman_problem");
+
+            URL_Add("headline", "https://en.wiktionary.org/wiki/headline#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
