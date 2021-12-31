@@ -110,6 +110,25 @@
                 />
             </p>
 
+            <p>Many users come to Meta Stack Overflow to complain about 
+                being question-banned on Stack Overflow. 
+                Many of them use low English skills as an excuse, but 
+                capitalising "i" and capitalising sentences don't 
+                require any skills.
+
+                <br/>
+                <input
+                    name="X29"
+                    type="text"
+                    id="X29"
+                    class="X29"
+                    value="For your own sake and for the sake of your readers, ***please*** capitalise &quot;i&quot;, capitalise sentences, and don't use [SMS language](https://en.wiktionary.org/wiki/u#Pronoun). ***This doesn't require any skills***, only the willingness to change habits. You disadvantage yourself right from the beginning by not doing it. This alone (due to downvotes) could have caused your question ban. Making this change will also greatly enhance your chances on the job market."
+                    style="width:830px;"
+                    accesskey="I"
+                    title="Shortcut: Shift + Alt + I"
+                />
+            </p>
+
 
             <!-- Template
             <p>
