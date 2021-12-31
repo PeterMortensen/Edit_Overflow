@@ -2817,6 +2817,7 @@ namespace OverflowHelper.core
             correctionAdd("mozilla", "Firefox");
             correctionAdd("Mozilla", "Firefox");
             correctionAdd("FIrefox", "Firefox");
+            correctionAdd("Mozzilla", "Firefox");
 
             correctionAdd("chrome", "Google Chrome");
             correctionAdd("google-chrome", "Google Chrome");
@@ -4127,6 +4128,10 @@ namespace OverflowHelper.core
             correctionAdd("95", "Windows&nbsp;95");
             correctionAdd("Win95", "Windows&nbsp;95");
             correctionAdd("windows 95", "Windows&nbsp;95");
+            correctionAdd("Windows95", "Windows&nbsp;95");
+
+            correctionAdd("WinNT", "Windows NT");
+            correctionAdd("WindowsNT", "Windows NT");
 
             correctionAdd("XP", "Windows&nbsp;XP"); // Expansion. Possible conflict with Extreme Programming.
             correctionAdd("WinXP", "Windows&nbsp;XP");
@@ -5435,6 +5440,7 @@ namespace OverflowHelper.core
             correctionAdd("I'm", "I’m");
             correctionAdd("I\"m", "I’m");
             correctionAdd("I m", "I’m");
+            correctionAdd("I,m", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -11415,6 +11421,7 @@ namespace OverflowHelper.core
             correctionAdd("offtopic", "off-topic");
             correctionAdd("OT", "off-topic");
             correctionAdd("Off Topic", "off-topic");
+            correctionAdd("out of topic", "off-topic");
 
             correctionAdd("prefered", "preferred");
             correctionAdd("preffered", "preferred");
@@ -11510,8 +11517,6 @@ namespace OverflowHelper.core
             correctionAdd("pulseview", "PulseView");
 
             correctionAdd("persistant", "persistent");
-
-            correctionAdd("WinNT", "Windows NT");
 
             correctionAdd("lubuntu", "Lubuntu");
 
@@ -11983,6 +11988,7 @@ namespace OverflowHelper.core
             correctionAdd("starwars", "Star Wars");
 
             correctionAdd("tikz", "TikZ");
+            correctionAdd("Tikz", "TikZ");
 
             correctionAdd("utc", "UTC");
 
@@ -12942,6 +12948,7 @@ namespace OverflowHelper.core
 
             correctionAdd("checkout", "check out");
             correctionAdd("Checkout", "check out");
+            correctionAdd("chack out", "check out");
 
             correctionAdd("prof", "professor");
             correctionAdd("Prof", "professor");
@@ -14382,6 +14389,7 @@ namespace OverflowHelper.core
             correctionAdd("object-oriented", "object-oriented (OO)");
 
             correctionAdd("obselete", "obsolete");
+            correctionAdd("obsolute", "obsolete");
 
             correctionAdd("para mount", "paramount");
 
@@ -15827,6 +15835,7 @@ namespace OverflowHelper.core
             correctionAdd("craete", "create");
             correctionAdd("crate", "create");
             correctionAdd("vreate", "create");
+            correctionAdd("reate", "create");
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
@@ -17861,6 +17870,7 @@ namespace OverflowHelper.core
             correctionAdd("triing", "trying");
             correctionAdd("traying", "trying");
             correctionAdd("Tying", "trying");
+            correctionAdd("tryina", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -20856,6 +20866,7 @@ namespace OverflowHelper.core
             correctionAdd("Conntection", "connection");
             correctionAdd("Connection", "connection");
             correctionAdd("connexion", "connection");
+            correctionAdd("connnection", "connection");
 
             correctionAdd("couchbase", "Couchbase");
 
@@ -25272,6 +25283,7 @@ namespace OverflowHelper.core
             correctionAdd("anthoer", "another");
             correctionAdd("antoher", "another");
             correctionAdd("an other", "another");
+            correctionAdd("anther", "another");
 
             correctionAdd("a/o", "and other");
 
@@ -25782,6 +25794,7 @@ namespace OverflowHelper.core
             correctionAdd("elsehwere", "elsewhere");
 
             correctionAdd("every where", "everywhere");
+            correctionAdd("eveywhere", "everywhere");
 
             correctionAdd("hemissphere", "hemisphere");
 
@@ -25845,6 +25858,7 @@ namespace OverflowHelper.core
             correctionAdd("technial", "technical");
 
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
+            correctionAdd("straw that broke the camel's back", "the straw that broke the camel's back");
 
             correctionAdd("CP 437", "Code page 437");
 
@@ -28946,6 +28960,7 @@ namespace OverflowHelper.core
             correctionAdd("AGL", "height above ground level");
 
             correctionAdd("dislexia", "dyslexia");
+            correctionAdd("dyxlexia", "dyslexia");
 
             correctionAdd("inement", "imminent");
             correctionAdd("immenent", "imminent");
@@ -30228,6 +30243,7 @@ namespace OverflowHelper.core
             correctionAdd("Large Object Heap", "large object heap");
 
             correctionAdd("push back", "pushback");
+            correctionAdd("push-back", "pushback");
 
             correctionAdd("gitignore", ".gitignore file");
             correctionAdd(".gitignore", ".gitignore file");
@@ -31318,6 +31334,7 @@ namespace OverflowHelper.core
             correctionAdd("servcie", "service");
             correctionAdd("Servcie", "service");
             correctionAdd("servie", "service");
+            correctionAdd("servce", "service");
 
             correctionAdd("substracting", "subtracting");
 
@@ -32828,6 +32845,7 @@ namespace OverflowHelper.core
             correctionAdd("windows 11", "Windows&nbsp;11");
 
             correctionAdd("beief", "belief");
+            correctionAdd("beleif", "belief");
 
             correctionAdd("best-practice", "best practice");
 
@@ -34039,6 +34057,7 @@ namespace OverflowHelper.core
             correctionAdd("dirting", "dirtying");
 
             correctionAdd("f string", "f-string");
+            correctionAdd("formatted string literals", "f-string");
 
             correctionAdd("phase", "face");
 
@@ -34103,6 +34122,41 @@ namespace OverflowHelper.core
 
             correctionAdd("Software Quality Assurance", "software quality assurance");
             correctionAdd("SQA", "software quality assurance");
+
+            correctionAdd("DOSbox", "DOSBox");
+
+            correctionAdd("Google takeout", "Google Takeout");
+
+            correctionAdd("onetab", "OneTab");
+            correctionAdd("Onetab", "OneTab");
+
+            correctionAdd("tasklist", "TASKLIST");
+
+            correctionAdd("curios", "curious");
+
+            correctionAdd("meagrely", "meagerly");
+
+            correctionAdd("mis-used", "misused");
+
+            correctionAdd("Particle Physics", "particle physics");
+
+            correctionAdd("quntity", "quantity");
+
+            correctionAdd("re-used", "reused");
+
+            correctionAdd("rubber-stamp", "rubber stamp");
+
+            correctionAdd("rubberstamping", "rubber stamping");
+            correctionAdd("rubber-stamping", "rubber stamping");
+
+            correctionAdd("STRIP", "strip");
+
+            correctionAdd("tidy up", "tidy-up");
+
+            correctionAdd("TSP", "travelling salesman problem");
+            correctionAdd("traveling-salesman", "travelling salesman problem");
+            correctionAdd("traveling-salesman problem", "travelling salesman problem");
+            correctionAdd("Travelling Salesman", "travelling salesman problem");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53669,6 +53723,36 @@ namespace OverflowHelper.core
 
             URL_Add("software quality assurance", "https://en.wikipedia.org/wiki/Software_quality_assurance");
 
+            URL_Add("DOSBox", "https://en.wikipedia.org/wiki/DOSBox");
+
+            URL_Add("Google Takeout", "https://en.wikipedia.org/wiki/Google_Takeout");
+
+            URL_Add("OneTab", "https://www.one-tab.com/");
+
+            URL_Add("TASKLIST", "https://ss64.com/nt/tasklist.html");
+
+            URL_Add("curious", "https://en.wiktionary.org/wiki/curious#Adjective");
+
+            URL_Add("meagerly", "https://en.wiktionary.org/wiki/meagerly#Adverb");
+
+            URL_Add("misused", "https://en.wiktionary.org/wiki/misuse#Verb");
+
+            URL_Add("particle physics", "https://en.wikipedia.org/wiki/Particle_physics");
+
+            URL_Add("quantity", "https://en.wiktionary.org/wiki/quantity#Noun");
+
+            URL_Add("reused", "https://en.wiktionary.org/wiki/reuse#Verb");
+
+            URL_Add("rubber stamp", "https://en.wiktionary.org/wiki/rubber_stamp#Noun");
+
+            URL_Add("rubber stamping", "https://en.wiktionary.org/wiki/rubber_stamp#Verb");
+
+            URL_Add("strip", "https://docs.python.org/3/library/stdtypes.html#str.strip");
+
+            URL_Add("tidy-up", "https://en.wiktionary.org/wiki/tidy-up#Noun");
+
+            URL_Add("travelling salesman problem", "https://en.wikipedia.org/wiki/Travelling_salesman_problem");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53851,6 +53935,13 @@ namespace OverflowHelper.core
 
             correctionAdd("npc_", "NPC_");
 
+            correctionAdd("Chinese Postman Problem_", "Chinese postman problem_");
+            correctionAdd("chinese postman problem_", "Chinese postman problem_");
+            correctionAdd("route inspection problem_", "Chinese postman problem_");
+            correctionAdd("Guan's route problem_", "Chinese postman problem_");
+            correctionAdd("postman tour_", "Chinese postman problem_");
+            correctionAdd("CPP_", "Chinese postman problem_");
+
             // URL mappings
             //
             //
@@ -53979,6 +54070,8 @@ namespace OverflowHelper.core
             URL_Add("Unity_", "https://en.wikipedia.org/wiki/Unity_(game_engine)");
 
             URL_Add("NPC_", "https://en.wikipedia.org/wiki/Non-player_character");
+
+            URL_Add("Chinese postman problem_", "https://en.wikipedia.org/wiki/Route_inspection_problem");
 
         } //addLookupData_alternativeWordSet()
 
