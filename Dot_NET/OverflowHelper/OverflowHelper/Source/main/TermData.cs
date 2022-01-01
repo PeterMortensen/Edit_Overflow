@@ -7249,6 +7249,7 @@ namespace OverflowHelper.core
 
             correctionAdd("IR", "infrared"); // Expansion
             correctionAdd("Infrared", "infrared");
+            correctionAdd("infra-red", "infrared");
 
             correctionAdd("bsd", "BSD");
 
@@ -8539,6 +8540,7 @@ namespace OverflowHelper.core
             correctionAdd("MSVS 2017", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("VS17", "Visual&nbsp;Studio&nbsp;2017");
             correctionAdd("17", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS-2017", "Visual&nbsp;Studio&nbsp;2017");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -8874,6 +8876,7 @@ namespace OverflowHelper.core
             correctionAdd("msword", "Microsoft Word");
             correctionAdd("winword", "Microsoft Word");
             correctionAdd("WORD", "Microsoft Word");
+            correctionAdd("ms-word", "Microsoft Word");
 
             correctionAdd("iso", "ISO image");
             correctionAdd("ISO", "ISO image");
@@ -29976,6 +29979,7 @@ namespace OverflowHelper.core
             correctionAdd("mid-point", "midpoint");
 
             correctionAdd("modyfying", "modifying");
+            correctionAdd("modifing", "modifying");
 
             correctionAdd("Pit Bull", "pit bull");
 
@@ -30274,6 +30278,10 @@ namespace OverflowHelper.core
             correctionAdd("Landau", "Martin Landau");
 
             correctionAdd("npc", "NPC");
+            correctionAdd("NP - Complete", "NPC");
+            correctionAdd("NP - complete", "NPC");
+            correctionAdd("NP-complete", "NPC");
+            correctionAdd("NP-Complete", "NPC");
 
             correctionAdd("opteron", "Opteron");
 
@@ -34162,6 +34170,48 @@ namespace OverflowHelper.core
             correctionAdd("Travelling Salesman Problem", "travelling salesman problem");
 
             correctionAdd("hadeline", "headline");
+
+            correctionAdd("astraea", "Astraea");
+
+            correctionAdd("ceres", "Ceres");
+
+            correctionAdd("eris", "Eris");
+
+            correctionAdd("eulerian", "Eulerian");
+
+            correctionAdd("farsi", "Farsi");
+
+            correctionAdd("HIP 65426b", "HIP 65426 b");
+
+            correctionAdd("haumea", "Haumea");
+
+            correctionAdd("makemake", "Makemake");
+
+            correctionAdd("nec", "NEC");
+
+            correctionAdd("pluto", "Pluto");
+
+            correctionAdd("quaoar", "Quaoar");
+
+            correctionAdd("VLT", "Very Large Telescope");
+
+            correctionAdd("vesta", "Vesta");
+
+            correctionAdd("arc second", "arcsecond");
+
+            correctionAdd("BSSID", "basic service set identifier");
+
+            correctionAdd("diffraction limited", "diffraction-limited");
+
+            correctionAdd("knight mare", "knightmare");
+
+            correctionAdd("nano meter", "nanometer");
+
+            correctionAdd("rougue", "rogue");
+
+            correctionAdd("ultra-simple", "ultrasimple");
+
+            correctionAdd("WDS", "wireless distribution system");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53760,6 +53810,48 @@ namespace OverflowHelper.core
 
             URL_Add("headline", "https://en.wiktionary.org/wiki/headline#Noun");
 
+            URL_Add("Astraea", "https://en.wikipedia.org/wiki/Astraea");
+
+            URL_Add("Ceres", "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)");
+
+            URL_Add("Eris", "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)");
+
+            URL_Add("Eulerian", "https://en.wiktionary.org/wiki/Eulerian#Adjective");
+
+            URL_Add("Farsi", "https://en.wiktionary.org/wiki/Farsi#Noun");
+
+            URL_Add("HIP 65426 b", "https://en.wikipedia.org/wiki/HIP_65426_b");
+
+            URL_Add("Haumea", "https://en.wikipedia.org/wiki/Haumea");
+
+            URL_Add("Makemake", "https://en.wikipedia.org/wiki/Makemake");
+
+            URL_Add("NEC", "https://en.wikipedia.org/wiki/NEC#1980_to_2000");
+
+            URL_Add("Pluto", "https://en.wikipedia.org/wiki/Pluto");
+
+            URL_Add("Quaoar", "https://en.wikipedia.org/wiki/50000_Quaoar");
+
+            URL_Add("Very Large Telescope", "https://en.wikipedia.org/wiki/Very_Large_Telescope");
+
+            URL_Add("Vesta", "https://en.wikipedia.org/wiki/4_Vesta");
+
+            URL_Add("arcsecond", "https://en.wiktionary.org/wiki/arcsecond#Noun");
+
+            URL_Add("basic service set identifier", "https://en.wikipedia.org/wiki/Service_set_(802.11_network)");
+
+            URL_Add("diffraction-limited", "https://en.wikipedia.org/wiki/Diffraction-limited_system");
+
+            URL_Add("knightmare", "https://www.youtube.com/watch?v=j4E41hlQTZk");
+
+            URL_Add("nanometer", "https://en.wikipedia.org/wiki/Nanometre");
+
+            URL_Add("rogue", "https://en.wiktionary.org/wiki/rogue#Adjective");
+
+            URL_Add("ultrasimple", "https://en.wiktionary.org/wiki/ultrasimple#Adjective");
+
+            URL_Add("wireless distribution system", "https://en.wikipedia.org/wiki/Wireless_distribution_system");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -53948,6 +54040,11 @@ namespace OverflowHelper.core
             correctionAdd("Guan's route problem_", "Chinese postman problem_");
             correctionAdd("postman tour_", "Chinese postman problem_");
             correctionAdd("CPP_", "Chinese postman problem_");
+            correctionAdd("route inspection_", "Chinese postman problem_");
+            correctionAdd("Route Inspection_", "Chinese postman problem_");
+            correctionAdd("Chinese Postman_", "Chinese postman problem_");
+
+            correctionAdd("juno_", "Juno_");
 
             // URL mappings
             //
@@ -54079,6 +54176,8 @@ namespace OverflowHelper.core
             URL_Add("NPC_", "https://en.wikipedia.org/wiki/Non-player_character");
 
             URL_Add("Chinese postman problem_", "https://en.wikipedia.org/wiki/Route_inspection_problem");
+
+            URL_Add("Juno_", "https://en.wikipedia.org/wiki/3_Juno");
 
         } //addLookupData_alternativeWordSet()
 
