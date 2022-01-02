@@ -3595,6 +3595,7 @@ namespace OverflowHelper.core
 
             correctionAdd("md5", "MD5");
             correctionAdd("md 5", "MD5");
+            correctionAdd("Md5 Sum", "MD5");
 
             correctionAdd("xslt", "XSLT");
             correctionAdd("Xslt", "XSLT");
@@ -4479,6 +4480,7 @@ namespace OverflowHelper.core
             correctionAdd("vraiable", "variable");
             correctionAdd("Variable", "variable");
             correctionAdd("variale", "variable");
+            correctionAdd("Vairable", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -4906,6 +4908,7 @@ namespace OverflowHelper.core
             correctionAdd("donw", "don’t");
             correctionAdd("DON'T", "don’t");
             correctionAdd("dond", "don’t");
+            correctionAdd("DONT", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -10151,6 +10154,7 @@ namespace OverflowHelper.core
             correctionAdd("winSCP", "WinSCP");
             correctionAdd("WinScp", "WinSCP");
             correctionAdd("Winscp", "WinSCP");
+            correctionAdd("winScp", "WinSCP");
 
             correctionAdd("google group", "Google Groups");
 
@@ -10933,6 +10937,7 @@ namespace OverflowHelper.core
             correctionAdd("exaple", "example");
             correctionAdd("exmample", "example");
             correctionAdd("eample", "example");
+            correctionAdd("examplpe", "example");
 
             correctionAdd("european", "European");
 
@@ -11617,6 +11622,7 @@ namespace OverflowHelper.core
             correctionAdd("Credentials manager", "Credential Manager");
             correctionAdd("Windows credential manager", "Credential Manager");
             correctionAdd("Windows Credential Manager", "Credential Manager");
+            correctionAdd("credentials manager", "Credential Manager");
 
             correctionAdd("react", "React");
             correctionAdd("reactjs", "React");
@@ -15780,6 +15786,7 @@ namespace OverflowHelper.core
             correctionAdd("moducle", "module");
 
             correctionAdd("babel", "Babel");
+            correctionAdd("bable", "Babel");
 
             correctionAdd("bluehost", "Bluehost");
 
@@ -15842,6 +15849,7 @@ namespace OverflowHelper.core
             correctionAdd("whe", "when");
             correctionAdd("When", "when");
             correctionAdd("wehn", "when");
+            correctionAdd("WHen", "when");
 
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
@@ -16310,6 +16318,7 @@ namespace OverflowHelper.core
 
             correctionAdd("step by step", "step-by-step");
             correctionAdd("Step by step", "step-by-step");
+            correctionAdd("Step by Step", "step-by-step");
 
             correctionAdd("VR", "virtual reality");
             correctionAdd("Virtual Reality", "virtual reality");
@@ -22921,6 +22930,9 @@ namespace OverflowHelper.core
             correctionAdd("linux from scratch", "Linux From Scratch");
             correctionAdd("Linux from scratch", "Linux From Scratch");
 
+            correctionAdd("from scrap", "from scratch");
+            correctionAdd("from sketc", "from scratch");
+
             correctionAdd("minix", "MINIX");
 
             correctionAdd("attitudine", "attitude");
@@ -25572,8 +25584,6 @@ namespace OverflowHelper.core
             correctionAdd("fees", "feels");
 
             correctionAdd("fallowed", "followed");
-
-            correctionAdd("from scrap", "from scratch");
 
             correctionAdd("lca", "lowest common ancestor");
             correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
@@ -28701,6 +28711,7 @@ namespace OverflowHelper.core
             correctionAdd("vulme", "volume");
 
             correctionAdd("photography", "Photography (Stack Exchange site)");
+            correctionAdd("Photography", "Photography (Stack Exchange site)");
 
             correctionAdd("uSB2", "USB 2.0");
             correctionAdd("USB2", "USB 2.0");
@@ -32392,6 +32403,9 @@ namespace OverflowHelper.core
 
             correctionAdd("periph", "peripheral");
             correctionAdd("Periph", "peripheral");
+            correctionAdd("periopheral", "peripheral");
+            correctionAdd("periopherals", "peripheral");
+            correctionAdd("peripherals", "peripheral");
 
             correctionAdd("allah", "Allah");
 
@@ -32642,6 +32656,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Compose", "Jetpack Compose");
             correctionAdd("compose", "Jetpack Compose");
+            correctionAdd("jetpack compose", "Jetpack Compose");
+            correctionAdd("JetPack Compose", "Jetpack Compose");
 
             correctionAdd("a couple", "a couple of");
             correctionAdd("A couple of", "a couple of");
@@ -34212,6 +34228,40 @@ namespace OverflowHelper.core
             correctionAdd("ultra-simple", "ultrasimple");
 
             correctionAdd("WDS", "wireless distribution system");
+
+            correctionAdd("el Alamein", "El Alamein");
+
+            correctionAdd("google lens", "Google Lens");
+
+            correctionAdd("jndi", "JNDI");
+
+            correctionAdd("log4j-vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4shell vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4shell", "Log4Shell vulnerability");
+            correctionAdd("Log4Shell", "Log4Shell vulnerability");
+            correctionAdd("Log4shell", "Log4Shell vulnerability");
+
+            correctionAdd("log4j", "Log4j");
+
+            correctionAdd("Barbarossa", "Operation Barbarossa");
+
+            correctionAdd("double clicking", "double-clicking");
+            correctionAdd("doublicking", "double-clicking");
+            correctionAdd("doubclicking", "double-clicking");
+            correctionAdd("doubleclicking", "double-clicking");
+
+            correctionAdd("extra-ordinary", "extraordinary");
+            correctionAdd("extra ordinary", "extraordinary");
+
+            correctionAdd("GIT-LS-FILES", "git-ls-files");
+
+            correctionAdd("img", "image");
+
+            correctionAdd("password-less", "passwordless");
+
+            correctionAdd("proptocol", "protocol");
+
+            correctionAdd("show's", "shows");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53852,6 +53902,32 @@ namespace OverflowHelper.core
 
             URL_Add("wireless distribution system", "https://en.wikipedia.org/wiki/Wireless_distribution_system");
 
+            URL_Add("El Alamein", "https://en.wikipedia.org/wiki/El_Alamein#World_War_II");
+
+            URL_Add("Google Lens", "https://en.wikipedia.org/wiki/Google_Lens");
+
+            URL_Add("JNDI", "https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface");
+
+            URL_Add("Log4Shell vulnerability", "https://en.wikipedia.org/wiki/Log4Shell");
+
+            URL_Add("Log4j", "https://en.wikipedia.org/wiki/Log4j");
+
+            URL_Add("Operation Barbarossa", "https://en.wikipedia.org/wiki/Operation_Barbarossa");
+
+            URL_Add("double-clicking", "https://en.wiktionary.org/wiki/double-click#Verb");
+
+            URL_Add("extraordinary", "https://en.wiktionary.org/wiki/extraordinary#Adjective");
+
+            URL_Add("git-ls-files", "https://git-scm.com/docs/git-ls-files");
+
+            URL_Add("image", "https://en.wiktionary.org/wiki/image#Noun");
+
+            URL_Add("passwordless", "https://en.wiktionary.org/wiki/passwordless#Adjective");
+
+            URL_Add("protocol", "https://en.wiktionary.org/wiki/protocol#Noun");
+
+            URL_Add("shows", "https://en.wiktionary.org/wiki/show#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54026,6 +54102,7 @@ namespace OverflowHelper.core
             correctionAdd("Laravel echo_", "Laravel Echo_");
 
             correctionAdd("livewire_", "Laravel Livewire_");
+            correctionAdd("live-wire_", "Laravel Livewire_");
 
             correctionAdd("pusher_", "Laravel Pusher Channels_");
             correctionAdd("Laravel pusher_", "Laravel Pusher Channels_");
@@ -54045,6 +54122,10 @@ namespace OverflowHelper.core
             correctionAdd("Chinese Postman_", "Chinese postman problem_");
 
             correctionAdd("juno_", "Juno_");
+
+            correctionAdd("pidion_", "pigeon_");
+            correctionAdd("pidgion_", "pigeon_");
+            correctionAdd("pigion_", "pigeon_");
 
             // URL mappings
             //
@@ -54178,6 +54259,8 @@ namespace OverflowHelper.core
             URL_Add("Chinese postman problem_", "https://en.wikipedia.org/wiki/Route_inspection_problem");
 
             URL_Add("Juno_", "https://en.wikipedia.org/wiki/3_Juno");
+
+            URL_Add("pigeon_", "https://en.wiktionary.org/wiki/pigeon#Noun");
 
         } //addLookupData_alternativeWordSet()
 
