@@ -53,9 +53,10 @@
             id="XYZ">
 
 
-            <p>For preemptive use: Responses to comments should
-                normally be by editing the post, not in comments
-                (and it should not contain meta information).
+            <p>For pr<strong><em>e</em></strong>emptive use:
+                Responses to comments should normally be by editing the post,
+                not in comments (and it should not contain meta
+                information).
                 Note: The ID in the link must be set.
                 (Note:  this is not a full canned comments, only a fragment.
                         It should be combined)
@@ -73,7 +74,7 @@
             </p>
 
             <p id="CodeOnlyComment">
-                Code-only answers normally need some explanation to be useful.
+                <strong><em>C</em></strong>ode-only answers normally need some explanation to be useful.
 
                 <br/>
                 <input
@@ -88,8 +89,8 @@
                 />
             </p>
 
-            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange, and other
-                Stack&nbsp;Exchange sites, etc.
+            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange,
+                and other Stack&nbsp;Exchange sites, etc.
                 No matter how it looks in a logo
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
                 >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
@@ -110,10 +111,12 @@
                 />
             </p>
 
-            <p>Many users come to Meta Stack Overflow to complain about 
-                being question-banned on Stack Overflow. 
-                Many of them use low English skills as an excuse, but 
-                capitalising "i" and capitalising sentences don't 
+            <p>Many users come to Meta Stack Overflow to
+                compla<strong><em>i</em></strong>n about
+                being question-banned on Stack Overflow.
+                Many of them use low English skills as
+                an excuse, but capitalising "i" and
+                capitalising sentences don't
                 require any skills.
 
                 <br/>
@@ -126,6 +129,40 @@
                     style="width:830px;"
                     accesskey="I"
                     title="Shortcut: Shift + Alt + I"
+                />
+            </p>
+
+            <p>Many use<strong><em>r</em></strong>s on Stack Overflow post
+                answers as questions (use of Stack Overflow as a
+                forum) or because they can't comment below 50 reputation points.
+
+                <br/>
+                <input
+                    name="X30"
+                    type="text"
+                    id="X30"
+                    class="X30"
+                    value="Related: *[Why do I need 50 reputation to comment? What can I do instead?](https://meta.stackexchange.com/questions/214173/)*."
+                    style="width:830px;"
+                    accesskey="R"
+                    title="Shortcut: Shift + Alt + R"
+                />
+            </p>
+
+            <p>Many users on Stack Overflow think they are on 
+                a <strong><em>f</em></strong>orum.
+                Or treat it as such.
+
+                <br/>
+                <input
+                    name="X31"
+                    type="text"
+                    id="X31"
+                    class="X31"
+                    value="[Stack Overflow is not a forum](http://meta.stackexchange.com/a/92115). It is a [think tank](http://meta.stackoverflow.com/a/325681)."
+                    style="width:830px;"
+                    accesskey="F"
+                    title="Shortcut: Shift + Alt + F"
                 />
             </p>
 
