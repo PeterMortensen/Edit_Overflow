@@ -1562,6 +1562,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("mac Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS 10.14", "macOS v10.14 (Mojave)");
+            correctionAdd("Osx Mojave", "macOS v10.14 (Mojave)");
 
             correctionAdd("macOS v10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Catalina", "macOS v10.15 (Catalina)");
@@ -7271,6 +7272,7 @@ namespace OverflowHelper.core
 
             correctionAdd("vba", "VBA");
             correctionAdd("Vba", "VBA");
+            correctionAdd("Excel language", "VBA");
 
             correctionAdd("bay area", "Bay Area");
             correctionAdd("Bay area", "Bay Area");
@@ -10298,6 +10300,8 @@ namespace OverflowHelper.core
             correctionAdd("querstion", "question");
             correctionAdd("questin", "question");
             correctionAdd("guestion", "question");
+            correctionAdd("qusestion", "question");
+            correctionAdd("qusstion", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -11281,6 +11285,7 @@ namespace OverflowHelper.core
             correctionAdd("ThreeJS", "Three.js");
 
             correctionAdd("0day", "zero-day");
+            correctionAdd("0-day", "zero-day");
 
             correctionAdd("Perl 6", "Perl&nbsp;6");
             correctionAdd("Perl6", "Perl&nbsp;6");
@@ -16893,6 +16898,7 @@ namespace OverflowHelper.core
             correctionAdd("donwvoted", "downvoted");
 
             correctionAdd("deja vu", "déjà vu");
+            correctionAdd("Déjà vu", "déjà vu");
 
             correctionAdd("easy to use", "easy-to-use");
 
@@ -30083,6 +30089,7 @@ namespace OverflowHelper.core
             correctionAdd("qudratic", "quadratic");
 
             correctionAdd("rerturns", "returns");
+            correctionAdd("returnas", "returns");
 
             correctionAdd("bier", "beer");
 
@@ -33267,6 +33274,7 @@ namespace OverflowHelper.core
             correctionAdd("Intel C++ compiler", "Intel C++ Compiler");
             correctionAdd("Intel C Compiler", "Intel C++ Compiler");
             correctionAdd("ICC", "Intel C++ Compiler");
+            correctionAdd("icc", "Intel C++ Compiler");
 
             correctionAdd("PGI", "PGI compiler");
 
@@ -33373,6 +33381,7 @@ namespace OverflowHelper.core
 
             correctionAdd("turing complete", "Turing complete");
             correctionAdd("Turing-complete", "Turing complete");
+            correctionAdd("Turing Complete", "Turing complete");
 
             correctionAdd("a mean of", "a means of");
 
@@ -34262,6 +34271,33 @@ namespace OverflowHelper.core
             correctionAdd("proptocol", "protocol");
 
             correctionAdd("show's", "shows");
+
+            correctionAdd("DIN-9", "DIN-5");
+            correctionAdd("DIN", "DIN-5");
+
+            correctionAdd("ear", "EAR");
+
+            correctionAdd("Hikari", "HikariCP");
+            correctionAdd("hikari db", "HikariCP");
+            correctionAdd("hikari", "HikariCP");
+
+            correctionAdd("phenom", "Phenom");
+
+            correctionAdd("simula", "Simula");
+
+            correctionAdd("yogi berra", "Yogi Berra");
+
+            correctionAdd("aero gel", "aerogel");
+
+            correctionAdd("BOF", "buffer overflow");
+
+            correctionAdd("idoit", "idiot");
+
+            correctionAdd("SYS.STDOUT", "sys.stdout");
+
+            correctionAdd("Ze", "ze");
+
+            correctionAdd("Zir", "zir");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -53927,6 +53963,30 @@ namespace OverflowHelper.core
             URL_Add("protocol", "https://en.wiktionary.org/wiki/protocol#Noun");
 
             URL_Add("shows", "https://en.wiktionary.org/wiki/show#Verb");
+
+            URL_Add("DIN-5", "https://en.wikipedia.org/wiki/DIN_connector#Other_uses");
+
+            URL_Add("EAR", "https://en.wikipedia.org/wiki/EAR_(file_format)");
+
+            URL_Add("HikariCP", "https://github.com/brettwooldridge/HikariCP");
+
+            URL_Add("Phenom", "https://en.wikipedia.org/wiki/AMD_Phenom");
+
+            URL_Add("Simula", "https://en.wikipedia.org/wiki/Simula");
+
+            URL_Add("Yogi Berra", "https://en.wikipedia.org/wiki/Yogi_Berra");
+
+            URL_Add("aerogel", "https://en.wikipedia.org/wiki/Aerogel");
+
+            URL_Add("buffer overflow", "https://en.wikipedia.org/wiki/Buffer_overflow");
+
+            URL_Add("idiot", "https://en.wiktionary.org/wiki/idiot#Noun");
+
+            URL_Add("sys.stdout", "https://docs.python.org/3/library/sys.html#sys.stdout");
+
+            URL_Add("ze", "https://en.wiktionary.org/wiki/ze#Pronoun");
+
+            URL_Add("zir", "https://en.wiktionary.org/wiki/zir#Pronoun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
