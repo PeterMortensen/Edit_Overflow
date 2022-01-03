@@ -133,8 +133,8 @@
             </p>
 
             <p>Many use<strong><em>r</em></strong>s on Stack Overflow post
-                answers as questions (use of Stack Overflow as a
-                forum) or because they can't comment below 50 reputation points.
+                answers as questions, because they can't comment below 
+                50 reputation points (the system will not allow it).
 
                 <br/>
                 <input
@@ -149,9 +149,10 @@
                 />
             </p>
 
-            <p>Many users on Stack Overflow think they are on 
-                a <strong><em>f</em></strong>orum.
-                Or treat it as such.
+            <p>Stack Overflow is <strong><em>not</em></strong> 
+                a <strong><em>f</em></strong>orum. 
+                
+                But many users on Stack Overflow think they are on a forum.
 
                 <br/>
                 <input
