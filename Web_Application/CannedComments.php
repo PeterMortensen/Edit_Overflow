@@ -53,7 +53,7 @@
             id="XYZ">
 
 
-            <p>For pr<strong><em>e</em></strong>emptive use:
+            <p>For p<strong><em>r</em></strong>eemptive use:
                 Responses to comments should normally be by editing the post,
                 not in comments (and it should not contain meta
                 information).
@@ -68,13 +68,13 @@
                     class="X32"
                     value="Please respond by [editing (changing) your question/answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the question/answer should appear as if it was written today). "
                     style="width:830px;"
-                    accesskey="E"
-                    title="Shortcut: Shift + Alt + E"
+                    accesskey="R"
+                    title="Shortcut: Shift + Alt + R"
                 />
             </p>
 
             <p id="CodeOnlyComment">
-                <strong><em>C</em></strong>ode-only answers normally need some explanation to be useful.
+                Code-only answers normally need some <strong><em>e</em></strong>xplanation to be useful.
 
                 <br/>
                 <input
@@ -82,10 +82,10 @@
                     type="text"
                     id="X33"
                     class="X33"
-                    value="An explanation would be in order. E.g., what is the idea/gist? Please respond by [editing (changing) your answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the answer should appear as if it was written today). "
+                    value="An explanation would be in order. E.g., what is the idea/gist? From [the Help Center](https://stackoverflow.com/help/promotion): *&quot;...always explain why the solution you're presenting is appropriate and how it works&quot;*. Please respond by [editing (changing) your answer](https://XXXX), not here in comments (***without*** &quot;Edit:&quot;, &quot;Update:&quot;, or similar - the answer should appear as if it was written today). "
                     style="width:830px;"
-                    accesskey="C"
-                    title="Shortcut: Shift + Alt + C"
+                    accesskey="E"
+                    title="Shortcut: Shift + Alt + E"
                 />
             </p>
 
@@ -104,7 +104,7 @@
                     type="text"
                     id="X28"
                     class="X28"
-                    value="It is *&quot;Stack&nbsp;Overflow&quot;* and *&quot;Stack&nbsp;Exchange&quot;*, not *&quot;StackOverflow&quot;* and *&quot;StackExchange&quot;* (see e.g. [this official page](http://stackoverflow.com/legal/trademark-guidance) (the very last section, near &quot;As a name&quot;))."
+                    value="It is *&quot;Stack&nbsp;Overflow&quot;* and *&quot;Stack&nbsp;Exchange&quot;*, not *&quot;StackOverflow&quot;* and *&quot;StackExchange&quot;* (see e.g. [this official page](http://stackoverflow.com/legal/trademark-guidance) (the very last section, near &quot;As a name&quot;)). "
                     style="width:830px;"
                     accesskey="S"
                     title="Shortcut: Shift + Alt + S"
@@ -125,16 +125,17 @@
                     type="text"
                     id="X29"
                     class="X29"
-                    value="For your own sake and for the sake of your readers, ***please*** capitalise &quot;i&quot;, capitalise sentences, and don't use [SMS language](https://en.wiktionary.org/wiki/u#Pronoun). ***This doesn't require any skills***, only the willingness to change habits. You disadvantage yourself right from the beginning by not doing it. This alone (due to downvotes) could have caused your question ban. Making this change will also greatly enhance your chances on the job market."
+                    value="For your own sake and for the sake of your readers, ***please*** capitalise &quot;i&quot;, capitalise sentences, and don't use [SMS language](https://en.wiktionary.org/wiki/u#Pronoun). ***This doesn't require any skills***, only the willingness to change habits. You disadvantage yourself right from the beginning by not doing it. This alone (due to downvotes) could have caused your question ban. Making this change will also greatly enhance your chances on the job market. "
                     style="width:830px;"
                     accesskey="I"
                     title="Shortcut: Shift + Alt + I"
                 />
             </p>
 
-            <p>Many use<strong><em>r</em></strong>s on Stack Overflow post
-                answers as questions, because they can't comment below 
-                50 reputation points (the system will not allow it).
+            <p>Many users on Stack Overflow post answers as questions,
+                because they can't <strong><em>c</em></strong>omment
+                below 50 reputation points (the system will not
+                allow it).
 
                 <br/>
                 <input
@@ -142,16 +143,16 @@
                     type="text"
                     id="X30"
                     class="X30"
-                    value="Related: *[Why do I need 50 reputation to comment? What can I do instead?](https://meta.stackexchange.com/questions/214173/)*."
+                    value="Related: *[Why do I need 50 reputation to comment? What can I do instead?](https://meta.stackexchange.com/questions/214173/)*. "
                     style="width:830px;"
-                    accesskey="R"
-                    title="Shortcut: Shift + Alt + R"
+                    accesskey="C"
+                    title="Shortcut: Shift + Alt + C"
                 />
             </p>
 
-            <p>Stack Overflow is <strong><em>not</em></strong> 
-                a <strong><em>f</em></strong>orum. 
-                
+            <p>Stack Overflow is <strong><em>not</em></strong>
+                a <strong><em>f</em></strong>orum.
+
                 But many users on Stack Overflow think they are on a forum.
 
                 <br/>
@@ -160,7 +161,7 @@
                     type="text"
                     id="X31"
                     class="X31"
-                    value="[Stack Overflow is not a forum](http://meta.stackexchange.com/a/92115). It is a [think tank](http://meta.stackoverflow.com/a/325681)."
+                    value="[Stack Overflow is not a forum](http://meta.stackexchange.com/a/92115). It is a [think tank](http://meta.stackoverflow.com/a/325681). "
                     style="width:830px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
