@@ -182,12 +182,19 @@
                 return implode("\r\n", $newContent);
             } #removeCommonLeadingSpaces()
 
-            // "none" as in Markdowm "lang_none" - syntax
-            // highlighting turned off.
+
+            // Note: "none" as in Markdowm "lang_none" - syntax
+            //        highlighting turned off.
             //
             function convertToMarkdownCodefencing_none($aText)
             {
-                $replacer = new StringReplacerWithRegex($aText);
+                # First remove TABs and trailing space - especially for TABs
+                # in the beginning of a line, it is especially important it
+                # is converted so we get the expected result.
+                #
+                [$someText, $message] = removeTrailingSpacesAndTABs($aText);
+
+                $replacer = new StringReplacerWithRegex($someText);
 
                 # Remove four leading spaces from each line (if there
                 # are at least four leading in a line).
@@ -203,7 +210,7 @@
 
                 $someText = $replacer->currentString();
 
-                # Find indent for the codefences. It should be the indent
+                # Find indent for the code fences. It should be the indent
                 # for the line with the minimum amount of indent (except
                 # empty linese), but for ***now*** we take it from the
                 # ***first line***.
@@ -229,7 +236,7 @@
                 #    "someText: ___" . $someText . "___\n\n"
                 #    ;
 
-                # Wrap in Markdown codefences
+                # Wrap in Markdown code fences
                 return
                     $codefenceIndent . "```lang-none\r\n" .
                     $someText .
@@ -252,8 +259,8 @@
             # case in this context (this file)).
             #
             # Note: We can not test aLengthDiff for 0 as some tests actually
-            #       specify a value of 0 - e.g., to test that some content 
-            #       is NOT converted (e.g., some "."s are not seen as 
+            #       specify a value of 0 - e.g., to test that some content
+            #       is NOT converted (e.g., some "."s are not seen as
             #       belonging to a URL...)
             #
             function assert_strLengths($anID, $aOrigText, $aNewText, $aLengthDiff)
@@ -453,6 +460,9 @@
             {
                 $touchedText = convertToMarkdownCodefencing_none($aSomeText);
 
+                # Counting lines... The number of lines is expected
+                # to increase by 2 (due to the code fences).
+                #
                 $newLinesBefore = substr_count($aSomeText,   "\r\n");
                 $newLinesAfter =  substr_count($touchedText, "\r\n");
                 $expectedNewLinesAfter = $newLinesBefore + 2;
@@ -466,6 +476,9 @@
                 #    convertToMarkdownCodefencing_none() to handle it
                 #    (incorrect output - missing ***leading space***
                 #    (indent) for the code fences).
+                #
+                #    Or in other words, it fails for input that does not
+                #    need to be processed (not enough space indent).
                 #
                 # 2. Number of newlines has increased by 2 (for the
                 #    code fencing)
@@ -696,15 +709,18 @@
             #   12: "```lang-none"
             #    3: "```"
             #    2: CR+LF
+            #    2: For what??
+            #
+            $fixed_SizeIncrease = 12 + 2 + 3 + 2;
 
             test_convert_to_Markdown_codefencing(1032,
                 "    End\r\n",
-                1*4 - (12 + 2 + 3 + 2));
+                1*4 - $fixed_SizeIncrease);
 
             #Extra spaces so the indent is not zero spaces
             test_convert_to_Markdown_codefencing(1033,
                 "     End\r\n",
-                1*4 - 2*1 - (12 + 2 + 3 + 2));
+                1*4 - 2*1 - $fixed_SizeIncrease);
 
             test_convert_to_Markdown_codefencing(1034,
                 "    if (\$next)\r\n" .
@@ -712,15 +728,16 @@
                 "        \$next .= \"Extras\";\r\n" .
                 "    }\r\n" .
                 "",
-                4*4 - (12 + 2 + 3 + 2));
+                4*4 - $fixed_SizeIncrease);
 
-
+            # With an empty line (line with less than the
+            # number of spaces we remove from each line).
             test_convert_to_Markdown_codefencing(1035,
                 "    AAA\r\n" .
                 "\r\n" .
                 "    BBB\r\n" .
                 "",
-                2*4 - (12 + 2 + 3 + 2));
+                2*4 - $fixed_SizeIncrease);
 
             # Testing for more than 4 spaces indent - only
             # four spaces should be removed - not all spaces.
@@ -732,10 +749,20 @@
             #
             test_convert_to_Markdown_codefencing(1036,
                 "         End\r\n",
-                1*4 - (12 + 2 + 3 + 2)
+                1*4 - $fixed_SizeIncrease
                 - 2 * 5   # 5: remaining space after removing 4 space
-                        #    indent - the indent for each of the
-                        #    two code fences.
+                          #    indent - the indent for each of the
+                          #    two code fences.
+                );
+
+            # Check for automatic removal for TABs and trailing space
+            test_convert_to_Markdown_codefencing(1038,
+                "    AAA   \r\n" .
+                "\r\n" .
+                "    BBB\r\n" .
+                "",
+                2*4 - $fixed_SizeIncrease
+                + 3 # The 3 trailing spaces
                 );
 
             # Major gotcha: ".*" does not match everything!
@@ -756,8 +783,8 @@
                 5);
 
             #Future: Experiment with getting modifier "/s" to work. But
-            #        we would have to modify file 
-            #        StringReplacerWithRegex.php as it is outside 
+            #        we would have to modify file
+            #        StringReplacerWithRegex.php as it is outside
             #        the "//" pair.
 
 
@@ -901,13 +928,13 @@
                     $fallThrough = 0;
                 }
 
-                if (isset($button['convert_to_Markdown_codefencing']))
+                if (isset($button['convert_to_Markdown_code_fencing']))
                 {
                     $someText = convertToMarkdownCodefencing_none($someText);
 
                     $message = "";
                     #$message = "<p>Converted " . $leadingSpaceToRemove .
-                    #            " lines of code Markdown codefencing...</p>\n";
+                    #            " lines of code Markdown code fencing...</p>\n";
 
                     $fallThrough = 0;
                 }
@@ -1096,13 +1123,13 @@
                 title="Shortcut: Shift + Alt + L"
             />
 
-            <!-- Convert to Markdown codefencing button  -->
+            <!-- Convert to Markdown code fencing button  -->
             <input
-                name="someAction[convert_to_Markdown_codefencing]"
+                name="someAction[convert_to_Markdown_code_fencing]"
                 type="Submit"
                 id="LookUp31"
                 class="XYZ31"
-                value="Convert to Markdown codefencing"
+                value="Convert to Markdown code fencing"
                 style="width:275px;"
                 accesskey="M"
                 title="Shortcut: Shift + Alt + M"
