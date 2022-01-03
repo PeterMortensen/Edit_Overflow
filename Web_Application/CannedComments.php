@@ -89,7 +89,7 @@
                 />
             </p>
 
-            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange,
+            <p><strong><em>S</em></strong>pelling of Stack Overflow, Stack&nbsp;Exchange,
                 and other Stack&nbsp;Exchange sites, etc.
                 No matter how it looks in a logo
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
