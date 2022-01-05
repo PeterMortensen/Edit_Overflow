@@ -70,7 +70,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a243 2022-01-04T140553Z+0";
+        return "Edit Overflow v. 1.1.49a244 2022-01-05T043112Z+0";
     }
 
 
@@ -431,6 +431,18 @@
             $replacer->transform(' DOT aspx', '.aspx');
             $replacer->transform(' DOT pdf',  '.pdf');
         } //If doing URL processing
+        else 
+        {
+            # Not for YouTube
+            
+            #Ideas: 1. Convert (naked) URLs to Markdown inline 
+            #          links (suitable for LBRY), at least 
+            #          for Wikipedia links (extracting the 
+            #          link text from the URL).
+            #
+            #       2. Presuming LBRY, add the empty line workaround (we 
+            #          have a similar workaround for YouTube below).
+        }
 
         # Convert email addresses like so... (at least
         # to offer some protection (and avoiding

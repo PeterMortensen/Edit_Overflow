@@ -510,12 +510,6 @@ namespace OverflowHelper.core
             correctionAdd("typeScript", "TypeScript");
             correctionAdd("typescipt", "TypeScript");
 
-            // Of PowerShell...
-            correctionAdd("start-transcript", "Start-Transcript");
-
-            // Of PowerShell...
-            correctionAdd("stop-transcript", "Stop-Transcript");
-
             correctionAdd("user script", "userscript");
             correctionAdd("Userscript", "userscript");
 
@@ -1786,9 +1780,6 @@ namespace OverflowHelper.core
             correctionAdd("crach", "crash");
             correctionAdd("chrash", "crash");
             correctionAdd("cras", "crash");
-
-            // Of PowerShell...
-            correctionAdd("get-filehash", "Get-FileHash");
 
             correctionAdd("back slash", "backslash");
             correctionAdd("backlash", "backslash");
@@ -4448,12 +4439,6 @@ namespace OverflowHelper.core
             correctionAdd("ale", "able");
             correctionAdd("ablr", "able");
 
-            // Of PowerShell...
-            correctionAdd("new-variable", "New-Variable");
-
-            // Of PowerShell...
-            correctionAdd("set-variable", "Set-Variable");
-
             correctionAdd("state-variable", "state variable");
 
             correctionAdd("var", "variable");
@@ -4623,9 +4608,6 @@ namespace OverflowHelper.core
 
             correctionAdd("identifyable", "identifiable");
 
-            // Of PowerShell...
-            correctionAdd("format-table", "Format-Table");
-
             correctionAdd("desireable", "desirable");
 
             correctionAdd("rechargable", "rechargeable");
@@ -4641,9 +4623,6 @@ namespace OverflowHelper.core
             correctionAdd("unsalvagable", "unsalvageable");
 
             correctionAdd("driveable", "drivable");
-
-            // Of PowerShell...
-            correctionAdd("get-variable", "Get-Variable");
 
             correctionAdd("impecable", "impeccable");
 
@@ -5972,8 +5951,6 @@ namespace OverflowHelper.core
             correctionAdd("true crypt", "TrueCrypt");
 
             correctionAdd("versions", "Versions");
-
-            correctionAdd("jaws", "JAWS");
 
             correctionAdd("symlink", "symbolic link");
             correctionAdd("symlinked", "symbolic link"); // Not 100% correct - verbified.
@@ -10096,20 +10073,21 @@ namespace OverflowHelper.core
             correctionAdd("openOCD", "OpenOCD");
             correctionAdd("openosd", "OpenOCD");
 
-            correctionAdd("couldnt", "couldn't");
-            correctionAdd("Couldnt", "couldn't"); // Not 100% correct - case.
-            correctionAdd("coudln't", "couldn't");
-            correctionAdd("coulden't", "couldn't");
-            correctionAdd("could'nt", "couldn't");
-            correctionAdd("coulnd", "couldn't");
-            correctionAdd("coulnd't", "couldn't");
-            correctionAdd("cudn't", "couldn't");
-            correctionAdd("cudnt", "couldn't");
-            correctionAdd("coudn't", "couldn't");
-            correctionAdd("cound't", "couldn't");
-            correctionAdd("could't", "couldn't");
-            correctionAdd("coudnt", "couldn't");
-            correctionAdd("couldn´t", "couldn't");
+            correctionAdd("couldnt", "couldn’t");
+            correctionAdd("Couldnt", "couldn’t"); // Not 100% correct - case.
+            correctionAdd("coudln't", "couldn’t");
+            correctionAdd("coulden't", "couldn’t");
+            correctionAdd("could'nt", "couldn’t");
+            correctionAdd("coulnd", "couldn’t");
+            correctionAdd("coulnd't", "couldn’t");
+            correctionAdd("cudn't", "couldn’t");
+            correctionAdd("cudnt", "couldn’t");
+            correctionAdd("coudn't", "couldn’t");
+            correctionAdd("cound't", "couldn’t");
+            correctionAdd("could't", "couldn’t");
+            correctionAdd("coudnt", "couldn’t");
+            correctionAdd("couldn´t", "couldn’t");
+            correctionAdd("couldn't", "couldn’t");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -10982,25 +10960,9 @@ namespace OverflowHelper.core
             correctionAdd("Furthermore", "furthermore");
             correctionAdd("Futhermore", "furthermore");
 
-            // Of PowerShell...
-            correctionAdd("get-winevent", "Get-WinEvent");
-
-            // Of PowerShell...
-            correctionAdd("get-eventlog", "Get-EventLog");
-            correctionAdd("Get-eventlog", "Get-EventLog");
-
             correctionAdd("arabic", "Arabic");
 
             correctionAdd("roman", "Roman");
-
-            // Of PowerShell...
-            correctionAdd("move-item", "Move-Item");
-
-            // Of PowerShell...
-            correctionAdd("get-location", "Get-Location");
-
-            // Of PowerShell...
-            correctionAdd("rename-item", "Rename-Item");
 
             correctionAdd("tensorflow", "TensorFlow");
             correctionAdd("Tensorflow", "TensorFlow");
@@ -11028,13 +10990,6 @@ namespace OverflowHelper.core
             correctionAdd("joint strike fighter", "F-35");
             correctionAdd("Joint Strike Fighter", "F-35");
             correctionAdd("JOINT STRIKE FIGHTER", "F-35");
-
-            // Of PowerShell...
-            correctionAdd("Set-Aliast", "Set-Alias");
-            correctionAdd("set-alias", "Set-Alias");
-
-            // Of PowerShell...
-            correctionAdd("get-alias", "Get-Alias");
 
             correctionAdd("kicad", "KiCad");
             correctionAdd("Kicad", "KiCad");
@@ -11108,9 +11063,10 @@ namespace OverflowHelper.core
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
 
-            correctionAdd("arent", "aren't");
-            correctionAdd("arn't", "aren't");
-            correctionAdd("arnt", "aren't");
+            correctionAdd("arent", "aren’t");
+            correctionAdd("arn't", "aren’t");
+            correctionAdd("arnt", "aren’t");
+            correctionAdd("aren't", "aren’t");
 
             correctionAdd("Email", "email");
             correctionAdd("meail", "email");
@@ -11363,13 +11319,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ollydbg", "OllyDbg");
 
-            // Of PowerShell...
-            correctionAdd("write-debug", "Write-Debug");
-            correctionAdd("write-Debug", "Write-Debug");
-
-            // Of PowerShell...
-            correctionAdd("set-psdebug", "Set-PSDebug");
-
             correctionAdd("Arduino MEGA", "Arduino Mega");
             correctionAdd("Arduino mega", "Arduino Mega");
             correctionAdd("arduino Mega", "Arduino Mega");
@@ -11387,7 +11336,8 @@ namespace OverflowHelper.core
             correctionAdd("Laraval", "Laravel");
             correctionAdd("larval", "Laravel");
 
-            correctionAdd("wasnt", "wasn't");
+            correctionAdd("wasnt", "wasn’t");
+            correctionAdd("wasn't", "wasn’t");
 
             correctionAdd("challange", "challenge");
             correctionAdd("chanlenge", "challenge");
@@ -11620,9 +11570,6 @@ namespace OverflowHelper.core
             correctionAdd("credentias", "credentials");
             correctionAdd("credentails", "credentials");
 
-            // Of PowerShell...
-            correctionAdd("get-credential", "Get-Credential");
-
             correctionAdd("credability", "credibility");
 
             correctionAdd("incredably", "incredibly");
@@ -11770,10 +11717,6 @@ namespace OverflowHelper.core
             correctionAdd("Git extensions", "Git Extensions");
             correctionAdd("GE", "Git Extensions");
 
-            // Of PowerShell...
-            correctionAdd("invoke-expression", "Invoke-Expression");
-            correctionAdd("Invoke-expression", "Invoke-Expression");
-
             correctionAdd("Kdiff3", "KDiff3");
             correctionAdd("kdiff3", "KDiff3");
             correctionAdd("KDiff 3", "KDiff3");
@@ -11811,9 +11754,6 @@ namespace OverflowHelper.core
             correctionAdd("Schmitt Trigger", "Schmitt trigger");
             correctionAdd("schmitd trigger", "Schmitt trigger");
             correctionAdd("schmidt trigger", "Schmitt trigger");
-
-            // Of PowerShell...
-            correctionAdd("start-job", "Start-Job");
 
             correctionAdd("swedish", "Swedish");
 
@@ -11971,10 +11911,11 @@ namespace OverflowHelper.core
             correctionAdd("strenhgt", "strength");
             correctionAdd("strengtb", "strength");
 
-            correctionAdd("theres", "there's");
-            correctionAdd("theres's", "there's");
-            correctionAdd("Theres", "there's");
-            correctionAdd("theirs", "there's");
+            correctionAdd("theres", "there’s");
+            correctionAdd("theres's", "there’s");
+            correctionAdd("Theres", "there’s");
+            correctionAdd("theirs", "there’s");
+            correctionAdd("there's", "there’s");
 
             correctionAdd("transfered", "transferred");
 
@@ -11983,9 +11924,6 @@ namespace OverflowHelper.core
             correctionAdd("well known", "well-known");
             correctionAdd("well knows", "well-known");
             correctionAdd("well know", "well-known");
-
-            // Of PowerShell...
-            correctionAdd("set-content", "Set-Content");
 
             correctionAdd("ansible", "Ansible");
 
@@ -12014,9 +11952,6 @@ namespace OverflowHelper.core
             correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
             correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
 
-            // Of PowerShell...
-            correctionAdd("export-clixml", "Export-Clixml");
-
             correctionAdd("MICROEMACS", "MicroEMACS");
             correctionAdd("uEmacs", "MicroEMACS");
             correctionAdd("microemacs", "MicroEMACS");
@@ -12030,9 +11965,6 @@ namespace OverflowHelper.core
 
             correctionAdd("oracle", "Oracle");
             correctionAdd("ORACLE", "Oracle");
-
-            // Of PowerShell...
-            correctionAdd("out-gridview", "Out-GridView");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -12164,20 +12096,7 @@ namespace OverflowHelper.core
             correctionAdd("atom", "Atom");
             correctionAdd("ATOM", "Atom");
 
-            // Of PowerShell...
-            correctionAdd("convertto-xml", "ConvertTo-Xml");
-
             correctionAdd("cyrillic", "Cyrillic");
-
-            // Of PowerShell...
-            correctionAdd("get-module", "Get-Module");
-
-            // Of PowerShell...
-            correctionAdd("import-clixml", "Import-Clixml");
-            correctionAdd("import-cliXml", "Import-Clixml");
-
-            // Of PowerShell...
-            correctionAdd("import-module", "Import-Module");
 
             correctionAdd("latin", "Latin");
 
@@ -12205,10 +12124,6 @@ namespace OverflowHelper.core
             correctionAdd("first worldwar", "World War I");
             correctionAdd("WWI", "World War I");
             correctionAdd("WW I", "World War I");
-
-            // Of PowerShell...
-            correctionAdd("write-verbose", "Write-Verbose");
-            correctionAdd("Write-verbose", "Write-Verbose");
 
             correctionAdd("complier", "compiler");
             correctionAdd("Compiler", "compiler");
@@ -12283,9 +12198,6 @@ namespace OverflowHelper.core
 
             correctionAdd("6th", "sixth");
             correctionAdd("Sixth", "sixth");
-
-            // Of PowerShell...
-            correctionAdd("add-type", "Add-Type");
 
             correctionAdd("Arduino-cli", "Arduino CLI");
 
@@ -12387,9 +12299,6 @@ namespace OverflowHelper.core
             correctionAdd("MRE", "MCVE");
             correctionAdd("mre", "MCVE");
 
-            // Of PowerShell...
-            correctionAdd("convertto-csv", "ConvertTo-Csv");
-
             correctionAdd("doppler", "Doppler effect");
             correctionAdd("doppler shift", "Doppler effect");
             correctionAdd("Doppler", "Doppler effect");
@@ -12444,9 +12353,6 @@ namespace OverflowHelper.core
             correctionAdd("unity 3d", "Unity 3D");
             correctionAdd("unity3d", "Unity 3D");
             correctionAdd("Unity3D", "Unity 3D");
-
-            // Of PowerShell...
-            correctionAdd("invoke-item", "Invoke-Item");
 
             correctionAdd("Dansk", "dansk");
 
@@ -13436,18 +13342,6 @@ namespace OverflowHelper.core
             correctionAdd("GPO", "Group Policy Object");
             correctionAdd("gpo", "Group Policy Object");
 
-            // Of PowerShell...
-            correctionAdd("psobject", "PSObject");
-            correctionAdd("PsObject", "PSObject");
-            correctionAdd("PSOject", "PSObject");
-
-            // Of PowerShell...
-            correctionAdd("compare-object", "Compare-Object");
-
-            // Of PowerShell...
-            correctionAdd("pscustomobject", "PSCustomObject");
-            correctionAdd("PsCustomObject", "PSCustomObject");
-
             correctionAdd("obejct", "object");
             correctionAdd("objet", "object");
             correctionAdd("oblect", "object");
@@ -13646,9 +13540,6 @@ namespace OverflowHelper.core
             correctionAdd("odbc", "ODBC");
 
             correctionAdd("docker-compose", "Docker Compose");
-
-            // Of PowerShell...
-            correctionAdd("get-diskimage", "Get-DiskImage");
 
             correctionAdd("konqueror", "Konqueror");
 
@@ -14777,9 +14668,6 @@ namespace OverflowHelper.core
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
 
-            // Of PowerShell...
-            correctionAdd("get-unique", "Get-Unique");
-
             correctionAdd("IPS", "Interpersonal Skills (Stack Exchange site)");
             correctionAdd("interpersonal skills", "Interpersonal Skills (Stack Exchange site)");
             correctionAdd("Interpersonal Skills", "Interpersonal Skills (Stack Exchange site)");
@@ -14925,15 +14813,6 @@ namespace OverflowHelper.core
             correctionAdd("gitweb", "GitWeb");
             correctionAdd("Gitweb", "GitWeb");
 
-            // Of PowerShell...
-            correctionAdd("set-location", "Set-Location");
-
-            // Of PowerShell...
-            correctionAdd("split-path", "Split-Path");
-
-            // Of PowerShell...
-            correctionAdd("test-path", "Test-Path");
-
             correctionAdd("winrm", "WinRM");
             correctionAdd("Windows Remote Management", "WinRM");
 
@@ -15007,9 +14886,6 @@ namespace OverflowHelper.core
 
             correctionAdd("transparancy", "transparency");
 
-            // Of PowerShell...
-            correctionAdd("new-module", "New-Module");
-
             correctionAdd("ohm's law", "Ohm's law");
             correctionAdd("Ohm law", "Ohm's law");
             correctionAdd("ohm law", "Ohm's law");
@@ -15025,9 +14901,6 @@ namespace OverflowHelper.core
             correctionAdd("PHP composer", "PHP Composer");
 
             correctionAdd("pii", "PII");
-
-            // Of PowerShell...
-            correctionAdd("send-mailmessage", "Send-MailMessage");
 
             correctionAdd("XDebug", "Xdebug");
             correctionAdd("xdebug", "Xdebug");
@@ -15293,9 +15166,6 @@ namespace OverflowHelper.core
             correctionAdd("starbucks", "Starbucks");
 
             correctionAdd("vco", "VCO");
-
-            // Of PowerShell...
-            correctionAdd("write-progress", "Write-Progress");
 
             correctionAdd("yolo", "YOLO");
 
@@ -15702,12 +15572,6 @@ namespace OverflowHelper.core
 
             correctionAdd("avarage", "average");
             correctionAdd("avg", "average");
-
-            // Of PowerShell...
-            correctionAdd("find-package", "Find-Package");
-
-            // Of PowerShell...
-            correctionAdd("install-package", "Install-Package");
 
             correctionAdd("pacakge", "package");
             correctionAdd("Pacakge", "package");
@@ -19281,10 +19145,11 @@ namespace OverflowHelper.core
             correctionAdd("Apache commons", "Apache Commons");
             correctionAdd("apache commons", "Apache Commons");
 
-            correctionAdd("creative commons", "Creative Commons");
-            correctionAdd("Creative Common", "Creative Commons");
-            correctionAdd("CreativeCommons", "Creative Commons");
-            correctionAdd("cc", "Creative Commons");
+            correctionAdd("creative commons", "Creative Commons licence");
+            correctionAdd("Creative Common", "Creative Commons licence");
+            correctionAdd("CreativeCommons", "Creative Commons licence");
+            correctionAdd("cc", "Creative Commons licence");
+            correctionAdd("Creative Commons", "Creative Commons licence");
 
             correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
             correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
@@ -20900,8 +20765,6 @@ namespace OverflowHelper.core
 
             correctionAdd("remebered", "remembered");
 
-            correctionAdd("uv", "ultraviolet");
-
             correctionAdd("gaussian", "Gaussian");
 
             correctionAdd("laplacian", "Laplacian");
@@ -20939,12 +20802,6 @@ namespace OverflowHelper.core
             correctionAdd("copyied", "copied");
 
             correctionAdd("procederal", "procedural");
-
-            // Of PowerShell...
-            correctionAdd("test-connection", "Test-Connection");
-
-            // Of PowerShell...
-            correctionAdd("test-netconnection", "Test-NetConnection");
 
             correctionAdd("remote desktop", "Remote Desktop Connection");
             correctionAdd("Remote Desktop", "Remote Desktop Connection");
@@ -21360,15 +21217,6 @@ namespace OverflowHelper.core
 
             correctionAdd("usefullness", "usefulness");
 
-            // Of PowerShell...
-            correctionAdd("get-process", "Get-Process");
-            correctionAdd("Get-process", "Get-Process");
-            correctionAdd("getprocess", "Get-Process");
-            correctionAdd("GetProcess", "Get-Process");
-
-            // Of PowerShell...
-            correctionAdd("start-process", "Start-Process");
-
             correctionAdd("sub-process", "subprocess");
 
             correctionAdd("RUP", "Rational Unified Process");
@@ -21409,9 +21257,6 @@ namespace OverflowHelper.core
 
             correctionAdd("CSP", "Content Security Policy");
             correctionAdd("content security policy", "Content Security Policy");
-
-            // Of PowerShell...
-            correctionAdd("format-hex", "Format-Hex");
 
             correctionAdd("pari", "PARI/GP");
             correctionAdd("PARI", "PARI/GP");
@@ -21484,8 +21329,9 @@ namespace OverflowHelper.core
             correctionAdd("relevenat", "relevant");
             correctionAdd("Relevenat", "relevant");
 
-            correctionAdd("code review", "Code Review");
-            correctionAdd("CodeReview", "Code Review");
+            correctionAdd("code review", "Code Review (Stack Exchange site)");
+            correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
+            correctionAdd("codereview", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
 
@@ -21863,190 +21709,11 @@ namespace OverflowHelper.core
             correctionAdd("recreate the wheel", "reinvent the wheel");
             correctionAdd("re-invent the wheel", "reinvent the wheel");
 
-            // Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
-            //
-            //  PowerShell 2.0:  http://technet.microsoft.com/en-us/library/dd347685.aspx
-            //
-            //  PowerShell 4.0:  http://technet.microsoft.com/en-us/library/hh849945.aspx
-            //
-            //
-            // Of PowerShell...
-            correctionAdd("read-host", "Read-Host");
-
-            // Of PowerShell...
-            correctionAdd("get-childitem", "Get-ChildItem");
-            correctionAdd("gci", "Get-ChildItem");
-            correctionAdd("Get-childitem", "Get-ChildItem");
-            correctionAdd("Get-Childitem", "Get-ChildItem");
-            correctionAdd("get-childItem", "Get-ChildItem");
-            correctionAdd("Get-Children", "Get-ChildItem"); // Actually, there is no such thing as Get-Children in PowerShell.
-            correctionAdd("gcm", "Get-ChildItem");
-
-            // Of PowerShell...
-            correctionAdd("measure-object", "Measure-Object");
-
-            // Of PowerShell...
-            correctionAdd("select-object", "Select-Object");
-            correctionAdd("select", "Select-Object");
-            correctionAdd("Select", "Select-Object");
-
-            // Of PowerShell...
-            correctionAdd("get-member", "Get-Member");
-            correctionAdd("gm", "Get-Member"); // The alias
-
-            // Of PowerShell...
-            correctionAdd("get-adgroupmember", "Get-ADGroupMember");
-
             correctionAdd("Where ever", "wherever");
             correctionAdd("where ever", "wherever");
             correctionAdd("whereever", "wherever");
 
             correctionAdd("where in", "wherein");
-
-            // Of PowerShell...
-            correctionAdd("where-object", "Where-Object");
-            correctionAdd("Where-object", "Where-Object");
-
-            // Of PowerShell...
-            correctionAdd("group-object", "Group-Object");
-
-            // Of PowerShell...
-            correctionAdd("sort-object", "Sort-Object");
-            correctionAdd("sort", "Sort-Object"); // An alias.
-
-            // Of PowerShell...
-            correctionAdd("add-member", "Add-Member");
-            correctionAdd("Add-member", "Add-Member");
-
-            // Of PowerShell...
-            correctionAdd("new-object", "New-Object");
-
-            // Of PowerShell...
-            correctionAdd("get-content", "Get-Content");
-            correctionAdd("GET-CONTENT", "Get-Content");
-
-            // Of PowerShell...
-            correctionAdd("get-help", "Get-Help");
-
-            // Of PowerShell...
-            correctionAdd("remove-item", "Remove-Item");
-            correctionAdd("rd", "Remove-Item");
-
-            // Of PowerShell...
-            correctionAdd("add-content", "Add-Content");
-
-            // Of PowerShell...
-            correctionAdd("get-date", "Get-Date");
-            correctionAdd("get-Date", "Get-Date");
-            correctionAdd("Get-date", "Get-Date");
-
-            // Of PowerShell...
-            correctionAdd("Write-Object", "Write-Output");
-            correctionAdd("write-output", "Write-Output");
-            correctionAdd("write-Output", "Write-Output");
-            correctionAdd("Write", "Write-Output");
-            correctionAdd("Write-output", "Write-Output");
-            correctionAdd("write-ouptut", "Write-Output");
-
-            // Of PowerShell...
-            correctionAdd("write-host", "Write-Host");
-            correctionAdd("Write-host", "Write-Host");
-            correctionAdd("write-Host", "Write-Host");
-
-            // Of PowerShell...
-            correctionAdd("format-list", "Format-List");
-
-            // Of PowerShell...
-            correctionAdd("out-file", "Out-File");
-
-            // Of PowerShell...
-            correctionAdd("get-host", "Get-Host");
-
-            // Of PowerShell...
-            correctionAdd("tee-object", "Tee-Object");
-            correctionAdd("tee", "Tee-Object");
-            correctionAdd("Tee-object", "Tee-Object");
-            correctionAdd("Tea", "Tee-Object");
-
-            // Of PowerShell...
-            correctionAdd("set-executionPolicy", "Set-ExecutionPolicy");
-            correctionAdd("set-executionpolicy", "Set-ExecutionPolicy");
-
-            // Of PowerShell...
-            correctionAdd("get-wmiobject", "Get-WmiObject");
-            correctionAdd("get-WmiObject", "Get-WmiObject");
-            correctionAdd("Get-WMIObject", "Get-WmiObject");
-            correctionAdd("gwmi", "Get-WmiObject"); // An alias.
-
-            // Of PowerShell...
-            correctionAdd("export-csv", "Export-Csv");
-            correctionAdd("export-CSV", "Export-Csv");
-            correctionAdd("Export-CSV", "Export-Csv");
-
-            // Of PowerShell...
-            correctionAdd("copy-item", "Copy-Item");
-
-            // Of PowerShell...
-            correctionAdd("set-item", "Set-Item");
-
-            // Of PowerShell...
-            correctionAdd("get-item", "Get-Item");
-
-            // Of PowerShell...
-            correctionAdd("ConvertFrom-CSV", "ConvertFrom-Csv");
-            correctionAdd("convertfrom-csv", "ConvertFrom-Csv");
-
-            // Of PowerShell...
-            correctionAdd("resolve-path", "Resolve-Path");
-
-            // Of PowerShell...
-            correctionAdd("import-csv", "Import-Csv");
-            correctionAdd("Import-CSV", "Import-Csv");
-            correctionAdd("Import-csv", "Import-Csv");
-
-            // Of PowerShell...
-            correctionAdd("foreach-object", "ForEach-Object");
-            correctionAdd("ForEach", "ForEach-Object");
-            correctionAdd("Foreach", "ForEach-Object");
-            correctionAdd("foreach", "ForEach-Object");
-            correctionAdd("%", "ForEach-Object");
-            correctionAdd("Foreach-Object", "ForEach-Object");
-
-            // Of PowerShell...
-            correctionAdd("get-aduser", "Get-ADUser");
-
-            // Of PowerShell...
-            correctionAdd("set-strictmode", "Set-StrictMode");
-
-            // Of PowerShell... What about "clear"?
-            correctionAdd("clear-host", "Clear-Host");
-            correctionAdd("cls", "Clear-Host");
-            correctionAdd("CLS", "Clear-Host");
-
-            // Of PowerShell...
-            correctionAdd("exit", "Exit");
-
-            // Of PowerShell...
-            correctionAdd("join-path", "Join-Path");
-
-            // Of PowerShell...
-            correctionAdd("new-item", "New-Item");
-            correctionAdd("ni", "New-Item");
-
-            // Of PowerShell...
-            correctionAdd("out-null", "Out-Null");
-
-            // Of PowerShell...
-            correctionAdd("Invoke-Web-Request", "Invoke-WebRequest");
-
-            // Of PowerShell...
-            correctionAdd("get-itemproperty", "Get-ItemProperty");
-
-            // Of PowerShell...
-            correctionAdd("select-string", "Select-String");
-
-            // Of PowerShell...
-            correctionAdd("out-string", "Out-String");
 
             correctionAdd("sting", "string");
             correctionAdd("str", "string");
@@ -22531,16 +22198,6 @@ namespace OverflowHelper.core
             correctionAdd("right hand", "right-hand");
 
             correctionAdd("Osmand", "OsmAnd");
-
-            // Of PowerShell...
-            correctionAdd("Measure-command", "Measure-Command");
-            correctionAdd("measure-command", "Measure-Command");
-
-            // Of PowerShell...
-            correctionAdd("get-command", "Get-Command");
-
-            // Of PowerShell...
-            correctionAdd("invoke-command", "Invoke-Command");
 
             correctionAdd("air new zealand", "Air New Zealand");
 
@@ -23233,8 +22890,6 @@ namespace OverflowHelper.core
             correctionAdd("avalon", "Avalon");
 
             correctionAdd("avalonia", "Avalonia");
-
-            correctionAdd("codereview", "Code Review (Stack Exchange site)");
 
             correctionAdd("JEST", "Jest");
             correctionAdd("jest", "Jest");
@@ -24325,12 +23980,6 @@ namespace OverflowHelper.core
 
             correctionAdd("HISTORY", "history");
             correctionAdd("hirtory", "history");
-
-            // Of PowerShell...
-            correctionAdd("clear-history", "Clear-History");
-
-            // Of PowerShell...
-            correctionAdd("Get-history", "Get-History");
 
             correctionAdd("stroy", "story");
             correctionAdd("stort", "story");
@@ -26994,9 +26643,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deliverys", "deliveries");
 
-            // Of PowerShell...
-            correctionAdd("write-error", "Write-Error");
-
             correctionAdd("StdErr", "standard error");
             correctionAdd("stderr", "standard error");
             correctionAdd("STDERR", "standard error");
@@ -27949,9 +27595,6 @@ namespace OverflowHelper.core
             correctionAdd("night vision goggle", "NVG");
             correctionAdd("nvgs", "NVG");
             correctionAdd("nvg", "NVG");
-
-            // Of PowerShell...
-            correctionAdd("stop-process", "Stop-Process");
 
             correctionAdd("back emf", "back-EMF");
             correctionAdd("back-emf", "back-EMF");
@@ -29075,8 +28718,6 @@ namespace OverflowHelper.core
 
             correctionAdd("TIL", "threaded-interpreted language");
 
-            correctionAdd("Chicago manual of style", "The Chicago Manual of Style");
-
             correctionAdd("PFC", "power-factor correction");
             correctionAdd("power factor correction", "power-factor correction");
             correctionAdd("pfc", "power-factor correction");
@@ -29610,18 +29251,11 @@ namespace OverflowHelper.core
 
             correctionAdd("excite", "Excite");
 
-            // Of PowerShell...
-            correctionAdd("Export-Module", "Export-ModuleMember");
-            correctionAdd("export-module", "Export-ModuleMember");
-
             correctionAdd("ielts", "IELTS");
 
             correctionAdd("mba", "MBA");
 
             correctionAdd("netsh", "NETSH");
-
-            // Of PowerShell...
-            correctionAdd("remove-module", "Remove-Module");
 
             correctionAdd("saxon", "Saxon");
 
@@ -29729,8 +29363,8 @@ namespace OverflowHelper.core
             correctionAdd("googlesheet", "Google Sheets");
             correctionAdd("googlesheets", "Google Sheets");
 
-            correctionAdd("Pd", "Palladium");
-            correctionAdd("palladium", "Palladium");
+            correctionAdd("Pd", "palladium");
+            correctionAdd("Palladium", "palladium");
 
             correctionAdd("Above", "above");
 
@@ -30857,10 +30491,6 @@ namespace OverflowHelper.core
 
             correctionAdd("salaray", "salary");
 
-            // Of PowerShell...
-            correctionAdd("Content-type", "Content-Type");
-            correctionAdd("content-type", "Content-Type");
-
             correctionAdd("mime type", "MIME type");
             correctionAdd("Mime-Type", "MIME type");
             correctionAdd("Mime Type", "MIME type");
@@ -30987,8 +30617,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lindlar catalyst", "Lindlar catalyst");
             correctionAdd("Lindlar's catalyst", "Lindlar catalyst");
-
-            correctionAdd("Scholastic Assessment Test", "SAT");
 
             correctionAdd("bike-shedding", "bikeshedding");
             correctionAdd("bike shedding", "bikeshedding");
@@ -31288,9 +30916,6 @@ namespace OverflowHelper.core
 
             correctionAdd("BlackBerryOS", "BlackBerry OS");
 
-            // Of PowerShell...
-            correctionAdd("connect-AzureAD", "Connect-AzureAD");
-
             correctionAdd("pyshark", "PyShark");
 
             correctionAdd("ation", "action");
@@ -31391,14 +31016,6 @@ namespace OverflowHelper.core
             correctionAdd("jerry-rigged", "jury-rigged");
 
             correctionAdd("sanitizaiton", "sanitization");
-
-            // Of PowerShell...
-            correctionAdd("get-service", "Get-Service");
-            correctionAdd("Get-service", "Get-Service");
-            correctionAdd("get-Service", "Get-Service");
-
-            // Of PowerShell...
-            correctionAdd("set-service", "Set-Service");
 
             correctionAdd("ToS", "terms of service");
             correctionAdd("Terms of Service", "terms of service");
@@ -34388,6 +34005,385 @@ namespace OverflowHelper.core
 
             correctionAdd("NGN", "naira");
 
+            // Of PowerShell...
+            correctionAdd("start-transcript", "Start-Transcript");
+
+            // Of PowerShell...
+            correctionAdd("stop-transcript", "Stop-Transcript");
+
+            // Of PowerShell...
+            correctionAdd("get-filehash", "Get-FileHash");
+
+            // Of PowerShell...
+            correctionAdd("new-variable", "New-Variable");
+
+            // Of PowerShell...
+            correctionAdd("set-variable", "Set-Variable");
+
+            // Of PowerShell...
+            correctionAdd("format-table", "Format-Table");
+
+            // Of PowerShell...
+            correctionAdd("get-variable", "Get-Variable");
+
+            // Of PowerShell...
+            correctionAdd("get-winevent", "Get-WinEvent");
+
+            // Of PowerShell...
+            correctionAdd("get-eventlog", "Get-EventLog");
+            correctionAdd("Get-eventlog", "Get-EventLog");
+
+            // Of PowerShell...
+            correctionAdd("move-item", "Move-Item");
+
+            // Of PowerShell...
+            correctionAdd("get-location", "Get-Location");
+
+            // Of PowerShell...
+            correctionAdd("rename-item", "Rename-Item");
+
+            // Of PowerShell...
+            correctionAdd("Set-Aliast", "Set-Alias");
+            correctionAdd("set-alias", "Set-Alias");
+
+            // Of PowerShell...
+            correctionAdd("get-alias", "Get-Alias");
+
+            // Of PowerShell...
+            correctionAdd("write-debug", "Write-Debug");
+            correctionAdd("write-Debug", "Write-Debug");
+
+            // Of PowerShell...
+            correctionAdd("set-psdebug", "Set-PSDebug");
+
+            // Of PowerShell...
+            correctionAdd("get-credential", "Get-Credential");
+
+            // Of PowerShell...
+            correctionAdd("invoke-expression", "Invoke-Expression");
+            correctionAdd("Invoke-expression", "Invoke-Expression");
+
+            // Of PowerShell...
+            correctionAdd("start-job", "Start-Job");
+
+            // Of PowerShell...
+            correctionAdd("set-content", "Set-Content");
+
+            // Of PowerShell...
+            correctionAdd("export-clixml", "Export-Clixml");
+
+            // Of PowerShell...
+            correctionAdd("out-gridview", "Out-GridView");
+
+            // Of PowerShell...
+            correctionAdd("convertto-xml", "ConvertTo-Xml");
+
+            // Of PowerShell...
+            correctionAdd("get-module", "Get-Module");
+
+            // Of PowerShell...
+            correctionAdd("import-clixml", "Import-Clixml");
+            correctionAdd("import-cliXml", "Import-Clixml");
+
+            // Of PowerShell...
+            correctionAdd("import-module", "Import-Module");
+
+            // Of PowerShell...
+            correctionAdd("write-verbose", "Write-Verbose");
+            correctionAdd("Write-verbose", "Write-Verbose");
+
+            // Of PowerShell...
+            correctionAdd("add-type", "Add-Type");
+
+            // Of PowerShell...
+            correctionAdd("convertto-csv", "ConvertTo-Csv");
+
+            // Of PowerShell...
+            correctionAdd("invoke-item", "Invoke-Item");
+
+            // Of PowerShell...
+            correctionAdd("psobject", "PSObject");
+            correctionAdd("PsObject", "PSObject");
+            correctionAdd("PSOject", "PSObject");
+
+            // Of PowerShell...
+            correctionAdd("compare-object", "Compare-Object");
+
+            // Of PowerShell...
+            correctionAdd("pscustomobject", "PSCustomObject");
+            correctionAdd("PsCustomObject", "PSCustomObject");
+
+            // Of PowerShell...
+            correctionAdd("get-diskimage", "Get-DiskImage");
+
+            // Of PowerShell...
+            correctionAdd("get-unique", "Get-Unique");
+
+            // Of PowerShell...
+            correctionAdd("set-location", "Set-Location");
+
+            // Of PowerShell...
+            correctionAdd("split-path", "Split-Path");
+
+            // Of PowerShell...
+            correctionAdd("test-path", "Test-Path");
+
+            // Of PowerShell...
+            correctionAdd("new-module", "New-Module");
+
+            // Of PowerShell...
+            correctionAdd("send-mailmessage", "Send-MailMessage");
+
+            // Of PowerShell...
+            correctionAdd("write-progress", "Write-Progress");
+
+            // Of PowerShell...
+            correctionAdd("find-package", "Find-Package");
+
+            // Of PowerShell...
+            correctionAdd("install-package", "Install-Package");
+
+            // Of PowerShell...
+            correctionAdd("test-connection", "Test-Connection");
+
+            // Of PowerShell...
+            correctionAdd("test-netconnection", "Test-NetConnection");
+
+            // Of PowerShell...
+            correctionAdd("get-process", "Get-Process");
+            correctionAdd("Get-process", "Get-Process");
+            correctionAdd("getprocess", "Get-Process");
+            correctionAdd("GetProcess", "Get-Process");
+
+            // Of PowerShell...
+            correctionAdd("start-process", "Start-Process");
+
+            // Of PowerShell...
+            correctionAdd("format-hex", "Format-Hex");
+
+           // Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
+            //
+            //  PowerShell 2.0:  http://technet.microsoft.com/en-us/library/dd347685.aspx
+            //
+            //  PowerShell 4.0:  http://technet.microsoft.com/en-us/library/hh849945.aspx
+            //
+            //
+            // Of PowerShell...
+            correctionAdd("read-host", "Read-Host");
+
+            // Of PowerShell...
+            correctionAdd("get-childitem", "Get-ChildItem");
+            correctionAdd("gci", "Get-ChildItem");
+            correctionAdd("Get-childitem", "Get-ChildItem");
+            correctionAdd("Get-Childitem", "Get-ChildItem");
+            correctionAdd("get-childItem", "Get-ChildItem");
+            correctionAdd("Get-Children", "Get-ChildItem"); // Actually, there is no such thing as Get-Children in PowerShell.
+            correctionAdd("gcm", "Get-ChildItem");
+
+            // Of PowerShell...
+            correctionAdd("measure-object", "Measure-Object");
+
+            // Of PowerShell...
+            correctionAdd("select-object", "Select-Object");
+            correctionAdd("select", "Select-Object");
+            correctionAdd("Select", "Select-Object");
+
+            // Of PowerShell...
+            correctionAdd("get-member", "Get-Member");
+            correctionAdd("gm", "Get-Member"); // The alias
+
+            // Of PowerShell...
+            correctionAdd("get-adgroupmember", "Get-ADGroupMember");
+
+             // Of PowerShell...
+            correctionAdd("where-object", "Where-Object");
+            correctionAdd("Where-object", "Where-Object");
+
+            // Of PowerShell...
+            correctionAdd("group-object", "Group-Object");
+
+            // Of PowerShell...
+            correctionAdd("sort-object", "Sort-Object");
+            correctionAdd("sort", "Sort-Object"); // An alias.
+
+            // Of PowerShell...
+            correctionAdd("add-member", "Add-Member");
+            correctionAdd("Add-member", "Add-Member");
+
+            // Of PowerShell...
+            correctionAdd("new-object", "New-Object");
+
+            // Of PowerShell...
+            correctionAdd("get-content", "Get-Content");
+            correctionAdd("GET-CONTENT", "Get-Content");
+
+            // Of PowerShell...
+            correctionAdd("get-help", "Get-Help");
+
+            // Of PowerShell...
+            correctionAdd("remove-item", "Remove-Item");
+            correctionAdd("rd", "Remove-Item");
+
+            // Of PowerShell...
+            correctionAdd("add-content", "Add-Content");
+
+            // Of PowerShell...
+            correctionAdd("get-date", "Get-Date");
+            correctionAdd("get-Date", "Get-Date");
+            correctionAdd("Get-date", "Get-Date");
+
+            // Of PowerShell...
+            correctionAdd("Write-Object", "Write-Output");
+            correctionAdd("write-output", "Write-Output");
+            correctionAdd("write-Output", "Write-Output");
+            correctionAdd("Write", "Write-Output");
+            correctionAdd("Write-output", "Write-Output");
+            correctionAdd("write-ouptut", "Write-Output");
+
+            // Of PowerShell...
+            correctionAdd("write-host", "Write-Host");
+            correctionAdd("Write-host", "Write-Host");
+            correctionAdd("write-Host", "Write-Host");
+
+            // Of PowerShell...
+            correctionAdd("format-list", "Format-List");
+
+            // Of PowerShell...
+            correctionAdd("out-file", "Out-File");
+
+            // Of PowerShell...
+            correctionAdd("get-host", "Get-Host");
+
+            // Of PowerShell...
+            correctionAdd("tee-object", "Tee-Object");
+            correctionAdd("tee", "Tee-Object");
+            correctionAdd("Tee-object", "Tee-Object");
+            correctionAdd("Tea", "Tee-Object");
+
+            // Of PowerShell...
+            correctionAdd("set-executionPolicy", "Set-ExecutionPolicy");
+            correctionAdd("set-executionpolicy", "Set-ExecutionPolicy");
+
+            // Of PowerShell...
+            correctionAdd("get-wmiobject", "Get-WmiObject");
+            correctionAdd("get-WmiObject", "Get-WmiObject");
+            correctionAdd("Get-WMIObject", "Get-WmiObject");
+            correctionAdd("gwmi", "Get-WmiObject"); // An alias.
+
+            // Of PowerShell...
+            correctionAdd("export-csv", "Export-Csv");
+            correctionAdd("export-CSV", "Export-Csv");
+            correctionAdd("Export-CSV", "Export-Csv");
+
+            // Of PowerShell...
+            correctionAdd("copy-item", "Copy-Item");
+
+            // Of PowerShell...
+            correctionAdd("set-item", "Set-Item");
+
+            // Of PowerShell...
+            correctionAdd("get-item", "Get-Item");
+
+            // Of PowerShell...
+            correctionAdd("ConvertFrom-CSV", "ConvertFrom-Csv");
+            correctionAdd("convertfrom-csv", "ConvertFrom-Csv");
+
+            // Of PowerShell...
+            correctionAdd("resolve-path", "Resolve-Path");
+
+            // Of PowerShell...
+            correctionAdd("import-csv", "Import-Csv");
+            correctionAdd("Import-CSV", "Import-Csv");
+            correctionAdd("Import-csv", "Import-Csv");
+
+            // Of PowerShell...
+            correctionAdd("foreach-object", "ForEach-Object");
+            correctionAdd("ForEach", "ForEach-Object");
+            correctionAdd("Foreach", "ForEach-Object");
+            correctionAdd("foreach", "ForEach-Object");
+            correctionAdd("%", "ForEach-Object");
+            correctionAdd("Foreach-Object", "ForEach-Object");
+
+            // Of PowerShell...
+            correctionAdd("get-aduser", "Get-ADUser");
+
+            // Of PowerShell...
+            correctionAdd("set-strictmode", "Set-StrictMode");
+
+            // Of PowerShell... What about "clear"?
+            correctionAdd("clear-host", "Clear-Host");
+            correctionAdd("cls", "Clear-Host");
+            correctionAdd("CLS", "Clear-Host");
+
+            // Of PowerShell...
+            correctionAdd("exit", "Exit");
+
+            // Of PowerShell...
+            correctionAdd("join-path", "Join-Path");
+
+            // Of PowerShell...
+            correctionAdd("new-item", "New-Item");
+            correctionAdd("ni", "New-Item");
+
+            // Of PowerShell...
+            correctionAdd("out-null", "Out-Null");
+
+            // Of PowerShell...
+            correctionAdd("Invoke-Web-Request", "Invoke-WebRequest");
+
+            // Of PowerShell...
+            correctionAdd("get-itemproperty", "Get-ItemProperty");
+
+            // Of PowerShell...
+            correctionAdd("select-string", "Select-String");
+
+            // Of PowerShell...
+            correctionAdd("out-string", "Out-String");
+
+            // Of PowerShell...
+            correctionAdd("Measure-command", "Measure-Command");
+            correctionAdd("measure-command", "Measure-Command");
+
+            // Of PowerShell...
+            correctionAdd("get-command", "Get-Command");
+
+            // Of PowerShell...
+            correctionAdd("invoke-command", "Invoke-Command");
+
+            // Of PowerShell...
+            correctionAdd("clear-history", "Clear-History");
+
+            // Of PowerShell...
+            correctionAdd("Get-history", "Get-History");
+
+            // Of PowerShell...
+            correctionAdd("write-error", "Write-Error");
+
+            // Of PowerShell...
+            correctionAdd("stop-process", "Stop-Process");
+
+            // Of PowerShell...
+            correctionAdd("Export-Module", "Export-ModuleMember");
+            correctionAdd("export-module", "Export-ModuleMember");
+
+            // Of PowerShell...
+            correctionAdd("remove-module", "Remove-Module");
+
+            // Of PowerShell...
+            correctionAdd("Content-type", "Content-Type");
+            correctionAdd("content-type", "Content-Type");
+
+            // Of PowerShell...
+            correctionAdd("connect-AzureAD", "Connect-AzureAD");
+
+            // Of PowerShell...
+            correctionAdd("get-service", "Get-Service");
+            correctionAdd("Get-service", "Get-Service");
+            correctionAdd("get-Service", "Get-Service");
+
+            // Of PowerShell...
+            correctionAdd("set-service", "Set-Service");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -35139,7 +35135,7 @@ namespace OverflowHelper.core
 
             URL_Add("IronPython", "https://en.wikipedia.org/wiki/IronPython");
 
-            URL_Add("Groovy", "https://en.wikipedia.org/wiki/Groovy_%28programming_language%29");
+            URL_Add("Groovy", "https://en.wikipedia.org/wiki/Apache_Groovy"); // Old: https://en.wikipedia.org/wiki/Groovy_%28programming_language%29
 
             URL_Add("NetBeans", "https://en.wikipedia.org/wiki/NetBeans");
 
@@ -36416,8 +36412,6 @@ namespace OverflowHelper.core
 
             URL_Add("Versions", "http://www.versionsapp.com/");
 
-            URL_Add("JAWS", "https://en.wikipedia.org/wiki/JAWS_%28screen_reader%29");
-
             URL_Add("URL rewriting", "https://en.wikipedia.org/wiki/Rewrite_engine");
 
             URL_Add("symbolic link", "https://en.wikipedia.org/wiki/Symbolic_link");
@@ -36428,7 +36422,7 @@ namespace OverflowHelper.core
 
             URL_Add("Raspberry Pi", "https://en.wikipedia.org/wiki/Raspberry_Pi");
 
-            URL_Add("environment", "https://en.wikipedia.org/wiki/Environment_variable");
+            URL_Add("environment", "https://en.wiktionary.org/wiki/environment#Noun"); // Old: https://en.wikipedia.org/wiki/Environment_variable
 
             URL_Add("LAN", "https://en.wikipedia.org/wiki/Local_area_network");
 
@@ -37932,7 +37926,7 @@ namespace OverflowHelper.core
 
             URL_Add("KiCad", "https://en.wikipedia.org/wiki/KiCad");
 
-            URL_Add("couldn't", "https://en.wiktionary.org/wiki/couldn't#Contraction");
+            URL_Add("couldn’t", "https://en.wiktionary.org/wiki/couldn't#Contraction");
 
             URL_Add("nowhere", "https://en.wiktionary.org/wiki/nowhere#Adverb");
 
@@ -38298,7 +38292,7 @@ namespace OverflowHelper.core
 
             URL_Add("Kotlin", "https://en.wikipedia.org/wiki/Kotlin_(programming_language)");
 
-            URL_Add("aren't", "https://en.wiktionary.org/wiki/aren%27t#Contraction");
+            URL_Add("aren’t", "https://en.wiktionary.org/wiki/aren%27t#Contraction");
 
             URL_Add("email", "https://en.wiktionary.org/wiki/email#Noun");
 
@@ -38430,7 +38424,7 @@ namespace OverflowHelper.core
 
             URL_Add("Laravel", "https://en.wikipedia.org/wiki/Laravel");
 
-            URL_Add("wasn't", "https://en.wiktionary.org/wiki/wasn%27t#Verb");
+            URL_Add("wasn’t", "https://en.wiktionary.org/wiki/wasn%27t#Verb");
 
             URL_Add("TortoiseHg", "https://en.wikipedia.org/wiki/TortoiseHg");
 
@@ -38668,7 +38662,7 @@ namespace OverflowHelper.core
 
             URL_Add("successfully", "https://en.wiktionary.org/wiki/successfully#Adverb");
 
-            URL_Add("there's", "https://en.wiktionary.org/wiki/there%27s#Contraction");
+            URL_Add("there’s", "https://en.wiktionary.org/wiki/there%27s#Contraction");
 
             URL_Add("transferred", "https://en.wiktionary.org/wiki/transfered#Verb");
 
@@ -39607,7 +39601,7 @@ namespace OverflowHelper.core
 
             URL_Add("PHP&nbsp;7", "https://en.wikipedia.org/wiki/PHP#PHP_7");
 
-            URL_Add("Power BI", "https://en.wikipedia.org/wiki/Power_BI");
+            URL_Add("Power BI", "https://en.wikipedia.org/wiki/Microsoft_Power_BI"); // Old: https://en.wikipedia.org/wiki/Power_BI
 
             URL_Add("Stack Exchange Data Explorer", "https://meta.stackexchange.com/tags/data-explorer/info");
 
@@ -39909,7 +39903,7 @@ namespace OverflowHelper.core
 
             URL_Add("Amazon CloudFront", "https://en.wikipedia.org/wiki/Amazon_CloudFront");
 
-            URL_Add("Creative Commons", "https://en.wikipedia.org/wiki/Creative_Commons");
+            URL_Add("Creative Commons licence", "https://en.wikipedia.org/wiki/Creative_Commons_license"); // Old: https://en.wikipedia.org/wiki/Creative_Commons
 
             URL_Add("Flutter", "https://en.wikipedia.org/wiki/Flutter_(software)");
 
@@ -43685,7 +43679,7 @@ namespace OverflowHelper.core
 
             URL_Add("coworker", "https://en.wiktionary.org/wiki/coworker#Noun");
 
-            URL_Add("venv", "https://docs.python.org/3.8/library/venv.html");
+            URL_Add("venv", "https://docs.python.org/3/library/venv.html"); // Old: https://docs.python.org/3.8/library/venv.html
 
             URL_Add("FRB", "https://en.wikipedia.org/wiki/Fast_radio_burst");
 
@@ -44143,8 +44137,6 @@ namespace OverflowHelper.core
 
             URL_Add("remembered", "https://en.wiktionary.org/wiki/remember#Verb");
 
-            URL_Add("ultraviolet", "https://en.wikipedia.org/wiki/Ultraviolet");
-
             URL_Add("zwischenzug", "https://en.wikipedia.org/wiki/Zwischenzug");
 
             URL_Add("Gaussian", "https://en.wiktionary.org/wiki/Gaussian#Adjective");
@@ -44551,7 +44543,7 @@ namespace OverflowHelper.core
 
             URL_Add("Borland", "https://en.wikipedia.org/wiki/Borland");
 
-            URL_Add("Code Review", "https://codereview.stackexchange.com/tour");
+            URL_Add("Code Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
 
             URL_Add("Database Administrators (Stack Exchange site)", "https://dba.stackexchange.com/tour");
 
@@ -45456,8 +45448,6 @@ namespace OverflowHelper.core
             URL_Add("Avalon", "https://en.wikipedia.org/wiki/Avalon_(disambiguation)#Technology");
 
             URL_Add("Avalonia", "http://avaloniaui.net/");
-
-            URL_Add("Code Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
 
             URL_Add("Jest", "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)");
 
@@ -49877,8 +49867,6 @@ namespace OverflowHelper.core
 
             URL_Add("threaded-interpreted language", "http://wiki.c2.com/?ThreadedInterpretiveLanguage");
 
-            URL_Add("The Chicago Manual of Style", "https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style");
-
             URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
 
             URL_Add("ability", "https://en.wiktionary.org/wiki/ability#Noun");
@@ -50419,7 +50407,7 @@ namespace OverflowHelper.core
 
             URL_Add("Google Sheets", "https://en.wikipedia.org/wiki/Google_Sheets");
 
-            URL_Add("Palladium", "https://en.wikipedia.org/wiki/Palladium");
+            URL_Add("palladium", "https://en.wikipedia.org/wiki/Palladium");
 
             URL_Add("above", "https://en.wiktionary.org/wiki/above#Adverb");
 
@@ -51388,8 +51376,6 @@ namespace OverflowHelper.core
             URL_Add("Flymake", "http://www.gnu.org/software/emacs/manual/html_mono/flymake.html");
 
             URL_Add("Lindlar catalyst", "https://en.wikipedia.org/wiki/Lindlar_catalyst");
-
-            URL_Add("SAT", "https://en.wikipedia.org/wiki/SAT");
 
             URL_Add("bikeshedding", "https://en.wikipedia.org/wiki/Law_of_triviality");
 
@@ -53571,7 +53557,7 @@ namespace OverflowHelper.core
 
             URL_Add("Git filter-repo", "https://github.com/newren/git-filter-repo/");
 
-            URL_Add("World Chess Championship 2021", "https://en.wikipedia.org/wiki/World_Chess_Championship_2021");
+            URL_Add("World Chess Championship 2021", "https://en.wikipedia.org/wiki/World_Chess_Championship_2021#Schedule_and_results"); // Old: https://en.wikipedia.org/wiki/World_Chess_Championship_2021
 
             URL_Add("appease", "https://en.wiktionary.org/wiki/appease#Verb");
 
@@ -54316,6 +54302,14 @@ namespace OverflowHelper.core
 
             correctionAdd("surefire_", "Surefire_");
 
+            correctionAdd("Chicago manual of style_", "The Chicago Manual of Style_");
+
+            correctionAdd("uv_", "ultraviolet_");
+
+            correctionAdd("jaws_", "JAWS_");
+
+            correctionAdd("Scholastic Assessment Test_", "SAT_");
+
             // URL mappings
             //
             //
@@ -54454,6 +54448,14 @@ namespace OverflowHelper.core
             URL_Add("Failsafe_", "https://maven.apache.org/surefire/maven-failsafe-plugin/");
 
             URL_Add("Surefire_", "https://maven.apache.org/surefire/maven-surefire-plugin/");
+
+            URL_Add("The Chicago Manual of Style_", "https://en.wikipedia.org/wiki/The_Chicago_Manual_of_Style");
+
+            URL_Add("ultraviolet_", "https://en.wikipedia.org/wiki/Ultraviolet");
+
+            URL_Add("JAWS_", "https://en.wikipedia.org/wiki/JAWS_%28screen_reader%29");
+
+            URL_Add("SAT_", "https://en.wikipedia.org/wiki/SAT");
 
         } //addLookupData_alternativeWordSet()
 
