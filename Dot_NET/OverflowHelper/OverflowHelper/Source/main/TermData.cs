@@ -3243,6 +3243,7 @@ namespace OverflowHelper.core
             correctionAdd("Loonix", "Linux");
             correctionAdd("linuxx", "Linux");
             correctionAdd("Linex", "Linux");
+            correctionAdd("LinuxOS", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -3505,6 +3506,8 @@ namespace OverflowHelper.core
             correctionAdd("Definitely", "definitely");
             correctionAdd("definitelt", "definitely");
             correctionAdd("defintitely", "definitely");
+            correctionAdd("deffinitly", "definitely");
+            correctionAdd("defenitly", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -8262,6 +8265,7 @@ namespace OverflowHelper.core
             correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
             correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubunto 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
 
             correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
             correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
@@ -11075,6 +11079,7 @@ namespace OverflowHelper.core
             correctionAdd("E-mail", "email");
             correctionAdd("e-mail", "email");
             correctionAdd("e-Mail", "email");
+            correctionAdd("emaill", "email");
 
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
@@ -11100,6 +11105,8 @@ namespace OverflowHelper.core
             correctionAdd("aparently", "apparently");
             correctionAdd("apparantly", "apparently");
             correctionAdd("apparantely", "apparently");
+            correctionAdd("appearently", "apparently");
+            correctionAdd("Appearently", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -11247,9 +11254,12 @@ namespace OverflowHelper.core
             correctionAdd("three js", "Three.js");
             correctionAdd("threeJS", "Three.js");
             correctionAdd("ThreeJS", "Three.js");
+            correctionAdd("Threejs", "Three.js");
+            correctionAdd("threejs", "Three.js");
 
             correctionAdd("0day", "zero-day");
             correctionAdd("0-day", "zero-day");
+            correctionAdd("0 day", "zero-day");
 
             correctionAdd("Perl 6", "Perl&nbsp;6");
             correctionAdd("Perl6", "Perl&nbsp;6");
@@ -11608,6 +11618,7 @@ namespace OverflowHelper.core
             correctionAdd("depedency", "dependency");
             correctionAdd("dependcy", "dependency");
             correctionAdd("dep", "dependency");
+            correctionAdd("depependency", "dependency");
 
             // -***** NEW
             //
@@ -12436,6 +12447,8 @@ namespace OverflowHelper.core
             correctionAdd("prc", "China");
             correctionAdd("CHINY", "China");
             correctionAdd("chiny", "China");
+            correctionAdd("CHY-NA", "China");
+            correctionAdd("chy-na", "China");
 
             correctionAdd("japan", "Japan");
 
@@ -16944,6 +16957,7 @@ namespace OverflowHelper.core
             correctionAdd("5GHz", "5&nbsp;GHz");
 
             correctionAdd("adobe", "Adobe");
+            correctionAdd("ADOBE", "Adobe");
 
             correctionAdd("Gitkraken", "GitKraken");
             correctionAdd("gitkraken", "GitKraken");
@@ -21332,6 +21346,7 @@ namespace OverflowHelper.core
             correctionAdd("code review", "Code Review (Stack Exchange site)");
             correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
             correctionAdd("codereview", "Code Review (Stack Exchange site)");
+            correctionAdd("Code Review", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
 
@@ -26224,6 +26239,8 @@ namespace OverflowHelper.core
             correctionAdd("thank u", "thank you");
             correctionAdd("Thnak you", "thank you");
             correctionAdd("thnak you", "thank you");
+            correctionAdd("Thanks you", "thank you");
+            correctionAdd("thanks you", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -31362,6 +31379,7 @@ namespace OverflowHelper.core
             correctionAdd("Webstart", "Java Web Start");
             correctionAdd("JavaWS", "Java Web Start");
             correctionAdd("javaws", "Java Web Start");
+            correctionAdd("JAWS", "Java Web Start");
 
             correctionAdd("sereal", "serial");
 
@@ -33914,8 +33932,11 @@ namespace OverflowHelper.core
             correctionAdd("log4shell", "Log4Shell vulnerability");
             correctionAdd("Log4Shell", "Log4Shell vulnerability");
             correctionAdd("Log4shell", "Log4Shell vulnerability");
+            correctionAdd("CVE-2021-44228", "Log4Shell vulnerability");
+            correctionAdd("cve-2021-44228", "Log4Shell vulnerability");
 
             correctionAdd("log4j", "Log4j");
+            correctionAdd("Log4J", "Log4j");
 
             correctionAdd("Barbarossa", "Operation Barbarossa");
 
@@ -34383,6 +34404,51 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("set-service", "Set-Service");
+
+            correctionAdd("21st Century", "21st century");
+
+            correctionAdd("AoE", "ATA over Ethernet");
+
+            correctionAdd("AVG", "AVG AntiVirus");
+            correctionAdd("AVG antivirus", "AVG AntiVirus");
+
+            correctionAdd("Ivy", "Apache Ivy");
+
+            correctionAdd("App Image", "AppImage");
+
+            correctionAdd("Lunduke", "Bryan Lunduke");
+
+            correctionAdd("Distrowatch", "DistroWatch");
+
+            correctionAdd("excavator", "Excavator");
+
+            correctionAdd("mix", "Laravel Mix");
+
+            correctionAdd("log4net", "Log4net");
+
+            correctionAdd("National Institute of Standards and Technology", "NIST");
+
+            correctionAdd("nvm", "NVM");
+            correctionAdd("Node Version Manager", "NVM");
+            correctionAdd("Node version manager", "NVM");
+            correctionAdd("Node.js version manager", "NVM");
+
+            correctionAdd("Peer Guardian", "PeerGuardian");
+
+            correctionAdd("Steam deck", "Steam Deck");
+
+            correctionAdd("assualt", "assault");
+
+            correctionAdd("desaster", "disaster");
+
+            correctionAdd("first-aid", "first aid");
+
+            correctionAdd("poisenous", "poisonous");
+            correctionAdd("Poisenous", "poisonous");
+
+            correctionAdd("rail gun", "railgun");
+
+            correctionAdd("seps", "steps");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54099,6 +54165,46 @@ namespace OverflowHelper.core
 
             URL_Add("naira", "https://en.wikipedia.org/wiki/Nigerian_naira");
 
+            URL_Add("21st century", "https://en.wikipedia.org/wiki/21st_century");
+
+            URL_Add("ATA over Ethernet", "https://en.wikipedia.org/wiki/ATA_over_Ethernet");
+
+            URL_Add("AVG AntiVirus", "https://en.wikipedia.org/wiki/AVG_AntiVirus");
+
+            URL_Add("Apache Ivy", "https://en.wikipedia.org/wiki/Apache_Ivy");
+
+            URL_Add("AppImage", "https://en.wikipedia.org/wiki/AppImage");
+
+            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
+
+            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
+
+            URL_Add("Excavator", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Laravel Mix", "https://laravel-mix.com/");
+
+            URL_Add("Log4net", "https://logging.apache.org/log4net/");
+
+            URL_Add("NIST", "https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology");
+
+            URL_Add("NVM", "https://github.com/nvm-sh/nvm");
+
+            URL_Add("PeerGuardian", "https://en.wikipedia.org/wiki/PeerGuardian");
+
+            URL_Add("Steam Deck", "https://en.wikipedia.org/wiki/Steam_Deck");
+
+            URL_Add("assault", "https://en.wiktionary.org/wiki/assault#Noun");
+
+            URL_Add("disaster", "https://en.wiktionary.org/wiki/disaster#Noun");
+
+            URL_Add("first aid", "https://en.wiktionary.org/wiki/first_aid#Noun");
+
+            URL_Add("poisonous", "https://en.wiktionary.org/wiki/poisonous#Adjective");
+
+            URL_Add("railgun", "https://en.wikipedia.org/wiki/Railgun");
+
+            URL_Add("steps", "https://en.wiktionary.org/wiki/steps#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54303,12 +54409,18 @@ namespace OverflowHelper.core
             correctionAdd("surefire_", "Surefire_");
 
             correctionAdd("Chicago manual of style_", "The Chicago Manual of Style_");
+            correctionAdd("CMS_", "The Chicago Manual of Style_");
 
             correctionAdd("uv_", "ultraviolet_");
+            correctionAdd("UV_", "ultraviolet_");
 
             correctionAdd("jaws_", "JAWS_");
 
             correctionAdd("Scholastic Assessment Test_", "SAT_");
+
+            correctionAdd("L3_", "layer-3_");
+
+            correctionAdd("WMD_", "weapon of mass destruction_");
 
             // URL mappings
             //
@@ -54456,6 +54568,10 @@ namespace OverflowHelper.core
             URL_Add("JAWS_", "https://en.wikipedia.org/wiki/JAWS_%28screen_reader%29");
 
             URL_Add("SAT_", "https://en.wikipedia.org/wiki/SAT");
+
+            URL_Add("layer-3_", "https://en.wikipedia.org/wiki/Multilayer_switch#Layer-3_switching");
+
+            URL_Add("weapon of mass destruction_", "https://en.wikipedia.org/wiki/Weapon_of_mass_destruction");
 
         } //addLookupData_alternativeWordSet()
 
