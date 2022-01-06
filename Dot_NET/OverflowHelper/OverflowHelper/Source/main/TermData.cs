@@ -4362,6 +4362,7 @@ namespace OverflowHelper.core
             correctionAdd("charecter", "characters"); // Not 100% correct. Add a plural feature?
             correctionAdd("caractere", "characters");
             correctionAdd("charactere", "characters");
+            correctionAdd("characteres", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -5933,6 +5934,7 @@ namespace OverflowHelper.core
             correctionAdd("dublicate", "duplicate");
             correctionAdd("diplicate", "duplicate");
             correctionAdd("dupliate", "duplicate");
+            correctionAdd("dupelicate", "duplicate");
 
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
@@ -10837,6 +10839,9 @@ namespace OverflowHelper.core
             correctionAdd(".net core MVC", "ASP.NET Core");
             correctionAdd(".Net Core MVC", "ASP.NET Core");
             correctionAdd("ASP.Net CORE", "ASP.NET Core");
+            correctionAdd("asp dot net core", "ASP.NET Core");
+            correctionAdd("asp.dot net core", "ASP.NET Core");
+            correctionAdd("asp.dot .net core", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -10957,6 +10962,8 @@ namespace OverflowHelper.core
             correctionAdd("Textronix", "Tektronix");
 
             correctionAdd("gpib", "GPIB");
+            correctionAdd("HPIB", "GPIB");
+            correctionAdd("HP-IB", "GPIB");
 
             correctionAdd("futher more", "furthermore");
             correctionAdd("further more", "furthermore");
@@ -12336,6 +12343,7 @@ namespace OverflowHelper.core
             correctionAdd("rarher", "rather");
             correctionAdd("rathee", "rather");
             correctionAdd("rater", "rather");
+            correctionAdd("rathen", "rather");
 
             correctionAdd("2nd", "second");
             correctionAdd("Secound", "second");
@@ -15301,6 +15309,7 @@ namespace OverflowHelper.core
 
             correctionAdd("powers-that-be", "powers that be");
             correctionAdd("Powers-That-Be", "powers that be");
+            correctionAdd("powers that b", "powers that be");
 
             correctionAdd("sth", "something");
             correctionAdd("smth", "something");
@@ -16312,6 +16321,7 @@ namespace OverflowHelper.core
             correctionAdd("satalite", "satellite");
             correctionAdd("satellit", "satellite");
             correctionAdd("sat", "satellite");
+            correctionAdd("SAT", "satellite");
 
             correctionAdd("slow down", "slowdown");
 
@@ -18683,6 +18693,7 @@ namespace OverflowHelper.core
             correctionAdd("orignal", "original");
             correctionAdd("origlnal", "original");
             correctionAdd("origintal", "original");
+            correctionAdd("Orignal", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -19302,6 +19313,8 @@ namespace OverflowHelper.core
             correctionAdd("anti-pattern", "antipattern");
 
             correctionAdd("cplex", "CPLEX");
+            correctionAdd("Cplex", "CPLEX");
+            correctionAdd("IBM ILOG CPLEX Optimization Studio", "CPLEX");
 
             correctionAdd("design patterns", "Design Patterns");
             correctionAdd("Design patterns", "Design Patterns");
@@ -23595,6 +23608,7 @@ namespace OverflowHelper.core
             correctionAdd("libaray", "library");
             correctionAdd("libray", "library");
             correctionAdd("Library", "library");
+            correctionAdd("librabry", "library");
 
             correctionAdd("libs", "libraries");
             correctionAdd("Libs", "libraries");
@@ -32838,6 +32852,7 @@ namespace OverflowHelper.core
             correctionAdd("as of writing", "at the time of writing");
             correctionAdd("At time of writing", "at the time of writing");
             correctionAdd("at time of writing", "at the time of writing");
+            correctionAdd("time of writing", "at the time of writing");
 
             correctionAdd("Comparator", "comparator");
 
@@ -33934,6 +33949,12 @@ namespace OverflowHelper.core
             correctionAdd("Log4shell", "Log4Shell vulnerability");
             correctionAdd("CVE-2021-44228", "Log4Shell vulnerability");
             correctionAdd("cve-2021-44228", "Log4Shell vulnerability");
+            correctionAdd("log4j Security Vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("log4j security vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j Security Vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j security vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j security vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4j security vulnerability", "Log4Shell vulnerability");
 
             correctionAdd("log4j", "Log4j");
             correctionAdd("Log4J", "Log4j");
@@ -34450,6 +34471,62 @@ namespace OverflowHelper.core
 
             correctionAdd("seps", "steps");
 
+            correctionAdd("aab", "AAB");
+            correctionAdd("Android App Bundle", "AAB");
+
+            correctionAdd("ASF", "Apache Software Foundation");
+            correctionAdd("Apache SF", "Apache Software Foundation");
+
+            correctionAdd("cbc", "CBC");
+
+            correctionAdd("clp", "CLP");
+
+            correctionAdd("coin-or", "COIN-OR");
+
+            correctionAdd("Gurobi", "Gurobi Optimizer");
+
+            correctionAdd("highs", "HiGHS");
+
+            correctionAdd("ipopt", "IPOPT");
+
+            correctionAdd("PornHub", "Pornhub");
+
+            correctionAdd("Morrison", "Scott Morrison");
+
+            correctionAdd("XOR swap", "XOR swap algorithm");
+
+            correctionAdd("back-story", "backstory");
+            correctionAdd("Backstory", "backstory");
+            correctionAdd("back story", "backstory");
+
+            correctionAdd("Combinatorial Optimization", "combinatorial optimization");
+
+            correctionAdd("commericial", "commercial");
+
+            correctionAdd("Constraint Optimization problem", "constraint optimization problem");
+
+            correctionAdd("Employer", "employer");
+
+            correctionAdd("git gud", "get good");
+            correctionAdd("get gud", "get good");
+
+            correctionAdd("infectios", "infectious");
+
+            correctionAdd("Integer Programming", "integer programming");
+
+            correctionAdd("millinia", "millennia");
+
+            correctionAdd("NNBD", "non-nullable by default");
+
+            correctionAdd("OR", "operations research");
+            correctionAdd("Operations Research", "operations research");
+
+            correctionAdd("stop gap", "stop-gap");
+
+            correctionAdd("un-needed", "unneeded");
+
+            correctionAdd("Verbally", "verbally");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -34519,6 +34596,7 @@ namespace OverflowHelper.core
             correctionAdd("CoViD", "COVID-19"); // Coronavirus
             correctionAdd("Convid", "COVID-19"); // Coronavirus
             correctionAdd("Cov 19", "COVID-19"); // Coronavirus
+            correctionAdd("wuflu", "COVID-19"); // Coronavirus
 
             correctionAdd("Corona Virus", "coronavirus"); // Coronavirus
             correctionAdd("Coronavirus", "coronavirus"); // Coronavirus
@@ -34960,13 +35038,16 @@ namespace OverflowHelper.core
 
             correctionAdd("RNA vaccine", "mRNA vaccine"); // Coronavirus
 
-            correctionAdd("human immunodeficiency virus", "HIV");
+            correctionAdd("human immunodeficiency virus", "HIV"); // Coronavirus
 
-            correctionAdd("SARS-CoV2", "SARS‑CoV‑2");
+            correctionAdd("SARS-CoV2", "SARS‑CoV‑2"); // Coronavirus
 
-            correctionAdd("vitamin K", "Vitamin K");
+            correctionAdd("vitamin K", "Vitamin K"); // Coronavirus
 
-            correctionAdd("adeno virus", "adenovirus");
+            correctionAdd("adeno virus", "adenovirus"); // Coronavirus
+
+            correctionAdd("Omicron", "Omicron variant"); // Coronavirus
+            correctionAdd("omicron", "Omicron variant"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -54205,6 +54286,58 @@ namespace OverflowHelper.core
 
             URL_Add("steps", "https://en.wiktionary.org/wiki/steps#Noun");
 
+            URL_Add("AAB", "https://en.wikipedia.org/wiki/Android_App_Bundle");
+
+            URL_Add("Apache Software Foundation", "https://en.wikipedia.org/wiki/The_Apache_Software_Foundation");
+
+            URL_Add("CBC", "https://en.wikipedia.org/wiki/COIN-OR#CBC");
+
+            URL_Add("CLP", "https://en.wikipedia.org/wiki/COIN-OR#CLP");
+
+            URL_Add("COIN-OR", "https://en.wikipedia.org/wiki/COIN-OR");
+
+            URL_Add("Gurobi Optimizer", "https://www.gurobi.com/documentation/9.5/refman/index.html");
+
+            URL_Add("HiGHS", "https://www.maths.ed.ac.uk/hall/HiGHS/");
+
+            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
+
+            URL_Add("Omicron variant", "https://en.wikipedia.org/wiki/SARS-CoV-2_Omicron_variant");
+
+            URL_Add("Pornhub", "https://en.wikipedia.org/wiki/Pornhub");
+
+            URL_Add("Scott Morrison", "https://en.wikipedia.org/wiki/Scott_Morrison");
+
+            URL_Add("XOR swap algorithm", "https://en.wikipedia.org/wiki/XOR_swap_algorithm");
+
+            URL_Add("backstory", "https://en.wiktionary.org/wiki/backstory#Noun");
+
+            URL_Add("combinatorial optimization", "https://en.wikipedia.org/wiki/Combinatorial_optimization");
+
+            URL_Add("commercial", "https://en.wiktionary.org/wiki/commercial#Adjective");
+
+            URL_Add("constraint optimization problem", "https://en.wikipedia.org/wiki/Constraint_programming#Constraint_optimization_problem");
+
+            URL_Add("employer", "https://en.wiktionary.org/wiki/employer#Noun");
+
+            URL_Add("get good", "https://en.wiktionary.org/wiki/git_gud#Verb");
+
+            URL_Add("infectious", "https://en.wiktionary.org/wiki/infectious#Adjective");
+
+            URL_Add("integer programming", "https://en.wikipedia.org/wiki/Integer_programming");
+
+            URL_Add("millennia", "https://en.wiktionary.org/wiki/millennia#Noun");
+
+            URL_Add("non-nullable by default", "https://stackoverflow.com/questions/60068435/what-is-null-safety-in-dart");
+
+            URL_Add("operations research", "https://en.wikipedia.org/wiki/Operations_research");
+
+            URL_Add("stop-gap", "https://en.wiktionary.org/wiki/stop-gap#Noun");
+
+            URL_Add("unneeded", "https://en.wiktionary.org/wiki/unneeded#Adjective");
+
+            URL_Add("verbally", "https://en.wiktionary.org/wiki/verbally#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54422,6 +54555,8 @@ namespace OverflowHelper.core
 
             correctionAdd("WMD_", "weapon of mass destruction_");
 
+            correctionAdd("one line_", "one-line_");
+
             // URL mappings
             //
             //
@@ -54572,6 +54707,8 @@ namespace OverflowHelper.core
             URL_Add("layer-3_", "https://en.wikipedia.org/wiki/Multilayer_switch#Layer-3_switching");
 
             URL_Add("weapon of mass destruction_", "https://en.wikipedia.org/wiki/Weapon_of_mass_destruction");
+
+            URL_Add("one-line_", "https://www.collinsdictionary.com/dictionary/english/one-line");
 
         } //addLookupData_alternativeWordSet()
 
