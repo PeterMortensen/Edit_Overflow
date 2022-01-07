@@ -10449,6 +10449,7 @@ namespace OverflowHelper.core
             correctionAdd("Screenhot", "screenshot");
             correctionAdd("Screnshot", "screenshot");
             correctionAdd("screnshot", "screenshot");
+            correctionAdd("screenshit", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -13854,6 +13855,7 @@ namespace OverflowHelper.core
             correctionAdd("ip addresss", "IP address");
             correctionAdd("IP ADDRESS", "IP address");
             correctionAdd("IPs", "IP address");
+            correctionAdd("ips", "IP address");
 
             correctionAdd("mac address", "MAC address");
             correctionAdd("MAC-Adress", "MAC address");
@@ -17309,6 +17311,7 @@ namespace OverflowHelper.core
             correctionAdd("JAMES WEBB SPACE TELESCOPE", "James Webb Space Telescope");
             correctionAdd("James Webb", "James Webb Space Telescope");
             correctionAdd("James Webb Telescope", "James Webb Space Telescope");
+            correctionAdd("james webb telescope", "James Webb Space Telescope");
 
             correctionAdd("Lxqt", "LXQt");
             correctionAdd("lxqt", "LXQt");
@@ -18563,6 +18566,10 @@ namespace OverflowHelper.core
 
             correctionAdd("the Canyon", "Grand Canyon");
 
+            correctionAdd("Anyon", "anyon");
+            correctionAdd("Anion", "anyon");
+            correctionAdd("anion", "anyon");
+
             correctionAdd("borring", "boring");
 
             correctionAdd("hallow", "hello");
@@ -18588,6 +18595,7 @@ namespace OverflowHelper.core
 
             correctionAdd("G suite", "G Suite");
             correctionAdd("Gsuite", "G Suite");
+            correctionAdd("Google Workspace", "G Suite");
 
             correctionAdd("Google Meet", "Google Hangouts Meet");
 
@@ -19016,6 +19024,7 @@ namespace OverflowHelper.core
 
             correctionAdd("How", "how");
             correctionAdd("haw", "how");
+            correctionAdd("hao", "how");
 
             correctionAdd("Java6", "Java&nbsp;6");
             correctionAdd("java 6", "Java&nbsp;6");
@@ -21367,6 +21376,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Joomla SE", "Joomla (Stack Exchange site)");
             correctionAdd("Joomla Stack Exchange", "Joomla (Stack Exchange site)");
+            correctionAdd("JSE", "Joomla (Stack Exchange site)");
+            correctionAdd("J SE", "Joomla (Stack Exchange site)");
 
             correctionAdd("bilion", "billion");
 
@@ -23035,6 +23046,8 @@ namespace OverflowHelper.core
             correctionAdd("wright", "writeX");
 
             correctionAdd("jasmine", "Jasmine");
+            correctionAdd("jazmine", "Jasmine");
+            correctionAdd("Jazmine", "Jasmine");
 
             correctionAdd("middle age", "Middle Ages");
             correctionAdd("middle âge", "Middle Ages");
@@ -31384,6 +31397,7 @@ namespace OverflowHelper.core
             correctionAdd("WS", "web service"); // Alternative: Windows Server
             correctionAdd("webService", "web service");
             correctionAdd("Webservice", "web service");
+            correctionAdd("web-service", "web service");
 
             correctionAdd("web hotel", "shared web hosting service");
 
@@ -33164,6 +33178,7 @@ namespace OverflowHelper.core
             correctionAdd("wien2k", "WIEN2k");
 
             correctionAdd("intion", "intention");
+            correctionAdd("intension", "intention");
 
             correctionAdd("--Wshadow", "-Wshadow");
 
@@ -34526,6 +34541,53 @@ namespace OverflowHelper.core
             correctionAdd("un-needed", "unneeded");
 
             correctionAdd("Verbally", "verbally");
+
+            correctionAdd("Denvercoder", "DenverCoder9");
+            correctionAdd("Denver coder", "DenverCoder9");
+
+            correctionAdd("Displayport", "DisplayPort");
+
+            correctionAdd("Get OfficeWebAppsFarm", "Get-OfficeWebAppsFarm");
+
+            correctionAdd("GRD", "Oracle Grid Engine");
+            correctionAdd("SGE", "Oracle Grid Engine");
+            correctionAdd("Sun Grid Engine", "Oracle Grid Engine");
+            correctionAdd("CODINE", "Oracle Grid Engine");
+
+            correctionAdd("Qradar", "QRadar");
+            correctionAdd("qradar", "QRadar");
+
+            correctionAdd("spy++", "Spy++");
+
+            correctionAdd("console app", "console application");
+            correctionAdd("Console-app", "console application");
+            correctionAdd("Console app", "console application");
+
+            correctionAdd("crediple", "credible");
+
+            correctionAdd("beginning of time", "dawn of time");
+
+            correctionAdd("ecstacy", "ecstasy");
+
+            correctionAdd("FR", "feature request");
+            correctionAdd("Feature Request", "feature request");
+
+            correctionAdd("LB", "load balancer");
+            correctionAdd("Load Balancer", "load balancer");
+
+            correctionAdd("North pole", "north pole");
+
+            correctionAdd("QRSH", "qrsh");
+
+            correctionAdd("regretable", "regrettable");
+
+            correctionAdd("Search Engine", "search engine");
+
+            correctionAdd("South", "south");
+
+            correctionAdd("South pole", "south pole");
+
+            correctionAdd("Step on a rake", "step on a rake");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54337,6 +54399,46 @@ namespace OverflowHelper.core
             URL_Add("unneeded", "https://en.wiktionary.org/wiki/unneeded#Adjective");
 
             URL_Add("verbally", "https://en.wiktionary.org/wiki/verbally#Adverb");
+
+            URL_Add("DenverCoder9", "https://www.explainxkcd.com/wiki/index.php/979:_Wisdom_of_the_Ancients");
+
+            URL_Add("DisplayPort", "https://en.wikipedia.org/wiki/DisplayPort");
+
+            URL_Add("Get-OfficeWebAppsFarm", "https://docs.microsoft.com/en-us/powershell/module/officewebapps/get-officewebappsfarm");
+
+            URL_Add("Oracle Grid Engine", "https://en.wikipedia.org/wiki/Oracle_Grid_Engine");
+
+            URL_Add("QRadar", "https://www.ibm.com/docs/en/qsip/7.3.3?topic=deployment-qradar-architecture-overview");
+
+            URL_Add("Spy++", "https://docs.microsoft.com/en-us/visualstudio/debugger/introducing-spy-increment?view=vs-2022");
+
+            URL_Add("anyon", "https://en.wikipedia.org/wiki/Anyon");
+
+            URL_Add("console application", "https://en.wikipedia.org/wiki/Console_application");
+
+            URL_Add("credible", "https://en.wiktionary.org/wiki/credible#Adjective");
+
+            URL_Add("dawn of time", "https://en.wiktionary.org/wiki/dawn_of_time#Phrase");
+
+            URL_Add("ecstasy", "https://en.wiktionary.org/wiki/ecstasy#Noun");
+
+            URL_Add("feature request", "https://blog.trello.com/3-ways-to-manage-feature-requests");
+
+            URL_Add("load balancer", "https://en.wikipedia.org/wiki/Load_balancing_(computing)");
+
+            URL_Add("north pole", "https://en.wiktionary.org/wiki/north_pole#Noun");
+
+            URL_Add("qrsh", "http://manpages.org/qrsh");
+
+            URL_Add("regrettable", "https://en.wiktionary.org/wiki/regrettable#Adjective");
+
+            URL_Add("search engine", "https://en.wikipedia.org/wiki/Search_engine");
+
+            URL_Add("south", "https://en.wiktionary.org/wiki/south#Noun");
+
+            URL_Add("south pole", "https://en.wiktionary.org/wiki/south_pole#Noun");
+
+            URL_Add("step on a rake", "https://en.wiktionary.org/wiki/step_on_a_rake#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
