@@ -2423,6 +2423,7 @@ namespace OverflowHelper.core
             correctionAdd("Webkit", "WebKit");
             correctionAdd("webKit", "WebKit");
             correctionAdd("web kit", "WebKit");
+            correctionAdd("wekit", "WebKit");
 
             correctionAdd("Richedit", "RichEdit");
 
@@ -7107,6 +7108,7 @@ namespace OverflowHelper.core
             correctionAdd("recomend", "recommend");
             correctionAdd("reccommend", "recommend");
             correctionAdd("reccomened", "recommend");
+            correctionAdd("recommned", "recommend");
 
             correctionAdd("PDT", "PHP Development Tools");
             correctionAdd("eclipse pdt", "PHP Development Tools");
@@ -11264,6 +11266,7 @@ namespace OverflowHelper.core
             correctionAdd("ThreeJS", "Three.js");
             correctionAdd("Threejs", "Three.js");
             correctionAdd("threejs", "Three.js");
+            correctionAdd("THREE.JS", "Three.js");
 
             correctionAdd("0day", "zero-day");
             correctionAdd("0-day", "zero-day");
@@ -14000,6 +14003,7 @@ namespace OverflowHelper.core
 
             correctionAdd("psycological", "psychological");
             correctionAdd("phycological", "psychological");
+            correctionAdd("Psycological", "psychological");
 
             correctionAdd("rememer", "remember");
             correctionAdd("rember", "remember");
@@ -14462,6 +14466,7 @@ namespace OverflowHelper.core
             correctionAdd("codepen", "CodePen");
             correctionAdd("Codepen", "CodePen");
             correctionAdd("CODEPEN", "CodePen");
+            correctionAdd("code pen", "CodePen");
 
             correctionAdd("Emporer", "Emperor");
 
@@ -18565,6 +18570,8 @@ namespace OverflowHelper.core
             correctionAdd("3rd world", "Third World");
 
             correctionAdd("the Canyon", "Grand Canyon");
+            correctionAdd("grandcanyon", "Grand Canyon");
+            correctionAdd("grand canyon", "Grand Canyon");
 
             correctionAdd("Anyon", "anyon");
             correctionAdd("Anion", "anyon");
@@ -20782,6 +20789,7 @@ namespace OverflowHelper.core
             correctionAdd("pytorch", "PyTorch");
             correctionAdd("torch", "PyTorch");
             correctionAdd("Torch", "PyTorch");
+            correctionAdd("Pytorch", "PyTorch");
 
             correctionAdd("pelican", "Sveshnikov Variation (Lasker–Pelikan)");
 
@@ -34588,6 +34596,23 @@ namespace OverflowHelper.core
             correctionAdd("South pole", "south pole");
 
             correctionAdd("Step on a rake", "step on a rake");
+
+            correctionAdd("glsl", "GLSL");
+            correctionAdd("OpenGL Shading Language", "GLSL");
+
+            correctionAdd("Epigenetics", "epigenetics");
+
+            correctionAdd("gltf", "glTF");
+
+            correctionAdd("indeicated", "indicated");
+
+            correctionAdd("skillset", "skill set");
+
+            correctionAdd("state of the art", "state-of-the-art");
+
+            correctionAdd("suite", "suit");
+
+            correctionAdd("vetex", "vertex");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54439,6 +54464,22 @@ namespace OverflowHelper.core
             URL_Add("south pole", "https://en.wiktionary.org/wiki/south_pole#Noun");
 
             URL_Add("step on a rake", "https://en.wiktionary.org/wiki/step_on_a_rake#Verb");
+
+            URL_Add("GLSL", "https://en.wikipedia.org/wiki/OpenGL_Shading_Language");
+
+            URL_Add("epigenetics", "https://en.wikipedia.org/wiki/Epigenetics");
+
+            URL_Add("glTF", "https://en.wikipedia.org/wiki/GlTF");
+
+            URL_Add("indicated", "https://en.wiktionary.org/wiki/indicate#Verb");
+
+            URL_Add("skill set", "https://en.wiktionary.org/wiki/skill_set#Noun");
+
+            URL_Add("state-of-the-art", "https://en.wiktionary.org/wiki/state-of-the-art#Adjective");
+
+            URL_Add("suit", "https://en.wiktionary.org/wiki/suit#Verb");
+
+            URL_Add("vertex", "https://en.wiktionary.org/wiki/vertex#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
