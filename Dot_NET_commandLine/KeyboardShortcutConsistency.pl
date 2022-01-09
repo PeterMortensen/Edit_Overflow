@@ -54,6 +54,15 @@
 #             2021-07-30   Added general check of uniqueness of             #
 #                          some forms fields.                               #
 #                                                                           #
+#             2022-01-09   Added check of keyboard shortcut indications     #
+#                          inside links (where they most probably will      #
+#                          be invisible).                                   #
+#                                                                           #
+#                          Added check of consistency between keyboard      #
+#                          shortcut indications and the actual              #
+#                          shortcuts (and if the indication                 #
+#                          exists at all).                                  #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -62,15 +71,15 @@
 #
 #   2. Require some fields to be equal. Or even that they should not be.
 #
-#      Note that we now use "id" for anchors and thus may want to 
+#      Note that we now use "id" for anchors and thus may want to
 #      give them meaningful names instead of (arbitrary) numbers.
 #
 #      Example:
-#     
+#
 #        name="Non-breaking space"
 #        id="Non-breaking_space"
 #        class="XYZ32"
-#     
+#
 #   3. XXXX
 #
 
@@ -141,8 +150,8 @@ my %keyboardShortcutSet =
 # that we encounter in the input file for that key (HTML
 # attribute/field).
 #
-# For the secondary hash, we store the linenumber 
-# (so we can report both line numbers of 
+# For the secondary hash, we store the linenumber
+# (so we can report both line numbers of
 # conflicting (non-unique) values)
 #
 my %uniqueFields =
@@ -150,26 +159,43 @@ my %uniqueFields =
     'class',      {},
     'id',         {},
     'name',       {},
-    
+
     #'title',      {},   # <Same as accesskey.>
 
-    #'accesskey',  {},   # Not for now. Possible special 
+    #'accesskey',  {},   # Not for now. Possible special
                          # treatment for an empty value.
-                         
-    'value',      {},   
+
+    'value',      {},
 );
 
 #my %fields = ();
 
 
-
 # We don't want it empty or undefined as we depend on it later on.
 my $kValuePreset = "<Not set>";
 
-
 my $line  = 0;
-my $accKey = "";
-my $value = $kValuePreset;
+my $accessKey = ""; # "accesskey" is the HTML form attribute
+                    # name for the keyboard shortcut.
+
+my $name = ""; # "name" is an HTML form element attribute
+
+my $value = $kValuePreset; # "value" is the HTML form attribute
+                           # name for the actual content of the
+                           # HTML form element.
+
+# This is the indicated keyboard in the ***label*** for the
+# form element, by ***our own convention***, single letter
+# wrapped in underline, "<u></u>".
+my $indicatedKeyboardShortcut = $kValuePreset;
+
+my $formLabelText             = $kValuePreset;
+
+# In "<a>" - that also can have a keyboard shortcut
+my $hrefAttribute             = $kValuePreset;
+
+
+
 
 my %accesskeys = ();
 
@@ -184,12 +210,12 @@ if (! $filename)
 {
     # While making it less flexible, it also prevent some user errors.
     print "This script should be invoked with an actual file... " .
-          "(standard input is not supported)\n";
+          "(standard input is not supported)\n\n";
 
     $proceedWithMainProcessing = 0;
 
     $exitCode = 6;
-    $errors++; # Some redundancy here...
+    $errors++; # Some redundancy here... Incl. the double "\n"
 }
 
 # File existence
@@ -199,7 +225,7 @@ if (! -e $filename)
     print
       "The script could not proceed. The file $filename does not " .
       "exist (for example, not in the current directory). " .
-      "Invoke the script an existing file...\n";
+      "Invoke the script an existing file...\n\n";
     $proceedWithMainProcessing = 0;
 
     $exitCode = 7;
@@ -240,9 +266,21 @@ if ($proceedWithMainProcessing)
               "\nUneven: $leadingSpaces leading spaces " .
               "on line $line. " .
               #"For \"$value\"\n"
-              "";
+              "\n\n";
             $exitCode = 5;
             $errors++; # Some redundancy here...
+        }
+
+        if (/name=\"(.*)\"/) # 'name' form element attribute (presumably)
+        {
+            $name = $1;
+            #print "name: $name\n";
+        }
+
+        if (/href=\"(.*)\"/) # 'href' attribute for HTML element <a>
+        {
+            $hrefAttribute = $1;
+            #print "hrefAttribute: $hrefAttribute\n";
         }
 
         # Note: In file "EditOverflow.php" most of the "value=" lines are
@@ -271,18 +309,102 @@ if ($proceedWithMainProcessing)
 
         if (/accesskey=\"(.*)\"/) # The keyboard shortcut
         {
-            $accKey = $1;
-            #print "Keyboard shortcut: $accKey for $value\n";
+            $accessKey = $1;
+            #print "Keyboard shortcut: $accessKey for $value\n";
         } #Line with "accesskey="
 
-        # Note: The 'title=' is presumed to be after the
-        #       'value=' and 'accesskey=' lines
+        # Extract the indicated keyboard shortcut from text (normal HTML
+        # text or from the label element) - by (HTML) underlined text.
+        #
+        if (! 0) # Exceptions? But ***not*** for 'echo' statements in PHP
+                 # (/echo.*;/) - we actually want to capture the keyboard
+                 # shortcut information in those...  E.g., in PHP code
+                 # like 'echo "<u>C</u>orrected term";'
+                 #
+                 # However, we can ***not*** allow it in outcommented code,
+                 # like
+                 #
+                 #     "echo "In<u>c</u>orrect term (repeated)";"
+                 #
+                 # as it is not actually active.
+        {
+            if (/<u>([a-zA-Z])<\/u>/) # The indicated keyboard shortcut. It
+                                      # comes before the other lines. It
+                                      # can both be lowercase and uppercase,
+                                      # depending on where it is in the text.
+            {
+                $indicatedKeyboardShortcut = $1; # We are also using this value
+                                                 # in other tests.
+
+                # To uppercase, for later use in comparisons
+                $indicatedKeyboardShortcut =~ tr/a-z/A-Z/;
+
+                #print "Keyboard shortcut: >>>$indicatedKeyboardShortcut<<<. On line $line\n";
+                #die;
+
+                # Check at the keyboard shortcut indications are not
+                # inside links (where they most probably will be
+                # invisible in the rendered HTML).
+                #
+                # Note:
+                #
+                #     Effectively, (for simplicity here) we demand that links
+                #     not be on the same (physical) line in the HTML source...
+                #
+                if (/<\/a>/) #Potentially false negatives if the link
+                             #is over more than one line. Other tests:
+                             #
+                             #  / href/
+                             #
+                             #"</a>" is the most likely. See e.g.
+                             #<FixedStrings.php>, near "hm symbol",
+                             #approx. line 185
+                {
+                    print
+                      "\nThe *indicated* keyboard shortcut is inside " .
+                      "a link (where it may become invisible). " .
+                      "On line $line: indicated* keyboard " .
+                      "shortcut $indicatedKeyboardShortcut\n\n";
+
+                    $exitCode = 8;
+                    $errors++; # Some redundancy here...
+                }
+
+            } #Line with an indicated keyboard shortcut
+
+        } # An exception
+
+        # Record HTML form element "label" - it is rudimentary - we only
+        # need it for some exceptions to the checks. E.g. we don't
+        # care if it goes over several lines as our exceptions don't
+        # do that.
+        #
+        # Sample:
+        #
+        #     <label for="editSummary_output2"><b></b></label>
+        #
+        # Note:
+        #
+        #   For "Reset lookup state", "label" comes last...
+        #
+        if (/<label for=.*?>(.*)</) # The tooltip (for the keyboard shortcut)
+        {
+            $formLabelText = $1;
+
+            #print "Form label: >>>$formLabelText<<<. On line $line\n";
+            #die;
+        }
+
+        # Note:
+        #
+        #     The 'title=' is presumed to be ***after*** the
+        #     'value=' and 'accesskey=' lines
         #
         if (/title=\"(.*)\"/) # The tooltip (for the keyboard shortcut)
         {
             my $toolTip = $1;
 
-            if ($accKey ne "") # Allow empty keyboard shortcut
+            if ($accessKey ne "") # Allow empty keyboard shortcut
             {
                 $detectedShortcuts++;
 
@@ -296,22 +418,22 @@ if ($proceedWithMainProcessing)
                     $limitedOutput =~ s/\%/\%\%/g;
 
                     printf
-                      "Keyboard shortcut %2d: $accKey for \"$limitedOutput...\"\n",
+                      "Keyboard shortcut %2d: $accessKey for \"$limitedOutput...\"\n",
                            $detectedShortcuts;
                 }
 
-                my $oldValue = $accesskeys{$accKey};
+                my $oldValue = $accesskeys{$accessKey};
                 if ($oldValue)
                 {
                     print
                       "\nKeyboard shortcut is already used. " .
-                      "On line $line: $accKey for \"$value\" " .
-                      "(other: \"$oldValue\")\n";
+                      "On line $line: $accessKey for \"$value\" " .
+                      "(other: \"$oldValue\")\n\n";
 
                     $exitCode = 1;
                     $errors++; # Some redundancy here...
                 }
-                $accesskeys{$accKey} = $value;
+                $accesskeys{$accessKey} = $value;
             }
             else
             {
@@ -322,7 +444,7 @@ if ($proceedWithMainProcessing)
                     print
                       "\nThe tooltip text should be empty when the " .
                       "keyboard shortcut is empty. " .
-                      "On line $line for \"$value\"\n";
+                      "On line $line for \"$value\"\n\n";
 
                     $exitCode = 2;
                     $errors++; # Some redundancy here...
@@ -336,30 +458,125 @@ if ($proceedWithMainProcessing)
                     my $keyboardShortcut_inTooltip = $1;
                     #print "Keyboard shortcut in tooltip: $keyboardShortcut_inTooltip\n";
 
-                    if ($keyboardShortcut_inTooltip ne $accKey)
+                    if ($keyboardShortcut_inTooltip ne $accessKey)
                     {
                         print
                           "\nKeyboard shortcut in tooltip " .
                           "(\"$keyboardShortcut_inTooltip\") is not the same " .
-                          "as specified (\"$accKey\"). " .
-                          "On line $line. For \"$value\"\n";
+                          "as specified (\"$accessKey\"). " .
+                          "On line $line. For \"$value\"\n\n";
 
                         $exitCode = 3;
                         $errors++; # Some redundancy here...
-                    }
+                    } # Check for indicated keyboard shortcut in tooltip
+
+                    # Use the opportunity to also check the consistency of
+                    # the keyboard shortcut ***indication*** and the
+                    # actual shortcut.
+                    #
+                    # It also indirectly checks if the indication exists at
+                    # all - though the error message may be confusing as
+                    # the previous form element will probably be involved).
+                    #
+                    if ($indicatedKeyboardShortcut ne $accessKey)
+                    {
+                        my $errorText =
+                              "\nThe indicated keyboard shortcut in the text " .
+                              "(\"$indicatedKeyboardShortcut\") is not the same " .
+                              "as specified (\"$accessKey\"). " .
+                              "Near line $line. For \"$value\"\n\n";
+
+                        #print "\nformLabelText: $formLabelText\n";
+                        #print $errorText;
+
+                        # Some exceptions... Mainly for the (dynamic)
+                        # main Edit Overflow lookup page
+                        if (
+                             # Outside because <label> is ***after***
+                             # a HTML form checkbox - thus we can 
+                             # not use the guard...
+                             (                             
+                                 ($name ne "resetState") &&
+
+                                 (! ($hrefAttribute =~ /validator.w3.org/ )) &&
+
+                                 # <Text.php>: Submit buttons
+                                 (! ($name =~ /someAction/ )) &&
+                                 1
+
+                             ) &&    
+                             
+                             (                             
+                                 # Guard - the exceptions are ***only***
+                                 # for HTML form label text
+                                 ($formLabelText eq $kValuePreset) ||
+                                 
+                                 # List of exceptions
+                                 ! (
+                                       # Effectively empty text
+                                       ($formLabelText eq "<b></b>") ||
+                                 
+                                       # Dynamically generated (but the text,
+                                       # "URL" does not contain the current
+                                       # shortcut letter ("E")). And it is
+                                       # a link anyway, so it would be
+                                       # invisible..
+                                       ($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?>') ||
+                                 
+                                       # Presuming it is for the form submit...
+                                       #
+                                       # It would be more robust if we checked
+                                       # for the form element type ("submit"
+                                       # and "hidden").
+                                       #
+                                       # Or had a positive list for the types
+                                       # of elements ("text" and "checkbox").
+                                       #
+                                       ($value eq "Look up") ||
+                                 
+                                       0
+                                 )  
+                             )
+                           )
+                        {
+                            # Note: The last part of the error message is
+                            #       confusing for file EditOverflow.php,
+                            #       because there isn't any (static) value
+                            #       (generated by the_formValue() at runtime).
+                            #
+                            print $errorText;
+
+                            $exitCode = 9;
+                            $errors++; # Some redundancy here...
+
+                            #die;
+
+                        } # Not an exception
+                    } # Check for indicated keyboard shortcut in the text
+
                 }
                 else
                 {
                     print
                       "\nThe tooltip text (\"$toolTip\") is not proper. " .
-                      "On line $line for \"$value\"\n";
+                      "On line $line for \"$value\"\n\n";
 
                     $exitCode = 4;
                     $errors++; # Some redundancy here...
                 }
             }
-            # Prepare for next block
+
+            # Prepare for next block (so that a previous form element
+            # does not interfere with the current (incl. confusing
+            # error messages)).
+            #
             $value = $kValuePreset;
+            $indicatedKeyboardShortcut = $kValuePreset;
+            $formLabelText             = $kValuePreset;
+            
+            # Crucial! - otherwise false negatives for some of our tests
+            $hrefAttribute             = $kValuePreset; 
+
         } #Line with "title="
 
         # General check of uniqueness for some fields
@@ -378,7 +595,7 @@ if ($proceedWithMainProcessing)
             #
             #                       class="XYZ29"
             #
-            # The anchor to the start of the line is to avoid false 
+            # The anchor to the start of the line is to avoid false
             # positives, e.g. for:
             #
             #     <!--  class="XYZ3"  -->
@@ -394,18 +611,17 @@ if ($proceedWithMainProcessing)
                 my $prevLineNumber = $uniqueFields{$someFieldName}->{$fieldValue};
                 if ($prevLineNumber)
                 {
-                    print 
+                    print
                       "\n\nOn line $line: Non-unique field value that is also " .
                       "at line $prevLineNumber. Field name \"$someFieldName\". " .
                       "Value: \"$fieldValue\"\n\n\n";
                     die;
                 }
                 $uniqueFields{$someFieldName}->{$fieldValue} = $line;
-               
 
                 #print
                 #  "\nKeyboard shortcut is already used. " .
-                #  "On line $line: $accKey for \"$value\" " .
+                #  "On line $line: $accessKey for \"$value\" " .
                 #  "(other: \"$oldValue\")\n";
 
             } # Detected a field that should be unique
@@ -464,7 +680,7 @@ if ($proceedWithMainProcessing)
         {
             print
               "\nInternal error: The unassigned keyboard shortcut count ($unassignedCount) ".
-              "was not the expected ($expectedUnassigned).\n";
+              "was not the expected ($expectedUnassigned).\n\n";
             $exitCode = 100 + 1;
         }
         if ($detectedShortcuts != $shortcuts) # Can also be due to duplicate keyboard
@@ -474,7 +690,7 @@ if ($proceedWithMainProcessing)
             print
               "\nInternal error: The detected shortcuts counter ($detectedShortcuts) ".
               "does not correspond to data structure \"accesskeys\"'s ".
-              "count ($shortcuts)\n";
+              "count ($shortcuts)\n\n";
             $exitCode = 100 + 2;
         }
 
@@ -487,7 +703,7 @@ if ($exitCode != 0)
     # As the reason for the error(s) may be obscured by some other output.
     print
       "\n\n$errors errors detected. Review the beginning of the output " .
-      "(as the error information may or may be obscured by other output). \n";
+      "(as the error information may or may be obscured by other output). \n\n";
 }
 
 exit $exitCode;
