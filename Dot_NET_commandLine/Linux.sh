@@ -356,8 +356,8 @@ export FTP_SITE_URL='ftp://linux42.simply.com'
 # files from the web hosting (production)
 export WEB_ERRORLOG_SUBFOLDER='_webErrorlog'
 
-# Yes, that is the actual file name that has been configured at
-# the web hosting (through file <public_html/world/.htaccess>)...
+# Yes, that is the actual file name that has (currently) been configured
+# at the web hosting (through file <public_html/world/.htaccess>)...
 #
 export REMOTE_WEB_ERRORLOG_FILENAME='phperrors_777.log'
 
@@ -580,12 +580,13 @@ function mustBeEqual()
 #
 # Helper function to reduce redundancy
 #
-# Run a Perl script on the indicated PHP source code and check:
+# Run a Perl script (currently "/Dot_NET_commandLine/KeyboardShortcutConsistency.pl")
+# on the indicated PHP source code and check:
 #
 #   1. Consistency between the shortcut key and the corresponding
 #      help text for it.
 #
-#   2. Consistency of name, ID, etc. numbers of forms elements.
+#   2. Consistency of name, ID, etc. on a number of forms elements.
 #
 #   3. Some rules regarding indentation.
 #
@@ -607,7 +608,7 @@ function keyboardShortcutConsistencyCheck()
     startOfBuildStep $3 "Starting keyboard shortcut consistency check for $1"
 
     #perl -w ${SRCFOLDER_DOTNETCOMMANDLINE}/${WEBFORM_CHECK_FILENAME}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
-    ${WEBFORM_CHECK_CMD}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency for the $2 page (file $1)"
+    ${WEBFORM_CHECK_CMD}  ${WEB_SRCFOLDER_BASE}/$1 ; evaluateBuildResult $3  $? "Keyboard shortcut consistency (or similar) for the $2 page (file $1)"
 } #keyboardShortcutConsistencyCheck()
 
 

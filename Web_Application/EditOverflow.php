@@ -3,7 +3,7 @@
     #
     # File: EditOverflow.php
     #
-    # This does the core of Edit Overflow: Looks up incorrect
+    # This does the core of Edit Overflow: Looks up an incorrect
     # term and displays the correct term (also with a link).
     #
     ##########################################################################
@@ -582,7 +582,7 @@
                             # change the background colour of
                             # the form field.
 
-                            #echo "In<u>c</u>orrect term (repeated)";
+                            #echo "Incorrect term (repeated)";
                             echo "<hr/><hr/><hr/>";
                             echo "<em><strong>Look up term (repeated)</strong></em>\n";
                         }

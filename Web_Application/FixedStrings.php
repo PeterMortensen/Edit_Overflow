@@ -182,8 +182,8 @@
 
             <p>The
                 <a href="https://en.wikipedia.org/wiki/Ohm"
-                ><u>o</u>hm symbol</a>
-                (Unicode, e.g. for
+                >ohm symbol</a>
+                (Unic<u>o</u>de, e.g. for
                 <a href="https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance"
                 >electrical resistance</a>):
 
@@ -242,7 +242,8 @@
                 />
             </p>
 
-            <p><a href="https://en.wikipedia.org/wiki/Tilde">Ti<u>l</u>de</a> (Unicode code point 007E):
+            <p><a href="https://en.wikipedia.org/wiki/Tilde">Tilde</a> 
+                (Unicode <u>l</u> code point 007E):
 
                 <input
                     name="Tilde"
@@ -256,7 +257,8 @@
                 />
             </p>
 
-            <p><a href="https://en.wikipedia.org/wiki/Interpunct">Middle dot</a> - &middot; (Unicode code point 00B7):
+            <p><a href="https://en.wikipedia.org/wiki/Interpunct">Middle dot</a> - 
+                &middot; (Un<u>i</u>code code point 00B7):
 
                 <input
                     name="middot"
@@ -265,15 +267,15 @@
                     class="XYZ44"
                     value="&amp;middot;"
                     style="width:60px;"
-                    accesskey="X"
-                    title="Shortcut: Shift + Alt + X"
+                    accesskey="I"
+                    title="Shortcut: Shift + Alt + I"
                 />
             </p>
 
 
             <!-- ******************************************************* -->
 
-            <h2>Code formatting check</h2>
+            <h2>Code <u>f</u>ormatting check</h2>
 
             <p>Note: It is rudimentary. As the false positive rate is high, every match should be checked manually.</p>
 
@@ -299,8 +301,8 @@
                     class="XYZ36"
                     value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--))"
                     style="width:320px;"
-                    accesskey=""
-                    title=""
+                    accesskey="F"
+                    title="Shortcut: Shift + Alt + F"
                 />
 
             </p>

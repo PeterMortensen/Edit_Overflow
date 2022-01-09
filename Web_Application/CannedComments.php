@@ -53,7 +53,7 @@
             id="XYZ">
 
 
-            <p>For p<strong><em>r</em></strong>eemptive use:
+            <p>For p<u>r</u>eemptive use:
                 Responses to comments should normally be by editing the post,
                 not in comments (and it should not contain meta
                 information).
@@ -74,7 +74,7 @@
             </p>
 
             <p id="CodeOnlyComment">
-                Code-only answers normally need some <strong><em>e</em></strong>xplanation to be useful.
+                Code-only answers normally need some <u>e</u>xplanation to be useful.
 
                 <br/>
                 <input
@@ -89,7 +89,7 @@
                 />
             </p>
 
-            <p><strong><em>S</em></strong>pelling of Stack Overflow, Stack&nbsp;Exchange,
+            <p><u>S</u>pelling of Stack Overflow, Stack&nbsp;Exchange,
                 and other Stack&nbsp;Exchange sites, etc.
                 No matter how it looks in a logo
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
@@ -112,7 +112,7 @@
             </p>
 
             <p>Many users come to Meta Stack Overflow to
-                compla<strong><em>i</em></strong>n about
+                compla<u>i</u>n about
                 being question-banned on Stack Overflow.
                 Many of them use low English skills as
                 an excuse, but capitalising "i" and
@@ -133,7 +133,7 @@
             </p>
 
             <p>Many users on Stack Overflow post answers as questions,
-                because they can't <strong><em>c</em></strong>omment
+                because they can't <u>c</u>omment
                 below 50 reputation points (the system will not
                 allow it).
 
@@ -151,7 +151,7 @@
             </p>
 
             <p>Stack Overflow is <strong><em>not</em></strong>
-                a <strong><em>f</em></strong>orum.
+                a <u>f</u>orum.
 
                 But many users on Stack Overflow think they are on a forum.
 
@@ -170,7 +170,8 @@
 
 
             <!-- Template
-            <p>
+            <p>Some text with <u>z</u> <br/>
+
                 <input
                     name="X"
                     type="text"

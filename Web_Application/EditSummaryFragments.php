@@ -31,7 +31,7 @@
             the_EditOverflowHeadline("Some edit summary fragments");
         ?>
 
-        <p>Th<strong>e</strong>re is also a page
+        <p>Th<u>e</u>re is also a page
             <a
                 href="https://pmortensen.eu/world/CannedComments.php"
                 accesskey="E"
@@ -49,10 +49,11 @@
             action="EditOverflow.php"
             id="XYZ">
 
-            <p>The "How to ... ?" form for a question is not a good one
+            <p>The "How to ... ?" <u>f</u>orm for a question is not a good one
                 (does not follow
                 <a href="https://www.youtube.com/watch?v=kS5NfSzXfrI"
                 >QUASM</a>)<br/>
+
                 <input
                     name="X25"
                     type="text"
@@ -66,6 +67,8 @@
             </p>
 
             <p id="Capitalise_I">
+                Capitalise "i" - yes, <u>y</u>ou!!!!!
+
                 <input
                     name="X2"
                     type="text"
@@ -78,7 +81,9 @@
                 />
             </p>
 
-            <p>
+            <p>Small formatting changes often results in
+                a large <u>d</u>iff in the default view.
+
                 <input
                     name="X7"
                     type="text"
@@ -91,7 +96,7 @@
                 />
             </p>
 
-            <p>Meta infor<strong><i>m</i></strong>ation does not
+            <p>Meta infor<u>m</u>ation does not
                 belong in a question <br/>
                 <input
                     name="X14"
@@ -106,7 +111,7 @@
             </p>
 
             <p>Statements like "the above" may make sense
-                on a f<strong><i>o</i></strong>rum, but
+                on a f<u>o</u>rum, but
                 definitely not on Stack Exchange. <br/>
                 <input
                     name="X17"
@@ -146,7 +151,7 @@
                 />
             </p>
 
-            <p>
+            <p>Links should<u>n</u>'t be naked - use an appropriate link text.
                 <input
                     name="X3"
                     type="text"
@@ -172,7 +177,8 @@
                 />
             </p>
 
-            <p>
+            <p>Many users post sloppy or even m<u>i</u>sleading indentation of code.
+
                 <input
                     name="X5"
                     type="text"
@@ -185,7 +191,9 @@
                 />
             </p>
 
-            <p>
+            <p>Shorthands or TLAs often make <u>p</u>osts too obscure for
+                the actual audience (from search engine hits).
+
                 <input
                     name="X6"
                     type="text"
@@ -198,7 +206,9 @@
                 />
             </p>
 
-            <p>Inappropriate shortening of "IP address" <br/>
+            <p>Inappropriate shortening of "IP address" 
+                (IP addresses are bloc<u>k</u>ed, not 
+                the procol). <br/>
 
                 <input
                     name="X13"
@@ -212,7 +222,7 @@
                 />
             </p>
 
-            <p>Capita<strong><i>l</i></strong>isation often obscures
+            <p>Capita<u>l</u>isation often obscures
                 the meaning when proper nouns are involved <br/>
 
                 <input
@@ -227,7 +237,7 @@
                 />
             </p>
 
-            <p>Code formattin<strong><i>g</i></strong> should
+            <p>Code formattin<u>g</u> should
                 not be used for emphasis. <br/>
 
                 <input
@@ -259,7 +269,7 @@
             </p>
 
             <p>Things like "Update", etc. does not
-                <strong><i>b</i></strong>elong in the main post
+                <u>b</u>elong in the main post
                 (question or answer). A post's current version should be
                 the best possible and there isn't any need to know how it
                 changed over time - this information should be in edit
@@ -382,7 +392,7 @@
                 >Run-on sentences</a>
                 (<a href="https://twitter.com/PeterMortensen/status/1199839973215739907"
                 >YouTube video</a>).
-                Mostly native speakers (more pronounced for US native
+                Mostly native speake<u>r</u>s (more pronounced for US native
                 speakers), but also for minimum-effort users: <br/>
 
                 <input
@@ -431,7 +441,8 @@
 
             <div id="IndianSpace"> </div>
             <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
-                >The Indian spa<strong><i>c</i></strong>e</a>
+                >The Indian space</a>
+                <u>c</u>
                 (from the outdated 1935
                 <a href="https://en.wikipedia.org/wiki/Wren_%26_Martin"
                 ><i>Wren & Martin</i> textbook</a>): <br/>
@@ -534,7 +545,8 @@
             </p>
 
             <p><a href="https://english.stackexchange.com/questions/15953"
-                >Space between <strong><i>q</i></strong>uantity and unit</a>: <br/>
+                >Space between</a>
+                <u>q</u>uantity and unit: <br/>
 
                 <input
                     name="X12"
@@ -549,8 +561,8 @@
             </p>
 
             <p><a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=0m38s"
-                >Present simple tense, t<strong><i>h</i></strong>ird person</a>
-                - there must be an 's': <br/>
+                >Present simple tense, third person</a>
+                - t<u>h</u>ere must be an 's': <br/>
 
                 <input
                     name="X21"
@@ -566,7 +578,8 @@
 
 
             <!-- Template
-            <p>
+            <p>Some text with <u>z</u> <br/>
+
                 <input
                     name="X"
                     type="text"
