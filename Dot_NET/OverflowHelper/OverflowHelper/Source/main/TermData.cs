@@ -6370,6 +6370,116 @@ namespace OverflowHelper.core
             correctionAdd("NNs", "artificial neural network");
             correctionAdd("Neural networks", "artificial neural network");
 
+            correctionAdd("n/w", "network");
+
+            correctionAdd("upwork", "Upwork");
+            correctionAdd("UpWork", "Upwork");
+            correctionAdd("Up work", "Upwork");
+
+            correctionAdd("guess work", "guesswork");
+
+            correctionAdd("MDN", "Mozilla Developer Network");
+            correctionAdd("mdn", "Mozilla Developer Network");
+            correctionAdd("MDC", "Mozilla Developer Network");
+
+            correctionAdd("home work", "homework");
+            correctionAdd("homeworks", "homework");
+
+            correctionAdd("gruntwork", "grunt work");
+
+            //correctionAdd("spring", "Spring"); // Not used anymore
+            correctionAdd("SPRING", "Spring Framework");
+            correctionAdd("spring", "Spring Framework");
+            correctionAdd("Spring", "Spring Framework");
+            correctionAdd("springs", "Spring Framework");
+            correctionAdd("spring framework", "Spring Framework");
+
+            correctionAdd("MEF", "Managed Extensibility Framework");
+
+            correctionAdd(".Net micro framework", ".NET Micro Framework");
+            correctionAdd(".NET micro framework", ".NET Micro Framework");
+            correctionAdd(".Net Micro Framework", ".NET Micro Framework");
+            correctionAdd(".NetMF", ".NET Micro Framework");
+            correctionAdd(".netmf", ".NET Micro Framework");
+            correctionAdd(".NET MF", ".NET Micro Framework");
+            correctionAdd(".NETMF", ".NET Micro Framework");
+            correctionAdd("netmf", ".NET Micro Framework");
+            correctionAdd("Netmf", ".NET Micro Framework");
+            correctionAdd("NETMF", ".NET Micro Framework");
+
+            correctionAdd("play", "Play Framework");
+            correctionAdd("Play", "Play Framework");
+            correctionAdd("Play framework", "Play Framework");
+
+            correctionAdd(".NetCF", ".NET Compact Framework");
+            correctionAdd("Dot.net CF", ".NET Compact Framework");
+            correctionAdd(".Net CF", ".NET Compact Framework");
+            correctionAdd("compact framework", ".NET Compact Framework");
+            correctionAdd("compact framewok", ".NET Compact Framework");
+            correctionAdd(".NET CF", ".NET Compact Framework");
+            correctionAdd("CF .NET", ".NET Compact Framework");
+            correctionAdd("Compact Framework", ".NET Compact Framework");
+            correctionAdd("Compact", ".NET Compact Framework");
+
+            correctionAdd("robotframework", "Robot Framework");
+            correctionAdd("robot framework", "Robot Framework");
+            correctionAdd("Robot framework", "Robot Framework");
+            correctionAdd("Robot", "Robot Framework");
+
+            // Expansion, not case correction.
+            correctionAdd("Entity Framework", "ADO.NET Entity Framework");
+            correctionAdd("EF", "ADO.NET Entity Framework");
+            correctionAdd("ADO.Net Entity Framework", "ADO.NET Entity Framework");
+            correctionAdd("entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entities framework", "ADO.NET Entity Framework");
+            correctionAdd("Ado.net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("ef", "ADO.NET Entity Framework");
+            correctionAdd("ado.net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entity framework", "ADO.NET Entity Framework");
+            correctionAdd("EntityFramework", "ADO.NET Entity Framework");
+            correctionAdd("ADO.Net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entitiy framework", "ADO.NET Entity Framework");
+            correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
+            correctionAdd("entityframwork", "ADO.NET Entity Framework");
+            correctionAdd("Enity framework", "ADO.NET Entity Framework");
+
+            correctionAdd("zend", "Zend Framework");
+            correctionAdd("Zend", "Zend Framework");
+            correctionAdd("ZF", "Zend Framework");
+            correctionAdd("zend framework", "Zend Framework");
+            correctionAdd("zf", "Zend Framework");
+            correctionAdd("ZEND", "Zend Framework");
+
+            correctionAdd("SAFe", "Scaled Agile Framework");
+
+            correctionAdd("framwork", "framework");
+            correctionAdd("frame work", "framework");
+            correctionAdd("framewrok", "framework");
+            correctionAdd("freamwork", "framework");
+
+            correctionAdd("Serenity", "Serenity BDD Framework");
+            correctionAdd("serenity", "Serenity BDD Framework");
+
+            correctionAdd("busywork", "busy work");
+
+            correctionAdd("tdnn", "time delay neural network");
+            correctionAdd("TDNN", "time delay neural network");
+
+            correctionAdd("DRF", "Django REST Framework");
+
+            correctionAdd("hand work", "handwork");
+
+            correctionAdd("re-work", "rework");
+
+            correctionAdd("DNN", "deep neural network");
+            correctionAdd("Deep Neural Network", "deep neural network");
+
+            correctionAdd("webwork", "WebWork");
+
+            correctionAdd("wor", "work");
+            correctionAdd("workd", "work");
+            correctionAdd("worck", "work");
+
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
 
@@ -7647,8 +7757,6 @@ namespace OverflowHelper.core
             correctionAdd("us", "µs"); // Microseconds.
             correctionAdd("uS", "µs"); // Microseconds.
             correctionAdd("uSec", "µs"); // Microseconds.
-
-            correctionAdd("n/w", "network");
 
             correctionAdd("pep", "PEP");
             correctionAdd("Pep", "PEP");
@@ -10072,6 +10180,7 @@ namespace OverflowHelper.core
             correctionAdd("less", "Less");
 
             correctionAdd("anymore", "any more");
+            correctionAdd("animore", "any more");
 
             correctionAdd("NGEN", "NGen");
             correctionAdd("ngen", "NGen");
@@ -10516,6 +10625,7 @@ namespace OverflowHelper.core
             correctionAdd("dissappear", "disappear");
             correctionAdd("dessappear", "disappear");
             correctionAdd("disapear", "disappear");
+            correctionAdd("disapears", "disappear");
 
             correctionAdd("heirarchy", "hierarchy");
             correctionAdd("heirarachy", "hierarchy");
@@ -11267,6 +11377,9 @@ namespace OverflowHelper.core
             correctionAdd("Threejs", "Three.js");
             correctionAdd("threejs", "Three.js");
             correctionAdd("THREE.JS", "Three.js");
+            correctionAdd("THREE.js", "Three.js");
+            correctionAdd("three,js", "Three.js");
+            correctionAdd("Three JS", "Three.js");
 
             correctionAdd("0day", "zero-day");
             correctionAdd("0-day", "zero-day");
@@ -13281,10 +13394,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stripe", "Stripe");
 
-            correctionAdd("upwork", "Upwork");
-            correctionAdd("UpWork", "Upwork");
-            correctionAdd("Up work", "Upwork");
-
             correctionAdd("à la", "a la");
 
             correctionAdd("asc", "ascending");
@@ -13480,10 +13589,6 @@ namespace OverflowHelper.core
             correctionAdd("ms test", "MSTest");
             correctionAdd("msTest", "MSTest");
 
-            correctionAdd("MDN", "Mozilla Developer Network");
-            correctionAdd("mdn", "Mozilla Developer Network");
-            correctionAdd("MDC", "Mozilla Developer Network");
-
             correctionAdd("pluarlsight", "Pluralsight");
             correctionAdd("PluralSight", "Pluralsight");
             correctionAdd("pluralsight", "Pluralsight");
@@ -13597,6 +13702,7 @@ namespace OverflowHelper.core
 
             correctionAdd("furhter", "further");
             correctionAdd("furter", "further");
+            correctionAdd("farer", "further");
 
             correctionAdd("internaly", "internally");
 
@@ -13641,6 +13747,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Digital Ocean", "DigitalOcean");
             correctionAdd("digital ocean", "DigitalOcean");
+            correctionAdd("DO", "DigitalOcean");
 
             correctionAdd("fifo", "FIFO");
             correctionAdd("Fifo", "FIFO");
@@ -14338,8 +14445,6 @@ namespace OverflowHelper.core
 
             correctionAdd("encrytpion", "encryption");
             correctionAdd("encription", "encryption");
-
-            correctionAdd("guess work", "guesswork");
 
             correctionAdd("imporant", "important");
 
@@ -16645,6 +16750,7 @@ namespace OverflowHelper.core
             correctionAdd("B's ur uncle", "Bob’s your uncle");
             correctionAdd("Bob's yer uncle", "Bob’s your uncle");
             correctionAdd("Bobs your uncle", "Bob’s your uncle");
+            correctionAdd("Bob's you uncle", "Bob’s your uncle");
 
             correctionAdd("Yún", "Arduino Yún");
             correctionAdd("Arduino Yun", "Arduino Yún");
@@ -17736,6 +17842,7 @@ namespace OverflowHelper.core
             correctionAdd("pendrive", "USB flash drive");
             correctionAdd("USB drive", "USB flash drive");
             correctionAdd("usb stick", "USB flash drive");
+            correctionAdd("thumbdrive", "USB flash drive");
 
             correctionAdd("counter part", "counterpart");
 
@@ -19590,9 +19697,6 @@ namespace OverflowHelper.core
 
             correctionAdd("zoom", "Zoom");
 
-            correctionAdd("home work", "homework");
-            correctionAdd("homeworks", "homework");
-
             correctionAdd("maily", "mainly");
 
             correctionAdd("reidrected", "redirected");
@@ -20145,9 +20249,6 @@ namespace OverflowHelper.core
             correctionAdd("jeallous", "jealous");
 
             correctionAdd("stylesheet", "style sheet");
-
-            correctionAdd("wor", "work");
-            correctionAdd("workd", "work");
 
             correctionAdd("aaa", "AAA");
 
@@ -22173,6 +22274,8 @@ namespace OverflowHelper.core
             correctionAdd("differente", "different");
             correctionAdd("diffent", "different");
             correctionAdd("dfferent", "different");
+            correctionAdd("diferrent", "different");
+            correctionAdd("differrent", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -22224,6 +22327,7 @@ namespace OverflowHelper.core
             correctionAdd("undestand", "understand");
             correctionAdd("understrand", "understand");
             correctionAdd("understnad", "understand");
+            correctionAdd("anderstand", "understand");
 
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
@@ -22273,8 +22377,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ennineered", "engineered");
             correctionAdd("engeneered", "engineered");
-
-            correctionAdd("gruntwork", "grunt work");
 
             correctionAdd("paradygm", "paradigm");
 
@@ -22391,6 +22493,7 @@ namespace OverflowHelper.core
 
             correctionAdd("incase", "in case");
             correctionAdd("Incase", "in case");
+            correctionAdd("in-case", "in case");
 
             correctionAdd("cse", "case");
             correctionAdd("casse", "case");
@@ -24253,76 +24356,6 @@ namespace OverflowHelper.core
 
             correctionAdd("wovel", "vowel");
 
-            //correctionAdd("spring", "Spring"); // Not used anymore
-            correctionAdd("SPRING", "Spring Framework");
-            correctionAdd("spring", "Spring Framework");
-            correctionAdd("Spring", "Spring Framework");
-            correctionAdd("springs", "Spring Framework");
-            correctionAdd("spring framework", "Spring Framework");
-
-            correctionAdd("MEF", "Managed Extensibility Framework");
-
-            correctionAdd(".Net micro framework", ".NET Micro Framework");
-            correctionAdd(".NET micro framework", ".NET Micro Framework");
-            correctionAdd(".Net Micro Framework", ".NET Micro Framework");
-            correctionAdd(".NetMF", ".NET Micro Framework");
-            correctionAdd(".netmf", ".NET Micro Framework");
-            correctionAdd(".NET MF", ".NET Micro Framework");
-            correctionAdd(".NETMF", ".NET Micro Framework");
-            correctionAdd("netmf", ".NET Micro Framework");
-            correctionAdd("Netmf", ".NET Micro Framework");
-            correctionAdd("NETMF", ".NET Micro Framework");
-
-            correctionAdd("play", "Play Framework");
-            correctionAdd("Play", "Play Framework");
-            correctionAdd("Play framework", "Play Framework");
-
-            correctionAdd(".NetCF", ".NET Compact Framework");
-            correctionAdd("Dot.net CF", ".NET Compact Framework");
-            correctionAdd(".Net CF", ".NET Compact Framework");
-            correctionAdd("compact framework", ".NET Compact Framework");
-            correctionAdd("compact framewok", ".NET Compact Framework");
-            correctionAdd(".NET CF", ".NET Compact Framework");
-            correctionAdd("CF .NET", ".NET Compact Framework");
-            correctionAdd("Compact Framework", ".NET Compact Framework");
-            correctionAdd("Compact", ".NET Compact Framework");
-
-            correctionAdd("robotframework", "Robot Framework");
-            correctionAdd("robot framework", "Robot Framework");
-            correctionAdd("Robot framework", "Robot Framework");
-            correctionAdd("Robot", "Robot Framework");
-
-            // Expansion, not case correction.
-            correctionAdd("Entity Framework", "ADO.NET Entity Framework");
-            correctionAdd("EF", "ADO.NET Entity Framework");
-            correctionAdd("ADO.Net Entity Framework", "ADO.NET Entity Framework");
-            correctionAdd("entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entities framework", "ADO.NET Entity Framework");
-            correctionAdd("Ado.net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("ef", "ADO.NET Entity Framework");
-            correctionAdd("ado.net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entity framework", "ADO.NET Entity Framework");
-            correctionAdd("EntityFramework", "ADO.NET Entity Framework");
-            correctionAdd("ADO.Net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entitiy framework", "ADO.NET Entity Framework");
-            correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
-            correctionAdd("entityframwork", "ADO.NET Entity Framework");
-            correctionAdd("Enity framework", "ADO.NET Entity Framework");
-
-            correctionAdd("zend", "Zend Framework");
-            correctionAdd("Zend", "Zend Framework");
-            correctionAdd("ZF", "Zend Framework");
-            correctionAdd("zend framework", "Zend Framework");
-            correctionAdd("zf", "Zend Framework");
-            correctionAdd("ZEND", "Zend Framework");
-
-            correctionAdd("SAFe", "Scaled Agile Framework");
-
-            correctionAdd("framwork", "framework");
-            correctionAdd("frame work", "framework");
-            correctionAdd("framewrok", "framework");
-            correctionAdd("freamwork", "framework");
-
             correctionAdd("gpx", "GPX");
 
             correctionAdd("josm", "JOSM");
@@ -24845,6 +24878,8 @@ namespace OverflowHelper.core
             correctionAdd("look a like", "lookalike");
 
             correctionAdd("1-to-1", "one-to-one");
+            correctionAdd("1 to 1", "one-to-one");
+            correctionAdd("one to one", "one-to-one");
 
             correctionAdd("planed", "planned");
 
@@ -24879,9 +24914,6 @@ namespace OverflowHelper.core
             correctionAdd("parse", "Parse");
             correctionAdd("Parse.com", "Parse");
             correctionAdd("prase", "Parse");
-
-            correctionAdd("Serenity", "Serenity BDD Framework");
-            correctionAdd("serenity", "Serenity BDD Framework");
 
             correctionAdd("cirtainty", "certainty");
             correctionAdd("curtainty", "certainty");
@@ -25405,6 +25437,7 @@ namespace OverflowHelper.core
             correctionAdd("prefrebly", "preferably");
             correctionAdd("Preferrably", "preferably");
             correctionAdd("preferrably", "preferably");
+            correctionAdd("Preferably", "preferably");
 
             correctionAdd("self evident", "self-evident");
 
@@ -25501,6 +25534,8 @@ namespace OverflowHelper.core
 
             correctionAdd("recalc", "recalculate");
             correctionAdd("re-calc", "recalculate");
+            correctionAdd("recalculta", "recalculate");
+            correctionAdd("recalculat", "recalculate");
 
             correctionAdd("repectively", "respectively");
 
@@ -25575,6 +25610,7 @@ namespace OverflowHelper.core
             correctionAdd("eveywhere", "everywhere");
 
             correctionAdd("hemissphere", "hemisphere");
+            correctionAdd("Hemisphere", "hemisphere");
 
             correctionAdd("Northern Hemiphere", "Northern Hemisphere");
             correctionAdd("northern hemisphere", "Northern Hemisphere");
@@ -26731,8 +26767,6 @@ namespace OverflowHelper.core
             correctionAdd("aot", "ahead-of-time compilation");
             correctionAdd("AOT", "ahead-of-time compilation");
 
-            correctionAdd("busywork", "busy work");
-
             correctionAdd("cathes", "catches");
 
             correctionAdd("causees", "causes");
@@ -26756,9 +26790,6 @@ namespace OverflowHelper.core
             correctionAdd("slauther", "slaughter");
 
             correctionAdd("sombebody", "somebody");
-
-            correctionAdd("tdnn", "time delay neural network");
-            correctionAdd("TDNN", "time delay neural network");
 
             correctionAdd("un-asked", "unasked");
 
@@ -28051,8 +28082,6 @@ namespace OverflowHelper.core
 
             correctionAdd("the quarter drop", "the penny drop");
 
-            correctionAdd("DRF", "Django REST Framework");
-
             correctionAdd("MicroCap", "Micro-Cap");
 
             correctionAdd("S expression", "S-expression");
@@ -28915,8 +28944,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dissconnected", "disconnected");
 
-            correctionAdd("hand work", "handwork");
-
             correctionAdd("hand worked", "handworked");
 
             correctionAdd("qties", "quantities");
@@ -29017,8 +29044,6 @@ namespace OverflowHelper.core
             correctionAdd("peer-reviewed", "peer reviewed");
 
             correctionAdd("re-using", "reusing");
-
-            correctionAdd("re-work", "rework");
 
             correctionAdd("stroing", "storing");
 
@@ -31202,9 +31227,6 @@ namespace OverflowHelper.core
 
             correctionAdd("confliciting", "conflicting");
 
-            correctionAdd("DNN", "deep neural network");
-            correctionAdd("Deep Neural Network", "deep neural network");
-
             correctionAdd("agredious", "egregious");
 
             correctionAdd("FSCK", "fsck");
@@ -31349,8 +31371,6 @@ namespace OverflowHelper.core
             correctionAdd("Web Apps", "Web Applications (Stack Exchange site)");
             correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
 
-            correctionAdd("webwork", "WebWork");
-
             correctionAdd("webp", "WebP");
 
             correctionAdd("WebHook", "webhook");
@@ -31455,6 +31475,7 @@ namespace OverflowHelper.core
 
             correctionAdd("understable", "understandable");
             correctionAdd("undestandable", "understandable");
+            correctionAdd("understandble", "understandable");
 
             correctionAdd("Apple Silicon", "Apple silicon");
             correctionAdd("Silicon MAC", "Apple silicon");
@@ -34613,6 +34634,60 @@ namespace OverflowHelper.core
             correctionAdd("suite", "suit");
 
             correctionAdd("vetex", "vertex");
+
+            correctionAdd("dat.GUI", "Dat.GUI");
+            correctionAdd("Dat,gui", "Dat.GUI");
+            correctionAdd("Dat.gui", "Dat.GUI");
+            correctionAdd("dat.gui", "Dat.GUI");
+
+            correctionAdd("javatpoint", "Javatpoint");
+
+            correctionAdd("log4j2", "Log4j&nbsp;2");
+            correctionAdd("Log4j 2", "Log4j&nbsp;2");
+            correctionAdd("Log4J2", "Log4j&nbsp;2");
+
+            correctionAdd("planetmath", "PlanetMath");
+
+            correctionAdd("tutorial republic", "Tutorial Republic");
+
+            correctionAdd("al", "all");
+
+            correctionAdd("contein", "contain");
+
+            correctionAdd("creatign", "creating");
+
+            correctionAdd("depricated", "deprecated");
+
+            correctionAdd("decribed", "described");
+
+            correctionAdd("Electrical Contact Cleaner", "electrical contact cleaner");
+
+            correctionAdd("half-sphere", "halfsphere");
+            correctionAdd("half sphere", "halfsphere");
+
+            correctionAdd("idendical", "identical");
+
+            correctionAdd("Loop Invariant", "loop invariant");
+
+            correctionAdd("ramge", "range");
+
+            correctionAdd("re-align", "realign");
+
+            correctionAdd("re-instate", "reinstate");
+
+            correctionAdd("RCE", "remote code execution");
+
+            correctionAdd("Skybox", "skybox");
+
+            correctionAdd("subtile", "subtle");
+
+            correctionAdd("yess", "yes");
+            correctionAdd("Yess", "yes");
+
+            correctionAdd("0 indexed", "zero-based");
+            correctionAdd("zero-indexed", "zero-based");
+            correctionAdd("zero based", "zero-based");
+            correctionAdd("0-indexed", "zero-based");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54481,6 +54556,50 @@ namespace OverflowHelper.core
 
             URL_Add("vertex", "https://en.wiktionary.org/wiki/vertex#Noun");
 
+            URL_Add("Dat.GUI", "https://github.com/dataarts/dat.gui");
+
+            URL_Add("Javatpoint", "https://www.javatpoint.com/");
+
+            URL_Add("Log4j&nbsp;2", "https://en.wikipedia.org/wiki/Log4j");
+
+            URL_Add("PlanetMath", "https://en.wikipedia.org/wiki/PlanetMath");
+
+            URL_Add("Tutorial Republic", "https://www.tutorialrepublic.com/");
+
+            URL_Add("all", "https://en.wiktionary.org/wiki/all#Determiner");
+
+            URL_Add("contain", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("creating", "https://en.wiktionary.org/wiki/create#Verb");
+
+            URL_Add("deprecated", "https://en.wiktionary.org/wiki/deprecate#Verb");
+
+            URL_Add("described", "https://en.wiktionary.org/wiki/described#Verb");
+
+            URL_Add("electrical contact cleaner", "https://en.wikipedia.org/wiki/Contact_cleaner");
+
+            URL_Add("halfsphere", "https://en.wiktionary.org/wiki/halfsphere#Noun");
+
+            URL_Add("identical", "https://en.wiktionary.org/wiki/identical#Adjective");
+
+            URL_Add("loop invariant", "https://en.wikipedia.org/wiki/Loop_invariant");
+
+            URL_Add("range", "https://en.wiktionary.org/wiki/range#Noun");
+
+            URL_Add("realign", "https://en.wiktionary.org/wiki/realign#Verb");
+
+            URL_Add("reinstate", "https://en.wiktionary.org/wiki/reinstate#Verb");
+
+            URL_Add("remote code execution", "https://en.wikipedia.org/wiki/Arbitrary_code_execution");
+
+            URL_Add("skybox", "https://en.wikipedia.org/wiki/Skybox_(video_games)");
+
+            URL_Add("subtle", "https://en.wiktionary.org/wiki/subtle#Adjective");
+
+            URL_Add("yes", "https://en.wiktionary.org/wiki/yes#Particle");
+
+            URL_Add("zero-based", "https://en.wikipedia.org/wiki/Array_data_type#Index_origin");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54502,6 +54621,7 @@ namespace OverflowHelper.core
         private void addLookupData_alternativeWordSet()
         {
             correctionAdd("prase_", "parse_");
+            correctionAdd("perse_", "parse_");
 
             correctionAdd("geht_", "get_");
 
@@ -54524,6 +54644,7 @@ namespace OverflowHelper.core
             correctionAdd("evry_", "every_");
 
             correctionAdd("nee_", "new_");
+            correctionAdd("noew_", "new_");
 
             correctionAdd("if_", "of_");
 
@@ -54603,6 +54724,7 @@ namespace OverflowHelper.core
             correctionAdd("eval_", "eval (near \"*The args are read and concatenated together\"*)_");
 
             correctionAdd("int_", "it_");
+            correctionAdd("iit_", "it_");
 
             correctionAdd("[tag:node.js]_", "Node.js_");
 
@@ -54699,6 +54821,17 @@ namespace OverflowHelper.core
             correctionAdd("WMD_", "weapon of mass destruction_");
 
             correctionAdd("one line_", "one-line_");
+
+            correctionAdd("basic_", "101_");
+
+            correctionAdd("Photosphere_", "Photo Sphere_");
+            correctionAdd("photosphere_", "Photo Sphere_");
+
+            correctionAdd("User Experience_", "User Experience (Stack Exchange site)_");
+            correctionAdd("UX_", "User Experience (Stack Exchange site)_");
+
+            correctionAdd("CAS_", "compare-and-swap_");
+            correctionAdd("compare and swap_", "compare-and-swap_");
 
             // URL mappings
             //
@@ -54852,6 +54985,14 @@ namespace OverflowHelper.core
             URL_Add("weapon of mass destruction_", "https://en.wikipedia.org/wiki/Weapon_of_mass_destruction");
 
             URL_Add("one-line_", "https://www.collinsdictionary.com/dictionary/english/one-line");
+
+            URL_Add("101_", "https://en.wiktionary.org/wiki/101#Adjective");
+
+            URL_Add("Photo Sphere_", "https://en.wikipedia.org/wiki/Google_Camera#Photo_Sphere");
+
+            URL_Add("User Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
+
+            URL_Add("compare-and-swap_", "https://en.wikipedia.org/wiki/Compare-and-swap");
 
         } //addLookupData_alternativeWordSet()
 
