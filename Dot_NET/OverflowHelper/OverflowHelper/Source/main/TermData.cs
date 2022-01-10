@@ -14488,6 +14488,7 @@ namespace OverflowHelper.core
             correctionAdd("Object-Orientated", "object-oriented (OO)");
             correctionAdd("object-orientated", "object-oriented (OO)");
             correctionAdd("object-oriented", "object-oriented (OO)");
+            correctionAdd("obj-oriented", "object-oriented (OO)");
 
             correctionAdd("obselete", "obsolete");
             correctionAdd("obsolute", "obsolete");
@@ -15147,6 +15148,7 @@ namespace OverflowHelper.core
             correctionAdd("probelem", "problem");
             correctionAdd("Problem", "problem");
             correctionAdd("probleme", "problem");
+            correctionAdd("prolem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -20731,6 +20733,7 @@ namespace OverflowHelper.core
             correctionAdd("software recommendations", "Software Recommendations (Stack Exchange site)");
             correctionAdd("sof rec", "Software Recommendations (Stack Exchange site)");
             correctionAdd("software recs", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("Software Recommendations", "Software Recommendations (Stack Exchange site)");
 
             correctionAdd("tcptrace", "TCPTrace");
             correctionAdd("Tcptrace", "TCPTrace");
@@ -34688,6 +34691,32 @@ namespace OverflowHelper.core
             correctionAdd("zero-indexed", "zero-based");
             correctionAdd("zero based", "zero-based");
             correctionAdd("0-indexed", "zero-based");
+
+            correctionAdd("bert", "BERT");
+
+            correctionAdd("CASIO", "Casio");
+
+            correctionAdd("gmp", "GMP");
+            correctionAdd("GNU Multiple Precision Arithmetic Library", "GMP");
+
+            correctionAdd("mpir", "MPIR");
+            correctionAdd("Multiple Precision Integers and Rationals", "MPIR");
+
+            correctionAdd("Medical Sciences", "Medical Sciences (Stack Exchange site)");
+            correctionAdd("Medical SE", "Medical Sciences (Stack Exchange site)");
+
+            correctionAdd("cliqued", "clicked");
+
+            correctionAdd("cut-throat", "cutthroat");
+            correctionAdd("cuthroat", "cutthroat");
+            correctionAdd("cut-hroat", "cutthroat");
+
+            correctionAdd("FX-82MS", "fx-82MS");
+
+            correctionAdd("handheld", "hand-held");
+            correctionAdd("hand held", "hand-held");
+
+            correctionAdd("un-accept", "unaccept");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54599,6 +54628,26 @@ namespace OverflowHelper.core
             URL_Add("yes", "https://en.wiktionary.org/wiki/yes#Particle");
 
             URL_Add("zero-based", "https://en.wikipedia.org/wiki/Array_data_type#Index_origin");
+
+            URL_Add("BERT", "https://en.wikipedia.org/wiki/BERT_(language_model)");
+
+            URL_Add("Casio", "https://en.wikipedia.org/wiki/Casio#Calculators");
+
+            URL_Add("GMP", "https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library");
+
+            URL_Add("MPIR", "https://en.wikipedia.org/wiki/MPIR_(mathematics_software)");
+
+            URL_Add("Medical Sciences (Stack Exchange site)", "https://medicalsciences.stackexchange.com/tour");
+
+            URL_Add("clicked", "https://en.wiktionary.org/wiki/click#Verb");
+
+            URL_Add("cutthroat", "https://en.wiktionary.org/wiki/cutthroat#Adjective");
+
+            URL_Add("fx-82MS", "https://en.wikipedia.org/wiki/Casio#Scientific_calculators");
+
+            URL_Add("hand-held", "https://en.wiktionary.org/wiki/hand-held#Adjective");
+
+            URL_Add("unaccept", "https://en.wiktionary.org/wiki/unaccept#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
