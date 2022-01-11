@@ -19815,7 +19815,9 @@ namespace OverflowHelper.core
 
             correctionAdd("DNSSEC", "Domain Name System Security Extensions");
 
-            correctionAdd("english.se", "English Language & Usage");
+            correctionAdd("english.se", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("English language and usage", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("English Language & Usage", "English Language & Usage (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("iir", "IIR");
 
@@ -20482,10 +20484,6 @@ namespace OverflowHelper.core
             correctionAdd("upgade", "upgrade");
             correctionAdd("upgrage", "upgrade");
 
-            correctionAdd("Chemistry SE", "Chemistry (Stack Exchange site)");
-            correctionAdd("chemistry SE", "Chemistry (Stack Exchange site)");
-            correctionAdd("Chemistry.SE", "Chemistry (Stack Exchange site)");
-
             correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
             correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
             correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
@@ -20499,11 +20497,6 @@ namespace OverflowHelper.core
             correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Mathematics", "Mathematics (Stack Exchange site)");
             correctionAdd("Math Stack Exchange", "Mathematics (Stack Exchange site)");
-
-            correctionAdd("Physics SE", "Physics (Stack Exchange site)");
-            correctionAdd("physics SE", "Physics (Stack Exchange site)");
-            correctionAdd("Physics.SE", "Physics (Stack Exchange site)");
-            correctionAdd("Physics (SE)", "Physics (Stack Exchange site)");
 
             correctionAdd("alianate", "alienate");
 
@@ -21483,13 +21476,9 @@ namespace OverflowHelper.core
             correctionAdd("Code Review", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
+            correctionAdd("Database Administrators", "Database Administrators (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("embarcadero", "Embarcadero");
-
-            correctionAdd("Joomla SE", "Joomla (Stack Exchange site)");
-            correctionAdd("Joomla Stack Exchange", "Joomla (Stack Exchange site)");
-            correctionAdd("JSE", "Joomla (Stack Exchange site)");
-            correctionAdd("J SE", "Joomla (Stack Exchange site)");
 
             correctionAdd("bilion", "billion");
 
@@ -22259,7 +22248,9 @@ namespace OverflowHelper.core
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
 
-            correctionAdd("AskDifferent", "Ask Different");
+            correctionAdd("Apple SE", "Ask Different (Stack Exchange site)");
+            correctionAdd("Ask Different", "Ask Different (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("AskDifferent", "Ask Different (Stack Exchange site)");
 
             correctionAdd("diffrent", "different");
             correctionAdd("diferent", "different");
@@ -23360,6 +23351,7 @@ namespace OverflowHelper.core
             correctionAdd("euler", "Euler");
 
             correctionAdd("Game development", "Game Development (Stack Exchange site)");
+            correctionAdd("Game Development", "Game Development (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("terraform", "Terraform");
 
@@ -25249,6 +25241,7 @@ namespace OverflowHelper.core
             correctionAdd("raf", "RAF");
 
             correctionAdd("signal processing", "Signal Processing (Stack Exchange site)");
+            correctionAdd("Signal Processing", "Signal Processing (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("Sound Design", "Sound Design (Stack Exchange site)");
             correctionAdd("sound design", "Sound Design (Stack Exchange site)");
@@ -25256,6 +25249,7 @@ namespace OverflowHelper.core
             correctionAdd("Travel", "Travel (Stack Exchange site)");
 
             correctionAdd("video production", "Video Production (Stack Exchange site)");
+            correctionAdd("Video Production", "Video Production (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("wechat", "WeChat");
 
@@ -25880,6 +25874,7 @@ namespace OverflowHelper.core
             correctionAdd("re-fire", "refire");
 
             correctionAdd("ELL", "English Language Learners (Stack Exchange site)");
+            correctionAdd("English Language Learners", "English Language Learners (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("analizer", "analyzer");
 
@@ -26806,8 +26801,6 @@ namespace OverflowHelper.core
             correctionAdd("du-pont cable", "Dupont connector");
 
             correctionAdd("esp32", "ESP32");
-
-            correctionAdd("English language and usage", "English Language & Usage (Stack Exchange site)");
 
             correctionAdd("HL2", "Half-Life 2");
 
@@ -30538,6 +30531,7 @@ namespace OverflowHelper.core
             correctionAdd("varities", "varieties");
 
             correctionAdd("M&TV", "Movies & TV (Stack Exchange site)");
+            correctionAdd("Movies & TV", "Movies & TV (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("blessing and curse", "a blessing and a curse");
 
@@ -31750,6 +31744,7 @@ namespace OverflowHelper.core
             correctionAdd("Bit.ly", "Bitly");
 
             correctionAdd("matter modeling", "Matter Modeling (Stack Exchange site)");
+            correctionAdd("Matter Modeling", "Matter Modeling (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("visualgdb", "VisualGDB");
             correctionAdd("visualGDB", "VisualGDB");
@@ -31943,6 +31938,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Arquade", "Arqade (Stack Exchange site)");
             correctionAdd("arquade", "Arqade (Stack Exchange site)");
+            correctionAdd("Arqade", "Arqade (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("real VNC", "RealVNC");
             correctionAdd("real vnc", "RealVNC");
@@ -32045,6 +32041,7 @@ namespace OverflowHelper.core
 
             correctionAdd("RPG.SE", "Role-playing Games (Stack Exchange site)");
             correctionAdd("RPG", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("Role-playing Games", "Role-playing Games (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("Sagittarius A", "Sagittarius A*");
             correctionAdd("Sgr A", "Sagittarius A*");
@@ -32193,10 +32190,6 @@ namespace OverflowHelper.core
             correctionAdd("eFence", "Electric Fence");
             correctionAdd("efence", "Electric Fence");
 
-            correctionAdd("Electrical Engineering SE", "Electrical Engineering (Stack Exchange site)");
-            correctionAdd("EE.SE", "Electrical Engineering (Stack Exchange site)");
-            correctionAdd("EE SE", "Electrical Engineering (Stack Exchange site)");
-
             correctionAdd("game maker studio", "GameMaker Studio");
             correctionAdd("GameMaker", "GameMaker Studio");
             correctionAdd("Game Maker Studio", "GameMaker Studio");
@@ -32262,10 +32255,6 @@ namespace OverflowHelper.core
             correctionAdd("ArtiX", "Artix Linux");
             correctionAdd("Artix", "Artix Linux");
             correctionAdd("artix", "Artix Linux");
-
-            correctionAdd("Apple SE", "Ask Different (Stack Exchange site)");
-
-            correctionAdd("Bioinformatics SE", "Bioinformatics (Stack Exchange site)");
 
             correctionAdd("protestant", "Protestant");
 
@@ -33291,9 +33280,6 @@ namespace OverflowHelper.core
             correctionAdd("iEEEtran", "IEEEtran");
             correctionAdd("ieeetrans", "IEEEtran");
 
-            correctionAdd("Mathematica site", "Mathematica (Stack Exchange site)");
-            correctionAdd("Mathematica SE", "Mathematica (Stack Exchange site)");
-
             correctionAdd("poytning theorem", "Poynting's theorem");
             correctionAdd("Poynting theorem", "Poynting's theorem");
             correctionAdd("Poytning theorem", "Poynting's theorem");
@@ -33354,8 +33340,6 @@ namespace OverflowHelper.core
             correctionAdd("glfw", "GLFW");
 
             correctionAdd("Galaxy XCover", "Galaxy Xcover");
-
-            correctionAdd("LawSE", "Law (Stack Exchange site)");
 
             correctionAdd("piece of shit", "POS");
 
@@ -33423,8 +33407,6 @@ namespace OverflowHelper.core
             correctionAdd("githooks", "Git hooks");
             correctionAdd("git-hooks", "Git hooks");
             correctionAdd("git hooks", "Git hooks");
-
-            correctionAdd("Islam SE", "Islam (Stack Exchange site)");
 
             correctionAdd("Wall", "Larry Wall");
 
@@ -33681,6 +33663,7 @@ namespace OverflowHelper.core
             correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
 
             correctionAdd("Bible hermeneutics", "Biblical Hermeneutics (Stack Exchange site)");
+            correctionAdd("Biblical Hermeneutics", "Biblical Hermeneutics (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("prometheus", "Prometheus");
 
@@ -43707,7 +43690,7 @@ namespace OverflowHelper.core
 
             URL_Add("Domain Name System Security Extensions", "https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions");
 
-            URL_Add("English Language & Usage", "https://english.stackexchange.com/tour");
+            URL_Add("English Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
 
             URL_Add("IIR", "https://en.wikipedia.org/wiki/Infinite_impulse_response");
 
@@ -43799,7 +43782,7 @@ namespace OverflowHelper.core
 
             URL_Add("access token", "https://en.wikipedia.org/wiki/Access_token");
 
-            URL_Add("Ask Different", "https://apple.stackexchange.com/tour");
+            URL_Add("Ask Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
 
             URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
 
@@ -44155,13 +44138,9 @@ namespace OverflowHelper.core
 
             URL_Add("upgrade", "https://en.wiktionary.org/wiki/upgrade#Verb");
 
-            URL_Add("Chemistry (Stack Exchange site)", "https://chemistry.stackexchange.com/tour");
-
             URL_Add("Internet&nbsp;Explorer&nbsp;5", "https://en.wikipedia.org/wiki/Internet_Explorer_5");
 
             URL_Add("Mathematics (Stack Exchange site)", "https://math.stackexchange.com/tour");
-
-            URL_Add("Physics (Stack Exchange site)", "https://physics.stackexchange.com/tour");
 
             URL_Add("opcode", "https://en.wikipedia.org/wiki/Opcode");
 
@@ -44888,8 +44867,6 @@ namespace OverflowHelper.core
             URL_Add("Drupal Answers", "https://drupal.stackexchange.com/tour");
 
             URL_Add("Embarcadero", "https://en.wikipedia.org/wiki/Embarcadero_Technologies");
-
-            URL_Add("Joomla (Stack Exchange site)", "https://joomla.stackexchange.com/tour");
 
             URL_Add("billion", "https://en.wiktionary.org/wiki/billion#Noun");
 
@@ -48574,8 +48551,6 @@ namespace OverflowHelper.core
             URL_Add("Dupont connector", "http://kerryburton.com/dupont-connectors/");
 
             URL_Add("ESP32", "https://en.wikipedia.org/wiki/ESP32");
-
-            URL_Add("English Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
 
             URL_Add("Half-Life 2", "https://en.wikipedia.org/wiki/Half-Life_2");
 
@@ -52805,8 +52780,6 @@ namespace OverflowHelper.core
 
             URL_Add("Electric Fence", "https://en.wikipedia.org/wiki/Electric_Fence");
 
-            URL_Add("Electrical Engineering (Stack Exchange site)", "https://electronics.stackexchange.com/tour");
-
             URL_Add("GameMaker Studio", "https://en.wikipedia.org/wiki/GameMaker");
 
             URL_Add("GnuTLS", "https://en.wikipedia.org/wiki/GnuTLS");
@@ -52866,10 +52839,6 @@ namespace OverflowHelper.core
             URL_Add("wacko", "https://en.wiktionary.org/wiki/wacko#Adjective");
 
             URL_Add("Artix Linux", "https://en.wikipedia.org/wiki/Artix_Linux");
-
-            URL_Add("Ask Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
-
-            URL_Add("Bioinformatics (Stack Exchange site)", "https://bioinformatics.stackexchange.com/tour");
 
             URL_Add("Protestant", "https://en.wiktionary.org/wiki/Protestant#Adjective");
 
@@ -53737,8 +53706,6 @@ namespace OverflowHelper.core
 
             URL_Add("IEEEtran", "https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf");
 
-            URL_Add("Mathematica (Stack Exchange site)", "https://mathematica.stackexchange.com/tour");
-
             URL_Add("Poynting's theorem", "https://en.wikipedia.org/wiki/Poynting's_theorem");
 
             URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
@@ -53792,8 +53759,6 @@ namespace OverflowHelper.core
             URL_Add("GLFW", "https://en.wikipedia.org/wiki/GLFW");
 
             URL_Add("Galaxy Xcover", "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover");
-
-            URL_Add("Law (Stack Exchange site)", "https://law.stackexchange.com/tour");
 
             URL_Add("POS", "https://en.wiktionary.org/wiki/POS#Noun");
 
@@ -53858,8 +53823,6 @@ namespace OverflowHelper.core
             URL_Add("on the order of", "https://en.wiktionary.org/wiki/on_the_order_of#Adverb");
 
             URL_Add("Git hooks", "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks");
-
-            URL_Add("Islam (Stack Exchange site)", "https://islam.stackexchange.com/tour");
 
             URL_Add("Larry Wall", "https://en.wikipedia.org/wiki/Larry_Wall");
 
@@ -54882,6 +54845,41 @@ namespace OverflowHelper.core
             correctionAdd("CAS_", "compare-and-swap_");
             correctionAdd("compare and swap_", "compare-and-swap_");
 
+            correctionAdd("Bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
+            correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
+
+            correctionAdd("Chemistry SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("Chemistry.SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("Chemistry_", "Chemistry (Stack Exchange site)_"); // Sort of identity mapping"
+
+            correctionAdd("Electrical Engineering SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE.SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("Electrical Engineering_", "Electrical Engineering (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Islam SE_", "Islam (Stack Exchange site)_");
+            correctionAdd("Islam_", "Islam (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Joomla SE_", "Joomla (Stack Exchange site)_");
+            correctionAdd("Joomla Stack Exchange_", "Joomla (Stack Exchange site)_");
+            correctionAdd("JSE_", "Joomla (Stack Exchange site)_");
+            correctionAdd("J SE_", "Joomla (Stack Exchange site)_");
+            correctionAdd("Joomla_", "Joomla (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("LawSE_", "Law (Stack Exchange site)_");
+            correctionAdd("Law_", "Law (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Mathematica site_", "Mathematica (Stack Exchange site)_");
+            correctionAdd("Mathematica SE_", "Mathematica (Stack Exchange site)_");
+            correctionAdd("Mathematica_", "Mathematica (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Physics SE_", "Physics (Stack Exchange site)_");
+            correctionAdd("physics SE_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics.SE_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics (SE)_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
+
             // URL mappings
             //
             //
@@ -55042,6 +55040,22 @@ namespace OverflowHelper.core
             URL_Add("User Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
 
             URL_Add("compare-and-swap_", "https://en.wikipedia.org/wiki/Compare-and-swap");
+
+            URL_Add("Bioinformatics (Stack Exchange site)_", "https://bioinformatics.stackexchange.com/tour");
+
+            URL_Add("Chemistry (Stack Exchange site)_", "https://chemistry.stackexchange.com/tour");
+
+            URL_Add("Electrical Engineering (Stack Exchange site)_", "https://electronics.stackexchange.com/tour");
+
+            URL_Add("Islam (Stack Exchange site)_", "https://islam.stackexchange.com/tour");
+
+            URL_Add("Joomla (Stack Exchange site)_", "https://joomla.stackexchange.com/tour");
+
+            URL_Add("Law (Stack Exchange site)_", "https://law.stackexchange.com/tour");
+
+            URL_Add("Mathematica (Stack Exchange site)_", "https://mathematica.stackexchange.com/tour");
+
+            URL_Add("Physics (Stack Exchange site)_", "https://physics.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
