@@ -314,7 +314,8 @@ if ($proceedWithMainProcessing)
         } #Line with "accesskey="
 
         # Extract the indicated keyboard shortcut from text (normal HTML
-        # text or from the label element) - by (HTML) underlined text.
+        # text or from the label element) - by (HTML) underlined text -
+        # <u></u>.
         #
         if (! 0) # Exceptions? But ***not*** for 'echo' statements in PHP
                  # (/echo.*;/) - we actually want to capture the keyboard
@@ -367,6 +368,21 @@ if ($proceedWithMainProcessing)
                       "shortcut $indicatedKeyboardShortcut\n\n";
 
                     $exitCode = 8;
+                    $errors++; # Some redundancy here...
+                }
+
+                # Disallow keyboard shortcuts on single-letter 
+                # words (at least for now).
+                #
+                if (/ <u>([a-zA-Z])<\/u> /) 
+                {
+                    print
+                      "\nThe *indicated* keyboard shortcut is for " .
+                      "a single-letter word. This is not allowed. " .
+                      "On line $line: indicated* keyboard " .
+                      "shortcut $indicatedKeyboardShortcut\n\n";
+
+                    $exitCode = 10;
                     $errors++; # Some redundancy here...
                 }
 

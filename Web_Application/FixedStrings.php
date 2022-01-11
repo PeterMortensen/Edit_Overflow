@@ -243,7 +243,7 @@
             </p>
 
             <p><a href="https://en.wikipedia.org/wiki/Tilde">Tilde</a> 
-                (Unicode <u>l</u> code point 007E):
+                (Unicod<u>e</u> code point 007E):
 
                 <input
                     name="Tilde"
@@ -252,8 +252,8 @@
                     class="XYZ43"
                     value="~"
                     style="width:30px;"
-                    accesskey="L"
-                    title="Shortcut: Shift + Alt + L"
+                    accesskey="E"
+                    title="Shortcut: Shift + Alt + E"
                 />
             </p>
 
