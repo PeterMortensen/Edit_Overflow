@@ -578,7 +578,7 @@
 
 
             <!-- Template
-            <p>Some text with <u>z</u> <br/>
+            <p>Some text with <u>Z</u>s <br/>
 
                 <input
                     name="X"
