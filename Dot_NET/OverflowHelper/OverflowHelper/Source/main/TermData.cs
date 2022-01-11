@@ -9146,6 +9146,7 @@ namespace OverflowHelper.core
             correctionAdd("unfortuneatly", "unfortunately");
             correctionAdd("Unfortunely", "unfortunately");
             correctionAdd("unfortunely", "unfortunately");
+            correctionAdd("unfortuntately", "unfortunately");
 
             correctionAdd("beggining", "beginning");
             correctionAdd("beginng", "beginning");
@@ -9761,6 +9762,7 @@ namespace OverflowHelper.core
             correctionAdd("max imam", "maximum");
             correctionAdd("Maximam", "maximum");
             correctionAdd("maximam", "maximum");
+            correctionAdd("maximun", "maximum");
 
             correctionAdd("ecom", "E-commerce");
             correctionAdd("e-Commerce", "E-commerce");
@@ -11469,6 +11471,7 @@ namespace OverflowHelper.core
             correctionAdd("laraval", "Laravel");
             correctionAdd("Laraval", "Laravel");
             correctionAdd("larval", "Laravel");
+            correctionAdd("levaral", "Laravel");
 
             correctionAdd("wasnt", "wasn’t");
             correctionAdd("wasn't", "wasn’t");
@@ -14057,6 +14060,7 @@ namespace OverflowHelper.core
             correctionAdd("Latests", "latest");
             correctionAdd("Latest", "latest");
             correctionAdd("lates", "latest");
+            correctionAdd("leatest", "latest");
 
             correctionAdd("Lithium", "lithium");
             correctionAdd("Lithion", "lithium");
@@ -14542,6 +14546,7 @@ namespace OverflowHelper.core
             correctionAdd("xmlhttprequest", "XMLHttpRequest");
             correctionAdd("xmlHttpRequest", "XMLHttpRequest");
             correctionAdd("XMLHTTPRequests", "XMLHttpRequest"); // Not 100% correct - plural.
+            correctionAdd("Xmlhttprequest", "XMLHttpRequest");
 
             correctionAdd("pr", "pull request");
             correctionAdd("PR", "pull request");
@@ -14596,6 +14601,7 @@ namespace OverflowHelper.core
 
             correctionAdd("coockies", "cookies");
             correctionAdd("Cookies", "cookies");
+            correctionAdd("Cookie", "cookies"); // Not 100% correct - plural/singular.
 
             correctionAdd("hidding", "hiding");
 
@@ -15554,6 +15560,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sny", "any");
             correctionAdd("anny", "any");
+            correctionAdd("eny", "any");
 
             correctionAdd("one to many", "one-to-many");
             correctionAdd("1 to many", "one-to-many");
@@ -15941,6 +15948,7 @@ namespace OverflowHelper.core
 
             correctionAdd("out-of-date", "out of date");
             correctionAdd("ot of date", "out of date");
+            correctionAdd("Out of date", "out of date");
 
             correctionAdd("run of the mill", "run-of-the-mill");
 
@@ -15995,6 +16003,8 @@ namespace OverflowHelper.core
 
             correctionAdd("psedo", "pseudo");
             correctionAdd("psuedo", "pseudo");
+            correctionAdd("Pseduo", "pseudo");
+            correctionAdd("pseduo", "pseudo");
 
             correctionAdd("w3Schools", "W3Schools");
             correctionAdd("w3schools", "W3Schools");
@@ -20010,6 +20020,7 @@ namespace OverflowHelper.core
             correctionAdd("GnuPG", "GNU Privacy Guard");
             correctionAdd("GNU pg", "GNU Privacy Guard");
             correctionAdd("gnu pg", "GNU Privacy Guard");
+            correctionAdd("gpg", "GNU Privacy Guard");
 
             correctionAdd("mx", "MX record");
             correctionAdd("MX", "MX record");
@@ -23319,6 +23330,7 @@ namespace OverflowHelper.core
             correctionAdd("commonjs", "CommonJS");
             correctionAdd("CommonJs", "CommonJS");
             correctionAdd("commonJS", "CommonJS");
+            correctionAdd("Common JS", "CommonJS");
 
             correctionAdd("iify", "IIFE");
             correctionAdd("iife", "IIFE");
@@ -31390,6 +31402,9 @@ namespace OverflowHelper.core
 
             correctionAdd("webscraping", "web scraping");
             correctionAdd("web-scraping", "web scraping");
+            correctionAdd("Web Scrapper", "web scraping");
+            correctionAdd("web scrapper", "web scraping");
+            correctionAdd("web scraper", "web scraping");
 
             correctionAdd("Web browser", "web browser");
             correctionAdd("Web Browser", "web browser");
@@ -31597,6 +31612,7 @@ namespace OverflowHelper.core
 
             correctionAdd("can not", "cannot");
             correctionAdd("canot", "cannot");
+            correctionAdd("cannoth", "cannot");
 
             correctionAdd("combinatorical", "combinatorial");
 
@@ -33648,6 +33664,7 @@ namespace OverflowHelper.core
 
             correctionAdd("`node_modules`", "node_modules folder");
             correctionAdd("node_modules", "node_modules folder");
+            correctionAdd("node_module", "node_modules folder");
 
             correctionAdd("propertional", "proportional");
 
@@ -33988,6 +34005,7 @@ namespace OverflowHelper.core
 
             correctionAdd("log4j", "Log4j");
             correctionAdd("Log4J", "Log4j");
+            correctionAdd("L4J", "Log4j");
 
             correctionAdd("Barbarossa", "Operation Barbarossa");
 
@@ -34701,6 +34719,33 @@ namespace OverflowHelper.core
 
             correctionAdd("un-accept", "unaccept");
 
+            correctionAdd("Advanced Placement United States History", "AP United States History");
+            correctionAdd("APUSH", "AP United States History");
+
+            correctionAdd("Black Hat", "Black Hat Briefings");
+            correctionAdd("BlackHat", "Black Hat Briefings");
+
+            correctionAdd("jvisualVM", "Java VisualVM");
+            correctionAdd("JVisualVM", "Java VisualVM");
+            correctionAdd("VisualVM", "Java VisualVM");
+            correctionAdd("jvisualvm", "Java VisualVM");
+
+            correctionAdd("Primefaces", "PrimeFaces");
+
+            correctionAdd("Anycasted", "anycasted");
+
+            correctionAdd("crash dump", "core dump");
+
+            correctionAdd("elemets", "elements");
+
+            correctionAdd("Itertools", "itertools");
+
+            correctionAdd("Multiple choice", "multiple-choice");
+
+            correctionAdd("mulitplexed", "multiplexed");
+
+            correctionAdd("cuantitative", "quantitative");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -35156,6 +35201,8 @@ namespace OverflowHelper.core
             correctionAdd("pharma", "pharmaceutical"); // Coronavirus
 
             correctionAdd("flu", "influenza"); // Coronavirus
+            correctionAdd("Influenza", "influenza"); // Coronavirus
+            correctionAdd("Influenze", "influenza"); // Coronavirus
 
             correctionAdd("covaxin", "Covaxin"); // Coronavirus
 
@@ -54612,6 +54659,28 @@ namespace OverflowHelper.core
 
             URL_Add("unaccept", "https://en.wiktionary.org/wiki/unaccept#Verb");
 
+            URL_Add("AP United States History", "https://en.wikipedia.org/wiki/AP_United_States_History");
+
+            URL_Add("Black Hat Briefings", "https://en.wikipedia.org/wiki/Black_Hat_Briefings");
+
+            URL_Add("Java VisualVM", "https://en.wikipedia.org/wiki/VisualVM");
+
+            URL_Add("PrimeFaces", "https://en.wikipedia.org/wiki/PrimeFaces");
+
+            URL_Add("anycasted", "https://en.wikipedia.org/wiki/Anycast");
+
+            URL_Add("core dump", "https://en.wikipedia.org/wiki/Core_dump");
+
+            URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
+
+            URL_Add("itertools", "https://docs.python.org/3/library/itertools.html");
+
+            URL_Add("multiple-choice", "https://en.wiktionary.org/wiki/multiple-choice#Adjective");
+
+            URL_Add("multiplexed", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("quantitative", "https://en.wiktionary.org/wiki/quantitative#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54852,6 +54921,7 @@ namespace OverflowHelper.core
             correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
             correctionAdd("Chemistry.SE_", "Chemistry (Stack Exchange site)_");
             correctionAdd("Chemistry_", "Chemistry (Stack Exchange site)_"); // Sort of identity mapping"
+            correctionAdd("chemistry_", "Chemistry (Stack Exchange site)_");
 
             correctionAdd("Electrical Engineering SE_", "Electrical Engineering (Stack Exchange site)_");
             correctionAdd("EE.SE_", "Electrical Engineering (Stack Exchange site)_");
