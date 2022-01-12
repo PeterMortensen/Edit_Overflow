@@ -32,16 +32,16 @@
 
       1. We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
 
-           <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
-           
+            <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
+
       2. Parameters are supported, including for GET:
-      
-           <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
-      
-           <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>
-        
-          
-        
+
+            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
+
+            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>
+
+
+
 -->
 
 
@@ -355,7 +355,7 @@
                     title="Shortcut: Shift + Alt + H"
                 />
 
-                <label for="MediaWiki_link">Media<u>W</u>iki</label>
+                <label for="MediaWiki_link">M<u>e</u>diaWiki</label>
                 <input
                     name="MediaWiki_link"
                     type="text"
@@ -363,14 +363,14 @@
                     class="XYZ27"
                     <?php the_formValue($MediaWiki_link); ?>
                     style="width:650px;"
-                    accesskey="W"
-                    title="Shortcut: Shift + Alt + W"
+                    accesskey="E"
+                    title="Shortcut: Shift + Alt + E"
                 />
 
 
 
-                <!-- Hidden field, close to the output format for
-                     the edit summary
+                <!--  Hidden field, close to the output format for
+                      the edit summary
 
                   Sample:
 
@@ -404,9 +404,9 @@
                 <label for="resetState"><u>R</u>eset lookup state</label>  <!-- The order matters! -->
 
 
-                <!-- Submit button  -->
-                <!-- For 'value' (the displayed text in the button), tags 'u'
-                     or 'strong' do not work!! -->
+                <!--  Submit button  -->
+                <!--  For 'value' (the displayed text in the button), tags 'u'
+                      or 'strong' do not work!! -->
                 <input
                     name="LookUp"
                     type="submit"
@@ -414,8 +414,8 @@
                     class="XYZ03"
                     value="Generate"
                     style="width:100px;"
-                    accesskey="U"
-                    title="Shortcut: Shift + Alt + U"
+                    accesskey="G"
+                    title="Shortcut: Shift + Alt + G"
                 />
 
             </div>
@@ -437,7 +437,7 @@
             -->
             <a
                 href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FLink_Builder.php"
-                accesskey="V"
+                accesskey="W"
                 title="Shortcut: Shift + Alt + W"
             >HTML validation</a>.
             <a
