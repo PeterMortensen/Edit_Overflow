@@ -9732,6 +9732,9 @@ namespace OverflowHelper.core
             correctionAdd("pleas", "please");
             correctionAdd("Plese", "please");
             correctionAdd("plese", "please");
+            correctionAdd("Pease", "please");
+            correctionAdd("pease", "please");
+            correctionAdd("Please", "please");
 
             correctionAdd("1 Liner", "one-liner");
             correctionAdd("one liner", "one-liner");
@@ -11923,6 +11926,7 @@ namespace OverflowHelper.core
             correctionAdd("aswer", "answer");
             correctionAdd("asnwer", "answer");
             correctionAdd("answah", "answer");
+            correctionAdd("answear", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -13772,6 +13776,7 @@ namespace OverflowHelper.core
             correctionAdd("PBI", "Power BI");
             correctionAdd("PowerBi", "Power BI");
             correctionAdd("power BI", "Power BI");
+            correctionAdd("powerBI", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -15377,6 +15382,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rewiev", "review");
             correctionAdd("reciew", "review");
+            correctionAdd("reveiw", "review");
 
             correctionAdd("semi colon", "semicolon");
             correctionAdd("semi-colon", "semicolon");
@@ -17243,6 +17249,7 @@ namespace OverflowHelper.core
             correctionAdd("Implemented", "implemented");
             correctionAdd("Implemeted", "implemented");
             correctionAdd("implemeted", "implemented");
+            correctionAdd("implimented", "implemented");
 
             correctionAdd("obteined", "obtained");
 
@@ -17335,6 +17342,7 @@ namespace OverflowHelper.core
             correctionAdd("unsing", "using");
             correctionAdd("ising", "using");
             correctionAdd("sing", "using");
+            correctionAdd("usigin", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -21454,6 +21462,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stricture", "structure");
             correctionAdd("strucure", "structure");
+            correctionAdd("struture", "structure");
 
             correctionAdd("AWS amplify", "AWS Amplify");
             correctionAdd("aws-amplify", "AWS Amplify");
@@ -22903,6 +22912,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Oumuamua", "ʻOumuamua");
             correctionAdd("OUMUAMUA", "ʻOumuamua");
+            correctionAdd("muamua", "ʻOumuamua");
 
             correctionAdd("complimentary", "complementary");
 
@@ -29757,6 +29767,7 @@ namespace OverflowHelper.core
             correctionAdd("Curly", "curly");
 
             correctionAdd("inturn", "in turn");
+            correctionAdd("in term", "in turn");
 
             correctionAdd("manuvre", "manoeuvre");
 
@@ -31192,6 +31203,7 @@ namespace OverflowHelper.core
             correctionAdd("aplicable", "applicable");
 
             correctionAdd("Authenticate", "authenticate");
+            correctionAdd("authenticaticate", "authenticate");
 
             correctionAdd("calrity", "clarity");
 
@@ -32631,6 +32643,7 @@ namespace OverflowHelper.core
             correctionAdd("beleif", "belief");
 
             correctionAdd("best-practice", "best practice");
+            correctionAdd("Best Practice", "best practice");
 
             correctionAdd("cries faul", "cries foul");
 
@@ -34745,6 +34758,23 @@ namespace OverflowHelper.core
             correctionAdd("mulitplexed", "multiplexed");
 
             correctionAdd("cuantitative", "quantitative");
+
+            correctionAdd("Microsoft Azure Active Directory", "Azure AD");
+            correctionAdd("azureAD", "Azure AD");
+            correctionAdd("azure AD", "Azure AD");
+
+            correctionAdd("midway", "Battle of Midway");
+
+            correctionAdd("chart.js", "Chart.js");
+            correctionAdd("ChartJS", "Chart.js");
+            correctionAdd("chartjs", "Chart.js");
+
+            correctionAdd("Make file", "Makefile");
+            correctionAdd("makefile", "Makefile");
+            correctionAdd("GNUmakefile", "Makefile");
+            correctionAdd("GNU makefile", "Makefile");
+
+            correctionAdd("straigthen", "straighten");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54681,6 +54711,16 @@ namespace OverflowHelper.core
 
             URL_Add("quantitative", "https://en.wiktionary.org/wiki/quantitative#Adjective");
 
+            URL_Add("Azure AD", "https://en.wikipedia.org/wiki/Microsoft_Azure_Active_Directory");
+
+            URL_Add("Battle of Midway", "https://en.wikipedia.org/wiki/Battle_of_Midway");
+
+            URL_Add("Chart.js", "https://en.wikipedia.org/wiki/Chart.js");
+
+            URL_Add("Makefile", "https://en.wikipedia.org/wiki/Make_(software)#Makefile");
+
+            URL_Add("straighten", "https://en.wiktionary.org/wiki/straighten#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54950,6 +54990,8 @@ namespace OverflowHelper.core
             correctionAdd("Physics (SE)_", "Physics (Stack Exchange site)_");
             correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("Graph_", "graph_");
+
             // URL mappings
             //
             //
@@ -55126,6 +55168,8 @@ namespace OverflowHelper.core
             URL_Add("Mathematica (Stack Exchange site)_", "https://mathematica.stackexchange.com/tour");
 
             URL_Add("Physics (Stack Exchange site)_", "https://physics.stackexchange.com/tour");
+
+            URL_Add("graph_", "https://en.wiktionary.org/wiki/graph#Noun");
 
         } //addLookupData_alternativeWordSet()
 
