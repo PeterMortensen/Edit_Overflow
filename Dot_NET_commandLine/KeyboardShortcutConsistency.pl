@@ -548,7 +548,9 @@ if ($proceedWithMainProcessing)
                                        # Or had a positive list for the types
                                        # of elements ("text" and "checkbox").
                                        #
-                                       ($value eq "Look up") ||
+                                       ($value eq "Look up") || # For the main lookup page
+                                       
+                                       ($value eq "Generate") || # For the link builder page
                                  
                                        0
                                  )  

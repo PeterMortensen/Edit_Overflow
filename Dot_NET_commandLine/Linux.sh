@@ -1205,6 +1205,9 @@ cp $SRCFOLDER_WEB/deploymentSpecific.php                $WORKFOLDER
 cp $SRCFOLDER_WEB/Text.php                              $WORKFOLDER
 cp $SRCFOLDER_WEB/FixedStrings.php                      $WORKFOLDER
 cp $SRCFOLDER_WEB/EditSummaryFragments.php              $WORKFOLDER
+cp $SRCFOLDER_WEB/CannedComments.php                    $WORKFOLDER
+
+cp $SRCFOLDER_WEB/Link_Builder.php                      $WORKFOLDER
 
 
 # To the local web server
@@ -1214,14 +1217,19 @@ sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 
-# Only once at the web server location. Though ideally we want to
-# patch it on the fly so we are it is actually updated if needed.
+# Only once at the web server location. Though ideally 
+# we want to patch it on the fly so we are sure it 
+# is actually updated if needed.
 #
 #sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
 
 sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/CannedComments.php               $LOCAL_WEBSERVER_FOLDER
+
+sudo cp $SRCFOLDER_WEB/Link_Builder.php                 $LOCAL_WEBSERVER_FOLDER
+
 
 
 # Compile, run unit tests, run, and redirect SQL & HTML output to files
@@ -1251,6 +1259,9 @@ keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"      
 keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               6
 
 keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            7
+
+keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"               7
+
 
 
 # #################################################################
@@ -1399,6 +1410,7 @@ webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&Lo
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native"                        "localWebserver_Text"                    16
 webServer_test  "http://localhost/world/FixedStrings.php?OverflowStyle=Native"                "localWebserver_fixed_strings"           17
 webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=Native"        "localWebserver_Edit_summary_fragments"  18
+webServer_test  "http://localhost/world/CannedComments.php?OverflowStyle=Native"              "localWebserver_canned_comments"         18
 
 # Invoke the function "Remove TABs and trailing whitespace" in
 # the Edit Overflow "text" window
@@ -1413,6 +1425,8 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%
 # Invoke the function "Real quotes" in the Edit Overflow "text" window
 #
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            21
+
+
 
 #exit
 
