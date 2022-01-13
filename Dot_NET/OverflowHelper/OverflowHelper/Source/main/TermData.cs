@@ -3350,6 +3350,7 @@ namespace OverflowHelper.core
             correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
             correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
             correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
+            correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -10410,6 +10411,7 @@ namespace OverflowHelper.core
             correctionAdd("guestion", "question");
             correctionAdd("qusestion", "question");
             correctionAdd("qusstion", "question");
+            correctionAdd("quesion", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -10672,6 +10674,7 @@ namespace OverflowHelper.core
             correctionAdd("Xamarian", "Xamarin");
             correctionAdd("xamarin", "Xamarin");
             correctionAdd("Xamarine", "Xamarin");
+            correctionAdd("Ximarian", "Xamarin");
 
             correctionAdd("ymmv", "your mileage may vary");
             correctionAdd("YMMV", "your mileage may vary");
@@ -12005,6 +12008,9 @@ namespace OverflowHelper.core
             correctionAdd("read only", "read-only");
             correctionAdd("Read-Only", "read-only");
 
+            correctionAdd("inly", "only");
+            correctionAdd("on;y", "only");
+
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
             correctionAdd("reallly", "really");
@@ -12959,6 +12965,7 @@ namespace OverflowHelper.core
             correctionAdd("in-order", "in order");
 
             correctionAdd("incriment", "increment");
+            correctionAdd("inclriment", "increment");
 
             correctionAdd("ma", "mA");
 
@@ -18062,6 +18069,7 @@ namespace OverflowHelper.core
 
             correctionAdd("collequal", "colloquial");
             correctionAdd("collegual", "colloquial");
+            correctionAdd("collogical", "colloquial");
 
             correctionAdd("Communist", "communist");
             correctionAdd("coomunist", "communist");
@@ -19569,8 +19577,6 @@ namespace OverflowHelper.core
 
             correctionAdd("zero-ing", "zeroing");
 
-            correctionAdd("inly", "only");
-
             correctionAdd("real world", "real-world");
 
             correctionAdd("bronze age", "Bronze Age");
@@ -20214,6 +20220,7 @@ namespace OverflowHelper.core
             correctionAdd("key board", "keyboard");
             correctionAdd("keybord", "keyboard");
             correctionAdd("KeyBoard", "keyboard");
+            correctionAdd("Keyboard", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -22930,6 +22937,7 @@ namespace OverflowHelper.core
             correctionAdd("Nuxt", "Nuxt.js");
             correctionAdd("nuxt.js", "Nuxt.js");
             correctionAdd("nuxt js", "Nuxt.js");
+            correctionAdd("nuxtjs", "Nuxt.js");
 
             correctionAdd("vue native", "Vue Native");
 
@@ -23008,6 +23016,7 @@ namespace OverflowHelper.core
             correctionAdd("Occam's Razor", "Occam's razor");
 
             correctionAdd("Proxima Centuri", "Proxima Centauri");
+            correctionAdd("Proxima", "Proxima Centauri");
 
             correctionAdd("Proxima B", "Proxima Centauri b");
 
@@ -28680,6 +28689,13 @@ namespace OverflowHelper.core
             correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
             correctionAdd("Shlemiel the painter's algorithm", "Shlemiel the painter’s algorithm");
             correctionAdd("Shlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel-the-Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter’s", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
 
             correctionAdd("factoral", "factorial");
             correctionAdd("Factorial", "factorial");
@@ -31137,6 +31153,7 @@ namespace OverflowHelper.core
             correctionAdd("Servcie", "service");
             correctionAdd("servie", "service");
             correctionAdd("servce", "service");
+            correctionAdd("serivce", "service");
 
             correctionAdd("substracting", "subtracting");
 
@@ -34775,6 +34792,36 @@ namespace OverflowHelper.core
             correctionAdd("GNU makefile", "Makefile");
 
             correctionAdd("straigthen", "straighten");
+
+            correctionAdd("aabb", "AABB");
+            correctionAdd("Axis-Aligned Bounding Box", "AABB");
+            correctionAdd("axis-aligned bounding box", "AABB");
+
+            correctionAdd("analog-to-digital converter", "ADC");
+
+            correctionAdd("Ariane5", "Ariane 5");
+
+            correctionAdd("M1 Max", "M1 Max MacBook Pro");
+            correctionAdd("M1 max", "M1 Max MacBook Pro");
+
+            correctionAdd("overleaf", "Overleaf");
+
+            correctionAdd("PowerQuery", "Power Query");
+
+            correctionAdd("spigot", "Spigot");
+
+            correctionAdd("Delta-v", "delta-v");
+
+            correctionAdd("enforcable", "enforceable");
+            correctionAdd("Enforcable", "enforceable");
+
+            correctionAdd("NG SERVE", "ng serve");
+
+            correctionAdd("oftused", "oft-used");
+            correctionAdd("often used", "oft-used");
+            correctionAdd("oft used", "oft-used");
+
+            correctionAdd("Tsunami", "tsunami");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54721,6 +54768,30 @@ namespace OverflowHelper.core
 
             URL_Add("straighten", "https://en.wiktionary.org/wiki/straighten#Verb");
 
+            URL_Add("AABB", "https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box");
+
+            URL_Add("ADC", "https://en.wikipedia.org/wiki/Analog-to-digital_converter");
+
+            URL_Add("Ariane 5", "https://en.wikipedia.org/wiki/Ariane_5");
+
+            URL_Add("M1 Max MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro#5th_generation_(M1_Pro_and_M1_Max)");
+
+            URL_Add("Overleaf", "https://en.wikipedia.org/wiki/Overleaf");
+
+            URL_Add("Power Query", "https://en.wikipedia.org/wiki/Microsoft_Power_BI#History");
+
+            URL_Add("Spigot", "https://www.spigotmc.org/wiki/about-spigot/");
+
+            URL_Add("delta-v", "https://en.wikipedia.org/wiki/Delta-v");
+
+            URL_Add("enforceable", "https://en.wiktionary.org/wiki/enforceable#Adjective");
+
+            URL_Add("ng serve", "https://angular.io/cli/serve");
+
+            URL_Add("oft-used", "https://en.wiktionary.org/wiki/oft-used#Adjective");
+
+            URL_Add("tsunami", "https://en.wikipedia.org/wiki/Tsunami");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54992,6 +55063,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Graph_", "graph_");
 
+            correctionAdd("L2_", "Lagrange point L2_");
+
+            correctionAdd("hided_", "hid_");
+
             // URL mappings
             //
             //
@@ -55170,6 +55245,10 @@ namespace OverflowHelper.core
             URL_Add("Physics (Stack Exchange site)_", "https://physics.stackexchange.com/tour");
 
             URL_Add("graph_", "https://en.wiktionary.org/wiki/graph#Noun");
+
+            URL_Add("Lagrange point L2_", "https://en.wikipedia.org/wiki/Lagrange_point#L2");
+
+            URL_Add("hid_", "https://en.wiktionary.org/wiki/hide#Verb");
 
         } //addLookupData_alternativeWordSet()
 
