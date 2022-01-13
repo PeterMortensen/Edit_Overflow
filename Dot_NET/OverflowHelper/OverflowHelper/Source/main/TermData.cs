@@ -385,6 +385,15 @@ namespace OverflowHelper.core
 
             correctionAdd("jdk", "JDK");
 
+            correctionAdd("the powers", "the powers that be");
+            correctionAdd("TPTB", "the powers that be");
+            correctionAdd("powers that be", "the powers that be");
+            correctionAdd("powers-that-be", "the powers that be");
+            correctionAdd("Powers-That-Be", "the powers that be");
+            correctionAdd("powers that b", "the powers that be");
+
+            correctionAdd("powersupply", "power supply");
+
             correctionAdd("js", "JavaScript");
             correctionAdd("JS", "JavaScript");
             correctionAdd("Js", "JavaScript");
@@ -627,6 +636,15 @@ namespace OverflowHelper.core
             correctionAdd("scrip", "script");
 
             correctionAdd("GAS", "Google Apps Script");
+
+            correctionAdd("G suite", "G Suite");
+            correctionAdd("Gsuite", "G Suite");
+            correctionAdd("Google Workspace", "G Suite");
+            correctionAdd("google apps", "G Suite");
+            correctionAdd("Google apps", "G Suite");
+            correctionAdd("Google Apps", "G Suite");
+
+            correctionAdd("Google Meet", "Google Hangouts Meet");
 
             correctionAdd("Jquery-UI", "jQuery UI");
             correctionAdd("jquery ui", "jQuery UI");
@@ -1835,6 +1853,21 @@ namespace OverflowHelper.core
             correctionAdd("PoweShell", "PowerShell");
             correctionAdd("psh", "PowerShell");
 
+            correctionAdd("ISE", "PowerShell ISE");
+            correctionAdd("powershell ISE", "PowerShell ISE");
+            correctionAdd("powershell ise", "PowerShell ISE");
+            correctionAdd("ise", "PowerShell ISE");
+            correctionAdd("Powershell ISE", "PowerShell ISE");
+            correctionAdd("PowerShell ise", "PowerShell ISE");
+
+            correctionAdd("powershell core", "PowerShell Core");
+            correctionAdd("Powershell Core", "PowerShell Core");
+
+            correctionAdd("P.S", "post scriptum"); // Note: We don't have "PS" as it conflicts with "PowerShell".
+            correctionAdd("P.s", "post scriptum");
+            correctionAdd("P/S", "post scriptum");
+            correctionAdd("p.s", "post scriptum");
+
             correctionAdd("Expression blend", "Expression Blend");
             correctionAdd("blend", "Expression Blend");
             correctionAdd("Blend", "Expression Blend");
@@ -2508,9 +2541,6 @@ namespace OverflowHelper.core
             correctionAdd("app engine", "Google App Engine");
             correctionAdd("Google App engine", "Google App Engine");
             correctionAdd("appengine", "Google App Engine");
-
-            correctionAdd("google apps", "Google Apps");
-            correctionAdd("Google apps", "Google Apps");
 
             correctionAdd("wordpress", "WordPress");
             correctionAdd("Wordpress", "WordPress");
@@ -4594,6 +4624,16 @@ namespace OverflowHelper.core
             correctionAdd("confortable", "comfortable");
 
             correctionAdd("parseable", "parsable");
+
+            correctionAdd("Parsec", "parsec");
+
+            correctionAdd("PARSE_STR", "parse_str");
+            correctionAdd("parse_str()", "parse_str");
+
+            correctionAdd("parse_ini_file()", "parse_ini_file");
+
+            correctionAdd("prase", "parse");
+            correctionAdd("perse", "parse");
 
             correctionAdd("unsable", "unusable");
 
@@ -9256,13 +9296,6 @@ namespace OverflowHelper.core
 
             correctionAdd("puppet", "Puppet");
 
-            correctionAdd("ISE", "PowerShell ISE");
-            correctionAdd("powershell ISE", "PowerShell ISE");
-            correctionAdd("powershell ise", "PowerShell ISE");
-            correctionAdd("ise", "PowerShell ISE");
-            correctionAdd("Powershell ISE", "PowerShell ISE");
-            correctionAdd("PowerShell ise", "PowerShell ISE");
-
             correctionAdd("existance", "existence");
             correctionAdd("existanse", "existence");
             correctionAdd("existense", "existence");
@@ -12065,6 +12098,13 @@ namespace OverflowHelper.core
             correctionAdd("theirs", "there’s");
             correctionAdd("there's", "there’s");
 
+            correctionAdd("heres", "here’s");
+            correctionAdd("Heres", "here’s");
+            correctionAdd("here's", "here’s");
+
+            correctionAdd("There's more than one way to do it", "TIMTOWTDI");
+            correctionAdd("TMTOWTDI", "TIMTOWTDI");
+
             correctionAdd("transfered", "transferred");
 
             correctionAdd("transfering", "transferring");
@@ -12364,9 +12404,6 @@ namespace OverflowHelper.core
 
             correctionAdd("op", "OP");
             correctionAdd("OQ", "OP");
-
-            correctionAdd("powershell core", "PowerShell Core");
-            correctionAdd("Powershell Core", "PowerShell Core");
 
             correctionAdd("slavic", "Slavic");
 
@@ -15440,10 +15477,6 @@ namespace OverflowHelper.core
 
             correctionAdd("protion", "portion");
 
-            correctionAdd("powers-that-be", "powers that be");
-            correctionAdd("Powers-That-Be", "powers that be");
-            correctionAdd("powers that b", "powers that be");
-
             correctionAdd("sth", "something");
             correctionAdd("smth", "something");
             correctionAdd("sumthin", "something");
@@ -15977,9 +16010,6 @@ namespace OverflowHelper.core
             correctionAdd("guarantueed", "guaranteed");
             correctionAdd("guarangteed", "guaranteed");
             correctionAdd("guaranted", "guaranteed");
-
-            correctionAdd("heres", "here's");
-            correctionAdd("Heres", "here's");
 
             correctionAdd("GlassDoor", "Glassdoor");
             correctionAdd("glass door", "Glassdoor");
@@ -18734,12 +18764,6 @@ namespace OverflowHelper.core
             correctionAdd("F9", "Falcon 9");
 
             correctionAdd("falcon heavy", "Falcon Heavy");
-
-            correctionAdd("G suite", "G Suite");
-            correctionAdd("Gsuite", "G Suite");
-            correctionAdd("Google Workspace", "G Suite");
-
-            correctionAdd("Google Meet", "Google Hangouts Meet");
 
             correctionAdd("Teams", "Microsoft Teams");
 
@@ -22085,8 +22109,6 @@ namespace OverflowHelper.core
             correctionAdd("our selfs", "ourselves");
             correctionAdd("our selves", "ourselves");
 
-            correctionAdd("powersupply", "power supply");
-
             correctionAdd("preperation", "preparation");
 
             correctionAdd("Tertiary", "tertiary");
@@ -24937,10 +24959,6 @@ namespace OverflowHelper.core
 
             correctionAdd("MBaas", "MBaaS");
 
-            correctionAdd("parse", "Parse");
-            correctionAdd("Parse.com", "Parse");
-            correctionAdd("prase", "Parse");
-
             correctionAdd("cirtainty", "certainty");
             correctionAdd("curtainty", "certainty");
 
@@ -25893,11 +25911,6 @@ namespace OverflowHelper.core
             correctionAdd("inhereted", "inherited");
 
             correctionAdd("IPC", "inter-process communication");
-
-            correctionAdd("P.S", "post scriptum"); // Note: We don't have "PS" as it conflicts with "PowerShell".
-            correctionAdd("P.s", "post scriptum");
-            correctionAdd("P/S", "post scriptum");
-            correctionAdd("p.s", "post scriptum");
 
             correctionAdd("prod", "production");
             correctionAdd("producion", "production");
@@ -27492,9 +27505,6 @@ namespace OverflowHelper.core
             correctionAdd("iron curtain", "Iron Curtain");
 
             correctionAdd("TERM", "SIGTERM");
-
-            correctionAdd("There's more than one way to do it", "TIMTOWTDI");
-            correctionAdd("TMTOWTDI", "TIMTOWTDI");
 
             correctionAdd("awat", "away");
 
@@ -29452,8 +29462,6 @@ namespace OverflowHelper.core
 
             correctionAdd("geo referencing", "georeferencing");
 
-            correctionAdd("Parsec", "parsec");
-
             correctionAdd("CompuServer", "CompuServe");
 
             correctionAdd("f5", "F5");
@@ -29814,7 +29822,7 @@ namespace OverflowHelper.core
 
             correctionAdd("arabian", "Arabian");
 
-            correctionAdd("butterfly effect", "Butterfly effect");
+            correctionAdd("Butterfly effect", "butterfly effect");
 
             correctionAdd("edi", "EDI");
 
@@ -30770,9 +30778,6 @@ namespace OverflowHelper.core
 
             correctionAdd("In my humble opinion", "in my humble opinion");
 
-            correctionAdd("the powers", "the powers that be");
-            correctionAdd("TPTB", "the powers that be");
-
             correctionAdd("Un-addressed", "unaddressed");
             correctionAdd("un-addressed", "unaddressed");
 
@@ -31689,9 +31694,6 @@ namespace OverflowHelper.core
             correctionAdd("neopixel", "NeoPixel");
 
             correctionAdd("causual", "casual");
-
-            correctionAdd("PARSE_STR", "parse_str");
-            correctionAdd("parse_str()", "parse_str");
 
             correctionAdd("PRINT_R", "print_r");
 
@@ -32701,8 +32703,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ini_get()", "ini_get");
             correctionAdd("iniget", "ini_get");
-
-            correctionAdd("parse_ini_file()", "parse_ini_file");
 
             correctionAdd("taping", "tapping");
             correctionAdd("Taping", "tapping");
@@ -35646,8 +35646,6 @@ namespace OverflowHelper.core
 
             URL_Add("MooTools", "https://en.wikipedia.org/wiki/MooTools");
 
-            URL_Add("Google Apps", "https://en.wikipedia.org/wiki/Google_Apps");
-
             URL_Add("WordPress", "https://en.wikipedia.org/wiki/WordPress");
 
             URL_Add("SSL", "https://en.wikipedia.org/wiki/Transport_Layer_Security");
@@ -35750,7 +35748,7 @@ namespace OverflowHelper.core
 
             URL_Add("OpenID", "https://en.wikipedia.org/wiki/OpenID");
 
-            URL_Add("MyOpenID", "http://myopenid.com/");
+            URL_Add("MyOpenID", "https://en.wikipedia.org/wiki/OpenID#History"); // Old (broken now): http://myopenid.com/
 
             URL_Add("OAuth", "https://en.wikipedia.org/wiki/OAuth");
 
@@ -40584,7 +40582,7 @@ namespace OverflowHelper.core
 
             URL_Add("class", "https://en.wiktionary.org/wiki/class#Noun");
 
-            URL_Add("here's", "https://en.wiktionary.org/wiki/here%27s#Contraction");
+            URL_Add("here’s", "https://en.wiktionary.org/wiki/here%27s#Contraction");
 
             URL_Add("idea", "https://en.wiktionary.org/wiki/idea#Noun");
 
@@ -41025,8 +41023,6 @@ namespace OverflowHelper.core
             URL_Add("localhost", "https://en.wikipedia.org/wiki/Localhost");
 
             URL_Add("portion", "https://en.wiktionary.org/wiki/portion#Noun");
-
-            URL_Add("powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
 
             URL_Add("segue", "https://en.wiktionary.org/wiki/segue#Verb");
 
@@ -42943,10 +42939,6 @@ namespace OverflowHelper.core
             URL_Add("Falcon 9", "https://en.wikipedia.org/wiki/Falcon_9");
 
             URL_Add("Falcon Heavy", "https://en.wikipedia.org/wiki/Falcon_Heavy");
-
-            URL_Add("G Suite", "https://en.wikipedia.org/wiki/Google_Workspace"); // Old: https://en.wikipedia.org/wiki/G_Suite
-
-            URL_Add("Google Hangouts Meet", "https://en.wikipedia.org/wiki/Google_Hangouts#Google_Hangouts_Meet");
 
             URL_Add("Microsoft Teams", "https://en.wikipedia.org/wiki/Microsoft_Teams");
 
@@ -47190,8 +47182,6 @@ namespace OverflowHelper.core
 
             URL_Add("MBaaS", "https://en.wikipedia.org/wiki/Mobile_backend_as_a_service");
 
-            URL_Add("Parse", "https://en.wikipedia.org/wiki/Parse_(platform)");
-
             URL_Add("Plachutta", "https://en.wikipedia.org/wiki/Plachutta");
 
             URL_Add("Serenity BDD Framework", "https://experitest.com/mobile-app-testing/working-with-serenity-bdd-framework-an-overview/");
@@ -50212,7 +50202,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hardware Recommendations", "https://hardwarerecs.stackexchange.com/tour");
 
-            URL_Add("Shlemiel the painter’s algorithm", "https://en.wikipedia.org/wiki/Joel_Spolsky#Schlemiel_the_Painter's_algorithm");
+            URL_Add("Shlemiel the painter’s algorithm", "https://www.joelonsoftware.com/2001/12/11/back-to-basics/"); // Old: https://en.wikipedia.org/wiki/Joel_Spolsky#Schlemiel_the_Painter's_algorithm
 
             URL_Add("factorial", "https://en.wikipedia.org/wiki/Factorial");
 
@@ -50826,8 +50816,6 @@ namespace OverflowHelper.core
 
             URL_Add("georeferencing", "https://en.wiktionary.org/wiki/georeference#Verb");
 
-            URL_Add("parsec", "https://en.wikipedia.org/wiki/Parsec");
-
             URL_Add("CompuServe", "https://en.wikipedia.org/wiki/CompuServe");
 
             URL_Add("F5", "https://en.wikipedia.org/wiki/Function_key");
@@ -51100,7 +51088,7 @@ namespace OverflowHelper.core
 
             URL_Add("Arabian", "https://en.wiktionary.org/wiki/Arabian#Adjective");
 
-            URL_Add("Butterfly effect", "https://en.wikipedia.org/wiki/Butterfly_effect");
+            URL_Add("butterfly effect", "https://en.wikipedia.org/wiki/Butterfly_effect");
 
             URL_Add("EDI", "https://en.wikipedia.org/wiki/Electronic_data_interchange");
 
@@ -51848,8 +51836,6 @@ namespace OverflowHelper.core
 
             URL_Add("in my humble opinion", "https://en.wiktionary.org/wiki/in_my_humble_opinion#Prepositional_phrase");
 
-            URL_Add("the powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
-
             URL_Add("unaddressed", "https://en.wiktionary.org/wiki/unaddress#Verb");
 
             URL_Add("Passport.js", "http://www.passportjs.org/");
@@ -52463,8 +52449,6 @@ namespace OverflowHelper.core
             URL_Add("NeoPixel", "https://en.wikipedia.org/wiki/Adafruit_Industries#NeoPixel");
 
             URL_Add("casual", "https://en.wiktionary.org/wiki/casual#Adjective");
-
-            URL_Add("parse_str", "https://www.php.net/manual/en/function.parse-str.php");
 
             URL_Add("print_r", "https://www.php.net/manual/en/function.print-r.php");
 
@@ -53313,8 +53297,6 @@ namespace OverflowHelper.core
             URL_Add("CodeQL", "https://codeql.github.com/");
 
             URL_Add("ini_get", "https://www.php.net/manual/en/function.ini-get.php");
-
-            URL_Add("parse_ini_file", "https://www.php.net/manual/en/function.parse-ini-file.php");
 
             URL_Add("tapping", "https://en.wiktionary.org/wiki/tap#Verb_2"); // Old: https://en.wiktionary.org/wiki/tap#Verb
 
@@ -54580,8 +54562,6 @@ namespace OverflowHelper.core
 
             URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
 
-            URL_Add("Omicron variant", "https://en.wikipedia.org/wiki/SARS-CoV-2_Omicron_variant");
-
             URL_Add("Pornhub", "https://en.wikipedia.org/wiki/Pornhub");
 
             URL_Add("Scott Morrison", "https://en.wikipedia.org/wiki/Scott_Morrison");
@@ -54792,6 +54772,22 @@ namespace OverflowHelper.core
 
             URL_Add("tsunami", "https://en.wikipedia.org/wiki/Tsunami");
 
+            URL_Add("Omicron variant", "https://en.wikipedia.org/wiki/SARS-CoV-2_Omicron_variant");
+
+            URL_Add("G Suite", "https://en.wikipedia.org/wiki/Google_Workspace"); // Old: https://en.wikipedia.org/wiki/G_Suite
+
+            URL_Add("Google Hangouts Meet", "https://en.wikipedia.org/wiki/Google_Hangouts#Google_Hangouts_Meet");
+
+            URL_Add("parsec", "https://en.wikipedia.org/wiki/Parsec");
+
+            URL_Add("parse_str", "https://www.php.net/manual/en/function.parse-str.php");
+
+            URL_Add("parse_ini_file", "https://www.php.net/manual/en/function.parse-ini-file.php");
+
+            URL_Add("parse", "https://en.wiktionary.org/wiki/parse#Verb");
+
+            URL_Add("the powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -54812,10 +54808,8 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private void addLookupData_alternativeWordSet()
         {
-            correctionAdd("prase_", "parse_");
-            correctionAdd("perse_", "parse_");
-
-            correctionAdd("geht_", "get_");
+            // Note: Due to a glitch in a checking Perl script, there should
+            //       be an empty line before the first block...
 
             correctionAdd("msaccess_", "Microsoft Access_");
             correctionAdd("ms-access_", "Microsoft Access_");
@@ -54827,6 +54821,8 @@ namespace OverflowHelper.core
             correctionAdd("MS-Access_", "Microsoft Access_");
             correctionAdd("MS Access_", "Microsoft Access_");
             correctionAdd("access_", "Microsoft Access_");
+
+            correctionAdd("geht_", "get_");
 
             correctionAdd("cutted_", "cut_");
 
@@ -55067,11 +55063,13 @@ namespace OverflowHelper.core
 
             correctionAdd("hided_", "hid_");
 
+            correctionAdd("parse_", "Parse_");
+            correctionAdd("Parse.com_", "Parse_");
+            correctionAdd("prase_", "Parse_");
+
             // URL mappings
             //
             //
-            URL_Add("parse_", "https://en.wiktionary.org/wiki/parse#Verb");
-
             URL_Add("get_", "https://en.wiktionary.org/wiki/get#Verb");
 
             URL_Add("Microsoft Access_", "https://en.wikipedia.org/wiki/Microsoft_Access");
@@ -55249,6 +55247,8 @@ namespace OverflowHelper.core
             URL_Add("Lagrange point L2_", "https://en.wikipedia.org/wiki/Lagrange_point#L2");
 
             URL_Add("hid_", "https://en.wiktionary.org/wiki/hide#Verb");
+
+            URL_Add("Parse_", "https://en.wikipedia.org/wiki/Parse_(platform)");
 
         } //addLookupData_alternativeWordSet()
 
