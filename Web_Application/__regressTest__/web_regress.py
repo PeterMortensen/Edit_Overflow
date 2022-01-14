@@ -74,20 +74,18 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #    self.assertEqual('foo'.upper(), 'FOO')
 
 
-    # Helper function for testing.
-    #
-    # Set a checkbox (not assuming anything about the current state)
-    #
-    def _setCheckbox(self, anCheckboxName):
+    # This one is independent of Edit Overflow - indicated
+    # by the prefix "core" (and thus a candidate to be
+    # moved to a more general place).
 
-        checkboxElement = self.browser.find_element_by_name(anCheckboxName)
 
-        if not checkboxElement.is_selected():
 
-            # Set the checkbox (by toggling - a present
-            # unchecked state is assumed)
-            #checkboxElement.click()
-            checkboxElement.send_keys(Keys.SPACE)
+    #########################################################################
+    #                                                                       #
+    #     S t a r t   o f   f u n c t i o n s   i n d e p e n d e n t       #
+    #                 o f   E d i t   O v e r f l o w                       #
+    #                                                                       #
+    #########################################################################
 
 
     # Helper function for _core_setFieldAndSubmit() and others.
@@ -130,17 +128,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         _core_SubmitForm(elementRef)
 
 
-    # Helper function for testing the main function
-    # in Edit Overflow: Looking up words (more
-    # generally, "terms"). For _lookUp().
-    #
-    # Submit a term for Edit Overflow for Web
-    #
-    def _submitTerm(self, aLookUpTerm):
-
-        self._core_setFieldAndSubmit("LookUpTerm", aLookUpTerm)
-
-
     # Helper function for testing. Mostly for _checkEditSummary()
     #
     # This one is independent of Edit Overflow - indicated
@@ -163,6 +150,54 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         someValue = someElement.get_attribute("value")
 
         self.assertEqual(someValue, anExpectedValue, anExplanation)
+
+
+    # Helper function for testing. Mostly for _setGeneralTextField()
+    #
+    # This one is independent of Edit Overflow - indicated
+    # by the prefix "core" (and thus a candidate to be
+    # moved to a more general place).
+    #
+    def _core_setHTML_textField(self, aFieldID, aText):
+
+        lookUpElement = self.browser.find_element_by_name(aFieldID)
+        lookUpElement.clear()
+        lookUpElement.send_keys(aText)
+
+
+    #########################################################################
+    #                                                                       #
+    #     S t a r t   o f   f u n c t i o n s  f o r                        #
+    #                 E d i t   O v e r f l o w                             #
+    #                                                                       #
+    #########################################################################
+
+
+    # Helper function for testing.
+    #
+    # Set a checkbox (not assuming anything about the current state)
+    #
+    def _setCheckbox(self, anCheckboxName):
+
+        checkboxElement = self.browser.find_element_by_name(anCheckboxName)
+
+        if not checkboxElement.is_selected():
+
+            # Set the checkbox (by toggling - a present
+            # unchecked state is assumed)
+            #checkboxElement.click()
+            checkboxElement.send_keys(Keys.SPACE)
+
+
+    # Helper function for testing the main function
+    # in Edit Overflow: Looking up words (more
+    # generally, "terms"). For _lookUp().
+    #
+    # Submit a term for Edit Overflow for Web
+    #
+    def _submitTerm(self, aLookUpTerm):
+
+        self._core_setFieldAndSubmit("LookUpTerm", aLookUpTerm)
 
 
     # Helper function for testing. Mostly for _lookUp()
@@ -190,28 +225,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #time.sleep(3.0) # Not really necessary
 
 
-    # Helper function for testing
-    #
-    # Test of text transformations in the 'text' window
-    #
-    def _checkText_window(self, aURL):
-
-        # Note: The start state of the Edit Overflow text window before
-        #       each of these tests is actually different, depending on
-        #       the order here. While the tests of text functions
-        #       should be independent of the start state (as we
-        #       overwrite the contents of text field in the
-        #       tests), whether we discover any state
-        #       dependency may depend on the order
-        #       here...
-
-        self._checkMarkdownCodeFormatting(aURL)
-
-        self._checkYouTubeFormatting(aURL)
-
-        self._checkRealQuotes(aURL)
-
-
     # =======================================================================
 
 
@@ -222,51 +235,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Are we actually assured of the order of test execution? No, at least
     # not by position in the file. Alphabetically?
     #
-
-
-    # Test of the text window functions, e.g. YouTube comment formatting
-    #
-    def test_local_text(self):
-
-        # Note: HTTPS does not work locally (for now)
-        #
-        self._checkText_window('http://localhost/world/Text.php?OverflowStyle=Native')
-
-
-    # Test of the text window functions, e.g., YouTube comment formatting
-    #
-    def test_text(self):
-
-        self._checkText_window('https://pmortensen.eu/world/Text.php')
-
-
-    # Test of passing parameters through HTML GET (for the
-    # main function of Edit Overflow, looking up a word).
-    #
-    def test_mainLookup_HTTP_GET(self):
-
-        if True: # Start out through HTML GET with an unknown
-                 # term (new browser window), "cpu777777".
-
-            self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu777777&OverflowStyle=Native&UseJavaScript=no')
-            self._checkEditSummary("",
-                                  'Unexpected edit summary after URL GET lookup')
-            time.sleep(3.0)
-
-            #time.sleep(5.0)
-
-
-    # Helper function for testing. Mostly for _setGeneralTextField()
-    #
-    # This one is independent of Edit Overflow - indicated
-    # by the prefix "core" (and thus a candidate to be
-    # moved to a more general place).
-    #
-    def _core_setHTML_textField(self, aFieldID, aText):
-
-        lookUpElement = self.browser.find_element_by_name(aFieldID)
-        lookUpElement.clear()
-        lookUpElement.send_keys(aText)
 
 
     # That is, general here means the general text field on page "Text.php".
@@ -496,20 +464,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                         "Unexpected inline markdown link")
 
 
-    # Test of the link builder, on the local web server
-    #
-    def test_local_linkBuilder(self):
-
-        self._checkLinkBuilder('http://localhost/world/Link_Builder.php?OverflowStyle=Native')
-
-
-    # Test of the link builder, on production
-    #
-    def test_linkBuilder(self):
-
-        self._checkLinkBuilder('https://pmortensen.eu/world/Link_Builder.php')
-
-
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelled words)
     #
@@ -602,6 +556,83 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             self._setCheckbox("resetState")
             self._lookUp("PHP__Z", "", defaultMsgForEditSummary)
+
+
+    # Helper function for testing
+    #
+    # Test of text transformations in the 'text' window
+    #
+    def _checkText_window(self, aURL):
+
+        # Note: The start state of the Edit Overflow text window before
+        #       each of these tests is actually different, depending on
+        #       the order here. While the tests of text functions
+        #       should be independent of the start state (as we
+        #       overwrite the contents of text field in the
+        #       tests), whether we discover any state
+        #       dependency may depend on the order
+        #       here...
+
+        self._checkMarkdownCodeFormatting(aURL)
+
+        self._checkYouTubeFormatting(aURL)
+
+        self._checkRealQuotes(aURL)
+
+
+    #########################################################################
+    #                                                                       #
+    #     S t a r t   o f   a c t u a l   t e s t   f u n c t i o n s       #
+    #                                                                       #
+    #       ( c a l l e d   b y   t h e   t e s t   d r i v e r ).          #
+    #                                                                       #
+    #########################################################################
+
+
+    # Test of the text window functions, e.g. YouTube comment formatting
+    #
+    def test_local_text(self):
+
+        # Note: HTTPS does not work locally (for now)
+        #
+        self._checkText_window('http://localhost/world/Text.php?OverflowStyle=Native')
+
+
+    # Test of the text window functions, e.g., YouTube comment formatting
+    #
+    def test_text(self):
+
+        self._checkText_window('https://pmortensen.eu/world/Text.php')
+
+
+    # Test of passing parameters through HTML GET (for the
+    # main function of Edit Overflow, looking up a word).
+    #
+    def test_mainLookup_HTTP_GET(self):
+
+        if True: # Start out through HTML GET with an unknown
+                 # term (new browser window), "cpu777777".
+
+            self.browser.get('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu777777&OverflowStyle=Native&UseJavaScript=no')
+            self._checkEditSummary("",
+                                  'Unexpected edit summary after URL GET lookup')
+            time.sleep(3.0)
+
+            #time.sleep(5.0)
+
+
+    # Test of the link builder, on the local web server
+    #
+    def test_local_linkBuilder(self):
+
+        self._checkLinkBuilder('http://localhost/world/Link_Builder.php?OverflowStyle=Native')
+
+
+    # Test of the link builder, on production
+    #
+    def test_linkBuilder(self):
+
+        self._checkLinkBuilder('https://pmortensen.eu/world/Link_Builder.php')
 
 
     # Test of the central function of Edit Overflow for web: Looking
