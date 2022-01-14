@@ -1383,6 +1383,29 @@ PHP_code_test  EditSummaryFragments.php  "edit summary fragments"               
 
 # ###########################################################################
 #
+#  Test of the canned comments page (essentially static HTML)
+#
+#  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
+#        due to a current limitation in PHP_code_test()...
+#
+PHP_code_test  CannedComments.php        "canned comments"                       12  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+
+
+# ###########################################################################
+#
+#  Test of the link builder page. This one is primarily for checking
+#  for PHP syntax errors.
+#
+#  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
+#        due to a current limitation in PHP_code_test()...
+#
+PHP_code_test  Link_Builder.php        "link builder"                           12  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+
+
+
+
+# ###########################################################################
+#
 #  Detection of error log entries for the local web server (there shouldn't
 #  be any).
 #
@@ -1427,8 +1450,13 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            21
 
 
+# Invoke action in the Edit Overflow "Link builder" window (we pass 
+# in paramters here, not relying on any default parameters)
+#
+webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 21
 
 #exit
+
 
 
 # ###########################################################################
@@ -1662,6 +1690,8 @@ if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      Text.php                           "Text stuff"              32
     HTML_validation      FixedStrings.php                   "Fixed strings"           33
     HTML_validation      EditSummaryFragments.php           "Edit summary fragments"  34
+    HTML_validation      CannedComments.php                 "Canned comments"         34
+    HTML_validation      Link_Builder.php                   "Link builder"            34
 
     # The URL is <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
     #
@@ -1674,19 +1704,17 @@ if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
 fi
 
 
-
 # ###########################################################################
 #
 # Some checks of the generated HTML:
 #
-#   1. Unique HTML anchors (only one if we 'grep' for one)
+#   1. Unique HTML anchors (one and ***only*** one if we 'grep' for one)
 #
 #   2. XXX
 #
 startOfBuildStep "36" "Starting checks of the generated HTML"
 export MATCHING_LINES=`grep -c '<div id="Mark_Zuckerberg">'  ${HTML_FILE_GENERIC}`
 mustBeEqual ${MATCHING_LINES} 1  36   "HTML anchor is not unique"
-
 
 
 # ###########################################################################
