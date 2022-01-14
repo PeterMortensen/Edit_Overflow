@@ -4371,6 +4371,7 @@ namespace OverflowHelper.core
             correctionAdd("Param", "parameter");
             correctionAdd("parametera", "parameter"); // Some other language? Plural?
             correctionAdd("parameters", "parameter"); // Not 100% correct - plural.
+            correctionAdd("parametres", "parameter");
 
             correctionAdd("chars", "characters"); // Expansion.
             correctionAdd("char", "characters"); // Expansion, not 100% correct. Add a plural feature?
@@ -9199,6 +9200,7 @@ namespace OverflowHelper.core
             correctionAdd("beginnig", "beginning");
             correctionAdd("beguining", "beginning");
             correctionAdd("biginning", "beginning");
+            correctionAdd("begging", "beginning");
 
             correctionAdd("begginer", "beginner");
             correctionAdd("bigginer", "beginner");
@@ -11286,6 +11288,7 @@ namespace OverflowHelper.core
             correctionAdd("sometime's", "sometimes");
             correctionAdd("Somtimes", "sometimes");
             correctionAdd("somtimes", "sometimes");
+            correctionAdd("Some time", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -11443,6 +11446,8 @@ namespace OverflowHelper.core
             correctionAdd("Wouldnt", "wouldn't");
             correctionAdd("woudln't", "wouldn't");
             correctionAdd("woudlnt", "wouldn't");
+            correctionAdd("eouldn't", "wouldn't");
+            correctionAdd("eouldnt", "wouldn't");
 
             correctionAdd("implemention", "implementation");
             correctionAdd("implemenation", "implementation");
@@ -15980,6 +15985,7 @@ namespace OverflowHelper.core
             correctionAdd("dowvoting", "downvoting");
             correctionAdd("Down voting", "downvoting");
             correctionAdd("Downvoting", "downvoting");
+            correctionAdd("Down-voting", "downvoting");
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
@@ -22293,6 +22299,7 @@ namespace OverflowHelper.core
             correctionAdd("You", "you");
             correctionAdd("tou", "you");
             correctionAdd("Yu", "you");
+            correctionAdd("xou", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -23828,6 +23835,7 @@ namespace OverflowHelper.core
             correctionAdd("menthod", "method");
             correctionAdd("Methodl", "method");
             correctionAdd("methodl", "method");
+            correctionAdd("methof", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -34822,6 +34830,37 @@ namespace OverflowHelper.core
             correctionAdd("oft used", "oft-used");
 
             correctionAdd("Tsunami", "tsunami");
+
+            correctionAdd("1st Century BC", "1st century BC");
+
+            correctionAdd("Caesar", "Julius Caesar");
+
+            correctionAdd("rome", "Rome");
+
+            correctionAdd("software updater", "Software Updater");
+
+            correctionAdd("checkup", "check up");
+
+            correctionAdd("distil", "distill");
+
+            correctionAdd("low cohesion", "high cohesion");
+            correctionAdd("lower cohesion", "high cohesion");
+
+            correctionAdd("high quality", "high-quality");
+
+            correctionAdd("the beholder", "is in the eye of the beholder");
+            correctionAdd("in the eye the beholder", "is in the eye of the beholder");
+            correctionAdd("in the eye of the beholder", "is in the eye of the beholder");
+
+            correctionAdd("looser coupling", "loose coupling");
+
+            correctionAdd("managable", "manageable");
+            correctionAdd("manageble", "manageable");
+
+            correctionAdd("super power", "superpower");
+            correctionAdd("super-power", "superpower");
+
+            correctionAdd("Upvoting", "upvoting");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54787,6 +54826,32 @@ namespace OverflowHelper.core
             URL_Add("parse", "https://en.wiktionary.org/wiki/parse#Verb");
 
             URL_Add("the powers that be", "https://en.wiktionary.org/wiki/powers_that_be#Noun");
+
+            URL_Add("1st century BC", "https://en.wikipedia.org/wiki/1st_century_BC");
+
+            URL_Add("Julius Caesar", "https://en.wikipedia.org/wiki/Julius_Caesar");
+
+            URL_Add("Rome", "https://en.wikipedia.org/wiki/Rome");
+
+            URL_Add("Software Updater", "https://en.wikipedia.org/wiki/Software_Updater");
+
+            URL_Add("check up", "https://en.wiktionary.org/wiki/check_up#Verb");
+
+            URL_Add("distill", "https://en.wiktionary.org/wiki/distill#Verb");
+
+            URL_Add("high cohesion", "https://en.wikipedia.org/wiki/Cohesion_(computer_science)");
+
+            URL_Add("high-quality", "https://en.wiktionary.org/wiki/high-quality#Adjective");
+
+            URL_Add("is in the eye of the beholder", "https://en.wiktionary.org/wiki/beauty_is_in_the_eye_of_the_beholder#Proverb");
+
+            URL_Add("loose coupling", "https://en.wikipedia.org/wiki/Loose_coupling");
+
+            URL_Add("manageable", "https://en.wiktionary.org/wiki/manageable#Adjective");
+
+            URL_Add("superpower", "https://en.wiktionary.org/wiki/superpower#Noun");
+
+            URL_Add("upvoting", "https://en.wiktionary.org/wiki/upvote#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
