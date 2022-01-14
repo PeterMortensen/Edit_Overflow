@@ -130,18 +130,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         _core_SubmitForm(elementRef)
 
 
-        #Delete at any time
-        #lookUpElement = self.browser.find_element_by_name(aFieldID)
-        #lookUpElement.clear()
-        #lookUpElement.send_keys(aNewValue)
-        #
-        #lookUpElement.send_keys(Keys.RETURN)
-        #
-        ## This is crucial: We must wait for the update of the
-        ## field (server roundtrip time and Firefox update)
-        #time.sleep(2.0)
-
-
     # Helper function for testing the main function
     # in Edit Overflow: Looking up words (more
     # generally, "terms"). For _lookUp().
@@ -151,18 +139,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     def _submitTerm(self, aLookUpTerm):
 
         self._core_setFieldAndSubmit("LookUpTerm", aLookUpTerm)
-
-
-        #Delete at any time
-        #lookUpElement = self.browser.find_element_by_name("LookUpTerm")
-        #lookUpElement.clear()
-        #lookUpElement.send_keys(aLookUpTerm)
-        #
-        #lookUpElement.send_keys(Keys.RETURN)
-        #
-        ## This is crucial: We must wait for the update of the
-        ## field (server roundtrip time and Firefox update)
-        #time.sleep(2.0)
 
 
     # Helper function for testing. Mostly for _checkEditSummary()
@@ -194,22 +170,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     def _checkEditSummary(self, aExpectedEditSummary, anExplanation):
 
         self._core_checkFieldValue("editSummary_output", aExpectedEditSummary, anExplanation)
-
-
-        #Delete at any time.
-        ## We must also repeat this to avoid this error (we can not keep
-        ## using a previous instance of EditSummaryElement):
-        ##
-        ##    "The element reference of <input id="editSummary_output"
-        ##    class="XYZ4" name="editSummary_output" type="text">
-        ##    is stale; either the element is no longer attached to
-        ##    the DOM, it is not in the current frame context, or
-        ##    the document has been refreshed"
-        ##
-        #EditSummaryElement = self.browser.find_element_by_name("editSummary_output")
-        #EditSummary2 = EditSummaryElement.get_attribute("value")
-        #
-        #self.assertEqual(EditSummary2, aExpectedEditSummary, anExplanation)
 
 
     # Helper function for testing
@@ -280,6 +240,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._checkText_window('https://pmortensen.eu/world/Text.php')
 
 
+
+
+
     # Test of passing parameters through HTML GET (for the
     # main function of Edit Overflow, looking up a word).
     #
@@ -313,14 +276,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     def _setGeneralTextField(self, aText):
 
         self._core_setHTML_textField(aText, "someText")
-
-        #Delete at any time
-        #lookUpElement = self.browser.find_element_by_name("someText")
-        #lookUpElement.clear()
-        #lookUpElement.send_keys(aText)
-
-        #lookUpElement.send_keys(aLookUpTerm)
-        #lookUpElement.send_keys(Keys.RETURN)
 
 
     # Helper function for testing the Edit Overflow
@@ -524,12 +479,38 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         self.browser.get(aURL)
 
-        # Make the linter happy - not for real!!!!
-        xyz = aURL + aLinkText + aLink + anExpectedInlineMarkdownLink + anErrorMessage
-        self._checkMarkdownCodeFormatting(xyz)
+        self._core_setHTML_textField(aLinkText, "LinkText")
+        self._core_setFieldAndSubmit("URL", aLink)
+
+        self._core_checkFieldValue("inlineMarkdown", anExpectedInlineMarkdownLink, anErrorMessage)
 
         ####time.sleep(3.0) # Only for manual inspection of the
         ####                # result. Can be removed at any time
+
+
+    def _checkLinkBuilder(self, aURL):
+        
+        # Only one test for now 
+
+        self._linkBuild(aURL,
+                        "high cohesion",
+                        "https://en.wikipedia.org/wiki/Cohesion_(computer_science)",
+                        "*[high cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science))*",
+                        "Unexpected inline markdown link")
+
+
+    # Test of the link builder, on the local web server
+    #
+    def test_local_linkBuilder(self):
+
+        self._checkLinkBuilder('http://localhost/world/Link_Builder.php?OverflowStyle=Native')
+
+
+    # Test of the link builder, on production
+    #
+    def test_linkBuilder(self):
+
+        self._checkLinkBuilder('https://pmortensen.eu/world/Link_Builder.php')
 
 
     # Test of the central function of Edit Overflow for web: Looking
