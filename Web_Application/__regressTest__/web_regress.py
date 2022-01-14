@@ -240,9 +240,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._checkText_window('https://pmortensen.eu/world/Text.php')
 
 
-
-
-
     # Test of passing parameters through HTML GET (for the
     # main function of Edit Overflow, looking up a word).
     #
@@ -265,7 +262,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # by the prefix "core" (and thus a candidate to be
     # moved to a more general place).
     #
-    def _core_setHTML_textField(self, aText, aFieldID):
+    def _core_setHTML_textField(self, aFieldID, aText):
 
         lookUpElement = self.browser.find_element_by_name(aFieldID)
         lookUpElement.clear()
@@ -275,7 +272,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # That is, general here means the general text field on page "Text.php".
     def _setGeneralTextField(self, aText):
 
-        self._core_setHTML_textField(aText, "someText")
+        self._core_setHTML_textField("someText", aText)
 
 
     # Helper function for testing the Edit Overflow
@@ -479,7 +476,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         self.browser.get(aURL)
 
-        self._core_setHTML_textField(aLinkText, "LinkText")
+        self._core_setHTML_textField("LinkText", aLinkText)
         self._core_setFieldAndSubmit("URL", aLink)
 
         self._core_checkFieldValue("inlineMarkdown", anExpectedInlineMarkdownLink, anErrorMessage)
@@ -489,8 +486,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
 
     def _checkLinkBuilder(self, aURL):
-        
-        # Only one test for now 
+
+        # Only one test for now
 
         self._linkBuild(aURL,
                         "high cohesion",
@@ -658,4 +655,5 @@ if __name__ == '__main__':
     unittest.main()
 
 
-# Pylint insists on not ending the file with a newline
+# Pylint insists on not ending the file with a newline...
+# However, Geany adds one when saving...

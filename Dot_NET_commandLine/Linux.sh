@@ -1217,8 +1217,8 @@ sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 
-# Only once at the web server location. Though ideally 
-# we want to patch it on the fly so we are sure it 
+# Only once at the web server location. Though ideally
+# we want to patch it on the fly so we are sure it
 # is actually updated if needed.
 #
 #sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
@@ -1450,7 +1450,7 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%
 webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            21
 
 
-# Invoke action in the Edit Overflow "Link builder" window (we pass 
+# Invoke action in the Edit Overflow "Link builder" window (we pass
 # in paramters here, not relying on any default parameters)
 #
 webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 21
@@ -1717,53 +1717,63 @@ export MATCHING_LINES=`grep -c '<div id="Mark_Zuckerberg">'  ${HTML_FILE_GENERIC
 mustBeEqual ${MATCHING_LINES} 1  36   "HTML anchor is not unique"
 
 
+#We should probably get rid of these two entirely. They are a
+#way to get a test result quickly (using the local webserver),
+#for a particular kind of test - useful during development,
+#but it increases the total run time of the build as the
+#same tests are repeated when all tests run in the
+#last (real) build step.
+#
+#Or perhaps make them conditional?
+#
+#
+#    # ###########################################################################
+#    #
+#    # End-to-end testing of the web interface, using the local web server.
+#    #
+#    # Note: Only the ***"Text" window*** and limited testing on that.
+#    #
+#    # It uses Selenium and is quite slow, even using a local web server...
+#    #
+#    startOfBuildStep "37" "Starting web interface regression tests, local"
+#
+#    startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
+#
+#    #export PATH=$PATH:${SELINUM_DRIVERFOLDER}
+#    python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 37 $? "web interface regression tests"
+#
+#    endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 37 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+#
+#
+#    # ###########################################################################
+#    #
+#    # End-to-end testing of the web interface, using the local web server.
+#    #
+#    # Note: For the ***main look*** (primary function of Edit Overflow)
+#    #
+#    # It uses Selenium and is quite slow, even using a local web server...
+#    #
+#    startOfBuildStep "38" "Starting web interface regression tests, local"
+#
+#    startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
+#
+#    #export PATH=$PATH:${SELINUM_DRIVERFOLDER}
+#    python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_mainLookup_form_localWebserver ; evaluateBuildResult 38 $? "web interface, main lookup, using the local web server"
+#
+#    endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 38 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
+
+
 # ###########################################################################
 #
-# End-to-end testing of the web interface, using the local web server.
-#
-# Note: Only the ***"Text" window*** and limited testing on that.
-#
-# It uses Selenium and is quite slow, even using a local web server...
-#
-startOfBuildStep "37" "Starting web interface regression tests, local"
-
-startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
-
-#export PATH=$PATH:${SELINUM_DRIVERFOLDER}
-python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 37 $? "web interface regression tests"
-
-endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 37 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
-
-
-# ###########################################################################
-#
-# End-to-end testing of the web interface, using the local web server.
-#
-# Note: For the ***main look*** (primary function of Edit Overflow)
-#
-# It uses Selenium and is quite slow, even using a local web server...
-#
-startOfBuildStep "38" "Starting web interface regression tests, local"
-
-startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
-
-#export PATH=$PATH:${SELINUM_DRIVERFOLDER}
-python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_mainLookup_form_localWebserver ; evaluateBuildResult 38 $? "web interface, main lookup, using the local web server"
-
-endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 38 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
-
-
-
-# ###########################################################################
-#
-# End-to-end testing of the web interface, using the hosting (live server).
+# End-to-end testing of the web interface, using both local web server
+# and the hosting (live server).
 #
 # Note: This presumes the PHP files have been deployed to
 #       production (this is currently a manual process)
 #
 # It uses Selenium and is quite slow
 #
-startOfBuildStep "39" "Starting web interface regression tests, production"
+startOfBuildStep "39" "Starting web interface regression tests. Both for the local web server and production."
 
 retrieveWebHostingErrorLog  "_before_"
 
