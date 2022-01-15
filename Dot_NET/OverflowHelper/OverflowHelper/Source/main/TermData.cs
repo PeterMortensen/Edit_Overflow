@@ -549,6 +549,8 @@ namespace OverflowHelper.core
             correctionAdd("ecama script", "ECMAScript");
             correctionAdd("ecma script", "ECMAScript");
             correctionAdd("Ecama script", "ECMAScript");
+            correctionAdd("emca", "ECMAScript");
+            correctionAdd("EMCA", "ECMAScript");
 
             correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
             correctionAdd("ES 5", "ECMAScript&nbsp;5");
@@ -7828,6 +7830,9 @@ namespace OverflowHelper.core
             correctionAdd("angluar", "Angular");
             correctionAdd("Angualr", "Angular");
             correctionAdd("Ng", "Angular");
+            correctionAdd("angular cli", "Angular");
+            correctionAdd("Angular CLI", "Angular");
+            correctionAdd("Angular-Cli", "Angular");
 
             // Alternative: database administration
             correctionAdd("DBA", "database administrator");
@@ -14534,6 +14539,8 @@ namespace OverflowHelper.core
             correctionAdd("object orientated programming", "object-oriented programming");
             correctionAdd("OOP", "object-oriented programming");
             correctionAdd("O.O.P", "object-oriented programming");
+            correctionAdd("OO programing", "object-oriented programming");
+            correctionAdd("OO programming", "object-oriented programming");
 
             correctionAdd("oo", "object-oriented (OO)");
             correctionAdd("OO", "object-oriented (OO)"); // Expansion
@@ -19292,6 +19299,8 @@ namespace OverflowHelper.core
 
             correctionAdd("german", "German");
             correctionAdd("gearman", "German");
+            correctionAdd("deutch", "German");
+            correctionAdd("deutsch", "German");
 
             correctionAdd("french", "French");
             correctionAdd("FRENCH", "French");
@@ -20777,6 +20786,7 @@ namespace OverflowHelper.core
             correctionAdd("PyLint", "Pylint");
             correctionAdd("pylint", "Pylint");
             correctionAdd("pyling", "Pylint");
+            correctionAdd("pyLint", "Pylint");
 
             correctionAdd("Software Recs", "Software Recommendations (Stack Exchange site)");
             correctionAdd("software recommendations", "Software Recommendations (Stack Exchange site)");
@@ -26666,6 +26676,7 @@ namespace OverflowHelper.core
             correctionAdd("PEP8", "PEP&nbsp;8");
             correctionAdd("pep8", "PEP&nbsp;8");
             correctionAdd("pep 8", "PEP&nbsp;8");
+            correctionAdd("PEP 0008", "PEP&nbsp;8");
 
             correctionAdd("conventition", "convention");
 
@@ -28312,6 +28323,7 @@ namespace OverflowHelper.core
             correctionAdd("persistes", "persists");
 
             correctionAdd("significative", "significant");
+            correctionAdd("significiant", "significant");
 
             correctionAdd("typo's", "typos");
 
@@ -34793,6 +34805,7 @@ namespace OverflowHelper.core
             correctionAdd("chart.js", "Chart.js");
             correctionAdd("ChartJS", "Chart.js");
             correctionAdd("chartjs", "Chart.js");
+            correctionAdd("chartJS", "Chart.js");
 
             correctionAdd("Make file", "Makefile");
             correctionAdd("makefile", "Makefile");
@@ -34861,6 +34874,24 @@ namespace OverflowHelper.core
             correctionAdd("super-power", "superpower");
 
             correctionAdd("Upvoting", "upvoting");
+
+            correctionAdd("godot", "Godot");
+
+            correctionAdd("vsauce", "Vsauce");
+
+            correctionAdd("cyclomatic", "cyclomatic complexity");
+
+            correctionAdd("Encapsulation", "encapsulation");
+
+            correctionAdd("effed", "fucked");
+
+            correctionAdd("Imperative Programming", "imperative programming");
+
+            correctionAdd("loope", "loops");
+
+            correctionAdd("Transpile", "transpile");
+
+            correctionAdd("visualizeable", "visualizable");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -54852,6 +54883,24 @@ namespace OverflowHelper.core
             URL_Add("superpower", "https://en.wiktionary.org/wiki/superpower#Noun");
 
             URL_Add("upvoting", "https://en.wiktionary.org/wiki/upvote#Verb");
+
+            URL_Add("Godot", "https://en.wikipedia.org/wiki/Godot_(game_engine)");
+
+            URL_Add("Vsauce", "https://www.youtube.com/c/vsauce1/videos");
+
+            URL_Add("cyclomatic complexity", "https://en.wikipedia.org/wiki/Cyclomatic_complexity");
+
+            URL_Add("encapsulation", "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)");
+
+            URL_Add("fucked", "https://en.wiktionary.org/wiki/fuck#Verb");
+
+            URL_Add("imperative programming", "https://en.wikipedia.org/wiki/Imperative_programming");
+
+            URL_Add("loops", "https://en.wiktionary.org/wiki/loop#Noun");
+
+            URL_Add("transpile", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
+
+            URL_Add("visualizable", "https://en.wiktionary.org/wiki/visualizable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
