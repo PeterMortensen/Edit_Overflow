@@ -43,6 +43,8 @@ from selenium.webdriver.common.keys import Keys
 # by the prefix "core" (and thus a candidate to be
 # moved to a more general place).
 #
+#Use the "@staticmethod" decorator instead? It seeem out of place here.
+#
 def _core_SubmitForm(aSomeElement):
 
     aSomeElement.send_keys(Keys.RETURN) # This is on a text element, but

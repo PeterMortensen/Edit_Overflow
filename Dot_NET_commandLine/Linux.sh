@@ -81,6 +81,15 @@
 #                                                                      #
 ########################################################################
 
+# Future:
+#
+#   1. Check for a working Internet connection in the beginning (like 
+#      the Python/Selenium self-test) - we are currently dependent
+#      on it (unexplained why this is necessary for even the 
+#      webserver on 'localhost')
+#
+#   2.
+
 
 #############################################################################
 #
