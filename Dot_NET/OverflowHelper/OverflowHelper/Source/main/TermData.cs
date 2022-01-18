@@ -841,6 +841,7 @@ namespace OverflowHelper.core
             correctionAdd("sq-Lite", "SQLite");
             correctionAdd("SQLIte", "SQLite");
             correctionAdd("SQLlite", "SQLite");
+            correctionAdd("sqilte", "SQLite");
 
             correctionAdd("pgsql", "PostgreSQL");
             correctionAdd("Postgre", "PostgreSQL");
@@ -6144,6 +6145,7 @@ namespace OverflowHelper.core
             correctionAdd("solution explorer", "Solution&nbsp;Explorer");
             correctionAdd("SolutionExplorer", "Solution&nbsp;Explorer");
             correctionAdd("solution expolorer", "Solution&nbsp;Explorer"); // Misspelling.
+            correctionAdd("solution-explorer", "Solution&nbsp;Explorer");
 
             correctionAdd("RSYNC", "rsync");
             correctionAdd("Rsync", "rsync");
@@ -8853,6 +8855,7 @@ namespace OverflowHelper.core
             correctionAdd("messsage", "message");
             correctionAdd("Message", "message");
             correctionAdd("mesaage", "message");
+            correctionAdd("MESSGE", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -14956,6 +14959,7 @@ namespace OverflowHelper.core
             correctionAdd("geting", "getting");
             correctionAdd("Geeting", "getting");
             correctionAdd("geeting", "getting");
+            correctionAdd("gettitng", "getting");
 
             correctionAdd("goel", "goal");
 
@@ -17769,6 +17773,7 @@ namespace OverflowHelper.core
             correctionAdd("environament", "environment");
             correctionAdd("einvironment", "environment");
             correctionAdd("environemtent", "environment");
+            correctionAdd("Enviorment", "environment");
 
             // Consider:
             //   weaher
@@ -20003,6 +20008,7 @@ namespace OverflowHelper.core
             correctionAdd("documentions", "documentation");
             correctionAdd("documentations", "documentation");
             correctionAdd("Documentation", "documentation");
+            correctionAdd("documenttion", "documentation");
 
             correctionAdd("Dox", "doxx");
             correctionAdd("dox", "doxx");
@@ -20585,6 +20591,11 @@ namespace OverflowHelper.core
             correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Mathematics", "Mathematics (Stack Exchange site)");
             correctionAdd("Math Stack Exchange", "Mathematics (Stack Exchange site)");
+            correctionAdd("maths se", "Mathematics (Stack Exchange site)");
+            correctionAdd("math se", "Mathematics (Stack Exchange site)");
+            correctionAdd("math SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Maths SE", "Mathematics (Stack Exchange site)");
 
             correctionAdd("alianate", "alienate");
 
@@ -21275,6 +21286,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Wheel", "wheel");
             correctionAdd("whl", "wheel");
+            correctionAdd("WHL", "wheel");
 
             correctionAdd("Wiki", "wiki");
 
@@ -24005,6 +24017,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wes", "was");
             correctionAdd("wass", "was");
+            correctionAdd("wad", "was");
 
             correctionAdd("ipaas", "iPaaS");
 
@@ -26435,6 +26448,12 @@ namespace OverflowHelper.core
             correctionAdd("food for fought", "food for thought");
 
             correctionAdd("Golden Ratio", "golden ratio");
+
+            correctionAdd("golden shield", "Golden Shield Project");
+            correctionAdd("Golden Shield", "Golden Shield Project");
+
+            correctionAdd("GFW", "Great Firewall");
+            correctionAdd("great firewall", "Great Firewall");
 
             correctionAdd("inculate", "insulate");
 
@@ -29934,6 +29953,7 @@ namespace OverflowHelper.core
             correctionAdd("2nd order", "second-order");
 
             correctionAdd("stumbled on", "stumble upon");
+            correctionAdd("stumble on", "stumble upon");
 
             correctionAdd("modifirer", "modifier");
 
@@ -30811,9 +30831,6 @@ namespace OverflowHelper.core
 
             correctionAdd("flathub", "Flathub");
 
-            correctionAdd("golden shield", "Golden Shield Project");
-            correctionAdd("Golden Shield", "Golden Shield Project");
-
             correctionAdd("Rocky", "Rocky Linux");
 
             correctionAdd("TailScale", "Tailscale");
@@ -30907,6 +30924,7 @@ namespace OverflowHelper.core
 
             correctionAdd("the benefit of the doubt", "benefit of the doubt");
             correctionAdd("benefit of doubt", "benefit of the doubt");
+            correctionAdd("BOTD", "benefit of the doubt");
 
             correctionAdd("HTML 4.0", "HTML&nbsp;4"); // Sort of identity mapping
             correctionAdd("HTML 4", "HTML&nbsp;4");
@@ -31247,6 +31265,7 @@ namespace OverflowHelper.core
             correctionAdd("cancelation", "cancellation");
 
             correctionAdd("dowloaded", "downloaded");
+            correctionAdd("donwloaded", "downloaded");
 
             correctionAdd("no mater", "no matter");
 
@@ -35010,6 +35029,41 @@ namespace OverflowHelper.core
 
             correctionAdd("squiglies", "squiggles");
             correctionAdd("squillies", "squiggles");
+
+            correctionAdd("christianity", "Christianity");
+
+            correctionAdd("cunningham's law", "Cunningham's Law");
+
+            correctionAdd("babby formed", "How Is Babby Formed?");
+
+            correctionAdd("Thomson", "J. J. Thomson");
+
+            correctionAdd("qtile", "Qtile");
+
+            correctionAdd("rhythmbox", "Rhythmbox");
+            correctionAdd("rythmbox", "Rhythmbox");
+
+            correctionAdd("tagalog", "Tagalog");
+
+            correctionAdd("anti-neutron", "antineutron");
+
+            correctionAdd("anti-particle", "antiparticle");
+
+            correctionAdd("anti-proton", "antiproton");
+
+            correctionAdd("clsos", "close");
+
+            correctionAdd("campute", "compute");
+
+            correctionAdd("head-over-heels", "head over heels");
+
+            correctionAdd("Industry", "industry");
+
+            correctionAdd("Mainland China", "mainland China");
+
+            correctionAdd("Positron", "positron");
+
+            correctionAdd("Positronium", "positronium");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55088,6 +55142,42 @@ namespace OverflowHelper.core
 
             URL_Add("squiggles", "https://en.wikipedia.org/wiki/Tilde#Other_uses_2");
 
+            URL_Add("Christianity", "https://en.wiktionary.org/wiki/Christianity#Proper_noun");
+
+            URL_Add("Cunningham's Law", "https://en.wikipedia.org/wiki/Ward_Cunningham#%22Cunningham's_Law%22");
+
+            URL_Add("Great Firewall", "https://en.wikipedia.org/wiki/Great_Firewall");
+
+            URL_Add("How Is Babby Formed?", "http://knowyourmeme.com/memes/how-is-babby-formed");
+
+            URL_Add("J. J. Thomson", "https://en.wikipedia.org/wiki/J._J._Thomson");
+
+            URL_Add("Qtile", "https://en.wikipedia.org/wiki/Tiling_window_manager#List_of_tiling_window_managers_for_X");
+
+            URL_Add("Rhythmbox", "https://en.wikipedia.org/wiki/Rhythmbox");
+
+            URL_Add("Tagalog", "https://en.wikipedia.org/wiki/Tagalog_language");
+
+            URL_Add("antineutron", "https://en.wikipedia.org/wiki/Antineutron");
+
+            URL_Add("antiparticle", "https://en.wikipedia.org/wiki/Antiparticle");
+
+            URL_Add("antiproton", "https://en.wikipedia.org/wiki/Antiproton");
+
+            URL_Add("close", "https://en.wiktionary.org/wiki/close#Verb");
+
+            URL_Add("compute", "https://en.wiktionary.org/wiki/compute#Verb");
+
+            URL_Add("head over heels", "https://en.wiktionary.org/wiki/head_over_heels#Adjective");
+
+            URL_Add("industry", "https://en.wiktionary.org/wiki/industry#Noun");
+
+            URL_Add("mainland China", "https://en.wikipedia.org/wiki/Mainland_China");
+
+            URL_Add("positron", "https://en.wikipedia.org/wiki/Positron");
+
+            URL_Add("positronium", "https://en.wikipedia.org/wiki/Positronium");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -55378,6 +55468,8 @@ namespace OverflowHelper.core
 
             correctionAdd("squise_", "squeeze_");
 
+            correctionAdd("Electron_", "electron_");
+
             // URL mappings
             //
             //
@@ -55570,6 +55662,8 @@ namespace OverflowHelper.core
             URL_Add("love you_", "https://www.allacronyms.com/LY/Love_You");
 
             URL_Add("squeeze_", "https://en.wiktionary.org/wiki/squeeze#Verb");
+
+            URL_Add("electron_", "https://en.wikipedia.org/wiki/Electron");
 
         } //addLookupData_alternativeWordSet()
 
