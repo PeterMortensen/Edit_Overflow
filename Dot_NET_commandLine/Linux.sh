@@ -83,9 +83,9 @@
 
 # Future:
 #
-#   1. Check for a working Internet connection in the beginning (like 
+#   1. Check for a working Internet connection in the beginning (like
 #      the Python/Selenium self-test) - we are currently dependent
-#      on it (unexplained why this is necessary for even the 
+#      on it (unexplained why this is necessary for even the
 #      webserver on 'localhost')
 #
 #   2.
@@ -417,8 +417,8 @@ if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
 fi
 
 
-# Change/reset state that may prevent us from exporting (this 
-# can happen if variable LOOKUP is set manually in the 
+# Change/reset state that may prevent us from exporting (this
+# can happen if variable LOOKUP is set manually in the
 # command line window where this script is run from...)
 unset LOOKUP
 
@@ -1093,7 +1093,6 @@ function retrieveWebHostingErrorLog()
 
 
 
-
 # ###########################################################################
 # ###########################################################################
 # ###########################################################################
@@ -1540,24 +1539,56 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 startOfBuildStep "28" "Exporting the word list as SQL"
 
-# Compile and run in one step. We could also 
-# run it like this after compilation (off 
+# First check that it actually compiles... Set up to get minimum output
+# from the command-line .NET Core Edit Overflow application... We don't
+# want to suppress any output, either.
+#
+export STDERR_FILE2="_stdErr_Export2.txt"
+export LOOKUP="NO_THERE"
+unset WORDLIST_OUTPUTTYPE
+time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE2} ; evaluateBuildResult 28 $? "compilation"
+#echo "Exit code: ${?}"
+
+unset LOOKUP
+
+# Echo any errors, no matter what
+cat ${STDERR_FILE2}
+
+# Check for output to standard error. It must be empty.
+[[ -s ${STDERR_FILE2} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
+
+#exit
+
+# Compile and run in one step. We could also
+# run it like this after compilation (off
 # the build folder):
 #
 #     bin/Debug/netcoreapp3.1/EditOverflow3
 #
 # If the compilation fails, the return code is "1". It is masked
-# by the grep's, but we are saved by the previous build step 
+# by the grep's, but we are saved by the previous build step
 # (a compilation error automatically terminates the unit
 # tests).
 #
+export STDERR_FILE3="_stdErr_Export3.txt"
 export WORDLIST_OUTPUTTYPE=SQL
-time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 28 $? "generation of word list in SQL format"
+time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE3} | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 28 $? "generation of word list in SQL format"
+
+# Echo any errors, no matter what
+cat ${STDERR_FILE3}
+
+# Check for output to standard error. It must be empty.
+[[ -s ${STDERR_FILE3} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
+
 
 echo
 pwd
 echo
 ls -ls $SQL_FILE
+
+
+#exit
+
 
 
 # ###########################################################################
@@ -1593,8 +1624,8 @@ code
 # Some redundancy here - to be eliminated
 startOfBuildStep "30" "Exporting the word list as HTML"
 
-# Compile and run in one step. We could also 
-# run it like this after compilation (off 
+# Compile and run in one step. We could also
+# run it like this after compilation (off
 # the build folder):
 #
 #     bin/Debug/netcoreapp3.1/EditOverflow3
@@ -1606,6 +1637,8 @@ cp  $HTML_FILE  $HTML_FILE_GENERIC
 
 echo
 ls -ls $HTML_FILE_GENERIC
+
+#exit
 
 
 # ###########################################################################
@@ -1625,8 +1658,8 @@ ${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 31  $? "Checkin
 # Some redundancy here - to be eliminated
 startOfBuildStep "32" "Exporting the word list as JavaScript"
 
-# Compile and run in one step. We could also 
-# run it like this after compilation (off 
+# Compile and run in one step. We could also
+# run it like this after compilation (off
 # the build folder):
 #
 #     bin/Debug/netcoreapp3.1/EditOverflow3

@@ -27,6 +27,13 @@ namespace EditOverflow2
             string outputType = Environment.GetEnvironmentVariable("WORDLIST_OUTPUTTYPE");
 
 
+            //Test!!!!!!!  To see if we actually detect output
+            //             to standard error in the build
+            //             script
+            System.IO.TextWriter errorWriter = Console.Error;
+            //errorWriter.WriteLine("\nSome output to standard error...\n");
+
+
             string toOutput = ""; // No output unless explicitly indicated
                                   // by parameters passed to the program
 
@@ -51,22 +58,22 @@ namespace EditOverflow2
                 }
 
 
-                //Test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                //return 42;
-                {
-                    Console.WriteLine("\n\nAbout to fail an assert....\n");
-                    Trace.Assert(0 == 1, "Assert failed...");
-
-                    Console.WriteLine(
-                        "Do we continue program execution after an assert fires? No!");
-                }
-                {
-                    Console.WriteLine(
-                        "\n\nAbout to call Environment.Exit(44)....\n");
-                    Environment.Exit(44);
-                    Console.WriteLine(
-                        "Do we continue program execution after Environment.Exit()? No!");
-                }
+                ////Test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                ////return 42;
+                //{
+                //    Console.WriteLine("\n\nAbout to fail an assert....\n");
+                //    Trace.Assert(0 == 1, "Assert failed...");
+                //
+                //    Console.WriteLine(
+                //        "Do we continue program execution after an assert fires? No!");
+                //}
+                //{
+                //    Console.WriteLine(
+                //        "\n\nAbout to call Environment.Exit(44)....\n");
+                //    Environment.Exit(44);
+                //    Console.WriteLine(
+                //        "Do we continue program execution after Environment.Exit()? No!");
+                //}
 
             }
             else

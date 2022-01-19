@@ -167,9 +167,16 @@ namespace OverflowHelper.core
             // Yes, right now we need to configure Windows vs. Linux here...
             //
             //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
-            Console.WriteLine(fullErrorMessage); // Linux
 
-            Console.WriteLine("");
+            //Console.WriteLine(fullErrorMessage); // Linux
+            //Console.WriteLine("");
+
+            //Console.WriteLine(fullErrorMessage); // Linux
+            //Console.WriteLine("");
+            System.IO.TextWriter errorWriter = Console.Error;
+            errorWriter.WriteLine(fullErrorMessage); // Linux
+            errorWriter.WriteLine("");
+
         } //reportError()
 
 
