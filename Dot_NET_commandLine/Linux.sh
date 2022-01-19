@@ -1539,9 +1539,15 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 startOfBuildStep "28" "Exporting the word list as SQL"
 
-# First check that it actually compiles... Set up to get minimum output
-# from the command-line .NET Core Edit Overflow application... We don't
-# want to suppress any output, either.
+# First check that it actually compiles... Running the unit tests in a 
+# previous build step indirectly checks for compilation errors (we 
+# wouldn't be here it otherwise), but they do not cover all the 
+# code we use here (for exporting the word list in different 
+# formats). 
+#
+# Set up to get minimum output from the command-line .NET Core Edit Overflow 
+# application... But we don't want to suppress any output in case of 
+# an error, either.
 #
 export STDERR_FILE2="_stdErr_Export2.txt"
 export LOOKUP="NO_THERE"
@@ -1556,8 +1562,6 @@ cat ${STDERR_FILE2}
 
 # Check for output to standard error. It must be empty.
 [[ -s ${STDERR_FILE2} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
-
-#exit
 
 # Compile and run in one step. We could also
 # run it like this after compilation (off
@@ -1845,10 +1849,17 @@ mustBeEqual ${MATCHING_LINES} 1  43   "HTML anchor is not unique"
 # End-to-end testing of the web interface, using both local web server
 # and the hosting (live server).
 #
-# Note: This presumes the PHP files have been deployed to
-#       production (this is currently a manual process)
+# Notes: 
 #
-# It uses Selenium and is quite slow
+#   1. This presumes the PHP files have been deployed to
+#      production (this is currently a manual process)
+#
+#   2. It uses Selenium and is quite slow.
+#
+#   3. Sometimes one or more tests fails due to timing issues, not 
+#      because there is an actual test failure. In that case, try 
+#      to rerun the build (we currently don't know how to prevent
+#      it). 
 #
 startOfBuildStep "44" "Starting web interface regression tests. Both for the local web server and production."
 

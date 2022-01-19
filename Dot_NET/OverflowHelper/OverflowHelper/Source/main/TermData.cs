@@ -5556,6 +5556,7 @@ namespace OverflowHelper.core
             correctionAdd("ms dos", "DOS");
             correctionAdd("ms-dos", "DOS");
             correctionAdd("MS-Dos", "DOS");
+            correctionAdd("MSDOS", "DOS");
 
             correctionAdd("AppStore", "App&nbsp;Store");
             correctionAdd("App Store", "App&nbsp;Store");
@@ -12972,6 +12973,7 @@ namespace OverflowHelper.core
             correctionAdd("soltions", "solution");
             correctionAdd("soltion", "solution");
             correctionAdd("solulution", "solution");
+            correctionAdd("solotion", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -14303,6 +14305,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Supervolcano", "supervolcano");
 
+            correctionAdd("vulcano", "volcano");
+            correctionAdd("Vulcano", "volcano");
+            correctionAdd("Volcano", "volcano");
+
             correctionAdd("ulitmately", "ultimately");
             correctionAdd("Ulitmately", "ultimately");
 
@@ -14715,6 +14721,7 @@ namespace OverflowHelper.core
             correctionAdd("wieght", "weight");
             correctionAdd("waight", "weight");
             correctionAdd("weigth", "weight");
+            correctionAdd("Weight", "weight");
 
             correctionAdd("Beligum", "Belgium");
             correctionAdd("beligum", "Belgium");
@@ -16608,6 +16615,7 @@ namespace OverflowHelper.core
             correctionAdd("korn shell", "KornShell");
             correctionAdd("Kornshell", "KornShell");
             correctionAdd("Korn shell", "KornShell");
+            correctionAdd("KSH", "KornShell");
 
             correctionAdd("openntp", "OpenNTPD");
 
@@ -28587,9 +28595,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sprincle", "sprinkle");
 
-            correctionAdd("vulcano", "volcano");
-            correctionAdd("Vulcano", "volcano");
-
             correctionAdd("wapon", "weapon");
             correctionAdd("wappon", "weapon");
 
@@ -29872,6 +29877,7 @@ namespace OverflowHelper.core
             correctionAdd("AFAIK", "as far as I know");
             correctionAdd("IFAIK", "as far as I know");
             correctionAdd("ifaik", "as far as I know");
+            correctionAdd("AFIK", "as far as I know");
 
             correctionAdd("dunno", "don't know");
             correctionAdd("Dunno", "don't know");
@@ -30093,6 +30099,7 @@ namespace OverflowHelper.core
             correctionAdd("referers", "referrers");
 
             correctionAdd("timeconsuming", "time-consuming");
+            correctionAdd("time consuming", "time-consuming");
 
             correctionAdd("zig-zag", "zigzag");
 
@@ -31625,6 +31632,8 @@ namespace OverflowHelper.core
             correctionAdd("sereal", "serial");
 
             correctionAdd("AoA", "AOA");
+            correctionAdd("angle-of-attack", "AOA");
+            correctionAdd("angle of attack", "AOA");
 
             correctionAdd("Commons-IO", "Commons IO");
             correctionAdd("commons-io", "Commons IO");
@@ -35126,6 +35135,35 @@ namespace OverflowHelper.core
             correctionAdd("Positron", "positron");
 
             correctionAdd("Positronium", "positronium");
+
+            correctionAdd("CIDR", "Classless Inter-Domain Routing");
+
+            correctionAdd("Cot Editor", "CotEditor");
+
+            correctionAdd("ASSERT", "assert");
+
+            correctionAdd("Autopilot", "autopilot");
+
+            correctionAdd("Biconditional", "biconditional");
+
+            correctionAdd("Captain", "captain");
+
+            correctionAdd("Drag", "drag");
+
+            correctionAdd("EXEC", "exec");
+
+            correctionAdd("flame bait", "flamebait");
+
+            correctionAdd("Lift", "lift");
+
+            correctionAdd("Pilot", "pilot");
+
+            correctionAdd("sign-post", "signpost");
+            correctionAdd("sign post", "signpost");
+
+            correctionAdd("unvoidable", "unavoidable");
+
+            correctionAdd("youke", "yoke");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55239,6 +55277,34 @@ namespace OverflowHelper.core
             URL_Add("positron", "https://en.wikipedia.org/wiki/Positron");
 
             URL_Add("positronium", "https://en.wikipedia.org/wiki/Positronium");
+
+            URL_Add("Classless Inter-Domain Routing", "https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing");
+
+            URL_Add("CotEditor", "https://www.findbestopensource.com/tagged/editor?fq=MacOS");
+
+            URL_Add("assert", "https://en.wikipedia.org/wiki/Assertion_(software_development)#Assertions_for_run-time_checking");
+
+            URL_Add("autopilot", "https://en.wikipedia.org/wiki/Autopilot");
+
+            URL_Add("biconditional", "https://en.wikipedia.org/wiki/Logical_biconditional");
+
+            URL_Add("captain", "https://en.wiktionary.org/wiki/captain#Noun");
+
+            URL_Add("drag", "https://en.wiktionary.org/wiki/drag#Noun");
+
+            URL_Add("exec", "https://linux.die.net/man/1/exec");
+
+            URL_Add("flamebait", "https://en.wiktionary.org/wiki/flamebait#Noun");
+
+            URL_Add("lift", "https://en.wiktionary.org/wiki/lift#Noun");
+
+            URL_Add("pilot", "https://en.wiktionary.org/wiki/pilot#Noun");
+
+            URL_Add("signpost", "https://en.wiktionary.org/wiki/signpost#Noun");
+
+            URL_Add("unavoidable", "https://en.wiktionary.org/wiki/unavoidable#Adjective");
+
+            URL_Add("yoke", "https://en.wiktionary.org/wiki/yoke#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
