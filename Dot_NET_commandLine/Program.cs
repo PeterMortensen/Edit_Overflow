@@ -56,6 +56,14 @@ namespace EditOverflow2
                         " is: " + correctedText2);
                     Console.WriteLine();
                 }
+                else
+                {
+                    Console.WriteLine(
+                        "The word \"" + lookupWord +
+                        "\" is not in the word list: ");                    
+                }
+                
+                //Console.WriteLine("'alo...");
 
 
                 ////Test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -124,17 +132,18 @@ namespace EditOverflow2
                    default:
                       //Console.WriteLine("Hello, World!");
 
-                      Console.WriteLine("\n");
-                      Console.WriteLine("2020-02-28T012833Z+0");
-                      Console.WriteLine("\n");
+                      //Console.WriteLine("\n");
+                      //Console.WriteLine("2020-02-28T012833Z+0");
+                      //Console.WriteLine("\n");
 
                       string var1 = Environment.GetEnvironmentVariable("PATH");
                       //Console.WriteLine("Environment variable PATH: " + var1 + "\n");
 
                       Console.WriteLine(
-                        "Output type for wordlist not specified. " +
+                        "The output type for the wordlist export was " +
+                        "specified as \"" + outputType + "\". " +
                         "Use environment variable WORDLIST_OUTPUTTYPE " +
-                        "with 'SQL' or 'HTML'.\n");
+                        "with a value of 'SQL', 'HTML', or 'JavaScript'.\n");
                       break;
                 } //switch
 

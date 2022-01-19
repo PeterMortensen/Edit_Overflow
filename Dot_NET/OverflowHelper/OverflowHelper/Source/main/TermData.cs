@@ -134,6 +134,14 @@ namespace OverflowHelper.core
                                       string aSomeErrorMessage)
         {
 
+            //For debugging
+            if (!aCondition)
+            {
+                //Console.WriteLine("About to fail assert in ourAssert()");
+                //Console.WriteLine("");
+            }
+
+
             // The exit code is 134 on Linux if the assert fails. See e.g.
             // <https://stackoverflow.com/a/2862759/> for an explanation.
             //
@@ -168,14 +176,39 @@ namespace OverflowHelper.core
             //
             //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
 
-            //Console.WriteLine(fullErrorMessage); // Linux
-            //Console.WriteLine("");
+            if (false)
+            {
+                // To standard output
 
-            //Console.WriteLine(fullErrorMessage); // Linux
-            //Console.WriteLine("");
-            System.IO.TextWriter errorWriter = Console.Error;
-            errorWriter.WriteLine(fullErrorMessage); // Linux
-            errorWriter.WriteLine("");
+
+                //Though we get this if it is not outcommented:
+                //
+                //   TermData.cs(183,17): warning CS0162: Unreachable code detected
+                //   [/home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/EditOverflow3_UnitTests.csproj]
+
+                //Console.WriteLine(fullErrorMessage); // Linux
+                //Console.WriteLine("");
+            }
+            else
+            {
+                // To standard error
+                //
+                // Note:
+                //
+                //     Outputting to standard error will ***not*** 
+                //     change the exit code from the program.
+
+
+                //Though we get this if it is not outcommented:
+                //
+                //   TermData.cs(205,17): warning CS0162: Unreachable code detected
+                //   [/home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/EditOverflow3_UnitTests.csproj]
+
+                System.IO.TextWriter errorWriter = Console.Error;
+                errorWriter.WriteLine(fullErrorMessage); // Linux
+                errorWriter.WriteLine("");
+            }
+
 
         } //reportError()
 
