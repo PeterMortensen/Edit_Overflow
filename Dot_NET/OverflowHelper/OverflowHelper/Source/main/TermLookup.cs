@@ -53,7 +53,8 @@
 
 using System.Collections.Generic; //For Dictionary and List
 using System.Text; //For StringBuilder.
-using System.Diagnostics; //For Trace. And its Assert.
+
+//using System.Diagnostics; //For Trace. And its Assert.
 
 //using System; // For Console
 
@@ -113,14 +114,12 @@ namespace OverflowHelper.core
             //    System.Environment.SpecialFolder.ApplicationData);
 
 
-
             //This is dependent on "x86", "x64" and "Any CPU":
             //
             //  On 64-bit Windows:
             //    "x86"    :  "C:\\Program Files (x86)"
             //    "x64"    :  "C:\\Program Files"
             //    "Any CPU":  "C:\\Program Files"
-            //
             //
             //Is this meaningful on Linux????
             string folderStr =
@@ -446,7 +445,7 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static string escapeSQL(string aStringForSQL)
         {
-            Trace.Assert(aStringForSQL != null);
+            ourAssert(aStringForSQL != null);
 
             // In any case, we should have some unit test, including
             // when the backslash is at the beginning or the end of
@@ -509,8 +508,8 @@ namespace OverflowHelper.core
             {
                 // Check for errors made by the client and internally
                 // here (e.g. differences in escaping).
-                Trace.Assert(aBadTerm3  == aCorrectedTerm3);
-                Trace.Assert(effectiveIncorrectTerm  == effectiveCorrectTerm);
+                ourAssert(aBadTerm3  == aCorrectedTerm3);
+                ourAssert(effectiveIncorrectTerm  == effectiveCorrectTerm);
            }
 
             aSomeScratch.Append("INSERT INTO EditOverflow\n");
@@ -538,6 +537,22 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
+         *  Purpose: Isolate the dependency on TermData (we later                   *
+         *           want to eliminate it altogether (by moving                     *
+         *           ourAssert() to a central place))                               *
+         *                                                                          *
+         *           We may keep this one for convenience                           *
+         *           on the client side.                                            *
+         *                                                                          *
+         ****************************************************************************/
+        private static void ourAssert(bool aCondition)
+        {
+            TermData.ourAssert(aCondition);
+        }
+
+
+        /****************************************************************************
+         *                                                                          *
          *    More officially, HTML character entity reference encoding:            *
          *                                                                          *
          *    We should probably replace the implementation (or                     *
@@ -547,7 +562,7 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private static string escapeHTML(string aStringForHTML)
         {
-            Trace.Assert(aStringForHTML != null);
+            ourAssert(aStringForHTML != null);
 
             //Would it be more memory efficient to test first and then return
             //the original string? - very few of these calls result in an
@@ -594,8 +609,8 @@ namespace OverflowHelper.core
             // a group of words (the same correct word, but different
             // incorrect words).
             //
-            // It would be wasteful and would not pass HTML validation ('id'
-            // must be unique).
+            // It would be wasteful and would not pass
+            // HTML validation ('id' must be unique).
             //
             string anchor = "";
             if (aFirstCorrectedTerm)
@@ -605,13 +620,17 @@ namespace OverflowHelper.core
                 // Spaces are not allowed in IDs
                 string escapedCorrectedTerm = aCorrectedTerm.Replace(@" ", @"_");
 
-                // HTML non-breaking spaces do not work to scroll in a web browser
+                // HTML non-breaking spaces do not work
+                // to scroll in a web browser
                 escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"&nbsp;", @"_");
 
-                // We also filter out double quotes. Unchanged they will cause
-                // HTML validation to fail. We don't know if it is possible to
-                // escape them in this context ("&quot;"?), but it is a very
-                // minor problem - we have only one entry in the entire word list.
+                // We also filter out double quotes. Unchanged they
+                // will cause HTML validation to fail. We don't
+                // know if it is possible to escape them in
+                // this context ("&quot;"?), but it is a
+                // very minor problem - we have only
+                // one entry in the (current)
+                // entire word list.
                 escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"""", @"");
 
                 string attrStr =
@@ -626,7 +645,7 @@ namespace OverflowHelper.core
             //        from the word list page in a web browser.
             //
             //        We may simply opt for direct substitution at
-            //        some point (if this turns out to be stable)
+            //        some point (if this turns out to be stable).
             //
             //string innerColumnsSeparator = " ";
             string innerColumnsSeparator = ""; //It might seem like a null
@@ -728,8 +747,8 @@ namespace OverflowHelper.core
             {
                 // Check for errors made by the client and internally
                 // here (e.g. differences in escaping).
-                Trace.Assert(aBadTerm  == aCorrectedTerm);
-                Trace.Assert(effectiveBadTerm  == effectiveCorrectedTerm);
+                ourAssert(aBadTerm  == aCorrectedTerm);
+                ourAssert(effectiveBadTerm  == effectiveCorrectedTerm);
             }
 
             // Word mapping
@@ -840,7 +859,7 @@ namespace OverflowHelper.core
                     //
                     // URLs should look like ones.
                     //
-                    // For now, we just check if they start with "http"...
+                    // For now, the main check is if they start with "http"...
                     //
                     if (!someURL.StartsWith("http"))
                     {
@@ -951,7 +970,7 @@ namespace OverflowHelper.core
                             break;
 
                         default:
-                            Trace.Assert(false); // Fall-through. Not allowed.
+                            ourAssert(false); // Fall-through. Not allowed.
                             break;
                     }
 

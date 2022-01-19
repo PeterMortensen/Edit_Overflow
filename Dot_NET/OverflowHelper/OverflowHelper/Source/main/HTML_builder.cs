@@ -258,7 +258,7 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *  Adds all the start of standard HTML docuemnt, including                 *
+         *  Adds all the start of standard HTML document, including                 *
          *  the start <head> tag and a title.                                       *
          *                                                                          *
          ****************************************************************************/

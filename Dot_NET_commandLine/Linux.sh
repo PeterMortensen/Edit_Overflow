@@ -417,6 +417,12 @@ if [ -z "${DISABLE_HTMLVALIDATION}" ] ; then
 fi
 
 
+# Change/reset state that may prevent us from exporting (this 
+# can happen if variable LOOKUP is set manually in the 
+# command line window where this script is run from...)
+unset LOOKUP
+
+
 
 # ###########################################################################
 #
@@ -1534,6 +1540,17 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 startOfBuildStep "28" "Exporting the word list as SQL"
 
+# Compile and run in one step. We could also 
+# run it like this after compilation (off 
+# the build folder):
+#
+#     bin/Debug/netcoreapp3.1/EditOverflow3
+#
+# If the compilation fails, the return code is "1". It is masked
+# by the grep's, but we are saved by the previous build step 
+# (a compilation error automatically terminates the unit
+# tests).
+#
 export WORDLIST_OUTPUTTYPE=SQL
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 28 $? "generation of word list in SQL format"
 
@@ -1576,6 +1593,12 @@ code
 # Some redundancy here - to be eliminated
 startOfBuildStep "30" "Exporting the word list as HTML"
 
+# Compile and run in one step. We could also 
+# run it like this after compilation (off 
+# the build folder):
+#
+#     bin/Debug/netcoreapp3.1/EditOverflow3
+#
 export WORDLIST_OUTPUTTYPE=HTML
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE  ; evaluateBuildResult 30 $? "generation of word list in HTML format"
 
@@ -1602,6 +1625,12 @@ ${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 31  $? "Checkin
 # Some redundancy here - to be eliminated
 startOfBuildStep "32" "Exporting the word list as JavaScript"
 
+# Compile and run in one step. We could also 
+# run it like this after compilation (off 
+# the build folder):
+#
+#     bin/Debug/netcoreapp3.1/EditOverflow3
+#
 export WORDLIST_OUTPUTTYPE=JavaScript
 time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162  > $JAVASCRIPT_FILE  ; evaluateBuildResult 32 $? "generation of word list in JavaScript format"
 
