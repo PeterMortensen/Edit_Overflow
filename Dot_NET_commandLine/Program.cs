@@ -1,11 +1,13 @@
 ﻿
 // First driver for using the .NET part Edit Overflow on Linux.
 //
-// The purpose is to run the word list integrity test
+// The purpose was to run the word list integrity test
 // independent of Windows and Visual Studio.
 
 
 using System; // For Console
+
+using System.Diagnostics; //For Trace. And its Assert.
 
 using OverflowHelper.core;
 
@@ -18,6 +20,7 @@ namespace EditOverflow2
     class Program
     {
         static void Main(string[] args)
+        //static int Main(string[] args)
         {
             string lookupWord = Environment.GetEnvironmentVariable("LOOKUP");
 
@@ -46,6 +49,25 @@ namespace EditOverflow2
                         " is: " + correctedText2);
                     Console.WriteLine();
                 }
+
+
+                //Test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                //return 42;
+                {
+                    Console.WriteLine("\n\nAbout to fail an assert....\n");
+                    Trace.Assert(0 == 1, "Assert failed...");
+
+                    Console.WriteLine(
+                        "Do we continue program execution after an assert fires? No!");
+                }
+                {
+                    Console.WriteLine(
+                        "\n\nAbout to call Environment.Exit(44)....\n");
+                    Environment.Exit(44);
+                    Console.WriteLine(
+                        "Do we continue program execution after Environment.Exit()? No!");
+                }
+
             }
             else
             {
@@ -77,17 +99,7 @@ namespace EditOverflow2
                         // This will result in running ***more*** rigorous
                         // integrity testing for the word list data
 
-
-                        //toOutput = someTermLookup.dumpWordList_asHTML(
-                        //
-                        //               // Fixed strings - sufficient for integrity testing
-                        //               // of the word list data
-                        //               //
-                        //               "some combined regular expressions",
-                        //               "some version thingie",
-                        //               "some date only string");
-                        
-                        string explanations = cfCheck.combinedAllOfExplanations();                       
+                        string explanations = cfCheck.combinedAllOfExplanations();
 
                         toOutput = someTermLookup.dumpWordList_asHTML(
                                        cfCheck.combinedAllOfRegularExpressions(),

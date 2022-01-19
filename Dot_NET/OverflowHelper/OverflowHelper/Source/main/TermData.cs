@@ -64,7 +64,6 @@ namespace OverflowHelper.core
 
             mCorrectTerm2URL = new Dictionary<string, string>();
 
-
             addLookupData();
 
             //Future: Assert   length of mIncorrect2Correct_Reverse equal to
@@ -116,6 +115,62 @@ namespace OverflowHelper.core
                 }
             } //Hash iteration.
         } //checkTermDataStructures()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Helper function: Trapping the system assert                           *
+         *                                                                          *
+         *    Notes: 1) It is trivial for now, but it is in                         *
+         *              preparation for other changes.                              *
+         *                                                                          *
+         *              For instance, we may want to change its behaviour           *
+         *              when the assert fails.                                      *
+         *                                                                          *
+         *           2) It ought to be in a more general place.                     *
+         *                                                                          *
+         ****************************************************************************/
+        private static void ourAssert(bool aCondition,
+                                      string aSomeErrorMessage)
+        {
+
+            // The exit code is 134 on Linux if the assert fails. See e.g.
+            // <https://stackoverflow.com/a/2862759/> for an explanation.
+            //
+            Trace.Assert(aCondition, aSomeErrorMessage);
+
+        }
+
+
+        /****************************************************************************
+         *                                                                          *
+         *      Convenient version of ourAssert() with two paramters.               *
+         *                                                                          *
+         ****************************************************************************/
+        public static void ourAssert(bool aCondition)
+        {
+            ourAssert(aCondition, "");
+        }
+
+
+        //Ought to be moved somewhere else - it does not belong in this class
+        /***************************************************************************
+        *                                                                          *
+        *  To isolate the Windows Forms dependency                                 *
+        *                                                                          *
+        ****************************************************************************/
+        public static void reportError(string aSomeMessage)
+        {
+            string fullErrorMessage = "Error in the word list data: " +
+                                      aSomeMessage;
+
+            // Yes, right now we need to configure Windows vs. Linux here...
+            //
+            //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
+            Console.WriteLine(fullErrorMessage); // Linux
+
+            Console.WriteLine("");
+        } //reportError()
 
 
         /****************************************************************************
@@ -183,19 +238,19 @@ namespace OverflowHelper.core
         {
             int badTermLength = aBadTerm.Length;
 
-            Trace.Assert(
+            ourAssert(
                  badTermLength > 0,
                 "LANG ASSERT. aBadTerm is empty in correctionAdd(). " +
                 "(aCorrectedTerm is \"" + aCorrectedTerm + "\"). ");
 
-            Trace.Assert(
+            ourAssert(
                 aBadTerm[badTermLength - 1] != '.',
                 "LANG ASSERT. aBadTerm ends with a full stop. " +
                 "This is currently not allowed " +
                 "(it will result in a false negative) " +
                 "(aBadTerm is \"" + aBadTerm + "\"). ");
 
-            Trace.Assert(
+            ourAssert(
                 aCorrectedTerm.Length > 0,
                 "LANG ASSERT. aCorrectedTerm is empty in correctionAdd() " +
                 "(aBadTerm is \"" + aBadTerm + "\"). ");
@@ -55666,26 +55721,6 @@ namespace OverflowHelper.core
             URL_Add("electron_", "https://en.wikipedia.org/wiki/Electron");
 
         } //addLookupData_alternativeWordSet()
-
-
-        //Ought to be moved somewhere else - it does not belong in this class
-        /***************************************************************************
-        *                                                                          *
-        *  To isolate the Windows Forms dependency                                 *
-        *                                                                          *
-        ****************************************************************************/
-        public static void reportError(string aSomeMessage)
-        {
-            string fullErrorMessage = "Error in the word list data: " +
-                                      aSomeMessage;
-
-            // Yes, right now we need to configure Windows vs. Linux here...
-            //
-            //System.Windows.Forms.MessageBox.Show(fullErrorMessage); // Windows
-            Console.WriteLine(fullErrorMessage); // Linux
-
-            Console.WriteLine("");
-        } //reportError()
 
 
     } //class TermData
