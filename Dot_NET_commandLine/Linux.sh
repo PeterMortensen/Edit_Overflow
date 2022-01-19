@@ -1092,6 +1092,112 @@ function retrieveWebHostingErrorLog()
 } #retrieveWebHostingErrorLog()
 
 
+# ###########################################################################
+#
+# Helper function to reduce redundancy.
+#
+# Export the Edit Overflow wordlist in the indicated format. And check
+# for various errors that may have happended during the export.
+#
+# Parameter:
+#
+#    $1   Build step number
+#
+#    $2   Export type. A string. Same as what the command-line version of
+#                      Edit Overflow requires as input. E.g. "SQL" for,
+#                      well, SQL.
+#
+#    $3   Export filename. Usually a full path name.
+#
+function wordListExport()
+{
+    echo
+    echo
+    echo "Start of wordListExport()... Build step $1. For export in $2 format."
+    echo
+
+    # Compile and run in one step. We could also
+    # run it like this after compilation (off
+    # the build folder):
+    #
+    #     bin/Debug/netcoreapp3.1/EditOverflow3
+    #
+    # If the compilation fails, the return code is "1". It is masked
+    # by the grep's, but we are saved by the previous build step
+    # (a compilation error automatically terminates the unit
+    # tests).
+    
+    # The environment variable the Edit Overflow command-line 
+    # program expects.
+    #
+    export WORDLIST_OUTPUTTYPE=$2
+
+    # Alias here
+    export WORD_EXPORT_FILE=$3
+
+    # For now, we use the build step number to make the file
+    # name for the capture standard error output unique.
+    export STDERR_FILE="_stdErr_Export_${1}_${WORDLIST_OUTPUTTYPE}.txt"
+
+    #pwd
+    #echo "Standard error file: ${STDERR_FILE}"
+    echo "Standard error file: `pwd`/${STDERR_FILE}"
+
+    # For debugging exit code:
+    #
+    #   Insert (we must redirect to a file because
+    #   there may be way too much output to
+    #   standard output...):
+    #
+    #      ; echo "Exit code: ${?}" > __Exit_Code.txt
+    #
+    
+    # Note: There ***must*** be ***some*** output to standard 
+    #       output (due to the two 'grep's), otherwise 
+    #       evaluateBuildResult() will stop the entire 
+    #       script/build. 
+    #
+    #       This is usually not a problem when used for the 
+    #       primary purpose of exporting the word list, but
+    #       can be when just invoking it for the purpose
+    #       of compilation/sanity checking.
+    #
+    time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    echo
+
+    # Note: The export file is accumulating, unless the client resets it...
+    echo "Export statistics:"
+    wc ${WORD_EXPORT_FILE}
+    echo
+
+    echo "Standard error output statistics:"
+    wc ${STDERR_FILE}
+    echo
+
+    echo "WORD_EXPORT_FILE: ${WORD_EXPORT_FILE}"
+    echo
+    #echo "After 'dotnet run'..."
+    #echo "Exit code captured: `cat __Exit_Code.txt`"
+
+    # Echo any errors, no matter what. But note that
+    # if the exit code is not 0 in the 'dotnet run'
+    # step, we will never get here!!
+    #
+    cat ${STDERR_FILE}
+
+    # Check for output to standard error. It must be empty.
+    [[ -s ${STDERR_FILE} ]] ; test $? -ne 0 ; evaluateBuildResult $1 $? "empty standard error output (word list export for $2)"
+
+
+    # Set up for the next call (as "LOOKUP" will override the main
+    # function, exports). Callers must explicitly set it before
+    # if they want it.
+    unset LOOKUP
+
+    #exit
+
+} #wordListExport()
+
 
 # ###########################################################################
 # ###########################################################################
@@ -1486,9 +1592,15 @@ webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&Li
 #
 startOfBuildStep "27" "Start running C# unit tests"
 
-# Note: unlike "dotnet run", "dotnet test" does not
-#       use option "-p" for specifying the project
-#       file name (inconsistent)
+# Notes:
+#
+#  1. Unlike "dotnet run", "dotnet test" does not
+#     use option "-p" for specifying the project
+#     file name (inconsistent)
+#
+#  2. This indirectly checks for code syntax error, but
+#     not for all the code (only what is dependent on
+#     the tests).
 #
 dotnet test EditOverflow3_UnitTests.csproj  ; evaluateBuildResult 27 $? "C# unit tests"
 
@@ -1509,7 +1621,59 @@ mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingChec
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
 
 
+
 # ###########################################################################
+#
+# Export the Edit Overflow word list as SQL
+#
+# Note: Compiler errors will be reported to standard
+#       error
+#
+#       CS0162 is "warning : Unreachable code detected"
+#
+startOfBuildStep "28" "Exporting the word list as SQL"
+
+# First check that it actually compiles... Running the unit tests in a
+# previous build step indirectly checks for compilation errors (we
+# wouldn't be here it otherwise), but they do not cover all the
+# code we use here (for exporting the word list in different
+# formats).
+#
+# It will actually check more than for syntax errors. The entire
+# command-line application will be run and if it reports any
+# errors during initialisation (e.g., inconsistent word 
+# list data structures), this will also be detected.
+#
+# Set up to get minimum output from the command-line .NET Core
+# Edit Overflow application... But we don't want to suppress
+# any output in case of an error, either.
+#
+export LOOKUP="NO_THERE"
+export COMPILECHECK_OUT="_compileCheckOut.txt"
+rm $COMPILECHECK_OUT
+wordListExport 28 "compileCheck"  $COMPILECHECK_OUT
+
+#exit
+
+
+#Delete at any time
+#export STDERR_FILE2="_stdErr_Export2.txt"
+#export LOOKUP="NO_THERE"
+#unset WORDLIST_OUTPUTTYPE
+#
+#
+#time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE2} ; evaluateBuildResult 28 $? "compilation"
+##echo "Exit code: ${?}"
+#
+## Echo any errors, no matter what
+#cat ${STDERR_FILE2}
+#
+## Check for output to standard error. It must be empty.
+#[[ -s ${STDERR_FILE2} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
+
+
+
+# Main operation: Export word list to SQL
 #
 # Fixed header for the SQL (not generated by Edit Overflow)
 #
@@ -1532,57 +1696,35 @@ mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZ
 #cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
 cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
 
-# Note: Compiler errors will be reported to standard
-#       error, but we currently don't redirect it.
-#
-#       CS0162 is "warning : Unreachable code detected"
-#
-startOfBuildStep "28" "Exporting the word list as SQL"
+#export STDERR_FILE3="_stdErr_Export3.txt"
 
-# First check that it actually compiles... Running the unit tests in a 
-# previous build step indirectly checks for compilation errors (we 
-# wouldn't be here it otherwise), but they do not cover all the 
-# code we use here (for exporting the word list in different 
-# formats). 
+wordListExport 28 "SQL" $SQL_FILE
+
+#exit
+
+
+
+
+#Delete at any time
+## Compile and run in one step. We could also
+## run it like this after compilation (off
+## the build folder):
+##
+##     bin/Debug/netcoreapp3.1/EditOverflow3
+##
+## If the compilation fails, the return code is "1". It is masked
+## by the grep's, but we are saved by the previous build step
+## (a compilation error automatically terminates the unit
+## tests).
+##
+#unset LOOKUP
+#time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE3} | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 28 $? "generation of word list in SQL format"
 #
-# Set up to get minimum output from the command-line .NET Core Edit Overflow 
-# application... But we don't want to suppress any output in case of 
-# an error, either.
+## Echo any errors, no matter what
+#cat ${STDERR_FILE3}
 #
-export STDERR_FILE2="_stdErr_Export2.txt"
-export LOOKUP="NO_THERE"
-unset WORDLIST_OUTPUTTYPE
-time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE2} ; evaluateBuildResult 28 $? "compilation"
-#echo "Exit code: ${?}"
-
-unset LOOKUP
-
-# Echo any errors, no matter what
-cat ${STDERR_FILE2}
-
-# Check for output to standard error. It must be empty.
-[[ -s ${STDERR_FILE2} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
-
-# Compile and run in one step. We could also
-# run it like this after compilation (off
-# the build folder):
-#
-#     bin/Debug/netcoreapp3.1/EditOverflow3
-#
-# If the compilation fails, the return code is "1". It is masked
-# by the grep's, but we are saved by the previous build step
-# (a compilation error automatically terminates the unit
-# tests).
-#
-export STDERR_FILE3="_stdErr_Export3.txt"
-export WORDLIST_OUTPUTTYPE=SQL
-time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE3} | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 28 $? "generation of word list in SQL format"
-
-# Echo any errors, no matter what
-cat ${STDERR_FILE3}
-
-# Check for output to standard error. It must be empty.
-[[ -s ${STDERR_FILE3} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
+## Check for output to standard error. It must be empty.
+#[[ -s ${STDERR_FILE3} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
 
 
 echo
@@ -1592,7 +1734,6 @@ ls -ls $SQL_FILE
 
 
 #exit
-
 
 
 # ###########################################################################
@@ -1628,14 +1769,14 @@ code
 # Some redundancy here - to be eliminated
 startOfBuildStep "30" "Exporting the word list as HTML"
 
-# Compile and run in one step. We could also
-# run it like this after compilation (off
-# the build folder):
-#
-#     bin/Debug/netcoreapp3.1/EditOverflow3
-#
-export WORDLIST_OUTPUTTYPE=HTML
-time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE  ; evaluateBuildResult 30 $? "generation of word list in HTML format"
+rm $HTML_FILE
+wordListExport 30 "HTML"  $HTML_FILE
+
+
+#Delete at any time
+#export WORDLIST_OUTPUTTYPE=HTML
+#time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE  ; evaluateBuildResult 30 $? "generation of word list in HTML format"
+
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
 
@@ -1662,14 +1803,14 @@ ${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 31  $? "Checkin
 # Some redundancy here - to be eliminated
 startOfBuildStep "32" "Exporting the word list as JavaScript"
 
-# Compile and run in one step. We could also
-# run it like this after compilation (off
-# the build folder):
-#
-#     bin/Debug/netcoreapp3.1/EditOverflow3
-#
-export WORDLIST_OUTPUTTYPE=JavaScript
-time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162  > $JAVASCRIPT_FILE  ; evaluateBuildResult 32 $? "generation of word list in JavaScript format"
+rm $JAVASCRIPT_FILE
+wordListExport 32 "JavaScript"  $JAVASCRIPT_FILE
+
+
+#Delete at any time
+#export WORDLIST_OUTPUTTYPE=JavaScript
+#time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162  > $JAVASCRIPT_FILE  ; evaluateBuildResult 32 $? "generation of word list in JavaScript format"
+
 
 # In the work folder
 cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
@@ -1849,17 +1990,17 @@ mustBeEqual ${MATCHING_LINES} 1  43   "HTML anchor is not unique"
 # End-to-end testing of the web interface, using both local web server
 # and the hosting (live server).
 #
-# Notes: 
+# Notes:
 #
 #   1. This presumes the PHP files have been deployed to
 #      production (this is currently a manual process)
 #
 #   2. It uses Selenium and is quite slow.
 #
-#   3. Sometimes one or more tests fails due to timing issues, not 
-#      because there is an actual test failure. In that case, try 
+#   3. Sometimes one or more tests fails due to timing issues, not
+#      because there is an actual test failure. In that case, try
 #      to rerun the build (we currently don't know how to prevent
-#      it). 
+#      it).
 #
 startOfBuildStep "44" "Starting web interface regression tests. Both for the local web server and production."
 
