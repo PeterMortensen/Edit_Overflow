@@ -195,7 +195,7 @@ namespace OverflowHelper.core
                 //
                 // Note:
                 //
-                //     Outputting to standard error will ***not*** 
+                //     Outputting to standard error will ***not***
                 //     change the exit code from the program.
 
 
@@ -2139,6 +2139,7 @@ namespace OverflowHelper.core
             correctionAdd("Pyhton", "Python");
             correctionAdd("Pythen", "Python");
             correctionAdd("Phyton", "Python");
+            correctionAdd("pyton", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -24982,6 +24983,7 @@ namespace OverflowHelper.core
             correctionAdd("Signal", "signal");
             correctionAdd("singal", "signal");
             correctionAdd("siganl", "signal");
+            correctionAdd("sigal", "signal");
 
             correctionAdd("Square Wave", "square wave");
 
@@ -35197,6 +35199,21 @@ namespace OverflowHelper.core
             correctionAdd("unvoidable", "unavoidable");
 
             correctionAdd("youke", "yoke");
+
+            correctionAdd("falun gong", "Falun Gong");
+
+            correctionAdd("pyodide", "Pyodide");
+
+            correctionAdd("SoloLearn", "Sololearn");
+            correctionAdd("sololearn", "Sololearn");
+
+            correctionAdd("apro pos", "apropos");
+
+            correctionAdd("attemted", "attempted");
+
+            correctionAdd("cross posting", "crossposting");
+
+            correctionAdd("Homonym", "homonym");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55338,6 +55355,20 @@ namespace OverflowHelper.core
             URL_Add("unavoidable", "https://en.wiktionary.org/wiki/unavoidable#Adjective");
 
             URL_Add("yoke", "https://en.wiktionary.org/wiki/yoke#Noun");
+
+            URL_Add("Falun Gong", "https://en.wikipedia.org/wiki/Falun_Gong");
+
+            URL_Add("Pyodide", "https://github.com/pyodide/pyodide");
+
+            URL_Add("Sololearn", "https://www.toptenreviews.com/sololearn-review");
+
+            URL_Add("apropos", "https://en.wiktionary.org/wiki/apropos#Adverb");
+
+            URL_Add("attempted", "https://en.wiktionary.org/wiki/attempt#Verb");
+
+            URL_Add("crossposting", "https://en.wikipedia.org/wiki/Crossposting");
+
+            URL_Add("homonym", "https://en.wiktionary.org/wiki/homonym#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
