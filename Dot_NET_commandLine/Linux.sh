@@ -1622,18 +1622,15 @@ mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZ
 
 
 
+
 # ###########################################################################
 #
-# Export the Edit Overflow word list as SQL
+# C# compile check, etc. Separate (and a requisite) for doing 
+# successful exports
 #
-# Note: Compiler errors will be reported to standard
-#       error
-#
-#       CS0162 is "warning : Unreachable code detected"
-#
-startOfBuildStep "28" "Exporting the word list as SQL"
+startOfBuildStep "28" "C# compilate and sanity check"
 
-# First check that it actually compiles... Running the unit tests in a
+# Check that it actually compiles... Running the unit tests in a
 # previous build step indirectly checks for compilation errors (we
 # wouldn't be here it otherwise), but they do not cover all the
 # code we use here (for exporting the word list in different
@@ -1652,6 +1649,19 @@ export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
 rm $COMPILECHECK_OUT
 wordListExport 28 "compileCheck"  $COMPILECHECK_OUT
+
+
+
+# ###########################################################################
+#
+# Export the Edit Overflow word list as SQL
+#
+# Note: Compiler errors will be reported to standard
+#       error
+#
+#       CS0162 is "warning : Unreachable code detected"
+#
+startOfBuildStep "28" "Exporting the word list as SQL"
 
 #exit
 
