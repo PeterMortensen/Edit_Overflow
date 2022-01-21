@@ -7367,6 +7367,7 @@ namespace OverflowHelper.core
             correctionAdd("reccommend", "recommend");
             correctionAdd("reccomened", "recommend");
             correctionAdd("recommned", "recommend");
+            correctionAdd("recomment", "recommend");
 
             correctionAdd("PDT", "PHP Development Tools");
             correctionAdd("eclipse pdt", "PHP Development Tools");
@@ -14302,6 +14303,8 @@ namespace OverflowHelper.core
             correctionAdd("rember", "remember");
             correctionAdd("remeber", "remember");
             correctionAdd("rememeber", "remember");
+            correctionAdd("rememebr", "remember");
+            correctionAdd("remembr", "remember");
 
             correctionAdd("re-written", "rewritten");
 
@@ -19804,6 +19807,7 @@ namespace OverflowHelper.core
             correctionAdd("Cross Platform", "cross-platform");
             correctionAdd("cross platform", "cross-platform");
             correctionAdd("cross-platfrom", "cross-platform");
+            correctionAdd("Cross platform", "cross-platform");
 
             correctionAdd("plattform", "platform");
             correctionAdd("platoform", "platform");
@@ -20723,6 +20727,8 @@ namespace OverflowHelper.core
             correctionAdd("wath", "what");
             correctionAdd("wht", "what");
             correctionAdd("whar", "what");
+            correctionAdd("WHat", "what");
+            correctionAdd("What", "what");
 
             correctionAdd("codidact", "Codidact");
             correctionAdd("Codedact", "Codidact");
@@ -35214,6 +35220,11 @@ namespace OverflowHelper.core
             correctionAdd("cross posting", "crossposting");
 
             correctionAdd("Homonym", "homonym");
+
+            correctionAdd("smoothed particle hydrodynamics", "smoothed-particle hydrodynamics");
+            correctionAdd("SPH", "smoothed-particle hydrodynamics");
+
+            correctionAdd("textprocessing", "text processing");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55369,6 +55380,10 @@ namespace OverflowHelper.core
             URL_Add("crossposting", "https://en.wikipedia.org/wiki/Crossposting");
 
             URL_Add("homonym", "https://en.wiktionary.org/wiki/homonym#Noun");
+
+            URL_Add("smoothed-particle hydrodynamics", "https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics");
+
+            URL_Add("text processing", "https://en.wikipedia.org/wiki/Text_processing");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
