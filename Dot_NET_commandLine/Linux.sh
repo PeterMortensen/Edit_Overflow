@@ -963,20 +963,9 @@ function endWatchFile()
 #
 function webServer_test()
 {
-    #Delete at any time
-    #echo "In webServer_test()..."
-    #echo "Dollar 1: $1..."
-    #echo "Dollar 2: $2..."
-    #echo "Dollar 3: $3..."
-    #echo "Dollar 4: $4..."
-
     startOfBuildStep $3 "Start detection of error log entries for a web server. ID: $2"
 
-
     export RETRIEVED_HTML_FILE="_$2.html"
-
-    #Delete at any time
-    #export SIZE_BEFORE_WEBERROR_LOG=`wc ${LOCAL_WEB_ERRORLOG_FILE}`
 
     startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
 
@@ -986,9 +975,6 @@ function webServer_test()
     #
     #wget -o ${RETRIEVED_HTML_FILE} "$1"
     wget -q -O ${RETRIEVED_HTML_FILE} "$1"
-
-    #Delete at any time
-    #export SIZE_AFTER_WEBERROR_LOG=`wc ${LOCAL_WEB_ERRORLOG_FILE}`
 
     #echo "Web server error log size before: ${SIZE_BEFORE_WEBERROR_LOG}"
     #echo "Web server error log size after: ${SIZE_AFTER_WEBERROR_LOG}"
@@ -1003,16 +989,6 @@ function webServer_test()
     #[ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ] ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
     endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult $3 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
 
-    #Delete at any time
-    ##if [ "${SIZE_BEFORE_WEBERROR_LOG}" = "${SIZE_AFTER_WEBERROR_LOG}" ]; then
-    #if [ "${SIZE_BEFORE_WEBERROR_LOG}" != "${SIZE_AFTER_WEBERROR_LOG}" ]; then
-    #
-    #    echo
-    #    echo "New entries in the web server log!"
-    #
-    #    #echo ; date ;
-    #    echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 2
-    #fi
 } #webServer_test()
 
 
@@ -1094,6 +1070,36 @@ function retrieveWebHostingErrorLog()
 
 # ###########################################################################
 #
+# Helper function to reduce redundancy, e.g. for wordListExport().
+#
+# Parameters:
+#
+#    $1   File name   E.g., the full path
+#
+#    $2   Minimum size
+#
+#    $3   Maximum size
+#
+#    $4   Build step number
+#
+#    $5   String identifying the build step
+#
+function checkFileSize()
+{
+    #echo "Minimum size: ${2}"
+
+    # Quote with single quotes for spaces in the file name
+    export COMMANDLINE="cat '${1}' | wc -c"
+    export FILE_SIZE7=$(eval "$COMMANDLINE")
+
+    #echo "File size: ${FILE_SIZE7}"
+
+    [ ${FILE_SIZE7} -gt ${2} ] && [ ${FILE_SIZE7} -lt ${3} ]  ; evaluateBuildResult $4 $? "File size: ${FILE_SIZE7}. Expected filesize range is ${2} - ${3} bytes (for build step $4, creating an export file in ${5} format)"
+} #checkFileSize()
+
+
+# ###########################################################################
+#
 # Helper function to reduce redundancy.
 #
 # Export the Edit Overflow wordlist in the indicated format. And check
@@ -1109,12 +1115,16 @@ function retrieveWebHostingErrorLog()
 #
 #    $3   Export filename. Usually a full path name.
 #
+#    $4   Minimum size
+#
+#    $5   Maximum size
+#
 function wordListExport()
 {
-    echo
-    echo
-    echo "Start of wordListExport()... Build step $1. For export in $2 format."
-    echo
+    #echo
+    #echo
+    #echo "Start of wordListExport()... Build step $1. For export in $2 format."
+    #echo
 
     # Compile and run in one step. We could also
     # run it like this after compilation (off
@@ -1126,8 +1136,8 @@ function wordListExport()
     # by the grep's, but we are saved by the previous build step
     # (a compilation error automatically terminates the unit
     # tests).
-    
-    # The environment variable the Edit Overflow command-line 
+
+    # The environment variable the Edit Overflow command-line
     # program expects.
     #
     export WORDLIST_OUTPUTTYPE=$2
@@ -1151,13 +1161,13 @@ function wordListExport()
     #
     #      ; echo "Exit code: ${?}" > __Exit_Code.txt
     #
-    
-    # Note: There ***must*** be ***some*** output to standard 
-    #       output (due to the two 'grep's), otherwise 
-    #       evaluateBuildResult() will stop the entire 
-    #       script/build. 
+
+    # Note: There ***must*** be ***some*** output to standard
+    #       output (due to the two 'grep's), otherwise
+    #       evaluateBuildResult() will stop the entire
+    #       script/build.
     #
-    #       This is usually not a problem when used for the 
+    #       This is usually not a problem when used for the
     #       primary purpose of exporting the word list, but
     #       can be when just invoking it for the purpose
     #       of compilation/sanity checking.
@@ -1174,8 +1184,8 @@ function wordListExport()
     wc ${STDERR_FILE}
     echo
 
-    echo "WORD_EXPORT_FILE: ${WORD_EXPORT_FILE}"
-    echo
+    echo "WORD_EXPORT_FILE: `pwd`/${WORD_EXPORT_FILE}"
+    #echo
     #echo "After 'dotnet run'..."
     #echo "Exit code captured: `cat __Exit_Code.txt`"
 
@@ -1188,14 +1198,13 @@ function wordListExport()
     # Check for output to standard error. It must be empty.
     [[ -s ${STDERR_FILE} ]] ; test $? -ne 0 ; evaluateBuildResult $1 $? "empty standard error output (word list export for $2)"
 
+    # Sanity check for export file size
+    checkFileSize  ${WORD_EXPORT_FILE} $4 $5 $1 "$2 format"
 
     # Set up for the next call (as "LOOKUP" will override the main
     # function, exports). Callers must explicitly set it before
     # if they want it.
     unset LOOKUP
-
-    #exit
-
 } #wordListExport()
 
 
@@ -1625,10 +1634,10 @@ mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZ
 
 # ###########################################################################
 #
-# C# compile check, etc. Separate (and a requisite) for doing 
+# C# compile check, etc. Separate (and a requisite) for doing
 # successful exports
 #
-startOfBuildStep "28" "C# compilate and sanity check"
+startOfBuildStep "28" "C# compilation and sanity check"
 
 # Check that it actually compiles... Running the unit tests in a
 # previous build step indirectly checks for compilation errors (we
@@ -1638,7 +1647,7 @@ startOfBuildStep "28" "C# compilate and sanity check"
 #
 # It will actually check more than for syntax errors. The entire
 # command-line application will be run and if it reports any
-# errors during initialisation (e.g., inconsistent word 
+# errors during initialisation (e.g., inconsistent word
 # list data structures), this will also be detected.
 #
 # Set up to get minimum output from the command-line .NET Core
@@ -1648,8 +1657,9 @@ startOfBuildStep "28" "C# compilate and sanity check"
 export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
 rm $COMPILECHECK_OUT
-wordListExport 28 "compileCheck"  $COMPILECHECK_OUT
+wordListExport 28 "compileCheck"  $COMPILECHECK_OUT  40 100
 
+#exit
 
 
 # ###########################################################################
@@ -1664,23 +1674,6 @@ wordListExport 28 "compileCheck"  $COMPILECHECK_OUT
 startOfBuildStep "28" "Exporting the word list as SQL"
 
 #exit
-
-
-#Delete at any time
-#export STDERR_FILE2="_stdErr_Export2.txt"
-#export LOOKUP="NO_THERE"
-#unset WORDLIST_OUTPUTTYPE
-#
-#
-#time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE2} ; evaluateBuildResult 28 $? "compilation"
-##echo "Exit code: ${?}"
-#
-## Echo any errors, no matter what
-#cat ${STDERR_FILE2}
-#
-## Check for output to standard error. It must be empty.
-#[[ -s ${STDERR_FILE2} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
-
 
 
 # Main operation: Export word list to SQL
@@ -1708,39 +1701,20 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 
 #export STDERR_FILE3="_stdErr_Export3.txt"
 
-wordListExport 28 "SQL" $SQL_FILE
+# Note: The last two numbers very much depend on the actual
+#       word list... We use about a 10% margin.
+#
+#       2022-01-25: 5374604 bytes
+#
+wordListExport 28 "SQL" $SQL_FILE 5370000 5910000
 
 #exit
 
-
-
-
-#Delete at any time
-## Compile and run in one step. We could also
-## run it like this after compilation (off
-## the build folder):
-##
-##     bin/Debug/netcoreapp3.1/EditOverflow3
-##
-## If the compilation fails, the return code is "1". It is masked
-## by the grep's, but we are saved by the previous build step
-## (a compilation error automatically terminates the unit
-## tests).
-##
-#unset LOOKUP
-#time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE3} | grep -v CS0219 | grep -v CS0162   >> $SQL_FILE  ; evaluateBuildResult 28 $? "generation of word list in SQL format"
-#
-## Echo any errors, no matter what
-#cat ${STDERR_FILE3}
-#
-## Check for output to standard error. It must be empty.
-#[[ -s ${STDERR_FILE3} ]] ; test $? -ne 0 ; evaluateBuildResult 28 $? "empty standard error output"
-
-
-echo
-pwd
-echo
-ls -ls $SQL_FILE
+#Delete?
+#echo
+#pwd
+#echo
+#ls -ls $SQL_FILE
 
 
 #exit
@@ -1780,18 +1754,20 @@ code
 startOfBuildStep "30" "Exporting the word list as HTML"
 
 rm $HTML_FILE
-wordListExport 30 "HTML"  $HTML_FILE
 
+# Note: The last two numbers very much depend on the actual
+#       word list... We use about a 10% margin.
+#
+#       2022-01-25: 3310553 bytes
+#
+wordListExport 30 "HTML"  $HTML_FILE   3310000 3640000
 
-#Delete at any time
-#export WORDLIST_OUTPUTTYPE=HTML
-#time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162   > $HTML_FILE  ; evaluateBuildResult 30 $? "generation of word list in HTML format"
-
+#exit
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
 
-echo
-ls -ls $HTML_FILE_GENERIC
+#echo
+#ls -ls $HTML_FILE_GENERIC
 
 #exit
 
@@ -1814,13 +1790,15 @@ ${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 31  $? "Checkin
 startOfBuildStep "32" "Exporting the word list as JavaScript"
 
 rm $JAVASCRIPT_FILE
-wordListExport 32 "JavaScript"  $JAVASCRIPT_FILE
 
+# Note: The last two numbers very much depend on the actual
+#       word list... We use about a 10% margin.
+#
+#       2022-01-25: 2512025 bytes
+#
+wordListExport 32 "JavaScript"  $JAVASCRIPT_FILE   2510000 2760000
 
-#Delete at any time
-#export WORDLIST_OUTPUTTYPE=JavaScript
-#time dotnet run -p EditOverflow3.csproj | grep -v CS0219 | grep -v CS0162  > $JAVASCRIPT_FILE  ; evaluateBuildResult 32 $? "generation of word list in JavaScript format"
-
+#exit
 
 # In the work folder
 cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
@@ -1833,8 +1811,8 @@ cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC
 #
 cp  $JAVASCRIPT_FILE_GENERIC  $WEBFOLDER
 
-echo
-ls -ls $JAVASCRIPT_FILE_GENERIC
+#echo
+#ls -ls $JAVASCRIPT_FILE_GENERIC
 
 
 # ###########################################################################
