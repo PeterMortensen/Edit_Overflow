@@ -9940,6 +9940,7 @@ namespace OverflowHelper.core
             correctionAdd("minimu", "minimum");
             correctionAdd("Min", "minimum");
             correctionAdd("minimun", "minimum");
+            correctionAdd("minim", "minimum");
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
@@ -14643,6 +14644,8 @@ namespace OverflowHelper.core
             correctionAdd("useage", "usage");
 
             correctionAdd("onedrive", "OneDrive");
+            correctionAdd("one-drive", "OneDrive");
+            correctionAdd("one drive", "OneDrive");
 
             correctionAdd("Apache spark", "Apache Spark");
             correctionAdd("spark", "Apache Spark");
@@ -14858,6 +14861,7 @@ namespace OverflowHelper.core
             correctionAdd("timezone", "time zone");
             correctionAdd("timzeone", "time zone");
             correctionAdd("time-zone", "time zone");
+            correctionAdd("TimeZone", "time zone");
 
             correctionAdd("Busybox", "BusyBox");
             correctionAdd("busy box", "BusyBox");
@@ -16952,6 +16956,7 @@ namespace OverflowHelper.core
             correctionAdd("spacific", "specific");
             correctionAdd("specifique", "specific");
             correctionAdd("spesific", "specific");
+            correctionAdd("scpecific", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -26029,6 +26034,8 @@ namespace OverflowHelper.core
             correctionAdd("Wikiholiday", "wikiholiday");
             correctionAdd("Wiki holiday", "wikiholiday");
             correctionAdd("wikiholic", "wikiholiday");
+            correctionAdd("wikiholism", "wikiholiday");
+            correctionAdd("wikipediholic", "wikiholiday");
 
             correctionAdd("History", "History (Stack Exchange site)");
 
@@ -35359,6 +35366,18 @@ namespace OverflowHelper.core
             correctionAdd("Probabilistic", "probabilistic");
 
             correctionAdd("wild life", "wildlife");
+
+            correctionAdd("Joel test", "The Joel Test");
+
+            correctionAdd("web 2.0", "Web 2.0");
+
+            correctionAdd("Combinatorics", "combinatorics");
+
+            correctionAdd("file path", "filepath");
+
+            correctionAdd("re-upload", "reupload");
+
+            correctionAdd("Statistical", "statistical");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55604,6 +55623,18 @@ namespace OverflowHelper.core
             URL_Add("probabilistic", "https://en.wiktionary.org/wiki/probabilistic#Adjective");
 
             URL_Add("wildlife", "https://en.wikipedia.org/wiki/Wildlife");
+
+            URL_Add("The Joel Test", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
+
+            URL_Add("Web 2.0", "https://en.wikipedia.org/wiki/Web_2.0");
+
+            URL_Add("combinatorics", "https://en.wikipedia.org/wiki/Combinatorics");
+
+            URL_Add("filepath", "https://en.wiktionary.org/wiki/filepath#Noun");
+
+            URL_Add("reupload", "https://en.wiktionary.org/wiki/reupload#Verb");
+
+            URL_Add("statistical", "https://en.wiktionary.org/wiki/statistical#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
