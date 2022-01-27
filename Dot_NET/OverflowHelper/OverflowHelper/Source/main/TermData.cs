@@ -152,7 +152,7 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
-         *      Convenient version of ourAssert() with two paramters.               *
+         *      Convenient version of ourAssert() with one parameter.               *
          *                                                                          *
          ****************************************************************************/
         public static void ourAssert(bool aCondition)
@@ -1591,6 +1591,8 @@ namespace OverflowHelper.core
             correctionAdd("v10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("Mac OS X Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
             correctionAdd("OS X Yosemite", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
+            correctionAdd("Mac10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
+            correctionAdd("Mac 10.10", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)");
 
             correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)"); // Sort of identity mapping
             correctionAdd("El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
@@ -6860,6 +6862,13 @@ namespace OverflowHelper.core
 
             correctionAdd("AVD manager", "AVD Manager");
 
+            correctionAdd("pld", "programmable logic device");
+            correctionAdd("Programmable Logic Devices", "programmable logic device");
+            correctionAdd("PLD", "programmable logic device");
+
+            correctionAdd("dvice", "device");
+            correctionAdd("devise", "device");
+
             correctionAdd("Kies", "Samsung Kies");
             correctionAdd("kies", "Samsung Kies");
             correctionAdd("Samsung kies", "Samsung Kies");
@@ -9725,6 +9734,8 @@ namespace OverflowHelper.core
             correctionAdd("meg", "&nbsp;MB");
             correctionAdd("megs", "&nbsp;MB");
             correctionAdd("Mb", "&nbsp;MB");
+            correctionAdd("Megabyte", "&nbsp;MB");
+            correctionAdd("Megabytes", "&nbsp;MB");
 
             correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
             correctionAdd("GByte", "&nbsp;GB");
@@ -9738,6 +9749,8 @@ namespace OverflowHelper.core
             correctionAdd("Gig", "&nbsp;GB");
             correctionAdd("Gb", "&nbsp;GB");
             correctionAdd("Gigabyte", "&nbsp;GB");
+            correctionAdd("Gigabytes", "&nbsp;GB");
+            correctionAdd("gigabytes", "&nbsp;GB");
 
             correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
             correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
@@ -10355,6 +10368,7 @@ namespace OverflowHelper.core
             correctionAdd("some one", "someone");
             correctionAdd("somone", "someone");
             correctionAdd("someoone", "someone");
+            correctionAdd("Some one", "someone");
 
             correctionAdd("2-factor auth", "two-factor authentication");
             correctionAdd("2 factor auth", "two-factor authentication");
@@ -14709,6 +14723,7 @@ namespace OverflowHelper.core
             correctionAdd("interessed", "interested");
             correctionAdd("intersted", "interested");
             correctionAdd("intereased", "interested");
+            correctionAdd("interted", "interested");
 
             correctionAdd("Iodine", "iodine");
 
@@ -15785,6 +15800,7 @@ namespace OverflowHelper.core
             correctionAdd("occacion", "occasion");
 
             correctionAdd("IFS", "internal field separator");
+            correctionAdd("input field separator", "internal field separator");
 
             correctionAdd("invokation", "invocation");
 
@@ -20869,6 +20885,7 @@ namespace OverflowHelper.core
             correctionAdd("Core Utilities", "GNU Core Utilities");
             correctionAdd("coreutils", "GNU Core Utilities");
             correctionAdd("GNU utils", "GNU Core Utilities");
+            correctionAdd("GNU coreutils", "GNU Core Utilities");
 
             correctionAdd("mathoverflow", "MathOverflow (Stack Exchange site)");
             correctionAdd("MathOverlow", "MathOverflow (Stack Exchange site)");
@@ -21538,6 +21555,7 @@ namespace OverflowHelper.core
             correctionAdd("complie", "compile");
             correctionAdd("complile", "compile");
             correctionAdd("coompile", "compile");
+            correctionAdd("Complie", "compile");
 
             correctionAdd("detialed", "detailed");
             correctionAdd("detailled", "detailed");
@@ -26798,10 +26816,6 @@ namespace OverflowHelper.core
             correctionAdd("system verilog", "SystemVerilog");
             correctionAdd("system Verilog", "SystemVerilog");
 
-            correctionAdd("pld", "programmable logic device");
-            correctionAdd("Programmable Logic Devices", "programmable logic device");
-            correctionAdd("PLD", "programmable logic device");
-
             correctionAdd("Vb", "Visual Basic"); // Expansion.
             correctionAdd("VB", "Visual Basic"); // Expansion. Conflict with VirtualBox.
             correctionAdd("visual basic", "Visual Basic");
@@ -26916,6 +26930,8 @@ namespace OverflowHelper.core
             correctionAdd("complied", "compiled");
 
             correctionAdd("pita", "PITA");
+            correctionAdd("pia", "PITA");
+            correctionAdd("PIA", "PITA");
 
             correctionAdd("stolon", "Stolon");
 
@@ -28410,6 +28426,7 @@ namespace OverflowHelper.core
             correctionAdd("inststing", "insisting");
 
             correctionAdd("old-school", "old school");
+            correctionAdd("oldschool", "old school");
 
             correctionAdd("re-creating", "recreating");
 
@@ -29040,6 +29057,7 @@ namespace OverflowHelper.core
             correctionAdd("vegitarian", "vegetarian");
 
             correctionAdd("wave guide", "waveguide");
+            correctionAdd("waveguid", "waveguide");
 
             correctionAdd("wraped", "wrapped");
 
@@ -30897,8 +30915,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cutting edge", "cutting-edge");
 
-            correctionAdd("dvice", "device");
-
             correctionAdd("dispell", "dispel");
 
             correctionAdd("Inverted pyramid", "inverted pyramid");
@@ -31040,6 +31056,8 @@ namespace OverflowHelper.core
 
             correctionAdd("passportJS", "Passport.js");
             correctionAdd("passport.js", "Passport.js");
+            correctionAdd("Passport", "Passport.js");
+            correctionAdd("passport", "Passport.js");
 
             correctionAdd("thrift", "Thrift");
 
@@ -31245,6 +31263,7 @@ namespace OverflowHelper.core
             correctionAdd("locking", "looking");
 
             correctionAdd("radiobutton", "radio button");
+            correctionAdd("radio box", "radio button");
 
             correctionAdd("11ac", "802.11ac");
 
@@ -35470,6 +35489,42 @@ namespace OverflowHelper.core
             correctionAdd("usabilty testing", "usability testing");
 
             correctionAdd("Vermouth", "vermouth");
+
+            correctionAdd("alephs", "Aleph.js");
+            correctionAdd("aleph.js", "Aleph.js");
+
+            correctionAdd("chucknorris", "Chuck Norris");
+            correctionAdd("ChuckNorris", "Chuck Norris");
+
+            correctionAdd("netlink", "Netlink");
+
+            correctionAdd("onyx", "Onyx");
+
+            correctionAdd("Robustness Principle", "Postel's law");
+            correctionAdd("robustness principle", "Postel's law");
+
+            correctionAdd("RFC 3549", "RFC&nbsp;3549");
+            correctionAdd("rfc3549", "RFC&nbsp;3549");
+            correctionAdd("RFC3549", "RFC&nbsp;3549");
+
+            correctionAdd("Tim Berners Lee", "Tim Berners-Lee");
+
+            correctionAdd("Braille", "braille");
+
+            correctionAdd("combime", "combine");
+
+            correctionAdd("farly", "fairly");
+
+            correctionAdd("lumped element model", "lumped-element model");
+            correctionAdd("Lumped-Element Model", "lumped-element model");
+            correctionAdd("lumped-parameter model", "lumped-element model");
+            correctionAdd("lumped-component model", "lumped-element model");
+
+            correctionAdd("pre-define", "predefine");
+
+            correctionAdd("telegraph equations", "telegrapher’s equations");
+            correctionAdd("Telegrapher's equations", "telegrapher’s equations");
+            correctionAdd("telegrapher's equations", "telegrapher’s equations");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55775,6 +55830,32 @@ namespace OverflowHelper.core
             URL_Add("usability testing", "https://en.wikipedia.org/wiki/Usability_testing");
 
             URL_Add("vermouth", "https://en.wikipedia.org/wiki/Vermouth");
+
+            URL_Add("Aleph.js", "https://alephjs.org/");
+
+            URL_Add("Chuck Norris", "https://en.wikipedia.org/wiki/Chuck_Norris");
+
+            URL_Add("Netlink", "https://en.wikipedia.org/wiki/Netlink");
+
+            URL_Add("Onyx", "https://github.com/oslabs-beta/onyx");
+
+            URL_Add("Postel's law", "https://en.wikipedia.org/wiki/Robustness_principle");
+
+            URL_Add("RFC&nbsp;3549", "https://en.wikipedia.org/wiki/Netlink");
+
+            URL_Add("Tim Berners-Lee", "https://en.wikipedia.org/wiki/Tim_Berners-Lee");
+
+            URL_Add("braille", "https://en.wikipedia.org/wiki/Braille");
+
+            URL_Add("combine", "https://en.wiktionary.org/wiki/combine#Verb");
+
+            URL_Add("fairly", "https://en.wiktionary.org/wiki/fairly#Adverb");
+
+            URL_Add("lumped-element model", "https://en.wikipedia.org/wiki/Lumped-element_model");
+
+            URL_Add("predefine", "https://en.wiktionary.org/wiki/predefine#Verb");
+
+            URL_Add("telegrapher’s equations", "https://en.wikipedia.org/wiki/Telegrapher's_equations");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
