@@ -90,6 +90,10 @@
 #
 #   2.
 
+# Markers for navigation:
+#
+#    FFFFFFFFFF   End of helper functions
+
 
 #############################################################################
 #
@@ -227,6 +231,7 @@
 #       clear ; cat ~/UserProf/At_XP64/Edit_Overflow/Dot_NET_commandLine/Linux.sh | perl -nle 'printf "#    %2d. %s\n", $1, $2 if /^startOfBuildStep\s+\"(\d+)\"\s+\"(.+)\"/; printf "#    %2d. Keyboard shortcut consistency check: %s\n", $2, $1 if /^keyboardShortcutConsistencyCheck.+\"(.+)\"\s+(\d+)/; printf "#    %2d. HTML validation: %s\n", $2, $1 if /^\s*HTML_validation.+\"(.+)\"\s+(\d+)/; printf "#    %2d. PHP code test: %s - %s\n", $3, $2, $1 if /^PHP_code_test\s+(\S+)\s+\"(.+)\"\s+(\d+)/; printf "#    %2d. Web server test: %s\n", $3, $2 if /^webServer_test\s+\"(.+)\"\s+\"(.+)\"\s+(\d+)/;     '
 #
 #############################################################################
+
 
 
 #############################################################################
@@ -1076,9 +1081,9 @@ function retrieveWebHostingErrorLog()
 #
 #    $1   File name   E.g., the full path
 #
-#    $2   Minimum size
+#    $2   Minimum size. Is inclusive.
 #
-#    $3   Maximum size
+#    $3   Maximum size. Is inclusive.
 #
 #    $4   Build step number
 #
@@ -1094,7 +1099,10 @@ function checkFileSize()
 
     #echo "File size: ${FILE_SIZE7}"
 
-    [ ${FILE_SIZE7} -gt ${2} ] && [ ${FILE_SIZE7} -lt ${3} ]  ; evaluateBuildResult $4 $? "File size: ${FILE_SIZE7}. Expected filesize range is ${2} - ${3} bytes (for build step $4, creating an export file in ${5} format)"
+    #[ ${FILE_SIZE7} -gt ${2} ] && [ ${FILE_SIZE7} -lt ${3} ]  ; evaluateBuildResult $4 $? "File size: ${FILE_SIZE7}. Expected filesize range is ${2} - ${3} bytes (for build step $4, creating an export file in ${5} format)"
+    #[ ${FILE_SIZE7} -ge ${2} ] && [ ${FILE_SIZE7} -le ${3} ]  ; evaluateBuildResult $4 $? "File size: ${FILE_SIZE7}. Expected filesize range (both inclusive) is ${2} - ${3} bytes (for build step $4, creating an export file in ${5} format)"
+    [ ${FILE_SIZE7} -ge ${2} ] && [ ${FILE_SIZE7} -le ${3} ]  ; evaluateBuildResult $4 $? "File size: ${FILE_SIZE7}. Expected filesize range (both inclusive) is ${2} - ${3} bytes (for build step $4 - ${5})"
+
 } #checkFileSize()
 
 
@@ -1184,7 +1192,7 @@ function wordListExport()
     wc ${STDERR_FILE}
     echo
 
-    echo "WORD_EXPORT_FILE: `pwd`/${WORD_EXPORT_FILE}"
+    echo "Word export file: `pwd`/${WORD_EXPORT_FILE}"
     #echo
     #echo "After 'dotnet run'..."
     #echo "Exit code captured: `cat __Exit_Code.txt`"
@@ -1206,6 +1214,82 @@ function wordListExport()
     # if they want it.
     unset LOOKUP
 } #wordListExport()
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy.
+#
+# Some rudimentary spell checking. Mostly designed to
+# catch the most frequent ones, like "paramter". We
+# don't want to make it comprehensible as it will
+# probably result in false positives.
+#
+# Presumes the top of the source folder (e.g.,
+# the build folder) is the current directory.
+#
+# Parameter:
+#
+#    $1   Build step number
+#
+function sourceSpellcheck()
+{
+    startOfBuildStep $1 "Some spellcheck of source code, incl. scripts."
+
+    # We don't actually need it if we print the hits out on the screen
+    #echo "Temp misspellings list file: `pwd`/${TEMP_MISSPELLINGS_LIST_FILE}"
+
+    # Assuming the work folder, at least for now
+    export EFFECTIVE_SOURCE_FOLDER=${WORKFOLDER}
+
+    export TEMP_MISSPELLINGS_LIST_FILE="_sourceMisspellings.txt"
+
+    # For now: Inline Perl one-liner
+    #
+    # Notes:
+    #
+    #   1. Variable "$." is not reliable as a line
+    #      number, so we don't write it out...
+    #
+    #   2. The match "[^\"]" is for excluding the lines where
+    #      we quote a misspelling near in this very place.
+    #
+    # Word list:
+    #
+    #   Word           Notes
+    #   -----------------------------------------------------
+    #   "paramter"     We match in a case-sensitive way
+    #                  so we will miss "Paramter".
+    #                  We should probably change that.
+    #
+    #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 grep -n 'paramter' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
+    #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV:$.: $_"; } ' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
+    find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
+
+    #echo ${TEMP_MISSPELLINGS_LIST_FILE}
+
+
+    # Note: In the screen output, we would like present it for the original
+    #       source location, not the build folder. This is to avoid the
+    #       mistake of changing files in the build folder...
+    #
+    #       But how can we do it with variables containing the folder paths?
+    #
+    #         <https://stackoverflow.com/a/13210912>
+    #
+    cat ${TEMP_MISSPELLINGS_LIST_FILE}
+    # | perl -nle 'm///g'
+
+    # This would normally be 0 so we don't really need it
+    #echo
+    #wc ${TEMP_MISSPELLINGS_LIST_FILE}
+
+    # It must be empty - zero hits.
+    checkFileSize  ${TEMP_MISSPELLINGS_LIST_FILE} 0 0 $1 "source code spellcheck"
+} #sourceSpellcheck()
+
+
+# Marker:  FFFFFFFFFF
 
 
 # ###########################################################################
@@ -1295,8 +1379,6 @@ mkdir -p $LOCAL_WEBSERVER_FOLDER
 #
 #           mv: cannot stat '/home/embo/temp2/2021-02-03/_DotNET_tryout/EditOverflow4/Program.cs': No such file or directory
 #
-#
-#
 mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}          $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
 
@@ -1305,6 +1387,10 @@ cp ${FILE_WITH_MAIN_ENTRY}                      $WORKFOLDER/${FILE_WITH_MAIN_ENT
 
 cp EditOverflow3.csproj                         $WORKFOLDER
 cp EditOverflow3_UnitTests.csproj               $WORKFOLDER
+
+# This script. We don't execute it there -
+# it is mostly for the spellchecking,.
+cp Linux.sh                                     $WORKFOLDER
 
 cp $SRCFOLDER_CORE/TermLookup.cs                $WORKFOLDER
 cp $SRCFOLDER_CORE/TermData.cs                  $WORKFOLDER
@@ -1365,13 +1451,19 @@ sudo cp $SRCFOLDER_WEB/CannedComments.php               $LOCAL_WEBSERVER_FOLDER
 
 sudo cp $SRCFOLDER_WEB/Link_Builder.php                 $LOCAL_WEBSERVER_FOLDER
 
-
-
-# Compile, run unit tests, run, and redirect SQL & HTML output to files
-#
 echo
 cd $WORKFOLDER
 #echo Work folder: $WORKFOLDER
+
+
+# ###########################################################################
+#
+# Rudimentary spellcheck of source code
+#
+#
+sourceSpellcheck  3
+
+#exit
 
 
 # ###########################################################################
@@ -1586,7 +1678,7 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=d
 
 
 # Invoke action in the Edit Overflow "Link builder" window (we pass
-# in paramters here, not relying on any default parameters)
+# in parameters here, not relying on any default parameters)
 #
 webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 26
 
@@ -1989,6 +2081,22 @@ mustBeEqual ${MATCHING_LINES} 1  43   "HTML anchor is not unique"
 #      because there is an actual test failure. In that case, try
 #      to rerun the build (we currently don't know how to prevent
 #      it).
+#
+#   4. Sometimes we get a resource warning (but the
+#      test (apparently) succeeds):
+#
+#         ....s./usr/lib/python3.8/email/feedparser.py:89:
+#         ResourceWarning: unclosed <socket.socket fd=7,
+#         family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM,
+#         proto=6, laddr=('127.0.0.1', 36002), raddr=('127.0.0.1', 58277)>
+#
+#         for ateof in reversed(self._eofstack):
+#
+#         ResourceWarning: Enable tracemalloc to get the object allocation traceback
+#
+#      The reason is currently not known.
+#
+#   5. XXXX
 #
 startOfBuildStep "44" "Starting web interface regression tests. Both for the local web server and production."
 
