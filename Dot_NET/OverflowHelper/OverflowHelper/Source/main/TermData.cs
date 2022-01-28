@@ -3490,6 +3490,7 @@ namespace OverflowHelper.core
             correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
             correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
             correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overflów", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -4173,6 +4174,7 @@ namespace OverflowHelper.core
             correctionAdd("CAN'T", "can’t");
             correctionAdd("CANT", "can’t");
             correctionAdd("camn't", "can’t");
+            correctionAdd("Can't", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -4916,6 +4918,9 @@ namespace OverflowHelper.core
             correctionAdd("iPAD", "iPad");
             correctionAdd("IPad", "iPad");
             correctionAdd("IPAD", "iPad");
+
+            correctionAdd("uesr", "user");
+            correctionAdd("User", "user");
 
             correctionAdd("SuperUser", "Super&nbsp;User");
             correctionAdd("SU", "Super&nbsp;User");
@@ -12027,6 +12032,8 @@ namespace OverflowHelper.core
             correctionAdd("Portugeese", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
+            correctionAdd("Powermockito", "Mockito");
+            correctionAdd("PowerMockito", "Mockito");
 
             correctionAdd("refered", "referred");
             correctionAdd("reffered", "referred");
@@ -12378,6 +12385,7 @@ namespace OverflowHelper.core
             correctionAdd("accros", "across");
             correctionAdd("acfoss", "across");
             correctionAdd("acorss", "across");
+            correctionAdd("acroos", "across");
 
             correctionAdd("alteratively", "alternatively");
             correctionAdd("Alteratively", "alternatively");
@@ -13029,6 +13037,7 @@ namespace OverflowHelper.core
             correctionAdd("brower", "browser");
             correctionAdd("browset", "browser");
             correctionAdd("Browswer", "browser");
+            correctionAdd("Browser", "browser");
 
             correctionAdd("Printf", "printf");
 
@@ -16541,8 +16550,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unlimeted", "unlimited");
 
-            correctionAdd("uesr", "user");
-
             correctionAdd("FireStore", "Firestore");
             correctionAdd("Firestorm", "Firestore");
             correctionAdd("firestore", "Firestore");
@@ -16882,6 +16889,7 @@ namespace OverflowHelper.core
             correctionAdd("b ut", "but");
             correctionAdd("bud", "but");
             correctionAdd("bu", "but");
+            correctionAdd("byt", "but");
 
             correctionAdd("Century", "century");
 
@@ -16930,6 +16938,7 @@ namespace OverflowHelper.core
             correctionAdd("happned", "happened");
             correctionAdd("happeed", "happened");
             correctionAdd("happend", "happened");
+            correctionAdd("happpened", "happened");
 
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
@@ -19874,6 +19883,7 @@ namespace OverflowHelper.core
             correctionAdd("commment", "comment");
             correctionAdd("commet", "comment");
             correctionAdd("Commet", "comment");
+            correctionAdd("Comment", "comment");
 
             correctionAdd("discurage", "discourage");
 
@@ -30332,6 +30342,7 @@ namespace OverflowHelper.core
             correctionAdd("turnoff", "turn off");
 
             correctionAdd("ELI5", "explain like I'm five"); // But note it is now ambiguous due to the machine learning dataset of the same name (see e.g. <https://huggingface.co/datasets/eli5>)
+            correctionAdd("teach me like I'm five", "explain like I'm five");
 
             correctionAdd("2g", "2G");
 
@@ -35525,6 +35536,32 @@ namespace OverflowHelper.core
             correctionAdd("telegraph equations", "telegrapher’s equations");
             correctionAdd("Telegrapher's equations", "telegrapher’s equations");
             correctionAdd("telegrapher's equations", "telegrapher’s equations");
+
+            correctionAdd("50 ways to leave your lover", "50 Ways to Leave Your Lover");
+
+            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
+            correctionAdd("A&P", "Aviation Maintenance Technician");
+
+            correctionAdd("caucasian", "Caucasian");
+
+            correctionAdd("jedi", "JEDI");
+
+            correctionAdd("netty", "Netty");
+
+            correctionAdd("oklahoma", "Oklahoma");
+
+            correctionAdd("Powermock", "PowerMock");
+
+            correctionAdd("Terminal.app", "Terminal");
+
+            correctionAdd("carb", "carburetor");
+            correctionAdd("Carburetor", "carburetor");
+
+            correctionAdd("controled", "controlled");
+
+            correctionAdd("curmodon", "curmudgeon");
+
+            correctionAdd("intriuged", "intrigued");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55857,6 +55894,30 @@ namespace OverflowHelper.core
 
             URL_Add("telegrapher’s equations", "https://en.wikipedia.org/wiki/Telegrapher's_equations");
 
+            URL_Add("50 Ways to Leave Your Lover", "https://en.wikipedia.org/wiki/50_Ways_to_Leave_Your_Lover");
+
+            URL_Add("Aviation Maintenance Technician", "https://en.wikipedia.org/wiki/Aircraft_maintenance_technician");
+
+            URL_Add("Caucasian", "https://en.wiktionary.org/wiki/Caucasian#Adjective");
+
+            URL_Add("JEDI", "https://en.wiktionary.org/wiki/JEDI#Noun");
+
+            URL_Add("Netty", "https://en.wikipedia.org/wiki/Netty_(software)");
+
+            URL_Add("Oklahoma", "https://en.wikipedia.org/wiki/Oklahoma");
+
+            URL_Add("PowerMock", "https://de.wikipedia.org/wiki/PowerMock");
+
+            URL_Add("Terminal", "https://en.wikipedia.org/wiki/Terminal_(macOS)");
+
+            URL_Add("carburetor", "https://en.wikipedia.org/wiki/Carburetor");
+
+            URL_Add("controlled", "https://en.wiktionary.org/wiki/control#Verb");
+
+            URL_Add("curmudgeon", "https://en.wiktionary.org/wiki/curmudgeon#Noun");
+
+            URL_Add("intrigued", "https://en.wiktionary.org/wiki/intrigue#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56156,6 +56217,10 @@ namespace OverflowHelper.core
 
             correctionAdd("More_", "more_");
 
+            correctionAdd("RO_", "room owner_");
+
+            correctionAdd("suites_", "suits_");
+
             // URL mappings
             //
             //
@@ -56356,6 +56421,10 @@ namespace OverflowHelper.core
             URL_Add("Software Engineering_", "https://softwareengineering.stackexchange.com/tour");
 
             URL_Add("more_", "https://en.wiktionary.org/wiki/more#Determiner");
+
+            URL_Add("room owner_", "https://meta.stackexchange.com/questions/271267/a-guide-to-moderating-chat/271269#271269");
+
+            URL_Add("suits_", "https://en.wiktionary.org/wiki/suit#Verb");
 
         } //addLookupData_alternativeWordSet()
 
