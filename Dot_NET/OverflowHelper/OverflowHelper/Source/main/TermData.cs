@@ -5099,6 +5099,7 @@ namespace OverflowHelper.core
             correctionAdd("Microosft", "Microsoft");
             correctionAdd("micro$\\**t", "Microsoft");
             correctionAdd("M$", "Microsoft");
+            correctionAdd("miscrosoft", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -6143,6 +6144,8 @@ namespace OverflowHelper.core
             correctionAdd("stack apps", "Stack&nbsp;Apps");
             correctionAdd("Stack Apps", "Stack&nbsp;Apps");
             correctionAdd("StackApps", "Stack&nbsp;Apps");
+            correctionAdd("StackApp", "Stack&nbsp;Apps");
+            correctionAdd("Stack App", "Stack&nbsp;Apps");
 
             correctionAdd("execjs", "ExecJS");
 
@@ -7144,6 +7147,7 @@ namespace OverflowHelper.core
 
             correctionAdd("codding", "coding");
             correctionAdd("Coding", "coding");
+            correctionAdd("codeing", "coding");
 
             correctionAdd("enconding", "encoding");
 
@@ -17005,6 +17009,7 @@ namespace OverflowHelper.core
             correctionAdd("specifique", "specific");
             correctionAdd("spesific", "specific");
             correctionAdd("scpecific", "specific");
+            correctionAdd("specefic", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -18278,6 +18283,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fgitw", "fastest gun in the west");
             correctionAdd("FGITW", "fastest gun in the west");
+            correctionAdd("Fastest Gun in the West", "fastest gun in the west");
 
             correctionAdd("UXD", "user experience design");
 
@@ -26574,6 +26580,7 @@ namespace OverflowHelper.core
             correctionAdd("Mass drop", "Drop");
             correctionAdd("mass drop", "Drop");
             correctionAdd("massdrop", "Drop");
+            correctionAdd("group buy", "Drop");
 
             correctionAdd("LoD", "Law of Demeter");
 
@@ -26800,6 +26807,9 @@ namespace OverflowHelper.core
             correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("Tex Stack Exchange", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX LaTeX", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("TexSE", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("Tex.SE", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("LaTeX.SE", "TeX - LaTeX (Stack Exchange site)");
 
             correctionAdd("USDC", "USD Coin");
             correctionAdd("usdc", "USD Coin");
@@ -35562,6 +35572,17 @@ namespace OverflowHelper.core
             correctionAdd("curmodon", "curmudgeon");
 
             correctionAdd("intriuged", "intrigued");
+
+            correctionAdd("katex", "KaTeX");
+
+            correctionAdd("pylatex", "PyLaTeX");
+
+            correctionAdd("KNITR", "knitr");
+
+            correctionAdd("proundess", "proudness");
+
+            correctionAdd("tannoids", "tannins");
+            correctionAdd("tannin", "tannins");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55918,6 +55939,16 @@ namespace OverflowHelper.core
 
             URL_Add("intrigued", "https://en.wiktionary.org/wiki/intrigue#Verb");
 
+            URL_Add("KaTeX", "https://en.wikipedia.org/wiki/KaTeX");
+
+            URL_Add("PyLaTeX", "https://github.com/JelteF/PyLaTeX/");
+
+            URL_Add("knitr", "https://yihui.org/knitr/");
+
+            URL_Add("proudness", "https://en.wiktionary.org/wiki/proudness#Noun");
+
+            URL_Add("tannins", "https://en.wikipedia.org/wiki/Tannin");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56221,6 +56252,16 @@ namespace OverflowHelper.core
 
             correctionAdd("suites_", "suits_");
 
+            correctionAdd("breakdown_", "break down_");
+
+            correctionAdd("Ulmus_", "elm_");
+            correctionAdd("Elm_", "elm_");
+
+            correctionAdd("charcoal_", "SmokeDetector_");
+            correctionAdd("Smoke Detector_", "SmokeDetector_");
+            correctionAdd("smoke detector_", "SmokeDetector_");
+            correctionAdd("Charcoal_", "SmokeDetector_");
+
             // URL mappings
             //
             //
@@ -56425,6 +56466,12 @@ namespace OverflowHelper.core
             URL_Add("room owner_", "https://meta.stackexchange.com/questions/271267/a-guide-to-moderating-chat/271269#271269");
 
             URL_Add("suits_", "https://en.wiktionary.org/wiki/suit#Verb");
+
+            URL_Add("break down_", "https://en.wiktionary.org/wiki/break_down#Verb");
+
+            URL_Add("elm_", "https://en.wikipedia.org/wiki/Elm#Dutch_elm_disease");
+
+            URL_Add("SmokeDetector_", "https://stackoverflow.blog/2020/06/25/how-does-spam-protection-work-on-stack-exchange/");
 
         } //addLookupData_alternativeWordSet()
 
