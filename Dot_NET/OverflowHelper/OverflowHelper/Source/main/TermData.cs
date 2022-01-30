@@ -6876,6 +6876,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dvice", "device");
             correctionAdd("devise", "device");
+            correctionAdd("Device", "device");
 
             correctionAdd("Kies", "Samsung Kies");
             correctionAdd("kies", "Samsung Kies");
@@ -9210,6 +9211,9 @@ namespace OverflowHelper.core
             correctionAdd("iso image", "ISO image");
             correctionAdd("ISO-image", "ISO image");
 
+            correctionAdd("img", "image");
+            correctionAdd("Image", "image");
+
             correctionAdd("Doctype", "DOCTYPE");
             correctionAdd("doctype", "DOCTYPE");
 
@@ -10316,6 +10320,7 @@ namespace OverflowHelper.core
             correctionAdd("unnecesserry", "unnecessary");
             correctionAdd("unnecessery", "unnecessary");
             correctionAdd("un-necessary", "unnecessary");
+            correctionAdd("unnececssary", "unnecessary");
 
             correctionAdd("Topcoder", "TopCoder");
             correctionAdd("topcoder", "TopCoder");
@@ -11516,6 +11521,7 @@ namespace OverflowHelper.core
             correctionAdd("altera", "Altera");
 
             correctionAdd("xilinx", "Xilinx");
+            correctionAdd("Xilin", "Xilinx");
 
             correctionAdd("quartus", "Quartus");
 
@@ -13314,6 +13320,7 @@ namespace OverflowHelper.core
             correctionAdd("responsive design", "responsive web design");
             correctionAdd("Responsive web design", "responsive web design");
             correctionAdd("Responsive design", "responsive web design");
+            correctionAdd("Responsive Design", "responsive web design");
 
             correctionAdd("themself", "themselves");
             correctionAdd("them selfs", "themselves");
@@ -20120,6 +20127,8 @@ namespace OverflowHelper.core
             correctionAdd("english.se", "English Language & Usage (Stack Exchange site)");
             correctionAdd("English language and usage", "English Language & Usage (Stack Exchange site)");
             correctionAdd("English Language & Usage", "English Language & Usage (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("EL&U", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("EL & U", "English Language & Usage (Stack Exchange site)");
 
             correctionAdd("iir", "IIR");
 
@@ -21343,6 +21352,7 @@ namespace OverflowHelper.core
 
             correctionAdd("quility", "quality");
             correctionAdd("qulity", "quality");
+            correctionAdd("Quality", "quality");
 
             correctionAdd("querys", "queries");
             correctionAdd("Queries", "queries");
@@ -21546,6 +21556,7 @@ namespace OverflowHelper.core
 
             correctionAdd("saund", "sound");
             correctionAdd("spund", "sound");
+            correctionAdd("Sound", "sound");
 
             correctionAdd("wereing", "wearing");
 
@@ -22146,6 +22157,7 @@ namespace OverflowHelper.core
             correctionAdd("enginneer", "engineer");
 
             correctionAdd("KE", "kinetic energy");
+            correctionAdd("Kinetic Energy", "kinetic energy");
 
             correctionAdd("mesmerize", "mesmerising");
             correctionAdd("mezmerising", "mesmerising");
@@ -23324,6 +23336,7 @@ namespace OverflowHelper.core
 
             correctionAdd("filed", "field");
             correctionAdd("fiald", "field");
+            correctionAdd("Filed", "field");
 
             correctionAdd("negociate", "negotiate");
 
@@ -29763,6 +29776,9 @@ namespace OverflowHelper.core
             correctionAdd("PBR", "physically based rendering");
             correctionAdd("Physically Based Rendering", "physically based rendering");
 
+            correctionAdd("rending", "rendering");
+            correctionAdd("Rendering", "rendering");
+
             correctionAdd("uninsall", "uninstall");
             correctionAdd("Uninsall", "uninstall");
 
@@ -31170,8 +31186,6 @@ namespace OverflowHelper.core
             correctionAdd("keep up appearance", "keep up appearances");
 
             correctionAdd("metatag", "meta tag");
-
-            correctionAdd("rending", "rendering");
 
             correctionAdd("right click", "right-click");
             correctionAdd("Right-Click", "right-click");
@@ -33016,6 +33030,7 @@ namespace OverflowHelper.core
             correctionAdd("Thirty Years' war", "Thirty Years' War");
 
             correctionAdd("accurracy", "accuracy");
+            correctionAdd("Accuracy", "accuracy");
 
             correctionAdd("ASD", "autism spectrum disorder");
 
@@ -34353,8 +34368,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GIT-LS-FILES", "git-ls-files");
 
-            correctionAdd("img", "image");
-
             correctionAdd("password-less", "passwordless");
 
             correctionAdd("proptocol", "protocol");
@@ -35574,6 +35587,7 @@ namespace OverflowHelper.core
             correctionAdd("intriuged", "intrigued");
 
             correctionAdd("katex", "KaTeX");
+            correctionAdd("Katex", "KaTeX");
 
             correctionAdd("pylatex", "PyLaTeX");
 
@@ -35583,6 +35597,33 @@ namespace OverflowHelper.core
 
             correctionAdd("tannoids", "tannins");
             correctionAdd("tannin", "tannins");
+
+            correctionAdd("lcross", "LCROSS");
+
+            correctionAdd("milp", "MILP");
+
+            correctionAdd("tnt", "TNT");
+
+            correctionAdd("venmo", "Venmo");
+
+            correctionAdd("western union", "Western Union");
+
+            correctionAdd("divsor", "divisor");
+
+            correctionAdd("Giga", "giga");
+
+            correctionAdd("losely", "loosely");
+
+            correctionAdd("Optics", "optics");
+
+            correctionAdd("porpose", "propose");
+
+            correctionAdd("Rage quitting", "rage quitting");
+
+            correctionAdd("rouding", "rounding");
+
+            correctionAdd("customized", "customised");
+            correctionAdd("customizated", "customised");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55948,6 +55989,32 @@ namespace OverflowHelper.core
             URL_Add("proudness", "https://en.wiktionary.org/wiki/proudness#Noun");
 
             URL_Add("tannins", "https://en.wikipedia.org/wiki/Tannin");
+
+            URL_Add("LCROSS", "https://en.wikipedia.org/wiki/LCROSS");
+
+            URL_Add("MILP", "https://en.wikipedia.org/wiki/Integer_programming#Variants");
+
+            URL_Add("TNT", "https://en.wikipedia.org/wiki/TNT");
+
+            URL_Add("Venmo", "https://en.wikipedia.org/wiki/Venmo");
+
+            URL_Add("Western Union", "https://en.wikipedia.org/wiki/Western_Union");
+
+            URL_Add("divisor", "https://en.wiktionary.org/wiki/divisor#Noun");
+
+            URL_Add("giga", "https://en.wiktionary.org/wiki/giga-#Prefix");
+
+            URL_Add("loosely", "https://en.wiktionary.org/wiki/loosely#Adverb");
+
+            URL_Add("optics", "https://en.wiktionary.org/wiki/optic#Noun");
+
+            URL_Add("propose", "https://en.wiktionary.org/wiki/propose#Verb");
+
+            URL_Add("rage quitting", "https://en.wiktionary.org/wiki/rage_quit#Verb");
+
+            URL_Add("rounding", "https://en.wiktionary.org/wiki/round#Verb");
+
+            URL_Add("customised", "https://en.wiktionary.org/wiki/customised#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
