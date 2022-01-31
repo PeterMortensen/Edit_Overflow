@@ -120,7 +120,7 @@
                 # of leading spaces - that is how many leading
                 # spaces we should remove from each line.
                 #
-                foreach ($lines as $key => $item)
+                foreach ($lines as $key => $item)  #Why "$key"??
                 {
                     #echo '<p>Line: xxx' . $item . 'xxx </p>' . "\n";
 
@@ -186,15 +186,24 @@
             // Note: "none" as in Markdowm "lang_none" - syntax
             //        highlighting turned off.
             //
+            // Future:
+            //
+            //   1. Consider adding a newline to the input content
+            //      if it does not already contain it. This is
+            //      to add some robustness (it does happen
+            //      that Stack Overflow posts don't contain
+            //      a newline at the end).
+            //
+            //   2.
+            //
             function convertToMarkdownCodefencing_none($aText)
             {
                 # First remove TABs and trailing space - especially for TABs
-                # in the beginning of a line, it is especially important it
-                # is converted so we get the expected result.
+                # in the beginning of a line. It is especially important it
+                # is converted, so we get the expected result.
                 #
                 [$someText, $message] = removeTrailingSpacesAndTABs($aText);
 
-                $replacer = new StringReplacerWithRegex($someText);
 
                 # Remove four leading spaces from each line (if there
                 # are at least four leading in a line).
@@ -206,30 +215,59 @@
                 #       we use a literal space here.
                 #
                 #$replacer->transform('\s\s\s\s(.*)\r\n', '$1' . "\r\n");
+                $replacer = new StringReplacerWithRegex($someText);
                 $replacer->transform('    (.*)\r\n', '$1' . "\r\n");
-
                 $someText = $replacer->currentString();
+
+
+                #Delete at any time
+                #$replacer2 = new StringReplacerWithRegex($someText);
+                #
+                ## Find the space by removing everything else, but
+                ## leading space on the first line
+                ##
+                ## Note: Everything that matches is replaced. () and $
+                ##       is dynamic content (e.g., some number)
+                ##
+                ## Major gotcha: ".*" does not match everything! It doesn't
+                ## match the end of line... So instead of just ".*" we
+                ## have to use "(.|\r|\n)*".
+                ##
+                #$replacer2->transform('^([ \t]*)(.|\r|\n)*', '$1');
+                #$codefenceIndent = $replacer2->currentString();
+
 
                 # Find indent for the code fences. It should be the indent
                 # for the line with the minimum amount of indent (except
-                # empty linese), but for ***now*** we take it from the
-                # ***first line***.
-
-                $replacer2 = new StringReplacerWithRegex($someText);
-
-                # Find the space by removing everything else, but
-                # leading space on the first line
+                # empty lines)
                 #
-                # Note: Everything that matches is replaced. () and $
-                #       is dynamic content (e.g., some number)
-                #
-                # Major gotcha: ".*" does not match everything! It doesn't
-                # match the end of line... So instead of just ".*" we
-                # have to use "(.|\r|\n)*".
-                #
-                $replacer2->transform('^([ \t]*)(.|\r|\n)*', '$1');
+                $minimumLeadingSpaces = 9999;
 
-                $codefenceIndent = $replacer2->currentString();
+                # Note: Double quotes are necessary, in
+                #       contrast to regular expressions
+                $lines = explode("\r\n", $someText);
+
+                foreach($lines as $someLine)
+                {
+                    # We don't want content ***ending with newline*** (the
+                    # last element in the array will be empty in that
+                    # case) or empty lines to affect the result.
+                    if (strlen($someLine) > 0)
+                    {
+                        #echo "Line: XXX  $someLine   ZZZZ <br/>\n";
+
+                        $lenBefore = strlen($someLine);
+                        $lenAfter = strlen(ltrim($someLine));
+                        $leadingSpaces = $lenBefore - $lenAfter;
+
+                        if ($leadingSpaces < $minimumLeadingSpaces)
+                        {
+                            $minimumLeadingSpaces = $leadingSpaces;
+                            #echo "New minimum white space: $minimumLeadingSpaces\n";
+                        }
+                    }
+                }
+                $codefenceIndent = str_repeat(" ", $minimumLeadingSpaces);
 
                 #echo
                 #    "\n\ncodefenceIndent: ___" . $codefenceIndent . "___\n\n" .
@@ -458,6 +496,8 @@
             #
             function test_convert_to_Markdown_codefencing($anID, $aSomeText, $aLengthDiff)
             {
+                #echo "<br/>\n<br/>\ntest_convert_to_Markdown_codefencing(): Test number $anID<br/>\n";
+
                 $touchedText = convertToMarkdownCodefencing_none($aSomeText);
 
                 # Counting lines... The number of lines is expected
@@ -704,67 +744,6 @@
                 7 + 7);
 
 
-            # Magic numbers (we should probably eliminate them):
-            #
-            #   12: "```lang-none"
-            #    3: "```"
-            #    2: CR+LF
-            #    2: For what??
-            #
-            $fixed_SizeIncrease = 12 + 2 + 3 + 2;
-
-            test_convert_to_Markdown_codefencing(1032,
-                "    End\r\n",
-                1*4 - $fixed_SizeIncrease);
-
-            #Extra spaces so the indent is not zero spaces
-            test_convert_to_Markdown_codefencing(1033,
-                "     End\r\n",
-                1*4 - 2*1 - $fixed_SizeIncrease);
-
-            test_convert_to_Markdown_codefencing(1034,
-                "    if (\$next)\r\n" .
-                "    {\r\n" .
-                "        \$next .= \"Extras\";\r\n" .
-                "    }\r\n" .
-                "",
-                4*4 - $fixed_SizeIncrease);
-
-            # With an empty line (line with less than the
-            # number of spaces we remove from each line).
-            test_convert_to_Markdown_codefencing(1035,
-                "    AAA\r\n" .
-                "\r\n" .
-                "    BBB\r\n" .
-                "",
-                2*4 - $fixed_SizeIncrease);
-
-            # Testing for more than 4 spaces indent - only
-            # four spaces should be removed - not all spaces.
-            # Also, the code fences should be indented the
-            # same as the resulting content.
-            #
-            # This is for it to work well with code in
-            # Markdown lists.
-            #
-            test_convert_to_Markdown_codefencing(1036,
-                "         End\r\n",
-                1*4 - $fixed_SizeIncrease
-                - 2 * 5   # 5: remaining space after removing 4 space
-                          #    indent - the indent for each of the
-                          #    two code fences.
-                );
-
-            # Check for automatic removal for TABs and trailing space
-            test_convert_to_Markdown_codefencing(1038,
-                "    AAA   \r\n" .
-                "\r\n" .
-                "    BBB\r\n" .
-                "",
-                2*4 - $fixed_SizeIncrease
-                + 3 # The 3 trailing spaces
-                );
-
             # Major gotcha: ".*" does not match everything!
             # It doesn't match the end of line...
             #
@@ -788,6 +767,79 @@
             #        the "//" pair.
 
 
+            # Magic numbers (we should probably eliminate them):
+            #
+            #   12: "```lang-none"
+            #    3: "```"
+            #    2: CR+LF
+            #    2: For what??
+            #
+            $fixed_SizeIncrease = 12 + 2 + 3 + 2;
+            $space_SizeDecreasePerLine = 4;
+
+            test_convert_to_Markdown_codefencing(1032,
+                "    End\r\n",
+                1*$space_SizeDecreasePerLine - $fixed_SizeIncrease);
+
+            #Extra spaces so the indent is not zero spaces
+            test_convert_to_Markdown_codefencing(1033,
+                "     End\r\n",
+                1*$space_SizeDecreasePerLine - 2*1 - $fixed_SizeIncrease);
+
+            test_convert_to_Markdown_codefencing(1034,
+                "    if (\$next)\r\n" .
+                "    {\r\n" .
+                "        \$next .= \"Extras\";\r\n" .
+                "    }\r\n" .
+                "",
+                4*$space_SizeDecreasePerLine - $fixed_SizeIncrease);
+
+            # With an empty line (line with less than the
+            # number of spaces we remove from each line).
+            test_convert_to_Markdown_codefencing(1035,
+                "    AAA\r\n" .
+                "\r\n" .
+                "    BBB\r\n" .
+                "",
+                2*$space_SizeDecreasePerLine - $fixed_SizeIncrease);
+
+            # Testing for more than 4 spaces indent - only
+            # four spaces should be removed - not all spaces.
+            # Also, the code fences should be indented the
+            # same as the resulting content.
+            #
+            # This is for it to work well with code in
+            # Markdown lists.
+            #
+            test_convert_to_Markdown_codefencing(1036,
+                "         End\r\n",
+                1*$space_SizeDecreasePerLine - $fixed_SizeIncrease
+                - 2 * 5   # 5: remaining space after removing 4 space
+                          #    indent - the indent for each of the
+                          #    two code fences.
+                );
+
+            # Check for automatic removal for TABs and trailing space
+            #
+            test_convert_to_Markdown_codefencing(1038,
+                "    AAA   \r\n" .
+                "\r\n" .
+                "    BBB\r\n" .
+                "",
+                2*$space_SizeDecreasePerLine - $fixed_SizeIncrease
+                + 3 # The 3 trailing spaces
+                );
+
+            # More indent on the ***first*** line than 
+            # some other line(s) - unbalanced input.
+            #
+            test_convert_to_Markdown_codefencing(1039,
+                "        Privacy - Camera Usage\r\n" .
+                "    Less indent\r\n" .
+                "",
+                2*$space_SizeDecreasePerLine - $fixed_SizeIncrease
+                );
+
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
             #For debugging
@@ -804,7 +856,10 @@
 
 
 
-            # ----------------------------------------------------------------
+            # ===============================================================
+            # ===============================================================
+            # ===============================================================
+
 
             $message = "";
             $extraMessage = "";
