@@ -2889,6 +2889,7 @@ namespace OverflowHelper.core
             correctionAdd("GiHub", "GitHub");
             correctionAdd("GiThub", "GitHub");
             correctionAdd("GH", "GitHub");
+            correctionAdd("GIthub", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -3609,6 +3610,8 @@ namespace OverflowHelper.core
 
             correctionAdd("indefintely", "indefinitely");
             correctionAdd("indefinately", "indefinitely");
+            correctionAdd("indefinetly", "indefinitely");
+            correctionAdd("indefinetely", "indefinitely");
 
             // Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
             correctionAdd("definately", "definitely");
@@ -9223,6 +9226,7 @@ namespace OverflowHelper.core
 
             correctionAdd("english", "English");
             correctionAdd("Englisch", "English");
+            correctionAdd("emglish", "English");
 
             correctionAdd("lets", "let’s");
             correctionAdd("let's", "let’s");
@@ -13980,6 +13984,7 @@ namespace OverflowHelper.core
             correctionAdd("furhter", "further");
             correctionAdd("furter", "further");
             correctionAdd("farer", "further");
+            correctionAdd("futher", "further");
 
             correctionAdd("internaly", "internally");
 
@@ -16012,6 +16017,7 @@ namespace OverflowHelper.core
             correctionAdd("packge", "package");
             correctionAdd("Pakage", "package");
             correctionAdd("pakage", "package");
+            correctionAdd("pacage", "package");
 
             correctionAdd("Strace", "strace");
 
@@ -17754,6 +17760,7 @@ namespace OverflowHelper.core
             correctionAdd("Air Portugal", "TAP Air Portugal");
 
             correctionAdd("united", "United Airlines");
+            correctionAdd("united airlines", "United Airlines");
 
             correctionAdd("virgin atlantic", "Virgin Atlantic");
 
@@ -25969,6 +25976,8 @@ namespace OverflowHelper.core
             correctionAdd("Juse", "just");
             correctionAdd("juste", "just");
             correctionAdd("jsut", "just");
+            correctionAdd("Juts", "just");
+            correctionAdd("juts", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -30828,6 +30837,7 @@ namespace OverflowHelper.core
 
             correctionAdd("jCenter", "JCenter");
             correctionAdd("jcenter", "JCenter");
+            correctionAdd("Jcenter", "JCenter");
 
             correctionAdd("chip", "chips");
             correctionAdd("Chips", "chips");
@@ -32439,6 +32449,7 @@ namespace OverflowHelper.core
             correctionAdd("re-routes", "reroutes");
 
             correctionAdd("suported", "supported");
+            correctionAdd("supproted", "supported");
 
             correctionAdd("conseqeuent", "consequent");
 
@@ -34901,6 +34912,7 @@ namespace OverflowHelper.core
             correctionAdd("Constraint Optimization problem", "constraint optimization problem");
 
             correctionAdd("Employer", "employer");
+            correctionAdd("emplyer", "employer");
 
             correctionAdd("git gud", "get good");
             correctionAdd("get gud", "get good");
@@ -35609,6 +35621,7 @@ namespace OverflowHelper.core
             correctionAdd("western union", "Western Union");
 
             correctionAdd("divsor", "divisor");
+            correctionAdd("Divisor", "divisor");
 
             correctionAdd("Giga", "giga");
 
@@ -35624,6 +35637,18 @@ namespace OverflowHelper.core
 
             correctionAdd("customized", "customised");
             correctionAdd("customizated", "customised");
+
+            correctionAdd("expedia", "Expedia");
+
+            correctionAdd("mavencentral", "Maven Central");
+            correctionAdd("mavenCentral", "Maven Central");
+            correctionAdd("maven central", "Maven Central");
+
+            correctionAdd("san diego", "San Diego");
+
+            correctionAdd("karoekee", "karaoke");
+
+            correctionAdd("Quotient", "quotient");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56016,6 +56041,16 @@ namespace OverflowHelper.core
 
             URL_Add("customised", "https://en.wiktionary.org/wiki/customised#Adjective");
 
+            URL_Add("Expedia", "https://en.wikipedia.org/wiki/Expedia_Group");
+
+            URL_Add("Maven Central", "https://shibboleth.atlassian.net/wiki/spaces/DEV/pages/1123844333/Use+of+Maven+Central");
+
+            URL_Add("San Diego", "https://en.wikipedia.org/wiki/San_Diego");
+
+            URL_Add("karaoke", "https://en.wikipedia.org/wiki/Karaoke");
+
+            URL_Add("quotient", "https://en.wiktionary.org/wiki/quotient#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56329,6 +56364,8 @@ namespace OverflowHelper.core
             correctionAdd("smoke detector_", "SmokeDetector_");
             correctionAdd("Charcoal_", "SmokeDetector_");
 
+            correctionAdd("rep_", "representative_");
+
             // URL mappings
             //
             //
@@ -56539,6 +56576,8 @@ namespace OverflowHelper.core
             URL_Add("elm_", "https://en.wikipedia.org/wiki/Elm#Dutch_elm_disease");
 
             URL_Add("SmokeDetector_", "https://stackoverflow.blog/2020/06/25/how-does-spam-protection-work-on-stack-exchange/");
+
+            URL_Add("representative_", "https://en.wiktionary.org/wiki/rep#Noun");
 
         } //addLookupData_alternativeWordSet()
 
