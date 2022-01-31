@@ -1203,11 +1203,11 @@ function wordListExport()
     #
     cat ${STDERR_FILE}
 
-    # Check for output to standard error. It must be empty.
-    [[ -s ${STDERR_FILE} ]] ; test $? -ne 0 ; evaluateBuildResult $1 $? "empty standard error output (word list export for $2)"
-
     # Sanity check for export file size
     checkFileSize  ${WORD_EXPORT_FILE} $4 $5 $1 "$2 format"
+
+    # Check for output to standard error. It must be empty.
+    [[ -s ${STDERR_FILE} ]] ; test $? -ne 0 ; evaluateBuildResult $1 $? "empty standard error output (word list export for $2)"
 
     # Set up for the next call (as "LOOKUP" will override the main
     # function, exports). Callers must explicitly set it before
@@ -1232,6 +1232,13 @@ function wordListExport()
 #
 #    $1   Build step number
 #
+# Future:
+#
+#   1. More words
+#
+#   2. Perhaps use the source folder, so we are not misled to where
+#      correct (it should not be done to files in the work folder...)
+#
 function sourceSpellcheck()
 {
     startOfBuildStep $1 "Some spellcheck of source code, incl. scripts."
@@ -1243,6 +1250,8 @@ function sourceSpellcheck()
     export EFFECTIVE_SOURCE_FOLDER=${WORKFOLDER}
 
     export TEMP_MISSPELLINGS_LIST_FILE="_sourceMisspellings.txt"
+
+    export TEMP_PHP_COMMENTCHARACTERS_FILE="_sourcePHPcommentCharacters.txt"
 
     # For now: Inline Perl one-liner
     #
@@ -1262,12 +1271,15 @@ function sourceSpellcheck()
     #                  so we will miss "Paramter".
     #                  We should probably change that.
     #
+    #   "Markdowm"
+    #
+    #   "Aparrently"
+    #
     #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 grep -n 'paramter' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
     #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV:$.: $_"; } ' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
     find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
 
     #echo ${TEMP_MISSPELLINGS_LIST_FILE}
-
 
     # Note: In the screen output, we would like present it for the original
     #       source location, not the build folder. This is to avoid the
@@ -1286,6 +1298,19 @@ function sourceSpellcheck()
 
     # It must be empty - zero hits.
     checkFileSize  ${TEMP_MISSPELLINGS_LIST_FILE} 0 0 $1 "source code spellcheck"
+
+
+    # #######################################################################
+    # Also some source code check: Consistent use of "#" as the comment
+    # character in PHP code (that is, we don't accept "//". Though
+    # we do accept C-style ones - /*   */ - this is a way to not 
+    # have to add exceptions by using "/* */" instead of "//" 
+    # for JavaScript code in a few places).
+    #
+    find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.php$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/^\s+\/\//) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v 'XXXXXZZZ'  >  ${TEMP_PHP_COMMENTCHARACTERS_FILE}
+    cat ${TEMP_PHP_COMMENTCHARACTERS_FILE}
+    checkFileSize  ${TEMP_PHP_COMMENTCHARACTERS_FILE} 0 0 $1 "PHP source comment character"
+
 } #sourceSpellcheck()
 
 
