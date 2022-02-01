@@ -183,19 +183,19 @@
             } #removeCommonLeadingSpaces()
 
 
-            // Note: "none" as in Markdowm "lang_none" - syntax
-            //        highlighting turned off.
-            //
-            // Future:
-            //
-            //   1. Consider adding a newline to the input content
-            //      if it does not already contain it. This is
-            //      to add some robustness (it does happen
-            //      that Stack Overflow posts don't contain
-            //      a newline at the end).
-            //
-            //   2.
-            //
+            # Note: "none" as in Markdowm "lang_none" - syntax
+            #        highlighting turned off.
+            #
+            # Future:
+            #
+            #   1. Consider adding a newline to the input content
+            #      if it does not already contain it. This is
+            #      to add some robustness (it does happen
+            #      that Stack Overflow posts don't contain
+            #      a newline at the end).
+            #
+            #   2.
+            #
             function convertToMarkdownCodefencing_none($aText)
             {
                 # First remove TABs and trailing space - especially for TABs
@@ -666,15 +666,15 @@
 
             test_transformFor_YouTubeComments(1019, "Which is 1.7 V higher.", 0);
 
-            // Test of not expanding the full stop in file extensions
-            //
-            // Note: It happens to be 0 for the domain names with three
-            //       parts because the expanded two dots correspond
-            //       to the removed "https://".
-            //
-            //
-            // Note: Positive numbers for output smaller than the input.
-            //
+            # Test of not expanding the full stop in file extensions
+            #
+            # Note: It happens to be 0 for the domain names with three
+            #       parts because the expanded two dots correspond
+            #       to the removed "https://".
+            #
+            #
+            # Note: Positive numbers for output smaller than the input.
+            #
             test_transformFor_YouTubeComments(1020, "https://www.tutorialspoint.com/design_pattern/filter_pattern.htm", 0);
             test_transformFor_YouTubeComments(1021, "https://en.wiktionary.org/wiki/File:en-us-tear-verb.ogg", 0);
             test_transformFor_YouTubeComments(1022, "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript", 4);
