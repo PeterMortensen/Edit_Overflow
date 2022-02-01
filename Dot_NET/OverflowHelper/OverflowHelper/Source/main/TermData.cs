@@ -208,10 +208,10 @@ namespace OverflowHelper.core
                 errorWriter.WriteLine(fullErrorMessage); // Linux
                 errorWriter.WriteLine("");
             }
-            
+
             // Also make sure the application's exit code signals
             // an error (e.g., to a build script)
-            Environment.ExitCode = 42; // Hardcoded for now. We may want 
+            Environment.ExitCode = 42; // Hardcoded for now. We may want
                                        // different (symbolic) error
                                        // codes for different errors.
 
@@ -1646,10 +1646,10 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("sierra", "macOS v10.12 (Sierra)");
             correctionAdd("Siera", "macOS v10.12 (Sierra)");
-            correctionAdd("mac OS 12", "macOS v10.12 (Sierra)");
-            correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
             correctionAdd("macOS 10.12", "macOS v10.12 (Sierra)");
-            correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
+            //correctionAdd("mac OS 12", "macOS v10.12 (Sierra)");
+            //correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
+            //correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -1700,6 +1700,43 @@ namespace OverflowHelper.core
             correctionAdd("Mac (Catalina)", "macOS v10.15 (Catalina)");
             correctionAdd("mac 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac 10.15", "macOS v10.15 (Catalina)");
+
+            correctionAdd("Mac Os", "macOS");
+            correctionAdd("MacOs", "macOS");
+            correctionAdd("Macos", "macOS");
+            correctionAdd("MacOS", "macOS");
+            correctionAdd("Mac-Os", "macOS");
+            correctionAdd("Mac os", "macOS");
+            correctionAdd("Mac OS", "macOS");
+            correctionAdd("MAC os", "macOS");
+            correctionAdd("macOs", "macOS");
+            correctionAdd("MAC OS", "macOS");
+            correctionAdd("mac OS", "macOS");
+
+            correctionAdd("big sur", "macOS v11 (Big Sur)");
+            correctionAdd("Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS 11 Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS 11", "macOS v11 (Big Sur)");
+            correctionAdd("BigSur", "macOS v11 (Big Sur)");
+            correctionAdd("Bigsur", "macOS v11 (Big Sur)");
+            correctionAdd("Big sur", "macOS v11 (Big Sur)");
+            correctionAdd("MacOS 11", "macOS v11 (Big Sur)");
+            correctionAdd("macOS Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS BIG SUR", "macOS v11 (Big Sur)");
+            correctionAdd("BIG SUR", "macOS v11 (Big Sur)");
+            correctionAdd("Mac OS Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("macOS v11", "macOS v11 (Big Sur)");
+            correctionAdd("MacOS Big Sur", "macOS v11 (Big Sur)");
+            correctionAdd("Big Suwer", "macOS v11 (Big Sur)");
+            correctionAdd("Big Sewer", "macOS v11 (Big Sur)");
+            correctionAdd("Big Sir", "macOS v11 (Big Sur)");
+
+            correctionAdd("monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("MacOS Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("MacOS 12", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -4463,6 +4500,7 @@ namespace OverflowHelper.core
             correctionAdd("BTW", "by the way");
 
             correctionAdd("kohana", "Kohana"); // Not actually observed.
+            correctionAdd("KohanaPHP", "Kohana");
 
             correctionAdd("Pear", "PEAR"); // Not actually observed.
             correctionAdd("pear", "PEAR"); // Not actually observed.
@@ -4527,6 +4565,7 @@ namespace OverflowHelper.core
             correctionAdd("mark down", "Markdown");
             correctionAdd("Markdow", "Markdown");
             correctionAdd("Makrdown", "Markdown");
+            correctionAdd("Markdowm", "Markdown");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -4712,6 +4751,7 @@ namespace OverflowHelper.core
             correctionAdd("disble", "disable");
 
             correctionAdd("fore-see-able", "foreseeable");
+            correctionAdd("foreseable", "foreseeable");
 
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
@@ -5038,6 +5078,7 @@ namespace OverflowHelper.core
             correctionAdd("arugment", "argument");
             correctionAdd("arrgument", "argument");
             correctionAdd("argumet", "argument");
+            correctionAdd("agrument", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -8809,6 +8850,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS 9", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 08", "Visual&nbsp;Studio&nbsp;2008");
 
             correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
@@ -10586,6 +10628,9 @@ namespace OverflowHelper.core
             correctionAdd("require.js", "RequireJS");
             correctionAdd("Require.js", "RequireJS");
 
+            correctionAdd("Ejs", "EJS");
+            correctionAdd("ejs", "EJS");
+
             correctionAdd("mongoose", "Mongoose");
 
             correctionAdd("SRP", "single responsibility principle");
@@ -11475,6 +11520,8 @@ namespace OverflowHelper.core
             correctionAdd("apparantely", "apparently");
             correctionAdd("appearently", "apparently");
             correctionAdd("Appearently", "apparently");
+            correctionAdd("Aparrently", "apparently");
+            correctionAdd("aparrently", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -13050,6 +13097,7 @@ namespace OverflowHelper.core
 
             correctionAdd("perfrom", "perform");
             correctionAdd("preform", "perform");
+            correctionAdd("performe", "perform");
 
             correctionAdd("dutch", "Dutch");
 
@@ -14361,18 +14409,6 @@ namespace OverflowHelper.core
             correctionAdd("Meter", "m");
             correctionAdd("meter", "m");
 
-            correctionAdd("Mac Os", "macOS");
-            correctionAdd("MacOs", "macOS");
-            correctionAdd("Macos", "macOS");
-            correctionAdd("MacOS", "macOS");
-            correctionAdd("Mac-Os", "macOS");
-            correctionAdd("Mac os", "macOS");
-            correctionAdd("Mac OS", "macOS");
-            correctionAdd("MAC os", "macOS");
-            correctionAdd("macOs", "macOS");
-            correctionAdd("MAC OS", "macOS");
-            correctionAdd("mac OS", "macOS");
-
             correctionAdd("Netstat", "netstat");
 
             correctionAdd("new comer", "newcomer");
@@ -14857,6 +14893,7 @@ namespace OverflowHelper.core
             correctionAdd("Request", "request");
             correctionAdd("reqest", "request");
             correctionAdd("reguest", "request");
+            correctionAdd("reques", "request");
 
             correctionAdd("temorarily", "temporarily");
             correctionAdd("temporaryly", "temporarily");
@@ -16040,6 +16077,7 @@ namespace OverflowHelper.core
             correctionAdd("Cross Validated", "Cross Validated (Stack Exchange site)");
             correctionAdd("cross validated", "Cross Validated (Stack Exchange site)");
             correctionAdd("CrossValidated", "Cross Validated (Stack Exchange site)");
+            correctionAdd("Stats.SE", "Cross Validated (Stack Exchange site)");
 
             correctionAdd("enterprise resource planning", "ERP");
 
@@ -21458,6 +21496,8 @@ namespace OverflowHelper.core
             correctionAdd("Vesion", "version");
             correctionAdd("vesion", "version");
             correctionAdd("versión", "version");
+            correctionAdd("Ver", "version");
+            correctionAdd("ver", "version");
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
@@ -23044,6 +23084,7 @@ namespace OverflowHelper.core
             correctionAdd("throwh", "thrown");
 
             correctionAdd("trat", "treat");
+            correctionAdd("threat", "treat");
 
             correctionAdd("tecnique", "technique");
             correctionAdd("techique", "technique");
@@ -25311,24 +25352,6 @@ namespace OverflowHelper.core
 
             correctionAdd("incersely", "inversely");
 
-            correctionAdd("big sur", "macOS v11 (Big Sur)");
-            correctionAdd("Big Sur", "macOS v11 (Big Sur)");
-            correctionAdd("macOS 11 Big Sur", "macOS v11 (Big Sur)");
-            correctionAdd("macOS 11", "macOS v11 (Big Sur)");
-            correctionAdd("BigSur", "macOS v11 (Big Sur)");
-            correctionAdd("Bigsur", "macOS v11 (Big Sur)");
-            correctionAdd("Big sur", "macOS v11 (Big Sur)");
-            correctionAdd("MacOS 11", "macOS v11 (Big Sur)");
-            correctionAdd("macOS Big Sur", "macOS v11 (Big Sur)");
-            correctionAdd("macOS BIG SUR", "macOS v11 (Big Sur)");
-            correctionAdd("BIG SUR", "macOS v11 (Big Sur)");
-            correctionAdd("Mac OS Big Sur", "macOS v11 (Big Sur)");
-            correctionAdd("macOS v11", "macOS v11 (Big Sur)");
-            correctionAdd("MacOS Big Sur", "macOS v11 (Big Sur)");
-            correctionAdd("Big Suwer", "macOS v11 (Big Sur)");
-            correctionAdd("Big Sewer", "macOS v11 (Big Sur)");
-            correctionAdd("Big Sir", "macOS v11 (Big Sur)");
-
             correctionAdd("single core", "single-core");
 
             correctionAdd("Smart Home", "smart home");
@@ -25486,6 +25509,7 @@ namespace OverflowHelper.core
             correctionAdd("psycopath", "psychopath");
 
             correctionAdd("re-import", "reimport");
+            correctionAdd("Re-import", "reimport");
 
             correctionAdd("symtom", "symptom");
             correctionAdd("sympthom", "symptom");
@@ -29384,6 +29408,7 @@ namespace OverflowHelper.core
             correctionAdd("douglas adams", "Douglas Adams");
 
             correctionAdd("Easter Egg", "Easter egg");
+            correctionAdd("easter egg", "Easter egg");
 
             correctionAdd("jmap", "JMAP");
 
@@ -30126,6 +30151,7 @@ namespace OverflowHelper.core
             correctionAdd("principle of least surprise", "principle of least astonishment");
             correctionAdd("Principle of Least Surprise", "principle of least astonishment");
             correctionAdd("least astonishment", "principle of least astonishment");
+            correctionAdd("POLA", "principle of least astonishment");
 
             correctionAdd("red-herring", "red herring");
 
@@ -30894,6 +30920,7 @@ namespace OverflowHelper.core
             correctionAdd("ubi", "UBI");
 
             correctionAdd("documentate", "document");
+            correctionAdd("documente", "document");
 
             correctionAdd("eco system", "ecosystem");
             correctionAdd("eco-system", "ecosystem");
@@ -32951,12 +32978,6 @@ namespace OverflowHelper.core
 
             correctionAdd("freefall", "free fall");
 
-            correctionAdd("monterey", "macOS&nbsp;v12 (Monterey)");
-            correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
-            correctionAdd("macOS Monterey", "macOS&nbsp;v12 (Monterey)");
-            correctionAdd("Monterey", "macOS&nbsp;v12 (Monterey)");
-            correctionAdd("MacOS Monterey", "macOS&nbsp;v12 (Monterey)");
-
             correctionAdd("stetching", "stretching");
 
             correctionAdd("stuppid", "stupid");
@@ -33160,6 +33181,9 @@ namespace OverflowHelper.core
             correctionAdd("character entity", "HTML character entity reference");
             correctionAdd("HTML character entity", "HTML character entity reference");
             correctionAdd("numeric character reference", "HTML character entity reference");
+            correctionAdd("HTML code", "HTML character entity reference");
+            correctionAdd("NCR", "HTML character entity reference");
+            correctionAdd("ncr", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -33762,6 +33786,7 @@ namespace OverflowHelper.core
             correctionAdd("Stallman", "Richard Stallman");
 
             correctionAdd("boot loader", "bootloader");
+            correctionAdd("bootloder", "bootloader");
 
             correctionAdd("contribues", "contributes");
 
@@ -35228,8 +35253,6 @@ namespace OverflowHelper.core
 
             correctionAdd("txt record", "TXT record");
 
-            correctionAdd("Docstring", "docstring");
-
             correctionAdd("higher order", "higher-order");
             correctionAdd("Higher Order", "higher-order");
 
@@ -35625,6 +35648,8 @@ namespace OverflowHelper.core
 
             correctionAdd("western union", "Western Union");
 
+            correctionAdd("self documenting", "self-documenting");
+
             correctionAdd("divsor", "divisor");
             correctionAdd("Divisor", "divisor");
 
@@ -35656,6 +35681,37 @@ namespace OverflowHelper.core
             correctionAdd("Quotient", "quotient");
 
             correctionAdd("Atlas", "ATLAS"); // Not actually observed.
+
+            correctionAdd("atlas", "ATLAS.ti");
+
+            correctionAdd("F-18", "F/A-18");
+            correctionAdd("F18", "F/A-18");
+
+            correctionAdd("JavascriptMVC", "JavaScriptMVC");
+
+            correctionAdd("North-Korean", "North Korean");
+
+            correctionAdd("stm32f103", "STM32F103");
+
+            correctionAdd("Air Force", "United States Air Force");
+
+            correctionAdd("WHYT", "What you tried?");
+
+            correctionAdd("commeting", "commenting");
+
+            correctionAdd("endeless", "endless");
+            correctionAdd("Endeless", "endless");
+
+            correctionAdd("non alphabetic", "nonalphabetic");
+
+            correctionAdd("rudimentry", "rudimentary");
+
+            correctionAdd("Docstring", "docstring");
+
+            correctionAdd("phpdocumentor", "phpDocumentor");
+
+            correctionAdd("phpdoc", "PHPDoc");
+            correctionAdd("phpDoc", "PHPDoc");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56058,6 +56114,36 @@ namespace OverflowHelper.core
 
             URL_Add("ATLAS", "https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
 
+            URL_Add("ATLAS.ti", "https://en.wikipedia.org/wiki/Atlas.ti");
+
+            URL_Add("EJS", "https://en.wikipedia.org/wiki/JavaScriptMVC#View");
+
+            URL_Add("F/A-18", "https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet");
+
+            URL_Add("JavaScriptMVC", "https://en.wikipedia.org/wiki/JavaScriptMVC");
+
+            URL_Add("North Korean", "https://en.wiktionary.org/wiki/North_Korean#Adjective");
+
+            URL_Add("PHPDoc", "https://en.wikipedia.org/wiki/PHPDoc");
+
+            URL_Add("STM32F103", "https://stm32world.com/wiki/STM32F103#Fakes_and_Clones");
+
+            URL_Add("United States Air Force", "https://en.wikipedia.org/wiki/United_States_Air_Force");
+
+            URL_Add("What you tried?", "https://meta.stackexchange.com/questions/172758/what-have-you-tried-epidemic");
+
+            URL_Add("commenting", "https://en.wiktionary.org/wiki/comment#Verb");
+
+            URL_Add("endless", "https://en.wiktionary.org/wiki/endless#Adjective");
+
+            URL_Add("nonalphabetic", "https://en.wiktionary.org/wiki/nonalphabetic#Adjective");
+
+            URL_Add("phpDocumentor", "https://en.wikipedia.org/wiki/PhpDocumentor");
+
+            URL_Add("rudimentary", "https://en.wiktionary.org/wiki/rudimentary#Adjective");
+
+            URL_Add("self-documenting", "https://en.wiktionary.org/wiki/self-documenting#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56373,6 +56459,12 @@ namespace OverflowHelper.core
 
             correctionAdd("rep_", "representative_");
 
+            correctionAdd("GAS_", "gas_");
+
+            correctionAdd("PI_", "principal investigator_");
+
+            correctionAdd("TEE_", "tee_");
+
             // URL mappings
             //
             //
@@ -56585,6 +56677,12 @@ namespace OverflowHelper.core
             URL_Add("SmokeDetector_", "https://stackoverflow.blog/2020/06/25/how-does-spam-protection-work-on-stack-exchange/");
 
             URL_Add("representative_", "https://en.wiktionary.org/wiki/rep#Noun");
+
+            URL_Add("gas_", "https://en.wikipedia.org/wiki/Ethereum#Gas");
+
+            URL_Add("principal investigator_", "https://en.wikipedia.org/wiki/Principal_investigator");
+
+            URL_Add("tee_", "https://en.wikipedia.org/wiki/Tee_(command)");
 
         } //addLookupData_alternativeWordSet()
 
