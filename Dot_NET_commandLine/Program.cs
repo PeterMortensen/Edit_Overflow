@@ -37,7 +37,7 @@ namespace EditOverflow2
             string toOutput = ""; // No output unless explicitly indicated
                                   // by parameters passed to the program
 
-            if (lookupWord != null) // Lookup overrides any specified
+            if (lookupWord != null) // Word lookup overrides any specified
                                     // export - we will not do both
                                     // at the same time
             {
@@ -60,9 +60,9 @@ namespace EditOverflow2
                 {
                     Console.WriteLine(
                         "The word \"" + lookupWord +
-                        "\" is not in the word list: ");                    
+                        "\" is not in the word list...");
                 }
-                
+
                 //Console.WriteLine("'alo...");
 
 
@@ -93,8 +93,8 @@ namespace EditOverflow2
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
 
-                // This will result in running the ***first*** level of
-                // integrity testing for the word list data
+                // This will result in running the ***first*** level 
+                // of integrity testing for the word list data
                 TermLookup someTermLookup = new TermLookup();
 
                 switch (outputType)
@@ -156,8 +156,13 @@ namespace EditOverflow2
                 Console.WriteLine(toOutput);
 
             } //Exports
+            
+            
+            //Test!!!!!!!!!!!!!
+            //Environment.Exit(42);
 
         } //Main()
+        
     } //class Program
 }
 

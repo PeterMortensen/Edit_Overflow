@@ -1157,6 +1157,11 @@ function wordListExport()
     # name for the capture standard error output unique.
     export STDERR_FILE="_stdErr_Export_${1}_${WORDLIST_OUTPUTTYPE}.txt"
 
+    # Only used as a temporary file in order to capture an exit
+    # code from the command-line version of Edit Overflow
+    #
+    export STDOUT_FILE="_stdOutput_Export.txt"
+
     #pwd
     #echo "Standard error file: ${STDERR_FILE}"
     echo "Standard error file: `pwd`/${STDERR_FILE}"
@@ -1180,7 +1185,15 @@ function wordListExport()
     #       can be when just invoking it for the purpose
     #       of compilation/sanity checking.
     #
-    time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    
+    #But do we actually need to use evaluateBuildResult() the second time?
+    #Could it in fact allow us to allow Edit Overflow to return nothing
+    #to standard output?
+    #
+    grep -v CS0219 ${STDOUT_FILE} | grep -v CS0162 >> $WORD_EXPORT_FILE ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+
     echo
 
     # Note: The export file is accumulating, unless the client resets it...
@@ -1303,8 +1316,8 @@ function sourceSpellcheck()
     # #######################################################################
     # Also some source code check: Consistent use of "#" as the comment
     # character in PHP code (that is, we don't accept "//". Though
-    # we do accept C-style ones - /*   */ - this is a way to not 
-    # have to add exceptions by using "/* */" instead of "//" 
+    # we do accept C-style ones - /*   */ - this is a way to not
+    # have to add exceptions by using "/* */" instead of "//"
     # for JavaScript code in a few places).
     #
     find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.php$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/^\s+\/\//) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v 'XXXXXZZZ'  >  ${TEMP_PHP_COMMENTCHARACTERS_FILE}
