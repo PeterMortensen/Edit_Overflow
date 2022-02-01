@@ -33,9 +33,9 @@
         {
             # Not used: "s" is for "." matching newlines(?).
 
-            // From <https://www.php.net/manual/en/function.preg-replace.php>:
-            //
-            //  "replacement... XXX"
+            # From <https://www.php.net/manual/en/function.preg-replace.php>:
+            #
+            #  "replacement... XXX"
 
             $this->mCurrentString = preg_replace(
                                        '/' . $aMatchString . '/',

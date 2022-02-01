@@ -113,7 +113,7 @@
             }
 
 
-            // echo "<p>Lookup term: $lookUpTerm</p>\n";
+            #echo "<p>Lookup term: $lookUpTerm</p>\n";
 
             $SQLprefix =
               " SELECT incorrectTerm, correctTerm, URL " .
@@ -125,11 +125,11 @@
 
             if (0)
             {
-                //Obsolete - delete at any time.
+                #Obsolete - delete at any time.
 
-                // Prone to SQL injection attack (though the table
-                // is effectively readonly - we overwrite it on a
-                // regular basis)!
+                # Prone to SQL injection attack (though the table
+                # is effectively readonly - we overwrite it on a
+                # regular basis)!
                 $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
 
                 # For debugging
@@ -175,7 +175,7 @@
                 # "PDO::FETCH_ASSOC" it to return the result as an associative array.
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-                // echo htmlentities($row['correctTerm']);
+                #echo htmlentities($row['correctTerm']);
                 $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
                 $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
@@ -402,9 +402,9 @@
         <script src="EditOverflow.js"></script>
 
         <script>
-            // Only if we want the lookup for the default input
+            /* Only if we want the lookup for the default input */
             window.onload = function() {
-                //document.lookupForm.action = get_action();
+                /* document.lookupForm.action = get_action(); */
             }
         </script>
 
@@ -415,19 +415,19 @@
             <?php
                 if (useJavaScriptLookup())
                 {
-                    //Aparrently also needed...
-                    //
-                    //But it contradicts earlier conclusions that it
-                    //was only needed for the submit button...
-                    //
-                    //What is up???
+                    #Aparrently also needed...
+                    #
+                    #But it contradicts earlier conclusions that it
+                    #was only needed for the submit button...
+                    #
+                    #What is up???
 
                     echo "onsubmit=\"return get_action(); return false;\"\n";
                 }
 
-                // For proper indent in the generated HTML - regardless
-                // of the return value of useJavaScriptLookup() or
-                // whether we actually output anything in PHP.
+                # For proper indent in the generated HTML - regardless
+                # of the return value of useJavaScriptLookup() or
+                # whether we actually output anything in PHP.
                 echo "\n";
             ?>
         >
@@ -818,9 +818,9 @@
                             echo "onsubmit=\"return get_action(); return false;\"";
                         }
 
-                        // For proper indent in the generated HTML - regardless
-                        // of the return value of useJavaScriptLookup() or
-                        // whether we actually output anything in PHP.
+                        # For proper indent in the generated HTML - regardless
+                        # of the return value of useJavaScriptLookup() or
+                        # whether we actually output anything in PHP.
                         echo "\n";
                     ?>
                 />
