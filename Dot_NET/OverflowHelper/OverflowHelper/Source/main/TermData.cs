@@ -208,6 +208,13 @@ namespace OverflowHelper.core
                 errorWriter.WriteLine(fullErrorMessage); // Linux
                 errorWriter.WriteLine("");
             }
+            
+            // Also make sure the application's exit code signals
+            // an error (e.g., to a build script)
+            Environment.ExitCode = 42; // Hardcoded for now. We may want 
+                                       // different (symbolic) error
+                                       // codes for different errors.
+
 
 
         } //reportError()
@@ -24204,8 +24211,6 @@ namespace OverflowHelper.core
 
             correctionAdd("anual", "annual");
 
-            correctionAdd("Atlas", "ATLAS"); // Not actually observed.
-
             correctionAdd("saas", "SaaS");
             correctionAdd("Saas", "SaaS");
             correctionAdd("SAAS", "SaaS");
@@ -35650,6 +35655,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Quotient", "quotient");
 
+            correctionAdd("Atlas", "ATLAS"); // Not actually observed.
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -36769,8 +36776,6 @@ namespace OverflowHelper.core
             URL_Add("pip", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29");
 
             URL_Add("virtualenv", "http://pypi.python.org/pypi/virtualenv");
-
-            URL_Add("ATLAS", "https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
 
             URL_Add("R", "https://en.wikipedia.org/wiki/R_%28programming_language%29");
 
@@ -56050,6 +56055,8 @@ namespace OverflowHelper.core
             URL_Add("karaoke", "https://en.wikipedia.org/wiki/Karaoke");
 
             URL_Add("quotient", "https://en.wiktionary.org/wiki/quotient#Noun");
+
+            URL_Add("ATLAS", "https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
