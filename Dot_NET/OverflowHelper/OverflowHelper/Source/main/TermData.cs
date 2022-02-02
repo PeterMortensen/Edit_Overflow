@@ -4792,11 +4792,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Parsec", "parsec");
 
-            correctionAdd("PARSE_STR", "parse_str");
-            correctionAdd("parse_str()", "parse_str");
-
-            correctionAdd("parse_ini_file()", "parse_ini_file");
-
             correctionAdd("prase", "parse");
             correctionAdd("perse", "parse");
 
@@ -5151,6 +5146,7 @@ namespace OverflowHelper.core
             correctionAdd("micro$\\**t", "Microsoft");
             correctionAdd("M$", "Microsoft");
             correctionAdd("miscrosoft", "Microsoft");
+            correctionAdd("m$", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -6706,6 +6702,13 @@ namespace OverflowHelper.core
             correctionAdd("zend framework", "Zend Framework");
             correctionAdd("zf", "Zend Framework");
             correctionAdd("ZEND", "Zend Framework");
+            correctionAdd("Laminas Project", "Zend Framework");
+
+            correctionAdd("zend studio", "Zend Studio");
+            correctionAdd("ZendSudio", "Zend Studio");
+            correctionAdd("ZendStudio", "Zend Studio");
+            correctionAdd("ZS", "Zend Studio");
+            correctionAdd("Zend IDE", "Zend Studio");
 
             correctionAdd("SAFe", "Scaled Agile Framework");
 
@@ -8160,6 +8163,10 @@ namespace OverflowHelper.core
             correctionAdd("propitiatory", "proprietary");
             correctionAdd("propritiatory", "proprietary");
             correctionAdd("propriatery", "proprietary");
+            correctionAdd("propriotory", "proprietary");
+            correctionAdd("proprietory", "proprietary");
+
+            correctionAdd("non-proprietary", "nonproprietary");
 
             correctionAdd("meteor", "Meteor");
             correctionAdd("Meteor.js", "Meteor");
@@ -12605,6 +12612,9 @@ namespace OverflowHelper.core
             correctionAdd("intermadiate", "intermediate");
 
             correctionAdd("peice", "piece");
+            correctionAdd("piecies", "piece");
+            correctionAdd("picies", "piece");
+            correctionAdd("pieces", "piece");
 
             correctionAdd("previosly", "previously");
             correctionAdd("previusly", "previously");
@@ -13911,6 +13921,7 @@ namespace OverflowHelper.core
             correctionAdd("8859-1", "ISO&nbsp;8859-1");
             correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
             correctionAdd("8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -19759,6 +19770,7 @@ namespace OverflowHelper.core
             correctionAdd("titanic", "Titanic");
 
             correctionAdd("hole", "whole");
+            correctionAdd("wholer", "whole");
 
             correctionAdd("successfull", "successful");
             correctionAdd("sucessful", "successful");
@@ -19776,6 +19788,7 @@ namespace OverflowHelper.core
             correctionAdd("succesefully", "successfully");
             correctionAdd("Sucessfully", "successfully");
             correctionAdd("succefully", "successfully");
+            correctionAdd("sucessfuly", "successfully");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -19961,6 +19974,7 @@ namespace OverflowHelper.core
             correctionAdd("Google cloud", "Google Cloud Platform");
             correctionAdd("gcloud", "Google Cloud Platform"); // Not entirely true - actual a command-line tool
             correctionAdd("GCP", "Google Cloud Platform");
+            correctionAdd("google cloud compute", "Google Cloud Platform");
 
             correctionAdd("crossplatform", "cross-platform");
             correctionAdd("crossPlatform", "cross-platform");
@@ -22212,6 +22226,7 @@ namespace OverflowHelper.core
 
             correctionAdd("KE", "kinetic energy");
             correctionAdd("Kinetic Energy", "kinetic energy");
+            correctionAdd("ke", "kinetic energy");
 
             correctionAdd("mesmerize", "mesmerising");
             correctionAdd("mezmerising", "mesmerising");
@@ -24995,6 +25010,8 @@ namespace OverflowHelper.core
             correctionAdd("upper case", "uppercase");
             correctionAdd("UPPER case", "uppercase");
             correctionAdd("Uppercase", "uppercase");
+            correctionAdd("upperace", "uppercase");
+            correctionAdd("uppercace", "uppercase");
 
             correctionAdd("arcolinux", "ArcoLinux");
             correctionAdd("Agro Linux", "ArcoLinux");
@@ -27450,11 +27467,6 @@ namespace OverflowHelper.core
             correctionAdd("raid10", "RAID&nbsp;10");
             correctionAdd("raid 10", "RAID&nbsp;10");
 
-            correctionAdd("zend studio", "Zend Studio");
-            correctionAdd("ZendSudio", "Zend Studio");
-            correctionAdd("ZendStudio", "Zend Studio");
-            correctionAdd("ZS", "Zend Studio");
-
             correctionAdd("comp0osed", "composed");
 
             correctionAdd("deliniated", "delineated");
@@ -27506,9 +27518,35 @@ namespace OverflowHelper.core
 
             correctionAdd("superseed", "supersede");
 
-            correctionAdd("$GET", "$_GET");
+            correctionAdd("$GET", "$_GET"); // PHP
 
-            correctionAdd("$POST", "$_POST");
+            correctionAdd("$POST", "$_POST"); // PHP
+
+            correctionAdd("$COOKIE", "$_COOKIE"); // PHP
+
+            correctionAdd("$REQUEST", "$_REQUEST"); // PHP
+
+            correctionAdd("PARSE_STR", "parse_str"); // PHP function
+            correctionAdd("parse_str()", "parse_str"); // PHP function
+
+            correctionAdd("parse_ini_file()", "parse_ini_file"); // PHP function
+
+            correctionAdd("strolower", "strtolower"); // PHP function
+            correctionAdd("strtolower()", "strtolower"); // PHP function
+
+            correctionAdd("Strtoupper", "strtoupper"); // PHP function
+            correctionAdd("strtoupper()", "strtoupper"); // PHP function
+
+            correctionAdd("substr_compare()", "substr_compare"); // PHP function
+
+            correctionAdd("icfirst", "lcfirst"); // PHP function
+            correctionAdd("lcfirst()", "lcfirst"); // PHP function
+
+            correctionAdd("ucfirst()", "ucfirst"); // PHP function
+
+            correctionAdd("ucwords()", "ucwords"); // PHP function
+
+            correctionAdd("ctype_lower()", "ctype_lower"); // PHP function
 
             correctionAdd("analisys", "analysis");
             correctionAdd("alaysis", "analysis");
@@ -29960,8 +29998,6 @@ namespace OverflowHelper.core
 
             correctionAdd("missunderstood", "misunderstood");
 
-            correctionAdd("non-proprietary", "nonproprietary");
-
             correctionAdd("re-building", "rebuilding");
 
             correctionAdd("UNIQ", "uniq");
@@ -32141,10 +32177,6 @@ namespace OverflowHelper.core
 
             correctionAdd("plagirising", "plagiarising");
 
-            correctionAdd("$COOKIE", "$_COOKIE");
-
-            correctionAdd("$REQUEST", "$_REQUEST");
-
             correctionAdd("bitly", "Bitly");
             correctionAdd("Bit.ly", "Bitly");
 
@@ -33558,6 +33590,10 @@ namespace OverflowHelper.core
 
             correctionAdd("stack snippets", "Stack Snippets");
             correctionAdd("StackSnippets", "Stack Snippets");
+            correctionAdd("snipets", "Stack Snippets");
+            correctionAdd("snippets", "Stack Snippets");
+            correctionAdd("code snipets", "Stack Snippets");
+            correctionAdd("code snippets", "Stack Snippets");
 
             correctionAdd("functionning", "functioning");
 
@@ -35712,6 +35748,50 @@ namespace OverflowHelper.core
 
             correctionAdd("phpdoc", "PHPDoc");
             correctionAdd("phpDoc", "PHPDoc");
+
+            correctionAdd("consolas", "Consolas");
+
+            correctionAdd("Docblock", "DocBlock");
+            correctionAdd("docblock", "DocBlock");
+
+            correctionAdd("ICAO", "International Civil Aviation Organization");
+
+            correctionAdd("LinuxFX", "Linuxfx");
+            correctionAdd("linuxfx", "Linuxfx");
+
+            correctionAdd("SO Teams", "Stack Overflow for Teams");
+            correctionAdd("SOfT", "Stack Overflow for Teams");
+
+            correctionAdd("book keeping", "bookkeeping");
+
+            correctionAdd("cashflow", "cash flow");
+
+            correctionAdd("dBASE II", "dBase II");
+            correctionAdd("dbase2", "dBase II");
+            correctionAdd("dbase 2", "dBase II");
+            correctionAdd("dbase II", "dBase II");
+
+            correctionAdd("FL", "flight level");
+
+            correctionAdd("floating point number", "floating-point number");
+
+            correctionAdd("imuplse", "impulse");
+
+            correctionAdd("ready.mobi", "mobiReady");
+
+            correctionAdd("multi-line", "multiline");
+            correctionAdd("Multiline", "multiline");
+
+            correctionAdd("Private Sector", "private sector");
+
+            correctionAdd("single-line", "singleline");
+            correctionAdd("Single line", "singleline");
+            correctionAdd("single line", "singleline");
+
+            correctionAdd("TUC", "time of useful consciousness");
+            correctionAdd("Time of Useful Consciousness", "time of useful consciousness");
+
+            correctionAdd("under counted", "undercounted");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56144,6 +56224,54 @@ namespace OverflowHelper.core
 
             URL_Add("self-documenting", "https://en.wiktionary.org/wiki/self-documenting#Adjective");
 
+            URL_Add("Consolas", "https://en.wikipedia.org/wiki/Consolas");
+
+            URL_Add("DocBlock", "https://en.wikipedia.org/wiki/Docblock#PHP");
+
+            URL_Add("International Civil Aviation Organization", "https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization");
+
+            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
+
+            URL_Add("Stack Overflow for Teams", "https://meta.stackoverflow.com/tags/stack-overflow-for-teams/info");
+
+            URL_Add("bookkeeping", "https://en.wiktionary.org/wiki/bookkeeping#Noun");
+
+            URL_Add("cash flow", "https://en.wiktionary.org/wiki/cash_flow#Noun");
+
+            URL_Add("ctype_lower", "https://www.php.net/manual/en/function.ctype-lower.php");
+
+            URL_Add("dBase II", "https://en.wikipedia.org/wiki/DBase");
+
+            URL_Add("flight level", "https://en.wikipedia.org/wiki/Flight_level");
+
+            URL_Add("floating-point number", "https://en.wikipedia.org/wiki/Floating-point_arithmetic");
+
+            URL_Add("impulse", "https://en.wiktionary.org/wiki/impulse#Noun");
+
+            URL_Add("lcfirst", "https://www.php.net/manual/en/function.lcfirst.php");
+
+            URL_Add("mobiReady", "https://ready.mobi/");
+
+            URL_Add("multiline", "https://en.wiktionary.org/wiki/multiline#Adjective");
+
+            URL_Add("private sector", "https://en.wiktionary.org/wiki/private_sector#Noun");
+
+            URL_Add("singleline", "https://en.wiktionary.org/wiki/multiline#Adjective");
+
+            URL_Add("strtolower", "https://www.php.net/manual/en/function.strtolower.php");
+
+            URL_Add("strtoupper", "https://www.php.net/manual/en/function.strtoupper.php");
+
+            URL_Add("substr_compare", "https://www.php.net/manual/en/function.substr-compare.php");
+
+            URL_Add("time of useful consciousness", "https://en.wikipedia.org/wiki/Time_of_useful_consciousness");
+
+            URL_Add("ucfirst", "https://www.php.net/manual/en/function.ucfirst.php");
+
+            URL_Add("ucwords", "https://www.php.net/manual/en/function.ucwords.php");
+
+            URL_Add("undercounted", "https://en.wiktionary.org/wiki/undercount#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56465,6 +56593,9 @@ namespace OverflowHelper.core
 
             correctionAdd("TEE_", "tee_");
 
+            correctionAdd("SO_", "Stack&nbsp;Overflow_");
+            correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
+
             // URL mappings
             //
             //
@@ -56683,6 +56814,8 @@ namespace OverflowHelper.core
             URL_Add("principal investigator_", "https://en.wikipedia.org/wiki/Principal_investigator");
 
             URL_Add("tee_", "https://en.wikipedia.org/wiki/Tee_(command)");
+
+            URL_Add("Stack&nbsp;Overflow_", "https://stackoverflow.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
