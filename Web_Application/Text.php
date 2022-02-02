@@ -282,6 +282,33 @@
 
             } #convertToMarkdownCodefencing_none()
 
+            # Change case, like in Geany: If all letters are lowercase,
+            # change all letters to uppercase. Otherwise, change all
+            # letters to uppercase.
+            #
+            function toggleCase($aText)
+            {
+                $lowercaseText = strtolower($aText);
+
+                #For now (YAGNI): Also format for italics (Markdown) as this
+                #is the most common use case (converting from all uppercase
+                #to lowercase with formatting (Stack Exchange used as an
+                #ancient text-only forum without any formatting)). We
+                # can add more granularity later.
+                #
+                $toReturn = '*' . $lowercaseText  . '*'; # Default
+
+                if ($lowercaseText === $aText)
+                {
+                    $toReturn = strtoupper($aText);
+                }
+
+                #Stub
+                #return $aText . ' ZZZZZ';
+
+                return $toReturn;
+            } #toggleCase()
+
 
             # -------------------- End of main functions ---------------------
 
@@ -830,7 +857,7 @@
                 + 3 # The 3 trailing spaces
                 );
 
-            # More indent on the ***first*** line than 
+            # More indent on the ***first*** line than
             # some other line(s) - unbalanced input.
             #
             test_convert_to_Markdown_codefencing(1039,
@@ -994,6 +1021,17 @@
                     $fallThrough = 0;
                 }
 
+                if (isset($button['toggle_case']))
+                {
+                    $someText = toggleCase($someText);
+
+                    # Stub
+                    $message = "Toggle case!";
+
+                    $fallThrough = 0;
+                }
+
+
                 if ($fallThrough === 1)
                 {
                     assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
@@ -1090,10 +1128,10 @@
 
             <p><u>T</u>ext:</p>
 
-            <!--  type="text"  -->
-            <!--  id="Text"  -->
-            <!--  class="XYZ3"  -->
-            <!--  style="width:500px;"  -->
+            <!-- type="text" -->
+            <!-- id="Text" -->
+            <!-- class="XYZ3" -->
+            <!-- style="width:500px;" -->
             <textarea
                 name="someText"
                 cols="40"
@@ -1106,7 +1144,7 @@
             ?></textarea>
 
 
-            <!-- Remove TABs and trailing whitespace button  -->
+            <!-- Remove TABs and trailing whitespace button -->
             <input
                 name="someAction[remove_TABs_and_trailing_whitespace]"
                 type="Submit"
@@ -1118,7 +1156,7 @@
                 title="Shortcut: Shift + Alt + U"
             />
 
-            <!-- Format as keyboard button  -->
+            <!-- Format as keyboard button -->
             <input
                 name="someAction[format_as_keyboard]"
                 type="Submit"
@@ -1130,7 +1168,7 @@
                 title="Shortcut: Shift + Alt + B"
             />
 
-            <!-- Quote as code button  -->
+            <!-- Quote as code button -->
             <input
                 name="someAction[quote_as_code]"
                 type="Submit"
@@ -1142,7 +1180,7 @@
                 title="Shortcut: Shift + Alt + K"
             />
 
-            <!-- Real quotes button  -->
+            <!-- Real quotes button -->
             <input
                 name="someAction[real_quotes]"
                 type="Submit"
@@ -1154,7 +1192,7 @@
                 title="Shortcut: Shift + Alt + Q"
             />
 
-            <!-- Transform for YouTube comments button  -->
+            <!-- Transform for YouTube comments button -->
             <input
                 name="someAction[transform_for_YouTube_comments]"
                 type="Submit"
@@ -1166,7 +1204,7 @@
                 title="Shortcut: Shift + Alt + Y"
             />
 
-            <!-- Remove common leading space button  -->
+            <!-- Remove common leading space button -->
             <input
                 name="someAction[remove_common_leading_space]"
                 type="Submit"
@@ -1178,16 +1216,28 @@
                 title="Shortcut: Shift + Alt + L"
             />
 
-            <!-- Convert to Markdown code fencing button  -->
+            <!-- Convert to Markdown code fencing button -->
             <input
                 name="someAction[convert_to_Markdown_code_fencing]"
                 type="Submit"
                 id="LookUp31"
                 class="XYZ31"
                 value="Convert to Markdown code fencing"
-                style="width:275px;"
+                style="width:290px;"
                 accesskey="M"
                 title="Shortcut: Shift + Alt + M"
+            />
+
+            <!-- Toggle case (in the Geany sense -->
+            <input
+                name="someAction[toggle_case]"
+                type="Submit"
+                id="LookUp32"
+                class="XYZ32"
+                value="Toggle Case"
+                style="width:150px;"
+                accesskey="C"
+                title="Shortcut: Shift + Alt + C"
             />
 
         </form>
