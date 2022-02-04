@@ -16185,6 +16185,7 @@ namespace OverflowHelper.core
             correctionAdd("developping", "developing");
             correctionAdd("Develpoing", "developing");
             correctionAdd("develpoing", "developing");
+            correctionAdd("deving", "developing");
 
             correctionAdd("moducle", "module");
             correctionAdd("madule", "module");
@@ -18058,6 +18059,7 @@ namespace OverflowHelper.core
             correctionAdd("einvironment", "environment");
             correctionAdd("environemtent", "environment");
             correctionAdd("Enviorment", "environment");
+            correctionAdd("environemnt", "environment");
 
             // Consider:
             //   weaher
@@ -27933,6 +27935,7 @@ namespace OverflowHelper.core
             correctionAdd("Dot Source", "sourcing");
 
             correctionAdd("swiching", "switching");
+            correctionAdd("swithcing", "switching");
 
             correctionAdd("Technological Singularity", "technological singularity");
             correctionAdd("technical singularity", "technological singularity");
@@ -29102,6 +29105,7 @@ namespace OverflowHelper.core
             correctionAdd("Shlemiel", "Shlemiel the painter’s algorithm");
             correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
             correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Painter", "Shlemiel the painter’s algorithm");
 
             correctionAdd("factoral", "factorial");
             correctionAdd("Factorial", "factorial");
@@ -34350,6 +34354,7 @@ namespace OverflowHelper.core
             correctionAdd("ones", "one's");
 
             correctionAdd("Points of Presence", "point of presence");
+            correctionAdd("PoP", "point of presence");
 
             correctionAdd("Quality Management", "quality management");
 
@@ -35856,6 +35861,31 @@ namespace OverflowHelper.core
             correctionAdd("Shredder", "shredder");
 
             correctionAdd("un-installing", "uninstalling");
+
+            correctionAdd("android 12", "Android 12");
+            correctionAdd("Android S", "Android 12");
+            correctionAdd("Snow Cone", "Android 12");
+
+            correctionAdd("Mass-Transit", "MassTransit");
+
+            correctionAdd("nservicebus", "NServiceBus");
+
+            correctionAdd("AMS", "analog-mixed-signal");
+
+            correctionAdd("coloses", "closes");
+
+            correctionAdd("Crop", "crop");
+
+            correctionAdd("ESB", "enterprise service bus");
+
+            correctionAdd("OTA", "operational transconductance amplifier");
+
+            correctionAdd("parasistic", "parasitic");
+
+            correctionAdd("Reciprocation", "reciprocation");
+            correctionAdd("Reciprication", "reciprocation");
+
+            correctionAdd("soend", "spend");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56369,6 +56399,28 @@ namespace OverflowHelper.core
             URL_Add("shredder", "https://en.wiktionary.org/wiki/shredder#Noun");
 
             URL_Add("uninstalling", "https://en.wiktionary.org/wiki/uninstall#Verb");
+
+            URL_Add("Android 12", "https://en.wikipedia.org/wiki/Android_12");
+
+            URL_Add("MassTransit", "https://en.wikipedia.org/wiki/MassTransit-Project");
+
+            URL_Add("NServiceBus", "https://en.wikipedia.org/wiki/MassTransit-Project");
+
+            URL_Add("analog-mixed-signal", "https://en.wikipedia.org/wiki/Mixed-signal_integrated_circuit#Introduction");
+
+            URL_Add("closes", "https://en.wiktionary.org/wiki/close#Verb");
+
+            URL_Add("crop", "https://en.wikipedia.org/wiki/Cropping_(image)");
+
+            URL_Add("enterprise service bus", "https://en.wikipedia.org/wiki/Enterprise_service_bus");
+
+            URL_Add("operational transconductance amplifier", "https://en.wikipedia.org/wiki/Operational_transconductance_amplifier");
+
+            URL_Add("parasitic", "https://en.wiktionary.org/wiki/parasitic#Adjective");
+
+            URL_Add("reciprocation", "https://en.wiktionary.org/wiki/reciprocation#Noun");
+
+            URL_Add("spend", "https://en.wiktionary.org/wiki/spend#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
