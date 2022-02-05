@@ -9989,6 +9989,7 @@ namespace OverflowHelper.core
             correctionAdd("use full", "useful");
             correctionAdd("usedful", "useful");
             correctionAdd("usefsul", "useful");
+            correctionAdd("use for", "useful");
 
             correctionAdd("Memoization", "memoization");
 
@@ -12492,6 +12493,8 @@ namespace OverflowHelper.core
             correctionAdd("concatention", "concatenation");
             correctionAdd("concatanation", "concatenation");
             correctionAdd("concatination", "concatenation");
+            correctionAdd("concatentation", "concatenation");
+            correctionAdd("concatenatation", "concatenation");
 
             correctionAdd("dtor", "destructor");
             correctionAdd("destructur", "destructor");
@@ -14971,6 +14974,7 @@ namespace OverflowHelper.core
             correctionAdd("munu", "menu");
 
             correctionAdd("mising", "missing");
+            correctionAdd("missings", "missing");
 
             correctionAdd("premiss", "premise");
 
@@ -16083,6 +16087,7 @@ namespace OverflowHelper.core
             correctionAdd("Pakage", "package");
             correctionAdd("pakage", "package");
             correctionAdd("pacage", "package");
+            correctionAdd("pkg", "package");
 
             correctionAdd("Strace", "strace");
 
@@ -17469,6 +17474,7 @@ namespace OverflowHelper.core
             correctionAdd("NYT-", "The New York Times");
             correctionAdd("NYTimes", "The New York Times");
             correctionAdd("NY Times", "The New York Times");
+            correctionAdd("NYtimes", "The New York Times");
 
             correctionAdd("asociated", "associated");
             correctionAdd("Assiciated", "associated");
@@ -22263,6 +22269,7 @@ namespace OverflowHelper.core
             correctionAdd("strung", "string");
             correctionAdd("Sring", "string");
             correctionAdd("String", "string");
+            correctionAdd("sring", "string");
 
             correctionAdd("uncoment", "uncomment");
 
@@ -23367,6 +23374,7 @@ namespace OverflowHelper.core
             correctionAdd("cherry mx", "Cherry MX");
             correctionAdd("chery mx", "Cherry MX");
             correctionAdd("cherry", "Cherry MX");
+            correctionAdd("CHERRY MX", "Cherry MX");
 
             correctionAdd("cherry mx red", "Cherry MX Red");
             correctionAdd("Cherry Red", "Cherry MX Red");
@@ -26727,6 +26735,7 @@ namespace OverflowHelper.core
             correctionAdd("Citizen science", "citizen science");
 
             correctionAdd("co-founder", "cofounder");
+            correctionAdd("Co-Founder", "cofounder");
 
             correctionAdd("Comprehending", "comprehending");
 
@@ -26999,6 +27008,7 @@ namespace OverflowHelper.core
             correctionAdd("mantain", "maintain");
 
             correctionAdd("mataches", "matches");
+            correctionAdd("atches", "matches");
 
             correctionAdd("metall", "metal");
 
@@ -35886,6 +35896,28 @@ namespace OverflowHelper.core
             correctionAdd("Reciprication", "reciprocation");
 
             correctionAdd("soend", "spend");
+
+            correctionAdd("attiny10", "ATtiny10");
+            correctionAdd("ATTiny10", "ATtiny10");
+
+            correctionAdd("PlayBook", "BlackBerry PlayBook");
+
+            correctionAdd("c17", "C17");
+            correctionAdd("C18", "C17");
+
+            correctionAdd("CHERRY MX GREEN", "Cherry MX Green");
+
+            correctionAdd("twenty ten", "Twenty Ten");
+
+            correctionAdd("grand parent", "grandparent");
+
+            correctionAdd("in adavance", "in advance");
+
+            correctionAdd("Phone", "phone");
+
+            correctionAdd("scraping", "scrapping");
+
+            correctionAdd("$itty", "shitty");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56422,6 +56454,26 @@ namespace OverflowHelper.core
 
             URL_Add("spend", "https://en.wiktionary.org/wiki/spend#Verb");
 
+            URL_Add("ATtiny10", "https://www.microchip.com/en-us/product/ATtiny10");
+
+            URL_Add("BlackBerry PlayBook", "https://en.wikipedia.org/wiki/BlackBerry_PlayBook");
+
+            URL_Add("C17", "https://en.wikipedia.org/wiki/C17_(C_standard_revision)");
+
+            URL_Add("Cherry MX Green", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Twenty Ten", "https://wordpress.org/themes/twentyten/");
+
+            URL_Add("grandparent", "https://en.wiktionary.org/wiki/grandparent#Noun");
+
+            URL_Add("in advance", "https://en.wiktionary.org/wiki/in_advance#Prepositional_phrase");
+
+            URL_Add("phone", "https://en.wiktionary.org/wiki/phone#Noun");
+
+            URL_Add("scrapping", "https://en.wiktionary.org/wiki/scrap#Verb");
+
+            URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56753,6 +56805,10 @@ namespace OverflowHelper.core
             correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("independent contributor_", "individual contributor_");
+            correctionAdd("IC_", "individual contributor_");
+            correctionAdd("Individual Contributor_", "individual contributor_");
+
             // URL mappings
             //
             //
@@ -56979,6 +57035,8 @@ namespace OverflowHelper.core
             URL_Add("Ganymede_", "https://en.wikipedia.org/wiki/Ganymede_(moon)");
 
             URL_Add("Raspberry Pi (Stack Exchange site)_", "https://raspberrypi.stackexchange.com/tour");
+
+            URL_Add("individual contributor_", "https://www.indeed.com/career-advice/finding-a-job/what-is-an-individual-contributor");
 
         } //addLookupData_alternativeWordSet()
 
