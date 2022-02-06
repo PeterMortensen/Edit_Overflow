@@ -1166,6 +1166,9 @@ namespace OverflowHelper.core
             correctionAdd("tsql", "T-SQL");
             correctionAdd("T-sql", "T-SQL");
             correctionAdd("Transact-Sql", "T-SQL"); // Contraction
+            correctionAdd("Transact SQL", "T-SQL");
+            correctionAdd("transact-SQL", "T-SQL");
+            correctionAdd("transact SQL", "T-SQL");
 
             correctionAdd("pl/sql", "PL/SQL");
             correctionAdd("plsql", "PL/SQL");
@@ -11401,6 +11404,7 @@ namespace OverflowHelper.core
             correctionAdd("tensorflow", "TensorFlow");
             correctionAdd("Tensorflow", "TensorFlow");
             correctionAdd("tensorFlow", "TensorFlow");
+            correctionAdd("tensor-flow", "TensorFlow");
 
             correctionAdd("retrive", "retrieve");
             correctionAdd("retreive", "retrieve");
@@ -11471,6 +11475,7 @@ namespace OverflowHelper.core
             correctionAdd("thanx", "thanks");
             correctionAdd("Thans", "thanks");
             correctionAdd("Thanks", "thanks");
+            correctionAdd("THanks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -14472,6 +14477,7 @@ namespace OverflowHelper.core
             correctionAdd("remembr", "remember");
 
             correctionAdd("re-written", "rewritten");
+            correctionAdd("Re-written", "rewritten");
 
             correctionAdd("throughly", "thoroughly");
             correctionAdd("thorougly", "thoroughly");
@@ -14528,6 +14534,7 @@ namespace OverflowHelper.core
             correctionAdd("wnat", "want");
             correctionAdd("wanr", "want");
             correctionAdd("wan", "want");
+            correctionAdd("wante", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -27702,6 +27709,7 @@ namespace OverflowHelper.core
             correctionAdd("dessert", "desert");
 
             correctionAdd("dissapoint", "disappoint");
+            correctionAdd("disapoint", "disappoint");
 
             correctionAdd("dissapoints", "disappoints");
 
@@ -29153,6 +29161,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gif", "GIF");
             correctionAdd("Gif", "GIF");
+            correctionAdd("GI", "GIF");
 
             correctionAdd("EXIF", "Exif");
             correctionAdd("exif", "Exif");
@@ -35918,6 +35927,35 @@ namespace OverflowHelper.core
             correctionAdd("scraping", "scrapping");
 
             correctionAdd("$itty", "shitty");
+
+            correctionAdd("1080P", "1080p");
+
+            correctionAdd("lenovo yoga", "Lenovo Yoga");
+
+            correctionAdd("VS 2022", "Visual Studio 2022");
+
+            correctionAdd("crawler", "Web crawler");
+            correctionAdd("web spider", "Web crawler");
+            correctionAdd("Web spider", "Web crawler");
+            correctionAdd("spider", "Web crawler");
+
+            correctionAdd("consumer grade", "consumer-grade");
+
+            correctionAdd("exo moon", "exomoon");
+            correctionAdd("Exomoon", "exomoon");
+
+            correctionAdd("in memory", "in-memory");
+
+            correctionAdd("Partition", "partition");
+            correctionAdd("parttion", "partition");
+            correctionAdd("partion", "partition");
+
+            correctionAdd("ROP", "render output unit");
+
+            correctionAdd("Rocket Science", "rocket science");
+
+            correctionAdd("screenscraping", "screen-scraping");
+            correctionAdd("Screen-scraping", "screen-scraping");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56474,6 +56512,28 @@ namespace OverflowHelper.core
 
             URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
 
+            URL_Add("1080p", "https://en.wikipedia.org/wiki/1080p");
+
+            URL_Add("Lenovo Yoga", "https://en.wikipedia.org/wiki/Lenovo_Yoga");
+
+            URL_Add("Visual Studio 2022", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2022");
+
+            URL_Add("Web crawler", "https://en.wikipedia.org/wiki/Web_crawler");
+
+            URL_Add("consumer-grade", "https://www.usingenglish.com/forum/threads/consumer-grade.248258/");
+
+            URL_Add("exomoon", "https://en.wikipedia.org/wiki/Exomoon");
+
+            URL_Add("in-memory", "https://en.wiktionary.org/wiki/in-memory#Adjective");
+
+            URL_Add("partition", "https://en.wikipedia.org/wiki/Disk_partitioning");
+
+            URL_Add("render output unit", "https://en.wikipedia.org/wiki/Render_output_unit");
+
+            URL_Add("rocket science", "https://en.wiktionary.org/wiki/rocket_science#Noun");
+
+            URL_Add("screen-scraping", "https://en.wiktionary.org/wiki/screen-scrape#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56809,6 +56869,8 @@ namespace OverflowHelper.core
             correctionAdd("IC_", "individual contributor_");
             correctionAdd("Individual Contributor_", "individual contributor_");
 
+            correctionAdd("scrapping_", "scraping_");
+
             // URL mappings
             //
             //
@@ -57037,6 +57099,8 @@ namespace OverflowHelper.core
             URL_Add("Raspberry Pi (Stack Exchange site)_", "https://raspberrypi.stackexchange.com/tour");
 
             URL_Add("individual contributor_", "https://www.indeed.com/career-advice/finding-a-job/what-is-an-individual-contributor");
+
+            URL_Add("scraping_", "https://en.wiktionary.org/wiki/scrape#Verb");
 
         } //addLookupData_alternativeWordSet()
 
