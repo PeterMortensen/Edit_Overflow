@@ -2093,9 +2093,6 @@ namespace OverflowHelper.core
             correctionAdd("fire bug", "Firebug");
             correctionAdd("fireBug", "Firebug");
 
-            correctionAdd("drupal", "Drupal");
-            correctionAdd("DRUPAL", "Drupal");
-
             correctionAdd("pyqt", "PyQt");
             correctionAdd("pyQt", "PyQt");
 
@@ -2172,10 +2169,6 @@ namespace OverflowHelper.core
             correctionAdd("EMACs", "Emacs");
             correctionAdd("Emac", "Emacs");
 
-            correctionAdd("biopython", "Biopython");
-
-            correctionAdd("Python boost", "Boost.Python");
-
             correctionAdd("python", "Python");
             correctionAdd("PYTHON", "Python");
             correctionAdd("Pyton", "Python"); // Misspelling.
@@ -2190,6 +2183,7 @@ namespace OverflowHelper.core
             correctionAdd("Pythen", "Python");
             correctionAdd("Phyton", "Python");
             correctionAdd("pyton", "Python");
+            correctionAdd("Зython", "Python");
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -2199,6 +2193,10 @@ namespace OverflowHelper.core
             correctionAdd("iPython-notebook", "IPython Notebook");
             correctionAdd("Ipython Notebook", "IPython Notebook");
             correctionAdd("python notebook", "IPython Notebook");
+
+            correctionAdd("biopython", "Biopython");
+
+            correctionAdd("Python boost", "Boost.Python");
 
             correctionAdd("jupyter", "Jupyter");
             correctionAdd("Jypiter", "Jupyter");
@@ -4625,6 +4623,7 @@ namespace OverflowHelper.core
             correctionAdd("certitificate", "certificate");
             correctionAdd("cerificate", "certificate");
             correctionAdd("Certificate", "certificate");
+            correctionAdd("certficate", "certificate");
 
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
@@ -5017,6 +5016,26 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
+
+            correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("mse", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("MetaSE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta-SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Stack-exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Stack exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta Stack Exchange", "Meta&nbsp;Stack&nbsp;Exchange"); // Effectively self.
+            correctionAdd("meta.stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stock exchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("META StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta.StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta Stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
 
             correctionAdd("rhino", "Rhino");
 
@@ -9109,26 +9128,6 @@ namespace OverflowHelper.core
             correctionAdd("capcitor", "capacitor");
             correctionAdd("Capacitor", "capacitor");
 
-            correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("mse", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("MetaSE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta-SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Stack-exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Stack exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta Stack Exchange", "Meta&nbsp;Stack&nbsp;Exchange"); // Effectively self.
-            correctionAdd("meta.stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stock exchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("META StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta.StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta Stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
-
             correctionAdd("ppl", "people");
             correctionAdd("peole", "people");
             correctionAdd("poeple", "people");
@@ -9193,6 +9192,7 @@ namespace OverflowHelper.core
             correctionAdd("Lambda expression", "lambda expression");
             correctionAdd("lamda expression", "lambda expression");
             correctionAdd("lambda", "lambda expression");
+            correctionAdd("lamda", "lambda expression");
 
             correctionAdd("django", "Django");
             correctionAdd("DJANGO", "Django");
@@ -11626,6 +11626,7 @@ namespace OverflowHelper.core
             correctionAdd("Actualy", "actually");
             correctionAdd("acually", "actually");
             correctionAdd("akshually", "actually");
+            correctionAdd("actuall", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -19369,6 +19370,7 @@ namespace OverflowHelper.core
             correctionAdd("ligth", "light");
             correctionAdd("ligt", "light");
             correctionAdd("lignt", "light");
+            correctionAdd("ligh", "light");
 
             correctionAdd("Umlaut", "umlaut");
 
@@ -20107,6 +20109,7 @@ namespace OverflowHelper.core
             correctionAdd("norway", "Norway");
 
             correctionAdd("faulse", "false");
+            correctionAdd("fasle", "false");
 
             correctionAdd("hypocritial", "hypocritical");
 
@@ -20388,6 +20391,7 @@ namespace OverflowHelper.core
             correctionAdd("Ternary oprator", "ternary operator");
             correctionAdd("Ternary operator", "ternary operator");
             correctionAdd("tertiary operator", "ternary operator");
+            correctionAdd("ternary conditional operator", "ternary operator");
 
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
@@ -20761,8 +20765,6 @@ namespace OverflowHelper.core
 
             correctionAdd("apt", "APT");
             correctionAdd("apt-get", "APT");
-
-            correctionAdd("Android Enthusiast", "Android Enthusiasts");
 
             correctionAdd("DCMA", "DMCA");
 
@@ -21970,29 +21972,9 @@ namespace OverflowHelper.core
             correctionAdd("defat", "defeat");
             correctionAdd("defet", "defeat");
 
-            correctionAdd("network engineering", "Network Engineering");
-
-            correctionAdd("Mechanical engineering", "mechanical engineering");
-
-            correctionAdd("Aeronautical Engineering", "aeronautical engineering");
-
-            correctionAdd("Chemical Engineering", "chemical engineering");
-
-            correctionAdd("Computer Engineering", "computer engineering");
-
-            correctionAdd("Electrical Engineering", "electrical engineering");
-
-            correctionAdd("Engineering", "engineering");
-            correctionAdd("engeniring", "engineering");
-            correctionAdd("engeneering", "engineering");
-            correctionAdd("enginerring", "engineering");
-
             correctionAdd("profit-sharing", "profit sharing");
 
             correctionAdd("scenarions", "scenarios");
-
-            correctionAdd("Software Engineering", "software engineering");
-            correctionAdd("softwareengineering", "software engineering");
 
             correctionAdd("tradeoff", "trade-off");
             correctionAdd("trade off", "trade-off");
@@ -22076,6 +22058,7 @@ namespace OverflowHelper.core
             correctionAdd("nullptr", "null pointer");
 
             correctionAdd("perhapse", "perhaps");
+            correctionAdd("pheraps", "perhaps");
 
             correctionAdd("quenstinel", "quintessential");
 
@@ -25263,6 +25246,7 @@ namespace OverflowHelper.core
 
             correctionAdd("intepreter", "interpreter");
             correctionAdd("interpretter", "interpreter");
+            correctionAdd("interp", "interpreter");
 
             correctionAdd("memrise", "memorise");
 
@@ -25846,6 +25830,7 @@ namespace OverflowHelper.core
             correctionAdd("Preferrably", "preferably");
             correctionAdd("preferrably", "preferably");
             correctionAdd("Preferably", "preferably");
+            correctionAdd("preferredly", "preferably");
 
             correctionAdd("self evident", "self-evident");
 
@@ -29110,8 +29095,6 @@ namespace OverflowHelper.core
             correctionAdd("waisting", "wasting");
             correctionAdd("waising", "wasting");
 
-            correctionAdd("hardware recommendations", "Hardware Recommendations");
-
             correctionAdd("the painter", "Shlemiel the painter’s algorithm");
             correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
             correctionAdd("Shlemiel the painter's algorithm", "Shlemiel the painter’s algorithm");
@@ -29190,6 +29173,7 @@ namespace OverflowHelper.core
             correctionAdd("electromagnatic", "electromagnetic");
             correctionAdd("Electro-Magnetic", "electromagnetic");
             correctionAdd("EM", "electromagnetic");
+            correctionAdd("e-m", "electromagnetic");
 
             correctionAdd("establishe", "establish");
 
@@ -29547,8 +29531,6 @@ namespace OverflowHelper.core
             correctionAdd("Yahoo!Answers", "Yahoo Answers");
             correctionAdd("yahoo!Answers", "Yahoo Answers");
             correctionAdd("yahoo! Answers", "Yahoo Answers");
-
-            correctionAdd("drupal answers", "Drupal Answers");
 
             correctionAdd("answeres", "answers");
             correctionAdd("aswers", "answers");
@@ -33767,6 +33749,7 @@ namespace OverflowHelper.core
             correctionAdd("poytning theorem", "Poynting's theorem");
             correctionAdd("Poynting theorem", "Poynting's theorem");
             correctionAdd("Poytning theorem", "Poynting's theorem");
+            correctionAdd("Poynting law", "Poynting's theorem");
 
             correctionAdd("richter scale", "Richter scale");
             correctionAdd("Richter magnitude scale", "Richter scale");
@@ -35957,6 +35940,66 @@ namespace OverflowHelper.core
             correctionAdd("screenscraping", "screen-scraping");
             correctionAdd("Screen-scraping", "screen-scraping");
 
+            correctionAdd("rfc2606", "RFC&nbsp;2606");
+            correctionAdd("RFC 2606", "RFC&nbsp;2606");
+
+            correctionAdd("dabler", "dabbler");
+
+            correctionAdd("Division", "division");
+
+            correctionAdd("hundreth", "hundredth");
+
+            correctionAdd("Lazy Evaluation", "lazy evaluation");
+
+            correctionAdd("multi-byte", "multibyte");
+
+            correctionAdd("priortise", "prioritise");
+
+            correctionAdd("short cirquit", "short circuit");
+            correctionAdd("Short-cirquit", "short circuit");
+            correctionAdd("short-cirquit", "short circuit");
+
+            correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
+
+            correctionAdd("winded up", "wound up");
+
+            correctionAdd("Engineering", "engineering");
+            correctionAdd("engeniring", "engineering");
+            correctionAdd("engeneering", "engineering");
+            correctionAdd("enginerring", "engineering");
+
+            correctionAdd("Mechanical engineering", "mechanical engineering");
+
+            correctionAdd("Aeronautical Engineering", "aeronautical engineering");
+
+            correctionAdd("Chemical Engineering", "chemical engineering");
+
+            correctionAdd("Computer Engineering", "computer engineering");
+
+            correctionAdd("Electrical Engineering", "electrical engineering");
+
+            correctionAdd("Software Engineering", "software engineering");
+            correctionAdd("softwareengineering", "software engineering");
+
+            correctionAdd("drupal", "Drupal");
+            correctionAdd("DRUPAL", "Drupal");
+
+            correctionAdd("drupal answers", "Drupal Answers (Stack Exchange site)");
+            correctionAdd("Drupal Answers", "Drupal Answers (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("hardware recommendations", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("hardware recs", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("Hardware Recommendations", "Hardware Recommendations (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Android Enthusiast", "Android Enthusiasts (Stack Exchange site)");
+            correctionAdd("Android Enthusiasts", "Android Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("network engineering", "Network Engineering (Stack Exchange site)");
+            correctionAdd("Network Engineering", "Network Engineering (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Psychology", "Psychology & Neuroscience (Stack Exchange site)");
+            correctionAdd("Psychology & Neuroscience", "Psychology & Neuroscience (Stack Exchange site)"); // Sort of identity mapping
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -36480,6 +36523,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Omicron", "Omicron variant"); // Coronavirus
             correctionAdd("omicron", "Omicron variant"); // Coronavirus
+
+            correctionAdd("Walrus operator", "walrus operator");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -45308,7 +45353,7 @@ namespace OverflowHelper.core
 
             URL_Add("APT", "https://en.wikipedia.org/wiki/APT_(software)");
 
-            URL_Add("Android Enthusiasts", "https://android.stackexchange.com/tour");
+            URL_Add("Android Enthusiasts (Stack Exchange site)", "https://android.stackexchange.com/tour");
 
             URL_Add("DMCA", "https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act");
 
@@ -45664,7 +45709,7 @@ namespace OverflowHelper.core
 
             URL_Add("ESL", "https://en.wiktionary.org/wiki/ESL#Noun");
 
-            URL_Add("Network Engineering", "https://networkengineering.stackexchange.com/tour");
+            URL_Add("Network Engineering (Stack Exchange site)", "https://networkengineering.stackexchange.com/tour");
 
             URL_Add("deprecation", "https://en.wiktionary.org/wiki/deprecation#Noun");
 
@@ -46110,7 +46155,7 @@ namespace OverflowHelper.core
 
             URL_Add("Database Administrators (Stack Exchange site)", "https://dba.stackexchange.com/tour");
 
-            URL_Add("Drupal Answers", "https://drupal.stackexchange.com/tour");
+            URL_Add("Drupal Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
 
             URL_Add("Embarcadero", "https://en.wikipedia.org/wiki/Embarcadero_Technologies");
 
@@ -51330,8 +51375,6 @@ namespace OverflowHelper.core
 
             URL_Add("wasting", "https://en.wiktionary.org/wiki/waste#Verb");
 
-            URL_Add("Hardware Recommendations", "https://hardwarerecs.stackexchange.com/tour");
-
             URL_Add("Shlemiel the painter’s algorithm", "https://www.joelonsoftware.com/2001/12/11/back-to-basics/"); // Old: https://en.wikipedia.org/wiki/Joel_Spolsky#Schlemiel_the_Painter's_algorithm
 
             URL_Add("factorial", "https://en.wikipedia.org/wiki/Factorial");
@@ -56534,6 +56577,32 @@ namespace OverflowHelper.core
 
             URL_Add("screen-scraping", "https://en.wiktionary.org/wiki/screen-scrape#Verb");
 
+            URL_Add("RFC&nbsp;2606", "https://en.wikipedia.org/wiki/.example#Reserved_DNS_names");
+
+            URL_Add("dabbler", "https://en.wiktionary.org/wiki/dabbler#Noun");
+
+            URL_Add("division", "https://en.wiktionary.org/wiki/division#Noun");
+
+            URL_Add("hundredth", "https://en.wiktionary.org/wiki/hundredth#Adjective");
+
+            URL_Add("lazy evaluation", "https://en.wikipedia.org/wiki/Lazy_evaluation");
+
+            URL_Add("multibyte", "https://en.wiktionary.org/wiki/multibyte#Adjective");
+
+            URL_Add("prioritise", "https://en.wiktionary.org/wiki/prioritise#Verb");
+
+            URL_Add("short circuit", "https://en.wiktionary.org/wiki/short_circuit#Noun");
+
+            URL_Add("short-circuit evaluation", "https://en.wikipedia.org/wiki/Short-circuit_evaluation");
+
+            URL_Add("wound up", "https://en.wiktionary.org/wiki/wind_up#Verb");
+
+            URL_Add("Hardware Recommendations (Stack Exchange site)", "https://hardwarerecs.stackexchange.com/tour");
+
+            URL_Add("Psychology & Neuroscience (Stack Exchange site)", "https://psychology.stackexchange.com/tour");
+
+            URL_Add("walrus operator", "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56828,9 +56897,6 @@ namespace OverflowHelper.core
 
             correctionAdd("OMG_", "Object Management Group_");
 
-            correctionAdd("software engineering_", "Software Engineering_");
-            correctionAdd("Programmers_", "Software Engineering_");
-
             correctionAdd("More_", "more_");
 
             correctionAdd("RO_", "room owner_");
@@ -56858,8 +56924,6 @@ namespace OverflowHelper.core
             correctionAdd("SO_", "Stack&nbsp;Overflow_");
             correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
 
-            correctionAdd("biology_", "Biology_");
-
             correctionAdd("ganymede_", "Ganymede_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
@@ -56870,6 +56934,17 @@ namespace OverflowHelper.core
             correctionAdd("Individual Contributor_", "individual contributor_");
 
             correctionAdd("scrapping_", "scraping_");
+
+            correctionAdd("unsed_", "unused_");
+
+            correctionAdd("split()_", "split_");
+
+            correctionAdd("biology_", "Biology (Stack Exchange site)_");
+            correctionAdd("Biology_", "Biology (Stack Exchange site)_");
+
+            correctionAdd("software engineering_", "Software Engineering (Stack Exchange site)_");
+            correctionAdd("Programmers_", "Software Engineering (Stack Exchange site)_");
+            correctionAdd("Software Engineering_", "Software Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
             // URL mappings
             //
@@ -57068,8 +57143,6 @@ namespace OverflowHelper.core
 
             URL_Add("Object Management Group_", "https://en.wikipedia.org/wiki/Object_Management_Group");
 
-            URL_Add("Software Engineering_", "https://softwareengineering.stackexchange.com/tour");
-
             URL_Add("more_", "https://en.wiktionary.org/wiki/more#Determiner");
 
             URL_Add("room owner_", "https://meta.stackexchange.com/questions/271267/a-guide-to-moderating-chat/271269#271269");
@@ -57092,8 +57165,6 @@ namespace OverflowHelper.core
 
             URL_Add("Stack&nbsp;Overflow_", "https://stackoverflow.com/tour");
 
-            URL_Add("Biology_", "https://biology.stackexchange.com/tour");
-
             URL_Add("Ganymede_", "https://en.wikipedia.org/wiki/Ganymede_(moon)");
 
             URL_Add("Raspberry Pi (Stack Exchange site)_", "https://raspberrypi.stackexchange.com/tour");
@@ -57101,6 +57172,14 @@ namespace OverflowHelper.core
             URL_Add("individual contributor_", "https://www.indeed.com/career-advice/finding-a-job/what-is-an-individual-contributor");
 
             URL_Add("scraping_", "https://en.wiktionary.org/wiki/scrape#Verb");
+
+            URL_Add("unused_", "https://en.wiktionary.org/wiki/unused#Adjective");
+
+            URL_Add("split_", "https://perldoc.perl.org/perlfunc#split-%2FPATTERN%2F%2CEXPR%2CLIMIT");
+
+            URL_Add("Biology (Stack Exchange site)_", "https://biology.stackexchange.com/tour");
+
+            URL_Add("Software Engineering (Stack Exchange site)_", "https://softwareengineering.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
