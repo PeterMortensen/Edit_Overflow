@@ -15541,6 +15541,7 @@ namespace OverflowHelper.core
             correctionAdd("Problem", "problem");
             correctionAdd("probleme", "problem");
             correctionAdd("prolem", "problem");
+            correctionAdd("Proplem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -36102,6 +36103,15 @@ namespace OverflowHelper.core
             correctionAdd("Vet", "veterinarian");
 
             correctionAdd("volonteer", "volunteer");
+
+            correctionAdd("OVP", "overvoltage protection");
+
+            correctionAdd("particpation", "participation");
+
+            correctionAdd("POGO", "pogo");
+
+            correctionAdd("Traducir", "traducir.win");
+            correctionAdd("traducir", "traducir.win");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56777,6 +56787,14 @@ namespace OverflowHelper.core
             URL_Add("veterinarian", "https://en.wiktionary.org/wiki/veterinarian#Noun");
 
             URL_Add("volunteer", "https://en.wiktionary.org/wiki/volunteer#Noun");
+
+            URL_Add("overvoltage protection", "https://en.wikipedia.org/wiki/Overvoltage#Overvoltage_protection_devices");
+
+            URL_Add("participation", "https://en.wiktionary.org/wiki/participation#Noun");
+
+            URL_Add("pogo", "https://en.wikipedia.org/wiki/Pogo_pin");
+
+            URL_Add("traducir.win", "https://github.com/g3rv4/Traducir");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
