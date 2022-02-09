@@ -1740,6 +1740,7 @@ namespace OverflowHelper.core
             correctionAdd("Monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("MacOS Monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("MacOS 12", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macos monterey", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -3537,6 +3538,7 @@ namespace OverflowHelper.core
             correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
             correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
             correctionAdd("Stack Overflów", "Stack&nbsp;Overflow");
+            correctionAdd("SoF", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -3588,6 +3590,9 @@ namespace OverflowHelper.core
             correctionAdd("Stack excange", "Stack&nbsp;Exchange");
             correctionAdd("Stack-Exchange", "Stack&nbsp;Exchange");
             correctionAdd("Stack Exchage", "Stack&nbsp;Exchange");
+            correctionAdd("Someplace Else", "Stack&nbsp;Exchange");
+            correctionAdd("someplace else", "Stack&nbsp;Exchange");
+            correctionAdd("Elsewhere", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -5234,6 +5239,7 @@ namespace OverflowHelper.core
             correctionAdd("Mod", "moderator");
             correctionAdd("modarator", "moderator");
             correctionAdd("moderater", "moderator");
+            correctionAdd("Moderator", "moderator");
 
             correctionAdd("cdn", "CDN");
             correctionAdd("content delivery network", "CDN");
@@ -6307,6 +6313,8 @@ namespace OverflowHelper.core
             correctionAdd("the hyphen site", "Experts-Exchange");
             correctionAdd("Expert Sexchange", "Experts-Exchange");
             correctionAdd("Expertsexchange", "Experts-Exchange");
+            correctionAdd("ExpertsExchange", "Experts-Exchange");
+            correctionAdd("Experts&nbsp;Exchange", "Experts-Exchange");
 
             correctionAdd("asus", "Asus");
             correctionAdd("ASUS", "Asus");
@@ -6750,6 +6758,8 @@ namespace OverflowHelper.core
             correctionAdd("TDNN", "time delay neural network");
 
             correctionAdd("DRF", "Django REST Framework");
+            correctionAdd("Django-Rest-Framework", "Django REST Framework");
+            correctionAdd("Django REST framework", "Django REST Framework");
 
             correctionAdd("hand work", "handwork");
 
@@ -14184,6 +14194,7 @@ namespace OverflowHelper.core
 
             correctionAdd("manuver", "maneuver");
             correctionAdd("manuever", "maneuver");
+            correctionAdd("manouver", "maneuver");
 
             correctionAdd("mind set", "mindset");
 
@@ -15050,6 +15061,7 @@ namespace OverflowHelper.core
             correctionAdd("muliple", "multiple");
             correctionAdd("multple", "multiple");
             correctionAdd("multible", "multiple");
+            correctionAdd("mulitple", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -15929,6 +15941,7 @@ namespace OverflowHelper.core
 
             correctionAdd("compay", "company");
             correctionAdd("Company", "company");
+            correctionAdd("compony", "company");
 
             correctionAdd("sny", "any");
             correctionAdd("anny", "any");
@@ -17883,6 +17896,7 @@ namespace OverflowHelper.core
             correctionAdd("clique", "click");
             correctionAdd("clic", "click");
             correctionAdd("lick", "click");
+            correctionAdd("clicl", "click");
 
             correctionAdd("extremelly", "extremely");
             correctionAdd("extrimely", "extremely");
@@ -19265,6 +19279,7 @@ namespace OverflowHelper.core
             correctionAdd("Indieweb", "IndieWeb");
             correctionAdd("indie web", "IndieWeb");
             correctionAdd("Indie Web", "IndieWeb");
+            correctionAdd("indieweb", "IndieWeb");
 
             correctionAdd("circutry", "circuitry");
 
@@ -22644,6 +22659,7 @@ namespace OverflowHelper.core
             correctionAdd("tou", "you");
             correctionAdd("Yu", "you");
             correctionAdd("xou", "you");
+            correctionAdd("YOu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -26631,6 +26647,7 @@ namespace OverflowHelper.core
             correctionAdd("stastisticaly", "statistically");
             correctionAdd("Stastisticly", "statistically");
             correctionAdd("stastisticly", "statistically");
+            correctionAdd("statisically", "statistically");
 
             correctionAdd("wittness", "witness");
             correctionAdd("Wittness", "witness");
@@ -27423,6 +27440,7 @@ namespace OverflowHelper.core
             correctionAdd("fine tuned", "fine-tuned");
 
             correctionAdd("forumn", "forum");
+            correctionAdd("fourm", "forum");
 
             correctionAdd("governkng", "governing");
 
@@ -28903,6 +28921,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cab", "can");
             correctionAdd("cann", "can");
+            correctionAdd("Can", "can");
 
             correctionAdd("quiker", "quicker");
 
@@ -31875,6 +31894,7 @@ namespace OverflowHelper.core
             correctionAdd("wsgi", "WSGI");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
+            correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
 
             correctionAdd("WAF", "web application firewall");
 
@@ -32161,6 +32181,7 @@ namespace OverflowHelper.core
             correctionAdd("SLA", "service-level agreement");
 
             correctionAdd("SSO", "single sign-on");
+            correctionAdd("Single-Sign-On", "single sign-on");
 
             correctionAdd("three-letter abbreviation", "three-letter acronym");
             correctionAdd("TLA", "three-letter acronym");
@@ -34020,6 +34041,7 @@ namespace OverflowHelper.core
             correctionAdd("Suming", "summing");
 
             correctionAdd("survival bias", "survivorship bias");
+            correctionAdd("survivership bias", "survivorship bias");
 
             correctionAdd("valient", "valiant");
 
@@ -34354,6 +34376,7 @@ namespace OverflowHelper.core
             correctionAdd("vertica", "Vertica");
 
             correctionAdd("ones", "one's");
+            correctionAdd("One's", "one's");
 
             correctionAdd("Points of Presence", "point of presence");
             correctionAdd("PoP", "point of presence");
@@ -35257,6 +35280,8 @@ namespace OverflowHelper.core
             correctionAdd("1st Century BC", "1st century BC");
 
             correctionAdd("Caesar", "Julius Caesar");
+            correctionAdd("Cesar", "Julius Caesar");
+            correctionAdd("César", "Julius Caesar");
 
             correctionAdd("rome", "Rome");
 
@@ -36000,6 +36025,84 @@ namespace OverflowHelper.core
             correctionAdd("Psychology", "Psychology & Neuroscience (Stack Exchange site)");
             correctionAdd("Psychology & Neuroscience", "Psychology & Neuroscience (Stack Exchange site)"); // Sort of identity mapping
 
+            correctionAdd("Ask Jeeves", "Ask.com");
+
+            correctionAdd("bluefish", "Bluefish");
+
+            correctionAdd("Dice.com", "Dice");
+
+            correctionAdd("Orwell", "George Orwell");
+            correctionAdd("1984", "George Orwell");
+
+            correctionAdd("goldman sachs", "Goldman Sachs");
+
+            correctionAdd("JUnit Jpiter", "JUnit Jupiter");
+
+            correctionAdd("Webster", "Noah Webster");
+
+            correctionAdd("republican party", "Republican Party");
+            correctionAdd("the elephant party", "Republican Party");
+            correctionAdd("GOP", "Republican Party");
+
+            correctionAdd("scottish", "Scottish");
+            correctionAdd("scotish", "Scottish");
+            correctionAdd("Scotish", "Scottish");
+
+            correctionAdd("the Congress", "United States Congress");
+
+            correctionAdd("Zip Recruiter", "ZipRecruiter");
+
+            correctionAdd("adult baby", "adult child");
+            correctionAdd("kids in adult bodies", "adult child");
+
+            correctionAdd("chrono", "chronological");
+
+            correctionAdd("community driven", "community-driven");
+
+            correctionAdd("deffective", "defective");
+
+            correctionAdd("ever-green", "evergreen");
+
+            correctionAdd("forver", "forever");
+
+            correctionAdd("hosp", "hospitalisation");
+
+            correctionAdd("un", "in");
+
+            correctionAdd("on my eye", "in my eye");
+
+            correctionAdd("in making", "in the making");
+
+            correctionAdd("Job", "job");
+
+            correctionAdd("JobPost", "job posting");
+
+            correctionAdd("Liberal democracy", "liberal democracy");
+
+            correctionAdd("re-elect", "reelect");
+
+            correctionAdd("resume", "résumé");
+            correctionAdd("Resume", "résumé");
+
+            correctionAdd("SRGB", "sRGB");
+
+            correctionAdd("Services", "services");
+
+            correctionAdd("String together", "string together");
+
+            correctionAdd("sun setting", "sunsetting");
+
+            correctionAdd("atke", "take");
+
+            correctionAdd("two party system", "two-party system");
+
+            correctionAdd("unsurprizingly", "unsurprisingly");
+
+            correctionAdd("vet", "veterinarian");
+            correctionAdd("Vet", "veterinarian");
+
+            correctionAdd("volonteer", "volunteer");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -36026,6 +36129,8 @@ namespace OverflowHelper.core
             correctionAdd("deciese", "disease"); // Coronavirus
             correctionAdd("decese", "disease"); // Coronavirus
             correctionAdd("decease", "disease"); // Coronavirus
+            correctionAdd("dieasease", "disease"); // Coronavirus
+            correctionAdd("diasease", "disease"); // Coronavirus
 
             correctionAdd("epedemic", "epidemic"); // Coronavirus
 
@@ -56603,6 +56708,76 @@ namespace OverflowHelper.core
 
             URL_Add("walrus operator", "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions");
 
+            URL_Add("Ask.com", "https://en.wikipedia.org/wiki/Ask.com");
+
+            URL_Add("Bluefish", "https://en.wikipedia.org/wiki/Bluefish_(software)");
+
+            URL_Add("Dice", "https://en.wikipedia.org/wiki/Dice.com");
+
+            URL_Add("George Orwell", "https://en.wikipedia.org/wiki/George_Orwell");
+
+            URL_Add("Goldman Sachs", "https://en.wikipedia.org/wiki/Goldman_Sachs");
+
+            URL_Add("JUnit Jupiter", "https://junit.org/junit5/docs/current/user-guide/");
+
+            URL_Add("Noah Webster", "https://en.wikipedia.org/wiki/Noah_Webster");
+
+            URL_Add("Republican Party", "https://en.wikipedia.org/wiki/Republican_Party_(United_States)");
+
+            URL_Add("Scottish", "https://en.wiktionary.org/wiki/Scottish#Adjective");
+
+            URL_Add("United States Congress", "https://en.wikipedia.org/wiki/United_States_Congress");
+
+            URL_Add("ZipRecruiter", "https://en.wikipedia.org/wiki/ZipRecruiter");
+
+            URL_Add("adult child", "https://www.lexico.com/definition/adult_child");
+
+            URL_Add("chronological", "https://en.wiktionary.org/wiki/chronological#Adjective");
+
+            URL_Add("community-driven", "https://en.wikipedia.org/wiki/Community-driven_development");
+
+            URL_Add("defective", "https://en.wiktionary.org/wiki/defective#Adjective");
+
+            URL_Add("evergreen", "https://en.wiktionary.org/wiki/evergreen#Adjective");
+
+            URL_Add("forever", "https://en.wiktionary.org/wiki/forever#Adverb");
+
+            URL_Add("hospitalisation", "https://en.wiktionary.org/wiki/hospitalisation#Noun");
+
+            URL_Add("in", "https://en.wiktionary.org/wiki/in#Preposition");
+
+            URL_Add("in my eye", "https://idioms.thefreedictionary.com/in+my+eye");
+
+            URL_Add("in the making", "https://en.wiktionary.org/wiki/in_the_making#Prepositional_phrase");
+
+            URL_Add("job", "https://en.wiktionary.org/wiki/job#Noun");
+
+            URL_Add("job posting", "https://www.wikihow.com/Share-a-Job-Posting-on-LinkedIn");
+
+            URL_Add("liberal democracy", "https://en.wikipedia.org/wiki/Liberal_democracy");
+
+            URL_Add("reelect", "https://en.wiktionary.org/wiki/reelect#Verb");
+
+            URL_Add("résumé", "https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9");
+
+            URL_Add("sRGB", "https://en.wikipedia.org/wiki/SRGB");
+
+            URL_Add("services", "https://en.wiktionary.org/wiki/services#Noun");
+
+            URL_Add("string together", "https://en.wiktionary.org/wiki/string_together#Verb");
+
+            URL_Add("sunsetting", "https://en.wiktionary.org/wiki/sunset#Verb");
+
+            URL_Add("take", "https://en.wiktionary.org/wiki/take#Verb");
+
+            URL_Add("two-party system", "https://en.wikipedia.org/wiki/Two-party_system");
+
+            URL_Add("unsurprisingly", "https://en.wiktionary.org/wiki/unsurprisingly#Adverb");
+
+            URL_Add("veterinarian", "https://en.wiktionary.org/wiki/veterinarian#Noun");
+
+            URL_Add("volunteer", "https://en.wiktionary.org/wiki/volunteer#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -56946,6 +57121,8 @@ namespace OverflowHelper.core
             correctionAdd("Programmers_", "Software Engineering (Stack Exchange site)_");
             correctionAdd("Software Engineering_", "Software Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("understand_", "understanding_");
+
             // URL mappings
             //
             //
@@ -57180,6 +57357,8 @@ namespace OverflowHelper.core
             URL_Add("Biology (Stack Exchange site)_", "https://biology.stackexchange.com/tour");
 
             URL_Add("Software Engineering (Stack Exchange site)_", "https://softwareengineering.stackexchange.com/tour");
+
+            URL_Add("understanding_", "https://en.wiktionary.org/wiki/understanding#Noun");
 
         } //addLookupData_alternativeWordSet()
 
