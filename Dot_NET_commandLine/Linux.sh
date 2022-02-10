@@ -51,7 +51,7 @@
 #     resulting executable to generate the SQL for the word            #
 #     input file (for import into web hosting based on MySQL           #
 #     and PHP). That was at the end of 2019 (September), but           #
-#     the first publix commit was not before 2020-02-06.               #
+#     the first public commit was not before 2020-02-06.               #
 #                                                                      #
 #     But it has developed into a full-blown build script to           #
 #     e.g. run unit tests and automatically deploy to a web            #
@@ -99,61 +99,62 @@
 #
 #  TOC:
 #
-#
 #     1. Internal check of the web interface regression tests
 #     2. Copying files to the build folder, etc.
 #
-#     3. Keyboard shortcut consistency check: Edit Overflow lookup
-#     4. Keyboard shortcut consistency check: text stuff
-#     5. Keyboard shortcut consistency check: fixed string
-#     6. Keyboard shortcut consistency check: edit summary
-#     7. Keyboard shortcut consistency check: canned comments
-#     8. Keyboard shortcut consistency check: link builder
+#     3. Source code spellcheck
 #
-#     9. PHP code test: main lookup - EditOverflow.php
-#    10. PHP code test: self test, unit tests - Text.php
-#    11. PHP code test: text transformation - 'Real quotes' - Text.php
-#    12. PHP code test: fixed strings - FixedStrings.php
-#    13. PHP code test: edit summary fragments - EditSummaryFragments.php
-#    14. PHP code test: canned comments - CannedComments.php
-#    15. PHP code test: link builder - Link_Builder.php
+#     4. Keyboard shortcut consistency check: Edit Overflow lookup
+#     5. Keyboard shortcut consistency check: text stuff
+#     6. Keyboard shortcut consistency check: fixed string
+#     7. Keyboard shortcut consistency check: edit summary
+#     8. Keyboard shortcut consistency check: canned comments
+#     9. Keyboard shortcut consistency check: link builder
 #
-#    16. Web server test: localWebserver_Edit_Overflow_lookup
+#    10. PHP code test: main lookup - EditOverflow.php
+#    11. PHP code test: self test, unit tests - Text.php
+#    12. PHP code test: text transformation - 'Real quotes' - Text.php
+#    13. PHP code test: fixed strings - FixedStrings.php
+#    14. PHP code test: edit summary fragments - EditSummaryFragments.php
+#    15. PHP code test: canned comments - CannedComments.php
+#    16. PHP code test: link builder - Link_Builder.php
+#
 #    17. Web server test: localWebserver_Edit_Overflow_lookup
 #    18. Web server test: localWebserver_Edit_Overflow_lookup
-#    19. Web server test: localWebserver_Text
-#    20. Web server test: localWebserver_fixed_strings
-#    21. Web server test: localWebserver_Edit_summary_fragments
-#    22. Web server test: localWebserver_canned_comments
-#    23. Web server test: localWebserver_Text_RemoveTABsAndTrailingWhitespace
-#    24. Web server test: localWebserver_Text_RemoveCommonLeadingSpace
-#    25. Web server test: localWebserver_Text_RealQuotes
-#    26. Web server test: localWebserver_LinkBuilder_1
+#    19. Web server test: localWebserver_Edit_Overflow_lookup
+#    20. Web server test: localWebserver_Text
+#    21. Web server test: localWebserver_fixed_strings
+#    22. Web server test: localWebserver_Edit_summary_fragments
+#    23. Web server test: localWebserver_canned_comments
+#    24. Web server test: localWebserver_Text_RemoveTABsAndTrailingWhitespace
+#    25. Web server test: localWebserver_Text_RemoveCommonLeadingSpace
+#    26. Web server test: localWebserver_Text_RealQuotes
+#    27. Web server test: localWebserver_LinkBuilder_1
 #
-#    27. Start running C# unit tests
-#    28. Exporting the word list as SQL
-#    29. Opening some web pages and applications for manual operations
-#    30. Exporting the word list as HTML
-#    31. Starting checking generated HTML
-#    32. Exporting the word list as JavaScript
-#    33. Start running JavaScript unit tests
-#    34. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)
-#    35. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)
+#    28. Start running C# unit tests
+#    29. C# compilation and sanity check
+#    30. Exporting the word list as SQL
+#    31. Opening some web pages and applications for manual operations
+#    32. Exporting the word list as HTML
+#    33. Starting checking generated HTML
+#    34. Exporting the word list as JavaScript
+#    35. Start running JavaScript unit tests
+#    36. Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)
+#    37. Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)
 #
-#    36. HTML validation: Edit Overflow lookup
-#    37. HTML validation: Text stuff
-#    38. HTML validation: Fixed strings
-#    39. HTML validation: Edit summary fragments
-#    40. HTML validation: Canned comments
-#    41. HTML validation: Link builder
-#    42. HTML validation: Word list (HTML)
+#    38. HTML validation: Edit Overflow lookup
+#    39. HTML validation: Text stuff
+#    40. HTML validation: Fixed strings
+#    41. HTML validation: Edit summary fragments
+#    42. HTML validation: Canned comments
+#    43. HTML validation: Link builder
+#    44. HTML validation: Word list (HTML)
 #
-#    43. Starting checks of the generated HTML
+#    45. Starting checks of the generated HTML
 #
-#    44. Starting web interface regression tests. Both for the local web server and production.
+#    46. Starting web interface regression tests. Both for the local web server and production.
 #
-#    45. End of build. All build steps succeeded!!
-#
+#    47. End of build. All build steps succeeded!!
 #
 #############################################################################
 
@@ -229,6 +230,10 @@
 #     it in an 'if' statement's main clause):
 #
 #       clear ; cat ~/UserProf/At_XP64/Edit_Overflow/Dot_NET_commandLine/Linux.sh | perl -nle 'printf "#    %2d. %s\n", $1, $2 if /^startOfBuildStep\s+\"(\d+)\"\s+\"(.+)\"/; printf "#    %2d. Keyboard shortcut consistency check: %s\n", $2, $1 if /^keyboardShortcutConsistencyCheck.+\"(.+)\"\s+(\d+)/; printf "#    %2d. HTML validation: %s\n", $2, $1 if /^\s*HTML_validation.+\"(.+)\"\s+(\d+)/; printf "#    %2d. PHP code test: %s - %s\n", $3, $2, $1 if /^PHP_code_test\s+(\S+)\s+\"(.+)\"\s+(\d+)/; printf "#    %2d. Web server test: %s\n", $3, $2 if /^webServer_test\s+\"(.+)\"\s+\"(.+)\"\s+(\d+)/;     '
+#
+#     Newer version that includes use of sourceSpellcheck():
+#
+#       clear ; cat ~/UserProf/At_XP64/Edit_Overflow/Dot_NET_commandLine/Linux.sh | perl -nle 'printf "#    %2d. %s\n", $1, $2 if /^startOfBuildStep\s+\"(\d+)\"\s+\"(.+)\"/; printf "#    %2d. Keyboard shortcut consistency check: %s\n", $2, $1 if /^keyboardShortcutConsistencyCheck.+\"(.+)\"\s+(\d+)/; printf "#    %2d. HTML validation: %s\n", $2, $1 if /^\s*HTML_validation.+\"(.+)\"\s+(\d+)/; printf "#    %2d. PHP code test: %s - %s\n", $3, $2, $1 if /^PHP_code_test\s+(\S+)\s+\"(.+)\"\s+(\d+)/; printf "#    %2d. Web server test: %s\n", $3, $2 if /^webServer_test\s+\"(.+)\"\s+\"(.+)\"\s+(\d+)/; printf "#    %2d. Source code spellcheck\n", $1 if /^sourceSpellcheck\s+(.+)/;     '
 #
 #############################################################################
 
@@ -1187,7 +1192,7 @@ function wordListExport()
     #
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
     time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
-    
+
     #But do we actually need to use evaluateBuildResult() the second time?
     #Could it in fact allow us to allow Edit Overflow to return nothing
     #to standard output?
@@ -1515,17 +1520,17 @@ sourceSpellcheck  3
 # Note: This is direct inspection of the PHP source code, ***not*** as
 #       run by a web serber (rendered HTML).
 #
-keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       3
+keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       4
 
-keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 4
+keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 5
 
-keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               5
+keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               6
 
-keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               6
+keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               7
 
-keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            7
+keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            8
 
-keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"               8
+keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"               9
 
 
 
@@ -1587,7 +1592,7 @@ keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"      
 #
 #     Why is this required??? Interface "lo" (loopback) should work for localhost.
 #
-PHP_code_test  EditOverflow.php          "main lookup"              9  "OverflowStyle=Native&LookUpTerm=JS"  "Access denied for user"
+PHP_code_test  EditOverflow.php          "main lookup"             10  "OverflowStyle=Native&LookUpTerm=JS"  "Access denied for user"
 
 
 # ###########################################################################
@@ -1608,7 +1613,7 @@ PHP_code_test  EditOverflow.php          "main lookup"              9  "Overflow
 #
 #  Note that it will also detect any syntax errors in commonStart.php
 #
-PHP_code_test  Text.php                  "self test, unit tests"                 10  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
+PHP_code_test  Text.php                  "self test, unit tests"                 11  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
 
 #exit
 
@@ -1621,7 +1626,7 @@ PHP_code_test  Text.php                  "self test, unit tests"                
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  Text.php                  "text transformation - 'Real quotes'"   11  "OverflowStyle=Native&PHP_DoWarnings=On&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "Undefined variable: dummy2"
+PHP_code_test  Text.php                  "text transformation - 'Real quotes'"   12  "OverflowStyle=Native&PHP_DoWarnings=On&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "Undefined variable: dummy2"
 
 #exit
 
@@ -1633,7 +1638,7 @@ PHP_code_test  Text.php                  "text transformation - 'Real quotes'"  
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  FixedStrings.php          "fixed strings"                         12  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  FixedStrings.php          "fixed strings"                         13  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
 # ###########################################################################
@@ -1643,7 +1648,7 @@ PHP_code_test  FixedStrings.php          "fixed strings"                        
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  EditSummaryFragments.php  "edit summary fragments"                13   "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  EditSummaryFragments.php  "edit summary fragments"                14   "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
 # ###########################################################################
@@ -1653,7 +1658,7 @@ PHP_code_test  EditSummaryFragments.php  "edit summary fragments"               
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  CannedComments.php        "canned comments"                       14  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  CannedComments.php        "canned comments"                       15  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
 # ###########################################################################
@@ -1664,7 +1669,7 @@ PHP_code_test  CannedComments.php        "canned comments"                      
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  Link_Builder.php        "link builder"                            15  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  Link_Builder.php        "link builder"                            16  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
 
@@ -1687,38 +1692,38 @@ PHP_code_test  Link_Builder.php        "link builder"                           
 #
 
 # A word lookup that fails (the word does not exist in the database)
-webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=JS"   "localWebserver_Edit_Overflow_lookup"   16
+webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=JS"   "localWebserver_Edit_Overflow_lookup"   17
 
 # Missing expected query parameter "LookUpTerm"
-webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native"                 "localWebserver_Edit_Overflow_lookup"   17
+webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native"                 "localWebserver_Edit_Overflow_lookup"   18
 
 # A word lookup that succeeds
-webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz"  "localWebserver_Edit_Overflow_lookup"   18
+webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz"  "localWebserver_Edit_Overflow_lookup"   19
 
-webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native"                        "localWebserver_Text"                    19
-webServer_test  "http://localhost/world/FixedStrings.php?OverflowStyle=Native"                "localWebserver_fixed_strings"           20
-webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=Native"        "localWebserver_Edit_summary_fragments"  21
-webServer_test  "http://localhost/world/CannedComments.php?OverflowStyle=Native"              "localWebserver_canned_comments"         22
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native"                        "localWebserver_Text"                    20
+webServer_test  "http://localhost/world/FixedStrings.php?OverflowStyle=Native"                "localWebserver_fixed_strings"           21
+webServer_test  "http://localhost/world/EditSummaryFragments.php?OverflowStyle=Native"        "localWebserver_Edit_summary_fragments"  22
+webServer_test  "http://localhost/world/CannedComments.php?OverflowStyle=Native"              "localWebserver_canned_comments"         23
 
 # Invoke the function "Remove TABs and trailing whitespace" in
 # the Edit Overflow "text" window
 #
-webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=XYZ%20%20%20&someAction%5Bremove_TABs_and_trailing_whitespace%5D=Remove+TABs+and+trailing+whitespace"  "localWebserver_Text_RemoveTABsAndTrailingWhitespace"  23
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=XYZ%20%20%20&someAction%5Bremove_TABs_and_trailing_whitespace%5D=Remove+TABs+and+trailing+whitespace"  "localWebserver_Text_RemoveTABsAndTrailingWhitespace"  24
 
 # Invoke the function "Remove common leading space" in
 # the Edit Overflow "text" window
 #
-webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%20%20%20XYZ&someAction%5Bremove_common_leading_space%5D=Remove+common+leading+space"  "localWebserver_Text_RemoveCommonLeadingSpace"                         24
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=%20%20%20XYZ&someAction%5Bremove_common_leading_space%5D=Remove+common+leading+space"  "localWebserver_Text_RemoveCommonLeadingSpace"                         25
 
 # Invoke the function "Real quotes" in the Edit Overflow "text" window
 #
-webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            25
+webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "localWebserver_Text_RealQuotes"                                                                            26
 
 
 # Invoke action in the Edit Overflow "Link builder" window (we pass
 # in parameters here, not relying on any default parameters)
 #
-webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 26
+webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 27
 
 #exit
 
@@ -1729,7 +1734,7 @@ webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&Li
 # NUnit tests can actually run
 # under .NET Core on Linux...
 #
-startOfBuildStep "27" "Start running C# unit tests"
+startOfBuildStep "28" "Start running C# unit tests"
 
 # Notes:
 #
@@ -1741,7 +1746,7 @@ startOfBuildStep "27" "Start running C# unit tests"
 #     not for all the code (only what is dependent on
 #     the tests).
 #
-dotnet test EditOverflow3_UnitTests.csproj  ; evaluateBuildResult 27 $? "C# unit tests"
+dotnet test EditOverflow3_UnitTests.csproj  ; evaluateBuildResult 28 $? "C# unit tests"
 
 
 
@@ -1767,7 +1772,7 @@ mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZ
 # C# compile check, etc. Separate (and a requisite) for doing
 # successful exports
 #
-startOfBuildStep "28" "C# compilation and sanity check"
+startOfBuildStep "29" "C# compilation and sanity check"
 
 # Check that it actually compiles... Running the unit tests in a
 # previous build step indirectly checks for compilation errors (we
@@ -1787,7 +1792,7 @@ startOfBuildStep "28" "C# compilation and sanity check"
 export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
 rm $COMPILECHECK_OUT
-wordListExport 28 "compileCheck"  $COMPILECHECK_OUT  40 100
+wordListExport 29 "compileCheck"  $COMPILECHECK_OUT  40 100
 
 #exit
 
@@ -1801,7 +1806,7 @@ wordListExport 28 "compileCheck"  $COMPILECHECK_OUT  40 100
 #
 #       CS0162 is "warning : Unreachable code detected"
 #
-startOfBuildStep "28" "Exporting the word list as SQL"
+startOfBuildStep "30" "Exporting the word list as SQL"
 
 #exit
 
@@ -1831,12 +1836,14 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 
 #export STDERR_FILE3="_stdErr_Export3.txt"
 
+# Sanity check on the size of the exported file
+#
 # Note: The last two numbers very much depend on the actual
 #       word list... We use about a 10% margin.
 #
 #       2022-01-25: 5374604 bytes
 #
-wordListExport 28 "SQL" $SQL_FILE 5370000 5910000
+wordListExport 30 "SQL" $SQL_FILE 5370000 5910000
 
 #exit
 
@@ -1858,7 +1865,7 @@ wordListExport 28 "SQL" $SQL_FILE 5370000 5910000
 # comes to the foreground) signals that it is
 # ready for import.
 #
-startOfBuildStep "29" "Opening some web pages and applications for manual operations"
+startOfBuildStep "31" "Opening some web pages and applications for manual operations"
 
 # Open a web page for verification of push to GitHub
 xdg-open "https://github.com/PeterMortensen/Edit_Overflow"
@@ -1881,16 +1888,18 @@ code
 # ###########################################################################
 #
 # Some redundancy here - to be eliminated
-startOfBuildStep "30" "Exporting the word list as HTML"
+startOfBuildStep "32" "Exporting the word list as HTML"
 
 rm $HTML_FILE
 
+# Sanity check on the size of the exported file
+#
 # Note: The last two numbers very much depend on the actual
 #       word list... We use about a 10% margin.
 #
 #       2022-01-25: 3310553 bytes
 #
-wordListExport 30 "HTML"  $HTML_FILE   3310000 3640000
+wordListExport 32 "HTML"  $HTML_FILE   3310000 3640000
 
 #exit
 
@@ -1908,16 +1917,16 @@ cp  $HTML_FILE  $HTML_FILE_GENERIC
 # rules in the generated HTML for the word list,
 # etc. (using a Perl script).
 #
-startOfBuildStep "31" "Starting checking generated HTML"
+startOfBuildStep "33" "Starting checking generated HTML"
 
-${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 31  $? "Checking generated HTML (file ${HTML_FILE_GENERIC})"
+${WEBFORM_CHECK_CMD}  ${HTML_FILE_GENERIC} ; evaluateBuildResult 33  $? "Checking generated HTML (file ${HTML_FILE_GENERIC})"
 
 
 
 # ###########################################################################
 #
 # Some redundancy here - to be eliminated
-startOfBuildStep "32" "Exporting the word list as JavaScript"
+startOfBuildStep "34" "Exporting the word list as JavaScript"
 
 rm $JAVASCRIPT_FILE
 
@@ -1926,7 +1935,7 @@ rm $JAVASCRIPT_FILE
 #
 #       2022-01-25: 2512025 bytes
 #
-wordListExport 32 "JavaScript"  $JAVASCRIPT_FILE   2510000 2760000
+wordListExport 34 "JavaScript"  $JAVASCRIPT_FILE   2510000 2760000
 
 #exit
 
@@ -1947,7 +1956,7 @@ cp  $JAVASCRIPT_FILE_GENERIC  $WEBFOLDER
 
 # ###########################################################################
 #
-startOfBuildStep "33" "Start running JavaScript unit tests"
+startOfBuildStep "35" "Start running JavaScript unit tests"
 
 # Note: For now, directly in source folder. It should
 #       be moved to the work folder.
@@ -1956,7 +1965,7 @@ cd $WEBFOLDER
 
 # That is using Jest under Node.js, with the test files
 # in sub folder "__tests__".
-npm test  ; evaluateBuildResult 33 $? "JavaScript unit tests"
+npm test  ; evaluateBuildResult 35 $? "JavaScript unit tests"
 
 # Back to the previous folder (expected to be the work folder)
 #
@@ -1977,12 +1986,12 @@ cd -
 # It is near the very end, so we don't push anything
 # to production if some test fail.
 #
-startOfBuildStep "34" "Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)"
+startOfBuildStep "36" "Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)"
 
 cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
 export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
-eval ${LFTP_COMMAND}  ; evaluateBuildResult 34 $? "copying the word list in JavaScript to the web site"
+eval ${LFTP_COMMAND}  ; evaluateBuildResult 36 $? "copying the word list in JavaScript to the web site"
 
 
 # ###########################################################################
@@ -1997,12 +2006,12 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 34 $? "copying the word list in Java
 # It is at the very end, so we don't push anything
 # to production if some test fail.
 #
-startOfBuildStep "35" "Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)"
+startOfBuildStep "37" "Updating the HTML word list file on pmortenen.eu (<https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>)"
 
 cp  $HTML_FILE_GENERIC  $FTPTRANSFER_FOLDER_HTML
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_HTML} /public_html/EditOverflow/_Wordlist ; exit"
 export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
-eval ${LFTP_COMMAND}  ; evaluateBuildResult 35 $? "copying the HTML word list to the web site"
+eval ${LFTP_COMMAND}  ; evaluateBuildResult 37 $? "copying the HTML word list to the web site"
 
 
 # ###########################################################################
@@ -2026,12 +2035,12 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 35 $? "copying the HTML word list to
 #                        Worked again on 2021-10-06T072909.
 #
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
-    HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    36
-    HTML_validation      Text.php                           "Text stuff"              37
-    HTML_validation      FixedStrings.php                   "Fixed strings"           38
-    HTML_validation      EditSummaryFragments.php           "Edit summary fragments"  39
-    HTML_validation      CannedComments.php                 "Canned comments"         40
-    HTML_validation      Link_Builder.php                   "Link builder"            41
+    HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    38
+    HTML_validation      Text.php                           "Text stuff"              39
+    HTML_validation      FixedStrings.php                   "Fixed strings"           40
+    HTML_validation      EditSummaryFragments.php           "Edit summary fragments"  41
+    HTML_validation      CannedComments.php                 "Canned comments"         42
+    HTML_validation      Link_Builder.php                   "Link builder"            43
 
     # The URL is <https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html>
     #
@@ -2040,7 +2049,7 @@ if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     #     503 Service Unavailable
     #     No server is available to handle this request.
     #
-    HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        42  '%2FEditOverflow%2F_Wordlist'
+    HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        44  '%2FEditOverflow%2F_Wordlist'
 fi
 
 
@@ -2052,9 +2061,9 @@ fi
 #
 #   2. XXX
 #
-startOfBuildStep "43" "Starting checks of the generated HTML"
+startOfBuildStep "45" "Starting checks of the generated HTML"
 export MATCHING_LINES=`grep -c '<div id="Mark_Zuckerberg">'  ${HTML_FILE_GENERIC}`
-mustBeEqual ${MATCHING_LINES} 1  43   "HTML anchor is not unique"
+mustBeEqual ${MATCHING_LINES} 1  45   "HTML anchor is not unique"
 
 
 #We should probably get rid of these two entirely. They are a
@@ -2136,7 +2145,7 @@ mustBeEqual ${MATCHING_LINES} 1  43   "HTML anchor is not unique"
 #
 #   5. XXXX
 #
-startOfBuildStep "44" "Starting web interface regression tests. Both for the local web server and production."
+startOfBuildStep "46" "Starting web interface regression tests. Both for the local web server and production."
 
 retrieveWebHostingErrorLog  "_before_"
 
@@ -2172,7 +2181,7 @@ retrieveWebHostingErrorLog  "_before_"
 #       the 'web_regress.py' file.
 #
 #python3 $SELINUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
-python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 44 $? "web interface regression tests"
+python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 46 $? "web interface regression tests"
 
 # Observed 2021-11-05T003000, but only once (it
 # did not happen when repeating the build):
@@ -2201,7 +2210,7 @@ retrieveWebHostingErrorLog  "_after_"
 #     just detecting errors (on the web server)
 #     as a result of running a Selenium test.
 #
-mustBeEqual  "`cat _before_WebHostingErrorLog_MD5.txt`"  "`cat _after_WebHostingErrorLog_MD5.txt`"  44  "New entry in error log: `tail -n 1 ${AFTER_LOGFILE}` "
+mustBeEqual  "`cat _before_WebHostingErrorLog_MD5.txt`"  "`cat _after_WebHostingErrorLog_MD5.txt`"  46  "New entry in error log: `tail -n 1 ${AFTER_LOGFILE}` "
 
 
 # ###########################################################################
@@ -2255,9 +2264,8 @@ echo
 # if the build failed or not (as we would not be here if
 # any of the previous build steps failed).
 #
-startOfBuildStep "45" "End of build. All build steps succeeded!!"
+startOfBuildStep "47" "End of build. All build steps succeeded!!"
 
 timeStamp "End time"
-
 
 
