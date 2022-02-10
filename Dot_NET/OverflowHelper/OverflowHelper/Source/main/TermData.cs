@@ -10361,6 +10361,7 @@ namespace OverflowHelper.core
             correctionAdd("necessaraliy", "necessarily");
             correctionAdd("necessariliy", "necessarily");
             correctionAdd("necessaralliy", "necessarily");
+            correctionAdd("necesaraly", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -25683,6 +25684,8 @@ namespace OverflowHelper.core
             correctionAdd("water-lily", "water lily");
 
             correctionAdd("Dwm", "dwm");
+            correctionAdd("Desktop Window Manager", "dwm");
+            correctionAdd("DWM", "dwm");
 
             correctionAdd("http 1.1", "HTTP/1.1");
             correctionAdd("http/1.1", "HTTP/1.1");
@@ -29299,6 +29302,7 @@ namespace OverflowHelper.core
 
             correctionAdd("disambigate", "disambiguate");
             correctionAdd("disambuguate", "disambiguate");
+            correctionAdd("disambugate", "disambiguate");
 
             correctionAdd("telethon", "Telethon");
 
@@ -36112,6 +36116,23 @@ namespace OverflowHelper.core
 
             correctionAdd("Traducir", "traducir.win");
             correctionAdd("traducir", "traducir.win");
+
+            correctionAdd("all time", "all-time");
+
+            correctionAdd("bug-free", "bugfree");
+
+            correctionAdd("disambugated", "disambiguated");
+
+            correctionAdd("imposible", "impossible");
+            correctionAdd("imposiible", "impossible");
+
+            correctionAdd("Nichrome", "nichrome");
+
+            correctionAdd("Post mortem", "post mortem");
+
+            correctionAdd("screw-up", "screwup");
+
+            correctionAdd("WKT", "well-known text");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56796,6 +56817,22 @@ namespace OverflowHelper.core
 
             URL_Add("traducir.win", "https://github.com/g3rv4/Traducir");
 
+            URL_Add("all-time", "https://en.wiktionary.org/wiki/all-time#Adjective");
+
+            URL_Add("bugfree", "https://en.wiktionary.org/wiki/bugfree#Adjective");
+
+            URL_Add("disambiguated", "https://en.wiktionary.org/wiki/disambiguate#Verb");
+
+            URL_Add("impossible", "https://en.wiktionary.org/wiki/impossible#Adjective");
+
+            URL_Add("nichrome", "https://en.wikipedia.org/wiki/Nichrome");
+
+            URL_Add("post mortem", "https://en.wiktionary.org/wiki/post_mortem#Noun");
+
+            URL_Add("screwup", "https://en.wiktionary.org/wiki/screwup#Noun");
+
+            URL_Add("well-known text", "https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -57141,6 +57178,13 @@ namespace OverflowHelper.core
 
             correctionAdd("understand_", "understanding_");
 
+            correctionAdd("Exec_", "executive_");
+            correctionAdd("exec_", "executive_");
+            correctionAdd("Exex_", "executive_");
+
+            correctionAdd("speced_", "specified_");
+            correctionAdd("specked_", "specified_");
+
             // URL mappings
             //
             //
@@ -57377,6 +57421,10 @@ namespace OverflowHelper.core
             URL_Add("Software Engineering (Stack Exchange site)_", "https://softwareengineering.stackexchange.com/tour");
 
             URL_Add("understanding_", "https://en.wiktionary.org/wiki/understanding#Noun");
+
+            URL_Add("executive_", "https://en.wiktionary.org/wiki/executive#Noun");
+
+            URL_Add("specified_", "https://en.wiktionary.org/wiki/specify#Verb");
 
         } //addLookupData_alternativeWordSet()
 
