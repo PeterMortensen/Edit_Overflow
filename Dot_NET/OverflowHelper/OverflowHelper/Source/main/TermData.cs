@@ -4201,6 +4201,7 @@ namespace OverflowHelper.core
             correctionAdd("OpenCv", "OpenCV");
             correctionAdd("Open CV", "OpenCV");
             correctionAdd("opneCV", "OpenCV");
+            correctionAdd("OPENCV", "OpenCV");
 
             // It should really be "Microsoft Azure"
             correctionAdd("AZURE", "Windows Azure");
@@ -5613,6 +5614,8 @@ namespace OverflowHelper.core
             correctionAdd("with not", "without");
             correctionAdd("WIthout", "without");
             correctionAdd("Without", "without");
+            correctionAdd("whitout", "without");
+            correctionAdd("wihtout", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -7080,6 +7083,7 @@ namespace OverflowHelper.core
             correctionAdd("Dependency Wolker", "Dependency Walker");
             correctionAdd("Dependency walker", "Dependency Walker");
             correctionAdd("dependencywalker", "Dependency Walker");
+            correctionAdd("DependencyWalker", "Dependency Walker");
 
             correctionAdd("photoshop", "Photoshop");
             correctionAdd("Adobe Photoshop", "Photoshop"); // Shorten...
@@ -7218,6 +7222,8 @@ namespace OverflowHelper.core
             correctionAdd("X11", "X Window");
             correctionAdd("x11", "X Window");
             correctionAdd("X Window System", "X Window");
+            correctionAdd("Xorg", "X Window");
+            correctionAdd("X.Org", "X Window");
 
             correctionAdd("simulink", "Simulink");
             correctionAdd("SIMULINK", "Simulink");
@@ -9923,6 +9929,7 @@ namespace OverflowHelper.core
             correctionAdd("PHD", "Ph.D.");
             correctionAdd("Phd", "Ph.D.");
             correctionAdd("PhD", "Ph.D.");
+            correctionAdd("Ph.D", "Ph.D.");
 
             correctionAdd("togheter", "together");
 
@@ -11509,6 +11516,7 @@ namespace OverflowHelper.core
             correctionAdd("back ground", "background");
             correctionAdd("bcakground", "background");
             correctionAdd("backgrond", "background");
+            correctionAdd("bacground", "background");
 
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
@@ -15141,6 +15149,10 @@ namespace OverflowHelper.core
             correctionAdd("idea intellij", "IntelliJ IDEA");
             correctionAdd("intelliJ", "IntelliJ IDEA");
             correctionAdd("intelli j", "IntelliJ IDEA");
+            correctionAdd("intellija", "IntelliJ IDEA");
+            correctionAdd("IntelliJa", "IntelliJ IDEA");
+            correctionAdd("Intellija", "IntelliJ IDEA");
+            correctionAdd("intellija idea", "IntelliJ IDEA");
 
             correctionAdd("idear", "idea");
             correctionAdd("ideia", "idea");
@@ -15853,6 +15865,7 @@ namespace OverflowHelper.core
             correctionAdd("somethings", "something");
             correctionAdd("Smt", "something");
             correctionAdd("somthign", "something");
+            correctionAdd("somthings", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -16649,6 +16662,7 @@ namespace OverflowHelper.core
             correctionAdd("happends", "happens");
 
             correctionAdd("my self", "myself");
+            correctionAdd("myslef", "myself");
 
             correctionAdd("resul", "result");
             correctionAdd("resault", "result");
@@ -18360,6 +18374,7 @@ namespace OverflowHelper.core
             correctionAdd("continer", "container");
 
             correctionAdd("instaled", "installed");
+            correctionAdd("instlled", "installed");
 
             correctionAdd("linebreak", "line break");
             correctionAdd("Line-Break", "line break");
@@ -23703,6 +23718,7 @@ namespace OverflowHelper.core
             correctionAdd("leet code", "LeetCode");
             correctionAdd("Leetcode", "LeetCode");
             correctionAdd("leetcode", "LeetCode");
+            correctionAdd("Leetcode.com", "LeetCode");
 
             correctionAdd("coce", "code");
             correctionAdd("Coce", "code");
@@ -27478,6 +27494,8 @@ namespace OverflowHelper.core
             correctionAdd("N-channel MOSFET", "n-channel MOSFET");
             correctionAdd("N-Channel MOSFET", "n-channel MOSFET");
             correctionAdd("Nch", "n-channel MOSFET");
+            correctionAdd("N channel", "n-channel MOSFET");
+            correctionAdd("N channel MOSFET", "n-channel MOSFET");
 
             correctionAdd("scrap", "scrape");
 
@@ -28367,6 +28385,7 @@ namespace OverflowHelper.core
             correctionAdd("post-doc", "postdoc");
             correctionAdd("Post-doc", "postdoc");
             correctionAdd("PostDoc", "postdoc");
+            correctionAdd("Postdoc", "postdoc");
 
             correctionAdd("re-assign", "reassign");
 
@@ -30228,6 +30247,7 @@ namespace OverflowHelper.core
 
             correctionAdd("modyfying", "modifying");
             correctionAdd("modifing", "modifying");
+            correctionAdd("modding", "modifying");
 
             correctionAdd("Pit Bull", "pit bull");
 
@@ -30264,6 +30284,7 @@ namespace OverflowHelper.core
 
             correctionAdd("RFC5322", "RFC&nbsp;5322");
             correctionAdd("RFC 5322", "RFC&nbsp;5322");
+            correctionAdd("rfc5322", "RFC&nbsp;5322");
 
             correctionAdd("sas", "SAS");
 
@@ -35149,6 +35170,7 @@ namespace OverflowHelper.core
             correctionAdd("depricated", "deprecated");
 
             correctionAdd("decribed", "described");
+            correctionAdd("discribed", "described");
 
             correctionAdd("Electrical Contact Cleaner", "electrical contact cleaner");
 
@@ -35531,6 +35553,7 @@ namespace OverflowHelper.core
             correctionAdd("PTY", "pseudoterminal");
 
             correctionAdd("sub shell", "subshell");
+            correctionAdd("sub-shell", "subshell");
 
             correctionAdd("want's", "wants");
 
@@ -36133,6 +36156,33 @@ namespace OverflowHelper.core
             correctionAdd("screw-up", "screwup");
 
             correctionAdd("WKT", "well-known text");
+
+            correctionAdd("Fick's law", "Fick's laws");
+
+            correctionAdd("Lineage OS", "LineageOS");
+
+            correctionAdd("ReDOS", "ReDoS");
+
+            correctionAdd("ABNF", "augmented Backus–Naur form");
+
+            correctionAdd("build-system", "build system");
+
+            correctionAdd("enforcability", "enforceability");
+
+            correctionAdd("FFWD", "fast forward");
+
+            correctionAdd("ILS", "instrument landing system");
+
+            correctionAdd("ombudsman", "ombudsperson");
+
+            correctionAdd("predict", "prediction");
+
+            correctionAdd("Process Substitution", "process substitution");
+
+            correctionAdd("solvs", "solves");
+
+            correctionAdd("userland", "user space");
+            correctionAdd("Userland", "user space");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56833,6 +56883,32 @@ namespace OverflowHelper.core
 
             URL_Add("well-known text", "https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry");
 
+            URL_Add("Fick's laws", "https://en.wikipedia.org/wiki/Fick's_laws_of_diffusion");
+
+            URL_Add("LineageOS", "https://en.wikipedia.org/wiki/LineageOS");
+
+            URL_Add("ReDoS", "https://en.wikipedia.org/wiki/ReDoS");
+
+            URL_Add("augmented Backus–Naur form", "https://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_form");
+
+            URL_Add("build system", "https://en.wikipedia.org/wiki/Ninja_(build_system)");
+
+            URL_Add("enforceability", "https://en.wiktionary.org/wiki/enforceability#Noun");
+
+            URL_Add("fast forward", "https://en.wiktionary.org/wiki/fast_forward#Verb");
+
+            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
+
+            URL_Add("ombudsperson", "https://en.wikipedia.org/wiki/Ombudsman");
+
+            URL_Add("prediction", "https://en.wiktionary.org/wiki/prediction#Noun");
+
+            URL_Add("process substitution", "https://en.wikipedia.org/wiki/Process_substitution");
+
+            URL_Add("solves", "https://en.wiktionary.org/wiki/solve#Verb");
+
+            URL_Add("user space", "https://en.wikipedia.org/wiki/User_space");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -57185,6 +57261,12 @@ namespace OverflowHelper.core
             correctionAdd("speced_", "specified_");
             correctionAdd("specked_", "specified_");
 
+            correctionAdd("fidn_", "find_");
+
+            correctionAdd("Google_", "google_");
+
+            correctionAdd("our_", "out_");
+
             // URL mappings
             //
             //
@@ -57425,6 +57507,12 @@ namespace OverflowHelper.core
             URL_Add("executive_", "https://en.wiktionary.org/wiki/executive#Noun");
 
             URL_Add("specified_", "https://en.wiktionary.org/wiki/specify#Verb");
+
+            URL_Add("find_", "https://en.wiktionary.org/wiki/find#Verb");
+
+            URL_Add("google_", "https://en.wiktionary.org/wiki/google#Verb_2");
+
+            URL_Add("out_", "https://en.wiktionary.org/wiki/out#Adverb");
 
         } //addLookupData_alternativeWordSet()
 
