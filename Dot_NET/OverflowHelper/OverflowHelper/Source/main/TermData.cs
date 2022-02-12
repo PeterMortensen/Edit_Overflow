@@ -7539,6 +7539,7 @@ namespace OverflowHelper.core
             correctionAdd("reccomened", "recommend");
             correctionAdd("recommned", "recommend");
             correctionAdd("recomment", "recommend");
+            correctionAdd("reccomed", "recommend");
 
             correctionAdd("PDT", "PHP Development Tools");
             correctionAdd("eclipse pdt", "PHP Development Tools");
@@ -12629,6 +12630,7 @@ namespace OverflowHelper.core
             correctionAdd("Compiler", "compiler");
             correctionAdd("compliler", "compiler");
             correctionAdd("compilator", "compiler");
+            correctionAdd("compoiler", "compiler");
 
             correctionAdd("compter", "computer");
             correctionAdd("comp", "computer");
@@ -15030,6 +15032,20 @@ namespace OverflowHelper.core
             correctionAdd("iris", "Iris data set");
             correctionAdd("Iris", "Iris data set");
 
+            correctionAdd("mnist", "MNIST data set");
+            correctionAdd("mnist dataset", "MNIST data set");
+            correctionAdd("MNIST dataset", "MNIST data set");
+            correctionAdd("MNIST database", "MNIST data set");
+            correctionAdd("Mnist", "MNIST data set");
+
+            correctionAdd("Auto MPG", "Auto MPG data set");
+            correctionAdd("mpg data set", "Auto MPG data set");
+            correctionAdd("Auto MPG Dataset", "Auto MPG data set");
+            correctionAdd("Auto MPG dataset", "Auto MPG data set");
+
+            correctionAdd("dataset", "data set");
+            correctionAdd("Dataset", "data set");
+
             correctionAdd("khtml", "KHTML");
 
             correctionAdd("netscape", "Netscape");
@@ -15044,8 +15060,6 @@ namespace OverflowHelper.core
             correctionAdd("const", "constant");
             correctionAdd("constnat", "constant");
             correctionAdd("contstant", "constant");
-
-            correctionAdd("dataset", "data set");
 
             correctionAdd("delimeter", "delimiter");
 
@@ -15080,6 +15094,7 @@ namespace OverflowHelper.core
 
             correctionAdd("responce", "response");
             correctionAdd("reponse", "response");
+            correctionAdd("resposne", "response");
 
             correctionAdd("re-use", "reuse");
 
@@ -16296,6 +16311,7 @@ namespace OverflowHelper.core
             correctionAdd("When", "when");
             correctionAdd("wehn", "when");
             correctionAdd("WHen", "when");
+            correctionAdd("whene", "when");
 
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
@@ -17848,6 +17864,7 @@ namespace OverflowHelper.core
             correctionAdd("James Webb", "James Webb Space Telescope");
             correctionAdd("James Webb Telescope", "James Webb Space Telescope");
             correctionAdd("james webb telescope", "James Webb Space Telescope");
+            correctionAdd("jwst", "James Webb Space Telescope");
 
             correctionAdd("Lxqt", "LXQt");
             correctionAdd("lxqt", "LXQt");
@@ -17955,6 +17972,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Beteljuice", "Betelgeuse");
             correctionAdd("beetlejuice", "Betelgeuse");
+            correctionAdd("Betelgease", "Betelgeuse");
 
             correctionAdd("ZX 81", "ZX81");
 
@@ -20587,6 +20605,7 @@ namespace OverflowHelper.core
             correctionAdd("greece", "Greece");
 
             correctionAdd("spain", "Spain");
+            correctionAdd("Spian", "Spain");
 
             correctionAdd("antromorphising", "anthropomorphising");
 
@@ -20969,6 +20988,7 @@ namespace OverflowHelper.core
             correctionAdd("Lualatex", "LuaTeX");
             correctionAdd("lualatex", "LuaTeX");
             correctionAdd("lulatex", "LuaTeX");
+            correctionAdd("luatex", "LuaTeX");
 
             correctionAdd("key chain", "keychain");
 
@@ -27006,6 +27026,9 @@ namespace OverflowHelper.core
 
             correctionAdd("lowest-common denominator", "lowest common denominator");
 
+            correctionAdd("denomination", "denominator");
+            correctionAdd("den", "denominator");
+
             correctionAdd("od", "overdose");
             correctionAdd("OD", "overdose");
 
@@ -30981,8 +31004,6 @@ namespace OverflowHelper.core
 
             correctionAdd("critcal", "critical");
 
-            correctionAdd("denomination", "denominator");
-
             correctionAdd("soleless", "soulless");
 
             correctionAdd("AAPT2", "Android Asset Packaging Tool");
@@ -33751,12 +33772,6 @@ namespace OverflowHelper.core
             correctionAdd("github desktop", "GitHub Desktop");
             correctionAdd("Git Desktop", "GitHub Desktop");
 
-            correctionAdd("mnist", "MNIST data set");
-            correctionAdd("mnist dataset", "MNIST data set");
-            correctionAdd("MNIST dataset", "MNIST data set");
-            correctionAdd("MNIST database", "MNIST data set");
-            correctionAdd("Mnist", "MNIST data set");
-
             correctionAdd("openMP", "OpenMP");
             correctionAdd("openmp", "OpenMP");
 
@@ -36183,6 +36198,53 @@ namespace OverflowHelper.core
 
             correctionAdd("userland", "user space");
             correctionAdd("Userland", "user space");
+
+            correctionAdd("Bogota", "Bogotá");
+
+            correctionAdd("columbia", "Colombia");
+
+            correctionAdd("DFSG", "Debian Free Software Guidelines");
+
+            correctionAdd("xelatex", "LaXeTeX");
+
+            correctionAdd("pixabay", "Pixabay");
+
+            correctionAdd("unsplash", "Unsplash");
+
+            correctionAdd("ursa major", "Ursa Major");
+
+            correctionAdd("xetex", "XeTeX");
+
+            correctionAdd("An", "an");
+
+            correctionAdd("associete", "associate");
+
+            correctionAdd("deliniates", "delineates");
+
+            correctionAdd("DSP", "digital signal processing");
+            correctionAdd("dsp", "digital signal processing");
+
+            correctionAdd("extendad", "extended");
+
+            correctionAdd("gate keep", "gatekeep");
+
+            correctionAdd("half baked", "half-baked");
+            correctionAdd("halfbaked", "half-baked");
+
+            correctionAdd("incorprorated", "incorporated");
+
+            correctionAdd("MSM", "mainstream media");
+
+            correctionAdd("numinator", "numerator");
+
+            correctionAdd("paranoya", "paranoia");
+
+            correctionAdd("real life", "real-life");
+
+            correctionAdd("staid", "stayed");
+
+            correctionAdd("tie-break", "tiebreak");
+            correctionAdd("tie break", "tiebreak");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -56908,6 +56970,52 @@ namespace OverflowHelper.core
             URL_Add("solves", "https://en.wiktionary.org/wiki/solve#Verb");
 
             URL_Add("user space", "https://en.wikipedia.org/wiki/User_space");
+
+            URL_Add("Auto MPG data set", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Systems");
+
+            URL_Add("Bogotá", "https://en.wikipedia.org/wiki/Bogot%C3%A1");
+
+            URL_Add("Colombia", "https://en.wikipedia.org/wiki/Colombia");
+
+            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
+
+            URL_Add("LaXeTeX", "https://en.wikipedia.org/wiki/XeTeX#Example");
+
+            URL_Add("Pixabay", "https://en.wikipedia.org/wiki/Pixabay");
+
+            URL_Add("Unsplash", "https://en.wikipedia.org/wiki/Unsplash");
+
+            URL_Add("Ursa Major", "https://en.wikipedia.org/wiki/Ursa_Major");
+
+            URL_Add("XeTeX", "https://en.wikipedia.org/wiki/XeTeX");
+
+            URL_Add("an", "https://en.wiktionary.org/wiki/an#Article");
+
+            URL_Add("associate", "https://en.wiktionary.org/wiki/associate#Verb");
+
+            URL_Add("delineates", "https://en.wiktionary.org/wiki/delineate#Verb");
+
+            URL_Add("digital signal processing", "https://en.wikipedia.org/wiki/Digital_signal_processing");
+
+            URL_Add("extended", "https://en.wiktionary.org/wiki/extended#Adjective");
+
+            URL_Add("gatekeep", "https://en.wiktionary.org/wiki/gatekeep#Verb");
+
+            URL_Add("half-baked", "https://en.wiktionary.org/wiki/half-baked#Adjective");
+
+            URL_Add("incorporated", "https://en.wiktionary.org/wiki/incorporate#Verb");
+
+            URL_Add("mainstream media", "https://en.wiktionary.org/wiki/MSM#Noun");
+
+            URL_Add("numerator", "https://en.wiktionary.org/wiki/numerator#Noun");
+
+            URL_Add("paranoia", "https://en.wiktionary.org/wiki/paranoia#Noun");
+
+            URL_Add("real-life", "https://en.wiktionary.org/wiki/real-life#Adjective");
+
+            URL_Add("stayed", "https://en.wiktionary.org/wiki/stay#Verb");
+
+            URL_Add("tiebreak", "https://en.wiktionary.org/wiki/tiebreak#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
