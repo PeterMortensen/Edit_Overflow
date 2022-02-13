@@ -6259,6 +6259,7 @@ namespace OverflowHelper.core
 
             correctionAdd("usenet", "Usenet");
             correctionAdd("USENET", "Usenet");
+            correctionAdd("USEnet", "Usenet");
 
             correctionAdd("aka", "AKA");
             correctionAdd("a.k.a", "AKA"); // Workaround for the cut-off-period at the end bug...
@@ -11197,6 +11198,7 @@ namespace OverflowHelper.core
             correctionAdd("shoul", "should");
             correctionAdd("shoulb", "should");
             correctionAdd("shoule", "should");
+            correctionAdd("shoudl", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -12905,6 +12907,7 @@ namespace OverflowHelper.core
             correctionAdd("In-till", "until");
             correctionAdd("in-till", "until");
             correctionAdd("un-till", "until");
+            correctionAdd("unitll", "until"); // A true typo + a common misspelling
 
             correctionAdd("Yestarday", "yesterday");
 
@@ -19092,6 +19095,7 @@ namespace OverflowHelper.core
             correctionAdd("Lowenthal", "Johann Löwenthal"); // Chess
 
             correctionAdd("queen's gambit accepted", "Queen's Gambit Accepted"); // Chess
+            correctionAdd("QGA", "Queen's Gambit Accepted"); // Chess
 
             correctionAdd("jobava", "Jobava London"); // Chess
 
@@ -25185,6 +25189,11 @@ namespace OverflowHelper.core
             correctionAdd("faynman", "Richard Feynman");
 
             correctionAdd("socvr", "SOCVR");
+            correctionAdd("SO Close Vote Reviewers", "SOCVR");
+            correctionAdd("SOVCR", "SOCVR");
+            correctionAdd("SOCV", "SOCVR");
+            correctionAdd("SO close vote reviewers", "SOCVR");
+            correctionAdd("Stack Overflow close vote reviewers", "SOCVR");
 
             correctionAdd("steam", "Steam");
 
@@ -26767,6 +26776,9 @@ namespace OverflowHelper.core
             correctionAdd("thnak you", "thank you");
             correctionAdd("Thanks you", "thank you");
             correctionAdd("thanks you", "thank you");
+            correctionAdd("tnq", "thank you");
+            correctionAdd("TNQ", "thank you");
+            correctionAdd("Thank You", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -27706,6 +27718,7 @@ namespace OverflowHelper.core
             correctionAdd("server side", "server-side");
             correctionAdd("Serverside", "server-side");
             correctionAdd("serverside", "server-side");
+            correctionAdd("Server side", "server-side");
 
             correctionAdd("visualize", "visualise");
             correctionAdd("visaualize", "visualise");
@@ -29345,6 +29358,7 @@ namespace OverflowHelper.core
             correctionAdd("disambigate", "disambiguate");
             correctionAdd("disambuguate", "disambiguate");
             correctionAdd("disambugate", "disambiguate");
+            correctionAdd("disambuate", "disambiguate");
 
             correctionAdd("telethon", "Telethon");
 
@@ -33071,6 +33085,8 @@ namespace OverflowHelper.core
             correctionAdd("CoffeeLake", "Coffee Lake");
 
             correctionAdd("Endeavour OS", "EndeavourOS");
+            correctionAdd("Endevor", "EndeavourOS");
+            correctionAdd("Endeavour", "EndeavourOS");
 
             correctionAdd("IvyBridge", "Ivy Bridge");
 
@@ -36245,6 +36261,22 @@ namespace OverflowHelper.core
 
             correctionAdd("tie-break", "tiebreak");
             correctionAdd("tie break", "tiebreak");
+
+            correctionAdd("poetry", "Poetry");
+
+            correctionAdd("auto-delete", "autodelete");
+            correctionAdd("auto delete", "autodelete");
+
+            correctionAdd("bullet-proof", "bulletproof");
+            correctionAdd("bullet proof", "bulletproof");
+
+            correctionAdd("evaporization", "evaporation");
+
+            correctionAdd("low baller", "lowballer");
+
+            correctionAdd("long years", "many years");
+
+            correctionAdd("non constructive", "nonconstructive");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57017,6 +57049,20 @@ namespace OverflowHelper.core
 
             URL_Add("tiebreak", "https://en.wiktionary.org/wiki/tiebreak#Noun");
 
+            URL_Add("Poetry", "https://python-poetry.org/");
+
+            URL_Add("autodelete", "https://en.wiktionary.org/wiki/autodelete#Verb");
+
+            URL_Add("bulletproof", "https://en.wiktionary.org/wiki/bulletproof#Adjective");
+
+            URL_Add("evaporation", "https://en.wiktionary.org/wiki/evaporation#Noun");
+
+            URL_Add("lowballer", "https://en.wiktionary.org/wiki/lowballer#Noun");
+
+            URL_Add("many years", "https://www.lexico.com/definition/long_years");
+
+            URL_Add("nonconstructive", "https://en.wiktionary.org/wiki/nonconstructive#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -57375,6 +57421,8 @@ namespace OverflowHelper.core
 
             correctionAdd("our_", "out_");
 
+            correctionAdd("cargo_", "Cargo_");
+
             // URL mappings
             //
             //
@@ -57621,6 +57669,8 @@ namespace OverflowHelper.core
             URL_Add("google_", "https://en.wiktionary.org/wiki/google#Verb_2");
 
             URL_Add("out_", "https://en.wiktionary.org/wiki/out#Adverb");
+
+            URL_Add("Cargo_", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Cargo");
 
         } //addLookupData_alternativeWordSet()
 
