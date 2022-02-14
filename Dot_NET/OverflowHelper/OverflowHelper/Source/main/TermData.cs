@@ -3758,6 +3758,7 @@ namespace OverflowHelper.core
             correctionAdd("i18n", "internationalisation and localisation");
             correctionAdd("I18n", "internationalisation and localisation");
             correctionAdd("I18N", "internationalisation and localisation");
+            correctionAdd("i18", "internationalisation and localisation");
 
             correctionAdd("Wamp", "WAMP");
             correctionAdd("wamp", "WAMP");
@@ -4564,6 +4565,7 @@ namespace OverflowHelper.core
             correctionAdd("caractere", "characters");
             correctionAdd("charactere", "characters");
             correctionAdd("characteres", "characters");
+            correctionAdd("charactes", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -10222,6 +10224,8 @@ namespace OverflowHelper.core
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
+            correctionAdd("gramer", "grammar");
+            correctionAdd("gramar", "grammar");
 
             correctionAdd("chinese", "Chinese");
             correctionAdd("Chiense", "Chinese");
@@ -11537,6 +11541,7 @@ namespace OverflowHelper.core
             correctionAdd("e-mail", "email");
             correctionAdd("e-Mail", "email");
             correctionAdd("emaill", "email");
+            correctionAdd("eMail", "email");
 
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
@@ -12337,6 +12342,7 @@ namespace OverflowHelper.core
             correctionAdd("lenght", "length");
             correctionAdd("Lenght", "length");
             correctionAdd("lengeht", "length");
+            correctionAdd("lengh", "length");
 
             correctionAdd("mean time", "meantime");
             correctionAdd("meantine", "meantime");
@@ -12582,6 +12588,7 @@ namespace OverflowHelper.core
             correctionAdd("3rd", "third");
             correctionAdd("3th", "third");
             correctionAdd("3Rd", "third");
+            correctionAdd("theird", "third");
 
             correctionAdd("visa versa", "vice versa");
             correctionAdd("Vis versa", "vice versa");
@@ -15263,6 +15270,10 @@ namespace OverflowHelper.core
 
             correctionAdd("anyones", "anyone's guess");
 
+            correctionAdd("quess", "guess");
+            correctionAdd("guesss", "guess");
+            correctionAdd("guss", "guess");
+
             correctionAdd("buttun", "button");
             correctionAdd("botten", "button");
             correctionAdd("bottun", "button");
@@ -16352,6 +16363,7 @@ namespace OverflowHelper.core
             correctionAdd("crate", "create");
             correctionAdd("vreate", "create");
             correctionAdd("reate", "create");
+            correctionAdd("Crate", "create");
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
@@ -17943,8 +17955,6 @@ namespace OverflowHelper.core
             correctionAdd("goood", "good");
             correctionAdd("gud", "good");
             correctionAdd("goot", "good");
-
-            correctionAdd("quess", "guess");
 
             correctionAdd("instal", "install");
             correctionAdd("intsall", "install");
@@ -20478,6 +20488,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mx", "MX record");
             correctionAdd("MX", "MX record");
+            correctionAdd("mx record", "MX record");
 
             correctionAdd("olympics", "Olympics");
 
@@ -22643,8 +22654,13 @@ namespace OverflowHelper.core
 
             correctionAdd("cpu-z", "CPU-Z");
 
+            correctionAdd("BNF", "Backus–Naur form");
+            correctionAdd("Backus-Naur form", "Backus–Naur form");
+
             correctionAdd("EBNF", "Extended Backus–Naur form");
             correctionAdd("ebnf", "Extended Backus–Naur form");
+
+            correctionAdd("ABNF", "augmented Backus–Naur form");
 
             correctionAdd("gsm", "GSM");
 
@@ -36194,8 +36210,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ReDOS", "ReDoS");
 
-            correctionAdd("ABNF", "augmented Backus–Naur form");
-
             correctionAdd("build-system", "build system");
 
             correctionAdd("enforcability", "enforceability");
@@ -36277,6 +36291,34 @@ namespace OverflowHelper.core
             correctionAdd("long years", "many years");
 
             correctionAdd("non constructive", "nonconstructive");
+
+            correctionAdd("RFC 2822", "RFC&nbsp;2822");
+
+            correctionAdd("RFC 3696", "RFC&nbsp;3696");
+
+            correctionAdd("822", "RFC&nbsp;822");
+            correctionAdd("RFC822", "RFC&nbsp;822");
+            correctionAdd("RFC 822", "RFC&nbsp;822"); // Sort of identity mapping
+
+            correctionAdd("sms language", "SMS language");
+
+            correctionAdd("yay", "Yay");
+
+            correctionAdd("abriged", "abridged");
+
+            correctionAdd("Are", "are");
+
+            correctionAdd("cavat", "caveat");
+
+            correctionAdd("chacker", "checker");
+
+            correctionAdd("co-operation", "cooperation");
+
+            correctionAdd("IDN", "internationalised domain name");
+
+            correctionAdd("note-taking", "notetaking");
+
+            correctionAdd("over complex", "overcomplex");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57062,6 +57104,34 @@ namespace OverflowHelper.core
             URL_Add("many years", "https://www.lexico.com/definition/long_years");
 
             URL_Add("nonconstructive", "https://en.wiktionary.org/wiki/nonconstructive#Adjective");
+
+            URL_Add("Backus–Naur form", "https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form");
+
+            URL_Add("RFC&nbsp;2822", "https://en.wikipedia.org/wiki/Email#Message_format");
+
+            URL_Add("RFC&nbsp;3696", "https://en.wikipedia.org/wiki/Email_address#Syntax");
+
+            URL_Add("RFC&nbsp;822", "https://en.wikipedia.org/wiki/Email");
+
+            URL_Add("SMS language", "https://en.wikipedia.org/wiki/SMS_language");
+
+            URL_Add("Yay", "https://github.com/Jguer/yay");
+
+            URL_Add("abridged", "https://en.wiktionary.org/wiki/abridge#Verb");
+
+            URL_Add("are", "https://en.wiktionary.org/wiki/are#Verb");
+
+            URL_Add("caveat", "https://en.wiktionary.org/wiki/caveat#Noun");
+
+            URL_Add("checker", "https://en.wiktionary.org/wiki/checker#Noun");
+
+            URL_Add("cooperation", "https://en.wiktionary.org/wiki/cooperation#Noun");
+
+            URL_Add("internationalised domain name", "https://en.wikipedia.org/wiki/Internationalized_domain_name");
+
+            URL_Add("notetaking", "https://en.wiktionary.org/wiki/notetaking#Noun");
+
+            URL_Add("overcomplex", "https://en.wiktionary.org/wiki/overcomplex#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
