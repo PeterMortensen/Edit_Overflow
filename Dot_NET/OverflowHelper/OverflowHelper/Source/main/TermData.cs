@@ -2102,6 +2102,8 @@ namespace OverflowHelper.core
             correctionAdd("GMAIL", "Gmail");
             correctionAdd("G-mail", "Gmail");
             correctionAdd("g-mail", "Gmail");
+            correctionAdd("gmial", "Gmail");
+            correctionAdd("Gmial", "Gmail");
 
             correctionAdd("resharper", "ReSharper");
             correctionAdd("Resharper", "ReSharper");
@@ -3431,6 +3433,8 @@ namespace OverflowHelper.core
             correctionAdd("linuxx", "Linux");
             correctionAdd("Linex", "Linux");
             correctionAdd("LinuxOS", "Linux");
+            correctionAdd("Loonux", "Linux");
+            correctionAdd("loonux", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -3854,6 +3858,7 @@ namespace OverflowHelper.core
             correctionAdd("w3C", "W3C");
             correctionAdd("Wide Web Consortium", "W3C");
             correctionAdd("World Wide Web Consortium", "W3C");
+            correctionAdd("w3c org", "W3C");
 
             correctionAdd("dao", "DAO");
             correctionAdd("Dao", "DAO");
@@ -9969,6 +9974,7 @@ namespace OverflowHelper.core
             correctionAdd("elementary OS", "Elementary&nbsp;OS");
             correctionAdd("Elementary", "Elementary&nbsp;OS");
             correctionAdd("ElementaryOS", "Elementary&nbsp;OS");
+            correctionAdd("elementaryOS", "Elementary&nbsp;OS");
 
             correctionAdd("vhdl", "VHDL");
 
@@ -13563,6 +13569,7 @@ namespace OverflowHelper.core
             correctionAdd("Runnin", "running");
             correctionAdd("Running", "running");
             correctionAdd("runing", "running");
+            correctionAdd("runninig", "running");
 
             correctionAdd("spread-sheet", "spreadsheet");
             correctionAdd("spreadshet", "spreadsheet");
@@ -14797,6 +14804,9 @@ namespace OverflowHelper.core
             correctionAdd("Top Level Domain", "top-level domain");
             correctionAdd("TLD", "top-level domain");
             correctionAdd("tld", "top-level domain");
+            correctionAdd("top level domains", "top-level domain");
+            correctionAdd("gTLDs", "top-level domain");
+            correctionAdd("gTLD", "top-level domain");
 
             correctionAdd("doamin", "domain");
             correctionAdd("domen", "domain");
@@ -23353,6 +23363,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hug", "huge");
             correctionAdd("hugh", "huge");
+            correctionAdd("yuge", "huge");
 
             correctionAdd("ideomatic", "idiomatic");
 
@@ -25799,6 +25810,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lowercase", "lower case");
             correctionAdd("lover case", "lower case");
+            correctionAdd("lowercare", "lower case");
 
             correctionAdd("ocultation", "occultation");
 
@@ -25951,6 +25963,7 @@ namespace OverflowHelper.core
             correctionAdd("compilani", "compliant");
             correctionAdd("complaint", "compliant");
             correctionAdd("complient", "compliant");
+            correctionAdd("Compliant", "compliant");
 
             correctionAdd("error free", "errorfree");
             correctionAdd("error-free", "errorfree");
@@ -36319,6 +36332,16 @@ namespace OverflowHelper.core
             correctionAdd("note-taking", "notetaking");
 
             correctionAdd("over complex", "overcomplex");
+
+            correctionAdd("pdfminer", "PDFMiner");
+
+            correctionAdd("Downgraded", "downgraded");
+            correctionAdd("Dowgraded", "downgraded");
+
+            correctionAdd("evolute", "evolve");
+
+            correctionAdd("toLowerCase()", "toLowerCase");
+            correctionAdd("tolowercase", "toLowerCase");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57132,6 +57155,14 @@ namespace OverflowHelper.core
             URL_Add("notetaking", "https://en.wiktionary.org/wiki/notetaking#Noun");
 
             URL_Add("overcomplex", "https://en.wiktionary.org/wiki/overcomplex#Adjective");
+
+            URL_Add("PDFMiner", "https://pypi.org/project/pdfminer/");
+
+            URL_Add("downgraded", "https://en.wiktionary.org/wiki/downgrade#Verb");
+
+            URL_Add("evolve", "https://en.wiktionary.org/wiki/evolve#Verb");
+
+            URL_Add("toLowerCase", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
