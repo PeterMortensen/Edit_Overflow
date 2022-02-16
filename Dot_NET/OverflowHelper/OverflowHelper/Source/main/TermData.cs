@@ -10481,6 +10481,7 @@ namespace OverflowHelper.core
             correctionAdd("open cart", "OpenCart");
 
             correctionAdd("vivaldi", "Vivaldi");
+            correctionAdd("vivaldo", "Vivaldi");
 
             correctionAdd("some one", "someone");
             correctionAdd("somone", "someone");
@@ -12921,6 +12922,7 @@ namespace OverflowHelper.core
             correctionAdd("in-till", "until");
             correctionAdd("un-till", "until");
             correctionAdd("unitll", "until"); // A true typo + a common misspelling
+            correctionAdd("unlit", "until");
 
             correctionAdd("Yestarday", "yesterday");
 
@@ -13223,6 +13225,7 @@ namespace OverflowHelper.core
             correctionAdd("soltion", "solution");
             correctionAdd("solulution", "solution");
             correctionAdd("solotion", "solution");
+            correctionAdd("sotlution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -16016,6 +16019,7 @@ namespace OverflowHelper.core
             correctionAdd("Material UI", "Material-UI");
             correctionAdd("Material ui", "Material-UI");
             correctionAdd("Material Ui", "Material-UI");
+            correctionAdd("MUI", "Material-UI");
 
             correctionAdd("Technet", "TechNet");
             correctionAdd("technet", "TechNet");
@@ -17050,6 +17054,7 @@ namespace OverflowHelper.core
 
             correctionAdd("agein", "again");
             correctionAdd("againg", "again");
+            correctionAdd("againa", "again");
 
             correctionAdd("Baud", "baud");
 
@@ -17965,6 +17970,7 @@ namespace OverflowHelper.core
             correctionAdd("goood", "good");
             correctionAdd("gud", "good");
             correctionAdd("goot", "good");
+            correctionAdd("godd", "good");
 
             correctionAdd("instal", "install");
             correctionAdd("intsall", "install");
@@ -25098,6 +25104,8 @@ namespace OverflowHelper.core
             correctionAdd("charachter set", "character set");
             correctionAdd("charachterSet", "character set");
             correctionAdd("charachter Set", "character set");
+            correctionAdd("chaset", "character set");
+            correctionAdd("charset", "character set");
 
             correctionAdd("erraneous", "erroneous");
 
@@ -28299,6 +28307,7 @@ namespace OverflowHelper.core
 
             correctionAdd("roll-back", "roll back");
             correctionAdd("rollback", "roll back");
+            correctionAdd("rool back", "roll back");
 
             correctionAdd("Dunning kruger effekt", "Dunning–Kruger effect");
 
@@ -31343,6 +31352,7 @@ namespace OverflowHelper.core
             correctionAdd("framework7", "Framework7");
 
             correctionAdd("JS the good parts", "JavaScript: The Good Parts");
+            correctionAdd("JavaScript the Good parts", "JavaScript: The Good Parts");
 
             correctionAdd("joi", "Joi");
 
@@ -33911,6 +33921,7 @@ namespace OverflowHelper.core
             correctionAdd("da Vinci Resolve", "DaVinci Resolve");
             correctionAdd("DaVinici resolve", "DaVinci Resolve");
             correctionAdd("DaVinci resolve", "DaVinci Resolve");
+            correctionAdd("davinci resolve", "DaVinci Resolve");
 
             correctionAdd("glfw", "GLFW");
 
@@ -36342,6 +36353,27 @@ namespace OverflowHelper.core
 
             correctionAdd("toLowerCase()", "toLowerCase");
             correctionAdd("tolowercase", "toLowerCase");
+
+            correctionAdd("Gen Z", "Generation Z");
+            correctionAdd("gen z", "Generation Z");
+
+            correctionAdd("merriam-webster", "Merriam-Webster");
+            correctionAdd("merrian-webster", "Merriam-Webster");
+
+            correctionAdd("UTF7", "UTF-7");
+
+            correctionAdd("Xero Linux", "XeroLinux");
+
+            correctionAdd("a-ha", "aha");
+            correctionAdd("A-ha", "aha");
+
+            correctionAdd("aspect-ratio", "aspect ratio");
+
+            correctionAdd("ediot", "edit");
+
+            correctionAdd("envelop", "envelope");
+
+            correctionAdd("summerise", "summarise");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57163,6 +57195,24 @@ namespace OverflowHelper.core
             URL_Add("evolve", "https://en.wiktionary.org/wiki/evolve#Verb");
 
             URL_Add("toLowerCase", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase");
+
+            URL_Add("Generation Z", "https://en.wikipedia.org/wiki/Generation_Z");
+
+            URL_Add("Merriam-Webster", "https://en.wikipedia.org/wiki/Merriam-Webster");
+
+            URL_Add("UTF-7", "https://en.wikipedia.org/wiki/UTF-7");
+
+            URL_Add("XeroLinux", "https://xerolinux.xyz/");
+
+            URL_Add("aha", "https://en.wiktionary.org/wiki/aha#Interjection");
+
+            URL_Add("aspect ratio", "https://en.wiktionary.org/wiki/aspect_ratio#Noun");
+
+            URL_Add("edit", "https://en.wiktionary.org/wiki/edit#Verb");
+
+            URL_Add("envelope", "https://en.wiktionary.org/wiki/envelope#Noun");
+
+            URL_Add("summarise", "https://en.wiktionary.org/wiki/summarise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
