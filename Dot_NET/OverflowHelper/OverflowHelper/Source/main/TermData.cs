@@ -3420,10 +3420,16 @@ namespace OverflowHelper.core
 
             correctionAdd("PIP", "pip"); // Not actually observed. The Python thing.
 
+            // Note: Some confusion between the concept "virtual environment"
+            //       and more than one Python package that implements it.
             correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
             correctionAdd("virtualENV", "virtualenv");
             correctionAdd("virt env", "virtualenv");
             correctionAdd("virtual env", "virtualenv");
+
+            correctionAdd("Venv", "venv");
+            correctionAdd("Virtual Environment", "venv");
+            correctionAdd("virtual environment", "venv");
 
             correctionAdd("r", "R"); // Not actually observed.
 
@@ -4088,6 +4094,7 @@ namespace OverflowHelper.core
             correctionAdd("Appl", "application");
             correctionAdd("appl", "application");
             correctionAdd("Application", "application");
+            correctionAdd("appi", "application");
 
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
@@ -6804,6 +6811,11 @@ namespace OverflowHelper.core
             correctionAdd("FORTRAN", "Fortran");
             correctionAdd("fortran", "Fortran");
             correctionAdd("fotran", "Fortran");
+            correctionAdd("FORTAN", "Fortran");
+
+            correctionAdd("GNU Fortran", "GFortran");
+            correctionAdd("gfortran", "GFortran");
+            correctionAdd("Gfortran", "GFortran");
 
             correctionAdd("dc", "DC"); // Note: Collision with "domain controller" (Windows Server).
             correctionAdd("Dc", "DC");
@@ -9320,6 +9332,10 @@ namespace OverflowHelper.core
             correctionAdd("english", "English");
             correctionAdd("Englisch", "English");
             correctionAdd("emglish", "English");
+            correctionAdd("Englis", "English");
+
+            correctionAdd("non-english", "non-English");
+            correctionAdd("nonenglish", "non-English");
 
             correctionAdd("lets", "let’s");
             correctionAdd("let's", "let’s");
@@ -14633,6 +14649,7 @@ namespace OverflowHelper.core
             correctionAdd("calulation", "calculation");
 
             correctionAdd("childd", "child");
+            correctionAdd("childe", "child");
 
             correctionAdd("contruct", "construct");
             correctionAdd("constuct", "construct");
@@ -14678,6 +14695,7 @@ namespace OverflowHelper.core
             correctionAdd("linux and unix", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix and linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix.SE", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("UNIX & Linux", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -20759,8 +20777,6 @@ namespace OverflowHelper.core
             correctionAdd("co-worker", "coworker");
             correctionAdd("Coworker", "coworker");
 
-            correctionAdd("Venv", "venv");
-
             correctionAdd("frb", "FRB");
             correctionAdd("fast radio burst", "FRB");
 
@@ -24302,9 +24318,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Joule", "joule");
 
-            correctionAdd("non-english", "non-English");
-            correctionAdd("nonenglish", "non-English");
-
             correctionAdd("rase", "raise");
 
             correctionAdd("rases", "raises");
@@ -26123,6 +26136,7 @@ namespace OverflowHelper.core
             correctionAdd("theree", "there");
             correctionAdd("threr", "there");
             correctionAdd("therr", "there");
+            correctionAdd("Ther", "there");
 
             correctionAdd("Python Anywhere", "PythonAnywhere");
 
@@ -33292,6 +33306,8 @@ namespace OverflowHelper.core
             correctionAdd("STANDARD MODE", "standards mode");
 
             correctionAdd("statemachine", "state machine");
+            correctionAdd("finite-state machine", "state machine");
+            correctionAdd("FSM", "state machine");
 
             correctionAdd("truckin'", "trucking");
 
@@ -33819,10 +33835,6 @@ namespace OverflowHelper.core
             correctionAdd("Variational Bayes", "variational Bayes");
 
             correctionAdd("eviews", "EViews");
-
-            correctionAdd("GNU Fortran", "GFortran");
-            correctionAdd("gfortran", "GFortran");
-            correctionAdd("Gfortran", "GFortran");
 
             correctionAdd("github desktop", "GitHub Desktop");
             correctionAdd("Git Desktop", "GitHub Desktop");
@@ -36374,6 +36386,23 @@ namespace OverflowHelper.core
             correctionAdd("envelop", "envelope");
 
             correctionAdd("summerise", "summarise");
+
+            correctionAdd("twenty-four seven", "24/7");
+
+            correctionAdd("Mealy Machine", "Mealy machine");
+
+            correctionAdd("Moore Machine", "Moore machine");
+
+            correctionAdd("anonumised", "anonymised");
+
+            correctionAdd("in short-order", "in short order");
+            correctionAdd("in very short-order", "in short order");
+
+            correctionAdd("Music", "music");
+
+            correctionAdd("thise", "these");
+
+            correctionAdd("underlieng", "underlying");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57213,6 +57242,22 @@ namespace OverflowHelper.core
             URL_Add("envelope", "https://en.wiktionary.org/wiki/envelope#Noun");
 
             URL_Add("summarise", "https://en.wiktionary.org/wiki/summarise#Verb");
+
+            URL_Add("24/7", "https://en.wiktionary.org/wiki/twenty-four_seven#Adverb");
+
+            URL_Add("Mealy machine", "https://en.wikipedia.org/wiki/Mealy_machine");
+
+            URL_Add("Moore machine", "https://en.wikipedia.org/wiki/Moore_machine");
+
+            URL_Add("anonymised", "https://en.wiktionary.org/wiki/anonymise#Verb");
+
+            URL_Add("in short order", "https://en.wiktionary.org/wiki/in_short_order#Adverb");
+
+            URL_Add("music", "https://en.wiktionary.org/wiki/music#Noun");
+
+            URL_Add("these", "https://en.wiktionary.org/wiki/these#Determiner");
+
+            URL_Add("underlying", "https://en.wiktionary.org/wiki/underlying#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
