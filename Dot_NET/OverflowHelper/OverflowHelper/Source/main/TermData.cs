@@ -18109,6 +18109,8 @@ namespace OverflowHelper.core
             correctionAdd("Tailwind", "Tailwind CSS");
             correctionAdd("tailwind css", "Tailwind CSS");
             correctionAdd("tailwindCSS", "Tailwind CSS");
+            correctionAdd("Tailwindcss", "Tailwind CSS");
+            correctionAdd("tailwindcss", "Tailwind CSS");
 
             correctionAdd("waybackmachine", "Wayback Machine");
             correctionAdd("wayback machine", "Wayback Machine");
@@ -21601,6 +21603,7 @@ namespace OverflowHelper.core
             correctionAdd("rigth", "right");
             correctionAdd("rght", "right");
             correctionAdd("riht", "right");
+            correctionAdd("righ", "right");
 
             correctionAdd("strick", "strict");
 
@@ -22775,6 +22778,7 @@ namespace OverflowHelper.core
             correctionAdd("dfferent", "different");
             correctionAdd("diferrent", "different");
             correctionAdd("differrent", "different");
+            correctionAdd("differnet", "different");
 
             correctionAdd("lsb", "LSB");
 
@@ -36403,6 +36407,47 @@ namespace OverflowHelper.core
             correctionAdd("thise", "these");
 
             correctionAdd("underlieng", "underlying");
+
+            correctionAdd("amiga", "Amiga");
+
+            correctionAdd("Kildall", "Gary Kildall");
+
+            correctionAdd("ik", "I know");
+
+            correctionAdd("south carolina", "South Carolina");
+
+            correctionAdd("shadow of a doubt", "beyond a shadow of a doubt");
+
+            correctionAdd("dail", "dial");
+
+            correctionAdd("Exoplanet", "exoplanet");
+            correctionAdd("Exo planet", "exoplanet");
+
+            correctionAdd("finsished", "finished");
+
+            correctionAdd("die on a pyre", "hill to die on");
+
+            correctionAdd("lagre", "large");
+            correctionAdd("Lagre", "large");
+
+            correctionAdd("Measuring", "measuring");
+
+            correctionAdd("micros", "microcomputers");
+
+            correctionAdd("non-functional", "nonfunctional");
+
+            correctionAdd("optimization", "optimisation");
+            correctionAdd("optmization", "optimisation");
+
+            correctionAdd("re-word", "reword");
+
+            correctionAdd("uA741", "μA741");
+            correctionAdd("ua741", "μA741");
+            correctionAdd("741", "μA741");
+            correctionAdd("UA-741", "μA741");
+            correctionAdd("UA 741", "μA741");
+            correctionAdd("LM741", "μA741");
+            correctionAdd("lm741", "μA741");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57258,6 +57303,38 @@ namespace OverflowHelper.core
             URL_Add("these", "https://en.wiktionary.org/wiki/these#Determiner");
 
             URL_Add("underlying", "https://en.wiktionary.org/wiki/underlying#Adjective");
+
+            URL_Add("Amiga", "https://en.wikipedia.org/wiki/Amiga");
+
+            URL_Add("Gary Kildall", "https://en.wikipedia.org/wiki/Gary_Kildall");
+
+            URL_Add("I know", "https://en.wiktionary.org/wiki/I_know#Phrase");
+
+            URL_Add("South Carolina", "https://en.wikipedia.org/wiki/South_Carolina");
+
+            URL_Add("beyond a shadow of a doubt", "https://en.wiktionary.org/wiki/beyond_a_shadow_of_a_doubt#Prepositional_phrase");
+
+            URL_Add("dial", "https://en.wiktionary.org/wiki/dial#Verb");
+
+            URL_Add("exoplanet", "https://en.wikipedia.org/wiki/Exoplanet");
+
+            URL_Add("finished", "https://en.wiktionary.org/wiki/finish#Verb");
+
+            URL_Add("hill to die on", "https://en.wiktionary.org/wiki/hill_to_die_on#Noun");
+
+            URL_Add("large", "https://en.wiktionary.org/wiki/large#Adjective");
+
+            URL_Add("measuring", "https://en.wiktionary.org/wiki/measure#Verb");
+
+            URL_Add("microcomputers", "https://en.wikipedia.org/wiki/Microcomputer");
+
+            URL_Add("nonfunctional", "https://en.wiktionary.org/wiki/nonfunctional#Adjective");
+
+            URL_Add("optimisation", "https://en.wiktionary.org/wiki/optimisation#Noun");
+
+            URL_Add("reword", "https://en.wiktionary.org/wiki/reword#Verb");
+
+            URL_Add("μA741", "https://en.wikipedia.org/wiki/Operational_amplifier#Internal_circuitry_of_741-type_op_amp");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
