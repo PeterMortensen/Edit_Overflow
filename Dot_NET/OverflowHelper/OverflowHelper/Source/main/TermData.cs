@@ -4291,23 +4291,6 @@ namespace OverflowHelper.core
                                              // it could mean Internet Explorer instead.
             correctionAdd("WINDOWS EXPLORER", "Windows&nbsp;Explorer");
 
-            correctionAdd("repo", "repository");
-            correctionAdd("Repo", "repository");
-            correctionAdd("repositary", "repository");
-            correctionAdd("respositary", "repository");
-            correctionAdd("respository", "repository");
-            correctionAdd("repoositry", "repository");
-            correctionAdd("repsoitory", "repository");
-            correctionAdd("reposity", "repository");
-            correctionAdd("repositoy", "repository");
-            correctionAdd("repositoritory", "repository");
-            correctionAdd("repoistory", "repository");
-            correctionAdd("repositorie", "repository");
-            correctionAdd("repertory", "repository");
-            correctionAdd("reposiory", "repository");
-            correctionAdd("REPO", "repository");
-            correctionAdd("reposiotry", "repository");
-
             correctionAdd("wmd", "WMD");
 
             correctionAdd("zedgraph", "ZedGraph");
@@ -5155,11 +5138,128 @@ namespace OverflowHelper.core
             correctionAdd("NVidia", "Nvidia");
             correctionAdd("Nvivdia", "Nvidia");
 
+            correctionAdd("Try", "try");
+            correctionAdd("Tray", "try");
+            correctionAdd("tray", "try");
+            correctionAdd("trie", "try");
+
             correctionAdd("registery", "Windows Registry");
             correctionAdd("registry", "Windows Registry");
             correctionAdd("regestry", "Windows Registry");
             correctionAdd("Registry", "Windows Registry");
             correctionAdd("Windows registry", "Windows Registry");
+
+            correctionAdd("circutry", "circuitry");
+
+            correctionAdd("OC", "organic chemistry");
+
+            correctionAdd("Chemistry", "chemistry");
+
+            correctionAdd("repo", "repository");
+            correctionAdd("Repo", "repository");
+            correctionAdd("repositary", "repository");
+            correctionAdd("respositary", "repository");
+            correctionAdd("respository", "repository");
+            correctionAdd("repoositry", "repository");
+            correctionAdd("repsoitory", "repository");
+            correctionAdd("reposity", "repository");
+            correctionAdd("repositoy", "repository");
+            correctionAdd("repositoritory", "repository");
+            correctionAdd("repoistory", "repository");
+            correctionAdd("repositorie", "repository");
+            correctionAdd("repertory", "repository");
+            correctionAdd("reposiory", "repository");
+            correctionAdd("REPO", "repository");
+            correctionAdd("reposiotry", "repository");
+
+            correctionAdd("sub-directories", "subdirectories");
+            correctionAdd("subdirs", "subdirectories");
+            correctionAdd("sibdirs", "subdirectories");
+
+            correctionAdd("sub directory", "subdirectory");
+            correctionAdd("subdir", "subdirectory");
+            correctionAdd("sub dir", "subdirectory");
+            correctionAdd("sibdir", "subdirectory");
+
+            correctionAdd("directx", "DirectX");
+            correctionAdd("direct x", "DirectX");
+            correctionAdd("directX", "DirectX");
+            correctionAdd("Direct X", "DirectX");
+
+            correctionAdd("Direct3d", "Direct3D");
+            correctionAdd("direct3d", "Direct3D");
+
+            correctionAdd("directy", "directly");
+            correctionAdd("direcly", "directly");
+            correctionAdd("directlly", "directly");
+            correctionAdd("derectly", "directly");
+            correctionAdd("direclty", "directly");
+            correctionAdd("directyl", "directly");
+
+            correctionAdd("cwd", "current working directory");
+            correctionAdd("CWD", "current working directory");
+            correctionAdd("pwd", "current working directory");
+            correctionAdd("Current working directory", "current working directory");
+            correctionAdd("Current Working Directory", "current working directory");
+
+            correctionAdd("ad", "Active Directory"); // Expansion.
+            correctionAdd("AD", "Active Directory"); // Expansion.
+            correctionAdd("active directory", "Active Directory");
+            correctionAdd("ActiveDirectory", "Active Directory");
+
+            correctionAdd("dir", "directory");
+            correctionAdd("directoty", "directory");
+            correctionAdd("diretory", "directory");
+            correctionAdd("direcoty", "directory");
+            correctionAdd("diretcory", "directory");
+            correctionAdd("directoy", "directory");
+            correctionAdd("dirctory", "directory");
+            correctionAdd("direcotry", "directory");
+            correctionAdd("diractory", "directory");
+            correctionAdd("DIR", "directory");
+            correctionAdd("director", "directory");
+
+            correctionAdd("dirs", "directories");
+            correctionAdd("direcotires", "directories");
+            correctionAdd("directorys", "directories");
+            correctionAdd("directores", "directories");
+            correctionAdd("diectories", "directories");
+
+            correctionAdd("simmetry", "symmetry");
+
+            correctionAdd("Biochemistry", "biochemistry");
+            correctionAdd("BioChem", "biochemistry");
+
+            correctionAdd("Biology", "biology");
+
+            correctionAdd("electro chemistry", "electrochemistry");
+
+            correctionAdd("tapestry", "Tapestry");
+
+            correctionAdd("Differential Geometry", "differential geometry");
+
+            correctionAdd("Geometry", "geometry");
+            correctionAdd("geoemetry", "geometry");
+
+            correctionAdd("reentry", "re-entry");
+
+            correctionAdd("ECR", "Amazon Elastic Container Registry");
+
+            correctionAdd("Spectrophotometry", "spectrophotometry");
+
+            correctionAdd("Industry", "industry");
+
+            correctionAdd("rudimentry", "rudimentary");
+
+            correctionAdd("poetry", "Poetry");
+
+            correctionAdd("assymetry", "asymmetry");
+
+            correctionAdd("zelotry", "zealotry");
+
+            correctionAdd("fan boy", "fanboy");
+
+            correctionAdd("asymetric", "asymmetric");
 
             correctionAdd("MS", "Microsoft"); // Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
             correctionAdd("ms", "Microsoft"); // Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
@@ -7831,6 +7931,11 @@ namespace OverflowHelper.core
             correctionAdd("balsamic", "Balsamiq"); // Spelling
 
             correctionAdd("omaha", "Omaha");
+
+            correctionAdd("a-ha", "aha");
+            correctionAdd("A-ha", "aha");
+            correctionAdd("AhHa", "aha");
+            correctionAdd("Aha", "aha");
 
             correctionAdd("digg", "Digg");
 
@@ -12820,6 +12925,7 @@ namespace OverflowHelper.core
             correctionAdd("proggramming", "programming");
             correctionAdd("prgramming", "programming");
             correctionAdd("protramming", "programming");
+            correctionAdd("Programming", "programming");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -13998,6 +14104,9 @@ namespace OverflowHelper.core
             correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
             correctionAdd("8859", "ISO&nbsp;8859-1");
             correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO/IEC-8859", "ISO&nbsp;8859-1");
+            correctionAdd("IEC-8859", "ISO&nbsp;8859-1");
+            correctionAdd("ISO-8859", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -16011,6 +16120,7 @@ namespace OverflowHelper.core
             correctionAdd("Many", "many");
             correctionAdd("manay", "many");
             correctionAdd("meny", "many");
+            correctionAdd("mant", "many");
 
             correctionAdd("telco", "telecommunications company");
 
@@ -19365,8 +19475,6 @@ namespace OverflowHelper.core
             correctionAdd("indie web", "IndieWeb");
             correctionAdd("Indie Web", "IndieWeb");
             correctionAdd("indieweb", "IndieWeb");
-
-            correctionAdd("circutry", "circuitry");
 
             correctionAdd("Hodl", "hodl");
 
@@ -22730,8 +22838,6 @@ namespace OverflowHelper.core
             correctionAdd("onf", "of");
             correctionAdd("ot", "of");
 
-            correctionAdd("OC", "organic chemistry");
-
             correctionAdd("re-ask", "reask");
 
             correctionAdd("Codesandbox", "CodeSandbox");
@@ -24315,8 +24421,6 @@ namespace OverflowHelper.core
 
             correctionAdd("brake bread", "break bread");
 
-            correctionAdd("Chemistry", "chemistry");
-
             correctionAdd("emisionem", "emission");
             correctionAdd("emmision", "emission");
 
@@ -24485,10 +24589,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stabilty", "stability");
             correctionAdd("staibility", "stability");
-
-            correctionAdd("zelotry", "zealotry");
-
-            correctionAdd("fan boy", "fanboy");
 
             correctionAdd("Electronics", "electronics");
 
@@ -24904,58 +25004,6 @@ namespace OverflowHelper.core
 
             correctionAdd("consumptation", "consumption");
 
-            correctionAdd("sub-directories", "subdirectories");
-            correctionAdd("subdirs", "subdirectories");
-            correctionAdd("sibdirs", "subdirectories");
-
-            correctionAdd("sub directory", "subdirectory");
-            correctionAdd("subdir", "subdirectory");
-            correctionAdd("sub dir", "subdirectory");
-            correctionAdd("sibdir", "subdirectory");
-
-            correctionAdd("directx", "DirectX");
-            correctionAdd("direct x", "DirectX");
-            correctionAdd("directX", "DirectX");
-            correctionAdd("Direct X", "DirectX");
-
-            correctionAdd("Direct3d", "Direct3D");
-            correctionAdd("direct3d", "Direct3D");
-
-            correctionAdd("directy", "directly");
-            correctionAdd("direcly", "directly");
-            correctionAdd("directlly", "directly");
-            correctionAdd("derectly", "directly");
-            correctionAdd("direclty", "directly");
-
-            correctionAdd("cwd", "current working directory");
-            correctionAdd("CWD", "current working directory");
-            correctionAdd("pwd", "current working directory");
-            correctionAdd("Current working directory", "current working directory");
-            correctionAdd("Current Working Directory", "current working directory");
-
-            correctionAdd("ad", "Active Directory"); // Expansion.
-            correctionAdd("AD", "Active Directory"); // Expansion.
-            correctionAdd("active directory", "Active Directory");
-            correctionAdd("ActiveDirectory", "Active Directory");
-
-            correctionAdd("dir", "directory");
-            correctionAdd("directoty", "directory");
-            correctionAdd("diretory", "directory");
-            correctionAdd("direcoty", "directory");
-            correctionAdd("diretcory", "directory");
-            correctionAdd("directoy", "directory");
-            correctionAdd("dirctory", "directory");
-            correctionAdd("direcotry", "directory");
-            correctionAdd("diractory", "directory");
-            correctionAdd("DIR", "directory");
-            correctionAdd("director", "directory");
-
-            correctionAdd("dirs", "directories");
-            correctionAdd("direcotires", "directories");
-            correctionAdd("directorys", "directories");
-            correctionAdd("directores", "directories");
-            correctionAdd("diectories", "directories");
-
             correctionAdd("effictiently", "efficiently");
             correctionAdd("effectiently", "efficiently");
             correctionAdd("efficientlly", "efficiently");
@@ -25070,8 +25118,6 @@ namespace OverflowHelper.core
             correctionAdd("sop", "standard operating procedure");
             correctionAdd("SOP", "standard operating procedure");
 
-            correctionAdd("simmetry", "symmetry");
-
             correctionAdd("tabu", "taboo");
 
             correctionAdd("under perform", "underperform");
@@ -25161,13 +25207,6 @@ namespace OverflowHelper.core
             correctionAdd("tower", "Tower");
 
             correctionAdd("adviced", "advised");
-
-            correctionAdd("Biochemistry", "biochemistry");
-            correctionAdd("BioChem", "biochemistry");
-
-            correctionAdd("Biology", "biology");
-
-            correctionAdd("Bleach", "bleach");
 
             correctionAdd("CG", "center of gravity");
             correctionAdd("c.g", "center of gravity");
@@ -28784,8 +28823,6 @@ namespace OverflowHelper.core
 
             correctionAdd("draconic", "draconian");
 
-            correctionAdd("electro chemistry", "electrochemistry");
-
             correctionAdd("feedbacks", "feedback");
             correctionAdd("feed back", "feedback");
             correctionAdd("feeback", "feedback");
@@ -30054,8 +30091,6 @@ namespace OverflowHelper.core
 
             correctionAdd("truck load", "truckload");
 
-            correctionAdd("Try", "try");
-
             correctionAdd("Use", "use");
 
             correctionAdd("YTD", "year-to-date");
@@ -30717,8 +30752,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jahia", "Jahia");
 
-            correctionAdd("tapestry", "Tapestry");
-
             correctionAdd("bash_profile", ".bash_profile");
 
             correctionAdd("Ion", "Amazon Ion");
@@ -31255,11 +31288,6 @@ namespace OverflowHelper.core
             correctionAdd("Steve Arino", "Steve Gibson");
 
             correctionAdd("adinfinitum", "ad infinitum");
-
-            correctionAdd("Differential Geometry", "differential geometry");
-
-            correctionAdd("Geometry", "geometry");
-            correctionAdd("geoemetry", "geometry");
 
             correctionAdd("eachothers", "each other's");
 
@@ -32832,8 +32860,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Lunar", "lunar");
 
-            correctionAdd("reentry", "re-entry");
-
             correctionAdd("whent", "went");
 
             correctionAdd("De Lorean", "DeLorean");
@@ -32983,8 +33009,6 @@ namespace OverflowHelper.core
             correctionAdd("wateing", "waiting");
 
             correctionAdd("work tree", "worktree");
-
-            correctionAdd("ECR", "Amazon Elastic Container Registry");
 
             correctionAdd("basheclipse", "BashEclipse");
             correctionAdd("Basheclipse", "BashEclipse");
@@ -33481,10 +33505,6 @@ namespace OverflowHelper.core
             correctionAdd("WinRT XAML", "WinUI");
             correctionAdd("UWP XAML", "WinUI");
             correctionAdd("winui", "WinUI");
-
-            correctionAdd("asymetric", "asymmetric");
-
-            correctionAdd("assymetry", "asymmetry");
 
             correctionAdd("at the time of this writing", "at the time of writing");
             correctionAdd("At the time of writing", "at the time of writing");
@@ -34091,8 +34111,6 @@ namespace OverflowHelper.core
             correctionAdd("heding", "heading");
 
             correctionAdd("Specialty", "specialty");
-
-            correctionAdd("Spectrophotometry", "spectrophotometry");
 
             correctionAdd("alacritty", "Alacritty");
 
@@ -35547,8 +35565,6 @@ namespace OverflowHelper.core
 
             correctionAdd("head-over-heels", "head over heels");
 
-            correctionAdd("Industry", "industry");
-
             correctionAdd("Mainland China", "mainland China");
 
             correctionAdd("Positron", "positron");
@@ -35914,8 +35930,6 @@ namespace OverflowHelper.core
             correctionAdd("Endeless", "endless");
 
             correctionAdd("non alphabetic", "nonalphabetic");
-
-            correctionAdd("rudimentry", "rudimentary");
 
             correctionAdd("Docstring", "docstring");
 
@@ -36316,8 +36330,6 @@ namespace OverflowHelper.core
             correctionAdd("tie-break", "tiebreak");
             correctionAdd("tie break", "tiebreak");
 
-            correctionAdd("poetry", "Poetry");
-
             correctionAdd("auto-delete", "autodelete");
             correctionAdd("auto delete", "autodelete");
 
@@ -36379,9 +36391,6 @@ namespace OverflowHelper.core
             correctionAdd("UTF7", "UTF-7");
 
             correctionAdd("Xero Linux", "XeroLinux");
-
-            correctionAdd("a-ha", "aha");
-            correctionAdd("A-ha", "aha");
 
             correctionAdd("aspect-ratio", "aspect ratio");
 
@@ -36448,6 +36457,32 @@ namespace OverflowHelper.core
             correctionAdd("UA 741", "μA741");
             correctionAdd("LM741", "μA741");
             correctionAdd("lm741", "μA741");
+
+            correctionAdd("Commons Lang", "Apache Commons Lang");
+
+            correctionAdd("Apple M1 max", "Apple M1 Max");
+
+            correctionAdd("Apple M1 pro", "Apple M1 Pro");
+
+            correctionAdd("ebcdic", "EBCDIC");
+
+            correctionAdd("NonStop", "NonStop SQL");
+
+            correctionAdd("ZummerZet", "Somerset");
+
+            correctionAdd("ucs", "UCS");
+
+            correctionAdd("CP-1251", "Windows-1251");
+
+            correctionAdd("CP-1253", "Windows-1253");
+
+            correctionAdd("A.out", "a.out");
+
+            correctionAdd("endian-ness", "endianness");
+
+            correctionAdd("G++", "g++");
+
+            correctionAdd("parallelize", "parallelise");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -36976,6 +37011,8 @@ namespace OverflowHelper.core
             correctionAdd("omicron", "Omicron variant"); // Coronavirus
 
             correctionAdd("Walrus operator", "walrus operator");
+
+            correctionAdd("Bleach", "bleach");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -57335,6 +57372,32 @@ namespace OverflowHelper.core
             URL_Add("reword", "https://en.wiktionary.org/wiki/reword#Verb");
 
             URL_Add("μA741", "https://en.wikipedia.org/wiki/Operational_amplifier#Internal_circuitry_of_741-type_op_amp");
+
+            URL_Add("Apache Commons Lang", "https://en.wikipedia.org/wiki/Apache_Commons#Commons_Proper");
+
+            URL_Add("Apple M1 Max", "https://en.wikipedia.org/wiki/Apple_M1_Pro_and_M1_Max");
+
+            URL_Add("Apple M1 Pro", "https://en.wikipedia.org/wiki/Apple_M1_Pro_and_M1_Max");
+
+            URL_Add("EBCDIC", "https://en.wikipedia.org/wiki/EBCDIC");
+
+            URL_Add("NonStop SQL", "https://en.wikipedia.org/wiki/NonStop_SQL");
+
+            URL_Add("Somerset", "https://en.wikipedia.org/wiki/Somerset");
+
+            URL_Add("UCS", "https://en.wikipedia.org/wiki/Universal_Coded_Character_Set");
+
+            URL_Add("Windows-1251", "https://en.wikipedia.org/wiki/Windows-1251");
+
+            URL_Add("Windows-1253", "https://en.wikipedia.org/wiki/Windows-1253");
+
+            URL_Add("a.out", "https://en.wikipedia.org/wiki/A.out");
+
+            URL_Add("endianness", "https://en.wiktionary.org/wiki/endianness#Noun");
+
+            URL_Add("g++", "https://www.cprogramming.com/g++.html");
+
+            URL_Add("parallelise", "https://en.wiktionary.org/wiki/parallelise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
