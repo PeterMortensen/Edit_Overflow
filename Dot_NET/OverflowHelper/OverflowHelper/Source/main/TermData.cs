@@ -1670,6 +1670,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("Mac OS X 10.13", "macOS v10.13 (High Sierra)");
             correctionAdd("OS X 10.13", "macOS v10.13 (High Sierra)");
+            correctionAdd("Mac High Sierra", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -5019,6 +5020,7 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta.Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
 
             correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
@@ -5604,6 +5606,7 @@ namespace OverflowHelper.core
             correctionAdd("ocaml", "OCaml");
             correctionAdd("OCaML", "OCaml");
             correctionAdd("Ocaml", "OCaml");
+            correctionAdd("Objective Caml", "OCaml");
 
             correctionAdd("boo", "Boo");
 
@@ -9246,6 +9249,7 @@ namespace OverflowHelper.core
             correctionAdd("Givernment", "government");
             correctionAdd("Gouverment", "government");
             correctionAdd("governement", "government");
+            correctionAdd("Gov", "government");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -12422,6 +12426,7 @@ namespace OverflowHelper.core
             correctionAdd("Belo", "below");
             correctionAdd("belo", "below");
             correctionAdd("beliow", "below");
+            correctionAdd("Below", "below");
 
             correctionAdd("communciate", "communicate");
             correctionAdd("commuicate", "communicate");
@@ -14096,17 +14101,18 @@ namespace OverflowHelper.core
 
             correctionAdd("ISO-8859-1", "ISO&nbsp;8859-1");
             correctionAdd("ISO 8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859", "ISO&nbsp;8859-1");
             correctionAdd("ISO 8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso 8859", "ISO&nbsp;8859-1");
             correctionAdd("ISO8859", "ISO&nbsp;8859-1");
-            correctionAdd("8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
             correctionAdd("ISO/IEC-8859", "ISO&nbsp;8859-1");
             correctionAdd("IEC-8859", "ISO&nbsp;8859-1");
             correctionAdd("ISO-8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso 8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
+            correctionAdd("8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("8859", "ISO&nbsp;8859-1");
+            correctionAdd("8851", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -16049,6 +16055,7 @@ namespace OverflowHelper.core
             correctionAdd("Everythink", "everything");
             correctionAdd("everythink", "everything");
             correctionAdd("evreything", "everything");
+            correctionAdd("everyything", "everything");
 
             correctionAdd("thig", "thing");
             correctionAdd("thang", "thing");
@@ -24570,6 +24577,7 @@ namespace OverflowHelper.core
             correctionAdd("iliteracy", "illiteracy");
 
             correctionAdd("manufactuer", "manufacturer");
+            correctionAdd("manifacturer", "manufacturer");
 
             correctionAdd("mold", "mould");
 
@@ -26302,6 +26310,7 @@ namespace OverflowHelper.core
 
             correctionAdd("codepoint", "code point");
             correctionAdd("Unicode code point", "code point");
+            correctionAdd("Code Point", "code point");
 
             correctionAdd("insure", "ensure");
 
@@ -28565,6 +28574,7 @@ namespace OverflowHelper.core
             correctionAdd("antromorphic", "anthropomorphic");
 
             correctionAdd("change log", "changelog");
+            correctionAdd("Changelog", "changelog");
 
             correctionAdd("illinformed", "ill-informed");
 
@@ -30363,6 +30373,7 @@ namespace OverflowHelper.core
             correctionAdd("appraoches", "approaches");
 
             correctionAdd("code Page", "code page");
+            correctionAdd("codepage", "code page");
 
             correctionAdd("Curly", "curly");
 
@@ -31394,6 +31405,7 @@ namespace OverflowHelper.core
             correctionAdd("Quantum field", "quantum field");
 
             correctionAdd("QFT", "quantum field theory");
+            correctionAdd("Quantum Field Theory", "quantum field theory");
 
             correctionAdd("framework7", "Framework7");
 
@@ -32478,6 +32490,7 @@ namespace OverflowHelper.core
             correctionAdd("SuPHP", "suPHP");
 
             correctionAdd("testet", "tested");
+            correctionAdd("testes", "tested");
 
             correctionAdd("emiting", "emitting");
             correctionAdd("emmiting", "emitting");
@@ -36473,6 +36486,7 @@ namespace OverflowHelper.core
             correctionAdd("ucs", "UCS");
 
             correctionAdd("CP-1251", "Windows-1251");
+            correctionAdd("1251", "Windows-1251");
 
             correctionAdd("CP-1253", "Windows-1253");
 
@@ -36483,6 +36497,41 @@ namespace OverflowHelper.core
             correctionAdd("G++", "g++");
 
             correctionAdd("parallelize", "parallelise");
+            correctionAdd("parallize", "parallelise");
+
+            correctionAdd("AWS CLI", "AWS Command Line Interface");
+
+            correctionAdd("tcxo", "TCXO");
+
+            correctionAdd("cross-section", "cross section");
+            correctionAdd("crossection", "cross section");
+            correctionAdd("cros-section", "cross section");
+            correctionAdd("crosssection", "cross section");
+
+            correctionAdd("mb_convert_encoding()", "mb_convert_encoding");
+
+            correctionAdd("OCXO", "oven-controlled crystal oscillator");
+
+            correctionAdd("RTC", "real-time clock");
+
+            correctionAdd("brother", "sibling");
+
+            correctionAdd("stable-ize", "stabilize");
+
+            correctionAdd("remove salutations", "Should 'Hi', 'thanks', taglines, and salutations be removed from posts?");
+
+            correctionAdd("six to eight", "6 - 8 weeks");
+            correctionAdd("6-8", "6 - 8 weeks");
+            correctionAdd("6 - 8", "6 - 8 weeks");
+            correctionAdd("6 – 8 weeks", "6 - 8 weeks");
+            correctionAdd("6 - 8 Weeks", "6 - 8 weeks");
+
+            correctionAdd("freind", "friend");
+
+            correctionAdd("iBurst", "iburst");
+            correctionAdd("IBURST", "iburst");
+
+            correctionAdd("unrepentably", "unrepentantly");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57399,6 +57448,32 @@ namespace OverflowHelper.core
 
             URL_Add("parallelise", "https://en.wiktionary.org/wiki/parallelise#Verb");
 
+            URL_Add("6 - 8 weeks", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19514#19514");
+
+            URL_Add("AWS Command Line Interface", "https://aws.amazon.com/cli/");
+
+            URL_Add("Should 'Hi', 'thanks', taglines, and salutations be removed from posts?", "https://meta.stackexchange.com/questions/2950/");
+
+            URL_Add("TCXO", "https://en.wikipedia.org/wiki/Crystal_oscillator#Crystal_oscillator_circuits");
+
+            URL_Add("cross section", "https://en.wiktionary.org/wiki/cross_section#Noun");
+
+            URL_Add("mb_convert_encoding", "https://www.php.net/manual/en/function.mb-convert-encoding.php");
+
+            URL_Add("oven-controlled crystal oscillator", "https://en.wikipedia.org/wiki/Crystal_oven");
+
+            URL_Add("real-time clock", "https://en.wikipedia.org/wiki/Real-time_clock");
+
+            URL_Add("sibling", "https://en.wiktionary.org/wiki/sibling#Noun");
+
+            URL_Add("stabilize", "https://en.wiktionary.org/wiki/stabilize#Verb");
+
+            URL_Add("friend", "https://en.wiktionary.org/wiki/friend#Noun");
+
+            URL_Add("iburst", "https://www.eecis.udel.edu/~mills/ntp/html/assoc.html#burst");
+
+            URL_Add("unrepentantly", "https://en.wiktionary.org/wiki/unrepentantly#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -57759,6 +57834,20 @@ namespace OverflowHelper.core
 
             correctionAdd("cargo_", "Cargo_");
 
+            correctionAdd("K-map_", "Karnaugh map_");
+            correctionAdd("kmap_", "Karnaugh map_");
+            correctionAdd("KM_", "Karnaugh map_");
+
+            correctionAdd("advices_", "advice_");
+
+            correctionAdd("Go around_", "go-around_");
+
+            correctionAdd("MSE_", "mean squared error_");
+            correctionAdd("Mean Squares Error_", "mean squared error_");
+
+            correctionAdd("BMP_", "Basic Multilingual Plane_");
+            correctionAdd("basic multilingual plane_", "Basic Multilingual Plane_");
+
             // URL mappings
             //
             //
@@ -58007,6 +58096,16 @@ namespace OverflowHelper.core
             URL_Add("out_", "https://en.wiktionary.org/wiki/out#Adverb");
 
             URL_Add("Cargo_", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Cargo");
+
+            URL_Add("Karnaugh map_", "https://en.wikipedia.org/wiki/Karnaugh_map");
+
+            URL_Add("advice_", "https://en.wiktionary.org/wiki/advice#Noun");
+
+            URL_Add("go-around_", "https://en.wikipedia.org/wiki/Go-around");
+
+            URL_Add("mean squared error_", "https://en.wikipedia.org/wiki/Mean_squared_error");
+
+            URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
 
         } //addLookupData_alternativeWordSet()
 
