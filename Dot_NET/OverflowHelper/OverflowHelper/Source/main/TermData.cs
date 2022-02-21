@@ -10066,6 +10066,7 @@ namespace OverflowHelper.core
             correctionAdd("Ph.D", "Ph.D.");
 
             correctionAdd("togheter", "together");
+            correctionAdd("togeather", "together");
 
             correctionAdd("follownig", "following");
             correctionAdd("follwoing", "following");
@@ -12896,6 +12897,7 @@ namespace OverflowHelper.core
             correctionAdd("instaed", "instead");
             correctionAdd("In stead", "instead");
             correctionAdd("Instead", "instead");
+            correctionAdd("I stead", "instead");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -13320,6 +13322,7 @@ namespace OverflowHelper.core
             correctionAdd("discoverd", "discovered");
 
             correctionAdd("descrete", "discrete");
+            correctionAdd("Discrete", "discrete");
 
             correctionAdd("litle", "little");
             correctionAdd("litte", "little");
@@ -14762,6 +14765,7 @@ namespace OverflowHelper.core
             correctionAdd("buddhist", "Buddhist");
 
             correctionAdd("calulation", "calculation");
+            correctionAdd("caluclation", "calculation");
 
             correctionAdd("childd", "child");
             correctionAdd("childe", "child");
@@ -17929,6 +17933,7 @@ namespace OverflowHelper.core
             correctionAdd("ising", "using");
             correctionAdd("sing", "using");
             correctionAdd("usigin", "using");
+            correctionAdd("suign", "using");
 
             correctionAdd("udemy", "Udemy");
             correctionAdd("udmey", "Udemy");
@@ -21629,6 +21634,7 @@ namespace OverflowHelper.core
             correctionAdd("Theb", "the");
             correctionAdd("ht", "the");
             correctionAdd("th", "the");
+            correctionAdd("thae", "the");
 
             correctionAdd("vaild", "valid"); // True typo
 
@@ -27708,6 +27714,7 @@ namespace OverflowHelper.core
             correctionAdd("tel aviv", "Tel Aviv");
 
             correctionAdd("exponental", "exponential");
+            correctionAdd("expnonential", "exponential");
 
             correctionAdd("heresay", "hearsay");
 
@@ -32247,6 +32254,7 @@ namespace OverflowHelper.core
             correctionAdd("cannoth", "cannot");
 
             correctionAdd("combinatorical", "combinatorial");
+            correctionAdd("Combinatorial", "combinatorial");
 
             correctionAdd("eigen state", "eigenstate");
 
@@ -36517,6 +36525,9 @@ namespace OverflowHelper.core
             correctionAdd("brother", "sibling");
 
             correctionAdd("stable-ize", "stabilize");
+            correctionAdd("stablize", "stabilize");
+            correctionAdd("stablise", "stabilize");
+            correctionAdd("stabilise", "stabilize");
 
             correctionAdd("remove salutations", "Should 'Hi', 'thanks', taglines, and salutations be removed from posts?");
 
@@ -36532,6 +36543,61 @@ namespace OverflowHelper.core
             correctionAdd("IBURST", "iburst");
 
             correctionAdd("unrepentably", "unrepentantly");
+
+            correctionAdd("PicoCLI", "Picocli");
+            correctionAdd("PicoCli", "Picocli");
+            correctionAdd("picocli", "Picocli");
+
+            correctionAdd("TI Sitara", "Sitara");
+
+            correctionAdd("Yom Kippur war", "Yom Kippur War");
+
+            correctionAdd("as far as I'm considered", "as far as I'm concerned");
+
+            correctionAdd("Basket", "basket");
+
+            correctionAdd("bass-guitar", "bass guitar");
+
+            correctionAdd("discuss-able", "discussable");
+
+            correctionAdd("Electric", "electric");
+
+            correctionAdd("Electrostaic", "electrostatic");
+            correctionAdd("Electrostatic", "electrostatic");
+
+            correctionAdd("Electrostatic force", "electrostatic force");
+            correctionAdd("electrostaic force", "electrostatic force");
+            correctionAdd("Electrostaic force", "electrostatic force");
+
+            correctionAdd("Evolutionary Algorithm", "evolutionary algorithm");
+
+            correctionAdd("Game", "game");
+
+            correctionAdd("knapsack optimization problem", "knapsack problem");
+            correctionAdd("Knapsack Optimization Problem", "knapsack problem");
+            correctionAdd("Knapsack Optimization", "knapsack problem");
+            correctionAdd("Knapsack Problem", "knapsack problem");
+
+            correctionAdd("Magnetic", "magnetic");
+
+            correctionAdd("metaheuristics", "metaheuristic");
+            correctionAdd("Metaheuristic", "metaheuristic");
+
+            correctionAdd("omited", "omitted");
+
+            correctionAdd("Optimization Problem", "optimization problem");
+
+            correctionAdd("over used", "overused");
+
+            correctionAdd("Red", "red");
+
+            correctionAdd("short-form", "short form");
+
+            correctionAdd("Square", "square");
+
+            correctionAdd("Strong Nuclear Force", "strong nuclear force");
+
+            correctionAdd("un-chosen", "unchosen");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57474,6 +57540,52 @@ namespace OverflowHelper.core
 
             URL_Add("unrepentantly", "https://en.wiktionary.org/wiki/unrepentantly#Adverb");
 
+            URL_Add("Picocli", "https://picocli.info/");
+
+            URL_Add("Sitara", "https://en.wikipedia.org/wiki/Sitara_ARM_Processor");
+
+            URL_Add("Yom Kippur War", "https://en.wikipedia.org/wiki/Yom_Kippur_War");
+
+            URL_Add("as far as I'm concerned", "https://en.wiktionary.org/wiki/as_far_as_I%27m_concerned#Adverb");
+
+            URL_Add("basket", "https://en.wiktionary.org/wiki/basket#Noun");
+
+            URL_Add("bass guitar", "https://en.wikipedia.org/wiki/Bass_guitar");
+
+            URL_Add("discussable", "https://en.wiktionary.org/wiki/discussable#Adjective");
+
+            URL_Add("electric", "https://en.wiktionary.org/wiki/electric#Adjective");
+
+            URL_Add("electrostatic", "https://en.wikipedia.org/wiki/Electrostatics");
+
+            URL_Add("electrostatic force", "https://en.wikipedia.org/wiki/Coulomb%27s_law");
+
+            URL_Add("evolutionary algorithm", "https://en.wikipedia.org/wiki/Evolutionary_algorithm");
+
+            URL_Add("game", "https://en.wiktionary.org/wiki/game#Noun");
+
+            URL_Add("knapsack problem", "https://en.wikipedia.org/wiki/Knapsack_problem");
+
+            URL_Add("magnetic", "https://en.wiktionary.org/wiki/magnetic#Adjective");
+
+            URL_Add("metaheuristic", "https://en.wikipedia.org/wiki/Metaheuristic");
+
+            URL_Add("omitted", "https://en.wiktionary.org/wiki/omit#Verb");
+
+            URL_Add("optimization problem", "https://en.wiktionary.org/wiki/optimization_problem#Noun");
+
+            URL_Add("overused", "https://en.wiktionary.org/wiki/overuse#Verb");
+
+            URL_Add("red", "https://en.wiktionary.org/wiki/red#Adjective");
+
+            URL_Add("short form", "https://en.wiktionary.org/wiki/short_form#Noun");
+
+            URL_Add("square", "https://en.wiktionary.org/wiki/square#Noun");
+
+            URL_Add("strong nuclear force", "https://en.wikipedia.org/wiki/Nuclear_force");
+
+            URL_Add("unchosen", "https://en.wiktionary.org/wiki/unchosen#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -57701,47 +57813,8 @@ namespace OverflowHelper.core
             correctionAdd("Photosphere_", "Photo Sphere_");
             correctionAdd("photosphere_", "Photo Sphere_");
 
-            correctionAdd("User Experience_", "User Experience (Stack Exchange site)_");
-            correctionAdd("UX_", "User Experience (Stack Exchange site)_");
-
             correctionAdd("CAS_", "compare-and-swap_");
             correctionAdd("compare and swap_", "compare-and-swap_");
-
-            correctionAdd("Bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
-            correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
-
-            correctionAdd("Chemistry SE_", "Chemistry (Stack Exchange site)_");
-            correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
-            correctionAdd("Chemistry.SE_", "Chemistry (Stack Exchange site)_");
-            correctionAdd("Chemistry_", "Chemistry (Stack Exchange site)_"); // Sort of identity mapping"
-            correctionAdd("chemistry_", "Chemistry (Stack Exchange site)_");
-
-            correctionAdd("Electrical Engineering SE_", "Electrical Engineering (Stack Exchange site)_");
-            correctionAdd("EE.SE_", "Electrical Engineering (Stack Exchange site)_");
-            correctionAdd("EE SE_", "Electrical Engineering (Stack Exchange site)_");
-            correctionAdd("Electrical Engineering_", "Electrical Engineering (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("Islam SE_", "Islam (Stack Exchange site)_");
-            correctionAdd("Islam_", "Islam (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("Joomla SE_", "Joomla (Stack Exchange site)_");
-            correctionAdd("Joomla Stack Exchange_", "Joomla (Stack Exchange site)_");
-            correctionAdd("JSE_", "Joomla (Stack Exchange site)_");
-            correctionAdd("J SE_", "Joomla (Stack Exchange site)_");
-            correctionAdd("Joomla_", "Joomla (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("LawSE_", "Law (Stack Exchange site)_");
-            correctionAdd("Law_", "Law (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("Mathematica site_", "Mathematica (Stack Exchange site)_");
-            correctionAdd("Mathematica SE_", "Mathematica (Stack Exchange site)_");
-            correctionAdd("Mathematica_", "Mathematica (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("Physics SE_", "Physics (Stack Exchange site)_");
-            correctionAdd("physics SE_", "Physics (Stack Exchange site)_");
-            correctionAdd("Physics.SE_", "Physics (Stack Exchange site)_");
-            correctionAdd("Physics (SE)_", "Physics (Stack Exchange site)_");
-            correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
 
             correctionAdd("Graph_", "graph_");
 
@@ -57797,9 +57870,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ganymede_", "Ganymede_");
 
-            correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
-            correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
-
             correctionAdd("independent contributor_", "individual contributor_");
             correctionAdd("IC_", "individual contributor_");
             correctionAdd("Individual Contributor_", "individual contributor_");
@@ -57809,13 +57879,6 @@ namespace OverflowHelper.core
             correctionAdd("unsed_", "unused_");
 
             correctionAdd("split()_", "split_");
-
-            correctionAdd("biology_", "Biology (Stack Exchange site)_");
-            correctionAdd("Biology_", "Biology (Stack Exchange site)_");
-
-            correctionAdd("software engineering_", "Software Engineering (Stack Exchange site)_");
-            correctionAdd("Programmers_", "Software Engineering (Stack Exchange site)_");
-            correctionAdd("Software Engineering_", "Software Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
             correctionAdd("understand_", "understanding_");
 
@@ -57837,6 +57900,7 @@ namespace OverflowHelper.core
             correctionAdd("K-map_", "Karnaugh map_");
             correctionAdd("kmap_", "Karnaugh map_");
             correctionAdd("KM_", "Karnaugh map_");
+            correctionAdd("karnaugh map_", "Karnaugh map_");
 
             correctionAdd("advices_", "advice_");
 
@@ -57847,6 +57911,58 @@ namespace OverflowHelper.core
 
             correctionAdd("BMP_", "Basic Multilingual Plane_");
             correctionAdd("basic multilingual plane_", "Basic Multilingual Plane_");
+
+            correctionAdd("User Experience_", "User Experience (Stack Exchange site)_");
+            correctionAdd("UX_", "User Experience (Stack Exchange site)_");
+
+            correctionAdd("Bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
+            correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
+
+            correctionAdd("Chemistry SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("Chemistry.SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("Chemistry_", "Chemistry (Stack Exchange site)_"); // Sort of identity mapping"
+            correctionAdd("chemistry_", "Chemistry (Stack Exchange site)_");
+
+            correctionAdd("Electrical Engineering SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE.SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("Electrical Engineering_", "Electrical Engineering (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Islam SE_", "Islam (Stack Exchange site)_");
+            correctionAdd("Islam_", "Islam (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Joomla SE_", "Joomla (Stack Exchange site)_");
+            correctionAdd("Joomla Stack Exchange_", "Joomla (Stack Exchange site)_");
+            correctionAdd("JSE_", "Joomla (Stack Exchange site)_");
+            correctionAdd("J SE_", "Joomla (Stack Exchange site)_");
+            correctionAdd("Joomla_", "Joomla (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("LawSE_", "Law (Stack Exchange site)_");
+            correctionAdd("Law_", "Law (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Mathematica site_", "Mathematica (Stack Exchange site)_");
+            correctionAdd("Mathematica SE_", "Mathematica (Stack Exchange site)_");
+            correctionAdd("Mathematica_", "Mathematica (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Physics SE_", "Physics (Stack Exchange site)_");
+            correctionAdd("physics SE_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics.SE_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics (SE)_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
+            correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("biology_", "Biology (Stack Exchange site)_");
+            correctionAdd("Biology_", "Biology (Stack Exchange site)_");
+
+            correctionAdd("software engineering_", "Software Engineering (Stack Exchange site)_");
+            correctionAdd("Programmers_", "Software Engineering (Stack Exchange site)_");
+            correctionAdd("Software Engineering_", "Software Engineering (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("crypto.stackexchange_", "Cryptography (Stack Exchange site)_");
+            correctionAdd("Cryptography_", "Cryptography (Stack Exchange site)_"); // Sort of identity mapping
 
             // URL mappings
             //
@@ -58106,6 +58222,8 @@ namespace OverflowHelper.core
             URL_Add("mean squared error_", "https://en.wikipedia.org/wiki/Mean_squared_error");
 
             URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
+
+            URL_Add("Cryptography (Stack Exchange site)_", "https://crypto.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
