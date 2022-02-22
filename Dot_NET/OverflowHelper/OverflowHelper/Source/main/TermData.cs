@@ -3550,6 +3550,10 @@ namespace OverflowHelper.core
             correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
             correctionAdd("Stack Overflów", "Stack&nbsp;Overflow");
             correctionAdd("SoF", "Stack&nbsp;Overflow");
+            correctionAdd("StankOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stank Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("snark overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Snark Overflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -14116,6 +14120,8 @@ namespace OverflowHelper.core
             correctionAdd("8859-1", "ISO&nbsp;8859-1");
             correctionAdd("8859", "ISO&nbsp;8859-1");
             correctionAdd("8851", "ISO&nbsp;8859-1");
+            correctionAdd("Latin1", "ISO&nbsp;8859-1");
+            correctionAdd("Latin-1", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -17553,6 +17559,7 @@ namespace OverflowHelper.core
 
             correctionAdd("initialization", "initialisation");
             correctionAdd("initilization", "initialisation");
+            correctionAdd("initalization", "initialisation");
 
             correctionAdd("Millennials", "millennials");
             correctionAdd("millinials", "millennials");
@@ -19445,6 +19452,7 @@ namespace OverflowHelper.core
             correctionAdd("386", "Intel 80386");
 
             correctionAdd("geneally", "generally");
+            correctionAdd("generaly", "generally");
 
             correctionAdd("Present Perfect", "present perfect");
 
@@ -23688,6 +23696,7 @@ namespace OverflowHelper.core
             correctionAdd("Cache", "cache");
 
             correctionAdd("deterioate", "deteriorate");
+            correctionAdd("deteriote", "deteriorate");
 
             correctionAdd("frontend", "front end");
             correctionAdd("FrontEnd", "front end");
@@ -28652,6 +28661,7 @@ namespace OverflowHelper.core
             correctionAdd("idion", "idiom");
 
             correctionAdd("timeperiod", "time period");
+            correctionAdd("time perioud", "time period");
 
             correctionAdd("wouldve", "would’ve");
 
@@ -28802,6 +28812,7 @@ namespace OverflowHelper.core
             correctionAdd("dag", "DAG");
 
             correctionAdd("Dev.to", "DEV");
+            correctionAdd("dev.to", "DEV");
 
             correctionAdd("SQL*Plus", "SQL Plus");
             correctionAdd("sql * plus", "SQL Plus");
@@ -36564,6 +36575,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Electrostaic", "electrostatic");
             correctionAdd("Electrostatic", "electrostatic");
+            correctionAdd("electrostaic", "electrostatic");
 
             correctionAdd("Electrostatic force", "electrostatic force");
             correctionAdd("electrostaic force", "electrostatic force");
@@ -36598,6 +36610,41 @@ namespace OverflowHelper.core
             correctionAdd("Strong Nuclear Force", "strong nuclear force");
 
             correctionAdd("un-chosen", "unchosen");
+
+            correctionAdd("AM335X", "AM335x");
+
+            correctionAdd("CP-936", "Code page 936");
+            correctionAdd("CP936", "Code page 936");
+
+            correctionAdd("gbk", "GBK");
+
+            correctionAdd("Latin2", "ISO&nbsp;8859-2");
+            correctionAdd("ISO 8859-2", "ISO&nbsp;8859-2"); // Sort of identity mapping
+            correctionAdd("Latin-2", "ISO&nbsp;8859-2");
+
+            correctionAdd("arrangment", "arrangement");
+
+            correctionAdd("Constrain", "constrain");
+
+            correctionAdd("file_get_contents()", "file_get_contents");
+
+            correctionAdd("file_put_contents()", "file_put_contents");
+
+            correctionAdd("htmlentities()", "htmlentities");
+
+            correctionAdd("mb_detect_encoding()", "mb-detect-encoding");
+
+            correctionAdd("Neutron Star", "neutron star");
+
+            correctionAdd("optimizer", "optimiser");
+            correctionAdd("optimilizer", "optimiser");
+
+            correctionAdd("perioud", "period");
+
+            correctionAdd("SKB", "socket buffer");
+            correctionAdd("skb", "socket buffer");
+
+            correctionAdd("turistic", "touristic");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57585,6 +57632,36 @@ namespace OverflowHelper.core
             URL_Add("strong nuclear force", "https://en.wikipedia.org/wiki/Nuclear_force");
 
             URL_Add("unchosen", "https://en.wiktionary.org/wiki/unchosen#Adjective");
+
+            URL_Add("AM335x", "https://en.wikipedia.org/wiki/Sitara_ARM_Processor#The_Sitara_family");
+
+            URL_Add("Code page 936", "https://en.wikipedia.org/wiki/Code_page_936_(Microsoft_Windows)");
+
+            URL_Add("GBK", "https://en.wikipedia.org/wiki/GBK_(character_encoding)");
+
+            URL_Add("ISO&nbsp;8859-2", "https://en.wikipedia.org/wiki/ISO/IEC_8859-2");
+
+            URL_Add("arrangement", "https://en.wiktionary.org/wiki/arrangement#Noun");
+
+            URL_Add("constrain", "https://en.wiktionary.org/wiki/constrain#Verb");
+
+            URL_Add("file_get_contents", "https://www.php.net/manual/en/function.file-get-contents.php");
+
+            URL_Add("file_put_contents", "https://www.php.net/manual/en/function.file-put-contents.php");
+
+            URL_Add("htmlentities", "https://www.php.net/manual/en/function.htmlentities.php");
+
+            URL_Add("mb-detect-encoding", "https://www.php.net/manual/de/function.mb-detect-encoding.php");
+
+            URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
+
+            URL_Add("optimiser", "https://en.wiktionary.org/wiki/optimiser#Noun");
+
+            URL_Add("period", "https://en.wiktionary.org/wiki/period#Noun");
+
+            URL_Add("socket buffer", "http://vger.kernel.org/~davem/skb.html");
+
+            URL_Add("touristic", "https://en.wiktionary.org/wiki/touristic#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
