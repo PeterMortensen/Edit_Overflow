@@ -52,59 +52,60 @@
             <p>The "How to ... ?" <u>f</u>orm for a question is not a good one
                 (does not follow
                 <a href="https://www.youtube.com/watch?v=kS5NfSzXfrI"
-                >QUASM</a>)<br/>
-
+                >QUASM</a>) <br/>
                 <input
                     name="X25"
                     type="text"
                     id="X25"
                     class="X25"
                     value="Fixed the question formation - missing auxiliary (or helping) verb - see e.g. <https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s> (see also <https://www.youtube.com/watch?v=kS5NfSzXfrI> (QUASM)) - alternatively, drop the question mark."
-                    style="width:680px;"
+                    style="width:1700px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
                 />
             </p>
 
             <p id="Capitalise_I">
-                Capitalise "i" - yes, <u>y</u>ou!!!!!
-
+                Capitalise "i" - yes, <u>y</u>ou!!!!! <br/>
                 <input
                     name="X2"
                     type="text"
                     id="X2"
                     class="X2"
                     value="In English, the subjective form of the singular first-person pronoun, &quot;I&quot;, is capitalized, along with all its contractions such as I'll and I'm. "
-                    style="width:810px;"
+                    style="width:910px;"
                     accesskey="Y"
                     title="Shortcut: Shift + Alt + Y"
                 />
             </p>
 
             <p>Small formatting changes often results in
-                a large <u>d</u>iff in the default view.
-
+                a large <u>d</u>iff in the default view. <br/>
                 <input
                     name="X7"
                     type="text"
                     id="X7"
                     class="X7"
                     value="Applied some formatting (as a result the diff looks more extensive than it really is - use view &quot;side-by-side Markdown&quot; to compare). "
-                    style="width:780px;"
+                    style="width:820px;"
                     accesskey="D"
                     title="Shortcut: Shift + Alt + D"
                 />
             </p>
 
-            <p>Meta infor<u>m</u>ation does not
-                belong in a question <br/>
+            <p>Meta infor<u>m</u>ation does not belong in a question.
+                See for example
+                <em>
+                <a href="https://meta.stackexchange.com/questions/2950/"
+                >Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</a>
+                </em> <br/>
                 <input
                     name="X14"
                     type="text"
                     id="X14"
                     class="X14"
                     value="Removed meta information (this belongs in comments). "
-                    style="width:360px;"
+                    style="width:400px;"
                     accesskey="M"
                     title="Shortcut: Shift + Alt + M"
                 />
@@ -125,14 +126,14 @@
                 />
             </p>
 
-            <p>"<i>its"</i> vs. <i>"it's"</i><br/>
+            <p>"<i>its"</i> vs. <i>"it's"</i> <br/>
                 <input
                     name="X19"
                     type="text"
                     id="X19"
                     class="X19"
                     value="[(its = possessive, it's = &quot;it is&quot; or &quot;it has&quot;. See for example <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s> and <https://www.wikihow.com/Use-Its-and-It%27s>.)] "
-                    style="width:680px;"
+                    style="width:1220px;"
                     accesskey="X"
                     title=""
                 />
@@ -145,13 +146,14 @@
                     id="X1"
                     class="X1"
                     value="Active reading [<URL1> <URL2>]. "
-                    style="width:230px;"
+                    style="width:240px;"
                     accesskey=""
                     title=""
                 />
             </p>
 
-            <p>Links should<u>n</u>'t be naked - use an appropriate link text.
+            <p>Links should<u>n</u>'t be naked - 
+                use an appropriate link text. <br/>
                 <input
                     name="X3"
                     type="text"
@@ -177,8 +179,8 @@
                 />
             </p>
 
-            <p>Many users post sloppy or even m<u>i</u>sleading indentation of code.
-
+            <p>Many users post sloppy or even m<u>i</u>sleading 
+                indentation of code. <br/>
                 <input
                     name="X5"
                     type="text"
@@ -192,8 +194,7 @@
             </p>
 
             <p>Shorthands or TLAs often make <u>p</u>osts too obscure for
-                the actual audience (from search engine hits).
-
+                the actual audience (from search engine hits). <br/>
                 <input
                     name="X6"
                     type="text"
@@ -206,10 +207,9 @@
                 />
             </p>
 
-            <p>Inappropriate shortening of "IP address" 
-                (IP addresses are bloc<u>k</u>ed, not 
+            <p>Inappropriate shortening of "IP address"
+                (IP addresses are bloc<u>k</u>ed, not
                 the procol). <br/>
-
                 <input
                     name="X13"
                     type="text"
@@ -223,15 +223,14 @@
             </p>
 
             <p>Capita<u>l</u>isation often obscures
-                the meaning when proper nouns are involved <br/>
-
+                the meaning when proper nouns are involved. <br/>
                 <input
                     name="X15"
                     type="text"
                     id="X15"
                     class="X15"
                     value="Changed to sentence casing for the title. "
-                    style="width:270px;"
+                    style="width:280px;"
                     accesskey="L"
                     title="Shortcut: Shift + Alt + L"
                 />
@@ -239,7 +238,6 @@
 
             <p>Code formattin<u>g</u> should
                 not be used for emphasis. <br/>
-
                 <input
                     name="X16"
                     type="text"
@@ -262,7 +260,7 @@
                     id="X18"
                     class="X18"
                     value="Unhid &quot;<XXX>&quot; by encoding &quot;<&quot; as &quot;&amp;lt;&quot; (see the original revision (<https://stackoverflow.com/XXX/view-source>) - or use view &quot;side-by-side Markdown&quot;). "
-                    style="width:980px;"
+                    style="width:1050px;"
                     accesskey=""
                     title=""
                 />
@@ -285,7 +283,7 @@
                     id="X20"
                     class="X20"
                     value="Removed historical information (e.g. ref. <https://meta.stackexchange.com/a/230693> and <https://meta.stackexchange.com/a/127655>). "
-                    style="width:830px;"
+                    style="width:960px;"
                     accesskey="B"
                     title="Shortcut: Shift + Alt + B"
                 />
@@ -299,16 +297,14 @@
                 have facilities for <b>bold</b> and <i>italics</i>.
                 It is mostly Indians that do this, but not at all exclusively.
                 Anyone who has wasted too much time with (raw text-only)
-                forums will have the tendency (and need to unlearn).
-
-                <br/>
+                forums will have the tendency (and need to unlearn). <br/>
                 <input
                     name="X27"
                     type="text"
                     id="X27"
                     class="X27"
                     value="Used more standard formatting (we have italics and bold on this platform). "
-                    style="width:830px;"
+                    style="width:520px;"
                     accesskey=""
                     title=""
                 />
@@ -319,18 +315,18 @@
                 Stack&nbsp;Exchange sites, etc. No matter how it looks in a logo
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
                 >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
-                (the last section - <em>"Proper Use of the Stack Exchange Name"</em>).
+                (the last section - 
+                <em>"Proper Use of the Stack Exchange Name"</em>).
                 The <strong><em>only</em></strong> exception is "MathOverflow"
-                (and Jeff Atwood should have said <strong><em>no</em></strong> at the time).
-
-                <br/>
+                (and Jeff Atwood should have said <strong><em>no</em></strong> 
+                at the time). <br/>
                 <input
                     name="X28"
                     type="text"
                     id="X28"
                     class="X28"
                     value="<http://stackoverflow.com/legal/trademark-guidance> (the last section) "
-                    style="width:830px;"
+                    style="width:500px;"
                     accesskey=""
                     title=""
                 />
@@ -338,16 +334,14 @@
 
             <p>Rhetorical questions do not belong in an answer. One of the
                 reasons is that an answer should not address the OP - most
-                readers (e.g. 99.9999%) will be someone else.
-
-                <br/>
+                readers (e.g. 99.9999%) will be someone else. <br/>
                 <input
                     name="X29"
                     type="text"
                     id="X29"
                     class="X29"
                     value="More affirmative answer (this is not a forum - see e.g. <http://meta.stackexchange.com/a/92115>. It is a think tank (see <http://meta.stackoverflow.com/a/325681>). "
-                    style="width:830px;"
+                    style="width:1120px;"
                     accesskey=""
                     title=""
                 />
@@ -368,16 +362,14 @@
                     ```lang-vbnet,
                     ```lang-python,
                     ```lang-xml,
-                    ```lang-bash
-
-                <br/>
+                    ```lang-bash <br/>
                 <input
                     name="X31"
                     type="text"
                     id="X31"
                     class="X31"
                     value="Fixed the weird syntax highlighting (as a result, the diff looks more extensive than it really is - use view &quot;Side-by-side Markdown&quot; to compare). "
-                    style="width:830px;"
+                    style="width:870px;"
                     accesskey=""
                     title=""
                 />
@@ -394,7 +386,6 @@
                 >YouTube video</a>).
                 Mostly native speake<u>r</u>s (more pronounced for US native
                 speakers), but also for minimum-effort users: <br/>
-
                 <input
                     name="X26"
                     type="text"
@@ -410,7 +401,6 @@
             <p>Missing <u>a</u>rticles, Russians and Indians,
                 <a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s"
                 >&quot;a&quot;</a>: <br/>
-
                 <input
                     name="X10"
                     type="text"
@@ -426,7 +416,6 @@
             <p>Missing ar<u>t</u>icles, Russians and Indians,
                 <a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=19m05s"
                 >&quot;the&quot;</a>: <br/>
-
                 <input
                     name="X11"
                     type="text"
@@ -446,7 +435,6 @@
                 (from the outdated 1935
                 <a href="https://en.wikipedia.org/wiki/Wren_%26_Martin"
                 ><i>Wren & Martin</i> textbook</a>): <br/>
-
                 <input
                     name="X9"
                     type="text"
@@ -462,7 +450,6 @@
             <p id="Than-and-Then"><u>U</u>S native speakers, especially southern US,
                 <a href="https://www.wikihow.com/Use-Than-and-Then"
                 >&quot;than&quot; vs. &quot;then&quot;</a>: <br/>
-
                 <input
                     name="X8"
                     type="text"
@@ -478,7 +465,6 @@
             <p>US native speakers, especially southern US,
                 <a href="https://www.wikihow.com/Use-You%27re-and-Your"
                 >&quot;you're&quot; vs. &quot;your&quot;</a>: <br/>
-
                 <input
                     name="X22"
                     type="text"
@@ -496,7 +482,6 @@
                 >&quot;there&quot; vs.
                 &quot;their&quot; vs.
                 &quot;they're&quot;</a>: <br/>
-
                 <input
                     name="X23"
                     type="text"
@@ -513,7 +498,6 @@
                 <a href="https://www.wikihow.com/Use-Affect-and-Effect-Properly"
                 >&quot;affect&quot; vs.
                 &quot;effect&quot;</a>: <br/>
-
                 <input
                     name="X24"
                     type="text"
@@ -531,7 +515,6 @@
                 >&quot;where&quot; vs.
                 &quot;were&quot;vs.
                 &quot;we're&quot;</a>: <br/>
-
                 <input
                     name="X30"
                     type="text"
@@ -547,7 +530,6 @@
             <p><a href="https://english.stackexchange.com/questions/15953"
                 >Space between</a>
                 <u>q</u>uantity and unit: <br/>
-
                 <input
                     name="X12"
                     type="text"
@@ -563,7 +545,6 @@
             <p><a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=0m38s"
                 >Present simple tense, third person</a>
                 - t<u>h</u>ere must be an 's': <br/>
-
                 <input
                     name="X21"
                     type="text"
