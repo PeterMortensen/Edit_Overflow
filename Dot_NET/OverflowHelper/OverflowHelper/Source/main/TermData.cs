@@ -9360,6 +9360,7 @@ namespace OverflowHelper.core
             correctionAdd("go-lang", "Go");
             correctionAdd("Golang", "Go");
             correctionAdd("Go-lang", "Go");
+            correctionAdd("go lang", "Go");
 
             correctionAdd("OpenElec", "OpenELEC");
             correctionAdd("Openelec", "OpenELEC");
@@ -22128,6 +22129,7 @@ namespace OverflowHelper.core
             correctionAdd("releveant", "relevant");
             correctionAdd("relevenat", "relevant");
             correctionAdd("Relevenat", "relevant");
+            correctionAdd("revelant", "relevant");
 
             correctionAdd("code review", "Code Review (Stack Exchange site)");
             correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
@@ -22625,6 +22627,9 @@ namespace OverflowHelper.core
             correctionAdd("chassi", "chassis");
 
             correctionAdd("manmade", "man-made");
+
+            correctionAdd("mad", "made");
+            correctionAdd("maked", "made");
 
             correctionAdd("mortals", "mere mortals");
 
@@ -28642,8 +28647,6 @@ namespace OverflowHelper.core
             correctionAdd("Earth rays", "earth radiation");
 
             correctionAdd("new", "knew");
-
-            correctionAdd("mad", "made");
 
             correctionAdd("Neuron", "neuron");
 
@@ -36709,6 +36712,7 @@ namespace OverflowHelper.core
 
             correctionAdd("feasability", "feasibility");
             correctionAdd("Feasability", "feasibility");
+            correctionAdd("Feasibility", "feasibility");
 
             correctionAdd("hair pulling", "hairpulling");
 
@@ -36739,6 +36743,8 @@ namespace OverflowHelper.core
             correctionAdd("where by", "whereby");
 
             correctionAdd("Walrus operator", "walrus operator");
+
+            correctionAdd("Monero", "Monero (Stack Exchange site)");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57822,6 +57828,8 @@ namespace OverflowHelper.core
 
             URL_Add("whereby", "https://en.wiktionary.org/wiki/whereby#Adverb");
 
+            URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -58200,6 +58208,8 @@ namespace OverflowHelper.core
             correctionAdd("crypto.stackexchange_", "Cryptography (Stack Exchange site)_");
             correctionAdd("Cryptography_", "Cryptography (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("puted_", "put_");
+
             // URL mappings
             //
             //
@@ -58460,6 +58470,8 @@ namespace OverflowHelper.core
             URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
 
             URL_Add("Cryptography (Stack Exchange site)_", "https://crypto.stackexchange.com/tour");
+
+            URL_Add("put_", "https://en.wiktionary.org/wiki/put#Verb");
 
         } //addLookupData_alternativeWordSet()
 
