@@ -41,11 +41,20 @@
                 "Look up of \"$lookUpTerm\"",
                 "EditOverflow.php",
                 "LookUpTerm=cpu&",
-                "      Alternatively, use JavaScript (client-side) lookup:\n\n" .
-                  "          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>\n\n" .
-                  "          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>\n\n" .
-                  "          Note: JavaScript must be allowed from pmortensen.eu for this to work!\n\n"
+                "      2. Alternatively, to make it even faster, use JavaScript (client-side) lookup:\n\n" .
+                  "           <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>\n\n" .
+                  "             or\n\n" .
+                  "           <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>\n\n" .
+                  "           Note:\n\n" .
+                  "             a. JavaScript must be allowed from pmortensen.eu for this to work! (For\n" .
+                  "                instance, when using NoScript.) If JavaScript is not allowed, then\n" .
+                  "                it falls back to using the normal form-based lookup (requiring an\n" .
+                  "                Internet connection).\n\n" .
+                  "             b. Only the lookup itself is currently implemented - NONE of the\n" .
+                  "                other fields, like the checkin messages, are updated.\n\n" .
+                  ""
                 );
+
 
             #echo
             #    "<p>lookUpTerm through htmlZZZentities(): " .
