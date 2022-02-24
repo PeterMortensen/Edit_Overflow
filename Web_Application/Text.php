@@ -18,31 +18,45 @@
     #      was to remove backslashes (this may be
     #      sufficient as we don't XXX).
 ?>
-
-
-<!--
-    Note:
-
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-
-        <https://pmortensen.eu/world/Text.php?OverflowStyle=Native>
-
-        Using HTML GET parameter and invoking function "Format as keyboard":
-
-          <https://pmortensen.eu/world/Text.php?someText=dont&action=Format%20as%20keyboard&OverflowStyle=Native>
-
--->
-
-
 <?php include("commonStart.php"); ?>
 
-
         <?php
-            the_EditOverflowHeadline("Text Stuff");
+            the_EditOverflowHeadline(
+              "Text Stuff", 
+              "Text.php",
+              "",
+              "        Using HTML GET parameter and invoking function \"Format as keyboard\":\n\n" .
+                "          <https://pmortensen.eu/world/Text.php?someText=dont&action=Format%20as%20keyboard&OverflowStyle=Native>\n\n"
+              );
+
+            #Temp!!!!!!!!!!!!!!!!!!! Should always fail. This
+            #worked (fired) for the local webserver, but
+            #***not*** when running from the command-line.
+            #Why????
+            #
+            #assert(false, "Unconditional assert failure...");
+
+            #Temp!!!!!!!!!!!!!!!!!!! This is a static
+            #test, without any of our own functions
+            #
+            #True...
+            assert(preg_match('/php$/', "Text.phpZZZZ") !== true,
+                    "Invalid file name...");
+
+            #Also true...
+            assert(preg_match('/php$/', "Text.phpZZZZ") !== false,
+                    "Invalid file name...");
+
+            #Works (false)!
+            #assert(preg_match('/php$/', "Text.phpZZZZ") !== 0,
+            #        "Invalid file name...");
+
+            #True...
+            assert(preg_match('/php$/', "Text.phpZZZZ") !== 1,
+                    "Invalid file name...");
         ?>
 
         <?php
-
             function removeTrailingSpace($aText)
             {
                 # This actually also removes trailing TABs... (as it should)
@@ -118,7 +132,8 @@
 
                 # Find the non-empty line with the least number
                 # of leading spaces - that is how many leading
-                # spaces we should remove from each line.
+                # spaces we should remove from each line (in
+                # clients).
                 #
                 foreach ($lines as $key => $item)  #Why "$key"??
                 {
@@ -428,15 +443,15 @@
                 #       it in the normal client code)
                 $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
 
-                # Note: $aLengthDiff is not the same as $leadingSpaceToRemove
-                #       as $leadingSpaceToRemove is per line and there
-                #       can be many lines...
+                # Note: $aLengthDiff is not (always) the same as
+                #       $leadingSpaceToRemove as $leadingSpaceToRemove
+                #       is per line and there can be many lines...
                 #
                 # But at least $aLengthDiff should be a multiplum
                 # of $leadingSpaceToRemove:
-
+                #
                 if  (!  (
-                          (  $aLengthDiff >= $leadingSpaceToRemove)       &&
+                          (  $aLengthDiff >= $leadingSpaceToRemove)  &&
 
                           (
                             ($leadingSpaceToRemove === 0) # Guard for division
@@ -916,6 +931,18 @@
                       " characters saved from WordPress madness...";
                 }
 
+                #Why do we use htmlentities()????? We are going to do
+                #text transformations on the input text (e.g., this
+                #is probably why one of the text transformations
+                #for YouTube desn't work (the string "->")).
+                #
+                #A comment below says "leaving out htmlentities() would
+                #result in the HTML validation failing"
+                #
+                #Is it because we want to avoid doing it in multiple
+                #places for multiple output? But we do have a single
+                #variable for all output here.
+                #
                 $someText = htmlentities(get_postParameter(MAINTEXT));
 
                 #assert(array_key_exists('action', $_REQUEST));  # From example:  isset($this->records)
@@ -932,16 +959,16 @@
                 #
                 # For a regression test for a problem we had, we can
                 # use the above text (with "</textarea>").
-                # For instance, leaving out htmlentities() would
+                # For instance, leaving out htmlZZZZentities() would
                 # result in the HTML validation failing - but we
                 # need another way for it to find its way to the
                 # validation.
                 #
                 ###$someText = get_postParameter('someText')
                 ###              ?? 'Some text </textarea>';
-                ##$someText = htmlentities(get_postParameter('someText')
+                ##$someText = htmlZZZZentities(get_postParameter('someText')
                 ##                           ?? 'Some text </textarea>');
-                #$someText = htmlentities(get_postParameter('someText');
+                #$someText = htmlZZZZentities(get_postParameter('someText');
 
 
                 $button = get_postParameter('someAction'); # An array!
@@ -950,10 +977,11 @@
                 # There is quite a bit of redundancy here. We could
                 # have the keys in an array, use a loop to convert
                 # to a numeric code (-1 of not found) and use a
-                # switch statement as before
+                # switch statement as before.
                 #
-                # Do we actually need the array? Couldn't we just use
-                # e.g. "remove_TABs_and_trailing_whitespace" by itself?
+                # Do we actually need the array? Couldn't we just use,
+                # e.g., "remove_TABs_and_trailing_whitespace" by
+                # itself?
 
                 if (isset($button['remove_TABs_and_trailing_whitespace']))
                 {
@@ -1120,7 +1148,6 @@
         # End of main PHP part
         ?>
 
-
         <form
             name="XYZ"
             method="post"
@@ -1285,6 +1312,4 @@
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
-
 <?php the_EditOverflowEnd() ?>
-

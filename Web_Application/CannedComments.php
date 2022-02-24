@@ -2,23 +2,14 @@
     # File: CannedComments.php
 
 ?>
-
-
-<!--
-    Note:
-
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-
-        <https://pmortensen.eu/world/CannedComments.php?OverflowStyle=Native>
-
--->
-
-
 <?php include("commonStart.php"); ?>
 
-
         <?php
-            the_EditOverflowHeadline("Some canned comments");
+            the_EditOverflowHeadline(
+              "Some canned comments", 
+              "CannedComments.php",
+              "",
+              "");
         ?>
 
         <!--  It is not really a form - just a page where we want

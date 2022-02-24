@@ -146,7 +146,4 @@ HTML_END;
 
     } # get_EditOverflowFooter()
 
-
 ?>
-
-

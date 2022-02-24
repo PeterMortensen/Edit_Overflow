@@ -1,14 +1,16 @@
 <?php
     # File: commonStart.php
     #
-    # Note: This file doesn't output anything (to standard output) by
-    #       itself (though it does execute some code (command-line
-    #       argument parsing for use locally for testng, defining
-    #       some constants, and setting up some globals used for
-    #       error detection/logging)).
+    # Notes:
     #
-    #       Clients must explicitly call the functions here, e.g.
-    #       the_EditOverflowHeadline();
+    #   1. This file doesn't output anything (to standard output) by
+    #      itself (though it does execute some code (command-line
+    #      argument parsing for use locally for testng, defining
+    #      some constants, and setting up some globals used for
+    #      error detection/logging)).
+    #
+    #   2. Clients must explicitly call the functions here, e.g.
+    #      the_EditOverflowHeadline();
     #
     # Purposes (though we should probably split the WordPress-specific
     #           parts into a separate file, as this file has now
@@ -29,6 +31,7 @@
     require_once('StringReplacerWithRegex.php');
 
     require_once('commonEnd.php'); # Only function definitions (no output)
+
 
 
 
@@ -70,14 +73,30 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a297 2022-02-22T162753Z+0";
+        return "Edit Overflow v. 1.1.49a298 2022-02-24T011437Z+0";
     }
 
 
     # Note that we are using the WordPress convention of name
     # prefixing functions that echo's (with "the_").
     #
-    function the_EditOverflowHeadline($aHeadline)
+    # $aPageName: For constructing a URL that works. For now it is
+    #             the raw file of the current PHP file, e.g.
+    #             "EditSummaryFragments.php" to construct
+    #             <https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
+    #
+    # $aExtraQueryParameters: Must end in "&" (this is to allow
+    #                         none at all (an empty string))
+    #
+    #    Example
+    #
+    #       "LookUpTerm=cpu"
+    #
+    function the_EditOverflowHeadline(
+        $aHeadline,
+        $aPageName,
+        $aExtraQueryParameters,
+        $aExtraTopCommentContent)
     {
         # Note: Besides the actual <h1> headline, we use side-effects
         #       in this function (indicating we should probably rename
@@ -94,13 +113,47 @@
         # 3. Central place for setting the error level, reporting level,
         #    etc.
         #
-        # 4. Inject of errors (for regression testing)
+        # 4. Injection of errors (for regression testing)
         #
         # 5. Start of document, incl. <title> tag
 
+        # Sanity check of the input (actually, if
+        # the clients are well behaved...)
+        #
+        # Our current expectation is the file name of a PHP file.
+        #
+        #assert(preg_match('/\.php$/', $aPageName) !== true,
+        #       "Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/\.php$/', $aPageName) === true,
+        #       "YYY Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/\.php$/', $aPageName),
+        #       "Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php$/', $aPageName) === true,
+        #       "YYY Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php/', $aPageName) === true,
+        #       "YYY Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php/', $aPageName) !== false,
+        #      "YYY Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php$/', $aPageName) !== false,
+        #       "YYY Invalid HTML page name: \"$aPageName\"");
+        #Only in PHP 8
+        #assert(str_ends_with('php', $aPageName) !== false,
+        #       "YYY Invalid HTML page name: \"$aPageName\"");
+        assert(preg_match('/php$/', $aPageName) !== 0,
+               "Invalid HTML page name: \"$aPageName\"");
+
+
+        # Later: Sanity check of $aExtraQueryParameters (must end
+        #        in "&", unless it is an empty string)
+
+
         $someTitle = "$aHeadline - " . get_EditOverflowID();
 
-        get_startOfDocument($someTitle);
+        the_startOfDocument(
+            $someTitle,
+            $aPageName,
+            $aExtraQueryParameters,
+            $aExtraTopCommentContent);
 
         echo "<h1>$someTitle</h1>\n";
 
@@ -422,7 +475,7 @@
 
             # Revert for file extensions. Note: Potentially false positives
             # as we don't currently check for end of line. But it is
-            # not always at the end  (examples:
+            # not always at the end (examples:
             # <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Javascript>
             # <https://www.dotnetrocks.com/default.aspx?ShowNum=1636>)
             $replacer->transform(' DOT htm',  '.htm');
@@ -430,17 +483,18 @@
             $replacer->transform(' DOT php',  '.php');
             $replacer->transform(' DOT aspx', '.aspx');
             $replacer->transform(' DOT pdf',  '.pdf');
+
         } //If doing URL processing
-        else 
+        else
         {
             # Not for YouTube
-            
-            #Ideas: 1. Convert (naked) URLs to Markdown inline 
-            #          links (suitable for LBRY), at least 
-            #          for Wikipedia links (extracting the 
+
+            #Ideas: 1. Convert (naked) URLs to Markdown inline
+            #          links (suitable for LBRY), at least
+            #          for Wikipedia links (extracting the
             #          link text from the URL).
             #
-            #       2. Presuming LBRY, add the empty line workaround (we 
+            #       2. Presuming LBRY, add the empty line workaround (we
             #          have a similar workaround for YouTube below).
         }
 
@@ -457,8 +511,12 @@
         #
         $replacer->transform('\@', ' AT ');
 
-        #This one does not seem to work... Why?? Do we
-        #need some escaping?
+        #This one does not seem to work... Why?? Do we need some
+        #escaping? No, it is probably because the text we see
+        #here is HTML thingamajiggied - ">" is encoded
+        #as "&gt;"... - using HTML character entity references
+        #(is it due to some WordPress madness (even when using
+        #URL query parameter "OverflowStyle=Native")?).
         #
         # Convert "->" to a real arrow
         #
@@ -542,8 +600,8 @@
     #
     # Future:
     #
-    #   1. We should replace "_" with space (as it is more
-    #      readable in Wikipedia source text).
+    #   1. We should replace "_" in the first part with space (as
+    #      it is more readable in Wikipedia source text).
     #
     #
     function WikiMedia_Link($aURL, $aCorrectTerm)
@@ -597,11 +655,57 @@
     } #WikiMedia_Link()
 
 
-    # Note that we are using the WordPress convention of
-    # name prefixing functions (with "the_") that echo's.
+    # Note that we are using the WordPress convention of name
+    # prefixing functions (with "the_") that echo's.
     #
-    function get_startOfDocument($aTitle)
+    # $aPageName: For constructing a URL that works. For now it is
+    #             the raw file of the current PHP file, e.g.
+    #             "EditSummaryFragments.php" to construct
+    #             <https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
+    #
+    function the_startOfDocument(
+        $aTitle,
+        $aPageName,
+        $aExtraQueryParameters,
+        $aExtraTopCommentContent)
     {
+        # Sanity check of the input (actually, if
+        # the clients are well behaved...)
+        #
+        # Our current expectation is the file name of a PHP file.
+        #
+        #assert(preg_match('/\.php$/', $aPageName) !== true,
+        #       "Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/\.php$/', $aPageName) === true,
+        #       "ZZZ Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/\.php$/', $aPageName),
+        #       "Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php$/', $aPageName) === true,
+        #       "ZZZ Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php/', $aPageName) === true,
+        #       "ZZZ2 Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php/', $aPageName) !== false,
+        #       "ZZZ2 Invalid HTML page name: \"$aPageName\"");
+        #assert(preg_match('/php$/', $aPageName) !== false,
+        #       "ZZZ2 Invalid HTML page name: \"$aPageName\"");
+        ##Only in PHP 8
+        #assert(str_ends_with('php', $aPageName) !== false,
+        #       "ZZZ2 Invalid HTML page name: \"$aPageName\"");
+        assert(preg_match('/php$/', $aPageName) !== 0,
+               "Invalid HTML page name: \"$aPageName\"");
+
+        # Later: Sanity check of $aExtraQueryParameters (must end
+        #        in "&", unless it is an empty string)
+
+
+        echo "\n<!--\n";
+        echo "    Notes:\n\n";
+        echo "      1. We can now use \"OverflowStyle=Native\" to avoid the WordPress overhead:\n\n";
+        echo "           <https://pmortensen.eu/world/$aPageName?$aExtraQueryParameters" .
+             "OverflowStyle=Native>\n\n";
+        echo $aExtraTopCommentContent;
+        echo "-->\n\n\n";
+
 
         ###########################################################################
         # WordPress specific!
@@ -609,8 +713,12 @@
         if (useWordPress())
         {
             # Note: For now, the passed title is not used in the WordPress
-            #       part (also with have the prefix "Page not found - " in
-            #       the title when using WordPress)
+            #       part (also we have the prefix "Page not found - " in
+            #       the title when using WordPress - the exact behaviour
+            #       is dependent on which WordPress theme is used (for
+            #       some themes, "Page not found" is obnoxiously
+            #       on the page itself, not just the title). See also
+            #       comments below).
             #
             # The full title is currently (2020-04-24):
             #
@@ -750,14 +858,10 @@ HTML_END;
         } # End of native HTML part (not WordPress)
 
 
-    } #get_startOfDocument()
+    } #the_startOfDocument()
 
 
     # ########   E n d   o f   f u n c t i o n   d e f i n i t i o n s   ########
 
 
 ?>
-
-
-
-

@@ -88,7 +88,12 @@
 #      on it (unexplained why this is necessary for even the
 #      webserver on 'localhost')
 #
-#   2.
+#   2. Retry some (or all) of the Selenium tests if there is a failure
+#      that is due to timing issues.
+#
+#      Perhaps selectively for the one that fails, so we don't
+#      slow testing speed if there is a genuine error.
+#
 
 # Markers for navigation:
 #
@@ -702,7 +707,9 @@ function HTML_validation()
 
 # ###########################################################################
 #
-# Helper function to reduce redundancy. For PHP code.
+# Helper function to reduce redundancy. For PHP code. It
+# presumes the PHP interpreter (executable 'php') can be
+# run from the command line (a separate installation step).
 #
 # It will also do some extra tests that are in common for
 # all the different PHP scripts:
@@ -755,11 +762,13 @@ function PHP_code_test()
 
     # #####################################
     #
-    # 1. Sanity check of parameters
+    # 1. Sanity check of parameters to this function
     #
     # Later: Also for build number (small integer)
     #
     # The fourth parameter should be in URL query format
+    echo
+    echo "Sub step 1:"
     echo $4 | grep -q "=" ; evaluateBuildResult $3 $? "PHP test (step 1), internal test: The fourth parameter to function PHP_code_test() does not appear to be in URL query format: $4 "
 
 
@@ -768,10 +777,14 @@ function PHP_code_test()
     # 2. Execute the PHP script (and capture both
     #    standard output and standard error)
     #
-    # Note: $3 (build number) is to make it unique (so we don't overwrite
-    #       previous output files (for the current build script run)).
+    # Note: $3 (build number) is to make it unique (so we don't 
+    #       overwrite previous output files from the same build 
+    #       script run (for the current build script run)).
+    #
     #       $1 is for information only.
     #
+    echo
+    echo "Sub step 2:"
     export PHPRUN_ID="$3_$1"
     export STDERR_FILE="_stdErr_${PHPRUN_ID}.txt"
 
@@ -790,6 +803,8 @@ function PHP_code_test()
     #
     # 3. Detect missing files (as seen by the PHP interpreter)
     #
+    echo
+    echo "Sub step 3:"
     export MISSINGFILES_MATCHSTRING="Could not open input file: "
     grep -q "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 3): $2 (file $1). Extra information: \"`grep "${MISSINGFILES_MATCHSTRING}" ${HTML_FILE_PHP}`\""
 
@@ -811,6 +826,8 @@ function PHP_code_test()
     #
     # 'head' is for limiting the output (but there is usually only one line)
     #
+    echo
+    echo "Sub step 4:"
     grep -q "$5" ${STDERR_FILE} ; evaluateBuildResult $3 $? "PHP test (step 14: $2 (file $1). Extra information: expected \"$5\", but got \"`head -n 3 ${STDERR_FILE}`\"  "
 
 
@@ -821,6 +838,8 @@ function PHP_code_test()
     #
     # "test $? -ne 0" is for inverting/negating the return code ("$?").
     #
+    echo
+    echo "Sub step 5:"
     export STRAYDEBUGGING_MATCHSTRING1="First argument: "
     #! (grep -q "First argument: " ${HTML_FILE_PHP}) ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE_PHP}`"
     #grep -q "First argument: " ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: `head -n 3 ${HTML_FILE_PHP}`"
@@ -839,6 +858,8 @@ function PHP_code_test()
     # Is there an easier way? Could we configure the PHP installation to
     # automatically stop on all errors and warnings?
     #
+    echo
+    echo "Sub step 6:"
     export UNITTEST_MATCHSTRING="Failed test. ID: "
     grep -q "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 6): $2 (file $1). Extra information: \"`grep "${UNITTEST_MATCHSTRING}" ${HTML_FILE_PHP}`\"  "
 
@@ -856,6 +877,8 @@ function PHP_code_test()
     #
     #   PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WikiMedia_Link(), 1 passed in /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/Text.php on line 347 and exactly 2 expected in /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/commonStart.php:486
     #
+    echo
+    echo "Sub step 7:"
     export FATALERROR_MATCHSTRING="PHP Fatal error: "
     #grep -q "${FATALERROR_MATCHSTRING}" ${STDERR_FILE} ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test: $2 (file $1). Extra information: \"`grep "${FATALERROR_MATCHSTRING}" ${STDERR_FILE}`\""
     grep -v 'Access denied for user' ${STDERR_FILE} | grep -q "${FATALERROR_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test (step 7): $2 (file $1). Extra information: \"`  grep -v 'Access denied for user' ${STDERR_FILE} | grep -q "${FATALERROR_MATCHSTRING}"  `\". Standard error: `head -n 3 ${STDERR_FILE}`   "
@@ -874,8 +897,11 @@ function PHP_code_test()
     #
     #   PHP Notice:  Undefined variable: URLZZZZZZZ in /home/embo/temp2/2021-06-14/_DotNET_tryout/EditOverflow4/commonStart.php on line 504
     #
+    echo
+    echo "Sub step 8:"
     export NOTICE_MATCHSTRING="PHP Notice: "
     grep -v dummy2 ${STDERR_FILE} | grep -q "${NOTICE_MATCHSTRING}" ; test $? -ne 0 ; evaluateBuildResult $3 $? "PHP test  (step 8): $2 (file $1). Extra information: \"`  grep -v dummy2 ${STDERR_FILE} | grep "${NOTICE_MATCHSTRING}"  `\""
+
 } #PHP_code_test()
 
 
@@ -1460,26 +1486,28 @@ cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
 
 # PHP/web files
 cp $SRCFOLDER_WEB/EditOverflow.php                      $WORKFOLDER
-cp $SRCFOLDER_WEB/commonStart.php                       $WORKFOLDER
-cp $SRCFOLDER_WEB/eFooter.php                           $WORKFOLDER
-cp $SRCFOLDER_WEB/StringReplacerWithRegex.php           $WORKFOLDER
-cp $SRCFOLDER_WEB/commonEnd.php                         $WORKFOLDER
-cp $SRCFOLDER_WEB/deploymentSpecific.php                $WORKFOLDER
-#
 cp $SRCFOLDER_WEB/Text.php                              $WORKFOLDER
 cp $SRCFOLDER_WEB/FixedStrings.php                      $WORKFOLDER
 cp $SRCFOLDER_WEB/EditSummaryFragments.php              $WORKFOLDER
 cp $SRCFOLDER_WEB/CannedComments.php                    $WORKFOLDER
-
 cp $SRCFOLDER_WEB/Link_Builder.php                      $WORKFOLDER
+#
+cp $SRCFOLDER_WEB/deploymentSpecific.php                $WORKFOLDER
+#
+cp $SRCFOLDER_WEB/commonStart.php                       $WORKFOLDER
+cp $SRCFOLDER_WEB/eFooter.php                           $WORKFOLDER
+cp $SRCFOLDER_WEB/StringReplacerWithRegex.php           $WORKFOLDER
+cp $SRCFOLDER_WEB/commonEnd.php                         $WORKFOLDER
+
 
 
 # To the local web server
 sudo cp $SRCFOLDER_WEB/EditOverflow.php                 $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/commonStart.php                  $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/CannedComments.php               $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/Link_Builder.php                 $LOCAL_WEBSERVER_FOLDER
 
 # Only once at the web server location. Though ideally
 # we want to patch it on the fly so we are sure it
@@ -1487,12 +1515,11 @@ sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 #
 #sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
 
-sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
-sudo cp $SRCFOLDER_WEB/CannedComments.php               $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/commonStart.php                  $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
+sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 
-sudo cp $SRCFOLDER_WEB/Link_Builder.php                 $LOCAL_WEBSERVER_FOLDER
 
 echo
 cd $WORKFOLDER
@@ -2124,10 +2151,16 @@ mustBeEqual ${MATCHING_LINES} 1  45   "HTML anchor is not unique"
 #
 #   2. It uses Selenium and is quite slow.
 #
-#   3. Sometimes one or more tests fails due to timing issues, not
-#      because there is an actual test failure. In that case, try
-#      to rerun the build (we currently don't know how to prevent
-#      it).
+#   3. Sometimes one or more tests fails due to local timing issues (or
+#      perhaps remote web site response time), not because there is an
+#      actual test failure. In that case, try to rerun the build (we
+#      currently don't know how to prevent it).
+#
+#      Example (observed 2022-02-22):
+#
+#        ERROR: test_text (__main__.TestMainEditOverflowLookupWeb) ...
+#
+#        _checkMarkdownCodeFormatting
 #
 #   4. Sometimes we get a resource warning (but the
 #      test (apparently) succeeds):

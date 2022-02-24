@@ -10,22 +10,14 @@
       WordPress system?
 -->
 
-
-<!--
-    Note:
-
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-
-        <https://pmortensen.eu/world/FixedStrings.php?OverflowStyle=Native>
-
--->
-
-
 <?php include("commonStart.php"); ?>
 
-
         <?php
-            the_EditOverflowHeadline("Fixed Strings");
+            the_EditOverflowHeadline(
+              "Fixed Strings", 
+              "FixedStrings.php",
+              "",
+              "");
         ?>
 
         <p><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML"

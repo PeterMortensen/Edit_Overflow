@@ -14,21 +14,14 @@
       measures.
 -->
 
-<!--
-    Note:
-
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-
-        <https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
-
--->
-
-
 <?php include("commonStart.php"); ?>
 
-
         <?php
-            the_EditOverflowHeadline("Some edit summary fragments");
+            the_EditOverflowHeadline(
+              "Some edit summary fragments", 
+              "EditSummaryFragments.php",
+              "",
+              "");
         ?>
 
         <p>Th<u>e</u>re is also a page
