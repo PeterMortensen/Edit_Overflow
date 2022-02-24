@@ -5863,6 +5863,8 @@ namespace OverflowHelper.core
             correctionAdd("ast", "AST");
             correctionAdd("abstract syntax tree", "AST"); // Going to the abbreviation
             correctionAdd("Abstract Syntax Tree", "AST"); // Going to the abbreviation
+            correctionAdd("CodeDom", "AST");
+            correctionAdd("Code Document Object Model", "AST");
 
             correctionAdd("uml", "UML");
 
@@ -6898,6 +6900,7 @@ namespace OverflowHelper.core
             correctionAdd("wor", "work");
             correctionAdd("workd", "work");
             correctionAdd("worck", "work");
+            correctionAdd("wrk", "work");
 
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
@@ -11217,6 +11220,7 @@ namespace OverflowHelper.core
             correctionAdd("alwasy", "always");
             correctionAdd("alwes", "always");
             correctionAdd("alweys", "always");
+            correctionAdd("alwasys", "always");
 
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -13722,6 +13726,7 @@ namespace OverflowHelper.core
             correctionAdd("snytax", "syntax");
             correctionAdd("syntaxe", "syntax");
             correctionAdd("syntex", "syntax");
+            correctionAdd("syantax", "syntax");
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
@@ -13734,6 +13739,11 @@ namespace OverflowHelper.core
             correctionAdd("delhi", "Delhi");
 
             correctionAdd("electron", "Electron");
+            correctionAdd("electronjs", "Electron");
+            correctionAdd("electron.js", "Electron");
+            correctionAdd("Electron.js", "Electron");
+            correctionAdd("Electron JS", "Electron");
+            correctionAdd("ElectronJS", "Electron");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -13858,6 +13868,7 @@ namespace OverflowHelper.core
             correctionAdd("Fe", "iron");
 
             correctionAdd("loks", "looks");
+            correctionAdd("look's", "looks");
 
             correctionAdd("meaddle", "middle");
 
@@ -13980,6 +13991,7 @@ namespace OverflowHelper.core
             correctionAdd("catch 22", "Catch-22");
             correctionAdd("catch-22", "Catch-22");
             correctionAdd("Catch 22", "Catch-22");
+            correctionAdd("catch22", "Catch-22");
 
             correctionAdd("transifex", "Transifex");
 
@@ -22029,14 +22041,15 @@ namespace OverflowHelper.core
 
             correctionAdd("infintely", "infinitely");
 
-            correctionAdd("Preg_replace", "preg_replace");
-            correctionAdd("preg_replace()", "preg_replace");
+            correctionAdd("Preg_replace", "preg_replace"); // PHP function
+            correctionAdd("preg_replace()", "preg_replace"); // PHP function
 
-            correctionAdd("Preg_match", "preg_match");
+            correctionAdd("Preg_match", "preg_match"); // PHP function
+            correctionAdd("preg_match()", "preg_match"); // PHP function
 
-            correctionAdd("Preg_match_all", "preg_match_all");
+            correctionAdd("Preg_match_all", "preg_match_all"); // PHP function
 
-            correctionAdd("SUBSTR_REPLACE", "substr_replace");
+            correctionAdd("SUBSTR_REPLACE", "substr_replace"); // PHP function
 
             correctionAdd("replase", "replace");
             correctionAdd("repalce", "replace");
@@ -23658,6 +23671,7 @@ namespace OverflowHelper.core
             correctionAdd("filed", "field");
             correctionAdd("fiald", "field");
             correctionAdd("Filed", "field");
+            correctionAdd("feild", "field");
 
             correctionAdd("negociate", "negotiate");
 
@@ -24731,6 +24745,8 @@ namespace OverflowHelper.core
             correctionAdd("poly fill", "polyfill");
 
             correctionAdd("Pound", "pound");
+            correctionAdd("lbs", "pound");
+            correctionAdd("lb", "pound");
 
             correctionAdd("Pound sign", "pound sign");
 
@@ -29314,6 +29330,7 @@ namespace OverflowHelper.core
             correctionAdd("thingamadigi", "thingamajiggy");
             correctionAdd("thingamabob", "thingamajiggy");
             correctionAdd("thingamagic", "thingamajiggy");
+            correctionAdd("thingamagiggi", "thingamajiggy");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -30501,6 +30518,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rerturns", "returns");
             correctionAdd("returnas", "returns");
+            correctionAdd("returs", "returns");
 
             correctionAdd("bier", "beer");
 
@@ -30556,6 +30574,7 @@ namespace OverflowHelper.core
             correctionAdd("DotTrace", "dotTrace");
 
             correctionAdd("Infrastructure", "infrastructure");
+            correctionAdd("infra", "infrastructure");
 
             correctionAdd("Law", "law");
 
@@ -33442,6 +33461,7 @@ namespace OverflowHelper.core
             correctionAdd("HTML code", "HTML character entity reference");
             correctionAdd("NCR", "HTML character entity reference");
             correctionAdd("ncr", "HTML character entity reference");
+            correctionAdd("HTML thingamajiggied", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -35221,6 +35241,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Denvercoder", "DenverCoder9");
             correctionAdd("Denver coder", "DenverCoder9");
+            correctionAdd("denvercoder", "DenverCoder9");
 
             correctionAdd("Displayport", "DisplayPort");
 
@@ -35608,6 +35629,7 @@ namespace OverflowHelper.core
             correctionAdd("Cot Editor", "CotEditor");
 
             correctionAdd("ASSERT", "assert");
+            correctionAdd("asserr", "assert");
 
             correctionAdd("Autopilot", "autopilot");
 
@@ -36646,6 +36668,78 @@ namespace OverflowHelper.core
 
             correctionAdd("turistic", "touristic");
 
+            correctionAdd("!=", "!==");
+
+            correctionAdd("==", "===");
+
+            correctionAdd("attiny13", "ATtiny13");
+
+            correctionAdd("attiny13a", "ATtiny13A");
+
+            correctionAdd("Jung", "Carl Jung");
+
+            correctionAdd("fuelphp", "FuelPHP");
+
+            correctionAdd("Man and his symbols", "Man and His Symbols");
+
+            correctionAdd("Optimizing For Pearls, Not Sand", "Optimizing for pearls, not sand");
+            correctionAdd("sand", "Optimizing for pearls, not sand");
+            correctionAdd("pearls", "Optimizing for pearls, not sand");
+
+            correctionAdd("USBASP", "USBasp");
+            correctionAdd("usbasp", "USBasp");
+
+            correctionAdd("css-lang", "```lang-css");
+            correctionAdd("lang-css", "```lang-css");
+
+            correctionAdd("html-lang", "```lang-html");
+            correctionAdd("lang-html", "```lang-html");
+
+            correctionAdd("none-lang", "```lang-none");
+            correctionAdd("lang-none", "```lang-none");
+
+            correctionAdd("php-lang", "```lang-php");
+            correctionAdd("lang-php", "```lang-php");
+
+            correctionAdd("Binary operator", "binary operator");
+
+            correctionAdd("canonalised", "canonised");
+
+            correctionAdd("counseling", "counselling");
+
+            correctionAdd("feasability", "feasibility");
+            correctionAdd("Feasability", "feasibility");
+
+            correctionAdd("hair pulling", "hairpulling");
+
+            correctionAdd("html_entity_decode()", "html_entity_decode");
+
+            correctionAdd("infurating", "infuriating");
+
+            correctionAdd("obnoxiosly", "obnoxiously");
+
+            correctionAdd("Once upon a time", "once upon a time");
+
+            correctionAdd("put's", "puts");
+
+            correctionAdd("question banned", "question-banned");
+
+            correctionAdd("sand bagging", "sandbagging");
+
+            correctionAdd("self esteem", "self-esteem");
+
+            correctionAdd("str_ends_with()", "str_ends_with");
+
+            correctionAdd("strpos()", "strpos");
+
+            correctionAdd("Unary operator", "unary operator");
+
+            correctionAdd("unawared", "unaware");
+
+            correctionAdd("where by", "whereby");
+
+            correctionAdd("Walrus operator", "walrus operator");
+
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -37172,9 +37266,10 @@ namespace OverflowHelper.core
             correctionAdd("Omicron", "Omicron variant"); // Coronavirus
             correctionAdd("omicron", "Omicron variant"); // Coronavirus
 
-            correctionAdd("Walrus operator", "walrus operator");
-
             correctionAdd("Bleach", "bleach");
+
+            correctionAdd("HBOT", "hyperbaric chamber");
+            correctionAdd("hypobaric chamber", "hyperbaric chamber");
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -57662,6 +57757,70 @@ namespace OverflowHelper.core
             URL_Add("socket buffer", "http://vger.kernel.org/~davem/skb.html");
 
             URL_Add("touristic", "https://en.wiktionary.org/wiki/touristic#Adjective");
+
+            URL_Add("!==", "https://www.php.net/manual/en/language.operators.comparison.php");
+
+            URL_Add("===", "https://www.php.net/manual/en/language.operators.comparison.php");
+
+            URL_Add("ATtiny13", "https://www.microchip.com/en-us/product/ATtiny13");
+
+            URL_Add("ATtiny13A", "https://www.microchip.com/en-us/product/ATtiny13");
+
+            URL_Add("Carl Jung", "https://en.wikipedia.org/wiki/Carl_Jung");
+
+            URL_Add("FuelPHP", "https://en.wikipedia.org/wiki/FuelPHP");
+
+            URL_Add("Man and His Symbols", "https://en.wikipedia.org/wiki/Man_and_His_Symbols");
+
+            URL_Add("Optimizing for pearls, not sand", "https://stackoverflow.blog/2011/06/13/optimizing-for-pearls-not-sand/");
+
+            URL_Add("USBasp", "https://reprap.org/wiki/USBasp");
+
+            URL_Add("```lang-css", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("```lang-html", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("```lang-none", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("```lang-php", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("binary operator", "https://en.wikipedia.org/wiki/Operator_(computer_programming)#Syntax");
+
+            URL_Add("canonised", "https://en.wiktionary.org/wiki/canonise#Verb");
+
+            URL_Add("counselling", "https://en.wiktionary.org/wiki/counselling#Noun");
+
+            URL_Add("feasibility", "https://en.wiktionary.org/wiki/feasibility#Noun");
+
+            URL_Add("hairpulling", "https://en.wiktionary.org/wiki/hairpulling#Noun");
+
+            URL_Add("html_entity_decode", "https://www.php.net/manual/en/function.html-entity-decode.php");
+
+            URL_Add("hyperbaric chamber", "https://en.wikipedia.org/wiki/Hyperbaric_medicine#Hyperbaric_chambers");
+
+            URL_Add("infuriating", "https://en.wiktionary.org/wiki/infuriating#Adjective");
+
+            URL_Add("obnoxiously", "https://en.wiktionary.org/wiki/obnoxiously#Adverb");
+
+            URL_Add("once upon a time", "https://en.wiktionary.org/wiki/once_upon_a_time#Adverb");
+
+            URL_Add("puts", "https://en.wiktionary.org/wiki/put#Verb");
+
+            URL_Add("question-banned", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
+
+            URL_Add("sandbagging", "https://en.wiktionary.org/wiki/sandbag#Verb");
+
+            URL_Add("self-esteem", "https://en.wiktionary.org/wiki/self-esteem#Noun");
+
+            URL_Add("str_ends_with", "https://www.php.net/manual/en/function.str-ends-with.php");
+
+            URL_Add("strpos", "https://www.php.net/manual/en/function.strpos.php");
+
+            URL_Add("unary operator", "https://en.wikipedia.org/wiki/Unary_operation#Examples_from_programming_languages");
+
+            URL_Add("unaware", "https://en.wiktionary.org/wiki/unaware#Adjective");
+
+            URL_Add("whereby", "https://en.wiktionary.org/wiki/whereby#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...

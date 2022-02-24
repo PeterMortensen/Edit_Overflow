@@ -1,4 +1,3 @@
-
 <?php
     # File: commonEnd.php
 
@@ -44,5 +43,3 @@ HTML_END;
 
 
 ?>
-
-

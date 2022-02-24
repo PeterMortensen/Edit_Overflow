@@ -26,32 +26,18 @@
     # *                                                                      *
     # ************************************************************************
 ?>
-
-<!--
-    Note:
-
-      1. We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-
-            <https://pmortensen.eu/world/Link_Builder.php?OverflowStyle=Native>
-
-      2. Parameters are supported, including for GET:
-
-            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>
-
-            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>
-
-
-
--->
-
-
 <?php include("commonStart.php"); ?>
 
-
         <?php
-            the_EditOverflowHeadline("Link Builder");
+            the_EditOverflowHeadline(
+              "Link Builder",
+              "Link_Builder.php",
+              "",
+              "      2. Parameters are supported, including for GET:\n\n" .
+                "            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>\n\n" .
+                "            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>\n\n"
+            );
         ?>
-
 
         <?php
             # Stub / defaults
@@ -186,9 +172,6 @@
             #
             $linkText_encoded = get_postParameter('URLlist_encoded')  ?? '';
             $URLlist_encoded = get_postParameter('URLlist_encoded')  ?? '';
-
-            #$XXX = htmlentities(YYYY, ENT_QUOTES);
-            #$YYY = htmlentities(YYYY, ENT_QUOTES);
 
 
             # At the end, as we want it completely blank. That is, only

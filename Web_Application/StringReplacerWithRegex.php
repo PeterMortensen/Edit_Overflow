@@ -1,4 +1,3 @@
-
 <?php
 
     # Purpose: 1) Simplifies the client side of transforming a
@@ -56,5 +55,3 @@
     }
 
 ?>
-
-

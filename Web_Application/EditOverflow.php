@@ -12,28 +12,7 @@
     # Future:
     #
 ?>
-
-<!--
-    Note:
-
-      We can now use "OverflowStyle=Native" to avoid the WordPress overhead:
-
-          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&OverflowStyle=Native>
-
-
-      Alternatively, use JavaScript (client-side) lookup:
-
-          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>
-
-          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>
-
-          Note: JavaScript must be allowed from pmortensen.eu for this to work!
-
--->
-
-
 <?php include("commonStart.php"); ?>
-
 
         <?php
             require_once('deploymentSpecific.php');
@@ -52,9 +31,25 @@
             #
             $lookUpTerm = get_postParameter('LookUpTerm') ?? 'js';
 
+            #Now dynamic (shows the term in the title so we can
+            #distinguish e.g. when opening recently closed tabs
+            #in Firefox), but we may need  to add a special case
+            #for ***empty*** input/initial page... (right now
+            #it is using some default).
+
+            the_EditOverflowHeadline(
+                "Look up of \"$lookUpTerm\"",
+                "EditOverflow.php",
+                "LookUpTerm=cpu&",
+                "      Alternatively, use JavaScript (client-side) lookup:\n\n" .
+                  "          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>\n\n" .
+                  "          <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>\n\n" .
+                  "          Note: JavaScript must be allowed from pmortensen.eu for this to work!\n\n"
+                );
+
             #echo
-            #    "<p>lookUpTerm through htmlentities(): " .
-            #        htmlentities($lookUpTerm) .
+            #    "<p>lookUpTerm through htmlZZZentities(): " .
+            #        htmlZZZZentities($lookUpTerm) .
             #    "<p>\n";
             #echo
             #    "<p>Raw lookUpTerm: " .
@@ -143,13 +138,13 @@
                 #{
                 #    echo "<p> From fetch all: </p>" .
                 #      " <p> >>>  "  . $someRow['incorrectTerm'] . " " .
-                #      " (cleaned: " . htmlentities($someRow['incorrectTerm']) . ")</p> " .
+                #      " (cleaned: " . htmlZZZentities($someRow['incorrectTerm']) . ")</p> " .
                 #
                 #      " <p> >>>  " . $someRow['correctTerm'] .   " " .
-                #      " (cleaned: " . htmlentities($someRow['correctTerm']) . ")</p> " .
+                #      " (cleaned: " . htmlZZZentities($someRow['correctTerm']) . ")</p> " .
                 #
                 #      " <p> >>>  " . $someRow['URL'] .           " " .
-                #      " (cleaned: " . htmlentities($someRow['URL']) . ")</p> " .
+                #      " (cleaned: " . htmlZZZZentities($someRow['URL']) . ")</p> " .
                 #
                 #      " <p></p>";
                 #}
@@ -168,31 +163,34 @@
             # Default: For words that are not in our word list
             $incorrectTerm = "";
             $correctTerm   = "";
-            $URL           = "";            
+            $URL           = "";
 
             if ($statement->rowCount() > 0)
             {
                 # "PDO::FETCH_ASSOC" it to return the result as an associative array.
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-                #echo htmlentities($row['correctTerm']);
+                # Note: This is for display, so e.g. "<" should be encoded
+                #       as "&lt;". We don't do any text processing on
+                #       the result (e.g., computing the length of a
+                #       string), except enclosing it other text.
+                #
                 $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
                 $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
+
+
                 #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
                                                       # a term containing the U+FFFD
                                                       # REPLACEMENT CHARACTER will make
                                                       # $correctTerm an empty string...
-
-                #Delete at any time
-                #echo "\n\n\n\n<p>incorrectTerm: $incorrectTerm  <p>\n\n\n\n";
 
                 #Doesn't fire on the local web server. Why????
                 #assert(0, "XYZ);
                 #assert(0, "Unconditional assert failure...");
 
                 $URL          = htmlentities($row['URL']);
-                #$URL          = htmlentities($row['URL'], ENT_QUOTES);
+                #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
             }
 
             # To avoid "Undefined variable: linkYouTubeCompatible"
@@ -383,18 +381,6 @@
                 #
                 $effectiveTerm = $lookUpTerm;
             }
-
-        ?>
-
-
-        <?php
-            #Now dynamic (shows the term in the title so we can
-            #distinguish e.g. when opening recently closed tabs
-            #in Firefox), but we may need  to add a special case
-            #for ***empty*** input/initial page... (right now
-            #it is using some default).
-
-            the_EditOverflowHeadline("Look up of \"$lookUpTerm\"");
         ?>
 
         <script src="EditOverflowList.js"></script>
@@ -874,7 +860,4 @@
 
         <p>Proudly and unapologetic powered by PHP!</p>
 
-
 <?php the_EditOverflowEnd() ?>
-
-
