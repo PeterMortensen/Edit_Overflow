@@ -132,6 +132,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
     # Helper function for testing. Mostly for _checkEditSummary()
     #
+    # It gets and checks the value of a field in an HTML form.
+    #
     # This one is independent of Edit Overflow - indicated
     # by the prefix "core" (and thus a candidate to be
     # moved to a more general place).
@@ -280,10 +282,20 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Note: currently we have the huge overhead of creating a
     #       new browser window for each test
     #
+    # Parameters:
+    #
+    #   anExpectedCharacters:  An integer. The number of characters after
+    #                          the text transformation.
+    #
+    #                          E.g., 9 to match the self-reported number
+    #                          of characters by the web application,
+    #                          "Now 9 characters (incl. newlines)"
+    #
     def _textTransformation(self,
                            aURL,
                            aTextBefore,
                            aTextAfter,
+                           anExpectedCharacters,
                            aKeyboardShortcutLetter,
                            anErrorMessage):
 
@@ -300,6 +312,23 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         formatterResult = lookUpElement.get_attribute("value")
 
         self.assertEqual(formatterResult, aTextAfter, anErrorMessage)
+
+        # For now we allow a negative value to mean it should not
+        # be checked. But eventually we should require it.
+        #
+        if anExpectedCharacters >= 0:
+
+            # E.g., containing "Now 9 characters (incl. newlines)".
+            msg2Element = self.browser.find_element_by_name("Message2")
+ 
+            #msg2 = msg2Element.get_value()
+            msg2 = msg2Element.text
+
+            self.assertEqual(
+                msg2,
+                "Now " + str(anExpectedCharacters) + " characters (incl. newlines).",
+                anErrorMessage)
+
 
         time.sleep(3.0) # Only for manual inspection of the
                         # result. Can be removed at any time
@@ -322,6 +351,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._textTransformation(aURL,
                                 content1_in1,
                                 content1_out_new1,
+                                12, # For regression testing. Not necessarily 
+                                    # the correct number!
                                 "q",
                                 "The real quotes formatting result was bad!")
 
@@ -358,6 +389,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
              " \n"  # Yes, trailing space on empty lines.
              "        Johnson & Johnson (Ad26 DOT COV2 DOT S)"),
              #"     Johnson & Johnson (Ad26 DOT COV2 DOT S)"),       # Old behaviour
+             -1,
 
             "y",
             "The YouTube formatter result was bad!")
@@ -366,6 +398,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._textTransformation(aURL,
                                 content1_in1,
                                 content1_out_new1,
+                                -1,
+
                                 "y",
                                 "The YouTube formatter result was bad!")
 
@@ -400,7 +434,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "```\n"
                          "")
         self._textTransformation(
-            aURL, content_in_1, content_out_1,
+            aURL, content_in_1, content_out_1, -1,
             "m", "The Markdown formatter result was bad!")
 
         # Source code input with more than 4 space indent (e.g., when
@@ -420,7 +454,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "    ```\n"
                          "")
         self._textTransformation(
-            aURL, content_in_2, content_out_2,
+            aURL, content_in_2, content_out_2, -1,
             "m", "The Markdown formatter result was bad!")
 
     #Only a stub now. It is not used anywhere
@@ -574,6 +608,11 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #       tests), whether we discover any state
         #       dependency may depend on the order
         #       here...
+
+        #Temp!!!!!!!!!!!!!!!!!!
+        self._checkRealQuotes(aURL)
+
+
 
         self._checkMarkdownCodeFormatting(aURL)
 
