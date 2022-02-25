@@ -608,6 +608,192 @@
                 }
             } #test_generateWikiMedia_Link()
 
+            # The main functionality of this page (one of various
+            # text transformations, selected by the user
+            # (parameters)).
+            #
+            # (It is stateless, but the actual indexes for the $aButton
+            #  hash (e.g. "remove_TABs_and_trailing_whitespace") are
+            #  dependent on part of this web page and the mechanism
+            #  for this to work with the particular notation is
+            #  dependent on PHP.)
+            #
+            #
+            function textTransformation($aSomeText, $aButton)
+            {
+                $message = ""; # To always have a defined value
+                $fallThrough = 1;
+
+                # There is quite a bit of redundancy here. We could
+                # have the keys in an array, use a loop to convert
+                # to a numeric code (-1 of not found) and use a
+                # switch statement as before.
+                #
+                # Do we actually need the array? Couldn't we just use,
+                # e.g., "remove_TABs_and_trailing_whitespace" by
+                # itself?
+
+                if (isset($aButton['remove_TABs_and_trailing_whitespace']))
+                {
+                    [$aSomeText, $message] = removeTrailingSpacesAndTABs($aSomeText);
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['format_as_keyboard']))
+                {
+                    $aSomeText = "<kbd>$aSomeText</kbd>";
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['quote_as_code']))
+                {
+                    $aSomeText = "`$aSomeText`";
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['real_quotes']))
+                {
+                    # Note: For unknown reasons, we can ***not*** use string
+                    #       interpolation here. A bug was fixed 2021-09-21.
+                    $aSomeText = "“" . $aSomeText . "”";
+
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['transform_for_YouTube_comments']))
+                {
+                    $aSomeText = transformFor_YouTubeComments($aSomeText);
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['remove_common_leading_space']))
+                {
+                    # Note: We have two functions because we need to first
+                    #       scan all lines before we know how many spaces
+                    #       to remove from each line (thus, it is not
+                    #       just for statistics - we actually need it
+                    #       for correct operation).
+                    #
+                    #       But perhaps we could use the same technique
+                    #       as for removeTrailingSpacesAndTABs() and
+                    #       combine it into one function?
+
+                    $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
+
+                    $aSomeText = removeCommonLeadingSpaces($aSomeText);
+
+                    $message = "<p>Removed " . $leadingSpaceToRemove .
+                                " leading spaces from all lines...</p>\n";
+
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['convert_to_Markdown_code_fencing']))
+                {
+                    $aSomeText = convertToMarkdownCodefencing_none($aSomeText);
+
+                    $message = ""; # Explicit no message
+                    #$message = "<p>Converted " . $leadingSpaceToRemove .
+                    #            " lines of code Markdown code fencing...</p>\n";
+
+                    $fallThrough = 0;
+                }
+
+                if (isset($aButton['toggle_case']))
+                {
+                    $aSomeText = toggleCase($aSomeText);
+
+                    # Stub - we may want some statistics and which major
+                    #        direction it went in (upper/lower).
+                    $message = "Toggle case!";
+
+                    $fallThrough = 0;
+                }
+
+
+                if ($fallThrough === 1)
+                {
+                    assert(0, "Switch fall-through... Variable button is: >>>$aButton<<<");
+                }
+
+                $lengthAfter = strlen($aSomeText);
+
+                $message .= "<p>Now $lengthAfter characters (incl. newlines).</p>";
+
+
+                #Keep, as we will probably use a similar construct again, but with
+                #a numeric code
+                #$actionStr = get_postParameter('action');
+                #switch ($actionStr)
+                #{
+                #    case "Remove TABs and trailing whitespace":
+                #
+                #        #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
+                #
+                #        #Temp!!!!!!!!!!
+                #        #[$aSomeText, $message] = removeTrailingSpacesAndTABs($aSomeText);
+                #        break;
+                #
+                #    case "Format as keyboard":
+                #
+                #        #echo '<p>Actions for: Format as keyboard</p>';
+                #
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$aSomeText = "<kbd>$aSomeText</kbd>";
+                #        break;
+                #
+                #    case "Quote as code":
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$aSomeText = "`$aSomeText`";
+                #        break;
+                #
+                #    case "Real quotes":
+                #
+                #        #Does not work... $aSomeText is zapped and it shows two backticks...
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$aSomeText = "“$aSomeText”";
+                #        break;
+                #
+                #    case "Transform for YouTube comments":
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$aSomeText = transformFor_YouTubeComments($aSomeText);
+                #        break;
+                #
+                #    case "Remove common leading space":
+                #
+                #        #echo '<h3>Lines...</h3>' . "\n";
+                #
+                #        # Note: We have two functions because we need to first
+                #        #       scan all lines before we know how many spaces
+                #        #       to remove from each line (thus, it is not
+                #        #       just for statistics - we actually need it
+                #        #       for correct operation).
+                #        #
+                #        #       But perhaps we could use the same technique
+                #        #       as for removeTrailingSpacesAndTABs() and
+                #        #       combine it into one function?
+                #
+                #        #Temp!!!!!!!!!!
+                #        #$leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
+                #        #
+                #        #$aSomeText = removeCommonLeadingSpaces(
+                #        #                $aSomeText, $leadingSpaceToRemove);
+                #        #
+                #        #$message = "<p>Removed " . $leadingSpaceToRemove .
+                #        #            " leading spaces from all lines...</p>\n";
+                #        break;
+                #
+                #    default:
+                #        assert(0, "Switch fall-through... Variable actionStr is: >>>$actionStr<<<");
+                #}
+
+                return [$aSomeText, $message];
+            } #textTransformation()
+
 
             # General comments/notes about testing:
             #
@@ -980,182 +1166,11 @@
                 #places for multiple output? But we do have a single
                 #variable for all output here.
                 #
-                $someText = htmlentities(get_postParameter(MAINTEXT));
+                $someText = htmlentities(get_postParameter(MAINTEXT))
+                            . ""; //Test!!!!!!!!!!!!!!!!
 
 
-
-                {
-                    $fallThrough = 1;
-
-                    # There is quite a bit of redundancy here. We could
-                    # have the keys in an array, use a loop to convert
-                    # to a numeric code (-1 of not found) and use a
-                    # switch statement as before.
-                    #
-                    # Do we actually need the array? Couldn't we just use,
-                    # e.g., "remove_TABs_and_trailing_whitespace" by
-                    # itself?
-
-                    if (isset($button['remove_TABs_and_trailing_whitespace']))
-                    {
-                        [$someText, $message] = removeTrailingSpacesAndTABs($someText);
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['format_as_keyboard']))
-                    {
-                        $someText = "<kbd>$someText</kbd>";
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['quote_as_code']))
-                    {
-                        $someText = "`$someText`";
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['real_quotes']))
-                    {
-                        # Note: For unknown reasons, we can ***not*** use string
-                        #       interpolation here. A bug was fixed 2021-09-21.
-                        $someText = "“" . $someText . "”";
-
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['transform_for_YouTube_comments']))
-                    {
-                        $someText = transformFor_YouTubeComments($someText);
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['remove_common_leading_space']))
-                    {
-                        # Note: We have two functions because we need to first
-                        #       scan all lines before we know how many spaces
-                        #       to remove from each line (thus, it is not
-                        #       just for statistics - we actually need it
-                        #       for correct operation).
-                        #
-                        #       But perhaps we could use the same technique
-                        #       as for removeTrailingSpacesAndTABs() and
-                        #       combine it into one function?
-
-                        $leadingSpaceToRemove = findCommonLeadingSpaces($someText);
-
-                        $someText = removeCommonLeadingSpaces($someText);
-
-                        $message = "<p>Removed " . $leadingSpaceToRemove .
-                                    " leading spaces from all lines...</p>\n";
-
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['convert_to_Markdown_code_fencing']))
-                    {
-                        $someText = convertToMarkdownCodefencing_none($someText);
-
-                        $message = "";
-                        #$message = "<p>Converted " . $leadingSpaceToRemove .
-                        #            " lines of code Markdown code fencing...</p>\n";
-
-                        $fallThrough = 0;
-                    }
-
-                    if (isset($button['toggle_case']))
-                    {
-                        $someText = toggleCase($someText);
-
-                        # Stub
-                        $message = "Toggle case!";
-
-                        $fallThrough = 0;
-                    }
-
-
-                    if ($fallThrough === 1)
-                    {
-                        assert(0, "Switch fall-through... Variable button is: >>>$button<<<");
-                    }
-
-                    $lengthAfter = strlen($someText);
-
-                    $message .= "<p>Now $lengthAfter characters (incl. newlines).</p>";
-
-
-                    #Keep, as we will probably use a similar construct again, but with
-                    #a numeric code
-                    #$actionStr = get_postParameter('action');
-                    #switch ($actionStr)
-                    #{
-                    #    case "Remove TABs and trailing whitespace":
-                    #
-                    #        #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
-                    #
-                    #        #Temp!!!!!!!!!!
-                    #        #[$someText, $message] = removeTrailingSpacesAndTABs($someText);
-                    #        break;
-                    #
-                    #    case "Format as keyboard":
-                    #
-                    #        #echo '<p>Actions for: Format as keyboard</p>';
-                    #
-                    #
-                    #        #Temp!!!!!!!!!!
-                    #        #$someText = "<kbd>$someText</kbd>";
-                    #        break;
-                    #
-                    #    case "Quote as code":
-                    #
-                    #        #Temp!!!!!!!!!!
-                    #        #$someText = "`$someText`";
-                    #        break;
-                    #
-                    #    case "Real quotes":
-                    #
-                    #        #Does not work... $someText is zapped and it shows two backticks...
-                    #
-                    #        #Temp!!!!!!!!!!
-                    #        #$someText = "“$someText”";
-                    #        break;
-                    #
-                    #    case "Transform for YouTube comments":
-                    #
-                    #        #Temp!!!!!!!!!!
-                    #        #$someText = transformFor_YouTubeComments($someText);
-                    #        break;
-                    #
-                    #    case "Remove common leading space":
-                    #
-                    #        #echo '<h3>Lines...</h3>' . "\n";
-                    #
-                    #        # Note: We have two functions because we need to first
-                    #        #       scan all lines before we know how many spaces
-                    #        #       to remove from each line (thus, it is not
-                    #        #       just for statistics - we actually need it
-                    #        #       for correct operation).
-                    #        #
-                    #        #       But perhaps we could use the same technique
-                    #        #       as for removeTrailingSpacesAndTABs() and
-                    #        #       combine it into one function?
-                    #
-                    #        #Temp!!!!!!!!!!
-                    #        #$leadingSpaceToRemove = findCommonLeadingSpaces($someText);
-                    #        #
-                    #        #$someText = removeCommonLeadingSpaces(
-                    #        #                $someText, $leadingSpaceToRemove);
-                    #        #
-                    #        #$message = "<p>Removed " . $leadingSpaceToRemove .
-                    #        #            " leading spaces from all lines...</p>\n";
-                    #        break;
-                    #
-                    #    default:
-                    #        assert(0, "Switch fall-through... Variable actionStr is: >>>$actionStr<<<");
-                    #}
-
-                } //Block
-
-
+                [$someText, $message] = textTransformation($someText, $button);
 
             } //The GET or POST parameter exists
             else
