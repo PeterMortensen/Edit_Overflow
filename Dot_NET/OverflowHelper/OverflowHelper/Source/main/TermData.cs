@@ -7383,6 +7383,7 @@ namespace OverflowHelper.core
             correctionAdd("imperical", "empirical");
 
             correctionAdd("imperically", "empirically");
+            correctionAdd("emperically", "empirically");
 
             correctionAdd("Biblical", "biblical");
 
@@ -9637,6 +9638,7 @@ namespace OverflowHelper.core
             correctionAdd("Byte Order Mark", "BOM");
             correctionAdd("B.O.M", "BOM");
             correctionAdd("Byte order mark", "BOM");
+            correctionAdd("Byte-Order Mark", "BOM");
 
             correctionAdd("ffmpeg", "FFmpeg");
             correctionAdd("FFMPEG", "FFmpeg");
@@ -35150,6 +35152,8 @@ namespace OverflowHelper.core
             correctionAdd("Ivy", "Apache Ivy");
 
             correctionAdd("App Image", "AppImage");
+            correctionAdd("app image", "AppImage");
+            correctionAdd("appimage", "AppImage");
 
             correctionAdd("Lunduke", "Bryan Lunduke");
 
@@ -36745,6 +36749,8 @@ namespace OverflowHelper.core
             correctionAdd("Walrus operator", "walrus operator");
 
             correctionAdd("Monero", "Monero (Stack Exchange site)");
+
+            correctionAdd("flatpak", "Flatpak");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57830,6 +57836,8 @@ namespace OverflowHelper.core
 
             URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
 
+            URL_Add("Flatpak", "https://en.wikipedia.org/wiki/Flatpak");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -58210,6 +58218,10 @@ namespace OverflowHelper.core
 
             correctionAdd("puted_", "put_");
 
+            correctionAdd("ATOM_", "Atom_");
+            correctionAdd("ATOM feed_", "Atom_");
+            correctionAdd("Atom feed_", "Atom_");
+
             // URL mappings
             //
             //
@@ -58472,6 +58484,8 @@ namespace OverflowHelper.core
             URL_Add("Cryptography (Stack Exchange site)_", "https://crypto.stackexchange.com/tour");
 
             URL_Add("put_", "https://en.wiktionary.org/wiki/put#Verb");
+
+            URL_Add("Atom_", "https://en.wikipedia.org/wiki/Atom_(Web_standard)");
 
         } //addLookupData_alternativeWordSet()
 
