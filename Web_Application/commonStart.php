@@ -73,7 +73,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a299 2022-02-24T134417Z+0";
+        return "Edit Overflow v. 1.1.49a300 2022-02-25T020734Z+0";
     }
 
 
@@ -703,7 +703,26 @@
         echo "      1. We can now use \"OverflowStyle=Native\" to avoid the WordPress overhead:\n\n";
         echo "           <https://pmortensen.eu/world/$aPageName?$aExtraQueryParameters" .
              "OverflowStyle=Native>\n\n";
-        echo $aExtraTopCommentContent;
+
+        # Note: For HTML validation to succeeed, there is a limit of
+        #       approximately 1024 bytes before the <meta> tag with
+        #       the UTF-8 specification must appear. That is, our
+        #       HTML comment must not be too long). Thus, as a
+        #       workaround, we add the extra information, if
+        #       any, after the <meta> tag, with a reference
+        #       to it.
+        #
+        #       Though we have less control if WordPress is used and
+        #       it is (currently) left out. Is there a way to
+        #       include anyway?
+        #
+        if (strlen($aExtraTopCommentContent) > 0)
+        {
+            echo "      2. For extra information, specific to this page, see\n";
+            echo "         the HTML comment below, just before the \"title\"\n";
+            echo "         tag (only available with the \"OverflowStyle=Native\"\n";
+            echo "         query parameter).\n";
+        }
         echo "-->\n\n\n";
 
 
@@ -772,6 +791,10 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <!--
+            $aExtraTopCommentContent
+        -->
 
         <title>$aTitle</title>
 

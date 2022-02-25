@@ -21,12 +21,16 @@
 <?php include("commonStart.php"); ?>
 
         <?php
+            $extraIndent = "            ";  # For insertion deeper down in
+                                            # the HTML document.
+            $allIndent   = "$extraIndent          ";
             the_EditOverflowHeadline(
               "Text Stuff", 
               "Text.php",
               "",
-              "        Using HTML GET parameter and invoking function \"Format as keyboard\":\n\n" .
-                "          <https://pmortensen.eu/world/Text.php?someText=dont&action=Format%20as%20keyboard&OverflowStyle=Native>\n\n"
+              "3. Using HTML GET parameter and invoking function \"Format as keyboard\":\n\n" .
+                $allIndent . 
+                "<https://pmortensen.eu/world/Text.php?someText=dont&action=Format%20as%20keyboard&OverflowStyle=Native>\n\n"
               );
 
             #Temp!!!!!!!!!!!!!!!!!!! Should always fail. This

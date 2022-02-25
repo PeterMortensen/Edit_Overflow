@@ -29,13 +29,22 @@
 <?php include("commonStart.php"); ?>
 
         <?php
+            $extraIndent = "            ";  # For insertion deeper down in
+                                            # the HTML document.
+            $allIndent   = "$extraIndent          ";
             the_EditOverflowHeadline(
               "Link Builder",
               "Link_Builder.php",
               "",
-              "      2. Parameters are supported, including for GET:\n\n" .
-                "            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>\n\n" .
-                "            <https://pmortensen.eu/world/Link_Builder.php?LinkText=CPU&URL=https://en.wikipedia.org/wiki/Central_processing_unit>\n\n"
+              "3. Parameters are supported, including for GET:\n\n" .
+                $allIndent .
+                "<https://pmortensen.eu/world/Link_Builder.php?" . 
+                  "LinkText=CPU&" .
+                  "URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>\n\n" .
+                $allIndent .
+                "<https://pmortensen.eu/world/Link_Builder.php?" . 
+                  "LinkText=CPU&" .
+                  "URL=https://en.wikipedia.org/wiki/Central_processing_unit>\n\n"
             );
         ?>
 

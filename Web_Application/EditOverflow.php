@@ -37,24 +37,38 @@
             #for ***empty*** input/initial page... (right now
             #it is using some default).
 
+            # Note: Before our workaround, this did not pass the W3C HTML
+            #       validation, likely due to a 1024 bytes limit for some
+            #       auto detection before the 'meta' tag specifying
+            #       UTF-8 encoding. The validator error messages 
+            #       started with:
+            #
+            #           "Error: The character encoding was not declared.
+            #            Proceeding using windows-1252.")"
+            #
+            $extraIndent = "            ";  # For insertion deeper down in
+                                            # the HTML document.
+            $allIndent   = "$extraIndent     ";
             the_EditOverflowHeadline(
                 "Look up of \"$lookUpTerm\"",
                 "EditOverflow.php",
                 "LookUpTerm=cpu&",
-                "      2. Alternatively, to make it even faster, use JavaScript (client-side) lookup:\n\n" .
-                  "           <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>\n\n" .
-                  "             or\n\n" .
-                  "           <https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>\n\n" .
-                  "           Note:\n\n" .
-                  "             a. JavaScript must be allowed from pmortensen.eu for this to work! (For\n" .
-                  "                instance, when using NoScript.) If JavaScript is not allowed, then\n" .
-                  "                it falls back to using the normal form-based lookup (requiring an\n" .
-                  "                Internet connection).\n\n" .
-                  "             b. Only the lookup itself is currently implemented - NONE of the\n" .
-                  "                other fields, like the checkin messages, are updated.\n\n" .
+                "3. Alternatively, to make it even faster, use JavaScript (client-side) lookup:\n\n" .
+                  $allIndent . "<https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes>\n\n" .
+                  $allIndent . "  or\n\n" .
+                  $allIndent . "<https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=cpu&UseJavaScript=yes&OverflowStyle=Native>\n\n" .
+                  $allIndent . "Note:\n\n" .
+                  $allIndent . "  a. JavaScript must be allowed from pmortensen.eu for this to work! (For\n" .
+                  $allIndent . "     instance, when using NoScript.) If JavaScript is not allowed, then\n" .
+                  $allIndent . "     it falls back to using the normal form-based lookup (requiring an\n" .
+                  $allIndent . "     Internet connection).\n\n" .
+                  $allIndent . "  b. Only the lookup itself is currently implemented - NONE of the\n" .
+
+                  # Too much if in the beginning of the HTML
+                  # document (HTML validation failure)...
+                  $allIndent . "     other fields, like the checkin messages, are updated." .
                   ""
                 );
-
 
             #echo
             #    "<p>lookUpTerm through htmlZZZentities(): " .
