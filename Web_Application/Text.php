@@ -718,7 +718,7 @@
 
                 $lengthAfter = strlen($aSomeText);
 
-                $message .= "<p>Now $lengthAfter characters (incl. newlines).</p>";
+                $message .= "<p name=\"Message2\">Now $lengthAfter characters (incl. newlines).</p>";
 
 
                 #Keep, as we will probably use a similar construct again, but with
