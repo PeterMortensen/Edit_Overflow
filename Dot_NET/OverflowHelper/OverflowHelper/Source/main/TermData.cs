@@ -4780,6 +4780,7 @@ namespace OverflowHelper.core
             correctionAdd("scroll-able", "scrollable");
 
             correctionAdd("valueable", "valuable");
+            correctionAdd("valable", "valuable");
 
             correctionAdd("re-usable", "reusable");
             correctionAdd("reuseable", "reusable");
@@ -12420,6 +12421,7 @@ namespace OverflowHelper.core
             correctionAdd("asnwer", "answer");
             correctionAdd("answah", "answer");
             correctionAdd("answear", "answer");
+            correctionAdd("Asnwer", "answer");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -13899,6 +13901,8 @@ namespace OverflowHelper.core
             correctionAdd("trouble shooting", "troubleshooting");
 
             correctionAdd("workorder", "work order");
+            correctionAdd("Work-order", "work order");
+            correctionAdd("work-order", "work order");
 
             correctionAdd("costomer", "customer");
             correctionAdd("costumer", "customer");
@@ -14188,6 +14192,7 @@ namespace OverflowHelper.core
             correctionAdd("Diference", "difference");
             correctionAdd("differece", "difference");
             correctionAdd("diffenerce", "difference");
+            correctionAdd("differnce", "difference");
 
             correctionAdd("disasterous", "disastrous");
 
@@ -17876,6 +17881,7 @@ namespace OverflowHelper.core
             correctionAdd("Personaly", "personally");
             correctionAdd("personaly", "personally");
             correctionAdd("persinally", "personally");
+            correctionAdd("Personnally", "personally");
 
             correctionAdd("pre-allocated", "preallocated");
 
@@ -23685,6 +23691,7 @@ namespace OverflowHelper.core
             correctionAdd("pursing", "pursuing");
 
             correctionAdd("reliefed", "relieved");
+            correctionAdd("releaved", "relieved");
 
             correctionAdd("renouned", "renowned");
             correctionAdd("Renouned", "renowned");
@@ -25453,6 +25460,7 @@ namespace OverflowHelper.core
             correctionAdd("micro-manage", "micromanage");
 
             correctionAdd("P value", "p-value");
+            correctionAdd("P-value", "p-value");
 
             correctionAdd("pub", "pub (package manager)");
 
@@ -25675,6 +25683,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mot", "not");
             correctionAdd("nto", "not");
+            correctionAdd("noz", "not");
 
             correctionAdd("anyother", "another");
             correctionAdd("enother", "another");
@@ -33467,6 +33476,7 @@ namespace OverflowHelper.core
             correctionAdd("NCR", "HTML character entity reference");
             correctionAdd("ncr", "HTML character entity reference");
             correctionAdd("HTML thingamajiggied", "HTML character entity reference");
+            correctionAdd("HTML thingamajigged", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -36576,6 +36586,7 @@ namespace OverflowHelper.core
             correctionAdd("6 - 8", "6 - 8 weeks");
             correctionAdd("6 – 8 weeks", "6 - 8 weeks");
             correctionAdd("6 - 8 Weeks", "6 - 8 weeks");
+            correctionAdd("6 to 8 weeks", "6 - 8 weeks");
 
             correctionAdd("freind", "friend");
 
@@ -36751,6 +36762,29 @@ namespace OverflowHelper.core
             correctionAdd("Monero", "Monero (Stack Exchange site)");
 
             correctionAdd("flatpak", "Flatpak");
+
+            correctionAdd("Adaptation", "adaptation");
+
+            correctionAdd("addresses", "addressed");
+
+            correctionAdd("BE", "backward elimination");
+            correctionAdd("Backward Elimination", "backward elimination");
+
+            correctionAdd("Categorical Variable", "categorical variable");
+            correctionAdd("Categorical Variables", "categorical variable");
+            correctionAdd("categorical variables", "categorical variable");
+
+            correctionAdd("DDRESCUE", "ddrescue");
+
+            correctionAdd("desparation", "desperation");
+
+            correctionAdd("go amis", "go amiss");
+
+            correctionAdd("over counting", "overcounting");
+
+            correctionAdd("P", "p");
+
+            correctionAdd("showed", "shown");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57837,6 +57871,26 @@ namespace OverflowHelper.core
             URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
 
             URL_Add("Flatpak", "https://en.wikipedia.org/wiki/Flatpak");
+
+            URL_Add("adaptation", "https://en.wiktionary.org/wiki/adaptation#Noun");
+
+            URL_Add("addressed", "https://en.wiktionary.org/wiki/address#Verb");
+
+            URL_Add("backward elimination", "https://en.wikipedia.org/wiki/Stepwise_regression#Main_approaches");
+
+            URL_Add("categorical variable", "https://en.wikipedia.org/wiki/Categorical_variable");
+
+            URL_Add("ddrescue", "https://en.wikipedia.org/wiki/Ddrescue");
+
+            URL_Add("desperation", "https://en.wiktionary.org/wiki/desperation#Noun");
+
+            URL_Add("go amiss", "https://en.wiktionary.org/wiki/go_amiss#Verb");
+
+            URL_Add("overcounting", "https://en.wiktionary.org/wiki/overcount#Verb");
+
+            URL_Add("p", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
+
+            URL_Add("shown", "https://en.wiktionary.org/wiki/show#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
