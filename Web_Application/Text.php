@@ -61,26 +61,36 @@
         ?>
 
         <?php
-            # The main purpose: 
+            # The main purpose:
             #
             #   Isolate the computation of the character length
             #   reported to the user (HTML shenanigans, like
             #   "<" encoded as "&lt;" might be involved).
             #
-            # Note: We have replaced all use of the standard strlen() with 
-            #       this function, but that it only makes a difference for 
-            #       the absolute number. 
+            # Note: We have replaced all use of the standard strlen() with
+            #       this function, but that it only makes a difference for
+            #       the absolute number.
             #
-            #       For most of the built-in tests here, we operate on the 
-            #       character count difference, so any offset from the 
-            #       standard strlen() does not make any difference (no 
+            #       For most of the built-in tests here, we operate on the
+            #       character count difference, so any offset from the
+            #       standard strlen() does not make any difference (no
             #       pun intended) for most tests ... An exception is
             #       non-test function findCommonLeadingSpaces(), affecting
             #       tests 1007, 1029, 1033, 1036, etc.
             #
             function strlen_POST($aSomeString)
             {
-                $effectiveString = $aSomeString;
+                # Note: This is a workaround for the problem with the
+                #       reported number of characters (after a text
+                #       transformation).
+                #
+                #       The underlying question is why we use htmlentities()
+                #       (in function textTransformation() in the first
+                #       place. Had it something to do with the
+                #       WordPress madness?
+                #
+                #$effectiveString = $aSomeString;
+                $effectiveString = html_entity_decode($aSomeString);
 
                 return strlen($effectiveString);
             } #strlen_POST()
@@ -250,7 +260,7 @@
 
 
                 # Remove four leading spaces from each line (if there
-                # are at least four leading in a line).
+                # are at least four leading spaces in a line).
                 #
                 # ".*" seems to be non-greedy (unlike Perl). This should
                 # be investigated further.
