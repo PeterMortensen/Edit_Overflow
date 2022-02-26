@@ -270,7 +270,7 @@ echo
 # depend on is not available)
 #
 # Normally, ***ALL*** should be outcommented
-#export DISABLE_HTMLVALIDATION=1
+export DISABLE_HTMLVALIDATION=1
 
 
 
@@ -569,11 +569,26 @@ function startOfBuildStep()
 #
 #       <https://www.gnu.org/software/bash/manual/bash.html>
 #
+# Future:
+#
+#   * In case of an error, consider listing some files
+#     in the build folder, e.g. the youngest few as
+#     those often contain information related to
+#     the error.
+#
 function evaluateBuildResult()
 {
+    # Note: We need to use 'printf' below for embedded newlines,
+    #       though there are also other ways. See e.g.:
+    #
+    #         <https://stackoverflow.com/questions/8467424/>
+    #
+    export EXTRAINFO="\n\nTo list the contents of the build \nfolder in chronological order:\n\n    ls -lsatr '${WORKFOLDER}' \n\n\n\n"
+
     case $2 in
       0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
-      *)   echo ; echo "Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
+      # *)   echo ; echo "${EXTRAINFO}Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
+      *)   echo ; printf "${EXTRAINFO}Build step $1 ($3) failed (error code $2).\n\n" >&2 ; echo ; exit ;;
     esac
 } #evaluateBuildResult()
 
@@ -668,6 +683,27 @@ function keyboardShortcutConsistencyCheck()
 #
 #          %2FEditOverflow%2F_Wordlist  for  https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html
 #
+# Future:
+#
+#   * Check the sizes of (the captured) standard output and standard
+#     error (before bailing out with evaluateBuildResult).
+#
+#     For example, to report whether an error is due to the HTML
+#     validation itself failing (often the size of standard
+#     output will then will 0 bytes) or an actual problem
+#     with our HTML.
+#
+#     For the former case, we could optionally retry a few
+#     times (with an exponentially increasing delay
+#     between retries).
+#
+#     And/or retry with invoking 'wget' without the "-q" option
+#     to get more information. Or is retrying automatic with
+#     'wget'?
+#
+#     (The order of the timestamps for standard error and standard
+#      output may or may not be important.)
+#
 function HTML_validation_base()
 {
     startOfBuildStep $3 "Starting HTML validation for $1"
@@ -678,7 +714,20 @@ function HTML_validation_base()
     echo "Submit URL for HTML validation: ${SUBMIT_URL}"
     echo
 
-    wget -q -O- ${SUBMIT_URL} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
+    # _last_HTML_validation_response_stdout.txt
+    # _last_HTML_validation_response_stdout.txt
+    export HTML_VALIDATION_ID="HTML_validationResponse_$3_$1"
+    export THEPOSTFIX="_${HTML_VALIDATION_ID}.html"
+    export STDOUT_FILE="_stdOut${THEPOSTFIX}"
+    export STDERR_FILE="_stdErr${THEPOSTFIX}"
+
+    # In two parts so we have all the evidence if something goes
+    # wrong (it sometimes does go wrong (every few months))
+    #
+    #wget -q -O- ${SUBMIT_URL} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
+    wget -q -O- ${SUBMIT_URL}  >  ${STDOUT_FILE}  2>  ${STDERR_FILE}
+    cat ${STDOUT_FILE} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
+
 } #HTML_validation_base()
 
 
@@ -777,15 +826,15 @@ function PHP_code_test()
     # 2. Execute the PHP script (and capture both
     #    standard output and standard error)
     #
-    # Note: $3 (build number) is to make it unique (so we don't 
-    #       overwrite previous output files from the same build 
+    # Note: $3 (build number) is to make it unique (so we don't
+    #       overwrite previous output files from the same build
     #       script run (for the current build script run)).
     #
     #       $1 is for information only.
     #
     echo
     echo "Sub step 2:"
-    export PHPRUN_ID="$3_$1"
+    export PHPRUN_ID="PHP_code_test_$3_$1"
     export STDERR_FILE="_stdErr_${PHPRUN_ID}.txt"
 
     # The PHP script outputs HTML to standard output
@@ -2061,6 +2110,33 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 37 $? "copying the HTML word list to
 #
 #                        Worked again on 2021-10-06T072909.
 #
+#  2022-02-26T155945   Intermittent failures, e.g. for step 39 (step 38
+#                      just before worked in that particular case):
+#
+#                        Timed out, with:
+#
+#                          Submit URL for HTML validation:
+#
+#                              https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FText.php%3FOverflowStyle=Native
+#
+#                          Build step 39 (W3 validation for Text stuff
+#                          (file Text.php)) failed (error code 1).
+#
+#                      The HTML document validated fine when the it happended.
+#
+#                      Somewhat later, all the small documents validated,
+#                      but extremely slowly (in a range on the order of
+#                      5 seconds - 40 seconds)  and validation on our
+#                      5 MB HTML word list file hang for 50 minutes
+#                      before Ctrl + C...
+#
+#                      Even later, it also failed when submitted from a
+#                      web browser:
+#
+#                          503 Service Unavailable
+#                          No server is available to handle this request.
+#
+#
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    38
     HTML_validation      Text.php                           "Text stuff"              39
@@ -2233,7 +2309,7 @@ python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 46 $? "web interfa
 
 retrieveWebHostingErrorLog  "_after_"
 
-#Too complicated - use startWatchFile() / endWatchFile() instead.
+#Too complicated - we ought to use startWatchFile() / endWatchFile() instead.
 # Detection of new entries to the error log (normally PHP errors) as
 # a result of our excersing web pages in production
 #
