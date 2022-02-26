@@ -469,9 +469,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         # Source code input with more than 4 space indent (e.g., when
         # part of a Markdown list) must be formatted correctly.
         #
+        # Also test that trailing spaces and TABs are removed. Thus
+        # it is also an indirect test of whether removing trailing
+        # spaces and TABs works as expected.
+        #
         content_in_2 =  ("        warning: ignoring #pragma untiunti\n"
-                         "\n"
-                         "        g++ pragma.cpp -Wall\n"
+                         " \t \n"
+                         "        g++ pragma.cpp -Wall   \t\n"
                          "\n"
                          "")
 
@@ -625,7 +629,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
     # Helper function for testing
     #
-    # Test of text transformations in the 'text' window
+    # Test of some of text transformations in the 'text' window.
+    #
+    # Note: It is not complete yet. E.g., we don't test button
+    #       "Remove TABs and trailing whitespace" yet (though
+    #       some of underlying functions are indirectly
+    #       tested by _checkMarkdownCodeFormatting).
     #
     def _checkText_window(self, aURL):
 
@@ -637,11 +646,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #       tests), whether we discover any state
         #       dependency may depend on the order
         #       here...
-
-        #Temp!!!!!!!!!!!!!!!!!!
-        self._checkRealQuotes(aURL)
-
-
 
         self._checkMarkdownCodeFormatting(aURL)
 
@@ -656,10 +660,18 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #                                                                       #
     #       ( c a l l e d   b y   t h e   t e s t   d r i v e r ).          #
     #                                                                       #
+    #                                                                       #
+    #   Note: These test function do ***not*** run in the order             #
+    #         listed here. They seem to be run in alphabetical              #
+    #         order, e.g. "test_local_linkBuilder" runs first.              #
+    #                                                                       #
+    #         Our naming convention                                                              #
+    #                                                                       #
     #########################################################################
 
 
-    # Test of the text window functions, e.g. YouTube comment formatting
+    # Local webserver: Test of the text window functions, e.g.
+    #                  YouTube comment formatting
     #
     def test_local_text(self):
 
@@ -667,18 +679,40 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #
         self._checkText_window('http://localhost/world/Text.php?OverflowStyle=Native')
 
-
-    # Test of the text window functions, e.g., YouTube comment formatting
+    # Local webserver: Test of the link builder, on the local web server
     #
-    def test_text(self):
+    def test_local_linkBuilder(self):
+
+        self._checkLinkBuilder('http://localhost/world/Link_Builder.php?OverflowStyle=Native')
+
+
+    # Local webserver: Form-based (server roundtrip) lookup
+    #
+    # Test of the central function of Edit Overflow for web: Looking
+    # up incorrect terms (typically misspelling words)
+    #
+    def test_local_mainLookup_form(self):
+
+        #self._mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz')
+
+        # "php"
+        self._mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php')
+        #pass
+
+
+
+
+    # Production: Test of the text window functions, e.g., YouTube comment formatting
+    #
+    def test_production_text(self):
 
         self._checkText_window('https://pmortensen.eu/world/Text.php')
 
 
-    # Test of passing parameters through HTML GET (for the
-    # main function of Edit Overflow, looking up a word).
+    # Production: Test of passing parameters through HTML GET (for the
+    #             main function of Edit Overflow, looking up a word).
     #
-    def test_mainLookup_HTTP_GET(self):
+    def test_production_mainLookup_HTTP_GET(self):
 
         if True: # Start out through HTML GET with an unknown
                  # term (new browser window), "cpu777777".
@@ -691,22 +725,17 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #time.sleep(5.0)
 
 
-    # Test of the link builder, on the local web server
+    # Production: Test of the link builder, on production
     #
-    def test_local_linkBuilder(self):
-
-        self._checkLinkBuilder('http://localhost/world/Link_Builder.php?OverflowStyle=Native')
-
-
-    # Test of the link builder, on production
-    #
-    def test_linkBuilder(self):
+    def test_production_linkBuilder(self):
 
         self._checkLinkBuilder('https://pmortensen.eu/world/Link_Builder.php')
 
 
-    # Test of the central function of Edit Overflow for web: Looking
-    # up incorrect terms (typically misspelled words)
+    # Production: Using JavaScript-based (client-side) lookup, test of
+    #             the central function of Edit Overflow for web:
+    #             Looking up incorrect terms (typically
+    #             misspelled words)
     #
     # ***Note***: The JavaScript (client-side) version
     #
@@ -717,38 +746,23 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     #def test_mainLookup(self):
     @unittest.skip("Skipping test_mainLookup_JavaScript() for now")
-    def test_mainLookup_JavaScript(self):
+    def test_production_mainLookup_JavaScript(self):
 
         # "php"
         self._mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native')
         #pass
 
 
-    # Test of the central function of Edit Overflow for web: Looking
-    # up incorrect terms (typically misspelling words)
+    # Production: Using form-based  (server roundtrip) lookup, test of the
+    #             central function of Edit Overflow for web: Looking up
+    #             incorrect terms (typically misspelling words)
     #
-    # ***Note***: The form-based (server roundtrip) version
+    # ***Note***: The form-based  version
     #
-    #def test_mainLookup(self):
-    def test_mainLookup_form(self):
+    def test_production_mainLookup_form(self):
 
         # "php"
         self._mainLookup('https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=no&OverflowStyle=Native')
-        #pass
-
-
-    # Form-based lookup, using a local web server
-    #
-    # Test of the central function of Edit Overflow for web: Looking
-    # up incorrect terms (typically misspelling words)
-    #
-    #def test_mainLookup(self):
-    def test_mainLookup_form_localWebserver(self):
-
-        #self._mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Ghz')
-
-        # "php"
-        self._mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php')
         #pass
 
 
