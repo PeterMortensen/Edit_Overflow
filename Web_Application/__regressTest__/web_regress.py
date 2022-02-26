@@ -292,12 +292,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #                          "Now 9 characters (incl. newlines)"
     #
     def _textTransformation(self,
-                           aURL,
-                           aTextBefore,
-                           aTextAfter,
-                           anExpectedCharacters,
-                           aKeyboardShortcutLetter,
-                           anErrorMessage):
+                            aURL,
+                            aTextBefore,
+                            aTextAfter,
+                            anExpectedCharacters,
+                            aKeyboardShortcutLetter,
+                            anErrorMessage):
 
         self.browser.get(aURL)
 
@@ -320,7 +320,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             # E.g., containing "Now 9 characters (incl. newlines)".
             msg2Element = self.browser.find_element_by_name("Message2")
- 
+
             #msg2 = msg2Element.get_value()
             msg2 = msg2Element.text
 
@@ -329,32 +329,49 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                 "Now " + str(anExpectedCharacters) + " characters (incl. newlines).",
                 anErrorMessage)
 
-
         time.sleep(3.0) # Only for manual inspection of the
                         # result. Can be removed at any time
 
 
-    # Text.php page: Test enclosing text in real quotes
+    # Text.php page: Test a single enclosing text in real quotes
     #
-    # Note: The specific function / button (for YouTube comments) is
-    #       by the keyboard shortcut Shift + Alt + Q (the fourth
-    #       parameter to _textTransformation(), "q")
+    # Note: The specific function / button is by the keyboard
+    #       shortcut Shift + Alt + Q (the fourth parameter
+    #       to _textTransformation(), "q")
     #
+    # Parameters:
     #
-    def _checkRealQuotes(self, aURL):
-
-        content1_in1 = "secure"
-        #content1_out_new1 = "“" # Adaptation to the current bug
-        content1_out_new1 = "“secure”" # Adaptation to the current bug
+    #   anExpectedCharacters:  An integer. The number of characters after
+    #                          the text transformation.
+    #
+    #                          E.g., 9 to match the self-reported number
+    #                          of characters by the web application,
+    #                          "Now 9 characters (incl. newlines)"
+    #
+    def _checkRealQuotes_single(self,
+        aURL,
+        aTextBefore,
+        aTextAfter,
+        anExpectedCharacters):
 
         # Send Shift + Alt + Q for invoking the formatting
         self._textTransformation(aURL,
-                                content1_in1,
-                                content1_out_new1,
-                                12, # For regression testing. Not necessarily 
-                                    # the correct number!
-                                "q",
-                                "The real quotes formatting result was bad!")
+                                 aTextBefore,
+                                 aTextAfter,
+                                 anExpectedCharacters,
+                                 "q",
+                                 "The real quotes formatting result was bad!")
+
+
+    # Text.php page: Several tests for enclosing text in real quotes
+    #
+    def _checkRealQuotes(self, aURL):
+
+        # Was there a bug???
+        #
+        # 12 # For regression testing. Not necessarily the correct number!
+        #
+        self._checkRealQuotes_single(aURL, "secure", "“secure”", 12)
 
 
     # Text.php page: Test formatting of YouTube comments
