@@ -6,7 +6,7 @@
 
         <?php
             the_EditOverflowHeadline(
-              "Some canned comments", 
+              "Some canned comments",
               "CannedComments.php",
               "",
               "");
@@ -159,6 +159,35 @@
                 />
             </p>
 
+            <p>Many users on Stack Overflow pro<u>b</u>ably post questions
+                on meta sites (e.g., on
+                <a href="https://stackoverflow.com/help/whats-meta"
+                >Meta&nbsp;Stack&nbsp;Overflow</a>
+                and
+                <a href="https://meta.stackexchange.com/help/whats-meta"
+                >Meta&nbsp;Stack&nbsp;Exchange</a>),
+                because they are question-banned
+                (and naively think they can get away
+                with it - but such posts are usually
+                deleted within a few minutes).<br/>
+                Note that there are some placeholders
+                and things to delete in this canned
+                comment, marked with "[]" -
+                depending on where it is posted.
+
+                <br/>
+                <input
+                    name="X34"
+                    type="text"
+                    id="X34"
+                    class="X34"
+                    value="Are you question-banned on Stack Overflow? [The first step](https://meta.stackoverflow.com/q/416125/#comment895735_416125). (The canonical is *[What can I do when getting “We are no longer accepting questions/answers...”?](https://meta.stackoverflow.com/q/255583/)* - with a lot of advice.) The desperation may be relieved by reviewing [this list of alternative sites [here] on MSO](https://meta.stackoverflow.com/a/409391). [A longer, but less credible list](https://www.quora.com/What-are-other-question-asking-websites-like-Quora). [An older list [here] on MSE](https://meta.stackexchange.com/q/13198/)."
+                    style="width:830px;"
+                    accesskey="B"
+                    title="Shortcut: Shift + Alt + B"
+                />
+            </p>
+
 
             <!-- Template
             <p>Some text with <u>Z</u>s <br/>
@@ -192,6 +221,7 @@
                 accesskey=""
                 title=""
             />
+
         </form><?php the_EditOverflowFooter('CannedComments.php', "", ""); ?>
 
 
