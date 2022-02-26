@@ -418,6 +418,21 @@
                                   $aSomeText,
                                   $touchedText,
                                   $aLengthDiff);
+
+                # Also cross check with the output from the function that 
+                # is closer to the user interface / form processing.
+                #
+                # They should be identical - but for now 
+                # we only check for equal length.  
+                #
+                $someButton['remove_TABs_and_trailing_whitespace'] = 1;
+                [$someText2, $message] = textTransformation($aSomeText, $someButton);
+
+                assert_strLengths($anID,
+                                  $someText2,
+                                  $touchedText,
+                                  0);
+
             } #test_removeTrailingSpacesAndTABs()
 
 
@@ -608,6 +623,7 @@
                 }
             } #test_generateWikiMedia_Link()
 
+
             # The main functionality of this page (one of various
             # text transformations, selected by the user
             # (parameters)).
@@ -616,7 +632,12 @@
             #  hash (e.g. "remove_TABs_and_trailing_whitespace") are
             #  dependent on part of this web page and the mechanism
             #  for this to work with the particular notation is
-            #  dependent on PHP.)
+            #  dependent on PHP.
+            #
+            #  Or in other words, the $aButton hash is dictated by
+            #  how PHP works and the functionality that is used
+            #  for connecting a button on the HTML form page
+            #  with the processing code.)
             #
             #
             function textTransformation($aSomeText, $aButton)
@@ -1152,7 +1173,12 @@
                 ##                           ?? 'Some text </textarea>');
                 #$someText = htmlZZZZentities(get_postParameter('someText');
 
-                $button = get_postParameter('someAction'); # An array!
+                # An array! (What is the content? A single element or 
+                # several with the user-pressed button having a 
+                # truthy value?)
+                $button    = get_postParameter('someAction'); 
+
+                $textField = get_postParameter(MAINTEXT);
 
                 #Why do we use htmlentities()????? We are going to do
                 #text transformations on the input text (e.g., this
@@ -1165,10 +1191,8 @@
                 #Is it because we want to avoid doing it in multiple
                 #places for multiple output? But we do have a single
                 #variable for all output here.
-                #
-                $someText = htmlentities(get_postParameter(MAINTEXT))
-                            . ""; //Test!!!!!!!!!!!!!!!!
-
+                #                                
+                $someText = htmlentities($textField);
 
                 [$someText, $message] = textTransformation($someText, $button);
 

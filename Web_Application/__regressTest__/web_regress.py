@@ -373,7 +373,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #
         self._checkRealQuotes_single(aURL, "secure", "“secure”", 12)
 
-        # For bug discovered 2022-02 where the ***reported*** count 
+        # For bug discovered 2022-02 where the ***reported*** count
         # for some strings were longer than expected. E.g., "<"
         # contributing as if it was HTML thingamajiggied
         # as "&lt;" (HTML character entity reference), 4
