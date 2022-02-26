@@ -373,6 +373,18 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #
         self._checkRealQuotes_single(aURL, "secure", "“secure”", 12)
 
+        # For bug discovered 2022-02 where the ***reported*** count 
+        # for some strings were longer than expected. E.g., "<"
+        # contributing as if it was HTML thingamajiggied
+        # as "&lt;" (HTML character entity reference), 4
+        # instead of 1.
+        #
+        # Note that the actual text transformation, at least as
+        # seen by this Selenium script, was as expected
+        #
+        self._checkRealQuotes_single(aURL, "secur<e", "“secur<e”", 13)
+
+
 
     # Text.php page: Test formatting of YouTube comments
     #
