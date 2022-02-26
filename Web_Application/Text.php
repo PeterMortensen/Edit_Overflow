@@ -61,6 +61,31 @@
         ?>
 
         <?php
+            # The main purpose: 
+            #
+            #   Isolate the computation of the character length
+            #   reported to the user (HTML shenanigans, like
+            #   "<" encoded as "&lt;" might be involved).
+            #
+            # Note: We have replaced all use of the standard strlen() with 
+            #       this function, but that it only makes a difference for 
+            #       the absolute number. 
+            #
+            #       For most of the built-in tests here, we operate on the 
+            #       character count difference, so any offset from the 
+            #       standard strlen() does not make any difference (no 
+            #       pun intended) for most tests ... An exception is
+            #       non-test function findCommonLeadingSpaces(), affecting
+            #       tests 1007, 1029, 1033, 1036, etc.
+            #
+            function strlen_POST($aSomeString)
+            {
+                $effectiveString = $aSomeString;
+
+                return strlen($effectiveString);
+            } #strlen_POST()
+
+
             function removeTrailingSpace($aText)
             {
                 # This actually also removes trailing TABs... (as it should)
@@ -80,13 +105,13 @@
                 # Order doesn't matter! ***Trailing*** TABs are
                 # actually removed by removeTrailingSpace().
                 #
-                $lengthBefore = strlen($aText);
+                $lengthBefore = strlen_POST($aText);
                 $text1 = removeTrailingSpace($aText);
-                $lengthAfter = strlen($text1);
+                $lengthAfter = strlen_POST($text1);
                 $removedTrailingSpaces = $lengthBefore - $lengthAfter;
 
                 $text2 = replaceTABS_withSpace($text1);
-                $lengthAfter2 = strlen($text2);
+                $lengthAfter2 = strlen_POST($text2);
 
                 # One TAB results in four spaces (three more
                 # characters) What about rounding??
@@ -153,7 +178,7 @@
                         {
                             #echo '<p>Leading space: xxx' . $out[0] . 'xxx </p>' . "\n";
 
-                            $leadingSpaces = strlen($out[0]);
+                            $leadingSpaces = strlen_POST($out[0]);
 
                             #echo '<p>Number of leading spaces: ' . $leadingSpaces . '</p>' . "\n" . "\n";
                         }
@@ -271,12 +296,12 @@
                     # We don't want content ***ending with newline*** (the
                     # last element in the array will be empty in that
                     # case) or empty lines to affect the result.
-                    if (strlen($someLine) > 0)
+                    if (strlen_POST($someLine) > 0)
                     {
                         #echo "Line: XXX  $someLine   ZZZZ <br/>\n";
 
-                        $lenBefore = strlen($someLine);
-                        $lenAfter = strlen(ltrim($someLine));
+                        $lenBefore = strlen_POST($someLine);
+                        $lenAfter = strlen_POST(ltrim($someLine));
                         $leadingSpaces = $lenBefore - $lenAfter;
 
                         if ($leadingSpaces < $minimumLeadingSpaces)
@@ -349,8 +374,8 @@
             #
             function assert_strLengths($anID, $aOrigText, $aNewText, $aLengthDiff)
             {
-                $lenBefore = strlen($aOrigText);
-                $lenAfter  = strlen($aNewText);
+                $lenBefore = strlen_POST($aOrigText);
+                $lenAfter  = strlen_POST($aNewText);
                 $diff = $lenBefore - $lenAfter;
 
                 # Sanity check of parameters
@@ -419,11 +444,11 @@
                                   $touchedText,
                                   $aLengthDiff);
 
-                # Also cross-check with the output from the function that 
+                # Also cross-check with the output from the function that
                 # is closer to the user interface / form processing.
                 #
-                # They should be identical - but for now 
-                # we only check for equal length.  
+                # They should be identical - but for now
+                # we only check for equal length.
                 #
                 $someButton['remove_TABs_and_trailing_whitespace'] = 1;
                 [$someText2, $message] = textTransformation($aSomeText, $someButton);
@@ -653,7 +678,7 @@
                 #Is it because we want to avoid doing it in multiple
                 #places for multiple output? But we do have a single
                 #variable for all output here.
-                #                                
+                #
                 $someText3 = htmlentities($aSomeText2);
 
                 $message = ""; # To always have a defined value
@@ -751,7 +776,7 @@
                     assert(0, "Switch fall-through... Variable button is: >>>$aButton<<<");
                 }
 
-                $lengthAfter = strlen($someText3);
+                $lengthAfter = strlen_POST($someText3);
 
                 $message .= "<p name=\"Message2\">Now $lengthAfter characters (incl. newlines).</p>";
 
@@ -1187,10 +1212,10 @@
                 ##                           ?? 'Some text </textarea>');
                 #$someText = htmlZZZZentities(get_postParameter('someText');
 
-                # An array! (What is the content? A single element or 
-                # several with the user-pressed button having a 
+                # An array! (What is the content? A single element or
+                # several with the user-pressed button having a
                 # truthy value?)
-                $button    = get_postParameter('someAction'); 
+                $button    = get_postParameter('someAction');
                 $textField = get_postParameter(MAINTEXT);
 
                 [$someText, $message] = textTransformation($textField, $button);
