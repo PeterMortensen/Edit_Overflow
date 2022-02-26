@@ -419,7 +419,7 @@
                                   $touchedText,
                                   $aLengthDiff);
 
-                # Also cross check with the output from the function that 
+                # Also cross-check with the output from the function that 
                 # is closer to the user interface / form processing.
                 #
                 # They should be identical - but for now 
@@ -640,8 +640,22 @@
             #  with the processing code.)
             #
             #
-            function textTransformation($aSomeText, $aButton)
+            function textTransformation($aSomeText2, $aButton)
             {
+                #Why do we use htmlentities()????? We are going to do
+                #text transformations on the input text (e.g., this
+                #is probably why one of the text transformations
+                #for YouTube desn't work (the string "->")).
+                #
+                #A comment below says "leaving out htmlentities() would
+                #result in the HTML validation failing"
+                #
+                #Is it because we want to avoid doing it in multiple
+                #places for multiple output? But we do have a single
+                #variable for all output here.
+                #                                
+                $someText3 = htmlentities($aSomeText2);
+
                 $message = ""; # To always have a defined value
                 $fallThrough = 1;
 
@@ -656,19 +670,19 @@
 
                 if (isset($aButton['remove_TABs_and_trailing_whitespace']))
                 {
-                    [$aSomeText, $message] = removeTrailingSpacesAndTABs($aSomeText);
+                    [$someText3, $message] = removeTrailingSpacesAndTABs($someText3);
                     $fallThrough = 0;
                 }
 
                 if (isset($aButton['format_as_keyboard']))
                 {
-                    $aSomeText = "<kbd>$aSomeText</kbd>";
+                    $someText3 = "<kbd>$someText3</kbd>";
                     $fallThrough = 0;
                 }
 
                 if (isset($aButton['quote_as_code']))
                 {
-                    $aSomeText = "`$aSomeText`";
+                    $someText3 = "`$someText3`";
                     $fallThrough = 0;
                 }
 
@@ -676,14 +690,14 @@
                 {
                     # Note: For unknown reasons, we can ***not*** use string
                     #       interpolation here. A bug was fixed 2021-09-21.
-                    $aSomeText = "“" . $aSomeText . "”";
+                    $someText3 = "“" . $someText3 . "”";
 
                     $fallThrough = 0;
                 }
 
                 if (isset($aButton['transform_for_YouTube_comments']))
                 {
-                    $aSomeText = transformFor_YouTubeComments($aSomeText);
+                    $someText3 = transformFor_YouTubeComments($someText3);
                     $fallThrough = 0;
                 }
 
@@ -699,9 +713,9 @@
                     #       as for removeTrailingSpacesAndTABs() and
                     #       combine it into one function?
 
-                    $leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
+                    $leadingSpaceToRemove = findCommonLeadingSpaces($someText3);
 
-                    $aSomeText = removeCommonLeadingSpaces($aSomeText);
+                    $someText3 = removeCommonLeadingSpaces($someText3);
 
                     $message = "<p>Removed " . $leadingSpaceToRemove .
                                 " leading spaces from all lines...</p>\n";
@@ -711,7 +725,7 @@
 
                 if (isset($aButton['convert_to_Markdown_code_fencing']))
                 {
-                    $aSomeText = convertToMarkdownCodefencing_none($aSomeText);
+                    $someText3 = convertToMarkdownCodefencing_none($someText3);
 
                     $message = ""; # Explicit no message
                     #$message = "<p>Converted " . $leadingSpaceToRemove .
@@ -722,7 +736,7 @@
 
                 if (isset($aButton['toggle_case']))
                 {
-                    $aSomeText = toggleCase($aSomeText);
+                    $someText3 = toggleCase($someText3);
 
                     # Stub - we may want some statistics and which major
                     #        direction it went in (upper/lower).
@@ -737,7 +751,7 @@
                     assert(0, "Switch fall-through... Variable button is: >>>$aButton<<<");
                 }
 
-                $lengthAfter = strlen($aSomeText);
+                $lengthAfter = strlen($someText3);
 
                 $message .= "<p name=\"Message2\">Now $lengthAfter characters (incl. newlines).</p>";
 
@@ -752,7 +766,7 @@
                 #        #echo '<p>Actions for: Remove TABs and trailing whitespace</p>';
                 #
                 #        #Temp!!!!!!!!!!
-                #        #[$aSomeText, $message] = removeTrailingSpacesAndTABs($aSomeText);
+                #        #[$someText3, $message] = removeTrailingSpacesAndTABs($someText3);
                 #        break;
                 #
                 #    case "Format as keyboard":
@@ -761,27 +775,27 @@
                 #
                 #
                 #        #Temp!!!!!!!!!!
-                #        #$aSomeText = "<kbd>$aSomeText</kbd>";
+                #        #$someText3 = "<kbd>$someText3</kbd>";
                 #        break;
                 #
                 #    case "Quote as code":
                 #
                 #        #Temp!!!!!!!!!!
-                #        #$aSomeText = "`$aSomeText`";
+                #        #$someText3 = "`$someText3`";
                 #        break;
                 #
                 #    case "Real quotes":
                 #
-                #        #Does not work... $aSomeText is zapped and it shows two backticks...
+                #        #Does not work... $someText3 is zapped and it shows two backticks...
                 #
                 #        #Temp!!!!!!!!!!
-                #        #$aSomeText = "“$aSomeText”";
+                #        #$someText3 = "“$someText3”";
                 #        break;
                 #
                 #    case "Transform for YouTube comments":
                 #
                 #        #Temp!!!!!!!!!!
-                #        #$aSomeText = transformFor_YouTubeComments($aSomeText);
+                #        #$someText3 = transformFor_YouTubeComments($someText3);
                 #        break;
                 #
                 #    case "Remove common leading space":
@@ -799,10 +813,10 @@
                 #        #       combine it into one function?
                 #
                 #        #Temp!!!!!!!!!!
-                #        #$leadingSpaceToRemove = findCommonLeadingSpaces($aSomeText);
+                #        #$leadingSpaceToRemove = findCommonLeadingSpaces($someText3);
                 #        #
-                #        #$aSomeText = removeCommonLeadingSpaces(
-                #        #                $aSomeText, $leadingSpaceToRemove);
+                #        #$someText3 = removeCommonLeadingSpaces(
+                #        #                $someText3, $leadingSpaceToRemove);
                 #        #
                 #        #$message = "<p>Removed " . $leadingSpaceToRemove .
                 #        #            " leading spaces from all lines...</p>\n";
@@ -812,7 +826,7 @@
                 #        assert(0, "Switch fall-through... Variable actionStr is: >>>$actionStr<<<");
                 #}
 
-                return [$aSomeText, $message];
+                return [$someText3, $message];
             } #textTransformation()
 
 
@@ -1177,24 +1191,9 @@
                 # several with the user-pressed button having a 
                 # truthy value?)
                 $button    = get_postParameter('someAction'); 
-
                 $textField = get_postParameter(MAINTEXT);
 
-                #Why do we use htmlentities()????? We are going to do
-                #text transformations on the input text (e.g., this
-                #is probably why one of the text transformations
-                #for YouTube desn't work (the string "->")).
-                #
-                #A comment below says "leaving out htmlentities() would
-                #result in the HTML validation failing"
-                #
-                #Is it because we want to avoid doing it in multiple
-                #places for multiple output? But we do have a single
-                #variable for all output here.
-                #                                
-                $someText = htmlentities($textField);
-
-                [$someText, $message] = textTransformation($someText, $button);
+                [$someText, $message] = textTransformation($textField, $button);
 
             } //The GET or POST parameter exists
             else
