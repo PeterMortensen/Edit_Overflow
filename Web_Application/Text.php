@@ -690,6 +690,7 @@
                 #variable for all output here.
                 #
                 $someText3 = htmlentities($aSomeText2);
+                #$someText3 = $aSomeText2; # Try it without!
 
                 $message = ""; # To always have a defined value
                 $fallThrough = 1;
