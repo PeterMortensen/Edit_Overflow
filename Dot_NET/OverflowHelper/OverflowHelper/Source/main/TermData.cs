@@ -846,6 +846,7 @@ namespace OverflowHelper.core
             correctionAdd("myqsl", "MySQL");
             correctionAdd("Myql", "MySQL");
             correctionAdd("mysl", "MySQL");
+            correctionAdd("my-sql", "MySQL");
 
             correctionAdd("Linq to SQL", "LINQ&nbsp;to&nbsp;SQL");
             correctionAdd("linq to sql", "LINQ&nbsp;to&nbsp;SQL");
@@ -3442,6 +3443,8 @@ namespace OverflowHelper.core
             correctionAdd("LinuxOS", "Linux");
             correctionAdd("Loonux", "Linux");
             correctionAdd("loonux", "Linux");
+            correctionAdd("Linix", "Linux");
+            correctionAdd("linix", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -4848,6 +4851,7 @@ namespace OverflowHelper.core
             correctionAdd("immesurable", "immeasurable");
 
             correctionAdd("executeable", "executable");
+            correctionAdd("exucutable", "executable");
 
             correctionAdd("replaceble", "replaceable");
             correctionAdd("replacable", "replaceable");
@@ -6462,6 +6466,8 @@ namespace OverflowHelper.core
             correctionAdd("RECAPTCHA", "reCAPTCHA");
             correctionAdd("reCAPTHA", "reCAPTCHA");
             correctionAdd("ReCAPTCHA", "reCAPTCHA");
+            correctionAdd("reCATCHA", "reCAPTCHA");
+            correctionAdd("reCAPCHA", "reCAPTCHA");
 
             correctionAdd("Spinrite", "SpinRite");
             correctionAdd("spinrite", "SpinRite");
@@ -8485,6 +8491,8 @@ namespace OverflowHelper.core
             correctionAdd("Pre-req", "prerequisite"); // Not 100% correct - case.
             correctionAdd("prerequisit", "prerequisite"); // Misspelling.
             correctionAdd("prerequsite", "prerequisite");
+            correctionAdd("prereqiusites", "prerequisite");
+            correctionAdd("prereqiusite", "prerequisite");
 
             correctionAdd("requites", "requisites"); // Misspelling.
 
@@ -10280,6 +10288,7 @@ namespace OverflowHelper.core
             correctionAdd("login", "log in");
             correctionAdd("log-in", "log in");
             correctionAdd("Login", "log in");
+            correctionAdd("Log in", "log in");
 
             correctionAdd("i3", "Core&nbsp;i3");
             correctionAdd("Core i3", "Core&nbsp;i3");
@@ -14366,6 +14375,7 @@ namespace OverflowHelper.core
             correctionAdd("afaict", "as far as I can tell");
 
             correctionAdd("childs", "children");
+            correctionAdd("Childs", "children");
 
             correctionAdd("commmented", "commented");
             correctionAdd("commeted", "commented");
@@ -19427,6 +19437,7 @@ namespace OverflowHelper.core
             correctionAdd("googeled", "googled");
 
             correctionAdd("rootcause", "root cause");
+            correctionAdd("Root Cause", "root cause");
 
             correctionAdd("C’mon", "come on");
             correctionAdd("c’mon", "come on");
@@ -19462,6 +19473,7 @@ namespace OverflowHelper.core
             correctionAdd("origlnal", "original");
             correctionAdd("origintal", "original");
             correctionAdd("Orignal", "original");
+            correctionAdd("origianl", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -20858,6 +20870,7 @@ namespace OverflowHelper.core
             correctionAdd("keybord", "keyboard");
             correctionAdd("KeyBoard", "keyboard");
             correctionAdd("Keyboard", "keyboard");
+            correctionAdd("kayboard", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -22905,6 +22918,7 @@ namespace OverflowHelper.core
             correctionAdd("Yu", "you");
             correctionAdd("xou", "you");
             correctionAdd("YOu", "you");
+            correctionAdd("ya", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -23232,6 +23246,7 @@ namespace OverflowHelper.core
 
             correctionAdd("atm", "at the moment");
             correctionAdd("ATM", "at the moment");
+            correctionAdd("at the minute", "at the moment");
 
             correctionAdd("momment", "moment");
             correctionAdd("moemnt", "moment");
@@ -23466,6 +23481,7 @@ namespace OverflowHelper.core
             correctionAdd("Angst", "angst");
 
             correctionAdd("chaning", "changing");
+            correctionAdd("changin", "changing");
 
             correctionAdd("CYAN", "cyan");
             correctionAdd("Cyan", "cyan");
@@ -23810,6 +23826,7 @@ namespace OverflowHelper.core
             correctionAdd("chauvanism", "chauvinism");
 
             correctionAdd("complez", "complex");
+            correctionAdd("complexe", "complex");
 
             correctionAdd("helpdesk", "help desk");
 
@@ -24318,6 +24335,7 @@ namespace OverflowHelper.core
             correctionAdd("Hoisting", "hoisting");
 
             correctionAdd("inaccessable", "inaccessible");
+            correctionAdd("ininaccessible", "inaccessible");
 
             correctionAdd("inexplicibaly", "inexplicably");
 
@@ -24451,6 +24469,7 @@ namespace OverflowHelper.core
             correctionAdd("Methodl", "method");
             correctionAdd("methodl", "method");
             correctionAdd("methof", "method");
+            correctionAdd("Method", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -26244,6 +26263,8 @@ namespace OverflowHelper.core
             correctionAdd("Hare", "here");
             correctionAdd("herr", "here");
             correctionAdd("hier", "here");
+            correctionAdd("Heare", "here");
+            correctionAdd("heare", "here");
 
             correctionAdd("judgeing", "judging");
             correctionAdd("judginh", "judging");
@@ -27489,6 +27510,7 @@ namespace OverflowHelper.core
             correctionAdd("Utility", "utility");
 
             correctionAdd("Anova", "ANOVA");
+            correctionAdd("analysis of variance", "ANOVA");
 
             correctionAdd("Chi squared test", "Chi-squared test");
 
@@ -29741,6 +29763,7 @@ namespace OverflowHelper.core
             correctionAdd("Parrot", "Parrot OS");
 
             correctionAdd("noraml", "normal");
+            correctionAdd("normall", "normal");
 
             correctionAdd("beta-decay", "beta decay");
 
@@ -30036,6 +30059,7 @@ namespace OverflowHelper.core
             correctionAdd("circuitdiagram", "circuit diagram");
             correctionAdd("schematics", "circuit diagram");
             correctionAdd("schematic", "circuit diagram");
+            correctionAdd("schemactics", "circuit diagram");
 
             correctionAdd("easy-going", "easygoing");
             correctionAdd("easy going", "easygoing");
@@ -35439,6 +35463,7 @@ namespace OverflowHelper.core
             correctionAdd("ChartJS", "Chart.js");
             correctionAdd("chartjs", "Chart.js");
             correctionAdd("chartJS", "Chart.js");
+            correctionAdd("chartJs", "Chart.js");
 
             correctionAdd("Make file", "Makefile");
             correctionAdd("makefile", "Makefile");
@@ -36785,6 +36810,55 @@ namespace OverflowHelper.core
             correctionAdd("P", "p");
 
             correctionAdd("showed", "shown");
+
+            correctionAdd("endash", "en dash");
+            correctionAdd("en-dash", "en dash");
+
+            correctionAdd("MLP", "multilayer perceptron");
+            correctionAdd("Multilayer perceptron", "multilayer perceptron");
+
+            correctionAdd("in the off chance", "on the off chance");
+            correctionAdd("In the off chance", "on the off chance");
+
+            correctionAdd("pre-trained", "pretrained");
+
+            correctionAdd("Reference Type", "reference type");
+
+            correctionAdd("reminader", "reminder");
+
+            correctionAdd("LED-lightstrip", "LED strip light");
+            correctionAdd("LED lightstrip", "LED strip light");
+
+            correctionAdd("came in mind", "came to mind");
+
+            correctionAdd("colourscheme", "colour scheme");
+            correctionAdd("colorscheme", "colour scheme");
+
+            correctionAdd("despide", "despite");
+
+            correctionAdd("greyed-out", "grayed out");
+            correctionAdd("grey-ed out", "grayed out");
+            correctionAdd("gray-ed out", "grayed out");
+            correctionAdd("grayed-out", "grayed out");
+
+            correctionAdd("preemtively", "preemptively");
+
+            correctionAdd("CC BY", "Creative Commons BY");
+
+            correctionAdd("tornado", "Tornado");
+
+            correctionAdd("yast", "YaST");
+
+            correctionAdd("multi-dimensional", "multidimensional");
+
+            correctionAdd("two-way ANOVA", "two-way analysis of variance");
+            correctionAdd("two way anova", "two-way analysis of variance");
+            correctionAdd("two way ANOVA", "two-way analysis of variance");
+            correctionAdd("two-way anova", "two-way analysis of variance");
+
+            correctionAdd("International", "international");
+
+            correctionAdd("worked to me", "worked for me");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -57891,6 +57965,44 @@ namespace OverflowHelper.core
             URL_Add("p", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
 
             URL_Add("shown", "https://en.wiktionary.org/wiki/show#Verb");
+
+            URL_Add("en dash", "https://en.wiktionary.org/wiki/en_dash#Noun");
+
+            URL_Add("multilayer perceptron", "https://en.wikipedia.org/wiki/Multilayer_perceptron");
+
+            URL_Add("on the off chance", "https://en.wiktionary.org/wiki/on_the_off_chance#Adverb");
+
+            URL_Add("pretrained", "https://en.wiktionary.org/wiki/pretrained#Verb");
+
+            URL_Add("reference type", "https://en.wikipedia.org/wiki/Value_type_and_reference_type");
+
+            URL_Add("reminder", "https://en.wiktionary.org/wiki/reminder#Noun");
+
+            URL_Add("LED strip light", "https://en.wikipedia.org/wiki/LED_strip_light");
+
+            URL_Add("came to mind", "https://en.wiktionary.org/wiki/come_to_mind#Verb");
+
+            URL_Add("colour scheme", "https://en.wiktionary.org/wiki/colour_scheme#Noun");
+
+            URL_Add("despite", "https://en.wiktionary.org/wiki/despite#Preposition");
+
+            URL_Add("grayed out", "https://en.wiktionary.org/wiki/grayed_out#Adjective");
+
+            URL_Add("preemptively", "https://en.wiktionary.org/wiki/preemptively#Adverb");
+
+            URL_Add("Creative Commons BY", "https://en.wikipedia.org/wiki/Creative_Commons_license#Four_rights");
+
+            URL_Add("Tornado", "https://en.wikipedia.org/wiki/Tornado_(web_server)");
+
+            URL_Add("YaST", "https://en.wikipedia.org/wiki/YaST");
+
+            URL_Add("multidimensional", "https://en.wiktionary.org/wiki/multidimensional#Adjective");
+
+            URL_Add("two-way analysis of variance", "https://en.wikipedia.org/wiki/Two-way_analysis_of_variance");
+
+            URL_Add("international", "https://en.wiktionary.org/wiki/international#Adjective");
+
+            URL_Add("worked for me", "https://idioms.thefreedictionary.com/works+for+me");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
