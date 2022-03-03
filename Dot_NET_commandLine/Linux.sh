@@ -290,9 +290,11 @@ export EFFECTIVE_DATE='2020-09-29'
 export EFFECTIVE_DATE='2020-10-24'
 export EFFECTIVE_DATE='2021-02-03'
 export EFFECTIVE_DATE='2021-06-14'
+export EFFECTIVE_DATE='2022-03-01'
 
 
 export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
+export SRCFOLDER_BASE='/home/mortensen/UserProf/At_PC2016/Edit_Overflow'
 export WEB_SRCFOLDER_BASE="${SRCFOLDER_BASE}/Web_Application"
 
 
@@ -300,7 +302,9 @@ export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
 export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
-export SELINUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"
+# Old: XP64_NEW. New: Ubuntu 18.04.
+#export SELINUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"
+export SELINUM_DRIVERFOLDER="/home/mortensen/.wdm/drivers/geckodriver/linux64/v0.30.0"
 
 export PATH=$PATH:${SELINUM_DRIVERFOLDER}
 
@@ -324,16 +328,18 @@ export FILE_WITH_MAIN_ENTRY=Program.cs
 export FILE_WITH_MAIN_ENTRY_HIDE=${FILE_WITH_MAIN_ENTRY}ZZZ
 
 
-# Moved to Ubuntu 20.04 MATE 2020-06-09
-## Moved to Ubuntu 20.04 MATE 2020-06-03
-### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
-###export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
-###export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
-##export SRCFOLDER_BASE='/home/mortensen/temp2/Edit_Overflow'
-##export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
-#export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
+# Moved to PC2016 2022-02-28.
+## Moved to Ubuntu 20.04 MATE 2020-06-09
+### Moved to Ubuntu 20.04 MATE 2020-06-03
+#### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
+####export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
+####export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
+###export SRCFOLDER_BASE='/home/mortensen/temp2/Edit_Overflow'
+###export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
+##export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
+##export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
 #export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
-export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
+export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
 
 
 export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
@@ -572,24 +578,58 @@ function startOfBuildStep()
 # Future:
 #
 #   * In case of an error, consider listing some files
-#     in the build folder, e.g. the youngest few as
+#     in the build folder, e.g., the youngest few as
 #     those often contain information related to
 #     the error.
 #
 function evaluateBuildResult()
 {
-    # Note: We need to use 'printf' below for embedded newlines,
-    #       though there are also other ways. See e.g.:
-    #
-    #         <https://stackoverflow.com/questions/8467424/>
-    #
-    export EXTRAINFO="\n\nTo list the contents of the build \nfolder in chronological order:\n\n    ls -lsatr '${WORKFOLDER}' \n\n\n\n"
+   #echo "Dollar 1: $1..."
+   #echo "Dollar 2: $2..."
+   #echo "Dollar 3: $3..."
+   #echo
 
-    case $2 in
-      0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
-      # *)   echo ; echo "${EXTRAINFO}Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
-      *)   echo ; printf "${EXTRAINFO}Build step $1 ($3) failed (error code $2).\n\n" >&2 ; echo ; exit ;;
-    esac
+   # Sanity check of parameters (for example,
+   # too few parameters)
+   INTERNAL_ERR_PREFIX="Internal error in build script (error"
+   INTERNAL_ERR_POSTFIX_3="missing or invalid third parameter to evaluateBuildResult() (the build step identification)). The build step number is $1 (may not be the real build step number, especially if it is 0...).\n\n"
+   case $3 in
+     0)  printf "${INTERNAL_ERR_PREFIX} 1: ${INTERNAL_ERR_POSTFIX_3}" >&2 ; echo ; exit ;;
+     "") printf "${INTERNAL_ERR_PREFIX} 2: ${INTERNAL_ERR_POSTFIX_3}" >&2 ; echo ; exit ;;
+     *)  # echo ; printf "The build number is OK..." ;;
+   esac
+
+   # Yes, an 'if' statement may be better.
+   #
+   # What about values of undefined / empty strings? Is
+   # it covered by case "0" or not?
+   #
+   # Build step number
+   INTERNAL_ERR_POSTFIX_1="missing or invalid first parameter to evaluateBuildResult() (build step number)).\n\n"
+   case $1 in
+     0)  printf "${INTERNAL_ERR_PREFIX} 3: ${INTERNAL_ERR_POSTFIX_1}" >&2 ; echo ; exit ;;
+     "") printf "${INTERNAL_ERR_PREFIX} 4: ${INTERNAL_ERR_POSTFIX_1}" >&2 ; echo ; exit ;;
+     *)  # echo ; printf "The build number is OK..." ;;
+   esac
+
+   # Note: We need to use 'printf' below for embedded newlines,
+   #       though there are also other ways. See e.g.:
+   #
+   #         <https://stackoverflow.com/questions/8467424/>
+   #
+   export EXTRAINFO="\n\nTo list the contents of the build \nfolder in chronological order:\n\n    ls -lsatr '${WORKFOLDER}' \n\n\n\n"
+
+   # EXITCODE=${$2:-}
+
+   # The actual check
+   #
+   # Result code (e.g., 0 for no error)
+   case $2 in
+     0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
+     # *) echo ; echo "${EXTRAINFO}Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
+     "")  echo ; printf "Internal error in build script (error 5: missing or invalid second (result code)).\n\n" >&2 ; echo ; exit ;;
+     *)   echo ; printf "${EXTRAINFO}Build step $1 ($3) failed (error code $2).\n\n" >&2 ; echo ; exit ;;
+   esac
 } #evaluateBuildResult()
 
 
@@ -625,6 +665,142 @@ function mustBeEqual()
     #if [ $1 == $2 ] ; evaluateBuildResult $3  $? "Two strings not equal: $1 and $2 ($4)"
     [[ $1 == $2 ]] ; evaluateBuildResult $3  $? "two strings not equal: $1 and $2 ($4)"
 } #mustBeEqual()
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy
+#
+# Parameters:
+#
+#   $1   File name of an executable that must be able
+#        to execute in the current context (e.g., is
+#        in the path)
+#
+#        Example (often not installed by default
+#                 on a given system):
+#
+#            "pylint"
+#
+#   $2   Identification string and mitigation steps (for
+#        use in the error message)
+#
+#   $3   Build number
+#
+# Future:
+#
+#   1. Also test if it is in the path by
+#      switching to an empty directory
+#      and try executing there
+#
+#   2.
+#
+function checkCommand()
+{
+    echo
+    echo "Checking the prerequisite with command line '$1'"
+    #echo   evaluateBuildResult() output an empty line first.
+
+    # We ought to check if the second or all parameters
+    # are missing (though the way it is used here,
+    # evaluateBuildResult() will catch it if the
+    # second parameter is missing - but only
+    # if the ).
+
+    #echo "Dollar 1: $1..."
+    #echo "Dollar 2: $2..."
+    #echo "Dollar 3: $3..."
+    #echo
+
+    export STDERR_FILE="_stdErr_command.txt"
+
+    # Examples:
+    #
+    #   "pylint" may result in (to standard error):
+    #
+    #       "./Linux.sh: line 651: pylint: command not found"
+    #
+    #   "pip3" may result in (to standard error):
+    #
+    #       "Command 'pip3' not found, but can be installed with:"
+    #
+    # Note that we only get one line here in
+    # the script whereas manually we get more
+    # lines ***and*** a different message (at
+    # least on Ubuntu 18.04). For the second
+    # example, it is:
+    #
+    #     Command 'pip3' not found, but can be installed with:
+    #
+    #     sudo apt install python3-pip
+    #
+    # Note: RESULT only contains the output
+    #       to standard output, whether we
+    #       redirect standard error or not.
+    #export RESULT=$(eval "$1" 2>${STDERR_FILE} )
+
+    #echo "The result is: ${RESULT}"
+    #echo
+    #echo "Captured standard error: `cat ${STDERR_FILE}`"
+    #echo
+
+    ##echo ${STDERR_FILE} | grep -v -q "command not found" ; evaluateBuildResult $2 $? "Pylint is not installed. Execute these commands: ABC\nXYZ\nEFG "
+
+    #Note: 'grep' returns an exit code different
+    #      from 0 for empty input, so even
+    #      though that empty input does
+    #      not contain "command not found"
+    #      we would still report an error...
+    #
+    #      Instead we demand nothing to
+    #      standard error whatsoever.
+    #
+    #cat ${STDERR_FILE} | grep -v -q "command not found" ; evaluateBuildResult $3 $? "$2"
+
+    # Much easier: use the exit code. It works
+    # both for commands and something like
+    # 'pip show' that doesn't output to
+    # standard error.
+    #
+    # Danger! Danger! It also tries to execute
+    # some output from a command... Example:
+    # "Usage:" in the output from 'pip3'
+    #
+    #$(eval "$1" 2> ${STDERR_FILE} > /dev/null ) ; evaluateBuildResult $3 $? "$2"
+    #$(eval "$1" 2> ${STDERR_FILE} > /dev/null )
+    $(eval "$1 2> ${STDERR_FILE} > /dev/null") ; evaluateBuildResult $3 $? "$2"
+
+    # Check for output to standard error as well. It must be empty.
+    #[[ -s ${STDERR_FILE} ]] ; test $? -ne 0 ; evaluateBuildResult $3 $? "$2"
+
+    #echo "End of checkCommand()"
+    #echo
+
+} #checkCommand()
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy
+#
+# Parameters:
+#
+#   $1   Folder name to create (that may already exist)
+#
+#   $2   Build number. For easier identification.
+#
+function createFolder()
+{
+    # We could maybe parse the output to get
+    # a specific error, but for now we just
+    # check if the folder actually exists
+    # after this.
+    #
+    mkdir -p $1
+
+    [[ -d "$1" ]] ; evaluateBuildResult $2  $? "Could not create folder in build step $2 (could be due to misconfiguration of the base folder): $1 "
+
+} #createFolder()
 
 
 # ###########################################################################
@@ -817,7 +993,7 @@ function PHP_code_test()
     #
     # The fourth parameter should be in URL query format
     echo
-    echo "Sub step 1:"
+    echo "Sub step 1 (function parameter sanity checking):"
     echo $4 | grep -q "=" ; evaluateBuildResult $3 $? "PHP test (step 1), internal test: The fourth parameter to function PHP_code_test() does not appear to be in URL query format: $4 "
 
 
@@ -826,14 +1002,22 @@ function PHP_code_test()
     # 2. Execute the PHP script (and capture both
     #    standard output and standard error)
     #
-    # Note: $3 (build number) is to make it unique (so we don't
-    #       overwrite previous output files from the same build
-    #       script run (for the current build script run)).
+    # Notes:
     #
-    #       $1 is for information only.
+    #   $3 (build number) is to make it unique (so we don't
+    #   overwrite previous output files from the same build
+    #   script run (for the current build script run)).
+    #
+    #   $1 is for information only.
+    #
+    #   We don't actually check anything here. But
+    #   perhaps we should - if PHP is not installed
+    #   (locally) it appears as if it passed. Though
+    #   the prerequisites test in the beginning
+    #   should not allow us to get here.
     #
     echo
-    echo "Sub step 2:"
+    echo "Sub step 2 (PHP script main run):"
     export PHPRUN_ID="PHP_code_test_$3_$1"
     export STDERR_FILE="_stdErr_${PHPRUN_ID}.txt"
 
@@ -1159,7 +1343,8 @@ function retrieveWebHostingErrorLog()
 #
 # Parameters:
 #
-#    $1   File name   E.g., the full path
+#    $1   The name of the to check for a file
+#         size range. E.g., the full path
 #
 #    $2   Minimum size. Is inclusive.
 #
@@ -1285,7 +1470,8 @@ function wordListExport()
     wc ${STDERR_FILE}
     echo
 
-    echo "Word export file: `pwd`/${WORD_EXPORT_FILE}"
+    echo "Current directory: `pwd`"
+    echo "Word export file: ${WORD_EXPORT_FILE}"
     #echo
     #echo "After 'dotnet run'..."
     #echo "Exit code captured: `cat __Exit_Code.txt`"
@@ -1435,34 +1621,6 @@ timeStamp "Start time"
 sudo ls > /dev/null
 
 
-# ###########################################################################
-#
-#  Self test of Python/Selenium script
-#
-startOfBuildStep "1" "Internal check of the web interface regression tests"
-
-#
-# Sort of prerequisite for testing
-#
-# Method names in Python are not checked for uniqueness, so only
-# one will be used, risking not running all of the Seleniums
-# tests (a sort of a (potential) ***false negative*** test).
-#
-#geany /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py
-#
-cd ${SELINUM_DRIVERSCRIPT_DIR}
-
-# Something to consider:
-#
-#   The number of arguments to the helper function textTransformation() in
-#   the Selenium Python script is now 6, triggering Pylint (disabled for
-#   now (R0913). Pylint is OK with 5...).
-#
-#   Alternatively, we could configure Pylint to accept 6 instead of 5.
-#   See e.g. <https://stackoverflow.com/a/816789>.
-#
-#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
 
 
 # ###########################################################################
@@ -1471,23 +1629,66 @@ pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable
 # for the local web server (that we use for PHP code tests using
 # the local web server)).
 #
-# We use option "-p" to avoid error output when
-# the folder already exists (reruns), like:
+# Notes:
 #
-#     "mkdir: cannot create directory ‘/home/embo/temp2/2020-06-03’: File exists"
+#   1. This step should be ***before*** the prerequisites
+#      checks, because the prerequisite check for NUnit
+#      depends on an actual project (ours) being in a
+#      usable state (it isn't after the build script
+#      has run past the C# main project runs, e.g.
+#      exports. We use renaming of files in the
+#      work/build folder so .NET only sees one
+#      project at a time).
 #
-startOfBuildStep "2" "Copying files to the build folder, etc."
+#      having the unit project (in the workfolder)
+#      in  it (hiding the main project until unit
+#      testing has done).
+#
+#   2. We use option "-p" to avoid error output
+#      when the folder already exists (reruns),
+#      like:
+#
+#        "mkdir: cannot create directory ‘/home/embo/temp2/2020-06-03’: File exists"
+#
+#      But we do actually get see errors like
+#      (are they to standard output?):
+#
+#        "mkdir: cannot create directory ‘/home/embo’: Permission denied"
+#
+startOfBuildStep "1" "Copying files to the build folder, etc."
 
 echo "Build folder: ${WORKFOLDER}"
 echo
 
-mkdir -p $WORKFOLDER1
-mkdir -p $WORKFOLDER2
-mkdir -p $WORKFOLDER3
-mkdir -p $WORKFOLDER
-mkdir -p $FTPTRANSFER_FOLDER_HTML
-mkdir -p $FTPTRANSFER_FOLDER_JAVASCRIPT
-mkdir -p $LOCAL_WEBSERVER_FOLDER
+#Delete at any time
+#mkdir -p $WORKFOLDER1
+#mkdir -p $WORKFOLDER2
+#mkdir -p $WORKFOLDER3
+#mkdir -p $WORKFOLDER
+#mkdir -p $FTPTRANSFER_FOLDER_HTML
+#mkdir -p $FTPTRANSFER_FOLDER_JAVASCRIPT
+#mkdir -p $LOCAL_WEBSERVER_FOLDER
+
+# This will detect if the script is misconfigured...
+# E.g. incorrect user folder.
+createFolder $WORKFOLDER1                    2
+createFolder $WORKFOLDER2                    2
+createFolder $WORKFOLDER3                    2
+createFolder $WORKFOLDER                     2
+createFolder $FTPTRANSFER_FOLDER_HTML        2
+createFolder $FTPTRANSFER_FOLDER_JAVASCRIPT  2
+
+# This will fail if LAMP (in particular,
+# Apache) has not been installed
+#
+# This will also fail without 'sudo'.
+# Disabled for now. We should probably
+# change permissions so sudo is not
+# required. This will also remove
+# the requirement to type in the
+# password for sudo...
+#
+#createFolder $LOCAL_WEBSERVER_FOLDER         2
 
 
 # Remove any existing
@@ -1499,15 +1700,14 @@ mkdir -p $LOCAL_WEBSERVER_FOLDER
 #
 mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}          $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
-
 cd $SRCFOLDER_DOTNETCOMMANDLINE
 cp ${FILE_WITH_MAIN_ENTRY}                      $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
 cp EditOverflow3.csproj                         $WORKFOLDER
 cp EditOverflow3_UnitTests.csproj               $WORKFOLDER
 
-# This script. We don't execute it there -
-# it is mostly for the spellchecking,.
+# This very script. We don't execute it there -
+# it is mostly for the spellchecking.
 cp Linux.sh                                     $WORKFOLDER
 
 cp $SRCFOLDER_CORE/TermLookup.cs                $WORKFOLDER
@@ -1549,7 +1749,6 @@ cp $SRCFOLDER_WEB/StringReplacerWithRegex.php           $WORKFOLDER
 cp $SRCFOLDER_WEB/commonEnd.php                         $WORKFOLDER
 
 
-
 # To the local web server
 sudo cp $SRCFOLDER_WEB/EditOverflow.php                 $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
@@ -1570,6 +1769,273 @@ sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 
 
+
+# ######################################################################
+#
+#  Check of missing prerequisites (and outputting
+#  installation instructions) - instead of
+#  failing later with some cryptic error
+#  message.
+#
+#  This also helps in setting up on a new system.
+#
+#  APT (e.g. Ubuntu) is currently assumed.
+#
+startOfBuildStep "2" "Checking prerequisites"
+
+#Delete at any time
+##checkCommand "ls" 47
+##checkCommand "ls -lsatr" 46
+##checkCommand "ls lkjlj" 45
+#
+##Missing parameter not detected.
+##
+##checkCommand "lslkjlj" 44
+#
+##Missing parameter detected.
+##checkCommand "pylint"
+#
+##Missing parameter detected. But this is
+##only coincidental, because the exit
+##code from 'ls' is zero and all
+##parameters are shifted one
+##down due to the undefined
+##third parameter...
+##checkCommand "ls" 43
+
+
+# Note:
+#
+#   The prerequisite Pylint itself has prerequisites which
+#   in turn also has prerequisites (or prerequisites for
+#   installation - that is, the installer itself may be
+#   missing)... This is not handled automatically by
+#   package system.
+
+prefix1="\n\nThe prerequisite"
+prefix2="is not installed. Execute these commands:\n\n"
+postfix1="\n\n\n"
+
+#Delete at any time
+# This is to prevent XXX:
+#
+#    "Command 'pip3' not found"
+#checkCommand "pip3" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\npip3 install pylint ${postfix1}"  1
+
+# This is to prevent:
+#
+#    "/usr/bin/python3: No module named pip"
+#
+#checkCommand "pip3" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\npip3 install pylint ${postfix1}"  1
+checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\nsudo apt install python3-pip ${postfix1}"  2
+
+            #Delete at any time
+            # We need to detect this
+            #
+            #   "/usr/bin/python3: No module named pip"
+            #
+            #   But how do we do it without risking to
+            #   install something? We just want to
+            #   detect the problem.
+
+# Pylint itself
+#
+#   Or "pip3 install pylint"?
+#
+# 'pylint' has a return code of 32 for empty
+#  input... (but 'pip3' has a return code
+#  of 0 for empty input).
+#
+checkCommand "pylint --version" "${prefix1} Pylint ${prefix2}ABC\nXYZ\nDEF\nsudo python3 -m pip install pylint ${postfix1}"  2
+
+
+# Python bindings for Selenium. This is sufficient to make
+# web_regress.py pass the Pylint check.
+#
+# If it is not installed we get this from Pylint:
+#
+#    web_regress.py:29:0: E0401: Unable to import 'selenium' (import-error)
+#    web_regress.py:30:0: E0401: Unable to import 'selenium.webdriver.common.keys' (import-error)
+#
+# However, the executable in not "selenium"...
+# 'pip3 show selenium' will return an exit
+# code different from zero if it isn't
+# found, but this does not fit in
+# with checkCommand().
+#
+# Option "-q" is for suppresing output (we are
+# only interested in the return code).
+#
+checkCommand "pip3 -q show selenium" "${prefix1} Selenium ${prefix2}sudo pip3 install selenium ${postfix1}"  2
+
+
+# LAMP. PHP is used directly by this build
+# script, both from the command-line and
+# a web server (Apache) context. Apache
+# is also associated with the existence
+# of the '/var/www' folder (that we
+# copy files to in this script).
+#
+# PHP on the command line is taken as a
+# proxy for the installation of. Later
+# steps also check for the '/var/www' folder.
+
+
+# Apache
+#
+# Can we use APT to test for installation?
+#
+# We also ought to test for:
+#
+#   * And an up and running Apache webserver
+#
+#   * The existence of ${LOCAL_WEBSERVER_FOLDER}
+#     (test if some of the installation
+#      instructions have been carried out)
+#
+checkCommand "dpkg -s apache2" "${prefix1} Apache (part of LAMP) ${prefix2}sudo apt install apache2\nsudo systemctl status apache2\nsudo mkdir ${LOCAL_WEBSERVER_FOLDER} ${postfix1}"  2
+
+
+# PHP
+#
+checkCommand "php --version" "${prefix1} PHP (part of LAMP) ${prefix2}sudo apt install php libapache2-mod-php php-mysql\nsudo cp $SRCFOLDER_WEB/deploymentSpecific.php  $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
+
+
+# MySQL (or rather, MariaDB)
+#
+checkCommand "dpkg -s mariadb-server" "${prefix1} MySQL/MariaDB (part of LAMP) ${prefix2}sudo apt install mariadb-server\nsudo mysql_secure_installation\nmariadb --version $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
+checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${prefix2}sudo apt install mariadb-server\nsudo mysql_secure_installation\nmariadb --version $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
+
+
+# .NET (C#)
+#
+# Notes:
+#
+#   1. The executable 'dotnet' without parameters has
+#      a return code of 129 for empty input...
+#
+#   2. "dotnet nuget --version" is more specific than
+#      "dotnet --version" (we need NuGet to install
+#      NUnit for unit testing), but it probably
+#      doesn't make a difference (NuGet is
+#      probably always available with .NET on Linux)
+#
+#      After 2022-03-02 installation on Ubuntu 18.04:
+#
+#        * .NET: 3.1.101
+#
+#        * NuGet: 5.4.0.2
+#
+checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install apt-transport-https\nsudo apt-get update\nsudo apt-get install dotnet-sdk-3.1 ${postfix1}"  2
+
+
+# C# unit tests (NUnit)
+#
+# This ***seems*** to work without explicit installation(?).
+#
+# Note:
+#
+#   This needs to run in the context of a working
+#   unit project. If another project is enabled
+#   (e.g., the main projects) we may get
+#   something like this:
+#
+#     "Found more than one project in
+#       `/home/mortensen/temp2/2022-03-01/_DotNET_tryout/EditOverflow4/`.
+#       Specify which one to use."
+#
+#   Thus, for how we have set it up, the build
+#   of copy files to the work folder should
+#   be before this check.
+#
+#checkCommand "dotnet unitestZZZ" "${prefix1} NUnit (C#) ${prefix2}dotnet add package NUnit ${postfix1}"  2
+
+
+#dotnet nuget
+#
+#g "dotnet" "nuget" check installed
+#
+#dotnet add package NUnit
+#
+#dotnet add package --help
+#
+#  Project dependent:
+#
+#    You can list the package references for your project using the dotnet list package command.
+
+
+# Nodes.js (for Jest)
+#
+#   1. The executable 'npm' without parameters has
+#      a return code of 1 for empty input...
+#
+#   2. Version v8.10.0 on 2022-03-02 on Ubuntu 18.04.
+#
+checkCommand "nodejs --version" "${prefix1} Nodes.js ${prefix2}sudo apt update\nsudo apt install nodejs npm ${postfix1}"  2
+checkCommand "npm --version" "${prefix1} Nodes.js ${prefix2} sudo apt update\nsudo apt install nodejs npm ${postfix1}"  2
+
+
+# Disabled for now. Installation of Jest failed on 2022-03-03
+# on Ubuntu 18.04.
+#
+# Jest (JavaScript unit testing)
+#
+#checkCommand "jest" "${prefix1} Jest ${prefix2} npm install -g jest ${postfix1}"  2
+
+# Selenium driver for Firefox
+#
+# The **test*** is not really a prerequisite (but the
+# existence of the geckodriver is), but we use the 
+# same mechanism to test and report if this folder 
+# exists to the user get better information about 
+# the reason for a failure (for instance, its 
+# location could be misconfigured). Though
+# the error message is off.
+#
+checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2} pip3 install webdriver-manager ${postfix1}"  2
+
+#Future:
+#
+# Check for the existence of file 
+# "Header_EditOverflow_forMySQL_UTF8.sql" 
+# in the specified location.
+#checkCommand "ls  ${SOME_FUTURE_VARIABLE_CONTAINING_ABSOLUTE_PATH_TO_IT} " "${prefix1} SQL header file ${prefix2} Configure the build script. ${postfix1}"  2
+
+
+# ###########################################################################
+#
+#  Self test of Python/Selenium script
+#
+startOfBuildStep "3" "Internal check of the web interface regression tests"
+
+#
+# Sort of prerequisite for testing
+#
+# Method names in Python are not checked for uniqueness, so only
+# one will be used, risking not running all of the Seleniums
+# tests (a sort of a (potential) ***false negative*** test).
+#
+#geany /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py
+#
+cd ${SELINUM_DRIVERSCRIPT_DIR}
+
+# Something to consider:
+#
+#   The number of arguments to the helper function textTransformation() in
+#   the Selenium Python script is now 6, triggering Pylint (disabled for
+#   now (R0913). Pylint is OK with 5...).
+#
+#   Alternatively, we could configure Pylint to accept 6 instead of 5.
+#   See e.g. <https://stackoverflow.com/a/816789>.
+#
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+
+
+# ###########################################################################
+#
+# The rest presumes the work folder is the current folder
+#
 echo
 cd $WORKFOLDER
 #echo Work folder: $WORKFOLDER
@@ -1580,9 +2046,7 @@ cd $WORKFOLDER
 # Rudimentary spellcheck of source code
 #
 #
-sourceSpellcheck  3
-
-#exit
+sourceSpellcheck  4
 
 
 # ###########################################################################
@@ -1596,17 +2060,17 @@ sourceSpellcheck  3
 # Note: This is direct inspection of the PHP source code, ***not*** as
 #       run by a web serber (rendered HTML).
 #
-keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       4
+keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       5
 
-keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 5
+keyboardShortcutConsistencyCheck  Text.php                  "text stuff"                 6
 
-keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               6
+keyboardShortcutConsistencyCheck  FixedStrings.php          "fixed string"               7
 
-keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               7
+keyboardShortcutConsistencyCheck  EditSummaryFragments.php  "edit summary"               8
 
-keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            8
+keyboardShortcutConsistencyCheck  CannedComments.php        "canned comments"            9
 
-keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"               9
+keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"              10
 
 
 
@@ -1748,23 +2212,32 @@ PHP_code_test  CannedComments.php        "canned comments"                      
 PHP_code_test  Link_Builder.php        "link builder"                            16  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
 
 
-
-
 # ###########################################################################
 #
 #  Detection of error log entries for the local web server (there shouldn't
 #  be any).
 #
 #
-# Note: Only HTTP works with our local webserver...
+# Notes:
 #
+#   1. Only HTTP works with our local webserver... Not HTTPS.
 #
-# We can't use EditOverflow.php at the moment because the
-# database error goes to the web server log...
+#   2. We can only use EditOverflow.php if the database
+#      access has been set up (a user with password)
+#      and file /var/www/html/world/deploymentSpecific.php
+#      has been configured according only. E.g.
+#
+#         $datebaseServer_BaseDomain = 'localhost';
+#
+#      And
+#      the database created with sufficient entries so
+#      that the words used for testing here are include
+#      (e.g. incorrect word "JS").
+#
+#      database error goes to the web server log...
 #
 # Note: Query parameter "LookUpTerm" must be specified. Otherwise we get
 #       at strange error in the line "$URL = htmlentities($row['URL']);"
-#
 #
 
 # A word lookup that fails (the word does not exist in the database)
@@ -1800,9 +2273,6 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=d
 # in parameters here, not relying on any default parameters)
 #
 webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 27
-
-#exit
-
 
 
 # ###########################################################################
@@ -1841,8 +2311,6 @@ mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingChec
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
 
 
-
-
 # ###########################################################################
 #
 # C# compile check, etc. Separate (and a requisite) for doing
@@ -1868,9 +2336,9 @@ startOfBuildStep "29" "C# compilation and sanity check"
 export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
 rm $COMPILECHECK_OUT
-wordListExport 29 "compileCheck"  $COMPILECHECK_OUT  40 100
 
-#exit
+# It is not a real export...
+wordListExport 29 "compileCheck"  $COMPILECHECK_OUT  40 100
 
 
 # ###########################################################################
@@ -1905,14 +2373,20 @@ startOfBuildStep "30" "Exporting the word list as SQL"
 #         is not automatically created by this
 #         script if it doesn't exist).
 #
-# Moved to PC2016 after SSD-related Linux system crash 2020-05-31
-#cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-#cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+#Moved to PC2016 another crash Linux system crash 2022-02-26. 
+## Moved to PC2016 after SSD-related Linux system crash 2020-05-31
+##cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
+##cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
+#cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-02-25/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
 
 #export STDERR_FILE3="_stdErr_Export3.txt"
 
-# Sanity check on the size of the exported file
+# Sanity checks of the exported file:
+#
+#   1. The size 
+#
+#   2. The content, especially the header
 #
 # Note: The last two numbers very much depend on the actual
 #       word list... We use about a 10% margin.
@@ -1921,16 +2395,15 @@ cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Hea
 #
 wordListExport 30 "SQL" $SQL_FILE 5370000 5910000
 
-#exit
+export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
+mustBeEqual ${MATCHING_LINES} 1  30   "The generated SQL file is missing the header. One reason could be a misconfigured build script (this script)."
+
 
 #Delete?
 #echo
 #pwd
 #echo
 #ls -ls $SQL_FILE
-
-
-#exit
 
 
 # ###########################################################################
@@ -2039,9 +2512,13 @@ startOfBuildStep "35" "Start running JavaScript unit tests"
 
 cd $WEBFOLDER
 
+# Disabled for now. Installation of Jest failed on 2022-03-03
+# on Ubuntu 18.04.
+#
 # That is using Jest under Node.js, with the test files
 # in sub folder "__tests__".
-npm test  ; evaluateBuildResult 35 $? "JavaScript unit tests"
+#
+#npm test  ; evaluateBuildResult 35 $? "JavaScript unit tests"
 
 # Back to the previous folder (expected to be the work folder)
 #
@@ -2222,8 +2699,9 @@ mustBeEqual ${MATCHING_LINES} 1  45   "HTML anchor is not unique"
 #
 # Notes:
 #
-#   1. This presumes the PHP files have been deployed to
-#      production (this is currently a manual process)
+#   1. Some of this presumes the PHP files have been
+#      deployed to production (this is currently a
+#      manual process)
 #
 #   2. It uses Selenium and is quite slow.
 #
@@ -2257,6 +2735,7 @@ mustBeEqual ${MATCHING_LINES} 1  45   "HTML anchor is not unique"
 startOfBuildStep "46" "Starting web interface regression tests. Both for the local web server and production."
 
 retrieveWebHostingErrorLog  "_before_"
+
 
 # Note:
 #
