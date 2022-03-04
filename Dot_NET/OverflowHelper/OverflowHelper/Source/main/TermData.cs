@@ -3237,6 +3237,7 @@ namespace OverflowHelper.core
             correctionAdd("reg-ex", "regular expression");
             correctionAdd("REGEXP", "regular expression");
             correctionAdd("Regular-Expression", "regular expression");
+            correctionAdd("eegular expression", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -9475,6 +9476,7 @@ namespace OverflowHelper.core
 
             correctionAdd("disambig", "disambiguation");
             correctionAdd("disambugation", "disambiguation");
+            correctionAdd("disambigation", "disambiguation");
 
             correctionAdd("wud", "would");
             correctionAdd("whould", "would");
@@ -12404,6 +12406,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
             correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
 
             correctionAdd("vsts", "VSTS");
             correctionAdd("Visual Studio Team Services", "VSTS");
@@ -14071,6 +14074,7 @@ namespace OverflowHelper.core
             correctionAdd("refence", "reference");
             correctionAdd("referecence", "reference");
             correctionAdd("referecne", "reference");
+            correctionAdd("Referecence", "reference");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -16832,6 +16836,9 @@ namespace OverflowHelper.core
             correctionAdd("analyics", "analytics");
 
             correctionAdd("auto generate", "autogenerate");
+
+            correctionAdd("genetate", "generate");
+            correctionAdd("genre", "generate");
 
             correctionAdd("boot-camp", "coding bootcamp");
             correctionAdd("coding boot-camp", "coding bootcamp");
@@ -26516,8 +26523,6 @@ namespace OverflowHelper.core
             correctionAdd("abi", "application binary interface");
             correctionAdd("ABI", "application binary interface");
 
-            correctionAdd("genetate", "generate");
-
             correctionAdd("seemlessly", "seamlessly");
 
             correctionAdd("555", "555 timer IC");
@@ -28708,6 +28713,7 @@ namespace OverflowHelper.core
             correctionAdd("sigrok", "Sigrok");
             correctionAdd("sigrock", "Sigrok");
             correctionAdd("Sigrog", "Sigrok");
+            correctionAdd("SigRok", "Sigrok");
 
             correctionAdd("idoim", "idiom");
             correctionAdd("idion", "idiom");
@@ -36859,6 +36865,16 @@ namespace OverflowHelper.core
             correctionAdd("International", "international");
 
             correctionAdd("worked to me", "worked for me");
+
+            correctionAdd("architectured", "architected");
+
+            correctionAdd("Architecting", "architecting");
+
+            correctionAdd("HA", "high availability");
+
+            correctionAdd("Load Balancing", "load balancing");
+
+            correctionAdd("Phonon", "phonon");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58003,6 +58019,16 @@ namespace OverflowHelper.core
             URL_Add("international", "https://en.wiktionary.org/wiki/international#Adjective");
 
             URL_Add("worked for me", "https://idioms.thefreedictionary.com/works+for+me");
+
+            URL_Add("architected", "https://en.wiktionary.org/wiki/architect#Verb");
+
+            URL_Add("architecting", "https://en.wiktionary.org/wiki/architect#Verb");
+
+            URL_Add("high availability", "https://en.wikipedia.org/wiki/High_availability");
+
+            URL_Add("load balancing", "https://en.wikipedia.org/wiki/Load_balancing_(computing)");
+
+            URL_Add("phonon", "https://en.wikipedia.org/wiki/Phonon");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
