@@ -11550,6 +11550,7 @@ namespace OverflowHelper.core
             correctionAdd("exmample", "example");
             correctionAdd("eample", "example");
             correctionAdd("examplpe", "example");
+            correctionAdd("eksample", "example");
 
             correctionAdd("european", "European");
 
@@ -18741,6 +18742,7 @@ namespace OverflowHelper.core
             correctionAdd("uni", "university");
             correctionAdd("University", "university");
             correctionAdd("univ", "university");
+            correctionAdd("Uni", "university");
 
             correctionAdd("useability", "usability");
 
@@ -21208,6 +21210,7 @@ namespace OverflowHelper.core
             correctionAdd("whar", "what");
             correctionAdd("WHat", "what");
             correctionAdd("What", "what");
+            correctionAdd("ehat", "what");
 
             correctionAdd("codidact", "Codidact");
             correctionAdd("Codedact", "Codidact");
@@ -34597,6 +34600,9 @@ namespace OverflowHelper.core
             correctionAdd("power toy", "PowerToys");
 
             correctionAdd("US keyboard", "United States keyboard layout");
+            correctionAdd("us keyboard", "United States keyboard layout");
+            correctionAdd("Keyboard - US", "United States keyboard layout");
+            correctionAdd("American keyboard", "United States keyboard layout");
 
             correctionAdd("URP", "Universal Render Pipeline");
 
@@ -35422,6 +35428,7 @@ namespace OverflowHelper.core
             correctionAdd("re-instate", "reinstate");
 
             correctionAdd("RCE", "remote code execution");
+            correctionAdd("Remote Code Execution", "remote code execution");
 
             correctionAdd("Skybox", "skybox");
 
@@ -36930,6 +36937,30 @@ namespace OverflowHelper.core
             correctionAdd("OU", "organizational unit");
 
             correctionAdd("screenreader", "screen reader");
+
+            correctionAdd("member of parliament", "Member of Parliament");
+
+            correctionAdd("csharp-lang", "```lang-csharp");
+
+            correctionAdd("adminstration", "administration");
+
+            correctionAdd("capitaliation", "capitalisation");
+
+            correctionAdd("In Dubio Pro Reo", "in dubio pro reo");
+
+            correctionAdd("infitisimal", "infinitesimal");
+
+            correctionAdd("minifig", "minifigure");
+
+            correctionAdd("iota", "not one iota");
+
+            correctionAdd("self harm", "self-harm");
+
+            correctionAdd("space related", "space-related");
+
+            correctionAdd("sucidal", "suicidal");
+
+            correctionAdd("thread-safety", "thread safety");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58108,6 +58139,30 @@ namespace OverflowHelper.core
             URL_Add("organizational unit", "https://en.wikipedia.org/wiki/Organizational_unit_(computing)");
 
             URL_Add("screen reader", "https://en.wiktionary.org/wiki/screen_reader#Noun");
+
+            URL_Add("Member of Parliament", "https://en.wiktionary.org/wiki/MP#Noun");
+
+            URL_Add("```lang-csharp", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("administration", "https://en.wiktionary.org/wiki/administration#Noun");
+
+            URL_Add("capitalisation", "https://en.wiktionary.org/wiki/capitalisation#Noun");
+
+            URL_Add("in dubio pro reo", "https://en.wikipedia.org/wiki/In_dubio_pro_reo");
+
+            URL_Add("infinitesimal", "https://en.wiktionary.org/wiki/infinitesimal#Adjective");
+
+            URL_Add("minifigure", "https://en.wikipedia.org/wiki/Lego_minifigure");
+
+            URL_Add("not one iota", "https://idioms.thefreedictionary.com/not+one+iota");
+
+            URL_Add("self-harm", "https://en.wiktionary.org/wiki/self-harm#Noun");
+
+            URL_Add("space-related", "https://en.wikipedia.org/wiki/List_of_spaceflight-related_accidents_and_incidents");
+
+            URL_Add("suicidal", "https://en.wiktionary.org/wiki/suicidal#Adjective");
+
+            URL_Add("thread safety", "https://en.wikipedia.org/wiki/Thread_safety");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
