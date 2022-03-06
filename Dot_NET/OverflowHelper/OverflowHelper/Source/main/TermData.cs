@@ -4137,6 +4137,8 @@ namespace OverflowHelper.core
             correctionAdd("Google Map", "Google Maps");
             correctionAdd("Google map", "Google Maps");
             correctionAdd("Google maps", "Google Maps");
+            correctionAdd("google-map", "Google Maps");
+            correctionAdd("google-maps", "Google Maps");
 
             correctionAdd("acess", "access");
             correctionAdd("acces", "access");
@@ -18286,6 +18288,7 @@ namespace OverflowHelper.core
             correctionAdd("smarty", "Smarty");
             correctionAdd("tpl", "Smarty");
             correctionAdd("TPL", "Smarty");
+            correctionAdd("php-smarty", "Smarty");
 
             correctionAdd("tailwind", "Tailwind CSS");
             correctionAdd("Tailwind", "Tailwind CSS");
@@ -19048,6 +19051,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sicilian defence", "Sicilian Defence"); // Chess
             correctionAdd("sicilian", "Sicilian Defence"); // Chess
+            correctionAdd("Sicilian", "Sicilian Defence"); // Chess
 
             correctionAdd("nidjorf chess", "Sicilian Defence, Najdorf Variation"); // Chess
             correctionAdd("nejdorf", "Sicilian Defence, Najdorf Variation"); // Chess
@@ -20947,6 +20951,7 @@ namespace OverflowHelper.core
             correctionAdd("file type", "filetype");
 
             correctionAdd("fot", "for");
+            correctionAdd("für", "for");
 
             correctionAdd("jalous", "jealous");
             correctionAdd("jelous", "jealous");
@@ -32902,6 +32907,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mainteiner", "maintainer");
             correctionAdd("maintener", "maintainer");
+            correctionAdd("mantainer", "maintainer");
 
             correctionAdd("non-blocking", "nonblocking");
             correctionAdd("non blocking", "nonblocking");
@@ -36939,8 +36945,10 @@ namespace OverflowHelper.core
             correctionAdd("screenreader", "screen reader");
 
             correctionAdd("member of parliament", "Member of Parliament");
+            correctionAdd("MP", "Member of Parliament");
 
             correctionAdd("csharp-lang", "```lang-csharp");
+            correctionAdd("lang-csharp", "```lang-csharp");
 
             correctionAdd("adminstration", "administration");
 
@@ -36961,6 +36969,43 @@ namespace OverflowHelper.core
             correctionAdd("sucidal", "suicidal");
 
             correctionAdd("thread-safety", "thread safety");
+
+            correctionAdd("Advanced System Care", "Advanced SystemCare");
+
+            correctionAdd("blendermarket", "Blender Market");
+
+            correctionAdd("fubar", "FUBAR");
+
+            correctionAdd("OpenNic", "OpenNIC");
+
+            correctionAdd("Sendpress", "SendPress Newsletters");
+            correctionAdd("SendPress", "SendPress Newsletters");
+
+            correctionAdd("tinyurl", "TinyURL");
+
+            correctionAdd("utf-16be", "UTF-16BE");
+
+            correctionAdd("utf-16le", "UTF-16LE");
+
+            correctionAdd("zonealarm", "ZoneAlarm");
+            correctionAdd("Zone Alarm", "ZoneAlarm");
+            correctionAdd("zone alarm", "ZoneAlarm");
+
+            correctionAdd("acentuation", "accentuation");
+
+            correctionAdd("base64_encode()", "base64_encode");
+
+            correctionAdd("oe", "or");
+
+            correctionAdd("sanatizing", "sanitizing");
+
+            correctionAdd("burn down the forest", "see the forest for the trees");
+
+            correctionAdd("show stopper", "showstopper");
+
+            correctionAdd("tip of a tree", "tip of the iceberg");
+
+            correctionAdd("ungoogled chromium", "ungoogled-chromium");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58163,6 +58208,40 @@ namespace OverflowHelper.core
             URL_Add("suicidal", "https://en.wiktionary.org/wiki/suicidal#Adjective");
 
             URL_Add("thread safety", "https://en.wikipedia.org/wiki/Thread_safety");
+
+            URL_Add("Advanced SystemCare", "https://id.wikipedia.org/wiki/Advanced_SystemCare");
+
+            URL_Add("Blender Market", "https://en.wikipedia.org/wiki/Blender_(software)#Blender_Market");
+
+            URL_Add("FUBAR", "https://en.wiktionary.org/wiki/FUBAR#Adjective");
+
+            URL_Add("OpenNIC", "https://en.wikipedia.org/wiki/OpenNIC");
+
+            URL_Add("SendPress Newsletters", "https://wordpress.org/plugins/sendpress/");
+
+            URL_Add("TinyURL", "https://en.wikipedia.org/wiki/TinyURL");
+
+            URL_Add("UTF-16BE", "https://en.wikipedia.org/wiki/UTF-16#Byte-order_encoding_schemes");
+
+            URL_Add("UTF-16LE", "https://en.wikipedia.org/wiki/UTF-16#Byte-order_encoding_schemes");
+
+            URL_Add("ZoneAlarm", "https://en.wikipedia.org/wiki/ZoneAlarm");
+
+            URL_Add("accentuation", "https://en.wiktionary.org/wiki/accentuation#Noun");
+
+            URL_Add("base64_encode", "https://www.php.net/manual/en/function.base64-encode.php");
+
+            URL_Add("or", "https://en.wiktionary.org/wiki/or#Conjunction");
+
+            URL_Add("sanitizing", "https://en.wiktionary.org/wiki/sanitize#Verb");
+
+            URL_Add("see the forest for the trees", "https://en.wiktionary.org/wiki/see_the_forest_for_the_trees#Verb");
+
+            URL_Add("showstopper", "https://en.wiktionary.org/wiki/showstopper#Noun");
+
+            URL_Add("tip of the iceberg", "https://en.wiktionary.org/wiki/tip_of_the_iceberg#Noun");
+
+            URL_Add("ungoogled-chromium", "https://en.wikipedia.org/wiki/Ungoogled-chromium");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
