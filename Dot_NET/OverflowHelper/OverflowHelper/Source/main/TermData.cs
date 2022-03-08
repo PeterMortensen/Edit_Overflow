@@ -2937,6 +2937,7 @@ namespace OverflowHelper.core
             correctionAdd("GiThub", "GitHub");
             correctionAdd("GH", "GitHub");
             correctionAdd("GIthub", "GitHub");
+            correctionAdd("Git Hub", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -5308,6 +5309,7 @@ namespace OverflowHelper.core
             correctionAdd("fan boy", "fanboy");
 
             correctionAdd("asymetric", "asymmetric");
+            correctionAdd("unsymmetric", "asymmetric");
 
             correctionAdd("MS", "Microsoft"); // Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
             correctionAdd("ms", "Microsoft"); // Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
@@ -9352,6 +9354,7 @@ namespace OverflowHelper.core
             correctionAdd("CodeAcedamy", "Codecademy");
             correctionAdd("Codeacademy", "Codecademy");
             correctionAdd("Codeacademy.com", "Codecademy");
+            correctionAdd("codeAcademy", "Codecademy");
 
             correctionAdd("Unit test", "unit test");
             correctionAdd("Unit Test", "unit test");
@@ -30899,6 +30902,7 @@ namespace OverflowHelper.core
             correctionAdd("jahia", "Jahia");
 
             correctionAdd("bash_profile", ".bash_profile");
+            correctionAdd("bashprofile", ".bash_profile");
 
             correctionAdd("Ion", "Amazon Ion");
 
@@ -34408,6 +34412,7 @@ namespace OverflowHelper.core
             correctionAdd("BST", "binary search tree");
 
             correctionAdd("gobbledigook", "gobbledygook");
+            correctionAdd("gobbledegook", "gobbledygook");
 
             correctionAdd("integreted", "integrated");
 
@@ -36683,6 +36688,7 @@ namespace OverflowHelper.core
             correctionAdd("discuss-able", "discussable");
 
             correctionAdd("Electric", "electric");
+            correctionAdd("electic", "electric");
 
             correctionAdd("Electrostaic", "electrostatic");
             correctionAdd("Electrostatic", "electrostatic");
@@ -37045,6 +37051,26 @@ namespace OverflowHelper.core
             correctionAdd("opn", "on");
 
             correctionAdd("short", "shorten");
+
+            correctionAdd("Ether", "ETH");
+
+            correctionAdd("olympiad", "Olympiad");
+            correctionAdd("olimpiad", "Olympiad");
+
+            correctionAdd("bit mask", "bitmask");
+
+            correctionAdd("electro-dynamical", "electrodynamical");
+
+            correctionAdd("fixe", "fix");
+
+            correctionAdd("Good Luck", "good luck");
+            correctionAdd("GL", "good luck");
+
+            correctionAdd("grtaph", "graph");
+
+            correctionAdd("scatterplot", "scatter plot");
+
+            correctionAdd("thiking", "thinking");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58308,6 +58334,24 @@ namespace OverflowHelper.core
 
             URL_Add("shorten", "https://en.wiktionary.org/wiki/shorten#Verb");
 
+            URL_Add("ETH", "https://en.wikipedia.org/wiki/Ethereum");
+
+            URL_Add("Olympiad", "https://en.wiktionary.org/wiki/Olympiad#Noun");
+
+            URL_Add("bitmask", "https://en.wiktionary.org/wiki/bitmask#Noun");
+
+            URL_Add("electrodynamical", "https://en.wiktionary.org/wiki/electrodynamical#Adjective");
+
+            URL_Add("fix", "https://en.wiktionary.org/wiki/fix#Verb");
+
+            URL_Add("good luck", "https://en.wiktionary.org/wiki/good_luck#Interjection");
+
+            URL_Add("graph", "https://en.wiktionary.org/wiki/graph#Noun");
+
+            URL_Add("scatter plot", "https://en.wiktionary.org/wiki/scatter_plot#Noun");
+
+            URL_Add("thinking", "https://en.wiktionary.org/wiki/think#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -58411,6 +58455,9 @@ namespace OverflowHelper.core
 
             correctionAdd("df_", "dataframe_");
             correctionAdd("data frame_", "dataframe_");
+            correctionAdd("datframes_", "dataframe_");
+            correctionAdd("datframe_", "dataframe_");
+            correctionAdd("dfs_", "dataframe_");
 
             correctionAdd("GA_", "general-availability_");
 
