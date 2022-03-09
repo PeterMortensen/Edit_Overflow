@@ -10360,6 +10360,7 @@ namespace OverflowHelper.core
             correctionAdd("blackhole", "black hole");
             correctionAdd("Black Hole", "black hole");
             correctionAdd("BH", "black hole");
+            correctionAdd("Black hole", "black hole");
 
             correctionAdd("schottky", "Schottky");
             correctionAdd("shottky", "Schottky");
@@ -14359,6 +14360,7 @@ namespace OverflowHelper.core
             correctionAdd("neigher", "neither");
             correctionAdd("neigter", "neither");
             correctionAdd("nither", "neither");
+            correctionAdd("nether", "neither");
 
             correctionAdd("offical", "official");
             correctionAdd("Offical", "official");
@@ -14407,6 +14409,7 @@ namespace OverflowHelper.core
             correctionAdd("PHP 7", "PHP&nbsp;7"); // Sort of identity mapping
             correctionAdd("php 7", "PHP&nbsp;7");
             correctionAdd("php7", "PHP&nbsp;7");
+            correctionAdd("PHP7", "PHP&nbsp;7");
 
             correctionAdd("Power Bi", "Power BI");
             correctionAdd("powerbi", "Power BI");
@@ -14704,6 +14707,9 @@ namespace OverflowHelper.core
             correctionAdd("Km", "km");
             correctionAdd("KM", "km");
             correctionAdd("kM", "km");
+            correctionAdd("Kilometer", "km");
+            correctionAdd("Kilometers", "km");
+            correctionAdd("kilometer", "km");
 
             correctionAdd("lastest", "latest");
             correctionAdd("Latests", "latest");
@@ -16280,6 +16286,7 @@ namespace OverflowHelper.core
             correctionAdd("gotsha", "gotcha");
             correctionAdd("gottach", "gotcha");
             correctionAdd("gotach", "gotcha");
+            correctionAdd("Gotcha", "gotcha");
 
             correctionAdd("Telegram", "Telegram Messenger");
             correctionAdd("tellygram", "Telegram Messenger");
@@ -16438,6 +16445,7 @@ namespace OverflowHelper.core
             correctionAdd("guava", "Google Guava");
             correctionAdd("Guava", "Google Guava");
             correctionAdd("GUAVA", "Google Guava");
+            correctionAdd("google guava", "Google Guava");
 
             correctionAdd("mutt", "Mutt");
 
@@ -17310,6 +17318,7 @@ namespace OverflowHelper.core
             correctionAdd("bud", "but");
             correctionAdd("bu", "but");
             correctionAdd("byt", "but");
+            correctionAdd("vut", "but");
 
             correctionAdd("Century", "century");
 
@@ -19783,6 +19792,7 @@ namespace OverflowHelper.core
 
             correctionAdd("doning", "doing");
             correctionAdd("donig", "doing");
+            correctionAdd("doin", "doing");
 
             correctionAdd("exsist", "exist");
 
@@ -22349,6 +22359,10 @@ namespace OverflowHelper.core
             correctionAdd("deserve's", "deserves");
 
             correctionAdd("Dollar", "dollar");
+            correctionAdd("Dollars", "dollar");
+
+            correctionAdd("US Dollar", "US dollar");
+            correctionAdd("US Dollars", "US dollar");
 
             correctionAdd("Drop-down", "dropdown");
             correctionAdd("Drop-Down", "dropdown");
@@ -22986,6 +23000,7 @@ namespace OverflowHelper.core
             correctionAdd("xou", "you");
             correctionAdd("YOu", "you");
             correctionAdd("ya", "you");
+            correctionAdd("ou", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -23759,6 +23774,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Proxima Centuri", "Proxima Centauri");
             correctionAdd("Proxima", "Proxima Centauri");
+            correctionAdd("proxima", "Proxima Centauri");
 
             correctionAdd("Proxima B", "Proxima Centauri b");
 
@@ -24643,6 +24659,7 @@ namespace OverflowHelper.core
             correctionAdd("ion", "eon");
 
             correctionAdd("AB testing", "A/B testing");
+            correctionAdd("A/B Testing", "A/B testing");
 
             correctionAdd("nordic", "Nordic");
 
@@ -25461,6 +25478,7 @@ namespace OverflowHelper.core
             correctionAdd("condenscending", "condescending");
 
             correctionAdd("curricila", "curricula");
+            correctionAdd("curriculums", "curricula");
 
             correctionAdd("dissambiguating", "disambiguating");
 
@@ -26449,6 +26467,7 @@ namespace OverflowHelper.core
             correctionAdd("codepoint", "code point");
             correctionAdd("Unicode code point", "code point");
             correctionAdd("Code Point", "code point");
+            correctionAdd("Unicode codepoint", "code point");
 
             correctionAdd("insure", "ensure");
 
@@ -27018,6 +27037,7 @@ namespace OverflowHelper.core
             correctionAdd("tnq", "thank you");
             correctionAdd("TNQ", "thank you");
             correctionAdd("Thank You", "thank you");
+            correctionAdd("Thank-You", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -27617,6 +27637,7 @@ namespace OverflowHelper.core
             correctionAdd("enlightn", "enlighten");
 
             correctionAdd("on porpouse", "on purpose");
+            correctionAdd("by purpose", "on purpose");
 
             correctionAdd("general purpose", "general-purpose");
 
@@ -28816,8 +28837,6 @@ namespace OverflowHelper.core
             correctionAdd("Nazi", "Nazis");
 
             correctionAdd("box of pandora", "Pandora's box");
-
-            correctionAdd("US Dollar", "US dollar");
 
             correctionAdd("above-mentioned", "abovementioned");
 
@@ -37033,6 +37052,7 @@ namespace OverflowHelper.core
             correctionAdd("de Broglie", "Louis de Broglie");
 
             correctionAdd("phpfiddle", "PhpFiddle");
+            correctionAdd("PHPFiddle", "PhpFiddle");
 
             correctionAdd("Admirable", "admirable");
 
@@ -37071,6 +37091,49 @@ namespace OverflowHelper.core
             correctionAdd("scatterplot", "scatter plot");
 
             correctionAdd("thiking", "thinking");
+
+            correctionAdd("3DNow!", "3DNow");
+            correctionAdd("3Dnow!", "3DNow");
+
+            correctionAdd("GHC", "Glasgow Haskell Compiler");
+
+            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
+
+            correctionAdd("PHP6", "PHP&nbsp;6");
+            correctionAdd("PHP 6", "PHP&nbsp;6"); // Sort of identity mapping
+
+            correctionAdd("PHP8", "PHP&nbsp;8");
+            correctionAdd("PHP 8", "PHP&nbsp;8"); // Sort of identity mapping
+
+            correctionAdd("quic", "QUIC");
+
+            correctionAdd("television show", "TV show");
+            correctionAdd("TV Show", "TV show");
+
+            correctionAdd("VFP", "Visual FoxPro");
+            correctionAdd("vfp", "Visual FoxPro");
+
+            correctionAdd("java-lang", "```lang-java");
+            correctionAdd("lang-java", "```lang-java");
+
+            correctionAdd("lang-js", "```lang-javascript");
+            correctionAdd("lang-javascript", "```lang-javascript");
+            correctionAdd("javascript-lang", "```lang-javascript");
+
+            correctionAdd("Equity", "equity");
+
+            correctionAdd("Investors", "investors");
+
+            correctionAdd("market", "marked");
+
+            correctionAdd("mb_split", "mb_split()");
+
+            correctionAdd("mbstring", "mb_string");
+
+            correctionAdd("onesided", "one-sided");
+            correctionAdd("one sided", "one-sided");
+
+            correctionAdd("String Theory", "string theory");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58352,6 +58415,40 @@ namespace OverflowHelper.core
 
             URL_Add("thinking", "https://en.wiktionary.org/wiki/think#Verb");
 
+            URL_Add("3DNow", "https://en.wikipedia.org/wiki/3DNow!");
+
+            URL_Add("Glasgow Haskell Compiler", "https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler");
+
+            URL_Add("Newton's law of universal gravitation", "https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation");
+
+            URL_Add("PHP&nbsp;6", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("PHP&nbsp;8", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("QUIC", "https://en.wikipedia.org/wiki/QUIC");
+
+            URL_Add("TV show", "https://en.wikipedia.org/wiki/Television_show");
+
+            URL_Add("Visual FoxPro", "https://en.wikipedia.org/wiki/Visual_FoxPro");
+
+            URL_Add("```lang-java", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("```lang-javascript", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("equity", "https://en.wiktionary.org/wiki/equity#Noun");
+
+            URL_Add("investors", "https://en.wiktionary.org/wiki/investor#Noun");
+
+            URL_Add("marked", "https://en.wiktionary.org/wiki/mark#Verb");
+
+            URL_Add("mb_split()", "https://www.php.net/manual/en/function.mb-split.php");
+
+            URL_Add("mb_string", "https://www.php.net/manual/en/book.mbstring.php");
+
+            URL_Add("one-sided", "https://en.wiktionary.org/wiki/one-sided#Adjective");
+
+            URL_Add("string theory", "https://en.wikipedia.org/wiki/String_theory");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -58767,6 +58864,8 @@ namespace OverflowHelper.core
 
             correctionAdd("acreen_", "screen_");
 
+            correctionAdd("UE_", "Unreal Engine_");
+
             // URL mappings
             //
             //
@@ -59045,6 +59144,8 @@ namespace OverflowHelper.core
             URL_Add("Google (company)_", "https://en.wikipedia.org/wiki/Google");
 
             URL_Add("screen_", "https://en.wiktionary.org/wiki/screen#Noun");
+
+            URL_Add("Unreal Engine_", "https://en.wikipedia.org/wiki/Unreal_Engine");
 
         } //addLookupData_alternativeWordSet()
 
