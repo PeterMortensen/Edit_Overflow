@@ -22421,6 +22421,8 @@ namespace OverflowHelper.core
 
             correctionAdd("perhapse", "perhaps");
             correctionAdd("pheraps", "perhaps");
+            correctionAdd("Prehaps", "perhaps");
+            correctionAdd("prehaps", "perhaps");
 
             correctionAdd("quenstinel", "quintessential");
 
@@ -23495,11 +23497,13 @@ namespace OverflowHelper.core
 
             correctionAdd("BFS", "breadth-first search");
             correctionAdd("breath first search", "breadth-first search");
+            correctionAdd("breadth first search", "breadth-first search");
 
             correctionAdd("depth first search", "depth-first search");
             correctionAdd("Depth First Search", "depth-first search");
             correctionAdd("DFS", "depth-first search");
             correctionAdd("depth first seach", "depth-first search");
+            correctionAdd("dfs", "depth-first search");
 
             correctionAdd("serach", "search");
             correctionAdd("seach", "search");
@@ -31707,6 +31711,7 @@ namespace OverflowHelper.core
 
             correctionAdd("as follow", "as follows");
             correctionAdd("as followed", "as follows");
+            correctionAdd("as following", "as follows");
 
             correctionAdd("brain child", "brainchild");
 
@@ -33396,6 +33401,7 @@ namespace OverflowHelper.core
             correctionAdd("freefall", "free fall");
 
             correctionAdd("stetching", "stretching");
+            correctionAdd("stretcing", "stretching");
 
             correctionAdd("stuppid", "stupid");
 
@@ -37221,6 +37227,14 @@ namespace OverflowHelper.core
             correctionAdd("sugar coat", "sugarcoat");
             correctionAdd("sugar-code", "sugarcoat");
             correctionAdd("sugarcode", "sugarcoat");
+
+            correctionAdd("RSK blockchain", "Rootstock blockchain");
+            correctionAdd("RSK", "Rootstock blockchain");
+            correctionAdd("Rootstock Blockchain", "Rootstock blockchain");
+
+            correctionAdd("web3.js", "Web3.js");
+
+            correctionAdd("Smart contract", "smart contract");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58576,6 +58590,12 @@ namespace OverflowHelper.core
 
             URL_Add("sugarcoat", "https://en.wiktionary.org/wiki/sugarcoat#Verb");
 
+            URL_Add("Rootstock blockchain", "https://blockgeeks.com/guides/rootstock-blockchain/");
+
+            URL_Add("Web3.js", "https://www.mycryptopedia.com/what-is-web3-js-a-detailed-guide/");
+
+            URL_Add("smart contract", "https://en.wikipedia.org/wiki/Smart_contract");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -58987,6 +59007,7 @@ namespace OverflowHelper.core
             correctionAdd("Google search_", "Google Search_"); // The search engine
             correctionAdd("GOOGL_", "Google Search_"); // The search engine
             correctionAdd("GOOGLE_", "Google Search_"); // The search engine
+            correctionAdd("googlr_", "Google Search_"); // The search engine
 
             correctionAdd("google_", "Google (company)_");
 
@@ -58995,6 +59016,8 @@ namespace OverflowHelper.core
             correctionAdd("UE_", "Unreal Engine_");
 
             correctionAdd("Salesforce_", "Salesforce (Stack Exchange site)_");
+
+            correctionAdd("down vote_", "downvote_");
 
             // URL mappings
             //
@@ -59278,6 +59301,8 @@ namespace OverflowHelper.core
             URL_Add("Unreal Engine_", "https://en.wikipedia.org/wiki/Unreal_Engine");
 
             URL_Add("Salesforce (Stack Exchange site)_", "https://salesforce.stackexchange.com/tour");
+
+            URL_Add("downvote_", "https://en.wiktionary.org/wiki/downvote#Noun");
 
         } //addLookupData_alternativeWordSet()
 
