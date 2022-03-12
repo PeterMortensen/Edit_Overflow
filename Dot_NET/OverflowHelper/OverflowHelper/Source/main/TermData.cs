@@ -827,6 +827,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PHPBB", "phpBB");
             correctionAdd("phpbb", "phpBB");
+            correctionAdd("bbPHP", "phpBB");
 
             correctionAdd("PhpNuke", "PHP-Nuke");
             correctionAdd("PHPNuke", "PHP-Nuke");
@@ -1022,6 +1023,7 @@ namespace OverflowHelper.core
             correctionAdd("MSSQLserver", "SQL&nbsp;Server");
             correctionAdd("SQLserver", "SQL&nbsp;Server");
             correctionAdd("sql sever", "SQL&nbsp;Server");
+            correctionAdd("TSQL Server", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -3388,6 +3390,7 @@ namespace OverflowHelper.core
             correctionAdd("SMSS", "SQL Server Management Studio");
             correctionAdd("sql server managment studio", "SQL Server Management Studio");
             correctionAdd("ssms", "SQL Server Management Studio");
+            correctionAdd("Server Management Studio", "SQL Server Management Studio");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -17220,6 +17223,7 @@ namespace OverflowHelper.core
             correctionAdd("phychic", "psychic");
             correctionAdd("phychich", "psychic");
             correctionAdd("phycic", "psychic");
+            correctionAdd("psichic", "psychic");
 
             correctionAdd("alibaba", "Alibaba");
 
@@ -22714,6 +22718,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Arcgis", "ArcGIS");
 
+            correctionAdd("gis", "GIS");
+            correctionAdd("geographic information system", "GIS");
+
             correctionAdd("ARTEMIS", "Artemis");
             correctionAdd("artimis", "Artemis");
             correctionAdd("artemis", "Artemis");
@@ -22732,8 +22739,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vis-a-vis", "vis-à-vis");
             correctionAdd("vis a vis", "vis-à-vis");
-
-            correctionAdd("gis", "GIS");
 
             correctionAdd("PostGis", "PostGIS");
 
@@ -24515,6 +24520,8 @@ namespace OverflowHelper.core
             correctionAdd("highlight.js", "Highlight.js");
             correctionAdd("hIghlightjs", "Highlight.js");
             correctionAdd("Highlight.JS", "Highlight.js");
+            correctionAdd("Highlight JS", "Highlight.js");
+            correctionAdd("Highlight", "Highlight.js");
 
             correctionAdd("nim", "Nim");
 
@@ -27684,6 +27691,7 @@ namespace OverflowHelper.core
 
             correctionAdd("syntax highlighitng", "syntax highlighting");
             correctionAdd("syntax-highlighting", "syntax highlighting");
+            correctionAdd("Syntax highlighting", "syntax highlighting");
 
             correctionAdd("thorwing", "throwing");
             correctionAdd("Thowing", "throwing");
@@ -28894,6 +28902,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ER model", "entity–relationship model");
             correctionAdd("ER", "entity–relationship model");
+            correctionAdd("Entity Relationship", "entity–relationship model");
+            correctionAdd("Entity Relationship diagram", "entity–relationship model");
 
             correctionAdd("roadmap", "road map");
 
@@ -30175,6 +30185,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non obvious", "non-obvious");
             correctionAdd("nonobvious", "non-obvious");
+            correctionAdd("unobvious", "non-obvious");
 
             correctionAdd("preservers", "preserves");
 
@@ -33131,6 +33142,7 @@ namespace OverflowHelper.core
             correctionAdd("Pearson Vue", "Pearson VUE");
 
             correctionAdd("hade", "had");
+            correctionAdd("hads", "had");
 
             correctionAdd("non ordered", "nonordered");
 
@@ -33335,6 +33347,7 @@ namespace OverflowHelper.core
             correctionAdd("nonexistant", "nonexistent");
             correctionAdd("non existant", "nonexistent");
             correctionAdd("non existent", "nonexistent");
+            correctionAdd("non-existant", "nonexistent");
 
             correctionAdd("regs", "registers");
 
@@ -37235,6 +37248,21 @@ namespace OverflowHelper.core
             correctionAdd("web3.js", "Web3.js");
 
             correctionAdd("Smart contract", "smart contract");
+
+            correctionAdd("Graphics Design", "Graphic Design (Stack Exchange site)");
+            correctionAdd("Graphic Design", "Graphic Design (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Munchausen Trilemma", "Münchhausen trilemma");
+
+            correctionAdd("republican", "Republican");
+
+            correctionAdd("burried", "buried");
+
+            correctionAdd("ireproducible", "irreproducible");
+
+            correctionAdd("Psychic debugging", "psychic debugging");
+
+            correctionAdd("inconditionally", "unconditionally");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58596,6 +58624,20 @@ namespace OverflowHelper.core
 
             URL_Add("smart contract", "https://en.wikipedia.org/wiki/Smart_contract");
 
+            URL_Add("Graphic Design (Stack Exchange site)", "https://graphicdesign.stackexchange.com/tour");
+
+            URL_Add("Münchhausen trilemma", "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma");
+
+            URL_Add("Republican", "https://en.wiktionary.org/wiki/Republican#Noun");
+
+            URL_Add("buried", "https://en.wiktionary.org/wiki/bury#Verb");
+
+            URL_Add("irreproducible", "https://en.wiktionary.org/wiki/irreproducible#Adjective");
+
+            URL_Add("psychic debugging", "https://meta.stackexchange.com/questions/186035/policy-and-rationale-for-making-close-votes-invisible-to-most-users/186047#186047");
+
+            URL_Add("unconditionally", "https://en.wiktionary.org/wiki/unconditionally#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -58963,6 +59005,7 @@ namespace OverflowHelper.core
             correctionAdd("Physics.SE_", "Physics (Stack Exchange site)_");
             correctionAdd("Physics (SE)_", "Physics (Stack Exchange site)_");
             correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Physics.SO_", "Physics (Stack Exchange site)_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
