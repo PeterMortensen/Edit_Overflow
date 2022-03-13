@@ -5156,6 +5156,7 @@ namespace OverflowHelper.core
             correctionAdd("arrgument", "argument");
             correctionAdd("argumet", "argument");
             correctionAdd("agrument", "argument");
+            correctionAdd("rgument", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -10240,6 +10241,8 @@ namespace OverflowHelper.core
             correctionAdd("Pease", "please");
             correctionAdd("pease", "please");
             correctionAdd("Please", "please");
+            correctionAdd("Pl", "please");
+            correctionAdd("pl", "please");
 
             correctionAdd("1 Liner", "one-liner");
             correctionAdd("one liner", "one-liner");
@@ -30016,6 +30019,7 @@ namespace OverflowHelper.core
             correctionAdd("SFF", "Science Fiction & Fantasy (Stack Exchange site)");
             correctionAdd("Sci-Fi and Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
             correctionAdd("Science Fiction & Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
+            correctionAdd("sci-fi and fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
 
             correctionAdd("3DES", "Triple DES");
             correctionAdd("3des", "Triple DES");
@@ -37263,6 +37267,22 @@ namespace OverflowHelper.core
             correctionAdd("Psychic debugging", "psychic debugging");
 
             correctionAdd("inconditionally", "unconditionally");
+
+            correctionAdd("SOes", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Ucraine", "Ukraine");
+
+            correctionAdd("click bait", "clickbait");
+            correctionAdd("Click bait", "clickbait");
+
+            correctionAdd("flatter", "flatten");
+
+            correctionAdd("machanics", "mechanics");
+
+            correctionAdd("neo pronoun", "neopronoun");
+
+            correctionAdd("precident", "president");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58638,6 +58658,20 @@ namespace OverflowHelper.core
 
             URL_Add("unconditionally", "https://en.wiktionary.org/wiki/unconditionally#Adverb");
 
+            URL_Add("Stack Overflow en español (Stack Exchange site)", "https://es.stackoverflow.com/tour");
+
+            URL_Add("Ukraine", "https://en.wikipedia.org/wiki/Ukraine");
+
+            URL_Add("clickbait", "https://en.wiktionary.org/wiki/clickbait#Noun");
+
+            URL_Add("flatten", "https://en.wiktionary.org/wiki/flatten#Verb");
+
+            URL_Add("mechanics", "https://en.wiktionary.org/wiki/mechanics#Noun");
+
+            URL_Add("neopronoun", "https://en.wiktionary.org/wiki/neopronoun#Noun");
+
+            URL_Add("president", "https://en.wiktionary.org/wiki/president#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59062,6 +59096,10 @@ namespace OverflowHelper.core
 
             correctionAdd("down vote_", "downvote_");
 
+            correctionAdd("english_", "English_");
+
+            correctionAdd("writing_", "Writing (Stack Exchange site)_");
+
             // URL mappings
             //
             //
@@ -59346,6 +59384,10 @@ namespace OverflowHelper.core
             URL_Add("Salesforce (Stack Exchange site)_", "https://salesforce.stackexchange.com/tour");
 
             URL_Add("downvote_", "https://en.wiktionary.org/wiki/downvote#Noun");
+
+            URL_Add("English_", "https://en.wiktionary.org/wiki/English#Proper_noun");
+
+            URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
