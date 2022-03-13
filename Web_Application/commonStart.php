@@ -73,7 +73,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a315 2022-03-12T192009Z+0";
+        return "Edit Overflow v. 1.1.49a316 2022-03-13T020546Z+0";
     }
 
 
@@ -700,7 +700,8 @@
 
         echo "\n<!--\n";
         echo "    Notes:\n\n";
-        echo "      1. We can now use \"OverflowStyle=Native\" to avoid the WordPress overhead:\n\n";
+        echo "      1. We can now use \"OverflowStyle=Native\" to avoid the WordPress\n";
+        echo "         overhead (and make the keyboard shortcut hints visible):\n\n";
         echo "           <https://pmortensen.eu/world/$aPageName?$aExtraQueryParameters" .
              "OverflowStyle=Native>\n\n";
 
