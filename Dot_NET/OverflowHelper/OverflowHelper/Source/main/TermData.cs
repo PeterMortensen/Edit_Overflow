@@ -1223,6 +1223,72 @@ namespace OverflowHelper.core
             correctionAdd("tif", "TIFF");
             correctionAdd("TIF", "TIFF");
 
+            correctionAdd("onw", "one");
+            correctionAdd("onle", "one");
+
+            correctionAdd("noone", "no one");
+            correctionAdd("no-one", "no one");
+            correctionAdd("No one", "no one");
+            correctionAdd("No-one", "no one");
+            correctionAdd("NOONE", "no one");
+
+            correctionAdd("some one", "someone");
+            correctionAdd("somone", "someone");
+            correctionAdd("someoone", "someone");
+            correctionAdd("Some one", "someone");
+
+            correctionAdd("any one", "anyone");
+            correctionAdd("any onw", "anyone");
+            correctionAdd("anyonw", "anyone");
+            correctionAdd("any1", "anyone");
+
+            correctionAdd("every one", "everyone");
+            correctionAdd("Every1", "everyone");
+            correctionAdd("every1", "everyone");
+            correctionAdd("evryone", "everyone");
+            correctionAdd("everone", "everyone");
+
+            correctionAdd("N1", "number one");
+
+            correctionAdd("1 by 1", "one by one");
+
+            correctionAdd("1-to-1", "one-to-one");
+            correctionAdd("1 to 1", "one-to-one");
+            correctionAdd("one to one", "one-to-one");
+
+            correctionAdd("F1", "Formula One");
+            correctionAdd("formula one", "Formula One");
+            correctionAdd("formula 1", "Formula One");
+            correctionAdd("Formula 1", "Formula One");
+
+            correctionAdd("Ubuntu one", "Ubuntu One");
+
+            correctionAdd("nexus one", "Nexus One");
+            correctionAdd("Nexus one", "Nexus One");
+
+            correctionAdd("non", "none");
+            correctionAdd("Non", "none");
+            correctionAdd("nonw", "none");
+
+            correctionAdd("stand alone", "stand-alone");
+            correctionAdd("standalone", "stand-alone");
+            correctionAdd("stand alowne", "stand-alone");
+            correctionAdd("Standalone", "stand-alone");
+
+            correctionAdd("square 1", "square one");
+
+            correctionAdd("1-on-1", "one-on-one");
+            correctionAdd("one on one", "one-on-one");
+            correctionAdd("1on1", "one-on-one");
+            correctionAdd("1 on 1", "one-on-one");
+            correctionAdd("1:1", "one-on-one");
+
+            correctionAdd("Phone", "phone");
+
+            correctionAdd("smart phone", "smartphone");
+            correctionAdd("SmartPhone", "smartphone");
+            correctionAdd("Smart Phone", "smartphone");
+
             correctionAdd("android", "Android");
             correctionAdd("andrioid", "Android"); // Misspelling.
             correctionAdd("Anroid", "Android"); // Misspelling.
@@ -1244,6 +1310,62 @@ namespace OverflowHelper.core
             correctionAdd("iPHONE", "iPhone");
             correctionAdd("ifone", "iPhone"); // Misspelling.
             correctionAdd("IPhone", "iPhone");
+
+            correctionAdd("symbian", "Symbian");
+
+            correctionAdd("windows phone 7", "Windows Phone"); // That is the physical phone.
+            correctionAdd("windows phone", "Windows Phone");
+            correctionAdd("Windows phone", "Windows Phone");
+            correctionAdd("windowsphone", "Windows Phone");
+            correctionAdd("WP7", "Windows Phone"); // Expansion, not 100% correct.
+            correctionAdd("wp7", "Windows Phone"); // Expansion, not 100% correct..
+            correctionAdd("Windows Phone 7", "Windows Phone"); // Not 100% correct.
+            correctionAdd("windows phone 8", "Windows Phone"); // Not 100% correct.
+            correctionAdd("Windows Mobile 6", "Windows Phone"); // Not 100% correct.
+            correctionAdd("windows-phone-8", "Windows Phone"); // Not 100% correct.
+            correctionAdd("windows-phone", "Windows Phone");
+            correctionAdd("WinPhone", "Windows Phone");
+
+            correctionAdd("windows mobile", "Windows Mobile"); // That is the operating system.
+            correctionAdd("MS Mobile", "Windows Mobile"); // That is the operating system.
+            correctionAdd("WM", "Windows Mobile"); // Expansion
+            correctionAdd("winmo", "Windows Mobile"); // Expansion
+            correctionAdd("Windows mobile", "Windows Mobile"); // That is the operating system.
+
+            correctionAdd("linphone", "Linphone");
+
+            correctionAdd("JQuery Mobile", "jQuery Mobile");
+            correctionAdd("jquery mobile", "jQuery Mobile");
+            correctionAdd("jqm", "jQuery Mobile");
+            correctionAdd("JqueryMobile", "jQuery Mobile");
+            correctionAdd("jQM", "jQuery Mobile");
+            correctionAdd("jQueryMobile", "jQuery Mobile");
+            correctionAdd("Jquery mobile", "jQuery Mobile");
+
+            correctionAdd("plone", "Plone");
+
+            correctionAdd("mic", "microphone");
+
+            correctionAdd("timezone", "time zone");
+            correctionAdd("timzeone", "time zone");
+            correctionAdd("time-zone", "time zone");
+            correctionAdd("TimeZone", "time zone");
+            correctionAdd("Timezone", "time zone");
+            correctionAdd("Time zone", "time zone");
+
+            correctionAdd("error prone", "error-prone");
+
+            correctionAdd("doe", "done");
+
+            correctionAdd("ideone", "Ideone");
+
+            correctionAdd("Brillouin Zone", "Brillouin zone");
+
+            correctionAdd("re-clone", "reclone");
+
+            correctionAdd("re-cloning", "recloning");
+
+            correctionAdd("over done", "overdone");
 
             correctionAdd(".net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
             correctionAdd(".Net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
@@ -5126,8 +5248,6 @@ namespace OverflowHelper.core
             correctionAdd("bios", "BIOS");
             correctionAdd("Bios", "BIOS");
 
-            correctionAdd("plone", "Plone");
-
             correctionAdd("simpledb", "SimpleDB");
 
             correctionAdd("RRDTool", "RRDtool");
@@ -5668,35 +5788,6 @@ namespace OverflowHelper.core
             correctionAdd("boo", "Boo");
 
             correctionAdd("jad", "JAD");
-
-            correctionAdd("symbian", "Symbian");
-
-            correctionAdd("windows phone 7", "Windows Phone"); // That is the physical phone.
-            correctionAdd("windows phone", "Windows Phone");
-            correctionAdd("Windows phone", "Windows Phone");
-            correctionAdd("windowsphone", "Windows Phone");
-            correctionAdd("WP7", "Windows Phone"); // Expansion, not 100% correct.
-            correctionAdd("wp7", "Windows Phone"); // Expansion, not 100% correct..
-            correctionAdd("Windows Phone 7", "Windows Phone"); // Not 100% correct.
-            correctionAdd("windows phone 8", "Windows Phone"); // Not 100% correct.
-            correctionAdd("Windows Mobile 6", "Windows Phone"); // Not 100% correct.
-            correctionAdd("windows-phone-8", "Windows Phone"); // Not 100% correct.
-            correctionAdd("windows-phone", "Windows Phone");
-            correctionAdd("WinPhone", "Windows Phone");
-
-            correctionAdd("windows mobile", "Windows Mobile"); // That is the operating system.
-            correctionAdd("MS Mobile", "Windows Mobile"); // That is the operating system.
-            correctionAdd("WM", "Windows Mobile"); // Expansion
-            correctionAdd("winmo", "Windows Mobile"); // Expansion
-            correctionAdd("Windows mobile", "Windows Mobile"); // That is the operating system.
-
-            correctionAdd("JQuery Mobile", "jQuery Mobile");
-            correctionAdd("jquery mobile", "jQuery Mobile");
-            correctionAdd("jqm", "jQuery Mobile");
-            correctionAdd("JqueryMobile", "jQuery Mobile");
-            correctionAdd("jQM", "jQuery Mobile");
-            correctionAdd("jQueryMobile", "jQuery Mobile");
-            correctionAdd("Jquery mobile", "jQuery Mobile");
 
             correctionAdd("smalltalk", "Smalltalk");
             correctionAdd("SmallTalk", "Smalltalk");
@@ -6775,8 +6866,6 @@ namespace OverflowHelper.core
 
             correctionAdd("iPod touch", "iPod Touch");
             correctionAdd("ipod touch", "iPod Touch");
-
-            correctionAdd("mic", "microphone");
 
             correctionAdd("Truetype", "TrueType");
 
@@ -8068,12 +8157,6 @@ namespace OverflowHelper.core
 
             correctionAdd("qa", "QA");
             correctionAdd("Quality Assurance", "QA");
-
-            correctionAdd("noone", "no one");
-            correctionAdd("no-one", "no one");
-            correctionAdd("No one", "no one");
-            correctionAdd("No-one", "no one");
-            correctionAdd("NOONE", "no one");
 
             correctionAdd("gprs", "GPRS");
 
@@ -10411,10 +10494,6 @@ namespace OverflowHelper.core
             correctionAdd("doens", "doesn’t");
             correctionAdd("dosen", "doesn’t");
 
-            correctionAdd("smart phone", "smartphone");
-            correctionAdd("SmartPhone", "smartphone");
-            correctionAdd("Smart Phone", "smartphone");
-
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
             correctionAdd("gramer", "grammar");
@@ -10670,11 +10749,6 @@ namespace OverflowHelper.core
             correctionAdd("vivaldi", "Vivaldi");
             correctionAdd("vivaldo", "Vivaldi");
 
-            correctionAdd("some one", "someone");
-            correctionAdd("somone", "someone");
-            correctionAdd("someoone", "someone");
-            correctionAdd("Some one", "someone");
-
             correctionAdd("2-factor auth", "two-factor authentication");
             correctionAdd("2 factor auth", "two-factor authentication");
             correctionAdd("two-factor auth", "two-factor authentication");
@@ -10746,11 +10820,6 @@ namespace OverflowHelper.core
             correctionAdd("gradle", "Gradle");
             correctionAdd("Gralde", "Gradle");
             correctionAdd("Graddle", "Gradle");
-
-            correctionAdd("stand alone", "stand-alone");
-            correctionAdd("standalone", "stand-alone");
-            correctionAdd("stand alowne", "stand-alone");
-            correctionAdd("Standalone", "stand-alone");
 
             correctionAdd("Silican Valley", "Silicon Valley");
             correctionAdd("silicon valley", "Silicon Valley");
@@ -11253,11 +11322,6 @@ namespace OverflowHelper.core
             correctionAdd("russian", "Russian");
             correctionAdd("RUSZYN", "Russian");
             correctionAdd("ruszyn", "Russian");
-
-            correctionAdd("any one", "anyone");
-            correctionAdd("any onw", "anyone");
-            correctionAdd("anyonw", "anyone");
-            correctionAdd("any1", "anyone");
 
             correctionAdd("recieving", "receiving");
 
@@ -14038,6 +14102,7 @@ namespace OverflowHelper.core
 
             correctionAdd("runtime", "run time");
             correctionAdd("run-time", "run time");
+            correctionAdd("rutime", "run time");
 
             correctionAdd("specifiy", "specify");
 
@@ -14596,6 +14661,8 @@ namespace OverflowHelper.core
             correctionAdd("Tera-term", "Tera Term");
             correctionAdd("teraterm", "Tera Term");
             correctionAdd("tera term", "Tera Term");
+            correctionAdd("terraterm", "Tera Term");
+            correctionAdd("TeraTerm", "Tera Term");
 
             correctionAdd("visual studio professional", "Visual&nbsp;Studio Professional");
             correctionAdd("Visual Studio Professional", "Visual&nbsp;Studio Professional");
@@ -15300,13 +15367,6 @@ namespace OverflowHelper.core
             correctionAdd("settign", "setting");
             correctionAdd("setttnig", "setting");
             correctionAdd("Seting", "setting");
-
-            correctionAdd("timezone", "time zone");
-            correctionAdd("timzeone", "time zone");
-            correctionAdd("time-zone", "time zone");
-            correctionAdd("TimeZone", "time zone");
-            correctionAdd("Timezone", "time zone");
-            correctionAdd("Time zone", "time zone");
 
             correctionAdd("Busybox", "BusyBox");
             correctionAdd("busy box", "BusyBox");
@@ -16202,12 +16262,6 @@ namespace OverflowHelper.core
             correctionAdd("ASN1", "ASN.1");
             correctionAdd("ASN-1", "ASN.1");
 
-            correctionAdd("1-on-1", "one-on-one");
-            correctionAdd("one on one", "one-on-one");
-            correctionAdd("1on1", "one-on-one");
-            correctionAdd("1 on 1", "one-on-one");
-            correctionAdd("1:1", "one-on-one");
-
             correctionAdd("seam", "seem");
             correctionAdd("seep", "seem");
             correctionAdd("seemt", "seem");
@@ -16312,6 +16366,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Hyperterminal", "HyperTerminal");
             correctionAdd("hyperterminal", "HyperTerminal");
+            correctionAdd("Hyper Terminal", "HyperTerminal");
 
             correctionAdd("PortMon", "Portmon");
 
@@ -17503,6 +17558,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cinnamon", "Cinnamon");
             correctionAdd("Cinnemon", "Cinnamon");
+            correctionAdd("cinnemon", "Cinnamon");
 
             correctionAdd("euclidean", "Euclidean");
 
@@ -20029,6 +20085,7 @@ namespace OverflowHelper.core
             correctionAdd("Similar", "similar");
             correctionAdd("similer", "similar");
             correctionAdd("simialr", "similar");
+            correctionAdd("similair", "similar");
 
             correctionAdd("Similary", "similarly"); // Not 100% correct - case.
             correctionAdd("similary", "similarly");
@@ -21424,8 +21481,6 @@ namespace OverflowHelper.core
 
             correctionAdd("command pallette", "command palette");
             correctionAdd("command pallet", "command palette");
-
-            correctionAdd("error prone", "error-prone");
 
             correctionAdd("Go-Around", "go-around");
 
@@ -23922,10 +23977,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jock", "joke");
 
-            correctionAdd("non", "none");
-            correctionAdd("Non", "none");
-            correctionAdd("nonw", "none");
-
             correctionAdd("apponent", "opponent");
             correctionAdd("Apponent", "opponent");
 
@@ -24480,8 +24531,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re assignment", "reassignment");
 
-            correctionAdd("square 1", "square one");
-
             correctionAdd("sublety", "subtlety");
 
             correctionAdd("undefied", "undefined");
@@ -24573,8 +24622,6 @@ namespace OverflowHelper.core
             correctionAdd("adaptor", "adapter");
 
             correctionAdd("cowered", "coward");
-
-            correctionAdd("doe", "done");
 
             correctionAdd("hearth", "heart");
             correctionAdd("hart", "heart");
@@ -24779,8 +24826,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mold", "mould");
 
-            correctionAdd("N1", "number one");
-
             correctionAdd("over use", "overuse");
             correctionAdd("over-use", "overuse");
 
@@ -24803,6 +24848,9 @@ namespace OverflowHelper.core
             correctionAdd("text-based", "textbased");
             correctionAdd("Text-Based", "textbased");
 
+            correctionAdd("Based", "based");
+            correctionAdd("basd", "based");
+
             correctionAdd("Dlang", "D");
 
             correctionAdd("hvac", "HVAC");
@@ -24812,12 +24860,6 @@ namespace OverflowHelper.core
             correctionAdd("anomoly", "anomaly");
 
             correctionAdd("detrement", "detriment");
-
-            correctionAdd("every one", "everyone");
-            correctionAdd("Every1", "everyone");
-            correctionAdd("every1", "everyone");
-            correctionAdd("evryone", "everyone");
-            correctionAdd("everone", "everyone");
 
             correctionAdd("hightlight", "highlight");
 
@@ -25081,6 +25123,7 @@ namespace OverflowHelper.core
 
             correctionAdd("codium", "VSCodium");
             correctionAdd("Codium", "VSCodium");
+            correctionAdd("vscodium", "VSCodium");
 
             correctionAdd("birdseye view", "bird's-eye view");
 
@@ -25313,8 +25356,6 @@ namespace OverflowHelper.core
             correctionAdd("Linux Sub-System for Windows", "Windows Subsystem for Linux");
 
             correctionAdd("Emphasize", "emphasis");
-
-            correctionAdd("1 by 1", "one by one");
 
             correctionAdd("sky scraper", "skyscraper");
 
@@ -25640,10 +25681,6 @@ namespace OverflowHelper.core
             correctionAdd("look-a-like", "lookalike");
             correctionAdd("look a like", "lookalike");
 
-            correctionAdd("1-to-1", "one-to-one");
-            correctionAdd("1 to 1", "one-to-one");
-            correctionAdd("one to one", "one-to-one");
-
             correctionAdd("planed", "planned");
 
             correctionAdd("supersticious", "superstitious");
@@ -25811,6 +25848,7 @@ namespace OverflowHelper.core
             correctionAdd("Desktop Environment", "desktop environment");
             correctionAdd("DE", "desktop environment");
             correctionAdd("desktop env", "desktop environment");
+            correctionAdd("de", "desktop environment");
 
             correctionAdd("elemnet", "element");
             correctionAdd("elemnt", "element");
@@ -26297,8 +26335,6 @@ namespace OverflowHelper.core
             correctionAdd("asbergers", "Asperger syndrome");
 
             correctionAdd("Farmville", "FarmVille");
-
-            correctionAdd("ideone", "Ideone");
 
             correctionAdd("march", "March");
 
@@ -27553,8 +27589,6 @@ namespace OverflowHelper.core
 
             correctionAdd("forgetten", "forgotten");
 
-            correctionAdd("onw", "one");
-
             correctionAdd("outta", "out of");
 
             correctionAdd("re-draw", "redraw");
@@ -27648,6 +27682,7 @@ namespace OverflowHelper.core
             correctionAdd("pop os", "Pop!_OS");
             correctionAdd("PopOS", "Pop!_OS");
             correctionAdd("PopOS Linux", "Pop!_OS");
+            correctionAdd("Pop_OS", "Pop!_OS");
 
             correctionAdd("Sunburst", "SUNBURST");
 
@@ -30554,8 +30589,6 @@ namespace OverflowHelper.core
             correctionAdd("self contained", "self-contained");
             correctionAdd("Self Contained", "self-contained");
 
-            correctionAdd("Brillouin Zone", "Brillouin zone");
-
             correctionAdd("Dalmatiner", "Dalmatian");
             correctionAdd("dalmatiner", "Dalmatian");
 
@@ -31053,8 +31086,6 @@ namespace OverflowHelper.core
             correctionAdd("vuforia", "Vuforia");
 
             correctionAdd("xperia", "Xperia");
-
-            correctionAdd("Based", "based");
 
             correctionAdd("benefitted", "benefited");
 
@@ -31761,11 +31792,6 @@ namespace OverflowHelper.core
 
             correctionAdd("elvis", "Elvis");
 
-            correctionAdd("F1", "Formula One");
-            correctionAdd("formula one", "Formula One");
-            correctionAdd("formula 1", "Formula One");
-            correctionAdd("Formula 1", "Formula One");
-
             correctionAdd("Vista Ultimate", "Windows Vista Ultimate");
 
             correctionAdd("definies", "defines");
@@ -31858,12 +31884,6 @@ namespace OverflowHelper.core
             correctionAdd("psush", "push");
 
             correctionAdd("Spider Oak", "SpiderOak");
-
-            correctionAdd("Ubuntu one", "Ubuntu One");
-
-            correctionAdd("re-clone", "reclone");
-
-            correctionAdd("re-cloning", "recloning");
 
             correctionAdd("safety-net", "safety net");
 
@@ -31989,8 +32009,6 @@ namespace OverflowHelper.core
             correctionAdd("donwloaded", "downloaded");
 
             correctionAdd("no mater", "no matter");
-
-            correctionAdd("over done", "overdone");
 
             correctionAdd("responsivness", "responsiveness");
 
@@ -32555,9 +32573,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Info-Zip", "Info-ZIP");
             correctionAdd("info-zip", "Info-ZIP");
-
-            correctionAdd("nexus one", "Nexus One");
-            correctionAdd("Nexus one", "Nexus One");
 
             correctionAdd("ODT", "OpenDocument");
             correctionAdd("odt", "OpenDocument");
@@ -33633,8 +33648,6 @@ namespace OverflowHelper.core
             correctionAdd("HTML Form", "HTML form");
             correctionAdd("Html Form", "HTML form");
             correctionAdd("webform", "HTML form");
-
-            correctionAdd("linphone", "Linphone");
 
             correctionAdd("mercure", "Mercure");
 
@@ -36280,8 +36293,6 @@ namespace OverflowHelper.core
 
             correctionAdd("in adavance", "in advance");
 
-            correctionAdd("Phone", "phone");
-
             correctionAdd("scraping", "scrapping");
 
             correctionAdd("$itty", "shitty");
@@ -36850,18 +36861,6 @@ namespace OverflowHelper.core
             correctionAdd("USBASP", "USBasp");
             correctionAdd("usbasp", "USBasp");
 
-            correctionAdd("css-lang", "```lang-css");
-            correctionAdd("lang-css", "```lang-css");
-
-            correctionAdd("html-lang", "```lang-html");
-            correctionAdd("lang-html", "```lang-html");
-
-            correctionAdd("none-lang", "```lang-none");
-            correctionAdd("lang-none", "```lang-none");
-
-            correctionAdd("php-lang", "```lang-php");
-            correctionAdd("lang-php", "```lang-php");
-
             correctionAdd("Binary operator", "binary operator");
 
             correctionAdd("canonalised", "canonised");
@@ -37283,6 +37282,55 @@ namespace OverflowHelper.core
             correctionAdd("neo pronoun", "neopronoun");
 
             correctionAdd("precident", "president");
+
+            correctionAdd(".NET FIDDLE", ".NET Fiddle");
+            correctionAdd("dot net fiddle", ".NET Fiddle");
+
+            correctionAdd("clubhouse", "Clubhouse");
+
+            correctionAdd("GNOME 4.0", "GNOME 40");
+
+            correctionAdd("jamaican", "Jamaican");
+
+            correctionAdd("markov chain", "Markov chain");
+
+            correctionAdd("windows terminal", "Windows Terminal");
+            correctionAdd("window's terminal", "Windows Terminal");
+            correctionAdd("Windows terminal", "Windows Terminal");
+
+            correctionAdd("zfs", "ZFS");
+
+            correctionAdd("airmolecule", "air molecule");
+
+            correctionAdd("mini map", "minimap");
+            correctionAdd("Minimap", "minimap");
+
+            correctionAdd("re-indent", "reindent");
+
+            correctionAdd("re-indenting", "reindenting");
+
+            correctionAdd("soundwave", "sound wave");
+
+            correctionAdd("the states", "the States");
+
+            correctionAdd("rurn", "turn");
+
+            correctionAdd("waterwave", "water wave");
+
+            correctionAdd("css-lang", "```lang-css");
+            correctionAdd("lang-css", "```lang-css");
+
+            correctionAdd("html-lang", "```lang-html");
+            correctionAdd("lang-html", "```lang-html");
+
+            correctionAdd("none-lang", "```lang-none");
+            correctionAdd("lang-none", "```lang-none");
+
+            correctionAdd("php-lang", "```lang-php");
+            correctionAdd("lang-php", "```lang-php");
+
+            correctionAdd("xml-lang", "```lang-xml");
+            correctionAdd("lang-xml", "```lang-xml");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58671,6 +58719,38 @@ namespace OverflowHelper.core
             URL_Add("neopronoun", "https://en.wiktionary.org/wiki/neopronoun#Noun");
 
             URL_Add("president", "https://en.wiktionary.org/wiki/president#Noun");
+
+            URL_Add(".NET Fiddle", "https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds#Online_compiled_source_code_playgrounds");
+
+            URL_Add("Clubhouse", "https://en.wikipedia.org/wiki/Clubhouse_(app)");
+
+            URL_Add("GNOME 40", "https://en.wikipedia.org/wiki/GNOME#GNOME_40");
+
+            URL_Add("Jamaican", "https://en.wiktionary.org/wiki/Jamaican#Adjective");
+
+            URL_Add("Markov chain", "https://en.wikipedia.org/wiki/Markov_chain");
+
+            URL_Add("Windows Terminal", "https://en.wikipedia.org/wiki/Windows_Terminal");
+
+            URL_Add("ZFS", "https://en.wikipedia.org/wiki/ZFS");
+
+            URL_Add("```lang-xml", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("air molecule", "https://en.wikipedia.org/wiki/Ionized-air_glow#Processes");
+
+            URL_Add("minimap", "https://en.wiktionary.org/wiki/minimap#Noun");
+
+            URL_Add("reindent", "https://en.wiktionary.org/wiki/reindent#Verb");
+
+            URL_Add("reindenting", "https://en.wiktionary.org/wiki/reindent#Verb");
+
+            URL_Add("sound wave", "https://en.wiktionary.org/wiki/sound_wave#Noun");
+
+            URL_Add("the States", "https://en.wiktionary.org/wiki/States#Proper_noun");
+
+            URL_Add("turn", "https://en.wiktionary.org/wiki/turn#Verb");
+
+            URL_Add("water wave", "https://www.merriam-webster.com/dictionary/water%20wave");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
