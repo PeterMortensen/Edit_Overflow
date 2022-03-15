@@ -1024,6 +1024,7 @@ namespace OverflowHelper.core
             correctionAdd("SQLserver", "SQL&nbsp;Server");
             correctionAdd("sql sever", "SQL&nbsp;Server");
             correctionAdd("TSQL Server", "SQL&nbsp;Server");
+            correctionAdd("MS SQL SERVER", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -1512,6 +1513,7 @@ namespace OverflowHelper.core
             correctionAdd("Asp.net Mvc", "ASP.NET MVC");
             correctionAdd("ASP .NET MVC", "ASP.NET MVC");
             correctionAdd("asp mvc", "ASP.NET MVC");
+            correctionAdd("MVC.net", "ASP.NET MVC");
 
             correctionAdd("asp", "ASP Classic");
             correctionAdd("ASP", "ASP Classic");
@@ -4008,6 +4010,39 @@ namespace OverflowHelper.core
             correctionAdd("goDaddy", "GoDaddy");
             correctionAdd("Go Daddy", "GoDaddy");
 
+            correctionAdd("independant", "independent"); // Common misspelling...
+            correctionAdd("indepndent", "independent");
+            correctionAdd("indepent", "independent");
+            correctionAdd("indepedent", "independent");
+            correctionAdd("independient", "independent");
+            correctionAdd("independed", "independent");
+            correctionAdd("independend", "independent");
+
+            correctionAdd("dependant", "dependent"); // Common misspelling...
+            correctionAdd("depented", "dependent");
+
+            correctionAdd("dependancy", "dependency"); // Common misspelling...
+            correctionAdd("Dependancy", "dependency");
+            correctionAdd("depedency", "dependency");
+            correctionAdd("dependcy", "dependency");
+            correctionAdd("dep", "dependency");
+            correctionAdd("depependency", "dependency");
+
+            correctionAdd("dependacies", "dependencies");
+            correctionAdd("dependancies", "dependencies"); // Common misspelling... Not 100% correct. Plural...
+            correctionAdd("dependecies", "dependencies");
+            correctionAdd("depencies", "dependencies");
+            correctionAdd("Dependancies", "dependencies");
+            correctionAdd("deps", "dependencies");
+            correctionAdd("dependancis", "dependencies");
+            correctionAdd("dependencys", "dependencies");
+
+            correctionAdd("depdening", "depending");
+            correctionAdd("Dependending", "depending");
+            correctionAdd("dependending", "depending");
+
+            correctionAdd("dependance", "dependence");
+
             correctionAdd("di", "dependency injection"); // Not actually observed.
             correctionAdd("DI", "dependency injection"); // An expansion.
             correctionAdd("Dependency Injection", "dependency injection"); // An expansion.
@@ -4017,6 +4052,12 @@ namespace OverflowHelper.core
             correctionAdd("Dependancy Injection", "dependency injection");
             correctionAdd("dependancy injection", "dependency injection");
             correctionAdd("Dependency injection", "dependency injection");
+
+            correctionAdd("dependency walker", "Dependency Walker");
+            correctionAdd("Dependency Wolker", "Dependency Walker");
+            correctionAdd("Dependency walker", "Dependency Walker");
+            correctionAdd("dependencywalker", "Dependency Walker");
+            correctionAdd("DependencyWalker", "Dependency Walker");
 
             correctionAdd("seo", "SEO");
             correctionAdd("Search Engine Optimization", "SEO");
@@ -4876,6 +4917,7 @@ namespace OverflowHelper.core
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
             correctionAdd("EBay", "eBay");
+            correctionAdd("E*BAY", "eBay");
 
             correctionAdd("ok", "OK");
             correctionAdd("Ok", "OK");
@@ -5844,6 +5886,7 @@ namespace OverflowHelper.core
             correctionAdd("Google translation", "Google Translate");
             correctionAdd("google translation", "Google Translate");
             correctionAdd("Google Translation", "Google Translate");
+            correctionAdd("Google-Translate", "Google Translate");
 
             correctionAdd("xsd", "XSD");
             correctionAdd("Xsd", "XSD");
@@ -7338,12 +7381,6 @@ namespace OverflowHelper.core
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
             correctionAdd("CPRBA", "CORBA");
-
-            correctionAdd("dependency walker", "Dependency Walker");
-            correctionAdd("Dependency Wolker", "Dependency Walker");
-            correctionAdd("Dependency walker", "Dependency Walker");
-            correctionAdd("dependencywalker", "Dependency Walker");
-            correctionAdd("DependencyWalker", "Dependency Walker");
 
             correctionAdd("photoshop", "Photoshop");
             correctionAdd("Adobe Photoshop", "Photoshop"); // Shorten...
@@ -9682,14 +9719,6 @@ namespace OverflowHelper.core
             correctionAdd("year-old", "-year-old");
 
             correctionAdd("boot repair", "Boot-Repair");
-
-            correctionAdd("independant", "independent"); // Common misspelling...
-            correctionAdd("indepndent", "independent");
-            correctionAdd("indepent", "independent");
-            correctionAdd("indepedent", "independent");
-            correctionAdd("independient", "independent");
-            correctionAdd("independed", "independent");
-            correctionAdd("independend", "independent");
 
             correctionAdd("shellshock", "Shellshock");
             correctionAdd("shelllock", "Shellshock");
@@ -12358,26 +12387,6 @@ namespace OverflowHelper.core
             correctionAdd("REACT", "React");
             correctionAdd("reactJS", "React");
 
-            correctionAdd("dependant", "dependent"); // Common misspelling...
-
-            correctionAdd("dependancy", "dependency"); // Common misspelling...
-            correctionAdd("Dependancy", "dependency");
-            correctionAdd("depedency", "dependency");
-            correctionAdd("dependcy", "dependency");
-            correctionAdd("dep", "dependency");
-            correctionAdd("depependency", "dependency");
-
-            // -***** NEW
-            //
-            correctionAdd("dependacies", "dependencies");
-            correctionAdd("dependancies", "dependencies"); // Common misspelling... Not 100% correct. Plural...
-            correctionAdd("dependecies", "dependencies");
-            correctionAdd("depencies", "dependencies");
-            correctionAdd("Dependancies", "dependencies");
-            correctionAdd("deps", "dependencies");
-            correctionAdd("dependancis", "dependencies");
-            correctionAdd("dependencys", "dependencies");
-
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
 
@@ -13671,6 +13680,7 @@ namespace OverflowHelper.core
             correctionAdd("prefectly", "perfectly");
             correctionAdd("perfectely", "perfectly");
             correctionAdd("perferctly", "perfectly");
+            correctionAdd("perfecty", "perfectly");
 
             correctionAdd("phonemenia", "phonomena");
 
@@ -15779,6 +15789,7 @@ namespace OverflowHelper.core
             correctionAdd("Retrn", "return");
             correctionAdd("retrn", "return");
             correctionAdd("retunr", "return");
+            correctionAdd("retuen", "return");
 
             correctionAdd("strewam", "stream");
             correctionAdd("sream", "stream");
@@ -15841,6 +15852,7 @@ namespace OverflowHelper.core
 
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
+            correctionAdd("usuallly", "usually");
 
             correctionAdd("britain", "Britain");
             correctionAdd("Britian", "Britain");
@@ -21224,6 +21236,7 @@ namespace OverflowHelper.core
             correctionAdd("repos", "repositories");
             correctionAdd("REPOs", "repositories");
             correctionAdd("repo's", "repositories");
+            correctionAdd("repositiories", "repositories");
 
             correctionAdd("tranpiling", "transpiling");
             correctionAdd("transipiling", "transpiling");
@@ -22221,6 +22234,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Preg_match", "preg_match"); // PHP function
             correctionAdd("preg_match()", "preg_match"); // PHP function
+            correctionAdd("preg match", "preg_match"); // PHP function
 
             correctionAdd("Preg_match_all", "preg_match_all"); // PHP function
 
@@ -23081,6 +23095,7 @@ namespace OverflowHelper.core
             correctionAdd("YOu", "you");
             correctionAdd("ya", "you");
             correctionAdd("ou", "you");
+            correctionAdd("ypu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -29236,10 +29251,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-arrange", "rearrange");
 
-            correctionAdd("depdening", "depending");
-            correctionAdd("Dependending", "depending");
-            correctionAdd("dependending", "depending");
-
             correctionAdd("dicotomi", "dichotomy");
             correctionAdd("dicotomy", "dichotomy");
 
@@ -33153,8 +33164,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stim", "Stim");
 
-            correctionAdd("dependance", "dependence");
-
             correctionAdd("qecc", "quantum error correcting code");
             correctionAdd("QECC", "quantum error correcting code");
 
@@ -34485,6 +34494,7 @@ namespace OverflowHelper.core
 
             correctionAdd("windows task scheduler", "Windows Task Scheduler");
             correctionAdd("window task scheduler", "Windows Task Scheduler");
+            correctionAdd("windows Task Scheduler", "Windows Task Scheduler");
 
             correctionAdd("wordnik", "Wordnik");
 
@@ -37015,9 +37025,6 @@ namespace OverflowHelper.core
             correctionAdd("member of parliament", "Member of Parliament");
             correctionAdd("MP", "Member of Parliament");
 
-            correctionAdd("csharp-lang", "```lang-csharp");
-            correctionAdd("lang-csharp", "```lang-csharp");
-
             correctionAdd("adminstration", "administration");
 
             correctionAdd("capitaliation", "capitalisation");
@@ -37158,13 +37165,6 @@ namespace OverflowHelper.core
 
             correctionAdd("VFP", "Visual FoxPro");
             correctionAdd("vfp", "Visual FoxPro");
-
-            correctionAdd("java-lang", "```lang-java");
-            correctionAdd("lang-java", "```lang-java");
-
-            correctionAdd("lang-js", "```lang-javascript");
-            correctionAdd("lang-javascript", "```lang-javascript");
-            correctionAdd("javascript-lang", "```lang-javascript");
 
             correctionAdd("Equity", "equity");
 
@@ -37317,6 +37317,40 @@ namespace OverflowHelper.core
 
             correctionAdd("waterwave", "water wave");
 
+            correctionAdd("Bob Peace", "Bob Pease");
+
+            correctionAdd("Ehrenfest Theorem", "Ehrenfest theorem");
+
+            correctionAdd("europan", "Europan");
+
+            correctionAdd("laradock", "Laradock");
+
+            correctionAdd("saturday", "Saturday");
+
+            correctionAdd("alpa", "alpha");
+
+            correctionAdd("BSDF", "bidirectional scattering distribution function");
+
+            correctionAdd("donut", "doughnut");
+
+            correctionAdd("forcely", "forcibly");
+
+            correctionAdd("sub-attribute", "subattribute");
+
+            correctionAdd("sub pattern", "subpattern");
+
+            correctionAdd("UDF", "user-defined function");
+
+            correctionAdd("csharp-lang", "```lang-csharp");
+            correctionAdd("lang-csharp", "```lang-csharp");
+
+            correctionAdd("java-lang", "```lang-java");
+            correctionAdd("lang-java", "```lang-java");
+
+            correctionAdd("lang-js", "```lang-javascript");
+            correctionAdd("lang-javascript", "```lang-javascript");
+            correctionAdd("javascript-lang", "```lang-javascript");
+
             correctionAdd("css-lang", "```lang-css");
             correctionAdd("lang-css", "```lang-css");
 
@@ -37331,6 +37365,9 @@ namespace OverflowHelper.core
 
             correctionAdd("xml-lang", "```lang-xml");
             correctionAdd("lang-xml", "```lang-xml");
+
+            correctionAdd("xml-python", "```lang-python");
+            correctionAdd("lang-python", "```lang-python");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58751,6 +58788,32 @@ namespace OverflowHelper.core
             URL_Add("turn", "https://en.wiktionary.org/wiki/turn#Verb");
 
             URL_Add("water wave", "https://www.merriam-webster.com/dictionary/water%20wave");
+
+            URL_Add("Bob Pease", "https://en.wikipedia.org/wiki/Bob_Pease");
+
+            URL_Add("Ehrenfest theorem", "https://en.wikipedia.org/wiki/Ehrenfest_theorem");
+
+            URL_Add("Europan", "https://en.wiktionary.org/wiki/Europan#Adjective");
+
+            URL_Add("Laradock", "https://laradock.io/");
+
+            URL_Add("Saturday", "https://en.wiktionary.org/wiki/Saturday#Noun");
+
+            URL_Add("```lang-python", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("alpha", "https://en.wiktionary.org/wiki/alpha#Adjective");
+
+            URL_Add("bidirectional scattering distribution function", "https://en.wikipedia.org/wiki/Bidirectional_scattering_distribution_function");
+
+            URL_Add("doughnut", "https://en.wikipedia.org/wiki/Doughnut");
+
+            URL_Add("forcibly", "https://en.wiktionary.org/wiki/forcibly#Adverb");
+
+            URL_Add("subattribute", "https://en.wiktionary.org/wiki/subattribute#Noun");
+
+            URL_Add("subpattern", "https://en.wiktionary.org/wiki/subpattern#Noun");
+
+            URL_Add("user-defined function", "https://en.wikipedia.org/wiki/User-defined_function#Databases");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
