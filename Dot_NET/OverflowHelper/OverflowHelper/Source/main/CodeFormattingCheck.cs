@@ -163,10 +163,13 @@ namespace OverflowHelper.core
 
 
             string missingSpaceAroundOperatorsStr =
-              // Logical AND
+              // Logical AND (operator "&&")
               @"\S&&" + "|" + @"&&\S" + "|" +
 
-              // String concatenation in e.g. Perl and PHP
+              // String concatenation in e.g. Perl and PHP:
+
+              // ================================================
+              // Missing space to the left of "." -
               //
               // One possible strategy is a negative list (exclude
               // space and numbers):
@@ -178,14 +181,9 @@ namespace OverflowHelper.core
               // But we go with a positive list: string literals by quotes,
               // variables with "$", and array indexing ("[]")
               //
-              // Note: A double double quote is for escaping
-              //       a double quote in C#...
-              //
-              @"('|\""|(\$\w+\[.+\]))\."  + "|" +
-
-              // Missing space to the left of "." (unless a number
-              // or array indexing). However, we have a hard time
-              // distingushing something like this in PowerShell,
+              // (unless a number or array indexing). However, we
+              // have a hard time distingushing something like
+              // this in PowerShell,
               //
               //    $m.Groups[2].Value
               //
@@ -193,13 +191,39 @@ namespace OverflowHelper.core
               //
               //    $ARGV[0]." "
               //
+              // The current regular expression works for this
+              // example because the PowerShell array indexing
+              // is not for the primary variable ("m" in this
+              // example).
+              //
               // For now, we require simple variables starting
-              // with "$" - thus we risk false negatives (and
+              // with "$" (that is the "$" in the above regular
+              // expression) - thus we risk false negatives (and
               // can probably still get false positives in
               // PowerShell in some cases).
               //
-              @"\.['\""\]]" + "" +     // Missing space to the right
-                                       // of "." (unless a number)
+              // Note: A double double quote is for escaping
+              //       a double quote in C#...
+              //
+              //@"('|\""|(\$\w+\[.+\]))\."  + "|" +
+              @"('|\""|\)|(\$\w+\[.+\]))\."  + "|" +
+
+
+              // ================================================
+              // Missing space to the right of "." (unless a
+              // number, etc.)
+              //
+              // Notes:
+              //
+              //   1. The number thing is not directly expressed
+              //      in the regular expression. We use a positive
+              //      list (only detecting for particular
+              //      characters: single quotes, double quotes, etc.)
+              //
+              //   2. A double double quote is for escaping a
+              //      double quote in C#...
+              //
+              @"\.['\""\]]" + "" +
 
               "";
 

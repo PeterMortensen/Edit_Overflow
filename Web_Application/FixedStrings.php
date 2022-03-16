@@ -352,7 +352,7 @@
                     type="text"
                     id="codeRegex_AllCombined"
                     class="XYZ36"
-                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--))"
+                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|\)|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--))"
                     style="width:320px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
