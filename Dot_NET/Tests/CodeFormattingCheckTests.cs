@@ -46,7 +46,7 @@ namespace CodeFormattingCheckTests
          *                                                                          *
          *   It is also useful to detect if we forget to update the                 *
          *   combined regular expression when we add new checks (or                 *
-         *   conversely if that is not generated properly)                          *
+         *   conversely if that is not generated properly).                         *
          *                                                                          *
          ****************************************************************************/
         [Test]
@@ -148,7 +148,8 @@ namespace CodeFormattingCheckTests
                 // Note: Double quote (") is escaped as "" (two double quotes).
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
-                  @"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
+                  //@"\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]",
+                  @"\S&&|&&\S|('|\""|\)|(\$\w+\[.+\]))\.|\.['\""\]]",
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators),
                   "");
             }
@@ -183,10 +184,12 @@ namespace CodeFormattingCheckTests
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: Double quote (") is escaped as "" (two double quotes).
+                // Note: Double quote (") is escaped as "" (two
+                //       double quotes).
+                //
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--))",
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|\)|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--))",
                   cfCheck.combinedAllOfRegularExpressions(),
                   "");
             }
@@ -229,8 +232,8 @@ namespace CodeFormattingCheckTests
                 Assert.IsTrue(
                     RegExExecutor.match(badCode, cfCheck.combinedAllOfRegularExpressions()));
 
-                // Corresponding fixed code should not be detected
-                // (neither real or false positives).
+                // The corresponding fixed code should not be
+                // detected (neither real or false positives).
                 Assert.IsFalse(
                     RegExExecutor.match(
                       "auto p = new Son();",
@@ -275,7 +278,7 @@ namespace CodeFormattingCheckTests
 
         /****************************************************************************
          *                                                                          *
-         *    That is, too little space (as in none) around operators               *
+         *    That is, too little space (as in none) around some operators          *
          *                                                                          *
          ****************************************************************************/
         [Test]
@@ -379,6 +382,22 @@ namespace CodeFormattingCheckTests
                                         // works if it fails.
             }
 
+
+            {
+                // No longer false negatives!
+                //
+                //
+                Assert.IsTrue(
+                    RegExExecutor.match(
+                        "kzXnxbnSXbcv   ' . chr(160).chr(127).chr(126);", 
+                        regex));
+                Assert.IsTrue(
+                    RegExExecutor.match(
+                        "ord($str[$i]). ')';", 
+                        regex));
+            }
+
+
         } //tightOperators()
 
 
@@ -405,7 +424,7 @@ namespace CodeFormattingCheckTests
             string badCap1 = "// respect the Jon Skeet decree!";
             string badSpace1 = "//Respect the Jon Skeet decree!";
             string badSpace2 = ";// Respect the Jon Skeet decree!";
-            
+
             string badHTML1 = "<!--Respect the Jon Skeet decree!-->";
 
             // All 3 problems at the same times
@@ -429,11 +448,11 @@ namespace CodeFormattingCheckTests
                 //
                 // Only the capitalisation problem for this one
                 Assert.IsFalse(RegExExecutor.match(badCap1, regexSpace));
-                
-                // 2021-11-09. 
+
+                // 2021-11-09.
                 Assert.IsTrue(RegExExecutor.match(badHTML1, regexSpace));
             }
-                        
+
 
             // Comments, sentence capitalisation
             {
@@ -454,8 +473,8 @@ namespace CodeFormattingCheckTests
                 Assert.IsFalse(RegExExecutor.match(allGood3, regex_All));
                 Assert.IsFalse(RegExExecutor.match(allGood4, regex_All));
 
-                // 2021-11-09. 
-                // This one only has the space problem, thus should not match. 
+                // 2021-11-09.
+                // This one only has the space problem, thus should not match.
                 Assert.IsFalse(RegExExecutor.match(badHTML1, regexCap));
             }
 
