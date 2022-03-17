@@ -46,7 +46,7 @@
 #                                                                      #
 #     This script started as a way to automate compiling the C#        #
 #     Edit Overflow source code on Linux (.NET Core) (as we had        #
-#     copy the necessary source files to a (single) build              #
+#     to copy the necessary source files to a (single) build           #
 #     folder in order to build). And to automate callling the          #
 #     resulting executable to generate the SQL for the word            #
 #     input file (for import into web hosting based on MySQL           #
@@ -62,7 +62,7 @@
 #                                                                      #
 #   To enable compilation and running .NET Core code on                #
 #   Ubuntu/Debian, these installation steps work (last                 #
-#   tested on 2020-06-01):                                             #
+#   tested on 2022-03-0):                                             #
 #                                                                      #
 #       wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 #       sudo dpkg -i packages-microsoft-prod.deb                       #
@@ -94,6 +94,11 @@
 #      Perhaps selectively for the one that fails, so we don't
 #      slow testing speed if there is a genuine error.
 #
+#   3. Tie in the input checking script (ToToTryExtract.pl) - so
+#      correct operation of it (e.g., iterative running of it 
+#      until its output is empty) is checked.
+#
+
 
 # Markers for navigation:
 #
@@ -627,7 +632,7 @@ function evaluateBuildResult()
    #
    # Result code (e.g., 0 for no error)
    case $2 in
-     0|7) echo ; echo "Build step $1 succeeded"                    >&2               ;;
+     0|7) echo ; echo "Build step $1 (or part of it) succeeded"                    >&2               ;;
      # *) echo ; echo "${EXTRAINFO}Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
      "")  echo ; printf "Internal error in build script (error 5: missing or invalid second (result code)).\n\n" >&2 ; echo ; exit ;;
      *)   echo ; printf "${EXTRAINFO}Build step $1 ($3) failed (error code $2).\n\n" >&2 ; echo ; exit ;;
@@ -886,6 +891,8 @@ function HTML_validation_base()
 {
     startOfBuildStep $3 "Starting HTML validation for $1"
 
+    # Alternative (the same): <https://html5.validator.nu/>
+    #
     export SUBMIT_URL="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu$4%2F$1%3FOverflowStyle=Native"
 
     # Output the submit URL (to the W3 validator), so we can easier and faster reproduce a problem
