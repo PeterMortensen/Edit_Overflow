@@ -2127,6 +2127,39 @@ namespace OverflowHelper.core
             correctionAdd("emdash", "em dash");
             correctionAdd("em-dash", "em dash");
 
+            correctionAdd("--", "&mdash;");
+
+            correctionAdd("endash", "en dash");
+            correctionAdd("en-dash", "en dash");
+
+            correctionAdd("U+2014", "EM DASH");
+            correctionAdd("Code point 2014", "EM DASH");
+            correctionAdd("code point 2014", "EM DASH");
+
+            correctionAdd("U+2013", "EN DASH");
+            correctionAdd("Code point 2013", "EN DASH");
+            correctionAdd("code point 2013", "EN DASH");
+
+            correctionAdd("U+00E4", "LATIN SMALL LETTER A WITH DIAERESIS");
+
+            correctionAdd("U+201C", "LEFT DOUBLE QUOTATION MARK");
+
+            correctionAdd("U+2212", "MINUS SIGN");
+
+            correctionAdd("U+00A0", "NO-BREAK SPACE");
+
+            correctionAdd("U+FFFD", "REPLACEMENT CHARACTER");
+
+            correctionAdd("U+201D", "RIGHT DOUBLE QUOTATION MARK");
+
+            correctionAdd("U+0020", "SPACE");
+
+            correctionAdd("U+200C", "ZERO WIDTH NON-JOINER");
+
+            correctionAdd("U+200B", "ZERO WIDTH SPACE");
+
+            correctionAdd("U+2217", "ASTERISK OPERATOR");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -10394,6 +10427,7 @@ namespace OverflowHelper.core
             correctionAdd("B.O.M", "BOM");
             correctionAdd("Byte order mark", "BOM");
             correctionAdd("Byte-Order Mark", "BOM");
+            correctionAdd("byte-order mark", "BOM");
 
             correctionAdd("ffmpeg", "FFmpeg");
             correctionAdd("FFMPEG", "FFmpeg");
@@ -11259,6 +11293,7 @@ namespace OverflowHelper.core
             correctionAdd("necessariliy", "necessarily");
             correctionAdd("necessaralliy", "necessarily");
             correctionAdd("necesaraly", "necessarily");
+            correctionAdd("necesseraliry", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -14224,6 +14259,7 @@ namespace OverflowHelper.core
             correctionAdd("Prof", "professor");
             correctionAdd("Professor", "professor");
             correctionAdd("proffesor", "professor");
+            correctionAdd("proffessor", "professor");
 
             correctionAdd("anyways", "anyway");
             correctionAdd("Anyyay", "anyway");
@@ -14719,6 +14755,8 @@ namespace OverflowHelper.core
             correctionAdd("uBlockOrigin", "uBlock Origin");
             correctionAdd("uBlock origin", "uBlock Origin");
             correctionAdd("uBO", "uBlock Origin");
+            correctionAdd("ublockorigin.com", "uBlock Origin");
+            correctionAdd("ublockorigin", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -19262,6 +19300,9 @@ namespace OverflowHelper.core
             correctionAdd("fgitw", "fastest gun in the west");
             correctionAdd("FGITW", "fastest gun in the west");
             correctionAdd("Fastest Gun in the West", "fastest gun in the west");
+            correctionAdd("Fastest gun", "fastest gun in the west");
+            correctionAdd("fastest gun", "fastest gun in the west");
+            correctionAdd("fgtw", "fastest gun in the west");
 
             correctionAdd("UXD", "user experience design");
 
@@ -26909,6 +26950,7 @@ namespace OverflowHelper.core
 
             correctionAdd("technichal", "technical");
             correctionAdd("technial", "technical");
+            correctionAdd("techincal", "technical");
 
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
             correctionAdd("straw that broke the camel's back", "the straw that broke the camel's back");
@@ -34057,6 +34099,12 @@ namespace OverflowHelper.core
             correctionAdd("ncr", "HTML character entity reference");
             correctionAdd("HTML thingamajiggied", "HTML character entity reference");
             correctionAdd("HTML thingamajigged", "HTML character entity reference");
+            correctionAdd("entity char", "HTML character entity reference");
+            correctionAdd("entity character", "HTML character entity reference");
+            correctionAdd("entity characters", "HTML character entity reference");
+            correctionAdd("entity thingie", "HTML character entity reference");
+            correctionAdd("entity thingy", "HTML character entity reference");
+            correctionAdd("entity thingamagigie", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -34213,39 +34261,15 @@ namespace OverflowHelper.core
 
             correctionAdd("mis-use", "misuse");
 
-            correctionAdd("U+2217", "ASTERISK OPERATOR");
-
             correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
 
             correctionAdd("chromecast", "Chromecast");
 
-            correctionAdd("U+2014", "EM DASH");
-
-            correctionAdd("U+2013", "EN DASH");
-
-            correctionAdd("U+00E4", "LATIN SMALL LETTER A WITH DIAERESIS");
-
-            correctionAdd("U+201C", "LEFT DOUBLE QUOTATION MARK");
-
-            correctionAdd("U+2212", "MINUS SIGN");
-
-            correctionAdd("U+00A0", "NO-BREAK SPACE");
-
-            correctionAdd("U+FFFD", "REPLACEMENT CHARACTER");
-
-            correctionAdd("U+201D", "RIGHT DOUBLE QUOTATION MARK");
-
             correctionAdd("roku", "Roku");
-
-            correctionAdd("U+0020", "SPACE");
 
             correctionAdd("voyager 1", "Voyager 1");
 
             correctionAdd("voyager 2", "Voyager 2");
-
-            correctionAdd("U+200C", "ZERO WIDTH NON-JOINER");
-
-            correctionAdd("U+200B", "ZERO WIDTH SPACE");
 
             correctionAdd("Bupkis", "bupkis");
 
@@ -34515,6 +34539,9 @@ namespace OverflowHelper.core
 
             correctionAdd("W3C Validator", "W3C validator");
             correctionAdd("W3-validator", "W3C validator");
+            correctionAdd("W3C Validation", "W3C validator");
+            correctionAdd("W3C validation", "W3C validator");
+            correctionAdd("w3c validator", "W3C validator");
 
             correctionAdd("coaxial cable", "coax");
             correctionAdd("co-ax", "coax");
@@ -36960,9 +36987,6 @@ namespace OverflowHelper.core
 
             correctionAdd("showed", "shown");
 
-            correctionAdd("endash", "en dash");
-            correctionAdd("en-dash", "en dash");
-
             correctionAdd("MLP", "multilayer perceptron");
             correctionAdd("Multilayer perceptron", "multilayer perceptron");
 
@@ -37412,6 +37436,21 @@ namespace OverflowHelper.core
             correctionAdd("recovert", "recover");
 
             correctionAdd("re-program", "reprogram");
+
+            correctionAdd("apex", "Apex");
+
+            correctionAdd("bulgarian", "Bulgarian");
+
+            correctionAdd("utf", "UTF");
+
+            correctionAdd("idialised", "idealised");
+
+            correctionAdd("k/v", "key-value");
+            correctionAdd("key/value", "key-value");
+
+            correctionAdd("linktext", "link text");
+
+            correctionAdd("surveiled", "surveilled");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58883,6 +58922,22 @@ namespace OverflowHelper.core
 
             URL_Add("reprogram", "https://en.wiktionary.org/wiki/reprogram#Verb");
 
+            URL_Add("&mdash;", "https://en.wiktionary.org/wiki/em_dash#Noun");
+
+            URL_Add("Apex", "https://en.wikipedia.org/wiki/Salesforce#Apex");
+
+            URL_Add("Bulgarian", "https://en.wiktionary.org/wiki/Bulgarian#Adjective");
+
+            URL_Add("UTF", "https://en.wikipedia.org/wiki/UTF-8");
+
+            URL_Add("idealised", "https://en.wiktionary.org/wiki/idealised#Adjective");
+
+            URL_Add("key-value", "https://en.wiktionary.org/wiki/key-value#Noun");
+
+            URL_Add("link text", "https://en.wikipedia.org/wiki/Anchor_text");
+
+            URL_Add("surveilled", "https://en.wiktionary.org/wiki/surveil#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59311,6 +59366,11 @@ namespace OverflowHelper.core
 
             correctionAdd("writing_", "Writing (Stack Exchange site)_");
 
+            correctionAdd("Byte Order Mark_", "byte order mark_");
+            correctionAdd("BOM_", "byte order mark_");
+            correctionAdd("bom_", "byte order mark_");
+            correctionAdd("byte-order mark_", "byte order mark_");
+
             // URL mappings
             //
             //
@@ -59599,6 +59659,8 @@ namespace OverflowHelper.core
             URL_Add("English_", "https://en.wiktionary.org/wiki/English#Proper_noun");
 
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
+
+            URL_Add("byte order mark_", "https://en.wikipedia.org/wiki/Byte_order_mark");
 
         } //addLookupData_alternativeWordSet()
 
