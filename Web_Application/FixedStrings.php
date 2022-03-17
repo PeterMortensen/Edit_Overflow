@@ -265,7 +265,7 @@
             </p>
 
             <p>e<u>n</u> dash
-                (<a href="https://en.wiktionary.org/wiki/en_dash#Noun">ref</a>) -
+                (<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML">ref</a>) -
                 &ndash; (HTML):
 
                 <input
@@ -280,8 +280,10 @@
                 />
             </p>
 
-            <p><a href="https://en.wiktionary.org/wiki/en_dash#Noun">en dash</a>) -
-                &ndash; (Unicode. Code point 2013):
+            <p><a href="https://en.wiktionary.org/wiki/en_dash#Noun">en dash</a> -
+                &ndash; (Unicode.
+                <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128"
+                >Code point 2013</a>):
 
                 <input
                     name="en_dash_Unicode"
@@ -296,7 +298,7 @@
             </p>
 
             <p>em dash
-                (<a href="https://en.wiktionary.org/wiki/em_dash#Noun">ref</a>) -
+                (<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML">ref</a>) -
                 &mdash; (HTM<u>L</u>):
 
                 <input
@@ -312,7 +314,9 @@
             </p>
 
             <p><a href="https://en.wiktionary.org/wiki/em_dash#Noun">em dash</a> -
-                &mdash; (Unicode. Code point 2014):
+                &mdash; (Unicode.
+                <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128"
+                >Code point 2014</a>):
 
                 <input
                     name="em_dash_Unicode"
