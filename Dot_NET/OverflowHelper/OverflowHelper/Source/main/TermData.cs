@@ -539,6 +539,7 @@ namespace OverflowHelper.core
             correctionAdd("sonar", "SonarQube");
             correctionAdd("Sonar", "SonarQube");
             correctionAdd("sonarqube", "SonarQube");
+            correctionAdd("Sonarqube", "SonarQube");
 
             correctionAdd("descripte", "describe");
             correctionAdd("decribe", "describe");
@@ -2128,6 +2129,7 @@ namespace OverflowHelper.core
             correctionAdd("em-dash", "em dash");
 
             correctionAdd("--", "&mdash;");
+            correctionAdd("- -", "&mdash;");
 
             correctionAdd("endash", "en dash");
             correctionAdd("en-dash", "en dash");
@@ -37230,6 +37232,7 @@ namespace OverflowHelper.core
             correctionAdd("hubble space telescope", "Hubble Space Telescope");
             correctionAdd("HUBBLE", "Hubble Space Telescope");
             correctionAdd("HST", "Hubble Space Telescope");
+            correctionAdd("Hubble", "Hubble Space Telescope");
 
             correctionAdd("iso-8859-15", "ISO&nbsp;8859-15");
             correctionAdd("ISO 8859-15", "ISO&nbsp;8859-15"); // Sort of identity mapping
@@ -37451,6 +37454,10 @@ namespace OverflowHelper.core
             correctionAdd("linktext", "link text");
 
             correctionAdd("surveiled", "surveilled");
+
+            correctionAdd("SF Mono", "San Francisco Mono");
+
+            correctionAdd("Applied Math", "applied mathematics");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58938,6 +58945,10 @@ namespace OverflowHelper.core
 
             URL_Add("surveilled", "https://en.wiktionary.org/wiki/surveil#Verb");
 
+            URL_Add("San Francisco Mono", "https://en.wikipedia.org/wiki/San_Francisco_(sans-serif_typeface)#SF_Mono");
+
+            URL_Add("applied mathematics", "https://en.wikipedia.org/wiki/Applied_mathematics");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59371,6 +59382,8 @@ namespace OverflowHelper.core
             correctionAdd("bom_", "byte order mark_");
             correctionAdd("byte-order mark_", "byte order mark_");
 
+            correctionAdd("cc-by-sa_", "CC-BY-SA_");
+
             // URL mappings
             //
             //
@@ -59661,6 +59674,8 @@ namespace OverflowHelper.core
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
             URL_Add("byte order mark_", "https://en.wikipedia.org/wiki/Byte_order_mark");
+
+            URL_Add("CC-BY-SA_", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
 
         } //addLookupData_alternativeWordSet()
 
