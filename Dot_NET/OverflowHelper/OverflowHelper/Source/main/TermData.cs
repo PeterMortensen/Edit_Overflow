@@ -6420,6 +6420,7 @@ namespace OverflowHelper.core
             correctionAdd("Mathetmica", "Mathematica");
             correctionAdd("Wolfarm Mathematica", "Mathematica");
             correctionAdd("Wolfram Mathematica", "Mathematica");
+            correctionAdd("MMA", "Mathematica");
 
             correctionAdd("mathemathical", "mathematical");
 
@@ -11650,6 +11651,7 @@ namespace OverflowHelper.core
             correctionAdd("qusestion", "question");
             correctionAdd("qusstion", "question");
             correctionAdd("quesion", "question");
+            correctionAdd("quiestion", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -24020,6 +24022,7 @@ namespace OverflowHelper.core
             correctionAdd("Projekt", "project");
             correctionAdd("projekt", "project");
             correctionAdd("Project", "project");
+            correctionAdd("projct", "project");
 
             correctionAdd("eol", "EOL");
             correctionAdd("End of Line", "EOL");
@@ -25071,6 +25074,8 @@ namespace OverflowHelper.core
             correctionAdd("Highlight", "Highlight.js");
 
             correctionAdd("nim", "Nim");
+            correctionAdd("nim-lang", "Nim");
+            correctionAdd("Nimrod", "Nim");
 
             correctionAdd("SE Asia", "Southeast Asia");
 
@@ -30635,6 +30640,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Politics", "Politics (Stack Exchange site)");
             correctionAdd("politics", "Politics (Stack Exchange site)");
+            correctionAdd("political stackexchange", "Politics (Stack Exchange site)");
+            correctionAdd("political Stack Exchange", "Politics (Stack Exchange site)");
 
             correctionAdd("snafu", "SNAFU");
 
@@ -31517,6 +31524,7 @@ namespace OverflowHelper.core
 
             correctionAdd("writed", "wrote");
             correctionAdd("wrot", "wrote");
+            correctionAdd("wrout", "wrote");
 
             correctionAdd("4Chan", "4chan");
 
@@ -33798,6 +33806,7 @@ namespace OverflowHelper.core
             correctionAdd("Clocsing", "closing");
 
             correctionAdd("conculsion", "conclusion");
+            correctionAdd("conclution", "conclusion");
 
             correctionAdd("DnD", "drag and drop");
             correctionAdd("drag'n'drop", "drag and drop");
@@ -37458,6 +37467,14 @@ namespace OverflowHelper.core
             correctionAdd("SF Mono", "San Francisco Mono");
 
             correctionAdd("Applied Math", "applied mathematics");
+
+            correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
+
+            correctionAdd("SOCK", "SOCKS");
+
+            correctionAdd("Stackoverflow Careers", "Stack Overflow Careers");
+
+            correctionAdd("salvagable", "salvageable");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58948,6 +58965,14 @@ namespace OverflowHelper.core
             URL_Add("San Francisco Mono", "https://en.wikipedia.org/wiki/San_Francisco_(sans-serif_typeface)#SF_Mono");
 
             URL_Add("applied mathematics", "https://en.wikipedia.org/wiki/Applied_mathematics");
+
+            URL_Add("Mi Yodeya (Stack Exchange site)", "https://judaism.stackexchange.com/tour");
+
+            URL_Add("SOCKS", "https://en.wikipedia.org/wiki/SOCKS");
+
+            URL_Add("Stack Overflow Careers", "https://meta.stackoverflow.com/tags/jobs/info");
+
+            URL_Add("salvageable", "https://en.wiktionary.org/wiki/salvageable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
