@@ -33801,6 +33801,7 @@ namespace OverflowHelper.core
             correctionAdd("auto-closing", "autoclosing");
 
             correctionAdd("comma separated", "comma-separated");
+            correctionAdd("comma separted", "comma-separated");
 
             correctionAdd("clocsing", "closing");
             correctionAdd("Clocsing", "closing");
@@ -37469,12 +37470,24 @@ namespace OverflowHelper.core
             correctionAdd("Applied Math", "applied mathematics");
 
             correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
+            correctionAdd("Mi Yodeya", "Mi Yodeya (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("SOCK", "SOCKS");
 
             correctionAdd("Stackoverflow Careers", "Stack Overflow Careers");
+            correctionAdd("StackOverflow Careers", "Stack Overflow Careers");
 
             correctionAdd("salvagable", "salvageable");
+
+            correctionAdd("VWP", "Visa Waiver Program");
+
+            correctionAdd("bit-banging", "bit banging");
+
+            correctionAdd("Federal", "federal");
+
+            correctionAdd("Federally", "federally");
+
+            correctionAdd("Fed's", "feds");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58974,6 +58987,16 @@ namespace OverflowHelper.core
 
             URL_Add("salvageable", "https://en.wiktionary.org/wiki/salvageable#Adjective");
 
+            URL_Add("Visa Waiver Program", "https://en.wikipedia.org/wiki/Visa_Waiver_Program");
+
+            URL_Add("bit banging", "https://en.wiktionary.org/wiki/bit_banging#Noun");
+
+            URL_Add("federal", "https://en.wiktionary.org/wiki/federal#Adjective");
+
+            URL_Add("federally", "https://en.wiktionary.org/wiki/federally#Adverb");
+
+            URL_Add("feds", "https://en.wiktionary.org/wiki/fed#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59409,6 +59432,8 @@ namespace OverflowHelper.core
 
             correctionAdd("cc-by-sa_", "CC-BY-SA_");
 
+            correctionAdd("WA_", "Washington_");
+
             // URL mappings
             //
             //
@@ -59701,6 +59726,8 @@ namespace OverflowHelper.core
             URL_Add("byte order mark_", "https://en.wikipedia.org/wiki/Byte_order_mark");
 
             URL_Add("CC-BY-SA_", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
+
+            URL_Add("Washington_", "https://en.wikipedia.org/wiki/Washington_(state)");
 
         } //addLookupData_alternativeWordSet()
 
