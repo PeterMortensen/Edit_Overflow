@@ -8594,6 +8594,8 @@ namespace OverflowHelper.core
             correctionAdd("bit bucket", "Bitbucket");
             correctionAdd("BITBUCKET", "Bitbucket");
             correctionAdd("bitbecket", "Bitbucket");
+            correctionAdd("GitBucket", "Bitbucket");
+            correctionAdd("Gitbucket", "Bitbucket");
 
             correctionAdd("squeak", "Squeak");
 
@@ -13721,6 +13723,8 @@ namespace OverflowHelper.core
             correctionAdd("unlit", "until");
 
             correctionAdd("Yestarday", "yesterday");
+            correctionAdd("yestoday", "yesterday");
+            correctionAdd("Yestoday", "yesterday");
 
             correctionAdd("duckduckgo", "DuckDuckGo");
             correctionAdd("duck duck go", "DuckDuckGo");
@@ -14710,6 +14714,7 @@ namespace OverflowHelper.core
             correctionAdd("referecne", "reference");
             correctionAdd("Referecence", "reference");
             correctionAdd("refereence", "reference");
+            correctionAdd("rederence", "reference");
 
             correctionAdd("dimenson", "dimension");
             correctionAdd("dimenion", "dimension");
@@ -14717,6 +14722,7 @@ namespace OverflowHelper.core
             correctionAdd("dimention", "dimension");
 
             correctionAdd("dimentional", "dimensional");
+            correctionAdd("demensional", "dimensional");
 
             correctionAdd("1D", "one-dimensional");
             correctionAdd("1-D", "one-dimensional");
@@ -14724,6 +14730,7 @@ namespace OverflowHelper.core
             correctionAdd("1d", "one-dimensional");
             correctionAdd("one dimensional", "one-dimensional");
             correctionAdd("1 dimensional", "one-dimensional");
+            correctionAdd("one-demensional", "one-dimensional");
 
             correctionAdd("2D", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
@@ -15791,6 +15798,7 @@ namespace OverflowHelper.core
             correctionAdd("aswell", "as well");
             correctionAdd("Aswell", "as well");
             correctionAdd("aswel", "as well");
+            correctionAdd("ass well", "as well");
 
             correctionAdd("documentated", "documented");
 
@@ -16068,6 +16076,8 @@ namespace OverflowHelper.core
             correctionAdd("heelo world", "Hello, World!");
             correctionAdd("Héllo World", "Hello, World!");
             correctionAdd("Hello", "Hello, World!");
+            correctionAdd("HelloWord", "Hello, World!");
+            correctionAdd("HelloWorld", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -18218,6 +18228,7 @@ namespace OverflowHelper.core
             correctionAdd("condtional", "conditional");
             correctionAdd("coditional", "conditional");
             correctionAdd("conditionnal", "conditional");
+            correctionAdd("consitional", "conditional");
 
             correctionAdd("criterias", "criteria");
             correctionAdd("citeria", "criteria");
@@ -24853,6 +24864,7 @@ namespace OverflowHelper.core
 
             correctionAdd("asign", "assign");
             correctionAdd("sssign", "assign");
+            correctionAdd("assgin", "assign");
 
             correctionAdd("definitve", "definitive");
 
@@ -27313,6 +27325,8 @@ namespace OverflowHelper.core
 
             correctionAdd("eventhough", "even though");
             correctionAdd("even thought", "even though");
+            correctionAdd("Eventhough", "even though");
+            correctionAdd("Even though", "even though");
 
             correctionAdd("exacution", "execution");
             correctionAdd("executation", "execution");
@@ -34610,6 +34624,7 @@ namespace OverflowHelper.core
 
             correctionAdd("uplaod", "upload");
             correctionAdd("uload", "upload");
+            correctionAdd("uoload", "upload");
 
             correctionAdd("Wireless Communication", "wireless communication");
 
@@ -34801,6 +34816,7 @@ namespace OverflowHelper.core
             correctionAdd("IBR", "Internet background radiation");
 
             correctionAdd("pipewire", "PipeWire");
+            correctionAdd("Pipewire", "PipeWire");
 
             correctionAdd("PowerApp", "Power Apps");
             correctionAdd("PowerApps", "Power Apps");
@@ -36255,6 +36271,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SO Teams", "Stack Overflow for Teams");
             correctionAdd("SOfT", "Stack Overflow for Teams");
+            correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
 
             correctionAdd("book keeping", "bookkeeping");
 
@@ -37406,24 +37423,6 @@ namespace OverflowHelper.core
             correctionAdd("lang-javascript", "```lang-javascript");
             correctionAdd("javascript-lang", "```lang-javascript");
 
-            correctionAdd("css-lang", "```lang-css");
-            correctionAdd("lang-css", "```lang-css");
-
-            correctionAdd("html-lang", "```lang-html");
-            correctionAdd("lang-html", "```lang-html");
-
-            correctionAdd("none-lang", "```lang-none");
-            correctionAdd("lang-none", "```lang-none");
-
-            correctionAdd("php-lang", "```lang-php");
-            correctionAdd("lang-php", "```lang-php");
-
-            correctionAdd("xml-lang", "```lang-xml");
-            correctionAdd("lang-xml", "```lang-xml");
-
-            correctionAdd("xml-python", "```lang-python");
-            correctionAdd("lang-python", "```lang-python");
-
             correctionAdd("google places", "Google Places");
 
             correctionAdd("Places API", "Google Places API");
@@ -37488,6 +37487,47 @@ namespace OverflowHelper.core
             correctionAdd("Federally", "federally");
 
             correctionAdd("Fed's", "feds");
+
+            correctionAdd("Silver Blue", "Silverblue");
+
+            correctionAdd("TIDYVERSE", "Tidyverse");
+
+            correctionAdd("CBP", "United States Customs and Border Protection");
+
+            correctionAdd("Dielectric", "dielectric");
+
+            correctionAdd("4 layer", "four-layer");
+
+            correctionAdd("picked-up", "picked up");
+
+            correctionAdd("teraohm", "tera-ohm");
+            correctionAdd("Tera Ohm", "tera-ohm");
+            correctionAdd("Teraohm", "tera-ohm");
+            correctionAdd("Tera ohm", "tera-ohm");
+            correctionAdd("tera ohm", "tera-ohm");
+
+            correctionAdd("uoloaded", "uploaded");
+
+            correctionAdd("css-lang", "```lang-css");
+            correctionAdd("lang-css", "```lang-css");
+
+            correctionAdd("html-lang", "```lang-html");
+            correctionAdd("lang-html", "```lang-html");
+
+            correctionAdd("none-lang", "```lang-none");
+            correctionAdd("lang-none", "```lang-none");
+
+            correctionAdd("php-lang", "```lang-php");
+            correctionAdd("lang-php", "```lang-php");
+
+            correctionAdd("xml-lang", "```lang-xml");
+            correctionAdd("lang-xml", "```lang-xml");
+
+            correctionAdd("xml-python", "```lang-python");
+            correctionAdd("lang-python", "```lang-python");
+
+            correctionAdd("lang-cpp", "```lang-cpp");
+            correctionAdd("cpp-lang", "```lang-cpp");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58997,6 +59037,24 @@ namespace OverflowHelper.core
 
             URL_Add("feds", "https://en.wiktionary.org/wiki/fed#Noun");
 
+            URL_Add("Silverblue", "https://en.wikipedia.org/wiki/Fedora_Linux#Silverblue");
+
+            URL_Add("Tidyverse", "https://en.wikipedia.org/wiki/Tidyverse");
+
+            URL_Add("United States Customs and Border Protection", "https://en.wikipedia.org/wiki/U.S._Customs_and_Border_Protection");
+
+            URL_Add("```lang-cpp", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("dielectric", "https://en.wiktionary.org/wiki/dielectric#Adjective");
+
+            URL_Add("four-layer", "https://en.wikipedia.org/wiki/Printed_circuit_board#Overview");
+
+            URL_Add("picked up", "https://en.wiktionary.org/wiki/pick_up#Verb");
+
+            URL_Add("tera-ohm", "https://en.wiktionary.org/wiki/tera-ohm#Noun");
+
+            URL_Add("uploaded", "https://en.wiktionary.org/wiki/uploaded#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59434,6 +59492,9 @@ namespace OverflowHelper.core
 
             correctionAdd("WA_", "Washington_");
 
+            correctionAdd("British Standard Time_", "British Summer Time_");
+            correctionAdd("BST_", "British Summer Time_");
+
             // URL mappings
             //
             //
@@ -59728,6 +59789,8 @@ namespace OverflowHelper.core
             URL_Add("CC-BY-SA_", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
 
             URL_Add("Washington_", "https://en.wikipedia.org/wiki/Washington_(state)");
+
+            URL_Add("British Summer Time_", "https://en.wikipedia.org/wiki/British_Summer_Time");
 
         } //addLookupData_alternativeWordSet()
 
