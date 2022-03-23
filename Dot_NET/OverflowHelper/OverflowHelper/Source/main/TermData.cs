@@ -3935,6 +3935,12 @@ namespace OverflowHelper.core
             correctionAdd("MS Build", "MSBuild");
             correctionAdd("MS BUild", "MSBuild");
 
+            correctionAdd("re build", "rebuild");
+            correctionAdd("re-build", "rebuild");
+
+            correctionAdd("buid", "build");
+            correctionAdd("bulid", "build");
+
             correctionAdd("cocoa", "Cocoa");
 
             correctionAdd("clojure", "Clojure");
@@ -8017,6 +8023,7 @@ namespace OverflowHelper.core
             correctionAdd("betwen", "between");
             correctionAdd("bwtween", "between");
             correctionAdd("betwween", "between");
+            correctionAdd("betwwen", "between");
 
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
@@ -11390,6 +11397,7 @@ namespace OverflowHelper.core
             correctionAdd("newbee", "newbie");
             correctionAdd("noobie", "newbie");
             correctionAdd("nooby", "newbie");
+            correctionAdd("newwbie", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -12643,6 +12651,7 @@ namespace OverflowHelper.core
             correctionAdd("wanne", "want to");
             correctionAdd("wana", "want to");
             correctionAdd("wnna", "want to");
+            correctionAdd("wonna", "want to");
 
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
@@ -14043,6 +14052,9 @@ namespace OverflowHelper.core
             correctionAdd("bandwith", "bandwidth");
             correctionAdd("badwidth", "bandwidth");
 
+            correctionAdd("Width", "width");
+            correctionAdd("widht", "width");
+
             correctionAdd("buracracy", "bureaucracy");
             correctionAdd("buracrocy", "bureaucracy");
             correctionAdd("buracrazy", "bureaucracy");
@@ -14715,6 +14727,7 @@ namespace OverflowHelper.core
             correctionAdd("Referecence", "reference");
             correctionAdd("refereence", "reference");
             correctionAdd("rederence", "reference");
+            correctionAdd("refference", "reference");
 
             correctionAdd("dimenson", "dimension");
             correctionAdd("dimenion", "dimension");
@@ -15823,6 +15836,7 @@ namespace OverflowHelper.core
             correctionAdd("reqest", "request");
             correctionAdd("reguest", "request");
             correctionAdd("reques", "request");
+            correctionAdd("Reqest", "request");
 
             correctionAdd("temorarily", "temporarily");
             correctionAdd("temporaryly", "temporarily");
@@ -16961,6 +16975,8 @@ namespace OverflowHelper.core
             correctionAdd("therfore", "therefore");
             correctionAdd("theresfore", "therefore");
             correctionAdd("therfor", "therefore");
+            correctionAdd("there for", "therefore");
+            correctionAdd("There for", "therefore");
 
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
@@ -21030,6 +21046,7 @@ namespace OverflowHelper.core
             correctionAdd("suck poppet", "sockpuppet");
             correctionAdd("suck puppet", "sockpuppet");
             correctionAdd("Sockpuppet", "sockpuppet");
+            correctionAdd("Sock puppet", "sockpuppet");
 
             correctionAdd("thread safe", "threadsafe");
             correctionAdd("thread-safe", "threadsafe");
@@ -22349,6 +22366,7 @@ namespace OverflowHelper.core
             correctionAdd("thae", "the");
 
             correctionAdd("vaild", "valid"); // True typo
+            correctionAdd("vaiid", "valid");
 
             correctionAdd("achiving", "achieving");
             correctionAdd("archiving", "achieving");
@@ -28999,8 +29017,6 @@ namespace OverflowHelper.core
 
             correctionAdd("finnish", "Finnish");
 
-            correctionAdd("Width", "width");
-
             correctionAdd("pokemon go", "Pokémon Go");
             correctionAdd("Pokémon go", "Pokémon Go");
             correctionAdd("pokémon go", "Pokémon Go");
@@ -30502,9 +30518,6 @@ namespace OverflowHelper.core
             correctionAdd("non relativistic", "nonrelativistic");
 
             correctionAdd("problemantic", "problematic");
-
-            correctionAdd("re build", "rebuild");
-            correctionAdd("re-build", "rebuild");
 
             correctionAdd("white board", "whiteboard");
 
@@ -32959,6 +32972,9 @@ namespace OverflowHelper.core
 
             correctionAdd("LOG_ERRORS", "log_errors");
 
+            correctionAdd("erros", "errors");
+            correctionAdd("errore", "errors");
+
             correctionAdd("outlook", "Outlook");
 
             correctionAdd("loot", "look");
@@ -33026,8 +33042,6 @@ namespace OverflowHelper.core
             correctionAdd("Agricultural", "agricultural");
 
             correctionAdd("Agriculture", "agriculture");
-
-            correctionAdd("erros", "errors");
 
             correctionAdd("Grayscale", "grayscale");
 
@@ -33508,8 +33522,6 @@ namespace OverflowHelper.core
             correctionAdd("wangle", "Wangle");
 
             correctionAdd("attachement", "attachment");
-
-            correctionAdd("buid", "build");
 
             correctionAdd("ITNOA", "in the name of Allah");
             correctionAdd("In The Name Of Allah", "in the name of Allah");
@@ -37489,6 +37501,7 @@ namespace OverflowHelper.core
             correctionAdd("Fed's", "feds");
 
             correctionAdd("Silver Blue", "Silverblue");
+            correctionAdd("silverblue", "Silverblue");
 
             correctionAdd("TIDYVERSE", "Tidyverse");
 
@@ -37528,6 +37541,29 @@ namespace OverflowHelper.core
 
             correctionAdd("lang-cpp", "```lang-cpp");
             correctionAdd("cpp-lang", "```lang-cpp");
+
+            correctionAdd("adwaita", "Adwaita");
+            correctionAdd("libadwaita", "Adwaita");
+
+            correctionAdd("bangladesh", "Bangladesh");
+
+            correctionAdd("BTRFS", "Btrfs");
+
+            correctionAdd("foundation", "Foundation");
+
+            correctionAdd("spin", "Spins");
+            correctionAdd("spins", "Spins");
+
+            correctionAdd("waterfox", "Waterfox");
+
+            correctionAdd("all mighty", "almighty");
+
+            correctionAdd("fregment", "fragment");
+
+            correctionAdd("immutablity", "immutability");
+            correctionAdd("imutablity", "immutability");
+
+            correctionAdd("mail", "mail()");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59054,6 +59090,26 @@ namespace OverflowHelper.core
             URL_Add("tera-ohm", "https://en.wiktionary.org/wiki/tera-ohm#Noun");
 
             URL_Add("uploaded", "https://en.wiktionary.org/wiki/uploaded#Adjective");
+
+            URL_Add("Adwaita", "https://en.wikipedia.org/wiki/Adwaita_(design_language)");
+
+            URL_Add("Bangladesh", "https://en.wikipedia.org/wiki/Bangladesh");
+
+            URL_Add("Btrfs", "https://en.wikipedia.org/wiki/Btrfs");
+
+            URL_Add("Foundation", "https://en.wikipedia.org/wiki/Foundation_(framework)");
+
+            URL_Add("Spins", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
+
+            URL_Add("Waterfox", "https://en.wikipedia.org/wiki/Waterfox");
+
+            URL_Add("almighty", "https://en.wiktionary.org/wiki/almighty#Adjective");
+
+            URL_Add("fragment", "https://en.wiktionary.org/wiki/fragment#Noun");
+
+            URL_Add("immutability", "https://en.wiktionary.org/wiki/immutability#Noun");
+
+            URL_Add("mail()", "https://www.php.net/manual/en/function.mail.php");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
