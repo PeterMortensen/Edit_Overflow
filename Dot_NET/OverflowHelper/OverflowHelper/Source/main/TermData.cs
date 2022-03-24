@@ -20219,6 +20219,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Isopropyl alcohol", "isopropyl alcohol");
             correctionAdd("IPA", "isopropyl alcohol");
+            correctionAdd("isoprop", "isopropyl alcohol");
 
             correctionAdd("FAANG", "FANG");
 
@@ -23899,6 +23900,7 @@ namespace OverflowHelper.core
             correctionAdd("for intstance", "for instance");
             correctionAdd("For intstance", "for instance");
             correctionAdd("for instacnce", "for instance");
+            correctionAdd("for instanc", "for instance");
 
             correctionAdd("rgeular", "regular");
             correctionAdd("regullar", "regular");
@@ -30025,6 +30027,7 @@ namespace OverflowHelper.core
             correctionAdd("thingamabob", "thingamajiggy");
             correctionAdd("thingamagic", "thingamajiggy");
             correctionAdd("thingamagiggi", "thingamajiggy");
+            correctionAdd("thingamagigie", "thingamajiggy");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -33696,6 +33699,7 @@ namespace OverflowHelper.core
             correctionAdd("encyrpted", "encrypted");
 
             correctionAdd("extarct", "extract");
+            correctionAdd("extrct", "extract");
 
             correctionAdd("MPC", "model predictive control");
 
@@ -34143,6 +34147,7 @@ namespace OverflowHelper.core
             correctionAdd("entity thingie", "HTML character entity reference");
             correctionAdd("entity thingy", "HTML character entity reference");
             correctionAdd("entity thingamagigie", "HTML character entity reference");
+            correctionAdd("entity thingamajiggy", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -37564,6 +37569,10 @@ namespace OverflowHelper.core
             correctionAdd("imutablity", "immutability");
 
             correctionAdd("mail", "mail()");
+
+            correctionAdd("DSO", "digital storage oscilloscope");
+
+            correctionAdd("prevoew", "preview");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59111,6 +59120,10 @@ namespace OverflowHelper.core
 
             URL_Add("mail()", "https://www.php.net/manual/en/function.mail.php");
 
+            URL_Add("digital storage oscilloscope", "https://en.wikipedia.org/wiki/Digital_storage_oscilloscope");
+
+            URL_Add("preview", "https://en.wiktionary.org/wiki/preview#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59551,6 +59564,8 @@ namespace OverflowHelper.core
             correctionAdd("British Standard Time_", "British Summer Time_");
             correctionAdd("BST_", "British Summer Time_");
 
+            correctionAdd("PE_", "potential energy_");
+
             // URL mappings
             //
             //
@@ -59847,6 +59862,8 @@ namespace OverflowHelper.core
             URL_Add("Washington_", "https://en.wikipedia.org/wiki/Washington_(state)");
 
             URL_Add("British Summer Time_", "https://en.wikipedia.org/wiki/British_Summer_Time");
+
+            URL_Add("potential energy_", "https://en.wikipedia.org/wiki/Potential_energy");
 
         } //addLookupData_alternativeWordSet()
 
