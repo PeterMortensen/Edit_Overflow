@@ -14174,6 +14174,7 @@ namespace OverflowHelper.core
             correctionAdd("SHIFT", "Shift");
             correctionAdd("shift", "Shift");
             correctionAdd("Shft", "Shift");
+            correctionAdd("shif", "Shift");
 
             correctionAdd("x509", "X.509");
             correctionAdd("x.509", "X.509");
@@ -21647,6 +21648,7 @@ namespace OverflowHelper.core
             correctionAdd("I´d", "I’d");
             correctionAdd("I'd", "I’d");
             correctionAdd("i'd", "I’d");
+            correctionAdd("id", "I’d");
 
             correctionAdd("Shindler's list", "Schindler's List");
 
@@ -21770,6 +21772,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tranpiling", "transpiling");
             correctionAdd("transipiling", "transpiling");
+            correctionAdd("transpilation", "transpiling"); // Though, noun vs. verb
 
             correctionAdd("unlinke", "unlike");
             correctionAdd("Unlinke", "unlike");
@@ -28206,6 +28209,7 @@ namespace OverflowHelper.core
             correctionAdd("PopOS", "Pop!_OS");
             correctionAdd("PopOS Linux", "Pop!_OS");
             correctionAdd("Pop_OS", "Pop!_OS");
+            correctionAdd("popos", "Pop!_OS");
 
             correctionAdd("Sunburst", "SUNBURST");
 
@@ -30058,6 +30062,7 @@ namespace OverflowHelper.core
             correctionAdd("gif", "GIF");
             correctionAdd("Gif", "GIF");
             correctionAdd("GI", "GIF");
+            correctionAdd("gifs", "GIF");
 
             correctionAdd("EXIF", "Exif");
             correctionAdd("exif", "Exif");
@@ -37543,6 +37548,7 @@ namespace OverflowHelper.core
 
             correctionAdd("xml-python", "```lang-python");
             correctionAdd("lang-python", "```lang-python");
+            correctionAdd("lang-py", "```lang-python");
 
             correctionAdd("lang-cpp", "```lang-cpp");
             correctionAdd("cpp-lang", "```lang-cpp");
@@ -37573,6 +37579,16 @@ namespace OverflowHelper.core
             correctionAdd("DSO", "digital storage oscilloscope");
 
             correctionAdd("prevoew", "preview");
+
+            correctionAdd("dirver", "driver");
+
+            correctionAdd("home baked", "homebaked");
+
+            correctionAdd("kurfufle", "kurfuffle");
+
+            correctionAdd("truth to be told", "truth be told");
+
+            correctionAdd("unsuccessfull", "unsuccessful");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59123,6 +59139,16 @@ namespace OverflowHelper.core
             URL_Add("digital storage oscilloscope", "https://en.wikipedia.org/wiki/Digital_storage_oscilloscope");
 
             URL_Add("preview", "https://en.wiktionary.org/wiki/preview#Noun");
+
+            URL_Add("driver", "https://en.wiktionary.org/wiki/driver#Noun");
+
+            URL_Add("homebaked", "https://en.wiktionary.org/wiki/homebaked#Adjective");
+
+            URL_Add("kurfuffle", "https://en.wiktionary.org/wiki/kerfuffle#Noun");
+
+            URL_Add("truth be told", "https://en.wiktionary.org/wiki/truth_be_told#Interjection");
+
+            URL_Add("unsuccessful", "https://en.wiktionary.org/wiki/unsuccessful#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
