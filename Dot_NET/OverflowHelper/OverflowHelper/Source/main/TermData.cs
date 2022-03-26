@@ -3830,6 +3830,7 @@ namespace OverflowHelper.core
             correctionAdd("TM", "TextMate");
             correctionAdd("texmate", "TextMate");
             correctionAdd("Texmate", "TextMate");
+            correctionAdd("Text mate", "TextMate");
 
             correctionAdd("html", "HTML");
             correctionAdd("Html", "HTML");
@@ -8528,6 +8529,7 @@ namespace OverflowHelper.core
             correctionAdd("preiveledge", "privilege");
             correctionAdd("privilages", "privilege");
             correctionAdd("privileges", "privilege");
+            correctionAdd("provilege", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -22855,6 +22857,7 @@ namespace OverflowHelper.core
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
             correctionAdd("Database Administrators", "Database Administrators (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("dba.stackexchange.com", "Database Administrators (Stack Exchange site)");
 
             correctionAdd("embarcadero", "Embarcadero");
 
@@ -25071,6 +25074,7 @@ namespace OverflowHelper.core
             correctionAdd("understandig", "understanding");
             correctionAdd("udnerstanding", "understanding");
             correctionAdd("understadnig", "understanding");
+            correctionAdd("understating", "understanding");
 
             correctionAdd("ressource", "resource");
             correctionAdd("recourse", "resource");
@@ -29092,6 +29096,7 @@ namespace OverflowHelper.core
             correctionAdd("intel atom", "Intel Atom");
 
             correctionAdd("pale moon", "Pale Moon");
+            correctionAdd("Palemoon", "Pale Moon");
 
             correctionAdd("react-router", "React Router");
             correctionAdd("react router", "React Router");
@@ -33195,6 +33200,7 @@ namespace OverflowHelper.core
             correctionAdd("tutorialspoint", "Tutorials Point");
 
             correctionAdd("XY-Problem", "XY problem");
+            correctionAdd("X-Y problem", "XY problem");
 
             correctionAdd("day dream", "daydream");
 
@@ -37589,6 +37595,71 @@ namespace OverflowHelper.core
             correctionAdd("truth to be told", "truth be told");
 
             correctionAdd("unsuccessfull", "unsuccessful");
+
+            correctionAdd("cloudformation", "AWS CloudFormation");
+            correctionAdd("aws cloudformation", "AWS CloudFormation");
+            correctionAdd("cloud formation", "AWS CloudFormation");
+
+            correctionAdd("Amazon Sagemaker", "Amazon SageMaker");
+            correctionAdd("sagemaker", "Amazon SageMaker");
+
+            correctionAdd("Banglore", "Bangalore");
+            correctionAdd("bangalore", "Bangalore");
+            correctionAdd("banglore", "Bangalore");
+
+            correctionAdd("giant", "Giant Bicycles");
+
+            correctionAdd("giant escape", "Giant Escape");
+
+            correctionAdd("giant tcr", "Giant TCR");
+
+            correctionAdd("GigE", "Gigabit Ethernet");
+            correctionAdd("GbE", "Gigabit Ethernet");
+
+            correctionAdd("HPE 2930m", "HPE 2930M");
+            correctionAdd("2930m", "HPE 2930M");
+
+            correctionAdd("mlops", "MLOps");
+            correctionAdd("ML Ops", "MLOps");
+            correctionAdd("ML ops", "MLOps");
+            correctionAdd("MLOPS", "MLOps");
+
+            correctionAdd("substrate", "Substrate");
+
+            correctionAdd("Algebraic", "algebraic");
+
+            correctionAdd("depends in", "depends on");
+
+            correctionAdd("diits", "digits");
+
+            correctionAdd("DMIDECODE", "dmidecode");
+
+            correctionAdd("gettext", "getText (for Java)");
+
+            correctionAdd("Hardtail", "hardtail");
+
+            correctionAdd("infront", "in front");
+
+            correctionAdd("LSBLK", "lsblk");
+
+            correctionAdd("misteke", "mistake");
+
+            correctionAdd("MTB", "mountain bike");
+
+            correctionAdd("normolize", "normalize");
+            correctionAdd("Normolize", "normalize");
+
+            correctionAdd("over kill", "overkill");
+
+            correctionAdd("Pipeline", "pipeline");
+
+            correctionAdd("powersupplies", "power supplies");
+
+            correctionAdd("redunancy", "redundancy");
+
+            correctionAdd("more safe", "safer");
+
+            correctionAdd("Wave equation", "wave equation");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59149,6 +59220,60 @@ namespace OverflowHelper.core
             URL_Add("truth be told", "https://en.wiktionary.org/wiki/truth_be_told#Interjection");
 
             URL_Add("unsuccessful", "https://en.wiktionary.org/wiki/unsuccessful#Adjective");
+
+            URL_Add("AWS CloudFormation", "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html");
+
+            URL_Add("Amazon SageMaker", "https://en.wikipedia.org/wiki/Amazon_SageMaker");
+
+            URL_Add("Bangalore", "https://en.wikipedia.org/wiki/Bangalore");
+
+            URL_Add("Giant Bicycles", "https://en.wikipedia.org/wiki/Giant_Bicycles");
+
+            URL_Add("Giant Escape", "https://www.giant-bicycles.com/us/bikes-escape");
+
+            URL_Add("Giant TCR", "https://www.giant-bicycles.com/us/tcr");
+
+            URL_Add("Gigabit Ethernet", "https://en.wikipedia.org/wiki/Gigabit_Ethernet");
+
+            URL_Add("HPE 2930M", "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/2930-switch-products/aruba-2930m-switch-series/aruba-2930m-48g-1-slot-switch/p/JL321A");
+
+            URL_Add("MLOps", "https://en.wikipedia.org/wiki/MLOps");
+
+            URL_Add("Substrate", "https://stackoverflow.com/questions/tagged/substrate");
+
+            URL_Add("algebraic", "https://en.wiktionary.org/wiki/algebraic#Adjective");
+
+            URL_Add("depends on", "https://www.merriam-webster.com/dictionary/depend%20on/upon");
+
+            URL_Add("digits", "https://en.wiktionary.org/wiki/digit#Noun");
+
+            URL_Add("dmidecode", "https://linux.die.net/man/8/dmidecode");
+
+            URL_Add("getText (for Java)", "https://www.selenium.dev/documentation/webdriver/elements/finders/");
+
+            URL_Add("hardtail", "https://en.wiktionary.org/wiki/hardtail#Noun");
+
+            URL_Add("in front", "https://en.wiktionary.org/wiki/in_front#Prepositional_phrase");
+
+            URL_Add("lsblk", "https://linux.die.net/man/8/lsblk");
+
+            URL_Add("mistake", "https://en.wiktionary.org/wiki/mistake#Noun");
+
+            URL_Add("mountain bike", "https://en.wikipedia.org/wiki/Mountain_bike");
+
+            URL_Add("normalize", "https://en.wiktionary.org/wiki/normalize#Verb");
+
+            URL_Add("overkill", "https://en.wiktionary.org/wiki/overkill#Verb");
+
+            URL_Add("pipeline", "https://en.wiktionary.org/wiki/pipeline#Noun");
+
+            URL_Add("power supplies", "https://en.wiktionary.org/wiki/power_supply#Noun");
+
+            URL_Add("redundancy", "https://en.wiktionary.org/wiki/redundancy#Noun");
+
+            URL_Add("safer", "https://en.wiktionary.org/wiki/safer#Adjective");
+
+            URL_Add("wave equation", "https://en.wikipedia.org/wiki/Wave_equation");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
