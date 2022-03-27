@@ -1972,6 +1972,60 @@ namespace OverflowHelper.core
             correctionAdd("Wpf", "WPF");
             correctionAdd("Windows Presentation Foundation", "WPF");
 
+            correctionAdd("pf", "pF");
+            correctionAdd("pico fared", "pF");
+            correctionAdd("pico farad", "pF");
+            correctionAdd("picofarad", "pF");
+
+            correctionAdd("nano farad", "nF");
+            correctionAdd("nano-Farad", "nF");
+            correctionAdd("nanofarad", "nF");
+
+            correctionAdd("micro farad", "µF"); // Also to abbreviate
+            correctionAdd("uf", "µF");
+            correctionAdd("uF", "µF");
+
+            correctionAdd("millifarad", "mF");
+            correctionAdd("milliFarad", "mF");
+            correctionAdd("milli farad", "mF");
+
+            correctionAdd("Farad", "farad");
+            correctionAdd("fared", "farad");
+
+            correctionAdd("Coulomb", "coulomb");
+            correctionAdd("Culomb", "coulomb");
+            correctionAdd("Coloumb", "coulomb");
+
+            correctionAdd("Ohm", "ohm");
+            correctionAdd("OHM", "ohm");
+            correctionAdd("Om", "ohm");
+
+            correctionAdd("Kohm", "kilohm");
+            correctionAdd("KOhm", "kilohm");
+            correctionAdd("kohm", "kilohm");
+            correctionAdd("kOhm", "kilohm"); // Partially an expansion. The opposite is kΩ.
+            correctionAdd("kiloohm", "kilohm");
+            correctionAdd("kilo ohm", "kilohm");
+            correctionAdd("K ohm", "kilohm");
+            correctionAdd("kohms", "kilohm");
+            correctionAdd("kilo-ohm", "kilohm");
+
+            correctionAdd("Mohm", "megohm");
+            correctionAdd("megaohm", "megohm");
+            correctionAdd("MegOhm", "megohm");
+            correctionAdd("MOhm", "megohm");
+            // correctionAdd("Meg", "megohm"); // Could also be MB (megabyte)
+
+            correctionAdd("gigaohm", "giga-ohm");
+
+            correctionAdd("teraohm", "tera-ohm");
+            correctionAdd("Tera Ohm", "tera-ohm");
+            correctionAdd("Teraohm", "tera-ohm");
+            correctionAdd("Tera ohm", "tera-ohm");
+            correctionAdd("tera ohm", "tera-ohm");
+
+            correctionAdd("Bohm", "David Bohm");
+
             correctionAdd("msdn", "MSDN");
             correctionAdd("msndn", "MSDN"); // Misspelling.
             correctionAdd("mdsn", "MSDN"); // Misspelling.
@@ -11944,30 +11998,6 @@ namespace OverflowHelper.core
 
             correctionAdd("elf", "ELF");
 
-            correctionAdd("Ohm", "ohm");
-            correctionAdd("OHM", "ohm");
-            correctionAdd("Om", "ohm");
-
-            correctionAdd("Kohm", "kilohm");
-            correctionAdd("KOhm", "kilohm");
-            correctionAdd("kohm", "kilohm");
-            correctionAdd("kOhm", "kilohm"); // Partially an expansion. The opposite is kΩ.
-            correctionAdd("kiloohm", "kilohm");
-            correctionAdd("kilo ohm", "kilohm");
-            correctionAdd("K ohm", "kilohm");
-            correctionAdd("kohms", "kilohm");
-            correctionAdd("kilo-ohm", "kilohm");
-
-            correctionAdd("Mohm", "megohm");
-            correctionAdd("megaohm", "megohm");
-            correctionAdd("MegOhm", "megohm");
-            correctionAdd("MOhm", "megohm");
-            // correctionAdd("Meg", "megohm"); // Could also be MB (megabyte)
-
-            correctionAdd("micro farad", "µF"); // Also to abbreviate
-            correctionAdd("uf", "µF");
-            correctionAdd("uF", "µF");
-
             correctionAdd("appearence", "appearance");
             correctionAdd("appearrance", "appearance");
             correctionAdd("appearrence", "appearance");
@@ -12320,12 +12350,6 @@ namespace OverflowHelper.core
             correctionAdd("vueJs", "Vue.js");
             correctionAdd("VUE", "Vue.js");
             correctionAdd("Vue.JS", "Vue.js");
-
-            correctionAdd("Farad", "farad");
-
-            correctionAdd("Coulomb", "coulomb");
-            correctionAdd("Culomb", "coulomb");
-            correctionAdd("Coloumb", "coulomb");
 
             correctionAdd("SYbase", "Sybase");
 
@@ -20477,6 +20501,7 @@ namespace OverflowHelper.core
 
             correctionAdd("minite", "minute");
             correctionAdd("munite", "minute");
+            correctionAdd("Minute", "minute");
 
             correctionAdd("pitoresque", "picturesque");
 
@@ -32003,8 +32028,6 @@ namespace OverflowHelper.core
             correctionAdd("first in, last out", "last in, first out");
             correctionAdd("first in last out", "last in, first out");
 
-            correctionAdd("pf", "pF");
-
             correctionAdd("pre-determined", "predetermined");
 
             correctionAdd("pi network filter", "π-network filter");
@@ -37191,8 +37214,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Copenhagen Interpretation", "Copenhagen interpretation");
 
-            correctionAdd("Bohm", "David Bohm");
-
             correctionAdd("FCM", "Firebase Cloud Messaging");
             correctionAdd("fcm", "Firebase Cloud Messaging");
 
@@ -37529,12 +37550,6 @@ namespace OverflowHelper.core
 
             correctionAdd("picked-up", "picked up");
 
-            correctionAdd("teraohm", "tera-ohm");
-            correctionAdd("Tera Ohm", "tera-ohm");
-            correctionAdd("Teraohm", "tera-ohm");
-            correctionAdd("Tera ohm", "tera-ohm");
-            correctionAdd("tera ohm", "tera-ohm");
-
             correctionAdd("uoloaded", "uploaded");
 
             correctionAdd("css-lang", "```lang-css");
@@ -37660,6 +37675,20 @@ namespace OverflowHelper.core
             correctionAdd("more safe", "safer");
 
             correctionAdd("Wave equation", "wave equation");
+
+            correctionAdd("Dandified YUM", "DNF");
+            correctionAdd("dnf", "DNF");
+
+            correctionAdd("kivyMD", "KivyMD");
+
+            correctionAdd("edgecase", "edge case");
+            correctionAdd("edge-case", "edge case");
+
+            correctionAdd("erroreously", "erroneously");
+
+            correctionAdd("seaferer", "seafarer");
+
+            correctionAdd("self proclaimed", "self-proclaimed");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59274,6 +59303,24 @@ namespace OverflowHelper.core
             URL_Add("safer", "https://en.wiktionary.org/wiki/safer#Adjective");
 
             URL_Add("wave equation", "https://en.wikipedia.org/wiki/Wave_equation");
+
+            URL_Add("DNF", "https://en.wikipedia.org/wiki/DNF_(software)");
+
+            URL_Add("KivyMD", "https://en.wikipedia.org/wiki/Kivy_(framework)#Related_projects");
+
+            URL_Add("edge case", "https://en.wiktionary.org/wiki/edge_case#Noun");
+
+            URL_Add("erroneously", "https://en.wiktionary.org/wiki/erroneously#Adverb");
+
+            URL_Add("mF", "https://en.wikipedia.org/wiki/Farad#Definition");
+
+            URL_Add("nF", "https://en.wikipedia.org/wiki/Farad#Definition");
+
+            URL_Add("seafarer", "https://en.wiktionary.org/wiki/seafarer#Noun");
+
+            URL_Add("self-proclaimed", "https://en.wiktionary.org/wiki/self-proclaimed#Adjective");
+
+            URL_Add("giga-ohm", "https://en.wiktionary.org/wiki/giga-ohm#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
