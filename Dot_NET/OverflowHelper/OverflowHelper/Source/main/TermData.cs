@@ -1465,6 +1465,10 @@ namespace OverflowHelper.core
             correctionAdd("net framework", ".NET");
             correctionAdd(".NETFramework", ".NET");
             correctionAdd("#net", ".NET");
+            correctionAdd(".net Framwork", ".NET");
+            correctionAdd(".net framwork", ".NET");
+            correctionAdd(".NET framwork", ".NET");
+            correctionAdd(".Net framwork", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
             correctionAdd(".NET35", ".NET 3.5");
@@ -5175,6 +5179,7 @@ namespace OverflowHelper.core
             correctionAdd("jsfildde", "JSFiddle");
             correctionAdd("jsfildle", "JSFiddle");
             correctionAdd("jsfilddle", "JSFiddle");
+            correctionAdd("jsfiddel", "JSFiddle");
 
             correctionAdd("cocoa-touch", "Cocoa Touch");
             correctionAdd("CocoaTouch", "Cocoa Touch");
@@ -9012,6 +9017,7 @@ namespace OverflowHelper.core
             correctionAdd("functonn", "function");
             correctionAdd("Function", "function");
             correctionAdd("fucn", "function");
+            correctionAdd("functio", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -11098,6 +11104,7 @@ namespace OverflowHelper.core
             correctionAdd("Setup", "set up");
             correctionAdd("Set-up", "set up");
             correctionAdd("Set up", "set up");
+            correctionAdd("seup", "set up");
 
             correctionAdd("gpio", "GPIO");
 
@@ -11233,6 +11240,7 @@ namespace OverflowHelper.core
             correctionAdd("freq", "frequency");
             correctionAdd("frequancy", "frequency");
             correctionAdd("frq", "frequency");
+            correctionAdd("freqeuency", "frequency");
 
             correctionAdd("basicly", "basically");
             correctionAdd("Basicaly", "basically"); // Not 100% correct (case)
@@ -11536,6 +11544,7 @@ namespace OverflowHelper.core
             correctionAdd("gradle", "Gradle");
             correctionAdd("Gralde", "Gradle");
             correctionAdd("Graddle", "Gradle");
+            correctionAdd("grandle", "Gradle");
 
             correctionAdd("Silican Valley", "Silicon Valley");
             correctionAdd("silicon valley", "Silicon Valley");
@@ -11718,6 +11727,7 @@ namespace OverflowHelper.core
             correctionAdd("qusstion", "question");
             correctionAdd("quesion", "question");
             correctionAdd("quiestion", "question");
+            correctionAdd("questiong", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -14168,6 +14178,8 @@ namespace OverflowHelper.core
 
             correctionAdd("graphql", "GraphQL");
             correctionAdd("graphQL", "GraphQL");
+            correctionAdd("Graphql", "GraphQL");
+            correctionAdd("Graph ql", "GraphQL");
 
             correctionAdd("MSys", "MSYS");
             correctionAdd("msys", "MSYS");
@@ -14440,6 +14452,7 @@ namespace OverflowHelper.core
             correctionAdd("Electron.js", "Electron");
             correctionAdd("Electron JS", "Electron");
             correctionAdd("ElectronJS", "Electron");
+            correctionAdd("Electronjs", "Electron");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -19222,6 +19235,7 @@ namespace OverflowHelper.core
             correctionAdd("USB drive", "USB flash drive");
             correctionAdd("usb stick", "USB flash drive");
             correctionAdd("thumbdrive", "USB flash drive");
+            correctionAdd("pen-drive", "USB flash drive");
 
             correctionAdd("counter part", "counterpart");
 
@@ -20876,6 +20890,10 @@ namespace OverflowHelper.core
             correctionAdd("Guido Van Rosum", "Guido van Rossum");
             correctionAdd("Guido van Rosum", "Guido van Rossum");
             correctionAdd("Guido Van Rossum", "Guido van Rossum");
+            correctionAdd("Rossom", "Guido van Rossum");
+            correctionAdd("Russom", "Guido van Rossum");
+            correctionAdd("Russum", "Guido van Rossum");
+            correctionAdd("Rossum", "Guido van Rossum");
 
             correctionAdd("illustrator", "Illustrator");
 
@@ -24449,6 +24467,7 @@ namespace OverflowHelper.core
             correctionAdd("feild", "field");
 
             correctionAdd("negociate", "negotiate");
+            correctionAdd("negoiate", "negotiate");
 
             correctionAdd("pursing", "pursuing");
 
@@ -36777,6 +36796,7 @@ namespace OverflowHelper.core
             correctionAdd("Music", "music");
 
             correctionAdd("thise", "these");
+            correctionAdd("theses", "these");
 
             correctionAdd("underlieng", "underlying");
 
@@ -37689,6 +37709,18 @@ namespace OverflowHelper.core
             correctionAdd("seaferer", "seafarer");
 
             correctionAdd("self proclaimed", "self-proclaimed");
+
+            correctionAdd("live linux", "Live USB");
+
+            correctionAdd("Sitecore Cms", "Sitecore");
+            correctionAdd("Sitecore cms", "Sitecore");
+            correctionAdd("Sitecore CMS", "Sitecore");
+
+            correctionAdd("httpOnly cookies", "http-only cookies");
+
+            correctionAdd("toast", "pop-up notification");
+
+            correctionAdd("thaknfully", "thankfully");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59322,6 +59354,16 @@ namespace OverflowHelper.core
 
             URL_Add("giga-ohm", "https://en.wiktionary.org/wiki/giga-ohm#Noun");
 
+            URL_Add("Live USB", "https://en.wikipedia.org/wiki/Live_USB");
+
+            URL_Add("Sitecore", "https://en.wikipedia.org/wiki/Sitecore");
+
+            URL_Add("http-only cookies", "https://en.wikipedia.org/wiki/HTTP_cookie#Http-only_cookie");
+
+            URL_Add("pop-up notification", "https://en.wikipedia.org/wiki/Pop-up_notification");
+
+            URL_Add("thankfully", "https://en.wiktionary.org/wiki/thankfully#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59464,6 +59506,7 @@ namespace OverflowHelper.core
 
             correctionAdd("set-up_", "setup_");
             correctionAdd("set up_", "setup_");
+            correctionAdd("seup_", "setup_");
 
             correctionAdd("VC_", "viewcontroller_");
 
