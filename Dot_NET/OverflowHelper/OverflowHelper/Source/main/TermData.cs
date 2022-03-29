@@ -10137,6 +10137,8 @@ namespace OverflowHelper.core
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
+            correctionAdd("heart bleed", "Heartbleed");
+            correctionAdd("Heart bleed", "Heartbleed");
 
             correctionAdd("cap", "capacitor");
             correctionAdd("capasitor", "capacitor");
@@ -13353,6 +13355,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tikz", "TikZ");
             correctionAdd("Tikz", "TikZ");
+            correctionAdd("tikZ", "TikZ");
 
             correctionAdd("utc", "UTC");
 
@@ -13587,6 +13590,7 @@ namespace OverflowHelper.core
 
             correctionAdd("op", "OP");
             correctionAdd("OQ", "OP");
+            correctionAdd("Op", "OP");
 
             correctionAdd("slavic", "Slavic");
 
@@ -16682,6 +16686,8 @@ namespace OverflowHelper.core
             correctionAdd("emphisize", "emphasise");
 
             correctionAdd("employe", "employee");
+            correctionAdd("empploee", "employee");
+            correctionAdd("emploee", "employee");
 
             correctionAdd("excecute", "execute");
             correctionAdd("excute", "execute");
@@ -31891,6 +31897,7 @@ namespace OverflowHelper.core
             correctionAdd("pre selected", "preselected");
 
             correctionAdd("recieved", "received");
+            correctionAdd("recived", "received");
 
             correctionAdd("red shift", "redshift");
 
@@ -32689,6 +32696,7 @@ namespace OverflowHelper.core
             correctionAdd("web-site", "website");
             correctionAdd("webdite", "website");
             correctionAdd("SITE", "website");
+            correctionAdd("wbsite", "website");
 
             correctionAdd("Webpage", "web page");
             correctionAdd("webpage", "web page");
@@ -33218,6 +33226,7 @@ namespace OverflowHelper.core
             correctionAdd("Border case", "borderline");
             correctionAdd("border case", "borderline");
             correctionAdd("border line", "borderline");
+            correctionAdd("boderline", "borderline");
 
             correctionAdd("Line", "line");
             correctionAdd("lones", "line");
@@ -35865,6 +35874,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Protonmail", "ProtonMail");
             correctionAdd("protonmail.com", "ProtonMail");
+            correctionAdd("Proton mail", "ProtonMail");
 
             correctionAdd("psiphon", "Psiphon");
 
@@ -37670,6 +37680,7 @@ namespace OverflowHelper.core
             correctionAdd("DMIDECODE", "dmidecode");
 
             correctionAdd("gettext", "getText (for Java)");
+            correctionAdd("getText", "getText (for Java)");
 
             correctionAdd("Hardtail", "hardtail");
 
@@ -37721,6 +37732,44 @@ namespace OverflowHelper.core
             correctionAdd("toast", "pop-up notification");
 
             correctionAdd("thaknfully", "thankfully");
+
+            correctionAdd("Lukashenko", "Alexander Lukashenko");
+
+            correctionAdd("Obama", "Barack Obama");
+
+            correctionAdd("Assad", "Bashar al-Assad");
+
+            correctionAdd("Dirty Pipe", "DirtyPipe");
+
+            correctionAdd("Bush", "George W. Bush");
+
+            correctionAdd("Biden", "Joe Biden");
+
+            correctionAdd("Gaddafi", "Muammar Gaddafi");
+
+            correctionAdd("Maduro", "Nicolás Maduro");
+
+            correctionAdd("Hussein", "Saddam Hussein");
+
+            correctionAdd("developer story", "Stack Overflow Developer Story");
+            correctionAdd("Stack Overflow developer story", "Stack Overflow Developer Story");
+
+            correctionAdd("SO jobs", "Stack Overflow Jobs");
+
+            correctionAdd("Bug", "bug");
+
+            correctionAdd("extorsion", "extortion");
+
+            correctionAdd("northeast", "north-east");
+            correctionAdd("North-East", "north-east");
+            correctionAdd("North East", "north-east");
+            correctionAdd("north east", "north-east");
+
+            correctionAdd("right of passage", "rite of passage");
+
+            correctionAdd("timescale", "time scale");
+
+            correctionAdd("web-developer", "web developer");
 
             // Start of coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59364,6 +59413,40 @@ namespace OverflowHelper.core
 
             URL_Add("thankfully", "https://en.wiktionary.org/wiki/thankfully#Adverb");
 
+            URL_Add("Alexander Lukashenko", "https://en.wikipedia.org/wiki/Alexander_Lukashenko");
+
+            URL_Add("Barack Obama", "https://en.wikipedia.org/wiki/Barack_Obama");
+
+            URL_Add("Bashar al-Assad", "https://en.wikipedia.org/wiki/Bashar_al-Assad");
+
+            URL_Add("DirtyPipe", "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/DirtyPipe");
+
+            URL_Add("George W. Bush", "https://en.wikipedia.org/wiki/George_W._Bush");
+
+            URL_Add("Joe Biden", "https://en.wikipedia.org/wiki/Joe_Biden");
+
+            URL_Add("Muammar Gaddafi", "https://en.wikipedia.org/wiki/Muammar_Gaddafi");
+
+            URL_Add("Nicolás Maduro", "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro");
+
+            URL_Add("Saddam Hussein", "https://en.wikipedia.org/wiki/Saddam_Hussein");
+
+            URL_Add("Stack Overflow Developer Story", "https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story");
+
+            URL_Add("Stack Overflow Jobs", "https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story");
+
+            URL_Add("bug", "https://en.wiktionary.org/wiki/bug#Noun");
+
+            URL_Add("extortion", "https://en.wiktionary.org/wiki/extortion#Noun");
+
+            URL_Add("north-east", "https://en.wiktionary.org/wiki/north-east#Noun");
+
+            URL_Add("rite of passage", "https://en.wiktionary.org/wiki/rite_of_passage#Noun");
+
+            URL_Add("time scale", "https://en.wiktionary.org/wiki/time_scale#Noun");
+
+            URL_Add("web developer", "https://en.wiktionary.org/wiki/web_developer#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59807,6 +59890,8 @@ namespace OverflowHelper.core
 
             correctionAdd("PE_", "potential energy_");
 
+            correctionAdd("boderline_", "borderline_");
+
             // URL mappings
             //
             //
@@ -60105,6 +60190,8 @@ namespace OverflowHelper.core
             URL_Add("British Summer Time_", "https://en.wikipedia.org/wiki/British_Summer_Time");
 
             URL_Add("potential energy_", "https://en.wikipedia.org/wiki/Potential_energy");
+
+            URL_Add("borderline_", "https://en.wiktionary.org/wiki/borderline#Noun");
 
         } //addLookupData_alternativeWordSet()
 
