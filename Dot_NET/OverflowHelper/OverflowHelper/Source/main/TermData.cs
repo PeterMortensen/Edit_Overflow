@@ -12889,6 +12889,7 @@ namespace OverflowHelper.core
             correctionAdd("canadian", "Canadian");
 
             correctionAdd("pulseview", "PulseView");
+            correctionAdd("pulseviiew", "PulseView");
 
             correctionAdd("persistant", "persistent");
 
@@ -19549,7 +19550,7 @@ namespace OverflowHelper.core
             correctionAdd("nad", "and");
             correctionAdd("And", "and");
 
-            // Start of chess part...
+            // Start of the chess part...
             correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
 
             correctionAdd("chessplayer", "chess player"); // Chess
@@ -20060,9 +20061,11 @@ namespace OverflowHelper.core
             correctionAdd("Leela", "Leela Chess Zero"); // Chess
             correctionAdd("LeelaChessZero", "Leela Chess Zero"); // Chess
 
-            correctionAdd("knight mare", "knightmare");
+            correctionAdd("knight mare", "knightmare"); // Chess
+
+            correctionAdd("candidates 2022", "Candidates Tournament 2022"); // Chess
             //
-            // End of chess part
+            // End of the chess part
 
             correctionAdd("bonafide", "bona fide");
 
@@ -26442,6 +26445,7 @@ namespace OverflowHelper.core
             correctionAdd("elemnet", "element");
             correctionAdd("elemnt", "element");
             correctionAdd("elelment", "element");
+            correctionAdd("elment", "element");
 
             correctionAdd("gut feel", "gut feeling");
 
@@ -26685,6 +26689,7 @@ namespace OverflowHelper.core
             correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
 
             correctionAdd("unix time", "Unix time");
+            correctionAdd("UNIX time", "Unix time");
 
             correctionAdd("werkzeug", "Werkzeug");
 
@@ -26923,6 +26928,7 @@ namespace OverflowHelper.core
             correctionAdd("Farmville", "FarmVille");
 
             correctionAdd("march", "March");
+            correctionAdd("Mar", "March");
 
             correctionAdd("mooshak", "Mooshak");
 
@@ -34025,6 +34031,10 @@ namespace OverflowHelper.core
             correctionAdd("Win11", "Windows&nbsp;11");
             correctionAdd("Windows 11", "Windows&nbsp;11");
             correctionAdd("windows 11", "Windows&nbsp;11");
+            correctionAdd("WIN11", "Windows&nbsp;11");
+            correctionAdd("win11", "Windows&nbsp;11");
+            correctionAdd("win 11", "Windows&nbsp;11");
+            correctionAdd("Win 11", "Windows&nbsp;11");
 
             correctionAdd("beief", "belief");
             correctionAdd("beleif", "belief");
@@ -37771,7 +37781,15 @@ namespace OverflowHelper.core
 
             correctionAdd("web-developer", "web developer");
 
-            // Start of coronavirus part...
+            correctionAdd("microcks", "Microcks");
+
+            correctionAdd("over reported", "overreported");
+
+            correctionAdd("Private endpoint", "private endpoint");
+
+            correctionAdd("suppresed", "suppressed");
+
+            // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
 
@@ -59446,6 +59464,16 @@ namespace OverflowHelper.core
             URL_Add("time scale", "https://en.wiktionary.org/wiki/time_scale#Noun");
 
             URL_Add("web developer", "https://en.wiktionary.org/wiki/web_developer#Noun");
+
+            URL_Add("Candidates Tournament 2022", "https://en.wikipedia.org/wiki/Candidates_Tournament_2022");
+
+            URL_Add("Microcks", "https://microcks.io/blog/");
+
+            URL_Add("overreported", "https://en.wiktionary.org/wiki/overreport#Verb");
+
+            URL_Add("private endpoint", "https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview");
+
+            URL_Add("suppressed", "https://en.wiktionary.org/wiki/suppress#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
