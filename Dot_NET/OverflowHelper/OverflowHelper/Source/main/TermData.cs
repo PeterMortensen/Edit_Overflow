@@ -1934,6 +1934,11 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("MacOS 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macos monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Mac OSX 12.2", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Mac OS X 12.2", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("OS X 12.2", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS 12.2", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("12.2", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -6786,6 +6791,7 @@ namespace OverflowHelper.core
             correctionAdd("I\"m", "I’m");
             correctionAdd("I m", "I’m");
             correctionAdd("I,m", "I’m");
+            correctionAdd("I 'm", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -12972,6 +12978,7 @@ namespace OverflowHelper.core
             correctionAdd("Efficent", "efficient");
             correctionAdd("efficent", "efficient");
             correctionAdd("effiecent", "efficient");
+            correctionAdd("efficinet", "efficient");
 
             correctionAdd("indendation", "indentation");
             correctionAdd("indentitation", "indentation");
@@ -18249,6 +18256,7 @@ namespace OverflowHelper.core
             correctionAdd("vlaue", "value");
             correctionAdd("valae", "value");
             correctionAdd("Value", "value");
+            correctionAdd("valie", "value");
 
             correctionAdd("WHOAMI", "whoami");
 
@@ -28321,6 +28329,8 @@ namespace OverflowHelper.core
             correctionAdd("thorwing", "throwing");
             correctionAdd("Thowing", "throwing");
             correctionAdd("thowing", "throwing");
+            correctionAdd("Trowing", "throwing");
+            correctionAdd("trowing", "throwing");
 
             correctionAdd("Lambda", "AWS Lambda");
             correctionAdd("AWS lambda", "AWS Lambda");
@@ -37415,6 +37425,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Graphics Design", "Graphic Design (Stack Exchange site)");
             correctionAdd("Graphic Design", "Graphic Design (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("GraphicDesign.SE", "Graphic Design (Stack Exchange site)");
 
             correctionAdd("Munchausen Trilemma", "Münchhausen trilemma");
 
@@ -37746,6 +37757,7 @@ namespace OverflowHelper.core
             correctionAdd("Lukashenko", "Alexander Lukashenko");
 
             correctionAdd("Obama", "Barack Obama");
+            correctionAdd("obama", "Barack Obama");
 
             correctionAdd("Assad", "Bashar al-Assad");
 
@@ -37788,6 +37800,14 @@ namespace OverflowHelper.core
             correctionAdd("Private endpoint", "private endpoint");
 
             correctionAdd("suppresed", "suppressed");
+
+            correctionAdd("ViolentMonkey", "Violentmonkey");
+
+            correctionAdd("eloborate", "elaborate");
+
+            correctionAdd("flash light", "flashlight");
+
+            correctionAdd("over-zealous", "overzealous");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59474,6 +59494,14 @@ namespace OverflowHelper.core
             URL_Add("private endpoint", "https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview");
 
             URL_Add("suppressed", "https://en.wiktionary.org/wiki/suppress#Verb");
+
+            URL_Add("Violentmonkey", "https://directory.fsf.org/wiki/Violentmonkey");
+
+            URL_Add("elaborate", "https://en.wiktionary.org/wiki/elaborate#Verb");
+
+            URL_Add("flashlight", "https://en.wiktionary.org/wiki/flashlight#Noun");
+
+            URL_Add("overzealous", "https://en.wiktionary.org/wiki/overzealous#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
