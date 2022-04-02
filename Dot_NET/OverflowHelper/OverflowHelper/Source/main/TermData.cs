@@ -3984,6 +3984,7 @@ namespace OverflowHelper.core
             correctionAdd("Haskall", "Haskell");
 
             correctionAdd("playstation 3", "PlayStation 3");
+            correctionAdd("Playstation 3", "PlayStation 3");
 
             // New name:   Jenkins
             //             https://en.wikipedia.org/wiki/Jenkins_%28software%29
@@ -19043,6 +19044,7 @@ namespace OverflowHelper.core
             correctionAdd("tailwindCSS", "Tailwind CSS");
             correctionAdd("Tailwindcss", "Tailwind CSS");
             correctionAdd("tailwindcss", "Tailwind CSS");
+            correctionAdd("tailwind-css", "Tailwind CSS");
 
             correctionAdd("waybackmachine", "Wayback Machine");
             correctionAdd("wayback machine", "Wayback Machine");
@@ -20459,6 +20461,7 @@ namespace OverflowHelper.core
             correctionAdd("Carbon Dioxide", "carbon dioxide");
 
             correctionAdd("Carbon monoxide", "carbon monoxide");
+            correctionAdd("carbo monoxide", "carbon monoxide");
 
             correctionAdd("conisdering", "considering");
 
@@ -26777,6 +26780,9 @@ namespace OverflowHelper.core
             correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
             correctionAdd("LCA", "lowest common ancestor");
 
+            correctionAdd("ancesstor", "ancestor");
+            correctionAdd("anccestor", "ancestor");
+
             correctionAdd("MTOW", "maximum takeoff weight");
 
             correctionAdd("pre-defined", "predefined");
@@ -31297,6 +31303,9 @@ namespace OverflowHelper.core
 
             correctionAdd("mispent", "misspent");
 
+            correctionAdd("spended", "spent");
+            correctionAdd("spents", "spent");
+
             correctionAdd("un programming", "nonprogramming");
 
             correctionAdd("prolongued", "prolonged");
@@ -31313,6 +31322,7 @@ namespace OverflowHelper.core
             correctionAdd("my github", "my GitHub account");
 
             correctionAdd("c++0x", "C++0x");
+            correctionAdd("C++ 0x", "C++0x");
 
             correctionAdd("Winer", "Dave Winer");
 
@@ -31581,8 +31591,6 @@ namespace OverflowHelper.core
             correctionAdd("re-order", "reorder");
 
             correctionAdd("skimable", "skimmable");
-
-            correctionAdd("spended", "spent");
 
             correctionAdd("amf", "AMF");
 
@@ -37700,6 +37708,7 @@ namespace OverflowHelper.core
             correctionAdd("truth to be told", "truth be told");
 
             correctionAdd("unsuccessfull", "unsuccessful");
+            correctionAdd("unsuccesful", "unsuccessful");
 
             correctionAdd("cloudformation", "AWS CloudFormation");
             correctionAdd("aws cloudformation", "AWS CloudFormation");
@@ -37871,6 +37880,13 @@ namespace OverflowHelper.core
             correctionAdd("sparringly", "sparingly");
 
             correctionAdd("Year", "year");
+
+            correctionAdd("eek out", "eke out");
+
+            correctionAdd("for-loop", "for loop");
+
+            correctionAdd("range-based", "rangebased");
+            correctionAdd("range based", "rangebased");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59587,6 +59603,14 @@ namespace OverflowHelper.core
             URL_Add("sparingly", "https://en.wiktionary.org/wiki/sparingly#Adverb");
 
             URL_Add("year", "https://en.wiktionary.org/wiki/year#Noun");
+
+            URL_Add("ancestor", "https://en.wiktionary.org/wiki/ancestor#Noun");
+
+            URL_Add("eke out", "https://en.wiktionary.org/wiki/eke_out#Verb");
+
+            URL_Add("for loop", "https://en.wiktionary.org/wiki/for_loop#Noun");
+
+            URL_Add("rangebased", "https://en.wiktionary.org/wiki/rangebased#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
