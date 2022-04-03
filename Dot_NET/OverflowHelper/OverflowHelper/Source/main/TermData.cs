@@ -2343,6 +2343,7 @@ namespace OverflowHelper.core
             correctionAdd("IE 9", "Internet&nbsp;Explorer&nbsp;9");
             correctionAdd("ie 9", "Internet&nbsp;Explorer&nbsp;9");
             correctionAdd("Internet&nbsp;Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("IE-9", "Internet&nbsp;Explorer&nbsp;9");
 
             correctionAdd("Internet Explorer 10", "Internet&nbsp;Explorer&nbsp;10"); // Sort of identity mapping
             correctionAdd("ie10", "Internet&nbsp;Explorer&nbsp;10");
@@ -9496,6 +9497,13 @@ namespace OverflowHelper.core
             correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
             correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
 
+            correctionAdd("Ubuntu 8.10 (Intrepid Ibex)", "Ubuntu&nbsp;8.10 (Intrepid Ibex)"); // Sort of identity mapping
+            correctionAdd("8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu 8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+
             correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
             correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
             correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
@@ -13029,6 +13037,7 @@ namespace OverflowHelper.core
             correctionAdd("Portuguise", "Portuguese");
             correctionAdd("portuguise", "Portuguese");
             correctionAdd("Portugeese", "Portuguese");
+            correctionAdd("portugeese", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
             correctionAdd("Powermockito", "Mockito");
@@ -13490,6 +13499,7 @@ namespace OverflowHelper.core
             correctionAdd("yourselves", "yourself");
             correctionAdd("yourselv", "yourself");
             correctionAdd("urself", "yourself");
+            correctionAdd("youself", "yourself");
 
             correctionAdd("atom", "Atom");
             correctionAdd("ATOM", "Atom");
@@ -14445,6 +14455,7 @@ namespace OverflowHelper.core
             correctionAdd("Programm", "program");
             correctionAdd("prograame", "program");
             correctionAdd("progrtam", "program");
+            correctionAdd("progam", "program");
 
             correctionAdd("runnig", "running");
             correctionAdd("runnning", "running");
@@ -14833,6 +14844,7 @@ namespace OverflowHelper.core
             correctionAdd("2-D", "two-dimensional");
             correctionAdd("Bidimensional", "two-dimensional");
             correctionAdd("bidimensional", "two-dimensional");
+            correctionAdd("two dimension", "two-dimensional");
 
             correctionAdd("3D", "three-dimensional");
             correctionAdd("3d", "three-dimensional");
@@ -14845,6 +14857,10 @@ namespace OverflowHelper.core
             correctionAdd("ndim", "n-dimensional");
 
             correctionAdd("multi-dimensional", "multidimensional");
+            correctionAdd("mutidimensoinal", "multidimensional");
+            correctionAdd("multidimensoinal", "multidimensional");
+            correctionAdd("multi dimensoinal", "multidimensional");
+            correctionAdd("multi dimensional", "multidimensional");
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
@@ -17331,6 +17347,7 @@ namespace OverflowHelper.core
             correctionAdd("Down voting", "downvoting");
             correctionAdd("Downvoting", "downvoting");
             correctionAdd("Down-voting", "downvoting");
+            correctionAdd("downvotig", "downvoting");
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
@@ -17826,6 +17843,7 @@ namespace OverflowHelper.core
             correctionAdd("fight-ed", "fought");
 
             correctionAdd("incorrec", "incorrect");
+            correctionAdd("incorect", "incorrect");
 
             correctionAdd("Iridium", "iridium");
 
@@ -20804,6 +20822,7 @@ namespace OverflowHelper.core
 
             correctionAdd("improove", "improve");
             correctionAdd("imrove", "improve");
+            correctionAdd("imporve", "improve");
 
             correctionAdd("Intranet", "intranet");
 
@@ -21922,6 +21941,7 @@ namespace OverflowHelper.core
             correctionAdd("operting system", "operating system");
             correctionAdd("Operation system", "operating system");
             correctionAdd("Opearting System", "operating system");
+            correctionAdd("operatig system", "operating system");
 
             correctionAdd("FileSystem", "file system");
             correctionAdd("FS", "file system");
@@ -22552,6 +22572,7 @@ namespace OverflowHelper.core
             correctionAdd("rght", "right");
             correctionAdd("riht", "right");
             correctionAdd("righ", "right");
+            correctionAdd("rught", "right");
 
             correctionAdd("strick", "strict");
 
@@ -25371,6 +25392,7 @@ namespace OverflowHelper.core
 
             correctionAdd("AB testing", "A/B testing");
             correctionAdd("A/B Testing", "A/B testing");
+            correctionAdd("a/b testing", "A/B testing");
 
             correctionAdd("nordic", "Nordic");
 
@@ -28976,6 +28998,7 @@ namespace OverflowHelper.core
 
             correctionAdd("swiching", "switching");
             correctionAdd("swithcing", "switching");
+            correctionAdd("switchig", "switching");
 
             correctionAdd("Technological Singularity", "technological singularity");
             correctionAdd("technical singularity", "technological singularity");
@@ -30300,6 +30323,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Carriage Return", "carriage return");
             correctionAdd("c/r", "carriage return");
+            correctionAdd("Carry Return", "carriage return"); // Funny!
+            correctionAdd("carry return", "carriage return");
 
             correctionAdd("dealbreaker", "deal breaker");
 
@@ -32248,6 +32273,7 @@ namespace OverflowHelper.core
             correctionAdd("colission", "collision");
 
             correctionAdd("mannged", "managed");
+            correctionAdd("managaed", "managed");
 
             correctionAdd("Nirvana", "nirvana");
 
@@ -37887,6 +37913,17 @@ namespace OverflowHelper.core
 
             correctionAdd("range-based", "rangebased");
             correctionAdd("range based", "rangebased");
+
+            correctionAdd("firefox esr", "Firefox ESR");
+            correctionAdd("Firefox esr", "Firefox ESR");
+
+            correctionAdd("idris", "Idris");
+
+            correctionAdd("rpm", "RPM");
+
+            correctionAdd("alowed", "allowed");
+
+            correctionAdd("no break space", "non-breaking space");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59611,6 +59648,18 @@ namespace OverflowHelper.core
             URL_Add("for loop", "https://en.wiktionary.org/wiki/for_loop#Noun");
 
             URL_Add("rangebased", "https://en.wiktionary.org/wiki/rangebased#Adjective");
+
+            URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR");
+
+            URL_Add("Idris", "https://en.wikipedia.org/wiki/Idris_(programming_language)");
+
+            URL_Add("RPM", "https://en.wikipedia.org/wiki/RPM_Package_Manager");
+
+            URL_Add("Ubuntu&nbsp;8.10 (Intrepid Ibex)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)");
+
+            URL_Add("allowed", "https://en.wiktionary.org/wiki/allow#Verb");
+
+            URL_Add("non-breaking space", "https://en.wikipedia.org/wiki/Non-breaking_space");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
