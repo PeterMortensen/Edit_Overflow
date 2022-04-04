@@ -4943,6 +4943,122 @@ namespace OverflowHelper.core
             correctionAdd("open SUSE", "openSUSE");
             correctionAdd("Open SUSE", "openSUSE");
 
+            correctionAdd("b/c", "because");
+            correctionAdd("cuz", "because");
+            correctionAdd("bc", "because"); // Does it conflict?
+            correctionAdd("cause", "because");
+            correctionAdd("becaus", "because");
+            correctionAdd("Becaus", "because");
+            correctionAdd("becuase", "because");
+            correctionAdd("becasue", "because");
+            correctionAdd("coz", "because");
+            correctionAdd("Cos", "because");
+            correctionAdd("b'caz", "because");
+            correctionAdd("beazse", "because");
+            correctionAdd("bcoz", "because");
+            correctionAdd("becase", "because"); // Likely a typo
+            correctionAdd("beacause", "because"); // Likely a typo
+            correctionAdd("Coz", "because"); // Not 100% correct - casing.
+            correctionAdd("bec", "because");
+            correctionAdd("'Cause", "because");
+            correctionAdd("'cause", "because");
+            correctionAdd("Cuz", "because"); // Not 100% correct - casing.
+            correctionAdd("B'se", "because");
+            correctionAdd("becoz", "because");
+            correctionAdd("becouse", "because");
+            correctionAdd("beause", "because"); // Misspelling
+            correctionAdd("bcz", "because");
+            correctionAdd("'cos", "because");
+            correctionAdd("beacuse", "because"); // Misspelling
+            correctionAdd("beacuase", "because"); // Misspelling
+            correctionAdd("becuse", "because"); // Misspelling
+            correctionAdd("becaue", "because"); // Misspelling
+            correctionAdd("Becuase", "because"); // Not 100% correct - casing.
+            correctionAdd("becaise", "because");
+            correctionAdd("becasuse", "because");
+            correctionAdd("Cause", "because"); // Not 100% correct - casing.
+            correctionAdd("becaouse", "because"); // Misspelling
+            correctionAdd("b'cos", "because");
+            correctionAdd("Becasue", "because"); // Not 100% correct - casing.
+            correctionAdd("bacause", "because");
+            correctionAdd("bcs", "because");
+            correctionAdd("becaause", "because"); // Misspelling
+            correctionAdd("Bcoz", "because");
+            correctionAdd("Bcz", "because"); // Not 100% correct - casing.
+            correctionAdd("cose", "because");
+            correctionAdd("baecause", "because");
+            correctionAdd("Beacuse", "because"); // Not 100% correct - casing.
+            correctionAdd("Bcause", "because"); // Not 100% correct - casing.
+            correctionAdd("becayse", "because");
+            correctionAdd("becauae", "because");
+            correctionAdd("’Cause", "because");
+            correctionAdd("’cause", "because");
+            correctionAdd("Beecause", "because");
+            correctionAdd("beecause", "because");
+            correctionAdd("be cause", "because");
+            correctionAdd("Because", "because");
+            correctionAdd("becanse", "because");
+            correctionAdd("bcos", "because");
+            correctionAdd("beacus", "because");
+            correctionAdd("becors", "because");
+            correctionAdd("Bcaz", "because");
+            correctionAdd("bcaz", "because");
+            correctionAdd("cz", "because");
+            //correctionAdd("bec", "because"); // Should really be "bec.".  It broke with some recent changes!!!
+            //correctionAdd("becasue", "because");
+            correctionAdd("Bc", "because");
+            correctionAdd("couse", "because");
+            correctionAdd("becEuse", "because");
+            correctionAdd("beceuse", "because");
+            correctionAdd("cus", "because");
+            correctionAdd("Beacause", "because");
+            correctionAdd("cuase", "because");
+
+            correctionAdd("Whitehouse", "White House");
+            correctionAdd("white house", "White House");
+            correctionAdd("WHouse", "White House");
+            correctionAdd("WhiteHouse", "White House");
+
+            correctionAdd("in-house", "in house");
+            correctionAdd("inhouse", "in house");
+
+            correctionAdd("re-use", "reuse");
+
+            correctionAdd("easy to use", "easy-to-use");
+
+            correctionAdd("Beteljuice", "Betelgeuse");
+            correctionAdd("beetlejuice", "Betelgeuse");
+            correctionAdd("Betelgease", "Betelgeuse");
+
+            correctionAdd("rootcause", "root cause");
+            correctionAdd("Root Cause", "root cause");
+
+            correctionAdd("CanIUse", "Can I use");
+
+            correctionAdd("lighthouse", "Lighthouse");
+
+            correctionAdd("over use", "overuse");
+            correctionAdd("over-use", "overuse");
+
+            correctionAdd("Fuse", "FUSE");
+
+            correctionAdd("teamtreehouse", "Treehouse");
+            correctionAdd("Teamtreehouse.com", "Treehouse");
+            correctionAdd("Teamtreehouse", "Treehouse");
+
+            correctionAdd("exuse", "excuse");
+
+            correctionAdd("diffuse", "Diffuse");
+
+            correctionAdd("Use", "use");
+            correctionAdd("USe", "use");
+
+            correctionAdd("cat and mouse", "cat-and-mouse");
+
+            correctionAdd("Mouse", "mouse");
+
+            correctionAdd("mis-use", "misuse");
+
             correctionAdd("seperate", "separate");
             correctionAdd("separete", "separate");
             correctionAdd("Saperate", "separate");
@@ -6371,77 +6487,6 @@ namespace OverflowHelper.core
             correctionAdd("tweet deck", "TweetDeck");
 
             correctionAdd("bugzilla", "Bugzilla");
-
-            correctionAdd("b/c", "because");
-            correctionAdd("cuz", "because");
-            correctionAdd("bc", "because"); // Does it conflict?
-            correctionAdd("cause", "because");
-            correctionAdd("becaus", "because");
-            correctionAdd("Becaus", "because");
-            correctionAdd("becuase", "because");
-            correctionAdd("becasue", "because");
-            correctionAdd("coz", "because");
-            correctionAdd("Cos", "because");
-            correctionAdd("b'caz", "because");
-            correctionAdd("beazse", "because");
-            correctionAdd("bcoz", "because");
-            correctionAdd("becase", "because"); // Likely a typo
-            correctionAdd("beacause", "because"); // Likely a typo
-            correctionAdd("Coz", "because"); // Not 100% correct - casing.
-            correctionAdd("bec", "because");
-            correctionAdd("'Cause", "because");
-            correctionAdd("'cause", "because");
-            correctionAdd("Cuz", "because"); // Not 100% correct - casing.
-            correctionAdd("B'se", "because");
-            correctionAdd("becoz", "because");
-            correctionAdd("becouse", "because");
-            correctionAdd("beause", "because"); // Misspelling
-            correctionAdd("bcz", "because");
-            correctionAdd("'cos", "because");
-            correctionAdd("beacuse", "because"); // Misspelling
-            correctionAdd("beacuase", "because"); // Misspelling
-            correctionAdd("becuse", "because"); // Misspelling
-            correctionAdd("becaue", "because"); // Misspelling
-            correctionAdd("Becuase", "because"); // Not 100% correct - casing.
-            correctionAdd("becaise", "because");
-            correctionAdd("becasuse", "because");
-            correctionAdd("Cause", "because"); // Not 100% correct - casing.
-            correctionAdd("becaouse", "because"); // Misspelling
-            correctionAdd("b'cos", "because");
-            correctionAdd("Becasue", "because"); // Not 100% correct - casing.
-            correctionAdd("bacause", "because");
-            correctionAdd("bcs", "because");
-            correctionAdd("becaause", "because"); // Misspelling
-            correctionAdd("Bcoz", "because");
-            correctionAdd("Bcz", "because"); // Not 100% correct - casing.
-            correctionAdd("cose", "because");
-            correctionAdd("baecause", "because");
-            correctionAdd("Beacuse", "because"); // Not 100% correct - casing.
-            correctionAdd("Bcause", "because"); // Not 100% correct - casing.
-            correctionAdd("becayse", "because");
-            correctionAdd("becauae", "because");
-            correctionAdd("’Cause", "because");
-            correctionAdd("’cause", "because");
-            correctionAdd("Beecause", "because");
-            correctionAdd("beecause", "because");
-            correctionAdd("be cause", "because");
-            correctionAdd("Because", "because");
-            correctionAdd("becanse", "because");
-            correctionAdd("bcos", "because");
-            correctionAdd("beacus", "because");
-            correctionAdd("becors", "because");
-            correctionAdd("Bcaz", "because");
-            correctionAdd("bcaz", "because");
-            correctionAdd("cz", "because");
-            //correctionAdd("bec", "because"); // Should really be "bec.".  It broke with some recent changes!!!
-            //correctionAdd("becasue", "because");
-            correctionAdd("Bc", "because");
-            correctionAdd("couse", "because");
-            correctionAdd("becEuse", "because");
-            correctionAdd("beceuse", "because");
-            correctionAdd("cus", "because");
-            correctionAdd("Beacause", "because");
-            correctionAdd("cuase", "because");
 
             correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
             //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
@@ -12632,6 +12677,7 @@ namespace OverflowHelper.core
             correctionAdd("accidently", "accidentally");
             correctionAdd("accidentaly", "accidentally");
             correctionAdd("accidentically", "accidentally");
+            correctionAdd("accidetally", "accidentally");
 
             correctionAdd("gotta", "have got to");
             correctionAdd("Gotta", "have got to");
@@ -15640,11 +15686,6 @@ namespace OverflowHelper.core
             correctionAdd("unix.SE", "Unix & Linux (Stack Exchange site)");
             correctionAdd("UNIX & Linux", "Unix & Linux (Stack Exchange site)");
 
-            correctionAdd("Whitehouse", "White House");
-            correctionAdd("white house", "White House");
-            correctionAdd("WHouse", "White House");
-            correctionAdd("WhiteHouse", "White House");
-
             correctionAdd("comminicating", "communicating");
 
             correctionAdd("lobbyisits", "lobbyists");
@@ -15977,9 +16018,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hidding", "hiding");
 
-            correctionAdd("in-house", "in house");
-            correctionAdd("inhouse", "in house");
-
             correctionAdd("manu", "menu");
             correctionAdd("munu", "menu");
 
@@ -16058,6 +16096,7 @@ namespace OverflowHelper.core
             correctionAdd("multple", "multiple");
             correctionAdd("multible", "multiple");
             correctionAdd("mulitple", "multiple");
+            correctionAdd("multipe", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -16068,8 +16107,6 @@ namespace OverflowHelper.core
             correctionAdd("responce", "response");
             correctionAdd("reponse", "response");
             correctionAdd("resposne", "response");
-
-            correctionAdd("re-use", "reuse");
 
             correctionAdd("seperating", "separating");
 
@@ -18094,6 +18131,7 @@ namespace OverflowHelper.core
             correctionAdd("intager", "integer");
             correctionAdd("interger", "integer");
             correctionAdd("intger", "integer");
+            correctionAdd("Integer", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -18364,8 +18402,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deja vu", "déjà vu");
             correctionAdd("Déjà vu", "déjà vu");
-
-            correctionAdd("easy to use", "easy-to-use");
 
             correctionAdd("get's", "gets");
 
@@ -18967,10 +19003,6 @@ namespace OverflowHelper.core
 
             correctionAdd("RTM", "release to manufacturing");
 
-            correctionAdd("Beteljuice", "Betelgeuse");
-            correctionAdd("beetlejuice", "Betelgeuse");
-            correctionAdd("Betelgease", "Betelgeuse");
-
             correctionAdd("ZX 81", "ZX81");
 
             correctionAdd("ad homium", "ad hominem");
@@ -19473,6 +19505,7 @@ namespace OverflowHelper.core
 
             correctionAdd("laugth", "laugh");
             correctionAdd("lought", "laugh");
+            correctionAdd("laught", "laugh");
 
             correctionAdd("post cast", "podcast");
 
@@ -20235,9 +20268,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Googled", "googled");
             correctionAdd("googeled", "googled");
-
-            correctionAdd("rootcause", "root cause");
-            correctionAdd("Root Cause", "root cause");
 
             correctionAdd("C’mon", "come on");
             correctionAdd("c’mon", "come on");
@@ -21277,8 +21307,6 @@ namespace OverflowHelper.core
 
             correctionAdd("philosphical", "philosophical");
             correctionAdd("phylosophical", "philosophical");
-
-            correctionAdd("CanIUse", "Can I use");
 
             correctionAdd("Kopenhagen", "Copenhagen");
 
@@ -23343,6 +23371,7 @@ namespace OverflowHelper.core
             correctionAdd("Sring", "string");
             correctionAdd("String", "string");
             correctionAdd("sring", "string");
+            correctionAdd("sttring", "string");
 
             correctionAdd("uncoment", "uncomment");
 
@@ -24826,8 +24855,6 @@ namespace OverflowHelper.core
             correctionAdd("XR", "JPEG XR");
             correctionAdd("xr", "JPEG XR");
 
-            correctionAdd("lighthouse", "Lighthouse");
-
             correctionAdd("Ni–MH", "NiMH");
             correctionAdd("nimh", "NiMH");
 
@@ -25478,9 +25505,6 @@ namespace OverflowHelper.core
             correctionAdd("manifacturer", "manufacturer");
 
             correctionAdd("mold", "mould");
-
-            correctionAdd("over use", "overuse");
-            correctionAdd("over-use", "overuse");
 
             correctionAdd("Peer Review", "peer review");
             correctionAdd("peer-review", "peer review");
@@ -26249,8 +26273,6 @@ namespace OverflowHelper.core
             correctionAdd("Arocebo", "Arecibo Observatory");
             correctionAdd("Arecebo", "Arecibo Observatory");
             correctionAdd("arecebo", "Arecibo Observatory");
-
-            correctionAdd("Fuse", "FUSE");
 
             correctionAdd("skeptics", "Skeptics (Stack Exchange site)");
             correctionAdd("Skeptics", "Skeptics (Stack Exchange site)");
@@ -27652,10 +27674,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Indonisian", "Indonesian");
             correctionAdd("indonesian", "Indonesian");
-
-            correctionAdd("teamtreehouse", "Treehouse");
-            correctionAdd("Teamtreehouse.com", "Treehouse");
-            correctionAdd("Teamtreehouse", "Treehouse");
 
             correctionAdd("wikitia", "Wikitia");
 
@@ -29133,8 +29151,6 @@ namespace OverflowHelper.core
 
             correctionAdd("back propogation", "backpropagation");
 
-            correctionAdd("exuse", "excuse");
-
             correctionAdd("icloud", "iCloud");
 
             correctionAdd("insensiive", "insensitive");
@@ -29777,6 +29793,7 @@ namespace OverflowHelper.core
             correctionAdd("captuer", "capture");
             correctionAdd("caputer", "capture");
             correctionAdd("caupter", "capture");
+            correctionAdd("captuyre", "capture");
 
             correctionAdd("celabration", "celebration");
 
@@ -30977,8 +30994,6 @@ namespace OverflowHelper.core
 
             correctionAdd("truck load", "truckload");
 
-            correctionAdd("Use", "use");
-
             correctionAdd("YTD", "year-to-date");
 
             correctionAdd("EULA", "end-user license agreement");
@@ -31054,8 +31069,6 @@ namespace OverflowHelper.core
             correctionAdd("ddl", "DDL");
 
             correctionAdd("dml", "DML");
-
-            correctionAdd("diffuse", "Diffuse");
 
             correctionAdd("hspice", "HSPICE");
 
@@ -31437,8 +31450,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bi-monthly", "bimonthly");
             correctionAdd("bi monthly", "bimonthly");
-
-            correctionAdd("cat and mouse", "cat-and-mouse");
 
             correctionAdd("ro", "room owner (RO - chat)");
 
@@ -33229,8 +33240,6 @@ namespace OverflowHelper.core
 
             correctionAdd("memozing", "memoizing");
 
-            correctionAdd("Mouse", "mouse");
-
             correctionAdd("Mouse wheel", "mouse wheel");
             correctionAdd("Mouse Wheel", "mouse wheel");
 
@@ -33916,6 +33925,12 @@ namespace OverflowHelper.core
 
             correctionAdd("sideshow", "side show");
 
+            correctionAdd("television show", "TV show");
+            correctionAdd("TV Show", "TV show");
+
+            correctionAdd("sow", "show");
+            correctionAdd("Sow", "show");
+
             correctionAdd("superfically", "superficially");
 
             correctionAdd("under developed", "underdeveloped");
@@ -34451,8 +34466,6 @@ namespace OverflowHelper.core
             correctionAdd("Criminology", "criminology");
 
             correctionAdd("differeces", "differences");
-
-            correctionAdd("mis-use", "misuse");
 
             correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
 
@@ -37403,9 +37416,6 @@ namespace OverflowHelper.core
 
             correctionAdd("quic", "QUIC");
 
-            correctionAdd("television show", "TV show");
-            correctionAdd("TV Show", "TV show");
-
             correctionAdd("VFP", "Visual FoxPro");
             correctionAdd("vfp", "Visual FoxPro");
 
@@ -37924,6 +37934,20 @@ namespace OverflowHelper.core
             correctionAdd("alowed", "allowed");
 
             correctionAdd("no break space", "non-breaking space");
+
+            correctionAdd("mapquest", "MapQuest");
+
+            correctionAdd("electro negative", "electronegative");
+
+            correctionAdd("evalute", "evaluate");
+
+            correctionAdd("plugg", "plug");
+
+            correctionAdd("reistered", "registered");
+
+            correctionAdd("Scripting", "scripting");
+
+            correctionAdd("unrealiable", "unreliable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59661,6 +59685,22 @@ namespace OverflowHelper.core
 
             URL_Add("non-breaking space", "https://en.wikipedia.org/wiki/Non-breaking_space");
 
+            URL_Add("MapQuest", "https://en.wikipedia.org/wiki/MapQuest");
+
+            URL_Add("electronegative", "https://en.wiktionary.org/wiki/electronegative#Adjective");
+
+            URL_Add("evaluate", "https://en.wiktionary.org/wiki/evaluate#Verb");
+
+            URL_Add("plug", "https://en.wiktionary.org/wiki/plug#Verb");
+
+            URL_Add("registered", "https://en.wiktionary.org/wiki/register#Verb");
+
+            URL_Add("scripting", "https://en.wiktionary.org/wiki/scripting#Noun");
+
+            URL_Add("show", "https://en.wiktionary.org/wiki/show#Verb");
+
+            URL_Add("unreliable", "https://en.wiktionary.org/wiki/unreliable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60112,6 +60152,8 @@ namespace OverflowHelper.core
 
             correctionAdd("MO_", "molecular orbital_");
 
+            correctionAdd("flagging_", "flagging (chess)_");
+
             // URL mappings
             //
             //
@@ -60416,6 +60458,8 @@ namespace OverflowHelper.core
             URL_Add("Azure Kubernetes Service_", "https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes");
 
             URL_Add("molecular orbital_", "https://en.wikipedia.org/wiki/Molecular_orbital");
+
+            URL_Add("flagging (chess)_", "https://www.chess.com/terms/flagging-chess");
 
         } //addLookupData_alternativeWordSet()
 
