@@ -14756,6 +14756,11 @@ namespace OverflowHelper.core
             correctionAdd("heght", "height");
 
             correctionAdd("malcious", "malicious");
+            correctionAdd("malicicios", "malicious");
+            correctionAdd("malisicios", "malicious");
+            correctionAdd("malicisios", "malicious");
+            correctionAdd("malisious", "malicious");
+            correctionAdd("malisiuos", "malicious");
 
             correctionAdd("neglegible", "negligible");
             correctionAdd("neglibile", "negligible");
@@ -20485,6 +20490,8 @@ namespace OverflowHelper.core
             correctionAdd("April's Fools", "April fool");
             correctionAdd("April 1", "April fool");
             correctionAdd("AF", "April fool");
+            correctionAdd("APRIL FOOLS", "April fool");
+            correctionAdd("APRIL FOOL", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -21009,6 +21016,7 @@ namespace OverflowHelper.core
             correctionAdd("regester", "register");
             correctionAdd("Regester", "register");
             correctionAdd("reg", "register");
+            correctionAdd("regist", "register");
 
             correctionAdd("raport", "report");
 
@@ -24009,6 +24017,7 @@ namespace OverflowHelper.core
             correctionAdd("incase", "in case");
             correctionAdd("Incase", "in case");
             correctionAdd("in-case", "in case");
+            correctionAdd("in cas", "in case");
 
             correctionAdd("cse", "case");
             correctionAdd("casse", "case");
@@ -27745,6 +27754,7 @@ namespace OverflowHelper.core
             correctionAdd("odyssey", "Odysee");
             correctionAdd("odesee", "Odysee");
             correctionAdd("Odesee", "Odysee");
+            correctionAdd("ODYSEE", "Odysee");
 
             correctionAdd("qmk", "QMK");
 
@@ -36576,6 +36586,7 @@ namespace OverflowHelper.core
             correctionAdd("lenovo yoga", "Lenovo Yoga");
 
             correctionAdd("VS 2022", "Visual Studio 2022");
+            correctionAdd("Visual Studio 22", "Visual Studio 2022");
 
             correctionAdd("crawler", "Web crawler");
             correctionAdd("web spider", "Web crawler");
@@ -37605,6 +37616,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-js", "```lang-javascript");
             correctionAdd("lang-javascript", "```lang-javascript");
             correctionAdd("javascript-lang", "```lang-javascript");
+            correctionAdd("```js", "```lang-javascript");
 
             correctionAdd("google places", "Google Places");
 
@@ -37948,6 +37960,25 @@ namespace OverflowHelper.core
             correctionAdd("Scripting", "scripting");
 
             correctionAdd("unrealiable", "unreliable");
+
+            correctionAdd("British Medical Journal", "The BMJ");
+            correctionAdd("BMJ", "The BMJ");
+
+            correctionAdd("visual Micro", "Visual Micro");
+            correctionAdd("VisualMicro", "Visual Micro");
+            correctionAdd("vMicro", "Visual Micro");
+
+            correctionAdd("BMS", "battery management system");
+
+            correctionAdd("cyclicly", "cyclically");
+
+            correctionAdd("depricating", "deprecating");
+
+            correctionAdd("lense", "lens");
+
+            correctionAdd("made-up", "made up");
+
+            correctionAdd("sportmanship", "sportsmanship");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59701,6 +59732,22 @@ namespace OverflowHelper.core
 
             URL_Add("unreliable", "https://en.wiktionary.org/wiki/unreliable#Adjective");
 
+            URL_Add("The BMJ", "https://en.wikipedia.org/wiki/The_BMJ");
+
+            URL_Add("Visual Micro", "https://www.visualmicro.com/page/User-Guide.aspx?doc=index");
+
+            URL_Add("battery management system", "https://en.wikipedia.org/wiki/Battery_management_system");
+
+            URL_Add("cyclically", "https://en.wiktionary.org/wiki/cyclically#Adverb");
+
+            URL_Add("deprecating", "https://en.wiktionary.org/wiki/deprecate#Verb");
+
+            URL_Add("lens", "https://en.wiktionary.org/wiki/lens#Noun");
+
+            URL_Add("made up", "https://en.wiktionary.org/wiki/make_up#Verb");
+
+            URL_Add("sportsmanship", "https://en.wiktionary.org/wiki/sportsmanship#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60154,6 +60201,8 @@ namespace OverflowHelper.core
 
             correctionAdd("flagging_", "flagging (chess)_");
 
+            correctionAdd("Academia_", "academia_");
+
             // URL mappings
             //
             //
@@ -60460,6 +60509,8 @@ namespace OverflowHelper.core
             URL_Add("molecular orbital_", "https://en.wikipedia.org/wiki/Molecular_orbital");
 
             URL_Add("flagging (chess)_", "https://www.chess.com/terms/flagging-chess");
+
+            URL_Add("academia_", "https://en.wiktionary.org/wiki/academia#Noun");
 
         } //addLookupData_alternativeWordSet()
 
