@@ -1311,6 +1311,9 @@ namespace OverflowHelper.core
             correctionAdd("every1", "everyone");
             correctionAdd("evryone", "everyone");
             correctionAdd("everone", "everyone");
+            correctionAdd("Enery one", "everyone");
+            correctionAdd("Eneryone", "everyone");
+            correctionAdd("enery one", "everyone");
 
             correctionAdd("N1", "number one");
 
@@ -2078,6 +2081,7 @@ namespace OverflowHelper.core
             correctionAdd("inter-net", "Internet");
             correctionAdd("interwebs", "Internet");
             correctionAdd("internext", "Internet");
+            correctionAdd("interned", "Internet");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -3794,6 +3798,7 @@ namespace OverflowHelper.core
             correctionAdd("MacBook pro", "MacBook Pro");
             correctionAdd("Macbook pro", "MacBook Pro");
             correctionAdd("macbookpro", "MacBook Pro");
+            correctionAdd("MACBOOK", "MacBook Pro");
 
             correctionAdd("bluetooth", "Bluetooth");
             correctionAdd("BT", "Bluetooth"); // Conflict with BitTorrent
@@ -5288,6 +5293,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Software Engineering", "software engineering");
             correctionAdd("softwareengineering", "software engineering");
+            correctionAdd("Software engineering", "software engineering");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -10793,6 +10799,7 @@ namespace OverflowHelper.core
             correctionAdd("EmberJs", "Ember.js");
             correctionAdd("Ember.Js", "Ember.js");
             correctionAdd("Ember.JS", "Ember.js");
+            correctionAdd("ember.js", "Ember.js");
 
             correctionAdd("backbone", "Backbone.js");
             correctionAdd("Backbone", "Backbone.js");
@@ -12336,6 +12343,7 @@ namespace OverflowHelper.core
             correctionAdd("asp dot net core", "ASP.NET Core");
             correctionAdd("asp.dot net core", "ASP.NET Core");
             correctionAdd("asp.dot .net core", "ASP.NET Core");
+            correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -17265,6 +17273,7 @@ namespace OverflowHelper.core
             correctionAdd("anithing", "anything");
             correctionAdd("Anthing", "anything");
             correctionAdd("anthing", "anything");
+            correctionAdd("anythig", "anything");
 
             correctionAdd("bleeding edge", "bleeding-edge");
 
@@ -17733,6 +17742,7 @@ namespace OverflowHelper.core
             correctionAdd("Firestorm", "Firestore");
             correctionAdd("firestore", "Firestore");
             correctionAdd("Firstore", "Firestore");
+            correctionAdd("Cloud Firestore", "Firestore");
 
             correctionAdd("gravatar", "Gravatar");
             correctionAdd("Gravater", "Gravatar");
@@ -18081,6 +18091,7 @@ namespace OverflowHelper.core
 
             correctionAdd("codesnippet", "code snippet");
             correctionAdd("code-snippet", "code snippet");
+            correctionAdd("Codesnip", "code snippet");
 
             correctionAdd("facebook connect", "Facebook Connect");
             correctionAdd("Facebook connect", "Facebook Connect");
@@ -23596,6 +23607,9 @@ namespace OverflowHelper.core
             correctionAdd("CosmosDB", "Azure Cosmos DB");
 
             correctionAdd("EF Core", "Entity Framework Core");
+            correctionAdd("EF core", "Entity Framework Core");
+            correctionAdd("EFCore", "Entity Framework Core");
+            correctionAdd("EFC", "Entity Framework Core");
 
             correctionAdd("fire fight", "firefight");
             correctionAdd("fire-fight", "firefight");
@@ -27755,6 +27769,7 @@ namespace OverflowHelper.core
             correctionAdd("odesee", "Odysee");
             correctionAdd("Odesee", "Odysee");
             correctionAdd("ODYSEE", "Odysee");
+            correctionAdd("odyssee", "Odysee");
 
             correctionAdd("qmk", "QMK");
 
@@ -29305,6 +29320,7 @@ namespace OverflowHelper.core
             correctionAdd("hv", "have");
             correctionAdd("haave", "have");
             correctionAdd("hove", "have");
+            correctionAdd("hav", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -30393,6 +30409,9 @@ namespace OverflowHelper.core
             correctionAdd("crores", "crore");
 
             correctionAdd("lakhs", "lakh");
+            correctionAdd("lacs", "lakh");
+            correctionAdd("lac", "lakh");
+            correctionAdd("hundreds of thousands", "lakh");
 
             correctionAdd("re-evaluate", "reevaluate");
 
@@ -31083,6 +31102,7 @@ namespace OverflowHelper.core
             correctionAdd("hspice", "HSPICE");
 
             correctionAdd("sklearn", "scikit-learn");
+            correctionAdd("Scikit-learn", "scikit-learn");
 
             correctionAdd("micrometer", "μm");
             correctionAdd("um", "μm");
@@ -31616,6 +31636,8 @@ namespace OverflowHelper.core
             correctionAdd("templeos", "TempleOS");
             correctionAdd("temple os", "TempleOS");
             correctionAdd("temple OS", "TempleOS");
+            correctionAdd("TEMPLEOS", "TempleOS");
+            correctionAdd("TEMPLE OS", "TempleOS");
 
             correctionAdd("auto-completing", "autocompleting");
 
@@ -33485,6 +33507,7 @@ namespace OverflowHelper.core
             correctionAdd("Quatum", "quantum");
 
             correctionAdd("time Complexity", "time complexity");
+            correctionAdd("Time Complexity", "time complexity");
 
             correctionAdd("Dialog box", "dialog box");
 
@@ -33559,6 +33582,7 @@ namespace OverflowHelper.core
             correctionAdd("bitnami", "Bitnami");
 
             correctionAdd("clion", "CLion");
+            correctionAdd("Clion", "CLion");
 
             correctionAdd("helm", "Helm");
 
@@ -35443,6 +35467,8 @@ namespace OverflowHelper.core
             correctionAdd("traveling-salesman problem", "travelling salesman problem");
             correctionAdd("Travelling Salesman", "travelling salesman problem");
             correctionAdd("Travelling Salesman Problem", "travelling salesman problem");
+            correctionAdd("Travel Salesman Problem", "travelling salesman problem");
+            correctionAdd("Travelling salesman problem", "travelling salesman problem");
 
             correctionAdd("hadeline", "headline");
 
@@ -37979,6 +38005,34 @@ namespace OverflowHelper.core
             correctionAdd("made-up", "made up");
 
             correctionAdd("sportmanship", "sportsmanship");
+
+            correctionAdd("fastapi", "FastAPI");
+
+            correctionAdd("Realtime Database", "Firebase Realtime Database");
+
+            correctionAdd("Goland", "GoLand");
+
+            correctionAdd("Maxwell's Demon", "Maxwell's demon");
+
+            correctionAdd("pixar", "Pixar");
+
+            correctionAdd("pulumi", "Pulumi");
+
+            correctionAdd("asynchronisity", "asynchronicity");
+
+            correctionAdd("conlang", "constructed language");
+
+            correctionAdd("dinamic", "dynamic");
+
+            correctionAdd("GameDev", "game development");
+
+            correctionAdd("Game Engine", "game engine");
+
+            correctionAdd("Linearithmic", "linearithmic");
+
+            correctionAdd("removeable", "removable");
+
+            correctionAdd("Space industry", "space industry");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59748,6 +59802,34 @@ namespace OverflowHelper.core
 
             URL_Add("sportsmanship", "https://en.wiktionary.org/wiki/sportsmanship#Noun");
 
+            URL_Add("FastAPI", "https://en.wikipedia.org/wiki/FastAPI");
+
+            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
+
+            URL_Add("GoLand", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
+
+            URL_Add("Maxwell's demon", "https://en.wikipedia.org/wiki/Maxwell's_demon");
+
+            URL_Add("Pixar", "https://en.wikipedia.org/wiki/Pixar");
+
+            URL_Add("Pulumi", "https://www.pulumi.com/");
+
+            URL_Add("asynchronicity", "https://en.wiktionary.org/wiki/asynchronicity#Noun");
+
+            URL_Add("constructed language", "https://en.wikipedia.org/wiki/Constructed_language");
+
+            URL_Add("dynamic", "https://en.wiktionary.org/wiki/dynamic#Adjective");
+
+            URL_Add("game development", "https://en.wikipedia.org/wiki/Video_game_development");
+
+            URL_Add("game engine", "https://en.wikipedia.org/wiki/Game_engine");
+
+            URL_Add("linearithmic", "https://en.wiktionary.org/wiki/linearithmic#Adjective");
+
+            URL_Add("removable", "https://en.wiktionary.org/wiki/removable#Adjective");
+
+            URL_Add("space industry", "https://en.wikipedia.org/wiki/Space_industry");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60203,6 +60285,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Academia_", "academia_");
 
+            correctionAdd("Brute Force_", "brute force_");
+
             // URL mappings
             //
             //
@@ -60511,6 +60595,8 @@ namespace OverflowHelper.core
             URL_Add("flagging (chess)_", "https://www.chess.com/terms/flagging-chess");
 
             URL_Add("academia_", "https://en.wiktionary.org/wiki/academia#Noun");
+
+            URL_Add("brute force_", "https://en.wiktionary.org/wiki/brute_force#Noun");
 
         } //addLookupData_alternativeWordSet()
 
