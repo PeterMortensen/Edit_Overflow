@@ -5018,6 +5018,7 @@ namespace OverflowHelper.core
             correctionAdd("cus", "because");
             correctionAdd("Beacause", "because");
             correctionAdd("cuase", "because");
+            correctionAdd("Becouse", "because");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -13080,6 +13081,7 @@ namespace OverflowHelper.core
             correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu");
             correctionAdd("AU", "Ask&nbsp;Ubuntu");
             correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu");
+            correctionAdd("AskUbuntuSE", "Ask&nbsp;Ubuntu");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -13875,6 +13877,7 @@ namespace OverflowHelper.core
             correctionAdd("DuckDuck", "DuckDuckGo");
             correctionAdd("DuckDuckgo", "DuckDuckGo");
             correctionAdd("DDG", "DuckDuckGo");
+            correctionAdd("Duck Duck Go", "DuckDuckGo");
 
             correctionAdd("democraticly", "democratically");
 
@@ -15982,6 +15985,7 @@ namespace OverflowHelper.core
             correctionAdd("reguest", "request");
             correctionAdd("reques", "request");
             correctionAdd("Reqest", "request");
+            correctionAdd("req", "request");
 
             correctionAdd("temorarily", "temporarily");
             correctionAdd("temporaryly", "temporarily");
@@ -19468,6 +19472,7 @@ namespace OverflowHelper.core
             correctionAdd("vdo", "video");
             correctionAdd("vidieo", "video");
             correctionAdd("vidio", "video");
+            correctionAdd("Video", "video");
 
             correctionAdd("tampermonkey", "Tampermonkey");
             correctionAdd("tamper monkey", "Tampermonkey");
@@ -27435,6 +27440,7 @@ namespace OverflowHelper.core
             correctionAdd("inplace", "in place");
 
             correctionAdd("insert sort", "insertion sort");
+            correctionAdd("Insertion Sort", "insertion sort");
 
             correctionAdd("Men", "men");
             correctionAdd("Mens", "men");
@@ -28264,6 +28270,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Information Security", "Information Security (Stack Exchange site)");
             correctionAdd("Security", "Information Security (Stack Exchange site)");
+            correctionAdd("Security.SE", "Information Security (Stack Exchange site)");
 
             correctionAdd("sku", "SKU");
             correctionAdd("stock keeping unit", "SKU");
@@ -28289,6 +28296,7 @@ namespace OverflowHelper.core
             correctionAdd("re-draw", "redraw");
 
             correctionAdd("re-render", "rerender");
+            correctionAdd("re render", "rerender");
 
             correctionAdd("re-scheduling", "rescheduling");
 
@@ -29214,6 +29222,7 @@ namespace OverflowHelper.core
             correctionAdd("back EMF", "back-EMF");
 
             correctionAdd("fit", "feet");
+            correctionAdd("ft", "feet");
 
             correctionAdd("fetisist", "feticist");
 
@@ -31826,6 +31835,8 @@ namespace OverflowHelper.core
             correctionAdd("setting-up", "setting up");
 
             correctionAdd("TIA", "thanks in advance");
+            correctionAdd("T.I.A", "thanks in advance");
+            correctionAdd("tia", "thanks in advance");
 
             correctionAdd("the bees kneeze", "the bee's knees");
 
@@ -37428,6 +37439,7 @@ namespace OverflowHelper.core
             correctionAdd("electro-dynamical", "electrodynamical");
 
             correctionAdd("fixe", "fix");
+            correctionAdd("fic", "fix");
 
             correctionAdd("Good Luck", "good luck");
             correctionAdd("GL", "good luck");
@@ -37561,6 +37573,8 @@ namespace OverflowHelper.core
 
             correctionAdd("SOes", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("SOE", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("SOES", "Stack Overflow en español (Stack Exchange site)");
 
             correctionAdd("Ucraine", "Ukraine");
 
@@ -38033,6 +38047,33 @@ namespace OverflowHelper.core
             correctionAdd("removeable", "removable");
 
             correctionAdd("Space industry", "space industry");
+
+            correctionAdd("Eclipse SUMO", "Simulation of Urban Mobility");
+            correctionAdd("SUMO", "Simulation of Urban Mobility");
+            correctionAdd("Simulation of Urban MObility", "Simulation of Urban Mobility");
+
+            correctionAdd("SOPT", "Stack Overflow em Português");
+            correctionAdd("SOpt", "Stack Overflow em Português");
+
+            correctionAdd("lang-go", "```lang-golang");
+
+            correctionAdd("Binary Search", "binary search");
+
+            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
+
+            correctionAdd("end's up", "ends up");
+
+            correctionAdd("genunely", "genuinely");
+
+            correctionAdd("Hardware Description Language", "hardware description language");
+
+            correctionAdd("Hypoxic", "hypoxic");
+
+            correctionAdd("Master theorem", "master theorem");
+
+            correctionAdd("rate-limit", "rate limit");
+
+            correctionAdd("Selection sort", "selection sort");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59830,6 +59871,30 @@ namespace OverflowHelper.core
 
             URL_Add("space industry", "https://en.wikipedia.org/wiki/Space_industry");
 
+            URL_Add("Simulation of Urban Mobility", "https://en.wikipedia.org/wiki/Simulation_of_Urban_MObility");
+
+            URL_Add("Stack Overflow em Português", "https://pt.stackoverflow.com/tour");
+
+            URL_Add("```lang-golang", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("binary search", "https://en.wikipedia.org/wiki/Binary_search_algorithm");
+
+            URL_Add("divide-and-conquer algorithm", "https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm");
+
+            URL_Add("ends up", "https://en.wiktionary.org/wiki/end_up#Verb");
+
+            URL_Add("genuinely", "https://en.wiktionary.org/wiki/genuinely#Adverb");
+
+            URL_Add("hardware description language", "https://en.wikipedia.org/wiki/Hardware_description_language");
+
+            URL_Add("hypoxic", "https://en.wiktionary.org/wiki/hypoxic#Adjective");
+
+            URL_Add("master theorem", "https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)");
+
+            URL_Add("rate limit", "https://en.wikipedia.org/wiki/Rate_limiting");
+
+            URL_Add("selection sort", "https://en.wikipedia.org/wiki/Selection_sort");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -59872,6 +59937,7 @@ namespace OverflowHelper.core
             correctionAdd("nexus_", "Nexus Repository_");
 
             correctionAdd("evry_", "every_");
+            correctionAdd("evrery_", "every_");
 
             correctionAdd("nee_", "new_");
             correctionAdd("noew_", "new_");
@@ -60186,6 +60252,7 @@ namespace OverflowHelper.core
             correctionAdd("JSE_", "Joomla (Stack Exchange site)_");
             correctionAdd("J SE_", "Joomla (Stack Exchange site)_");
             correctionAdd("Joomla_", "Joomla (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("JoomlaSE_", "Joomla (Stack Exchange site)_");
 
             correctionAdd("LawSE_", "Law (Stack Exchange site)_");
             correctionAdd("Law_", "Law (Stack Exchange site)_"); // Sort of identity mapping
@@ -60206,6 +60273,7 @@ namespace OverflowHelper.core
 
             correctionAdd("biology_", "Biology (Stack Exchange site)_");
             correctionAdd("Biology_", "Biology (Stack Exchange site)_");
+            correctionAdd("Biology.SE_", "Biology (Stack Exchange site)_");
 
             correctionAdd("software engineering_", "Software Engineering (Stack Exchange site)_");
             correctionAdd("Programmers_", "Software Engineering (Stack Exchange site)_");
