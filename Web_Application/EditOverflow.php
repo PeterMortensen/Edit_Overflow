@@ -40,7 +40,7 @@
             # Note: Before our workaround, this did not pass the W3C HTML
             #       validation, likely due to a 1024 bytes limit for some
             #       auto detection before the 'meta' tag specifying
-            #       UTF-8 encoding. The validator error messages 
+            #       UTF-8 encoding. The validator error messages
             #       started with:
             #
             #           "Error: The character encoding was not declared.
@@ -92,14 +92,29 @@
                 #Perhaps we can eliminate this redundancy by having a
                 #set of rules as data?
 
-                # If bold in a Quora editing
 
-                # "*" is sometimes included when copying
-                # from Quora (when the content is in a
-                # list item and when it is in bold
-                # (two "*"s)).
-                #$lookUpTerm = substr_replace('*', '', 0, 0);
-                $lookUpTerm = preg_replace('/\*/', '', $lookUpTerm);
+                # 2022-04-09: This is moot now, as the Quora
+                # moderation bots of unspecified IQ have
+                # effectively destroyed all copy editing
+                # on Quora (from about 2020) - which is
+                # against the "Yahoo Answers with
+                # slightly better grammar.". Now it is
+                # just the next Yahoo Answers (already
+                # shut down). When will they ever learn?
+                #
+                # Disabling it fixed our problem with
+                # looking "*nix".
+                #
+                # We keep it for a while.
+                #
+                ## If bold in a Quora editing
+                #
+                ## "*" is sometimes included when copying
+                ## from Quora (when the content is in a
+                ## list item and when it is in bold
+                ## (two "*"s)).
+                ##$lookUpTerm = substr_replace('*', '', 0, 0);
+                #$lookUpTerm = preg_replace('/\*/', '', $lookUpTerm);
 
                 #For more complicated replaces (regular expression)
                 #$lookUpTerm = preg_replace('/$/', '&gt;', $lookUpTerm);
