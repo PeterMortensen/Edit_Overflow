@@ -62,7 +62,7 @@
 #                                                                      #
 #   To enable compilation and running .NET Core code on                #
 #   Ubuntu/Debian, these installation steps work (last                 #
-#   tested on 2022-03-0):                                             #
+#   tested on 2022-03-02):                                             #
 #                                                                      #
 #       wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 #       sudo dpkg -i packages-microsoft-prod.deb                       #
@@ -95,7 +95,7 @@
 #      slow testing speed if there is a genuine error.
 #
 #   3. Tie in the input checking script (ToToTryExtract.pl) - so
-#      correct operation of it (e.g., iterative running of it 
+#      correct operation of it (e.g., iterative running of it
 #      until its output is empty) is checked.
 #
 
@@ -273,8 +273,8 @@ echo
 # Configuration, start
 
 
-# Selectively disable some test (e.g., if an external service we
-# depend on is not available)
+# Selectively disable some test (e.g., if an external
+# service we depend on is not available)
 #
 # Normally, ***ALL*** should be outcommented
 #export DISABLE_HTMLVALIDATION=1
@@ -1023,7 +1023,8 @@ function PHP_code_test()
     #   perhaps we should - if PHP is not installed
     #   (locally) it appears as if it passed. Though
     #   the prerequisites test in the beginning
-    #   should not allow us to get here.
+    #   of the script should not allow us to
+    #   get here.
     #
     echo
     echo "Sub step 2 (PHP script main run):"
@@ -1094,8 +1095,8 @@ function PHP_code_test()
 
     # #####################################
     #
-    # 6. Detect unit test failures. Note: Currently only executed in the
-    #    context of Text.php
+    # 6. Detect unit test failures. Note: Currently only
+    #    executed in the context of Text.php
     #
     # Is there an easier way? Could we configure the PHP installation to
     # automatically stop on all errors and warnings?
@@ -1113,7 +1114,7 @@ function PHP_code_test()
     #    terminate the execution).
     #
     #    Stop on all fatal errors except the database
-    #    error that we currently expect.
+    #    error that we currently expect (locally).
     #
     # Example:
     #
@@ -1151,7 +1152,7 @@ function PHP_code_test()
 #
 # Helper function to reduce redundancy.
 #
-# Used to detect changes to files (e.g. a web
+# Used to detect changes to files (e.g., a web
 # server error log). Used with endWatchFile().
 #
 # Parameters:
@@ -1162,6 +1163,7 @@ function startWatchFile()
 {
     # File size for now. Perhaps MD5 hash later
 
+    # Yes, a global variable...
     export FILE_SIZE_BEFORE=`wc $1`
 } #startWatchFile()
 
@@ -2306,9 +2308,22 @@ startOfBuildStep "29" "Start running C# unit tests"
 #     use option "-p" for specifying the project
 #     file name (inconsistent)
 #
-#  2. This indirectly checks for code syntax error, but
+#  2. This indirectly checks for code syntax errors, but
 #     not for all the code (only what is dependent on
 #     the tests).
+#
+#  3. If there is an ASSERT, the exit code has been
+#     observed to be 139 on Linux (Ubuntu 18.04).
+#     evaluateBuildResult() automatically aborts
+#     the build in that case.
+#
+#  4. On 2022-03-24, we got a ***spurious***
+#     segmentation fault running the below
+#     line right after the previous run
+#     resulted in an ASSERT in the build.
+#     A second run did not have this problem.
+#
+#     'dotnet --version' returned "3.1.101"
 
 # Note: The same build number
 dotnet test EditOverflow3_UnitTests.csproj  ; evaluateBuildResult 29 $? "C# unit tests"

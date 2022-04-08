@@ -236,9 +236,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # test in a non-production environment) - at the
     # very least for practical reasons.
     #
-    # Are we actually assured of the order of test execution? No, at least
-    # not by position in the file. Alphabetically?
-    #
+    # Are we actually assured of the order of test execution? No,
+    # at least not by position in the file. Alphabetically?
 
 
     # That is, general here means the general text field on page "Text.php".
@@ -284,8 +283,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     # Parameters:
     #
-    #   anExpectedCharacters:  An integer. The number of characters after
-    #                          the text transformation.
+    #   anExpectedCharacters:  An integer. The number of characters
+    #                          after the text transformation.
     #
     #                          E.g., 9 to match the self-reported number
     #                          of characters by the web application,
@@ -383,7 +382,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         # seen by this Selenium script, was as expected
         #
         self._checkRealQuotes_single(aURL, "secur<e", "“secur<e”", 13)
-
 
 
     # Text.php page: Test formatting of YouTube comments
@@ -576,7 +574,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                   'Unexpected edit summary after URL GET lookup')
 
             # First direct lookup with a known incorrect term
-            self._lookUp("python", firstRealLookup_editSummary, defaultMsgForEditSummary)
+            self._lookUp("python",
+                         firstRealLookup_editSummary,
+                         defaultMsgForEditSummary)
 
         if True: # Test a failed lookup.
 
@@ -606,7 +606,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             # Lookup with a reset, with a known term
             #
-            self._lookUp("php", singleLookup_editSummary_PHP, defaultMsgForEditSummary)
+            self._lookUp("php",
+                         singleLookup_editSummary_PHP,
+                         defaultMsgForEditSummary)
 
 
         if True: # Do a ***failing lookup*** after a reset - we had a
@@ -617,7 +619,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #
             # The edit summary should be unchanged from the previous
             #
-            self._lookUp("PHP__Z", singleLookup_editSummary_PHP, defaultMsgForEditSummary)
+            self._lookUp("PHP__Z",
+                         singleLookup_editSummary_PHP,
+                         defaultMsgForEditSummary)
 
 
         if True: # Test clearing the edit summary state and with
@@ -625,6 +629,20 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             self._setCheckbox("resetState")
             self._lookUp("PHP__Z", "", defaultMsgForEditSummary)
+
+
+        if True: #
+                 #
+                 # Note: The expected edit summary depends on the
+                 #       previous test steps...
+
+            # False lookup result 2022-04-09 (now fixed): 
+            #
+            #   "*" stripped in the lookup
+
+            self._lookUp("*nix",
+                         "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
+                         defaultMsgForEditSummary)
 
 
     # Helper function for testing
@@ -757,7 +775,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #             central function of Edit Overflow for web: Looking up
     #             incorrect terms (typically misspelling words)
     #
-    # ***Note***: The form-based  version
+    # ***Note***: The form-based version
     #
     def test_production_mainLookup_form(self):
 
