@@ -2574,6 +2574,24 @@ namespace OverflowHelper.core
 
             correctionAdd("expedia", "Expedia");
 
+            correctionAdd("StdErr", "standard error");
+            correctionAdd("stderr", "standard error");
+            correctionAdd("STDERR", "standard error");
+            correctionAdd("standard err", "standard error");
+            correctionAdd("std-err", "standard error");
+            correctionAdd("std err", "standard error");
+            correctionAdd("stderror", "standard error");
+            correctionAdd("Standard-Error", "standard error");
+            correctionAdd("Standard Error", "standard error");
+            correctionAdd("standard-error", "standard error");
+
+            correctionAdd("erron", "error");
+            correctionAdd("Error", "error");
+            correctionAdd("eror", "error");
+            correctionAdd("errorr", "error");
+            correctionAdd("err", "error");
+            correctionAdd("errror", "error");
+
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
@@ -4838,6 +4856,7 @@ namespace OverflowHelper.core
             correctionAdd("MInGW", "MinGW");
             correctionAdd("Migw", "MinGW");
             correctionAdd("mingw32", "MinGW");
+            correctionAdd("miniGW", "MinGW");
 
             correctionAdd("CodeBlocks", "Code::Blocks");
             correctionAdd("Code Blocks", "Code::Blocks");
@@ -11545,6 +11564,7 @@ namespace OverflowHelper.core
             correctionAdd("noobie", "newbie");
             correctionAdd("nooby", "newbie");
             correctionAdd("newwbie", "newbie");
+            correctionAdd("newbei", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -12131,6 +12151,7 @@ namespace OverflowHelper.core
             correctionAdd("alwes", "always");
             correctionAdd("alweys", "always");
             correctionAdd("alwasys", "always");
+            correctionAdd("alwayes", "always");
 
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -13182,6 +13203,7 @@ namespace OverflowHelper.core
             correctionAdd("PyPi", "PyPI");
             correctionAdd("pypi", "PyPI");
             correctionAdd("Pypi", "PyPI");
+            correctionAdd("PYPI", "PyPI");
 
             correctionAdd("scmitt trigger", "Schmitt trigger");
             correctionAdd("Schmidt", "Schmitt trigger");
@@ -14403,6 +14425,7 @@ namespace OverflowHelper.core
             correctionAdd("their self", "themselves");
             correctionAdd("themselved", "themselves");
             correctionAdd("theirselves", "themselves");
+            correctionAdd("them self", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -15416,6 +15439,8 @@ namespace OverflowHelper.core
             correctionAdd("addresss", "address");
             correctionAdd("Addres", "address");
             correctionAdd("Address", "address");
+            correctionAdd("ADDRESSS", "address");
+            correctionAdd("ADDRESS", "address");
 
             correctionAdd("bare in mind", "bear in mind");
             correctionAdd("Bare in mind", "bear in mind");
@@ -18880,6 +18905,7 @@ namespace OverflowHelper.core
             correctionAdd("authorative", "authoritative");
             correctionAdd("athoritative", "authoritative");
             correctionAdd("authoritive", "authoritative");
+            correctionAdd("authorial", "authoritative");
 
             correctionAdd("gabarge", "garbage");
             correctionAdd("garbik", "garbage");
@@ -25230,6 +25256,7 @@ namespace OverflowHelper.core
             correctionAdd("in the fly", "on the fly");
 
             correctionAdd("preformed", "performed");
+            correctionAdd("peformed", "performed");
 
             correctionAdd("Quadrant", "quadrant");
 
@@ -26847,6 +26874,7 @@ namespace OverflowHelper.core
             correctionAdd("fees", "feels");
 
             correctionAdd("fallowed", "followed");
+            correctionAdd("followd", "followed");
 
             correctionAdd("lca", "lowest common ancestor");
             correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
@@ -28240,23 +28268,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deliverys", "deliveries");
 
-            correctionAdd("StdErr", "standard error");
-            correctionAdd("stderr", "standard error");
-            correctionAdd("STDERR", "standard error");
-            correctionAdd("standard err", "standard error");
-            correctionAdd("std-err", "standard error");
-            correctionAdd("std err", "standard error");
-            correctionAdd("stderror", "standard error");
-            correctionAdd("Standard-Error", "standard error");
-            correctionAdd("Standard Error", "standard error");
-            correctionAdd("standard-error", "standard error");
-
-            correctionAdd("erron", "error");
-            correctionAdd("Error", "error");
-            correctionAdd("eror", "error");
-            correctionAdd("errorr", "error");
-            correctionAdd("err", "error");
-
             correctionAdd("re-boot", "reboot");
 
             correctionAdd(".NET 5", ".NET&nbsp;5");
@@ -28303,6 +28314,9 @@ namespace OverflowHelper.core
             correctionAdd("slauther", "slaughter");
 
             correctionAdd("sombebody", "somebody");
+            correctionAdd("Some body", "somebody");
+            correctionAdd("some body", "somebody");
+            correctionAdd("Somebody", "somebody");
 
             correctionAdd("un-asked", "unasked");
 
@@ -33084,6 +33098,7 @@ namespace OverflowHelper.core
             correctionAdd("I'll", "I’ll");
             correctionAdd("ill", "I’ll");
             correctionAdd("i'll", "I’ll");
+            correctionAdd("i ll", "I’ll");
 
             correctionAdd("kentucky", "Kentucky");
 
@@ -34499,6 +34514,7 @@ namespace OverflowHelper.core
             correctionAdd("Laguerre", "Laguerre's method");
 
             correctionAdd("mingw64", "Mingw-w64");
+            correctionAdd("MingW64", "Mingw-w64");
 
             correctionAdd("Karjakin", "Sergey Karjakin");
 
@@ -38074,6 +38090,25 @@ namespace OverflowHelper.core
             correctionAdd("rate-limit", "rate limit");
 
             correctionAdd("Selection sort", "selection sort");
+
+            correctionAdd("wordle", "Wordle");
+            correctionAdd("worlde", "Wordle");
+
+            correctionAdd("compunded", "compounded");
+
+            correctionAdd("Data", "data");
+
+            correctionAdd("findout", "find out");
+
+            correctionAdd("howcome", "how come");
+
+            correctionAdd("nowhereelse", "nowhere else");
+
+            correctionAdd("prestentated", "presented");
+
+            correctionAdd("visiualization", "visualization");
+
+            correctionAdd("vode", "vote");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59894,6 +59929,24 @@ namespace OverflowHelper.core
             URL_Add("rate limit", "https://en.wikipedia.org/wiki/Rate_limiting");
 
             URL_Add("selection sort", "https://en.wikipedia.org/wiki/Selection_sort");
+
+            URL_Add("Wordle", "https://en.wikipedia.org/wiki/Wordle");
+
+            URL_Add("compounded", "https://en.wiktionary.org/wiki/compound#Verb");
+
+            URL_Add("data", "https://en.wiktionary.org/wiki/data#Noun");
+
+            URL_Add("find out", "https://en.wiktionary.org/wiki/find_out#Verb");
+
+            URL_Add("how come", "https://en.wiktionary.org/wiki/how_come#Adverb");
+
+            URL_Add("nowhere else", "https://en.wiktionary.org/wiki/nowhere_else#Adverb");
+
+            URL_Add("presented", "https://en.wiktionary.org/wiki/present#Verb");
+
+            URL_Add("visualization", "https://en.wiktionary.org/wiki/visualization#Noun");
+
+            URL_Add("vote", "https://en.wiktionary.org/wiki/vote#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
