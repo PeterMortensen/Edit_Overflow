@@ -2502,6 +2502,8 @@ namespace OverflowHelper.core
             correctionAdd("eample", "example");
             correctionAdd("examplpe", "example");
             correctionAdd("eksample", "example");
+            correctionAdd("exaples", "example");
+            correctionAdd("examples", "example");
 
             correctionAdd("explaination", "explanation");
             correctionAdd("explenation", "explanation");
@@ -4599,6 +4601,8 @@ namespace OverflowHelper.core
             correctionAdd("chenge", "change");
             correctionAdd("chnage", "change");
             correctionAdd("chaing", "change");
+            correctionAdd("Chage", "change");
+            correctionAdd("chage", "change");
 
             correctionAdd("CS", "computer science");
             correctionAdd("compsci", "computer science");
@@ -6125,6 +6129,7 @@ namespace OverflowHelper.core
             correctionAdd("rhino", "Rhino");
 
             correctionAdd("svg", "SVG");
+            correctionAdd("Svg", "SVG");
 
             correctionAdd("dotnetnuke", "DotNetNuke");
 
@@ -9275,6 +9280,7 @@ namespace OverflowHelper.core
             correctionAdd("offcors", "of course");
             correctionAdd("OfCourse", "of course");
             correctionAdd("Of Course", "of course");
+            correctionAdd("ofcource", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -11040,6 +11046,7 @@ namespace OverflowHelper.core
             correctionAdd("Folowing", "following");
             correctionAdd("foolowing", "following");
             correctionAdd("folllowing", "following");
+            correctionAdd("fllowing", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -12526,6 +12533,7 @@ namespace OverflowHelper.core
             correctionAdd("arn't", "aren’t");
             correctionAdd("arnt", "aren’t");
             correctionAdd("aren't", "aren’t");
+            correctionAdd("Arent", "aren’t");
 
             correctionAdd("Email", "email");
             correctionAdd("meail", "email");
@@ -12691,6 +12699,7 @@ namespace OverflowHelper.core
             correctionAdd("gona", "is going to");
             correctionAdd("is gonna", "is going to");
             correctionAdd("ganna", "is going to");
+            correctionAdd("Gonna", "is going to");
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
@@ -18431,6 +18440,8 @@ namespace OverflowHelper.core
             correctionAdd("critiera", "criteria");
             correctionAdd("critieria", "criteria");
             correctionAdd("critera", "criteria");
+            correctionAdd("cretiria", "criteria");
+            correctionAdd("creteria", "criteria");
 
             correctionAdd("dead see", "dead sea");
 
@@ -18543,6 +18554,8 @@ namespace OverflowHelper.core
             correctionAdd("Mbit", "&nbsp;Mbit/s");
             correctionAdd("megabit/s", "&nbsp;Mbit/s");
             correctionAdd("Mbs", "&nbsp;Mbit/s");
+            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
+            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
 
             correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
             correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
@@ -21345,6 +21358,7 @@ namespace OverflowHelper.core
 
             correctionAdd("DVORAK", "Dvorak");
             correctionAdd("dvorak", "Dvorak");
+            correctionAdd("Dvorak layout", "Dvorak");
 
             correctionAdd("PA44", "Piper PA-44 Seminole");
 
@@ -29048,6 +29062,9 @@ namespace OverflowHelper.core
             correctionAdd("Mechatronics", "mechatronics");
 
             correctionAdd("opto coupler", "optocoupler");
+            correctionAdd("photocoupler", "optocoupler");
+            correctionAdd("opto-isolator", "optocoupler");
+            correctionAdd("optical isolator", "optocoupler");
 
             correctionAdd("Phase Velocity", "phase velocity");
 
@@ -38109,6 +38126,53 @@ namespace OverflowHelper.core
             correctionAdd("visiualization", "visualization");
 
             correctionAdd("vode", "vote");
+
+            correctionAdd("adm3", "ADM-3A");
+            correctionAdd("ADM3A", "ADM-3A");
+
+            correctionAdd("Bill joy", "Bill Joy");
+
+            correctionAdd("Hall effect sensor", "Hall sensor");
+            correctionAdd("hall sensor", "Hall sensor");
+
+            correctionAdd("lear siegler", "Lear Siegler");
+
+            correctionAdd("the regex joke", "RegEx match open tags except XHTML self-contained tags");
+
+            correctionAdd("speakon connector", "Speakon connector");
+
+            correctionAdd("TFVC", "Team Foundation Version Control");
+
+            correctionAdd("xlr", "XLR");
+
+            correctionAdd("copypaste", "copy-paste");
+            correctionAdd("copy-n-paste", "copy-paste");
+            correctionAdd("copy and paste", "copy-paste");
+            correctionAdd("copy/paste", "copy-paste");
+
+            correctionAdd("Currying", "currying");
+
+            correctionAdd("dot dot dot", "ellipsis");
+            correctionAdd("Ellipsis", "ellipsis");
+
+            correctionAdd("4 sided", "four-sided");
+
+            correctionAdd("4 sided die", "four-sided die");
+
+            correctionAdd("phone jack", "jack plug");
+            correctionAdd("jack", "jack plug");
+            correctionAdd("audio jack", "jack plug");
+
+            correctionAdd("lampcord", "lamp cord");
+
+            correctionAdd("Megabit", "megabit");
+            correctionAdd("Megabits", "megabit");
+
+            correctionAdd("MIP", "mixed integer programming");
+
+            correctionAdd("On the fence", "on the fence");
+
+            correctionAdd("Sentence fragment", "sentence fragment");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59948,6 +60012,44 @@ namespace OverflowHelper.core
 
             URL_Add("vote", "https://en.wiktionary.org/wiki/vote#Noun");
 
+            URL_Add("ADM-3A", "https://en.wikipedia.org/wiki/ADM-3A");
+
+            URL_Add("Bill Joy", "https://en.wikipedia.org/wiki/Bill_Joy");
+
+            URL_Add("Hall sensor", "https://en.wikipedia.org/wiki/Hall_effect_sensor");
+
+            URL_Add("Lear Siegler", "https://en.wikipedia.org/wiki/Lear_Siegler#Computer_terminals");
+
+            URL_Add("RegEx match open tags except XHTML self-contained tags", "https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454");
+
+            URL_Add("Speakon connector", "https://en.wikipedia.org/wiki/Speakon_connector");
+
+            URL_Add("Team Foundation Version Control", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#Team_Foundation_Version_Control");
+
+            URL_Add("XLR", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
+
+            URL_Add("copy-paste", "https://en.wiktionary.org/wiki/copy-paste#Noun");
+
+            URL_Add("currying", "https://en.wikipedia.org/wiki/Currying");
+
+            URL_Add("ellipsis", "https://en.wikipedia.org/wiki/Ellipsis#Computer_representations");
+
+            URL_Add("four-sided", "https://en.wikipedia.org/wiki/Quadrilateral");
+
+            URL_Add("four-sided die", "https://en.wikipedia.org/wiki/Four-sided_die");
+
+            URL_Add("jack plug", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
+
+            URL_Add("lamp cord", "https://en.wikipedia.org/wiki/Power_cord");
+
+            URL_Add("megabit", "https://en.wikipedia.org/wiki/Megabit");
+
+            URL_Add("mixed integer programming", "https://en.wikipedia.org/wiki/Integer_programming");
+
+            URL_Add("on the fence", "https://en.wiktionary.org/wiki/on_the_fence#Prepositional_phrase");
+
+            URL_Add("sentence fragment", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Incomplete_sentences");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60055,6 +60157,8 @@ namespace OverflowHelper.core
             correctionAdd("datframes_", "dataframe_");
             correctionAdd("datframe_", "dataframe_");
             correctionAdd("dfs_", "dataframe_");
+            correctionAdd("Data-frame_", "dataframe_");
+            correctionAdd("data-frame_", "dataframe_");
 
             correctionAdd("GA_", "general-availability_");
 
@@ -60350,6 +60454,7 @@ namespace OverflowHelper.core
             correctionAdd("Tfs_", "Team Foundation Server_");
             correctionAdd("TF_", "Team Foundation Server_");
             correctionAdd("team foundation server_", "Team Foundation Server_");
+            correctionAdd("Azure DevOps Server_", "Team Foundation Server_");
 
             correctionAdd("coce_", "code_");
             correctionAdd("Coce_", "code_");
@@ -60407,6 +60512,15 @@ namespace OverflowHelper.core
             correctionAdd("Academia_", "academia_");
 
             correctionAdd("Brute Force_", "brute force_");
+
+            correctionAdd("cuase_", "cause_");
+
+            correctionAdd("EX_", "ex_");
+
+            correctionAdd("FX_", "foreign exchange market_");
+            correctionAdd("forex_", "foreign exchange market_");
+            correctionAdd("foreign exchange_", "foreign exchange market_");
+            correctionAdd("Forex_", "foreign exchange market_");
 
             // URL mappings
             //
@@ -60718,6 +60832,12 @@ namespace OverflowHelper.core
             URL_Add("academia_", "https://en.wiktionary.org/wiki/academia#Noun");
 
             URL_Add("brute force_", "https://en.wiktionary.org/wiki/brute_force#Noun");
+
+            URL_Add("cause_", "https://en.wiktionary.org/wiki/cause#Verb");
+
+            URL_Add("ex_", "https://en.wikipedia.org/wiki/Ex_%28text_editor%29");
+
+            URL_Add("foreign exchange market_", "https://en.wikipedia.org/wiki/Foreign_exchange_market");
 
         } //addLookupData_alternativeWordSet()
 

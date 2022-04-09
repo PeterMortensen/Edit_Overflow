@@ -636,7 +636,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                  # Note: The expected edit summary depends on the
                  #       previous test steps...
 
-            # False lookup result 2022-04-09 (now fixed): 
+            # False lookup result 2022-04-09 (now fixed):
             #
             #   "*" stripped in the lookup
 
