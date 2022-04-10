@@ -441,6 +441,7 @@ namespace OverflowHelper.core
             correctionAdd("windowd", "Windows");
             correctionAdd("Windowd", "Windows");
             correctionAdd("wondows", "Windows");
+            correctionAdd("Window", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -3032,6 +3033,7 @@ namespace OverflowHelper.core
             correctionAdd("SIGSEGV", "segmentation fault");
             correctionAdd("Segmentation fault", "segmentation fault");
             correctionAdd("segment violation", "segmentation fault");
+            correctionAdd("SEGFAULT", "segmentation fault");
 
             correctionAdd("json", "JSON");
             correctionAdd("Json", "JSON");
@@ -5850,6 +5852,8 @@ namespace OverflowHelper.core
             correctionAdd("environments var", "environment variable");
             correctionAdd("env. var", "environment variable");
             correctionAdd("Env variable", "environment variable");
+            correctionAdd("Environmental variable", "environment variable");
+            correctionAdd("environmental variable", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -10042,6 +10046,7 @@ namespace OverflowHelper.core
             correctionAdd("VS2103", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("MSVS2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("Visual&nbsp;Studio 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("Visual Studio 12", "Visual&nbsp;Studio&nbsp;2013");
 
             correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
             correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
@@ -12707,6 +12712,7 @@ namespace OverflowHelper.core
             correctionAdd("Introdcution", "introduction");
             correctionAdd("introdction", "introduction");
             correctionAdd("introdcution", "introduction");
+            correctionAdd("Intro", "introduction");
 
             correctionAdd("who's", "whose");
             correctionAdd("who’s", "whose");
@@ -18810,6 +18816,7 @@ namespace OverflowHelper.core
             correctionAdd("foucs", "focus");
 
             correctionAdd("globaly", "globally");
+            correctionAdd("globably", "globally");
 
             correctionAdd("licence", "license");
 
@@ -19159,6 +19166,7 @@ namespace OverflowHelper.core
             correctionAdd("wayback machine", "Wayback Machine");
             correctionAdd("Wayback machine", "Wayback Machine");
             correctionAdd("web archive", "Wayback Machine");
+            correctionAdd("webarchive", "Wayback Machine");
 
             correctionAdd("yarn", "Yarn");
 
@@ -21800,6 +21808,7 @@ namespace OverflowHelper.core
             correctionAdd("e2e", "end-to-end");
 
             correctionAdd("logged-in", "logged in");
+            correctionAdd("logined in", "logged in");
 
             correctionAdd("UAT", "user acceptance testing");
 
@@ -38017,6 +38026,7 @@ namespace OverflowHelper.core
             correctionAdd("rpm", "RPM");
 
             correctionAdd("alowed", "allowed");
+            correctionAdd("allwed", "allowed");
 
             correctionAdd("no break space", "non-breaking space");
 
@@ -38173,6 +38183,12 @@ namespace OverflowHelper.core
             correctionAdd("On the fence", "on the fence");
 
             correctionAdd("Sentence fragment", "sentence fragment");
+
+            correctionAdd("deadlink", "dead link");
+
+            correctionAdd("logining in", "logging in");
+
+            correctionAdd("uncommited", "uncommitted");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60049,6 +60065,12 @@ namespace OverflowHelper.core
             URL_Add("on the fence", "https://en.wiktionary.org/wiki/on_the_fence#Prepositional_phrase");
 
             URL_Add("sentence fragment", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Incomplete_sentences");
+
+            URL_Add("dead link", "https://en.wiktionary.org/wiki/dead_link#Noun");
+
+            URL_Add("logging in", "https://en.wiktionary.org/wiki/log_in#Verb");
+
+            URL_Add("uncommitted", "https://en.wiktionary.org/wiki/uncommitted#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
