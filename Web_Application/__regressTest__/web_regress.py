@@ -296,7 +296,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                             aTextAfter,
                             anExpectedCharacters,
                             aKeyboardShortcutLetter,
-                            anErrorMessage):
+                            anErrorMessage
+                            ):
 
         self.browser.get(aURL)
 
