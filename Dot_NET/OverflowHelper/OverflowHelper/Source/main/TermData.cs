@@ -1969,6 +1969,7 @@ namespace OverflowHelper.core
             correctionAdd("datase", "database");
             correctionAdd("dbs", "database");
             correctionAdd("Data Base", "database");
+            correctionAdd("datebase", "database");
 
             correctionAdd("ria", "RIA");
             correctionAdd("Rich Internet application", "RIA");
@@ -3145,6 +3146,7 @@ namespace OverflowHelper.core
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
             correctionAdd("Ipython", "IPython");
+            correctionAdd("IPyton", "IPython");
 
             correctionAdd("iPython notebook", "IPython Notebook");
             correctionAdd("iPython-notebook", "IPython Notebook");
@@ -4780,6 +4782,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dependant", "dependent"); // Common misspelling...
             correctionAdd("depented", "dependent");
+            correctionAdd("Dependant", "dependent");
 
             correctionAdd("dependancy", "dependency"); // Common misspelling...
             correctionAdd("Dependancy", "dependency");
@@ -11006,6 +11009,7 @@ namespace OverflowHelper.core
             correctionAdd("yagni", "YAGNI");
 
             correctionAdd("Kiss", "KISS");
+            correctionAdd("k.i.s.s", "KISS");
 
             correctionAdd("2 cent", "two cents");
             correctionAdd("2 cents", "two cents");
@@ -12416,6 +12420,7 @@ namespace OverflowHelper.core
             correctionAdd("Textronix", "Tektronix");
             correctionAdd("Tektroniux", "Tektronix");
             correctionAdd("Textroniux", "Tektronix");
+            correctionAdd("TEKTRONIX", "Tektronix");
 
             correctionAdd("gpib", "GPIB");
             correctionAdd("HPIB", "GPIB");
@@ -13309,6 +13314,10 @@ namespace OverflowHelper.core
             correctionAdd("Decesion", "decision");
             correctionAdd("decesion", "decision");
             correctionAdd("decisson", "decision");
+            correctionAdd("deicison", "decision");
+            correctionAdd("diecison", "decision");
+            correctionAdd("dicesion", "decision");
+            correctionAdd("dicision", "decision");
 
             correctionAdd("enought", "enough");
             correctionAdd("Nuff", "enough");
@@ -16401,6 +16410,7 @@ namespace OverflowHelper.core
             correctionAdd("properites", "properties");
             correctionAdd("props", "properties");
             correctionAdd("properies", "properties");
+            correctionAdd("propreties", "properties");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
@@ -16881,6 +16891,7 @@ namespace OverflowHelper.core
             correctionAdd("Semicolon", "semicolon");
             correctionAdd("semi", "semicolon");
             correctionAdd("Semi colon", "semicolon");
+            correctionAdd("semi-column", "semicolon");
 
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
@@ -19422,6 +19433,7 @@ namespace OverflowHelper.core
             correctionAdd("itsself", "itself");
             correctionAdd("itselft", "itself");
             correctionAdd("it'self", "itself");
+            correctionAdd("itselt", "itself");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -20981,6 +20993,7 @@ namespace OverflowHelper.core
             correctionAdd("Sucessfully", "successfully");
             correctionAdd("succefully", "successfully");
             correctionAdd("sucessfuly", "successfully");
+            correctionAdd("succsessfully", "successfully");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -21806,6 +21819,7 @@ namespace OverflowHelper.core
 
             correctionAdd("E2E", "end-to-end");
             correctionAdd("e2e", "end-to-end");
+            correctionAdd("end to end", "end-to-end");
 
             correctionAdd("logged-in", "logged in");
             correctionAdd("logined in", "logged in");
@@ -32441,6 +32455,7 @@ namespace OverflowHelper.core
             correctionAdd("Right Click", "right-click");
             correctionAdd("Right-click", "right-click");
             correctionAdd("rigth click", "right-click");
+            correctionAdd("Right click", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -38189,6 +38204,30 @@ namespace OverflowHelper.core
             correctionAdd("logining in", "logging in");
 
             correctionAdd("uncommited", "uncommitted");
+
+            correctionAdd("Datagrip", "DataGrip");
+            correctionAdd("datagrip", "DataGrip");
+
+            correctionAdd("Galaxy s10", "Galaxy S10");
+
+            correctionAdd("Student's T", "Student's t-distribution");
+            correctionAdd("student's t-distribution", "Student's t-distribution");
+
+            correctionAdd("along side", "alongside");
+
+            correctionAdd("indispensible", "indispensable");
+
+            correctionAdd("maneuverability", "manoeuvrability");
+
+            correctionAdd("sweetspot", "sweet spot");
+
+            correctionAdd("from another lens", "through another lens");
+
+            correctionAdd("two body problem", "two-body problem");
+
+            correctionAdd("ZKP", "zero-knowledge proof");
+            correctionAdd("Zero Knowledge Proof", "zero-knowledge proof");
+            correctionAdd("zero knowledge proof", "zero-knowledge proof");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60072,6 +60111,26 @@ namespace OverflowHelper.core
 
             URL_Add("uncommitted", "https://en.wiktionary.org/wiki/uncommitted#Adjective");
 
+            URL_Add("DataGrip", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
+
+            URL_Add("Galaxy S10", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10");
+
+            URL_Add("Student's t-distribution", "https://en.wikipedia.org/wiki/Student%27s_t-distribution");
+
+            URL_Add("alongside", "https://en.wiktionary.org/wiki/alongside#Adverb");
+
+            URL_Add("indispensable", "https://en.wiktionary.org/wiki/indispensable#Adjective");
+
+            URL_Add("manoeuvrability", "https://en.wiktionary.org/wiki/manoeuvrability#Noun");
+
+            URL_Add("sweet spot", "https://en.wiktionary.org/wiki/sweet_spot#Noun");
+
+            URL_Add("through another lens", "https://ludwig.guru/s/through+the+lens+of");
+
+            URL_Add("two-body problem", "https://en.wikipedia.org/wiki/Two-body_problem");
+
+            URL_Add("zero-knowledge proof", "https://en.wikipedia.org/wiki/Zero-knowledge_proof");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60544,6 +60603,8 @@ namespace OverflowHelper.core
             correctionAdd("foreign exchange_", "foreign exchange market_");
             correctionAdd("Forex_", "foreign exchange market_");
 
+            correctionAdd("S/O_", "significant other_");
+
             // URL mappings
             //
             //
@@ -60860,6 +60921,8 @@ namespace OverflowHelper.core
             URL_Add("ex_", "https://en.wikipedia.org/wiki/Ex_%28text_editor%29");
 
             URL_Add("foreign exchange market_", "https://en.wikipedia.org/wiki/Foreign_exchange_market");
+
+            URL_Add("significant other_", "https://en.wiktionary.org/wiki/significant_other#Noun");
 
         } //addLookupData_alternativeWordSet()
 
