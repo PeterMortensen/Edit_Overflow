@@ -1947,6 +1947,7 @@ namespace OverflowHelper.core
             correctionAdd("12.1", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Monterey 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Mac OS 12.2", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS Monterey 12", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -4749,6 +4750,7 @@ namespace OverflowHelper.core
             correctionAdd("Someplace Else", "Stack&nbsp;Exchange");
             correctionAdd("someplace else", "Stack&nbsp;Exchange");
             correctionAdd("Elsewhere", "Stack&nbsp;Exchange");
+            correctionAdd("StackExcahnge", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -5377,6 +5379,7 @@ namespace OverflowHelper.core
             correctionAdd("Uiser interface", "user interface");
             correctionAdd("uiser interface", "user interface");
             correctionAdd("User interface", "user interface");
+            correctionAdd("user-interface", "user interface");
 
             correctionAdd("xml", "XML");
             correctionAdd("Xml", "XML");
@@ -8487,6 +8490,7 @@ namespace OverflowHelper.core
             correctionAdd("sqli", "MySQLi");
             correctionAdd("MYSQLi", "MySQLi");
             correctionAdd("MySqli", "MySQLi");
+            correctionAdd("MYSQLI", "MySQLi");
 
             correctionAdd("Micro SD", "microSD");
             correctionAdd("microSd", "microSD");
@@ -10465,6 +10469,7 @@ namespace OverflowHelper.core
             correctionAdd("Message", "message");
             correctionAdd("mesaage", "message");
             correctionAdd("MESSGE", "message");
+            correctionAdd("meessage", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -12892,6 +12897,7 @@ namespace OverflowHelper.core
             correctionAdd("acually", "actually");
             correctionAdd("akshually", "actually");
             correctionAdd("actuall", "actually");
+            correctionAdd("ackshually", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -14543,6 +14549,7 @@ namespace OverflowHelper.core
             //correctionAdd("ansi", "XXX    // Too many meanings? ANSI esacpe sequence, etc.
             //
             correctionAdd("ansi", "ANSI");
+            correctionAdd("Ansi", "ANSI");
 
             correctionAdd("fibonacci", "Fibonacci");
             correctionAdd("Fibbonaci", "Fibonacci");
@@ -14991,6 +14998,8 @@ namespace OverflowHelper.core
             correctionAdd("Jetbrains", "JetBrains");
             correctionAdd("Jet Brains", "JetBrains");
             correctionAdd("jetbrain", "JetBrains");
+            correctionAdd("JetBrain", "JetBrains");
+            correctionAdd("Jetbrain", "JetBrains");
 
             correctionAdd("SQL workbench", "MySQL Workbench");
             correctionAdd("Workbench", "MySQL Workbench");
@@ -17853,6 +17862,7 @@ namespace OverflowHelper.core
 
             correctionAdd("help-vampire", "help vampire");
             correctionAdd("Help Vampire", "help vampire");
+            correctionAdd("the h-word", "help vampire");
 
             correctionAdd("Udev", "udev");
 
@@ -20797,6 +20807,8 @@ namespace OverflowHelper.core
             correctionAdd("Fast Fourier transform", "FFT");
 
             correctionAdd("fourier transform", "Fourier transform");
+            correctionAdd("Fourier Transformation", "Fourier transform");
+            correctionAdd("Fourier Transform", "Fourier transform");
 
             correctionAdd("Argon", "argon");
 
@@ -21155,6 +21167,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mannual", "manual");
             correctionAdd("manuel", "manual");
+            correctionAdd("Manuel", "manual");
 
             correctionAdd("signaling", "signalling");
 
@@ -21388,6 +21401,7 @@ namespace OverflowHelper.core
             correctionAdd("commet", "comment");
             correctionAdd("Commet", "comment");
             correctionAdd("Comment", "comment");
+            correctionAdd("cimment", "comment");
 
             correctionAdd("discurage", "discourage");
 
@@ -27281,6 +27295,9 @@ namespace OverflowHelper.core
 
             correctionAdd("easyer", "easier");
             correctionAdd("more easy", "easier");
+            correctionAdd("Easieser", "easier");
+            correctionAdd("easieser", "easier");
+            correctionAdd("easisier", "easier");
 
             correctionAdd("good manner", "good manners");
 
@@ -28060,6 +28077,7 @@ namespace OverflowHelper.core
             correctionAdd("prety", "pretty");
             correctionAdd("prty", "pretty");
             correctionAdd("preety", "pretty");
+            correctionAdd("preaty", "pretty");
 
             correctionAdd("Pytype", "pytype");
             correctionAdd("PyType", "pytype");
@@ -30636,6 +30654,7 @@ namespace OverflowHelper.core
             correctionAdd("end-up", "end up");
 
             correctionAdd("exta", "extra");
+            correctionAdd("exra", "extra");
 
             correctionAdd("first-hand", "firsthand");
 
@@ -31869,6 +31888,8 @@ namespace OverflowHelper.core
             correctionAdd("Type Ia", "Type Ia supernova");
 
             correctionAdd("volley", "Volley");
+            correctionAdd("volly", "Volley");
+            correctionAdd("Volly", "Volley");
 
             correctionAdd("Calcium", "calcium");
             correctionAdd("Ca", "calcium");
@@ -32462,6 +32483,7 @@ namespace OverflowHelper.core
             correctionAdd("MOD_PHP", "mod_php");
 
             correctionAdd("over writing", "overwriting");
+            correctionAdd("overwiteing", "overwriting");
 
             correctionAdd("galilean relativity", "Galilean relativity");
 
@@ -38303,6 +38325,29 @@ namespace OverflowHelper.core
             correctionAdd("more smart", "smarter");
 
             correctionAdd("window-manager", "window manager");
+
+            correctionAdd("Cantor", "Georg Cantor");
+
+            correctionAdd("Carleson", "Lennart Carleson");
+
+            correctionAdd("Kronecker", "Leopold Kronecker");
+
+            correctionAdd("Lusin", "Lusin's theorem");
+
+            correctionAdd("Penrose", "Roger Penrose");
+
+            correctionAdd("anti-semitism", "anti-Semitism");
+
+            correctionAdd("bad rep", "bad rap");
+
+            correctionAdd("CFT", "conformal field theory");
+
+            correctionAdd("over-looking", "overlooking");
+
+            correctionAdd("snarchy", "snarky");
+
+            correctionAdd("stping", "stopping");
+            correctionAdd("stoping", "stopping");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60251,6 +60296,28 @@ namespace OverflowHelper.core
             URL_Add("smarter", "https://en.wiktionary.org/wiki/smarter#Adjective");
 
             URL_Add("window manager", "https://en.wikipedia.org/wiki/Window_manager");
+
+            URL_Add("Georg Cantor", "https://en.wikipedia.org/wiki/Georg_Cantor");
+
+            URL_Add("Lennart Carleson", "https://en.wikipedia.org/wiki/Lennart_Carleson");
+
+            URL_Add("Leopold Kronecker", "https://en.wikipedia.org/wiki/Leopold_Kronecker");
+
+            URL_Add("Lusin's theorem", "https://en.wikipedia.org/wiki/Lusin%27s_theorem");
+
+            URL_Add("Roger Penrose", "https://en.wikipedia.org/wiki/Roger_Penrose");
+
+            URL_Add("anti-Semitism", "https://en.wiktionary.org/wiki/anti-Semitism#Noun");
+
+            URL_Add("bad rap", "https://en.wiktionary.org/wiki/bad_rap#Noun");
+
+            URL_Add("conformal field theory", "https://en.wikipedia.org/wiki/Conformal_field_theory");
+
+            URL_Add("overlooking", "https://en.wiktionary.org/wiki/overlook#Verb");
+
+            URL_Add("snarky", "https://en.wiktionary.org/wiki/snarky#Adjective");
+
+            URL_Add("stopping", "https://en.wiktionary.org/wiki/stop#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
