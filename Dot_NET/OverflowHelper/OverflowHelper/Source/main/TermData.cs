@@ -1847,6 +1847,9 @@ namespace OverflowHelper.core
             correctionAdd("sierra", "macOS v10.12 (Sierra)");
             correctionAdd("Siera", "macOS v10.12 (Sierra)");
             correctionAdd("macOS 10.12", "macOS v10.12 (Sierra)");
+            correctionAdd("MAC sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("mac sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("Mac sierra", "macOS v10.12 (Sierra)");
             //correctionAdd("mac OS 12", "macOS v10.12 (Sierra)");
             //correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
             //correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
@@ -2654,6 +2657,7 @@ namespace OverflowHelper.core
             correctionAdd("proto", "Express.js");
 
             correctionAdd("expresion", "expression");
+            correctionAdd("Expression", "expression");
 
             // Note: We currently can't support terms ending in full
             //       stop (".") (what was the reason? - SQL issues and/or
@@ -2829,6 +2833,26 @@ namespace OverflowHelper.core
             correctionAdd("moducle", "module");
             correctionAdd("madule", "module");
             correctionAdd("modual", "module");
+
+            correctionAdd("o/p", "output"); // Can it be confused with "OP"?
+            correctionAdd("ouptut", "output");
+            correctionAdd("O/p", "output"); // Can it be confused with "OP"? // Not 100% correct - case.
+            correctionAdd("O/P", "output");
+            correctionAdd("ouput", "output");
+            correctionAdd("OutPut", "output");
+            correctionAdd("out put", "output");
+            correctionAdd("Ouput", "output");
+            correctionAdd("Output", "output");
+            correctionAdd("out out", "output");
+            correctionAdd("outout", "output");
+            correctionAdd("outp", "output");
+            correctionAdd("outoput", "output");
+            correctionAdd("OUT", "output");
+            correctionAdd("out", "output");
+            correctionAdd("putput", "output");
+            correctionAdd("outptut", "output");
+            correctionAdd("outpout", "output");
+            correctionAdd("oupt", "output");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -10895,6 +10919,7 @@ namespace OverflowHelper.core
             correctionAdd("brew", "Homebrew");
             correctionAdd("Brew", "Homebrew");
             correctionAdd("home-brew", "Homebrew");
+            correctionAdd("HomeBrew", "Homebrew");
 
             correctionAdd("EGG", "egg");
 
@@ -11009,25 +11034,6 @@ namespace OverflowHelper.core
             correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts! E.g., "terrabyte"
             correctionAdd("Thunderbir", "Thunderbird");
             correctionAdd("TBird", "Thunderbird");
-
-            correctionAdd("o/p", "output"); // Can it be confused with "OP"?
-            correctionAdd("ouptut", "output");
-            correctionAdd("O/p", "output"); // Can it be confused with "OP"? // Not 100% correct - case.
-            correctionAdd("O/P", "output");
-            correctionAdd("ouput", "output");
-            correctionAdd("OutPut", "output");
-            correctionAdd("out put", "output");
-            correctionAdd("Ouput", "output");
-            correctionAdd("Output", "output");
-            correctionAdd("out out", "output");
-            correctionAdd("outout", "output");
-            correctionAdd("outp", "output");
-            correctionAdd("outoput", "output");
-            correctionAdd("OUT", "output");
-            correctionAdd("out", "output");
-            correctionAdd("putput", "output");
-            correctionAdd("outptut", "output");
-            correctionAdd("outpout", "output");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -11287,6 +11293,7 @@ namespace OverflowHelper.core
             correctionAdd("folllowing", "following");
             correctionAdd("fllowing", "following");
             correctionAdd("fellow", "following");
+            correctionAdd("fowlloing", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -14911,6 +14918,7 @@ namespace OverflowHelper.core
             correctionAdd("Finaly", "finally");
             correctionAdd("fianlly", "finally");
             correctionAdd("finallly", "finally");
+            correctionAdd("finelly", "finally");
 
             correctionAdd("Hydrogen", "hydrogen");
 
@@ -15277,6 +15285,7 @@ namespace OverflowHelper.core
             correctionAdd("Latin-1", "ISO&nbsp;8859-1");
             correctionAdd("iso_8859_1", "ISO&nbsp;8859-1");
             correctionAdd("iso 8859 1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO 8851", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -15596,6 +15605,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Fyi", "FYI");
             correctionAdd("fyi", "FYI");
+            correctionAdd("FTU", "FYI");
 
             correctionAdd("file explorer", "File Explorer");
             correctionAdd("Windows file explorer", "File Explorer");
@@ -15738,6 +15748,7 @@ namespace OverflowHelper.core
             correctionAdd("EXACLTY", "exactly");
             correctionAdd("exaclty", "exactly");
             correctionAdd("extactly", "exactly");
+            correctionAdd("exatly", "exactly");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
             correctionAdd("GRB", "gamma-ray burst");
@@ -15889,6 +15900,7 @@ namespace OverflowHelper.core
             correctionAdd("work force", "workforce");
 
             correctionAdd("net core 3.0", ".NET Core 3.0");
+            correctionAdd("Core 3.0", ".NET Core 3.0");
 
             correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
 
@@ -16683,6 +16695,8 @@ namespace OverflowHelper.core
             correctionAdd("Accroding", "according");
             correctionAdd("According", "according");
             correctionAdd("accroding", "according");
+            correctionAdd("Accodring", "according");
+            correctionAdd("accodring", "according");
 
             correctionAdd("coerse", "coerce");
 
@@ -25042,6 +25056,7 @@ namespace OverflowHelper.core
             correctionAdd("psudo-code", "pseudocode");
             correctionAdd("psudo code", "pseudocode");
             correctionAdd("PSEUDO CODE", "pseudocode");
+            correctionAdd("psedo code", "pseudocode");
 
             correctionAdd("authenticode", "Authenticode");
             correctionAdd("AuthentiCode", "Authenticode");
@@ -25481,6 +25496,7 @@ namespace OverflowHelper.core
             correctionAdd("sublety", "subtlety");
 
             correctionAdd("undefied", "undefined");
+            correctionAdd("ndefined", "undefined");
 
             correctionAdd("understandig", "understanding");
             correctionAdd("udnerstanding", "understanding");
@@ -26786,6 +26802,7 @@ namespace OverflowHelper.core
             correctionAdd("elemnt", "element");
             correctionAdd("elelment", "element");
             correctionAdd("elment", "element");
+            correctionAdd("elememt", "element");
 
             correctionAdd("gut feel", "gut feeling");
 
@@ -26961,6 +26978,7 @@ namespace OverflowHelper.core
             correctionAdd("complexty", "complexity");
             correctionAdd("complexitiy", "complexity");
             correctionAdd("Complexity", "complexity");
+            correctionAdd("comlexity", "complexity");
 
             correctionAdd("declaire", "declare");
             correctionAdd("declere", "declare");
@@ -28378,6 +28396,24 @@ namespace OverflowHelper.core
             correctionAdd("Newton's method", "Newton–Raphson");
             correctionAdd("newton's method", "Newton–Raphson");
 
+            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
+            correctionAdd("newton's first law", "Newton's first law of motion");
+            correctionAdd("Newton's first law", "Newton's first law of motion");
+            correctionAdd("Newton's First Law", "Newton's first law of motion");
+
+            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
+            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
+            correctionAdd("Newton's Second Law", "Newton's second law of motion");
+            correctionAdd("newton's second law", "Newton's second law of motion");
+            correctionAdd("Newton's second law", "Newton's second law of motion");
+
+            correctionAdd("Newton's Third Law", "Newton's third law of motion");
+
+            correctionAdd("newtons laws", "Newton's laws of motion");
+            correctionAdd("Newton's Laws of Motion", "Newton's laws of motion");
+
+            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
+
             correctionAdd("ttl", "TTL");
 
             correctionAdd("Wolfram Alpha", "WolframAlpha");
@@ -29719,6 +29755,7 @@ namespace OverflowHelper.core
             correctionAdd("coniditon", "condition");
             correctionAdd("contition", "condition");
             correctionAdd("condion", "condition");
+            correctionAdd("condtion", "condition");
 
             correctionAdd("earth rays", "earth radiation");
             correctionAdd("Earth ray", "earth radiation");
@@ -31329,10 +31366,6 @@ namespace OverflowHelper.core
 
             correctionAdd("agn", "AGN");
 
-            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
-            correctionAdd("newton's first law", "Newton's first law of motion");
-            correctionAdd("Newton's first law", "Newton's first law of motion");
-
             correctionAdd("simjacking", "SIM swap scam");
             correctionAdd("SIM swapping", "SIM swap scam");
 
@@ -32104,8 +32137,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ftps", "FTPS");
 
-            correctionAdd("newtons laws", "Newton's laws of motion");
-
             correctionAdd("Antimony", "antimony");
             correctionAdd("Sb", "antimony");
 
@@ -32730,8 +32761,6 @@ namespace OverflowHelper.core
             correctionAdd("narcicsts", "narcissists");
 
             correctionAdd("regardles", "regardless");
-
-            correctionAdd("Newton's Third Law", "Newton's third law of motion");
 
             correctionAdd("unices", "Unices");
 
@@ -33668,6 +33697,7 @@ namespace OverflowHelper.core
 
             correctionAdd("time Complexity", "time complexity");
             correctionAdd("Time Complexity", "time complexity");
+            correctionAdd("time comlexity", "time complexity");
 
             correctionAdd("Dialog box", "dialog box");
 
@@ -33722,6 +33752,7 @@ namespace OverflowHelper.core
             correctionAdd("apriori", "a priori");
 
             correctionAdd("neeed", "need");
+            correctionAdd("neet", "need");
 
             correctionAdd("non-unique", "nonunique");
 
@@ -34157,6 +34188,7 @@ namespace OverflowHelper.core
             correctionAdd("bcpl", "BCPL");
 
             correctionAdd("fanatic badge", "Fanatic badge");
+            correctionAdd("Fanatic", "Fanatic badge");
 
             correctionAdd("geronimo", "Geronimo");
 
@@ -35063,10 +35095,6 @@ namespace OverflowHelper.core
 
             correctionAdd("husky", "Husky");
 
-            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
-            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
-            correctionAdd("Newton's Second Law", "Newton's second law of motion");
-
             correctionAdd("ONEPLUS A5000", "OnePlus A5000");
 
             correctionAdd("Richard Stalman", "Richard Stallman");
@@ -35472,6 +35500,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SAA", "South Atlantic Anomaly");
             correctionAdd("South Atlantic Anomnaly", "South Atlantic Anomaly");
+            correctionAdd("south atlantic anomaly", "South Atlantic Anomaly");
 
             correctionAdd("Tyrannosaurus Rex", "T-Rex");
             correctionAdd("T-rex", "T-Rex");
@@ -36977,6 +37006,7 @@ namespace OverflowHelper.core
             correctionAdd("dsp", "digital signal processing");
 
             correctionAdd("extendad", "extended");
+            correctionAdd("extented", "extended");
 
             correctionAdd("gate keep", "gatekeep");
 
@@ -37572,8 +37602,6 @@ namespace OverflowHelper.core
             correctionAdd("3Dnow!", "3DNow");
 
             correctionAdd("GHC", "Glasgow Haskell Compiler");
-
-            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
 
             correctionAdd("PHP6", "PHP&nbsp;6");
             correctionAdd("PHP 6", "PHP&nbsp;6"); // Sort of identity mapping
@@ -38223,6 +38251,7 @@ namespace OverflowHelper.core
             correctionAdd("copy-n-paste", "copy-paste");
             correctionAdd("copy and paste", "copy-paste");
             correctionAdd("copy/paste", "copy-paste");
+            correctionAdd("copy-pasta", "copy-paste");
 
             correctionAdd("Currying", "currying");
 
@@ -38348,6 +38377,48 @@ namespace OverflowHelper.core
 
             correctionAdd("stping", "stopping");
             correctionAdd("stoping", "stopping");
+
+            correctionAdd("MCS-51", "8051");
+
+            correctionAdd("WWDC", "Apple Worldwide Developers Conference");
+
+            correctionAdd("gitx", "GitX");
+
+            correctionAdd("google pixel", "Google Pixel");
+
+            correctionAdd("mortarboard", "Mortarboard");
+
+            correctionAdd("OpenVino", "OpenVINO");
+
+            correctionAdd("Saint Peter", "St. Peter");
+            correctionAdd("St Peter", "St. Peter");
+
+            correctionAdd("unreal", "Unreal Engine");
+
+            correctionAdd("Aufbau principle", "aufbau principle");
+
+            correctionAdd("collapseable", "collapsible");
+
+            correctionAdd("descent", "decent");
+
+            correctionAdd("EFB", "electronic flight bag");
+
+            correctionAdd("explode()", "explode");
+
+            correctionAdd("falacy", "fallacy");
+
+            correctionAdd("Lingua Franca", "lingua franca");
+
+            correctionAdd("Natural Philosopy", "natural philosophy");
+
+            correctionAdd("non-rigid", "nonrigid");
+            correctionAdd("non rigid", "nonrigid");
+
+            correctionAdd("rcord", "record");
+
+            correctionAdd("tooked", "took");
+
+            correctionAdd("X86", "x86");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60319,6 +60390,46 @@ namespace OverflowHelper.core
 
             URL_Add("stopping", "https://en.wiktionary.org/wiki/stop#Verb");
 
+            URL_Add("8051", "https://en.wikipedia.org/wiki/Intel_8051");
+
+            URL_Add("Apple Worldwide Developers Conference", "https://en.wikipedia.org/wiki/Apple_Worldwide_Developers_Conference");
+
+            URL_Add("GitX", "http://rowanj.github.io/gitx/");
+
+            URL_Add("Google Pixel", "https://en.wikipedia.org/wiki/Google_Pixel");
+
+            URL_Add("Mortarboard", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("OpenVINO", "https://en.wikipedia.org/wiki/OpenVINO");
+
+            URL_Add("St. Peter", "https://en.wikipedia.org/wiki/Saint_Peter");
+
+            URL_Add("Unreal Engine", "https://en.wikipedia.org/wiki/Unreal_Engine#Unreal_Engine_3");
+
+            URL_Add("aufbau principle", "https://en.wikipedia.org/wiki/Aufbau_principle");
+
+            URL_Add("collapsible", "https://en.wiktionary.org/wiki/collapsible#Adjective");
+
+            URL_Add("decent", "https://en.wiktionary.org/wiki/decent#Adjective");
+
+            URL_Add("electronic flight bag", "https://en.wikipedia.org/wiki/Electronic_flight_bag");
+
+            URL_Add("explode", "https://www.php.net/manual/en/function.explode.php");
+
+            URL_Add("fallacy", "https://en.wiktionary.org/wiki/fallacy#Noun");
+
+            URL_Add("lingua franca", "https://en.wiktionary.org/wiki/lingua_franca#Noun");
+
+            URL_Add("natural philosophy", "https://en.wikipedia.org/wiki/Natural_philosophy");
+
+            URL_Add("nonrigid", "https://en.wiktionary.org/wiki/nonrigid#Adjective");
+
+            URL_Add("record", "https://en.wiktionary.org/wiki/record#Noun");
+
+            URL_Add("took", "https://en.wiktionary.org/wiki/take#Verb");
+
+            URL_Add("x86", "https://en.wikipedia.org/wiki/IA-32");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60794,6 +60905,8 @@ namespace OverflowHelper.core
 
             correctionAdd("S/O_", "significant other_");
 
+            correctionAdd("IB_", "International Baccalaureate_");
+
             // URL mappings
             //
             //
@@ -61112,6 +61225,8 @@ namespace OverflowHelper.core
             URL_Add("foreign exchange market_", "https://en.wikipedia.org/wiki/Foreign_exchange_market");
 
             URL_Add("significant other_", "https://en.wiktionary.org/wiki/significant_other#Noun");
+
+            URL_Add("International Baccalaureate_", "https://en.wikipedia.org/wiki/International_Baccalaureate");
 
         } //addLookupData_alternativeWordSet()
 
