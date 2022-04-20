@@ -2294,6 +2294,9 @@ namespace OverflowHelper.core
 
             correctionAdd("powershell core", "PowerShell Core");
             correctionAdd("Powershell Core", "PowerShell Core");
+            correctionAdd("PSCore", "PowerShell Core");
+            correctionAdd("PS Core", "PowerShell Core");
+            correctionAdd("Powershell core", "PowerShell Core");
 
             correctionAdd("P.S", "post scriptum"); // Note: We don't have "PS" as it conflicts with "PowerShell".
             correctionAdd("P.s", "post scriptum");
@@ -28137,6 +28140,7 @@ namespace OverflowHelper.core
             correctionAdd("Stinkpad", "ThinkPad");
             correctionAdd("IBM Thinkpad", "ThinkPad");
             correctionAdd("IBM ThinkPad", "ThinkPad");
+            correctionAdd("Thinkpad", "ThinkPad");
 
             correctionAdd("zorin", "Zorin OS");
             correctionAdd("ZorinOS", "Zorin OS");
@@ -38419,6 +38423,8 @@ namespace OverflowHelper.core
             correctionAdd("tooked", "took");
 
             correctionAdd("X86", "x86");
+
+            correctionAdd("Design system", "design system");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60429,6 +60435,8 @@ namespace OverflowHelper.core
             URL_Add("took", "https://en.wiktionary.org/wiki/take#Verb");
 
             URL_Add("x86", "https://en.wikipedia.org/wiki/IA-32");
+
+            URL_Add("design system", "https://en.wikipedia.org/wiki/Design_system");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
