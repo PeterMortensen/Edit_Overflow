@@ -13987,6 +13987,7 @@ namespace OverflowHelper.core
             correctionAdd("brough", "brought");
 
             correctionAdd("certianly", "certainly");
+            correctionAdd("certanly", "certainly");
 
             correctionAdd("critisicm", "criticism");
             correctionAdd("critisism", "criticism");
@@ -26070,6 +26071,7 @@ namespace OverflowHelper.core
 
             correctionAdd("nixos", "NixOS");
             correctionAdd("Nix OS", "NixOS");
+            correctionAdd("Nix Os", "NixOS");
 
             correctionAdd("notepadqq", "Notepadqq");
 
@@ -34283,6 +34285,7 @@ namespace OverflowHelper.core
             correctionAdd("Endeavour OS", "EndeavourOS");
             correctionAdd("Endevor", "EndeavourOS");
             correctionAdd("Endeavour", "EndeavourOS");
+            correctionAdd("endeavour os", "EndeavourOS");
 
             correctionAdd("IvyBridge", "Ivy Bridge");
 
@@ -37303,7 +37306,7 @@ namespace OverflowHelper.core
 
             correctionAdd("htmlentities()", "htmlentities");
 
-            correctionAdd("mb_detect_encoding()", "mb-detect-encoding");
+            correctionAdd("mb_detect_encoding()", "mb_detect_encoding");
 
             correctionAdd("Neutron Star", "neutron star");
 
@@ -38425,6 +38428,12 @@ namespace OverflowHelper.core
             correctionAdd("X86", "x86");
 
             correctionAdd("Design system", "design system");
+
+            correctionAdd("Tolstoy", "Leo Tolstoy");
+
+            correctionAdd("pureos", "PureOS");
+
+            correctionAdd("trisquel", "Trisquel");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59424,7 +59433,7 @@ namespace OverflowHelper.core
 
             URL_Add("htmlentities", "https://www.php.net/manual/en/function.htmlentities.php");
 
-            URL_Add("mb-detect-encoding", "https://www.php.net/manual/de/function.mb-detect-encoding.php");
+            URL_Add("mb_detect_encoding", "https://www.php.net/manual/de/function.mb-detect-encoding.php");
 
             URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
 
@@ -60437,6 +60446,12 @@ namespace OverflowHelper.core
             URL_Add("x86", "https://en.wikipedia.org/wiki/IA-32");
 
             URL_Add("design system", "https://en.wikipedia.org/wiki/Design_system");
+
+            URL_Add("Leo Tolstoy", "https://en.wikipedia.org/wiki/Leo_Tolstoy");
+
+            URL_Add("PureOS", "https://en.wikipedia.org/wiki/PureOS");
+
+            URL_Add("Trisquel", "https://en.wikipedia.org/wiki/Trisquel");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
