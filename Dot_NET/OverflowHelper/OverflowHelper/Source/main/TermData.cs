@@ -1096,6 +1096,7 @@ namespace OverflowHelper.core
             correctionAdd("SQLServer2000", "SQL Server 2000");
             correctionAdd("SQL 2000", "SQL Server 2000");
             correctionAdd("sql server 2000", "SQL Server 2000");
+            correctionAdd("SQL SERVER 2000", "SQL Server 2000");
 
             correctionAdd("sql2005", "SQL Server 2005");
             correctionAdd("sql server 2005", "SQL Server 2005");
@@ -1113,6 +1114,7 @@ namespace OverflowHelper.core
             correctionAdd("MS SQL 2005", "SQL Server 2005");
             correctionAdd("MSSQL 2005", "SQL Server 2005");
             correctionAdd("SQLServer 2005", "SQL Server 2005");
+            correctionAdd("SQL SERVER 2005", "SQL Server 2005");
 
             correctionAdd("sql server 2008", "SQL Server 2008");
             correctionAdd("SQL 2008", "SQL Server 2008");
@@ -9020,6 +9022,7 @@ namespace OverflowHelper.core
             correctionAdd("squeak", "Squeak");
 
             correctionAdd("argb", "ARGB");
+            correctionAdd("aRGB", "ARGB");
 
             correctionAdd("rgb", "RGB");
             correctionAdd("rbg", "RGB"); // Letter order (typo)
@@ -14960,6 +14963,7 @@ namespace OverflowHelper.core
             correctionAdd("coloumn", "column");
             correctionAdd("Coloum", "column");
             correctionAdd("coloum", "column");
+            correctionAdd("Column", "column");
 
             correctionAdd("crated", "created");
             correctionAdd("creaded", "created");
@@ -32604,6 +32608,7 @@ namespace OverflowHelper.core
             correctionAdd("Right-click", "right-click");
             correctionAdd("rigth click", "right-click");
             correctionAdd("Right click", "right-click");
+            correctionAdd("rt-click", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -34519,6 +34524,9 @@ namespace OverflowHelper.core
             correctionAdd("aurelia", "Aurelia");
 
             correctionAdd("dbeaver", "DBeaver");
+            correctionAdd("DBWeaver", "DBeaver");
+            correctionAdd("DB Weaver", "DBeaver");
+            correctionAdd("DBEaver", "DBeaver");
 
             correctionAdd("haproxy", "HAProxy");
 
@@ -38434,6 +38442,14 @@ namespace OverflowHelper.core
             correctionAdd("pureos", "PureOS");
 
             correctionAdd("trisquel", "Trisquel");
+
+            correctionAdd("entity-relation diagram", "entity–relationship diagram");
+            correctionAdd("ER-Diagram", "entity–relationship diagram");
+            correctionAdd("ER Diagram", "entity–relationship diagram");
+            correctionAdd("ER diagram", "entity–relationship diagram");
+            correctionAdd("Entity-relation diagram", "entity–relationship diagram");
+
+            correctionAdd("higher res", "higher-resolution");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60452,6 +60468,10 @@ namespace OverflowHelper.core
             URL_Add("PureOS", "https://en.wikipedia.org/wiki/PureOS");
 
             URL_Add("Trisquel", "https://en.wikipedia.org/wiki/Trisquel");
+
+            URL_Add("entity–relationship diagram", "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Entity%E2%80%93relationship_model");
+
+            URL_Add("higher-resolution", "https://en.wiktionary.org/wiki/higher-resolution#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
