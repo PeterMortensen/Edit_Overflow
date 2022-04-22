@@ -516,6 +516,7 @@ namespace OverflowHelper.core
             correctionAdd("u tube", "YouTube");
             correctionAdd("utube", "YouTube");
             correctionAdd("Utube", "YouTube");
+            correctionAdd("screwtube", "YouTube"); // Other interpretations are possible...
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -1906,6 +1907,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac (Catalina)", "macOS v10.15 (Catalina)");
             correctionAdd("mac 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac 10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("MacOS 10.15", "macOS v10.15 (Catalina)");
 
             correctionAdd("Mac Os", "macOS");
             correctionAdd("MacOs", "macOS");
@@ -4302,6 +4304,7 @@ namespace OverflowHelper.core
 
             correctionAdd("buid", "build");
             correctionAdd("bulid", "build");
+            correctionAdd("buidl", "build");
 
             correctionAdd("cocoa", "Cocoa");
 
@@ -7137,6 +7140,7 @@ namespace OverflowHelper.core
             correctionAdd("I m", "I’m");
             correctionAdd("I,m", "I’m");
             correctionAdd("I 'm", "I’m");
+            correctionAdd("II'm", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -8086,6 +8090,7 @@ namespace OverflowHelper.core
             correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
             correctionAdd("entityframwork", "ADO.NET Entity Framework");
             correctionAdd("Enity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entity FrameWork", "ADO.NET Entity Framework");
 
             correctionAdd("zend", "Zend Framework");
             correctionAdd("Zend", "Zend Framework");
@@ -12402,6 +12407,7 @@ namespace OverflowHelper.core
             correctionAdd("receave", "receive");
             correctionAdd("rx", "receive");
             correctionAdd("receieve", "receive");
+            correctionAdd("recceive", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -15294,6 +15300,8 @@ namespace OverflowHelper.core
             correctionAdd("iso_8859_1", "ISO&nbsp;8859-1");
             correctionAdd("iso 8859 1", "ISO&nbsp;8859-1");
             correctionAdd("ISO 8851", "ISO&nbsp;8859-1");
+            correctionAdd("latin1", "ISO&nbsp;8859-1");
+            correctionAdd("Latin 1", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -24373,6 +24381,7 @@ namespace OverflowHelper.core
             correctionAdd("austrailia", "Australia");
             correctionAdd("Oz", "Australia");
             correctionAdd("OZ", "Australia");
+            correctionAdd("Aussie land", "Australia");
 
             correctionAdd("gdpr", "GDPR");
             correctionAdd("GDRP", "GDPR");
@@ -28952,6 +28961,9 @@ namespace OverflowHelper.core
             correctionAdd("manufactoring", "manufacturing");
 
             correctionAdd("plist", "p-list file");
+            correctionAdd("Info.plist", "p-list file");
+            correctionAdd("info.plist", "p-list file");
+            correctionAdd("plist file", "p-list file");
 
             correctionAdd("vauge", "vague");
             correctionAdd("wage", "vague");
@@ -30198,6 +30210,8 @@ namespace OverflowHelper.core
 
             correctionAdd("LSP", "Language Server Protocol");
             correctionAdd("Language Server protocol", "Language Server Protocol");
+            correctionAdd("Language Server", "Language Server Protocol");
+            correctionAdd("lsp", "Language Server Protocol");
 
             correctionAdd("programming perl", "Programming Perl");
 
@@ -34908,6 +34922,8 @@ namespace OverflowHelper.core
 
             correctionAdd("PCA", "principal component analysis");
             correctionAdd("Principal Component Analysis", "principal component analysis");
+            correctionAdd("Peripheral Component Analysis", "principal component analysis");
+            correctionAdd("peripheral component analysis", "principal component analysis");
 
             correctionAdd("publickey", "public key");
 
@@ -36322,6 +36338,7 @@ namespace OverflowHelper.core
             correctionAdd("Captain", "captain");
 
             correctionAdd("Drag", "drag");
+            correctionAdd("draq", "drag");
 
             correctionAdd("EXEC", "exec");
 
@@ -36808,6 +36825,8 @@ namespace OverflowHelper.core
             correctionAdd("web spider", "Web crawler");
             correctionAdd("Web spider", "Web crawler");
             correctionAdd("spider", "Web crawler");
+            correctionAdd("Cralwer", "Web crawler");
+            correctionAdd("cralwer", "Web crawler");
 
             correctionAdd("consumer grade", "consumer-grade");
 
@@ -37751,6 +37770,7 @@ namespace OverflowHelper.core
             correctionAdd("jamaican", "Jamaican");
 
             correctionAdd("markov chain", "Markov chain");
+            correctionAdd("Markov's chain", "Markov chain");
 
             correctionAdd("windows terminal", "Windows Terminal");
             correctionAdd("window's terminal", "Windows Terminal");
@@ -38100,6 +38120,8 @@ namespace OverflowHelper.core
 
             correctionAdd("code-insider", "Visual Studio Code Insiders");
             correctionAdd("Visual Studio Code Insiders build", "Visual Studio Code Insiders");
+            correctionAdd("insiders build", "Visual Studio Code Insiders");
+            correctionAdd("insiders", "Visual Studio Code Insiders");
 
             correctionAdd("Dysautonomia", "dysautonomia");
 
@@ -38144,6 +38166,7 @@ namespace OverflowHelper.core
             correctionAdd("evalute", "evaluate");
 
             correctionAdd("plugg", "plug");
+            correctionAdd("pulg", "plug");
 
             correctionAdd("reistered", "registered");
 
@@ -38450,6 +38473,65 @@ namespace OverflowHelper.core
             correctionAdd("Entity-relation diagram", "entity–relationship diagram");
 
             correctionAdd("higher res", "higher-resolution");
+
+            correctionAdd("ant design", "Ant Design");
+
+            correctionAdd("DeTeXify", "Detexify");
+
+            correctionAdd("hexo", "Hexo");
+
+            correctionAdd("liquid", "Liquid");
+
+            correctionAdd("mojibake", "Mojibake");
+
+            correctionAdd("oscommerce", "OsCommerce");
+
+            correctionAdd("pine64", "Pine64");
+
+            correctionAdd("stoneage", "Stone Age");
+
+            correctionAdd("VT-100", "VT100");
+
+            correctionAdd("Viola Jones algorithm", "Viola–Jones object detection framework");
+
+            correctionAdd("vite", "Vite");
+
+            correctionAdd("lang-sql", "```lang-sql");
+
+            correctionAdd("bread crumb", "breadcrumb");
+
+            correctionAdd("bread crumb trail", "breadcrumb trail");
+
+            correctionAdd("Calcite", "calcite");
+
+            correctionAdd("Calcium phosphate", "calcium phosphate");
+
+            correctionAdd("code completetion", "code completion");
+
+            correctionAdd("emc", "electromagnetic compatibility");
+            correctionAdd("EMC", "electromagnetic compatibility");
+
+            correctionAdd("Face Recognition", "face recognition");
+
+            correctionAdd("follow suite", "follow suit");
+
+            correctionAdd("IPhone SE", "iPhone SE");
+
+            correctionAdd("jsconfig", "jsconfig.json");
+
+            correctionAdd("mid sentence", "midsentence");
+
+            correctionAdd("nutz", "nuts");
+
+            correctionAdd("repsentation", "representation");
+
+            correctionAdd("robots.txt", "robots exclusion standard");
+
+            correctionAdd("sea star", "starfish");
+            correctionAdd("star fish", "starfish");
+            correctionAdd("Starfish", "starfish");
+
+            correctionAdd("virually", "virtually");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60473,6 +60555,62 @@ namespace OverflowHelper.core
 
             URL_Add("higher-resolution", "https://en.wiktionary.org/wiki/higher-resolution#Adjective");
 
+            URL_Add("Ant Design", "https://ant.design/docs/react/introduce");
+
+            URL_Add("Detexify", "https://detexify.kirelabs.org/classify.html");
+
+            URL_Add("Hexo", "https://hexo.io/");
+
+            URL_Add("Liquid", "http://shopify.github.io/liquid/");
+
+            URL_Add("Mojibake", "https://en.wikipedia.org/wiki/Mojibake");
+
+            URL_Add("OsCommerce", "https://en.wikipedia.org/wiki/OsCommerce");
+
+            URL_Add("Pine64", "https://en.wikipedia.org/wiki/Pine64");
+
+            URL_Add("Stone Age", "https://en.wiktionary.org/wiki/Stone_Age#Proper_noun");
+
+            URL_Add("VT100", "https://en.wikipedia.org/wiki/VT100");
+
+            URL_Add("Viola–Jones object detection framework", "https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework");
+
+            URL_Add("Vite", "https://stackoverflow.com/tags/vite/info");
+
+            URL_Add("```lang-sql", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("breadcrumb", "https://en.wiktionary.org/wiki/breadcrumb#Noun");
+
+            URL_Add("breadcrumb trail", "https://en.wikipedia.org/wiki/Breadcrumb_navigation");
+
+            URL_Add("calcite", "https://en.wikipedia.org/wiki/Calcite");
+
+            URL_Add("calcium phosphate", "https://en.wikipedia.org/wiki/Calcium_phosphate");
+
+            URL_Add("code completion", "https://en.wikipedia.org/wiki/Autocomplete#In_source_code_editors");
+
+            URL_Add("electromagnetic compatibility", "https://en.wikipedia.org/wiki/Electromagnetic_compatibility");
+
+            URL_Add("face recognition", "https://en.wikipedia.org/wiki/Facial_recognition_system");
+
+            URL_Add("follow suit", "https://en.wiktionary.org/wiki/follow_suit#Verb");
+
+            URL_Add("iPhone SE", "https://en.wikipedia.org/wiki/IPhone_SE_(1st_generation)");
+
+            URL_Add("jsconfig.json", "https://code.visualstudio.com/docs/languages/jsconfig");
+
+            URL_Add("midsentence", "https://en.wiktionary.org/wiki/midsentence#Adjective");
+
+            URL_Add("nuts", "https://en.wiktionary.org/wiki/go_nuts#Verb");
+
+            URL_Add("representation", "https://en.wiktionary.org/wiki/representation#Noun");
+
+            URL_Add("robots exclusion standard", "https://en.wikipedia.org/wiki/Robots_exclusion_standard");
+
+            URL_Add("starfish", "https://en.wikipedia.org/wiki/Starfish");
+
+            URL_Add("virtually", "https://en.wiktionary.org/wiki/virtually#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -60950,6 +61088,9 @@ namespace OverflowHelper.core
 
             correctionAdd("IB_", "International Baccalaureate_");
 
+            correctionAdd("dsl_", "digital subscriber line_");
+            correctionAdd("DSL_", "digital subscriber line_");
+
             // URL mappings
             //
             //
@@ -61270,6 +61411,8 @@ namespace OverflowHelper.core
             URL_Add("significant other_", "https://en.wiktionary.org/wiki/significant_other#Noun");
 
             URL_Add("International Baccalaureate_", "https://en.wikipedia.org/wiki/International_Baccalaureate");
+
+            URL_Add("digital subscriber line_", "https://en.wikipedia.org/wiki/Digital_subscriber_line");
 
         } //addLookupData_alternativeWordSet()
 
