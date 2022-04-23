@@ -2427,6 +2427,7 @@ namespace OverflowHelper.core
             correctionAdd("cross validated", "Cross Validated (Stack Exchange site)");
             correctionAdd("CrossValidated", "Cross Validated (Stack Exchange site)");
             correctionAdd("Stats.SE", "Cross Validated (Stack Exchange site)");
+            correctionAdd("stats.stackexchange.com", "Cross Validated (Stack Exchange site)");
 
             correctionAdd("english.se", "English Language & Usage (Stack Exchange site)");
             correctionAdd("English language and usage", "English Language & Usage (Stack Exchange site)");
@@ -2587,6 +2588,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Medical Sciences", "Medical Sciences (Stack Exchange site)");
             correctionAdd("Medical SE", "Medical Sciences (Stack Exchange site)");
+            correctionAdd("Life Sciences", "Medical Sciences (Stack Exchange site)");
 
             correctionAdd("Lifehacks", "Lifehacks (Stack Exchange site)");
 
@@ -5960,6 +5962,7 @@ namespace OverflowHelper.core
             correctionAdd("parametera", "parameter"); // Some other language? Plural?
             correctionAdd("parameters", "parameter"); // Not 100% correct - plural.
             correctionAdd("parametres", "parameter");
+            correctionAdd("Params", "parameter");
 
             correctionAdd("chars", "characters"); // Expansion.
             correctionAdd("char", "characters"); // Expansion, not 100% correct. Add a plural feature?
@@ -12866,6 +12869,7 @@ namespace OverflowHelper.core
             correctionAdd("you´re", "you’re");
             correctionAdd("you re", "you’re");
             correctionAdd("you're", "you’re");
+            correctionAdd("You're", "you’re");
 
             correctionAdd("no one knows you're a dog", "On the Internet, nobody knows you’re a dog");
             correctionAdd("On the Internet, nobody knows you're a dog", "On the Internet, nobody knows you’re a dog");
@@ -12917,6 +12921,7 @@ namespace OverflowHelper.core
             correctionAdd("akshually", "actually");
             correctionAdd("actuall", "actually");
             correctionAdd("ackshually", "actually");
+            correctionAdd("ackchyually", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -15569,6 +15574,7 @@ namespace OverflowHelper.core
             correctionAdd("simultaneusly", "simultaneously");
             correctionAdd("Simultaniously", "simultaneously");
             correctionAdd("simultaniously", "simultaneously");
+            correctionAdd("simultanius", "simultaneously");
 
             correctionAdd("sligtly", "slightly");
             correctionAdd("slighty", "slightly");
@@ -16540,6 +16546,9 @@ namespace OverflowHelper.core
             correctionAdd("Hello", "Hello, World!");
             correctionAdd("HelloWord", "Hello, World!");
             correctionAdd("HelloWorld", "Hello, World!");
+            correctionAdd("hellow World", "Hello, World!");
+            correctionAdd("hellow world", "Hello, World!");
+            correctionAdd("hello, world!", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -16993,6 +17002,7 @@ namespace OverflowHelper.core
             correctionAdd("cent os", "CentOS");
             correctionAdd("centOs", "CentOS");
             correctionAdd("CentoS", "CentOS");
+            correctionAdd("cent", "CentOS");
 
             correctionAdd("freertos", "FreeRTOS");
             correctionAdd("freeRTOS", "FreeRTOS");
@@ -17683,6 +17693,7 @@ namespace OverflowHelper.core
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
             correctionAdd("highlighitng", "highlighting");
+            correctionAdd("high-lighting", "highlighting");
 
             correctionAdd("misterious", "mysterious");
 
@@ -18651,6 +18662,7 @@ namespace OverflowHelper.core
             correctionAdd("software change management", "source control management");
 
             correctionAdd("syle", "style");
+            correctionAdd("sytle", "style");
 
             correctionAdd("TEST", "test");
 
@@ -19022,6 +19034,7 @@ namespace OverflowHelper.core
             correctionAdd("attrbute", "attribute");
             correctionAdd("attribure", "attribute");
             correctionAdd("attr", "attribute");
+            correctionAdd("atrribute", "attribute");
 
             correctionAdd("conjuction", "conjunction");
 
@@ -21673,6 +21686,7 @@ namespace OverflowHelper.core
             correctionAdd("Salt", "SaltStack");
 
             correctionAdd("adivising", "advising");
+            correctionAdd("advicing", "advising");
 
             correctionAdd("averaring", "averaging");
 
@@ -24442,6 +24456,8 @@ namespace OverflowHelper.core
 
             correctionAdd("NaCl", "sodium chloride");
             correctionAdd("salt", "sodium chloride");
+            correctionAdd("Soidum Chloride", "sodium chloride");
+            correctionAdd("Sodium Chloride", "sodium chloride");
 
             correctionAdd("overide", "override");
             correctionAdd("Overide", "override");
@@ -25126,6 +25142,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sourcecode", "source code");
             correctionAdd("Source Code", "source code");
+            correctionAdd("source-code", "source code");
 
             correctionAdd("op code", "opcode");
             correctionAdd("opCode", "opcode");
@@ -30136,6 +30153,7 @@ namespace OverflowHelper.core
             correctionAdd("MD5SUM", "md5sum");
 
             correctionAdd("SERP", "search engine results page");
+            correctionAdd("Search Engine Results Page", "search engine results page");
 
             correctionAdd("seding", "sending");
 
@@ -32637,6 +32655,7 @@ namespace OverflowHelper.core
             correctionAdd("deccelerated", "decelerated");
 
             correctionAdd("FD", "file descriptor");
+            correctionAdd("fd", "file descriptor");
 
             correctionAdd("inp", "input (also output)");
             correctionAdd("i/p", "input (also output)");
@@ -35603,6 +35622,7 @@ namespace OverflowHelper.core
             correctionAdd("busses", "buses");
 
             correctionAdd("LSUSB", "lsusb");
+            correctionAdd("lsub", "lsusb");
 
             correctionAdd("awail", "no avail");
             correctionAdd("no awail", "no avail");
@@ -36022,6 +36042,7 @@ namespace OverflowHelper.core
             correctionAdd("al", "all");
 
             correctionAdd("contein", "contain");
+            correctionAdd("constain", "contain");
 
             correctionAdd("creatign", "creating");
 
@@ -38532,6 +38553,27 @@ namespace OverflowHelper.core
             correctionAdd("Starfish", "starfish");
 
             correctionAdd("virually", "virtually");
+
+            correctionAdd("avl tree", "AVL tree");
+
+            correctionAdd("photino", "Photino");
+
+            correctionAdd("xorg", "X.Org Server");
+
+            correctionAdd("Citizen", "citizen");
+
+            correctionAdd("indetifies", "identifies");
+
+            correctionAdd("ingnored", "ignored");
+
+            correctionAdd("Octahedron", "octahedron");
+
+            correctionAdd("Potassium Chloride", "potassium chloride");
+
+            correctionAdd("random forest", "random decision forest");
+            correctionAdd("Random Forest", "random decision forest");
+
+            correctionAdd("Tetragonal", "tetragonal");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60611,6 +60653,26 @@ namespace OverflowHelper.core
 
             URL_Add("virtually", "https://en.wiktionary.org/wiki/virtually#Adverb");
 
+            URL_Add("AVL tree", "https://en.wikipedia.org/wiki/AVL_tree");
+
+            URL_Add("Photino", "https://www.tryphotino.io/");
+
+            URL_Add("X.Org Server", "https://en.wikipedia.org/wiki/X.Org_Server");
+
+            URL_Add("citizen", "https://en.wiktionary.org/wiki/citizen#Noun");
+
+            URL_Add("identifies", "https://en.wiktionary.org/wiki/identify#Verb");
+
+            URL_Add("ignored", "https://en.wiktionary.org/wiki/ignore#Verb");
+
+            URL_Add("octahedron", "https://en.wiktionary.org/wiki/octahedron#Noun");
+
+            URL_Add("potassium chloride", "https://en.wikipedia.org/wiki/Potassium_chloride");
+
+            URL_Add("random decision forest", "https://en.wikipedia.org/wiki/Random_forest");
+
+            URL_Add("tetragonal", "https://en.wiktionary.org/wiki/tetragonal#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61091,6 +61153,9 @@ namespace OverflowHelper.core
             correctionAdd("dsl_", "digital subscriber line_");
             correctionAdd("DSL_", "digital subscriber line_");
 
+            correctionAdd("christianity_", "Christianity (Stack Exchange site)_");
+            correctionAdd("Christianity_", "Christianity (Stack Exchange site)_");
+
             // URL mappings
             //
             //
@@ -61413,6 +61478,8 @@ namespace OverflowHelper.core
             URL_Add("International Baccalaureate_", "https://en.wikipedia.org/wiki/International_Baccalaureate");
 
             URL_Add("digital subscriber line_", "https://en.wikipedia.org/wiki/Digital_subscriber_line");
+
+            URL_Add("Christianity (Stack Exchange site)_", "https://christianity.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
