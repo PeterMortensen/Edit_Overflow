@@ -1682,12 +1682,12 @@ echo
 
 # This will detect if the script is misconfigured...
 # E.g. incorrect user folder.
-createFolder $WORKFOLDER1                    2
-createFolder $WORKFOLDER2                    2
-createFolder $WORKFOLDER3                    2
-createFolder $WORKFOLDER                     2
-createFolder $FTPTRANSFER_FOLDER_HTML        2
-createFolder $FTPTRANSFER_FOLDER_JAVASCRIPT  2
+createFolder $WORKFOLDER1                    1
+createFolder $WORKFOLDER2                    1
+createFolder $WORKFOLDER3                    1
+createFolder $WORKFOLDER                     1
+createFolder $FTPTRANSFER_FOLDER_HTML        1
+createFolder $FTPTRANSFER_FOLDER_JAVASCRIPT  1
 
 # This will fail if LAMP (in particular,
 # Apache) has not been installed
@@ -2526,7 +2526,7 @@ rm $JAVASCRIPT_FILE
 #       2022-01-25: 2512025 bytes
 #
 # Note: The same build number
-wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2510000 2760000
+wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2560000 2820000
 
 #exit
 
