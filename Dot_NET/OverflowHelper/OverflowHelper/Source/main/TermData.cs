@@ -442,6 +442,7 @@ namespace OverflowHelper.core
             correctionAdd("Windowd", "Windows");
             correctionAdd("wondows", "Windows");
             correctionAdd("Window", "Windows");
+            correctionAdd("Windown", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -2863,6 +2864,63 @@ namespace OverflowHelper.core
             correctionAdd("outpout", "output");
             correctionAdd("oupt", "output");
 
+            correctionAdd("oprofile", "OProfile");
+            correctionAdd("Oprofile", "OProfile");
+
+            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("dll file", "DLL file");
+            correctionAdd("DLLs", "DLL file");
+            correctionAdd("dll-file", "DLL file");
+            correctionAdd("Dynamic Link Library", "DLL file");
+
+            correctionAdd("hosts", "hosts file");
+            correctionAdd("host file", "hosts file");
+
+            correctionAdd(".exe", "EXE file");
+            correctionAdd("exe", "EXE file");
+            correctionAdd("Exe", "EXE file");
+            correctionAdd("EXE", "EXE file");
+            correctionAdd("exe file", "EXE file");
+            correctionAdd("exe-file", "EXE file");
+
+            correctionAdd("bashrc", ".bashrc file");
+            correctionAdd(".bashrc", ".bashrc file");
+
+            correctionAdd(".profile", ".profile file");
+
+            correctionAdd("fiel", "file");
+            correctionAdd("fiie", "file");
+            correctionAdd("File", "file");
+
+            correctionAdd("Page file", "page file");
+            correctionAdd("Page File", "page file");
+
+            correctionAdd("plist", "p-list file");
+            correctionAdd("Info.plist", "p-list file");
+            correctionAdd("info.plist", "p-list file");
+            correctionAdd("plist file", "p-list file");
+
+            correctionAdd("textfile", "text file");
+
+            correctionAdd("gitignore", ".gitignore file");
+            correctionAdd(".gitignore", ".gitignore file");
+
+            correctionAdd("bash_profile", ".bash_profile");
+            correctionAdd("bashprofile", ".bash_profile");
+
+            correctionAdd("docker file", "Dockerfile");
+            correctionAdd("dockerfile", "Dockerfile");
+            correctionAdd("DockerFIle", "Dockerfile");
+            correctionAdd("DockerFile", "Dockerfile");
+            correctionAdd("Docker file", "Dockerfile");
+
+            correctionAdd("Make file", "Makefile");
+            correctionAdd("makefile", "Makefile");
+            correctionAdd("GNUmakefile", "Makefile");
+            correctionAdd("GNU makefile", "Makefile");
+
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
@@ -4307,6 +4365,8 @@ namespace OverflowHelper.core
             correctionAdd("buid", "build");
             correctionAdd("bulid", "build");
             correctionAdd("buidl", "build");
+            correctionAdd("Buil", "build");
+            correctionAdd("Build", "build");
 
             correctionAdd("cocoa", "Cocoa");
 
@@ -5918,6 +5978,7 @@ namespace OverflowHelper.core
             correctionAdd("informaton", "information");
             correctionAdd("infrormation", "information");
             correctionAdd("informtion", "information");
+            correctionAdd("Information", "information");
 
             correctionAdd("stats", "statistics");
             correctionAdd("stasistics", "statistics");
@@ -11916,6 +11977,7 @@ namespace OverflowHelper.core
             correctionAdd("Gralde", "Gradle");
             correctionAdd("Graddle", "Gradle");
             correctionAdd("grandle", "Gradle");
+            correctionAdd("Gradl", "Gradle");
 
             correctionAdd("Silican Valley", "Silicon Valley");
             correctionAdd("silicon valley", "Silicon Valley");
@@ -12812,6 +12874,7 @@ namespace OverflowHelper.core
             correctionAdd("all together", "altogether");
             correctionAdd("alltogether", "altogether");
             correctionAdd("altogeher", "altogether");
+            correctionAdd("all-together", "altogether");
 
             correctionAdd("middle east", "Middle East");
 
@@ -13331,6 +13394,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows credential manager", "Credential Manager");
             correctionAdd("Windows Credential Manager", "Credential Manager");
             correctionAdd("credentials manager", "Credential Manager");
+            correctionAdd("credential Manager", "Credential Manager");
 
             correctionAdd("react", "React");
             correctionAdd("reactjs", "React");
@@ -14937,6 +15001,7 @@ namespace OverflowHelper.core
             correctionAdd("fianlly", "finally");
             correctionAdd("finallly", "finally");
             correctionAdd("finelly", "finally");
+            correctionAdd("finely", "finally");
 
             correctionAdd("Hydrogen", "hydrogen");
 
@@ -15109,11 +15174,18 @@ namespace OverflowHelper.core
             //                                  in the lookup...:
             //
             //                                  "Could not lookup voil!"
+            //
+            //                                  Though it is not a problem
+            //                                  in the Edit Overflow
+            //                                  web interface.
             correctionAdd("Voila", "voilà");
             correctionAdd("Viola", "voilà");
             correctionAdd("viola", "voilà");
             correctionAdd("Voilá", "voilà");
             correctionAdd("VOILA", "voilà");
+            correctionAdd("Walia!", "voilà");
+            correctionAdd("Walia", "voilà");
+            correctionAdd("walia", "voilà");
 
             correctionAdd("catch 22", "Catch-22");
             correctionAdd("catch-22", "Catch-22");
@@ -15186,6 +15258,7 @@ namespace OverflowHelper.core
             correctionAdd("refereence", "reference");
             correctionAdd("rederence", "reference");
             correctionAdd("refference", "reference");
+            correctionAdd("referene", "reference");
 
             correctionAdd("dimenson", "dimension");
             correctionAdd("dimenion", "dimension");
@@ -15558,6 +15631,59 @@ namespace OverflowHelper.core
             correctionAdd("manouver", "maneuver");
 
             correctionAdd("mind set", "mindset");
+
+            correctionAdd("IRIS", "Iris data set");
+            correctionAdd("iris data set", "Iris data set");
+            correctionAdd("iris", "Iris data set");
+            correctionAdd("Iris", "Iris data set");
+
+            correctionAdd("mnist", "MNIST data set");
+            correctionAdd("mnist dataset", "MNIST data set");
+            correctionAdd("MNIST dataset", "MNIST data set");
+            correctionAdd("MNIST database", "MNIST data set");
+            correctionAdd("Mnist", "MNIST data set");
+
+            correctionAdd("Auto MPG", "Auto MPG data set");
+            correctionAdd("mpg data set", "Auto MPG data set");
+            correctionAdd("Auto MPG Dataset", "Auto MPG data set");
+            correctionAdd("Auto MPG dataset", "Auto MPG data set");
+
+            correctionAdd("dataset", "data set");
+            correctionAdd("Dataset", "data set");
+
+            correctionAdd("sub set", "subset");
+            correctionAdd("sub-set", "subset");
+
+            correctionAdd("charachter set", "character set");
+            correctionAdd("charachterSet", "character set");
+            correctionAdd("charachter Set", "character set");
+            correctionAdd("chaset", "character set");
+            correctionAdd("charset", "character set");
+
+            correctionAdd("re-set", "reset");
+            correctionAdd("reseted", "reset");
+            correctionAdd("Reset", "reset");
+
+            correctionAdd("is_set", "isset");
+
+            correctionAdd("offest", "offset");
+
+            correctionAdd("super set", "superset");
+
+            correctionAdd("SSPR", "self-service password reset");
+
+            correctionAdd("iniset", "ini_set");
+            correctionAdd("ini_set()", "ini_set");
+
+            correctionAdd("featureset", "feature set");
+
+            correctionAdd("skillset", "skill set");
+
+            correctionAdd("ZummerZet", "Somerset");
+
+            //Note: The incorrect words are not in the same verb tense
+            correctionAdd("setted", "set");
+            correctionAdd("seyt", "set");
 
             correctionAdd("negatvie", "negative");
             correctionAdd("neg", "negative");
@@ -16363,25 +16489,6 @@ namespace OverflowHelper.core
             correctionAdd("Busybox", "BusyBox");
             correctionAdd("busy box", "BusyBox");
             correctionAdd("busybox", "BusyBox");
-
-            correctionAdd("IRIS", "Iris data set");
-            correctionAdd("iris data set", "Iris data set");
-            correctionAdd("iris", "Iris data set");
-            correctionAdd("Iris", "Iris data set");
-
-            correctionAdd("mnist", "MNIST data set");
-            correctionAdd("mnist dataset", "MNIST data set");
-            correctionAdd("MNIST dataset", "MNIST data set");
-            correctionAdd("MNIST database", "MNIST data set");
-            correctionAdd("Mnist", "MNIST data set");
-
-            correctionAdd("Auto MPG", "Auto MPG data set");
-            correctionAdd("mpg data set", "Auto MPG data set");
-            correctionAdd("Auto MPG Dataset", "Auto MPG data set");
-            correctionAdd("Auto MPG dataset", "Auto MPG data set");
-
-            correctionAdd("dataset", "data set");
-            correctionAdd("Dataset", "data set");
 
             correctionAdd("khtml", "KHTML");
 
@@ -21044,35 +21151,6 @@ namespace OverflowHelper.core
 
             correctionAdd("attemptig", "attempting");
 
-            correctionAdd("oprofile", "OProfile");
-            correctionAdd("Oprofile", "OProfile");
-
-            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("dll file", "DLL file");
-            correctionAdd("DLLs", "DLL file");
-            correctionAdd("dll-file", "DLL file");
-            correctionAdd("Dynamic Link Library", "DLL file");
-
-            correctionAdd("hosts", "hosts file");
-            correctionAdd("host file", "hosts file");
-
-            correctionAdd(".exe", "EXE file");
-            correctionAdd("exe", "EXE file");
-            correctionAdd("Exe", "EXE file");
-            correctionAdd("EXE", "EXE file");
-            correctionAdd("exe file", "EXE file");
-            correctionAdd("exe-file", "EXE file");
-
-            correctionAdd("bashrc", ".bashrc file");
-            correctionAdd(".bashrc", ".bashrc file");
-
-            correctionAdd(".profile", ".profile file");
-
-            correctionAdd("fiel", "file");
-            correctionAdd("fiie", "file");
-
             correctionAdd("inpromptu", "impromptu");
             correctionAdd("in promptu", "impromptu");
             correctionAdd("im promptu", "impromptu");
@@ -23556,9 +23634,6 @@ namespace OverflowHelper.core
             correctionAdd("mught", "might");
             correctionAdd("migh", "might");
             correctionAdd("mite", "might");
-
-            correctionAdd("sub set", "subset");
-            correctionAdd("sub-set", "subset");
 
             correctionAdd("succint", "succinct");
 
@@ -26407,12 +26482,6 @@ namespace OverflowHelper.core
             correctionAdd("vga", "VGA");
             correctionAdd("Vga", "VGA");
 
-            correctionAdd("charachter set", "character set");
-            correctionAdd("charachterSet", "character set");
-            correctionAdd("charachter Set", "character set");
-            correctionAdd("chaset", "character set");
-            correctionAdd("charset", "character set");
-
             correctionAdd("erraneous", "erroneous");
 
             correctionAdd("sacrifise", "sacrifice");
@@ -26993,9 +27062,6 @@ namespace OverflowHelper.core
             correctionAdd("Linear Congruential Generator", "linear congruential generator");
             correctionAdd("lcg", "linear congruential generator");
             correctionAdd("LCG", "linear congruential generator");
-
-            correctionAdd("Page file", "page file");
-            correctionAdd("Page File", "page file");
 
             correctionAdd("Sysfs", "sysfs");
 
@@ -27988,10 +28054,6 @@ namespace OverflowHelper.core
 
             correctionAdd("flactuations", "fluctuation");
 
-            correctionAdd("re-set", "reset");
-            correctionAdd("reseted", "reset");
-            correctionAdd("Reset", "reset");
-
             correctionAdd("severre", "severe");
             correctionAdd("servier", "severe");
 
@@ -28819,6 +28881,7 @@ namespace OverflowHelper.core
 
             correctionAdd("includin", "including");
             correctionAdd("inc", "including");
+            correctionAdd("inlcuding", "including");
 
             correctionAdd("N-channel MOSFET", "n-channel MOSFET");
             correctionAdd("N-Channel MOSFET", "n-channel MOSFET");
@@ -28976,11 +29039,6 @@ namespace OverflowHelper.core
             correctionAdd("faliing", "falling");
 
             correctionAdd("manufactoring", "manufacturing");
-
-            correctionAdd("plist", "p-list file");
-            correctionAdd("Info.plist", "p-list file");
-            correctionAdd("info.plist", "p-list file");
-            correctionAdd("plist file", "p-list file");
 
             correctionAdd("vauge", "vague");
             correctionAdd("wage", "vague");
@@ -29157,8 +29215,6 @@ namespace OverflowHelper.core
             correctionAdd("isnull", "is_null");
 
             correctionAdd("isnumeric", "is_numeric");
-
-            correctionAdd("is_set", "isset");
 
             correctionAdd("non-trivial", "nontrivial");
             correctionAdd("non trivial", "nontrivial");
@@ -30028,8 +30084,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Galvanic cell", "galvanic cell");
 
-            correctionAdd("offest", "offset");
-
             correctionAdd("outputed", "outputted");
 
             correctionAdd("thoughtexperiment", "thought experiment");
@@ -30309,8 +30363,6 @@ namespace OverflowHelper.core
             correctionAdd("in depth", "in-depth");
 
             correctionAdd("ruels", "rules");
-
-            correctionAdd("super set", "superset");
 
             correctionAdd("2 pennies' worth", "two pennies' worth");
             correctionAdd("2 pence", "two pennies' worth");
@@ -31057,8 +31109,6 @@ namespace OverflowHelper.core
             correctionAdd("intgers", "integers");
 
             correctionAdd("NOTE", "note");
-
-            correctionAdd("textfile", "text file");
 
             correctionAdd("well defined", "well-defined");
 
@@ -31853,9 +31903,6 @@ namespace OverflowHelper.core
             correctionAdd("push back", "pushback");
             correctionAdd("push-back", "pushback");
 
-            correctionAdd("gitignore", ".gitignore file");
-            correctionAdd(".gitignore", ".gitignore file");
-
             correctionAdd("Core 2", "Core&nbsp;2");
             correctionAdd("Core2", "Core&nbsp;2");
             correctionAdd("core2", "Core&nbsp;2");
@@ -31934,9 +31981,6 @@ namespace OverflowHelper.core
             correctionAdd("Java Community Process", "JSR");
 
             correctionAdd("jahia", "Jahia");
-
-            correctionAdd("bash_profile", ".bash_profile");
-            correctionAdd("bashprofile", ".bash_profile");
 
             correctionAdd("Ion", "Amazon Ion");
 
@@ -32207,8 +32251,6 @@ namespace OverflowHelper.core
             correctionAdd("Se", "selenium (element)");
 
             correctionAdd("self reliant", "self-reliant");
-
-            correctionAdd("setted", "set");
 
             correctionAdd("sulpur", "sulphur");
             correctionAdd("S", "sulphur");
@@ -33408,6 +33450,8 @@ namespace OverflowHelper.core
 
             correctionAdd("loot", "look");
             correctionAdd("Loot", "look");
+            correctionAdd("Lok", "look");
+            correctionAdd("lok", "look");
 
             correctionAdd("non-existing", "nonexisting");
             correctionAdd("non existing", "nonexisting");
@@ -33480,8 +33524,6 @@ namespace OverflowHelper.core
             correctionAdd("MFA", "multi-factor authentication");
 
             correctionAdd("plowing", "ploughing");
-
-            correctionAdd("SSPR", "self-service password reset");
 
             correctionAdd("Service Level Agreement", "service-level agreement");
             correctionAdd("SLA", "service-level agreement");
@@ -33634,9 +33676,6 @@ namespace OverflowHelper.core
             correctionAdd("emiting", "emitting");
             correctionAdd("emmiting", "emitting");
 
-            correctionAdd("iniset", "ini_set");
-            correctionAdd("ini_set()", "ini_set");
-
             correctionAdd("Re-installing", "reinstalling");
             correctionAdd("Re-Installing", "reinstalling");
             correctionAdd("re-installing", "reinstalling");
@@ -33684,8 +33723,6 @@ namespace OverflowHelper.core
             correctionAdd("down-voter", "downvoter");
 
             correctionAdd("equaling", "equalling");
-
-            correctionAdd("featureset", "feature set");
 
             correctionAdd("in any way or form", "in any way, shape, or form");
 
@@ -34351,6 +34388,7 @@ namespace OverflowHelper.core
 
             correctionAdd("α particle", "alpha particle");
             correctionAdd("α-particle", "alpha particle");
+            correctionAdd("alfa particle", "alpha particle");
 
             correctionAdd("altrurist", "altruist");
             correctionAdd("Altruist", "altruist");
@@ -35818,12 +35856,6 @@ namespace OverflowHelper.core
             correctionAdd("Docker desktop", "Docker Desktop");
             correctionAdd("docker desktop", "Docker Desktop");
 
-            correctionAdd("docker file", "Dockerfile");
-            correctionAdd("dockerfile", "Dockerfile");
-            correctionAdd("DockerFIle", "Dockerfile");
-            correctionAdd("DockerFile", "Dockerfile");
-            correctionAdd("Docker file", "Dockerfile");
-
             correctionAdd("ESET", "ESET Smart Security");
 
             correctionAdd("jars", "JAR files");
@@ -36016,8 +36048,6 @@ namespace OverflowHelper.core
 
             correctionAdd("indeicated", "indicated");
 
-            correctionAdd("skillset", "skill set");
-
             correctionAdd("state of the art", "state-of-the-art");
 
             correctionAdd("suite", "suit");
@@ -36142,11 +36172,6 @@ namespace OverflowHelper.core
             correctionAdd("chartjs", "Chart.js");
             correctionAdd("chartJS", "Chart.js");
             correctionAdd("chartJs", "Chart.js");
-
-            correctionAdd("Make file", "Makefile");
-            correctionAdd("makefile", "Makefile");
-            correctionAdd("GNUmakefile", "Makefile");
-            correctionAdd("GNU makefile", "Makefile");
 
             correctionAdd("straigthen", "straighten");
 
@@ -37220,8 +37245,6 @@ namespace OverflowHelper.core
 
             correctionAdd("NonStop", "NonStop SQL");
 
-            correctionAdd("ZummerZet", "Somerset");
-
             correctionAdd("ucs", "UCS");
 
             correctionAdd("CP-1251", "Windows-1251");
@@ -37842,6 +37865,7 @@ namespace OverflowHelper.core
 
             correctionAdd("csharp-lang", "```lang-csharp");
             correctionAdd("lang-csharp", "```lang-csharp");
+            correctionAdd("lang-sharp", "```lang-csharp");
 
             correctionAdd("java-lang", "```lang-java");
             correctionAdd("lang-java", "```lang-java");
@@ -38574,6 +38598,33 @@ namespace OverflowHelper.core
             correctionAdd("Random Forest", "random decision forest");
 
             correctionAdd("Tetragonal", "tetragonal");
+
+            correctionAdd("charles proxy", "Charles Proxy");
+
+            correctionAdd("geiger counter", "Geiger counter");
+
+            correctionAdd("ShadowsocksX-NG", "Shadowsocks");
+
+            correctionAdd("Windows Credential", "Windows Credentials");
+
+            correctionAdd("axises", "axes");
+
+            correctionAdd("cahced", "cached");
+
+            correctionAdd("forgor", "forgot");
+
+            correctionAdd("thorium 232", "thorium-233");
+
+            correctionAdd("X axes", "x-axes");
+
+            correctionAdd("Y axes", "y-axes");
+
+            correctionAdd("Z axes", "z-axes");
+
+            correctionAdd("z axis", "z-axis");
+            correctionAdd("Z-Axis", "z-axis");
+            correctionAdd("Z Axis", "z-axis");
+            correctionAdd("Z axis", "z-axis");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60673,6 +60724,30 @@ namespace OverflowHelper.core
 
             URL_Add("tetragonal", "https://en.wiktionary.org/wiki/tetragonal#Adjective");
 
+            URL_Add("Charles Proxy", "https://en.wikipedia.org/wiki/Charles_Proxy");
+
+            URL_Add("Geiger counter", "https://en.wikipedia.org/wiki/Geiger_counter");
+
+            URL_Add("Shadowsocks", "https://en.wikipedia.org/wiki/Shadowsocks");
+
+            URL_Add("Windows Credentials", "https://stackoverflow.com/questions/49033193/how-to-add-windows-credentials-to-credentials-manager-on-windows-programmaticall");
+
+            URL_Add("axes", "https://en.wiktionary.org/wiki/axis#Noun");
+
+            URL_Add("cached", "https://en.wiktionary.org/wiki/cache#Verb");
+
+            URL_Add("forgot", "https://en.wiktionary.org/wiki/forget#Verb");
+
+            URL_Add("thorium-233", "https://en.wikipedia.org/wiki/Thorium-232");
+
+            URL_Add("x-axes", "https://en.wiktionary.org/wiki/x-axis#Noun");
+
+            URL_Add("y-axes", "https://en.wiktionary.org/wiki/y-axis#Noun");
+
+            URL_Add("z-axes", "https://en.wiktionary.org/wiki/y-axis#Noun");
+
+            URL_Add("z-axis", "https://en.wiktionary.org/wiki/z-axis#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61156,6 +61231,9 @@ namespace OverflowHelper.core
             correctionAdd("christianity_", "Christianity (Stack Exchange site)_");
             correctionAdd("Christianity_", "Christianity (Stack Exchange site)_");
 
+            correctionAdd("Most Valuable Professional_", "most valuable professional_");
+            correctionAdd("MVP_", "most valuable professional_");
+
             // URL mappings
             //
             //
@@ -61480,6 +61558,8 @@ namespace OverflowHelper.core
             URL_Add("digital subscriber line_", "https://en.wikipedia.org/wiki/Digital_subscriber_line");
 
             URL_Add("Christianity (Stack Exchange site)_", "https://christianity.stackexchange.com/tour");
+
+            URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
 
         } //addLookupData_alternativeWordSet()
 
