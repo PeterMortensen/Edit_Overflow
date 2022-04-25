@@ -1756,6 +1756,9 @@ namespace OverflowHelper.core
             correctionAdd("v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
             correctionAdd("Mac OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
             correctionAdd("Mac OS X Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
+            correctionAdd("MAC OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
+            correctionAdd("mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
+            correctionAdd("Mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)");
 
             // Note: the identity is not working. Is it because of the
             // trailing ")"??
@@ -2619,6 +2622,9 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("SOE", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("SOES", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Spanish Stack Overflow", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("ES.SO", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("ES.so", "Stack Overflow en español (Stack Exchange site)");
 
             correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
             correctionAdd("Mi Yodeya", "Mi Yodeya (Stack Exchange site)"); // Sort of identity mapping
@@ -3581,6 +3587,7 @@ namespace OverflowHelper.core
             correctionAdd("asyncronouse", "asynchronously"); // Not 100% correct
             correctionAdd("asyncronous", "asynchronously");
             correctionAdd("asyncrhonous", "asynchronously");
+            correctionAdd("aysnc", "asynchronously");
 
             correctionAdd("sifr", "sIFR");
             correctionAdd("Sifr", "sIFR");
@@ -7404,6 +7411,20 @@ namespace OverflowHelper.core
             correctionAdd("crypto", "cryptography");
             correctionAdd("crypt", "cryptography");
             correctionAdd("Cryptography", "cryptography");
+
+            correctionAdd("bio", "biography");
+            correctionAdd("biografy", "biography");
+
+            correctionAdd("philosofy", "philosophy");
+            correctionAdd("phiolosopjy", "philosophy");
+            correctionAdd("phiolosophy", "philosophy");
+
+            correctionAdd("ECC", "elliptic-curve cryptography");
+
+            correctionAdd("Natural Philosopy", "natural philosophy");
+
+            correctionAdd("phy", "PHY");
+            correctionAdd("Phy", "PHY");
 
             correctionAdd("HyperV", "Hyper-V");
             correctionAdd("hyper-v", "Hyper-V");
@@ -14738,9 +14759,6 @@ namespace OverflowHelper.core
 
             correctionAdd("accouting", "accounting");
 
-            correctionAdd("bio", "biography");
-            correctionAdd("biografy", "biography");
-
             correctionAdd("discriptive", "descriptive");
             correctionAdd("desciriptive", "descriptive");
 
@@ -16547,7 +16565,7 @@ namespace OverflowHelper.core
             correctionAdd("cloudflare", "Cloudflare");
 
             correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
-            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)");
+            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
             correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
 
             correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
@@ -16556,6 +16574,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
 
             correctionAdd("discord", "Discord");
             correctionAdd("Discod", "Discord");
@@ -20052,6 +20071,7 @@ namespace OverflowHelper.core
             correctionAdd("klient", "client");
             correctionAdd("cliant", "client");
             correctionAdd("cleint", "client");
+            correctionAdd("clien", "client");
 
             correctionAdd("Fusion", "fusion");
 
@@ -24002,10 +24022,6 @@ namespace OverflowHelper.core
             correctionAdd("fire fight", "firefight");
             correctionAdd("fire-fight", "firefight");
 
-            correctionAdd("philosofy", "philosophy");
-            correctionAdd("phiolosopjy", "philosophy");
-            correctionAdd("phiolosophy", "philosophy");
-
             correctionAdd("cia", "CIA");
 
             correctionAdd("cheerio", "Cheerio");
@@ -24128,6 +24144,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inspite of", "in spite of");
             correctionAdd("inspite", "in spite of");
+            correctionAdd("Inspite", "in spite of");
 
             correctionAdd("in sake of", "for the sake of");
             correctionAdd("for sake of", "for the sake of");
@@ -24196,6 +24213,7 @@ namespace OverflowHelper.core
             correctionAdd("differnet", "different");
 
             correctionAdd("lsb", "LSB");
+            correctionAdd("Least significant bit", "LSB");
 
             correctionAdd("in hand", "on hand");
 
@@ -25203,6 +25221,7 @@ namespace OverflowHelper.core
             correctionAdd("Vs code", "Visual Studio Code");
             correctionAdd("code", "Visual Studio Code");
             correctionAdd("the code", "Visual Studio Code");
+            correctionAdd("VSC Code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -27447,6 +27466,8 @@ namespace OverflowHelper.core
 
             correctionAdd("some where", "somewhere");
             correctionAdd("somwhere", "somewhere");
+            correctionAdd("someplace", "somewhere");
+            correctionAdd("some place", "somewhere");
 
             correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
 
@@ -29052,6 +29073,7 @@ namespace OverflowHelper.core
             correctionAdd("ADDITION", "addition");
 
             correctionAdd("client side", "client-side");
+            correctionAdd("clien side", "client-side");
 
             correctionAdd("Source insight", "Source Insight");
             correctionAdd("scoure insight", "Source Insight");
@@ -29313,6 +29335,8 @@ namespace OverflowHelper.core
             correctionAdd("borne", "born");
 
             correctionAdd("destinguish", "distinguish");
+            correctionAdd("distiguich", "distinguish");
+            correctionAdd("distiguish", "distinguish");
 
             correctionAdd("Quasi", "quasi");
 
@@ -29651,6 +29675,7 @@ namespace OverflowHelper.core
             correctionAdd("haave", "have");
             correctionAdd("hove", "have");
             correctionAdd("hav", "have");
+            correctionAdd("gave", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -32088,8 +32113,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Coroutine", "coroutine");
 
-            correctionAdd("ECC", "elliptic-curve cryptography");
-
             correctionAdd("intervine", "intervene");
 
             correctionAdd("obleged", "obliged");
@@ -34398,6 +34421,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stetching", "stretching");
             correctionAdd("stretcing", "stretching");
+            correctionAdd("streching", "stretching");
 
             correctionAdd("stuppid", "stupid");
 
@@ -38492,8 +38516,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Lingua Franca", "lingua franca");
 
-            correctionAdd("Natural Philosopy", "natural philosophy");
-
             correctionAdd("non-rigid", "nonrigid");
             correctionAdd("non rigid", "nonrigid");
 
@@ -38625,6 +38647,40 @@ namespace OverflowHelper.core
             correctionAdd("Z-Axis", "z-axis");
             correctionAdd("Z Axis", "z-axis");
             correctionAdd("Z axis", "z-axis");
+
+            correctionAdd("Fast Ethernet", "100BASE-TX");
+
+            correctionAdd("Ethernet over twisted pair", "10BASE-T");
+
+            correctionAdd("404", "HTTP 404");
+
+            correctionAdd("SQLR", "SQL/R");
+
+            correctionAdd("Catch-all", "catch-all");
+            correctionAdd("Catchall", "catch-all");
+            correctionAdd("catchall", "catch-all");
+
+            correctionAdd("Expr", "expr");
+
+            correctionAdd("face lift", "facelift");
+
+            correctionAdd("idempontence", "idempotence");
+
+            correctionAdd("idempontent", "idempotent");
+            correctionAdd("Idempontent", "idempotent");
+
+            correctionAdd("inteface", "interface");
+
+            correctionAdd("Klist", "klist");
+
+            correctionAdd("re-framing", "reframing");
+
+            correctionAdd("sub project", "subproject");
+
+            correctionAdd("subvarient", "subvariant");
+
+            correctionAdd("two-fold", "twofold");
+            correctionAdd("2 fold", "twofold");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60748,6 +60804,38 @@ namespace OverflowHelper.core
 
             URL_Add("z-axis", "https://en.wiktionary.org/wiki/z-axis#Noun");
 
+            URL_Add("100BASE-TX", "https://en.wikipedia.org/wiki/Fast_Ethernet");
+
+            URL_Add("10BASE-T", "https://en.wikipedia.org/wiki/Ethernet_over_twisted_pair#History");
+
+            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
+
+            URL_Add("PHY", "https://en.wikipedia.org/wiki/Physical_layer");
+
+            URL_Add("SQL/R", "https://www.marxmeier.com/sqlr/");
+
+            URL_Add("catch-all", "https://en.wiktionary.org/wiki/catch-all#Noun");
+
+            URL_Add("expr", "https://en.wikipedia.org/wiki/Expr");
+
+            URL_Add("facelift", "https://en.wiktionary.org/wiki/facelift#Noun");
+
+            URL_Add("idempotence", "https://en.wiktionary.org/wiki/idempotence#Noun");
+
+            URL_Add("idempotent", "https://en.wiktionary.org/wiki/idempotent#Adjective");
+
+            URL_Add("interface", "https://en.wiktionary.org/wiki/interface#Verb");
+
+            URL_Add("klist", "https://linux.die.net/man/1/klist");
+
+            URL_Add("reframing", "https://en.wiktionary.org/wiki/reframe#Verb");
+
+            URL_Add("subproject", "https://en.wiktionary.org/wiki/subproject#Noun");
+
+            URL_Add("subvariant", "https://en.wiktionary.org/wiki/subvariant#Noun");
+
+            URL_Add("twofold", "https://en.wiktionary.org/wiki/twofold#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61234,6 +61322,8 @@ namespace OverflowHelper.core
             correctionAdd("Most Valuable Professional_", "most valuable professional_");
             correctionAdd("MVP_", "most valuable professional_");
 
+            correctionAdd("Crate_", "crate_");
+
             // URL mappings
             //
             //
@@ -61560,6 +61650,8 @@ namespace OverflowHelper.core
             URL_Add("Christianity (Stack Exchange site)_", "https://christianity.stackexchange.com/tour");
 
             URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
+
+            URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
         } //addLookupData_alternativeWordSet()
 
