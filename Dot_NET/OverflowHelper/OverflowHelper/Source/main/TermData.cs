@@ -16575,6 +16575,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
 
             correctionAdd("discord", "Discord");
             correctionAdd("Discod", "Discord");
@@ -21844,6 +21845,7 @@ namespace OverflowHelper.core
 
             correctionAdd("TL", "TeX Live");
             correctionAdd("Texlive", "TeX Live");
+            correctionAdd("texlive", "TeX Live");
 
             correctionAdd("TVS", "Transient voltage suppressor");
             correctionAdd("tvs", "Transient voltage suppressor");
@@ -38681,6 +38683,30 @@ namespace OverflowHelper.core
 
             correctionAdd("two-fold", "twofold");
             correctionAdd("2 fold", "twofold");
+
+            correctionAdd("andOTP", "AndOTP");
+
+            correctionAdd("freeotp", "FreeOTP");
+
+            correctionAdd("KDE Applications Bundle", "KDE Gear");
+
+            correctionAdd("tron", "TRON");
+
+            correctionAdd("Biomathematics", "biomathematics");
+
+            correctionAdd("Complex number", "complex number");
+
+            correctionAdd("dtype", "data type object");
+
+            correctionAdd("imag", "imaginary");
+
+            correctionAdd("Numerical Relativity", "numerical relativity");
+
+            correctionAdd("stand in", "stand-in");
+
+            correctionAdd("sub ring", "subring");
+
+            correctionAdd("TOTP", "time-based one-time password");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60836,6 +60862,30 @@ namespace OverflowHelper.core
 
             URL_Add("twofold", "https://en.wiktionary.org/wiki/twofold#Adjective");
 
+            URL_Add("AndOTP", "https://github.com/andOTP/andOTP");
+
+            URL_Add("FreeOTP", "https://en.wikipedia.org/wiki/FreeOTP");
+
+            URL_Add("KDE Gear", "https://en.wikipedia.org/wiki/KDE_Applications");
+
+            URL_Add("TRON", "https://en.wikipedia.org/wiki/Tron_(cryptocurrency)");
+
+            URL_Add("biomathematics", "https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology");
+
+            URL_Add("complex number", "https://en.wiktionary.org/wiki/complex_number#Noun");
+
+            URL_Add("data type object", "https://numpy.org/doc/stable/reference/arrays.dtypes.html");
+
+            URL_Add("imaginary", "https://en.wiktionary.org/wiki/imaginary#Adjective");
+
+            URL_Add("numerical relativity", "https://en.wikipedia.org/wiki/Numerical_relativity");
+
+            URL_Add("stand-in", "https://en.wiktionary.org/wiki/stand-in#Noun");
+
+            URL_Add("subring", "https://en.wikipedia.org/wiki/Subring");
+
+            URL_Add("time-based one-time password", "https://en.wikipedia.org/wiki/Time-based_one-time_password");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61225,6 +61275,16 @@ namespace OverflowHelper.core
             correctionAdd("crypto.stackexchange_", "Cryptography (Stack Exchange site)_");
             correctionAdd("Cryptography_", "Cryptography (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("Salesforce_", "Salesforce (Stack Exchange site)_");
+
+            correctionAdd("writing_", "Writing (Stack Exchange site)_");
+
+            correctionAdd("christianity_", "Christianity (Stack Exchange site)_");
+            correctionAdd("Christianity_", "Christianity (Stack Exchange site)_");
+
+            correctionAdd("Bitcoin_", "Bitcoin (Stack Exchange site)_");
+            correctionAdd("bitcoin.se_", "Bitcoin (Stack Exchange site)_");
+
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
 
@@ -61265,13 +61325,9 @@ namespace OverflowHelper.core
 
             correctionAdd("UE_", "Unreal Engine_");
 
-            correctionAdd("Salesforce_", "Salesforce (Stack Exchange site)_");
-
             correctionAdd("down vote_", "downvote_");
 
             correctionAdd("english_", "English_");
-
-            correctionAdd("writing_", "Writing (Stack Exchange site)_");
 
             correctionAdd("Byte Order Mark_", "byte order mark_");
             correctionAdd("BOM_", "byte order mark_");
@@ -61316,13 +61372,12 @@ namespace OverflowHelper.core
             correctionAdd("dsl_", "digital subscriber line_");
             correctionAdd("DSL_", "digital subscriber line_");
 
-            correctionAdd("christianity_", "Christianity (Stack Exchange site)_");
-            correctionAdd("Christianity_", "Christianity (Stack Exchange site)_");
-
             correctionAdd("Most Valuable Professional_", "most valuable professional_");
             correctionAdd("MVP_", "most valuable professional_");
 
             correctionAdd("Crate_", "crate_");
+
+            correctionAdd("iota_", "IOTA_");
 
             // URL mappings
             //
@@ -61652,6 +61707,10 @@ namespace OverflowHelper.core
             URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
 
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
+
+            URL_Add("Bitcoin (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
+
+            URL_Add("IOTA_", "https://en.wikipedia.org/wiki/IOTA_(technology%29");
 
         } //addLookupData_alternativeWordSet()
 
