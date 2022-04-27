@@ -1244,6 +1244,7 @@ namespace OverflowHelper.core
             correctionAdd("pl/sql", "PL/SQL");
             correctionAdd("plsql", "PL/SQL");
             correctionAdd("PL SQL", "PL/SQL");
+            correctionAdd("PLSQL", "PL/SQL");
 
             correctionAdd("msn", "MSN");
 
@@ -1294,6 +1295,7 @@ namespace OverflowHelper.core
 
             correctionAdd("onw", "one");
             correctionAdd("onle", "one");
+            correctionAdd("onde", "one");
 
             correctionAdd("noone", "no one");
             correctionAdd("no-one", "no one");
@@ -8566,6 +8568,8 @@ namespace OverflowHelper.core
             correctionAdd("clt", "Ctrl");
             correctionAdd("cltf", "Ctrl");
             correctionAdd("Ctl", "Ctrl");
+            correctionAdd("cntl", "Ctrl");
+            correctionAdd("Cntl", "Ctrl");
 
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); // Plural, to avoid nearly duplicate entries.
@@ -13580,6 +13584,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
             correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
             correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
 
             correctionAdd("vsts", "VSTS");
             correctionAdd("Visual Studio Team Services", "VSTS");
@@ -19940,6 +19945,7 @@ namespace OverflowHelper.core
             correctionAdd("Fastest gun", "fastest gun in the west");
             correctionAdd("fastest gun", "fastest gun in the west");
             correctionAdd("fgtw", "fastest gun in the west");
+            correctionAdd("FGitW", "fastest gun in the west");
 
             correctionAdd("UXD", "user experience design");
 
@@ -23238,6 +23244,8 @@ namespace OverflowHelper.core
             correctionAdd("invovle", "involve");
 
             correctionAdd("swiftUI", "SwiftUI");
+            correctionAdd("Swift UI", "SwiftUI");
+            correctionAdd("SwiftUi", "SwiftUI");
 
             correctionAdd("deam", "deem");
 
@@ -25627,6 +25635,7 @@ namespace OverflowHelper.core
 
             correctionAdd("undefied", "undefined");
             correctionAdd("ndefined", "undefined");
+            correctionAdd("undefiend", "undefined");
 
             correctionAdd("understandig", "understanding");
             correctionAdd("udnerstanding", "understanding");
@@ -27407,6 +27416,7 @@ namespace OverflowHelper.core
 
             correctionAdd("org mode", "Org-mode");
             correctionAdd("org-mode", "Org-mode");
+            correctionAdd("Org mode", "Org-mode");
 
             correctionAdd("PHP 4", "PHP&nbsp;4");
             correctionAdd("php 4", "PHP&nbsp;4");
@@ -28772,6 +28782,8 @@ namespace OverflowHelper.core
             correctionAdd("sd", "standard deviation");
             correctionAdd("std. dev", "standard deviation");
             correctionAdd("std dev", "standard deviation");
+            correctionAdd("std-dev", "standard deviation");
+            correctionAdd("stddev", "standard deviation");
 
             correctionAdd("syntax highlighitng", "syntax highlighting");
             correctionAdd("syntax-highlighting", "syntax highlighting");
@@ -29678,6 +29690,7 @@ namespace OverflowHelper.core
             correctionAdd("hove", "have");
             correctionAdd("hav", "have");
             correctionAdd("gave", "have");
+            correctionAdd("ahev", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -32126,6 +32139,7 @@ namespace OverflowHelper.core
 
             correctionAdd("square-root", "square root");
             correctionAdd("Square root", "square root");
+            correctionAdd("sqrt", "square root");
 
             correctionAdd("ingenuity", "Ingenuity (helicopter)");
             correctionAdd("Ingenuity", "Ingenuity (helicopter)");
@@ -34609,6 +34623,7 @@ namespace OverflowHelper.core
             correctionAdd("turns-off", "turns off");
 
             correctionAdd("wo", "who");
+            correctionAdd("whn", "who");
 
             correctionAdd("zwnj", "zero-width non-joiner");
             correctionAdd("ZWNJ", "zero-width non-joiner");
@@ -38707,6 +38722,36 @@ namespace OverflowHelper.core
             correctionAdd("sub ring", "subring");
 
             correctionAdd("TOTP", "time-based one-time password");
+
+            correctionAdd("Coriolis effect", "Coriolis force");
+
+            correctionAdd("meson", "Meson");
+            correctionAdd("meson build", "Meson");
+
+            correctionAdd("pdl", "Perl Data Language");
+            correctionAdd("PDL", "Perl Data Language");
+
+            correctionAdd("source code pro", "Source Code Pro");
+
+            correctionAdd("welford", "Welford's algorithm");
+            correctionAdd("welford's algorithm", "Welford's algorithm");
+
+            correctionAdd("beter", "better");
+
+            correctionAdd("bi-weekly", "biweekly");
+
+            correctionAdd("computational binary solid geometry", "constructive solid geometry");
+            correctionAdd("CSG", "constructive solid geometry");
+            correctionAdd("csg", "constructive solid geometry");
+
+            correctionAdd("Marshall law", "martial law");
+
+            correctionAdd("posthoc", "post hoc");
+            correctionAdd("post-hoc", "post hoc");
+
+            correctionAdd("re-link", "relink");
+
+            correctionAdd("upset the apple cart", "upset the applecart");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60885,6 +60930,30 @@ namespace OverflowHelper.core
             URL_Add("subring", "https://en.wikipedia.org/wiki/Subring");
 
             URL_Add("time-based one-time password", "https://en.wikipedia.org/wiki/Time-based_one-time_password");
+
+            URL_Add("Coriolis force", "https://en.wikipedia.org/wiki/Coriolis_force");
+
+            URL_Add("Meson", "https://en.wikipedia.org/wiki/Meson_(software)");
+
+            URL_Add("Perl Data Language", "https://en.wikipedia.org/wiki/Perl_Data_Language");
+
+            URL_Add("Source Code Pro", "https://en.wikipedia.org/wiki/Source_Code_Pro");
+
+            URL_Add("Welford's algorithm", "https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance#Welford's_online_algorithm");
+
+            URL_Add("better", "https://en.wiktionary.org/wiki/better#Adjective");
+
+            URL_Add("biweekly", "https://en.wiktionary.org/wiki/biweekly#Adjective");
+
+            URL_Add("constructive solid geometry", "https://en.wikipedia.org/wiki/Constructive_solid_geometry");
+
+            URL_Add("martial law", "https://en.wiktionary.org/wiki/martial_law#Noun");
+
+            URL_Add("post hoc", "https://en.wiktionary.org/wiki/post_hoc#Adjective");
+
+            URL_Add("relink", "https://en.wiktionary.org/wiki/relink#Verb");
+
+            URL_Add("upset the applecart", "https://en.wiktionary.org/wiki/upset_the_applecart#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
