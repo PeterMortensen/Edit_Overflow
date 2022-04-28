@@ -7184,6 +7184,7 @@ namespace OverflowHelper.core
             correctionAdd("Abstract Syntax Tree", "AST"); // Going to the abbreviation
             correctionAdd("CodeDom", "AST");
             correctionAdd("Code Document Object Model", "AST");
+            correctionAdd("Abstract syntax tree", "AST");
 
             correctionAdd("uml", "UML");
 
@@ -12489,6 +12490,8 @@ namespace OverflowHelper.core
             correctionAdd("ruszyn", "Russian");
 
             correctionAdd("recieving", "receiving");
+            correctionAdd("recibing", "receiving");
+            correctionAdd("reciving", "receiving");
 
             correctionAdd("recieve", "receive");
             correctionAdd("recive", "receive");
@@ -13010,6 +13013,7 @@ namespace OverflowHelper.core
             correctionAdd("actuall", "actually");
             correctionAdd("ackshually", "actually");
             correctionAdd("ackchyually", "actually");
+            correctionAdd("acctualy", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -13741,6 +13745,10 @@ namespace OverflowHelper.core
             correctionAdd("stamenet", "statement");
             correctionAdd("statenet", "statement");
             correctionAdd("statenent", "statement");
+            correctionAdd("stament", "statement");
+
+            correctionAdd("staments", "statements");
+            correctionAdd("statments", "statements");
 
             correctionAdd("staritaway", "straight away");
             correctionAdd("straightaway", "straight away");
@@ -13860,6 +13868,7 @@ namespace OverflowHelper.core
 
             correctionAdd("altrenative", "alternative");
             correctionAdd("alterative", "alternative");
+            correctionAdd("alternativ", "alternative");
 
             correctionAdd("aparent", "apparent");
             correctionAdd("aparrent", "apparent");
@@ -14050,6 +14059,7 @@ namespace OverflowHelper.core
             correctionAdd("dictinary", "dictionary");
             correctionAdd("dictionare", "dictionary");
             correctionAdd("dictionnary", "dictionary");
+            correctionAdd("Dictionary", "dictionary");
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
@@ -14994,6 +15004,7 @@ namespace OverflowHelper.core
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
             correctionAdd("repetative", "repetitive");
+            correctionAdd("repetetive", "repetitive");
 
             correctionAdd("sinewave", "sine wave");
 
@@ -15403,6 +15414,7 @@ namespace OverflowHelper.core
             correctionAdd("ISO 8851", "ISO&nbsp;8859-1");
             correctionAdd("latin1", "ISO&nbsp;8859-1");
             correctionAdd("Latin 1", "ISO&nbsp;8859-1");
+            correctionAdd("8681", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -18779,6 +18791,7 @@ namespace OverflowHelper.core
             correctionAdd("operater", "operator");
             correctionAdd("opperator", "operator");
             correctionAdd("oprator", "operator");
+            correctionAdd("operaator", "operator");
 
             correctionAdd("reliablly", "reliably");
             correctionAdd("realiably", "reliably");
@@ -20768,6 +20781,8 @@ namespace OverflowHelper.core
             correctionAdd("occassionally", "occasionally");
             correctionAdd("occationally", "occasionally");
             correctionAdd("ocassionally", "occasionally");
+            correctionAdd("occisonally", "occasionally");
+            correctionAdd("occasonally", "occasionally");
 
             correctionAdd("ocassional", "occasional");
             correctionAdd("occational", "occasional");
@@ -24404,6 +24419,7 @@ namespace OverflowHelper.core
 
             correctionAdd("readbility", "readability");
             correctionAdd("readibility", "readability");
+            correctionAdd("readabilty", "readability");
 
             correctionAdd("relaive", "relative");
             correctionAdd("realive", "relative");
@@ -30842,6 +30858,7 @@ namespace OverflowHelper.core
             correctionAdd("wored", "wired");
 
             correctionAdd("addedd", "added");
+            correctionAdd("aded", "added");
 
             correctionAdd("Axiom", "axiom");
 
@@ -33342,6 +33359,8 @@ namespace OverflowHelper.core
 
             correctionAdd("timeout", "time-out");
             correctionAdd("time out", "time-out");
+            correctionAdd("Time Out", "time-out");
+            correctionAdd("Timeout", "time-out");
 
             correctionAdd("under-sampled", "undersampled");
             correctionAdd("under sampled", "undersampled");
@@ -33782,8 +33801,6 @@ namespace OverflowHelper.core
 
             correctionAdd("casesensitivity", "case-sensitivity");
             correctionAdd("casesensitity", "case-sensitivity");
-
-            correctionAdd("statments", "statements");
 
             correctionAdd("vender", "vendor");
 
@@ -35029,6 +35046,7 @@ namespace OverflowHelper.core
             correctionAdd("scruity", "security");
 
             correctionAdd("settigns", "settings");
+            correctionAdd("sittings", "settings");
 
             correctionAdd("svd", "singular value decomposition");
             correctionAdd("Singular Value Decomposition", "singular value decomposition");
@@ -38752,6 +38770,57 @@ namespace OverflowHelper.core
             correctionAdd("re-link", "relink");
 
             correctionAdd("upset the apple cart", "upset the applecart");
+
+            correctionAdd("--Og", "-Og");
+
+            correctionAdd("--Os", "-Os");
+
+            correctionAdd("--fdata-sections", "-fdata-sections");
+
+            correctionAdd("--ffunction-sections", "-ffunction-sections");
+
+            correctionAdd("--fno-exceptions", "-fno-exceptions");
+            correctionAdd("-fno-excepctions", "-fno-exceptions");
+
+            correctionAdd(".format()", ".format");
+
+            correctionAdd("sh", "Bourne shell");
+
+            correctionAdd("shift cipher", "Caesar cipher");
+            correctionAdd("cesa encryption", "Caesar cipher");
+
+            correctionAdd("lts", "LTS");
+
+            correctionAdd("PEP 498", "PEP&nbsp;498"); // Sort of identity mapping
+            correctionAdd("pep498", "PEP&nbsp;498");
+            correctionAdd("PEP498", "PEP&nbsp;498");
+
+            correctionAdd("pymysql", "PyMySQL");
+
+            correctionAdd("rot13", "ROT13");
+
+            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
+            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+
+            correctionAdd("lang-c", "```lang-c");
+
+            correctionAdd("bycicle", "bicycle");
+
+            correctionAdd("catchig", "catching");
+
+            correctionAdd("FLASH", "flash memory");
+
+            correctionAdd("incentivice", "incentivise");
+
+            correctionAdd("Meta Effect", "meta effect");
+
+            correctionAdd("self reference", "self-reference");
+
+            correctionAdd("Stringification", "stringification");
+
+            correctionAdd("suceeds", "succeeds");
+
+            correctionAdd("sweat shop", "sweatshop");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60955,6 +61024,52 @@ namespace OverflowHelper.core
 
             URL_Add("upset the applecart", "https://en.wiktionary.org/wiki/upset_the_applecart#Verb");
 
+            URL_Add("-Og", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-Og");
+
+            URL_Add("-Os", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-Os");
+
+            URL_Add("-fdata-sections", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffunction-sections");
+
+            URL_Add("-ffunction-sections", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffunction-sections");
+
+            URL_Add("-fno-exceptions", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fexceptions");
+
+            URL_Add(".format", "https://docs.python.org/3/library/stdtypes.html#str.format");
+
+            URL_Add("Bourne shell", "https://en.wikipedia.org/wiki/Bourne_shell");
+
+            URL_Add("Caesar cipher", "https://en.wikipedia.org/wiki/Caesar_cipher");
+
+            URL_Add("LTS", "https://ubuntu.com/about/release-cycle");
+
+            URL_Add("PEP&nbsp;498", "https://peps.python.org/pep-0498/");
+
+            URL_Add("PyMySQL", "https://pypi.org/project/PyMySQL/");
+
+            URL_Add("ROT13", "https://en.wikipedia.org/wiki/ROT13");
+
+            URL_Add("Ubuntu&nbsp;22.04 (Jammy Jellyfish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)");
+
+            URL_Add("```lang-c", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("bicycle", "https://en.wiktionary.org/wiki/bicycle#Noun");
+
+            URL_Add("catching", "https://en.wiktionary.org/wiki/catch#Verb");
+
+            URL_Add("flash memory", "https://en.wikipedia.org/wiki/Flash_memory");
+
+            URL_Add("incentivise", "https://en.wiktionary.org/wiki/incentivise#Verb");
+
+            URL_Add("meta effect", "https://meta.stackexchange.com/questions/235225/what-is-the-meta-effect");
+
+            URL_Add("self-reference", "https://en.wiktionary.org/wiki/self-reference#Noun");
+
+            URL_Add("stringification", "https://en.wiktionary.org/wiki/stringification#Noun");
+
+            URL_Add("succeeds", "https://en.wiktionary.org/wiki/succeed#Verb");
+
+            URL_Add("sweatshop", "https://en.wiktionary.org/wiki/sweatshop#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61448,6 +61563,12 @@ namespace OverflowHelper.core
 
             correctionAdd("iota_", "IOTA_");
 
+            correctionAdd("codeblock_", "code block_");
+            correctionAdd("Code-block_", "code block_");
+            correctionAdd("code-block_", "code block_");
+
+            correctionAdd("lede_", "lead_");
+
             // URL mappings
             //
             //
@@ -61780,6 +61901,10 @@ namespace OverflowHelper.core
             URL_Add("Bitcoin (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
 
             URL_Add("IOTA_", "https://en.wikipedia.org/wiki/IOTA_(technology%29");
+
+            URL_Add("code block_", "https://en.wiktionary.org/wiki/code_block#Noun");
+
+            URL_Add("lead_", "https://en.wikipedia.org/wiki/Lead_paragraph");
 
         } //addLookupData_alternativeWordSet()
 
