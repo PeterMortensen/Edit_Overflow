@@ -686,6 +686,7 @@ namespace OverflowHelper.core
             correctionAdd("type Script", "TypeScript");
             correctionAdd("typeScript", "TypeScript");
             correctionAdd("typescipt", "TypeScript");
+            correctionAdd("Ts", "TypeScript");
 
             correctionAdd("user script", "userscript");
             correctionAdd("Userscript", "userscript");
@@ -2464,6 +2465,7 @@ namespace OverflowHelper.core
             correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
             correctionAdd("codereview", "Code Review (Stack Exchange site)");
             correctionAdd("Code Review", "Code Review (Stack Exchange site)");
+            correctionAdd("CRSE", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
             correctionAdd("Database Administrators", "Database Administrators (Stack Exchange site)"); // Sort of identity mapping
@@ -2928,6 +2930,19 @@ namespace OverflowHelper.core
             correctionAdd("makefile", "Makefile");
             correctionAdd("GNUmakefile", "Makefile");
             correctionAdd("GNU makefile", "Makefile");
+
+            correctionAdd("commmand", "command");
+            correctionAdd("commad", "command");
+            correctionAdd("comand", "command");
+            correctionAdd("Commande", "command");
+            correctionAdd("Command", "command");
+            correctionAdd("coand", "command");
+            correctionAdd("commande", "command");
+
+            correctionAdd("commandos", "commands");
+            correctionAdd("commads", "commands");
+            correctionAdd("coands", "commands");
+            correctionAdd("comands", "commands");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -20005,6 +20020,7 @@ namespace OverflowHelper.core
             correctionAdd("Ruble", "ruble");
 
             correctionAdd("seee", "see");
+            correctionAdd("se", "see");
 
             correctionAdd("tilda", "tilde");
 
@@ -20643,6 +20659,8 @@ namespace OverflowHelper.core
             correctionAdd("knight mare", "knightmare"); // Chess
 
             correctionAdd("candidates 2022", "Candidates Tournament 2022"); // Chess
+
+            correctionAdd("mamejaro", "Shakhriyar Mamedyarov"); // Chess
             //
             // End of the chess part
 
@@ -24291,18 +24309,6 @@ namespace OverflowHelper.core
             correctionAdd("understrand", "understand");
             correctionAdd("understnad", "understand");
             correctionAdd("anderstand", "understand");
-
-            correctionAdd("commmand", "command");
-            correctionAdd("commad", "command");
-            correctionAdd("comand", "command");
-            correctionAdd("Commande", "command");
-            correctionAdd("Command", "command");
-            correctionAdd("coand", "command");
-
-            correctionAdd("commandos", "commands");
-            correctionAdd("commads", "commands");
-            correctionAdd("coands", "commands");
-            correctionAdd("comands", "commands");
 
             correctionAdd("thansand", "thousand");
             correctionAdd("tousind", "thousand");
@@ -37314,6 +37320,7 @@ namespace OverflowHelper.core
             correctionAdd("A.out", "a.out");
 
             correctionAdd("endian-ness", "endianness");
+            correctionAdd("endianess", "endianness");
 
             correctionAdd("G++", "g++");
 
@@ -38821,6 +38828,32 @@ namespace OverflowHelper.core
             correctionAdd("suceeds", "succeeds");
 
             correctionAdd("sweat shop", "sweatshop");
+
+            correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
+
+            correctionAdd("C driver", "C drive");
+
+            correctionAdd("Github Actions", "GitHub Actions");
+
+            correctionAdd("Gitlab CI/CD", "GitLab CI/CD");
+
+            correctionAdd("phabricator", "Phabricator");
+
+            correctionAdd("threadripper", "Threadripper");
+
+            correctionAdd("vuex", "Vuex");
+
+            correctionAdd("Yocto", "Yocto Project");
+            correctionAdd("Yocto Linux", "Yocto Project");
+
+            correctionAdd("byte string", "bytestring");
+
+            correctionAdd("Count", "count");
+
+            correctionAdd("data-rate", "data rate");
+
+            correctionAdd("deserializing", "deserialising");
+            correctionAdd("desirializing", "deserialising");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61070,6 +61103,32 @@ namespace OverflowHelper.core
 
             URL_Add("sweatshop", "https://en.wiktionary.org/wiki/sweatshop#Noun");
 
+            URL_Add("AWS CodePipeline", "https://aws.amazon.com/codepipeline/");
+
+            URL_Add("C drive", "https://en.wikipedia.org/wiki/Drive_letter_assignment#Common_assignments");
+
+            URL_Add("GitHub Actions", "https://en.wikipedia.org/wiki/GitHub#Scope");
+
+            URL_Add("GitLab CI/CD", "https://docs.gitlab.com/ee/ci/");
+
+            URL_Add("Phabricator", "https://en.wikipedia.org/wiki/Phabricator");
+
+            URL_Add("Shakhriyar Mamedyarov", "https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov");
+
+            URL_Add("Threadripper", "https://en.wikipedia.org/wiki/Ryzen");
+
+            URL_Add("Vuex", "https://vuex.vuejs.org/");
+
+            URL_Add("Yocto Project", "https://en.wikipedia.org/wiki/Yocto_Project");
+
+            URL_Add("bytestring", "https://en.wiktionary.org/wiki/bytestring#Noun");
+
+            URL_Add("count", "https://en.wiktionary.org/wiki/count#Noun");
+
+            URL_Add("data rate", "https://en.wiktionary.org/wiki/data_rate#Noun");
+
+            URL_Add("deserialising", "https://en.wiktionary.org/wiki/deserialise#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61083,9 +61142,21 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
+         *                                                                          *
          *    addLookupData_alternativeWordSet                                      *
          *                                                                          *
-         *  Yes, most of the content in this function ought to be in a data file.   *
+         *       Note that the alternative word set is currently entirely           *
+         *       by ***convention*** (use of trailing underscores) - the            *
+         *       rest of the software does not know about the concept               *
+         *       of an alternative word set.                                        *
+         *                                                                          *
+         *       It is also a convention that the alternative word set              *
+         *       is defined in this separate function (though some                  *
+         *       scripts depend on it for checking purposes).                       *                                            *
+         *                                                                          *
+         *                                                                          *
+         *       Yes, most of the content in this function                          *
+         *       ought to be in a data file.                                        *
          *                                                                          *
          ****************************************************************************/
         private void addLookupData_alternativeWordSet()
@@ -61569,6 +61640,8 @@ namespace OverflowHelper.core
 
             correctionAdd("lede_", "lead_");
 
+            correctionAdd("NI_", "National Instruments_");
+
             // URL mappings
             //
             //
@@ -61905,6 +61978,8 @@ namespace OverflowHelper.core
             URL_Add("code block_", "https://en.wiktionary.org/wiki/code_block#Noun");
 
             URL_Add("lead_", "https://en.wikipedia.org/wiki/Lead_paragraph");
+
+            URL_Add("National Instruments_", "https://en.wikipedia.org/wiki/National_Instruments");
 
         } //addLookupData_alternativeWordSet()
 
