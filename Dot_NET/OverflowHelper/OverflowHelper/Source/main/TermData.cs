@@ -11550,6 +11550,7 @@ namespace OverflowHelper.core
             correctionAdd("Maximam", "maximum");
             correctionAdd("maximam", "maximum");
             correctionAdd("maximun", "maximum");
+            correctionAdd("Maximun", "maximum");
 
             correctionAdd("ecom", "E-commerce");
             correctionAdd("e-Commerce", "E-commerce");
@@ -12649,6 +12650,7 @@ namespace OverflowHelper.core
             correctionAdd("shoulb", "should");
             correctionAdd("shoule", "should");
             correctionAdd("shoudl", "should");
+            correctionAdd("shoould", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -13139,6 +13141,7 @@ namespace OverflowHelper.core
             correctionAdd("impl", "implementation");
             correctionAdd("implemetation", "implementation");
             correctionAdd("implemtation", "implementation");
+            correctionAdd("Implementation", "implementation");
 
             correctionAdd("re-implementation", "reimplementation");
 
@@ -23490,6 +23493,7 @@ namespace OverflowHelper.core
             correctionAdd("från", "from");
             correctionAdd("frmo", "from");
             correctionAdd("fro", "from");
+            correctionAdd("fron", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -23738,6 +23742,8 @@ namespace OverflowHelper.core
             correctionAdd("Airflow", "Apache Airflow");
             correctionAdd("apache-airflow", "Apache Airflow");
             correctionAdd("airflow", "Apache Airflow");
+            correctionAdd("AIRFLOW", "Apache Airflow");
+            correctionAdd("Apache airflow", "Apache Airflow");
 
             correctionAdd("appened", "appended");
 
@@ -25778,6 +25784,8 @@ namespace OverflowHelper.core
             correctionAdd("methodl", "method");
             correctionAdd("methof", "method");
             correctionAdd("Method", "method");
+            correctionAdd("Mthod", "method");
+            correctionAdd("mthod", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -30317,6 +30325,9 @@ namespace OverflowHelper.core
             correctionAdd("tea", "TEA");
 
             correctionAdd("re-arrange", "rearrange");
+
+            correctionAdd("ramge", "range");
+            correctionAdd("ragne", "range");
 
             correctionAdd("dicotomi", "dichotomy");
             correctionAdd("dicotomy", "dichotomy");
@@ -36155,8 +36166,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Loop Invariant", "loop invariant");
 
-            correctionAdd("ramge", "range");
-
             correctionAdd("re-align", "realign");
 
             correctionAdd("re-instate", "reinstate");
@@ -38854,6 +38863,13 @@ namespace OverflowHelper.core
 
             correctionAdd("deserializing", "deserialising");
             correctionAdd("desirializing", "deserialising");
+
+            correctionAdd("biasness", "biasedness");
+            correctionAdd("biassness", "biasedness");
+
+            correctionAdd("Cryptographically", "cryptographically");
+
+            correctionAdd("squire bracket", "square bracket");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61128,6 +61144,12 @@ namespace OverflowHelper.core
             URL_Add("data rate", "https://en.wiktionary.org/wiki/data_rate#Noun");
 
             URL_Add("deserialising", "https://en.wiktionary.org/wiki/deserialise#Verb");
+
+            URL_Add("biasedness", "https://en.wiktionary.org/wiki/biasedness#Noun");
+
+            URL_Add("cryptographically", "https://en.wiktionary.org/wiki/cryptographically#Adverb");
+
+            URL_Add("square bracket", "https://en.wiktionary.org/wiki/square_bracket#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
