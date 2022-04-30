@@ -5737,6 +5737,7 @@ namespace OverflowHelper.core
             correctionAdd("Open CV", "OpenCV");
             correctionAdd("opneCV", "OpenCV");
             correctionAdd("OPENCV", "OpenCV");
+            correctionAdd("OPENcv", "OpenCV");
 
             // It should really be "Microsoft Azure"
             correctionAdd("AZURE", "Windows Azure");
@@ -6359,6 +6360,7 @@ namespace OverflowHelper.core
 
             correctionAdd("executeable", "executable");
             correctionAdd("exucutable", "executable");
+            correctionAdd("excuteable", "executable");
 
             correctionAdd("replaceble", "replaceable");
             correctionAdd("replacable", "replaceable");
@@ -10637,6 +10639,7 @@ namespace OverflowHelper.core
             correctionAdd("pepole", "people");
             correctionAdd("Pepole", "people");
             correctionAdd("People", "people");
+            correctionAdd("peoples", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -12219,6 +12222,7 @@ namespace OverflowHelper.core
             correctionAdd("Dev C/C++", "Dev-C++");
             correctionAdd("Dev C++", "Dev-C++");
             correctionAdd("DevC++", "Dev-C++");
+            correctionAdd("dev c++", "Dev-C++");
 
             correctionAdd("msvc", "Microsoft Visual C++");
             correctionAdd("ms vc", "Microsoft Visual C++");
@@ -13426,6 +13430,8 @@ namespace OverflowHelper.core
             correctionAdd("crendentials", "credentials");
             correctionAdd("credentias", "credentials");
             correctionAdd("credentails", "credentials");
+            correctionAdd("Crdentials", "credentials");
+            correctionAdd("Credentials", "credentials");
 
             correctionAdd("credability", "credibility");
 
@@ -38242,6 +38248,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio Code Insiders build", "Visual Studio Code Insiders");
             correctionAdd("insiders build", "Visual Studio Code Insiders");
             correctionAdd("insiders", "Visual Studio Code Insiders");
+            correctionAdd("VSCode insiders", "Visual Studio Code Insiders");
 
             correctionAdd("Dysautonomia", "dysautonomia");
 
@@ -38870,6 +38877,21 @@ namespace OverflowHelper.core
             correctionAdd("Cryptographically", "cryptographically");
 
             correctionAdd("squire bracket", "square bracket");
+
+            correctionAdd("pscredential", "PSCredential");
+
+            correctionAdd("promptforcredential", "PromptForCredential");
+
+            correctionAdd("CMDKEY", "cmdkey");
+
+            correctionAdd("dbfiddle", "db<>fiddle");
+
+            correctionAdd("open source software", "open-source software");
+            correctionAdd("OSS", "open-source software");
+
+            correctionAdd("pannel", "panel");
+
+            correctionAdd("self taught", "self-taught");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61150,6 +61172,20 @@ namespace OverflowHelper.core
             URL_Add("cryptographically", "https://en.wiktionary.org/wiki/cryptographically#Adverb");
 
             URL_Add("square bracket", "https://en.wiktionary.org/wiki/square_bracket#Noun");
+
+            URL_Add("PSCredential", "https://docs.microsoft.com/en-us/dotnet/api/system.management.automation.pscredential");
+
+            URL_Add("PromptForCredential", "https://docs.microsoft.com/en-us/dotnet/api/system.management.automation.host.pshostuserinterface.promptforcredential");
+
+            URL_Add("cmdkey", "https://en.wikipedia.org/wiki/Management_features_new_to_Windows_Vista#Command-line_tools");
+
+            URL_Add("db<>fiddle", "https://dbfiddle.uk/");
+
+            URL_Add("open-source software", "https://en.wikipedia.org/wiki/Open-source_software");
+
+            URL_Add("panel", "https://en.wiktionary.org/wiki/panel#Noun");
+
+            URL_Add("self-taught", "https://en.wiktionary.org/wiki/self-taught#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
