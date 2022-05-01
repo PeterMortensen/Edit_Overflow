@@ -5058,6 +5058,7 @@ namespace OverflowHelper.core
             correctionAdd("defintitely", "definitely");
             correctionAdd("deffinitly", "definitely");
             correctionAdd("defenitly", "definitely");
+            correctionAdd("definetley", "definitely");
 
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
@@ -19870,6 +19871,7 @@ namespace OverflowHelper.core
             correctionAdd("itselft", "itself");
             correctionAdd("it'self", "itself");
             correctionAdd("itselt", "itself");
+            correctionAdd("isself", "itself");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -38489,6 +38491,7 @@ namespace OverflowHelper.core
             correctionAdd("MAUI", "Multi-platform App UI");
             correctionAdd("muawi", "Multi-platform App UI");
             correctionAdd("muavi", "Multi-platform App UI");
+            correctionAdd(".NET MAUI", "Multi-platform App UI");
 
             correctionAdd("borrow checker", "Rust borrow checker");
             correctionAdd("Rust Borrow Checker", "Rust borrow checker");
@@ -38892,6 +38895,24 @@ namespace OverflowHelper.core
             correctionAdd("pannel", "panel");
 
             correctionAdd("self taught", "self-taught");
+
+            correctionAdd("Atari T/OS", "Atari TOS");
+
+            correctionAdd("toml", "TOML");
+
+            correctionAdd("vercel", "Vercel");
+
+            correctionAdd("zimbabwee", "Zimbabwe");
+
+            correctionAdd("aven", "even");
+
+            correctionAdd("narcistic", "narcissistic");
+
+            correctionAdd("secundary", "secondary");
+
+            correctionAdd("Valsalva maneuver", "valsalva maneuver");
+
+            correctionAdd("XHCI", "xHCI");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61186,6 +61207,24 @@ namespace OverflowHelper.core
             URL_Add("panel", "https://en.wiktionary.org/wiki/panel#Noun");
 
             URL_Add("self-taught", "https://en.wiktionary.org/wiki/self-taught#Adjective");
+
+            URL_Add("Atari TOS", "https://en.wikipedia.org/wiki/Atari_TOS");
+
+            URL_Add("TOML", "https://en.wikipedia.org/wiki/TOML");
+
+            URL_Add("Vercel", "https://github.com/vercel/vercel");
+
+            URL_Add("Zimbabwe", "https://en.wikipedia.org/wiki/Zimbabwe");
+
+            URL_Add("even", "https://en.wiktionary.org/wiki/even#Adverb");
+
+            URL_Add("narcissistic", "https://en.wiktionary.org/wiki/narcissistic#Adjective");
+
+            URL_Add("secondary", "https://en.wiktionary.org/wiki/secondary#Adjective");
+
+            URL_Add("valsalva maneuver", "https://en.wikipedia.org/wiki/Valsalva_maneuver");
+
+            URL_Add("xHCI", "https://en.wikipedia.org/wiki/Extensible_Host_Controller_Interface");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
