@@ -1657,6 +1657,7 @@ namespace OverflowHelper.core
             correctionAdd("OS x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MaxOSX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MAC X", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("Os x", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
@@ -1962,6 +1963,7 @@ namespace OverflowHelper.core
             correctionAdd("Monterey 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Mac OS 12.2", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS Monterey 12", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS 12", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -2897,6 +2899,8 @@ namespace OverflowHelper.core
 
             correctionAdd("bashrc", ".bashrc file");
             correctionAdd(".bashrc", ".bashrc file");
+            correctionAdd("bash_rc", ".bashrc file");
+            correctionAdd(".bash_rc", ".bashrc file");
 
             correctionAdd(".profile", ".profile file");
 
@@ -3322,6 +3326,12 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("set-service", "Set-Service");
+
+            // Of PowerShell...
+            correctionAdd("ConvertFrom-JSON", "ConvertFrom-Json");
+
+            // Of PowerShell...
+            correctionAdd("ConvertTo-JSON", "ConvertTo-Json");
 
             correctionAdd("vim", "Vim");
             correctionAdd("VIM", "Vim");
@@ -9909,6 +9919,8 @@ namespace OverflowHelper.core
             correctionAdd("Dowload", "download");
             correctionAdd("downlead", "download");
             correctionAdd("dosnload", "download");
+            correctionAdd("Downlad", "download");
+            correctionAdd("downlad", "download");
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
@@ -13850,6 +13862,7 @@ namespace OverflowHelper.core
             correctionAdd("Python2", "Python&nbsp;2");
             correctionAdd("Py2", "Python&nbsp;2");
             correctionAdd("python v2", "Python&nbsp;2");
+            correctionAdd("python-2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
@@ -17327,6 +17340,7 @@ namespace OverflowHelper.core
 
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
+            correctionAdd("snippit", "snippet");
 
             correctionAdd("user defined", "user-defined");
             correctionAdd("User Defined", "user-defined");
@@ -19541,6 +19555,9 @@ namespace OverflowHelper.core
 
             correctionAdd("disadvange", "disadvantage");
             correctionAdd("disavantage", "disadvantage");
+
+            correctionAdd("advantange", "advantage");
+            correctionAdd("advanatge", "advantage");
 
             correctionAdd("Emoji", "emoji");
 
@@ -30836,6 +30853,7 @@ namespace OverflowHelper.core
             correctionAdd("infisibly", "infeasibly");
 
             correctionAdd("non-standard", "nonstandard");
+            correctionAdd("non standard", "nonstandard");
 
             correctionAdd("pasifism", "pacifism");
 
@@ -34113,8 +34131,6 @@ namespace OverflowHelper.core
             correctionAdd("D&D", "Dungeons & Dragons");
 
             correctionAdd("iperf", "Iperf");
-
-            correctionAdd("advantange", "advantage");
 
             correctionAdd("catalogoues", "catalogues");
 
@@ -38293,6 +38309,7 @@ namespace OverflowHelper.core
             correctionAdd("electro negative", "electronegative");
 
             correctionAdd("evalute", "evaluate");
+            correctionAdd("evaulate", "evaluate");
 
             correctionAdd("plugg", "plug");
             correctionAdd("pulg", "plug");
@@ -38913,6 +38930,47 @@ namespace OverflowHelper.core
             correctionAdd("Valsalva maneuver", "valsalva maneuver");
 
             correctionAdd("XHCI", "xHCI");
+
+            correctionAdd("Clisp", "CLISP");
+
+            correctionAdd("flv", "FLV");
+
+            correctionAdd("irb", "Interactive Ruby Shell");
+            correctionAdd("IRB", "Interactive Ruby Shell");
+
+            correctionAdd("Jpsoft", "JP Software");
+
+            correctionAdd("TCC", "Take Command Console");
+            correctionAdd("Take Control", "Take Command Console");
+            correctionAdd("4DOS for Windows NT", "Take Command Console");
+            correctionAdd("4NT", "Take Command Console");
+
+            correctionAdd("Yagy antenna", "Yagi antenna");
+            correctionAdd("yagi antenna", "Yagi antenna");
+            correctionAdd("Yagi–Uda antenna", "Yagi antenna");
+            correctionAdd("yagi", "Yagi antenna");
+
+            correctionAdd("comprehensed", "comprehended");
+
+            correctionAdd("EDG", "electron-donating group");
+            correctionAdd("electron donating group", "electron-donating group");
+
+            correctionAdd("EWG", "electron-withdrawing group");
+            correctionAdd("electron withdrawing group", "electron-withdrawing group");
+
+            correctionAdd("nJoy", "enjoy");
+
+            correctionAdd("filemanagement", "file management");
+
+            correctionAdd("envoking", "invoking");
+
+            correctionAdd("NETCAT", "netcat");
+
+            correctionAdd("preferrable", "preferable");
+
+            correctionAdd("Shell", "shell");
+
+            correctionAdd("triple-quote", "triple quote");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61226,6 +61284,42 @@ namespace OverflowHelper.core
 
             URL_Add("xHCI", "https://en.wikipedia.org/wiki/Extensible_Host_Controller_Interface");
 
+            URL_Add("CLISP", "https://en.wikipedia.org/wiki/CLISP");
+
+            URL_Add("ConvertFrom-Json", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json");
+
+            URL_Add("ConvertTo-Json", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-json");
+
+            URL_Add("FLV", "https://en.wikipedia.org/wiki/Flash_Video");
+
+            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
+
+            URL_Add("JP Software", "https://en.wikipedia.org/wiki/Take_Command_Console");
+
+            URL_Add("Take Command Console", "https://en.wikipedia.org/wiki/Take_Command_Console");
+
+            URL_Add("Yagi antenna", "https://en.wikipedia.org/wiki/Yagi%E2%80%93Uda_antenna");
+
+            URL_Add("comprehended", "https://en.wiktionary.org/wiki/comprehend#Verb");
+
+            URL_Add("electron-donating group", "https://en.wikipedia.org/wiki/Polar_effect");
+
+            URL_Add("electron-withdrawing group", "https://en.wikipedia.org/wiki/Polar_effect");
+
+            URL_Add("enjoy", "https://en.wiktionary.org/wiki/enjoy#Verb");
+
+            URL_Add("file management", "https://en.wikipedia.org/wiki/File_manager#File_picker");
+
+            URL_Add("invoking", "https://en.wiktionary.org/wiki/invoke#Verb");
+
+            URL_Add("netcat", "https://en.wikipedia.org/wiki/Netcat");
+
+            URL_Add("preferable", "https://en.wiktionary.org/wiki/preferable#Adjective");
+
+            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
+
+            URL_Add("triple quote", "https://en.wiktionary.org/wiki/double_quote#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61739,6 +61833,9 @@ namespace OverflowHelper.core
 
             correctionAdd("NI_", "National Instruments_");
 
+            correctionAdd("SA_", "Seasoned Advice (Stack Exchange site)_");
+            correctionAdd("Seasoned Advice_", "Seasoned Advice (Stack Exchange site)_"); // Sort of identity mapping"
+
             // URL mappings
             //
             //
@@ -62078,8 +62175,9 @@ namespace OverflowHelper.core
 
             URL_Add("National Instruments_", "https://en.wikipedia.org/wiki/National_Instruments");
 
-        } //addLookupData_alternativeWordSet()
+            URL_Add("Seasoned Advice (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
 
+        } //addLookupData_alternativeWordSet()
 
     } //class TermData
 
