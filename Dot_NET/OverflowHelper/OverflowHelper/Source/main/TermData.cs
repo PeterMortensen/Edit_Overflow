@@ -7737,6 +7737,8 @@ namespace OverflowHelper.core
             correctionAdd("symoblic link", "symbolic link");
             correctionAdd("sym link", "symbolic link");
             correctionAdd("Symlink", "symbolic link");
+            correctionAdd("Symlinks", "symbolic link");
+            correctionAdd("symlinks", "symbolic link");
 
             correctionAdd("adt", "ADT");
 
@@ -9827,6 +9829,7 @@ namespace OverflowHelper.core
             correctionAdd("prerequsite", "prerequisite");
             correctionAdd("prereqiusites", "prerequisite");
             correctionAdd("prereqiusite", "prerequisite");
+            correctionAdd("Prerequisite", "prerequisite");
 
             correctionAdd("requites", "requisites"); // Misspelling.
 
@@ -10814,6 +10817,8 @@ namespace OverflowHelper.core
 
             correctionAdd("non-english", "non-English");
             correctionAdd("nonenglish", "non-English");
+            correctionAdd("Non English", "non-English");
+            correctionAdd("Non-English", "non-English");
 
             correctionAdd("lets", "let’s");
             correctionAdd("let's", "let’s");
@@ -19265,6 +19270,7 @@ namespace OverflowHelper.core
             correctionAdd("woring", "working");
             correctionAdd("work'in", "working");
             correctionAdd("workin", "working");
+            correctionAdd("wokring", "working");
 
             correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
             correctionAdd("Angular2", "Angular&nbsp;2");
@@ -25571,6 +25577,7 @@ namespace OverflowHelper.core
             correctionAdd("tsuquyomi", "Tsuquyomi");
 
             correctionAdd("twilio", "Twilio");
+            correctionAdd("twillio", "Twilio");
 
             correctionAdd("narsissist", "narcissist");
 
@@ -37842,6 +37849,7 @@ namespace OverflowHelper.core
             correctionAdd("'NIX", "Unix-like");
             correctionAdd("'nix", "Unix-like");
             correctionAdd("*nix", "Unix-like");
+            correctionAdd("Un*x", "Unix-like");
 
             correctionAdd("web", "Web");
 
@@ -38971,6 +38979,21 @@ namespace OverflowHelper.core
             correctionAdd("Shell", "shell");
 
             correctionAdd("triple-quote", "triple quote");
+
+            correctionAdd("doom emacs", "Doom Emacs");
+
+            correctionAdd("Pymc3", "PyMC");
+            correctionAdd("PyMC3", "PyMC");
+
+            correctionAdd("set-aduser", "Set-ADUser");
+
+            correctionAdd("answer-er", "answerer");
+
+            correctionAdd("coersion", "coercion");
+
+            correctionAdd("gate keeping", "gatekeeping");
+
+            correctionAdd("MKLINK", "mklink");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61319,6 +61342,20 @@ namespace OverflowHelper.core
             URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
 
             URL_Add("triple quote", "https://en.wiktionary.org/wiki/double_quote#Noun");
+
+            URL_Add("Doom Emacs", "https://www.emacswiki.org/emacs/DoomEmacs");
+
+            URL_Add("PyMC", "https://en.wikipedia.org/wiki/PyMC");
+
+            URL_Add("Set-ADUser", "https://docs.microsoft.com/en-us/powershell/module/activedirectory/set-aduser");
+
+            URL_Add("answerer", "https://en.wiktionary.org/wiki/answerer#Noun");
+
+            URL_Add("coercion", "https://en.wiktionary.org/wiki/coercion#Noun");
+
+            URL_Add("gatekeeping", "https://en.wiktionary.org/wiki/gatekeep#Verb");
+
+            URL_Add("mklink", "https://en.wikipedia.org/wiki/NTFS_links#Command-line_tools");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
