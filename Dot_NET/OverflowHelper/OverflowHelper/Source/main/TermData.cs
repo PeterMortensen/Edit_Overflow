@@ -2948,6 +2948,14 @@ namespace OverflowHelper.core
             correctionAdd("coands", "commands");
             correctionAdd("comands", "commands");
 
+            correctionAdd("andd", "and");
+            correctionAdd("abd", "and");
+            correctionAdd("adn", "and");
+            correctionAdd("und", "and");
+            correctionAdd("nad", "and");
+            correctionAdd("And", "and");
+            correctionAdd("anb", "and");
+
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
@@ -6085,6 +6093,8 @@ namespace OverflowHelper.core
             correctionAdd("charactere", "characters");
             correctionAdd("characteres", "characters");
             correctionAdd("charactes", "characters");
+            correctionAdd("Character", "characters");
+            correctionAdd("Characters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -13526,6 +13536,7 @@ namespace OverflowHelper.core
             correctionAdd("portuguise", "Portuguese");
             correctionAdd("Portugeese", "Portuguese");
             correctionAdd("portugeese", "Portuguese");
+            correctionAdd("portogise", "Portuguese");
 
             correctionAdd("mockito", "Mockito");
             correctionAdd("Powermockito", "Mockito");
@@ -15493,6 +15504,8 @@ namespace OverflowHelper.core
             correctionAdd("Appriciate", "appreciate");
             correctionAdd("apricate", "appreciate");
             correctionAdd("apriciate", "appreciate");
+            correctionAdd("aprreciate", "appreciate");
+            correctionAdd("apreciate", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -17544,6 +17557,7 @@ namespace OverflowHelper.core
             correctionAdd("beutiful", "beautiful");
             correctionAdd("beautifull", "beautiful");
             correctionAdd("beautuful", "beautiful");
+            correctionAdd("beutifull", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
             correctionAdd("gottach", "gotcha");
@@ -18518,6 +18532,7 @@ namespace OverflowHelper.core
             correctionAdd("mentionned", "mentioned");
             correctionAdd("mentionmed", "mentioned");
             correctionAdd("mentionend", "mentioned");
+            correctionAdd("mensioned", "mentioned");
 
             correctionAdd("predicatbly", "predictably");
 
@@ -20171,13 +20186,6 @@ namespace OverflowHelper.core
             correctionAdd("MInd", "mind");
 
             correctionAdd("spead", "spread");
-
-            correctionAdd("andd", "and");
-            correctionAdd("abd", "and");
-            correctionAdd("adn", "and");
-            correctionAdd("und", "and");
-            correctionAdd("nad", "and");
-            correctionAdd("And", "and");
 
             // Start of the chess part...
             correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
@@ -24205,6 +24213,8 @@ namespace OverflowHelper.core
 
             correctionAdd("BNF", "Backus–Naur form");
             correctionAdd("Backus-Naur form", "Backus–Naur form");
+            correctionAdd("backus", "Backus–Naur form");
+            correctionAdd("naur", "Backus–Naur form");
 
             correctionAdd("EBNF", "Extended Backus–Naur form");
             correctionAdd("ebnf", "Extended Backus–Naur form");
@@ -24949,6 +24959,7 @@ namespace OverflowHelper.core
             correctionAdd("pittfall", "pitfall");
             correctionAdd("pit fall", "pitfall");
             correctionAdd("Pitfall", "pitfall");
+            correctionAdd("pitfails", "pitfall");
 
             correctionAdd("planetecibel", "planetesimal");
             correctionAdd("Planetecibel", "planetesimal");
@@ -25334,6 +25345,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Colab", "Colaboratory");
             correctionAdd("colab", "Colaboratory");
+            correctionAdd("google colab", "Colaboratory");
 
             correctionAdd("Jpeg 2000", "JPEG 2000");
 
@@ -31770,6 +31782,7 @@ namespace OverflowHelper.core
             correctionAdd("capitalize", "capitalise");
             correctionAdd("captialize", "capitalise");
             correctionAdd("capitialize", "capitalise");
+            correctionAdd("caps", "capitalise");
 
             correctionAdd("datatype", "data type");
 
@@ -38381,6 +38394,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SOPT", "Stack Overflow em Português");
             correctionAdd("SOpt", "Stack Overflow em Português");
+            correctionAdd("SO.pt", "Stack Overflow em Português");
 
             correctionAdd("lang-go", "```lang-golang");
 
@@ -38994,6 +39008,50 @@ namespace OverflowHelper.core
             correctionAdd("gate keeping", "gatekeeping");
 
             correctionAdd("MKLINK", "mklink");
+
+            correctionAdd("spacemacs", "Spacemacs");
+
+            correctionAdd("Stack Overflow на русском", "Stack Overflow на русском (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("ru.SO", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("SO.rus", "Stack Overflow на русском (Stack Exchange site)");
+
+            correctionAdd("alamred", "alarmed");
+
+            correctionAdd("bobby dazzler", "bobby-dazzler");
+            correctionAdd("bobby desla", "bobby-dazzler");
+            correctionAdd("Bobby Dazzler", "bobby-dazzler");
+
+            correctionAdd("enrtiry", "entity");
+
+            correctionAdd("fair suck of the sauce bottle", "fair suck of the sav");
+            correctionAdd("Suck of the zap", "fair suck of the sav");
+
+            correctionAdd("from the face of earth", "from the face of the earth");
+
+            correctionAdd("imageniation", "imagination");
+
+            correctionAdd("modolus", "modulus");
+
+            correctionAdd("No worries", "no worries");
+
+            correctionAdd("prestine", "pristine");
+
+            correctionAdd("roothlessly", "ruthlessly");
+
+            correctionAdd("suspence", "suspense");
+
+            correctionAdd("Symbols", "symbols");
+
+            correctionAdd("that is all she wrote", "that's all she wrote");
+
+            correctionAdd("ananswered", "unanswered");
+
+            correctionAdd("UNXZ", "unxz");
+
+            correctionAdd("wanki", "wanky");
+
+            correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
+            correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61357,6 +61415,44 @@ namespace OverflowHelper.core
 
             URL_Add("mklink", "https://en.wikipedia.org/wiki/NTFS_links#Command-line_tools");
 
+            URL_Add("Spacemacs", "https://en.wikipedia.org/wiki/Spacemacs");
+
+            URL_Add("Stack Overflow на русском (Stack Exchange site)", "https://ru.stackoverflow.com/tour");
+
+            URL_Add("alarmed", "https://en.wiktionary.org/wiki/alarm#Verb");
+
+            URL_Add("bobby-dazzler", "https://www.lexico.com/definition/bobby_dazzler");
+
+            URL_Add("entity", "https://en.wiktionary.org/wiki/entity#Noun");
+
+            URL_Add("fair suck of the sav", "https://en.wiktionary.org/wiki/fair_suck_of_the_sav#Interjection");
+
+            URL_Add("from the face of the earth", "https://en.wiktionary.org/wiki/from_the_face_of_the_earth#Noun");
+
+            URL_Add("imagination", "https://en.wiktionary.org/wiki/imagination#Noun");
+
+            URL_Add("modulus", "https://en.wiktionary.org/wiki/modulus#Noun");
+
+            URL_Add("no worries", "https://en.wiktionary.org/wiki/no_worries#Interjection");
+
+            URL_Add("pristine", "https://en.wiktionary.org/wiki/pristine#Adjective");
+
+            URL_Add("ruthlessly", "https://en.wiktionary.org/wiki/ruthlessly#Adverb");
+
+            URL_Add("suspense", "https://en.wiktionary.org/wiki/suspense#Noun");
+
+            URL_Add("symbols", "https://en.wiktionary.org/wiki/symbol#Noun");
+
+            URL_Add("that's all she wrote", "https://en.wiktionary.org/wiki/that%27s_all_she_wrote#Phrase");
+
+            URL_Add("unanswered", "https://en.wiktionary.org/wiki/unanswered#Adjective");
+
+            URL_Add("unxz", "https://linux.die.net/man/1/unxz");
+
+            URL_Add("wanky", "https://en.wiktionary.org/wiki/wanky#Adjective");
+
+            URL_Add("スタック・オーバーフロー (Stack Exchange site)", "https://ja.stackoverflow.com/tour");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61760,6 +61856,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Salesforce_", "Salesforce (Stack Exchange site)_");
 
+            correctionAdd("Writing_", "Writing (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("writing_", "Writing (Stack Exchange site)_");
 
             correctionAdd("christianity_", "Christianity (Stack Exchange site)_");
