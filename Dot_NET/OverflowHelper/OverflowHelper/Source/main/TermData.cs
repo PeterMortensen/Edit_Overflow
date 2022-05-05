@@ -9509,6 +9509,8 @@ namespace OverflowHelper.core
             correctionAdd("Function", "function");
             correctionAdd("fucn", "function");
             correctionAdd("functio", "function");
+            correctionAdd("Funktion", "function");
+            correctionAdd("funktion", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -9519,6 +9521,17 @@ namespace OverflowHelper.core
             correctionAdd("Dirac Delta", "Dirac delta function");
 
             correctionAdd("Sigmoid function", "sigmoid function");
+
+            correctionAdd("fonctionality", "functionality");
+            correctionAdd("fonctionnality", "functionality");
+            correctionAdd("functionnality", "functionality");
+            correctionAdd("funccionallity", "functionality");
+            correctionAdd("funcionallity", "functionality");
+            correctionAdd("functionallity", "functionality");
+            correctionAdd("functionalitly", "functionality");
+            correctionAdd("functionalilty", "functionality");
+            correctionAdd("functionalility", "functionality");
+            correctionAdd("funcitonality", "functionality");
 
             correctionAdd("cgi", "CGI");
 
@@ -16808,6 +16821,7 @@ namespace OverflowHelper.core
             correctionAdd("butoon", "button");
             correctionAdd("buuton", "button");
             correctionAdd("Button", "button");
+            correctionAdd("buton", "button");
 
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
@@ -22348,16 +22362,6 @@ namespace OverflowHelper.core
 
             correctionAdd("choregraphic", "choreographic");
 
-            correctionAdd("fonctionality", "functionality");
-            correctionAdd("fonctionnality", "functionality");
-            correctionAdd("functionnality", "functionality");
-            correctionAdd("funccionallity", "functionality");
-            correctionAdd("funcionallity", "functionality");
-            correctionAdd("functionallity", "functionality");
-            correctionAdd("functionalitly", "functionality");
-            correctionAdd("functionalilty", "functionality");
-            correctionAdd("functionalility", "functionality");
-
             correctionAdd("long standing", "long-standing");
             correctionAdd("longstanding", "long-standing");
 
@@ -23366,6 +23370,7 @@ namespace OverflowHelper.core
             correctionAdd("reproducable", "reproducible");
 
             correctionAdd("roate", "rotate");
+            correctionAdd("rotete", "rotate");
 
             correctionAdd("seleting", "selecting");
 
@@ -39052,6 +39057,11 @@ namespace OverflowHelper.core
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
+
+            correctionAdd("primiere pro", "Adobe Premiere Pro");
+            correctionAdd("Premiere Pro", "Adobe Premiere Pro");
+
+            correctionAdd("sun setted", "sunsetted");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61452,6 +61462,10 @@ namespace OverflowHelper.core
             URL_Add("wanky", "https://en.wiktionary.org/wiki/wanky#Adjective");
 
             URL_Add("スタック・オーバーフロー (Stack Exchange site)", "https://ja.stackoverflow.com/tour");
+
+            URL_Add("Adobe Premiere Pro", "https://en.wikipedia.org/wiki/Adobe_Premiere_Pro");
+
+            URL_Add("sunsetted", "https://en.wiktionary.org/wiki/sunset#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
