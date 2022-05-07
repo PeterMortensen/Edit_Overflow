@@ -7133,6 +7133,7 @@ namespace OverflowHelper.core
             correctionAdd("walk through", "walkthrough");
             correctionAdd("walk-through", "walkthrough");
             correctionAdd("Walkthrough", "walkthrough");
+            correctionAdd("walk though", "walkthrough");
 
             correctionAdd("pass through", "passthrough");
 
@@ -16199,6 +16200,7 @@ namespace OverflowHelper.core
             correctionAdd("css grid", "CSS grid");
 
             correctionAdd("cloudfront", "Amazon CloudFront");
+            correctionAdd("CloudFront", "Amazon CloudFront");
 
             correctionAdd("flutter", "Flutter");
             correctionAdd("Fludder", "Flutter");
@@ -17409,6 +17411,7 @@ namespace OverflowHelper.core
 
             correctionAdd("distination", "destination");
             correctionAdd("dest", "destination");
+            correctionAdd("dist", "destination");
 
             correctionAdd("ASN1", "ASN.1");
             correctionAdd("ASN-1", "ASN.1");
@@ -19927,6 +19930,7 @@ namespace OverflowHelper.core
 
             correctionAdd("instaled", "installed");
             correctionAdd("instlled", "installed");
+            correctionAdd("instilled", "installed");
 
             correctionAdd("linebreak", "line break");
             correctionAdd("Line-Break", "line break");
@@ -29606,6 +29610,7 @@ namespace OverflowHelper.core
 
             correctionAdd("react-router", "React Router");
             correctionAdd("react router", "React Router");
+            correctionAdd("React-Router", "React Router");
 
             correctionAdd("AntiX Linux", "antiX");
             correctionAdd("AntiX", "antiX");
@@ -32302,6 +32307,7 @@ namespace OverflowHelper.core
             correctionAdd("hypofetical", "hypothetical");
 
             correctionAdd("randonly", "randomly");
+            correctionAdd("randomply", "randomly");
 
             correctionAdd("seqences", "sequences");
 
@@ -36220,6 +36226,7 @@ namespace OverflowHelper.core
             correctionAdd("checkup", "check up");
 
             correctionAdd("distil", "distill");
+            correctionAdd("destill", "distill");
 
             correctionAdd("low cohesion", "high cohesion");
             correctionAdd("lower cohesion", "high cohesion");
@@ -39083,6 +39090,23 @@ namespace OverflowHelper.core
             correctionAdd("KDE4", "KDE&nbsp;4");
 
             correctionAdd("kde", "KDE");
+
+            correctionAdd("nashorn", "Nashorn");
+
+            correctionAdd("netlify", "Netlify");
+
+            correctionAdd("adapte", "adapt");
+
+            correctionAdd("detact", "detect");
+
+            correctionAdd("In Conjunction With", "in conjunction with");
+            correctionAdd("i.c.w", "in conjunction with");
+
+            correctionAdd("obsticle", "obstacle");
+
+            correctionAdd("querystring", "query string");
+
+            correctionAdd("savez", "saved");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61498,6 +61522,22 @@ namespace OverflowHelper.core
 
             URL_Add("LSB",  "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
 
+            URL_Add("Nashorn", "https://en.wikipedia.org/wiki/Nashorn_(JavaScript_engine)");
+
+            URL_Add("Netlify", "https://en.wikipedia.org/wiki/Netlify");
+
+            URL_Add("adapt", "https://en.wiktionary.org/wiki/adapt#Verb");
+
+            URL_Add("detect", "https://en.wiktionary.org/wiki/detect#Verb");
+
+            URL_Add("in conjunction with", "https://en.wiktionary.org/wiki/in_conjunction_with#Prepositional_phrase");
+
+            URL_Add("obstacle", "https://en.wiktionary.org/wiki/obstacle#Noun");
+
+            URL_Add("query string", "https://en.wiktionary.org/wiki/query_string#Noun");
+
+            URL_Add("saved", "https://en.wiktionary.org/wiki/save#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61781,7 +61821,7 @@ namespace OverflowHelper.core
 
             correctionAdd("TEE_", "tee_");
 
-            // The internal "About" page. The Wikipedia 
+            // The internal "About" page. The Wikipedia
             // article version is in the main word set.
             correctionAdd("SO_", "Stack&nbsp;Overflow_");
             correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
@@ -62035,6 +62075,8 @@ namespace OverflowHelper.core
             correctionAdd("And_", "and_");
             correctionAdd("anb_", "and_");
             correctionAdd("ans_", "and_");
+
+            correctionAdd("home-brew_", "homebrewed_");
 
             // URL mappings
             //
@@ -62376,6 +62418,8 @@ namespace OverflowHelper.core
             URL_Add("right mouse button_", "https://en.wiktionary.org/wiki/RMB#Noun");
 
             URL_Add("and_", "https://en.wiktionary.org/wiki/and#Conjunction");
+
+            URL_Add("homebrewed_", "https://en.wiktionary.org/wiki/homebrew#Verb");
 
         } //addLookupData_alternativeWordSet()
 
