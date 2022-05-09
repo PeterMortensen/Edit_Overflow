@@ -2747,6 +2747,7 @@ namespace OverflowHelper.core
             correctionAdd("t.ex", "for example");
             correctionAdd("sg", "for example");
             correctionAdd("i.g", "for example");
+            correctionAdd("Es", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -9640,6 +9641,7 @@ namespace OverflowHelper.core
             correctionAdd("FCKeditor", "CKEditor"); // Not 100% correct. FCKeditor is the predecessor to CKEditor (removed "F" and "e" is capitalised).
             correctionAdd("CK Editor", "CKEditor");
             correctionAdd("Ck Editor", "CKEditor");
+            correctionAdd("CKEDITOR", "CKEditor");
 
             correctionAdd("map/reduce", "MapReduce");
             correctionAdd("Map/Reduce", "MapReduce");
@@ -9689,6 +9691,7 @@ namespace OverflowHelper.core
             correctionAdd("OfCourse", "of course");
             correctionAdd("Of Course", "of course");
             correctionAdd("ofcource", "of course");
+            correctionAdd("course", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -12659,6 +12662,7 @@ namespace OverflowHelper.core
             correctionAdd("hexdec", "hexadecimal");
             correctionAdd("Hexadecimal", "hexadecimal");
             correctionAdd("Hexa", "hexadecimal");
+            correctionAdd("hexidecimal", "hexadecimal");
 
             correctionAdd("neiboughood", "neighbourhood");
 
@@ -18589,6 +18593,8 @@ namespace OverflowHelper.core
             correctionAdd("bu", "but");
             correctionAdd("byt", "but");
             correctionAdd("vut", "but");
+            correctionAdd("Bus", "but");
+            correctionAdd("bus", "but");
 
             correctionAdd("Century", "century");
 
@@ -20707,6 +20713,13 @@ namespace OverflowHelper.core
 
             correctionAdd("hallow", "hello");
             correctionAdd("Hallow", "hello");
+            correctionAdd("Hola", "hello");
+            correctionAdd("hola", "hello");
+            correctionAdd("holla", "hello");
+            correctionAdd("Holla", "hello");
+            correctionAdd("Hallo", "hello");
+            correctionAdd("hallo", "hello");
+            correctionAdd("hellow", "hello");
 
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
@@ -34617,6 +34630,7 @@ namespace OverflowHelper.core
             correctionAdd("mb_strlen", "mb_strlen()");
 
             correctionAdd("needet", "needed");
+            correctionAdd("needeed", "needed");
 
             correctionAdd("turns-off", "turns off");
 
@@ -36644,6 +36658,7 @@ namespace OverflowHelper.core
             correctionAdd("Braille", "braille");
 
             correctionAdd("combime", "combine");
+            correctionAdd("combile", "combine");
 
             correctionAdd("farly", "fairly");
 
@@ -38884,6 +38899,7 @@ namespace OverflowHelper.core
             correctionAdd("electron withdrawing group", "electron-withdrawing group");
 
             correctionAdd("nJoy", "enjoy");
+            correctionAdd("enjoyy", "enjoy");
 
             correctionAdd("filemanagement", "file management");
 
@@ -39170,6 +39186,30 @@ namespace OverflowHelper.core
             correctionAdd("ohci", "OHCI");
 
             correctionAdd("uhci", "UHCI");
+
+            correctionAdd("sketchware", "Sketchware");
+
+            correctionAdd("Timbuctoo", "Timbuktu");
+
+            correctionAdd("winzip", "WinZip");
+
+            correctionAdd("call-upon", "call upon");
+
+            correctionAdd("decreasinly", "decreasingly");
+
+            correctionAdd("pallitative", "palliative");
+
+            correctionAdd("pay-scale", "payscale");
+
+            correctionAdd("Pneumonia", "pneumonia");
+            correctionAdd("phemonia", "pneumonia");
+            correctionAdd("phomonia", "pneumonia");
+
+            correctionAdd("raleway", "railway");
+
+            correctionAdd("re-index", "reindex");
+
+            correctionAdd("sync'ing", "synchronising");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -39595,6 +39635,7 @@ namespace OverflowHelper.core
             correctionAdd("Zoe App", "ZOE app"); // Coronavirus
             correctionAdd("ZOE", "ZOE app"); // Coronavirus
             correctionAdd("Zoe app", "ZOE app"); // Coronavirus
+            correctionAdd("Zoe", "ZOE app"); // Coronavirus
 
             correctionAdd("vene", "vein"); // Coronavirus
 
@@ -39630,6 +39671,7 @@ namespace OverflowHelper.core
             correctionAdd("flu", "influenza"); // Coronavirus
             correctionAdd("Influenza", "influenza"); // Coronavirus
             correctionAdd("Influenze", "influenza"); // Coronavirus
+            correctionAdd("flue", "influenza"); // Coronavirus
 
             correctionAdd("covaxin", "Covaxin"); // Coronavirus
 
@@ -39696,6 +39738,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Omicron", "Omicron variant"); // Coronavirus
             correctionAdd("omicron", "Omicron variant"); // Coronavirus
+            correctionAdd("Omikron", "Omicron variant"); // Coronavirus
+            correctionAdd("omikron", "Omicron variant"); // Coronavirus
 
             correctionAdd("Bleach", "bleach");
 
@@ -61634,6 +61678,28 @@ namespace OverflowHelper.core
             URL_Add("sock puppeting", "https://en.wiktionary.org/wiki/sock_puppet#Verb");
 
             URL_Add("wonky", "https://en.wiktionary.org/wiki/wonky#Adjective");
+
+            URL_Add("Sketchware", "http://docs.sketchware.io/");
+
+            URL_Add("Timbuktu", "https://en.wikipedia.org/wiki/Timbuktu");
+
+            URL_Add("WinZip", "https://en.wikipedia.org/wiki/WinZip");
+
+            URL_Add("call upon", "https://en.wiktionary.org/wiki/call_upon#Verb");
+
+            URL_Add("decreasingly", "https://en.wiktionary.org/wiki/decreasingly#Adverb");
+
+            URL_Add("palliative", "https://en.wiktionary.org/wiki/palliative#Adjective");
+
+            URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
+
+            URL_Add("pneumonia", "https://en.wikipedia.org/wiki/Pneumonia");
+
+            URL_Add("railway", "https://en.wiktionary.org/wiki/railway#Noun");
+
+            URL_Add("reindex", "https://en.wiktionary.org/wiki/reindex#Verb");
+
+            URL_Add("synchronising", "https://en.wiktionary.org/wiki/synchronise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
