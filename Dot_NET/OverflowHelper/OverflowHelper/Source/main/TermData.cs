@@ -611,6 +611,7 @@ namespace OverflowHelper.core
             correctionAdd("JAVA Script", "JavaScript");
             correctionAdd("JAVAScript", "JavaScript");
             correctionAdd("jaavscript", "JavaScript");
+            correctionAdd("JavasCript", "JavaScript");
 
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
@@ -3540,6 +3541,7 @@ namespace OverflowHelper.core
             correctionAdd("jup. notebook", "Jupyter Notebook");
             correctionAdd("jup notebook", "Jupyter Notebook");
             correctionAdd("jup.notebook", "Jupyter Notebook");
+            correctionAdd("Jupyter notebooks", "Jupyter Notebook");
 
             correctionAdd("maven", "Maven");
             correctionAdd("MAVEN", "Maven");
@@ -4319,6 +4321,7 @@ namespace OverflowHelper.core
             correctionAdd("Mozilla", "Firefox");
             correctionAdd("FIrefox", "Firefox");
             correctionAdd("Mozzilla", "Firefox");
+            correctionAdd("MFF", "Firefox");
 
             correctionAdd("chrome", "Google Chrome");
             correctionAdd("google-chrome", "Google Chrome");
@@ -6960,6 +6963,7 @@ namespace OverflowHelper.core
             correctionAdd("MMA", "Mathematica");
 
             correctionAdd("mathemathical", "mathematical");
+            correctionAdd("mathematic", "mathematical");
 
             correctionAdd("mathematicaly", "mathematically");
             correctionAdd("mathamaticaly", "mathematically");
@@ -8608,6 +8612,7 @@ namespace OverflowHelper.core
             correctionAdd("cntl", "Ctrl");
             correctionAdd("Cntl", "Ctrl");
             correctionAdd("Ctr", "Ctrl");
+            correctionAdd("Cntrl", "Ctrl");
 
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); // Plural, to avoid nearly duplicate entries.
@@ -9948,6 +9953,8 @@ namespace OverflowHelper.core
             correctionAdd("dosnload", "download");
             correctionAdd("Downlad", "download");
             correctionAdd("downlad", "download");
+            correctionAdd("Down load", "download");
+            correctionAdd("Download", "download");
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
@@ -11426,6 +11433,7 @@ namespace OverflowHelper.core
 
             correctionAdd("togheter", "together");
             correctionAdd("togeather", "together");
+            correctionAdd("togeser", "together");
 
             correctionAdd("follownig", "following");
             correctionAdd("follwoing", "following");
@@ -14381,6 +14389,8 @@ namespace OverflowHelper.core
 
             correctionAdd("inf", "infinite");
             correctionAdd("infinte", "infinite");
+            correctionAdd("Infinit", "infinite");
+            correctionAdd("infinit", "infinite");
 
             correctionAdd("aero", "Aero");
 
@@ -23856,6 +23866,7 @@ namespace OverflowHelper.core
             correctionAdd("sttring", "string");
 
             correctionAdd("uncoment", "uncomment");
+            correctionAdd("un-comment", "uncomment");
 
             correctionAdd("wth", "why");
             correctionAdd("Whi", "why");
@@ -24353,6 +24364,7 @@ namespace OverflowHelper.core
             correctionAdd("greenland", "Greenland");
 
             correctionAdd("bagde", "badge");
+            correctionAdd("bade", "badge");
 
             correctionAdd("Cadmium", "cadmium");
             correctionAdd("Cd", "cadmium");
@@ -28364,6 +28376,7 @@ namespace OverflowHelper.core
             correctionAdd("2-lingual", "bilingual");
 
             correctionAdd("declartion", "declaration");
+            correctionAdd("declariation", "declaration");
 
             correctionAdd("unexperienced", "inexperienced");
 
@@ -35688,6 +35701,7 @@ namespace OverflowHelper.core
             correctionAdd("reverse engineered", "reverse-engineered");
 
             correctionAdd("thought-process", "thought process");
+            correctionAdd("thoughtprocess", "thought process");
 
             correctionAdd("APA", "APA style");
 
@@ -38317,6 +38331,7 @@ namespace OverflowHelper.core
             correctionAdd("SOPT", "Stack Overflow em Português");
             correctionAdd("SOpt", "Stack Overflow em Português");
             correctionAdd("SO.pt", "Stack Overflow em Português");
+            correctionAdd("SO - Portuguese", "Stack Overflow em Português");
 
             correctionAdd("lang-go", "```lang-golang");
 
@@ -39210,6 +39225,26 @@ namespace OverflowHelper.core
             correctionAdd("re-index", "reindex");
 
             correctionAdd("sync'ing", "synchronising");
+
+            correctionAdd("Runge-Kutta", "Runge–Kutta methods");
+
+            correctionAdd("TWiT.tv", "TWiT");
+            correctionAdd("Twit", "TWiT");
+
+            correctionAdd("uv mapping", "UV mapping");
+
+            correctionAdd("care taking", "caretaking");
+
+            correctionAdd("licensed", "licenced");
+
+            correctionAdd("rent free", "rent-free");
+
+            correctionAdd("technicaly", "technically");
+
+            correctionAdd("textarea", "textarea (HTML form)");
+            correctionAdd("TextArea", "textarea (HTML form)");
+
+            correctionAdd("two dozens", "two dozen");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61700,6 +61735,24 @@ namespace OverflowHelper.core
             URL_Add("reindex", "https://en.wiktionary.org/wiki/reindex#Verb");
 
             URL_Add("synchronising", "https://en.wiktionary.org/wiki/synchronise#Verb");
+
+            URL_Add("Runge–Kutta methods", "https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods");
+
+            URL_Add("TWiT", "https://en.wikipedia.org/wiki/TWiT.tv");
+
+            URL_Add("UV mapping", "https://en.wikipedia.org/wiki/UV_mapping");
+
+            URL_Add("caretaking", "https://en.wiktionary.org/wiki/caretaking#Noun");
+
+            URL_Add("licenced", "https://en.wiktionary.org/wiki/licence#Verb");
+
+            URL_Add("rent-free", "https://en.wiktionary.org/wiki/rent-free#Adjective");
+
+            URL_Add("technically", "https://en.wiktionary.org/wiki/technically#Adverb");
+
+            URL_Add("textarea (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea");
+
+            URL_Add("two dozen", "https://en.wiktionary.org/wiki/dozen#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
