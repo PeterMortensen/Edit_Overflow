@@ -2584,6 +2584,7 @@ namespace OverflowHelper.core
             correctionAdd("Arquade", "Arqade (Stack Exchange site)");
             correctionAdd("arquade", "Arqade (Stack Exchange site)");
             correctionAdd("Arqade", "Arqade (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Gaming", "Arqade (Stack Exchange site)");
 
             correctionAdd("RPG.SE", "Role-playing Games (Stack Exchange site)");
             correctionAdd("RPG", "Role-playing Games (Stack Exchange site)");
@@ -4357,6 +4358,7 @@ namespace OverflowHelper.core
             correctionAdd("Сsharp", "C#");
             correctionAdd("С sharp", "C#");
             correctionAdd("С Sharp", "C#");
+            correctionAdd("c #", "C#");
 
             correctionAdd("sql", "SQL");
             correctionAdd("Sql", "SQL");
@@ -11556,6 +11558,7 @@ namespace OverflowHelper.core
             correctionAdd("Please", "please");
             correctionAdd("Pl", "please");
             correctionAdd("pl", "please");
+            correctionAdd("Pleas", "please");
 
             correctionAdd("1 Liner", "one-liner");
             correctionAdd("one liner", "one-liner");
@@ -16733,6 +16736,8 @@ namespace OverflowHelper.core
             correctionAdd("hellow World", "Hello, World!");
             correctionAdd("hellow world", "Hello, World!");
             correctionAdd("hello, world!", "Hello, World!");
+            correctionAdd("Hello,world!", "Hello, World!");
+            correctionAdd("Hello,World!", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -17306,6 +17311,7 @@ namespace OverflowHelper.core
             correctionAdd("idx", "index");
 
             correctionAdd("in side", "inside");
+            correctionAdd("insdie", "inside");
 
             correctionAdd("laung", "lounge");
 
@@ -24964,6 +24970,8 @@ namespace OverflowHelper.core
             correctionAdd("cherrypick", "cherry-pick");
             correctionAdd("cherry pick", "cherry-pick");
 
+            correctionAdd("cherrypy", "CherryPy");
+
             correctionAdd("Cherry mx", "Cherry MX");
             correctionAdd("cherry mx", "Cherry MX");
             correctionAdd("chery mx", "Cherry MX");
@@ -24988,6 +24996,11 @@ namespace OverflowHelper.core
             correctionAdd("MX blue", "Cherry MX Blue");
             correctionAdd("Cherry MX blue", "Cherry MX Blue");
             correctionAdd("Cherry Blue", "Cherry MX Blue");
+
+            correctionAdd("CHERRY MX GREEN", "Cherry MX Green");
+
+            correctionAdd("Cherry Black", "Cherry MX Black");
+            correctionAdd("mx black", "Cherry MX Black");
 
             correctionAdd("occam's razor", "Occam's razor");
             correctionAdd("Occams Razor", "Occam's razor");
@@ -30409,6 +30422,7 @@ namespace OverflowHelper.core
 
             correctionAdd("uSB2", "USB 2.0");
             correctionAdd("USB2", "USB 2.0");
+            correctionAdd("usb 2.0", "USB 2.0");
 
             correctionAdd("non destructively", "nondestructively");
 
@@ -31247,6 +31261,9 @@ namespace OverflowHelper.core
             correctionAdd("inherites", "inherits");
 
             correctionAdd("pen testing", "pentesting");
+
+            correctionAdd("pentest", "penetration test");
+            correctionAdd("pen test", "penetration test");
 
             correctionAdd("circuitikz", "CircuiTikZ");
 
@@ -33534,8 +33551,6 @@ namespace OverflowHelper.core
 
             correctionAdd("techologies", "technologies");
 
-            correctionAdd("cherrypy", "CherryPy");
-
             correctionAdd("R1CS", "Rank 1 Constraint System");
 
             correctionAdd("Icon", "icon");
@@ -34625,6 +34640,7 @@ namespace OverflowHelper.core
             correctionAdd("Alphanumeric", "alphanumeric");
 
             correctionAdd("bevore", "before");
+            correctionAdd("befor", "before");
 
             correctionAdd("brakes", "breaks");
 
@@ -35231,8 +35247,6 @@ namespace OverflowHelper.core
             correctionAdd("predesessor", "predecessor");
 
             correctionAdd("warm fussies", "warm fuzzies");
-
-            correctionAdd("Cherry Black", "Cherry MX Black");
 
             correctionAdd("Google Closure Compiler", "Closure Compiler");
 
@@ -36908,8 +36922,6 @@ namespace OverflowHelper.core
             correctionAdd("c17", "C17");
             correctionAdd("C18", "C17");
 
-            correctionAdd("CHERRY MX GREEN", "Cherry MX Green");
-
             correctionAdd("twenty ten", "Twenty Ten");
 
             correctionAdd("grand parent", "grandparent");
@@ -37767,6 +37779,7 @@ namespace OverflowHelper.core
             correctionAdd("Bullet cluster", "Bullet Cluster");
 
             correctionAdd("first answer", "First answers review queue");
+            correctionAdd("first Answer", "First answers review queue");
 
             correctionAdd("hubble space telescope", "Hubble Space Telescope");
             correctionAdd("HUBBLE", "Hubble Space Telescope");
@@ -39245,6 +39258,29 @@ namespace OverflowHelper.core
             correctionAdd("TextArea", "textarea (HTML form)");
 
             correctionAdd("two dozens", "two dozen");
+
+            correctionAdd("Burp suite", "Burp Suite");
+            correctionAdd("BURP", "Burp Suite");
+
+            correctionAdd("IBus", "Intelligent Input Bus");
+
+            correctionAdd("elequont", "Laravel Eloquent");
+            correctionAdd("Eloquent", "Laravel Eloquent");
+
+            correctionAdd("requests", "Requests");
+
+            correctionAdd("S/G", "Staging Ground");
+            correctionAdd("SG", "Staging Ground");
+
+            correctionAdd("usb 1.x", "USB 1.x");
+
+            correctionAdd("clue-less", "clueless");
+
+            correctionAdd("pre-fill", "prefill");
+
+            correctionAdd("quandry", "quandary");
+
+            correctionAdd("repurcussion", "repercussion");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61754,6 +61790,28 @@ namespace OverflowHelper.core
 
             URL_Add("two dozen", "https://en.wiktionary.org/wiki/dozen#Noun");
 
+            URL_Add("Burp Suite", "https://en.wikipedia.org/wiki/White_hat_(computer_security)#Tactics");
+
+            URL_Add("Intelligent Input Bus", "https://en.wikipedia.org/wiki/Intelligent_Input_Bus");
+
+            URL_Add("Laravel Eloquent", "https://laravel.com/docs/9.x/eloquent");
+
+            URL_Add("Requests", "https://docs.python-requests.org/en/v2.2.1/user/authentication/");
+
+            URL_Add("Staging Ground", "https://meta.stackoverflow.com/tags/staging-ground/info");
+
+            URL_Add("USB 1.x", "https://en.wikipedia.org/wiki/USB#USB_1.x");
+
+            URL_Add("clueless", "https://en.wiktionary.org/wiki/clueless#Adjective");
+
+            URL_Add("penetration test", "https://en.wikipedia.org/wiki/Penetration_test");
+
+            URL_Add("prefill", "https://en.wiktionary.org/wiki/prefill#Verb");
+
+            URL_Add("quandary", "https://en.wiktionary.org/wiki/quandary#Noun");
+
+            URL_Add("repercussion", "https://en.wiktionary.org/wiki/repercussion#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -61931,8 +61989,10 @@ namespace OverflowHelper.core
             correctionAdd("most significant bit_", "MSB_");
 
             correctionAdd("0755_", "755_");
+            correctionAdd("chmod 755_", "755_");
 
             correctionAdd("0777_", "777_");
+            correctionAdd("chmod 777_", "777_");
 
             correctionAdd("CM_", "Community Manager_");
 
@@ -62296,6 +62356,10 @@ namespace OverflowHelper.core
 
             correctionAdd("home-brew_", "homebrewed_");
 
+            correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
+
             // URL mappings
             //
             //
@@ -62638,6 +62702,8 @@ namespace OverflowHelper.core
             URL_Add("and_", "https://en.wiktionary.org/wiki/and#Conjunction");
 
             URL_Add("homebrewed_", "https://en.wiktionary.org/wiki/homebrew#Verb");
+
+            URL_Add("Music: Practice & Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
