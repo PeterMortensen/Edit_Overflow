@@ -10162,6 +10162,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
 
             correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
             correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
@@ -27771,6 +27772,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
+            correctionAdd("Cloud", "cloud computing");
 
             correctionAdd("dinasaur", "dinosaur");
             correctionAdd("dino", "dinosaur");
@@ -36176,6 +36178,7 @@ namespace OverflowHelper.core
             correctionAdd("Skybox", "skybox");
 
             correctionAdd("subtile", "subtle");
+            correctionAdd("sublte", "subtle");
 
             correctionAdd("yess", "yes");
             correctionAdd("Yess", "yes");
@@ -39256,6 +39259,7 @@ namespace OverflowHelper.core
 
             correctionAdd("textarea", "textarea (HTML form)");
             correctionAdd("TextArea", "textarea (HTML form)");
+            correctionAdd("text area", "textarea (HTML form)");
 
             correctionAdd("two dozens", "two dozen");
 
@@ -39281,6 +39285,21 @@ namespace OverflowHelper.core
             correctionAdd("quandry", "quandary");
 
             correctionAdd("repurcussion", "repercussion");
+
+            correctionAdd("leftwm", "LeftWM");
+
+            correctionAdd("mobile device management", "MDM");
+
+            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
+            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
+
+            correctionAdd("ket", "bra–ket notation");
+
+            correctionAdd("BYOD", "bring your own device");
+
+            correctionAdd("DPKG", "dpkg");
+
+            correctionAdd("fooled", "fooled around");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61811,6 +61830,20 @@ namespace OverflowHelper.core
             URL_Add("quandary", "https://en.wiktionary.org/wiki/quandary#Noun");
 
             URL_Add("repercussion", "https://en.wiktionary.org/wiki/repercussion#Noun");
+
+            URL_Add("LeftWM", "https://wiki.archlinux.org/title/LeftWM");
+
+            URL_Add("MDM", "https://en.wikipedia.org/wiki/Mobile_device_management");
+
+            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
+
+            URL_Add("bra–ket notation", "https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation");
+
+            URL_Add("bring your own device", "https://en.wikipedia.org/wiki/Bring_your_own_device");
+
+            URL_Add("dpkg", "https://en.wikipedia.org/wiki/Dpkg");
+
+            URL_Add("fooled around", "https://en.wiktionary.org/wiki/fool_around#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
