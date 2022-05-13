@@ -546,6 +546,7 @@ namespace OverflowHelper.core
 
             correctionAdd("descripte", "describe");
             correctionAdd("decribe", "describe");
+            correctionAdd("descibe", "describe");
 
             correctionAdd("peertube", "PeerTube");
 
@@ -2931,6 +2932,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bash_profile", ".bash_profile");
             correctionAdd("bashprofile", ".bash_profile");
+            correctionAdd("bash profile", ".bash_profile");
 
             correctionAdd("docker file", "Dockerfile");
             correctionAdd("dockerfile", "Dockerfile");
@@ -6640,6 +6642,7 @@ namespace OverflowHelper.core
             correctionAdd("reposiory", "repository");
             correctionAdd("REPO", "repository");
             correctionAdd("reposiotry", "repository");
+            correctionAdd("reop", "repository");
 
             correctionAdd("sub-directories", "subdirectories");
             correctionAdd("subdirs", "subdirectories");
@@ -10662,6 +10665,8 @@ namespace OverflowHelper.core
             correctionAdd("mesaage", "message");
             correctionAdd("MESSGE", "message");
             correctionAdd("meessage", "message");
+            correctionAdd("masseg", "message");
+            correctionAdd("messeg", "message");
 
             correctionAdd("heartbleed", "Heartbleed");
             correctionAdd("HeartBleed", "Heartbleed");
@@ -10778,6 +10783,8 @@ namespace OverflowHelper.core
             correctionAdd("what`s", "what’s");
             correctionAdd("What's", "what’s");
             correctionAdd("whts", "what’s");
+            correctionAdd("Whats's", "what’s");
+            correctionAdd("whats's", "what’s");
 
             correctionAdd("whatsapp", "WhatsApp");
             correctionAdd("Whatsapp", "WhatsApp");
@@ -14729,6 +14736,7 @@ namespace OverflowHelper.core
             correctionAdd("graphQL", "GraphQL");
             correctionAdd("Graphql", "GraphQL");
             correctionAdd("Graph ql", "GraphQL");
+            correctionAdd("GQL", "GraphQL");
 
             correctionAdd("MSys", "MSYS");
             correctionAdd("msys", "MSYS");
@@ -16619,6 +16627,7 @@ namespace OverflowHelper.core
             correctionAdd("responce", "response");
             correctionAdd("reponse", "response");
             correctionAdd("resposne", "response");
+            correctionAdd("Reponse", "response");
 
             correctionAdd("seperating", "separating");
 
@@ -17143,6 +17152,7 @@ namespace OverflowHelper.core
             correctionAdd("HAIR SPACE", "hair space");
 
             correctionAdd("name space", "namespace");
+            correctionAdd("namespacs", "namespace");
 
             correctionAdd("myspace", "Myspace");
             correctionAdd("MySpace", "Myspace");
@@ -21724,6 +21734,7 @@ namespace OverflowHelper.core
             correctionAdd("suck puppet", "sockpuppet");
             correctionAdd("Sockpuppet", "sockpuppet");
             correctionAdd("Sock puppet", "sockpuppet");
+            correctionAdd("Sock-puppet", "sockpuppet");
 
             correctionAdd("thread safe", "threadsafe");
             correctionAdd("thread-safe", "threadsafe");
@@ -26686,6 +26697,9 @@ namespace OverflowHelper.core
 
             correctionAdd("steam", "Steam");
 
+            correctionAdd("theam", "team");
+            correctionAdd("teem", "team");
+
             correctionAdd("bake", "back");
 
             correctionAdd("Dad", "dad");
@@ -27845,6 +27859,7 @@ namespace OverflowHelper.core
             correctionAdd("M1", "Apple M1");
             correctionAdd("M1 mac", "Apple M1");
             correctionAdd("Mac M1", "Apple M1");
+            correctionAdd("mac m1", "Apple M1");
 
             correctionAdd("nextstep", "NeXTSTEP");
             correctionAdd("Nextstep", "NeXTSTEP");
@@ -31361,8 +31376,6 @@ namespace OverflowHelper.core
             correctionAdd("multi-position", "multiposition");
 
             correctionAdd("realestate", "real estate");
-
-            correctionAdd("theam", "team");
 
             correctionAdd("WGS84", "WGS 84");
 
@@ -39300,6 +39313,39 @@ namespace OverflowHelper.core
             correctionAdd("DPKG", "dpkg");
 
             correctionAdd("fooled", "fooled around");
+
+            correctionAdd("David Attenborow", "David Attenborough");
+
+            correctionAdd("hamiltonian", "Hamiltonian");
+
+            correctionAdd("Boehm", "Hans Boehm");
+
+            correctionAdd("Lord of the flies", "Lord of the Flies");
+
+            correctionAdd("pyscripter", "PyScripter");
+
+            correctionAdd("anglebracket", "angle bracket");
+
+            correctionAdd("CDW", "charge density wave");
+            correctionAdd("Charge density wave", "charge density wave");
+
+            correctionAdd("denstiy", "density");
+
+            correctionAdd("eye sight", "eyesight");
+
+            correctionAdd("gruop", "group");
+
+            correctionAdd("malloc()", "malloc");
+
+            correctionAdd("np", "no problem");
+
+            correctionAdd("pipedream", "pipe dream");
+
+            correctionAdd("raytracing", "ray tracing");
+
+            correctionAdd("red-flag", "red flag");
+
+            correctionAdd("second class citizen", "second-class citizen");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61845,6 +61891,38 @@ namespace OverflowHelper.core
 
             URL_Add("fooled around", "https://en.wiktionary.org/wiki/fool_around#Verb");
 
+            URL_Add("David Attenborough", "https://en.wikipedia.org/wiki/David_Attenborough");
+
+            URL_Add("Hamiltonian", "https://en.wiktionary.org/wiki/Hamiltonian#Adjective");
+
+            URL_Add("Hans Boehm", "https://en.wikipedia.org/wiki/Boehm_garbage_collector");
+
+            URL_Add("Lord of the Flies", "https://en.wikipedia.org/wiki/Lord_of_the_Flies");
+
+            URL_Add("PyScripter", "https://en.wikipedia.org/wiki/PyScripter");
+
+            URL_Add("angle bracket", "https://en.wiktionary.org/wiki/angle_bracket#Noun");
+
+            URL_Add("charge density wave", "https://en.wikipedia.org/wiki/Charge_density_wave");
+
+            URL_Add("density", "https://en.wiktionary.org/wiki/density#Noun");
+
+            URL_Add("eyesight", "https://en.wiktionary.org/wiki/eyesight#Noun");
+
+            URL_Add("group", "https://en.wiktionary.org/wiki/group#Noun");
+
+            URL_Add("malloc", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
+
+            URL_Add("no problem", "https://en.wiktionary.org/wiki/no_problem#Interjection");
+
+            URL_Add("pipe dream", "https://en.wiktionary.org/wiki/pipe_dream#Noun");
+
+            URL_Add("ray tracing", "https://en.wiktionary.org/wiki/ray_tracing#Noun");
+
+            URL_Add("red flag", "https://en.wiktionary.org/wiki/red_flag#Noun");
+
+            URL_Add("second-class citizen", "https://en.wiktionary.org/wiki/second-class#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62121,6 +62199,8 @@ namespace OverflowHelper.core
             correctionAdd("Smoke Detector_", "SmokeDetector_");
             correctionAdd("smoke detector_", "SmokeDetector_");
             correctionAdd("Charcoal_", "SmokeDetector_");
+            correctionAdd("Charcoal Project_", "SmokeDetector_");
+            correctionAdd("Charcoal project_", "SmokeDetector_");
 
             correctionAdd("rep_", "representative_");
 
