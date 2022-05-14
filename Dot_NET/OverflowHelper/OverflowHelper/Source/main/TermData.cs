@@ -5475,6 +5475,7 @@ namespace OverflowHelper.core
             correctionAdd("Seperate", "separate");
             correctionAdd("seaparate", "separate");
             correctionAdd("sepate", "separate");
+            correctionAdd("sperate", "separate");
 
             correctionAdd("seperation", "separation");
             correctionAdd("speraration", "separation");
@@ -10352,6 +10353,8 @@ namespace OverflowHelper.core
             correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("Studio2010", "Visual&nbsp;Studio&nbsp;2010");
             correctionAdd("VisualStudio2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS v010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS v2010", "Visual&nbsp;Studio&nbsp;2010");
 
             correctionAdd("Visual Studio 2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express"); // Sort of identity mapping
             correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
@@ -13525,6 +13528,7 @@ namespace OverflowHelper.core
             correctionAdd("identation", "indentation");
             correctionAdd("Identation", "indentation");
             correctionAdd("Indentation", "indentation");
+            correctionAdd("indentaion", "indentation");
 
             correctionAdd("horizentaly", "horizontally");
             correctionAdd("horizondally", "horizontally");
@@ -16297,6 +16301,7 @@ namespace OverflowHelper.core
             correctionAdd("backquote", "backtick");
             correctionAdd("Back tick", "backtick");
             correctionAdd("Backtick", "backtick");
+            correctionAdd("backtisk", "backtick");
 
             correctionAdd("buch", "bunch");
             correctionAdd("bunhc", "bunch");
@@ -17119,6 +17124,7 @@ namespace OverflowHelper.core
             correctionAdd("Problemes", "problem");
             correctionAdd("problemes", "problem");
             correctionAdd("problems", "problem");
+            correctionAdd("broblem", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -20075,6 +20081,7 @@ namespace OverflowHelper.core
             correctionAdd("se", "see");
 
             correctionAdd("tilda", "tilde");
+            correctionAdd("tidle", "tilde");
 
             correctionAdd("seque", "segue");
             correctionAdd("segway", "segue");
@@ -20706,6 +20713,8 @@ namespace OverflowHelper.core
             correctionAdd("candidates 2022", "Candidates Tournament 2022"); // Chess
 
             correctionAdd("mamejaro", "Shakhriyar Mamedyarov"); // Chess
+            correctionAdd("memedraro", "Shakhriyar Mamedyarov"); // Chess
+            correctionAdd("mamedraro", "Shakhriyar Mamedyarov"); // Chess
             //
             // End of the chess part
 
@@ -23056,6 +23065,7 @@ namespace OverflowHelper.core
             correctionAdd("Quality", "quality");
             correctionAdd("Qlt", "quality");
             correctionAdd("qlt", "quality");
+            correctionAdd("qualilty", "quality");
 
             correctionAdd("querys", "queries");
             correctionAdd("Queries", "queries");
@@ -30220,9 +30230,11 @@ namespace OverflowHelper.core
             correctionAdd("non inverting", "noninverting");
 
             correctionAdd("persistes", "persists");
+            correctionAdd("presists", "persists");
 
             correctionAdd("significative", "significant");
             correctionAdd("significiant", "significant");
+            correctionAdd("signinficant", "significant");
 
             correctionAdd("typo's", "typos");
 
@@ -31526,6 +31538,7 @@ namespace OverflowHelper.core
 
             correctionAdd("curly brace", "curly bracket");
             correctionAdd("curley brace", "curly bracket");
+            correctionAdd("curly-brace", "curly bracket");
 
             correctionAdd("failes", "fails");
 
@@ -34844,6 +34857,43 @@ namespace OverflowHelper.core
 
             correctionAdd("--pedantic-errors", "-pedantic-errors");
 
+            correctionAdd("--fno-diagnostics-show-option", "-fno-diagnostics-show-option");
+
+            correctionAdd("#pragma GCC diagnostic ignored", "#pragma GCC diagnostic");
+            correctionAdd("#pragma gcc diagnostic", "#pragma GCC diagnostic");
+            correctionAdd("#pragma GCC diagnostic warning", "#pragma GCC diagnostic");
+            correctionAdd("#pragma GCC diagnostic error", "#pragma GCC diagnostic");
+
+            correctionAdd("--Wsystem-headers", "-Wsystem-headers");
+
+            correctionAdd("--fdiagnostics-show-option", "-fdiagnostics-show-option");
+
+            correctionAdd("--w", "-w");
+
+            correctionAdd("--Wno-pragmas", "-Wno-pragmas");
+
+            correctionAdd("-Wno-unknown-pragmas", "-Wunknown-pragmas");
+            correctionAdd("--Wunknown-pragmas", "-Wunknown-pragmas");
+
+            correctionAdd("--Wunused-variable", "-Wunused-variable");
+
+            correctionAdd("--Wshadow", "-Wshadow");
+
+            correctionAdd("--Og", "-Og");
+
+            correctionAdd("--Os", "-Os");
+
+            correctionAdd("--fdata-sections", "-fdata-sections");
+
+            correctionAdd("--ffunction-sections", "-ffunction-sections");
+
+            correctionAdd("--fno-exceptions", "-fno-exceptions");
+            correctionAdd("-fno-excepctions", "-fno-exceptions");
+
+            correctionAdd("--Wmisleading-indentation", "-Wmisleading-indentation");
+
+            correctionAdd("--ftabstop", "-ftabstop");
+
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
             correctionAdd("Getx", "GetX");
@@ -34898,8 +34948,6 @@ namespace OverflowHelper.core
             correctionAdd("sub equation", "sub-equation");
             correctionAdd("subequation", "sub-equation");
 
-            correctionAdd("--fno-diagnostics-show-option", "-fno-diagnostics-show-option");
-
             correctionAdd("Digital Mars C/C++ compiler", "Digital Mars C/C++ Compiler");
 
             correctionAdd("IAR C/C++ compiler", "IAR C/C++ Compiler");
@@ -34918,17 +34966,6 @@ namespace OverflowHelper.core
 
             correctionAdd("standardization", "standardisation");
             correctionAdd("standarization", "standardisation");
-
-            correctionAdd("#pragma GCC diagnostic ignored", "#pragma GCC diagnostic");
-            correctionAdd("#pragma gcc diagnostic", "#pragma GCC diagnostic");
-            correctionAdd("#pragma GCC diagnostic warning", "#pragma GCC diagnostic");
-            correctionAdd("#pragma GCC diagnostic error", "#pragma GCC diagnostic");
-
-            correctionAdd("--Wsystem-headers", "-Wsystem-headers");
-
-            correctionAdd("--fdiagnostics-show-option", "-fdiagnostics-show-option");
-
-            correctionAdd("--w", "-w");
 
             correctionAdd("CCS", "Code Composer Studio");
             correctionAdd("TI compiler", "Code Composer Studio");
@@ -34988,13 +35025,6 @@ namespace OverflowHelper.core
             correctionAdd("Stroke", "stroke");
 
             correctionAdd("UNUSED", "unused");
-
-            correctionAdd("--Wno-pragmas", "-Wno-pragmas");
-
-            correctionAdd("-Wno-unknown-pragmas", "-Wunknown-pragmas");
-            correctionAdd("--Wunknown-pragmas", "-Wunknown-pragmas");
-
-            correctionAdd("--Wunused-variable", "-Wunused-variable");
 
             correctionAdd("Arctic fox", "Android Studio 4.2");
             correctionAdd("Arctic Fox", "Android Studio 4.2");
@@ -35106,8 +35136,6 @@ namespace OverflowHelper.core
 
             correctionAdd("intion", "intention");
             correctionAdd("intension", "intention");
-
-            correctionAdd("--Wshadow", "-Wshadow");
 
             correctionAdd("FORTRAN 77", "Fortran 77");
             correctionAdd("Fortran-77", "Fortran 77");
@@ -37794,9 +37822,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bullet cluster", "Bullet Cluster");
 
-            correctionAdd("first answer", "First answers review queue");
-            correctionAdd("first Answer", "First answers review queue");
-
             correctionAdd("hubble space telescope", "Hubble Space Telescope");
             correctionAdd("HUBBLE", "Hubble Space Telescope");
             correctionAdd("HST", "Hubble Space Telescope");
@@ -37806,8 +37831,6 @@ namespace OverflowHelper.core
             correctionAdd("ISO 8859-15", "ISO&nbsp;8859-15"); // Sort of identity mapping
 
             correctionAdd("john resig", "John Resig");
-
-            correctionAdd("late answer", "Late answers review queue");
 
             correctionAdd("Publisher", "Microsoft Publisher");
 
@@ -38272,8 +38295,6 @@ namespace OverflowHelper.core
             correctionAdd("Year", "year");
 
             correctionAdd("eek out", "eke out");
-
-            correctionAdd("for-loop", "for loop");
 
             correctionAdd("range-based", "rangebased");
             correctionAdd("range based", "rangebased");
@@ -38799,17 +38820,6 @@ namespace OverflowHelper.core
             correctionAdd("re-link", "relink");
 
             correctionAdd("upset the apple cart", "upset the applecart");
-
-            correctionAdd("--Og", "-Og");
-
-            correctionAdd("--Os", "-Os");
-
-            correctionAdd("--fdata-sections", "-fdata-sections");
-
-            correctionAdd("--ffunction-sections", "-ffunction-sections");
-
-            correctionAdd("--fno-exceptions", "-fno-exceptions");
-            correctionAdd("-fno-excepctions", "-fno-exceptions");
 
             correctionAdd(".format()", ".format");
 
@@ -39347,6 +39357,29 @@ namespace OverflowHelper.core
 
             correctionAdd("second class citizen", "second-class citizen");
 
+            correctionAdd("crt", "CRT");
+
+            correctionAdd("unsung hero", "Unsung Hero");
+
+            correctionAdd("high-and-dry", "high and dry");
+
+            correctionAdd("re-asked", "reasked");
+
+            correctionAdd("for-loop", "for loop");
+            correctionAdd("for-statement", "for loop");
+
+            correctionAdd("if-statement", "if statement");
+
+            correctionAdd("first answer", "First answers review queue");
+            correctionAdd("first Answer", "First answers review queue");
+            correctionAdd("First answers", "First answers review queue");
+            correctionAdd("first answers", "First answers review queue");
+
+            correctionAdd("late answer", "Late answers review queue");
+            correctionAdd("Late answers", "Late answers review queue");
+
+            correctionAdd("low quality answers", "Low quality answers review queue");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -39877,12 +39910,16 @@ namespace OverflowHelper.core
             correctionAdd("Omikron", "Omicron variant"); // Coronavirus
             correctionAdd("omikron", "Omicron variant"); // Coronavirus
 
-            correctionAdd("Bleach", "bleach");
+            correctionAdd("Bleach", "bleach"); // Coronavirus
 
-            correctionAdd("HBOT", "hyperbaric chamber");
-            correctionAdd("hypobaric chamber", "hyperbaric chamber");
+            correctionAdd("HBOT", "hyperbaric chamber"); // Coronavirus
+            correctionAdd("hypobaric chamber", "hyperbaric chamber"); // Coronavirus
 
-            correctionAdd("muscosal immune system", "mucosal immune system");
+            correctionAdd("muscosal immune system", "mucosal immune system"); // Coronavirus
+
+            correctionAdd("FFP2", "FFP2 mask"); // Coronavirus
+
+            correctionAdd("N95", "N95 respirator"); // Coronavirus
 
             // HACK: AASDASD
             // TODO: OIDSOPAUSD
@@ -61923,6 +61960,26 @@ namespace OverflowHelper.core
 
             URL_Add("second-class citizen", "https://en.wiktionary.org/wiki/second-class#Adjective");
 
+            URL_Add("-Wmisleading-indentation", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation");
+
+            URL_Add("-ftabstop", "https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#index-ftabstop");
+
+            URL_Add("CRT", "https://en.wikipedia.org/wiki/Crt0");
+
+            URL_Add("FFP2 mask", "https://en.wikipedia.org/wiki/FFP_standards#FFP2_mask");
+
+            URL_Add("Low quality answers review queue", "https://stackoverflow.com/review");
+
+            URL_Add("N95 respirator", "https://en.wikipedia.org/wiki/N95_respirator");
+
+            URL_Add("Unsung Hero", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("high and dry", "https://en.wiktionary.org/wiki/high_and_dry#Adjective");
+
+            URL_Add("if statement", "https://en.wikipedia.org/wiki/Conditional_(computer_programming)#History_and_development");
+
+            URL_Add("reasked", "https://en.wiktionary.org/wiki/reask#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62427,6 +62484,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Chicago manual of style_", "The Chicago Manual of Style_");
             correctionAdd("CMS_", "The Chicago Manual of Style_");
+            correctionAdd("chicago manual of style_", "The Chicago Manual of Style_");
 
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
