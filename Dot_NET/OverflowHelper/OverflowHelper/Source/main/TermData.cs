@@ -1302,6 +1302,38 @@ namespace OverflowHelper.core
             correctionAdd("onle", "one");
             correctionAdd("onde", "one");
 
+            correctionAdd("ones", "one’s");
+            correctionAdd("One's", "one’s");
+            correctionAdd("one's", "one’s");
+
+            correctionAdd("one-hot Encoding", "one-hot encoding");
+
+            correctionAdd("1-to-1", "one-to-one");
+            correctionAdd("1 to 1", "one-to-one");
+            correctionAdd("one to one", "one-to-one");
+
+            correctionAdd("1-on-1", "one-on-one");
+            correctionAdd("one on one", "one-on-one");
+            correctionAdd("1on1", "one-on-one");
+            correctionAdd("1 on 1", "one-on-one");
+            correctionAdd("1:1", "one-on-one");
+
+            correctionAdd("1 Liner", "one-liner");
+            correctionAdd("one liner", "one-liner");
+            correctionAdd("oneliner", "one-liner");
+            correctionAdd("one line", "one-liner");
+            correctionAdd("1 liner", "one-liner");
+            correctionAdd("oneline", "one-liner");
+            correctionAdd("onliner", "one-liner");
+            correctionAdd("one linear", "one-liner");
+            correctionAdd("One Liner", "one-liner");
+            correctionAdd("1-liner", "one-liner");
+            correctionAdd("One liner", "one-liner");
+
+            correctionAdd("onedrive", "OneDrive");
+            correctionAdd("one-drive", "OneDrive");
+            correctionAdd("one drive", "OneDrive");
+
             correctionAdd("noone", "no one");
             correctionAdd("no-one", "no one");
             correctionAdd("No one", "no one");
@@ -1331,10 +1363,6 @@ namespace OverflowHelper.core
 
             correctionAdd("1 by 1", "one by one");
 
-            correctionAdd("1-to-1", "one-to-one");
-            correctionAdd("1 to 1", "one-to-one");
-            correctionAdd("one to one", "one-to-one");
-
             correctionAdd("F1", "Formula One");
             correctionAdd("formula one", "Formula One");
             correctionAdd("formula 1", "Formula One");
@@ -1355,12 +1383,6 @@ namespace OverflowHelper.core
             correctionAdd("Standalone", "stand-alone");
 
             correctionAdd("square 1", "square one");
-
-            correctionAdd("1-on-1", "one-on-one");
-            correctionAdd("one on one", "one-on-one");
-            correctionAdd("1on1", "one-on-one");
-            correctionAdd("1 on 1", "one-on-one");
-            correctionAdd("1:1", "one-on-one");
 
             correctionAdd("Phone", "phone");
 
@@ -2545,12 +2567,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Retro Computing", "Retro Computing (Stack Exchange site)");
 
-            correctionAdd("Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
-            correctionAdd("SFF", "Science Fiction & Fantasy (Stack Exchange site)");
-            correctionAdd("Sci-Fi and Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
-            correctionAdd("Science Fiction & Fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
-            correctionAdd("sci-fi and fantasy", "Science Fiction & Fantasy (Stack Exchange site)");
-
             correctionAdd("Politics", "Politics (Stack Exchange site)");
             correctionAdd("politics", "Politics (Stack Exchange site)");
             correctionAdd("political stackexchange", "Politics (Stack Exchange site)");
@@ -2599,10 +2615,6 @@ namespace OverflowHelper.core
             correctionAdd("space exploration", "Space Exploration (Stack Exchange site)");
             correctionAdd("Space Exploration", "Space Exploration (Stack Exchange site)");
 
-            correctionAdd("Medical Sciences", "Medical Sciences (Stack Exchange site)");
-            correctionAdd("Medical SE", "Medical Sciences (Stack Exchange site)");
-            correctionAdd("Life Sciences", "Medical Sciences (Stack Exchange site)");
-
             correctionAdd("Lifehacks", "Lifehacks (Stack Exchange site)");
 
             correctionAdd("drupal answers", "Drupal Answers (Stack Exchange site)");
@@ -2617,9 +2629,6 @@ namespace OverflowHelper.core
 
             correctionAdd("network engineering", "Network Engineering (Stack Exchange site)");
             correctionAdd("Network Engineering", "Network Engineering (Stack Exchange site)"); // Sort of identity mapping
-
-            correctionAdd("Psychology", "Psychology & Neuroscience (Stack Exchange site)");
-            correctionAdd("Psychology & Neuroscience", "Psychology & Neuroscience (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("Monero", "Monero (Stack Exchange site)");
 
@@ -8749,8 +8758,6 @@ namespace OverflowHelper.core
 
             correctionAdd("THP", "Tomlinson-Harashima precoding");
 
-            correctionAdd("one-hot Encoding", "one-hot encoding");
-
             correctionAdd("imperical", "empirical");
 
             correctionAdd("imperically", "empirically");
@@ -9438,24 +9445,6 @@ namespace OverflowHelper.core
             correctionAdd("LibUSB", "libusb");
             correctionAdd("LIBUSB", "libusb");
 
-            correctionAdd("win8", "Windows&nbsp;8");
-            correctionAdd("Win8", "Windows&nbsp;8");
-            correctionAdd("Windows 8", "Windows&nbsp;8");
-            correctionAdd("windows 8", "Windows&nbsp;8");
-            correctionAdd("win 8", "Windows&nbsp;8");
-            correctionAdd("Win 8", "Windows&nbsp;8");
-            correctionAdd("W8", "Windows&nbsp;8");
-            correctionAdd("Windows8", "Windows&nbsp;8");
-            correctionAdd("window-8", "Windows&nbsp;8");
-            correctionAdd("windows-8", "Windows&nbsp;8");
-            correctionAdd("WIn 8", "Windows&nbsp;8");
-            correctionAdd("WIN 8", "Windows&nbsp;8");
-            correctionAdd("8", "Windows&nbsp;8"); // Ambiguous!
-            correctionAdd("windows8", "Windows&nbsp;8");
-            correctionAdd("Win-8", "Windows&nbsp;8");
-            correctionAdd("win 8.0", "Windows&nbsp;8");
-            correctionAdd("windows 8.0", "Windows&nbsp;8");
-
             correctionAdd("Win 8.1", "Windows&nbsp;8.1");
             correctionAdd("Windows 8.1", "Windows&nbsp;8.1");
             correctionAdd("windows 8.1", "Windows&nbsp;8.1");
@@ -9892,11 +9881,6 @@ namespace OverflowHelper.core
             //
             //      <https://en.wikipedia.org/wiki/Unity_Operating_System>
             //
-            correctionAdd("unity", "Unity Application Block");
-            correctionAdd("Unity", "Unity Application Block");
-            correctionAdd("Unity Framework", "Unity Application Block");
-            correctionAdd("Unity framework", "Unity Application Block");
-
             correctionAdd("gpu", "GPU");
             correctionAdd("Gpu", "GPU");
 
@@ -11570,18 +11554,6 @@ namespace OverflowHelper.core
             correctionAdd("Pl", "please");
             correctionAdd("pl", "please");
             correctionAdd("Pleas", "please");
-
-            correctionAdd("1 Liner", "one-liner");
-            correctionAdd("one liner", "one-liner");
-            correctionAdd("oneliner", "one-liner");
-            correctionAdd("one line", "one-liner");
-            correctionAdd("1 liner", "one-liner");
-            correctionAdd("oneline", "one-liner");
-            correctionAdd("onliner", "one-liner");
-            correctionAdd("one linear", "one-liner");
-            correctionAdd("One Liner", "one-liner");
-            correctionAdd("1-liner", "one-liner");
-            correctionAdd("One liner", "one-liner");
 
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
@@ -13533,15 +13505,17 @@ namespace OverflowHelper.core
             correctionAdd("horizentaly", "horizontally");
             correctionAdd("horizondally", "horizontally");
 
-            correctionAdd("askubuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("Askubuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("AU", "Ask&nbsp;Ubuntu");
-            correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu");
-            correctionAdd("AskUbuntuSE", "Ask&nbsp;Ubuntu");
+            correctionAdd("Ask Ubuntu (Stack Exchange site)", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Ask&nbsp;Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("askubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("Askubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AU", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AskUbuntuSE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -14055,6 +14029,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eigth", "eight");
             correctionAdd("Eight", "eight");
+            correctionAdd("8", "eight");
 
             correctionAdd("8th", "eighth");
             correctionAdd("Eighth", "eighth");
@@ -14856,8 +14831,6 @@ namespace OverflowHelper.core
             correctionAdd("gigga", "121GW");
             correctionAdd("giggawatt meter", "121GW");
 
-            correctionAdd("cam", "camera");
-
             correctionAdd("checkout", "check out");
             correctionAdd("Checkout", "check out");
             correctionAdd("chack out", "check out");
@@ -14904,10 +14877,6 @@ namespace OverflowHelper.core
             correctionAdd("Responsive Web App", "responsive web application");
 
             correctionAdd("skeptic", "sceptic");
-
-            correctionAdd("blitz++", "Blitz++");
-            correctionAdd("Blitz", "Blitz++");
-            correctionAdd("blitz", "Blitz++");
 
             correctionAdd("c++20", "C++20");
 
@@ -16364,10 +16333,6 @@ namespace OverflowHelper.core
 
             correctionAdd("useage", "usage");
 
-            correctionAdd("onedrive", "OneDrive");
-            correctionAdd("one-drive", "OneDrive");
-            correctionAdd("one drive", "OneDrive");
-
             correctionAdd("Apache spark", "Apache Spark");
             correctionAdd("spark", "Apache Spark");
             correctionAdd("Spark", "Apache Spark");
@@ -16800,6 +16765,10 @@ namespace OverflowHelper.core
             correctionAdd("acient", "ancient");
 
             correctionAdd("anyones", "anyone's guess");
+
+            correctionAdd("someon’es", "someone’s");
+            correctionAdd("someone's", "someone’s");
+            correctionAdd("someones", "someone’s");
 
             correctionAdd("quess", "guess");
             correctionAdd("guesss", "guess");
@@ -20426,8 +20395,9 @@ namespace OverflowHelper.core
             correctionAdd("Najdorf Defence", "Sicilian Defence, Najdorf Variation"); // Chess
             correctionAdd("najdorf defence", "Sicilian Defence, Najdorf Variation"); // Chess
 
-            correctionAdd("blitz chess", "Blitz (chess)"); // Chess
-            correctionAdd("Blitiz", "Blitz (chess)"); // Chess
+            correctionAdd("blitz chess", "blitz (chess)"); // Chess
+            correctionAdd("Blitiz", "blitz (chess)"); // Chess
+            correctionAdd("Blitz", "blitz (chess)"); // Chess
 
             correctionAdd("scandinavian defense", "Scandinavian Defense"); // Chess
             correctionAdd("scandinavian opening", "Scandinavian Defense"); // Chess
@@ -21297,10 +21267,6 @@ namespace OverflowHelper.core
             correctionAdd("som", "some");
             correctionAdd("sum", "some");
 
-            correctionAdd("someon’es", "someone’s");
-            correctionAdd("someone's", "someone’s");
-            correctionAdd("someones", "someone’s");
-
             correctionAdd("similiar", "similar");
             correctionAdd("simillar", "similar");
             correctionAdd("simmiller", "similar");
@@ -21734,16 +21700,16 @@ namespace OverflowHelper.core
             correctionAdd("sematic", "semantic");
             correctionAdd("sementic", "semantic");
 
-            correctionAdd("sock puppet", "sockpuppet");
-            correctionAdd("sock-puppet", "sockpuppet");
-            correctionAdd("suckpuppet", "sockpuppet");
-            correctionAdd("sockpoppet", "sockpuppet");
-            correctionAdd("sock poppet", "sockpuppet");
-            correctionAdd("suck poppet", "sockpuppet");
-            correctionAdd("suck puppet", "sockpuppet");
-            correctionAdd("Sockpuppet", "sockpuppet");
-            correctionAdd("Sock puppet", "sockpuppet");
-            correctionAdd("Sock-puppet", "sockpuppet");
+            correctionAdd("sockpuppet", "sock puppet");
+            correctionAdd("sock-puppet", "sock puppet");
+            correctionAdd("suckpuppet", "sock puppet");
+            correctionAdd("sockpoppet", "sock puppet");
+            correctionAdd("sock poppet", "sock puppet");
+            correctionAdd("suck poppet", "sock puppet");
+            correctionAdd("suck puppet", "sock puppet");
+            correctionAdd("Sockpuppet", "sock puppet");
+            correctionAdd("Sock puppet", "sock puppet");
+            correctionAdd("Sock-puppet", "sock puppet");
 
             correctionAdd("thread safe", "threadsafe");
             correctionAdd("thread-safe", "threadsafe");
@@ -25121,9 +25087,6 @@ namespace OverflowHelper.core
             correctionAdd("Ccp", "Chinese Communist Party");
             correctionAdd("ccp", "Chinese Communist Party");
             correctionAdd("CCP", "Chinese Communist Party");
-
-            correctionAdd("los angeles", "Los Angeles");
-            correctionAdd("Los angels", "Los Angeles");
 
             correctionAdd("nashville", "Nashville");
 
@@ -29186,8 +29149,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SQUISH", "squish");
 
-            correctionAdd("Virtual Machine", "virtual machine");
-
             correctionAdd("google authenticator", "Google Authenticator");
 
             correctionAdd("mongochef", "MongoChef");
@@ -30433,6 +30394,7 @@ namespace OverflowHelper.core
             correctionAdd("cab", "can");
             correctionAdd("cann", "can");
             correctionAdd("Can", "can");
+            correctionAdd("cam", "can");
 
             correctionAdd("quiker", "quicker");
 
@@ -35809,9 +35771,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vertica", "Vertica");
 
-            correctionAdd("ones", "one's");
-            correctionAdd("One's", "one's");
-
             correctionAdd("Points of Presence", "point of presence");
             correctionAdd("PoP", "point of presence");
 
@@ -39380,6 +39339,8 @@ namespace OverflowHelper.core
 
             correctionAdd("low quality answers", "Low quality answers review queue");
 
+            correctionAdd("unity", "Unity");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -40803,8 +40764,6 @@ namespace OverflowHelper.core
 
             URL_Add("BCP", "https://en.wikipedia.org/wiki/Bulk_Copy_Program");
 
-            URL_Add("Unity Application Block", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library#Version_5.0_Silverlight_Integration_Pack"); // Old: http://unity.codeplex.com/
-
             URL_Add("Windows&nbsp;Explorer", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: https://en.wikipedia.org/wiki/Windows_Explorer
 
             URL_Add("Castle Project", "https://en.wikipedia.org/wiki/Castle_Project");
@@ -40851,11 +40810,11 @@ namespace OverflowHelper.core
 
             URL_Add("VoIP", "https://en.wikipedia.org/wiki/Voice_over_IP");
 
-            URL_Add("Fedora", "https://en.wikipedia.org/wiki/Fedora_%28operating_system%29");
+            URL_Add("Fedora", "https://en.wikipedia.org/wiki/Fedora_Linux"); // Old: <https://en.wikipedia.org/wiki/Fedora_%28operating_system%29>
 
             URL_Add("Windows", "https://en.wikipedia.org/wiki/Microsoft_Windows");
 
-            URL_Add("information", "https://en.wiktionary.org/wiki/info#Noun");
+            URL_Add("information", "https://en.wiktionary.org/wiki/information#Noun"); // Old: <https://en.wiktionary.org/wiki/info#Noun>
 
             URL_Add("IP address", "https://en.wikipedia.org/wiki/IP_address");
 
@@ -42075,8 +42034,6 @@ namespace OverflowHelper.core
 
             URL_Add("libusb", "https://en.wikipedia.org/wiki/Libusb");
 
-            URL_Add("Windows&nbsp;8", "https://en.wikipedia.org/wiki/Windows_8");
-
             URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
 
             URL_Add("LoadRunner", "https://en.wikipedia.org/wiki/HP_LoadRunner");
@@ -42471,8 +42428,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tee-Object", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Tee-Object");
 
-            URL_Add("BOM", "https://en.wikipedia.org/wiki/Byte_order_mark");
-
             URL_Add("MPEG", "https://en.wikipedia.org/wiki/MPEG-1");
 
             URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
@@ -42633,7 +42588,7 @@ namespace OverflowHelper.core
 
             URL_Add("Turbo C++", "https://en.wikipedia.org/wiki/Turbo_C%2B%2B");
 
-            URL_Add("RDBMS", "https://en.wikipedia.org/wiki/Relational_database_management_system");
+            URL_Add("RDBMS", "https://en.wikipedia.org/wiki/Relational_database"); // Old: <https://en.wikipedia.org/wiki/Relational_database_management_system>
 
             URL_Add("TCP/IP", "https://en.wikipedia.org/wiki/Internet_protocol_suite");
 
@@ -42749,7 +42704,7 @@ namespace OverflowHelper.core
 
             URL_Add("set up", "https://en.wiktionary.org/wiki/set_up#Verb");
 
-            URL_Add("run-on sentence", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences");
+            URL_Add("run-on sentence", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"); // Old: <https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences>
 
             URL_Add("GPIO", "http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications");
 
@@ -43563,7 +43518,7 @@ namespace OverflowHelper.core
 
             URL_Add("horizontally", "https://en.wiktionary.org/wiki/horizontally#Adverb");
 
-            URL_Add("Ask&nbsp;Ubuntu", "https://askubuntu.com/tour");
+            URL_Add("Ask&nbsp;Ubuntu (Stack Exchange site)", "https://askubuntu.com/tour");
 
             URL_Add("management", "https://en.wiktionary.org/wiki/management#Noun");
 
@@ -44235,15 +44190,11 @@ namespace OverflowHelper.core
 
             URL_Add("bipolar junction transistor", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor");
 
-            URL_Add("camera", "https://en.wiktionary.org/wiki/camera#Noun");
-
             URL_Add("check out", "https://en.wiktionary.org/wiki/check_out#Verb");
 
             URL_Add("professor", "https://en.wiktionary.org/wiki/professor#Noun");
 
             URL_Add("rewriting", "https://en.wiktionary.org/wiki/rewriting#Verb");
-
-            URL_Add("Blitz++", "https://en.wikipedia.org/wiki/Blitz%2B%2B");
 
             URL_Add("anyway", "https://en.wiktionary.org/wiki/anyway#Adverb");
 
@@ -47540,7 +47491,7 @@ namespace OverflowHelper.core
 
             URL_Add("CDC", "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention");
 
-            URL_Add("Candidates Tournament 2020", "https://en.wikipedia.org/wiki/Candidates_Tournament_2020%E2%80%9321"); // Old: https://en.wikipedia.org/wiki/Candidates_Tournament_2020
+            URL_Add("Candidates Tournament 2020", "https://en.wikipedia.org/wiki/Candidates_Tournament_2020%E2%80%932021"); // Old: <https://en.wikipedia.org/wiki/Candidates_Tournament_2020%E2%80%9321>. Even older: https://en.wikipedia.org/wiki/Candidates_Tournament_2020
 
             URL_Add("Magnus Carlsen", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
 
@@ -47936,7 +47887,7 @@ namespace OverflowHelper.core
 
             URL_Add("BLOB", "https://en.wikipedia.org/wiki/Binary_large_object");
 
-            URL_Add("Blitz (chess)", "https://en.wikipedia.org/wiki/Fast_chess#Blitz");
+            URL_Add("blitz (chess)", "https://en.wikipedia.org/wiki/Fast_chess#Blitz");
 
             URL_Add("footnote", "https://en.wiktionary.org/wiki/footnote#Noun");
 
@@ -48240,7 +48191,7 @@ namespace OverflowHelper.core
 
             URL_Add("smartwatch", "https://en.wikipedia.org/wiki/Smartwatch");
 
-            URL_Add("sockpuppet", "https://en.wikipedia.org/wiki/Sock_puppet_account"); // Old: https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
+            URL_Add("sock puppet", "https://en.wikipedia.org/wiki/Sock_puppet_account"); // Old: https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
 
             URL_Add("threadsafe", "https://en.wiktionary.org/wiki/threadsafe#Adjective");
 
@@ -50250,7 +50201,7 @@ namespace OverflowHelper.core
 
             URL_Add("waste", "https://en.wiktionary.org/wiki/waste#Verb");
 
-            URL_Add("ARGB", "https://en.wikipedia.org/wiki/RGBA_color_space#ARGB_(word-order)");
+            URL_Add("ARGB", "https://en.wikipedia.org/wiki/RGBA_color_model#ARGB32"); // Older: <https://en.wikipedia.org/wiki/RGBA_color_space#ARGB_(word-order)>
 
             URL_Add("angst", "https://en.wiktionary.org/wiki/angst#Noun");
 
@@ -50446,8 +50397,6 @@ namespace OverflowHelper.core
 
             URL_Add("Chinese Communist Party", "https://en.wikipedia.org/wiki/Chinese_Communist_Party");
 
-            URL_Add("Los Angeles", "https://en.wikipedia.org/wiki/Los_Angeles");
-
             URL_Add("Nashville", "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee");
 
             URL_Add("cover", "https://en.wiktionary.org/wiki/cover#Verb");
@@ -50564,7 +50513,7 @@ namespace OverflowHelper.core
 
             URL_Add("properly", "https://en.wiktionary.org/wiki/properly#Adverb");
 
-            URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#Google_Colaboratory"); // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory
+            URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#Industry_adoption"); // Old: <https://en.wikipedia.org/wiki/Project_Jupyter#Google_Colaboratory>. Even older: https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory
 
             URL_Add("JPEG 2000", "https://en.wikipedia.org/wiki/JPEG_2000");
 
@@ -52758,7 +52707,7 @@ namespace OverflowHelper.core
 
             URL_Add("Odysee", "https://odysee.com/");
 
-            URL_Add("QMK", "https://docs.qmk.fm/#/hardware_avr");
+            URL_Add("QMK", "https://docs.qmk.fm/#/faq_general?id=what-is-qmk"); // Old: <https://docs.qmk.fm/#/hardware_avr>
 
             URL_Add("TeaVM", "https://en.wikipedia.org/wiki/Java_virtual_machine#Compilation_to_JavaScript");
 
@@ -53529,8 +53478,6 @@ namespace OverflowHelper.core
             URL_Add("Chef", "https://en.wikipedia.org/wiki/Chef_(software)");
 
             URL_Add("squish", "https://en.wiktionary.org/wiki/squish#Verb");
-
-            URL_Add("virtual machine", "https://en.wikipedia.org/wiki/Virtual_machine");
 
             URL_Add("Wesley So", "https://en.wikipedia.org/wiki/Wesley_So");
 
@@ -55165,8 +55112,6 @@ namespace OverflowHelper.core
             URL_Add("Amazon Alexa", "https://en.wikipedia.org/wiki/Amazon_Alexa");
 
             URL_Add("DES", "https://en.wikipedia.org/wiki/Data_Encryption_Standard");
-
-            URL_Add("Science Fiction & Fantasy (Stack Exchange site)", "https://scifi.stackexchange.com/tour");
 
             URL_Add("Triple DES", "https://en.wikipedia.org/wiki/Triple_DES");
 
@@ -58864,7 +58809,7 @@ namespace OverflowHelper.core
 
             URL_Add("Vertica", "https://en.wikipedia.org/wiki/Vertica#Products");
 
-            URL_Add("one's", "https://en.wiktionary.org/wiki/one%27s#Pronoun");
+            URL_Add("one’s", "https://en.wiktionary.org/wiki/one%27s#Pronoun");
 
             URL_Add("point of presence", "https://en.wikipedia.org/wiki/Point_of_presence");
 
@@ -59229,8 +59174,6 @@ namespace OverflowHelper.core
             URL_Add("GMP", "https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library");
 
             URL_Add("MPIR", "https://en.wikipedia.org/wiki/MPIR_(mathematics_software)");
-
-            URL_Add("Medical Sciences (Stack Exchange site)", "https://medicalsciences.stackexchange.com/tour");
 
             URL_Add("clicked", "https://en.wiktionary.org/wiki/click#Verb");
 
@@ -59949,8 +59892,6 @@ namespace OverflowHelper.core
             URL_Add("wound up", "https://en.wiktionary.org/wiki/wind_up#Verb");
 
             URL_Add("Hardware Recommendations (Stack Exchange site)", "https://hardwarerecs.stackexchange.com/tour");
-
-            URL_Add("Psychology & Neuroscience (Stack Exchange site)", "https://psychology.stackexchange.com/tour");
 
             URL_Add("walrus operator", "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions");
 
@@ -61980,6 +61921,10 @@ namespace OverflowHelper.core
 
             URL_Add("reasked", "https://en.wiktionary.org/wiki/reask#Verb");
 
+            URL_Add("Unity", "https://en.wikipedia.org/wiki/Unity_(game_engine)");
+
+            URL_Add("BOM", "https://en.wikipedia.org/wiki/Byte_order_mark");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62172,8 +62117,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pusher_", "Laravel Pusher Channels_");
             correctionAdd("Laravel pusher_", "Laravel Pusher Channels_");
-
-            correctionAdd("unity_", "Unity_");
 
             correctionAdd("npc_", "NPC_");
 
@@ -62421,11 +62364,6 @@ namespace OverflowHelper.core
 
             correctionAdd("down vote_", "downvote_");
 
-            correctionAdd("Byte Order Mark_", "byte order mark_");
-            correctionAdd("BOM_", "byte order mark_");
-            correctionAdd("bom_", "byte order mark_");
-            correctionAdd("byte-order mark_", "byte order mark_");
-
             correctionAdd("cc-by-sa_", "CC-BY-SA_");
 
             correctionAdd("WA_", "Washington_");
@@ -62489,6 +62427,26 @@ namespace OverflowHelper.core
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
 
+            correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
+
+            correctionAdd("Psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
+
+            correctionAdd("Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("SFF_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("Sci-Fi and Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("Science Fiction & Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("sci-fi and fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("sci-fi_", "Science Fiction & Fantasy (Stack Exchange site)_");
+
+            correctionAdd("Medical Sciences_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("Medical SE_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("Life Sciences_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("medical_", "Medical Sciences (Stack Exchange site)_");
+
             correctionAdd("Are_", "are_");
             correctionAdd("aer_", "are_");
             correctionAdd("hare_", "are_");
@@ -62527,9 +62485,44 @@ namespace OverflowHelper.core
 
             correctionAdd("home-brew_", "homebrewed_");
 
-            correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
-            correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("blitz++_", "Blitz++_");
+            correctionAdd("Blitz_", "Blitz++_");
+            correctionAdd("blitz_", "Blitz++_");
+
+            correctionAdd("win8_", "Windows&nbsp;8_");
+            correctionAdd("Win8_", "Windows&nbsp;8_");
+            correctionAdd("Windows 8_", "Windows&nbsp;8_");
+            correctionAdd("windows 8_", "Windows&nbsp;8_");
+            correctionAdd("win 8_", "Windows&nbsp;8_");
+            correctionAdd("Win 8_", "Windows&nbsp;8_");
+            correctionAdd("W8_", "Windows&nbsp;8_");
+            correctionAdd("Windows8_", "Windows&nbsp;8_");
+            correctionAdd("window-8_", "Windows&nbsp;8_");
+            correctionAdd("windows-8_", "Windows&nbsp;8_");
+            correctionAdd("WIn 8_", "Windows&nbsp;8_");
+            correctionAdd("WIN 8_", "Windows&nbsp;8_");
+            correctionAdd("8_", "Windows&nbsp;8_"); // Ambiguous!
+            correctionAdd("windows8_", "Windows&nbsp;8_");
+            correctionAdd("Win-8_", "Windows&nbsp;8_");
+            correctionAdd("win 8.0_", "Windows&nbsp;8_");
+            correctionAdd("windows 8.0_", "Windows&nbsp;8_");
+
+            correctionAdd("los angeles_", "Los Angeles_");
+            correctionAdd("Los angels_", "Los Angeles_");
+            correctionAdd("LA_", "Los Angeles_");
+
+            correctionAdd("cam_", "camera_");
+
+            correctionAdd("Virtual Machine_", "virtual machine_");
+            correctionAdd("vm_", "virtual machine_");
+            correctionAdd("VM_", "virtual machine_");
+
+            correctionAdd("unity_", "Unity Application Block_");
+            correctionAdd("Unity_", "Unity Application Block_");
+            correctionAdd("Unity Framework_", "Unity Application Block_");
+            correctionAdd("Unity framework_", "Unity Application Block_");
+
+            correctionAdd("BOM_", "bill of material_");
 
             // URL mappings
             //
@@ -62645,8 +62638,6 @@ namespace OverflowHelper.core
             URL_Add("Laravel Livewire_", "https://laravel-livewire.com/docs/2.x/laravel-echo");
 
             URL_Add("Laravel Pusher Channels_", "https://pusher.com/laravel");
-
-            URL_Add("Unity_", "https://en.wikipedia.org/wiki/Unity_(game_engine)");
 
             URL_Add("NPC_", "https://en.wikipedia.org/wiki/Non-player_character");
 
@@ -62804,8 +62795,6 @@ namespace OverflowHelper.core
 
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
-            URL_Add("byte order mark_", "https://en.wikipedia.org/wiki/Byte_order_mark");
-
             URL_Add("CC-BY-SA_", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
 
             URL_Add("Washington_", "https://en.wikipedia.org/wiki/Washington_(state)");
@@ -62875,6 +62864,26 @@ namespace OverflowHelper.core
             URL_Add("homebrewed_", "https://en.wiktionary.org/wiki/homebrew#Verb");
 
             URL_Add("Music: Practice & Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
+
+            URL_Add("Blitz++_", "https://en.wikipedia.org/wiki/Blitz%2B%2B");
+
+            URL_Add("Windows&nbsp;8_", "https://en.wikipedia.org/wiki/Windows_8");
+
+            URL_Add("Psychology & Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
+
+            URL_Add("Science Fiction & Fantasy (Stack Exchange site)_", "https://scifi.stackexchange.com/tour");
+
+            URL_Add("Medical Sciences (Stack Exchange site)_", "https://medicalsciences.stackexchange.com/tour");
+
+            URL_Add("Los Angeles_", "https://en.wikipedia.org/wiki/Los_Angeles");
+
+            URL_Add("camera_", "https://en.wiktionary.org/wiki/camera#Noun");
+
+            URL_Add("virtual machine_", "https://en.wikipedia.org/wiki/Virtual_machine");
+
+            URL_Add("Unity Application Block_", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library#Version_5.0_Silverlight_Integration_Pack"); // Old: http://unity.codeplex.com/
+
+            URL_Add("bill of material_", "https://en.wikipedia.org/wiki/Bill_of_materials");
 
         } //addLookupData_alternativeWordSet()
 
