@@ -2972,6 +2972,186 @@ namespace OverflowHelper.core
             correctionAdd("healp", "help");
             correctionAdd("hep", "help");
 
+            correctionAdd("amd", "AMD");
+            correctionAdd("AMd", "AMD");
+            correctionAdd("Amd", "AMD");
+
+            correctionAdd("zener diode", "Zener diode");
+            correctionAdd("zener", "Zener diode");
+            correctionAdd("Zener", "Zener diode"); // Expansion
+            correctionAdd("Z-diode", "Zener diode"); // Expansion
+            correctionAdd("z-diode", "Zener diode"); // Expansion
+
+            correctionAdd("Anode", "anode");
+
+            correctionAdd("freenode", "Freenode");
+
+            correctionAdd("Inode", "inode");
+
+            correctionAdd("xcode", "Xcode");
+            correctionAdd("XCode", "Xcode");
+            correctionAdd("xCode", "Xcode");
+            correctionAdd("x-code", "Xcode");
+            correctionAdd("XCODE", "Xcode");
+
+            correctionAdd("unicode", "Unicode");
+            correctionAdd("UNICODE", "Unicode");
+            correctionAdd("UniCode", "Unicode");
+
+            correctionAdd("Google code", "Google Code");
+            correctionAdd("google code", "Google Code");
+            correctionAdd("google.code", "Google Code");
+            correctionAdd("googlecode", "Google Code");
+
+            correctionAdd("qr", "QR code");
+            correctionAdd("qr code", "QR code");
+            correctionAdd("QR-code", "QR code");
+            correctionAdd("qrcode", "QR code");
+            correctionAdd("QR Code", "QR code");
+            correctionAdd("QRCode", "QR code");
+
+            correctionAdd("pseudo code", "pseudocode");
+            correctionAdd("Pseudo Code", "pseudocode");
+            correctionAdd("pseudyo", "pseudocode"); // Not exact, no "code" in the input
+            correctionAdd("Pseudo-code", "pseudocode");
+            correctionAdd("pseudo-code", "pseudocode");
+            correctionAdd("psuedocode", "pseudocode");
+            correctionAdd("psudocode", "pseudocode");
+            correctionAdd("psuedo code", "pseudocode");
+            correctionAdd("psuedo-code", "pseudocode");
+            correctionAdd("Psuedocode", "pseudocode");
+            correctionAdd("Pseudocode", "pseudocode");
+            correctionAdd("pseudo cod", "pseudocode");
+            correctionAdd("Psudo-Code", "pseudocode");
+            correctionAdd("psudo-code", "pseudocode");
+            correctionAdd("psudo code", "pseudocode");
+            correctionAdd("PSEUDO CODE", "pseudocode");
+            correctionAdd("psedo code", "pseudocode");
+
+            correctionAdd("authenticode", "Authenticode");
+            correctionAdd("AuthentiCode", "Authenticode");
+
+            correctionAdd("Visual Studio code", "Visual Studio Code");
+            correctionAdd("VSCode", "Visual Studio Code");
+            correctionAdd("VS Code", "Visual Studio Code");
+            correctionAdd("visual studio code", "Visual Studio Code");
+            correctionAdd("Visual studio code", "Visual Studio Code");
+            correctionAdd("vscode", "Visual Studio Code");
+            correctionAdd("vs code", "Visual Studio Code");
+            correctionAdd("VS code", "Visual Studio Code");
+            correctionAdd("VsCode", "Visual Studio Code");
+            correctionAdd("visual code", "Visual Studio Code");
+            correctionAdd("vsCode", "Visual Studio Code");
+            correctionAdd("vs Code", "Visual Studio Code");
+            correctionAdd("Vscode", "Visual Studio Code");
+            correctionAdd("VScode", "Visual Studio Code");
+            correctionAdd("vs-code", "Visual Studio Code");
+            correctionAdd("Code", "Visual Studio Code");
+            correctionAdd("Visual studio Code", "Visual Studio Code");
+            correctionAdd("VSC", "Visual Studio Code");
+            correctionAdd("VSCODE", "Visual Studio Code");
+            correctionAdd("Visual Code", "Visual Studio Code");
+            correctionAdd("vsc", "Visual Studio Code");
+            correctionAdd("VS CODE", "Visual Studio Code");
+            correctionAdd("VS-Code", "Visual Studio Code");
+            correctionAdd("Visual Studio CODE", "Visual Studio Code");
+            correctionAdd("vs.code", "Visual Studio Code");
+            correctionAdd("Visualstudio Code", "Visual Studio Code");
+            correctionAdd("VSCod", "Visual Studio Code");
+            correctionAdd("VS code studio", "Visual Studio Code");
+            correctionAdd("Vs Code", "Visual Studio Code");
+            correctionAdd("VS-code", "Visual Studio Code");
+            correctionAdd("visual sutdio code", "Visual Studio Code");
+            correctionAdd("Vs code", "Visual Studio Code");
+            correctionAdd("code", "Visual Studio Code");
+            correctionAdd("the code", "Visual Studio Code");
+            correctionAdd("VSC Code", "Visual Studio Code");
+
+            correctionAdd("url encode", "URL encode");
+            correctionAdd("URL-encode", "URL encode");
+            correctionAdd("url-encode", "URL encode");
+
+            correctionAdd("endcode", "encode");
+
+            correctionAdd("gray code", "Gray code");
+
+            correctionAdd("hardcode", "hard code");
+            correctionAdd("hard-code", "hard code");
+
+            correctionAdd("sourcecode", "source code");
+            correctionAdd("Source Code", "source code");
+            correctionAdd("source-code", "source code");
+
+            correctionAdd("op code", "opcode");
+            correctionAdd("opCode", "opcode");
+
+            correctionAdd("leet code", "LeetCode");
+            correctionAdd("Leetcode", "LeetCode");
+            correctionAdd("leetcode", "LeetCode");
+            correctionAdd("Leetcode.com", "LeetCode");
+
+            correctionAdd("Diode", "diode");
+
+            correctionAdd("chua diode", "Chua's diode");
+
+            correctionAdd("byte code", "bytecode");
+            correctionAdd("Bytecode", "bytecode");
+
+            correctionAdd("org mode", "Org-mode");
+            correctionAdd("org-mode", "Org-mode");
+            correctionAdd("Org mode", "Org-mode");
+
+            correctionAdd("bbcode", "BBCode");
+            correctionAdd("BBCODE", "BBCode");
+            correctionAdd("BB code", "BBCode");
+            correctionAdd("BBcode", "BBCode");
+
+            correctionAdd("morse code", "Morse code");
+            correctionAdd("Morse Code", "Morse code");
+
+            correctionAdd("Zipcode", "ZIP Code");
+            correctionAdd("ZIP code", "ZIP Code");
+            correctionAdd("zip code", "ZIP Code");
+            correctionAdd("Zip code", "ZIP Code");
+
+            correctionAdd("photo diode", "photodiode");
+
+            correctionAdd("IaC", "infrastructure as code");
+            correctionAdd("iac", "infrastructure as code");
+
+            correctionAdd("Cascadia", "Cascadia Code");
+            correctionAdd("cascadia", "Cascadia Code");
+
+            correctionAdd("p-n diode", "p–n diode");
+            correctionAdd("PN diode", "p–n diode");
+
+            correctionAdd("ansi escape code", "ANSI escape code");
+            correctionAdd("ANSI color", "ANSI escape code");
+            correctionAdd("ANSI color sequence", "ANSI escape code");
+
+            correctionAdd("avocode", "Avocode");
+
+            correctionAdd("linode", "Linode");
+
+            correctionAdd("qecc", "quantum error correcting code");
+            correctionAdd("QECC", "quantum error correcting code");
+
+            correctionAdd("ordinary differential equation", "ODE");
+            correctionAdd("ode", "ODE");
+
+            correctionAdd("quirk mode", "quirks mode");
+            correctionAdd("QUIRK MODE", "quirks mode");
+
+            correctionAdd("STANDARD MODE", "standards mode");
+
+            correctionAdd("html_entity_decode()", "html_entity_decode"); // PHP function
+
+            correctionAdd("explode()", "explode"); // PHP function
+
+            correctionAdd("base64_encode()", "base64_encode");
+
+            correctionAdd("DMIDECODE", "dmidecode");
+
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
@@ -3868,6 +4048,16 @@ namespace OverflowHelper.core
 
             correctionAdd("Circuit", "circuit");
             correctionAdd("cicuit", "circuit");
+            correctionAdd("cuircuit", "circuit");
+
+            correctionAdd("snubber", "snub circuit");
+            correctionAdd("Snubber", "snub circuit");
+
+            correctionAdd("short cirquit", "short circuit");
+            correctionAdd("Short-cirquit", "short circuit");
+            correctionAdd("short-cirquit", "short circuit");
+
+            correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
 
             correctionAdd("mit", "MIT");
 
@@ -3957,9 +4147,6 @@ namespace OverflowHelper.core
             correctionAdd("replit", "Replit");
             correctionAdd("ReplIT", "Replit");
             correctionAdd("repl.it", "Replit");
-
-            correctionAdd("snubber", "snub circuit");
-            correctionAdd("Snubber", "snub circuit");
 
             correctionAdd("MMU", "memory management unit");
 
@@ -7268,6 +7455,7 @@ namespace OverflowHelper.core
             correctionAdd("I,m", "I’m");
             correctionAdd("I 'm", "I’m");
             correctionAdd("II'm", "I’m");
+            correctionAdd("I'M", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -7644,6 +7832,7 @@ namespace OverflowHelper.core
             correctionAdd("hql", "HQL");
 
             correctionAdd("perforce", "Perforce");
+            correctionAdd("P4", "Perforce");
 
             correctionAdd("bazaar", "Bazaar");
             correctionAdd("Bzr", "Bazaar");
@@ -12084,16 +12273,6 @@ namespace OverflowHelper.core
 
             correctionAdd("adobe illustrator", "Adobe Illustrator");
 
-            correctionAdd("zener diode", "Zener diode");
-            correctionAdd("zener", "Zener diode");
-            correctionAdd("Zener", "Zener diode"); // Expansion
-            correctionAdd("Z-diode", "Zener diode"); // Expansion
-            correctionAdd("z-diode", "Zener diode"); // Expansion
-
-            correctionAdd("amd", "AMD");
-            correctionAdd("AMd", "AMD");
-            correctionAdd("Amd", "AMD");
-
             correctionAdd("mvvm", "MVVM");
 
             correctionAdd("knowlege", "knowledge");
@@ -13418,6 +13597,7 @@ namespace OverflowHelper.core
             correctionAdd("Open JDK", "OpenJDK");
             correctionAdd("openJDK", "OpenJDK");
             correctionAdd("open jdk", "OpenJDK");
+            correctionAdd("OpenJDk", "OpenJDK");
 
             correctionAdd("instanciate", "instantiate");
             correctionAdd("inatantiate", "instantiate");
@@ -15522,6 +15702,7 @@ namespace OverflowHelper.core
             correctionAdd("vehical", "vehicle");
             correctionAdd("vihicle", "vehicle");
             correctionAdd("vehcile", "vehicle");
+            correctionAdd("Vehicle", "vehicle");
 
             correctionAdd("wierd", "weird");
             correctionAdd("weried", "weird");
@@ -16469,6 +16650,7 @@ namespace OverflowHelper.core
             correctionAdd("pr", "pull request");
             correctionAdd("PR", "pull request");
             correctionAdd("Pull Request", "pull request");
+            correctionAdd("Pull-Request", "pull request");
 
             correctionAdd("requst", "request");
             correctionAdd("resquest", "request");
@@ -16828,6 +17010,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Physics", "physics");
             correctionAdd("phyiscs", "physics");
+            correctionAdd("Physcs", "physics");
+
+            correctionAdd("Particle Physics", "particle physics");
+
+            correctionAdd("Physics Education Research", "physics education research");
 
             correctionAdd("place holder", "placeholder");
 
@@ -17556,8 +17743,6 @@ namespace OverflowHelper.core
             correctionAdd("OTG", "USB On-The-Go");
             correctionAdd("USB-to-go", "USB On-The-Go");
             correctionAdd("USB OTG", "USB On-The-Go");
-
-            correctionAdd("Anode", "anode");
 
             correctionAdd("asterix", "asterisk");
             correctionAdd("asteriscs", "asterisk");
@@ -18343,8 +18528,6 @@ namespace OverflowHelper.core
 
             correctionAdd("XPERF", "xperf");
 
-            correctionAdd("freenode", "Freenode");
-
             correctionAdd("PPA", "Personal Package Archive");
             correctionAdd("ppa", "Personal Package Archive");
 
@@ -18652,8 +18835,6 @@ namespace OverflowHelper.core
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
             correctionAdd("hsnce", "hence");
-
-            correctionAdd("Inode", "inode");
 
             correctionAdd("int", "integer");
             correctionAdd("ingeters", "integer");
@@ -21184,6 +21365,8 @@ namespace OverflowHelper.core
             correctionAdd("How", "how");
             correctionAdd("haw", "how");
             correctionAdd("hao", "how");
+            correctionAdd("Hwo", "how");
+            correctionAdd("hwo", "how");
 
             correctionAdd("Java6", "Java&nbsp;6");
             correctionAdd("java 6", "Java&nbsp;6");
@@ -21941,6 +22124,7 @@ namespace OverflowHelper.core
             correctionAdd("documentations", "documentation");
             correctionAdd("Documentation", "documentation");
             correctionAdd("documenttion", "documentation");
+            correctionAdd("documetation", "documentation");
 
             correctionAdd("Dox", "doxx");
             correctionAdd("dox", "doxx");
@@ -25194,108 +25378,6 @@ namespace OverflowHelper.core
 
             correctionAdd("watchs", "watches");
 
-            correctionAdd("xcode", "Xcode");
-            correctionAdd("XCode", "Xcode");
-            correctionAdd("xCode", "Xcode");
-            correctionAdd("x-code", "Xcode");
-            correctionAdd("XCODE", "Xcode");
-
-            correctionAdd("unicode", "Unicode");
-            correctionAdd("UNICODE", "Unicode");
-            correctionAdd("UniCode", "Unicode");
-
-            correctionAdd("Google code", "Google Code");
-            correctionAdd("google code", "Google Code");
-            correctionAdd("google.code", "Google Code");
-            correctionAdd("googlecode", "Google Code");
-
-            correctionAdd("qr", "QR code");
-            correctionAdd("qr code", "QR code");
-            correctionAdd("QR-code", "QR code");
-            correctionAdd("qrcode", "QR code");
-            correctionAdd("QR Code", "QR code");
-            correctionAdd("QRCode", "QR code");
-
-            correctionAdd("pseudo code", "pseudocode");
-            correctionAdd("Pseudo Code", "pseudocode");
-            correctionAdd("pseudyo", "pseudocode"); // Not exact, no "code" in the input
-            correctionAdd("Pseudo-code", "pseudocode");
-            correctionAdd("pseudo-code", "pseudocode");
-            correctionAdd("psuedocode", "pseudocode");
-            correctionAdd("psudocode", "pseudocode");
-            correctionAdd("psuedo code", "pseudocode");
-            correctionAdd("psuedo-code", "pseudocode");
-            correctionAdd("Psuedocode", "pseudocode");
-            correctionAdd("Pseudocode", "pseudocode");
-            correctionAdd("pseudo cod", "pseudocode");
-            correctionAdd("Psudo-Code", "pseudocode");
-            correctionAdd("psudo-code", "pseudocode");
-            correctionAdd("psudo code", "pseudocode");
-            correctionAdd("PSEUDO CODE", "pseudocode");
-            correctionAdd("psedo code", "pseudocode");
-
-            correctionAdd("authenticode", "Authenticode");
-            correctionAdd("AuthentiCode", "Authenticode");
-
-            correctionAdd("Visual Studio code", "Visual Studio Code");
-            correctionAdd("VSCode", "Visual Studio Code");
-            correctionAdd("VS Code", "Visual Studio Code");
-            correctionAdd("visual studio code", "Visual Studio Code");
-            correctionAdd("Visual studio code", "Visual Studio Code");
-            correctionAdd("vscode", "Visual Studio Code");
-            correctionAdd("vs code", "Visual Studio Code");
-            correctionAdd("VS code", "Visual Studio Code");
-            correctionAdd("VsCode", "Visual Studio Code");
-            correctionAdd("visual code", "Visual Studio Code");
-            correctionAdd("vsCode", "Visual Studio Code");
-            correctionAdd("vs Code", "Visual Studio Code");
-            correctionAdd("Vscode", "Visual Studio Code");
-            correctionAdd("VScode", "Visual Studio Code");
-            correctionAdd("vs-code", "Visual Studio Code");
-            correctionAdd("Code", "Visual Studio Code");
-            correctionAdd("Visual studio Code", "Visual Studio Code");
-            correctionAdd("VSC", "Visual Studio Code");
-            correctionAdd("VSCODE", "Visual Studio Code");
-            correctionAdd("Visual Code", "Visual Studio Code");
-            correctionAdd("vsc", "Visual Studio Code");
-            correctionAdd("VS CODE", "Visual Studio Code");
-            correctionAdd("VS-Code", "Visual Studio Code");
-            correctionAdd("Visual Studio CODE", "Visual Studio Code");
-            correctionAdd("vs.code", "Visual Studio Code");
-            correctionAdd("Visualstudio Code", "Visual Studio Code");
-            correctionAdd("VSCod", "Visual Studio Code");
-            correctionAdd("VS code studio", "Visual Studio Code");
-            correctionAdd("Vs Code", "Visual Studio Code");
-            correctionAdd("VS-code", "Visual Studio Code");
-            correctionAdd("visual sutdio code", "Visual Studio Code");
-            correctionAdd("Vs code", "Visual Studio Code");
-            correctionAdd("code", "Visual Studio Code");
-            correctionAdd("the code", "Visual Studio Code");
-            correctionAdd("VSC Code", "Visual Studio Code");
-
-            correctionAdd("url encode", "URL encode");
-            correctionAdd("URL-encode", "URL encode");
-            correctionAdd("url-encode", "URL encode");
-
-            correctionAdd("endcode", "encode");
-
-            correctionAdd("gray code", "Gray code");
-
-            correctionAdd("hardcode", "hard code");
-            correctionAdd("hard-code", "hard code");
-
-            correctionAdd("sourcecode", "source code");
-            correctionAdd("Source Code", "source code");
-            correctionAdd("source-code", "source code");
-
-            correctionAdd("op code", "opcode");
-            correctionAdd("opCode", "opcode");
-
-            correctionAdd("leet code", "LeetCode");
-            correctionAdd("Leetcode", "LeetCode");
-            correctionAdd("leetcode", "LeetCode");
-            correctionAdd("Leetcode.com", "LeetCode");
-
             correctionAdd("completinist", "completionist");
 
             correctionAdd("DFT", "discrete Fourier transform");
@@ -25593,8 +25675,6 @@ namespace OverflowHelper.core
             correctionAdd("esm", "ECMAScript module");
             correctionAdd("ES Module", "ECMAScript module");
             correctionAdd("EcmaScript module", "ECMAScript module");
-
-            correctionAdd("Diode", "diode");
 
             correctionAdd("ESD", "electrostatic discharge");
 
@@ -26927,8 +27007,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ada", "Ada");
 
-            correctionAdd("chua diode", "Chua's diode");
-
             correctionAdd("Codepad", "CodePad");
             correctionAdd("codepad", "CodePad");
 
@@ -27003,6 +27081,7 @@ namespace OverflowHelper.core
             correctionAdd("antoher", "another");
             correctionAdd("an other", "another");
             correctionAdd("anther", "another");
+            correctionAdd("An other", "another");
 
             correctionAdd("otehr", "other");
             correctionAdd("outter", "other");
@@ -27075,9 +27154,6 @@ namespace OverflowHelper.core
             correctionAdd("reasonate", "resonate");
 
             correctionAdd("show time", "showtime");
-
-            correctionAdd("byte code", "bytecode");
-            correctionAdd("Bytecode", "bytecode");
 
             correctionAdd("Yak shaving", "yak shaving");
 
@@ -27454,10 +27530,6 @@ namespace OverflowHelper.core
             correctionAdd("Mar", "March");
 
             correctionAdd("mooshak", "Mooshak");
-
-            correctionAdd("org mode", "Org-mode");
-            correctionAdd("org-mode", "Org-mode");
-            correctionAdd("Org mode", "Org-mode");
 
             correctionAdd("PHP 4", "PHP&nbsp;4");
             correctionAdd("php 4", "PHP&nbsp;4");
@@ -28088,11 +28160,6 @@ namespace OverflowHelper.core
             correctionAdd("tyering", "tiring");
             correctionAdd("tyring", "tiring");
 
-            correctionAdd("bbcode", "BBCode");
-            correctionAdd("BBCODE", "BBCode");
-            correctionAdd("BB code", "BBCode");
-            correctionAdd("BBcode", "BBCode");
-
             correctionAdd("B 737", "Boing 737");
             correctionAdd("B737", "Boing 737");
 
@@ -28447,9 +28514,6 @@ namespace OverflowHelper.core
             correctionAdd("ft8", "FT8");
 
             correctionAdd("finder", "Finder");
-
-            correctionAdd("morse code", "Morse code");
-            correctionAdd("Morse Code", "Morse code");
 
             correctionAdd("architechtural", "architectural");
             correctionAdd("artechtural", "architectural");
@@ -28958,11 +29022,6 @@ namespace OverflowHelper.core
             correctionAdd("N channel MOSFET", "n-channel MOSFET");
 
             correctionAdd("scrap", "scrape");
-
-            correctionAdd("Zipcode", "ZIP Code");
-            correctionAdd("ZIP code", "ZIP Code");
-            correctionAdd("zip code", "ZIP Code");
-            correctionAdd("Zip code", "ZIP Code");
 
             correctionAdd("functional key", "function key");
 
@@ -29929,8 +29988,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Neuron", "neuron");
 
-            correctionAdd("photo diode", "photodiode");
-
             correctionAdd("suze", "size");
 
             correctionAdd("superiour", "superior");
@@ -30520,9 +30577,6 @@ namespace OverflowHelper.core
 
             correctionAdd("HLL", "high-level programming language");
 
-            correctionAdd("IaC", "infrastructure as code");
-            correctionAdd("iac", "infrastructure as code");
-
             correctionAdd("lanucher", "launcher");
 
             correctionAdd("Least Recently Used", "least recently used");
@@ -30848,9 +30902,6 @@ namespace OverflowHelper.core
             correctionAdd("basilisk", "Basilisk");
 
             correctionAdd("blink", "Blink");
-
-            correctionAdd("Cascadia", "Cascadia Code");
-            correctionAdd("cascadia", "Cascadia Code");
 
             correctionAdd("verizon", "Verizon");
 
@@ -31400,9 +31451,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Palladised", "palladised");
 
-            correctionAdd("p-n diode", "p–n diode");
-            correctionAdd("PN diode", "p–n diode");
-
             correctionAdd("reluctancy", "reluctance");
 
             correctionAdd("striked", "struck");
@@ -31696,10 +31744,6 @@ namespace OverflowHelper.core
             correctionAdd("sayinf", "saying");
 
             correctionAdd("trimed", "trimmed");
-
-            correctionAdd("ansi escape code", "ANSI escape code");
-            correctionAdd("ANSI color", "ANSI escape code");
-            correctionAdd("ANSI color sequence", "ANSI escape code");
 
             correctionAdd("arabian", "Arabian");
 
@@ -32477,8 +32521,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Westerner", "westerner");
 
-            correctionAdd("avocode", "Avocode");
-
             correctionAdd("nuclide", "Nuclide");
 
             correctionAdd("cd prompt", "command prompt");
@@ -33068,8 +33110,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fajans' rules", "Fajans' rules");
 
-            correctionAdd("linode", "Linode");
-
             correctionAdd("Beryllium", "beryllium");
             correctionAdd("Be", "beryllium");
 
@@ -33631,6 +33671,7 @@ namespace OverflowHelper.core
             correctionAdd("Row", "row");
 
             correctionAdd("stars", "starts");
+            correctionAdd("sarts", "starts");
 
             correctionAdd("striketrough", "strike through");
             correctionAdd("strikethrough", "strike through");
@@ -34175,9 +34216,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stim", "Stim");
 
-            correctionAdd("qecc", "quantum error correcting code");
-            correctionAdd("QECC", "quantum error correcting code");
-
             correctionAdd("Pearson Vue", "Pearson VUE");
 
             correctionAdd("hade", "had");
@@ -34584,8 +34622,6 @@ namespace OverflowHelper.core
             correctionAdd("Kiwi", "Kiwi TCMS");
             correctionAdd("KIWI", "Kiwi TCMS");
 
-            correctionAdd("ordinary differential equation", "ODE");
-
             correctionAdd("Sitepoint", "SitePoint");
 
             correctionAdd("Skype chat", "Skype Chat");
@@ -34595,11 +34631,6 @@ namespace OverflowHelper.core
             correctionAdd("embeding", "embedding");
 
             correctionAdd("enterd", "entered");
-
-            correctionAdd("quirk mode", "quirks mode");
-            correctionAdd("QUIRK MODE", "quirks mode");
-
-            correctionAdd("STANDARD MODE", "standards mode");
 
             correctionAdd("statemachine", "finite-state machine");
             correctionAdd("FSM", "finite-state machine");
@@ -35768,6 +35799,7 @@ namespace OverflowHelper.core
             correctionAdd("Quality Control", "QC");
 
             correctionAdd("TypeScript Playground", "TS Playground");
+            correctionAdd("TS playground", "TS Playground");
 
             correctionAdd("vertica", "Vertica");
 
@@ -35793,8 +35825,6 @@ namespace OverflowHelper.core
             correctionAdd("meagrely", "meagerly");
 
             correctionAdd("mis-used", "misused");
-
-            correctionAdd("Particle Physics", "particle physics");
 
             correctionAdd("quntity", "quantity");
 
@@ -36982,12 +37012,6 @@ namespace OverflowHelper.core
 
             correctionAdd("priortise", "prioritise");
 
-            correctionAdd("short cirquit", "short circuit");
-            correctionAdd("Short-cirquit", "short circuit");
-            correctionAdd("short-cirquit", "short circuit");
-
-            correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
-
             correctionAdd("winded up", "wound up");
 
             correctionAdd("Engineering", "engineering");
@@ -37498,8 +37522,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hair pulling", "hairpulling");
 
-            correctionAdd("html_entity_decode()", "html_entity_decode");
-
             correctionAdd("infurating", "infuriating");
 
             correctionAdd("obnoxiosly", "obnoxiously");
@@ -37675,8 +37697,6 @@ namespace OverflowHelper.core
             correctionAdd("zone alarm", "ZoneAlarm");
 
             correctionAdd("acentuation", "accentuation");
-
-            correctionAdd("base64_encode()", "base64_encode");
 
             correctionAdd("oe", "or");
 
@@ -38117,8 +38137,6 @@ namespace OverflowHelper.core
 
             correctionAdd("diits", "digits");
 
-            correctionAdd("DMIDECODE", "dmidecode");
-
             correctionAdd("gettext", "getText (for Java)");
             correctionAdd("getText", "getText (for Java)");
 
@@ -38553,8 +38571,6 @@ namespace OverflowHelper.core
             correctionAdd("descent", "decent");
 
             correctionAdd("EFB", "electronic flight bag");
-
-            correctionAdd("explode()", "explode");
 
             correctionAdd("falacy", "fallacy");
 
@@ -39340,6 +39356,33 @@ namespace OverflowHelper.core
             correctionAdd("low quality answers", "Low quality answers review queue");
 
             correctionAdd("unity", "Unity");
+
+            correctionAdd("aeolian", "Aeolian mode");
+            correctionAdd("Aeolian", "Aeolian mode");
+
+            correctionAdd("ionian", "Ionian mode");
+            correctionAdd("Ionian", "Ionian mode");
+
+            correctionAdd("IceTea", "IcedTea");
+            correctionAdd("Iced Tea", "IcedTea");
+            correctionAdd("Ice Tea", "IcedTea");
+
+            correctionAdd("Ricati", "Riccati equation");
+            correctionAdd("Riccati", "Riccati equation");
+
+            correctionAdd("Accusation", "accusation");
+
+            correctionAdd("autombile", "automobile");
+
+            correctionAdd("Full bridge rectifier", "full-wave rectifier");
+
+            correctionAdd("inversed", "inverted");
+
+            correctionAdd("prove", "proof");
+
+            correctionAdd("Re-Branch", "rebranch");
+
+            correctionAdd("Wipe", "wipe");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61925,6 +61968,30 @@ namespace OverflowHelper.core
 
             URL_Add("BOM", "https://en.wikipedia.org/wiki/Byte_order_mark");
 
+            URL_Add("Aeolian mode", "https://en.wikipedia.org/wiki/Aeolian_mode");
+
+            URL_Add("IcedTea", "https://en.wikipedia.org/wiki/IcedTea");
+
+            URL_Add("Ionian mode", "https://en.wikipedia.org/wiki/Ionian_mode");
+
+            URL_Add("Riccati equation", "https://en.wikipedia.org/wiki/Riccati_equation");
+
+            URL_Add("accusation", "https://en.wiktionary.org/wiki/accusation#Noun");
+
+            URL_Add("automobile", "https://en.wiktionary.org/wiki/automobile#Noun");
+
+            URL_Add("full-wave rectifier", "https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification");
+
+            URL_Add("inverted", "https://en.wiktionary.org/wiki/inverted#Adjective");
+
+            URL_Add("physics education research", "https://en.wikipedia.org/wiki/Physics_education_research");
+
+            URL_Add("proof", "https://en.wiktionary.org/wiki/proof#Noun");
+
+            URL_Add("rebranch", "https://en.wiktionary.org/wiki/rebranch#Verb");
+
+            URL_Add("wipe", "https://en.wiktionary.org/wiki/wipe#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62298,6 +62365,7 @@ namespace OverflowHelper.core
             correctionAdd("Physics (SE)_", "Physics (Stack Exchange site)_");
             correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Physics.SO_", "Physics (Stack Exchange site)_");
+            correctionAdd("PSE_", "Physics (Stack Exchange site)_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
@@ -62523,6 +62591,12 @@ namespace OverflowHelper.core
             correctionAdd("Unity framework_", "Unity Application Block_");
 
             correctionAdd("BOM_", "bill of material_");
+
+            correctionAdd("Sun_", "Sun Microsystems_");
+
+            correctionAdd("Astronomy_", "astronomy_");
+
+            correctionAdd("Mathematics_", "mathematics_");
 
             // URL mappings
             //
@@ -62884,6 +62958,12 @@ namespace OverflowHelper.core
             URL_Add("Unity Application Block_", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library#Version_5.0_Silverlight_Integration_Pack"); // Old: http://unity.codeplex.com/
 
             URL_Add("bill of material_", "https://en.wikipedia.org/wiki/Bill_of_materials");
+
+            URL_Add("Sun Microsystems_", "https://en.wikipedia.org/wiki/Sun_Microsystems");
+
+            URL_Add("astronomy_", "https://en.wikipedia.org/wiki/Astronomy");
+
+            URL_Add("mathematics_", "https://en.wikipedia.org/wiki/Mathematics");
 
         } //addLookupData_alternativeWordSet()
 
