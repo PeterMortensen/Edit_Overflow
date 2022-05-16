@@ -2427,21 +2427,10 @@ namespace OverflowHelper.core
             correctionAdd("ExpertsExchange", "Experts-Exchange");
             correctionAdd("Experts&nbsp;Exchange", "Experts-Exchange");
 
+            correctionAdd("shopify", "Shopify");
+
             correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
             correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
-
-            correctionAdd("Maths", "Mathematics (Stack Exchange site)");
-            correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
-            correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
-            correctionAdd("Math", "Mathematics (Stack Exchange site)");
-            correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
-            correctionAdd("Mathematics", "Mathematics (Stack Exchange site)");
-            correctionAdd("Math Stack Exchange", "Mathematics (Stack Exchange site)");
-            correctionAdd("maths se", "Mathematics (Stack Exchange site)");
-            correctionAdd("math se", "Mathematics (Stack Exchange site)");
-            correctionAdd("math SE", "Mathematics (Stack Exchange site)");
-            correctionAdd("Math SE", "Mathematics (Stack Exchange site)");
-            correctionAdd("Maths SE", "Mathematics (Stack Exchange site)");
 
             correctionAdd("Unix&Linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("U&L", "Unix & Linux (Stack Exchange site)");
@@ -2470,13 +2459,6 @@ namespace OverflowHelper.core
             correctionAdd("English Language & Usage", "English Language & Usage (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("EL&U", "English Language & Usage (Stack Exchange site)");
             correctionAdd("EL & U", "English Language & Usage (Stack Exchange site)");
-
-            correctionAdd("mathoverflow", "MathOverflow (Stack Exchange site)");
-            correctionAdd("MathOverlow", "MathOverflow (Stack Exchange site)");
-            correctionAdd("MO", "MathOverflow (Stack Exchange site)");
-            correctionAdd("MathOverflow", "MathOverflow (Stack Exchange site)");
-
-            correctionAdd("shopify", "Shopify");
 
             correctionAdd("Wordpress dev", "WordPress Development (Stack Exchange site)");
             correctionAdd("WordPress development", "WordPress Development (Stack Exchange site)");
@@ -2649,6 +2631,49 @@ namespace OverflowHelper.core
 
             correctionAdd("bicycles.se", "Bicycles (Stack Exchange site)");
             correctionAdd("Bicycles", "Bicycles (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("mathoverflow", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MathOverlow", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MO", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MathOverflow", "MathOverflow (Stack Exchange site)");
+
+            correctionAdd("Maths", "Mathematics (Stack Exchange site)");
+            correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("mathematics SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math.SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Mathematics", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math Stack Exchange", "Mathematics (Stack Exchange site)");
+            correctionAdd("maths se", "Mathematics (Stack Exchange site)");
+            correctionAdd("math se", "Mathematics (Stack Exchange site)");
+            correctionAdd("math SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Math SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("Maths SE", "Mathematics (Stack Exchange site)");
+
+            correctionAdd("mathematica", "Mathematica");
+            correctionAdd("Mma", "Mathematica");
+            correctionAdd("Mathetmica", "Mathematica");
+            correctionAdd("Wolfarm Mathematica", "Mathematica");
+            correctionAdd("Wolfram Mathematica", "Mathematica");
+            correctionAdd("MMA", "Mathematica");
+
+            correctionAdd("mathemathical", "mathematical");
+            correctionAdd("mathematic", "mathematical");
+
+            correctionAdd("mathematicaly", "mathematically");
+            correctionAdd("mathamaticaly", "mathematically");
+
+            correctionAdd("Mathematician", "mathematician");
+            correctionAdd("mathematicien", "mathematician");
+
+            correctionAdd("Mathjax", "MathJax");
+            correctionAdd("mathjax", "MathJax");
+            correctionAdd("MatJaX", "MathJax");
+            correctionAdd("MathJaX", "MathJax");
+            correctionAdd("MathJAX", "MathJax");
+
+            correctionAdd("mathworks", "MathWorks");
+            correctionAdd("Mathworks", "MathWorks");
 
             correctionAdd("achademia", "academia");
             correctionAdd("achedemia", "academia");
@@ -7157,28 +7182,6 @@ namespace OverflowHelper.core
             correctionAdd("8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian 8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
 
-            correctionAdd("mathematica", "Mathematica");
-            correctionAdd("Mma", "Mathematica");
-            correctionAdd("Mathetmica", "Mathematica");
-            correctionAdd("Wolfarm Mathematica", "Mathematica");
-            correctionAdd("Wolfram Mathematica", "Mathematica");
-            correctionAdd("MMA", "Mathematica");
-
-            correctionAdd("mathemathical", "mathematical");
-            correctionAdd("mathematic", "mathematical");
-
-            correctionAdd("mathematicaly", "mathematically");
-            correctionAdd("mathamaticaly", "mathematically");
-
-            correctionAdd("maths", "mathematics");
-            correctionAdd("math", "mathematics");
-            correctionAdd("Mathmatics", "mathematics");
-            correctionAdd("mathmatics", "mathematics");
-            correctionAdd("Mathemetics", "mathematics");
-
-            correctionAdd("Mathematician", "mathematician");
-            correctionAdd("mathematicien", "mathematician");
-
             correctionAdd("STEM", "Science, technology, engineering, and mathematics");
             correctionAdd("stem", "Science, technology, engineering, and mathematics");
 
@@ -8063,12 +8066,6 @@ namespace OverflowHelper.core
             correctionAdd("wmp", "Windows Media Player");
             correctionAdd("mediaplayer", "Windows Media Player"); // Unfortunate abbreviation, e.g. as in <http://superuser.com/questions/228979>.
             correctionAdd("Media Player", "Windows Media Player");
-
-            correctionAdd("Mathjax", "MathJax");
-            correctionAdd("mathjax", "MathJax");
-            correctionAdd("MatJaX", "MathJax");
-            correctionAdd("MathJaX", "MathJax");
-            correctionAdd("MathJAX", "MathJax");
 
             correctionAdd("notepad2", "Notepad2");
 
@@ -14377,9 +14374,6 @@ namespace OverflowHelper.core
             correctionAdd("Doppler shift", "Doppler effect");
             correctionAdd("doppler effect", "Doppler effect");
 
-            correctionAdd("mathworks", "MathWorks");
-            correctionAdd("Mathworks", "MathWorks");
-
             correctionAdd("sunday", "Sunday");
 
             correctionAdd("VertX", "Vert.x");
@@ -19981,6 +19975,9 @@ namespace OverflowHelper.core
             correctionAdd("Interpitied", "interpreted");
             correctionAdd("interpitied", "interpreted");
             correctionAdd("interpretted", "interpreted");
+            correctionAdd("interpretated", "interpreted");
+
+            correctionAdd("misinterpeted", "misinterpreted");
 
             correctionAdd("distroy", "destroy");
 
@@ -23664,6 +23661,7 @@ namespace OverflowHelper.core
             correctionAdd("relevenat", "relevant");
             correctionAdd("Relevenat", "relevant");
             correctionAdd("revelant", "relevant");
+            correctionAdd("relvant", "relevant");
 
             correctionAdd("embarcadero", "Embarcadero");
 
@@ -23800,6 +23798,8 @@ namespace OverflowHelper.core
             correctionAdd("Drop-down", "dropdown");
             correctionAdd("Drop-Down", "dropdown");
             correctionAdd("drop-down", "dropdown");
+            correctionAdd("drop-down menu", "dropdown");
+            correctionAdd("drop down", "dropdown");
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
             correctionAdd("Free code camp", "freeCodeCamp");
@@ -26885,6 +26885,7 @@ namespace OverflowHelper.core
             correctionAdd("john carmack", "John Carmack");
 
             correctionAdd("aligment", "alignment");
+            correctionAdd("alligment", "alignment");
 
             correctionAdd("brain dead", "brain-dead");
 
@@ -30625,6 +30626,7 @@ namespace OverflowHelper.core
             correctionAdd("happenening", "happening");
             correctionAdd("hapenning", "happening");
             correctionAdd("happing", "happening");
+            correctionAdd("happning", "happening");
 
             correctionAdd("helpt", "helped");
             correctionAdd("halped", "helped");
@@ -31154,8 +31156,6 @@ namespace OverflowHelper.core
             correctionAdd("problemantic", "problematic");
 
             correctionAdd("white board", "whiteboard");
-
-            correctionAdd("misinterpeted", "misinterpreted");
 
             correctionAdd("resuts", "results");
 
@@ -32923,8 +32923,6 @@ namespace OverflowHelper.core
             correctionAdd("phpcli", "PHP CLI");
 
             correctionAdd("Server Application Programming Interface", "SAPI");
-
-            correctionAdd("sun microsystems", "Sun Microsystems");
 
             correctionAdd("BUS error", "bus error");
 
@@ -37660,6 +37658,7 @@ namespace OverflowHelper.core
             correctionAdd("adminstration", "administration");
 
             correctionAdd("capitaliation", "capitalisation");
+            correctionAdd("capatalisation", "capitalisation");
 
             correctionAdd("In Dubio Pro Reo", "in dubio pro reo");
 
@@ -37879,6 +37878,8 @@ namespace OverflowHelper.core
             correctionAdd("Psychic debugging", "psychic debugging");
 
             correctionAdd("inconditionally", "unconditionally");
+            correctionAdd("Unconditionnaly", "unconditionally");
+            correctionAdd("unconditionnaly", "unconditionally");
 
             correctionAdd("Ucraine", "Ukraine");
 
@@ -39383,6 +39384,21 @@ namespace OverflowHelper.core
             correctionAdd("Re-Branch", "rebranch");
 
             correctionAdd("Wipe", "wipe");
+
+            correctionAdd("HD2", "HTC HD2");
+
+            correctionAdd("nltk", "Natural Language Toolkit");
+            correctionAdd("NLTK", "Natural Language Toolkit");
+
+            correctionAdd("corect", "correct");
+
+            correctionAdd("dealocation", "deallocation");
+
+            correctionAdd("maintaing", "maintaining");
+
+            correctionAdd("setable", "settable");
+
+            correctionAdd("slowes", "slows");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -42554,8 +42570,6 @@ namespace OverflowHelper.core
             URL_Add("Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)", "https://en.wikipedia.org/wiki/OS_X_Yosemite");
 
             URL_Add("Scilab", "https://en.wikipedia.org/wiki/Scilab");
-
-            URL_Add("mathematics", "https://en.wikipedia.org/wiki/Mathematics");
 
             URL_Add("Task Scheduler", "https://en.wikipedia.org/wiki/Windows_Task_Scheduler");
 
@@ -56548,8 +56562,6 @@ namespace OverflowHelper.core
 
             URL_Add("SAPI", "https://en.wikipedia.org/wiki/Server_Application_Programming_Interface");
 
-            URL_Add("Sun Microsystems", "https://en.wikipedia.org/wiki/Sun_Microsystems");
-
             URL_Add("bus error", "https://en.wikipedia.org/wiki/Bus_error");
 
             URL_Add("carefully", "https://en.wiktionary.org/wiki/carefully#Adverb");
@@ -61992,6 +62004,20 @@ namespace OverflowHelper.core
 
             URL_Add("wipe", "https://en.wiktionary.org/wiki/wipe#Verb");
 
+            URL_Add("HTC HD2", "https://en.wikipedia.org/wiki/HTC_HD2");
+
+            URL_Add("Natural Language Toolkit", "https://en.wikipedia.org/wiki/Natural_Language_Toolkit");
+
+            URL_Add("correct", "https://en.wiktionary.org/wiki/correct#Adjective");
+
+            URL_Add("deallocation", "https://en.wiktionary.org/wiki/deallocation#Noun");
+
+            URL_Add("maintaining", "https://en.wiktionary.org/wiki/maintain#Verb");
+
+            URL_Add("settable", "https://en.wiktionary.org/wiki/settable#Adjective");
+
+            URL_Add("slows", "https://en.wiktionary.org/wiki/slow#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62592,11 +62618,24 @@ namespace OverflowHelper.core
 
             correctionAdd("BOM_", "bill of material_");
 
-            correctionAdd("Sun_", "Sun Microsystems_");
-
             correctionAdd("Astronomy_", "astronomy_");
 
             correctionAdd("Mathematics_", "mathematics_");
+            correctionAdd("maths_", "mathematics_");
+            correctionAdd("math_", "mathematics_");
+            correctionAdd("Mathmatics_", "mathematics_");
+            correctionAdd("mathmatics_", "mathematics_");
+            correctionAdd("Mathemetics_", "mathematics_");
+
+            correctionAdd("Sun_", "Sun Microsystems_");
+            correctionAdd("sun microsystems_", "Sun Microsystems_");
+
+            correctionAdd("ADT_", "abstract data type_");
+            correctionAdd("adt_", "abstract data type_");
+
+            correctionAdd("AU_", "au_");
+
+            correctionAdd("code-golf_", "code golf_");
 
             // URL mappings
             //
@@ -62959,11 +62998,17 @@ namespace OverflowHelper.core
 
             URL_Add("bill of material_", "https://en.wikipedia.org/wiki/Bill_of_materials");
 
-            URL_Add("Sun Microsystems_", "https://en.wikipedia.org/wiki/Sun_Microsystems");
-
             URL_Add("astronomy_", "https://en.wikipedia.org/wiki/Astronomy");
 
             URL_Add("mathematics_", "https://en.wikipedia.org/wiki/Mathematics");
+
+            URL_Add("Sun Microsystems_", "https://en.wikipedia.org/wiki/Sun_Microsystems");
+
+            URL_Add("abstract data type_", "https://en.wikipedia.org/wiki/Abstract_data_type");
+
+            URL_Add("au_", "https://en.wikipedia.org/wiki/Astronomical_unit");
+
+            URL_Add("code golf_", "https://en.wiktionary.org/wiki/code_golf#Noun");
 
         } //addLookupData_alternativeWordSet()
 
