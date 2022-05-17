@@ -2127,6 +2127,7 @@ namespace OverflowHelper.core
             correctionAdd("interwebs", "Internet");
             correctionAdd("internext", "Internet");
             correctionAdd("interned", "Internet");
+            correctionAdd("InterToobs", "Internet");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -2590,6 +2591,7 @@ namespace OverflowHelper.core
             correctionAdd("Role-playing Games", "Role-playing Games (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
+            correctionAdd("ASE", "Astronomy (Stack Exchange site)");
 
             correctionAdd("Bible hermeneutics", "Biblical Hermeneutics (Stack Exchange site)");
             correctionAdd("Biblical Hermeneutics", "Biblical Hermeneutics (Stack Exchange site)"); // Sort of identity mapping
@@ -2847,6 +2849,9 @@ namespace OverflowHelper.core
             correctionAdd("experince", "experience");
             correctionAdd("expirians", "experience");
             correctionAdd("exparience", "experience");
+            correctionAdd("expericence", "experience");
+            correctionAdd("expericense", "experience");
+            //(Note: in existing group, "experience")
             //correctionAdd("exp.", "experience");
 
             correctionAdd("expirienced", "experienced");
@@ -6756,6 +6761,7 @@ namespace OverflowHelper.core
 
             correctionAdd("UX", "user experience"); // Expansion.
             correctionAdd("ux", "user experience"); // Expansion.
+            correctionAdd("User Experience", "user experience");
 
             correctionAdd("sqlalchemy", "SQLAlchemy");
             correctionAdd("Sqlalchemy", "SQLAlchemy");
@@ -9279,6 +9285,7 @@ namespace OverflowHelper.core
             correctionAdd("privilages", "privilege");
             correctionAdd("privileges", "privilege");
             correctionAdd("provilege", "privilege");
+            correctionAdd("privelige", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -12597,6 +12604,7 @@ namespace OverflowHelper.core
             correctionAdd("php storm", "PhpStorm");
             correctionAdd("Phpstorm", "PhpStorm");
             correctionAdd("Php Storm", "PhpStorm");
+            correctionAdd("PhPStorm", "PhpStorm");
 
             correctionAdd("perf", "performance");
             correctionAdd("preformance", "performance");
@@ -14434,6 +14442,7 @@ namespace OverflowHelper.core
             correctionAdd("thiere", "their");
             correctionAdd("thei", "their");
             correctionAdd("theri", "their"); // A true typo
+            correctionAdd("theIr", "their");
 
             correctionAdd("docker hub", "Docker Hub");
             correctionAdd("DockerHub", "Docker Hub");
@@ -18764,6 +18773,8 @@ namespace OverflowHelper.core
             correctionAdd("agein", "again");
             correctionAdd("againg", "again");
             correctionAdd("againa", "again");
+            correctionAdd("Agajn", "again");
+            correctionAdd("agajn", "again");
 
             correctionAdd("Baud", "baud");
 
@@ -21346,6 +21357,8 @@ namespace OverflowHelper.core
             correctionAdd("Kief", "Kiev");
 
             correctionAdd("uncle bob", "Uncle Bob");
+            correctionAdd("Robert C Martin", "Uncle Bob");
+            correctionAdd("Robert C. Martin", "Uncle Bob");
 
             correctionAdd("critisising", "criticising");
             correctionAdd("critising", "criticising");
@@ -21860,6 +21873,7 @@ namespace OverflowHelper.core
             correctionAdd("rider", "Rider");
             correctionAdd("RIDER IDE", "Rider");
             correctionAdd("RIDER", "Rider");
+            correctionAdd("Ryder", "Rider");
 
             correctionAdd("Steve Balmer", "Steve Ballmer");
             correctionAdd("ballmer", "Steve Ballmer");
@@ -24686,6 +24700,7 @@ namespace OverflowHelper.core
             correctionAdd("UpperCamelCase", "upper camel case");
 
             correctionAdd("CamelCase", "camel case");
+            correctionAdd("camelCase", "camel case");
 
             correctionAdd("toLowerCase()", "toLowerCase");
             correctionAdd("tolowercase", "toLowerCase");
@@ -27491,6 +27506,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sayed", "said");
             correctionAdd("saids", "said");
+            correctionAdd("sayd", "said");
 
             correctionAdd("allowes", "allows");
 
@@ -28582,6 +28598,8 @@ namespace OverflowHelper.core
             correctionAdd("PEP 0008", "PEP&nbsp;8");
 
             correctionAdd("conventition", "convention");
+            correctionAdd("Convetion", "convention");
+            correctionAdd("convetion", "convention");
 
             correctionAdd("civider", "divider");
 
@@ -34477,6 +34495,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Etcher", "balenaEtcher");
             correctionAdd("Balena Etcher", "balenaEtcher");
+            correctionAdd("balena", "balenaEtcher");
+            correctionAdd("Balena", "balenaEtcher");
+            correctionAdd("Balena etcher", "balenaEtcher");
 
             correctionAdd("mentions", "mention's");
 
@@ -39399,6 +39420,47 @@ namespace OverflowHelper.core
             correctionAdd("setable", "settable");
 
             correctionAdd("slowes", "slows");
+
+            correctionAdd("Clean code", "Clean Code");
+
+            correctionAdd("expo", "Expo");
+
+            correctionAdd("Jcreator lite", "JCreator Lite Edition (LE)");
+
+            correctionAdd("Nativescript", "NativeScript");
+
+            correctionAdd("Plastic", "Plastic SCM");
+            correctionAdd("plasticscm", "Plastic SCM");
+            correctionAdd("plastic scm", "Plastic SCM");
+
+            correctionAdd("Reading", "Reading, Berkshire");
+
+            correctionAdd("Skia Graphics Engine", "Skia");
+            correctionAdd("Google skia", "Skia");
+            correctionAdd("skia", "Skia");
+
+            correctionAdd("Tauri", "Tauri Studio");
+            correctionAdd("tauri", "Tauri Studio");
+
+            correctionAdd("TOEFL", "Test of English as a Foreign Language");
+
+            correctionAdd("Workplace", "The Workplace (Stack Exchange site)");
+            correctionAdd("The Workplace", "The Workplace (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("TWP", "The Workplace (Stack Exchange site)");
+
+            correctionAdd("double-precision floating point", "double-precision floating-point format");
+
+            correctionAdd("duping", "duplicating");
+
+            correctionAdd("hall-way usability testing", "hallway usability testing");
+
+            correctionAdd("he-he", "hehe");
+
+            correctionAdd("Marketing", "marketing");
+
+            correctionAdd("Naming Convention", "naming convention");
+
+            correctionAdd("uncritical", "noncritical");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62018,6 +62080,40 @@ namespace OverflowHelper.core
 
             URL_Add("slows", "https://en.wiktionary.org/wiki/slow#Verb");
 
+            URL_Add("Clean Code", "https://en.wikipedia.org/wiki/Robert_C._Martin#Publications");
+
+            URL_Add("Expo", "https://github.com/expo/expo");
+
+            URL_Add("JCreator Lite Edition (LE)", "https://en.wikipedia.org/wiki/JCreator");
+
+            URL_Add("NativeScript", "https://en.wikipedia.org/wiki/NativeScript");
+
+            URL_Add("Plastic SCM", "https://en.wikipedia.org/wiki/Plastic_SCM");
+
+            URL_Add("Reading, Berkshire", "https://en.wikipedia.org/wiki/Reading%2C_Berkshire");
+
+            URL_Add("Skia", "https://en.wikipedia.org/wiki/Skia_Graphics_Engine");
+
+            URL_Add("Tauri Studio", "https://tauri.studio/v1/about/intro/");
+
+            URL_Add("Test of English as a Foreign Language", "https://en.wikipedia.org/wiki/Test_of_English_as_a_Foreign_Language");
+
+            URL_Add("The Workplace (Stack Exchange site)", "https://workplace.stackexchange.com/tour");
+
+            URL_Add("double-precision floating-point format", "https://en.wikipedia.org/wiki/Double-precision_floating-point_format");
+
+            URL_Add("duplicating", "https://en.wiktionary.org/wiki/duplicate#Verb");
+
+            URL_Add("hallway usability testing", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
+
+            URL_Add("hehe", "https://en.wiktionary.org/wiki/hehe#Interjection");
+
+            URL_Add("marketing", "https://en.wiktionary.org/wiki/marketing#Noun");
+
+            URL_Add("naming convention", "https://en.wikipedia.org/wiki/Naming_convention_(programming)");
+
+            URL_Add("noncritical", "https://en.wiktionary.org/wiki/noncritical#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62637,6 +62733,9 @@ namespace OverflowHelper.core
 
             correctionAdd("code-golf_", "code golf_");
 
+            correctionAdd("French Language_", "French Language (Stack Exchange site)_");
+            correctionAdd("French_", "French Language (Stack Exchange site)_");
+
             // URL mappings
             //
             //
@@ -63009,6 +63108,8 @@ namespace OverflowHelper.core
             URL_Add("au_", "https://en.wikipedia.org/wiki/Astronomical_unit");
 
             URL_Add("code golf_", "https://en.wiktionary.org/wiki/code_golf#Noun");
+
+            URL_Add("French Language (Stack Exchange site)_", "https://french.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
