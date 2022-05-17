@@ -98,6 +98,10 @@
 #      correct operation of it (e.g., iterative running of it
 #      until its output is empty) is checked.
 #
+#   4. Add a check to see if the PHP files on hosting are identical
+#      to the current PHP files (for informational purposes only -
+#      but guiding any manual deployment steps (to production)).
+#
 
 
 # Markers for navigation:
@@ -1440,7 +1444,8 @@ function wordListExport()
 
     #pwd
     #echo "Standard error file: ${STDERR_FILE}"
-    echo "Standard error file: `pwd`/${STDERR_FILE}"
+    echo
+    echo "To output standard error file: cat `pwd`/${STDERR_FILE}"
 
     # For debugging exit code:
     #
@@ -1463,6 +1468,12 @@ function wordListExport()
     #
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
     time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    
+    # Note: Because we immediately check for the exit code (and
+    #       exit the entire build script if it is not 0), we
+    #       will never get here in case of an error, e.g. 
+    #       to output the content of ${STDERR_FILE}...
+
 
     #But do we actually need to use evaluateBuildResult() the second time?
     #Could it in fact allow us to allow Edit Overflow to return nothing
@@ -2488,7 +2499,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   3380000 3710000
+wordListExport 33 "HTML"  $HTML_FILE   3450000 3790000
 
 #exit
 
@@ -2526,7 +2537,7 @@ rm $JAVASCRIPT_FILE
 #       2022-01-25: 2512025 bytes
 #
 # Note: The same build number
-wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2560000 2820000
+wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2610000 2880000
 
 #exit
 
