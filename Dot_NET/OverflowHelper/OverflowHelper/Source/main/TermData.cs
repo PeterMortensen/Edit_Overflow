@@ -8572,6 +8572,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Find", "find");
             correctionAdd("fine", "find"); // True typo...
+            correctionAdd("FIND", "find");
 
             correctionAdd("Qmake", "qmake");
             correctionAdd("QMake", "qmake");
@@ -10002,6 +10003,7 @@ namespace OverflowHelper.core
             correctionAdd("Com Port", "COM port");
             correctionAdd("COM Port", "COM port");
             correctionAdd("COMM port", "COM port");
+            correctionAdd("comport", "COM port");
 
             correctionAdd("Netbios", "NetBIOS");
             correctionAdd("NetBios", "NetBIOS");
@@ -17728,6 +17730,8 @@ namespace OverflowHelper.core
             correctionAdd("Material ui", "MUI");
             correctionAdd("Material Ui", "MUI");
             correctionAdd("Material-UI", "MUI");
+            correctionAdd("Mui", "MUI");
+            correctionAdd("mui", "MUI");
 
             correctionAdd("Technet", "TechNet");
             correctionAdd("technet", "TechNet");
@@ -20963,6 +20967,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thoughout", "throughout");
             correctionAdd("through out", "throughout");
+            correctionAdd("through-out", "throughout");
 
             correctionAdd("atlas V", "Atlas V");
 
@@ -23215,6 +23220,7 @@ namespace OverflowHelper.core
             correctionAdd("ht", "the");
             correctionAdd("th", "the");
             correctionAdd("thae", "the");
+            correctionAdd("THe", "the");
 
             correctionAdd("vaild", "valid"); // True typo
             correctionAdd("vaiid", "valid");
@@ -23689,6 +23695,7 @@ namespace OverflowHelper.core
             correctionAdd("assocation", "association");
 
             correctionAdd("instanciating", "instantiating");
+            correctionAdd("instancing", "instantiating");
 
             correctionAdd("mows", "moves");
 
@@ -39483,6 +39490,7 @@ namespace OverflowHelper.core
             correctionAdd("Marketing", "marketing");
 
             correctionAdd("Naming Convention", "naming convention");
+            correctionAdd("naming-convention", "naming convention");
 
             correctionAdd("uncritical", "noncritical");
 
@@ -39508,6 +39516,16 @@ namespace OverflowHelper.core
             correctionAdd("title casing", "titlecasing");
 
             correctionAdd("yeild", "yield");
+
+            correctionAdd("egyptian", "Egyptian");
+
+            correctionAdd("accpetance", "acceptance");
+
+            correctionAdd("bentch", "bentsh");
+
+            correctionAdd("mest", "mesh");
+
+            correctionAdd("on same page", "on the same page");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62180,6 +62198,16 @@ namespace OverflowHelper.core
             URL_Add("titlecasing", "https://en.wiktionary.org/wiki/titlecase#Verb");
 
             URL_Add("yield", "https://en.wiktionary.org/wiki/yield#Verb");
+
+            URL_Add("Egyptian", "https://en.wiktionary.org/wiki/Egyptian#Adjective");
+
+            URL_Add("acceptance", "https://en.wiktionary.org/wiki/acceptance#Noun");
+
+            URL_Add("bentsh", "https://en.wiktionary.org/wiki/bentsh#Verb");
+
+            URL_Add("mesh", "https://en.wiktionary.org/wiki/mesh#Noun");
+
+            URL_Add("on the same page", "https://en.wiktionary.org/wiki/on_the_same_page#Prepositional_phrase");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
