@@ -2498,6 +2498,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Game development", "Game Development (Stack Exchange site)");
             correctionAdd("Game Development", "Game Development (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("game dev", "Game Development (Stack Exchange site)");
 
             correctionAdd("skeptics", "Skeptics (Stack Exchange site)");
             correctionAdd("Skeptics", "Skeptics (Stack Exchange site)");
@@ -4608,6 +4609,7 @@ namespace OverflowHelper.core
 
             correctionAdd("haskell", "Haskell");
             correctionAdd("Haskall", "Haskell");
+            correctionAdd("HASKELL", "Haskell");
 
             correctionAdd("playstation 3", "PlayStation 3");
             correctionAdd("Playstation 3", "PlayStation 3");
@@ -5861,6 +5863,11 @@ namespace OverflowHelper.core
 
             correctionAdd("DELPHI", "Delphi");
             correctionAdd("delphi", "Delphi");
+
+            correctionAdd("delhi", "Delhi");
+
+            correctionAdd("Hi", "hi");
+            correctionAdd("Hy", "hi");
 
             correctionAdd("Pdf", "PDF");
             correctionAdd("pdf", "PDF");
@@ -11994,6 +12001,7 @@ namespace OverflowHelper.core
             correctionAdd("obiously", "obviously");
             correctionAdd("obviouslt", "obviously");
             correctionAdd("obvioulsy", "obviously");
+            correctionAdd("obivously", "obviously");
 
             correctionAdd("VisualSvn", "VisualSVN");
 
@@ -15161,8 +15169,6 @@ namespace OverflowHelper.core
             correctionAdd("ATMega", "ATmega");
             correctionAdd("ATMEGA", "ATmega");
             correctionAdd("Atmega", "ATmega");
-
-            correctionAdd("delhi", "Delhi");
 
             correctionAdd("electron", "Electron");
             correctionAdd("electronjs", "Electron");
@@ -23133,6 +23139,7 @@ namespace OverflowHelper.core
             correctionAdd("nieve", "naive");
             correctionAdd("naeve", "naive");
             correctionAdd("naïve", "naive");
+            correctionAdd("näive", "naive");
 
             correctionAdd("preservce", "preserve");
 
@@ -24766,6 +24773,7 @@ namespace OverflowHelper.core
             correctionAdd("Tenure-Track", "tenure-track");
 
             correctionAdd("World", "world");
+            correctionAdd("qorld", "world");
 
             correctionAdd("youd", "you'd");
 
@@ -29911,6 +29919,8 @@ namespace OverflowHelper.core
             correctionAdd("que", "queue");
             correctionAdd("ques", "queue");
             correctionAdd("queues", "queue");
+            correctionAdd("Queque", "queue");
+            correctionAdd("queque", "queue");
 
             correctionAdd("scenerio", "scenario");
             correctionAdd("Scanario", "scenario");
@@ -39526,6 +39536,29 @@ namespace OverflowHelper.core
             correctionAdd("mest", "mesh");
 
             correctionAdd("on same page", "on the same page");
+
+            correctionAdd("Azure blob", "Azure Blob Storage");
+
+            correctionAdd("magnification API", "Magnification API");
+
+            correctionAdd("cross validation", "cross-validation");
+
+            correctionAdd("dowwn", "down");
+
+            correctionAdd("hyper parameter", "hyperparameter");
+
+            correctionAdd("K-fold cross-validation", "k-fold cross-validation");
+
+            correctionAdd("beknown", "known");
+
+            correctionAdd("test set", "test data set");
+
+            correctionAdd("training set", "training data set");
+            correctionAdd("train set", "training data set");
+
+            correctionAdd("world-known", "world-famous");
+            correctionAdd("qorld-beknown", "world-famous");
+            correctionAdd("world-beknown", "world-famous");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62209,6 +62242,28 @@ namespace OverflowHelper.core
 
             URL_Add("on the same page", "https://en.wiktionary.org/wiki/on_the_same_page#Prepositional_phrase");
 
+            URL_Add("Azure Blob Storage", "https://azure.microsoft.com/en-us/services/storage/blobs/");
+
+            URL_Add("Magnification API", "https://docs.microsoft.com/en-us/previous-versions/windows/desktop/magapi/magapi-intro");
+
+            URL_Add("cross-validation", "https://en.wikipedia.org/wiki/Cross-validation_(statistics)");
+
+            URL_Add("down", "https://en.wiktionary.org/wiki/down#Preposition");
+
+            URL_Add("hi", "https://en.wiktionary.org/wiki/hi#Interjection");
+
+            URL_Add("hyperparameter", "https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)");
+
+            URL_Add("k-fold cross-validation", "https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation");
+
+            URL_Add("known", "https://en.wiktionary.org/wiki/known#Adjective");
+
+            URL_Add("test data set", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("training data set", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("world-famous", "https://en.wiktionary.org/wiki/world-famous#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62831,6 +62886,10 @@ namespace OverflowHelper.core
             correctionAdd("French Language_", "French Language (Stack Exchange site)_");
             correctionAdd("French_", "French Language (Stack Exchange site)_");
 
+            correctionAdd("EQ_", "EverQuest_");
+
+            correctionAdd("pic_", "picture_");
+
             // URL mappings
             //
             //
@@ -63205,6 +63264,10 @@ namespace OverflowHelper.core
             URL_Add("code golf_", "https://en.wiktionary.org/wiki/code_golf#Noun");
 
             URL_Add("French Language (Stack Exchange site)_", "https://french.stackexchange.com/tour");
+
+            URL_Add("EverQuest_", "https://en.wikipedia.org/wiki/EverQuest");
+
+            URL_Add("picture_", "https://en.wiktionary.org/wiki/picture#Noun");
 
         } //addLookupData_alternativeWordSet()
 
