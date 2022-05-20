@@ -188,6 +188,23 @@
                 />
             </p>
 
+            <p><u>T</u>ext
+                (code, error messages, configuration files,
+                sample input, sample output, etc.)
+                should be copy-pasted, not
+                provided as an image.<br/>
+
+                <input
+                    name="X35"
+                    type="text"
+                    id="X35"
+                    class="X35"
+                    value="Please review *[Should we edit a question to transcribe code from an image to text?](https://meta.stackoverflow.com/questions/415040)* and *[Why not upload images of code/errors when asking a question?](https://meta.stackoverflow.com/questions/285551/)* (e.g., *&quot;Images should only be used to illustrate problems that* ***can't be made clear in any other way,*** *such as to provide screenshots of a user interface.&quot;*) and take the appropriate [action](XXXXXXXXXXX) (it covers answers as well). Thanks in advance."
+                    style="width:830px;"
+                    accesskey="T"
+                    title="Shortcut: Shift + Alt + T"
+                />
+            </p>
 
             <!-- Template
             <p>Some text with <u>Z</u>s <br/>

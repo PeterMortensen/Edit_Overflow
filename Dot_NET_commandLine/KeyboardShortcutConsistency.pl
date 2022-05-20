@@ -63,6 +63,9 @@
 #                          shortcuts (and if the indication                 #
 #                          exists at all).                                  #
 #                                                                           #
+#             2022-05-20   Added check of escape of double                  #
+#                          quote in HTML form elements.                     #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -271,6 +274,29 @@ if ($proceedWithMainProcessing)
             $errors++; # Some redundancy here...
         }
 
+        # Check for escape of double
+        # quotes in HTML form elements.
+        #
+        if (/value=\"/ || 0) # Guard for HTML form text input fields.
+                             # But we could just use the unconditional
+                             # rudimentary check on every line.
+        {
+            # Rudimentary check: 3 or more double quotes on
+            # the physical line in the HTML / PHP file.
+            #
+            if (/\".*\".*\"/)
+            {
+                print
+                  "\nA double quote was not properly escaped " .
+                  "as \"&quot;\". " .
+                  "On line $line\n\n";
+
+                $exitCode = 11;
+                $errors++; # Some redundancy here...
+            }
+        }
+
+
         if (/name=\"(.*)\"/) # 'name' form element attribute (presumably)
         {
             $name = $1;
@@ -371,10 +397,10 @@ if ($proceedWithMainProcessing)
                     $errors++; # Some redundancy here...
                 }
 
-                # Disallow keyboard shortcuts on single-letter 
+                # Disallow keyboard shortcuts on single-letter
                 # words (at least for now).
                 #
-                if (/ <u>([a-zA-Z])<\/u> /) 
+                if (/ <u>([a-zA-Z])<\/u> /)
                 {
                     print
                       "\nThe *indicated* keyboard shortcut is for " .
@@ -429,8 +455,8 @@ if ($proceedWithMainProcessing)
                     # To keep it on one line in a terminal
                     my $limitedOutput = substr($value, 0, 95);
 
-                    # Esacpe "%" for printf (by a "%"). Note that we get
-                    # a double "%" if we use normal print...
+                    # Escape "%" for printf (by a "%"). Note that we
+                    # get a double "%" if we use normal print...
                     $limitedOutput =~ s/\%/\%\%/g;
 
                     printf
@@ -509,9 +535,9 @@ if ($proceedWithMainProcessing)
                         # main Edit Overflow lookup page
                         if (
                              # Outside because <label> is ***after***
-                             # a HTML form checkbox - thus we can 
+                             # a HTML form checkbox - thus we can
                              # not use the guard...
-                             (                             
+                             (
                                  ($name ne "resetState") &&
 
                                  (! ($hrefAttribute =~ /validator.w3.org/ )) &&
@@ -520,25 +546,25 @@ if ($proceedWithMainProcessing)
                                  (! ($name =~ /someAction/ )) &&
                                  1
 
-                             ) &&    
-                             
-                             (                             
+                             ) &&
+
+                             (
                                  # Guard - the exceptions are ***only***
                                  # for HTML form label text
                                  ($formLabelText eq $kValuePreset) ||
-                                 
+
                                  # List of exceptions
                                  ! (
                                        # Effectively empty text
                                        ($formLabelText eq "<b></b>") ||
-                                 
+
                                        # Dynamically generated (but the text,
                                        # "URL" does not contain the current
                                        # shortcut letter ("E")). And it is
                                        # a link anyway, so it would be
                                        # invisible..
                                        ($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?>') ||
-                                 
+
                                        # Presuming it is for the form submit...
                                        #
                                        # It would be more robust if we checked
@@ -549,11 +575,11 @@ if ($proceedWithMainProcessing)
                                        # of elements ("text" and "checkbox").
                                        #
                                        ($value eq "Look up") || # For the main lookup page
-                                       
+
                                        ($value eq "Generate") || # For the link builder page
-                                 
+
                                        0
-                                 )  
+                                 )
                              )
                            )
                         {
@@ -591,9 +617,9 @@ if ($proceedWithMainProcessing)
             $value = $kValuePreset;
             $indicatedKeyboardShortcut = $kValuePreset;
             $formLabelText             = $kValuePreset;
-            
+
             # Crucial! - otherwise false negatives for some of our tests
-            $hrefAttribute             = $kValuePreset; 
+            $hrefAttribute             = $kValuePreset;
 
         } #Line with "title="
 
@@ -633,7 +659,8 @@ if ($proceedWithMainProcessing)
                       "\n\nOn line $line: Non-unique field value that is also " .
                       "at line $prevLineNumber. Field name \"$someFieldName\". " .
                       "Value: \"$fieldValue\"\n\n\n";
-                    die;
+
+                    die; #Shouldn't we use an exit code instead?
                 }
                 $uniqueFields{$someFieldName}->{$fieldValue} = $line;
 
