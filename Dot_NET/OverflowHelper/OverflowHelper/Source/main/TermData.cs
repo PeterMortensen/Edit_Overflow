@@ -807,6 +807,7 @@ namespace OverflowHelper.core
 
             correctionAdd("scropt", "script");
             correctionAdd("scrip", "script");
+            correctionAdd("Script", "script");
 
             correctionAdd("GAS", "Google Apps Script");
             correctionAdd("appScript", "Google Apps Script");
@@ -7495,6 +7496,7 @@ namespace OverflowHelper.core
             correctionAdd("I 'm", "I’m");
             correctionAdd("II'm", "I’m");
             correctionAdd("I'M", "I’m");
+            correctionAdd("i'n", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -8243,6 +8245,7 @@ namespace OverflowHelper.core
 
             correctionAdd("isp", "ISP");
             correctionAdd("Internet Service Provider", "ISP");
+            correctionAdd("Internet service provider", "ISP");
 
             correctionAdd("KATE", "Kate");
             correctionAdd("kate", "Kate");
@@ -13846,6 +13849,7 @@ namespace OverflowHelper.core
             correctionAdd("Schmitt Trigger", "Schmitt trigger");
             correctionAdd("schmitd trigger", "Schmitt trigger");
             correctionAdd("schmidt trigger", "Schmitt trigger");
+            correctionAdd("schmnitt trigger", "Schmitt trigger");
 
             correctionAdd("swedish", "Swedish");
 
@@ -16936,6 +16940,7 @@ namespace OverflowHelper.core
             correctionAdd("domain driven development", "domain-driven design");
 
             correctionAdd("hive", "Apache Hive");
+            correctionAdd("Hive", "Apache Hive");
 
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
@@ -18248,6 +18253,8 @@ namespace OverflowHelper.core
             correctionAdd("escapce", "escape");
             correctionAdd("Escape", "escape");
             correctionAdd("esapce", "escape");
+            correctionAdd("Esacpe", "escape");
+            correctionAdd("esacpe", "escape");
 
             correctionAdd("GLIBC", "glibc");
 
@@ -24764,6 +24771,7 @@ namespace OverflowHelper.core
             correctionAdd("For intstance", "for instance");
             correctionAdd("for instacnce", "for instance");
             correctionAdd("for instanc", "for instance");
+            correctionAdd("for intance", "for instance");
 
             correctionAdd("rgeular", "regular");
             correctionAdd("regullar", "regular");
@@ -27335,6 +27343,8 @@ namespace OverflowHelper.core
 
             correctionAdd("toc", "TOC");
             correctionAdd("ToC", "TOC");
+            correctionAdd("table of contens", "TOC");
+            correctionAdd("table of contents", "TOC");
 
             correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
             correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
@@ -32460,6 +32470,7 @@ namespace OverflowHelper.core
             correctionAdd("daily Scrum", "daily scrum");
 
             correctionAdd("decmial", "decimal");
+            correctionAdd("dec", "decimal");
 
             correctionAdd("enlightment", "enlightenment");
 
@@ -39559,6 +39570,33 @@ namespace OverflowHelper.core
             correctionAdd("world-known", "world-famous");
             correctionAdd("qorld-beknown", "world-famous");
             correctionAdd("world-beknown", "world-famous");
+
+            correctionAdd("ovh", "OVH");
+
+            correctionAdd("OvhCloud", "OVHcloud");
+
+            correctionAdd("Rick rolling", "Rickrolling");
+            correctionAdd("rickrolling", "Rickrolling");
+            correctionAdd("rick rolling", "Rickrolling");
+
+            correctionAdd("visio", "Visio");
+
+            correctionAdd("WinUsb", "WinUSB");
+
+            correctionAdd("WPD", "Windows Portable Devices");
+
+            correctionAdd("contens", "contents");
+
+            correctionAdd("Distinct", "distinct");
+
+            correctionAdd("do to", "due to");
+            correctionAdd("Do to", "due to");
+
+            correctionAdd("short sited", "short-sighted");
+
+            correctionAdd("slowlier", "slower");
+
+            correctionAdd("Static Code Analysis", "static code analysis");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62264,6 +62302,30 @@ namespace OverflowHelper.core
 
             URL_Add("world-famous", "https://en.wiktionary.org/wiki/world-famous#Adjective");
 
+            URL_Add("OVH", "https://en.wikipedia.org/wiki/OVHcloud");
+
+            URL_Add("OVHcloud", "https://en.wikipedia.org/wiki/OVHcloud");
+
+            URL_Add("Rickrolling", "https://en.wikipedia.org/wiki/Rickrolling");
+
+            URL_Add("Visio", "https://en.wikipedia.org/wiki/Microsoft_Visio");
+
+            URL_Add("WinUSB", "https://en.wikipedia.org/wiki/WinUSB");
+
+            URL_Add("Windows Portable Devices", "https://docs.microsoft.com/en-us/windows/win32/windows-portable-devices");
+
+            URL_Add("contents", "https://en.wiktionary.org/wiki/contents#Noun_2");
+
+            URL_Add("distinct", "https://en.wiktionary.org/wiki/distinct#Adjective");
+
+            URL_Add("due to", "https://en.wiktionary.org/wiki/due_to#Preposition");
+
+            URL_Add("short-sighted", "https://en.wiktionary.org/wiki/short-sighted#Adjective");
+
+            URL_Add("slower", "https://en.wiktionary.org/wiki/slower#Adjective");
+
+            URL_Add("static code analysis", "https://en.wikipedia.org/wiki/Static_program_analysis");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62890,6 +62952,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pic_", "picture_");
 
+            correctionAdd("Fortify_", "HP Fortify_");
+
             // URL mappings
             //
             //
@@ -63268,6 +63332,8 @@ namespace OverflowHelper.core
             URL_Add("EverQuest_", "https://en.wikipedia.org/wiki/EverQuest");
 
             URL_Add("picture_", "https://en.wiktionary.org/wiki/picture#Noun");
+
+            URL_Add("HP Fortify_", "https://en.wikipedia.org/wiki/HP_Enterprise_Security_Products#Products");
 
         } //addLookupData_alternativeWordSet()
 
