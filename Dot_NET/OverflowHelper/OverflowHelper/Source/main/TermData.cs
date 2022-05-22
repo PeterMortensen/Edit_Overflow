@@ -2514,6 +2514,7 @@ namespace OverflowHelper.core
             correctionAdd("wordbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("WorldBuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("Worldbuilding.SE", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("Wordbuilding", "Worldbuilding (Stack Exchange site)");
 
             correctionAdd("signal processing", "Signal Processing (Stack Exchange site)");
             correctionAdd("Signal Processing", "Signal Processing (Stack Exchange site)"); // Sort of identity mapping
@@ -4589,6 +4590,7 @@ namespace OverflowHelper.core
             correctionAdd("С sharp", "C#");
             correctionAdd("С Sharp", "C#");
             correctionAdd("c #", "C#");
+            correctionAdd("C♯", "C#");
 
             correctionAdd("sql", "SQL");
             correctionAdd("Sql", "SQL");
@@ -16639,6 +16641,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recipint", "recipient");
             correctionAdd("receipent", "recipient");
+            correctionAdd("recepient", "recipient");
 
             correctionAdd("requirment", "requirement");
             correctionAdd("requriement", "requirement");
@@ -18092,6 +18095,7 @@ namespace OverflowHelper.core
             correctionAdd("highligthting", "highlighting");
             correctionAdd("highlighitng", "highlighting");
             correctionAdd("high-lighting", "highlighting");
+            correctionAdd("highlihting", "highlighting");
 
             correctionAdd("misterious", "mysterious");
 
@@ -29849,6 +29853,7 @@ namespace OverflowHelper.core
             correctionAdd("hav", "have");
             correctionAdd("gave", "have");
             correctionAdd("ahev", "have");
+            correctionAdd("habe", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -31968,6 +31973,7 @@ namespace OverflowHelper.core
             correctionAdd("nxp", "NXP");
 
             correctionAdd("nan", "NaN");
+            correctionAdd("Nan", "NaN");
 
             correctionAdd("Sri lanka", "Sri Lanka");
             correctionAdd("Srilanka", "Sri Lanka");
@@ -35243,6 +35249,7 @@ namespace OverflowHelper.core
             correctionAdd("W3C Validation", "W3C validator");
             correctionAdd("W3C validation", "W3C validator");
             correctionAdd("w3c validator", "W3C validator");
+            correctionAdd("HTML validator", "W3C validator");
 
             correctionAdd("coaxial cable", "coax");
             correctionAdd("co-ax", "coax");
@@ -39597,6 +39604,30 @@ namespace OverflowHelper.core
             correctionAdd("slowlier", "slower");
 
             correctionAdd("Static Code Analysis", "static code analysis");
+
+            correctionAdd("ariya hidayat", "Ariya Hidayat");
+
+            correctionAdd("dlyb", "DYLIB");
+            correctionAdd("dylib", "DYLIB");
+
+            correctionAdd("duolingo", "Duolingo");
+
+            correctionAdd("jaycar", "Jaycar");
+
+            correctionAdd("Jeri Elsworth", "Jeri Ellsworth");
+
+            correctionAdd("pubnub", "PubNub");
+
+            correctionAdd("tflite", "TensorFlow Lite");
+            correctionAdd("TFLite", "TensorFlow Lite");
+
+            correctionAdd("dead line", "deadline");
+            correctionAdd("dealine", "deadline");
+
+            correctionAdd("all nighter", "pull an all-nighter");
+            correctionAdd("All nighter", "pull an all-nighter");
+
+            correctionAdd("un-officially", "unofficially");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62326,6 +62357,26 @@ namespace OverflowHelper.core
 
             URL_Add("static code analysis", "https://en.wikipedia.org/wiki/Static_program_analysis");
 
+            URL_Add("Ariya Hidayat", "https://en.wikipedia.org/wiki/PhantomJS");
+
+            URL_Add("DYLIB", "https://en.wikipedia.org/wiki/List_of_filename_extensions_(A%E2%80%93E)#D");
+
+            URL_Add("Duolingo", "https://en.wikipedia.org/wiki/Duolingo");
+
+            URL_Add("Jaycar", "https://en.wikipedia.org/wiki/Jaycar");
+
+            URL_Add("Jeri Ellsworth", "https://en.wikipedia.org/wiki/Jeri_Ellsworth");
+
+            URL_Add("PubNub", "https://en.wikipedia.org/wiki/PubNub");
+
+            URL_Add("TensorFlow Lite", "https://en.wikipedia.org/wiki/TensorFlow#TensorFlow_Lite");
+
+            URL_Add("deadline", "https://en.wiktionary.org/wiki/deadline#Noun");
+
+            URL_Add("pull an all-nighter", "https://en.wiktionary.org/wiki/pull_an_all-nighter#Verb");
+
+            URL_Add("unofficially", "https://en.wiktionary.org/wiki/unofficially#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62954,6 +63005,18 @@ namespace OverflowHelper.core
 
             correctionAdd("Fortify_", "HP Fortify_");
 
+            correctionAdd("bcc_", "BCC_");
+
+            correctionAdd("Cc_", "CC_");
+            correctionAdd("carbon copy_", "CC_");
+            correctionAdd("cc_", "CC_");
+
+            correctionAdd("functionnal_", "functional_");
+
+            correctionAdd("outter_", "outer_");
+
+            correctionAdd("up-vote_", "upvote_");
+
             // URL mappings
             //
             //
@@ -63334,6 +63397,16 @@ namespace OverflowHelper.core
             URL_Add("picture_", "https://en.wiktionary.org/wiki/picture#Noun");
 
             URL_Add("HP Fortify_", "https://en.wikipedia.org/wiki/HP_Enterprise_Security_Products#Products");
+
+            URL_Add("CC_", "https://en.wiktionary.org/wiki/carbon_copy#Noun");
+
+            URL_Add("functional_", "https://en.wiktionary.org/wiki/functional#Adjective");
+
+            URL_Add("outer_", "https://en.wiktionary.org/wiki/outer#Adjective");
+
+            URL_Add("upvote_", "https://en.wiktionary.org/wiki/upvote#Noun");
+
+            URL_Add("BCC_", "https://en.wiktionary.org/wiki/blind_carbon_copy#Noun");
 
         } //addLookupData_alternativeWordSet()
 
