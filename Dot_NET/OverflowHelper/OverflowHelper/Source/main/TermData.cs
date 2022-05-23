@@ -2854,6 +2854,7 @@ namespace OverflowHelper.core
             correctionAdd("exparience", "experience");
             correctionAdd("expericence", "experience");
             correctionAdd("expericense", "experience");
+            correctionAdd("exeperience", "experience");
             //(Note: in existing group, "experience")
             //correctionAdd("exp.", "experience");
 
@@ -7963,6 +7964,7 @@ namespace OverflowHelper.core
             correctionAdd("diplicate", "duplicate");
             correctionAdd("dupliate", "duplicate");
             correctionAdd("dupelicate", "duplicate");
+            correctionAdd("duplciate", "duplicate");
 
             correctionAdd("stackapps", "Stack&nbsp;Apps");
             correctionAdd("stack apps", "Stack&nbsp;Apps");
@@ -12905,6 +12907,7 @@ namespace OverflowHelper.core
             correctionAdd("shoule", "should");
             correctionAdd("shoudl", "should");
             correctionAdd("shoould", "should");
+            correctionAdd("shouold", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -16368,6 +16371,7 @@ namespace OverflowHelper.core
             correctionAdd("caculation", "calculation");
             correctionAdd("caculations", "calculation");
             correctionAdd("calculations", "calculation");
+            correctionAdd("calcualtion", "calculation");
 
             correctionAdd("childd", "child");
             correctionAdd("childe", "child");
@@ -23029,6 +23033,7 @@ namespace OverflowHelper.core
             correctionAdd("break point", "breakpoint");
             correctionAdd("break-point", "breakpoint");
             correctionAdd("breapoint", "breakpoint");
+            correctionAdd("brerakpoint", "breakpoint");
 
             correctionAdd("datapoint", "data point");
             correctionAdd("data-point", "data point");
@@ -27690,6 +27695,7 @@ namespace OverflowHelper.core
             correctionAdd("Juts", "just");
             correctionAdd("juts", "just");
             correctionAdd("jus", "just");
+            correctionAdd("juust", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -27837,6 +27843,8 @@ namespace OverflowHelper.core
             correctionAdd("alingn", "align");
             correctionAdd("allign", "align");
             correctionAdd("algin", "align");
+            correctionAdd("Allign", "align");
+            correctionAdd("Align", "align");
 
             correctionAdd("ALIGNED", "aligned");
             correctionAdd("ALINGNED", "aligned");
@@ -37263,6 +37271,7 @@ namespace OverflowHelper.core
 
             correctionAdd("extendad", "extended");
             correctionAdd("extented", "extended");
+            correctionAdd("extendet", "extended");
 
             correctionAdd("gate keep", "gatekeep");
 
@@ -39628,6 +39637,16 @@ namespace OverflowHelper.core
             correctionAdd("All nighter", "pull an all-nighter");
 
             correctionAdd("un-officially", "unofficially");
+
+            correctionAdd("oracle 12c", "Oracle Database 12c");
+
+            correctionAdd("invisble", "invisible");
+
+            correctionAdd("Obsessive-Compulsive", "obsessive-compulsive");
+
+            correctionAdd("over explaining", "overexplaining");
+
+            correctionAdd("y finance", "yfinance");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62377,6 +62396,16 @@ namespace OverflowHelper.core
 
             URL_Add("unofficially", "https://en.wiktionary.org/wiki/unofficially#Adverb");
 
+            URL_Add("Oracle Database 12c", "https://en.wikipedia.org/wiki/Oracle_Database#Releases_and_versions");
+
+            URL_Add("invisible", "https://en.wiktionary.org/wiki/invisible#Adjective");
+
+            URL_Add("obsessive-compulsive", "https://en.wiktionary.org/wiki/obsessive-compulsive#Adjective");
+
+            URL_Add("overexplaining", "https://en.wiktionary.org/wiki/overexplain#Verb");
+
+            URL_Add("yfinance", "https://pypi.org/project/yfinance/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63017,6 +63046,8 @@ namespace OverflowHelper.core
 
             correctionAdd("up-vote_", "upvote_");
 
+            correctionAdd("look_", "loop_");
+
             // URL mappings
             //
             //
@@ -63407,6 +63438,8 @@ namespace OverflowHelper.core
             URL_Add("upvote_", "https://en.wiktionary.org/wiki/upvote#Noun");
 
             URL_Add("BCC_", "https://en.wiktionary.org/wiki/blind_carbon_copy#Noun");
+
+            URL_Add("loop_", "https://en.wiktionary.org/wiki/loop#Noun");
 
         } //addLookupData_alternativeWordSet()
 
