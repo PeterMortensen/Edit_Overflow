@@ -488,6 +488,7 @@ namespace OverflowHelper.core
             correctionAdd("JavaServer Pages", "JSP");
 
             correctionAdd("jdk", "JDK");
+            correctionAdd("Jdk", "JDK");
 
             correctionAdd("powersupply", "power supply");
 
@@ -5668,6 +5669,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rootcause", "root cause");
             correctionAdd("Root Cause", "root cause");
+            correctionAdd("Root cause", "root cause");
 
             correctionAdd("CanIUse", "Can I use");
 
@@ -14177,6 +14179,8 @@ namespace OverflowHelper.core
             correctionAdd("prev", "previous");
             correctionAdd("perivous", "previous");
             correctionAdd("previos", "previous");
+            correctionAdd("previouis", "previous");
+            correctionAdd("previuis", "previous");
 
             correctionAdd("responsabilities", "responsibilities");
             correctionAdd("responsibilitites", "responsibilities");
@@ -14648,6 +14652,7 @@ namespace OverflowHelper.core
             correctionAdd("exentension", "extension");
             correctionAdd("exension", "extension");
             correctionAdd("Extention", "extension");
+            correctionAdd("extation", "extension");
 
             correctionAdd("hierarchial", "hierarchical");
             correctionAdd("hiarchial", "hierarchical");
@@ -15554,6 +15559,7 @@ namespace OverflowHelper.core
             correctionAdd("bidimensional", "two-dimensional");
             correctionAdd("two dimension", "two-dimensional");
             correctionAdd("2 dimension", "two-dimensional");
+            correctionAdd("2 dimentional", "two-dimensional");
 
             correctionAdd("3D", "three-dimensional");
             correctionAdd("3d", "three-dimensional");
@@ -15971,6 +15977,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sligtly", "slightly");
             correctionAdd("slighty", "slightly");
+            correctionAdd("slighly", "slightly");
 
             correctionAdd("supose", "suppose");
             correctionAdd("supost", "suppose");
@@ -18094,6 +18101,7 @@ namespace OverflowHelper.core
             correctionAdd("floder", "folder");
             correctionAdd("falder", "folder");
             correctionAdd("foldr", "folder");
+            correctionAdd("fodler", "folder");
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
@@ -18855,6 +18863,7 @@ namespace OverflowHelper.core
             correctionAdd("code-snippet", "code snippet");
             correctionAdd("Codesnip", "code snippet");
             correctionAdd("code snipet", "code snippet");
+            correctionAdd("code snipper", "code snippet");
 
             correctionAdd("facebook connect", "Facebook Connect");
             correctionAdd("Facebook connect", "Facebook Connect");
@@ -21453,6 +21462,7 @@ namespace OverflowHelper.core
             correctionAdd("Java8", "Java&nbsp;8");
             correctionAdd("Java 8", "Java&nbsp;8"); // Sort of self
             correctionAdd("java-8", "Java&nbsp;8");
+            correctionAdd("JAVA 8", "Java&nbsp;8");
 
             correctionAdd("java9", "Java&nbsp;9");
             correctionAdd("Java9", "Java&nbsp;9");
@@ -22306,6 +22316,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bandpass filter", "band-pass filter");
             correctionAdd("BPF", "band-pass filter");
+            correctionAdd("Bandpass filter", "band-pass filter");
 
             correctionAdd("calculting", "calculating");
 
@@ -25304,6 +25315,7 @@ namespace OverflowHelper.core
 
             correctionAdd("renouned", "renowned");
             correctionAdd("Renouned", "renowned");
+            correctionAdd("reknowned", "renowned");
 
             correctionAdd("vacay", "vacation");
 
@@ -29403,6 +29415,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wildfly", "WildFly");
             correctionAdd("widfly", "WildFly");
+            correctionAdd("Wildfly", "WildFly");
 
             correctionAdd("checkmark", "check mark");
 
@@ -34534,6 +34547,7 @@ namespace OverflowHelper.core
             correctionAdd("spaniard", "Spaniard");
 
             correctionAdd("blue-shifted", "blueshifted");
+            correctionAdd("blue shifted", "blueshifted");
 
             correctionAdd("Computational Biology", "computational biology");
 
@@ -39270,6 +39284,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Liveserver", "Live Server");
             correctionAdd("LiveServer", "Live Server");
+            correctionAdd("live server", "Live Server");
 
             correctionAdd("Coding Standard", "coding standard");
 
@@ -39432,6 +39447,9 @@ namespace OverflowHelper.core
 
             correctionAdd("for-loop", "for loop");
             correctionAdd("for-statement", "for loop");
+            correctionAdd("For-Loop", "for loop");
+            correctionAdd("For Loop", "for loop");
+            correctionAdd("forloop", "for loop");
 
             correctionAdd("if-statement", "if statement");
 
@@ -39647,6 +39665,45 @@ namespace OverflowHelper.core
             correctionAdd("over explaining", "overexplaining");
 
             correctionAdd("y finance", "yfinance");
+
+            correctionAdd("butter", "Butterworth filter");
+            correctionAdd("Butterworth", "Butterworth filter");
+
+            correctionAdd("codepush", "CodePush");
+
+            correctionAdd("XDE", "Expo XDE");
+
+            correctionAdd("Go playground", "Go Playground");
+
+            correctionAdd("GST", "Goods and Services Tax");
+
+            correctionAdd("py script", "PyScript");
+            correctionAdd("py-script", "PyScript");
+
+            correctionAdd("react-native-cli", "React Native CLI");
+            correctionAdd("React Native cli", "React Native CLI");
+
+            correctionAdd("the verge", "The Verge");
+
+            correctionAdd("v-usb", "V-USB");
+
+            correctionAdd("AFK", "away from keyboard");
+
+            correctionAdd("conector", "connector");
+
+            correctionAdd("extreme UV", "extreme ultraviolet radiation");
+            correctionAdd("Extreme UV", "extreme ultraviolet radiation");
+
+            correctionAdd("lanching", "launching");
+
+            correctionAdd("marshaling", "marshalling");
+            correctionAdd("marshall", "marshalling");
+
+            correctionAdd("PAN", "permanent account number");
+
+            correctionAdd("RtR", "right to repair");
+
+            correctionAdd("ton's", "tons");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62406,6 +62463,40 @@ namespace OverflowHelper.core
 
             URL_Add("yfinance", "https://pypi.org/project/yfinance/");
 
+            URL_Add("Butterworth filter", "https://en.wikipedia.org/wiki/Butterworth_filter");
+
+            URL_Add("CodePush", "https://github.com/Microsoft/code-push");
+
+            URL_Add("Expo XDE", "https://github.com/expo/xde");
+
+            URL_Add("Go Playground", "https://go.dev/play/");
+
+            URL_Add("Goods and Services Tax", "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)");
+
+            URL_Add("PyScript", "https://github.com/pyscript/pyscript");
+
+            URL_Add("React Native CLI", "https://github.com/react-native-community/cli");
+
+            URL_Add("The Verge", "https://en.wikipedia.org/wiki/The_Verge");
+
+            URL_Add("V-USB", "https://github.com/obdev/v-usb");
+
+            URL_Add("away from keyboard", "https://en.wiktionary.org/wiki/AFK#Prepositional_phrase");
+
+            URL_Add("connector", "https://en.wiktionary.org/wiki/connector#Noun");
+
+            URL_Add("extreme ultraviolet radiation", "https://en.wikipedia.org/wiki/Extreme_ultraviolet");
+
+            URL_Add("launching", "https://en.wiktionary.org/wiki/launch#Verb");
+
+            URL_Add("marshalling", "https://en.wikipedia.org/wiki/Marshalling_(computer_science)");
+
+            URL_Add("permanent account number", "https://en.wikipedia.org/wiki/Permanent_account_number");
+
+            URL_Add("right to repair", "https://en.wikipedia.org/wiki/Right_to_repair");
+
+            URL_Add("tons", "https://en.wiktionary.org/wiki/tons#Noun_2");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -62923,6 +63014,8 @@ namespace OverflowHelper.core
             correctionAdd("Science Fiction & Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
             correctionAdd("sci-fi and fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
             correctionAdd("sci-fi_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("Scifi_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("scifi_", "Science Fiction & Fantasy (Stack Exchange site)_");
 
             correctionAdd("Medical Sciences_", "Medical Sciences (Stack Exchange site)_");
             correctionAdd("Medical SE_", "Medical Sciences (Stack Exchange site)_");
@@ -63047,6 +63140,10 @@ namespace OverflowHelper.core
             correctionAdd("up-vote_", "upvote_");
 
             correctionAdd("look_", "loop_");
+
+            correctionAdd("interstellar_", "Interstellar_");
+
+            correctionAdd("throwed_", "threw_");
 
             // URL mappings
             //
@@ -63440,6 +63537,10 @@ namespace OverflowHelper.core
             URL_Add("BCC_", "https://en.wiktionary.org/wiki/blind_carbon_copy#Noun");
 
             URL_Add("loop_", "https://en.wiktionary.org/wiki/loop#Noun");
+
+            URL_Add("Interstellar_", "https://en.wikipedia.org/wiki/Interstellar_(film)");
+
+            URL_Add("threw_", "https://en.wiktionary.org/wiki/throw#Verb");
 
         } //addLookupData_alternativeWordSet()
 
