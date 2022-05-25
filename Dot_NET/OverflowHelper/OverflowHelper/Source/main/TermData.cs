@@ -443,6 +443,7 @@ namespace OverflowHelper.core
             correctionAdd("wondows", "Windows");
             correctionAdd("Window", "Windows");
             correctionAdd("Windown", "Windows");
+            correctionAdd("Widnows", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -5742,6 +5743,7 @@ namespace OverflowHelper.core
             correctionAdd("Administratior", "system administrator");
             correctionAdd("administratior", "system administrator");
             correctionAdd("admistrator", "system administrator");
+            correctionAdd("administrator", "system administrator");
 
             correctionAdd("ui", "user interface"); // Expansion.
             correctionAdd("UI", "user interface"); // Expansion.
@@ -6222,6 +6224,7 @@ namespace OverflowHelper.core
             correctionAdd("Window7", "Windows&nbsp;7");
             correctionAdd("WIN 7", "Windows&nbsp;7");
             correctionAdd("windwos 7", "Windows&nbsp;7");
+            correctionAdd("Widnows 7", "Windows&nbsp;7");
             //
             // This does not work as "&" is seen as a non-alpha... The
             // result is "Windows &"...
@@ -11419,6 +11422,7 @@ namespace OverflowHelper.core
             correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts! E.g., "terrabyte"
             correctionAdd("Thunderbir", "Thunderbird");
             correctionAdd("TBird", "Thunderbird");
+            correctionAdd("thundetbird", "Thunderbird");
 
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
@@ -11731,6 +11735,7 @@ namespace OverflowHelper.core
             correctionAdd("beautiful soup", "Beautiful Soup");
             correctionAdd("Beautiful soup", "Beautiful Soup");
             correctionAdd("BeatifulSoup", "Beautiful Soup");
+            correctionAdd("Beautifulsoup", "Beautiful Soup");
 
             correctionAdd("aix", "AIX");
 
@@ -13001,6 +13006,7 @@ namespace OverflowHelper.core
             correctionAdd("asp.dot net core", "ASP.NET Core");
             correctionAdd("asp.dot .net core", "ASP.NET Core");
             correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
+            correctionAdd("ASP.net Core", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -20151,6 +20157,7 @@ namespace OverflowHelper.core
             correctionAdd("it'self", "itself");
             correctionAdd("itselt", "itself");
             correctionAdd("isself", "itself");
+            correctionAdd("iself", "itself");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -20497,6 +20504,7 @@ namespace OverflowHelper.core
             correctionAdd("Magzy", "Magnus Carlsen"); // Chess
             correctionAdd("Magnus Carlsson", "Magnus Carlsen"); // Chess
             correctionAdd("Magnus Carlson", "Magnus Carlsen"); // Chess
+            correctionAdd("Carlssen", "Magnus Carlsen"); // Chess
 
             correctionAdd("check mate", "checkmate"); // Chess
 
@@ -23770,6 +23778,7 @@ namespace OverflowHelper.core
             correctionAdd("frmo", "from");
             correctionAdd("fro", "from");
             correctionAdd("fron", "from");
+            correctionAdd("drom", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -27851,6 +27860,7 @@ namespace OverflowHelper.core
             correctionAdd("wikiholic", "wikiholiday");
             correctionAdd("wikiholism", "wikiholiday");
             correctionAdd("wikipediholic", "wikiholiday");
+            correctionAdd("wikibreak", "wikiholiday");
 
             correctionAdd("alingn", "align");
             correctionAdd("allign", "align");
@@ -31517,6 +31527,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rending", "rendering");
             correctionAdd("Rendering", "rendering");
+            correctionAdd("rendenring", "rendering");
 
             correctionAdd("uninsall", "uninstall");
             correctionAdd("Uninsall", "uninstall");
@@ -32795,6 +32806,7 @@ namespace OverflowHelper.core
             correctionAdd("passport", "Passport.js");
 
             correctionAdd("thrift", "Thrift");
+            correctionAdd("Apache Thrift", "Thrift");
 
             correctionAdd("chatises", "chastises");
 
@@ -33500,6 +33512,7 @@ namespace OverflowHelper.core
             correctionAdd("kendo Ui", "Kendo UI");
             correctionAdd("kendo ui", "Kendo UI");
             correctionAdd("kendo UI", "Kendo UI");
+            correctionAdd("kendo", "Kendo UI");
 
             correctionAdd("Telerk", "Telerik");
 
@@ -39704,6 +39717,33 @@ namespace OverflowHelper.core
             correctionAdd("RtR", "right to repair");
 
             correctionAdd("ton's", "tons");
+
+            correctionAdd("ghex", "GHex");
+
+            correctionAdd("hw-probe", "Hardware Probe Tool");
+
+            correctionAdd("intptr.size", "IntPtr.Size");
+
+            correctionAdd("khexedit", "KHexEdit");
+
+            correctionAdd("LADAR", "Lidar");
+            correctionAdd("LIDAR", "Lidar");
+            correctionAdd("LiDAR", "Lidar");
+
+            correctionAdd("NE", "Nebraska, United States");
+
+            correctionAdd("gird", "grid");
+            correctionAdd("Gird", "grid");
+
+            correctionAdd("hexeditor", "hex editor");
+
+            correctionAdd("HEXEDIT", "hexedit");
+
+            correctionAdd("Mountain", "mountain");
+
+            correctionAdd("unfomattable", "unformattable");
+
+            correctionAdd("validiation", "validation");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62497,6 +62537,30 @@ namespace OverflowHelper.core
 
             URL_Add("tons", "https://en.wiktionary.org/wiki/tons#Noun_2");
 
+            URL_Add("GHex", "https://wiki.gnome.org/Apps/Ghex");
+
+            URL_Add("Hardware Probe Tool", "https://github.com/linuxhw/hw-probe");
+
+            URL_Add("IntPtr.Size", "https://docs.microsoft.com/en-us/dotnet/api/system.intptr.size");
+
+            URL_Add("KHexEdit", "https://techbase.kde.org/Development/Architecture/KDE3/Hex_Editor");
+
+            URL_Add("Lidar", "https://en.wikipedia.org/wiki/Lidar");
+
+            URL_Add("Nebraska, United States", "https://en.wikipedia.org/wiki/Nebraska");
+
+            URL_Add("grid", "https://en.wiktionary.org/wiki/grid#Noun");
+
+            URL_Add("hex editor", "https://en.wikipedia.org/wiki/Hex_editor");
+
+            URL_Add("hexedit", "https://linux.die.net/man/1/hexedit");
+
+            URL_Add("mountain", "https://en.wiktionary.org/wiki/mountain#Noun");
+
+            URL_Add("unformattable", "https://en.wiktionary.org/wiki/unformattable#Adjective");
+
+            URL_Add("validation", "https://en.wiktionary.org/wiki/validation#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63145,6 +63209,10 @@ namespace OverflowHelper.core
 
             correctionAdd("throwed_", "threw_");
 
+            correctionAdd("rpg_", "RPG_");
+
+            correctionAdd("INPUT_", "input_");
+
             // URL mappings
             //
             //
@@ -63541,6 +63609,10 @@ namespace OverflowHelper.core
             URL_Add("Interstellar_", "https://en.wikipedia.org/wiki/Interstellar_(film)");
 
             URL_Add("threw_", "https://en.wiktionary.org/wiki/throw#Verb");
+
+            URL_Add("RPG_", "https://en.wikipedia.org/wiki/IBM_RPG");
+
+            URL_Add("input_", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text");
 
         } //addLookupData_alternativeWordSet()
 
