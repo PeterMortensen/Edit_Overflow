@@ -8007,6 +8007,7 @@ namespace OverflowHelper.core
             correctionAdd("symlinks", "symbolic link");
 
             correctionAdd("adt", "ADT");
+            correctionAdd("Android Development Tools", "ADT");
 
             correctionAdd("pdb", "PDB");
 
@@ -12013,6 +12014,8 @@ namespace OverflowHelper.core
             correctionAdd("autuomn", "autumn");
             correctionAdd("Autumn", "autumn");
             correctionAdd("autum", "autumn");
+            correctionAdd("authumn", "autumn");
+            correctionAdd("authum", "autumn");
 
             correctionAdd("accomodate", "accommodate");
 
@@ -24649,8 +24652,10 @@ namespace OverflowHelper.core
             correctionAdd("Fanatic", "Fanatic badge");
 
             correctionAdd("excavator", "Excavator badge");
+            correctionAdd("Excavator", "Excavator badge");
 
             correctionAdd("mortarboard", "Mortarboard badge");
+            correctionAdd("Mortarboard", "Mortarboard badge");
 
             correctionAdd("census badge", "Census badge");
 
@@ -28925,6 +28930,7 @@ namespace OverflowHelper.core
             correctionAdd("react-testing-library", "React Testing Library");
 
             correctionAdd("SWAY", "Sway");
+            correctionAdd("sway", "Sway");
 
             correctionAdd("UCS2", "UCS-2");
             correctionAdd("ucs-2", "UCS-2");
@@ -39774,6 +39780,28 @@ namespace OverflowHelper.core
             correctionAdd("replay", "reply");
 
             correctionAdd("XXD", "xxd");
+
+            correctionAdd("exwm", "EXWM");
+
+            correctionAdd("herbstluftwm", "Herbstluftwm");
+            correctionAdd("herbst", "Herbstluftwm");
+
+            correctionAdd("jkl", "JKL;");
+            correctionAdd("JKL", "JKL;");
+
+            correctionAdd("lmao", "LMAO");
+
+            correctionAdd("r2d2", "R2-D2");
+
+            correctionAdd("river", "River");
+
+            correctionAdd("rofi", "Rofi");
+
+            correctionAdd("stumpwm", "StumpWM");
+
+            correctionAdd("DWL", "dwl");
+
+            correctionAdd("SPECTRWM", "spectrwm");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62605,6 +62633,26 @@ namespace OverflowHelper.core
 
             URL_Add("xxd", "https://linux.die.net/man/1/xxd");
 
+            URL_Add("EXWM", "https://wiki.archlinux.org/title/EXWM");
+
+            URL_Add("Herbstluftwm", "https://wiki.archlinux.org/title/Herbstluftwm");
+
+            URL_Add("JKL;", "https://en.wikipedia.org/wiki/Touch_typing");
+
+            URL_Add("LMAO", "https://en.wiktionary.org/wiki/LMAO#Phrase");
+
+            URL_Add("R2-D2", "https://en.wikipedia.org/wiki/R2-D2");
+
+            URL_Add("River", "https://github.com/riverwm/river");
+
+            URL_Add("Rofi", "https://wiki.archlinux.org/title/Rofi");
+
+            URL_Add("StumpWM", "https://en.wikipedia.org/wiki/StumpWM");
+
+            URL_Add("dwl", "https://github.com/djpohly/dwl");
+
+            URL_Add("spectrwm", "https://wiki.archlinux.org/title/Spectrwm");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63258,9 +63306,17 @@ namespace OverflowHelper.core
             correctionAdd("INPUT_", "input_");
 
             correctionAdd("beeing_", "being_");
+            correctionAdd("bean_", "being_");
 
             correctionAdd("illustrator_", "Adobe Illustrator_");
             correctionAdd("adobe illustrator_", "Adobe Illustrator_");
+            correctionAdd("Illustrator_", "Adobe Illustrator_");
+            correctionAdd("AI_", "Adobe Illustrator_");
+
+            correctionAdd("awesome_", "AwesomeWM_");
+            correctionAdd("Awesome_", "AwesomeWM_");
+
+            correctionAdd("i3wm_", "i3_");
 
             // URL mappings
             //
@@ -63666,6 +63722,10 @@ namespace OverflowHelper.core
             URL_Add("being_", "https://en.wiktionary.org/wiki/being#Verb"); // Old: https://en.wiktionary.org/wiki/being#Verbs
 
             URL_Add("Adobe Illustrator_", "https://en.wikipedia.org/wiki/Adobe_Illustrator");
+
+            URL_Add("AwesomeWM_", "https://en.wikipedia.org/wiki/Awesome_(window_manager)");
+
+            URL_Add("i3_", "https://en.wikipedia.org/wiki/I3_(window_manager)");
 
         } //addLookupData_alternativeWordSet()
 
