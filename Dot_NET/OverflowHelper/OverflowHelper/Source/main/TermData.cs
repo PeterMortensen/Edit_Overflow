@@ -1993,6 +1993,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS 12.2", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS Monterey 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS 12", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Mac OS 12", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -4225,6 +4226,7 @@ namespace OverflowHelper.core
             correctionAdd("Inskape", "Inkscape");
             correctionAdd("Inscape", "Inkscape");
             correctionAdd("Inkspace", "Inkscape");
+            correctionAdd("inkspace", "Inkscape");
 
             correctionAdd("ndepend", "NDepend");
 
@@ -9953,6 +9955,10 @@ namespace OverflowHelper.core
             correctionAdd("propriatery", "proprietary");
             correctionAdd("propriotory", "proprietary");
             correctionAdd("proprietory", "proprietary");
+            correctionAdd("propietary", "proprietary");
+            correctionAdd("propiretary", "proprietary");
+            correctionAdd("properitary", "proprietary");
+            correctionAdd("properitory", "proprietary");
 
             correctionAdd("non-proprietary", "nonproprietary");
 
@@ -12151,6 +12157,7 @@ namespace OverflowHelper.core
             correctionAdd("unnecessery", "unnecessary");
             correctionAdd("un-necessary", "unnecessary");
             correctionAdd("unnececssary", "unnecessary");
+            correctionAdd("unnessecary", "unnecessary");
 
             correctionAdd("Topcoder", "TopCoder");
             correctionAdd("topcoder", "TopCoder");
@@ -12201,6 +12208,7 @@ namespace OverflowHelper.core
             correctionAdd("nooby", "newbie");
             correctionAdd("newwbie", "newbie");
             correctionAdd("newbei", "newbie");
+            correctionAdd("new bee", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -12687,6 +12695,7 @@ namespace OverflowHelper.core
             correctionAdd("in-built", "built-in");
             correctionAdd("buid-in", "built-in");
             correctionAdd("inbuild", "built-in");
+            correctionAdd("inbuilt", "built-in");
 
             correctionAdd("dissapear", "disappear");
             correctionAdd("dissappear", "disappear");
@@ -15583,6 +15592,8 @@ namespace OverflowHelper.core
             correctionAdd("multidimensoinal", "multidimensional");
             correctionAdd("multi dimensoinal", "multidimensional");
             correctionAdd("multi dimensional", "multidimensional");
+            correctionAdd("multi-demensional", "multidimensional");
+            correctionAdd("multidemensional", "multidimensional");
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
@@ -21813,6 +21824,7 @@ namespace OverflowHelper.core
             correctionAdd("alsso", "also");
             correctionAdd("alo", "also");
             correctionAdd("alao", "also");
+            correctionAdd("allso", "also");
 
             correctionAdd("conver", "convert");
 
@@ -27254,6 +27266,7 @@ namespace OverflowHelper.core
 
             correctionAdd("havig", "having");
             correctionAdd("havin", "having");
+            correctionAdd("havng", "having");
 
             correctionAdd("Platinum", "platinum");
 
@@ -27659,6 +27672,8 @@ namespace OverflowHelper.core
             correctionAdd("Easieser", "easier");
             correctionAdd("easieser", "easier");
             correctionAdd("easisier", "easier");
+            correctionAdd("more esier", "easier");
+            correctionAdd("more easier", "easier");
 
             correctionAdd("good manner", "good manners");
 
@@ -27802,6 +27817,7 @@ namespace OverflowHelper.core
             correctionAdd("TAP", "Test Anything Protocol");
 
             correctionAdd("usb hub", "USB hub");
+            correctionAdd("USB Hub", "USB hub");
 
             correctionAdd("centimeter", "centimetre");
             correctionAdd("cm", "centimetre");
@@ -39744,6 +39760,26 @@ namespace OverflowHelper.core
             correctionAdd("unfomattable", "unformattable");
 
             correctionAdd("validiation", "validation");
+
+            correctionAdd("Illuminator", "Illuminator badge");
+
+            correctionAdd("Legendary", "Legendary badge");
+
+            correctionAdd("Marshal", "Marshal badge");
+
+            correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa");
+
+            correctionAdd("thonny", "Thonny");
+
+            correctionAdd("builded", "built");
+
+            correctionAdd("HOC", "higher-order component");
+
+            correctionAdd("mofo", "motherfucker");
+
+            correctionAdd("replay", "reply");
+
+            correctionAdd("XXD", "xxd");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62560,6 +62596,26 @@ namespace OverflowHelper.core
             URL_Add("unformattable", "https://en.wiktionary.org/wiki/unformattable#Adjective");
 
             URL_Add("validation", "https://en.wiktionary.org/wiki/validation#Noun");
+
+            URL_Add("Illuminator badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Legendary badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
+
+            URL_Add("Marshal badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Rameshbabu Praggnanandhaa", "https://en.wikipedia.org/wiki/Rameshbabu_Praggnanandhaa");
+
+            URL_Add("Thonny", "https://en.wikipedia.org/wiki/Thonny");
+
+            URL_Add("built", "https://en.wiktionary.org/wiki/built#Verb");
+
+            URL_Add("higher-order component", "https://reactjs.org/docs/higher-order-components.html");
+
+            URL_Add("motherfucker", "https://en.wiktionary.org/wiki/motherfucker#Noun");
+
+            URL_Add("reply", "https://en.wiktionary.org/wiki/reply#Noun");
+
+            URL_Add("xxd", "https://linux.die.net/man/1/xxd");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
