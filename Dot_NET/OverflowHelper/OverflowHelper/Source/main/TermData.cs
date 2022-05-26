@@ -12331,8 +12331,6 @@ namespace OverflowHelper.core
             correctionAdd("MiTM", "man-in-the-middle attack");
             correctionAdd("Man-in-the-middle", "man-in-the-middle attack");
 
-            correctionAdd("adobe illustrator", "Adobe Illustrator");
-
             correctionAdd("mvvm", "MVVM");
 
             correctionAdd("knowlege", "knowledge");
@@ -14144,8 +14142,6 @@ namespace OverflowHelper.core
             correctionAdd("aparent", "apparent");
             correctionAdd("aparrent", "apparent");
             correctionAdd("apparrent", "apparent");
-
-            correctionAdd("beeing", "being");
 
             correctionAdd("concatention", "concatenation");
             correctionAdd("concatanation", "concatenation");
@@ -20965,6 +20961,8 @@ namespace OverflowHelper.core
             correctionAdd("mamejaro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("memedraro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("mamedraro", "Shakhriyar Mamedyarov"); // Chess
+
+            correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
             //
             // End of the chess part
 
@@ -21790,8 +21788,6 @@ namespace OverflowHelper.core
             correctionAdd("Russom", "Guido van Rossum");
             correctionAdd("Russum", "Guido van Rossum");
             correctionAdd("Rossum", "Guido van Rossum");
-
-            correctionAdd("illustrator", "Illustrator");
 
             correctionAdd("Y-combinator", "Y combinator");
 
@@ -23900,11 +23896,11 @@ namespace OverflowHelper.core
             correctionAdd("US Dollar", "US dollar");
             correctionAdd("US Dollars", "US dollar");
 
-            correctionAdd("Drop-down", "dropdown");
-            correctionAdd("Drop-Down", "dropdown");
-            correctionAdd("drop-down", "dropdown");
-            correctionAdd("drop-down menu", "dropdown");
-            correctionAdd("drop down", "dropdown");
+            correctionAdd("dropdown", "drop-down menu");
+            correctionAdd("Drop-down", "drop-down menu");
+            correctionAdd("Drop-Down", "drop-down menu");
+            correctionAdd("drop-down", "drop-down menu");
+            correctionAdd("drop down", "drop-down menu");
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
             correctionAdd("Free code camp", "freeCodeCamp");
@@ -24648,6 +24644,21 @@ namespace OverflowHelper.core
 
             correctionAdd("bagde", "badge");
             correctionAdd("bade", "badge");
+
+            correctionAdd("fanatic badge", "Fanatic badge");
+            correctionAdd("Fanatic", "Fanatic badge");
+
+            correctionAdd("excavator", "Excavator badge");
+
+            correctionAdd("mortarboard", "Mortarboard badge");
+
+            correctionAdd("census badge", "Census badge");
+
+            correctionAdd("Illuminator", "Illuminator badge");
+
+            correctionAdd("Legendary", "Legendary badge");
+
+            correctionAdd("Marshal", "Marshal badge");
 
             correctionAdd("Cadmium", "cadmium");
             correctionAdd("Cd", "cadmium");
@@ -34499,9 +34510,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bcpl", "BCPL");
 
-            correctionAdd("fanatic badge", "Fanatic badge");
-            correctionAdd("Fanatic", "Fanatic badge");
-
             correctionAdd("geronimo", "Geronimo");
 
             correctionAdd("ice lake", "Ice Lake");
@@ -36138,8 +36146,6 @@ namespace OverflowHelper.core
             correctionAdd("Lunduke", "Bryan Lunduke");
 
             correctionAdd("Distrowatch", "DistroWatch");
-
-            correctionAdd("excavator", "Excavator");
 
             correctionAdd("mix", "Laravel Mix");
 
@@ -38689,8 +38695,6 @@ namespace OverflowHelper.core
 
             correctionAdd("google pixel", "Google Pixel");
 
-            correctionAdd("mortarboard", "Mortarboard");
-
             correctionAdd("OpenVino", "OpenVINO");
 
             correctionAdd("Saint Peter", "St. Peter");
@@ -39578,8 +39582,6 @@ namespace OverflowHelper.core
 
             correctionAdd("uncritical", "noncritical");
 
-            correctionAdd("census badge", "Census badge");
-
             correctionAdd("hungarian notation", "Hungarian notation");
 
             correctionAdd("oracle11g", "Oracle Database 11g");
@@ -39760,14 +39762,6 @@ namespace OverflowHelper.core
             correctionAdd("unfomattable", "unformattable");
 
             correctionAdd("validiation", "validation");
-
-            correctionAdd("Illuminator", "Illuminator badge");
-
-            correctionAdd("Legendary", "Legendary badge");
-
-            correctionAdd("Marshal", "Marshal badge");
-
-            correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa");
 
             correctionAdd("thonny", "Thonny");
 
@@ -41836,7 +41830,7 @@ namespace OverflowHelper.core
 
             URL_Add("symbolic link", "https://en.wikipedia.org/wiki/Symbolic_link");
 
-            URL_Add("ADT", "http://developer.android.com/guide/developing/tools/adt.html");
+            URL_Add("ADT", "https://en.wikipedia.org/wiki/Eclipse_(software)#Android_Development_Tools"); // Old: <http://developer.android.com/guide/developing/tools/adt.html>
 
             URL_Add("PDB", "https://en.wikipedia.org/wiki/Program_database");
 
@@ -43376,8 +43370,6 @@ namespace OverflowHelper.core
 
             URL_Add("man-in-the-middle attack", "https://en.wikipedia.org/wiki/Man-in-the-middle_attack");
 
-            URL_Add("Adobe Illustrator", "https://en.wikipedia.org/wiki/Adobe_Illustrator");
-
             URL_Add("x-axis", "https://en.wiktionary.org/wiki/x-axis#Noun");
 
             URL_Add("Jupyter", "https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook"); // Old: https://en.wikipedia.org/wiki/IPython#Project_Jupyter
@@ -44139,8 +44131,6 @@ namespace OverflowHelper.core
             URL_Add("bear with", "https://en.wiktionary.org/wiki/bear_with#Verb");
 
             URL_Add("bear with me", "https://en.wiktionary.org/wiki/bear_with#Verb");
-
-            URL_Add("being", "https://en.wiktionary.org/wiki/being#Verb"); // Old: https://en.wiktionary.org/wiki/being#Verbs
 
             URL_Add("concatenation", "https://en.wiktionary.org/wiki/concatenation#Noun");
 
@@ -48395,7 +48385,7 @@ namespace OverflowHelper.core
 
             URL_Add("sunk cost fallacy", "https://en.wikipedia.org/wiki/Sunk_cost#The_fallacy_effect");
 
-            URL_Add("working from home", "https://en.wikipedia.org/wiki/Telecommuting");
+            URL_Add("working from home", "https://en.wikipedia.org/wiki/Remote_work"); // Old: <https://en.wikipedia.org/wiki/Telecommuting>
 
             URL_Add("z/OS", "https://en.wikipedia.org/wiki/Z/OS");
 
@@ -48446,8 +48436,6 @@ namespace OverflowHelper.core
             URL_Add("suspicious", "https://en.wiktionary.org/wiki/suspicious#Adjective");
 
             URL_Add("Guido van Rossum", "https://en.wikipedia.org/wiki/Guido_van_Rossum");
-
-            URL_Add("Illustrator", "https://en.wikipedia.org/wiki/Adobe_Illustrator");
 
             URL_Add("Y combinator", "https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator");
 
@@ -50041,7 +50029,7 @@ namespace OverflowHelper.core
 
             URL_Add("dollar", "https://en.wiktionary.org/wiki/dollar#Noun");
 
-            URL_Add("dropdown", "https://en.wiktionary.org/wiki/dropdown#Noun");
+            URL_Add("drop-down menu", "https://en.wikipedia.org/wiki/Drop-down_list#HTML"); // Old: <https://en.wiktionary.org/wiki/dropdown#Noun>
 
             URL_Add("freeCodeCamp", "https://en.wikipedia.org/wiki/FreeCodeCamp");
 
@@ -59427,7 +59415,7 @@ namespace OverflowHelper.core
 
             URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
 
-            URL_Add("Excavator", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+            URL_Add("Excavator badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
 
             URL_Add("Laravel Mix", "https://laravel-mix.com/");
 
@@ -61703,7 +61691,7 @@ namespace OverflowHelper.core
 
             URL_Add("Google Pixel", "https://en.wikipedia.org/wiki/Google_Pixel");
 
-            URL_Add("Mortarboard", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+            URL_Add("Mortarboard badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
 
             URL_Add("OpenVINO", "https://en.wikipedia.org/wiki/OpenVINO");
 
@@ -62139,7 +62127,7 @@ namespace OverflowHelper.core
 
             URL_Add("confusion", "https://en.wiktionary.org/wiki/confusion#Noun");
 
-            URL_Add("emotional quotient", "https://en.wikipedia.org/wiki/Emotional_intelligence");
+            URL_Add("emotional quotient", "https://en.wikipedia.org/wiki/Emotional_intelligence#History"); // Old: <https://en.wikipedia.org/wiki/Emotional_intelligence>
 
             URL_Add("establishing", "https://en.wiktionary.org/wiki/establish#Verb");
 
@@ -63269,6 +63257,11 @@ namespace OverflowHelper.core
 
             correctionAdd("INPUT_", "input_");
 
+            correctionAdd("beeing_", "being_");
+
+            correctionAdd("illustrator_", "Adobe Illustrator_");
+            correctionAdd("adobe illustrator_", "Adobe Illustrator_");
+
             // URL mappings
             //
             //
@@ -63669,6 +63662,10 @@ namespace OverflowHelper.core
             URL_Add("RPG_", "https://en.wikipedia.org/wiki/IBM_RPG");
 
             URL_Add("input_", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text");
+
+            URL_Add("being_", "https://en.wiktionary.org/wiki/being#Verb"); // Old: https://en.wiktionary.org/wiki/being#Verbs
+
+            URL_Add("Adobe Illustrator_", "https://en.wikipedia.org/wiki/Adobe_Illustrator");
 
         } //addLookupData_alternativeWordSet()
 
