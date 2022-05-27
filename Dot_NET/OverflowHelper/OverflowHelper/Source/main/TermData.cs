@@ -2482,6 +2482,8 @@ namespace OverflowHelper.core
             correctionAdd("codereview", "Code Review (Stack Exchange site)");
             correctionAdd("Code Review", "Code Review (Stack Exchange site)");
             correctionAdd("CRSE", "Code Review (Stack Exchange site)");
+            correctionAdd("cr.SE", "Code Review (Stack Exchange site)");
+            correctionAdd("CR.SE", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
             correctionAdd("Database Administrators", "Database Administrators (Stack Exchange site)"); // Sort of identity mapping
@@ -12654,6 +12656,12 @@ namespace OverflowHelper.core
             correctionAdd("continuosly", "continuously");
 
             correctionAdd("soa", "SOA");
+            correctionAdd("Service Oriented Architecture", "SOA");
+            correctionAdd("service-oriented architecture", "SOA");
+            correctionAdd("service oriented architecture", "SOA");
+            correctionAdd("Service-Oriented Architecture", "SOA");
+
+            correctionAdd("Structure of Arrays", "SoA");
 
             correctionAdd("phpStorm", "PhpStorm");
             correctionAdd("PHPstorm", "PhpStorm");
@@ -13152,6 +13160,7 @@ namespace OverflowHelper.core
             correctionAdd("collegeaue", "colleague");
             correctionAdd("colleugue", "colleague");
             correctionAdd("Colleague", "colleague");
+            correctionAdd("collesge", "colleague");
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
@@ -13982,6 +13991,7 @@ namespace OverflowHelper.core
             correctionAdd("relly", "really");
             correctionAdd("rlly", "really");
             correctionAdd("rly", "really");
+            correctionAdd("rally", "really");
 
             correctionAdd("recomendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
@@ -20200,8 +20210,6 @@ namespace OverflowHelper.core
 
             correctionAdd("simd", "SIMD");
 
-            correctionAdd("Structure of Arrays", "SoA");
-
             correctionAdd("accesor", "accessor");
 
             correctionAdd("cacheing", "caching");
@@ -21143,6 +21151,7 @@ namespace OverflowHelper.core
 
             correctionAdd("geneally", "generally");
             correctionAdd("generaly", "generally");
+            correctionAdd("general.ly", "generally");
 
             correctionAdd("Present Perfect", "present perfect");
 
@@ -21450,6 +21459,8 @@ namespace OverflowHelper.core
             correctionAdd("uncle bob", "Uncle Bob");
             correctionAdd("Robert C Martin", "Uncle Bob");
             correctionAdd("Robert C. Martin", "Uncle Bob");
+            correctionAdd("Bob Martin", "Uncle Bob");
+            correctionAdd("Robert", "Uncle Bob");
 
             correctionAdd("critisising", "criticising");
             correctionAdd("critising", "criticising");
@@ -24153,6 +24164,7 @@ namespace OverflowHelper.core
             correctionAdd("wth", "why");
             correctionAdd("Whi", "why");
             correctionAdd("whi", "why");
+            correctionAdd("whey", "why");
 
             correctionAdd("axios", "Axios");
             correctionAdd("AXIOS", "Axios");
@@ -30000,6 +30012,8 @@ namespace OverflowHelper.core
             correctionAdd("queues", "queue");
             correctionAdd("Queque", "queue");
             correctionAdd("queque", "queue");
+            correctionAdd("Quee", "queue");
+            correctionAdd("quee", "queue");
 
             correctionAdd("scenerio", "scenario");
             correctionAdd("Scanario", "scenario");
@@ -39802,6 +39816,25 @@ namespace OverflowHelper.core
             correctionAdd("DWL", "dwl");
 
             correctionAdd("SPECTRWM", "spectrwm");
+
+            correctionAdd("USDA", "United States Department of Agriculture");
+
+            correctionAdd("aux", "auxiliary");
+            correctionAdd("auxiciallry", "auxiliary");
+            correctionAdd("auxiciary", "auxiliary");
+
+            correctionAdd("cope up", "come up");
+
+            correctionAdd("Data Engineer", "data engineer");
+
+            correctionAdd("Dependency Inversion", "dependency inversion principle");
+            correctionAdd("Dependency Inversion principle", "dependency inversion principle");
+
+            correctionAdd("lower level", "lower-level");
+
+            correctionAdd("Pharma Industry", "pharma industry");
+
+            correctionAdd("amping up", "ramping up");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62653,6 +62686,22 @@ namespace OverflowHelper.core
 
             URL_Add("spectrwm", "https://wiki.archlinux.org/title/Spectrwm");
 
+            URL_Add("United States Department of Agriculture", "https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture");
+
+            URL_Add("auxiliary", "https://en.wiktionary.org/wiki/auxiliary#Adjective");
+
+            URL_Add("come up", "https://en.wiktionary.org/wiki/come_up#Verb");
+
+            URL_Add("data engineer", "https://en.wikipedia.org/wiki/Information_engineering");
+
+            URL_Add("dependency inversion principle", "https://en.wikipedia.org/wiki/Dependency_inversion_principle");
+
+            URL_Add("lower-level", "https://www.lexico.com/en/definition/lower-level");
+
+            URL_Add("pharma industry", "https://en.wikipedia.org/wiki/Pharmaceutical_industry");
+
+            URL_Add("ramping up", "https://en.wiktionary.org/wiki/ramp_up#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63318,6 +63367,13 @@ namespace OverflowHelper.core
 
             correctionAdd("i3wm_", "i3_");
 
+            correctionAdd("ISP_", "interface segregation principle_");
+            correctionAdd("Interface Segregation Principle_", "interface segregation principle_");
+
+            correctionAdd("let's_", "lets_");
+
+            correctionAdd("shot_", "short_");
+
             // URL mappings
             //
             //
@@ -63726,6 +63782,12 @@ namespace OverflowHelper.core
             URL_Add("AwesomeWM_", "https://en.wikipedia.org/wiki/Awesome_(window_manager)");
 
             URL_Add("i3_", "https://en.wikipedia.org/wiki/I3_(window_manager)");
+
+            URL_Add("interface segregation principle_", "https://en.wikipedia.org/wiki/Interface_segregation_principle");
+
+            URL_Add("lets_", "https://en.wiktionary.org/wiki/let#Verb");
+
+            URL_Add("short_", "https://en.wiktionary.org/wiki/shorten#Verb");
 
         } //addLookupData_alternativeWordSet()
 
