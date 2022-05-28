@@ -6923,6 +6923,7 @@ namespace OverflowHelper.core
             correctionAdd("subdir", "subdirectory");
             correctionAdd("sub dir", "subdirectory");
             correctionAdd("sibdir", "subdirectory");
+            correctionAdd("sub-directory", "subdirectory");
 
             correctionAdd("directx", "DirectX");
             correctionAdd("direct x", "DirectX");
@@ -13523,6 +13524,8 @@ namespace OverflowHelper.core
             correctionAdd("possability", "possibility");
 
             correctionAdd("c89", "C89");
+            correctionAdd("c90", "C89");
+            correctionAdd("C90", "C89");
 
             correctionAdd("c99", "C99");
 
@@ -14486,6 +14489,7 @@ namespace OverflowHelper.core
             correctionAdd("segs", "second");
             correctionAdd("seg", "second");
             correctionAdd("2th", "second");
+            correctionAdd("²nd", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -15132,6 +15136,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Huwei", "Huawei");
             correctionAdd("huawei", "Huawei");
+            correctionAdd("Huaweii", "Huawei");
 
             correctionAdd("ammount", "amount");
             correctionAdd("amounf", "amount");
@@ -19855,6 +19860,7 @@ namespace OverflowHelper.core
             correctionAdd("systemD", "systemd");
             correctionAdd("SystemD", "systemd");
             correctionAdd("System D", "systemd");
+            correctionAdd("shitstainD", "systemd");
 
             correctionAdd("wave length", "wavelength");
 
@@ -20217,6 +20223,7 @@ namespace OverflowHelper.core
             correctionAdd("Gold", "gold");
 
             correctionAdd("recurrence", "recursion");
+            correctionAdd("resursion", "recursion");
 
             correctionAdd("shellsort", "Shellsort");
 
@@ -25902,6 +25909,8 @@ namespace OverflowHelper.core
             correctionAdd("undefied", "undefined");
             correctionAdd("ndefined", "undefined");
             correctionAdd("undefiend", "undefined");
+            correctionAdd("Undifined", "undefined");
+            correctionAdd("undifined", "undefined");
 
             correctionAdd("understandig", "understanding");
             correctionAdd("udnerstanding", "understanding");
@@ -34057,6 +34066,11 @@ namespace OverflowHelper.core
             correctionAdd("soapui", "SoapUI");
 
             correctionAdd("Ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10 impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("Impish", "Ubuntu 21.10 (Impish Indri)");
 
             correctionAdd("avoir", "avoid");
 
@@ -39515,6 +39529,7 @@ namespace OverflowHelper.core
             correctionAdd("Late answers", "Late answers review queue");
 
             correctionAdd("low quality answers", "Low quality answers review queue");
+            correctionAdd("Low quality posts", "Low quality answers review queue");
 
             correctionAdd("unity", "Unity");
 
@@ -39835,6 +39850,38 @@ namespace OverflowHelper.core
             correctionAdd("Pharma Industry", "pharma industry");
 
             correctionAdd("amping up", "ramping up");
+
+            correctionAdd("cua-mode", "Cua-mode");
+
+            correctionAdd("AIUI", "as I understand it");
+
+            correctionAdd("asses", "assess");
+
+            correctionAdd("either or", "either-or");
+
+            correctionAdd("motd", "message of the day");
+            correctionAdd("MOTD", "message of the day");
+
+            correctionAdd("north-west", "northwest");
+
+            correctionAdd("Pu-239", "plutonium-239");
+            correctionAdd("239 Pu", "plutonium-239");
+            correctionAdd("Plutonium-239", "plutonium-239");
+
+            correctionAdd("Sr-94", "strontium-94");
+            correctionAdd("Sr 94", "strontium-94");
+
+            correctionAdd("U-235", "uranium-235");
+            correctionAdd("U 235", "uranium-235");
+            correctionAdd("235 U", "uranium-235");
+            correctionAdd("Uranium-235", "uranium-235");
+
+            correctionAdd("Xe-133", "xenon-133");
+
+            correctionAdd("Xe-140", "xenon-140");
+            correctionAdd("Xe 140", "xenon-140");
+
+            correctionAdd("uVision", "µVision");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62702,6 +62749,30 @@ namespace OverflowHelper.core
 
             URL_Add("ramping up", "https://en.wiktionary.org/wiki/ramp_up#Verb");
 
+            URL_Add("Cua-mode", "https://www.emacswiki.org/emacs/CuaMode");
+
+            URL_Add("as I understand it", "https://en.wiktionary.org/wiki/AIUI#Adverb");
+
+            URL_Add("assess", "https://en.wiktionary.org/wiki/assess#Verb");
+
+            URL_Add("either-or", "https://en.wiktionary.org/wiki/either-or#Adjective");
+
+            URL_Add("message of the day", "https://en.wiktionary.org/wiki/MOTD#Noun");
+
+            URL_Add("northwest", "https://en.wiktionary.org/wiki/northwest#Noun");
+
+            URL_Add("plutonium-239", "https://en.wikipedia.org/wiki/Plutonium-239");
+
+            URL_Add("strontium-94", "https://en.wikipedia.org/wiki/Isotopes_of_strontium");
+
+            URL_Add("uranium-235", "https://en.wikipedia.org/wiki/Uranium-235");
+
+            URL_Add("xenon-133", "https://en.wikipedia.org/wiki/Isotopes_of_xenon");
+
+            URL_Add("xenon-140", "https://en.wikipedia.org/wiki/Isotopes_of_xenon");
+
+            URL_Add("µVision", "https://en.wikipedia.org/wiki/Keil_(company)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63374,6 +63445,8 @@ namespace OverflowHelper.core
 
             correctionAdd("shot_", "short_");
 
+            correctionAdd("isoptope_", "isotope_");
+
             // URL mappings
             //
             //
@@ -63788,6 +63861,8 @@ namespace OverflowHelper.core
             URL_Add("lets_", "https://en.wiktionary.org/wiki/let#Verb");
 
             URL_Add("short_", "https://en.wiktionary.org/wiki/shorten#Verb");
+
+            URL_Add("isotope_", "https://en.wiktionary.org/wiki/isotope#Noun");
 
         } //addLookupData_alternativeWordSet()
 
