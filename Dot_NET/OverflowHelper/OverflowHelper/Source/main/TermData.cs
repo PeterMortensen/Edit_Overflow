@@ -7617,6 +7617,8 @@ namespace OverflowHelper.core
             correctionAdd("etcetera", "etc.");
             correctionAdd("et", "etc."); // Really it should be "et." - but a trailing
                                          // full stop is not currently accepted.
+            correctionAdd("et Cetra", "etc.");
+            correctionAdd("et Cetera", "etc.");
 
             correctionAdd("midi", "MIDI");
             correctionAdd("Midi", "MIDI");
@@ -14780,6 +14782,7 @@ namespace OverflowHelper.core
             correctionAdd("poribably", "probably");
             correctionAdd("proibably", "probably");
             correctionAdd("prolly", "probably");
+            correctionAdd("proabbly", "probably");
 
             correctionAdd("sereval", "several");
             correctionAdd("sevral", "several");
@@ -39883,6 +39886,8 @@ namespace OverflowHelper.core
 
             correctionAdd("uVision", "µVision");
 
+            correctionAdd("Xquery", "XQuery");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -62772,6 +62777,8 @@ namespace OverflowHelper.core
             URL_Add("xenon-140", "https://en.wikipedia.org/wiki/Isotopes_of_xenon");
 
             URL_Add("µVision", "https://en.wikipedia.org/wiki/Keil_(company)");
+
+            URL_Add("XQuery", "https://en.wikipedia.org/wiki/XQuery");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
