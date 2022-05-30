@@ -1177,6 +1177,7 @@ namespace OverflowHelper.core
             correctionAdd("MS SQL Compact edition", "SQL Server Compact");
             correctionAdd("SQL Server Compact edition", "SQL Server Compact");
             correctionAdd("sql server ce", "SQL Server Compact");
+            correctionAdd("Sql CE", "SQL Server Compact");
 
             correctionAdd("APACHE", "Apache HTTP Server");
             correctionAdd("apache", "Apache HTTP Server");
@@ -1347,6 +1348,7 @@ namespace OverflowHelper.core
             correctionAdd("somone", "someone");
             correctionAdd("someoone", "someone");
             correctionAdd("Some one", "someone");
+            correctionAdd("some1", "someone");
 
             correctionAdd("any one", "anyone");
             correctionAdd("any onw", "anyone");
@@ -4373,6 +4375,9 @@ namespace OverflowHelper.core
             correctionAdd("fast CGI", "FastCGI");
             correctionAdd("FCGI", "FastCGI");
 
+            correctionAdd("cgi", "CGI");
+            correctionAdd("Cgi", "CGI");
+
             correctionAdd("project euler", "Project Euler");
             correctionAdd("project Euler", "Project Euler");
             correctionAdd("Euler project", "Project Euler");
@@ -5440,6 +5445,7 @@ namespace OverflowHelper.core
             correctionAdd("Search Engine Optimization", "SEO");
             correctionAdd("search engine optimization", "SEO");
             correctionAdd("Seo", "SEO");
+            correctionAdd("seobility", "SEO"); // Not 100% correct
 
             correctionAdd("md5", "MD5");
             correctionAdd("md 5", "MD5");
@@ -6505,6 +6511,8 @@ namespace OverflowHelper.core
             correctionAdd("Env variable", "environment variable");
             correctionAdd("Environmental variable", "environment variable");
             correctionAdd("environmental variable", "environment variable");
+            correctionAdd("Enviornment variable", "environment variable");
+            correctionAdd("enviornment variable", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -6869,6 +6877,7 @@ namespace OverflowHelper.core
             correctionAdd("dond", "don’t");
             correctionAdd("DONT", "don’t");
             correctionAdd("Don't", "don’t");
+            correctionAdd("donn't", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -7061,6 +7070,7 @@ namespace OverflowHelper.core
             correctionAdd("pass word", "password");
             correctionAdd("passwork", "password");
             correctionAdd("Password", "password");
+            correctionAdd("passowrd", "password");
 
             correctionAdd("phonegap", "PhoneGap");
             correctionAdd("Phonegap", "PhoneGap");
@@ -9777,8 +9787,6 @@ namespace OverflowHelper.core
             correctionAdd("functionalility", "functionality");
             correctionAdd("funcitonality", "functionality");
 
-            correctionAdd("cgi", "CGI");
-
             correctionAdd("posix", "POSIX");
             correctionAdd("Posix", "POSIX");
 
@@ -11635,6 +11643,8 @@ namespace OverflowHelper.core
             correctionAdd("approssimaly", "approximately");
             correctionAdd("aproximate", "approximately"); // Not 100% correct
             correctionAdd("approximate", "approximately"); // Not 100% correct
+            correctionAdd("appx", "approximately");
+            correctionAdd("apprx", "approximately");
 
             correctionAdd("corflags", "CorFlags");
             correctionAdd("Corflags", "CorFlags");
@@ -12398,6 +12408,7 @@ namespace OverflowHelper.core
             correctionAdd("eveytime", "every time");
             correctionAdd("Every-time", "every time");
             correctionAdd("every-time", "every time");
+            correctionAdd("every timme", "every time");
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
@@ -12430,6 +12441,7 @@ namespace OverflowHelper.core
             correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
             correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
             correctionAdd("Heisenberg's Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("H.U.P", "Heisenberg's uncertainty principle");
 
             correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
 
@@ -14560,6 +14572,8 @@ namespace OverflowHelper.core
             correctionAdd("yestoday", "yesterday");
             correctionAdd("Yestoday", "yesterday");
             correctionAdd("the day before today", "yesterday");
+            correctionAdd("jesturday", "yesterday");
+            correctionAdd("jesterday", "yesterday");
 
             correctionAdd("duckduckgo", "DuckDuckGo");
             correctionAdd("duck duck go", "DuckDuckGo");
@@ -17131,6 +17145,8 @@ namespace OverflowHelper.core
             correctionAdd("simpel", "simple");
             correctionAdd("sinple", "simple");
             correctionAdd("simpal", "simple");
+            correctionAdd("Simeple", "simple");
+            correctionAdd("simeple", "simple");
 
             correctionAdd("soundcard", "sound card");
 
@@ -19979,6 +19995,8 @@ namespace OverflowHelper.core
             correctionAdd("environemtent", "environment");
             correctionAdd("Enviorment", "environment");
             correctionAdd("environemnt", "environment");
+            correctionAdd("Enviornment", "environment");
+            correctionAdd("enviornment", "environment");
 
             // Consider:
             //   weaher
@@ -20271,6 +20289,7 @@ namespace OverflowHelper.core
             correctionAdd("traying", "trying");
             correctionAdd("Tying", "trying");
             correctionAdd("tryina", "trying");
+            correctionAdd("tryiong", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -22799,6 +22818,7 @@ namespace OverflowHelper.core
             correctionAdd("VCS", "version control system"); // Expansion, actually ""
             correctionAdd("vcs", "version control system");
             correctionAdd("Version Control", "version control system");
+            correctionAdd("version-control system", "version control system");
 
             correctionAdd("sytem", "system");
             correctionAdd("sistem", "system");
@@ -25914,6 +25934,7 @@ namespace OverflowHelper.core
             correctionAdd("undefiend", "undefined");
             correctionAdd("Undifined", "undefined");
             correctionAdd("undifined", "undefined");
+            correctionAdd("undfined", "undefined");
 
             correctionAdd("understandig", "understanding");
             correctionAdd("udnerstanding", "understanding");
@@ -26118,6 +26139,7 @@ namespace OverflowHelper.core
             correctionAdd("discusion", "discussion");
             correctionAdd("discusson", "discussion");
             correctionAdd("disscusion", "discussion");
+            correctionAdd("discution", "discussion");
 
             correctionAdd("brad", "broad");
 
@@ -28832,6 +28854,8 @@ namespace OverflowHelper.core
             correctionAdd("pre-formated", "preformatted");
 
             correctionAdd("Protein", "protein");
+            correctionAdd("Protien", "protein");
+            correctionAdd("protien", "protein");
 
             correctionAdd("thankfull", "thankful");
 
@@ -29028,6 +29052,7 @@ namespace OverflowHelper.core
             correctionAdd("porpouse", "purpose");
             correctionAdd("porpuse", "purpose");
             correctionAdd("putpose", "purpose");
+            correctionAdd("purpuse", "purpose");
 
             correctionAdd("hell bent", "hell-bent");
 
@@ -32040,6 +32065,8 @@ namespace OverflowHelper.core
             correctionAdd("Burma", "Myanmar");
 
             correctionAdd("russia", "Russia");
+            correctionAdd("ruzzia", "Russia");
+            correctionAdd("Ruzzia", "Russia");
 
             correctionAdd("san francisco", "San Francisco");
 
@@ -34433,6 +34460,7 @@ namespace OverflowHelper.core
             correctionAdd("dash board", "dashboard");
 
             correctionAdd("encyrpted", "encrypted");
+            correctionAdd("ecrypted", "encrypted");
 
             correctionAdd("extarct", "extract");
             correctionAdd("extrct", "extract");
@@ -36380,6 +36408,7 @@ namespace OverflowHelper.core
 
             correctionAdd("subtile", "subtle");
             correctionAdd("sublte", "subtle");
+            correctionAdd("sutle", "subtle");
 
             correctionAdd("yess", "yes");
             correctionAdd("Yess", "yes");
@@ -38563,6 +38592,7 @@ namespace OverflowHelper.core
             correctionAdd("Data", "data");
 
             correctionAdd("findout", "find out");
+            correctionAdd("fid out", "find out");
 
             correctionAdd("howcome", "how come");
 
@@ -39748,6 +39778,7 @@ namespace OverflowHelper.core
 
             correctionAdd("py script", "PyScript");
             correctionAdd("py-script", "PyScript");
+            correctionAdd("pyscript", "PyScript");
 
             correctionAdd("react-native-cli", "React Native CLI");
             correctionAdd("React Native cli", "React Native CLI");
@@ -39887,6 +39918,33 @@ namespace OverflowHelper.core
             correctionAdd("uVision", "µVision");
 
             correctionAdd("Xquery", "XQuery");
+
+            correctionAdd("InDesign", "Adobe InDesign");
+            correctionAdd("Indesign", "Adobe InDesign");
+
+            correctionAdd("AnyCPU", "Any CPU");
+            correctionAdd("any cpu", "Any CPU");
+            correctionAdd("anycpu", "Any CPU");
+
+            correctionAdd("dubai", "Dubai");
+
+            correctionAdd("emirates", "Emirates");
+
+            correctionAdd("mauritius", "Mauritius");
+
+            correctionAdd(".NET Framework SDK", "Windows SDK");
+            correctionAdd("Windows sdk", "Windows SDK");
+            correctionAdd("Platform SDK", "Windows SDK");
+
+            correctionAdd("anwsering", "answering");
+
+            correctionAdd("formuation", "formulation");
+
+            correctionAdd("Macronutrient", "macronutrient");
+
+            correctionAdd("ptr", "pointer");
+
+            correctionAdd("schitsofrenic", "schizophrenic");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62780,6 +62838,28 @@ namespace OverflowHelper.core
 
             URL_Add("XQuery", "https://en.wikipedia.org/wiki/XQuery");
 
+            URL_Add("Adobe InDesign", "https://en.wikipedia.org/wiki/Adobe_InDesign");
+
+            URL_Add("Any CPU", "http://web.archive.org/web/20151215192101/http://visualstudiohacks.com/articles/visual-studio-net-platform-target-explained/");
+
+            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
+
+            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
+
+            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
+
+            URL_Add("Windows SDK", "https://en.wikipedia.org/wiki/Microsoft_Windows_SDK");
+
+            URL_Add("answering", "https://en.wiktionary.org/wiki/answer#Verb");
+
+            URL_Add("formulation", "https://en.wiktionary.org/wiki/formulation#Noun");
+
+            URL_Add("macronutrient", "https://en.wikipedia.org/wiki/List_of_macronutrients");
+
+            URL_Add("pointer", "https://en.wiktionary.org/wiki/pointer#Noun");
+
+            URL_Add("schizophrenic", "https://en.wiktionary.org/wiki/schizophrenic#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63454,6 +63534,8 @@ namespace OverflowHelper.core
 
             correctionAdd("isoptope_", "isotope_");
 
+            correctionAdd("rdason_", "reason_");
+
             // URL mappings
             //
             //
@@ -63870,6 +63952,8 @@ namespace OverflowHelper.core
             URL_Add("short_", "https://en.wiktionary.org/wiki/shorten#Verb");
 
             URL_Add("isotope_", "https://en.wiktionary.org/wiki/isotope#Noun");
+
+            URL_Add("reason_", "https://en.wiktionary.org/wiki/reason#Noun");
 
         } //addLookupData_alternativeWordSet()
 
