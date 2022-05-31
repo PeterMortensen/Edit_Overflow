@@ -2862,6 +2862,7 @@ namespace OverflowHelper.core
             correctionAdd("expericence", "experience");
             correctionAdd("expericense", "experience");
             correctionAdd("exeperience", "experience");
+            correctionAdd("expirience", "experience");
             //(Note: in existing group, "experience")
             //correctionAdd("exp.", "experience");
 
@@ -3192,6 +3193,15 @@ namespace OverflowHelper.core
             correctionAdd("base64_encode()", "base64_encode");
 
             correctionAdd("DMIDECODE", "dmidecode");
+
+            correctionAdd("iso", "ISO image");
+            correctionAdd("ISO", "ISO image");
+            correctionAdd("iso image", "ISO image");
+            correctionAdd("ISO-image", "ISO image");
+
+            correctionAdd("img", "image");
+            correctionAdd("Image", "image");
+            correctionAdd("imge", "image");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -5281,6 +5291,7 @@ namespace OverflowHelper.core
             correctionAdd("indefinately", "indefinitely");
             correctionAdd("indefinetly", "indefinitely");
             correctionAdd("indefinetely", "indefinitely");
+            correctionAdd("indefenetly", "indefinitely");
 
             // Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
             correctionAdd("definately", "definitely");
@@ -7520,6 +7531,7 @@ namespace OverflowHelper.core
             correctionAdd("II'm", "I’m");
             correctionAdd("I'M", "I’m");
             correctionAdd("i'n", "I’m");
+            correctionAdd("I.m", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -9876,6 +9888,7 @@ namespace OverflowHelper.core
             correctionAdd("Angular CLI", "Angular");
             correctionAdd("Angular-Cli", "Angular");
             correctionAdd("angualr", "Angular");
+            correctionAdd("angularjs ng", "Angular");
 
             // Alternative: database administration
             correctionAdd("DBA", "database administrator");
@@ -10005,6 +10018,7 @@ namespace OverflowHelper.core
             correctionAdd("Allthough", "although");
             correctionAdd("allthough", "although");
             correctionAdd("Altho", "although");
+            correctionAdd("Altough", "although");
 
             correctionAdd("Scriptaculous", "Script.aculo.us");
             correctionAdd("scriptaculous", "Script.aculo.us");
@@ -11081,14 +11095,6 @@ namespace OverflowHelper.core
             correctionAdd("winword", "Microsoft Word");
             correctionAdd("WORD", "Microsoft Word");
             correctionAdd("ms-word", "Microsoft Word");
-
-            correctionAdd("iso", "ISO image");
-            correctionAdd("ISO", "ISO image");
-            correctionAdd("iso image", "ISO image");
-            correctionAdd("ISO-image", "ISO image");
-
-            correctionAdd("img", "image");
-            correctionAdd("Image", "image");
 
             correctionAdd("Doctype", "DOCTYPE");
             correctionAdd("doctype", "DOCTYPE");
@@ -13040,6 +13046,8 @@ namespace OverflowHelper.core
             correctionAdd("asp.dot .net core", "ASP.NET Core");
             correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
             correctionAdd("ASP.net Core", "ASP.NET Core");
+            correctionAdd("ASP Net Core", "ASP.NET Core");
+            correctionAdd("ASP .Net Core", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -17567,6 +17575,7 @@ namespace OverflowHelper.core
             correctionAdd("Execurte", "execute");
             correctionAdd("execurte", "execute");
             correctionAdd("exwcute", "execute");
+            correctionAdd("exicute", "execute");
 
             correctionAdd("extremeties", "extremities");
             correctionAdd("extremitys", "extremities");
@@ -29161,6 +29170,7 @@ namespace OverflowHelper.core
             correctionAdd("Loch Ness", "Loch Ness Monster");
 
             correctionAdd("cicle", "circle");
+            correctionAdd("cirlce", "circle");
 
             correctionAdd("crasiness", "craziness");
 
@@ -29567,6 +29577,8 @@ namespace OverflowHelper.core
             correctionAdd("thumbnale", "thumbnail");
             correctionAdd("Thumbnale", "thumbnail");
             correctionAdd("thuimbnail", "thumbnail");
+            correctionAdd("Thumnail", "thumbnail");
+            correctionAdd("thumnail", "thumbnail");
 
             correctionAdd("nih", "NIH");
 
@@ -39945,6 +39957,23 @@ namespace OverflowHelper.core
             correctionAdd("ptr", "pointer");
 
             correctionAdd("schitsofrenic", "schizophrenic");
+
+            correctionAdd("budgie", "Budgie");
+
+            correctionAdd("Clean architecture", "Clean Architecture");
+
+            correctionAdd("IJW", "It Just Works");
+
+            correctionAdd("Pythagoras' theorem", "Pythagorean theorem");
+            correctionAdd("pythagorean theorem", "Pythagorean theorem");
+
+            correctionAdd("heart-ache", "heartache");
+
+            correctionAdd("lower than expected", "lower-than-expected");
+
+            correctionAdd("marshaled", "marshalled");
+
+            correctionAdd("tm", "trademark");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62860,6 +62889,22 @@ namespace OverflowHelper.core
 
             URL_Add("schizophrenic", "https://en.wiktionary.org/wiki/schizophrenic#Adjective");
 
+            URL_Add("Budgie", "https://en.wikipedia.org/wiki/Budgie_(desktop_environment)");
+
+            URL_Add("Clean Architecture", "https://en.wikipedia.org/wiki/Robert_C._Martin#Publications");
+
+            URL_Add("It Just Works", "https://docs.microsoft.com/en-us/cpp/dotnet/calling-native-functions-from-managed-code");
+
+            URL_Add("Pythagorean theorem", "https://en.wikipedia.org/wiki/Pythagorean_theorem");
+
+            URL_Add("heartache", "https://en.wiktionary.org/wiki/heartache#Noun");
+
+            URL_Add("lower-than-expected", "https://dictionary.cambridge.org/dictionary/english/lower-than-expected");
+
+            URL_Add("marshalled", "https://en.wiktionary.org/wiki/marshalled#Verb");
+
+            URL_Add("trademark", "https://en.wikipedia.org/wiki/Trademark_symbol");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63089,6 +63134,7 @@ namespace OverflowHelper.core
             correctionAdd("one line_", "one-line_");
 
             correctionAdd("basic_", "101_");
+            correctionAdd("one oh one_", "101_");
 
             correctionAdd("Photosphere_", "Photo Sphere_");
             correctionAdd("photosphere_", "Photo Sphere_");
@@ -63536,6 +63582,8 @@ namespace OverflowHelper.core
 
             correctionAdd("rdason_", "reason_");
 
+            correctionAdd("Parallel_", "parallel_");
+
             // URL mappings
             //
             //
@@ -63954,6 +64002,8 @@ namespace OverflowHelper.core
             URL_Add("isotope_", "https://en.wiktionary.org/wiki/isotope#Noun");
 
             URL_Add("reason_", "https://en.wiktionary.org/wiki/reason#Noun");
+
+            URL_Add("parallel_", "https://en.wiktionary.org/wiki/parallel#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
