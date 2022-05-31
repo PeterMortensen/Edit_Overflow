@@ -1468,10 +1468,10 @@ function wordListExport()
     #
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
     time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
-    
+
     # Note: Because we immediately check for the exit code (and
     #       exit the entire build script if it is not 0), we
-    #       will never get here in case of an error, e.g. 
+    #       will never get here in case of an error, e.g.
     #       to output the content of ${STDERR_FILE}...
 
 
@@ -1790,6 +1790,25 @@ sudo cp $SRCFOLDER_WEB/eFooter.php                      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/StringReplacerWithRegex.php      $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/commonEnd.php                    $LOCAL_WEBSERVER_FOLDER
 
+# While we are at it, save a copy of the word data
+# file, so we don't lose changes due to bad UX for
+# the version control system, etc...
+#
+# Note that we do have a copy in the work folder, but
+# this is less clear than having a copy with a date
+# stamp in the file name. It is also overwritten
+# every time we run the build script.
+#
+# For now, one above the folder under Git source control.
+# But we should find a better place to copy it to.
+#
+# TermData.cs is in
+# Edit_Overflow/Dot_NET/OverflowHelper/OverflowHelper/Source/main/TermData.cs
+#
+# "absoluteTimestamp" is our function, defined in this file.
+#
+#                                                   So Ov Ov Do Ed Parent
+cp $SRCFOLDER_CORE/TermData.cs   "${SRCFOLDER_CORE}/../../../../../../TermData_$(absoluteTimestamp).cs"
 
 
 # ######################################################################
@@ -2537,7 +2556,7 @@ rm $JAVASCRIPT_FILE
 #       2022-01-25: 2512025 bytes
 #
 # Note: The same build number
-wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2610000 2880000
+wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2660000 2940000
 
 #exit
 
