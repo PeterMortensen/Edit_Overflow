@@ -2478,6 +2478,7 @@ namespace OverflowHelper.core
             correctionAdd("sof rec", "Software Recommendations (Stack Exchange site)");
             correctionAdd("software recs", "Software Recommendations (Stack Exchange site)");
             correctionAdd("Software Recommendations", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("soft rec", "Software Recommendations (Stack Exchange site)");
 
             correctionAdd("code review", "Code Review (Stack Exchange site)");
             correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
@@ -11718,6 +11719,8 @@ namespace OverflowHelper.core
             correctionAdd("tought", "thought");
             correctionAdd("thaut", "thought");
             correctionAdd("thaught", "thought");
+            correctionAdd("thot", "thought");
+            correctionAdd("thout", "thought");
 
             correctionAdd("idl", "IDL");
 
@@ -12603,6 +12606,7 @@ namespace OverflowHelper.core
             correctionAdd("Compatiblity", "compatibility");
             correctionAdd("comptability", "compatibility");
             correctionAdd("Compatibly", "compatibility");
+            correctionAdd("competability", "compatibility");
 
             correctionAdd("compatable", "compatible");
             correctionAdd("compatibile", "compatible");
@@ -13958,6 +13962,7 @@ namespace OverflowHelper.core
             correctionAdd("Continuous Deployment", "continuous deployment");
 
             correctionAdd("CRONTAB", "crontab");
+            correctionAdd("crontad", "crontab");
 
             correctionAdd("de-facto", "de facto");
             correctionAdd("defacto", "de facto");
@@ -15878,6 +15883,7 @@ namespace OverflowHelper.core
             correctionAdd("writting", "writing");
             correctionAdd("writtitng", "writing");
             correctionAdd("wrting", "writing");
+            correctionAdd("witting", "writing");
 
             correctionAdd("vagrant", "Vagrant");
 
@@ -18826,6 +18832,7 @@ namespace OverflowHelper.core
             correctionAdd("mentionmed", "mentioned");
             correctionAdd("mentionend", "mentioned");
             correctionAdd("mensioned", "mentioned");
+            correctionAdd("meantioned", "mentioned");
 
             correctionAdd("predicatbly", "predictably");
 
@@ -18977,6 +18984,7 @@ namespace OverflowHelper.core
             correctionAdd("interger", "integer");
             correctionAdd("intger", "integer");
             correctionAdd("Integer", "integer");
+            correctionAdd("intreger", "integer");
 
             correctionAdd("interferring", "interfering");
 
@@ -37205,6 +37213,7 @@ namespace OverflowHelper.core
             correctionAdd("ROP", "render output unit");
 
             correctionAdd("Rocket Science", "rocket science");
+            correctionAdd("rocket sience", "rocket science");
 
             correctionAdd("screenscraping", "screen-scraping");
             correctionAdd("Screen-scraping", "screen-scraping");
@@ -39623,6 +39632,7 @@ namespace OverflowHelper.core
             correctionAdd("Clean code", "Clean Code");
 
             correctionAdd("expo", "Expo");
+            correctionAdd("EXPO", "Expo");
 
             correctionAdd("Jcreator lite", "JCreator Lite Edition (LE)");
 
@@ -39974,6 +39984,34 @@ namespace OverflowHelper.core
             correctionAdd("marshaled", "marshalled");
 
             correctionAdd("tm", "trademark");
+
+            correctionAdd("Apartment", "COM apartment threading");
+            correctionAdd("apartment", "COM apartment threading");
+
+            correctionAdd("STA", "Single-Threaded Apartment");
+
+            correctionAdd("NA", "Thread Neutral Apartment");
+
+            correctionAdd("curropted", "corrupted");
+
+            correctionAdd("deploye", "deploy");
+
+            correctionAdd("East", "east");
+
+            correctionAdd("eitherway", "either way");
+            correctionAdd("Eitherway", "either way");
+
+            correctionAdd("gestrophic wind", "geostrophic wind");
+
+            correctionAdd("monstrocity", "monstrosity");
+
+            correctionAdd("quiet point", "quiescent point");
+
+            correctionAdd("West", "west");
+
+            correctionAdd("witting on the wall", "writing on the wall");
+
+            correctionAdd("zeero", "zero");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62905,6 +62943,32 @@ namespace OverflowHelper.core
 
             URL_Add("trademark", "https://en.wikipedia.org/wiki/Trademark_symbol");
 
+            URL_Add("COM apartment threading", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
+
+            URL_Add("Single-Threaded Apartment", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
+
+            URL_Add("Thread Neutral Apartment", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
+
+            URL_Add("corrupted", "https://en.wiktionary.org/wiki/corrupted#Adjective");
+
+            URL_Add("deploy", "https://en.wiktionary.org/wiki/deploy#Verb");
+
+            URL_Add("east", "https://en.wiktionary.org/wiki/east#Noun");
+
+            URL_Add("either way", "https://en.wiktionary.org/wiki/either_way#Adverb");
+
+            URL_Add("geostrophic wind", "https://en.wikipedia.org/wiki/Geostrophic_wind");
+
+            URL_Add("monstrosity", "https://en.wiktionary.org/wiki/monstrosity#Noun");
+
+            URL_Add("quiescent point", "https://en.wikipedia.org/wiki/Bipolar_transistor_biasing");
+
+            URL_Add("west", "https://en.wiktionary.org/wiki/west#Noun");
+
+            URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
+
+            URL_Add("zero", "https://en.wiktionary.org/wiki/zero#Numeral_2");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63584,6 +63648,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Parallel_", "parallel_");
 
+            correctionAdd("MTA_", "Multi-Threaded Apartment_");
+
             // URL mappings
             //
             //
@@ -64004,6 +64070,8 @@ namespace OverflowHelper.core
             URL_Add("reason_", "https://en.wiktionary.org/wiki/reason#Noun");
 
             URL_Add("parallel_", "https://en.wiktionary.org/wiki/parallel#Adjective");
+
+            URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
 
         } //addLookupData_alternativeWordSet()
 
