@@ -5394,6 +5394,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Wamp", "WAMP");
             correctionAdd("wamp", "WAMP");
+            correctionAdd("WAMPP", "WAMP");
 
             correctionAdd("godaddy", "GoDaddy");
             correctionAdd("goaddy", "GoDaddy");
@@ -16318,6 +16319,7 @@ namespace OverflowHelper.core
             correctionAdd("rememeber", "remember");
             correctionAdd("rememebr", "remember");
             correctionAdd("remembr", "remember");
+            correctionAdd("remmeber", "remember");
 
             correctionAdd("re-written", "rewritten");
             correctionAdd("Re-written", "rewritten");
@@ -27521,6 +27523,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fallowed", "followed");
             correctionAdd("followd", "followed");
+            correctionAdd("folowed", "followed");
 
             correctionAdd("lca", "lowest common ancestor");
             correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
@@ -40012,6 +40015,13 @@ namespace OverflowHelper.core
             correctionAdd("witting on the wall", "writing on the wall");
 
             correctionAdd("zeero", "zero");
+
+            correctionAdd("DNNE", ".NET native exports");
+
+            correctionAdd("socratic", "Socratic");
+
+            correctionAdd("coll", "cool");
+            correctionAdd("Coll", "cool");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62968,6 +62978,12 @@ namespace OverflowHelper.core
             URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
 
             URL_Add("zero", "https://en.wiktionary.org/wiki/zero#Numeral_2");
+
+            URL_Add(".NET native exports", "https://github.com/AaronRobinsonMSFT/DNNE");
+
+            URL_Add("Socratic", "https://en.wikipedia.org/wiki/Socratic_method");
+
+            URL_Add("cool", "https://en.wiktionary.org/wiki/cool#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
