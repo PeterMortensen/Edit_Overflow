@@ -7027,6 +7027,8 @@ namespace OverflowHelper.core
 
             correctionAdd("asymetric", "asymmetric");
             correctionAdd("unsymmetric", "asymmetric");
+            correctionAdd("assymetric", "asymmetric");
+            correctionAdd("assymmetric", "asymmetric");
 
             correctionAdd("MS", "Microsoft"); // Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
             correctionAdd("ms", "Microsoft"); // Overloaded term!!. Mass spectrometry, multiple sclerosis, master of science, millisecond, etc.
@@ -10834,6 +10836,7 @@ namespace OverflowHelper.core
             correctionAdd("garunteed", "guarantee");
             correctionAdd("guatantee", "guarantee");
             correctionAdd("guarante", "guarantee");
+            correctionAdd("gurantee", "guarantee");
 
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
@@ -13986,6 +13989,7 @@ namespace OverflowHelper.core
             correctionAdd("nuff", "enough");
             correctionAdd("anough", "enough");
             correctionAdd("enaought", "enough");
+            correctionAdd("enaugh", "enough");
 
             correctionAdd("exisiting", "existing");
             correctionAdd("exsiting", "existing");
@@ -14857,6 +14861,7 @@ namespace OverflowHelper.core
             correctionAdd("Teamcity", "TeamCity");
             correctionAdd("teamcity", "TeamCity");
             correctionAdd("Team City", "TeamCity");
+            correctionAdd("team-city", "TeamCity");
 
             correctionAdd("dicovered", "discovered");
             correctionAdd("discoverd", "discovered");
@@ -18691,6 +18696,9 @@ namespace OverflowHelper.core
 
             correctionAdd("often times", "oftentimes");
             correctionAdd("Often times", "oftentimes");
+            correctionAdd("Often time", "oftentimes");
+            correctionAdd("often time", "oftentimes");
+            correctionAdd("oftentime", "oftentimes");
 
             correctionAdd("cisco", "Cisco");
             correctionAdd("CISCO", "Cisco");
@@ -20245,6 +20253,7 @@ namespace OverflowHelper.core
             correctionAdd("plaigarism", "plagiarism");
             correctionAdd("plagariasm", "plagiarism");
             correctionAdd("plagorism", "plagiarism");
+            correctionAdd("plagiasrism", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -24477,6 +24486,8 @@ namespace OverflowHelper.core
             correctionAdd("siriously", "seriously");
             correctionAdd("Seriosuly", "seriously");
             correctionAdd("seriosuly", "seriously");
+            correctionAdd("seriosly", "seriously");
+            correctionAdd("seriuosly", "seriously");
 
             correctionAdd("unvind", "unwind");
 
@@ -24810,6 +24821,7 @@ namespace OverflowHelper.core
             correctionAdd("realive", "relative");
 
             correctionAdd("re-start", "restart");
+            correctionAdd("retart", "restart");
 
             correctionAdd("sice", "since");
             correctionAdd("sonce", "since");
@@ -33256,6 +33268,7 @@ namespace OverflowHelper.core
             correctionAdd("Buck converter", "buck converter");
 
             correctionAdd("deplyoment", "deployment");
+            correctionAdd("deployement", "deployment");
 
             correctionAdd("jerry-rigged", "jury-rigged");
 
@@ -40022,6 +40035,52 @@ namespace OverflowHelper.core
 
             correctionAdd("coll", "cool");
             correctionAdd("Coll", "cool");
+
+            correctionAdd("a5", "A5");
+
+            correctionAdd("AES 256", "AES-256");
+            correctionAdd("aes-256", "AES-256");
+            correctionAdd("aes 256", "AES-256");
+
+            correctionAdd("APC", "Alternative PHP Cache");
+
+            correctionAdd("blow fish", "Blowfish");
+            correctionAdd("blowfish", "Blowfish");
+
+            correctionAdd("ecb", "ECB");
+
+            correctionAdd("mcrypt", "Mcrypt");
+
+            correctionAdd("pkcs", "PKCS");
+
+            correctionAdd("Paul Horowitz and Winfield Hill", "The Art of Electronics");
+            correctionAdd("H&H", "The Art of Electronics");
+
+            correctionAdd("XOR Cipher", "XOR cipher");
+
+            correctionAdd("Cipher", "cipher");
+
+            correctionAdd("clea", "clear");
+
+            correctionAdd("Cryptographically Secure", "cryptographically secure");
+
+            correctionAdd("excentricity", "eccentricity");
+
+            correctionAdd("unflexible", "inflexible");
+
+            correctionAdd("kdf", "key derivation function");
+            correctionAdd("KDF", "key derivation function");
+
+            correctionAdd("OTP", "one-time pad");
+            correctionAdd("OneTimePad", "one-time pad");
+            correctionAdd("One Time Pad", "one-time pad");
+            correctionAdd("one time pad", "one-time pad");
+
+            correctionAdd("pritned", "printed");
+
+            correctionAdd("Privilege Escalation", "privilege escalation");
+
+            correctionAdd("Replay Attack", "replay attack");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62984,6 +63043,44 @@ namespace OverflowHelper.core
             URL_Add("Socratic", "https://en.wikipedia.org/wiki/Socratic_method");
 
             URL_Add("cool", "https://en.wiktionary.org/wiki/cool#Adjective");
+
+            URL_Add("A5", "https://en.wikipedia.org/wiki/ISO_216#Dimensions_of_A,_B_and_C_series");
+
+            URL_Add("AES-256", "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard");
+
+            URL_Add("Alternative PHP Cache", "https://en.wikipedia.org/wiki/List_of_PHP_accelerators#Alternative_PHP_Cache_(APC)");
+
+            URL_Add("Blowfish", "https://en.wikipedia.org/wiki/Blowfish_(cipher)");
+
+            URL_Add("ECB", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Electronic_codebook_(ECB)");
+
+            URL_Add("Mcrypt", "https://www.php.net/manual/en/book.mcrypt.php");
+
+            URL_Add("PKCS", "https://en.wikipedia.org/wiki/PKCS");
+
+            URL_Add("The Art of Electronics", "https://en.wikipedia.org/wiki/The_Art_of_Electronics");
+
+            URL_Add("XOR cipher", "https://en.wikipedia.org/wiki/XOR_cipher");
+
+            URL_Add("cipher", "https://en.wikipedia.org/wiki/Cipher");
+
+            URL_Add("clear", "https://en.wiktionary.org/wiki/clear#Adjective");
+
+            URL_Add("cryptographically secure", "https://en.wikipedia.org/wiki/Cryptographically-secure_pseudorandom_number_generator");
+
+            URL_Add("eccentricity", "https://en.wiktionary.org/wiki/eccentricity#Noun");
+
+            URL_Add("inflexible", "https://en.wiktionary.org/wiki/inflexible#Adjective");
+
+            URL_Add("key derivation function", "https://en.wikipedia.org/wiki/Key_derivation_function");
+
+            URL_Add("one-time pad", "https://en.wikipedia.org/wiki/One-time_pad");
+
+            URL_Add("printed", "https://en.wiktionary.org/wiki/print#Verb");
+
+            URL_Add("privilege escalation", "https://en.wikipedia.org/wiki/Privilege_escalation");
+
+            URL_Add("replay attack", "https://en.wikipedia.org/wiki/Replay_attack");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
