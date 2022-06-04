@@ -11689,6 +11689,7 @@ namespace OverflowHelper.core
             correctionAdd("LittleEndian", "little-endian");
             correctionAdd("littleendian", "little-endian");
             correctionAdd("little endian", "little-endian");
+            correctionAdd("LE", "little-endian");
 
             correctionAdd("fits", "FITS");
 
@@ -13182,6 +13183,62 @@ namespace OverflowHelper.core
             correctionAdd("THanks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
+
+            correctionAdd("interop", "interoperability");
+
+            correctionAdd("useability", "usability");
+
+            correctionAdd("permiability", "permeability");
+
+            correctionAdd("readbility", "readability");
+            correctionAdd("readibility", "readability");
+            correctionAdd("readabilty", "readability");
+
+            correctionAdd("stabilty", "stability");
+            correctionAdd("staibility", "stability");
+
+            correctionAdd("searcheability", "searchability");
+
+            correctionAdd("probablity", "probability");
+
+            correctionAdd("invitability", "inevitability");
+
+            correctionAdd("re-usability", "reusability");
+
+            correctionAdd("repeatibility", "repeatability");
+            correctionAdd("Repeatability", "repeatability");
+            correctionAdd("repeatebility", "repeatability");
+
+            correctionAdd("abillity", "ability");
+            correctionAdd("ablity", "ability");
+
+            correctionAdd("unpredicability", "unpredictability");
+
+            correctionAdd("managebility", "manageability");
+
+            correctionAdd("log4j-vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4shell vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4shell", "Log4Shell vulnerability");
+            correctionAdd("Log4Shell", "Log4Shell vulnerability");
+            correctionAdd("Log4shell", "Log4Shell vulnerability");
+            correctionAdd("CVE-2021-44228", "Log4Shell vulnerability");
+            correctionAdd("cve-2021-44228", "Log4Shell vulnerability");
+            correctionAdd("log4j Security Vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("log4j security vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j Security Vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j security vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j security vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4j security vulnerability", "Log4Shell vulnerability");
+            correctionAdd("Log4j vuln", "Log4Shell vulnerability");
+
+            correctionAdd("enforcability", "enforceability");
+
+            correctionAdd("HA", "high availability");
+
+            correctionAdd("immutablity", "immutability");
+            correctionAdd("imutablity", "immutability");
+
+            correctionAdd("maneuverability", "manoeuvrability");
 
             correctionAdd("collegaue", "colleague");
             correctionAdd("collegue", "colleague");
@@ -19871,8 +19928,6 @@ namespace OverflowHelper.core
 
             correctionAdd("yeoman", "Yeoman");
 
-            correctionAdd("interop", "interoperability");
-
             correctionAdd("RTM", "release to manufacturing");
 
             correctionAdd("ZX 81", "ZX81");
@@ -20430,8 +20485,6 @@ namespace OverflowHelper.core
             correctionAdd("University", "university");
             correctionAdd("univ", "university");
             correctionAdd("Uni", "university");
-
-            correctionAdd("useability", "usability");
 
             correctionAdd("emphasizing", "emphasising");
 
@@ -24124,8 +24177,6 @@ namespace OverflowHelper.core
 
             correctionAdd("partizan", "partisan");
 
-            correctionAdd("permiability", "permeability");
-
             correctionAdd("non native", "non-native");
             correctionAdd("not native", "non-native");
             correctionAdd("nonnative", "non-native");
@@ -24812,10 +24863,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pre install", "preinstall");
             correctionAdd("pre-install", "preinstall");
-
-            correctionAdd("readbility", "readability");
-            correctionAdd("readibility", "readability");
-            correctionAdd("readabilty", "readability");
 
             correctionAdd("relaive", "relative");
             correctionAdd("realive", "relative");
@@ -26274,9 +26321,6 @@ namespace OverflowHelper.core
             correctionAdd("Procedural programming", "procedural programming");
             correctionAdd("Procedural Programming", "procedural programming");
 
-            correctionAdd("stabilty", "stability");
-            correctionAdd("staibility", "stability");
-
             correctionAdd("Electronics", "electronics");
 
             correctionAdd("soft more", "sophomore");
@@ -26642,8 +26686,6 @@ namespace OverflowHelper.core
             correctionAdd("non professional", "nonprofessional");
 
             correctionAdd("oversite", "oversight");
-
-            correctionAdd("searcheability", "searchability");
 
             correctionAdd("transmites", "transmits");
 
@@ -28467,8 +28509,6 @@ namespace OverflowHelper.core
             correctionAdd("disclamer", "disclaimer");
             correctionAdd("Disclamer", "disclaimer");
 
-            correctionAdd("probablity", "probability");
-
             correctionAdd("re-emergence", "reemergence");
             correctionAdd("Re-emergence", "reemergence");
 
@@ -28822,8 +28862,6 @@ namespace OverflowHelper.core
             correctionAdd("restrication", "restriction");
             correctionAdd("Restriccione", "restriction");
             correctionAdd("restrction", "restriction");
-
-            correctionAdd("re-usability", "reusability");
 
             correctionAdd("serialization", "serialisation");
             correctionAdd("Searialization", "serialisation");
@@ -30113,8 +30151,6 @@ namespace OverflowHelper.core
 
             correctionAdd("horde", "hoard");
 
-            correctionAdd("invitability", "inevitability");
-
             correctionAdd("re-compile", "recompile");
 
             correctionAdd("tbqh", "to be quite honest");
@@ -30620,10 +30656,6 @@ namespace OverflowHelper.core
 
             correctionAdd("justfiy", "justify");
 
-            correctionAdd("repeatibility", "repeatability");
-            correctionAdd("Repeatability", "repeatability");
-            correctionAdd("repeatebility", "repeatability");
-
             correctionAdd("sprincle", "sprinkle");
 
             correctionAdd("wapon", "weapon");
@@ -31024,8 +31056,6 @@ namespace OverflowHelper.core
             correctionAdd("PFC", "power-factor correction");
             correctionAdd("power factor correction", "power-factor correction");
             correctionAdd("pfc", "power-factor correction");
-
-            correctionAdd("abillity", "ability");
 
             correctionAdd("cps", "continuation-passing style");
             correctionAdd("CPS", "continuation-passing style");
@@ -32180,8 +32210,6 @@ namespace OverflowHelper.core
 
             correctionAdd("teamplayer", "team player");
 
-            correctionAdd("unpredicability", "unpredictability");
-
             correctionAdd("vecorized", "vectorized");
 
             correctionAdd("csc", "CSC");
@@ -32664,8 +32692,6 @@ namespace OverflowHelper.core
 
             correctionAdd("anti matter", "antimatter");
             correctionAdd("anti-matter", "antimatter");
-
-            correctionAdd("managebility", "manageability");
 
             correctionAdd("pre selected", "preselected");
 
@@ -36132,21 +36158,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jndi", "JNDI");
 
-            correctionAdd("log4j-vulnerability", "Log4Shell vulnerability");
-            correctionAdd("log4shell vulnerability", "Log4Shell vulnerability");
-            correctionAdd("log4shell", "Log4Shell vulnerability");
-            correctionAdd("Log4Shell", "Log4Shell vulnerability");
-            correctionAdd("Log4shell", "Log4Shell vulnerability");
-            correctionAdd("CVE-2021-44228", "Log4Shell vulnerability");
-            correctionAdd("cve-2021-44228", "Log4Shell vulnerability");
-            correctionAdd("log4j Security Vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("log4j security vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("Log4j Security Vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("Log4j security vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("Log4j security vulnerability", "Log4Shell vulnerability");
-            correctionAdd("log4j security vulnerability", "Log4Shell vulnerability");
-            correctionAdd("Log4j vuln", "Log4Shell vulnerability");
-
             correctionAdd("log4j", "Log4j");
             correctionAdd("Log4J", "Log4j");
             correctionAdd("L4J", "Log4j");
@@ -37379,8 +37390,6 @@ namespace OverflowHelper.core
 
             correctionAdd("build-system", "build system");
 
-            correctionAdd("enforcability", "enforceability");
-
             correctionAdd("FFWD", "fast forward");
 
             correctionAdd("ILS", "instrument landing system");
@@ -37859,8 +37868,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Architecting", "architecting");
 
-            correctionAdd("HA", "high availability");
-
             correctionAdd("Load Balancing", "load balancing");
 
             correctionAdd("Phonon", "phonon");
@@ -38196,6 +38203,7 @@ namespace OverflowHelper.core
             correctionAdd("csharp-lang", "```lang-csharp");
             correctionAdd("lang-csharp", "```lang-csharp");
             correctionAdd("lang-sharp", "```lang-csharp");
+            correctionAdd("lang-cs", "```lang-csharp");
 
             correctionAdd("java-lang", "```lang-java");
             correctionAdd("lang-java", "```lang-java");
@@ -38321,9 +38329,6 @@ namespace OverflowHelper.core
             correctionAdd("all mighty", "almighty");
 
             correctionAdd("fregment", "fragment");
-
-            correctionAdd("immutablity", "immutability");
-            correctionAdd("imutablity", "immutability");
 
             correctionAdd("mail", "mail()");
 
@@ -38706,8 +38711,6 @@ namespace OverflowHelper.core
             correctionAdd("along side", "alongside");
 
             correctionAdd("indispensible", "indispensable");
-
-            correctionAdd("maneuverability", "manoeuvrability");
 
             correctionAdd("sweetspot", "sweet spot");
 
@@ -40081,6 +40084,16 @@ namespace OverflowHelper.core
             correctionAdd("Privilege Escalation", "privilege escalation");
 
             correctionAdd("Replay Attack", "replay attack");
+
+            correctionAdd("itanium", "Itanium");
+
+            correctionAdd("q12", "Q12");
+
+            correctionAdd("q6600", "Q6600");
+
+            correctionAdd("fixedpoint", "fixed-point");
+
+            correctionAdd("performent", "performant");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63082,6 +63095,16 @@ namespace OverflowHelper.core
 
             URL_Add("replay attack", "https://en.wikipedia.org/wiki/Replay_attack");
 
+            URL_Add("Itanium", "https://en.wikipedia.org/wiki/Itanium");
+
+            URL_Add("Q12", "https://en.wikipedia.org/wiki/Q_%28number_format%29#Texas_Instruments_version");
+
+            URL_Add("Q6600", "https://en.wikipedia.org/wiki/Kentsfield_%28microprocessor%29");
+
+            URL_Add("fixed-point", "https://en.wiktionary.org/wiki/fixed-point#Adjective");
+
+            URL_Add("performant", "https://en.wiktionary.org/wiki/performant#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63763,6 +63786,11 @@ namespace OverflowHelper.core
 
             correctionAdd("MTA_", "Multi-Threaded Apartment_");
 
+            correctionAdd("floating-point_", "floating point_");
+            correctionAdd("fp_", "floating point_");
+
+            correctionAdd("RTS_", "real-time strategy_");
+
             // URL mappings
             //
             //
@@ -64185,6 +64213,10 @@ namespace OverflowHelper.core
             URL_Add("parallel_", "https://en.wiktionary.org/wiki/parallel#Adjective");
 
             URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
+
+            URL_Add("floating point_", "https://en.wiktionary.org/wiki/floating_point#Adjective");
+
+            URL_Add("real-time strategy_", "https://en.wikipedia.org/wiki/Real-time_strategy");
 
         } //addLookupData_alternativeWordSet()
 
