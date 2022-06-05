@@ -2842,6 +2842,7 @@ namespace OverflowHelper.core
             correctionAdd("explainn", "explain");
             correctionAdd("explanin", "explain");
             correctionAdd("expain", "explain");
+            correctionAdd("explaien", "explain");
 
             correctionAdd("explicitely", "explicitly");
             correctionAdd("expicitely", "explicitly");
@@ -3052,6 +3053,7 @@ namespace OverflowHelper.core
             correctionAdd("qrcode", "QR code");
             correctionAdd("QR Code", "QR code");
             correctionAdd("QRCode", "QR code");
+            correctionAdd("QR", "QR code");
 
             correctionAdd("pseudo code", "pseudocode");
             correctionAdd("Pseudo Code", "pseudocode");
@@ -8581,6 +8583,9 @@ namespace OverflowHelper.core
             correctionAdd("Domain Controller", "domain controller");
             correctionAdd("Domain controller", "domain controller");
             correctionAdd("d/c", "domain controller");
+            correctionAdd("Windows domain", "domain controller");
+            correctionAdd("domain server", "domain controller");
+            correctionAdd("Windows domain server", "domain controller");
 
             correctionAdd("Power Grep", "PowerGREP");
             correctionAdd("powergrep", "PowerGREP");
@@ -9284,6 +9289,8 @@ namespace OverflowHelper.core
             // "Atmel SAM-BA In-system Programmer", <http://www.atmel.com/tools/ATMELSAM-BAIN-SYSTEMPROGRAMMER.aspx>.
             correctionAdd("SAMBA", "Samba");
             correctionAdd("samba", "Samba");
+            correctionAdd("SMB", "Samba");
+            correctionAdd("smb", "Samba");
 
             correctionAdd("colo", "colocation centre");
 
@@ -10569,6 +10576,7 @@ namespace OverflowHelper.core
             correctionAdd("visualStudio", "Visual&nbsp;Studio");
             correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
             correctionAdd("sudio", "Visual&nbsp;Studio");
+            correctionAdd("Visaul Studio", "Visual&nbsp;Studio");
 
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -14067,6 +14075,7 @@ namespace OverflowHelper.core
             correctionAdd("paraghaph", "paragraph");
             correctionAdd("pagagraph", "paragraph");
             correctionAdd("aragraph", "paragraph");
+            correctionAdd("pardagraph", "paragraph");
 
             correctionAdd("readonly", "read-only");
             correctionAdd("RO", "read-only");
@@ -14959,6 +14968,8 @@ namespace OverflowHelper.core
             correctionAdd("solulution", "solution");
             correctionAdd("solotion", "solution");
             correctionAdd("sotlution", "solution");
+            correctionAdd("Solutution", "solution");
+            correctionAdd("solutution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -16488,6 +16499,7 @@ namespace OverflowHelper.core
             correctionAdd("VS 2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("2019", "Visual&nbsp;Studio&nbsp;2019");
             correctionAdd("visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visaul Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
 
             correctionAdd("xor", "XOR");
             correctionAdd("Xor", "XOR");
@@ -18259,6 +18271,7 @@ namespace OverflowHelper.core
             correctionAdd("vreate", "create");
             correctionAdd("reate", "create");
             correctionAdd("Crate", "create");
+            correctionAdd("credate", "create");
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
@@ -21193,6 +21206,7 @@ namespace OverflowHelper.core
             correctionAdd("ExFat", "exFAT");
             correctionAdd("exfat", "exFAT");
             correctionAdd("EXFAT", "exFAT");
+            correctionAdd("ExFAT", "exFAT");
 
             correctionAdd("humor", "humour");
             correctionAdd("homour", "humour");
@@ -22717,6 +22731,7 @@ namespace OverflowHelper.core
             correctionAdd("Shindler's list", "Schindler's List");
 
             correctionAdd("SM", "Scrum master");
+            correctionAdd("scrum master", "Scrum master");
 
             correctionAdd("beleives", "believes");
 
@@ -26266,6 +26281,7 @@ namespace OverflowHelper.core
             correctionAdd("wes", "was");
             correctionAdd("wass", "was");
             correctionAdd("wad", "was");
+            correctionAdd("waa", "was");
 
             correctionAdd("ipaas", "iPaaS");
 
@@ -28687,6 +28703,7 @@ namespace OverflowHelper.core
             correctionAdd("thuis", "this");
             correctionAdd("tjis", "this");
             correctionAdd("sthis", "this");
+            correctionAdd("tyis", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -28989,6 +29006,7 @@ namespace OverflowHelper.core
             correctionAdd("combos", "combinations");
 
             correctionAdd("execeuting", "executing");
+            correctionAdd("executiong", "executing");
 
             correctionAdd("forgetten", "forgotten");
 
@@ -35262,6 +35280,7 @@ namespace OverflowHelper.core
 
             correctionAdd("black and white", "black-and-white");
             correctionAdd("B&W", "black-and-white");
+            correctionAdd("b&w", "black-and-white");
 
             correctionAdd("DEI", "diversity, equity, and inclusion");
 
@@ -35722,6 +35741,8 @@ namespace OverflowHelper.core
             correctionAdd("mindlesslly", "mindlessly");
 
             correctionAdd("reliablle", "reliable");
+            correctionAdd("relailable", "reliable");
+            correctionAdd("relilable", "reliable");
 
             correctionAdd("second worst", "second-worst");
 
@@ -39058,6 +39079,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
             correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
 
             correctionAdd("lang-c", "```lang-c");
 
@@ -39490,6 +39512,7 @@ namespace OverflowHelper.core
             correctionAdd("Twit", "TWiT");
 
             correctionAdd("uv mapping", "UV mapping");
+            correctionAdd("uv", "UV mapping");
 
             correctionAdd("care taking", "caretaking");
 
@@ -40094,6 +40117,37 @@ namespace OverflowHelper.core
             correctionAdd("fixedpoint", "fixed-point");
 
             correctionAdd("performent", "performant");
+
+            correctionAdd("acars", "ACARS");
+
+            correctionAdd("hf", "HF");
+
+            correctionAdd("KeePass", "KeePassXC");
+
+            correctionAdd("Forge", "Laravel Forge");
+
+            correctionAdd("vhf", "VHF");
+
+            correctionAdd("voronoi", "Voronoi diagram");
+
+            correctionAdd("cahode", "cathode");
+
+            correctionAdd("daily standup", "daily stand-up meeting");
+
+            correctionAdd("explaiend", "explained");
+
+            correctionAdd("less more", "fewer");
+
+            correctionAdd("ico-sphere", "icosphere");
+
+            correctionAdd("kluging", "kludging");
+
+            correctionAdd("rounddown", "round down");
+
+            correctionAdd("SMA", "simple moving average");
+
+            correctionAdd("team-mate", "teammate");
+            correctionAdd("team mate", "teammate");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63105,6 +63159,36 @@ namespace OverflowHelper.core
 
             URL_Add("performant", "https://en.wiktionary.org/wiki/performant#Adjective");
 
+            URL_Add("ACARS", "https://en.wikipedia.org/wiki/ACARS");
+
+            URL_Add("HF", "https://en.wikipedia.org/wiki/High_frequency");
+
+            URL_Add("KeePassXC", "https://en.wikipedia.org/wiki/KeePassXC");
+
+            URL_Add("Laravel Forge", "https://forge.laravel.com/");
+
+            URL_Add("VHF", "https://en.wikipedia.org/wiki/Very_high_frequency");
+
+            URL_Add("Voronoi diagram", "https://en.wikipedia.org/wiki/Voronoi_diagram");
+
+            URL_Add("cathode", "https://en.wikipedia.org/wiki/Cathode#Diodes");
+
+            URL_Add("daily stand-up meeting", "https://en.wikipedia.org/wiki/Stand-up_meeting#Software_development");
+
+            URL_Add("explained", "https://en.wiktionary.org/wiki/explain#Verb");
+
+            URL_Add("fewer", "https://en.wiktionary.org/wiki/fewer#Determiner");
+
+            URL_Add("icosphere", "https://en.wikipedia.org/wiki/Geodesic_polyhedron");
+
+            URL_Add("kludging", "https://en.wiktionary.org/wiki/kludge#Verb");
+
+            URL_Add("round down", "https://en.wiktionary.org/wiki/round_down#Verb");
+
+            URL_Add("simple moving average", "https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average");
+
+            URL_Add("teammate", "https://en.wiktionary.org/wiki/teammate#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63791,6 +63875,10 @@ namespace OverflowHelper.core
 
             correctionAdd("RTS_", "real-time strategy_");
 
+            correctionAdd("buss_", "bus_");
+
+            correctionAdd("to_", "do_");
+
             // URL mappings
             //
             //
@@ -64217,6 +64305,10 @@ namespace OverflowHelper.core
             URL_Add("floating point_", "https://en.wiktionary.org/wiki/floating_point#Adjective");
 
             URL_Add("real-time strategy_", "https://en.wikipedia.org/wiki/Real-time_strategy");
+
+            URL_Add("bus_", "https://en.wiktionary.org/wiki/bus#Noun");
+
+            URL_Add("do_", "https://en.wiktionary.org/wiki/do#Verb");
 
         } //addLookupData_alternativeWordSet()
 
