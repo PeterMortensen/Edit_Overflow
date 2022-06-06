@@ -15324,6 +15324,7 @@ namespace OverflowHelper.core
             correctionAdd("Electron JS", "Electron");
             correctionAdd("ElectronJS", "Electron");
             correctionAdd("Electronjs", "Electron");
+            correctionAdd("electorn", "Electron");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -15884,6 +15885,7 @@ namespace OverflowHelper.core
             correctionAdd("weried", "weird");
             correctionAdd("weired", "weird");
             correctionAdd("waired", "weird");
+            correctionAdd("werid", "weird");
 
             correctionAdd("ocr", "OCR");
 
@@ -16164,6 +16166,7 @@ namespace OverflowHelper.core
             correctionAdd("Fyi", "FYI");
             correctionAdd("fyi", "FYI");
             correctionAdd("FTU", "FYI");
+            correctionAdd("FI", "FYI");
 
             correctionAdd("file explorer", "File Explorer");
             correctionAdd("Windows file explorer", "File Explorer");
@@ -17357,6 +17360,7 @@ namespace OverflowHelper.core
 
             correctionAdd("equall", "equal");
             correctionAdd("queal", "equal");
+            correctionAdd("eqaul", "equal");
 
             correctionAdd("IFF", "iff");
 
@@ -18330,6 +18334,7 @@ namespace OverflowHelper.core
 
             correctionAdd("anouncement", "announcement");
             correctionAdd("announement", "announcement");
+            correctionAdd("annoucement", "announcement");
 
             correctionAdd("chanel", "channel");
             correctionAdd("chanal", "channel");
@@ -19222,6 +19227,7 @@ namespace OverflowHelper.core
             correctionAdd("in layman's term", "in layman's terms");
 
             correctionAdd("inteded", "intended");
+            correctionAdd("indended", "intended");
 
             correctionAdd("MORE", "more");
 
@@ -23737,6 +23743,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Linus", "Linus Torvalds");
             correctionAdd("Linus Trovalds", "Linus Torvalds");
+            correctionAdd("Torvalds", "Linus Torvalds");
 
             correctionAdd("dimimish", "diminish");
 
@@ -25692,6 +25699,11 @@ namespace OverflowHelper.core
             correctionAdd("Ampere's Law", "Ampère's law");
 
             correctionAdd("Gauss Law", "Gauss's law");
+            correctionAdd("Gauss law", "Gauss's law");
+            correctionAdd("Gauss' law", "Gauss's law");
+            correctionAdd("gauss law", "Gauss's law");
+            correctionAdd("Gauss's theorem", "Gauss's law");
+            correctionAdd("Gauss theorem", "Gauss's law");
 
             correctionAdd("been there done that", "been there, done that");
 
@@ -28808,6 +28820,8 @@ namespace OverflowHelper.core
             correctionAdd("godwin's law", "Godwin's law");
 
             correctionAdd("Macbook M1 air", "MacBook Air (M1)");
+            correctionAdd("macbook air m1", "MacBook Air (M1)");
+            correctionAdd("MacBook Air M1", "MacBook Air (M1)");
 
             correctionAdd("twitch", "Twitch");
 
@@ -30633,6 +30647,7 @@ namespace OverflowHelper.core
             correctionAdd("afer", "after");
             correctionAdd("Ater", "after");
             correctionAdd("ater", "after");
+            correctionAdd("affter", "after");
 
             correctionAdd("beat-'em-up", "beat 'em up");
             correctionAdd("Beat 'em Up", "beat 'em up");
@@ -34796,6 +34811,7 @@ namespace OverflowHelper.core
             correctionAdd("Github Copilot", "GitHub Copilot");
             correctionAdd("co-pilot", "GitHub Copilot");
             correctionAdd("copilot", "GitHub Copilot");
+            correctionAdd("Copilot", "GitHub Copilot");
 
             correctionAdd("mbed", "Mbed");
 
@@ -39989,6 +40005,7 @@ namespace OverflowHelper.core
             correctionAdd("AnyCPU", "Any CPU");
             correctionAdd("any cpu", "Any CPU");
             correctionAdd("anycpu", "Any CPU");
+            correctionAdd("AnyCpu", "Any CPU");
 
             correctionAdd("dubai", "Dubai");
 
@@ -40148,6 +40165,32 @@ namespace OverflowHelper.core
 
             correctionAdd("team-mate", "teammate");
             correctionAdd("team mate", "teammate");
+
+            correctionAdd("4D8", "4d8");
+
+            correctionAdd("ising model", "Ising model");
+
+            correctionAdd("NWS", "National Weather Service");
+
+            correctionAdd("whitelist", "allowlist");
+            correctionAdd("allow-list", "allowlist");
+
+            correctionAdd("allow-listing", "allowlisting");
+
+            correctionAdd("breatheable", "breathable");
+
+            correctionAdd("CHOWN", "chown");
+
+            correctionAdd("dwingling", "dwindling");
+
+            correctionAdd("earth-like", "earthlike");
+
+            correctionAdd("photoresistor", "light-dependent resistor");
+            correctionAdd("LDR", "light-dependent resistor");
+
+            correctionAdd("Reed switch", "reed switch");
+
+            correctionAdd("strain gage", "strain gauge");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63189,6 +63232,30 @@ namespace OverflowHelper.core
 
             URL_Add("teammate", "https://en.wiktionary.org/wiki/teammate#Noun");
 
+            URL_Add("4d8", "https://en.wikipedia.org/wiki/Dice_notation#Standard_notation");
+
+            URL_Add("Ising model", "https://en.wikipedia.org/wiki/Ising_model");
+
+            URL_Add("National Weather Service", "https://en.wikipedia.org/wiki/National_Weather_Service");
+
+            URL_Add("allowlist", "https://en.wiktionary.org/wiki/allowlist#Noun");
+
+            URL_Add("allowlisting", "https://en.wiktionary.org/wiki/allowlist#Verb");
+
+            URL_Add("breathable", "https://en.wiktionary.org/wiki/breathable#Adjective");
+
+            URL_Add("chown", "https://en.wikipedia.org/wiki/Chown");
+
+            URL_Add("dwindling", "https://en.wiktionary.org/wiki/dwindling#Adjective");
+
+            URL_Add("earthlike", "https://en.wiktionary.org/wiki/earthlike#Adjective");
+
+            URL_Add("light-dependent resistor", "https://en.wikipedia.org/wiki/Photoresistor");
+
+            URL_Add("reed switch", "https://en.wikipedia.org/wiki/Reed_switch");
+
+            URL_Add("strain gauge", "https://en.wikipedia.org/wiki/Strain_gauge");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63778,6 +63845,8 @@ namespace OverflowHelper.core
             correctionAdd("los angeles_", "Los Angeles_");
             correctionAdd("Los angels_", "Los Angeles_");
             correctionAdd("LA_", "Los Angeles_");
+            correctionAdd("LosAngeles_", "Los Angeles_");
+            correctionAdd("losangeles_", "Los Angeles_");
 
             correctionAdd("cam_", "camera_");
 
