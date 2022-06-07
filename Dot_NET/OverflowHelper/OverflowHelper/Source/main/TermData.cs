@@ -2420,6 +2420,16 @@ namespace OverflowHelper.core
             correctionAdd("Internet&nbsp;Explorer 11", "Internet&nbsp;Explorer&nbsp;11");
             correctionAdd("Internet Explorer 11", "Internet&nbsp;Explorer&nbsp;11"); // Effectively self (line-breaks)
 
+            correctionAdd("genge", "change");
+            correctionAdd("Chnage", "change");
+            correctionAdd("Change", "change");
+            correctionAdd("chenge", "change");
+            correctionAdd("chnage", "change");
+            correctionAdd("chaing", "change");
+            correctionAdd("Chage", "change");
+            correctionAdd("chage", "change");
+            correctionAdd("chance", "change");
+
             correctionAdd("experts exchange", "Experts-Exchange");
             correctionAdd("EE", "Experts-Exchange");
             correctionAdd("Experts Exchange", "Experts-Exchange");
@@ -2948,6 +2958,7 @@ namespace OverflowHelper.core
             correctionAdd("DLLs", "DLL file");
             correctionAdd("dll-file", "DLL file");
             correctionAdd("Dynamic Link Library", "DLL file");
+            correctionAdd("DLLS", "DLL file");
 
             correctionAdd("hosts", "hosts file");
             correctionAdd("host file", "hosts file");
@@ -2958,6 +2969,8 @@ namespace OverflowHelper.core
             correctionAdd("EXE", "EXE file");
             correctionAdd("exe file", "EXE file");
             correctionAdd("exe-file", "EXE file");
+            correctionAdd("EXEs", "EXE file");
+            correctionAdd("EXES", "EXE file");
 
             correctionAdd("bashrc", ".bashrc file");
             correctionAdd(".bashrc", ".bashrc file");
@@ -5230,15 +5243,6 @@ namespace OverflowHelper.core
             correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
 
-            correctionAdd("genge", "change");
-            correctionAdd("Chnage", "change");
-            correctionAdd("Change", "change");
-            correctionAdd("chenge", "change");
-            correctionAdd("chnage", "change");
-            correctionAdd("chaing", "change");
-            correctionAdd("Chage", "change");
-            correctionAdd("chage", "change");
-
             correctionAdd("CS", "computer science");
             correctionAdd("compsci", "computer science");
             correctionAdd("CompSci", "computer science");
@@ -6893,6 +6897,7 @@ namespace OverflowHelper.core
             correctionAdd("DONT", "don’t");
             correctionAdd("Don't", "don’t");
             correctionAdd("donn't", "don’t");
+            correctionAdd("don;t", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -7962,6 +7967,7 @@ namespace OverflowHelper.core
             correctionAdd("arhitecture", "architecture");
             correctionAdd("Architechure", "architecture");
             correctionAdd("architechure", "architecture");
+            correctionAdd("archirecture", "architecture");
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
@@ -9869,6 +9875,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pep", "PEP");
             correctionAdd("Pep", "PEP");
+            correctionAdd("Python Enhancement Proposal", "PEP");
+            correctionAdd("Python enhancement proposal", "PEP");
 
             correctionAdd("AngularJs", "AngularJS");
             correctionAdd("angularjs", "AngularJS");
@@ -9912,6 +9920,7 @@ namespace OverflowHelper.core
             correctionAdd("libreoffice", "LibreOffice");
             correctionAdd("libreOffice", "LibreOffice");
             correctionAdd("LO", "LibreOffice");
+            correctionAdd("LibraOffice", "LibreOffice");
 
             correctionAdd("CKeditor", "CKEditor");
             correctionAdd("ckeditor", "CKEditor");
@@ -13023,6 +13032,7 @@ namespace OverflowHelper.core
             correctionAdd("notnetcore", ".NET Core");
             correctionAdd("core", ".NET Core");
             correctionAdd(". Net-core", ".NET Core");
+            correctionAdd("CORE", ".NET Core");
 
             correctionAdd("asp core", "ASP.NET Core");
             correctionAdd("Asp.net core", "ASP.NET Core");
@@ -13387,6 +13397,7 @@ namespace OverflowHelper.core
             correctionAdd("c++17", "C++17");
 
             correctionAdd("embaraased", "embarrassed");
+            correctionAdd("embarressed", "embarrassed");
 
             correctionAdd("ridicous", "ridiculous");
             correctionAdd("ridicolous", "ridiculous");
@@ -13996,6 +14007,7 @@ namespace OverflowHelper.core
             correctionAdd("achive", "achieve");
             correctionAdd("acheive", "achieve");
             correctionAdd("acheieve", "achieve");
+            correctionAdd("achievie", "achieve");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -15825,6 +15837,8 @@ namespace OverflowHelper.core
             correctionAdd("apriciate", "appreciate");
             correctionAdd("aprreciate", "appreciate");
             correctionAdd("apreciate", "appreciate");
+            correctionAdd("apreciatte", "appreciate");
+            correctionAdd("appreciatte", "appreciate");
 
             correctionAdd("asume", "assume");
 
@@ -15845,6 +15859,7 @@ namespace OverflowHelper.core
             correctionAdd("differnce", "difference");
 
             correctionAdd("disasterous", "disastrous");
+            correctionAdd("disastrorous", "disastrous");
 
             correctionAdd("eaay", "easy");
             correctionAdd("rasy", "easy");
@@ -28716,6 +28731,7 @@ namespace OverflowHelper.core
             correctionAdd("tjis", "this");
             correctionAdd("sthis", "this");
             correctionAdd("tyis", "this");
+            correctionAdd("thios", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -30310,6 +30326,9 @@ namespace OverflowHelper.core
 
             correctionAdd("idoim", "idiom");
             correctionAdd("idion", "idiom");
+            correctionAdd("Idem", "idiom");
+            correctionAdd("idem", "idiom");
+            correctionAdd("ideom", "idiom");
 
             correctionAdd("timeperiod", "time period");
             correctionAdd("time perioud", "time period");
@@ -34761,6 +34780,7 @@ namespace OverflowHelper.core
             correctionAdd("Endevor", "EndeavourOS");
             correctionAdd("Endeavour", "EndeavourOS");
             correctionAdd("endeavour os", "EndeavourOS");
+            correctionAdd("endeavouros", "EndeavourOS");
 
             correctionAdd("IvyBridge", "Ivy Bridge");
 
@@ -38316,6 +38336,7 @@ namespace OverflowHelper.core
             correctionAdd("silverblue", "Silverblue");
 
             correctionAdd("TIDYVERSE", "Tidyverse");
+            correctionAdd("tidyverse", "Tidyverse");
 
             correctionAdd("CBP", "United States Customs and Border Protection");
 
@@ -40191,6 +40212,33 @@ namespace OverflowHelper.core
             correctionAdd("Reed switch", "reed switch");
 
             correctionAdd("strain gage", "strain gauge");
+
+            correctionAdd("anuga", "ANUGA");
+
+            correctionAdd("Altera Quartus Prime", "Altera Quartus II");
+            correctionAdd("Altera Quartus", "Altera Quartus II");
+            correctionAdd("Intel Quartus Prime", "Altera Quartus II");
+
+            correctionAdd("Apple IIE", "Apple IIe");
+
+            correctionAdd("ADF", "Azure Data Factory");
+
+            correctionAdd("calmares", "Calamares");
+            correctionAdd("calamares", "Calamares");
+
+            correctionAdd("fud", "FUD");
+
+            correctionAdd("ghdl", "GHDL");
+
+            correctionAdd("excrusiating", "excruciating");
+
+            correctionAdd("mis tag", "mistag");
+
+            correctionAdd("Quiver", "quiver");
+
+            correctionAdd("StrTok", "strtok");
+
+            correctionAdd("Turtle", "turtle");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63256,6 +63304,30 @@ namespace OverflowHelper.core
 
             URL_Add("strain gauge", "https://en.wikipedia.org/wiki/Strain_gauge");
 
+            URL_Add("ANUGA", "https://pypi.org/project/anuga/#id2");
+
+            URL_Add("Altera Quartus II", "https://en.wikipedia.org/wiki/Intel_Quartus_Prime");
+
+            URL_Add("Apple IIe", "https://en.wikipedia.org/wiki/Apple_IIe");
+
+            URL_Add("Azure Data Factory", "https://en.wikipedia.org/wiki/Microsoft_Azure#Data_management");
+
+            URL_Add("Calamares", "https://en.wikipedia.org/wiki/Calamares_(software)");
+
+            URL_Add("FUD", "https://en.wikipedia.org/wiki/Fear%2C_uncertainty%2C_and_doubt#Software_producers");
+
+            URL_Add("GHDL", "https://en.wikipedia.org/wiki/List_of_HDL_simulators#VHDL_simulators");
+
+            URL_Add("excruciating", "https://en.wiktionary.org/wiki/excruciating#Adjective");
+
+            URL_Add("mistag", "https://en.wiktionary.org/wiki/mistag#Verb");
+
+            URL_Add("quiver", "https://en.wikipedia.org/wiki/Quiver_%28mathematics%29");
+
+            URL_Add("strtok", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("turtle", "https://en.wikipedia.org/wiki/Turtle_graphics");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63948,6 +64020,10 @@ namespace OverflowHelper.core
 
             correctionAdd("to_", "do_");
 
+            correctionAdd("IO_", "Io_");
+
+            correctionAdd("C# compiler _", "csc.exe_");
+
             // URL mappings
             //
             //
@@ -64378,6 +64454,10 @@ namespace OverflowHelper.core
             URL_Add("bus_", "https://en.wiktionary.org/wiki/bus#Noun");
 
             URL_Add("do_", "https://en.wiktionary.org/wiki/do#Verb");
+
+            URL_Add("Io_", "https://en.wikipedia.org/wiki/Io_(programming_language)");
+
+            URL_Add("csc.exe_", "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/");
 
         } //addLookupData_alternativeWordSet()
 
