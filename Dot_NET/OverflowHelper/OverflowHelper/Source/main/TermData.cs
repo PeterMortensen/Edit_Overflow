@@ -564,6 +564,11 @@ namespace OverflowHelper.core
 
             correctionAdd("utf-16le", "UTF-16LE");
 
+            correctionAdd("scropt", "script");
+            correctionAdd("scrip", "script");
+            correctionAdd("Script", "script");
+            correctionAdd("scritpt", "script");
+
             correctionAdd("js", "JavaScript");
             correctionAdd("JS", "JavaScript");
             correctionAdd("Js", "JavaScript");
@@ -807,13 +812,59 @@ namespace OverflowHelper.core
 
             correctionAdd("objectscript", "ObjectScript");
 
-            correctionAdd("scropt", "script");
-            correctionAdd("scrip", "script");
-            correctionAdd("Script", "script");
-
             correctionAdd("GAS", "Google Apps Script");
             correctionAdd("appScript", "Google Apps Script");
             correctionAdd("app Script", "Google Apps Script");
+
+            correctionAdd("csharp-lang", "```lang-csharp");
+            correctionAdd("lang-csharp", "```lang-csharp");
+            correctionAdd("lang-sharp", "```lang-csharp");
+            correctionAdd("lang-cs", "```lang-csharp");
+
+            correctionAdd("java-lang", "```lang-java");
+            correctionAdd("lang-java", "```lang-java");
+
+            correctionAdd("lang-js", "```lang-javascript");
+            correctionAdd("lang-javascript", "```lang-javascript");
+            correctionAdd("javascript-lang", "```lang-javascript");
+            correctionAdd("```js", "```lang-javascript");
+
+            correctionAdd("css-lang", "```lang-css");
+            correctionAdd("lang-css", "```lang-css");
+
+            correctionAdd("html-lang", "```lang-html");
+            correctionAdd("lang-html", "```lang-html");
+
+            correctionAdd("none-lang", "```lang-none");
+            correctionAdd("lang-none", "```lang-none");
+
+            correctionAdd("php-lang", "```lang-php");
+            correctionAdd("lang-php", "```lang-php");
+
+            correctionAdd("xml-lang", "```lang-xml");
+            correctionAdd("lang-xml", "```lang-xml");
+
+            correctionAdd("xml-python", "```lang-python");
+            correctionAdd("lang-python", "```lang-python");
+            correctionAdd("lang-py", "```lang-python");
+
+            correctionAdd("lang-cpp", "```lang-cpp");
+            correctionAdd("cpp-lang", "```lang-cpp");
+
+            correctionAdd("lang-go", "```lang-golang");
+
+            correctionAdd("lang-sql", "```lang-sql");
+
+            correctionAdd("lang-c", "```lang-c");
+
+            correctionAdd("lang-typescript", "```lang-typescript");
+            correctionAdd("lang-ts", "```lang-typescript");
+
+            correctionAdd("Nativescript", "NativeScript");
+
+            correctionAdd("py script", "PyScript");
+            correctionAdd("py-script", "PyScript");
+            correctionAdd("pyscript", "PyScript");
 
             correctionAdd("G suite", "G Suite");
             correctionAdd("Gsuite", "G Suite");
@@ -1623,6 +1674,7 @@ namespace OverflowHelper.core
             correctionAdd("ASP .NET MVC", "ASP.NET MVC");
             correctionAdd("asp mvc", "ASP.NET MVC");
             correctionAdd("MVC.net", "ASP.NET MVC");
+            correctionAdd("Asp Mvc", "ASP.NET MVC");
 
             correctionAdd("asp", "ASP Classic");
             correctionAdd("ASP", "ASP Classic");
@@ -3124,6 +3176,7 @@ namespace OverflowHelper.core
             correctionAdd("code", "Visual Studio Code");
             correctionAdd("the code", "Visual Studio Code");
             correctionAdd("VSC Code", "Visual Studio Code");
+            correctionAdd("CODE", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -4048,6 +4101,7 @@ namespace OverflowHelper.core
             correctionAdd("msysGit", "MSysGit");
             correctionAdd("msysgit", "MSysGit");
             correctionAdd("Msysgit", "MSysGit");
+            correctionAdd("MSYSGIT", "MSysGit");
 
             correctionAdd("ommit", "omit");
 
@@ -6532,6 +6586,7 @@ namespace OverflowHelper.core
             correctionAdd("environmental variable", "environment variable");
             correctionAdd("Enviornment variable", "environment variable");
             correctionAdd("enviornment variable", "environment variable");
+            correctionAdd("enviroment variable", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -6969,17 +7024,6 @@ namespace OverflowHelper.core
             correctionAdd("direclty", "directly");
             correctionAdd("directyl", "directly");
 
-            correctionAdd("cwd", "current working directory");
-            correctionAdd("CWD", "current working directory");
-            correctionAdd("pwd", "current working directory");
-            correctionAdd("Current working directory", "current working directory");
-            correctionAdd("Current Working Directory", "current working directory");
-
-            correctionAdd("ad", "Active Directory"); // Expansion.
-            correctionAdd("AD", "Active Directory"); // Expansion.
-            correctionAdd("active directory", "Active Directory");
-            correctionAdd("ActiveDirectory", "Active Directory");
-
             correctionAdd("dir", "directory");
             correctionAdd("directoty", "directory");
             correctionAdd("diretory", "directory");
@@ -6991,12 +7035,24 @@ namespace OverflowHelper.core
             correctionAdd("diractory", "directory");
             correctionAdd("DIR", "directory");
             correctionAdd("director", "directory");
+            correctionAdd("catalog", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
             correctionAdd("directorys", "directories");
             correctionAdd("directores", "directories");
             correctionAdd("diectories", "directories");
+
+            correctionAdd("cwd", "current working directory");
+            correctionAdd("CWD", "current working directory");
+            correctionAdd("pwd", "current working directory");
+            correctionAdd("Current working directory", "current working directory");
+            correctionAdd("Current Working Directory", "current working directory");
+
+            correctionAdd("ad", "Active Directory"); // Expansion.
+            correctionAdd("AD", "Active Directory"); // Expansion.
+            correctionAdd("active directory", "Active Directory");
+            correctionAdd("ActiveDirectory", "Active Directory");
 
             correctionAdd("simmetry", "symmetry");
 
@@ -9376,6 +9432,8 @@ namespace OverflowHelper.core
             correctionAdd("privileges", "privilege");
             correctionAdd("provilege", "privilege");
             correctionAdd("privelige", "privilege");
+            correctionAdd("pricledge", "privilege");
+            correctionAdd("privledge", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -15094,6 +15152,7 @@ namespace OverflowHelper.core
 
             correctionAdd("MSys", "MSYS");
             correctionAdd("msys", "MSYS");
+            correctionAdd("Msys", "MSYS");
 
             correctionAdd("Mac mini", "Mac Mini");
             correctionAdd("mac mini", "Mac Mini");
@@ -17216,6 +17275,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Physics Education Research", "physics education research");
 
+            correctionAdd("researche", "research");
+            correctionAdd("reseache", "research");
+            correctionAdd("re-search", "research");
+            correctionAdd("reasearch", "research");
+
             correctionAdd("place holder", "placeholder");
 
             correctionAdd("pronon", "pronoun");
@@ -18750,6 +18814,7 @@ namespace OverflowHelper.core
             correctionAdd("currenctly", "currently");
             correctionAdd("Currenly", "currently");
             correctionAdd("currenly", "currently");
+            correctionAdd("currrently", "currently");
 
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
@@ -18778,6 +18843,7 @@ namespace OverflowHelper.core
             correctionAdd("Datastudio", "Google&nbsp;Data&nbsp;Studio");
 
             correctionAdd("neovim", "Neovim");
+            correctionAdd("nvim", "Neovim");
 
             correctionAdd("endevaour", "endeavour");
             correctionAdd("endeavor", "endeavour");
@@ -20860,6 +20926,7 @@ namespace OverflowHelper.core
 
             correctionAdd("arma", "Armageddon"); // Chess
             correctionAdd("armageddon", "Armageddon"); // Chess
+            correctionAdd("Armaggeddon", "Armageddon"); // Chess
 
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
             correctionAdd("alekhins defence", "Alekhine's Defence"); // Chess
@@ -24587,6 +24654,10 @@ namespace OverflowHelper.core
 
             correctionAdd("InfoSec", "information security");
             correctionAdd("infosec", "information security");
+
+            correctionAdd("secruity", "security");
+            correctionAdd("scruity", "security");
+            correctionAdd("secturity", "security");
 
             correctionAdd("associative Array", "associative array");
             correctionAdd("associate array", "associative array");
@@ -28587,6 +28658,8 @@ namespace OverflowHelper.core
             correctionAdd("acussing", "accusing");
 
             correctionAdd("check list", "checklist");
+            correctionAdd("Check list", "checklist");
+            correctionAdd("Checklist", "checklist");
 
             correctionAdd("Citizen Science", "citizen science");
             correctionAdd("Citizen science", "citizen science");
@@ -29818,10 +29891,6 @@ namespace OverflowHelper.core
             correctionAdd("conseptionally", "conceptionally");
 
             correctionAdd("hird", "herd");
-
-            correctionAdd("researche", "research");
-            correctionAdd("reseache", "research");
-            correctionAdd("re-search", "research");
 
             correctionAdd("Thermocouple", "thermocouple");
 
@@ -35416,9 +35485,6 @@ namespace OverflowHelper.core
 
             correctionAdd("publickey", "public key");
 
-            correctionAdd("secruity", "security");
-            correctionAdd("scruity", "security");
-
             correctionAdd("settigns", "settings");
             correctionAdd("sittings", "settings");
 
@@ -38257,19 +38323,6 @@ namespace OverflowHelper.core
 
             correctionAdd("UDF", "user-defined function");
 
-            correctionAdd("csharp-lang", "```lang-csharp");
-            correctionAdd("lang-csharp", "```lang-csharp");
-            correctionAdd("lang-sharp", "```lang-csharp");
-            correctionAdd("lang-cs", "```lang-csharp");
-
-            correctionAdd("java-lang", "```lang-java");
-            correctionAdd("lang-java", "```lang-java");
-
-            correctionAdd("lang-js", "```lang-javascript");
-            correctionAdd("lang-javascript", "```lang-javascript");
-            correctionAdd("javascript-lang", "```lang-javascript");
-            correctionAdd("```js", "```lang-javascript");
-
             correctionAdd("google places", "Google Places");
 
             correctionAdd("Places API", "Google Places API");
@@ -38347,28 +38400,6 @@ namespace OverflowHelper.core
             correctionAdd("picked-up", "picked up");
 
             correctionAdd("uoloaded", "uploaded");
-
-            correctionAdd("css-lang", "```lang-css");
-            correctionAdd("lang-css", "```lang-css");
-
-            correctionAdd("html-lang", "```lang-html");
-            correctionAdd("lang-html", "```lang-html");
-
-            correctionAdd("none-lang", "```lang-none");
-            correctionAdd("lang-none", "```lang-none");
-
-            correctionAdd("php-lang", "```lang-php");
-            correctionAdd("lang-php", "```lang-php");
-
-            correctionAdd("xml-lang", "```lang-xml");
-            correctionAdd("lang-xml", "```lang-xml");
-
-            correctionAdd("xml-python", "```lang-python");
-            correctionAdd("lang-python", "```lang-python");
-            correctionAdd("lang-py", "```lang-python");
-
-            correctionAdd("lang-cpp", "```lang-cpp");
-            correctionAdd("cpp-lang", "```lang-cpp");
 
             correctionAdd("adwaita", "Adwaita");
             correctionAdd("libadwaita", "Adwaita");
@@ -38664,8 +38695,6 @@ namespace OverflowHelper.core
             correctionAdd("SO.pt", "Stack Overflow em Português");
             correctionAdd("SO - Portuguese", "Stack Overflow em Português");
 
-            correctionAdd("lang-go", "```lang-golang");
-
             correctionAdd("Binary Search", "binary search");
 
             correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
@@ -38924,8 +38953,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vite", "Vite");
 
-            correctionAdd("lang-sql", "```lang-sql");
-
             correctionAdd("bread crumb", "breadcrumb");
 
             correctionAdd("bread crumb trail", "breadcrumb trail");
@@ -39118,8 +39145,6 @@ namespace OverflowHelper.core
             correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
 
-            correctionAdd("lang-c", "```lang-c");
-
             correctionAdd("bycicle", "bicycle");
 
             correctionAdd("catchig", "catching");
@@ -39311,9 +39336,6 @@ namespace OverflowHelper.core
             correctionAdd("black", "Black");
 
             correctionAdd("fortify", "Fortify");
-
-            correctionAdd("lang-typescript", "```lang-typescript");
-            correctionAdd("lang-ts", "```lang-typescript");
 
             correctionAdd("accompasing", "accompassing");
 
@@ -39715,8 +39737,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Jcreator lite", "JCreator Lite Edition (LE)");
 
-            correctionAdd("Nativescript", "NativeScript");
-
             correctionAdd("Plastic", "Plastic SCM");
             correctionAdd("plasticscm", "Plastic SCM");
             correctionAdd("plastic scm", "Plastic SCM");
@@ -39876,10 +39896,6 @@ namespace OverflowHelper.core
             correctionAdd("Go playground", "Go Playground");
 
             correctionAdd("GST", "Goods and Services Tax");
-
-            correctionAdd("py script", "PyScript");
-            correctionAdd("py-script", "PyScript");
-            correctionAdd("pyscript", "PyScript");
 
             correctionAdd("react-native-cli", "React Native CLI");
             correctionAdd("React Native cli", "React Native CLI");
@@ -40239,6 +40255,28 @@ namespace OverflowHelper.core
             correctionAdd("StrTok", "strtok");
 
             correctionAdd("Turtle", "turtle");
+
+            correctionAdd("brian greene", "Brian Greene");
+
+            correctionAdd("cudatext", "CudaText");
+
+            correctionAdd("defi", "DeFi");
+
+            correctionAdd("DoD", "Definition of Done");
+
+            correctionAdd("Entanglement", "entanglement");
+
+            correctionAdd("fair-game", "fair game");
+
+            correctionAdd("straight up", "straight-up");
+            correctionAdd("straightup", "straight-up");
+
+            correctionAdd("Teleportation", "teleportation");
+
+            correctionAdd("Edit Overflow", "Edit&nbsp;Overflow");
+            correctionAdd("EditOverflow", "Edit&nbsp;Overflow");
+
+            correctionAdd("explain downvotes", "Encouraging people to explain downvotes");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63328,6 +63366,26 @@ namespace OverflowHelper.core
 
             URL_Add("turtle", "https://en.wikipedia.org/wiki/Turtle_graphics");
 
+            URL_Add("Brian Greene", "https://en.wikipedia.org/wiki/Brian_Greene");
+
+            URL_Add("CudaText", "https://en.wikipedia.org/wiki/CudaText");
+
+            URL_Add("DeFi", "https://en.wikipedia.org/wiki/Decentralized_finance");
+
+            URL_Add("Definition of Done", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint_retrospective");
+
+            URL_Add("Edit&nbsp;Overflow", "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Edit%20Overflow");
+
+            URL_Add("Encouraging people to explain downvotes", "https://meta.stackexchange.com/questions/135");
+
+            URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
+
+            URL_Add("fair game", "https://en.wiktionary.org/wiki/fair_game#Noun");
+
+            URL_Add("straight-up", "https://en.wiktionary.org/wiki/straight-up#Adjective");
+
+            URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64023,6 +64081,11 @@ namespace OverflowHelper.core
             correctionAdd("IO_", "Io_");
 
             correctionAdd("C# compiler _", "csc.exe_");
+            correctionAdd("CSC_", "csc.exe_");
+            correctionAdd("csc_", "csc.exe_");
+
+            correctionAdd("thankyou_", "thank-you_");
+            correctionAdd("thank you_", "thank-you_");
 
             // URL mappings
             //
@@ -64458,6 +64521,8 @@ namespace OverflowHelper.core
             URL_Add("Io_", "https://en.wikipedia.org/wiki/Io_(programming_language)");
 
             URL_Add("csc.exe_", "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/");
+
+            URL_Add("thank-you_", "https://en.wiktionary.org/wiki/thank-you#Noun");
 
         } //addLookupData_alternativeWordSet()
 
