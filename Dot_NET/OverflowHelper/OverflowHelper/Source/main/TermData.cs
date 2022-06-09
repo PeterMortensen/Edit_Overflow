@@ -3211,6 +3211,7 @@ namespace OverflowHelper.core
             correctionAdd("org mode", "Org-mode");
             correctionAdd("org-mode", "Org-mode");
             correctionAdd("Org mode", "Org-mode");
+            correctionAdd("Org Mode", "Org-mode");
 
             correctionAdd("bbcode", "BBCode");
             correctionAdd("BBCODE", "BBCode");
@@ -20499,6 +20500,7 @@ namespace OverflowHelper.core
             correctionAdd("fastest gun", "fastest gun in the west");
             correctionAdd("fgtw", "fastest gun in the west");
             correctionAdd("FGitW", "fastest gun in the west");
+            correctionAdd("Quick Draw McGraw", "fastest gun in the west");
 
             correctionAdd("UXD", "user experience design");
 
@@ -33033,6 +33035,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bike-shedding", "bikeshedding");
             correctionAdd("bike shedding", "bikeshedding");
+            correctionAdd("shed this bike", "bikeshedding");
 
             correctionAdd("FULL OUTER JOIN", "full outer join");
             correctionAdd("Full Outer Join", "full outer join");
@@ -40261,6 +40264,7 @@ namespace OverflowHelper.core
             correctionAdd("cudatext", "CudaText");
 
             correctionAdd("defi", "DeFi");
+            correctionAdd("decentralized finance", "DeFi");
 
             correctionAdd("DoD", "Definition of Done");
 
@@ -40277,6 +40281,19 @@ namespace OverflowHelper.core
             correctionAdd("EditOverflow", "Edit&nbsp;Overflow");
 
             correctionAdd("explain downvotes", "Encouraging people to explain downvotes");
+
+            correctionAdd("Bell's theorem", "Bell test");
+            correctionAdd("Bell", "Bell test");
+
+            correctionAdd("NK", "North Korea");
+
+            correctionAdd("check ride", "checkride");
+
+            correctionAdd("MICV", "infantry fighting vehicle");
+            correctionAdd("IFV", "infantry fighting vehicle");
+            correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
+
+            correctionAdd("protoyping", "prototyping");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63386,6 +63403,16 @@ namespace OverflowHelper.core
 
             URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
 
+            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
+
+            URL_Add("North Korea", "https://en.wikipedia.org/wiki/North_Korea");
+
+            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
+
+            URL_Add("infantry fighting vehicle", "https://en.wikipedia.org/wiki/Infantry_fighting_vehicle");
+
+            URL_Add("prototyping", "https://en.wiktionary.org/wiki/prototyping#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64087,6 +64114,10 @@ namespace OverflowHelper.core
             correctionAdd("thankyou_", "thank-you_");
             correctionAdd("thank you_", "thank-you_");
 
+            correctionAdd("bited_", "bit_");
+
+            correctionAdd("SET_", "set_");
+
             // URL mappings
             //
             //
@@ -64523,6 +64554,10 @@ namespace OverflowHelper.core
             URL_Add("csc.exe_", "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/");
 
             URL_Add("thank-you_", "https://en.wiktionary.org/wiki/thank-you#Noun");
+
+            URL_Add("bit_", "https://en.wiktionary.org/wiki/bite#Verb");
+
+            URL_Add("set_", "https://ss64.com/bash/set.html");
 
         } //addLookupData_alternativeWordSet()
 
