@@ -277,7 +277,7 @@ echo
 # Configuration, start
 
 
-# Selectively disable some test (e.g., if an external
+# Selectively disable some tests (e.g., if an external
 # service we depend on is not available)
 #
 # Normally, ***ALL*** should be outcommented
@@ -853,6 +853,8 @@ function keyboardShortcutConsistencyCheck()
 # ###########################################################################
 #
 # Helper function to reduce redundancy
+#
+# Validation of the web pages in production using the W3C HTML validator.
 #
 # Parameters:
 #
@@ -2518,7 +2520,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   3450000 3790000
+wordListExport 33 "HTML"  $HTML_FILE   3520000 3870000
 
 #exit
 
@@ -2647,7 +2649,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 # the (generated) word list in HTML format.
 #
 # It is currently dependent on an external service,
-# over the Internet. Service failures:
+# over the Internet. Some service failures:
 #
 #   2021-10-05T154904   "The connection has timed out. The server at
 #                        validator.w3.org is taking too long to respond."
@@ -2686,6 +2688,12 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #
 #                          503 Service Unavailable
 #                          No server is available to handle this request.
+#
+#  2022-06-03T143446   Timed out (retried two times), e.g.: 
+#
+#                      Error 522 Ray ID: 715872f9bb111d02 • 
+#                      2022-06-03 12:32:02 UTC
+#                      Connection timed out
 #
 #
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
