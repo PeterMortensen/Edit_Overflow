@@ -6893,6 +6893,40 @@ namespace OverflowHelper.core
             correctionAdd("Sqlalchemy", "SQLAlchemy");
             correctionAdd("SQLAalchemy", "SQLAlchemy");
 
+            correctionAdd("codecademy", "Codecademy");
+            correctionAdd("Code Academy", "Codecademy");
+            correctionAdd("Code academy", "Codecademy");
+            correctionAdd("CodeAcademy", "Codecademy");
+            correctionAdd("codacademy", "Codecademy");
+            correctionAdd("code academy", "Codecademy");
+            correctionAdd("codeacademy", "Codecademy");
+            correctionAdd("codeaccademy", "Codecademy");
+            correctionAdd("CodeAcedamy", "Codecademy");
+            correctionAdd("Codeacademy", "Codecademy");
+            correctionAdd("Codeacademy.com", "Codecademy");
+            correctionAdd("codeAcademy", "Codecademy");
+
+            correctionAdd("udemy", "Udemy");
+            correctionAdd("udmey", "Udemy");
+            correctionAdd("Udmey", "Udemy");
+
+            correctionAdd("Khan academy", "Khan Academy");
+            correctionAdd("khan academy", "Khan Academy");
+            correctionAdd("khancademy", "Khan Academy");
+            correctionAdd("khan cademy", "Khan Academy");
+            correctionAdd("Khan cademy", "Khan Academy");
+            correctionAdd("Khancademy", "Khan Academy");
+            correctionAdd("khanacademy", "Khan Academy");
+            correctionAdd("khanacademy.com", "Khan Academy");
+            correctionAdd("Khanacademy.com", "Khan Academy");
+
+            correctionAdd("dicotomi", "dichotomy");
+            correctionAdd("dicotomy", "dichotomy");
+
+            correctionAdd("mey", "my");
+            correctionAdd("myy", "my");
+            correctionAdd("mmy", "my");
+
             correctionAdd("bios", "BIOS");
             correctionAdd("Bios", "BIOS");
 
@@ -11049,19 +11083,6 @@ namespace OverflowHelper.core
             correctionAdd("equivalent series resistance", "ESR");
 
             correctionAdd("ctags", "Ctags");
-
-            correctionAdd("codecademy", "Codecademy");
-            correctionAdd("Code Academy", "Codecademy");
-            correctionAdd("Code academy", "Codecademy");
-            correctionAdd("CodeAcademy", "Codecademy");
-            correctionAdd("codacademy", "Codecademy");
-            correctionAdd("code academy", "Codecademy");
-            correctionAdd("codeacademy", "Codecademy");
-            correctionAdd("codeaccademy", "Codecademy");
-            correctionAdd("CodeAcedamy", "Codecademy");
-            correctionAdd("Codeacademy", "Codecademy");
-            correctionAdd("Codeacademy.com", "Codecademy");
-            correctionAdd("codeAcademy", "Codecademy");
 
             correctionAdd("Unit test", "unit test");
             correctionAdd("Unit Test", "unit test");
@@ -17281,6 +17302,33 @@ namespace OverflowHelper.core
             correctionAdd("re-search", "research");
             correctionAdd("reasearch", "research");
 
+            correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
+            correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
+
+            correctionAdd("elasticsearch", "Elasticsearch");
+            correctionAdd("Elasticsearches", "Elasticsearch");
+            correctionAdd("ElasticSearch", "Elasticsearch");
+            correctionAdd("Elastic Search", "Elasticsearch");
+            correctionAdd("Elastic search", "Elasticsearch");
+            correctionAdd("elastic search", "Elasticsearch");
+
+            correctionAdd("SQL Search", "SQL&nbsp;Search");
+            correctionAdd("SQLSearch", "SQL&nbsp;Search");
+
+            correctionAdd("BFS", "breadth-first search");
+            correctionAdd("breath first search", "breadth-first search");
+            correctionAdd("breadth first search", "breadth-first search");
+
+            correctionAdd("depth first search", "depth-first search");
+            correctionAdd("Depth First Search", "depth-first search");
+            correctionAdd("DFS", "depth-first search");
+            correctionAdd("depth first seach", "depth-first search");
+            correctionAdd("dfs", "depth-first search");
+
+            correctionAdd("serach", "search");
+            correctionAdd("seach", "search");
+            correctionAdd("serch", "search");
+
             correctionAdd("place holder", "placeholder");
 
             correctionAdd("pronon", "pronoun");
@@ -17890,6 +17938,7 @@ namespace OverflowHelper.core
             correctionAdd("thig", "thing");
             correctionAdd("thang", "thing");
             correctionAdd("thign", "thing");
+            correctionAdd("ging", "thing");
 
             correctionAdd("tooo", "too");
 
@@ -18026,6 +18075,7 @@ namespace OverflowHelper.core
             correctionAdd("cetian", "certain");
             correctionAdd("certian", "certain");
             correctionAdd("cetain", "certain");
+            correctionAdd("cwrtain", "certain");
 
             correctionAdd("Collector", "collector");
 
@@ -19829,10 +19879,6 @@ namespace OverflowHelper.core
             correctionAdd("sing", "using");
             correctionAdd("usigin", "using");
             correctionAdd("suign", "using");
-
-            correctionAdd("udemy", "Udemy");
-            correctionAdd("udmey", "Udemy");
-            correctionAdd("Udmey", "Udemy");
 
             correctionAdd("ActiVision", "Activision");
 
@@ -24029,16 +24075,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ba'hai", "Baháʼí");
 
-            correctionAdd("Khan academy", "Khan Academy");
-            correctionAdd("khan academy", "Khan Academy");
-            correctionAdd("khancademy", "Khan Academy");
-            correctionAdd("khan cademy", "Khan Academy");
-            correctionAdd("Khan cademy", "Khan Academy");
-            correctionAdd("Khancademy", "Khan Academy");
-            correctionAdd("khanacademy", "Khan Academy");
-            correctionAdd("khanacademy.com", "Khan Academy");
-            correctionAdd("Khanacademy.com", "Khan Academy");
-
             correctionAdd("newtonian", "Newtonian");
 
             correctionAdd("Stokes Law", "Stokes' law");
@@ -25226,32 +25262,6 @@ namespace OverflowHelper.core
             correctionAdd("noice", "noise");
 
             correctionAdd("palce", "place");
-
-            correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
-            correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
-
-            correctionAdd("elasticsearch", "Elasticsearch");
-            correctionAdd("Elasticsearches", "Elasticsearch");
-            correctionAdd("ElasticSearch", "Elasticsearch");
-            correctionAdd("Elastic Search", "Elasticsearch");
-            correctionAdd("Elastic search", "Elasticsearch");
-            correctionAdd("elastic search", "Elasticsearch");
-
-            correctionAdd("SQL Search", "SQL&nbsp;Search");
-            correctionAdd("SQLSearch", "SQL&nbsp;Search");
-
-            correctionAdd("BFS", "breadth-first search");
-            correctionAdd("breath first search", "breadth-first search");
-            correctionAdd("breadth first search", "breadth-first search");
-
-            correctionAdd("depth first search", "depth-first search");
-            correctionAdd("Depth First Search", "depth-first search");
-            correctionAdd("DFS", "depth-first search");
-            correctionAdd("depth first seach", "depth-first search");
-            correctionAdd("dfs", "depth-first search");
-
-            correctionAdd("serach", "search");
-            correctionAdd("seach", "search");
 
             correctionAdd("throwh", "thrown");
 
@@ -27191,6 +27201,12 @@ namespace OverflowHelper.core
             correctionAdd("hassle free", "hasslefree");
             correctionAdd("hassle-free", "hasslefree");
 
+            correctionAdd("error free", "errorfree");
+            correctionAdd("error-free", "errorfree");
+
+            correctionAdd("FREE", "free");
+            correctionAdd("ffee", "free");
+
             correctionAdd("kick-in", "kick in");
 
             correctionAdd("Police", "police");
@@ -27814,9 +27830,6 @@ namespace OverflowHelper.core
             correctionAdd("complaint", "compliant");
             correctionAdd("complient", "compliant");
             correctionAdd("Compliant", "compliant");
-
-            correctionAdd("error free", "errorfree");
-            correctionAdd("error-free", "errorfree");
 
             correctionAdd("go South", "go south");
 
@@ -30774,9 +30787,6 @@ namespace OverflowHelper.core
             correctionAdd("ramge", "range");
             correctionAdd("ragne", "range");
 
-            correctionAdd("dicotomi", "dichotomy");
-            correctionAdd("dicotomy", "dichotomy");
-
             correctionAdd("justfiy", "justify");
 
             correctionAdd("sprincle", "sprinkle");
@@ -31853,8 +31863,6 @@ namespace OverflowHelper.core
             correctionAdd("Continuous Variable Transmission", "continuous variable transmission");
             correctionAdd("Continuous variable transmission", "continuous variable transmission");
             correctionAdd("CVT", "continuous variable transmission");
-
-            correctionAdd("mey", "my");
 
             correctionAdd("secretely", "secretly");
 
@@ -34451,8 +34459,6 @@ namespace OverflowHelper.core
 
             correctionAdd("STM32Cube", "STM32CubeMX");
             correctionAdd("cube", "STM32CubeMX");
-
-            correctionAdd("FREE", "free");
 
             correctionAdd("mainteiner", "maintainer");
             correctionAdd("maintener", "maintainer");
@@ -40294,6 +40300,10 @@ namespace OverflowHelper.core
             correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
 
             correctionAdd("protoyping", "prototyping");
+
+            correctionAdd("examplifies", "exemplifies");
+
+            correctionAdd("visait", "visit");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63412,6 +63422,10 @@ namespace OverflowHelper.core
             URL_Add("infantry fighting vehicle", "https://en.wikipedia.org/wiki/Infantry_fighting_vehicle");
 
             URL_Add("prototyping", "https://en.wiktionary.org/wiki/prototyping#Noun");
+
+            URL_Add("exemplifies", "https://en.wiktionary.org/wiki/exemplify#Verb");
+
+            URL_Add("visit", "https://en.wiktionary.org/wiki/visit#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
