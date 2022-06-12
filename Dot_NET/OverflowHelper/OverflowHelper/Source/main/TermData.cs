@@ -912,6 +912,7 @@ namespace OverflowHelper.core
             correctionAdd("pHp", "PHP");
             correctionAdd("P.H.P", "PHP");
             correctionAdd("PhP", "PHP");
+            correctionAdd("PHp", "PHP");
 
             correctionAdd("PHP5", "PHP&nbsp;5");
             correctionAdd("php5", "PHP&nbsp;5");
@@ -9501,6 +9502,7 @@ namespace OverflowHelper.core
             correctionAdd("sofware", "software");
             correctionAdd("Softwere", "software");
             correctionAdd("softwere", "software");
+            correctionAdd("sofeware", "software");
 
             correctionAdd("HW", "hardware");
             correctionAdd("hw", "hardware");
@@ -9925,6 +9927,7 @@ namespace OverflowHelper.core
             correctionAdd("mother board", "motherboard");
             correctionAdd("MOB", "motherboard");
             correctionAdd("MBO", "motherboard");
+            correctionAdd("mohterboard", "motherboard");
 
             correctionAdd("ocx", "OCX");
 
@@ -16664,6 +16667,7 @@ namespace OverflowHelper.core
 
             correctionAdd("multi meter", "multimeter");
             correctionAdd("Multimeter", "multimeter");
+            correctionAdd("multineter", "multimeter");
 
             correctionAdd("serure", "secure");
 
@@ -23219,6 +23223,7 @@ namespace OverflowHelper.core
             correctionAdd("pint", "print");
 
             correctionAdd("traslate", "translate");
+            correctionAdd("transalte", "translate");
 
             correctionAdd("Agent Ransak", "Agent Ransack");
             correctionAdd("AgentRansak", "Agent Ransack");
@@ -29728,6 +29733,7 @@ namespace OverflowHelper.core
 
             correctionAdd("guidanance", "guidance");
             correctionAdd("guidence", "guidance");
+            correctionAdd("Guidence", "guidance");
 
             correctionAdd("isnull", "is_null");
 
@@ -29858,6 +29864,7 @@ namespace OverflowHelper.core
 
             correctionAdd("durign", "during");
             correctionAdd("druing", "during");
+            correctionAdd("durng", "during");
 
             correctionAdd("firtly", "firstly");
             correctionAdd("Firtly", "firstly");
@@ -30827,6 +30834,8 @@ namespace OverflowHelper.core
             correctionAdd("sram", "SRAM");
 
             correctionAdd("USB3", "USB 3.0");
+            correctionAdd("usb 3", "USB 3.0");
+            correctionAdd("usb3", "USB 3.0");
 
             correctionAdd("artisitcally", "artistically");
 
@@ -39543,6 +39552,9 @@ namespace OverflowHelper.core
 
             correctionAdd("XHCI", "xHCI");
             correctionAdd("xhci", "xHCI");
+            correctionAdd("extensible host controller", "xHCI");
+            correctionAdd("eXtensible Host Controller Interface", "xHCI");
+            correctionAdd("Extensible Host Controller Interface", "xHCI");
 
             correctionAdd("ehci", "EHCI");
 
@@ -40258,6 +40270,7 @@ namespace OverflowHelper.core
             correctionAdd("excrusiating", "excruciating");
 
             correctionAdd("mis tag", "mistag");
+            correctionAdd("mis-tag", "mistag");
 
             correctionAdd("Quiver", "quiver");
 
@@ -40304,6 +40317,18 @@ namespace OverflowHelper.core
             correctionAdd("examplifies", "exemplifies");
 
             correctionAdd("visait", "visit");
+
+            correctionAdd("New Ginea", "New Guinea");
+
+            correctionAdd("stacks", "Stacks");
+
+            correctionAdd("alocated", "allocated");
+
+            correctionAdd("Earthquake", "earthquake");
+
+            correctionAdd("mailinglist", "mailing list");
+
+            correctionAdd("surveilence", "surveillance");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63427,6 +63452,18 @@ namespace OverflowHelper.core
 
             URL_Add("visit", "https://en.wiktionary.org/wiki/visit#Verb");
 
+            URL_Add("New Guinea", "https://en.wikipedia.org/wiki/New_Guinea");
+
+            URL_Add("Stacks", "https://stackoverflow.design/");
+
+            URL_Add("allocated", "https://en.wiktionary.org/wiki/allocate#Verb");
+
+            URL_Add("earthquake", "https://en.wikipedia.org/wiki/Earthquake");
+
+            URL_Add("mailing list", "https://en.wiktionary.org/wiki/mailing_list#Noun");
+
+            URL_Add("surveillance", "https://en.wiktionary.org/wiki/surveillance#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64012,6 +64049,7 @@ namespace OverflowHelper.core
             correctionAdd("Win-8_", "Windows&nbsp;8_");
             correctionAdd("win 8.0_", "Windows&nbsp;8_");
             correctionAdd("windows 8.0_", "Windows&nbsp;8_");
+            correctionAdd("8.0_", "Windows&nbsp;8_");
 
             correctionAdd("los angeles_", "Los Angeles_");
             correctionAdd("Los angels_", "Los Angeles_");
