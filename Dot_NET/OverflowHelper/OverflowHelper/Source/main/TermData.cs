@@ -15091,6 +15091,10 @@ namespace OverflowHelper.core
             correctionAdd("beuroucracy", "bureaucracy");
             correctionAdd("beroucracy", "bureaucracy");
             correctionAdd("beruoucracy", "bureaucracy");
+            correctionAdd("buerocracy", "bureaucracy");
+            correctionAdd("burocracy", "bureaucracy");
+            correctionAdd("buroucracy", "bureaucracy");
+            correctionAdd("bueroucracy", "bureaucracy");
 
             correctionAdd("buereaucrat", "bureaucrat");
             correctionAdd("buesuresucrat", "bureaucrat");
@@ -20504,6 +20508,7 @@ namespace OverflowHelper.core
             correctionAdd("conatiner", "container");
             correctionAdd("containre", "container");
             correctionAdd("continer", "container");
+            correctionAdd("cointainer", "container");
 
             correctionAdd("instaled", "installed");
             correctionAdd("instlled", "installed");
@@ -24793,6 +24798,7 @@ namespace OverflowHelper.core
             correctionAdd("sand box", "sandbox");
             correctionAdd("Sand Box", "sandbox");
             correctionAdd("sanbox", "sandbox");
+            correctionAdd("Sanbox", "sandbox");
 
             correctionAdd("2", "two");
             correctionAdd("tow", "two");
@@ -24890,6 +24896,7 @@ namespace OverflowHelper.core
             correctionAdd("thoutand", "thousand");
             correctionAdd("thothand", "thousand");
             correctionAdd("thouhand", "thousand");
+            correctionAdd("thuasand", "thousand");
 
             correctionAdd("borland", "Borland");
 
@@ -27936,6 +27943,7 @@ namespace OverflowHelper.core
             correctionAdd("buroucratic", "bureaucratic");
             correctionAdd("bouroucratic", "bureaucratic");
             correctionAdd("beareaucratic", "bureaucratic");
+            correctionAdd("buerocratic", "bureaucratic");
 
             correctionAdd("easyer", "easier");
             correctionAdd("more easy", "easier");
@@ -34042,6 +34050,8 @@ namespace OverflowHelper.core
 
             correctionAdd("SSO", "single sign-on");
             correctionAdd("Single-Sign-On", "single sign-on");
+            correctionAdd("single-signon", "single sign-on");
+            correctionAdd("Single-SignOn", "single sign-on");
 
             correctionAdd("three-letter abbreviation", "three-letter acronym");
             correctionAdd("TLA", "three-letter acronym");
@@ -40325,10 +40335,18 @@ namespace OverflowHelper.core
             correctionAdd("alocated", "allocated");
 
             correctionAdd("Earthquake", "earthquake");
+            correctionAdd("earth quake", "earthquake");
 
             correctionAdd("mailinglist", "mailing list");
 
             correctionAdd("surveilence", "surveillance");
+
+            correctionAdd("first world", "First World");
+            correctionAdd("1st world", "First World");
+
+            correctionAdd("leader board", "leaderboard");
+
+            correctionAdd("logevity", "longevity");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63464,6 +63482,12 @@ namespace OverflowHelper.core
 
             URL_Add("surveillance", "https://en.wiktionary.org/wiki/surveillance#Noun");
 
+            URL_Add("First World", "https://en.wikipedia.org/wiki/First_World");
+
+            URL_Add("leaderboard", "https://en.wiktionary.org/wiki/leaderboard#Noun");
+
+            URL_Add("longevity", "https://en.wiktionary.org/wiki/longevity#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63839,6 +63863,7 @@ namespace OverflowHelper.core
             correctionAdd("Physics_", "Physics (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Physics.SO_", "Physics (Stack Exchange site)_");
             correctionAdd("PSE_", "Physics (Stack Exchange site)_");
+            correctionAdd("physics_", "Physics (Stack Exchange site)_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
@@ -63854,6 +63879,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crypto.stackexchange_", "Cryptography (Stack Exchange site)_");
             correctionAdd("Cryptography_", "Cryptography (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("cryptography_", "Cryptography (Stack Exchange site)_");
 
             correctionAdd("Salesforce_", "Salesforce (Stack Exchange site)_");
 
@@ -64169,6 +64195,11 @@ namespace OverflowHelper.core
             correctionAdd("bited_", "bit_");
 
             correctionAdd("SET_", "set_");
+
+            correctionAdd("Emacs_", "Emacs (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("emacs_", "Emacs (Stack Exchange site)_");
+
+            correctionAdd("Samba_", "samba_");
 
             // URL mappings
             //
@@ -64610,6 +64641,10 @@ namespace OverflowHelper.core
             URL_Add("bit_", "https://en.wiktionary.org/wiki/bite#Verb");
 
             URL_Add("set_", "https://ss64.com/bash/set.html");
+
+            URL_Add("Emacs (Stack Exchange site)_", "https://emacs.stackexchange.com/tour");
+
+            URL_Add("samba_", "https://en.wikipedia.org/wiki/Samba");
 
         } //addLookupData_alternativeWordSet()
 
