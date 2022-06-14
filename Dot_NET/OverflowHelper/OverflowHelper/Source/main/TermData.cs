@@ -7034,6 +7034,7 @@ namespace OverflowHelper.core
             correctionAdd("REPO", "repository");
             correctionAdd("reposiotry", "repository");
             correctionAdd("reop", "repository");
+            correctionAdd("repo'", "repository");
 
             correctionAdd("sub-directories", "subdirectories");
             correctionAdd("subdirs", "subdirectories");
@@ -20952,6 +20953,7 @@ namespace OverflowHelper.core
             correctionAdd("blitz chess", "blitz (chess)"); // Chess
             correctionAdd("Blitiz", "blitz (chess)"); // Chess
             correctionAdd("Blitz", "blitz (chess)"); // Chess
+            correctionAdd("blitz", "blitz (chess)"); // Chess
 
             correctionAdd("scandinavian defense", "Scandinavian Defense"); // Chess
             correctionAdd("scandinavian opening", "Scandinavian Defense"); // Chess
@@ -34979,6 +34981,7 @@ namespace OverflowHelper.core
             correctionAdd("august", "August");
             correctionAdd("Agu", "August");
             correctionAdd("Aug", "August");
+            correctionAdd("AUGUST", "August");
 
             correctionAdd("changable", "changeable");
 
@@ -39553,6 +39556,7 @@ namespace OverflowHelper.core
             correctionAdd("intelliably", "intelligibly");
 
             correctionAdd("Junction", "junction point");
+            correctionAdd("directory junction", "junction point");
 
             correctionAdd("SIEM", "security information and event management");
 
@@ -40347,6 +40351,8 @@ namespace OverflowHelper.core
             correctionAdd("leader board", "leaderboard");
 
             correctionAdd("logevity", "longevity");
+
+            correctionAdd("propogate", "propagate");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63487,6 +63493,8 @@ namespace OverflowHelper.core
             URL_Add("leaderboard", "https://en.wiktionary.org/wiki/leaderboard#Noun");
 
             URL_Add("longevity", "https://en.wiktionary.org/wiki/longevity#Noun");
+
+            URL_Add("propagate", "https://en.wiktionary.org/wiki/propagate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
