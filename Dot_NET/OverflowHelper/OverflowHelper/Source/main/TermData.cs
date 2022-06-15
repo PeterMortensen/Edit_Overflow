@@ -15634,6 +15634,7 @@ namespace OverflowHelper.core
             correctionAdd("à la", "a la");
 
             correctionAdd("asc", "ascending");
+            correctionAdd("ASC", "ascending");
 
             correctionAdd("genereated", "generated");
             correctionAdd("genetated", "generated");
@@ -19901,6 +19902,8 @@ namespace OverflowHelper.core
             correctionAdd("etf", "ETF");
 
             correctionAdd("decending", "descending");
+            correctionAdd("desc", "descending");
+            correctionAdd("DESC", "descending");
 
             correctionAdd("cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmidt cassegrain", "Schmidt–Cassegrain");
@@ -21943,6 +21946,7 @@ namespace OverflowHelper.core
             correctionAdd("mannual", "manual");
             correctionAdd("manuel", "manual");
             correctionAdd("Manuel", "manual");
+            correctionAdd("Manual", "manual");
 
             correctionAdd("signaling", "signalling");
 
@@ -27735,6 +27739,8 @@ namespace OverflowHelper.core
             correctionAdd("MTOW", "maximum takeoff weight");
 
             correctionAdd("pre-defined", "predefined");
+            correctionAdd("Pre defined", "predefined");
+            correctionAdd("pre defined", "predefined");
 
             correctionAdd("replacment", "replacement");
             correctionAdd("replacemeent", "replacement");
@@ -28295,6 +28301,7 @@ namespace OverflowHelper.core
             correctionAdd("nyquist", "Nyquist frequency");
 
             correctionAdd("highpass filter", "high-pass filter");
+            correctionAdd("high pass filter", "high-pass filter");
 
             correctionAdd("singe", "single");
             correctionAdd("signle", "single");
@@ -40222,6 +40229,8 @@ namespace OverflowHelper.core
             correctionAdd("cahode", "cathode");
 
             correctionAdd("daily standup", "daily stand-up meeting");
+            correctionAdd("stand-up", "daily stand-up meeting");
+            correctionAdd("standup", "daily stand-up meeting");
 
             correctionAdd("explaiend", "explained");
 
@@ -40353,6 +40362,16 @@ namespace OverflowHelper.core
             correctionAdd("logevity", "longevity");
 
             correctionAdd("propogate", "propagate");
+
+            correctionAdd("FSL", "Field Service Lightning");
+            correctionAdd("fsl", "Field Service Lightning");
+
+            correctionAdd("Business as Usual", "business as usual");
+            correctionAdd("BaU", "business as usual");
+
+            correctionAdd("centeral", "central");
+
+            correctionAdd("scape goat", "scapegoat");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63496,6 +63515,14 @@ namespace OverflowHelper.core
 
             URL_Add("propagate", "https://en.wiktionary.org/wiki/propagate#Verb");
 
+            URL_Add("Field Service Lightning", "https://www.salesforce.com/solutions/mobile/app-suite/field-service-lightning/");
+
+            URL_Add("business as usual", "https://en.wiktionary.org/wiki/business_as_usual#Noun");
+
+            URL_Add("central", "https://en.wiktionary.org/wiki/central#Adjective");
+
+            URL_Add("scapegoat", "https://en.wiktionary.org/wiki/scapegoat#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -63890,6 +63917,7 @@ namespace OverflowHelper.core
             correctionAdd("cryptography_", "Cryptography (Stack Exchange site)_");
 
             correctionAdd("Salesforce_", "Salesforce (Stack Exchange site)_");
+            correctionAdd("SalesForce_", "Salesforce (Stack Exchange site)_");
 
             correctionAdd("Writing_", "Writing (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("writing_", "Writing (Stack Exchange site)_");
