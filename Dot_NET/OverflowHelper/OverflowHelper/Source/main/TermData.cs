@@ -1364,6 +1364,28 @@ namespace OverflowHelper.core
 
             correctionAdd("one-hot Encoding", "one-hot encoding");
 
+            correctionAdd("url-encoding", "URL encoding");
+            correctionAdd("URLencoded", "URL encoding"); // Not 100% correct.
+            correctionAdd("URL encoded", "URL encoding");
+            correctionAdd("URL Encoding", "URL encoding");
+            correctionAdd("URL-Encoding", "URL encoding");
+            correctionAdd("URL-encoding", "URL encoding");
+
+            correctionAdd("RLE", "run-length encoding");
+
+            correctionAdd("percent-encoded", "percent-encoding");
+            correctionAdd("percent encoding", "percent-encoding");
+
+            correctionAdd("codding", "coding");
+            correctionAdd("Coding", "coding");
+            correctionAdd("codeing", "coding");
+
+            correctionAdd("enconding", "encoding");
+            correctionAdd("Encodeing", "encoding");
+            correctionAdd("encodeing", "encoding");
+
+            correctionAdd("THP", "Tomlinson-Harashima precoding");
+
             correctionAdd("1-to-1", "one-to-one");
             correctionAdd("1 to 1", "one-to-one");
             correctionAdd("one to one", "one-to-one");
@@ -3273,6 +3295,11 @@ namespace OverflowHelper.core
             correctionAdd("img", "image");
             correctionAdd("Image", "image");
             correctionAdd("imge", "image");
+
+            correctionAdd("abble", "able");
+            correctionAdd("ale", "able");
+            correctionAdd("ablr", "able");
+            correctionAdd("a be", "able");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -6525,10 +6552,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gpl", "GPL");
 
-            correctionAdd("abble", "able");
-            correctionAdd("ale", "able");
-            correctionAdd("ablr", "able");
-
             correctionAdd("state-variable", "state variable");
 
             correctionAdd("var", "variable");
@@ -9110,26 +9133,6 @@ namespace OverflowHelper.core
 
             correctionAdd("simulink", "Simulink");
             correctionAdd("SIMULINK", "Simulink");
-
-            correctionAdd("url-encoding", "URL encoding");
-            correctionAdd("URLencoded", "URL encoding"); // Not 100% correct.
-            correctionAdd("URL encoded", "URL encoding");
-            correctionAdd("URL Encoding", "URL encoding");
-            correctionAdd("URL-Encoding", "URL encoding");
-            correctionAdd("URL-encoding", "URL encoding");
-
-            correctionAdd("RLE", "run-length encoding");
-
-            correctionAdd("percent-encoded", "percent-encoding");
-            correctionAdd("percent encoding", "percent-encoding");
-
-            correctionAdd("codding", "coding");
-            correctionAdd("Coding", "coding");
-            correctionAdd("codeing", "coding");
-
-            correctionAdd("enconding", "encoding");
-
-            correctionAdd("THP", "Tomlinson-Harashima precoding");
 
             correctionAdd("imperical", "empirical");
 
@@ -20426,6 +20429,7 @@ namespace OverflowHelper.core
             correctionAdd("milage", "mileage");
 
             correctionAdd("single handedly", "single-handedly");
+            correctionAdd("singlehandedly", "single-handedly");
 
             correctionAdd("spectaculary", "spectacularly");
 
@@ -27960,6 +27964,7 @@ namespace OverflowHelper.core
             correctionAdd("easisier", "easier");
             correctionAdd("more esier", "easier");
             correctionAdd("more easier", "easier");
+            correctionAdd("easer", "easier");
 
             correctionAdd("good manner", "good manners");
 
@@ -40372,6 +40377,14 @@ namespace OverflowHelper.core
             correctionAdd("centeral", "central");
 
             correctionAdd("scape goat", "scapegoat");
+
+            correctionAdd("open-ai", "OpenAI");
+
+            correctionAdd("tinder", "Tinder");
+
+            correctionAdd("dragable", "draggable");
+
+            correctionAdd("partent", "parent");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63522,6 +63535,14 @@ namespace OverflowHelper.core
             URL_Add("central", "https://en.wiktionary.org/wiki/central#Adjective");
 
             URL_Add("scapegoat", "https://en.wiktionary.org/wiki/scapegoat#Noun");
+
+            URL_Add("OpenAI", "https://en.wikipedia.org/wiki/OpenAI");
+
+            URL_Add("Tinder", "https://en.wikipedia.org/wiki/Tinder_(app)");
+
+            URL_Add("draggable", "https://en.wiktionary.org/wiki/draggable#Adjective");
+
+            URL_Add("parent", "https://en.wiktionary.org/wiki/parent#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
