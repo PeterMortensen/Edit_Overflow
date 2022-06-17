@@ -11672,6 +11672,8 @@ namespace OverflowHelper.core
             correctionAdd("Lolipop", "Android 5.0 (Lollipop)");
             correctionAdd("Android Lollipop", "Android 5.0 (Lollipop)");
             correctionAdd("lollipop", "Android 5.0 (Lollipop)");
+            correctionAdd("Lolllipop", "Android 5.0 (Lollipop)");
+            correctionAdd("Android 5.0", "Android 5.0 (Lollipop)");
 
             correctionAdd("5.1", "Android 5.1 (Lollipop)");
             correctionAdd("Android 5.1", "Android 5.1 (Lollipop)");
@@ -12091,6 +12093,10 @@ namespace OverflowHelper.core
             correctionAdd("dones", "doesn’t");
             correctionAdd("doens", "doesn’t");
             correctionAdd("dosen", "doesn’t");
+            correctionAdd("dowsn´t", "doesn’t");
+            correctionAdd("dowsn’t", "doesn’t");
+            correctionAdd("dowsnt", "doesn’t");
+            correctionAdd("dosn’t", "doesn’t");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -17865,6 +17871,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wil", "will");
             correctionAdd("wlil", "will");
+            correctionAdd("wll", "will");
 
             correctionAdd("braintree", "Braintree");
 
@@ -18787,6 +18794,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cheatsheet", "cheat sheet");
             correctionAdd("cheat-sheet", "cheat sheet");
+            correctionAdd("Cheat Sheet", "cheat sheet");
 
             correctionAdd("counter example", "counterexample");
             correctionAdd("counter-example", "counterexample");
@@ -21245,6 +21253,7 @@ namespace OverflowHelper.core
             correctionAdd("knight mare", "knightmare"); // Chess
 
             correctionAdd("candidates 2022", "Candidates Tournament 2022"); // Chess
+            correctionAdd("2022 Candidates", "Candidates Tournament 2022"); // Chess
 
             correctionAdd("mamejaro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("memedraro", "Shakhriyar Mamedyarov"); // Chess
@@ -37578,6 +37587,7 @@ namespace OverflowHelper.core
             correctionAdd("DFSG", "Debian Free Software Guidelines");
 
             correctionAdd("xelatex", "LaXeTeX");
+            correctionAdd("XelaTeX", "LaXeTeX");
 
             correctionAdd("pixabay", "Pixabay");
 
@@ -40385,6 +40395,22 @@ namespace OverflowHelper.core
             correctionAdd("dragable", "draggable");
 
             correctionAdd("partent", "parent");
+
+            correctionAdd("there after", "thereafter");
+            correctionAdd("There after", "thereafter");
+
+            correctionAdd("edt", "EDT");
+
+            correctionAdd("est", "EST");
+
+            correctionAdd("Nexus 5X", "Nexus&nbsp;5X");
+            correctionAdd("nexus 5x", "Nexus&nbsp;5X");
+
+            correctionAdd("world championship 2023", "World Chess Championship 2023");
+
+            correctionAdd("daylite", "daylight");
+
+            correctionAdd("phone book", "phonebook");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63543,6 +63569,20 @@ namespace OverflowHelper.core
             URL_Add("draggable", "https://en.wiktionary.org/wiki/draggable#Adjective");
 
             URL_Add("parent", "https://en.wiktionary.org/wiki/parent#Noun");
+
+            URL_Add("thereafter", "https://en.wiktionary.org/wiki/thereafter#Adverb");
+
+            URL_Add("EDT", "https://en.wikipedia.org/wiki/Eastern_Time_Zone");
+
+            URL_Add("EST", "https://en.wikipedia.org/wiki/Eastern_Time_Zone");
+
+            URL_Add("Nexus&nbsp;5X", "https://en.wikipedia.org/wiki/Nexus_5X");
+
+            URL_Add("World Chess Championship 2023", "https://en.wikipedia.org/wiki/World_Chess_Championship_2023");
+
+            URL_Add("daylight", "https://en.wiktionary.org/wiki/daylight#Noun");
+
+            URL_Add("phonebook", "https://en.wiktionary.org/wiki/phonebook#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
