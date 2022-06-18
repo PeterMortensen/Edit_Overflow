@@ -18817,6 +18817,7 @@ namespace OverflowHelper.core
             correctionAdd("Preg_replace_callback", "preg_replace_callback");
 
             correctionAdd("programatic", "programmatic");
+            correctionAdd("Programatic", "programmatic");
 
             correctionAdd("Sprintf", "sprintf");
 
@@ -19510,6 +19511,8 @@ namespace OverflowHelper.core
             correctionAdd("got to", "go to");
             correctionAdd("GoTo", "go to");
             correctionAdd("Go To", "go to");
+            correctionAdd("Foto", "go to");
+            correctionAdd("foto", "go to");
 
             correctionAdd("inbetween", "in-between");
             correctionAdd("in between", "in-between");
@@ -21324,6 +21327,7 @@ namespace OverflowHelper.core
             correctionAdd("Teams", "Microsoft Teams");
 
             correctionAdd("Office365", "Office 365");
+            correctionAdd("office 365", "Office 365");
 
             correctionAdd("orion", "Orion");
 
@@ -28440,6 +28444,7 @@ namespace OverflowHelper.core
             correctionAdd("PLM", "Programmer Lives Matter");
 
             correctionAdd("bovine faecal matter", "bovine fecal matter");
+            correctionAdd("BS", "bovine fecal matter");
 
             correctionAdd("mater", "matter");
             correctionAdd("metter", "matter");
@@ -40411,6 +40416,16 @@ namespace OverflowHelper.core
             correctionAdd("daylite", "daylight");
 
             correctionAdd("phone book", "phonebook");
+
+            correctionAdd("exiftool", "ExifTool");
+
+            correctionAdd("gerber", "Gerber");
+
+            correctionAdd("sharethis", "ShareThis");
+
+            correctionAdd("CDF", "cumulative distribution function");
+
+            correctionAdd("Thesis", "thesis");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63583,6 +63598,16 @@ namespace OverflowHelper.core
             URL_Add("daylight", "https://en.wiktionary.org/wiki/daylight#Noun");
 
             URL_Add("phonebook", "https://en.wiktionary.org/wiki/phonebook#Noun");
+
+            URL_Add("ExifTool", "https://en.wikipedia.org/wiki/ExifTool");
+
+            URL_Add("Gerber", "https://en.wikipedia.org/wiki/Gerber_format");
+
+            URL_Add("ShareThis", "https://en.wikipedia.org/wiki/ShareThis");
+
+            URL_Add("cumulative distribution function", "https://en.wikipedia.org/wiki/Cumulative_distribution_function");
+
+            URL_Add("thesis", "https://en.wiktionary.org/wiki/thesis#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
