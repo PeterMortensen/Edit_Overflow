@@ -7479,6 +7479,7 @@ namespace OverflowHelper.core
             correctionAdd("BEZIER", "Bézier curve");
             correctionAdd("beziers", "Bézier curve");
             correctionAdd("beizer curvers", "Bézier curve");
+            correctionAdd("beizer curver", "Bézier curve");
 
             correctionAdd("w/o", "without");
             correctionAdd("w/out", "without");
@@ -9893,6 +9894,8 @@ namespace OverflowHelper.core
             correctionAdd("functio", "function");
             correctionAdd("Funktion", "function");
             correctionAdd("funktion", "function");
+            correctionAdd("funcation", "function");
+            correctionAdd("Funtion", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -13585,6 +13588,7 @@ namespace OverflowHelper.core
             correctionAdd("THREE.js", "Three.js");
             correctionAdd("three,js", "Three.js");
             correctionAdd("Three JS", "Three.js");
+            correctionAdd("Three.JS", "Three.js");
 
             correctionAdd("0day", "zero-day");
             correctionAdd("0-day", "zero-day");
@@ -14234,6 +14238,7 @@ namespace OverflowHelper.core
             correctionAdd("statenet", "statement");
             correctionAdd("statenent", "statement");
             correctionAdd("stament", "statement");
+            correctionAdd("Statement", "statement");
 
             correctionAdd("staments", "statements");
             correctionAdd("statments", "statements");
@@ -14915,6 +14920,7 @@ namespace OverflowHelper.core
             correctionAdd("StoreProcedure", "stored procedure");
             correctionAdd("stored porcedure", "stored procedure");
             correctionAdd("procs", "stored procedure");
+            correctionAdd("Stored Proc", "stored procedure");
 
             correctionAdd("proceedure", "procedure");
             correctionAdd("precedure", "procedure");
@@ -15590,6 +15596,7 @@ namespace OverflowHelper.core
             correctionAdd("symetrically", "symmetrically");
 
             correctionAdd("trouble shooting", "troubleshooting");
+            correctionAdd("troubeshooting", "troubleshooting");
 
             correctionAdd("workorder", "work order");
             correctionAdd("Work-order", "work order");
@@ -23169,6 +23176,8 @@ namespace OverflowHelper.core
             correctionAdd("facacious", "facetious");
             correctionAdd("fasacious", "facetious");
             correctionAdd("facecious", "facetious");
+            correctionAdd("facitious", "facetious");
+            correctionAdd("facatious", "facetious");
 
             correctionAdd("falacious", "fallacious");
 
@@ -23912,6 +23921,9 @@ namespace OverflowHelper.core
 
             correctionAdd("preffer", "prefer");
             correctionAdd("prefere", "prefer");
+
+            correctionAdd("referr", "refer");
+            correctionAdd("reffer", "refer");
 
             correctionAdd("randon", "random");
 
@@ -32380,8 +32392,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-assure", "reassure");
 
-            correctionAdd("referr", "refer");
-
             correctionAdd("replys", "replies");
 
             correctionAdd("teamplayer", "team player");
@@ -34195,6 +34205,7 @@ namespace OverflowHelper.core
             correctionAdd("hope this helps", "I hope this helps");
             correctionAdd("hth", "I hope this helps");
             correctionAdd("HTH", "I hope this helps");
+            correctionAdd("Hth", "I hope this helps");
 
             correctionAdd("php_eol", "PHP_EOL");
 
@@ -39172,6 +39183,7 @@ namespace OverflowHelper.core
             correctionAdd("computational binary solid geometry", "constructive solid geometry");
             correctionAdd("CSG", "constructive solid geometry");
             correctionAdd("csg", "constructive solid geometry");
+            correctionAdd("Constructive Solid Geometry", "constructive solid geometry");
 
             correctionAdd("Marshall law", "martial law");
 
@@ -39456,6 +39468,7 @@ namespace OverflowHelper.core
             correctionAdd("alradzy", "already");
             correctionAdd("alrady", "already");
             correctionAdd("alerady", "already");
+            correctionAdd("alreayd", "already");
 
             correctionAdd("arent", "aren’t");
             correctionAdd("arn't", "aren’t");
@@ -39977,6 +39990,7 @@ namespace OverflowHelper.core
 
             correctionAdd("marshaling", "marshalling");
             correctionAdd("marshall", "marshalling");
+            correctionAdd("martialing", "marshalling");
 
             correctionAdd("PAN", "permanent account number");
 
@@ -40426,6 +40440,13 @@ namespace OverflowHelper.core
             correctionAdd("CDF", "cumulative distribution function");
 
             correctionAdd("Thesis", "thesis");
+
+            correctionAdd("APY", "annual percentage yield");
+
+            correctionAdd("denial of service", "denial-of-service attack");
+
+            correctionAdd("human readble", "human-readable");
+            correctionAdd("human readable", "human-readable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63609,6 +63630,12 @@ namespace OverflowHelper.core
 
             URL_Add("thesis", "https://en.wiktionary.org/wiki/thesis#Noun");
 
+            URL_Add("annual percentage yield", "https://en.wikipedia.org/wiki/Annual_percentage_yield");
+
+            URL_Add("denial-of-service attack", "https://en.wikipedia.org/wiki/Denial-of-service_attack");
+
+            URL_Add("human-readable", "https://en.wiktionary.org/wiki/human-readable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64323,6 +64350,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Samba_", "samba_");
 
+            correctionAdd("._", "source_");
+
             // URL mappings
             //
             //
@@ -64767,6 +64796,8 @@ namespace OverflowHelper.core
             URL_Add("Emacs (Stack Exchange site)_", "https://emacs.stackexchange.com/tour");
 
             URL_Add("samba_", "https://en.wikipedia.org/wiki/Samba");
+
+            URL_Add("source_", "https://en.wikipedia.org/wiki/Dot_(command)#Source");
 
         } //addLookupData_alternativeWordSet()
 
