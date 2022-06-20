@@ -860,6 +860,10 @@ namespace OverflowHelper.core
             correctionAdd("lang-typescript", "```lang-typescript");
             correctionAdd("lang-ts", "```lang-typescript");
 
+            correctionAdd("lang-vbs", "```lang-vbnet");
+            correctionAdd("lang-vb", "```lang-vbnet");
+            correctionAdd("lang-vbnet", "```lang-vbnet");
+
             correctionAdd("Nativescript", "NativeScript");
 
             correctionAdd("py script", "PyScript");
@@ -1628,6 +1632,102 @@ namespace OverflowHelper.core
             correctionAdd("FX cop", "FxCop");
             correctionAdd("fxcop", "FxCop");
             correctionAdd("FXCop", "FxCop");
+
+            correctionAdd("Stylecop", "StyleCop");
+            correctionAdd("stylecop", "StyleCop");
+
+            correctionAdd("hadoop", "Hadoop");
+            correctionAdd("HADOOP", "Hadoop");
+
+            correctionAdd("photoshop", "Photoshop");
+            correctionAdd("Adobe Photoshop", "Photoshop"); // Shorten...
+            correctionAdd("Ps", "Photoshop");
+
+            correctionAdd("Prestashop", "PrestaShop");
+            correctionAdd("prestashop", "PrestaShop");
+
+            correctionAdd("sweat shop", "sweatshop");
+
+            correctionAdd("poertop", "PowerTOP");
+            correctionAdd("powertop", "PowerTOP");
+            correctionAdd("Powertop", "PowerTOP");
+
+            correctionAdd("github desktop", "GitHub Desktop");
+            correctionAdd("Git Desktop", "GitHub Desktop");
+
+            correctionAdd("Docker desktop", "Docker Desktop");
+            correctionAdd("docker desktop", "Docker Desktop");
+
+            correctionAdd("Desktop", "desktop");
+            correctionAdd("dekstop", "desktop");
+
+            correctionAdd("Laptop", "laptop");
+
+            correctionAdd("FULL STOP", "full stop");
+            correctionAdd("fullstop", "full stop");
+
+            correctionAdd("HP NonStop", "HPE NonStop");
+            correctionAdd("hp-nonstop", "HPE NonStop");
+
+            correctionAdd("ontop", "on top");
+
+            correctionAdd("TOP", "top");
+
+            correctionAdd("HTOP", "htop");
+
+            correctionAdd("Monodevelop", "MonoDevelop");
+            correctionAdd("mono develop", "MonoDevelop");
+            correctionAdd("Mono Develop", "MonoDevelop");
+            correctionAdd("mono develope", "MonoDevelop"); // Misspelling.
+            correctionAdd("monoDevelop", "MonoDevelop");
+            correctionAdd("MD", "MonoDevelop");
+            correctionAdd("monodevelop", "MonoDevelop");
+
+            correctionAdd("Sharpdevelop", "SharpDevelop");
+            correctionAdd("sharpdevelop", "SharpDevelop");
+            correctionAdd("sharp develop", "SharpDevelop");
+
+            correctionAdd("Kdevelop", "KDevelop");
+
+            correctionAdd("Develop", "develop");
+            correctionAdd("develope", "develop");
+
+            correctionAdd("developped", "developed");
+            correctionAdd("devoped", "developed");
+
+            correctionAdd("phase locked loop", "phase-locked loop");
+            correctionAdd("Phase Locked Loop", "phase-locked loop");
+            correctionAdd("PLL", "phase-locked loop");
+
+            correctionAdd("for-loop", "for loop");
+            correctionAdd("for-statement", "for loop");
+            correctionAdd("For-Loop", "for loop");
+            correctionAdd("For Loop", "for loop");
+            correctionAdd("forloop", "for loop");
+
+            correctionAdd("DnD", "drag and drop");
+            correctionAdd("drag'n'drop", "drag and drop");
+
+            correctionAdd("the quarter drop", "the penny drop");
+
+            correctionAdd("drop", "Drop");
+            correctionAdd("Massdrop", "Drop");
+            correctionAdd("Mass drop", "Drop");
+            correctionAdd("mass drop", "Drop");
+            correctionAdd("massdrop", "Drop");
+            correctionAdd("group buy", "Drop");
+
+            correctionAdd("gamestop", "GameStop");
+
+            correctionAdd("fellow swoop", "one fell swoop");
+
+            correctionAdd("Crop", "crop");
+
+            correctionAdd("op", "OP");
+            correctionAdd("OQ", "OP");
+            correctionAdd("Op", "OP");
+            correctionAdd("Original Poster", "OP");
+            correctionAdd("original poster", "OP");
 
             correctionAdd("asp.net", "ASP.NET");
             correctionAdd("ASP.net", "ASP.NET");
@@ -7665,9 +7765,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nic", "NIC");
 
-            correctionAdd("hadoop", "Hadoop");
-            correctionAdd("HADOOP", "Hadoop");
-
             correctionAdd("base64", "Base64");
             correctionAdd("base 64", "Base64");
             correctionAdd("Base-64", "Base64");
@@ -8986,10 +9083,6 @@ namespace OverflowHelper.core
             correctionAdd("Corba", "CORBA");
             correctionAdd("corba", "CORBA");
             correctionAdd("CPRBA", "CORBA");
-
-            correctionAdd("photoshop", "Photoshop");
-            correctionAdd("Adobe Photoshop", "Photoshop"); // Shorten...
-            correctionAdd("Ps", "Photoshop");
 
             correctionAdd("Sd Card", "SD card");
             correctionAdd("SDCard", "SD card");
@@ -14578,10 +14671,6 @@ namespace OverflowHelper.core
 
             correctionAdd("germanic", "Germanic");
 
-            correctionAdd("op", "OP");
-            correctionAdd("OQ", "OP");
-            correctionAdd("Op", "OP");
-
             correctionAdd("slavic", "Slavic");
 
             correctionAdd("SCCM", "System Center Configuration Manager");
@@ -15921,9 +16010,6 @@ namespace OverflowHelper.core
             correctionAdd("pluarlsight", "Pluralsight");
             correctionAdd("PluralSight", "Pluralsight");
             correctionAdd("pluralsight", "Pluralsight");
-
-            correctionAdd("Stylecop", "StyleCop");
-            correctionAdd("stylecop", "StyleCop");
 
             correctionAdd("windows 1252", "Windows-1252");
             correctionAdd("WINDOWS-1252", "Windows-1252");
@@ -18608,10 +18694,6 @@ namespace OverflowHelper.core
 
             correctionAdd("logitech", "Logitech");
 
-            correctionAdd("poertop", "PowerTOP");
-            correctionAdd("powertop", "PowerTOP");
-            correctionAdd("Powertop", "PowerTOP");
-
             correctionAdd("pywin32", "PyWin32");
             correctionAdd("pyWin32", "PyWin32");
 
@@ -18668,6 +18750,7 @@ namespace OverflowHelper.core
             correctionAdd("multi-core", "multicore");
 
             correctionAdd("precission", "precision");
+            correctionAdd("prescision", "precision");
 
             correctionAdd("re-add", "readd");
             correctionAdd("Re-add", "readd");
@@ -18679,9 +18762,6 @@ namespace OverflowHelper.core
             correctionAdd("perlbrew", "Perlbrew");
             correctionAdd("PerlBrew", "Perlbrew");
             correctionAdd("Perl Brew", "Perlbrew");
-
-            correctionAdd("Prestashop", "PrestaShop");
-            correctionAdd("prestashop", "PrestaShop");
 
             correctionAdd("typo3", "TYPO3");
             correctionAdd("Typo3", "TYPO3");
@@ -22715,14 +22795,9 @@ namespace OverflowHelper.core
 
             correctionAdd("C172", "Cessna 172");
 
-            correctionAdd("Desktop", "desktop");
-            correctionAdd("dekstop", "desktop");
-
             correctionAdd("evac", "evacuation");
 
             correctionAdd("excemt", "exempt");
-
-            correctionAdd("Laptop", "laptop");
 
             correctionAdd("liferaft", "life raft");
 
@@ -22777,24 +22852,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ben", "been");
             correctionAdd("bean", "been");
-
-            correctionAdd("Monodevelop", "MonoDevelop");
-            correctionAdd("mono develop", "MonoDevelop");
-            correctionAdd("Mono Develop", "MonoDevelop");
-            correctionAdd("mono develope", "MonoDevelop"); // Misspelling.
-            correctionAdd("monoDevelop", "MonoDevelop");
-            correctionAdd("MD", "MonoDevelop");
-            correctionAdd("monodevelop", "MonoDevelop");
-
-            correctionAdd("Sharpdevelop", "SharpDevelop");
-            correctionAdd("sharpdevelop", "SharpDevelop");
-            correctionAdd("sharp develop", "SharpDevelop");
-
-            correctionAdd("Develop", "develop");
-            correctionAdd("develope", "develop");
-
-            correctionAdd("developped", "developed");
-            correctionAdd("devoped", "developed");
 
             correctionAdd("insteresting", "interesting");
             correctionAdd("Intresting", "interesting");
@@ -22871,6 +22928,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fot", "for");
             correctionAdd("für", "for");
+            correctionAdd("For", "for");
 
             correctionAdd("jalous", "jealous");
             correctionAdd("jelous", "jealous");
@@ -23790,9 +23848,6 @@ namespace OverflowHelper.core
             correctionAdd("consiel", "conceal");
             correctionAdd("Conseal", "conceal");
             correctionAdd("conseal", "conceal");
-
-            correctionAdd("FULL STOP", "full stop");
-            correctionAdd("fullstop", "full stop");
 
             correctionAdd("his self", "himself");
 
@@ -25337,8 +25392,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tesseract", "Tesseract");
 
-            correctionAdd("HTOP", "htop");
-
             correctionAdd("parrallism", "parallelism");
 
             correctionAdd("cpm", "CPM");
@@ -26025,8 +26078,6 @@ namespace OverflowHelper.core
 
             correctionAdd("workout", "work out");
 
-            correctionAdd("Kdevelop", "KDevelop");
-
             correctionAdd("BDFL", "benevolent dictator for life");
             correctionAdd("BDfL", "benevolent dictator for life");
 
@@ -26282,10 +26333,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heart broken", "heartbroken");
 
-            correctionAdd("phase locked loop", "phase-locked loop");
-            correctionAdd("Phase Locked Loop", "phase-locked loop");
-            correctionAdd("PLL", "phase-locked loop");
-
             correctionAdd("re-answer", "reanswering");
 
             correctionAdd("fem", "finite element method");
@@ -26459,6 +26506,7 @@ namespace OverflowHelper.core
             correctionAdd("motnh", "month");
             correctionAdd("Month", "month");
             correctionAdd("moth", "month");
+            correctionAdd("mounth", "month");
 
             correctionAdd("relaying", "relying");
             correctionAdd("Relaying", "relying");
@@ -26619,8 +26667,6 @@ namespace OverflowHelper.core
             correctionAdd("taugth", "taught");
 
             correctionAdd("tollerate", "tolerate");
-
-            correctionAdd("ontop", "on top");
 
             correctionAdd("islam", "Islam");
 
@@ -27513,6 +27559,7 @@ namespace OverflowHelper.core
             correctionAdd("positionnal", "positional");
 
             correctionAdd("py test", "pytest");
+            correctionAdd("Pytest", "pytest");
 
             correctionAdd("re-routing", "rerouting");
 
@@ -28662,13 +28709,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tentaive", "tentative");
 
-            correctionAdd("drop", "Drop");
-            correctionAdd("Massdrop", "Drop");
-            correctionAdd("Mass drop", "Drop");
-            correctionAdd("mass drop", "Drop");
-            correctionAdd("massdrop", "Drop");
-            correctionAdd("group buy", "Drop");
-
             correctionAdd("LoD", "Law of Demeter");
 
             correctionAdd("uia", "Microsoft UI Automation");
@@ -29360,8 +29400,6 @@ namespace OverflowHelper.core
             correctionAdd("Boto 3", "Boto&nbsp;3");
             correctionAdd("boto3", "Boto&nbsp;3");
             correctionAdd("boto 3", "Boto&nbsp;3");
-
-            correctionAdd("gamestop", "GameStop");
 
             correctionAdd("sqlfiddle", "SQL Fiddle");
             correctionAdd("SQL fiddle", "SQL Fiddle");
@@ -30246,8 +30284,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SYSLOG", "syslog");
 
-            correctionAdd("TOP", "top");
-
             correctionAdd("USERADD", "useradd");
 
             correctionAdd("ATMEGA32U4", "ATmega32U4");
@@ -30514,8 +30550,6 @@ namespace OverflowHelper.core
             correctionAdd("quilty", "guilty");
 
             correctionAdd("plaid", "played");
-
-            correctionAdd("the quarter drop", "the penny drop");
 
             correctionAdd("MicroCap", "Micro-Cap");
 
@@ -33357,6 +33391,7 @@ namespace OverflowHelper.core
             correctionAdd("MU-MIMO", "Multi-user MIMO");
 
             correctionAdd("CTE", "common table expression");
+            correctionAdd("cte", "common table expression");
 
             correctionAdd("CDT", "Eclipse CDT");
             correctionAdd("Eclipse/CDT", "Eclipse CDT");
@@ -34266,9 +34301,6 @@ namespace OverflowHelper.core
 
             correctionAdd("google compute engine", "Google Compute Engine");
 
-            correctionAdd("HP NonStop", "HPE NonStop");
-            correctionAdd("hp-nonstop", "HPE NonStop");
-
             correctionAdd("MCCV", "Monte Carlo cross-validation");
 
             correctionAdd("Stefan-Boltzmann law", "Stefan–Boltzmann law");
@@ -34444,8 +34476,6 @@ namespace OverflowHelper.core
             correctionAdd("gSchem", "gschem");
 
             correctionAdd("MYSQL_ESCAPE_STRING", "mysql_escape_string");
-
-            correctionAdd("fellow swoop", "one fell swoop");
 
             correctionAdd("powerline", "power line");
 
@@ -34856,9 +34886,6 @@ namespace OverflowHelper.core
 
             correctionAdd("conculsion", "conclusion");
             correctionAdd("conclution", "conclusion");
-
-            correctionAdd("DnD", "drag and drop");
-            correctionAdd("drag'n'drop", "drag and drop");
 
             correctionAdd("error-handling", "error handling");
 
@@ -35608,9 +35635,6 @@ namespace OverflowHelper.core
             correctionAdd("Variational Bayes", "variational Bayes");
 
             correctionAdd("eviews", "EViews");
-
-            correctionAdd("github desktop", "GitHub Desktop");
-            correctionAdd("Git Desktop", "GitHub Desktop");
 
             correctionAdd("openMP", "OpenMP");
             correctionAdd("openmp", "OpenMP");
@@ -36399,9 +36423,6 @@ namespace OverflowHelper.core
             correctionAdd("Zir", "zir");
 
             correctionAdd("baroque", "Baroque music");
-
-            correctionAdd("Docker desktop", "Docker Desktop");
-            correctionAdd("docker desktop", "Docker Desktop");
 
             correctionAdd("ESET", "ESET Smart Security");
 
@@ -37372,8 +37393,6 @@ namespace OverflowHelper.core
 
             correctionAdd("coloses", "closes");
 
-            correctionAdd("Crop", "crop");
-
             correctionAdd("ESB", "enterprise service bus");
 
             correctionAdd("OTA", "operational transconductance amplifier");
@@ -38086,6 +38105,28 @@ namespace OverflowHelper.core
             correctionAdd("Not an answer", "not an answer");
             correctionAdd("NAA", "not an answer");
             correctionAdd("Not An Answer", "not an answer");
+
+            correctionAdd("anwser", "answer");
+            correctionAdd("awnser", "answer");
+            correctionAdd("anwswer", "answer");
+            correctionAdd("ans", "answer"); // Alternative: "and" (a true type)
+            correctionAdd("answser", "answer");
+            correctionAdd("Annswer", "answer");
+            correctionAdd("Answer", "answer");
+            correctionAdd("anwer", "answer");
+            correctionAdd("answere", "answer");
+            correctionAdd("ansver", "answer");
+            correctionAdd("anser", "answer");
+            correctionAdd("ansew", "answer");
+            correctionAdd("answerd", "answer");
+            correctionAdd("aswer", "answer");
+            correctionAdd("asnwer", "answer");
+            correctionAdd("answah", "answer");
+            correctionAdd("answear", "answer");
+            correctionAdd("Asnwer", "answer");
+            correctionAdd("Ans", "answer");
+            correctionAdd("ranswer", "answer");
+            correctionAdd("ansewer", "answer");
 
             correctionAdd("OU", "organizational unit");
 
@@ -39231,8 +39272,6 @@ namespace OverflowHelper.core
 
             correctionAdd("suceeds", "succeeds");
 
-            correctionAdd("sweat shop", "sweatshop");
-
             correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
 
             correctionAdd("C driver", "C drive");
@@ -39273,6 +39312,7 @@ namespace OverflowHelper.core
             correctionAdd("CMDKEY", "cmdkey");
 
             correctionAdd("dbfiddle", "db<>fiddle");
+            correctionAdd("DBFIDDLE", "db<>fiddle");
 
             correctionAdd("open source software", "open-source software");
             correctionAdd("OSS", "open-source software");
@@ -39427,27 +39467,6 @@ namespace OverflowHelper.core
             correctionAdd("SUV", "sport utility vehicle");
 
             correctionAdd("sub contract", "subcontract");
-
-            correctionAdd("anwser", "answer");
-            correctionAdd("awnser", "answer");
-            correctionAdd("anwswer", "answer");
-            correctionAdd("ans", "answer"); // Alternative: "and" (a true type)
-            correctionAdd("answser", "answer");
-            correctionAdd("Annswer", "answer");
-            correctionAdd("Answer", "answer");
-            correctionAdd("anwer", "answer");
-            correctionAdd("answere", "answer");
-            correctionAdd("ansver", "answer");
-            correctionAdd("anser", "answer");
-            correctionAdd("ansew", "answer");
-            correctionAdd("answerd", "answer");
-            correctionAdd("aswer", "answer");
-            correctionAdd("asnwer", "answer");
-            correctionAdd("answah", "answer");
-            correctionAdd("answear", "answer");
-            correctionAdd("Asnwer", "answer");
-            correctionAdd("Ans", "answer");
-            correctionAdd("ranswer", "answer");
 
             correctionAdd("a/o", "and other");
 
@@ -39741,12 +39760,6 @@ namespace OverflowHelper.core
             correctionAdd("high-and-dry", "high and dry");
 
             correctionAdd("re-asked", "reasked");
-
-            correctionAdd("for-loop", "for loop");
-            correctionAdd("for-statement", "for loop");
-            correctionAdd("For-Loop", "for loop");
-            correctionAdd("For Loop", "for loop");
-            correctionAdd("forloop", "for loop");
 
             correctionAdd("if-statement", "if statement");
 
@@ -40447,6 +40460,42 @@ namespace OverflowHelper.core
 
             correctionAdd("human readble", "human-readable");
             correctionAdd("human readable", "human-readable");
+
+            correctionAdd("Bayasian", "Bayesian");
+            correctionAdd("Beyasian", "Bayesian");
+
+            correctionAdd("Chinese Language", "Chinese Language (Stack Exchange site)");
+            correctionAdd("Chinese.SE", "Chinese Language (Stack Exchange site)");
+
+            correctionAdd("Health Insurance Portability and Accountability Act", "HIPAA");
+
+            correctionAdd("Vivado", "Xilinx Vivado");
+
+            correctionAdd("abondan", "abandon");
+
+            correctionAdd("asympptotic", "asymptotic");
+
+            correctionAdd("bidr", "bidirectional");
+            correctionAdd("bi-directional", "bidirectional");
+            correctionAdd("bidir", "bidirectional");
+
+            correctionAdd("drive by", "drive-by");
+
+            correctionAdd("inequation", "inequality");
+
+            correctionAdd("data selector", "multiplexer");
+            correctionAdd("mux", "multiplexer");
+            correctionAdd("multiplexor", "multiplexer");
+
+            correctionAdd("personal icon", "profile picture");
+            correctionAdd("pfp", "profile picture");
+            correctionAdd("userpic", "profile picture");
+            correctionAdd("picon", "profile picture");
+
+            correctionAdd("testbench", "test bench");
+
+            correctionAdd("3-state", "three-state");
+            correctionAdd("tri-state", "three-state");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63635,6 +63684,34 @@ namespace OverflowHelper.core
             URL_Add("denial-of-service attack", "https://en.wikipedia.org/wiki/Denial-of-service_attack");
 
             URL_Add("human-readable", "https://en.wiktionary.org/wiki/human-readable#Adjective");
+
+            URL_Add("Bayesian", "https://en.wikipedia.org/wiki/Bayesian_statistics");
+
+            URL_Add("Chinese Language (Stack Exchange site)", "https://chinese.stackexchange.com/tour");
+
+            URL_Add("HIPAA", "https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act");
+
+            URL_Add("Xilinx Vivado", "https://en.wikipedia.org/wiki/Xilinx_Vivado");
+
+            URL_Add("```lang-vbnet", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("abandon", "https://en.wiktionary.org/wiki/abandon#Verb");
+
+            URL_Add("asymptotic", "https://en.wiktionary.org/wiki/asymptotic#Adjective");
+
+            URL_Add("bidirectional", "https://en.wiktionary.org/wiki/bidirectional#Adjective");
+
+            URL_Add("drive-by", "https://en.wiktionary.org/wiki/drive-by#Adjective");
+
+            URL_Add("inequality", "https://en.wikipedia.org/wiki/Inequation");
+
+            URL_Add("multiplexer", "https://en.wikipedia.org/wiki/Multiplexer");
+
+            URL_Add("profile picture", "https://en.wiktionary.org/wiki/pfp#Noun");
+
+            URL_Add("test bench", "https://en.wiktionary.org/wiki/test_bench#Noun");
+
+            URL_Add("three-state", "https://en.wikipedia.org/wiki/Three-state_logic");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
