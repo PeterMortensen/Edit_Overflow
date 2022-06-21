@@ -6859,6 +6859,7 @@ namespace OverflowHelper.core
             correctionAdd("executeable", "executable");
             correctionAdd("exucutable", "executable");
             correctionAdd("excuteable", "executable");
+            correctionAdd("executible", "executable");
 
             correctionAdd("replaceble", "replaceable");
             correctionAdd("replacable", "replaceable");
@@ -7229,6 +7230,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Geometry", "geometry");
             correctionAdd("geoemetry", "geometry");
+            correctionAdd("Geoemtry", "geometry");
+            correctionAdd("geoemtry", "geometry");
 
             correctionAdd("reentry", "re-entry");
 
@@ -9487,6 +9490,7 @@ namespace OverflowHelper.core
             correctionAdd("samba", "Samba");
             correctionAdd("SMB", "Samba");
             correctionAdd("smb", "Samba");
+            correctionAdd("SaMBa", "Samba");
 
             correctionAdd("colo", "colocation centre");
 
@@ -13536,6 +13540,7 @@ namespace OverflowHelper.core
             correctionAdd("Somtimes", "sometimes");
             correctionAdd("somtimes", "sometimes");
             correctionAdd("Some time", "sometimes");
+            correctionAdd("some-times", "sometimes");
 
             correctionAdd("pci-e", "PCIe");
             correctionAdd("PCI-e", "PCIe");
@@ -14529,6 +14534,7 @@ namespace OverflowHelper.core
             correctionAdd("3th", "third");
             correctionAdd("3Rd", "third");
             correctionAdd("theird", "third");
+            correctionAdd("3-rd", "third");
 
             correctionAdd("visa versa", "vice versa");
             correctionAdd("Vis versa", "vice versa");
@@ -14787,6 +14793,7 @@ namespace OverflowHelper.core
             correctionAdd("seg", "second");
             correctionAdd("2th", "second");
             correctionAdd("²nd", "second");
+            correctionAdd("2-nd", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -20122,6 +20129,7 @@ namespace OverflowHelper.core
             correctionAdd("contries", "countries");
             correctionAdd("country's", "countries");
             correctionAdd("countrys", "countries");
+            correctionAdd("con tries", "countries");
 
             correctionAdd("essense", "essence");
 
@@ -33640,6 +33648,8 @@ namespace OverflowHelper.core
             correctionAdd("spoooler", "spoiler");
             correctionAdd("Sp-oooler", "spoiler");
             correctionAdd("sp-oooler", "spoiler");
+            correctionAdd("apoiler", "spoiler");
+            correctionAdd("spoier", "spoiler");
 
             correctionAdd("AEM", "Adobe Experience Manager");
             correctionAdd("aem", "Adobe Experience Manager");
@@ -40496,6 +40506,32 @@ namespace OverflowHelper.core
 
             correctionAdd("3-state", "three-state");
             correctionAdd("tri-state", "three-state");
+
+            correctionAdd("HC11", "68HC11");
+            correctionAdd("MC68HC11", "68HC11");
+            correctionAdd("6811", "68HC11");
+
+            correctionAdd("SPM", "Swift Package Manager");
+            correctionAdd("spm", "Swift Package Manager");
+
+            correctionAdd("tweedie distribution", "Tweedie distribution");
+
+            correctionAdd("kaching", "cash register sound");
+
+            correctionAdd("consits", "consists");
+
+            correctionAdd("primative", "primitive");
+
+            correctionAdd("the-one", "the one");
+
+            correctionAdd("XCOPY", "xcopy");
+
+            correctionAdd("Dynamic Generalized Linear Model", "dynamic generalized linear model");
+            correctionAdd("dglm", "dynamic generalized linear model");
+            correctionAdd("DGLM", "dynamic generalized linear model");
+
+            correctionAdd("glm", "generalized linear model");
+            correctionAdd("GLM", "generalized linear model");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63712,6 +63748,26 @@ namespace OverflowHelper.core
             URL_Add("test bench", "https://en.wiktionary.org/wiki/test_bench#Noun");
 
             URL_Add("three-state", "https://en.wikipedia.org/wiki/Three-state_logic");
+
+            URL_Add("68HC11", "https://en.wikipedia.org/wiki/Motorola_68HC11");
+
+            URL_Add("Swift Package Manager", "https://www.swift.org/package-manager/");
+
+            URL_Add("Tweedie distribution", "https://en.wikipedia.org/wiki/Tweedie_distribution");
+
+            URL_Add("cash register sound", "https://www.youtube.com/watch?v=4kVTqUxJYBA");
+
+            URL_Add("consists", "https://en.wiktionary.org/wiki/consist#Verb");
+
+            URL_Add("dynamic generalized linear model", "https://link.springer.com/article/10.1007/s11009-011-9255-6");
+
+            URL_Add("generalized linear model", "https://en.wikipedia.org/wiki/Generalized_linear_model");
+
+            URL_Add("primitive", "https://en.wiktionary.org/wiki/primitive#Noun");
+
+            URL_Add("the one", "https://en.wiktionary.org/wiki/the_one#Noun");
+
+            URL_Add("xcopy", "https://ss64.com/nt/xcopy.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
