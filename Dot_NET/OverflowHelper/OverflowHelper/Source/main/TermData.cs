@@ -5344,6 +5344,7 @@ namespace OverflowHelper.core
             correctionAdd("Elsewhere", "Stack&nbsp;Exchange");
             correctionAdd("StackExcahnge", "Stack&nbsp;Exchange");
             correctionAdd("stackexange", "Stack&nbsp;Exchange");
+            correctionAdd("stack exchanged", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -9235,6 +9236,7 @@ namespace OverflowHelper.core
             correctionAdd("APPLE", "Apple");
             correctionAdd("aplle", "Apple");
             correctionAdd("Aplle", "Apple");
+            correctionAdd("Crapple", "Apple");
 
             correctionAdd("tl;dr", "TLDR");
             correctionAdd("tldr", "TLDR");
@@ -23890,6 +23892,7 @@ namespace OverflowHelper.core
             correctionAdd("conseal", "conceal");
 
             correctionAdd("his self", "himself");
+            correctionAdd("him self", "himself");
 
             correctionAdd("North", "north");
 
@@ -23981,6 +23984,7 @@ namespace OverflowHelper.core
             correctionAdd("swiftUI", "SwiftUI");
             correctionAdd("Swift UI", "SwiftUI");
             correctionAdd("SwiftUi", "SwiftUI");
+            correctionAdd("swiftui", "SwiftUI");
 
             correctionAdd("deam", "deem");
 
@@ -39320,6 +39324,10 @@ namespace OverflowHelper.core
             correctionAdd("deserializing", "deserialising");
             correctionAdd("desirializing", "deserialising");
 
+            correctionAdd("serializing", "serialising");
+            correctionAdd("Serialzing", "serialising");
+            correctionAdd("serialzing", "serialising");
+
             correctionAdd("biasness", "biasedness");
             correctionAdd("biassness", "biasedness");
 
@@ -40572,6 +40580,16 @@ namespace OverflowHelper.core
             correctionAdd("Liquid crystals", "liquid crystal");
 
             correctionAdd("Theory of Computation", "theory of computation");
+
+            correctionAdd("EFS", "Encrypting File System");
+
+            correctionAdd("little snitch", "Little Snitch");
+
+            correctionAdd("opensnitch", "OpenSnitch");
+
+            correctionAdd("HIPS", "host-based intrusion prevention system");
+
+            correctionAdd("seing", "seeing");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63830,6 +63848,18 @@ namespace OverflowHelper.core
             URL_Add("liquid crystal", "https://en.wikipedia.org/wiki/Liquid_crystal");
 
             URL_Add("theory of computation", "https://en.wikipedia.org/wiki/Theory_of_computation");
+
+            URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
+
+            URL_Add("Little Snitch", "https://en.wikipedia.org/wiki/Little_Snitch");
+
+            URL_Add("OpenSnitch", "https://github.com/evilsocket/opensnitch");
+
+            URL_Add("host-based intrusion prevention system", "https://en.wikipedia.org/wiki/Intrusion_detection_system#Classification");
+
+            URL_Add("seeing", "https://en.wiktionary.org/wiki/see#Verb");
+
+            URL_Add("serialising", "https://en.wiktionary.org/wiki/serialise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
