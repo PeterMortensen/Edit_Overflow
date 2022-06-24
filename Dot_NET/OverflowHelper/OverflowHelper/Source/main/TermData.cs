@@ -1864,6 +1864,7 @@ namespace OverflowHelper.core
             correctionAdd("MaxOSX", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("MAC X", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Os x", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("Mac os x", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
             correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
@@ -2889,6 +2890,20 @@ namespace OverflowHelper.core
             correctionAdd("explorer", "Windows&nbsp;Explorer"); // Overloaded term, and
                                              // it could mean Internet Explorer instead.
             correctionAdd("WINDOWS EXPLORER", "Windows&nbsp;Explorer");
+
+            correctionAdd("do", "so");
+            correctionAdd("soo", "so");
+
+            correctionAdd("elso", "also");
+            correctionAdd("aso", "also");
+            correctionAdd("alos", "also");
+            correctionAdd("alsso", "also");
+            correctionAdd("alo", "also");
+            correctionAdd("alao", "also");
+            correctionAdd("allso", "also");
+
+            correctionAdd("moreso", "more so");
+            correctionAdd("more-so", "more so");
 
             correctionAdd("espresso", "Espresso"); // Web editor from MacRabbit.
             correctionAdd("Expresso", "Espresso");
@@ -11489,6 +11504,7 @@ namespace OverflowHelper.core
             correctionAdd("kali linux", "Kali Linux");
             correctionAdd("Kali linux", "Kali Linux");
             correctionAdd("KALI LINUX", "Kali Linux");
+            correctionAdd("kali Linux", "Kali Linux");
 
             correctionAdd("unetbootin", "UNetbootin");
             correctionAdd("Unetbootin", "UNetbootin");
@@ -11943,12 +11959,14 @@ namespace OverflowHelper.core
             correctionAdd("BigEndian", "big-endian");
             correctionAdd("bigendian", "big-endian");
             correctionAdd("big endian", "big-endian");
+            correctionAdd("Big endian", "big-endian");
 
             correctionAdd("Little Endian", "little-endian");
             correctionAdd("LittleEndian", "little-endian");
             correctionAdd("littleendian", "little-endian");
             correctionAdd("little endian", "little-endian");
             correctionAdd("LE", "little-endian");
+            correctionAdd("Little endian", "little-endian");
 
             correctionAdd("fits", "FITS");
 
@@ -11963,6 +11981,9 @@ namespace OverflowHelper.core
             correctionAdd("togheter", "together");
             correctionAdd("togeather", "together");
             correctionAdd("togeser", "together");
+            correctionAdd("toghether", "together");
+
+            correctionAdd("String together", "string together");
 
             correctionAdd("follownig", "following");
             correctionAdd("follwoing", "following");
@@ -13555,6 +13576,7 @@ namespace OverflowHelper.core
             correctionAdd("alltogether", "altogether");
             correctionAdd("altogeher", "altogether");
             correctionAdd("all-together", "altogether");
+            correctionAdd("all toghether", "altogether");
 
             correctionAdd("middle east", "Middle East");
 
@@ -18124,6 +18146,7 @@ namespace OverflowHelper.core
             correctionAdd("powerpc", "PowerPC");
             correctionAdd("power-pc", "PowerPC");
             correctionAdd("Power PC", "PowerPC");
+            correctionAdd("PPC", "PowerPC");
 
             correctionAdd("WOW64", "WoW64");
 
@@ -18199,6 +18222,7 @@ namespace OverflowHelper.core
             correctionAdd("Material-UI", "MUI");
             correctionAdd("Mui", "MUI");
             correctionAdd("mui", "MUI");
+            correctionAdd("material UI", "MUI");
 
             correctionAdd("Technet", "TechNet");
             correctionAdd("technet", "TechNet");
@@ -19223,6 +19247,7 @@ namespace OverflowHelper.core
             correctionAdd("ZShell", "Z shell");
 
             correctionAdd("case-insensitive", "case insensitive");
+            correctionAdd("caseinsensitive", "case insensitive");
 
             correctionAdd("congrats", "congratulations");
             correctionAdd("Congrats", "congratulations");
@@ -22249,14 +22274,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Honeypot", "honeypot");
 
-            correctionAdd("elso", "also");
-            correctionAdd("aso", "also");
-            correctionAdd("alos", "also");
-            correctionAdd("alsso", "also");
-            correctionAdd("alo", "also");
-            correctionAdd("alao", "also");
-            correctionAdd("allso", "also");
-
             correctionAdd("conver", "convert");
 
             correctionAdd("enduser", "end user");
@@ -24865,9 +24882,6 @@ namespace OverflowHelper.core
             correctionAdd("hsts", "HSTS");
 
             correctionAdd("Flowchart", "flowchart");
-
-            correctionAdd("moreso", "more so");
-            correctionAdd("more-so", "more so");
 
             correctionAdd("on topic", "on-topic");
             correctionAdd("ontopic", "on-topic");
@@ -34057,8 +34071,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GETENT", "getent");
 
-            correctionAdd("do", "so");
-
             correctionAdd("vertrigo", "Vertrigo");
 
             correctionAdd("can not", "cannot");
@@ -37583,8 +37595,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Services", "services");
 
-            correctionAdd("String together", "string together");
-
             correctionAdd("sun setting", "sunsetting");
 
             correctionAdd("atke", "take");
@@ -40590,6 +40600,19 @@ namespace OverflowHelper.core
             correctionAdd("HIPS", "host-based intrusion prevention system");
 
             correctionAdd("seing", "seeing");
+
+            correctionAdd("cep", "Ceph");
+            correctionAdd("ceph", "Ceph");
+
+            correctionAdd("data execution prevention", "DEP");
+            correctionAdd("Data Execution Prevention", "DEP");
+
+            correctionAdd("Wi-Fi Protected Setup", "WPS");
+            correctionAdd("Wi-Fi Simple Config", "WPS");
+
+            correctionAdd("ASLR", "address space layout randomization");
+
+            correctionAdd("boxplot", "box plot");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63860,6 +63883,16 @@ namespace OverflowHelper.core
             URL_Add("seeing", "https://en.wiktionary.org/wiki/see#Verb");
 
             URL_Add("serialising", "https://en.wiktionary.org/wiki/serialise#Verb");
+
+            URL_Add("Ceph", "https://en.wikipedia.org/wiki/Ceph_(software)");
+
+            URL_Add("DEP", "https://en.wikipedia.org/wiki/Executable_space_protection#Windows");
+
+            URL_Add("WPS", "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup");
+
+            URL_Add("address space layout randomization", "https://en.wikipedia.org/wiki/Address_space_layout_randomization");
+
+            URL_Add("box plot", "https://en.wikipedia.org/wiki/Box_plot");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
