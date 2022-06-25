@@ -8722,6 +8722,7 @@ namespace OverflowHelper.core
             correctionAdd("Neural networks", "artificial neural network");
 
             correctionAdd("n/w", "network");
+            correctionAdd("Network", "network");
 
             correctionAdd("upwork", "Upwork");
             correctionAdd("UpWork", "Upwork");
@@ -21577,6 +21578,8 @@ namespace OverflowHelper.core
             correctionAdd("componant", "component");
             correctionAdd("coponent", "component");
             correctionAdd("componet", "component");
+            correctionAdd("Compoent", "component");
+            correctionAdd("compoent", "component");
 
             correctionAdd("orginal", "original");
             correctionAdd("orignal", "original");
@@ -25234,6 +25237,7 @@ namespace OverflowHelper.core
             correctionAdd("UpperCamelCase", "upper camel case");
             correctionAdd("PascalCase", "upper camel case");
             correctionAdd("Pascal case", "upper camel case");
+            correctionAdd("Pascal form", "upper camel case");
 
             correctionAdd("CamelCase", "camel case");
             correctionAdd("camelCase", "camel case");
@@ -25272,6 +25276,7 @@ namespace OverflowHelper.core
             correctionAdd("Oz", "Australia");
             correctionAdd("OZ", "Australia");
             correctionAdd("Aussie land", "Australia");
+            correctionAdd("Australlia", "Australia");
 
             correctionAdd("gdpr", "GDPR");
             correctionAdd("GDRP", "GDPR");
@@ -40613,6 +40618,13 @@ namespace OverflowHelper.core
             correctionAdd("ASLR", "address space layout randomization");
 
             correctionAdd("boxplot", "box plot");
+
+            correctionAdd("call out", "callout");
+            correctionAdd("call-out", "callout");
+
+            correctionAdd("low quality", "low-quality");
+
+            correctionAdd("menues", "menus");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63894,6 +63906,12 @@ namespace OverflowHelper.core
 
             URL_Add("box plot", "https://en.wikipedia.org/wiki/Box_plot");
 
+            URL_Add("callout", "https://en.wiktionary.org/wiki/callout#Noun");
+
+            URL_Add("low-quality", "https://en.wiktionary.org/wiki/low-quality#Adjective");
+
+            URL_Add("menus", "https://en.wiktionary.org/wiki/menu#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64458,6 +64476,7 @@ namespace OverflowHelper.core
             correctionAdd("And_", "and_");
             correctionAdd("anb_", "and_");
             correctionAdd("ans_", "and_");
+            correctionAdd("an_", "and_");
 
             correctionAdd("home-brew_", "homebrewed_");
 
