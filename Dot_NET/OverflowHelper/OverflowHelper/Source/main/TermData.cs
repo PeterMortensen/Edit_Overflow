@@ -3378,6 +3378,8 @@ namespace OverflowHelper.core
             correctionAdd("ansi escape code", "ANSI escape code");
             correctionAdd("ANSI color", "ANSI escape code");
             correctionAdd("ANSI color sequence", "ANSI escape code");
+            correctionAdd("ANSI color escape sequence", "ANSI escape code");
+            correctionAdd("ANSI escape sequence", "ANSI escape code");
 
             correctionAdd("avocode", "Avocode");
 
@@ -14839,6 +14841,7 @@ namespace OverflowHelper.core
             correctionAdd("Doppler", "Doppler effect");
             correctionAdd("Doppler shift", "Doppler effect");
             correctionAdd("doppler effect", "Doppler effect");
+            correctionAdd("Doppler Effect", "Doppler effect");
 
             correctionAdd("sunday", "Sunday");
 
@@ -17021,6 +17024,7 @@ namespace OverflowHelper.core
 
             correctionAdd("encrytpion", "encryption");
             correctionAdd("encription", "encryption");
+            correctionAdd("enctyption", "encryption");
 
             correctionAdd("imporant", "important");
 
@@ -40626,6 +40630,22 @@ namespace OverflowHelper.core
 
             correctionAdd("menues", "menus");
 
+            correctionAdd("Agner Fog's optimization manuals", "Agner Fog's optimisation manuals");
+
+            correctionAdd("Github Codespaces", "GitHub Codespaces");
+
+            correctionAdd("Xeon E5 1620", "Xeon E5-1620");
+
+            correctionAdd("W5580", "Xeon W5580");
+
+            correctionAdd("good looking", "good-looking");
+
+            correctionAdd("hardcoding", "hard coding");
+            correctionAdd("hard-coding", "hard coding");
+
+            correctionAdd("linenumber", "line number");
+            correctionAdd("line no", "line number");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -63911,6 +63931,20 @@ namespace OverflowHelper.core
             URL_Add("low-quality", "https://en.wiktionary.org/wiki/low-quality#Adjective");
 
             URL_Add("menus", "https://en.wiktionary.org/wiki/menu#Noun");
+
+            URL_Add("Agner Fog's optimisation manuals", "https://en.wikipedia.org/wiki/Agner_Fog#Optimization");
+
+            URL_Add("GitHub Codespaces", "https://github.com/features/codespaces");
+
+            URL_Add("Xeon E5-1620", "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Sandy_Bridge-based)#Xeon_E5-1620");
+
+            URL_Add("Xeon W5580", "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Nehalem-based)#%22Gainestown%22_(45_nm)");
+
+            URL_Add("good-looking", "https://en.wiktionary.org/wiki/good-looking#Adjective");
+
+            URL_Add("hard coding", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("line number", "https://en.wiktionary.org/wiki/line_number#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
