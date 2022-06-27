@@ -2172,6 +2172,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS Monterey 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Mac OS 12", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("MAC OS Monterey", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -13409,6 +13410,7 @@ namespace OverflowHelper.core
             correctionAdd("tensorFlow", "TensorFlow");
             correctionAdd("tensor-flow", "TensorFlow");
             correctionAdd("TF", "TensorFlow");
+            correctionAdd("tf", "TensorFlow");
 
             correctionAdd("retrive", "retrieve");
             correctionAdd("retreive", "retrieve");
@@ -14294,6 +14296,7 @@ namespace OverflowHelper.core
             correctionAdd("behavoir", "behaviour");
             correctionAdd("behavior", "behaviour");
             correctionAdd("bahaviour", "behaviour");
+            correctionAdd("vehaviour", "behaviour");
 
             correctionAdd("bellow", "below");
             correctionAdd("bewlow", "below");
@@ -17178,6 +17181,7 @@ namespace OverflowHelper.core
             correctionAdd("aproved", "approved");
 
             correctionAdd("asigning", "assigning");
+            correctionAdd("assinging", "assigning");
 
             correctionAdd("third party cookies", "third-party cookies");
             correctionAdd("Third-Party Cookies", "third-party cookies");
@@ -18129,6 +18133,10 @@ namespace OverflowHelper.core
             correctionAdd("everythink", "everything");
             correctionAdd("evreything", "everything");
             correctionAdd("everyything", "everything");
+            correctionAdd("evetyrhing", "everything");
+            correctionAdd("evetryhing", "everything");
+            correctionAdd("evertyhing", "everything");
+            correctionAdd("eveyrthing", "everything");
 
             correctionAdd("thig", "thing");
             correctionAdd("thang", "thing");
@@ -32518,6 +32526,7 @@ namespace OverflowHelper.core
             correctionAdd("listerning", "listening");
 
             correctionAdd("Machine Translation", "machine translation");
+            correctionAdd("Machine translation", "machine translation");
 
             correctionAdd("re-display", "redisplay");
 
@@ -33598,6 +33607,7 @@ namespace OverflowHelper.core
             correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
             correctionAdd("eks", "Amazon Elastic Kubernetes Service");
             correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
+            correctionAdd("AWS EKS", "Amazon Elastic Kubernetes Service");
 
             correctionAdd("MURS", "Multi-Use Radio Service");
 
@@ -39089,6 +39099,8 @@ namespace OverflowHelper.core
             correctionAdd("higher res", "higher-resolution");
 
             correctionAdd("ant design", "Ant Design");
+            correctionAdd("Antd", "Ant Design");
+            correctionAdd("antd", "Ant Design");
 
             correctionAdd("DeTeXify", "Detexify");
 
@@ -40645,6 +40657,18 @@ namespace OverflowHelper.core
 
             correctionAdd("linenumber", "line number");
             correctionAdd("line no", "line number");
+
+            correctionAdd("andrew koenig", "Andrew Koenig");
+
+            correctionAdd("mqtt", "MQTT");
+
+            correctionAdd("ray", "Ray");
+
+            correctionAdd("raylib", "Raylib");
+
+            correctionAdd("enbled", "enabled");
+
+            correctionAdd("Premature Optimization", "premature optimization");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63945,6 +63969,18 @@ namespace OverflowHelper.core
             URL_Add("hard coding", "https://en.wiktionary.org/wiki/hard_code#Verb");
 
             URL_Add("line number", "https://en.wiktionary.org/wiki/line_number#Noun");
+
+            URL_Add("Andrew Koenig", "https://en.wikipedia.org/wiki/Andrew_Koenig_(programmer)");
+
+            URL_Add("MQTT", "https://en.wikipedia.org/wiki/MQTT");
+
+            URL_Add("Ray", "https://docs.ray.io/en/latest/");
+
+            URL_Add("Raylib", "https://en.wikipedia.org/wiki/Raylib");
+
+            URL_Add("enabled", "https://en.wiktionary.org/wiki/enable#Verb");
+
+            URL_Add("premature optimization", "https://en.wikipedia.org/wiki/Program_optimization#When_to_optimize");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
