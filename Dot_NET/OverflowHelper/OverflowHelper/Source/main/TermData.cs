@@ -6677,6 +6677,7 @@ namespace OverflowHelper.core
             correctionAdd("Temporatly", "temporary");
             correctionAdd("temporatly", "temporary");
             correctionAdd("Temp", "temporary");
+            correctionAdd("temporaty", "temporary");
 
             correctionAdd("google-fu", "Google-fu");
             correctionAdd("google fu", "Google-fu");
@@ -12830,6 +12831,9 @@ namespace OverflowHelper.core
             correctionAdd("virtual c++", "Microsoft Visual C++");
             correctionAdd("MSVC++", "Microsoft Visual C++");
             correctionAdd("MS VC++", "Microsoft Visual C++");
+            correctionAdd("microsoft vc++", "Microsoft Visual C++");
+            correctionAdd("Microsoft vc++", "Microsoft Visual C++");
+            correctionAdd("Microsoft VC++", "Microsoft Visual C++");
 
             correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
             correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
@@ -12869,6 +12873,8 @@ namespace OverflowHelper.core
             correctionAdd("c++ builder", "C++Builder"); // Does not work!
             correctionAdd("C++ builder", "C++Builder");
             correctionAdd("C++ Builder", "C++Builder");
+            correctionAdd("borland c++", "C++Builder");
+            correctionAdd("Borland C++", "C++Builder");
 
             correctionAdd("Objective-c++", "Objective-C++");
             correctionAdd("Objective C++", "Objective-C++");
@@ -14395,6 +14401,7 @@ namespace OverflowHelper.core
             correctionAdd("rec", "recommendation");
             correctionAdd("reccommendation", "recommendation");
             correctionAdd("recomondation", "recommendation");
+            correctionAdd("recs", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -14600,6 +14607,7 @@ namespace OverflowHelper.core
             correctionAdd("previos", "previous");
             correctionAdd("previouis", "previous");
             correctionAdd("previuis", "previous");
+            correctionAdd("previouse", "previous");
 
             correctionAdd("responsabilities", "responsibilities");
             correctionAdd("responsibilitites", "responsibilities");
@@ -17297,6 +17305,8 @@ namespace OverflowHelper.core
             correctionAdd("calss", "class");
             correctionAdd("Class", "class");
             correctionAdd("classe", "class");
+            correctionAdd("Classs", "class");
+            correctionAdd("classs", "class");
 
             correctionAdd("intellij", "IntelliJ IDEA");
             correctionAdd("IntellJ Idea", "IntelliJ IDEA");
@@ -22992,6 +23002,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Scons", "SCons");
             correctionAdd("scons", "SCons");
+            correctionAdd("SCONS", "SCons");
 
             //correctionAdd("FT.", "featuring"); // Not currently allowed...
             correctionAdd("FT", "featuring");
@@ -24186,6 +24197,7 @@ namespace OverflowHelper.core
             correctionAdd("stricture", "structure");
             correctionAdd("strucure", "structure");
             correctionAdd("struture", "structure");
+            correctionAdd("structur", "structure");
 
             correctionAdd("AWS amplify", "AWS Amplify");
             correctionAdd("aws-amplify", "AWS Amplify");
@@ -25547,6 +25559,8 @@ namespace OverflowHelper.core
 
             correctionAdd("paired programming", "pair programming");
             correctionAdd("peer programming", "pair programming");
+            correctionAdd("Pair Coding", "pair programming");
+            correctionAdd("pair coding", "pair programming");
 
             correctionAdd("recognizing", "recognising");
             correctionAdd("recogonizing", "recognising");
@@ -28040,6 +28054,7 @@ namespace OverflowHelper.core
 
             correctionAdd("artile", "article");
             correctionAdd("artical", "article");
+            correctionAdd("artiacle", "article");
 
             correctionAdd("clousre", "closure");
             correctionAdd("clousure", "closure");
@@ -33146,6 +33161,9 @@ namespace OverflowHelper.core
 
             correctionAdd("map-making", "mapmaking");
 
+            correctionAdd("makeing", "making");
+            correctionAdd("makin", "making");
+
             correctionAdd("matriks", "matrix");
 
             correctionAdd("offroad", "off-road");
@@ -35288,6 +35306,8 @@ namespace OverflowHelper.core
             correctionAdd("cliff hanger", "cliffhanger");
 
             correctionAdd("connectec", "connects");
+            correctionAdd("Connnects", "connects");
+            correctionAdd("connnects", "connects");
 
             correctionAdd("enlightning", "enlightening");
 
@@ -37135,8 +37155,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hyphoteses", "hypotheses");
 
-            correctionAdd("makeing", "making");
-
             correctionAdd("Methamphetamine", "methamphetamine");
 
             correctionAdd("mis-behave", "misbehave");
@@ -38803,6 +38821,7 @@ namespace OverflowHelper.core
             correctionAdd("reistered", "registered");
 
             correctionAdd("Scripting", "scripting");
+            correctionAdd("scruipting", "scripting");
 
             correctionAdd("unrealiable", "unreliable");
 
@@ -40669,6 +40688,23 @@ namespace OverflowHelper.core
             correctionAdd("enbled", "enabled");
 
             correctionAdd("Premature Optimization", "premature optimization");
+
+            correctionAdd("bokeh", "Bokeh");
+
+            correctionAdd("ChromeOS", "Chrome OS");
+
+            correctionAdd("marmalade", "Marmalade");
+
+            correctionAdd("pillow", "Pillow");
+
+            correctionAdd("rxjs", "RxJS");
+            correctionAdd("RxJs", "RxJS");
+
+            correctionAdd("skulpt", "Skulpt");
+
+            correctionAdd("analagous", "analogous");
+
+            correctionAdd("Ctypes", "ctypes");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63982,6 +64018,22 @@ namespace OverflowHelper.core
 
             URL_Add("premature optimization", "https://en.wikipedia.org/wiki/Program_optimization#When_to_optimize");
 
+            URL_Add("Bokeh", "https://bokeh.org/");
+
+            URL_Add("Chrome OS", "https://en.wikipedia.org/wiki/Chrome_OS");
+
+            URL_Add("Marmalade", "https://www.emacswiki.org/emacs/MarmaladeRepo");
+
+            URL_Add("Pillow", "https://en.wikipedia.org/wiki/Python_Imaging_Library");
+
+            URL_Add("RxJS", "https://github.com/Reactive-Extensions/RxJS");
+
+            URL_Add("Skulpt", "http://skulpt.org/");
+
+            URL_Add("analogous", "https://en.wiktionary.org/wiki/analogous#Adjective");
+
+            URL_Add("ctypes", "https://en.wikipedia.org/wiki/Ctypes");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64699,6 +64751,10 @@ namespace OverflowHelper.core
 
             correctionAdd("._", "source_");
 
+            correctionAdd("qota_", "quota_");
+
+            correctionAdd("qotas_", "quotas_");
+
             // URL mappings
             //
             //
@@ -65145,6 +65201,10 @@ namespace OverflowHelper.core
             URL_Add("samba_", "https://en.wikipedia.org/wiki/Samba");
 
             URL_Add("source_", "https://en.wikipedia.org/wiki/Dot_(command)#Source");
+
+            URL_Add("quota_", "https://en.wiktionary.org/wiki/quota#Noun");
+
+            URL_Add("quotas_", "https://en.wiktionary.org/wiki/quota#Noun");
 
         } //addLookupData_alternativeWordSet()
 
