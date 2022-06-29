@@ -2558,7 +2558,7 @@ rm $JAVASCRIPT_FILE
 #       2022-01-25: 2512025 bytes
 #
 # Note: The same build number
-wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2660000 2940000
+wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2740000 3030000
 
 #exit
 
@@ -2689,9 +2689,9 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                          503 Service Unavailable
 #                          No server is available to handle this request.
 #
-#  2022-06-03T143446   Timed out (retried two times), e.g.: 
+#  2022-06-03T143446   Timed out (retried two times), e.g.:
 #
-#                      Error 522 Ray ID: 715872f9bb111d02 • 
+#                      Error 522 Ray ID: 715872f9bb111d02 •
 #                      2022-06-03 12:32:02 UTC
 #                      Connection timed out
 #
