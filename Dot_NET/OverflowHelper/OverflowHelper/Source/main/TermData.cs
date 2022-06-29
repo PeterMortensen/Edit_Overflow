@@ -12557,6 +12557,9 @@ namespace OverflowHelper.core
             correctionAdd("2fa", "two-factor authentication");
             correctionAdd("Two factor authentication", "two-factor authentication");
             correctionAdd("2FO", "two-factor authentication");
+            correctionAdd("TFA", "two-factor authentication");
+            correctionAdd("two-step verification", "two-factor authentication");
+            correctionAdd("2SV", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -14941,6 +14944,7 @@ namespace OverflowHelper.core
             correctionAdd("xeption", "exception");
             correctionAdd("exeption", "exception");
             correctionAdd("execption", "exception");
+            correctionAdd("Exeption", "exception");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -27227,6 +27231,7 @@ namespace OverflowHelper.core
             correctionAdd("easili", "easily");
             correctionAdd("easilly", "easily");
             correctionAdd("easyly", "easily");
+            correctionAdd("easely", "easily");
 
             correctionAdd("kicks is", "kicks in");
 
@@ -28590,6 +28595,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bovine faecal matter", "bovine fecal matter");
             correctionAdd("BS", "bovine fecal matter");
+            correctionAdd("bullshit", "bovine fecal matter");
 
             correctionAdd("mater", "matter");
             correctionAdd("metter", "matter");
@@ -30679,6 +30685,7 @@ namespace OverflowHelper.core
 
             correctionAdd("old-school", "old school");
             correctionAdd("oldschool", "old school");
+            correctionAdd("old thinking", "old school");
 
             correctionAdd("re-creating", "recreating");
 
@@ -31300,6 +31307,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stronly", "strongly");
             correctionAdd("STRONLY", "strongly");
+            correctionAdd("stronlgy", "strongly");
 
             correctionAdd("vegitarian", "vegetarian");
 
@@ -34943,6 +34951,7 @@ namespace OverflowHelper.core
             correctionAdd("geronimo", "Geronimo");
 
             correctionAdd("ice lake", "Ice Lake");
+            correctionAdd("Icelake", "Ice Lake");
 
             correctionAdd("Jovial", "JOVIAL");
 
@@ -40705,6 +40714,21 @@ namespace OverflowHelper.core
             correctionAdd("analagous", "analogous");
 
             correctionAdd("Ctypes", "ctypes");
+
+            correctionAdd("IPP", "Integrated Performance Primitives");
+
+            correctionAdd("koa", "Koa");
+
+            correctionAdd("Ubikey", "YubiKey");
+
+            correctionAdd("famiously", "famously");
+            correctionAdd("Famiously", "famously");
+
+            correctionAdd("in the first-place", "in the first place");
+
+            correctionAdd("Scikit-image", "scikit-image");
+
+            correctionAdd("second-most", "second most");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64034,6 +64058,20 @@ namespace OverflowHelper.core
 
             URL_Add("ctypes", "https://en.wikipedia.org/wiki/Ctypes");
 
+            URL_Add("Integrated Performance Primitives", "https://en.wikipedia.org/wiki/Integrated_Performance_Primitives");
+
+            URL_Add("Koa", "https://stackoverflow.com/tags/koa/info");
+
+            URL_Add("YubiKey", "https://en.wikipedia.org/wiki/YubiKey");
+
+            URL_Add("famously", "https://en.wiktionary.org/wiki/famously#Adverb");
+
+            URL_Add("in the first place", "https://en.wiktionary.org/wiki/in_the_first_place#Prepositional_phrase");
+
+            URL_Add("scikit-image", "https://en.wikipedia.org/wiki/Scikit-image");
+
+            URL_Add("second most", "https://en.wiktionary.org/wiki/second_most#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64196,6 +64234,7 @@ namespace OverflowHelper.core
 
             correctionAdd("nota bene_", "NB_");
             correctionAdd("Nota bene_", "NB_");
+            correctionAdd("n.b_", "NB_");
 
             correctionAdd("postscriptum_", "PS_");
             correctionAdd("P.S._", "PS_");
