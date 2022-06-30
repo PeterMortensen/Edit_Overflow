@@ -4047,6 +4047,8 @@ namespace OverflowHelper.core
             correctionAdd("codeigneetr", "CodeIgniter");
             correctionAdd("codeignetr", "CodeIgniter");
             correctionAdd("codeignter", "CodeIgniter");
+            correctionAdd("Codeigneter", "CodeIgniter");
+            correctionAdd("codeigneter", "CodeIgniter");
 
             correctionAdd("glassfish", "GlassFish");
             correctionAdd("glasfish", "GlassFish");
@@ -5591,6 +5593,7 @@ namespace OverflowHelper.core
             correctionAdd("Hard Disk Drive", "hard disk drive");
             correctionAdd("hard-disk", "hard disk drive");
             correctionAdd("Harddisk", "hard disk drive");
+            correctionAdd("harddisk driver", "hard disk drive");
 
             correctionAdd("ssd", "SSD");
             correctionAdd("Solid State Disk", "SSD");
@@ -8999,6 +9002,7 @@ namespace OverflowHelper.core
             correctionAdd("Rapserry pi", "Raspberry Pi");
             correctionAdd("Raspi Pi", "Raspberry Pi");
             correctionAdd("Raspberry-Pi", "Raspberry Pi");
+            correctionAdd("RaspPi", "Raspberry Pi");
 
             correctionAdd("gps", "GPS");
             correctionAdd("Gps", "GPS");
@@ -9669,6 +9673,7 @@ namespace OverflowHelper.core
             correctionAdd("Anti-Virus", "antivirus software");
             correctionAdd("AV software", "antivirus software");
             correctionAdd("Antivirus", "antivirus software");
+            correctionAdd("antivirus soft", "antivirus software");
 
             correctionAdd("sw", "software");
             correctionAdd("SW", "software");
@@ -12560,6 +12565,7 @@ namespace OverflowHelper.core
             correctionAdd("TFA", "two-factor authentication");
             correctionAdd("two-step verification", "two-factor authentication");
             correctionAdd("2SV", "two-factor authentication");
+            correctionAdd("2-Step Verification", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -12632,6 +12638,7 @@ namespace OverflowHelper.core
 
             correctionAdd("airbnb", "Airbnb");
             correctionAdd("AirBnB", "Airbnb");
+            correctionAdd("AirBNB", "Airbnb");
 
             correctionAdd("FREEBSD", "FreeBSD");
             correctionAdd("freebsd", "FreeBSD");
@@ -13126,6 +13133,7 @@ namespace OverflowHelper.core
             correctionAdd("recieving", "receiving");
             correctionAdd("recibing", "receiving");
             correctionAdd("reciving", "receiving");
+            correctionAdd("receiveing", "receiving");
 
             correctionAdd("recieve", "receive");
             correctionAdd("recive", "receive");
@@ -14671,6 +14679,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows defender", "Windows Defender");
             correctionAdd("windows defender", "Windows Defender");
+            correctionAdd("Defender", "Windows Defender");
 
             correctionAdd("world war 1", "World War I");
             correctionAdd("ww1", "World War I");
@@ -14835,6 +14844,7 @@ namespace OverflowHelper.core
             correctionAdd("prgramming", "programming");
             correctionAdd("protramming", "programming");
             correctionAdd("Programming", "programming");
+            correctionAdd("programmation", "programming");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -18085,6 +18095,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inpersonation", "impersonation");
             correctionAdd("imporsonation", "impersonation");
+            correctionAdd("impersonnation", "impersonation");
 
             correctionAdd("Latter", "latter");
 
@@ -19567,6 +19578,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inteded", "intended");
             correctionAdd("indended", "intended");
+            correctionAdd("intented", "intended");
 
             correctionAdd("MORE", "more");
 
@@ -23192,6 +23204,7 @@ namespace OverflowHelper.core
             correctionAdd("Agile", "agile");
 
             correctionAdd("functionalists", "functionalities");
+            correctionAdd("functionnalities", "functionalities");
 
             correctionAdd("reapeated", "repeated");
             correctionAdd("Reapeated", "repeated");
@@ -23232,6 +23245,7 @@ namespace OverflowHelper.core
             correctionAdd("fs", "file system");
             correctionAdd("filesytem", "file system");
             correctionAdd("File system", "file system");
+            correctionAdd("file - system", "file system");
 
             correctionAdd("VCS", "version control system"); // Expansion, actually ""
             correctionAdd("vcs", "version control system");
@@ -23914,6 +23928,7 @@ namespace OverflowHelper.core
             correctionAdd("re-design", "redesign");
 
             correctionAdd("reprensent", "represent");
+            correctionAdd("repreasent", "represent");
 
             correctionAdd("Technical Debt", "technical debt");
             correctionAdd("tech debt", "technical debt");
@@ -24606,6 +24621,8 @@ namespace OverflowHelper.core
             correctionAdd("Whi", "why");
             correctionAdd("whi", "why");
             correctionAdd("whey", "why");
+            correctionAdd("WHy", "why");
+            correctionAdd("Why", "why");
 
             correctionAdd("axios", "Axios");
             correctionAdd("AXIOS", "Axios");
@@ -27035,6 +27052,7 @@ namespace OverflowHelper.core
             correctionAdd("effictiently", "efficiently");
             correctionAdd("effectiently", "efficiently");
             correctionAdd("efficientlly", "efficiently");
+            correctionAdd("efficently", "efficiently");
 
             correctionAdd("fugittive", "fugitive");
 
@@ -33988,6 +34006,7 @@ namespace OverflowHelper.core
             correctionAdd("econ", "economics");
 
             correctionAdd("old fashioned", "old-fashioned");
+            correctionAdd("old-fashisond", "old-fashioned");
 
             correctionAdd("timeout", "time-out");
             correctionAdd("time out", "time-out");
@@ -40720,6 +40739,10 @@ namespace OverflowHelper.core
             correctionAdd("koa", "Koa");
 
             correctionAdd("Ubikey", "YubiKey");
+            correctionAdd("Yubikey", "YubiKey");
+            correctionAdd("Yubico keys", "YubiKey");
+            correctionAdd("Yubico key", "YubiKey");
+            correctionAdd("yubikey", "YubiKey");
 
             correctionAdd("famiously", "famously");
             correctionAdd("Famiously", "famously");
@@ -40729,6 +40752,50 @@ namespace OverflowHelper.core
             correctionAdd("Scikit-image", "scikit-image");
 
             correctionAdd("second-most", "second most");
+
+            correctionAdd("Toffler", "Alvin Toffler");
+
+            correctionAdd("Azure data studio", "Azure Data Studio");
+
+            correctionAdd("fido", "FIDO");
+
+            correctionAdd("openDNP3", "OpenDNP3");
+            correctionAdd("Opendnp3", "OpenDNP3");
+
+            correctionAdd("opensc", "OpenSC");
+
+            correctionAdd("tripadvisor", "Tripadvisor");
+
+            correctionAdd("U2F", "Universal 2nd Factor");
+
+            correctionAdd("YubiKey Nano", "YubiKey 5 Nano");
+            correctionAdd("YubiKey nano", "YubiKey 5 Nano");
+
+            correctionAdd("Yubikey 5c", "YubiKey 5C");
+
+            correctionAdd("Yubi", "Yubico");
+
+            correctionAdd("BOLTCTL", "boltctl");
+
+            correctionAdd("dotcom", "dot-com");
+
+            correctionAdd("fokls", "folks");
+
+            correctionAdd("instanciable", "instantiable");
+
+            correctionAdd("one self", "oneself");
+
+            correctionAdd("outsation", "outstation");
+
+            correctionAdd("pluging", "plugging");
+
+            correctionAdd("Prisoner's Dilemma", "prisoner's dilemma");
+
+            correctionAdd("strage", "strange");
+
+            correctionAdd("to some extends", "to some extent");
+
+            correctionAdd("tread-mill", "treadmill");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64072,6 +64139,48 @@ namespace OverflowHelper.core
 
             URL_Add("second most", "https://en.wiktionary.org/wiki/second_most#Adverb");
 
+            URL_Add("Alvin Toffler", "https://en.wikipedia.org/wiki/Alvin_Toffler");
+
+            URL_Add("Azure Data Studio", "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio");
+
+            URL_Add("FIDO", "https://en.wikipedia.org/wiki/FIDO_Alliance#Specifications");
+
+            URL_Add("OpenDNP3", "https://dnp3.github.io/#documentation");
+
+            URL_Add("OpenSC", "https://en.wikipedia.org/wiki/OpenSC");
+
+            URL_Add("Tripadvisor", "https://en.wikipedia.org/wiki/Tripadvisor");
+
+            URL_Add("Universal 2nd Factor", "https://en.wikipedia.org/wiki/Universal_2nd_Factor");
+
+            URL_Add("YubiKey 5 Nano", "https://www.yubico.com/products/identifying-your-yubikey/");
+
+            URL_Add("YubiKey 5C", "https://www.yubico.com/products/identifying-your-yubikey/");
+
+            URL_Add("Yubico", "https://en.wikipedia.org/wiki/YubiKey");
+
+            URL_Add("boltctl", "https://man.archlinux.org/man/community/bolt/boltctl.1.en");
+
+            URL_Add("dot-com", "https://en.wikipedia.org/wiki/Dot-com_bubble");
+
+            URL_Add("folks", "https://en.wiktionary.org/wiki/folks#Noun");
+
+            URL_Add("instantiable", "https://en.wiktionary.org/wiki/instantiable#Adjective");
+
+            URL_Add("oneself", "https://en.wiktionary.org/wiki/oneself#Pronoun");
+
+            URL_Add("outstation", "https://en.wiktionary.org/wiki/outstation#Noun");
+
+            URL_Add("plugging", "https://en.wiktionary.org/wiki/plug#Verb");
+
+            URL_Add("prisoner's dilemma", "https://en.wikipedia.org/wiki/Prisoner's_dilemma");
+
+            URL_Add("strange", "https://en.wiktionary.org/wiki/strange#Adjective");
+
+            URL_Add("to some extent", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
+
+            URL_Add("treadmill", "https://en.wiktionary.org/wiki/treadmill#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64794,6 +64903,12 @@ namespace OverflowHelper.core
 
             correctionAdd("qotas_", "quotas_");
 
+            correctionAdd("Azure Sql Managed Instance_", "Azure SQL Managed Instance_");
+            correctionAdd("mi_", "Azure SQL Managed Instance_");
+            correctionAdd("Sql mi_", "Azure SQL Managed Instance_");
+            correctionAdd("sql mi_", "Azure SQL Managed Instance_");
+            correctionAdd("sql mi managed instance_", "Azure SQL Managed Instance_");
+
             // URL mappings
             //
             //
@@ -65244,6 +65359,8 @@ namespace OverflowHelper.core
             URL_Add("quota_", "https://en.wiktionary.org/wiki/quota#Noun");
 
             URL_Add("quotas_", "https://en.wiktionary.org/wiki/quota#Noun");
+
+            URL_Add("Azure SQL Managed Instance_", "https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview");
 
         } //addLookupData_alternativeWordSet()
 
