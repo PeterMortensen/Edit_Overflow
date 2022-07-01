@@ -28414,6 +28414,8 @@ namespace OverflowHelper.core
             correctionAdd("jade", "Jade"); // The former name of the Pug JavaScript templating engine
 
             correctionAdd("m1 pro", "MacBook Pro M1");
+            correctionAdd("Mac M1 Pro", "MacBook Pro M1");
+            correctionAdd("Mac Pro M1", "MacBook Pro M1");
 
             correctionAdd("React Hooks", "React hooks");
             correctionAdd("react hooks", "React hooks");
@@ -34919,6 +34921,8 @@ namespace OverflowHelper.core
             correctionAdd("Hypothesis Test", "hypothesis test");
 
             correctionAdd("introdducing", "introducing");
+            correctionAdd("introducting", "introducing");
+            correctionAdd("Introducting", "introducing");
 
             correctionAdd("modeled", "modelled");
 
@@ -35017,6 +35021,7 @@ namespace OverflowHelper.core
             correctionAdd("uarches", "microarchitectures");
 
             correctionAdd("non-comprehensive", "noncomprehensive");
+            correctionAdd("Non-comprehensive", "noncomprehensive");
 
             correctionAdd("non-existent", "nonexistent");
             correctionAdd("nonexistant", "nonexistent");
@@ -35484,6 +35489,8 @@ namespace OverflowHelper.core
             correctionAdd("--Wmisleading-indentation", "-Wmisleading-indentation");
 
             correctionAdd("--ftabstop", "-ftabstop");
+
+            correctionAdd("--Wempty-body", "-Wempty-body");
 
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
@@ -37925,6 +37932,8 @@ namespace OverflowHelper.core
             correctionAdd("parallize", "parallelise");
 
             correctionAdd("AWS CLI", "AWS Command Line Interface");
+            correctionAdd("aws cli", "AWS Command Line Interface");
+            correctionAdd("awscli", "AWS Command Line Interface");
 
             correctionAdd("tcxo", "TCXO");
 
@@ -40796,6 +40805,23 @@ namespace OverflowHelper.core
             correctionAdd("to some extends", "to some extent");
 
             correctionAdd("tread-mill", "treadmill");
+
+            correctionAdd("Inventor", "Autodesk Inventor");
+
+            correctionAdd("DDJ", "Dr. Dobb's Journal");
+
+            correctionAdd("\"First questions\" review", "First questions review queue");
+            correctionAdd("First questions", "First questions review queue");
+            correctionAdd("first questions", "First questions review queue");
+
+            correctionAdd("immer", "Immer");
+
+            correctionAdd("MasterCard", "Mastercard");
+
+            correctionAdd("qml", "QML");
+            correctionAdd("Qml", "QML");
+
+            correctionAdd("in wild", "in the wild");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64181,6 +64207,22 @@ namespace OverflowHelper.core
 
             URL_Add("treadmill", "https://en.wiktionary.org/wiki/treadmill#Noun");
 
+            URL_Add("-Wempty-body", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body");
+
+            URL_Add("Autodesk Inventor", "https://en.wikipedia.org/wiki/Autodesk_Inventor");
+
+            URL_Add("Dr. Dobb's Journal", "https://en.wikipedia.org/wiki/Dr._Dobb's_Journal");
+
+            URL_Add("First questions review queue", "https://stackoverflow.com/review");
+
+            URL_Add("Immer", "https://immerjs.github.io/immer/");
+
+            URL_Add("Mastercard", "https://en.wikipedia.org/wiki/Mastercard");
+
+            URL_Add("QML", "https://en.wikipedia.org/wiki/QML");
+
+            URL_Add("in the wild", "https://en.wiktionary.org/wiki/in_the_wild#Prepositional_phrase");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64909,6 +64951,9 @@ namespace OverflowHelper.core
             correctionAdd("sql mi_", "Azure SQL Managed Instance_");
             correctionAdd("sql mi managed instance_", "Azure SQL Managed Instance_");
 
+            correctionAdd("Graphene_", "Graphene-Python_");
+            correctionAdd("graphene_", "Graphene-Python_");
+
             // URL mappings
             //
             //
@@ -65361,6 +65406,8 @@ namespace OverflowHelper.core
             URL_Add("quotas_", "https://en.wiktionary.org/wiki/quota#Noun");
 
             URL_Add("Azure SQL Managed Instance_", "https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview");
+
+            URL_Add("Graphene-Python_", "https://graphene-python.org/");
 
         } //addLookupData_alternativeWordSet()
 
