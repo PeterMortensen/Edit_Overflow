@@ -97,6 +97,11 @@
         <p>
 
             <a
+                href="https://pmortensen.eu/"
+                title="Main page"
+            >Home</a>.
+
+            <a
                 href="EditOverflow.php"
                 title="Main functionality: Look up (incorrect) terms"
             >Edit Overflow</a>.
@@ -131,6 +136,11 @@
                 href="myInfo.php"
                 title="Internal info for PHP (phpinfo())."
             >Environment information</a>.
+
+            <a
+                href="https://github.com/PeterMortensen/Edit_Overflow"
+                title="Source repository at GitHub for both the web application, the C# application, the word list, build script, unit/integration tests, etc."
+            >GitHub (source)</a>.
 
             <!-- Note: PHP still works inside HTML comments, so we
                        need to use "#" to outcomment PHP lines.
