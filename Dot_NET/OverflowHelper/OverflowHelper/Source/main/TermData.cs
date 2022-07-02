@@ -820,6 +820,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-csharp", "```lang-csharp");
             correctionAdd("lang-sharp", "```lang-csharp");
             correctionAdd("lang-cs", "```lang-csharp");
+            correctionAdd("lang-c#", "```lang-csharp");
 
             correctionAdd("java-lang", "```lang-java");
             correctionAdd("lang-java", "```lang-java");
@@ -2775,6 +2776,7 @@ namespace OverflowHelper.core
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
 
             correctionAdd("Aviation", "Aviation (Stack Exchange site)");
+            correctionAdd("aviation Stack Exchange site", "Aviation (Stack Exchange site)");
 
             correctionAdd("matter modeling", "Matter Modeling (Stack Exchange site)");
             correctionAdd("Matter Modeling", "Matter Modeling (Stack Exchange site)"); // Sort of identity mapping
@@ -5365,6 +5367,8 @@ namespace OverflowHelper.core
             correctionAdd("StackExcahnge", "Stack&nbsp;Exchange");
             correctionAdd("stackexange", "Stack&nbsp;Exchange");
             correctionAdd("stack exchanged", "Stack&nbsp;Exchange");
+            correctionAdd("stacksexchange", "Stack&nbsp;Exchange");
+            correctionAdd("stacks exchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -6082,6 +6086,7 @@ namespace OverflowHelper.core
             correctionAdd("ngix", "nginx");
             correctionAdd("NginX", "nginx");
             correctionAdd("ngnix", "nginx");
+            correctionAdd("NGinx", "nginx");
 
             correctionAdd("ligHTTPd", "lighttpd");
 
@@ -13931,6 +13936,7 @@ namespace OverflowHelper.core
             correctionAdd("C90", "C89");
 
             correctionAdd("c99", "C99");
+            correctionAdd("1999 standard", "C99");
 
             correctionAdd("occured", "occurred");
             correctionAdd("ocurred", "occurred");
@@ -17928,6 +17934,8 @@ namespace OverflowHelper.core
             correctionAdd("theoritical", "theoretical");
 
             correctionAdd("voluntorily", "voluntarily");
+            correctionAdd("volunataraly", "voluntarily");
+            correctionAdd("voluntaraly", "voluntarily");
 
             correctionAdd("ethereum", "Ethereum");
             correctionAdd("Etherium", "Ethereum");
@@ -27095,6 +27103,7 @@ namespace OverflowHelper.core
             correctionAdd("no", "number");
             correctionAdd("numer", "number");
             correctionAdd("nbr", "number");
+            correctionAdd("Number", "number");
 
             correctionAdd("permanantly", "permanently");
             correctionAdd("permentantly", "permanently");
@@ -29474,6 +29483,7 @@ namespace OverflowHelper.core
             correctionAdd("std dev", "standard deviation");
             correctionAdd("std-dev", "standard deviation");
             correctionAdd("stddev", "standard deviation");
+            correctionAdd("s.d", "standard deviation");
 
             correctionAdd("syntax highlighitng", "syntax highlighting");
             correctionAdd("syntax-highlighting", "syntax highlighting");
@@ -40822,6 +40832,27 @@ namespace OverflowHelper.core
             correctionAdd("Qml", "QML");
 
             correctionAdd("in wild", "in the wild");
+
+            correctionAdd("kgdb", "KGDB");
+
+            correctionAdd("BCC", "bcc");
+
+            correctionAdd("BPFTRACE", "bpftrace");
+
+            correctionAdd("Extended BPF", "eBPF");
+
+            correctionAdd("haemoglobin", "hemoglobin");
+            correctionAdd("hameoglobin", "hemoglobin");
+
+            correctionAdd("jr", "junior");
+
+            correctionAdd("postively", "positively");
+
+            correctionAdd("printf debugging", "print debugging");
+
+            correctionAdd("unneasy", "uneasy");
+
+            correctionAdd("UPROBE", "uprobe");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64222,6 +64253,26 @@ namespace OverflowHelper.core
             URL_Add("QML", "https://en.wikipedia.org/wiki/QML");
 
             URL_Add("in the wild", "https://en.wiktionary.org/wiki/in_the_wild#Prepositional_phrase");
+
+            URL_Add("KGDB", "https://en.wikipedia.org/wiki/KGDB");
+
+            URL_Add("bcc", "https://linux.die.net/man/1/bcc");
+
+            URL_Add("bpftrace", "https://github.com/iovisor/bpftrace#tools");
+
+            URL_Add("eBPF", "https://en.wikipedia.org/wiki/Berkeley_Packet_Filter");
+
+            URL_Add("hemoglobin", "https://en.wikipedia.org/wiki/Hemoglobin");
+
+            URL_Add("junior", "https://en.wiktionary.org/wiki/junior#Adjective");
+
+            URL_Add("positively", "https://en.wiktionary.org/wiki/positively#Adverb");
+
+            URL_Add("print debugging", "https://en.wikipedia.org/wiki/Debugging#Techniques");
+
+            URL_Add("uneasy", "https://en.wiktionary.org/wiki/uneasy#Adjective_2");
+
+            URL_Add("uprobe", "https://brendangregg.com/blog/2015-06-28/linux-ftrace-uprobe.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
