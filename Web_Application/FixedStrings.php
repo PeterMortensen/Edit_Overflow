@@ -349,14 +349,15 @@
                 "space after left parenthesis",
                 "missing space around some operators",
                 "missing capitalisation in comment (Jon Skeet decree)",
-                and "missing space in comment (Jon Skeet decree)"): <br/>
+                "missing space in comment (Jon Skeet decree)", and
+                "single-line 'if' statements"): <br/>
 
                 <input
                     name="All combined"
                     type="text"
                     id="codeRegex_AllCombined"
                     class="XYZ36"
-                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|\)|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--))"
+                    value="(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|\)|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--)|\sif.*\).{3,})"
                     style="width:320px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
