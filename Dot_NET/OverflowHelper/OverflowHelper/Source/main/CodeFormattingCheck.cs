@@ -54,7 +54,8 @@ namespace OverflowHelper.core
         spaceAfterLeftParenthesis,
         missingSpaceAroundOperators,
         missingCapitalisationInComment_Jon_Skeet_decree,
-        missingSpaceInComment_Jon_Skeet_decree
+        missingSpaceInComment_Jon_Skeet_decree,
+        single_lineIfStatements
     }
 
 
@@ -270,12 +271,24 @@ namespace OverflowHelper.core
               matchACommentCharacterSequenceStr + @"\S" + // Space after comment
                                                           // character sequence
                   @"|" +
-              @"\S" + matchACommentCharacterSequenceStr,  // Space before commen
+              @"\S" + matchACommentCharacterSequenceStr,  // Space before comment
                                                           // character sequence
               "Missing space in comment (Jon Skeet decree)");
 
               //  \S(\/\/|\/\*|\#)",
               //  matchACommentCharacterSequenceStr
+
+            // For single-line if statements
+            //
+            // Note: We get false positive matches if the 'if'
+            //       condition for a non-single line 'if'
+            //       contains a right parenthesis (e.g.,
+            //       a function call).
+            //
+            addCodeCheck(
+              codeFormattingsRegexEnum.single_lineIfStatements, 6,
+              @"\sif.*\).{3,}",
+              "Single-line 'if' statements");
 
         } //Constructor.
 
@@ -505,7 +518,6 @@ namespace OverflowHelper.core
         private static string combinedAllOfExplanations_internal(
             List<codeCheckItemStruct> aCodeCheckItems)
         {
-
             //Isn't there a built-in function to format a list with a
             //separator string?? E.g. like Perl's join()? Yes, String.Join()
             //

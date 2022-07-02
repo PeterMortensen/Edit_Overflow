@@ -5,7 +5,7 @@
 * This file is part of Overflow Helper.                                    *
 *                                                                          *
 *                                                                          *
-* Purpose: In the first instance, a helper class for testing (e.g.         * 
+* Purpose: In the first instance, a helper class for testing (e.g.         *
 *          used in '\Dot_NET\Tests\CodeFormattingCheckTests.cs'),          *
 *          but it may later be used on user text (thus its                 *
 *          position in the folder structure). We could imagine             *
@@ -58,17 +58,16 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public static bool match(string aSomeText, string aRegularExpression)
         {
-            
-            MatchCollection mc = Regex.Matches(aSomeText, aRegularExpression); 
-            
+            MatchCollection mc = Regex.Matches(aSomeText, aRegularExpression);
+
             bool toReturn = false;
-            
+
             if (mc.Count > 0)
             {
                 toReturn = true;
             }
 
-            return toReturn; // Stub
+            return toReturn;
         } //match()
 
 

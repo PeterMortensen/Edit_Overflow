@@ -46,7 +46,12 @@ namespace CodeFormattingCheckTests
          *                                                                          *
          *   It is also useful to detect if we forget to update the                 *
          *   combined regular expression when we add new checks (or                 *
-         *   conversely if that is not generated properly).                         *
+         *   conversely, if that is not generated properly).                        *
+         *                                                                          *
+         *   And we get to have a combined regular expression that can be           *
+         *   used elsewhere (e.g., in file FixedStrings.php - though                *
+         *   double quotes must be escaped as "&quot;").                            *                                           *
+         *                                                                          *
          *                                                                          *
          ****************************************************************************/
         [Test]
@@ -154,7 +159,6 @@ namespace CodeFormattingCheckTests
                   "");
             }
 
-
             // Code comments. Sentence casing
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
@@ -178,7 +182,19 @@ namespace CodeFormattingCheckTests
                   "");
             }
 
+            // Single-line if statements
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
+                Assert.AreEqual(
+                  @"\sif.*\).{3,}",
+                  cfCheck.getRegularExpression(
+                    codeFormattingsRegexEnum.single_lineIfStatements),
+                  "");
+            }
+
+
+            // =========================================================
 
             // A combined / all one
             {
@@ -189,7 +205,7 @@ namespace CodeFormattingCheckTests
                 //
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|\)|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--))",
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|\)|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--)|\sif.*\).{3,})",
                   cfCheck.combinedAllOfRegularExpressions(),
                   "");
             }
@@ -198,9 +214,17 @@ namespace CodeFormattingCheckTests
             {
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
-                // Note: Double quote (") is escaped as "" (two double quotes).
+                // Notes:
+                //
+                //   1. Double quote (") is escaped as "" (two double quotes).
+                //
+                //   2. The first letter in each sub string must be
+                //      in lowercase (in contrast to the primary
+                //      source of it (used elsewhere as menu
+                //      items in a GUI))
+                //
                 Assert.AreEqual(
-                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", ""missing space around some operators"", ""missing capitalisation in comment (Jon Skeet decree)"", and ""missing space in comment (Jon Skeet decree)"")",
+                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", ""missing space around some operators"", ""missing capitalisation in comment (Jon Skeet decree)"", ""missing space in comment (Jon Skeet decree)"", and ""single-line 'if' statements"")",
                   // @"XYZ",
                   cfCheck.combinedAllOfExplanations(),
                   "");
@@ -242,8 +266,6 @@ namespace CodeFormattingCheckTests
 
                 // The full (combined) regular expression should not give
                 // a false positive, etc.
-                //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
-
             }
 
             {
@@ -290,16 +312,9 @@ namespace CodeFormattingCheckTests
             string regex     = cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundOperators);
             string regex_All = cfCheck.combinedAllOfRegularExpressions();
 
-
-            // Write it out early as any failed test will result in
-            // no output...
-            //
-            TestContext.WriteLine("Output from the unit test!!!!!!!!!!!!!!!!!!!!!");
-
             // For debugging, etc.
-            TestContext.WriteLine("\nRegular expression for tight operators: " + regex);
-            TestContext.WriteLine("\nAll regular expressions: " + regex_All);
-
+            //TestContext.WriteLine("\nRegular expression for tight operators: " + regex);
+            //TestContext.WriteLine("\nAll regular expressions: " + regex_All);
 
             {
                 // Bad code should be detected
@@ -389,11 +404,11 @@ namespace CodeFormattingCheckTests
                 //
                 Assert.IsTrue(
                     RegExExecutor.match(
-                        "kzXnxbnSXbcv   ' . chr(160).chr(127).chr(126);", 
+                        "kzXnxbnSXbcv   ' . chr(160).chr(127).chr(126);",
                         regex));
                 Assert.IsTrue(
                     RegExExecutor.match(
-                        "ord($str[$i]). ')';", 
+                        "ord($str[$i]). ')';",
                         regex));
             }
 
@@ -418,8 +433,10 @@ namespace CodeFormattingCheckTests
             string regexSpace = cfCheck.getRegularExpression(
               codeFormattingsRegexEnum.missingSpaceInComment_Jon_Skeet_decree);
 
-
             string regex_All = cfCheck.combinedAllOfRegularExpressions();
+
+
+            // Some test input
 
             string badCap1 = "// respect the Jon Skeet decree!";
             string badSpace1 = "//Respect the Jon Skeet decree!";
@@ -427,7 +444,7 @@ namespace CodeFormattingCheckTests
 
             string badHTML1 = "<!--Respect the Jon Skeet decree!-->";
 
-            // All 3 problems at the same times
+            // All 3 problems at the same time
             string allBad1 = ";//respect the Jon Skeet decree!";
 
             string allGood1 = "// Respect the Jon Skeet decree!";
@@ -484,8 +501,51 @@ namespace CodeFormattingCheckTests
                 Assert.IsTrue(RegExExecutor.match(allBad1, regex_All));
             }
 
-
         } //Jon_Skeet_decree()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    Single-line if statements                                             *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void single_lineIfStatements()
+        {
+            CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+            // Shortcut / alias
+            string regex = cfCheck.getRegularExpression(
+              codeFormattingsRegexEnum.single_lineIfStatements);
+
+            string regex_All = cfCheck.combinedAllOfRegularExpressions();
+
+
+            // Some test input. Note the leading space!
+
+            string badIf1 = "    if (transferstatus == ES_DONE) result = SFTPrename(rfn, (char *)tempfilename.c_str());";
+
+            string falsePositiveIf1 = "    if (sftp_get_error(sftp) != SSH_FX_FILE_ALREADY_EXISTS)";
+
+
+            // Base test
+            {
+                TestContext.WriteLine("\nbadIf1: " + badIf1);
+                TestContext.WriteLine("\nregex: " + regex);
+
+                // Bad code should be detected
+                Assert.IsTrue(RegExExecutor.match(badIf1, regex));
+                //Assert.IsTrue(RegExExecutor.match(badIf1, regex_All));
+            }
+
+            // False positives (with the current regular expression)
+            {
+                // Documenting a false postive
+                Assert.IsTrue(RegExExecutor.match(falsePositiveIf1, regex));
+                Assert.IsTrue(RegExExecutor.match(falsePositiveIf1, regex_All));
+            }
+
+        } //single_lineIfStatements()
 
 
     } //class CodeFormattingCheckTests
