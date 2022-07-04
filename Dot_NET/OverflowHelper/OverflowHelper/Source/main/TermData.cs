@@ -3037,6 +3037,8 @@ namespace OverflowHelper.core
             correctionAdd("expaination", "explanation");
             correctionAdd("Explannation", "explanation");
             correctionAdd("explannation", "explanation");
+            correctionAdd("Expalanation", "explanation");
+            correctionAdd("expalanation", "explanation");
 
             correctionAdd("explainign", "explaining");
             correctionAdd("explainig", "explaining");
@@ -6315,6 +6317,7 @@ namespace OverflowHelper.core
             correctionAdd("CANT", "can’t");
             correctionAdd("camn't", "can’t");
             correctionAdd("Can't", "can’t");
+            correctionAdd("cam’t", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -9288,6 +9291,7 @@ namespace OverflowHelper.core
 
             correctionAdd("EXT4", "ext4");
             correctionAdd("etx4", "ext4");
+            correctionAdd("Ext4", "ext4");
 
             correctionAdd("u-boot", "U-Boot"); // Really "Das U-Boot"
             correctionAdd("U-boot", "U-Boot"); // Really "Das U-Boot"
@@ -29545,6 +29549,7 @@ namespace OverflowHelper.core
             correctionAdd("iresponsable", "irresponsible");
 
             correctionAdd("loop hole", "loophole");
+            correctionAdd("loop-hole", "loophole");
 
             correctionAdd("space-time continoum", "spacetime continuum");
 
@@ -36225,6 +36230,7 @@ namespace OverflowHelper.core
             correctionAdd("smurfs", "The Smurfs");
 
             correctionAdd("Youtuber", "YouTuber");
+            correctionAdd("youtuber", "YouTuber");
 
             correctionAdd("counter argued", "counterargued");
 
@@ -40853,6 +40859,18 @@ namespace OverflowHelper.core
             correctionAdd("unneasy", "uneasy");
 
             correctionAdd("UPROBE", "uprobe");
+
+            correctionAdd("dprobes", "Dynamic Probes");
+
+            correctionAdd("depricate", "deprecate");
+
+            correctionAdd("Galaxies", "galaxies");
+
+            correctionAdd("inteligence", "intelligence");
+
+            correctionAdd("KPROBES", "kprobes");
+
+            correctionAdd("tootip", "tooltip");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64274,6 +64292,18 @@ namespace OverflowHelper.core
 
             URL_Add("uprobe", "https://brendangregg.com/blog/2015-06-28/linux-ftrace-uprobe.html");
 
+            URL_Add("Dynamic Probes", "https://en.wikipedia.org/wiki/Dprobes");
+
+            URL_Add("deprecate", "https://en.wiktionary.org/wiki/deprecate#Verb");
+
+            URL_Add("galaxies", "https://en.wiktionary.org/wiki/galaxy#Noun");
+
+            URL_Add("intelligence", "https://en.wiktionary.org/wiki/intelligence#Noun");
+
+            URL_Add("kprobes", "https://en.wikipedia.org/wiki/Dprobes");
+
+            URL_Add("tooltip", "https://en.wiktionary.org/wiki/tooltip#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65005,6 +65035,9 @@ namespace OverflowHelper.core
             correctionAdd("Graphene_", "Graphene-Python_");
             correctionAdd("graphene_", "Graphene-Python_");
 
+            correctionAdd("Strawberry_", "Strawberry GraphQL_");
+            correctionAdd("strawberry_", "Strawberry GraphQL_");
+
             // URL mappings
             //
             //
@@ -65459,6 +65492,8 @@ namespace OverflowHelper.core
             URL_Add("Azure SQL Managed Instance_", "https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview");
 
             URL_Add("Graphene-Python_", "https://graphene-python.org/");
+
+            URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
 
         } //addLookupData_alternativeWordSet()
 
