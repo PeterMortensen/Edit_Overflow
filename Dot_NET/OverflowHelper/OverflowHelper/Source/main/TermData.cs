@@ -3001,6 +3001,7 @@ namespace OverflowHelper.core
             correctionAdd("sg", "for example");
             correctionAdd("i.g", "for example");
             correctionAdd("Es", "for example");
+            correctionAdd("E. g", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -12612,6 +12613,7 @@ namespace OverflowHelper.core
             correctionAdd("coudnt", "couldn’t");
             correctionAdd("couldn´t", "couldn’t");
             correctionAdd("couldn't", "couldn’t");
+            correctionAdd("could'n", "couldn’t");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -21462,6 +21464,7 @@ namespace OverflowHelper.core
 
             correctionAdd("candidates 2022", "Candidates Tournament 2022"); // Chess
             correctionAdd("2022 Candidates", "Candidates Tournament 2022"); // Chess
+            correctionAdd("Candidates 2022", "Candidates Tournament 2022"); // Chess
 
             correctionAdd("mamejaro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("memedraro", "Shakhriyar Mamedyarov"); // Chess
@@ -26157,6 +26160,7 @@ namespace OverflowHelper.core
             correctionAdd("rund", "run");
             correctionAdd("tun", "run"); // True typo
             correctionAdd("rum", "run");
+            correctionAdd("Run", "run");
 
             correctionAdd("monodroid", "MonoDroid");
 
@@ -28891,6 +28895,7 @@ namespace OverflowHelper.core
             correctionAdd("check list", "checklist");
             correctionAdd("Check list", "checklist");
             correctionAdd("Checklist", "checklist");
+            correctionAdd("chcecklist", "checklist");
 
             correctionAdd("Citizen Science", "citizen science");
             correctionAdd("Citizen science", "citizen science");
@@ -29124,6 +29129,7 @@ namespace OverflowHelper.core
             correctionAdd("improveded", "improved");
 
             correctionAdd("inadverently", "inadvertently");
+            correctionAdd("inadvertenly", "inadvertently");
 
             correctionAdd("lowest-common denominator", "lowest common denominator");
 
@@ -29196,6 +29202,7 @@ namespace OverflowHelper.core
             correctionAdd("Hawking", "Stephen Hawking");
 
             correctionAdd("complied", "compiled");
+            correctionAdd("compled", "compiled");
 
             correctionAdd("pita", "PITA");
             correctionAdd("pia", "PITA");
@@ -30388,6 +30395,7 @@ namespace OverflowHelper.core
             correctionAdd("gave", "have");
             correctionAdd("ahev", "have");
             correctionAdd("habe", "have");
+            correctionAdd("Have", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -35770,6 +35778,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Variational Bayes", "variational Bayes");
 
+            correctionAdd("yess", "yes");
+            correctionAdd("Yess", "yes");
+            correctionAdd("Ya", "yes");
+            correctionAdd("Yeah", "yes");
+            correctionAdd("yeah", "yes");
+
             correctionAdd("eviews", "EViews");
 
             correctionAdd("openMP", "OpenMP");
@@ -35868,6 +35882,7 @@ namespace OverflowHelper.core
             correctionAdd("galory", "gallery");
 
             correctionAdd("unpdated", "updated");
+            correctionAdd("Updated", "updated");
 
             correctionAdd("da Vinci Resolve", "DaVinci Resolve");
             correctionAdd("DaVinici resolve", "DaVinci Resolve");
@@ -36802,9 +36817,6 @@ namespace OverflowHelper.core
             correctionAdd("subtile", "subtle");
             correctionAdd("sublte", "subtle");
             correctionAdd("sutle", "subtle");
-
-            correctionAdd("yess", "yes");
-            correctionAdd("Yess", "yes");
 
             correctionAdd("0 indexed", "zero-based");
             correctionAdd("zero-indexed", "zero-based");
@@ -40871,6 +40883,22 @@ namespace OverflowHelper.core
             correctionAdd("KPROBES", "kprobes");
 
             correctionAdd("tootip", "tooltip");
+
+            correctionAdd("PZL Koliber 150", "PZL-110 Koliber 150");
+
+            correctionAdd("SMPL", "SmPL");
+
+            correctionAdd("xen", "Xen");
+
+            correctionAdd("aero plane", "aeroplane");
+
+            correctionAdd("alfabet", "alphabet");
+
+            correctionAdd("error-proof", "errorproof");
+
+            correctionAdd("Loop Unrolling", "loop unrolling");
+
+            correctionAdd("Strength Reduction", "strength reduction");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64304,6 +64332,22 @@ namespace OverflowHelper.core
 
             URL_Add("tooltip", "https://en.wiktionary.org/wiki/tooltip#Noun");
 
+            URL_Add("PZL-110 Koliber 150", "https://en.wikipedia.org/wiki/SOCATA_Rallye_family#Polish_production");
+
+            URL_Add("SmPL", "https://en.wikipedia.org/wiki/Coccinelle_(software)#Semantic_Patch_Language");
+
+            URL_Add("Xen", "https://en.wikipedia.org/wiki/Xen");
+
+            URL_Add("aeroplane", "https://en.wiktionary.org/wiki/aeroplane#Noun");
+
+            URL_Add("alphabet", "https://en.wiktionary.org/wiki/alphabet#Noun");
+
+            URL_Add("errorproof", "https://en.wiktionary.org/wiki/errorproof#Adjective");
+
+            URL_Add("loop unrolling", "https://en.wikipedia.org/wiki/Loop_unrolling");
+
+            URL_Add("strength reduction", "https://en.wikipedia.org/wiki/Strength_reduction");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64870,6 +64914,7 @@ namespace OverflowHelper.core
             correctionAdd("anb_", "and_");
             correctionAdd("ans_", "and_");
             correctionAdd("an_", "and_");
+            correctionAdd("en_", "and_");
 
             correctionAdd("home-brew_", "homebrewed_");
 
@@ -65037,6 +65082,24 @@ namespace OverflowHelper.core
 
             correctionAdd("Strawberry_", "Strawberry GraphQL_");
             correctionAdd("strawberry_", "Strawberry GraphQL_");
+
+            correctionAdd(".net_", ".NET (tag wiki)_");
+
+            correctionAdd("cse_", "CSE_");
+
+            correctionAdd("java_", "Java (tag wiki)_");
+
+            correctionAdd("javascript_", "JavaScript (tag wiki)_");
+
+            correctionAdd("php_", "PHP_ (tag wiki)_");
+
+            correctionAdd("perl_", "Perl (tag wiki)_");
+
+            correctionAdd("python_", "Python (tag wiki)_");
+
+            correctionAdd("ruby_", "Ruby (tag wiki)_");
+
+            correctionAdd("regex_", "regular expression (tag wiki)_");
 
             // URL mappings
             //
@@ -65494,6 +65557,24 @@ namespace OverflowHelper.core
             URL_Add("Graphene-Python_", "https://graphene-python.org/");
 
             URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
+
+            URL_Add(".NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/.net");
+
+            URL_Add("CSE_", "https://en.wikipedia.org/wiki/Common_subexpression_elimination");
+
+            URL_Add("Java (tag wiki)_", "https://stackoverflow.com/questions/tagged/java");
+
+            URL_Add("JavaScript (tag wiki)_", "https://stackoverflow.com/questions/tagged/javascript");
+
+            URL_Add("PHP_ (tag wiki)_", "https://stackoverflow.com/questions/tagged/php");
+
+            URL_Add("Perl (tag wiki)_", "https://stackoverflow.com/questions/tagged/perl");
+
+            URL_Add("Python (tag wiki)_", "https://stackoverflow.com/questions/tagged/python");
+
+            URL_Add("Ruby (tag wiki)_", "https://stackoverflow.com/questions/tagged/ruby");
+
+            URL_Add("regular expression (tag wiki)_", "https://stackoverflow.com/questions/tagged/regex");
 
         } //addLookupData_alternativeWordSet()
 
