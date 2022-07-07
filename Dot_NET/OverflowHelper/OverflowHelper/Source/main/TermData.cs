@@ -2904,6 +2904,7 @@ namespace OverflowHelper.core
             correctionAdd("alo", "also");
             correctionAdd("alao", "also");
             correctionAdd("allso", "also");
+            correctionAdd("a;so", "also");
 
             correctionAdd("moreso", "more so");
             correctionAdd("more-so", "more so");
@@ -6319,6 +6320,7 @@ namespace OverflowHelper.core
             correctionAdd("camn't", "can’t");
             correctionAdd("Can't", "can’t");
             correctionAdd("cam’t", "can’t");
+            correctionAdd("can'not", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -18157,6 +18159,7 @@ namespace OverflowHelper.core
             correctionAdd("somthign", "something");
             correctionAdd("somthings", "something");
             correctionAdd("somehthing", "something");
+            correctionAdd("smething", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -40899,6 +40902,10 @@ namespace OverflowHelper.core
             correctionAdd("Loop Unrolling", "loop unrolling");
 
             correctionAdd("Strength Reduction", "strength reduction");
+
+            correctionAdd("gratitute", "gratitude");
+
+            correctionAdd("stsrted", "started");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64347,6 +64354,10 @@ namespace OverflowHelper.core
             URL_Add("loop unrolling", "https://en.wikipedia.org/wiki/Loop_unrolling");
 
             URL_Add("strength reduction", "https://en.wikipedia.org/wiki/Strength_reduction");
+
+            URL_Add("gratitude", "https://en.wiktionary.org/wiki/gratitude#Noun");
+
+            URL_Add("started", "https://en.wiktionary.org/wiki/start#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
