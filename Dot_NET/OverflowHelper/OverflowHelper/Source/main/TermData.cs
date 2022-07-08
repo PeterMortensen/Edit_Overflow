@@ -4780,6 +4780,7 @@ namespace OverflowHelper.core
             correctionAdd("hrml", "HTML");
             correctionAdd("htmp", "HTML");
             correctionAdd("hmtl", "HTML");
+            correctionAdd("HTMl", "HTML");
 
             correctionAdd("firefox", "Firefox");
             correctionAdd("firfox", "Firefox");
@@ -15565,6 +15566,7 @@ namespace OverflowHelper.core
             correctionAdd("skeptic", "sceptic");
 
             correctionAdd("c++20", "C++20");
+            correctionAdd("C++ 20", "C++20");
 
             correctionAdd("GoT", "Game of Thrones");
             correctionAdd("game of thrones", "Game of Thrones");
@@ -18688,6 +18690,7 @@ namespace OverflowHelper.core
             correctionAdd("guarantueed", "guaranteed");
             correctionAdd("guarangteed", "guaranteed");
             correctionAdd("guaranted", "guaranteed");
+            correctionAdd("guraranteed", "guaranteed");
 
             correctionAdd("GlassDoor", "Glassdoor");
             correctionAdd("glass door", "Glassdoor");
@@ -26096,6 +26099,7 @@ namespace OverflowHelper.core
             correctionAdd("k&R", "The C Programming Language");
             correctionAdd("K & R", "The C Programming Language");
             correctionAdd("KnR", "The C Programming Language");
+            correctionAdd("The C programming language", "The C Programming Language");
 
             correctionAdd("lang", "language");
             correctionAdd("langauge", "language");
@@ -28572,6 +28576,7 @@ namespace OverflowHelper.core
             correctionAdd("insitute", "institute");
 
             correctionAdd("lookup", "look up");
+            correctionAdd("Lookup", "look up");
 
             correctionAdd("mosty", "mostly");
 
@@ -37734,6 +37739,7 @@ namespace OverflowHelper.core
             correctionAdd("Post mortem", "post mortem");
 
             correctionAdd("screw-up", "screwup");
+            correctionAdd("screw up", "screwup");
 
             correctionAdd("WKT", "well-known text");
 
@@ -40906,6 +40912,32 @@ namespace OverflowHelper.core
             correctionAdd("gratitute", "gratitude");
 
             correctionAdd("stsrted", "started");
+
+            correctionAdd("detroit", "Detroit");
+
+            correctionAdd("endless OS", "Endless OS");
+
+            correctionAdd("Great lakes", "Great Lakes");
+
+            correctionAdd("gyazo", "Gyazo");
+
+            correctionAdd("michigan", "Michigan");
+
+            correctionAdd("seattle", "Seattle");
+
+            correctionAdd("zalgo", "Zalgo");
+            correctionAdd("Zaldo", "Zalgo");
+            correctionAdd("zaldo", "Zalgo");
+
+            correctionAdd("brandname", "brand name");
+
+            correctionAdd("Bumblebee", "bumblebee");
+
+            correctionAdd("repond", "respond");
+
+            correctionAdd("suscebtibility", "susceptibility");
+
+            correctionAdd("throw-away", "throwaway");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64359,6 +64391,30 @@ namespace OverflowHelper.core
 
             URL_Add("started", "https://en.wiktionary.org/wiki/start#Verb");
 
+            URL_Add("Detroit", "https://en.wikipedia.org/wiki/Detroit");
+
+            URL_Add("Endless OS", "https://en.wikipedia.org/wiki/Endless_Computers#Software");
+
+            URL_Add("Great Lakes", "https://en.wikipedia.org/wiki/Great_Lakes");
+
+            URL_Add("Gyazo", "https://en.wikipedia.org/wiki/Gyazo");
+
+            URL_Add("Michigan", "https://en.wikipedia.org/wiki/Michigan");
+
+            URL_Add("Seattle", "https://en.wikipedia.org/wiki/Seattle");
+
+            URL_Add("Zalgo", "https://en.wikipedia.org/wiki/Zalgo_text");
+
+            URL_Add("brand name", "https://en.wiktionary.org/wiki/brand_name#Noun");
+
+            URL_Add("bumblebee", "https://en.wikipedia.org/wiki/Bumblebee");
+
+            URL_Add("respond", "https://en.wiktionary.org/wiki/respond#Verb");
+
+            URL_Add("susceptibility", "https://en.wiktionary.org/wiki/susceptibility#Noun");
+
+            URL_Add("throwaway", "https://en.wiktionary.org/wiki/throwaway#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65112,6 +65168,8 @@ namespace OverflowHelper.core
 
             correctionAdd("regex_", "regular expression (tag wiki)_");
 
+            correctionAdd("tumble weed_", "tumbleweed_");
+
             // URL mappings
             //
             //
@@ -65586,6 +65644,8 @@ namespace OverflowHelper.core
             URL_Add("Ruby (tag wiki)_", "https://stackoverflow.com/questions/tagged/ruby");
 
             URL_Add("regular expression (tag wiki)_", "https://stackoverflow.com/questions/tagged/regex");
+
+            URL_Add("tumbleweed_", "https://en.wikipedia.org/wiki/Tumbleweed");
 
         } //addLookupData_alternativeWordSet()
 
