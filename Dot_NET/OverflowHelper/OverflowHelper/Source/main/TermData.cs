@@ -1591,6 +1591,7 @@ namespace OverflowHelper.core
             correctionAdd(".net framwork", ".NET");
             correctionAdd(".NET framwork", ".NET");
             correctionAdd(".Net framwork", ".NET");
+            correctionAdd(".netframework", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
             correctionAdd(".NET35", ".NET 3.5");
@@ -4840,6 +4841,7 @@ namespace OverflowHelper.core
             correctionAdd("С Sharp", "C#");
             correctionAdd("c #", "C#");
             correctionAdd("C♯", "C#");
+            correctionAdd("C sharp", "C#");
 
             correctionAdd("sql", "SQL");
             correctionAdd("Sql", "SQL");
@@ -6492,6 +6494,7 @@ namespace OverflowHelper.core
             correctionAdd("VIsta", "Windows&nbsp;Vista");
             correctionAdd("windows-vista", "Windows&nbsp;Vista");
             correctionAdd("window vista", "Windows&nbsp;Vista");
+            correctionAdd("windows Vista", "Windows&nbsp;Vista");
 
             correctionAdd("7", "Windows&nbsp;7"); // Potential for false positives?
             correctionAdd("w7", "Windows&nbsp;7");
@@ -9209,6 +9212,7 @@ namespace OverflowHelper.core
             correctionAdd("Cntl", "Ctrl");
             correctionAdd("Ctr", "Ctrl");
             correctionAdd("Cntrl", "Ctrl");
+            correctionAdd("crtl", "Ctrl");
 
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); // Plural, to avoid nearly duplicate entries.
@@ -10943,6 +10947,8 @@ namespace OverflowHelper.core
             correctionAdd("VS Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
             correctionAdd("visual studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
             correctionAdd("VS 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("VS-Express-2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("Visual&nbsp;Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
 
             correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
             correctionAdd("VS express C#", "Visual&nbsp;C# Express");
@@ -10954,6 +10960,7 @@ namespace OverflowHelper.core
             correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
             correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
             correctionAdd("VS Express", "Visual&nbsp;Studio Express");
+            correctionAdd("VS-Express", "Visual&nbsp;Studio Express");
 
             correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
             correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
@@ -11025,6 +11032,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual 2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS 12", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS 11/12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS-2012", "Visual&nbsp;Studio&nbsp;2012");
 
             correctionAdd("VS2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
@@ -11488,6 +11496,7 @@ namespace OverflowHelper.core
             correctionAdd("allot", "a lot");
             correctionAdd("Alot", "a lot");
             correctionAdd("a lott", "a lot");
+            correctionAdd("a-lot", "a lot");
 
             correctionAdd("slashdot", "Slashdot");
 
@@ -37580,6 +37589,7 @@ namespace OverflowHelper.core
 
             correctionAdd("VS 2022", "Visual Studio 2022");
             correctionAdd("Visual Studio 22", "Visual Studio 2022");
+            correctionAdd("vs 2022", "Visual Studio 2022");
 
             correctionAdd("crawler", "Web crawler");
             correctionAdd("web spider", "Web crawler");
@@ -38464,6 +38474,8 @@ namespace OverflowHelper.core
             correctionAdd("'nix", "Unix-like");
             correctionAdd("*nix", "Unix-like");
             correctionAdd("Un*x", "Unix-like");
+            correctionAdd("UNIX-like", "Unix-like");
+            correctionAdd("unix-like", "Unix-like");
 
             correctionAdd("web", "Web");
 
@@ -39850,6 +39862,7 @@ namespace OverflowHelper.core
             correctionAdd("SG", "Staging Ground");
 
             correctionAdd("usb 1.x", "USB 1.x");
+            correctionAdd("USB1", "USB 1.x");
 
             correctionAdd("clue-less", "clueless");
 
@@ -40938,6 +40951,23 @@ namespace OverflowHelper.core
             correctionAdd("suscebtibility", "susceptibility");
 
             correctionAdd("throw-away", "throwaway");
+
+            correctionAdd("4k", "4K");
+
+            correctionAdd("Microsoft Hardware Diagnostic tool", "Hwinfo.exe");
+
+            correctionAdd("Soundtrap", "SoundTrap");
+            correctionAdd("soundtrap", "SoundTrap");
+
+            correctionAdd("Bat", "bat");
+
+            correctionAdd("bufferise", "buffer");
+
+            correctionAdd("Classification", "classification");
+
+            correctionAdd("custom made", "custom-made");
+
+            correctionAdd("mouses", "mice");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64414,6 +64444,22 @@ namespace OverflowHelper.core
             URL_Add("susceptibility", "https://en.wiktionary.org/wiki/susceptibility#Noun");
 
             URL_Add("throwaway", "https://en.wiktionary.org/wiki/throwaway#Adjective");
+
+            URL_Add("4K", "https://en.wikipedia.org/wiki/4K_resolution");
+
+            URL_Add("Hwinfo.exe", "https://support.microsoft.com/en-us/topic/description-of-the-microsoft-hardware-diagnostic-tool-c446e28e-8589-d236-bac2-37a0113e7848");
+
+            URL_Add("SoundTrap", "http://www.oceaninstruments.co.nz/product/soundtrap-st600-std-long-term-recorder/");
+
+            URL_Add("bat", "https://en.wiktionary.org/wiki/bat#Noun");
+
+            URL_Add("buffer", "https://en.wiktionary.org/wiki/buffer#Verb");
+
+            URL_Add("classification", "https://en.wiktionary.org/wiki/classification#Noun");
+
+            URL_Add("custom-made", "https://en.wiktionary.org/wiki/custom-made#Adjective");
+
+            URL_Add("mice", "https://en.wiktionary.org/wiki/mouse#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
