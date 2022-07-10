@@ -3338,6 +3338,7 @@ namespace OverflowHelper.core
             correctionAdd("sourcecode", "source code");
             correctionAdd("Source Code", "source code");
             correctionAdd("source-code", "source code");
+            correctionAdd("Source-code", "source code");
 
             correctionAdd("op code", "opcode");
             correctionAdd("opCode", "opcode");
@@ -4403,6 +4404,8 @@ namespace OverflowHelper.core
             correctionAdd("RetroFit", "Retrofit");
 
             correctionAdd("ReLU", "Rectified Linear Unit");
+            correctionAdd("relu", "Rectified Linear Unit");
+            correctionAdd("Relu", "Rectified Linear Unit");
 
             correctionAdd("Low Earth orbit", "low Earth orbit");
             correctionAdd("Low Earth Orbit", "low Earth orbit");
@@ -7483,6 +7486,7 @@ namespace OverflowHelper.core
             correctionAdd("yourt", "your");
             correctionAdd("youe", "your");
             correctionAdd("yyour", "your");
+            correctionAdd("yiur", "your");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -15277,6 +15281,7 @@ namespace OverflowHelper.core
 
             correctionAdd("litle", "little");
             correctionAdd("litte", "little");
+            correctionAdd("litter", "little");
 
             correctionAdd("hi-res", "high-resolution");
             correctionAdd("high-res", "high-resolution");
@@ -20015,6 +20020,7 @@ namespace OverflowHelper.core
             correctionAdd("Deuterium", "deuterium");
 
             correctionAdd("equilibrum", "equilibrium");
+            correctionAdd("equlibrium", "equilibrium");
 
             correctionAdd("feauture", "feature");
             correctionAdd("feayure", "feature");
@@ -20304,6 +20310,7 @@ namespace OverflowHelper.core
             correctionAdd("intsall", "install");
 
             correctionAdd("powerfull", "powerful");
+            correctionAdd("powwrful", "powerful");
 
             correctionAdd("Command Prompt", "cmd.exe");
             correctionAdd("cmd", "cmd.exe");
@@ -23002,6 +23009,8 @@ namespace OverflowHelper.core
             correctionAdd("KeyBoard", "keyboard");
             correctionAdd("Keyboard", "keyboard");
             correctionAdd("kayboard", "keyboard");
+            correctionAdd("Keybpard", "keyboard");
+            correctionAdd("keybpard", "keyboard");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -24956,6 +24965,7 @@ namespace OverflowHelper.core
             correctionAdd("psykiatrist", "psychiatrist");
 
             correctionAdd("upto", "up to");
+            correctionAdd("u pto", "up to");
 
             correctionAdd("hsts", "HSTS");
 
@@ -28254,6 +28264,7 @@ namespace OverflowHelper.core
             correctionAdd("pupulate", "populate");
 
             correctionAdd("pawer", "power");
+            correctionAdd("pwer", "power");
 
             correctionAdd("realeised", "realised");
             correctionAdd("relaeiesd", "realised");
@@ -30282,6 +30293,7 @@ namespace OverflowHelper.core
             correctionAdd("pokémon go", "Pokémon Go");
             correctionAdd("Pokemon Go", "Pokémon Go");
             correctionAdd("pokemon", "Pokémon Go");
+            correctionAdd("Pokemon", "Pokémon Go");
 
             correctionAdd("a record", "A record");
 
@@ -30817,6 +30829,7 @@ namespace OverflowHelper.core
             correctionAdd("furtur", "future");
 
             correctionAdd("inital", "initial");
+            correctionAdd("intial", "initial");
 
             correctionAdd("rovide", "provide");
             correctionAdd("proide", "provide");
@@ -31067,6 +31080,7 @@ namespace OverflowHelper.core
             correctionAdd("USB3", "USB 3.0");
             correctionAdd("usb 3", "USB 3.0");
             correctionAdd("usb3", "USB 3.0");
+            correctionAdd("usb 3.0", "USB 3.0");
 
             correctionAdd("artisitcally", "artistically");
 
@@ -40765,6 +40779,7 @@ namespace OverflowHelper.core
             correctionAdd("line no", "line number");
 
             correctionAdd("andrew koenig", "Andrew Koenig");
+            correctionAdd("Andy Koenig", "Andrew Koenig");
 
             correctionAdd("mqtt", "MQTT");
 
@@ -40863,6 +40878,7 @@ namespace OverflowHelper.core
             correctionAdd("\"First questions\" review", "First questions review queue");
             correctionAdd("First questions", "First questions review queue");
             correctionAdd("first questions", "First questions review queue");
+            correctionAdd("First posts", "First questions review queue");
 
             correctionAdd("immer", "Immer");
 
@@ -40968,6 +40984,20 @@ namespace OverflowHelper.core
             correctionAdd("custom made", "custom-made");
 
             correctionAdd("mouses", "mice");
+
+            correctionAdd("DEC", "Digital Equipment Corporation");
+
+            correctionAdd("Ryzen 3950x", "Ryzen 3950X");
+
+            correctionAdd("Type A", "USB type-A plug");
+            correctionAdd("USB Type-A", "USB type-A plug");
+
+            correctionAdd("Laissez-Faire Capitalism", "laissez-faire capitalism");
+
+            correctionAdd("non-equilibrium", "nonequilibrium");
+            correctionAdd("non-equlibrium", "nonequilibrium");
+
+            correctionAdd("pre-processor", "preprocessor");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64460,6 +64490,18 @@ namespace OverflowHelper.core
             URL_Add("custom-made", "https://en.wiktionary.org/wiki/custom-made#Adjective");
 
             URL_Add("mice", "https://en.wiktionary.org/wiki/mouse#Noun");
+
+            URL_Add("Digital Equipment Corporation", "https://en.wikipedia.org/wiki/Digital_Equipment_Corporation");
+
+            URL_Add("Ryzen 3950X", "https://en.wikipedia.org/wiki/Table_of_AMD_processors");
+
+            URL_Add("USB type-A plug", "https://en.wikipedia.org/wiki/USB_hardware#Standard_connectors");
+
+            URL_Add("laissez-faire capitalism", "https://en.wikipedia.org/wiki/Laissez-faire#Capitalism");
+
+            URL_Add("nonequilibrium", "https://en.wiktionary.org/wiki/nonequilibrium#Noun");
+
+            URL_Add("preprocessor", "https://en.wikipedia.org/wiki/Preprocessor");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
