@@ -4515,6 +4515,7 @@ namespace OverflowHelper.core
             correctionAdd("WOrdpress", "WordPress");
             correctionAdd("Wp", "WordPress");
             correctionAdd("Worpress", "WordPress");
+            correctionAdd("word-press", "WordPress");
 
             correctionAdd("ssl", "SSL");
             correctionAdd("SLL", "SSL");
@@ -6877,6 +6878,7 @@ namespace OverflowHelper.core
             correctionAdd("Googable", "googleable");
             correctionAdd("googable", "googleable");
             correctionAdd("googleabe", "googleable");
+            correctionAdd("Googleable", "googleable");
 
             correctionAdd("scroll-able", "scrollable");
 
@@ -17140,6 +17142,7 @@ namespace OverflowHelper.core
 
             correctionAdd("quick and dirty", "quick-and-dirty");
             correctionAdd("quick'n'dirty", "quick-and-dirty");
+            correctionAdd("quick n' dirty", "quick-and-dirty");
 
             correctionAdd("recipint", "recipient");
             correctionAdd("receipent", "recipient");
@@ -27073,6 +27076,7 @@ namespace OverflowHelper.core
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
 
             correctionAdd("libc", "C standard library");
+            correctionAdd("stdlib", "C standard library");
 
             correctionAdd("icu", "ICU");
 
@@ -29240,6 +29244,10 @@ namespace OverflowHelper.core
 
             correctionAdd("deserialization", "deserialisation");
             correctionAdd("de-serialization", "deserialisation");
+            correctionAdd("desrialization", "deserialisation");
+            correctionAdd("desiralization", "deserialisation");
+            correctionAdd("deseralization", "deserialisation");
+            correctionAdd("deserilization", "deserialisation");
 
             correctionAdd("grpc", "gRPC");
 
@@ -31482,6 +31490,7 @@ namespace OverflowHelper.core
             correctionAdd("homepage", "home page");
             correctionAdd("Homepage", "home page");
             correctionAdd("Home Page", "home page");
+            correctionAdd("home-page", "home page");
 
             correctionAdd("overiding", "overriding");
 
@@ -31753,6 +31762,7 @@ namespace OverflowHelper.core
             correctionAdd("updation", "updating");
 
             correctionAdd("week-end", "weekend");
+            correctionAdd("wkend", "weekend");
 
             correctionAdd("C# 2", "C# 2.0");
             correctionAdd("C#2", "C# 2.0");
@@ -36242,6 +36252,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Protobuf", "Protocol Buffers");
             correctionAdd("protocol buffers", "Protocol Buffers");
+            correctionAdd("protobuff", "Protocol Buffers");
+            correctionAdd("protobuf", "Protocol Buffers");
 
             correctionAdd("RS422", "RS-422");
             correctionAdd("R422", "RS-422");
@@ -40998,6 +41010,18 @@ namespace OverflowHelper.core
             correctionAdd("non-equlibrium", "nonequilibrium");
 
             correctionAdd("pre-processor", "preprocessor");
+
+            correctionAdd("psexec", "PsExec");
+
+            correctionAdd("seaborn", "Seaborn");
+
+            correctionAdd("barchart", "bar chart");
+            correctionAdd("barplot", "bar chart");
+            correctionAdd("bar plot", "bar chart");
+            correctionAdd("bar graph", "bar chart");
+            correctionAdd("bargraph", "bar chart");
+
+            correctionAdd("tbl", "table");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64503,6 +64527,14 @@ namespace OverflowHelper.core
 
             URL_Add("preprocessor", "https://en.wikipedia.org/wiki/Preprocessor");
 
+            URL_Add("PsExec", "https://docs.microsoft.com/en-us/sysinternals/downloads/psexec");
+
+            URL_Add("Seaborn", "https://seaborn.pydata.org/");
+
+            URL_Add("bar chart", "https://en.wikipedia.org/wiki/Bar_chart");
+
+            URL_Add("table", "https://en.wiktionary.org/wiki/table#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65258,6 +65290,8 @@ namespace OverflowHelper.core
 
             correctionAdd("tumble weed_", "tumbleweed_");
 
+            correctionAdd("CI_", "confidence interval_");
+
             // URL mappings
             //
             //
@@ -65734,6 +65768,8 @@ namespace OverflowHelper.core
             URL_Add("regular expression (tag wiki)_", "https://stackoverflow.com/questions/tagged/regex");
 
             URL_Add("tumbleweed_", "https://en.wikipedia.org/wiki/Tumbleweed");
+
+            URL_Add("confidence interval_", "https://en.wikipedia.org/wiki/Confidence_interval");
 
         } //addLookupData_alternativeWordSet()
 
