@@ -15882,6 +15882,7 @@ namespace OverflowHelper.core
             correctionAdd("stripe", "Stripe");
 
             correctionAdd("à la", "a la");
+            correctionAdd("ala", "a la");
 
             correctionAdd("asc", "ascending");
             correctionAdd("ASC", "ascending");
@@ -18073,6 +18074,7 @@ namespace OverflowHelper.core
             correctionAdd("org", "organisation");
             correctionAdd("organiation", "organisation");
             correctionAdd("organization", "organisation");
+            correctionAdd("Organization", "organisation");
 
             correctionAdd("portefolio", "portfolio");
 
@@ -23571,6 +23573,7 @@ namespace OverflowHelper.core
             correctionAdd("Power Point", "PowerPoint");
             correctionAdd("power-point", "PowerPoint");
             correctionAdd("POWERPOINT", "PowerPoint");
+            correctionAdd("ppt", "PowerPoint");
 
             correctionAdd("AP", "access point");
             correctionAdd("Access point", "access point");
@@ -26504,6 +26507,7 @@ namespace OverflowHelper.core
             correctionAdd("Method", "method");
             correctionAdd("Mthod", "method");
             correctionAdd("mthod", "method");
+            correctionAdd("methond", "method");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -27257,6 +27261,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sacrifise", "sacrifice");
             correctionAdd("sac", "sacrifice");
+            correctionAdd("Sac", "sacrifice");
 
             correctionAdd("testemonials", "testimonial");
 
@@ -33191,6 +33196,7 @@ namespace OverflowHelper.core
             correctionAdd("Mime Type", "MIME type");
             correctionAdd("MIME Type", "MIME type");
             correctionAdd("mimetype", "MIME type");
+            correctionAdd("mime-type", "MIME type");
 
             correctionAdd("interferred", "interfered");
 
@@ -35767,6 +35773,8 @@ namespace OverflowHelper.core
 
             correctionAdd("settigns", "settings");
             correctionAdd("sittings", "settings");
+            correctionAdd("SAettings", "settings");
+            correctionAdd("Settings", "settings");
 
             correctionAdd("svd", "singular value decomposition");
             correctionAdd("Singular Value Decomposition", "singular value decomposition");
@@ -36155,6 +36163,7 @@ namespace OverflowHelper.core
             correctionAdd("deleate", "delete");
 
             correctionAdd("fluent", "fluent interface");
+            correctionAdd("fluent API", "fluent interface");
 
             correctionAdd("transmision", "transmission");
 
@@ -39228,6 +39237,7 @@ namespace OverflowHelper.core
             correctionAdd("Entity-relation diagram", "entity–relationship diagram");
 
             correctionAdd("higher res", "higher-resolution");
+            correctionAdd("higher-res", "higher-resolution");
 
             correctionAdd("ant design", "Ant Design");
             correctionAdd("Antd", "Ant Design");
@@ -41022,6 +41032,24 @@ namespace OverflowHelper.core
             correctionAdd("bargraph", "bar chart");
 
             correctionAdd("tbl", "table");
+
+            correctionAdd("Creative Suite 4", "Adobe Creative Suite 4");
+            correctionAdd("CS4", "Adobe Creative Suite 4");
+
+            correctionAdd("a11y", "accessibility");
+
+            correctionAdd("billion laughs xml attack", "billion laughs attack");
+            correctionAdd("billion laughs XML attack", "billion laughs attack");
+
+            correctionAdd("blow-up", "blowup");
+
+            correctionAdd("ground breaking", "ground-breaking");
+
+            correctionAdd("inherant", "inherent");
+
+            correctionAdd("longed", "longer");
+
+            correctionAdd("no longed", "no longer");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64535,6 +64563,22 @@ namespace OverflowHelper.core
 
             URL_Add("table", "https://en.wiktionary.org/wiki/table#Noun");
 
+            URL_Add("Adobe Creative Suite 4", "https://en.wikipedia.org/wiki/Adobe_Creative_Suite#Creative_Suite_4");
+
+            URL_Add("accessibility", "https://en.wiktionary.org/wiki/a11y#Noun");
+
+            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
+
+            URL_Add("blowup", "https://en.wiktionary.org/wiki/blowup#Noun");
+
+            URL_Add("ground-breaking", "https://en.wiktionary.org/wiki/ground-breaking#Adjective");
+
+            URL_Add("inherent", "https://en.wiktionary.org/wiki/inherent#Adjective");
+
+            URL_Add("longer", "https://en.wiktionary.org/wiki/longer#Adverb");
+
+            URL_Add("no longer", "https://en.wiktionary.org/wiki/no_longer#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65292,6 +65336,12 @@ namespace OverflowHelper.core
 
             correctionAdd("CI_", "confidence interval_");
 
+            correctionAdd("Gigebyte_", "Gigabyte Technology_");
+            correctionAdd("Gigabyte_", "Gigabyte Technology_");
+            correctionAdd("GIGABYTE_", "Gigabyte Technology_");
+            correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
+            correctionAdd("gigebyte_", "Gigabyte Technology_");
+
             // URL mappings
             //
             //
@@ -65770,6 +65820,8 @@ namespace OverflowHelper.core
             URL_Add("tumbleweed_", "https://en.wikipedia.org/wiki/Tumbleweed");
 
             URL_Add("confidence interval_", "https://en.wikipedia.org/wiki/Confidence_interval");
+
+            URL_Add("Gigabyte Technology_", "https://en.wikipedia.org/wiki/Gigabyte_Technology");
 
         } //addLookupData_alternativeWordSet()
 
