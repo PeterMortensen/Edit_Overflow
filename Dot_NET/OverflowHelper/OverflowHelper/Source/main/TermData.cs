@@ -9681,6 +9681,7 @@ namespace OverflowHelper.core
             correctionAdd("RedGate", "Redgate Software");
             correctionAdd("Red Gate Software", "Redgate Software"); // The old name...
             correctionAdd("Red-Gate", "Redgate Software");
+            correctionAdd("redgate", "Redgate Software");
 
             correctionAdd("AV", "antivirus software");
             correctionAdd("AntiVirus", "antivirus software");
@@ -9706,6 +9707,7 @@ namespace OverflowHelper.core
             correctionAdd("Softwere", "software");
             correctionAdd("softwere", "software");
             correctionAdd("sofeware", "software");
+            correctionAdd("Software", "software");
 
             correctionAdd("HW", "hardware");
             correctionAdd("hw", "hardware");
@@ -14425,6 +14427,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inly", "only");
             correctionAdd("on;y", "only");
+            correctionAdd("onl;y", "only");
 
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
@@ -19646,6 +19649,8 @@ namespace OverflowHelper.core
             correctionAdd("version control", "source control management");
             correctionAdd("Software Change Management", "source control management");
             correctionAdd("software change management", "source control management");
+            correctionAdd("Source Code Control", "source control management");
+            correctionAdd("source code control", "source control management");
 
             correctionAdd("syle", "style");
             correctionAdd("sytle", "style");
@@ -25220,6 +25225,7 @@ namespace OverflowHelper.core
             correctionAdd("infeasabe", "infeasible");
 
             correctionAdd("pourcentage", "percentage");
+            correctionAdd("Percentage", "percentage");
 
             correctionAdd("pinicle", "pinnacle");
             correctionAdd("panicle", "pinnacle");
@@ -28256,6 +28262,7 @@ namespace OverflowHelper.core
             correctionAdd("juts", "just");
             correctionAdd("jus", "just");
             correctionAdd("juust", "just");
+            correctionAdd("jusst", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -28918,6 +28925,8 @@ namespace OverflowHelper.core
             correctionAdd("Thank You", "thank you");
             correctionAdd("Thank-You", "thank you");
             correctionAdd("thankyou", "thank you");
+            correctionAdd("Thankyou", "thank you");
+            correctionAdd("Thank you", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -37958,6 +37967,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Exoplanet", "exoplanet");
             correctionAdd("Exo planet", "exoplanet");
+            correctionAdd("exo planet", "exoplanet");
 
             correctionAdd("finsished", "finished");
 
@@ -41050,6 +41060,29 @@ namespace OverflowHelper.core
             correctionAdd("longed", "longer");
 
             correctionAdd("no longed", "no longer");
+
+            correctionAdd("American Megatrends", "American Megatrends International");
+            correctionAdd("AMI", "American Megatrends International");
+
+            correctionAdd("Faroe islands", "Faroe Islands");
+
+            correctionAdd("gollum", "Gollum");
+
+            correctionAdd("Stack Editor", "Stacks Editor");
+            correctionAdd("stacks editor", "Stacks Editor");
+            correctionAdd("Stacks editor", "Stacks Editor");
+
+            correctionAdd("class-library", "class library");
+
+            correctionAdd("DotPeek", "dotPeek");
+            correctionAdd("Dot peek", "dotPeek");
+            correctionAdd("Dotpeek", "dotPeek");
+            correctionAdd("Dot Peek", "dotPeek");
+
+            correctionAdd("filesize", "file size");
+
+            correctionAdd("Manifest", "manifest");
+            correctionAdd("Mainfest", "manifest");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64579,6 +64612,22 @@ namespace OverflowHelper.core
 
             URL_Add("no longer", "https://en.wiktionary.org/wiki/no_longer#Adverb");
 
+            URL_Add("American Megatrends International", "https://en.wikipedia.org/wiki/American_Megatrends");
+
+            URL_Add("Faroe Islands", "https://en.wikipedia.org/wiki/Faroe_Islands");
+
+            URL_Add("Gollum", "https://en.wikipedia.org/wiki/Gollum");
+
+            URL_Add("Stacks Editor", "https://meta.stackexchange.com/questions/380295/announcing-the-stacks-editor-beta-release");
+
+            URL_Add("class library", "https://en.wikipedia.org/wiki/Library_(computing)#Class_libraries");
+
+            URL_Add("dotPeek", "https://www.jetbrains.com/decompiler/");
+
+            URL_Add("file size", "https://en.wiktionary.org/wiki/file_size#Noun");
+
+            URL_Add("manifest", "https://en.wiktionary.org/wiki/manifest#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65342,6 +65391,10 @@ namespace OverflowHelper.core
             correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
             correctionAdd("gigebyte_", "Gigabyte Technology_");
 
+            correctionAdd("ot_", "or_");
+
+            correctionAdd("thing_", "think_");
+
             // URL mappings
             //
             //
@@ -65822,6 +65875,10 @@ namespace OverflowHelper.core
             URL_Add("confidence interval_", "https://en.wikipedia.org/wiki/Confidence_interval");
 
             URL_Add("Gigabyte Technology_", "https://en.wikipedia.org/wiki/Gigabyte_Technology");
+
+            URL_Add("or_", "https://en.wiktionary.org/wiki/or#Conjunction");
+
+            URL_Add("think_", "https://en.wiktionary.org/wiki/think#Verb");
 
         } //addLookupData_alternativeWordSet()
 
