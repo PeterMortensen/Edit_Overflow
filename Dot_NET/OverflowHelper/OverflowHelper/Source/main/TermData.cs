@@ -15880,8 +15880,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Swarm Intelligence", "swarm intelligence");
 
-            correctionAdd("thingie", "thingy");
-
             correctionAdd("stripe", "Stripe");
 
             correctionAdd("à la", "a la");
@@ -18203,11 +18201,6 @@ namespace OverflowHelper.core
             correctionAdd("evetryhing", "everything");
             correctionAdd("evertyhing", "everything");
             correctionAdd("eveyrthing", "everything");
-
-            correctionAdd("thig", "thing");
-            correctionAdd("thang", "thing");
-            correctionAdd("thign", "thing");
-            correctionAdd("ging", "thing");
 
             correctionAdd("tooo", "too");
 
@@ -24867,14 +24860,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tertiary", "tertiary");
 
-            correctionAdd("over-think", "overthink");
-
-            correctionAdd("thinkk", "think");
-            correctionAdd("thunk", "think");
-            correctionAdd("thibk", "think");
-            correctionAdd("htink", "think");
-            correctionAdd("thnik", "think");
-
             correctionAdd("througput", "throughput");
 
             correctionAdd("CosmoDB", "Azure Cosmos DB");
@@ -29015,13 +29000,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Stephan Mishook", "Stefan Mischook");
 
-            correctionAdd("thinkpad", "ThinkPad");
-            correctionAdd("IBM Stinkpad", "ThinkPad");
-            correctionAdd("Stinkpad", "ThinkPad");
-            correctionAdd("IBM Thinkpad", "ThinkPad");
-            correctionAdd("IBM ThinkPad", "ThinkPad");
-            correctionAdd("Thinkpad", "ThinkPad");
-
             correctionAdd("zorin", "Zorin OS");
             correctionAdd("ZorinOS", "Zorin OS");
             correctionAdd("Zorin", "Zorin OS");
@@ -29729,8 +29707,6 @@ namespace OverflowHelper.core
             correctionAdd("re-organise", "reorganise");
             correctionAdd("re-organize", "reorganise");
             correctionAdd("reorganize", "reorganise");
-
-            correctionAdd("thins", "things");
 
             correctionAdd("excel 2003", "Excel 2003");
 
@@ -31323,13 +31299,6 @@ namespace OverflowHelper.core
 
             correctionAdd("factoral", "factorial");
             correctionAdd("Factorial", "factorial");
-
-            correctionAdd("thingamajig", "thingamajiggy");
-            correctionAdd("thingamadigi", "thingamajiggy");
-            correctionAdd("thingamabob", "thingamajiggy");
-            correctionAdd("thingamagic", "thingamajiggy");
-            correctionAdd("thingamagiggi", "thingamajiggy");
-            correctionAdd("thingamagigie", "thingamajiggy");
 
             correctionAdd("stdin", "standard input");
             correctionAdd("STDIN", "standard input");
@@ -34626,8 +34595,6 @@ namespace OverflowHelper.core
             correctionAdd("non-unique", "nonunique");
 
             correctionAdd("phycical", "physical");
-
-            correctionAdd("thingyes", "thingies");
 
             correctionAdd("un-commenting", "uncommenting");
 
@@ -38385,8 +38352,6 @@ namespace OverflowHelper.core
 
             correctionAdd("acentuation", "accentuation");
 
-            correctionAdd("oe", "or");
-
             correctionAdd("sanatizing", "sanitizing");
 
             correctionAdd("burn down the forest", "see the forest for the trees");
@@ -38452,8 +38417,6 @@ namespace OverflowHelper.core
             correctionAdd("GL", "good luck");
 
             correctionAdd("scatterplot", "scatter plot");
-
-            correctionAdd("thiking", "thinking");
 
             correctionAdd("3DNow!", "3DNow");
             correctionAdd("3Dnow!", "3DNow");
@@ -41083,6 +41046,75 @@ namespace OverflowHelper.core
 
             correctionAdd("Manifest", "manifest");
             correctionAdd("Mainfest", "manifest");
+
+            correctionAdd("thinkpad", "ThinkPad");
+            correctionAdd("IBM Stinkpad", "ThinkPad");
+            correctionAdd("Stinkpad", "ThinkPad");
+            correctionAdd("IBM Thinkpad", "ThinkPad");
+            correctionAdd("IBM ThinkPad", "ThinkPad");
+            correctionAdd("Thinkpad", "ThinkPad");
+
+            correctionAdd("over-think", "overthink");
+
+            correctionAdd("thiking", "thinking");
+
+            correctionAdd("thinkk", "think");
+            correctionAdd("thunk", "think");
+            correctionAdd("thibk", "think");
+            correctionAdd("htink", "think");
+            correctionAdd("thnik", "think");
+
+            correctionAdd("thingamajig", "thingamajiggy");
+            correctionAdd("thingamadigi", "thingamajiggy");
+            correctionAdd("thingamabob", "thingamajiggy");
+            correctionAdd("thingamagic", "thingamajiggy");
+            correctionAdd("thingamagiggi", "thingamajiggy");
+            correctionAdd("thingamagigie", "thingamajiggy");
+
+            correctionAdd("thingyes", "thingies");
+
+            correctionAdd("thingie", "thingy");
+
+            correctionAdd("thins", "things");
+
+            correctionAdd("thig", "thing");
+            correctionAdd("thang", "thing");
+            correctionAdd("thign", "thing");
+            correctionAdd("ging", "thing");
+
+            correctionAdd("AVX512", "AVX-512");
+
+            correctionAdd("celeron", "Celeron");
+
+            correctionAdd("gigaFLOPS", "GFLOPS");
+            correctionAdd("gflop", "GFLOPS");
+            correctionAdd("gflops", "GFLOPS");
+
+            correctionAdd("Horner Scheme", "Horner's method");
+            correctionAdd("Horner's scheme", "Horner's method");
+
+            correctionAdd("l1d", "L1d");
+
+            correctionAdd("Quake 3", "Quake III Arena");
+            correctionAdd("Quake-3", "Quake III Arena");
+
+            correctionAdd("RFC2616", "RFC&nbsp;2616");
+            correctionAdd("RFC 2616", "RFC&nbsp;2616"); // Sort of identity mapping
+
+            correctionAdd("sony", "Sony");
+
+            correctionAdd("tiger lake", "Tiger Lake");
+
+            correctionAdd("click-able", "clickable");
+            correctionAdd("Click-able", "clickable");
+
+            correctionAdd("FMA", "fused multiply–add");
+
+            correctionAdd("undescriptive", "non-descriptive");
+
+            correctionAdd("polynormal", "polynomial");
+
+            correctionAdd("post facto", "post factum");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62242,8 +62274,6 @@ namespace OverflowHelper.core
 
             URL_Add("base64_encode", "https://www.php.net/manual/en/function.base64-encode.php");
 
-            URL_Add("or", "https://en.wiktionary.org/wiki/or#Conjunction");
-
             URL_Add("sanitizing", "https://en.wiktionary.org/wiki/sanitize#Verb");
 
             URL_Add("see the forest for the trees", "https://en.wiktionary.org/wiki/see_the_forest_for_the_trees#Verb");
@@ -64628,6 +64658,34 @@ namespace OverflowHelper.core
 
             URL_Add("manifest", "https://en.wiktionary.org/wiki/manifest#Noun");
 
+            URL_Add("AVX-512", "https://en.wikipedia.org/wiki/AVX-512");
+
+            URL_Add("Celeron", "https://en.wikipedia.org/wiki/Celeron");
+
+            URL_Add("GFLOPS", "https://en.wikipedia.org/wiki/FLOPS");
+
+            URL_Add("Horner's method", "https://en.wikipedia.org/wiki/Horner's_method");
+
+            URL_Add("L1d", "https://en.wikipedia.org/wiki/CPU_cache#History");
+
+            URL_Add("Quake III Arena", "https://en.wikipedia.org/wiki/Quake_III_Arena");
+
+            URL_Add("RFC&nbsp;2616", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
+
+            URL_Add("Sony", "https://en.wikipedia.org/wiki/Sony");
+
+            URL_Add("Tiger Lake", "https://en.wikipedia.org/wiki/Tiger_Lake");
+
+            URL_Add("clickable", "https://en.wiktionary.org/wiki/clickable#Adjective");
+
+            URL_Add("fused multiply–add", "https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation");
+
+            URL_Add("non-descriptive", "https://en.wiktionary.org/wiki/non-descriptive#Adjective");
+
+            URL_Add("polynomial", "https://en.wiktionary.org/wiki/polynomial#Noun");
+
+            URL_Add("post factum", "https://en.wiktionary.org/wiki/post_factum#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65320,6 +65378,7 @@ namespace OverflowHelper.core
 
             correctionAdd("floating-point_", "floating point_");
             correctionAdd("fp_", "floating point_");
+            correctionAdd("FP_", "floating point_");
 
             correctionAdd("RTS_", "real-time strategy_");
 
@@ -65391,6 +65450,7 @@ namespace OverflowHelper.core
             correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
             correctionAdd("gigebyte_", "Gigabyte Technology_");
 
+            correctionAdd("oe_", "or_");
             correctionAdd("ot_", "or_");
 
             correctionAdd("thing_", "think_");
@@ -65876,9 +65936,9 @@ namespace OverflowHelper.core
 
             URL_Add("Gigabyte Technology_", "https://en.wikipedia.org/wiki/Gigabyte_Technology");
 
-            URL_Add("or_", "https://en.wiktionary.org/wiki/or#Conjunction");
-
             URL_Add("think_", "https://en.wiktionary.org/wiki/think#Verb");
+
+            URL_Add("or_", "https://en.wiktionary.org/wiki/or#Conjunction");
 
         } //addLookupData_alternativeWordSet()
 
