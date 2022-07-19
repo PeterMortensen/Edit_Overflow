@@ -4015,6 +4015,7 @@ namespace OverflowHelper.core
             correctionAdd("MAVEN", "Maven");
             correctionAdd("mave", "Maven");
             correctionAdd("Apache Maven", "Maven");
+            correctionAdd("maeven", "Maven");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -5649,6 +5650,10 @@ namespace OverflowHelper.core
             correctionAdd("dependcy", "dependency");
             correctionAdd("dep", "dependency");
             correctionAdd("depependency", "dependency");
+            correctionAdd("dependecie", "dependency");
+            correctionAdd("dependeci", "dependency");
+            correctionAdd("dependenci", "dependency");
+            correctionAdd("dependecy", "dependency");
 
             correctionAdd("dependacies", "dependencies");
             correctionAdd("dependancies", "dependencies"); // Common misspelling... Not 100% correct. Plural...
@@ -6328,6 +6333,7 @@ namespace OverflowHelper.core
             correctionAdd("Can't", "can’t");
             correctionAdd("cam’t", "can’t");
             correctionAdd("can'not", "can’t");
+            correctionAdd("cnt", "can’t");
 
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
@@ -7858,6 +7864,7 @@ namespace OverflowHelper.core
             correctionAdd("I'M", "I’m");
             correctionAdd("i'n", "I’m");
             correctionAdd("I.m", "I’m");
+            correctionAdd("Im'", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -11439,6 +11446,7 @@ namespace OverflowHelper.core
             correctionAdd("woul", "would");
             correctionAdd("Woulc", "would");
             correctionAdd("woulc", "would");
+            correctionAdd("wouhld", "would");
 
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("mine craft", "Minecraft");
@@ -13654,6 +13662,8 @@ namespace OverflowHelper.core
             correctionAdd("Appearently", "apparently");
             correctionAdd("Aparrently", "apparently");
             correctionAdd("aparrently", "apparently");
+            correctionAdd("Appearantly", "apparently");
+            correctionAdd("appearantly", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -16314,6 +16324,7 @@ namespace OverflowHelper.core
             correctionAdd("writtitng", "writing");
             correctionAdd("wrting", "writing");
             correctionAdd("witting", "writing");
+            correctionAdd("wrinting", "writing");
 
             correctionAdd("vagrant", "Vagrant");
 
@@ -17854,6 +17865,8 @@ namespace OverflowHelper.core
             correctionAdd("problemes", "problem");
             correctionAdd("problems", "problem");
             correctionAdd("broblem", "problem");
+            correctionAdd("prblem", "problem");
+            correctionAdd("problm", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -18201,6 +18214,9 @@ namespace OverflowHelper.core
             correctionAdd("evetryhing", "everything");
             correctionAdd("evertyhing", "everything");
             correctionAdd("eveyrthing", "everything");
+            correctionAdd("Evrythg", "everything");
+            correctionAdd("evrythg", "everything");
+            correctionAdd("everythg", "everything");
 
             correctionAdd("tooo", "too");
 
@@ -19380,6 +19396,7 @@ namespace OverflowHelper.core
             correctionAdd("againa", "again");
             correctionAdd("Agajn", "again");
             correctionAdd("agajn", "again");
+            correctionAdd("agian", "again");
 
             correctionAdd("Baud", "baud");
 
@@ -20308,9 +20325,11 @@ namespace OverflowHelper.core
             correctionAdd("gud", "good");
             correctionAdd("goot", "good");
             correctionAdd("godd", "good");
+            correctionAdd("goo", "good");
 
             correctionAdd("instal", "install");
             correctionAdd("intsall", "install");
+            correctionAdd("instl", "install");
 
             correctionAdd("powerfull", "powerful");
             correctionAdd("powwrful", "powerful");
@@ -20780,6 +20799,7 @@ namespace OverflowHelper.core
             correctionAdd("Tying", "trying");
             correctionAdd("tryina", "trying");
             correctionAdd("tryiong", "trying");
+            correctionAdd("tryg", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -21537,6 +21557,7 @@ namespace OverflowHelper.core
             correctionAdd("Hallo", "hello");
             correctionAdd("hallo", "hello");
             correctionAdd("hellow", "hello");
+            correctionAdd("helleo", "hello");
 
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
@@ -23439,6 +23460,8 @@ namespace OverflowHelper.core
             correctionAdd("Gaussian Noise", "Gaussian noise");
 
             correctionAdd("windows firewall", "Windows Firewall");
+            correctionAdd("Windows firewall", "Windows Firewall");
+            correctionAdd("Windows Defender Firewall", "Windows Firewall");
 
             correctionAdd("specifing", "specifying");
             correctionAdd("Specifing", "specifying");
@@ -23537,6 +23560,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sutch", "such");
             correctionAdd("Sutch", "such");
+            correctionAdd("ssuch", "such");
 
             correctionAdd("troubleshoout", "troubleshoot");
 
@@ -30623,6 +30647,7 @@ namespace OverflowHelper.core
             correctionAdd("contition", "condition");
             correctionAdd("condion", "condition");
             correctionAdd("condtion", "condition");
+            correctionAdd("cndition", "condition");
 
             correctionAdd("earth rays", "earth radiation");
             correctionAdd("Earth ray", "earth radiation");
@@ -31079,6 +31104,7 @@ namespace OverflowHelper.core
             correctionAdd("usb 3", "USB 3.0");
             correctionAdd("usb3", "USB 3.0");
             correctionAdd("usb 3.0", "USB 3.0");
+            correctionAdd("USB 3", "USB 3.0");
 
             correctionAdd("artisitcally", "artistically");
 
@@ -31118,6 +31144,7 @@ namespace OverflowHelper.core
             correctionAdd("uSB2", "USB 2.0");
             correctionAdd("USB2", "USB 2.0");
             correctionAdd("usb 2.0", "USB 2.0");
+            correctionAdd("USB 2", "USB 2.0");
 
             correctionAdd("non destructively", "nondestructively");
 
@@ -35248,6 +35275,7 @@ namespace OverflowHelper.core
             correctionAdd("ASD", "autism spectrum disorder");
 
             correctionAdd("nu", "by"); // A true typo! (observed in the wild)
+            correctionAdd("byy", "by");
 
             correctionAdd("sacing", "saving");
             correctionAdd("saciing", "saving");
@@ -41115,6 +41143,23 @@ namespace OverflowHelper.core
             correctionAdd("polynormal", "polynomial");
 
             correctionAdd("post facto", "post factum");
+
+            correctionAdd("Bind", "BIND");
+            correctionAdd("bind", "BIND");
+
+            correctionAdd("Stirling's Approximation", "Stirling's approximation");
+            correctionAdd("Stirling Approximation", "Stirling's approximation");
+            correctionAdd("Stirling's formula", "Stirling's approximation");
+
+            correctionAdd("AS number", "autonomous system number");
+            correctionAdd("ASN", "autonomous system number");
+
+            correctionAdd("coy", "copy");
+
+            correctionAdd("File Manager", "file manager");
+            correctionAdd("FileMang", "file manager");
+
+            correctionAdd("hit the nail upon the top", "hit the nail on the head");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64686,6 +64731,18 @@ namespace OverflowHelper.core
 
             URL_Add("post factum", "https://en.wiktionary.org/wiki/post_factum#Adverb");
 
+            URL_Add("BIND", "https://en.wikipedia.org/wiki/BIND");
+
+            URL_Add("Stirling's approximation", "https://en.wikipedia.org/wiki/Stirling's_approximation");
+
+            URL_Add("autonomous system number", "https://en.wikipedia.org/wiki/Autonomous_system_%28Internet%29");
+
+            URL_Add("copy", "https://en.wiktionary.org/wiki/copy#Verb");
+
+            URL_Add("file manager", "https://en.wikipedia.org/wiki/File_manager");
+
+            URL_Add("hit the nail on the head", "https://en.wiktionary.org/wiki/hit_the_nail_on_the_head#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -64824,6 +64881,7 @@ namespace OverflowHelper.core
 
             correctionAdd("int_", "it_");
             correctionAdd("iit_", "it_");
+            correctionAdd("itt_", "it_");
 
             correctionAdd("[tag:node.js]_", "Node.js_");
 
@@ -65455,6 +65513,9 @@ namespace OverflowHelper.core
 
             correctionAdd("thing_", "think_");
 
+            correctionAdd("Player Character_", "player character_");
+            correctionAdd("PC_", "player character_");
+
             // URL mappings
             //
             //
@@ -65939,6 +66000,8 @@ namespace OverflowHelper.core
             URL_Add("think_", "https://en.wiktionary.org/wiki/think#Verb");
 
             URL_Add("or_", "https://en.wiktionary.org/wiki/or#Conjunction");
+
+            URL_Add("player character_", "https://en.wikipedia.org/wiki/Player_character");
 
         } //addLookupData_alternativeWordSet()
 
