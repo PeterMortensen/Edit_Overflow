@@ -2772,6 +2772,7 @@ namespace OverflowHelper.core
             correctionAdd("WebApps", "Web Applications (Stack Exchange site)");
             correctionAdd("Web Apps", "Web Applications (Stack Exchange site)");
             correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
+            correctionAdd("web applications", "Web Applications (Stack Exchange site)");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
@@ -5610,6 +5611,8 @@ namespace OverflowHelper.core
             correctionAdd("hard-disk", "hard disk drive");
             correctionAdd("Harddisk", "hard disk drive");
             correctionAdd("harddisk driver", "hard disk drive");
+            correctionAdd("hardisk", "hard disk drive");
+            correctionAdd("har disk", "hard disk drive");
 
             correctionAdd("ssd", "SSD");
             correctionAdd("Solid State Disk", "SSD");
@@ -6091,6 +6094,7 @@ namespace OverflowHelper.core
             correctionAdd("Distros", "distribution");
             correctionAdd("distritutions", "distribution");
             correctionAdd("distro's", "distribution");
+            correctionAdd("dists", "distribution");
 
             correctionAdd("soap", "SOAP");
             correctionAdd("Soap", "SOAP");
@@ -9487,6 +9491,7 @@ namespace OverflowHelper.core
             correctionAdd("RASPBMC", "Raspbmc");
 
             correctionAdd("Sandisk", "SanDisk");
+            correctionAdd("sandisk", "SanDisk");
 
             correctionAdd("xbmc", "XBMC");
 
@@ -10598,6 +10603,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
             correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
             correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
 
             correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
             correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
@@ -10607,6 +10614,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
             correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Karmic Koala", "Ubuntu&nbsp;9.10 (Karmic Koala)");
 
             correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
             correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
@@ -14484,6 +14492,7 @@ namespace OverflowHelper.core
             correctionAdd("statenent", "statement");
             correctionAdd("stament", "statement");
             correctionAdd("Statement", "statement");
+            correctionAdd("stetement", "statement");
 
             correctionAdd("staments", "statements");
             correctionAdd("statments", "statements");
@@ -16443,6 +16452,7 @@ namespace OverflowHelper.core
             correctionAdd("re-set", "reset");
             correctionAdd("reseted", "reset");
             correctionAdd("Reset", "reset");
+            correctionAdd("resetted", "reset");
 
             correctionAdd("is_set", "isset");
 
@@ -17097,6 +17107,9 @@ namespace OverflowHelper.core
             correctionAdd("enctyption", "encryption");
 
             correctionAdd("imporant", "important");
+            correctionAdd("Important", "important");
+            correctionAdd("IMP", "important");
+            correctionAdd("imp", "important");
 
             correctionAdd("intrested", "interested");
             correctionAdd("intetessered", "interested");
@@ -20680,6 +20693,7 @@ namespace OverflowHelper.core
             correctionAdd("thumbdrive", "USB flash drive");
             correctionAdd("pen-drive", "USB flash drive");
             correctionAdd("usb flash drive", "USB flash drive");
+            correctionAdd("Pendrive", "USB flash drive");
 
             correctionAdd("counter part", "counterpart");
 
@@ -25967,6 +25981,7 @@ namespace OverflowHelper.core
 
             correctionAdd("complez", "complex");
             correctionAdd("complexe", "complex");
+            correctionAdd("complext", "complex");
 
             correctionAdd("helpdesk", "help desk");
 
@@ -26172,6 +26187,7 @@ namespace OverflowHelper.core
 
             correctionAdd("advance", "advanced");
             correctionAdd("advancve", "advanced");
+            correctionAdd("avanced", "advanced");
 
             correctionAdd("emptyness", "emptiness");
 
@@ -28260,6 +28276,10 @@ namespace OverflowHelper.core
 
             correctionAdd("VMware VSphere", "VMware vSphere");
 
+            correctionAdd("whare", "where");
+            correctionAdd("Whre", "where");
+            correctionAdd("whre", "where");
+
             correctionAdd("judgeing", "judging");
             correctionAdd("judginh", "judging");
 
@@ -28820,6 +28840,7 @@ namespace OverflowHelper.core
             correctionAdd("probabilites", "probabilities");
 
             correctionAdd("take into accound", "take into account");
+            correctionAdd("take in count", "take into account");
 
             correctionAdd("tireing", "tiring");
             correctionAdd("tiering", "tiring");
@@ -33542,6 +33563,7 @@ namespace OverflowHelper.core
             correctionAdd("buffled", "baffled");
 
             correctionAdd("confliction", "conflict");
+            correctionAdd("confict", "conflict");
 
             correctionAdd("conumdrum", "conundrum");
 
@@ -33646,8 +33668,6 @@ namespace OverflowHelper.core
             correctionAdd("Spider Oak", "SpiderOak");
 
             correctionAdd("safety-net", "safety net");
-
-            correctionAdd("whare", "where");
 
             correctionAdd("one plus", "OnePlus");
 
@@ -35150,10 +35170,12 @@ namespace OverflowHelper.core
             correctionAdd("balena", "balenaEtcher");
             correctionAdd("Balena", "balenaEtcher");
             correctionAdd("Balena etcher", "balenaEtcher");
+            correctionAdd("etcher", "balenaEtcher");
 
             correctionAdd("mentions", "mention's");
 
             correctionAdd("re-made", "remade");
+            correctionAdd("remaded", "remade");
 
             correctionAdd("restting", "resting");
 
@@ -35192,6 +35214,9 @@ namespace OverflowHelper.core
             correctionAdd("DU", "du");
 
             correctionAdd("live usb", "live USB");
+
+            correctionAdd("live linux", "Live USB");
+            correctionAdd("Live-USB", "Live USB");
 
             correctionAdd("pretense", "pretence");
 
@@ -38821,8 +38846,6 @@ namespace OverflowHelper.core
 
             correctionAdd("self proclaimed", "self-proclaimed");
 
-            correctionAdd("live linux", "Live USB");
-
             correctionAdd("Sitecore Cms", "Sitecore");
             correctionAdd("Sitecore cms", "Sitecore");
             correctionAdd("Sitecore CMS", "Sitecore");
@@ -41160,6 +41183,48 @@ namespace OverflowHelper.core
             correctionAdd("FileMang", "file manager");
 
             correctionAdd("hit the nail upon the top", "hit the nail on the head");
+
+            correctionAdd("azure IoT Hub", "Azure IoT Hub");
+            correctionAdd("Azure IOT hub", "Azure IoT Hub");
+            correctionAdd("IOTHub", "Azure IoT Hub");
+            correctionAdd("IOT Hub", "Azure IoT Hub");
+
+            correctionAdd("cartesian product", "Cartesian product");
+
+            correctionAdd("GUID Partition Table", "GPT");
+
+            correctionAdd("GRUB2", "GRUB 2");
+
+            correctionAdd("kingston", "Kingston");
+
+            correctionAdd("RAMdrive", "RAM drive");
+
+            correctionAdd("Slitaz", "SliTaz");
+
+            correctionAdd("on a glance", "at a glance");
+            correctionAdd("On a quick glance", "at a glance");
+            correctionAdd("on a quick glance", "at a glance");
+
+            correctionAdd("bootmanager", "boot manager");
+
+            correctionAdd("chainload", "chain load");
+
+            correctionAdd("cilinder", "cylinder");
+
+            correctionAdd("Ext2", "ext2");
+
+            correctionAdd("live dvd", "live DVD");
+
+            correctionAdd("masocist", "masochist");
+
+            correctionAdd("sub queries", "subqueries");
+
+            correctionAdd("sub query", "subquery");
+
+            correctionAdd("under-powered", "underpowered");
+
+            correctionAdd("videogame", "video game");
+            correctionAdd("Videogame", "video game");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64743,6 +64808,42 @@ namespace OverflowHelper.core
 
             URL_Add("hit the nail on the head", "https://en.wiktionary.org/wiki/hit_the_nail_on_the_head#Verb");
 
+            URL_Add("Azure IoT Hub", "https://stackoverflow.com/tags/azure-iot-hub/info");
+
+            URL_Add("Cartesian product", "https://en.wiktionary.org/wiki/Cartesian_product#Noun");
+
+            URL_Add("GPT", "https://en.wikipedia.org/wiki/GUID_Partition_Table");
+
+            URL_Add("GRUB 2", "https://en.wikipedia.org/wiki/GNU_GRUB#Version_2_(GRUB_2)");
+
+            URL_Add("Kingston", "https://en.wikipedia.org/wiki/Kingston_Technology");
+
+            URL_Add("RAM drive", "https://en.wikipedia.org/wiki/RAM_drive");
+
+            URL_Add("SliTaz", "https://en.wikipedia.org/wiki/SliTaz");
+
+            URL_Add("at a glance", "https://en.wiktionary.org/wiki/at_a_glance#Prepositional_phrase");
+
+            URL_Add("boot manager", "https://en.wikipedia.org/wiki/Bootloader");
+
+            URL_Add("chain load", "https://en.wikipedia.org/wiki/Chain_loading");
+
+            URL_Add("cylinder", "https://en.wiktionary.org/wiki/cylinder#Noun");
+
+            URL_Add("ext2", "https://en.wikipedia.org/wiki/Ext2");
+
+            URL_Add("live DVD", "https://en.wikipedia.org/wiki/Live_CD");
+
+            URL_Add("masochist", "https://en.wiktionary.org/wiki/masochist#Noun");
+
+            URL_Add("subqueries", "https://en.wiktionary.org/wiki/subquery#Noun");
+
+            URL_Add("subquery", "https://en.wiktionary.org/wiki/subquery#Noun");
+
+            URL_Add("underpowered", "https://en.wiktionary.org/wiki/underpowered#Adjective");
+
+            URL_Add("video game", "https://en.wikipedia.org/wiki/Video_game");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65507,6 +65608,7 @@ namespace OverflowHelper.core
             correctionAdd("GIGABYTE_", "Gigabyte Technology_");
             correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
             correctionAdd("gigebyte_", "Gigabyte Technology_");
+            correctionAdd("GB_", "Gigabyte Technology_");
 
             correctionAdd("oe_", "or_");
             correctionAdd("ot_", "or_");
@@ -65515,6 +65617,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Player Character_", "player character_");
             correctionAdd("PC_", "player character_");
+
+            correctionAdd("MSI_", "Micro-Star International_");
 
             // URL mappings
             //
@@ -66002,6 +66106,8 @@ namespace OverflowHelper.core
             URL_Add("or_", "https://en.wiktionary.org/wiki/or#Conjunction");
 
             URL_Add("player character_", "https://en.wikipedia.org/wiki/Player_character");
+
+            URL_Add("Micro-Star International_", "https://en.wikipedia.org/wiki/Micro-Star_International");
 
         } //addLookupData_alternativeWordSet()
 
