@@ -86,17 +86,17 @@ namespace OverflowHelper
          ****************************************************************************/
         public string versionString_dateOnly()
         {
-            string toReturn = "2022-07-20";
+            string toReturn = "2022-07-22";
             return toReturn;
         }
- 
+
 
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
         public static string versionString()
         {
-            string toReturn = "1.1.49a438";
+            string toReturn = "1.1.49a439";
             return toReturn;
         }
 

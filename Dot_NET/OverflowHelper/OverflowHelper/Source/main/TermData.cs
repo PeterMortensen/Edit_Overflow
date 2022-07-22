@@ -13672,6 +13672,7 @@ namespace OverflowHelper.core
             correctionAdd("aparrently", "apparently");
             correctionAdd("Appearantly", "apparently");
             correctionAdd("appearantly", "apparently");
+            correctionAdd("apparrently", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -21996,6 +21997,8 @@ namespace OverflowHelper.core
             correctionAdd("raid 1", "RAID&nbsp;1");
             correctionAdd("RAID 1", "RAID&nbsp;1");
             correctionAdd("RAID-1", "RAID&nbsp;1");
+            correctionAdd("Raid1", "RAID&nbsp;1");
+            correctionAdd("RAID1", "RAID&nbsp;1");
 
             correctionAdd("RAID 5", "RAID&nbsp;5");
             correctionAdd("Raid5", "RAID&nbsp;5");
@@ -27741,6 +27744,7 @@ namespace OverflowHelper.core
             correctionAdd("otehr", "other");
             correctionAdd("outter", "other");
             correctionAdd("outher", "other");
+            correctionAdd("ather", "other");
 
             correctionAdd("poor mans", "poor man's");
 
@@ -41225,6 +41229,12 @@ namespace OverflowHelper.core
 
             correctionAdd("videogame", "video game");
             correctionAdd("Videogame", "video game");
+
+            correctionAdd("enthusiast badge", "Enthusiast badge");
+
+            correctionAdd("sloe", "slow");
+
+            correctionAdd("ever changing", "ever-changing");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64843,6 +64853,12 @@ namespace OverflowHelper.core
             URL_Add("underpowered", "https://en.wiktionary.org/wiki/underpowered#Adjective");
 
             URL_Add("video game", "https://en.wikipedia.org/wiki/Video_game");
+
+            URL_Add("Enthusiast badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
+
+            URL_Add("slow", "https://en.wiktionary.org/wiki/slow#Adjective");
+
+            URL_Add("ever-changing", "https://en.wiktionary.org/wiki/ever-changing#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
