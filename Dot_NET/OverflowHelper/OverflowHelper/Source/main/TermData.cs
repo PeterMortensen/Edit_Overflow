@@ -2183,6 +2183,27 @@ namespace OverflowHelper.core
             correctionAdd("FLEX", "Flex");
             correctionAdd("Adobe Flex", "Flex");
 
+            correctionAdd("flexbox", "Flexbox");
+            correctionAdd("flex-box", "Flexbox");
+            correctionAdd("flex box", "Flexbox");
+            correctionAdd("FLEXBOX", "Flexbox");
+            correctionAdd("CSS flex", "Flexbox");
+            correctionAdd("CSS flexbox", "Flexbox");
+
+            correctionAdd("CSS Grid", "CSS grid");
+            correctionAdd("css grid", "CSS grid");
+            correctionAdd("Flex grid", "CSS grid");
+            correctionAdd("flex grid", "CSS grid");
+            correctionAdd("flexgrid", "CSS grid");
+            correctionAdd("Flexgrid", "CSS grid");
+            correctionAdd("CSS Flexgrid", "CSS grid");
+
+            correctionAdd("flexiblity", "flexibilty");
+
+            correctionAdd("flexibily", "flexibly");
+
+            correctionAdd("unflexible", "inflexible");
+
             // Expansion, not case correction.
             correctionAdd("db", "database");
             correctionAdd("DB", "database");
@@ -7047,6 +7068,7 @@ namespace OverflowHelper.core
             correctionAdd("WiKi", "Wikipedia");
             correctionAdd("WIKIPEDIA", "Wikipedia");
             correctionAdd("wikipeida", "Wikipedia");
+            correctionAdd("Wikepedia", "Wikipedia");
 
             correctionAdd("HAML", "Haml");
             correctionAdd("haml", "Haml");
@@ -9729,6 +9751,7 @@ namespace OverflowHelper.core
             correctionAdd("softwere", "software");
             correctionAdd("sofeware", "software");
             correctionAdd("Software", "software");
+            correctionAdd("sotfware", "software");
 
             correctionAdd("HW", "hardware");
             correctionAdd("hw", "hardware");
@@ -15238,13 +15261,6 @@ namespace OverflowHelper.core
             correctionAdd("compoletely", "completely");
             correctionAdd("compleatly", "completely");
 
-            correctionAdd("flexbox", "Flexbox");
-            correctionAdd("flex-box", "Flexbox");
-            correctionAdd("flex box", "Flexbox");
-            correctionAdd("FLEXBOX", "Flexbox");
-            correctionAdd("CSS flex", "Flexbox");
-            correctionAdd("CSS flexbox", "Flexbox");
-
             correctionAdd("permisson", "permission");
             correctionAdd("perm", "permission");
             correctionAdd("Permision", "permission");
@@ -16972,9 +16988,6 @@ namespace OverflowHelper.core
             correctionAdd("swtich", "switch");
             correctionAdd("swith", "switch");
 
-            correctionAdd("CSS Grid", "CSS grid");
-            correctionAdd("css grid", "CSS grid");
-
             correctionAdd("cloudfront", "Amazon CloudFront");
             correctionAdd("CloudFront", "Amazon CloudFront");
 
@@ -17339,8 +17352,6 @@ namespace OverflowHelper.core
             correctionAdd("en-masse", "en masse");
 
             correctionAdd("flaging", "flagging");
-
-            correctionAdd("flexiblity", "flexibilty");
 
             correctionAdd("mutiple", "multiple");
             correctionAdd("mutliple", "multiple");
@@ -17786,6 +17797,7 @@ namespace OverflowHelper.core
             correctionAdd("acount", "account");
             correctionAdd("accound", "account");
             correctionAdd("accout", "account");
+            correctionAdd("acc", "account");
 
             correctionAdd("contributer", "contributor");
 
@@ -18552,6 +18564,8 @@ namespace OverflowHelper.core
             correctionAdd("with other words", "in other words");
             correctionAdd("another words", "in other words");
             correctionAdd("in other terms", "in other words");
+            correctionAdd("In others words", "in other words");
+            correctionAdd("in others words", "in other words");
 
             correctionAdd("IPROUTE2", "iproute2");
 
@@ -19688,6 +19702,7 @@ namespace OverflowHelper.core
             correctionAdd("realiably", "reliably");
 
             correctionAdd("situtation", "situation");
+            correctionAdd("Situation", "situation");
 
             correctionAdd("SCM", "source control management");
             correctionAdd("scm", "source control management");
@@ -29146,6 +29161,7 @@ namespace OverflowHelper.core
             correctionAdd("sthis", "this");
             correctionAdd("tyis", "this");
             correctionAdd("thios", "this");
+            correctionAdd("thes", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -31920,8 +31936,6 @@ namespace OverflowHelper.core
 
             correctionAdd("contomperary", "contemporary");
 
-            correctionAdd("flexibily", "flexibly");
-
             correctionAdd("head wind", "headwind");
 
             correctionAdd("lift off", "liftoff");
@@ -34149,6 +34163,8 @@ namespace OverflowHelper.core
             correctionAdd("time out", "time-out");
             correctionAdd("Time Out", "time-out");
             correctionAdd("Timeout", "time-out");
+            correctionAdd("Time out", "time-out");
+            correctionAdd("TimeOut", "time-out");
 
             correctionAdd("under-sampled", "undersampled");
             correctionAdd("under sampled", "undersampled");
@@ -40508,8 +40524,6 @@ namespace OverflowHelper.core
 
             correctionAdd("excentricity", "eccentricity");
 
-            correctionAdd("unflexible", "inflexible");
-
             correctionAdd("kdf", "key derivation function");
             correctionAdd("KDF", "key derivation function");
 
@@ -41398,6 +41412,18 @@ namespace OverflowHelper.core
             correctionAdd("Thermodynamics", "thermodynamics");
 
             correctionAdd("toptube", "top tube");
+
+            correctionAdd("prtime", "PRTime");
+
+            correctionAdd("bit field", "bitfield");
+
+            correctionAdd("involvment", "involvement");
+
+            correctionAdd("postin", "posting");
+
+            correctionAdd("Provider", "provider");
+
+            correctionAdd("representitive", "representative");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65129,6 +65155,18 @@ namespace OverflowHelper.core
 
             URL_Add("top tube", "https://en.wiktionary.org/wiki/top_tube#Noun");
 
+            URL_Add("PRTime", "https://en.wikipedia.org/wiki/Netscape_Portable_Runtime#Time");
+
+            URL_Add("bitfield", "https://en.wiktionary.org/wiki/bitfield#Noun");
+
+            URL_Add("involvement", "https://en.wiktionary.org/wiki/involvement#Noun");
+
+            URL_Add("posting", "https://en.wiktionary.org/wiki/post#Verb");
+
+            URL_Add("provider", "https://en.wiktionary.org/wiki/provider#Noun");
+
+            URL_Add("representative", "https://en.wiktionary.org/wiki/representative#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65287,6 +65325,7 @@ namespace OverflowHelper.core
             correctionAdd("VC_", "viewcontroller_");
 
             correctionAdd("LESS_", "less_");
+            correctionAdd("Less_", "less_");
 
             correctionAdd("Delta_", "Delta Air Lines_");
 
