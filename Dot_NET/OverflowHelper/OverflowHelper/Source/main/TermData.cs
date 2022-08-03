@@ -7897,6 +7897,7 @@ namespace OverflowHelper.core
             correctionAdd("i'n", "I’m");
             correctionAdd("I.m", "I’m");
             correctionAdd("Im'", "I’m");
+            correctionAdd("ima", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -12330,6 +12331,7 @@ namespace OverflowHelper.core
             correctionAdd("Schotsky", "Schottky");
             correctionAdd("Schosky", "Schottky");
             correctionAdd("Schotski", "Schottky");
+            correctionAdd("Schottky diode", "Schottky");
 
             correctionAdd("doesnt", "doesn’t");
             correctionAdd("doest", "doesn’t");
@@ -13596,6 +13598,7 @@ namespace OverflowHelper.core
             correctionAdd("searcheability", "searchability");
 
             correctionAdd("probablity", "probability");
+            correctionAdd("propability", "probability");
 
             correctionAdd("invitability", "inevitability");
 
@@ -13856,6 +13859,7 @@ namespace OverflowHelper.core
             correctionAdd("who’s", "whose");
             correctionAdd("whos", "whose");
             correctionAdd("whom's", "whose");
+            correctionAdd("whse", "whose");
 
             correctionAdd("accidently", "accidentally");
             correctionAdd("accidentaly", "accidentally");
@@ -14378,6 +14382,7 @@ namespace OverflowHelper.core
             correctionAdd("schmitd trigger", "Schmitt trigger");
             correctionAdd("schmidt trigger", "Schmitt trigger");
             correctionAdd("schmnitt trigger", "Schmitt trigger");
+            correctionAdd("Schmiit", "Schmitt trigger");
 
             correctionAdd("swedish", "Swedish");
 
@@ -16514,6 +16519,7 @@ namespace OverflowHelper.core
             correctionAdd("negatvie", "negative");
             correctionAdd("neg", "negative");
             correctionAdd("negativ", "negative");
+            correctionAdd("negitive", "negative");
 
             correctionAdd("prio", "priority");
 
@@ -25013,6 +25019,8 @@ namespace OverflowHelper.core
             correctionAdd("seriosly", "seriously");
             correctionAdd("seriuosly", "seriously");
             correctionAdd("seriouly", "seriously");
+            correctionAdd("serioulsy", "seriously");
+            correctionAdd("seriouslsy", "seriously");
 
             correctionAdd("unvind", "unwind");
 
@@ -28005,6 +28013,9 @@ namespace OverflowHelper.core
             correctionAdd("Wing pro IDE", "Wing IDE");
 
             correctionAdd("banker's rounding", "bankers' rounding");
+            correctionAdd("Banker's Rounding", "bankers' rounding");
+            correctionAdd("Bankers' Rounding", "bankers' rounding");
+            correctionAdd("bankers rounding", "bankers' rounding");
 
             correctionAdd("conneting", "connecting");
 
@@ -29455,6 +29466,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ATTINY", "ATtiny");
             correctionAdd("attiny", "ATtiny");
+            correctionAdd("Attiny", "ATtiny");
 
             correctionAdd("sku", "SKU");
             correctionAdd("stock keeping unit", "SKU");
@@ -41248,6 +41260,7 @@ namespace OverflowHelper.core
             correctionAdd("Azure IOT hub", "Azure IoT Hub");
             correctionAdd("IOTHub", "Azure IoT Hub");
             correctionAdd("IOT Hub", "Azure IoT Hub");
+            correctionAdd("IoT Hub", "Azure IoT Hub");
 
             correctionAdd("cartesian product", "Cartesian product");
 
@@ -41424,6 +41437,28 @@ namespace OverflowHelper.core
             correctionAdd("Provider", "provider");
 
             correctionAdd("representitive", "representative");
+
+            correctionAdd("google pay", "Google Pay");
+
+            correctionAdd("qdos", "QDOS");
+
+            correctionAdd("hive mind", "hivemind");
+
+            correctionAdd("monstable", "monostable multivibrator");
+            correctionAdd("Monostable Multivibrator", "monostable multivibrator");
+            correctionAdd("monoshot", "monostable multivibrator");
+
+            correctionAdd("neihborhood", "neighborhood");
+
+            correctionAdd("NRE", "non-recurring engineering");
+
+            correctionAdd("potentioal", "potential");
+
+            correctionAdd("quartz", "quartz crystal");
+
+            correctionAdd("repeatetly", "repeatedly");
+
+            correctionAdd("semi-oval", "semioval");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65167,6 +65202,26 @@ namespace OverflowHelper.core
 
             URL_Add("representative", "https://en.wiktionary.org/wiki/representative#Adjective");
 
+            URL_Add("Google Pay", "https://en.wikipedia.org/wiki/Google_Pay_(payment_method)");
+
+            URL_Add("QDOS", "https://en.wikipedia.org/wiki/86-DOS");
+
+            URL_Add("hivemind", "https://en.wiktionary.org/wiki/hivemind#Noun");
+
+            URL_Add("monostable multivibrator", "https://en.wikipedia.org/wiki/Multivibrator#Monostable");
+
+            URL_Add("neighborhood", "https://en.wiktionary.org/wiki/neighborhood#Noun");
+
+            URL_Add("non-recurring engineering", "https://en.wikipedia.org/wiki/Non-recurring_engineering");
+
+            URL_Add("potential", "https://en.wiktionary.org/wiki/potential#Noun");
+
+            URL_Add("quartz crystal", "https://en.wikipedia.org/wiki/Crystal_oscillator");
+
+            URL_Add("repeatedly", "https://en.wiktionary.org/wiki/repeatedly#Adverb");
+
+            URL_Add("semioval", "https://www.merriam-webster.com/dictionary/semioval");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65282,6 +65337,7 @@ namespace OverflowHelper.core
             correctionAdd("dfs_", "dataframe_");
             correctionAdd("Data-frame_", "dataframe_");
             correctionAdd("data-frame_", "dataframe_");
+            correctionAdd("datafram_", "dataframe_");
 
             correctionAdd("GA_", "general-availability_");
 
@@ -65736,6 +65792,7 @@ namespace OverflowHelper.core
             correctionAdd("ans_", "and_");
             correctionAdd("an_", "and_");
             correctionAdd("en_", "and_");
+            correctionAdd("amd_", "and_");
 
             correctionAdd("home-brew_", "homebrewed_");
 
