@@ -41009,7 +41009,8 @@ namespace OverflowHelper.core
 
             correctionAdd("kgdb", "KGDB");
 
-            correctionAdd("BCC", "bcc");
+            correctionAdd("BCC", "BPF Compiler Collection");
+            correctionAdd("bcc", "BPF Compiler Collection");
 
             correctionAdd("BPFTRACE", "bpftrace");
 
@@ -43787,7 +43788,7 @@ namespace OverflowHelper.core
 
             URL_Add("FileZilla", "https://en.wikipedia.org/wiki/FileZilla");
 
-            URL_Add("SPI", "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus");
+            URL_Add("SPI", "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface"); // Old: https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus
 
             URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
 
@@ -44187,7 +44188,7 @@ namespace OverflowHelper.core
 
             URL_Add("FileMon", "https://en.wikipedia.org/wiki/Process_Monitor#FileMon");
 
-            URL_Add("how-to", "https://en.wikipedia.org/wiki/How-to");
+            URL_Add("how-to", "https://en.wiktionary.org/wiki/how-to#Noun"); // Old: https://en.wikipedia.org/wiki/How-to
 
             URL_Add("Tor", "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29");
 
@@ -44199,7 +44200,7 @@ namespace OverflowHelper.core
 
             URL_Add("network", "https://en.wikipedia.org/wiki/Telecommunications_network");
 
-            URL_Add("PEP", "https://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development");
+            URL_Add("PEP", "https://en.wikipedia.org/wiki/Python_(programming_language)#Development"); // Old: https://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development
 
             URL_Add("AngularJS", "https://en.wikipedia.org/wiki/AngularJS"); // Angular 1/AngularJS
 
@@ -44577,7 +44578,7 @@ namespace OverflowHelper.core
 
             URL_Add("Android&nbsp;3 (Honeycomb)", "https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb"); // https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29
 
-            URL_Add("Salesforce", "https://en.wikipedia.org/wiki/Salesforce.com");
+            URL_Add("Salesforce", "https://en.wikipedia.org/wiki/Salesforce"); // Old: https://en.wikipedia.org/wiki/Salesforce.com
 
             URL_Add("Web API", "https://en.wikipedia.org/wiki/ASP.NET_MVC_Framework#Apache_License_2.0_release");
 
@@ -44995,7 +44996,7 @@ namespace OverflowHelper.core
 
             URL_Add("someone", "https://en.wiktionary.org/wiki/someone#Pronoun");
 
-            URL_Add("two-factor authentication", "https://en.wikipedia.org/wiki/Two-factor_authentication");
+            URL_Add("two-factor authentication", "https://en.wikipedia.org/wiki/Multi-factor_authentication"); // Old: https://en.wikipedia.org/wiki/Two-factor_authentication
 
             URL_Add("PLA", "https://en.wikipedia.org/wiki/Polylactic_acid");
 
@@ -53356,7 +53357,7 @@ namespace OverflowHelper.core
 
             URL_Add("households", "https://en.wiktionary.org/wiki/household#Noun");
 
-            URL_Add("hype cycle", "https://en.wikipedia.org/wiki/Hype_cycle#Five_phases");
+            URL_Add("hype cycle", "https://en.wikipedia.org/wiki/Gartner_hype_cycle#Five_phases"); // Old: https://en.wikipedia.org/wiki/Hype_cycle#Five_phases
 
             URL_Add("impeccable", "https://en.wiktionary.org/wiki/impeccable#Adjective");
 
@@ -57128,7 +57129,7 @@ namespace OverflowHelper.core
 
             URL_Add("JIT compiler", "https://en.wikipedia.org/wiki/Just-in-time_compilation");
 
-            URL_Add("Snap package", "https://en.wikipedia.org/wiki/Snap_(package_manager)");
+            URL_Add("Snap package", "https://en.wikipedia.org/wiki/Snap_(software)"); // Old: https://en.wikipedia.org/wiki/Snap_(package_manager)
 
             URL_Add("answers", "https://en.wiktionary.org/wiki/answer#Noun");
 
@@ -59408,7 +59409,7 @@ namespace OverflowHelper.core
 
             URL_Add("high-performance computing", "https://en.wikipedia.org/wiki/Supercomputer#High-performance_computing_clouds");
 
-            URL_Add("list comprehension", "https://en.wikipedia.org/wiki/List_comprehension");
+            URL_Add("list comprehension", "https://en.wikipedia.org/wiki/List_comprehension#Python"); // Old: https://en.wikipedia.org/wiki/List_comprehension
 
             URL_Add("orbital", "https://en.wiktionary.org/wiki/orbital#Adjective");
 
@@ -60236,7 +60237,7 @@ namespace OverflowHelper.core
 
             URL_Add("-Wunknown-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas");
 
-            URL_Add("-Wunused-variable", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas#index-Wunused-variable");
+            URL_Add("-Wunused-variable", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable");
 
             URL_Add("Android Studio 4.2", "https://en.wikipedia.org/wiki/Android_Studio#Version_history");
 
@@ -64860,7 +64861,7 @@ namespace OverflowHelper.core
 
             URL_Add("KGDB", "https://en.wikipedia.org/wiki/KGDB");
 
-            URL_Add("bcc", "https://linux.die.net/man/1/bcc");
+            URL_Add("BPF Compiler Collection", "https://github.com/iovisor/bcc"); // Old: https://linux.die.net/man/1/bcc
 
             URL_Add("bpftrace", "https://github.com/iovisor/bpftrace#tools");
 
