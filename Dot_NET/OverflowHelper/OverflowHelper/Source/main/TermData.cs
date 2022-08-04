@@ -14791,6 +14791,7 @@ namespace OverflowHelper.core
             correctionAdd("compliler", "compiler");
             correctionAdd("compilator", "compiler");
             correctionAdd("compoiler", "compiler");
+            correctionAdd("compilier", "compiler");
 
             correctionAdd("compter", "computer");
             correctionAdd("comp", "computer");
@@ -16448,6 +16449,7 @@ namespace OverflowHelper.core
             correctionAdd("daugther", "daughter");
 
             correctionAdd("essentialy", "essentially");
+            correctionAdd("esentially", "essentially");
 
             correctionAdd("formating", "formatting");
             correctionAdd("formmating", "formatting");
@@ -27689,6 +27691,7 @@ namespace OverflowHelper.core
             correctionAdd("constiutional", "constitutional");
 
             correctionAdd("eleminate", "eliminate");
+            correctionAdd("elimate", "eliminate");
 
             correctionAdd("LMS", "learning management system");
 
@@ -35659,6 +35662,12 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wempty-body", "-Wempty-body");
 
+            correctionAdd("--O3", "-O3");
+
+            correctionAdd("--Wmissing-field-initializers", "-Wmissing-field-initializers");
+
+            correctionAdd("--Wno-missing-field-initializers", "-Wno-missing-field-initializers");
+
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
             correctionAdd("Getx", "GetX");
@@ -41460,6 +41469,28 @@ namespace OverflowHelper.core
             correctionAdd("repeatetly", "repeatedly");
 
             correctionAdd("semi-oval", "semioval");
+
+            correctionAdd("Polakdot", "Polkadot");
+            correctionAdd("polkadot", "Polkadot");
+
+            correctionAdd("Polkadot-JS", "polkadot-js");
+            correctionAdd("Polakdot JS", "polkadot-js");
+            correctionAdd("Polkadot JS", "polkadot-js");
+            correctionAdd("polkadotjs", "polkadot-js");
+            correctionAdd("polkadot js", "polkadot-js");
+            correctionAdd("Polkadot js", "polkadot-js");
+            correctionAdd("polkadot.js", "polkadot-js");
+            correctionAdd("Polkadot.js", "polkadot-js");
+            correctionAdd("PolkadotJS", "polkadot-js");
+
+            correctionAdd("Polkadot{JS}", "polkadot{.js}");
+            correctionAdd("@polkadot{.js}", "polkadot{.js}");
+            correctionAdd("Polkadot{.js}", "polkadot{.js}");
+
+            correctionAdd("sum's", "sums");
+
+            correctionAdd("vanilla Javascript", "vanilla JavaScript");
+            correctionAdd("vanilla js", "vanilla JavaScript");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65222,6 +65253,22 @@ namespace OverflowHelper.core
             URL_Add("repeatedly", "https://en.wiktionary.org/wiki/repeatedly#Adverb");
 
             URL_Add("semioval", "https://www.merriam-webster.com/dictionary/semioval");
+
+            URL_Add("-O3", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O3");
+
+            URL_Add("Polkadot", "https://en.wikipedia.org/wiki/Polkadot_(cryptocurrency)");
+
+            URL_Add("polkadot-js", "https://polkadot.js.org/");
+
+            URL_Add("polkadot{.js}", "https://sourceforge.net/software/product/polkadot.js/");
+
+            URL_Add("sums", "https://en.wiktionary.org/wiki/sum#Noun");
+
+            URL_Add("vanilla JavaScript", "https://en.wikipedia.org/wiki/Vanilla_software");
+
+            URL_Add("-Wmissing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers");
+
+            URL_Add("-Wno-missing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
