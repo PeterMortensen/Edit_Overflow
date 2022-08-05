@@ -6454,6 +6454,7 @@ namespace OverflowHelper.core
             correctionAdd("node. js", "Node.js");
             correctionAdd("NODE.JS", "Node.js");
             correctionAdd("NODEJS", "Node.js");
+            correctionAdd("Nodes.js", "Node.js");
 
             correctionAdd("tho", "though");
             correctionAdd("thogh", "though");
@@ -7898,6 +7899,7 @@ namespace OverflowHelper.core
             correctionAdd("I.m", "I’m");
             correctionAdd("Im'", "I’m");
             correctionAdd("ima", "I’m");
+            correctionAdd("i´m", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -13214,6 +13216,7 @@ namespace OverflowHelper.core
             correctionAdd("russian", "Russian");
             correctionAdd("RUSZYN", "Russian");
             correctionAdd("ruszyn", "Russian");
+            correctionAdd("Ruzzian", "Russian");
 
             correctionAdd("recieving", "receiving");
             correctionAdd("recibing", "receiving");
@@ -13599,6 +13602,7 @@ namespace OverflowHelper.core
 
             correctionAdd("probablity", "probability");
             correctionAdd("propability", "probability");
+            correctionAdd("Probability", "probability");
 
             correctionAdd("invitability", "inevitability");
 
@@ -14987,6 +14991,7 @@ namespace OverflowHelper.core
             correctionAdd("rathee", "rather");
             correctionAdd("rater", "rather");
             correctionAdd("rathen", "rather");
+            correctionAdd("rahter", "rather");
 
             correctionAdd("2nd", "second");
             correctionAdd("Secound", "second");
@@ -15001,6 +15006,9 @@ namespace OverflowHelper.core
             correctionAdd("2th", "second");
             correctionAdd("²nd", "second");
             correctionAdd("2-nd", "second");
+            correctionAdd("Sedond", "second");
+            correctionAdd("sedond", "second");
+            correctionAdd("Second", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -15523,6 +15531,7 @@ namespace OverflowHelper.core
             correctionAdd("shift", "Shift");
             correctionAdd("Shft", "Shift");
             correctionAdd("shif", "Shift");
+            correctionAdd("SHITFT", "Shift");
 
             correctionAdd("x509", "X.509");
             correctionAdd("x.509", "X.509");
@@ -18610,6 +18619,7 @@ namespace OverflowHelper.core
             correctionAdd("Anthing", "anything");
             correctionAdd("anthing", "anything");
             correctionAdd("anythig", "anything");
+            correctionAdd("enything", "anything");
 
             correctionAdd("bleeding edge", "bleeding-edge");
 
@@ -19193,6 +19203,8 @@ namespace OverflowHelper.core
             correctionAdd("Currenly", "currently");
             correctionAdd("currenly", "currently");
             correctionAdd("currrently", "currently");
+            correctionAdd("Currenty", "currently");
+            correctionAdd("currenty", "currently");
 
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
@@ -20525,6 +20537,8 @@ namespace OverflowHelper.core
 
             correctionAdd("NPM", "npm");
             correctionAdd("Npm", "npm");
+            correctionAdd("Node package manager", "npm");
+            correctionAdd("Node Package Manager", "npm");
 
             correctionAdd("seperated", "separated");
             correctionAdd("separeted", "separated");
@@ -20564,6 +20578,7 @@ namespace OverflowHelper.core
             correctionAdd("Enviornment", "environment");
             correctionAdd("enviornment", "environment");
             correctionAdd("enivronment", "environment");
+            correctionAdd("envirorment", "environment");
 
             // Consider:
             //   weaher
@@ -26299,6 +26314,7 @@ namespace OverflowHelper.core
             correctionAdd("asign", "assign");
             correctionAdd("sssign", "assign");
             correctionAdd("assgin", "assign");
+            correctionAdd("assing", "assign");
 
             correctionAdd("definitve", "definitive");
             correctionAdd("definitiev", "definitive");
@@ -34168,6 +34184,7 @@ namespace OverflowHelper.core
             correctionAdd("sensor", "censor");
 
             correctionAdd("dowloading", "downloading");
+            correctionAdd("Downloading", "downloading");
 
             correctionAdd("econ", "economics");
 
@@ -36351,6 +36368,7 @@ namespace OverflowHelper.core
             correctionAdd("node_modules", "node_modules folder");
             correctionAdd("node_module", "node_modules folder");
             correctionAdd("node moduals", "node_modules folder");
+            correctionAdd("Node_modules", "node_modules folder");
 
             correctionAdd("propertional", "proportional");
 
@@ -41491,6 +41509,47 @@ namespace OverflowHelper.core
 
             correctionAdd("vanilla Javascript", "vanilla JavaScript");
             correctionAdd("vanilla js", "vanilla JavaScript");
+
+            correctionAdd("firebaseui", "FirebaseUI");
+
+            correctionAdd("Thunberg", "Greta Thunberg");
+
+            correctionAdd("Radon-Nikodym theorem", "Radon–Nikodym theorem");
+            correctionAdd("Radon-Nikodym Theorem", "Radon–Nikodym theorem");
+
+            correctionAdd("state of the union", "State of the Union Address");
+
+            correctionAdd("assinged", "assigned");
+
+            correctionAdd("falsi-ness", "falsiness");
+
+            correctionAdd("falsey", "falsy");
+            correctionAdd("falsi", "falsy");
+
+            correctionAdd("Knowledge Transfer", "knowledge transfer");
+
+            correctionAdd("but not least", "last but not least");
+            correctionAdd("last, but no least", "last but not least");
+            correctionAdd("last, but not least", "last but not least");
+            correctionAdd("last but no least", "last but not least");
+            correctionAdd("but no least", "last but not least");
+
+            correctionAdd("multi-national", "multinational");
+
+            correctionAdd("non inverted", "noninverted");
+
+            correctionAdd("Random Variable", "random variable");
+
+            correctionAdd("remane", "remain");
+
+            correctionAdd("truthi-ness", "truthiness");
+            correctionAdd("truthyness", "truthiness");
+
+            correctionAdd("truthi", "truthy");
+
+            correctionAdd("contextmenu", "context menu");
+
+            correctionAdd("doubt", "question (Indian English)");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65270,6 +65329,40 @@ namespace OverflowHelper.core
 
             URL_Add("-Wno-missing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers");
 
+            URL_Add("FirebaseUI", "https://github.com/firebase/FirebaseUI-Android");
+
+            URL_Add("Greta Thunberg", "https://en.wikipedia.org/wiki/Greta_Thunberg");
+
+            URL_Add("Radon–Nikodym theorem", "https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem");
+
+            URL_Add("State of the Union Address", "https://en.wikipedia.org/wiki/State_of_the_Union");
+
+            URL_Add("assigned", "https://en.wiktionary.org/wiki/assign#Verb");
+
+            URL_Add("falsiness", "https://en.wiktionary.org/wiki/falsiness#Noun");
+
+            URL_Add("falsy", "https://en.wiktionary.org/wiki/falsy#Adjective");
+
+            URL_Add("knowledge transfer", "https://en.wikipedia.org/wiki/Knowledge_transfer");
+
+            URL_Add("last but not least", "https://en.wiktionary.org/wiki/last_but_not_least#Adverb");
+
+            URL_Add("multinational", "https://en.wiktionary.org/wiki/multinational#Adjective");
+
+            URL_Add("noninverted", "https://en.wiktionary.org/wiki/noninverted#Adjective");
+
+            URL_Add("random variable", "https://en.wikipedia.org/wiki/Random_variable");
+
+            URL_Add("remain", "https://en.wiktionary.org/wiki/remain#Verb");
+
+            URL_Add("truthiness", "https://en.wiktionary.org/wiki/truthiness#Noun");
+
+            URL_Add("truthy", "https://en.wiktionary.org/wiki/truthy#Adjective");
+
+            URL_Add("context menu", "https://en.wiktionary.org/wiki/context_menu#Noun");
+
+            URL_Add("question (Indian English)", "https://english.stackexchange.com/questions/2429/can-doubt-sometimes-mean-question");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65699,6 +65792,7 @@ namespace OverflowHelper.core
             correctionAdd("coce_", "code_");
             correctionAdd("Coce_", "code_");
             correctionAdd("Code_", "code_");
+            correctionAdd("ccode_", "code_");
 
             correctionAdd("Nevermind_", "never mind_");
             correctionAdd("nevermind_", "never mind_");
