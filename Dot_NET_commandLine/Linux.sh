@@ -566,7 +566,7 @@ function startOfBuildStep()
 #
 #    $1   Build step number
 #
-#    $2   Result code (e.g. 0 for no error)
+#    $2   Result code (e.g., 0 for no error)
 #
 #    $3   String identifying the build step
 #
@@ -1835,6 +1835,10 @@ cp $SRCFOLDER_CORE/TermData.cs   "${SRCFOLDER_CORE}/../../../../../../TermData_$
 #
 startOfBuildStep "2" "Checking prerequisites"
 
+# Change the current folder so we don't risk writing
+# error log files to source folders...
+cd $WORKFOLDER
+
 #Delete at any time
 ##checkCommand "ls" 47
 ##checkCommand "ls -lsatr" 46
@@ -1970,7 +1974,8 @@ checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${pref
 #      "dotnet --version" (we need NuGet to install
 #      NUnit for unit testing), but it probably
 #      doesn't make a difference (NuGet is
-#      probably always available with .NET on Linux)
+#      probably always available with .NET
+#      on Linux)
 #
 #      After 2022-03-02 installation on Ubuntu 18.04:
 #
@@ -2016,23 +2021,66 @@ checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget -q 
 #    You can list the package references for your project using the dotnet list package command.
 
 
-# Nodes.js (for Jest)
+# Node.js (for Jest)
 #
 #   1. The executable 'npm' without parameters has
 #      a return code of 1 for empty input...
 #
 #   2. Version v8.10.0 on 2022-03-02 on Ubuntu 18.04.
+#      But this is too old to install Jest. 'nvm'
+#      can be used to install a newer version of
+#      Node.js. 2022 versions of Jest requires
+#      at least Node.js version 16.x...
 #
 checkCommand "nodejs --version" "${prefix1} Nodes.js ${prefix2}sudo apt update\nsudo apt install nodejs npm ${postfix1}"  2
 checkCommand "npm --version" "${prefix1} Nodes.js ${prefix2} sudo apt update\nsudo apt install nodejs npm ${postfix1}"  2
 
 
-# Disabled for now. Installation of Jest failed on 2022-03-03
-# on Ubuntu 18.04.
+# Indirect check of a sufficient high version
+# of Node.js for Jest to work: We assume if
+# nvm is installed, then version of v16.X is
+# also installed (even on Ubuntu 18.04 where
+# the package system one is v8.10.0) -
+# otherwise the next test, for Jest itself,
+# will fail.
+#
+# Extra for enabling Jest to run on older versions
+# of Ubuntu (e.g., 18.04). Not stricly necessary
+# for some later versions.
+#
+# nvm v0.35.3 with the method above.
+
+# As we don't presume to have 'nvm' in the path.
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!!!curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash\nexport NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] && \. \"$NVM_DIR/nvm.sh\"\nnvm install 12.22.12 ${postfix1}"  2
+
+# Installation of Jest failed on 2022-03-03
+# on Ubuntu 18.04, but it was possible to
+# use 'nvm' to overcome it.
+#
+# Installation of the prerequisite ***sufficient high*** version
+# of Node.js on Ubuntu 18.04 (using nvm):
+#
+#     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+#     export NVM_DIR="$HOME/.nvm"
+#     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#     nvm install 16.16.0
 #
 # Jest (JavaScript unit testing)
 #
-#checkCommand "jest" "${prefix1} Jest ${prefix2} npm install -g jest ${postfix1}"  2
+checkCommand "jest --version" "${prefix1} Jest ${prefix2}\n# Note: Without 'sudo'!!!\nnpm install -g jest ${postfix1}"  2
+
+# For Jest version 28 (release 2022-04-25) and our tests,
+# package "jest-environment-jsdom" must be installed.
+# Ref.: <https://jestjs.io/blog/2022/04/25/jest-28>
+#
+checkCommand "npm list -g jest-environment-jsdom" "${prefix1} Jest JSDOM module ${prefix2}\n# Note: Without 'sudo'!!!\nnpm install -g jest-environment-jsdom ${postfix1}"  2
+
+
+#exit
+
 
 # Selenium driver for Firefox
 #
@@ -2586,13 +2634,10 @@ startOfBuildStep "36" "Start running JavaScript unit tests"
 
 cd $WEBFOLDER
 
-# Disabled for now. Installation of Jest failed on 2022-03-03
-# on Ubuntu 18.04.
-#
 # That is using Jest under Node.js, with the test files
-# in sub folder "__tests__".
+# in sub folder "__tests__" (in folder "Web_Application").
 #
-#npm test  ; evaluateBuildResult 35 $? "JavaScript unit tests"
+npm test  ; evaluateBuildResult 35 $? "JavaScript unit tests"
 
 # Back to the previous folder (expected to be the work folder)
 #
