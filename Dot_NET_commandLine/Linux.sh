@@ -2070,7 +2070,7 @@ checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!
 #
 # Jest (JavaScript unit testing)
 #
-checkCommand "jest --version" "${prefix1} Jest ${prefix2}\n# Note: Without 'sudo'!!!\nnpm install -g jest ${postfix1}"  2
+checkCommand "jest --version" "${prefix1} Jest ${prefix2}\n# Note: Without 'sudo'!!!\nnvm install 16.16.0\nnpm install -g jest ${postfix1}"  2
 
 # For Jest version 28 (release 2022-04-25) and our tests,
 # package "jest-environment-jsdom" must be installed.
