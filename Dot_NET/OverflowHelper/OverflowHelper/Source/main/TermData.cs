@@ -17699,6 +17699,7 @@ namespace OverflowHelper.core
             correctionAdd("simpal", "simple");
             correctionAdd("Simeple", "simple");
             correctionAdd("simeple", "simple");
+            correctionAdd("simle", "simple");
 
             correctionAdd("soundcard", "sound card");
 
@@ -33571,6 +33572,7 @@ namespace OverflowHelper.core
             correctionAdd("Right click", "right-click");
             correctionAdd("rt-click", "right-click");
             correctionAdd("Rightclick", "right-click");
+            correctionAdd("right Click", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -34501,6 +34503,8 @@ namespace OverflowHelper.core
             correctionAdd("CommandLine", "command line");
             correctionAdd("Command Line", "command line");
             correctionAdd("Command-Line", "command line");
+            correctionAdd("commandLine", "command line");
+            correctionAdd("command Line", "command line");
 
             correctionAdd("time line", "timeline");
 
@@ -41550,6 +41554,15 @@ namespace OverflowHelper.core
             correctionAdd("contextmenu", "context menu");
 
             correctionAdd("doubt", "question (Indian English)");
+
+            correctionAdd("NGRAM", "n-gram");
+            correctionAdd("nGRAM", "n-gram");
+
+            correctionAdd("non linearity", "nonlinearity");
+
+            correctionAdd("boat programming", "the boat programming question");
+
+            correctionAdd("vectorialy", "vectorially");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65363,6 +65376,14 @@ namespace OverflowHelper.core
 
             URL_Add("question (Indian English)", "https://english.stackexchange.com/questions/2429/can-doubt-sometimes-mean-question");
 
+            URL_Add("n-gram", "https://en.wikipedia.org/wiki/N-gram");
+
+            URL_Add("nonlinearity", "https://en.wiktionary.org/wiki/nonlinearity#Noun");
+
+            URL_Add("the boat programming question", "https://web.archive.org/web/20100426125115/http://www.mattmcdole.com/boat/");
+
+            URL_Add("vectorially", "https://en.wiktionary.org/wiki/vectorially#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65874,6 +65895,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
+            correctionAdd("Academia.SE_", "Academia (Stack Exchange site)_");
 
             correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
             correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
