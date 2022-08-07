@@ -11513,6 +11513,7 @@ namespace OverflowHelper.core
             correctionAdd("osciloscope", "oscilloscope");
             correctionAdd("oscilliscope", "oscilloscope");
             correctionAdd("oscillosope", "oscilloscope");
+            correctionAdd("Osc", "oscilloscope");
 
             correctionAdd("Cat 5", "Cat&nbsp;5"); // Sort of identity mapping
             correctionAdd("Cat5", "Cat&nbsp;5");
@@ -12623,6 +12624,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
+            correctionAdd("foxPro", "FoxPro");
+            correctionAdd("fox pro", "FoxPro");
 
             correctionAdd("opencart", "OpenCart");
             correctionAdd("Opencart", "OpenCart");
@@ -14275,6 +14278,7 @@ namespace OverflowHelper.core
             correctionAdd("AU", "Ask&nbsp;Ubuntu (Stack Exchange site)");
             correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
             correctionAdd("AskUbuntuSE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AU.SE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -15009,6 +15013,7 @@ namespace OverflowHelper.core
             correctionAdd("Sedond", "second");
             correctionAdd("sedond", "second");
             correctionAdd("Second", "second");
+            correctionAdd("scond", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -18030,6 +18035,8 @@ namespace OverflowHelper.core
             correctionAdd("annecdote", "anecdote");
 
             correctionAdd("formated", "formatted");
+            correctionAdd("Formated", "formatted");
+            correctionAdd("Formatted", "formatted");
 
             correctionAdd("Mediaeval", "mediaeval");
 
@@ -28355,6 +28362,7 @@ namespace OverflowHelper.core
             correctionAdd("threr", "there");
             correctionAdd("therr", "there");
             correctionAdd("Ther", "there");
+            correctionAdd("There", "there");
 
             correctionAdd("Python Anywhere", "PythonAnywhere");
 
@@ -37649,6 +37657,7 @@ namespace OverflowHelper.core
             correctionAdd("dbase2", "dBase II");
             correctionAdd("dbase 2", "dBase II");
             correctionAdd("dbase II", "dBase II");
+            correctionAdd("dBase", "dBase II");
 
             correctionAdd("FL", "flight level");
 
@@ -38589,6 +38598,8 @@ namespace OverflowHelper.core
 
             correctionAdd("VFP", "Visual FoxPro");
             correctionAdd("vfp", "Visual FoxPro");
+            correctionAdd("visual-foxpro", "Visual FoxPro");
+            correctionAdd("Visual Foxpro", "Visual FoxPro");
 
             correctionAdd("Equity", "equity");
 
@@ -39730,6 +39741,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow на русском", "Stack Overflow на русском (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("ru.SO", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("SO.rus", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("SO.RU", "Stack Overflow на русском (Stack Exchange site)");
 
             correctionAdd("alamred", "alarmed");
 
@@ -41563,6 +41575,38 @@ namespace OverflowHelper.core
             correctionAdd("boat programming", "the boat programming question");
 
             correctionAdd("vectorialy", "vectorially");
+
+            correctionAdd("dbf", "DBF");
+
+            correctionAdd("Earth Science", "Earth Science (Stack Exchange site)");
+            correctionAdd("EarthScience", "Earth Science (Stack Exchange site)");
+
+            correctionAdd("FoxBase", "FoxBASE");
+
+            correctionAdd("SCO Unix", "SCO UNIX");
+
+            correctionAdd("structure and interpretation of computer programs", "Structure and Interpretation of Computer Programs");
+            correctionAdd("SICP", "Structure and Interpretation of Computer Programs");
+            correctionAdd("sicp", "Structure and Interpretation of Computer Programs");
+
+            correctionAdd("baby-sitter", "babysitter");
+
+            correctionAdd("imaginging", "imagining");
+
+            correctionAdd("net/http", "net/http package");
+
+            correctionAdd("resetable", "resettable");
+            correctionAdd("Resetable", "resettable");
+
+            correctionAdd("SIA", "self-invented acronym");
+
+            correctionAdd("strtotime()", "strtotime");
+
+            correctionAdd("sub class", "subclass");
+
+            correctionAdd("system wide", "system-wide");
+
+            correctionAdd("xbase", "xBase");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65384,6 +65428,34 @@ namespace OverflowHelper.core
 
             URL_Add("vectorially", "https://en.wiktionary.org/wiki/vectorially#Adverb");
 
+            URL_Add("DBF", "https://en.wikipedia.org/wiki/.dbf");
+
+            URL_Add("Earth Science (Stack Exchange site)", "https://earthscience.stackexchange.com/tour");
+
+            URL_Add("FoxBASE", "https://en.wikipedia.org/wiki/Visual_FoxPro");
+
+            URL_Add("SCO UNIX", "https://en.wikipedia.org/wiki/OpenServer");
+
+            URL_Add("Structure and Interpretation of Computer Programs", "https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs");
+
+            URL_Add("babysitter", "https://en.wiktionary.org/wiki/babysitter#Noun");
+
+            URL_Add("imagining", "https://en.wiktionary.org/wiki/imagine#Verb");
+
+            URL_Add("net/http package", "https://pkg.go.dev/net/http");
+
+            URL_Add("resettable", "https://en.wiktionary.org/wiki/resettable#Adjective");
+
+            URL_Add("self-invented acronym", "https://html.duckduckgo.com/html/?q=self%20invented%20acronym");
+
+            URL_Add("strtotime", "https://www.php.net/manual/en/function.strtotime.php");
+
+            URL_Add("subclass", "https://en.wiktionary.org/wiki/subclass#Verb");
+
+            URL_Add("system-wide", "https://en.wiktionary.org/wiki/system-wide#Adjective");
+
+            URL_Add("xBase", "https://en.wikipedia.org/wiki/XBase");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66170,6 +66242,19 @@ namespace OverflowHelper.core
 
             correctionAdd("sas_", "SAS_");
 
+            correctionAdd("ami_", "Amazon Machine Image_");
+            correctionAdd("AMI_", "Amazon Machine Image_");
+
+            correctionAdd("[tag:codeplex]_", "CodePlex_");
+
+            correctionAdd("[tag:dbf]_", "DBF_");
+
+            correctionAdd("[tag:foxpro]_", "FoxPro_");
+
+            correctionAdd("[tag:dbase]_", "dBase_");
+
+            correctionAdd("[tag:xbase]_", "xBase_");
+
             // URL mappings
             //
             //
@@ -66255,7 +66340,7 @@ namespace OverflowHelper.core
 
             URL_Add("HTML5_", "https://stackoverflow.com/questions/tagged/html5");
 
-            URL_Add("LoopBack_", "https://stackoverflow.com/tags/loopbackjs/info");
+            URL_Add("LoopBack_", "https://stackoverflow.com/questions/tagged/loopbackjs"); // Old: https://stackoverflow.com/tags/loopbackjs/info
 
             URL_Add("setup_", "https://en.wiktionary.org/wiki/setup#Noun");
 
@@ -66662,6 +66747,18 @@ namespace OverflowHelper.core
             URL_Add("POST_", "https://en.wikipedia.org/wiki/Power-on_self-test");
 
             URL_Add("SAS_", "https://en.wikipedia.org/wiki/Serial_Attached_SCSI");
+
+            URL_Add("Amazon Machine Image_", "https://en.wikipedia.org/wiki/Amazon_Machine_Image");
+
+            URL_Add("CodePlex_", "https://stackoverflow.com/questions/tagged/codeplex");
+
+            URL_Add("DBF_", "https://stackoverflow.com/questions/tagged/dbf");
+
+            URL_Add("FoxPro_", "https://stackoverflow.com/questions/tagged/foxpro");
+
+            URL_Add("dBase_", "https://stackoverflow.com/questions/tagged/dbase");
+
+            URL_Add("xBase_", "https://stackoverflow.com/questions/tagged/xbase");
 
         } //addLookupData_alternativeWordSet()
 

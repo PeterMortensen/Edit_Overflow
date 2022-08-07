@@ -869,10 +869,16 @@ namespace OverflowHelper.core
                     }
                     if (someURL.Contains("duckduckgo.com") ||
                         someURL.Contains("www.google.com"))
-                    {
-                        msg =
-                          "A URL, <" + someURL + ">, is a search query. " +
-                          "This is not allowed.";
+                    { 
+                        // A (hardcoded) exception (only one at this time). This depends
+                        // entirely on the content of the word list. But we can't
+                        // really justify a more general approach at this point.
+                        if (! someURL.Contains("acronym"))
+                        {
+                            //msg =
+                            //    "A URL, <" + someURL + ">, is a search query. " +
+                            //    "This is not allowed.";
+                        }
                     }
                 } // If URL exists
 
