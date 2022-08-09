@@ -1247,6 +1247,76 @@ namespace OverflowHelper.core
             correctionAdd("Apace", "Apache HTTP Server");
             correctionAdd("Apche", "Apache HTTP Server");
 
+            correctionAdd("Apache 2", "Apache&nbsp;2");
+            correctionAdd("apache2", "Apache&nbsp;2");
+            correctionAdd("Apache2", "Apache&nbsp;2");
+
+            correctionAdd("ANT", "Ant");
+            correctionAdd("ant", "Ant");
+            correctionAdd("Apache Ant", "Ant");
+
+            correctionAdd("maven", "Maven");
+            correctionAdd("MAVEN", "Maven");
+            correctionAdd("mave", "Maven");
+            correctionAdd("Apache Maven", "Maven");
+            correctionAdd("maeven", "Maven");
+
+            correctionAdd("shiro", "Apache Shiro");
+
+            correctionAdd("APACHE POI", "Apache POI");
+            correctionAdd("apache poi", "Apache POI");
+            correctionAdd("Apache poi", "Apache POI");
+            correctionAdd("poi", "Apache POI");
+            correctionAdd("apache POI", "Apache POI");
+
+            correctionAdd("cordova", "Cordova");
+            correctionAdd("apache cordova", "Cordova");
+
+            correctionAdd("Apache spark", "Apache Spark");
+            correctionAdd("spark", "Apache Spark");
+            correctionAdd("Spark", "Apache Spark");
+            correctionAdd("sPARK", "Apache Spark");
+            correctionAdd("SPARK", "Apache Spark");
+
+            correctionAdd("hive", "Apache Hive");
+            correctionAdd("Hive", "Apache Hive");
+
+            correctionAdd("Apache commons", "Apache Commons");
+            correctionAdd("apache commons", "Apache Commons");
+            correctionAdd("Appache-Common", "Apache Commons");
+            correctionAdd("Apache-Common", "Apache Commons");
+            correctionAdd("Apache-Commons", "Apache Commons");
+            correctionAdd("Apache Common", "Apache Commons");
+
+            correctionAdd("Airflow", "Apache Airflow");
+            correctionAdd("apache-airflow", "Apache Airflow");
+            correctionAdd("airflow", "Apache Airflow");
+            correctionAdd("AIRFLOW", "Apache Airflow");
+            correctionAdd("Apache airflow", "Apache Airflow");
+
+            correctionAdd("axis", "Axis"); // That is, Apache Axis
+
+            correctionAdd("camel", "Apache Camel");
+            correctionAdd("Camel", "Apache Camel");
+            correctionAdd("apache camel", "Apache Camel");
+            correctionAdd("Apache camel", "Apache Camel");
+
+            correctionAdd("thrift", "Thrift");
+            correctionAdd("Apache Thrift", "Thrift");
+
+            correctionAdd("Apache batik", "Apache Batik");
+            correctionAdd("batik", "Apache Batik");
+
+            correctionAdd("avro", "Apache Avro");
+            correctionAdd("Avro", "Apache Avro");
+
+            correctionAdd("Ivy", "Apache Ivy");
+
+            correctionAdd("ASF", "Apache Software Foundation");
+            correctionAdd("Apache SF", "Apache Software Foundation");
+
+            correctionAdd("Commons Lang", "Apache Commons Lang");
+
             correctionAdd("exchange", "Microsoft Exchange Server");
             correctionAdd("Exchange", "Microsoft Exchange Server");
             correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
@@ -2699,6 +2769,7 @@ namespace OverflowHelper.core
             correctionAdd("CRSE", "Code Review (Stack Exchange site)");
             correctionAdd("cr.SE", "Code Review (Stack Exchange site)");
             correctionAdd("CR.SE", "Code Review (Stack Exchange site)");
+            correctionAdd("Code R3view", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
             correctionAdd("Database Administrators", "Database Administrators (Stack Exchange site)"); // Sort of identity mapping
@@ -2796,6 +2867,7 @@ namespace OverflowHelper.core
             correctionAdd("Web Apps", "Web Applications (Stack Exchange site)");
             correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
             correctionAdd("web applications", "Web Applications (Stack Exchange site)");
+            correctionAdd("WebApps.SE", "Web Applications (Stack Exchange site)");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
@@ -3960,10 +4032,6 @@ namespace OverflowHelper.core
             correctionAdd("lua", "Lua");
             correctionAdd("LUA", "Lua");
 
-            correctionAdd("ANT", "Ant");
-            correctionAdd("ant", "Ant");
-            correctionAdd("Apache Ant", "Ant");
-
             correctionAdd("WIFI", "Wi-Fi");
             correctionAdd("Wifi", "Wi-Fi");
             correctionAdd("WiFi", "Wi-Fi");
@@ -4034,12 +4102,6 @@ namespace OverflowHelper.core
             correctionAdd("jup.notebook", "Jupyter Notebook");
             correctionAdd("Jupyter notebooks", "Jupyter Notebook");
             correctionAdd("jupyer notebook", "Jupyter Notebook");
-
-            correctionAdd("maven", "Maven");
-            correctionAdd("MAVEN", "Maven");
-            correctionAdd("mave", "Maven");
-            correctionAdd("Apache Maven", "Maven");
-            correctionAdd("maeven", "Maven");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -7245,6 +7307,7 @@ namespace OverflowHelper.core
             correctionAdd("donn't", "don’t");
             correctionAdd("don;t", "don’t");
             correctionAdd("don’y", "don’t");
+            correctionAdd("don,t", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -8093,8 +8156,6 @@ namespace OverflowHelper.core
             correctionAdd("fc", "Fedora Core"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
 
             correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
-
-            correctionAdd("shiro", "Apache Shiro");
 
             correctionAdd("crypto", "cryptography");
             correctionAdd("crypt", "cryptography");
@@ -14581,12 +14642,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ansible", "Ansible");
 
-            correctionAdd("APACHE POI", "Apache POI");
-            correctionAdd("apache poi", "Apache POI");
-            correctionAdd("Apache poi", "Apache POI");
-            correctionAdd("poi", "Apache POI");
-            correctionAdd("apache POI", "Apache POI");
-
             correctionAdd("artifactory", "Artifactory");
 
             correctionAdd("crm", "CRM");
@@ -15159,9 +15214,6 @@ namespace OverflowHelper.core
             correctionAdd("API 28", "Android 9.0 (Pie)");
             correctionAdd("Pie", "Android 9.0 (Pie)");
             correctionAdd("Android Pie", "Android 9.0 (Pie)");
-
-            correctionAdd("cordova", "Cordova");
-            correctionAdd("apache cordova", "Cordova");
 
             correctionAdd("attenttion", "attention");
             correctionAdd("atenttion", "attention");
@@ -15861,6 +15913,7 @@ namespace OverflowHelper.core
             correctionAdd("Springboot", "Spring Boot");
             correctionAdd("spring-boot", "Spring Boot");
             correctionAdd("SpringBoot", "Spring Boot");
+            correctionAdd("sprinboot", "Spring Boot");
 
             correctionAdd("accesible", "accessible");
             correctionAdd("accessable", "accessible");
@@ -17130,12 +17183,6 @@ namespace OverflowHelper.core
 
             correctionAdd("useage", "usage");
 
-            correctionAdd("Apache spark", "Apache Spark");
-            correctionAdd("spark", "Apache Spark");
-            correctionAdd("Spark", "Apache Spark");
-            correctionAdd("sPARK", "Apache Spark");
-            correctionAdd("SPARK", "Apache Spark");
-
             correctionAdd("Isreal", "Israel");
             correctionAdd("Israle", "Israel");
 
@@ -17529,9 +17576,6 @@ namespace OverflowHelper.core
             correctionAdd("Domain-Driven Design", "domain-driven design");
             correctionAdd("ddd", "domain-driven design");
             correctionAdd("domain driven development", "domain-driven design");
-
-            correctionAdd("hive", "Apache Hive");
-            correctionAdd("Hive", "Apache Hive");
 
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
@@ -18918,6 +18962,7 @@ namespace OverflowHelper.core
             correctionAdd("pov", "point of view");
 
             correctionAdd("sensative", "sensitive");
+            correctionAdd("sensitve", "sensitive");
 
             correctionAdd("tounge", "tongue");
 
@@ -20810,7 +20855,8 @@ namespace OverflowHelper.core
             correctionAdd("It's", "it’s");
             correctionAdd("it s", "it’s");
             correctionAdd("its'", "it’s");
-            correctionAdd("ita", "it’s");
+            correctionAdd("ita", "it’s"); // True typo
+            correctionAdd("it,s", "it’s");
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -21776,6 +21822,7 @@ namespace OverflowHelper.core
             correctionAdd("Orignal", "original");
             correctionAdd("origianl", "original");
             correctionAdd("origanal", "original");
+            correctionAdd("oryginal", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -22012,6 +22059,8 @@ namespace OverflowHelper.core
 
             correctionAdd("unmaintaned", "unmaintained");
 
+            correctionAdd("unmatainable", "unmaintainable");
+
             correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
 
             correctionAdd("AUR", "Arch User Repository");
@@ -22240,13 +22289,6 @@ namespace OverflowHelper.core
             correctionAdd("hard-coded", "hard coded");
             correctionAdd("hardcoded", "hard coded");
             correctionAdd("hardcore", "hard coded");
-
-            correctionAdd("Apache commons", "Apache Commons");
-            correctionAdd("apache commons", "Apache Commons");
-            correctionAdd("Appache-Common", "Apache Commons");
-            correctionAdd("Apache-Common", "Apache Commons");
-            correctionAdd("Apache-Commons", "Apache Commons");
-            correctionAdd("Apache Common", "Apache Commons");
 
             correctionAdd("creative commons", "Creative Commons licence");
             correctionAdd("Creative Common", "Creative Commons licence");
@@ -23424,6 +23466,8 @@ namespace OverflowHelper.core
             correctionAdd("ugrade", "upgrade");
             correctionAdd("upgade", "upgrade");
             correctionAdd("upgrage", "upgrade");
+
+            correctionAdd("upgaded", "upgraded");
 
             correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
             correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
@@ -24677,12 +24721,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unemployement", "unemployment");
 
-            correctionAdd("Airflow", "Apache Airflow");
-            correctionAdd("apache-airflow", "Apache Airflow");
-            correctionAdd("airflow", "Apache Airflow");
-            correctionAdd("AIRFLOW", "Apache Airflow");
-            correctionAdd("Apache airflow", "Apache Airflow");
-
             correctionAdd("appened", "appended");
 
             correctionAdd("common-sense", "common sense");
@@ -24847,8 +24885,6 @@ namespace OverflowHelper.core
             correctionAdd("iis", "IIS");
             correctionAdd("Internet Information Services", "IIS");
             correctionAdd("internet information services", "IIS");
-
-            correctionAdd("axis", "Axis"); // That is, Apache Axis
 
             correctionAdd("siss", "SSIS"); // Misspelling.
             correctionAdd("ssis", "SSIS");
@@ -25231,6 +25267,8 @@ namespace OverflowHelper.core
             correctionAdd("in the other side", "on the other hand");
             correctionAdd("In other hand", "on the other hand");
             correctionAdd("in other hand", "on the other hand");
+            correctionAdd("On the other, hand", "on the other hand");
+            correctionAdd("on the other, hand", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -27450,8 +27488,6 @@ namespace OverflowHelper.core
             correctionAdd("Null coalescing operator", "null coalescing operator");
             correctionAdd("Null Coalescing Operator", "null coalescing operator");
 
-            correctionAdd("upgaded", "upgraded");
-
             correctionAdd("van't Hoff's", "van 't Hoff");
 
             correctionAdd("writeup", "write-up");
@@ -27911,6 +27947,7 @@ namespace OverflowHelper.core
             correctionAdd("show time", "showtime");
 
             correctionAdd("Yak shaving", "yak shaving");
+            correctionAdd("yakk shaving", "yak shaving");
 
             correctionAdd("havig", "having");
             correctionAdd("havin", "having");
@@ -28880,6 +28917,7 @@ namespace OverflowHelper.core
             correctionAdd("pursache", "purchase");
             correctionAdd("purscahe", "purchase");
             correctionAdd("purscase", "purchase");
+            correctionAdd("purchace", "purchase");
 
             correctionAdd("re-establish", "reestablish");
 
@@ -30911,6 +30949,9 @@ namespace OverflowHelper.core
 
             correctionAdd("re-creating", "recreating");
 
+            correctionAdd("creatign", "creating");
+            correctionAdd("creatimg", "creating");
+
             correctionAdd("re-insert", "reinsert");
 
             correctionAdd("instert", "insert");
@@ -32387,11 +32428,6 @@ namespace OverflowHelper.core
             correctionAdd("ngif", "*ngIf");
             correctionAdd("ngIf", "*ngIf");
 
-            correctionAdd("camel", "Apache Camel");
-            correctionAdd("Camel", "Apache Camel");
-            correctionAdd("apache camel", "Apache Camel");
-            correctionAdd("Apache camel", "Apache Camel");
-
             correctionAdd("John Skeet", "Jon Skeet");
 
             correctionAdd("pbuh", "PBUH");
@@ -33488,9 +33524,6 @@ namespace OverflowHelper.core
             correctionAdd("Passport", "Passport.js");
             correctionAdd("passport", "Passport.js");
 
-            correctionAdd("thrift", "Thrift");
-            correctionAdd("Apache Thrift", "Thrift");
-
             correctionAdd("chatises", "chastises");
 
             correctionAdd("dead reconing", "dead reckoning");
@@ -33644,6 +33677,7 @@ namespace OverflowHelper.core
             correctionAdd("turkmenistan", "Turkmenistan");
 
             correctionAdd("uzbekistan", "Uzbekistan");
+            correctionAdd("Uzbetistan", "Uzbekistan");
 
             correctionAdd("as follow", "as follows");
             correctionAdd("as followed", "as follows");
@@ -34692,9 +34726,6 @@ namespace OverflowHelper.core
             correctionAdd("time comlexity", "time complexity");
 
             correctionAdd("Dialog box", "dialog box");
-
-            correctionAdd("Apache batik", "Apache Batik");
-            correctionAdd("batik", "Apache Batik");
 
             correctionAdd("desmos", "Desmos");
 
@@ -35844,9 +35875,6 @@ namespace OverflowHelper.core
             correctionAdd("Arctic fox", "Android Studio 4.2");
             correctionAdd("Arctic Fox", "Android Studio 4.2");
 
-            correctionAdd("avro", "Apache Avro");
-            correctionAdd("Avro", "Apache Avro");
-
             correctionAdd("azul", "Azul");
 
             correctionAdd("Stroustrup", "Bjarne Stroustrup");
@@ -36811,8 +36839,6 @@ namespace OverflowHelper.core
             correctionAdd("AVG", "AVG AntiVirus");
             correctionAdd("AVG antivirus", "AVG AntiVirus");
 
-            correctionAdd("Ivy", "Apache Ivy");
-
             correctionAdd("App Image", "AppImage");
             correctionAdd("app image", "AppImage");
             correctionAdd("appimage", "AppImage");
@@ -36851,9 +36877,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aab", "AAB");
             correctionAdd("Android App Bundle", "AAB");
-
-            correctionAdd("ASF", "Apache Software Foundation");
-            correctionAdd("Apache SF", "Apache Software Foundation");
 
             correctionAdd("cbc", "CBC");
 
@@ -36948,6 +36971,7 @@ namespace OverflowHelper.core
             correctionAdd("regretable", "regrettable");
 
             correctionAdd("Search Engine", "search engine");
+            correctionAdd("serch engine", "search engine");
 
             correctionAdd("South", "south");
 
@@ -36989,8 +37013,6 @@ namespace OverflowHelper.core
 
             correctionAdd("contein", "contain");
             correctionAdd("constain", "contain");
-
-            correctionAdd("creatign", "creating");
 
             correctionAdd("depricated", "deprecated");
 
@@ -38141,8 +38163,6 @@ namespace OverflowHelper.core
             correctionAdd("UA 741", "μA741");
             correctionAdd("LM741", "μA741");
             correctionAdd("lm741", "μA741");
-
-            correctionAdd("Commons Lang", "Apache Commons Lang");
 
             correctionAdd("Apple M1 max", "Apple M1 Max");
 
@@ -41666,6 +41686,16 @@ namespace OverflowHelper.core
             correctionAdd("formatted text", "rich text");
 
             correctionAdd("togling", "toggling");
+
+            correctionAdd("mixed upp", "mixed up");
+
+            correctionAdd("pivot-table", "pivot table");
+
+            correctionAdd("pops-up", "pops up");
+
+            correctionAdd("publishment", "publication");
+
+            correctionAdd("wel", "well");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65551,6 +65581,20 @@ namespace OverflowHelper.core
 
             URL_Add("toggling", "https://en.wiktionary.org/wiki/toggle#Verb");
 
+            URL_Add("Apache&nbsp;2", "https://en.wikipedia.org/wiki/Apache_HTTP_Server#Versions");
+
+            URL_Add("unmaintainable", "https://en.wiktionary.org/wiki/unmaintainable#Adjective");
+
+            URL_Add("mixed up", "https://en.wiktionary.org/wiki/mix_up#Verb");
+
+            URL_Add("pivot table", "https://en.wikipedia.org/wiki/Pivot_table");
+
+            URL_Add("pops up", "https://en.wiktionary.org/wiki/pop_up#Verb");
+
+            URL_Add("publication", "https://en.wiktionary.org/wiki/publication#Noun");
+
+            URL_Add("well", "https://en.wiktionary.org/wiki/well#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66350,6 +66394,8 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:xbase]_", "xBase_");
 
+            correctionAdd("upgradation_", "upgrade_");
+
             // URL mappings
             //
             //
@@ -66854,6 +66900,8 @@ namespace OverflowHelper.core
             URL_Add("dBase_", "https://stackoverflow.com/questions/tagged/dbase");
 
             URL_Add("xBase_", "https://stackoverflow.com/questions/tagged/xbase");
+
+            URL_Add("upgrade_", "https://en.wiktionary.org/wiki/upgrade#Noun");
 
         } //addLookupData_alternativeWordSet()
 
