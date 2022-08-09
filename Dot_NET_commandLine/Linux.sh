@@ -2568,7 +2568,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   3590000 3950000
+wordListExport 33 "HTML"  $HTML_FILE   3660000 4030000
 
 #exit
 
@@ -2626,6 +2626,11 @@ cp  $JAVASCRIPT_FILE_GENERIC  $WEBFOLDER
 
 
 # ###########################################################################
+#
+# Note: There is a huge overhead, especially cold (running the first
+#       time after a computer restart). It takes 16 seconds total,
+#       even on a newer computer (based on AMD Zen 2), 11 seconds,
+#       reported, and 3 ms reported for the actual test...
 #
 startOfBuildStep "36" "Start running JavaScript unit tests"
 
