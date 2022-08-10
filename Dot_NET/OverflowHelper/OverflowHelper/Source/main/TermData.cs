@@ -867,6 +867,8 @@ namespace OverflowHelper.core
             correctionAdd("lang-vb", "```lang-vbnet");
             correctionAdd("lang-vbnet", "```lang-vbnet");
 
+            correctionAdd("lang-dart", "```lang-dart");
+
             correctionAdd("Nativescript", "NativeScript");
 
             correctionAdd("py script", "PyScript");
@@ -2142,7 +2144,9 @@ namespace OverflowHelper.core
             correctionAdd("MAC sierra", "macOS v10.12 (Sierra)");
             correctionAdd("mac sierra", "macOS v10.12 (Sierra)");
             correctionAdd("Mac sierra", "macOS v10.12 (Sierra)");
-            //correctionAdd("mac OS 12", "macOS v10.12 (Sierra)");
+            correctionAdd("MacOS Sierra 10.12", "macOS v10.12 (Sierra)");
+            correctionAdd("MacOS 10.12", "macOS v10.12 (Sierra)");
+            //correctionAdd("mac OS 12", "macOS v10.12 (Sierra)"); //Why are these outcommented???
             //correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
             //correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
 
@@ -3270,6 +3274,7 @@ namespace OverflowHelper.core
             correctionAdd(".bashrc", ".bashrc file");
             correctionAdd("bash_rc", ".bashrc file");
             correctionAdd(".bash_rc", ".bashrc file");
+            correctionAdd(".bachrc", ".bashrc file");
 
             correctionAdd(".profile", ".profile file");
 
@@ -4218,6 +4223,7 @@ namespace OverflowHelper.core
 
             correctionAdd("solr", "Solr");
             correctionAdd("SolR", "Solr");
+            correctionAdd("SOLR", "Solr");
 
             correctionAdd("matplotlib", "Matplotlib");
             correctionAdd("MatPlotLib", "Matplotlib");
@@ -5499,6 +5505,7 @@ namespace OverflowHelper.core
             correctionAdd("superUser", "Super&nbsp;User");
             correctionAdd("SuperUsers", "Super&nbsp;User");
             correctionAdd("superuser.com", "Super&nbsp;User");
+            correctionAdd("SuperUser.SE", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -6903,6 +6910,7 @@ namespace OverflowHelper.core
             correctionAdd("Enviornment variable", "environment variable");
             correctionAdd("enviornment variable", "environment variable");
             correctionAdd("enviroment variable", "environment variable");
+            correctionAdd("environment-variable", "environment variable");
 
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
@@ -7436,6 +7444,7 @@ namespace OverflowHelper.core
             correctionAdd("Spectrophotometry", "spectrophotometry");
 
             correctionAdd("Industry", "industry");
+            correctionAdd("industrie", "industry");
 
             correctionAdd("rudimentry", "rudimentary");
 
@@ -10168,6 +10177,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows ten", "Windows&nbsp;10");
             correctionAdd("Microsoft 10", "Windows&nbsp;10");
             correctionAdd("WIN10", "Windows&nbsp;10");
+            correctionAdd("window 10", "Windows&nbsp;10");
 
             correctionAdd("UAC", "User Account Control");
             correctionAdd("uac", "User Account Control");
@@ -19720,6 +19730,8 @@ namespace OverflowHelper.core
 
             correctionAdd("zookeeper", "ZooKeeper");
             correctionAdd("Zookeeper", "ZooKeeper");
+            correctionAdd("zk", "ZooKeeper");
+            correctionAdd("ZK", "ZooKeeper");
 
             correctionAdd("appologize", "apologise");
             correctionAdd("apologize", "apologise");
@@ -35741,6 +35753,12 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wno-missing-field-initializers", "-Wno-missing-field-initializers");
 
+            correctionAdd("--Wno-error", "-Wno-error");
+
+            correctionAdd("--Wpedantic", "-Wpedantic");
+
+            correctionAdd("--fno-strict-overflow", "-fno-strict-overflow");
+
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
             correctionAdd("Getx", "GetX");
@@ -41644,12 +41662,6 @@ namespace OverflowHelper.core
 
             correctionAdd("xbase", "xBase");
 
-            correctionAdd("--Wno-error", "-Wno-error");
-
-            correctionAdd("--Wpedantic", "-Wpedantic");
-
-            correctionAdd("--fno-strict-overflow", "-fno-strict-overflow");
-
             correctionAdd("dilbert", "Dilbert");
 
             correctionAdd("Dungeons and Dragons die", "Dungeons & Dragons die");
@@ -41696,6 +41708,12 @@ namespace OverflowHelper.core
             correctionAdd("publishment", "publication");
 
             correctionAdd("wel", "well");
+
+            correctionAdd("Openvpn-ALS", "OpenVPN ALS");
+
+            correctionAdd("rbenv", "RBEnv");
+
+            correctionAdd("Solr Cloud", "SolrCloud");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65595,6 +65613,14 @@ namespace OverflowHelper.core
 
             URL_Add("well", "https://en.wiktionary.org/wiki/well#Adjective");
 
+            URL_Add("OpenVPN ALS", "https://sourceforge.net/projects/openvpn-als/");
+
+            URL_Add("RBEnv", "https://wiki.archlinux.org/title/Rbenv");
+
+            URL_Add("SolrCloud", "https://en.wikipedia.org/wiki/Apache_Solr#History");
+
+            URL_Add("```lang-dart", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66396,6 +66422,19 @@ namespace OverflowHelper.core
 
             correctionAdd("upgradation_", "upgrade_");
 
+            correctionAdd("IP_", "intellectual property_");
+
+            correctionAdd("IP-core_", "IP core_");
+            correctionAdd("IP's_", "IP core_");
+            correctionAdd("IPs_", "IP core_");
+            correctionAdd("IP cores_", "IP core_");
+            correctionAdd("Intellectual Property core_", "IP core_");
+            correctionAdd("intellectual property core_", "IP core_");
+            correctionAdd("IP-Core_", "IP core_");
+            correctionAdd("IP-Cores_", "IP core_");
+
+            correctionAdd("N_", "n_");
+
             // URL mappings
             //
             //
@@ -66902,6 +66941,12 @@ namespace OverflowHelper.core
             URL_Add("xBase_", "https://stackoverflow.com/questions/tagged/xbase");
 
             URL_Add("upgrade_", "https://en.wiktionary.org/wiki/upgrade#Noun");
+
+            URL_Add("IP core_", "https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core#Types_of_IP_cores");
+
+            URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
+
+            URL_Add("n_", "https://www.npmjs.com/package/n");
 
         } //addLookupData_alternativeWordSet()
 
