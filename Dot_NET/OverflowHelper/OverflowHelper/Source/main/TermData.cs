@@ -2380,6 +2380,10 @@ namespace OverflowHelper.core
             correctionAdd("swing", "Swing");
             correctionAdd("SWING", "Swing");
 
+            correctionAdd("tor", "Tor");
+            correctionAdd("TOR", "Tor");
+            correctionAdd("ToR", "Tor");
+
             correctionAdd("qt", "Qt");
             correctionAdd("QT", "Qt");
 
@@ -2410,6 +2414,8 @@ namespace OverflowHelper.core
             correctionAdd("internext", "Internet");
             correctionAdd("interned", "Internet");
             correctionAdd("InterToobs", "Internet");
+            correctionAdd("I-Net", "Internet");
+            correctionAdd("I-net", "Internet");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -5849,6 +5855,287 @@ namespace OverflowHelper.core
 
             correctionAdd("px", "pixels"); // Expansion, not case correction.
 
+            correctionAdd("min", "minimum");
+            correctionAdd("minmal", "minimum");
+            correctionAdd("minium", "minimum");
+            correctionAdd("mininum", "minimum");
+            correctionAdd("minumum", "minimum");
+            correctionAdd("MINIMUM", "minimum");
+            correctionAdd("minimu", "minimum");
+            correctionAdd("Min", "minimum");
+            correctionAdd("minimun", "minimum");
+            correctionAdd("minim", "minimum");
+
+            correctionAdd("max", "maximum");
+            correctionAdd("maxium", "maximum");
+            correctionAdd("Max", "maximum");
+            correctionAdd("Max imam", "maximum");
+            correctionAdd("max imam", "maximum");
+            correctionAdd("Maximam", "maximum");
+            correctionAdd("maximam", "maximum");
+            correctionAdd("maximun", "maximum");
+            correctionAdd("Maximun", "maximum");
+
+            correctionAdd("Beligum", "Belgium");
+            correctionAdd("beligum", "Belgium");
+
+            correctionAdd("ethereum", "Ethereum");
+            correctionAdd("Etherium", "Ethereum");
+            correctionAdd("Ethereuem", "Ethereum");
+            correctionAdd("etherium", "Ethereum");
+            correctionAdd("Etherum", "Ethereum");
+
+            correctionAdd("medium", "Medium");
+
+            correctionAdd("chromium", "Chromium");
+            correctionAdd("chrom(ium)", "Chromium");
+            correctionAdd("Chrom(ium)", "Chromium");
+
+            correctionAdd("ungoogled chromium", "ungoogled-chromium");
+
+            correctionAdd("equilibrum", "equilibrium");
+            correctionAdd("equlibrium", "equilibrium");
+
+            correctionAdd("ad homium", "ad hominem");
+            correctionAdd("ad hominum", "ad hominem");
+            correctionAdd("ad honium", "ad hominem");
+            correctionAdd("adhoniem attack", "ad hominem");
+            correctionAdd("adhominem", "ad hominem");
+
+            correctionAdd("criterium", "criterion");
+
+            correctionAdd("non-equilibrium", "nonequilibrium");
+            correctionAdd("non-equlibrium", "nonequilibrium");
+
+            correctionAdd("medium sized", "medium-sized");
+
+            correctionAdd("atom", "Atom");
+            correctionAdd("ATOM", "Atom");
+
+            correctionAdd("electron", "Electron");
+            correctionAdd("electronjs", "Electron");
+            correctionAdd("electron.js", "Electron");
+            correctionAdd("Electron.js", "Electron");
+            correctionAdd("Electron JS", "Electron");
+            correctionAdd("ElectronJS", "Electron");
+            correctionAdd("Electronjs", "Electron");
+            correctionAdd("electorn", "Electron");
+
+            correctionAdd("selenium", "Selenium");
+            correctionAdd("seleium", "Selenium");
+
+            correctionAdd("Selenium RC", "Selenium Remote Control");
+
+            correctionAdd("selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
+            correctionAdd("selenium webdriver", "Selenium WebDriver");
+            correctionAdd("selenium web driver", "Selenium WebDriver");
+            correctionAdd("Selenium webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
+            correctionAdd("webdriver", "Selenium WebDriver");
+            correctionAdd("WebDriver", "Selenium WebDriver");
+            correctionAdd("webDriver", "Selenium WebDriver");
+            correctionAdd("selenium WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium web-driver", "Selenium WebDriver");
+            correctionAdd("Selenium WD", "Selenium WebDriver");
+
+            correctionAdd("debezium", "Debezium");
+
+            correctionAdd("pentium", "Pentium");
+
+            correctionAdd("P5 pentium", "P5");
+            correctionAdd("P5 Pentium", "P5");
+
+            correctionAdd("P6 pentium", "P6");
+            correctionAdd("P6 Pentium", "P6");
+
+            correctionAdd("Pentium III", "Pentium&nbsp;III");
+            correctionAdd("Pentium 3", "Pentium&nbsp;III");
+            correctionAdd("PentiumIII", "Pentium&nbsp;III");
+
+            correctionAdd("itanium", "Itanium");
+
+            correctionAdd("codium", "VSCodium");
+            correctionAdd("Codium", "VSCodium");
+            correctionAdd("vscodium", "VSCodium");
+
+            correctionAdd("lipo", "lithium polymer");
+            correctionAdd("Li-Po", "lithium polymer");
+            correctionAdd("li-po", "lithium polymer");
+            correctionAdd("LiPo", "lithium polymer");
+            correctionAdd("Lithium Polymer", "lithium polymer");
+            correctionAdd("lithumpolymer", "lithium polymer");
+            correctionAdd("LiPol", "lithium polymer");
+            correctionAdd("Pol", "lithium polymer");
+
+            correctionAdd("LIon", "Li-ion");
+            correctionAdd("Lithium-Ion", "Li-ion"); // Contraction!
+            correctionAdd("lithium-ion", "Li-ion"); // Contraction!
+            correctionAdd("LiIon", "Li-ion");
+            correctionAdd("li ion", "Li-ion");
+            correctionAdd("li-ion", "Li-ion");
+            correctionAdd("Li-Ion", "Li-ion");
+            correctionAdd("liion", "Li-ion");
+
+            correctionAdd("LFP", "lithium iron phosphate");
+            correctionAdd("LiFPo4", "lithium iron phosphate");
+            correctionAdd("LiFePO4", "lithium iron phosphate");
+
+            correctionAdd("Lithium battery", "lithium-ion battery");
+            correctionAdd("lithium battery", "lithium-ion battery");
+
+            correctionAdd("Ni-cad", "NiCad");
+
+            correctionAdd("Neutrino", "neutrino");
+
+            correctionAdd("Positron", "positron");
+
+            correctionAdd("Positronium", "positronium");
+
+            correctionAdd("Lithium", "lithium");
+            correctionAdd("Lithion", "lithium");
+            correctionAdd("Li", "lithium");
+            correctionAdd("litium", "lithium");
+            correctionAdd("Litium", "lithium");
+            correctionAdd("lithim", "lithium");
+
+            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
+
+            correctionAdd("zirconia", "cubic zirconia");
+            correctionAdd("zirkonium", "cubic zirconia");
+
+            correctionAdd("NaCl", "sodium chloride");
+            correctionAdd("salt", "sodium chloride");
+            correctionAdd("Soidum Chloride", "sodium chloride");
+            correctionAdd("Sodium Chloride", "sodium chloride");
+
+            correctionAdd("GaN", "gallium nitride");
+
+            correctionAdd("potassium pyrosulfite", "potassium metabisulfite");
+            correctionAdd("Potassium Metabisulfite", "potassium metabisulfite");
+
+            correctionAdd("Potassium Sorbate", "potassium sorbate");
+
+            correctionAdd("Calcite", "calcite");
+
+            correctionAdd("Calcium phosphate", "calcium phosphate");
+
+            correctionAdd("Potassium Chloride", "potassium chloride");
+
+            correctionAdd("thorium 232", "thorium-233");
+
+            correctionAdd("Pu-239", "plutonium-239");
+            correctionAdd("239 Pu", "plutonium-239");
+            correctionAdd("Plutonium-239", "plutonium-239");
+
+            correctionAdd("Sr-94", "strontium-94");
+            correctionAdd("Sr 94", "strontium-94");
+
+            correctionAdd("U-235", "uranium-235");
+            correctionAdd("U 235", "uranium-235");
+            correctionAdd("235 U", "uranium-235");
+            correctionAdd("Uranium-235", "uranium-235");
+
+            correctionAdd("Xe-133", "xenon-133");
+
+            correctionAdd("Xe-140", "xenon-140");
+            correctionAdd("Xe 140", "xenon-140");
+
+            correctionAdd("Silicon", "silicon");
+            correctionAdd("Si", "silicon");
+            correctionAdd("silicium", "silicon");
+
+            correctionAdd("Sr", "strontium");
+            correctionAdd("Strontium", "strontium");
+
+            correctionAdd("Yb", "ytterbium");
+
+            correctionAdd("Tritium", "tritium");
+
+            correctionAdd("Plutonium", "plutonium");
+            correctionAdd("Pu", "plutonium");
+
+            correctionAdd("Thorium", "thorium");
+
+            correctionAdd("Uranium", "uranium");
+            correctionAdd("U", "uranium");
+
+            correctionAdd("Helium", "helium");
+            correctionAdd("He", "helium");
+
+            correctionAdd("Iridium", "iridium");
+
+            correctionAdd("Deuterium", "deuterium");
+
+            correctionAdd("Magnesium", "magnesium");
+            correctionAdd("Mg", "magnesium");
+
+            correctionAdd("aluminum", "aluminium");
+            correctionAdd("Al", "aluminium");
+            correctionAdd("Aliminium", "aluminium");
+            correctionAdd("aliminium", "aluminium");
+            correctionAdd("Aluminium", "aluminium");
+
+            correctionAdd("Radium", "radium");
+
+            correctionAdd("Thallium", "thallium");
+            correctionAdd("Tl", "thallium");
+
+            correctionAdd("Cadmium", "cadmium");
+            correctionAdd("Cd", "cadmium");
+
+            correctionAdd("Germanium", "germanium");
+            correctionAdd("Ge", "germanium");
+
+            correctionAdd("Bohrium", "bohrium");
+
+            correctionAdd("Copernicium", "copernicium");
+
+            correctionAdd("Dubnium", "dubnium");
+
+            correctionAdd("Rhenium", "rhenium");
+
+            correctionAdd("Rutherfordium", "rutherfordium");
+
+            correctionAdd("Seaborgium", "seaborgium");
+
+            correctionAdd("Tungsten", "tungsten");
+
+            correctionAdd("Unbihexium", "unbihexium");
+
+            correctionAdd("Unbinilium", "unbinilium");
+
+            correctionAdd("Pd", "palladium");
+            correctionAdd("Palladium", "palladium");
+
+            correctionAdd("Calcium", "calcium");
+            correctionAdd("Ca", "calcium");
+
+            correctionAdd("Cr", "chromium (element)");
+
+            correctionAdd("Indium", "indium");
+            correctionAdd("In", "indium");
+
+            correctionAdd("Se", "selenium (element)");
+
+            correctionAdd("Tellurium", "tellurium");
+            correctionAdd("Te", "tellurium");
+
+            correctionAdd("Titanium", "titanium");
+
+            correctionAdd("Beryllium", "beryllium");
+            correctionAdd("Be", "beryllium");
+
+            correctionAdd("Osmium", "osmium");
+
+            correctionAdd("columbium", "niobium");
+            correctionAdd("Niobium", "niobium");
+
+            correctionAdd("Zirconium", "zirconium");
+
             correctionAdd("w3", "W3C");
             correctionAdd("w3c", "W3C");
             correctionAdd("W3c", "W3C");
@@ -6096,8 +6383,6 @@ namespace OverflowHelper.core
             correctionAdd("genre", "generate");
 
             correctionAdd("Karate", "karate");
-
-            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
 
             correctionAdd("deterioate", "deteriorate");
             correctionAdd("deteriote", "deteriorate");
@@ -8607,9 +8892,6 @@ namespace OverflowHelper.core
 
             correctionAdd("RockBox", "Rockbox");
 
-            correctionAdd("selenium", "Selenium");
-            correctionAdd("seleium", "Selenium");
-
             correctionAdd("ethernet", "Ethernet");
             correctionAdd("ETHERNET", "Ethernet");
             correctionAdd("ehternet", "Ethernet");
@@ -9706,8 +9988,6 @@ namespace OverflowHelper.core
             correctionAdd("iptable", "iptables");
             correctionAdd("IPTables", "iptables");
 
-            correctionAdd("pentium", "Pentium");
-
             // Note: "Sam-ba" or "SAM-BA" is
             // "Atmel SAM-BA In-system Programmer", <http://www.atmel.com/tools/ATMELSAM-BAIN-SYSTEMPROGRAMMER.aspx>.
             correctionAdd("SAMBA", "Samba");
@@ -10296,9 +10576,6 @@ namespace OverflowHelper.core
             correctionAdd("filemon", "FileMon");
             correctionAdd("FILEMON", "FileMon");
             correctionAdd("filemonitor", "FileMon");
-
-            correctionAdd("tor", "Tor");
-            correctionAdd("TOR", "Tor");
 
             correctionAdd("us", "µs"); // Microseconds.
             correctionAdd("uS", "µs"); // Microseconds.
@@ -12285,27 +12562,6 @@ namespace OverflowHelper.core
             correctionAdd("pl", "please");
             correctionAdd("Pleas", "please");
 
-            correctionAdd("min", "minimum");
-            correctionAdd("minmal", "minimum");
-            correctionAdd("minium", "minimum");
-            correctionAdd("mininum", "minimum");
-            correctionAdd("minumum", "minimum");
-            correctionAdd("MINIMUM", "minimum");
-            correctionAdd("minimu", "minimum");
-            correctionAdd("Min", "minimum");
-            correctionAdd("minimun", "minimum");
-            correctionAdd("minim", "minimum");
-
-            correctionAdd("max", "maximum");
-            correctionAdd("maxium", "maximum");
-            correctionAdd("Max", "maximum");
-            correctionAdd("Max imam", "maximum");
-            correctionAdd("max imam", "maximum");
-            correctionAdd("Maximam", "maximum");
-            correctionAdd("maximam", "maximum");
-            correctionAdd("maximun", "maximum");
-            correctionAdd("Maximun", "maximum");
-
             correctionAdd("ecom", "E-commerce");
             correctionAdd("e-Commerce", "E-commerce");
             correctionAdd("eCommerce", "E-commerce");
@@ -12701,6 +12957,7 @@ namespace OverflowHelper.core
             correctionAdd("newwbie", "newbie");
             correctionAdd("newbei", "newbie");
             correctionAdd("new bee", "newbie");
+            correctionAdd("newbi", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -13098,26 +13355,6 @@ namespace OverflowHelper.core
             correctionAdd("comptabilble", "compatible");
 
             correctionAdd("z80", "Z80");
-
-            correctionAdd("lipo", "lithium polymer");
-            correctionAdd("Li-Po", "lithium polymer");
-            correctionAdd("li-po", "lithium polymer");
-            correctionAdd("LiPo", "lithium polymer");
-            correctionAdd("Lithium Polymer", "lithium polymer");
-            correctionAdd("lithumpolymer", "lithium polymer");
-            correctionAdd("LiPol", "lithium polymer");
-            correctionAdd("Pol", "lithium polymer");
-
-            correctionAdd("LIon", "Li-ion");
-            correctionAdd("Lithium-Ion", "Li-ion"); // Contraction!
-            correctionAdd("lithium-ion", "Li-ion"); // Contraction!
-            correctionAdd("LiIon", "Li-ion");
-            correctionAdd("li ion", "Li-ion");
-            correctionAdd("li-ion", "Li-ion");
-            correctionAdd("Li-Ion", "Li-ion");
-            correctionAdd("liion", "Li-ion");
-
-            correctionAdd("Ni-cad", "NiCad");
 
             correctionAdd("danish", "Danish");
 
@@ -14811,10 +15048,6 @@ namespace OverflowHelper.core
             correctionAdd("reponsibility", "responsibility");
             correctionAdd("responsiblity", "responsibility");
 
-            correctionAdd("Silicon", "silicon");
-            correctionAdd("Si", "silicon");
-            correctionAdd("silicium", "silicon");
-
             correctionAdd("suprised", "surprised");
 
             correctionAdd("3rd", "third");
@@ -14836,9 +15069,6 @@ namespace OverflowHelper.core
             correctionAdd("yourselv", "yourself");
             correctionAdd("urself", "yourself");
             correctionAdd("youself", "yourself");
-
-            correctionAdd("atom", "Atom");
-            correctionAdd("ATOM", "Atom");
 
             correctionAdd("cyrillic", "Cyrillic");
 
@@ -15002,9 +15232,6 @@ namespace OverflowHelper.core
             correctionAdd("I stead", "instead");
             correctionAdd("insteed", "instead");
 
-            correctionAdd("Plutonium", "plutonium");
-            correctionAdd("Pu", "plutonium");
-
             correctionAdd("possbile", "possible");
             correctionAdd("posible", "possible");
             correctionAdd("possiible", "possible");
@@ -15032,11 +15259,6 @@ namespace OverflowHelper.core
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
             correctionAdd("retorical", "rhetorical");
-
-            correctionAdd("Thorium", "thorium");
-
-            correctionAdd("Uranium", "uranium");
-            correctionAdd("U", "uranium");
 
             correctionAdd("mcve", "MCVE");
             correctionAdd("MVCE", "MCVE");
@@ -15817,15 +16039,6 @@ namespace OverflowHelper.core
             correctionAdd("ATMega", "ATmega");
             correctionAdd("ATMEGA", "ATmega");
             correctionAdd("Atmega", "ATmega");
-
-            correctionAdd("electron", "Electron");
-            correctionAdd("electronjs", "Electron");
-            correctionAdd("electron.js", "Electron");
-            correctionAdd("Electron.js", "Electron");
-            correctionAdd("Electron JS", "Electron");
-            correctionAdd("ElectronJS", "Electron");
-            correctionAdd("Electronjs", "Electron");
-            correctionAdd("electorn", "Electron");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -16853,13 +17066,6 @@ namespace OverflowHelper.core
             correctionAdd("lates", "latest");
             correctionAdd("leatest", "latest");
 
-            correctionAdd("Lithium", "lithium");
-            correctionAdd("Lithion", "lithium");
-            correctionAdd("Li", "lithium");
-            correctionAdd("litium", "lithium");
-            correctionAdd("Litium", "lithium");
-            correctionAdd("lithim", "lithium");
-
             correctionAdd("M", "m");
             correctionAdd("Meter", "m");
             correctionAdd("meter", "m");
@@ -17077,6 +17283,7 @@ namespace OverflowHelper.core
             correctionAdd("multineter", "multimeter");
 
             correctionAdd("serure", "secure");
+            correctionAdd("secures", "secure");
 
             correctionAdd("stucked", "stuck");
             correctionAdd("Stucked", "stuck");
@@ -17358,9 +17565,6 @@ namespace OverflowHelper.core
             correctionAdd("waight", "weight");
             correctionAdd("weigth", "weight");
             correctionAdd("Weight", "weight");
-
-            correctionAdd("Beligum", "Belgium");
-            correctionAdd("beligum", "Belgium");
 
             correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
             correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
@@ -18116,12 +18320,6 @@ namespace OverflowHelper.core
             correctionAdd("voluntorily", "voluntarily");
             correctionAdd("volunataraly", "voluntarily");
             correctionAdd("voluntaraly", "voluntarily");
-
-            correctionAdd("ethereum", "Ethereum");
-            correctionAdd("Etherium", "Ethereum");
-            correctionAdd("Ethereuem", "Ethereum");
-            correctionAdd("etherium", "Ethereum");
-            correctionAdd("Etherum", "Ethereum");
 
             correctionAdd("ammend", "amend");
 
@@ -18970,11 +19168,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GLIBC", "glibc");
 
-            correctionAdd("Helium", "helium");
-            correctionAdd("He", "helium");
-
-            correctionAdd("Neutrino", "neutrino");
-
             correctionAdd("POV", "point of view");
             correctionAdd("PoV", "point of view");
             correctionAdd("pov", "point of view");
@@ -19333,8 +19526,6 @@ namespace OverflowHelper.core
 
             correctionAdd("incorrec", "incorrect");
             correctionAdd("incorect", "incorrect");
-
-            correctionAdd("Iridium", "iridium");
 
             correctionAdd("releated", "related");
             correctionAdd("realted", "related");
@@ -19846,8 +20037,6 @@ namespace OverflowHelper.core
 
             correctionAdd("maple", "Maple");
 
-            correctionAdd("medium", "Medium");
-
             correctionAdd("seinfeld", "Seinfeld");
 
             correctionAdd("shakespearean", "Shakespearean");
@@ -20112,10 +20301,6 @@ namespace OverflowHelper.core
             correctionAdd("Cross-Origin Resource Sharing", "CORS");
             correctionAdd("cross-origin resource sharing", "CORS");
 
-            correctionAdd("chromium", "Chromium");
-            correctionAdd("chrom(ium)", "Chromium");
-            correctionAdd("Chrom(ium)", "Chromium");
-
             correctionAdd("dart", "Dart");
 
             correctionAdd("elm", "Elm");
@@ -20185,11 +20370,6 @@ namespace OverflowHelper.core
             correctionAdd("conjuction", "conjunction");
 
             correctionAdd("corosion", "corrosion");
-
-            correctionAdd("Deuterium", "deuterium");
-
-            correctionAdd("equilibrum", "equilibrium");
-            correctionAdd("equlibrium", "equilibrium");
 
             correctionAdd("feauture", "feature");
             correctionAdd("feayure", "feature");
@@ -20504,12 +20684,6 @@ namespace OverflowHelper.core
             correctionAdd("RTM", "release to manufacturing");
 
             correctionAdd("ZX 81", "ZX81");
-
-            correctionAdd("ad homium", "ad hominem");
-            correctionAdd("ad hominum", "ad hominem");
-            correctionAdd("ad honium", "ad hominem");
-            correctionAdd("adhoniem attack", "ad hominem");
-            correctionAdd("adhominem", "ad hominem");
 
             correctionAdd("appologizing", "apologizing");
 
@@ -21092,9 +21266,6 @@ namespace OverflowHelper.core
             correctionAdd("Cobalt", "cobalt");
 
             correctionAdd("highrise", "high-rise");
-
-            correctionAdd("Magnesium", "magnesium");
-            correctionAdd("Mg", "magnesium");
 
             correctionAdd("Point of Sale", "point of sale");
 
@@ -21866,12 +22037,6 @@ namespace OverflowHelper.core
             correctionAdd("swiss-army", "Swiss Army knife");
             correctionAdd("swiss army", "Swiss Army knife");
             correctionAdd("Swiss army", "Swiss Army knife");
-
-            correctionAdd("aluminum", "aluminium");
-            correctionAdd("Al", "aluminium");
-            correctionAdd("Aliminium", "aluminium");
-            correctionAdd("aliminium", "aluminium");
-            correctionAdd("Aluminium", "aluminium");
 
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
             correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
@@ -22682,9 +22847,6 @@ namespace OverflowHelper.core
             correctionAdd("steve ballmer", "Steve Ballmer");
 
             correctionAdd("brake", "break");
-
-            correctionAdd("zirconia", "cubic zirconia");
-            correctionAdd("zirkonium", "cubic zirconia");
 
             correctionAdd("millinaire", "millionaire");
             correctionAdd("millionair", "millionaire");
@@ -23717,8 +23879,6 @@ namespace OverflowHelper.core
             correctionAdd("western european", "Western European");
             correctionAdd("western European", "Western European");
 
-            correctionAdd("criterium", "criterion");
-
             correctionAdd("culural", "cultural");
 
             correctionAdd("herritage", "heritage");
@@ -24654,8 +24814,6 @@ namespace OverflowHelper.core
 
             correctionAdd("quenstinel", "quintessential");
 
-            correctionAdd("Radium", "radium");
-
             correctionAdd("re-post", "repost");
 
             correctionAdd("re-validate", "revalidate");
@@ -24682,9 +24840,6 @@ namespace OverflowHelper.core
             correctionAdd("sencical", "sensical");
 
             correctionAdd("someday", "some day");
-
-            correctionAdd("Thallium", "thallium");
-            correctionAdd("Tl", "thallium");
 
             correctionAdd("Arduino ide", "Arduino IDE");
 
@@ -25367,9 +25522,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Marshal", "Marshal badge");
 
-            correctionAdd("Cadmium", "cadmium");
-            correctionAdd("Cd", "cadmium");
-
             correctionAdd("ennineered", "engineered");
             correctionAdd("engeneered", "engineered");
 
@@ -25452,10 +25604,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sice", "since");
             correctionAdd("sonce", "since");
-
-            correctionAdd("Sr", "strontium");
-
-            correctionAdd("Yb", "ytterbium");
 
             correctionAdd("asian", "Asian");
             correctionAdd("asain", "Asian");
@@ -25607,11 +25755,6 @@ namespace OverflowHelper.core
             correctionAdd("moemnt", "moment");
 
             correctionAdd("re-opening", "reopening");
-
-            correctionAdd("NaCl", "sodium chloride");
-            correctionAdd("salt", "sodium chloride");
-            correctionAdd("Soidum Chloride", "sodium chloride");
-            correctionAdd("Sodium Chloride", "sodium chloride");
 
             correctionAdd("overide", "override");
             correctionAdd("Overide", "override");
@@ -27162,10 +27305,6 @@ namespace OverflowHelper.core
 
             correctionAdd("uranus", "Uranus");
 
-            correctionAdd("codium", "VSCodium");
-            correctionAdd("Codium", "VSCodium");
-            correctionAdd("vscodium", "VSCodium");
-
             correctionAdd("birdseye view", "bird's-eye view");
 
             correctionAdd("deliberatly", "deliberately");
@@ -27177,9 +27316,6 @@ namespace OverflowHelper.core
             correctionAdd("exersising", "exercising");
 
             correctionAdd("frequenrly", "frequently");
-
-            correctionAdd("Germanium", "germanium");
-            correctionAdd("Ge", "germanium");
 
             correctionAdd("ghosttown", "ghost town");
 
@@ -27254,8 +27390,6 @@ namespace OverflowHelper.core
             correctionAdd("gpx", "GPX");
 
             correctionAdd("josm", "JOSM");
-
-            correctionAdd("Selenium RC", "Selenium Remote Control");
 
             correctionAdd("vespucci", "Vespucci");
 
@@ -30976,6 +31110,7 @@ namespace OverflowHelper.core
             correctionAdd("old-school", "old school");
             correctionAdd("oldschool", "old school");
             correctionAdd("old thinking", "old school");
+            correctionAdd("old-skool", "old school");
 
             correctionAdd("re-creating", "recreating");
 
@@ -31182,6 +31317,7 @@ namespace OverflowHelper.core
 
             correctionAdd("clibatic", "clbuttic");
             correctionAdd("Clbuttic", "clbuttic");
+            correctionAdd("clubbutic", "clbuttic");
 
             correctionAdd("de-railing", "derailing");
 
@@ -31608,8 +31744,6 @@ namespace OverflowHelper.core
 
             correctionAdd("teel", "feel");
             correctionAdd("teal", "feel"); // True typo + dyslexia
-
-            correctionAdd("GaN", "gallium nitride");
 
             correctionAdd("globals", "global variables");
             correctionAdd("gloabls", "global variables");
@@ -32121,33 +32255,15 @@ namespace OverflowHelper.core
             correctionAdd("apporoximated", "approximated");
             correctionAdd("aproroximated", "approximated");
 
-            correctionAdd("Bohrium", "bohrium");
-
-            correctionAdd("Copernicium", "copernicium");
-
-            correctionAdd("Dubnium", "dubnium");
-
             correctionAdd("pdftex", "pdfTeX");
             correctionAdd("pdflatex", "pdfTeX");
-
-            correctionAdd("Rhenium", "rhenium");
 
             correctionAdd("rcp", "rich client platform");
             correctionAdd("RCP", "rich client platform");
 
-            correctionAdd("Rutherfordium", "rutherfordium");
-
-            correctionAdd("Seaborgium", "seaborgium");
-
             correctionAdd("super-heavy", "superheavy");
 
             correctionAdd("the other way round", "the other way around");
-
-            correctionAdd("Tungsten", "tungsten");
-
-            correctionAdd("Unbihexium", "unbihexium");
-
-            correctionAdd("Unbinilium", "unbinilium");
 
             correctionAdd("snafu", "SNAFU");
 
@@ -32290,9 +32406,6 @@ namespace OverflowHelper.core
             correctionAdd("googlesheet", "Google Sheets");
             correctionAdd("googlesheets", "Google Sheets");
             correctionAdd("GoogleSheets", "Google Sheets");
-
-            correctionAdd("Pd", "palladium");
-            correctionAdd("Palladium", "palladium");
 
             correctionAdd("Above", "above");
 
@@ -32471,8 +32584,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dead letter queue", "DLQ");
             correctionAdd("dlq", "DLQ");
-
-            correctionAdd("debezium", "Debezium");
 
             correctionAdd("hangman", "Hangman");
 
@@ -32892,16 +33003,6 @@ namespace OverflowHelper.core
 
             correctionAdd("opteron", "Opteron");
 
-            correctionAdd("P5 pentium", "P5");
-            correctionAdd("P5 Pentium", "P5");
-
-            correctionAdd("P6 pentium", "P6");
-            correctionAdd("P6 Pentium", "P6");
-
-            correctionAdd("Pentium III", "Pentium&nbsp;III");
-            correctionAdd("Pentium 3", "Pentium&nbsp;III");
-            correctionAdd("PentiumIII", "Pentium&nbsp;III");
-
             correctionAdd("Moonbase Alpha", "Space: 1999");
             correctionAdd("Space 1999", "Space: 1999");
 
@@ -32980,9 +33081,6 @@ namespace OverflowHelper.core
             correctionAdd("volley", "Volley");
             correctionAdd("volly", "Volley");
             correctionAdd("Volly", "Volley");
-
-            correctionAdd("Calcium", "calcium");
-            correctionAdd("Ca", "calcium");
 
             correctionAdd("currecy", "currency");
 
@@ -33204,21 +33302,14 @@ namespace OverflowHelper.core
             correctionAdd("Bismuth", "bismuth");
             correctionAdd("Bi", "bismuth");
 
-            correctionAdd("Cr", "chromium (element)");
-
             correctionAdd("freakin", "freaking");
             correctionAdd("fekin", "freaking");
-
-            correctionAdd("Indium", "indium");
-            correctionAdd("In", "indium");
 
             correctionAdd("mendelson", "mendelson AS2");
 
             correctionAdd("non tilted", "non-tilting");
 
             correctionAdd("retro rocket", "retrorocket");
-
-            correctionAdd("Se", "selenium (element)");
 
             correctionAdd("self reliant", "self-reliant");
 
@@ -33230,9 +33321,6 @@ namespace OverflowHelper.core
             correctionAdd("Swastika", "swastika");
 
             correctionAdd("tell appart", "tell apart");
-
-            correctionAdd("Tellurium", "tellurium");
-            correctionAdd("Te", "tellurium");
 
             correctionAdd("threepronged", "three-pronged");
             correctionAdd("3 prong", "three-pronged");
@@ -33561,10 +33649,6 @@ namespace OverflowHelper.core
             correctionAdd("ettiquite", "etiquette");
             correctionAdd("etiquite", "etiquette");
 
-            correctionAdd("LFP", "lithium iron phosphate");
-            correctionAdd("LiFPo4", "lithium iron phosphate");
-            correctionAdd("LiFePO4", "lithium iron phosphate");
-
             correctionAdd("MOD_PHP", "mod_php");
 
             correctionAdd("over writing", "overwriting");
@@ -33601,8 +33685,6 @@ namespace OverflowHelper.core
             correctionAdd("Functor", "functor");
 
             correctionAdd("Glass", "glass");
-
-            correctionAdd("Titanium", "titanium");
 
             correctionAdd("Vitamin A", "vitamin A");
 
@@ -33971,9 +34053,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fajans' rules", "Fajans' rules");
 
-            correctionAdd("Beryllium", "beryllium");
-            correctionAdd("Be", "beryllium");
-
             correctionAdd("CRA", "Create React App");
             correctionAdd("create-react-app", "Create React App");
 
@@ -34181,22 +34260,6 @@ namespace OverflowHelper.core
 
             correctionAdd("WebHook", "webhook");
 
-            correctionAdd("selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
-            correctionAdd("selenium webdriver", "Selenium WebDriver");
-            correctionAdd("selenium web driver", "Selenium WebDriver");
-            correctionAdd("Selenium webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
-            correctionAdd("webdriver", "Selenium WebDriver");
-            correctionAdd("WebDriver", "Selenium WebDriver");
-            correctionAdd("webDriver", "Selenium WebDriver");
-            correctionAdd("selenium WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium web-driver", "Selenium WebDriver");
-            correctionAdd("Selenium WD", "Selenium WebDriver");
-
             correctionAdd("webscraping", "web scraping");
             correctionAdd("web-scraping", "web scraping");
             correctionAdd("Web Scrapper", "web scraping");
@@ -34330,8 +34393,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sourcemap", "source map");
             correctionAdd("SourceMap", "source map");
-
-            correctionAdd("Tritium", "tritium");
 
             correctionAdd("I'll", "I’ll");
             correctionAdd("ill", "I’ll");
@@ -36235,9 +36296,6 @@ namespace OverflowHelper.core
 
             correctionAdd("drumroll", "drum roll");
 
-            correctionAdd("Lithium battery", "lithium-ion battery");
-            correctionAdd("lithium battery", "lithium-ion battery");
-
             correctionAdd("missprint", "misprint");
 
             correctionAdd("re-activate", "reactivate");
@@ -36386,8 +36444,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heebie jeebies", "heebie-jeebies");
             correctionAdd("eebie-jeebies", "heebie-jeebies");
-
-            correctionAdd("Osmium", "osmium");
 
             correctionAdd("re-interpret", "reinterpret");
 
@@ -37341,10 +37397,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Mainland China", "mainland China");
 
-            correctionAdd("Positron", "positron");
-
-            correctionAdd("Positronium", "positronium");
-
             correctionAdd("CIDR", "Classless Inter-Domain Routing");
 
             correctionAdd("Cot Editor", "CotEditor");
@@ -37548,11 +37600,6 @@ namespace OverflowHelper.core
 
             correctionAdd("naturaly", "naturally");
             correctionAdd("naturely", "naturally");
-
-            correctionAdd("potassium pyrosulfite", "potassium metabisulfite");
-            correctionAdd("Potassium Metabisulfite", "potassium metabisulfite");
-
-            correctionAdd("Potassium Sorbate", "potassium sorbate");
 
             correctionAdd("shelf-life", "shelf life");
 
@@ -38242,6 +38289,7 @@ namespace OverflowHelper.core
             correctionAdd("mb_convert_encoding()", "mb_convert_encoding");
 
             correctionAdd("OCXO", "oven-controlled crystal oscillator");
+            correctionAdd("ovenized oscillators", "oven-controlled crystal oscillator");
 
             correctionAdd("RTC", "real-time clock");
 
@@ -38598,8 +38646,6 @@ namespace OverflowHelper.core
             correctionAdd("show stopper", "showstopper");
 
             correctionAdd("tip of a tree", "tip of the iceberg");
-
-            correctionAdd("ungoogled chromium", "ungoogled-chromium");
 
             correctionAdd("Google", "google"); // The verb...
             correctionAdd("Google (verb)", "google");
@@ -39478,10 +39524,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bread crumb trail", "breadcrumb trail");
 
-            correctionAdd("Calcite", "calcite");
-
-            correctionAdd("Calcium phosphate", "calcium phosphate");
-
             correctionAdd("code completetion", "code completion");
 
             correctionAdd("emc", "electromagnetic compatibility");
@@ -39523,8 +39565,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Octahedron", "octahedron");
 
-            correctionAdd("Potassium Chloride", "potassium chloride");
-
             correctionAdd("random forest", "random decision forest");
             correctionAdd("Random Forest", "random decision forest");
 
@@ -39543,8 +39583,6 @@ namespace OverflowHelper.core
             correctionAdd("cahced", "cached");
 
             correctionAdd("forgor", "forgot");
-
-            correctionAdd("thorium 232", "thorium-233");
 
             correctionAdd("X axes", "x-axes");
 
@@ -40521,23 +40559,6 @@ namespace OverflowHelper.core
 
             correctionAdd("north-west", "northwest");
 
-            correctionAdd("Pu-239", "plutonium-239");
-            correctionAdd("239 Pu", "plutonium-239");
-            correctionAdd("Plutonium-239", "plutonium-239");
-
-            correctionAdd("Sr-94", "strontium-94");
-            correctionAdd("Sr 94", "strontium-94");
-
-            correctionAdd("U-235", "uranium-235");
-            correctionAdd("U 235", "uranium-235");
-            correctionAdd("235 U", "uranium-235");
-            correctionAdd("Uranium-235", "uranium-235");
-
-            correctionAdd("Xe-133", "xenon-133");
-
-            correctionAdd("Xe-140", "xenon-140");
-            correctionAdd("Xe 140", "xenon-140");
-
             correctionAdd("uVision", "µVision");
 
             correctionAdd("Xquery", "XQuery");
@@ -40665,8 +40686,6 @@ namespace OverflowHelper.core
             correctionAdd("Privilege Escalation", "privilege escalation");
 
             correctionAdd("Replay Attack", "replay attack");
-
-            correctionAdd("itanium", "Itanium");
 
             correctionAdd("q12", "Q12");
 
@@ -41229,9 +41248,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Laissez-Faire Capitalism", "laissez-faire capitalism");
 
-            correctionAdd("non-equilibrium", "nonequilibrium");
-            correctionAdd("non-equlibrium", "nonequilibrium");
-
             correctionAdd("pre-processor", "preprocessor");
 
             correctionAdd("psexec", "PsExec");
@@ -41709,8 +41725,6 @@ namespace OverflowHelper.core
 
             correctionAdd("M4", "m4");
 
-            correctionAdd("medium sized", "medium-sized");
-
             correctionAdd("styled text", "rich text");
             correctionAdd("rich-text", "rich text");
             correctionAdd("Rich Text", "rich text");
@@ -41760,6 +41774,27 @@ namespace OverflowHelper.core
             correctionAdd("seven-segment", "seven-segment display");
 
             correctionAdd("UIAUTOMATORVIEWER", "uiautomatorviewer");
+
+            correctionAdd("HCL", "HCL Notes");
+
+            correctionAdd("hanami", "Hanami");
+
+            correctionAdd("NP0", "NP0 capacitor");
+
+            correctionAdd("Unityscript", "UnityScript");
+            correctionAdd("unityscript", "UnityScript");
+
+            correctionAdd("aging", "ageing");
+
+            correctionAdd("domain zero", "dom0");
+            correctionAdd("Dom0", "dom0");
+            correctionAdd("Domain 0", "dom0");
+
+            correctionAdd("look to", "look at");
+
+            correctionAdd("orchestation", "orchestration");
+
+            correctionAdd("subjectif", "subjective");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65691,6 +65726,28 @@ namespace OverflowHelper.core
 
             URL_Add("uiautomatorviewer", "https://developer.android.com/training/testing/other-components/ui-automator#inspect-ui");
 
+            URL_Add("HCL Notes", "https://en.wikipedia.org/wiki/HCL_Domino");
+
+            URL_Add("Hanami", "https://github.com/davydovanton/lotus");
+
+            URL_Add("NP0 capacitor", "https://en.wikipedia.org/wiki/Ceramic_capacitor#Class_1_ceramic_capacitors");
+
+            URL_Add("UnityScript", "https://en.wikipedia.org/wiki/Unity_(game_engine)#Overview");
+
+            URL_Add("ageing", "https://en.wiktionary.org/wiki/ageing#Noun");
+
+            URL_Add("dom0", "https://en.wikipedia.org/wiki/Xen#Software_architecture");
+
+            URL_Add("look at", "https://en.wiktionary.org/wiki/look_at#Verb");
+
+            URL_Add("niobium", "https://en.wikipedia.org/wiki/Niobium");
+
+            URL_Add("orchestration", "https://en.wikipedia.org/wiki/Orchestration_%28computing%29");
+
+            URL_Add("subjective", "https://en.wiktionary.org/wiki/subjective#Adjective");
+
+            URL_Add("zirconium", "https://en.wikipedia.org/wiki/Zirconium");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66505,6 +66562,8 @@ namespace OverflowHelper.core
 
             correctionAdd("N_", "n_");
 
+            correctionAdd("Tantalum_", "tantalum_");
+
             // URL mappings
             //
             //
@@ -67017,6 +67076,8 @@ namespace OverflowHelper.core
             URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
 
             URL_Add("n_", "https://www.npmjs.com/package/n");
+
+            URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum");
 
         } //addLookupData_alternativeWordSet()
 
