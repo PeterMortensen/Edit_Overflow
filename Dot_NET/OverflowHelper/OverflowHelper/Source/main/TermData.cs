@@ -3582,10 +3582,6 @@ namespace OverflowHelper.core
             correctionAdd("get-alias", "Get-Alias");
 
             // Of PowerShell...
-            correctionAdd("write-debug", "Write-Debug");
-            correctionAdd("write-Debug", "Write-Debug");
-
-            // Of PowerShell...
             correctionAdd("set-psdebug", "Set-PSDebug");
 
             // Of PowerShell...
@@ -3619,10 +3615,6 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("import-module", "Import-Module");
-
-            // Of PowerShell...
-            correctionAdd("write-verbose", "Write-Verbose");
-            correctionAdd("Write-verbose", "Write-Verbose");
 
             // Of PowerShell...
             correctionAdd("add-type", "Add-Type");
@@ -3665,9 +3657,6 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("send-mailmessage", "Send-MailMessage");
-
-            // Of PowerShell...
-            correctionAdd("write-progress", "Write-Progress");
 
             // Of PowerShell...
             correctionAdd("find-package", "Find-Package");
@@ -3763,19 +3752,6 @@ namespace OverflowHelper.core
             correctionAdd("get-date", "Get-Date");
             correctionAdd("get-Date", "Get-Date");
             correctionAdd("Get-date", "Get-Date");
-
-            // Of PowerShell...
-            correctionAdd("Write-Object", "Write-Output");
-            correctionAdd("write-output", "Write-Output");
-            correctionAdd("write-Output", "Write-Output");
-            correctionAdd("Write", "Write-Output");
-            correctionAdd("Write-output", "Write-Output");
-            correctionAdd("write-ouptut", "Write-Output");
-
-            // Of PowerShell...
-            correctionAdd("write-host", "Write-Host");
-            correctionAdd("Write-host", "Write-Host");
-            correctionAdd("write-Host", "Write-Host");
 
             // Of PowerShell...
             correctionAdd("format-list", "Format-List");
@@ -3889,9 +3865,6 @@ namespace OverflowHelper.core
             correctionAdd("Get-history", "Get-History");
 
             // Of PowerShell...
-            correctionAdd("write-error", "Write-Error");
-
-            // Of PowerShell...
             correctionAdd("stop-process", "Stop-Process");
 
             // Of PowerShell...
@@ -3921,6 +3894,50 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("ConvertTo-JSON", "ConvertTo-Json");
+
+            // Of PowerShell...
+            correctionAdd("write-debug", "Write-Debug");
+            correctionAdd("write-Debug", "Write-Debug");
+
+            // Of PowerShell...
+            correctionAdd("write-verbose", "Write-Verbose");
+            correctionAdd("Write-verbose", "Write-Verbose");
+
+            // Of PowerShell...
+            correctionAdd("write-progress", "Write-Progress");
+
+            // Of PowerShell...
+            correctionAdd("Write-Object", "Write-Output");
+            correctionAdd("write-output", "Write-Output");
+            correctionAdd("write-Output", "Write-Output");
+            correctionAdd("Write", "Write-Output");
+            correctionAdd("Write-output", "Write-Output");
+            correctionAdd("write-ouptut", "Write-Output");
+
+            // Of PowerShell...
+            correctionAdd("write-host", "Write-Host");
+            correctionAdd("Write-host", "Write-Host");
+            correctionAdd("write-Host", "Write-Host");
+
+            // Of PowerShell...
+            correctionAdd("write-error", "Write-Error");
+
+            correctionAdd("writeable", "writable");
+
+            correctionAdd("writen", "written");
+            correctionAdd("wrtten", "written");
+            correctionAdd("wfitten", "written");
+
+            correctionAdd("wright", "writeX");
+
+            correctionAdd("writeup", "write-up");
+            correctionAdd("write up", "write-up");
+
+            correctionAdd("writed", "wrote");
+            correctionAdd("wrot", "wrote");
+            correctionAdd("wrout", "wrote");
+
+            correctionAdd("write protected", "write-protected");
 
             correctionAdd("vim", "Vim");
             correctionAdd("VIM", "Vim");
@@ -5425,6 +5442,7 @@ namespace OverflowHelper.core
             correctionAdd("Snark Overflow", "Stack&nbsp;Overflow");
             correctionAdd("stack flow", "Stack&nbsp;Overflow");
             correctionAdd("StckOvrflw", "Stack&nbsp;Overflow");
+            correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -6946,6 +6964,7 @@ namespace OverflowHelper.core
             correctionAdd("confuguration", "configuration");
             correctionAdd("configutation", "configuration");
             correctionAdd("configuarion", "configuration");
+            correctionAdd("coifig", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -7226,8 +7245,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scallable", "scalable");
             correctionAdd("scaleable", "scalable");
-
-            correctionAdd("writeable", "writable");
 
             correctionAdd("profiterable", "profitable");
 
@@ -15320,6 +15337,7 @@ namespace OverflowHelper.core
             correctionAdd("irish", "Irish");
 
             correctionAdd("Googling", "googling");
+            correctionAdd("googeling", "googling");
 
             correctionAdd("denmark", "Denmark");
             correctionAdd("Denamark", "Denmark");
@@ -15868,10 +15886,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stubled", "stumble");
 
-            correctionAdd("writen", "written");
-            correctionAdd("wrtten", "written");
-            correctionAdd("wfitten", "written");
-
             correctionAdd("BSC", "BSc");
 
             correctionAdd("hindi", "Hindi");
@@ -15969,6 +15983,8 @@ namespace OverflowHelper.core
             correctionAdd("amont", "amount");
 
             correctionAdd("aksing", "asking");
+            correctionAdd("Asling", "asking");
+            correctionAdd("asling", "asking");
 
             correctionAdd("calc", "calculate");
             correctionAdd("claculate", "calculate");
@@ -19513,6 +19529,7 @@ namespace OverflowHelper.core
             correctionAdd("Often time", "oftentimes");
             correctionAdd("often time", "oftentimes");
             correctionAdd("oftentime", "oftentimes");
+            correctionAdd("Oftentimes", "oftentimes");
 
             correctionAdd("cisco", "Cisco");
             correctionAdd("CISCO", "Cisco");
@@ -19591,6 +19608,7 @@ namespace OverflowHelper.core
             correctionAdd("hostmame", "hostname");
             correctionAdd("hostnane", "hostname");
             correctionAdd("host-name", "hostname");
+            correctionAdd("Hostname", "hostname");
 
             correctionAdd("cname", "CNAME");
 
@@ -25796,6 +25814,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sidenote", "side note");
             correctionAdd("Sidenote", "side note");
+            correctionAdd("Side note", "side note");
 
             correctionAdd("solliciting", "soliciting");
 
@@ -26289,8 +26308,6 @@ namespace OverflowHelper.core
             correctionAdd("tipp", "tip");
 
             correctionAdd("un-welcoming", "unwelcoming");
-
-            correctionAdd("wright", "writeX");
 
             correctionAdd("jasmine", "Jasmine");
             correctionAdd("jazmine", "Jasmine");
@@ -27647,9 +27664,6 @@ namespace OverflowHelper.core
 
             correctionAdd("van't Hoff's", "van 't Hoff");
 
-            correctionAdd("writeup", "write-up");
-            correctionAdd("write up", "write-up");
-
             correctionAdd("gofundme", "GoFundMe");
 
             correctionAdd("El Ninja", "La Niña");
@@ -28525,6 +28539,7 @@ namespace OverflowHelper.core
             correctionAdd("more esier", "easier");
             correctionAdd("more easier", "easier");
             correctionAdd("easer", "easier");
+            correctionAdd("easir", "easier");
 
             correctionAdd("good manner", "good manners");
 
@@ -33105,13 +33120,6 @@ namespace OverflowHelper.core
             correctionAdd("over write", "overwrite");
             correctionAdd("overwite", "overwrite");
 
-            correctionAdd("wrie", "write");
-            correctionAdd("wirte", "write");
-
-            correctionAdd("writed", "wrote");
-            correctionAdd("wrot", "wrote");
-            correctionAdd("wrout", "wrote");
-
             correctionAdd("4Chan", "4chan");
 
             correctionAdd("jetpack", "Android Jetpack");
@@ -34721,8 +34729,6 @@ namespace OverflowHelper.core
             correctionAdd("Re-installing", "reinstalling");
             correctionAdd("Re-Installing", "reinstalling");
             correctionAdd("re-installing", "reinstalling");
-
-            correctionAdd("write protected", "write-protected");
 
             correctionAdd("1bitsy", "1Bitsy");
 
@@ -38719,6 +38725,7 @@ namespace OverflowHelper.core
             correctionAdd("visual-foxpro", "Visual FoxPro");
             correctionAdd("Visual Foxpro", "Visual FoxPro");
             correctionAdd("visual foxpro", "Visual FoxPro");
+            correctionAdd("Vfp", "Visual FoxPro");
 
             correctionAdd("Equity", "equity");
 
@@ -39262,6 +39269,8 @@ namespace OverflowHelper.core
             correctionAdd("Binary Search", "binary search");
 
             correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
+            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
+            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
 
             correctionAdd("end's up", "ends up");
 
@@ -41795,6 +41804,10 @@ namespace OverflowHelper.core
             correctionAdd("orchestation", "orchestration");
 
             correctionAdd("subjectif", "subjective");
+
+            correctionAdd("disproven", "disproved");
+
+            correctionAdd("Cockroach DB", "CockroachDB");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58340,8 +58353,6 @@ namespace OverflowHelper.core
 
             URL_Add("upside", "https://en.wiktionary.org/wiki/upside#Noun");
 
-            URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
-
             URL_Add("4chan", "https://en.wikipedia.org/wiki/4chan");
 
             URL_Add("Android Jetpack", "https://developer.android.com/jetpack/");
@@ -65748,6 +65759,10 @@ namespace OverflowHelper.core
 
             URL_Add("zirconium", "https://en.wikipedia.org/wiki/Zirconium");
 
+            URL_Add("disproved", "https://en.wiktionary.org/wiki/disprove#Verb");
+
+            URL_Add("CockroachDB", "https://en.wikipedia.org/wiki/CockroachDB");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66564,6 +66579,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Tantalum_", "tantalum_");
 
+            correctionAdd("wrie_", "write_");
+            correctionAdd("wirte_", "write_");
+            correctionAdd("Write_", "write_");
+
             // URL mappings
             //
             //
@@ -67078,6 +67097,8 @@ namespace OverflowHelper.core
             URL_Add("n_", "https://www.npmjs.com/package/n");
 
             URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum");
+
+            URL_Add("write_", "https://en.wiktionary.org/wiki/write#Verb");
 
         } //addLookupData_alternativeWordSet()
 
