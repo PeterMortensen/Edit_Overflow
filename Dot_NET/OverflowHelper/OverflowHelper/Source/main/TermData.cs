@@ -1496,6 +1496,7 @@ namespace OverflowHelper.core
             correctionAdd("No one", "no one");
             correctionAdd("No-one", "no one");
             correctionAdd("NOONE", "no one");
+            correctionAdd("no ne", "no one");
 
             correctionAdd("some one", "someone");
             correctionAdd("somone", "someone");
@@ -2758,6 +2759,7 @@ namespace OverflowHelper.core
             correctionAdd("English Language & Usage", "English Language & Usage (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("EL&U", "English Language & Usage (Stack Exchange site)");
             correctionAdd("EL & U", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("English usage", "English Language & Usage (Stack Exchange site)");
 
             correctionAdd("Wordpress dev", "WordPress Development (Stack Exchange site)");
             correctionAdd("WordPress development", "WordPress Development (Stack Exchange site)");
@@ -5328,6 +5330,7 @@ namespace OverflowHelper.core
             correctionAdd("loonux", "Linux");
             correctionAdd("Linix", "Linux");
             correctionAdd("linix", "Linux");
+            correctionAdd("LInux", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -7436,6 +7439,7 @@ namespace OverflowHelper.core
             correctionAdd("Linked-in", "LinkedIn");
             correctionAdd("Linked In", "LinkedIn");
             correctionAdd("linked-in", "LinkedIn");
+            correctionAdd("linkedin.com", "LinkedIn");
 
             correctionAdd("tumblr", "Tumblr");
 
@@ -10871,6 +10875,7 @@ namespace OverflowHelper.core
             correctionAdd("prereqiusites", "prerequisite");
             correctionAdd("prereqiusite", "prerequisite");
             correctionAdd("Prerequisite", "prerequisite");
+            correctionAdd("prerequiresite", "prerequisite");
 
             correctionAdd("requites", "requisites"); // Misspelling.
 
@@ -21147,6 +21152,7 @@ namespace OverflowHelper.core
             correctionAdd("tryina", "trying");
             correctionAdd("tryiong", "trying");
             correctionAdd("tryg", "trying");
+            correctionAdd("traing", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -29423,6 +29429,8 @@ namespace OverflowHelper.core
             correctionAdd("tyis", "this");
             correctionAdd("thios", "this");
             correctionAdd("thes", "this");
+            correctionAdd("Thhis", "this");
+            correctionAdd("thhis", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -34616,6 +34624,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bitly", "Bitly");
             correctionAdd("Bit.ly", "Bitly");
+            correctionAdd("bit.ly", "Bitly");
 
             correctionAdd("visualgdb", "VisualGDB");
             correctionAdd("visualGDB", "VisualGDB");
@@ -40049,6 +40058,7 @@ namespace OverflowHelper.core
             correctionAdd("i.c.w", "in conjunction with");
 
             correctionAdd("obsticle", "obstacle");
+            correctionAdd("obsticible", "obstacle");
 
             correctionAdd("querystring", "query string");
 
@@ -41808,6 +41818,26 @@ namespace OverflowHelper.core
             correctionAdd("disproven", "disproved");
 
             correctionAdd("Cockroach DB", "CockroachDB");
+
+            correctionAdd("OCI", "Open Container Initiative");
+
+            correctionAdd("rest-assured", "REST Assured");
+            correctionAdd("REST-assured", "REST Assured");
+
+            correctionAdd("SDCC", "Small Device C Compiler");
+            correctionAdd("sdcc", "Small Device C Compiler");
+
+            correctionAdd("CV", "curriculum vitae");
+
+            correctionAdd("entry level", "entry-level");
+
+            correctionAdd("MUSL", "musl");
+
+            correctionAdd("nice looking", "nice-looking");
+
+            correctionAdd("Plot", "plot");
+
+            correctionAdd("querable", "queryable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65763,6 +65793,24 @@ namespace OverflowHelper.core
 
             URL_Add("CockroachDB", "https://en.wikipedia.org/wiki/CockroachDB");
 
+            URL_Add("Open Container Initiative", "https://en.wikipedia.org/wiki/Open_Container_Initiative");
+
+            URL_Add("REST Assured", "https://github.com/rest-assured/rest-assured");
+
+            URL_Add("Small Device C Compiler", "https://en.wikipedia.org/wiki/Small_Device_C_Compiler");
+
+            URL_Add("curriculum vitae", "https://en.wikipedia.org/wiki/Curriculum_vitae");
+
+            URL_Add("entry-level", "https://en.wiktionary.org/wiki/entry-level#Adjective");
+
+            URL_Add("musl", "https://en.wikipedia.org/wiki/Musl");
+
+            URL_Add("nice-looking", "https://en.wiktionary.org/wiki/nice-looking#Adjective");
+
+            URL_Add("plot", "https://en.wiktionary.org/wiki/plot#Noun");
+
+            URL_Add("queryable", "https://en.wiktionary.org/wiki/queryable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66513,7 +66561,7 @@ namespace OverflowHelper.core
 
             correctionAdd("javascript_", "JavaScript (tag wiki)_");
 
-            correctionAdd("php_", "PHP_ (tag wiki)_");
+            correctionAdd("php_", "PHP (tag wiki)_");
 
             correctionAdd("perl_", "Perl (tag wiki)_");
 
@@ -66582,6 +66630,15 @@ namespace OverflowHelper.core
             correctionAdd("wrie_", "write_");
             correctionAdd("wirte_", "write_");
             correctionAdd("Write_", "write_");
+
+            correctionAdd("[tag:groovy]_", "Groovy_");
+
+            correctionAdd("linguistics_", "Linguistics (Stack Exchange site)_");
+            correctionAdd("Linguistics_", "Linguistics (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("[tag:ruby]_", "Ruby_");
+
+            correctionAdd("DFT_", "density-functional theory_");
 
             // URL mappings
             //
@@ -67048,7 +67105,7 @@ namespace OverflowHelper.core
 
             URL_Add("JavaScript (tag wiki)_", "https://stackoverflow.com/questions/tagged/javascript");
 
-            URL_Add("PHP_ (tag wiki)_", "https://stackoverflow.com/questions/tagged/php");
+            URL_Add("PHP (tag wiki)_", "https://stackoverflow.com/questions/tagged/php");
 
             URL_Add("Perl (tag wiki)_", "https://stackoverflow.com/questions/tagged/perl");
 
@@ -67099,6 +67156,14 @@ namespace OverflowHelper.core
             URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum");
 
             URL_Add("write_", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("Groovy_", "https://stackoverflow.com/questions/tagged/groovy");
+
+            URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
+
+            URL_Add("Ruby_", "https://stackoverflow.com/questions/tagged/ruby");
+
+            URL_Add("density-functional theory_", "https://en.wikipedia.org/wiki/Density_functional_theory");
 
         } //addLookupData_alternativeWordSet()
 
