@@ -2606,7 +2606,7 @@ rm $JAVASCRIPT_FILE
 #       2022-01-25: 2512025 bytes
 #
 # Note: The same build number
-wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2740000 3030000
+wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2790000 3090000
 
 #exit
 
