@@ -5853,6 +5853,7 @@ namespace OverflowHelper.core
             correctionAdd("Migw", "MinGW");
             correctionAdd("mingw32", "MinGW");
             correctionAdd("miniGW", "MinGW");
+            correctionAdd("MinGW32", "MinGW");
 
             correctionAdd("CodeBlocks", "Code::Blocks");
             correctionAdd("Code Blocks", "Code::Blocks");
@@ -8707,6 +8708,7 @@ namespace OverflowHelper.core
             correctionAdd("Architechure", "architecture");
             correctionAdd("architechure", "architecture");
             correctionAdd("archirecture", "architecture");
+            correctionAdd("achitecture", "architecture");
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
@@ -15133,6 +15135,8 @@ namespace OverflowHelper.core
             correctionAdd("comp", "computer");
 
             correctionAdd("SBC", "single-board computer");
+            correctionAdd("Single Board Computer", "single-board computer");
+            correctionAdd("single board computer", "single-board computer");
 
             correctionAdd("eigth", "eight");
             correctionAdd("Eight", "eight");
@@ -17688,6 +17692,7 @@ namespace OverflowHelper.core
             correctionAdd("reponse", "response");
             correctionAdd("resposne", "response");
             correctionAdd("Reponse", "response");
+            correctionAdd("responswe", "response");
 
             correctionAdd("seperating", "separating");
 
@@ -17872,6 +17877,7 @@ namespace OverflowHelper.core
             correctionAdd("buuton", "button");
             correctionAdd("Button", "button");
             correctionAdd("buton", "button");
+            correctionAdd("btn", "button");
 
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
@@ -18820,6 +18826,7 @@ namespace OverflowHelper.core
             correctionAdd("pakage", "package");
             correctionAdd("pacage", "package");
             correctionAdd("pkg", "package");
+            correctionAdd("Package", "package");
 
             correctionAdd("Strace", "strace");
 
@@ -19014,6 +19021,7 @@ namespace OverflowHelper.core
             correctionAdd("falder", "folder");
             correctionAdd("foldr", "folder");
             correctionAdd("fodler", "folder");
+            correctionAdd("Folder", "folder");
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
@@ -22991,6 +22999,7 @@ namespace OverflowHelper.core
             correctionAdd("programer", "programmer");
 
             correctionAdd("tool chain", "toolchain");
+            correctionAdd("Toolchain", "toolchain");
 
             correctionAdd("boundries", "boundaries");
 
@@ -23176,6 +23185,7 @@ namespace OverflowHelper.core
             correctionAdd("I´ve", "I’ve");
             correctionAdd("Iv", "I’ve");
             correctionAdd("iver", "I’ve");
+            correctionAdd("i've", "I’ve");
 
             correctionAdd("msc", "Master of Science");
             correctionAdd("Msc", "Master of Science");
@@ -23361,6 +23371,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ben", "been");
             correctionAdd("bean", "been");
+            correctionAdd("bene", "been");
 
             correctionAdd("insteresting", "interesting");
             correctionAdd("Intresting", "interesting");
@@ -25435,6 +25446,7 @@ namespace OverflowHelper.core
             correctionAdd("diferrent", "different");
             correctionAdd("differrent", "different");
             correctionAdd("differnet", "different");
+            correctionAdd("differennt", "different");
 
             correctionAdd("in hand", "on hand");
 
@@ -29431,6 +29443,8 @@ namespace OverflowHelper.core
             correctionAdd("thes", "this");
             correctionAdd("Thhis", "this");
             correctionAdd("thhis", "this");
+            correctionAdd("THis", "this");
+            correctionAdd("This", "this");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -41838,6 +41852,51 @@ namespace OverflowHelper.core
             correctionAdd("Plot", "plot");
 
             correctionAdd("querable", "queryable");
+
+            correctionAdd("2N7000", "2N7000 (MOSFET)");
+
+            correctionAdd("armhf", "ARMv7");
+
+            correctionAdd("armv8", "ARMv8");
+
+            correctionAdd("msys2", "MSYS2");
+
+            correctionAdd("RPi3", "Raspberry Pi 3");
+            correctionAdd("RasPi 3", "Raspberry Pi 3");
+            correctionAdd("Raspberry 3", "Raspberry Pi 3");
+
+            correctionAdd("roman empire", "Roman Empire");
+
+            correctionAdd("Motorola S-record", "S19");
+            correctionAdd("s19", "S19");
+            correctionAdd("Motorola s19", "S19");
+
+            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
+            correctionAdd("ThunderX", "ThunderX (Cavium)");
+            correctionAdd("Cavium", "ThunderX (Cavium)");
+            correctionAdd("Thunder X", "ThunderX (Cavium)");
+            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
+
+            correctionAdd("back-handed", "backhanded");
+
+            correctionAdd("ch root", "chroot");
+
+            correctionAdd("conserning", "concerning");
+
+            correctionAdd("DoF", "degrees of freedom");
+            correctionAdd("DOF", "degrees of freedom");
+
+            correctionAdd("econmical", "economical");
+            correctionAdd("econimcal", "economical");
+            correctionAdd("economcal", "economical");
+
+            correctionAdd("leagal", "legal");
+
+            correctionAdd("shocked faces", "shocked faces (YouTube algorithm)");
+
+            correctionAdd("system-on-chip", "system on a chip");
+            correctionAdd("SoC", "system on a chip");
+            correctionAdd("system-on-a-chip", "system on a chip");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65811,6 +65870,38 @@ namespace OverflowHelper.core
 
             URL_Add("queryable", "https://en.wiktionary.org/wiki/queryable#Adjective");
 
+            URL_Add("2N7000 (MOSFET)", "https://en.wikipedia.org/wiki/2N7000");
+
+            URL_Add("ARMv7", "https://en.wikipedia.org/wiki/ARM_architecture_family#Floating-point_(VFP)");
+
+            URL_Add("ARMv8", "https://en.wikipedia.org/wiki/Comparison_of_ARMv8-A_processors");
+
+            URL_Add("MSYS2", "https://en.wikipedia.org/wiki/Mingw-w64#MSYS2");
+
+            URL_Add("Raspberry Pi 3", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi");
+
+            URL_Add("Roman Empire", "https://en.wikipedia.org/wiki/Roman_Empire");
+
+            URL_Add("S19", "https://en.wikipedia.org/wiki/SREC_(file_format)");
+
+            URL_Add("ThunderX (Cavium)", "https://en.wikipedia.org/wiki/List_of_ARM_processors#Designed_by_third_parties");
+
+            URL_Add("backhanded", "https://en.wiktionary.org/wiki/backhanded#Adjective");
+
+            URL_Add("chroot", "https://en.wikipedia.org/wiki/Chroot");
+
+            URL_Add("concerning", "https://en.wiktionary.org/wiki/concerning#Preposition");
+
+            URL_Add("degrees of freedom", "https://en.wikipedia.org/wiki/Degrees_of_freedom#Physics_and_chemistry");
+
+            URL_Add("economical", "https://en.wiktionary.org/wiki/economical#Adjective");
+
+            URL_Add("legal", "https://en.wiktionary.org/wiki/legal#Adjective");
+
+            URL_Add("shocked faces (YouTube algorithm)", "https://www.youtube.com/watch?v=Ln1qbgZz_TQ&t=14m20s");
+
+            URL_Add("system on a chip", "https://en.wikipedia.org/wiki/System_on_a_chip");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -65951,17 +66042,6 @@ namespace OverflowHelper.core
             correctionAdd("int_", "it_");
             correctionAdd("iit_", "it_");
             correctionAdd("itt_", "it_");
-
-            correctionAdd("[tag:node.js]_", "Node.js_");
-
-            correctionAdd("[tag:iOS]_", "iOS_");
-
-            // The Stack Overflow tag
-            correctionAdd("[tag:Android]_", "Android_");
-
-            correctionAdd("[tag:HTML5]_", "HTML5_");
-
-            correctionAdd("[tag:loopbackjs]_", "LoopBack_");
 
             correctionAdd("set-up_", "setup_");
             correctionAdd("set up_", "setup_");
@@ -66600,16 +66680,6 @@ namespace OverflowHelper.core
             correctionAdd("ami_", "Amazon Machine Image_");
             correctionAdd("AMI_", "Amazon Machine Image_");
 
-            correctionAdd("[tag:codeplex]_", "CodePlex_");
-
-            correctionAdd("[tag:dbf]_", "DBF_");
-
-            correctionAdd("[tag:foxpro]_", "FoxPro_");
-
-            correctionAdd("[tag:dbase]_", "dBase_");
-
-            correctionAdd("[tag:xbase]_", "xBase_");
-
             correctionAdd("upgradation_", "upgrade_");
 
             correctionAdd("IP_", "intellectual property_");
@@ -66631,14 +66701,44 @@ namespace OverflowHelper.core
             correctionAdd("wirte_", "write_");
             correctionAdd("Write_", "write_");
 
-            correctionAdd("[tag:groovy]_", "Groovy_");
-
             correctionAdd("linguistics_", "Linguistics (Stack Exchange site)_");
             correctionAdd("Linguistics_", "Linguistics (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("DFT_", "density-functional theory_");
+
+            correctionAdd("Ethereum_", "Ethereum (Stack Exchange site)_");
+
+            correctionAdd("[tag:node.js]_", "Node.js_");
+
+            correctionAdd("[tag:iOS]_", "iOS_");
+
+            // The Stack Overflow tag
+            correctionAdd("[tag:Android]_", "Android_");
+
+            correctionAdd("[tag:HTML5]_", "HTML5_");
+
+            correctionAdd("[tag:loopbackjs]_", "LoopBack_");
+
+            correctionAdd("[tag:codeplex]_", "CodePlex_");
+
+            correctionAdd("[tag:dbf]_", "DBF_");
+
+            correctionAdd("[tag:foxpro]_", "FoxPro_");
+
+            correctionAdd("[tag:dbase]_", "dBase_");
+
+            correctionAdd("[tag:xbase]_", "xBase_");
+
+            correctionAdd("[tag:groovy]_", "Groovy_");
+
             correctionAdd("[tag:ruby]_", "Ruby_");
 
-            correctionAdd("DFT_", "density-functional theory_");
+            correctionAdd("[tag:asp.net]_", "ASP.NET_");
+
+            correctionAdd("[tag:git]_", "Git_");
+
+            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server_");
+            correctionAdd("SQL Server_", "SQL&nbsp;Server_"); // Sort of identity mapping
 
             // URL mappings
             //
@@ -67164,6 +67264,14 @@ namespace OverflowHelper.core
             URL_Add("Ruby_", "https://stackoverflow.com/questions/tagged/ruby");
 
             URL_Add("density-functional theory_", "https://en.wikipedia.org/wiki/Density_functional_theory");
+
+            URL_Add("ASP.NET_", "https://stackoverflow.com/questions/tagged/asp.net");
+
+            URL_Add("Ethereum (Stack Exchange site)_", "https://ethereum.stackexchange.com/tour");
+
+            URL_Add("Git_", "https://stackoverflow.com/questions/tagged/git");
+
+            URL_Add("SQL&nbsp;Server_", "https://stackoverflow.com/questions/tagged/sql-server");
 
         } //addLookupData_alternativeWordSet()
 
