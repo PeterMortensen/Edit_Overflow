@@ -3539,6 +3539,69 @@ namespace OverflowHelper.core
             correctionAdd("ablr", "able");
             correctionAdd("a be", "able");
 
+            correctionAdd("state-variable", "state variable");
+
+            correctionAdd("var", "variable");
+            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
+            correctionAdd("varialbe", "variable");
+            correctionAdd("varibale", "variable");
+            correctionAdd("variabe", "variable");
+            correctionAdd("valiarble", "variable");
+            correctionAdd("varible", "variable");
+            correctionAdd("variales", "variable");
+            correctionAdd("varaible", "variable");
+            correctionAdd("vailble", "variable");
+            correctionAdd("varialble", "variable");
+            correctionAdd("varable", "variable");
+            correctionAdd("variabel", "variable");
+            correctionAdd("Variabile", "variable");
+            correctionAdd("variabile", "variable");
+            correctionAdd("vaibles", "variable");
+            correctionAdd("vaible", "variable");
+            correctionAdd("vairiables", "variable");
+            correctionAdd("vairable", "variable");
+            correctionAdd("variabes", "variable");
+            correctionAdd("VARABLE", "variable");
+            correctionAdd("Varialbe", "variable");
+            correctionAdd("varaibles", "variable");
+            correctionAdd("vraiable", "variable");
+            correctionAdd("Variable", "variable");
+            correctionAdd("variale", "variable");
+            correctionAdd("Vairable", "variable");
+            correctionAdd("Var", "variable");
+
+            correctionAdd("env var", "environment variable");
+            correctionAdd("Env Var", "environment variable");
+            correctionAdd("ENV-Variable", "environment variable");
+            correctionAdd("envar", "environment variable");
+            correctionAdd("envionmental variable", "environment variable");
+            correctionAdd("Environment Variable", "environment variable");
+            correctionAdd("ENV var", "environment variable");
+            correctionAdd("env variable", "environment variable");
+            correctionAdd("environemt variable", "environment variable");
+            correctionAdd("environement variable", "environment variable");
+            correctionAdd("environment var", "environment variable");
+            correctionAdd("env. variable", "environment variable");
+            correctionAdd("Environment variable", "environment variable");
+            correctionAdd("env's variable", "environment variable");
+            correctionAdd("ENV variable", "environment variable");
+            correctionAdd("envvar", "environment variable");
+            correctionAdd("Environment variables", "environment variable");
+            correctionAdd("environment variables", "environment variable");
+            correctionAdd("env vars", "environment variable");
+            correctionAdd("ENV VARIABLE", "environment variable");
+            correctionAdd("environments vars", "environment variable");
+            correctionAdd("environment vars", "environment variable");
+            correctionAdd("environments var", "environment variable");
+            correctionAdd("env. var", "environment variable");
+            correctionAdd("Env variable", "environment variable");
+            correctionAdd("Environmental variable", "environment variable");
+            correctionAdd("environmental variable", "environment variable");
+            correctionAdd("Enviornment variable", "environment variable");
+            correctionAdd("enviornment variable", "environment variable");
+            correctionAdd("enviroment variable", "environment variable");
+            correctionAdd("environment-variable", "environment variable");
+
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
 
@@ -3555,10 +3618,10 @@ namespace OverflowHelper.core
             correctionAdd("set-variable", "Set-Variable");
 
             // Of PowerShell...
-            correctionAdd("format-table", "Format-Table");
+            correctionAdd("get-variable", "Get-Variable");
 
             // Of PowerShell...
-            correctionAdd("get-variable", "Get-Variable");
+            correctionAdd("format-table", "Format-Table");
 
             // Of PowerShell...
             correctionAdd("get-winevent", "Get-WinEvent");
@@ -4208,6 +4271,7 @@ namespace OverflowHelper.core
             correctionAdd("synchronyze", "synchronise");
             correctionAdd("syncronous", "synchronise");
             correctionAdd("syncronized", "synchronise"); // Not 100% correct. Add a tense feature?
+            correctionAdd("syncronise", "synchronise");
 
             correctionAdd("async", "asynchronously");
             correctionAdd("Async", "asynchronously");
@@ -7163,68 +7227,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gpl", "GPL");
 
-            correctionAdd("state-variable", "state variable");
-
-            correctionAdd("var", "variable");
-            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
-            correctionAdd("varialbe", "variable");
-            correctionAdd("varibale", "variable");
-            correctionAdd("variabe", "variable");
-            correctionAdd("valiarble", "variable");
-            correctionAdd("varible", "variable");
-            correctionAdd("variales", "variable");
-            correctionAdd("varaible", "variable");
-            correctionAdd("vailble", "variable");
-            correctionAdd("varialble", "variable");
-            correctionAdd("varable", "variable");
-            correctionAdd("variabel", "variable");
-            correctionAdd("Variabile", "variable");
-            correctionAdd("variabile", "variable");
-            correctionAdd("vaibles", "variable");
-            correctionAdd("vaible", "variable");
-            correctionAdd("vairiables", "variable");
-            correctionAdd("vairable", "variable");
-            correctionAdd("variabes", "variable");
-            correctionAdd("VARABLE", "variable");
-            correctionAdd("Varialbe", "variable");
-            correctionAdd("varaibles", "variable");
-            correctionAdd("vraiable", "variable");
-            correctionAdd("Variable", "variable");
-            correctionAdd("variale", "variable");
-            correctionAdd("Vairable", "variable");
-
-            correctionAdd("env var", "environment variable");
-            correctionAdd("Env Var", "environment variable");
-            correctionAdd("ENV-Variable", "environment variable");
-            correctionAdd("envar", "environment variable");
-            correctionAdd("envionmental variable", "environment variable");
-            correctionAdd("Environment Variable", "environment variable");
-            correctionAdd("ENV var", "environment variable");
-            correctionAdd("env variable", "environment variable");
-            correctionAdd("environemt variable", "environment variable");
-            correctionAdd("environement variable", "environment variable");
-            correctionAdd("environment var", "environment variable");
-            correctionAdd("env. variable", "environment variable");
-            correctionAdd("Environment variable", "environment variable");
-            correctionAdd("env's variable", "environment variable");
-            correctionAdd("ENV variable", "environment variable");
-            correctionAdd("envvar", "environment variable");
-            correctionAdd("Environment variables", "environment variable");
-            correctionAdd("environment variables", "environment variable");
-            correctionAdd("env vars", "environment variable");
-            correctionAdd("ENV VARIABLE", "environment variable");
-            correctionAdd("environments vars", "environment variable");
-            correctionAdd("environment vars", "environment variable");
-            correctionAdd("environments var", "environment variable");
-            correctionAdd("env. var", "environment variable");
-            correctionAdd("Env variable", "environment variable");
-            correctionAdd("Environmental variable", "environment variable");
-            correctionAdd("environmental variable", "environment variable");
-            correctionAdd("Enviornment variable", "environment variable");
-            correctionAdd("enviornment variable", "environment variable");
-            correctionAdd("enviroment variable", "environment variable");
-            correctionAdd("environment-variable", "environment variable");
-
             correctionAdd("avaliable", "available");
             correctionAdd("abailable", "available");
             correctionAdd("availble", "available");
@@ -9182,6 +9184,7 @@ namespace OverflowHelper.core
             correctionAdd("upwork", "Upwork");
             correctionAdd("UpWork", "Upwork");
             correctionAdd("Up work", "Upwork");
+            correctionAdd("Upwork.com", "Upwork");
 
             correctionAdd("guess work", "guesswork");
 
@@ -15801,6 +15804,8 @@ namespace OverflowHelper.core
 
             correctionAdd("LA", "logic analyser");
             correctionAdd("Logic Analyzer", "logic analyser");
+            correctionAdd("Logic analyzer", "logic analyser");
+            correctionAdd("logic analyzer", "logic analyser");
 
             correctionAdd("netbios-ns", "port 137");
 
@@ -16114,6 +16119,7 @@ namespace OverflowHelper.core
             correctionAdd("repetetive", "repetitive");
 
             correctionAdd("sinewave", "sine wave");
+            correctionAdd("sin wave", "sine wave");
 
             correctionAdd("UB", "undefined behaviour");
             correctionAdd("Undefined Behavior", "undefined behaviour");
@@ -18390,6 +18396,8 @@ namespace OverflowHelper.core
             correctionAdd("vco", "VCO");
 
             correctionAdd("yolo", "YOLO");
+            correctionAdd("Yolo", "YOLO");
+            correctionAdd("You Only Look Once", "YOLO");
 
             correctionAdd("abscence", "absence");
             correctionAdd("Abcense", "absence");
@@ -18615,6 +18623,7 @@ namespace OverflowHelper.core
             correctionAdd("keepign", "keeping");
 
             correctionAdd("miminal", "minimal");
+            correctionAdd("minial", "minimal");
 
             correctionAdd("occassion", "occasion");
             correctionAdd("occation", "occasion");
@@ -31137,6 +31146,7 @@ namespace OverflowHelper.core
             correctionAdd("fontawsome", "Font Awesome");
 
             correctionAdd("ansynchronous", "asynchronous");
+            correctionAdd("asynch", "asynchronous");
 
             correctionAdd("bulldodge", "bulldoze");
 
@@ -31629,6 +31639,7 @@ namespace OverflowHelper.core
 
             correctionAdd("winodw", "window");
             correctionAdd("Winodw", "window");
+            correctionAdd("widow", "window");
 
             correctionAdd("passioned", "passionate");
             correctionAdd("pasioned", "passionate");
@@ -35727,7 +35738,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SYSTEMCTL", "systemctl");
 
-            correctionAdd("VMSTAT", "vmstat");
+            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
 
             correctionAdd("well formed", "well-formed");
 
@@ -41671,6 +41682,8 @@ namespace OverflowHelper.core
             correctionAdd("last, but not least", "last but not least");
             correctionAdd("last but no least", "last but not least");
             correctionAdd("but no least", "last but not least");
+            correctionAdd("Last but not least", "last but not least");
+            correctionAdd("Last, but not least", "last but not least");
 
             correctionAdd("multi-national", "multinational");
 
@@ -41897,6 +41910,15 @@ namespace OverflowHelper.core
             correctionAdd("system-on-chip", "system on a chip");
             correctionAdd("SoC", "system on a chip");
             correctionAdd("system-on-a-chip", "system on a chip");
+
+            correctionAdd("Java 11", "Java&nbsp;11");
+            correctionAdd("java 11", "Java&nbsp;11");
+
+            correctionAdd("CNN", "convolutional neural network");
+
+            correctionAdd("over-formatting", "overformatting");
+
+            correctionAdd("urjent", "urgent");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65902,6 +65924,14 @@ namespace OverflowHelper.core
 
             URL_Add("system on a chip", "https://en.wikipedia.org/wiki/System_on_a_chip");
 
+            URL_Add("Java&nbsp;11", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
+
+            URL_Add("convolutional neural network", "https://en.wikipedia.org/wiki/Convolutional_neural_network");
+
+            URL_Add("overformatting", "https://en.wiktionary.org/wiki/overformat#Verb");
+
+            URL_Add("urgent", "https://en.wiktionary.org/wiki/urgent#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66042,6 +66072,7 @@ namespace OverflowHelper.core
             correctionAdd("int_", "it_");
             correctionAdd("iit_", "it_");
             correctionAdd("itt_", "it_");
+            correctionAdd("It_", "it_");
 
             correctionAdd("set-up_", "setup_");
             correctionAdd("set up_", "setup_");
