@@ -853,6 +853,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lang-cpp", "```lang-cpp");
             correctionAdd("cpp-lang", "```lang-cpp");
+            correctionAdd("lang-c++", "```lang-cpp");
 
             correctionAdd("lang-go", "```lang-golang");
 
@@ -6380,6 +6381,7 @@ namespace OverflowHelper.core
             correctionAdd("Beacause", "because");
             correctionAdd("cuase", "because");
             correctionAdd("Becouse", "because");
+            correctionAdd("bcse", "because");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -13810,6 +13812,7 @@ namespace OverflowHelper.core
             correctionAdd("ASP.net Core", "ASP.NET Core");
             correctionAdd("ASP Net Core", "ASP.NET Core");
             correctionAdd("ASP .Net Core", "ASP.NET Core");
+            correctionAdd("Asp.netCore", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -16765,6 +16768,7 @@ namespace OverflowHelper.core
             correctionAdd("allmost", "almost");
 
             correctionAdd("answeared", "answered");
+            correctionAdd("aswered", "answered");
 
             correctionAdd("anti aliasing", "antialiasing");
             correctionAdd("Anti aliasing", "antialiasing");
@@ -16890,6 +16894,7 @@ namespace OverflowHelper.core
             correctionAdd("youll", "you’ll");
             correctionAdd("you'l", "you’ll");
             correctionAdd("you'll", "you’ll");
+            correctionAdd("youl", "you’ll");
 
             correctionAdd("APOLLO", "Apollo");
 
@@ -18097,6 +18102,7 @@ namespace OverflowHelper.core
             correctionAdd("sinthetize", "synthetise");
 
             correctionAdd("transparancy", "transparency");
+            correctionAdd("transperancy", "transparency");
 
             correctionAdd("ohm's law", "Ohm's law");
             correctionAdd("Ohm law", "Ohm's law");
@@ -20085,6 +20091,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ad blocker", "adblocker");
             correctionAdd("ad-blocker", "adblocker");
+            correctionAdd("ADBlocker", "adblocker");
 
             correctionAdd("arrange marriage", "arranged marriage");
 
@@ -24324,6 +24331,7 @@ namespace OverflowHelper.core
             correctionAdd("versión", "version");
             correctionAdd("Ver", "version");
             correctionAdd("ver", "version");
+            correctionAdd("Version", "version");
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
@@ -31506,6 +31514,7 @@ namespace OverflowHelper.core
             correctionAdd("cann", "can");
             correctionAdd("Can", "can");
             correctionAdd("cam", "can");
+            correctionAdd("cn", "can");
 
             correctionAdd("quiker", "quicker");
 
@@ -32912,6 +32921,8 @@ namespace OverflowHelper.core
 
             correctionAdd("nan", "NaN");
             correctionAdd("Nan", "NaN");
+            correctionAdd("Not-a-Number", "NaN");
+            correctionAdd("not a number", "NaN");
 
             correctionAdd("Sri lanka", "Sri Lanka");
             correctionAdd("Srilanka", "Sri Lanka");
@@ -37148,6 +37159,7 @@ namespace OverflowHelper.core
             correctionAdd("constain", "contain");
 
             correctionAdd("depricated", "deprecated");
+            correctionAdd("depreciated", "deprecated");
 
             correctionAdd("decribed", "described");
             correctionAdd("discribed", "described");
@@ -41701,6 +41713,7 @@ namespace OverflowHelper.core
             correctionAdd("contextmenu", "context menu");
 
             correctionAdd("doubt", "question (Indian English)");
+            correctionAdd("dout", "question (Indian English)");
 
             correctionAdd("NGRAM", "n-gram");
             correctionAdd("nGRAM", "n-gram");
@@ -41919,6 +41932,45 @@ namespace OverflowHelper.core
             correctionAdd("over-formatting", "overformatting");
 
             correctionAdd("urjent", "urgent");
+
+            correctionAdd("bottommost", "bottom-most");
+
+            correctionAdd("bouding", "bounding");
+
+            correctionAdd("bouding box", "bounding box");
+
+            correctionAdd("COEP", "cross-origin resource policy");
+            correctionAdd("CORP", "cross-origin resource policy");
+            correctionAdd("Cross-Origin Resource Policy", "cross-origin resource policy");
+
+            correctionAdd("discernable", "discernible");
+
+            correctionAdd("displaied", "displayed");
+
+            correctionAdd("freestanding", "free-standing");
+
+            correctionAdd("jorney", "journey");
+
+            correctionAdd("lauch.json", "launch.json");
+
+            correctionAdd("Opacity", "opacity");
+
+            correctionAdd("poped", "popped");
+
+            correctionAdd("poped up", "popped up");
+
+            correctionAdd("post processing", "postprocessing");
+            correctionAdd("Postprocessing", "postprocessing");
+            correctionAdd("post-processing", "postprocessing");
+
+            correctionAdd("semi transparent", "semitransparent");
+            correctionAdd("semi-transparant", "semitransparent");
+            correctionAdd("semi transparant", "semitransparent");
+            correctionAdd("semi-transparent", "semitransparent");
+
+            correctionAdd("for my surprise", "to my surprise");
+
+            correctionAdd("transparant", "transparent");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -65932,6 +65984,38 @@ namespace OverflowHelper.core
 
             URL_Add("urgent", "https://en.wiktionary.org/wiki/urgent#Adjective");
 
+            URL_Add("bottom-most", "https://en.wiktionary.org/wiki/bottom-most#Adjective");
+
+            URL_Add("bounding", "https://en.wiktionary.org/wiki/bounding#Noun");
+
+            URL_Add("bounding box", "https://en.wikipedia.org/wiki/Minimum_bounding_box");
+
+            URL_Add("cross-origin resource policy", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy_(CORP)");
+
+            URL_Add("discernible", "https://en.wiktionary.org/wiki/discernible#Adjective");
+
+            URL_Add("displayed", "https://en.wiktionary.org/wiki/display#Verb");
+
+            URL_Add("free-standing", "https://en.wiktionary.org/wiki/free-standing#Adjective");
+
+            URL_Add("journey", "https://en.wiktionary.org/wiki/journey#Noun");
+
+            URL_Add("launch.json", "https://code.visualstudio.com/docs/cpp/launch-json-reference");
+
+            URL_Add("opacity", "https://en.wiktionary.org/wiki/opacity#Noun");
+
+            URL_Add("popped", "https://en.wiktionary.org/wiki/pop#Verb");
+
+            URL_Add("popped up", "https://en.wiktionary.org/wiki/pop_up#Verb");
+
+            URL_Add("postprocessing", "https://en.wiktionary.org/wiki/postprocessing#Noun");
+
+            URL_Add("semitransparent", "https://en.wiktionary.org/wiki/semitransparent#Adjective");
+
+            URL_Add("to my surprise", "https://dictionary.cambridge.org/dictionary/english/surprise");
+
+            URL_Add("transparent", "https://en.wiktionary.org/wiki/transparent#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66495,6 +66579,7 @@ namespace OverflowHelper.core
             correctionAdd("an_", "and_");
             correctionAdd("en_", "and_");
             correctionAdd("amd_", "and_");
+            correctionAdd("nd_", "and_");
 
             correctionAdd("home-brew_", "homebrewed_");
 
