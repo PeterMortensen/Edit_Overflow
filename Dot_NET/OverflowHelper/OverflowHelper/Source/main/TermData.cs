@@ -490,6 +490,7 @@ namespace OverflowHelper.core
 
             correctionAdd("jdk", "JDK");
             correctionAdd("Jdk", "JDK");
+            correctionAdd("JDk", "JDK");
 
             correctionAdd("powersupply", "power supply");
 
@@ -14592,6 +14593,7 @@ namespace OverflowHelper.core
             correctionAdd("REACT.js", "React");
             correctionAdd("REACT", "React");
             correctionAdd("reactJS", "React");
+            correctionAdd("Reacty", "React");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -14985,6 +14987,7 @@ namespace OverflowHelper.core
             correctionAdd("star-wars", "Star Wars");
             correctionAdd("Starwars", "Star Wars");
             correctionAdd("starwars", "Star Wars");
+            correctionAdd("Star wars", "Star Wars");
 
             correctionAdd("tikz", "TikZ");
             correctionAdd("Tikz", "TikZ");
@@ -16053,6 +16056,8 @@ namespace OverflowHelper.core
             correctionAdd("Spreadsheed", "spreadsheet");
             correctionAdd("spreadsheed", "spreadsheet");
             correctionAdd("Spreadsheet", "spreadsheet");
+            correctionAdd("spreadhsset", "spreadsheet");
+            correctionAdd("spreadshset", "spreadsheet");
 
             correctionAdd("sintax", "syntax");
             correctionAdd("sytax", "syntax");
@@ -17692,6 +17697,7 @@ namespace OverflowHelper.core
             correctionAdd("multible", "multiple");
             correctionAdd("mulitple", "multiple");
             correctionAdd("multipe", "multiple");
+            correctionAdd("multipile", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -18807,6 +18813,7 @@ namespace OverflowHelper.core
             correctionAdd("cantaing", "containing");
             correctionAdd("cantaning", "containing");
             correctionAdd("contianing", "containing");
+            correctionAdd("containig", "containing");
 
             correctionAdd("verifed", "verified");
 
@@ -19571,6 +19578,11 @@ namespace OverflowHelper.core
 
             correctionAdd("incorrec", "incorrect");
             correctionAdd("incorect", "incorrect");
+
+            correctionAdd("auto correct", "autocorrect");
+
+            correctionAdd("corect", "correct");
+            correctionAdd("vorrect", "correct");
 
             correctionAdd("releated", "related");
             correctionAdd("realted", "related");
@@ -21891,6 +21903,7 @@ namespace OverflowHelper.core
             correctionAdd("mamedraro", "Shakhriyar Mamedyarov"); // Chess
 
             correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
+            correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
             //
             // End of the chess part
 
@@ -23640,6 +23653,8 @@ namespace OverflowHelper.core
 
             correctionAdd("superceeded", "superseded");
             correctionAdd("superceded", "superseded");
+            correctionAdd("surpersed", "superseded");
+            correctionAdd("supersed", "superseded");
 
             correctionAdd("SilkTest", "Silk Test");
             correctionAdd("Silktest", "Silk Test");
@@ -29570,6 +29585,9 @@ namespace OverflowHelper.core
             correctionAdd("Macbook M1 air", "MacBook Air (M1)");
             correctionAdd("macbook air m1", "MacBook Air (M1)");
             correctionAdd("MacBook Air M1", "MacBook Air (M1)");
+            correctionAdd("Mac air M1", "MacBook Air (M1)");
+            correctionAdd("Macbook air M1", "MacBook Air (M1)");
+            correctionAdd("MacBook M1 Chip", "MacBook Air (M1)");
 
             correctionAdd("twitch", "Twitch");
 
@@ -32926,8 +32944,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Sri lanka", "Sri Lanka");
             correctionAdd("Srilanka", "Sri Lanka");
-
-            correctionAdd("auto correct", "autocorrect");
 
             correctionAdd("bi-monthly", "bimonthly");
             correctionAdd("bi monthly", "bimonthly");
@@ -40319,8 +40335,6 @@ namespace OverflowHelper.core
             correctionAdd("nltk", "Natural Language Toolkit");
             correctionAdd("NLTK", "Natural Language Toolkit");
 
-            correctionAdd("corect", "correct");
-
             correctionAdd("dealocation", "deallocation");
 
             correctionAdd("maintaing", "maintaining");
@@ -41188,6 +41202,7 @@ namespace OverflowHelper.core
             correctionAdd("First questions", "First questions review queue");
             correctionAdd("first questions", "First questions review queue");
             correctionAdd("First posts", "First questions review queue");
+            correctionAdd("first question review queue", "First questions review queue");
 
             correctionAdd("immer", "Immer");
 
@@ -41926,6 +41941,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Java 11", "Java&nbsp;11");
             correctionAdd("java 11", "Java&nbsp;11");
+            correctionAdd("JAVA 11", "Java&nbsp;11");
 
             correctionAdd("CNN", "convolutional neural network");
 
@@ -41971,6 +41987,16 @@ namespace OverflowHelper.core
             correctionAdd("for my surprise", "to my surprise");
 
             correctionAdd("transparant", "transparent");
+
+            correctionAdd("Android Studio Arctic Fox", "Android Studio 4.2 (Arctic Fox)");
+
+            correctionAdd("Apereo", "Jasig");
+
+            correctionAdd("wikimedia commons", "Wikimedia Commons");
+
+            correctionAdd("elder", "older");
+
+            correctionAdd("Preferences", "preferences");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66015,6 +66041,16 @@ namespace OverflowHelper.core
             URL_Add("to my surprise", "https://dictionary.cambridge.org/dictionary/english/surprise");
 
             URL_Add("transparent", "https://en.wiktionary.org/wiki/transparent#Adjective");
+
+            URL_Add("Android Studio 4.2 (Arctic Fox)", "https://en.wikipedia.org/wiki/Android_Studio#Version_history");
+
+            URL_Add("Jasig", "https://en.wikipedia.org/wiki/Jasig");
+
+            URL_Add("Wikimedia Commons", "https://en.wikipedia.org/wiki/Wikimedia_Commons");
+
+            URL_Add("older", "https://en.wiktionary.org/wiki/older#Adjective");
+
+            URL_Add("preferences", "https://en.wiktionary.org/wiki/preferences#Noun_2");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
