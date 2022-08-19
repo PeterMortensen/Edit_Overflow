@@ -1430,6 +1430,7 @@ namespace OverflowHelper.core
             correctionAdd("Win forms", "Windows Forms");
             correctionAdd("WindowForm", "Windows Forms");
             correctionAdd("Window Forms", "Windows Forms");
+            correctionAdd("Windows-Form", "Windows Forms");
 
             correctionAdd("tiff", "TIFF");
             correctionAdd("tif", "TIFF");
@@ -7701,6 +7702,7 @@ namespace OverflowHelper.core
             correctionAdd("directorys", "directories");
             correctionAdd("directores", "directories");
             correctionAdd("diectories", "directories");
+            correctionAdd("dir's", "directories");
 
             correctionAdd("sub-directories", "subdirectories");
             correctionAdd("subdirs", "subdirectories");
@@ -12277,6 +12279,7 @@ namespace OverflowHelper.core
             correctionAdd("android 3", "Android&nbsp;3 (Honeycomb)");
             correctionAdd("Android 3", "Android&nbsp;3 (Honeycomb)");
             correctionAdd("Android3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("honeycomb", "Android&nbsp;3 (Honeycomb)");
 
             correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich)"); // Sort of identity mapping
             correctionAdd("Android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
@@ -13059,6 +13062,7 @@ namespace OverflowHelper.core
             correctionAdd("couldn´t", "couldn’t");
             correctionAdd("couldn't", "couldn’t");
             correctionAdd("could'n", "couldn’t");
+            correctionAdd("couln't", "couldn’t");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -13158,6 +13162,7 @@ namespace OverflowHelper.core
             correctionAdd("Up-Vote", "upvote");
             correctionAdd("Upvote", "upvote");
             correctionAdd("Up vote", "upvote");
+            correctionAdd("upmod", "upvote");
 
             correctionAdd("down-vote", "downvote");
             correctionAdd("dv", "downvote");
@@ -13170,6 +13175,7 @@ namespace OverflowHelper.core
             correctionAdd("DownVote", "downvote");
             correctionAdd("Down Vote", "downvote");
             correctionAdd("Down-vote", "downvote");
+            correctionAdd("downmod", "downvote");
 
             correctionAdd("every", "every time"); // What is this????
             correctionAdd("everytime", "every time");
@@ -15934,6 +15940,37 @@ namespace OverflowHelper.core
             correctionAdd("Responsive design", "responsive web design");
             correctionAdd("Responsive Design", "responsive web design");
 
+            correctionAdd("material design", "Material Design");
+            correctionAdd("Material design", "Material Design");
+            correctionAdd("Meterial Design", "Material Design");
+
+            correctionAdd("XD", "experience design");
+
+            correctionAdd("DDD", "domain-driven design"); // Expansion.
+            correctionAdd("Domain Driven Design", "domain-driven design");
+            correctionAdd("Domain-Driven Design", "domain-driven design");
+            correctionAdd("ddd", "domain-driven design");
+            correctionAdd("domain driven development", "domain-driven design");
+
+            correctionAdd("UXD", "user experience design");
+
+            correctionAdd("DOD", "data-oriented design");
+
+            correctionAdd("cad", "computer-aided design");
+            correctionAdd("CAD", "computer-aided design");
+
+            correctionAdd("re-design", "redesign");
+
+            correctionAdd("desing", "design");
+            correctionAdd("Design", "design");
+
+            correctionAdd("InDesign", "Adobe InDesign");
+            correctionAdd("Indesign", "Adobe InDesign");
+
+            correctionAdd("ant design", "Ant Design");
+            correctionAdd("Antd", "Ant Design");
+            correctionAdd("antd", "Ant Design");
+
             correctionAdd("themself", "themselves");
             correctionAdd("them selfs", "themselves");
             correctionAdd("themselfs", "themselves");
@@ -17226,10 +17263,6 @@ namespace OverflowHelper.core
 
             correctionAdd("elance", "Elance");
 
-            correctionAdd("material design", "Material Design");
-            correctionAdd("Material design", "Material Design");
-            correctionAdd("Meterial Design", "Material Design");
-
             correctionAdd("Ntp", "NTP");
             correctionAdd("ntp", "NTP");
 
@@ -17712,6 +17745,7 @@ namespace OverflowHelper.core
             correctionAdd("responswe", "response");
 
             correctionAdd("seperating", "separating");
+            correctionAdd("seprating", "separating");
 
             correctionAdd("CloudFlare", "Cloudflare");
             correctionAdd("cloudflare", "Cloudflare");
@@ -17797,6 +17831,7 @@ namespace OverflowHelper.core
 
             correctionAdd("reciver", "receiver");
             correctionAdd("reciever", "receiver");
+            correctionAdd("recevier", "receiver");
 
             correctionAdd("unbeknowst", "unbeknownst");
 
@@ -17835,12 +17870,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
-
-            correctionAdd("DDD", "domain-driven design"); // Expansion.
-            correctionAdd("Domain Driven Design", "domain-driven design");
-            correctionAdd("Domain-Driven Design", "domain-driven design");
-            correctionAdd("ddd", "domain-driven design");
-            correctionAdd("domain driven development", "domain-driven design");
 
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
@@ -18578,6 +18607,7 @@ namespace OverflowHelper.core
             correctionAdd("somthings", "something");
             correctionAdd("somehthing", "something");
             correctionAdd("smething", "something");
+            correctionAdd("sometihing", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -18886,6 +18916,7 @@ namespace OverflowHelper.core
             correctionAdd("Gnu Screen", "Screen");
             correctionAdd("gnu Screen", "Screen");
             correctionAdd("GnuScreen", "Screen");
+            correctionAdd("SCREEN", "Screen");
 
             correctionAdd("wtf", "WTF");
 
@@ -19463,6 +19494,7 @@ namespace OverflowHelper.core
             correctionAdd("tranform", "transform");
             correctionAdd("Transfrom", "transform");
             correctionAdd("transfrom", "transform");
+            correctionAdd("trasform", "transform");
 
             correctionAdd("Blazer", "Blazor");
             correctionAdd("blazor", "Blazor");
@@ -21206,8 +21238,6 @@ namespace OverflowHelper.core
             correctionAdd("TamperMonkey", "Tampermonkey");
             correctionAdd("Tamper Monkey", "Tampermonkey");
 
-            correctionAdd("XD", "experience design");
-
             correctionAdd("fgitw", "fastest gun in the west");
             correctionAdd("FGITW", "fastest gun in the west");
             correctionAdd("Fastest Gun in the West", "fastest gun in the west");
@@ -21216,8 +21246,6 @@ namespace OverflowHelper.core
             correctionAdd("fgtw", "fastest gun in the west");
             correctionAdd("FGitW", "fastest gun in the west");
             correctionAdd("Quick Draw McGraw", "fastest gun in the west");
-
-            correctionAdd("UXD", "user experience design");
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
@@ -22591,8 +22619,6 @@ namespace OverflowHelper.core
 
             correctionAdd("conotation", "connotation");
 
-            correctionAdd("DOD", "data-oriented design");
-
             correctionAdd("dis-assembly", "disassembly");
 
             correctionAdd("grafic", "graphic");
@@ -23009,9 +23035,6 @@ namespace OverflowHelper.core
             correctionAdd("Gnd", "GND");
 
             correctionAdd("rtfm", "RTFM");
-
-            correctionAdd("cad", "computer-aided design");
-            correctionAdd("CAD", "computer-aided design");
 
             correctionAdd("DS", "data science");
             correctionAdd("Data Science", "data science");
@@ -24387,8 +24410,6 @@ namespace OverflowHelper.core
             correctionAdd("1-shot", "one-shot");
 
             correctionAdd("oportunities", "opportunities");
-
-            correctionAdd("re-design", "redesign");
 
             correctionAdd("reprensent", "represent");
             correctionAdd("repreasent", "represent");
@@ -29349,8 +29370,6 @@ namespace OverflowHelper.core
 
             correctionAdd("decleared", "declared");
 
-            correctionAdd("desing", "design");
-
             correctionAdd("food for fought", "food for thought");
 
             correctionAdd("Golden Ratio", "golden ratio");
@@ -32192,6 +32211,7 @@ namespace OverflowHelper.core
 
             correctionAdd("enties", "entries");
             correctionAdd("entrees", "entries");
+            correctionAdd("enteries", "entries");
 
             correctionAdd("sorta", "sort of");
 
@@ -34720,6 +34740,7 @@ namespace OverflowHelper.core
             correctionAdd("Command-Line", "command line");
             correctionAdd("commandLine", "command line");
             correctionAdd("command Line", "command line");
+            correctionAdd("cmdline", "command line");
 
             correctionAdd("time line", "timeline");
 
@@ -36194,6 +36215,7 @@ namespace OverflowHelper.core
             correctionAdd("co-ax", "coax");
 
             correctionAdd("cross post", "crosspost");
+            correctionAdd("x-post", "crosspost");
 
             correctionAdd("hepler", "helper");
 
@@ -37908,6 +37930,7 @@ namespace OverflowHelper.core
             correctionAdd("android 12", "Android 12");
             correctionAdd("Android S", "Android 12");
             correctionAdd("Snow Cone", "Android 12");
+            correctionAdd("SDK 31", "Android 12");
 
             correctionAdd("Mass-Transit", "MassTransit");
 
@@ -38376,6 +38399,7 @@ namespace OverflowHelper.core
             correctionAdd("6 – 8 weeks", "6 - 8 weeks");
             correctionAdd("6 - 8 Weeks", "6 - 8 weeks");
             correctionAdd("6 to 8 weeks", "6 - 8 weeks");
+            correctionAdd("6 to 8", "6 - 8 weeks");
 
             correctionAdd("freind", "friend");
 
@@ -39567,10 +39591,6 @@ namespace OverflowHelper.core
             correctionAdd("higher res", "higher-resolution");
             correctionAdd("higher-res", "higher-resolution");
 
-            correctionAdd("ant design", "Ant Design");
-            correctionAdd("Antd", "Ant Design");
-            correctionAdd("antd", "Ant Design");
-
             correctionAdd("DeTeXify", "Detexify");
 
             correctionAdd("hexo", "Hexo");
@@ -40632,9 +40652,6 @@ namespace OverflowHelper.core
             correctionAdd("uVision", "µVision");
 
             correctionAdd("Xquery", "XQuery");
-
-            correctionAdd("InDesign", "Adobe InDesign");
-            correctionAdd("Indesign", "Adobe InDesign");
 
             correctionAdd("AnyCPU", "Any CPU");
             correctionAdd("any cpu", "Any CPU");
@@ -41989,14 +42006,37 @@ namespace OverflowHelper.core
             correctionAdd("transparant", "transparent");
 
             correctionAdd("Android Studio Arctic Fox", "Android Studio 4.2 (Arctic Fox)");
+            correctionAdd("Artic Fox", "Android Studio 4.2 (Arctic Fox)");
+            correctionAdd("Android Studio Arctic Fox (4.2)", "Android Studio 4.2 (Arctic Fox)");
 
             correctionAdd("Apereo", "Jasig");
+            correctionAdd("JASIG", "Jasig");
+            correctionAdd("JA-SIG", "Jasig");
 
             correctionAdd("wikimedia commons", "Wikimedia Commons");
 
             correctionAdd("elder", "older");
 
             correctionAdd("Preferences", "preferences");
+            correctionAdd("Perferences", "preferences");
+
+            correctionAdd("El Cheapo", "el cheapo");
+
+            correctionAdd("entery", "entry");
+
+            correctionAdd("imort", "import");
+
+            correctionAdd("non-committal", "noncommittal");
+            correctionAdd("non-commital", "noncommittal");
+
+            correctionAdd("Simple Logging Facade for Java", "SLF4J");
+            correctionAdd("slf4j", "SLF4J");
+
+            correctionAdd("rreplacing", "replaced");
+
+            correctionAdd("tripple", "triple");
+
+            correctionAdd("tripple checked", "triple checked");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66051,6 +66091,22 @@ namespace OverflowHelper.core
             URL_Add("older", "https://en.wiktionary.org/wiki/older#Adjective");
 
             URL_Add("preferences", "https://en.wiktionary.org/wiki/preferences#Noun_2");
+
+            URL_Add("el cheapo", "https://en.wiktionary.org/wiki/el_cheapo#Noun");
+
+            URL_Add("entry", "https://en.wiktionary.org/wiki/entry#Noun");
+
+            URL_Add("import", "https://en.wiktionary.org/wiki/import#Noun");
+
+            URL_Add("noncommittal", "https://en.wiktionary.org/wiki/noncommittal#Adjective");
+
+            URL_Add("SLF4J", "https://en.wikipedia.org/wiki/SLF4J");
+
+            URL_Add("replaced", "https://en.wiktionary.org/wiki/replace#Verb");
+
+            URL_Add("triple", "https://en.wiktionary.org/wiki/triple#Adjective");
+
+            URL_Add("triple checked", "https://en.wiktionary.org/wiki/triple_check#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
