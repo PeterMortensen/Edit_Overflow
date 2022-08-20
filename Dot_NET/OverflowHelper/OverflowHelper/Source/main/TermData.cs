@@ -479,6 +479,8 @@ namespace OverflowHelper.core
             correctionAdd("Jave EE", "Java EE");
             correctionAdd("javaEE", "Java EE");
             correctionAdd("j2EE", "Java EE");
+            correctionAdd("Jakarta EE", "Java EE");
+            correctionAdd("Jakarta", "Java EE");
 
             correctionAdd("jsf", "JSF"); // Not actually observed.
 
@@ -5087,6 +5089,7 @@ namespace OverflowHelper.core
             correctionAdd("buidl", "build");
             correctionAdd("Buil", "build");
             correctionAdd("Build", "build");
+            correctionAdd("buld", "build");
 
             correctionAdd("cocoa", "Cocoa");
 
@@ -6419,6 +6422,8 @@ namespace OverflowHelper.core
             correctionAdd("Teamtreehouse", "Treehouse");
 
             correctionAdd("exuse", "excuse");
+            correctionAdd("Exscuse", "excuse");
+            correctionAdd("exscuse", "excuse");
 
             correctionAdd("diffuse", "Diffuse");
 
@@ -6926,6 +6931,7 @@ namespace OverflowHelper.core
             correctionAdd("authencation", "authentication");
             correctionAdd("authenticatrion", "authentication");
             correctionAdd("Authentication", "authentication");
+            correctionAdd("AUTH", "authentication");
 
             correctionAdd("Zip", "ZIP");
             correctionAdd("zip", "ZIP");
@@ -10300,6 +10306,7 @@ namespace OverflowHelper.core
             correctionAdd("eqivalent", "equivalent");
             correctionAdd("equivilant", "equivalent");
             correctionAdd("equiv", "equivalent");
+            correctionAdd("equivent", "equivalent");
 
             correctionAdd("parallels", "Parallels");
 
@@ -14536,6 +14543,7 @@ namespace OverflowHelper.core
             correctionAdd("openJDK", "OpenJDK");
             correctionAdd("open jdk", "OpenJDK");
             correctionAdd("OpenJDk", "OpenJDK");
+            correctionAdd("OpenJdk", "OpenJDK");
 
             correctionAdd("instanciate", "instantiate");
             correctionAdd("inatantiate", "instantiate");
@@ -17260,6 +17268,7 @@ namespace OverflowHelper.core
             correctionAdd("ES lint", "ESLint");
             correctionAdd("es lint", "ESLint");
             correctionAdd("es-lint", "ESLint");
+            correctionAdd("ESlint", "ESLint");
 
             correctionAdd("elance", "Elance");
 
@@ -23276,6 +23285,7 @@ namespace OverflowHelper.core
             correctionAdd("GNU pg", "GNU Privacy Guard");
             correctionAdd("gnu pg", "GNU Privacy Guard");
             correctionAdd("gpg", "GNU Privacy Guard");
+            correctionAdd("gnupg", "GNU Privacy Guard");
 
             correctionAdd("mx", "MX record");
             correctionAdd("MX", "MX record");
@@ -23900,6 +23910,8 @@ namespace OverflowHelper.core
 
             correctionAdd("command pallette", "command palette");
             correctionAdd("command pallet", "command palette");
+            correctionAdd("command pallete", "command palette");
+            correctionAdd("Command Palette", "command palette");
 
             correctionAdd("incomprehensability", "incomprehensibility");
 
@@ -30258,6 +30270,7 @@ namespace OverflowHelper.core
 
             correctionAdd("client side", "client-side");
             correctionAdd("clien side", "client-side");
+            correctionAdd("Client side", "client-side");
 
             correctionAdd("Source insight", "Source Insight");
             correctionAdd("scoure insight", "Source Insight");
@@ -30372,6 +30385,8 @@ namespace OverflowHelper.core
 
             correctionAdd("mis-understanding", "misunderstanding");
             correctionAdd("missunderstanding", "misunderstanding");
+            correctionAdd("miss understanding", "misunderstanding");
+            correctionAdd("mis understanding", "misunderstanding");
 
             correctionAdd("natral", "natural");
 
@@ -35678,6 +35693,8 @@ namespace OverflowHelper.core
             correctionAdd("Redux Devtools", "Redux DevTools");
 
             correctionAdd("tslint", "TSLint");
+            correctionAdd("TS lint", "TSLint");
+            correctionAdd("ts lint", "TSLint");
 
             correctionAdd("sic", "[sic]");
 
@@ -42032,11 +42049,34 @@ namespace OverflowHelper.core
             correctionAdd("Simple Logging Facade for Java", "SLF4J");
             correctionAdd("slf4j", "SLF4J");
 
-            correctionAdd("rreplacing", "replaced");
+            correctionAdd("rreplacing", "replacing");
 
             correctionAdd("tripple", "triple");
 
             correctionAdd("tripple checked", "triple checked");
+
+            correctionAdd("Azure repos", "Azure Repos");
+
+            correctionAdd("Free UCS Outline Fonts", "GNU FreeFont");
+            correctionAdd("GNU Free Fonts", "GNU FreeFont");
+            correctionAdd("GNU FreeFonts", "GNU FreeFont");
+
+            correctionAdd("Julia Mono", "JuliaMono");
+
+            correctionAdd("SSLv2", "SSL 2.0");
+
+            correctionAdd("TLS1.0", "TLS 1.0");
+
+            correctionAdd("Web Open Font Format", "WOFF");
+            correctionAdd("woff", "WOFF");
+
+            correctionAdd("reenabling", "re-enabling");
+
+            correctionAdd("Visual Studio Code settings", "settings.json");
+
+            correctionAdd("slove", "solve");
+
+            correctionAdd("summonned", "summoned");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66102,11 +66142,31 @@ namespace OverflowHelper.core
 
             URL_Add("SLF4J", "https://en.wikipedia.org/wiki/SLF4J");
 
-            URL_Add("replaced", "https://en.wiktionary.org/wiki/replace#Verb");
+            URL_Add("replacing", "https://en.wiktionary.org/wiki/replace#Verb");
 
             URL_Add("triple", "https://en.wiktionary.org/wiki/triple#Adjective");
 
             URL_Add("triple checked", "https://en.wiktionary.org/wiki/triple_check#Verb");
+
+            URL_Add("Azure Repos", "https://azure.microsoft.com/en-us/services/devops/repos/");
+
+            URL_Add("GNU FreeFont", "https://en.wikipedia.org/wiki/GNU_FreeFont");
+
+            URL_Add("JuliaMono", "https://aur.archlinux.org/packages/ttf-juliamono");
+
+            URL_Add("SSL 2.0", "https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0");
+
+            URL_Add("TLS 1.0", "https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0");
+
+            URL_Add("WOFF", "https://en.wikipedia.org/wiki/Web_Open_Font_Format");
+
+            URL_Add("re-enabling", "https://en.wiktionary.org/wiki/re-enable#Verb");
+
+            URL_Add("settings.json", "https://stackoverflow.com/questions/65908987/how-can-i-open-visual-studio-codes-settings-json-file");
+
+            URL_Add("solve", "https://en.wiktionary.org/wiki/solve#Verb");
+
+            URL_Add("summoned", "https://en.wiktionary.org/wiki/summon#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -66920,6 +66980,8 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:iOS]_", "iOS_");
 
+            correctionAdd("rome_", "Rome_");
+
             // The Stack Overflow tag
             correctionAdd("[tag:Android]_", "Android_");
 
@@ -67480,6 +67542,8 @@ namespace OverflowHelper.core
             URL_Add("Git_", "https://stackoverflow.com/questions/tagged/git");
 
             URL_Add("SQL&nbsp;Server_", "https://stackoverflow.com/questions/tagged/sql-server");
+
+            URL_Add("Rome_", "https://github.com/tmspzz/Rome");
 
         } //addLookupData_alternativeWordSet()
 
