@@ -2733,6 +2733,7 @@ namespace OverflowHelper.core
             correctionAdd("Experts&nbsp;Exchange", "Experts-Exchange");
 
             correctionAdd("shopify", "Shopify");
+            correctionAdd("Shopfiy", "Shopify");
 
             correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
             correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
@@ -3333,6 +3334,7 @@ namespace OverflowHelper.core
             correctionAdd("Command", "command");
             correctionAdd("coand", "command");
             correctionAdd("commande", "command");
+            correctionAdd("Commend", "command");
 
             correctionAdd("commandos", "commands");
             correctionAdd("commads", "commands");
@@ -5861,6 +5863,7 @@ namespace OverflowHelper.core
             correctionAdd("dependancis", "dependencies");
             correctionAdd("dependencys", "dependencies");
             correctionAdd("dependanices", "dependencies");
+            correctionAdd("dependcies", "dependencies");
 
             correctionAdd("depdening", "depending");
             correctionAdd("Dependending", "depending");
@@ -7884,6 +7887,8 @@ namespace OverflowHelper.core
             correctionAdd("modarator", "moderator");
             correctionAdd("moderater", "moderator");
             correctionAdd("Moderator", "moderator");
+            correctionAdd("Moderato", "moderator");
+            correctionAdd("moderato", "moderator");
 
             correctionAdd("cdn", "CDN");
             correctionAdd("content delivery network", "CDN");
@@ -8236,6 +8241,8 @@ namespace OverflowHelper.core
             correctionAdd("twatter", "Twitter");
             correctionAdd("twitte", "Twitter");
             correctionAdd("Tweeter", "Twitter");
+            correctionAdd("TwAtter", "Twitter");
+            correctionAdd("Twatter", "Twitter");
 
             correctionAdd("dos", "DOS");
             correctionAdd("MS DOS", "DOS");
@@ -12488,6 +12495,7 @@ namespace OverflowHelper.core
             correctionAdd("fllowing", "following");
             correctionAdd("fellow", "following");
             correctionAdd("fowlloing", "following");
+            correctionAdd("fellowing", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -13121,6 +13129,12 @@ namespace OverflowHelper.core
 
             correctionAdd("google group", "Google Groups");
 
+            correctionAdd("Fedex", "FedEx");
+            correctionAdd("fedex", "FedEx");
+
+            correctionAdd("ups", "UPS");
+            correctionAdd("United Parcel Service", "UPS");
+
             correctionAdd("MITM", "man-in-the-middle attack");
             correctionAdd("man in the middle attack", "man-in-the-middle attack");
             correctionAdd("MitM", "man-in-the-middle attack");
@@ -13170,6 +13184,7 @@ namespace OverflowHelper.core
             correctionAdd("Upvote", "upvote");
             correctionAdd("Up vote", "upvote");
             correctionAdd("upmod", "upvote");
+            correctionAdd("upovote", "upvote");
 
             correctionAdd("down-vote", "downvote");
             correctionAdd("dv", "downvote");
@@ -13422,6 +13437,7 @@ namespace OverflowHelper.core
             correctionAdd("screnshot", "screenshot");
             correctionAdd("screenshit", "screenshot");
             correctionAdd("screenschot", "screenshot");
+            correctionAdd("screenshoot", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -18174,6 +18190,7 @@ namespace OverflowHelper.core
             correctionAdd("accound", "account");
             correctionAdd("accout", "account");
             correctionAdd("acc", "account");
+            correctionAdd("acoount", "account");
 
             correctionAdd("contributer", "contributor");
 
@@ -18290,6 +18307,7 @@ namespace OverflowHelper.core
             correctionAdd("broblem", "problem");
             correctionAdd("prblem", "problem");
             correctionAdd("problm", "problem");
+            correctionAdd("probleam", "problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -20502,6 +20520,8 @@ namespace OverflowHelper.core
 
             correctionAdd("none working", "nonworking");
             correctionAdd("non-working", "nonworking");
+            correctionAdd("Doesn't working", "nonworking");
+            correctionAdd("doesn't working", "nonworking");
 
             correctionAdd("woking", "working");
             correctionAdd("workring", "working");
@@ -22048,6 +22068,7 @@ namespace OverflowHelper.core
             correctionAdd("catched", "caught");
 
             correctionAdd("criticize", "criticise");
+            correctionAdd("crictisize", "criticise");
 
             correctionAdd("ExFat", "exFAT");
             correctionAdd("exfat", "exFAT");
@@ -23561,6 +23582,8 @@ namespace OverflowHelper.core
             correctionAdd("suspion", "suspicion");
             correctionAdd("suspecion", "suspicion");
             correctionAdd("suspesion", "suspicion");
+            correctionAdd("suspiscion", "suspicion");
+            correctionAdd("suspision", "suspicion");
 
             correctionAdd("Löve", "LÖVE");
             correctionAdd("LOVE2D", "LÖVE");
@@ -25622,6 +25645,9 @@ namespace OverflowHelper.core
             correctionAdd("Legendary", "Legendary badge");
 
             correctionAdd("Marshal", "Marshal badge");
+            correctionAdd("Marshall", "Marshal badge");
+            correctionAdd("marshall badge", "Marshal badge");
+            correctionAdd("Marshall badge", "Marshal badge");
 
             correctionAdd("ennineered", "engineered");
             correctionAdd("engeneered", "engineered");
@@ -26258,6 +26284,7 @@ namespace OverflowHelper.core
             correctionAdd("codingame", "CodinGame");
 
             correctionAdd("CS50", "Harvard CS50");
+            correctionAdd("cs50", "Harvard CS50");
 
             correctionAdd("mindfield", "minefield");
 
@@ -31930,6 +31957,9 @@ namespace OverflowHelper.core
             correctionAdd("disambuguate", "disambiguate");
             correctionAdd("disambugate", "disambiguate");
             correctionAdd("disambuate", "disambiguate");
+            correctionAdd("disambiate", "disambiguate");
+            correctionAdd("disamguiate", "disambiguate");
+            correctionAdd("disambigiate", "disambiguate");
 
             correctionAdd("telethon", "Telethon");
 
@@ -34047,6 +34077,7 @@ namespace OverflowHelper.core
             correctionAdd("bog standard", "bog-standard");
 
             correctionAdd("horizonal", "horizontal");
+            correctionAdd("horitzontal", "horizontal");
 
             correctionAdd("iPhone xr", "iPhone XR");
 
@@ -37993,6 +38024,7 @@ namespace OverflowHelper.core
             correctionAdd("VS 2022", "Visual Studio 2022");
             correctionAdd("Visual Studio 22", "Visual Studio 2022");
             correctionAdd("vs 2022", "Visual Studio 2022");
+            correctionAdd("vs2022", "Visual Studio 2022");
 
             correctionAdd("crawler", "Web crawler");
             correctionAdd("web spider", "Web crawler");
@@ -42077,6 +42109,44 @@ namespace OverflowHelper.core
             correctionAdd("slove", "solve");
 
             correctionAdd("summonned", "summoned");
+
+            correctionAdd("Epplus", "EPPlus");
+            correctionAdd("epplus", "EPPlus");
+
+            correctionAdd("cs50x", "Harvard CS50x");
+
+            correctionAdd("islamophobic", "Islamophobic");
+
+            correctionAdd("Le Chateliers principle", "Le Chatelier's principle");
+
+            correctionAdd("Sparky Linux", "SparkyLinux");
+
+            correctionAdd("steward badge", "Steward badge");
+
+            correctionAdd("buildling", "building");
+            correctionAdd("Buidling", "building");
+            correctionAdd("buidling", "building");
+            correctionAdd("bulidling", "building");
+
+            correctionAdd("edx", "edX");
+
+            correctionAdd("Meta is Murder", "meta is murder");
+
+            correctionAdd("one day", "one-day");
+
+            correctionAdd("one trick ponies", "one-trick ponies");
+
+            correctionAdd("one trick pony", "one-trick pony");
+
+            correctionAdd("pro-tempore", "pro tempore");
+
+            correctionAdd("succeded", "succeeded");
+
+            correctionAdd("wire-less", "wireless");
+            correctionAdd("wireles", "wireless");
+
+            correctionAdd("work-place", "workplace");
+            correctionAdd("work place", "workplace");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66168,6 +66238,42 @@ namespace OverflowHelper.core
 
             URL_Add("summoned", "https://en.wiktionary.org/wiki/summon#Verb");
 
+            URL_Add("EPPlus", "https://github.com/EPPlusSoftware/EPPlus/wiki/Getting-Started");
+
+            URL_Add("Harvard CS50x", "https://en.wikipedia.org/wiki/CS50");
+
+            URL_Add("Islamophobic", "https://en.wiktionary.org/wiki/Islamophobic#Adjective");
+
+            URL_Add("Le Chatelier's principle", "https://en.wikipedia.org/wiki/Le_Chatelier's_principle");
+
+            URL_Add("SparkyLinux", "https://en.wikipedia.org/wiki/SparkyLinux");
+
+            URL_Add("Steward badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("building", "https://en.wiktionary.org/wiki/build#Verb");
+
+            URL_Add("edX", "https://en.wikipedia.org/wiki/EdX");
+
+            URL_Add("meta is murder", "https://www.codinghorror.com/blog/2009/07/meta-is-murder.html");
+
+            URL_Add("one-day", "https://en.wiktionary.org/wiki/one-day#Adjective");
+
+            URL_Add("one-trick ponies", "https://en.wiktionary.org/wiki/one-trick_pony#Noun");
+
+            URL_Add("one-trick pony", "https://en.wiktionary.org/wiki/one-trick_pony#Noun");
+
+            URL_Add("pro tempore", "https://en.wiktionary.org/wiki/pro_tempore#Adjective");
+
+            URL_Add("succeeded", "https://en.wiktionary.org/wiki/succeed#Verb");
+
+            URL_Add("wireless", "https://en.wiktionary.org/wiki/wireless#Adjective");
+
+            URL_Add("workplace", "https://en.wiktionary.org/wiki/workplace#Noun");
+
+            URL_Add("FedEx", "https://en.wikipedia.org/wiki/");
+
+            URL_Add("UPS", "https://en.wikipedia.org/wiki/United_Parcel_Service");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66982,6 +67088,10 @@ namespace OverflowHelper.core
 
             correctionAdd("rome_", "Rome_");
 
+            correctionAdd("CS50_", "CS50 (Stack Exchange site)_");
+
+            correctionAdd("radium_", "Radium_");
+
             // The Stack Overflow tag
             correctionAdd("[tag:Android]_", "Android_");
 
@@ -67544,6 +67654,10 @@ namespace OverflowHelper.core
             URL_Add("SQL&nbsp;Server_", "https://stackoverflow.com/questions/tagged/sql-server");
 
             URL_Add("Rome_", "https://github.com/tmspzz/Rome");
+
+            URL_Add("CS50 (Stack Exchange site)_", "https://cs50.stackexchange.com/tour");
+
+            URL_Add("Radium_", "https://www.npmjs.com/package/radium#how-does-radium-work");
 
         } //addLookupData_alternativeWordSet()
 
