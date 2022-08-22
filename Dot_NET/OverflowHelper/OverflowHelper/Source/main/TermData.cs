@@ -8671,6 +8671,16 @@ namespace OverflowHelper.core
             correctionAdd("SSRS", "SQL Server Reporting Services (SSRS)");
 
             correctionAdd("tls", "TLS");
+            correctionAdd("Transport security Layer", "TLS");
+            correctionAdd("Transport Layer Security", "TLS");
+
+            correctionAdd("TLS1.0", "TLS 1.0");
+            correctionAdd("TLSv1", "TLS 1.0");
+
+            correctionAdd("TLS 1.1", "TLS&nbsp;1.1");
+            correctionAdd("TLSv1.1", "TLS&nbsp;1.1");
+
+            correctionAdd("SSLv2", "SSL 2.0");
 
             correctionAdd("pojo", "POJO");
             correctionAdd("Pojo", "POJO");
@@ -10423,6 +10433,7 @@ namespace OverflowHelper.core
             correctionAdd("thired party", "third-party");
             correctionAdd("thired-party", "third-party");
             correctionAdd("turd party", "third-party");
+            correctionAdd("third parties", "third-party");
 
             correctionAdd("Defination", "definition");
             correctionAdd("defination", "definition");
@@ -15050,6 +15061,7 @@ namespace OverflowHelper.core
             correctionAdd("aparent", "apparent");
             correctionAdd("aparrent", "apparent");
             correctionAdd("apparrent", "apparent");
+            correctionAdd("appearent", "apparent");
 
             correctionAdd("concatention", "concatenation");
             correctionAdd("concatanation", "concatenation");
@@ -16405,6 +16417,7 @@ namespace OverflowHelper.core
             correctionAdd("Walia!", "voilà");
             correctionAdd("Walia", "voilà");
             correctionAdd("walia", "voilà");
+            correctionAdd("voula", "voilà");
 
             correctionAdd("catch 22", "Catch-22");
             correctionAdd("catch-22", "Catch-22");
@@ -17285,6 +17298,7 @@ namespace OverflowHelper.core
             correctionAdd("es lint", "ESLint");
             correctionAdd("es-lint", "ESLint");
             correctionAdd("ESlint", "ESLint");
+            correctionAdd("Eslint", "ESLint");
 
             correctionAdd("elance", "Elance");
 
@@ -20222,6 +20236,7 @@ namespace OverflowHelper.core
             correctionAdd("initialization", "initialisation");
             correctionAdd("initilization", "initialisation");
             correctionAdd("initalization", "initialisation");
+            correctionAdd("intialisation", "initialisation");
 
             correctionAdd("Millennials", "millennials");
             correctionAdd("millinials", "millennials");
@@ -20763,6 +20778,8 @@ namespace OverflowHelper.core
             correctionAdd("clic", "click");
             correctionAdd("lick", "click");
             correctionAdd("clicl", "click");
+            correctionAdd("CLick", "click");
+            correctionAdd("Click", "click");
 
             correctionAdd("extremelly", "extremely");
             correctionAdd("extrimely", "extremely");
@@ -30360,6 +30377,7 @@ namespace OverflowHelper.core
             correctionAdd("annilation", "annihilation");
             correctionAdd("anaylation", "annihilation");
             correctionAdd("anialation", "annihilation");
+            correctionAdd("anhilation", "annihilation");
 
             correctionAdd("dessert", "desert");
 
@@ -37467,6 +37485,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hawking radiation", "Hawking radiation");
             correctionAdd("Hawkin radiation", "Hawking radiation");
+            correctionAdd("Hawking Radiation", "Hawking radiation");
 
             correctionAdd("minizinc", "MiniZinc");
 
@@ -41044,6 +41063,7 @@ namespace OverflowHelper.core
             correctionAdd("abondan", "abandon");
 
             correctionAdd("asympptotic", "asymptotic");
+            correctionAdd("aysmptotic", "asymptotic");
 
             correctionAdd("bidr", "bidirectional");
             correctionAdd("bi-directional", "bidirectional");
@@ -41439,6 +41459,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Manifest", "manifest");
             correctionAdd("Mainfest", "manifest");
+            correctionAdd("manifiest", "manifest");
 
             correctionAdd("thinkpad", "ThinkPad");
             correctionAdd("IBM Stinkpad", "ThinkPad");
@@ -42008,6 +42029,7 @@ namespace OverflowHelper.core
             correctionAdd("Java 11", "Java&nbsp;11");
             correctionAdd("java 11", "Java&nbsp;11");
             correctionAdd("JAVA 11", "Java&nbsp;11");
+            correctionAdd("java11", "Java&nbsp;11");
 
             correctionAdd("CNN", "convolutional neural network");
 
@@ -42095,10 +42117,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Julia Mono", "JuliaMono");
 
-            correctionAdd("SSLv2", "SSL 2.0");
-
-            correctionAdd("TLS1.0", "TLS 1.0");
-
             correctionAdd("Web Open Font Format", "WOFF");
             correctionAdd("woff", "WOFF");
 
@@ -42147,6 +42165,27 @@ namespace OverflowHelper.core
 
             correctionAdd("work-place", "workplace");
             correctionAdd("work place", "workplace");
+
+            correctionAdd("ESA", "European Space Agency");
+
+            correctionAdd("KVM over IP", "IPKVM");
+
+            correctionAdd("Intelligent Platform Management Interface", "IPMI");
+
+            correctionAdd("T-shaped", "T-shaped developer");
+            correctionAdd("T-saped", "T-shaped developer");
+            correctionAdd("T-saped developer", "T-shaped developer");
+            correctionAdd("T-saped professional", "T-shaped developer");
+
+            correctionAdd("Area Theorem", "area theorem");
+
+            correctionAdd("Gravity", "gravity");
+
+            correctionAdd("Iloc", "iloc");
+
+            correctionAdd("perturbate", "perturb");
+
+            correctionAdd("unavalable", "unavailable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66274,6 +66313,26 @@ namespace OverflowHelper.core
 
             URL_Add("UPS", "https://en.wikipedia.org/wiki/United_Parcel_Service");
 
+            URL_Add("European Space Agency", "https://en.wikipedia.org/wiki/European_Space_Agency");
+
+            URL_Add("IPKVM", "https://en.wikipedia.org/wiki/KVM_switch#KVM_over_IP_(IPKVM)");
+
+            URL_Add("IPMI", "https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface");
+
+            URL_Add("T-shaped developer", "https://en.wikipedia.org/wiki/T-shaped_skills");
+
+            URL_Add("TLS&nbsp;1.1", "https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.1");
+
+            URL_Add("area theorem", "https://en.wikipedia.org/wiki/Black_hole_thermodynamics#The_second_law_2");
+
+            URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
+
+            URL_Add("iloc", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html");
+
+            URL_Add("perturb", "https://en.wiktionary.org/wiki/perturb#Verb");
+
+            URL_Add("unavailable", "https://en.wiktionary.org/wiki/unavailable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -66390,6 +66449,7 @@ namespace OverflowHelper.core
             correctionAdd("Data-frame_", "dataframe_");
             correctionAdd("data-frame_", "dataframe_");
             correctionAdd("datafram_", "dataframe_");
+            correctionAdd("DataFrame_", "dataframe_");
 
             correctionAdd("GA_", "general-availability_");
 
@@ -67120,6 +67180,11 @@ namespace OverflowHelper.core
             correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server_");
             correctionAdd("SQL Server_", "SQL&nbsp;Server_"); // Sort of identity mapping
 
+            correctionAdd("Carbon-Lang_", "Carbon_");
+            correctionAdd("carbon_", "Carbon_");
+
+            correctionAdd("Loc_", "loc_");
+
             // URL mappings
             //
             //
@@ -67658,6 +67723,10 @@ namespace OverflowHelper.core
             URL_Add("CS50 (Stack Exchange site)_", "https://cs50.stackexchange.com/tour");
 
             URL_Add("Radium_", "https://www.npmjs.com/package/radium#how-does-radium-work");
+
+            URL_Add("Carbon_", "https://en.wikipedia.org/wiki/Carbon_(programming_language)");
+
+            URL_Add("loc_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html");
 
         } //addLookupData_alternativeWordSet()
 
