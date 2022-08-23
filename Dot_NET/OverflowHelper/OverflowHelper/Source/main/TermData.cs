@@ -16096,6 +16096,7 @@ namespace OverflowHelper.core
             correctionAdd("key word", "keyword");
             correctionAdd("keword", "keyword");
             correctionAdd("keywort", "keyword");
+            correctionAdd("Keyword", "keyword");
 
             correctionAdd("Lemme", "let me");
             correctionAdd("lemme", "let me");
@@ -19805,6 +19806,7 @@ namespace OverflowHelper.core
 
             correctionAdd("case-insensitive", "case insensitive");
             correctionAdd("caseinsensitive", "case insensitive");
+            correctionAdd("case in-sensitive", "case insensitive");
 
             correctionAdd("congrats", "congratulations");
             correctionAdd("Congrats", "congratulations");
@@ -34934,6 +34936,7 @@ namespace OverflowHelper.core
 
             correctionAdd("casesensitivity", "case-sensitivity");
             correctionAdd("casesensitity", "case-sensitivity");
+            correctionAdd("case sensitivity", "case-sensitivity");
 
             correctionAdd("vender", "vendor");
 
@@ -40180,6 +40183,7 @@ namespace OverflowHelper.core
             correctionAdd("right most bit", "LSB");
             correctionAdd("rmb", "LSB");
             correctionAdd("least significant bit", "LSB");
+            correctionAdd("LSb", "LSB");
 
             correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
             correctionAdd("kde4", "KDE&nbsp;4");
@@ -42092,6 +42096,7 @@ namespace OverflowHelper.core
             correctionAdd("Perferences", "preferences");
 
             correctionAdd("El Cheapo", "el cheapo");
+            correctionAdd("el-Cheapo", "el cheapo");
 
             correctionAdd("entery", "entry");
 
@@ -42186,6 +42191,46 @@ namespace OverflowHelper.core
             correctionAdd("perturbate", "perturb");
 
             correctionAdd("unavalable", "unavailable");
+
+            correctionAdd("archaeologist", "Archaeologist badge");
+
+            correctionAdd("B2 visa", "B-2 visa");
+
+            correctionAdd("BSD licensed", "BSD-licensed");
+
+            correctionAdd("code runner", "Code Runner");
+
+            correctionAdd("Curious", "Curious badge");
+
+            correctionAdd("F1 visa", "F-1 visa");
+
+            correctionAdd("F2 visa", "F-2 visa");
+
+            correctionAdd("Far manager", "Far Manager");
+
+            correctionAdd("informix", "Informix");
+
+            correctionAdd("manchester encoding", "Manchester encoding");
+
+            correctionAdd("miniconda", "Miniconda");
+
+            correctionAdd("Regular expressions 101", "Regex101");
+            correctionAdd("regex101", "Regex101");
+            correctionAdd("RegEx101", "Regex101");
+
+            correctionAdd("SQL92", "SQL-92");
+            correctionAdd("SQL 92", "SQL-92");
+
+            correctionAdd("captial", "capital");
+
+            correctionAdd("element-wise", "elementwise");
+
+            correctionAdd("np.clip", "numpy.clip");
+            correctionAdd("clip", "numpy.clip");
+
+            correctionAdd("oscilliator", "oscillator");
+
+            correctionAdd("vendor agnostic", "vendor-agnostic");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66332,6 +66377,42 @@ namespace OverflowHelper.core
             URL_Add("perturb", "https://en.wiktionary.org/wiki/perturb#Verb");
 
             URL_Add("unavailable", "https://en.wiktionary.org/wiki/unavailable#Adjective");
+
+            URL_Add("Archaeologist badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("B-2 visa", "https://en.wikipedia.org/wiki/B_visa");
+
+            URL_Add("BSD-licensed", "https://en.wikipedia.org/wiki/BSD_licenses");
+
+            URL_Add("Code Runner", "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner");
+
+            URL_Add("Curious badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("F-1 visa", "https://en.wikipedia.org/wiki/F_visa#Three_types_of_F_visa");
+
+            URL_Add("F-2 visa", "https://en.wikipedia.org/wiki/F_visa#Three_types_of_F_visa");
+
+            URL_Add("Far Manager", "https://en.wikipedia.org/wiki/Far_Manager");
+
+            URL_Add("Informix", "https://en.wikipedia.org/wiki/IBM_Informix");
+
+            URL_Add("Manchester encoding", "https://en.wikipedia.org/wiki/Manchester_code");
+
+            URL_Add("Miniconda", "https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)");
+
+            URL_Add("Regex101", "https://regex101.com/");
+
+            URL_Add("SQL-92", "https://en.wikipedia.org/wiki/SQL-92");
+
+            URL_Add("capital", "https://en.wiktionary.org/wiki/capital#Noun");
+
+            URL_Add("elementwise", "https://en.wiktionary.org/wiki/elementwise#Adjective");
+
+            URL_Add("numpy.clip", "https://numpy.org/doc/stable/reference/generated/numpy.clip.html");
+
+            URL_Add("oscillator", "https://en.wiktionary.org/wiki/oscillator#Noun");
+
+            URL_Add("vendor-agnostic", "https://en.wiktionary.org/wiki/vendor-agnostic#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
