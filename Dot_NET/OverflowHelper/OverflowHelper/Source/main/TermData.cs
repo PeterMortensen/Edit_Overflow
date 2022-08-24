@@ -2482,6 +2482,7 @@ namespace OverflowHelper.core
             correctionAdd("Numpy", "NumPy");
             correctionAdd("numPy", "NumPy");
             correctionAdd("NUMPY", "NumPy");
+            correctionAdd("NumPY", "NumPy");
 
             correctionAdd("git BASH", "Git Bash");
             correctionAdd("gitBash", "Git Bash");
@@ -9205,6 +9206,7 @@ namespace OverflowHelper.core
             correctionAdd("NN", "artificial neural network");
             correctionAdd("NNs", "artificial neural network");
             correctionAdd("Neural networks", "artificial neural network");
+            correctionAdd("neural-network", "artificial neural network");
 
             correctionAdd("n/w", "network");
             correctionAdd("Network", "network");
@@ -14783,6 +14785,7 @@ namespace OverflowHelper.core
             correctionAdd("schmidt trigger", "Schmitt trigger");
             correctionAdd("schmnitt trigger", "Schmitt trigger");
             correctionAdd("Schmiit", "Schmitt trigger");
+            correctionAdd("Scmitt trigger", "Schmitt trigger");
 
             correctionAdd("swedish", "Swedish");
 
@@ -30004,6 +30007,7 @@ namespace OverflowHelper.core
             correctionAdd("porpuse", "purpose");
             correctionAdd("putpose", "purpose");
             correctionAdd("purpuse", "purpose");
+            correctionAdd("pourpose", "purpose");
 
             correctionAdd("hell bent", "hell-bent");
 
@@ -40104,6 +40108,7 @@ namespace OverflowHelper.core
             correctionAdd("alrady", "already");
             correctionAdd("alerady", "already");
             correctionAdd("alreayd", "already");
+            correctionAdd("arleady", "already");
 
             correctionAdd("arent", "aren’t");
             correctionAdd("arn't", "aren’t");
@@ -41742,6 +41747,7 @@ namespace OverflowHelper.core
             correctionAdd("monstable", "monostable multivibrator");
             correctionAdd("Monostable Multivibrator", "monostable multivibrator");
             correctionAdd("monoshot", "monostable multivibrator");
+            correctionAdd("mono stable", "monostable multivibrator");
 
             correctionAdd("neihborhood", "neighborhood");
 
@@ -42231,6 +42237,16 @@ namespace OverflowHelper.core
             correctionAdd("oscilliator", "oscillator");
 
             correctionAdd("vendor agnostic", "vendor-agnostic");
+
+            correctionAdd("PyCharm CE", "PyCharm Community Edition");
+
+            correctionAdd("discordJS", "discord.js");
+
+            correctionAdd("fine tuning", "fine-tuning");
+
+            correctionAdd("out compete", "outcompete");
+
+            correctionAdd("punctiation", "punctuation");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66413,6 +66429,16 @@ namespace OverflowHelper.core
             URL_Add("oscillator", "https://en.wiktionary.org/wiki/oscillator#Noun");
 
             URL_Add("vendor-agnostic", "https://en.wiktionary.org/wiki/vendor-agnostic#Adjective");
+
+            URL_Add("PyCharm Community Edition", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
+
+            URL_Add("discord.js", "https://discordjs.guide/");
+
+            URL_Add("fine-tuning", "https://en.wiktionary.org/wiki/fine-tune#Verb");
+
+            URL_Add("outcompete", "https://en.wiktionary.org/wiki/outcompete#Verb");
+
+            URL_Add("punctuation", "https://en.wiktionary.org/wiki/punctuation#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
