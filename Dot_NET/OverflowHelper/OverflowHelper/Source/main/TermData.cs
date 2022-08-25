@@ -6936,6 +6936,8 @@ namespace OverflowHelper.core
             correctionAdd("authenticatrion", "authentication");
             correctionAdd("Authentication", "authentication");
             correctionAdd("AUTH", "authentication");
+            correctionAdd("autheticatation", "authentication");
+            correctionAdd("authenticatation", "authentication");
 
             correctionAdd("Zip", "ZIP");
             correctionAdd("zip", "ZIP");
@@ -7645,6 +7647,7 @@ namespace OverflowHelper.core
             correctionAdd("don’y", "don’t");
             correctionAdd("don,t", "don’t");
             correctionAdd("ont", "don’t");
+            correctionAdd("Dont'", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -12534,6 +12537,7 @@ namespace OverflowHelper.core
             correctionAdd("Elementary", "Elementary&nbsp;OS");
             correctionAdd("ElementaryOS", "Elementary&nbsp;OS");
             correctionAdd("elementaryOS", "Elementary&nbsp;OS");
+            correctionAdd("eOS", "Elementary&nbsp;OS");
 
             correctionAdd("vhdl", "VHDL");
 
@@ -14110,6 +14114,7 @@ namespace OverflowHelper.core
             correctionAdd("Appearantly", "apparently");
             correctionAdd("appearantly", "apparently");
             correctionAdd("apparrently", "apparently");
+            correctionAdd("apperantly", "apparently");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -20274,6 +20279,7 @@ namespace OverflowHelper.core
             correctionAdd("thought out", "thought-out");
 
             correctionAdd("timeframe", "time frame");
+            correctionAdd("Timeframe", "time frame");
 
             correctionAdd("trigging", "triggering");
 
@@ -21182,6 +21188,7 @@ namespace OverflowHelper.core
             correctionAdd("itselt", "itself");
             correctionAdd("isself", "itself");
             correctionAdd("iself", "itself");
+            correctionAdd("itselve", "itself");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -21288,6 +21295,7 @@ namespace OverflowHelper.core
             correctionAdd("tamper monkey", "Tampermonkey");
             correctionAdd("TamperMonkey", "Tampermonkey");
             correctionAdd("Tamper Monkey", "Tampermonkey");
+            correctionAdd("Tampermokey", "Tampermonkey");
 
             correctionAdd("fgitw", "fastest gun in the west");
             correctionAdd("FGITW", "fastest gun in the west");
@@ -28095,6 +28103,38 @@ namespace OverflowHelper.core
 
             correctionAdd("re-think", "rethink");
 
+            correctionAdd("WDYT", "what do you think");
+
+            correctionAdd("over-think", "overthink");
+
+            correctionAdd("thiking", "thinking");
+
+            correctionAdd("thinkk", "think");
+            correctionAdd("thunk", "think");
+            correctionAdd("thibk", "think");
+            correctionAdd("htink", "think");
+            correctionAdd("thnik", "think");
+            correctionAdd("THink", "think");
+            correctionAdd("Think", "think");
+
+            correctionAdd("thingamajig", "thingamajiggy");
+            correctionAdd("thingamadigi", "thingamajiggy");
+            correctionAdd("thingamabob", "thingamajiggy");
+            correctionAdd("thingamagic", "thingamajiggy");
+            correctionAdd("thingamagiggi", "thingamajiggy");
+            correctionAdd("thingamagigie", "thingamajiggy");
+
+            correctionAdd("thingyes", "thingies");
+
+            correctionAdd("thingie", "thingy");
+
+            correctionAdd("thins", "things");
+
+            correctionAdd("thig", "thing");
+            correctionAdd("thang", "thing");
+            correctionAdd("thign", "thing");
+            correctionAdd("ging", "thing");
+
             correctionAdd("til", "till");
 
             correctionAdd("ada", "Ada");
@@ -28873,8 +28913,6 @@ namespace OverflowHelper.core
             correctionAdd("tommrow", "tomorrow");
             correctionAdd("tomrrow", "tomorrow");
 
-            correctionAdd("WDYT", "what do you think");
-
             correctionAdd("wiki holiday", "wikiholiday");
             correctionAdd("Wikiholiday", "wikiholiday");
             correctionAdd("Wiki holiday", "wikiholiday");
@@ -29106,6 +29144,7 @@ namespace OverflowHelper.core
             correctionAdd("PerfMon", "Performance Monitor");
 
             correctionAdd("pong", "Pong");
+            correctionAdd("PONG", "Pong");
 
             correctionAdd("SOS", "SOS (Son of Strike)");
 
@@ -31103,6 +31142,7 @@ namespace OverflowHelper.core
 
             correctionAdd("change log", "changelog");
             correctionAdd("Changelog", "changelog");
+            correctionAdd("ChangeLog", "changelog");
 
             correctionAdd("illinformed", "ill-informed");
 
@@ -41477,34 +41517,6 @@ namespace OverflowHelper.core
             correctionAdd("IBM ThinkPad", "ThinkPad");
             correctionAdd("Thinkpad", "ThinkPad");
 
-            correctionAdd("over-think", "overthink");
-
-            correctionAdd("thiking", "thinking");
-
-            correctionAdd("thinkk", "think");
-            correctionAdd("thunk", "think");
-            correctionAdd("thibk", "think");
-            correctionAdd("htink", "think");
-            correctionAdd("thnik", "think");
-
-            correctionAdd("thingamajig", "thingamajiggy");
-            correctionAdd("thingamadigi", "thingamajiggy");
-            correctionAdd("thingamabob", "thingamajiggy");
-            correctionAdd("thingamagic", "thingamajiggy");
-            correctionAdd("thingamagiggi", "thingamajiggy");
-            correctionAdd("thingamagigie", "thingamajiggy");
-
-            correctionAdd("thingyes", "thingies");
-
-            correctionAdd("thingie", "thingy");
-
-            correctionAdd("thins", "things");
-
-            correctionAdd("thig", "thing");
-            correctionAdd("thang", "thing");
-            correctionAdd("thign", "thing");
-            correctionAdd("ging", "thing");
-
             correctionAdd("AVX512", "AVX-512");
 
             correctionAdd("celeron", "Celeron");
@@ -41943,6 +41955,8 @@ namespace OverflowHelper.core
             correctionAdd("qualifed", "qualified");
 
             correctionAdd("seven-segment", "seven-segment display");
+            correctionAdd("7-segment", "seven-segment display");
+            correctionAdd("7-segment display", "seven-segment display");
 
             correctionAdd("UIAUTOMATORVIEWER", "uiautomatorviewer");
 
@@ -42247,6 +42261,42 @@ namespace OverflowHelper.core
             correctionAdd("out compete", "outcompete");
 
             correctionAdd("punctiation", "punctuation");
+
+            correctionAdd("Caps lock", "Caps Lock");
+            correctionAdd("caps-lock", "Caps Lock");
+            correctionAdd("caps lock", "Caps Lock");
+            correctionAdd("capslock", "Caps Lock");
+
+            correctionAdd("Liquidbase", "Liquibase");
+
+            correctionAdd("Miranda", "Miranda IM");
+
+            correctionAdd("Nethack", "NetHack");
+
+            correctionAdd("NIOS II", "Nios II");
+
+            correctionAdd("roguelike", "Roguelike");
+            correctionAdd("RogueLike", "Roguelike");
+
+            correctionAdd("Spartan 3", "Spartan-3");
+
+            correctionAdd("at first place", "at first glance");
+
+            correctionAdd("caseinsensitivity", "case-insensitivity");
+
+            correctionAdd("ceramic oscillator", "ceramic resonator");
+
+            correctionAdd("effectivly", "effectively");
+            correctionAdd("Effectivly", "effectively");
+
+            correctionAdd("icognito", "incognito");
+
+            correctionAdd("signficantly", "significantly");
+
+            correctionAdd("unqouted", "unquoted");
+
+            correctionAdd("virtious circle", "virtuous circle");
+            correctionAdd("virtious cycle", "virtuous circle");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66439,6 +66489,36 @@ namespace OverflowHelper.core
             URL_Add("outcompete", "https://en.wiktionary.org/wiki/outcompete#Verb");
 
             URL_Add("punctuation", "https://en.wiktionary.org/wiki/punctuation#Noun");
+
+            URL_Add("Caps Lock", "https://en.wikipedia.org/wiki/Caps_Lock");
+
+            URL_Add("Liquibase", "https://en.wikipedia.org/wiki/Liquibase");
+
+            URL_Add("Miranda IM", "https://en.wikipedia.org/wiki/Miranda_IM");
+
+            URL_Add("NetHack", "https://en.wikipedia.org/wiki/NetHack");
+
+            URL_Add("Nios II", "https://en.wikipedia.org/wiki/Nios_II");
+
+            URL_Add("Roguelike", "https://en.wikipedia.org/wiki/Roguelike");
+
+            URL_Add("Spartan-3", "https://en.wikipedia.org/wiki/List_of_Xilinx_FPGAs#Spartan-3");
+
+            URL_Add("at first glance", "https://en.wiktionary.org/wiki/at_first_glance#Prepositional_phrase");
+
+            URL_Add("case-insensitivity", "https://en.wiktionary.org/wiki/case-sensitivity#Noun");
+
+            URL_Add("ceramic resonator", "https://en.wikipedia.org/wiki/Ceramic_resonator");
+
+            URL_Add("effectively", "https://en.wiktionary.org/wiki/effectively#Adverb");
+
+            URL_Add("incognito", "https://en.wiktionary.org/wiki/incognito#Adjective");
+
+            URL_Add("significantly", "https://en.wiktionary.org/wiki/significantly#Adverb");
+
+            URL_Add("unquoted", "https://en.wiktionary.org/wiki/unquoted#Adjective");
+
+            URL_Add("virtuous circle", "https://en.wikipedia.org/wiki/Vicious_circle");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
