@@ -534,6 +534,7 @@ namespace OverflowHelper.core
             correctionAdd("May be", "maybe");
             correctionAdd("Maybe", "maybe");
             correctionAdd("may be", "maybe");
+            correctionAdd("mabe", "maybe");
 
             correctionAdd("adobe", "Adobe");
             correctionAdd("ADOBE", "Adobe");
@@ -6391,6 +6392,7 @@ namespace OverflowHelper.core
             correctionAdd("cuase", "because");
             correctionAdd("Becouse", "because");
             correctionAdd("bcse", "because");
+            correctionAdd("B/c", "because");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -15956,6 +15958,15 @@ namespace OverflowHelper.core
 
             correctionAdd("stubled", "stumble");
 
+            correctionAdd("stumpled", "stumbled");
+
+            correctionAdd("stumbled on", "stumble upon");
+            correctionAdd("stumble on", "stumble upon");
+
+            correctionAdd("stumbled into", "stumbled upon");
+            correctionAdd("stumbled onto", "stumbled upon");
+            correctionAdd("sumbled upon", "stumbled upon");
+
             correctionAdd("BSC", "BSc");
 
             correctionAdd("hindi", "Hindi");
@@ -17608,6 +17619,7 @@ namespace OverflowHelper.core
             correctionAdd("object-orientated", "object-oriented (OO)");
             correctionAdd("object-oriented", "object-oriented (OO)");
             correctionAdd("obj-oriented", "object-oriented (OO)");
+            correctionAdd("Object-Oriented", "object-oriented (OO)");
 
             correctionAdd("obselete", "obsolete");
             correctionAdd("obsolute", "obsolete");
@@ -18156,6 +18168,7 @@ namespace OverflowHelper.core
             correctionAdd("monitasation", "monetisation");
             correctionAdd("monitisation", "monetisation");
             correctionAdd("monitasion", "monetisation");
+            correctionAdd("monitazation", "monetisation");
 
             correctionAdd("on wards", "onwards");
 
@@ -19660,6 +19673,7 @@ namespace OverflowHelper.core
 
             correctionAdd("incorrec", "incorrect");
             correctionAdd("incorect", "incorrect");
+            correctionAdd("incorrct", "incorrect");
 
             correctionAdd("auto correct", "autocorrect");
 
@@ -20766,8 +20780,6 @@ namespace OverflowHelper.core
             correctionAdd("obfucation", "obfuscation");
 
             correctionAdd("practized", "practised");
-
-            correctionAdd("stumpled", "stumbled");
 
             correctionAdd("take off", "takeoff");
 
@@ -22864,6 +22876,7 @@ namespace OverflowHelper.core
             correctionAdd("buffring", "buffering");
 
             correctionAdd("Code Coverage", "code coverage");
+            correctionAdd("code-coverage", "code coverage");
 
             correctionAdd("kepp", "keep");
             correctionAdd("Kepp", "keep");
@@ -27320,6 +27333,7 @@ namespace OverflowHelper.core
 
             correctionAdd("compaire", "compare");
             correctionAdd("comapre", "compare");
+            correctionAdd("comparate", "compare");
 
             correctionAdd("compaired", "compared");
 
@@ -28860,6 +28874,14 @@ namespace OverflowHelper.core
             correctionAdd("guru", "Guru");
 
             correctionAdd("TAP", "Test Anything Protocol");
+
+            correctionAdd("LSP", "Language Server Protocol");
+            correctionAdd("Language Server protocol", "Language Server Protocol");
+            correctionAdd("Language Server", "Language Server Protocol");
+            correctionAdd("lsp", "Language Server Protocol");
+
+            correctionAdd("proptocol", "protocol");
+            correctionAdd("protocl", "protocol");
 
             correctionAdd("usb hub", "USB hub");
             correctionAdd("USB Hub", "USB hub");
@@ -31610,11 +31632,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Parallel", "GNU Parallel");
 
-            correctionAdd("LSP", "Language Server Protocol");
-            correctionAdd("Language Server protocol", "Language Server Protocol");
-            correctionAdd("Language Server", "Language Server Protocol");
-            correctionAdd("lsp", "Language Server Protocol");
-
             correctionAdd("programming perl", "Programming Perl");
 
             correctionAdd("clearifying", "clarifying");
@@ -32973,9 +32990,6 @@ namespace OverflowHelper.core
 
             correctionAdd("second order", "second-order");
             correctionAdd("2nd order", "second-order");
-
-            correctionAdd("stumbled on", "stumble upon");
-            correctionAdd("stumble on", "stumble upon");
 
             correctionAdd("modifirer", "modifier");
 
@@ -36504,9 +36518,6 @@ namespace OverflowHelper.core
 
             correctionAdd("caucious", "cautious");
 
-            correctionAdd("stumbled into", "stumbled upon");
-            correctionAdd("stumbled onto", "stumbled upon");
-
             correctionAdd("swapiness", "swappiness");
             correctionAdd("Swappiness", "swappiness");
 
@@ -37063,8 +37074,6 @@ namespace OverflowHelper.core
             correctionAdd("GIT-LS-FILES", "git-ls-files");
 
             correctionAdd("password-less", "passwordless");
-
-            correctionAdd("proptocol", "protocol");
 
             correctionAdd("show's", "shows");
 
@@ -42297,6 +42306,34 @@ namespace OverflowHelper.core
 
             correctionAdd("virtious circle", "virtuous circle");
             correctionAdd("virtious cycle", "virtuous circle");
+
+            correctionAdd("1tbs", "1TBS");
+
+            correctionAdd("middle eastern", "Middle Eastern");
+
+            correctionAdd("OS2", "OS/2");
+
+            correctionAdd("Shadertoy.com", "Shadertoy");
+            correctionAdd("shadertoy", "Shadertoy");
+
+            correctionAdd("AIOHTTP", "aiohttp");
+
+            correctionAdd("baned", "banned");
+
+            correctionAdd("bit twidling", "bit twiddling");
+
+            correctionAdd("bit masking", "bitmasking");
+
+            correctionAdd("Even Parity", "even parity");
+
+            correctionAdd("hard-working", "hardworking");
+
+            correctionAdd("uniform", "uniform initialization");
+
+            correctionAdd("fixed wing airplane", "fixed-wing aircraft");
+            correctionAdd("Fixed Wing Airplane", "fixed-wing aircraft");
+
+            correctionAdd("non-compliant", "noncompliant");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66519,6 +66556,32 @@ namespace OverflowHelper.core
             URL_Add("unquoted", "https://en.wiktionary.org/wiki/unquoted#Adjective");
 
             URL_Add("virtuous circle", "https://en.wikipedia.org/wiki/Vicious_circle");
+
+            URL_Add("1TBS", "https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_(OTBS)");
+
+            URL_Add("Middle Eastern", "https://en.wiktionary.org/wiki/Middle_Eastern#Adjective");
+
+            URL_Add("OS/2", "https://en.wikipedia.org/wiki/OS/2");
+
+            URL_Add("Shadertoy", "https://en.wikipedia.org/wiki/Shadertoy");
+
+            URL_Add("aiohttp", "https://directory.fsf.org/wiki/Aiohttp");
+
+            URL_Add("banned", "https://en.wiktionary.org/wiki/ban#Verb");
+
+            URL_Add("bit twiddling", "https://en.wikipedia.org/wiki/Bit_manipulation#Terminology");
+
+            URL_Add("bitmasking", "https://en.wikipedia.org/wiki/Mask_(computing)");
+
+            URL_Add("even parity", "https://en.wikipedia.org/wiki/Parity_bit");
+
+            URL_Add("hardworking", "https://en.wiktionary.org/wiki/hardworking#Adjective");
+
+            URL_Add("uniform initialization", "https://en.wikipedia.org/wiki/C%2B%2B11#Uniform_initialization");
+
+            URL_Add("fixed-wing aircraft", "https://en.wikipedia.org/wiki/Fixed-wing_aircraft");
+
+            URL_Add("noncompliant", "https://en.wiktionary.org/wiki/noncompliant#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
