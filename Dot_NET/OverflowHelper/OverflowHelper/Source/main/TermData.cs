@@ -2912,6 +2912,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
             correctionAdd("ASE", "Astronomy (Stack Exchange site)");
+            correctionAdd("AstronomySE", "Astronomy (Stack Exchange site)");
 
             correctionAdd("Bible hermeneutics", "Biblical Hermeneutics (Stack Exchange site)");
             correctionAdd("Biblical Hermeneutics", "Biblical Hermeneutics (Stack Exchange site)"); // Sort of identity mapping
@@ -5700,6 +5701,16 @@ namespace OverflowHelper.core
             correctionAdd("ZenCart", "Zen Cart");
             correctionAdd("zenCart", "Zen Cart");
 
+            correctionAdd("Zen Buddist", "Zen Buddhist");
+
+            correctionAdd("zen", "Zen");
+
+            correctionAdd("zen2", "Zen 2");
+            correctionAdd("Zen2", "Zen 2");
+
+            correctionAdd("AMD zen", "Zen 3");
+            correctionAdd("zen3", "Zen 3");
+
             correctionAdd("jre", "JRE");
             correctionAdd("Java Runtime Environment", "JRE");
             correctionAdd("Jre", "JRE");
@@ -8105,6 +8116,8 @@ namespace OverflowHelper.core
             correctionAdd("google translation", "Google Translate");
             correctionAdd("Google Translation", "Google Translate");
             correctionAdd("Google-Translate", "Google Translate");
+            correctionAdd("google traduction", "Google Translate");
+            correctionAdd("Google Traduction", "Google Translate");
 
             correctionAdd("xsd", "XSD");
             correctionAdd("Xsd", "XSD");
@@ -24851,8 +24864,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Vadin", "Vaadin");
 
-            correctionAdd("Zen Buddist", "Zen Buddhist");
-
             correctionAdd("athiest", "atheist");
 
             correctionAdd("electromagnestism", "electromagnetism");
@@ -35524,11 +35535,6 @@ namespace OverflowHelper.core
 
             correctionAdd("MULTICS", "Multics");
 
-            correctionAdd("zen", "Zen");
-
-            correctionAdd("zen2", "Zen 2");
-            correctionAdd("Zen2", "Zen 2");
-
             correctionAdd("branch-less", "branchless");
 
             correctionAdd("brand-new", "brand new");
@@ -42321,6 +42327,7 @@ namespace OverflowHelper.core
             correctionAdd("baned", "banned");
 
             correctionAdd("bit twidling", "bit twiddling");
+            correctionAdd("bit-twiddling", "bit twiddling");
 
             correctionAdd("bit masking", "bitmasking");
 
@@ -42334,6 +42341,31 @@ namespace OverflowHelper.core
             correctionAdd("Fixed Wing Airplane", "fixed-wing aircraft");
 
             correctionAdd("non-compliant", "noncompliant");
+
+            correctionAdd("9,600", "9,600 baud");
+            correctionAdd("9600", "9,600 baud");
+
+            correctionAdd("14,400", "14,400 baud");
+            correctionAdd("14400", "14,400 baud");
+
+            correctionAdd("115,200", "115,200 baud");
+            correctionAdd("115200", "115,200 baud");
+
+            correctionAdd("7400", "7400-series integrated circuits");
+
+            correctionAdd("bmi2", "BMI2");
+
+            correctionAdd("hamming weight", "Hamming weight");
+
+            correctionAdd("async serial communication", "asynchronous serial communication");
+
+            correctionAdd("collector follower", "common-emitter amplifier");
+
+            correctionAdd("Odd", "odd");
+
+            correctionAdd("Open Collector", "open collector");
+
+            correctionAdd("Open Drain", "open drain");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66582,6 +66614,30 @@ namespace OverflowHelper.core
             URL_Add("fixed-wing aircraft", "https://en.wikipedia.org/wiki/Fixed-wing_aircraft");
 
             URL_Add("noncompliant", "https://en.wiktionary.org/wiki/noncompliant#Adjective");
+
+            URL_Add("115,200 baud", "https://en.wikipedia.org/wiki/Serial_port#Settings");
+
+            URL_Add("14,400 baud", "https://en.wikipedia.org/wiki/Serial_port#Settings");
+
+            URL_Add("7400-series integrated circuits", "https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits#Larger_footprints");
+
+            URL_Add("9,600 baud", "https://en.wikipedia.org/wiki/Serial_port#Settings");
+
+            URL_Add("BMI2", "https://en.wikipedia.org/wiki/X86_Bit_manipulation_instruction_set#BMI2_(Bit_Manipulation_Instruction_Set_2)");
+
+            URL_Add("Hamming weight", "https://en.wikipedia.org/wiki/Hamming_weight");
+
+            URL_Add("Zen 3", "https://en.wikipedia.org/wiki/Zen_3");
+
+            URL_Add("asynchronous serial communication", "https://en.wikipedia.org/wiki/Asynchronous_serial_communication");
+
+            URL_Add("common-emitter amplifier", "https://en.wikipedia.org/wiki/Common_emitter");
+
+            URL_Add("odd", "https://en.wiktionary.org/wiki/odd#Adjective");
+
+            URL_Add("open collector", "https://en.wikipedia.org/wiki/Open_collector");
+
+            URL_Add("open drain", "https://en.wikipedia.org/wiki/Open_collector");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
