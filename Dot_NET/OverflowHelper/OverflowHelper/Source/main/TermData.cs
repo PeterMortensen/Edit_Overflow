@@ -5522,6 +5522,7 @@ namespace OverflowHelper.core
             correctionAdd("stack flow", "Stack&nbsp;Overflow");
             correctionAdd("StckOvrflw", "Stack&nbsp;Overflow");
             correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverlow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -13328,6 +13329,7 @@ namespace OverflowHelper.core
             correctionAdd("Qts", "question");
             correctionAdd("qts", "question");
             correctionAdd("questioin", "question");
+            correctionAdd("Quesiton", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -20047,6 +20049,7 @@ namespace OverflowHelper.core
             correctionAdd("scpecific", "specific");
             correctionAdd("specefic", "specific");
             correctionAdd("spécific", "specific");
+            correctionAdd("specifig", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -22038,9 +22041,14 @@ namespace OverflowHelper.core
             correctionAdd("mamejaro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("memedraro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("mamedraro", "Shakhriyar Mamedyarov"); // Chess
+            correctionAdd("Shak", "Shakhriyar Mamedyarov"); // Chess
 
             correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
             correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
+
+            correctionAdd("world championship 2023", "World Chess Championship 2023");
+
+            correctionAdd("world championship", "World Chess Championship");
             //
             // End of the chess part
 
@@ -29058,6 +29066,7 @@ namespace OverflowHelper.core
             correctionAdd("m1 pro", "MacBook Pro M1");
             correctionAdd("Mac M1 Pro", "MacBook Pro M1");
             correctionAdd("Mac Pro M1", "MacBook Pro M1");
+            correctionAdd("MacBook M1 Pro", "MacBook Pro M1");
 
             correctionAdd("React Hooks", "React hooks");
             correctionAdd("react hooks", "React hooks");
@@ -31767,6 +31776,7 @@ namespace OverflowHelper.core
             correctionAdd("in depth", "in-depth");
 
             correctionAdd("ruels", "rules");
+            correctionAdd("rulles", "rules");
 
             correctionAdd("2 pennies' worth", "two pennies' worth");
             correctionAdd("2 pence", "two pennies' worth");
@@ -32111,6 +32121,7 @@ namespace OverflowHelper.core
             correctionAdd("sugested", "suggested");
 
             correctionAdd("un-check", "uncheck");
+            correctionAdd("Un-check", "uncheck");
 
             correctionAdd("jbod", "JBOD");
 
@@ -41128,8 +41139,6 @@ namespace OverflowHelper.core
             correctionAdd("Nexus 5X", "Nexus&nbsp;5X");
             correctionAdd("nexus 5x", "Nexus&nbsp;5X");
 
-            correctionAdd("world championship 2023", "World Chess Championship 2023");
-
             correctionAdd("daylite", "daylight");
 
             correctionAdd("phone book", "phonebook");
@@ -41269,6 +41278,7 @@ namespace OverflowHelper.core
             correctionAdd("call-out", "callout");
 
             correctionAdd("low quality", "low-quality");
+            correctionAdd("Low Quality", "low-quality");
 
             correctionAdd("menues", "menus");
 
@@ -42434,6 +42444,21 @@ namespace OverflowHelper.core
             correctionAdd("runned", "ran");
 
             correctionAdd("pre-empt", "preempt");
+
+            correctionAdd("mac mini M1", "Mac Mini (M1)");
+
+            correctionAdd("PKCS#7", "PKCS 7");
+            correctionAdd("pkcs#7", "PKCS 7");
+            correctionAdd("PKCS7", "PKCS 7");
+
+            correctionAdd("XDOTOOL", "Xdotool");
+
+            correctionAdd("emulater", "emulator");
+            correctionAdd("Emulater", "emulator");
+
+            correctionAdd("opt-out", "opt out");
+
+            correctionAdd("orgin", "origin");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66732,6 +66757,20 @@ namespace OverflowHelper.core
             URL_Add("ran", "https://en.wiktionary.org/wiki/run#Verb");
 
             URL_Add("preempt", "https://en.wiktionary.org/wiki/preempt#Verb");
+
+            URL_Add("Mac Mini (M1)", "https://en.wikipedia.org/wiki/Mac_Mini#Fifth_generation_(Apple_silicon)");
+
+            URL_Add("PKCS 7", "https://en.wikipedia.org/wiki/PKCS_7");
+
+            URL_Add("World Chess Championship", "https://en.wikipedia.org/wiki/World_Chess_Championship");
+
+            URL_Add("Xdotool", "https://directory.fsf.org/wiki/Xdotool");
+
+            URL_Add("emulator", "https://en.wiktionary.org/wiki/emulator#Noun");
+
+            URL_Add("opt out", "https://en.wiktionary.org/wiki/opt_out#Verb");
+
+            URL_Add("origin", "https://en.wiktionary.org/wiki/origin#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...

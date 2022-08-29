@@ -3,13 +3,13 @@
  * This file is part of Edit Overflow.                                      *
  *                                                                          *
  *                                                                          *
- * Purpose: Test of assumptions about the environment (compiler versions,   * 
+ * Purpose: Test of assumptions about the environment (compiler versions,   *
  *          bitness, struct padding).                                       *
  *                                                                          *
  *          Some test / document our assumptions.                           *
  *                                                                          *
- *          It is sort of meta unit tests - not really about Edit Overflow  * 
- *          itself, but the stuff surrounding it, including how it is       * 
+ *          It is sort of meta unit tests - not really about Edit Overflow  *
+ *          itself, but the stuff surrounding it, including how it is       *
  *          developed.                                                      *
  *                                                                          *
  *          We also have a test to test that we have positively compiled    *
@@ -24,7 +24,7 @@
 //using System.Text;
 
 
-using NUnit.Framework; //For all versions of NUnit, 
+using NUnit.Framework; //For all versions of NUnit,
 //file "nunit.framework.dll"
 
 //using OverflowHelper.core;
@@ -38,7 +38,7 @@ using NUnit.Framework; //For all versions of NUnit,
 namespace OverflowHelper.Tests
 {
 
-    
+
     /****************************************************************************
      *    <placeholder for header>                                              *
      ****************************************************************************/
@@ -56,8 +56,8 @@ namespace OverflowHelper.Tests
             // Ensure we are actually running the expected version. But what
             // is actually our intent here? Why do we have this test?
 
-            string presumedNewest = "1.1.49a468";
- 
+            string presumedNewest = "1.1.49a469";
+
             {
                 // For the main application
                 string version_mainApplication =
