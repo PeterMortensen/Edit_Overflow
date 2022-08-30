@@ -14393,6 +14393,9 @@ namespace OverflowHelper.core
             correctionAdd("Laraval", "Laravel");
             correctionAdd("larval", "Laravel");
             correctionAdd("levaral", "Laravel");
+            correctionAdd("LRAVEL", "Laravel");
+            correctionAdd("lravel", "Laravel");
+            correctionAdd("LARAVEL", "Laravel");
 
             correctionAdd("wasnt", "wasn’t");
             correctionAdd("wasn't", "wasn’t");
@@ -15677,6 +15680,8 @@ namespace OverflowHelper.core
             correctionAdd("R studio", "RStudio");
             correctionAdd("R Studio", "RStudio");
             correctionAdd("Rstudio", "RStudio");
+            correctionAdd("rstudio", "RStudio");
+            correctionAdd("Posit", "RStudio");
 
             correctionAdd("brodcast", "broadcast");
 
@@ -15717,6 +15722,7 @@ namespace OverflowHelper.core
             correctionAdd("serval", "several");
             correctionAdd("svereral", "several");
             correctionAdd("sevreral", "several");
+            correctionAdd("severals", "several");
 
             correctionAdd("Socialism", "socialism");
 
@@ -16222,6 +16228,8 @@ namespace OverflowHelper.core
 
             correctionAdd("4th", "fourth");
             correctionAdd("4-th", "fourth");
+            correctionAdd("Fouth", "fourth");
+            correctionAdd("fouth", "fourth");
 
             correctionAdd("fullfill", "fulfill");
             correctionAdd("full fill", "fulfill");
@@ -25972,6 +25980,8 @@ namespace OverflowHelper.core
             correctionAdd("atm", "at the moment");
             correctionAdd("ATM", "at the moment");
             correctionAdd("at the minute", "at the moment");
+            correctionAdd("for moment", "at the moment");
+            correctionAdd("for the moment", "at the moment");
 
             correctionAdd("momment", "moment");
             correctionAdd("moemnt", "moment");
@@ -34403,6 +34413,7 @@ namespace OverflowHelper.core
             correctionAdd("akkeris", "Akkeris");
 
             correctionAdd("circleci", "CircleCI");
+            correctionAdd("CircleCi", "CircleCI");
 
             correctionAdd("cling", "Cling");
 
@@ -36106,6 +36117,8 @@ namespace OverflowHelper.core
             correctionAdd("--Wpedantic", "-Wpedantic");
 
             correctionAdd("--fno-strict-overflow", "-fno-strict-overflow");
+
+            correctionAdd("--fwhole-program", "-fwhole-program");
 
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
@@ -38961,6 +38974,7 @@ namespace OverflowHelper.core
             correctionAdd("olimpiad", "Olympiad");
 
             correctionAdd("bit mask", "bitmask");
+            correctionAdd("bit-mask", "bitmask");
 
             correctionAdd("electro-dynamical", "electrodynamical");
 
@@ -42378,6 +42392,8 @@ namespace OverflowHelper.core
             correctionAdd("bit-twiddling", "bit twiddling");
 
             correctionAdd("bit masking", "bitmasking");
+            correctionAdd("Bit-Masking", "bitmasking");
+            correctionAdd("bit-masking", "bitmasking");
 
             correctionAdd("Even Parity", "even parity");
 
@@ -42407,6 +42423,7 @@ namespace OverflowHelper.core
 
             correctionAdd("async serial communication", "asynchronous serial communication");
             correctionAdd("async serial comms", "asynchronous serial communication");
+            correctionAdd("async serial", "asynchronous serial communication");
 
             correctionAdd("collector follower", "common-emitter amplifier");
 
@@ -42459,6 +42476,13 @@ namespace OverflowHelper.core
             correctionAdd("opt-out", "opt out");
 
             correctionAdd("orgin", "origin");
+
+            correctionAdd("BTC5349", "BTC 5349");
+
+            correctionAdd("Garnet OS", "Palm OS");
+            correctionAdd("palmOS", "Palm OS");
+
+            correctionAdd("Nibble", "nibble");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66771,6 +66795,14 @@ namespace OverflowHelper.core
             URL_Add("opt out", "https://en.wiktionary.org/wiki/opt_out#Verb");
 
             URL_Add("origin", "https://en.wiktionary.org/wiki/origin#Noun");
+
+            URL_Add("-fwhole-program", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fwhole-program");
+
+            URL_Add("BTC 5349", "https://www.reddit.com/r/keyboards/comments/ohpmow/btc_5349_restored_by_me/");
+
+            URL_Add("Palm OS", "https://en.wikipedia.org/wiki/Palm_OS");
+
+            URL_Add("nibble", "https://en.wikipedia.org/wiki/Nibble");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
