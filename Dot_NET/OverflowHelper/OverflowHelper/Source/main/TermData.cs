@@ -535,6 +535,7 @@ namespace OverflowHelper.core
             correctionAdd("Maybe", "maybe");
             correctionAdd("may be", "maybe");
             correctionAdd("mabe", "maybe");
+            correctionAdd("Mabye", "maybe");
 
             correctionAdd("adobe", "Adobe");
             correctionAdd("ADOBE", "Adobe");
@@ -8530,6 +8531,7 @@ namespace OverflowHelper.core
             correctionAdd("crypto", "cryptography");
             correctionAdd("crypt", "cryptography");
             correctionAdd("Cryptography", "cryptography");
+            correctionAdd("cypto", "cryptography");
 
             correctionAdd("bio", "biography");
             correctionAdd("biografy", "biography");
@@ -10060,6 +10062,8 @@ namespace OverflowHelper.core
             correctionAdd("TAR", "tar");
 
             correctionAdd("mbr", "MBR");
+            correctionAdd("Master Boot Record", "MBR");
+            correctionAdd("master boot record", "MBR");
 
             correctionAdd("gparted", "GParted");
             correctionAdd("GPartEd", "GParted");
@@ -11984,6 +11988,8 @@ namespace OverflowHelper.core
             correctionAdd("sockets.io", "Socket.IO");
             correctionAdd("Sockets.io", "Socket.IO");
             correctionAdd("Socket.io", "Socket.IO");
+            correctionAdd("socket Io", "Socket.IO");
+            correctionAdd("socket.Io", "Socket.IO");
 
             correctionAdd("oData", "OData");
 
@@ -14559,6 +14565,7 @@ namespace OverflowHelper.core
             correctionAdd("mictrocontrollers", "microcontroller");
             correctionAdd("microctroller", "microcontroller");
             correctionAdd("Micro-Controller", "microcontroller");
+            correctionAdd("UC", "microcontroller");
 
             correctionAdd("uP", "microprocessor");
             correctionAdd("µp", "microprocessor");
@@ -15994,6 +16001,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stumbled on", "stumble upon");
             correctionAdd("stumble on", "stumble upon");
+            correctionAdd("stumble across", "stumble upon");
 
             correctionAdd("stumbled into", "stumbled upon");
             correctionAdd("stumbled onto", "stumbled upon");
@@ -27457,6 +27465,7 @@ namespace OverflowHelper.core
             correctionAdd("Kirchhoff's laws", "Kirchhoff Circuit Laws");
             correctionAdd("KCL", "Kirchhoff Circuit Laws");
             correctionAdd("kcl", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchhoff law", "Kirchhoff Circuit Laws");
 
             correctionAdd("swiftforth", "SwiftForth");
             correctionAdd("Swiftforth", "SwiftForth");
@@ -42483,6 +42492,17 @@ namespace OverflowHelper.core
             correctionAdd("palmOS", "Palm OS");
 
             correctionAdd("Nibble", "nibble");
+
+            correctionAdd("redis-adaptor", "Redis adapter");
+            correctionAdd("redis-adapter", "Redis adapter");
+
+            correctionAdd("SYSLINUX", "Syslinux");
+
+            correctionAdd("cicles", "cycles");
+
+            correctionAdd("francy", "fancy");
+
+            correctionAdd("hopping", "hoping");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66804,6 +66824,16 @@ namespace OverflowHelper.core
 
             URL_Add("nibble", "https://en.wikipedia.org/wiki/Nibble");
 
+            URL_Add("Redis adapter", "https://socket.io/docs/v4/redis-adapter/");
+
+            URL_Add("Syslinux", "https://en.wikipedia.org/wiki/SYSLINUX");
+
+            URL_Add("cycles", "https://en.wiktionary.org/wiki/cycle#Noun");
+
+            URL_Add("fancy", "https://en.wiktionary.org/wiki/fancy#Adjective");
+
+            URL_Add("hoping", "https://en.wiktionary.org/wiki/hope#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -67175,6 +67205,7 @@ namespace OverflowHelper.core
             correctionAdd("Physics.SO_", "Physics (Stack Exchange site)_");
             correctionAdd("PSE_", "Physics (Stack Exchange site)_");
             correctionAdd("physics_", "Physics (Stack Exchange site)_");
+            correctionAdd("Phys.SE_", "Physics (Stack Exchange site)_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry Pi (Stack Exchange site)_"); // Sort of identity mapping
