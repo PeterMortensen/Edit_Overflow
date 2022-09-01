@@ -627,6 +627,8 @@ namespace OverflowHelper.core
             correctionAdd("JAVAScript", "JavaScript");
             correctionAdd("jaavscript", "JavaScript");
             correctionAdd("JavasCript", "JavaScript");
+            correctionAdd("Jvascript", "JavaScript");
+            correctionAdd("jvascript", "JavaScript");
 
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
@@ -828,6 +830,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-sharp", "```lang-csharp");
             correctionAdd("lang-cs", "```lang-csharp");
             correctionAdd("lang-c#", "```lang-csharp");
+            correctionAdd("```c#", "```lang-csharp");
 
             correctionAdd("java-lang", "```lang-java");
             correctionAdd("lang-java", "```lang-java");
@@ -1319,6 +1322,8 @@ namespace OverflowHelper.core
             correctionAdd("Avro", "Apache Avro");
 
             correctionAdd("Ivy", "Apache Ivy");
+            correctionAdd("IVY", "Apache Ivy");
+            correctionAdd("ivy", "Apache Ivy");
 
             correctionAdd("ASF", "Apache Software Foundation");
             correctionAdd("Apache SF", "Apache Software Foundation");
@@ -5614,6 +5619,7 @@ namespace OverflowHelper.core
             correctionAdd("SuperUsers", "Super&nbsp;User");
             correctionAdd("superuser.com", "Super&nbsp;User");
             correctionAdd("SuperUser.SE", "Super&nbsp;User");
+            correctionAdd("Superusers", "Super&nbsp;User");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -5713,6 +5719,7 @@ namespace OverflowHelper.core
 
             correctionAdd("AMD zen", "Zen 3");
             correctionAdd("zen3", "Zen 3");
+            correctionAdd("Zen3", "Zen 3");
 
             correctionAdd("jre", "JRE");
             correctionAdd("Java Runtime Environment", "JRE");
@@ -8252,6 +8259,9 @@ namespace OverflowHelper.core
             correctionAdd("toutorial", "tutorial");
             correctionAdd("Tutorial", "tutorial");
             correctionAdd("tuto", "tutorial");
+            correctionAdd("turturial", "tutorial");
+            correctionAdd("turturials", "tutorial");
+            correctionAdd("tuts", "tutorial");
 
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
@@ -9394,6 +9404,53 @@ namespace OverflowHelper.core
             correctionAdd("domain server", "domain controller");
             correctionAdd("Windows domain server", "domain controller");
 
+            correctionAdd("Model-View-Controller", "model–view–controller");
+            correctionAdd("Model-View-Control", "model–view–controller");
+            correctionAdd("Model–view–controller", "model–view–controller");
+            correctionAdd("model view controller", "model–view–controller");
+            correctionAdd("model-view controller", "model–view–controller");
+            correctionAdd("model-view-controller", "model–view–controller");
+
+            correctionAdd("Model-View-Presenter", "model–view–presenter");
+
+            correctionAdd("uContoller", "microcontroller");
+            correctionAdd("uController", "microcontroller");
+            correctionAdd("micro-controller", "microcontroller");
+            correctionAdd("uC", "microcontroller"); // Expansion
+            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
+            correctionAdd("MCU", "microcontroller"); // Expansion
+            correctionAdd("micro controllers", "microcontroller"); // Plural...
+            correctionAdd("micro controller", "microcontroller");
+            correctionAdd("mcu", "microcontroller"); // Expansion
+            correctionAdd("mictrocontroller", "microcontroller"); // Misspelling
+            correctionAdd("uc", "microcontroller"); // Expansion
+            correctionAdd("Microcontroller", "microcontroller"); // Depends on context...
+            correctionAdd("ucontroller", "microcontroller"); // Expansion
+            correctionAdd("Micro-controller", "microcontroller");
+            correctionAdd("μc", "microcontroller");
+            correctionAdd("microController", "microcontroller");
+            correctionAdd("microcontroler", "microcontroller");
+            correctionAdd("MicroController", "microcontroller");
+            correctionAdd("microntroller", "microcontroller"); // Misspelling
+            correctionAdd("µC", "microcontroller");
+            correctionAdd("mControlers", "microcontroller"); // Plural...
+            correctionAdd("mControler", "microcontroller");
+            correctionAdd("mController", "microcontroller");
+            correctionAdd("microncontroller", "microcontroller");
+            correctionAdd("mictrocontrollers", "microcontroller");
+            correctionAdd("microctroller", "microcontroller");
+            correctionAdd("Micro-Controller", "microcontroller");
+            correctionAdd("UC", "microcontroller");
+
+            correctionAdd("uP", "microprocessor");
+            correctionAdd("µp", "microprocessor");
+            correctionAdd("µP", "microprocessor");
+            correctionAdd("mP", "microprocessor");
+
+            correctionAdd("controlller", "controller");
+            correctionAdd("Controlller", "controller");
+            correctionAdd("controler", "controller");
+
             correctionAdd("Power Grep", "PowerGREP");
             correctionAdd("powergrep", "PowerGREP");
             correctionAdd("Powergrep", "PowerGREP");
@@ -9962,6 +10019,7 @@ namespace OverflowHelper.core
             correctionAdd("RASPBIAN", "Raspbian");
             correctionAdd("rasphian", "Raspbian"); // Misspelling.
             correctionAdd("Raspberry Debian", "Raspbian");
+            correctionAdd("Raspain", "Raspbian");
 
             correctionAdd("raspbmc", "Raspbmc");
             correctionAdd("raspmbc", "Raspbmc");
@@ -10590,6 +10648,8 @@ namespace OverflowHelper.core
             correctionAdd("funktion", "function");
             correctionAdd("funcation", "function");
             correctionAdd("Funtion", "function");
+            correctionAdd("Functinon", "function");
+            correctionAdd("functinon", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -10704,6 +10764,8 @@ namespace OverflowHelper.core
             correctionAdd("Angular-Cli", "Angular");
             correctionAdd("angualr", "Angular");
             correctionAdd("angularjs ng", "Angular");
+            correctionAdd("Agnular", "Angular");
+            correctionAdd("agnular", "Angular");
 
             // Alternative: database administration
             correctionAdd("DBA", "database administrator");
@@ -12075,6 +12137,8 @@ namespace OverflowHelper.core
             correctionAdd("unfotunately", "unfortunately");
             correctionAdd("Unfortbately", "unfortunately");
             correctionAdd("unfortbately", "unfortunately");
+            correctionAdd("unfortnally", "unfortunately");
+            correctionAdd("unfortunally", "unfortunately");
 
             correctionAdd("beggining", "beginning");
             correctionAdd("beginng", "beginning");
@@ -13724,15 +13788,6 @@ namespace OverflowHelper.core
 
             correctionAdd("winavr", "WinAVR");
 
-            correctionAdd("Model-View-Controller", "model–view–controller");
-            correctionAdd("Model-View-Control", "model–view–controller");
-            correctionAdd("Model–view–controller", "model–view–controller");
-            correctionAdd("model view controller", "model–view–controller");
-            correctionAdd("model-view controller", "model–view–controller");
-            correctionAdd("model-view-controller", "model–view–controller");
-
-            correctionAdd("Model-View-Presenter", "model–view–presenter");
-
             correctionAdd("Phantomjs", "PhantomJS");
             correctionAdd("phantom", "PhantomJS");
             correctionAdd("phantomjs", "PhantomJS");
@@ -14537,40 +14592,6 @@ namespace OverflowHelper.core
             correctionAdd("belive", "believe");
             correctionAdd("bslieve", "believe");
             correctionAdd("beileve", "believe");
-
-            correctionAdd("uContoller", "microcontroller");
-            correctionAdd("uController", "microcontroller");
-            correctionAdd("micro-controller", "microcontroller");
-            correctionAdd("uC", "microcontroller"); // Expansion
-            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
-            correctionAdd("MCU", "microcontroller"); // Expansion
-            correctionAdd("micro controllers", "microcontroller"); // Plural...
-            correctionAdd("micro controller", "microcontroller");
-            correctionAdd("mcu", "microcontroller"); // Expansion
-            correctionAdd("mictrocontroller", "microcontroller"); // Misspelling
-            correctionAdd("uc", "microcontroller"); // Expansion
-            correctionAdd("Microcontroller", "microcontroller"); // Depends on context...
-            correctionAdd("ucontroller", "microcontroller"); // Expansion
-            correctionAdd("Micro-controller", "microcontroller");
-            correctionAdd("μc", "microcontroller");
-            correctionAdd("microController", "microcontroller");
-            correctionAdd("microcontroler", "microcontroller");
-            correctionAdd("MicroController", "microcontroller");
-            correctionAdd("microntroller", "microcontroller"); // Misspelling
-            correctionAdd("µC", "microcontroller");
-            correctionAdd("mControlers", "microcontroller"); // Plural...
-            correctionAdd("mControler", "microcontroller");
-            correctionAdd("mController", "microcontroller");
-            correctionAdd("microncontroller", "microcontroller");
-            correctionAdd("mictrocontrollers", "microcontroller");
-            correctionAdd("microctroller", "microcontroller");
-            correctionAdd("Micro-Controller", "microcontroller");
-            correctionAdd("UC", "microcontroller");
-
-            correctionAdd("uP", "microprocessor");
-            correctionAdd("µp", "microprocessor");
-            correctionAdd("µP", "microprocessor");
-            correctionAdd("mP", "microprocessor");
 
             correctionAdd("pronounciation", "pronunciation");
             correctionAdd("pronuncian", "pronunciation");
@@ -15580,6 +15601,7 @@ namespace OverflowHelper.core
 
             correctionAdd("attenttion", "attention");
             correctionAdd("atenttion", "attention");
+            correctionAdd("attetion", "attention");
 
             correctionAdd("inf", "infinite");
             correctionAdd("infinte", "infinite");
@@ -17783,6 +17805,7 @@ namespace OverflowHelper.core
 
             correctionAdd("manu", "menu");
             correctionAdd("munu", "menu");
+            correctionAdd("Menu", "menu");
 
             correctionAdd("mising", "missing");
             correctionAdd("missings", "missing");
@@ -20370,6 +20393,8 @@ namespace OverflowHelper.core
             correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
             correctionAdd("bps", "&nbsp;bit/s"); // Different unit.
             correctionAdd("bits/s", "&nbsp;bit/s");
+            correctionAdd("Bits / s", "&nbsp;bit/s");
+            correctionAdd("bits / s", "&nbsp;bit/s");
 
             correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
             correctionAdd("kbps", "&nbsp;kbit/s"); // Different unit.
@@ -20381,6 +20406,8 @@ namespace OverflowHelper.core
             correctionAdd("KBPS", "&nbsp;kbit/s");
             correctionAdd("Kbit / s", "&nbsp;kbit/s");
             correctionAdd("kbit / s", "&nbsp;kbit/s");
+            correctionAdd("KBits / s", "&nbsp;kbit/s");
+            correctionAdd("KBits/s", "&nbsp;kbit/s");
 
             correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
             correctionAdd("mbps", "&nbsp;Mbit/s"); // Different unit.
@@ -20647,6 +20674,7 @@ namespace OverflowHelper.core
 
             correctionAdd("globaly", "globally");
             correctionAdd("globably", "globally");
+            correctionAdd("golbally", "globally");
 
             correctionAdd("licence", "license");
 
@@ -22456,6 +22484,7 @@ namespace OverflowHelper.core
             correctionAdd("non polar", "nonpolar");
 
             correctionAdd("obatining", "obtaining");
+            correctionAdd("obtaning", "obtaining");
 
             correctionAdd("physisist", "physicist");
             correctionAdd("physist", "physicist");
@@ -23394,9 +23423,6 @@ namespace OverflowHelper.core
             correctionAdd("access-token", "access token");
             correctionAdd("acces-token", "access token");
             correctionAdd("Access Token", "access token");
-
-            correctionAdd("controlller", "controller");
-            correctionAdd("Controlller", "controller");
 
             correctionAdd("two-edged sword", "double-edged sword");
 
@@ -26092,6 +26118,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tecnique", "technique");
             correctionAdd("techique", "technique");
+            correctionAdd("techinque", "technique");
 
             correctionAdd("e-text editor", "E Text Editor");
             correctionAdd("E", "E Text Editor"); // Not specific enough??
@@ -26678,6 +26705,7 @@ namespace OverflowHelper.core
             correctionAdd("assemble-language", "assembly language");
             correctionAdd("assemble language", "assembly language");
             correctionAdd("assebmly", "assembly language");
+            correctionAdd("assember", "assembly language");
 
             correctionAdd("DSL", "domain-specific language");
             correctionAdd("dsl", "domain-specific language");
@@ -27295,6 +27323,7 @@ namespace OverflowHelper.core
             correctionAdd("detrement", "detriment");
 
             correctionAdd("hightlight", "highlight");
+            correctionAdd("highligh", "highlight");
 
             correctionAdd("modifiy", "modify");
 
@@ -27672,6 +27701,7 @@ namespace OverflowHelper.core
             correctionAdd("effectiently", "efficiently");
             correctionAdd("efficientlly", "efficiently");
             correctionAdd("efficently", "efficiently");
+            correctionAdd("effeciently", "efficiently");
 
             correctionAdd("fugittive", "fugitive");
 
@@ -28245,6 +28275,8 @@ namespace OverflowHelper.core
             correctionAdd("Water", "water");
 
             correctionAdd("afterwords", "afterwards");
+            correctionAdd("Afterward", "afterwards");
+            correctionAdd("afterward", "afterwards");
 
             correctionAdd("ambigiously", "ambiguously");
 
@@ -31487,6 +31519,7 @@ namespace OverflowHelper.core
             correctionAdd("rovide", "provide");
             correctionAdd("proide", "provide");
             correctionAdd("provie", "provide");
+            correctionAdd("provied", "provide");
 
             correctionAdd("re-apply", "reapply");
 
@@ -33634,6 +33667,9 @@ namespace OverflowHelper.core
             correctionAdd("gardient", "gradient");
 
             correctionAdd("homeschooled", "home schooled");
+
+            correctionAdd("oled", "OLED");
+            correctionAdd("Oled", "OLED");
 
             correctionAdd("hypofetical", "hypothetical");
 
@@ -41034,6 +41070,7 @@ namespace OverflowHelper.core
             correctionAdd("CHOWN", "chown");
 
             correctionAdd("dwingling", "dwindling");
+            correctionAdd("dvingling", "dwindling");
 
             correctionAdd("earth-like", "earthlike");
 
@@ -42503,6 +42540,36 @@ namespace OverflowHelper.core
             correctionAdd("francy", "fancy");
 
             correctionAdd("hopping", "hoping");
+
+            correctionAdd("nSS", "NSS");
+
+            correctionAdd("nucleo", "Nucleo");
+
+            correctionAdd("Pi Imager", "Raspberry Pi Imager");
+            correctionAdd("raspberry imager", "Raspberry Pi Imager");
+            correctionAdd("Imager", "Raspberry Pi Imager");
+
+            correctionAdd("Board", "board");
+
+            correctionAdd("pad", "gamepad");
+            correctionAdd("PAD", "gamepad");
+
+            correctionAdd("honsestly", "honestly");
+            correctionAdd("Honsestly", "honestly");
+
+            correctionAdd("inconsistant", "inconsistent");
+
+            correctionAdd("interdiscplinary", "interdisciplinary");
+
+            correctionAdd("interfare", "interfere");
+
+            correctionAdd("groupby", "pandas.DataFrame.groupby");
+
+            correctionAdd("iterrows", "pandas.DataFrame.iterrows");
+
+            correctionAdd("itertuples", "pandas.DataFrame.itertuples");
+
+            correctionAdd("symantics", "semantics");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66834,6 +66901,34 @@ namespace OverflowHelper.core
 
             URL_Add("hoping", "https://en.wiktionary.org/wiki/hope#Verb");
 
+            URL_Add("NSS", "https://www.st.com/resource/en/application_note/dm00725181-enhanced-methods-to-handle-spi-communication-on-stm32-devices-stmicroelectronics.pdf");
+
+            URL_Add("Nucleo", "https://en.wikipedia.org/wiki/STM32#Nucleo_boards");
+
+            URL_Add("OLED", "https://en.wikipedia.org/wiki/OLED");
+
+            URL_Add("Raspberry Pi Imager", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Versions");
+
+            URL_Add("board", "https://en.wiktionary.org/wiki/board#Noun");
+
+            URL_Add("gamepad", "https://en.wikipedia.org/wiki/Gamepad");
+
+            URL_Add("honestly", "https://en.wiktionary.org/wiki/honestly#Adverb");
+
+            URL_Add("inconsistent", "https://en.wiktionary.org/wiki/inconsistent#Adjective");
+
+            URL_Add("interdisciplinary", "https://en.wiktionary.org/wiki/interdisciplinary#Adjective");
+
+            URL_Add("interfere", "https://en.wiktionary.org/wiki/interfere#Verb");
+
+            URL_Add("pandas.DataFrame.groupby", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html");
+
+            URL_Add("pandas.DataFrame.iterrows", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iterrows.html");
+
+            URL_Add("pandas.DataFrame.itertuples", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.itertuples.html");
+
+            URL_Add("semantics", "https://en.wiktionary.org/wiki/semantics#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -67689,6 +67784,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Loc_", "loc_");
 
+            correctionAdd("ps2_", "PlayStation 2_");
+            correctionAdd("PlayStation2_", "PlayStation 2_");
+            correctionAdd("PS 2_", "PlayStation 2_");
+            correctionAdd("Play Station 2_", "PlayStation 2_");
+            correctionAdd("PS2_", "PlayStation 2_");
+
             // URL mappings
             //
             //
@@ -68233,6 +68334,8 @@ namespace OverflowHelper.core
             URL_Add("loc_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html");
 
             URL_Add("head_", "https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements");
+
+            URL_Add("PlayStation 2_", "https://en.wikipedia.org/wiki/PlayStation_2");
 
         } //addLookupData_alternativeWordSet()
 
