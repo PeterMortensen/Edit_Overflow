@@ -444,6 +444,7 @@ namespace OverflowHelper.core
             correctionAdd("Window", "Windows");
             correctionAdd("Windown", "Windows");
             correctionAdd("Widnows", "Windows");
+            correctionAdd("winjeet", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -10019,7 +10020,7 @@ namespace OverflowHelper.core
             correctionAdd("RASPBIAN", "Raspbian");
             correctionAdd("rasphian", "Raspbian"); // Misspelling.
             correctionAdd("Raspberry Debian", "Raspbian");
-            correctionAdd("Raspain", "Raspbian");
+            correctionAdd("Raspain", "Raspbian"); // LOL
 
             correctionAdd("raspbmc", "Raspbmc");
             correctionAdd("raspmbc", "Raspbmc");
@@ -13022,6 +13023,7 @@ namespace OverflowHelper.core
             correctionAdd("necessaralliy", "necessarily");
             correctionAdd("necesaraly", "necessarily");
             correctionAdd("necesseraliry", "necessarily");
+            correctionAdd("necessrily", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -16382,6 +16384,7 @@ namespace OverflowHelper.core
             correctionAdd("Signin", "sign in");
             correctionAdd("signin", "sign in");
             correctionAdd("signIn", "sign in");
+            correctionAdd("sing in", "sign in");
 
             correctionAdd("substution", "substitution");
             correctionAdd("substituion", "substitution");
@@ -20953,6 +20956,7 @@ namespace OverflowHelper.core
             correctionAdd("SystemD", "systemd");
             correctionAdd("System D", "systemd");
             correctionAdd("shitstainD", "systemd");
+            correctionAdd("ShitstainD", "systemd");
 
             correctionAdd("wave length", "wavelength");
 
@@ -21047,6 +21051,7 @@ namespace OverflowHelper.core
             correctionAdd("Tic Tac To", "tic-tac-toe");
             correctionAdd("tictac toe", "tic-tac-toe");
             correctionAdd("noughts and crosses", "tic-tac-toe");
+            correctionAdd("tictactoe", "tic-tac-toe");
 
             correctionAdd("traefik", "Træfik");
             correctionAdd("Traefik", "Træfik");
@@ -35315,6 +35320,7 @@ namespace OverflowHelper.core
 
             correctionAdd("STM32Cube", "STM32CubeMX");
             correctionAdd("cube", "STM32CubeMX");
+            correctionAdd("CubeMX", "STM32CubeMX");
 
             correctionAdd("mainteiner", "maintainer");
             correctionAdd("maintener", "maintainer");
@@ -36109,6 +36115,8 @@ namespace OverflowHelper.core
             correctionAdd("--ansi", "-ansi");
 
             correctionAdd("--pedantic", "-pedantic");
+            correctionAdd("--Wpedantic", "-pedantic");
+            correctionAdd("-Wpedantic", "-pedantic");
 
             correctionAdd("--pedantic-errors", "-pedantic-errors");
 
@@ -36149,8 +36157,6 @@ namespace OverflowHelper.core
 
             correctionAdd("--ftabstop", "-ftabstop");
 
-            correctionAdd("--Wempty-body", "-Wempty-body");
-
             correctionAdd("--O3", "-O3");
 
             correctionAdd("--Wmissing-field-initializers", "-Wmissing-field-initializers");
@@ -36159,11 +36165,13 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wno-error", "-Wno-error");
 
-            correctionAdd("--Wpedantic", "-Wpedantic");
-
             correctionAdd("--fno-strict-overflow", "-fno-strict-overflow");
 
             correctionAdd("--fwhole-program", "-fwhole-program");
+
+            correctionAdd("--Wempty-body", "-Wempty-body");
+
+            correctionAdd("--Wreturn-type", "-Wreturn-type");
 
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
@@ -42542,6 +42550,7 @@ namespace OverflowHelper.core
             correctionAdd("hopping", "hoping");
 
             correctionAdd("nSS", "NSS");
+            correctionAdd("Nss", "NSS");
 
             correctionAdd("nucleo", "Nucleo");
 
@@ -42570,6 +42579,23 @@ namespace OverflowHelper.core
             correctionAdd("itertuples", "pandas.DataFrame.itertuples");
 
             correctionAdd("symantics", "semantics");
+
+            correctionAdd("ducky", "Ducky");
+
+            correctionAdd("AFAIR", "as far as I remember");
+
+            correctionAdd("dissassemble", "disassemble");
+
+            correctionAdd("HiZ", "high impedance");
+            correctionAdd("hi-Z", "high impedance");
+
+            correctionAdd("INOTIFY", "inotify");
+
+            correctionAdd("interect", "interact");
+
+            correctionAdd("MCQ", "multiple-choice question");
+
+            correctionAdd("Product", "product");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66419,8 +66445,6 @@ namespace OverflowHelper.core
 
             URL_Add("-Wno-error", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror");
 
-            URL_Add("-Wpedantic", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic");
-
             URL_Add("-fno-strict-overflow", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fstrict-overflow");
 
             URL_Add("Dilbert", "https://en.wikipedia.org/wiki/Dilbert");
@@ -66928,6 +66952,24 @@ namespace OverflowHelper.core
             URL_Add("pandas.DataFrame.itertuples", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.itertuples.html");
 
             URL_Add("semantics", "https://en.wiktionary.org/wiki/semantics#Noun");
+
+            URL_Add("-Wreturn-type", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-type");
+
+            URL_Add("Ducky", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards");
+
+            URL_Add("as far as I remember", "https://en.wiktionary.org/wiki/AFAIR#Phrase");
+
+            URL_Add("disassemble", "https://en.wiktionary.org/wiki/disassemble#Verb");
+
+            URL_Add("high impedance", "https://en.wikipedia.org/wiki/Three-state_logic#Uses");
+
+            URL_Add("inotify", "https://en.wikipedia.org/wiki/Inotify");
+
+            URL_Add("interact", "https://en.wiktionary.org/wiki/interact#Verb");
+
+            URL_Add("multiple-choice question", "https://en.wiktionary.org/wiki/multiple-choice_question#Noun");
+
+            URL_Add("product", "https://en.wiktionary.org/wiki/product#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -67790,6 +67832,8 @@ namespace OverflowHelper.core
             correctionAdd("Play Station 2_", "PlayStation 2_");
             correctionAdd("PS2_", "PlayStation 2_");
 
+            correctionAdd("ST_", "STMicroelectronics_");
+
             // URL mappings
             //
             //
@@ -68336,6 +68380,8 @@ namespace OverflowHelper.core
             URL_Add("head_", "https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements");
 
             URL_Add("PlayStation 2_", "https://en.wikipedia.org/wiki/PlayStation_2");
+
+            URL_Add("STMicroelectronics_", "https://en.wikipedia.org/wiki/STMicroelectronics");
 
         } //addLookupData_alternativeWordSet()
 
