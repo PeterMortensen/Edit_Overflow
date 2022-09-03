@@ -6499,6 +6499,8 @@ namespace OverflowHelper.core
             correctionAdd("integrade", "integrate");
             correctionAdd("intergrate", "integrate");
             correctionAdd("integrete", "integrate");
+            correctionAdd("Intgrate", "integrate");
+            correctionAdd("Integrate", "integrate");
 
             correctionAdd("auto generate", "autogenerate");
 
@@ -7735,6 +7737,7 @@ namespace OverflowHelper.core
             correctionAdd("catalog", "directory");
             correctionAdd("Directory", "directory");
             correctionAdd("directoory", "directory");
+            correctionAdd("dictornar", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
@@ -12265,6 +12268,13 @@ namespace OverflowHelper.core
             correctionAdd("kernal", "kernel");
             correctionAdd("Kernel", "kernel");
             correctionAdd("kenel", "kernel");
+            correctionAdd("Kernal", "kernel");
+
+            correctionAdd("Linux Kernel", "Linux kernel");
+            correctionAdd("linux kernel", "Linux kernel");
+            correctionAdd("linux kernal", "Linux kernel");
+            correctionAdd("Linux kernal", "Linux kernel");
+            correctionAdd("Linux Kernal", "Linux kernel");
 
             correctionAdd("DAL", "data access layer");
             correctionAdd("Data Access Layer", "data access layer");
@@ -13526,6 +13536,8 @@ namespace OverflowHelper.core
             correctionAdd("Compatible", "compatible");
             correctionAdd("compactible", "compatible");
             correctionAdd("comptabilble", "compatible");
+            correctionAdd("compatiable", "compatible");
+            correctionAdd("compatitable", "compatible");
 
             correctionAdd("z80", "Z80");
 
@@ -13748,6 +13760,15 @@ namespace OverflowHelper.core
             correctionAdd("SPanish", "Spanish");
 
             correctionAdd("castle Windsor", "Castle Windsor"); // Alternative URL: <http://www.castleproject.org/container/index.html>
+
+            correctionAdd("bouncy", "Bouncy Castle");
+            correctionAdd("bouncy castle", "Bouncy Castle");
+            correctionAdd("BouncyCastle", "Bouncy Castle");
+            correctionAdd("Bouncycastle", "Bouncy Castle");
+
+            // Part of Castle Project: Castle Windsor
+            correctionAdd("castle", "Castle Project");
+            correctionAdd("Castle", "Castle Project");
 
             correctionAdd("IIS Express", "IIS&nbsp;Express"); // Sort of identity mapping
             correctionAdd("iisexpress", "IIS&nbsp;Express");
@@ -14319,6 +14340,7 @@ namespace OverflowHelper.core
             correctionAdd("Schroedinger equation", "Schrödinger equation");
             correctionAdd("Schrödinger", "Schrödinger equation");
             correctionAdd("Schrodinger's equation", "Schrödinger equation");
+            correctionAdd("schrödinger equation", "Schrödinger equation");
 
             correctionAdd("hasnt", "hasn't");
 
@@ -16644,6 +16666,7 @@ namespace OverflowHelper.core
             correctionAdd("uBO", "uBlock Origin");
             correctionAdd("ublockorigin.com", "uBlock Origin");
             correctionAdd("ublockorigin", "uBlock Origin");
+            correctionAdd("uBlock", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -17999,6 +18022,7 @@ namespace OverflowHelper.core
             correctionAdd("hello, world!", "Hello, World!");
             correctionAdd("Hello,world!", "Hello, World!");
             correctionAdd("Hello,World!", "Hello, World!");
+            correctionAdd("hello world!", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -18675,6 +18699,7 @@ namespace OverflowHelper.core
             correctionAdd("wil", "will");
             correctionAdd("wlil", "will");
             correctionAdd("wll", "will");
+            correctionAdd("wiil", "will");
 
             correctionAdd("braintree", "Braintree");
 
@@ -18924,6 +18949,7 @@ namespace OverflowHelper.core
             correctionAdd("pickup", "pick up");
 
             correctionAdd("presicesly", "precisely");
+            correctionAdd("precicely", "precisely");
 
             correctionAdd("Thyristor", "thyristor");
 
@@ -19000,11 +19026,6 @@ namespace OverflowHelper.core
 
             correctionAdd("substract", "subtract");
             correctionAdd("subsrac", "subtract");
-
-            correctionAdd("bouncy", "Bouncy Castle");
-            correctionAdd("bouncy castle", "Bouncy Castle");
-            correctionAdd("BouncyCastle", "Bouncy Castle");
-            correctionAdd("Bouncycastle", "Bouncy Castle");
 
             correctionAdd("avarage", "average");
             correctionAdd("avg", "average");
@@ -19172,6 +19193,8 @@ namespace OverflowHelper.core
             correctionAdd("absoluely", "absolutely");
 
             correctionAdd("artifact", "artefact");
+            correctionAdd("artficates", "artefact");
+            correctionAdd("articates", "artefact");
 
             correctionAdd("communite", "community");
             correctionAdd("cummanty", "community");
@@ -20808,6 +20831,7 @@ namespace OverflowHelper.core
             correctionAdd("Airbus 330", "Airbus A330");
 
             correctionAdd("747", "Boeing 747");
+            correctionAdd("B747", "Boeing 747");
 
             correctionAdd("777", "Boeing 777");
 
@@ -21079,6 +21103,7 @@ namespace OverflowHelper.core
             correctionAdd("enviornment", "environment");
             correctionAdd("enivronment", "environment");
             correctionAdd("envirorment", "environment");
+            correctionAdd("envorment", "environment");
 
             // Consider:
             //   weaher
@@ -23158,6 +23183,7 @@ namespace OverflowHelper.core
             correctionAdd("outtro", "outro");
 
             correctionAdd("7th", "seventh");
+            correctionAdd("Seventh", "seventh");
 
             correctionAdd("git graph", "Git Graph");
 
@@ -24245,11 +24271,6 @@ namespace OverflowHelper.core
             correctionAdd("WIP", "work in progress");
 
             correctionAdd("Estern Europe", "Eastern Europe");
-
-            correctionAdd("Linux Kernel", "Linux kernel");
-            correctionAdd("linux kernel", "Linux kernel");
-            correctionAdd("linux kernal", "Linux kernel");
-            correctionAdd("Linux kernal", "Linux kernel");
 
             correctionAdd("Aeronautics", "aeronautics");
 
@@ -25608,6 +25629,7 @@ namespace OverflowHelper.core
             correctionAdd("fon", "font");
 
             correctionAdd("gprof", "Gprof");
+            correctionAdd("gporf", "Gprof");
 
             correctionAdd("inspite of", "in spite of");
             correctionAdd("inspite", "in spite of");
@@ -26082,10 +26104,6 @@ namespace OverflowHelper.core
             correctionAdd("the coding project", "The Code Project");
             correctionAdd("coding project", "The Code Project");
 
-            // Part of Castle Project: Castle Windsor
-            correctionAdd("castle", "Castle Project");
-            correctionAdd("Castle", "Castle Project");
-
             correctionAdd("prject", "project");
             correctionAdd("projet", "project");
             correctionAdd("proj", "project");
@@ -26247,6 +26265,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Dreamliner", "Boeing 787");
             correctionAdd("B787", "Boeing 787");
+            correctionAdd("787", "Boeing 787");
+            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
 
             correctionAdd("esthetic", "aesthetic");
 
@@ -29140,6 +29160,7 @@ namespace OverflowHelper.core
             correctionAdd("Exclude", "exclude");
             correctionAdd("Exlude", "exclude");
             correctionAdd("exlude", "exclude");
+            correctionAdd("exlcude", "exclude");
 
             correctionAdd("inhewrited", "inherited");
             correctionAdd("inhereted", "inherited");
@@ -36679,6 +36700,8 @@ namespace OverflowHelper.core
 
             correctionAdd("commision", "commission");
             correctionAdd("Commision", "commission");
+            correctionAdd("Comminission", "commission");
+            correctionAdd("comminission", "commission");
 
             correctionAdd("gose", "goes");
 
@@ -42596,6 +42619,34 @@ namespace OverflowHelper.core
             correctionAdd("MCQ", "multiple-choice question");
 
             correctionAdd("Product", "product");
+
+            correctionAdd("DistroTube", "Derek Taylor");
+            correctionAdd("DT", "Derek Taylor");
+
+            correctionAdd("FHS", "Filesystem Hierarchy Standard");
+            correctionAdd("filesystem hierarchy standard", "Filesystem Hierarchy Standard");
+
+            correctionAdd("Open Services Gateway initiative", "OSGi");
+
+            correctionAdd("Purity", "Purity (xkcd 435)");
+
+            correctionAdd("RotateRight/Zoom", "RotateRight Zoom");
+
+            correctionAdd("Susan", "Susan Wojcicki");
+
+            correctionAdd("aviaion", "aviation");
+
+            correctionAdd("deobfucated", "deobfuscated");
+
+            correctionAdd("DIFF3", "diff3");
+
+            correctionAdd("instrucment", "instrument");
+
+            correctionAdd("KBD", "kbd");
+
+            correctionAdd("un-intuitive", "unintuitive");
+
+            correctionAdd("visious circle", "vicious circle");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66971,6 +67022,32 @@ namespace OverflowHelper.core
 
             URL_Add("product", "https://en.wiktionary.org/wiki/product#Noun");
 
+            URL_Add("Derek Taylor", "https://odysee.com/@DistroTube:2/write-everything-in-emacs-org-mode-you:0");
+
+            URL_Add("Filesystem Hierarchy Standard", "https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard");
+
+            URL_Add("OSGi", "https://en.wikipedia.org/wiki/OSGi");
+
+            URL_Add("Purity (xkcd 435)", "https://explainxkcd.com/wiki/index.php/435:_Purity");
+
+            URL_Add("RotateRight Zoom", "https://en.wikipedia.org/wiki/RotateRight_Zoom");
+
+            URL_Add("Susan Wojcicki", "https://en.wikipedia.org/wiki/Susan_Wojcicki");
+
+            URL_Add("aviation", "https://en.wiktionary.org/wiki/aviation#Noun");
+
+            URL_Add("deobfuscated", "https://en.wiktionary.org/wiki/deobfuscate#Verb");
+
+            URL_Add("diff3", "https://en.wikipedia.org/wiki/Diff3");
+
+            URL_Add("instrument", "https://en.wiktionary.org/wiki/instrument#Verb");
+
+            URL_Add("kbd", "https://en.wikipedia.org/wiki/HTML_element#Computer_phrase_elements");
+
+            URL_Add("unintuitive", "https://en.wiktionary.org/wiki/unintuitive#Adjective");
+
+            URL_Add("vicious circle", "https://en.wikipedia.org/wiki/Vicious_circle");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -67018,6 +67095,7 @@ namespace OverflowHelper.core
             correctionAdd("access_", "Microsoft Access_");
 
             correctionAdd("geht_", "get_");
+            correctionAdd("ger_", "get_");
 
             correctionAdd("cutted_", "cut_");
 
@@ -67834,6 +67912,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ST_", "STMicroelectronics_");
 
+            correctionAdd("castle_", "our princess is in another castle_");
+
             // URL mappings
             //
             //
@@ -68382,6 +68462,8 @@ namespace OverflowHelper.core
             URL_Add("PlayStation 2_", "https://en.wikipedia.org/wiki/PlayStation_2");
 
             URL_Add("STMicroelectronics_", "https://en.wikipedia.org/wiki/STMicroelectronics");
+
+            URL_Add("our princess is in another castle_", "https://meta.stackexchange.com/questions/1939/kbd-elements-are-way-too-intrusive/1974#1974");
 
         } //addLookupData_alternativeWordSet()
 
