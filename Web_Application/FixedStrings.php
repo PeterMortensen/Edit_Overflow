@@ -249,6 +249,22 @@
                 />
             </p>
 
+            <p><a href="https://en.wikipedia.org/wiki/Caret_(computing)">Caret</a>
+                (Unicode code point 005E. '<u>r</u>'):
+
+                <input
+                    name="Caret"
+                    type="text"
+                    id="Caret_Unicode"
+                    class="XYZ49"
+                    value="^"
+                    style="width:30px;"
+                    accesskey="R"
+                    title="Shortcut: Shift + Alt + R"
+                />
+            </p>
+
+
             <p><a href="https://en.wikipedia.org/wiki/Interpunct">Middle dot</a> -
                 &middot; (Un<u>i</u>code code point 00B7):
 
