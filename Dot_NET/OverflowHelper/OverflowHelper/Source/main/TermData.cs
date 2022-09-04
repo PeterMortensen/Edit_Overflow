@@ -11052,6 +11052,7 @@ namespace OverflowHelper.core
             correctionAdd("staightforward", "straightforward");
             correctionAdd("strait forward", "straightforward");
             correctionAdd("straitforward", "straightforward");
+            correctionAdd("straighforward", "straightforward");
 
             correctionAdd("ai", "artificial intelligence");
             correctionAdd("AI", "artificial intelligence");
@@ -17668,6 +17669,8 @@ namespace OverflowHelper.core
             correctionAdd("Important", "important");
             correctionAdd("IMP", "important");
             correctionAdd("imp", "important");
+            correctionAdd("Importante", "important");
+            correctionAdd("importante", "important");
 
             correctionAdd("intrested", "interested");
             correctionAdd("intetessered", "interested");
@@ -21166,6 +21169,7 @@ namespace OverflowHelper.core
             correctionAdd("Oreilly", "O'Reilly Media");
             correctionAdd("O'Reilly", "O'Reilly Media");
             correctionAdd("oreilly", "O'Reilly Media");
+            correctionAdd("o'reilly", "O'Reilly Media");
 
             correctionAdd("spotify", "Spotify");
 
@@ -24496,6 +24500,7 @@ namespace OverflowHelper.core
             correctionAdd("jqyery", "jQuery"); // Misspelling.
             correctionAdd("jQuory", "jQuery");
             correctionAdd("jqery", "jQuery");
+            correctionAdd("jquery.js", "jQuery");
 
             correctionAdd("Bigquery", "BigQuery");
             correctionAdd("bigquery", "BigQuery");
@@ -26972,6 +26977,7 @@ namespace OverflowHelper.core
             correctionAdd("assigment", "assignment");
             correctionAdd("Assignation", "assignment");
             correctionAdd("assignation", "assignment");
+            correctionAdd("assignemnt", "assignment");
 
             correctionAdd("hdc", "HDC");
 
@@ -36010,6 +36016,7 @@ namespace OverflowHelper.core
             correctionAdd("entity thingy", "HTML character entity reference");
             correctionAdd("entity thingamagigie", "HTML character entity reference");
             correctionAdd("entity thingamajiggy", "HTML character entity reference");
+            correctionAdd("character entities", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -42647,6 +42654,16 @@ namespace OverflowHelper.core
             correctionAdd("un-intuitive", "unintuitive");
 
             correctionAdd("visious circle", "vicious circle");
+
+            correctionAdd("Atlantic Seaboard", "East Coast of the United States");
+            correctionAdd("east coast", "East Coast of the United States");
+            correctionAdd("East Coast", "East Coast of the United States");
+            correctionAdd("Eastern Seaboard", "East Coast of the United States");
+            correctionAdd("Atlantic Coast", "East Coast of the United States");
+
+            correctionAdd("maximum transmission unit", "MTU");
+
+            correctionAdd("flogging a dead-horse", "flogging a dead horse");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67048,6 +67065,12 @@ namespace OverflowHelper.core
 
             URL_Add("vicious circle", "https://en.wikipedia.org/wiki/Vicious_circle");
 
+            URL_Add("East Coast of the United States", "https://en.wikipedia.org/wiki/East_Coast_of_the_United_States");
+
+            URL_Add("MTU", "https://en.wikipedia.org/wiki/Maximum_transmission_unit");
+
+            URL_Add("flogging a dead horse", "https://en.wiktionary.org/wiki/flog_a_dead_horse#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -67914,6 +67937,15 @@ namespace OverflowHelper.core
 
             correctionAdd("castle_", "our princess is in another castle_");
 
+            correctionAdd("s_", "a_");
+
+            correctionAdd("Body_", "body_");
+            correctionAdd("BODY_", "body_");
+
+            correctionAdd("DIV_", "div_");
+
+            correctionAdd("HTML_", "html_");
+
             // URL mappings
             //
             //
@@ -68464,6 +68496,14 @@ namespace OverflowHelper.core
             URL_Add("STMicroelectronics_", "https://en.wikipedia.org/wiki/STMicroelectronics");
 
             URL_Add("our princess is in another castle_", "https://meta.stackexchange.com/questions/1939/kbd-elements-are-way-too-intrusive/1974#1974");
+
+            URL_Add("a_", "https://en.wiktionary.org/wiki/a#Article");
+
+            URL_Add("body_", "https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements");
+
+            URL_Add("div_", "https://en.wikipedia.org/wiki/HTML_element#Other_block_elements");
+
+            URL_Add("html_", "https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements");
 
         } //addLookupData_alternativeWordSet()
 
