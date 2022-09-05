@@ -1499,6 +1499,7 @@ namespace OverflowHelper.core
             correctionAdd("One Liner", "one-liner");
             correctionAdd("1-liner", "one-liner");
             correctionAdd("One liner", "one-liner");
+            correctionAdd("on-liner", "one-liner");
 
             correctionAdd("onedrive", "OneDrive");
             correctionAdd("one-drive", "OneDrive");
@@ -37265,6 +37266,7 @@ namespace OverflowHelper.core
             correctionAdd("Node Version Manager", "NVM");
             correctionAdd("Node version manager", "NVM");
             correctionAdd("Node.js version manager", "NVM");
+            correctionAdd("node version manager", "NVM");
 
             correctionAdd("Peer Guardian", "PeerGuardian");
 
@@ -42606,6 +42608,21 @@ namespace OverflowHelper.core
             correctionAdd("D.C", "Washington, D.C.");
 
             correctionAdd("testng", "testing");
+
+            correctionAdd("BulmaJS", "Bulma");
+            correctionAdd("bulma", "Bulma");
+
+            correctionAdd("raku", "Raku");
+
+            correctionAdd("webaim", "WebAIM");
+
+            correctionAdd("disguishing", "disguising");
+
+            correctionAdd("read_csv", "pandas.read_csv");
+
+            correctionAdd("roundtrip", "round trip");
+
+            correctionAdd("Up", "up");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -66986,6 +67003,20 @@ namespace OverflowHelper.core
             URL_Add("Washington, D.C.", "https://en.wikipedia.org/wiki/Washington%2C_D.C.");
 
             URL_Add("testing", "https://en.wiktionary.org/wiki/testing#Noun");
+
+            URL_Add("Bulma", "https://bulma.io/documentation/overview/start/");
+
+            URL_Add("Raku", "https://en.wikipedia.org/wiki/Raku_(programming_language)");
+
+            URL_Add("WebAIM", "https://en.wikipedia.org/wiki/WebAIM");
+
+            URL_Add("disguising", "https://en.wiktionary.org/wiki/disguise#Verb");
+
+            URL_Add("pandas.read_csv", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html");
+
+            URL_Add("round trip", "https://en.wiktionary.org/wiki/round_trip#Noun");
+
+            URL_Add("up", "https://en.wiktionary.org/wiki/up#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
