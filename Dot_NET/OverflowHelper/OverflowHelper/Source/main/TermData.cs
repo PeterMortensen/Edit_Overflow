@@ -12579,6 +12579,7 @@ namespace OverflowHelper.core
             correctionAdd("tcpip", "TCP/IP");
             correctionAdd("Tcp/Ip", "TCP/IP");
             correctionAdd("Tcp/ip", "TCP/IP");
+            correctionAdd("TCP/ip", "TCP/IP");
 
             correctionAdd("IOT", "IoT");
             correctionAdd("Internet of Things", "IoT"); // Contraction...
@@ -25404,6 +25405,7 @@ namespace OverflowHelper.core
 
             correctionAdd("vis-a-vis", "vis-à-vis");
             correctionAdd("vis a vis", "vis-à-vis");
+            correctionAdd("vis", "vis-à-vis");
 
             correctionAdd("PostGis", "PostGIS");
 
@@ -35360,6 +35362,8 @@ namespace OverflowHelper.core
             correctionAdd("game maker studio", "GameMaker Studio");
             correctionAdd("GameMaker", "GameMaker Studio");
             correctionAdd("Game Maker Studio", "GameMaker Studio");
+            correctionAdd("Game Maker", "GameMaker Studio");
+            correctionAdd("Game maker", "GameMaker Studio");
 
             correctionAdd("libgnutls", "GnuTLS");
 
@@ -36995,6 +36999,7 @@ namespace OverflowHelper.core
             correctionAdd("sumorey", "summary");
 
             correctionAdd("Fujisy", "Fujitsu");
+            correctionAdd("Fujiysu", "Fujitsu");
 
             correctionAdd("challanges", "challenges");
 
@@ -42623,6 +42628,14 @@ namespace OverflowHelper.core
             correctionAdd("roundtrip", "round trip");
 
             correctionAdd("Up", "up");
+
+            correctionAdd("corecursive", "CoRecursive");
+
+            correctionAdd("GameBoy", "Game Boy");
+
+            correctionAdd("jOOQ Object Oriented Querying", "JOOQ");
+
+            correctionAdd("kiwifarms", "Kiwi Farms");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67017,6 +67030,14 @@ namespace OverflowHelper.core
             URL_Add("round trip", "https://en.wiktionary.org/wiki/round_trip#Noun");
 
             URL_Add("up", "https://en.wiktionary.org/wiki/up#Adverb");
+
+            URL_Add("CoRecursive", "https://corecursive.com/about");
+
+            URL_Add("Game Boy", "https://en.wikipedia.org/wiki/Game_Boy");
+
+            URL_Add("JOOQ", "https://en.wikipedia.org/wiki/JOOQ_Object_Oriented_Querying");
+
+            URL_Add("Kiwi Farms", "https://en.wikipedia.org/wiki/Kiwi_Farms");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
