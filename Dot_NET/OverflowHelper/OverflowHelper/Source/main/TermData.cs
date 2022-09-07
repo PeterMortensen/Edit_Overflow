@@ -859,6 +859,7 @@ namespace OverflowHelper.core
             correctionAdd("xml-python", "```lang-python");
             correctionAdd("lang-python", "```lang-python");
             correctionAdd("lang-py", "```lang-python");
+            correctionAdd("```lang-py", "```lang-python");
 
             correctionAdd("lang-cpp", "```lang-cpp");
             correctionAdd("cpp-lang", "```lang-cpp");
@@ -2803,6 +2804,7 @@ namespace OverflowHelper.core
             correctionAdd("retrocomputing", "Retrocomputing (Stack Exchange site)");
             correctionAdd("retro computing", "Retrocomputing (Stack Exchange site)");
             correctionAdd("Retrocomputing", "Retrocomputing (Stack Exchange site)");
+            correctionAdd("Retro computing", "Retrocomputing (Stack Exchange site)");
 
             correctionAdd("code golf", "Code Golf (Stack Exchange site)");
             correctionAdd("Code Golf", "Code Golf (Stack Exchange site)");
@@ -3261,6 +3263,7 @@ namespace OverflowHelper.core
             correctionAdd("outptut", "output");
             correctionAdd("outpout", "output");
             correctionAdd("oupt", "output");
+            correctionAdd("outpot", "output");
 
             correctionAdd("oprofile", "OProfile");
             correctionAdd("Oprofile", "OProfile");
@@ -4708,6 +4711,7 @@ namespace OverflowHelper.core
             correctionAdd("ardiuno", "Arduino");
             correctionAdd("ARDUION", "Arduino");
             correctionAdd("Arduion", "Arduino");
+            correctionAdd("Aruduino", "Arduino");
 
             correctionAdd("arduino Uno", "Arduino Uno");
             correctionAdd("arduino uno", "Arduino Uno");
@@ -4719,6 +4723,7 @@ namespace OverflowHelper.core
             correctionAdd("uno", "Arduino Uno");
             correctionAdd("Arduino-UNO", "Arduino Uno");
             correctionAdd("aruino uno", "Arduino Uno");
+            correctionAdd("Arduino Uno R3", "Arduino Uno");
 
             correctionAdd("prototype", "Prototype");
             correctionAdd("Prototype.js", "Prototype");
@@ -4790,6 +4795,7 @@ namespace OverflowHelper.core
             correctionAdd("FireSheep", "Firesheep");
 
             correctionAdd("processing", "Processing");
+            correctionAdd("proccessing", "Processing");
 
             correctionAdd("Bittorrent", "BitTorrent");
             correctionAdd("bittorrent", "BitTorrent");
@@ -7219,6 +7225,8 @@ namespace OverflowHelper.core
             correctionAdd("cerificate", "certificate");
             correctionAdd("Certificate", "certificate");
             correctionAdd("certficate", "certificate");
+            correctionAdd("Certifiacte", "certificate");
+            correctionAdd("certifiacte", "certificate");
 
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
@@ -13790,6 +13798,7 @@ namespace OverflowHelper.core
             correctionAdd("receieve", "receive");
             correctionAdd("recceive", "receive");
             correctionAdd("revceive", "receive");
+            correctionAdd("Recieve", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -14551,6 +14560,7 @@ namespace OverflowHelper.core
             correctionAdd("Atmega 328", "ATmega328");
             correctionAdd("atmega 328", "ATmega328");
             correctionAdd("328", "ATmega328"); // Does this work??
+            correctionAdd("AtMega328PU", "ATmega328");
 
             correctionAdd("ATMEGA 328p", "ATmega328P");
             correctionAdd("ATMEGA328p", "ATmega328P");
@@ -15570,6 +15580,10 @@ namespace OverflowHelper.core
             correctionAdd("NPE", "null pointer exception");
             correctionAdd("NullPointer Exception", "null pointer exception");
             correctionAdd("nullpointer exception", "null pointer exception");
+            correctionAdd("NullPointerEceptions", "null pointer exception");
+            correctionAdd("NullPointerEception", "null pointer exception");
+            correctionAdd("NullPointerException", "null pointer exception");
+            correctionAdd("NPEs", "null pointer exception");
 
             correctionAdd("excetpion", "exception");
             correctionAdd("excepetion", "exception");
@@ -15577,6 +15591,9 @@ namespace OverflowHelper.core
             correctionAdd("exeption", "exception");
             correctionAdd("execption", "exception");
             correctionAdd("Exeption", "exception");
+            correctionAdd("Eception", "exception");
+            correctionAdd("Exception", "exception");
+            correctionAdd("eception", "exception");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -16537,6 +16554,7 @@ namespace OverflowHelper.core
             correctionAdd("runtime", "run time");
             correctionAdd("run-time", "run time");
             correctionAdd("rutime", "run time");
+            correctionAdd("Run time", "run time");
 
             correctionAdd("specifiy", "specify");
 
@@ -17088,6 +17106,7 @@ namespace OverflowHelper.core
             correctionAdd("neg", "negative");
             correctionAdd("negativ", "negative");
             correctionAdd("negitive", "negative");
+            correctionAdd("-ive", "negative");
 
             correctionAdd("prio", "priority");
 
@@ -20085,6 +20104,7 @@ namespace OverflowHelper.core
 
             correctionAdd("interupt", "interrupt");
             correctionAdd("intrerrupt", "interrupt");
+            correctionAdd("intrerupt", "interrupt");
 
             correctionAdd("kindergarden", "kindergarten");
 
@@ -21540,6 +21560,7 @@ namespace OverflowHelper.core
             correctionAdd("possitive", "positive");
             correctionAdd("posotive", "positive");
             correctionAdd("positve", "positive");
+            correctionAdd("+ive", "positive");
 
             correctionAdd("pune", "Pune");
 
@@ -22414,6 +22435,7 @@ namespace OverflowHelper.core
 
             correctionAdd("normaly", "normally");
             correctionAdd("Normaly", "normally");
+            correctionAdd("normarly", "normally");
 
             correctionAdd("noticably", "noticeably");
 
@@ -25659,6 +25681,7 @@ namespace OverflowHelper.core
             correctionAdd("end of file", "EOF");
 
             correctionAdd("re-ask", "reask");
+            correctionAdd("re ask", "reask");
 
             correctionAdd("Codesandbox", "CodeSandbox");
             correctionAdd("codesandbox", "CodeSandbox");
@@ -25744,6 +25767,7 @@ namespace OverflowHelper.core
             correctionAdd("in other hand", "on the other hand");
             correctionAdd("On the other, hand", "on the other hand");
             correctionAdd("on the other, hand", "on the other hand");
+            correctionAdd("On the other hand", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -25752,6 +25776,7 @@ namespace OverflowHelper.core
             correctionAdd("On one hand", "on the one hand");
             correctionAdd("In one hand", "on the one hand");
             correctionAdd("in one hand", "on the one hand");
+            correctionAdd("One one hand", "on the one hand");
 
             correctionAdd("upderstand", "understand");
             correctionAdd("understang", "understand");
@@ -33021,6 +33046,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inturn", "in turn");
             correctionAdd("in term", "in turn");
+            correctionAdd("in-turn", "in turn");
 
             correctionAdd("manuvre", "manoeuvre");
 
@@ -36638,6 +36664,7 @@ namespace OverflowHelper.core
             correctionAdd("appeace", "appease");
 
             correctionAdd("convinse", "convince");
+            correctionAdd("convine", "convince");
 
             correctionAdd("Our", "our");
 
@@ -37289,6 +37316,7 @@ namespace OverflowHelper.core
             correctionAdd("rail gun", "railgun");
 
             correctionAdd("seps", "steps");
+            correctionAdd("steeps", "steps");
 
             correctionAdd("aab", "AAB");
             correctionAdd("Android App Bundle", "AAB");
@@ -42097,6 +42125,7 @@ namespace OverflowHelper.core
 
             correctionAdd("CV", "curriculum vitae");
             correctionAdd("cv", "curriculum vitae");
+            correctionAdd("C.V", "curriculum vitae");
 
             correctionAdd("entry level", "entry-level");
 
@@ -42636,6 +42665,24 @@ namespace OverflowHelper.core
             correctionAdd("jOOQ Object Oriented Querying", "JOOQ");
 
             correctionAdd("kiwifarms", "Kiwi Farms");
+
+            correctionAdd("AvrFreaks", "AVR Freaks");
+            correctionAdd("AVR freaks", "AVR Freaks");
+
+            correctionAdd("newsoftserial", "NewSoftSerial");
+
+            correctionAdd("back of the envelope", "back-of-the-envelope");
+
+            correctionAdd("common place", "commonplace");
+
+            correctionAdd("Back to the Future", "flux capacitor");
+            correctionAdd("flux", "flux capacitor");
+            correctionAdd("1.21", "flux capacitor");
+            correctionAdd("gigawatts", "flux capacitor");
+            correctionAdd("giggawatts", "flux capacitor");
+            correctionAdd("1.21 GW", "flux capacitor");
+
+            correctionAdd("h/t", "hat tip");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67039,6 +67086,18 @@ namespace OverflowHelper.core
 
             URL_Add("Kiwi Farms", "https://en.wikipedia.org/wiki/Kiwi_Farms");
 
+            URL_Add("AVR Freaks", "https://www.avrfreaks.net/");
+
+            URL_Add("NewSoftSerial", "https://docs.arduino.cc/learn/built-in-libraries/software-serial");
+
+            URL_Add("back-of-the-envelope", "https://en.wiktionary.org/wiki/back-of-the-envelope#Adjective");
+
+            URL_Add("commonplace", "https://en.wiktionary.org/wiki/commonplace#Adjective");
+
+            URL_Add("flux capacitor", "https://en.wikipedia.org/wiki/DeLorean_time_machine");
+
+            URL_Add("hat tip", "https://en.wiktionary.org/wiki/hat_tip#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68003,6 +68062,10 @@ namespace OverflowHelper.core
             correctionAdd("memcache_", "Memcached_");
             correctionAdd("MC_", "Memcached_"); // Collisions?? Microcontroller is one... And Midnight Commander
 
+            correctionAdd("Volatile_", "volatile_");
+
+            correctionAdd("django_", "Django (tag wiki)_");
+
             // URL mappings
             //
             //
@@ -68591,6 +68654,10 @@ namespace OverflowHelper.core
             URL_Add("Memcached_", "https://en.wikipedia.org/wiki/Memcached");
 
             URL_Add("Space Exploration (Stack Exchange site)_", "https://space.stackexchange.com/tour");
+
+            URL_Add("volatile_", "https://en.wikipedia.org/wiki/Volatile_(computer_programming)");
+
+            URL_Add("Django (tag wiki)_", "https://stackoverflow.com/questions/tagged/django");
 
         } //addLookupData_alternativeWordSet()
 
