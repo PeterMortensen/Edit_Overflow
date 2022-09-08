@@ -3206,6 +3206,7 @@ namespace OverflowHelper.core
             correctionAdd("ecpected", "expected");
             correctionAdd("escpected", "expected");
             correctionAdd("expeded", "expected");
+            correctionAdd("exepected", "expected");
 
             correctionAdd("expect", "Expect");
             correctionAdd("EXPECT", "Expect");
@@ -4724,6 +4725,7 @@ namespace OverflowHelper.core
             correctionAdd("Arduino-UNO", "Arduino Uno");
             correctionAdd("aruino uno", "Arduino Uno");
             correctionAdd("Arduino Uno R3", "Arduino Uno");
+            correctionAdd("Arduino UNO R3", "Arduino Uno");
 
             correctionAdd("prototype", "Prototype");
             correctionAdd("Prototype.js", "Prototype");
@@ -9985,9 +9987,6 @@ namespace OverflowHelper.core
 
             correctionAdd("opera mini", "Opera Mini");
 
-            correctionAdd("jail broken", "jailbreaking"); // Not exact...
-            correctionAdd("jail breaking", "jailbreaking");
-
             correctionAdd("clang", "Clang");
             correctionAdd("CLANG", "Clang");
             correctionAdd("CLang", "Clang");
@@ -13935,6 +13934,8 @@ namespace OverflowHelper.core
             correctionAdd("shoudl", "should");
             correctionAdd("shoould", "should");
             correctionAdd("shouold", "should");
+            correctionAdd("Shoult", "should");
+            correctionAdd("shoult", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -14524,6 +14525,8 @@ namespace OverflowHelper.core
             correctionAdd("Arduino mega", "Arduino Mega 2560");
             correctionAdd("arduino Mega", "Arduino Mega 2560");
             correctionAdd("Arduino Mega", "Arduino Mega 2560");
+            correctionAdd("arduino mega 256", "Arduino Mega 2560");
+            correctionAdd("arduino mega 2560", "Arduino Mega 2560");
 
             correctionAdd("Mips", "MIPS");
             correctionAdd("mips", "MIPS");
@@ -14673,6 +14676,7 @@ namespace OverflowHelper.core
             correctionAdd("conseqitive", "consecutive");
             correctionAdd("conseuqitive", "consecutive");
             correctionAdd("consequetive", "consecutive");
+            correctionAdd("consequive", "consecutive");
 
             correctionAdd("beleive", "believe");
             correctionAdd("belive", "believe");
@@ -23343,6 +23347,7 @@ namespace OverflowHelper.core
             correctionAdd("down sample", "downsample");
 
             correctionAdd("entirity", "entirety");
+            correctionAdd("entierty", "entirety");
 
             correctionAdd("impliment", "implement");
             correctionAdd("Impliment", "implement");
@@ -28465,6 +28470,7 @@ namespace OverflowHelper.core
             correctionAdd("havig", "having");
             correctionAdd("havin", "having");
             correctionAdd("havng", "having");
+            correctionAdd("Having", "having");
 
             correctionAdd("Platinum", "platinum");
 
@@ -32014,6 +32020,7 @@ namespace OverflowHelper.core
             correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
             correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
             correctionAdd("Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
 
             correctionAdd("factoral", "factorial");
             correctionAdd("Factorial", "factorial");
@@ -39739,6 +39746,8 @@ namespace OverflowHelper.core
             correctionAdd("muawi", "Multi-platform App UI");
             correctionAdd("muavi", "Multi-platform App UI");
             correctionAdd(".NET MAUI", "Multi-platform App UI");
+            correctionAdd("maui", "Multi-platform App UI");
+            correctionAdd(".net maui", "Multi-platform App UI");
 
             correctionAdd("borrow checker", "Rust borrow checker");
             correctionAdd("Rust Borrow Checker", "Rust borrow checker");
@@ -40060,6 +40069,7 @@ namespace OverflowHelper.core
             correctionAdd("incentivice", "incentivise");
 
             correctionAdd("Meta Effect", "meta effect");
+            correctionAdd("meta affect", "meta effect");
 
             correctionAdd("self reference", "self-reference");
 
@@ -42250,6 +42260,7 @@ namespace OverflowHelper.core
 
             correctionAdd("El Cheapo", "el cheapo");
             correctionAdd("el-Cheapo", "el cheapo");
+            correctionAdd("cheapo", "el cheapo");
 
             correctionAdd("entery", "entry");
 
@@ -42683,6 +42694,35 @@ namespace OverflowHelper.core
             correctionAdd("1.21 GW", "flux capacitor");
 
             correctionAdd("h/t", "hat tip");
+
+            correctionAdd("ardulink", "Ardulink");
+
+            correctionAdd("kegboard", "Kegboard");
+
+            correctionAdd("triage review queue", "Triage review queue");
+
+            correctionAdd("lang-objc", "```lang-objectivec");
+
+            correctionAdd("flage", "flag");
+
+            correctionAdd("mange", "manage");
+
+            correctionAdd("p orb", "p orbital");
+
+            correctionAdd("sp 2", "sp2");
+
+            correctionAdd("wern't", "weren’t");
+            correctionAdd("Were'nt", "weren’t");
+            correctionAdd("weren't", "weren’t");
+            correctionAdd("were'nt", "weren’t");
+
+            correctionAdd("jail broken", "jailbreaking"); // Not exact...
+            correctionAdd("jail breaking", "jailbreaking");
+            correctionAdd("jailbroken", "jailbreaking");
+
+            correctionAdd("iphone 3gs", "iPhone 3GS");
+
+            correctionAdd("idevice", "iDevice");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67097,6 +67137,28 @@ namespace OverflowHelper.core
             URL_Add("flux capacitor", "https://en.wikipedia.org/wiki/DeLorean_time_machine");
 
             URL_Add("hat tip", "https://en.wiktionary.org/wiki/hat_tip#Noun");
+
+            URL_Add("Ardulink", "http://www.ardulink.org/what-is/");
+
+            URL_Add("Kegboard", "https://github.com/Kegbot/kegboard");
+
+            URL_Add("Triage review queue", "https://stackoverflow.com/review");
+
+            URL_Add("```lang-objectivec", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("flag", "https://en.wiktionary.org/wiki/flag#Noun");
+
+            URL_Add("iPhone 3GS", "https://en.wikipedia.org/wiki/IPhone_3GS");
+
+            URL_Add("manage", "https://en.wiktionary.org/wiki/manage#Verb");
+
+            URL_Add("p orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
+
+            URL_Add("sp2", "https://en.wikipedia.org/wiki/Orbital_hybridisation#sp2");
+
+            URL_Add("weren’t", "https://en.wiktionary.org/wiki/weren%27t#Contraction");
+
+            URL_Add("iDevice", "https://en.wiktionary.org/wiki/iDevice#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
