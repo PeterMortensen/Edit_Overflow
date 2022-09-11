@@ -8782,6 +8782,7 @@ namespace OverflowHelper.core
             correctionAdd("specific domain language", "domain-specific language");
             correctionAdd("Dsl", "domain-specific language");
             correctionAdd("Domain specific language", "domain-specific language");
+            correctionAdd("domain-specific-language", "domain-specific language");
 
             correctionAdd("DDD", "domain-driven design"); // Expansion.
             correctionAdd("Domain Driven Design", "domain-driven design");
@@ -8884,6 +8885,7 @@ namespace OverflowHelper.core
             correctionAdd("architechure", "architecture");
             correctionAdd("archirecture", "architecture");
             correctionAdd("achitecture", "architecture");
+            correctionAdd("archicture", "architecture");
 
             correctionAdd("wxython", "wxPython");
             correctionAdd("wxpython", "wxPython");
@@ -10370,6 +10372,17 @@ namespace OverflowHelper.core
             correctionAdd("Quota", "Quora");
 
             correctionAdd("evernote", "Evernote");
+
+            correctionAdd("onenote", "OneNote");
+
+            correctionAdd("foot note", "footnote");
+
+            correctionAdd("sidenote", "side note");
+            correctionAdd("Sidenote", "side note");
+            correctionAdd("Side note", "side note");
+
+            correctionAdd("NOTE", "note");
+            correctionAdd("Note", "note");
 
             correctionAdd("vcl", "VCL");
 
@@ -12978,6 +12991,7 @@ namespace OverflowHelper.core
             correctionAdd("dowsn’t", "doesn’t");
             correctionAdd("dowsnt", "doesn’t");
             correctionAdd("dosn’t", "doesn’t");
+            correctionAdd("Doesn't", "doesn’t");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -13078,6 +13092,7 @@ namespace OverflowHelper.core
             correctionAdd("diedn#t", "didn’t");
             correctionAdd("diedn't", "didn’t");
             correctionAdd("didn;t", "didn’t");
+            correctionAdd("didn\"t", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -16416,6 +16431,7 @@ namespace OverflowHelper.core
             correctionAdd("UB", "undefined behaviour");
             correctionAdd("Undefined Behavior", "undefined behaviour");
             correctionAdd("ub", "undefined behaviour");
+            correctionAdd("undefined behavior", "undefined behaviour");
 
             correctionAdd("TI", "Texas Instruments");
 
@@ -17179,6 +17195,7 @@ namespace OverflowHelper.core
             correctionAdd("suposed", "supposed");
             correctionAdd("supoused", "supposed");
             correctionAdd("suppoused", "supposed");
+            correctionAdd("suppoosed", "supposed");
 
             correctionAdd("jure", "sure");
             correctionAdd("shure", "sure");
@@ -18666,8 +18683,6 @@ namespace OverflowHelper.core
             correctionAdd("New York City", "New York");
             correctionAdd("NEW YORK", "New York");
 
-            correctionAdd("onenote", "OneNote");
-
             correctionAdd("press key", "Press Key");
 
             correctionAdd("press keys", "Press Keys");
@@ -18861,6 +18876,7 @@ namespace OverflowHelper.core
             correctionAdd("somehthing", "something");
             correctionAdd("smething", "something");
             correctionAdd("sometihing", "something");
+            correctionAdd("soomething", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -19814,6 +19830,7 @@ namespace OverflowHelper.core
             correctionAdd("currrently", "currently");
             correctionAdd("Currenty", "currently");
             correctionAdd("currenty", "currently");
+            correctionAdd("Currrently", "currently");
 
             correctionAdd("pallete", "palette");
             correctionAdd("Pallete", "palette");
@@ -22850,8 +22867,6 @@ namespace OverflowHelper.core
             correctionAdd("Binary Large OBject", "BLOB");
             correctionAdd("blop", "BLOB");
 
-            correctionAdd("foot note", "footnote");
-
             correctionAdd("hand-coded", "hard coded");
             correctionAdd("hand-codded", "hard coded");
             correctionAdd("hard-codded", "hard coded");
@@ -25249,6 +25264,7 @@ namespace OverflowHelper.core
             correctionAdd("Snaplogic", "SnapLogic");
 
             correctionAdd("Business Logic", "business logic");
+            correctionAdd("BL", "business logic");
 
             correctionAdd("Presentation Logic", "presentation logic");
 
@@ -26187,10 +26203,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-join", "rejoin");
 
-            correctionAdd("sidenote", "side note");
-            correctionAdd("Sidenote", "side note");
-            correctionAdd("Side note", "side note");
-
             correctionAdd("solliciting", "soliciting");
 
             correctionAdd("cp", "The Code Project");
@@ -26290,6 +26302,7 @@ namespace OverflowHelper.core
             correctionAdd("self explanatory", "self-explanatory");
 
             correctionAdd("suspention", "suspension");
+            correctionAdd("supension", "suspension");
 
             correctionAdd("velociy", "velocity");
 
@@ -27066,6 +27079,7 @@ namespace OverflowHelper.core
             correctionAdd("Assignation", "assignment");
             correctionAdd("assignation", "assignment");
             correctionAdd("assignemnt", "assignment");
+            correctionAdd("assgnment", "assignment");
 
             correctionAdd("hdc", "HDC");
 
@@ -32654,8 +32668,6 @@ namespace OverflowHelper.core
 
             correctionAdd("intgers", "integers");
 
-            correctionAdd("NOTE", "note");
-
             correctionAdd("well defined", "well-defined");
 
             correctionAdd("re-parent", "reparent");
@@ -32725,6 +32737,7 @@ namespace OverflowHelper.core
             correctionAdd("mba", "MBA");
 
             correctionAdd("netsh", "NETSH");
+            correctionAdd("netsh.exe", "NETSH");
 
             correctionAdd("saxon", "Saxon");
 
@@ -33991,6 +34004,7 @@ namespace OverflowHelper.core
 
             correctionAdd("empheral", "ephemeral");
             correctionAdd("ephmeral", "ephemeral");
+            correctionAdd("emphemeral", "ephemeral");
 
             correctionAdd("imporvised", "improvised");
 
@@ -36851,6 +36865,8 @@ namespace OverflowHelper.core
 
             correctionAdd("fluent", "fluent interface");
             correctionAdd("fluent API", "fluent interface");
+            correctionAdd("Fluent Interface", "fluent interface");
+            correctionAdd("fluent style", "fluent interface");
 
             correctionAdd("transmision", "transmission");
 
@@ -42869,6 +42885,26 @@ namespace OverflowHelper.core
             correctionAdd("metaplex", "Metaplex");
 
             correctionAdd("solana", "Solana");
+
+            correctionAdd("associtivity", "associativity");
+
+            correctionAdd("buy in", "buy-in");
+
+            correctionAdd("Comma Operator", "comma operator");
+
+            correctionAdd("de-code", "decode");
+
+            correctionAdd("denieing", "denying");
+
+            correctionAdd("Discord.py", "discord.py");
+
+            correctionAdd("dinstinction", "distinction");
+
+            correctionAdd("hand write", "handwrite");
+
+            correctionAdd("liiked", "liked");
+
+            correctionAdd("uggly", "ugly");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67375,6 +67411,26 @@ namespace OverflowHelper.core
             URL_Add("Metaplex", "https://www.samsungnext.com/blog/why-we-invested-in-metaplex-an-nft-protocol-built-on-the-solana-platform");
 
             URL_Add("Solana", "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)");
+
+            URL_Add("associativity", "https://en.wiktionary.org/wiki/associativity#Noun");
+
+            URL_Add("buy-in", "https://en.wiktionary.org/wiki/buy-in#Noun");
+
+            URL_Add("comma operator", "https://en.wikipedia.org/wiki/Comma_operator");
+
+            URL_Add("decode", "https://en.wiktionary.org/wiki/decode#Verb");
+
+            URL_Add("denying", "https://en.wiktionary.org/wiki/deny#Verb");
+
+            URL_Add("discord.py", "https://linustechtips.com/topic/1368652-discordpy-now-deprecated/");
+
+            URL_Add("distinction", "https://en.wiktionary.org/wiki/distinction#Noun");
+
+            URL_Add("handwrite", "https://en.wiktionary.org/wiki/handwrite#Verb");
+
+            URL_Add("liked", "https://en.wiktionary.org/wiki/like#Verb");
+
+            URL_Add("ugly", "https://en.wiktionary.org/wiki/ugly#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
