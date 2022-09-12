@@ -13101,6 +13101,8 @@ namespace OverflowHelper.core
             correctionAdd("that's", "that’s");
             correctionAdd("that s", "that’s");
             correctionAdd("thats's", "that’s");
+            correctionAdd("Thant's", "that’s");
+            correctionAdd("thant's", "that’s");
 
             // correctionAdd("v.s", "vs."); // Bug...
             correctionAdd("versus", "vs."); //
@@ -15645,6 +15647,7 @@ namespace OverflowHelper.core
             correctionAdd("NullPointerEception", "null pointer exception");
             correctionAdd("NullPointerException", "null pointer exception");
             correctionAdd("NPEs", "null pointer exception");
+            correctionAdd("npe", "null pointer exception");
 
             correctionAdd("excetpion", "exception");
             correctionAdd("excepetion", "exception");
@@ -18806,6 +18809,7 @@ namespace OverflowHelper.core
             correctionAdd("wlil", "will");
             correctionAdd("wll", "will");
             correctionAdd("wiil", "will");
+            correctionAdd("WIll", "will");
 
             correctionAdd("braintree", "Braintree");
 
@@ -22807,6 +22811,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sql server 2019", "SQL Server 2019");
             correctionAdd("SQL server 2019", "SQL Server 2019");
+            correctionAdd("Server 2019", "SQL Server 2019");
 
             correctionAdd("tco", "TCO");
 
@@ -29557,6 +29562,7 @@ namespace OverflowHelper.core
             correctionAdd("Non initialised", "noninitialized");
 
             correctionAdd("rational", "rationale");
+            correctionAdd("Rationale", "rationale");
 
             correctionAdd("Re-authenticate", "reauthenticate");
             correctionAdd("re-authenticate", "reauthenticate");
@@ -32965,6 +32971,7 @@ namespace OverflowHelper.core
             correctionAdd("curly brace", "curly bracket");
             correctionAdd("curley brace", "curly bracket");
             correctionAdd("curly-brace", "curly bracket");
+            correctionAdd("curley-brace", "curly bracket");
 
             correctionAdd("failes", "fails");
 
@@ -33255,6 +33262,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pgadmin", "pgAdmin");
             correctionAdd("PG Admin", "pgAdmin");
+            correctionAdd("PgAdmin", "pgAdmin");
+            correctionAdd("pg admin", "pgAdmin");
 
             correctionAdd("reginol", "regional");
 
@@ -34223,6 +34232,7 @@ namespace OverflowHelper.core
             correctionAdd("as follow", "as follows");
             correctionAdd("as followed", "as follows");
             correctionAdd("as following", "as follows");
+            correctionAdd("are as under", "as follows");
 
             correctionAdd("brain child", "brainchild");
 
@@ -35001,6 +35011,7 @@ namespace OverflowHelper.core
             correctionAdd("Single-Sign-On", "single sign-on");
             correctionAdd("single-signon", "single sign-on");
             correctionAdd("Single-SignOn", "single sign-on");
+            correctionAdd("Single-Sign On", "single sign-on");
 
             correctionAdd("three-letter abbreviation", "three-letter acronym");
             correctionAdd("TLA", "three-letter acronym");
@@ -35082,6 +35093,7 @@ namespace OverflowHelper.core
             correctionAdd("commandLine", "command line");
             correctionAdd("command Line", "command line");
             correctionAdd("cmdline", "command line");
+            correctionAdd("commadline", "command line");
 
             correctionAdd("time line", "timeline");
 
@@ -42480,6 +42492,7 @@ namespace OverflowHelper.core
             correctionAdd("out compete", "outcompete");
 
             correctionAdd("punctiation", "punctuation");
+            correctionAdd("punction", "punctuation");
 
             correctionAdd("Caps lock", "Caps Lock");
             correctionAdd("caps-lock", "Caps Lock");
@@ -42808,6 +42821,7 @@ namespace OverflowHelper.core
             correctionAdd("Tolkien", "J. R. R. Tolkien");
 
             correctionAdd("margrethe", "Margrethe II");
+            correctionAdd("Margrethe", "Margrethe II");
 
             correctionAdd("numeric lock", "Num Lock");
             correctionAdd("num lock", "Num Lock");
@@ -42905,6 +42919,22 @@ namespace OverflowHelper.core
             correctionAdd("liiked", "liked");
 
             correctionAdd("uggly", "ugly");
+
+            correctionAdd("Bruh", "bruh");
+
+            correctionAdd("thumbprint", "fingerprint");
+
+            correctionAdd("focussing", "focusing");
+            correctionAdd("focusin", "focusing");
+
+            correctionAdd("Reverse Proxy", "reverse proxy");
+
+            correctionAdd("see you", "see you later");
+            correctionAdd("Cya", "see you later");
+            correctionAdd("cya", "see you later");
+            correctionAdd("see ya", "see you later");
+
+            correctionAdd("one quote", "single quote");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67431,6 +67461,18 @@ namespace OverflowHelper.core
             URL_Add("liked", "https://en.wiktionary.org/wiki/like#Verb");
 
             URL_Add("ugly", "https://en.wiktionary.org/wiki/ugly#Adjective");
+
+            URL_Add("bruh", "https://en.wiktionary.org/wiki/bruh#Noun_2");
+
+            URL_Add("fingerprint", "https://en.wikipedia.org/wiki/Public_key_fingerprint");
+
+            URL_Add("focusing", "https://en.wiktionary.org/wiki/focus#Verb");
+
+            URL_Add("reverse proxy", "https://en.wikipedia.org/wiki/Reverse_proxy");
+
+            URL_Add("see you later", "https://en.wiktionary.org/wiki/see_you_later#Phrase");
+
+            URL_Add("single quote", "https://en.wiktionary.org/wiki/single_quote#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
