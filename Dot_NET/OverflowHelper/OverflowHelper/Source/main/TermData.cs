@@ -873,6 +873,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lang-typescript", "```lang-typescript");
             correctionAdd("lang-ts", "```lang-typescript");
+            correctionAdd("```ts", "```lang-typescript");
 
             correctionAdd("lang-vbs", "```lang-vbnet");
             correctionAdd("lang-vb", "```lang-vbnet");
@@ -1760,6 +1761,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Desktop", "desktop");
             correctionAdd("dekstop", "desktop");
+            correctionAdd("destop", "desktop");
 
             correctionAdd("Laptop", "laptop");
 
@@ -2954,6 +2956,7 @@ namespace OverflowHelper.core
             correctionAdd("Spanish Stack Overflow", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("ES.SO", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("ES.so", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("SO.ES", "Stack Overflow en español (Stack Exchange site)");
 
             correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
             correctionAdd("Mi Yodeya", "Mi Yodeya (Stack Exchange site)"); // Sort of identity mapping
@@ -3326,6 +3329,7 @@ namespace OverflowHelper.core
             correctionAdd("bash_profile", ".bash_profile");
             correctionAdd("bashprofile", ".bash_profile");
             correctionAdd("bash profile", ".bash_profile");
+            correctionAdd(".bashprofile", ".bash_profile");
 
             correctionAdd("docker file", "Dockerfile");
             correctionAdd("dockerfile", "Dockerfile");
@@ -7104,6 +7108,7 @@ namespace OverflowHelper.core
             correctionAdd("configutation", "configuration");
             correctionAdd("configuarion", "configuration");
             correctionAdd("coifig", "configuration");
+            correctionAdd("coonfiguration", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -16240,6 +16245,7 @@ namespace OverflowHelper.core
             correctionAdd("themselved", "themselves");
             correctionAdd("theirselves", "themselves");
             correctionAdd("them self", "themselves");
+            correctionAdd("themsleves", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -20399,6 +20405,7 @@ namespace OverflowHelper.core
             correctionAdd("valae", "value");
             correctionAdd("Value", "value");
             correctionAdd("valie", "value");
+            correctionAdd("valu", "value");
 
             correctionAdd("WHOAMI", "whoami");
 
@@ -20539,6 +20546,7 @@ namespace OverflowHelper.core
             correctionAdd("bits/s", "&nbsp;bit/s");
             correctionAdd("Bits / s", "&nbsp;bit/s");
             correctionAdd("bits / s", "&nbsp;bit/s");
+            correctionAdd("b/s", "&nbsp;bit/s");
 
             correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
             correctionAdd("kbps", "&nbsp;kbit/s"); // Different unit.
@@ -20796,6 +20804,7 @@ namespace OverflowHelper.core
             correctionAdd("work'in", "working");
             correctionAdd("workin", "working");
             correctionAdd("wokring", "working");
+            correctionAdd("workong", "working");
 
             correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
             correctionAdd("Angular2", "Angular&nbsp;2");
@@ -22244,6 +22253,7 @@ namespace OverflowHelper.core
             correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
 
             correctionAdd("world championship 2023", "World Chess Championship 2023");
+            correctionAdd("world championship 2022", "World Chess Championship 2023");
 
             correctionAdd("world championship", "World Chess Championship");
             //
@@ -23096,6 +23106,7 @@ namespace OverflowHelper.core
             correctionAdd("Regester", "register");
             correctionAdd("reg", "register");
             correctionAdd("regist", "register");
+            correctionAdd("regsiter", "register");
 
             correctionAdd("raport", "report");
 
@@ -24517,6 +24528,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inot", "into"); // True typo
             correctionAdd("unto", "into"); // Als a true typo
+            correctionAdd("in to", "into");
 
             correctionAdd("priviledged", "privileged");
             correctionAdd("privelaged", "privileged");
@@ -35726,6 +35738,7 @@ namespace OverflowHelper.core
             correctionAdd("gracefully degradation", "graceful degradation");
 
             correctionAdd("initialy", "initially");
+            correctionAdd("intially", "initially");
 
             correctionAdd("non integer", "noninteger");
 
@@ -37122,6 +37135,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Fujisy", "Fujitsu");
             correctionAdd("Fujiysu", "Fujitsu");
+            correctionAdd("fujitsu", "Fujitsu");
 
             correctionAdd("challanges", "challenges");
 
@@ -41765,6 +41779,7 @@ namespace OverflowHelper.core
             correctionAdd("RFC 2616", "RFC&nbsp;2616"); // Sort of identity mapping
 
             correctionAdd("sony", "Sony");
+            correctionAdd("SONY", "Sony");
 
             correctionAdd("tiger lake", "Tiger Lake");
 
@@ -42193,6 +42208,7 @@ namespace OverflowHelper.core
             correctionAdd("hanami", "Hanami");
 
             correctionAdd("NP0", "NP0 capacitor");
+            correctionAdd("NPO", "NP0 capacitor");
 
             correctionAdd("Unityscript", "UnityScript");
             correctionAdd("unityscript", "UnityScript");
@@ -42248,6 +42264,8 @@ namespace OverflowHelper.core
             correctionAdd("Motorola S-record", "S19");
             correctionAdd("s19", "S19");
             correctionAdd("Motorola s19", "S19");
+            correctionAdd("SREC", "S19");
+            correctionAdd("srec", "S19");
 
             correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
             correctionAdd("ThunderX", "ThunderX (Cavium)");
@@ -42834,6 +42852,7 @@ namespace OverflowHelper.core
             correctionAdd("Stencil.js", "Stencil");
             correctionAdd("Stenciljs", "Stencil");
             correctionAdd("StencilJS", "Stencil");
+            correctionAdd("stencil", "Stencil");
 
             correctionAdd("wald's equation", "Wald's equation");
 
@@ -42935,6 +42954,51 @@ namespace OverflowHelper.core
             correctionAdd("see ya", "see you later");
 
             correctionAdd("one quote", "single quote");
+
+            correctionAdd("19,200", "19,200 baud");
+            correctionAdd("19200", "19,200 baud");
+
+            correctionAdd("day 1", "day one");
+
+            correctionAdd("Haendel", "G. F. Händel");
+            correctionAdd("George Frideric Handel", "G. F. Händel");
+            correctionAdd("George Frideric Händel", "G. F. Händel");
+            correctionAdd("HAENDEL", "G. F. Händel");
+            correctionAdd("Handel", "G. F. Händel");
+            correctionAdd("Händel", "G. F. Händel");
+            correctionAdd("Lascia ch'io pianga", "G. F. Händel");
+
+            correctionAdd("niemann", "Hans Niemann");
+
+            correctionAdd("Plasma", "KDE Plasma");
+            correctionAdd("kde plasma", "KDE Plasma");
+
+            correctionAdd("life-experience", "life experience");
+
+            correctionAdd("linux lite", "Linux Lite");
+
+            correctionAdd("manimupating", "manipulating");
+            correctionAdd("Manimupating", "manipulating");
+
+            correctionAdd("markdown tables", "Markdown tables");
+
+            correctionAdd("obsidian", "Obsidian");
+
+            correctionAdd("Rapid Unplanned Disassembly", "rapid unplanned disassembly");
+            correctionAdd("RUD", "rapid unplanned disassembly");
+            correctionAdd("Rapid Unscheduled Disassembly", "rapid unplanned disassembly");
+
+            correctionAdd("Trap Representation", "trap representation");
+
+            correctionAdd("VS 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio 2017 Community", "Visual&nbsp;Studio&nbsp;2017 Community"); // Sort of identity mapping
+            correctionAdd("VS-2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual&nbsp;Studio&nbsp;2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual&nbsp;Studio&nbsp;2017 Community Edition", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
+
+            correctionAdd("void linux", "Void Linux");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67474,6 +67538,34 @@ namespace OverflowHelper.core
 
             URL_Add("single quote", "https://en.wiktionary.org/wiki/single_quote#Noun");
 
+            URL_Add("19,200 baud", "https://en.wikipedia.org/wiki/Serial_port#Settings");
+
+            URL_Add("day one", "https://en.wiktionary.org/wiki/day_one#Adverb");
+
+            URL_Add("G. F. Händel", "https://en.wikipedia.org/wiki/Lascia_ch%27io_pianga");
+
+            URL_Add("Hans Niemann", "https://en.wikipedia.org/wiki/Hans_Niemann");
+
+            URL_Add("KDE Plasma", "https://en.wikipedia.org/wiki/KDE_Plasma_5");
+
+            URL_Add("life experience", "https://www.merriam-webster.com/dictionary/life%20experience");
+
+            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
+
+            URL_Add("manipulating", "https://en.wiktionary.org/wiki/manipulate#Verb");
+
+            URL_Add("Markdown tables", "https://meta.stackexchange.com/questions/356997/new-feature-table-support");
+
+            URL_Add("Obsidian", "https://www.marclittlemore.com/beginners-guide-note-taking-obsidian/");
+
+            URL_Add("rapid unplanned disassembly", "https://en.wiktionary.org/wiki/rapid_unplanned_disassembly#Noun");
+
+            URL_Add("trap representation", "https://stackoverflow.com/questions/6725809/trap-representation");
+
+            URL_Add("Visual&nbsp;Studio&nbsp;2017 Community", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
+
+            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -67899,6 +67991,7 @@ namespace OverflowHelper.core
             correctionAdd("Coce_", "code_");
             correctionAdd("Code_", "code_");
             correctionAdd("ccode_", "code_");
+            correctionAdd("cod_", "code_");
 
             correctionAdd("Nevermind_", "never mind_");
             correctionAdd("nevermind_", "never mind_");
@@ -68468,6 +68561,10 @@ namespace OverflowHelper.core
             correctionAdd("kotlin_", "Kotlin (tag wiki)_");
 
             correctionAdd("proof_", "prove_");
+
+            correctionAdd("mqke_", "make_");
+
+            correctionAdd("won_", "own_");
 
             // URL mappings
             //
@@ -69075,6 +69172,10 @@ namespace OverflowHelper.core
             URL_Add("Kotlin (tag wiki)_", "https://stackoverflow.com/questions/tagged/kotlin");
 
             URL_Add("prove_", "https://en.wiktionary.org/wiki/prove#Verb");
+
+            URL_Add("make_", "https://en.wiktionary.org/wiki/make#Verb");
+
+            URL_Add("own_", "https://en.wiktionary.org/wiki/own#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
