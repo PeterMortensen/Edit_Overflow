@@ -1129,6 +1129,8 @@ namespace OverflowHelper.core
             correctionAdd("PGSQL", "PostgreSQL");
             correctionAdd("postgre sql", "PostgreSQL");
             correctionAdd("Postgres SQL", "PostgreSQL");
+            correctionAdd("postgresSQL", "PostgreSQL");
+            correctionAdd("progresSQL", "PostgreSQL");
 
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
@@ -7224,6 +7226,8 @@ namespace OverflowHelper.core
             correctionAdd("charactes", "characters");
             correctionAdd("Character", "characters");
             correctionAdd("Characters", "characters");
+            correctionAdd("haracter", "characters");
+            correctionAdd("haracters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -12764,6 +12768,7 @@ namespace OverflowHelper.core
             correctionAdd("elementaryOS", "elementary&nbsp;OS");
             correctionAdd("eOS", "elementary&nbsp;OS");
             correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
+            correctionAdd("elementaryos", "elementary&nbsp;OS");
 
             correctionAdd("vhdl", "VHDL");
 
@@ -17414,6 +17419,8 @@ namespace OverflowHelper.core
             correctionAdd("instruciton", "instruction");
             correctionAdd("intruction", "instruction");
             correctionAdd("insn", "instruction");
+            correctionAdd("inscruction", "instruction");
+            correctionAdd("inscructions", "instruction");
 
             correctionAdd("Km", "km");
             correctionAdd("KM", "km");
@@ -25806,6 +25813,7 @@ namespace OverflowHelper.core
             correctionAdd("ypu", "you");
             correctionAdd("youu", "you");
             correctionAdd("yo", "you");
+            correctionAdd("Yo", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -33920,6 +33928,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cd prompt", "command prompt");
             correctionAdd("cmd prompt", "command prompt");
+            correctionAdd("command-prompt", "command prompt");
 
             correctionAdd("deterence", "deterrence");
 
@@ -42567,6 +42576,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bit twidling", "bit twiddling");
             correctionAdd("bit-twiddling", "bit twiddling");
+            correctionAdd("twiddling", "bit twiddling");
 
             correctionAdd("bit masking", "bitmasking");
             correctionAdd("Bit-Masking", "bitmasking");
@@ -42999,6 +43009,12 @@ namespace OverflowHelper.core
             correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
 
             correctionAdd("void linux", "Void Linux");
+
+            correctionAdd("home", "Home key");
+
+            correctionAdd("http.sys", "HTTP.sys");
+
+            correctionAdd("pres", "press");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67566,6 +67582,12 @@ namespace OverflowHelper.core
 
             URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
 
+            URL_Add("Home key", "https://en.wikipedia.org/wiki/Home_key");
+
+            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
+
+            URL_Add("press", "https://en.wiktionary.org/wiki/press#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -67640,6 +67662,7 @@ namespace OverflowHelper.core
             correctionAdd("GD library_", "GD Graphics Library_");
 
             correctionAdd("delete_", "DELETE_");
+            correctionAdd("Delete key_", "DELETE_");
 
             correctionAdd("NV_", "Nevada, United States_");
 
@@ -68566,6 +68589,8 @@ namespace OverflowHelper.core
 
             correctionAdd("won_", "own_");
 
+            correctionAdd("super-user_", "superuser_");
+
             // URL mappings
             //
             //
@@ -69176,6 +69201,8 @@ namespace OverflowHelper.core
             URL_Add("make_", "https://en.wiktionary.org/wiki/make#Verb");
 
             URL_Add("own_", "https://en.wiktionary.org/wiki/own#Adjective");
+
+            URL_Add("superuser_", "https://en.wiktionary.org/wiki/superuser#Noun");
 
         } //addLookupData_alternativeWordSet()
 
