@@ -13737,6 +13737,7 @@ namespace OverflowHelper.core
             correctionAdd("perf", "performance");
             correctionAdd("preformance", "performance");
             correctionAdd("performace", "performance");
+            correctionAdd("peformance", "performance");
 
             correctionAdd("esata", "eSATA");
 
@@ -19415,6 +19416,7 @@ namespace OverflowHelper.core
             correctionAdd("long-time", "longtime");
 
             correctionAdd("ment", "meant");
+            correctionAdd("meand", "meant");
 
             correctionAdd("out-of-date", "out of date");
             correctionAdd("ot of date", "out of date");
@@ -23150,6 +23152,7 @@ namespace OverflowHelper.core
             correctionAdd("zero-ing", "zeroing");
 
             correctionAdd("real world", "real-world");
+            correctionAdd("Real world", "real-world");
 
             correctionAdd("bronze age", "Bronze Age");
 
@@ -29751,6 +29754,7 @@ namespace OverflowHelper.core
             correctionAdd("Cut", "cut");
 
             correctionAdd("decleared", "declared");
+            correctionAdd("delcared", "declared");
 
             correctionAdd("food for fought", "food for thought");
 
@@ -30375,6 +30379,7 @@ namespace OverflowHelper.core
             correctionAdd("sqlfiddle", "SQL Fiddle");
             correctionAdd("SQL fiddle", "SQL Fiddle");
             correctionAdd("SQLfiddle", "SQL Fiddle");
+            correctionAdd("sql fiddle", "SQL Fiddle");
 
             correctionAdd("WWIII", "World War III");
             correctionAdd("world War 3", "World War III");
@@ -31965,6 +31970,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sereal", "serial");
             correctionAdd("seral", "serial");
+            correctionAdd("Serail", "serial");
+            correctionAdd("serail", "serial");
 
             correctionAdd("Shog", "Shog9");
 
@@ -38252,6 +38259,9 @@ namespace OverflowHelper.core
             correctionAdd("FL", "flight level");
 
             correctionAdd("floating point number", "floating-point number");
+            correctionAdd("flaot", "floating-point number");
+            correctionAdd("flaots", "floating-point number");
+            correctionAdd("floats", "floating-point number");
 
             correctionAdd("imuplse", "impulse");
 
@@ -41993,6 +42003,7 @@ namespace OverflowHelper.core
             correctionAdd("prtime", "PRTime");
 
             correctionAdd("bit field", "bitfield");
+            correctionAdd("bit-field", "bitfield");
 
             correctionAdd("involvment", "involvement");
 
@@ -43015,6 +43026,18 @@ namespace OverflowHelper.core
             correctionAdd("http.sys", "HTTP.sys");
 
             correctionAdd("pres", "press");
+
+            correctionAdd("Garuda", "Garuda Linux");
+
+            correctionAdd("intellible", "intelligible");
+
+            correctionAdd("wayfire", "Wayfire");
+
+            correctionAdd("$PWD", "PWD");
+
+            correctionAdd("ganache", "Ganache");
+
+            correctionAdd("analog", "analogue");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67588,6 +67611,18 @@ namespace OverflowHelper.core
 
             URL_Add("press", "https://en.wiktionary.org/wiki/press#Verb");
 
+            URL_Add("Garuda Linux", "https://en.wikipedia.org/wiki/Garuda_Linux");
+
+            URL_Add("intelligible", "https://en.wiktionary.org/wiki/intelligible#Adjective");
+
+            URL_Add("Wayfire", "https://wiki.gentoo.org/wiki/Wayfire");
+
+            URL_Add("PWD", "https://unix.stackexchange.com/questions/174990/what-is-pwd-vs-current-working-directory");
+
+            URL_Add("Ganache", "https://stackoverflow.com/tags/ganache/info");
+
+            URL_Add("analogue", "https://en.wiktionary.org/wiki/analogue#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68261,6 +68296,7 @@ namespace OverflowHelper.core
             correctionAdd("Awesome_", "AwesomeWM_");
 
             correctionAdd("i3wm_", "i3_");
+            correctionAdd("i3WM_", "i3_");
 
             correctionAdd("ISP_", "interface segregation principle_");
             correctionAdd("Interface Segregation Principle_", "interface segregation principle_");
@@ -68590,6 +68626,8 @@ namespace OverflowHelper.core
             correctionAdd("won_", "own_");
 
             correctionAdd("super-user_", "superuser_");
+
+            correctionAdd("BASE64_", "base64_");
 
             // URL mappings
             //
@@ -69203,6 +69241,8 @@ namespace OverflowHelper.core
             URL_Add("own_", "https://en.wiktionary.org/wiki/own#Adjective");
 
             URL_Add("superuser_", "https://en.wiktionary.org/wiki/superuser#Noun");
+
+            URL_Add("base64_", "https://linux.die.net/man/1/base64");
 
         } //addLookupData_alternativeWordSet()
 
