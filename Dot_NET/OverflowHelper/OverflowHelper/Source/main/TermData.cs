@@ -832,6 +832,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-cs", "```lang-csharp");
             correctionAdd("lang-c#", "```lang-csharp");
             correctionAdd("```c#", "```lang-csharp");
+            correctionAdd("```C#", "```lang-csharp");
 
             correctionAdd("java-lang", "```lang-java");
             correctionAdd("lang-java", "```lang-java");
@@ -7587,6 +7588,7 @@ namespace OverflowHelper.core
 
             correctionAdd("uesr", "user");
             correctionAdd("User", "user");
+            correctionAdd("usser", "user");
 
             correctionAdd("rhino", "Rhino");
 
@@ -16516,6 +16518,7 @@ namespace OverflowHelper.core
             correctionAdd("creaded", "created");
             correctionAdd("ceated", "created");
             correctionAdd("creaed", "created");
+            correctionAdd("greated", "created");
 
             correctionAdd("exlusive", "exclusive");
 
@@ -20528,6 +20531,7 @@ namespace OverflowHelper.core
             correctionAdd("stricktly", "strictly");
             correctionAdd("Stricly", "strictly");
             correctionAdd("stricly", "strictly");
+            correctionAdd("strickly", "strictly");
 
             correctionAdd("thought out", "thought-out");
 
@@ -30227,6 +30231,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Pi Pico", "Raspberry Pi Pico");
             correctionAdd("pi pico", "Raspberry Pi Pico");
+            correctionAdd("raspberry pi pico", "Raspberry Pi Pico");
 
             correctionAdd("blue-print", "blueprint");
 
@@ -42004,6 +42009,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bit field", "bitfield");
             correctionAdd("bit-field", "bitfield");
+            correctionAdd("Bit-field", "bitfield");
 
             correctionAdd("involvment", "involvement");
 
@@ -43038,6 +43044,23 @@ namespace OverflowHelper.core
             correctionAdd("ganache", "Ganache");
 
             correctionAdd("analog", "analogue");
+
+            correctionAdd("Eelo", "/e/");
+            correctionAdd("/e/ OS", "/e/");
+            correctionAdd("/e/OS", "/e/");
+            correctionAdd("e/os", "/e/");
+
+            correctionAdd("GTKTerm", "gtkterm");
+
+            correctionAdd("Ioctl", "ioctl");
+
+            correctionAdd("low end", "low-end");
+
+            correctionAdd("mega baud", "megabaud");
+
+            correctionAdd("OTB", "over-the-board chess");
+
+            correctionAdd("teensy", "Teensy");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67622,6 +67645,20 @@ namespace OverflowHelper.core
             URL_Add("Ganache", "https://stackoverflow.com/tags/ganache/info");
 
             URL_Add("analogue", "https://en.wiktionary.org/wiki/analogue#Adjective");
+
+            URL_Add("/e/", "https://en.wikipedia.org/wiki//e/_(operating_system)");
+
+            URL_Add("gtkterm", "https://sourceforge.net/projects/gtkterm/");
+
+            URL_Add("ioctl", "https://en.wikipedia.org/wiki/Ioctl");
+
+            URL_Add("low-end", "https://en.wiktionary.org/wiki/low-end#Adjective");
+
+            URL_Add("megabaud", "https://en.wikipedia.org/wiki/Baud#Definitions");
+
+            URL_Add("over-the-board chess", "https://en.wikipedia.org/wiki/Glossary_of_chess#over_the_board");
+
+            URL_Add("Teensy", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Software-compatibility_only");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
