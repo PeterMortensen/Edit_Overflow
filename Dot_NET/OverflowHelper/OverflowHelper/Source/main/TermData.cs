@@ -4510,8 +4510,22 @@ namespace OverflowHelper.core
 
             correctionAdd("bt", "bit");
             correctionAdd("Bit", "bit");
+            correctionAdd("bti", "bit");
 
             correctionAdd("habbit", "habit");
+
+            correctionAdd("Low Earth orbit", "low Earth orbit");
+            correctionAdd("Low Earth Orbit", "low Earth orbit");
+            correctionAdd("low earth orbit", "low Earth orbit");
+            correctionAdd("LEO", "low Earth orbit");
+
+            correctionAdd("tid bit", "tidbit");
+            correctionAdd("tit bit", "tidbit");
+
+            correctionAdd("Hohmann transfer", "Hohmann transfer orbit");
+
+            correctionAdd("Megabit", "megabit");
+            correctionAdd("Megabits", "megabit");
 
             correctionAdd("Egit", "EGit");
 
@@ -4579,9 +4593,6 @@ namespace OverflowHelper.core
             correctionAdd("solarwind", "SolarWinds exploit");
             correctionAdd("solarwinds", "SolarWinds exploit");
 
-            correctionAdd("tid bit", "tidbit");
-            correctionAdd("tit bit", "tidbit");
-
             correctionAdd("RegEdit.exe", "RegEdit");
             correctionAdd("regedit", "RegEdit");
 
@@ -4617,11 +4628,6 @@ namespace OverflowHelper.core
             correctionAdd("relu", "Rectified Linear Unit");
             correctionAdd("Relu", "Rectified Linear Unit");
 
-            correctionAdd("Low Earth orbit", "low Earth orbit");
-            correctionAdd("Low Earth Orbit", "low Earth orbit");
-            correctionAdd("low earth orbit", "low Earth orbit");
-            correctionAdd("LEO", "low Earth orbit");
-
             correctionAdd("webkit", "WebKit");
             correctionAdd("Webkit", "WebKit");
             correctionAdd("webKit", "WebKit");
@@ -4629,8 +4635,6 @@ namespace OverflowHelper.core
             correctionAdd("wekit", "WebKit");
 
             correctionAdd("Richedit", "RichEdit");
-
-            correctionAdd("Hohmann transfer", "Hohmann transfer orbit");
 
             correctionAdd("re-submit", "resubmit");
 
@@ -13740,6 +13744,7 @@ namespace OverflowHelper.core
             correctionAdd("preformance", "performance");
             correctionAdd("performace", "performance");
             correctionAdd("peformance", "performance");
+            correctionAdd("perfomance", "performance");
 
             correctionAdd("esata", "eSATA");
 
@@ -18098,6 +18103,7 @@ namespace OverflowHelper.core
 
             correctionAdd("idear", "idea");
             correctionAdd("ideia", "idea");
+            correctionAdd("dea", "idea");
 
             correctionAdd("incomming", "incoming");
 
@@ -20685,6 +20691,7 @@ namespace OverflowHelper.core
             correctionAdd("wiuth", "with");
             correctionAdd("Whit", "with");
             correctionAdd("witht", "with");
+            correctionAdd("Whith", "with");
 
             correctionAdd("bare with", "bear with");
 
@@ -21078,6 +21085,7 @@ namespace OverflowHelper.core
             correctionAdd("cmd", "cmd.exe");
             correctionAdd("Command&nbsp;Prompt", "cmd.exe");
             correctionAdd("CMD", "cmd.exe");
+            correctionAdd("CMD.exe", "cmd.exe");
 
             correctionAdd("Cmdlet", "cmdlet");
             correctionAdd("CmdLet", "cmdlet");
@@ -22261,6 +22269,7 @@ namespace OverflowHelper.core
             correctionAdd("memedraro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("mamedraro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("Shak", "Shakhriyar Mamedyarov"); // Chess
+            correctionAdd("Mamedyarov", "Shakhriyar Mamedyarov"); // Chess
 
             correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
             correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
@@ -24958,6 +24967,7 @@ namespace OverflowHelper.core
             correctionAdd("provess", "process");
             correctionAdd("procces", "process");
             correctionAdd("proces", "process");
+            correctionAdd("Process", "process");
 
             correctionAdd("MS Dynamics", "Microsoft Dynamics CRM");
             correctionAdd("Dynamics CRM", "Microsoft Dynamics CRM");
@@ -25792,6 +25802,55 @@ namespace OverflowHelper.core
             correctionAdd("End-Of-File", "EOF");
             correctionAdd("end-of-file", "EOF");
             correctionAdd("end of file", "EOF");
+
+            correctionAdd("hell of", "a hell of");
+
+            correctionAdd("hell lot of", "a hell of a lot of");
+
+            correctionAdd("tamper proof", "tamperproof");
+            correctionAdd("tamper-proof", "tamperproof");
+
+            correctionAdd("outta", "out of");
+
+            correctionAdd("interms of", "in terms of");
+            correctionAdd("interms", "in terms of");
+            correctionAdd("in therms of", "in terms of");
+
+            correctionAdd("kinda", "kind of");
+            correctionAdd("kind-of", "kind of");
+
+            correctionAdd("sorta", "sort of");
+
+            correctionAdd("LSOF", "lsof");
+
+            correctionAdd("a couple", "a couple of");
+            correctionAdd("A couple of", "a couple of");
+            correctionAdd("coupe of", "a couple of");
+
+            correctionAdd("indexOf", "IndexOf");
+
+            correctionAdd("a mean of", "a means of");
+
+            correctionAdd("in the order of", "on the order of");
+
+            correctionAdd("bullet-proof", "bulletproof");
+            correctionAdd("bullet proof", "bulletproof");
+
+            correctionAdd("ZKP", "zero-knowledge proof");
+            correctionAdd("Zero Knowledge Proof", "zero-knowledge proof");
+            correctionAdd("zero knowledge proof", "zero-knowledge proof");
+
+            correctionAdd("lotsa", "lots of");
+
+            correctionAdd("Of", "of");
+            correctionAdd("onf", "of");
+            correctionAdd("ot", "of");
+            correctionAdd("if", "of");
+            correctionAdd("ov", "of");
+
+            correctionAdd("prove", "proof");
+
+            correctionAdd("error-proof", "errorproof");
 
             correctionAdd("re-ask", "reask");
             correctionAdd("re ask", "reask");
@@ -27289,10 +27348,6 @@ namespace OverflowHelper.core
             correctionAdd("pentadactyl", "Pentadactyl");
 
             correctionAdd("vimgolf", "VimGolf");
-
-            correctionAdd("hell of", "a hell of");
-
-            correctionAdd("hell lot of", "a hell of a lot of");
 
             correctionAdd("brane", "brain");
 
@@ -29418,9 +29473,6 @@ namespace OverflowHelper.core
 
             correctionAdd("protecion", "protection");
 
-            correctionAdd("tamper proof", "tamperproof");
-            correctionAdd("tamper-proof", "tamperproof");
-
             correctionAdd("tupple", "tuple");
 
             correctionAdd("perfmon", "Performance Monitor");
@@ -30198,8 +30250,6 @@ namespace OverflowHelper.core
 
             correctionAdd("forgetten", "forgotten");
 
-            correctionAdd("outta", "out of");
-
             correctionAdd("re-draw", "redraw");
 
             correctionAdd("re-render", "rerender");
@@ -30470,6 +30520,7 @@ namespace OverflowHelper.core
             correctionAdd("XTERM", "xterm");
 
             correctionAdd("azure devops", "Azure DevOps");
+            correctionAdd("Azure Devops", "Azure DevOps");
 
             correctionAdd("nmos", "NMOS");
             correctionAdd("nMOS", "NMOS");
@@ -30730,10 +30781,6 @@ namespace OverflowHelper.core
             correctionAdd("Open Solaris", "OpenSolaris");
 
             correctionAdd("biterly", "bitterly");
-
-            correctionAdd("interms of", "in terms of");
-            correctionAdd("interms", "in terms of");
-            correctionAdd("in therms of", "in terms of");
 
             correctionAdd("non-zero", "nonzero");
             correctionAdd("none-zero", "nonzero");
@@ -31727,9 +31774,6 @@ namespace OverflowHelper.core
 
             correctionAdd("interactivly", "interactively");
 
-            correctionAdd("kinda", "kind of");
-            correctionAdd("kind-of", "kind of");
-
             correctionAdd("night mare", "nightmare");
 
             correctionAdd("non-inverting", "noninverting");
@@ -31977,6 +32021,7 @@ namespace OverflowHelper.core
             correctionAdd("seral", "serial");
             correctionAdd("Serail", "serial");
             correctionAdd("serail", "serial");
+            correctionAdd("Serial", "serial");
 
             correctionAdd("Shog", "Shog9");
 
@@ -32599,8 +32644,6 @@ namespace OverflowHelper.core
             correctionAdd("enties", "entries");
             correctionAdd("entrees", "entries");
             correctionAdd("enteries", "entries");
-
-            correctionAdd("sorta", "sort of");
 
             correctionAdd("tab", "tab character");
             correctionAdd("TAB character", "tab character");
@@ -35175,8 +35218,6 @@ namespace OverflowHelper.core
 
             correctionAdd("day dream", "daydream");
 
-            correctionAdd("LSOF", "lsof");
-
             correctionAdd("notfications", "notifications");
 
             correctionAdd("restared", "restarted");
@@ -35682,6 +35723,7 @@ namespace OverflowHelper.core
 
             correctionAdd("encounted", "encountered");
             correctionAdd("encounterd", "encountered");
+            correctionAdd("encoutered", "encountered");
 
             correctionAdd("execured", "executed");
             correctionAdd("excuted", "executed");
@@ -35714,10 +35756,6 @@ namespace OverflowHelper.core
             correctionAdd("compose", "Jetpack Compose");
             correctionAdd("jetpack compose", "Jetpack Compose");
             correctionAdd("JetPack Compose", "Jetpack Compose");
-
-            correctionAdd("a couple", "a couple of");
-            correctionAdd("A couple of", "a couple of");
-            correctionAdd("coupe of", "a couple of");
 
             correctionAdd("attennuator", "attenuator");
 
@@ -36191,8 +36229,6 @@ namespace OverflowHelper.core
             correctionAdd("haxe", "Haxe");
             correctionAdd("haXe", "Haxe");
 
-            correctionAdd("indexOf", "IndexOf");
-
             correctionAdd("kibana", "Kibana");
 
             correctionAdd("ufront", "Ufront");
@@ -36466,8 +36502,6 @@ namespace OverflowHelper.core
             correctionAdd("turing complete", "Turing complete");
             correctionAdd("Turing-complete", "Turing complete");
             correctionAdd("Turing Complete", "Turing complete");
-
-            correctionAdd("a mean of", "a means of");
 
             correctionAdd("huberis", "hubris");
 
@@ -36745,8 +36779,6 @@ namespace OverflowHelper.core
 
             correctionAdd("labeled", "labelled");
             correctionAdd("labeld", "labelled");
-
-            correctionAdd("in the order of", "on the order of");
 
             correctionAdd("Git hook", "Git hooks");
             correctionAdd("githooks", "Git hooks");
@@ -38615,9 +38647,6 @@ namespace OverflowHelper.core
             correctionAdd("auto-delete", "autodelete");
             correctionAdd("auto delete", "autodelete");
 
-            correctionAdd("bullet-proof", "bulletproof");
-            correctionAdd("bullet proof", "bulletproof");
-
             correctionAdd("evaporization", "evaporation");
 
             correctionAdd("low baller", "lowballer");
@@ -39819,9 +39848,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lampcord", "lamp cord");
 
-            correctionAdd("Megabit", "megabit");
-            correctionAdd("Megabits", "megabit");
-
             correctionAdd("MIP", "mixed integer programming");
 
             correctionAdd("On the fence", "on the fence");
@@ -39851,10 +39877,6 @@ namespace OverflowHelper.core
             correctionAdd("from another lens", "through another lens");
 
             correctionAdd("two body problem", "two-body problem");
-
-            correctionAdd("ZKP", "zero-knowledge proof");
-            correctionAdd("Zero Knowledge Proof", "zero-knowledge proof");
-            correctionAdd("zero knowledge proof", "zero-knowledge proof");
 
             correctionAdd("CheckStyle", "Checkstyle");
 
@@ -40392,8 +40414,6 @@ namespace OverflowHelper.core
 
             correctionAdd("false-positive", "false positive");
 
-            correctionAdd("lotsa", "lots of");
-
             correctionAdd("Screen Capture", "screen capture");
 
             correctionAdd("SUV", "sport utility vehicle");
@@ -40441,11 +40461,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Go-Around", "go-around");
             correctionAdd("Go around", "go-around");
-
-            correctionAdd("Of", "of");
-            correctionAdd("onf", "of");
-            correctionAdd("ot", "of");
-            correctionAdd("if", "of");
 
             correctionAdd("opinonated", "opinionated");
             correctionAdd("Oppinionated", "opinionated");
@@ -40730,8 +40745,6 @@ namespace OverflowHelper.core
 
             correctionAdd("inversed", "inverted");
 
-            correctionAdd("prove", "proof");
-
             correctionAdd("Re-Branch", "rebranch");
 
             correctionAdd("Wipe", "wipe");
@@ -41008,6 +41021,7 @@ namespace OverflowHelper.core
             correctionAdd("aux", "auxiliary");
             correctionAdd("auxiciallry", "auxiliary");
             correctionAdd("auxiciary", "auxiliary");
+            correctionAdd("auxillary", "auxiliary");
 
             correctionAdd("cope up", "come up");
 
@@ -41658,8 +41672,6 @@ namespace OverflowHelper.core
 
             correctionAdd("alfabet", "alphabet");
 
-            correctionAdd("error-proof", "errorproof");
-
             correctionAdd("Loop Unrolling", "loop unrolling");
 
             correctionAdd("Strength Reduction", "strength reduction");
@@ -41993,6 +42005,7 @@ namespace OverflowHelper.core
 
             correctionAdd("romove", "remove");
             correctionAdd("Romove", "remove");
+            correctionAdd("remoe", "remove");
 
             correctionAdd("re-tag", "retag");
 
@@ -43061,6 +43074,27 @@ namespace OverflowHelper.core
             correctionAdd("OTB", "over-the-board chess");
 
             correctionAdd("teensy", "Teensy");
+
+            correctionAdd("computer numerical control", "CNC");
+
+            correctionAdd("g4p", "G4P");
+
+            correctionAdd("Quickeys", "QuicKeys");
+
+            correctionAdd("zshrc", ".zshrc");
+
+            correctionAdd("btis", "bits");
+
+            correctionAdd("duckdb", "DuckDB");
+
+            correctionAdd("ideavim", "IdeaVim");
+
+            correctionAdd("inamenate", "inanimate");
+
+            correctionAdd("iode OS", "iodéOS");
+            correctionAdd("iota OS", "iodéOS");
+
+            correctionAdd("mutationObserver", "MutationObserver");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67660,6 +67694,26 @@ namespace OverflowHelper.core
 
             URL_Add("Teensy", "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Software-compatibility_only");
 
+            URL_Add("CNC", "https://en.wikipedia.org/wiki/Numerical_control");
+
+            URL_Add("G4P", "https://sourceforge.net/projects/g4p/");
+
+            URL_Add("QuicKeys", "https://www.macworld.com/article/205119/quickeys4_review.html");
+
+            URL_Add(".zshrc", "https://wiki.debian.org/Zsh#Configuration");
+
+            URL_Add("bits", "https://en.wiktionary.org/wiki/bit#Noun_2");
+
+            URL_Add("DuckDB", "https://en.wikipedia.org/wiki/List_of_column-oriented_DBMSes#Free_and_open-source_software_(FOSS)");
+
+            URL_Add("IdeaVim", "https://github.com/JetBrains/ideavim");
+
+            URL_Add("inanimate", "https://en.wiktionary.org/wiki/inanimate#Adjective");
+
+            URL_Add("iodéOS", "https://en.wikipedia.org/wiki/Iod%C3%A9OS");
+
+            URL_Add("MutationObserver", "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68666,6 +68720,8 @@ namespace OverflowHelper.core
 
             correctionAdd("BASE64_", "base64_");
 
+            correctionAdd("Window_", "window_");
+
             // URL mappings
             //
             //
@@ -69280,6 +69336,8 @@ namespace OverflowHelper.core
             URL_Add("superuser_", "https://en.wiktionary.org/wiki/superuser#Noun");
 
             URL_Add("base64_", "https://linux.die.net/man/1/base64");
+
+            URL_Add("window_", "https://developer.mozilla.org/en-US/docs/Web/API/Window");
 
         } //addLookupData_alternativeWordSet()
 
