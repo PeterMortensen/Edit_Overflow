@@ -1269,6 +1269,63 @@ namespace OverflowHelper.core
             correctionAdd("apache2", "Apache&nbsp;2");
             correctionAdd("Apache2", "Apache&nbsp;2");
 
+            correctionAdd("exchange", "Microsoft Exchange Server");
+            correctionAdd("Exchange", "Microsoft Exchange Server");
+            correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
+            correctionAdd("Exhange", "Microsoft Exchange Server");
+
+            correctionAdd("exchange 2003 server", "Exchange Server 2003");
+            correctionAdd("exchange server 2003", "Exchange Server 2003");
+
+            correctionAdd("MySQL Server", "MySQL server");
+            correctionAdd("MySqlServer", "MySQL server");
+            correctionAdd("MySql Server", "MySQL server");
+
+            correctionAdd("NS", "name server"); // Alternative: "NoScript"
+            correctionAdd("nameserver", "name server");
+
+            correctionAdd("cassini", "Cassini web server");
+            correctionAdd("cassini web server", "Cassini web server");
+            correctionAdd("Cassini", "Cassini web server");
+
+            correctionAdd("windows server", "Windows Server");
+            correctionAdd("Windows server", "Windows Server");
+            correctionAdd("winserver", "Windows Server");
+
+            correctionAdd("windows server 2019", "Windows Server 2019");
+            correctionAdd("2019 windows server", "Windows Server 2019");
+
+            correctionAdd("Exchange server", "Exchange Server");
+
+            correctionAdd("WAMPSERVER", "WampServer");
+
+            correctionAdd("Windows Nano server", "Microsoft Nano Server");
+            correctionAdd("Windows Nano", "Microsoft Nano Server");
+
+            correctionAdd("webserver", "web server");
+            correctionAdd("Web Server", "web server");
+            correctionAdd("web-server", "web server");
+            correctionAdd("Webserver", "web server");
+            correctionAdd("Web server", "web server");
+
+            correctionAdd("webservers", "web servers");
+
+            correctionAdd("WLS", "WebLogic Server");
+
+            correctionAdd("sever", "server");
+            correctionAdd("SEVER", "server");
+            correctionAdd("Sever", "server");
+            correctionAdd("Server", "server");
+            correctionAdd("serve", "server");
+
+            correctionAdd("xorg", "X.Org Server");
+
+            correctionAdd("Liveserver", "Live Server");
+            correctionAdd("LiveServer", "Live Server");
+            correctionAdd("live server", "Live Server");
+
+            correctionAdd("mutationObserver", "MutationObserver");
+
             correctionAdd("ANT", "Ant");
             correctionAdd("ant", "Ant");
             correctionAdd("Apache Ant", "Ant");
@@ -1338,54 +1395,6 @@ namespace OverflowHelper.core
             correctionAdd("Apache SF", "Apache Software Foundation");
 
             correctionAdd("Commons Lang", "Apache Commons Lang");
-
-            correctionAdd("exchange", "Microsoft Exchange Server");
-            correctionAdd("Exchange", "Microsoft Exchange Server");
-            correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
-            correctionAdd("Exhange", "Microsoft Exchange Server");
-
-            correctionAdd("exchange 2003 server", "Exchange Server 2003");
-            correctionAdd("exchange server 2003", "Exchange Server 2003");
-
-            correctionAdd("MySQL Server", "MySQL server");
-            correctionAdd("MySqlServer", "MySQL server");
-            correctionAdd("MySql Server", "MySQL server");
-
-            correctionAdd("NS", "name server"); // Alternative: "NoScript"
-            correctionAdd("nameserver", "name server");
-
-            correctionAdd("cassini", "Cassini web server");
-            correctionAdd("cassini web server", "Cassini web server");
-            correctionAdd("Cassini", "Cassini web server");
-
-            correctionAdd("windows server", "Windows Server");
-            correctionAdd("Windows server", "Windows Server");
-            correctionAdd("winserver", "Windows Server");
-
-            correctionAdd("windows server 2019", "Windows Server 2019");
-            correctionAdd("2019 windows server", "Windows Server 2019");
-
-            correctionAdd("Exchange server", "Exchange Server");
-
-            correctionAdd("WAMPSERVER", "WampServer");
-
-            correctionAdd("Windows Nano server", "Microsoft Nano Server");
-            correctionAdd("Windows Nano", "Microsoft Nano Server");
-
-            correctionAdd("webserver", "web server");
-            correctionAdd("Web Server", "web server");
-            correctionAdd("web-server", "web server");
-            correctionAdd("Webserver", "web server");
-            correctionAdd("Web server", "web server");
-
-            correctionAdd("webservers", "web servers");
-
-            correctionAdd("WLS", "WebLogic Server");
-
-            correctionAdd("sever", "server");
-            correctionAdd("SEVER", "server");
-            correctionAdd("Sever", "server");
-            correctionAdd("Server", "server");
 
             correctionAdd("Tsql", "T-SQL"); // Not actually observed.
             correctionAdd("T/SQL", "T-SQL"); // Is observed!
@@ -2230,6 +2239,8 @@ namespace OverflowHelper.core
             correctionAdd("mac 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Mac 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("MacOS 10.15", "macOS v10.15 (Catalina)");
+            correctionAdd("Cataline", "macOS v10.15 (Catalina)");
+            correctionAdd("cataline", "macOS v10.15 (Catalina)");
 
             correctionAdd("Mac Os", "macOS");
             correctionAdd("MacOs", "macOS");
@@ -3649,6 +3660,17 @@ namespace OverflowHelper.core
             correctionAdd("error-message", "error message");
             correctionAdd("Error-Message", "error message");
             correctionAdd("Error Message", "error message");
+
+            correctionAdd("GPO", "Group Policy Object");
+            correctionAdd("gpo", "Group Policy Object");
+
+            correctionAdd("obejct", "object");
+            correctionAdd("objet", "object");
+            correctionAdd("oblect", "object");
+            correctionAdd("oblects", "object");
+            correctionAdd("Object", "object");
+
+            correctionAdd("dtype", "data type object");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -7204,6 +7226,7 @@ namespace OverflowHelper.core
             correctionAdd("parametres", "parameter");
             correctionAdd("Params", "parameter");
             correctionAdd("paramtr", "parameter");
+            correctionAdd("Parameter", "parameter");
 
             correctionAdd("chars", "characters"); // Expansion.
             correctionAdd("char", "characters"); // Expansion, not 100% correct. Add a plural feature?
@@ -10050,6 +10073,7 @@ namespace OverflowHelper.core
             correctionAdd("construstor", "constructor");
             correctionAdd("cotr", "constructor");
             correctionAdd("constuctor", "constructor");
+            correctionAdd("constr", "constructor");
 
             correctionAdd("t4", "T4");
 
@@ -15059,6 +15083,7 @@ namespace OverflowHelper.core
             correctionAdd("belo", "below");
             correctionAdd("beliow", "below");
             correctionAdd("Below", "below");
+            correctionAdd("Belowe", "below");
 
             correctionAdd("communciate", "communicate");
             correctionAdd("commuicate", "communicate");
@@ -16709,14 +16734,6 @@ namespace OverflowHelper.core
 
             correctionAdd("odesk", "oDesk");
 
-            correctionAdd("GPO", "Group Policy Object");
-            correctionAdd("gpo", "Group Policy Object");
-
-            correctionAdd("obejct", "object");
-            correctionAdd("objet", "object");
-            correctionAdd("oblect", "object");
-            correctionAdd("oblects", "object");
-
             correctionAdd("preceede", "precede");
 
             correctionAdd("de-reference", "dereference");
@@ -17116,6 +17133,7 @@ namespace OverflowHelper.core
 
             correctionAdd("childs", "children");
             correctionAdd("Childs", "children");
+            correctionAdd("childrens", "children");
 
             correctionAdd("commmented", "commented");
             correctionAdd("commeted", "commented");
@@ -20713,6 +20731,7 @@ namespace OverflowHelper.core
             correctionAdd("cors", "CORS");
             correctionAdd("Cross-Origin Resource Sharing", "CORS");
             correctionAdd("cross-origin resource sharing", "CORS");
+            correctionAdd("Cors", "CORS");
 
             correctionAdd("dart", "Dart");
 
@@ -24928,6 +24947,7 @@ namespace OverflowHelper.core
             correctionAdd("reproduceable", "reproducible");
             correctionAdd("reporducible", "reproducible");
             correctionAdd("reproducable", "reproducible");
+            correctionAdd("Reproduceable", "reproducible");
 
             correctionAdd("roate", "rotate");
             correctionAdd("rotete", "rotate");
@@ -27373,6 +27393,7 @@ namespace OverflowHelper.core
             correctionAdd("Same-origin-policies", "same-origin policy");
             correctionAdd("Same origin policies", "same-origin policy");
             correctionAdd("same origin policies", "same-origin policy");
+            correctionAdd("same origon policy", "same-origin policy");
 
             correctionAdd("2nd law of Thermodynamics", "second law of thermodynamics");
 
@@ -40058,8 +40079,6 @@ namespace OverflowHelper.core
 
             correctionAdd("photino", "Photino");
 
-            correctionAdd("xorg", "X.Org Server");
-
             correctionAdd("Citizen", "citizen");
 
             correctionAdd("indetifies", "identifies");
@@ -40143,8 +40162,6 @@ namespace OverflowHelper.core
             correctionAdd("Biomathematics", "biomathematics");
 
             correctionAdd("Complex number", "complex number");
-
-            correctionAdd("dtype", "data type object");
 
             correctionAdd("imag", "imaginary");
 
@@ -40539,10 +40556,6 @@ namespace OverflowHelper.core
             correctionAdd("savez", "saved");
 
             correctionAdd("Kaspersky", "Kaspersky Anti-Virus");
-
-            correctionAdd("Liveserver", "Live Server");
-            correctionAdd("LiveServer", "Live Server");
-            correctionAdd("live server", "Live Server");
 
             correctionAdd("Coding Standard", "coding standard");
 
@@ -42076,6 +42089,7 @@ namespace OverflowHelper.core
 
             correctionAdd("vanilla Javascript", "vanilla JavaScript");
             correctionAdd("vanilla js", "vanilla JavaScript");
+            correctionAdd("Vanilla JavaScript", "vanilla JavaScript");
 
             correctionAdd("firebaseui", "FirebaseUI");
 
@@ -43094,7 +43108,30 @@ namespace OverflowHelper.core
             correctionAdd("iode OS", "iodéOS");
             correctionAdd("iota OS", "iodéOS");
 
-            correctionAdd("mutationObserver", "MutationObserver");
+            correctionAdd("on this way", "in this way");
+            correctionAdd("On this way", "in this way");
+
+            correctionAdd("Seamonkey", "SeaMonkey");
+
+            correctionAdd("consists in", "consists of");
+
+            correctionAdd("Api Gateway", "Amazon API Gateway");
+            correctionAdd("API Gateway", "Amazon API Gateway");
+
+            correctionAdd("Cockpit", "cockpit");
+
+            correctionAdd("copy constr", "copy constructor");
+
+            correctionAdd("cross domain request", "cross-domain request");
+
+            correctionAdd("Prime Counting Function", "prime-counting function");
+            correctionAdd("prime counting function", "prime-counting function");
+
+            correctionAdd("singularity", "Singularity");
+
+            correctionAdd("Thingworx", "ThingWorx");
+
+            correctionAdd("unqiue", "unique");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67713,6 +67750,28 @@ namespace OverflowHelper.core
             URL_Add("iodéOS", "https://en.wikipedia.org/wiki/Iod%C3%A9OS");
 
             URL_Add("MutationObserver", "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver");
+
+            URL_Add("in this way", "https://www.wordhippo.com/what-is/sentences-with-the-word/in_this_way.html");
+
+            URL_Add("SeaMonkey", "https://en.wikipedia.org/wiki/SeaMonkey");
+
+            URL_Add("consists of", "https://en.wiktionary.org/wiki/consist_of#Verb");
+
+            URL_Add("Amazon API Gateway", "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html");
+
+            URL_Add("cockpit", "https://en.wiktionary.org/wiki/cockpit#Noun");
+
+            URL_Add("copy constructor", "https://en.wikipedia.org/wiki/Copy_constructor_(C%2B%2B)");
+
+            URL_Add("cross-domain request", "https://en.wikipedia.org/wiki/Cross-origin_resource_sharing");
+
+            URL_Add("prime-counting function", "https://en.wikipedia.org/wiki/Prime-counting_function");
+
+            URL_Add("Singularity", "https://en.wikipedia.org/wiki/Singularity_(software)");
+
+            URL_Add("ThingWorx", "https://en.wikipedia.org/wiki/PTC_(software_company)#Internet_of_Things");
+
+            URL_Add("unique", "https://en.wiktionary.org/wiki/unique#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
