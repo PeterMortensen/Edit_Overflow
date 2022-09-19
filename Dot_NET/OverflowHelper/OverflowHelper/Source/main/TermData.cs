@@ -576,6 +576,7 @@ namespace OverflowHelper.core
             correctionAdd("scrip", "script");
             correctionAdd("Script", "script");
             correctionAdd("scritpt", "script");
+            correctionAdd("sript", "script");
 
             correctionAdd("js", "JavaScript");
             correctionAdd("JS", "JavaScript");
@@ -706,6 +707,7 @@ namespace OverflowHelper.core
             correctionAdd("typeScript", "TypeScript");
             correctionAdd("typescipt", "TypeScript");
             correctionAdd("Ts", "TypeScript");
+            correctionAdd("TYPESCRIPT", "TypeScript");
 
             correctionAdd("user script", "userscript");
             correctionAdd("Userscript", "userscript");
@@ -3066,6 +3068,7 @@ namespace OverflowHelper.core
             correctionAdd("espascially", "especially");
             correctionAdd("expecially", "especially");
             correctionAdd("Expecially", "especially");
+            correctionAdd("espicially", "especially");
 
             correctionAdd("Express JS", "Express.js");
             correctionAdd("Express.JS", "Express.js");
@@ -6595,6 +6598,7 @@ namespace OverflowHelper.core
             correctionAdd("administratior", "system administrator");
             correctionAdd("admistrator", "system administrator");
             correctionAdd("administrator", "system administrator");
+            correctionAdd("Adminstrator", "system administrator");
 
             correctionAdd("ui", "user interface"); // Expansion.
             correctionAdd("UI", "user interface"); // Expansion.
@@ -15198,6 +15202,9 @@ namespace OverflowHelper.core
             correctionAdd("stament", "statement");
             correctionAdd("Statement", "statement");
             correctionAdd("stetement", "statement");
+            correctionAdd("satemant", "statement");
+            correctionAdd("staemant", "statement");
+            correctionAdd("statemant", "statement");
 
             correctionAdd("staments", "statements");
             correctionAdd("statments", "statements");
@@ -25900,6 +25907,7 @@ namespace OverflowHelper.core
             correctionAdd("youu", "you");
             correctionAdd("yo", "you");
             correctionAdd("Yo", "you");
+            correctionAdd("sou", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -33061,6 +33069,7 @@ namespace OverflowHelper.core
             correctionAdd("micrometre", "μm");
 
             correctionAdd("Pi-Hole", "Pi-hole");
+            correctionAdd("pihole", "Pi-hole");
 
             correctionAdd("adult's", "adults");
 
@@ -43132,6 +43141,12 @@ namespace OverflowHelper.core
             correctionAdd("Thingworx", "ThingWorx");
 
             correctionAdd("unqiue", "unique");
+
+            correctionAdd("in the end of", "at the end of");
+            correctionAdd("In end of", "at the end of");
+            correctionAdd("In the end of", "at the end of");
+
+            correctionAdd("HMR", "Hot Module Replacement");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67773,6 +67788,10 @@ namespace OverflowHelper.core
 
             URL_Add("unique", "https://en.wiktionary.org/wiki/unique#Adjective");
 
+            URL_Add("at the end of", "https://ell.stackexchange.com/questions/16854/should-i-use-at-the-end-of-or-in-the-end-of-in-this-sentence");
+
+            URL_Add("Hot Module Replacement", "https://webpack.js.org/guides/hot-module-replacement/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68282,6 +68301,7 @@ namespace OverflowHelper.core
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
             correctionAdd("Academia.SE_", "Academia (Stack Exchange site)_");
+            correctionAdd("academia_", "Academia (Stack Exchange site)_");
 
             correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
             correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
@@ -68458,6 +68478,8 @@ namespace OverflowHelper.core
             correctionAdd("isoptope_", "isotope_");
 
             correctionAdd("rdason_", "reason_");
+            correctionAdd("Reson_", "reason_");
+            correctionAdd("reson_", "reason_");
 
             correctionAdd("Parallel_", "parallel_");
 
