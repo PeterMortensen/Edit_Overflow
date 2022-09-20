@@ -58,7 +58,14 @@ namespace OverflowHelper.core
         public string coreString;
         public string correctedText;
         public string WikipediaURL;
-        public int URlcount;
+        public int URLcount; // For remembering the total number of
+                             // lookups. The other fields are only
+                             // for the last lookup. The mismatch
+                             // comes from the refactoring of
+                             // the lookup to separate the 
+                             // lookup from the Windows 
+                             // interface to enable it
+                             // on Linux, etc.
     }; //struct lookupResuls
 
 
@@ -122,9 +129,8 @@ namespace OverflowHelper.core
             toReturn.coreString = string.Empty;
             toReturn.correctedText = string.Empty; // Default. We use it as a flag.
             toReturn.WikipediaURL = string.Empty;
-            toReturn.URlcount = -1;
+            toReturn.URLcount = -1;
 
-            //string wordToLookup = textSearchWord.Text;
             LookUpString tt2 = new LookUpString(aToLookUp);
             toReturn.coreString = tt2.getCoreString();
 
@@ -150,7 +156,7 @@ namespace OverflowHelper.core
                 //combination Shift + Ctrl + right Arrow).
                 toReturn.correctedText = leading + correctedWord + trailing;
 
-                toReturn.URlcount = mCheckinMessageBuilder.getNumberOfWords();
+                toReturn.URLcount = mCheckinMessageBuilder.getNumberOfWords();
             }
             else
             {

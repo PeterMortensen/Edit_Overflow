@@ -23,16 +23,13 @@ namespace EditOverflow2
         //static int Main(string[] args)
         {
             string lookupWord = Environment.GetEnvironmentVariable("LOOKUP");
-
             string outputType = Environment.GetEnvironmentVariable("WORDLIST_OUTPUTTYPE");
 
-
+            System.IO.TextWriter errorWriter = Console.Error;
             //Test!!!!!!!  To see if we actually detect output
             //             to standard error in the build
             //             script
-            System.IO.TextWriter errorWriter = Console.Error;
             //errorWriter.WriteLine("\nSome output to standard error...\n");
-
 
             string toOutput = ""; // No output unless explicitly indicated
                                   // by parameters passed to the program
@@ -46,7 +43,7 @@ namespace EditOverflow2
                     someWordCorrector.lookup_Central(lookupWord, false);
 
                 string correctedText2 = lookupResult.correctedText;
-                int URlcount = lookupResult.URlcount;
+                int URLcount = lookupResult.URLcount;
 
                 if (correctedText2 != string.Empty)
                 {

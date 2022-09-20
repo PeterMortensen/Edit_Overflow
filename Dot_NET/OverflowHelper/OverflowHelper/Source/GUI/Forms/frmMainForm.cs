@@ -433,7 +433,7 @@ namespace OverflowHelper
                                               aGuessURL_ifFailedLookup);
 
             string correctedText2 = lookupResult.correctedText;
-            int URlcount = lookupResult.URlcount;
+            int URLcount = lookupResult.URLcount;
 
             // GUI
             if (correctedText2 != string.Empty)
@@ -441,11 +441,11 @@ namespace OverflowHelper
                 txtCorrected.Text = correctedText2;
                 txtOutputURL.Text = lookupResult.WikipediaURL;
 
-                textLookupCounts.Text = URlcount.ToString();
+                textLookupCounts.Text = URLcount.ToString();
 
                 //textLookupCounts.BackColor = Color.Gray;
                 Color colourToUse;
-                if (URlcount == 1)
+                if (URLcount == 1)
                 {
                     colourToUse = Color.Salmon;
                 }
