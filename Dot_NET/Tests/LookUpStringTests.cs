@@ -11,12 +11,7 @@
 using NUnit.Framework; //For all versions of NUnit, 
                        //file "nunit.framework.dll"
 
-
 //using NUnit.Engine. No!
-
-
-//using massSpectrometryBase; //For PILmassCalc.
-
 
 //using System;
 //using System.Collections.Generic;
@@ -27,7 +22,7 @@ using OverflowHelper.core;
 
 
 
-//What namespace to use?
+//What namespace should we use?
 /****************************************************************************
  *    <placeholder for header>                                              *
  ****************************************************************************/
