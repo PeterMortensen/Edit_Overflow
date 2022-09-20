@@ -843,6 +843,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-javascript", "```lang-javascript");
             correctionAdd("javascript-lang", "```lang-javascript");
             correctionAdd("```js", "```lang-javascript");
+            correctionAdd("```lang-js", "```lang-javascript");
 
             correctionAdd("css-lang", "```lang-css");
             correctionAdd("lang-css", "```lang-css");
@@ -16630,6 +16631,11 @@ namespace OverflowHelper.core
             correctionAdd("noop", "no operation");
             correctionAdd("nop", "no operation");
 
+            correctionAdd("opertation", "operation");
+            correctionAdd("operaton", "operation");
+
+            correctionAdd("co-operation", "cooperation");
+
             correctionAdd("profficient", "proficient");
 
             correctionAdd("so called", "so-called");
@@ -23684,8 +23690,6 @@ namespace OverflowHelper.core
 
             correctionAdd("opauqe", "opaque");
 
-            correctionAdd("opertation", "operation");
-
             correctionAdd("re-size", "resize");
 
             correctionAdd("802.11 b", "802.11b");
@@ -26972,6 +26976,9 @@ namespace OverflowHelper.core
             correctionAdd("KnR", "The C Programming Language");
             correctionAdd("The C programming language", "The C Programming Language");
 
+            correctionAdd("Egyptian braces", "Egyptian brackets"); // That is, K&R style
+            correctionAdd("Egyptian Brackets", "Egyptian brackets"); // That is, K&R style
+
             correctionAdd("lang", "language");
             correctionAdd("langauge", "language");
             correctionAdd("lanuguage", "language");
@@ -30087,6 +30094,7 @@ namespace OverflowHelper.core
             correctionAdd("Hydro electric", "hydroelectric power");
 
             correctionAdd("hypocricy", "hypocrisy");
+            correctionAdd("hypocrasy", "hypocrisy");
 
             correctionAdd("mantain", "maintain");
 
@@ -31852,6 +31860,7 @@ namespace OverflowHelper.core
 
             correctionAdd("doublecheck", "double check");
             correctionAdd("double-check", "double check");
+            correctionAdd("Double check", "double check");
 
             correctionAdd("re-check", "recheck");
             correctionAdd("Re-check", "recheck");
@@ -38705,8 +38714,6 @@ namespace OverflowHelper.core
 
             correctionAdd("chacker", "checker");
 
-            correctionAdd("co-operation", "cooperation");
-
             correctionAdd("note-taking", "notetaking");
 
             correctionAdd("over complex", "overcomplex");
@@ -43147,6 +43154,14 @@ namespace OverflowHelper.core
             correctionAdd("In the end of", "at the end of");
 
             correctionAdd("HMR", "Hot Module Replacement");
+
+            correctionAdd("hypocrit", "hypocrite");
+
+            correctionAdd("on chains", "in chains");
+
+            correctionAdd("long distance", "long-distance");
+
+            correctionAdd("well paying", "well-paid");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67792,6 +67807,16 @@ namespace OverflowHelper.core
 
             URL_Add("Hot Module Replacement", "https://webpack.js.org/guides/hot-module-replacement/");
 
+            URL_Add("Egyptian brackets", "https://en.wikipedia.org/wiki/Indentation_style#K&R_style");
+
+            URL_Add("hypocrite", "https://en.wiktionary.org/wiki/hypocrite#Noun");
+
+            URL_Add("in chains", "https://dictionary.cambridge.org/dictionary/english/in-chains");
+
+            URL_Add("long-distance", "https://en.wiktionary.org/wiki/long-distance#Adjective");
+
+            URL_Add("well-paid", "https://en.wiktionary.org/wiki/well-paid#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68803,6 +68828,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Window_", "window_");
 
+            correctionAdd("Western_", "western_");
+
             // URL mappings
             //
             //
@@ -69419,6 +69446,8 @@ namespace OverflowHelper.core
             URL_Add("base64_", "https://linux.die.net/man/1/base64");
 
             URL_Add("window_", "https://developer.mozilla.org/en-US/docs/Web/API/Window");
+
+            URL_Add("western_", "https://en.wiktionary.org/wiki/western#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
