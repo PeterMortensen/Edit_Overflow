@@ -87,12 +87,20 @@ namespace OverflowHelper.core
                 (aRawString[endIdx] < 'a' || aRawString[endIdx] > 'z') &&
                 (aRawString[endIdx] < '0' || aRawString[endIdx] > '9') &&
 
+                // For "C#"...
                 // Why not just inequality?
-                (aRawString[endIdx] < '#' || aRawString[endIdx] > '#') && //For "C#"...
+                (aRawString[endIdx] < '#' || aRawString[endIdx] > '#') &&
 
-                (aRawString[endIdx] < '+' || aRawString[endIdx] > '+') && //For "C++",
-                  //  "g+", "Google+", "Dev-C++", "Visual C++", "ms vc++", etc.
-                true  
+                // For "C++" "g+", "Google+", "Dev-C++", "Visual C++",
+                // "ms vc++", etc.
+                // Why not just inequality?
+                (aRawString[endIdx] < '+' || aRawString[endIdx] > '+') &&
+
+                // For words in the alternative word set (we use
+                // the convention of a trailing underscore)
+                (aRawString[endIdx] != '_') &&
+
+                true
               )
             {
                 endIdx--;
