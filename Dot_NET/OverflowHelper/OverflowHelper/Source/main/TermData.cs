@@ -526,6 +526,7 @@ namespace OverflowHelper.core
             correctionAdd("screwtube", "YouTube"); // Other interpretations are possible...
             correctionAdd("U-tube", "YouTube");
             correctionAdd("u-tube", "YouTube");
+            correctionAdd("jewtube", "YouTube");
 
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
@@ -835,6 +836,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-c#", "```lang-csharp");
             correctionAdd("```c#", "```lang-csharp");
             correctionAdd("```C#", "```lang-csharp");
+            correctionAdd("```lang-cs", "```lang-csharp");
 
             correctionAdd("java-lang", "```lang-java");
             correctionAdd("lang-java", "```lang-java");
@@ -2294,6 +2296,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Mac OS 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("MAC OS Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("12.6", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -4578,6 +4581,7 @@ namespace OverflowHelper.core
             correctionAdd("Circuit", "circuit");
             correctionAdd("cicuit", "circuit");
             correctionAdd("cuircuit", "circuit");
+            correctionAdd("circult", "circuit");
 
             correctionAdd("snubber", "snub circuit");
             correctionAdd("Snubber", "snub circuit");
@@ -20803,6 +20807,7 @@ namespace OverflowHelper.core
             correctionAdd("asuming", "assuming");
             correctionAdd("Asuming", "assuming");
             correctionAdd("asusming", "assuming");
+            correctionAdd("assumping", "assuming");
 
             correctionAdd("atribute", "attribute");
             correctionAdd("Attribut", "attribute");
@@ -30385,6 +30390,7 @@ namespace OverflowHelper.core
             correctionAdd("Pop_OS", "Pop!_OS");
             correctionAdd("popos", "Pop!_OS");
             correctionAdd("pop_os", "Pop!_OS");
+            correctionAdd("Pop!OS", "Pop!_OS");
 
             correctionAdd("Sunburst", "SUNBURST");
 
@@ -30558,6 +30564,7 @@ namespace OverflowHelper.core
 
             correctionAdd("azure devops", "Azure DevOps");
             correctionAdd("Azure Devops", "Azure DevOps");
+            correctionAdd("Azire Devops", "Azure DevOps");
 
             correctionAdd("nmos", "NMOS");
             correctionAdd("nMOS", "NMOS");
@@ -43162,6 +43169,19 @@ namespace OverflowHelper.core
             correctionAdd("long distance", "long-distance");
 
             correctionAdd("well paying", "well-paid");
+
+            correctionAdd("4bsd", "4BSD");
+
+            correctionAdd("fecking", "fucking");
+
+            correctionAdd("mute", "moot");
+
+            correctionAdd("parameterized", "parameterised");
+            correctionAdd("parametreized", "parameterised");
+
+            correctionAdd("snobish", "snobbish");
+
+            correctionAdd("substr()", "substr");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67817,6 +67837,18 @@ namespace OverflowHelper.core
 
             URL_Add("well-paid", "https://en.wiktionary.org/wiki/well-paid#Adjective");
 
+            URL_Add("4BSD", "https://en.wikipedia.org/wiki/4.4BSD#4BSD");
+
+            URL_Add("fucking", "https://en.wiktionary.org/wiki/fucking#Adjective");
+
+            URL_Add("moot", "https://en.wiktionary.org/wiki/moot#Adjective");
+
+            URL_Add("parameterised", "https://en.wiktionary.org/wiki/parameterise#Verb");
+
+            URL_Add("snobbish", "https://en.wiktionary.org/wiki/snobbish#Adjective");
+
+            URL_Add("substr", "https://perldoc.perl.org/perlfunc#substr-EXPR%2COFFSET%2CLENGTH%2CREPLACEMENT");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68689,6 +68721,12 @@ namespace OverflowHelper.core
             correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server_");
             correctionAdd("SQL Server_", "SQL&nbsp;Server_"); // Sort of identity mapping
 
+            correctionAdd("sql_", "SQL (tag wiki)_");
+
+            correctionAdd("vb.net_", "VB.NET (tag wiki)_");
+
+            correctionAdd("vba_", "VBA (tag wiki)_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -69448,6 +69486,12 @@ namespace OverflowHelper.core
             URL_Add("window_", "https://developer.mozilla.org/en-US/docs/Web/API/Window");
 
             URL_Add("western_", "https://en.wiktionary.org/wiki/western#Adjective");
+
+            URL_Add("SQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql");
+
+            URL_Add("VB.NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/vb.net");
+
+            URL_Add("VBA (tag wiki)_", "https://stackoverflow.com/questions/tagged/vba");
 
         } //addLookupData_alternativeWordSet()
 
