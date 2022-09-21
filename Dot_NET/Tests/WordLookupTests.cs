@@ -72,6 +72,24 @@ namespace WordLookupTestsTests
 
         /****************************************************************************
          *                                                                          *
+         *  Helper for preprocessing()                                              *
+         *                                                                          *
+         ****************************************************************************/
+        public void unchangedLookup(string aCorrectWord)
+        {
+            LookUpString tt2 = new LookUpString(aCorrectWord);
+
+            Assert.AreEqual(
+              aCorrectWord,
+              tt2.getCoreString(),
+              "Trailing charactere misidentified as punctuation: " +
+                aCorrectWord); // Hopefully enough to identify the caller...
+
+        } //unchangedLookup()
+
+
+        /****************************************************************************
+         *                                                                          *
          *  Testing some helper classes                                             *
          *                                                                          *
          ****************************************************************************/
@@ -103,7 +121,42 @@ namespace WordLookupTestsTests
                   "");
             }
 
-        } //baseLookup()
+            unchangedLookup("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
+            unchangedLookup("&mdash;");
+            unchangedLookup("'like button'");
+            unchangedLookup("Hello, World!");
+            unchangedLookup("Sagittarius A*");
+            unchangedLookup("[sic]");
+            unchangedLookup("`man bash`");
+            unchangedLookup("How Is Babby Formed?");
+            unchangedLookup("!==");
+            unchangedLookup("polkadot{.js}");
+            unchangedLookup("/e/");
+            unchangedLookup("--");
+            unchangedLookup("%"); // Only one character. This works
+                                  // for some reason... (without
+                                  // needing an exception). Why?
+            unchangedLookup("C♯");
+            unchangedLookup("M$");
+            unchangedLookup("8 \"Jessie\"");
+            unchangedLookup("~"); // Only one character. This works
+                                  // for some reason... (without
+                                  // needing an exception). Why?
+            unchangedLookup("2¢");
+            unchangedLookup("<"); // Only one character. This works
+                                  // for some reason... (without
+                                  // needing an exception). Why?
+            unchangedLookup("Stack Overflow на русском");
+
+            unchangedLookup("voilà");
+            unchangedLookup("Bogotá");
+            unchangedLookup("Antonio Radić");
+            unchangedLookup("fiancé");
+            unchangedLookup("Baháʼí");
+            unchangedLookup("Stack Overflow на русском");
+            unchangedLookup("Malmö");
+
+        } //preprocessing()
 
 
     } //class WordLookupTestsTests
