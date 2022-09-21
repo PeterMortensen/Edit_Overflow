@@ -96,9 +96,90 @@ namespace OverflowHelper.core
                 // Why not just inequality?
                 (aRawString[endIdx] < '+' || aRawString[endIdx] > '+') &&
 
+                //This is getting out of hand... Perhaps use a positive
+                //list for the punctuation instead? The number of
+                //possible characters should be much smaller.
+                //
+                // Note: Not added, as they appear as one character
+                //       (as incorrect terms (really expansions))
+                //       and work for some reason:
+                //
+                //          %
+                //          ~
+
                 // For words in the alternative word set (we use
                 // the convention of a trailing underscore)
                 (aRawString[endIdx] != '_') &&
+
+                // Sample: "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"
+                (aRawString[endIdx] != ')') &&
+
+                // Sample: "&mdash;"
+                (aRawString[endIdx] != ';') &&
+
+                // Single quotes. Sample: "'like button'"
+                (aRawString[endIdx] != '\'') &&
+
+                // Sample: "Hello, World!"
+                (aRawString[endIdx] != '!') &&
+
+                // Sample: "Sagittarius A*"
+                (aRawString[endIdx] != '*') &&
+
+                // Sample: "[sic]"
+                (aRawString[endIdx] != ']') &&
+
+                // Sample: "`man bash`"
+                (aRawString[endIdx] != '`') &&
+
+                // Sample: "How Is Babby Formed?"
+                (aRawString[endIdx] != '?') &&
+
+                // Sample: "!=="
+                (aRawString[endIdx] != '=') &&
+
+                // Sample: "polkadot{.js}"
+                (aRawString[endIdx] != '}') &&
+
+                // Sample: "/e/"
+                (aRawString[endIdx] != '/') &&
+
+                // Sample: "--"
+                (aRawString[endIdx] != '-') &&
+
+                // Sample: "C♯"
+                (aRawString[endIdx] != '♯') &&
+
+                // Sample: "M$"
+                (aRawString[endIdx] != '$') &&
+
+                // Sample: "8 "Jessie""
+                (aRawString[endIdx] != '\"') &&
+
+                // Sample: "2¢"
+                (aRawString[endIdx] != '¢') &&
+
+
+                // Sample: "voilà"
+                (aRawString[endIdx] != 'à') &&
+
+                // Sample: "Bogotá"
+                (aRawString[endIdx] != 'á') &&
+
+                // Sample: "Antonio Radić"
+                (aRawString[endIdx] != 'ć') &&
+
+                // Sample: "fiancé"
+                (aRawString[endIdx] != 'é') &&
+
+                // Sample: "Baháʼí"
+                (aRawString[endIdx] != 'í') &&
+
+                // Sample: "Stack Overflow на русском"
+                (aRawString[endIdx] != 'м') &&
+
+                // Sample: "Malmö"
+                (aRawString[endIdx] != 'ö') &&
 
                 true
               )
