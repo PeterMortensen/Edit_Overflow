@@ -1756,6 +1756,9 @@ cp $SRCFOLDER_TESTS/WordlistTests.cs                    $WORKFOLDER
 cp $SRCFOLDER_TESTS/LookUpStringTests.cs                $WORKFOLDER
 cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs     $WORKFOLDER
 cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
+cp $SRCFOLDER_TESTS/RegExExecutor.cs                    $WORKFOLDER
+cp $SRCFOLDER_TESTS/WordLookupTests.cs                  $WORKFOLDER
+
 
 # PHP/web files
 cp $SRCFOLDER_WEB/EditOverflow.php                      $WORKFOLDER
@@ -2423,6 +2426,7 @@ mv  $WORKFOLDER/LookUpStringTests.cs              $WORKFOLDER/LookUpStringTests.
 mv  $WORKFOLDER/StringReplacerWithRegexTests.cs   $WORKFOLDER/StringReplacerWithRegexTests.csZZZ
 mv  $WORKFOLDER/CodeFormattingCheckTests.cs       $WORKFOLDER/CodeFormattingCheckTests.csZZZ
 mv  $WORKFOLDER/RegExExecutor.cs                  $WORKFOLDER/RegExExecutor.csZZZ
+mv  $WORKFOLDER/WordLookupTests.cs                $WORKFOLDER/WordLookupTests.csZZZ
 
 
 # ###########################################################################
