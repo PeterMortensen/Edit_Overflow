@@ -1917,6 +1917,7 @@ namespace OverflowHelper.core
             correctionAdd("asp mvc", "ASP.NET MVC");
             correctionAdd("MVC.net", "ASP.NET MVC");
             correctionAdd("Asp Mvc", "ASP.NET MVC");
+            correctionAdd("MVC.NET", "ASP.NET MVC");
 
             correctionAdd("asp", "ASP Classic");
             correctionAdd("ASP", "ASP Classic");
@@ -17119,6 +17120,7 @@ namespace OverflowHelper.core
             correctionAdd("PowerBi", "Power BI");
             correctionAdd("power BI", "Power BI");
             correctionAdd("powerBI", "Power BI");
+            correctionAdd("pbi", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -19044,6 +19046,7 @@ namespace OverflowHelper.core
             correctionAdd("1 to many", "one-to-many");
 
             correctionAdd("many to many", "many-to-many");
+            correctionAdd("Many-To-Many", "many-to-many");
 
             correctionAdd("React mui", "MUI React");
             correctionAdd("React mui material", "MUI React");
@@ -26731,6 +26734,7 @@ namespace OverflowHelper.core
             correctionAdd("BackEnd", "back end");
             correctionAdd("Back-End", "back end");
             correctionAdd("Back End", "back end");
+            correctionAdd("backen", "back end");
 
             correctionAdd("ehcache", "Ehcache");
 
@@ -43182,6 +43186,12 @@ namespace OverflowHelper.core
             correctionAdd("snobish", "snobbish");
 
             correctionAdd("substr()", "substr");
+
+            correctionAdd("Dunder method", "dunder method"); // See also <https://www.pythonmorsels.com/what-are-dunder-methods/>
+
+            correctionAdd("Line of Code", "line of code");
+
+            correctionAdd("ucanacess", "UCanAccess");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62207,7 +62217,7 @@ namespace OverflowHelper.core
 
             URL_Add("Larry Wall", "https://en.wikipedia.org/wiki/Larry_Wall");
 
-            URL_Add("PyGitHub", "https://pypi.org/project/PyGithub/");
+            URL_Add("PyGitHub", "https://github.com/PyGithub/PyGithub");
 
             URL_Add("Quip", "https://en.wikipedia.org/wiki/Quip_(software)");
 
@@ -67848,6 +67858,12 @@ namespace OverflowHelper.core
             URL_Add("snobbish", "https://en.wiktionary.org/wiki/snobbish#Adjective");
 
             URL_Add("substr", "https://perldoc.perl.org/perlfunc#substr-EXPR%2COFFSET%2CLENGTH%2CREPLACEMENT");
+
+            URL_Add("dunder method", "https://en.wikipedia.org/wiki/Reserved_word#Reserved_ranges");
+
+            URL_Add("line of code", "https://en.wikipedia.org/wiki/Source_lines_of_code#Measurement_methods");
+
+            URL_Add("UCanAccess", "http://ucanaccess.sourceforge.net/site.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
