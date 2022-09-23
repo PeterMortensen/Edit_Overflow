@@ -1005,6 +1005,7 @@ namespace OverflowHelper.core
             correctionAdd("mysl", "MySQL");
             correctionAdd("my-sql", "MySQL");
             correctionAdd("MysQl", "MySQL");
+            correctionAdd("MYSQl", "MySQL");
 
             correctionAdd("Linq to SQL", "LINQ&nbsp;to&nbsp;SQL");
             correctionAdd("linq to sql", "LINQ&nbsp;to&nbsp;SQL");
@@ -5246,6 +5247,7 @@ namespace OverflowHelper.core
             correctionAdd("Regular-Expression", "regular expression");
             correctionAdd("eegular expression", "regular expression");
             correctionAdd("regular expresion", "regular expression");
+            correctionAdd("REGX", "regular expression");
 
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
@@ -7275,6 +7277,7 @@ namespace OverflowHelper.core
             correctionAdd("Markdow", "Markdown");
             correctionAdd("Makrdown", "Markdown");
             correctionAdd("Markdowm", "Markdown");
+            correctionAdd("mark-down", "Markdown");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -7828,6 +7831,7 @@ namespace OverflowHelper.core
             correctionAdd("sub-directories", "subdirectories");
             correctionAdd("subdirs", "subdirectories");
             correctionAdd("sibdirs", "subdirectories");
+            correctionAdd("sub directories", "subdirectories");
 
             correctionAdd("sub directory", "subdirectory");
             correctionAdd("subdir", "subdirectory");
@@ -8044,6 +8048,36 @@ namespace OverflowHelper.core
             correctionAdd("youe", "your");
             correctionAdd("yyour", "your");
             correctionAdd("yiur", "your");
+
+            correctionAdd("behavoir", "behaviour");
+            correctionAdd("behavior", "behaviour");
+            correctionAdd("bahaviour", "behaviour");
+            correctionAdd("vehaviour", "behaviour");
+
+            correctionAdd("neighbor", "neighbour");
+            correctionAdd("neigbour", "neighbour");
+
+            correctionAdd("UB", "undefined behaviour");
+            correctionAdd("Undefined Behavior", "undefined behaviour");
+            correctionAdd("ub", "undefined behaviour");
+            correctionAdd("undefined behavior", "undefined behaviour");
+
+            correctionAdd("color", "colour");
+
+            correctionAdd("endevaour", "endeavour");
+            correctionAdd("endeavor", "endeavour");
+
+            correctionAdd("humor", "humour");
+            correctionAdd("homour", "humour");
+
+            correctionAdd("3", "three");
+
+            correctionAdd("4", "four");
+
+            correctionAdd("rumor", "rumour");
+
+            correctionAdd("Our", "our");
+            correctionAdd("ouu", "our");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -15078,11 +15112,6 @@ namespace OverflowHelper.core
             correctionAdd("ackward", "awkward");
             correctionAdd("aukward", "awkward");
 
-            correctionAdd("behavoir", "behaviour");
-            correctionAdd("behavior", "behaviour");
-            correctionAdd("bahaviour", "behaviour");
-            correctionAdd("vehaviour", "behaviour");
-
             correctionAdd("bellow", "below");
             correctionAdd("bewlow", "below");
             correctionAdd("bellowing", "below");
@@ -15714,9 +15743,6 @@ namespace OverflowHelper.core
             correctionAdd("Eception", "exception");
             correctionAdd("Exception", "exception");
             correctionAdd("eception", "exception");
-
-            correctionAdd("neighbor", "neighbour");
-            correctionAdd("neigbour", "neighbour");
 
             correctionAdd("untill", "until");
             correctionAdd("untit", "until");
@@ -16488,11 +16514,6 @@ namespace OverflowHelper.core
             correctionAdd("sinewave", "sine wave");
             correctionAdd("sin wave", "sine wave");
 
-            correctionAdd("UB", "undefined behaviour");
-            correctionAdd("Undefined Behavior", "undefined behaviour");
-            correctionAdd("ub", "undefined behaviour");
-            correctionAdd("undefined behavior", "undefined behaviour");
-
             correctionAdd("TI", "Texas Instruments");
 
             correctionAdd("Ad Hoc", "ad hoc");
@@ -17121,6 +17142,7 @@ namespace OverflowHelper.core
             correctionAdd("power BI", "Power BI");
             correctionAdd("powerBI", "Power BI");
             correctionAdd("pbi", "Power BI");
+            correctionAdd("POWER BI", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -18328,6 +18350,7 @@ namespace OverflowHelper.core
             correctionAdd("serach", "search");
             correctionAdd("seach", "search");
             correctionAdd("serch", "search");
+            correctionAdd("Seach", "search");
 
             correctionAdd("place holder", "placeholder");
 
@@ -18644,6 +18667,7 @@ namespace OverflowHelper.core
             correctionAdd("MySpace", "Myspace");
 
             correctionAdd("squarespace", "Squarespace");
+            correctionAdd("SquareSpace", "Squarespace");
 
             correctionAdd("spase", "space");
             correctionAdd("scpace", "space");
@@ -18852,6 +18876,7 @@ namespace OverflowHelper.core
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
             correctionAdd("snippit", "snippet");
+            correctionAdd("sniipet", "snippet");
 
             correctionAdd("user defined", "user-defined");
             correctionAdd("User Defined", "user-defined");
@@ -19430,8 +19455,6 @@ namespace OverflowHelper.core
             correctionAdd("activally", "actively");
             correctionAdd("activly", "actively");
 
-            correctionAdd("color", "colour");
-
             correctionAdd("re-create", "recreate");
             correctionAdd("Re-create", "recreate");
             correctionAdd("recate", "recreate");
@@ -19926,9 +19949,6 @@ namespace OverflowHelper.core
 
             correctionAdd("neovim", "Neovim");
             correctionAdd("nvim", "Neovim");
-
-            correctionAdd("endevaour", "endeavour");
-            correctionAdd("endeavor", "endeavour");
 
             correctionAdd("moquito", "mosquito");
 
@@ -21169,6 +21189,7 @@ namespace OverflowHelper.core
             correctionAdd("System D", "systemd");
             correctionAdd("shitstainD", "systemd");
             correctionAdd("ShitstainD", "systemd");
+            correctionAdd("Systemd", "systemd");
 
             correctionAdd("wave length", "wavelength");
 
@@ -22430,9 +22451,6 @@ namespace OverflowHelper.core
             correctionAdd("EXFAT", "exFAT");
             correctionAdd("ExFAT", "exFAT");
 
-            correctionAdd("humor", "humour");
-            correctionAdd("homour", "humour");
-
             correctionAdd("polution", "pollution");
 
             correctionAdd("foot print", "footprint");
@@ -23610,10 +23628,6 @@ namespace OverflowHelper.core
             correctionAdd("bootsrap", "Bootstrap");
 
             correctionAdd("yer", "yet");
-
-            correctionAdd("3", "three");
-
-            correctionAdd("4", "four");
 
             correctionAdd("ive", "I’ve");
             correctionAdd("Ive", "I’ve");
@@ -26978,6 +26992,9 @@ namespace OverflowHelper.core
             correctionAdd("assebmly", "assembly language");
             correctionAdd("assember", "assembly language");
 
+            correctionAdd("Egyptian braces", "Egyptian brackets"); // That is, K&R style
+            correctionAdd("Egyptian Brackets", "Egyptian brackets"); // That is, K&R style
+
             correctionAdd("K&R", "The C Programming Language");
             correctionAdd("k&r", "The C Programming Language");
             correctionAdd("k&R", "The C Programming Language");
@@ -26985,8 +27002,11 @@ namespace OverflowHelper.core
             correctionAdd("KnR", "The C Programming Language");
             correctionAdd("The C programming language", "The C Programming Language");
 
-            correctionAdd("Egyptian braces", "Egyptian brackets"); // That is, K&R style
-            correctionAdd("Egyptian Brackets", "Egyptian brackets"); // That is, K&R style
+            correctionAdd("Language", "programming language");
+            correctionAdd("Programming Language", "programming language");
+            correctionAdd("prog lang", "programming language");
+            correctionAdd("proglang", "programming language");
+            correctionAdd("Programming language", "programming language");
 
             correctionAdd("lang", "language");
             correctionAdd("langauge", "language");
@@ -29886,8 +29906,6 @@ namespace OverflowHelper.core
             correctionAdd("role out", "roll out");
             correctionAdd("rool out", "roll out");
 
-            correctionAdd("rumor", "rumour");
-
             correctionAdd("soured", "sourced");
 
             correctionAdd("suiside", "suicide");
@@ -30618,11 +30636,6 @@ namespace OverflowHelper.core
             correctionAdd("letf", "left");
             correctionAdd("leaved", "left");
 
-            correctionAdd("Language", "programming language");
-            correctionAdd("Programming Language", "programming language");
-            correctionAdd("prog lang", "programming language");
-            correctionAdd("proglang", "programming language");
-
             correctionAdd("redesining", "redesigning");
 
             correctionAdd("re-organise", "reorganise");
@@ -30839,6 +30852,7 @@ namespace OverflowHelper.core
             correctionAdd("sufix", "suffix");
 
             correctionAdd("tody", "today");
+            correctionAdd("Today", "today");
 
             correctionAdd("usbc", "USB-C");
             correctionAdd("usb-c", "USB-C");
@@ -32244,6 +32258,11 @@ namespace OverflowHelper.core
             correctionAdd("Stdin", "standard input");
             correctionAdd("standard in put", "standard input");
 
+            correctionAdd("intput", "input");
+            correctionAdd("inut", "input");
+
+            correctionAdd("re-input", "reinput");
+
             correctionAdd("StdOut", "standard output");
             correctionAdd("stdout", "standard output");
             correctionAdd("STDOUT", "standard output");
@@ -32980,6 +32999,7 @@ namespace OverflowHelper.core
             correctionAdd("googlesheets", "Google Sheets");
             correctionAdd("GoogleSheets", "Google Sheets");
             correctionAdd("google-sheets", "Google Sheets");
+            correctionAdd("google sheet", "Google Sheets");
 
             correctionAdd("Above", "above");
 
@@ -36694,8 +36714,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hepler", "helper");
 
-            correctionAdd("re-input", "reinput");
-
             correctionAdd("cdu", "CDU");
             correctionAdd("Christian Democratic Union of Germany", "CDU");
 
@@ -36787,6 +36805,7 @@ namespace OverflowHelper.core
             correctionAdd("AFAIU", "as far as I understand");
 
             correctionAdd("colling", "calling");
+            correctionAdd("callng", "calling");
 
             correctionAdd("exctraction", "extraction");
 
@@ -36874,8 +36893,6 @@ namespace OverflowHelper.core
 
             correctionAdd("convinse", "convince");
             correctionAdd("convine", "convince");
-
-            correctionAdd("Our", "our");
 
             correctionAdd("Pyramid scheme", "pyramid scheme");
 
@@ -39230,8 +39247,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GZIP", "gzip");
 
-            correctionAdd("intput", "input");
-
             correctionAdd("mhash", "mhash()");
 
             correctionAdd("Obligatory", "obligatory");
@@ -39797,6 +39812,7 @@ namespace OverflowHelper.core
             correctionAdd("conlang", "constructed language");
 
             correctionAdd("dinamic", "dynamic");
+            correctionAdd("dymanic", "dynamic");
 
             correctionAdd("GameDev", "game development");
 
@@ -40216,6 +40232,7 @@ namespace OverflowHelper.core
             correctionAdd("welford's algorithm", "Welford's algorithm");
 
             correctionAdd("beter", "better");
+            correctionAdd("btter", "better");
 
             correctionAdd("bi-weekly", "biweekly");
 
@@ -43192,6 +43209,41 @@ namespace OverflowHelper.core
             correctionAdd("Line of Code", "line of code");
 
             correctionAdd("ucanacess", "UCanAccess");
+
+            correctionAdd("breakout", "Breakout");
+
+            // Other references:
+            //
+            // <https://ell.stackexchange.com/questions/17621/>
+            //   "Do the needful" -- Why is it used instead 
+            //   of asking a question? 
+            //
+            // <https://www.quora.com/What-is-a-replacement-for-do-the-needful-when-used-in-email>
+            //   What is a replacement for "do the needful" 
+            //   when used in email?
+            //
+            // <https://english.stackexchange.com/questions/43597/>
+            //   What is wrong in "Please don't pluck the flowers" and 
+            //   other phrases used in the Indian subcontinent? 
+            //
+            // <https://www.grammarly.com/blog/do-the-needful/>
+            //   Is “do the needful” correct?
+            //
+            // https://en.wiktionary.org/wiki/do_the_needful#Verb
+            //   Wiktionary entry
+            //
+            correctionAdd("do the helpful", "do the needful");
+
+            correctionAdd("flutter quill", "FlutterQuill");
+            correctionAdd("Flutter Quill", "FlutterQuill");
+            correctionAdd("Quill", "FlutterQuill");
+            correctionAdd("quill", "FlutterQuill");
+
+            correctionAdd("mark-up language", "markup language");
+
+            correctionAdd("xy coordinates", "x- and y-coordinates");
+
+            correctionAdd("x coordinate", "x-coordinate");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67865,6 +67917,18 @@ namespace OverflowHelper.core
 
             URL_Add("UCanAccess", "http://ucanaccess.sourceforge.net/site.html");
 
+            URL_Add("Breakout", "https://en.wikipedia.org/wiki/Breakout_(video_game)");
+
+            URL_Add("do the needful", "https://en.wikipedia.org/wiki/Indian_English#Vocabulary");
+
+            URL_Add("FlutterQuill", "https://github.com/singerdmx/flutter-quill");
+
+            URL_Add("markup language", "https://en.wikipedia.org/wiki/Markup_language");
+
+            URL_Add("x- and y-coordinates", "https://www.math.net/coordinates");
+
+            URL_Add("x-coordinate", "https://www.merriam-webster.com/dictionary/x-coordinate");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68009,6 +68073,7 @@ namespace OverflowHelper.core
             correctionAdd("iit_", "it_");
             correctionAdd("itt_", "it_");
             correctionAdd("It_", "it_");
+            correctionAdd("i,t_", "it_");
 
             correctionAdd("set-up_", "setup_");
             correctionAdd("set up_", "setup_");
