@@ -16272,6 +16272,7 @@ namespace OverflowHelper.core
             correctionAdd("low level", "low-level");
             correctionAdd("low-kevel", "low-level");
             correctionAdd("lowlevel", "low-level");
+            correctionAdd("lowlever", "low-level");
 
             correctionAdd("PWA", "progressive web application");
             correctionAdd("Progressive Web Application", "progressive web application");
@@ -16393,6 +16394,12 @@ namespace OverflowHelper.core
             correctionAdd("calcualte", "calculate");
             correctionAdd("caculate", "calculate");
             correctionAdd("calculte", "calculate");
+            correctionAdd("calaculate", "calculate");
+
+            correctionAdd("recalc", "recalculate");
+            correctionAdd("re-calc", "recalculate");
+            correctionAdd("recalculta", "recalculate");
+            correctionAdd("recalculat", "recalculate");
 
             correctionAdd("consistantly", "consistently");
             correctionAdd("consistenly", "consistently");
@@ -25332,6 +25339,7 @@ namespace OverflowHelper.core
             correctionAdd("someday", "some day");
 
             correctionAdd("Arduino ide", "Arduino IDE");
+            correctionAdd("arduino ide", "Arduino IDE");
 
             correctionAdd("Biztalk", "BizTalk");
 
@@ -29063,11 +29071,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Prototypal", "prototypal");
 
-            correctionAdd("recalc", "recalculate");
-            correctionAdd("re-calc", "recalculate");
-            correctionAdd("recalculta", "recalculate");
-            correctionAdd("recalculat", "recalculate");
-
             correctionAdd("repectively", "respectively");
             correctionAdd("resp", "respectively");
 
@@ -32171,6 +32174,7 @@ namespace OverflowHelper.core
             correctionAdd("FDM", "Free Download Manager");
 
             correctionAdd("Putin", "Vladimir Putin");
+            correctionAdd("Putler", "Vladimir Putin");
 
             correctionAdd("HLL", "high-level programming language");
 
@@ -35158,6 +35162,7 @@ namespace OverflowHelper.core
             correctionAdd("single-signon", "single sign-on");
             correctionAdd("Single-SignOn", "single sign-on");
             correctionAdd("Single-Sign On", "single sign-on");
+            correctionAdd("single sign on", "single sign-on");
 
             correctionAdd("three-letter abbreviation", "three-letter acronym");
             correctionAdd("TLA", "three-letter acronym");
@@ -35580,6 +35585,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non-blocking", "nonblocking");
             correctionAdd("non blocking", "nonblocking");
+            correctionAdd("none blocking", "nonblocking");
 
             correctionAdd("objetive", "objective");
             correctionAdd("Objetive", "objective");
@@ -35797,6 +35803,7 @@ namespace OverflowHelper.core
 
             correctionAdd("execured", "executed");
             correctionAdd("excuted", "executed");
+            correctionAdd("ececuted", "executed");
 
             correctionAdd("handeld", "handled");
 
@@ -38389,6 +38396,10 @@ namespace OverflowHelper.core
 
             correctionAdd("calc.exe", "Calculator");
 
+            // Probably Australian misuse: It is actually for "computer".
+            // Ref. (<https://www.definitions.net/definition/confuser>)
+            correctionAdd("confuser", "calculator");
+
             correctionAdd("DietPI", "DietPi");
             correctionAdd("Diet-Pi", "DietPi");
 
@@ -39733,6 +39744,7 @@ namespace OverflowHelper.core
             correctionAdd("ever growing", "evergrowing");
 
             correctionAdd("mhchem", "mhchem (MathJax)");
+            correctionAdd("ce", "mhchem (MathJax)");
 
             correctionAdd("meoentum", "momentum");
 
@@ -40865,6 +40877,10 @@ namespace OverflowHelper.core
             correctionAdd("oracle11g", "Oracle Database 11g");
             correctionAdd("oracle 11g", "Oracle Database 11g");
 
+            correctionAdd("Oracle 11.2g", "Oracle Database 11g Release 2");
+
+            correctionAdd("oracle 12c", "Oracle Database 12c");
+
             correctionAdd("toad", "Toad");
 
             correctionAdd("CCing", "cc'ing");
@@ -40964,8 +40980,6 @@ namespace OverflowHelper.core
             correctionAdd("All nighter", "pull an all-nighter");
 
             correctionAdd("un-officially", "unofficially");
-
-            correctionAdd("oracle 12c", "Oracle Database 12c");
 
             correctionAdd("invisble", "invisible");
 
@@ -43079,6 +43093,7 @@ namespace OverflowHelper.core
             correctionAdd("Manimupating", "manipulating");
 
             correctionAdd("markdown tables", "Markdown tables");
+            correctionAdd("markdown table", "Markdown tables");
 
             correctionAdd("obsidian", "Obsidian");
 
@@ -43215,16 +43230,16 @@ namespace OverflowHelper.core
             // Other references:
             //
             // <https://ell.stackexchange.com/questions/17621/>
-            //   "Do the needful" -- Why is it used instead 
-            //   of asking a question? 
+            //   "Do the needful" -- Why is it used instead
+            //   of asking a question?
             //
             // <https://www.quora.com/What-is-a-replacement-for-do-the-needful-when-used-in-email>
-            //   What is a replacement for "do the needful" 
+            //   What is a replacement for "do the needful"
             //   when used in email?
             //
             // <https://english.stackexchange.com/questions/43597/>
-            //   What is wrong in "Please don't pluck the flowers" and 
-            //   other phrases used in the Indian subcontinent? 
+            //   What is wrong in "Please don't pluck the flowers" and
+            //   other phrases used in the Indian subcontinent?
             //
             // <https://www.grammarly.com/blog/do-the-needful/>
             //   Is “do the needful” correct?
@@ -43238,12 +43253,38 @@ namespace OverflowHelper.core
             correctionAdd("Flutter Quill", "FlutterQuill");
             correctionAdd("Quill", "FlutterQuill");
             correctionAdd("quill", "FlutterQuill");
+            correctionAdd("flutter_quill", "FlutterQuill");
 
             correctionAdd("mark-up language", "markup language");
 
             correctionAdd("xy coordinates", "x- and y-coordinates");
 
             correctionAdd("x coordinate", "x-coordinate");
+
+            correctionAdd("Zahlenreihe", "number sequence");
+            correctionAdd("sequence of numbers", "number sequence");
+
+            correctionAdd("Reification", "reification");
+            correctionAdd("reifies", "reification");
+            correctionAdd("reify", "reification");
+
+            correctionAdd("O/", "o/");
+            correctionAdd("\\o/", "o/");
+
+            correctionAdd("3-phase", "three-phase");
+
+            correctionAdd("Keymer", "Vincent Keymer");
+
+            correctionAdd("curly-brace programming language", "curly-bracket programming language");
+            correctionAdd("bracket language", "curly-bracket programming language");
+
+            correctionAdd("front slash", "forward slash");
+
+            correctionAdd("Openpyxl", "openpyxl");
+
+            correctionAdd("Parenthesed", "parenthesised");
+
+            correctionAdd("Sprite", "sprite");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67929,6 +67970,30 @@ namespace OverflowHelper.core
 
             URL_Add("x-coordinate", "https://www.merriam-webster.com/dictionary/x-coordinate");
 
+            URL_Add("number sequence", "https://en.wikipedia.org/wiki/Integer_sequence");
+
+            URL_Add("reification", "https://stackoverflow.com/questions/31876372/what-is-reification/31876747#31876747");
+
+            URL_Add("o/", "https://en.wiktionary.org/wiki/o/#Translingual");
+
+            URL_Add("Oracle Database 11g Release 2", "https://en.wikipedia.org/wiki/Oracle_Database#Releases_and_versions");
+
+            URL_Add("calculator", "https://en.wikipedia.org/wiki/Calculator");
+
+            URL_Add("three-phase", "https://en.wiktionary.org/wiki/three-phase#Adjective");
+
+            URL_Add("Vincent Keymer", "https://en.wikipedia.org/wiki/Vincent_Keymer");
+
+            URL_Add("curly-bracket programming language", "https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages");
+
+            URL_Add("forward slash", "https://en.wiktionary.org/wiki/forward_slash#Noun");
+
+            URL_Add("openpyxl", "https://openpyxl.readthedocs.io/en/stable/");
+
+            URL_Add("parenthesised", "https://en.wiktionary.org/wiki/parenthesise#Verb");
+
+            URL_Add("sprite", "https://en.wikipedia.org/wiki/Sprite_(computer_graphics)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68747,6 +68812,7 @@ namespace OverflowHelper.core
             correctionAdd("Linguistics_", "Linguistics (Stack Exchange site)_"); // Sort of identity mapping
 
             correctionAdd("Ethereum_", "Ethereum (Stack Exchange site)_");
+            correctionAdd("ethereum.stackexchange.com_", "Ethereum (Stack Exchange site)_");
 
             correctionAdd("CS50_", "CS50 (Stack Exchange site)_");
 
