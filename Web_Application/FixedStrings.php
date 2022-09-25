@@ -87,18 +87,69 @@
                 />
             </p>
 
-            <p>The <u>d</u>egrees symbol
-                (Unicode, e.g. for temperature):
+            <p>e<u>n</u> dash
+                (<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML">ref</a>) -
+                &ndash; (HTML):
 
                 <input
-                    name="Degrees symbol - Unicode"
+                    name="en_dash"
                     type="text"
-                    id="Degrees_Unicode"
-                    class="XYZ34"
-                    value="°"
-                    style="width:30px;"
-                    accesskey="D"
-                    title="Shortcut: Shift + Alt + D"
+                    id="en_dash_HTML"
+                    class="XYZ45"
+                    value="&amp;ndash;"
+                    style="width:60px;"
+                    accesskey="N"
+                    title="Shortcut: Shift + Alt + N"
+                />
+            </p>
+
+            <p><a href="https://en.wiktionary.org/wiki/en_dash#Noun">en dash</a> -
+                &ndash; (Unicode.
+                <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128"
+                >Code point 2013</a>):
+
+                <input
+                    name="en_dash_Unicode"
+                    type="text"
+                    id="en_dash_Unicode"
+                    class="XYZ46"
+                    value="–"
+                    style="width:60px;"
+                    accesskey=""
+                    title=""
+                />
+            </p>
+
+            <p>em dash
+                (<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML">ref</a>) -
+                &mdash; (HTM<u>L</u>):
+
+                <input
+                    name="em_dash"
+                    type="text"
+                    id="em_dash_HTML"
+                    class="XYZ47"
+                    value="&amp;mdash;"
+                    style="width:60px;"
+                    accesskey="L"
+                    title="Shortcut: Shift + Alt + L"
+                />
+            </p>
+
+            <p><a href="https://en.wiktionary.org/wiki/em_dash#Noun">em dash</a> -
+                &mdash; (Unicode.
+                <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128"
+                >Code point 2014</a>):
+
+                <input
+                    name="em_dash_Unicode"
+                    type="text"
+                    id="em_dash_Unicode"
+                    class="XYZ48"
+                    value="—"
+                    style="width:60px;"
+                    accesskey=""
+                    title=""
                 />
             </p>
 
@@ -234,6 +285,21 @@
                 />
             </p>
 
+            <p>The <u>d</u>egrees symbol
+                (Unicode, e.g. for temperature):
+
+                <input
+                    name="Degrees symbol - Unicode"
+                    type="text"
+                    id="Degrees_Unicode"
+                    class="XYZ34"
+                    value="°"
+                    style="width:30px;"
+                    accesskey="D"
+                    title="Shortcut: Shift + Alt + D"
+                />
+            </p>
+
             <p>True single <u>q</u>uote (not the ASCII one):
 
                 <input
@@ -292,7 +358,6 @@
                 />
             </p>
 
-
             <p><a href="https://en.wikipedia.org/wiki/Interpunct">Middle dot</a> -
                 &middot; (Un<u>i</u>code code point 00B7):
 
@@ -305,72 +370,6 @@
                     style="width:60px;"
                     accesskey="I"
                     title="Shortcut: Shift + Alt + I"
-                />
-            </p>
-
-            <p>e<u>n</u> dash
-                (<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML">ref</a>) -
-                &ndash; (HTML):
-
-                <input
-                    name="en_dash"
-                    type="text"
-                    id="en_dash_HTML"
-                    class="XYZ45"
-                    value="&amp;ndash;"
-                    style="width:60px;"
-                    accesskey="N"
-                    title="Shortcut: Shift + Alt + N"
-                />
-            </p>
-
-            <p><a href="https://en.wiktionary.org/wiki/en_dash#Noun">en dash</a> -
-                &ndash; (Unicode.
-                <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128"
-                >Code point 2013</a>):
-
-                <input
-                    name="en_dash_Unicode"
-                    type="text"
-                    id="en_dash_Unicode"
-                    class="XYZ46"
-                    value="–"
-                    style="width:60px;"
-                    accesskey=""
-                    title=""
-                />
-            </p>
-
-            <p>em dash
-                (<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML">ref</a>) -
-                &mdash; (HTM<u>L</u>):
-
-                <input
-                    name="em_dash"
-                    type="text"
-                    id="em_dash_HTML"
-                    class="XYZ47"
-                    value="&amp;mdash;"
-                    style="width:60px;"
-                    accesskey="L"
-                    title="Shortcut: Shift + Alt + L"
-                />
-            </p>
-
-            <p><a href="https://en.wiktionary.org/wiki/em_dash#Noun">em dash</a> -
-                &mdash; (Unicode.
-                <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128"
-                >Code point 2014</a>):
-
-                <input
-                    name="em_dash_Unicode"
-                    type="text"
-                    id="em_dash_Unicode"
-                    class="XYZ48"
-                    value="—"
-                    style="width:60px;"
-                    accesskey=""
-                    title=""
                 />
             </p>
 
