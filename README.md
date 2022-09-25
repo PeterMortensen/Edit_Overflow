@@ -250,7 +250,7 @@ or constructive critisism are welcome.
   [30]: http://hmf-tech.com/EditOverflow/setup.exe
   [31]: https://rog.asus.com/keyboards/keyboards/aura-rgb/rog-claymore-model/spec/
 
-  [40]: http://pmortensen.eu/
+  [40]: https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html
 
   [50]: https://en.wikipedia.org/wiki/AutoIt
   [51]: https://en.wikipedia.org/wiki/PuTTY
