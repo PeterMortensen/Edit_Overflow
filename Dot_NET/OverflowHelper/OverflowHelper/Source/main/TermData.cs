@@ -5575,6 +5575,7 @@ namespace OverflowHelper.core
             correctionAdd("StckOvrflw", "Stack&nbsp;Overflow");
             correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoverlow", "Stack&nbsp;Overflow");
+            correctionAdd("SO dot com", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -6018,6 +6019,9 @@ namespace OverflowHelper.core
             correctionAdd("legit", "legitimate"); // Expansion, not case correction.
             correctionAdd("legimate", "legitimate");
             correctionAdd("legitimite", "legitimate");
+            correctionAdd("legitmant", "legitimate");
+
+            correctionAdd("non legitimate", "nonlegitimate");
 
             correctionAdd("px", "pixels"); // Expansion, not case correction.
 
@@ -6803,6 +6807,33 @@ namespace OverflowHelper.core
             correctionAdd("Software Engineering", "software engineering");
             correctionAdd("softwareengineering", "software engineering");
             correctionAdd("Software engineering", "software engineering");
+
+            correctionAdd("Data Engineering", "data engineering");
+
+            correctionAdd("Reverse Engineering", "reverse engineering");
+            correctionAdd("reverse-engineering", "reverse engineering");
+
+            correctionAdd("QE", "quality engineering");
+
+            correctionAdd("Engineering", "engineering");
+            correctionAdd("engeniring", "engineering");
+            correctionAdd("engeneering", "engineering");
+            correctionAdd("enginerring", "engineering");
+            correctionAdd("Enginnering", "engineering");
+            correctionAdd("enginering", "engineering");
+            correctionAdd("enginnering", "engineering");
+
+            correctionAdd("Mechanical engineering", "mechanical engineering");
+
+            correctionAdd("Aeronautical Engineering", "aeronautical engineering");
+
+            correctionAdd("Chemical Engineering", "chemical engineering");
+
+            correctionAdd("Computer Engineering", "computer engineering");
+
+            correctionAdd("Electrical Engineering", "electrical engineering");
+
+            correctionAdd("NRE", "non-recurring engineering");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -19350,6 +19381,7 @@ namespace OverflowHelper.core
             correctionAdd("babel", "Babel");
             correctionAdd("bable", "Babel");
             correctionAdd("Bable", "Babel");
+            correctionAdd("babel.JS", "Babel");
 
             correctionAdd("bluehost", "Bluehost");
 
@@ -22169,6 +22201,7 @@ namespace OverflowHelper.core
             correctionAdd("ivanchuk", "Vassily Ivanchuk"); // Chess
 
             correctionAdd("Chess", "chess"); // Chess
+            correctionAdd("checss", "chess");
 
             correctionAdd("chess board", "chessboard"); // Chess
 
@@ -25856,6 +25889,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fool proof", "foolproof");
             correctionAdd("fool-proof", "foolproof");
+            correctionAdd("fullproof", "foolproof");
 
             correctionAdd("future proof", "future-proof");
 
@@ -28565,6 +28599,7 @@ namespace OverflowHelper.core
             correctionAdd("Subject Matter Expert", "subject-matter expert");
 
             correctionAdd("sub string", "substring");
+            correctionAdd("subsrting", "substring");
 
             correctionAdd("Water", "water");
 
@@ -33202,8 +33237,6 @@ namespace OverflowHelper.core
 
             correctionAdd("collogically", "colloquially");
 
-            correctionAdd("Data Engineering", "data engineering");
-
             correctionAdd("fullblown", "full-blown");
 
             correctionAdd("full time", "full-time");
@@ -33747,9 +33780,6 @@ namespace OverflowHelper.core
             correctionAdd("intervine", "intervene");
 
             correctionAdd("obleged", "obliged");
-
-            correctionAdd("Reverse Engineering", "reverse engineering");
-            correctionAdd("reverse-engineering", "reverse engineering");
 
             correctionAdd("self signed", "self-signed");
 
@@ -34713,8 +34743,6 @@ namespace OverflowHelper.core
 
             correctionAdd("held in chess", "held in check");
 
-            correctionAdd("QE", "quality engineering");
-
             correctionAdd("RCA", "root cause analysis");
 
             correctionAdd("taxnomy", "taxonomy");
@@ -35268,8 +35296,6 @@ namespace OverflowHelper.core
             correctionAdd("Line", "line");
             correctionAdd("lones", "line");
             correctionAdd("lone", "line");
-
-            correctionAdd("non legitimate", "nonlegitimate");
 
             correctionAdd("other-wordly", "otherworldly");
             correctionAdd("other-worldly", "otherworldly");
@@ -38529,21 +38555,6 @@ namespace OverflowHelper.core
             correctionAdd("priortise", "prioritise");
 
             correctionAdd("winded up", "wound up");
-
-            correctionAdd("Engineering", "engineering");
-            correctionAdd("engeniring", "engineering");
-            correctionAdd("engeneering", "engineering");
-            correctionAdd("enginerring", "engineering");
-
-            correctionAdd("Mechanical engineering", "mechanical engineering");
-
-            correctionAdd("Aeronautical Engineering", "aeronautical engineering");
-
-            correctionAdd("Chemical Engineering", "chemical engineering");
-
-            correctionAdd("Computer Engineering", "computer engineering");
-
-            correctionAdd("Electrical Engineering", "electrical engineering");
 
             correctionAdd("drupal", "Drupal");
             correctionAdd("DRUPAL", "Drupal");
@@ -42116,8 +42127,6 @@ namespace OverflowHelper.core
 
             correctionAdd("neihborhood", "neighborhood");
 
-            correctionAdd("NRE", "non-recurring engineering");
-
             correctionAdd("potentioal", "potential");
 
             correctionAdd("quartz", "quartz crystal");
@@ -43285,6 +43294,32 @@ namespace OverflowHelper.core
             correctionAdd("Parenthesed", "parenthesised");
 
             correctionAdd("Sprite", "sprite");
+
+            correctionAdd("allrounder", "all-rounder");
+            correctionAdd("all rounder", "all-rounder");
+
+            correctionAdd("ole", "OLE");
+
+            correctionAdd("replaceAll()", "replaceAll");
+
+            correctionAdd("trust-able", "trustable");
+
+            correctionAdd("Amforth", "AmForth");
+
+            correctionAdd("B.Tech", "BTech");
+
+            correctionAdd("combobox", "combo box");
+            correctionAdd("CB", "combo box");
+
+            correctionAdd("drop-down list box", "drop-down list");
+            correctionAdd("DDLB", "drop-down list");
+
+            correctionAdd("Gorby", "Mikhail Gorbachev");
+            correctionAdd("Gorbatjev", "Mikhail Gorbachev");
+
+            correctionAdd("system.out.println", "System.out.println");
+
+            correctionAdd("Transmac", "TransMac");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67994,6 +68029,28 @@ namespace OverflowHelper.core
 
             URL_Add("sprite", "https://en.wikipedia.org/wiki/Sprite_(computer_graphics)");
 
+            URL_Add("all-rounder", "https://en.wiktionary.org/wiki/all-rounder#Noun");
+
+            URL_Add("OLE", "https://en.wikipedia.org/wiki/OLE_Automation");
+
+            URL_Add("replaceAll", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll");
+
+            URL_Add("trustable", "https://en.wiktionary.org/wiki/trustable#Adjective");
+
+            URL_Add("AmForth", "http://amforth.sourceforge.net/");
+
+            URL_Add("BTech", "https://en.wikipedia.org/wiki/National_Institutes_of_Technology_(India)#Undergraduate_education");
+
+            URL_Add("combo box", "https://en.wikipedia.org/wiki/Combo_box");
+
+            URL_Add("drop-down list", "https://en.wikipedia.org/wiki/Drop-down_list");
+
+            URL_Add("Mikhail Gorbachev", "https://en.wikipedia.org/wiki/Mikhail_Gorbachev");
+
+            URL_Add("System.out.println", "https://docs.oracle.com/javase/7/docs/api/java/lang/System.html#out");
+
+            URL_Add("TransMac", "https://en.wikipedia.org/wiki/Apple_Disk_Image#Utilities");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69015,6 +69072,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Western_", "western_");
 
+            correctionAdd("join()_", "join_");
+
+            correctionAdd("replace()_", "replace_");
+
             // URL mappings
             //
             //
@@ -69639,6 +69700,10 @@ namespace OverflowHelper.core
             URL_Add("VB.NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/vb.net");
 
             URL_Add("VBA (tag wiki)_", "https://stackoverflow.com/questions/tagged/vba");
+
+            URL_Add("join_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join");
+
+            URL_Add("replace_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace");
 
         } //addLookupData_alternativeWordSet()
 
