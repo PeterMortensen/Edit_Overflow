@@ -144,6 +144,34 @@
                 />
             </p>
 
+            <p>Italics (HTML. Shortcut: <u>z</u>):
+
+                <input
+                    name="Italics - HTML"
+                    type="text"
+                    id="Italics_HTML"
+                    class="XYZ50"
+                    value="<em></em>"
+                    style="width:80px;"
+                    accesskey="Z"
+                    title="Shortcut: Shift + Alt + Z"
+                />
+            </p>
+
+            <p>Bold (HTML stron<u>g</u>):
+
+                <input
+                    name="Bold - HTML"
+                    type="text"
+                    id="Bold_HTML"
+                    class="XYZ51"
+                    value="<strong></strong>"
+                    style="width:130px;"
+                    accesskey="G"
+                    title="Shortcut: Shift + Alt + G"
+                />
+            </p>
+
             <p><u>A</u>rrow (Unicode):
 
                 <input
