@@ -3329,6 +3329,7 @@ namespace OverflowHelper.core
             correctionAdd("bash_rc", ".bashrc file");
             correctionAdd(".bash_rc", ".bashrc file");
             correctionAdd(".bachrc", ".bashrc file");
+            correctionAdd(".bashrcs", ".bashrc file");
 
             correctionAdd(".profile", ".profile file");
 
@@ -4278,6 +4279,9 @@ namespace OverflowHelper.core
             correctionAdd("Jupyter notebooks", "Jupyter Notebook");
             correctionAdd("jupyer notebook", "Jupyter Notebook");
             correctionAdd("jupyter notebooks", "Jupyter Notebook");
+            correctionAdd("Jupiter notebook", "Jupyter Notebook");
+            correctionAdd("Jypiter notebook", "Jupyter Notebook");
+            correctionAdd("jupiter notebook", "Jupyter Notebook");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -4995,6 +4999,7 @@ namespace OverflowHelper.core
             correctionAdd("GH", "GitHub");
             correctionAdd("GIthub", "GitHub");
             correctionAdd("Git Hub", "GitHub");
+            correctionAdd("GitHib", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -11699,6 +11704,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
             correctionAdd("sudio", "Visual&nbsp;Studio");
             correctionAdd("Visaul Studio", "Visual&nbsp;Studio");
+            correctionAdd("VS_Code", "Visual&nbsp;Studio");
 
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -14116,6 +14122,7 @@ namespace OverflowHelper.core
             correctionAdd("shouold", "should");
             correctionAdd("Shoult", "should");
             correctionAdd("shoult", "should");
+            correctionAdd("shpuld", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -14908,6 +14915,7 @@ namespace OverflowHelper.core
             correctionAdd("open jdk", "OpenJDK");
             correctionAdd("OpenJDk", "OpenJDK");
             correctionAdd("OpenJdk", "OpenJDK");
+            correctionAdd("Open Jdk", "OpenJDK");
 
             correctionAdd("instanciate", "instantiate");
             correctionAdd("inatantiate", "instantiate");
@@ -15159,6 +15167,7 @@ namespace OverflowHelper.core
             correctionAdd("commuicate", "communicate");
             correctionAdd("communikcate", "communicate");
             correctionAdd("communucate", "communicate");
+            correctionAdd("comminicate", "communicate");
 
             correctionAdd("consistant", "consistent");
 
@@ -15342,6 +15351,7 @@ namespace OverflowHelper.core
             correctionAdd("Py2", "Python&nbsp;2");
             correctionAdd("python v2", "Python&nbsp;2");
             correctionAdd("python-2", "Python&nbsp;2");
+            correctionAdd("py 2", "Python&nbsp;2");
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
@@ -16970,6 +16980,7 @@ namespace OverflowHelper.core
             correctionAdd("latin1", "ISO&nbsp;8859-1");
             correctionAdd("Latin 1", "ISO&nbsp;8859-1");
             correctionAdd("8681", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859-2", "ISO&nbsp;8859-1");
 
             correctionAdd("lxc", "LXC");
 
@@ -21576,6 +21587,7 @@ namespace OverflowHelper.core
             correctionAdd("its'", "it’s");
             correctionAdd("ita", "it’s"); // True typo
             correctionAdd("it,s", "it’s");
+            correctionAdd("it'ss", "it’s");
 
             correctionAdd("plagarise", "plagiarise");
             correctionAdd("plagirise", "plagiarise");
@@ -21615,6 +21627,7 @@ namespace OverflowHelper.core
             correctionAdd("Observer Pattern", "observer pattern");
 
             correctionAdd("Facade pattern", "facade pattern");
+            correctionAdd("facade", "facade pattern");
 
             correctionAdd("strategi pattern", "strategy pattern");
 
@@ -22494,6 +22507,17 @@ namespace OverflowHelper.core
             correctionAdd("polution", "pollution");
 
             correctionAdd("foot print", "footprint");
+
+            correctionAdd("pint", "print");
+            correctionAdd("prrint", "print");
+
+            correctionAdd("blue-print", "blueprint");
+
+            correctionAdd("missprint", "misprint");
+
+            correctionAdd("sprint", "Scrum sprint");
+
+            correctionAdd("thumbprint", "fingerprint");
 
             correctionAdd("generalizing", "generalising");
             correctionAdd("Generalising", "generalising");
@@ -24347,8 +24371,6 @@ namespace OverflowHelper.core
             correctionAdd("command palette", "Command Palette");
 
             correctionAdd("incomprehensability", "incomprehensibility");
-
-            correctionAdd("pint", "print");
 
             correctionAdd("traslate", "translate");
             correctionAdd("transalte", "translate");
@@ -26426,6 +26448,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows 1250", "Windows-1250");
             correctionAdd("CP-1250", "Windows-1250");
             correctionAdd("1250", "Windows-1250");
+            correctionAdd("cp1250", "Windows-1250");
 
             correctionAdd("ICONV", "iconv");
 
@@ -30365,11 +30388,13 @@ namespace OverflowHelper.core
             correctionAdd("Some body", "somebody");
             correctionAdd("some body", "somebody");
             correctionAdd("Somebody", "somebody");
+            correctionAdd("sbd", "somebody");
 
             correctionAdd("un-asked", "unasked");
 
             correctionAdd("Pro Mini", "Arduino Pro Mini");
             correctionAdd("ProMini", "Arduino Pro Mini");
+            correctionAdd("pro mini", "Arduino Pro Mini");
 
             correctionAdd("disqus", "Disqus");
 
@@ -30384,8 +30409,6 @@ namespace OverflowHelper.core
             correctionAdd("Pi Pico", "Raspberry Pi Pico");
             correctionAdd("pi pico", "Raspberry Pi Pico");
             correctionAdd("raspberry pi pico", "Raspberry Pi Pico");
-
-            correctionAdd("blue-print", "blueprint");
 
             correctionAdd("survery", "survey");
 
@@ -36906,8 +36929,6 @@ namespace OverflowHelper.core
 
             correctionAdd("drumroll", "drum roll");
 
-            correctionAdd("missprint", "misprint");
-
             correctionAdd("re-activate", "reactivate");
 
             correctionAdd("caucious", "cautious");
@@ -38054,6 +38075,8 @@ namespace OverflowHelper.core
             correctionAdd("attemted", "attempted");
 
             correctionAdd("cross posting", "crossposting");
+            correctionAdd("Cross posting", "crossposting");
+            correctionAdd("Crossposting", "crossposting");
 
             correctionAdd("Homonym", "homonym");
 
@@ -38761,6 +38784,8 @@ namespace OverflowHelper.core
             correctionAdd("cavat", "caveat");
             correctionAdd("Caveate", "caveat");
             correctionAdd("caveate", "caveat");
+            correctionAdd("caevet", "caveat");
+            correctionAdd("caveet", "caveat");
 
             correctionAdd("chacker", "checker");
 
@@ -42966,8 +42991,6 @@ namespace OverflowHelper.core
             correctionAdd("num lock", "Num Lock");
             correctionAdd("Numeric Lock", "Num Lock");
 
-            correctionAdd("sprint", "Scrum sprint");
-
             correctionAdd("Stencil JS", "Stencil");
             correctionAdd("stencil js", "Stencil");
             correctionAdd("Stencil.js", "Stencil");
@@ -43061,8 +43084,6 @@ namespace OverflowHelper.core
             correctionAdd("uggly", "ugly");
 
             correctionAdd("Bruh", "bruh");
-
-            correctionAdd("thumbprint", "fingerprint");
 
             correctionAdd("focussing", "focusing");
             correctionAdd("focusin", "focusing");
@@ -43320,6 +43341,35 @@ namespace OverflowHelper.core
             correctionAdd("system.out.println", "System.out.println");
 
             correctionAdd("Transmac", "TransMac");
+
+            correctionAdd("pain killer", "painkiller");
+
+            correctionAdd("Pickle", "pickle");
+
+            correctionAdd("PyGtk", "PyGTK");
+
+            correctionAdd("PyYaml", "PyYAML");
+
+            correctionAdd("re-traverse", "retraverse");
+
+            correctionAdd("typesafe", "type-safe");
+
+            correctionAdd("extensionality", "axiom of extensionality");
+
+            correctionAdd("Axiom of Infinity", "axiom of infinity");
+
+            correctionAdd("pairs", "axiom of pairing");
+
+            correctionAdd("powers", "axiom of power set");
+
+            correctionAdd("union", "axiom of union");
+            correctionAdd("unions", "axiom of union");
+
+            correctionAdd("IDA", "Interactive Disassembler");
+
+            correctionAdd("metal performance shaders", "Metal Performance Shaders");
+
+            correctionAdd("subleties", "subtleties");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68051,6 +68101,34 @@ namespace OverflowHelper.core
 
             URL_Add("TransMac", "https://en.wikipedia.org/wiki/Apple_Disk_Image#Utilities");
 
+            URL_Add("painkiller", "https://en.wiktionary.org/wiki/painkiller#Noun");
+
+            URL_Add("pickle", "https://docs.python.org/3/library/pickle.html");
+
+            URL_Add("PyGTK", "https://en.wikipedia.org/wiki/PyGTK");
+
+            URL_Add("PyYAML", "https://pyyaml.org/wiki/PyYAML");
+
+            URL_Add("retraverse", "https://en.wiktionary.org/wiki/retraverse#Verb");
+
+            URL_Add("type-safe", "https://en.wiktionary.org/wiki/type-safe#Adjective");
+
+            URL_Add("axiom of extensionality", "https://en.wikipedia.org/wiki/Axiom_of_extensionality");
+
+            URL_Add("axiom of infinity", "https://en.wikipedia.org/wiki/Axiom_of_infinity");
+
+            URL_Add("axiom of pairing", "https://en.wikipedia.org/wiki/Axiom_of_pairing");
+
+            URL_Add("axiom of power set", "https://en.wikipedia.org/wiki/Axiom_of_power_set#Consequences");
+
+            URL_Add("axiom of union", "https://en.wikipedia.org/wiki/Axiom_of_union");
+
+            URL_Add("Interactive Disassembler", "https://en.wikipedia.org/wiki/Interactive_Disassembler");
+
+            URL_Add("Metal Performance Shaders", "https://en.wikipedia.org/wiki/Metal_(API)#Metal_Performance_Shaders");
+
+            URL_Add("subtleties", "https://en.wiktionary.org/wiki/subtlety#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69076,6 +69154,11 @@ namespace OverflowHelper.core
 
             correctionAdd("replace()_", "replace_");
 
+            correctionAdd("specification_", "axiom schema of specification_");
+
+            correctionAdd("ZFC_", "Zermelo–Fraenkel axioms_");
+            correctionAdd("ZF_", "Zermelo–Fraenkel axioms_");
+
             // URL mappings
             //
             //
@@ -69704,6 +69787,10 @@ namespace OverflowHelper.core
             URL_Add("join_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join");
 
             URL_Add("replace_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace");
+
+            URL_Add("axiom schema of specification_", "https://en.wikipedia.org/wiki/Axiom_schema_of_specification");
+
+            URL_Add("Zermelo–Fraenkel axioms_", "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory");
 
         } //addLookupData_alternativeWordSet()
 
