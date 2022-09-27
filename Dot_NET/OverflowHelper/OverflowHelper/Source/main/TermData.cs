@@ -5078,6 +5078,7 @@ namespace OverflowHelper.core
             correctionAdd("chorm", "Google Chrome");
             correctionAdd("chrom", "Google Chrome");
             correctionAdd("Ch", "Google Chrome");
+            correctionAdd("Chome", "Google Chrome");
 
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
@@ -8084,6 +8085,7 @@ namespace OverflowHelper.core
             correctionAdd("youe", "your");
             correctionAdd("yyour", "your");
             correctionAdd("yiur", "your");
+            correctionAdd("yoir", "your");
 
             correctionAdd("behavoir", "behaviour");
             correctionAdd("behavior", "behaviour");
@@ -16333,6 +16335,7 @@ namespace OverflowHelper.core
             correctionAdd("material design", "Material Design");
             correctionAdd("Material design", "Material Design");
             correctionAdd("Meterial Design", "Material Design");
+            correctionAdd("material", "Material Design");
 
             correctionAdd("XD", "experience design");
 
@@ -31621,6 +31624,7 @@ namespace OverflowHelper.core
             correctionAdd("azimut", "azimuth");
 
             correctionAdd("racecondition", "race condition");
+            correctionAdd("racing condition", "race condition");
 
             correctionAdd("conditon", "condition");
             correctionAdd("coniditon", "condition");
@@ -43370,6 +43374,32 @@ namespace OverflowHelper.core
             correctionAdd("metal performance shaders", "Metal Performance Shaders");
 
             correctionAdd("subleties", "subtleties");
+
+            correctionAdd("9-patch", "9-patch file");
+            correctionAdd("9 patch image", "9-patch file");
+            correctionAdd("NinePatch", "9-patch file");
+            correctionAdd("NinePatch image", "9-patch file");
+
+            correctionAdd("achived", "achieved");
+
+            correctionAdd("mudball", "big ball of mud");
+
+            correctionAdd("dumbed-down", "dumbed down");
+
+            correctionAdd("higher order function", "higher-order function");
+
+            correctionAdd("MLA", "MLA Handbook");
+
+            correctionAdd("passed-on", "passed on");
+
+            correctionAdd("two problems", "Regular expressions: now you have two problems");
+
+            correctionAdd("one size fits all", "one-size-fits-all");
+
+            correctionAdd("Actian Zen", "Pervasive PSQL");
+            correctionAdd("pervasive", "Pervasive PSQL");
+
+            correctionAdd("resource adapters", "RA");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68129,6 +68159,28 @@ namespace OverflowHelper.core
 
             URL_Add("subtleties", "https://en.wiktionary.org/wiki/subtlety#Noun");
 
+            URL_Add("9-patch file", "https://developer.android.com/studio/write/draw9patch");
+
+            URL_Add("achieved", "https://en.wiktionary.org/wiki/achieve#Verb");
+
+            URL_Add("big ball of mud", "https://en.wikipedia.org/wiki/Big_ball_of_mud");
+
+            URL_Add("dumbed down", "https://en.wiktionary.org/wiki/dumb_down#Verb");
+
+            URL_Add("higher-order function", "https://en.wikipedia.org/wiki/Higher-order_function");
+
+            URL_Add("MLA Handbook", "https://en.wikipedia.org/wiki/MLA_Handbook");
+
+            URL_Add("passed on", "https://en.wiktionary.org/wiki/pass_on#Verb");
+
+            URL_Add("Regular expressions: now you have two problems", "https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/");
+
+            URL_Add("one-size-fits-all", "https://en.wiktionary.org/wiki/one-size-fits-all#Adjective");
+
+            URL_Add("Pervasive PSQL", "https://en.wikipedia.org/wiki/Pervasive_PSQL");
+
+            URL_Add("RA", "https://docs.oracle.com/cd/E13222_01/wls/docs92/resadapter/understanding.html");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68635,6 +68687,7 @@ namespace OverflowHelper.core
             correctionAdd("Chicago manual of style_", "The Chicago Manual of Style_");
             correctionAdd("CMS_", "The Chicago Manual of Style_");
             correctionAdd("chicago manual of style_", "The Chicago Manual of Style_");
+            correctionAdd("Chicago_", "The Chicago Manual of Style_");
 
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
@@ -69158,6 +69211,12 @@ namespace OverflowHelper.core
 
             correctionAdd("ZFC_", "Zermelo–Fraenkel axioms_");
             correctionAdd("ZF_", "Zermelo–Fraenkel axioms_");
+
+            correctionAdd("J2EE Connector Architecture_", "Jakarta Connectors_");
+            correctionAdd("JCA_", "Jakarta Connectors_");
+            correctionAdd("Jakarta Connector Architecture_", "Jakarta Connectors_");
+            correctionAdd("Java EE Connector Architecture_", "Jakarta Connectors_");
+            correctionAdd("connector_", "Jakarta Connectors_");
 
             // URL mappings
             //
@@ -69791,6 +69850,8 @@ namespace OverflowHelper.core
             URL_Add("axiom schema of specification_", "https://en.wikipedia.org/wiki/Axiom_schema_of_specification");
 
             URL_Add("Zermelo–Fraenkel axioms_", "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory");
+
+            URL_Add("Jakarta Connectors_", "https://en.wikipedia.org/wiki/Jakarta_Connectors");
 
         } //addLookupData_alternativeWordSet()
 
