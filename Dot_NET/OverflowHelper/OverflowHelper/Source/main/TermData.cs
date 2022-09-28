@@ -13553,6 +13553,8 @@ namespace OverflowHelper.core
             correctionAdd("Up vote", "upvote");
             correctionAdd("upmod", "upvote");
             correctionAdd("upovote", "upvote");
+            correctionAdd("Upvite", "upvote");
+            correctionAdd("upvite", "upvote");
 
             correctionAdd("down-vote", "downvote");
             correctionAdd("dv", "downvote");
@@ -15258,6 +15260,8 @@ namespace OverflowHelper.core
             correctionAdd("recomended", "recommended");
             correctionAdd("recommmended", "recommended");
             correctionAdd("reccomended", "recommended");
+            correctionAdd("Recommented", "recommended");
+            correctionAdd("recommented", "recommended");
 
             correctionAdd("seperator", "separator");
             correctionAdd("seprator", "separator");
@@ -19132,7 +19136,7 @@ namespace OverflowHelper.core
             correctionAdd("MATERIAL-UI", "MUI");
             correctionAdd("React Material-UI", "MUI");
             correctionAdd("material-ui", "MUI");
-            correctionAdd("Material UI", "MUI");
+            correctionAdd("Material UI", "MUI"); // The original name
             correctionAdd("Material ui", "MUI");
             correctionAdd("Material Ui", "MUI");
             correctionAdd("Material-UI", "MUI");
@@ -20502,6 +20506,7 @@ namespace OverflowHelper.core
 
             correctionAdd("situtation", "situation");
             correctionAdd("Situation", "situation");
+            correctionAdd("situatiuon", "situation");
 
             correctionAdd("SCM", "source control management");
             correctionAdd("scm", "source control management");
@@ -25171,6 +25176,7 @@ namespace OverflowHelper.core
             correctionAdd("strucure", "structure");
             correctionAdd("struture", "structure");
             correctionAdd("structur", "structure");
+            correctionAdd("structurate", "structure");
 
             correctionAdd("AWS amplify", "AWS Amplify");
             correctionAdd("aws-amplify", "AWS Amplify");
@@ -32590,6 +32596,7 @@ namespace OverflowHelper.core
 
             correctionAdd("addedd", "added");
             correctionAdd("aded", "added");
+            correctionAdd("adeded", "added");
 
             correctionAdd("Axiom", "axiom");
 
@@ -37238,8 +37245,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cooldown", "cool down");
 
-            correctionAdd("she's", "her");
-
             correctionAdd("Hydrochloric acid", "hydrochloric acid");
 
             correctionAdd("non-overridable", "nonoverridable");
@@ -40568,6 +40573,8 @@ namespace OverflowHelper.core
             correctionAdd("Heare", "here");
             correctionAdd("heare", "here");
 
+            correctionAdd("she's", "her");
+
             correctionAdd("takeoff/go-around", "TO/GA");
             correctionAdd("toga", "TO/GA");
             correctionAdd("TOGA", "TO/GA");
@@ -40830,6 +40837,7 @@ namespace OverflowHelper.core
 
             correctionAdd("low quality answers", "Low quality answers review queue");
             correctionAdd("Low quality posts", "Low quality answers review queue");
+            correctionAdd("low quality answers queue", "Low quality answers review queue");
 
             correctionAdd("unity", "Unity");
 
@@ -43400,6 +43408,21 @@ namespace OverflowHelper.core
             correctionAdd("pervasive", "Pervasive PSQL");
 
             correctionAdd("resource adapters", "RA");
+
+            correctionAdd("DART", "DART (satellite)");
+
+            correctionAdd("dose", "does");
+
+            correctionAdd("ICT", "information and communications technology");
+
+            correctionAdd("obtai", "obtain");
+
+            correctionAdd("realtime", "real-time");
+            correctionAdd("real time", "real-time");
+
+            correctionAdd("surounds", "surrounds");
+
+            correctionAdd("Sysctl", "sysctl");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68181,6 +68204,20 @@ namespace OverflowHelper.core
 
             URL_Add("RA", "https://docs.oracle.com/cd/E13222_01/wls/docs92/resadapter/understanding.html");
 
+            URL_Add("DART (satellite)", "https://en.wikipedia.org/wiki/DART_(satellite)");
+
+            URL_Add("does", "https://en.wiktionary.org/wiki/does#Verb");
+
+            URL_Add("information and communications technology", "https://en.wikipedia.org/wiki/Information_and_communications_technology");
+
+            URL_Add("obtain", "https://en.wiktionary.org/wiki/obtain#Verb");
+
+            URL_Add("real-time", "https://en.wiktionary.org/wiki/real-time#Adjective");
+
+            URL_Add("surrounds", "https://en.wiktionary.org/wiki/surround#Verb");
+
+            URL_Add("sysctl", "https://en.wikipedia.org/wiki/Sysctl");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69217,6 +69254,21 @@ namespace OverflowHelper.core
             correctionAdd("Jakarta Connector Architecture_", "Jakarta Connectors_");
             correctionAdd("Java EE Connector Architecture_", "Jakarta Connectors_");
             correctionAdd("connector_", "Jakarta Connectors_");
+            correctionAdd("java connector architecture_", "Jakarta Connectors_");
+            correctionAdd("jca_", "Jakarta Connectors_");
+
+            correctionAdd("coursier_", "Coursier_");
+            correctionAdd("cs_", "Coursier_");
+
+            correctionAdd("sometime_", "some time_");
+
+            correctionAdd("T2_", "type 2 driver_");
+
+            correctionAdd("T4_", "type 4 driver_");
+
+            correctionAdd("PSQL_", "Pervasive PSQL_");
+            correctionAdd("Actian Zen_", "Pervasive PSQL_");
+            correctionAdd("pervasive_", "Pervasive PSQL_");
 
             // URL mappings
             //
@@ -69852,6 +69904,16 @@ namespace OverflowHelper.core
             URL_Add("Zermelo–Fraenkel axioms_", "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory");
 
             URL_Add("Jakarta Connectors_", "https://en.wikipedia.org/wiki/Jakarta_Connectors");
+
+            URL_Add("Coursier_", "https://docs.scala-lang.org/getting-started/index.html");
+
+            URL_Add("some time_", "https://en.wiktionary.org/wiki/some_time#Noun");
+
+            URL_Add("type 2 driver_", "https://en.wikipedia.org/wiki/JDBC_driver#Type_2_driver_%E2%80%93_Native-API_driver");
+
+            URL_Add("type 4 driver_", "https://en.wikipedia.org/wiki/JDBC_driver#Type_4_driver_%E2%80%93_Database-Protocol_driver/Thin_Driver(Pure_Java_driver)");
+
+            URL_Add("Pervasive PSQL_", "https://en.wikipedia.org/wiki/Pervasive_PSQL");
 
         } //addLookupData_alternativeWordSet()
 
