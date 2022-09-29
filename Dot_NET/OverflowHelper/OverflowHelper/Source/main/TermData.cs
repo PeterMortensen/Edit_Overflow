@@ -1139,6 +1139,8 @@ namespace OverflowHelper.core
             correctionAdd("postgresSQL", "PostgreSQL");
             correctionAdd("progresSQL", "PostgreSQL");
 
+            correctionAdd("PSQL", "psql");
+
             correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
             correctionAdd("MSSQL", "SQL&nbsp;Server");
             correctionAdd("sqlserver", "SQL&nbsp;Server");
@@ -2580,6 +2582,7 @@ namespace OverflowHelper.core
             correctionAdd("backlash", "backslash");
             correctionAdd("baskslash", "backslash");
             correctionAdd("back-slash", "backslash");
+            correctionAdd("backward slash", "backslash");
 
             correctionAdd("emdash", "em dash");
             correctionAdd("em-dash", "em dash");
@@ -7972,6 +7975,7 @@ namespace OverflowHelper.core
             correctionAdd("M$", "Microsoft");
             correctionAdd("miscrosoft", "Microsoft");
             correctionAdd("m$", "Microsoft");
+            correctionAdd("MICROSOFT", "Microsoft");
 
             correctionAdd("area51", "Area&nbsp;51");
             correctionAdd("Area 51", "Area&nbsp;51");
@@ -12807,6 +12811,8 @@ namespace OverflowHelper.core
             correctionAdd("5 coins", "two cents");
             correctionAdd("2¢", "two cents");
             correctionAdd("3 cents", "two cents");
+            correctionAdd("2 cts", "two cents");
+            correctionAdd("2cts", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -14843,6 +14849,10 @@ namespace OverflowHelper.core
             correctionAdd("preffered", "preferred");
             correctionAdd("preferrred", "preferred");
 
+            correctionAdd("refered", "referred");
+            correctionAdd("reffered", "referred");
+            correctionAdd("refereed", "referred");
+
             correctionAdd("disapointed", "disappointed");
             correctionAdd("dissapointed", "disappointed");
 
@@ -15037,9 +15047,6 @@ namespace OverflowHelper.core
             correctionAdd("mockito", "Mockito");
             correctionAdd("Powermockito", "Mockito");
             correctionAdd("PowerMockito", "Mockito");
-
-            correctionAdd("refered", "referred");
-            correctionAdd("reffered", "referred");
 
             correctionAdd("up to date", "up-to-date");
             correctionAdd("up2date", "up-to-date");
@@ -19523,6 +19530,7 @@ namespace OverflowHelper.core
             correctionAdd("reate", "create");
             correctionAdd("Crate", "create");
             correctionAdd("credate", "create");
+            correctionAdd("creats", "create");
 
             correctionAdd("down voting", "downvoting");
             correctionAdd("down-voting", "downvoting");
@@ -19717,8 +19725,6 @@ namespace OverflowHelper.core
             correctionAdd("ps1", "PS1");
 
             correctionAdd("SMBUS", "SMBus");
-
-            correctionAdd("PSQL", "psql");
 
             correctionAdd("resignment", "resignation");
 
@@ -22480,6 +22486,7 @@ namespace OverflowHelper.core
             correctionAdd("starliner", "Starliner");
 
             correctionAdd("fairytale", "fairy tale");
+            correctionAdd("fairy tail", "fairy tale");
 
             correctionAdd("houston", "Houston");
 
@@ -25869,6 +25876,7 @@ namespace OverflowHelper.core
 
             correctionAdd("upto", "up to");
             correctionAdd("u pto", "up to");
+            correctionAdd("up-to", "up to");
 
             correctionAdd("hsts", "HSTS");
 
@@ -26750,6 +26758,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Cherry Black", "Cherry MX Black");
             correctionAdd("mx black", "Cherry MX Black");
+            correctionAdd("MX Black", "Cherry MX Black");
 
             correctionAdd("occam's razor", "Occam's razor");
             correctionAdd("Occams Razor", "Occam's razor");
@@ -31759,6 +31768,7 @@ namespace OverflowHelper.core
             correctionAdd("font awesome", "Font Awesome");
             correctionAdd("FontAwesome", "Font Awesome");
             correctionAdd("fontawsome", "Font Awesome");
+            correctionAdd("font-awesome", "Font Awesome");
 
             correctionAdd("ansynchronous", "asynchronous");
             correctionAdd("asynch", "asynchronous");
@@ -34136,6 +34146,7 @@ namespace OverflowHelper.core
             correctionAdd("MIME Type", "MIME type");
             correctionAdd("mimetype", "MIME type");
             correctionAdd("mime-type", "MIME type");
+            correctionAdd("MIME-type", "MIME type");
 
             correctionAdd("interferred", "interfered");
 
@@ -43404,9 +43415,6 @@ namespace OverflowHelper.core
 
             correctionAdd("one size fits all", "one-size-fits-all");
 
-            correctionAdd("Actian Zen", "Pervasive PSQL");
-            correctionAdd("pervasive", "Pervasive PSQL");
-
             correctionAdd("resource adapters", "RA");
 
             correctionAdd("DART", "DART (satellite)");
@@ -43423,6 +43431,18 @@ namespace OverflowHelper.core
             correctionAdd("surounds", "surrounds");
 
             correctionAdd("Sysctl", "sysctl");
+
+            correctionAdd("anciety", "anxiety");
+
+            correctionAdd("switcable", "switchable");
+
+            correctionAdd("Azure B2C", "Azure Active Directory B2C");
+
+            correctionAdd("brotli", "Brotli");
+
+            correctionAdd("select2", "Select2");
+
+            correctionAdd("dall-e", "DALL-E");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68200,8 +68220,6 @@ namespace OverflowHelper.core
 
             URL_Add("one-size-fits-all", "https://en.wiktionary.org/wiki/one-size-fits-all#Adjective");
 
-            URL_Add("Pervasive PSQL", "https://en.wikipedia.org/wiki/Pervasive_PSQL");
-
             URL_Add("RA", "https://docs.oracle.com/cd/E13222_01/wls/docs92/resadapter/understanding.html");
 
             URL_Add("DART (satellite)", "https://en.wikipedia.org/wiki/DART_(satellite)");
@@ -68217,6 +68235,18 @@ namespace OverflowHelper.core
             URL_Add("surrounds", "https://en.wiktionary.org/wiki/surround#Verb");
 
             URL_Add("sysctl", "https://en.wikipedia.org/wiki/Sysctl");
+
+            URL_Add("anxiety", "https://en.wiktionary.org/wiki/anxiety#Noun");
+
+            URL_Add("switchable", "https://en.wiktionary.org/wiki/switchable#Adjective");
+
+            URL_Add("Azure Active Directory B2C", "https://en.wikipedia.org/wiki/Microsoft_Azure#Identity");
+
+            URL_Add("Brotli", "https://en.wikipedia.org/wiki/Brotli");
+
+            URL_Add("Select2", "https://select2.org/");
+
+            URL_Add("DALL-E", "https://en.wikipedia.org/wiki/DALL-E");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -68767,6 +68797,8 @@ namespace OverflowHelper.core
             correctionAdd("otpion_", "option_");
             correctionAdd("oprion_", "option_");
 
+            // UltraEdit is in the alternative word set due to
+            // a conflict with "UE" (for "Unreal Engine").
             correctionAdd("Ultraedit_", "UltraEdit_");
             correctionAdd("ultraedit_", "UltraEdit_");
             correctionAdd("ultra edit_", "UltraEdit_");
