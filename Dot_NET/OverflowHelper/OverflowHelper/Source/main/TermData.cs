@@ -7123,6 +7123,10 @@ namespace OverflowHelper.core
             correctionAdd("WindowsXP", "Windows&nbsp;XP");
             correctionAdd("winxp", "Windows&nbsp;XP");
 
+            correctionAdd("XP SP2", "Windows&nbsp;XP SP2");
+            correctionAdd("Windows XP SP2", "Windows&nbsp;XP SP2"); // Sort of identity mapping
+            correctionAdd("SP2", "Windows&nbsp;XP SP2");
+
             correctionAdd("Vista", "Windows&nbsp;Vista");
             correctionAdd("vista", "Windows&nbsp;Vista");
             correctionAdd("Windows Vista", "Windows&nbsp;Vista");
@@ -13364,6 +13368,7 @@ namespace OverflowHelper.core
             correctionAdd("ISN'T", "isn’t");
             correctionAdd("Isn't", "isn’t");
             correctionAdd("Isn’t", "isn’t");
+            correctionAdd("izn't", "isn’t");
 
             correctionAdd("Ironruby", "IronRuby");
             correctionAdd("ironRuby", "IronRuby");
@@ -14133,6 +14138,7 @@ namespace OverflowHelper.core
             correctionAdd("Shoult", "should");
             correctionAdd("shoult", "should");
             correctionAdd("shpuld", "should");
+            correctionAdd("sholud", "should");
 
             correctionAdd("Shoudn't", "shouldn't");
             correctionAdd("shoudn't", "shouldn't");
@@ -14667,6 +14673,14 @@ namespace OverflowHelper.core
             correctionAdd("utils", "utilities");
             correctionAdd("utilties", "utilities");
             correctionAdd("utilies", "utilities");
+
+            correctionAdd("util", "utility");
+            correctionAdd("Utility", "utility");
+
+            correctionAdd("utilizing", "utilising");
+            correctionAdd("utilozkng", "utilising");
+
+            correctionAdd("utilize", "utilise");
 
             correctionAdd("wouldnt", "wouldn’t");
             correctionAdd("wouldn't", "wouldn’t");
@@ -16739,6 +16753,9 @@ namespace OverflowHelper.core
 
             correctionAdd("asc", "ascending");
             correctionAdd("ASC", "ascending");
+            correctionAdd("Ascending", "ascending");
+            correctionAdd("Asending", "ascending");
+            correctionAdd("asending", "ascending");
 
             correctionAdd("genereated", "generated");
             correctionAdd("genetated", "generated");
@@ -30468,9 +30485,6 @@ namespace OverflowHelper.core
 
             correctionAdd("disk utility", "Disk Utility");
 
-            correctionAdd("util", "utility");
-            correctionAdd("Utility", "utility");
-
             correctionAdd("Anova", "ANOVA");
             correctionAdd("analysis of variance", "ANOVA");
 
@@ -36670,6 +36684,7 @@ namespace OverflowHelper.core
             correctionAdd("blue origin", "Blue Origin");
 
             correctionAdd("ChromeBook", "Chromebook");
+            correctionAdd("chromebook", "Chromebook");
 
             correctionAdd("citrix", "Citrix");
 
@@ -39411,6 +39426,8 @@ namespace OverflowHelper.core
             correctionAdd("UNIX-like", "Unix-like");
             correctionAdd("unix-like", "Unix-like");
             correctionAdd("U*x", "Unix-like");
+            correctionAdd("Unix like", "Unix-like");
+            correctionAdd("unix like", "Unix-like");
 
             correctionAdd("web", "Web");
 
@@ -68248,6 +68265,12 @@ namespace OverflowHelper.core
 
             URL_Add("DALL-E", "https://en.wikipedia.org/wiki/DALL-E");
 
+            URL_Add("Windows&nbsp;XP SP2", "https://en.wikipedia.org/wiki/Windows_XP#Service_Pack_2");
+
+            URL_Add("utilising", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("utilise", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69302,6 +69325,8 @@ namespace OverflowHelper.core
             correctionAdd("Actian Zen_", "Pervasive PSQL_");
             correctionAdd("pervasive_", "Pervasive PSQL_");
 
+            correctionAdd("format()_", "format_");
+
             // URL mappings
             //
             //
@@ -69946,6 +69971,8 @@ namespace OverflowHelper.core
             URL_Add("type 4 driver_", "https://en.wikipedia.org/wiki/JDBC_driver#Type_4_driver_%E2%80%93_Database-Protocol_driver/Thin_Driver(Pure_Java_driver)");
 
             URL_Add("Pervasive PSQL_", "https://en.wikipedia.org/wiki/Pervasive_PSQL");
+
+            URL_Add("format_", "https://docs.python.org/3.8/library/functions.html#format");
 
         } //addLookupData_alternativeWordSet()
 
