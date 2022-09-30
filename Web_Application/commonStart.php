@@ -33,8 +33,6 @@
     require_once('commonEnd.php'); # Only function definitions (no output)
 
 
-
-
     # Used by one page (EditOverflow.php)
     const LOOKUPTERM = 'LookUpTerm';
 
@@ -73,7 +71,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a502 2022-09-29T133539Z+0";
+        return "Edit Overflow v. 1.1.49a503 2022-09-30T140832Z+0";
     }
 
 
