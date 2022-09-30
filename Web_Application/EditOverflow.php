@@ -17,6 +17,44 @@
         <?php
             require_once('deploymentSpecific.php');
 
+            function lookup($aPDO, $aLookupTerm)
+            {
+                $SQLprefix =
+                  " SELECT incorrectTerm, correctTerm, URL " .
+                  " FROM EditOverflow" .
+                  " WHERE incorrectTerm = "
+                  ;
+
+                $statement = $aPDO->prepare($SQLprefix . ' :name');
+                $statement->execute(array('name' => $aLookupTerm));
+
+                # Default: For words that are not in our word list
+                $incorrectTerm7 = "";
+                $correctTerm7   = "";
+                $URL7           = "";
+
+                if ($statement->rowCount() > 0)
+                {
+                    # "PDO::FETCH_ASSOC" it to return the result as an associative array.
+                    $row = $statement->fetch(PDO::FETCH_ASSOC);
+
+                    # Note: This is for display, so e.g. "<" should be encoded
+                    #       as "&lt;". We don't do any text processing on
+                    #       the result (e.g., computing the length of a
+                    #       string), except enclosing it other text.
+                    #
+                    $incorrectTerm7 = htmlentities($row['incorrectTerm'], ENT_QUOTES);
+
+                    $correctTerm7  = htmlentities($row['correctTerm'], ENT_QUOTES);
+
+                    $URL7          = htmlentities($row['URL']);
+                    #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
+                }
+
+                return [$incorrectTerm7, $correctTerm7, $URL7];
+            } #lookup()
+
+
             # These two are for proper indentation in the
             # generated HTML source (by PHP).
             $headerLevelIndent = "        ";
@@ -156,80 +194,86 @@
 
             $pdo = connectToDatabase();
 
-            if (0)
-            {
-                #Obsolete - delete at any time.
+            #Delete at any time
+            #if (0)
+            #{
+            #    #Obsolete - delete at any time.
+            #
+            #    # Prone to SQL injection attack (though the table
+            #    # is effectively readonly - we overwrite it on a
+            #    # regular basis)!
+            #    $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
+            #
+            #    # For debugging
+            #    #echo "<p>CustomerSQL: xxx" . $CustomerSQL . "xxx </p>\n";
+            #
+            #    $statement = $pdo->query($CustomerSQL);
+            #
+            #    # For debugging
+            #    #$rows2 = $statement->fetchAll(PDO::FETCH_ASSOC);
+            #    #foreach ($rows2 as $someRow)
+            #    #{
+            #    #    echo "<p> From fetch all: </p>" .
+            #    #      " <p> >>>  "  . $someRow['incorrectTerm'] . " " .
+            #    #      " (cleaned: " . htmlZZZentities($someRow['incorrectTerm']) . ")</p> " .
+            #    #
+            #    #      " <p> >>>  " . $someRow['correctTerm'] .   " " .
+            #    #      " (cleaned: " . htmlZZZentities($someRow['correctTerm']) . ")</p> " .
+            #    #
+            #    #      " <p> >>>  " . $someRow['URL'] .           " " .
+            #    #      " (cleaned: " . htmlZZZZentities($someRow['URL']) . ")</p> " .
+            #    #
+            #    #      " <p></p>";
+            #    #}
+            #}
+            #else
+            #{
+            #    #If we need it, it should be moved to after the call of
+            #    #the_EditOverflowHeadline
+            #    #echo "$headerLevelIndent<p>No SQL injection, please...</p>\n";
+            #
+            #    #Replace "name" with something else.
+            #    $statement = $pdo->prepare($SQLprefix . ' :name');
+            #    $statement->execute(array('name' => $lookUpTerm));
+            #
+            #    #XX XX
+            #}
+            #
+            ## Default: For words that are not in our word list
+            #$incorrectTerm = "";
+            #$correctTerm   = "";
+            #$URL           = "";
+            #
+            #if ($statement->rowCount() > 0)
+            #{
+            #    # "PDO::FETCH_ASSOC" it to return the result as an associative array.
+            #    $row = $statement->fetch(PDO::FETCH_ASSOC);
+            #
+            #    # Note: This is for display, so e.g. "<" should be encoded
+            #    #       as "&lt;". We don't do any text processing on
+            #    #       the result (e.g., computing the length of a
+            #    #       string), except enclosing it other text.
+            #    #
+            #    $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
+            #
+            #    $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
+            #
+            #
+            #    #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
+            #                                          # a term containing the U+FFFD
+            #                                          # REPLACEMENT CHARACTER will make
+            #                                          # $correctTerm an empty string...
+            #
+            #    #Doesn't fire on the local web server. Why????
+            #    #assert(0, "XYZ);
+            #    #assert(0, "Unconditional assert failure...");
+            #
+            #    $URL          = htmlentities($row['URL']);
+            #    #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
+            #}
 
-                # Prone to SQL injection attack (though the table
-                # is effectively readonly - we overwrite it on a
-                # regular basis)!
-                $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
-
-                # For debugging
-                #echo "<p>CustomerSQL: xxx" . $CustomerSQL . "xxx </p>\n";
-
-                $statement = $pdo->query($CustomerSQL);
-
-                # For debugging
-                #$rows2 = $statement->fetchAll(PDO::FETCH_ASSOC);
-                #foreach ($rows2 as $someRow)
-                #{
-                #    echo "<p> From fetch all: </p>" .
-                #      " <p> >>>  "  . $someRow['incorrectTerm'] . " " .
-                #      " (cleaned: " . htmlZZZentities($someRow['incorrectTerm']) . ")</p> " .
-                #
-                #      " <p> >>>  " . $someRow['correctTerm'] .   " " .
-                #      " (cleaned: " . htmlZZZentities($someRow['correctTerm']) . ")</p> " .
-                #
-                #      " <p> >>>  " . $someRow['URL'] .           " " .
-                #      " (cleaned: " . htmlZZZZentities($someRow['URL']) . ")</p> " .
-                #
-                #      " <p></p>";
-                #}
-            }
-            else
-            {
-                #If we need it, it should be moved to after the call of
-                #the_EditOverflowHeadline
-                #echo "$headerLevelIndent<p>No SQL injection, please...</p>\n";
-
-                #Replace "name" with something else.
-                $statement = $pdo->prepare($SQLprefix . ' :name');
-                $statement->execute(array('name' => $lookUpTerm));
-            }
-
-            # Default: For words that are not in our word list
-            $incorrectTerm = "";
-            $correctTerm   = "";
-            $URL           = "";
-
-            if ($statement->rowCount() > 0)
-            {
-                # "PDO::FETCH_ASSOC" it to return the result as an associative array.
-                $row = $statement->fetch(PDO::FETCH_ASSOC);
-
-                # Note: This is for display, so e.g. "<" should be encoded
-                #       as "&lt;". We don't do any text processing on
-                #       the result (e.g., computing the length of a
-                #       string), except enclosing it other text.
-                #
-                $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
-
-                $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
-
-
-                #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
-                                                      # a term containing the U+FFFD
-                                                      # REPLACEMENT CHARACTER will make
-                                                      # $correctTerm an empty string...
-
-                #Doesn't fire on the local web server. Why????
-                #assert(0, "XYZ);
-                #assert(0, "Unconditional assert failure...");
-
-                $URL          = htmlentities($row['URL']);
-                #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
-            }
+            [$incorrectTerm, $correctTerm, $URL] =
+                lookup($pdo, $lookUpTerm);
 
             # To avoid "Undefined variable: linkYouTubeCompatible"
             # in the PHP error log file.
@@ -247,6 +291,26 @@
             $editSummary_output  = "";
             $editSummary_output2 = "";
             $linkInlineMarkdown = "";
+
+            # Also look up of the term in the alternative
+            # word set (the convention is a trailing underscore)
+            #
+            # Note: As there is automatically identity mapping
+            #       in the database, we will also automatically
+            #       look up incorrect words in the main word
+            #       set that are ***correct*** words in the
+            #       alternative word set...
+            #
+            #         Example:
+            #
+            #           XXX
+            #
+            [$incorrectTerm2, $correctTerm2, $URL2] =
+                lookup($pdo, $lookUpTerm . "_");
+
+            ## Only for testing...
+            #$correctTerm .= " YYXXX " . $correctTerm2;
+
 
             # True if the (incorrect) term was found in our
             # huge list (as of 2020-10-29, 14852 items)
