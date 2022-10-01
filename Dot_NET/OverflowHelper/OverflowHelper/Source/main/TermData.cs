@@ -8890,6 +8890,7 @@ namespace OverflowHelper.core
             correctionAdd("Tl:DR", "TLDR");
             correctionAdd("tl:dr", "TLDR");
             correctionAdd("TL;RD", "TLDR");
+            correctionAdd("TL:DR", "TLDR");
 
             correctionAdd("top level domain", "top-level domain");
             correctionAdd("Top Level Domain", "top-level domain");
@@ -32716,6 +32717,7 @@ namespace OverflowHelper.core
             correctionAdd("jmap", "JMAP");
 
             correctionAdd("Homestead", "Laravel Homestead");
+            correctionAdd("homestead", "Laravel Homestead");
 
             correctionAdd("Resource Description Framework", "RDF");
             correctionAdd("rdf", "RDF");
@@ -35957,6 +35959,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Graceful Degradation", "graceful degradation");
             correctionAdd("gracefully degradation", "graceful degradation");
+            correctionAdd("GD", "graceful degradation");
 
             correctionAdd("initialy", "initially");
             correctionAdd("intially", "initially");
@@ -43151,6 +43154,7 @@ namespace OverflowHelper.core
             correctionAdd("Lascia ch'io pianga", "G. F. Händel");
 
             correctionAdd("niemann", "Hans Niemann");
+            correctionAdd("Niemann", "Hans Niemann");
 
             correctionAdd("Plasma", "KDE Plasma");
             correctionAdd("kde plasma", "KDE Plasma");
@@ -43460,6 +43464,14 @@ namespace OverflowHelper.core
             correctionAdd("select2", "Select2");
 
             correctionAdd("dall-e", "DALL-E");
+
+            correctionAdd("BoA", "Bank of America");
+            correctionAdd("BAC", "Bank of America");
+            correctionAdd("BofA", "Bank of America");
+
+            correctionAdd("linked-list", "linked list");
+
+            correctionAdd("NYSE", "New York Stock Exchange");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68270,6 +68282,12 @@ namespace OverflowHelper.core
             URL_Add("utilising", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
 
             URL_Add("utilise", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("Bank of America", "https://en.wikipedia.org/wiki/Bank_of_America");
+
+            URL_Add("linked list", "https://en.wikipedia.org/wiki/Linked_list");
+
+            URL_Add("New York Stock Exchange", "https://en.wikipedia.org/wiki/New_York_Stock_Exchange");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...

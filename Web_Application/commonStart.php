@@ -71,7 +71,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a503 2022-09-30T140832Z+0";
+        return "Edit Overflow v. 1.1.49a504 2022-10-01T022146Z+0";
     }
 
 
@@ -481,7 +481,6 @@
             $replacer->transform(' DOT php',  '.php');
             $replacer->transform(' DOT aspx', '.aspx');
             $replacer->transform(' DOT pdf',  '.pdf');
-
         } //If doing URL processing
         else
         {
@@ -829,7 +828,8 @@
             output,
             textarea,
             select,
-            button
+            button,
+            p
             {
                 grid-column: 2 / 4;
                 width: auto;
