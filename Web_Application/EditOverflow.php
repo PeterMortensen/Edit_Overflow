@@ -17,38 +17,58 @@
         <?php
             require_once('deploymentSpecific.php');
 
+            function stripTrailingSlash($aString)
+            {
+                return substr($aString, 0, strlen($aString) - 1);
+            } #stripTrailingSlash()
+
+            function alternativeLink($anIncorrectTerm, $aCorrectTerm)
+            {
+                #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
+                $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
+                return
+                    "<a href=" .
+                    "\"$baseURL&LookUpTerm=$anIncorrectTerm\"" .
+                    ">" . stripTrailingSlash($aCorrectTerm) . "</a>";
+            } #alternativeLink()
+
             function lookup($aPDO, $aLookupTerm)
             {
+                # Default: For words that are not in our word list
+                $incorrectTerm7 = "";
+                $correctTerm7   = "";
+                $URL7           = "";
+
                 $SQLprefix =
                   " SELECT incorrectTerm, correctTerm, URL " .
                   " FROM EditOverflow" .
                   " WHERE incorrectTerm = "
                   ;
 
-                $statement = $aPDO->prepare($SQLprefix . ' :name');
-                $statement->execute(array('name' => $aLookupTerm));
-
-                # Default: For words that are not in our word list
-                $incorrectTerm7 = "";
-                $correctTerm7   = "";
-                $URL7           = "";
-
-                if ($statement->rowCount() > 0)
+                if ($aLookupTerm !== '')  # Accepting empty strings as
+                                          # lookup. They will treated
+                                          # as failed lookups.
                 {
-                    # "PDO::FETCH_ASSOC" it to return the result as an associative array.
-                    $row = $statement->fetch(PDO::FETCH_ASSOC);
+                    $statement = $aPDO->prepare($SQLprefix . ' :name');
+                    $statement->execute(array('name' => $aLookupTerm));
 
-                    # Note: This is for display, so e.g. "<" should be encoded
-                    #       as "&lt;". We don't do any text processing on
-                    #       the result (e.g., computing the length of a
-                    #       string), except enclosing it other text.
-                    #
-                    $incorrectTerm7 = htmlentities($row['incorrectTerm'], ENT_QUOTES);
+                    if ($statement->rowCount() > 0)
+                    {
+                        # "PDO::FETCH_ASSOC" it to return the result as an associative array.
+                        $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-                    $correctTerm7  = htmlentities($row['correctTerm'], ENT_QUOTES);
+                        # Note: This is for display, so e.g. "<" should be encoded
+                        #       as "&lt;". We don't do any text processing on
+                        #       the result (e.g., computing the length of a
+                        #       string), except enclosing it other text.
+                        #
+                        $incorrectTerm7 = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
-                    $URL7          = htmlentities($row['URL']);
-                    #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
+                        $correctTerm7  = htmlentities($row['correctTerm'], ENT_QUOTES);
+
+                        $URL7          = htmlentities($row['URL']);
+                        #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
+                    }
                 }
 
                 return [$incorrectTerm7, $correctTerm7, $URL7];
@@ -272,28 +292,12 @@
             #    #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
             #}
 
+            # Primary lookup
             [$incorrectTerm, $correctTerm, $URL] =
                 lookup($pdo, $lookUpTerm);
 
-            # To avoid "Undefined variable: linkYouTubeCompatible"
-            # in the PHP error log file.
-            $linkYouTubeCompatible = "";
-            $link_HTML = "";
-            $link_WikiMedia = "";
-            $correctionComment = "";
-
-
-            # Avoid "Undefined variable: editSummary_output",
-            # etc. if the lookup of the term failed.
-            #
-            # Or should we simply use a default value
-            # instead (now redundancy with the below)?
-            $editSummary_output  = "";
-            $editSummary_output2 = "";
-            $linkInlineMarkdown = "";
-
-            # Also look up of the term in the alternative
-            # word set (the convention is a trailing underscore)
+            # Also look up of the ***incorrect** term in the alternative
+            # word set (the convention is a trailing underscore).
             #
             # Note: As there is automatically identity mapping
             #       in the database, we will also automatically
@@ -305,11 +309,69 @@
             #
             #           XXX
             #
+            # Look up incorrect word in the alternative word set
+            #
             [$incorrectTerm2, $correctTerm2, $URL2] =
                 lookup($pdo, $lookUpTerm . "_");
 
-            ## Only for testing...
-            #$correctTerm .= " YYXXX " . $correctTerm2;
+            # Look up correct word in the alternative word set
+            #
+            [$incorrectTerm3, $correctTerm3, $URL3] =
+                lookup($pdo, $correctTerm . "_");
+
+            # Transparently use the alternative word set if the
+            # primary lookup fails (e.g., seemless lookup when
+            # blindly using a macro keyboard).
+            #
+            #Use some kind of indication it was found in the
+            #alternative word set?
+            #
+            if (! $correctTerm)
+            {
+                #Later: use stripTrailingSlash()
+                $correctTerm = $correctTerm2;
+
+                $URL = $URL2;
+            }
+
+            # To avoid "Undefined variable: linkYouTubeCompatible"
+            # in the PHP error log file.
+            $linkYouTubeCompatible = "";
+            $link_HTML = "";
+            $link_WikiMedia = "";
+            $correctionComment = "";
+
+            # Avoid "Undefined variable: editSummary_output",
+            # etc. if the lookup of the term failed.
+            #
+            # Or should we simply use a default value
+            # instead (now redundancy with the below)?
+            $editSummary_output  = "";
+            $editSummary_output2 = "";
+            $linkInlineMarkdown = "";
+
+            $alternative = "";
+            if ($correctTerm2 &&
+                ($correctTerm2 != $correctTerm)) # Only
+            {
+                ##$alternative .= "$correctTerm2 11111";
+                #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
+                #$alternative .=
+                #    "<a href=" .
+                #    "\"$baseURL?LookUpTerm=$incorrectTerm2\"" .
+                #    ">" . stripTrailingSlash($correctTerm2) . "</a>";
+
+                $alternative .= alternativeLink($incorrectTerm2, $correctTerm2);
+            }
+            if ($correctTerm3 &&
+                ($correctTerm3 != $correctTerm2))
+            {
+                if ($alternative)
+                {
+                    $alternative .= " and ";
+                }
+                $alternative .= alternativeLink($incorrectTerm3, $correctTerm3);
+            }
 
 
             # True if the (incorrect) term was found in our
@@ -533,7 +595,6 @@
                 onsubmit="return get_action(); return false;"
             -->
 
-
             <div class="formgrid">
 
                 <!-- Conditional: Lookup failure -->
@@ -559,7 +620,6 @@
                           "</strong>" .
                           $EOL_andBaseIndent;
                         echo $endDivWithIndent;
-
 
                         echo $startDivWithIndent;
 
@@ -617,7 +677,6 @@
                           ) .
                           $EOL_andBaseIndent;
 
-
                         echo $endDivWithIndent;
 
                         # Empty div, for first column in CSS grid
@@ -640,13 +699,13 @@
                     id="LookUpTerm"
                     class="XYZ3"
                     <?php the_formValue($lookUpTerm); ?>
-                    style="width:110px;"
+                    style="width:150px;"
                     accesskey="L"
                     title="Shortcut: Shift + Alt + L"
                     autofocus
-                />
+                >
 
-                <!-- Note: we keep the same identifier "CorrectedTerm",
+                <!-- Note:  we keep the same identifier "CorrectedTerm",
                             even if the lookup fails.
                 -->
                 <label for="CorrectedTerm">
@@ -657,8 +716,8 @@
                         # "Fill in the corrected field")
                         if ($correctTerm)
                         {
-                            #Note: Missing indent in HTML source (should be
-                            #      fi)
+                            #Note: Missing indent in HTML source
+                            #      (should be fi)
 
                             echo "<u>C</u>orrected term"; #Used to be static HTML.
                         }
@@ -692,13 +751,26 @@
                         # sophisticated (like in the Windows desktop
                         # version of Edit Overflow) - where we preserve
                         # any leading and trailing white space.
-
+                        #
                         the_formValue($effectiveTerm . " ");
                     ?>
-                    style="width:110px;"
+                    style="width:150px;"
                     accesskey="C"
                     title="Shortcut: Shift + Alt + C"
-                />
+                >
+
+                <?php
+                    # Unconditional (but it will be an empty string
+                    # if there aren't any hits)
+                    #
+                    #the_formValue($effectiveTerm . " ");
+
+                    if ($alternative)
+                    {
+                        echo "<label for=\"CorrectedTerm\">Alternatives</label>";
+                        echo "<p>$alternative</p>\n";
+                    }
+                ?>
 
                 <label for="editSummary_output">Checkin <u>m</u>essages</label>
                 <input
@@ -710,7 +782,7 @@
                     style="width:600px;"
                     accesskey="M"
                     title="Shortcut: Shift + Alt + M"
-                />
+                >
 
                 <label for="editSummary_output2"><b></b></label>
                 <input
@@ -722,7 +794,7 @@
                     style="width:600px;"
                     accesskey="O"
                     title="Shortcut: Shift + Alt + O"
-                />
+                >
 
                 <label for="URL"><?php echo get_HTMLlink("URL", $URL, "") ?></label>
                 <input
@@ -734,7 +806,7 @@
                     style="width:400px;"
                     accesskey="E"
                     title="Shortcut: Shift + Alt + E"
-                />
+                >
 
                 <label for="URL2">Link (<u>i</u>nline Markdown)</label>
                 <input
@@ -747,7 +819,7 @@
                     style="width:400px;"
                     accesskey="I"
                     title="Shortcut: Shift + Alt + I"
-                />
+                >
 
                 <label for="URL3">Link (<u>Y</u>ouTube compatible)</label>
                 <input
@@ -760,7 +832,7 @@
                     style="width:400px;"
                     accesskey="Y"
                     title="Shortcut: Shift + Alt + Y"
-                />
+                >
 
                 <label for="URL4">Link (<u>H</u>TML)</label>
                 <input
@@ -784,7 +856,6 @@
                         ##
                         #echo "value='$link_HTML'\n";
 
-
                         # Using "&quot;", but see notes near "$link_HTML" above.
                         #
                         $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
@@ -793,7 +864,7 @@
                     style="width:400px;"
                     accesskey="H"
                     title="Shortcut: Shift + Alt + H"
-                />
+                >
 
                 <label for="URL6">Link (MediaWi<u>k</u>i)</label>
                 <input
@@ -825,7 +896,7 @@
                     style="width:400px;"
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
-                />
+                >
 
                 <label for="URL5">Correction commen<u>t</u></label>
                 <input
@@ -844,8 +915,7 @@
                     style="width:400px;"
                     accesskey="T"
                     title="Shortcut: Shift + Alt + T"
-                />
-
+                >
 
                 <?php
                     #No, not for now. But do consider it.
@@ -867,7 +937,7 @@
                     id="URLlist_encoded"
                     class="XYZ6"
                     <?php the_formValue($URLlist_encoded); ?>
-                />
+                >
 
 
                 <!-- Reset lookup / edit summary state  -->
@@ -878,7 +948,7 @@
                     class="XYZ9"
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
-                />
+                >
                 <label for="resetState"><u>R</u>eset lookup state</label>
 
 
@@ -911,7 +981,7 @@
                         # whether we actually output anything in PHP.
                         echo "\n";
                     ?>
-                />
+                >
 
                 <!--
                     For ***manually*** inserting it above as an

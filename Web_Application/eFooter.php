@@ -80,7 +80,7 @@
 
 
         # Note: Any keyboard shortcuts used in the footer can conflict
-        #       with keyboard shortcuts on the pages. E.g. page 
+        #       with keyboard shortcuts on the pages. E.g. page
         #       "EditSummaryFragments.php" uses most of the available
         #       keyboard shortcuts.
 
@@ -91,7 +91,7 @@
 
 
 
-        <hr/>
+        <hr>
 
 
         <p>
@@ -157,3 +157,4 @@ HTML_END;
     } # get_EditOverflowFooter()
 
 ?>
+
