@@ -12254,6 +12254,7 @@ namespace OverflowHelper.core
             correctionAdd("Woulc", "would");
             correctionAdd("woulc", "would");
             correctionAdd("wouhld", "would");
+            correctionAdd("woud", "would");
 
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("mine craft", "Minecraft");
@@ -15279,6 +15280,7 @@ namespace OverflowHelper.core
             correctionAdd("reccommendation", "recommendation");
             correctionAdd("recomondation", "recommendation");
             correctionAdd("recs", "recommendation");
+            correctionAdd("Recomendation", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -16151,6 +16153,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aliexpress", "AliExpress");
             correctionAdd("aliexpres", "AliExpress");
+            correctionAdd("Aliexpress", "AliExpress");
 
             correctionAdd("BW", "bandwidth");
             correctionAdd("bandwith", "bandwidth");
@@ -26042,6 +26045,7 @@ namespace OverflowHelper.core
             correctionAdd("yo", "you");
             correctionAdd("Yo", "you");
             correctionAdd("sou", "you");
+            correctionAdd("yoo", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -27472,6 +27476,7 @@ namespace OverflowHelper.core
             correctionAdd("libearies", "libraries");
             correctionAdd("liberies", "libraries");
             correctionAdd("libreries", "libraries");
+            correctionAdd("Libraries", "libraries");
 
             correctionAdd("blue pill", "Blue Pill");
             correctionAdd("blue-pill", "Blue Pill");
@@ -31880,6 +31885,7 @@ namespace OverflowHelper.core
             correctionAdd("sensorship", "censorship");
 
             correctionAdd("furtur", "future");
+            correctionAdd("futur", "future");
 
             correctionAdd("inital", "initial");
             correctionAdd("intial", "initial");
@@ -43491,6 +43497,14 @@ namespace OverflowHelper.core
             correctionAdd("saditic", "sadistic");
 
             correctionAdd("themeing", "theming");
+
+            correctionAdd("assistent", "assistant");
+
+            correctionAdd("community wiki", "Community Wiki");
+
+            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
+            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68316,6 +68330,12 @@ namespace OverflowHelper.core
 
             URL_Add("theming", "https://en.wiktionary.org/wiki/theme#Verb");
 
+            URL_Add("assistant", "https://en.wiktionary.org/wiki/assistant#Noun");
+
+            URL_Add("Community Wiki", "https://meta.stackexchange.com/questions/11740/what-are-community-wiki-posts");
+
+            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68480,6 +68500,7 @@ namespace OverflowHelper.core
             correctionAdd("postscriptum_", "PS_");
             correctionAdd("P.S._", "PS_");
             correctionAdd("post scriptum_", "PS_");
+            correctionAdd("Ps_", "PS_");
 
             correctionAdd("epic_", "Epic_");
             correctionAdd("epic privacy browser_", "Epic_");
