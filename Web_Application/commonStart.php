@@ -59,9 +59,7 @@
         }
     }
 
-
     $formDataSizeDiff = -1;
-
 
     # Including version number and date
     #
@@ -71,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a504 2022-10-01T022146Z+0";
+        return "Edit Overflow v. 1.1.49a505 2022-10-02T002927Z+0";
     }
 
 
@@ -140,10 +138,8 @@
         assert(preg_match('/php$/', $aPageName) !== 0,
                "Invalid HTML page name: \"$aPageName\"");
 
-
         # Later: Sanity check of $aExtraQueryParameters (must end
         #        in "&", unless it is an empty string)
-
 
         $someTitle = "$aHeadline - " . get_EditOverflowID();
 
@@ -829,7 +825,7 @@
             textarea,
             select,
             button,
-            p
+            p.entry-line
             {
                 grid-column: 2 / 4;
                 width: auto;

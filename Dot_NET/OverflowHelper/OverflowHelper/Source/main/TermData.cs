@@ -2794,6 +2794,8 @@ namespace OverflowHelper.core
             correctionAdd("unix and linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix.SE", "Unix & Linux (Stack Exchange site)");
             correctionAdd("UNIX & Linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("U&L SE", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("U&L_SE", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("IPS", "Interpersonal Skills (Stack Exchange site)");
             correctionAdd("interpersonal skills", "Interpersonal Skills (Stack Exchange site)");
@@ -14432,18 +14434,19 @@ namespace OverflowHelper.core
             correctionAdd("Cosmic Microwave Background", "cosmic microwave background");
             correctionAdd("CMBR", "cosmic microwave background");
 
-            correctionAdd("Cosmic Microwave Background Radiation", "cosmic microwave background radiation");
-
-            correctionAdd("Microwave", "microwave");
-
-            correctionAdd("Microwave oven", "microwave oven");
-
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
             correctionAdd("back ground", "background");
             correctionAdd("bcakground", "background");
             correctionAdd("backgrond", "background");
             correctionAdd("bacground", "background");
+            correctionAdd("Background", "background");
+
+            correctionAdd("Cosmic Microwave Background Radiation", "cosmic microwave background radiation");
+
+            correctionAdd("Microwave", "microwave");
+
+            correctionAdd("Microwave oven", "microwave oven");
 
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
@@ -15032,6 +15035,8 @@ namespace OverflowHelper.core
 
             correctionAdd("horizentaly", "horizontally");
             correctionAdd("horizondally", "horizontally");
+            correctionAdd("Horiztonally", "horizontally");
+            correctionAdd("horiztonally", "horizontally");
 
             correctionAdd("Ask Ubuntu (Stack Exchange site)", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Ask&nbsp;Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
@@ -17074,6 +17079,7 @@ namespace OverflowHelper.core
             correctionAdd("eaay", "easy");
             correctionAdd("rasy", "easy");
             correctionAdd("esay", "easy");
+            correctionAdd("easiy", "easy");
 
             correctionAdd("gamfication", "gamification");
             correctionAdd("gameification", "gamification");
@@ -20315,6 +20321,8 @@ namespace OverflowHelper.core
 
             correctionAdd("empaphy", "empathy");
             correctionAdd("emphaphy", "empathy");
+            correctionAdd("emphathy", "empathy");
+            correctionAdd("emphaty", "empathy");
 
             correctionAdd("eufemism", "euphemism");
 
@@ -21700,6 +21708,7 @@ namespace OverflowHelper.core
             correctionAdd("tryiong", "trying");
             correctionAdd("tryg", "trying");
             correctionAdd("traing", "trying");
+            correctionAdd("truing", "trying");
 
             correctionAdd("type cast", "typecast");
 
@@ -27392,6 +27401,7 @@ namespace OverflowHelper.core
             correctionAdd("resurce", "resource");
             correctionAdd("resurse", "resource");
             correctionAdd("recource", "resource");
+            correctionAdd("Ressource", "resource");
 
             correctionAdd("Open source", "open source");
             correctionAdd("Open Source", "open source");
@@ -39846,6 +39856,7 @@ namespace OverflowHelper.core
             correctionAdd("allwed", "allowed");
 
             correctionAdd("no break space", "non-breaking space");
+            correctionAdd("non breaking space", "non-breaking space");
 
             correctionAdd("mapquest", "MapQuest");
 
@@ -43472,6 +43483,14 @@ namespace OverflowHelper.core
             correctionAdd("linked-list", "linked list");
 
             correctionAdd("NYSE", "New York Stock Exchange");
+
+            correctionAdd("adjancent", "adjacent");
+
+            correctionAdd("globe", "global");
+
+            correctionAdd("saditic", "sadistic");
+
+            correctionAdd("themeing", "theming");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68288,6 +68307,14 @@ namespace OverflowHelper.core
             URL_Add("linked list", "https://en.wikipedia.org/wiki/Linked_list");
 
             URL_Add("New York Stock Exchange", "https://en.wikipedia.org/wiki/New_York_Stock_Exchange");
+
+            URL_Add("adjacent", "https://en.wiktionary.org/wiki/adjacent#Adjective");
+
+            URL_Add("global", "https://en.wiktionary.org/wiki/global#Adjective");
+
+            URL_Add("sadistic", "https://en.wiktionary.org/wiki/sadistic#Adjective");
+
+            URL_Add("theming", "https://en.wiktionary.org/wiki/theme#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
