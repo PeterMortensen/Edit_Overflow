@@ -767,8 +767,9 @@
 
                     if ($alternative)
                     {
-                        echo "<label for=\"CorrectedTerm\">Alternatives</label>";
-                        echo "<p>$alternative</p>\n";
+                        echo "<label for=\"CorrectedTerm\">Alternatives</label>\n";
+                        echo "                " . # Internal indent (don't we have a variable for this???)
+                              "<p class=\"entry-line\">$alternative</p>\n";
                     }
                 ?>
 
