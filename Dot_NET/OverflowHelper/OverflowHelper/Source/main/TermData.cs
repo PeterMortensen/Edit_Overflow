@@ -10071,6 +10071,7 @@ namespace OverflowHelper.core
             correctionAdd("u-boot", "U-Boot"); // Really "Das U-Boot"
             correctionAdd("U-boot", "U-Boot"); // Really "Das U-Boot"
             correctionAdd("uboot", "U-Boot"); // Really "Das U-Boot"
+            correctionAdd("Das U-Boot", "U-Boot"); // Really "Das U-Boot"
 
             correctionAdd("X", "X Window");
             correctionAdd("x window", "X Window");
@@ -15472,6 +15473,7 @@ namespace OverflowHelper.core
             correctionAdd("initailise", "initialise");
             correctionAdd("initiliaze", "initialise");
             correctionAdd("intialise", "initialise");
+            correctionAdd("initalized", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -19118,6 +19120,7 @@ namespace OverflowHelper.core
             correctionAdd("occassion", "occasion");
             correctionAdd("occation", "occasion");
             correctionAdd("occacion", "occasion");
+            correctionAdd("occasition", "occasion");
 
             correctionAdd("IFS", "internal field separator");
             correctionAdd("input field separator", "internal field separator");
@@ -22485,6 +22488,7 @@ namespace OverflowHelper.core
             correctionAdd("Strcpy", "strcpy");
 
             correctionAdd("italian", "Italian");
+            correctionAdd("Italien", "Italian");
 
             correctionAdd("thoughout", "throughout");
             correctionAdd("through out", "throughout");
@@ -25080,6 +25084,7 @@ namespace OverflowHelper.core
             correctionAdd("reffer", "refer");
 
             correctionAdd("randon", "random");
+            correctionAdd("ramdom", "random");
 
             correctionAdd("re-orient", "reorient");
             correctionAdd("Re-orient", "reorient");
@@ -43370,6 +43375,7 @@ namespace OverflowHelper.core
             correctionAdd("bracket language", "curly-bracket programming language");
 
             correctionAdd("front slash", "forward slash");
+            correctionAdd("forward-slash", "forward slash");
 
             correctionAdd("Openpyxl", "openpyxl");
 
@@ -43505,6 +43511,20 @@ namespace OverflowHelper.core
             correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
             correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
             correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
+
+            correctionAdd("cdata", "CDATA");
+
+            correctionAdd("run's", "runs");
+
+            correctionAdd("asides from that", "besides that");
+            correctionAdd("Asides from that", "besides that");
+
+            correctionAdd("site", "cite");
+
+            correctionAdd("Phosphorus", "phosphorus");
+            correctionAdd("phosphorous", "phosphorus");
+
+            correctionAdd("Sfdisk", "sfdisk");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68336,6 +68356,18 @@ namespace OverflowHelper.core
 
             URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
 
+            URL_Add("CDATA", "https://en.wikipedia.org/wiki/CDATA");
+
+            URL_Add("runs", "https://en.wiktionary.org/wiki/run#Verb");
+
+            URL_Add("besides that", "https://ell.stackexchange.com/questions/56611/should-i-use-besides-or-aside-from-in-the-following-case/108942#108942");
+
+            URL_Add("cite", "https://en.wiktionary.org/wiki/cite#Verb");
+
+            URL_Add("phosphorus", "https://en.wikipedia.org/wiki/Phosphorus");
+
+            URL_Add("sfdisk", "https://en.wikipedia.org/wiki/Sfdisk");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68501,6 +68533,7 @@ namespace OverflowHelper.core
             correctionAdd("P.S._", "PS_");
             correctionAdd("post scriptum_", "PS_");
             correctionAdd("Ps_", "PS_");
+            correctionAdd("ps_", "PS_");
 
             correctionAdd("epic_", "Epic_");
             correctionAdd("epic privacy browser_", "Epic_");
