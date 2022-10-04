@@ -6769,6 +6769,8 @@ namespace OverflowHelper.core
             correctionAdd("Google maps", "Google Maps");
             correctionAdd("google-map", "Google Maps");
             correctionAdd("google-maps", "Google Maps");
+            correctionAdd("googleMap", "Google Maps");
+            correctionAdd("googlemap", "Google Maps");
 
             correctionAdd("acess", "access");
             correctionAdd("acces", "access");
@@ -11385,6 +11387,7 @@ namespace OverflowHelper.core
             correctionAdd("ubntu", "Ubuntu");
             correctionAdd("Buguntu", "Ubuntu");
             correctionAdd("Ubuntu OS", "Ubuntu");
+            correctionAdd("Yuchbuntu", "Ubuntu");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -15768,6 +15771,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Googling", "googling");
             correctionAdd("googeling", "googling");
+            correctionAdd("Google'ing", "googling");
+            correctionAdd("Googleing", "googling");
 
             correctionAdd("denmark", "Denmark");
             correctionAdd("Denamark", "Denmark");
@@ -25790,6 +25795,7 @@ namespace OverflowHelper.core
             correctionAdd("dispay", "display");
             correctionAdd("diplay", "display");
             correctionAdd("diaplay", "display");
+            correctionAdd("desplay", "display");
 
             correctionAdd("imagion", "imagine");
             correctionAdd("Emargin", "imagine");
@@ -31383,6 +31389,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inteegral", "integral");
             correctionAdd("intergal", "integral");
+            correctionAdd("intheeral", "integral");
 
             correctionAdd("key-stroke", "keystroke");
             correctionAdd("key stroke", "keystroke");
@@ -43525,6 +43532,32 @@ namespace OverflowHelper.core
             correctionAdd("phosphorous", "phosphorus");
 
             correctionAdd("Sfdisk", "sfdisk");
+
+            correctionAdd("gree", "agree");
+
+            correctionAdd("Board Support Package", "board support package");
+            correctionAdd("BSP", "board support package");
+
+            correctionAdd("conccurency", "concurrency");
+
+            correctionAdd("GPIF", "general programming interface II");
+            correctionAdd("GPIF II", "general programming interface II");
+
+            correctionAdd("linus tech tips", "Linus Tech Tips");
+
+            correctionAdd("MUTT", "Microsoft USB Test Tool");
+
+            correctionAdd("Technical Reference Manual", "technical reference manual");
+            correctionAdd("TRM", "technical reference manual");
+
+            correctionAdd("URB", "USB Request Block");
+
+            correctionAdd("valhalla", "Valhalla");
+            correctionAdd("Walhalla", "Valhalla");
+            correctionAdd("walhalla", "Valhalla");
+
+            correctionAdd("QCD", "quantum chromodynamics");
+            correctionAdd("Quantum Chromodynamics", "quantum chromodynamics");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68368,6 +68401,26 @@ namespace OverflowHelper.core
 
             URL_Add("sfdisk", "https://en.wikipedia.org/wiki/Sfdisk");
 
+            URL_Add("agree", "https://en.wiktionary.org/wiki/agree#Verb");
+
+            URL_Add("board support package", "https://stackoverflow.com/questions/tagged/bsp");
+
+            URL_Add("concurrency", "https://en.wiktionary.org/wiki/concurrency#Noun");
+
+            URL_Add("general programming interface II", "https://www.infineon.com/dgdl/Infineon-EZ-USB_CX3_Technical_Reference_Manual-AdditionalTechnicalInformation-v03_00-EN.pdf");
+
+            URL_Add("Linus Tech Tips", "https://www.youtube.com/c/LinusTechTips/videos");
+
+            URL_Add("Microsoft USB Test Tool", "https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/microsoft-usb-test-tool--mutt--devices");
+
+            URL_Add("technical reference manual", "https://www.ti.com/lit/ug/sluubh1c/sluubh1c.pdf");
+
+            URL_Add("USB Request Block", "https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/communicating-with-a-usb-device");
+
+            URL_Add("Valhalla", "https://en.wikipedia.org/wiki/Valhalla");
+
+            URL_Add("quantum chromodynamics", "https://en.wikipedia.org/wiki/Quantum_chromodynamics");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69111,23 +69164,31 @@ namespace OverflowHelper.core
             correctionAdd("Strawberry_", "Strawberry GraphQL_");
             correctionAdd("strawberry_", "Strawberry GraphQL_");
 
-            correctionAdd(".net_", ".NET (tag wiki)_");
-
             correctionAdd("cse_", "CSE_");
 
+            correctionAdd(".net_", ".NET (tag wiki)_");
+            correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
+
             correctionAdd("java_", "Java (tag wiki)_");
+            correctionAdd("[tag:java]_", "Java (tag wiki)_");
 
             correctionAdd("javascript_", "JavaScript (tag wiki)_");
+            correctionAdd("[tag:javascript]_", "JavaScript (tag wiki)_");
 
             correctionAdd("php_", "PHP (tag wiki)_");
             correctionAdd("PHP_", "PHP (tag wiki)_");
+            correctionAdd("[tag:php]_", "PHP (tag wiki)_");
 
             correctionAdd("perl_", "Perl (tag wiki)_");
+            correctionAdd("[tag:perl]_", "Perl (tag wiki)_");
 
             correctionAdd("python_", "Python (tag wiki)_");
             correctionAdd("Python_", "Python (tag wiki)_");
+            correctionAdd("[tag:python]_", "Python (tag wiki)_");
 
             correctionAdd("ruby_", "Ruby (tag wiki)_");
+
+            correctionAdd("[tag:c]_", "C (tag wiki)_");
 
             correctionAdd("regex_", "regular expression (tag wiki)_");
 
@@ -70072,6 +70133,8 @@ namespace OverflowHelper.core
             URL_Add("Pervasive PSQL_", "https://en.wikipedia.org/wiki/Pervasive_PSQL");
 
             URL_Add("format_", "https://docs.python.org/3.8/library/functions.html#format");
+
+            URL_Add("C (tag wiki)_", "https://stackoverflow.com/questions/tagged/c");
 
         } //addLookupData_alternativeWordSet()
 
