@@ -1372,6 +1372,7 @@ namespace OverflowHelper.core
             correctionAdd("Apache-Common", "Apache Commons");
             correctionAdd("Apache-Commons", "Apache Commons");
             correctionAdd("Apache Common", "Apache Commons");
+            correctionAdd("Apache Utils", "Apache Commons");
 
             correctionAdd("Airflow", "Apache Airflow");
             correctionAdd("apache-airflow", "Apache Airflow");
@@ -2466,6 +2467,7 @@ namespace OverflowHelper.core
             correctionAdd("InterToobs", "Internet");
             correctionAdd("I-Net", "Internet");
             correctionAdd("I-net", "Internet");
+            correctionAdd("intarnetz", "Internet");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -3246,6 +3248,7 @@ namespace OverflowHelper.core
             correctionAdd("escpected", "expected");
             correctionAdd("expeded", "expected");
             correctionAdd("exepected", "expected");
+            correctionAdd("aspected", "expected");
 
             correctionAdd("expect", "Expect");
             correctionAdd("EXPECT", "Expect");
@@ -5470,6 +5473,7 @@ namespace OverflowHelper.core
             correctionAdd("linix", "Linux");
             correctionAdd("LInux", "Linux");
             correctionAdd("Lunux", "Linux");
+            correctionAdd("Lnx", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -11388,6 +11392,7 @@ namespace OverflowHelper.core
             correctionAdd("Buguntu", "Ubuntu");
             correctionAdd("Ubuntu OS", "Ubuntu");
             correctionAdd("Yuchbuntu", "Ubuntu");
+            correctionAdd("Ubtu", "Ubuntu");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -39459,6 +39464,7 @@ namespace OverflowHelper.core
             correctionAdd("U*x", "Unix-like");
             correctionAdd("Unix like", "Unix-like");
             correctionAdd("unix like", "Unix-like");
+            correctionAdd("*Nix*", "Unix-like");
 
             correctionAdd("web", "Web");
 
@@ -39511,6 +39517,7 @@ namespace OverflowHelper.core
             correctionAdd("unconditionnaly", "unconditionally");
 
             correctionAdd("Ucraine", "Ukraine");
+            correctionAdd("Ukrain", "Ukraine");
 
             correctionAdd("click bait", "clickbait");
             correctionAdd("Click bait", "clickbait");
@@ -43383,6 +43390,7 @@ namespace OverflowHelper.core
 
             correctionAdd("front slash", "forward slash");
             correctionAdd("forward-slash", "forward slash");
+            correctionAdd("forwardslash", "forward slash");
 
             correctionAdd("Openpyxl", "openpyxl");
 
@@ -43558,6 +43566,19 @@ namespace OverflowHelper.core
 
             correctionAdd("QCD", "quantum chromodynamics");
             correctionAdd("Quantum Chromodynamics", "quantum chromodynamics");
+
+            correctionAdd("os.path.join()", "os.path.join");
+
+            correctionAdd("randomstringutils", "RandomStringUtils");
+
+            correctionAdd("BWF", "Badminton World Federation");
+            correctionAdd("IBF", "Badminton World Federation");
+            correctionAdd("badminton federation", "Badminton World Federation");
+            correctionAdd("ibf", "Badminton World Federation");
+
+            correctionAdd("Cabo Verde", "Cape Verde");
+
+            correctionAdd("hannah arendt", "Hannah Arendt");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68421,6 +68442,16 @@ namespace OverflowHelper.core
 
             URL_Add("quantum chromodynamics", "https://en.wikipedia.org/wiki/Quantum_chromodynamics");
 
+            URL_Add("os.path.join", "https://docs.python.org/3.8/library/os.path.html#os.path.join");
+
+            URL_Add("RandomStringUtils", "https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/package-summary.html#package.description");
+
+            URL_Add("Badminton World Federation", "https://en.wikipedia.org/wiki/Badminton_World_Federation");
+
+            URL_Add("Cape Verde", "https://en.wikipedia.org/wiki/Cape_Verde");
+
+            URL_Add("Hannah Arendt", "https://en.wikipedia.org/wiki/Hannah_Arendt");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68648,6 +68679,8 @@ namespace OverflowHelper.core
             correctionAdd("WMD_", "weapon of mass destruction_");
 
             correctionAdd("one line_", "one-line_");
+            correctionAdd("1 line_", "one-line_");
+            correctionAdd("1-line_", "one-line_");
 
             correctionAdd("basic_", "101_");
             correctionAdd("one oh one_", "101_");
@@ -69166,32 +69199,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cse_", "CSE_");
 
-            correctionAdd(".net_", ".NET (tag wiki)_");
-            correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
-
-            correctionAdd("java_", "Java (tag wiki)_");
-            correctionAdd("[tag:java]_", "Java (tag wiki)_");
-
-            correctionAdd("javascript_", "JavaScript (tag wiki)_");
-            correctionAdd("[tag:javascript]_", "JavaScript (tag wiki)_");
-
-            correctionAdd("php_", "PHP (tag wiki)_");
-            correctionAdd("PHP_", "PHP (tag wiki)_");
-            correctionAdd("[tag:php]_", "PHP (tag wiki)_");
-
-            correctionAdd("perl_", "Perl (tag wiki)_");
-            correctionAdd("[tag:perl]_", "Perl (tag wiki)_");
-
-            correctionAdd("python_", "Python (tag wiki)_");
-            correctionAdd("Python_", "Python (tag wiki)_");
-            correctionAdd("[tag:python]_", "Python (tag wiki)_");
-
-            correctionAdd("ruby_", "Ruby (tag wiki)_");
-
-            correctionAdd("[tag:c]_", "C (tag wiki)_");
-
-            correctionAdd("regex_", "regular expression (tag wiki)_");
-
             correctionAdd("tumble weed_", "tumbleweed_");
 
             correctionAdd("CI_", "confidence interval_");
@@ -69270,49 +69277,98 @@ namespace OverflowHelper.core
             correctionAdd("Space Exploration_", "Space Exploration (Stack Exchange site)_");
             correctionAdd("Space_", "Space Exploration (Stack Exchange site)_");
 
-            correctionAdd("[tag:node.js]_", "Node.js_");
-
-            correctionAdd("[tag:iOS]_", "iOS_");
-
             correctionAdd("rome_", "Rome_");
 
             correctionAdd("radium_", "Radium_");
 
             correctionAdd("HEAD_", "head_");
 
-            // The Stack Overflow tag
-            correctionAdd("[tag:Android]_", "Android_");
+            // The Stack Overflow tags
+            correctionAdd(".net_", ".NET (tag wiki)_");
+            correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
 
-            correctionAdd("[tag:HTML5]_", "HTML5_");
+            correctionAdd("java_", "Java (tag wiki)_");
+            correctionAdd("[tag:java]_", "Java (tag wiki)_");
 
-            correctionAdd("[tag:loopbackjs]_", "LoopBack_");
+            correctionAdd("javascript_", "JavaScript (tag wiki)_");
+            correctionAdd("[tag:javascript]_", "JavaScript (tag wiki)_");
 
-            correctionAdd("[tag:codeplex]_", "CodePlex_");
+            correctionAdd("php_", "PHP (tag wiki)_");
+            correctionAdd("PHP_", "PHP (tag wiki)_");
+            correctionAdd("[tag:php]_", "PHP (tag wiki)_");
 
-            correctionAdd("[tag:dbf]_", "DBF_");
+            correctionAdd("perl_", "Perl (tag wiki)_");
+            correctionAdd("[tag:perl]_", "Perl (tag wiki)_");
 
-            correctionAdd("[tag:foxpro]_", "FoxPro_");
+            correctionAdd("python_", "Python (tag wiki)_");
+            correctionAdd("Python_", "Python (tag wiki)_");
+            correctionAdd("[tag:python]_", "Python (tag wiki)_");
 
-            correctionAdd("[tag:dbase]_", "dBase_");
+            correctionAdd("ruby_", "Ruby (tag wiki)_");
+            correctionAdd("[tag:ruby]_", "Ruby (tag wiki)_");
 
-            correctionAdd("[tag:xbase]_", "xBase_");
+            correctionAdd("[tag:c]_", "C (tag wiki)_");
 
-            correctionAdd("[tag:groovy]_", "Groovy_");
+            correctionAdd("[tag:node.js]_", "Node.js (tag wiki)_");
 
-            correctionAdd("[tag:ruby]_", "Ruby_");
+            correctionAdd("[tag:ios]_", "iOS (tag wiki)_");
 
-            correctionAdd("[tag:asp.net]_", "ASP.NET_");
+            correctionAdd("regex_", "regular expression (tag wiki)_");
+            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
 
-            correctionAdd("[tag:git]_", "Git_");
+            correctionAdd("[tag:android]_", "Android (tag wiki)_");
 
-            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server_");
-            correctionAdd("SQL Server_", "SQL&nbsp;Server_"); // Sort of identity mapping
+            correctionAdd("[tag:html5]_", "HTML5 (tag wiki)_");
+
+            correctionAdd("[tag:loopbackjs]_", "LoopBack (tag wiki)_");
+
+            correctionAdd("[tag:codeplex]_", "CodePlex (tag wiki)_");
+
+            correctionAdd("[tag:dbf]_", "DBF (tag wiki)_");
+
+            correctionAdd("[tag:foxpro]_", "FoxPro (tag wiki)_");
+
+            correctionAdd("[tag:dbase]_", "dBase (tag wiki)_");
+
+            correctionAdd("[tag:xbase]_", "xBase (tag wiki)_");
+
+            correctionAdd("[tag:groovy]_", "Groovy (tag wiki)_");
+
+            correctionAdd("[tag:asp.net]_", "ASP.NET (tag wiki)_");
+
+            correctionAdd("[tag:git]_", "Git (tag wiki)_");
+
+            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("SQL Server (tag wiki)_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
 
             correctionAdd("sql_", "SQL (tag wiki)_");
+            correctionAdd("[tag:sql]_", "SQL (tag wiki)_");
 
             correctionAdd("vb.net_", "VB.NET (tag wiki)_");
+            correctionAdd("[tag:vb.net]_", "VB.NET (tag wiki)_");
 
             correctionAdd("vba_", "VBA (tag wiki)_");
+            correctionAdd("[tag:vba]_", "VBA (tag wiki)_");
+
+            correctionAdd("django_", "Django (tag wiki)_");
+            correctionAdd("[tag:django]_", "Django (tag wiki)_");
+
+            correctionAdd("[tag:c#]_", "C# (tag wiki)_");
+            correctionAdd("C#_", "C# (tag wiki)_");
+            correctionAdd("c#_", "C# (tag wiki)_");
+
+            correctionAdd("[tag:dart]_", "Dart (tag wiki)_");
+            correctionAdd("Dart_", "Dart (tag wiki)_");
+            correctionAdd("dart_", "Dart (tag wiki)_");
+
+            correctionAdd("[tag:firebase]_", "Firebase (tag wiki)_");
+            correctionAdd("Firebase_", "Firebase (tag wiki)_");
+            correctionAdd("firebase_", "Firebase (tag wiki)_");
+
+            correctionAdd("[tag:kotlin]_", "Kotlin (tag wiki)_");
+            correctionAdd("Kotlin_", "Kotlin (tag wiki)_");
+            correctionAdd("kotlin_", "Kotlin (tag wiki)_");
 
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
@@ -69419,27 +69475,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Volatile_", "volatile_");
 
-            correctionAdd("django_", "Django (tag wiki)_");
-
             correctionAdd("CW_", "Community Wiki_");
 
             correctionAdd("hr_", "hour_");
-
-            correctionAdd("[tag:c#]_", "C# (tag wiki)_");
-            correctionAdd("C#_", "C# (tag wiki)_");
-            correctionAdd("c#_", "C# (tag wiki)_");
-
-            correctionAdd("[tag:dart]_", "Dart (tag wiki)_");
-            correctionAdd("Dart_", "Dart (tag wiki)_");
-            correctionAdd("dart_", "Dart (tag wiki)_");
-
-            correctionAdd("[tag:firebase]_", "Firebase (tag wiki)_");
-            correctionAdd("Firebase_", "Firebase (tag wiki)_");
-            correctionAdd("firebase_", "Firebase (tag wiki)_");
-
-            correctionAdd("[tag:kotlin]_", "Kotlin (tag wiki)_");
-            correctionAdd("Kotlin_", "Kotlin (tag wiki)_");
-            correctionAdd("kotlin_", "Kotlin (tag wiki)_");
 
             correctionAdd("proof_", "prove_");
 
@@ -69486,6 +69524,8 @@ namespace OverflowHelper.core
             correctionAdd("pervasive_", "Pervasive PSQL_");
 
             correctionAdd("format()_", "format_");
+
+            correctionAdd("[tag:c++]_", "C++ (tag wiki)_");
 
             // URL mappings
             //
@@ -69564,15 +69604,15 @@ namespace OverflowHelper.core
 
             URL_Add("it_", "https://en.wiktionary.org/wiki/it#Pronoun");
 
-            URL_Add("Node.js_", "https://stackoverflow.com/questions/tagged/node.js");
+            URL_Add("Node.js (tag wiki)_", "https://stackoverflow.com/questions/tagged/node.js");
 
-            URL_Add("iOS_", "https://stackoverflow.com/questions/tagged/ios");
+            URL_Add("iOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/ios");
 
-            URL_Add("Android_", "https://stackoverflow.com/questions/tagged/android");
+            URL_Add("Android (tag wiki)_", "https://stackoverflow.com/questions/tagged/android");
 
-            URL_Add("HTML5_", "https://stackoverflow.com/questions/tagged/html5");
+            URL_Add("HTML5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/html5");
 
-            URL_Add("LoopBack_", "https://stackoverflow.com/questions/tagged/loopbackjs"); // Old: https://stackoverflow.com/tags/loopbackjs/info
+            URL_Add("LoopBack (tag wiki)_", "https://stackoverflow.com/questions/tagged/loopbackjs"); // Old: https://stackoverflow.com/tags/loopbackjs/info
 
             URL_Add("setup_", "https://en.wiktionary.org/wiki/setup#Noun");
 
@@ -69982,15 +70022,15 @@ namespace OverflowHelper.core
 
             URL_Add("Amazon Machine Image_", "https://en.wikipedia.org/wiki/Amazon_Machine_Image");
 
-            URL_Add("CodePlex_", "https://stackoverflow.com/questions/tagged/codeplex");
+            URL_Add("CodePlex (tag wiki)_", "https://stackoverflow.com/questions/tagged/codeplex");
 
-            URL_Add("DBF_", "https://stackoverflow.com/questions/tagged/dbf");
+            URL_Add("DBF (tag wiki)_", "https://stackoverflow.com/questions/tagged/dbf");
 
-            URL_Add("FoxPro_", "https://stackoverflow.com/questions/tagged/foxpro");
+            URL_Add("FoxPro (tag wiki)_", "https://stackoverflow.com/questions/tagged/foxpro");
 
-            URL_Add("dBase_", "https://stackoverflow.com/questions/tagged/dbase");
+            URL_Add("dBase (tag wiki)_", "https://stackoverflow.com/questions/tagged/dbase");
 
-            URL_Add("xBase_", "https://stackoverflow.com/questions/tagged/xbase");
+            URL_Add("xBase (tag wiki)_", "https://stackoverflow.com/questions/tagged/xbase");
 
             URL_Add("upgrade_", "https://en.wiktionary.org/wiki/upgrade#Noun");
 
@@ -70004,21 +70044,19 @@ namespace OverflowHelper.core
 
             URL_Add("write_", "https://en.wiktionary.org/wiki/write#Verb");
 
-            URL_Add("Groovy_", "https://stackoverflow.com/questions/tagged/groovy");
+            URL_Add("Groovy (tag wiki)_", "https://stackoverflow.com/questions/tagged/groovy");
 
             URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
 
-            URL_Add("Ruby_", "https://stackoverflow.com/questions/tagged/ruby");
-
             URL_Add("density-functional theory_", "https://en.wikipedia.org/wiki/Density_functional_theory");
 
-            URL_Add("ASP.NET_", "https://stackoverflow.com/questions/tagged/asp.net");
+            URL_Add("ASP.NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/asp.net");
 
             URL_Add("Ethereum (Stack Exchange site)_", "https://ethereum.stackexchange.com/tour");
 
-            URL_Add("Git_", "https://stackoverflow.com/questions/tagged/git");
+            URL_Add("Git (tag wiki)_", "https://stackoverflow.com/questions/tagged/git");
 
-            URL_Add("SQL&nbsp;Server_", "https://stackoverflow.com/questions/tagged/sql-server");
+            URL_Add("SQL&nbsp;Server (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql-server");
 
             URL_Add("Rome_", "https://github.com/tmspzz/Rome");
 
@@ -70135,6 +70173,8 @@ namespace OverflowHelper.core
             URL_Add("format_", "https://docs.python.org/3.8/library/functions.html#format");
 
             URL_Add("C (tag wiki)_", "https://stackoverflow.com/questions/tagged/c");
+
+            URL_Add("C++ (tag wiki)_", "https://stackoverflow.com/questions/tagged/c++");
 
         } //addLookupData_alternativeWordSet()
 
