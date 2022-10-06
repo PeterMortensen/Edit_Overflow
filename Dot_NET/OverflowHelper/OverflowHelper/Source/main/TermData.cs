@@ -6997,6 +6997,7 @@ namespace OverflowHelper.core
             correctionAdd("pagagraph", "paragraph");
             correctionAdd("aragraph", "paragraph");
             correctionAdd("pardagraph", "paragraph");
+            correctionAdd("paragraf", "paragraph");
 
             correctionAdd("ph", "pH");
             correctionAdd("PH", "pH");
@@ -12937,6 +12938,12 @@ namespace OverflowHelper.core
             correctionAdd("BeatifulSoup", "Beautiful Soup");
             correctionAdd("Beautifulsoup", "Beautiful Soup");
 
+            correctionAdd("beatiful", "beautiful");
+            correctionAdd("beutiful", "beautiful");
+            correctionAdd("beautifull", "beautiful");
+            correctionAdd("beautuful", "beautiful");
+            correctionAdd("beutifull", "beautiful");
+
             correctionAdd("aix", "AIX");
 
             correctionAdd("hpux", "HP-UX");
@@ -16326,6 +16333,7 @@ namespace OverflowHelper.core
             correctionAdd("perferctly", "perfectly");
             correctionAdd("perfecty", "perfectly");
             correctionAdd("perfrectly", "perfectly");
+            correctionAdd("perfeclty", "perfectly");
 
             correctionAdd("phonemenia", "phonomena");
 
@@ -19197,12 +19205,6 @@ namespace OverflowHelper.core
             correctionAdd("androidx", "Android X");
             correctionAdd("android x", "Android X");
             correctionAdd("X Android", "Android X");
-
-            correctionAdd("beatiful", "beautiful");
-            correctionAdd("beutiful", "beautiful");
-            correctionAdd("beautifull", "beautiful");
-            correctionAdd("beautuful", "beautiful");
-            correctionAdd("beutifull", "beautiful");
 
             correctionAdd("gotsha", "gotcha");
             correctionAdd("gottach", "gotcha");
@@ -26454,6 +26456,7 @@ namespace OverflowHelper.core
             correctionAdd("cnosole", "console");
 
             correctionAdd("convertion", "conversion");
+            correctionAdd("converion", "conversion");
 
             correctionAdd("html tidy", "HTML Tidy");
 
@@ -29860,6 +29863,7 @@ namespace OverflowHelper.core
 
             correctionAdd("take into accound", "take into account");
             correctionAdd("take in count", "take into account");
+            correctionAdd("take into the account", "take into account");
 
             correctionAdd("tireing", "tiring");
             correctionAdd("tiering", "tiring");
@@ -34440,6 +34444,7 @@ namespace OverflowHelper.core
             correctionAdd("egine", "engine");
 
             correctionAdd("fixeded", "fixed");
+            correctionAdd("fixxed", "fixed");
 
             correctionAdd("keep up appearance", "keep up appearances");
 
@@ -37501,6 +37506,7 @@ namespace OverflowHelper.core
             correctionAdd("Travelling salesman problem", "travelling salesman problem");
 
             correctionAdd("hadeline", "headline");
+            correctionAdd("Headline", "headline");
 
             correctionAdd("astraea", "Astraea");
 
@@ -41011,6 +41017,7 @@ namespace OverflowHelper.core
             correctionAdd("title casing", "titlecasing");
 
             correctionAdd("yeild", "yield");
+            correctionAdd("yeld", "yield");
 
             correctionAdd("egyptian", "Egyptian");
 
@@ -43580,6 +43587,16 @@ namespace OverflowHelper.core
 
             correctionAdd("hannah arendt", "Hannah Arendt");
 
+            correctionAdd("uglyness", "ugliness");
+
+            correctionAdd("convertet", "converted");
+
+            correctionAdd("JLS", "Java Language Specification");
+
+            correctionAdd("xregexp", "XRegExp");
+
+            correctionAdd("clearbits", "ClearBits");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -43652,6 +43669,7 @@ namespace OverflowHelper.core
             correctionAdd("Convid", "COVID-19"); // Coronavirus
             correctionAdd("Cov 19", "COVID-19"); // Coronavirus
             correctionAdd("wuflu", "COVID-19"); // Coronavirus
+            correctionAdd("fakedemic", "COVID-19");
 
             correctionAdd("Corona Virus", "coronavirus"); // Coronavirus
             correctionAdd("Coronavirus", "coronavirus"); // Coronavirus
@@ -68452,6 +68470,16 @@ namespace OverflowHelper.core
 
             URL_Add("Hannah Arendt", "https://en.wikipedia.org/wiki/Hannah_Arendt");
 
+            URL_Add("ugliness", "https://en.wiktionary.org/wiki/ugliness#Noun");
+
+            URL_Add("converted", "https://en.wiktionary.org/wiki/convert#Verb");
+
+            URL_Add("Java Language Specification", "https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf");
+
+            URL_Add("XRegExp", "https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines#Libraries");
+
+            URL_Add("ClearBits", "https://wiki.creativecommons.org/wiki/Case_Studies/ClearBits");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68976,6 +69004,7 @@ namespace OverflowHelper.core
             correctionAdd("Psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
             correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology&Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_");
 
             correctionAdd("Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
             correctionAdd("SFF_", "Science Fiction & Fantasy (Stack Exchange site)_");
@@ -68990,6 +69019,7 @@ namespace OverflowHelper.core
             correctionAdd("Medical SE_", "Medical Sciences (Stack Exchange site)_");
             correctionAdd("Life Sciences_", "Medical Sciences (Stack Exchange site)_");
             correctionAdd("medical_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("MedicalSciences_", "Medical Sciences (Stack Exchange site)_");
 
             correctionAdd("Are_", "are_");
             correctionAdd("aer_", "are_");
@@ -69286,6 +69316,7 @@ namespace OverflowHelper.core
             // The Stack Overflow tags
             correctionAdd(".net_", ".NET (tag wiki)_");
             correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
+            correctionAdd("[tag:dotnet]_", ".NET (tag wiki)_"); // Tag synonym
 
             correctionAdd("java_", "Java (tag wiki)_");
             correctionAdd("[tag:java]_", "Java (tag wiki)_");
@@ -69308,6 +69339,7 @@ namespace OverflowHelper.core
             correctionAdd("[tag:ruby]_", "Ruby (tag wiki)_");
 
             correctionAdd("[tag:c]_", "C (tag wiki)_");
+            correctionAdd("c_", "C (tag wiki)_");
 
             correctionAdd("[tag:node.js]_", "Node.js (tag wiki)_");
 
@@ -69369,6 +69401,69 @@ namespace OverflowHelper.core
             correctionAdd("[tag:kotlin]_", "Kotlin (tag wiki)_");
             correctionAdd("Kotlin_", "Kotlin (tag wiki)_");
             correctionAdd("kotlin_", "Kotlin (tag wiki)_");
+
+            correctionAdd("[tag:c++]_", "C++ (tag wiki)_");
+            correctionAdd("c++_", "C++ (tag wiki)_");
+
+            correctionAdd("[tag:cpython]_", "CPython (tag wiki)_");
+            correctionAdd("cpython_", "CPython (tag wiki)_");
+
+            correctionAdd("[tag:flask]_", "Flask (tag wiki)_");
+            correctionAdd("flask_", "Flask (tag wiki)_");
+
+            correctionAdd("[tag:jython]_", "Jython (tag wiki)_");
+            correctionAdd("jython_", "Jython (tag wiki)_");
+
+            correctionAdd("[tag:numpy]_", "NumPy (tag wiki)_");
+            correctionAdd("numpy_", "NumPy (tag wiki)_");
+
+            correctionAdd("[tag:pandas]_", "Pandas (tag wiki)_");
+            correctionAdd("pandas_", "Pandas (tag wiki)_");
+
+            correctionAdd("[tag:pip]_", "pip (tag wiki)_");
+            correctionAdd("pip_", "pip (tag wiki)_");
+
+            correctionAdd("[tag:pypy]_", "PyPy (tag wiki)_");
+            correctionAdd("pypy_", "PyPy (tag wiki)_");
+
+            correctionAdd("[tag:scipy]_", "SciPy (tag wiki)_");
+            correctionAdd("scipy_", "SciPy (tag wiki)_");
+
+            correctionAdd("[tag:tensorflow]_", "TensorFlow (tag wiki)_");
+            correctionAdd("tensorflow_", "TensorFlow (tag wiki)_");
+
+            correctionAdd("[tag:tkinter]_", "Tkinter (tag wiki)_");
+            correctionAdd("tkinter_", "Tkinter (tag wiki)_");
+
+            // Note: It for ICU as in the alternative word set
+            //       (International Components for Unicode),
+            //       not as in the main word set.
+            correctionAdd("[tag:icu]_", "ICU (tag wiki)_");
+            correctionAdd("icu_", "ICU (tag wiki)_");
+
+            correctionAdd("[tag:objective-c]_", "Objective-C (tag wiki)_");
+            correctionAdd("objective-c_", "Objective-C (tag wiki)_");
+
+            correctionAdd("[tag:pcre]_", "PCRE (tag wiki)_");
+            correctionAdd("pcre_", "PCRE (tag wiki)_");
+
+            correctionAdd("[tag:xpath]_", "XPath (tag wiki)_");
+            correctionAdd("xpath_", "XPath (tag wiki)_");
+
+            correctionAdd("[tag:go]_", "Go (tag wiki)_");
+            correctionAdd("go_", "Go (tag wiki)_");
+
+            correctionAdd("[tag:haskell]_", "Haskell (tag wiki)_");
+            correctionAdd("haskell_", "Haskell (tag wiki)_");
+
+            correctionAdd("[tag:r]_", "R (tag wiki)_");
+            correctionAdd("r_", "R (tag wiki)_");
+
+            correctionAdd("[tag:swift]_", "Swift (tag wiki)_");
+            correctionAdd("swift_", "Swift (tag wiki)_");
+
+            correctionAdd("[tag:xregexp]_", "XRegExp (tag wiki)_");
+            correctionAdd("xregexp_", "XRegExp (tag wiki)_");
 
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
@@ -69525,7 +69620,7 @@ namespace OverflowHelper.core
 
             correctionAdd("format()_", "format_");
 
-            correctionAdd("[tag:c++]_", "C++ (tag wiki)_");
+            correctionAdd("ICU_", "International Components for Unicode_");
 
             // URL mappings
             //
@@ -70175,6 +70270,46 @@ namespace OverflowHelper.core
             URL_Add("C (tag wiki)_", "https://stackoverflow.com/questions/tagged/c");
 
             URL_Add("C++ (tag wiki)_", "https://stackoverflow.com/questions/tagged/c++");
+
+            URL_Add("CPython (tag wiki)_", "https://stackoverflow.com/questions/tagged/cpython");
+
+            URL_Add("Flask (tag wiki)_", "https://stackoverflow.com/questions/tagged/flask");
+
+            URL_Add("Jython (tag wiki)_", "https://stackoverflow.com/questions/tagged/jython");
+
+            URL_Add("NumPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/numpy");
+
+            URL_Add("Pandas (tag wiki)_", "https://stackoverflow.com/questions/tagged/pandas");
+
+            URL_Add("pip (tag wiki)_", "https://stackoverflow.com/questions/tagged/pip");
+
+            URL_Add("PyPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/pypy");
+
+            URL_Add("SciPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/scipy");
+
+            URL_Add("TensorFlow (tag wiki)_", "https://stackoverflow.com/questions/tagged/tensorflow");
+
+            URL_Add("Tkinter (tag wiki)_", "https://stackoverflow.com/questions/tagged/tkinter");
+
+            URL_Add("ICU (tag wiki)_", "https://stackoverflow.com/questions/tagged/icu");
+
+            URL_Add("Objective-C (tag wiki)_", "https://stackoverflow.com/questions/tagged/objective-c");
+
+            URL_Add("PCRE (tag wiki)_", "https://stackoverflow.com/questions/tagged/pcre");
+
+            URL_Add("XPath (tag wiki)_", "https://stackoverflow.com/questions/tagged/xpath");
+
+            URL_Add("Go (tag wiki)_", "https://stackoverflow.com/questions/tagged/go");
+
+            URL_Add("Haskell (tag wiki)_", "https://stackoverflow.com/questions/tagged/haskell");
+
+            URL_Add("R (tag wiki)_", "https://stackoverflow.com/questions/tagged/r");
+
+            URL_Add("Swift (tag wiki)_", "https://stackoverflow.com/questions/tagged/swift");
+
+            URL_Add("International Components for Unicode_", "https://en.wikipedia.org/wiki/International_Components_for_Unicode");
+
+            URL_Add("XRegExp (tag wiki)_", "https://stackoverflow.com/questions/tagged/xregexp");
 
         } //addLookupData_alternativeWordSet()
 
