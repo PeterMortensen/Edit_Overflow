@@ -16535,6 +16535,7 @@ namespace OverflowHelper.core
             correctionAdd("milliseonds", "millisecond");
             correctionAdd("milliseconds", "millisecond");
             correctionAdd("millis", "millisecond");
+            correctionAdd("millisecs", "millisecond");
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
@@ -18749,6 +18750,17 @@ namespace OverflowHelper.core
             correctionAdd("prblem", "problem");
             correctionAdd("problm", "problem");
             correctionAdd("probleam", "problem");
+            correctionAdd("Promlem", "problem");
+            correctionAdd("promlem", "problem");
+
+            correctionAdd("problemantic", "problematic");
+
+            correctionAdd("XY-Problem", "XY problem");
+            correctionAdd("X-Y problem", "XY problem");
+            correctionAdd("XY Problem", "XY problem");
+            correctionAdd("XY Promlem", "XY problem");
+
+            correctionAdd("np", "no problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -18993,6 +19005,8 @@ namespace OverflowHelper.core
             correctionAdd("semi", "semicolon");
             correctionAdd("Semi colon", "semicolon");
             correctionAdd("semi-column", "semicolon");
+            correctionAdd("semicolomn", "semicolon");
+            correctionAdd("semicolumn", "semicolon");
 
             correctionAdd("snipet", "snippet");
             correctionAdd("snipper", "snippet");
@@ -23832,6 +23846,7 @@ namespace OverflowHelper.core
             correctionAdd("bandpass filter", "band-pass filter");
             correctionAdd("BPF", "band-pass filter");
             correctionAdd("Bandpass filter", "band-pass filter");
+            correctionAdd("Band Pass Filter", "band-pass filter");
 
             correctionAdd("calculting", "calculating");
 
@@ -32891,8 +32906,6 @@ namespace OverflowHelper.core
             correctionAdd("non-relativistic", "nonrelativistic");
             correctionAdd("non relativistic", "nonrelativistic");
 
-            correctionAdd("problemantic", "problematic");
-
             correctionAdd("white board", "whiteboard");
 
             correctionAdd("resuts", "results");
@@ -35425,9 +35438,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tutorialspoint", "Tutorials Point");
             correctionAdd("tutorialspoint", "Tutorials Point");
-
-            correctionAdd("XY-Problem", "XY problem");
-            correctionAdd("X-Y problem", "XY problem");
 
             correctionAdd("day dream", "daydream");
 
@@ -38702,8 +38712,6 @@ namespace OverflowHelper.core
             correctionAdd("adult baby", "adult child");
             correctionAdd("kids in adult bodies", "adult child");
 
-            correctionAdd("chrono", "chronological");
-
             correctionAdd("community driven", "community-driven");
 
             correctionAdd("deffective", "defective");
@@ -40893,8 +40901,6 @@ namespace OverflowHelper.core
             correctionAdd("gruop", "group");
 
             correctionAdd("malloc()", "malloc");
-
-            correctionAdd("np", "no problem");
 
             correctionAdd("pipedream", "pipe dream");
 
@@ -43628,6 +43634,31 @@ namespace OverflowHelper.core
             correctionAdd("multi-user", "multiuser");
 
             correctionAdd("SDIO", "Secure Digital Input Output");
+
+            correctionAdd("embedded fm", "Embedded FM");
+
+            correctionAdd("top-notch", "top notch");
+
+            correctionAdd("lang-perl", "```lang-perl");
+
+            correctionAdd("noysier", "noisier");
+
+            correctionAdd("<br>", "<br/>");
+            correctionAdd("<br />", "<br/>");
+
+            correctionAdd("afirmation", "affirmation");
+
+            correctionAdd("fullscreen", "full screen");
+
+            correctionAdd("smart-card", "smart card");
+
+            correctionAdd("Stemming", "stemming");
+
+            correctionAdd("USLEEP", "usleep");
+
+            correctionAdd("chrono", "std::chrono");
+
+            correctionAdd("not a forum", "Stack Overflow is not a forum");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64168,8 +64199,6 @@ namespace OverflowHelper.core
 
             URL_Add("adult child", "https://www.lexico.com/definition/adult_child");
 
-            URL_Add("chronological", "https://en.wiktionary.org/wiki/chronological#Adjective");
-
             URL_Add("community-driven", "https://en.wikipedia.org/wiki/Community-driven_development");
 
             URL_Add("defective", "https://en.wiktionary.org/wiki/defective#Adjective");
@@ -68528,6 +68557,30 @@ namespace OverflowHelper.core
 
             URL_Add("Secure Digital Input Output", "https://en.wikipedia.org/wiki/Secure_Digital#SDIO_cards");
 
+            URL_Add("Embedded FM", "https://embedded.fm/episodes");
+
+            URL_Add("top notch", "https://en.wiktionary.org/wiki/top_notch#Adjective");
+
+            URL_Add("```lang-perl", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("noisier", "https://en.wiktionary.org/wiki/noisy#Adjective");
+
+            URL_Add("<br/>", "https://en.wikipedia.org/wiki/HTML_element#Other_inline_elements");
+
+            URL_Add("affirmation", "https://en.wiktionary.org/wiki/affirmation#Noun");
+
+            URL_Add("full screen", "https://en.wiktionary.org/wiki/full_screen#Adjective");
+
+            URL_Add("smart card", "https://en.wikipedia.org/wiki/Smart_card");
+
+            URL_Add("stemming", "https://en.wikipedia.org/wiki/Stemming#Algorithms");
+
+            URL_Add("usleep", "https://linux.die.net/man/1/usleep");
+
+            URL_Add("std::chrono", "https://cplusplus.com/reference/chrono/");
+
+            URL_Add("Stack Overflow is not a forum", "https://meta.stackoverflow.com/questions/36818/would-you-recommend-stackexchange-sites-vs-other-types-of-forum/36828#36828");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69531,6 +69584,12 @@ namespace OverflowHelper.core
             correctionAdd("[tag:ide]_", "IDE (tag wiki)_");
             correctionAdd("ide_", "IDE (tag wiki)_");
 
+            correctionAdd("[tag:boost]_", "Boost (tag wiki)_");
+            correctionAdd("boost_", "Boost (tag wiki)_");
+
+            correctionAdd("[tag:chrono]_", "chrono (tag wiki)_");
+            correctionAdd("chrono_", "chrono (tag wiki)_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -70388,6 +70447,10 @@ namespace OverflowHelper.core
             URL_Add("Python 3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
 
             URL_Add("IDE (tag wiki)_", "https://stackoverflow.com/questions/tagged/ide");
+
+            URL_Add("Boost (tag wiki)_", "https://stackoverflow.com/questions/tagged/boost");
+
+            URL_Add("chrono (tag wiki)_", "https://stackoverflow.com/questions/tagged/chrono");
 
         } //addLookupData_alternativeWordSet()
 
