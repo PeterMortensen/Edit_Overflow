@@ -657,6 +657,8 @@ namespace OverflowHelper.core
             correctionAdd("vbsscript", "VBScript");
             correctionAdd("Visual Basic Script", "VBScript");
             correctionAdd("vbScript", "VBScript");
+            correctionAdd("VBSCript", "VBScript");
+            correctionAdd("VbScript", "VBScript");
 
             correctionAdd("coffeescript", "CoffeeScript");
             correctionAdd("Coffeescript", "CoffeeScript");
@@ -3623,6 +3625,7 @@ namespace OverflowHelper.core
             correctionAdd("variale", "variable");
             correctionAdd("Vairable", "variable");
             correctionAdd("Var", "variable");
+            correctionAdd("vaiable", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -4254,7 +4257,7 @@ namespace OverflowHelper.core
             correctionAdd("Pythen", "Python");
             correctionAdd("Phyton", "Python");
             correctionAdd("pyton", "Python");
-            correctionAdd("Зython", "Python");
+            correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
 
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
@@ -12398,6 +12401,8 @@ namespace OverflowHelper.core
             correctionAdd("unfortunally", "unfortunately");
             correctionAdd("Unfortuantely", "unfortunately");
             correctionAdd("unfortuantely", "unfortunately");
+            correctionAdd("Unfortunetally", "unfortunately");
+            correctionAdd("unfortunetally", "unfortunately");
 
             correctionAdd("beggining", "beginning");
             correctionAdd("beginng", "beginning");
@@ -12849,6 +12854,7 @@ namespace OverflowHelper.core
             correctionAdd("fits", "FITS");
 
             correctionAdd("msgbox", "MsgBox");
+            correctionAdd("MSGbox", "MsgBox");
 
             correctionAdd("phd", "Ph.D.");
             correctionAdd("PHD", "Ph.D.");
@@ -13246,6 +13252,7 @@ namespace OverflowHelper.core
             correctionAdd("diedn't", "didn’t");
             correctionAdd("didn;t", "didn’t");
             correctionAdd("didn\"t", "didn’t");
+            correctionAdd("didn´t", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -15403,6 +15410,8 @@ namespace OverflowHelper.core
             correctionAdd("python v2", "Python&nbsp;2");
             correctionAdd("python-2", "Python&nbsp;2");
             correctionAdd("py 2", "Python&nbsp;2");
+            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
 
             correctionAdd("python3", "Python&nbsp;3");
             correctionAdd("Python 3", "Python&nbsp;3");
@@ -15413,6 +15422,8 @@ namespace OverflowHelper.core
             correctionAdd("Pyhton3", "Python&nbsp;3");
             correctionAdd("python v3", "Python&nbsp;3");
             correctionAdd("Py 3", "Python&nbsp;3");
+            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
 
             correctionAdd("quran", "Qur'an");
             correctionAdd("Quran", "Qur'an");
@@ -26280,6 +26291,7 @@ namespace OverflowHelper.core
 
             correctionAdd("relaive", "relative");
             correctionAdd("realive", "relative");
+            correctionAdd("relatieve", "relative");
 
             correctionAdd("re-start", "restart");
             correctionAdd("retart", "restart");
@@ -31147,6 +31159,7 @@ namespace OverflowHelper.core
             correctionAdd("destinguish", "distinguish");
             correctionAdd("distiguich", "distinguish");
             correctionAdd("distiguish", "distinguish");
+            correctionAdd("distinguis", "distinguish");
 
             correctionAdd("Quasi", "quasi");
 
@@ -40728,6 +40741,7 @@ namespace OverflowHelper.core
             correctionAdd("obsticible", "obstacle");
 
             correctionAdd("querystring", "query string");
+            correctionAdd("query parameter", "query string");
 
             correctionAdd("savez", "saved");
 
@@ -43552,6 +43566,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Board Support Package", "board support package");
             correctionAdd("BSP", "board support package");
+            correctionAdd("Bsp", "board support package");
+            correctionAdd("bsp", "board support package");
 
             correctionAdd("conccurency", "concurrency");
 
@@ -43596,6 +43612,22 @@ namespace OverflowHelper.core
             correctionAdd("xregexp", "XRegExp");
 
             correctionAdd("clearbits", "ClearBits");
+
+            correctionAdd("python-2.7", "Python 2.7");
+
+            correctionAdd("python-3.5", "Python 3.5");
+
+            correctionAdd("python-3.6", "Python 3.6");
+
+            correctionAdd("folketingsvalg", "Folketingsvalget 2022");
+
+            correctionAdd("on a platter", "on a silver platter");
+
+            correctionAdd("micro-kernel", "microkernel");
+
+            correctionAdd("multi-user", "multiuser");
+
+            correctionAdd("SDIO", "Secure Digital Input Output");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68480,6 +68512,22 @@ namespace OverflowHelper.core
 
             URL_Add("ClearBits", "https://wiki.creativecommons.org/wiki/Case_Studies/ClearBits");
 
+            URL_Add("Python 2.7", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
+
+            URL_Add("Python 3.5", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+
+            URL_Add("Python 3.6", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+
+            URL_Add("Folketingsvalget 2022", "https://da.wikipedia.org/wiki/Folketingsvalget_2022");
+
+            URL_Add("on a silver platter", "https://idioms.thefreedictionary.com/on+a+silver+platter");
+
+            URL_Add("microkernel", "https://en.wikipedia.org/wiki/Microkernel");
+
+            URL_Add("multiuser", "https://en.wiktionary.org/wiki/multiuser#Adjective");
+
+            URL_Add("Secure Digital Input Output", "https://en.wikipedia.org/wiki/Secure_Digital#SDIO_cards");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69465,6 +69513,24 @@ namespace OverflowHelper.core
             correctionAdd("[tag:xregexp]_", "XRegExp (tag wiki)_");
             correctionAdd("xregexp_", "XRegExp (tag wiki)_");
 
+            correctionAdd("[tag:python-2.x]_", "Python 2.x (tag wiki)_");
+            correctionAdd("python-2.x_", "Python 2.x (tag wiki)_");
+
+            correctionAdd("[tag:python-2.7]_", "Python 2.7 (tag wiki)_");
+            correctionAdd("python-2.7_", "Python 2.7 (tag wiki)_");
+
+            correctionAdd("[tag:python-3.x]_", "Python 3.x (tag wiki)_");
+            correctionAdd("python-3.x_", "Python 3.x (tag wiki)_");
+
+            correctionAdd("[tag:python-3.5]_", "Python 3.5 (tag wiki)_");
+            correctionAdd("python-3.5_", "Python 3.5 (tag wiki)_");
+
+            correctionAdd("[tag:python-3.6]_", "Python 3.6 (tag wiki)_");
+            correctionAdd("python-3.6_", "Python 3.6 (tag wiki)_");
+
+            correctionAdd("[tag:ide]_", "IDE (tag wiki)_");
+            correctionAdd("ide_", "IDE (tag wiki)_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -70310,6 +70376,18 @@ namespace OverflowHelper.core
             URL_Add("International Components for Unicode_", "https://en.wikipedia.org/wiki/International_Components_for_Unicode");
 
             URL_Add("XRegExp (tag wiki)_", "https://stackoverflow.com/questions/tagged/xregexp");
+
+            URL_Add("Python 2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
+
+            URL_Add("Python 2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
+
+            URL_Add("Python 3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
+
+            URL_Add("Python 3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
+
+            URL_Add("Python 3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
+
+            URL_Add("IDE (tag wiki)_", "https://stackoverflow.com/questions/tagged/ide");
 
         } //addLookupData_alternativeWordSet()
 
