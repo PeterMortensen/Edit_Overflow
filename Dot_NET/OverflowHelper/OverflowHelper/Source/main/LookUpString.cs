@@ -147,18 +147,20 @@ namespace OverflowHelper.core
                 // Sample: "--"
                 (aRawString[endIdx] != '-') &&
 
-                // Sample: "C♯"
-                (aRawString[endIdx] != '♯') &&
-
                 // Sample: "M$"
                 (aRawString[endIdx] != '$') &&
 
                 // Sample: "8 "Jessie""
                 (aRawString[endIdx] != '\"') &&
 
+                // Sample: "<br>"
+                (aRawString[endIdx] != '>') &&
+
+                // Sample: "C♯"
+                (aRawString[endIdx] != '♯') &&
+
                 // Sample: "2¢"
                 (aRawString[endIdx] != '¢') &&
-
 
                 // Sample: "voilà"
                 (aRawString[endIdx] != 'à') &&
