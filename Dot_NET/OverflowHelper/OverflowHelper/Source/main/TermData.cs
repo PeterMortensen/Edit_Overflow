@@ -5477,6 +5477,7 @@ namespace OverflowHelper.core
             correctionAdd("LInux", "Linux");
             correctionAdd("Lunux", "Linux");
             correctionAdd("Lnx", "Linux");
+            correctionAdd("liunx", "Linux");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -21683,6 +21684,7 @@ namespace OverflowHelper.core
             correctionAdd("plagariasm", "plagiarism");
             correctionAdd("plagorism", "plagiarism");
             correctionAdd("plagiasrism", "plagiarism");
+            correctionAdd("plagirism", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -23607,6 +23609,7 @@ namespace OverflowHelper.core
             correctionAdd("joistick", "joystick");
 
             correctionAdd("programer", "programmer");
+            correctionAdd("prgrammer", "programmer");
 
             correctionAdd("tool chain", "toolchain");
             correctionAdd("Toolchain", "toolchain");
@@ -27444,6 +27447,12 @@ namespace OverflowHelper.core
             correctionAdd("udnerstanding", "understanding");
             correctionAdd("understadnig", "understanding");
             correctionAdd("understating", "understanding");
+            correctionAdd("understading", "understanding");
+
+            correctionAdd("mis-understanding", "misunderstanding");
+            correctionAdd("missunderstanding", "misunderstanding");
+            correctionAdd("miss understanding", "misunderstanding");
+            correctionAdd("mis understanding", "misunderstanding");
 
             correctionAdd("ressource", "resource");
             correctionAdd("recourse", "resource");
@@ -28775,6 +28784,7 @@ namespace OverflowHelper.core
             correctionAdd("mot", "not");
             correctionAdd("nto", "not");
             correctionAdd("noz", "not");
+            correctionAdd("nit", "not");
 
             correctionAdd("anyother", "another");
             correctionAdd("enother", "another");
@@ -31021,11 +31031,6 @@ namespace OverflowHelper.core
             correctionAdd("cellulaure", "cellular");
 
             correctionAdd("leval", "level");
-
-            correctionAdd("mis-understanding", "misunderstanding");
-            correctionAdd("missunderstanding", "misunderstanding");
-            correctionAdd("miss understanding", "misunderstanding");
-            correctionAdd("mis understanding", "misunderstanding");
 
             correctionAdd("natral", "natural");
 
@@ -37926,6 +37931,7 @@ namespace OverflowHelper.core
             correctionAdd("Microsoft Azure Active Directory", "Azure AD");
             correctionAdd("azureAD", "Azure AD");
             correctionAdd("azure AD", "Azure AD");
+            correctionAdd("azure ad", "Azure AD");
 
             correctionAdd("midway", "Battle of Midway");
 
@@ -43443,6 +43449,7 @@ namespace OverflowHelper.core
 
             correctionAdd("drop-down list box", "drop-down list");
             correctionAdd("DDLB", "drop-down list");
+            correctionAdd("drop down list", "drop-down list");
 
             correctionAdd("Gorby", "Mikhail Gorbachev");
             correctionAdd("Gorbatjev", "Mikhail Gorbachev");
@@ -43659,6 +43666,47 @@ namespace OverflowHelper.core
             correctionAdd("chrono", "std::chrono");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
+
+            correctionAdd("inner source", "InnerSource");
+
+            correctionAdd("kS", "kSa");
+
+            correctionAdd("ksps", "kSa/s");
+
+            correctionAdd("msa", "MSa");
+
+            correctionAdd("msps", "MSa/s");
+
+            correctionAdd("Angle of Bank", "angle of bank");
+            correctionAdd("AOB", "angle of bank");
+            correctionAdd("AoB", "angle of bank");
+
+            correctionAdd("attachted", "attached");
+
+            correctionAdd("elastic beanstalk", "AWS Elastic Beanstalk");
+            correctionAdd("EB", "AWS Elastic Beanstalk");
+            correctionAdd("Elastic Beanstalk", "AWS Elastic Beanstalk");
+            correctionAdd("eb", "AWS Elastic Beanstalk");
+
+            correctionAdd("face-saving", "facesaving");
+            correctionAdd("face saving", "facesaving");
+
+            correctionAdd("fethered", "feathered");
+            correctionAdd("fathered", "feathered");
+
+            correctionAdd("Hanlons razor", "Hanlon's razor");
+            correctionAdd("Hanlon's Razor", "Hanlon's razor");
+
+            correctionAdd("object oriented design", "object-oriented design");
+            correctionAdd("OOD", "object-oriented design");
+            correctionAdd("Object Oriented Design", "object-oriented design");
+            correctionAdd("ood", "object-oriented design");
+
+            correctionAdd("superstision", "superstition");
+
+            correctionAdd("suprise", "surprise");
+
+            correctionAdd("Tutoring", "tutoring");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68581,6 +68629,36 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Overflow is not a forum", "https://meta.stackoverflow.com/questions/36818/would-you-recommend-stackexchange-sites-vs-other-types-of-forum/36828#36828");
 
+            URL_Add("InnerSource", "https://en.wikipedia.org/wiki/Inner_source");
+
+            URL_Add("kSa", "https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Theory");
+
+            URL_Add("kSa/s", "https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Theory");
+
+            URL_Add("MSa", "https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Theory");
+
+            URL_Add("MSa/s", "https://en.wikipedia.org/wiki/Sampling_(signal_processing)#Theory");
+
+            URL_Add("angle of bank", "https://en.wikipedia.org/wiki/Banked_turn#Banked_turn_in_aeronautics");
+
+            URL_Add("attached", "https://en.wiktionary.org/wiki/attach#Verb");
+
+            URL_Add("AWS Elastic Beanstalk", "https://en.wikipedia.org/wiki/AWS_Elastic_Beanstalk");
+
+            URL_Add("facesaving", "https://en.wiktionary.org/wiki/facesaving#Adjective");
+
+            URL_Add("feathered", "https://en.wiktionary.org/wiki/feathered#Adjective");
+
+            URL_Add("Hanlon's razor", "https://en.wikipedia.org/wiki/Hanlon%27s_razor");
+
+            URL_Add("object-oriented design", "https://en.wikipedia.org/wiki/Object-oriented_design");
+
+            URL_Add("superstition", "https://en.wiktionary.org/wiki/superstition#Noun");
+
+            URL_Add("surprise", "https://en.wiktionary.org/wiki/surprise#Noun");
+
+            URL_Add("tutoring", "https://en.wiktionary.org/wiki/tutoring#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69747,6 +69825,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ICU_", "International Components for Unicode_");
 
+            correctionAdd("prop_", "propeller_");
+
             // URL mappings
             //
             //
@@ -70451,6 +70531,8 @@ namespace OverflowHelper.core
             URL_Add("Boost (tag wiki)_", "https://stackoverflow.com/questions/tagged/boost");
 
             URL_Add("chrono (tag wiki)_", "https://stackoverflow.com/questions/tagged/chrono");
+
+            URL_Add("propeller_", "https://en.wiktionary.org/wiki/prop#Noun_3");
 
         } //addLookupData_alternativeWordSet()
 
