@@ -5654,6 +5654,7 @@ namespace OverflowHelper.core
             correctionAdd("stack exchanged", "Stack&nbsp;Exchange");
             correctionAdd("stacksexchange", "Stack&nbsp;Exchange");
             correctionAdd("stacks exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stac kExchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -10069,6 +10070,7 @@ namespace OverflowHelper.core
             correctionAdd("aplle", "Apple");
             correctionAdd("Aplle", "Apple");
             correctionAdd("Crapple", "Apple");
+            correctionAdd("crapple", "Apple");
 
             correctionAdd("lcd", "LCD");
             correctionAdd("Lcd", "LCD");
@@ -10990,6 +10992,7 @@ namespace OverflowHelper.core
             correctionAdd("aptana studio", "Aptana Studio");
             correctionAdd("Aptana", "Aptana Studio");
             correctionAdd("apatana studio", "Aptana Studio");
+            correctionAdd("aptana", "Aptana Studio");
 
             correctionAdd("HowTo", "how-to");
             correctionAdd("Howto", "how-to");
@@ -16322,6 +16325,7 @@ namespace OverflowHelper.core
             correctionAdd("Shft", "Shift");
             correctionAdd("shif", "Shift");
             correctionAdd("SHITFT", "Shift");
+            correctionAdd("Shitft", "Shift");
 
             correctionAdd("x509", "X.509");
             correctionAdd("x.509", "X.509");
@@ -33962,6 +33966,7 @@ namespace OverflowHelper.core
             correctionAdd("ecplise", "Eclipse"); // Misspelling.
             correctionAdd("Eclipe", "Eclipse"); // Misspelling.
             correctionAdd("Eclips", "Eclipse");
+            correctionAdd("elipse", "Eclipse");
 
             correctionAdd("callisto", "Eclipse v3.2 (Callisto)");
 
@@ -41009,6 +41014,7 @@ namespace OverflowHelper.core
             correctionAdd("duping", "duplicating");
 
             correctionAdd("hall-way usability testing", "hallway usability testing");
+            correctionAdd("hallway usability", "hallway usability testing");
 
             correctionAdd("he-he", "hehe");
 
@@ -43707,6 +43713,13 @@ namespace OverflowHelper.core
             correctionAdd("suprise", "surprise");
 
             correctionAdd("Tutoring", "tutoring");
+
+            correctionAdd("Flex Builder", "Adobe Flash Builder");
+            correctionAdd("Adobe Flex Builder", "Adobe Flash Builder");
+
+            correctionAdd("LGTM", "looks good to me");
+
+            correctionAdd("mergin", "merging");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68658,6 +68671,12 @@ namespace OverflowHelper.core
             URL_Add("surprise", "https://en.wiktionary.org/wiki/surprise#Noun");
 
             URL_Add("tutoring", "https://en.wiktionary.org/wiki/tutoring#Noun");
+
+            URL_Add("Adobe Flash Builder", "https://en.wikipedia.org/wiki/Adobe_Flash_Builder");
+
+            URL_Add("looks good to me", "https://en.wiktionary.org/wiki/LGTM#Phrase");
+
+            URL_Add("merging", "https://en.wiktionary.org/wiki/merge#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
