@@ -3340,8 +3340,10 @@ namespace OverflowHelper.core
             correctionAdd(".bash_rc", ".bashrc file");
             correctionAdd(".bachrc", ".bashrc file");
             correctionAdd(".bashrcs", ".bashrc file");
+            correctionAdd("~/.bashrc", ".bashrc file");
 
             correctionAdd(".profile", ".profile file");
+            correctionAdd("~/.profile", ".profile file");
 
             correctionAdd("fiel", "file");
             correctionAdd("fiie", "file");
@@ -5998,6 +6000,7 @@ namespace OverflowHelper.core
             correctionAdd("inno db", "InnoDB");
             correctionAdd("INNODB", "InnoDB");
             correctionAdd("Innodb", "InnoDB");
+            correctionAdd("InnoDb", "InnoDB");
 
             correctionAdd("myisam", "MyISAM");
             correctionAdd("MyIsam", "MyISAM");
@@ -13700,6 +13703,7 @@ namespace OverflowHelper.core
             correctionAdd("qts", "question");
             correctionAdd("questioin", "question");
             correctionAdd("Quesiton", "question");
+            correctionAdd("questsion", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -15800,6 +15804,7 @@ namespace OverflowHelper.core
             correctionAdd("googeling", "googling");
             correctionAdd("Google'ing", "googling");
             correctionAdd("Googleing", "googling");
+            correctionAdd("google-ing", "googling");
 
             correctionAdd("denmark", "Denmark");
             correctionAdd("Denamark", "Denmark");
@@ -25604,6 +25609,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Belorus", "Belarus");
             correctionAdd("Bylorus", "Belarus");
+            correctionAdd("belarus", "Belarus");
 
             correctionAdd("fig forth", "FIG Forth");
 
@@ -26033,6 +26039,7 @@ namespace OverflowHelper.core
 
             correctionAdd("kinda", "kind of");
             correctionAdd("kind-of", "kind of");
+            correctionAdd("kindof", "kind of");
 
             correctionAdd("sorta", "sort of");
 
@@ -27643,6 +27650,7 @@ namespace OverflowHelper.core
             correctionAdd("jelly bean", "jellybean");
 
             correctionAdd("3g", "3G");
+            correctionAdd("G3", "3G");
 
             correctionAdd("itil", "ITIL");
 
@@ -29808,6 +29816,7 @@ namespace OverflowHelper.core
             correctionAdd("syntax sugar", "syntactic sugar");
             correctionAdd("sugar syntax", "syntactic sugar");
             correctionAdd("sugar", "syntactic sugar");
+            correctionAdd("syntatic sugar", "syntactic sugar");
 
             correctionAdd("trys", "tries");
             correctionAdd("trries", "tries");
@@ -38093,6 +38102,7 @@ namespace OverflowHelper.core
 
             correctionAdd("impoper", "improper");
             correctionAdd("Impoper", "improper");
+            correctionAdd("unproper", "improper");
 
             correctionAdd("Infinite Recursion", "infinite recursion");
 
@@ -38911,6 +38921,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Gen Z", "Generation Z");
             correctionAdd("gen z", "Generation Z");
+            correctionAdd("Gen-Z", "Generation Z");
 
             correctionAdd("merriam-webster", "Merriam-Webster");
             correctionAdd("merrian-webster", "Merriam-Webster");
@@ -40381,6 +40392,8 @@ namespace OverflowHelper.core
             correctionAdd("Coriolis effect", "Coriolis force");
             correctionAdd("coriolis", "Coriolis force");
             correctionAdd("Coriolis", "Coriolis force");
+            correctionAdd("Coriolis Force", "Coriolis force");
+            correctionAdd("coriolis force", "Coriolis force");
 
             correctionAdd("meson", "Meson");
             correctionAdd("meson build", "Meson");
@@ -42383,6 +42396,7 @@ namespace OverflowHelper.core
             correctionAdd("sub class", "subclass");
 
             correctionAdd("system wide", "system-wide");
+            correctionAdd("systemwide", "system-wide");
 
             correctionAdd("xbase", "xBase");
 
@@ -42950,6 +42964,7 @@ namespace OverflowHelper.core
 
             correctionAdd("honsestly", "honestly");
             correctionAdd("Honsestly", "honestly");
+            correctionAdd("honsetly", "honestly");
 
             correctionAdd("inconsistant", "inconsistent");
 
@@ -43720,6 +43735,35 @@ namespace OverflowHelper.core
             correctionAdd("LGTM", "looks good to me");
 
             correctionAdd("mergin", "merging");
+
+            correctionAdd("featurephone", "feature phone");
+
+            correctionAdd("idilogical", "ideological");
+            correctionAdd("idealogical", "ideological");
+
+            correctionAdd("adoctrination", "indoctrination");
+
+            correctionAdd("Invidiöus", "Invidious");
+
+            correctionAdd("Centrifugal Force", "centrifugal force");
+
+            correctionAdd("dicktator", "dictator");
+
+            correctionAdd("1NF", "first normal form");
+
+            correctionAdd("HSM", "hardware security module");
+
+            correctionAdd("loding", "loading");
+
+            correctionAdd("POB", "primarily opinion-based");
+
+            correctionAdd("resuling", "resulting");
+
+            correctionAdd("2NF", "second normal form");
+
+            correctionAdd("thales", "Thales");
+
+            correctionAdd("3NF", "third normal form");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68678,6 +68722,34 @@ namespace OverflowHelper.core
 
             URL_Add("merging", "https://en.wiktionary.org/wiki/merge#Verb");
 
+            URL_Add("feature phone", "https://en.wikipedia.org/wiki/Feature_phone");
+
+            URL_Add("ideological", "https://en.wiktionary.org/wiki/ideological#Adjective");
+
+            URL_Add("indoctrination", "https://en.wiktionary.org/wiki/indoctrination#Noun");
+
+            URL_Add("Invidious", "https://invidious.io/");
+
+            URL_Add("centrifugal force", "https://en.wikipedia.org/wiki/Centrifugal_force");
+
+            URL_Add("dictator", "https://en.wiktionary.org/wiki/dictator#Noun");
+
+            URL_Add("first normal form", "https://en.wikipedia.org/wiki/First_normal_form");
+
+            URL_Add("hardware security module", "https://en.wikipedia.org/wiki/Hardware_security_module");
+
+            URL_Add("loading", "https://en.wiktionary.org/wiki/load#Verb");
+
+            URL_Add("primarily opinion-based", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
+
+            URL_Add("resulting", "https://en.wiktionary.org/wiki/resulting#Adjective");
+
+            URL_Add("second normal form", "https://en.wikipedia.org/wiki/Second_normal_form");
+
+            URL_Add("Thales", "https://en.wikipedia.org/wiki/Thales_Group");
+
+            URL_Add("third normal form", "https://en.wikipedia.org/wiki/Third_normal_form");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69846,6 +69918,10 @@ namespace OverflowHelper.core
 
             correctionAdd("prop_", "propeller_");
 
+            correctionAdd("CRT_", "critical race theory_");
+
+            correctionAdd("FD_", "functional dependency_");
+
             // URL mappings
             //
             //
@@ -70552,6 +70628,10 @@ namespace OverflowHelper.core
             URL_Add("chrono (tag wiki)_", "https://stackoverflow.com/questions/tagged/chrono");
 
             URL_Add("propeller_", "https://en.wiktionary.org/wiki/prop#Noun_3");
+
+            URL_Add("critical race theory_", "https://en.wikipedia.org/wiki/Critical_race_theory");
+
+            URL_Add("functional dependency_", "https://en.wikipedia.org/wiki/Functional_dependency");
 
         } //addLookupData_alternativeWordSet()
 
