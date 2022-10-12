@@ -1787,6 +1787,7 @@ namespace OverflowHelper.core
             correctionAdd("destop", "desktop");
 
             correctionAdd("Laptop", "laptop");
+            correctionAdd("lapto", "laptop");
 
             correctionAdd("FULL STOP", "full stop");
             correctionAdd("fullstop", "full stop");
@@ -8048,6 +8049,7 @@ namespace OverflowHelper.core
             correctionAdd("rep. points", "reputation points");
             correctionAdd("reputaion points", "reputation points");
             correctionAdd("points of reputation", "reputation points");
+            correctionAdd("REP", "reputation points");
 
             correctionAdd("squid", "Squid");
 
@@ -11171,11 +11173,11 @@ namespace OverflowHelper.core
             correctionAdd("altough", "although");
             correctionAdd("athough", "although");
             correctionAdd("Althougt", "although"); // Not 100% correct (case)
-            correctionAdd("althougt", "although");
-            correctionAdd("altought", "although");
+            correctionAdd("althougt", "although"); // A victim of auto correct?
+            correctionAdd("altought", "although"); // A victim of auto correct?
             correctionAdd("altho", "although");
-            correctionAdd("Althought", "although");
-            correctionAdd("althought", "although");
+            correctionAdd("Althought", "although"); // A victim of auto correct?
+            correctionAdd("althought", "although"); // A victim of auto correct?
             correctionAdd("althougth", "although");
             correctionAdd("Allthough", "although");
             correctionAdd("allthough", "although");
@@ -27892,6 +27894,7 @@ namespace OverflowHelper.core
             correctionAdd("Pound sign", "pound sign");
 
             correctionAdd("site-wide", "sitewide");
+            correctionAdd("site wide", "sitewide");
 
             correctionAdd("teached", "taught");
             correctionAdd("taugth", "taught");
@@ -29072,6 +29075,7 @@ namespace OverflowHelper.core
             correctionAdd("fallowed", "followed");
             correctionAdd("followd", "followed");
             correctionAdd("folowed", "followed");
+            correctionAdd("follwed", "followed");
 
             correctionAdd("lca", "lowest common ancestor");
             correctionAdd("Lowest Common Ancestor", "lowest common ancestor");
@@ -30625,6 +30629,7 @@ namespace OverflowHelper.core
             correctionAdd("putpose", "purpose");
             correctionAdd("purpuse", "purpose");
             correctionAdd("pourpose", "purpose");
+            correctionAdd("purpouse", "purpose");
 
             correctionAdd("hell bent", "hell-bent");
 
@@ -33460,6 +33465,7 @@ namespace OverflowHelper.core
             correctionAdd("inturn", "in turn");
             correctionAdd("in term", "in turn");
             correctionAdd("in-turn", "in turn");
+            correctionAdd("in turns", "in turn");
 
             correctionAdd("manuvre", "manoeuvre");
 
@@ -33475,6 +33481,7 @@ namespace OverflowHelper.core
             correctionAdd("Principle of Least Surprise", "principle of least astonishment");
             correctionAdd("least astonishment", "principle of least astonishment");
             correctionAdd("POLA", "principle of least astonishment");
+            correctionAdd("least surprise", "principle of least astonishment");
 
             correctionAdd("red-herring", "red herring");
 
@@ -34156,6 +34163,7 @@ namespace OverflowHelper.core
             correctionAdd("critcal", "critical");
 
             correctionAdd("soleless", "soulless");
+            correctionAdd("soul-less", "soulless");
 
             correctionAdd("AAPT2", "Android Asset Packaging Tool");
             correctionAdd("aapt", "Android Asset Packaging Tool");
@@ -36902,6 +36910,7 @@ namespace OverflowHelper.core
             correctionAdd("dobsonian", "Dobsonian telescope");
 
             correctionAdd("gawk", "Gawk");
+            correctionAdd("GAWK", "Gawk");
 
             correctionAdd("high-performance liquid chromatography", "HPLC");
 
@@ -40005,6 +40014,7 @@ namespace OverflowHelper.core
             correctionAdd("SOpt", "Stack Overflow em Português");
             correctionAdd("SO.pt", "Stack Overflow em Português");
             correctionAdd("SO - Portuguese", "Stack Overflow em Português");
+            correctionAdd("PT.se", "Stack Overflow em Português");
 
             correctionAdd("Binary Search", "binary search");
 
@@ -40589,6 +40599,8 @@ namespace OverflowHelper.core
             correctionAdd("ru.SO", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("SO.rus", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("SO.RU", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("RU.SE", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("RU.se", "Stack Overflow на русском (Stack Exchange site)");
 
             correctionAdd("alamred", "alarmed");
 
@@ -43687,6 +43699,7 @@ namespace OverflowHelper.core
             correctionAdd("chrono", "std::chrono");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
+            correctionAdd("isn't a forum", "Stack Overflow is not a forum");
 
             correctionAdd("inner source", "InnerSource");
 
@@ -43764,6 +43777,26 @@ namespace OverflowHelper.core
             correctionAdd("thales", "Thales");
 
             correctionAdd("3NF", "third normal form");
+
+            correctionAdd("battletech", "BattleTech");
+
+            correctionAdd("full on", "full-on");
+
+            correctionAdd("iregardless", "irregardless");
+
+            correctionAdd("MMORPG", "massively multiplayer online role-playing game");
+
+            correctionAdd("Settlers", "The Settlers of Catan");
+            correctionAdd("Cataan", "The Settlers of Catan");
+            correctionAdd("Catan", "The Settlers of Catan");
+            correctionAdd("cataan", "The Settlers of Catan");
+
+            correctionAdd("tirangle", "triangle");
+
+            correctionAdd("file chooser", "File dialog");
+            correctionAdd("File CHooser", "File dialog");
+
+            correctionAdd("point estimate", "point estimation");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68750,6 +68783,22 @@ namespace OverflowHelper.core
 
             URL_Add("third normal form", "https://en.wikipedia.org/wiki/Third_normal_form");
 
+            URL_Add("BattleTech", "https://en.wikipedia.org/wiki/BattleTech");
+
+            URL_Add("full-on", "https://en.wiktionary.org/wiki/full-on#Adjective");
+
+            URL_Add("irregardless", "https://en.wiktionary.org/wiki/irregardless#Adjective");
+
+            URL_Add("massively multiplayer online role-playing game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game");
+
+            URL_Add("The Settlers of Catan", "https://en.wikipedia.org/wiki/Catan");
+
+            URL_Add("triangle", "https://en.wiktionary.org/wiki/triangle#Noun");
+
+            URL_Add("File dialog", "https://en.wikipedia.org/wiki/File_dialog");
+
+            URL_Add("point estimation", "https://en.wikipedia.org/wiki/Point_estimation");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69759,6 +69808,12 @@ namespace OverflowHelper.core
             correctionAdd("[tag:chrono]_", "chrono (tag wiki)_");
             correctionAdd("chrono_", "chrono (tag wiki)_");
 
+            correctionAdd("[tag:gawk]_", "GAWK (tag wiki)_");
+            correctionAdd("gawk_", "GAWK (tag wiki)_");
+
+            correctionAdd("[tag:awk]_", "AWK (tag wiki)_");
+            correctionAdd("awk_", "AWK (tag wiki)_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -69921,6 +69976,11 @@ namespace OverflowHelper.core
             correctionAdd("CRT_", "critical race theory_");
 
             correctionAdd("FD_", "functional dependency_");
+
+            correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
+            correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
+            correctionAdd("light sail_", "Amazon Lightsail_");
+            correctionAdd("lightsail_", "Amazon Lightsail_");
 
             // URL mappings
             //
@@ -70632,6 +70692,12 @@ namespace OverflowHelper.core
             URL_Add("critical race theory_", "https://en.wikipedia.org/wiki/Critical_race_theory");
 
             URL_Add("functional dependency_", "https://en.wikipedia.org/wiki/Functional_dependency");
+
+            URL_Add("GAWK (tag wiki)_", "https://stackoverflow.com/questions/tagged/gawk");
+
+            URL_Add("AWK (tag wiki)_", "https://stackoverflow.com/questions/tagged/awk");
+
+            URL_Add("Amazon Lightsail_", "https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#AWS_Prelude");
 
         } //addLookupData_alternativeWordSet()
 
