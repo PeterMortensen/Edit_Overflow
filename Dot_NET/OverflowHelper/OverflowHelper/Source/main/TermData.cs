@@ -10735,6 +10735,7 @@ namespace OverflowHelper.core
             correctionAdd("immediatlty", "immediately");
             correctionAdd("immediatety", "immediately");
             correctionAdd("immedidately", "immediately");
+            correctionAdd("immidietaly", "immediately");
 
             correctionAdd("InnoSetup", "Inno Setup");
             correctionAdd("innosetup", "Inno Setup");
@@ -12497,6 +12498,28 @@ namespace OverflowHelper.core
             correctionAdd("home-brew", "Homebrew");
             correctionAdd("HomeBrew", "Homebrew");
 
+            correctionAdd("home grown", "home-grown");
+
+            correctionAdd("homepage", "home page");
+            correctionAdd("Homepage", "home page");
+            correctionAdd("Home Page", "home page");
+            correctionAdd("home-page", "home page");
+
+            correctionAdd("Homestead", "Laravel Homestead");
+            correctionAdd("homestead", "Laravel Homestead");
+
+            correctionAdd("homeschooled", "home schooled");
+
+            correctionAdd("home-made", "homemade");
+
+            correctionAdd("homecomputer", "home computer");
+
+            correctionAdd("Home Depot", "The Home Depot");
+
+            correctionAdd("home baked", "homebaked");
+
+            correctionAdd("home", "Home key");
+
             correctionAdd("EGG", "egg");
 
             correctionAdd("usart", "USART");
@@ -13467,6 +13490,7 @@ namespace OverflowHelper.core
 
             correctionAdd("anymore", "any more");
             correctionAdd("animore", "any more");
+            correctionAdd("anyumore", "any more");
 
             correctionAdd("NGEN", "NGen");
             correctionAdd("ngen", "NGen");
@@ -22485,10 +22509,14 @@ namespace OverflowHelper.core
             correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
             correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
 
-            correctionAdd("world championship 2023", "World Chess Championship 2023");
-            correctionAdd("world championship 2022", "World Chess Championship 2023");
+            correctionAdd("world championship 2023", "World Chess Championship 2023"); // Chess
+            correctionAdd("world championship 2022", "World Chess Championship 2023"); // Chess
 
-            correctionAdd("world championship", "World Chess Championship");
+            correctionAdd("world championship", "World Chess Championship"); // Chess
+
+            correctionAdd("niemann", "Hans Niemann"); // Chess
+            correctionAdd("Niemann", "Hans Niemann"); // Chess
+            correctionAdd("Hans", "Hans Niemann"); // Chess
             //
             // End of the chess part
 
@@ -24202,8 +24230,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gat", "got");
             correctionAdd("god", "got");
-
-            correctionAdd("home grown", "home-grown");
 
             correctionAdd("hot spot", "hotspot");
 
@@ -26816,6 +26842,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cherry-picking", "cherry picking");
             correctionAdd("cherrypicking", "cherry picking");
+            correctionAdd("Cherrypicking", "cherry picking");
 
             correctionAdd("cherrypick", "cherry-pick");
             correctionAdd("cherry pick", "cherry-pick");
@@ -27092,6 +27119,7 @@ namespace OverflowHelper.core
             correctionAdd("CommonJs", "CommonJS");
             correctionAdd("commonJS", "CommonJS");
             correctionAdd("Common JS", "CommonJS");
+            correctionAdd("common-js", "CommonJS");
 
             correctionAdd("iify", "IIFE");
             correctionAdd("iife", "IIFE");
@@ -32613,11 +32641,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Gate Array", "gate array");
 
-            correctionAdd("homepage", "home page");
-            correctionAdd("Homepage", "home page");
-            correctionAdd("Home Page", "home page");
-            correctionAdd("home-page", "home page");
-
             correctionAdd("overiding", "overriding");
 
             correctionAdd("post-process", "postprocess");
@@ -32803,9 +32826,6 @@ namespace OverflowHelper.core
             correctionAdd("easter egg", "Easter egg");
 
             correctionAdd("jmap", "JMAP");
-
-            correctionAdd("Homestead", "Laravel Homestead");
-            correctionAdd("homestead", "Laravel Homestead");
 
             correctionAdd("Resource Description Framework", "RDF");
             correctionAdd("rdf", "RDF");
@@ -34111,8 +34131,6 @@ namespace OverflowHelper.core
             correctionAdd("enlightment", "enlightenment");
 
             correctionAdd("gardient", "gradient");
-
-            correctionAdd("homeschooled", "home schooled");
 
             correctionAdd("oled", "OLED");
             correctionAdd("Oled", "OLED");
@@ -35838,8 +35856,6 @@ namespace OverflowHelper.core
 
             correctionAdd("co-creator", "cocreator");
 
-            correctionAdd("home-made", "homemade");
-
             correctionAdd("Lunar", "lunar");
 
             correctionAdd("whent", "went");
@@ -36720,8 +36736,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DEI", "diversity, equity, and inclusion");
 
-            correctionAdd("homecomputer", "home computer");
-
             correctionAdd("misstagged", "mistagged");
 
             correctionAdd("multipurpose", "multi-purpose");
@@ -36960,8 +36974,6 @@ namespace OverflowHelper.core
             correctionAdd("modernizr", "Modernizr");
 
             correctionAdd("TO220", "TO-220");
-
-            correctionAdd("Home Depot", "The Home Depot");
 
             correctionAdd("blackbody radiation", "black-body radiation");
 
@@ -39750,8 +39762,6 @@ namespace OverflowHelper.core
             correctionAdd("prevoew", "preview");
 
             correctionAdd("dirver", "driver");
-
-            correctionAdd("home baked", "homebaked");
 
             correctionAdd("kurfufle", "kurfuffle");
 
@@ -43255,9 +43265,6 @@ namespace OverflowHelper.core
             correctionAdd("Händel", "G. F. Händel");
             correctionAdd("Lascia ch'io pianga", "G. F. Händel");
 
-            correctionAdd("niemann", "Hans Niemann");
-            correctionAdd("Niemann", "Hans Niemann");
-
             correctionAdd("Plasma", "KDE Plasma");
             correctionAdd("kde plasma", "KDE Plasma");
 
@@ -43288,8 +43295,6 @@ namespace OverflowHelper.core
             correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
 
             correctionAdd("void linux", "Void Linux");
-
-            correctionAdd("home", "Home key");
 
             correctionAdd("http.sys", "HTTP.sys");
 
@@ -43721,6 +43726,8 @@ namespace OverflowHelper.core
             correctionAdd("EB", "AWS Elastic Beanstalk");
             correctionAdd("Elastic Beanstalk", "AWS Elastic Beanstalk");
             correctionAdd("eb", "AWS Elastic Beanstalk");
+            correctionAdd("Beanstalk", "AWS Elastic Beanstalk");
+            correctionAdd("beanstalk", "AWS Elastic Beanstalk");
 
             correctionAdd("face-saving", "facesaving");
             correctionAdd("face saving", "facesaving");
@@ -43797,6 +43804,15 @@ namespace OverflowHelper.core
             correctionAdd("File CHooser", "File dialog");
 
             correctionAdd("point estimate", "point estimation");
+
+            correctionAdd("High-Level Shading Language", "HLSL");
+            correctionAdd("High-Level Shader Language", "HLSL");
+            correctionAdd("hlsl", "HLSL");
+
+            correctionAdd("Multiple Arcade Machine Emulator", "MAME");
+            correctionAdd("mame", "MAME");
+
+            correctionAdd("untelligle", "unintelligible");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68799,6 +68815,12 @@ namespace OverflowHelper.core
 
             URL_Add("point estimation", "https://en.wikipedia.org/wiki/Point_estimation");
 
+            URL_Add("HLSL", "https://en.wikipedia.org/wiki/High-Level_Shader_Language");
+
+            URL_Add("MAME", "https://en.wikipedia.org/wiki/MAME");
+
+            URL_Add("unintelligible", "https://en.wiktionary.org/wiki/unintelligible#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -68888,8 +68910,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GNU DDD_", "Data Display Debugger_");
             correctionAdd("DDD_", "Data Display Debugger_");
-
-            correctionAdd("homestead_", "Homestead_");
 
             correctionAdd("kde_", "KDE_");
             correctionAdd("kernel density estimation_", "KDE_");
@@ -69382,8 +69402,6 @@ namespace OverflowHelper.core
             correctionAdd("amd_", "and_");
             correctionAdd("nd_", "and_");
 
-            correctionAdd("home-brew_", "homebrewed_");
-
             correctionAdd("blitz++_", "Blitz++_");
             correctionAdd("Blitz_", "Blitz++_");
             correctionAdd("blitz_", "Blitz++_");
@@ -69838,10 +69856,6 @@ namespace OverflowHelper.core
 
             correctionAdd("HTML_", "html_");
 
-            correctionAdd("home work_", "homework_");
-            correctionAdd("homeworks_", "homework_");
-            correctionAdd("HW_", "homework_");
-
             correctionAdd("BE_", "backward elimination_");
             correctionAdd("Backward Elimination_", "backward elimination_");
 
@@ -69981,6 +69995,17 @@ namespace OverflowHelper.core
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
             correctionAdd("light sail_", "Amazon Lightsail_");
             correctionAdd("lightsail_", "Amazon Lightsail_");
+
+            correctionAdd("home-brew_", "homebrewed_");
+
+            correctionAdd("home work_", "homework_");
+            correctionAdd("homeworks_", "homework_");
+            correctionAdd("HW_", "homework_");
+            correctionAdd("Homework_", "homework_");
+
+            correctionAdd("homestead_", "Homestead_");
+
+            correctionAdd("esay_", "essay_");
 
             // URL mappings
             //
@@ -70698,6 +70723,8 @@ namespace OverflowHelper.core
             URL_Add("AWK (tag wiki)_", "https://stackoverflow.com/questions/tagged/awk");
 
             URL_Add("Amazon Lightsail_", "https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#AWS_Prelude");
+
+            URL_Add("essay_", "https://en.wiktionary.org/wiki/essay#Noun");
 
         } //addLookupData_alternativeWordSet()
 
