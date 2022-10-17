@@ -21766,6 +21766,7 @@ namespace OverflowHelper.core
             correctionAdd("containre", "container");
             correctionAdd("continer", "container");
             correctionAdd("cointainer", "container");
+            correctionAdd("cntainer", "container");
 
             correctionAdd("instaled", "installed");
             correctionAdd("instlled", "installed");
@@ -27439,6 +27440,7 @@ namespace OverflowHelper.core
             correctionAdd("assignation", "assignment");
             correctionAdd("assignemnt", "assignment");
             correctionAdd("assgnment", "assignment");
+            correctionAdd("assignement", "assignment");
 
             correctionAdd("hdc", "HDC");
 
@@ -27835,6 +27837,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tp", "to"); // True typo
             correctionAdd("fo", "to"); // True typo
+            correctionAdd("ti", "to");
 
             correctionAdd("unambigious", "unambiguous");
             correctionAdd("unambigous", "unambiguous");
@@ -43813,6 +43816,10 @@ namespace OverflowHelper.core
             correctionAdd("mame", "MAME");
 
             correctionAdd("untelligle", "unintelligible");
+
+            correctionAdd("flutter doctor", "Flutter doctor");
+
+            correctionAdd("Supply Chain", "supply chain");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68820,6 +68827,10 @@ namespace OverflowHelper.core
             URL_Add("MAME", "https://en.wikipedia.org/wiki/MAME");
 
             URL_Add("unintelligible", "https://en.wiktionary.org/wiki/unintelligible#Adjective");
+
+            URL_Add("Flutter doctor", "https://docs.flutter.dev/get-started/install/windows#run-flutter-doctor");
+
+            URL_Add("supply chain", "https://en.wikipedia.org/wiki/Supply_chain");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
