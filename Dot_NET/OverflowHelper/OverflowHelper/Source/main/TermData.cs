@@ -15235,6 +15235,7 @@ namespace OverflowHelper.core
             correctionAdd("acheive", "achieve");
             correctionAdd("acheieve", "achieve");
             correctionAdd("achievie", "achieve");
+            correctionAdd("achiever", "achieve");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -15434,6 +15435,7 @@ namespace OverflowHelper.core
 
             correctionAdd("oracle", "Oracle");
             correctionAdd("ORACLE", "Oracle");
+            correctionAdd("Oracle Database", "Oracle");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -22506,6 +22508,7 @@ namespace OverflowHelper.core
             correctionAdd("mamedraro", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("Shak", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("Mamedyarov", "Shakhriyar Mamedyarov"); // Chess
+            correctionAdd("Shakh", "Shakhriyar Mamedyarov"); // Chess
 
             correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
             correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
@@ -23195,6 +23198,7 @@ namespace OverflowHelper.core
             correctionAdd("GR", "general relativity");
             correctionAdd("General Relativity", "general relativity");
             correctionAdd("General Reativity", "general relativity");
+            correctionAdd("general relatiity", "general relativity");
 
             correctionAdd("left most", "leftmost");
 
@@ -27535,6 +27539,9 @@ namespace OverflowHelper.core
             correctionAdd("Highlight.JS", "Highlight.js");
             correctionAdd("Highlight JS", "Highlight.js");
             correctionAdd("Highlight", "Highlight.js");
+            correctionAdd("weird syntax highlight", "Highlight.js");
+            correctionAdd("weird syntax highlighter", "Highlight.js");
+            correctionAdd("weird syntax highlighting", "Highlight.js");
 
             correctionAdd("nim", "Nim");
             correctionAdd("nim-lang", "Nim");
@@ -42013,6 +42020,7 @@ namespace OverflowHelper.core
             correctionAdd("CS4", "Adobe Creative Suite 4");
 
             correctionAdd("a11y", "accessibility");
+            correctionAdd("Accessibility", "accessibility");
 
             correctionAdd("billion laughs xml attack", "billion laughs attack");
             correctionAdd("billion laughs XML attack", "billion laughs attack");
@@ -43820,6 +43828,28 @@ namespace OverflowHelper.core
             correctionAdd("flutter doctor", "Flutter doctor");
 
             correctionAdd("Supply Chain", "supply chain");
+
+            correctionAdd("Class-Based Views", "class-based view");
+            correctionAdd("CBV", "class-based view");
+
+            correctionAdd("Diacritic", "diacritic");
+
+            correctionAdd("Function-Based View", "function-based view");
+            correctionAdd("FBV", "function-based view");
+
+            correctionAdd("Gas giant", "gas giant");
+
+            correctionAdd("Jupiternian", "Jupiterian");
+
+            correctionAdd("Lagrangian point", "Lagrange point");
+            correctionAdd("Lagrangian Point", "Lagrange point");
+            correctionAdd("Langrangian Point", "Lagrange point");
+
+            correctionAdd("Outer Solar System", "outer Solar System");
+
+            correctionAdd("terraformation", "terraforming");
+
+            correctionAdd("zeppelin", "Zeppelin");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68831,6 +68861,24 @@ namespace OverflowHelper.core
             URL_Add("Flutter doctor", "https://docs.flutter.dev/get-started/install/windows#run-flutter-doctor");
 
             URL_Add("supply chain", "https://en.wikipedia.org/wiki/Supply_chain");
+
+            URL_Add("class-based view", "https://learndjango.com/tutorials/django-best-practices-function-based-views-vs-clas");
+
+            URL_Add("diacritic", "https://en.wikipedia.org/wiki/Diacritic");
+
+            URL_Add("function-based view", "https://learndjango.com/tutorials/django-best-practices-function-based-views-vs-clas");
+
+            URL_Add("gas giant", "https://en.wikipedia.org/wiki/Gas_giant");
+
+            URL_Add("Jupiterian", "https://en.wiktionary.org/wiki/Jupiterian#Noun");
+
+            URL_Add("Lagrange point", "https://en.wikipedia.org/wiki/Lagrange_point");
+
+            URL_Add("outer Solar System", "https://en.wikipedia.org/wiki/Solar_System#Outer_Solar_System");
+
+            URL_Add("terraforming", "https://en.wikipedia.org/wiki/Terraforming");
+
+            URL_Add("Zeppelin", "https://en.wikipedia.org/wiki/Zeppelin");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
