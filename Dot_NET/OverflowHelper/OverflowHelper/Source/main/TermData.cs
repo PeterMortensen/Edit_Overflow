@@ -2877,6 +2877,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Sound Design", "Sound Design (Stack Exchange site)");
             correctionAdd("sound design", "Sound Design (Stack Exchange site)");
+            correctionAdd("Audio", "Sound Design (Stack Exchange site)"); // See also (e.g. merge and split history for the original audio.stackexchange.com site): <https://meta.stackexchange.com/questions/76322/audio-se-is-ailing>, <https://meta.stackexchange.com/questions/87052/where-can-i-ask-questions-about-headphone-repair#comment1277408_87052>, and <https://video.meta.stackexchange.com/questions/357/moving-avp-to-video-se-next-steps>.
+            correctionAdd("Audio.SE", "Sound Design (Stack Exchange site)");
+            correctionAdd("audio.SE", "Sound Design (Stack Exchange site)");
+            correctionAdd("audio.stackexchange.com", "Sound Design (Stack Exchange site)");
 
             correctionAdd("Travel", "Travel (Stack Exchange site)");
 
@@ -14060,6 +14064,7 @@ namespace OverflowHelper.core
             correctionAdd("recceive", "receive");
             correctionAdd("revceive", "receive");
             correctionAdd("Recieve", "receive");
+            correctionAdd("reacive", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -19942,6 +19947,10 @@ namespace OverflowHelper.core
             correctionAdd("unsuported", "unsupported");
             correctionAdd("unspported", "unsupported");
 
+            correctionAdd("suported", "supported");
+            correctionAdd("supproted", "supported");
+            correctionAdd("supportetd", "supported");
+
             correctionAdd("vocabolary", "vocabulary");
             correctionAdd("vocab", "vocabulary");
 
@@ -25547,6 +25556,7 @@ namespace OverflowHelper.core
             correctionAdd("mught", "might");
             correctionAdd("migh", "might");
             correctionAdd("mite", "might");
+            correctionAdd("migtht", "might");
 
             correctionAdd("succint", "succinct");
 
@@ -27261,6 +27271,14 @@ namespace OverflowHelper.core
 
             correctionAdd("sulfuric acid", "sulphuric acid");
             correctionAdd("sulphoric acid", "sulphuric acid");
+
+            correctionAdd("Ascorbic Acid", "ascorbic acid");
+
+            correctionAdd("Folic acid", "folic acid");
+
+            correctionAdd("Hydrochloric acid", "hydrochloric acid");
+
+            correctionAdd("Acid", "acid");
 
             correctionAdd("2n2222", "2N2222");
 
@@ -34479,10 +34497,6 @@ namespace OverflowHelper.core
 
             correctionAdd("joi", "Joi");
 
-            correctionAdd("Ascorbic Acid", "ascorbic acid");
-
-            correctionAdd("Folic acid", "folic acid");
-
             correctionAdd("Functor", "functor");
 
             correctionAdd("Glass", "glass");
@@ -35718,9 +35732,6 @@ namespace OverflowHelper.core
             correctionAdd("re-route", "reroute");
 
             correctionAdd("re-routes", "reroutes");
-
-            correctionAdd("suported", "supported");
-            correctionAdd("supproted", "supported");
 
             correctionAdd("conseqeuent", "consequent");
 
@@ -37384,8 +37395,6 @@ namespace OverflowHelper.core
             correctionAdd("shingled magnetic recording", "SMR");
 
             correctionAdd("cooldown", "cool down");
-
-            correctionAdd("Hydrochloric acid", "hydrochloric acid");
 
             correctionAdd("non-overridable", "nonoverridable");
 
@@ -43850,6 +43859,44 @@ namespace OverflowHelper.core
             correctionAdd("terraformation", "terraforming");
 
             correctionAdd("zeppelin", "Zeppelin");
+
+            correctionAdd("anti-semite", "anti-Semite");
+
+            correctionAdd("antiquity", "Antiquity");
+
+            correctionAdd("aryan", "Aryan");
+
+            correctionAdd("ditrimental", "detrimental");
+
+            correctionAdd("Ethnicities", "ethnicities");
+
+            correctionAdd("Hygroscopic", "hygroscopic");
+
+            correctionAdd("jew", "Jew");
+
+            correctionAdd("lutheran", "Lutheran");
+
+            correctionAdd("nazism", "Nazism");
+
+            correctionAdd("Potassium Carbonate", "potassium carbonate");
+
+            correctionAdd("Potassium Hydroxide", "potassium hydroxide");
+
+            correctionAdd("Romani people", "Roma");
+
+            correctionAdd("roman catholic", "Roman Catholic");
+
+            correctionAdd("Szinti", "Sinti");
+
+            correctionAdd("Heisenberg", "Werner Heisenberg");
+
+            correctionAdd("inuitive", "intuitive");
+
+            correctionAdd("Lots", "lots");
+            correctionAdd("Lot's", "lots");
+            correctionAdd("lot's", "lots");
+
+            correctionAdd("omniglot", "Omniglot");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68880,6 +68927,44 @@ namespace OverflowHelper.core
 
             URL_Add("Zeppelin", "https://en.wikipedia.org/wiki/Zeppelin");
 
+            URL_Add("acid", "https://en.wikipedia.org/wiki/Acid");
+
+            URL_Add("anti-Semite", "https://en.wiktionary.org/wiki/anti-Semite#Noun");
+
+            URL_Add("Antiquity", "https://en.wiktionary.org/wiki/Antiquity#Proper_noun");
+
+            URL_Add("Aryan", "https://en.wiktionary.org/wiki/Aryan#Noun");
+
+            URL_Add("detrimental", "https://en.wiktionary.org/wiki/detrimental#Adjective");
+
+            URL_Add("ethnicities", "https://en.wiktionary.org/wiki/ethnicity#Noun");
+
+            URL_Add("hygroscopic", "https://en.wikipedia.org/wiki/Hygroscopy");
+
+            URL_Add("Jew", "https://en.wiktionary.org/wiki/Jew#Noun");
+
+            URL_Add("Lutheran", "https://en.wiktionary.org/wiki/Lutheran#Adjective");
+
+            URL_Add("Nazism", "https://en.wiktionary.org/wiki/Nazism#Noun");
+
+            URL_Add("potassium carbonate", "https://en.wikipedia.org/wiki/Potassium_carbonate");
+
+            URL_Add("potassium hydroxide", "https://en.wikipedia.org/wiki/Potassium_hydroxide");
+
+            URL_Add("Roma", "https://en.wikipedia.org/wiki/Romani_people");
+
+            URL_Add("Roman Catholic", "https://en.wiktionary.org/wiki/Roman_Catholic#Adjective");
+
+            URL_Add("Sinti", "https://en.wikipedia.org/wiki/Sinti");
+
+            URL_Add("Werner Heisenberg", "https://en.wikipedia.org/wiki/Werner_Heisenberg");
+
+            URL_Add("intuitive", "https://en.wiktionary.org/wiki/intuitive#Adjective");
+
+            URL_Add("lots", "https://en.wiktionary.org/wiki/lots#Noun_2");
+
+            URL_Add("Omniglot", "https://en.wikipedia.org/wiki/Omniglot");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70066,6 +70151,12 @@ namespace OverflowHelper.core
 
             correctionAdd("esay_", "essay_");
 
+            correctionAdd("Ionic_", "ionic_");
+
+            correctionAdd("nazi_", "Nazi_");
+
+            correctionAdd("stie_", "site_");
+
             // URL mappings
             //
             //
@@ -70784,6 +70875,12 @@ namespace OverflowHelper.core
             URL_Add("Amazon Lightsail_", "https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#AWS_Prelude");
 
             URL_Add("essay_", "https://en.wiktionary.org/wiki/essay#Noun");
+
+            URL_Add("ionic_", "https://en.wikipedia.org/wiki/Ionic_compound");
+
+            URL_Add("Nazi_", "https://en.wiktionary.org/wiki/Nazi#Adjective");
+
+            URL_Add("site_", "https://en.wiktionary.org/wiki/site#Noun_2");
 
         } //addLookupData_alternativeWordSet()
 
