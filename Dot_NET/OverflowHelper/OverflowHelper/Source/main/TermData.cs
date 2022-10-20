@@ -7886,6 +7886,7 @@ namespace OverflowHelper.core
             correctionAdd("Directory", "directory");
             correctionAdd("directoory", "directory");
             correctionAdd("dictornar", "directory");
+            correctionAdd("Dir", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
@@ -15584,6 +15585,7 @@ namespace OverflowHelper.core
             correctionAdd("vica versa", "vice versa");
             correctionAdd("viceversa", "vice versa");
             correctionAdd("vice-versa", "vice versa");
+            correctionAdd("Vice Versa", "vice versa");
 
             correctionAdd("your self", "yourself");
             correctionAdd("yourselves", "yourself");
@@ -15826,6 +15828,7 @@ namespace OverflowHelper.core
             correctionAdd("sedond", "second");
             correctionAdd("Second", "second");
             correctionAdd("scond", "second");
+            correctionAdd("secounds", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -16855,6 +16858,7 @@ namespace OverflowHelper.core
             correctionAdd("malicisios", "malicious");
             correctionAdd("malisious", "malicious");
             correctionAdd("malisiuos", "malicious");
+            correctionAdd("malicous", "malicious");
 
             correctionAdd("neglegible", "negligible");
             correctionAdd("neglibile", "negligible");
@@ -17308,6 +17312,7 @@ namespace OverflowHelper.core
             correctionAdd("powerBI", "Power BI");
             correctionAdd("pbi", "Power BI");
             correctionAdd("POWER BI", "Power BI");
+            correctionAdd("power Bi", "Power BI");
 
             correctionAdd("SEDE", "Stack Exchange Data Explorer");
             correctionAdd("sede", "Stack Exchange Data Explorer");
@@ -17997,6 +18002,7 @@ namespace OverflowHelper.core
             correctionAdd("noble prize", "Nobel Prize");
             correctionAdd("NOBEL PRIZE", "Nobel Prize");
             correctionAdd("nobel prize", "Nobel Prize");
+            correctionAdd("Nobel prize", "Nobel Prize");
 
             correctionAdd("abilites", "abilities");
 
@@ -18252,6 +18258,7 @@ namespace OverflowHelper.core
 
             correctionAdd("CloudFlare", "Cloudflare");
             correctionAdd("cloudflare", "Cloudflare");
+            correctionAdd("Cloudfare", "Cloudflare");
 
             correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
@@ -18676,6 +18683,7 @@ namespace OverflowHelper.core
             correctionAdd("accout", "account");
             correctionAdd("acc", "account");
             correctionAdd("acoount", "account");
+            correctionAdd("Account", "account");
 
             correctionAdd("contributer", "contributor");
 
@@ -19023,6 +19031,11 @@ namespace OverflowHelper.core
             correctionAdd("Monkey patching", "monkey patching");
 
             correctionAdd("neo-nazi", "neo-Nazi");
+
+            correctionAdd("Nazi", "Nazis");
+            correctionAdd("nazi", "Nazis");
+
+            correctionAdd("nazism", "Nazism");
 
             correctionAdd("org", "organisation");
             correctionAdd("organiation", "organisation");
@@ -21465,6 +21478,7 @@ namespace OverflowHelper.core
             correctionAdd("tictac toe", "tic-tac-toe");
             correctionAdd("noughts and crosses", "tic-tac-toe");
             correctionAdd("tictactoe", "tic-tac-toe");
+            correctionAdd("Tic-tac-toe", "tic-tac-toe");
 
             correctionAdd("traefik", "Træfik");
             correctionAdd("Traefik", "Træfik");
@@ -26287,6 +26301,16 @@ namespace OverflowHelper.core
             correctionAdd("marshall badge", "Marshal badge");
             correctionAdd("Marshall badge", "Marshal badge");
 
+            correctionAdd("enthusiast badge", "Enthusiast badge");
+
+            correctionAdd("steward badge", "Steward badge");
+
+            correctionAdd("archaeologist", "Archaeologist badge");
+
+            correctionAdd("Curious", "Curious badge");
+
+            correctionAdd("Electorate", "Electorate badge");
+
             correctionAdd("ennineered", "engineered");
             correctionAdd("engeneered", "engineered");
 
@@ -26352,6 +26376,7 @@ namespace OverflowHelper.core
             correctionAdd("scss", "SCSS");
 
             correctionAdd("swede", "Swede");
+            correctionAdd("Sweede", "Swede");
 
             correctionAdd("interial", "inertial");
 
@@ -28943,6 +28968,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Yak shaving", "yak shaving");
             correctionAdd("yakk shaving", "yak shaving");
+            correctionAdd("yack shaving", "yak shaving");
 
             correctionAdd("havig", "having");
             correctionAdd("havin", "having");
@@ -31879,8 +31905,6 @@ namespace OverflowHelper.core
 
             correctionAdd("musicXML", "MusicXML");
 
-            correctionAdd("Nazi", "Nazis");
-
             correctionAdd("box of pandora", "Pandora's box");
 
             correctionAdd("above-mentioned", "abovementioned");
@@ -33657,6 +33681,7 @@ namespace OverflowHelper.core
             correctionAdd("Canopy", "Enthought Canopy");
 
             correctionAdd("london", "London");
+            correctionAdd("Londen", "London");
 
             correctionAdd("moscow", "Moscow");
 
@@ -35160,6 +35185,7 @@ namespace OverflowHelper.core
             correctionAdd("Timeout", "time-out");
             correctionAdd("Time out", "time-out");
             correctionAdd("TimeOut", "time-out");
+            correctionAdd("timout", "time-out");
 
             correctionAdd("under-sampled", "undersampled");
             correctionAdd("under sampled", "undersampled");
@@ -40972,6 +40998,7 @@ namespace OverflowHelper.core
             correctionAdd("raytracing", "ray tracing");
 
             correctionAdd("red-flag", "red flag");
+            correctionAdd("redflag", "red flag");
 
             correctionAdd("second class citizen", "second-class citizen");
 
@@ -42170,8 +42197,6 @@ namespace OverflowHelper.core
             correctionAdd("videogame", "video game");
             correctionAdd("Videogame", "video game");
 
-            correctionAdd("enthusiast badge", "Enthusiast badge");
-
             correctionAdd("sloe", "slow");
 
             correctionAdd("ever changing", "ever-changing");
@@ -42262,6 +42287,7 @@ namespace OverflowHelper.core
 
             correctionAdd("experimenatal", "experimental");
             correctionAdd("Experimenatal", "experimental");
+            correctionAdd("exptl", "experimental");
 
             correctionAdd("FBO", "fixed-base operator");
 
@@ -42732,8 +42758,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Sparky Linux", "SparkyLinux");
 
-            correctionAdd("steward badge", "Steward badge");
-
             correctionAdd("buildling", "building");
             correctionAdd("Buidling", "building");
             correctionAdd("buidling", "building");
@@ -42780,15 +42804,11 @@ namespace OverflowHelper.core
 
             correctionAdd("unavalable", "unavailable");
 
-            correctionAdd("archaeologist", "Archaeologist badge");
-
             correctionAdd("B2 visa", "B-2 visa");
 
             correctionAdd("BSD licensed", "BSD-licensed");
 
             correctionAdd("code runner", "Code Runner");
-
-            correctionAdd("Curious", "Curious badge");
 
             correctionAdd("F1 visa", "F-1 visa");
 
@@ -43876,8 +43896,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lutheran", "Lutheran");
 
-            correctionAdd("nazism", "Nazism");
-
             correctionAdd("Potassium Carbonate", "potassium carbonate");
 
             correctionAdd("Potassium Hydroxide", "potassium hydroxide");
@@ -43897,6 +43915,51 @@ namespace OverflowHelper.core
             correctionAdd("lot's", "lots");
 
             correctionAdd("omniglot", "Omniglot");
+
+            correctionAdd("electical", "electrical");
+
+            correctionAdd("FCONV", "fconv");
+
+            correctionAdd("hdqrs", "headquarters");
+            correctionAdd("Hdqrs", "headquarters");
+
+            correctionAdd("München", "Munich");
+
+            correctionAdd("xdr", "XDR");
+            correctionAdd("External Data Representation", "XDR");
+
+            correctionAdd("Asus TUF F15 Gaming", "Asus TUF Gaming F15");
+            correctionAdd("Asus Tuf F15 Gaming", "Asus TUF Gaming F15");
+            correctionAdd("TUF Gaming F15", "Asus TUF Gaming F15");
+
+            correctionAdd("Counter Strike", "Counter-Strike");
+
+            correctionAdd("Minimax", "minimax");
+
+            correctionAdd("space before unit", "MOS:UNITS");
+            correctionAdd("unit space", "MOS:UNITS");
+
+            correctionAdd("non-factor", "nonfactor");
+
+            correctionAdd("so for", "so far");
+
+            correctionAdd("transistion", "transition");
+
+            correctionAdd("VimL", "Vim script");
+            correctionAdd("Vimscript", "Vim script");
+
+            correctionAdd("We", "we");
+
+            correctionAdd("decision-making", "decision making");
+
+            correctionAdd("copys", "copies");
+
+            correctionAdd("devine", "divine");
+            correctionAdd("d-vine", "divine");
+
+            correctionAdd("maleware", "malware");
+
+            correctionAdd("tag-wiki", "tag wiki");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68965,6 +69028,46 @@ namespace OverflowHelper.core
 
             URL_Add("Omniglot", "https://en.wikipedia.org/wiki/Omniglot");
 
+            URL_Add("electrical", "https://en.wiktionary.org/wiki/electrical#Adjective");
+
+            URL_Add("fconv", "https://www.academia.edu/68875076/Fconv_Format_Conversion_Manipulation_and_Feature_Computation_of_Molecular_Data");
+
+            URL_Add("headquarters", "https://en.wiktionary.org/wiki/headquarters#Noun");
+
+            URL_Add("Munich", "https://en.wikipedia.org/wiki/Munich");
+
+            URL_Add("XDR", "https://en.wikipedia.org/wiki/External_Data_Representation");
+
+            URL_Add("Asus TUF Gaming F15", "https://www.asus.com/us/Laptops/For-Gaming/TUF-Gaming/2021-ASUS-TUF-Gaming-F15/");
+
+            URL_Add("Counter-Strike", "https://en.wikipedia.org/wiki/Counter-Strike");
+
+            URL_Add("minimax", "https://en.wikipedia.org/wiki/Minimax#Game_theory");
+
+            URL_Add("MOS:UNITS", "https://english.stackexchange.com/questions/15953");
+
+            URL_Add("nonfactor", "https://en.wiktionary.org/wiki/nonfactor#Noun");
+
+            URL_Add("so far", "https://en.wiktionary.org/wiki/so_far#Adverb");
+
+            URL_Add("transition", "https://en.wiktionary.org/wiki/transition#Noun");
+
+            URL_Add("Vim script", "https://en.wikipedia.org/wiki/Vim_(text_editor)#Vim_script");
+
+            URL_Add("we", "https://en.wiktionary.org/wiki/we#Pronoun");
+
+            URL_Add("decision making", "https://en.wiktionary.org/wiki/decision_making#Noun");
+
+            URL_Add("copies", "https://en.wiktionary.org/wiki/copy#Noun");
+
+            URL_Add("divine", "https://en.wiktionary.org/wiki/divine#Adjective");
+
+            URL_Add("Electorate badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("malware", "https://en.wikipedia.org/wiki/Malware");
+
+            URL_Add("tag wiki", "https://meta.stackexchange.com/questions/214337/what-is-a-tag-wiki-how-do-i-write-a-good-one");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70157,6 +70260,12 @@ namespace OverflowHelper.core
 
             correctionAdd("stie_", "site_");
 
+            correctionAdd("ice_", "ICE_");
+
+            correctionAdd("like_", "LIKE_");
+
+            correctionAdd("COPY_", "copy_");
+
             // URL mappings
             //
             //
@@ -70881,6 +70990,12 @@ namespace OverflowHelper.core
             URL_Add("Nazi_", "https://en.wiktionary.org/wiki/Nazi#Adjective");
 
             URL_Add("site_", "https://en.wiktionary.org/wiki/site#Noun_2");
+
+            URL_Add("ICE_", "https://en.wikipedia.org/wiki/Intercity_Express");
+
+            URL_Add("LIKE_", "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver16");
+
+            URL_Add("copy_", "https://ss64.com/nt/copy.html");
 
         } //addLookupData_alternativeWordSet()
 
