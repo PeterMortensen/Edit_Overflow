@@ -2891,6 +2891,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ELL", "English Language Learners (Stack Exchange site)");
             correctionAdd("English Language Learners", "English Language Learners (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("ELL.SE", "English Language Learners (Stack Exchange site)");
 
             correctionAdd("TeX - LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
@@ -6854,6 +6855,7 @@ namespace OverflowHelper.core
             correctionAdd("enginnering", "engineering");
 
             correctionAdd("Mechanical engineering", "mechanical engineering");
+            correctionAdd("Mechanical Engineering", "mechanical engineering");
 
             correctionAdd("Aeronautical Engineering", "aeronautical engineering");
 
@@ -12980,6 +12982,8 @@ namespace OverflowHelper.core
             correctionAdd("Beautiful soup", "Beautiful Soup");
             correctionAdd("BeatifulSoup", "Beautiful Soup");
             correctionAdd("Beautifulsoup", "Beautiful Soup");
+            correctionAdd("Beautifoul Soup", "Beautiful Soup");
+            correctionAdd("BeautifoulSoup", "Beautiful Soup");
 
             correctionAdd("beatiful", "beautiful");
             correctionAdd("beutiful", "beautiful");
@@ -19617,6 +19621,7 @@ namespace OverflowHelper.core
             correctionAdd("custome", "custom");
             correctionAdd("kusto", "custom");
             correctionAdd("kustom", "custom");
+            correctionAdd("Custom", "custom");
 
             correctionAdd("folter", "folder");
             correctionAdd("foleder", "folder");
@@ -23935,6 +23940,9 @@ namespace OverflowHelper.core
 
             correctionAdd("re-size", "resize");
 
+            correctionAdd("suze", "size");
+            correctionAdd("Size", "size");
+
             correctionAdd("802.11 b", "802.11b");
             correctionAdd("802.1b", "802.11b");
             correctionAdd("802.1 b", "802.11b");
@@ -25293,6 +25301,7 @@ namespace OverflowHelper.core
             correctionAdd("sorey", "sorry");
             correctionAdd("sry", "sorry");
             correctionAdd("sory", "sorry");
+            correctionAdd("Sry", "sorry");
 
             correctionAdd("lodash", "Lodash");
             correctionAdd("lodash.js", "Lodash");
@@ -28698,6 +28707,7 @@ namespace OverflowHelper.core
             correctionAdd("DevTools", "Chrome DevTools");
             correctionAdd("Dev Tools", "Chrome DevTools");
             correctionAdd("Chrome Dev Tools", "Chrome DevTools");
+            correctionAdd("Google Chrome DevTools", "Chrome DevTools");
 
             correctionAdd("MBaas", "MBaaS");
 
@@ -31839,8 +31849,6 @@ namespace OverflowHelper.core
             correctionAdd("new", "knew");
 
             correctionAdd("Neuron", "neuron");
-
-            correctionAdd("suze", "size");
 
             correctionAdd("superiour", "superior");
 
@@ -41538,6 +41546,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dwingling", "dwindling");
             correctionAdd("dvingling", "dwindling");
+            correctionAdd("dwinggling", "dwindling");
 
             correctionAdd("earth-like", "earthlike");
 
@@ -42807,6 +42816,7 @@ namespace OverflowHelper.core
             correctionAdd("B2 visa", "B-2 visa");
 
             correctionAdd("BSD licensed", "BSD-licensed");
+            correctionAdd("BSD license", "BSD-licensed");
 
             correctionAdd("code runner", "Code Runner");
 
@@ -43960,6 +43970,14 @@ namespace OverflowHelper.core
             correctionAdd("maleware", "malware");
 
             correctionAdd("tag-wiki", "tag wiki");
+
+            correctionAdd("by passed", "bypassed");
+
+            correctionAdd("Fiber", "fiber");
+
+            correctionAdd("IndexedDB", "Indexed Database API");
+
+            correctionAdd("non-redundant", "nonredundant");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69068,6 +69086,14 @@ namespace OverflowHelper.core
 
             URL_Add("tag wiki", "https://meta.stackexchange.com/questions/214337/what-is-a-tag-wiki-how-do-i-write-a-good-one");
 
+            URL_Add("bypassed", "https://en.wiktionary.org/wiki/bypass#Verb");
+
+            URL_Add("fiber", "https://en.wikipedia.org/wiki/Fiber_(computer_science)");
+
+            URL_Add("Indexed Database API", "https://en.wikipedia.org/wiki/Indexed_Database_API");
+
+            URL_Add("nonredundant", "https://en.wiktionary.org/wiki/nonredundant#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70079,6 +70105,9 @@ namespace OverflowHelper.core
             correctionAdd("[tag:awk]_", "AWK (tag wiki)_");
             correctionAdd("awk_", "AWK (tag wiki)_");
 
+            correctionAdd("[tag:google-chrome-devtools]_", "Google Chrome DevTools (tag wiki)_");
+            correctionAdd("google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -70265,6 +70294,12 @@ namespace OverflowHelper.core
             correctionAdd("like_", "LIKE_");
 
             correctionAdd("COPY_", "copy_");
+
+            correctionAdd("DevTools_", "Web development tools_");
+            correctionAdd("dev tools_", "Web development tools_");
+            correctionAdd("developer tools_", "Web development tools_");
+            correctionAdd("development tools_", "Web development tools_");
+            correctionAdd("devtools_", "Web development tools_");
 
             // URL mappings
             //
@@ -70996,6 +71031,10 @@ namespace OverflowHelper.core
             URL_Add("LIKE_", "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver16");
 
             URL_Add("copy_", "https://ss64.com/nt/copy.html");
+
+            URL_Add("Google Chrome DevTools (tag wiki)_", "https://stackoverflow.com/questions/tagged/google-chrome-devtools");
+
+            URL_Add("Web development tools_", "https://en.wikipedia.org/wiki/Web_development_tools");
 
         } //addLookupData_alternativeWordSet()
 
