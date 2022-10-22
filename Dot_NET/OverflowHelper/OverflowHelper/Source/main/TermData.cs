@@ -1778,6 +1778,7 @@ namespace OverflowHelper.core
 
             correctionAdd("github desktop", "GitHub Desktop");
             correctionAdd("Git Desktop", "GitHub Desktop");
+            correctionAdd("GitHub desktop", "GitHub Desktop");
 
             correctionAdd("Docker desktop", "Docker Desktop");
             correctionAdd("docker desktop", "Docker Desktop");
@@ -3193,6 +3194,7 @@ namespace OverflowHelper.core
             correctionAdd("eksample", "example");
             correctionAdd("exaples", "example");
             correctionAdd("examples", "example");
+            correctionAdd("Exaple", "example");
 
             correctionAdd("explaination", "explanation");
             correctionAdd("explenation", "explanation");
@@ -3634,6 +3636,7 @@ namespace OverflowHelper.core
             correctionAdd("Vairable", "variable");
             correctionAdd("Var", "variable");
             correctionAdd("vaiable", "variable");
+            correctionAdd("variablr", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -6495,6 +6498,7 @@ namespace OverflowHelper.core
             correctionAdd("Becouse", "because");
             correctionAdd("bcse", "because");
             correctionAdd("B/c", "because");
+            correctionAdd("b.c", "because");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -7872,6 +7876,7 @@ namespace OverflowHelper.core
             correctionAdd("reposiotry", "repository");
             correctionAdd("reop", "repository");
             correctionAdd("repo'", "repository");
+            correctionAdd("repositry", "repository");
 
             correctionAdd("dir", "directory");
             correctionAdd("directoty", "directory");
@@ -8288,6 +8293,7 @@ namespace OverflowHelper.core
             correctionAdd("won?t", "won’t");
             correctionAdd("son?t", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
             correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
+            correctionAdd("won'T", "won’t");
 
             correctionAdd("xsl", "XSL");
 
@@ -12354,6 +12360,8 @@ namespace OverflowHelper.core
             correctionAdd("Alot", "a lot");
             correctionAdd("a lott", "a lot");
             correctionAdd("a-lot", "a lot");
+            correctionAdd("a lit", "a lot");
+            correctionAdd("a lith", "a lot");
 
             correctionAdd("slashdot", "Slashdot");
 
@@ -13219,6 +13227,7 @@ namespace OverflowHelper.core
             correctionAdd("frequancy", "frequency");
             correctionAdd("frq", "frequency");
             correctionAdd("freqeuency", "frequency");
+            correctionAdd("frequncy", "frequency");
 
             correctionAdd("basicly", "basically");
             correctionAdd("Basicaly", "basically"); // Not 100% correct (case)
@@ -13739,6 +13748,7 @@ namespace OverflowHelper.core
             correctionAdd("questioin", "question");
             correctionAdd("Quesiton", "question");
             correctionAdd("questsion", "question");
+            correctionAdd("qs", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -18086,6 +18096,7 @@ namespace OverflowHelper.core
             correctionAdd("quick and dirty", "quick-and-dirty");
             correctionAdd("quick'n'dirty", "quick-and-dirty");
             correctionAdd("quick n' dirty", "quick-and-dirty");
+            correctionAdd("Quick and Dirty", "quick-and-dirty");
 
             correctionAdd("recipint", "recipient");
             correctionAdd("receipent", "recipient");
@@ -18131,6 +18142,7 @@ namespace OverflowHelper.core
             correctionAdd("PR", "pull request");
             correctionAdd("Pull Request", "pull request");
             correctionAdd("Pull-Request", "pull request");
+            correctionAdd("prs", "pull request");
 
             correctionAdd("requst", "request");
             correctionAdd("resquest", "request");
@@ -20438,6 +20450,7 @@ namespace OverflowHelper.core
             correctionAdd("Ferrite", "ferrite");
 
             correctionAdd("fire fighting", "firefighting");
+            correctionAdd("fire-fighting", "firefighting");
 
             correctionAdd("gasligthing", "gaslighting");
             correctionAdd("gas lighting", "gaslighting");
@@ -21629,6 +21642,7 @@ namespace OverflowHelper.core
             correctionAdd("interpitied", "interpreted");
             correctionAdd("interpretted", "interpreted");
             correctionAdd("interpretated", "interpreted");
+            correctionAdd("inerpreted", "interpreted");
 
             correctionAdd("misinterpeted", "misinterpreted");
 
@@ -23488,6 +23502,7 @@ namespace OverflowHelper.core
             correctionAdd("Comment", "comment");
             correctionAdd("cimment", "comment");
             correctionAdd("commemt", "comment");
+            correctionAdd("commnet", "comment");
 
             correctionAdd("discurage", "discourage");
 
@@ -24175,6 +24190,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SM", "Scrum master");
             correctionAdd("scrum master", "Scrum master");
+            correctionAdd("Scrum Master", "Scrum master");
 
             correctionAdd("beleives", "believes");
 
@@ -28708,6 +28724,7 @@ namespace OverflowHelper.core
             correctionAdd("Dev Tools", "Chrome DevTools");
             correctionAdd("Chrome Dev Tools", "Chrome DevTools");
             correctionAdd("Google Chrome DevTools", "Chrome DevTools");
+            correctionAdd("google-chrome-devtools", "Chrome DevTools");
 
             correctionAdd("MBaas", "MBaaS");
 
@@ -30279,6 +30296,9 @@ namespace OverflowHelper.core
             correctionAdd("thhis", "this");
             correctionAdd("THis", "this");
             correctionAdd("This", "this");
+
+            correctionAdd("thise", "these");
+            correctionAdd("theses", "these");
 
             correctionAdd("cargo", "cargo cult");
 
@@ -35111,6 +35131,7 @@ namespace OverflowHelper.core
             correctionAdd("Web Scrapper", "web scraping");
             correctionAdd("web scrapper", "web scraping");
             correctionAdd("web scraper", "web scraping");
+            correctionAdd("web scraped", "web scraping");
 
             correctionAdd("Web browser", "web browser");
             correctionAdd("Web Browser", "web browser");
@@ -35251,6 +35272,8 @@ namespace OverflowHelper.core
             correctionAdd("louisiana", "Louisiana");
 
             correctionAdd("WV", "West Virginia");
+            correctionAdd("West Vergenia", "West Virginia");
+            correctionAdd("West Verginia", "West Virginia");
 
             correctionAdd("change directory", "cd");
 
@@ -36614,6 +36637,7 @@ namespace OverflowHelper.core
             correctionAdd("Werror", "-Werror");
 
             correctionAdd("--Wextra", "-Wextra");
+            correctionAdd("-W", "-Wextra");
 
             correctionAdd("--Wuninitialized", "-Wuninitialized");
 
@@ -39024,9 +39048,6 @@ namespace OverflowHelper.core
             correctionAdd("in very short-order", "in short order");
 
             correctionAdd("Music", "music");
-
-            correctionAdd("thise", "these");
-            correctionAdd("theses", "these");
 
             correctionAdd("underlieng", "underlying");
 
@@ -42200,6 +42221,7 @@ namespace OverflowHelper.core
             correctionAdd("sub queries", "subqueries");
 
             correctionAdd("sub query", "subquery");
+            correctionAdd("sub-query", "subquery");
 
             correctionAdd("under-powered", "underpowered");
 
@@ -43624,6 +43646,7 @@ namespace OverflowHelper.core
             correctionAdd("select2", "Select2");
 
             correctionAdd("dall-e", "DALL-E");
+            correctionAdd("Dall-E", "DALL-E");
 
             correctionAdd("BoA", "Bank of America");
             correctionAdd("BAC", "Bank of America");
@@ -43978,6 +44001,57 @@ namespace OverflowHelper.core
             correctionAdd("IndexedDB", "Indexed Database API");
 
             correctionAdd("non-redundant", "nonredundant");
+
+            correctionAdd("consequnce", "consequence");
+
+            correctionAdd("deleteing", "deleting");
+
+            correctionAdd("higher up", "higher-up");
+
+            correctionAdd("irreversebly", "irreversibly");
+
+            correctionAdd("CodeSourcery", "Mentor Graphics");
+
+            correctionAdd("MRs", "merge request");
+            correctionAdd("MR", "merge request");
+            correctionAdd("mr", "merge request");
+            correctionAdd("mrs", "merge request");
+
+            correctionAdd("Product Owner", "product owner");
+
+            correctionAdd("r&d", "research and development");
+            correctionAdd("R&D", "research and development");
+
+            correctionAdd("unrotect", "unprotect");
+
+            correctionAdd("sneaker net", "sneakernet");
+
+            correctionAdd("Subwoofer", "subwoofer");
+
+            correctionAdd("annonymously", "anonymously");
+
+            correctionAdd("asenine", "asinine");
+            correctionAdd("Asenine", "asinine");
+
+            correctionAdd("The Walt Disney Company", "Disney");
+
+            correctionAdd("LM", "language model");
+            correctionAdd("Language Model", "language model");
+
+            correctionAdd("LEFT join", "left outer join");
+            correctionAdd("left join", "left outer join");
+
+            correctionAdd("lawsi", "lousy");
+            correctionAdd("lawsy", "lousy");
+
+            correctionAdd("Media Redundancy Protocol", "MRP");
+
+            correctionAdd("Prompt Engineering", "prompt engineering");
+
+            correctionAdd("reinstallatio", "reinstallation");
+
+            correctionAdd("Stable Diffusion", "Stable&nbsp;Diffusion");
+            correctionAdd("StableDiffusion", "Stable&nbsp;Diffusion");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69094,6 +69168,48 @@ namespace OverflowHelper.core
 
             URL_Add("nonredundant", "https://en.wiktionary.org/wiki/nonredundant#Adjective");
 
+            URL_Add("consequence", "https://en.wiktionary.org/wiki/consequence#Noun");
+
+            URL_Add("deleting", "https://en.wiktionary.org/wiki/delete#Verb");
+
+            URL_Add("higher-up", "https://en.wiktionary.org/wiki/higher-up#Noun");
+
+            URL_Add("irreversibly", "https://en.wiktionary.org/wiki/irreversibly#Adverb");
+
+            URL_Add("Mentor Graphics", "https://en.wikipedia.org/wiki/Mentor_Graphics#Products");
+
+            URL_Add("merge request", "https://about.gitlab.com/handbook/product/ux/product-designer/mr-reviews/MR");
+
+            URL_Add("product owner", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_owner");
+
+            URL_Add("research and development", "https://en.wikipedia.org/wiki/Research_and_development");
+
+            URL_Add("unprotect", "https://en.wiktionary.org/wiki/unprotect#Verb");
+
+            URL_Add("sneakernet", "https://en.wikipedia.org/wiki/Sneakernet");
+
+            URL_Add("subwoofer", "https://en.wikipedia.org/wiki/Subwoofer");
+
+            URL_Add("anonymously", "https://en.wiktionary.org/wiki/anonymously#Adverb");
+
+            URL_Add("asinine", "https://en.wiktionary.org/wiki/asinine#Adjective");
+
+            URL_Add("Disney", "https://en.wikipedia.org/wiki/The_Walt_Disney_Company");
+
+            URL_Add("language model", "https://en.wikipedia.org/wiki/Language_model#Notable_language_models");
+
+            URL_Add("left outer join", "https://en.wikipedia.org/wiki/Join_(SQL)#Left_outer_join");
+
+            URL_Add("lousy", "https://en.wiktionary.org/wiki/lousy#Adjective");
+
+            URL_Add("MRP", "https://en.wikipedia.org/wiki/Media_Redundancy_Protocol");
+
+            URL_Add("prompt engineering", "https://en.wikipedia.org/wiki/Prompt_engineering");
+
+            URL_Add("reinstallation", "https://en.wiktionary.org/wiki/reinstallation#Noun");
+
+            URL_Add("Stable&nbsp;Diffusion", "https://en.wikipedia.org/wiki/Stable_Diffusion");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70107,6 +70223,7 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:google-chrome-devtools]_", "Google Chrome DevTools (tag wiki)_");
             correctionAdd("google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
+            correctionAdd("Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
 
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
@@ -70300,6 +70417,16 @@ namespace OverflowHelper.core
             correctionAdd("developer tools_", "Web development tools_");
             correctionAdd("development tools_", "Web development tools_");
             correctionAdd("devtools_", "Web development tools_");
+
+            correctionAdd("Qualcomm BREW_", "BREW_");
+            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
+            correctionAdd("Brew MP_", "BREW_");
+            correctionAdd("Brew_", "BREW_");
+            correctionAdd("brew_", "BREW_");
+
+            correctionAdd("LM_", "large language model_");
+            correctionAdd("LLM_", "large language model_");
+            correctionAdd("LLMs_", "large language model_");
 
             // URL mappings
             //
@@ -71035,6 +71162,10 @@ namespace OverflowHelper.core
             URL_Add("Google Chrome DevTools (tag wiki)_", "https://stackoverflow.com/questions/tagged/google-chrome-devtools");
 
             URL_Add("Web development tools_", "https://en.wikipedia.org/wiki/Web_development_tools");
+
+            URL_Add("BREW_", "https://en.wikipedia.org/wiki/Binary_Runtime_Environment_for_Wireless");
+
+            URL_Add("large language model_", "https://theamericangenius.com/tech-news/large-language-models/");
 
         } //addLookupData_alternativeWordSet()
 
