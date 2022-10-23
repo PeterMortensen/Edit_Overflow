@@ -1756,7 +1756,12 @@ cp $SRCFOLDER_TESTS/WordlistTests.cs                    $WORKFOLDER
 cp $SRCFOLDER_TESTS/LookUpStringTests.cs                $WORKFOLDER
 cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs     $WORKFOLDER
 cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
-cp $SRCFOLDER_TESTS/RegExExecutor.cs                    $WORKFOLDER
+
+# We don't have it. It is a helper class for testing, but it 
+# was moved to the main source folder... (as it may see
+# wider use than for testing)
+#cp $SRCFOLDER_TESTS/RegExExecutor.cs                    $WORKFOLDER  
+
 cp $SRCFOLDER_TESTS/WordLookupTests.cs                  $WORKFOLDER
 
 
@@ -2515,7 +2520,7 @@ cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-0
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 6230000 6850000
+wordListExport 31 "SQL" $SQL_FILE 6350000 6990000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
