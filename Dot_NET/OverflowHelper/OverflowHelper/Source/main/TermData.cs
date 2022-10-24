@@ -2073,6 +2073,7 @@ namespace OverflowHelper.core
             correctionAdd("github desktop", "GitHub Desktop");
             correctionAdd("Git Desktop", "GitHub Desktop");
             correctionAdd("GitHub desktop", "GitHub Desktop");
+            correctionAdd("Github Desktop", "GitHub Desktop");
 
             correctionAdd("Docker desktop", "Docker Desktop");
             correctionAdd("docker desktop", "Docker Desktop");
@@ -3015,6 +3016,16 @@ namespace OverflowHelper.core
             correctionAdd("--Wstrict-overflow", "-Wstrict-overflow");
 
             correctionAdd("--Wstrict-prototypes", "-Wstrict-prototypes");
+
+            correctionAdd("--Wredundant-decls", "-Wredundant-decls");
+
+            correctionAdd("--Wnested-externs", "-Wnested-externs");
+
+            correctionAdd("--Wimplicit-function-declaration", "-Wimplicit-function-declaration");
+
+            correctionAdd("--Wno-implicit-function-declaration", "-Wno-implicit-function-declaration");
+
+            correctionAdd("--Wunused", "-Wunused");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -5411,6 +5422,7 @@ namespace OverflowHelper.core
             correctionAdd("GIthub", "GitHub");
             correctionAdd("Git Hub", "GitHub");
             correctionAdd("GitHib", "GitHub");
+            correctionAdd("GIT HUB", "GitHub");
 
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
@@ -5425,6 +5437,10 @@ namespace OverflowHelper.core
 
             correctionAdd("gcc", "GCC");
             correctionAdd("Gcc", "GCC");
+            correctionAdd("GNU C Compiler", "GCC");
+            correctionAdd("GNU C compiler", "GCC");
+            correctionAdd("GNUC", "GCC");
+            correctionAdd("GNU c", "GCC");
 
             correctionAdd("gdb", "GDB");
             correctionAdd("Gdb", "GDB");
@@ -13058,6 +13074,7 @@ namespace OverflowHelper.core
             correctionAdd("android-4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
             correctionAdd("Android4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("ice cream", "Android&nbsp;4.0 (Ice Cream Sandwich)");
 
             correctionAdd("Android 4.1 (Jelly Bean)", "Android&nbsp;4.1 (Jelly Bean)"); // Sort of identity mapping
             correctionAdd("JB", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
@@ -13923,6 +13940,10 @@ namespace OverflowHelper.core
             correctionAdd("man in the middle", "man-in-the-middle attack");
             correctionAdd("MiTM", "man-in-the-middle attack");
             correctionAdd("Man-in-the-middle", "man-in-the-middle attack");
+            correctionAdd("Meddler-in-the-Middle", "man-in-the-middle attack");
+            correctionAdd("Meddler-in-the-Middle attack", "man-in-the-middle attack");
+            correctionAdd("meddler-in-the-middle", "man-in-the-middle attack");
+            correctionAdd("meddler-in-the-middle attack", "man-in-the-middle attack");
 
             correctionAdd("mvvm", "MVVM");
 
@@ -15572,6 +15593,7 @@ namespace OverflowHelper.core
             correctionAdd("acheieve", "achieve");
             correctionAdd("achievie", "achieve");
             correctionAdd("achiever", "achieve");
+            correctionAdd("acchieve", "achieve");
 
             correctionAdd("acward", "awkward");
             correctionAdd("ackward", "awkward");
@@ -17135,6 +17157,7 @@ namespace OverflowHelper.core
             correctionAdd("MySql workbench", "MySQL Workbench");
             correctionAdd("MySQLWorkbench", "MySQL Workbench");
             correctionAdd("Mysql Workbench", "MySQL Workbench");
+            correctionAdd("MYSQL workbench", "MySQL Workbench");
 
             correctionAdd("Blockchain", "blockchain");
             correctionAdd("Block chain", "blockchain");
@@ -17907,6 +17930,7 @@ namespace OverflowHelper.core
             correctionAdd("Address", "address");
             correctionAdd("ADDRESSS", "address");
             correctionAdd("ADDRESS", "address");
+            correctionAdd("addrees", "address");
 
             correctionAdd("bare in mind", "bear in mind");
             correctionAdd("Bare in mind", "bear in mind");
@@ -20273,6 +20297,7 @@ namespace OverflowHelper.core
             correctionAdd("s/", "s/PATTERN/REPLACEMENT/msixpodualngcer");
 
             correctionAdd("standart", "standard");
+            correctionAdd("std", "standard");
 
             correctionAdd("swollow", "swallow");
 
@@ -24902,6 +24927,7 @@ namespace OverflowHelper.core
             correctionAdd("commerically", "commercially");
 
             correctionAdd("compling", "compiling");
+            correctionAdd("compileing", "compiling");
 
             correctionAdd("precense", "presence");
             correctionAdd("presense", "presence");
@@ -29736,6 +29762,8 @@ namespace OverflowHelper.core
             correctionAdd("bigfer", "bigger");
 
             correctionAdd("incomprehensive", "incomprehensible");
+            correctionAdd("imcompresible", "incomprehensible");
+            correctionAdd("incompresible", "incomprehensible");
 
             correctionAdd("K", "kelvin");
             correctionAdd("Kelvin", "kelvin");
@@ -29846,6 +29874,7 @@ namespace OverflowHelper.core
             correctionAdd("wikiholism", "wikiholiday");
             correctionAdd("wikipediholic", "wikiholiday");
             correctionAdd("wikibreak", "wikiholiday");
+            correctionAdd("wiki break", "wikiholiday");
 
             correctionAdd("alingn", "align");
             correctionAdd("allign", "align");
@@ -32709,6 +32738,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non destructive", "nondestructive");
             correctionAdd("none destructive", "nondestructive");
+            correctionAdd("non-destructive", "nondestructive");
 
             correctionAdd("ghostery", "Ghostery");
 
@@ -36461,6 +36491,7 @@ namespace OverflowHelper.core
             correctionAdd("streching", "stretching");
 
             correctionAdd("stuppid", "stupid");
+            correctionAdd("stupic", "stupid");
 
             correctionAdd("eevblog", "EEVBlog");
 
@@ -38020,6 +38051,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Search Engine", "search engine");
             correctionAdd("serch engine", "search engine");
+            correctionAdd("$SEARCH_ENGINE", "search engine");
 
             correctionAdd("South", "south");
 
@@ -38667,6 +38699,7 @@ namespace OverflowHelper.core
             correctionAdd("porpose", "propose");
 
             correctionAdd("Rage quitting", "rage quitting");
+            correctionAdd("rage-quitting", "rage quitting");
 
             correctionAdd("rouding", "rounding");
 
@@ -40632,6 +40665,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Meta Effect", "meta effect");
             correctionAdd("meta affect", "meta effect");
+            correctionAdd("the meta effect", "meta effect");
 
             correctionAdd("self reference", "self-reference");
 
@@ -41839,6 +41873,9 @@ namespace OverflowHelper.core
             correctionAdd("SPM", "Swift Package Manager");
             correctionAdd("spm", "Swift Package Manager");
 
+            correctionAdd("package-management system", "package manager");
+            correctionAdd("package-manager", "package manager");
+
             correctionAdd("tweedie distribution", "Tweedie distribution");
 
             correctionAdd("kaching", "cash register sound");
@@ -42685,6 +42722,7 @@ namespace OverflowHelper.core
             correctionAdd("entry level", "entry-level");
 
             correctionAdd("MUSL", "musl");
+            correctionAdd("Musl", "musl");
 
             correctionAdd("nice looking", "nice-looking");
 
@@ -44057,6 +44095,7 @@ namespace OverflowHelper.core
             correctionAdd("non-redundant", "nonredundant");
 
             correctionAdd("consequnce", "consequence");
+            correctionAdd("consequece", "consequence");
 
             correctionAdd("deleteing", "deleting");
 
@@ -44141,6 +44180,20 @@ namespace OverflowHelper.core
             correctionAdd("uncoutable", "uncountable");
 
             correctionAdd("urespectful", "unrespectful");
+
+            correctionAdd("pop", "population");
+
+            correctionAdd("what-not", "what not");
+            correctionAdd("whatnot", "what not");
+            correctionAdd("wherenot", "what not");
+
+            correctionAdd("--Wno-unused-value", "-Wno-unused-value");
+
+            correctionAdd("empscheduler", "Employee Scheduler");
+
+            correctionAdd("orange HRM", "OrangeHRM");
+
+            correctionAdd("wednesday", "Wednesday");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62885,7 +62938,7 @@ namespace OverflowHelper.core
 
             URL_Add("stroke", "https://en.wikipedia.org/wiki/Stroke");
 
-            URL_Add("unused", "https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Function-Attributes.html#index-g_t_0040code_007bunused_007d-attribute_002e-2640");
+            URL_Add("unused", "https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html#index-unused-function-attribute"); // Old: <https://gcc.gnu.org/onlinedocs/gcc-4.7.2/gcc/Function-Attributes.html#index-g_t_0040code_007bunused_007d-attribute_002e-2640>
 
             URL_Add("-Wno-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-pragmas");
 
@@ -66245,11 +66298,11 @@ namespace OverflowHelper.core
 
             URL_Add("-Os", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-Os");
 
-            URL_Add("-fdata-sections", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffunction-sections");
+            URL_Add("-fdata-sections", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdata-sections"); // Old (but there are essentially the same page anchor): <https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffunction-sections>
 
             URL_Add("-ffunction-sections", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffunction-sections");
 
-            URL_Add("-fno-exceptions", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fexceptions");
+            URL_Add("-fno-exceptions", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fexceptions"); // The anchor is correct. "-fno-exceptions" isn't explicitly on the page, only "-fexceptions".
 
             URL_Add(".format", "https://docs.python.org/3/library/stdtypes.html#str.format");
 
@@ -67879,7 +67932,7 @@ namespace OverflowHelper.core
 
             URL_Add("-Wmissing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers");
 
-            URL_Add("-Wno-missing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers");
+            URL_Add("-Wno-missing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-missing-field-initializers"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers>
 
             URL_Add("FirebaseUI", "https://github.com/firebase/FirebaseUI-Android");
 
@@ -67951,9 +68004,9 @@ namespace OverflowHelper.core
 
             URL_Add("xBase", "https://en.wikipedia.org/wiki/XBase");
 
-            URL_Add("-Wno-error", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror");
+            URL_Add("-Wno-error", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-error"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror>
 
-            URL_Add("-fno-strict-overflow", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fstrict-overflow");
+            URL_Add("-fno-strict-overflow", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fstrict-overflow"); // The anchor is correct. "-fno-strict-overflow" isn't explicitly on the page, only "-fstrict-overflow".
 
             URL_Add("Dilbert", "https://en.wikipedia.org/wiki/Dilbert");
 
@@ -68461,7 +68514,7 @@ namespace OverflowHelper.core
 
             URL_Add("semantics", "https://en.wiktionary.org/wiki/semantics#Noun");
 
-            URL_Add("-Wreturn-type", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-type");
+            URL_Add("-Wreturn-type", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-type>
 
             URL_Add("Ducky", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards");
 
@@ -69357,6 +69410,30 @@ namespace OverflowHelper.core
 
             URL_Add("unrespectful", "https://en.wiktionary.org/wiki/unrespectful#Adjective");
 
+            URL_Add("population", "https://en.wiktionary.org/wiki/population#Noun");
+
+            URL_Add("-Wredundant-decls", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls");
+
+            URL_Add("-Wnested-externs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnested-externs");
+
+            URL_Add("what not", "https://en.wiktionary.org/wiki/what_not#Noun");
+
+            URL_Add("-Wimplicit-function-declaration", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration");
+
+            URL_Add("-Wno-implicit-function-declaration", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-implicit-function-declaration");
+
+            URL_Add("-Wunused", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused");
+
+            URL_Add("-Wno-unused-value", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-value");
+
+            URL_Add("package manager", "https://en.wikipedia.org/wiki/Package_manager");
+
+            URL_Add("Employee Scheduler", "https://empscheduler.sourceforge.net/");
+
+            URL_Add("OrangeHRM", "https://en.wikipedia.org/wiki/OrangeHRM");
+
+            URL_Add("Wednesday", "https://en.wiktionary.org/wiki/Wednesday#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -69876,6 +69953,7 @@ namespace OverflowHelper.core
             correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
             correctionAdd("music Stack Exchange_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("music Stack Exchange site_", "Music: Practice & Theory (Stack Exchange site)_");
 
             correctionAdd("Psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
             correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
@@ -70326,6 +70404,7 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:go]_", "Go (tag wiki)_");
             correctionAdd("go_", "Go (tag wiki)_");
+            correctionAdd("Go_", "Go (tag wiki)_");
 
             correctionAdd("[tag:haskell]_", "Haskell (tag wiki)_");
             correctionAdd("haskell_", "Haskell (tag wiki)_");
@@ -70579,6 +70658,7 @@ namespace OverflowHelper.core
             correctionAdd("ifr_", "IFR_");
 
             correctionAdd("pop_", "POP_");
+            correctionAdd("Gregorio Luperón International Airport_", "POP_");
 
             correctionAdd("icecream_", "ice cream_");
 
