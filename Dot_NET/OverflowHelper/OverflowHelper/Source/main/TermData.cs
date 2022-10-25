@@ -2926,21 +2926,22 @@ namespace OverflowHelper.core
 
             correctionAdd("--Werror", "-Werror");
             correctionAdd("Werror", "-Werror");
+            correctionAdd("-werror", "-Werror");
 
             correctionAdd("--Wextra", "-Wextra");
             correctionAdd("-W", "-Wextra");
 
             correctionAdd("--Wuninitialized", "-Wuninitialized");
 
-            correctionAdd("--ansi", "-ansi");
+            correctionAdd("--ansi", "-ansi"); // For GCC
 
             correctionAdd("--pedantic", "-pedantic");
             correctionAdd("--Wpedantic", "-pedantic");
             correctionAdd("-Wpedantic", "-pedantic");
 
-            correctionAdd("--pedantic-errors", "-pedantic-errors");
+            correctionAdd("--pedantic-errors", "-pedantic-errors"); // For GCC
 
-            correctionAdd("--fno-diagnostics-show-option", "-fno-diagnostics-show-option");
+            correctionAdd("--fno-diagnostics-show-option", "-fno-diagnostics-show-option"); // For GCC
 
             correctionAdd("#pragma GCC diagnostic ignored", "#pragma GCC diagnostic");
             correctionAdd("#pragma gcc diagnostic", "#pragma GCC diagnostic");
@@ -2960,16 +2961,16 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wshadow", "-Wshadow");
 
-            correctionAdd("--Og", "-Og");
+            correctionAdd("--Og", "-Og"); // For GCC
 
-            correctionAdd("--Os", "-Os");
+            correctionAdd("--Os", "-Os"); // For GCC
 
-            correctionAdd("--fdata-sections", "-fdata-sections");
+            correctionAdd("--fdata-sections", "-fdata-sections"); // For GCC
 
-            correctionAdd("--ffunction-sections", "-ffunction-sections");
+            correctionAdd("--ffunction-sections", "-ffunction-sections"); // For GCC
 
-            correctionAdd("--fno-exceptions", "-fno-exceptions");
-            correctionAdd("-fno-excepctions", "-fno-exceptions");
+            correctionAdd("--fno-exceptions", "-fno-exceptions"); // For GCC
+            correctionAdd("-fno-excepctions", "-fno-exceptions"); // For GCC
 
             correctionAdd("--Wmisleading-indentation", "-Wmisleading-indentation");
 
@@ -2991,7 +2992,7 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wreturn-type", "-Wreturn-type");
 
-            correctionAdd("--fdiagnostics-show-option", "-fdiagnostics-show-option");
+            correctionAdd("--fdiagnostics-show-option", "-fdiagnostics-show-option"); // For GCC
 
             correctionAdd("--Wcast-qual", "-Wcast-qual");
 
@@ -3000,7 +3001,6 @@ namespace OverflowHelper.core
             correctionAdd("--Wmissing-prototypes", "-Wmissing-prototypes");
 
             correctionAdd("--Wno-return-local-addr", "-Wno-return-local-addr");
-            correctionAdd("-Wno-return-stack-address", "-Wno-return-local-addr");
 
             correctionAdd("--Wno-shadow", "-Wno-shadow");
 
@@ -3011,9 +3011,9 @@ namespace OverflowHelper.core
             correctionAdd("--Wpointer-arith", "-Wpointer-arith");
 
             correctionAdd("--Wreturn-local-addr", "-Wreturn-local-addr");
-            correctionAdd("-Wreturn-stack-address", "-Wreturn-local-addr");
 
             correctionAdd("--Wstrict-overflow", "-Wstrict-overflow");
+            correctionAdd("-Wstrict-overflow=", "-Wstrict-overflow"); // Not strictly the same (no pun intended), but it is the same section of the documentation: "-Wstrict-overflow=n" and "-Wstrict-overflow" have a shared entry.
 
             correctionAdd("--Wstrict-prototypes", "-Wstrict-prototypes");
 
@@ -3026,6 +3026,38 @@ namespace OverflowHelper.core
             correctionAdd("--Wno-implicit-function-declaration", "-Wno-implicit-function-declaration");
 
             correctionAdd("--Wunused", "-Wunused");
+
+            correctionAdd("--Wno-unused-value", "-Wno-unused-value");
+
+            correctionAdd("--funit-at-a-time", "-funit-at-a-time"); // For GCC
+
+            correctionAdd("--Wcast-align", "-Wcast-align");
+
+            correctionAdd("--Wconversion", "-Wconversion");
+
+            correctionAdd("--Wdeclaration-after-statement", "-Wdeclaration-after-statement");
+
+            correctionAdd("--Wdisabled-optimization", "-Wdisabled-optimization");
+
+            correctionAdd("--Wfatal-errors", "-Wfatal-errors");
+
+            correctionAdd("--Wmissing-declarations", "-Wmissing-declarations");
+
+            correctionAdd("--Wparentheses", "-Wparentheses");
+
+            correctionAdd("--Wsequence-point", "-Wsequence-point");
+
+            correctionAdd("--Wsign-compare", "-Wsign-compare");
+
+            correctionAdd("--Wundef", "-Wundef");
+
+            correctionAdd("--Wunused-parameter", "-Wunused-parameter");
+
+            correctionAdd("--Wwrite-strings", "-Wwrite-strings");
+
+            correctionAdd("--o", "-o"); // For GCC
+
+            correctionAdd("--Wno-deprecated", "-Wno-deprecated");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -12735,6 +12767,7 @@ namespace OverflowHelper.core
             correctionAdd("Kali linux", "Kali Linux");
             correctionAdd("KALI LINUX", "Kali Linux");
             correctionAdd("kali Linux", "Kali Linux");
+            correctionAdd("kali-linux", "Kali Linux");
 
             correctionAdd("unetbootin", "UNetbootin");
             correctionAdd("Unetbootin", "UNetbootin");
@@ -13272,6 +13305,7 @@ namespace OverflowHelper.core
             correctionAdd("fowlloing", "following");
             correctionAdd("fellowing", "following");
             correctionAdd("followig", "following");
+            correctionAdd("foll", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -28706,6 +28740,8 @@ namespace OverflowHelper.core
             correctionAdd("Vga", "VGA");
 
             correctionAdd("erraneous", "erroneous");
+            correctionAdd("eronious", "erroneous");
+            correctionAdd("erronious", "erroneous");
 
             correctionAdd("sacrifise", "sacrifice");
             correctionAdd("sac", "sacrifice");
@@ -31991,6 +32027,7 @@ namespace OverflowHelper.core
 
             correctionAdd("warnning", "warning");
             correctionAdd("waring", "warning");
+            correctionAdd("waning", "warning");
 
             correctionAdd("etiology", "etymology");
 
@@ -32593,6 +32630,10 @@ namespace OverflowHelper.core
             correctionAdd("usb 2.0", "USB&nbsp;2.0");
             correctionAdd("USB 2", "USB&nbsp;2.0");
             correctionAdd("USB 2.0", "USB&nbsp;2.0");
+            correctionAdd("USB HB", "USB&nbsp;2.0");
+            correctionAdd("USB HS", "USB&nbsp;2.0");
+            correctionAdd("USB High Bandwidth", "USB&nbsp;2.0");
+            correctionAdd("USB High Speed", "USB&nbsp;2.0");
 
             correctionAdd("non destructively", "nondestructively");
 
@@ -35897,6 +35938,7 @@ namespace OverflowHelper.core
             correctionAdd("Impish", "Ubuntu 21.10 (Impish Indri)");
 
             correctionAdd("avoir", "avoid");
+            correctionAdd("avaoid", "avoid");
 
             correctionAdd("constutionality", "constitutionality");
 
@@ -37641,6 +37683,7 @@ namespace OverflowHelper.core
             correctionAdd("Tyrannosaurus rex", "T-Rex");
 
             correctionAdd("Binary tree", "binary tree");
+            correctionAdd("bin tree", "binary tree");
 
             correctionAdd("bio-weapon", "bioweapon");
 
@@ -41091,6 +41134,10 @@ namespace OverflowHelper.core
 
             correctionAdd("usb 1.x", "USB 1.x");
             correctionAdd("USB1", "USB 1.x");
+            correctionAdd("USB FS", "USB 1.x");
+            correctionAdd("USB Full Speed", "USB 1.x");
+            correctionAdd("USB LS", "USB 1.x");
+            correctionAdd("USB Low Speed", "USB 1.x");
 
             correctionAdd("clue-less", "clueless");
 
@@ -44187,13 +44234,56 @@ namespace OverflowHelper.core
             correctionAdd("whatnot", "what not");
             correctionAdd("wherenot", "what not");
 
-            correctionAdd("--Wno-unused-value", "-Wno-unused-value");
-
             correctionAdd("empscheduler", "Employee Scheduler");
 
             correctionAdd("orange HRM", "OrangeHRM");
 
             correctionAdd("wednesday", "Wednesday");
+
+            correctionAdd("C-string", "C string");
+
+            correctionAdd("catastrophy", "catastrophe");
+
+            correctionAdd("clonw", "clown");
+
+            correctionAdd("head scratching", "head-scratching");
+
+            correctionAdd("unappropriately", "inappropriately");
+
+            correctionAdd("Magic Number", "magic number");
+
+            correctionAdd("ortholinear", "ortholinear keyboard");
+            correctionAdd("ortho-linear", "ortholinear keyboard");
+
+            correctionAdd("stack allocated", "stack-allocated");
+
+            correctionAdd("contrivution", "contribution");
+
+            correctionAdd("Defensive Programming", "defensive programming");
+
+            correctionAdd("determint", "determine");
+            correctionAdd("determent", "determine");
+
+            correctionAdd("gcc warning options", "GCC warning options lists");
+            correctionAdd("GCC warning options", "GCC warning options lists");
+            correctionAdd("GCC options", "GCC warning options lists");
+
+            correctionAdd("insurace", "insurance");
+
+            correctionAdd("MV", "mv");
+
+            correctionAdd("theoric", "theoretic");
+
+            correctionAdd("there're", "there are");
+
+            correctionAdd("VLA", "variable-length array");
+
+            correctionAdd("all day every day", "all day and every day");
+
+            correctionAdd("life threatening", "life-threatening");
+            correctionAdd("Life threatening", "life-threatening");
+
+            correctionAdd("Stack Overflow blog", "the Stack Overflow blog");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69434,6 +69524,76 @@ namespace OverflowHelper.core
 
             URL_Add("Wednesday", "https://en.wiktionary.org/wiki/Wednesday#Noun");
 
+            URL_Add("-funit-at-a-time", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-funit-at-a-time");
+
+            URL_Add("-o", "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#index-o");
+
+            URL_Add("-Wcast-align", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-align");
+
+            URL_Add("-Wconversion", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion");
+
+            URL_Add("-Wdeclaration-after-statement", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeclaration-after-statement");
+
+            URL_Add("-Wdisabled-optimization", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdisabled-optimization");
+
+            URL_Add("-Wfatal-errors", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wfatal-errors");
+
+            URL_Add("-Wmissing-declarations", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-declarations");
+
+            URL_Add("-Wparentheses", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses");
+
+            URL_Add("-Wsequence-point", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point");
+
+            URL_Add("-Wsign-compare", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare");
+
+            URL_Add("-Wundef", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wundef");
+
+            URL_Add("-Wunused-parameter", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter");
+
+            URL_Add("-Wwrite-strings", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings");
+
+            URL_Add("C string", "https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions");
+
+            URL_Add("catastrophe", "https://en.wiktionary.org/wiki/catastrophe#Noun");
+
+            URL_Add("clown", "https://en.wiktionary.org/wiki/clown#Noun");
+
+            URL_Add("head-scratching", "https://en.wiktionary.org/wiki/head-scratching#Noun");
+
+            URL_Add("inappropriately", "https://en.wiktionary.org/wiki/inappropriately#Adverb");
+
+            URL_Add("magic number", "https://en.wikipedia.org/wiki/Magic_number_(programming)");
+
+            URL_Add("ortholinear keyboard", "https://en.wikipedia.org/wiki/Ergonomic_keyboard#Vertical_column_layout");
+
+            URL_Add("stack-allocated", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation");
+
+            URL_Add("-Wno-deprecated", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-deprecated");
+
+            URL_Add("contribution", "https://en.wiktionary.org/wiki/contribution#Noun");
+
+            URL_Add("defensive programming", "https://en.wikipedia.org/wiki/Defensive_programming");
+
+            URL_Add("determine", "https://en.wiktionary.org/wiki/determine#Verb");
+
+            URL_Add("GCC warning options lists", "https://github.com/barro/compiler-warnings#gcc-warning-flags");
+
+            URL_Add("insurance", "https://en.wiktionary.org/wiki/insurance#Noun");
+
+            URL_Add("mv", "https://en.wikipedia.org/wiki/Mv_(Unix)");
+
+            URL_Add("theoretic", "https://en.wiktionary.org/wiki/theoretic#Adjective");
+
+            URL_Add("there are", "https://en.wiktionary.org/wiki/there_are#Phrase");
+
+            URL_Add("variable-length array", "https://en.wikipedia.org/wiki/Variable-length_array");
+
+            URL_Add("all day and every day", "https://idioms.thefreedictionary.com/all+day+and+every+day");
+
+            URL_Add("life-threatening", "https://en.wiktionary.org/wiki/life-threatening#Adjective");
+
+            URL_Add("the Stack Overflow blog", "https://stackoverflow.blog/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70452,6 +70612,9 @@ namespace OverflowHelper.core
             correctionAdd("google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
             correctionAdd("Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
 
+            correctionAdd("[tag:kali-linux]_", "Kali Linux (tag wiki)_");
+            correctionAdd("kali-linux_", "Kali Linux (tag wiki)_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -70493,6 +70656,8 @@ namespace OverflowHelper.core
             correctionAdd("stallman_", "Richard Stallman_");
             correctionAdd("rms_", "Richard Stallman_");
             correctionAdd("RMS_", "Richard Stallman_");
+            correctionAdd("Richard M Stallman_", "Richard Stallman_");
+            correctionAdd("Richard M. Stallman_", "Richard Stallman_");
 
             correctionAdd("san francisco_", "San Francisco_");
             correctionAdd("SF_", "San Francisco_");
@@ -70661,6 +70826,15 @@ namespace OverflowHelper.core
             correctionAdd("Gregorio Luperón International Airport_", "POP_");
 
             correctionAdd("icecream_", "ice cream_");
+
+            correctionAdd("characteristica_", "characteristic_");
+
+            correctionAdd("CP_", "cp_");
+
+            correctionAdd("MV_", "mv_");
+
+            correctionAdd("queues_", "queue_");
+            correctionAdd("Queue_", "queue_");
 
             // URL mappings
             //
@@ -71407,10 +71581,21 @@ namespace OverflowHelper.core
 
             URL_Add("ice cream_", "https://en.wiktionary.org/wiki/ice_cream#Noun");
 
+            URL_Add("characteristic_", "https://en.wiktionary.org/wiki/characteristic#Noun");
+
+            URL_Add("cp_", "https://en.wikipedia.org/wiki/Cp_(Unix)");
+
+            URL_Add("mv_", "https://linux.die.net/man/1/mv");
+
+            URL_Add("queue_", "https://en.wikipedia.org/wiki/Queue_(abstract_data_type)");
+
+            URL_Add("Kali Linux (tag wiki)_", "https://stackoverflow.com/questions/tagged/kali-linux");
+
         } //addLookupData_alternativeWordSet()
 
     } //class TermData
 
 
 } //namespace OverflowHelper.core
+
 
