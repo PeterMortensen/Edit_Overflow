@@ -1884,6 +1884,9 @@ namespace OverflowHelper.core
             correctionAdd("spoj", "SPOJ");
             correctionAdd("Spoj", "SPOJ");
 
+            correctionAdd("An", "an");
+            correctionAdd("na", "an");
+
             correctionAdd("Phone", "phone");
 
             correctionAdd("smart phone", "smartphone");
@@ -3057,6 +3060,22 @@ namespace OverflowHelper.core
             correctionAdd("--o", "-o"); // For GCC
 
             correctionAdd("--Wno-deprecated", "-Wno-deprecated");
+
+            correctionAdd("--fmessage-length", "-fmessage-length");
+
+            correctionAdd("--std=", "-std=");
+
+            correctionAdd("--Wformat", "-Wformat");
+
+            correctionAdd("--Winit-self", "-Winit-self");
+
+            correctionAdd("--Wmissing-include-dirs", "-Wmissing-include-dirs");
+
+            correctionAdd("--Wold-style-definition", "-Wold-style-definition");
+
+            correctionAdd("--Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
+
+            correctionAdd("--Wstrict-aliasing", "-Wstrict-aliasing");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -6376,6 +6395,7 @@ namespace OverflowHelper.core
             correctionAdd("dependant", "dependent"); // Common misspelling...
             correctionAdd("depented", "dependent");
             correctionAdd("Dependant", "dependent");
+            correctionAdd("dependend", "dependent");
 
             correctionAdd("dependancy", "dependency"); // Common misspelling...
             correctionAdd("Dependancy", "dependency");
@@ -6541,6 +6561,7 @@ namespace OverflowHelper.core
             correctionAdd("non-equlibrium", "nonequilibrium");
 
             correctionAdd("medium sized", "medium-sized");
+            correctionAdd("medium-size", "medium-sized");
 
             correctionAdd("atom", "Atom");
             correctionAdd("ATOM", "Atom");
@@ -7370,6 +7391,8 @@ namespace OverflowHelper.core
             correctionAdd("windows azure", "Windows Azure");
             correctionAdd("Azure", "Windows Azure");
             correctionAdd("Az", "Windows Azure");
+            correctionAdd("windows-azure", "Windows Azure");
+            correctionAdd("Azur", "Windows Azure");
 
             correctionAdd("cant", "can’t");
             correctionAdd("cann't", "can’t"); // A true typo!
@@ -9019,6 +9042,7 @@ namespace OverflowHelper.core
             correctionAdd("amazon AWS", "Amazon AWS");
             correctionAdd("amazon aws", "Amazon AWS");
             correctionAdd("Aws", "Amazon AWS");
+            correctionAdd("amazon-web-services", "Amazon AWS");
 
             correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
             correctionAdd("Amazon", "Amazon DOT com");
@@ -10421,6 +10445,75 @@ namespace OverflowHelper.core
             correctionAdd("now-days", "nowadays");
             correctionAdd("Now a days", "nowadays");
             correctionAdd("Nowadays", "nowadays");
+
+            correctionAdd("0day", "zero-day");
+            correctionAdd("0-day", "zero-day");
+            correctionAdd("0 day", "zero-day");
+            correctionAdd("zero day", "zero-day");
+
+            correctionAdd("Yestarday", "yesterday");
+            correctionAdd("yestoday", "yesterday");
+            correctionAdd("Yestoday", "yesterday");
+            correctionAdd("the day before today", "yesterday");
+            correctionAdd("jesturday", "yesterday");
+            correctionAdd("jesterday", "yesterday");
+
+            correctionAdd("day to day", "day-to-day");
+
+            correctionAdd("week day", "weekday");
+
+            correctionAdd("everyday", "every day");
+
+            correctionAdd("April Fools Day", "April Fools' Day");
+
+            correctionAdd("D-day", "D-Day");
+            correctionAdd("D Day", "D-Day");
+            correctionAdd("D day", "D-Day");
+
+            correctionAdd("someday", "some day");
+
+            correctionAdd("monday", "Monday");
+
+            correctionAdd("tuesday", "Tuesday");
+
+            correctionAdd("wednesday", "Wednesday");
+
+            correctionAdd("thursday", "Thursday");
+            correctionAdd("Thrusday", "Thursday");
+
+            correctionAdd("friday", "Friday");
+
+            correctionAdd("saturday", "Saturday");
+
+            correctionAdd("sunday", "Sunday");
+
+            correctionAdd("call it the day", "call it a day");
+
+            correctionAdd("wiki holiday", "wikiholiday");
+            correctionAdd("Wikiholiday", "wikiholiday");
+            correctionAdd("Wiki holiday", "wikiholiday");
+            correctionAdd("wikiholic", "wikiholiday");
+            correctionAdd("wikiholism", "wikiholiday");
+            correctionAdd("wikipediholic", "wikiholiday");
+            correctionAdd("wikibreak", "wikiholiday");
+            correctionAdd("wiki break", "wikiholiday");
+
+            correctionAdd("tody", "today");
+            correctionAdd("Today", "today");
+
+            correctionAdd("motd", "message of the day");
+            correctionAdd("MOTD", "message of the day");
+
+            correctionAdd("one day", "one-day");
+
+            correctionAdd("all day every day", "all day and every day");
+
+            correctionAdd("one trick ponies", "one-trick ponies");
+
+            correctionAdd("one trick pony", "one-trick pony");
+
+            correctionAdd("Balony", "baloney");
+            correctionAdd("balony", "baloney");
 
             correctionAdd("yii", "Yii");
 
@@ -13153,6 +13246,7 @@ namespace OverflowHelper.core
             correctionAdd("MARSHMALLOW", "Android 6.0 (Marshmallow)");
             correctionAdd("MarshMallow", "Android 6.0 (Marshmallow)");
             correctionAdd("Android Marshmallow", "Android 6.0 (Marshmallow)");
+            correctionAdd("android 6", "Android 6.0 (Marshmallow)");
 
             correctionAdd("inheritence", "inheritance");
             correctionAdd("inherittance", "inheritance");
@@ -14772,6 +14866,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sims", "seems");
             correctionAdd("seams", "seems");
+            correctionAdd("seemes", "seems");
 
             correctionAdd("F35", "F-35");
             correctionAdd("f-35", "F-35");
@@ -15125,11 +15220,6 @@ namespace OverflowHelper.core
             correctionAdd("three,js", "Three.js");
             correctionAdd("Three JS", "Three.js");
             correctionAdd("Three.JS", "Three.js");
-
-            correctionAdd("0day", "zero-day");
-            correctionAdd("0-day", "zero-day");
-            correctionAdd("0 day", "zero-day");
-            correctionAdd("zero day", "zero-day");
 
             correctionAdd("Perl 6", "Perl&nbsp;6");
             correctionAdd("Perl6", "Perl&nbsp;6");
@@ -16186,8 +16276,6 @@ namespace OverflowHelper.core
             correctionAdd("doppler effect", "Doppler effect");
             correctionAdd("Doppler Effect", "Doppler effect");
 
-            correctionAdd("sunday", "Sunday");
-
             correctionAdd("VertX", "Vert.x");
 
             correctionAdd("appropiate", "appropriate");
@@ -16300,13 +16388,6 @@ namespace OverflowHelper.core
             correctionAdd("un-till", "until");
             correctionAdd("unitll", "until"); // A true typo + a common misspelling
             correctionAdd("unlit", "until");
-
-            correctionAdd("Yestarday", "yesterday");
-            correctionAdd("yestoday", "yesterday");
-            correctionAdd("Yestoday", "yesterday");
-            correctionAdd("the day before today", "yesterday");
-            correctionAdd("jesturday", "yesterday");
-            correctionAdd("jesterday", "yesterday");
 
             correctionAdd("duckduckgo", "DuckDuckGo");
             correctionAdd("duck duck go", "DuckDuckGo");
@@ -16813,6 +16894,8 @@ namespace OverflowHelper.core
             correctionAdd("sumbled upon", "stumbled upon");
 
             correctionAdd("BSC", "BSc");
+            correctionAdd("B.S", "BSc");
+            correctionAdd("B.Sc", "BSc");
 
             correctionAdd("hindi", "Hindi");
 
@@ -17601,6 +17684,7 @@ namespace OverflowHelper.core
             correctionAdd("catogory", "category");
 
             correctionAdd("constitude", "constitute");
+            correctionAdd("constitue", "constitute");
 
             correctionAdd("debuging", "debugging");
             correctionAdd("debuggin", "debugging");
@@ -18965,8 +19049,6 @@ namespace OverflowHelper.core
             correctionAdd("Suggestiong", "suggestion");
             correctionAdd("sugestion", "suggestion");
 
-            correctionAdd("friday", "Friday");
-
             correctionAdd("gnu-make", "GNU Make");
             correctionAdd("GNU make", "GNU Make");
             correctionAdd("Gnu-make", "GNU Make");
@@ -18995,8 +19077,6 @@ namespace OverflowHelper.core
 
             correctionAdd("contrieved", "contrived");
             correctionAdd("Contrived", "contrived");
-
-            correctionAdd("day to day", "day-to-day");
 
             correctionAdd("every body", "everybody");
 
@@ -19896,8 +19976,6 @@ namespace OverflowHelper.core
 
             correctionAdd("verbage", "verbiage");
 
-            correctionAdd("week day", "weekday");
-
             correctionAdd("ppm", "PPM");
             correctionAdd("Perl Package Manager", "PPM");
 
@@ -20509,6 +20587,7 @@ namespace OverflowHelper.core
             correctionAdd("brach", "branch");
             correctionAdd("Brach", "branch");
             correctionAdd("Branch", "branch");
+            correctionAdd("brunch", "branch");
 
             correctionAdd("branchs", "branches");
             correctionAdd("braches", "branches");
@@ -20767,6 +20846,7 @@ namespace OverflowHelper.core
 
             correctionAdd("connnect", "connect");
             correctionAdd("conenct", "connect");
+            correctionAdd("Connect", "connect");
 
             correctionAdd("de-coupling", "decoupling");
 
@@ -21437,8 +21517,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Big Data", "big data");
             correctionAdd("Big data", "big data");
-
-            correctionAdd("everyday", "every day");
 
             correctionAdd("FISH", "Fish");
             correctionAdd("fish", "Fish");
@@ -22286,9 +22364,6 @@ namespace OverflowHelper.core
             correctionAdd("+ive", "positive");
 
             correctionAdd("pune", "Pune");
-
-            correctionAdd("thursday", "Thursday");
-            correctionAdd("Thrusday", "Thursday");
 
             correctionAdd("discusting", "disgusting");
             correctionAdd("Discusting", "disgusting");
@@ -23229,8 +23304,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Umlaut", "umlaut");
 
-            correctionAdd("April Fools Day", "April Fools' Day");
-
             correctionAdd("April's fool", "April fool");
             correctionAdd("April's fools", "April fool");
             correctionAdd("april's fools", "April fool");
@@ -23542,10 +23615,6 @@ namespace OverflowHelper.core
             correctionAdd("cc-by-sa", "Creative Commons BY-SA");
 
             correctionAdd("Code complete", "Code Complete");
-
-            correctionAdd("D-day", "D-Day");
-            correctionAdd("D Day", "D-Day");
-            correctionAdd("D day", "D-Day");
 
             correctionAdd("EPIC", "Epic");
 
@@ -24213,6 +24282,7 @@ namespace OverflowHelper.core
             correctionAdd("M.Sc", "Master of Science"); // Actually "M.Sc.", but we
                                                         // currently don't allow it...
             correctionAdd("MSc", "Master of Science");
+            correctionAdd("M.S", "Master of Science");
 
             correctionAdd("ternary", "ternary operator");
             correctionAdd("Ternary Operator", "ternary operator");
@@ -25417,11 +25487,6 @@ namespace OverflowHelper.core
 
             correctionAdd("victory’s", "victories");
 
-            correctionAdd("monday", "Monday");
-
-            correctionAdd("Balony", "baloney");
-            correctionAdd("balony", "baloney");
-
             correctionAdd("counter-argument", "counterargument");
 
             correctionAdd("Median", "median");
@@ -25902,8 +25967,6 @@ namespace OverflowHelper.core
             correctionAdd("sens", "sense");
 
             correctionAdd("sencical", "sensical");
-
-            correctionAdd("someday", "some day");
 
             correctionAdd("Arduino ide", "Arduino IDE");
             correctionAdd("arduino ide", "Arduino IDE");
@@ -26783,6 +26846,7 @@ namespace OverflowHelper.core
             correctionAdd("uppercace", "uppercase");
             correctionAdd("Upper Case", "uppercase");
             correctionAdd("ALL_CAPS", "uppercase");
+            correctionAdd("upper-case", "uppercase");
 
             correctionAdd("lower case", "lowercase");
             correctionAdd("lover case", "lowercase");
@@ -26872,8 +26936,6 @@ namespace OverflowHelper.core
 
             correctionAdd("south america", "South America");
             correctionAdd("south America", "South America");
-
-            correctionAdd("tuesday", "Tuesday");
 
             correctionAdd("ading", "adding");
             correctionAdd("addind", "adding");
@@ -28661,8 +28723,6 @@ namespace OverflowHelper.core
             correctionAdd("proxmox", "Proxmox");
             correctionAdd("promox", "Proxmox");
 
-            correctionAdd("call it the day", "call it a day");
-
             correctionAdd("satus", "status");
 
             correctionAdd("here string", "here-string");
@@ -29905,15 +29965,6 @@ namespace OverflowHelper.core
             correctionAdd("tommorow", "tomorrow");
             correctionAdd("tommrow", "tomorrow");
             correctionAdd("tomrrow", "tomorrow");
-
-            correctionAdd("wiki holiday", "wikiholiday");
-            correctionAdd("Wikiholiday", "wikiholiday");
-            correctionAdd("Wiki holiday", "wikiholiday");
-            correctionAdd("wikiholic", "wikiholiday");
-            correctionAdd("wikiholism", "wikiholiday");
-            correctionAdd("wikipediholic", "wikiholiday");
-            correctionAdd("wikibreak", "wikiholiday");
-            correctionAdd("wiki break", "wikiholiday");
 
             correctionAdd("alingn", "align");
             correctionAdd("allign", "align");
@@ -31430,9 +31481,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sufix", "suffix");
 
-            correctionAdd("tody", "today");
-            correctionAdd("Today", "today");
-
             correctionAdd("usbc", "USB-C");
             correctionAdd("usb-c", "USB-C");
 
@@ -32143,6 +32191,7 @@ namespace OverflowHelper.core
             correctionAdd("condion", "condition");
             correctionAdd("condtion", "condition");
             correctionAdd("cndition", "condition");
+            correctionAdd("consition", "condition");
 
             correctionAdd("earth rays", "earth radiation");
             correctionAdd("Earth ray", "earth radiation");
@@ -38463,6 +38512,7 @@ namespace OverflowHelper.core
             correctionAdd("falun gong", "Falun Gong");
 
             correctionAdd("pyodide", "Pyodide");
+            correctionAdd("pyodine", "Pyodide");
 
             correctionAdd("SoloLearn", "Sololearn");
             correctionAdd("sololearn", "Sololearn");
@@ -38882,6 +38932,7 @@ namespace OverflowHelper.core
             correctionAdd("Android S", "Android 12");
             correctionAdd("Snow Cone", "Android 12");
             correctionAdd("SDK 31", "Android 12");
+            correctionAdd("12", "Android 12");
 
             correctionAdd("Mass-Transit", "MassTransit");
 
@@ -39113,8 +39164,6 @@ namespace OverflowHelper.core
             correctionAdd("ursa major", "Ursa Major");
 
             correctionAdd("xetex", "XeTeX");
-
-            correctionAdd("An", "an");
 
             correctionAdd("associete", "associate");
 
@@ -39879,8 +39928,6 @@ namespace OverflowHelper.core
             correctionAdd("europan", "Europan");
 
             correctionAdd("laradock", "Laradock");
-
-            correctionAdd("saturday", "Saturday");
 
             correctionAdd("alpa", "alpha");
 
@@ -41539,9 +41586,6 @@ namespace OverflowHelper.core
 
             correctionAdd("either or", "either-or");
 
-            correctionAdd("motd", "message of the day");
-            correctionAdd("MOTD", "message of the day");
-
             correctionAdd("north-west", "northwest");
 
             correctionAdd("uVision", "µVision");
@@ -42951,12 +42995,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Meta is Murder", "meta is murder");
 
-            correctionAdd("one day", "one-day");
-
-            correctionAdd("one trick ponies", "one-trick ponies");
-
-            correctionAdd("one trick pony", "one-trick pony");
-
             correctionAdd("pro-tempore", "pro tempore");
 
             correctionAdd("succeded", "succeeded");
@@ -44237,8 +44275,6 @@ namespace OverflowHelper.core
 
             correctionAdd("orange HRM", "OrangeHRM");
 
-            correctionAdd("wednesday", "Wednesday");
-
             correctionAdd("C-string", "C string");
 
             correctionAdd("catastrophy", "catastrophe");
@@ -44277,8 +44313,6 @@ namespace OverflowHelper.core
 
             correctionAdd("VLA", "variable-length array");
 
-            correctionAdd("all day every day", "all day and every day");
-
             correctionAdd("life threatening", "life-threatening");
             correctionAdd("Life threatening", "life-threatening");
 
@@ -44287,6 +44321,15 @@ namespace OverflowHelper.core
             correctionAdd("awkaardly", "awkwardly");
 
             correctionAdd("dbase", "dBase");
+
+            correctionAdd("LLVM Intermediate representation", "LLVM intermediate representation");
+            correctionAdd("LLVM IR", "LLVM intermediate representation");
+
+            correctionAdd("potraying", "portraying");
+
+            correctionAdd("self serving", "self-serving");
+
+            correctionAdd("Smiley", "smiley");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69601,6 +69644,30 @@ namespace OverflowHelper.core
 
             URL_Add("dBase", "https://en.wikipedia.org/wiki/DBase");
 
+            URL_Add("-fmessage-length", "https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Message-Formatting-Options.html#index-fmessage-length");
+
+            URL_Add("-std=", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-std-1");
+
+            URL_Add("-Wformat", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat");
+
+            URL_Add("-Winit-self", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Winit-self");
+
+            URL_Add("-Wmissing-include-dirs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-include-dirs");
+
+            URL_Add("-Wold-style-definition", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wold-style-definition");
+
+            URL_Add("-Wreturn-stack-address (Clang)", "https://clang.llvm.org/docs/DiagnosticsReference.html#wreturn-stack-address");
+
+            URL_Add("-Wstrict-aliasing", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing");
+
+            URL_Add("LLVM intermediate representation", "https://en.wikipedia.org/wiki/LLVM#Intermediate_representation");
+
+            URL_Add("portraying", "https://en.wiktionary.org/wiki/portray#Verb");
+
+            URL_Add("self-serving", "https://en.wiktionary.org/wiki/self-serving#Adjective");
+
+            URL_Add("smiley", "https://en.wikipedia.org/wiki/Smiley");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70686,6 +70753,28 @@ namespace OverflowHelper.core
             correctionAdd("kali-linux_", "Kali Linux (tag wiki)_");
             correctionAdd("Kali Linux_", "Kali Linux (tag wiki)_");
 
+            correctionAdd("[tag:gcc]_", "GCC (tag wiki)_");
+            correctionAdd("gcc_", "GCC (tag wiki)_");
+            correctionAdd("GCC_", "GCC (tag wiki)_");
+
+            correctionAdd("[tag:amazon-web-services]_", "Amazon Web Services (tag wiki)_");
+            correctionAdd("amazon-web-services_", "Amazon Web Services (tag wiki)_");
+            correctionAdd("Amazon AWS_", "Amazon Web Services (tag wiki)_");
+            correctionAdd("Amazon Web Services_", "Amazon Web Services (tag wiki)_");
+
+            correctionAdd("[tag:kubernetes]_", "Kubernetes (tag wiki)_");
+            correctionAdd("kubernetes_", "Kubernetes (tag wiki)_");
+            correctionAdd("Kubernetes_", "Kubernetes (tag wiki)_");
+
+            correctionAdd("[tag:windows-azure]_", "Windows Azure (tag wiki)_");
+            correctionAdd("windows-azure_", "Windows Azure (tag wiki)_");
+            correctionAdd("Windows Azure_", "Windows Azure (tag wiki)_");
+
+            correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
+            correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
+            correctionAdd("light sail_", "Amazon Lightsail_");
+            correctionAdd("lightsail_", "Amazon Lightsail_");
+
             correctionAdd("Carbon-Lang_", "Carbon_");
             correctionAdd("carbon_", "Carbon_");
 
@@ -70845,11 +70934,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FD_", "functional dependency_");
 
-            correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
-            correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
-            correctionAdd("light sail_", "Amazon Lightsail_");
-            correctionAdd("lightsail_", "Amazon Lightsail_");
-
             correctionAdd("home-brew_", "homebrewed_");
 
             correctionAdd("home work_", "homework_");
@@ -70904,6 +70988,10 @@ namespace OverflowHelper.core
 
             correctionAdd("queues_", "queue_");
             correctionAdd("Queue_", "queue_");
+
+            correctionAdd("ir_", "IR_");
+
+            correctionAdd("configure_", "./configure_");
 
             // URL mappings
             //
@@ -71657,6 +71745,18 @@ namespace OverflowHelper.core
             URL_Add("Kali Linux (tag wiki)_", "https://stackoverflow.com/questions/tagged/kali-linux");
 
             URL_Add("dBase (tag wiki)_", "https://stackoverflow.com/questions/tagged/dbase");
+
+            URL_Add("GCC (tag wiki)_", "https://stackoverflow.com/questions/tagged/gcc");
+
+            URL_Add("IR_", "https://en.wikipedia.org/wiki/Intermediate_representation");
+
+            URL_Add("./configure_", "https://en.wikipedia.org/wiki/Configure_script");
+
+            URL_Add("Amazon Web Services (tag wiki)_", "https://stackoverflow.com/questions/tagged/amazon-web-services");
+
+            URL_Add("Kubernetes (tag wiki)_", "https://stackoverflow.com/questions/tagged/kubernetes");
+
+            URL_Add("Windows Azure (tag wiki)_", "https://stackoverflow.com/questions/tagged/windows-azure");
 
         } //addLookupData_alternativeWordSet()
 
