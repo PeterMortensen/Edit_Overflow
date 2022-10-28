@@ -2756,6 +2756,9 @@ namespace OverflowHelper.core
             correctionAdd("QtCreater", "Qt Creator");
             correctionAdd("Qt Createor", "Qt Creator");
             correctionAdd("Qt Designer", "Qt Creator");
+            correctionAdd("QT Designer", "Qt Creator");
+            correctionAdd("QT-Designer", "Qt Creator");
+            correctionAdd("Qt-Designer", "Qt Creator");
 
             correctionAdd("internet", "Internet");
             correctionAdd("interwebz", "Internet");
@@ -3083,8 +3086,48 @@ namespace OverflowHelper.core
             correctionAdd("--Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
 
             correctionAdd("--Wstrict-aliasing", "-Wstrict-aliasing");
+            correctionAdd("-Wstrict-aliasing=", "-Wstrict-aliasing");
 
             correctionAdd("--O", "-O");
+
+            correctionAdd("--g", "-g");
+
+            correctionAdd("--Wbad-function-cast", "-Wbad-function-cast");
+
+            correctionAdd("--Winline", "-Winline");
+
+            correctionAdd("--Wno-missing-braces", "-Wno-missing-braces");
+
+            correctionAdd("--Wswitch-default", "-Wswitch-default");
+
+            correctionAdd("--Wswitch-enum", "-Wswitch-enum");
+
+            // Note: "-Wunreachable-code" was removed in GCC 4.5.0 (released
+            //       2010-04-14), thus the version-dependent URL,
+            //       for GCC 4.4.7.
+            correctionAdd("--Wunreachable-code", "-Wunreachable-code");
+
+            correctionAdd("-ggdb3", "-ggdblevel");
+            correctionAdd("--ggdblevel", "-ggdblevel");
+
+            correctionAdd("--Wlogical-op", "-Wlogical-op");
+
+            correctionAdd("--ggdb", "-ggdb");
+
+            correctionAdd("--fno-omit-frame-pointer", "-fno-omit-frame-pointer");
+
+            correctionAdd("--O0", "-O0");
+
+            correctionAdd("--ffloat-store", "-ffloat-store");
+
+            correctionAdd("--fno-common", "-fno-common");
+
+            correctionAdd("--fstrict-aliasing", "-fstrict-aliasing");
+
+            correctionAdd("--l", "-l");
+            correctionAdd("-lm", "-l"); // GCC, linking. Note 'm' stands
+                                        // for 'libm', the library that
+                                        // contains <math.h>.
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -4731,6 +4774,42 @@ namespace OverflowHelper.core
             correctionAdd("pyton", "Python");
             correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
 
+            correctionAdd("python2", "Python&nbsp;2");
+            correctionAdd("Python 2", "Python&nbsp;2");
+            correctionAdd("py2", "Python&nbsp;2");
+            correctionAdd("python 2", "Python&nbsp;2");
+            correctionAdd("Python2", "Python&nbsp;2");
+            correctionAdd("Py2", "Python&nbsp;2");
+            correctionAdd("python v2", "Python&nbsp;2");
+            correctionAdd("python-2", "Python&nbsp;2");
+            correctionAdd("py 2", "Python&nbsp;2");
+            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+
+            correctionAdd("python-2.7", "Python&nbsp;2.7");
+            correctionAdd("Python 2.7", "Python&nbsp;2.7"); // Sort of identity mapping
+            correctionAdd("python 2.7", "Python&nbsp;2.7");
+            correctionAdd("py27", "Python&nbsp;2.7");
+            correctionAdd("python 27", "Python&nbsp;2.7");
+
+            correctionAdd("python3", "Python&nbsp;3");
+            correctionAdd("Python 3", "Python&nbsp;3");
+            correctionAdd("python 3", "Python&nbsp;3");
+            correctionAdd("py3", "Python&nbsp;3");
+            correctionAdd("Python3", "Python&nbsp;3");
+            correctionAdd("Phython 3", "Python&nbsp;3");
+            correctionAdd("Pyhton3", "Python&nbsp;3");
+            correctionAdd("python v3", "Python&nbsp;3");
+            correctionAdd("Py 3", "Python&nbsp;3");
+            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+
+            correctionAdd("python-3.5", "Python&nbsp;3.5");
+            correctionAdd("Python 3.5", "Python&nbsp;3.5"); // Sort of identity mapping
+
+            correctionAdd("python-3.6", "Python&nbsp;3.6");
+            correctionAdd("Python 3.6", "Python&nbsp;3.6"); // Sort of identity mapping
+
             correctionAdd("ipython", "IPython");
             correctionAdd("iPython", "IPython");
             correctionAdd("Ipython", "IPython");
@@ -4744,6 +4823,18 @@ namespace OverflowHelper.core
             correctionAdd("biopython", "Biopython");
 
             correctionAdd("Python boost", "Boost.Python");
+
+            correctionAdd("pep", "PEP");
+            correctionAdd("Pep", "PEP");
+            correctionAdd("Python Enhancement Proposal", "PEP");
+            correctionAdd("Python enhancement proposal", "PEP");
+
+            correctionAdd("pythonic", "Pythonic");
+            correctionAdd("pythononic", "Pythonic");
+
+            correctionAdd("pythonista", "Pythonista");
+
+            correctionAdd("Python Anywhere", "PythonAnywhere");
 
             correctionAdd("jupyter", "Jupyter");
             correctionAdd("Jypiter", "Jupyter");
@@ -11510,11 +11601,6 @@ namespace OverflowHelper.core
             correctionAdd("uS", "µs"); // Microseconds.
             correctionAdd("uSec", "µs"); // Microseconds.
 
-            correctionAdd("pep", "PEP");
-            correctionAdd("Pep", "PEP");
-            correctionAdd("Python Enhancement Proposal", "PEP");
-            correctionAdd("Python enhancement proposal", "PEP");
-
             correctionAdd("AngularJs", "AngularJS");
             correctionAdd("angularjs", "AngularJS");
             correctionAdd("angular.js", "AngularJS");
@@ -14623,9 +14709,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DynamoDb", "DynamoDB");
 
-            correctionAdd("pythonic", "Pythonic");
-            correctionAdd("pythononic", "Pythonic");
-
             correctionAdd("pullup", "pull-up resistor");
             correctionAdd("pull up", "pull-up resistor");
             correctionAdd("pullup resistor", "pull-up resistor");
@@ -15286,6 +15369,9 @@ namespace OverflowHelper.core
             correctionAdd("insallation", "installation");
             correctionAdd("intallation", "installation");
             correctionAdd("installlation", "installation");
+            correctionAdd("installatin", "installation");
+
+            correctionAdd("reinstallatio", "reinstallation");
 
             correctionAdd("openbsd", "OpenBSD");
             correctionAdd("obsd", "OpenBSD");
@@ -15946,30 +16032,6 @@ namespace OverflowHelper.core
             correctionAdd("oracle", "Oracle");
             correctionAdd("ORACLE", "Oracle");
             correctionAdd("Oracle Database", "Oracle");
-
-            correctionAdd("python2", "Python&nbsp;2");
-            correctionAdd("Python 2", "Python&nbsp;2");
-            correctionAdd("py2", "Python&nbsp;2");
-            correctionAdd("python 2", "Python&nbsp;2");
-            correctionAdd("Python2", "Python&nbsp;2");
-            correctionAdd("Py2", "Python&nbsp;2");
-            correctionAdd("python v2", "Python&nbsp;2");
-            correctionAdd("python-2", "Python&nbsp;2");
-            correctionAdd("py 2", "Python&nbsp;2");
-            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-
-            correctionAdd("python3", "Python&nbsp;3");
-            correctionAdd("Python 3", "Python&nbsp;3");
-            correctionAdd("python 3", "Python&nbsp;3");
-            correctionAdd("py3", "Python&nbsp;3");
-            correctionAdd("Python3", "Python&nbsp;3");
-            correctionAdd("Phython 3", "Python&nbsp;3");
-            correctionAdd("Pyhton3", "Python&nbsp;3");
-            correctionAdd("python v3", "Python&nbsp;3");
-            correctionAdd("Py 3", "Python&nbsp;3");
-            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
 
             correctionAdd("quran", "Qur'an");
             correctionAdd("Quran", "Qur'an");
@@ -17362,6 +17424,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recntly", "recently");
             correctionAdd("recenlty", "recently");
+            correctionAdd("recenltly", "recently");
 
             correctionAdd("specifiy", "specify");
 
@@ -20140,6 +20203,8 @@ namespace OverflowHelper.core
 
             correctionAdd("activally", "actively");
             correctionAdd("activly", "actively");
+            correctionAdd("activile", "actively");
+            correctionAdd("activily", "actively");
 
             correctionAdd("re-create", "recreate");
             correctionAdd("Re-create", "recreate");
@@ -28258,6 +28323,8 @@ namespace OverflowHelper.core
             correctionAdd("break down", "breakdown");
 
             correctionAdd("commitee", "committee");
+            correctionAdd("CMTE", "committee");
+            correctionAdd("cmte", "committee");
 
             correctionAdd("Convention over configuration", "convention over configuration");
 
@@ -28929,8 +28996,6 @@ namespace OverflowHelper.core
 
             correctionAdd("omg", "OMG");
 
-            correctionAdd("pythonista", "Pythonista");
-
             correctionAdd("richard feynman", "Richard Feynman");
             correctionAdd("faynman", "Richard Feynman");
 
@@ -29494,6 +29559,8 @@ namespace OverflowHelper.core
             correctionAdd("precesion", "precession");
 
             correctionAdd("prominance", "prominence");
+            correctionAdd("promimence", "prominence");
+            correctionAdd("promince", "prominence");
 
             correctionAdd("Quantum Electrodynamics", "quantum electrodynamics");
 
@@ -29827,8 +29894,6 @@ namespace OverflowHelper.core
             correctionAdd("therr", "there");
             correctionAdd("Ther", "there");
             correctionAdd("There", "there");
-
-            correctionAdd("Python Anywhere", "PythonAnywhere");
 
             correctionAdd("VMware VSphere", "VMware vSphere");
 
@@ -32719,6 +32784,7 @@ namespace OverflowHelper.core
             correctionAdd("USB HS", "USB&nbsp;2.0");
             correctionAdd("USB High Bandwidth", "USB&nbsp;2.0");
             correctionAdd("USB High Speed", "USB&nbsp;2.0");
+            correctionAdd("High-Speed", "USB&nbsp;2.0");
 
             correctionAdd("non destructively", "nondestructively");
 
@@ -36061,6 +36127,9 @@ namespace OverflowHelper.core
 
             correctionAdd("neeed", "need");
             correctionAdd("neet", "need");
+            correctionAdd("nead", "need");
+
+            correctionAdd("neads", "needs");
 
             correctionAdd("non-unique", "nonunique");
 
@@ -41215,6 +41284,7 @@ namespace OverflowHelper.core
             correctionAdd("USB Full Speed", "USB 1.x");
             correctionAdd("USB LS", "USB 1.x");
             correctionAdd("USB Low Speed", "USB 1.x");
+            correctionAdd("Low-Speed", "USB 1.x");
 
             correctionAdd("clue-less", "clueless");
 
@@ -42208,6 +42278,7 @@ namespace OverflowHelper.core
             correctionAdd("BPFTRACE", "bpftrace");
 
             correctionAdd("Extended BPF", "eBPF");
+            correctionAdd("eBFP", "eBPF");
 
             correctionAdd("haemoglobin", "hemoglobin");
             correctionAdd("hameoglobin", "hemoglobin");
@@ -43954,12 +44025,6 @@ namespace OverflowHelper.core
 
             correctionAdd("clearbits", "ClearBits");
 
-            correctionAdd("python-2.7", "Python 2.7");
-
-            correctionAdd("python-3.5", "Python 3.5");
-
-            correctionAdd("python-3.6", "Python 3.6");
-
             correctionAdd("folketingsvalg", "Folketingsvalget 2022");
 
             correctionAdd("on a platter", "on a silver platter");
@@ -44256,8 +44321,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Prompt Engineering", "prompt engineering");
 
-            correctionAdd("reinstallatio", "reinstallation");
-
             correctionAdd("Stable Diffusion", "Stable&nbsp;Diffusion");
             correctionAdd("StableDiffusion", "Stable&nbsp;Diffusion");
 
@@ -44329,6 +44392,7 @@ namespace OverflowHelper.core
 
             correctionAdd("determint", "determine");
             correctionAdd("determent", "determine");
+            correctionAdd("determin", "determine");
 
             correctionAdd("gcc warning options", "GCC warning options lists");
             correctionAdd("GCC warning options", "GCC warning options lists");
@@ -44386,6 +44450,32 @@ namespace OverflowHelper.core
             correctionAdd("tsonfig", "tsconfig.json");
 
             correctionAdd("stun", "STUN");
+
+            correctionAdd("Catalytic converter", "catalytic converter");
+
+            correctionAdd("prominant", "prominent");
+
+            correctionAdd("LIBM", "libm");
+
+            correctionAdd("playbook", "Ansible playbook");
+
+            correctionAdd("determins", "determines");
+
+            correctionAdd("from times to times", "from time to time");
+
+            correctionAdd("hackrf", "HackRF");
+
+            correctionAdd("Hashlib", "hashlib");
+
+            correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
+            correctionAdd("UTMI+ Low Pin Interface", "ULPI");
+            correctionAdd("UTMI+ Low-Pin Interface", "ULPI");
+            correctionAdd("UTMI+ low pin interface", "ULPI");
+            correctionAdd("UTMI+ low-pin interface", "ULPI");
+
+            correctionAdd("USB transceiver macrocell interface", "UTMI");
+            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
+            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69264,11 +69354,9 @@ namespace OverflowHelper.core
 
             URL_Add("ClearBits", "https://wiki.creativecommons.org/wiki/Case_Studies/ClearBits");
 
-            URL_Add("Python 2.7", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
+            URL_Add("Python&nbsp;3.5", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
 
-            URL_Add("Python 3.5", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
-
-            URL_Add("Python 3.6", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+            URL_Add("Python&nbsp;3.6", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
 
             URL_Add("Folketingsvalget 2022", "https://da.wikipedia.org/wiki/Folketingsvalget_2022");
 
@@ -69741,6 +69829,62 @@ namespace OverflowHelper.core
             URL_Add("tsconfig.json", "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html");
 
             URL_Add("STUN", "https://en.wikipedia.org/wiki/STUN");
+
+            URL_Add("catalytic converter", "https://en.wikipedia.org/wiki/Catalytic_converter");
+
+            URL_Add("prominent", "https://en.wiktionary.org/wiki/prominent#Adjective");
+
+            URL_Add("-g", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-g");
+
+            URL_Add("-Wbad-function-cast", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbad-function-cast");
+
+            URL_Add("-Winline", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Winline");
+
+            URL_Add("-Wno-missing-braces", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-missing-braces");
+
+            URL_Add("-Wswitch-default", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-default");
+
+            URL_Add("-Wswitch-enum", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-enum");
+
+            URL_Add("-Wunreachable-code", "https://gcc.gnu.org/onlinedocs/gcc-4.4.7/gcc/Warning-Options.html#index-Wunreachable_002dcode-437");
+
+            URL_Add("-ggdblevel", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-gvms");
+
+            URL_Add("-Wlogical-op", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wlogical-op");
+
+            URL_Add("-ggdb", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-ggdb");
+
+            URL_Add("-fno-omit-frame-pointer", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fomit-frame-pointer");
+
+            URL_Add("-O0", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O0");
+
+            URL_Add("-ffloat-store", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffloat-store");
+
+            URL_Add("-fno-common", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fno-common");
+
+            URL_Add("-fstrict-aliasing", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fstrict-aliasing");
+
+            URL_Add("-l", "https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html#index-l");
+
+            URL_Add("needs", "https://en.wiktionary.org/wiki/need#Verb");
+
+            URL_Add("libm", "https://en.wikipedia.org/wiki/C_mathematical_functions#Implementations");
+
+            URL_Add("Ansible playbook", "https://en.wikipedia.org/wiki/Ansible_(software)#Playbooks");
+
+            URL_Add("determines", "https://en.wiktionary.org/wiki/determine#Verb");
+
+            URL_Add("from time to time", "https://en.wiktionary.org/wiki/from_time_to_time#Prepositional_phrase");
+
+            URL_Add("HackRF", "https://en.wikipedia.org/wiki/HackRF_One");
+
+            URL_Add("hashlib", "https://docs.python.org/3/library/hashlib.html");
+
+            URL_Add("Python&nbsp;2.7", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
+
+            URL_Add("ULPI", "https://www.st.com/en/interfaces-and-transceivers/stulpi01a.html");
+
+            URL_Add("UTMI", "https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb2-transceiver-macrocell-interface-specification.pdf");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -70595,9 +70739,43 @@ namespace OverflowHelper.core
             correctionAdd("perl_", "Perl (tag wiki)_");
             correctionAdd("Perl_", "Perl (tag wiki)_");
 
+            correctionAdd("[tag:cpython]_", "CPython (tag wiki)_");
+            correctionAdd("cpython_", "CPython (tag wiki)_");
+            correctionAdd("CPython_", "CPython (tag wiki)_");
+
             correctionAdd("[tag:python]_", "Python (tag wiki)_");
             correctionAdd("python_", "Python (tag wiki)_");
             correctionAdd("Python_", "Python (tag wiki)_");
+
+            correctionAdd("[tag:python-2.x]_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("Python 2.x (tag wiki)_", "Python&nbsp;2.x (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("python-2.x_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("Python&nbsp;2.x_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("Python 2.x_", "Python&nbsp;2.x (tag wiki)_");
+
+            correctionAdd("[tag:python-2.7]_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("Python&nbsp;2.7_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("Python 2.7 (tag wiki)_", "Python&nbsp;2.7 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("Python 2.7_", "Python&nbsp;2.7 (tag wiki)_");
+
+            correctionAdd("[tag:python-3.x]_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("Python 3.x (tag wiki)_", "Python&nbsp;3.x (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("python-3.x_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("Python&nbsp;3.x_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("Python 3.x_", "Python&nbsp;3.x (tag wiki)_");
+
+            correctionAdd("[tag:python-3.5]_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("Python&nbsp;3.5_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("Python 3.5 (tag wiki)_", "Python&nbsp;3.5 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("Python 3.5_", "Python&nbsp;3.5 (tag wiki)_");
+
+            correctionAdd("[tag:python-3.6]_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("Python 3.6 (tag wiki)_", "Python&nbsp;3.6 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("Python&nbsp;3.6_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("Python 3.6_", "Python&nbsp;3.6 (tag wiki)_");
 
             correctionAdd("[tag:ruby]_", "Ruby (tag wiki)_");
             correctionAdd("ruby_", "Ruby (tag wiki)_");
@@ -70702,10 +70880,6 @@ namespace OverflowHelper.core
             correctionAdd("c++_", "C++ (tag wiki)_");
             correctionAdd("C++_", "C++ (tag wiki)_");
 
-            correctionAdd("[tag:cpython]_", "CPython (tag wiki)_");
-            correctionAdd("cpython_", "CPython (tag wiki)_");
-            correctionAdd("CPython_", "CPython (tag wiki)_");
-
             correctionAdd("[tag:flask]_", "Flask (tag wiki)_");
             correctionAdd("flask_", "Flask (tag wiki)_");
             correctionAdd("Flask_", "Flask (tag wiki)_");
@@ -70780,25 +70954,6 @@ namespace OverflowHelper.core
             correctionAdd("xregexp_", "XRegExp (tag wiki)_");
             correctionAdd("XRegExp_", "XRegExp (tag wiki)_");
 
-            correctionAdd("[tag:python-2.x]_", "Python 2.x (tag wiki)_");
-            correctionAdd("python-2.x_", "Python 2.x (tag wiki)_");
-            correctionAdd("Python 2.x_", "Python 2.x (tag wiki)_");
-
-            correctionAdd("[tag:python-2.7]_", "Python 2.7 (tag wiki)_");
-            correctionAdd("python-2.7_", "Python 2.7 (tag wiki)_");
-
-            correctionAdd("[tag:python-3.x]_", "Python 3.x (tag wiki)_");
-            correctionAdd("python-3.x_", "Python 3.x (tag wiki)_");
-            correctionAdd("Python 3.x_", "Python 3.x (tag wiki)_");
-
-            correctionAdd("[tag:python-3.5]_", "Python 3.5 (tag wiki)_");
-            correctionAdd("python-3.5_", "Python 3.5 (tag wiki)_");
-            correctionAdd("Python 3.5_", "Python 3.5 (tag wiki)_");
-
-            correctionAdd("[tag:python-3.6]_", "Python 3.6 (tag wiki)_");
-            correctionAdd("python-3.6_", "Python 3.6 (tag wiki)_");
-            correctionAdd("Python 3.6_", "Python 3.6 (tag wiki)_");
-
             correctionAdd("[tag:ide]_", "IDE (tag wiki)_");
             correctionAdd("ide_", "IDE (tag wiki)_");
             correctionAdd("IDE_", "IDE (tag wiki)_");
@@ -70847,6 +71002,14 @@ namespace OverflowHelper.core
             correctionAdd("[tag:webrtc]_", "WebRTC (tag wiki)_");
             correctionAdd("webrtc_", "WebRTC (tag wiki)_");
             correctionAdd("WebRTC_", "WebRTC (tag wiki)_");
+
+            correctionAdd("[tag:vue.js]_", "Vue.js (tag wiki)_");
+            correctionAdd("vue.js_", "Vue.js (tag wiki)_");
+            correctionAdd("Vue.js_", "Vue.js (tag wiki)_");
+
+            correctionAdd("[tag:yaml]_", "YAML (tag wiki)_");
+            correctionAdd("yaml_", "YAML (tag wiki)_");
+            correctionAdd("YAML_", "YAML (tag wiki)_");
 
             correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
@@ -71078,6 +71241,10 @@ namespace OverflowHelper.core
             correctionAdd("wednesday_", "Wednesday_");
             correctionAdd("We_", "Wednesday_");
             correctionAdd("Wed_", "Wednesday_");
+            correctionAdd("we_", "Wednesday_"); // Mostly for cross reference to the main word set
+
+            correctionAdd("Luna_", "LUNA_");
+            correctionAdd("luna_", "LUNA_");
 
             // URL mappings
             //
@@ -71764,16 +71931,6 @@ namespace OverflowHelper.core
 
             URL_Add("XRegExp (tag wiki)_", "https://stackoverflow.com/questions/tagged/xregexp");
 
-            URL_Add("Python 2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
-
-            URL_Add("Python 2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
-
-            URL_Add("Python 3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
-
-            URL_Add("Python 3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
-
-            URL_Add("Python 3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
-
             URL_Add("IDE (tag wiki)_", "https://stackoverflow.com/questions/tagged/ide");
 
             URL_Add("Boost (tag wiki)_", "https://stackoverflow.com/questions/tagged/boost");
@@ -71849,6 +72006,22 @@ namespace OverflowHelper.core
             URL_Add("Wednesday_", "https://en.wiktionary.org/wiki/Wednesday#Noun");
 
             URL_Add("WebRTC (tag wiki)_", "https://stackoverflow.com/questions/tagged/webrtc");
+
+            URL_Add("Vue.js (tag wiki)_", "https://stackoverflow.com/questions/tagged/vue.js");
+
+            URL_Add("LUNA_", "https://www.crowdsupply.com/great-scott-gadgets/luna/updates/packetry-preview");
+
+            URL_Add("YAML (tag wiki)_", "https://stackoverflow.com/questions/tagged/yaml");
+
+            URL_Add("Python&nbsp;2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
+
+            URL_Add("Python&nbsp;3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
+
+            URL_Add("Python&nbsp;3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
+
+            URL_Add("Python&nbsp;3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
+
+            URL_Add("Python&nbsp;2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
 
         } //addLookupData_alternativeWordSet()
 
