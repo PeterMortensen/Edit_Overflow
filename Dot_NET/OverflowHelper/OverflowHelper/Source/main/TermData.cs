@@ -642,6 +642,7 @@ namespace OverflowHelper.core
             correctionAdd("somi", "some");
             correctionAdd("som", "some");
             correctionAdd("sum", "some");
+            correctionAdd("sime", "some");
 
             correctionAdd("WFH", "working from home");
 
@@ -3128,6 +3129,26 @@ namespace OverflowHelper.core
             correctionAdd("-lm", "-l"); // GCC, linking. Note 'm' stands
                                         // for 'libm', the library that
                                         // contains <math.h>.
+
+            correctionAdd("--D", "-D");
+
+            correctionAdd("--flto", "-flto");
+
+            correctionAdd("-coverage", "--coverage");
+
+            correctionAdd("--d", "-d");
+
+            correctionAdd("--p", "-p");
+
+            correctionAdd("--pg", "-pg");
+
+            correctionAdd("--combine", "-combine");
+
+            correctionAdd("--funroll-loops", "-funroll-loops");
+
+            correctionAdd("--ffreestanding", "-ffreestanding");
+
+            correctionAdd("--Wno-unused-result", "-Wno-unused-result");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -7639,6 +7660,7 @@ namespace OverflowHelper.core
             correctionAdd("NODE.JS", "Node.js");
             correctionAdd("NODEJS", "Node.js");
             correctionAdd("Nodes.js", "Node.js");
+            correctionAdd("node-js", "Node.js");
 
             correctionAdd("tho", "though");
             correctionAdd("thogh", "though");
@@ -8353,6 +8375,8 @@ namespace OverflowHelper.core
             correctionAdd("argumet", "argument");
             correctionAdd("agrument", "argument");
             correctionAdd("rgument", "argument");
+            correctionAdd("agruments", "argument");
+            correctionAdd("arguments", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -12219,6 +12243,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -17041,6 +17066,7 @@ namespace OverflowHelper.core
             correctionAdd("theirselves", "themselves");
             correctionAdd("them self", "themselves");
             correctionAdd("themsleves", "themselves");
+            correctionAdd("them-selves", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -18140,6 +18166,7 @@ namespace OverflowHelper.core
             correctionAdd("ADDRESSS", "address");
             correctionAdd("ADDRESS", "address");
             correctionAdd("addrees", "address");
+            correctionAdd("adresss", "address");
 
             correctionAdd("bare in mind", "bear in mind");
             correctionAdd("Bare in mind", "bear in mind");
@@ -19277,6 +19304,7 @@ namespace OverflowHelper.core
             correctionAdd("unnecessaraly", "unnecessarily");
             correctionAdd("unnecesseraly", "unnecessarily");
             correctionAdd("unnecessraly", "unnecessarily");
+            correctionAdd("unecessarily", "unnecessarily");
 
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
@@ -26549,6 +26577,7 @@ namespace OverflowHelper.core
             correctionAdd("Backus-Naur form", "Backus–Naur form");
             correctionAdd("backus", "Backus–Naur form");
             correctionAdd("naur", "Backus–Naur form");
+            correctionAdd("bnf", "Backus–Naur form");
 
             correctionAdd("EBNF", "Extended Backus–Naur form");
             correctionAdd("ebnf", "Extended Backus–Naur form");
@@ -26947,6 +26976,7 @@ namespace OverflowHelper.core
             correctionAdd("lover case", "lowercase");
             correctionAdd("lowercare", "lowercase");
             correctionAdd("lc", "lowercase");
+            correctionAdd("lower-case", "lowercase");
 
             correctionAdd("any case", "in any case");
             correctionAdd("anycase", "in any case");
@@ -27576,6 +27606,7 @@ namespace OverflowHelper.core
 
             correctionAdd("laikely", "likely");
             correctionAdd("laikly", "likely");
+            correctionAdd("likley", "likely"); // True typo
 
             correctionAdd("tipp", "tip");
 
@@ -35917,6 +35948,7 @@ namespace OverflowHelper.core
             correctionAdd("command Line", "command line");
             correctionAdd("cmdline", "command line");
             correctionAdd("commadline", "command line");
+            correctionAdd("comman-line", "command line");
 
             correctionAdd("time line", "timeline");
 
@@ -38892,6 +38924,9 @@ namespace OverflowHelper.core
             correctionAdd("Rage quitting", "rage quitting");
             correctionAdd("rage-quitting", "rage quitting");
 
+            correctionAdd("ragequit", "rage quit");
+            correctionAdd("Ragequit", "rage quit");
+
             correctionAdd("rouding", "rounding");
 
             correctionAdd("customized", "customised");
@@ -39461,6 +39496,7 @@ namespace OverflowHelper.core
             correctionAdd("stabilize", "stabilise");
 
             correctionAdd("remove salutations", "Should 'Hi', 'thanks', taglines, and salutations be removed from posts?");
+            correctionAdd("Salutations", "Should 'Hi', 'thanks', taglines, and salutations be removed from posts?");
 
             correctionAdd("six to eight", "6 - 8 weeks");
             correctionAdd("6-8", "6 - 8 weeks");
@@ -40553,8 +40589,6 @@ namespace OverflowHelper.core
             correctionAdd("hrs", "hours");
 
             correctionAdd("Innumerous", "innumerous");
-
-            correctionAdd("MIR", "mid-level intermediate representation");
 
             correctionAdd("moduals", "modules");
 
@@ -43870,6 +43904,7 @@ namespace OverflowHelper.core
             correctionAdd("re-traverse", "retraverse");
 
             correctionAdd("typesafe", "type-safe");
+            correctionAdd("type-save", "type-safe");
 
             correctionAdd("extensionality", "axiom of extensionality");
 
@@ -44476,6 +44511,44 @@ namespace OverflowHelper.core
             correctionAdd("USB transceiver macrocell interface", "UTMI");
             correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
             correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
+
+            correctionAdd("MIR", "mid-level intermediate representation");
+            correctionAdd("Mid-level IR", "mid-level intermediate representation");
+            correctionAdd("mid-level IR", "mid-level intermediate representation");
+
+            correctionAdd("Dyno", "dyno");
+
+            correctionAdd("high-level intermediate representation", "HIR");
+            correctionAdd("High-Level Intermediate Representation", "HIR");
+
+            correctionAdd("hobby", "Hobby");
+
+            correctionAdd("low-level intermediate representation", "LIR");
+            correctionAdd("Low-level Intermediate Representation", "LIR");
+
+            correctionAdd("multi-level IR", "MLIR");
+            correctionAdd("Multi-Level Intermediate Representation", "MLIR");
+            correctionAdd("multi-level intermediate representation", "MLIR");
+
+            correctionAdd("very low-level intermediate representation", "VLIR");
+            correctionAdd("very low-level IR", "VLIR");
+
+            correctionAdd("SSA form", "SSA");
+            correctionAdd("static single assignment form", "SSA");
+
+            correctionAdd("abelism", "ableism");
+
+            correctionAdd("Hassan", "Kherson");
+
+            correctionAdd("cerimonial", "ceremonial");
+
+            correctionAdd("Charles H. Moore", "Chuck Moore");
+            correctionAdd("Moore", "Chuck Moore");
+
+            correctionAdd("none-the-wiser", "none the wiser");
+
+            correctionAdd("turbopack", "Turbopack");
+            correctionAdd("turbo pack", "Turbopack");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69886,6 +69959,54 @@ namespace OverflowHelper.core
 
             URL_Add("UTMI", "https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb2-transceiver-macrocell-interface-specification.pdf");
 
+            URL_Add("dyno", "https://en.wikipedia.org/wiki/Heroku#Architecture");
+
+            URL_Add("HIR", "https://rustc-dev-guide.rust-lang.org/hir.html");
+
+            URL_Add("Hobby", "https://www.heroku.com/pricing#containers");
+
+            URL_Add("LIR", "https://web.eecs.umich.edu/~mahlke/courses/483f06/lectures/483L17.pdf");
+
+            URL_Add("MLIR", "https://blog.tensorflow.org/2019/04/mlir-new-intermediate-representation.html");
+
+            URL_Add("SSA", "https://en.wikipedia.org/wiki/Static_single-assignment_form");
+
+            URL_Add("VLIR", "https://www.ida.liu.se/~chrke55/courses/ACC/PDF-2012/F1-Multilevel-IR.pdf");
+
+            URL_Add("-flto", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-flto");
+
+            URL_Add("-D", "https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#index-D-1");
+
+            URL_Add("--coverage", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-coverage");
+
+            URL_Add("-d", "https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#index-d");
+
+            URL_Add("-p", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-p");
+
+            URL_Add("-pg", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-pg");
+
+            URL_Add("-combine", "https://gcc.gnu.org/onlinedocs/gcc-4.5.4/gcc/Overall-Options.html#index-combine-82");
+
+            URL_Add("ableism", "https://en.wikipedia.org/wiki/Ableism");
+
+            URL_Add("-funroll-loops", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-funroll-loops");
+
+            URL_Add("Kherson", "https://en.wikipedia.org/wiki/Kherson");
+
+            URL_Add("-ffreestanding", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ffreestanding-1");
+
+            URL_Add("ceremonial", "https://en.wiktionary.org/wiki/ceremonial#Adjective");
+
+            URL_Add("Chuck Moore", "https://en.wikipedia.org/wiki/Charles_H._Moore");
+
+            URL_Add("-Wno-unused-result", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-result");
+
+            URL_Add("none the wiser", "https://en.wiktionary.org/wiki/none_the_wiser#Adjective");
+
+            URL_Add("rage quit", "https://en.wiktionary.org/wiki/rage_quit#Verb");
+
+            URL_Add("Turbopack", "https://turbo.build/pack/docs");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71230,8 +71351,6 @@ namespace OverflowHelper.core
             correctionAdd("queues_", "queue_");
             correctionAdd("Queue_", "queue_");
 
-            correctionAdd("ir_", "IR_");
-
             correctionAdd("configure_", "./configure_");
 
             correctionAdd("tuesday_", "Tuesday_");
@@ -71245,6 +71364,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Luna_", "LUNA_");
             correctionAdd("luna_", "LUNA_");
+
+            correctionAdd("ir_", "IR_");
+            correctionAdd("intermediate representation_", "IR_");
+
+            correctionAdd("GREP_", "grep_");
+
+            correctionAdd("runtime_", "run-time_");
 
             // URL mappings
             //
@@ -72022,6 +72148,10 @@ namespace OverflowHelper.core
             URL_Add("Python&nbsp;3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
 
             URL_Add("Python&nbsp;2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
+
+            URL_Add("grep_", "http://linux.die.net/man/1/grep");
+
+            URL_Add("run-time_", "https://en.wiktionary.org/wiki/run-time#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
