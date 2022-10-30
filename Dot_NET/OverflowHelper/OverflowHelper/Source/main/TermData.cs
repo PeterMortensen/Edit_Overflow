@@ -3150,6 +3150,48 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wno-unused-result", "-Wno-unused-result");
 
+            correctionAdd("--nodefaultlibs", "-nodefaultlibs");
+
+            correctionAdd("--nostdlib", "-nostdlib");
+
+            correctionAdd("--O1", "-O1");
+
+            correctionAdd("--O2", "-O2");
+
+            correctionAdd("--Waggregate-return", "-Waggregate-return");
+
+            correctionAdd("--Wchar-subscripts", "-Wchar-subscripts");
+
+            correctionAdd("--Wcomment", "-Wcomment");
+
+            correctionAdd("-Werror-implicit-function-declaration", "-Werror=implicit-function-declaration");
+
+            correctionAdd("--Wformat-security", "-Wformat-security");
+
+            correctionAdd("--Wimplicit-int", "-Wimplicit-int");
+
+            correctionAdd("--Wlong-long", "-Wlong-long");
+
+            correctionAdd("--Wmain", "-Wmain");
+
+            correctionAdd("--Wmissing-format-attribute", "-Wmissing-format-attribute");
+
+            correctionAdd("--Wmissing-noreturn", "-Wmissing-noreturn");
+
+            correctionAdd("--Wno-deprecated-declarations", "-Wno-deprecated-declarations");
+
+            correctionAdd("--Wpacked", "-Wpacked");
+
+            correctionAdd("--Wswitch", "-Wswitch");
+
+            correctionAdd("--Wtrigraphs", "-Wtrigraphs");
+
+            correctionAdd("--fverbose-asm", "-fverbose-asm");
+
+            correctionAdd("--S", "-S");
+
+            correctionAdd("--g3", "-g3");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -3542,6 +3584,291 @@ namespace OverflowHelper.core
             correctionAdd("math SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Math SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Maths SE", "Mathematics (Stack Exchange site)");
+
+            correctionAdd("SO", "Stack&nbsp;Overflow");
+            correctionAdd("S.O", "Stack&nbsp;Overflow");
+            correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOF", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("stack-overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stack overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackover flow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOverFlow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackovwerflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverfull", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflow.SE", "Stack&nbsp;Overflow");
+            correctionAdd("StackOveflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackoveflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Stackvoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("StackOFlow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Stackflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stack over flow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("StackedOverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("StackOVerflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackoverlow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOverlow", "Stack&nbsp;Overflow");
+            correctionAdd("SatckOverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Syackoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Stacoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOerflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Oversflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stakcoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack OverfLow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOverfLow", "Stack&nbsp;Overflow");
+            correctionAdd("stackover flow", "Stack&nbsp;Overflow");
+            correctionAdd("statckoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("StackOverlfow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Stalkoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackOverFlow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack OverFlow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack over flow", "Stack&nbsp;Overflow");
+            correctionAdd("STACKOVERFLOW", "Stack&nbsp;Overflow");
+            correctionAdd("Stalckoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stack Overfolw", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Stack-overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stafkoverflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackvoerflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("stackoverlfow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("Stack Oveflow", "Stack&nbsp;Overflow"); // Misspelling.
+            correctionAdd("StackoverFlow", "Stack&nbsp;Overflow");
+            correctionAdd("StckOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOwerflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overlfow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack-Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stacked Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("satckoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack OVERFLOW", "Stack&nbsp;Overflow");
+            correctionAdd("S/O", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Ooverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Owerflow", "Stack&nbsp;Overflow");
+            correctionAdd("StrackOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stak Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverfow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackeoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoveflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflopw", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overlow", "Stack&nbsp;Overflow");
+            correctionAdd("stack oveflow", "Stack&nbsp;Overflow");
+            correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
+            correctionAdd("overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Over Flow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackerflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackover", "Stack&nbsp;Overflow");
+            correctionAdd("Satckoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("stackvoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("So", "Stack&nbsp;Overflow");
+            correctionAdd("sof", "Stack&nbsp;Overflow");
+            correctionAdd("SOF", "Stack&nbsp;Overflow");
+            correctionAdd("overstackflow", "Stack&nbsp;Overflow");
+            correctionAdd("StackOvertflow", "Stack&nbsp;Overflow");
+            correctionAdd("STACK OVERFLOW", "Stack&nbsp;Overflow");
+            correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
+            correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stack Overflów", "Stack&nbsp;Overflow");
+            correctionAdd("SoF", "Stack&nbsp;Overflow");
+            correctionAdd("StankOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stank Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("snark overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Snark Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stack flow", "Stack&nbsp;Overflow");
+            correctionAdd("StckOvrflw", "Stack&nbsp;Overflow");
+            correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverlow", "Stack&nbsp;Overflow");
+            correctionAdd("SO dot com", "Stack&nbsp;Overflow");
+
+            correctionAdd("SE", "Stack&nbsp;Exchange");
+            correctionAdd("stackexchange", "Stack&nbsp;Exchange");
+            correctionAdd("stack exchange", "Stack&nbsp;Exchange");
+            correctionAdd("stackExchange", "Stack&nbsp;Exchange");
+            correctionAdd("StackExchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("stack-exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stackexchange", "Stack&nbsp;Exchange");
+            correctionAdd("StackExhange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("Stack exhange", "Stack&nbsp;Exchange");
+            correctionAdd("Stackexchnage", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("StackExchnage", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("StackExchcange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("Stack Exchcange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("StackExhcange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("stackexchage", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("StackeExchange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("StackEx", "Stack&nbsp;Exchange");
+            correctionAdd("StackExghange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("Stack", "Stack&nbsp;Exchange");
+            correctionAdd("Stachexchange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("Stack Exhange", "Stack&nbsp;Exchange");
+            correctionAdd("stack exhange", "Stack&nbsp;Exchange");
+            correctionAdd("StackEchange", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("stackExchnage", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("stack", "Stack&nbsp;Exchange"); // Could also be Stack Overflow.
+            correctionAdd("stack Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("S.E", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Ex", "Stack&nbsp;Exchange");
+            correctionAdd("Stack exchange", "Stack&nbsp;Exchange");
+            correctionAdd("SX", "Stack&nbsp;Exchange");
+            correctionAdd("Stack EXCHANGE", "Stack&nbsp;Exchange");
+            correctionAdd("StackExchage", "Stack&nbsp;Exchange");
+            correctionAdd("Stack excahnge", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Excahnge", "Stack&nbsp;Exchange");
+            correctionAdd("stack excahnge", "Stack&nbsp;Exchange");
+            correctionAdd("Stackexchage", "Stack&nbsp;Exchange"); // Misspelling.
+            correctionAdd("stack exhcange", "Stack&nbsp;Exchange");
+            correctionAdd("Stackexcange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Excange", "Stack&nbsp;Exchange");
+            correctionAdd("stack.exchange", "Stack&nbsp;Exchange");
+            correctionAdd("stackexachnge", "Stack&nbsp;Exchange");
+            correctionAdd("StackExcchange", "Stack&nbsp;Exchange");
+            correctionAdd("sttackexChange", "Stack&nbsp;Exchange");
+            correctionAdd("stackexChange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack-exchanged", "Stack&nbsp;Exchange");
+            correctionAdd("Stack-exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack excange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack-Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Exchage", "Stack&nbsp;Exchange");
+            correctionAdd("Someplace Else", "Stack&nbsp;Exchange");
+            correctionAdd("someplace else", "Stack&nbsp;Exchange");
+            correctionAdd("Elsewhere", "Stack&nbsp;Exchange");
+            correctionAdd("StackExcahnge", "Stack&nbsp;Exchange");
+            correctionAdd("stackexange", "Stack&nbsp;Exchange");
+            correctionAdd("stack exchanged", "Stack&nbsp;Exchange");
+            correctionAdd("stacksexchange", "Stack&nbsp;Exchange");
+            correctionAdd("stacks exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stac kExchange", "Stack&nbsp;Exchange");
+
+            correctionAdd("serverfault", "Server&nbsp;Fault");
+            correctionAdd("SF", "Server&nbsp;Fault");
+            correctionAdd("ServerFault", "Server&nbsp;Fault");
+            correctionAdd("Serverfault", "Server&nbsp;Fault");
+            correctionAdd("Server Fault", "Server&nbsp;Fault");
+            correctionAdd("server fault", "Server&nbsp;Fault");
+            correctionAdd("sever fault", "Server&nbsp;Fault"); // Misspelling.
+            correctionAdd("Server fault", "Server&nbsp;Fault");
+            correctionAdd("sf", "Server&nbsp;Fault");
+            correctionAdd("server-fault", "Server&nbsp;Fault");
+            correctionAdd("Sever Fault", "Server&nbsp;Fault");
+            correctionAdd("SeverFault", "Server&nbsp;Fault");
+
+            correctionAdd("SuperUser", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("SU", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("super user", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Superuser", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("superuser", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super users", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("super-user", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("superusers", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super-User", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super user", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("SuperUse", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super Use", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("superUser", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("SuperUsers", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("superuser.com", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("SuperUser.SE", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Superusers", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super&nbsp;User", "Super&nbsp;User (Stack Exchange site)");
+            correctionAdd("Super User (Stack Exchange site)", "Super&nbsp;User (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Ask Ubuntu (Stack Exchange site)", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Ask&nbsp;Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("askubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("Askubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AU", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AskUbuntuSE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+            correctionAdd("AU.SE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
+
+            correctionAdd("Stack Overflow на русском", "Stack Overflow на русском (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("ru.SO", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("SO.rus", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("SO.RU", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("RU.SE", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("RU.se", "Stack Overflow на русском (Stack Exchange site)");
+
+            correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
+            correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
+
+            correctionAdd("Workplace", "The Workplace (Stack Exchange site)");
+            correctionAdd("The Workplace", "The Workplace (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("TWP", "The Workplace (Stack Exchange site)");
+
+            correctionAdd("Chinese Language", "Chinese Language (Stack Exchange site)");
+            correctionAdd("Chinese.SE", "Chinese Language (Stack Exchange site)");
+
+            correctionAdd("Earth Science", "Earth Science (Stack Exchange site)");
+            correctionAdd("EarthScience", "Earth Science (Stack Exchange site)");
+
+            correctionAdd("Computational Science SE", "Computational Science (Stack Exchange site)");
+            correctionAdd("Computational Science", "Computational Science (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta.StackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta.so", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta stack overflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta.SO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta SO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta-stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("metastackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("meta.stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta-stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Metastackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta.SO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("META SO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta SO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta-SO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("MetaSO", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta Stack&nbsp;Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("stackoverflow META", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("stack overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Stack Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Stack Overflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Stack&nbsp;Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta.Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+
+            correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("mse", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("MetaSE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta-SE", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Stack-exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Stack exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta Stack Exchange", "Meta&nbsp;Stack&nbsp;Exchange"); // Effectively self.
+            correctionAdd("meta.stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stock exchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("META StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta.StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta Stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
@@ -5529,6 +5856,8 @@ namespace OverflowHelper.core
             correctionAdd("blueutooth", "Bluetooth");
             correctionAdd("Bluethooth", "Bluetooth");
             correctionAdd("bluetoot", "Bluetooth");
+            correctionAdd("Blutooth", "Bluetooth");
+            correctionAdd("blutooth", "Bluetooth");
 
             correctionAdd("xbox", "Xbox");
             correctionAdd("XBox", "Xbox");
@@ -6076,255 +6405,6 @@ namespace OverflowHelper.core
             correctionAdd("H264", "H.264");
 
             correctionAdd("aac", "AAC");
-
-            correctionAdd("SO", "Stack&nbsp;Overflow");
-            correctionAdd("S.O", "Stack&nbsp;Overflow");
-            correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOF", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack-overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackover flow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackovwerflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverfull", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow.SE", "Stack&nbsp;Overflow");
-            correctionAdd("StackOveflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackoveflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stackvoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackOFlow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stackflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stack over flow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackedOverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackOVerflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackoverlow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverlow", "Stack&nbsp;Overflow");
-            correctionAdd("SatckOverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Syackoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stacoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOerflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Oversflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stakcoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack OverfLow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverfLow", "Stack&nbsp;Overflow");
-            correctionAdd("stackover flow", "Stack&nbsp;Overflow");
-            correctionAdd("statckoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackOverlfow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stalkoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackOverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack OverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack over flow", "Stack&nbsp;Overflow");
-            correctionAdd("STACKOVERFLOW", "Stack&nbsp;Overflow");
-            correctionAdd("Stalckoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stack Overfolw", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack-overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stafkoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackvoerflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackoverlfow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack Oveflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackoverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("StckOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOwerflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overlfow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack-Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stacked Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("satckoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack OVERFLOW", "Stack&nbsp;Overflow");
-            correctionAdd("S/O", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Ooverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Owerflow", "Stack&nbsp;Overflow");
-            correctionAdd("StrackOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stak Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverfow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackeoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoveflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflopw", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overlow", "Stack&nbsp;Overflow");
-            correctionAdd("stack oveflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
-            correctionAdd("overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Over Flow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackerflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackover", "Stack&nbsp;Overflow");
-            correctionAdd("Satckoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackvoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("So", "Stack&nbsp;Overflow");
-            correctionAdd("sof", "Stack&nbsp;Overflow");
-            correctionAdd("SOF", "Stack&nbsp;Overflow");
-            correctionAdd("overstackflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOvertflow", "Stack&nbsp;Overflow");
-            correctionAdd("STACK OVERFLOW", "Stack&nbsp;Overflow");
-            correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
-            correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflów", "Stack&nbsp;Overflow");
-            correctionAdd("SoF", "Stack&nbsp;Overflow");
-            correctionAdd("StankOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stank Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("snark overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Snark Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack flow", "Stack&nbsp;Overflow");
-            correctionAdd("StckOvrflw", "Stack&nbsp;Overflow");
-            correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverlow", "Stack&nbsp;Overflow");
-            correctionAdd("SO dot com", "Stack&nbsp;Overflow");
-
-            correctionAdd("SE", "Stack&nbsp;Exchange");
-            correctionAdd("stackexchange", "Stack&nbsp;Exchange");
-            correctionAdd("stack exchange", "Stack&nbsp;Exchange");
-            correctionAdd("stackExchange", "Stack&nbsp;Exchange");
-            correctionAdd("StackExchange", "Stack&nbsp;Exchange");
-            correctionAdd("Stack Exchange", "Stack&nbsp;Exchange");
-            correctionAdd("stack-exchange", "Stack&nbsp;Exchange");
-            correctionAdd("Stackexchange", "Stack&nbsp;Exchange");
-            correctionAdd("StackExhange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("Stack exhange", "Stack&nbsp;Exchange");
-            correctionAdd("Stackexchnage", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("StackExchnage", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("StackExchcange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("Stack Exchcange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("StackExhcange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("stackexchage", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("StackeExchange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("StackEx", "Stack&nbsp;Exchange");
-            correctionAdd("StackExghange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("Stack", "Stack&nbsp;Exchange");
-            correctionAdd("Stachexchange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("Stack Exhange", "Stack&nbsp;Exchange");
-            correctionAdd("stack exhange", "Stack&nbsp;Exchange");
-            correctionAdd("StackEchange", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("stackExchnage", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("stack", "Stack&nbsp;Exchange"); // Could also be Stack Overflow.
-            correctionAdd("stack Exchange", "Stack&nbsp;Exchange");
-            correctionAdd("S.E", "Stack&nbsp;Exchange");
-            correctionAdd("Stack Ex", "Stack&nbsp;Exchange");
-            correctionAdd("Stack exchange", "Stack&nbsp;Exchange");
-            correctionAdd("SX", "Stack&nbsp;Exchange");
-            correctionAdd("Stack EXCHANGE", "Stack&nbsp;Exchange");
-            correctionAdd("StackExchage", "Stack&nbsp;Exchange");
-            correctionAdd("Stack excahnge", "Stack&nbsp;Exchange");
-            correctionAdd("Stack Excahnge", "Stack&nbsp;Exchange");
-            correctionAdd("stack excahnge", "Stack&nbsp;Exchange");
-            correctionAdd("Stackexchage", "Stack&nbsp;Exchange"); // Misspelling.
-            correctionAdd("stack exhcange", "Stack&nbsp;Exchange");
-            correctionAdd("Stackexcange", "Stack&nbsp;Exchange");
-            correctionAdd("Stack Excange", "Stack&nbsp;Exchange");
-            correctionAdd("stack.exchange", "Stack&nbsp;Exchange");
-            correctionAdd("stackexachnge", "Stack&nbsp;Exchange");
-            correctionAdd("StackExcchange", "Stack&nbsp;Exchange");
-            correctionAdd("sttackexChange", "Stack&nbsp;Exchange");
-            correctionAdd("stackexChange", "Stack&nbsp;Exchange");
-            correctionAdd("Stack-exchanged", "Stack&nbsp;Exchange");
-            correctionAdd("Stack-exchange", "Stack&nbsp;Exchange");
-            correctionAdd("Stack excange", "Stack&nbsp;Exchange");
-            correctionAdd("Stack-Exchange", "Stack&nbsp;Exchange");
-            correctionAdd("Stack Exchage", "Stack&nbsp;Exchange");
-            correctionAdd("Someplace Else", "Stack&nbsp;Exchange");
-            correctionAdd("someplace else", "Stack&nbsp;Exchange");
-            correctionAdd("Elsewhere", "Stack&nbsp;Exchange");
-            correctionAdd("StackExcahnge", "Stack&nbsp;Exchange");
-            correctionAdd("stackexange", "Stack&nbsp;Exchange");
-            correctionAdd("stack exchanged", "Stack&nbsp;Exchange");
-            correctionAdd("stacksexchange", "Stack&nbsp;Exchange");
-            correctionAdd("stacks exchange", "Stack&nbsp;Exchange");
-            correctionAdd("Stac kExchange", "Stack&nbsp;Exchange");
-
-            correctionAdd("serverfault", "Server&nbsp;Fault");
-            correctionAdd("SF", "Server&nbsp;Fault");
-            correctionAdd("ServerFault", "Server&nbsp;Fault");
-            correctionAdd("Serverfault", "Server&nbsp;Fault");
-            correctionAdd("Server Fault", "Server&nbsp;Fault");
-            correctionAdd("server fault", "Server&nbsp;Fault");
-            correctionAdd("sever fault", "Server&nbsp;Fault"); // Misspelling.
-            correctionAdd("Server fault", "Server&nbsp;Fault");
-            correctionAdd("sf", "Server&nbsp;Fault");
-            correctionAdd("server-fault", "Server&nbsp;Fault");
-            correctionAdd("Sever Fault", "Server&nbsp;Fault");
-            correctionAdd("SeverFault", "Server&nbsp;Fault");
-
-            correctionAdd("SuperUser", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("SU", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("super user", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Superuser", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("superuser", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super users", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("super-user", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("superusers", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super-User", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super user", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("SuperUse", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super Use", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("superUser", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("SuperUsers", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("superuser.com", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("SuperUser.SE", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Superusers", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super&nbsp;User", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super User (Stack Exchange site)", "Super&nbsp;User (Stack Exchange site)"); // Sort of identity mapping
-
-            correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta.StackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta.so", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta stack overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta.SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta-stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("metastackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta.stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta-stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Metastackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta.SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("META SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta-SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("MetaSO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta Stack&nbsp;Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("stack overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack&nbsp;Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta.Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-
-            correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("mse", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("MetaSE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta-SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Stack-exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Stack exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta Stack Exchange", "Meta&nbsp;Stack&nbsp;Exchange"); // Effectively self.
-            correctionAdd("meta.stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stock exchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("META StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta.StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta Stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
 
             correctionAdd("CS", "computer science");
             correctionAdd("compsci", "computer science");
@@ -8148,6 +8228,8 @@ namespace OverflowHelper.core
             correctionAdd("exucutable", "executable");
             correctionAdd("excuteable", "executable");
             correctionAdd("executible", "executable");
+            correctionAdd("exetuable", "executable");
+            correctionAdd("exeutable", "executable");
 
             correctionAdd("replaceble", "replaceable");
             correctionAdd("replacable", "replaceable");
@@ -13910,6 +13992,8 @@ namespace OverflowHelper.core
             correctionAdd("thats's", "that’s");
             correctionAdd("Thant's", "that’s");
             correctionAdd("thant's", "that’s");
+            correctionAdd("tht's", "that’s");
+            correctionAdd("tht’s", "that’s");
 
             // correctionAdd("v.s", "vs."); // Bug...
             correctionAdd("versus", "vs."); //
@@ -14401,6 +14485,7 @@ namespace OverflowHelper.core
             correctionAdd("turbo c++", "Turbo C++");
             correctionAdd("Turbo c++", "Turbo C++");
             correctionAdd("turbo C++", "Turbo C++");
+            correctionAdd("Turbo-C", "Turbo C++");
 
             // Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
             correctionAdd("Cpp", "C++");
@@ -15718,19 +15803,6 @@ namespace OverflowHelper.core
             correctionAdd("horizondally", "horizontally");
             correctionAdd("Horiztonally", "horizontally");
             correctionAdd("horiztonally", "horizontally");
-
-            correctionAdd("Ask Ubuntu (Stack Exchange site)", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Ask&nbsp;Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("askubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("AskUbuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("Askubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("Ask Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("Ask ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("ask ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("AU", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("ask-ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("AskUbuntuSE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
-            correctionAdd("AU.SE", "Ask&nbsp;Ubuntu (Stack Exchange site)");
 
             correctionAdd("managament", "management");
             correctionAdd("mngt", "management");
@@ -26907,6 +26979,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Juli", "July");
             correctionAdd("july", "July");
+            correctionAdd("Jul", "July");
+            correctionAdd("jul", "July");
 
             correctionAdd("scss", "SCSS");
 
@@ -27667,6 +27741,7 @@ namespace OverflowHelper.core
             correctionAdd("Colab", "Colaboratory");
             correctionAdd("colab", "Colaboratory");
             correctionAdd("google colab", "Colaboratory");
+            correctionAdd("Co-lab", "Colaboratory");
 
             correctionAdd("Jpeg 2000", "JPEG 2000");
 
@@ -29236,6 +29311,7 @@ namespace OverflowHelper.core
 
             correctionAdd("strait", "straight");
             correctionAdd("straitght", "straight");
+            correctionAdd("stragiht", "straight");
 
             correctionAdd("Blackboard Learning System", "Blackboard Learn");
             correctionAdd("Blackboard", "Blackboard Learn");
@@ -41018,13 +41094,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spacemacs", "Spacemacs");
 
-            correctionAdd("Stack Overflow на русском", "Stack Overflow на русском (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("ru.SO", "Stack Overflow на русском (Stack Exchange site)");
-            correctionAdd("SO.rus", "Stack Overflow на русском (Stack Exchange site)");
-            correctionAdd("SO.RU", "Stack Overflow на русском (Stack Exchange site)");
-            correctionAdd("RU.SE", "Stack Overflow на русском (Stack Exchange site)");
-            correctionAdd("RU.se", "Stack Overflow на русском (Stack Exchange site)");
-
             correctionAdd("alamred", "alarmed");
 
             correctionAdd("bobby dazzler", "bobby-dazzler");
@@ -41059,9 +41128,6 @@ namespace OverflowHelper.core
             correctionAdd("UNXZ", "unxz");
 
             correctionAdd("wanki", "wanky");
-
-            correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
-            correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
 
             correctionAdd("primiere pro", "Adobe Premiere Pro");
             correctionAdd("Premiere Pro", "Adobe Premiere Pro");
@@ -41170,6 +41236,8 @@ namespace OverflowHelper.core
             correctionAdd("nonenglish", "non-English");
             correctionAdd("Non English", "non-English");
             correctionAdd("Non-English", "non-English");
+            correctionAdd("non English", "non-English");
+            correctionAdd("non english", "non-English");
 
             correctionAdd("html5", "HTML5"); // Not actually observed.
             correctionAdd("Html5", "HTML5");
@@ -41458,10 +41526,6 @@ namespace OverflowHelper.core
             correctionAdd("tauri", "Tauri Studio");
 
             correctionAdd("TOEFL", "Test of English as a Foreign Language");
-
-            correctionAdd("Workplace", "The Workplace (Stack Exchange site)");
-            correctionAdd("The Workplace", "The Workplace (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("TWP", "The Workplace (Stack Exchange site)");
 
             correctionAdd("double-precision floating point", "double-precision floating-point format");
 
@@ -42057,9 +42121,6 @@ namespace OverflowHelper.core
             correctionAdd("Bayasian", "Bayesian");
             correctionAdd("Beyasian", "Bayesian");
 
-            correctionAdd("Chinese Language", "Chinese Language (Stack Exchange site)");
-            correctionAdd("Chinese.SE", "Chinese Language (Stack Exchange site)");
-
             correctionAdd("Health Insurance Portability and Accountability Act", "HIPAA");
 
             correctionAdd("Vivado", "Xilinx Vivado");
@@ -42376,6 +42437,9 @@ namespace OverflowHelper.core
             correctionAdd("Bumblebee", "bumblebee");
 
             correctionAdd("repond", "respond");
+            correctionAdd("respons", "respond");
+            correctionAdd("responsed", "respond");
+            correctionAdd("responses", "respond");
 
             correctionAdd("suscebtibility", "susceptibility");
 
@@ -42801,9 +42865,6 @@ namespace OverflowHelper.core
             correctionAdd("vectorialy", "vectorially");
 
             correctionAdd("dbf", "DBF");
-
-            correctionAdd("Earth Science", "Earth Science (Stack Exchange site)");
-            correctionAdd("EarthScience", "Earth Science (Stack Exchange site)");
 
             correctionAdd("FoxBase", "FoxBASE");
 
@@ -44549,6 +44610,18 @@ namespace OverflowHelper.core
 
             correctionAdd("turbopack", "Turbopack");
             correctionAdd("turbo pack", "Turbopack");
+
+            correctionAdd("Japanese-Language Proficiency Test", "JLPT");
+
+            correctionAdd("Kanji", "kanji");
+
+            correctionAdd("immegrant", "immigrant");
+
+            correctionAdd("Lewis Structure", "Lewis structure");
+
+            correctionAdd("Rishi", "Rishi Sunak");
+
+            correctionAdd("over-interpret", "overinterpret");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70007,6 +70080,62 @@ namespace OverflowHelper.core
 
             URL_Add("Turbopack", "https://turbo.build/pack/docs");
 
+            URL_Add("-nodefaultlibs", "https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html#index-nodefaultlibs");
+
+            URL_Add("-nostdlib", "https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html#index-nostdlib");
+
+            URL_Add("-O1", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O1");
+
+            URL_Add("-O2", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O2");
+
+            URL_Add("-Waggregate-return", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggregate-return");
+
+            URL_Add("-Wchar-subscripts", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts");
+
+            URL_Add("-Wcomment", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment");
+
+            URL_Add("-Werror=implicit-function-declaration", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror_003d");
+
+            URL_Add("-Wformat-security", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security");
+
+            URL_Add("-Wimplicit-int", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-int");
+
+            URL_Add("-Wlong-long", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wlong-long");
+
+            URL_Add("-Wmain", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain");
+
+            URL_Add("-Wmissing-format-attribute", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-format-attribute");
+
+            URL_Add("-Wmissing-noreturn", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-noreturn");
+
+            URL_Add("-Wno-deprecated-declarations", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-deprecated-declarations");
+
+            URL_Add("-Wpacked", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpacked");
+
+            URL_Add("-Wswitch", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch");
+
+            URL_Add("-Wtrigraphs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtrigraphs");
+
+            URL_Add("JLPT", "https://en.wikipedia.org/wiki/Japanese-Language_Proficiency_Test");
+
+            URL_Add("kanji", "https://en.wikipedia.org/wiki/Kanji");
+
+            URL_Add("-fverbose-asm", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fverbose-asm");
+
+            URL_Add("-S", "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#index-S");
+
+            URL_Add("-g3", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-gvms");
+
+            URL_Add("immigrant", "https://en.wiktionary.org/wiki/immigrant#Noun");
+
+            URL_Add("Lewis structure", "https://en.wikipedia.org/wiki/Lewis_structure");
+
+            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
+
+            URL_Add("Computational Science (Stack Exchange site)", "https://scicomp.stackexchange.com/tour");
+
+            URL_Add("overinterpret", "https://en.wiktionary.org/wiki/overinterpret#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70453,6 +70582,7 @@ namespace OverflowHelper.core
             correctionAdd("google_", "Google (company)_");
 
             correctionAdd("acreen_", "screen_");
+            correctionAdd("sreen_", "screen_");
 
             correctionAdd("down vote_", "downvote_");
 
