@@ -1757,10 +1757,10 @@ cp $SRCFOLDER_TESTS/LookUpStringTests.cs                $WORKFOLDER
 cp $SRCFOLDER_TESTS/StringReplacerWithRegexTests.cs     $WORKFOLDER
 cp $SRCFOLDER_TESTS/CodeFormattingCheckTests.cs         $WORKFOLDER
 
-# We don't have it. It is a helper class for testing, but it 
+# We don't have it. It is a helper class for testing, but it
 # was moved to the main source folder... (as it may see
 # wider use than for testing)
-#cp $SRCFOLDER_TESTS/RegExExecutor.cs                    $WORKFOLDER  
+#cp $SRCFOLDER_TESTS/RegExExecutor.cs                    $WORKFOLDER
 
 cp $SRCFOLDER_TESTS/WordLookupTests.cs                  $WORKFOLDER
 
@@ -2577,7 +2577,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   3880000 4270000
+wordListExport 33 "HTML"  $HTML_FILE   3960000 4360000
 
 #exit
 
@@ -2615,7 +2615,7 @@ rm $JAVASCRIPT_FILE
 #       2022-01-25: 2512025 bytes
 #
 # Note: The same build number
-wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   2970000 3270000
+wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   3030000 33340000
 
 #exit
 
