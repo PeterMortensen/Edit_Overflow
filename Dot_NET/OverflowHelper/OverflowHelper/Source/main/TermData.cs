@@ -3192,6 +3192,48 @@ namespace OverflowHelper.core
 
             correctionAdd("--g3", "-g3");
 
+            correctionAdd("--Wunused-function", "-Wunused-function");
+
+            correctionAdd("--Wunused-label", "-Wunused-label");
+
+            correctionAdd("--s", "-s");
+
+            correctionAdd("--Wunused-value", "-Wunused-value");
+
+            correctionAdd("--finstrument-functions", "-finstrument-functions");
+
+            correctionAdd("--fsanitize=address", "-fsanitize=address");
+            correctionAdd("=address", "-fsanitize=address");
+
+            correctionAdd("--fsanitize=signed-integer-overflow", "-fsanitize=signed-integer-overflow");
+
+            correctionAdd("--fsanitize=thread", "-fsanitize=thread");
+            correctionAdd("=thread", "-fsanitize=thread");
+
+            correctionAdd("--fsanitize=undefined", "-fsanitize=undefined");
+            correctionAdd("=undefined", "-fsanitize=undefined");
+
+            correctionAdd("--ftrapv", "-ftrapv");
+
+            correctionAdd("-dAp", "-dA");
+            correctionAdd("--dA", "-dA");
+
+            correctionAdd("--dp", "-dp");
+
+            correctionAdd("-Wa,-a", "-Wa");
+            correctionAdd("--Wa", "-Wa");
+            //correctionAdd("-Wa,", "-Wa");  "," is currently regarded as punctuation...
+
+            correctionAdd("-da", "-fdump-rtl-all");
+            correctionAdd("--fdump-rtl-all-all", "-fdump-rtl-all");
+            correctionAdd("-fdump-rtl-all-all", "-fdump-rtl-all");
+
+            correctionAdd("--fdump-ipa-all-all", "-fdump-ipa-all-all");
+
+            correctionAdd("--fdump-tree-all-all", "-fdump-tree-all-all");
+
+            correctionAdd("--Ofast", "-Ofast");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -3687,6 +3729,12 @@ namespace OverflowHelper.core
             correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoverlow", "Stack&nbsp;Overflow");
             correctionAdd("SO dot com", "Stack&nbsp;Overflow");
+            correctionAdd("Stack overflown", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverflown", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverflown.com", "Stack&nbsp;Overflow");
+            correctionAdd("stack overflown", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflown", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflown.com", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -4109,6 +4157,7 @@ namespace OverflowHelper.core
             correctionAdd("expeded", "expected");
             correctionAdd("exepected", "expected");
             correctionAdd("aspected", "expected");
+            correctionAdd("extected", "expected");
 
             correctionAdd("expect", "Expect");
             correctionAdd("EXPECT", "Expect");
@@ -5520,6 +5569,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
 
+            correctionAdd("eval", "evaluation");
+            correctionAdd("evaluatoin", "evaluation");
+            correctionAdd("evalution", "evaluation");
+
+            correctionAdd("Lazy Evaluation", "lazy evaluation");
+            correctionAdd("lazy evalution", "lazy evaluation");
+
             correctionAdd("mit", "MIT");
 
             correctionAdd("if it aint broke dont fix it", "if it ain't broke, don't fix it");
@@ -5943,6 +5999,7 @@ namespace OverflowHelper.core
             correctionAdd("GNU C compiler", "GCC");
             correctionAdd("GNUC", "GCC");
             correctionAdd("GNU c", "GCC");
+            correctionAdd("GNU Compiler Collection", "GCC");
 
             correctionAdd("gdb", "GDB");
             correctionAdd("Gdb", "GDB");
@@ -7483,9 +7540,13 @@ namespace OverflowHelper.core
             correctionAdd("develeoper", "developer");
             correctionAdd("Developper", "developer");
             correctionAdd("devloper", "developer");
+            correctionAdd("Devs", "developer");
+            correctionAdd("devs", "developer");
 
             correctionAdd("full stack developer", "full-stack developer");
             correctionAdd("full stack web developer", "full-stack developer");
+
+            correctionAdd("web-developer", "web developer");
 
             correctionAdd("Software Developer", "software developer");
 
@@ -11622,6 +11683,7 @@ namespace OverflowHelper.core
             correctionAdd("function programming", "functional programming");
             correctionAdd("fp", "functional programming");
             correctionAdd("FP", "functional programming");
+            correctionAdd("Functional", "functional programming");
 
             correctionAdd("posix", "POSIX");
             correctionAdd("Posix", "POSIX");
@@ -15448,6 +15510,7 @@ namespace OverflowHelper.core
             correctionAdd("utilozkng", "utilising");
 
             correctionAdd("utilize", "utilise");
+            correctionAdd("utilises", "utilise");
 
             correctionAdd("wouldnt", "wouldn’t");
             correctionAdd("wouldn't", "wouldn’t");
@@ -17139,6 +17202,7 @@ namespace OverflowHelper.core
             correctionAdd("them self", "themselves");
             correctionAdd("themsleves", "themselves");
             correctionAdd("them-selves", "themselves");
+            correctionAdd("them selves", "themselves");
 
             correctionAdd("121gw", "121GW");
             correctionAdd("giggawatt", "121GW");
@@ -24359,6 +24423,7 @@ namespace OverflowHelper.core
             correctionAdd("implemet", "implement");
             correctionAdd("implemnt", "implement");
             correctionAdd("implent", "implement");
+            correctionAdd("implemente", "implement");
 
             correctionAdd("mechanim", "mechanism");
             correctionAdd("mechanisam", "mechanism");
@@ -26135,6 +26200,7 @@ namespace OverflowHelper.core
             correctionAdd("pheraps", "perhaps");
             correctionAdd("Prehaps", "perhaps");
             correctionAdd("prehaps", "perhaps");
+            correctionAdd("pherhaps", "perhaps");
 
             correctionAdd("quenstinel", "quintessential");
 
@@ -28042,9 +28108,6 @@ namespace OverflowHelper.core
             correctionAdd("ESD", "electrostatic discharge");
 
             correctionAdd("node-webkit", "NW.js");
-
-            correctionAdd("eval", "evaluation");
-            correctionAdd("evaluatoin", "evaluation");
 
             correctionAdd("outrage", "outage");
 
@@ -31064,6 +31127,9 @@ namespace OverflowHelper.core
             correctionAdd("defs", "definitions");
 
             correctionAdd("detaikl", "detail");
+            correctionAdd("deatil", "detail");
+
+            correctionAdd("deatils", "details");
 
             correctionAdd("Female", "female");
 
@@ -32192,6 +32258,7 @@ namespace OverflowHelper.core
             correctionAdd("ahev", "have");
             correctionAdd("habe", "have");
             correctionAdd("Have", "have");
+            correctionAdd("hasve", "have");
 
             correctionAdd("HDPARM", "hdparm");
 
@@ -33928,6 +33995,12 @@ namespace OverflowHelper.core
             correctionAdd("missunderstood", "misunderstood");
 
             correctionAdd("re-building", "rebuilding");
+
+            correctionAdd("buildling", "building");
+            correctionAdd("Buidling", "building");
+            correctionAdd("buidling", "building");
+            correctionAdd("bulidling", "building");
+            correctionAdd("builting", "building");
 
             correctionAdd("UNIQ", "uniq");
 
@@ -36545,6 +36618,7 @@ namespace OverflowHelper.core
 
             correctionAdd("encyrpted", "encrypted");
             correctionAdd("ecrypted", "encrypted");
+            correctionAdd("Encrypted", "encrypted");
 
             correctionAdd("extarct", "extract");
             correctionAdd("extrct", "extract");
@@ -39229,8 +39303,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hundreth", "hundredth");
 
-            correctionAdd("Lazy Evaluation", "lazy evaluation");
-
             correctionAdd("multi-byte", "multibyte");
 
             correctionAdd("priortise", "prioritise");
@@ -40386,8 +40458,6 @@ namespace OverflowHelper.core
             correctionAdd("right of passage", "rite of passage");
 
             correctionAdd("timescale", "time scale");
-
-            correctionAdd("web-developer", "web developer");
 
             correctionAdd("microcks", "Microcks");
 
@@ -42364,6 +42434,7 @@ namespace OverflowHelper.core
             correctionAdd("Qml", "QML");
 
             correctionAdd("in wild", "in the wild");
+            correctionAdd("on the wild", "in the wild");
 
             correctionAdd("kgdb", "KGDB");
 
@@ -42379,6 +42450,7 @@ namespace OverflowHelper.core
             correctionAdd("hameoglobin", "hemoglobin");
 
             correctionAdd("jr", "junior");
+            correctionAdd("Junior", "junior");
 
             correctionAdd("postively", "positively");
 
@@ -43140,6 +43212,7 @@ namespace OverflowHelper.core
             correctionAdd("entery", "entry");
 
             correctionAdd("imort", "import");
+            correctionAdd("inport", "import");
 
             correctionAdd("non-committal", "noncommittal");
             correctionAdd("non-commital", "noncommittal");
@@ -43182,11 +43255,6 @@ namespace OverflowHelper.core
             correctionAdd("Le Chateliers principle", "Le Chatelier's principle");
 
             correctionAdd("Sparky Linux", "SparkyLinux");
-
-            correctionAdd("buildling", "building");
-            correctionAdd("Buidling", "building");
-            correctionAdd("buidling", "building");
-            correctionAdd("bulidling", "building");
 
             correctionAdd("edx", "edX");
 
@@ -44622,6 +44690,32 @@ namespace OverflowHelper.core
             correctionAdd("Rishi", "Rishi Sunak");
 
             correctionAdd("over-interpret", "overinterpret");
+
+            correctionAdd("autoconf", "Autoconf");
+
+            correctionAdd("automake", "Automake");
+
+            correctionAdd("call back", "callback");
+
+            correctionAdd("ctrader", "cTrader");
+
+            correctionAdd("Media", "media");
+
+            correctionAdd("temporary file system", "tmpfs");
+
+            correctionAdd("webroot", "Webroot");
+
+            correctionAdd("first-class", "first class");
+
+            correctionAdd("Functools", "functools");
+
+            correctionAdd("canonilised", "canonicalised");
+            correctionAdd("canonicalized", "canonicalised");
+
+            correctionAdd("second thought", "second thoughts");
+            correctionAdd("second though", "second thoughts");
+
+            correctionAdd("Stack Overflow dump", "Stack Overflow data dump");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70136,6 +70230,66 @@ namespace OverflowHelper.core
 
             URL_Add("overinterpret", "https://en.wiktionary.org/wiki/overinterpret#Verb");
 
+            URL_Add("-Wunused-function", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function");
+
+            URL_Add("-Wunused-label", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label");
+
+            URL_Add("-s", "https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html#index-s");
+
+            URL_Add("-Wunused-value", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value");
+
+            URL_Add("-finstrument-functions", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-finstrument-functions");
+
+            URL_Add("-fsanitize=address", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fsanitize_003daddress");
+
+            URL_Add("-fsanitize=signed-integer-overflow", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fsanitize_003dsigned-integer-overflow");
+
+            URL_Add("-fsanitize=thread", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fsanitize_003dthread");
+
+            URL_Add("-fsanitize=undefined", "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fsanitize_003dundefined");
+
+            URL_Add("-ftrapv", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-ftrapv");
+
+            URL_Add("-dA", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-dA");
+
+            URL_Add("-dp", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-dp");
+
+            URL_Add("-Wa", "https://gcc.gnu.org/onlinedocs/gcc/Assembler-Options.html#index-Wa");
+
+            URL_Add("-fdump-ipa-all-all", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-fdump-ipa");
+
+            URL_Add("-fdump-rtl-all", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-fdump-rtl-all");
+
+            URL_Add("-fdump-tree-all-all", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-fdump-tree");
+
+            URL_Add("-Ofast", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-Ofast");
+
+            URL_Add("Autoconf", "https://en.wikipedia.org/wiki/Autoconf");
+
+            URL_Add("Automake", "https://en.wikipedia.org/wiki/Automake");
+
+            URL_Add("callback", "https://en.wiktionary.org/wiki/callback#Noun");
+
+            URL_Add("cTrader", "https://en.everybodywiki.com/CTrader");
+
+            URL_Add("details", "https://en.wiktionary.org/wiki/detail#Noun");
+
+            URL_Add("media", "https://en.wiktionary.org/wiki/media#Noun_3");
+
+            URL_Add("tmpfs", "https://en.wikipedia.org/wiki/Tmpfs");
+
+            URL_Add("Webroot", "https://en.wikipedia.org/wiki/Webroot");
+
+            URL_Add("first class", "https://en.wiktionary.org/wiki/first_class#Adjective");
+
+            URL_Add("functools", "https://docs.python.org/3/library/functools.html");
+
+            URL_Add("canonicalised", "https://en.wiktionary.org/wiki/canonicalise#Verb");
+
+            URL_Add("second thoughts", "https://en.wiktionary.org/wiki/second_thoughts#Noun");
+
+            URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70719,6 +70873,7 @@ namespace OverflowHelper.core
             correctionAdd("en_", "and_");
             correctionAdd("amd_", "and_");
             correctionAdd("nd_", "and_");
+            correctionAdd("anf_", "and_");
 
             correctionAdd("blitz++_", "Blitz++_");
             correctionAdd("Blitz_", "Blitz++_");
@@ -70809,6 +70964,7 @@ namespace OverflowHelper.core
 
             correctionAdd("beeing_", "being_");
             correctionAdd("bean_", "being_");
+            correctionAdd("beiing_", "being_");
 
             correctionAdd("illustrator_", "Adobe Illustrator_");
             correctionAdd("adobe illustrator_", "Adobe Illustrator_");
@@ -71501,6 +71657,12 @@ namespace OverflowHelper.core
             correctionAdd("GREP_", "grep_");
 
             correctionAdd("runtime_", "run-time_");
+
+            correctionAdd("tail-call elimination_", "tail-call optimization_");
+            correctionAdd("TCO_", "tail-call optimization_");
+            correctionAdd("tail call optimization_", "tail-call optimization_");
+
+            correctionAdd("bootcamp_", "boot camp_");
 
             // URL mappings
             //
@@ -72282,6 +72444,10 @@ namespace OverflowHelper.core
             URL_Add("grep_", "http://linux.die.net/man/1/grep");
 
             URL_Add("run-time_", "https://en.wiktionary.org/wiki/run-time#Adjective");
+
+            URL_Add("tail-call optimization_", "https://en.wikipedia.org/wiki/Tail_call");
+
+            URL_Add("boot camp_", "https://en.wiktionary.org/wiki/boot_camp#Noun");
 
         } //addLookupData_alternativeWordSet()
 
