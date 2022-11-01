@@ -1187,6 +1187,12 @@ namespace OverflowHelper.core
 
             correctionAdd("lang-dart", "```lang-dart");
 
+            correctionAdd("lang-objc", "```lang-objectivec");
+
+            correctionAdd("lang-perl", "```lang-perl");
+
+            correctionAdd("lang-yaml", "```lang-yaml");
+
             correctionAdd("Nativescript", "NativeScript");
 
             correctionAdd("py script", "PyScript");
@@ -2608,6 +2614,8 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("MAC OS Monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("12.6", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Mac OS Monterey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("mac monterey", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -3234,6 +3242,20 @@ namespace OverflowHelper.core
 
             correctionAdd("--Ofast", "-Ofast");
 
+            correctionAdd("--df", "-df");
+
+            correctionAdd("--ftime-report", "-ftime-report");
+
+            correctionAdd("--fvisibility-inlines-hidden", "-fvisibility-inlines-hidden");
+
+            correctionAdd("--Q", "-Q");
+
+            correctionAdd("--Wno-unused-local-typedefs", "-Wno-unused-local-typedefs");
+
+            correctionAdd("--march=", "-march=");
+
+            correctionAdd("--Wl", "-Wl");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -3626,6 +3648,33 @@ namespace OverflowHelper.core
             correctionAdd("math SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Math SE", "Mathematics (Stack Exchange site)");
             correctionAdd("Maths SE", "Mathematics (Stack Exchange site)");
+            correctionAdd("math", "Mathematics (Stack Exchange site)");
+            correctionAdd("mathematics", "Mathematics (Stack Exchange site)");
+
+            correctionAdd("mathematica", "Mathematica");
+            correctionAdd("Mma", "Mathematica");
+            correctionAdd("Mathetmica", "Mathematica");
+            correctionAdd("Wolfarm Mathematica", "Mathematica");
+            correctionAdd("Wolfram Mathematica", "Mathematica");
+            correctionAdd("MMA", "Mathematica");
+
+            correctionAdd("mathemathical", "mathematical");
+            correctionAdd("mathematic", "mathematical");
+
+            correctionAdd("mathematicaly", "mathematically");
+            correctionAdd("mathamaticaly", "mathematically");
+
+            correctionAdd("Mathematician", "mathematician");
+            correctionAdd("mathematicien", "mathematician");
+
+            correctionAdd("Mathjax", "MathJax");
+            correctionAdd("mathjax", "MathJax");
+            correctionAdd("MatJaX", "MathJax");
+            correctionAdd("MathJaX", "MathJax");
+            correctionAdd("MathJAX", "MathJax");
+
+            correctionAdd("mathworks", "MathWorks");
+            correctionAdd("Mathworks", "MathWorks");
 
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
@@ -3917,31 +3966,6 @@ namespace OverflowHelper.core
             correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
-
-            correctionAdd("mathematica", "Mathematica");
-            correctionAdd("Mma", "Mathematica");
-            correctionAdd("Mathetmica", "Mathematica");
-            correctionAdd("Wolfarm Mathematica", "Mathematica");
-            correctionAdd("Wolfram Mathematica", "Mathematica");
-            correctionAdd("MMA", "Mathematica");
-
-            correctionAdd("mathemathical", "mathematical");
-            correctionAdd("mathematic", "mathematical");
-
-            correctionAdd("mathematicaly", "mathematically");
-            correctionAdd("mathamaticaly", "mathematically");
-
-            correctionAdd("Mathematician", "mathematician");
-            correctionAdd("mathematicien", "mathematician");
-
-            correctionAdd("Mathjax", "MathJax");
-            correctionAdd("mathjax", "MathJax");
-            correctionAdd("MatJaX", "MathJax");
-            correctionAdd("MathJaX", "MathJax");
-            correctionAdd("MathJAX", "MathJax");
-
-            correctionAdd("mathworks", "MathWorks");
-            correctionAdd("Mathworks", "MathWorks");
 
             correctionAdd("achademia", "academia");
             correctionAdd("achedemia", "academia");
@@ -5414,6 +5438,7 @@ namespace OverflowHelper.core
             correctionAdd("junit", "JUnit");
             correctionAdd("JUNIT", "JUnit");
             correctionAdd("jUnit", "JUnit");
+            correctionAdd("JUNIt", "JUnit");
 
             correctionAdd("dojo", "Dojo Toolkit");
             correctionAdd("Dojo", "Dojo Toolkit");
@@ -6000,6 +6025,7 @@ namespace OverflowHelper.core
             correctionAdd("GNUC", "GCC");
             correctionAdd("GNU c", "GCC");
             correctionAdd("GNU Compiler Collection", "GCC");
+            correctionAdd("CGG", "GCC");
 
             correctionAdd("gdb", "GDB");
             correctionAdd("Gdb", "GDB");
@@ -7542,6 +7568,7 @@ namespace OverflowHelper.core
             correctionAdd("devloper", "developer");
             correctionAdd("Devs", "developer");
             correctionAdd("devs", "developer");
+            correctionAdd("Dev", "developer");
 
             correctionAdd("full stack developer", "full-stack developer");
             correctionAdd("full stack web developer", "full-stack developer");
@@ -13312,10 +13339,12 @@ namespace OverflowHelper.core
             correctionAdd("PS2", "PS/2");
             correctionAdd("ps/2", "PS/2");
 
-            correctionAdd("kernal", "kernel");
+            correctionAdd("kernal", "kernel"); // The old misspelling is reserved for Commodore only (shame on them for carrying it forward).
             correctionAdd("Kernel", "kernel");
             correctionAdd("kenel", "kernel");
             correctionAdd("Kernal", "kernel");
+            correctionAdd("Karnal", "kernel");
+            correctionAdd("karnal", "kernel");
 
             correctionAdd("Linux Kernel", "Linux kernel");
             correctionAdd("linux kernel", "Linux kernel");
@@ -17300,6 +17329,8 @@ namespace OverflowHelper.core
             correctionAdd("milliseconds", "millisecond");
             correctionAdd("millis", "millisecond");
             correctionAdd("millisecs", "millisecond");
+            correctionAdd("millisecodn", "millisecond");
+            correctionAdd("millisecodns", "millisecond");
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
@@ -19197,6 +19228,7 @@ namespace OverflowHelper.core
             correctionAdd("imposse", "impose");
 
             correctionAdd("instaling", "installing");
+            correctionAdd("Installing", "installing");
 
             correctionAdd("liek", "like");
             correctionAdd("lke", "like");
@@ -20113,6 +20145,7 @@ namespace OverflowHelper.core
             correctionAdd("Soundcloud", "SoundCloud");
 
             correctionAdd("condidate", "candidate");
+            correctionAdd("candidiate", "candidate");
 
             correctionAdd("containng", "containing");
             correctionAdd("containg", "containing");
@@ -29442,6 +29475,13 @@ namespace OverflowHelper.core
             correctionAdd("THink", "think");
             correctionAdd("Think", "think");
 
+            correctionAdd("thinkpad", "ThinkPad");
+            correctionAdd("IBM Stinkpad", "ThinkPad");
+            correctionAdd("Stinkpad", "ThinkPad");
+            correctionAdd("IBM Thinkpad", "ThinkPad");
+            correctionAdd("IBM ThinkPad", "ThinkPad");
+            correctionAdd("Thinkpad", "ThinkPad");
+
             correctionAdd("thingamajig", "thingamajiggy");
             correctionAdd("thingamadigi", "thingamajiggy");
             correctionAdd("thingamabob", "thingamajiggy");
@@ -37317,6 +37357,8 @@ namespace OverflowHelper.core
             correctionAdd("satoshi", "Satoshi Nakamoto");
 
             correctionAdd("IBM XL C/C++ Compilers", "XL C/C++");
+            correctionAdd("xlC", "XL C/C++");
+            correctionAdd("xlc", "XL C/C++");
 
             correctionAdd("xtensa", "Xtensa");
 
@@ -42600,13 +42642,6 @@ namespace OverflowHelper.core
             correctionAdd("Mainfest", "manifest");
             correctionAdd("manifiest", "manifest");
 
-            correctionAdd("thinkpad", "ThinkPad");
-            correctionAdd("IBM Stinkpad", "ThinkPad");
-            correctionAdd("Stinkpad", "ThinkPad");
-            correctionAdd("IBM Thinkpad", "ThinkPad");
-            correctionAdd("IBM ThinkPad", "ThinkPad");
-            correctionAdd("Thinkpad", "ThinkPad");
-
             correctionAdd("AVX512", "AVX-512");
 
             correctionAdd("celeron", "Celeron");
@@ -43638,8 +43673,6 @@ namespace OverflowHelper.core
 
             correctionAdd("triage review queue", "Triage review queue");
 
-            correctionAdd("lang-objc", "```lang-objectivec");
-
             correctionAdd("flage", "flag");
 
             correctionAdd("mange", "manage");
@@ -44203,8 +44236,6 @@ namespace OverflowHelper.core
 
             correctionAdd("top-notch", "top notch");
 
-            correctionAdd("lang-perl", "```lang-perl");
-
             correctionAdd("noysier", "noisier");
 
             correctionAdd("<br>", "<br/>");
@@ -44716,6 +44747,24 @@ namespace OverflowHelper.core
             correctionAdd("second though", "second thoughts");
 
             correctionAdd("Stack Overflow dump", "Stack Overflow data dump");
+
+            correctionAdd("hpanel", "hPanel");
+
+            correctionAdd("address-space", "address space");
+
+            correctionAdd("Expected Conditions", "ExpectedConditions");
+
+            correctionAdd("probhable", "probable");
+
+            correctionAdd("WebdriverWait", "WebDriverWait");
+            correctionAdd("webdriverwait", "WebDriverWait");
+
+            correctionAdd("causually", "causally");
+
+            correctionAdd("re-do", "redo");
+
+            correctionAdd("well established", "well-established");
+            correctionAdd("well stablished", "well-established");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70290,6 +70339,38 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
 
+            URL_Add("hPanel", "https://sourceforge.net/software/product/hPanel/");
+
+            URL_Add("-df", "https://gcc.gnu.org/onlinedocs/gcc-4.3.6/gcc/Debugging-Options.html#index-df-499");
+
+            URL_Add("-ftime-report", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-ftime-report");
+
+            URL_Add("-fvisibility-inlines-hidden", "https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html#index-fvisibility-inlines-hidden");
+
+            URL_Add("-Q", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-Q");
+
+            URL_Add("-Wno-unused-local-typedefs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-local-typedefs");
+
+            URL_Add("-march=", "https://gcc.gnu.org/onlinedocs/gcc/LoongArch-Options.html#index--march");
+
+            URL_Add("-Wl", "https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html#index-Wl");
+
+            URL_Add("address space", "https://en.wikipedia.org/wiki/Address_space");
+
+            URL_Add("ExpectedConditions", "https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/ExpectedConditions.html");
+
+            URL_Add("probable", "https://en.wiktionary.org/wiki/probable#Adjective");
+
+            URL_Add("WebDriverWait", "https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.wait.html");
+
+            URL_Add("```lang-yaml", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("causally", "https://en.wiktionary.org/wiki/causally#Adverb");
+
+            URL_Add("redo", "https://en.wiktionary.org/wiki/redo#Verb");
+
+            URL_Add("well-established", "https://en.wiktionary.org/wiki/well-established#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -70660,6 +70741,13 @@ namespace OverflowHelper.core
             correctionAdd("Mathematica SE_", "Mathematica (Stack Exchange site)_");
             correctionAdd("Mathematica_", "Mathematica (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("Mathematics_", "mathematics_");
+            correctionAdd("maths_", "mathematics_");
+            correctionAdd("math_", "mathematics_");
+            correctionAdd("Mathmatics_", "mathematics_");
+            correctionAdd("mathmatics_", "mathematics_");
+            correctionAdd("Mathemetics_", "mathematics_");
+
             correctionAdd("Physics SE_", "Physics (Stack Exchange site)_");
             correctionAdd("physics SE_", "Physics (Stack Exchange site)_");
             correctionAdd("Physics.SE_", "Physics (Stack Exchange site)_");
@@ -70918,13 +71006,6 @@ namespace OverflowHelper.core
             correctionAdd("BOM_", "bill of material_");
 
             correctionAdd("Astronomy_", "astronomy_");
-
-            correctionAdd("Mathematics_", "mathematics_");
-            correctionAdd("maths_", "mathematics_");
-            correctionAdd("math_", "mathematics_");
-            correctionAdd("Mathmatics_", "mathematics_");
-            correctionAdd("mathmatics_", "mathematics_");
-            correctionAdd("Mathemetics_", "mathematics_");
 
             correctionAdd("Sun_", "Sun Microsystems_");
             correctionAdd("sun microsystems_", "Sun Microsystems_");
@@ -71663,6 +71744,11 @@ namespace OverflowHelper.core
             correctionAdd("tail call optimization_", "tail-call optimization_");
 
             correctionAdd("bootcamp_", "boot camp_");
+
+            correctionAdd("then_", "than_");
+
+            correctionAdd("mathjax_", "MathJax basic tutorial and quick reference_");
+            correctionAdd("MathJax_", "MathJax basic tutorial and quick reference_");
 
             // URL mappings
             //
@@ -72448,6 +72534,10 @@ namespace OverflowHelper.core
             URL_Add("tail-call optimization_", "https://en.wikipedia.org/wiki/Tail_call");
 
             URL_Add("boot camp_", "https://en.wiktionary.org/wiki/boot_camp#Noun");
+
+            URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
+
+            URL_Add("MathJax basic tutorial and quick reference_", "https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference");
 
         } //addLookupData_alternativeWordSet()
 
