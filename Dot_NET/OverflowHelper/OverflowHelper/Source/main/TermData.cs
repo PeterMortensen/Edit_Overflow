@@ -3256,6 +3256,19 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wl", "-Wl");
 
+            correctionAdd("--dM", "-dM");
+
+            correctionAdd("--E", "-E");
+
+            correctionAdd("--fmudflap", "-fmudflap");
+
+            correctionAdd("--save-temps", "-save-temps");
+
+            correctionAdd("--Weffc++", "-Weffc++");
+
+            correctionAdd("--Wincompatible-pointer-types", "-Wincompatible-pointer-types");
+            correctionAdd("incompatible-pointer-types", "-Wincompatible-pointer-types");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -19143,6 +19156,8 @@ namespace OverflowHelper.core
             correctionAdd("Hello,world!", "Hello, World!");
             correctionAdd("Hello,World!", "Hello, World!");
             correctionAdd("hello world!", "Hello, World!");
+            correctionAdd("Hello World !", "Hello, World!");
+            correctionAdd("Hello World!!", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -26759,6 +26774,7 @@ namespace OverflowHelper.core
 
             correctionAdd("schwartzian transform", "Schwartzian transform");
             correctionAdd("Schwartzian Transform", "Schwartzian transform");
+            correctionAdd("Schwarzian Transform", "Schwartzian transform");
 
             correctionAdd("USBlyser", "USBlyzer");
 
@@ -33182,6 +33198,7 @@ namespace OverflowHelper.core
             correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
             correctionAdd("Painter", "Shlemiel the painter’s algorithm");
             correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Scleimel the painter", "Shlemiel the painter’s algorithm");
 
             correctionAdd("factoral", "factorial");
             correctionAdd("Factorial", "factorial");
@@ -37690,6 +37707,8 @@ namespace OverflowHelper.core
             correctionAdd("quip", "Quip");
 
             correctionAdd("shellcheck", "ShellCheck");
+            correctionAdd("shellcheck.net", "ShellCheck");
+            correctionAdd("spellcheck.net", "ShellCheck");
 
             correctionAdd("WPML", "WordPress Multilingual");
 
@@ -44765,6 +44784,25 @@ namespace OverflowHelper.core
 
             correctionAdd("well established", "well-established");
             correctionAdd("well stablished", "well-established");
+
+            correctionAdd("MSO-19.2", "Link Instruments MSO-19");
+            correctionAdd("link-mso19", "Link Instruments MSO-19");
+            correctionAdd("mso-19", "Link Instruments MSO-19");
+
+            correctionAdd("Cauchy-Schwartz inequality", "Cauchy–Schwarz inequality");
+            correctionAdd("Cauchy-Schwarz inequality", "Cauchy–Schwarz inequality");
+
+            correctionAdd("colorama", "Colorama");
+
+            correctionAdd("Critic", "Critic badge");
+
+            correctionAdd("flagable", "flaggable");
+
+            correctionAdd("personal time off", "paid time off");
+            correctionAdd("PTO", "paid time off");
+            correctionAdd("planned time off", "paid time off");
+
+            correctionAdd("question-ban", "question ban");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70370,6 +70408,32 @@ namespace OverflowHelper.core
             URL_Add("redo", "https://en.wiktionary.org/wiki/redo#Verb");
 
             URL_Add("well-established", "https://en.wiktionary.org/wiki/well-established#Adjective");
+
+            URL_Add("-dM", "https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#index-dM");
+
+            URL_Add("-E", "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#index-E");
+
+            URL_Add("-fmudflap", "https://gcc.gnu.org/onlinedocs/gcc-4.8.5/gcc/Optimize-Options.html#index-fmudflap-765");
+
+            URL_Add("Link Instruments MSO-19", "https://sigrok.org/wiki/Link_Instruments_MSO-19");
+
+            URL_Add("-save-temps", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-save-temps");
+
+            URL_Add("-Weffc++", "https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html#index-Weffc_002b_002b");
+
+            URL_Add("-Wincompatible-pointer-types", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types");
+
+            URL_Add("Cauchy–Schwarz inequality", "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality");
+
+            URL_Add("Colorama", "https://pypi.org/project/colorama/");
+
+            URL_Add("Critic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("flaggable", "https://en.wiktionary.org/wiki/flaggable#Adjective");
+
+            URL_Add("paid time off", "https://en.wikipedia.org/wiki/Paid_time_off");
+
+            URL_Add("question ban", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
