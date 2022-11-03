@@ -699,6 +699,9 @@ namespace OverflowHelper.core
             correctionAdd("Aspergers", "Asperger syndrome");
             correctionAdd("Asbergers", "Asperger syndrome");
             correctionAdd("asbergers", "Asperger syndrome");
+            correctionAdd("Asberger", "Asperger syndrome");
+            correctionAdd("Asperger", "Asperger syndrome");
+            correctionAdd("asberger", "Asperger syndrome");
 
             correctionAdd("multiple ways to Rome", "all roads lead to Rome");
 
@@ -2939,6 +2942,59 @@ namespace OverflowHelper.core
 
             correctionAdd("U+2217", "ASTERISK OPERATOR");
 
+            correctionAdd("ip", "IP address");
+            correctionAdd("IP", "IP address");
+            correctionAdd("@IP", "IP address");
+            correctionAdd("Ipaddress", "IP address");
+            correctionAdd("ip adress", "IP address");
+            correctionAdd("ip address", "IP address");
+            correctionAdd("ipaddress", "IP address");
+            correctionAdd("IPAddress", "IP address");
+            correctionAdd("IP-Address", "IP address");
+            correctionAdd("Ip address", "IP address");
+            correctionAdd("I.P. address", "IP address");
+            correctionAdd("IP-Adress", "IP address");
+            correctionAdd("IP Addres", "IP address");
+            correctionAdd("IP adress", "IP address");
+            correctionAdd("ip-address", "IP address");
+            correctionAdd("Ip Adress", "IP address");
+            correctionAdd("Ip", "IP address");
+            correctionAdd("IP Address", "IP address");
+            correctionAdd("ip Address", "IP address");
+            correctionAdd("IpAddress", "IP address");
+            correctionAdd("IpAdress", "IP address");
+            correctionAdd("IPaddress", "IP address");
+            correctionAdd("IPADDRESS", "IP address");
+            correctionAdd("ip addresss", "IP address");
+            correctionAdd("IP ADDRESS", "IP address");
+            correctionAdd("IPs", "IP address");
+            correctionAdd("ips", "IP address");
+
+            correctionAdd("mac address", "MAC address");
+            correctionAdd("MAC-Adress", "MAC address");
+            correctionAdd("MAC-Address", "MAC address");
+            correctionAdd("MAC Address", "MAC address");
+            correctionAdd("MAC-adress", "MAC address");
+            correctionAdd("MAC adress", "MAC address");
+            correctionAdd("Mac address", "MAC address");
+            correctionAdd("MAC", "MAC address"); // Note: collision with Mac (as in Macintosh).
+            correctionAdd("mac-address", "MAC address");
+            correctionAdd("MAC addr", "MAC address");
+            correctionAdd("Mac Address", "MAC address");
+            correctionAdd("MAC Adresse", "MAC address");
+
+            correctionAdd("adress", "address");
+            correctionAdd("addres", "address");
+            correctionAdd("adres", "address");
+            correctionAdd("addresss", "address");
+            correctionAdd("Addres", "address");
+            correctionAdd("Address", "address");
+            correctionAdd("ADDRESSS", "address");
+            correctionAdd("ADDRESS", "address");
+            correctionAdd("addrees", "address");
+            correctionAdd("adresss", "address");
+            correctionAdd("adresse", "address");
+
             correctionAdd("--Wall", "-Wall");
 
             correctionAdd("--Werror", "-Werror");
@@ -3269,6 +3325,12 @@ namespace OverflowHelper.core
             correctionAdd("--Wincompatible-pointer-types", "-Wincompatible-pointer-types");
             correctionAdd("incompatible-pointer-types", "-Wincompatible-pointer-types");
 
+            correctionAdd("--c", "-c");
+
+            correctionAdd("--fdump-tree-all", "-fdump-tree-all");
+
+            correctionAdd("--I", "-I");
+
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
             correctionAdd("wix", "WiX");
@@ -3356,6 +3418,7 @@ namespace OverflowHelper.core
             correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
             correctionAdd("Internet Exploere", "Internet&nbsp;Explorer");
             correctionAdd("INTERNET EXPLORER", "Internet&nbsp;Explorer");
+            correctionAdd("nternet Explorer", "Internet&nbsp;Explorer");
 
             correctionAdd("IE6", "Internet&nbsp;Explorer&nbsp;6");
             correctionAdd("IE 6", "Internet&nbsp;Explorer&nbsp;6");
@@ -4330,6 +4393,7 @@ namespace OverflowHelper.core
             correctionAdd("coand", "command");
             correctionAdd("commande", "command");
             correctionAdd("Commend", "command");
+            correctionAdd("commnad", "command");
 
             correctionAdd("commandos", "commands");
             correctionAdd("commads", "commands");
@@ -7910,6 +7974,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows-XP", "Windows&nbsp;XP");
             correctionAdd("WindowsXP", "Windows&nbsp;XP");
             correctionAdd("winxp", "Windows&nbsp;XP");
+            correctionAdd("Win-XP", "Windows&nbsp;XP");
 
             correctionAdd("XP SP2", "Windows&nbsp;XP SP2");
             correctionAdd("Windows XP SP2", "Windows&nbsp;XP SP2"); // Sort of identity mapping
@@ -10471,6 +10536,7 @@ namespace OverflowHelper.core
             correctionAdd("CMAKE", "CMake");
 
             correctionAdd("make", "Make");
+            correctionAdd("gnu make", "Make");
 
             correctionAdd("Raspberry PI", "Raspberry Pi");
             correctionAdd("Raspberry pi", "Raspberry Pi");
@@ -18296,58 +18362,6 @@ namespace OverflowHelper.core
             correctionAdd("xubunbtu", "Xubuntu");
             correctionAdd("Xubunbtu", "Xubuntu");
 
-            correctionAdd("ip", "IP address");
-            correctionAdd("IP", "IP address");
-            correctionAdd("@IP", "IP address");
-            correctionAdd("Ipaddress", "IP address");
-            correctionAdd("ip adress", "IP address");
-            correctionAdd("ip address", "IP address");
-            correctionAdd("ipaddress", "IP address");
-            correctionAdd("IPAddress", "IP address");
-            correctionAdd("IP-Address", "IP address");
-            correctionAdd("Ip address", "IP address");
-            correctionAdd("I.P. address", "IP address");
-            correctionAdd("IP-Adress", "IP address");
-            correctionAdd("IP Addres", "IP address");
-            correctionAdd("IP adress", "IP address");
-            correctionAdd("ip-address", "IP address");
-            correctionAdd("Ip Adress", "IP address");
-            correctionAdd("Ip", "IP address");
-            correctionAdd("IP Address", "IP address");
-            correctionAdd("ip Address", "IP address");
-            correctionAdd("IpAddress", "IP address");
-            correctionAdd("IpAdress", "IP address");
-            correctionAdd("IPaddress", "IP address");
-            correctionAdd("IPADDRESS", "IP address");
-            correctionAdd("ip addresss", "IP address");
-            correctionAdd("IP ADDRESS", "IP address");
-            correctionAdd("IPs", "IP address");
-            correctionAdd("ips", "IP address");
-
-            correctionAdd("mac address", "MAC address");
-            correctionAdd("MAC-Adress", "MAC address");
-            correctionAdd("MAC-Address", "MAC address");
-            correctionAdd("MAC Address", "MAC address");
-            correctionAdd("MAC-adress", "MAC address");
-            correctionAdd("MAC adress", "MAC address");
-            correctionAdd("Mac address", "MAC address");
-            correctionAdd("MAC", "MAC address"); // Note: collision with Mac (as in Macintosh).
-            correctionAdd("mac-address", "MAC address");
-            correctionAdd("MAC addr", "MAC address");
-            correctionAdd("Mac Address", "MAC address");
-            correctionAdd("MAC Adresse", "MAC address");
-
-            correctionAdd("adress", "address");
-            correctionAdd("addres", "address");
-            correctionAdd("adres", "address");
-            correctionAdd("addresss", "address");
-            correctionAdd("Addres", "address");
-            correctionAdd("Address", "address");
-            correctionAdd("ADDRESSS", "address");
-            correctionAdd("ADDRESS", "address");
-            correctionAdd("addrees", "address");
-            correctionAdd("adresss", "address");
-
             correctionAdd("bare in mind", "bear in mind");
             correctionAdd("Bare in mind", "bear in mind");
 
@@ -19682,6 +19696,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aggresive", "aggressive");
             correctionAdd("aggro", "aggressive");
+            correctionAdd("agressive", "aggressive");
 
             correctionAdd("anedocte", "anecdote");
             correctionAdd("annecdote", "anecdote");
@@ -24399,6 +24414,7 @@ namespace OverflowHelper.core
 
             correctionAdd("programer", "programmer");
             correctionAdd("prgrammer", "programmer");
+            correctionAdd("Programmer", "programmer");
 
             correctionAdd("tool chain", "toolchain");
             correctionAdd("Toolchain", "toolchain");
@@ -25243,6 +25259,7 @@ namespace OverflowHelper.core
             correctionAdd("White noise", "white noise");
 
             correctionAdd("blade", "Blade");
+            correctionAdd("laravel-blade", "Blade");
 
             correctionAdd("OmniSharper", "OmniSharp");
             correctionAdd("omni-sharp", "OmniSharp");
@@ -31049,6 +31066,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inadverently", "inadvertently");
             correctionAdd("inadvertenly", "inadvertently");
+            correctionAdd("invertently", "inadvertently");
 
             correctionAdd("lowest-common denominator", "lowest common denominator");
 
@@ -37024,6 +37042,9 @@ namespace OverflowHelper.core
             correctionAdd("Accuracy", "accuracy");
 
             correctionAdd("ASD", "autism spectrum disorder");
+            correctionAdd("autism", "autism spectrum disorder");
+            correctionAdd("on the spectrum", "autism spectrum disorder");
+            correctionAdd("the spectrum", "autism spectrum disorder");
 
             correctionAdd("nu", "by"); // A true typo! (observed in the wild)
             correctionAdd("byy", "by");
@@ -38788,6 +38809,7 @@ namespace OverflowHelper.core
 
             correctionAdd("squiglies", "squiggles");
             correctionAdd("squillies", "squiggles");
+            correctionAdd("sqickilies", "squiggles");
 
             correctionAdd("christianity", "Christianity");
 
@@ -44803,6 +44825,41 @@ namespace OverflowHelper.core
             correctionAdd("planned time off", "paid time off");
 
             correctionAdd("question-ban", "question ban");
+
+            correctionAdd("ABA", "applied behavior analysis");
+
+            correctionAdd("asssembled", "assembled");
+
+            correctionAdd("iterspersed", "interspersed");
+
+            correctionAdd("interweaved", "interwoven");
+
+            correctionAdd("mastodon", "Mastodon");
+
+            correctionAdd("OBJDUMP", "objdump");
+
+            correctionAdd("preprossessed", "preprocessed");
+
+            correctionAdd("regurtating", "regurgitating");
+
+            correctionAdd("codedom", "CodeDOM");
+
+            correctionAdd("hfe", "DC current gain");
+            correctionAdd("hFE", "DC current gain");
+
+            correctionAdd("Early Effect", "Early effect");
+
+            correctionAdd("Ebers-Moll", "Ebers–Moll model");
+            correctionAdd("Ebbers Moll", "Ebers–Moll model");
+
+            correctionAdd("NLN", "no longer needed");
+
+            correctionAdd("prosposal", "proposal");
+            correctionAdd("Prosposal", "proposal");
+
+            correctionAdd("roomba", "the Roomba");
+            correctionAdd("Roomba", "the Roomba");
+            correctionAdd("the roomba", "the Roomba");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70435,6 +70492,42 @@ namespace OverflowHelper.core
 
             URL_Add("question ban", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
 
+            URL_Add("-c", "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#index-c");
+
+            URL_Add("-fdump-tree-all", "https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-fdump-tree-all");
+
+            URL_Add("-I", "https://gcc.gnu.org/onlinedocs/gcc/Directory-Options.html#index-I");
+
+            URL_Add("applied behavior analysis", "https://en.wikipedia.org/wiki/Applied_behavior_analysis");
+
+            URL_Add("assembled", "https://en.wiktionary.org/wiki/assemble#Verb");
+
+            URL_Add("interspersed", "https://en.wiktionary.org/wiki/intersperse#Verb");
+
+            URL_Add("interwoven", "https://en.wiktionary.org/wiki/interweave#Verb");
+
+            URL_Add("Mastodon", "https://en.wikipedia.org/wiki/Mastodon_(software)");
+
+            URL_Add("objdump", "https://linux.die.net/man/1/objdump");
+
+            URL_Add("preprocessed", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("regurgitating", "https://en.wiktionary.org/wiki/regurgitate#Verb");
+
+            URL_Add("CodeDOM", "https://learn.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/using-the-codedom");
+
+            URL_Add("DC current gain", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Active-mode_transistors_in_circuits");
+
+            URL_Add("Early effect", "https://en.wikipedia.org/wiki/Early_effect");
+
+            URL_Add("Ebers–Moll model", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Ebers%E2%80%93Moll_model");
+
+            URL_Add("no longer needed", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
+
+            URL_Add("proposal", "https://en.wiktionary.org/wiki/proposal#Noun");
+
+            URL_Add("the Roomba", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71563,6 +71656,10 @@ namespace OverflowHelper.core
             correctionAdd("yaml_", "YAML (tag wiki)_");
             correctionAdd("YAML_", "YAML (tag wiki)_");
 
+            correctionAdd("[tag:codedom]_", "CodeDOM (tag wiki)_");
+            correctionAdd("codedom_", "CodeDOM (tag wiki)_");
+            correctionAdd("CodeDOM_", "CodeDOM (tag wiki)_");
+
             correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
             correctionAdd("light sail_", "Amazon Lightsail_");
@@ -72602,6 +72699,8 @@ namespace OverflowHelper.core
             URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
 
             URL_Add("MathJax basic tutorial and quick reference_", "https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference");
+
+            URL_Add("CodeDOM (tag wiki)_", "https://stackoverflow.com/questions/tagged/codedom");
 
         } //addLookupData_alternativeWordSet()
 
