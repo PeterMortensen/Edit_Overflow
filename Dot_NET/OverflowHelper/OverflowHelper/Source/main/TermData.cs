@@ -3117,6 +3117,7 @@ namespace OverflowHelper.core
             correctionAdd("--Wempty-body", "-Wempty-body");
 
             correctionAdd("--Wreturn-type", "-Wreturn-type");
+            correctionAdd("return-type", "-Wreturn-type");
 
             correctionAdd("--fdiagnostics-show-option", "-fdiagnostics-show-option"); // For GCC
 
@@ -3148,6 +3149,7 @@ namespace OverflowHelper.core
             correctionAdd("--Wnested-externs", "-Wnested-externs");
 
             correctionAdd("--Wimplicit-function-declaration", "-Wimplicit-function-declaration");
+            correctionAdd("implicit-function-declaration", "-Wimplicit-function-declaration");
 
             correctionAdd("--Wno-implicit-function-declaration", "-Wno-implicit-function-declaration");
 
@@ -3769,6 +3771,7 @@ namespace OverflowHelper.core
             correctionAdd("ES.SO", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("ES.so", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("SO.ES", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Stack Overflow en Español", "Stack Overflow en español (Stack Exchange site)");
 
             correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
             correctionAdd("Mi Yodeya", "Mi Yodeya (Stack Exchange site)"); // Sort of identity mapping
@@ -13909,6 +13912,7 @@ namespace OverflowHelper.core
             correctionAdd("Beautifulsoup", "Beautiful Soup");
             correctionAdd("Beautifoul Soup", "Beautiful Soup");
             correctionAdd("BeautifoulSoup", "Beautiful Soup");
+            correctionAdd("bs", "Beautiful Soup");
 
             correctionAdd("beatiful", "beautiful");
             correctionAdd("beutiful", "beautiful");
@@ -14526,11 +14530,24 @@ namespace OverflowHelper.core
 
             correctionAdd("mvvm", "MVVM");
 
+            correctionAdd("ack", "acknowledge");
+            correctionAdd("ackknowledge", "acknowledge");
+            correctionAdd("achknowledge", "acknowledge");
+
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
             correctionAdd("KNAWLEDGE", "knowledge");
             correctionAdd("knawledge", "knowledge");
             correctionAdd("knowldge", "knowledge");
+            correctionAdd("knoledge", "knowledge");
+
+            correctionAdd("knowledgebase", "knowledge base");
+            correctionAdd("knowledge-base", "knowledge base");
+
+            correctionAdd("knowlegeable", "knowledgeable");
+            correctionAdd("knowledgable", "knowledgeable");
+
+            correctionAdd("Knowledge Transfer", "knowledge transfer");
 
             correctionAdd("edge", "Edge");
             correctionAdd("EDGE", "Edge");
@@ -16396,6 +16413,7 @@ namespace OverflowHelper.core
             correctionAdd("Alternativey", "alternatively");
             correctionAdd("alternativey", "alternatively");
             correctionAdd("alternativela", "alternatively");
+            correctionAdd("Alternatively", "alternatively");
 
             correctionAdd("altrenative", "alternative");
             correctionAdd("alterative", "alternative");
@@ -17524,10 +17542,6 @@ namespace OverflowHelper.core
             correctionAdd("Endia", "India");
 
             correctionAdd("Puttygen", "PuTTYgen");
-
-            correctionAdd("ack", "acknowledge");
-            correctionAdd("ackknowledge", "acknowledge");
-            correctionAdd("achknowledge", "acknowledge");
 
             correctionAdd("committment", "commitment");
 
@@ -19663,6 +19677,7 @@ namespace OverflowHelper.core
             correctionAdd("XY Promlem", "XY problem");
 
             correctionAdd("np", "no problem");
+            correctionAdd("NP", "no problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -25030,6 +25045,9 @@ namespace OverflowHelper.core
 
             correctionAdd("immidiate", "immediate");
             correctionAdd("inmediate", "immediate");
+            correctionAdd("immdiate", "immediate");
+            correctionAdd("inmdiate", "immediate");
+            correctionAdd("inmidate", "immediate");
 
             correctionAdd("wellfare", "welfare");
 
@@ -25254,6 +25272,8 @@ namespace OverflowHelper.core
             correctionAdd("facecious", "facetious");
             correctionAdd("facitious", "facetious");
             correctionAdd("facatious", "facetious");
+            correctionAdd("faceious", "facetious");
+            correctionAdd("facesious", "facetious");
 
             correctionAdd("falacious", "fallacious");
 
@@ -32445,6 +32465,7 @@ namespace OverflowHelper.core
             correctionAdd("Boris", "Boris Johnson");
             correctionAdd("boris", "Boris Johnson");
             correctionAdd("Borris", "Boris Johnson");
+            correctionAdd("Johnson", "Boris Johnson");
 
             correctionAdd("I2S", "I²S");
 
@@ -34264,9 +34285,6 @@ namespace OverflowHelper.core
             correctionAdd("back-fire", "backfire");
 
             correctionAdd("high-definition", "high definition");
-
-            correctionAdd("knowledgebase", "knowledge base");
-            correctionAdd("knowledge-base", "knowledge base");
 
             correctionAdd("Network topology", "network topology");
 
@@ -40270,8 +40288,6 @@ namespace OverflowHelper.core
 
             correctionAdd("free form", "free-form");
 
-            correctionAdd("knowlegeable", "knowledgeable");
-
             correctionAdd("Omnichannel", "omnichannel");
             correctionAdd("omni channel", "omnichannel");
             correctionAdd("Omni channel", "omnichannel");
@@ -43031,8 +43047,6 @@ namespace OverflowHelper.core
             correctionAdd("falsey", "falsy");
             correctionAdd("falsi", "falsy");
 
-            correctionAdd("Knowledge Transfer", "knowledge transfer");
-
             correctionAdd("but not least", "last but not least");
             correctionAdd("last, but no least", "last but not least");
             correctionAdd("last, but not least", "last but not least");
@@ -44685,6 +44699,7 @@ namespace OverflowHelper.core
             correctionAdd("determint", "determine");
             correctionAdd("determent", "determine");
             correctionAdd("determin", "determine");
+            correctionAdd("determinate", "determine");
 
             correctionAdd("gcc warning options", "GCC warning options lists");
             correctionAdd("GCC warning options", "GCC warning options lists");
@@ -44953,6 +44968,41 @@ namespace OverflowHelper.core
             correctionAdd("single-event upset", "single-event latchup");
 
             correctionAdd("Spacewire", "SpaceWire");
+
+            correctionAdd("enfore", "enforce");
+            correctionAdd("Enfore", "enforce");
+
+            correctionAdd("splint", "Splint");
+
+            correctionAdd("toolchest", "tool chest");
+            correctionAdd("tool-chest", "tool chest");
+
+            correctionAdd("AWG", "arbitrary waveform generator");
+
+            correctionAdd("bazel", "Bazel");
+
+            correctionAdd("bullingdon club", "Bullingdon Club");
+
+            correctionAdd("Cameron", "David Cameron");
+
+            correctionAdd("International Monetary Fund", "IMF");
+
+            correctionAdd("metaliod", "metalloid");
+
+            correctionAdd("non metal", "nonmetal");
+
+            correctionAdd("The Oxford Union Society", "Oxford Union");
+
+            correctionAdd("particule", "particle");
+
+            correctionAdd("Pekka Pykko", "Pekka Pyykkö");
+
+            correctionAdd("emerge", "Portage");
+            correctionAdd("portage", "Portage");
+
+            correctionAdd("undampened", "undamped");
+
+            correctionAdd("Xenon", "xenon");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70671,6 +70721,38 @@ namespace OverflowHelper.core
 
             URL_Add("SpaceWire", "https://en.wikipedia.org/wiki/SpaceWire");
 
+            URL_Add("enforce", "https://en.wiktionary.org/wiki/enforce#Verb");
+
+            URL_Add("Splint", "http://splint.org/");
+
+            URL_Add("tool chest", "https://en.wiktionary.org/wiki/tool_chest#Noun");
+
+            URL_Add("arbitrary waveform generator", "https://en.wikipedia.org/wiki/Arbitrary_waveform_generator");
+
+            URL_Add("Bazel", "https://en.wikipedia.org/wiki/Bazel_(software)");
+
+            URL_Add("Bullingdon Club", "https://en.wikipedia.org/wiki/Bullingdon_Club");
+
+            URL_Add("David Cameron", "https://en.wikipedia.org/wiki/David_Cameron");
+
+            URL_Add("IMF", "https://en.wikipedia.org/wiki/International_Monetary_Fund");
+
+            URL_Add("metalloid", "https://en.wikipedia.org/wiki/Metalloid");
+
+            URL_Add("nonmetal", "https://en.wiktionary.org/wiki/nonmetal#Noun");
+
+            URL_Add("Oxford Union", "https://en.wikipedia.org/wiki/Oxford_Union");
+
+            URL_Add("particle", "https://en.wiktionary.org/wiki/particle#Noun");
+
+            URL_Add("Pekka Pyykkö", "https://en.wikipedia.org/wiki/Pekka_Pyykk%C3%B6");
+
+            URL_Add("Portage", "https://en.wikipedia.org/wiki/Portage_(software)");
+
+            URL_Add("undamped", "https://en.wiktionary.org/wiki/undamped#Adjective");
+
+            URL_Add("xenon", "https://en.wikipedia.org/wiki/Xenon");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71927,6 +72009,7 @@ namespace OverflowHelper.core
 
             correctionAdd("super-user_", "superuser_");
             correctionAdd("super user_", "superuser_");
+            correctionAdd("Super&nbsp;User_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
 
             correctionAdd("BASE64_", "base64_");
 
@@ -72065,6 +72148,11 @@ namespace OverflowHelper.core
             correctionAdd("suit_", "suite_");
 
             correctionAdd("DevOps_", "DevOps (Stack Exchange site)_");
+
+            correctionAdd("mercury_", "Mercury_");
+
+            correctionAdd("mixed signal oscilloscope_", "mixed-signal oscilloscope_");
+            correctionAdd("MSO_", "mixed-signal oscilloscope_");
 
             // URL mappings
             //
@@ -72862,6 +72950,10 @@ namespace OverflowHelper.core
             URL_Add("DevOps (Stack Exchange site)_", "https://devops.stackexchange.com/tour");
 
             URL_Add("Amazon S3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/amazon-s3");
+
+            URL_Add("Mercury_", "https://en.wikipedia.org/wiki/Mercury_(planet)");
+
+            URL_Add("mixed-signal oscilloscope_", "https://en.wikipedia.org/wiki/Oscilloscope#Mixed-signal_oscilloscopes");
 
         } //addLookupData_alternativeWordSet()
 
