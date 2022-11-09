@@ -1063,6 +1063,7 @@ namespace OverflowHelper.core
             correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
             correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
             correctionAdd("ECMA script 5", "ECMAScript&nbsp;5");
+            correctionAdd("ecmascript 5", "ECMAScript&nbsp;5");
 
             correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
             correctionAdd("es6", "ECMAScript&nbsp;2015");
@@ -2673,6 +2674,7 @@ namespace OverflowHelper.core
             correctionAdd("dbs", "database");
             correctionAdd("Data Base", "database");
             correctionAdd("datebase", "database");
+            correctionAdd("Databse", "database");
 
             correctionAdd("normalization", "database normalization");
             correctionAdd("Normalization", "database normalization");
@@ -3452,12 +3454,12 @@ namespace OverflowHelper.core
             correctionAdd("PERL", "Perl");
             correctionAdd("Pearl", "Perl");
 
-            correctionAdd("--Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
-
-            correctionAdd("--ftime-trace", "-ftime-trace (Clang)");
-
             correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
-            correctionAdd("--fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
+            correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
+
+            correctionAdd("-ftime-trace", "-ftime-trace (Clang)");
+
+            correctionAdd("-Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
 
             // Now used for PowerShell:
             //
@@ -4441,6 +4443,7 @@ namespace OverflowHelper.core
             correctionAdd("outpout", "output");
             correctionAdd("oupt", "output");
             correctionAdd("outpot", "output");
+            correctionAdd("0/p", "output");
 
             correctionAdd("oprofile", "OProfile");
             correctionAdd("Oprofile", "OProfile");
@@ -9194,6 +9197,7 @@ namespace OverflowHelper.core
             correctionAdd("behavior", "behaviour");
             correctionAdd("bahaviour", "behaviour");
             correctionAdd("vehaviour", "behaviour");
+            correctionAdd("behaveour", "behaviour");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -9426,6 +9430,8 @@ namespace OverflowHelper.core
             correctionAdd("wihtout", "without");
             correctionAdd("withought", "without");
             correctionAdd("whiout", "without");
+            correctionAdd("whithoub", "without");
+            correctionAdd("withoub", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -11591,6 +11597,7 @@ namespace OverflowHelper.core
             correctionAdd("sofeware", "software");
             correctionAdd("Software", "software");
             correctionAdd("sotfware", "software");
+            correctionAdd("S/w", "software");
 
             correctionAdd("HW", "hardware");
             correctionAdd("hw", "hardware");
@@ -11724,6 +11731,7 @@ namespace OverflowHelper.core
             correctionAdd("Two's complement", "two's complement");
             correctionAdd("2nd complement", "two's complement");
             correctionAdd("2 complement", "two's complement");
+            correctionAdd("two's complemnt", "two's complement");
 
             correctionAdd("Google play", "Google Play");
             correctionAdd("google play", "Google Play");
@@ -11834,6 +11842,8 @@ namespace OverflowHelper.core
             correctionAdd("immediatety", "immediately");
             correctionAdd("immedidately", "immediately");
             correctionAdd("immidietaly", "immediately");
+            correctionAdd("Immeadiatley", "immediately");
+            correctionAdd("immeadiatley", "immediately");
 
             correctionAdd("InnoSetup", "Inno Setup");
             correctionAdd("innosetup", "Inno Setup");
@@ -14812,6 +14822,7 @@ namespace OverflowHelper.core
             correctionAdd("Down Vote", "downvote");
             correctionAdd("Down-vote", "downvote");
             correctionAdd("downmod", "downvote");
+            correctionAdd("mod down", "downvote");
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
@@ -16112,6 +16123,7 @@ namespace OverflowHelper.core
             correctionAdd("OT", "off-topic");
             correctionAdd("Off Topic", "off-topic");
             correctionAdd("out of topic", "off-topic");
+            correctionAdd("Off-topic", "off-topic");
 
             correctionAdd("prefered", "preferred");
             correctionAdd("preffered", "preferred");
@@ -16344,6 +16356,7 @@ namespace OverflowHelper.core
             correctionAdd("cmakelists", "CMakeLists.txt");
             correctionAdd("CMakeList", "CMakeLists.txt");
             correctionAdd("CMakeList.txt", "CMakeLists.txt");
+            correctionAdd("CMakelists.txt", "CMakeLists.txt");
 
             correctionAdd("fpu", "FPU");
 
@@ -17703,6 +17716,7 @@ namespace OverflowHelper.core
 
             correctionAdd("familar", "familiar");
             correctionAdd("familier", "familiar");
+            correctionAdd("fimilliar", "familiar");
 
             correctionAdd("IIUC", "if I understand correctly");
 
@@ -24452,6 +24466,7 @@ namespace OverflowHelper.core
 
             correctionAdd("elce", "else");
             correctionAdd("elss", "else");
+            correctionAdd("ells", "else");
 
             correctionAdd("google cloud", "Google Cloud Platform");
             correctionAdd("g cloud", "Google Cloud Platform");
@@ -28342,6 +28357,7 @@ namespace OverflowHelper.core
             correctionAdd("Nothimg", "nothing");
             correctionAdd("Nothing", "nothing");
             correctionAdd("nothimg", "nothing");
+            correctionAdd("notheing", "nothing");
 
             correctionAdd("off the cuff", "off-the-cuff");
             correctionAdd("Off the cuff", "off-the-cuff");
@@ -29762,6 +29778,7 @@ namespace OverflowHelper.core
             correctionAdd("thnik", "think");
             correctionAdd("THink", "think");
             correctionAdd("Think", "think");
+            correctionAdd("hink", "think");
 
             correctionAdd("thinkpad", "ThinkPad");
             correctionAdd("IBM Stinkpad", "ThinkPad");
@@ -30449,6 +30466,7 @@ namespace OverflowHelper.core
             correctionAdd("ul", "UL");
 
             correctionAdd("WOL", "Wake-on-LAN");
+            correctionAdd("wake on LAN", "Wake-on-LAN");
 
             correctionAdd("bigfer", "bigger");
 
@@ -33973,6 +33991,7 @@ namespace OverflowHelper.core
             correctionAdd("white board", "whiteboard");
 
             correctionAdd("resuts", "results");
+            correctionAdd("resulats", "results");
 
             correctionAdd("kenya", "Kenya");
 
@@ -35731,6 +35750,7 @@ namespace OverflowHelper.core
             correctionAdd("inlcude", "include");
             correctionAdd("inculde", "include");
             correctionAdd("inculude", "include");
+            correctionAdd("incluede", "include");
 
             correctionAdd("Launchd", "launchd");
 
@@ -37740,6 +37760,7 @@ namespace OverflowHelper.core
             correctionAdd("snippets", "Stack Snippets");
             correctionAdd("code snipets", "Stack Snippets");
             correctionAdd("code snippets", "Stack Snippets");
+            correctionAdd("SO Snippet", "Stack Snippets");
 
             correctionAdd("functionning", "functioning");
 
@@ -41484,6 +41505,7 @@ namespace OverflowHelper.core
 
             correctionAdd("coersion", "coercion");
             correctionAdd("coercien", "coercion");
+            correctionAdd("coeercion", "coercion");
 
             correctionAdd("gate keeping", "gatekeeping");
 
@@ -43443,6 +43465,7 @@ namespace OverflowHelper.core
             correctionAdd("java 11", "Java&nbsp;11");
             correctionAdd("JAVA 11", "Java&nbsp;11");
             correctionAdd("java11", "Java&nbsp;11");
+            correctionAdd("java-11", "Java&nbsp;11");
 
             correctionAdd("CNN", "convolutional neural network");
             correctionAdd("ConvNet", "convolutional neural network");
@@ -44085,6 +44108,7 @@ namespace OverflowHelper.core
 
             correctionAdd("markdown tables", "Markdown tables");
             correctionAdd("markdown table", "Markdown tables");
+            correctionAdd("Markdown table", "Markdown tables");
 
             correctionAdd("obsidian", "Obsidian");
 
@@ -45170,6 +45194,49 @@ namespace OverflowHelper.core
             correctionAdd("strftime", "strftime()");
 
             correctionAdd("utf8_encode", "utf8_encode()");
+
+            correctionAdd("chatroom", "chat room");
+            correctionAdd("chat-room", "chat room");
+
+            correctionAdd("difficultes", "difficulties");
+            correctionAdd("difficults", "difficulties");
+            correctionAdd("dificults", "difficulties");
+
+            correctionAdd("non-instrumented", "noninstrumented");
+            correctionAdd("non instrumented", "noninstrumented");
+
+            correctionAdd("pyautogui", "PyAutoGUI");
+
+            correctionAdd("scrutinsing", "scrutinising");
+
+            correctionAdd("trollers", "troll");
+            correctionAdd("trolls", "troll");
+
+            correctionAdd("bitshift", "bit shift");
+
+            correctionAdd("fastes", "fastest");
+
+            correctionAdd("oincidentally", "coincidentally");
+
+            correctionAdd("comma splice", "comma splicing");
+
+            correctionAdd("discrepansy", "discrepancy");
+
+            correctionAdd("foot-hold", "foothold");
+
+            correctionAdd("PineScript", "Pine Script");
+
+            correctionAdd("Jeff Atwood's giant S", "Pluralization Bug");
+            correctionAdd("giant S", "Pluralization Bug");
+            correctionAdd("giant s", "Pluralization Bug");
+
+            correctionAdd("Sentence Casing", "sentence casing");
+
+            correctionAdd("smothen", "smoothen");
+
+            correctionAdd("stop loss", "stop-loss order");
+
+            correctionAdd("zoneddatetime", "ZonedDateTime");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -70488,8 +70555,6 @@ namespace OverflowHelper.core
 
             URL_Add("-Wold-style-definition", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wold-style-definition");
 
-            URL_Add("-Wreturn-stack-address (Clang)", "https://clang.llvm.org/docs/DiagnosticsReference.html#wreturn-stack-address");
-
             URL_Add("-Wstrict-aliasing", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing");
 
             URL_Add("LLVM intermediate representation", "https://en.wikipedia.org/wiki/LLVM#Intermediate_representation");
@@ -70836,8 +70901,6 @@ namespace OverflowHelper.core
 
             URL_Add("the Roomba", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
 
-            URL_Add("-ftime-trace (Clang)", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-ftime-trace");
-
             URL_Add("instantiation", "https://en.wiktionary.org/wiki/instantiation#Noun");
 
             URL_Add("Steven Watanabe", "https://www.boost.org/doc/libs/1_72_0/doc/html/boost_random.html");
@@ -70985,6 +71048,46 @@ namespace OverflowHelper.core
             URL_Add("strftime()", "https://www.php.net/manual/en/function.strftime.php");
 
             URL_Add("utf8_encode()", "https://www.php.net/manual/en/function.utf8-encode.php");
+
+            URL_Add("-ftime-trace (Clang)", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-ftime-trace");
+
+            URL_Add("-Wreturn-stack-address (Clang)", "https://clang.llvm.org/docs/DiagnosticsReference.html#wreturn-stack-address");
+
+            URL_Add("chat room", "https://en.wiktionary.org/wiki/chat_room#Noun");
+
+            URL_Add("difficulties", "https://en.wiktionary.org/wiki/difficulty#Noun");
+
+            URL_Add("noninstrumented", "https://en.wiktionary.org/wiki/noninstrumented#Adjective");
+
+            URL_Add("PyAutoGUI", "https://pyautogui.readthedocs.io/en/latest/");
+
+            URL_Add("scrutinising", "https://en.wiktionary.org/wiki/scrutinise#Verb");
+
+            URL_Add("troll", "https://en.wiktionary.org/wiki/troll#Noun_2");
+
+            URL_Add("bit shift", "https://en.wiktionary.org/wiki/bit_shift#Noun");
+
+            URL_Add("fastest", "https://en.wiktionary.org/wiki/fastest#Adjective");
+
+            URL_Add("coincidentally", "https://en.wiktionary.org/wiki/coincidentally#Adverb");
+
+            URL_Add("comma splicing", "https://stackoverflow.design/content/guidelines/grammar-and-mechanics/#commas");
+
+            URL_Add("discrepancy", "https://en.wiktionary.org/wiki/discrepancy#Noun");
+
+            URL_Add("foothold", "https://en.wiktionary.org/wiki/foothold#Noun");
+
+            URL_Add("Pine Script", "https://stackoverflow.com/tags/pine-script/info");
+
+            URL_Add("Pluralization Bug", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/63791#63791");
+
+            URL_Add("sentence casing", "https://stackoverflow.design/content/guidelines/grammar-and-mechanics/");
+
+            URL_Add("smoothen", "https://en.wiktionary.org/wiki/smoothen#Verb");
+
+            URL_Add("stop-loss order", "https://en.wikipedia.org/wiki/Order_(exchange)#Stop_orders");
+
+            URL_Add("ZonedDateTime", "https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -71359,6 +71462,7 @@ namespace OverflowHelper.core
             correctionAdd("Mathmatics_", "mathematics_");
             correctionAdd("mathmatics_", "mathematics_");
             correctionAdd("Mathemetics_", "mathematics_");
+            correctionAdd("Maths_", "mathematics_");
 
             correctionAdd("Physics SE_", "Physics (Stack Exchange site)_");
             correctionAdd("physics SE_", "Physics (Stack Exchange site)_");
@@ -72406,6 +72510,18 @@ namespace OverflowHelper.core
 
             correctionAdd("formular_", "form_");
 
+            correctionAdd("clang_", "clang(1)_");
+
+            correctionAdd("-c_", "-c (Clang)_");
+
+            correctionAdd("-l_", "-l (Clang)_");
+
+            correctionAdd("-o_", "-o (Clang)_");
+
+            correctionAdd("iPA_", "IPA_");
+
+            correctionAdd("TV_", "TradingView_");
+
             // URL mappings
             //
             //
@@ -73222,6 +73338,18 @@ namespace OverflowHelper.core
             URL_Add("serial receive I/O pin_", "https://en.wikipedia.org/wiki/RS-232#Pinouts");
 
             URL_Add("form_", "https://en.wikipedia.org/wiki/HTML_form");
+
+            URL_Add("clang(1)_", "https://linux.die.net/man/1/clang");
+
+            URL_Add("-c (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-c");
+
+            URL_Add("-l (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-l-arg");
+
+            URL_Add("-o (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang1-o-file");
+
+            URL_Add("IPA_", "https://en.wikipedia.org/wiki/.ipa");
+
+            URL_Add("TradingView_", "https://stackoverflow.com/tags/pine-script/info");
 
         } //addLookupData_alternativeWordSet()
 
