@@ -29,6 +29,18 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+# Otherwise we get:
+#
+#   E0602: Undefined variable 'By' (undefined-variable)
+#
+from selenium.webdriver.common.by import By
+
+# Otherwise we get:
+#
+#   E0602: Undefined variable 'NoSuchElementException' (undefined-variable)
+#
+from selenium.common.exceptions import NoSuchElementException
+
 #Not used (delete?)
 #from selenium.webdriver.common.action_chains import ActionChains
 #from selenium.webdriver.common.by import By
@@ -114,7 +126,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # current HTML form and submit the form
     # (by the default action). If we need
     # to change more than one field, then
-    # set them using XXXX() before
+    # set them using XXX() before
     # calling this one.
     #
     # This one is independent of Edit Overflow - indicated
@@ -162,11 +174,59 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # by the prefix "core" (and thus a candidate to be
     # moved to a more general place).
     #
+    #Why do we need this one??? _core_setField() seems
+    #almost identical (redundancy).
+    #
     def _core_setHTML_textField(self, aFieldID, aText):
 
         lookUpElement = self.browser.find_element_by_name(aFieldID)
         lookUpElement.clear()
         lookUpElement.send_keys(aText)
+
+
+    # Helper function for testing.
+    #
+    # Purpose:
+    #
+    #   Hide that Selenium throws an exception when an element does not
+    #   exist. There doesn't seem to be a system way to just check
+    #   if an element exists or not.
+    #
+    #   Ref.: <https://stackoverflow.com/a/9587938>. Note that most
+    #         of the other answers seem to be plain wroing.
+    #
+    #   Note that the plural forms, which don't throw
+    #   exceptions, have been removed in Selenium.
+    #   Ref.: <https://stackoverflow.com/q/30002313/#comment128785684_30025430>.
+    #
+    # This one is independent of Edit Overflow - indicated
+    # by the prefix "core" (and thus a candidate to be
+    # moved to a more general place).
+    #
+    def _core_elementExists(self, aFieldID):
+
+        toReturn = True
+
+        # Rely on an exception being thrown if it doesn't
+        # exist. Conversely, there doesn't seem to be a
+        # way to avoid the exception.
+        try:
+            
+            # Notes: By.ID requires an import, otherwise the result is:
+            #
+            #          "web_regress.py:271:50: E0602: Undefined
+            #          variable 'By' (undefined-variable)"
+            #
+            #        Other possible values are "By.NAME" and By.XPATH. E.g.:
+            #
+            #          res3 = self.browser.find_element(By.XPATH, '//*[@id="1002"]')
+            #
+            self.browser.find_element(By.ID, aFieldID)
+
+        except NoSuchElementException:
+            toReturn = False
+
+        return toReturn
 
 
     #########################################################################
@@ -216,7 +276,19 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Submitting a term to Edit Overflow for web and
     # checking that the result is as expected
     #
-    def _lookUp(self, aLookUpTerm, aExpectedEditSummary, anExplanation):
+    # Parameters
+    #
+    #    anAlternativeLinkText:
+    #
+    #      The link text from the HTML link that appears if a term
+    #      is also in the alternative word. This is entirely
+    #      dependent on the current content of the word list.
+    #
+    #      Example: For correct word "PHP", the link text is
+    #               "PHP (tag wiki)" (a correct word in the
+    #               alternative word set).
+    #
+    def _lookUp(self, aLookUpTerm, aExpectedEditSummary, anExplanation, anAlternativeLinkText):
 
         self._submitTerm(aLookUpTerm)
 
@@ -227,6 +299,59 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._checkEditSummary(aExpectedEditSummary, anExplanation)
 
         #time.sleep(3.0) # Not really necessary
+        
+        # Notes: 
+        #
+        #   1) Selenium functions find_element_by_id(), 
+        #      find_element_by_name(), find_element(), etc.
+        #      throw an exception if the element does not exist 
+        #      (this is sometimes the case for the Edit Overflow 
+        #      lookup result page (the existence of that particular 
+        #      elements depends on the input data)), e.g.:
+        #
+        #         selenium.common.exceptions.NoSuchElementException: 
+        #         Message: Unable to locate element: [id="1002"]
+        #
+        #   2) The plural functions, e.g. findElements_by_id(), that
+        #      don't throw exceptions have been removed in later
+        #      versions Selenium.
+
+        lookupReference = " for lookup word " + aLookUpTerm + "."
+
+        linkText = ""
+        
+        # 1002 and 1003 are IDs for the two possible HTML <a> elements 
+        # for cross links to the alternative word set. 0, 1, or 2 may 
+        # be present on a particular Edit Overflow lookup result page.
+        #
+        isAlternativeIsPresent1 = self._core_elementExists("1002")
+        isAlternativeIsPresent2 = self._core_elementExists("1003")
+
+        if isAlternativeIsPresent1:
+
+            foundElement = self.browser.find_element(By.ID, "1002")
+            linkText = foundElement.text
+
+        # For now: Override, if the other exists. Thus we can not
+        #          really handle two alternatives at the moment.
+        if isAlternativeIsPresent2:
+
+            foundElement = self.browser.find_element(By.ID, "1003")
+            linkText = foundElement.text
+
+        if linkText != "":
+
+            self.assertEqual(linkText,
+                             anAlternativeLinkText,
+                             "Wrong cross reference text" +
+                               lookupReference)
+        else:
+
+            self.assertEqual("",
+                             anAlternativeLinkText,
+                             "Missing expected cross reference to " +
+                               "the alternative word set" +
+                               lookupReference)
 
 
     # =======================================================================
@@ -498,7 +623,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #    1. We currently only test the output for the
     #       inline Markdown link.
     #
-    #    2. XXXX
+    #    2. XXX
     #
     def _linkBuild(self,
                    aURL,
@@ -577,7 +702,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # First direct lookup with a known incorrect term
             self._lookUp("python",
                          firstRealLookup_editSummary,
-                         defaultMsgForEditSummary)
+                         defaultMsgForEditSummary,
+                         "Python (tag wiki)")
 
         if True: # Test a failed lookup.
 
@@ -587,7 +713,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #
             self._lookUp("PHP__Z",
                         firstRealLookup_editSummary,
-                        'Changed edit summary for a failed Edit Overflow lookup')
+                        'Changed edit summary for a failed Edit Overflow lookup',
+                        "")
 
         if True: # Lookup ***after a failed*** lookup.
 
@@ -595,7 +722,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # correct term (identity mapping)
             self._lookUp("until",
                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
-                        defaultMsgForEditSummary + 'for looking up a ***correct*** term')
+                        defaultMsgForEditSummary + 'for looking up a ***correct*** term',
+                        "")
 
         if True: # Test clearing the edit summary state (user controlled
                  # by checkbox "Reset lookup state")
@@ -609,7 +737,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #
             self._lookUp("php",
                          singleLookup_editSummary_PHP,
-                         defaultMsgForEditSummary)
+                         defaultMsgForEditSummary,
+                         "PHP (tag wiki)")
 
 
         if True: # Do a ***failing lookup*** after a reset - we had a
@@ -622,14 +751,15 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #
             self._lookUp("PHP__Z",
                          singleLookup_editSummary_PHP,
-                         defaultMsgForEditSummary)
+                         defaultMsgForEditSummary,
+                         "")
 
 
         if True: # Test clearing the edit summary state and with
                  # an initial lookup of an unknown term
 
             self._setCheckbox("resetState")
-            self._lookUp("PHP__Z", "", defaultMsgForEditSummary)
+            self._lookUp("PHP__Z", "", defaultMsgForEditSummary, "")
 
 
         if True: #
@@ -643,7 +773,36 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             self._lookUp("*nix",
                          "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
-                         defaultMsgForEditSummary)
+                         defaultMsgForEditSummary,
+                         "")
+
+
+        #This test could be a separate test... It doesn't need to be here.
+        if True: # Test an expected cross reference (in
+                 # the alternative word set)
+                 #
+                 # This tests that "&" isn't HTML entity encoded at
+                 # the wrong time... (It should be in the rendered
+                 # HTML, but not when used for the cross lookup).
+
+            self._setCheckbox("resetState")
+            self._lookUp("SU",
+                         "Active reading [<https://superuser.com/tour>].",
+                         defaultMsgForEditSummary,
+                         "superuser")
+
+        #This test could be a separate test... It doesn't need to be here.
+        if True: # Test an expected cross reference (in
+                 # the alternative word set)
+                 #
+                 # This tests particular expected content of the
+                 # word list
+
+            self._setCheckbox("resetState")
+            self._lookUp("Microsoft Azure",
+                         "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
+                         defaultMsgForEditSummary,
+                         "Azure (tag wiki)")
 
 
     # Helper function for testing
@@ -717,7 +876,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         # "php"
         self._mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php')
         #pass
-
 
 
 
