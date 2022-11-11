@@ -1632,6 +1632,7 @@ namespace OverflowHelper.core
             correctionAdd("web-server", "web server");
             correctionAdd("Webserver", "web server");
             correctionAdd("Web server", "web server");
+            correctionAdd("web serber", "web server");
 
             correctionAdd("webservers", "web servers");
 
@@ -4729,6 +4730,7 @@ namespace OverflowHelper.core
             correctionAdd("img", "image");
             correctionAdd("Image", "image");
             correctionAdd("imge", "image");
+            correctionAdd("Img", "image");
 
             correctionAdd("abble", "able");
             correctionAdd("ale", "able");
@@ -6581,6 +6583,8 @@ namespace OverflowHelper.core
             correctionAdd("xpath", "XPath");
             correctionAdd("Xpath", "XPath");
             correctionAdd("XPATH", "XPath");
+            correctionAdd("Xath", "XPath");
+            correctionAdd("xPath", "XPath");
 
             correctionAdd("repl", "REPL");
             correctionAdd("RPEL", "REPL");
@@ -15206,6 +15210,7 @@ namespace OverflowHelper.core
             correctionAdd("hireachy", "hierarchy");
             correctionAdd("hiareachy", "hierarchy");
             correctionAdd("hierchy", "hierarchy");
+            correctionAdd("Hierarchy", "hierarchy");
 
             correctionAdd("netduiono", "Netduino");
 
@@ -15794,6 +15799,7 @@ namespace OverflowHelper.core
             correctionAdd("you re", "you’re");
             correctionAdd("you're", "you’re");
             correctionAdd("You're", "you’re");
+            correctionAdd("Youre", "you’re");
 
             correctionAdd("no one knows you're a dog", "On the Internet, nobody knows you’re a dog");
             correctionAdd("On the Internet, nobody knows you're a dog", "On the Internet, nobody knows you’re a dog");
@@ -25715,6 +25721,7 @@ namespace OverflowHelper.core
             correctionAdd("esl", "ESL");
 
             correctionAdd("depriciation", "deprecation");
+            correctionAdd("depreciation", "deprecation");
 
             correctionAdd("publically", "publicly");
             correctionAdd("pubically", "publicly");
@@ -26018,6 +26025,7 @@ namespace OverflowHelper.core
             correctionAdd("imbedded", "embedded");
 
             correctionAdd("Factory Pattern", "factory pattern");
+            correctionAdd("fabrique method", "factory pattern");
 
             correctionAdd("flakey", "flaky");
 
@@ -28660,6 +28668,13 @@ namespace OverflowHelper.core
             correctionAdd("Mthod", "method");
             correctionAdd("mthod", "method");
             correctionAdd("methond", "method");
+
+            correctionAdd("methos", "methods");
+            correctionAdd("metods", "methods");
+
+            correctionAdd("Runge-Kutta", "Runge–Kutta methods");
+
+            correctionAdd("methdologies", "methodologies");
 
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
@@ -32361,8 +32376,6 @@ namespace OverflowHelper.core
             correctionAdd("back yard", "backyard");
 
             correctionAdd("life span", "lifespan");
-
-            correctionAdd("methdologies", "methodologies");
 
             correctionAdd("primarilly", "primarily");
 
@@ -41765,8 +41778,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sync'ing", "synchronising");
 
-            correctionAdd("Runge-Kutta", "Runge–Kutta methods");
-
             correctionAdd("TWiT.tv", "TWiT");
             correctionAdd("Twit", "TWiT");
 
@@ -45115,6 +45126,8 @@ namespace OverflowHelper.core
 
             correctionAdd("enfore", "enforce");
             correctionAdd("Enfore", "enforce");
+            correctionAdd("Enforcce", "enforce");
+            correctionAdd("enforcce", "enforce");
 
             correctionAdd("splint", "Splint");
 
@@ -45237,6 +45250,32 @@ namespace OverflowHelper.core
             correctionAdd("stop loss", "stop-loss order");
 
             correctionAdd("zoneddatetime", "ZonedDateTime");
+
+            correctionAdd("infantilized", "infantilised");
+
+            correctionAdd("parody", "parity");
+
+            correctionAdd("subovlumes", "subvolumes");
+
+            correctionAdd("herschel walker", "Herschel Walker");
+
+            correctionAdd("Warnock", "Raphael Warnock");
+
+            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
+            correctionAdd("AME", "Aviation Medical Examiner");
+
+            correctionAdd("cronjob", "cron job");
+
+            correctionAdd("cross browser", "cross-browser");
+
+            correctionAdd("multi-lingual", "multilingual");
+
+            correctionAdd("Playstation", "PlayStation");
+
+            correctionAdd("scheddule", "schedule");
+            correctionAdd("Scheddule", "schedule");
+
+            correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71089,6 +71128,32 @@ namespace OverflowHelper.core
 
             URL_Add("ZonedDateTime", "https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html");
 
+            URL_Add("infantilised", "https://en.wiktionary.org/wiki/infantilise#Verb");
+
+            URL_Add("methods", "https://en.wiktionary.org/wiki/method#Noun");
+
+            URL_Add("parity", "https://en.wiktionary.org/wiki/parity#Noun");
+
+            URL_Add("subvolumes", "https://en.wiktionary.org/wiki/subvolume#Noun");
+
+            URL_Add("Herschel Walker", "https://en.wikipedia.org/wiki/Herschel_Walker");
+
+            URL_Add("Raphael Warnock", "https://en.wikipedia.org/wiki/Raphael_Warnock");
+
+            URL_Add("Aviation Medical Examiner", "https://en.wikipedia.org/wiki/Aviation_medical_examiner");
+
+            URL_Add("cron job", "https://en.wikipedia.org/wiki/Cron");
+
+            URL_Add("cross-browser", "https://en.wikipedia.org/wiki/Cross-browser_compatibility");
+
+            URL_Add("multilingual", "https://en.wiktionary.org/wiki/multilingual#Adjective");
+
+            URL_Add("PlayStation", "https://en.wikipedia.org/wiki/PlayStation");
+
+            URL_Add("schedule", "https://en.wiktionary.org/wiki/schedule#Verb");
+
+            URL_Add("Virtual Air Traffic Simulation Network", "https://en.wikipedia.org/wiki/Virtual_Air_Traffic_Simulation_Network");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71411,6 +71476,7 @@ namespace OverflowHelper.core
             correctionAdd("karnaugh map_", "Karnaugh map_");
 
             correctionAdd("advices_", "advice_");
+            correctionAdd("advise_", "advice_");
 
             correctionAdd("MSE_", "mean squared error_");
             correctionAdd("Mean Squares Error_", "mean squared error_");
@@ -71519,6 +71585,15 @@ namespace OverflowHelper.core
             correctionAdd("team foundation server_", "Team Foundation Server_");
             correctionAdd("Azure DevOps Server_", "Team Foundation Server_");
 
+            correctionAdd("AKS_", "Azure Kubernetes Service_");
+            correctionAdd("aks_", "Azure Kubernetes Service_");
+
+            correctionAdd("Azure Sql Managed Instance_", "Azure SQL Managed Instance_");
+            correctionAdd("mi_", "Azure SQL Managed Instance_");
+            correctionAdd("Sql mi_", "Azure SQL Managed Instance_");
+            correctionAdd("sql mi_", "Azure SQL Managed Instance_");
+            correctionAdd("sql mi managed instance_", "Azure SQL Managed Instance_");
+
             correctionAdd("coce_", "code_");
             correctionAdd("Coce_", "code_");
             correctionAdd("Code_", "code_");
@@ -71554,9 +71629,6 @@ namespace OverflowHelper.core
             correctionAdd("PE_", "potential energy_");
 
             correctionAdd("boderline_", "borderline_");
-
-            correctionAdd("AKS_", "Azure Kubernetes Service_");
-            correctionAdd("aks_", "Azure Kubernetes Service_");
 
             correctionAdd("MO_", "molecular orbital_");
 
@@ -71822,12 +71894,6 @@ namespace OverflowHelper.core
             correctionAdd("qota_", "quota_");
 
             correctionAdd("qotas_", "quotas_");
-
-            correctionAdd("Azure Sql Managed Instance_", "Azure SQL Managed Instance_");
-            correctionAdd("mi_", "Azure SQL Managed Instance_");
-            correctionAdd("Sql mi_", "Azure SQL Managed Instance_");
-            correctionAdd("sql mi_", "Azure SQL Managed Instance_");
-            correctionAdd("sql mi managed instance_", "Azure SQL Managed Instance_");
 
             correctionAdd("Graphene_", "Graphene-Python_");
             correctionAdd("graphene_", "Graphene-Python_");
@@ -72182,10 +72248,6 @@ namespace OverflowHelper.core
             correctionAdd("Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
             correctionAdd("Google Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
 
-            correctionAdd("[tag:kali-linux]_", "Kali Linux (tag wiki)_");
-            correctionAdd("kali-linux_", "Kali Linux (tag wiki)_");
-            correctionAdd("Kali Linux_", "Kali Linux (tag wiki)_");
-
             correctionAdd("[tag:gcc]_", "GCC (tag wiki)_");
             correctionAdd("gcc_", "GCC (tag wiki)_");
             correctionAdd("GCC_", "GCC (tag wiki)_");
@@ -72198,10 +72260,6 @@ namespace OverflowHelper.core
             correctionAdd("[tag:kubernetes]_", "Kubernetes (tag wiki)_");
             correctionAdd("kubernetes_", "Kubernetes (tag wiki)_");
             correctionAdd("Kubernetes_", "Kubernetes (tag wiki)_");
-
-            correctionAdd("[tag:windows-azure]_", "Windows Azure (tag wiki)_");
-            correctionAdd("windows-azure_", "Windows Azure (tag wiki)_");
-            correctionAdd("Windows Azure_", "Windows Azure (tag wiki)_");
 
             correctionAdd("[tag:webrtc]_", "WebRTC (tag wiki)_");
             correctionAdd("webrtc_", "WebRTC (tag wiki)_");
@@ -72226,6 +72284,19 @@ namespace OverflowHelper.core
             correctionAdd("[tag:opengl]_", "OpenGL (tag wiki)_");
             correctionAdd("opengl_", "OpenGL (tag wiki)_");
             correctionAdd("OpenGL_", "OpenGL (tag wiki)_");
+
+            correctionAdd("[tag:kali-linux]_", "Kali Linux (tag wiki)_");
+            correctionAdd("kali-linux_", "Kali Linux (tag wiki)_");
+            correctionAdd("Kali Linux_", "Kali Linux (tag wiki)_");
+
+            correctionAdd("[tag:linux]_", "Linux (tag wiki)_");
+            correctionAdd("linux_", "Linux (tag wiki)_");
+            correctionAdd("Linux_", "Linux (tag wiki)_");
+
+            correctionAdd("[tag:azure]_", "Azure (tag wiki)_");
+            correctionAdd("azure_", "Azure (tag wiki)_");
+            correctionAdd("Azure_", "Azure (tag wiki)_");
+            correctionAdd("Microsoft Azure_", "Azure (tag wiki)_");
 
             correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
@@ -72342,6 +72413,8 @@ namespace OverflowHelper.core
             correctionAdd("proof_", "prove_");
 
             correctionAdd("mqke_", "make_");
+            correctionAdd("Makre_", "make_");
+            correctionAdd("makre_", "make_");
 
             correctionAdd("won_", "own_");
 
@@ -72490,7 +72563,7 @@ namespace OverflowHelper.core
 
             correctionAdd("super-user_", "superuser_");
             correctionAdd("super user_", "superuser_");
-            correctionAdd("Super&nbsp;User_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
+            correctionAdd("Super&nbsp;User (Stack Exchange site)_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
 
             correctionAdd("libsvm_", "LIBSVM_");
 
@@ -72521,6 +72594,9 @@ namespace OverflowHelper.core
             correctionAdd("iPA_", "IPA_");
 
             correctionAdd("TV_", "TradingView_");
+
+            correctionAdd("fast forward_", "fast-forward_");
+            correctionAdd("ff_", "fast-forward_");
 
             // URL mappings
             //
@@ -73275,8 +73351,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kubernetes (tag wiki)_", "https://stackoverflow.com/questions/tagged/kubernetes");
 
-            URL_Add("Windows Azure (tag wiki)_", "https://stackoverflow.com/questions/tagged/windows-azure");
-
             URL_Add("Tuesday_", "https://en.wiktionary.org/wiki/Tuesday#Noun");
 
             URL_Add("Wednesday_", "https://en.wiktionary.org/wiki/Wednesday#Noun");
@@ -73350,6 +73424,12 @@ namespace OverflowHelper.core
             URL_Add("IPA_", "https://en.wikipedia.org/wiki/.ipa");
 
             URL_Add("TradingView_", "https://stackoverflow.com/tags/pine-script/info");
+
+            URL_Add("fast-forward_", "https://stackoverflow.com/questions/29673869/what-is-git-fast-forwarding");
+
+            URL_Add("Linux (tag wiki)_", "https://stackoverflow.com/questions/tagged/linux");
+
+            URL_Add("Azure (tag wiki)_", "https://stackoverflow.com/questions/tagged/azure");
 
         } //addLookupData_alternativeWordSet()
 
