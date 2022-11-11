@@ -14334,6 +14334,7 @@ namespace OverflowHelper.core
             correctionAdd("dowsnt", "doesn’t");
             correctionAdd("dosn’t", "doesn’t");
             correctionAdd("Doesn't", "doesn’t");
+            correctionAdd("doent", "doesn’t");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -45277,6 +45278,11 @@ namespace OverflowHelper.core
 
             correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
 
+            correctionAdd("bellongs", "belong");
+            correctionAdd("bellong", "belong");
+
+            correctionAdd("logtrail", "LogTrail");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -71153,6 +71159,10 @@ namespace OverflowHelper.core
             URL_Add("schedule", "https://en.wiktionary.org/wiki/schedule#Verb");
 
             URL_Add("Virtual Air Traffic Simulation Network", "https://en.wikipedia.org/wiki/Virtual_Air_Traffic_Simulation_Network");
+
+            URL_Add("belong", "https://en.wiktionary.org/wiki/belong#Verb");
+
+            URL_Add("LogTrail", "https://github.com/sivasamyk/logtrail");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
