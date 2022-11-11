@@ -22,13 +22,17 @@
                 return substr($aString, 0, strlen($aString) - 1);
             } #stripTrailingSlash()
 
-            function alternativeLink($anIncorrectTerm, $aCorrectTerm)
+            function alternativeLink($anIncorrectTerm,
+                                      $aCorrectTerm,
+                                      $anID)
             {
                 #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
                 $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
                 return
-                    "<a href=" .
+                    "<a " .
+                    "href=" .
                     "\"$baseURL&LookUpTerm=$anIncorrectTerm\"" .
+                    " id=\"$anID\"" .
                     ">" . stripTrailingSlash($aCorrectTerm) . "</a>";
             } #alternativeLink()
 
@@ -45,9 +49,9 @@
                   " WHERE incorrectTerm = "
                   ;
 
-                if ($aLookupTerm !== '')  # Accepting empty strings as
-                                          # lookup. They will treated
-                                          # as failed lookups.
+                if ($aLookupTerm !== '')  # Accepting empty strings as lookup.
+                                          # They will be treated as failed
+                                          # lookups.
                 {
                     $statement = $aPDO->prepare($SQLprefix . ' :name');
                     $statement->execute(array('name' => $aLookupTerm));
@@ -214,84 +218,6 @@
 
             $pdo = connectToDatabase();
 
-            #Delete at any time
-            #if (0)
-            #{
-            #    #Obsolete - delete at any time.
-            #
-            #    # Prone to SQL injection attack (though the table
-            #    # is effectively readonly - we overwrite it on a
-            #    # regular basis)!
-            #    $CustomerSQL = $SQLprefix . "'" . $lookUpTerm . "'";
-            #
-            #    # For debugging
-            #    #echo "<p>CustomerSQL: xxx" . $CustomerSQL . "xxx </p>\n";
-            #
-            #    $statement = $pdo->query($CustomerSQL);
-            #
-            #    # For debugging
-            #    #$rows2 = $statement->fetchAll(PDO::FETCH_ASSOC);
-            #    #foreach ($rows2 as $someRow)
-            #    #{
-            #    #    echo "<p> From fetch all: </p>" .
-            #    #      " <p> >>>  "  . $someRow['incorrectTerm'] . " " .
-            #    #      " (cleaned: " . htmlZZZentities($someRow['incorrectTerm']) . ")</p> " .
-            #    #
-            #    #      " <p> >>>  " . $someRow['correctTerm'] .   " " .
-            #    #      " (cleaned: " . htmlZZZentities($someRow['correctTerm']) . ")</p> " .
-            #    #
-            #    #      " <p> >>>  " . $someRow['URL'] .           " " .
-            #    #      " (cleaned: " . htmlZZZZentities($someRow['URL']) . ")</p> " .
-            #    #
-            #    #      " <p></p>";
-            #    #}
-            #}
-            #else
-            #{
-            #    #If we need it, it should be moved to after the call of
-            #    #the_EditOverflowHeadline
-            #    #echo "$headerLevelIndent<p>No SQL injection, please...</p>\n";
-            #
-            #    #Replace "name" with something else.
-            #    $statement = $pdo->prepare($SQLprefix . ' :name');
-            #    $statement->execute(array('name' => $lookUpTerm));
-            #
-            #    #XX XX
-            #}
-            #
-            ## Default: For words that are not in our word list
-            #$incorrectTerm = "";
-            #$correctTerm   = "";
-            #$URL           = "";
-            #
-            #if ($statement->rowCount() > 0)
-            #{
-            #    # "PDO::FETCH_ASSOC" it to return the result as an associative array.
-            #    $row = $statement->fetch(PDO::FETCH_ASSOC);
-            #
-            #    # Note: This is for display, so e.g. "<" should be encoded
-            #    #       as "&lt;". We don't do any text processing on
-            #    #       the result (e.g., computing the length of a
-            #    #       string), except enclosing it other text.
-            #    #
-            #    $incorrectTerm = htmlentities($row['incorrectTerm'], ENT_QUOTES);
-            #
-            #    $correctTerm  = htmlentities($row['correctTerm'], ENT_QUOTES);
-            #
-            #
-            #    #$correctTerm  = $row['correctTerm']; # Test for the Quora apostrofe problem -
-            #                                          # a term containing the U+FFFD
-            #                                          # REPLACEMENT CHARACTER will make
-            #                                          # $correctTerm an empty string...
-            #
-            #    #Doesn't fire on the local web server. Why????
-            #    #assert(0, "XYZ);
-            #    #assert(0, "Unconditional assert failure...");
-            #
-            #    $URL          = htmlentities($row['URL']);
-            #    #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
-            #}
-
             # Primary lookup
             [$incorrectTerm, $correctTerm, $URL] =
                 lookup($pdo, $lookUpTerm);
@@ -334,6 +260,8 @@
                 $URL = $URL2;
             }
 
+            #echo "\n\nEffective correct term: $correctTerm \n\n\n\n";
+
             # To avoid "Undefined variable: linkYouTubeCompatible"
             # in the PHP error log file.
             $linkYouTubeCompatible = "";
@@ -350,18 +278,18 @@
             $editSummary_output2 = "";
             $linkInlineMarkdown = "";
 
+            # Report the incorrect and/or the correct word
+            # if found in the alternative word set.
+            #
             $alternative = "";
             if ($correctTerm2 &&
                 ($correctTerm2 != $correctTerm)) # Only
             {
-                ##$alternative .= "$correctTerm2 11111";
-                #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
-                #$alternative .=
-                #    "<a href=" .
-                #    "\"$baseURL?LookUpTerm=$incorrectTerm2\"" .
-                #    ">" . stripTrailingSlash($correctTerm2) . "</a>";
-
-                $alternative .= alternativeLink($incorrectTerm2, $correctTerm2);
+                # Note: $URL2 is not used because we link to a ***new***
+                #       Edit Overflow page where the lookup will
+                #       take place and the URL be displayed...
+                #
+                $alternative .= alternativeLink($incorrectTerm2, $correctTerm2, 1002);
             }
             if ($correctTerm3 &&
                 ($correctTerm3 != $correctTerm2))
@@ -370,8 +298,13 @@
                 {
                     $alternative .= " and ";
                 }
-                $alternative .= alternativeLink($incorrectTerm3, $correctTerm3);
+                # Note: $URL3 is not used because we link to a ***new***
+                #       Edit Overflow page where the lookup will
+                #       take place and the URL be displayed...
+                #
+                $alternative .= alternativeLink($incorrectTerm3, $correctTerm3, 1003);
             }
+
 
 
             # True if the (incorrect) term was found in our
