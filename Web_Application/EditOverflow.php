@@ -66,11 +66,21 @@
                         #       the result (e.g., computing the length of a
                         #       string), except enclosing it other text.
                         #
-                        $incorrectTerm7 = htmlentities($row['incorrectTerm'], ENT_QUOTES);
 
-                        $correctTerm7  = htmlentities($row['correctTerm'], ENT_QUOTES);
+                        # Note: This is not for display, so we can't apply
+                        #       htmlentities() - clients depend on it.
+                        #       It should be possible to do further
+                        #       text processing.
+                        #
+                        #       It is up to the client to apply
+                        #       htmlentities(). There e.g. "<"
+                        #       should be encoded as "&lt;".
+                        #
+                        $incorrectTerm7 = $row['incorrectTerm'];
 
-                        $URL7          = htmlentities($row['URL']);
+                        $correctTerm7  = $row['correctTerm'];
+
+                        $URL7          = $row['URL'];
                         #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
                     }
                 }
@@ -281,6 +291,9 @@
             # Report the incorrect and/or the correct word
             # if found in the alternative word set.
             #
+            # 1002 and 1003: Two arbitrary unique IDs. They don't
+            #                actually need to be integers.
+            #
             $alternative = "";
             if ($correctTerm2 &&
                 ($correctTerm2 != $correctTerm)) # Only
@@ -305,7 +318,12 @@
                 $alternative .= alternativeLink($incorrectTerm3, $correctTerm3, 1003);
             }
 
-
+            # Encode for display, e.g. "&" as "&amp;" and "<" as "&lt;".
+            #
+            # Note: Not for $alternative as it is actual raw HTML.
+            #
+            $correctTerm = htmlentities($correctTerm, ENT_QUOTES);
+            $URL = htmlentities($URL);
 
             # True if the (incorrect) term was found in our
             # huge list (as of 2020-10-29, 14852 items)
