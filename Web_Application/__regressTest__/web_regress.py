@@ -211,7 +211,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         # exist. Conversely, there doesn't seem to be a
         # way to avoid the exception.
         try:
-            
+
             # Notes: By.ID requires an import, otherwise the result is:
             #
             #          "web_regress.py:271:50: E0602: Undefined
@@ -299,17 +299,17 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._checkEditSummary(aExpectedEditSummary, anExplanation)
 
         #time.sleep(3.0) # Not really necessary
-        
-        # Notes: 
+
+        # Notes:
         #
-        #   1) Selenium functions find_element_by_id(), 
+        #   1) Selenium functions find_element_by_id(),
         #      find_element_by_name(), find_element(), etc.
-        #      throw an exception if the element does not exist 
-        #      (this is sometimes the case for the Edit Overflow 
-        #      lookup result page (the existence of that particular 
+        #      throw an exception if the element does not exist
+        #      (this is sometimes the case for the Edit Overflow
+        #      lookup result page (the existence of that particular
         #      elements depends on the input data)), e.g.:
         #
-        #         selenium.common.exceptions.NoSuchElementException: 
+        #         selenium.common.exceptions.NoSuchElementException:
         #         Message: Unable to locate element: [id="1002"]
         #
         #   2) The plural functions, e.g. findElements_by_id(), that
@@ -319,9 +319,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         lookupReference = " for lookup word " + aLookUpTerm + "."
 
         linkText = ""
-        
-        # 1002 and 1003 are IDs for the two possible HTML <a> elements 
-        # for cross links to the alternative word set. 0, 1, or 2 may 
+
+        # 1002 and 1003 are IDs for the two possible HTML <a> elements
+        # for cross links to the alternative word set. 0, 1, or 2 may
         # be present on a particular Edit Overflow lookup result page.
         #
         isAlternativeIsPresent1 = self._core_elementExists("1002")
