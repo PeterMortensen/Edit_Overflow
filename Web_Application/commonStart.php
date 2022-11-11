@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a543 2022-11-09T174733Z+0";
+        return "Edit Overflow v. 1.1.49a545 2022-11-11T110632Z+0";
     }
 
 
@@ -616,9 +616,6 @@
             #       of the correct term).
 
             $replacer7 = new StringReplacerWithRegex($aURL);
-
-            #Delete at any time
-            #$replacer->transform('(\d+)\s+secs',   '$1 ');
 
             #$replacer7->transform('https:\/\/en.wikipedia.org\/wiki\/(.*)', '[[$1|$1]]');
 
