@@ -688,6 +688,8 @@ namespace OverflowHelper.core
 
             correctionAdd("unix time", "Unix time");
             correctionAdd("UNIX time", "Unix time");
+            correctionAdd("UNIX timestamp", "Unix time");
+            correctionAdd("Unix timestamp", "Unix time");
 
             correctionAdd("epoch time", "Epoch time");
             correctionAdd("EPOC", "Epoch time");
@@ -3109,6 +3111,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Extended BPF", "eBPF");
             correctionAdd("eBFP", "eBPF");
+
+            correctionAdd("swtich", "switch");
+            correctionAdd("swith", "switch");
+            correctionAdd("swicth", "switch");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -14837,6 +14843,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Knowledge Transfer", "knowledge transfer");
 
+            correctionAdd("tranfer", "transfer");
+            correctionAdd("Tranfer", "transfer");
+            correctionAdd("transer", "transfer");
+
             correctionAdd("edge", "Edge");
             correctionAdd("EDGE", "Edge");
             correctionAdd("Microsoft Edge", "Edge");
@@ -19068,9 +19078,6 @@ namespace OverflowHelper.core
             correctionAdd("Stucked", "stuck");
             correctionAdd("sticked", "stuck");
 
-            correctionAdd("swtich", "switch");
-            correctionAdd("swith", "switch");
-
             correctionAdd("cloudfront", "Amazon CloudFront");
             correctionAdd("CloudFront", "Amazon CloudFront");
 
@@ -19156,9 +19163,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sugest", "suggest");
             correctionAdd("sudgest", "suggest");
-
-            correctionAdd("tranfer", "transfer");
-            correctionAdd("Tranfer", "transfer");
 
             correctionAdd("Trillion", "trillion");
 
@@ -24477,6 +24481,7 @@ namespace OverflowHelper.core
             correctionAdd("Honeypot", "honeypot");
 
             correctionAdd("conver", "convert");
+            correctionAdd("covert", "convert");
 
             correctionAdd("enduser", "end user");
             correctionAdd("end-user", "end user");
@@ -37250,6 +37255,7 @@ namespace OverflowHelper.core
 
             correctionAdd("time-dilation", "time dilation");
             correctionAdd("Time-dilation", "time dilation");
+            correctionAdd("Time Dilation", "time dilation");
 
             correctionAdd("CoffeeLake", "Coffee Lake");
 
@@ -45328,6 +45334,27 @@ namespace OverflowHelper.core
             correctionAdd("hyper plane", "hyperplane");
 
             correctionAdd("instanyly", "instantly");
+
+            correctionAdd("SMU", "source measure unit");
+            correctionAdd("Source Measure Units", "source measure unit");
+            correctionAdd("Source measure unit", "source measure unit");
+
+            correctionAdd("Lamb Shift", "Lamb shift");
+            correctionAdd("lamb shift", "Lamb shift");
+
+            correctionAdd("gregorian calendar", "Gregorian calendar");
+
+            correctionAdd("icaan", "ICAAN");
+
+            correctionAdd("julian calendar", "Julian calendar");
+
+            correctionAdd("moreless", "more or less");
+
+            correctionAdd("pacific", "Pacific");
+
+            correctionAdd("pacific islands", "Pacific Islands");
+
+            correctionAdd("mipmaps", "MIP maps");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71234,6 +71261,24 @@ namespace OverflowHelper.core
 
             URL_Add("instantly", "https://en.wiktionary.org/wiki/instantly#Adverb");
 
+            URL_Add("source measure unit", "https://en.wikipedia.org/wiki/Source_measure_unit");
+
+            URL_Add("Lamb shift", "https://en.wikipedia.org/wiki/Lamb_shift");
+
+            URL_Add("Gregorian calendar", "https://en.wikipedia.org/wiki/Gregorian_calendar");
+
+            URL_Add("ICAAN", "https://en.wikipedia.org/wiki/ICANN");
+
+            URL_Add("Julian calendar", "https://en.wikipedia.org/wiki/Julian_calendar");
+
+            URL_Add("more or less", "https://en.wiktionary.org/wiki/more_or_less#Adverb");
+
+            URL_Add("Pacific", "https://en.wiktionary.org/wiki/Pacific#Adjective");
+
+            URL_Add("Pacific Islands", "https://en.wikipedia.org/wiki/List_of_islands_in_the_Pacific_Ocean");
+
+            URL_Add("MIP maps", "https://en.wikipedia.org/wiki/Mipmap");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -72685,7 +72730,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Hi_", "thanks in advance_");
 
-            correctionAdd("timeout_", "time_out_");
+            correctionAdd("timeout_", "time out_");
 
             // URL mappings
             //
@@ -73524,7 +73569,7 @@ namespace OverflowHelper.core
 
             URL_Add("thanks in advance_", "https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts");
 
-            URL_Add("time_out_", "https://en.wiktionary.org/wiki/time_out#Verb");
+            URL_Add("time out_", "https://en.wiktionary.org/wiki/time_out#Verb");
 
         } //addLookupData_alternativeWordSet()
 
