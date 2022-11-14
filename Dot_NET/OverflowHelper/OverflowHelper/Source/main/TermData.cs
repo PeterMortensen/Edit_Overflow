@@ -1981,6 +1981,7 @@ namespace OverflowHelper.core
             correctionAdd("TimeZone", "time zone");
             correctionAdd("Timezone", "time zone");
             correctionAdd("Time zone", "time zone");
+            correctionAdd("Time Zone", "time zone");
 
             correctionAdd("error prone", "error-prone");
 
@@ -2934,6 +2935,7 @@ namespace OverflowHelper.core
 
             correctionAdd("replase", "replace");
             correctionAdd("repalce", "replace");
+            correctionAdd("reeplace", "replace");
 
             correctionAdd("replacment", "replacement");
             correctionAdd("replacemeent", "replacement");
@@ -11598,10 +11600,6 @@ namespace OverflowHelper.core
             correctionAdd("recommned", "recommend");
             correctionAdd("recomment", "recommend");
             correctionAdd("reccomed", "recommend");
-
-            correctionAdd("PDT", "PHP Development Tools");
-            correctionAdd("eclipse pdt", "PHP Development Tools");
-            correctionAdd("pdt", "PHP Development Tools");
 
             correctionAdd("priv", "privilege");
             correctionAdd("priveledges", "privilege"); // Not 100% correct - plural.
@@ -21156,6 +21154,30 @@ namespace OverflowHelper.core
             correctionAdd("unit-testing", "unit testing");
             correctionAdd("unittesting", "unit testing");
 
+            correctionAdd("UAT", "user acceptance testing");
+
+            correctionAdd("Regression Testing", "regression testing");
+
+            correctionAdd("AB testing", "A/B testing");
+            correctionAdd("A/B Testing", "A/B testing");
+            correctionAdd("a/b testing", "A/B testing");
+
+            correctionAdd("Integration Test", "integration testing");
+            correctionAdd("Integration Testing", "integration testing");
+            correctionAdd("Intregration Test", "integration testing");
+
+            correctionAdd("loadtesting", "load testing");
+
+            correctionAdd("pen testing", "pentesting");
+
+            correctionAdd("usabilty testing", "usability testing");
+
+            correctionAdd("hall-way usability testing", "hallway usability testing");
+            correctionAdd("hallway usability", "hallway usability testing");
+
+            correctionAdd("testng", "testing");
+            correctionAdd("Testing", "testing");
+
             correctionAdd("un-supported", "unsupported");
             correctionAdd("unsuported", "unsupported");
             correctionAdd("unspported", "unsupported");
@@ -24751,6 +24773,7 @@ namespace OverflowHelper.core
             correctionAdd("fund", "found");
             correctionAdd("finded", "found");
             correctionAdd("faund", "found");
+            correctionAdd("faound", "found");
 
             correctionAdd("joistick", "joystick");
 
@@ -25183,8 +25206,6 @@ namespace OverflowHelper.core
 
             correctionAdd("logged-in", "logged in");
             correctionAdd("logined in", "logged in");
-
-            correctionAdd("UAT", "user acceptance testing");
 
             correctionAdd("angular material", "Angular Material");
             correctionAdd("angualr material", "Angular Material");
@@ -25826,11 +25847,10 @@ namespace OverflowHelper.core
             correctionAdd("wall street", "Wall Street");
 
             correctionAdd("entrepeneur", "entrepreneur");
+            correctionAdd("Entrepreneur", "entrepreneur");
 
             correctionAdd("Fizz buzz", "fizz buzz");
             correctionAdd("FizzBuzz", "fizz buzz");
-
-            correctionAdd("Regression Testing", "regression testing");
 
             correctionAdd("remebered", "remembered");
 
@@ -28831,10 +28851,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ion", "eon");
 
-            correctionAdd("AB testing", "A/B testing");
-            correctionAdd("A/B Testing", "A/B testing");
-            correctionAdd("a/b testing", "A/B testing");
-
             correctionAdd("nordic", "Nordic");
 
             correctionAdd("anual", "annual");
@@ -30931,10 +30947,6 @@ namespace OverflowHelper.core
             correctionAdd("blog post", "blogpost");
             correctionAdd("blog-post", "blogpost");
 
-            correctionAdd("Integration Test", "integration testing");
-            correctionAdd("Integration Testing", "integration testing");
-            correctionAdd("Intregration Test", "integration testing");
-
             correctionAdd("GPL v2", "GPLv2");
             correctionAdd("gplv2", "GPLv2");
             correctionAdd("gpl v2", "GPLv2");
@@ -32097,8 +32109,6 @@ namespace OverflowHelper.core
             correctionAdd("incite", "insight");
             correctionAdd("insides", "insight");
 
-            correctionAdd("loadtesting", "load testing");
-
             correctionAdd("modproxy", "mod_proxy");
 
             correctionAdd("non-important", "nonimportant");
@@ -32200,6 +32210,7 @@ namespace OverflowHelper.core
 
             correctionAdd("obviouse", "obvious");
             correctionAdd("obv", "obvious");
+            correctionAdd("obivious", "obvious");
 
             correctionAdd("goodby", "goodbye");
             correctionAdd("Goodby", "goodbye");
@@ -33294,6 +33305,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lupe warm", "lukewarm");
             correctionAdd("luke warm", "lukewarm");
+            correctionAdd("luke-warm", "lukewarm");
 
             correctionAdd("region", "religion");
 
@@ -34194,8 +34206,6 @@ namespace OverflowHelper.core
             correctionAdd("aduquate", "adequate");
 
             correctionAdd("inherites", "inherits");
-
-            correctionAdd("pen testing", "pentesting");
 
             correctionAdd("pentest", "penetration test");
             correctionAdd("pen test", "penetration test");
@@ -38185,6 +38195,8 @@ namespace OverflowHelper.core
             correctionAdd("along these lines", "along those lines");
             correctionAdd("along the lines", "along those lines");
             correctionAdd("along the lines of", "along those lines");
+            correctionAdd("In similar lines", "along those lines");
+            correctionAdd("along similar lines", "along those lines");
 
             correctionAdd("bad-faith", "bad faith");
             correctionAdd("poor-faith", "bad faith");
@@ -39395,8 +39407,6 @@ namespace OverflowHelper.core
             correctionAdd("shelf-life", "shelf life");
 
             correctionAdd("sub-optimal", "suboptimal");
-
-            correctionAdd("usabilty testing", "usability testing");
 
             correctionAdd("Vermouth", "vermouth");
 
@@ -42019,9 +42029,6 @@ namespace OverflowHelper.core
 
             correctionAdd("duping", "duplicating");
 
-            correctionAdd("hall-way usability testing", "hallway usability testing");
-            correctionAdd("hallway usability", "hallway usability testing");
-
             correctionAdd("he-he", "hehe");
 
             correctionAdd("Marketing", "marketing");
@@ -42576,6 +42583,9 @@ namespace OverflowHelper.core
             correctionAdd("There after", "thereafter");
 
             correctionAdd("edt", "EDT");
+            correctionAdd("Eastern DST", "EDT");
+            correctionAdd("Eastern Daylight Time", "EDT");
+            correctionAdd("US Eastern DST", "EDT");
 
             correctionAdd("est", "EST");
 
@@ -43543,6 +43553,8 @@ namespace OverflowHelper.core
             correctionAdd("discernable", "discernible");
 
             correctionAdd("displaied", "displayed");
+            correctionAdd("Dispplayed", "displayed");
+            correctionAdd("dispplayed", "displayed");
 
             correctionAdd("freestanding", "free-standing");
 
@@ -43948,8 +43960,6 @@ namespace OverflowHelper.core
             correctionAdd("tCc", "Tiny C Compiler");
 
             correctionAdd("D.C", "Washington, D.C.");
-
-            correctionAdd("testng", "testing");
 
             correctionAdd("BulmaJS", "Bulma");
             correctionAdd("bulma", "Bulma");
@@ -45355,6 +45365,45 @@ namespace OverflowHelper.core
             correctionAdd("pacific islands", "Pacific Islands");
 
             correctionAdd("mipmaps", "MIP maps");
+
+            correctionAdd("PDT", "Pacific Daylight Time");
+            correctionAdd("US Pacific DST", "Pacific Daylight Time");
+
+            correctionAdd("name collision", "naming collision");
+            correctionAdd("name-collision", "naming collision");
+
+            correctionAdd("authorize", "authorise");
+            correctionAdd("autohrize", "authorise");
+
+            correctionAdd("battlefied", "battlefield");
+
+            correctionAdd("CALD", "Cambridge Dictionary");
+            correctionAdd("Cambridge Advanced Learner's Dictionary", "Cambridge Dictionary");
+            correctionAdd("cambridge dictionary", "Cambridge Dictionary");
+
+            correctionAdd("Enrollment", "enrollment");
+
+            correctionAdd("dows", "rows");
+
+            correctionAdd("selecter", "selector");
+
+            correctionAdd("check point", "checkpoint");
+
+            correctionAdd("DDS", "direct digital synthesis");
+
+            correctionAdd("incedental", "incidental");
+
+            correctionAdd("intitution", "institution");
+
+            correctionAdd("re-consider", "reconsider");
+
+            correctionAdd("sumbit", "submit");
+
+            correctionAdd("The practice of programming", "The Practice of Programming");
+
+            correctionAdd("trapezoid rule", "trapezoidal rule");
+            correctionAdd("Trapezium rule", "trapezoidal rule");
+            correctionAdd("trapezium rule", "trapezoidal rule");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -47913,8 +47962,6 @@ namespace OverflowHelper.core
             URL_Add("recommendation", "https://en.wiktionary.org/wiki/recommendation#Noun");
 
             URL_Add("recommended", "https://en.wiktionary.org/wiki/recommended#Verb");
-
-            URL_Add("PHP Development Tools", "https://en.wikipedia.org/wiki/PHP_Development_Tools");
 
             URL_Add("privilege", "https://en.wikipedia.org/wiki/Privilege_%28computing%29");
 
@@ -71279,6 +71326,38 @@ namespace OverflowHelper.core
 
             URL_Add("MIP maps", "https://en.wikipedia.org/wiki/Mipmap");
 
+            URL_Add("Pacific Daylight Time", "https://en.wikipedia.org/wiki/Pacific_Time_Zone");
+
+            URL_Add("naming collision", "https://en.wiktionary.org/wiki/naming_collision#Noun");
+
+            URL_Add("authorise", "https://en.wiktionary.org/wiki/authorise#Verb");
+
+            URL_Add("battlefield", "https://en.wiktionary.org/wiki/battlefield#Noun");
+
+            URL_Add("Cambridge Dictionary", "https://en.wikipedia.org/wiki/Cambridge_Advanced_Learner's_Dictionary");
+
+            URL_Add("enrollment", "https://en.wiktionary.org/wiki/enrollment#Noun");
+
+            URL_Add("rows", "https://en.wiktionary.org/wiki/row#Noun");
+
+            URL_Add("selector", "https://en.wiktionary.org/wiki/selector#Noun");
+
+            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
+
+            URL_Add("direct digital synthesis", "https://en.wikipedia.org/wiki/Direct_digital_synthesis");
+
+            URL_Add("incidental", "https://en.wiktionary.org/wiki/incidental#Adjective");
+
+            URL_Add("institution", "https://en.wiktionary.org/wiki/institution#Noun");
+
+            URL_Add("reconsider", "https://en.wiktionary.org/wiki/reconsider#Verb");
+
+            URL_Add("submit", "https://en.wiktionary.org/wiki/submit#Verb");
+
+            URL_Add("The Practice of Programming", "https://en.wikipedia.org/wiki/The_Practice_of_Programming");
+
+            URL_Add("trapezoidal rule", "https://en.wikipedia.org/wiki/Trapezoidal_rule");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71614,6 +71693,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
             correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
+            correctionAdd("Bioinformatics-SE_", "Bioinformatics (Stack Exchange site)_");
+            correctionAdd("bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
+            correctionAdd("bioinformatics-SE_", "Bioinformatics (Stack Exchange site)_");
 
             correctionAdd("Chemistry SE_", "Chemistry (Stack Exchange site)_");
             correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
@@ -71742,6 +71824,7 @@ namespace OverflowHelper.core
 
             correctionAdd("acreen_", "screen_");
             correctionAdd("sreen_", "screen_");
+            correctionAdd("Screen_", "screen_"); // Mainly to connect it better to the main word set.
 
             correctionAdd("down vote_", "downvote_");
 
@@ -72732,6 +72815,15 @@ namespace OverflowHelper.core
 
             correctionAdd("timeout_", "time out_");
 
+            correctionAdd("PDT_", "PHP Development Tools_");
+            correctionAdd("eclipse pdt_", "PHP Development Tools_");
+            correctionAdd("pdt_", "PHP Development Tools_");
+
+            correctionAdd("in-line_", "in line_");
+            correctionAdd("inline_", "in line_");
+
+            correctionAdd("chinese_", "Chinese_");
+
             // URL mappings
             //
             //
@@ -73570,6 +73662,12 @@ namespace OverflowHelper.core
             URL_Add("thanks in advance_", "https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts");
 
             URL_Add("time out_", "https://en.wiktionary.org/wiki/time_out#Verb");
+
+            URL_Add("PHP Development Tools_", "https://en.wikipedia.org/wiki/PHP_Development_Tools");
+
+            URL_Add("in line_", "https://en.wiktionary.org/wiki/in_line#Adjective");
+
+            URL_Add("Chinese_", "https://en.wiktionary.org/wiki/Chinese#Proper_noun");
 
         } //addLookupData_alternativeWordSet()
 
