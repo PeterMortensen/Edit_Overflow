@@ -634,6 +634,235 @@ namespace OverflowHelper.core
 
             correctionAdd("in the same time", "at the same time");
 
+            correctionAdd("AT", "at");
+
+            correctionAdd("atom", "Atom");
+            correctionAdd("ATOM", "Atom");
+
+            correctionAdd("electron", "Electron");
+            correctionAdd("electronjs", "Electron");
+            correctionAdd("electron.js", "Electron");
+            correctionAdd("Electron.js", "Electron");
+            correctionAdd("Electron JS", "Electron");
+            correctionAdd("ElectronJS", "Electron");
+            correctionAdd("Electronjs", "Electron");
+            correctionAdd("electorn", "Electron");
+
+            correctionAdd("selenium", "Selenium");
+            correctionAdd("seleium", "Selenium");
+
+            correctionAdd("Selenium RC", "Selenium Remote Control");
+
+            correctionAdd("selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
+            correctionAdd("selenium webdriver", "Selenium WebDriver");
+            correctionAdd("selenium web driver", "Selenium WebDriver");
+            correctionAdd("Selenium webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
+            correctionAdd("webdriver", "Selenium WebDriver");
+            correctionAdd("WebDriver", "Selenium WebDriver");
+            correctionAdd("webDriver", "Selenium WebDriver");
+            correctionAdd("selenium WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium web-driver", "Selenium WebDriver");
+            correctionAdd("Selenium WD", "Selenium WebDriver");
+
+            correctionAdd("debezium", "Debezium");
+
+            correctionAdd("pentium", "Pentium");
+
+            correctionAdd("P5 pentium", "P5");
+            correctionAdd("P5 Pentium", "P5");
+
+            correctionAdd("P6 pentium", "P6");
+            correctionAdd("P6 Pentium", "P6");
+
+            correctionAdd("Pentium III", "Pentium&nbsp;III");
+            correctionAdd("Pentium 3", "Pentium&nbsp;III");
+            correctionAdd("PentiumIII", "Pentium&nbsp;III");
+
+            correctionAdd("itanium", "Itanium");
+
+            correctionAdd("codium", "VSCodium");
+            correctionAdd("Codium", "VSCodium");
+            correctionAdd("vscodium", "VSCodium");
+
+            correctionAdd("lipo", "lithium polymer");
+            correctionAdd("Li-Po", "lithium polymer");
+            correctionAdd("li-po", "lithium polymer");
+            correctionAdd("LiPo", "lithium polymer");
+            correctionAdd("Lithium Polymer", "lithium polymer");
+            correctionAdd("lithumpolymer", "lithium polymer");
+            correctionAdd("LiPol", "lithium polymer");
+            correctionAdd("Pol", "lithium polymer");
+
+            correctionAdd("LIon", "Li-ion");
+            correctionAdd("Lithium-Ion", "Li-ion"); // Contraction!
+            correctionAdd("lithium-ion", "Li-ion"); // Contraction!
+            correctionAdd("LiIon", "Li-ion");
+            correctionAdd("li ion", "Li-ion");
+            correctionAdd("li-ion", "Li-ion");
+            correctionAdd("Li-Ion", "Li-ion");
+            correctionAdd("liion", "Li-ion");
+
+            correctionAdd("LFP", "lithium iron phosphate");
+            correctionAdd("LiFPo4", "lithium iron phosphate");
+            correctionAdd("LiFePO4", "lithium iron phosphate");
+
+            correctionAdd("Lithium battery", "lithium-ion battery");
+            correctionAdd("lithium battery", "lithium-ion battery");
+
+            correctionAdd("Ni-cad", "NiCad");
+
+            correctionAdd("Neutrino", "neutrino");
+
+            correctionAdd("Positron", "positron");
+
+            correctionAdd("Positronium", "positronium");
+
+            correctionAdd("Lithium", "lithium");
+            correctionAdd("Lithion", "lithium");
+            correctionAdd("Li", "lithium");
+            correctionAdd("litium", "lithium");
+            correctionAdd("Litium", "lithium");
+            correctionAdd("lithim", "lithium");
+
+            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
+
+            correctionAdd("zirconia", "cubic zirconia");
+            correctionAdd("zirkonium", "cubic zirconia");
+
+            correctionAdd("NaCl", "sodium chloride");
+            correctionAdd("salt", "sodium chloride");
+            correctionAdd("Soidum Chloride", "sodium chloride");
+            correctionAdd("Sodium Chloride", "sodium chloride");
+
+            correctionAdd("GaN", "gallium nitride");
+
+            correctionAdd("potassium pyrosulfite", "potassium metabisulfite");
+            correctionAdd("Potassium Metabisulfite", "potassium metabisulfite");
+
+            correctionAdd("Potassium Sorbate", "potassium sorbate");
+
+            correctionAdd("Calcite", "calcite");
+
+            correctionAdd("Calcium phosphate", "calcium phosphate");
+
+            correctionAdd("Potassium Chloride", "potassium chloride");
+
+            correctionAdd("thorium 232", "thorium-233");
+
+            correctionAdd("Pu-239", "plutonium-239");
+            correctionAdd("239 Pu", "plutonium-239");
+            correctionAdd("Plutonium-239", "plutonium-239");
+
+            correctionAdd("Sr-94", "strontium-94");
+            correctionAdd("Sr 94", "strontium-94");
+
+            correctionAdd("U-235", "uranium-235");
+            correctionAdd("U 235", "uranium-235");
+            correctionAdd("235 U", "uranium-235");
+            correctionAdd("Uranium-235", "uranium-235");
+
+            correctionAdd("Xe-133", "xenon-133");
+
+            correctionAdd("Xe-140", "xenon-140");
+            correctionAdd("Xe 140", "xenon-140");
+
+            correctionAdd("Silicon", "silicon");
+            correctionAdd("Si", "silicon");
+            correctionAdd("silicium", "silicon");
+
+            correctionAdd("Sr", "strontium");
+            correctionAdd("Strontium", "strontium");
+
+            correctionAdd("Yb", "ytterbium");
+
+            correctionAdd("Tritium", "tritium");
+
+            correctionAdd("Plutonium", "plutonium");
+            correctionAdd("Pu", "plutonium");
+
+            correctionAdd("Thorium", "thorium");
+
+            correctionAdd("Uranium", "uranium");
+            correctionAdd("U", "uranium");
+
+            correctionAdd("Helium", "helium");
+            correctionAdd("He", "helium");
+
+            correctionAdd("Iridium", "iridium");
+
+            correctionAdd("Deuterium", "deuterium");
+
+            correctionAdd("Magnesium", "magnesium");
+            correctionAdd("Mg", "magnesium");
+
+            correctionAdd("aluminum", "aluminium");
+            correctionAdd("Al", "aluminium");
+            correctionAdd("Aliminium", "aluminium");
+            correctionAdd("aliminium", "aluminium");
+            correctionAdd("Aluminium", "aluminium");
+
+            correctionAdd("Radium", "radium");
+
+            correctionAdd("Thallium", "thallium");
+            correctionAdd("Tl", "thallium");
+
+            correctionAdd("Cadmium", "cadmium");
+            correctionAdd("Cd", "cadmium");
+
+            correctionAdd("Germanium", "germanium");
+            correctionAdd("Ge", "germanium");
+
+            correctionAdd("Bohrium", "bohrium");
+
+            correctionAdd("Copernicium", "copernicium");
+
+            correctionAdd("Dubnium", "dubnium");
+
+            correctionAdd("Rhenium", "rhenium");
+
+            correctionAdd("Rutherfordium", "rutherfordium");
+
+            correctionAdd("Seaborgium", "seaborgium");
+
+            correctionAdd("Tungsten", "tungsten");
+
+            correctionAdd("Unbihexium", "unbihexium");
+
+            correctionAdd("Unbinilium", "unbinilium");
+
+            correctionAdd("Pd", "palladium");
+            correctionAdd("Palladium", "palladium");
+
+            correctionAdd("Calcium", "calcium");
+            correctionAdd("Ca", "calcium");
+
+            correctionAdd("Cr", "chromium (chemical element)");
+
+            correctionAdd("Indium", "indium");
+            correctionAdd("In", "indium");
+
+            correctionAdd("Se", "selenium (chemical element)");
+
+            correctionAdd("Tellurium", "tellurium");
+            correctionAdd("Te", "tellurium");
+
+            correctionAdd("Titanium", "titanium");
+
+            correctionAdd("Beryllium", "beryllium");
+            correctionAdd("Be", "beryllium");
+
+            correctionAdd("Osmium", "osmium");
+
+            correctionAdd("columbium", "niobium");
+            correctionAdd("Niobium", "niobium");
+
+            correctionAdd("Zirconium", "zirconium");
+
             correctionAdd("bare with me", "bear with me");
 
             correctionAdd("spear time", "spare time");
@@ -7301,233 +7530,6 @@ namespace OverflowHelper.core
 
             correctionAdd("medium sized", "medium-sized");
             correctionAdd("medium-size", "medium-sized");
-
-            correctionAdd("atom", "Atom");
-            correctionAdd("ATOM", "Atom");
-
-            correctionAdd("electron", "Electron");
-            correctionAdd("electronjs", "Electron");
-            correctionAdd("electron.js", "Electron");
-            correctionAdd("Electron.js", "Electron");
-            correctionAdd("Electron JS", "Electron");
-            correctionAdd("ElectronJS", "Electron");
-            correctionAdd("Electronjs", "Electron");
-            correctionAdd("electorn", "Electron");
-
-            correctionAdd("selenium", "Selenium");
-            correctionAdd("seleium", "Selenium");
-
-            correctionAdd("Selenium RC", "Selenium Remote Control");
-
-            correctionAdd("selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
-            correctionAdd("selenium webdriver", "Selenium WebDriver");
-            correctionAdd("selenium web driver", "Selenium WebDriver");
-            correctionAdd("Selenium webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
-            correctionAdd("webdriver", "Selenium WebDriver");
-            correctionAdd("WebDriver", "Selenium WebDriver");
-            correctionAdd("webDriver", "Selenium WebDriver");
-            correctionAdd("selenium WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium web-driver", "Selenium WebDriver");
-            correctionAdd("Selenium WD", "Selenium WebDriver");
-
-            correctionAdd("debezium", "Debezium");
-
-            correctionAdd("pentium", "Pentium");
-
-            correctionAdd("P5 pentium", "P5");
-            correctionAdd("P5 Pentium", "P5");
-
-            correctionAdd("P6 pentium", "P6");
-            correctionAdd("P6 Pentium", "P6");
-
-            correctionAdd("Pentium III", "Pentium&nbsp;III");
-            correctionAdd("Pentium 3", "Pentium&nbsp;III");
-            correctionAdd("PentiumIII", "Pentium&nbsp;III");
-
-            correctionAdd("itanium", "Itanium");
-
-            correctionAdd("codium", "VSCodium");
-            correctionAdd("Codium", "VSCodium");
-            correctionAdd("vscodium", "VSCodium");
-
-            correctionAdd("lipo", "lithium polymer");
-            correctionAdd("Li-Po", "lithium polymer");
-            correctionAdd("li-po", "lithium polymer");
-            correctionAdd("LiPo", "lithium polymer");
-            correctionAdd("Lithium Polymer", "lithium polymer");
-            correctionAdd("lithumpolymer", "lithium polymer");
-            correctionAdd("LiPol", "lithium polymer");
-            correctionAdd("Pol", "lithium polymer");
-
-            correctionAdd("LIon", "Li-ion");
-            correctionAdd("Lithium-Ion", "Li-ion"); // Contraction!
-            correctionAdd("lithium-ion", "Li-ion"); // Contraction!
-            correctionAdd("LiIon", "Li-ion");
-            correctionAdd("li ion", "Li-ion");
-            correctionAdd("li-ion", "Li-ion");
-            correctionAdd("Li-Ion", "Li-ion");
-            correctionAdd("liion", "Li-ion");
-
-            correctionAdd("LFP", "lithium iron phosphate");
-            correctionAdd("LiFPo4", "lithium iron phosphate");
-            correctionAdd("LiFePO4", "lithium iron phosphate");
-
-            correctionAdd("Lithium battery", "lithium-ion battery");
-            correctionAdd("lithium battery", "lithium-ion battery");
-
-            correctionAdd("Ni-cad", "NiCad");
-
-            correctionAdd("Neutrino", "neutrino");
-
-            correctionAdd("Positron", "positron");
-
-            correctionAdd("Positronium", "positronium");
-
-            correctionAdd("Lithium", "lithium");
-            correctionAdd("Lithion", "lithium");
-            correctionAdd("Li", "lithium");
-            correctionAdd("litium", "lithium");
-            correctionAdd("Litium", "lithium");
-            correctionAdd("lithim", "lithium");
-
-            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
-
-            correctionAdd("zirconia", "cubic zirconia");
-            correctionAdd("zirkonium", "cubic zirconia");
-
-            correctionAdd("NaCl", "sodium chloride");
-            correctionAdd("salt", "sodium chloride");
-            correctionAdd("Soidum Chloride", "sodium chloride");
-            correctionAdd("Sodium Chloride", "sodium chloride");
-
-            correctionAdd("GaN", "gallium nitride");
-
-            correctionAdd("potassium pyrosulfite", "potassium metabisulfite");
-            correctionAdd("Potassium Metabisulfite", "potassium metabisulfite");
-
-            correctionAdd("Potassium Sorbate", "potassium sorbate");
-
-            correctionAdd("Calcite", "calcite");
-
-            correctionAdd("Calcium phosphate", "calcium phosphate");
-
-            correctionAdd("Potassium Chloride", "potassium chloride");
-
-            correctionAdd("thorium 232", "thorium-233");
-
-            correctionAdd("Pu-239", "plutonium-239");
-            correctionAdd("239 Pu", "plutonium-239");
-            correctionAdd("Plutonium-239", "plutonium-239");
-
-            correctionAdd("Sr-94", "strontium-94");
-            correctionAdd("Sr 94", "strontium-94");
-
-            correctionAdd("U-235", "uranium-235");
-            correctionAdd("U 235", "uranium-235");
-            correctionAdd("235 U", "uranium-235");
-            correctionAdd("Uranium-235", "uranium-235");
-
-            correctionAdd("Xe-133", "xenon-133");
-
-            correctionAdd("Xe-140", "xenon-140");
-            correctionAdd("Xe 140", "xenon-140");
-
-            correctionAdd("Silicon", "silicon");
-            correctionAdd("Si", "silicon");
-            correctionAdd("silicium", "silicon");
-
-            correctionAdd("Sr", "strontium");
-            correctionAdd("Strontium", "strontium");
-
-            correctionAdd("Yb", "ytterbium");
-
-            correctionAdd("Tritium", "tritium");
-
-            correctionAdd("Plutonium", "plutonium");
-            correctionAdd("Pu", "plutonium");
-
-            correctionAdd("Thorium", "thorium");
-
-            correctionAdd("Uranium", "uranium");
-            correctionAdd("U", "uranium");
-
-            correctionAdd("Helium", "helium");
-            correctionAdd("He", "helium");
-
-            correctionAdd("Iridium", "iridium");
-
-            correctionAdd("Deuterium", "deuterium");
-
-            correctionAdd("Magnesium", "magnesium");
-            correctionAdd("Mg", "magnesium");
-
-            correctionAdd("aluminum", "aluminium");
-            correctionAdd("Al", "aluminium");
-            correctionAdd("Aliminium", "aluminium");
-            correctionAdd("aliminium", "aluminium");
-            correctionAdd("Aluminium", "aluminium");
-
-            correctionAdd("Radium", "radium");
-
-            correctionAdd("Thallium", "thallium");
-            correctionAdd("Tl", "thallium");
-
-            correctionAdd("Cadmium", "cadmium");
-            correctionAdd("Cd", "cadmium");
-
-            correctionAdd("Germanium", "germanium");
-            correctionAdd("Ge", "germanium");
-
-            correctionAdd("Bohrium", "bohrium");
-
-            correctionAdd("Copernicium", "copernicium");
-
-            correctionAdd("Dubnium", "dubnium");
-
-            correctionAdd("Rhenium", "rhenium");
-
-            correctionAdd("Rutherfordium", "rutherfordium");
-
-            correctionAdd("Seaborgium", "seaborgium");
-
-            correctionAdd("Tungsten", "tungsten");
-
-            correctionAdd("Unbihexium", "unbihexium");
-
-            correctionAdd("Unbinilium", "unbinilium");
-
-            correctionAdd("Pd", "palladium");
-            correctionAdd("Palladium", "palladium");
-
-            correctionAdd("Calcium", "calcium");
-            correctionAdd("Ca", "calcium");
-
-            correctionAdd("Cr", "chromium (chemical element)");
-
-            correctionAdd("Indium", "indium");
-            correctionAdd("In", "indium");
-
-            correctionAdd("Se", "selenium (chemical element)");
-
-            correctionAdd("Tellurium", "tellurium");
-            correctionAdd("Te", "tellurium");
-
-            correctionAdd("Titanium", "titanium");
-
-            correctionAdd("Beryllium", "beryllium");
-            correctionAdd("Be", "beryllium");
-
-            correctionAdd("Osmium", "osmium");
-
-            correctionAdd("columbium", "niobium");
-            correctionAdd("Niobium", "niobium");
-
-            correctionAdd("Zirconium", "zirconium");
 
             correctionAdd("w3", "W3C");
             correctionAdd("w3c", "W3C");
@@ -30890,6 +30892,10 @@ namespace OverflowHelper.core
 
             correctionAdd("mosty", "mostly");
 
+            correctionAdd("must", "most");
+
+            correctionAdd("moster", "monster");
+
             correctionAdd("protecion", "protection");
 
             correctionAdd("tupple", "tuple");
@@ -34253,8 +34259,6 @@ namespace OverflowHelper.core
             correctionAdd("universe sandbox", "Universe Sandbox");
 
             correctionAdd("actove", "active");
-
-            correctionAdd("AT", "at");
 
             correctionAdd("black bodies", "blackbodies");
 
@@ -38060,8 +38064,6 @@ namespace OverflowHelper.core
             correctionAdd("callng", "calling");
 
             correctionAdd("exctraction", "extraction");
-
-            correctionAdd("moster", "monster");
 
             correctionAdd("neck beard", "neckbeard");
 
@@ -45437,8 +45439,6 @@ namespace OverflowHelper.core
 
             correctionAdd("selenium IDE", "Selenium IDE");
 
-            correctionAdd("must", "most");
-
             correctionAdd("passtime", "pastime");
 
             correctionAdd("runner up", "runner-up");
@@ -45449,6 +45449,13 @@ namespace OverflowHelper.core
             correctionAdd("worring", "worrying");
 
             correctionAdd("paid homework", "paid homework (corruption)");
+
+            correctionAdd("cabal", "Cabal");
+
+            correctionAdd("shortcoming", "shortcomings");
+            correctionAdd("short coming", "shortcomings");
+
+            correctionAdd("state sponsored", "state-sponsored");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71425,6 +71432,12 @@ namespace OverflowHelper.core
 
             URL_Add("paid homework (corruption)", "https://meta.stackoverflow.com/questions/417632/request-to-let-banned-users-ask-one-question-every-week#comment906279_417632");
 
+            URL_Add("Cabal", "https://en.wikipedia.org/wiki/Cabal_(software)");
+
+            URL_Add("shortcomings", "https://en.wiktionary.org/wiki/shortcoming#Noun");
+
+            URL_Add("state-sponsored", "https://en.wikipedia.org/wiki/Russian_web_brigades");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71933,9 +71946,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dsl_", "digital subscriber line_");
             correctionAdd("DSL_", "digital subscriber line_");
-
-            correctionAdd("Most Valuable Professional_", "most valuable professional_");
-            correctionAdd("MVP_", "most valuable professional_");
 
             correctionAdd("Crate_", "crate_");
 
@@ -72900,7 +72910,10 @@ namespace OverflowHelper.core
 
             correctionAdd("chinese_", "Chinese_"); // The proper noun, the Chinese language. Main has the adjective.
 
-            correctionAdd("must_", "most_");
+            correctionAdd("Most Valuable Professional_", "most valuable professional_");
+            correctionAdd("MVP_", "most valuable professional_");
+
+            correctionAdd("AT_", "at_");
 
             // URL mappings
             //
@@ -73204,8 +73217,6 @@ namespace OverflowHelper.core
             URL_Add("digital subscriber line_", "https://en.wikipedia.org/wiki/Digital_subscriber_line");
 
             URL_Add("Christianity (Stack Exchange site)_", "https://christianity.stackexchange.com/tour");
-
-            URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
 
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
@@ -73749,7 +73760,9 @@ namespace OverflowHelper.core
 
             URL_Add("Computer Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
 
-            URL_Add("most_", "https://en.wiktionary.org/wiki/most#Adverb");
+            URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
+
+            URL_Add("at_", "https://linux.die.net/man/1/at");
 
         } //addLookupData_alternativeWordSet()
 
