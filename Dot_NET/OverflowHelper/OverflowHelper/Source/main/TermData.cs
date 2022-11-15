@@ -3668,6 +3668,7 @@ namespace OverflowHelper.core
             correctionAdd("UNIX & Linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("U&L SE", "Unix & Linux (Stack Exchange site)");
             correctionAdd("U&L_SE", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("Linux & Unix", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("IPS", "Interpersonal Skills (Stack Exchange site)");
             correctionAdd("interpersonal skills", "Interpersonal Skills (Stack Exchange site)");
@@ -4389,6 +4390,8 @@ namespace OverflowHelper.core
             correctionAdd("explicity", "explicitly");
             correctionAdd("explictly", "explicitly");
             correctionAdd("eplicitly", "explicitly");
+            correctionAdd("explicitelly", "explicitly");
+            correctionAdd("explicitlly", "explicitly");
 
             correctionAdd("exponental", "exponential");
             correctionAdd("expnonential", "exponential");
@@ -7157,6 +7160,7 @@ namespace OverflowHelper.core
             correctionAdd("depdening", "depending");
             correctionAdd("Dependending", "depending");
             correctionAdd("dependending", "depending");
+            correctionAdd("deppending", "depending");
 
             correctionAdd("dependance", "dependence");
 
@@ -9611,6 +9615,8 @@ namespace OverflowHelper.core
             correctionAdd("turturial", "tutorial");
             correctionAdd("turturials", "tutorial");
             correctionAdd("tuts", "tutorial");
+            correctionAdd("torturial", "tutorial"); // !!!!!
+            correctionAdd("toturial", "tutorial");
 
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
@@ -9936,6 +9942,7 @@ namespace OverflowHelper.core
             correctionAdd("bsod", "BSoD");
             correctionAdd("blue screen of death", "BSoD");
             correctionAdd("Blue Screen of Death", "BSoD");
+            correctionAdd("Blue Screen Of Death", "BSoD");
 
             correctionAdd("lynx", "Lynx");
             correctionAdd("LYNX", "Lynx");
@@ -14207,6 +14214,8 @@ namespace OverflowHelper.core
             correctionAdd("Beautifoul Soup", "Beautiful Soup");
             correctionAdd("BeautifoulSoup", "Beautiful Soup");
             correctionAdd("bs", "Beautiful Soup");
+            correctionAdd("BEAUTIFUL SOUP", "Beautiful Soup");
+            correctionAdd("BEAUTIFULSOUP", "Beautiful Soup");
 
             correctionAdd("beatiful", "beautiful");
             correctionAdd("beutiful", "beautiful");
@@ -15937,6 +15946,8 @@ namespace OverflowHelper.core
             correctionAdd("ackshually", "actually");
             correctionAdd("ackchyually", "actually");
             correctionAdd("acctualy", "actually");
+            correctionAdd("Actally", "actually");
+            correctionAdd("actally", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
@@ -18457,6 +18468,7 @@ namespace OverflowHelper.core
             correctionAdd("odbc", "ODBC");
 
             correctionAdd("docker-compose", "Docker Compose");
+            correctionAdd("Docker-Compose", "Docker Compose");
 
             correctionAdd("konqueror", "Konqueror");
 
@@ -20518,6 +20530,7 @@ namespace OverflowHelper.core
             correctionAdd("certian", "certain");
             correctionAdd("cetain", "certain");
             correctionAdd("cwrtain", "certain");
+            correctionAdd("certanin", "certain");
 
             correctionAdd("Collector", "collector");
 
@@ -21363,6 +21376,9 @@ namespace OverflowHelper.core
             correctionAdd("Data&nbsp;Studio", "Google&nbsp;Data&nbsp;Studio");
             correctionAdd("GDS", "Google&nbsp;Data&nbsp;Studio");
             correctionAdd("Datastudio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("Google data studio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("Looker Studio", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("looker", "Google&nbsp;Data&nbsp;Studio");
 
             correctionAdd("neovim", "Neovim");
             correctionAdd("nvim", "Neovim");
@@ -27538,7 +27554,7 @@ namespace OverflowHelper.core
             correctionAdd("upper-case", "uppercase");
 
             correctionAdd("lower case", "lowercase");
-            correctionAdd("lover case", "lowercase");
+            correctionAdd("lover case", "lowercase"); // !!!!!
             correctionAdd("lowercare", "lowercase");
             correctionAdd("lc", "lowercase");
             correctionAdd("lower-case", "lowercase");
@@ -31480,6 +31496,7 @@ namespace OverflowHelper.core
             correctionAdd("Technology", "technology");
             correctionAdd("technlogie", "technology");
             correctionAdd("technlogy", "technology");
+            correctionAdd("techology", "technology");
 
             correctionAdd("flake8", "Flake8");
 
@@ -33869,6 +33886,9 @@ namespace OverflowHelper.core
 
             correctionAdd("hand worked", "handworked");
 
+            correctionAdd("workedd", "worked");
+            correctionAdd("woked", "worked");
+
             correctionAdd("qties", "quantities");
             correctionAdd("qty's", "quantities");
 
@@ -35104,8 +35124,6 @@ namespace OverflowHelper.core
             correctionAdd("tia", "thanks in advance");
 
             correctionAdd("the bees kneeze", "the bee's knees");
-
-            correctionAdd("workedd", "worked");
 
             correctionAdd("eclipse", "Eclipse");
             correctionAdd("ECLIPSE", "Eclipse");
@@ -37851,6 +37869,7 @@ namespace OverflowHelper.core
             correctionAdd("code snipets", "Stack Snippets");
             correctionAdd("code snippets", "Stack Snippets");
             correctionAdd("SO Snippet", "Stack Snippets");
+            correctionAdd("Stack Snippet", "Stack Snippets");
 
             correctionAdd("functionning", "functioning");
 
@@ -38197,6 +38216,7 @@ namespace OverflowHelper.core
             correctionAdd("along the lines of", "along those lines");
             correctionAdd("In similar lines", "along those lines");
             correctionAdd("along similar lines", "along those lines");
+            correctionAdd("in similar lines", "along those lines");
 
             correctionAdd("bad-faith", "bad faith");
             correctionAdd("poor-faith", "bad faith");
@@ -38429,6 +38449,7 @@ namespace OverflowHelper.core
             correctionAdd("DUT", "device under test");
 
             correctionAdd("exisst", "exists");
+            correctionAdd("exsists", "exists");
 
             correctionAdd("linarity", "linearity");
 
@@ -40462,6 +40483,7 @@ namespace OverflowHelper.core
             correctionAdd("3Dnow!", "3DNow");
 
             correctionAdd("GHC", "Glasgow Haskell Compiler");
+            correctionAdd("ghc", "Glasgow Haskell Compiler");
 
             correctionAdd("PHP6", "PHP&nbsp;6");
             correctionAdd("PHP 6", "PHP&nbsp;6"); // Sort of identity mapping
@@ -45404,6 +45426,29 @@ namespace OverflowHelper.core
             correctionAdd("trapezoid rule", "trapezoidal rule");
             correctionAdd("Trapezium rule", "trapezoidal rule");
             correctionAdd("trapezium rule", "trapezoidal rule");
+
+            correctionAdd("eye sore", "eyesore");
+
+            correctionAdd("firepath", "FirePath");
+
+            correctionAdd("land owner", "landowner");
+
+            correctionAdd("laod", "load");
+
+            correctionAdd("selenium IDE", "Selenium IDE");
+
+            correctionAdd("must", "most");
+
+            correctionAdd("passtime", "pastime");
+
+            correctionAdd("runner up", "runner-up");
+            correctionAdd("runnerup", "runner-up");
+
+            correctionAdd("selef-learning", "self-learning");
+
+            correctionAdd("worring", "worrying");
+
+            correctionAdd("paid homework", "paid homework (corruption)");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71358,6 +71403,28 @@ namespace OverflowHelper.core
 
             URL_Add("trapezoidal rule", "https://en.wikipedia.org/wiki/Trapezoidal_rule");
 
+            URL_Add("eyesore", "https://en.wiktionary.org/wiki/eyesore#Noun");
+
+            URL_Add("FirePath", "https://stackoverflow.com/questions/41992056/why-doesnt-firepath-work-anymore-since-firefox-51-0-1");
+
+            URL_Add("landowner", "https://en.wiktionary.org/wiki/landowner#Noun");
+
+            URL_Add("load", "https://en.wiktionary.org/wiki/load#Verb");
+
+            URL_Add("Selenium IDE", "https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_IDE");
+
+            URL_Add("most", "https://en.wiktionary.org/wiki/most#Adverb");
+
+            URL_Add("pastime", "https://en.wiktionary.org/wiki/pastime#Noun");
+
+            URL_Add("runner-up", "https://en.wiktionary.org/wiki/runner-up#Noun");
+
+            URL_Add("self-learning", "https://en.wiktionary.org/wiki/self-learning#Noun");
+
+            URL_Add("worrying", "https://en.wiktionary.org/wiki/worry#Verb");
+
+            URL_Add("paid homework (corruption)", "https://meta.stackoverflow.com/questions/417632/request-to-let-banned-users-ask-one-question-every-week#comment906279_417632");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71641,8 +71708,13 @@ namespace OverflowHelper.core
 
             correctionAdd("TEE_", "tee_");
 
-            // The internal "About" page. The Wikipedia
-            // article version is in the main word set.
+            // The "Stacks" 'design system' one. It is more 
+            // concise. The Wikipedia article version is 
+            // in the main word set.
+            //
+            // A third option is the internal "About" page, 
+            // <https://stackoverflow.com/tour>
+            // 
             correctionAdd("SO_", "Stack&nbsp;Overflow_");
             correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
 
@@ -71709,6 +71781,7 @@ namespace OverflowHelper.core
             correctionAdd("EE SE_", "Electrical Engineering (Stack Exchange site)_");
             correctionAdd("Electrical Engineering_", "Electrical Engineering (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Electronics_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("electronics_", "Electrical Engineering (Stack Exchange site)_");
 
             correctionAdd("Islam SE_", "Islam (Stack Exchange site)_");
             correctionAdd("Islam_", "Islam (Stack Exchange site)_"); // Sort of identity mapping
@@ -72777,6 +72850,9 @@ namespace OverflowHelper.core
             correctionAdd("super user_", "superuser_");
             correctionAdd("Super&nbsp;User (Stack Exchange site)_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
 
+            correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
+
             correctionAdd("libsvm_", "LIBSVM_");
 
             correctionAdd("SVMs_", "support vector machine_");
@@ -72822,7 +72898,9 @@ namespace OverflowHelper.core
             correctionAdd("in-line_", "in line_");
             correctionAdd("inline_", "in line_");
 
-            correctionAdd("chinese_", "Chinese_");
+            correctionAdd("chinese_", "Chinese_"); // The proper noun, the Chinese language. Main has the adjective.
+
+            correctionAdd("must_", "most_");
 
             // URL mappings
             //
@@ -73029,7 +73107,7 @@ namespace OverflowHelper.core
 
             URL_Add("tee_", "https://en.wikipedia.org/wiki/Tee_(command)");
 
-            URL_Add("Stack&nbsp;Overflow_", "https://stackoverflow.com/tour");
+            URL_Add("Stack&nbsp;Overflow_", "https://stackoverflow.design/brand/copywriting/naming/"); // Old: https://stackoverflow.com/tour
 
             URL_Add("Ganymede_", "https://en.wikipedia.org/wiki/Ganymede_(moon)");
 
@@ -73668,6 +73746,10 @@ namespace OverflowHelper.core
             URL_Add("in line_", "https://en.wiktionary.org/wiki/in_line#Adjective");
 
             URL_Add("Chinese_", "https://en.wiktionary.org/wiki/Chinese#Proper_noun");
+
+            URL_Add("Computer Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
+
+            URL_Add("most_", "https://en.wiktionary.org/wiki/most#Adverb");
 
         } //addLookupData_alternativeWordSet()
 
