@@ -3954,6 +3954,8 @@ namespace OverflowHelper.core
             correctionAdd("Game development", "Game Development (Stack Exchange site)");
             correctionAdd("Game Development", "Game Development (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("game dev", "Game Development (Stack Exchange site)");
+            correctionAdd("Game Dev", "Game Development (Stack Exchange site)");
+            correctionAdd("GameDev", "Game Development (Stack Exchange site)");
 
             correctionAdd("skeptics", "Skeptics (Stack Exchange site)");
             correctionAdd("Skeptics", "Skeptics (Stack Exchange site)");
@@ -9702,6 +9704,7 @@ namespace OverflowHelper.core
             correctionAdd("Iam", "I’m");
             correctionAdd("I am", "I’m");
             correctionAdd("Ian", "I’m");
+            correctionAdd("I\\m", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -14283,6 +14286,8 @@ namespace OverflowHelper.core
             correctionAdd("Pl", "please");
             correctionAdd("pl", "please");
             correctionAdd("Pleas", "please");
+            correctionAdd("Pleases", "please");
+            correctionAdd("pleases", "please");
 
             correctionAdd("ecom", "E-commerce");
             correctionAdd("e-Commerce", "E-commerce");
@@ -15715,6 +15720,7 @@ namespace OverflowHelper.core
             correctionAdd("vueJs", "Vue.js");
             correctionAdd("VUE", "Vue.js");
             correctionAdd("Vue.JS", "Vue.js");
+            correctionAdd("Vue js", "Vue.js");
 
             correctionAdd("SYbase", "Sybase");
 
@@ -16052,6 +16058,7 @@ namespace OverflowHelper.core
 
             correctionAdd("util", "utility");
             correctionAdd("Utility", "utility");
+            correctionAdd("Util", "utility");
 
             correctionAdd("utilizing", "utilising");
             correctionAdd("utilozkng", "utilising");
@@ -16227,6 +16234,8 @@ namespace OverflowHelper.core
 
             correctionAdd("simulateous", "simultaneous");
             correctionAdd("Similtanous", "simultaneous"); // Not 100% correct - case.
+            correctionAdd("simultanious", "simultaneous");
+            correctionAdd("simultaniuous", "simultaneous");
 
             correctionAdd("redifine", "redefine");
             correctionAdd("re-define", "redefine");
@@ -26547,6 +26556,7 @@ namespace OverflowHelper.core
             correctionAdd("profit-sharing", "profit sharing");
 
             correctionAdd("scenarions", "scenarios");
+            correctionAdd("scenaria", "scenarios");
 
             correctionAdd("tradeoff", "trade-off");
             correctionAdd("trade off", "trade-off");
@@ -35978,6 +35988,7 @@ namespace OverflowHelper.core
             correctionAdd("momentjs", "Moment.js");
 
             correctionAdd("Strapi CMS", "Strapi");
+            correctionAdd("strapi", "Strapi");
 
             correctionAdd("aplicable", "applicable");
 
@@ -41021,8 +41032,6 @@ namespace OverflowHelper.core
             correctionAdd("dinamic", "dynamic");
             correctionAdd("dymanic", "dynamic");
 
-            correctionAdd("GameDev", "game development");
-
             correctionAdd("Game Engine", "game engine");
 
             correctionAdd("Linearithmic", "linearithmic");
@@ -45456,6 +45465,29 @@ namespace OverflowHelper.core
             correctionAdd("short coming", "shortcomings");
 
             correctionAdd("state sponsored", "state-sponsored");
+
+            // In probability theory (mathematics). Actually, it
+            // is "a.s", but we can't handle some punctuation
+            // at the moment.
+            correctionAdd("a.s", "almost surely");
+
+            correctionAdd("freindly", "friendly");
+
+            correctionAdd("pascal format", "PASCAL VOC Dataset");
+
+            correctionAdd("beamer", "Beamer");
+
+            correctionAdd("LXML", "lxml");
+
+            correctionAdd("Montpellier theme", "Montpellier");
+
+            correctionAdd("myvidoo", "myVidoop");
+
+            correctionAdd("running costs", "operating costs");
+
+            correctionAdd("text as images", "text as an image");
+
+            correctionAdd("type set", "typeset");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -67136,8 +67168,6 @@ namespace OverflowHelper.core
 
             URL_Add("dynamic", "https://en.wiktionary.org/wiki/dynamic#Adjective");
 
-            URL_Add("game development", "https://en.wikipedia.org/wiki/Video_game_development");
-
             URL_Add("game engine", "https://en.wikipedia.org/wiki/Game_engine");
 
             URL_Add("linearithmic", "https://en.wiktionary.org/wiki/linearithmic#Adjective");
@@ -71438,6 +71468,26 @@ namespace OverflowHelper.core
 
             URL_Add("state-sponsored", "https://en.wikipedia.org/wiki/Russian_web_brigades");
 
+            URL_Add("almost surely", "https://en.wikipedia.org/wiki/Almost_surely");
+
+            URL_Add("friendly", "https://en.wiktionary.org/wiki/friendly#Adjective");
+
+            URL_Add("PASCAL VOC Dataset", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Object_detection_and_recognition");
+
+            URL_Add("Beamer", "https://en.wikipedia.org/wiki/Beamer_(LaTeX)");
+
+            URL_Add("lxml", "https://lxml.de/");
+
+            URL_Add("Montpellier", "https://latex-beamer.com/tutorials/beamer-themes/4/#Montpellier");
+
+            URL_Add("myVidoop", "https://www.youtube.com/watch?v=xcmY8Pk-qEk&t=2m41");
+
+            URL_Add("operating costs", "https://en.wikipedia.org/wiki/Operating_cost#Equipment_operating_costs");
+
+            URL_Add("text as an image", "https://meta.stackoverflow.com/questions/285551/");
+
+            URL_Add("typeset", "https://en.wiktionary.org/wiki/typeset#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71721,13 +71771,13 @@ namespace OverflowHelper.core
 
             correctionAdd("TEE_", "tee_");
 
-            // The "Stacks" 'design system' one. It is more 
-            // concise. The Wikipedia article version is 
+            // The "Stacks" 'design system' one. It is more
+            // concise. The Wikipedia article version is
             // in the main word set.
             //
-            // A third option is the internal "About" page, 
+            // A third option is the internal "About" page,
             // <https://stackoverflow.com/tour>
-            // 
+            //
             correctionAdd("SO_", "Stack&nbsp;Overflow_");
             correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
 
@@ -72862,6 +72912,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_");
             correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("computer science_", "Computer Science (Stack Exchange site)_");
 
             correctionAdd("libsvm_", "LIBSVM_");
 
@@ -72914,6 +72965,8 @@ namespace OverflowHelper.core
             correctionAdd("MVP_", "most valuable professional_");
 
             correctionAdd("AT_", "at_");
+
+            correctionAdd("GameDev_", "game development_");
 
             // URL mappings
             //
@@ -73763,6 +73816,8 @@ namespace OverflowHelper.core
             URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
 
             URL_Add("at_", "https://linux.die.net/man/1/at");
+
+            URL_Add("game development_", "https://en.wikipedia.org/wiki/Video_game_development");
 
         } //addLookupData_alternativeWordSet()
 
