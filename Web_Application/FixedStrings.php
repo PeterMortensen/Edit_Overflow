@@ -373,9 +373,14 @@
                 />
             </p>
 
-            <!-- ******************************************************* -->
+            <!--  *** 
+                    Note: Do ***not*** edit this part manually. 
+                    Instead, copy-paste from the machine-
+                    generated file <EditOverflowList_latest.html> 
+                    (indent it by one unit).
+                  *** -->
 
-            <h2>Code <u>f</u>ormatting check</h2>
+            <h2>Code formatting check</h2>
 
             <p>Note: It is rudimentary. As the false positive rate is high, every match should be checked manually.</p>
 
@@ -392,21 +397,11 @@
                 "space after left parenthesis",
                 "missing space around some operators",
                 "missing capitalisation in comment (Jon Skeet decree)",
-                "missing space in comment (Jon Skeet decree)", and
-                "single-line 'if' statements"): <br/>
+                "missing space in comment (Jon Skeet decree)",
+                and "single-line 'if' statements"): <br/>
+                (\S\{|:\S|,\S|\S\=|\=\S|\s{2,}\=|\=\s{2,}|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\"|\)|(\$\w+\[.+\]))\.|\.['\"\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--)|\sif.*\).{3,})</p>
 
-                <input
-                    name="All combined"
-                    type="text"
-                    id="codeRegex_AllCombined"
-                    class="XYZ36"
-                    value="(\S\{|:\S|,\S|\S\=|\=\S|\s{2,}\=|\=\s{2,}|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|\)|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--)|\sif.*\).{3,})"
-                    style="width:320px;"
-                    accesskey="F"
-                    title="Shortcut: Shift + Alt + F"
-                />
-
-            </p>
+            <!-- *** End of machine-generated insert *** -->
 
 
 
