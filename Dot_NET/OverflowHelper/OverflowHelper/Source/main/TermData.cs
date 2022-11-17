@@ -668,6 +668,7 @@ namespace OverflowHelper.core
             correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
             correctionAdd("Selenium web-driver", "Selenium WebDriver");
             correctionAdd("Selenium WD", "Selenium WebDriver");
+            correctionAdd("Selenium web driver", "Selenium WebDriver");
 
             correctionAdd("debezium", "Debezium");
 
@@ -4001,10 +4002,6 @@ namespace OverflowHelper.core
             correctionAdd("Tex.SE", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("LaTeX.SE", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX.se", "TeX - LaTeX (Stack Exchange site)");
-
-            correctionAdd("Information Security", "Information Security (Stack Exchange site)");
-            correctionAdd("Security", "Information Security (Stack Exchange site)");
-            correctionAdd("Security.SE", "Information Security (Stack Exchange site)");
 
             correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
 
@@ -9953,6 +9950,7 @@ namespace OverflowHelper.core
             correctionAdd("LYNX", "Lynx");
 
             correctionAdd("PM", "project management"); // PM is an overloaded term...
+            correctionAdd("Project Management", "project management");
 
             correctionAdd("Tortoisesvn", "TortoiseSVN");
             correctionAdd("Tortoise svn", "TortoiseSVN");
@@ -14681,6 +14679,8 @@ namespace OverflowHelper.core
             correctionAdd("Isn't", "isn’t");
             correctionAdd("Isn’t", "isn’t");
             correctionAdd("izn't", "isn’t");
+            correctionAdd("is n", "isn’t");
+            correctionAdd("is nt", "isn’t");
 
             correctionAdd("newb", "newbie");
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
@@ -17945,6 +17945,14 @@ namespace OverflowHelper.core
             correctionAdd("personall access token", "personal access token");
             correctionAdd("Public Access Token", "personal access token");
             correctionAdd("public access token", "personal access token");
+
+            correctionAdd("acces token", "access token");
+            correctionAdd("access-token", "access token");
+            correctionAdd("acces-token", "access token");
+            correctionAdd("Access Token", "access token");
+
+            correctionAdd("Token", "token");
+            correctionAdd("toke", "token");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -24999,11 +25007,6 @@ namespace OverflowHelper.core
             correctionAdd("MSc", "Master of Science");
             correctionAdd("M.S", "Master of Science");
 
-            correctionAdd("acces token", "access token");
-            correctionAdd("access-token", "access token");
-            correctionAdd("acces-token", "access token");
-            correctionAdd("Access Token", "access token");
-
             correctionAdd("two-edged sword", "double-edged sword");
 
             correctionAdd("after-effects", "After Effects");
@@ -27115,6 +27118,7 @@ namespace OverflowHelper.core
 
             correctionAdd("InfoSec", "information security");
             correctionAdd("infosec", "information security");
+            correctionAdd("info sec", "information security");
 
             correctionAdd("secruity", "security");
             correctionAdd("scruity", "security");
@@ -27632,6 +27636,7 @@ namespace OverflowHelper.core
             correctionAdd("h1b", "H-1B");
             correctionAdd("H1(b)", "H-1B");
             correctionAdd("H1b", "H-1B");
+            correctionAdd("H1-B", "H-1B");
 
             correctionAdd("iso2", "ISO&nbsp;2");
             correctionAdd("ISO 2", "ISO&nbsp;2");
@@ -30951,6 +30956,7 @@ namespace OverflowHelper.core
             correctionAdd("execuion", "execution");
             correctionAdd("executin", "execution");
             correctionAdd("exicution", "execution");
+            correctionAdd("Execution", "execution");
 
             correctionAdd("Dark Energy", "dark energy");
 
@@ -36002,8 +36008,6 @@ namespace OverflowHelper.core
             correctionAdd("hand-wavy", "handwavy");
 
             correctionAdd("mockup", "mock-up");
-
-            correctionAdd("Token", "token");
 
             correctionAdd("dart-pad", "DartPad");
 
@@ -45467,7 +45471,7 @@ namespace OverflowHelper.core
             correctionAdd("state sponsored", "state-sponsored");
 
             // In probability theory (mathematics). Actually, it
-            // is "a.s", but we can't handle some punctuation
+            // is "a.s.", but we can't handle some punctuation
             // at the moment.
             correctionAdd("a.s", "almost surely");
 
@@ -45481,13 +45485,57 @@ namespace OverflowHelper.core
 
             correctionAdd("Montpellier theme", "Montpellier");
 
+            // Further evidence for the spelling is at 06 min 13 secs in
+            // "Vidoop Finovate 2008 Presentation",
+            // <https://www.youtube.com/watch?v=GkICQtnb2i8&t=6m13s>.
+            //
             correctionAdd("myvidoo", "myVidoop");
+            correctionAdd("myvidoop", "myVidoop");
 
             correctionAdd("running costs", "operating costs");
 
             correctionAdd("text as images", "text as an image");
+            correctionAdd("text as image", "text as an image");
 
             correctionAdd("type set", "typeset");
+
+            correctionAdd("Google Elastic Cloud", "Elastic Cloud");
+
+            correctionAdd("ESTA", "Electronic System for Travel Authorization");
+
+            correctionAdd("K6", "Grafana k6");
+            correctionAdd("k6", "Grafana k6");
+
+            correctionAdd("H4", "H-4");
+
+            correctionAdd("JFK", "John F. Kennedy International Airport");
+
+            correctionAdd("EWR", "Newark Liberty International Airport");
+
+            correctionAdd("newman", "Newman");
+
+            correctionAdd("ORD", "O'Hare International Airport");
+
+            correctionAdd("playload", "payload");
+
+            correctionAdd("PIT", "Pittsburgh International Airport");
+
+            correctionAdd("WHOIS", "whois");
+
+            correctionAdd("closed source", "closed-source software");
+            correctionAdd("closed source software", "closed-source software");
+
+            correctionAdd("explict", "explicit");
+
+            correctionAdd("Physical Fitness", "Physical Fitness (Stack Exchange site)");
+
+            correctionAdd("R/A", "rude or abusive");
+
+            correctionAdd("SOC", "System and Organization Controls");
+
+            // Though the single quotes should probably be 
+            // caught/treated like double quotes are.
+            correctionAdd("SOC 2", "System and Organization Controls, report type 'Trust Services Criteria'");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59224,8 +59272,6 @@ namespace OverflowHelper.core
 
             URL_Add("ATtiny", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
-            URL_Add("Information Security (Stack Exchange site)", "https://security.stackexchange.com/tour");
-
             URL_Add("SKU", "https://en.wikipedia.org/wiki/Stock_keeping_unit");
 
             URL_Add("Skynet", "https://en.wikipedia.org/wiki/Skynet_(Terminator)#Cultural_impact");
@@ -71488,6 +71534,40 @@ namespace OverflowHelper.core
 
             URL_Add("typeset", "https://en.wiktionary.org/wiki/typeset#Verb");
 
+            URL_Add("Elastic Cloud", "https://cloud.google.com/architecture/deploying-migrating-elastic-cloud-kubernetes-to-google-cloud");
+
+            URL_Add("Electronic System for Travel Authorization", "https://en.wikipedia.org/wiki/Electronic_System_for_Travel_Authorization");
+
+            URL_Add("Grafana k6", "https://k6.io/docs/");
+
+            URL_Add("H-4", "https://en.wikipedia.org/wiki/H-4_visa");
+
+            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
+
+            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
+
+            URL_Add("Newman", "https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/");
+
+            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
+
+            URL_Add("payload", "https://en.wiktionary.org/wiki/payload#Noun");
+
+            URL_Add("Pittsburgh International Airport", "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport");
+
+            URL_Add("whois", "https://en.wikipedia.org/wiki/WHOIS");
+
+            URL_Add("closed-source software", "https://en.wikipedia.org/wiki/Proprietary_software");
+
+            URL_Add("explicit", "https://en.wiktionary.org/wiki/explicit#Adjective");
+
+            URL_Add("Physical Fitness (Stack Exchange site)", "https://fitness.stackexchange.com/tour");
+
+            URL_Add("rude or abusive", "https://meta.stackexchange.com/questions/58032/what-are-the-spam-and-rude-or-abusive-offensive-flags-and-how-do-they-wor");
+
+            URL_Add("System and Organization Controls", "https://en.wikipedia.org/wiki/System_and_Organization_Controls");
+
+            URL_Add("System and Organization Controls, report type 'Trust Services Criteria'", "https://en.wikipedia.org/wiki/System_and_Organization_Controls#Types");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71912,6 +71992,88 @@ namespace OverflowHelper.core
             correctionAdd("Bitcoin_", "Bitcoin (Stack Exchange site)_");
             correctionAdd("bitcoin.se_", "Bitcoin (Stack Exchange site)_");
 
+            correctionAdd("SA_", "Seasoned Advice (Stack Exchange site)_");
+            correctionAdd("Seasoned Advice_", "Seasoned Advice (Stack Exchange site)_"); // Sort of identity mapping"
+
+            correctionAdd("Academia_", "Academia (Stack Exchange site)_");
+            correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
+            correctionAdd("Academia.SE_", "Academia (Stack Exchange site)_");
+            correctionAdd("academia_", "Academia (Stack Exchange site)_");
+
+            correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("music Stack Exchange_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("music Stack Exchange site_", "Music: Practice & Theory (Stack Exchange site)_");
+
+            correctionAdd("Psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology&Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psycology and Neurocience_", "Psychology & Neuroscience (Stack Exchange site)_");
+
+            correctionAdd("Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("SFF_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("Sci-Fi and Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("Science Fiction & Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("sci-fi and fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("sci-fi_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("Scifi_", "Science Fiction & Fantasy (Stack Exchange site)_");
+            correctionAdd("scifi_", "Science Fiction & Fantasy (Stack Exchange site)_");
+
+            correctionAdd("Medical Sciences_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("Medical SE_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("Life Sciences_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("medical_", "Medical Sciences (Stack Exchange site)_");
+            correctionAdd("MedicalSciences_", "Medical Sciences (Stack Exchange site)_");
+
+            correctionAdd("French Language_", "French Language (Stack Exchange site)_");
+            correctionAdd("French_", "French Language (Stack Exchange site)_");
+
+            correctionAdd("Emacs_", "Emacs (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("emacs_", "Emacs (Stack Exchange site)_");
+
+            correctionAdd("linguistics_", "Linguistics (Stack Exchange site)_");
+            correctionAdd("Linguistics_", "Linguistics (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("Ethereum_", "Ethereum (Stack Exchange site)_");
+            correctionAdd("ethereum.stackexchange.com_", "Ethereum (Stack Exchange site)_");
+
+            correctionAdd("CS50_", "CS50 (Stack Exchange site)_");
+
+            correctionAdd("Philosophy_", "Philosophy (Stack Exchange site)_");
+
+            correctionAdd("cross-validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Cross validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Cross Validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("cross validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("CrossValidated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats.SE_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("stats.stackexchange.com_", "Cross Validated (Stack Exchange site)_");
+
+            correctionAdd("space exploration_", "Space Exploration (Stack Exchange site)_");
+            correctionAdd("Space Exploration_", "Space Exploration (Stack Exchange site)_");
+            correctionAdd("Space_", "Space Exploration (Stack Exchange site)_");
+
+            correctionAdd("DevOps_", "DevOps (Stack Exchange site)_");
+
+            correctionAdd("super-user_", "superuser_");
+            correctionAdd("super user_", "superuser_");
+            correctionAdd("Super&nbsp;User (Stack Exchange site)_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
+
+            correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("computer science_", "Computer Science (Stack Exchange site)_");
+
+            correctionAdd("Information Security_", "Information Security (Stack Exchange site)_");
+            correctionAdd("Security_", "Information Security (Stack Exchange site)_");
+            correctionAdd("Security.SE_", "Information Security (Stack Exchange site)_");
+            correctionAdd("info sec_", "Information Security (Stack Exchange site)_");
+            correctionAdd("information security_", "Information Security (Stack Exchange site)_");
+
+            correctionAdd("project management_", "Project Management (Stack Exchange site)_");
+            correctionAdd("Project Management_", "Project Management (Stack Exchange site)_"); // Sort of identity mapping
+
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
 
@@ -72009,46 +72171,12 @@ namespace OverflowHelper.core
 
             correctionAdd("NI_", "National Instruments_");
 
-            correctionAdd("SA_", "Seasoned Advice (Stack Exchange site)_");
-            correctionAdd("Seasoned Advice_", "Seasoned Advice (Stack Exchange site)_"); // Sort of identity mapping"
-
             correctionAdd("Pi_", "pi_");
 
             correctionAdd("Chicago manual of style_", "The Chicago Manual of Style_");
             correctionAdd("CMS_", "The Chicago Manual of Style_");
             correctionAdd("chicago manual of style_", "The Chicago Manual of Style_");
             correctionAdd("Chicago_", "The Chicago Manual of Style_");
-
-            correctionAdd("Academia_", "Academia (Stack Exchange site)_");
-            correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
-            correctionAdd("Academia.SE_", "Academia (Stack Exchange site)_");
-            correctionAdd("academia_", "Academia (Stack Exchange site)_");
-
-            correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
-            correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
-            correctionAdd("music Stack Exchange_", "Music: Practice & Theory (Stack Exchange site)_");
-            correctionAdd("music Stack Exchange site_", "Music: Practice & Theory (Stack Exchange site)_");
-
-            correctionAdd("Psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
-            correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
-            correctionAdd("Psychology&Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_");
-
-            correctionAdd("Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("SFF_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("Sci-Fi and Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("Science Fiction & Fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("sci-fi and fantasy_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("sci-fi_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("Scifi_", "Science Fiction & Fantasy (Stack Exchange site)_");
-            correctionAdd("scifi_", "Science Fiction & Fantasy (Stack Exchange site)_");
-
-            correctionAdd("Medical Sciences_", "Medical Sciences (Stack Exchange site)_");
-            correctionAdd("Medical SE_", "Medical Sciences (Stack Exchange site)_");
-            correctionAdd("Life Sciences_", "Medical Sciences (Stack Exchange site)_");
-            correctionAdd("medical_", "Medical Sciences (Stack Exchange site)_");
-            correctionAdd("MedicalSciences_", "Medical Sciences (Stack Exchange site)_");
 
             correctionAdd("Are_", "are_");
             correctionAdd("aer_", "are_");
@@ -72294,34 +72422,6 @@ namespace OverflowHelper.core
             correctionAdd("wrie_", "write_");
             correctionAdd("wirte_", "write_");
             correctionAdd("Write_", "write_");
-
-            correctionAdd("French Language_", "French Language (Stack Exchange site)_");
-            correctionAdd("French_", "French Language (Stack Exchange site)_");
-
-            correctionAdd("Emacs_", "Emacs (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("emacs_", "Emacs (Stack Exchange site)_");
-
-            correctionAdd("linguistics_", "Linguistics (Stack Exchange site)_");
-            correctionAdd("Linguistics_", "Linguistics (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("Ethereum_", "Ethereum (Stack Exchange site)_");
-            correctionAdd("ethereum.stackexchange.com_", "Ethereum (Stack Exchange site)_");
-
-            correctionAdd("CS50_", "CS50 (Stack Exchange site)_");
-
-            correctionAdd("Philosophy_", "Philosophy (Stack Exchange site)_");
-
-            correctionAdd("cross-validated_", "Cross Validated (Stack Exchange site)_");
-            correctionAdd("Cross validated_", "Cross Validated (Stack Exchange site)_");
-            correctionAdd("Cross Validated_", "Cross Validated (Stack Exchange site)_");
-            correctionAdd("cross validated_", "Cross Validated (Stack Exchange site)_");
-            correctionAdd("CrossValidated_", "Cross Validated (Stack Exchange site)_");
-            correctionAdd("Stats.SE_", "Cross Validated (Stack Exchange site)_");
-            correctionAdd("stats.stackexchange.com_", "Cross Validated (Stack Exchange site)_");
-
-            correctionAdd("space exploration_", "Space Exploration (Stack Exchange site)_");
-            correctionAdd("Space Exploration_", "Space Exploration (Stack Exchange site)_");
-            correctionAdd("Space_", "Space Exploration (Stack Exchange site)_");
 
             correctionAdd("rome_", "Rome_");
 
@@ -72899,20 +72999,10 @@ namespace OverflowHelper.core
 
             correctionAdd("suit_", "suite_");
 
-            correctionAdd("DevOps_", "DevOps (Stack Exchange site)_");
-
             correctionAdd("mercury_", "Mercury_");
 
             correctionAdd("mixed signal oscilloscope_", "mixed-signal oscilloscope_");
             correctionAdd("MSO_", "mixed-signal oscilloscope_");
-
-            correctionAdd("super-user_", "superuser_");
-            correctionAdd("super user_", "superuser_");
-            correctionAdd("Super&nbsp;User (Stack Exchange site)_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
-
-            correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_");
-            correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
-            correctionAdd("computer science_", "Computer Science (Stack Exchange site)_");
 
             correctionAdd("libsvm_", "LIBSVM_");
 
@@ -72967,6 +73057,10 @@ namespace OverflowHelper.core
             correctionAdd("AT_", "at_");
 
             correctionAdd("GameDev_", "game development_");
+
+            correctionAdd("Work_", "work_");
+
+            correctionAdd("Usability_", "usability_");
 
             // URL mappings
             //
@@ -73818,6 +73912,14 @@ namespace OverflowHelper.core
             URL_Add("at_", "https://linux.die.net/man/1/at");
 
             URL_Add("game development_", "https://en.wikipedia.org/wiki/Video_game_development");
+
+            URL_Add("work_", "https://en.wiktionary.org/wiki/work#Verb");
+
+            URL_Add("Information Security (Stack Exchange site)_", "https://security.stackexchange.com/tour");
+
+            URL_Add("Project Management (Stack Exchange site)_", "https://pm.stackexchange.com/tour");
+
+            URL_Add("usability_", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
 
         } //addLookupData_alternativeWordSet()
 
