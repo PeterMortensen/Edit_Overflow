@@ -129,7 +129,7 @@ namespace OverflowHelper.core
 
             addCodeCheck(
               codeFormattingsRegexEnum.missingSpaceAroundEqualSign, 3,
-              @"\S\=|\=\S",
+              @"\S\=|\=\S|\s{2,}\=|\=\s{2,}",
               "Missing space around &equal sign");
 
             addCodeCheck(
@@ -250,7 +250,7 @@ namespace OverflowHelper.core
               @")";
 
             // For comment character sequences "//" (C++, JavaScript, etc.),
-            // "/*" (C, CSS, etc.), and "#" (Perl, Bash, etc.).
+            // "/*" (C, CSS, etc.), and "#" (Perl, Bash, Python, etc.).
             //
             // Capatalisation of the comment text
             //

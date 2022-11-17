@@ -210,6 +210,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         # Rely on an exception being thrown if it doesn't
         # exist. Conversely, there doesn't seem to be a
         # way to avoid the exception.
+        #
+        # However, is there some kind of time penalty using
+        # the try-catch?? Some timeout period of multiple
+        # seconds? This seems to indicate it is 3 seconds:
+        #
+        #   <https://stackoverflow.com/questions/6521270/webdriver-check-if-an-element-exists/8790334#8790334>
+        #
         try:
 
             # Notes: By.ID requires an import, otherwise the result is:

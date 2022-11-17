@@ -50,7 +50,7 @@ namespace CodeFormattingCheckTests
          *                                                                          *
          *   And we get to have a combined regular expression that can be           *
          *   used elsewhere (e.g., in file FixedStrings.php - though                *
-         *   double quotes must be escaped as "&quot;").                            *                                           *
+         *   double quotes must be escaped as "&quot;").                            *
          *                                                                          *
          *                                                                          *
          ****************************************************************************/
@@ -88,7 +88,7 @@ namespace CodeFormattingCheckTests
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
                 Assert.AreEqual(
-                  @"\S\=|\=\S",
+                  @"\S\=|\=\S|\s{2,}\=|\=\s{2,}",
                   cfCheck.getRegularExpression(codeFormattingsRegexEnum.missingSpaceAroundEqualSign),
                   "");
             }
@@ -205,7 +205,7 @@ namespace CodeFormattingCheckTests
                 //
                 //       Backslash is NOT escaped (using "@")
                 Assert.AreEqual(
-                  @"(\S\{|:\S|,\S|\S\=|\=\S|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|\)|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--)|\sif.*\).{3,})",
+                  @"(\S\{|:\S|,\S|\S\=|\=\S|\s{2,}\=|\=\s{2,}|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&&|&&\S|('|\""|\)|(\$\w+\[.+\]))\.|\.['\""\]]|(\/\/|\/\*|\#|<!--)\s*\p{Ll}|(\/\/|\/\*|\#|<!--)\S|\S(\/\/|\/\*|\#|<!--)|\sif.*\).{3,})",
                   cfCheck.combinedAllOfRegularExpressions(),
                   "");
             }
@@ -266,6 +266,172 @@ namespace CodeFormattingCheckTests
 
                 // The full (combined) regular expression should not give
                 // a false positive, etc.
+            }
+
+            // For missing or too much space close to equal sign.
+            {
+                CodeFormattingCheck cfCheck = new CodeFormattingCheck();
+
+                // Too much space
+                {
+                    // Bad code should be detected
+                    //
+                    
+                    string badCode1 = "rows =  driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode1,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode1,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+                // Too much space. But also covered by another match.
+                {
+                    // Bad code should be detected
+                    //
+                    
+                    string badCode3 = "rows=  driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode3,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode3,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+                // Too much space, even more (one more than the 
+                // supposed lower in the regular expression.
+                {
+                    // Bad code should be detected
+                    //
+                    
+                    string badCode4 = "rows=   driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode4,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode4,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+                // Too much space. But also covered by another match.
+                {
+                    // Bad code should be detected
+                    //
+                    
+                    string badCode5 = "rows =  driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode5,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode5,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+                // Too much space, even more (one more than the 
+                // supposed lower in the regular expression.
+                {
+                    // Bad code should be detected
+                    //
+                    
+                    string badCode6 = "rows =   driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode6,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode6,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+                // Too much space to the left
+                {
+                    // Bad code should be detected
+                    //                    
+                    string badCode7 = "rows  = driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode7,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode7,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+                // Too much space to both sides
+                {
+                    // Bad code should be detected
+                    //                    
+                    string badCode8 = "rows  =  driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode8,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode8,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+
+                // Too little space. Probably covered by the 
+                // very first test in this function.
+                {
+                    // Bad code should be detected
+                    string badCode2 = "rows =driver.findElements";
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                          badCode2,
+                          cfCheck.getRegularExpression(
+                            codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
+
+                    // Also using the full (combined) regular expression
+                    Assert.IsTrue(
+                        RegExExecutor.match(
+                            badCode2,
+                            cfCheck.combinedAllOfRegularExpressions()));
+                }
+
+
+                // The corresponding fixed code should not be
+                // detected (neither real or false positives).
+                Assert.IsFalse(
+                    RegExExecutor.match(
+                      "rows = driver.findElements",
+                      cfCheck.getRegularExpression(
+                        codeFormattingsRegexEnum.missingSpaceAroundEqualSign)));
             }
 
             {
