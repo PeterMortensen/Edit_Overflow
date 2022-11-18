@@ -7464,6 +7464,28 @@ namespace OverflowHelper.core
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
 
+            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
+
+            correctionAdd("LAX", "Los Angeles International Airport");
+
+            correctionAdd("LAS", "McCarran International Airport");
+
+            correctionAdd("SYD", "Sydney Airport");
+
+            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
+            correctionAdd("TBIT", "Tom Bradley International Terminal");
+
+            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
+            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
+
+            correctionAdd("JFK", "John F. Kennedy International Airport");
+
+            correctionAdd("EWR", "Newark Liberty International Airport");
+
+            correctionAdd("ORD", "O'Hare International Airport");
+
+            correctionAdd("PIT", "Pittsburgh International Airport");
+
             correctionAdd("adsl", "ADSL");
 
             correctionAdd("legit", "legitimate"); // Expansion, not case correction.
@@ -10684,6 +10706,7 @@ namespace OverflowHelper.core
             correctionAdd("robot framework", "Robot Framework");
             correctionAdd("Robot framework", "Robot Framework");
             correctionAdd("Robot", "Robot Framework");
+            correctionAdd("RobotFramework", "Robot Framework");
 
             // Expansion, not case correction.
             correctionAdd("Entity Framework", "ADO.NET Entity Framework");
@@ -16642,6 +16665,7 @@ namespace OverflowHelper.core
             correctionAdd("inly", "only");
             correctionAdd("on;y", "only");
             correctionAdd("onl;y", "only");
+            correctionAdd("ony", "only");
 
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
@@ -22366,8 +22390,6 @@ namespace OverflowHelper.core
 
             correctionAdd("british airways", "British Airways");
 
-            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
-
             correctionAdd("Emms", "EMMS");
 
             correctionAdd("JWST", "James Webb Space Telescope");
@@ -27632,11 +27654,15 @@ namespace OverflowHelper.core
 
             correctionAdd("GOM", "Gulf of Mexico");
 
+            // A type of visa in the USA.
             correctionAdd("H1B", "H-1B");
             correctionAdd("h1b", "H-1B");
             correctionAdd("H1(b)", "H-1B");
             correctionAdd("H1b", "H-1B");
             correctionAdd("H1-B", "H-1B");
+
+            // A type of visa in the USA.
+            correctionAdd("H4", "H-4");
 
             correctionAdd("iso2", "ISO&nbsp;2");
             correctionAdd("ISO 2", "ISO&nbsp;2");
@@ -29824,6 +29850,7 @@ namespace OverflowHelper.core
             correctionAdd("Chrome Dev Tools", "Chrome DevTools");
             correctionAdd("Google Chrome DevTools", "Chrome DevTools");
             correctionAdd("google-chrome-devtools", "Chrome DevTools");
+            correctionAdd("chrome dev tools", "Chrome DevTools");
 
             correctionAdd("MBaas", "MBaaS");
 
@@ -38328,17 +38355,8 @@ namespace OverflowHelper.core
             correctionAdd("loopback-4", "LoopBack 4");
             correctionAdd("loopback 4", "LoopBack 4");
 
-            correctionAdd("LAX", "Los Angeles International Airport");
-
             correctionAdd("GLEE", "MSAGL");
             correctionAdd("msagl", "MSAGL");
-
-            correctionAdd("LAS", "McCarran International Airport");
-
-            correctionAdd("SYD", "Sydney Airport");
-
-            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
-            correctionAdd("TBIT", "Tom Bradley International Terminal");
 
             correctionAdd("windows task scheduler", "Windows Task Scheduler");
             correctionAdd("window task scheduler", "Windows Task Scheduler");
@@ -41937,9 +41955,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mobile device management", "MDM");
 
-            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
-            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
-
             correctionAdd("ket", "bra–ket notation");
 
             correctionAdd("BYOD", "bring your own device");
@@ -45506,19 +45521,9 @@ namespace OverflowHelper.core
             correctionAdd("K6", "Grafana k6");
             correctionAdd("k6", "Grafana k6");
 
-            correctionAdd("H4", "H-4");
-
-            correctionAdd("JFK", "John F. Kennedy International Airport");
-
-            correctionAdd("EWR", "Newark Liberty International Airport");
-
             correctionAdd("newman", "Newman");
 
-            correctionAdd("ORD", "O'Hare International Airport");
-
             correctionAdd("playload", "payload");
-
-            correctionAdd("PIT", "Pittsburgh International Airport");
 
             correctionAdd("WHOIS", "whois");
 
@@ -45536,6 +45541,23 @@ namespace OverflowHelper.core
             // Though the single quotes should probably be 
             // caught/treated like double quotes are.
             correctionAdd("SOC 2", "System and Organization Controls, report type 'Trust Services Criteria'");
+
+            correctionAdd("Chromedriver", "Selenium ChromeDriver");
+            correctionAdd("ChromeDriver", "Selenium ChromeDriver");
+            correctionAdd("Selenium Chromedriver", "Selenium ChromeDriver");
+            correctionAdd("chromedriver", "Selenium ChromeDriver");
+
+            correctionAdd("browserstack", "BrowserStack");
+
+            correctionAdd("in the longer run", "in the long run");
+
+            correctionAdd("PN1", "Programmer's Notepad");
+            correctionAdd("programmer's notepad", "Programmer's Notepad");
+            correctionAdd("programmers notepad", "Programmer's Notepad");
+
+            correctionAdd("saucelabs", "Sauce Labs");
+
+            correctionAdd("ULV", "ultra-low-voltage");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71568,6 +71590,18 @@ namespace OverflowHelper.core
 
             URL_Add("System and Organization Controls, report type 'Trust Services Criteria'", "https://en.wikipedia.org/wiki/System_and_Organization_Controls#Types");
 
+            URL_Add("Selenium ChromeDriver", "https://chromedriver.chromium.org/getting-started");
+
+            URL_Add("BrowserStack", "https://en.wikipedia.org/wiki/BrowserStack");
+
+            URL_Add("in the long run", "https://en.wiktionary.org/wiki/in_the_long_run#Prepositional_phrase");
+
+            URL_Add("Programmer's Notepad", "https://github.com/simonsteele/pn");
+
+            URL_Add("Sauce Labs", "https://en.wikipedia.org/wiki/Sauce_Labs");
+
+            URL_Add("ultra-low-voltage", "https://en.wikipedia.org/wiki/Ultra-low-voltage_processor");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -71602,6 +71636,9 @@ namespace OverflowHelper.core
         {
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
+
+            correctionAdd("pop_", "POP_");
+            correctionAdd("Gregorio Luperón International Airport_", "POP_");
 
             correctionAdd("msaccess_", "Microsoft Access_");
             correctionAdd("ms-access_", "Microsoft Access_");
@@ -72951,9 +72988,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ifr_", "IFR_");
 
-            correctionAdd("pop_", "POP_");
-            correctionAdd("Gregorio Luperón International Airport_", "POP_");
-
             correctionAdd("icecream_", "ice cream_");
 
             correctionAdd("characteristica_", "characteristic_");
@@ -73061,6 +73095,8 @@ namespace OverflowHelper.core
             correctionAdd("Work_", "work_");
 
             correctionAdd("Usability_", "usability_");
+
+            correctionAdd("Airport_", "airport_");
 
             // URL mappings
             //
@@ -73920,6 +73956,8 @@ namespace OverflowHelper.core
             URL_Add("Project Management (Stack Exchange site)_", "https://pm.stackexchange.com/tour");
 
             URL_Add("usability_", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
+
+            URL_Add("airport_", "https://en.wikipedia.org/wiki/Airport");
 
         } //addLookupData_alternativeWordSet()
 

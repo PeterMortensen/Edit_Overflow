@@ -130,7 +130,7 @@ namespace OverflowHelper.core
             addCodeCheck(
               codeFormattingsRegexEnum.missingSpaceAroundEqualSign, 3,
               @"\S\=|\=\S|\s{2,}\=|\=\s{2,}",
-              "Missing space around &equal sign");
+              "Missing or too much space around &equal sign");
 
             addCodeCheck(
               codeFormattingsRegexEnum.missingSpaceAroundStringConcatenation, 3,

@@ -178,6 +178,7 @@ namespace OverflowHelper.Tests
                     8 + 4 + 3 + 2*1 + 1 + 91 + 1 + 1 + // Two empty lines + indent + HTML comment syntax + space + some HTML comment + newline +
                     93 - 93 +
                     2 +
+                    7 +
                     0,
                 len,
                 "XYZ");
@@ -227,6 +228,9 @@ namespace OverflowHelper.Tests
             //  +110 Added an (HTML) comment
             //    +0 For Git shenanigans...
             //    +2 For alfa version 99 -> 100...
+            //    +7 For making the code checking headline compatible
+            //       with the keyboard shortcut on the fixed string
+            //       page...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -305,6 +309,7 @@ namespace OverflowHelper.Tests
                     83 +
                     incorrectWords * -2 +
                     2 +
+                    7 +
                     0,
                 len,
                 "XYZ");
@@ -340,6 +345,9 @@ namespace OverflowHelper.Tests
             //   +83 For adding an anchor to some lines in the table
             //    -6 For removal of two spaces per HTML row
             //    +2 For alfa version 99 -> 100...
+            //    +7 For making the code checking headline compatible
+            //       with the keyboard shortcut on the fixed string
+            //       page...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
