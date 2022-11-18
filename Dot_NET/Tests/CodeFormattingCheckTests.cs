@@ -224,7 +224,7 @@ namespace CodeFormattingCheckTests
                 //      items in a GUI))
                 //
                 Assert.AreEqual(
-                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", ""missing space around some operators"", ""missing capitalisation in comment (Jon Skeet decree)"", ""missing space in comment (Jon Skeet decree)"", and ""single-line 'if' statements"")",
+                  @"(""missing space before {"", ""missing space after colon"", ""missing space after comma"", ""missing or too much space around equal sign"", ""missing space around string concatenation (by ""+"")"", ""space before comma"", ""space before colon"", ""space before right parenthesis"", ""space before semicolon"", ""space after left parenthesis"", ""missing space around some operators"", ""missing capitalisation in comment (Jon Skeet decree)"", ""missing space in comment (Jon Skeet decree)"", and ""single-line 'if' statements"")",
                   // @"XYZ",
                   cfCheck.combinedAllOfExplanations(),
                   "");

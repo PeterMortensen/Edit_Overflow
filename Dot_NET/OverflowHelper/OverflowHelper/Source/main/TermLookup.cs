@@ -1263,7 +1263,7 @@ namespace OverflowHelper.core
             aInOutBuilder.addEmptyLine();
             aInOutBuilder.addComment("Note: Updates to this part (e.g., more code checks) is to be updated in FixedStrings.php...");
 
-            aInOutBuilder.addHeader(2, "Code formatting check");
+            aInOutBuilder.addHeader(2, "Code <u>f</u>ormatting check");
 
             aInOutBuilder.addParagraph(
               "Note: It is rudimentary. As the false positive rate is high, " +

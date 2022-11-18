@@ -373,14 +373,25 @@
                 />
             </p>
 
-            <!--  *** 
-                    Note: Do ***not*** edit this part manually. 
+            <!--  ***
+                    Note: Do ***not*** edit this part manually.
                     Instead, copy-paste from the machine-
-                    generated file <EditOverflowList_latest.html> 
-                    (indent it by one unit).
+                    generated file <EditOverflowList_latest.html>
+                    (indent it by one unit):
+
+                      * Copy the <h2> and two <p> parts.
+
+                      * Indent them one indent unit
+
+                      * Move the regular expression to the <input>'s
+                        "value" attribute's content.
+
+                      * Replace double quote with "&quot;"
+                        in the regular expression.
+
                   *** -->
 
-            <h2>Code formatting check</h2>
+            <h2>Code <u>f</u>ormatting check</h2>
 
             <p>Note: It is rudimentary. As the false positive rate is high, every match should be checked manually.</p>
 
@@ -388,7 +399,7 @@
                 ("missing space before <strong>{</strong>",
                 "missing space after colon",
                 "missing space after comma",
-                "missing space around equal sign",
+                "missing or too much space around equal sign",
                 "missing space around string concatenation (by "<strong>+</strong>")",
                 "space before comma",
                 "space before colon",
@@ -399,10 +410,20 @@
                 "missing capitalisation in comment (Jon Skeet decree)",
                 "missing space in comment (Jon Skeet decree)",
                 and "single-line 'if' statements"): <br/>
-                (\S\{|:\S|,\S|\S\=|\=\S|\s{2,}\=|\=\s{2,}|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\"|\)|(\$\w+\[.+\]))\.|\.['\"\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--)|\sif.*\).{3,})</p>
 
-            <!-- *** End of machine-generated insert *** -->
+                <!-- *** End of partly machine-generated insert *** -->
 
+                <input
+                    name="All combined"
+                    type="text"
+                    id="codeRegex_AllCombined"
+                    class="XYZ36"
+                    value="(\S\{|:\S|,\S|\S\=|\=\S|\s{2,}\=|\=\s{2,}|\S\+|\+\S|\s,|\s:|\s\)|\s;|\(\s|\S&amp;&amp;|&amp;&amp;\S|('|\&quot;|\)|(\$\w+\[.+\]))\.|\.['\&quot;\]]|(\/\/|\/\*|\#|&lt;!--)\s*\p{Ll}|(\/\/|\/\*|\#|&lt;!--)\S|\S(\/\/|\/\*|\#|&lt;!--)|\sif.*\).{3,})"
+                    style="width:320px;"
+                    accesskey="F"
+                    title="Shortcut: Shift + Alt + F"
+                />
+            </p>
 
 
             <!--  Submit button  - it ought to be invisible!
