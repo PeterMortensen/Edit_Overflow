@@ -669,6 +669,8 @@ namespace OverflowHelper.core
             correctionAdd("Selenium web-driver", "Selenium WebDriver");
             correctionAdd("Selenium WD", "Selenium WebDriver");
             correctionAdd("Selenium web driver", "Selenium WebDriver");
+            correctionAdd("Selenium webdriers", "Selenium WebDriver");
+            correctionAdd("selenium webdriers", "Selenium WebDriver");
 
             correctionAdd("debezium", "Debezium");
 
@@ -9320,6 +9322,7 @@ namespace OverflowHelper.core
             correctionAdd("Undefined Behavior", "undefined behaviour");
             correctionAdd("ub", "undefined behaviour");
             correctionAdd("undefined behavior", "undefined behaviour");
+            correctionAdd("Undefined behavior", "undefined behaviour");
 
             correctionAdd("color", "colour");
 
@@ -15277,6 +15280,7 @@ namespace OverflowHelper.core
             correctionAdd("apprear", "appear");
             correctionAdd("apear", "appear");
             correctionAdd("appesr", "appear");
+            correctionAdd("apper", "appear");
 
             correctionAdd("appers", "appears");
             correctionAdd("apers", "appears");
@@ -15847,6 +15851,7 @@ namespace OverflowHelper.core
             correctionAdd("backgrond", "background");
             correctionAdd("bacground", "background");
             correctionAdd("Background", "background");
+            correctionAdd("backgrownd", "background");
 
             correctionAdd("Cosmic Microwave Background Radiation", "cosmic microwave background radiation");
 
@@ -17373,6 +17378,7 @@ namespace OverflowHelper.core
             correctionAdd("seperatly", "separately");
             correctionAdd("seprately", "separately");
             correctionAdd("separtely", "separately");
+            correctionAdd("separatly", "separately");
 
             correctionAdd("terriable", "terrible");
 
@@ -24456,6 +24462,7 @@ namespace OverflowHelper.core
             correctionAdd("succefully", "successfully");
             correctionAdd("sucessfuly", "successfully");
             correctionAdd("succsessfully", "successfully");
+            correctionAdd("successfullly", "successfully");
 
             correctionAdd("succcess", "success");
             correctionAdd("successs", "success");
@@ -26009,6 +26016,7 @@ namespace OverflowHelper.core
             correctionAdd("th", "the");
             correctionAdd("thae", "the");
             correctionAdd("THe", "the");
+            correctionAdd("thhe", "the");
 
             correctionAdd("vaild", "valid"); // True typo
             correctionAdd("vaiid", "valid");
@@ -28346,6 +28354,7 @@ namespace OverflowHelper.core
             correctionAdd("monople", "monopole");
 
             correctionAdd("re-factoring", "refactoring");
+            correctionAdd("refctoring", "refactoring");
 
             correctionAdd("spagettified", "spaghettified");
 
@@ -29117,6 +29126,7 @@ namespace OverflowHelper.core
 
             correctionAdd("introducted", "introduced");
             correctionAdd("introducuced", "introduced");
+            correctionAdd("itroduced", "introduced");
 
             correctionAdd("foundtemental", "fundamental");
 
@@ -30342,6 +30352,7 @@ namespace OverflowHelper.core
             correctionAdd("pluggin", "plug-in");
 
             correctionAdd("reccursive", "recursive");
+            correctionAdd("recrsive", "recursive");
 
             correctionAdd("Stat", "stat");
 
@@ -40714,6 +40725,7 @@ namespace OverflowHelper.core
             correctionAdd("Places API", "Google Places API");
 
             correctionAdd("Internet archive", "Internet Archive");
+            correctionAdd("internet archive", "Internet Archive");
 
             correctionAdd("melbourne", "Melbourne");
 
@@ -45558,6 +45570,27 @@ namespace OverflowHelper.core
             correctionAdd("saucelabs", "Sauce Labs");
 
             correctionAdd("ULV", "ultra-low-voltage");
+
+            correctionAdd("lombok", "Lombok");
+
+            correctionAdd("Mock", "mock");
+
+            correctionAdd("multi part", "multipart");
+            correctionAdd("Multi part", "multipart");
+
+            correctionAdd("twinkle in your daddy's eye", "twinkle in one's father's eye");
+            correctionAdd("a twinkle in one's daddy's eye", "twinkle in one's father's eye");
+            correctionAdd("glint in the milkman's eye", "twinkle in one's father's eye");
+            correctionAdd("twinkle in one's eye", "twinkle in one's father's eye");
+
+            // But what is "am" for? "apply mailbox"? It doesn't
+            // make much sense on its own. Isn't there a longer
+            // name? A longer version that would make sense?
+            // <https://www.quora.com/unanswered/What-does-am-stand-for-in-git-am-Apply-mailinglist-patch-Or-something-else>
+            //
+            correctionAdd("Git-am", "Git am");
+            correctionAdd("git am", "Git am");
+            correctionAdd("git-am", "Git am");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71602,6 +71635,16 @@ namespace OverflowHelper.core
 
             URL_Add("ultra-low-voltage", "https://en.wikipedia.org/wiki/Ultra-low-voltage_processor");
 
+            URL_Add("Lombok", "https://projectlombok.org/features/");
+
+            URL_Add("mock", "https://en.wikipedia.org/wiki/Mock_object");
+
+            URL_Add("multipart", "https://en.wiktionary.org/wiki/multipart#Adjective");
+
+            URL_Add("twinkle in one's father's eye", "https://en.wiktionary.org/wiki/twinkle_in_one%27s_father%27s_eye#Noun");
+
+            URL_Add("Git am", "https://git-scm.com/docs/git-am");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73098,6 +73141,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Airport_", "airport_");
 
+            correctionAdd("Help Vampire_", "help vampire_");
+
+            correctionAdd("sitted_", "sat_");
+
             // URL mappings
             //
             //
@@ -73958,6 +74005,10 @@ namespace OverflowHelper.core
             URL_Add("usability_", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
 
             URL_Add("airport_", "https://en.wikipedia.org/wiki/Airport");
+
+            URL_Add("help vampire_", "https://slash7.com/2006/12/22/vampires/");
+
+            URL_Add("sat_", "https://en.wiktionary.org/wiki/sit#Verb");
 
         } //addLookupData_alternativeWordSet()
 
