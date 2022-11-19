@@ -2555,6 +2555,18 @@ namespace OverflowHelper.core
             correctionAdd("Macintosh", "Mac");
             correctionAdd("MaC", "Mac");
 
+            correctionAdd("Mac Os", "macOS");
+            correctionAdd("MacOs", "macOS");
+            correctionAdd("Macos", "macOS");
+            correctionAdd("MacOS", "macOS");
+            correctionAdd("Mac-Os", "macOS");
+            correctionAdd("Mac os", "macOS");
+            correctionAdd("Mac OS", "macOS");
+            correctionAdd("MAC os", "macOS");
+            correctionAdd("macOs", "macOS");
+            correctionAdd("MAC OS", "macOS");
+            correctionAdd("mac OS", "macOS");
+
             correctionAdd("Mac OS X v10.2 (Jaguar)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"); // Sort of identity mapping
             correctionAdd("Jaguar", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
 
@@ -2811,18 +2823,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS 10.15", "macOS v10.15 (Catalina)");
             correctionAdd("Cataline", "macOS v10.15 (Catalina)");
             correctionAdd("cataline", "macOS v10.15 (Catalina)");
-
-            correctionAdd("Mac Os", "macOS");
-            correctionAdd("MacOs", "macOS");
-            correctionAdd("Macos", "macOS");
-            correctionAdd("MacOS", "macOS");
-            correctionAdd("Mac-Os", "macOS");
-            correctionAdd("Mac os", "macOS");
-            correctionAdd("Mac OS", "macOS");
-            correctionAdd("MAC os", "macOS");
-            correctionAdd("macOs", "macOS");
-            correctionAdd("MAC OS", "macOS");
-            correctionAdd("mac OS", "macOS");
+            correctionAdd("10.15", "macOS v10.15 (Catalina)");
 
             correctionAdd("big sur", "macOS v11 (Big Sur)");
             correctionAdd("Big Sur", "macOS v11 (Big Sur)");
@@ -2841,6 +2842,7 @@ namespace OverflowHelper.core
             correctionAdd("Big Suwer", "macOS v11 (Big Sur)");
             correctionAdd("Big Sewer", "macOS v11 (Big Sur)");
             correctionAdd("Big Sir", "macOS v11 (Big Sur)");
+            correctionAdd("OSX 11", "macOS v11 (Big Sur)");
 
             correctionAdd("monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
@@ -10664,6 +10666,7 @@ namespace OverflowHelper.core
             correctionAdd("Upwork.com", "Upwork");
 
             correctionAdd("guess work", "guesswork");
+            correctionAdd("guess-work", "guesswork");
 
             correctionAdd("MDN", "Mozilla Developer Network");
             correctionAdd("mdn", "Mozilla Developer Network");
@@ -12247,6 +12250,7 @@ namespace OverflowHelper.core
             correctionAdd("uS", "µs"); // Microseconds.
             correctionAdd("uSec", "µs"); // Microseconds.
 
+            // The old discontinued version 1.x.
             correctionAdd("AngularJs", "AngularJS");
             correctionAdd("angularjs", "AngularJS");
             correctionAdd("angular.js", "AngularJS");
@@ -12266,6 +12270,7 @@ namespace OverflowHelper.core
             correctionAdd("Angular-js", "AngularJS");
             correctionAdd("angularhs", "AngularJS");
 
+            // The new version 2+ 
             correctionAdd("AJS", "Angular");
             correctionAdd("angular", "Angular");
             correctionAdd("Angular Javascript", "Angular");
@@ -12279,6 +12284,7 @@ namespace OverflowHelper.core
             correctionAdd("angularjs ng", "Angular");
             correctionAdd("Agnular", "Angular");
             correctionAdd("agnular", "Angular");
+            correctionAdd("Anjular js", "Angular");
 
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
@@ -14132,6 +14138,7 @@ namespace OverflowHelper.core
             correctionAdd("3 cents", "two cents");
             correctionAdd("2 cts", "two cents");
             correctionAdd("2cts", "two cents");
+            correctionAdd("ten cents", "two cents");
 
             correctionAdd("Big Endian", "big-endian");
             correctionAdd("BigEndian", "big-endian");
@@ -14245,6 +14252,7 @@ namespace OverflowHelper.core
             correctionAdd("bs", "Beautiful Soup");
             correctionAdd("BEAUTIFUL SOUP", "Beautiful Soup");
             correctionAdd("BEAUTIFULSOUP", "Beautiful Soup");
+            correctionAdd("Beatifulsoup", "Beautiful Soup");
 
             correctionAdd("beatiful", "beautiful");
             correctionAdd("beutiful", "beautiful");
@@ -18574,6 +18582,7 @@ namespace OverflowHelper.core
             correctionAdd("Elsewise", "otherwise");
             correctionAdd("elsewise", "otherwise");
             correctionAdd("ohterwise", "otherwise");
+            correctionAdd("Other wise", "otherwise");
 
             correctionAdd("res", "resolution");
 
@@ -21707,6 +21716,7 @@ namespace OverflowHelper.core
             correctionAdd("happend", "happened");
             correctionAdd("happpened", "happened");
             correctionAdd("hapend", "happened");
+            correctionAdd("happended", "happened");
 
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
@@ -28829,6 +28839,7 @@ namespace OverflowHelper.core
             correctionAdd("Mthod", "method");
             correctionAdd("mthod", "method");
             correctionAdd("methond", "method");
+            correctionAdd("mathod", "method");
 
             correctionAdd("methos", "methods");
             correctionAdd("metods", "methods");
@@ -31885,6 +31896,7 @@ namespace OverflowHelper.core
             correctionAdd("syntax highlighitng", "syntax highlighting");
             correctionAdd("syntax-highlighting", "syntax highlighting");
             correctionAdd("Syntax highlighting", "syntax highlighting");
+            correctionAdd("Syntax Highlighting", "syntax highlighting");
 
             correctionAdd("thorwing", "throwing");
             correctionAdd("Thowing", "throwing");
@@ -32299,6 +32311,7 @@ namespace OverflowHelper.core
             correctionAdd("avx", "AVX");
 
             correctionAdd("alliviate", "alleviate");
+            correctionAdd("aliviate", "alleviate");
 
             correctionAdd("delusionial", "delusional");
 
@@ -44891,6 +44904,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Stable Diffusion", "Stable&nbsp;Diffusion");
             correctionAdd("StableDiffusion", "Stable&nbsp;Diffusion");
+            correctionAdd("S.D", "Stable&nbsp;Diffusion"); // Really "S.D.", but we can't handle some punctuation at the moment.
 
             correctionAdd("behinde", "behind");
 
@@ -45472,6 +45486,7 @@ namespace OverflowHelper.core
             correctionAdd("eye sore", "eyesore");
 
             correctionAdd("firepath", "FirePath");
+            correctionAdd("Firepath", "FirePath");
 
             correctionAdd("land owner", "landowner");
 
@@ -45550,7 +45565,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SOC", "System and Organization Controls");
 
-            // Though the single quotes should probably be 
+            // Though the single quotes should probably be
             // caught/treated like double quotes are.
             correctionAdd("SOC 2", "System and Organization Controls, report type 'Trust Services Criteria'");
 
@@ -45591,6 +45606,28 @@ namespace OverflowHelper.core
             correctionAdd("Git-am", "Git am");
             correctionAdd("git am", "Git am");
             correctionAdd("git-am", "Git am");
+
+            correctionAdd("lang-r", "```lang-r");
+
+            correctionAdd("corp", "corporate");
+
+            correctionAdd("back filling", "backfilling");
+
+            correctionAdd("face to face", "face-to-face");
+
+            correctionAdd("fifth amendment", "Fifth Amendment");
+
+            correctionAdd("pre recorded", "prerecorded");
+
+            correctionAdd("sixth amendment", "Sixth Amendment");
+
+            correctionAdd("suddently", "suddenly");
+
+            correctionAdd("repeator", "repeater");
+
+            correctionAdd("mknod", "mknod()");
+
+            correctionAdd("DLSS", "deep learning super sampling");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71645,6 +71682,28 @@ namespace OverflowHelper.core
 
             URL_Add("Git am", "https://git-scm.com/docs/git-am");
 
+            URL_Add("```lang-r", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("corporate", "https://en.wiktionary.org/wiki/corporate#Adjective");
+
+            URL_Add("backfilling", "https://en.wiktionary.org/wiki/backfill#Verb");
+
+            URL_Add("face-to-face", "https://en.wiktionary.org/wiki/face-to-face#Adjective");
+
+            URL_Add("Fifth Amendment", "https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution");
+
+            URL_Add("prerecorded", "https://en.wiktionary.org/wiki/prerecorded#Adjective");
+
+            URL_Add("Sixth Amendment", "https://en.wikipedia.org/wiki/Sixth_Amendment_to_the_United_States_Constitution");
+
+            URL_Add("suddenly", "https://en.wiktionary.org/wiki/suddenly#Adverb");
+
+            URL_Add("repeater", "https://en.wiktionary.org/wiki/repeater#Noun");
+
+            URL_Add("mknod()", "https://linux.die.net/man/2/mknod");
+
+            URL_Add("deep learning super sampling", "https://en.wikipedia.org/wiki/Deep_learning_super_sampling");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73145,6 +73204,10 @@ namespace OverflowHelper.core
 
             correctionAdd("sitted_", "sat_");
 
+            correctionAdd("Coffee SE_", "Coffee (Stack Exchange site)_");
+            correctionAdd("Coffee_", "Coffee (Stack Exchange site)_");
+            correctionAdd("coffee_", "Coffee (Stack Exchange site)_"); // Mostly to connect it to the common noun.
+
             // URL mappings
             //
             //
@@ -74009,6 +74072,8 @@ namespace OverflowHelper.core
             URL_Add("help vampire_", "https://slash7.com/2006/12/22/vampires/");
 
             URL_Add("sat_", "https://en.wiktionary.org/wiki/sit#Verb");
+
+            URL_Add("Coffee (Stack Exchange site)_", "https://coffee.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
