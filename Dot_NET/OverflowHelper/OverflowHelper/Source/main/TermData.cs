@@ -15990,6 +15990,7 @@ namespace OverflowHelper.core
             correctionAdd("Redicoulus", "ridiculous");
             correctionAdd("redicoulus", "ridiculous");
             correctionAdd("redicuous", "ridiculous");
+            correctionAdd("rediculous", "ridiculous");
 
             correctionAdd("actaully", "actually");
             correctionAdd("actualy", "actually");
@@ -16685,6 +16686,7 @@ namespace OverflowHelper.core
             correctionAdd("r/o", "read-only");
             correctionAdd("read only", "read-only");
             correctionAdd("Read-Only", "read-only");
+            correctionAdd("Read Only", "read-only");
 
             correctionAdd("inly", "only");
             correctionAdd("on;y", "only");
@@ -16782,6 +16784,7 @@ namespace OverflowHelper.core
             correctionAdd("cucomber", "Cucumber");
 
             correctionAdd("dto", "DTO");
+            correctionAdd("Dto", "DTO");
 
             correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
             correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
@@ -19159,6 +19162,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cloudfront", "Amazon CloudFront");
             correctionAdd("CloudFront", "Amazon CloudFront");
+            correctionAdd("Cloudfront", "Amazon CloudFront");
 
             correctionAdd("flutter", "Flutter");
             correctionAdd("Fludder", "Flutter");
@@ -21254,6 +21258,7 @@ namespace OverflowHelper.core
             correctionAdd("pen testing", "pentesting");
 
             correctionAdd("usabilty testing", "usability testing");
+            correctionAdd("Usability Testing", "usability testing");
 
             correctionAdd("hall-way usability testing", "hallway usability testing");
             correctionAdd("hallway usability", "hallway usability testing");
@@ -21766,6 +21771,7 @@ namespace OverflowHelper.core
 
             correctionAdd("memmory", "memory");
             correctionAdd("Memory", "memory");
+            correctionAdd("memeory", "memory");
 
             correctionAdd("misc", "miscellaneous");
             correctionAdd("miscelaneous", "miscellaneous");
@@ -33949,6 +33955,7 @@ namespace OverflowHelper.core
             correctionAdd("exra", "extra");
 
             correctionAdd("first-hand", "firsthand");
+            correctionAdd("first hand", "firsthand");
 
             correctionAdd("mat", "may");
 
@@ -34279,6 +34286,7 @@ namespace OverflowHelper.core
             correctionAdd("intents and purposes", "for all intents and purposes");
             correctionAdd("the intents and purposes", "for all intents and purposes");
             correctionAdd("for the intents and purposes", "for all intents and purposes");
+            correctionAdd("all intent and purposes", "for all intents and purposes");
 
             correctionAdd("OS's", "OSes");
             correctionAdd("OSs", "OSes");
@@ -34972,6 +34980,8 @@ namespace OverflowHelper.core
 
             correctionAdd("listenning", "listening");
             correctionAdd("listerning", "listening");
+            correctionAdd("Listenting", "listening");
+            correctionAdd("listenting", "listening");
 
             correctionAdd("Machine Translation", "machine translation");
             correctionAdd("Machine translation", "machine translation");
@@ -38420,6 +38430,7 @@ namespace OverflowHelper.core
             correctionAdd("node_module", "node_modules folder");
             correctionAdd("node moduals", "node_modules folder");
             correctionAdd("Node_modules", "node_modules folder");
+            correctionAdd("node modules", "node_modules folder");
 
             correctionAdd("propertional", "proportional");
 
@@ -45654,6 +45665,31 @@ namespace OverflowHelper.core
             correctionAdd("semi-implicit Euler method", "symplectic Euler");
 
             correctionAdd("three body problem", "three-body problem");
+
+            correctionAdd("any time", "anytime");
+
+            correctionAdd("IAM", "AWS Identity and Access Management");
+
+            correctionAdd("contact-less", "contactless");
+
+            correctionAdd("hardhat", "Hardhat");
+
+            correctionAdd("Java Persistence Query Language", "JPQL");
+            correctionAdd("Jakarta Persistence Query Language", "JPQL");
+            correctionAdd("jpql", "JPQL");
+
+            correctionAdd("NSF", "National Science Foundation");
+
+            correctionAdd("pre-loaded", "preloaded");
+
+            correctionAdd("showup", "show up");
+
+            correctionAdd("suppling", "supplying");
+
+            correctionAdd("two way", "two-way");
+
+            correctionAdd("with due respect", "with all due respect");
+            correctionAdd("due respect", "with all due respect");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71736,6 +71772,28 @@ namespace OverflowHelper.core
 
             URL_Add("three-body problem", "https://en.wikipedia.org/wiki/Three-body_problem");
 
+            URL_Add("anytime", "https://en.wiktionary.org/wiki/anytime#Adverb");
+
+            URL_Add("AWS Identity and Access Management", "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html");
+
+            URL_Add("contactless", "https://en.wiktionary.org/wiki/contactless#Adjective");
+
+            URL_Add("Hardhat", "https://hardhat.org/docs");
+
+            URL_Add("JPQL", "https://en.wikipedia.org/wiki/Jakarta_Persistence_Query_Language");
+
+            URL_Add("National Science Foundation", "https://en.wikipedia.org/wiki/National_Science_Foundation");
+
+            URL_Add("preloaded", "https://en.wiktionary.org/wiki/preloaded#Adjective");
+
+            URL_Add("show up", "https://en.wiktionary.org/wiki/show_up#Verb");
+
+            URL_Add("supplying", "https://en.wiktionary.org/wiki/supply#Verb");
+
+            URL_Add("two-way", "https://en.wiktionary.org/wiki/two-way#Adjective");
+
+            URL_Add("with all due respect", "https://en.wiktionary.org/wiki/with_all_due_respect#Prepositional_phrase");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73241,6 +73299,11 @@ namespace OverflowHelper.core
 
             correctionAdd("sitted_", "sat_");
 
+            correctionAdd("ace_", "Ace_");
+
+            correctionAdd("Web3_", "Web 3.0_");
+            correctionAdd("web3_", "Web 3.0_");
+
             // URL mappings
             //
             //
@@ -74107,6 +74170,10 @@ namespace OverflowHelper.core
             URL_Add("sat_", "https://en.wiktionary.org/wiki/sit#Verb");
 
             URL_Add("Coffee (Stack Exchange site)_", "https://coffee.stackexchange.com/tour");
+
+            URL_Add("Ace_", "https://en.wikipedia.org/wiki/Ace_(editor)");
+
+            URL_Add("Web 3.0_", "https://en.wikipedia.org/wiki/Web3");
 
         } //addLookupData_alternativeWordSet()
 
