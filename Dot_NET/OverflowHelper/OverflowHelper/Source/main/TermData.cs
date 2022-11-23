@@ -671,6 +671,7 @@ namespace OverflowHelper.core
             correctionAdd("Selenium web driver", "Selenium WebDriver");
             correctionAdd("Selenium webdriers", "Selenium WebDriver");
             correctionAdd("selenium webdriers", "Selenium WebDriver");
+            correctionAdd("selenium driver", "Selenium WebDriver");
 
             correctionAdd("debezium", "Debezium");
 
@@ -1373,6 +1374,114 @@ namespace OverflowHelper.core
             correctionAdd("GAS", "Google Apps Script");
             correctionAdd("appScript", "Google Apps Script");
             correctionAdd("app Script", "Google Apps Script");
+
+            correctionAdd("python", "Python");
+            correctionAdd("PYTHON", "Python");
+            correctionAdd("Pyton", "Python"); // Misspelling.
+            correctionAdd("pyhton", "Python");
+            correctionAdd("py", "Python");
+            correctionAdd("phython", "Python");
+            correctionAdd("Pthon", "Python");
+            correctionAdd("Pytohon", "Python");
+            correctionAdd("phyton", "Python");
+            correctionAdd("pyhthon", "Python");
+            correctionAdd("Pyhton", "Python");
+            correctionAdd("Pythen", "Python");
+            correctionAdd("Phyton", "Python");
+            correctionAdd("pyton", "Python");
+            correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
+            correctionAdd("Pyhon", "Python");
+
+            correctionAdd("python2", "Python&nbsp;2");
+            correctionAdd("Python 2", "Python&nbsp;2");
+            correctionAdd("py2", "Python&nbsp;2");
+            correctionAdd("python 2", "Python&nbsp;2");
+            correctionAdd("Python2", "Python&nbsp;2");
+            correctionAdd("Py2", "Python&nbsp;2");
+            correctionAdd("python v2", "Python&nbsp;2");
+            correctionAdd("python-2", "Python&nbsp;2");
+            correctionAdd("py 2", "Python&nbsp;2");
+            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+
+            correctionAdd("python-2.7", "Python&nbsp;2.7");
+            correctionAdd("Python 2.7", "Python&nbsp;2.7"); // Sort of identity mapping
+            correctionAdd("python 2.7", "Python&nbsp;2.7");
+            correctionAdd("py27", "Python&nbsp;2.7");
+            correctionAdd("python 27", "Python&nbsp;2.7");
+
+            correctionAdd("python3", "Python&nbsp;3");
+            correctionAdd("Python 3", "Python&nbsp;3");
+            correctionAdd("python 3", "Python&nbsp;3");
+            correctionAdd("py3", "Python&nbsp;3");
+            correctionAdd("Python3", "Python&nbsp;3");
+            correctionAdd("Phython 3", "Python&nbsp;3");
+            correctionAdd("Pyhton3", "Python&nbsp;3");
+            correctionAdd("python v3", "Python&nbsp;3");
+            correctionAdd("Py 3", "Python&nbsp;3");
+            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+            correctionAdd("Pyhon 3", "Python&nbsp;3");
+
+            correctionAdd("python-3.5", "Python&nbsp;3.5");
+            correctionAdd("Python 3.5", "Python&nbsp;3.5"); // Sort of identity mapping
+
+            correctionAdd("python-3.6", "Python&nbsp;3.6");
+            correctionAdd("Python 3.6", "Python&nbsp;3.6"); // Sort of identity mapping
+
+            correctionAdd("ipython", "IPython");
+            correctionAdd("iPython", "IPython");
+            correctionAdd("Ipython", "IPython");
+            correctionAdd("IPyton", "IPython");
+
+            correctionAdd("iPython notebook", "IPython Notebook");
+            correctionAdd("iPython-notebook", "IPython Notebook");
+            correctionAdd("Ipython Notebook", "IPython Notebook");
+            correctionAdd("python notebook", "IPython Notebook");
+
+            correctionAdd("biopython", "Biopython");
+
+            correctionAdd("Python boost", "Boost.Python");
+
+            correctionAdd("pep", "PEP");
+            correctionAdd("Pep", "PEP");
+            correctionAdd("Python Enhancement Proposal", "PEP");
+            correctionAdd("Python enhancement proposal", "PEP");
+
+            correctionAdd("pythonic", "Pythonic");
+            correctionAdd("pythononic", "Pythonic");
+
+            correctionAdd("pythonista", "Pythonista");
+
+            correctionAdd("Python Anywhere", "PythonAnywhere");
+
+            correctionAdd("jupyter", "Jupyter");
+            correctionAdd("Jypiter", "Jupyter");
+
+            correctionAdd("Jupyter nootebook", "Jupyter Notebook");
+            correctionAdd("jupyter notebook", "Jupyter Notebook");
+            correctionAdd("ipython notebook", "Jupyter Notebook");
+            correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
+            correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
+            correctionAdd("Jupyter notebook", "Jupyter Notebook");
+            correctionAdd("Jypiter Notebook", "Jupyter Notebook");
+            correctionAdd("Jupiter Notebook", "Jupyter Notebook");
+            correctionAdd("jup. notebook", "Jupyter Notebook");
+            correctionAdd("jup notebook", "Jupyter Notebook");
+            correctionAdd("jup.notebook", "Jupyter Notebook");
+            correctionAdd("Jupyter notebooks", "Jupyter Notebook");
+            correctionAdd("jupyer notebook", "Jupyter Notebook");
+            correctionAdd("jupyter notebooks", "Jupyter Notebook");
+            correctionAdd("Jupiter notebook", "Jupyter Notebook");
+            correctionAdd("Jypiter notebook", "Jupyter Notebook");
+            correctionAdd("jupiter notebook", "Jupyter Notebook");
+            correctionAdd("Jupyter labbook", "Jupyter Notebook");
+            correctionAdd("ipython-notebook", "Jupyter Notebook");
+
+            correctionAdd("Jupyterlab", "JupyterLab");
+            correctionAdd("jupyterlab", "JupyterLab");
+            correctionAdd("Jupyter lab", "JupyterLab");
+            correctionAdd("jupyter lab", "JupyterLab");
 
             correctionAdd("csharp-lang", "```lang-csharp");
             correctionAdd("lang-csharp", "```lang-csharp");
@@ -5775,105 +5884,6 @@ namespace OverflowHelper.core
             correctionAdd("EMACs", "Emacs");
             correctionAdd("Emac", "Emacs");
 
-            correctionAdd("python", "Python");
-            correctionAdd("PYTHON", "Python");
-            correctionAdd("Pyton", "Python"); // Misspelling.
-            correctionAdd("pyhton", "Python");
-            correctionAdd("py", "Python");
-            correctionAdd("phython", "Python");
-            correctionAdd("Pthon", "Python");
-            correctionAdd("Pytohon", "Python");
-            correctionAdd("phyton", "Python");
-            correctionAdd("pyhthon", "Python");
-            correctionAdd("Pyhton", "Python");
-            correctionAdd("Pythen", "Python");
-            correctionAdd("Phyton", "Python");
-            correctionAdd("pyton", "Python");
-            correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
-
-            correctionAdd("python2", "Python&nbsp;2");
-            correctionAdd("Python 2", "Python&nbsp;2");
-            correctionAdd("py2", "Python&nbsp;2");
-            correctionAdd("python 2", "Python&nbsp;2");
-            correctionAdd("Python2", "Python&nbsp;2");
-            correctionAdd("Py2", "Python&nbsp;2");
-            correctionAdd("python v2", "Python&nbsp;2");
-            correctionAdd("python-2", "Python&nbsp;2");
-            correctionAdd("py 2", "Python&nbsp;2");
-            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-
-            correctionAdd("python-2.7", "Python&nbsp;2.7");
-            correctionAdd("Python 2.7", "Python&nbsp;2.7"); // Sort of identity mapping
-            correctionAdd("python 2.7", "Python&nbsp;2.7");
-            correctionAdd("py27", "Python&nbsp;2.7");
-            correctionAdd("python 27", "Python&nbsp;2.7");
-
-            correctionAdd("python3", "Python&nbsp;3");
-            correctionAdd("Python 3", "Python&nbsp;3");
-            correctionAdd("python 3", "Python&nbsp;3");
-            correctionAdd("py3", "Python&nbsp;3");
-            correctionAdd("Python3", "Python&nbsp;3");
-            correctionAdd("Phython 3", "Python&nbsp;3");
-            correctionAdd("Pyhton3", "Python&nbsp;3");
-            correctionAdd("python v3", "Python&nbsp;3");
-            correctionAdd("Py 3", "Python&nbsp;3");
-            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-
-            correctionAdd("python-3.5", "Python&nbsp;3.5");
-            correctionAdd("Python 3.5", "Python&nbsp;3.5"); // Sort of identity mapping
-
-            correctionAdd("python-3.6", "Python&nbsp;3.6");
-            correctionAdd("Python 3.6", "Python&nbsp;3.6"); // Sort of identity mapping
-
-            correctionAdd("ipython", "IPython");
-            correctionAdd("iPython", "IPython");
-            correctionAdd("Ipython", "IPython");
-            correctionAdd("IPyton", "IPython");
-
-            correctionAdd("iPython notebook", "IPython Notebook");
-            correctionAdd("iPython-notebook", "IPython Notebook");
-            correctionAdd("Ipython Notebook", "IPython Notebook");
-            correctionAdd("python notebook", "IPython Notebook");
-
-            correctionAdd("biopython", "Biopython");
-
-            correctionAdd("Python boost", "Boost.Python");
-
-            correctionAdd("pep", "PEP");
-            correctionAdd("Pep", "PEP");
-            correctionAdd("Python Enhancement Proposal", "PEP");
-            correctionAdd("Python enhancement proposal", "PEP");
-
-            correctionAdd("pythonic", "Pythonic");
-            correctionAdd("pythononic", "Pythonic");
-
-            correctionAdd("pythonista", "Pythonista");
-
-            correctionAdd("Python Anywhere", "PythonAnywhere");
-
-            correctionAdd("jupyter", "Jupyter");
-            correctionAdd("Jypiter", "Jupyter");
-
-            correctionAdd("Jupyter nootebook", "Jupyter Notebook");
-            correctionAdd("jupyter notebook", "Jupyter Notebook");
-            correctionAdd("ipython notebook", "Jupyter Notebook");
-            correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
-            correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
-            correctionAdd("Jupyter notebook", "Jupyter Notebook");
-            correctionAdd("Jypiter Notebook", "Jupyter Notebook");
-            correctionAdd("Jupiter Notebook", "Jupyter Notebook");
-            correctionAdd("jup. notebook", "Jupyter Notebook");
-            correctionAdd("jup notebook", "Jupyter Notebook");
-            correctionAdd("jup.notebook", "Jupyter Notebook");
-            correctionAdd("Jupyter notebooks", "Jupyter Notebook");
-            correctionAdd("jupyer notebook", "Jupyter Notebook");
-            correctionAdd("jupyter notebooks", "Jupyter Notebook");
-            correctionAdd("Jupiter notebook", "Jupyter Notebook");
-            correctionAdd("Jypiter notebook", "Jupyter Notebook");
-            correctionAdd("jupiter notebook", "Jupyter Notebook");
-
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
             correctionAdd("GreaseMonkey", "Greasemonkey");
@@ -8459,6 +8469,7 @@ namespace OverflowHelper.core
             correctionAdd("configuarion", "configuration");
             correctionAdd("coifig", "configuration");
             correctionAdd("coonfiguration", "configuration");
+            correctionAdd("configuraiton", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -15054,6 +15065,7 @@ namespace OverflowHelper.core
             correctionAdd("Quesiton", "question");
             correctionAdd("questsion", "question");
             correctionAdd("qs", "question");
+            correctionAdd("questuin", "question");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -16038,6 +16050,7 @@ namespace OverflowHelper.core
             correctionAdd("scholl", "scroll");
             correctionAdd("Scroll", "scroll");
             correctionAdd("scrool", "scroll");
+            correctionAdd("sroll", "scroll");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -17914,6 +17927,7 @@ namespace OverflowHelper.core
             correctionAdd("millisecs", "millisecond");
             correctionAdd("millisecodn", "millisecond");
             correctionAdd("millisecodns", "millisecond");
+            correctionAdd("mills", "millisecond");
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
@@ -25810,6 +25824,7 @@ namespace OverflowHelper.core
 
             correctionAdd("refrenced", "referenced");
             correctionAdd("reffed", "referenced");
+            correctionAdd("refereced", "referenced");
 
             correctionAdd("ietf", "IETF");
 
@@ -27176,6 +27191,7 @@ namespace OverflowHelper.core
             correctionAdd("anthy", "Anthy");
 
             correctionAdd("good samaritan", "Good Samaritan");
+            correctionAdd("good Samaritan", "Good Samaritan");
 
             correctionAdd("InfoSec", "information security");
             correctionAdd("infosec", "information security");
@@ -37175,9 +37191,6 @@ namespace OverflowHelper.core
 
             correctionAdd("LFS", "Git LFS");
 
-            correctionAdd("Jupyterlab", "JupyterLab");
-            correctionAdd("jupyterlab", "JupyterLab");
-
             correctionAdd("mwe", "MWE");
 
             correctionAdd("Brocolli", "broccoli");
@@ -40388,6 +40401,7 @@ namespace OverflowHelper.core
             correctionAdd("came in mind", "came to mind");
 
             correctionAdd("despide", "despite");
+            correctionAdd("depsite", "despite");
 
             correctionAdd("greyed-out", "grayed out");
             correctionAdd("grey-ed out", "grayed out");
@@ -41005,6 +41019,7 @@ namespace OverflowHelper.core
             correctionAdd("Private endpoint", "private endpoint");
 
             correctionAdd("suppresed", "suppressed");
+            correctionAdd("supressed", "suppressed");
 
             correctionAdd("ViolentMonkey", "Violentmonkey");
 
@@ -45570,6 +45585,9 @@ namespace OverflowHelper.core
 
             correctionAdd("text as images", "text as an image");
             correctionAdd("text as image", "text as an image");
+            correctionAdd("code as an image", "text as an image");
+            correctionAdd("code as image", "text as an image");
+            correctionAdd("image as code", "text as an image");
 
             correctionAdd("type set", "typeset");
 
@@ -45690,6 +45708,19 @@ namespace OverflowHelper.core
 
             correctionAdd("with due respect", "with all due respect");
             correctionAdd("due respect", "with all due respect");
+
+            correctionAdd("dc-dc converter", "DC-to-DC converter");
+
+            correctionAdd("experimentign", "experimenting");
+            correctionAdd("experimentingn", "experimenting");
+
+            correctionAdd("pudb", "PuDB");
+
+            correctionAdd("cthulhu", "Cthulhu");
+
+            correctionAdd("over look", "overlook");
+
+            correctionAdd("prining", "printing");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63802,7 +63833,7 @@ namespace OverflowHelper.core
 
             URL_Add("Git LFS", "https://git-lfs.github.com/");
 
-            URL_Add("JupyterLab", "https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook");
+            URL_Add("JupyterLab", "https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook_Applications"); // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook
 
             URL_Add("MWE", "https://en.wikipedia.org/wiki/Minimal_working_example");
 
@@ -71794,6 +71825,18 @@ namespace OverflowHelper.core
 
             URL_Add("with all due respect", "https://en.wiktionary.org/wiki/with_all_due_respect#Prepositional_phrase");
 
+            URL_Add("DC-to-DC converter", "https://en.wikipedia.org/wiki/DC-to-DC_converter");
+
+            URL_Add("experimenting", "https://en.wiktionary.org/wiki/experiment#Verb");
+
+            URL_Add("PuDB", "https://pypi.org/project/pudb/");
+
+            URL_Add("Cthulhu", "https://en.wikipedia.org/wiki/Cthulhu#Influence");
+
+            URL_Add("overlook", "https://en.wiktionary.org/wiki/overlook#Verb");
+
+            URL_Add("printing", "https://en.wiktionary.org/wiki/print#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73304,6 +73347,9 @@ namespace OverflowHelper.core
             correctionAdd("Web3_", "Web 3.0_");
             correctionAdd("web3_", "Web 3.0_");
 
+            correctionAdd("PDB_", "Protein Data Bank_");
+            correctionAdd("pdb_", "Protein Data Bank_");
+
             // URL mappings
             //
             //
@@ -74174,6 +74220,8 @@ namespace OverflowHelper.core
             URL_Add("Ace_", "https://en.wikipedia.org/wiki/Ace_(editor)");
 
             URL_Add("Web 3.0_", "https://en.wikipedia.org/wiki/Web3");
+
+            URL_Add("Protein Data Bank_", "https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)");
 
         } //addLookupData_alternativeWordSet()
 
