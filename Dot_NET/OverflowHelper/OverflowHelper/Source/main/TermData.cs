@@ -1561,6 +1561,7 @@ namespace OverflowHelper.core
             correctionAdd("google apps", "G Suite");
             correctionAdd("Google apps", "G Suite");
             correctionAdd("Google Apps", "G Suite");
+            correctionAdd("GSuite", "G Suite");
 
             correctionAdd("Google Meet", "Google Hangouts Meet");
 
@@ -3485,6 +3486,109 @@ namespace OverflowHelper.core
             correctionAdd("swith", "switch");
             correctionAdd("swicth", "switch");
 
+            // Can not currently be looked up due to a bug!!!! It works fine
+            // in the web interface 2021-08-04, though.
+            correctionAdd("devc++", "Dev-C++");
+            correctionAdd("devcpp", "Dev-C++");
+            correctionAdd("Dev-CPP", "Dev-C++");
+            correctionAdd("Dev c/c++", "Dev-C++");
+            correctionAdd("dev c/c++", "Dev-C++");
+            correctionAdd("dev C/C++", "Dev-C++");
+            correctionAdd("Dev C/C++", "Dev-C++");
+            correctionAdd("Dev C++", "Dev-C++");
+            correctionAdd("DevC++", "Dev-C++");
+            correctionAdd("dev c++", "Dev-C++");
+
+            correctionAdd("msvc", "Microsoft Visual C++");
+            correctionAdd("ms vc", "Microsoft Visual C++");
+            correctionAdd("ms vc++", "Microsoft Visual C++"); // Will this work???? (considering a recent bug)
+            correctionAdd("vc", "Microsoft Visual C++");
+            correctionAdd("vc++", "Microsoft Visual C++");
+            correctionAdd("VC++", "Microsoft Visual C++");
+            correctionAdd("MSVC", "Microsoft Visual C++");
+            correctionAdd("visual C", "Microsoft Visual C++");
+            correctionAdd("Visual C", "Microsoft Visual C++");
+            correctionAdd("visual c++", "Microsoft Visual C++");
+            correctionAdd("Visual c++", "Microsoft Visual C++");
+            correctionAdd("visual C++", "Microsoft Visual C++");
+            correctionAdd("virsual c++", "Microsoft Visual C++"); // Misspelling.
+            correctionAdd("Viusal C", "Microsoft Visual C++");
+            correctionAdd("msvc++", "Microsoft Visual C++");
+            correctionAdd("MSC", "Microsoft Visual C++");
+            correctionAdd("Microsoft C", "Microsoft Visual C++");
+            correctionAdd("Microsoft C++", "Microsoft Visual C++");
+            correctionAdd("MSC++", "Microsoft Visual C++");
+            correctionAdd("MS Visual C", "Microsoft Visual C++");
+            correctionAdd("Visual C++", "Microsoft Visual C++");
+            correctionAdd("MSVS C++", "Microsoft Visual C++");
+            correctionAdd("virtual c++", "Microsoft Visual C++");
+            correctionAdd("MSVC++", "Microsoft Visual C++");
+            correctionAdd("MS VC++", "Microsoft Visual C++");
+            correctionAdd("microsoft vc++", "Microsoft Visual C++");
+            correctionAdd("Microsoft vc++", "Microsoft Visual C++");
+            correctionAdd("Microsoft VC++", "Microsoft Visual C++");
+
+            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
+
+            correctionAdd("VC++2010", "Visual C++ 2010");
+
+            correctionAdd("TurboC++", "Turbo C++");
+            correctionAdd("turbo c", "Turbo C++"); // Is this true?
+            correctionAdd("turbo C", "Turbo C++");
+            correctionAdd("Turbo C", "Turbo C++");
+            correctionAdd("TurboC", "Turbo C++");
+            correctionAdd("turbo c++", "Turbo C++");
+            correctionAdd("Turbo c++", "Turbo C++");
+            correctionAdd("turbo C++", "Turbo C++");
+            correctionAdd("Turbo-C", "Turbo C++");
+
+            // Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
+            correctionAdd("Cpp", "C++");
+            correctionAdd("cpp", "C++");
+            correctionAdd("c++", "C++");
+            correctionAdd("CPP", "C++");
+            correctionAdd("c plus plus", "C++");
+            correctionAdd("C ++", "C++");
+            correctionAdd("C + +", "C++");
+            correctionAdd("c + +", "C++");
+
+            correctionAdd("c++98", "C++98");
+            correctionAdd("C++99", "C++98");
+            correctionAdd("c++99", "C++98");
+
+            correctionAdd("c++0x", "C++0x");
+            correctionAdd("C++ 0x", "C++0x");
+            correctionAdd("C++(0X)", "C++0x");
+
+            correctionAdd("c++03", "C++03");
+
+            correctionAdd("c++11", "C++11");
+            correctionAdd("C++ 11", "C++11");
+            correctionAdd("c++ 11", "C++11");
+
+            correctionAdd("c++14", "C++14");
+            correctionAdd("C14", "C++14");
+            correctionAdd("C14++", "C++14");
+
+            correctionAdd("c++17", "C++17");
+
+            correctionAdd("c++20", "C++20");
+            correctionAdd("C++ 20", "C++20");
+
+            correctionAdd("C++builder", "C++Builder");
+            correctionAdd("c++builder", "C++Builder");
+            correctionAdd("c++ builder", "C++Builder"); // Does not work!
+            correctionAdd("C++ builder", "C++Builder");
+            correctionAdd("C++ Builder", "C++Builder");
+            correctionAdd("borland c++", "C++Builder");
+            correctionAdd("Borland C++", "C++Builder");
+
+            correctionAdd("Objective-c++", "Objective-C++");
+            correctionAdd("Objective C++", "Objective-C++");
+
             correctionAdd("--Wall", "-Wall");
 
             correctionAdd("--Werror", "-Werror");
@@ -4665,7 +4769,7 @@ namespace OverflowHelper.core
             correctionAdd("For exemple", "for example");
             correctionAdd("For ex", "for example");
             correctionAdd("EX", "for example");
-            correctionAdd("for e.g", "for example");
+            correctionAdd("for e.g", "for example"); // Should be "for e.g."
             correctionAdd("e.q", "for example"); // Later: add "e.q." when it is allowed.
             correctionAdd("for eg", "for example");
             correctionAdd("for examlpe", "for example"); // Misspelling
@@ -4675,7 +4779,7 @@ namespace OverflowHelper.core
             correctionAdd("For Ex", "for example");
             correctionAdd("fx", "for example");
             correctionAdd("for exapmle", "for example"); // Misspelling
-            correctionAdd("For e.g", "for example");
+            correctionAdd("For e.g", "for example"); // Should be "For e.g."
             correctionAdd("Forexample", "for example");
             correctionAdd("forexample", "for example");
             correctionAdd("For Example", "for example");
@@ -15067,108 +15171,6 @@ namespace OverflowHelper.core
             correctionAdd("qs", "question");
             correctionAdd("questuin", "question");
 
-            // Can not currently be looked up due to a bug!!!! It works fine
-            // in the web interface 2021-08-04, though.
-            correctionAdd("devc++", "Dev-C++");
-            correctionAdd("devcpp", "Dev-C++");
-            correctionAdd("Dev-CPP", "Dev-C++");
-            correctionAdd("Dev c/c++", "Dev-C++");
-            correctionAdd("dev c/c++", "Dev-C++");
-            correctionAdd("dev C/C++", "Dev-C++");
-            correctionAdd("Dev C/C++", "Dev-C++");
-            correctionAdd("Dev C++", "Dev-C++");
-            correctionAdd("DevC++", "Dev-C++");
-            correctionAdd("dev c++", "Dev-C++");
-
-            correctionAdd("msvc", "Microsoft Visual C++");
-            correctionAdd("ms vc", "Microsoft Visual C++");
-            correctionAdd("ms vc++", "Microsoft Visual C++"); // Will this work???? (considering a recent bug)
-            correctionAdd("vc", "Microsoft Visual C++");
-            correctionAdd("vc++", "Microsoft Visual C++");
-            correctionAdd("VC++", "Microsoft Visual C++");
-            correctionAdd("MSVC", "Microsoft Visual C++");
-            correctionAdd("visual C", "Microsoft Visual C++");
-            correctionAdd("Visual C", "Microsoft Visual C++");
-            correctionAdd("visual c++", "Microsoft Visual C++");
-            correctionAdd("Visual c++", "Microsoft Visual C++");
-            correctionAdd("visual C++", "Microsoft Visual C++");
-            correctionAdd("virsual c++", "Microsoft Visual C++"); // Misspelling.
-            correctionAdd("Viusal C", "Microsoft Visual C++");
-            correctionAdd("msvc++", "Microsoft Visual C++");
-            correctionAdd("MSC", "Microsoft Visual C++");
-            correctionAdd("Microsoft C", "Microsoft Visual C++");
-            correctionAdd("Microsoft C++", "Microsoft Visual C++");
-            correctionAdd("MSC++", "Microsoft Visual C++");
-            correctionAdd("MS Visual C", "Microsoft Visual C++");
-            correctionAdd("Visual C++", "Microsoft Visual C++");
-            correctionAdd("MSVS C++", "Microsoft Visual C++");
-            correctionAdd("virtual c++", "Microsoft Visual C++");
-            correctionAdd("MSVC++", "Microsoft Visual C++");
-            correctionAdd("MS VC++", "Microsoft Visual C++");
-            correctionAdd("microsoft vc++", "Microsoft Visual C++");
-            correctionAdd("Microsoft vc++", "Microsoft Visual C++");
-            correctionAdd("Microsoft VC++", "Microsoft Visual C++");
-
-            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
-
-            correctionAdd("VC++2010", "Visual C++ 2010");
-
-            correctionAdd("TurboC++", "Turbo C++");
-            correctionAdd("turbo c", "Turbo C++"); // Is this true?
-            correctionAdd("turbo C", "Turbo C++");
-            correctionAdd("Turbo C", "Turbo C++");
-            correctionAdd("TurboC", "Turbo C++");
-            correctionAdd("turbo c++", "Turbo C++");
-            correctionAdd("Turbo c++", "Turbo C++");
-            correctionAdd("turbo C++", "Turbo C++");
-            correctionAdd("Turbo-C", "Turbo C++");
-
-            // Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
-            correctionAdd("Cpp", "C++");
-            correctionAdd("cpp", "C++");
-            correctionAdd("c++", "C++");
-            correctionAdd("CPP", "C++");
-            correctionAdd("c plus plus", "C++");
-            correctionAdd("C ++", "C++");
-            correctionAdd("C + +", "C++");
-
-            correctionAdd("c++98", "C++98");
-            correctionAdd("C++99", "C++98");
-            correctionAdd("c++99", "C++98");
-
-            correctionAdd("c++0x", "C++0x");
-            correctionAdd("C++ 0x", "C++0x");
-            correctionAdd("C++(0X)", "C++0x");
-
-            correctionAdd("c++03", "C++03");
-
-            correctionAdd("c++11", "C++11");
-            correctionAdd("C++ 11", "C++11");
-            correctionAdd("c++ 11", "C++11");
-
-            correctionAdd("c++14", "C++14");
-            correctionAdd("C14", "C++14");
-            correctionAdd("C14++", "C++14");
-
-            correctionAdd("c++17", "C++17");
-
-            correctionAdd("c++20", "C++20");
-            correctionAdd("C++ 20", "C++20");
-
-            correctionAdd("C++builder", "C++Builder");
-            correctionAdd("c++builder", "C++Builder");
-            correctionAdd("c++ builder", "C++Builder"); // Does not work!
-            correctionAdd("C++ builder", "C++Builder");
-            correctionAdd("C++ Builder", "C++Builder");
-            correctionAdd("borland c++", "C++Builder");
-            correctionAdd("Borland C++", "C++Builder");
-
-            correctionAdd("Objective-c++", "Objective-C++");
-            correctionAdd("Objective C++", "Objective-C++");
-
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
             correctionAdd("autoamtically", "automatically");
@@ -24880,6 +24882,7 @@ namespace OverflowHelper.core
             correctionAdd("finded", "found");
             correctionAdd("faund", "found");
             correctionAdd("faound", "found");
+            correctionAdd("foud", "found");
 
             correctionAdd("joistick", "joystick");
 
@@ -26434,6 +26437,7 @@ namespace OverflowHelper.core
             correctionAdd("usefullness", "usefulness");
 
             correctionAdd("sub-process", "subprocess");
+            correctionAdd("sub process", "subprocess");
 
             correctionAdd("RUP", "Rational Unified Process");
             correctionAdd("rup", "Rational Unified Process");
@@ -30884,6 +30888,10 @@ namespace OverflowHelper.core
             correctionAdd("inhereted", "inherited");
 
             correctionAdd("IPC", "inter-process communication");
+            correctionAdd("Inter Process Communication", "inter-process communication");
+            correctionAdd("Interprocess communication", "inter-process communication");
+            correctionAdd("inter process communication", "inter-process communication");
+            correctionAdd("interprocess communication", "inter-process communication");
 
             correctionAdd("prod", "production");
             correctionAdd("producion", "production");
@@ -33000,6 +33008,7 @@ namespace OverflowHelper.core
 
             correctionAdd("trooth", "truth");
             correctionAdd("Trooth", "truth");
+            correctionAdd("Truth", "truth");
 
             correctionAdd("Colerado", "Colorado");
 
@@ -35405,6 +35414,7 @@ namespace OverflowHelper.core
             correctionAdd("flat-out", "flat out");
 
             correctionAdd("simly", "simply");
+            correctionAdd("Simply", "simply");
 
             correctionAdd("microhenry", "µH");
             correctionAdd("uH", "µH");
@@ -40534,6 +40544,7 @@ namespace OverflowHelper.core
             correctionAdd("Google", "google"); // The verb...
             correctionAdd("Google (verb)", "google");
             correctionAdd("google (verb)", "google");
+            correctionAdd("goolge", "google");
 
             correctionAdd("Born Rule", "Born rule");
 
@@ -41656,6 +41667,7 @@ namespace OverflowHelper.core
             correctionAdd("zimbabwee", "Zimbabwe");
 
             correctionAdd("aven", "even");
+            correctionAdd("eben", "even");
 
             correctionAdd("narcistic", "narcissistic");
 
@@ -43443,6 +43455,7 @@ namespace OverflowHelper.core
             correctionAdd("truthi", "truthy");
 
             correctionAdd("contextmenu", "context menu");
+            correctionAdd("Context Menu", "context menu");
 
             correctionAdd("doubt", "question (Indian English)");
             correctionAdd("dout", "question (Indian English)");
@@ -45721,6 +45734,59 @@ namespace OverflowHelper.core
             correctionAdd("over look", "overlook");
 
             correctionAdd("prining", "printing");
+
+            correctionAdd("andromeda paradox", "Andromeda paradox");
+
+            correctionAdd("awit", "await");
+
+            correctionAdd("Bridge", "bridge");
+
+            correctionAdd("counter-rotating", "counterrotating");
+            correctionAdd("counter rotating", "counterrotating");
+
+            correctionAdd("drive shaft", "driveshaft");
+
+            correctionAdd("drive train", "drivetrain");
+
+            correctionAdd("empenage", "empennage");
+            correctionAdd("Empennage", "empennage");
+
+            correctionAdd("et all", "et al");
+            correctionAdd("et.all", "et al");
+
+            correctionAdd("GoogleTest", "Google Test");
+            correctionAdd("Google test", "Google Test");
+            correctionAdd("goolge test", "Google Test");
+            correctionAdd("gtest", "Google Test");
+
+            correctionAdd("IFTTT", "If This Then That");
+
+            correctionAdd("international phonetic alphabet", "International Phonetic Alphabet");
+
+            correctionAdd("P-38 Lightning", "Lockheed P-38 Lightning");
+            correctionAdd("P 38", "Lockheed P-38 Lightning");
+            correctionAdd("P 38 lightning", "Lockheed P-38 Lightning");
+
+            correctionAdd("Named pipe", "named pipe");
+
+            correctionAdd("sharable", "shareable");
+            correctionAdd("share-able", "shareable");
+
+            correctionAdd("SOIC", "small outline integrated circuit");
+
+            correctionAdd("teamlead", "team lead");
+
+            correctionAdd("Uranium-238", "uranium-238");
+
+            correctionAdd("vararity", "variety");
+
+            correctionAdd("vortexes", "vortices");
+
+            correctionAdd("Flying Pancake", "Vought V-173 'Flying Pancake'");
+
+            correctionAdd(".NET remoting", ".NET Remoting");
+            correctionAdd("Remoting", ".NET Remoting");
+            correctionAdd("remoting", ".NET Remoting");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71837,6 +71903,48 @@ namespace OverflowHelper.core
 
             URL_Add("printing", "https://en.wiktionary.org/wiki/print#Verb");
 
+            URL_Add("Andromeda paradox", "https://en.wikipedia.org/wiki/Rietdijk%E2%80%93Putnam_argument#Andromeda_paradox");
+
+            URL_Add("await", "https://en.wiktionary.org/wiki/await#Verb");
+
+            URL_Add("bridge", "https://en.wiktionary.org/wiki/bridge#Noun");
+
+            URL_Add("counterrotating", "https://en.wiktionary.org/wiki/counterrotating#Adjective");
+
+            URL_Add("driveshaft", "https://en.wiktionary.org/wiki/driveshaft#Noun");
+
+            URL_Add("drivetrain", "https://en.wiktionary.org/wiki/drivetrain#Noun");
+
+            URL_Add("empennage", "https://en.wikipedia.org/wiki/Empennage");
+
+            URL_Add("et al", "https://en.wiktionary.org/wiki/et_al.#Phrase");
+
+            URL_Add("Google Test", "https://en.wikipedia.org/wiki/Google_Test");
+
+            URL_Add("If This Then That", "https://en.wikipedia.org/wiki/IFTTT#Features");
+
+            URL_Add("International Phonetic Alphabet", "https://en.wikipedia.org/wiki/International_Phonetic_Alphabet");
+
+            URL_Add("Lockheed P-38 Lightning", "https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning");
+
+            URL_Add("named pipe", "https://en.wikipedia.org/wiki/Named_pipe#In_Windows");
+
+            URL_Add("shareable", "https://en.wiktionary.org/wiki/shareable#Adjective");
+
+            URL_Add("small outline integrated circuit", "https://en.wikipedia.org/wiki/Small_outline_integrated_circuit");
+
+            URL_Add("team lead", "https://en.wikipedia.org/wiki/Team_leader");
+
+            URL_Add("uranium-238", "https://en.wikipedia.org/wiki/Uranium-238");
+
+            URL_Add("variety", "https://en.wiktionary.org/wiki/variety#Noun");
+
+            URL_Add("vortices", "https://en.wiktionary.org/wiki/vortex#Noun");
+
+            URL_Add("Vought V-173 'Flying Pancake'", "https://en.wikipedia.org/wiki/Vought_V-173");
+
+            URL_Add(".NET Remoting", "https://en.wikipedia.org/wiki/.NET_Remoting");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -72393,6 +72501,7 @@ namespace OverflowHelper.core
             correctionAdd("GOOGL_", "Google Search_"); // The search engine
             correctionAdd("GOOGLE_", "Google Search_"); // The search engine
             correctionAdd("googlr_", "Google Search_"); // The search engine
+            correctionAdd("goolge_", "Google Search_"); // The search engine
 
             correctionAdd("google_", "Google (company)_");
 
