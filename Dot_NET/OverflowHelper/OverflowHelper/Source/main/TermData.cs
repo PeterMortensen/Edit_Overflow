@@ -1391,6 +1391,7 @@ namespace OverflowHelper.core
             correctionAdd("pyton", "Python");
             correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
             correctionAdd("Pyhon", "Python");
+            correctionAdd("py thon", "Python");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -2201,6 +2202,7 @@ namespace OverflowHelper.core
             correctionAdd("No-one", "no one");
             correctionAdd("NOONE", "no one");
             correctionAdd("no ne", "no one");
+            correctionAdd("no on e", "no one");
 
             correctionAdd("some one", "someone");
             correctionAdd("somone", "someone");
@@ -5876,6 +5878,7 @@ namespace OverflowHelper.core
             correctionAdd("openoffice", "OpenOffice");
             correctionAdd("OOo", "OpenOffice");
             correctionAdd("Open office", "OpenOffice");
+            correctionAdd("OppenOffice", "OpenOffice");
 
             correctionAdd("matlab", "MATLAB");
             correctionAdd("Matlab", "MATLAB");
@@ -16619,6 +16622,7 @@ namespace OverflowHelper.core
             correctionAdd("acchieve", "achieve");
 
             correctionAdd("achived", "achieved");
+            correctionAdd("acheived", "achieved");
 
             correctionAdd("achievment", "achievement");
             correctionAdd("achivements", "achievement");
@@ -19127,6 +19131,7 @@ namespace OverflowHelper.core
             correctionAdd("constuct", "construct");
 
             correctionAdd("counter productive", "counterproductive");
+            correctionAdd("counter-productive", "counterproductive");
 
             correctionAdd("efort", "effort");
             correctionAdd("afford", "effort");
@@ -19767,6 +19772,7 @@ namespace OverflowHelper.core
             correctionAdd("liek", "like");
             correctionAdd("lke", "like");
             correctionAdd("liet", "like");
+            correctionAdd("lije", "like");
 
             correctionAdd("migitate", "mitigate");
 
@@ -27608,6 +27614,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sice", "since");
             correctionAdd("sonce", "since");
+            correctionAdd("SInce", "since");
 
             correctionAdd("asian", "Asian");
             correctionAdd("asain", "Asian");
@@ -28732,6 +28739,7 @@ namespace OverflowHelper.core
             correctionAdd("JSDOM", "jsdom");
 
             correctionAdd("in the fly", "on the fly");
+            correctionAdd("on fly", "on the fly");
 
             correctionAdd("preformed", "performed");
             correctionAdd("peformed", "performed");
@@ -29509,6 +29517,7 @@ namespace OverflowHelper.core
             correctionAdd("minx", "minks");
 
             correctionAdd("Prime Number", "prime number");
+            correctionAdd("primes", "prime number");
 
             correctionAdd("SSN", "Social Security number");
             correctionAdd("ss#", "Social Security number");
@@ -31105,6 +31114,7 @@ namespace OverflowHelper.core
             correctionAdd("sugar syntax", "syntactic sugar");
             correctionAdd("sugar", "syntactic sugar");
             correctionAdd("syntatic sugar", "syntactic sugar");
+            correctionAdd("syntactical sugar", "syntactic sugar");
 
             correctionAdd("trys", "tries");
             correctionAdd("trries", "tries");
@@ -33431,6 +33441,7 @@ namespace OverflowHelper.core
             correctionAdd("Ater", "after");
             correctionAdd("ater", "after");
             correctionAdd("affter", "after");
+            correctionAdd("afte", "after");
 
             correctionAdd("beat-'em-up", "beat 'em up");
             correctionAdd("Beat 'em Up", "beat 'em up");
@@ -43466,6 +43477,7 @@ namespace OverflowHelper.core
             correctionAdd("non linearity", "nonlinearity");
 
             correctionAdd("boat programming", "the boat programming question");
+            correctionAdd("Boat programming", "the boat programming question");
 
             correctionAdd("vectorialy", "vectorially");
 
@@ -45787,6 +45799,20 @@ namespace OverflowHelper.core
             correctionAdd(".NET remoting", ".NET Remoting");
             correctionAdd("Remoting", ".NET Remoting");
             correctionAdd("remoting", ".NET Remoting");
+
+            correctionAdd("as/400", "AS/400");
+
+            correctionAdd("non ending", "nonending");
+
+            correctionAdd("pre-made", "premade");
+
+            correctionAdd("pre-process", "preprocess");
+
+            correctionAdd("Rock Paper Scissors", "rock paper scissors");
+
+            correctionAdd("xephyr", "Xephyr");
+
+            correctionAdd("invloves", "involves");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71945,6 +71971,20 @@ namespace OverflowHelper.core
 
             URL_Add(".NET Remoting", "https://en.wikipedia.org/wiki/.NET_Remoting");
 
+            URL_Add("AS/400", "https://en.wikipedia.org/wiki/IBM_AS/400");
+
+            URL_Add("nonending", "https://en.wiktionary.org/wiki/nonending#Adjective");
+
+            URL_Add("premade", "https://en.wiktionary.org/wiki/premade#Adjective");
+
+            URL_Add("preprocess", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("rock paper scissors", "https://en.wikipedia.org/wiki/Rock_paper_scissors");
+
+            URL_Add("Xephyr", "https://en.wikipedia.org/wiki/Xephyr");
+
+            URL_Add("involves", "https://en.wiktionary.org/wiki/involve#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73302,6 +73342,8 @@ namespace OverflowHelper.core
             correctionAdd("homeworks_", "homework_");
             correctionAdd("HW_", "homework_");
             correctionAdd("Homework_", "homework_");
+            correctionAdd("Home-work_", "homework_");
+            correctionAdd("home-work_", "homework_");
 
             correctionAdd("homestead_", "Homestead_");
 
