@@ -485,6 +485,13 @@ namespace OverflowHelper.core
 
             correctionAdd("jsf", "JSF"); // Not actually observed.
 
+            correctionAdd("javafaces", "JavaServer Faces");
+            correctionAdd("Jakarta Faces", "JavaServer Faces");
+            correctionAdd("Jakarta Server Faces", "JavaServer Faces");
+            correctionAdd("ServerFace", "JavaServer Faces");
+            correctionAdd("ServerFaces", "JavaServer Faces");
+            correctionAdd("Serverfaces", "JavaServer Faces");
+
             correctionAdd("jsp", "JSP"); // Not actually observed.
             correctionAdd("Jsp", "JSP");
             correctionAdd("Java Server Pages", "JSP");
@@ -3591,6 +3598,30 @@ namespace OverflowHelper.core
             correctionAdd("Objective-c++", "Objective-C++");
             correctionAdd("Objective C++", "Objective-C++");
 
+            correctionAdd("subversion", "Subversion");
+            correctionAdd("SubVersion", "Subversion");
+            correctionAdd("SVN", "Subversion");
+            correctionAdd("svn", "Subversion");
+            correctionAdd("Svn", "Subversion");
+            correctionAdd("subersion", "Subversion");
+            correctionAdd("sub version", "Subversion");
+
+            correctionAdd("verision", "version");
+            correctionAdd("verison", "version");
+            correctionAdd("vers", "version");
+            correctionAdd("verion", "version");
+            correctionAdd("verson", "version");
+            correctionAdd("vertion", "version");
+            correctionAdd("vesrion", "version");
+            correctionAdd("Verison", "version");
+            correctionAdd("Vesion", "version");
+            correctionAdd("vesion", "version");
+            correctionAdd("versión", "version");
+            correctionAdd("Ver", "version");
+            correctionAdd("ver", "version");
+            correctionAdd("Version", "version");
+            correctionAdd("Verion", "version");
+
             correctionAdd("--Wall", "-Wall");
 
             correctionAdd("--Werror", "-Werror");
@@ -4326,6 +4357,7 @@ namespace OverflowHelper.core
             correctionAdd("Graphics Design", "Graphic Design (Stack Exchange site)");
             correctionAdd("Graphic Design", "Graphic Design (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("GraphicDesign.SE", "Graphic Design (Stack Exchange site)");
+            correctionAdd("graphic design", "Graphic Design (Stack Exchange site)");
 
             correctionAdd("SOes", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
@@ -6013,6 +6045,7 @@ namespace OverflowHelper.core
             correctionAdd("glasfish", "GlassFish");
             correctionAdd("Glassfish", "GlassFish");
             correctionAdd("galssfish", "GlassFish"); // Misspelling.
+            correctionAdd("glass fish", "GlassFish");
 
             correctionAdd("7Zip", "7-Zip");
             correctionAdd("7zip", "7-Zip");
@@ -6780,6 +6813,9 @@ namespace OverflowHelper.core
             correctionAdd("tomcat", "Tomcat");
             correctionAdd("tomacat", "Tomcat");
             correctionAdd("TOMCAT", "Tomcat");
+            correctionAdd("Apache Tomcat", "Tomcat");
+            correctionAdd("Apache tomcat", "Tomcat");
+            correctionAdd("apache tomcat", "Tomcat");
 
             correctionAdd("openid", "OpenID");
             correctionAdd("openID", "OpenID");
@@ -7530,6 +7566,7 @@ namespace OverflowHelper.core
             correctionAdd("Dependancy Injection", "dependency injection");
             correctionAdd("dependancy injection", "dependency injection");
             correctionAdd("Dependency injection", "dependency injection");
+            correctionAdd("dependency-injection", "dependency injection");
 
             correctionAdd("dependency walker", "Dependency Walker");
             correctionAdd("Dependency Wolker", "Dependency Walker");
@@ -8093,6 +8130,7 @@ namespace OverflowHelper.core
             correctionAdd("appl", "application");
             correctionAdd("Application", "application");
             correctionAdd("appi", "application");
+            correctionAdd("appllication", "application");
 
             correctionAdd("api", "API");
             correctionAdd("Api", "API");
@@ -9452,6 +9490,7 @@ namespace OverflowHelper.core
             correctionAdd("ub", "undefined behaviour");
             correctionAdd("undefined behavior", "undefined behaviour");
             correctionAdd("Undefined behavior", "undefined behaviour");
+            correctionAdd("Undefined Behaviour", "undefined behaviour");
 
             correctionAdd("color", "colour");
 
@@ -10807,6 +10846,7 @@ namespace OverflowHelper.core
             correctionAdd("Spring", "Spring Framework");
             correctionAdd("springs", "Spring Framework");
             correctionAdd("spring framework", "Spring Framework");
+            correctionAdd("Spring framework", "Spring Framework");
 
             correctionAdd("MEF", "Managed Extensibility Framework");
 
@@ -15003,6 +15043,7 @@ namespace OverflowHelper.core
             correctionAdd("ack", "acknowledge");
             correctionAdd("ackknowledge", "acknowledge");
             correctionAdd("achknowledge", "acknowledge");
+            correctionAdd("acknowlegde", "acknowledge");
 
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
@@ -15173,6 +15214,7 @@ namespace OverflowHelper.core
             correctionAdd("questsion", "question");
             correctionAdd("qs", "question");
             correctionAdd("questuin", "question");
+            correctionAdd("Q", "question");
 
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
@@ -17920,6 +17962,7 @@ namespace OverflowHelper.core
             correctionAdd("keword", "keyword");
             correctionAdd("keywort", "keyword");
             correctionAdd("Keyword", "keyword");
+            correctionAdd("keywork", "keyword");
 
             correctionAdd("milisecond", "millisecond");
             correctionAdd("millisec", "millisecond");
@@ -18649,8 +18692,6 @@ namespace OverflowHelper.core
             correctionAdd("Fifo", "FIFO");
 
             correctionAdd("google scholar", "Google Scholar");
-
-            correctionAdd("javafaces", "JavaServer Faces");
 
             correctionAdd("PHP 7", "PHP&nbsp;7"); // Sort of identity mapping
             correctionAdd("php 7", "PHP&nbsp;7");
@@ -19790,6 +19831,7 @@ namespace OverflowHelper.core
             correctionAdd("Physics", "physics");
             correctionAdd("phyiscs", "physics");
             correctionAdd("Physcs", "physics");
+            correctionAdd("phyics", "physics");
 
             correctionAdd("Particle Physics", "particle physics");
 
@@ -21828,6 +21870,7 @@ namespace OverflowHelper.core
             correctionAdd("spellckecker", "spell checker");
             correctionAdd("Spell checker", "spell checker");
             correctionAdd("spelling checker", "spell checker");
+            correctionAdd("Spellchecker", "spell checker");
 
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
@@ -23759,6 +23802,13 @@ namespace OverflowHelper.core
             correctionAdd("niemann", "Hans Niemann"); // Chess
             correctionAdd("Niemann", "Hans Niemann"); // Chess
             correctionAdd("Hans", "Hans Niemann"); // Chess
+
+            correctionAdd("OTB", "over-the-board chess"); // Chess
+
+            correctionAdd("Shirov", "Alexei Shirov"); // Chess
+            correctionAdd("shirof", "Alexei Shirov"); // Chess
+
+            correctionAdd("held in chess", "held in check"); // Chess
             //
             // End of the chess part
 
@@ -24655,6 +24705,7 @@ namespace OverflowHelper.core
             correctionAdd("aimiture", "amateur");
             correctionAdd("amataur", "amateur");
             correctionAdd("amatuer", "amateur");
+            correctionAdd("armature", "amateur");
 
             correctionAdd("entierly", "entirely");
             correctionAdd("intirely", "entirely");
@@ -24676,6 +24727,7 @@ namespace OverflowHelper.core
             correctionAdd("Heredoc", "heredoc");
             correctionAdd("heredocs", "heredoc");
             correctionAdd("Heredocs", "heredoc");
+            correctionAdd("here document", "heredoc");
 
             correctionAdd("Logic Programming", "logic programming");
 
@@ -26184,29 +26236,6 @@ namespace OverflowHelper.core
             correctionAdd("trafic", "traffic");
 
             correctionAdd("buyed", "bought");
-
-            correctionAdd("subversion", "Subversion");
-            correctionAdd("SubVersion", "Subversion");
-            correctionAdd("SVN", "Subversion");
-            correctionAdd("svn", "Subversion");
-            correctionAdd("Svn", "Subversion");
-            correctionAdd("subersion", "Subversion");
-            correctionAdd("sub version", "Subversion");
-
-            correctionAdd("verision", "version");
-            correctionAdd("verison", "version");
-            correctionAdd("vers", "version");
-            correctionAdd("verion", "version");
-            correctionAdd("verson", "version");
-            correctionAdd("vertion", "version");
-            correctionAdd("vesrion", "version");
-            correctionAdd("Verison", "version");
-            correctionAdd("Vesion", "version");
-            correctionAdd("vesion", "version");
-            correctionAdd("versión", "version");
-            correctionAdd("Ver", "version");
-            correctionAdd("ver", "version");
-            correctionAdd("Version", "version");
 
             correctionAdd("crockford", "Douglas Crockford");
             correctionAdd("Crockford", "Douglas Crockford");
@@ -29997,6 +30026,10 @@ namespace OverflowHelper.core
             correctionAdd("Servlet", "Jakarta Servlet");
             correctionAdd("servlet", "Jakarta Servlet");
             correctionAdd("servelet", "Jakarta Servlet");
+            correctionAdd("Servelts", "Jakarta Servlet");
+            correctionAdd("Servlets", "Jakarta Servlet");
+            correctionAdd("servelts", "Jakarta Servlet");
+            correctionAdd("servlets", "Jakarta Servlet");
 
             correctionAdd("re-think", "rethink");
 
@@ -36163,8 +36196,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FSCK", "fsck");
 
-            correctionAdd("held in chess", "held in check");
-
             correctionAdd("RCA", "root cause analysis");
 
             correctionAdd("taxnomy", "taxonomy");
@@ -36206,6 +36237,7 @@ namespace OverflowHelper.core
             correctionAdd("webdite", "website");
             correctionAdd("SITE", "website");
             correctionAdd("wbsite", "website");
+            correctionAdd("webiste", "website");
 
             correctionAdd("Webpage", "web page");
             correctionAdd("webpage", "web page");
@@ -36318,6 +36350,8 @@ namespace OverflowHelper.core
             correctionAdd("weblogic", "WebLogic");
 
             correctionAdd("Websphere", "WebSphere");
+            correctionAdd("web sphere", "WebSphere");
+            correctionAdd("websphere", "WebSphere");
 
             correctionAdd("Web Server Gateway Interface", "WSGI");
             correctionAdd("wsgi", "WSGI");
@@ -37510,6 +37544,7 @@ namespace OverflowHelper.core
             correctionAdd("win 11", "Windows&nbsp;11");
             correctionAdd("Win 11", "Windows&nbsp;11");
             correctionAdd("W11", "Windows&nbsp;11");
+            correctionAdd("Window 11", "Windows&nbsp;11");
 
             correctionAdd("beief", "belief");
             correctionAdd("beleif", "belief");
@@ -40283,6 +40318,8 @@ namespace OverflowHelper.core
             correctionAdd("Metaheuristic", "metaheuristic");
 
             correctionAdd("omited", "omitted");
+            correctionAdd("ommited", "omitted");
+            correctionAdd("ommitted", "omitted");
 
             correctionAdd("Optimization Problem", "optimization problem");
 
@@ -41861,6 +41898,7 @@ namespace OverflowHelper.core
 
             correctionAdd("unreal", "Unreal Engine");
             correctionAdd("UE", "Unreal Engine");
+            correctionAdd("Unreal", "Unreal Engine");
 
             correctionAdd("my HO", "in my honest opinion");
             correctionAdd("HO", "in my honest opinion");
@@ -44352,8 +44390,6 @@ namespace OverflowHelper.core
 
             correctionAdd("low end", "low-end");
 
-            correctionAdd("OTB", "over-the-board chess");
-
             correctionAdd("teensy", "Teensy");
 
             correctionAdd("computer numerical control", "CNC");
@@ -45060,6 +45096,8 @@ namespace OverflowHelper.core
             correctionAdd("there're", "there are");
 
             correctionAdd("VLA", "variable-length array");
+            correctionAdd("Variable Length Array", "variable-length array");
+            correctionAdd("variable length array", "variable-length array");
 
             correctionAdd("life threatening", "life-threatening");
             correctionAdd("Life threatening", "life-threatening");
@@ -45701,6 +45739,7 @@ namespace OverflowHelper.core
             correctionAdd("mknod", "mknod()");
 
             correctionAdd("DLSS", "deep learning super sampling");
+            correctionAdd("Deep Learning Super Sampling", "deep learning super sampling");
 
             correctionAdd("EPR paradox", "Einstein–Podolsky–Rosen paradox");
             correctionAdd("EPR", "Einstein–Podolsky–Rosen paradox");
@@ -45740,6 +45779,8 @@ namespace OverflowHelper.core
             correctionAdd("experimentingn", "experimenting");
 
             correctionAdd("pudb", "PuDB");
+            correctionAdd("Pudb", "PuDB");
+            correctionAdd("pUdb", "PuDB");
 
             correctionAdd("cthulhu", "Cthulhu");
 
@@ -45813,6 +45854,62 @@ namespace OverflowHelper.core
             correctionAdd("xephyr", "Xephyr");
 
             correctionAdd("invloves", "involves");
+
+            correctionAdd("i9-13900K", "Core i9-13900K");
+
+            correctionAdd("DDR5", "DDR5 SDRAM");
+
+            correctionAdd("4090", "GeForce RTX 4090");
+
+            correctionAdd("multiplies", "multiplications");
+
+            correctionAdd("Multiply", "multiply");
+
+            correctionAdd("Tensor Cores", "Tensor cores");
+
+            correctionAdd("Equifax", "2017 Equifax data breach");
+
+            correctionAdd("App Bundle", "application bundle");
+
+            correctionAdd("blacklist", "blocklist");
+
+            correctionAdd("cobertura", "Cobertura");
+
+            correctionAdd("decreses", "decreases");
+            correctionAdd("decrees", "decreases");
+
+            correctionAdd("Emma", "EMMA");
+
+            correctionAdd("Forward Declaration", "forward declaration");
+
+            correctionAdd("head first", "Head First");
+
+            correctionAdd("JML", "Java Modeling Language");
+
+            correctionAdd("neuro divergence", "neurodivergence");
+
+            correctionAdd("neuro diversity", "neurodiversity");
+
+            correctionAdd("over-thinking", "overthinking");
+
+            correctionAdd("quantifibly", "quantifiably");
+
+            correctionAdd("ready made", "ready-made");
+
+            correctionAdd("resonable", "reasonable");
+
+            correctionAdd("sco", "SCO");
+
+            correctionAdd("SEAM", "Seam");
+
+            correctionAdd("skilfully", "skillfully");
+
+            correctionAdd("Roo", "Spring Roo");
+
+            correctionAdd("thomson scattering", "Thomson scattering");
+
+            correctionAdd("wear levelling", "wear leveling");
+            correctionAdd("wear-leveling", "wear leveling");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71985,6 +72082,62 @@ namespace OverflowHelper.core
 
             URL_Add("involves", "https://en.wiktionary.org/wiki/involve#Verb");
 
+            URL_Add("Core i9-13900K", "https://en.wikipedia.org/wiki/List_of_Intel_Core_i9_processors#Raptor_Lake_(Intel_7,_13th_generation)");
+
+            URL_Add("DDR5 SDRAM", "https://en.wikipedia.org/wiki/DDR5_SDRAM");
+
+            URL_Add("GeForce RTX 4090", "https://en.wikipedia.org/wiki/GeForce_40_series#Products");
+
+            URL_Add("multiplications", "https://en.wiktionary.org/wiki/multiplication#Noun");
+
+            URL_Add("multiply", "https://en.wiktionary.org/wiki/multiply#Verb");
+
+            URL_Add("Tensor cores", "https://en.wikipedia.org/wiki/Volta_(microarchitecture)#Details");
+
+            URL_Add("2017 Equifax data breach", "https://en.wikipedia.org/wiki/2017_Equifax_data_breach#Data_breach");
+
+            URL_Add("Alexei Shirov", "https://en.wikipedia.org/wiki/Alexei_Shirov");
+
+            URL_Add("application bundle", "https://en.wikipedia.org/wiki/Bundle_(macOS)#Application_bundles");
+
+            URL_Add("blocklist", "https://en.wiktionary.org/wiki/blocklist#Verb");
+
+            URL_Add("Cobertura", "https://en.wikipedia.org/wiki/Java_code_coverage_tools#Cobertura");
+
+            URL_Add("decreases", "https://en.wiktionary.org/wiki/decrease#Verb");
+
+            URL_Add("EMMA", "https://en.wikipedia.org/wiki/Java_code_coverage_tools#EMMA");
+
+            URL_Add("forward declaration", "https://en.wikipedia.org/wiki/Forward_declaration");
+
+            URL_Add("Head First", "https://en.wikipedia.org/wiki/Head_First_(book_series)");
+
+            URL_Add("Java Modeling Language", "https://en.wikipedia.org/wiki/Java_Modeling_Language");
+
+            URL_Add("neurodivergence", "https://en.wiktionary.org/wiki/neurodivergence#Noun");
+
+            URL_Add("neurodiversity", "https://en.wiktionary.org/wiki/neurodiversity#Noun");
+
+            URL_Add("overthinking", "https://en.wiktionary.org/wiki/overthink#Verb_2");
+
+            URL_Add("quantifiably", "https://en.wiktionary.org/wiki/quantifiably#Adverb");
+
+            URL_Add("ready-made", "https://en.wiktionary.org/wiki/ready-made#Adjective");
+
+            URL_Add("reasonable", "https://en.wiktionary.org/wiki/reasonable#Adjective");
+
+            URL_Add("SCO", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Synchronous_Connection-Oriented_(SCO)_link");
+
+            URL_Add("Seam", "https://en.wikipedia.org/wiki/JBoss_Seam");
+
+            URL_Add("skillfully", "https://en.wiktionary.org/wiki/skillfully#Adverb");
+
+            URL_Add("Spring Roo", "https://en.wikipedia.org/wiki/Spring_Roo");
+
+            URL_Add("Thomson scattering", "https://en.wikipedia.org/wiki/Thomson_scattering");
+
+            URL_Add("wear leveling", "https://en.wikipedia.org/wiki/Wear_leveling");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73494,12 +73647,15 @@ namespace OverflowHelper.core
             correctionAdd("sitted_", "sat_");
 
             correctionAdd("ace_", "Ace_");
+            correctionAdd("Ace editor_", "Ace_");
 
             correctionAdd("Web3_", "Web 3.0_");
             correctionAdd("web3_", "Web 3.0_");
 
             correctionAdd("PDB_", "Protein Data Bank_");
             correctionAdd("pdb_", "Protein Data Bank_");
+
+            correctionAdd("Click_", "Apache Click_");
 
             // URL mappings
             //
@@ -74373,6 +74529,8 @@ namespace OverflowHelper.core
             URL_Add("Web 3.0_", "https://en.wikipedia.org/wiki/Web3");
 
             URL_Add("Protein Data Bank_", "https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)");
+
+            URL_Add("Apache Click_", "https://en.wikipedia.org/wiki/Apache_Click");
 
         } //addLookupData_alternativeWordSet()
 
