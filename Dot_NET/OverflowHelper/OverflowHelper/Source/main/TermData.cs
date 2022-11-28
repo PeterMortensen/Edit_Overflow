@@ -8841,6 +8841,11 @@ namespace OverflowHelper.core
             correctionAdd("avialale", "available");
             correctionAdd("aviable", "available");
             correctionAdd("avail", "available");
+            correctionAdd("avalable", "available");
+
+            correctionAdd("SITES-AVAILABLE", "sites-available");
+
+            correctionAdd("unavalable", "unavailable");
 
             correctionAdd("usuable", "usable");
             correctionAdd("useble", "usable");
@@ -8954,8 +8959,6 @@ namespace OverflowHelper.core
             correctionAdd("programable", "programmable");
             correctionAdd("programmamble", "programmable");
             correctionAdd("programamble", "programmable");
-
-            correctionAdd("SITES-AVAILABLE", "sites-available");
 
             correctionAdd("learn-able", "learnable");
 
@@ -13090,6 +13093,34 @@ namespace OverflowHelper.core
             correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
+            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
+            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
+
+            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
+            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+
+            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
@@ -16215,6 +16246,7 @@ namespace OverflowHelper.core
             correctionAdd("intallation", "installation");
             correctionAdd("installlation", "installation");
             correctionAdd("installatin", "installation");
+            correctionAdd("installtion", "installation");
 
             correctionAdd("reinstallatio", "reinstallation");
 
@@ -16658,12 +16690,6 @@ namespace OverflowHelper.core
 
             correctionAdd("swedish", "Swedish");
 
-            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
-            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
-
             correctionAdd("vsts", "VSTS");
             correctionAdd("Visual Studio Team Services", "VSTS");
             correctionAdd("visual studio team services", "VSTS");
@@ -16916,6 +16942,7 @@ namespace OverflowHelper.core
             correctionAdd("alternativ", "alternative");
             correctionAdd("Alternate", "alternative");
             correctionAdd("alternate", "alternative");
+            correctionAdd("alternatlve", "alternative");
 
             correctionAdd("concatention", "concatenation");
             correctionAdd("concatanation", "concatenation");
@@ -20173,6 +20200,7 @@ namespace OverflowHelper.core
 
             correctionAdd("np", "no problem");
             correctionAdd("NP", "no problem");
+            correctionAdd("Np", "no problem");
 
             correctionAdd("suport", "support");
             correctionAdd("supoprt", "support");
@@ -20844,6 +20872,7 @@ namespace OverflowHelper.core
             correctionAdd("in other terms", "in other words");
             correctionAdd("In others words", "in other words");
             correctionAdd("in others words", "in other words");
+            correctionAdd("in another word", "in other words");
 
             correctionAdd("IPROUTE2", "iproute2");
 
@@ -26086,18 +26115,6 @@ namespace OverflowHelper.core
 
             correctionAdd("couchbase", "Couchbase");
 
-            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-
             correctionAdd("caled", "called");
             correctionAdd("callled", "called");
 
@@ -30373,10 +30390,6 @@ namespace OverflowHelper.core
             correctionAdd("ToC", "TOC");
             correctionAdd("table of contens", "TOC");
             correctionAdd("table of contents", "TOC");
-
-            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
 
             correctionAdd("werkzeug", "Werkzeug");
 
@@ -36455,6 +36468,7 @@ namespace OverflowHelper.core
             correctionAdd("Apple Silicon", "Apple silicon");
             correctionAdd("Silicon MAC", "Apple silicon");
             correctionAdd("Silicon Mac", "Apple silicon");
+            correctionAdd("apple silicon", "Apple silicon");
 
             correctionAdd("calabash", "Calabash");
 
@@ -41654,10 +41668,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rot13", "ROT13");
 
-            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
-            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-
             correctionAdd("bycicle", "bicycle");
 
             correctionAdd("catchig", "catching");
@@ -43884,8 +43894,6 @@ namespace OverflowHelper.core
 
             correctionAdd("perturbate", "perturb");
 
-            correctionAdd("unavalable", "unavailable");
-
             correctionAdd("B2 visa", "B-2 visa");
 
             correctionAdd("BSD licensed", "BSD-licensed");
@@ -44300,6 +44308,7 @@ namespace OverflowHelper.core
             correctionAdd("failled", "failed");
 
             correctionAdd("quitely", "quietly");
+            correctionAdd("quetly", "quietly");
 
             correctionAdd("Supabase JS", "supabase-js");
             correctionAdd("Supabase.js", "supabase-js");
@@ -45613,6 +45622,7 @@ namespace OverflowHelper.core
             correctionAdd("trapezoid rule", "trapezoidal rule");
             correctionAdd("Trapezium rule", "trapezoidal rule");
             correctionAdd("trapezium rule", "trapezoidal rule");
+            correctionAdd("trap", "trapezoidal rule");
 
             correctionAdd("eye sore", "eyesore");
 
@@ -45964,6 +45974,27 @@ namespace OverflowHelper.core
             correctionAdd("Toxix", "toxic");
 
             correctionAdd("rpartition", "rpartition()");
+
+            correctionAdd("AWOL", "absent without official leave");
+
+            correctionAdd("awfull", "awful");
+
+            correctionAdd("hackaday", "Hackaday");
+            correctionAdd("HackADay", "Hackaday");
+
+            correctionAdd("Marathon", "marathon");
+
+            correctionAdd("midification", "modification");
+
+            correctionAdd("prevailent", "prevalent");
+
+            correctionAdd("Spice", "SPICE");
+
+            correctionAdd("tongue in cheek", "tongue-in-cheek");
+
+            correctionAdd("unistalled", "uninstalled");
+
+            correctionAdd("urlencode", "urlencode()");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72219,6 +72250,26 @@ namespace OverflowHelper.core
             URL_Add("toxic", "https://en.wiktionary.org/wiki/toxic#Adjective");
 
             URL_Add("rpartition()", "https://docs.python.org/3/library/stdtypes.html#str.rpartition");
+
+            URL_Add("absent without official leave", "https://en.wiktionary.org/wiki/AWOL#Adjective");
+
+            URL_Add("awful", "https://en.wiktionary.org/wiki/awful#Adjective");
+
+            URL_Add("Hackaday", "https://en.wikipedia.org/wiki/Hackaday");
+
+            URL_Add("marathon", "https://en.wiktionary.org/wiki/marathon#Noun");
+
+            URL_Add("modification", "https://en.wiktionary.org/wiki/modification#Noun");
+
+            URL_Add("prevalent", "https://en.wiktionary.org/wiki/prevalent#Adjective");
+
+            URL_Add("SPICE", "https://en.wikipedia.org/wiki/SPICE");
+
+            URL_Add("tongue-in-cheek", "https://en.wiktionary.org/wiki/tongue-in-cheek#Adjective");
+
+            URL_Add("uninstalled", "https://en.wiktionary.org/wiki/uninstall#Verb");
+
+            URL_Add("urlencode()", "https://www.php.net/manual/en/function.urlencode.php");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
