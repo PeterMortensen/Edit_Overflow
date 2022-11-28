@@ -2136,8 +2136,11 @@ cd ${SELINUM_DRIVERSCRIPT_DIR}
 #   Alternatively, we could configure Pylint to accept 6 instead of 5.
 #   See e.g. <https://stackoverflow.com/a/816789>.
 #
+#   C0302: For more than 1,000 lines...
+#
 #pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+
 
 
 # ###########################################################################

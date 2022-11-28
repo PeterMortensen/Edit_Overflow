@@ -17,6 +17,7 @@
         <?php
             require_once('deploymentSpecific.php');
 
+            # Or trailing underscore??? What was the intent?
             function stripTrailingSlash($aString)
             {
                 return substr($aString, 0, strlen($aString) - 1);
@@ -31,7 +32,9 @@
                 return
                     "<a " .
                     "href=" .
-                    "\"$baseURL&LookUpTerm=$anIncorrectTerm\"" .
+                    "\"$baseURL&LookUpTerm=" . 
+                    urlencode($anIncorrectTerm) . 
+                    "\"" .
                     " id=\"$anID\"" .
                     ">" . stripTrailingSlash($aCorrectTerm) . "</a>";
             } #alternativeLink()
@@ -248,12 +251,17 @@
             # Look up incorrect word in the alternative word set
             #
             [$incorrectTerm2, $correctTerm2, $URL2] =
-                lookup($pdo, $lookUpTerm . "_");
+                lookup($pdo, 
+                        $lookUpTerm . "_");
 
             # Look up correct word in the alternative word set
             #
+            # Note that "$incorrectTerm3" is slightly confusing
+            # as it will actually contain the correct term...
+            #
             [$incorrectTerm3, $correctTerm3, $URL3] =
-                lookup($pdo, $correctTerm . "_");
+                lookup($pdo, 
+                        $correctTerm . "_");
 
             # Transparently use the alternative word set if the
             # primary lookup fails (e.g., seemless lookup when

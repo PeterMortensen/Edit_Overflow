@@ -26,6 +26,8 @@ import unittest
 
 import time
 
+from urllib.parse import urlparse
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -295,7 +297,44 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #               "PHP (tag wiki)" (a correct word in the
     #               alternative word set).
     #
-    def _lookUp(self, aLookUpTerm, aExpectedEditSummary, anExplanation, anAlternativeLinkText):
+    #
+    #    aPartialAlternativeURL
+    #
+    #      It is not a full URL. For now, it assumes query
+    #      parameter "OverflowStyle=Native" is always used.
+    #
+    #      E.g. only a site relative URL or only part of the
+    #      query parameters.
+    #
+    #      Example:
+    #
+    #        "LookUpTerm=python_"
+    #
+    #        ***Not*** the full, e.g.:
+    #
+    #          "/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_"
+    #
+    def _lookUp(self,
+                aLookUpTerm,
+                aExpectedEditSummary,
+                anExplanation,
+                anAlternativeLinkText,
+                anAlternativeURL):
+
+        # Internal consistency test (check for client specification
+        # error). If there is a cross reference, then
+        # the corresponding (expected) URL must
+        # also be specified.
+        if anAlternativeLinkText == "":
+            self.assertTrue(
+                anAlternativeURL == "",
+                "Internal error in _lookUp(): Cross URL specified, but the link text is missing.")
+        else:
+            self.assertTrue(
+                anAlternativeURL != "",
+                "Internal error in _lookUp(): URL not specified for " +
+                ' cross reference "' + anAlternativeLinkText + '".' )
+
 
         self._submitTerm(aLookUpTerm)
 
@@ -323,9 +362,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #      don't throw exceptions have been removed in later
         #      versions Selenium.
 
-        lookupReference = " for lookup word " + aLookUpTerm + "."
+        lookupReference = ' for lookup word "' + aLookUpTerm + '".'
 
         linkText = ""
+        alternativeURL = ""
 
         # 1002 and 1003 are IDs for the two possible HTML <a> elements
         # for cross links to the alternative word set. 0, 1, or 2 may
@@ -339,12 +379,32 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             foundElement = self.browser.find_element(By.ID, "1002")
             linkText = foundElement.text
 
+            # Note: This returns the absolute URL (like manually in
+            #       the browser), even if the HTML source contains
+            #       a relative URL.
+            #
+            #    Example:
+            #
+            #      Full URL:
+            #
+            #        http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_
+            #
+            #      Site relative URL in HTML source:
+            #
+            #        /world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_
+            #
+            #
+            alternativeURL = foundElement.get_attribute("href")
+
+            # get_attribute("attribute name")
+
         # For now: Override, if the other exists. Thus we can not
         #          really handle two alternatives at the moment.
         if isAlternativeIsPresent2:
 
             foundElement = self.browser.find_element(By.ID, "1003")
             linkText = foundElement.text
+            alternativeURL = foundElement.get_attribute("href")
 
         if linkText != "":
 
@@ -352,6 +412,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                              anAlternativeLinkText,
                              "Wrong cross reference text" +
                                lookupReference)
+
+            self.assertEqual(alternativeURL,
+                             anAlternativeURL,
+                             "Wrong cross reference URL" +
+                               lookupReference)
+
         else:
 
             self.assertEqual("",
@@ -667,6 +733,23 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Test of the central function of Edit Overflow for web: Looking
     # up incorrect terms (typically misspelled words)
     #
+    # Parameters:
+    #
+    #    aURL
+    #
+    #      A start URL to a Edit Overflow lookup page,
+    #      local web server or production, with or
+    #      without query parameters.
+    #
+    #      Thus it implicitly specifies if it runs
+    #      on the local web server or production.
+    #
+    #      Examples:
+    #
+    #        http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php
+    #
+    #        https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=php&UseJavaScript=yes&OverflowStyle=Native
+    #
     # Notes:
     #
     #   1. Currently we implicitly expect it to
@@ -684,12 +767,31 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #      step (many subtle errors are possible, especially
     #      with failed word lookups).
     #
+    #   5. We currently rely on the implementation to use
+    #      "OverflowStyle=Native" and to use site relative
+    #      URLs for the ***cross reference*** URLs (though
+    #      the first could be considered a bug). Example:
+    #
+    #         "/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_"
+    #
     def _mainLookup(self, aURL):
         # Initial page, with a (known) incorrect term ***different***
         # from the ***default*** of 'cpu': 'php'
         #
         self.browser.get(aURL)
         time.sleep(2.0)
+
+        # Part of the test input must be derived for _lookUp() as it
+        # doesn't know about URLs (though the lookup result may
+        # contain URLs).
+        #
+        # Example:
+        #
+        #   http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=
+        #
+        URLparts = urlparse(aURL)
+        site = URLparts.scheme + "://" + URLparts.netloc
+        altURLprefix = site + "/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm="
 
         singleLookup_editSummary_PHP = 'Active reading [<https://en.wikipedia.org/wiki/PHP>].'
 
@@ -710,7 +812,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("python",
                          firstRealLookup_editSummary,
                          defaultMsgForEditSummary,
-                         "Python (tag wiki)")
+                         "Python (tag wiki)",
+                         #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
+                         altURLprefix + "python_")
 
         if True: # Test a failed lookup.
 
@@ -721,7 +825,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("PHP__Z",
                         firstRealLookup_editSummary,
                         'Changed edit summary for a failed Edit Overflow lookup',
-                        "")
+                        "", "")
 
         if True: # Lookup ***after a failed*** lookup.
 
@@ -730,7 +834,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("until",
                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
                         defaultMsgForEditSummary + 'for looking up a ***correct*** term',
-                        "")
+                        "", "")
 
         if True: # Test clearing the edit summary state (user controlled
                  # by checkbox "Reset lookup state")
@@ -745,7 +849,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("php",
                          singleLookup_editSummary_PHP,
                          defaultMsgForEditSummary,
-                         "PHP (tag wiki)")
+                         "PHP (tag wiki)", altURLprefix + "php_")
 
 
         if True: # Do a ***failing lookup*** after a reset - we had a
@@ -759,14 +863,15 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("PHP__Z",
                          singleLookup_editSummary_PHP,
                          defaultMsgForEditSummary,
-                         "")
+                         "", "")
 
 
         if True: # Test clearing the edit summary state and with
                  # an initial lookup of an unknown term
 
             self._setCheckbox("resetState")
-            self._lookUp("PHP__Z", "", defaultMsgForEditSummary, "")
+            self._lookUp("PHP__Z", "", defaultMsgForEditSummary,
+                         "", "")
 
 
         if True: #
@@ -781,7 +886,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("*nix",
                          "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
                          defaultMsgForEditSummary,
-                         "")
+                         "", "")
 
 
         #This test could be a separate test... It doesn't need to be here.
@@ -796,7 +901,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("SU",
                          "Active reading [<https://superuser.com/tour>].",
                          defaultMsgForEditSummary,
-                         "superuser")
+                         "superuser",
+                         altURLprefix + "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
+                           # Requires a weird mapping in the word list...
+
+#"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Super%26nbsp%3BUser+%28Stack+Exchange+site%29_"
+#                                                        "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test an expected cross reference (in
@@ -804,12 +914,29 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                  #
                  # This tests particular expected content of the
                  # word list
+                 #
+                 # Also a lookup word with a space... Encoded as
+                 # "+" in the URL... (why not "%20"???)
 
             self._setCheckbox("resetState")
             self._lookUp("Microsoft Azure",
                          "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
                          defaultMsgForEditSummary,
-                         "Azure (tag wiki)")
+                         "Azure (tag wiki)",
+                         altURLprefix + "Microsoft+Azure_")
+
+        #This test could be a separate test... It doesn't need to be here.
+        if True: # Test encoding, for "+", for the cross reference URL
+                 #
+                 # This tests particular expected content of the
+                 # word list
+
+            self._setCheckbox("resetState")
+            self._lookUp("c++",
+                         "Active reading [<https://en.wikipedia.org/wiki/C%2B%2B>].",
+                         defaultMsgForEditSummary,
+                         "C++ (tag wiki)",
+                         altURLprefix + "c%2B%2B_")
 
 
     # Helper function for testing
