@@ -8058,6 +8058,8 @@ namespace OverflowHelper.core
             correctionAdd("GMessage", "Google Talk");
             correctionAdd("Google Chat", "Google Talk");
             correctionAdd("gChat", "Google Talk");
+            correctionAdd("google chat", "Google Talk");
+            correctionAdd("google-chat", "Google Talk");
 
             correctionAdd("Distro", "distribution"); // Expansion.
             correctionAdd("distro", "distribution"); // Expansion.
@@ -18770,6 +18772,17 @@ namespace OverflowHelper.core
             correctionAdd("alomst", "almost");
             correctionAdd("allmost", "almost");
 
+            correctionAdd("left most", "leftmost");
+
+            correctionAdd("must", "most");
+            correctionAdd("mos", "most");
+
+            correctionAdd("second-most", "second most");
+
+            correctionAdd("bottommost", "bottom-most");
+
+            correctionAdd("front-most", "frontmost");
+
             correctionAdd("answeared", "answered");
             correctionAdd("aswered", "answered");
 
@@ -22120,6 +22133,7 @@ namespace OverflowHelper.core
             correctionAdd("critera", "criteria");
             correctionAdd("cretiria", "criteria");
             correctionAdd("creteria", "criteria");
+            correctionAdd("criterions", "criteria");
 
             correctionAdd("dead see", "dead sea");
 
@@ -23064,6 +23078,8 @@ namespace OverflowHelper.core
             correctionAdd("Introsort", "introsort");
 
             correctionAdd("Observer Pattern", "observer pattern");
+            correctionAdd("observer", "observer pattern");
+            correctionAdd("observer design pattern", "observer pattern");
 
             correctionAdd("Facade pattern", "facade pattern");
             correctionAdd("facade", "facade pattern");
@@ -24521,8 +24537,6 @@ namespace OverflowHelper.core
             correctionAdd("General Relativity", "general relativity");
             correctionAdd("General Reativity", "general relativity");
             correctionAdd("general relatiity", "general relativity");
-
-            correctionAdd("left most", "leftmost");
 
             correctionAdd("mis match", "mismatch");
             correctionAdd("mis-match", "mismatch");
@@ -26157,6 +26171,8 @@ namespace OverflowHelper.core
             correctionAdd("thae", "the");
             correctionAdd("THe", "the");
             correctionAdd("thhe", "the");
+            correctionAdd("Theh", "the");
+            correctionAdd("theh", "the");
 
             correctionAdd("vaild", "valid"); // True typo
             correctionAdd("vaiid", "valid");
@@ -29014,6 +29030,7 @@ namespace OverflowHelper.core
             correctionAdd("temperture", "temperature");
             correctionAdd("tempertaure", "temperature");
             correctionAdd("Temperature", "temperature");
+            correctionAdd("temprature", "temperature");
 
             correctionAdd("cheeper", "cheaper");
 
@@ -31077,8 +31094,6 @@ namespace OverflowHelper.core
             correctionAdd("Lookup", "look up");
 
             correctionAdd("mosty", "mostly");
-
-            correctionAdd("must", "most");
 
             correctionAdd("moster", "monster");
 
@@ -34274,6 +34289,7 @@ namespace OverflowHelper.core
             correctionAdd("enties", "entries");
             correctionAdd("entrees", "entries");
             correctionAdd("enteries", "entries");
+            correctionAdd("entires", "entries");
 
             correctionAdd("tab", "tab character");
             correctionAdd("TAB character", "tab character");
@@ -41747,6 +41763,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aven", "even");
             correctionAdd("eben", "even");
+            correctionAdd("Even", "even");
 
             correctionAdd("narcistic", "narcissistic");
 
@@ -43009,8 +43026,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Scikit-image", "scikit-image");
 
-            correctionAdd("second-most", "second most");
-
             correctionAdd("Toffler", "Alvin Toffler");
 
             correctionAdd("Azure data studio", "Azure Data Studio");
@@ -43758,8 +43773,6 @@ namespace OverflowHelper.core
 
             correctionAdd("urjent", "urgent");
 
-            correctionAdd("bottommost", "bottom-most");
-
             correctionAdd("bouding", "bounding");
 
             correctionAdd("bouding box", "bounding box");
@@ -44221,6 +44234,7 @@ namespace OverflowHelper.core
             correctionAdd("kegboard", "Kegboard");
 
             correctionAdd("triage review queue", "Triage review queue");
+            correctionAdd("triage", "Triage review queue");
 
             correctionAdd("flage", "flag");
 
@@ -45373,8 +45387,6 @@ namespace OverflowHelper.core
 
             correctionAdd("field bus", "fieldbus");
 
-            correctionAdd("front-most", "frontmost");
-
             correctionAdd("micro-satellite", "microsatellite");
 
             correctionAdd("single-event upset", "single-event latchup");
@@ -45959,6 +45971,7 @@ namespace OverflowHelper.core
 
             correctionAdd("spinejs", "Spine.js");
             correctionAdd("Spine", "Spine.js");
+            correctionAdd("spine", "Spine.js");
 
             correctionAdd("Skyrim", "The Elder Scrolls V: Skyrim");
             correctionAdd("skyrim", "The Elder Scrolls V: Skyrim");
@@ -45995,6 +46008,25 @@ namespace OverflowHelper.core
             correctionAdd("unistalled", "uninstalled");
 
             correctionAdd("urlencode", "urlencode()");
+
+            correctionAdd("archeology", "archaeology");
+
+            correctionAdd("CBT", "complete binary tree");
+
+            correctionAdd("lose end", "loose end");
+
+            correctionAdd("Eternal September on SO", "Eternal September on Stack Overflow");
+
+            correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
+
+            correctionAdd("opt-in", "opt in");
+
+            correctionAdd("tenacious", "Tenacious badge");
+
+            correctionAdd("wounder", "wonder");
+
+            correctionAdd("X virtual framebuffer", "Xvfb");
+            correctionAdd("xvfb", "Xvfb");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72271,6 +72303,24 @@ namespace OverflowHelper.core
 
             URL_Add("urlencode()", "https://www.php.net/manual/en/function.urlencode.php");
 
+            URL_Add("archaeology", "https://en.wiktionary.org/wiki/archaeology#Noun");
+
+            URL_Add("complete binary tree", "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees");
+
+            URL_Add("loose end", "https://en.wiktionary.org/wiki/loose_end#Noun");
+
+            URL_Add("Eternal September on Stack Overflow", "https://stackoverflow.blog/2010/10/04/asking-better-questions/");
+
+            URL_Add("full Stack Overflow developer", "https://www.christianheilmann.com/2015/07/17/the-full-stackoverflow-developer/");
+
+            URL_Add("opt in", "https://en.wiktionary.org/wiki/opt_in#Verb");
+
+            URL_Add("Tenacious badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("wonder", "https://en.wiktionary.org/wiki/wonder#Verb");
+
+            URL_Add("Xvfb", "https://en.wikipedia.org/wiki/Xvfb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73791,6 +73841,15 @@ namespace OverflowHelper.core
             correctionAdd("Click_", "Apache Click_");
             correctionAdd("click_", "Apache Click_"); // Mostly to connect it to the common noun (in the main word set)
 
+            correctionAdd("expect_", "expects_");
+            correctionAdd("aspects_", "expects_");
+            correctionAdd("espects_", "expects_");
+            correctionAdd("exspects_", "expects_");
+
+            correctionAdd("hem_", "Hem_");
+
+            correctionAdd("empathy_", "Empathy_");
+
             // URL mappings
             //
             //
@@ -74665,6 +74724,12 @@ namespace OverflowHelper.core
             URL_Add("Protein Data Bank_", "https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)");
 
             URL_Add("Apache Click_", "https://en.wikipedia.org/wiki/Apache_Click");
+
+            URL_Add("expects_", "https://en.wiktionary.org/wiki/expect#Verb");
+
+            URL_Add("Hem_", "https://github.com/spine/hem");
+
+            URL_Add("Empathy_", "https://en.wikipedia.org/wiki/Empathy_(software)");
 
         } //addLookupData_alternativeWordSet()
 
