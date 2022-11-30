@@ -1179,6 +1179,8 @@ namespace OverflowHelper.core
             correctionAdd("JavasCript", "JavaScript");
             correctionAdd("Jvascript", "JavaScript");
             correctionAdd("jvascript", "JavaScript");
+            correctionAdd("JavaScripit", "JavaScript");
+            correctionAdd("Javascrpt", "JavaScript");
 
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
@@ -1332,6 +1334,7 @@ namespace OverflowHelper.core
             correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
             correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
             correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecmaScript6", "ECMAScript&nbsp;2015");
 
             correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
             correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
@@ -1348,6 +1351,8 @@ namespace OverflowHelper.core
             correctionAdd("ES8", "ECMAScript&nbsp;2017");
             correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
             correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
+            correctionAdd("ES-2017", "ECMAScript&nbsp;2017");
+            correctionAdd("EcmaScript 2017", "ECMAScript&nbsp;2017");
 
             correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
             correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
@@ -1441,6 +1446,7 @@ namespace OverflowHelper.core
             correctionAdd("iPython", "IPython");
             correctionAdd("Ipython", "IPython");
             correctionAdd("IPyton", "IPython");
+            correctionAdd("ipyhton", "IPython");
 
             correctionAdd("iPython notebook", "IPython Notebook");
             correctionAdd("iPython-notebook", "IPython Notebook");
@@ -2731,6 +2737,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
             correctionAdd("Mac OS X v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
+            correctionAdd("Mac OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)");
 
             correctionAdd("Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
             correctionAdd("OSX Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)");
@@ -9730,6 +9737,7 @@ namespace OverflowHelper.core
             correctionAdd("whiout", "without");
             correctionAdd("whithoub", "without");
             correctionAdd("withoub", "without");
+            correctionAdd("withour", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -14841,6 +14849,7 @@ namespace OverflowHelper.core
             correctionAdd("necesaraly", "necessarily");
             correctionAdd("necesseraliry", "necessarily");
             correctionAdd("necessrily", "necessarily");
+            correctionAdd("neccissarily", "necessarily");
 
             correctionAdd("neccesary", "necessary");
             correctionAdd("necassary", "necessary");
@@ -18372,6 +18381,8 @@ namespace OverflowHelper.core
             correctionAdd("neverleless", "nevertheless");
             correctionAdd("Neverteless", "nevertheless");
             correctionAdd("neverteless", "nevertheless");
+            correctionAdd("Neverthless", "nevertheless");
+            correctionAdd("neverthless", "nevertheless");
 
             correctionAdd("none the less", "nonetheless");
             correctionAdd("non the less", "nonetheless");
@@ -19096,6 +19107,7 @@ namespace OverflowHelper.core
             correctionAdd("per-se", "per se");
             correctionAdd("per say", "per se");
             correctionAdd("par se", "per se");
+            correctionAdd("per si", "per se");
 
             correctionAdd("preceeding", "preceding");
 
@@ -19332,6 +19344,7 @@ namespace OverflowHelper.core
             correctionAdd("backtisk", "backtick");
             correctionAdd("back-tic", "backtick");
             correctionAdd("back-tics", "backtick");
+            correctionAdd("back mark", "backtick");
 
             correctionAdd("buch", "bunch");
             correctionAdd("bunhc", "bunch");
@@ -19451,6 +19464,7 @@ namespace OverflowHelper.core
             correctionAdd("object-oriented", "object-oriented (OO)");
             correctionAdd("obj-oriented", "object-oriented (OO)");
             correctionAdd("Object-Oriented", "object-oriented (OO)");
+            correctionAdd("Object-oriented", "object-oriented (OO)");
 
             correctionAdd("obselete", "obsolete");
             correctionAdd("obsolute", "obsolete");
@@ -23584,6 +23598,8 @@ namespace OverflowHelper.core
             correctionAdd("arma", "Armageddon"); // Chess
             correctionAdd("armageddon", "Armageddon"); // Chess
             correctionAdd("Armaggeddon", "Armageddon"); // Chess
+            correctionAdd("argagedon", "Armageddon");
+            correctionAdd("armagedon", "Armageddon");
 
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
             correctionAdd("alekhins defence", "Alekhine's Defence"); // Chess
@@ -30790,6 +30806,7 @@ namespace OverflowHelper.core
             correctionAdd("incomprehensive", "incomprehensible");
             correctionAdd("imcompresible", "incomprehensible");
             correctionAdd("incompresible", "incomprehensible");
+            correctionAdd("uncomprehendable", "incomprehensible");
 
             correctionAdd("K", "kelvin");
             correctionAdd("Kelvin", "kelvin");
@@ -31194,6 +31211,8 @@ namespace OverflowHelper.core
             correctionAdd("sugar", "syntactic sugar");
             correctionAdd("syntatic sugar", "syntactic sugar");
             correctionAdd("syntactical sugar", "syntactic sugar");
+            correctionAdd("synctatic sugar", "syntactic sugar");
+            correctionAdd("syntcatic sugar", "syntactic sugar");
 
             correctionAdd("trys", "tries");
             correctionAdd("trries", "tries");
@@ -35908,6 +35927,7 @@ namespace OverflowHelper.core
             correctionAdd("screen scrap", "screen-scrape");
             correctionAdd("screen scrape", "screen-scrape");
             correctionAdd("screen scrabe", "screen-scrape");
+            correctionAdd("Screenscrape", "screen-scrape");
 
             correctionAdd("kazakhstan", "Kazakhstan");
 
@@ -38876,6 +38896,7 @@ namespace OverflowHelper.core
             correctionAdd("log4j", "Log4j");
             correctionAdd("Log4J", "Log4j");
             correctionAdd("L4J", "Log4j");
+            correctionAdd("log2j", "Log4j");
 
             correctionAdd("Barbarossa", "Operation Barbarossa");
 
@@ -45353,6 +45374,7 @@ namespace OverflowHelper.core
 
             correctionAdd("prosposal", "proposal");
             correctionAdd("Prosposal", "proposal");
+            correctionAdd("propopal", "proposal");
 
             correctionAdd("roomba", "the Roomba");
             correctionAdd("Roomba", "the Roomba");
@@ -46027,6 +46049,54 @@ namespace OverflowHelper.core
 
             correctionAdd("X virtual framebuffer", "Xvfb");
             correctionAdd("xvfb", "Xvfb");
+
+            correctionAdd("alterating", "altering");
+
+            correctionAdd("as will as", "as well as");
+
+            correctionAdd("buld.gradle", "build.gradle");
+            correctionAdd("buiild.gradle", "build.gradle");
+
+            correctionAdd("date stamp", "datestamp");
+            correctionAdd("Date stamp", "datestamp");
+
+            correctionAdd("deteriouting", "deteriorating");
+
+            correctionAdd("4 series", "four-series");
+            correctionAdd("4S", "four-series");
+
+            correctionAdd("4S2P", "four-series, two parallel");
+            correctionAdd("4S 2P", "four-series, two parallel");
+
+            correctionAdd("java c", "javac");
+
+            correctionAdd("Keflavik", "Keflavík");
+
+            correctionAdd("over charge", "overcharge");
+
+            correctionAdd("postgrad", "postgraduate degree");
+
+            correctionAdd("Reykjavik", "Reykjavík");
+
+            correctionAdd("saddly", "sadly");
+
+            correctionAdd("Spread operator", "spread syntax");
+
+            correctionAdd("sated", "stated");
+
+            correctionAdd("symbel", "symbol");
+            correctionAdd("symble", "symbol");
+
+            correctionAdd("timelimit", "time limit");
+            correctionAdd("time-limit", "time limit");
+
+            correctionAdd("2 parallel", "two parallel");
+            correctionAdd("2P", "two parallel");
+
+            correctionAdd("water tight", "watertight");
+
+            correctionAdd("widespread", "wide-spread");
+            correctionAdd("wide spread", "wide-spread");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72320,6 +72390,46 @@ namespace OverflowHelper.core
             URL_Add("wonder", "https://en.wiktionary.org/wiki/wonder#Verb");
 
             URL_Add("Xvfb", "https://en.wikipedia.org/wiki/Xvfb");
+
+            URL_Add("altering", "https://en.wiktionary.org/wiki/alter#Verb");
+
+            URL_Add("as well as", "https://en.wiktionary.org/wiki/as_well_as#Conjunction");
+
+            URL_Add("build.gradle", "https://docs.gradle.org/current/userguide/tutorial_using_tasks.html");
+
+            URL_Add("datestamp", "https://en.wiktionary.org/wiki/datestamp#Noun");
+
+            URL_Add("deteriorating", "https://en.wiktionary.org/wiki/deteriorating#Adjective");
+
+            URL_Add("four-series", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("four-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("javac", "https://en.wikipedia.org/wiki/Javac");
+
+            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
+
+            URL_Add("overcharge", "https://en.wiktionary.org/wiki/overcharge#Verb");
+
+            URL_Add("postgraduate degree", "https://en.wikipedia.org/wiki/Postgraduate_education");
+
+            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
+
+            URL_Add("sadly", "https://en.wiktionary.org/wiki/sadly#Adverb");
+
+            URL_Add("spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax");
+
+            URL_Add("stated", "https://en.wiktionary.org/wiki/state#Verb");
+
+            URL_Add("symbol", "https://en.wiktionary.org/wiki/symbol#Noun");
+
+            URL_Add("time limit", "https://en.wiktionary.org/wiki/time_limit#Noun");
+
+            URL_Add("two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("watertight", "https://en.wiktionary.org/wiki/watertight#Adjective");
+
+            URL_Add("wide-spread", "https://en.wiktionary.org/wiki/widespread#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
