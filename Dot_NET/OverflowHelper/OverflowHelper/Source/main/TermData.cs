@@ -1564,6 +1564,8 @@ namespace OverflowHelper.core
 
             correctionAdd("lang-r", "```lang-r");
 
+            correctionAdd("lang-ruby", "```lang-ruby");
+
             correctionAdd("Nativescript", "NativeScript");
 
             correctionAdd("py script", "PyScript");
@@ -2052,6 +2054,7 @@ namespace OverflowHelper.core
             correctionAdd("Apache-Commons", "Apache Commons");
             correctionAdd("Apache Common", "Apache Commons");
             correctionAdd("Apache Utils", "Apache Commons");
+            correctionAdd("apache.commons", "Apache Commons");
 
             correctionAdd("Airflow", "Apache Airflow");
             correctionAdd("apache-airflow", "Apache Airflow");
@@ -2172,6 +2175,8 @@ namespace OverflowHelper.core
 
             correctionAdd("percent-encoded", "percent-encoding");
             correctionAdd("percent encoding", "percent-encoding");
+            correctionAdd("percent encode", "percent-encoding"); // Not 100% correct: Word class clash. Or least not the same tense.
+            correctionAdd("percent-encode", "percent-encoding"); // Not 100% correct: Word class clash. Or least not the same tense.
 
             correctionAdd("codding", "coding");
             correctionAdd("Coding", "coding");
@@ -2973,6 +2978,8 @@ namespace OverflowHelper.core
             correctionAdd("Big Sewer", "macOS v11 (Big Sur)");
             correctionAdd("Big Sir", "macOS v11 (Big Sur)");
             correctionAdd("OSX 11", "macOS v11 (Big Sur)");
+            correctionAdd("macos 11", "macOS v11 (Big Sur)");
+            correctionAdd("macos-11", "macOS v11 (Big Sur)");
 
             correctionAdd("monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
@@ -4285,6 +4292,8 @@ namespace OverflowHelper.core
             correctionAdd("Tex.SE", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("LaTeX.SE", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX.se", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("tex se", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("tex.se", "TeX - LaTeX (Stack Exchange site)");
 
             correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
 
@@ -26051,6 +26060,7 @@ namespace OverflowHelper.core
             correctionAdd("sceptisicm", "scepticism");
 
             correctionAdd("seperate the wheat from the chaff", "separate the wheat from the chaff");
+            correctionAdd("the wheat from the chaff", "separate the wheat from the chaff");
 
             correctionAdd("un-follow", "unfollow");
 
@@ -29160,6 +29170,7 @@ namespace OverflowHelper.core
             correctionAdd("commitee", "committee");
             correctionAdd("CMTE", "committee");
             correctionAdd("cmte", "committee");
+            correctionAdd("committe", "committee");
 
             correctionAdd("Convention over configuration", "convention over configuration");
 
@@ -30065,6 +30076,7 @@ namespace OverflowHelper.core
             correctionAdd("beign", "begin");
 
             correctionAdd("conecern", "concern");
+            correctionAdd("conern", "concern");
 
             correctionAdd("confrontaction", "confrontation");
 
@@ -32581,6 +32593,7 @@ namespace OverflowHelper.core
             correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
 
             correctionAdd("southern hemisphere", "Southern Hemisphere");
+            correctionAdd("Southern hemisphere", "Southern Hemisphere");
 
             correctionAdd("backligt", "backlight");
 
@@ -38846,6 +38859,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hadeline", "headline");
             correctionAdd("Headline", "headline");
+            correctionAdd("head line", "headline");
 
             correctionAdd("astraea", "Astraea");
 
@@ -46097,6 +46111,23 @@ namespace OverflowHelper.core
 
             correctionAdd("widespread", "wide-spread");
             correctionAdd("wide spread", "wide-spread");
+
+            correctionAdd("HttpComponents", "Apache HttpComponents");
+            correctionAdd("Http Components", "Apache HttpComponents");
+
+            correctionAdd("non-valid", "nonvalid");
+
+            correctionAdd("Shivaji Rao Gaikwad", "Rajinikanth");
+
+            correctionAdd("testcase", "test case");
+
+            correctionAdd("uricomponentsbuilder", "UriComponentsBuilder");
+
+            correctionAdd("Countdown", "countdown");
+
+            correctionAdd("stata", "Stata");
+
+            correctionAdd("1990ies", "1990s");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72431,6 +72462,24 @@ namespace OverflowHelper.core
 
             URL_Add("wide-spread", "https://en.wiktionary.org/wiki/widespread#Adjective");
 
+            URL_Add("Apache HttpComponents", "https://hc.apache.org/");
+
+            URL_Add("nonvalid", "https://en.wiktionary.org/wiki/nonvalid#Adjective");
+
+            URL_Add("Rajinikanth", "https://en.wikipedia.org/wiki/Billa_(1980_film)");
+
+            URL_Add("test case", "https://en.wiktionary.org/wiki/test_case#Noun");
+
+            URL_Add("UriComponentsBuilder", "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/util/UriComponentsBuilder.html");
+
+            URL_Add("```lang-ruby", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("countdown", "https://en.wiktionary.org/wiki/countdown#Noun");
+
+            URL_Add("Stata", "https://en.wikipedia.org/wiki/Stata");
+
+            URL_Add("1990s", "https://en.wiktionary.org/wiki/1990s#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73615,6 +73664,10 @@ namespace OverflowHelper.core
             correctionAdd("[tag:nginx]_", "nginx (tag wiki)_");
             correctionAdd("nginx_", "nginx (tag wiki)_");
 
+            correctionAdd("[tag:latex]_", "LaTex (tag wiki)_");
+            correctionAdd("latex_", "LaTex (tag wiki)_");
+            correctionAdd("LaTex_", "LaTex (tag wiki)_");
+
             correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
             correctionAdd("light sail_", "Amazon Lightsail_");
@@ -73959,6 +74012,8 @@ namespace OverflowHelper.core
             correctionAdd("hem_", "Hem_");
 
             correctionAdd("empathy_", "Empathy_");
+
+            correctionAdd("tiring_", "tiering_");
 
             // URL mappings
             //
@@ -74840,6 +74895,10 @@ namespace OverflowHelper.core
             URL_Add("Hem_", "https://github.com/spine/hem");
 
             URL_Add("Empathy_", "https://en.wikipedia.org/wiki/Empathy_(software)");
+
+            URL_Add("LaTex (tag wiki)_", "https://stackoverflow.com/questions/tagged/latex");
+
+            URL_Add("tiering_", "https://en.wiktionary.org/wiki/tier#Verb");
 
         } //addLookupData_alternativeWordSet()
 
