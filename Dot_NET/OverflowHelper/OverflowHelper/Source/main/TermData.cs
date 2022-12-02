@@ -1181,6 +1181,11 @@ namespace OverflowHelper.core
             correctionAdd("jvascript", "JavaScript");
             correctionAdd("JavaScripit", "JavaScript");
             correctionAdd("Javascrpt", "JavaScript");
+            correctionAdd("jav script", "JavaScript");
+
+            correctionAdd("vanilla Javascript", "vanilla JavaScript");
+            correctionAdd("vanilla js", "vanilla JavaScript");
+            correctionAdd("Vanilla JavaScript", "vanilla JavaScript");
 
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
@@ -13806,6 +13811,7 @@ namespace OverflowHelper.core
             correctionAdd("Jekins", "Jenkins");
             correctionAdd("Jennkins", "Jenkins");
             correctionAdd("Jenkis", "Jenkins");
+            correctionAdd("Jeninks", "Jenkins");
 
             correctionAdd("Pypy", "PyPy");
             correctionAdd("pypy", "PyPy");
@@ -14519,6 +14525,8 @@ namespace OverflowHelper.core
             correctionAdd("Single Page Apps", "single-page application");
             correctionAdd("single page apps", "single-page application");
             correctionAdd("single-page apps", "single-page application");
+            correctionAdd("single web page app", "single-page application");
+            correctionAdd("single web page application", "single-page application");
 
             correctionAdd("f-15", "F-15");
             correctionAdd("f15", "F-15");
@@ -15906,6 +15914,9 @@ namespace OverflowHelper.core
             correctionAdd("Thans", "thanks");
             correctionAdd("Thanks", "thanks");
             correctionAdd("THanks", "thanks");
+            correctionAdd("Thaks", "thanks");
+            correctionAdd("Thks", "thanks");
+            correctionAdd("thks", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -16807,10 +16818,11 @@ namespace OverflowHelper.core
             correctionAdd("Read-Only", "read-only");
             correctionAdd("Read Only", "read-only");
 
-            correctionAdd("inly", "only");
+            correctionAdd("inly", "only"); // Likely a real typo
             correctionAdd("on;y", "only");
             correctionAdd("onl;y", "only");
             correctionAdd("ony", "only");
+            correctionAdd("onlu", "only"); // Likely a real typo
 
             correctionAdd("realy", "really");
             correctionAdd("raly", "really");
@@ -16963,6 +16975,7 @@ namespace OverflowHelper.core
             correctionAdd("Alternate", "alternative");
             correctionAdd("alternate", "alternative");
             correctionAdd("alternatlve", "alternative");
+            correctionAdd("althernate", "alternative");
 
             correctionAdd("concatention", "concatenation");
             correctionAdd("concatanation", "concatenation");
@@ -17754,6 +17767,7 @@ namespace OverflowHelper.core
             correctionAdd("apprishiated", "appreciated");
             correctionAdd("aperciated", "appreciated");
             correctionAdd("apreciated", "appreciated");
+            correctionAdd("apprecieated", "appreciated");
 
             correctionAdd("LA", "logic analyser");
             correctionAdd("Logic Analyzer", "logic analyser");
@@ -22995,6 +23009,7 @@ namespace OverflowHelper.core
             correctionAdd("IRSSI", "Irssi");
             correctionAdd("Irrsi", "Irssi");
             correctionAdd("irrsi", "Irssi");
+            correctionAdd("iirsi", "Irssi");
 
             correctionAdd("latino", "Latino");
 
@@ -36320,6 +36335,7 @@ namespace OverflowHelper.core
             correctionAdd("SITE", "website");
             correctionAdd("wbsite", "website");
             correctionAdd("webiste", "website");
+            correctionAdd("Web Site", "website");
 
             correctionAdd("Webpage", "web page");
             correctionAdd("webpage", "web page");
@@ -37812,6 +37828,8 @@ namespace OverflowHelper.core
             correctionAdd("entity thingamagigie", "HTML character entity reference");
             correctionAdd("entity thingamajiggy", "HTML character entity reference");
             correctionAdd("character entities", "HTML character entity reference");
+            correctionAdd("entity code", "HTML character entity reference");
+            correctionAdd("entitycode", "HTML character entity reference");
 
             correctionAdd("web form", "HTML form");
             correctionAdd("HTML Form", "HTML form");
@@ -38126,6 +38144,7 @@ namespace OverflowHelper.core
             correctionAdd("functionning", "functioning");
 
             correctionAdd("Has", "has");
+            correctionAdd("ahs", "has");
 
             correctionAdd("lit", "literature");
 
@@ -39682,6 +39701,7 @@ namespace OverflowHelper.core
 
             correctionAdd("chucknorris", "Chuck Norris");
             correctionAdd("ChuckNorris", "Chuck Norris");
+            correctionAdd("chuck norris", "Chuck Norris");
 
             correctionAdd("netlink", "Netlink");
 
@@ -40010,6 +40030,10 @@ namespace OverflowHelper.core
             correctionAdd("multi-byte", "multibyte");
 
             correctionAdd("priortise", "prioritise");
+            correctionAdd("Pritoize", "prioritise");
+            correctionAdd("prioritize", "prioritise");
+            correctionAdd("priotize", "prioritise");
+            correctionAdd("pritoize", "prioritise");
 
             correctionAdd("winded up", "wound up");
 
@@ -43543,10 +43567,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sum's", "sums");
 
-            correctionAdd("vanilla Javascript", "vanilla JavaScript");
-            correctionAdd("vanilla js", "vanilla JavaScript");
-            correctionAdd("Vanilla JavaScript", "vanilla JavaScript");
-
             correctionAdd("firebaseui", "FirebaseUI");
 
             correctionAdd("Thunberg", "Greta Thunberg");
@@ -46117,7 +46137,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non-valid", "nonvalid");
 
-            correctionAdd("Shivaji Rao Gaikwad", "Rajinikanth");
+            correctionAdd("Shivaji Rao Gaikwad", "Rajinikanth"); // Allegedly the India Chuck Norris
 
             correctionAdd("testcase", "test case");
 
@@ -46128,6 +46148,34 @@ namespace OverflowHelper.core
             correctionAdd("stata", "Stata");
 
             correctionAdd("1990ies", "1990s");
+
+            correctionAdd("chuck norris question", "Chuck Norris question");
+
+            correctionAdd("FURL", "furl");
+
+            correctionAdd("posix path", "posixpath"); // A Python library
+
+            correctionAdd("reprocicity", "reciprocity");
+
+            correctionAdd("roving", "removing");
+
+            correctionAdd("tranforming", "transforming");
+
+            correctionAdd("pointy-haired boss", "Pointy-haired Boss");
+            correctionAdd("PHB", "Pointy-haired Boss");
+            correctionAdd("point-headed boss", "Pointy-haired Boss");
+
+            correctionAdd("borken", "broken");
+
+            correctionAdd("burdons", "burdens");
+
+            correctionAdd("link only", "link-only");
+
+            correctionAdd("Lua JIT", "LuaJIT");
+
+            correctionAdd("riff raff", "riffraff");
+
+            correctionAdd("tig", "Tig");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72480,6 +72528,32 @@ namespace OverflowHelper.core
 
             URL_Add("1990s", "https://en.wiktionary.org/wiki/1990s#Noun");
 
+            URL_Add("Chuck Norris question", "https://stackoverflow.com/questions/8318911/why-does-html-think-chucknorris-is-a-color");
+
+            URL_Add("furl", "https://pypi.org/project/furl/");
+
+            URL_Add("posixpath", "https://docs.python.org/3.8/library/pathlib.html#pathlib.PosixPath");
+
+            URL_Add("reciprocity", "https://en.wiktionary.org/wiki/reciprocity#Noun");
+
+            URL_Add("removing", "https://en.wiktionary.org/wiki/remove#Verb");
+
+            URL_Add("transforming", "https://en.wiktionary.org/wiki/transform#Verb");
+
+            URL_Add("Pointy-haired Boss", "https://en.wikipedia.org/wiki/List_of_Dilbert_characters#Pointy-haired_Boss");
+
+            URL_Add("broken", "https://en.wiktionary.org/wiki/broken#Adjective");
+
+            URL_Add("burdens", "https://en.wiktionary.org/wiki/burden#Verb");
+
+            URL_Add("link-only", "https://meta.stackoverflow.com/questions/251006/flagging-link-only-answers");
+
+            URL_Add("LuaJIT", "https://en.wikipedia.org/wiki/LuaJIT");
+
+            URL_Add("riffraff", "https://en.wiktionary.org/wiki/riffraff#Noun");
+
+            URL_Add("Tig", "https://en.wikipedia.org/wiki/Tig_(software)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73961,6 +74035,7 @@ namespace OverflowHelper.core
             correctionAdd("fast forward_", "fast-forward_");
             correctionAdd("ff_", "fast-forward_");
             correctionAdd("Fast Forward_", "fast-forward_");
+            correctionAdd("FF_", "fast-forward_");
 
             correctionAdd("Hi_", "thanks in advance_");
 
@@ -74014,6 +74089,11 @@ namespace OverflowHelper.core
             correctionAdd("empathy_", "Empathy_");
 
             correctionAdd("tiring_", "tiering_");
+
+            correctionAdd("clean-up_", "cleanup_");
+
+            correctionAdd("WRAP_", "Warp_");
+            correctionAdd("warp_", "Warp_");
 
             // URL mappings
             //
@@ -74899,6 +74979,10 @@ namespace OverflowHelper.core
             URL_Add("LaTex (tag wiki)_", "https://stackoverflow.com/questions/tagged/latex");
 
             URL_Add("tiering_", "https://en.wiktionary.org/wiki/tier#Verb");
+
+            URL_Add("cleanup_", "https://en.wiktionary.org/wiki/cleanup#Noun");
+
+            URL_Add("Warp_", "https://docs.warp.dev/getting-started/readme");
 
         } //addLookupData_alternativeWordSet()
 
