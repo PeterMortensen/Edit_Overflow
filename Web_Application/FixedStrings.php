@@ -153,12 +153,12 @@
                 />
             </p>
 
-            <p>Arrow - &rarr; (<u>H</u>MTL):
+            <p>Arrow - &rarr; (<u>H</u>TML):
 
                 <input
-                    name="Arrow - HMTL"
+                    name="Arrow - HTML"
                     type="text"
-                    id="Arrow_HMTL"
+                    id="Arrow_HTML"
                     class="XYZ30"
                     value="&amp;rarr;"
                     style="width:50px;"

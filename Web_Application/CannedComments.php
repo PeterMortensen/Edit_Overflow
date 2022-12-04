@@ -20,10 +20,10 @@
         <p>Note: This is for guidance only. The canned comments should not be used in an overly generic fashion. They should be tailored to each post.</p>
 
         <p> Links in the canned comments are in Markdown inline format
-            (thus can be used without modication on
+            (thus they can be used without modification on
             <a href="https://en.wikipedia.org/wiki/Stack_Exchange">Stack&nbsp;Exchange</a>
             and
-            <a href="https://odysee.com/">LBRY/Odysee</a>.</p>
+            <a href="https://odysee.com/">LBRY/Odysee</a>).</p>
 
         <hr/>
 
@@ -46,11 +46,13 @@
 
             <p>For p<u>r</u>eemptive use:
                 Responses to comments should normally be by editing the post,
-                not in comments (and it should not contain meta
+                not in comments (and the edit should <em>not contain meta</em>
                 information).
                 Note: The ID in the link must be set.
-                (Note:  this is not a full canned comments, only a fragment.
-                        It should be combined)
+                (Also note:
+                  this is not a full canned comments, only a fragment.
+                  It should be combined with what needs to be
+                  changed in the post, etc.)
                 <br/>
                 <input
                     name="X32"
@@ -82,12 +84,21 @@
 
             <p><u>S</u>pelling of Stack Overflow, Stack&nbsp;Exchange,
                 and other Stack&nbsp;Exchange sites, etc.
-                No matter how it looks in a logo
+                No matter how it looks in a logo,
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
                 >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
-                (the last section - <em>"Proper Use of the Stack Exchange Name"</em>).
+                (the last section -
+                <em>"Proper Use of the Stack Exchange Name"</em>).
+                See also
+                <em>
+                <a href="https://stackoverflow.design/brand/copywriting/naming/"
+                >Naming guidelines</a>
+                </em> on the "Stacks"
+                <a href="https://en.wikipedia.org/wiki/Design_system"
+                >design system</a>.
                 The <strong><em>only</em></strong> exception is "MathOverflow"
-                (and Jeff Atwood should have said <strong><em>no</em></strong> at the time).
+                (and Jeff Atwood should have said <strong><em>no</em></strong>
+                at the time).
 
                 <br/>
                 <input
@@ -169,7 +180,12 @@
                 because they are question-banned
                 (and naively think they can get away
                 with it - but such posts are usually
-                deleted within a few minutes).<br/>
+                deleted within a few minutes).
+                Or there could be something wrong with
+                <a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/"
+                >usability</a>
+                with the Stack Exchange
+                web interface.<br/>
                 Note that there are some placeholders
                 and things to delete in this canned
                 comment, marked with "[]" -

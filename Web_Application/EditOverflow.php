@@ -739,7 +739,7 @@
                     }
                 ?>
 
-                <label for="editSummary_output">Checkin <u>m</u>essages</label>
+                <label for="editSummary_output">Check-in <u>m</u>essages</label>
                 <input
                     name="editSummary_output"
                     type="text"

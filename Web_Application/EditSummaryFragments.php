@@ -18,7 +18,7 @@
 
         <?php
             the_EditOverflowHeadline(
-              "Some edit summary fragments", 
+              "Some edit summary fragments",
               "EditSummaryFragments.php",
               "",
               "");
@@ -72,7 +72,7 @@
                 />
             </p>
 
-            <p>Small formatting changes often results in
+            <p>Small formatting changes often result in
                 a large <u>d</u>iff in the default view. <br/>
                 <input
                     name="X7"
@@ -86,7 +86,8 @@
                 />
             </p>
 
-            <p>Meta infor<u>m</u>ation does not belong in a question.
+            <p>Meta infor<u>m</u>ation does not belong
+                in a question or an answer.
                 See for example
                 <em>
                 <a href="https://meta.stackexchange.com/questions/2950/"
@@ -145,7 +146,7 @@
                 />
             </p>
 
-            <p>Links should<u>n</u>'t be naked - 
+            <p>Links should<u>n</u>'t be naked -
                 use an appropriate link text. <br/>
                 <input
                     name="X3"
@@ -172,7 +173,7 @@
                 />
             </p>
 
-            <p>Many users post sloppy or even m<u>i</u>sleading 
+            <p>Many users post sloppy or even m<u>i</u>sleading
                 indentation of code. <br/>
                 <input
                     name="X5"
@@ -202,7 +203,7 @@
 
             <p>Inappropriate shortening of "IP address"
                 (IP addresses are bloc<u>k</u>ed, not
-                the procol). <br/>
+                the protocol). <br/>
                 <input
                     name="X13"
                     type="text"
@@ -304,15 +305,25 @@
             </p>
 
             <!-- Or should this be in the pure links section? -->
-            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange, and other
-                Stack&nbsp;Exchange sites, etc. No matter how it looks in a logo
+            <p>Spelling of Stack Overflow, Stack&nbsp;Exchange,
+                and other Stack&nbsp;Exchange sites, etc.
+                No matter how it looks in a logo,
                 <a href="http://stackoverflow.com/legal/trademark-guidance"
                 >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
-                (the last section - 
+                (the last section -
                 <em>"Proper Use of the Stack Exchange Name"</em>).
+                See also
+                <em>
+                <a href="https://stackoverflow.design/brand/copywriting/naming/"
+                >Naming guidelines</a>
+                </em> on the "Stacks"
+                <a href="https://en.wikipedia.org/wiki/Design_system"
+                >design system</a>.
                 The <strong><em>only</em></strong> exception is "MathOverflow"
-                (and Jeff Atwood should have said <strong><em>no</em></strong> 
-                at the time). <br/>
+                (and Jeff Atwood should have said <strong><em>no</em></strong>
+                at the time).
+
+                <br/>
                 <input
                     name="X28"
                     type="text"
@@ -327,7 +338,7 @@
 
             <p>Rhetorical questions do not belong in an answer. One of the
                 reasons is that an answer should not address the OP - most
-                readers (e.g. 99.9999%) will be someone else. <br/>
+                readers (e.g., 99.9999%) will be someone else. <br/>
                 <input
                     name="X29"
                     type="text"
@@ -340,11 +351,15 @@
                 />
             </p>
 
-            <p id="FixedSyntaxHighlighting">Some older posts on Stack Overflow have strange
+            <p id="FixedSyntaxHighlighting">Most older posts
+                on Stack Overflow have strange
                 <a href="https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109"
                 >syntax highlighting</a>,
-                probably caused by later changes to the
-                Stack Exchange software. Possible code fencing formatting:
+                probably caused by
+                <a href="https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter"
+                >later changes </a>
+                to the Stack Exchange software.
+                Possible code fencing formatting:
                     ```lang-none,
                     ```lang-html,
                     ```lang-php,
@@ -424,10 +439,10 @@
             <div id="IndianSpace"> </div>
             <p><a href="https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645"
                 >The Indian space</a>
-                <u>c</u>
                 (from the outdated 1935
                 <a href="https://en.wikipedia.org/wiki/Wren_%26_Martin"
-                ><i>Wren & Martin</i> textbook</a>): <br/>
+                ><i>Wren & Martin</i> textbook</a>)&mdash;keyboard
+                shortcut hint: <u>c</u>: <br/>
                 <input
                     name="X9"
                     type="text"
