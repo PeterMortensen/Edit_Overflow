@@ -7126,6 +7126,7 @@ namespace OverflowHelper.core
             correctionAdd("htmp", "HTML");
             correctionAdd("hmtl", "HTML");
             correctionAdd("HTMl", "HTML");
+            correctionAdd("HMTL", "HTML");
 
             correctionAdd("firefox", "Firefox");
             correctionAdd("firfox", "Firefox");
@@ -31332,6 +31333,7 @@ namespace OverflowHelper.core
             correctionAdd("concider", "consider");
 
             correctionAdd("curtesea", "courtesy");
+            correctionAdd("Courtesy", "courtesy");
 
             correctionAdd("customization", "customisation");
             correctionAdd("custimization", "customisation");
@@ -31364,6 +31366,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mater", "matter");
             correctionAdd("metter", "matter");
+            correctionAdd("mather", "matter");
 
             correctionAdd("persceptive", "perspective");
             correctionAdd("presceptive", "perspective");
@@ -34965,6 +34968,7 @@ namespace OverflowHelper.core
             correctionAdd("knoe", "know");
             correctionAdd("konw", "know");
             correctionAdd("kow", "know");
+            correctionAdd("knowe", "know");
 
             correctionAdd("security now", "Security Now");
 
@@ -46083,6 +46087,7 @@ namespace OverflowHelper.core
             correctionAdd("Marathon", "marathon");
 
             correctionAdd("midification", "modification");
+            correctionAdd("modication", "modification");
 
             correctionAdd("prevailent", "prevalent");
 
@@ -46229,6 +46234,19 @@ namespace OverflowHelper.core
             correctionAdd("exessive", "excessive");
 
             correctionAdd("xdg open", "xdg-open");
+
+            correctionAdd("chatGPT", "ChatGPT");
+            correctionAdd("chatgpt", "ChatGPT");
+
+            correctionAdd("Dynamic", "Dynamic (Mathematica)");
+
+            correctionAdd("metion", "mention");
+
+            correctionAdd("premptive", "preemptive");
+
+            correctionAdd("PWDX", "pwdx");
+
+            correctionAdd("spinnaker", "Spinnaker");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72632,6 +72650,18 @@ namespace OverflowHelper.core
             URL_Add("excessive", "https://en.wiktionary.org/wiki/excessive#Adjective");
 
             URL_Add("xdg-open", "https://wiki.archlinux.org/title/User:Larivact/xdg-open");
+
+            URL_Add("ChatGPT", "https://en.wikipedia.org/wiki/OpenAI#History");
+
+            URL_Add("Dynamic (Mathematica)", "https://reference.wolfram.com/language/tutorial/IntroductionToDynamic.html");
+
+            URL_Add("mention", "https://en.wiktionary.org/wiki/mention#Verb");
+
+            URL_Add("preemptive", "https://en.wiktionary.org/wiki/preemptive#Adjective");
+
+            URL_Add("pwdx", "https://linux.die.net/man/1/pwdx");
+
+            URL_Add("Spinnaker", "https://en.wikipedia.org/wiki/Spinnaker_(software)");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
