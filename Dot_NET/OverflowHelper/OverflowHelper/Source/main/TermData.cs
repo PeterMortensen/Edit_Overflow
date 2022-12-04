@@ -1026,9 +1026,185 @@ namespace OverflowHelper.core
             correctionAdd("videogame", "video game");
             correctionAdd("Videogame", "video game");
 
-            correctionAdd("prtime", "PRTime");
-
             correctionAdd("strtotime", "strtotime()");
+
+            correctionAdd("replaceAll", "replaceAll()");
+
+            correctionAdd("html_entity_decode", "html_entity_decode()"); // PHP function
+
+            correctionAdd("explode", "explode()"); // PHP function
+
+            correctionAdd("base64_encode", "base64_encode()");
+
+            correctionAdd("is_set", "isset()");
+            correctionAdd("isset", "isset()");
+
+            correctionAdd("offest", "offset");
+
+            correctionAdd("super set", "superset");
+
+            correctionAdd("SSPR", "self-service password reset");
+
+            correctionAdd("iniset", "ini_set()");
+            correctionAdd("ini_set", "ini_set()");
+
+            correctionAdd("Echo", "echo()");
+            correctionAdd("echo", "echo()");
+
+            correctionAdd("Preg_replace_callback", "preg_replace_callback()");
+            correctionAdd("preg_replace_callback", "preg_replace_callback()");
+
+            correctionAdd("Sprintf", "sprintf()");
+            correctionAdd("sprintf", "sprintf()");
+
+            correctionAdd("Strtr", "strtr()");
+            correctionAdd("strtr", "strtr()");
+
+            correctionAdd("Preg_replace", "preg_replace()"); // PHP function
+            correctionAdd("preg_replace", "preg_replace()");
+
+            correctionAdd("Preg_match", "preg_match()"); // PHP function
+            correctionAdd("preg match", "preg_match()"); // PHP function
+            correctionAdd("preg_match", "preg_match()");
+
+            correctionAdd("Preg_match_all", "preg_match_all()"); // PHP function
+            correctionAdd("preg_match_all", "preg_match_all()");
+
+            correctionAdd("SUBSTR_REPLACE", "substr_replace()"); // PHP function
+            correctionAdd("substr_replace", "substr_replace()");
+
+            correctionAdd("toLowerCase", "toLowerCase()");
+            correctionAdd("tolowercase", "toLowerCase()");
+
+            correctionAdd("PHPINFO", "phpinfo()");
+            correctionAdd("phpInfo()", "phpinfo()");
+            correctionAdd("phpInfo", "phpinfo()");
+            correctionAdd("php info", "phpinfo()");
+            correctionAdd("phpinfo", "phpinfo()");
+
+            correctionAdd("PARSE_STR", "parse_str()"); // PHP function
+            correctionAdd("parse_str", "parse_str()"); // PHP function
+
+            correctionAdd("parse_ini_file", "parse_ini_file()"); // PHP function
+
+            correctionAdd("strolower", "strtolower()"); // PHP function
+            correctionAdd("strtolower", "strtolower()"); // PHP function
+
+            correctionAdd("Strtoupper", "strtoupper()"); // PHP function
+            correctionAdd("strtoupper", "strtoupper()"); // PHP function
+
+            correctionAdd("substr_compare", "substr_compare()"); // PHP function
+
+            correctionAdd("icfirst", "lcfirst()"); // PHP function
+            correctionAdd("lcfirst", "lcfirst()");
+
+            correctionAdd("ucfirst", "ucfirst()"); // PHP function
+
+            correctionAdd("ucwords", "ucwords()"); // PHP function
+
+            correctionAdd("ctype_lower", "ctype_lower()"); // PHP function
+
+            correctionAdd("Empty", "empty()");
+            correctionAdd("emty", "empty()");
+            correctionAdd("empty", "empty()");
+
+            correctionAdd("guidanance", "guidance");
+            correctionAdd("guidence", "guidance");
+            correctionAdd("Guidence", "guidance");
+            correctionAdd("gudiance", "guidance");
+            correctionAdd("guidiance", "guidance");
+
+            correctionAdd("isnull", "is_null()");
+            correctionAdd("is_null", "is_null()");
+
+            correctionAdd("isnumeric", "is_numeric()");
+            correctionAdd("is_numeric", "is_numeric()");
+
+            correctionAdd("str_len", "strlen()");
+            correctionAdd("strlen", "strlen()");
+
+            correctionAdd("CMP", "cmp()");
+            correctionAdd("cmp", "cmp()");
+
+            correctionAdd("ERROR_LOG", "error_log()");
+            correctionAdd("error_log", "error_log()");
+
+            correctionAdd("LOG_ERRORS", "log_errors()");
+            correctionAdd("log_errors", "log_errors()");
+
+            correctionAdd("PRINT_R", "print_r()");
+            correctionAdd("print_r", "print_r()");
+
+            correctionAdd("VAR_DUMP", "var_dump()");
+            correctionAdd("var_dump", "var_dump()");
+
+            correctionAdd("fetchall", "PDOStatement::fetchAll()");
+            correctionAdd("fetchAll", "PDOStatement::fetchAll()");
+            correctionAdd("PDOStatement::fetchAll", "PDOStatement::fetchAll()");
+
+            correctionAdd("php_eol", "PHP_EOL()");
+            correctionAdd("PHP_EOL", "PHP_EOL()");
+
+            correctionAdd("MYSQL_ESCAPE_STRING", "mysql_escape_string()");
+            correctionAdd("mysql_escape_string", "mysql_escape_string()");
+
+            correctionAdd("fetch", "PDOStatement::fetch()");
+            correctionAdd("PDOStatement::fetch", "PDOStatement::fetch()");
+
+            correctionAdd("error_reporting", "error_reporting()");
+
+            correctionAdd("ini_get", "ini_get()");
+            correctionAdd("iniget", "ini_get()");
+
+            correctionAdd("mb_strlen", "mb_strlen()");
+
+            correctionAdd("nth-child()", ":nth-child()");
+            correctionAdd("nth-child", ":nth-child()");
+
+            correctionAdd("mb_convert_encoding", "mb_convert_encoding()");
+
+            correctionAdd("file_get_contents", "file_get_contents()");
+
+            correctionAdd("file_put_contents", "file_put_contents()");
+
+            correctionAdd("htmlentities", "htmlentities()");
+            correctionAdd("htmlentites", "htmlentities()");
+
+            correctionAdd("mb_detect_encoding", "mb_detect_encoding()");
+
+            correctionAdd("str_ends_with", "str_ends_with()");
+
+            correctionAdd("strpos", "strpos()");
+
+            correctionAdd("mhash", "mhash()");
+
+            correctionAdd("mb_split", "mb_split()");
+
+            correctionAdd("mbstring", "mb_string()");
+            correctionAdd("mb_string", "mb_string()");
+
+            correctionAdd("mail", "mail()");
+
+            correctionAdd("mcrypt", "Mcrypt()");
+            correctionAdd("Mcrypt", "Mcrypt()");
+
+            correctionAdd("substr", "substr()");
+
+            correctionAdd("strftime", "strftime()");
+
+            correctionAdd("utf8_encode", "utf8_encode()");
+
+            correctionAdd("mknod", "mknod()");
+
+            correctionAdd("rpartition", "rpartition()");
+
+            correctionAdd("urlencode", "urlencode()");
+
+            correctionAdd("htmlspecialchars", "htmlspecialchars()");
+
+            correctionAdd("rawurlencode", "rawurlencode()");
+
+            correctionAdd("prtime", "PRTime");
 
             correctionAdd("realtime", "real-time");
             correctionAdd("real time", "real-time");
@@ -3320,8 +3496,6 @@ namespace OverflowHelper.core
             correctionAdd("replacment", "replacement");
             correctionAdd("replacemeent", "replacement");
 
-            correctionAdd("replaceAll", "replaceAll()");
-
             correctionAdd("opearator", "operator");
             correctionAdd("operater", "operator");
             correctionAdd("opperator", "operator");
@@ -3677,6 +3851,13 @@ namespace OverflowHelper.core
             correctionAdd("re-type", "retype");
 
             correctionAdd("Reference Type", "reference type");
+
+            correctionAdd("Defination", "definition");
+            correctionAdd("defination", "definition");
+            correctionAdd("difinition", "definition");
+            correctionAdd("definiton", "definition");
+            correctionAdd("defintion", "definition");
+            correctionAdd("defenition", "definition");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -5298,12 +5479,6 @@ namespace OverflowHelper.core
             correctionAdd("QUIRK MODE", "quirks mode");
 
             correctionAdd("STANDARD MODE", "standards mode");
-
-            correctionAdd("html_entity_decode", "html_entity_decode()"); // PHP function
-
-            correctionAdd("explode", "explode()"); // PHP function
-
-            correctionAdd("base64_encode", "base64_encode()");
 
             correctionAdd("DMIDECODE", "dmidecode");
 
@@ -8122,6 +8297,8 @@ namespace OverflowHelper.core
             correctionAdd("distritutions", "distribution");
             correctionAdd("distro's", "distribution");
             correctionAdd("dists", "distribution");
+            correctionAdd("Linux distribuition", "distribution");
+            correctionAdd("Linux distro", "distribution");
 
             correctionAdd("soap", "SOAP");
             correctionAdd("Soap", "SOAP");
@@ -12230,12 +12407,6 @@ namespace OverflowHelper.core
             correctionAdd("thired-party", "third-party");
             correctionAdd("turd party", "third-party");
             correctionAdd("third parties", "third-party");
-
-            correctionAdd("Defination", "definition");
-            correctionAdd("defination", "definition");
-            correctionAdd("difinition", "definition");
-            correctionAdd("definiton", "definition");
-            correctionAdd("defintion", "definition");
 
             correctionAdd("B2C", "business-to-consumer");
             correctionAdd("b2c", "business-to-consumer");
@@ -18916,18 +19087,6 @@ namespace OverflowHelper.core
             correctionAdd("Reset", "reset");
             correctionAdd("resetted", "reset");
 
-            correctionAdd("is_set", "isset()");
-            correctionAdd("isset", "isset()");
-
-            correctionAdd("offest", "offset");
-
-            correctionAdd("super set", "superset");
-
-            correctionAdd("SSPR", "self-service password reset");
-
-            correctionAdd("iniset", "ini_set()");
-            correctionAdd("ini_set", "ini_set()");
-
             correctionAdd("featureset", "feature set");
 
             correctionAdd("skillset", "skill set");
@@ -20717,6 +20876,7 @@ namespace OverflowHelper.core
             correctionAdd("Geney", "Geany");
             correctionAdd("Geaney", "Geany");
             correctionAdd("Genea", "Geany");
+            correctionAdd("geant", "Geany");
 
             correctionAdd("germany", "Germany");
 
@@ -21521,9 +21681,6 @@ namespace OverflowHelper.core
             correctionAdd("counter example", "counterexample");
             correctionAdd("counter-example", "counterexample");
 
-            correctionAdd("Echo", "echo()");
-            correctionAdd("echo", "echo()");
-
             correctionAdd("French fries", "french fries");
 
             correctionAdd("iterference", "interference");
@@ -21537,20 +21694,11 @@ namespace OverflowHelper.core
 
             correctionAdd("past", "paste");
 
-            correctionAdd("Preg_replace_callback", "preg_replace_callback()");
-            correctionAdd("preg_replace_callback", "preg_replace_callback()");
-
             correctionAdd("programatic", "programmatic");
             correctionAdd("Programatic", "programmatic");
 
-            correctionAdd("Sprintf", "sprintf()");
-            correctionAdd("sprintf", "sprintf()");
-
             correctionAdd("interpolation", "string interpolation");
             correctionAdd("variable interpolation", "string interpolation");
-
-            correctionAdd("Strtr", "strtr()");
-            correctionAdd("strtr", "strtr()");
 
             correctionAdd("tranform", "transform");
             correctionAdd("Transfrom", "transform");
@@ -26623,19 +26771,6 @@ namespace OverflowHelper.core
 
             correctionAdd("infintely", "infinitely");
 
-            correctionAdd("Preg_replace", "preg_replace()"); // PHP function
-            correctionAdd("preg_replace", "preg_replace()");
-
-            correctionAdd("Preg_match", "preg_match()"); // PHP function
-            correctionAdd("preg match", "preg_match()"); // PHP function
-            correctionAdd("preg_match", "preg_match()");
-
-            correctionAdd("Preg_match_all", "preg_match_all()"); // PHP function
-            correctionAdd("preg_match_all", "preg_match_all()");
-
-            correctionAdd("SUBSTR_REPLACE", "substr_replace()"); // PHP function
-            correctionAdd("substr_replace", "substr_replace()");
-
             correctionAdd("CSP", "Content Security Policy");
             correctionAdd("content security policy", "Content Security Policy");
 
@@ -27827,9 +27962,6 @@ namespace OverflowHelper.core
             correctionAdd("CamelCase", "camel case");
             correctionAdd("camelCase", "camel case");
 
-            correctionAdd("toLowerCase", "toLowerCase()");
-            correctionAdd("tolowercase", "toLowerCase()");
-
             correctionAdd("Fall", "fall");
 
             correctionAdd("intance", "instance");
@@ -28962,6 +29094,8 @@ namespace OverflowHelper.core
             correctionAdd("weird syntax highlight", "Highlight.js");
             correctionAdd("weird syntax highlighter", "Highlight.js");
             correctionAdd("weird syntax highlighting", "Highlight.js");
+            correctionAdd("the syntax highlighter", "Highlight.js");
+            correctionAdd("the weird syntax highlighter", "Highlight.js");
 
             correctionAdd("nim", "Nim");
             correctionAdd("nim-lang", "Nim");
@@ -30822,12 +30956,6 @@ namespace OverflowHelper.core
             correctionAdd("non-linear", "nonlinear");
             correctionAdd("non linear", "nonlinear");
 
-            correctionAdd("PHPINFO", "phpinfo()");
-            correctionAdd("phpInfo()", "phpinfo()");
-            correctionAdd("phpInfo", "phpinfo()");
-            correctionAdd("php info", "phpinfo()");
-            correctionAdd("phpinfo", "phpinfo()");
-
             correctionAdd("pupulate", "populate");
 
             correctionAdd("pawer", "power");
@@ -32323,27 +32451,12 @@ namespace OverflowHelper.core
 
             correctionAdd("$REQUEST", "$_REQUEST"); // PHP
 
-            correctionAdd("PARSE_STR", "parse_str()"); // PHP function
-            correctionAdd("parse_str", "parse_str()"); // PHP function
+            correctionAdd("non-trivial", "nontrivial");
+            correctionAdd("non trivial", "nontrivial");
 
-            correctionAdd("parse_ini_file", "parse_ini_file()"); // PHP function
-
-            correctionAdd("strolower", "strtolower()"); // PHP function
-            correctionAdd("strtolower", "strtolower()"); // PHP function
-
-            correctionAdd("Strtoupper", "strtoupper()"); // PHP function
-            correctionAdd("strtoupper", "strtoupper()"); // PHP function
-
-            correctionAdd("substr_compare", "substr_compare()"); // PHP function
-
-            correctionAdd("icfirst", "lcfirst()"); // PHP function
-            correctionAdd("lcfirst", "lcfirst()");
-
-            correctionAdd("ucfirst", "ucfirst()"); // PHP function
-
-            correctionAdd("ucwords", "ucwords()"); // PHP function
-
-            correctionAdd("ctype_lower", "ctype_lower()"); // PHP function
+            correctionAdd("proceeded", "preceded");
+            correctionAdd("preceeded", "preceded");
+            correctionAdd("Preceded", "preceded");
 
             correctionAdd("analisys", "analysis");
             correctionAdd("alaysis", "analysis");
@@ -32546,32 +32659,6 @@ namespace OverflowHelper.core
             correctionAdd("dangarous", "dangerous");
             correctionAdd("dengerous", "dangerous");
 
-            correctionAdd("Empty", "empty()");
-            correctionAdd("emty", "empty()");
-            correctionAdd("empty", "empty()");
-
-            correctionAdd("guidanance", "guidance");
-            correctionAdd("guidence", "guidance");
-            correctionAdd("Guidence", "guidance");
-            correctionAdd("gudiance", "guidance");
-            correctionAdd("guidiance", "guidance");
-
-            correctionAdd("isnull", "is_null()");
-            correctionAdd("is_null", "is_null()");
-
-            correctionAdd("isnumeric", "is_numeric()");
-            correctionAdd("is_numeric", "is_numeric()");
-
-            correctionAdd("non-trivial", "nontrivial");
-            correctionAdd("non trivial", "nontrivial");
-
-            correctionAdd("proceeded", "preceded");
-            correctionAdd("preceeded", "preceded");
-            correctionAdd("Preceded", "preceded");
-
-            correctionAdd("str_len", "strlen()");
-            correctionAdd("strlen", "strlen()");
-
             correctionAdd("up trend", "uptrend");
 
             correctionAdd("TC39", "Ecma International Technical Committee 39");
@@ -32582,9 +32669,6 @@ namespace OverflowHelper.core
             correctionAdd("HipHop", "HipHop for PHP");
 
             correctionAdd("xsub", "XSUB");
-
-            correctionAdd("CMP", "cmp()");
-            correctionAdd("cmp", "cmp()");
 
             correctionAdd("equal-sign", "equal sign");
             correctionAdd("equalsign", "equal sign");
@@ -34237,6 +34321,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sprcified", "specified");
             correctionAdd("speciﬁed", "specified");
+            correctionAdd("specced", "specified");
 
             correctionAdd("aic", "Akaike information criterion");
             correctionAdd("AIC", "Akaike information criterion");
@@ -36672,12 +36757,6 @@ namespace OverflowHelper.core
 
             correctionAdd("eigen state", "eigenstate");
 
-            correctionAdd("ERROR_LOG", "error_log()");
-            correctionAdd("error_log", "error_log()");
-
-            correctionAdd("LOG_ERRORS", "log_errors()");
-            correctionAdd("log_errors", "log_errors()");
-
             correctionAdd("erros", "errors");
             correctionAdd("errore", "errors");
 
@@ -36720,15 +36799,9 @@ namespace OverflowHelper.core
 
             correctionAdd("causual", "casual");
 
-            correctionAdd("PRINT_R", "print_r()");
-            correctionAdd("print_r", "print_r()");
-
             correctionAdd("salutions", "salutations");
 
             correctionAdd("tollerable", "tolerable");
-
-            correctionAdd("VAR_DUMP", "var_dump()");
-            correctionAdd("var_dump", "var_dump()");
 
             correctionAdd("unconditionnal", "unconditional");
             correctionAdd("Unconditionnal", "unconditional");
@@ -36782,10 +36855,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ODT", "OpenDocument");
             correctionAdd("odt", "OpenDocument");
-
-            correctionAdd("fetchall", "PDOStatement::fetchAll()");
-            correctionAdd("fetchAll", "PDOStatement::fetchAll()");
-            correctionAdd("PDOStatement::fetchAll", "PDOStatement::fetchAll()");
 
             correctionAdd("coments", "comments");
 
@@ -36885,9 +36954,6 @@ namespace OverflowHelper.core
             correctionAdd("hth", "I hope this helps");
             correctionAdd("HTH", "I hope this helps");
             correctionAdd("Hth", "I hope this helps");
-
-            correctionAdd("php_eol", "PHP_EOL()");
-            correctionAdd("PHP_EOL", "PHP_EOL()");
 
             correctionAdd("Tutorialspoint", "Tutorials Point");
             correctionAdd("tutorialspoint", "Tutorials Point");
@@ -37106,9 +37172,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gSchem", "gschem");
 
-            correctionAdd("MYSQL_ESCAPE_STRING", "mysql_escape_string()");
-            correctionAdd("mysql_escape_string", "mysql_escape_string()");
-
             correctionAdd("powerline", "power line");
 
             correctionAdd("re-route", "reroute");
@@ -37168,9 +37231,6 @@ namespace OverflowHelper.core
             correctionAdd("hardware abstraction layer", "HAL");
             correctionAdd("hal", "HAL");
             correctionAdd("Hardware Abstraction Layer", "HAL");
-
-            correctionAdd("fetch", "PDOStatement::fetch()");
-            correctionAdd("PDOStatement::fetch", "PDOStatement::fetch()");
 
             correctionAdd("STM32Cube", "STM32CubeMX");
             correctionAdd("cube", "STM32CubeMX");
@@ -37696,16 +37756,11 @@ namespace OverflowHelper.core
 
             correctionAdd("disscusions", "discussions");
 
-            correctionAdd("error_reporting", "error_reporting()");
-
             correctionAdd("foriegn", "foreign");
 
             correctionAdd("Syntaxes", "syntaxes");
 
             correctionAdd("codeql", "CodeQL");
-
-            correctionAdd("ini_get", "ini_get()");
-            correctionAdd("iniget", "ini_get()");
 
             correctionAdd("taping", "tapping");
             correctionAdd("Taping", "tapping");
@@ -37794,8 +37849,6 @@ namespace OverflowHelper.core
             correctionAdd("HSS", "high-speed steel");
 
             correctionAdd("Infinity", "infinity");
-
-            correctionAdd("mb_strlen", "mb_strlen()");
 
             correctionAdd("needet", "needed");
             correctionAdd("needeed", "needed");
@@ -38626,9 +38679,6 @@ namespace OverflowHelper.core
             correctionAdd("traped", "trapped");
 
             correctionAdd("VLQ", "very low quality");
-
-            correctionAdd("nth-child()", ":nth-child()");
-            correctionAdd("nth-child", ":nth-child()");
 
             correctionAdd("prometheus", "Prometheus");
 
@@ -40373,8 +40423,6 @@ namespace OverflowHelper.core
             correctionAdd("cros-section", "cross section");
             correctionAdd("crosssection", "cross section");
 
-            correctionAdd("mb_convert_encoding", "mb_convert_encoding()");
-
             correctionAdd("OCXO", "oven-controlled crystal oscillator");
             correctionAdd("ovenized oscillators", "oven-controlled crystal oscillator");
 
@@ -40476,15 +40524,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Constrain", "constrain");
 
-            correctionAdd("file_get_contents", "file_get_contents()");
-
-            correctionAdd("file_put_contents", "file_put_contents()");
-
-            correctionAdd("htmlentities", "htmlentities()");
-            correctionAdd("htmlentites", "htmlentities()");
-
-            correctionAdd("mb_detect_encoding", "mb_detect_encoding()");
-
             correctionAdd("Neutron Star", "neutron star");
 
             correctionAdd("optimizer", "optimiser");
@@ -40539,10 +40578,6 @@ namespace OverflowHelper.core
             correctionAdd("sand bagging", "sandbagging");
 
             correctionAdd("self esteem", "self-esteem");
-
-            correctionAdd("str_ends_with", "str_ends_with()");
-
-            correctionAdd("strpos", "strpos()");
 
             correctionAdd("unawared", "unaware");
 
@@ -40742,8 +40777,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GZIP", "gzip");
 
-            correctionAdd("mhash", "mhash()");
-
             correctionAdd("Obligatory", "obligatory");
 
             correctionAdd("opn", "on");
@@ -40795,12 +40828,7 @@ namespace OverflowHelper.core
 
             correctionAdd("market", "marked");
 
-            correctionAdd("mb_split", "mb_split()");
-
-            correctionAdd("mbstring", "mb_string()");
-            correctionAdd("mb_string", "mb_string()");
-
-            correctionAdd("onesided", "one-sided");
+           correctionAdd("onesided", "one-sided");
             correctionAdd("one sided", "one-sided");
 
             correctionAdd("String Theory", "string theory");
@@ -41059,8 +41087,6 @@ namespace OverflowHelper.core
             correctionAdd("all mighty", "almighty");
 
             correctionAdd("fregment", "fragment");
-
-            correctionAdd("mail", "mail()");
 
             correctionAdd("DSO", "digital storage oscilloscope");
 
@@ -42678,9 +42704,6 @@ namespace OverflowHelper.core
             correctionAdd("blowfish", "Blowfish");
 
             correctionAdd("ecb", "ECB");
-
-            correctionAdd("mcrypt", "Mcrypt()");
-            correctionAdd("Mcrypt", "Mcrypt()");
 
             correctionAdd("pkcs", "PKCS");
 
@@ -44575,8 +44598,6 @@ namespace OverflowHelper.core
 
             correctionAdd("snobish", "snobbish");
 
-            correctionAdd("substr", "substr()");
-
             correctionAdd("Dunder method", "dunder method"); // See also <https://www.pythonmorsels.com/what-are-dunder-methods/>
 
             correctionAdd("Line of Code", "line of code");
@@ -45546,10 +45567,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sigint", "SIGINT");
 
-            correctionAdd("strftime", "strftime()");
-
-            correctionAdd("utf8_encode", "utf8_encode()");
-
             correctionAdd("chatroom", "chat room");
             correctionAdd("chat-room", "chat room");
 
@@ -45851,8 +45868,6 @@ namespace OverflowHelper.core
 
             correctionAdd("repeator", "repeater");
 
-            correctionAdd("mknod", "mknod()");
-
             correctionAdd("DLSS", "deep learning super sampling");
             correctionAdd("Deep Learning Super Sampling", "deep learning super sampling");
 
@@ -46058,8 +46073,6 @@ namespace OverflowHelper.core
             correctionAdd("toxix", "toxic");
             correctionAdd("Toxix", "toxic");
 
-            correctionAdd("rpartition", "rpartition()");
-
             correctionAdd("AWOL", "absent without official leave");
 
             correctionAdd("awfull", "awful");
@@ -46078,8 +46091,6 @@ namespace OverflowHelper.core
             correctionAdd("tongue in cheek", "tongue-in-cheek");
 
             correctionAdd("unistalled", "uninstalled");
-
-            correctionAdd("urlencode", "urlencode()");
 
             correctionAdd("archeology", "archaeology");
 
@@ -46193,10 +46204,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tig", "Tig");
 
-            correctionAdd("htmlspecialchars", "htmlspecialchars()");
-
-            correctionAdd("rawurlencode", "rawurlencode()");
-
             correctionAdd("browser spell checking", "web browser spell checking");
 
             correctionAdd("fastai", "fast.ai");
@@ -46220,6 +46227,8 @@ namespace OverflowHelper.core
             correctionAdd("lesuire", "leisure");
 
             correctionAdd("exessive", "excessive");
+
+            correctionAdd("xdg open", "xdg-open");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72621,6 +72630,8 @@ namespace OverflowHelper.core
             URL_Add("leisure", "https://en.wiktionary.org/wiki/leisure#Noun");
 
             URL_Add("excessive", "https://en.wiktionary.org/wiki/excessive#Adjective");
+
+            URL_Add("xdg-open", "https://wiki.archlinux.org/title/User:Larivact/xdg-open");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
