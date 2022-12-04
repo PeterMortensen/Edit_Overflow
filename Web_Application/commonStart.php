@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a571 2022-12-03T213251Z+0";
+        return "Edit Overflow v. 1.1.49a572 2022-12-04T021254Z+0";
     }
 
 
@@ -580,12 +580,12 @@
     } #transformFor_YouTubeComments()
 
 
-    # Format a link in WikiMedia (Wikipedia format).
+    # Format a link in WikiMedia (Wikipedia format, internal link).
     #
     # The first part is related to the URL (essentially the title of
     # the Wikipedia article). The second part is what we have chosen
     # to be the output word (correct term). Sometimes the two parts
-    # are the same
+    # are the same.
     #
     # Example:
     #
@@ -643,6 +643,26 @@
         }
         return $linkStr;
     } #WikiMedia_Link()
+
+
+    # Format a link in WikiMedia, external link (Wikipedia format).
+    #
+    # That is, to any web site, incl Wikipedia itself, e.g. from
+    # another wiki, like Sigrok's, to a Wikipedia page.
+    #
+    # Example:
+    #
+    #    ''[https://en.wikipedia.org/wiki/ChatZilla ChatZilla]''
+    #
+    function WikiMedia_Link_External($aURL, $aCorrectTerm)
+    {
+        # This is really straightforward. Or at least it seems so.
+        # However, are there any special cases, e.g. encoding
+        # for some special characters?
+        #
+        $linkStr = "[$aURL $aCorrectTerm]";
+        return $linkStr;
+    } #WikiMedia_Link_External()
 
 
     # Note that we are using the WordPress convention of name

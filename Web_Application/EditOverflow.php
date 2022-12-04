@@ -32,8 +32,8 @@
                 return
                     "<a " .
                     "href=" .
-                    "\"$baseURL&LookUpTerm=" . 
-                    urlencode($anIncorrectTerm) . 
+                    "\"$baseURL&LookUpTerm=" .
+                    urlencode($anIncorrectTerm) .
                     "\"" .
                     " id=\"$anID\"" .
                     ">" . stripTrailingSlash($aCorrectTerm) . "</a>";
@@ -42,9 +42,9 @@
             function lookup($aPDO, $aLookupTerm)
             {
                 # Default: For words that are not in our word list
-                $incorrectTerm7 = "";
-                $correctTerm7   = "";
-                $URL7           = "";
+                $incorrectTerm = "";
+                $correctTerm   = "";
+                $URL           = "";
 
                 $SQLprefix =
                   " SELECT incorrectTerm, correctTerm, URL " .
@@ -79,16 +79,16 @@
                         #       htmlentities(). There e.g. "<"
                         #       should be encoded as "&lt;".
                         #
-                        $incorrectTerm7 = $row['incorrectTerm'];
+                        $incorrectTerm = $row['incorrectTerm'];
 
-                        $correctTerm7  = $row['correctTerm'];
+                        $correctTerm   = $row['correctTerm'];
 
-                        $URL7          = $row['URL'];
+                        $URL           = $row['URL'];
                         #$URL          = htmlZZZZentities($row['URL'], ENT_QUOTES);  - what is the intent??
                     }
                 }
 
-                return [$incorrectTerm7, $correctTerm7, $URL7];
+                return [$incorrectTerm, $correctTerm, $URL];
             } #lookup()
 
 
@@ -251,7 +251,7 @@
             # Look up incorrect word in the alternative word set
             #
             [$incorrectTerm2, $correctTerm2, $URL2] =
-                lookup($pdo, 
+                lookup($pdo,
                         $lookUpTerm . "_");
 
             # Look up correct word in the alternative word set
@@ -260,7 +260,7 @@
             # as it will actually contain the correct term...
             #
             [$incorrectTerm3, $correctTerm3, $URL3] =
-                lookup($pdo, 
+                lookup($pdo,
                         $correctTerm . "_");
 
             # Transparently use the alternative word set if the
@@ -285,6 +285,7 @@
             $linkYouTubeCompatible = "";
             $link_HTML = "";
             $link_WikiMedia = "";
+            $link_WikiMedia_External = "";
             $correctionComment = "";
 
             # Avoid "Undefined variable: editSummary_output",
@@ -401,7 +402,7 @@
                   ">" . $correctTerm . "</a>";
 
 
-                # Link, in MediaWiki format (e.g., for Wikipedia)
+                # Link, in MediaWiki format, internal (e.g., for Wikipedia)
                 #
                 # We preformat it in italics (two single quotes on Wikipeida)
                 # as we will often want to indicate it is literal (e.g.,
@@ -410,6 +411,12 @@
                 $link_WikiMedia =
                     "''" .
                     WikiMedia_Link($URL, $correctTerm) .
+                    "''"
+                    ;
+
+                $link_WikiMedia_External =
+                    "''" .
+                    WikiMedia_Link_External($URL, $correctTerm) .
                     "''"
                     ;
 
@@ -856,6 +863,38 @@
                     style="width:400px;"
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
+                >
+
+                <label for="URL7">Link (MediaWiki, e<u>x</u>ternal)</label>
+                <input
+                    name="URL7"
+                    type="text"
+                    id="URL7"
+                    class="XYZ95"
+
+                    <?php
+                        #Note: We should eliminate the redundancy (introduced
+                        #      due to problems with escaping double quotes) -
+                        #      see get_HTMLattributeEscaped() for details.
+
+
+                        # the_formValue($link_HTML);
+                        #
+                        ## Direct, using single quotes, so we don't
+                        ## have to escape neither in PHP nor in HTML
+                        ## (but it fails for correct terms containing
+                        ## single quotes, e.g. "don't"):
+                        ##
+                        #echo "value='$link_HTML'\n";
+
+                        # Using "&quot;", but see notes near "$link_HTML" above.
+                        #
+                        $link_WikiMedia_External_encoded = str_replace('"', '&quot;', $link_WikiMedia_External);
+                        echo "value=\"$link_WikiMedia_External_encoded\"\n";
+                    ?>
+                    style="width:400px;"
+                    accesskey="X"
+                    title="Shortcut: Shift + Alt + X"
                 >
 
                 <label for="URL5">Correction commen<u>t</u></label>
