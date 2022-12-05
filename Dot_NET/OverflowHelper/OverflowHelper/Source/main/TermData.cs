@@ -4462,6 +4462,7 @@ namespace OverflowHelper.core
             correctionAdd("Code Golf", "Code Golf (Stack Exchange site)");
             correctionAdd("code-golf", "Code Golf (Stack Exchange site)");
             correctionAdd("CodeGolf", "Code Golf (Stack Exchange site)");
+            correctionAdd("CGSE", "Code Golf (Stack Exchange site)");
 
             correctionAdd("Game development", "Game Development (Stack Exchange site)");
             correctionAdd("Game Development", "Game Development (Stack Exchange site)"); // Sort of identity mapping
@@ -4768,6 +4769,7 @@ namespace OverflowHelper.core
             correctionAdd("stackoverflown", "Stack&nbsp;Overflow");
             correctionAdd("stackoverflown.com", "Stack&nbsp;Overflow");
             correctionAdd("Stuck Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("stock overflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -5561,6 +5563,7 @@ namespace OverflowHelper.core
             correctionAdd("enviornment variable", "environment variable");
             correctionAdd("enviroment variable", "environment variable");
             correctionAdd("environment-variable", "environment variable");
+            correctionAdd("ENV vars", "environment variable");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -10068,6 +10071,7 @@ namespace OverflowHelper.core
             correctionAdd("Tweeter", "Twitter");
             correctionAdd("TwAtter", "Twitter");
             correctionAdd("Twatter", "Twitter");
+            correctionAdd("spacefaring carbuilding lunatic billionaire-sized venture capital being burnt", "Twitter"); // Courtesy Marcus Müller, <https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned#comment936888_421842>
 
             correctionAdd("dos", "DOS");
             correctionAdd("MS DOS", "DOS");
@@ -13859,6 +13863,7 @@ namespace OverflowHelper.core
             correctionAdd("Djanog", "Django"); // Misspelling.
             correctionAdd("DJango", "Django");
             correctionAdd("djang", "Django");
+            correctionAdd("Djago", "Django");
 
             correctionAdd("GO", "Go");
             correctionAdd("go", "Go");
@@ -14955,6 +14960,10 @@ namespace OverflowHelper.core
             correctionAdd("autum", "autumn");
             correctionAdd("authumn", "autumn");
             correctionAdd("authum", "autumn");
+            correctionAdd("authom", "autumn");
+            correctionAdd("authoum", "autumn");
+            correctionAdd("autoum", "autumn");
+            correctionAdd("autuhm", "autumn");
 
             correctionAdd("accomodate", "accommodate");
 
@@ -26394,6 +26403,7 @@ namespace OverflowHelper.core
             correctionAdd("thhe", "the");
             correctionAdd("Theh", "the");
             correctionAdd("theh", "the");
+            correctionAdd("tbe", "the");
 
             correctionAdd("vaild", "valid"); // True typo
             correctionAdd("vaiid", "valid");
@@ -27301,6 +27311,7 @@ namespace OverflowHelper.core
             correctionAdd("paranthetis", "parenthesis");
             correctionAdd("parathesis", "parenthesis");
             correctionAdd("parenthese", "parenthesis");
+            correctionAdd("Paren", "parenthesis");
 
             correctionAdd("parens", "parentheses");
             correctionAdd("parantheses", "parentheses");
@@ -31046,6 +31057,7 @@ namespace OverflowHelper.core
 
             correctionAdd("proptocol", "protocol");
             correctionAdd("protocl", "protocol");
+            correctionAdd("procol", "protocol");
 
             correctionAdd("usb hub", "USB hub");
             correctionAdd("USB Hub", "USB hub");
@@ -38447,6 +38459,7 @@ namespace OverflowHelper.core
             correctionAdd("githooks", "Git hooks");
             correctionAdd("git-hooks", "Git hooks");
             correctionAdd("git hooks", "Git hooks");
+            correctionAdd("git hook", "Git hooks");
 
             correctionAdd("Wall", "Larry Wall");
 
@@ -39529,6 +39542,8 @@ namespace OverflowHelper.core
 
             correctionAdd("babby formed", "How Is Babby Formed?");
             correctionAdd("babby", "How Is Babby Formed?");
+            correctionAdd("How is babby formed?", "How Is Babby Formed?");
+            correctionAdd("how is babby formed", "How Is Babby Formed?");
 
             correctionAdd("Thomson", "J. J. Thomson");
 
@@ -41945,6 +41960,7 @@ namespace OverflowHelper.core
             correctionAdd("from the face of earth", "from the face of the earth");
 
             correctionAdd("imageniation", "imagination");
+            correctionAdd("emagination", "imagination");
 
             correctionAdd("modolus", "modulus");
 
@@ -46104,6 +46120,7 @@ namespace OverflowHelper.core
             correctionAdd("lose end", "loose end");
 
             correctionAdd("Eternal September on SO", "Eternal September on Stack Overflow");
+            correctionAdd("big city problems", "Eternal September on Stack Overflow");
 
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
 
@@ -46237,6 +46254,9 @@ namespace OverflowHelper.core
 
             correctionAdd("chatGPT", "ChatGPT");
             correctionAdd("chatgpt", "ChatGPT");
+            correctionAdd("CGPT", "ChatGPT");
+            correctionAdd("GPTChat", "ChatGPT");
+            correctionAdd("cgpt", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -46247,6 +46267,28 @@ namespace OverflowHelper.core
             correctionAdd("PWDX", "pwdx");
 
             correctionAdd("spinnaker", "Spinnaker");
+
+            correctionAdd("2 step", "two-step");
+
+            correctionAdd("pyro", "Pyro");
+
+            correctionAdd("twisted", "Twisted");
+
+            correctionAdd("GPT-3 Codex", "Codex");
+
+            correctionAdd("Computer Graphics", "Computer Graphics (Stack Exchange site)");
+
+            correctionAdd("MSL", "Metal Shading Language");
+
+            correctionAdd("profil", "profile");
+
+            correctionAdd("RCPP", "Rcpp");
+
+            correctionAdd("sarcasic", "sarcastic");
+
+            correctionAdd("threatning", "threatening");
+
+            correctionAdd("WebGPU Shading Language", "WGSL");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -46738,6 +46780,7 @@ namespace OverflowHelper.core
             correctionAdd("CFR", "case fatality rate"); // Coronavirus
 
             correctionAdd("Myocarditis", "myocarditis"); // Coronavirus
+            correctionAdd("myocardartis", "myocarditis"); // Coronavirus
 
             correctionAdd("HCW", "health care worker"); // Coronavirus
 
@@ -72663,6 +72706,28 @@ namespace OverflowHelper.core
 
             URL_Add("Spinnaker", "https://en.wikipedia.org/wiki/Spinnaker_(software)");
 
+            URL_Add("two-step", "https://en.wiktionary.org/wiki/two-step#Noun");
+
+            URL_Add("Pyro", "https://wiki.python.org/moin/Pyro");
+
+            URL_Add("Twisted", "https://en.wikipedia.org/wiki/Twisted_(software)");
+
+            URL_Add("Codex", "https://en.wikipedia.org/wiki/OpenAI_Codex");
+
+            URL_Add("Computer Graphics (Stack Exchange site)", "https://computergraphics.stackexchange.com/tour");
+
+            URL_Add("Metal Shading Language", "https://en.wikipedia.org/wiki/Metal_(API)");
+
+            URL_Add("profile", "https://en.wiktionary.org/wiki/profile#Noun");
+
+            URL_Add("Rcpp", "https://en.wikipedia.org/wiki/Dirk_Eddelbuettel");
+
+            URL_Add("sarcastic", "https://en.wiktionary.org/wiki/sarcastic#Adjective");
+
+            URL_Add("threatening", "https://en.wiktionary.org/wiki/threaten#Verb");
+
+            URL_Add("WGSL", "https://en.wikipedia.org/wiki/WebGPU#Technology");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73150,6 +73215,8 @@ namespace OverflowHelper.core
             correctionAdd("CrossValidated_", "Cross Validated (Stack Exchange site)_");
             correctionAdd("Stats.SE_", "Cross Validated (Stack Exchange site)_");
             correctionAdd("stats.stackexchange.com_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats Stack Exchange_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats stackexchange_", "Cross Validated (Stack Exchange site)_");
 
             correctionAdd("space exploration_", "Space Exploration (Stack Exchange site)_");
             correctionAdd("Space Exploration_", "Space Exploration (Stack Exchange site)_");
@@ -74199,6 +74266,8 @@ namespace OverflowHelper.core
             correctionAdd("aspects_", "expects_");
             correctionAdd("espects_", "expects_");
             correctionAdd("exspects_", "expects_");
+            correctionAdd("Expcet_", "expects_");
+            correctionAdd("expcet_", "expects_");
 
             correctionAdd("hem_", "Hem_");
 
