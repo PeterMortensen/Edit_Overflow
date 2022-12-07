@@ -4901,6 +4901,24 @@ namespace OverflowHelper.core
             correctionAdd("Computational Science SE", "Computational Science (Stack Exchange site)");
             correctionAdd("Computational Science", "Computational Science (Stack Exchange site)"); // Sort of identity mapping
 
+            correctionAdd("area51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area 51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("A51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("area 51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("AREA 51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Arae51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("a51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area-51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("area-51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area 51 (Stack Exchange site)", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Area&nbsp;51", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Physical Fitness", "Physical Fitness (Stack Exchange site)");
+
+            correctionAdd("Computer Graphics", "Computer Graphics (Stack Exchange site)");
+            correctionAdd("computer graphics", "Computer Graphics (Stack Exchange site)");
+
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Meta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -5150,6 +5168,8 @@ namespace OverflowHelper.core
             correctionAdd("expericense", "experience");
             correctionAdd("exeperience", "experience");
             correctionAdd("expirience", "experience");
+            correctionAdd("expeirence", "experience");
+            correctionAdd("expierence", "experience");
             //(Note: in existing group, "experience")
             //correctionAdd("exp.", "experience");
 
@@ -6903,6 +6923,115 @@ namespace OverflowHelper.core
             correctionAdd("aruino uno", "Arduino Uno");
             correctionAdd("Arduino Uno R3", "Arduino Uno");
             correctionAdd("Arduino UNO R3", "Arduino Uno");
+
+            correctionAdd("Shield", "shield"); // As in Arduino...
+            correctionAdd("SHEILD", "shield"); // As in Arduino...
+            correctionAdd("sheild", "shield");
+
+            correctionAdd("Leonardo", "Arduino Leonardo");
+            correctionAdd("leonardo", "Arduino Leonardo");
+            correctionAdd("Leanardo", "Arduino Leonardo");
+            correctionAdd("Leo", "Arduino Leonardo");
+            correctionAdd("arduino leonardo", "Arduino Leonardo");
+
+            correctionAdd("Arduino MEGA", "Arduino Mega 2560");
+            correctionAdd("Arduino mega", "Arduino Mega 2560");
+            correctionAdd("arduino Mega", "Arduino Mega 2560");
+            correctionAdd("Arduino Mega", "Arduino Mega 2560");
+            correctionAdd("arduino mega 256", "Arduino Mega 2560");
+            correctionAdd("arduino mega 2560", "Arduino Mega 2560");
+
+            correctionAdd("Arduino-cli", "Arduino CLI");
+
+            correctionAdd("arduino nano", "Arduino Nano");
+            correctionAdd("Arduino nano", "Arduino Nano");
+            correctionAdd("nano arduino", "Arduino Nano");
+
+            correctionAdd("Yún", "Arduino Yún");
+            correctionAdd("Arduino Yun", "Arduino Yún");
+            correctionAdd("Yun", "Arduino Yún");
+
+            correctionAdd("Arduino ide", "Arduino IDE");
+            correctionAdd("arduino ide", "Arduino IDE");
+
+            correctionAdd("Pro Mini", "Arduino Pro Mini");
+            correctionAdd("ProMini", "Arduino Pro Mini");
+            correctionAdd("pro mini", "Arduino Pro Mini");
+
+            correctionAdd("arduino micro", "Arduino Micro");
+
+            correctionAdd("ATTINY", "ATtiny");
+            correctionAdd("attiny", "ATtiny");
+            correctionAdd("Attiny", "ATtiny");
+
+            correctionAdd("AtTiny85", "ATtiny85");
+            correctionAdd("ATTiny85", "ATtiny85");
+
+            correctionAdd("attiny10", "ATtiny10");
+            correctionAdd("ATTiny10", "ATtiny10");
+
+            correctionAdd("attiny13", "ATtiny13");
+
+            correctionAdd("attiny13a", "ATtiny13A");
+
+            correctionAdd("atmega", "ATmega");
+            correctionAdd("ATMega", "ATmega");
+            correctionAdd("ATMEGA", "ATmega");
+            correctionAdd("Atmega", "ATmega");
+
+            correctionAdd("atmega328", "ATmega328");
+            correctionAdd("ATMega328", "ATmega328");
+            correctionAdd("ATMEGA328", "ATmega328");
+            correctionAdd("AtMega328", "ATmega328");
+            correctionAdd("Atmega328", "ATmega328");
+            correctionAdd("Atmega 328", "ATmega328");
+            correctionAdd("atmega 328", "ATmega328");
+            correctionAdd("328", "ATmega328"); // Does this work??
+            correctionAdd("AtMega328PU", "ATmega328");
+
+            correctionAdd("ATMEGA 328p", "ATmega328P");
+            correctionAdd("ATMEGA328p", "ATmega328P");
+            correctionAdd("Atmega328p", "ATmega328P");
+            correctionAdd("Atmega328P", "ATmega328P");
+            correctionAdd("atmega328p", "ATmega328P");
+            correctionAdd("atmega328P", "ATmega328P");
+            correctionAdd("Atmega 328p", "ATmega328P");
+            correctionAdd("atmega 328p", "ATmega328P");
+            correctionAdd("ATmega 328p", "ATmega328P");
+            correctionAdd("ATmega 328P", "ATmega328P");
+            correctionAdd("ATmega328p", "ATmega328P");
+            correctionAdd("Atmega-328", "ATmega328P");
+            correctionAdd("ATmega-328", "ATmega328P");
+            correctionAdd("ATmega-328p", "ATmega328P");
+            correctionAdd("ATmega-328P", "ATmega328P");
+            correctionAdd("ATMega328P", "ATmega328P");
+            correctionAdd("ATMega328p", "ATmega328P");
+            correctionAdd("Atmega 328P", "ATmega328P");
+
+            correctionAdd("ATMEGA32", "ATmega32");
+            correctionAdd("ATMEGA 32", "ATmega32");
+            correctionAdd("ATMega32", "ATmega32");
+
+            correctionAdd("ATMEGA32U4", "ATmega32U4");
+            correctionAdd("AtMega32U4", "ATmega32U4");
+            correctionAdd("ATMega32u4", "ATmega32U4");
+            correctionAdd("atmega32u4", "ATmega32U4");
+            correctionAdd("ATmega32u4", "ATmega32U4");
+            correctionAdd("Atmega32U4", "ATmega32U4");
+            correctionAdd("Atmega 32u4", "ATmega32U4");
+            correctionAdd("ATmega 32u4", "ATmega32U4");
+            correctionAdd("ATmega 32U4", "ATmega32U4");
+
+            correctionAdd("Atmega16U2", "ATmega16U2");
+            correctionAdd("ATMEGA16U2", "ATmega16U2");
+
+            correctionAdd("ATi", "ATI");
+
+            correctionAdd("AoE", "ATA over Ethernet");
+
+            correctionAdd("Atlas", "ATLAS"); // Not actually observed.
+
+            correctionAdd("atlas", "ATLAS.ti");
 
             correctionAdd("crystal report", "Crystal Reports"); // Common misspelling...
             correctionAdd("crystal reports", "Crystal Reports"); // Common misspelling...
@@ -9603,19 +9732,6 @@ namespace OverflowHelper.core
             correctionAdd("m$", "Microsoft");
             correctionAdd("MICROSOFT", "Microsoft");
 
-            correctionAdd("area51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area 51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("A51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("area 51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("AREA 51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Arae51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("a51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area-51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("area-51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area 51 (Stack Exchange site)", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Area&nbsp;51", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
-
             correctionAdd("jpeg", "JPEG");
             correctionAdd("Jpeg", "JPEG");
             correctionAdd("jpg", "JPEG");
@@ -9656,6 +9772,7 @@ namespace OverflowHelper.core
             correctionAdd("reputaion points", "reputation points");
             correctionAdd("points of reputation", "reputation points");
             correctionAdd("REP", "reputation points");
+            correctionAdd("Rep", "reputation points");
 
             correctionAdd("squid", "Squid");
 
@@ -11511,10 +11628,6 @@ namespace OverflowHelper.core
             correctionAdd("Install Shield", "InstallShield");
             correctionAdd("installShield", "InstallShield");
             correctionAdd("installsheild", "InstallShield");
-
-            correctionAdd("Shield", "shield"); // As in Arduino...
-            correctionAdd("SHEILD", "shield"); // As in Arduino...
-            correctionAdd("sheild", "shield");
 
             correctionAdd("freemat", "FreeMat");
 
@@ -16299,15 +16412,6 @@ namespace OverflowHelper.core
 
             correctionAdd("umbraco", "Umbraco");
 
-            correctionAdd("Leonardo", "Arduino Leonardo");
-            correctionAdd("leonardo", "Arduino Leonardo");
-            correctionAdd("Leanardo", "Arduino Leonardo");
-            correctionAdd("Leo", "Arduino Leonardo");
-            correctionAdd("arduino leonardo", "Arduino Leonardo");
-
-            correctionAdd("AtTiny85", "ATtiny85");
-            correctionAdd("ATTiny85", "ATtiny85");
-
             correctionAdd("fritzing", "Fritzing");
 
             correctionAdd("communcation", "communication");
@@ -16516,13 +16620,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ollydbg", "OllyDbg");
 
-            correctionAdd("Arduino MEGA", "Arduino Mega 2560");
-            correctionAdd("Arduino mega", "Arduino Mega 2560");
-            correctionAdd("arduino Mega", "Arduino Mega 2560");
-            correctionAdd("Arduino Mega", "Arduino Mega 2560");
-            correctionAdd("arduino mega 256", "Arduino Mega 2560");
-            correctionAdd("arduino mega 2560", "Arduino Mega 2560");
-
             correctionAdd("Mips", "MIPS");
             correctionAdd("mips", "MIPS");
 
@@ -16549,35 +16646,6 @@ namespace OverflowHelper.core
             correctionAdd("chanlenge", "challenge");
             correctionAdd("chalenge", "challenge");
             correctionAdd("chalendge", "challenge");
-
-            correctionAdd("atmega328", "ATmega328");
-            correctionAdd("ATMega328", "ATmega328");
-            correctionAdd("ATMEGA328", "ATmega328");
-            correctionAdd("AtMega328", "ATmega328");
-            correctionAdd("Atmega328", "ATmega328");
-            correctionAdd("Atmega 328", "ATmega328");
-            correctionAdd("atmega 328", "ATmega328");
-            correctionAdd("328", "ATmega328"); // Does this work??
-            correctionAdd("AtMega328PU", "ATmega328");
-
-            correctionAdd("ATMEGA 328p", "ATmega328P");
-            correctionAdd("ATMEGA328p", "ATmega328P");
-            correctionAdd("Atmega328p", "ATmega328P");
-            correctionAdd("Atmega328P", "ATmega328P");
-            correctionAdd("atmega328p", "ATmega328P");
-            correctionAdd("atmega328P", "ATmega328P");
-            correctionAdd("Atmega 328p", "ATmega328P");
-            correctionAdd("atmega 328p", "ATmega328P");
-            correctionAdd("ATmega 328p", "ATmega328P");
-            correctionAdd("ATmega 328P", "ATmega328P");
-            correctionAdd("ATmega328p", "ATmega328P");
-            correctionAdd("Atmega-328", "ATmega328P");
-            correctionAdd("ATmega-328", "ATmega328P");
-            correctionAdd("ATmega-328p", "ATmega328P");
-            correctionAdd("ATmega-328P", "ATmega328P");
-            correctionAdd("ATMega328P", "ATmega328P");
-            correctionAdd("ATMega328p", "ATmega328P");
-            correctionAdd("Atmega 328P", "ATmega328P");
 
             correctionAdd("anaconda", "Anaconda");
             correctionAdd("anonconda", "Anaconda");
@@ -17068,6 +17136,7 @@ namespace OverflowHelper.core
             correctionAdd("reccomended", "recommended");
             correctionAdd("Recommented", "recommended");
             correctionAdd("recommented", "recommended");
+            correctionAdd("recommened", "recommended");
 
             correctionAdd("seperator", "separator");
             correctionAdd("seprator", "separator");
@@ -17323,6 +17392,7 @@ namespace OverflowHelper.core
             correctionAdd("SBC", "single-board computer");
             correctionAdd("Single Board Computer", "single-board computer");
             correctionAdd("single board computer", "single-board computer");
+            correctionAdd("Single Board Computers", "single-board computer");
 
             correctionAdd("eigth", "eight");
             correctionAdd("Eight", "eight");
@@ -17392,8 +17462,6 @@ namespace OverflowHelper.core
 
             correctionAdd("6th", "sixth");
             correctionAdd("Sixth", "sixth");
-
-            correctionAdd("Arduino-cli", "Arduino CLI");
 
             correctionAdd("C64", "Commodore 64");
             correctionAdd("comodore 64", "Commodore 64");
@@ -18304,11 +18372,6 @@ namespace OverflowHelper.core
 
             correctionAdd("YUML", "yUML");
             correctionAdd("yuml", "yUML");
-
-            correctionAdd("atmega", "ATmega");
-            correctionAdd("ATMega", "ATmega");
-            correctionAdd("ATMEGA", "ATmega");
-            correctionAdd("Atmega", "ATmega");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -21641,10 +21704,6 @@ namespace OverflowHelper.core
             correctionAdd("vocabolary", "vocabulary");
             correctionAdd("vocab", "vocabulary");
 
-            correctionAdd("ATMEGA32", "ATmega32");
-            correctionAdd("ATMEGA 32", "ATmega32");
-            correctionAdd("ATMega32", "ATmega32");
-
             correctionAdd("oom", "OOM");
 
             correctionAdd("erlier", "earlier");
@@ -21964,10 +22023,6 @@ namespace OverflowHelper.core
 
             correctionAdd("5g", "5G");
 
-            correctionAdd("arduino nano", "Arduino Nano");
-            correctionAdd("Arduino nano", "Arduino Nano");
-            correctionAdd("nano arduino", "Arduino Nano");
-
             correctionAdd("asciidoc", "AsciiDoc");
             correctionAdd("ASCII Doc", "AsciiDoc");
 
@@ -22193,10 +22248,6 @@ namespace OverflowHelper.core
             correctionAdd("Bob's yer uncle", "Bob’s your uncle");
             correctionAdd("Bobs your uncle", "Bob’s your uncle");
             correctionAdd("Bob's you uncle", "Bob’s your uncle");
-
-            correctionAdd("Yún", "Arduino Yún");
-            correctionAdd("Arduino Yun", "Arduino Yún");
-            correctionAdd("Yun", "Arduino Yún");
 
             correctionAdd("alu", "ALU");
 
@@ -23283,6 +23334,7 @@ namespace OverflowHelper.core
             correctionAdd("plagorism", "plagiarism");
             correctionAdd("plagiasrism", "plagiarism");
             correctionAdd("plagirism", "plagiarism");
+            correctionAdd("Plagiarism", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -26262,6 +26314,7 @@ namespace OverflowHelper.core
             correctionAdd("line-manager", "line manager");
 
             correctionAdd("sceptisicm", "scepticism");
+            correctionAdd("skepticism", "scepticism");
 
             correctionAdd("seperate the wheat from the chaff", "separate the wheat from the chaff");
             correctionAdd("the wheat from the chaff", "separate the wheat from the chaff");
@@ -26961,8 +27014,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AMD threadripper", "AMD Ryzen Threadripper");
 
-            correctionAdd("ATi", "ATI");
-
             correctionAdd("XEON", "Xeon");
             correctionAdd("xeon", "Xeon");
 
@@ -27064,9 +27115,6 @@ namespace OverflowHelper.core
             correctionAdd("sens", "sense");
 
             correctionAdd("sencical", "sensical");
-
-            correctionAdd("Arduino ide", "Arduino IDE");
-            correctionAdd("arduino ide", "Arduino IDE");
 
             correctionAdd("Biztalk", "BizTalk");
 
@@ -32078,10 +32126,6 @@ namespace OverflowHelper.core
             correctionAdd(".NET 6", ".NET&nbsp;6");
             correctionAdd(".Net 6", ".NET&nbsp;6");
 
-            correctionAdd("ATTINY", "ATtiny");
-            correctionAdd("attiny", "ATtiny");
-            correctionAdd("Attiny", "ATtiny");
-
             correctionAdd("sku", "SKU");
             correctionAdd("stock keeping unit", "SKU");
 
@@ -32119,10 +32163,6 @@ namespace OverflowHelper.core
             correctionAdd("sombody", "somebody");
 
             correctionAdd("un-asked", "unasked");
-
-            correctionAdd("Pro Mini", "Arduino Pro Mini");
-            correctionAdd("ProMini", "Arduino Pro Mini");
-            correctionAdd("pro mini", "Arduino Pro Mini");
 
             correctionAdd("disqus", "Disqus");
 
@@ -33132,21 +33172,8 @@ namespace OverflowHelper.core
 
             correctionAdd("USERADD", "useradd");
 
-            correctionAdd("ATMEGA32U4", "ATmega32U4");
-            correctionAdd("AtMega32U4", "ATmega32U4");
-            correctionAdd("ATMega32u4", "ATmega32U4");
-            correctionAdd("atmega32u4", "ATmega32U4");
-            correctionAdd("ATmega32u4", "ATmega32U4");
-            correctionAdd("Atmega32U4", "ATmega32U4");
-            correctionAdd("Atmega 32u4", "ATmega32U4");
-            correctionAdd("ATmega 32u4", "ATmega32U4");
-            correctionAdd("ATmega 32U4", "ATmega32U4");
-
             correctionAdd("p5", "p5.js");
             correctionAdd("P5js", "p5.js");
-
-            correctionAdd("Atmega16U2", "ATmega16U2");
-            correctionAdd("ATMEGA16U2", "ATmega16U2");
 
             correctionAdd("BJ", "Boris Johnson");
             correctionAdd("BoJo", "Boris Johnson");
@@ -33830,6 +33857,7 @@ namespace OverflowHelper.core
             correctionAdd("Oracle ASM", "Oracle Automatic Storage Management");
 
             correctionAdd("pySerial", "PySerial");
+            correctionAdd("Pyserial", "PySerial");
 
             correctionAdd("sereal", "serial");
             correctionAdd("seral", "serial");
@@ -36529,6 +36557,7 @@ namespace OverflowHelper.core
             correctionAdd("Web assembly", "WebAssembly");
             correctionAdd("Webassembly", "WebAssembly");
             correctionAdd("WebAsm", "WebAssembly");
+            correctionAdd("Web Assembly", "WebAssembly");
 
             correctionAdd("webvr", "WebVR");
 
@@ -38298,6 +38327,8 @@ namespace OverflowHelper.core
             correctionAdd("Ya", "yes");
             correctionAdd("Yeah", "yes");
             correctionAdd("yeah", "yes");
+            correctionAdd("Yeh", "yes");
+            correctionAdd("yeh", "yes");
 
             correctionAdd("eviews", "EViews");
 
@@ -39091,8 +39122,6 @@ namespace OverflowHelper.core
             correctionAdd("NGN", "naira");
 
             correctionAdd("21st Century", "21st century");
-
-            correctionAdd("AoE", "ATA over Ethernet");
 
             correctionAdd("AVG", "AVG AntiVirus");
             correctionAdd("AVG antivirus", "AVG AntiVirus");
@@ -39901,10 +39930,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Quotient", "quotient");
 
-            correctionAdd("Atlas", "ATLAS"); // Not actually observed.
-
-            correctionAdd("atlas", "ATLAS.ti");
-
             correctionAdd("F-18", "F/A-18");
             correctionAdd("F18", "F/A-18");
 
@@ -40045,9 +40070,6 @@ namespace OverflowHelper.core
             correctionAdd("Reciprication", "reciprocation");
 
             correctionAdd("soend", "spend");
-
-            correctionAdd("attiny10", "ATtiny10");
-            correctionAdd("ATTiny10", "ATtiny10");
 
             correctionAdd("PlayBook", "BlackBerry PlayBook");
 
@@ -40558,10 +40580,6 @@ namespace OverflowHelper.core
             correctionAdd("!=", "!==");
 
             correctionAdd("==", "===");
-
-            correctionAdd("attiny13", "ATtiny13");
-
-            correctionAdd("attiny13a", "ATtiny13A");
 
             correctionAdd("Jung", "Carl Jung");
 
@@ -43023,8 +43041,6 @@ namespace OverflowHelper.core
 
             correctionAdd("glm", "generalized linear model");
             correctionAdd("GLM", "generalized linear model");
-
-            correctionAdd("arduino micro", "Arduino Micro");
 
             correctionAdd("Church-Turing thesis", "Church–Turing thesis");
             correctionAdd("Chuch-Turing thesis", "Church–Turing thesis");
@@ -45824,8 +45840,6 @@ namespace OverflowHelper.core
 
             correctionAdd("explict", "explicit");
 
-            correctionAdd("Physical Fitness", "Physical Fitness (Stack Exchange site)");
-
             correctionAdd("R/A", "rude or abusive");
 
             correctionAdd("SOC", "System and Organization Controls");
@@ -46123,6 +46137,7 @@ namespace OverflowHelper.core
             correctionAdd("big city problems", "Eternal September on Stack Overflow");
 
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
+            correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
 
             correctionAdd("opt-in", "opt in");
 
@@ -46257,6 +46272,7 @@ namespace OverflowHelper.core
             correctionAdd("CGPT", "ChatGPT");
             correctionAdd("GPTChat", "ChatGPT");
             correctionAdd("cgpt", "ChatGPT");
+            correctionAdd("chatcpt", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -46276,9 +46292,9 @@ namespace OverflowHelper.core
 
             correctionAdd("GPT-3 Codex", "Codex");
 
-            correctionAdd("Computer Graphics", "Computer Graphics (Stack Exchange site)");
-
             correctionAdd("MSL", "Metal Shading Language");
+            correctionAdd("Metal SL", "Metal Shading Language");
+            correctionAdd("metal SL", "Metal Shading Language");
 
             correctionAdd("profil", "profile");
 
@@ -46289,6 +46305,28 @@ namespace OverflowHelper.core
             correctionAdd("threatning", "threatening");
 
             correctionAdd("WebGPU Shading Language", "WGSL");
+
+            correctionAdd("butlerian jihad", "Butlerian Jihad");
+
+            correctionAdd("Diecimila", "Arduino Diecimila");
+            correctionAdd("Decimila", "Arduino Diecimila");
+
+            correctionAdd("communitys", "communities");
+
+            correctionAdd("disproportiate", "disproportionate");
+            correctionAdd("dispropertiate", "disproportionate");
+
+            correctionAdd("Flagged", "flagged");
+
+            correctionAdd("ikea", "IKEA");
+
+            correctionAdd("Pitch", "pitch");
+
+            correctionAdd("regaring", "regarding");
+
+            correctionAdd("sandwitch", "sandwich");
+
+            correctionAdd("Yaw", "yaw");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72728,6 +72766,26 @@ namespace OverflowHelper.core
 
             URL_Add("WGSL", "https://en.wikipedia.org/wiki/WebGPU#Technology");
 
+            URL_Add("Butlerian Jihad", "https://en.wikipedia.org/wiki/Dune_(franchise)#The_Butlerian_Jihad");
+
+            URL_Add("Arduino Diecimila", "https://docs.arduino.cc/retired/boards/arduino-diecimila");
+
+            URL_Add("communities", "https://en.wiktionary.org/wiki/community#Noun");
+
+            URL_Add("disproportionate", "https://en.wiktionary.org/wiki/disproportionate#Adjective");
+
+            URL_Add("flagged", "https://en.wiktionary.org/wiki/flag#Verb");
+
+            URL_Add("IKEA", "https://en.wikipedia.org/wiki/IKEA");
+
+            URL_Add("pitch", "https://en.wiktionary.org/wiki/pitch#Noun");
+
+            URL_Add("regarding", "https://en.wiktionary.org/wiki/regard#Verb");
+
+            URL_Add("sandwich", "https://en.wiktionary.org/wiki/sandwich#Verb");
+
+            URL_Add("yaw", "https://en.wiktionary.org/wiki/yaw#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73244,6 +73302,8 @@ namespace OverflowHelper.core
             correctionAdd("Coffee SE_", "Coffee (Stack Exchange site)_");
             correctionAdd("Coffee_", "Coffee (Stack Exchange site)_");
             correctionAdd("coffee_", "Coffee (Stack Exchange site)_"); // Mostly to connect it to the common noun.
+
+            correctionAdd("Arduino_", "Arduino (Stack Exchange site)_");
 
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
@@ -74280,6 +74340,10 @@ namespace OverflowHelper.core
             correctionAdd("WRAP_", "Warp_");
             correctionAdd("warp_", "Warp_");
 
+            correctionAdd("vice.com_", "Vice_");
+
+            correctionAdd("Roll_", "roll_");
+
             // URL mappings
             //
             //
@@ -75170,6 +75234,12 @@ namespace OverflowHelper.core
             URL_Add("Warp_", "https://docs.warp.dev/getting-started/readme");
 
             URL_Add("Processing (tag wiki)_", "https://stackoverflow.com/questions/tagged/processing");
+
+            URL_Add("Arduino (Stack Exchange site)_", "https://arduino.stackexchange.com/tour");
+
+            URL_Add("Vice_", "https://en.wikipedia.org/wiki/Vice_(magazine)");
+
+            URL_Add("roll_", "https://en.wiktionary.org/wiki/roll#Noun");
 
         } //addLookupData_alternativeWordSet()
 
