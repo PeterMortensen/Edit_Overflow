@@ -3104,6 +3104,7 @@ namespace OverflowHelper.core
             correctionAdd("OS X 10.13", "macOS v10.13 (High Sierra)");
             correctionAdd("Mac High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("MacOs HighSierra", "macOS v10.13 (High Sierra)");
+            correctionAdd("macOS HighSierra", "macOS v10.13 (High Sierra)");
 
             correctionAdd("Mojave", "macOS v10.14 (Mojave)");
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave)");
@@ -16132,6 +16133,11 @@ namespace OverflowHelper.core
             correctionAdd("ASP Net Core", "ASP.NET Core");
             correctionAdd("ASP .Net Core", "ASP.NET Core");
             correctionAdd("Asp.netCore", "ASP.NET Core");
+            correctionAdd("ASP.Net Core MVC", "ASP.NET Core");
+            correctionAdd("ASPNet Core", "ASP.NET Core");
+            correctionAdd("ASPNet Core MVC", "ASP.NET Core");
+            correctionAdd("ASPNetCore", "ASP.NET Core");
+            correctionAdd("ASPNetCore MVC", "ASP.NET Core");
 
             correctionAdd("Rosyln", "Roslyn");
             correctionAdd("Roselyn", "Roslyn");
@@ -16730,6 +16736,8 @@ namespace OverflowHelper.core
             correctionAdd("disapointed", "disappointed");
             correctionAdd("dissapointed", "disappointed");
 
+            correctionAdd("ponted", "pointed");
+
             correctionAdd("excercise", "exercise");
             correctionAdd("excersise", "exercise");
             correctionAdd("Excersise", "exercise");
@@ -16984,6 +16992,7 @@ namespace OverflowHelper.core
             correctionAdd("k8", "Kubernetes");
 
             correctionAdd("mamp", "MAMP");
+            correctionAdd("Mamp", "MAMP");
 
             correctionAdd("Mac OS X Sierra", "Mac OS X v10.12 (Sierra)");
 
@@ -17301,6 +17310,7 @@ namespace OverflowHelper.core
             correctionAdd("initiliaze", "initialise");
             correctionAdd("intialise", "initialise");
             correctionAdd("initalized", "initialise");
+            correctionAdd("initializative", "initialise");
 
             correctionAdd("loose", "lose");
 
@@ -21032,6 +21042,7 @@ namespace OverflowHelper.core
             correctionAdd("astrix", "asterisk");
             correctionAdd("Asterik", "asterisk");
             correctionAdd("asterik", "asterisk");
+            correctionAdd("*", "asterisk");
 
             correctionAdd("cetian", "certain");
             correctionAdd("certian", "certain");
@@ -21973,6 +21984,16 @@ namespace OverflowHelper.core
             correctionAdd("Abstract Base Class", "abstract base class");
 
             correctionAdd("ammendment", "amendment");
+
+            correctionAdd("first amendment", "First Amendment");
+
+            correctionAdd("fifth amendment", "Fifth Amendment");
+
+            correctionAdd("sixth amendment", "Sixth Amendment");
+
+            correctionAdd("fourth amendment", "Fourth Amendment");
+
+            correctionAdd("third amendment", "Third Amendment");
 
             correctionAdd("eventully", "eventually");
 
@@ -22978,6 +22999,7 @@ namespace OverflowHelper.core
             correctionAdd("Systemd", "systemd");
 
             correctionAdd("wave length", "wavelength");
+            correctionAdd("Wavelength", "wavelength");
 
             correctionAdd("acceleromator", "accelerometer");
 
@@ -23441,6 +23463,7 @@ namespace OverflowHelper.core
             correctionAdd("fgtw", "fastest gun in the west");
             correctionAdd("FGitW", "fastest gun in the west");
             correctionAdd("Quick Draw McGraw", "fastest gun in the west");
+            correctionAdd("FGTIW", "fastest gun in the west");
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
@@ -27117,6 +27140,8 @@ namespace OverflowHelper.core
             correctionAdd("non sense", "nonsense");
             correctionAdd("non-sense", "nonsense");
             correctionAdd("nonsens", "nonsense");
+            correctionAdd("none-sense", "nonsense");
+            correctionAdd("nonesense", "nonsense");
 
             correctionAdd("sence", "sense");
             correctionAdd("sens", "sense");
@@ -29611,6 +29636,8 @@ namespace OverflowHelper.core
 
             correctionAdd("julia", "Julia");
 
+            // But it depends on context. E.g., there are other areas
+            // where it refers to, e.g., black-body radiation.
             correctionAdd("Kirchhoff's law", "Kirchhoff Circuit Laws");
             correctionAdd("Kirchoff's Law", "Kirchhoff Circuit Laws");
             correctionAdd("Kirkoff", "Kirchhoff Circuit Laws");
@@ -29640,6 +29667,7 @@ namespace OverflowHelper.core
             correctionAdd("KCL", "Kirchhoff Circuit Laws");
             correctionAdd("kcl", "Kirchhoff Circuit Laws");
             correctionAdd("Kirchhoff law", "Kirchhoff Circuit Laws");
+            correctionAdd("Kirchhoffs Law", "Kirchhoff Circuit Laws");
 
             correctionAdd("swiftforth", "SwiftForth");
             correctionAdd("Swiftforth", "SwiftForth");
@@ -29856,6 +29884,7 @@ namespace OverflowHelper.core
             correctionAdd("he's", "his");
 
             correctionAdd("jouce", "juice");
+            correctionAdd("Juice", "juice");
 
             correctionAdd("Kanban", "kanban");
             correctionAdd("Kannan", "kanban");
@@ -36830,8 +36859,6 @@ namespace OverflowHelper.core
             correctionAdd("non-xisting", "nonexisting");
             correctionAdd("nonxisting", "nonexisting");
 
-            correctionAdd("ponted", "pointed");
-
             correctionAdd("purposfully", "purposefully");
 
             correctionAdd("sybolic", "symbolic");
@@ -38431,6 +38458,7 @@ namespace OverflowHelper.core
             correctionAdd("TO220", "TO-220");
 
             correctionAdd("blackbody radiation", "black-body radiation");
+            correctionAdd("black body radiation", "black-body radiation");
 
             correctionAdd("emr", "electromagnetic radiation");
             correctionAdd("EMR", "electromagnetic radiation");
@@ -42750,6 +42778,7 @@ namespace OverflowHelper.core
             correctionAdd("AES 256", "AES-256");
             correctionAdd("aes-256", "AES-256");
             correctionAdd("aes 256", "AES-256");
+            correctionAdd("AES256", "AES-256");
 
             correctionAdd("APC", "Alternative PHP Cache");
 
@@ -42955,6 +42984,7 @@ namespace OverflowHelper.core
             correctionAdd("scape goat", "scapegoat");
 
             correctionAdd("open-ai", "OpenAI");
+            correctionAdd("Open AI", "OpenAI");
 
             correctionAdd("tinder", "Tinder");
 
@@ -44712,6 +44742,7 @@ namespace OverflowHelper.core
             correctionAdd("front slash", "forward slash");
             correctionAdd("forward-slash", "forward slash");
             correctionAdd("forwardslash", "forward slash");
+            correctionAdd("foward slash", "forward slash");
 
             correctionAdd("Openpyxl", "openpyxl");
 
@@ -45910,11 +45941,7 @@ namespace OverflowHelper.core
 
             correctionAdd("face to face", "face-to-face");
 
-            correctionAdd("fifth amendment", "Fifth Amendment");
-
             correctionAdd("pre recorded", "prerecorded");
-
-            correctionAdd("sixth amendment", "Sixth Amendment");
 
             correctionAdd("suddently", "suddenly");
 
@@ -46365,6 +46392,25 @@ namespace OverflowHelper.core
             correctionAdd("Webflux", "WebFlux");
 
             correctionAdd("decieve", "deceive");
+
+            correctionAdd("any body", "anybody");
+
+            correctionAdd("in the practice", "in practice");
+            correctionAdd("On the practice", "in practice");
+            correctionAdd("on the practice", "in practice");
+
+            correctionAdd("pycrypto", "PyCrypto");
+
+            correctionAdd("Cactus", "cactus");
+
+            correctionAdd("Cat5e", "Cat&nbsp;5e");
+            correctionAdd("Cat 5e", "Cat&nbsp;5e"); // Sort of identity mapping
+
+            correctionAdd("Meme", "meme");
+
+            correctionAdd("Natural Law", "natural law");
+
+            correctionAdd("tenenat", "tenant");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72850,6 +72896,28 @@ namespace OverflowHelper.core
 
             URL_Add("deceive", "https://en.wiktionary.org/wiki/deceive#Verb");
 
+            URL_Add("anybody", "https://en.wiktionary.org/wiki/anybody#Pronoun");
+
+            URL_Add("in practice", "https://en.wiktionary.org/wiki/in_practice#Prepositional_phrase");
+
+            URL_Add("PyCrypto", "https://www.pycrypto.org/");
+
+            URL_Add("cactus", "https://en.wikipedia.org/wiki/Cactus");
+
+            URL_Add("Cat&nbsp;5e", "https://en.wikipedia.org/wiki/Category_5_cable");
+
+            URL_Add("First Amendment", "https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution");
+
+            URL_Add("Fourth Amendment", "https://en.wikipedia.org/wiki/Fourth_Amendment_to_the_United_States_Constitution");
+
+            URL_Add("meme", "https://en.wiktionary.org/wiki/meme#Noun");
+
+            URL_Add("natural law", "https://en.wikipedia.org/wiki/Natural_law");
+
+            URL_Add("tenant", "https://en.wiktionary.org/wiki/tenant#Noun");
+
+            URL_Add("Third Amendment", "https://en.wikipedia.org/wiki/Third_Amendment_to_the_United_States_Constitution");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74419,11 +74487,18 @@ namespace OverflowHelper.core
             correctionAdd("LE_", "leading edge_");
 
             correctionAdd("Byte_", "Byte magazine_");
+            correctionAdd("byte_", "Byte magazine_");
 
             correctionAdd("OT_", "overtime_");
             correctionAdd("Overtime_", "overtime_");
 
             correctionAdd("TIL_", "today I learned_");
+
+            correctionAdd("cbc_", "CBC_");
+
+            correctionAdd("QS_", "qs_");
+
+            correctionAdd("pointed_", "pointed out_");
 
             // URL mappings
             //
@@ -75333,6 +75408,12 @@ namespace OverflowHelper.core
             URL_Add("Spring Boot (tag wiki)_", "https://stackoverflow.com/questions/tagged/spring-boot");
 
             URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
+
+            URL_Add("CBC_", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)");
+
+            URL_Add("qs_", "https://www.npmjs.com/package/qs");
+
+            URL_Add("pointed out_", "https://en.wiktionary.org/wiki/point_out#Verb");
 
         } //addLookupData_alternativeWordSet()
 
