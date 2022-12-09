@@ -445,6 +445,7 @@ namespace OverflowHelper.core
             correctionAdd("Windown", "Windows");
             correctionAdd("Widnows", "Windows");
             correctionAdd("winjeet", "Windows");
+            correctionAdd("Winows", "Windows");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -3823,6 +3824,41 @@ namespace OverflowHelper.core
             correctionAdd("Prototype.js", "Prototype");
             correctionAdd("prototype.js", "Prototype");
 
+            correctionAdd("Express JS", "Express.js");
+            correctionAdd("Express.JS", "Express.js");
+            correctionAdd("express.js", "Express.js");
+            correctionAdd("express", "Express.js");
+            correctionAdd("Express", "Express.js");
+            correctionAdd("expressjs", "Express.js");
+            correctionAdd("expressJs", "Express.js");
+            correctionAdd("ExpressJS", "Express.js");
+            correctionAdd("espress", "Express.js");
+            correctionAdd("express js", "Express.js");
+            correctionAdd("expressJS", "Express.js");
+            correctionAdd("proto", "Express.js");
+
+            correctionAdd("expresion", "expression");
+            correctionAdd("Expression", "expression");
+
+            correctionAdd("Prototypal", "prototypal");
+            correctionAdd("classless", "prototypal");
+            correctionAdd("instance-based", "prototypal");
+
+            correctionAdd("proptocol", "protocol");
+            correctionAdd("protocl", "protocol");
+            correctionAdd("procol", "protocol");
+
+            correctionAdd("Protobuf", "Protocol Buffers");
+            correctionAdd("protocol buffers", "Protocol Buffers");
+            correctionAdd("protobuff", "Protocol Buffers");
+            correctionAdd("protobuf", "Protocol Buffers");
+
+            correctionAdd("Protonmail", "ProtonMail");
+            correctionAdd("protonmail.com", "ProtonMail");
+            correctionAdd("Proton mail", "ProtonMail");
+
+            correctionAdd("protoyping", "prototyping");
+
             correctionAdd("Truetype", "TrueType");
 
             correctionAdd("Doctype", "DOCTYPE");
@@ -3859,6 +3895,16 @@ namespace OverflowHelper.core
             correctionAdd("definiton", "definition");
             correctionAdd("defintion", "definition");
             correctionAdd("defenition", "definition");
+
+            correctionAdd("optinal", "optional");
+            correctionAdd("optoional", "optional");
+
+            correctionAdd("optionaly", "optionally");
+            correctionAdd("Optionaly", "optionally");
+
+            correctionAdd("gcc warning options", "GCC warning options lists");
+            correctionAdd("GCC warning options", "GCC warning options lists");
+            correctionAdd("GCC options", "GCC warning options lists");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -5015,22 +5061,6 @@ namespace OverflowHelper.core
             correctionAdd("expecially", "especially");
             correctionAdd("Expecially", "especially");
             correctionAdd("espicially", "especially");
-
-            correctionAdd("Express JS", "Express.js");
-            correctionAdd("Express.JS", "Express.js");
-            correctionAdd("express.js", "Express.js");
-            correctionAdd("express", "Express.js");
-            correctionAdd("Express", "Express.js");
-            correctionAdd("expressjs", "Express.js");
-            correctionAdd("expressJs", "Express.js");
-            correctionAdd("ExpressJS", "Express.js");
-            correctionAdd("espress", "Express.js");
-            correctionAdd("express js", "Express.js");
-            correctionAdd("expressJS", "Express.js");
-            correctionAdd("proto", "Express.js");
-
-            correctionAdd("expresion", "expression");
-            correctionAdd("Expression", "expression");
 
             // Note: We currently can't support terms ending in full
             //       stop (".") (what was the reason? - SQL issues and/or
@@ -14114,12 +14144,19 @@ namespace OverflowHelper.core
             correctionAdd("oscillosope", "oscilloscope");
             correctionAdd("Osc", "oscilloscope");
 
+            correctionAdd("Cat 3", "Cat&nbsp;3");
+            correctionAdd("cat3", "Cat&nbsp;3");
+            correctionAdd("cat 3", "Cat&nbsp;3");
+
             correctionAdd("Cat 5", "Cat&nbsp;5"); // Sort of identity mapping
             correctionAdd("Cat5", "Cat&nbsp;5");
             correctionAdd("cat5", "Cat&nbsp;5");
             correctionAdd("cat 5", "Cat&nbsp;5");
             correctionAdd("CAT5", "Cat&nbsp;5");
             correctionAdd("CAT 5", "Cat&nbsp;5");
+
+            correctionAdd("Cat5e", "Cat&nbsp;5e");
+            correctionAdd("Cat 5e", "Cat&nbsp;5e"); // Sort of identity mapping
 
             correctionAdd("Cat 6", "Cat&nbsp;6"); // Sort of identity mapping
             correctionAdd("Cat6", "Cat&nbsp;6");
@@ -16761,6 +16798,8 @@ namespace OverflowHelper.core
             correctionAdd("conseuqitive", "consecutive");
             correctionAdd("consequetive", "consecutive");
             correctionAdd("consequive", "consecutive");
+            correctionAdd("Cosecutive", "consecutive");
+            correctionAdd("cosecutive", "consecutive");
 
             correctionAdd("beleive", "believe");
             correctionAdd("belive", "believe");
@@ -17671,6 +17710,7 @@ namespace OverflowHelper.core
             correctionAdd("un-till", "until");
             correctionAdd("unitll", "until"); // A true typo + a common misspelling
             correctionAdd("unlit", "until");
+            correctionAdd("untll", "until");
 
             correctionAdd("duckduckgo", "DuckDuckGo");
             correctionAdd("duck duck go", "DuckDuckGo");
@@ -19724,6 +19764,7 @@ namespace OverflowHelper.core
             correctionAdd("Importante", "important");
             correctionAdd("importante", "important");
             correctionAdd("importent", "important");
+            correctionAdd("Imp", "important");
 
             correctionAdd("intrested", "interested");
             correctionAdd("intetessered", "interested");
@@ -19976,6 +20017,7 @@ namespace OverflowHelper.core
             correctionAdd("CloudFlare", "Cloudflare");
             correctionAdd("cloudflare", "Cloudflare");
             correctionAdd("Cloudfare", "Cloudflare");
+            correctionAdd("cloud flare", "Cloudflare");
 
             correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
@@ -20826,6 +20868,15 @@ namespace OverflowHelper.core
             correctionAdd("phpmailer", "PHPMailer");
 
             correctionAdd("postfix", "Postfix");
+
+            correctionAdd("bug fix", "bugfix");
+
+            correctionAdd("sufix", "suffix");
+
+            correctionAdd("fixe", "fix");
+            correctionAdd("fic", "fix");
+            correctionAdd("FIx", "fix");
+            correctionAdd("Fix", "fix");
 
             correctionAdd("sendmail", "Sendmail");
 
@@ -24540,6 +24591,7 @@ namespace OverflowHelper.core
             correctionAdd("AF", "April fool");
             correctionAdd("APRIL FOOLS", "April fool");
             correctionAdd("APRIL FOOL", "April fool");
+            correctionAdd("1st April", "April fool");
 
             correctionAdd("cfd", "CFD");
 
@@ -26956,8 +27008,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bilion", "billion");
 
-            correctionAdd("bug fix", "bugfix");
-
             correctionAdd("concensus", "consensus");
             correctionAdd("Concensus", "consensus");
 
@@ -28040,6 +28090,7 @@ namespace OverflowHelper.core
             correctionAdd("lowercare", "lowercase");
             correctionAdd("lc", "lowercase");
             correctionAdd("lower-case", "lowercase");
+            correctionAdd("Lower Case", "lowercase");
 
             correctionAdd("any case", "in any case");
             correctionAdd("anycase", "in any case");
@@ -29192,6 +29243,7 @@ namespace OverflowHelper.core
             correctionAdd("weird syntax highlighting", "Highlight.js");
             correctionAdd("the syntax highlighter", "Highlight.js");
             correctionAdd("the weird syntax highlighter", "Highlight.js");
+            correctionAdd("syntax highlighter", "Highlight.js");
 
             correctionAdd("nim", "Nim");
             correctionAdd("nim-lang", "Nim");
@@ -30939,8 +30991,6 @@ namespace OverflowHelper.core
 
             correctionAdd("consept", "concept");
 
-            correctionAdd("Prototypal", "prototypal");
-
             correctionAdd("repectively", "respectively");
             correctionAdd("resp", "respectively");
 
@@ -31143,10 +31193,6 @@ namespace OverflowHelper.core
             correctionAdd("Language Server protocol", "Language Server Protocol");
             correctionAdd("Language Server", "Language Server Protocol");
             correctionAdd("lsp", "Language Server Protocol");
-
-            correctionAdd("proptocol", "protocol");
-            correctionAdd("protocl", "protocol");
-            correctionAdd("procol", "protocol");
 
             correctionAdd("usb hub", "USB hub");
             correctionAdd("USB Hub", "USB hub");
@@ -32704,8 +32750,6 @@ namespace OverflowHelper.core
             correctionAdd("non zero", "nonzero");
 
             correctionAdd("second class", "second-class");
-
-            correctionAdd("sufix", "suffix");
 
             correctionAdd("usbc", "USB-C");
             correctionAdd("usb-c", "USB-C");
@@ -35060,6 +35104,8 @@ namespace OverflowHelper.core
 
             correctionAdd("nowm", "now");
             correctionAdd("Nowm", "now");
+            correctionAdd("No", "now");
+            correctionAdd("Now", "now");
 
             correctionAdd("2 4", "24");
 
@@ -35887,10 +35933,6 @@ namespace OverflowHelper.core
             correctionAdd("Inverted pyramid", "inverted pyramid");
 
             correctionAdd("questionaire", "questionnaire");
-
-            correctionAdd("Cat 3", "Cat&nbsp;3");
-            correctionAdd("cat3", "Cat&nbsp;3");
-            correctionAdd("cat 3", "Cat&nbsp;3");
 
             correctionAdd("Creators Update", "Windows 10 version 1703");
             correctionAdd("creators update", "Windows 10 version 1703");
@@ -38771,11 +38813,6 @@ namespace OverflowHelper.core
 
             correctionAdd("prometheus", "Prometheus");
 
-            correctionAdd("Protobuf", "Protocol Buffers");
-            correctionAdd("protocol buffers", "Protocol Buffers");
-            correctionAdd("protobuff", "Protocol Buffers");
-            correctionAdd("protobuf", "Protocol Buffers");
-
             correctionAdd("RS422", "RS-422");
             correctionAdd("R422", "RS-422");
 
@@ -39529,10 +39566,6 @@ namespace OverflowHelper.core
             correctionAdd("fourier series", "Fourier series");
 
             correctionAdd("http/3", "HTTP/3");
-
-            correctionAdd("Protonmail", "ProtonMail");
-            correctionAdd("protonmail.com", "ProtonMail");
-            correctionAdd("Proton mail", "ProtonMail");
 
             correctionAdd("psiphon", "Psiphon");
 
@@ -40872,9 +40905,6 @@ namespace OverflowHelper.core
 
             correctionAdd("electro-dynamical", "electrodynamical");
 
-            correctionAdd("fixe", "fix");
-            correctionAdd("fic", "fix");
-
             correctionAdd("Good Luck", "good luck");
             correctionAdd("GL", "good luck");
 
@@ -42118,15 +42148,12 @@ namespace OverflowHelper.core
             correctionAdd("Oppinionated", "opinionated");
             correctionAdd("oppinionated", "opinionated");
 
-            correctionAdd("optinal", "optional");
-            correctionAdd("optoional", "optional");
-
-            correctionAdd("optionaly", "optionally");
-            correctionAdd("Optionaly", "optionally");
-
-            correctionAdd("unreal", "Unreal Engine");
-            correctionAdd("UE", "Unreal Engine");
-            correctionAdd("Unreal", "Unreal Engine");
+            correctionAdd("opinon", "opinion");
+            correctionAdd("opionion", "opinion");
+            correctionAdd("opionon", "opinion");
+            correctionAdd("oppinnion", "opinion");
+            correctionAdd("opinnion", "opinion");
+            correctionAdd("opion", "opinion");
 
             correctionAdd("my HO", "in my honest opinion");
             correctionAdd("HO", "in my honest opinion");
@@ -42134,12 +42161,14 @@ namespace OverflowHelper.core
 
             correctionAdd("In my humble opinion", "in my humble opinion");
 
-            correctionAdd("opinon", "opinion");
-            correctionAdd("opionion", "opinion");
-            correctionAdd("opionon", "opinion");
-            correctionAdd("oppinnion", "opinion");
-            correctionAdd("opinnion", "opinion");
-            correctionAdd("opion", "opinion");
+            correctionAdd("POB", "primarily opinion-based");
+
+            correctionAdd("in my not-so-humble opinion", "In my not-so-humble opinion");
+            correctionAdd("IMNSHO", "In my not-so-humble opinion");
+
+            correctionAdd("unreal", "Unreal Engine");
+            correctionAdd("UE", "Unreal Engine");
+            correctionAdd("Unreal", "Unreal Engine");
 
             correctionAdd("english", "English");
             correctionAdd("Englisch", "English");
@@ -42944,8 +42973,6 @@ namespace OverflowHelper.core
             correctionAdd("MICV", "infantry fighting vehicle");
             correctionAdd("IFV", "infantry fighting vehicle");
             correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
-
-            correctionAdd("protoyping", "prototyping");
 
             correctionAdd("examplifies", "exemplifies");
 
@@ -44683,6 +44710,7 @@ namespace OverflowHelper.core
             correctionAdd("snobish", "snobbish");
 
             correctionAdd("Dunder method", "dunder method"); // See also <https://www.pythonmorsels.com/what-are-dunder-methods/>
+            correctionAdd("dunder", "dunder method");
 
             correctionAdd("Line of Code", "line of code");
 
@@ -45039,8 +45067,6 @@ namespace OverflowHelper.core
 
             correctionAdd("loding", "loading");
 
-            correctionAdd("POB", "primarily opinion-based");
-
             correctionAdd("resuling", "resulting");
 
             correctionAdd("2NF", "second normal form");
@@ -45304,10 +45330,6 @@ namespace OverflowHelper.core
             correctionAdd("determent", "determine");
             correctionAdd("determin", "determine");
             correctionAdd("determinate", "determine");
-
-            correctionAdd("gcc warning options", "GCC warning options lists");
-            correctionAdd("GCC warning options", "GCC warning options lists");
-            correctionAdd("GCC options", "GCC warning options lists");
 
             correctionAdd("insurace", "insurance");
 
@@ -46318,6 +46340,7 @@ namespace OverflowHelper.core
             correctionAdd("GPTChat", "ChatGPT");
             correctionAdd("cgpt", "ChatGPT");
             correctionAdd("chatcpt", "ChatGPT");
+            correctionAdd("cGPT", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -46403,14 +46426,31 @@ namespace OverflowHelper.core
 
             correctionAdd("Cactus", "cactus");
 
-            correctionAdd("Cat5e", "Cat&nbsp;5e");
-            correctionAdd("Cat 5e", "Cat&nbsp;5e"); // Sort of identity mapping
-
             correctionAdd("Meme", "meme");
 
             correctionAdd("Natural Law", "natural law");
 
             correctionAdd("tenenat", "tenant");
+
+            correctionAdd("cutable", "cuttable");
+
+            correctionAdd("Ducky Shine", "Ducky Shine 7");
+
+            correctionAdd("key cap", "keycap");
+
+            correctionAdd("Winnie the Pooh", "Winnie-the-Pooh");
+
+            correctionAdd("prototype-based", "prototype-based programming");
+
+            correctionAdd("Creation", "creation");
+
+            correctionAdd("decilned", "declined");
+
+            correctionAdd("msk", "mask");
+
+            correctionAdd("adressing", "addressing");
+
+            correctionAdd("discendent", "descendant");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72918,6 +72958,28 @@ namespace OverflowHelper.core
 
             URL_Add("Third Amendment", "https://en.wikipedia.org/wiki/Third_Amendment_to_the_United_States_Constitution");
 
+            URL_Add("cuttable", "https://en.wiktionary.org/wiki/cuttable#Adjective");
+
+            URL_Add("Ducky Shine 7", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
+
+            URL_Add("keycap", "https://en.wikipedia.org/wiki/Keycap");
+
+            URL_Add("Winnie-the-Pooh", "https://en.wikipedia.org/wiki/Winnie-the-Pooh");
+
+            URL_Add("In my not-so-humble opinion", "https://en.wiktionary.org/wiki/IMNSHO#Phrase");
+
+            URL_Add("prototype-based programming", "https://en.wikipedia.org/wiki/Prototype-based_programming");
+
+            URL_Add("creation", "https://en.wiktionary.org/wiki/creation#Noun");
+
+            URL_Add("declined", "https://en.wiktionary.org/wiki/decline#Verb");
+
+            URL_Add("mask", "https://en.wiktionary.org/wiki/mask#Noun");
+
+            URL_Add("addressing", "https://en.wiktionary.org/wiki/address#Verb");
+
+            URL_Add("descendant", "https://en.wiktionary.org/wiki/descendant#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73553,9 +73615,13 @@ namespace OverflowHelper.core
             correctionAdd("if_", "IF_");
             correctionAdd("intermediate frequency_", "IF_");
 
+            // It is in the alternative word set because one of the
+            // mappings conflicts with "opion" for "opinion"...
             correctionAdd("opion_", "option_");
             correctionAdd("otpion_", "option_");
             correctionAdd("oprion_", "option_");
+            correctionAdd("Opt_", "option_");
+            correctionAdd("opt_", "option_");
 
             // UltraEdit is in the alternative word set due to
             // a conflict with "UE" (for "Unreal Engine").
@@ -74500,6 +74566,10 @@ namespace OverflowHelper.core
 
             correctionAdd("pointed_", "pointed out_");
 
+            correctionAdd("their's_", "theirs_");
+
+            correctionAdd("all_", "all()_");
+
             // URL mappings
             //
             //
@@ -75414,6 +75484,10 @@ namespace OverflowHelper.core
             URL_Add("qs_", "https://www.npmjs.com/package/qs");
 
             URL_Add("pointed out_", "https://en.wiktionary.org/wiki/point_out#Verb");
+
+            URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
+
+            URL_Add("all()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.all.html");
 
         } //addLookupData_alternativeWordSet()
 
