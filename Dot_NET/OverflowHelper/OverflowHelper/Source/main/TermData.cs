@@ -5115,6 +5115,7 @@ namespace OverflowHelper.core
             correctionAdd("SO.RU", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("RU.SE", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("RU.se", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("Russian site", "Stack Overflow на русском (Stack Exchange site)");
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
@@ -5310,6 +5311,7 @@ namespace OverflowHelper.core
             correctionAdd("i.g", "for example");
             correctionAdd("Es", "for example");
             correctionAdd("E. g", "for example");
+            correctionAdd("For exmaple", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -5525,6 +5527,7 @@ namespace OverflowHelper.core
             correctionAdd("commande", "command");
             correctionAdd("Commend", "command");
             correctionAdd("commnad", "command");
+            correctionAdd("commond", "command");
 
             correctionAdd("commandos", "commands");
             correctionAdd("commads", "commands");
@@ -6182,6 +6185,7 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("set-executionPolicy", "Set-ExecutionPolicy");
             correctionAdd("set-executionpolicy", "Set-ExecutionPolicy");
+            correctionAdd("set-ExecutionPolicy", "Set-ExecutionPolicy");
 
             // Of PowerShell...
             correctionAdd("get-wmiobject", "Get-WmiObject");
@@ -8022,6 +8026,40 @@ namespace OverflowHelper.core
             correctionAdd("definetley", "definitely");
             correctionAdd("defiently", "definitely");
 
+            correctionAdd("Unfortunatly", "unfortunately");
+            correctionAdd("unfortunatly", "unfortunately");
+            correctionAdd("unfortunatley", "unfortunately");
+            correctionAdd("unfortunatelly", "unfortunately");
+            correctionAdd("unfortunly", "unfortunately");
+            correctionAdd("unfortunalty", "unfortunately");
+            correctionAdd("unfortunetly", "unfortunately");
+            correctionAdd("Unfornunately", "unfortunately");
+            correctionAdd("unfornunately", "unfortunately");
+            correctionAdd("Unfurtunatly", "unfortunately");
+            correctionAdd("unfurtunatly", "unfortunately");
+            correctionAdd("Unfurtunately", "unfortunately");
+            correctionAdd("unfurtunately", "unfortunately");
+            correctionAdd("Unfortunatelly", "unfortunately");
+            correctionAdd("Unfortuneatly", "unfortunately");
+            correctionAdd("unfortuneatly", "unfortunately");
+            correctionAdd("Unfortunely", "unfortunately");
+            correctionAdd("unfortunely", "unfortunately");
+            correctionAdd("unfortuntately", "unfortunately");
+            correctionAdd("Unfotunately", "unfortunately");
+            correctionAdd("unfotunately", "unfortunately");
+            correctionAdd("Unfortbately", "unfortunately");
+            correctionAdd("unfortbately", "unfortunately");
+            correctionAdd("unfortnally", "unfortunately");
+            correctionAdd("unfortunally", "unfortunately");
+            correctionAdd("Unfortuantely", "unfortunately");
+            correctionAdd("unfortuantely", "unfortunately");
+            correctionAdd("Unfortunetally", "unfortunately");
+            correctionAdd("unfortunetally", "unfortunately");
+            correctionAdd("unfortunateily", "unfortunately");
+            correctionAdd("unfortunatily", "unfortunately");
+
+            correctionAdd("fortunatly", "fortunately");
+
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
 
@@ -8204,6 +8242,23 @@ namespace OverflowHelper.core
             correctionAdd("code blocks", "Code::Blocks");
             correctionAdd("code::blocks", "Code::Blocks");
             correctionAdd("code:blocks", "Code::Blocks");
+
+            correctionAdd("Hyperterminal", "HyperTerminal");
+            correctionAdd("hyperterminal", "HyperTerminal");
+            correctionAdd("Hyper Terminal", "HyperTerminal");
+
+            correctionAdd("termina", "terminal");
+            correctionAdd("termianl", "terminal");
+            correctionAdd("termial", "terminal");
+
+            correctionAdd("pseudotty", "pseudoterminal");
+            correctionAdd("PTY", "pseudoterminal");
+
+            correctionAdd("Terminal.app", "Terminal");
+
+            correctionAdd("windows terminal", "Windows Terminal");
+            correctionAdd("window's terminal", "Windows Terminal");
+            correctionAdd("Windows terminal", "Windows Terminal");
 
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
@@ -8965,6 +9020,7 @@ namespace OverflowHelper.core
             correctionAdd("code behind", "code-behind");
             correctionAdd("codebehing", "code-behind");
             correctionAdd("Codebehind", "code-behind");
+            correctionAdd("Code behind", "code-behind");
 
             correctionAdd("bcp", "BCP");
 
@@ -14418,38 +14474,6 @@ namespace OverflowHelper.core
             correctionAdd("UnetBootin", "UNetbootin");
             correctionAdd("uNetBootin", "UNetbootin");
 
-            correctionAdd("Unfortunatly", "unfortunately");
-            correctionAdd("unfortunatly", "unfortunately");
-            correctionAdd("unfortunatley", "unfortunately");
-            correctionAdd("unfortunatelly", "unfortunately");
-            correctionAdd("unfortunly", "unfortunately");
-            correctionAdd("unfortunalty", "unfortunately");
-            correctionAdd("unfortunetly", "unfortunately");
-            correctionAdd("Unfornunately", "unfortunately");
-            correctionAdd("unfornunately", "unfortunately");
-            correctionAdd("Unfurtunatly", "unfortunately");
-            correctionAdd("unfurtunatly", "unfortunately");
-            correctionAdd("Unfurtunately", "unfortunately");
-            correctionAdd("unfurtunately", "unfortunately");
-            correctionAdd("Unfortunatelly", "unfortunately");
-            correctionAdd("Unfortuneatly", "unfortunately");
-            correctionAdd("unfortuneatly", "unfortunately");
-            correctionAdd("Unfortunely", "unfortunately");
-            correctionAdd("unfortunely", "unfortunately");
-            correctionAdd("unfortuntately", "unfortunately");
-            correctionAdd("Unfotunately", "unfortunately");
-            correctionAdd("unfotunately", "unfortunately");
-            correctionAdd("Unfortbately", "unfortunately");
-            correctionAdd("unfortbately", "unfortunately");
-            correctionAdd("unfortnally", "unfortunately");
-            correctionAdd("unfortunally", "unfortunately");
-            correctionAdd("Unfortuantely", "unfortunately");
-            correctionAdd("unfortuantely", "unfortunately");
-            correctionAdd("Unfortunetally", "unfortunately");
-            correctionAdd("unfortunetally", "unfortunately");
-            correctionAdd("unfortunateily", "unfortunately");
-            correctionAdd("unfortunatily", "unfortunately");
-
             correctionAdd("beggining", "beginning");
             correctionAdd("beginng", "beginning");
             correctionAdd("begining", "beginning");
@@ -17055,6 +17079,7 @@ namespace OverflowHelper.core
             correctionAdd("firs", "first");
             correctionAdd("fisrt", "first");
             correctionAdd("firts", "first");
+            correctionAdd("furst", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -19575,6 +19600,7 @@ namespace OverflowHelper.core
             correctionAdd("extactly", "exactly");
             correctionAdd("exatly", "exactly");
             correctionAdd("exactily", "exactly");
+            correctionAdd("exactlt", "exactly");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
             correctionAdd("GRB", "gamma-ray burst");
@@ -21262,10 +21288,6 @@ namespace OverflowHelper.core
             correctionAdd("Telegram", "Telegram Messenger");
             correctionAdd("tellygram", "Telegram Messenger");
             correctionAdd("telegram", "Telegram Messenger");
-
-            correctionAdd("Hyperterminal", "HyperTerminal");
-            correctionAdd("hyperterminal", "HyperTerminal");
-            correctionAdd("Hyper Terminal", "HyperTerminal");
 
             correctionAdd("PortMon", "Portmon");
 
@@ -23423,6 +23445,7 @@ namespace OverflowHelper.core
             correctionAdd("wheather", "whether"); // Stuf with rain, snow, etc. is "weather".
             correctionAdd("Whether", "whether");
             correctionAdd("wethere", "whether");
+            correctionAdd("Wether", "whether");
 
             correctionAdd("weater", "weather");
             correctionAdd("wheater", "weather");
@@ -24468,6 +24491,8 @@ namespace OverflowHelper.core
             correctionAdd("shirof", "Alexei Shirov"); // Chess
 
             correctionAdd("held in chess", "held in check"); // Chess
+
+            correctionAdd("Nihal", "Nihal Sarin");
             //
             // End of the chess part
 
@@ -26808,6 +26833,7 @@ namespace OverflowHelper.core
             correctionAdd("Qlt", "quality");
             correctionAdd("qlt", "quality");
             correctionAdd("qualilty", "quality");
+            correctionAdd("quallity", "quality");
 
             correctionAdd("querys", "queries");
             correctionAdd("Queries", "queries");
@@ -30532,6 +30558,7 @@ namespace OverflowHelper.core
             correctionAdd("Google Chrome DevTools", "Chrome DevTools");
             correctionAdd("google-chrome-devtools", "Chrome DevTools");
             correctionAdd("chrome dev tools", "Chrome DevTools");
+            correctionAdd("dev-tools", "Chrome DevTools");
 
             correctionAdd("MBaas", "MBaaS");
 
@@ -33767,9 +33794,6 @@ namespace OverflowHelper.core
             correctionAdd("embarrashment", "embarrassment");
 
             correctionAdd("space ship", "spaceship");
-
-            correctionAdd("termina", "terminal");
-            correctionAdd("termianl", "terminal");
 
             correctionAdd("Beer-Lambert law", "Beer–Lambert law");
             correctionAdd("Beer-Lambert Law", "Beer–Lambert law");
@@ -39806,9 +39830,6 @@ namespace OverflowHelper.core
 
             correctionAdd("plane", "plain");
 
-            correctionAdd("pseudotty", "pseudoterminal");
-            correctionAdd("PTY", "pseudoterminal");
-
             correctionAdd("sub shell", "subshell");
             correctionAdd("sub-shell", "subshell");
 
@@ -39983,8 +40004,6 @@ namespace OverflowHelper.core
             correctionAdd("oklahoma", "Oklahoma");
 
             correctionAdd("Powermock", "PowerMock");
-
-            correctionAdd("Terminal.app", "Terminal");
 
             correctionAdd("carb", "carburetor");
             correctionAdd("Carburetor", "carburetor");
@@ -41099,10 +41118,6 @@ namespace OverflowHelper.core
             correctionAdd("markov chain", "Markov chain");
             correctionAdd("Markov's chain", "Markov chain");
 
-            correctionAdd("windows terminal", "Windows Terminal");
-            correctionAdd("window's terminal", "Windows Terminal");
-            correctionAdd("Windows terminal", "Windows Terminal");
-
             correctionAdd("zfs", "ZFS");
 
             correctionAdd("airmolecule", "air molecule");
@@ -41502,6 +41517,7 @@ namespace OverflowHelper.core
             correctionAdd("SO.pt", "Stack Overflow em Português");
             correctionAdd("SO - Portuguese", "Stack Overflow em Português");
             correctionAdd("PT.se", "Stack Overflow em Português");
+            correctionAdd("Portuguese site", "Stack Overflow em Português");
 
             correctionAdd("Binary Search", "binary search");
 
@@ -46455,8 +46471,6 @@ namespace OverflowHelper.core
 
             correctionAdd("anecdoctal", "anecdotal");
 
-            correctionAdd("fortunatly", "fortunately");
-
             correctionAdd("oder", "order");
 
             correctionAdd("pourposed", "purposed");
@@ -46472,6 +46486,26 @@ namespace OverflowHelper.core
 
             correctionAdd("TTYL", "talk to you later");
             correctionAdd("ttyl", "talk to you later");
+
+            // See also <https://www.lifewire.com/list-of-control-panel-applets-in-windows-2626120>
+            // for a list of control panels in Windows
+            //
+            correctionAdd("program and feature", "Programs and Features"); // Windows control panel
+
+            correctionAdd("Eco", "ecology");
+            correctionAdd("ECO", "ecology");
+            correctionAdd("eco", "ecology");
+
+            correctionAdd("Energy", "energy");
+
+            correctionAdd("Minkowski Metric", "Minkowski metric");
+
+            correctionAdd("space-time", "spacetime");
+            correctionAdd("Space Time", "spacetime");
+            correctionAdd("Space-Time", "spacetime");
+
+            correctionAdd("stress-energy tensor", "stress–energy tensor");
+            correctionAdd("Stress-Energy tensor", "stress–energy tensor");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -72997,6 +73031,20 @@ namespace OverflowHelper.core
 
             URL_Add("talk to you later", "https://en.wiktionary.org/wiki/TTYL#Phrase");
 
+            URL_Add("Programs and Features", "https://superuser.com/questions/889118");
+
+            URL_Add("Nihal Sarin", "https://en.wikipedia.org/wiki/Nihal_Sarin");
+
+            URL_Add("ecology", "https://en.wikipedia.org/wiki/Ecology");
+
+            URL_Add("energy", "https://en.wikipedia.org/wiki/Energy");
+
+            URL_Add("Minkowski metric", "https://en.wikipedia.org/wiki/Minkowski_space");
+
+            URL_Add("spacetime", "https://en.wikipedia.org/wiki/Spacetime");
+
+            URL_Add("stress–energy tensor", "https://en.wikipedia.org/wiki/Stress%E2%80%93energy_tensor");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74642,6 +74690,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Hers_", "hers_");
 
+            correctionAdd("Green_", "green_");
+
             // URL mappings
             //
             //
@@ -75586,6 +75636,8 @@ namespace OverflowHelper.core
             URL_Add("temperature_", "https://en.wiktionary.org/wiki/temperature#Noun");
 
             URL_Add("hers_", "https://en.wiktionary.org/wiki/hers#Pronoun");
+
+            URL_Add("green_", "https://en.wikipedia.org/wiki/Environmentally_friendly");
 
         } //addLookupData_alternativeWordSet()
 
