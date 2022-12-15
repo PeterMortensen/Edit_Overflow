@@ -5464,6 +5464,7 @@ namespace OverflowHelper.core
             correctionAdd("explannation", "explanation");
             correctionAdd("Expalanation", "explanation");
             correctionAdd("expalanation", "explanation");
+            correctionAdd("Explination", "explanation");
 
             correctionAdd("explainign", "explaining");
             correctionAdd("explainig", "explaining");
@@ -9495,6 +9496,7 @@ namespace OverflowHelper.core
             correctionAdd("temporatly", "temporary");
             correctionAdd("Temp", "temporary");
             correctionAdd("temporaty", "temporary");
+            correctionAdd("temporay", "temporary");
 
             correctionAdd("google-fu", "Google-fu");
             correctionAdd("google fu", "Google-fu");
@@ -9709,6 +9711,7 @@ namespace OverflowHelper.core
             correctionAdd("Linked In", "LinkedIn");
             correctionAdd("linked-in", "LinkedIn");
             correctionAdd("linkedin.com", "LinkedIn");
+            correctionAdd("LinkidIn", "LinkedIn");
 
             correctionAdd("tumblr", "Tumblr");
 
@@ -10127,6 +10130,7 @@ namespace OverflowHelper.core
             correctionAdd("points of reputation", "reputation points");
             correctionAdd("REP", "reputation points");
             correctionAdd("Rep", "reputation points");
+            correctionAdd("repuation", "reputation points");
 
             correctionAdd("squid", "Squid");
 
@@ -13099,6 +13103,9 @@ namespace OverflowHelper.core
             correctionAdd("M1", "Apple M1");
             correctionAdd("M1 Mac", "Apple M1");
 
+            correctionAdd("M2", "Apple M2");
+            correctionAdd("m2", "Apple M2");
+
             correctionAdd("Apple M1 max", "Apple M1 Max");
 
             correctionAdd("Apple M1 pro", "Apple M1 Pro");
@@ -13130,6 +13137,11 @@ namespace OverflowHelper.core
             correctionAdd("Mac Pro", "MacBook Pro M1");
 
             correctionAdd("mac mini M1", "Mac Mini (M1)");
+
+            correctionAdd("M1 Max", "M1 Max MacBook Pro");
+            correctionAdd("M1 max", "M1 Max MacBook Pro");
+
+            correctionAdd("pm2", "PM2");
 
             correctionAdd("Aptana studio", "Aptana Studio");
             correctionAdd("aptana studio", "Aptana Studio");
@@ -13514,6 +13526,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu OS", "Ubuntu");
             correctionAdd("Yuchbuntu", "Ubuntu");
             correctionAdd("Ubtu", "Ubuntu");
+            correctionAdd("Uubntu", "Ubuntu");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -15314,6 +15327,7 @@ namespace OverflowHelper.core
             correctionAdd("dosn’t", "doesn’t");
             correctionAdd("Doesn't", "doesn’t");
             correctionAdd("doent", "doesn’t");
+            correctionAdd("deson't", "doesn’t");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -15752,6 +15766,7 @@ namespace OverflowHelper.core
             correctionAdd("ackknowledge", "acknowledge");
             correctionAdd("achknowledge", "acknowledge");
             correctionAdd("acknowlegde", "acknowledge");
+            correctionAdd("acknoledge", "acknowledge");
 
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
@@ -15933,6 +15948,7 @@ namespace OverflowHelper.core
             correctionAdd("automnatically", "automatically");
             correctionAdd("otomatically", "automatically");
             correctionAdd("automaticly", "automatically");
+            correctionAdd("automatedly", "automatically");
 
             correctionAdd("Compatability", "compatibility"); // Common misspelling...
             correctionAdd("compatability", "compatibility"); // Common misspelling...
@@ -18844,6 +18860,7 @@ namespace OverflowHelper.core
 
             correctionAdd("accesible", "accessible");
             correctionAdd("accessable", "accessible");
+            correctionAdd("accesable", "accessible");
 
             correctionAdd("collumn", "column");
             correctionAdd("colum", "column");
@@ -20991,6 +21008,8 @@ namespace OverflowHelper.core
             correctionAdd("formated", "formatted");
             correctionAdd("Formated", "formatted");
             correctionAdd("Formatted", "formatted");
+            correctionAdd("formmated", "formatted");
+            correctionAdd("formmatted", "formatted");
 
             correctionAdd("Mediaeval", "mediaeval");
 
@@ -21247,6 +21266,7 @@ namespace OverflowHelper.core
             correctionAdd("sometihing", "something");
             correctionAdd("soomething", "something");
             correctionAdd("somethitg", "something");
+            correctionAdd("samething", "something");
 
             correctionAdd("every thing", "everything");
             correctionAdd("Every thing", "everything");
@@ -21491,6 +21511,7 @@ namespace OverflowHelper.core
             correctionAdd("coresponding", "corresponding");
             correctionAdd("correspondients", "corresponding");
             correctionAdd("correspnding", "corresponding");
+            correctionAdd("corresponing", "corresponding");
 
             correctionAdd("substract", "subtract");
             correctionAdd("subsrac", "subtract");
@@ -22553,6 +22574,8 @@ namespace OverflowHelper.core
             correctionAdd("Connect", "connect");
             correctionAdd("conct", "connect");
             correctionAdd("conect", "connect");
+            correctionAdd("canncect", "connect");
+            correctionAdd("conncect", "connect");
 
             correctionAdd("dissconnected", "disconnected");
 
@@ -29529,6 +29552,7 @@ namespace OverflowHelper.core
             correctionAdd("SE Asia", "Southeast Asia");
 
             correctionAdd("cross posted", "crossposted");
+            correctionAdd("Cross posted", "crossposted");
 
             correctionAdd("epi-center", "epicenter");
 
@@ -31228,6 +31252,8 @@ namespace OverflowHelper.core
             correctionAdd("modifed", "modified");
             correctionAdd("modifired", "modified");
             correctionAdd("modificated", "modified");
+            correctionAdd("modifeid", "modified");
+            correctionAdd("modififeid", "modified");
 
             correctionAdd("sayed", "said");
             correctionAdd("saids", "said");
@@ -39612,9 +39638,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ariane5", "Ariane 5");
 
-            correctionAdd("M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("M1 max", "M1 Max MacBook Pro");
-
             correctionAdd("overleaf", "Overleaf");
 
             correctionAdd("PowerQuery", "Power Query");
@@ -41968,6 +41991,8 @@ namespace OverflowHelper.core
             correctionAdd("Constructive Solid Geometry", "constructive solid geometry");
 
             correctionAdd("Marshall law", "martial law");
+            correctionAdd("Marshall Law", "martial law");
+            correctionAdd("marshall law", "martial law");
 
             correctionAdd("posthoc", "post hoc");
             correctionAdd("post-hoc", "post hoc");
@@ -42417,6 +42442,8 @@ namespace OverflowHelper.core
 
             correctionAdd("S/G", "Staging Ground");
             correctionAdd("SG", "Staging Ground");
+            correctionAdd("Staging ground", "Staging Ground");
+            correctionAdd("staging ground", "Staging Ground");
 
             correctionAdd("usb 1.x", "USB 1.x");
             correctionAdd("USB1", "USB 1.x");
@@ -43188,6 +43215,7 @@ namespace OverflowHelper.core
             correctionAdd("kaching", "cash register sound");
 
             correctionAdd("consits", "consists");
+            correctionAdd("consisits", "consists");
 
             correctionAdd("primative", "primitive");
 
@@ -45813,8 +45841,6 @@ namespace OverflowHelper.core
 
             correctionAdd("C-47", "Douglas C-47 Skytrain");
 
-            correctionAdd("pm2", "PM2");
-
             correctionAdd("protractor", "Protractor");
 
             correctionAdd("QoL", "quality of life");
@@ -46404,6 +46430,9 @@ namespace OverflowHelper.core
             correctionAdd("cgpt", "ChatGPT");
             correctionAdd("chatcpt", "ChatGPT");
             correctionAdd("cGPT", "ChatGPT");
+            correctionAdd("GPT Chat", "ChatGPT");
+            correctionAdd("GPTchat", "ChatGPT");
+            correctionAdd("gptChat", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -46592,9 +46621,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Selection Bias", "selection bias");
 
-            correctionAdd("M2", "Apple M2");
-            correctionAdd("m2", "Apple M2");
-
             correctionAdd("convo", "conversation");
 
             correctionAdd("docker io", "docker.io");
@@ -46618,6 +46644,57 @@ namespace OverflowHelper.core
             correctionAdd("honors degree", "honours degree");
             correctionAdd("Hons", "honours degree");
             correctionAdd("hons", "honours degree");
+
+            correctionAdd("small scale", "small-scale");
+
+            correctionAdd("De Bruijn index", "de Bruijn index");
+            correctionAdd("de Bruijn indices", "de Bruijn index");
+
+            correctionAdd("metacoq", "MetaCoq");
+
+            correctionAdd("the Post", "The Washington Post");
+            correctionAdd("WaPo", "The Washington Post");
+            correctionAdd("washington post", "The Washington Post");
+
+            correctionAdd("alabama", "Alabama");
+
+            correctionAdd("Answerers", "answerers");
+            correctionAdd("Answeres", "answerers");
+
+            correctionAdd("Boss", "boss");
+
+            correctionAdd("Hard Skill", "hard skill");
+
+            correctionAdd("itterating", "iterating");
+            correctionAdd("Itterating", "iterating");
+
+            correctionAdd("Material science", "material science");
+
+            correctionAdd("proccessed", "processed");
+            correctionAdd("proccesed", "processed");
+
+            correctionAdd("reanme", "rename");
+            correctionAdd("Reanme", "rename");
+
+            correctionAdd("S3 Bucket", "S3 bucket");
+
+            correctionAdd("Sales person", "salesperson");
+
+            correctionAdd("self defense", "self-defense");
+
+            correctionAdd("self image", "self-image");
+
+            correctionAdd("Skill", "skill");
+
+            correctionAdd("Stereotype", "stereotype");
+
+            correctionAdd("Kylin", "Ubuntu Kylin");
+
+            correctionAdd("ubuntu studio", "Ubuntu Studio");
+
+            correctionAdd("worst case", "worst-case");
+            correctionAdd("worest case", "worst-case");
+            correctionAdd("worrest case", "worst-case");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73211,6 +73288,48 @@ namespace OverflowHelper.core
 
             URL_Add("honours degree", "https://en.wiktionary.org/wiki/honours_degree#Noun");
 
+            URL_Add("small-scale", "https://en.wiktionary.org/wiki/small-scale#Adjective");
+
+            URL_Add("de Bruijn index", "https://en.wikipedia.org/wiki/De_Bruijn_index");
+
+            URL_Add("MetaCoq", "https://github.com/MetaCoq/metacoq");
+
+            URL_Add("The Washington Post", "https://en.wikipedia.org/wiki/The_Washington_Post");
+
+            URL_Add("Alabama", "https://en.wikipedia.org/wiki/Alabama");
+
+            URL_Add("answerers", "https://en.wiktionary.org/wiki/answerer#Noun");
+
+            URL_Add("boss", "https://en.wiktionary.org/wiki/boss#Noun");
+
+            URL_Add("hard skill", "https://en.wiktionary.org/wiki/hard_skill#Noun");
+
+            URL_Add("iterating", "https://en.wiktionary.org/wiki/iterate#Verb");
+
+            URL_Add("material science", "https://en.wikipedia.org/wiki/Materials_science");
+
+            URL_Add("processed", "https://en.wiktionary.org/wiki/process#Verb");
+
+            URL_Add("rename", "https://en.wiktionary.org/wiki/rename#Verb");
+
+            URL_Add("S3 bucket", "https://en.wikipedia.org/wiki/Amazon_S3#Design");
+
+            URL_Add("salesperson", "https://en.wiktionary.org/wiki/salesperson#Noun");
+
+            URL_Add("self-defense", "https://en.wiktionary.org/wiki/self-defense#Noun");
+
+            URL_Add("self-image", "https://en.wiktionary.org/wiki/self-image#Noun");
+
+            URL_Add("skill", "https://en.wiktionary.org/wiki/skill#Noun");
+
+            URL_Add("stereotype", "https://en.wiktionary.org/wiki/stereotype#Noun");
+
+            URL_Add("Ubuntu Kylin", "https://en.wikipedia.org/wiki/Ubuntu_Kylin");
+
+            URL_Add("Ubuntu Studio", "https://en.wikipedia.org/wiki/Ubuntu_Studio");
+
+            URL_Add("worst-case", "https://en.wiktionary.org/wiki/worst-case#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -73364,6 +73483,7 @@ namespace OverflowHelper.core
 
             correctionAdd("LESS_", "less_");
             correctionAdd("Less_", "less_");
+            correctionAdd("lees_", "less_");
 
             correctionAdd("Delta_", "Delta Air Lines_");
 
@@ -74875,6 +74995,12 @@ namespace OverflowHelper.core
             correctionAdd("oXygen_", "Oxygen XML Editor_");
             correctionAdd("oxygen_", "Oxygen XML Editor_");
 
+            correctionAdd("John Skeet_", "Jon Skeet _");
+
+            correctionAdd("third-party_", "third party_");
+
+            correctionAdd("Budgie_", "Ubuntu Budgie_");
+
             // URL mappings
             //
             //
@@ -75827,6 +75953,12 @@ namespace OverflowHelper.core
             URL_Add("Laravel (tag wiki)_", "https://stackoverflow.com/questions/tagged/laravel");
 
             URL_Add("MySQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/mysql");
+
+            URL_Add("Jon Skeet _", "https://meta.stackexchange.com/questions/9134/jon-skeet-facts");
+
+            URL_Add("third party_", "https://en.wiktionary.org/wiki/third_party#Noun");
+
+            URL_Add("Ubuntu Budgie_", "https://en.wikipedia.org/wiki/Ubuntu_Budgie");
 
         } //addLookupData_alternativeWordSet()
 
