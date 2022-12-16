@@ -842,6 +842,7 @@ namespace OverflowHelper.core
             correctionAdd("Seaborgium", "seaborgium");
 
             correctionAdd("Tungsten", "tungsten");
+            correctionAdd("wolfram", "tungsten");
 
             correctionAdd("Unbihexium", "unbihexium");
 
@@ -2825,6 +2826,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Laptop", "laptop");
             correctionAdd("lapto", "laptop");
+            correctionAdd("LapTop", "laptop");
 
             correctionAdd("FULL STOP", "full stop");
             correctionAdd("fullstop", "full stop");
@@ -4976,6 +4978,7 @@ namespace OverflowHelper.core
             correctionAdd("Maths SE", "Mathematics (Stack Exchange site)");
             correctionAdd("math", "Mathematics (Stack Exchange site)");
             correctionAdd("mathematics", "Mathematics (Stack Exchange site)");
+            correctionAdd("maths Stack Exchange site", "Mathematics (Stack Exchange site)");
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
@@ -5448,6 +5451,8 @@ namespace OverflowHelper.core
             correctionAdd("examples", "example");
             correctionAdd("Exaple", "example");
             correctionAdd("exmaples", "example");
+            correctionAdd("exampel", "example");
+            correctionAdd("exapmel", "example");
 
             correctionAdd("explaination", "explanation");
             correctionAdd("explenation", "explanation");
@@ -10684,6 +10689,7 @@ namespace OverflowHelper.core
             correctionAdd("I am", "I’m");
             correctionAdd("Ian", "I’m");
             correctionAdd("I\\m", "I’m");
+            correctionAdd("It'm", "I’m");
 
             correctionAdd("compass", "Compass"); // Conflicts?
 
@@ -11070,6 +11076,7 @@ namespace OverflowHelper.core
             correctionAdd("tl:dr", "TLDR");
             correctionAdd("TL;RD", "TLDR");
             correctionAdd("TL:DR", "TLDR");
+            correctionAdd("TlDr", "TLDR");
 
             correctionAdd("top level domain", "top-level domain");
             correctionAdd("Top Level Domain", "top-level domain");
@@ -12844,6 +12851,7 @@ namespace OverflowHelper.core
             correctionAdd("equivilant", "equivalent");
             correctionAdd("equiv", "equivalent");
             correctionAdd("equivent", "equivalent");
+            correctionAdd("equvalent", "equivalent");
 
             correctionAdd("parallels", "Parallels");
 
@@ -14859,6 +14867,7 @@ namespace OverflowHelper.core
             correctionAdd("Android version 2.3", "Android&nbsp;2.3 (Gingerbread)");
             correctionAdd("Gingerbread", "Android&nbsp;2.3 (Gingerbread)");
             correctionAdd("android 2.3", "Android&nbsp;2.3 (Gingerbread)");
+            correctionAdd("2.3", "Android&nbsp;2.3 (Gingerbread)");
 
             correctionAdd("Android 3 (Honeycomb)", "Android&nbsp;3 (Honeycomb)"); // Sort of identity mapping
             correctionAdd("Honeycomb", "Android&nbsp;3 (Honeycomb)");
@@ -14930,6 +14939,7 @@ namespace OverflowHelper.core
             correctionAdd("MarshMallow", "Android 6.0 (Marshmallow)");
             correctionAdd("Android Marshmallow", "Android 6.0 (Marshmallow)");
             correctionAdd("android 6", "Android 6.0 (Marshmallow)");
+            correctionAdd("Android M", "Android 6.0 (Marshmallow)");
 
             correctionAdd("inheritence", "inheritance");
             correctionAdd("inherittance", "inheritance");
@@ -18094,6 +18104,8 @@ namespace OverflowHelper.core
             correctionAdd("oreo", "Android 8.1 (Oreo)");
             correctionAdd("Oreo", "Android 8.1 (Oreo)");
             correctionAdd("Android 8", "Android 8.1 (Oreo)");
+            correctionAdd("Android \"O\"", "Android 8.1 (Oreo)");
+            correctionAdd("Android\"O\"", "Android 8.1 (Oreo)");
 
             correctionAdd("Android 9", "Android 9.0 (Pie)");
             correctionAdd("Android P", "Android 9.0 (Pie)");
@@ -20346,6 +20358,7 @@ namespace OverflowHelper.core
             correctionAdd("cloudflare", "Cloudflare");
             correctionAdd("Cloudfare", "Cloudflare");
             correctionAdd("cloud flare", "Cloudflare");
+            correctionAdd("cloudflair", "Cloudflare");
 
             correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
@@ -20895,6 +20908,8 @@ namespace OverflowHelper.core
             correctionAdd("probleam", "problem");
             correctionAdd("Promlem", "problem");
             correctionAdd("promlem", "problem");
+            correctionAdd("Pro-blem", "problem");
+            correctionAdd("pro-blem", "problem");
 
             correctionAdd("problemantic", "problematic");
 
@@ -24635,6 +24650,7 @@ namespace OverflowHelper.core
             correctionAdd("hallo", "hello");
             correctionAdd("hellow", "hello");
             correctionAdd("helleo", "hello");
+            correctionAdd("halo", "hello");
 
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
@@ -28189,6 +28205,7 @@ namespace OverflowHelper.core
 
             correctionAdd("before hand", "beforehand");
             correctionAdd("beforhand", "beforehand");
+            correctionAdd("beforehands", "beforehand");
 
             correctionAdd("ambersand", "ampersand");
             correctionAdd("apersand", "ampersand");
@@ -29585,6 +29602,7 @@ namespace OverflowHelper.core
             correctionAdd("liberies", "libraries");
             correctionAdd("libreries", "libraries");
             correctionAdd("Libraries", "libraries");
+            correctionAdd("librabries", "libraries");
 
             correctionAdd("blue pill", "Blue Pill");
             correctionAdd("blue-pill", "Blue Pill");
@@ -41651,6 +41669,7 @@ namespace OverflowHelper.core
             correctionAdd("copy-pasta", "copy-paste");
             correctionAdd("copy past", "copy-paste");
             correctionAdd("copy paste", "copy-paste");
+            correctionAdd("C&P", "copy-paste");
 
             correctionAdd("Currying", "currying");
 
@@ -45838,6 +45857,7 @@ namespace OverflowHelper.core
             correctionAdd("logtrail", "LogTrail");
 
             correctionAdd("annotion", "annotation");
+            correctionAdd("annotatition", "annotation");
 
             correctionAdd("C-47", "Douglas C-47 Skytrain");
 
@@ -46668,7 +46688,7 @@ namespace OverflowHelper.core
             correctionAdd("itterating", "iterating");
             correctionAdd("Itterating", "iterating");
 
-            correctionAdd("Material science", "material science");
+            correctionAdd("Material science", "materials science");
 
             correctionAdd("proccessed", "processed");
             correctionAdd("proccesed", "processed");
@@ -46695,6 +46715,40 @@ namespace OverflowHelper.core
             correctionAdd("worst case", "worst-case");
             correctionAdd("worest case", "worst-case");
             correctionAdd("worrest case", "worst-case");
+
+            correctionAdd("13", "Android 13");
+
+            correctionAdd("Faced", "faced");
+
+            correctionAdd("fanrtastic", "fantastic");
+
+            correctionAdd("hashset", "HashSet");
+
+            correctionAdd("incandescent lightbulb", "incandescent light bulb");
+
+            correctionAdd("Integrating", "integrating");
+
+            correctionAdd("jump into conclusions", "jump to conclusions");
+
+            correctionAdd("killed-off", "killed off");
+
+            correctionAdd("NoMachine Nx", "NoMachine NX");
+
+            correctionAdd("o(n)", "O(n)");
+
+            correctionAdd("over-populating", "overpopulating");
+            correctionAdd("Over populating", "overpopulating");
+            correctionAdd("over populating", "overpopulating");
+
+            correctionAdd("sentinent", "sentient");
+
+            correctionAdd("magic links", "Stack Exchange magic links");
+
+            correctionAdd("RSS feeds", "Stack Exchange RSS feeds");
+
+            correctionAdd("user profile", "Stack Exchange user profile");
+
+            correctionAdd("write-off", "write off");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73306,7 +73360,7 @@ namespace OverflowHelper.core
 
             URL_Add("iterating", "https://en.wiktionary.org/wiki/iterate#Verb");
 
-            URL_Add("material science", "https://en.wikipedia.org/wiki/Materials_science");
+            URL_Add("materials science", "https://en.wikipedia.org/wiki/Materials_science");
 
             URL_Add("processed", "https://en.wiktionary.org/wiki/process#Verb");
 
@@ -73329,6 +73383,38 @@ namespace OverflowHelper.core
             URL_Add("Ubuntu Studio", "https://en.wikipedia.org/wiki/Ubuntu_Studio");
 
             URL_Add("worst-case", "https://en.wiktionary.org/wiki/worst-case#Adjective");
+
+            URL_Add("Android 13", "https://en.wikipedia.org/wiki/Android_13");
+
+            URL_Add("faced", "https://en.wiktionary.org/wiki/face#Verb");
+
+            URL_Add("fantastic", "https://en.wiktionary.org/wiki/fantastic#Adjective");
+
+            URL_Add("HashSet", "https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html");
+
+            URL_Add("incandescent light bulb", "https://en.wikipedia.org/wiki/Incandescent_light_bulb");
+
+            URL_Add("integrating", "https://en.wiktionary.org/wiki/integrate#Verb");
+
+            URL_Add("jump to conclusions", "https://en.wiktionary.org/wiki/jump_to_conclusions#Verb");
+
+            URL_Add("killed off", "https://en.wiktionary.org/wiki/kill_off#Verb");
+
+            URL_Add("NoMachine NX", "https://en.wikipedia.org/wiki/NX_technology");
+
+            URL_Add("O(n)", "https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions");
+
+            URL_Add("overpopulating", "https://en.wiktionary.org/wiki/overpopulate#Verb");
+
+            URL_Add("sentient", "https://en.wiktionary.org/wiki/sentient#Adjective");
+
+            URL_Add("Stack Exchange magic links", "https://meta.stackexchange.com/questions/92060/add-data-se-style-magic-links-to-comments/94000#94000");
+
+            URL_Add("Stack Exchange RSS feeds", "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its");
+
+            URL_Add("Stack Exchange user profile", "https://meta.stackexchange.com/questions/332237/documentation-for-stack-exchange-engine-urls/332251#332251");
+
+            URL_Add("write off", "https://en.wiktionary.org/wiki/write_off#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -75001,6 +75087,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Budgie_", "Ubuntu Budgie_");
 
+            correctionAdd("sanskrit_", "Sanskrit_"); // It is also in the main word set. It is to have an alternative URL.
+
             // URL mappings
             //
             //
@@ -75959,6 +76047,8 @@ namespace OverflowHelper.core
             URL_Add("third party_", "https://en.wiktionary.org/wiki/third_party#Noun");
 
             URL_Add("Ubuntu Budgie_", "https://en.wikipedia.org/wiki/Ubuntu_Budgie");
+
+            URL_Add("Sanskrit_", "https://en.wiktionary.org/wiki/Sanskrit#Noun");
 
         } //addLookupData_alternativeWordSet()
 
