@@ -9729,6 +9729,7 @@ namespace OverflowHelper.core
             correctionAdd("WIKIPEDIA", "Wikipedia");
             correctionAdd("wikipeida", "Wikipedia");
             correctionAdd("Wikepedia", "Wikipedia");
+            correctionAdd("WIkipedia", "Wikipedia");
 
             correctionAdd("HAML", "Haml");
             correctionAdd("haml", "Haml");
@@ -25182,6 +25183,9 @@ namespace OverflowHelper.core
             correctionAdd("sql server 2019", "SQL Server 2019");
             correctionAdd("SQL server 2019", "SQL Server 2019");
             correctionAdd("Server 2019", "SQL Server 2019");
+            correctionAdd("MSSQL 2019 Server", "SQL Server 2019");
+            correctionAdd("SQL Server 2019 Server", "SQL Server 2019");
+            correctionAdd("SQL&nbsp;Server 2019 Server", "SQL Server 2019");
 
             correctionAdd("tco", "TCO");
 
@@ -37883,6 +37887,7 @@ namespace OverflowHelper.core
 
             correctionAdd("comma separated", "comma-separated");
             correctionAdd("comma separted", "comma-separated");
+            correctionAdd("comma seperated", "comma-separated");
 
             correctionAdd("clocsing", "closing");
             correctionAdd("Clocsing", "closing");
@@ -46742,13 +46747,25 @@ namespace OverflowHelper.core
 
             correctionAdd("sentinent", "sentient");
 
+            // Sample: [edit] in a comment (no need to
+            //         specify the exact post ID)
             correctionAdd("magic links", "Stack Exchange magic links");
 
             correctionAdd("RSS feeds", "Stack Exchange RSS feeds");
 
+            // Sample: 'current' in a URL (no need to
+            //         specify the exact user ID)
             correctionAdd("user profile", "Stack Exchange user profile");
 
             correctionAdd("write-off", "write off");
+
+            correctionAdd("collideable", "collidable");
+
+            correctionAdd("DND 5e", "Dungeons & Dragons 5th edition");
+            correctionAdd("5e", "Dungeons & Dragons 5th edition");
+            correctionAdd("D&D 5e", "Dungeons & Dragons 5th edition");
+
+            correctionAdd("shutsdown", "shuts down");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73415,6 +73432,12 @@ namespace OverflowHelper.core
             URL_Add("Stack Exchange user profile", "https://meta.stackexchange.com/questions/332237/documentation-for-stack-exchange-engine-urls/332251#332251");
 
             URL_Add("write off", "https://en.wiktionary.org/wiki/write_off#Verb");
+
+            URL_Add("collidable", "https://english.stackexchange.com/questions/11646/adjectival-form-of-collide-collideable-or-collidable");
+
+            URL_Add("Dungeons & Dragons 5th edition", "https://en.wikipedia.org/wiki/Editions_of_Dungeons_%26_Dragons#Dungeons_&_Dragons_5th_edition");
+
+            URL_Add("shuts down", "https://en.wiktionary.org/wiki/shut_down#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
