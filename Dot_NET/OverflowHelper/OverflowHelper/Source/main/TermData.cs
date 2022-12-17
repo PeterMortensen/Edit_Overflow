@@ -1620,6 +1620,7 @@ namespace OverflowHelper.core
             correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
             correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
             correctionAdd("Pyhon 3", "Python&nbsp;3");
+            correctionAdd("3.x", "Python&nbsp;3");
 
             correctionAdd("python-3.5", "Python&nbsp;3.5");
             correctionAdd("Python 3.5", "Python&nbsp;3.5"); // Sort of identity mapping
@@ -29860,6 +29861,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hightlight", "highlight");
             correctionAdd("highligh", "highlight");
+            correctionAdd("higlight", "highlight");
 
             correctionAdd("modifiy", "modify");
 
@@ -30964,6 +30966,7 @@ namespace OverflowHelper.core
             correctionAdd("december", "December");
             correctionAdd("Dec", "December");
             correctionAdd("Des", "December");
+            correctionAdd("Decb", "December");
 
             correctionAdd("eton", "Eton");
 
@@ -40207,6 +40210,8 @@ namespace OverflowHelper.core
             correctionAdd("SO Teams", "Stack Overflow for Teams");
             correctionAdd("SOfT", "Stack Overflow for Teams");
             correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
+            correctionAdd("SO for Teams", "Stack Overflow for Teams");
+            correctionAdd("SO for teams", "Stack Overflow for Teams");
 
             correctionAdd("book keeping", "bookkeeping");
             correctionAdd("book-keeping", "bookkeeping");
@@ -42976,6 +42981,7 @@ namespace OverflowHelper.core
             correctionAdd("Cipher", "cipher");
 
             correctionAdd("clea", "clear");
+            correctionAdd("clears", "clear");
 
             correctionAdd("Cryptographically Secure", "cryptographically secure");
 
@@ -46766,6 +46772,47 @@ namespace OverflowHelper.core
             correctionAdd("D&D 5e", "Dungeons & Dragons 5th edition");
 
             correctionAdd("shutsdown", "shuts down");
+
+            correctionAdd("advartised", "advertised");
+
+            correctionAdd("Associate Lecturer", "associate lecturer");
+
+            correctionAdd("Atomic Weight", "atomic weight");
+
+            correctionAdd("boron", "boron (element)");
+            correctionAdd("Boron", "boron (element)");
+
+            correctionAdd("centronics", "Centronics port");
+            correctionAdd("Centronics", "Centronics port");
+
+            correctionAdd("exceedded", "exceeded");
+            correctionAdd("excedded", "exceeded");
+
+            correctionAdd("HoD", "head of department");
+
+            correctionAdd("head-hunted", "headhunted");
+
+            correctionAdd("interin", "interim");
+
+            correctionAdd("MA", "Master of Arts");
+
+            correctionAdd("oganesson", "oganesson (element)");
+            correctionAdd("Oganesson", "oganesson (element)");
+
+            correctionAdd("in good terms", "on good terms");
+
+            correctionAdd("Out of band", "out-of-band");
+            correctionAdd("out of band", "out-of-band");
+
+            correctionAdd("Periodic Table", "periodic table");
+
+            correctionAdd("re installed", "reinstalled");
+
+            correctionAdd("right most", "right-most");
+
+            correctionAdd("sorted", "sorted()");
+
+            correctionAdd("second-hand", "secondhand");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73439,6 +73486,42 @@ namespace OverflowHelper.core
 
             URL_Add("shuts down", "https://en.wiktionary.org/wiki/shut_down#Verb");
 
+            URL_Add("advertised", "https://en.wiktionary.org/wiki/advertise#Verb");
+
+            URL_Add("associate lecturer", "https://en.wikipedia.org/wiki/Lecturer#Uses_around_the_world");
+
+            URL_Add("atomic weight", "https://en.wikipedia.org/wiki/Relative_atomic_mass");
+
+            URL_Add("boron (element)", "https://en.wikipedia.org/wiki/Boron");
+
+            URL_Add("Centronics port", "https://en.wikipedia.org/wiki/IEEE_1284");
+
+            URL_Add("exceeded", "https://en.wiktionary.org/wiki/exceed#Verb");
+
+            URL_Add("head of department", "https://en.wikipedia.org/wiki/Management");
+
+            URL_Add("headhunted", "https://en.wiktionary.org/wiki/headhunt#Verb");
+
+            URL_Add("interim", "https://en.wiktionary.org/wiki/interim#Adjective");
+
+            URL_Add("Master of Arts", "https://en.wikipedia.org/wiki/Master_of_Arts");
+
+            URL_Add("oganesson (element)", "https://en.wikipedia.org/wiki/Oganesson");
+
+            URL_Add("on good terms", "https://en.wiktionary.org/wiki/on_good_terms#Prepositional_phrase");
+
+            URL_Add("out-of-band", "https://en.wiktionary.org/wiki/out-of-band#Adjective");
+
+            URL_Add("periodic table", "https://en.wikipedia.org/wiki/Periodic_table");
+
+            URL_Add("reinstalled", "https://en.wiktionary.org/wiki/reinstall#Verb");
+
+            URL_Add("right-most", "https://en.wiktionary.org/wiki/rightmost#Adjective");
+
+            URL_Add("sorted()", "https://docs.python.org/3/library/functions.html?highlight=sorted#sorted");
+
+            URL_Add("secondhand", "https://en.wiktionary.org/wiki/secondhand#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -75112,6 +75195,11 @@ namespace OverflowHelper.core
 
             correctionAdd("sanskrit_", "Sanskrit_"); // It is also in the main word set. It is to have an alternative URL.
 
+            correctionAdd("element_", "chemical element_");
+            correctionAdd("Element_", "chemical element_");
+
+            correctionAdd("List Comprehension_", "list comprehension_");
+
             // URL mappings
             //
             //
@@ -76072,6 +76160,10 @@ namespace OverflowHelper.core
             URL_Add("Ubuntu Budgie_", "https://en.wikipedia.org/wiki/Ubuntu_Budgie");
 
             URL_Add("Sanskrit_", "https://en.wiktionary.org/wiki/Sanskrit#Noun");
+
+            URL_Add("chemical element_", "https://en.wikipedia.org/wiki/Chemical_element");
+
+            URL_Add("list comprehension_", "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions");
 
         } //addLookupData_alternativeWordSet()
 
