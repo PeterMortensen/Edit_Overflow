@@ -1806,6 +1806,7 @@ namespace OverflowHelper.core
             correctionAdd("somwhere", "somewhere");
             correctionAdd("someplace", "somewhere");
             correctionAdd("some place", "somewhere");
+            correctionAdd("somehwere", "somewhere");
 
             correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
 
@@ -5858,6 +5859,7 @@ namespace OverflowHelper.core
             correctionAdd("ANSI color sequence", "ANSI escape code");
             correctionAdd("ANSI color escape sequence", "ANSI escape code");
             correctionAdd("ANSI escape sequence", "ANSI escape code");
+            correctionAdd("ANSI esc", "ANSI escape code");
 
             correctionAdd("avocode", "Avocode");
 
@@ -28005,6 +28007,7 @@ namespace OverflowHelper.core
             correctionAdd("coulld", "could");
             correctionAdd("coud", "could");
             correctionAdd("cpuld", "could");
+            correctionAdd("coult", "could");
 
             correctionAdd("in-tact", "intact");
             correctionAdd("in tact", "intact");
@@ -35196,6 +35199,7 @@ namespace OverflowHelper.core
 
             correctionAdd("complicate", "complicated");
             correctionAdd("complicative", "complicated");
+            correctionAdd("compilicated", "complicated");
 
             correctionAdd("Performance Improvement Plan", "performance improvement plan");
 
@@ -39032,6 +39036,7 @@ namespace OverflowHelper.core
             correctionAdd("traped", "trapped");
 
             correctionAdd("VLQ", "very low quality");
+            correctionAdd("Very Low Quality", "very low quality");
 
             correctionAdd("prometheus", "Prometheus");
 
@@ -42597,6 +42602,7 @@ namespace OverflowHelper.core
             correctionAdd("low quality answers", "Low quality answers review queue");
             correctionAdd("Low quality posts", "Low quality answers review queue");
             correctionAdd("low quality answers queue", "Low quality answers review queue");
+            correctionAdd("LQA", "Low quality answers review queue");
 
             correctionAdd("unity", "Unity");
 
@@ -46895,6 +46901,13 @@ namespace OverflowHelper.core
             correctionAdd("Simplex Algorithm", "simplex algorithm");
 
             correctionAdd("un-related", "unrelated");
+
+            correctionAdd("cove", "covered");
+
+            correctionAdd("Yahoo pipe", "Yahoo Pipes");
+            correctionAdd("Pipes", "Yahoo Pipes");
+            correctionAdd("Yahoo! Pipes", "Yahoo Pipes");
+            correctionAdd("Yahoo! pipe", "Yahoo Pipes");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73642,6 +73655,10 @@ namespace OverflowHelper.core
 
             URL_Add("Woodworking (Stack Exchange site)", "https://woodworking.stackexchange.com/tour");
 
+            URL_Add("covered", "https://en.wiktionary.org/wiki/cover#Verb");
+
+            URL_Add("Yahoo Pipes", "https://en.wikipedia.org/wiki/Yahoo!_Pipes");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74175,6 +74192,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Open Source SE_", "Open Source (Stack Exchange site)_");
             correctionAdd("Open Source_", "Open Source (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("open source_", "Open Source (Stack Exchange site)_");
 
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
@@ -75337,6 +75355,8 @@ namespace OverflowHelper.core
             correctionAdd("datawarehouse_", "data warehouse_");
             correctionAdd("enterprise data warehouse_", "data warehouse_");
 
+            correctionAdd("currenty_", "current_");
+
             // URL mappings
             //
             //
@@ -76307,6 +76327,8 @@ namespace OverflowHelper.core
             URL_Add("Home Improvement (Stack Exchange site)_", "https://diy.stackexchange.com/tour");
 
             URL_Add("Open Source (Stack Exchange site)_", "https://opensource.stackexchange.com/tour");
+
+            URL_Add("current_", "https://en.wiktionary.org/wiki/current#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
