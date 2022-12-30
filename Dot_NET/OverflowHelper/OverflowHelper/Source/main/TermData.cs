@@ -1033,6 +1033,21 @@ namespace OverflowHelper.core
 
             correctionAdd("replaceAll", "replaceAll()");
 
+            correctionAdd("ER model", "entity–relationship model");
+            correctionAdd("ER", "entity–relationship model");
+            correctionAdd("Entity Relationship", "entity–relationship model");
+            correctionAdd("Entity Relationship diagram", "entity–relationship model");
+            correctionAdd("er", "entity–relationship model");
+
+            correctionAdd("entity-relation diagram", "entity–relationship diagram");
+            correctionAdd("ER-Diagram", "entity–relationship diagram");
+            correctionAdd("ER Diagram", "entity–relationship diagram");
+            correctionAdd("ER diagram", "entity–relationship diagram");
+            correctionAdd("Entity-relation diagram", "entity–relationship diagram");
+            correctionAdd("ERD", "entity–relationship diagram");
+
+            correctionAdd("enterprise resource planning", "ERP");
+
             correctionAdd("html_entity_decode", "html_entity_decode()"); // PHP function
 
             correctionAdd("explode", "explode()"); // PHP function
@@ -4923,6 +4938,7 @@ namespace OverflowHelper.core
             correctionAdd("Web Applications", "Web Applications (Stack Exchange site)");
             correctionAdd("web applications", "Web Applications (Stack Exchange site)");
             correctionAdd("WebApps.SE", "Web Applications (Stack Exchange site)");
+            correctionAdd("webapps", "Web Applications (Stack Exchange site)");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
@@ -8987,6 +9003,7 @@ namespace OverflowHelper.core
 
             correctionAdd("full stack developer", "full-stack developer");
             correctionAdd("full stack web developer", "full-stack developer");
+            correctionAdd("fullstack developer", "full-stack developer");
 
             correctionAdd("web-developer", "web developer");
 
@@ -14266,6 +14283,18 @@ namespace OverflowHelper.core
             correctionAdd("guarante", "guarantee");
             correctionAdd("gurantee", "guarantee");
 
+            correctionAdd("guarantied", "guaranteed");
+            correctionAdd("guarantueed", "guaranteed");
+            correctionAdd("guarangteed", "guaranteed");
+            correctionAdd("guaranted", "guaranteed");
+            correctionAdd("guraranteed", "guaranteed");
+            correctionAdd("guarateed", "guaranteed");
+            correctionAdd("guaratneed", "guaranteed");
+
+            correctionAdd("guarantuees", "guarantees");
+
+            correctionAdd("guaranteaing", "guaranteeing");
+
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
             correctionAdd("eeProm", "EEPROM");
@@ -15929,6 +15958,7 @@ namespace OverflowHelper.core
             correctionAdd("donwgrades", "downvote");
             correctionAdd("downgrade", "downvote");
             correctionAdd("downgrades", "downvote");
+            correctionAdd("Down-Vote", "downvote");
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
@@ -20606,6 +20636,7 @@ namespace OverflowHelper.core
             correctionAdd("acomplish", "accomplish");
             correctionAdd("accmplish", "accomplish");
             correctionAdd("accomplush", "accomplish");
+            correctionAdd("acccomplish", "accomplish");
 
             correctionAdd("alineation", "alienation");
 
@@ -21642,8 +21673,6 @@ namespace OverflowHelper.core
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
-            correctionAdd("enterprise resource planning", "ERP");
-
             correctionAdd("uwp", "UWP");
             correctionAdd("Universal Windows Platform", "UWP");
 
@@ -21892,14 +21921,6 @@ namespace OverflowHelper.core
             correctionAdd("tranformation", "transformation");
 
             correctionAdd("welcomness", "welcomeness");
-
-            correctionAdd("guarantied", "guaranteed");
-            correctionAdd("guarantueed", "guaranteed");
-            correctionAdd("guarangteed", "guaranteed");
-            correctionAdd("guaranted", "guaranteed");
-            correctionAdd("guraranteed", "guaranteed");
-            correctionAdd("guarateed", "guaranteed");
-            correctionAdd("guaratneed", "guaranteed");
 
             correctionAdd("GlassDoor", "Glassdoor");
             correctionAdd("glass door", "Glassdoor");
@@ -22490,8 +22511,6 @@ namespace OverflowHelper.core
 
             correctionAdd("full fledged", "full-fledged");
 
-            correctionAdd("guarantuees", "guarantees");
-
             correctionAdd("heatsink", "heat sink");
 
             correctionAdd("limitter", "limiter");
@@ -22798,6 +22817,7 @@ namespace OverflowHelper.core
             correctionAdd("Spell checker", "spell checker");
             correctionAdd("spelling checker", "spell checker");
             correctionAdd("Spellchecker", "spell checker");
+            correctionAdd("spelllchecker", "spell checker");
 
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
@@ -28793,6 +28813,7 @@ namespace OverflowHelper.core
             correctionAdd("ftw", "for the win");
 
             correctionAdd("improvment", "improvement");
+            correctionAdd("improment", "improvement");
 
             correctionAdd("targeet", "target");
             correctionAdd("taget", "target");
@@ -30896,6 +30917,7 @@ namespace OverflowHelper.core
             correctionAdd("sme", "subject-matter expert");
             correctionAdd("Subject Matter Expert", "subject-matter expert");
             correctionAdd("expert-matter", "subject-matter expert");
+            correctionAdd("subject matter expert", "subject-matter expert");
 
             correctionAdd("sub string", "substring");
             correctionAdd("subsrting", "substring");
@@ -33835,12 +33857,6 @@ namespace OverflowHelper.core
             correctionAdd("code-monkey", "code monkey");
 
             correctionAdd("condusive", "conducive");
-
-            correctionAdd("ER model", "entity–relationship model");
-            correctionAdd("ER", "entity–relationship model");
-            correctionAdd("Entity Relationship", "entity–relationship model");
-            correctionAdd("Entity Relationship diagram", "entity–relationship model");
-            correctionAdd("er", "entity–relationship model");
 
             correctionAdd("roadmap", "road map");
 
@@ -41917,13 +41933,6 @@ namespace OverflowHelper.core
 
             correctionAdd("trisquel", "Trisquel");
 
-            correctionAdd("entity-relation diagram", "entity–relationship diagram");
-            correctionAdd("ER-Diagram", "entity–relationship diagram");
-            correctionAdd("ER Diagram", "entity–relationship diagram");
-            correctionAdd("ER diagram", "entity–relationship diagram");
-            correctionAdd("Entity-relation diagram", "entity–relationship diagram");
-            correctionAdd("ERD", "entity–relationship diagram");
-
             correctionAdd("higher res", "higher-resolution");
             correctionAdd("higher-res", "higher-resolution");
 
@@ -42185,6 +42194,7 @@ namespace OverflowHelper.core
             correctionAdd("Cryptographically", "cryptographically");
 
             correctionAdd("squire bracket", "square bracket");
+            correctionAdd("bracket square", "square bracket");
 
             correctionAdd("pscredential", "PSCredential");
 
@@ -46299,6 +46309,7 @@ namespace OverflowHelper.core
             correctionAdd("multiplies", "multiplications");
 
             correctionAdd("Multiply", "multiply");
+            correctionAdd("mutliply", "multiply");
 
             correctionAdd("Tensor Cores", "Tensor cores");
 
@@ -46552,6 +46563,7 @@ namespace OverflowHelper.core
             correctionAdd("openchat GPT", "ChatGPT");
             correctionAdd("openchat gpt", "ChatGPT");
             correctionAdd("openchatGPT", "ChatGPT");
+            correctionAdd("open chat GPT", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -46964,8 +46976,6 @@ namespace OverflowHelper.core
 
             correctionAdd("finial", "final");
 
-            correctionAdd("guaranteaing", "guaranteeing");
-
             correctionAdd("IRL", "in real life");
 
             correctionAdd("preceived", "perceived");
@@ -46990,6 +47000,9 @@ namespace OverflowHelper.core
             correctionAdd("SIP", "System Integrity Protection");
 
             correctionAdd("weasel wording", "weasel word");
+
+            correctionAdd("JMF", "Java Media Framework");
+            correctionAdd("jmf", "Java Media Framework");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73777,6 +73790,8 @@ namespace OverflowHelper.core
 
             URL_Add("weasel word", "https://en.wikipedia.org/wiki/Weasel_word#Forms");
 
+            URL_Add("Java Media Framework", "https://en.wikipedia.org/wiki/Java_Media_Framework");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -75485,6 +75500,13 @@ namespace OverflowHelper.core
             correctionAdd("fugitive.vim_", "Fugitive_");
             correctionAdd("fugitive_", "Fugitive_");
 
+            correctionAdd("[tag:react]_", "React (tag wiki)_");
+            correctionAdd("react_", "React (tag wiki)_");
+            correctionAdd("React_", "React (tag wiki)_");
+            correctionAdd("reactjs_", "React (tag wiki)_");
+
+            correctionAdd("Blender_", "Blender (Stack Exchange site)_");
+
             // URL mappings
             //
             //
@@ -76463,6 +76485,10 @@ namespace OverflowHelper.core
             URL_Add("read_", "https://en.wikipedia.org/wiki/Read_(Unix)");
 
             URL_Add("Fugitive_", "https://github.com/tpope/vim-fugitive");
+
+            URL_Add("React (tag wiki)_", "https://stackoverflow.com/questions/tagged/react");
+
+            URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
