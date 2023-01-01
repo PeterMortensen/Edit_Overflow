@@ -3440,6 +3440,8 @@ namespace OverflowHelper.core
             correctionAdd("MNIST dataset", "MNIST data set");
             correctionAdd("MNIST database", "MNIST data set");
             correctionAdd("Mnist", "MNIST data set");
+            correctionAdd("MNST", "MNIST data set");
+            correctionAdd("MNST dataset", "MNIST data set");
 
             correctionAdd("Armstrong rules", "Armstrong's axioms");
 
@@ -3707,6 +3709,8 @@ namespace OverflowHelper.core
             correctionAdd("Null Coalescing operator", "null coalescing operator");
             correctionAdd("Null coalescing operator", "null coalescing operator");
             correctionAdd("Null Coalescing Operator", "null coalescing operator");
+            correctionAdd("Nullish Coalescing Operator", "null coalescing operator");
+            correctionAdd("nullish coalescing operator", "null coalescing operator");
 
             correctionAdd("Binary operator", "binary operator");
 
@@ -4033,6 +4037,7 @@ namespace OverflowHelper.core
             correctionAdd("express js", "Express.js");
             correctionAdd("expressJS", "Express.js");
             correctionAdd("proto", "Express.js");
+            correctionAdd("expres.js", "Express.js");
 
             correctionAdd("expresion", "expression");
             correctionAdd("Expression", "expression");
@@ -4243,6 +4248,74 @@ namespace OverflowHelper.core
             correctionAdd("Parens", "parentheses");
             correctionAdd("parans", "parentheses");
             correctionAdd("parenthesces", "parentheses");
+
+            correctionAdd("state-variable", "state variable");
+
+            correctionAdd("var", "variable");
+            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
+            correctionAdd("varialbe", "variable");
+            correctionAdd("varibale", "variable");
+            correctionAdd("variabe", "variable");
+            correctionAdd("valiarble", "variable");
+            correctionAdd("varible", "variable");
+            correctionAdd("variales", "variable");
+            correctionAdd("varaible", "variable");
+            correctionAdd("vailble", "variable");
+            correctionAdd("varialble", "variable");
+            correctionAdd("varable", "variable");
+            correctionAdd("variabel", "variable");
+            correctionAdd("Variabile", "variable");
+            correctionAdd("variabile", "variable");
+            correctionAdd("vaibles", "variable");
+            correctionAdd("vaible", "variable");
+            correctionAdd("vairiables", "variable");
+            correctionAdd("vairable", "variable");
+            correctionAdd("variabes", "variable");
+            correctionAdd("VARABLE", "variable");
+            correctionAdd("Varialbe", "variable");
+            correctionAdd("varaibles", "variable");
+            correctionAdd("vraiable", "variable");
+            correctionAdd("Variable", "variable");
+            correctionAdd("variale", "variable");
+            correctionAdd("Vairable", "variable");
+            correctionAdd("Var", "variable");
+            correctionAdd("vaiable", "variable");
+            correctionAdd("variablr", "variable");
+            correctionAdd("varrible", "variable");
+
+            correctionAdd("env var", "environment variable");
+            correctionAdd("Env Var", "environment variable");
+            correctionAdd("ENV-Variable", "environment variable");
+            correctionAdd("envar", "environment variable");
+            correctionAdd("envionmental variable", "environment variable");
+            correctionAdd("Environment Variable", "environment variable");
+            correctionAdd("ENV var", "environment variable");
+            correctionAdd("env variable", "environment variable");
+            correctionAdd("environemt variable", "environment variable");
+            correctionAdd("environement variable", "environment variable");
+            correctionAdd("environment var", "environment variable");
+            correctionAdd("env. variable", "environment variable");
+            correctionAdd("Environment variable", "environment variable");
+            correctionAdd("env's variable", "environment variable");
+            correctionAdd("ENV variable", "environment variable");
+            correctionAdd("envvar", "environment variable");
+            correctionAdd("Environment variables", "environment variable");
+            correctionAdd("environment variables", "environment variable");
+            correctionAdd("env vars", "environment variable");
+            correctionAdd("ENV VARIABLE", "environment variable");
+            correctionAdd("environments vars", "environment variable");
+            correctionAdd("environment vars", "environment variable");
+            correctionAdd("environments var", "environment variable");
+            correctionAdd("env. var", "environment variable");
+            correctionAdd("Env variable", "environment variable");
+            correctionAdd("Environmental variable", "environment variable");
+            correctionAdd("environmental variable", "environment variable");
+            correctionAdd("Enviornment variable", "environment variable");
+            correctionAdd("enviornment variable", "environment variable");
+            correctionAdd("enviroment variable", "environment variable");
+            correctionAdd("environment-variable", "environment variable");
+            correctionAdd("ENV vars", "environment variable");
+            correctionAdd("environment varrible", "environment variable");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -4752,6 +4825,7 @@ namespace OverflowHelper.core
             correctionAdd("IE11", "Internet&nbsp;Explorer&nbsp;11");
             correctionAdd("Internet&nbsp;Explorer 11", "Internet&nbsp;Explorer&nbsp;11");
             correctionAdd("Internet Explorer 11", "Internet&nbsp;Explorer&nbsp;11"); // Effectively self (line-breaks)
+            correctionAdd("MS IE 11", "Internet&nbsp;Explorer&nbsp;11");
 
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
@@ -5028,6 +5102,7 @@ namespace OverflowHelper.core
             correctionAdd("mathematics", "Mathematics (Stack Exchange site)");
             correctionAdd("maths Stack Exchange site", "Mathematics (Stack Exchange site)");
             correctionAdd("math-stack", "Mathematics (Stack Exchange site)");
+            correctionAdd("math.stackexchange.com", "Mathematics (Stack Exchange site)");
 
             correctionAdd("mathematica", "Mathematica");
             correctionAdd("Mma", "Mathematica");
@@ -5816,6 +5891,7 @@ namespace OverflowHelper.core
             correctionAdd("CODE", "Visual Studio Code");
             correctionAdd("VS_Code", "Visual Studio Code");
             correctionAdd("VS Core", "Visual Studio Code");
+            correctionAdd("Visual code", "Visual Studio Code");
 
             correctionAdd("url encode", "URL encode");
             correctionAdd("URL-encode", "URL encode");
@@ -5916,71 +5992,7 @@ namespace OverflowHelper.core
             correctionAdd("ablr", "able");
             correctionAdd("a be", "able");
 
-            correctionAdd("state-variable", "state variable");
-
-            correctionAdd("var", "variable");
-            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
-            correctionAdd("varialbe", "variable");
-            correctionAdd("varibale", "variable");
-            correctionAdd("variabe", "variable");
-            correctionAdd("valiarble", "variable");
-            correctionAdd("varible", "variable");
-            correctionAdd("variales", "variable");
-            correctionAdd("varaible", "variable");
-            correctionAdd("vailble", "variable");
-            correctionAdd("varialble", "variable");
-            correctionAdd("varable", "variable");
-            correctionAdd("variabel", "variable");
-            correctionAdd("Variabile", "variable");
-            correctionAdd("variabile", "variable");
-            correctionAdd("vaibles", "variable");
-            correctionAdd("vaible", "variable");
-            correctionAdd("vairiables", "variable");
-            correctionAdd("vairable", "variable");
-            correctionAdd("variabes", "variable");
-            correctionAdd("VARABLE", "variable");
-            correctionAdd("Varialbe", "variable");
-            correctionAdd("varaibles", "variable");
-            correctionAdd("vraiable", "variable");
-            correctionAdd("Variable", "variable");
-            correctionAdd("variale", "variable");
-            correctionAdd("Vairable", "variable");
-            correctionAdd("Var", "variable");
-            correctionAdd("vaiable", "variable");
-            correctionAdd("variablr", "variable");
-
-            correctionAdd("env var", "environment variable");
-            correctionAdd("Env Var", "environment variable");
-            correctionAdd("ENV-Variable", "environment variable");
-            correctionAdd("envar", "environment variable");
-            correctionAdd("envionmental variable", "environment variable");
-            correctionAdd("Environment Variable", "environment variable");
-            correctionAdd("ENV var", "environment variable");
-            correctionAdd("env variable", "environment variable");
-            correctionAdd("environemt variable", "environment variable");
-            correctionAdd("environement variable", "environment variable");
-            correctionAdd("environment var", "environment variable");
-            correctionAdd("env. variable", "environment variable");
-            correctionAdd("Environment variable", "environment variable");
-            correctionAdd("env's variable", "environment variable");
-            correctionAdd("ENV variable", "environment variable");
-            correctionAdd("envvar", "environment variable");
-            correctionAdd("Environment variables", "environment variable");
-            correctionAdd("environment variables", "environment variable");
-            correctionAdd("env vars", "environment variable");
-            correctionAdd("ENV VARIABLE", "environment variable");
-            correctionAdd("environments vars", "environment variable");
-            correctionAdd("environment vars", "environment variable");
-            correctionAdd("environments var", "environment variable");
-            correctionAdd("env. var", "environment variable");
-            correctionAdd("Env variable", "environment variable");
-            correctionAdd("Environmental variable", "environment variable");
-            correctionAdd("environmental variable", "environment variable");
-            correctionAdd("Enviornment variable", "environment variable");
-            correctionAdd("enviornment variable", "environment variable");
-            correctionAdd("enviroment variable", "environment variable");
-            correctionAdd("environment-variable", "environment variable");
-            correctionAdd("ENV vars", "environment variable");
+            correctionAdd("DISPLAY", "DISPLAY environment variable");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -6123,6 +6135,19 @@ namespace OverflowHelper.core
             correctionAdd("trust-able", "trustable");
 
             correctionAdd("uncoutable", "uncountable");
+
+            correctionAdd("propery", "property");
+            correctionAdd("proprty", "property");
+            correctionAdd("porperty", "property");
+            correctionAdd("prop", "property");
+            correctionAdd("Property", "property");
+            correctionAdd("propertry", "property");
+
+            correctionAdd("properities", "properties");
+            correctionAdd("properites", "properties");
+            correctionAdd("props", "properties");
+            correctionAdd("properies", "properties");
+            correctionAdd("propreties", "properties");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -7418,6 +7443,7 @@ namespace OverflowHelper.core
             correctionAdd("Atmega 32u4", "ATmega32U4");
             correctionAdd("ATmega 32u4", "ATmega32U4");
             correctionAdd("ATmega 32U4", "ATmega32U4");
+            correctionAdd("Atmega32u4", "ATmega32U4");
 
             correctionAdd("Atmega16U2", "ATmega16U2");
             correctionAdd("ATMEGA16U2", "ATmega16U2");
@@ -13555,6 +13581,7 @@ namespace OverflowHelper.core
             correctionAdd("Aritifical Intellegence", "artificial intelligence");
             correctionAdd("Artificial Intelligence", "artificial intelligence");
             correctionAdd("Ai", "artificial intelligence");
+            correctionAdd("A.I", "artificial intelligence");
 
             correctionAdd("dvd", "DVD");
 
@@ -16613,6 +16640,7 @@ namespace OverflowHelper.core
             correctionAdd("tensor-flow", "TensorFlow");
             correctionAdd("TF", "TensorFlow");
             correctionAdd("tf", "TensorFlow");
+            correctionAdd("TensorFLow", "TensorFlow");
 
             correctionAdd("retrive", "retrieve");
             correctionAdd("retreive", "retrieve");
@@ -19325,6 +19353,7 @@ namespace OverflowHelper.core
             correctionAdd("with in", "within");
             correctionAdd("w/in", "within");
             correctionAdd("withing", "within");
+            correctionAdd("whithin", "within");
 
             correctionAdd("warry", "worry");
             correctionAdd("wory", "worry");
@@ -20762,18 +20791,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pronon", "pronoun");
 
-            correctionAdd("propery", "property");
-            correctionAdd("proprty", "property");
-            correctionAdd("porperty", "property");
-            correctionAdd("prop", "property");
-            correctionAdd("Property", "property");
-
-            correctionAdd("properities", "properties");
-            correctionAdd("properites", "properties");
-            correctionAdd("props", "properties");
-            correctionAdd("properies", "properties");
-            correctionAdd("propreties", "properties");
-
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
             correctionAdd("Quantum Mechanics", "quantum mechanics");
@@ -21878,6 +21895,20 @@ namespace OverflowHelper.core
             correctionAdd("foldr", "folder");
             correctionAdd("fodler", "folder");
             correctionAdd("Folder", "folder");
+            correctionAdd("folrer", "folder");
+            correctionAdd("forler", "folder");
+
+            correctionAdd("sub folder", "subfolder");
+            correctionAdd("sub-folder", "subfolder");
+
+            correctionAdd("`node_modules`", "node_modules folder");
+            correctionAdd("node_modules", "node_modules folder");
+            correctionAdd("node_module", "node_modules folder");
+            correctionAdd("node moduals", "node_modules folder");
+            correctionAdd("Node_modules", "node_modules folder");
+            correctionAdd("node modules", "node_modules folder");
+            correctionAdd("node-moduales", "node_modules folder");
+            correctionAdd("node-modules", "node_modules folder");
 
             correctionAdd("highligting", "highlighting");
             correctionAdd("highligthting", "highlighting");
@@ -22237,6 +22268,7 @@ namespace OverflowHelper.core
 
             correctionAdd("vocabolary", "vocabulary");
             correctionAdd("vocab", "vocabulary");
+            correctionAdd("vocaburary", "vocabulary");
 
             correctionAdd("oom", "OOM");
 
@@ -27290,6 +27322,7 @@ namespace OverflowHelper.core
             correctionAdd("complile", "compile");
             correctionAdd("coompile", "compile");
             correctionAdd("Complie", "compile");
+            correctionAdd("Compile", "compile");
 
             correctionAdd("detialed", "detailed");
             correctionAdd("detailled", "detailed");
@@ -30431,9 +30464,6 @@ namespace OverflowHelper.core
             correctionAdd("StackTrace", "stack trace");
             correctionAdd("stacktrace", "stack trace");
 
-            correctionAdd("sub folder", "subfolder");
-            correctionAdd("sub-folder", "subfolder");
-
             correctionAdd("suceed", "succeed");
 
             correctionAdd("turnes", "turns");
@@ -30564,6 +30594,7 @@ namespace OverflowHelper.core
             correctionAdd("easilly", "easily");
             correctionAdd("easyly", "easily");
             correctionAdd("easely", "easily");
+            correctionAdd("easiliy", "easily");
 
             correctionAdd("kicks is", "kicks in");
 
@@ -34476,6 +34507,7 @@ namespace OverflowHelper.core
             correctionAdd("inputed", "inputted");
 
             correctionAdd("re-run", "rerun");
+            correctionAdd("re run", "rerun");
 
             correctionAdd("crlf", "CRLF");
 
@@ -39100,13 +39132,6 @@ namespace OverflowHelper.core
 
             correctionAdd("integreted", "integrated");
 
-            correctionAdd("`node_modules`", "node_modules folder");
-            correctionAdd("node_modules", "node_modules folder");
-            correctionAdd("node_module", "node_modules folder");
-            correctionAdd("node moduals", "node_modules folder");
-            correctionAdd("Node_modules", "node_modules folder");
-            correctionAdd("node modules", "node_modules folder");
-
             correctionAdd("propertional", "proportional");
 
             correctionAdd("relys", "relies");
@@ -39189,12 +39214,11 @@ namespace OverflowHelper.core
 
             correctionAdd("soveld", "solved");
             correctionAdd("sloved", "solved");
+            correctionAdd("Solved", "solved");
 
             correctionAdd("ASCII Art", "ASCII art");
 
             correctionAdd("binhex", "BinHex");
-
-            correctionAdd("DISPLAY", "DISPLAY environment variable");
 
             correctionAdd("SML/NJ", "Standard ML of New Jersey");
 
@@ -42294,6 +42318,7 @@ namespace OverflowHelper.core
             correctionAdd("set-aduser", "Set-ADUser");
 
             correctionAdd("answer-er", "answerer");
+            correctionAdd("aswere", "answerer");
 
             correctionAdd("coersion", "coercion");
             correctionAdd("coercien", "coercion");
@@ -42609,6 +42634,7 @@ namespace OverflowHelper.core
             correctionAdd("mobile device management", "MDM");
 
             correctionAdd("ket", "bra–ket notation");
+            correctionAdd("bra-ket", "bra–ket notation");
 
             correctionAdd("BYOD", "bring your own device");
 
@@ -46588,6 +46614,7 @@ namespace OverflowHelper.core
             correctionAdd("openchatGPT", "ChatGPT");
             correctionAdd("open chat GPT", "ChatGPT");
             correctionAdd("chat GPT", "ChatGPT");
+            correctionAdd("chat gpt", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -46967,6 +46994,10 @@ namespace OverflowHelper.core
             correctionAdd("macOS v13 (Ventura)", "macOS&nbsp;v13 (Ventura)"); // Sort of identity mapping
             correctionAdd("macOS 13 (Ventura)", "macOS&nbsp;v13 (Ventura)");
             correctionAdd("macOS 13.1", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("Ventura", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS Ventura", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS v13", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS&nbsp;v13", "macOS&nbsp;v13 (Ventura)");
 
             correctionAdd("outdated answers", "outdated answers project");
 
@@ -47040,6 +47071,38 @@ namespace OverflowHelper.core
             correctionAdd("MPEG4", "MPEG-4");
 
             correctionAdd("ELISA", "ELIZA");
+
+            correctionAdd("pooping", "popping");
+
+            correctionAdd("telex", "telex terminal");
+            correctionAdd("Telex", "telex terminal");
+
+            correctionAdd("typeout", "type out");
+
+            correctionAdd("War Games", "WarGames");
+            correctionAdd("war games", "WarGames");
+
+            correctionAdd("classificating", "classifying");
+
+            correctionAdd("Comply", "comply");
+
+            correctionAdd("Ducky Script", "DuckyScript");
+
+            correctionAdd("RTX3070", "GeForce RTX 3070");
+
+            correctionAdd("A10 GPU accelerator", "Nvidia A10 GPU accelerator");
+            correctionAdd("A10", "Nvidia A10 GPU accelerator");
+
+            correctionAdd("re-produced", "reproduced");
+
+            correctionAdd("RubberDucky", "Rubber Ducky");
+
+            correctionAdd("unbale", "unable");
+
+            correctionAdd("stablished", "established");
+
+            correctionAdd("lwc", "Lightning Web Components");
+            correctionAdd("LWC", "Lightning Web Components");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73841,6 +73904,34 @@ namespace OverflowHelper.core
 
             URL_Add("ELIZA", "https://en.wikipedia.org/wiki/ELIZA");
 
+            URL_Add("popping", "https://en.wiktionary.org/wiki/pop#Verb");
+
+            URL_Add("telex terminal", "https://en.wikipedia.org/wiki/Telex");
+
+            URL_Add("type out", "https://en.wiktionary.org/wiki/type_out#Verb");
+
+            URL_Add("WarGames", "https://en.wikipedia.org/wiki/WarGames");
+
+            URL_Add("classifying", "https://en.wiktionary.org/wiki/classify#Verb");
+
+            URL_Add("comply", "https://en.wiktionary.org/wiki/comply#Verb");
+
+            URL_Add("DuckyScript", "https://docs.hak5.org/hak5-usb-rubber-ducky/");
+
+            URL_Add("GeForce RTX 3070", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
+
+            URL_Add("Nvidia A10 GPU accelerator", "https://en.wikipedia.org/wiki/Nvidia_Tesla#Specifications");
+
+            URL_Add("reproduced", "https://en.wiktionary.org/wiki/reproduce#Verb");
+
+            URL_Add("Rubber Ducky", "https://docs.hak5.org/hak5-usb-rubber-ducky/");
+
+            URL_Add("unable", "https://en.wiktionary.org/wiki/unable#Adjective");
+
+            URL_Add("established", "https://en.wiktionary.org/wiki/establish#Verb");
+
+            URL_Add("Lightning Web Components", "https://developer.salesforce.com/docs/component-library/documentation/en/lwc");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74353,6 +74444,7 @@ namespace OverflowHelper.core
             correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_");
             correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
             correctionAdd("computer science_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("cs.stackexchange.com_", "Computer Science (Stack Exchange site)_");
 
             correctionAdd("Information Security_", "Information Security (Stack Exchange site)_");
             correctionAdd("Security_", "Information Security (Stack Exchange site)_");
@@ -74378,6 +74470,9 @@ namespace OverflowHelper.core
             correctionAdd("open source_", "Open Source (Stack Exchange site)_");
 
             correctionAdd("Blender_", "Blender (Stack Exchange site)_");
+
+            correctionAdd("engineering_", "Engineering (Stack Exchange site)_");
+            correctionAdd("Engineering_", "Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
@@ -75558,8 +75653,11 @@ namespace OverflowHelper.core
             correctionAdd("React_", "React (tag wiki)_");
             correctionAdd("reactjs_", "React (tag wiki)_");
 
-            correctionAdd("engineering_", "Engineering (Stack Exchange site)_");
-            correctionAdd("Engineering_", "Engineering (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("align_", "Align_");
+
+            correctionAdd("offset_", "Offset_");
+
+            correctionAdd("positioned_", "Positioned_");
 
             // URL mappings
             //
@@ -76545,6 +76643,12 @@ namespace OverflowHelper.core
             URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
 
             URL_Add("Engineering (Stack Exchange site)_", "https://engineering.stackexchange.com/tour");
+
+            URL_Add("Align_", "https://api.flutter.dev/flutter/widgets/Align-class.html");
+
+            URL_Add("Offset_", "https://api.flutter.dev/flutter/dart-ui/Offset-class.html");
+
+            URL_Add("Positioned_", "https://api.flutter.dev/flutter/widgets/Positioned-class.html");
 
         } //addLookupData_alternativeWordSet()
 
