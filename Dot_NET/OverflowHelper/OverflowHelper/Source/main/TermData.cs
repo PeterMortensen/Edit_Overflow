@@ -3444,6 +3444,7 @@ namespace OverflowHelper.core
             correctionAdd("MNST dataset", "MNIST data set");
 
             correctionAdd("Armstrong rules", "Armstrong's axioms");
+            correctionAdd("Armstrong rule", "Armstrong's axioms");
 
             correctionAdd("FDISK", "fdisk");
 
@@ -4316,6 +4317,28 @@ namespace OverflowHelper.core
             correctionAdd("environment-variable", "environment variable");
             correctionAdd("ENV vars", "environment variable");
             correctionAdd("environment varrible", "environment variable");
+
+            correctionAdd("aligment", "alignment");
+            correctionAdd("alligment", "alignment");
+
+            correctionAdd("alingn", "align");
+            correctionAdd("allign", "align");
+            correctionAdd("algin", "align");
+            correctionAdd("Allign", "align");
+            correctionAdd("Align", "align");
+
+            correctionAdd("ALIGNED", "aligned");
+            correctionAdd("ALINGNED", "aligned");
+
+            correctionAdd("mis-align", "misalign");
+
+            correctionAdd("mis-aligned", "misaligned");
+
+            correctionAdd("re-align", "realign");
+
+            correctionAdd("aabb", "AABB");
+            correctionAdd("Axis-Aligned Bounding Box", "AABB");
+            correctionAdd("axis-aligned bounding box", "AABB");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -10010,6 +10033,7 @@ namespace OverflowHelper.core
             correctionAdd("don,t", "don’t");
             correctionAdd("ont", "don’t");
             correctionAdd("Dont'", "don’t");
+            correctionAdd("on't", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -10021,6 +10045,9 @@ namespace OverflowHelper.core
             correctionAdd("Nvivdia", "Nvidia");
             correctionAdd("N-vidia", "Nvidia");
             correctionAdd("nVIDIA", "Nvidia");
+
+            correctionAdd("A10 GPU accelerator", "Nvidia A10 GPU accelerator");
+            correctionAdd("A10", "Nvidia A10 GPU accelerator");
 
             correctionAdd("Try", "try");
             correctionAdd("Tray", "try");
@@ -13318,6 +13345,7 @@ namespace OverflowHelper.core
             correctionAdd("Agnular", "Angular");
             correctionAdd("agnular", "Angular");
             correctionAdd("Anjular js", "Angular");
+            correctionAdd("angulare", "Angular");
 
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
@@ -20646,6 +20674,12 @@ namespace OverflowHelper.core
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
 
+            correctionAdd("GTX 950M", "GeForce GTX 950M");
+
+            correctionAdd("4090", "GeForce RTX 4090");
+
+            correctionAdd("RTX3070", "GeForce RTX 3070");
+
             correctionAdd("kerberos", "Kerberos");
 
             correctionAdd("lightbox", "Lightbox");
@@ -27037,6 +27071,7 @@ namespace OverflowHelper.core
             correctionAdd("inot", "into"); // True typo
             correctionAdd("unto", "into"); // Als a true typo
             correctionAdd("in to", "into");
+            correctionAdd("itno", "into");
 
             correctionAdd("priviledged", "privileged");
             correctionAdd("privelaged", "privileged");
@@ -27075,6 +27110,7 @@ namespace OverflowHelper.core
             correctionAdd("tbe", "the");
             correctionAdd("de", "the");
             correctionAdd("rhe", "the");
+            correctionAdd("yhe", "the");
 
             correctionAdd("vaild", "valid"); // True typo
             correctionAdd("vaiid", "valid");
@@ -27565,6 +27601,7 @@ namespace OverflowHelper.core
             correctionAdd("fro", "from");
             correctionAdd("fron", "from");
             correctionAdd("drom", "from");
+            correctionAdd("fr9m", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -30784,9 +30821,6 @@ namespace OverflowHelper.core
 
             correctionAdd("john carmack", "John Carmack");
 
-            correctionAdd("aligment", "alignment");
-            correctionAdd("alligment", "alignment");
-
             correctionAdd("brain dead", "brain-dead");
 
             correctionAdd("CAT", "cat");
@@ -31643,15 +31677,6 @@ namespace OverflowHelper.core
             correctionAdd("tommorow", "tomorrow");
             correctionAdd("tommrow", "tomorrow");
             correctionAdd("tomrrow", "tomorrow");
-
-            correctionAdd("alingn", "align");
-            correctionAdd("allign", "align");
-            correctionAdd("algin", "align");
-            correctionAdd("Allign", "align");
-            correctionAdd("Align", "align");
-
-            correctionAdd("ALIGNED", "aligned");
-            correctionAdd("ALINGNED", "aligned");
 
             correctionAdd("cos", "cosine");
             correctionAdd("Cosine", "cosine");
@@ -36271,6 +36296,7 @@ namespace OverflowHelper.core
             correctionAdd("cd prompt", "command prompt");
             correctionAdd("cmd prompt", "command prompt");
             correctionAdd("command-prompt", "command prompt");
+            correctionAdd("Command prompt", "command prompt");
 
             correctionAdd("deterence", "deterrence");
 
@@ -36520,6 +36546,7 @@ namespace OverflowHelper.core
             correctionAdd("rt-click", "right-click");
             correctionAdd("Rightclick", "right-click");
             correctionAdd("right Click", "right-click");
+            correctionAdd("rightclick", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -36658,10 +36685,6 @@ namespace OverflowHelper.core
             correctionAdd("Formater", "formatter");
 
             correctionAdd("geives", "gives");
-
-            correctionAdd("mis-align", "misalign");
-
-            correctionAdd("mis-aligned", "misaligned");
 
             correctionAdd("pro-active", "proactive");
 
@@ -37405,6 +37428,7 @@ namespace OverflowHelper.core
             correctionAdd("cmdline", "command line");
             correctionAdd("commadline", "command line");
             correctionAdd("comman-line", "command line");
+            correctionAdd("Command-line", "command line");
 
             correctionAdd("time line", "timeline");
 
@@ -39713,6 +39737,8 @@ namespace OverflowHelper.core
 
             correctionAdd("decribed", "described");
             correctionAdd("discribed", "described");
+            correctionAdd("describte", "described");
+            correctionAdd("describted", "described");
 
             correctionAdd("Electrical Contact Cleaner", "electrical contact cleaner");
 
@@ -39720,8 +39746,6 @@ namespace OverflowHelper.core
             correctionAdd("indentical", "identical");
 
             correctionAdd("Loop Invariant", "loop invariant");
-
-            correctionAdd("re-align", "realign");
 
             correctionAdd("re-instate", "reinstate");
 
@@ -39801,10 +39825,6 @@ namespace OverflowHelper.core
             correctionAdd("chartJs", "Chart.js");
 
             correctionAdd("straigthen", "straighten");
-
-            correctionAdd("aabb", "AABB");
-            correctionAdd("Axis-Aligned Bounding Box", "AABB");
-            correctionAdd("axis-aligned bounding box", "AABB");
 
             correctionAdd("analog-to-digital converter", "ADC");
 
@@ -41872,8 +41892,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cloudbolt", "CloudBolt");
 
-            correctionAdd("GTX 950M", "GeForce GTX 950M");
-
             correctionAdd("gitee", "Gitee");
 
             correctionAdd("gogs", "Gogs");
@@ -43940,6 +43958,7 @@ namespace OverflowHelper.core
             correctionAdd("romove", "remove");
             correctionAdd("Romove", "remove");
             correctionAdd("remoe", "remove");
+            correctionAdd("rem9ve", "remove");
 
             correctionAdd("re-tag", "retag");
 
@@ -44613,6 +44632,10 @@ namespace OverflowHelper.core
             correctionAdd("ducky", "Ducky");
 
             correctionAdd("Ducky Shine", "Ducky Shine 7");
+
+            correctionAdd("Ducky Script", "DuckyScript");
+
+            correctionAdd("RubberDucky", "Rubber Ducky");
 
             correctionAdd("AFAIR", "as far as I remember");
 
@@ -45641,6 +45664,7 @@ namespace OverflowHelper.core
 
             correctionAdd("exercism", "Exercism");
 
+            // Alternative URL: <https://karma-runner.github.io/latest/index.html>
             correctionAdd("Karma JS", "Karma");
             correctionAdd("karma", "Karma");
 
@@ -46352,8 +46376,6 @@ namespace OverflowHelper.core
             correctionAdd("i9-13900K", "Core i9-13900K");
 
             correctionAdd("DDR5", "DDR5 SDRAM");
-
-            correctionAdd("4090", "GeForce RTX 4090");
 
             correctionAdd("multiplies", "multiplications");
 
@@ -47086,16 +47108,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Comply", "comply");
 
-            correctionAdd("Ducky Script", "DuckyScript");
-
-            correctionAdd("RTX3070", "GeForce RTX 3070");
-
-            correctionAdd("A10 GPU accelerator", "Nvidia A10 GPU accelerator");
-            correctionAdd("A10", "Nvidia A10 GPU accelerator");
-
             correctionAdd("re-produced", "reproduced");
-
-            correctionAdd("RubberDucky", "Rubber Ducky");
 
             correctionAdd("unbale", "unable");
 
@@ -47103,6 +47116,18 @@ namespace OverflowHelper.core
 
             correctionAdd("lwc", "Lightning Web Components");
             correctionAdd("LWC", "Lightning Web Components");
+
+            correctionAdd("arrnaging", "arranging");
+
+            correctionAdd("image asset studio", "Image Asset Studio");
+
+            correctionAdd("Positioned", "positioned");
+
+            correctionAdd("rooth", "root");
+
+            correctionAdd("co-exist", "coexist");
+
+            correctionAdd("backoff", "back off");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73932,6 +73957,18 @@ namespace OverflowHelper.core
 
             URL_Add("Lightning Web Components", "https://developer.salesforce.com/docs/component-library/documentation/en/lwc");
 
+            URL_Add("arranging", "https://en.wiktionary.org/wiki/arrange#Verb");
+
+            URL_Add("Image Asset Studio", "https://developer.android.com/studio/write/image-asset-studio");
+
+            URL_Add("positioned", "https://en.wiktionary.org/wiki/position#Verb");
+
+            URL_Add("root", "https://en.wiktionary.org/wiki/root#Noun");
+
+            URL_Add("coexist", "https://en.wiktionary.org/wiki/coexist#Verb");
+
+            URL_Add("back off", "https://en.wiktionary.org/wiki/back_off#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -75066,6 +75103,8 @@ namespace OverflowHelper.core
             correctionAdd("[tag:r]_", "R (tag wiki)_");
             correctionAdd("r_", "R (tag wiki)_");
             correctionAdd("R_", "R (tag wiki)_");
+            correctionAdd("R tag_", "R (tag wiki)_");
+            correctionAdd("r tag_", "R (tag wiki)_");
 
             correctionAdd("[tag:swift]_", "Swift (tag wiki)_");
             correctionAdd("swift_", "Swift (tag wiki)_");
@@ -75653,10 +75692,13 @@ namespace OverflowHelper.core
             correctionAdd("React_", "React (tag wiki)_");
             correctionAdd("reactjs_", "React (tag wiki)_");
 
+            // A Flutter class
             correctionAdd("align_", "Align_");
 
+            // A Flutter class
             correctionAdd("offset_", "Offset_");
 
+            // A Flutter class
             correctionAdd("positioned_", "Positioned_");
 
             // URL mappings
