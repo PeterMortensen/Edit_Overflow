@@ -16227,6 +16227,14 @@ namespace OverflowHelper.core
 
             correctionAdd("scrapy", "Scrapy");
 
+            correctionAdd("scrapped", "scraped");
+
+            correctionAdd("scrap", "scrape");
+
+            correctionAdd("scraping", "scrapping");
+
+            correctionAdd("scaper", "scraper");
+
             correctionAdd("occuring", "occurring");
 
             correctionAdd("Openstack", "OpenStack");
@@ -31327,8 +31335,6 @@ namespace OverflowHelper.core
             correctionAdd("Pre defined", "predefined");
             correctionAdd("pre defined", "predefined");
 
-            correctionAdd("scrapped", "scraped");
-
             correctionAdd("sub-idea", "subidea");
 
             correctionAdd("user-base", "userbase");
@@ -32927,8 +32933,6 @@ namespace OverflowHelper.core
             correctionAdd("Nch", "n-channel MOSFET");
             correctionAdd("N channel", "n-channel MOSFET");
             correctionAdd("N channel MOSFET", "n-channel MOSFET");
-
-            correctionAdd("scrap", "scrape");
 
             correctionAdd("lauched", "launched");
 
@@ -40488,8 +40492,6 @@ namespace OverflowHelper.core
 
             correctionAdd("in adavance", "in advance");
 
-            correctionAdd("scraping", "scrapping");
-
             correctionAdd("$itty", "shitty");
             correctionAdd("shaatty", "shitty");
 
@@ -43938,6 +43940,7 @@ namespace OverflowHelper.core
             correctionAdd("exptl", "experimental");
 
             correctionAdd("high ranking", "high-ranking");
+            correctionAdd("high ranked", "high-ranking");
 
             correctionAdd("historam", "histogram");
 
@@ -73968,6 +73971,8 @@ namespace OverflowHelper.core
             URL_Add("coexist", "https://en.wiktionary.org/wiki/coexist#Verb");
 
             URL_Add("back off", "https://en.wiktionary.org/wiki/back_off#Verb");
+
+            URL_Add("scraper", "https://en.wiktionary.org/wiki/scraper#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
