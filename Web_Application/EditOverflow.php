@@ -18,10 +18,11 @@
             require_once('deploymentSpecific.php');
 
             # Or trailing underscore??? What was the intent?
-            function stripTrailingSlash($aString)
+            function stripTrailingUnderscore($aString)
             {
-                return substr($aString, 0, strlen($aString) - 1);
-            } #stripTrailingSlash()
+                #return substr($aString, 0, strlen($aString) - 1);
+                return rtrim($aString, "_");
+            } #stripTrailingUnderscore()
 
             function alternativeLink($anIncorrectTerm,
                                       $aCorrectTerm,
@@ -36,7 +37,7 @@
                     urlencode($anIncorrectTerm) .
                     "\"" .
                     " id=\"$anID\"" .
-                    ">" . stripTrailingSlash($aCorrectTerm) . "</a>";
+                    ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>";
             } #alternativeLink()
 
             function lookup($aPDO, $aLookupTerm)
@@ -220,7 +221,6 @@
                                         # for the edit summary)
             }
 
-
             #echo "<p>Lookup term: $lookUpTerm</p>\n";
 
             $SQLprefix =
@@ -235,13 +235,21 @@
             [$incorrectTerm, $correctTerm, $URL] =
                 lookup($pdo, $lookUpTerm);
 
-            # For now. For assumed lookup word in the
-            # main word set. Preparation for cross
-            # reference lookup in the other direction.
-            if (1)
+            # The trailing underscore ("_") is for the convention we
+            # currently use for words in the alternative word set.
+            #
+            $lookUpTerm_stripped = rtrim($lookUpTerm, "_");
+            $lookUpTerm_inMainWordSet = $lookUpTerm_stripped === $lookUpTerm;
+
+            if ($lookUpTerm_inMainWordSet)
             {
                 $incorrectWordInTheOtherWordSet =  $lookUpTerm . "_";
                 $correctWordInTheOtherWordSet   = $correctTerm . "_";
+            }
+            else
+            {
+                $incorrectWordInTheOtherWordSet = $lookUpTerm_stripped;
+                $correctWordInTheOtherWordSet   = rtrim($correctTerm, "_");
             }
 
             # Also look up of the ***incorrect** term in the alternative
@@ -257,12 +265,14 @@
             #
             #           XXX
             #
-            # Look up incorrect word in the alternative word set
+            # Look up the incorrect word in the other (often
+            # the alternative) word set
             #
             [$incorrectTerm2, $correctTerm2, $URL2] =
                 lookup($pdo, $incorrectWordInTheOtherWordSet);
 
-            # Look up correct word in the alternative word set
+            # Look up the correct word in the other (often
+            # the alternative) word set
             #
             # Note that "$incorrectTerm3" is slightly confusing
             # as it will actually contain the correct term...
@@ -270,16 +280,17 @@
             [$incorrectTerm3, $correctTerm3, $URL3] =
                 lookup($pdo, $correctWordInTheOtherWordSet);
 
-            # Transparently use the alternative word set if the
-            # primary lookup fails (e.g., seemless lookup when
-            # blindly using a macro keyboard).
+            # Transparently use the other (often the alternative)
+            # word set if the primary lookup fails (e.g.,
+            # seemless lookup when blindly using a
+            # macro keyboard).
             #
             #Use some kind of indication it was found in the
             #alternative word set?
             #
             if (! $correctTerm)
             {
-                #Later: use stripTrailingSlash()
+                #Later: use stripTrailingUnderscore()
                 $correctTerm = $correctTerm2;
 
                 $URL = $URL2;
