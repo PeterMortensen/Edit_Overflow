@@ -3000,6 +3000,6 @@ echo
 #
 startOfBuildStep "47" "End of build. All build steps succeeded!!"
 
-timeStamp "End time"
+timeStamp "End time  "
 
 
