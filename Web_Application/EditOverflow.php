@@ -235,6 +235,15 @@
             [$incorrectTerm, $correctTerm, $URL] =
                 lookup($pdo, $lookUpTerm);
 
+            # For now. For assumed lookup word in the
+            # main word set. Preparation for cross
+            # reference lookup in the other direction.
+            if (1)
+            {
+                $incorrectWordInTheOtherWordSet =  $lookUpTerm . "_";
+                $correctWordInTheOtherWordSet   = $correctTerm . "_";
+            }
+
             # Also look up of the ***incorrect** term in the alternative
             # word set (the convention is a trailing underscore).
             #
@@ -251,8 +260,7 @@
             # Look up incorrect word in the alternative word set
             #
             [$incorrectTerm2, $correctTerm2, $URL2] =
-                lookup($pdo,
-                        $lookUpTerm . "_");
+                lookup($pdo, $incorrectWordInTheOtherWordSet);
 
             # Look up correct word in the alternative word set
             #
@@ -260,8 +268,7 @@
             # as it will actually contain the correct term...
             #
             [$incorrectTerm3, $correctTerm3, $URL3] =
-                lookup($pdo,
-                        $correctTerm . "_");
+                lookup($pdo, $correctWordInTheOtherWordSet);
 
             # Transparently use the alternative word set if the
             # primary lookup fails (e.g., seemless lookup when
