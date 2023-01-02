@@ -4158,6 +4158,7 @@ namespace OverflowHelper.core
             correctionAdd("Functinon", "function");
             correctionAdd("functinon", "function");
             correctionAdd("función", "function");
+            correctionAdd("funcition", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -16255,6 +16256,8 @@ namespace OverflowHelper.core
             correctionAdd("inbuilt", "built-in");
             correctionAdd("Builtin", "built-in");
             correctionAdd("Build-in", "built-in");
+            correctionAdd("buil-in", "built-in");
+            correctionAdd("builti-in", "built-in");
 
             correctionAdd("apprear", "appear");
             correctionAdd("apear", "appear");
@@ -17681,6 +17684,9 @@ namespace OverflowHelper.core
             correctionAdd("recomondation", "recommendation");
             correctionAdd("recs", "recommendation");
             correctionAdd("Recomendation", "recommendation");
+            correctionAdd("Recommendation", "recommendation");
+            correctionAdd("Recommention", "recommendation");
+            correctionAdd("recommention", "recommendation");
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -22330,6 +22336,7 @@ namespace OverflowHelper.core
             correctionAdd("resut", "result");
             correctionAdd("reuslt", "result");
             correctionAdd("resultat", "result");
+            correctionAdd("resoult", "result");
 
             correctionAdd("returnig", "returning");
 
@@ -24794,7 +24801,8 @@ namespace OverflowHelper.core
 
             correctionAdd("world championship", "World Chess Championship"); // Chess
 
-            correctionAdd("Keymer", "Vincent Keymer");
+            correctionAdd("Keymer", "Vincent Keymer"); // Chess
+            correctionAdd("Vincent", "Vincent Keymer"); // Chess
 
             correctionAdd("niemann", "Hans Niemann"); // Chess
             correctionAdd("Niemann", "Hans Niemann"); // Chess
@@ -27610,6 +27618,7 @@ namespace OverflowHelper.core
             correctionAdd("fron", "from");
             correctionAdd("drom", "from");
             correctionAdd("fr9m", "from");
+            correctionAdd("fromm", "from");
 
             correctionAdd("overlaping", "overlapping");
 
@@ -35209,6 +35218,7 @@ namespace OverflowHelper.core
             correctionAdd("mis-detect", "misdetect");
 
             correctionAdd("obderved", "observed");
+            correctionAdd("osbserved", "observed");
 
             correctionAdd("othogonal", "orthogonal");
 
@@ -37306,6 +37316,7 @@ namespace OverflowHelper.core
             correctionAdd("Zk-Snark", "zk-SNARK");
             correctionAdd("zk-Snark", "zk-SNARK");
             correctionAdd("zkSNARK", "zk-SNARK");
+            correctionAdd("zksnark", "zk-SNARK");
 
             correctionAdd("Neopixel", "NeoPixel");
             correctionAdd("neopixel", "NeoPixel");
@@ -40510,6 +40521,7 @@ namespace OverflowHelper.core
             correctionAdd("spider", "Web crawler");
             correctionAdd("Cralwer", "Web crawler");
             correctionAdd("cralwer", "Web crawler");
+            correctionAdd("webcrawler", "Web crawler");
 
             correctionAdd("consumer grade", "consumer-grade");
 
@@ -47131,6 +47143,19 @@ namespace OverflowHelper.core
             correctionAdd("co-exist", "coexist");
 
             correctionAdd("backoff", "back off");
+
+            correctionAdd("Bohm's interpretation", "de Broglie–Bohm theory");
+            correctionAdd("Bohm interpretation", "de Broglie–Bohm theory");
+            correctionAdd("Bohmian mechanics", "de Broglie–Bohm theory");
+            correctionAdd("pilot wave theory", "de Broglie–Bohm theory");
+
+            correctionAdd("fire wood", "firewood");
+
+            correctionAdd("flexibilility", "flexibility");
+
+            correctionAdd("non mainstream", "nonmainstream");
+
+            correctionAdd("Url Fetch Service", "URL Fetch Service");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73974,6 +73999,16 @@ namespace OverflowHelper.core
 
             URL_Add("scraper", "https://en.wiktionary.org/wiki/scraper#Noun");
 
+            URL_Add("de Broglie–Bohm theory", "https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory");
+
+            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
+
+            URL_Add("flexibility", "https://en.wiktionary.org/wiki/flexibility#Noun");
+
+            URL_Add("nonmainstream", "https://en.wiktionary.org/wiki/nonmainstream#Adjective");
+
+            URL_Add("URL Fetch Service", "https://developers.google.com/apps-script/reference/url-fetch/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74275,6 +74310,7 @@ namespace OverflowHelper.core
             correctionAdd("SO_", "Stack&nbsp;Overflow_");
             correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
             correctionAdd("so_", "Stack&nbsp;Overflow_");
+            correctionAdd("StackOverflow_", "Stack&nbsp;Overflow_");
 
             correctionAdd("ganymede_", "Ganymede_");
 
