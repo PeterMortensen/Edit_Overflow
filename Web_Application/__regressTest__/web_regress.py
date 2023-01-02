@@ -761,11 +761,11 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #   3. Incorrect words "php", "python", and "until" must exist
     #      in the word list (MySQL/MariaDB database).
     #
-    #   4. We make a series of word lookups, including some that fail
-    #      and some where the edit summary is set to reset,
-    #      and check that the edti summary is as expected at each
-    #      step (many subtle errors are possible, especially
-    #      with failed word lookups).
+    #   4. We make a series of word lookups, including some that
+    #      fail and some where the edit summary is set to reset,
+    #      and check that the edit summary is as expected at
+    #      each step (many subtle errors are possible,
+    #      especially with failed word lookups).
     #
     #   5. We currently rely on the implementation to use
     #      "OverflowStyle=Native" and to use site relative
@@ -781,9 +781,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self.browser.get(aURL)
         time.sleep(2.0)
 
-        # Part of the test input must be derived for _lookUp() as it
-        # doesn't know about URLs (though the lookup result may
-        # contain URLs).
+        # Part of the test input must be derived for _lookUp() as
+        # it doesn't know about URLs (though the lookup result
+        # may contain URLs).
         #
         # Example:
         #
@@ -798,8 +798,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
         defaultMsgForEditSummary = 'Unexpected edit summary '
 
+
         if True: # Test a normal lookup (implicitly through HTML get). For
-                 # now only regression test for the edit summary field.
+                 # now, only regression test for the edit summary field.
 
             # For the initial page, we expect a non-empty edit summary
             # field (though we actually currently make a lookup
@@ -923,7 +924,25 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
                          defaultMsgForEditSummary,
                          "Azure (tag wiki)",
-                         altURLprefix + "Microsoft+Azure_")
+                         altURLprefix + "Microsoft+Azure_") # "+" is for space in the
+                                                            # URL query parameter
+
+
+        #This test could be a separate test... It doesn't need to be here.
+        if True: # Test the new functionality as of 2023-01-02 to
+                 # make cross references from the alternative word
+                 # to the main word set (we already have it in
+                 # the opposite direction).
+                 #
+                 # This relies on particular content of the
+                 # word list ("quite_" and "quiet").
+
+            self._setCheckbox("resetState")
+            self._lookUp("quite_",
+                         "Active reading [<https://en.wiktionary.org/wiki/quite#Adverb>].",
+                         defaultMsgForEditSummary,
+                         "quiet",
+                        altURLprefix + "quite")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test encoding, for "+", for the cross reference URL
