@@ -260,7 +260,7 @@
                 />
             </p>
 
-            <p>Things like "Update", etc. does not
+            <p>Things like "Update", etc. do not
                 <u>b</u>elong in the main post
                 (question or answer). A post's current version should be
                 the best possible and there isn't any need to know how it
