@@ -4159,6 +4159,8 @@ namespace OverflowHelper.core
             correctionAdd("functinon", "function");
             correctionAdd("función", "function");
             correctionAdd("funcition", "function");
+            correctionAdd("funk", "function");
+            correctionAdd("funktions", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -4340,6 +4342,14 @@ namespace OverflowHelper.core
             correctionAdd("aabb", "AABB");
             correctionAdd("Axis-Aligned Bounding Box", "AABB");
             correctionAdd("axis-aligned bounding box", "AABB");
+
+            correctionAdd("resul", "result");
+            correctionAdd("resault", "result");
+            correctionAdd("resut", "result");
+            correctionAdd("reuslt", "result");
+            correctionAdd("resultat", "result");
+            correctionAdd("resoult", "result");
+            correctionAdd("risult", "result");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -6897,6 +6907,35 @@ namespace OverflowHelper.core
 
             correctionAdd("BBedit", "BBEdit");
 
+            correctionAdd("Slickedit", "SlickEdit");
+
+            correctionAdd("Textedit", "TextEdit");
+            correctionAdd("textedit", "TextEdit");
+
+            correctionAdd("nedit", "NEdit");
+
+            correctionAdd("komodo", "Komodo Edit");
+            correctionAdd("KomodoEdit", "Komodo Edit");
+            correctionAdd("komodo edit", "Komodo Edit");
+            correctionAdd("Komodo edit", "Komodo Edit");
+            correctionAdd("KOMODO EDIT", "Komodo Edit");
+
+            correctionAdd("JEdit", "jEdit");
+            correctionAdd("jedit", "jEdit");
+            correctionAdd("Jedit", "jEdit");
+
+            correctionAdd("RegEdit.exe", "RegEdit");
+            correctionAdd("regedit", "RegEdit");
+
+            correctionAdd("Richedit", "RichEdit");
+
+            correctionAdd("ediot", "edit");
+            correctionAdd("edti", "edit");
+
+            correctionAdd("khexedit", "KHexEdit");
+
+            correctionAdd("HEXEDIT", "hexedit");
+
             correctionAdd("tortoisegit", "TortoiseGit");
             correctionAdd("Tortoisegit", "TortoiseGit");
             correctionAdd("tortoise git", "TortoiseGit");
@@ -6929,8 +6968,6 @@ namespace OverflowHelper.core
             correctionAdd("AutiIT", "AutoIt"); // True typo...
             correctionAdd("AitoIt", "AutoIt");
 
-            correctionAdd("Slickedit", "SlickEdit");
-
             correctionAdd("XUnit", "xUnit");
             correctionAdd("Xunit", "xUnit");
             correctionAdd("xunit", "xUnit");
@@ -6952,9 +6989,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gerrit", "Gerrit");
 
-            correctionAdd("Textedit", "TextEdit");
-            correctionAdd("textedit", "TextEdit");
-
             correctionAdd("phpunit", "PHPUnit");
 
             correctionAdd("Jit", "JIT");
@@ -6972,14 +7006,6 @@ namespace OverflowHelper.core
             correctionAdd("tight knit", "tight-knit");
 
             correctionAdd("Maggot", "Magit");
-
-            correctionAdd("nedit", "NEdit");
-
-            correctionAdd("komodo", "Komodo Edit");
-            correctionAdd("KomodoEdit", "Komodo Edit");
-            correctionAdd("komodo edit", "Komodo Edit");
-            correctionAdd("Komodo edit", "Komodo Edit");
-            correctionAdd("KOMODO EDIT", "Komodo Edit");
 
             correctionAdd("Micro Bit", "BBC Micro Bit");
             correctionAdd("micro:bit", "BBC Micro Bit");
@@ -7181,17 +7207,10 @@ namespace OverflowHelper.core
             correctionAdd("JQUnit", "jqUnit");
             correctionAdd("jQUnit", "jqUnit");
 
-            correctionAdd("JEdit", "jEdit");
-            correctionAdd("jedit", "jEdit");
-            correctionAdd("Jedit", "jEdit");
-
             correctionAdd("solar wind", "SolarWinds exploit");
             correctionAdd("SolarWind", "SolarWinds exploit");
             correctionAdd("solarwind", "SolarWinds exploit");
             correctionAdd("solarwinds", "SolarWinds exploit");
-
-            correctionAdd("RegEdit.exe", "RegEdit");
-            correctionAdd("regedit", "RegEdit");
 
             correctionAdd("albiet", "albeit");
 
@@ -7230,8 +7249,6 @@ namespace OverflowHelper.core
             correctionAdd("webKit", "WebKit");
             correctionAdd("web kit", "WebKit");
             correctionAdd("wekit", "WebKit");
-
-            correctionAdd("Richedit", "RichEdit");
 
             correctionAdd("re-submit", "resubmit");
 
@@ -19789,6 +19806,7 @@ namespace OverflowHelper.core
             correctionAdd("you'l", "you’ll");
             correctionAdd("you'll", "you’ll");
             correctionAdd("youl", "you’ll");
+            correctionAdd("you i'll", "you’ll");
 
             correctionAdd("APOLLO", "Apollo");
 
@@ -20068,6 +20086,7 @@ namespace OverflowHelper.core
             correctionAdd("es-lint", "ESLint");
             correctionAdd("ESlint", "ESLint");
             correctionAdd("Eslint", "ESLint");
+            correctionAdd("EsLint", "ESLint");
 
             correctionAdd("elance", "Elance");
 
@@ -22330,13 +22349,6 @@ namespace OverflowHelper.core
 
             correctionAdd("my self", "myself");
             correctionAdd("myslef", "myself");
-
-            correctionAdd("resul", "result");
-            correctionAdd("resault", "result");
-            correctionAdd("resut", "result");
-            correctionAdd("reuslt", "result");
-            correctionAdd("resultat", "result");
-            correctionAdd("resoult", "result");
 
             correctionAdd("returnig", "returning");
 
@@ -32401,6 +32413,7 @@ namespace OverflowHelper.core
             correctionAdd("vb", "Visual Basic"); // Conflicts?
             correctionAdd("Visual basic", "Visual Basic");
             correctionAdd("Visual BASIC", "Visual Basic");
+            correctionAdd("VisualBasic", "Visual Basic");
 
             correctionAdd("basic", "BASIC");
             correctionAdd("Basic", "BASIC");
@@ -40788,8 +40801,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aspect-ratio", "aspect ratio");
 
-            correctionAdd("ediot", "edit");
-
             correctionAdd("envelop", "envelope");
 
             correctionAdd("summerise", "summarise");
@@ -42968,8 +42979,6 @@ namespace OverflowHelper.core
 
             correctionAdd("intptr.size", "IntPtr.Size");
 
-            correctionAdd("khexedit", "KHexEdit");
-
             correctionAdd("LADAR", "Lidar");
             correctionAdd("LIDAR", "Lidar");
             correctionAdd("LiDAR", "Lidar");
@@ -42980,8 +42989,6 @@ namespace OverflowHelper.core
             correctionAdd("Gird", "grid");
 
             correctionAdd("hexeditor", "hex editor");
-
-            correctionAdd("HEXEDIT", "hexedit");
 
             correctionAdd("Mountain", "mountain");
 
@@ -44649,6 +44656,7 @@ namespace OverflowHelper.core
             correctionAdd("Ducky Shine", "Ducky Shine 7");
 
             correctionAdd("Ducky Script", "DuckyScript");
+            correctionAdd("Duckyscript", "DuckyScript");
 
             correctionAdd("RubberDucky", "Rubber Ducky");
 
@@ -47081,6 +47089,7 @@ namespace OverflowHelper.core
             correctionAdd("CSCOPE", "cscope");
 
             correctionAdd("editorconfig", "EditorConfig");
+            correctionAdd("Editor Config", "EditorConfig");
 
             correctionAdd("good-enough", "good enough");
 
@@ -47148,6 +47157,7 @@ namespace OverflowHelper.core
             correctionAdd("Bohm interpretation", "de Broglie–Bohm theory");
             correctionAdd("Bohmian mechanics", "de Broglie–Bohm theory");
             correctionAdd("pilot wave theory", "de Broglie–Bohm theory");
+            correctionAdd("de Broglie-Bohm theory", "de Broglie–Bohm theory");
 
             correctionAdd("fire wood", "firewood");
 
@@ -47156,6 +47166,28 @@ namespace OverflowHelper.core
             correctionAdd("non mainstream", "nonmainstream");
 
             correctionAdd("Url Fetch Service", "URL Fetch Service");
+
+            correctionAdd("adam optimizer", "Adam optimizer");
+
+            correctionAdd("preprecessor", "C preprocessor");
+
+            correctionAdd("CSS comment", "CSS comments");
+            correctionAdd("css comment", "CSS comments");
+            correctionAdd("css comments", "CSS comments");
+
+            correctionAdd("PHPSH", "phpsh");
+
+            correctionAdd("rtrim", "rtrim()");
+
+            correctionAdd("some what", "somewhat");
+
+            correctionAdd("TF.NET", "TensorFlow.NET");
+            correctionAdd("Tensorflow.Net", "TensorFlow.NET");
+
+            correctionAdd("miss worded", "misworded");
+
+            correctionAdd("self referential", "self-referential");
+            correctionAdd("Self referential", "self-referential");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74009,6 +74041,24 @@ namespace OverflowHelper.core
 
             URL_Add("URL Fetch Service", "https://developers.google.com/apps-script/reference/url-fetch/");
 
+            URL_Add("Adam optimizer", "https://arxiv.org/abs/1412.6980v8");
+
+            URL_Add("C preprocessor", "https://en.wikipedia.org/wiki/C_preprocessor");
+
+            URL_Add("CSS comments", "https://stackoverflow.com/questions/2479351/why-do-comments-work-in-stylesheets-but-comments-dont");
+
+            URL_Add("phpsh", "https://github.com/facebookarchive/phpsh");
+
+            URL_Add("rtrim()", "https://www.php.net/manual/en/function.rtrim.php");
+
+            URL_Add("somewhat", "https://en.wiktionary.org/wiki/somewhat#Adverb");
+
+            URL_Add("TensorFlow.NET", "https://github.com/SciSharp/TensorFlow.NET");
+
+            URL_Add("misworded", "https://en.wiktionary.org/wiki/misword#Verb");
+
+            URL_Add("self-referential", "https://en.wiktionary.org/wiki/self-referential#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -75598,6 +75648,7 @@ namespace OverflowHelper.core
             correctionAdd("exspects_", "expects_");
             correctionAdd("Expcet_", "expects_");
             correctionAdd("expcet_", "expects_");
+            correctionAdd("excpect_", "expects_");
 
             correctionAdd("hem_", "Hem_");
 
@@ -75741,6 +75792,8 @@ namespace OverflowHelper.core
 
             // A Flutter class
             correctionAdd("positioned_", "Positioned_");
+
+            correctionAdd("WAIT_", "wait_");
 
             // URL mappings
             //
@@ -76732,6 +76785,8 @@ namespace OverflowHelper.core
             URL_Add("Offset_", "https://api.flutter.dev/flutter/dart-ui/Offset-class.html");
 
             URL_Add("Positioned_", "https://api.flutter.dev/flutter/widgets/Positioned-class.html");
+
+            URL_Add("wait_", "http://linux.die.net/man/1/wait");
 
         } //addLookupData_alternativeWordSet()
 
