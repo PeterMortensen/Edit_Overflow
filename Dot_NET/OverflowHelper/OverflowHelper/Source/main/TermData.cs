@@ -1050,7 +1050,9 @@ namespace OverflowHelper.core
 
             correctionAdd("html_entity_decode", "html_entity_decode()"); // PHP function
 
-            correctionAdd("explode", "explode()"); // PHP function
+            // PHP function
+            correctionAdd("explode", "explode()");
+            correctionAdd("Explode", "explode()");
 
             correctionAdd("base64_encode", "base64_encode()");
 
@@ -1218,9 +1220,17 @@ namespace OverflowHelper.core
 
             correctionAdd("urlencode", "urlencode()");
 
-            correctionAdd("htmlspecialchars", "htmlspecialchars()");
+            correctionAdd("htmlspecialchars", "htmlspecialchars()"); // PHP
 
-            correctionAdd("rawurlencode", "rawurlencode()");
+            correctionAdd("rawurlencode", "rawurlencode()"); // PHP
+
+            correctionAdd("rtrim", "rtrim()"); // PHP
+
+            correctionAdd("trim", "trim()"); // PHP
+
+            correctionAdd("sorted", "sorted()"); // Python
+
+            correctionAdd("os.path.join()", "os.path.join"); // Python
 
             correctionAdd("prtime", "PRTime");
 
@@ -3506,12 +3516,14 @@ namespace OverflowHelper.core
             correctionAdd("K ohm", "kilohm");
             correctionAdd("kohms", "kilohm");
             correctionAdd("kilo-ohm", "kilohm");
+            correctionAdd("Kilohm", "kilohm");
 
             correctionAdd("Mohm", "megohm");
             correctionAdd("megaohm", "megohm");
             correctionAdd("MegOhm", "megohm");
             correctionAdd("MOhm", "megohm");
             // correctionAdd("Meg", "megohm"); // Could also be MB (megabyte)
+            correctionAdd("Megohm", "megohm");
 
             correctionAdd("gigaohm", "giga-ohm");
 
@@ -5003,6 +5015,7 @@ namespace OverflowHelper.core
             correctionAdd("ELL", "English Language Learners (Stack Exchange site)");
             correctionAdd("English Language Learners", "English Language Learners (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("ELL.SE", "English Language Learners (Stack Exchange site)");
+            correctionAdd("English Learners", "English Language Learners (Stack Exchange site)");
 
             correctionAdd("TeX - LaTeX", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("TeX-LaTeX", "TeX - LaTeX (Stack Exchange site)");
@@ -6182,6 +6195,21 @@ namespace OverflowHelper.core
             correctionAdd("props", "properties");
             correctionAdd("properies", "properties");
             correctionAdd("propreties", "properties");
+
+            correctionAdd("rememer", "remember");
+            correctionAdd("rember", "remember");
+            correctionAdd("remeber", "remember");
+            correctionAdd("rememeber", "remember");
+            correctionAdd("rememebr", "remember");
+            correctionAdd("remembr", "remember");
+            correctionAdd("remmeber", "remember");
+
+            correctionAdd("membet", "member");
+            correctionAdd("memeber", "member");
+
+            correctionAdd("ISTR", "I seem to remember");
+
+            correctionAdd("AFAIR", "as far as I remember");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -8389,6 +8417,7 @@ namespace OverflowHelper.core
             correctionAdd("dependanices", "dependencies");
             correctionAdd("dependcies", "dependencies");
             correctionAdd("depedencies", "dependencies");
+            correctionAdd("dependency's", "dependencies");
 
             correctionAdd("depdening", "depending");
             correctionAdd("Dependending", "depending");
@@ -13373,6 +13402,7 @@ namespace OverflowHelper.core
             correctionAdd("libreOffice", "LibreOffice");
             correctionAdd("LO", "LibreOffice");
             correctionAdd("LibraOffice", "LibreOffice");
+            correctionAdd("Libre", "LibreOffice");
 
             correctionAdd("CKeditor", "CKEditor");
             correctionAdd("ckeditor", "CKEditor");
@@ -17929,6 +17959,7 @@ namespace OverflowHelper.core
             correctionAdd("yourselv", "yourself");
             correctionAdd("urself", "yourself");
             correctionAdd("youself", "yourself");
+            correctionAdd("yerself", "yourself");
 
             correctionAdd("cyrillic", "Cyrillic");
 
@@ -20005,14 +20036,6 @@ namespace OverflowHelper.core
             correctionAdd("phycological", "psychological");
             correctionAdd("Psycological", "psychological");
 
-            correctionAdd("rememer", "remember");
-            correctionAdd("rember", "remember");
-            correctionAdd("remeber", "remember");
-            correctionAdd("rememeber", "remember");
-            correctionAdd("rememebr", "remember");
-            correctionAdd("remembr", "remember");
-            correctionAdd("remmeber", "remember");
-
             correctionAdd("re-written", "rewritten");
             correctionAdd("Re-written", "rewritten");
 
@@ -21632,6 +21655,7 @@ namespace OverflowHelper.core
             correctionAdd("Telegram", "Telegram Messenger");
             correctionAdd("tellygram", "Telegram Messenger");
             correctionAdd("telegram", "Telegram Messenger");
+            correctionAdd("Tg", "Telegram Messenger");
 
             correctionAdd("PortMon", "Portmon");
 
@@ -22524,6 +22548,7 @@ namespace OverflowHelper.core
             correctionAdd("incorrct", "incorrect");
 
             correctionAdd("auto correct", "autocorrect");
+            correctionAdd("Auto Correct", "autocorrect");
 
             correctionAdd("corect", "correct");
             correctionAdd("vorrect", "correct");
@@ -23670,6 +23695,7 @@ namespace OverflowHelper.core
 
             correctionAdd("enthousiastic", "enthusiastic");
             correctionAdd("enthousiast", "enthusiastic");
+            correctionAdd("entousiatic", "enthusiastic");
 
             correctionAdd("Power for the course", "par for the course");
             correctionAdd("power for the course", "par for the course");
@@ -29571,6 +29597,7 @@ namespace OverflowHelper.core
             correctionAdd("Microgravity", "microgravity");
 
             correctionAdd("Non Sequitur", "non sequitur");
+            correctionAdd("non sequiter", "non sequitur");
 
             correctionAdd("Synchronisation", "synchronisation");
 
@@ -30727,6 +30754,14 @@ namespace OverflowHelper.core
 
             correctionAdd("double-speak", "doublespeak");
 
+            correctionAdd("speek", "speak");
+            correctionAdd("speack", "speak");
+
+            correctionAdd("speakig", "speaking");
+            correctionAdd("speacking", "speaking");
+
+            correctionAdd("speakon connector", "Speakon connector");
+
             correctionAdd("Pinball", "pinball");
 
             correctionAdd("schisophrenia", "schizophrenia");
@@ -31708,8 +31743,6 @@ namespace OverflowHelper.core
             correctionAdd("cos", "cosine");
             correctionAdd("Cosine", "cosine");
 
-            correctionAdd("membet", "member");
-
             correctionAdd("pre-allocate", "preallocate");
 
             correctionAdd("pre-allocating", "preallocating");
@@ -31743,8 +31776,6 @@ namespace OverflowHelper.core
             correctionAdd("criticization", "critique");
 
             correctionAdd("Page Object Pattern", "page object pattern");
-
-            correctionAdd("speek", "speak");
 
             correctionAdd("ES3", "ECMAScript&nbsp;3");
             correctionAdd("ECMAScript 3", "ECMAScript&nbsp;3");
@@ -33923,8 +33954,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Maily Dale", "Daily Mail");
 
-            correctionAdd("ISTR", "I seem to remember");
-
             correctionAdd("musicXML", "MusicXML");
 
             correctionAdd("box of pandora", "Pandora's box");
@@ -34251,10 +34280,13 @@ namespace OverflowHelper.core
             correctionAdd("pyusb", "PyUSB");
 
             correctionAdd("airconditiong", "air conditioning");
+            correctionAdd("air-con", "air conditioning");
+            correctionAdd("air-conditioning", "air conditioning");
+            correctionAdd("airco", "air conditioning");
+            correctionAdd("aircon", "air conditioning");
+            correctionAdd("airconditioning", "air conditioning");
 
             correctionAdd("propogating", "propagating");
-
-            correctionAdd("speakig", "speaking");
 
             correctionAdd("Text Editing and Authoring", "TEA");
             correctionAdd("tea", "TEA");
@@ -39542,6 +39574,7 @@ namespace OverflowHelper.core
 
             correctionAdd("idoit", "idiot");
             correctionAdd("Idiot", "idiot");
+            correctionAdd("idot", "idiot");
 
             correctionAdd("SYS.STDOUT", "sys.stdout");
 
@@ -41853,8 +41886,6 @@ namespace OverflowHelper.core
 
             correctionAdd("the regex joke", "RegEx match open tags except XHTML self-contained tags");
 
-            correctionAdd("speakon connector", "Speakon connector");
-
             correctionAdd("TFVC", "Team Foundation Version Control");
 
             correctionAdd("xlr", "XLR");
@@ -43549,6 +43580,7 @@ namespace OverflowHelper.core
             correctionAdd("Yubico keys", "YubiKey");
             correctionAdd("Yubico key", "YubiKey");
             correctionAdd("yubikey", "YubiKey");
+            correctionAdd("Yuebee", "YubiKey");
 
             correctionAdd("famiously", "famously");
             correctionAdd("Famiously", "famously");
@@ -44660,8 +44692,6 @@ namespace OverflowHelper.core
 
             correctionAdd("RubberDucky", "Rubber Ducky");
 
-            correctionAdd("AFAIR", "as far as I remember");
-
             correctionAdd("dissassemble", "disassemble");
 
             correctionAdd("HiZ", "high impedance");
@@ -45255,8 +45285,6 @@ namespace OverflowHelper.core
 
             correctionAdd("QCD", "quantum chromodynamics");
             correctionAdd("Quantum Chromodynamics", "quantum chromodynamics");
-
-            correctionAdd("os.path.join()", "os.path.join");
 
             correctionAdd("randomstringutils", "RandomStringUtils");
 
@@ -46004,6 +46032,8 @@ namespace OverflowHelper.core
             correctionAdd("bitshift", "bit shift");
 
             correctionAdd("fastes", "fastest");
+            correctionAdd("fasted", "fastest");
+            correctionAdd("fastet", "fastest");
 
             correctionAdd("oincidentally", "coincidentally");
 
@@ -47007,8 +47037,6 @@ namespace OverflowHelper.core
 
             correctionAdd("right most", "right-most");
 
-            correctionAdd("sorted", "sorted()");
-
             correctionAdd("second-hand", "secondhand");
 
             correctionAdd("AA", "Alcoholics Anonymous");
@@ -47167,7 +47195,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Url Fetch Service", "URL Fetch Service");
 
+            // Machine learning and artificial intelligence (TensorFlow)
             correctionAdd("adam optimizer", "Adam optimizer");
+            correctionAdd("Adam", "Adam optimizer");
 
             correctionAdd("preprecessor", "C preprocessor");
 
@@ -47176,8 +47206,6 @@ namespace OverflowHelper.core
             correctionAdd("css comments", "CSS comments");
 
             correctionAdd("PHPSH", "phpsh");
-
-            correctionAdd("rtrim", "rtrim()");
 
             correctionAdd("some what", "somewhat");
 
@@ -47188,6 +47216,32 @@ namespace OverflowHelper.core
 
             correctionAdd("self referential", "self-referential");
             correctionAdd("Self referential", "self-referential");
+
+            correctionAdd("rectifier bridge", "bridge rectifier");
+            correctionAdd("diode bridge", "bridge rectifier");
+            correctionAdd("rectifier", "bridge rectifier");
+
+            correctionAdd("Command pattern", "command pattern");
+            correctionAdd("Command objects", "command pattern");
+            correctionAdd("command object", "command pattern");
+            correctionAdd("command objects", "command pattern");
+
+            correctionAdd("fulliest", "fullest");
+
+            correctionAdd("LiVEJOURNAL", "LiveJournal");
+            correctionAdd("Livejournal", "LiveJournal");
+
+            correctionAdd("php.ini", "php.ini file");
+            correctionAdd("php ini", "php.ini file");
+
+            correctionAdd("Symfony 2", "Symfony&nbsp;2");
+            correctionAdd("Symfony2", "Symfony&nbsp;2");
+
+            correctionAdd("VK", "VKontakte");
+
+            correctionAdd("entirely copied", "When should answers consisting entirely of cited, copied content be flagged?");
+
+            correctionAdd("tap water", "tapwater");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74059,6 +74113,26 @@ namespace OverflowHelper.core
 
             URL_Add("self-referential", "https://en.wiktionary.org/wiki/self-referential#Adjective");
 
+            URL_Add("bridge rectifier", "https://en.wikipedia.org/wiki/Diode_bridge");
+
+            URL_Add("command pattern", "https://en.wikipedia.org/wiki/Command_pattern");
+
+            URL_Add("fullest", "https://en.wiktionary.org/wiki/fullest#Adjective");
+
+            URL_Add("LiveJournal", "https://en.wikipedia.org/wiki/LiveJournal");
+
+            URL_Add("php.ini file", "https://www.php.net/manual/en/configuration.file.php");
+
+            URL_Add("Symfony&nbsp;2", "https://en.wikipedia.org/wiki/Symfony#Releases");
+
+            URL_Add("VKontakte", "https://en.wikipedia.org/wiki/VK_(service)");
+
+            URL_Add("When should answers consisting entirely of cited, copied content be flagged?", "https://meta.stackoverflow.com/questions/404102");
+
+            URL_Add("trim()", "https://www.php.net/manual/en/function.trim.php");
+
+            URL_Add("tapwater", "https://en.wiktionary.org/wiki/tap_water#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74706,6 +74780,7 @@ namespace OverflowHelper.core
             correctionAdd("CMS_", "The Chicago Manual of Style_");
             correctionAdd("chicago manual of style_", "The Chicago Manual of Style_");
             correctionAdd("Chicago_", "The Chicago Manual of Style_");
+            correctionAdd("CMOS_", "The Chicago Manual of Style_");
 
             correctionAdd("Are_", "are_");
             correctionAdd("aer_", "are_");
@@ -75793,6 +75868,7 @@ namespace OverflowHelper.core
             // A Flutter class
             correctionAdd("positioned_", "Positioned_");
 
+            // Bash (command line) built-in command
             correctionAdd("WAIT_", "wait_");
 
             // URL mappings
