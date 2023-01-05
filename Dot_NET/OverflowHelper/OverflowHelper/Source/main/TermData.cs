@@ -133,7 +133,6 @@ namespace OverflowHelper.core
         private static void ourAssert(bool aCondition,
                                       string aSomeErrorMessage)
         {
-
             //For debugging
             if (!aCondition)
             {
@@ -141,12 +140,10 @@ namespace OverflowHelper.core
                 //Console.WriteLine("");
             }
 
-
             // The exit code is 134 on Linux if the assert fails. See e.g.
             // <https://stackoverflow.com/a/2862759/> for an explanation.
             //
             Trace.Assert(aCondition, aSomeErrorMessage);
-
         }
 
 
@@ -180,7 +177,6 @@ namespace OverflowHelper.core
             {
                 // To standard output
 
-
                 //Though we get this if it is not outcommented:
                 //
                 //   TermData.cs(183,17): warning CS0162: Unreachable code detected
@@ -198,7 +194,6 @@ namespace OverflowHelper.core
                 //     Outputting to standard error will ***not***
                 //     change the exit code from the program.
 
-
                 //Though we get this if it is not outcommented:
                 //
                 //   TermData.cs(205,17): warning CS0162: Unreachable code detected
@@ -214,9 +209,6 @@ namespace OverflowHelper.core
             Environment.ExitCode = 42; // Hardcoded for now. We may want
                                        // different (symbolic) error
                                        // codes for different errors.
-
-
-
         } //reportError()
 
 
@@ -885,6 +877,7 @@ namespace OverflowHelper.core
             correctionAdd("som", "some");
             correctionAdd("sum", "some");
             correctionAdd("sime", "some");
+            correctionAdd("same", "some");
 
             correctionAdd("WFH", "working from home");
 
@@ -1623,6 +1616,7 @@ namespace OverflowHelper.core
             correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
             correctionAdd("Pyhon", "Python");
             correctionAdd("py thon", "Python");
+            correctionAdd("Phython", "Python");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -4034,6 +4028,16 @@ namespace OverflowHelper.core
             correctionAdd("Version", "version");
             correctionAdd("Verion", "version");
 
+            correctionAdd("programing", "programming");
+            correctionAdd("pragramming", "programming");
+            correctionAdd("proggraming", "programming");
+            correctionAdd("proggramming", "programming");
+            correctionAdd("prgramming", "programming");
+            correctionAdd("protramming", "programming");
+            correctionAdd("Programming", "programming");
+            correctionAdd("programmation", "programming");
+            correctionAdd("programmig", "programming");
+
             correctionAdd("prototype", "Prototype");
             correctionAdd("Prototype.js", "Prototype");
             correctionAdd("prototype.js", "Prototype");
@@ -5637,6 +5641,7 @@ namespace OverflowHelper.core
             correctionAdd("UNIX", "Unix");
             correctionAdd("UNix", "Unix");
 
+            // A Linux distribution
             correctionAdd("suse", "SUSE&nbsp;Linux");
             correctionAdd("SuSE", "SUSE&nbsp;Linux");
             correctionAdd("Suse", "SUSE&nbsp;Linux");
@@ -5644,6 +5649,7 @@ namespace OverflowHelper.core
             correctionAdd("SUSE", "SUSE&nbsp;Linux");
             correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
 
+            // A Linux distribution
             correctionAdd("Opensuse", "openSUSE");
             correctionAdd("opensuse", "openSUSE");
             correctionAdd("OpenSUSE", "openSUSE");
@@ -5671,16 +5677,19 @@ namespace OverflowHelper.core
             correctionAdd("Linux distribuition", "distribution");
             correctionAdd("Linux distro", "distribution");
 
+            // A Linux distribution
             correctionAdd("fedora", "Fedora");
             correctionAdd("Fedora Linux", "Fedora");
             correctionAdd("Fedora OS", "Fedora");
 
+            // A Linux distribution
             correctionAdd("selinux", "SELinux");
             correctionAdd("SELINUX", "SELinux");
             correctionAdd("SElinux", "SELinux");
             correctionAdd("Selinux", "SELinux");
             correctionAdd("SeLinux", "SELinux");
 
+            // A Linux distribution
             correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("red-hat", "Red Hat Linux"); // The OS, not the company.
@@ -5693,9 +5702,11 @@ namespace OverflowHelper.core
             correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("RHL", "Red Hat Linux");
 
+            // A Linux distribution
             correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The OS, not the company.
             correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
 
+            // A Linux distribution
             correctionAdd("gentoo", "Gentoo Linux");
             correctionAdd("Gentoo linux", "Gentoo Linux");
             correctionAdd("Gentoo", "Gentoo Linux");
@@ -5707,6 +5718,7 @@ namespace OverflowHelper.core
             correctionAdd("gent0o", "Gentoo Linux");
             correctionAdd("gento0", "Gentoo Linux");
 
+            // A Linux distribution
             correctionAdd("archlinux", "Arch Linux");
             correctionAdd("Archlinux", "Arch Linux");
             correctionAdd("ArchLinux", "Arch Linux");
@@ -5723,6 +5735,7 @@ namespace OverflowHelper.core
             correctionAdd("pakman", "Pacman");
             correctionAdd("pac-man", "Pacman");
 
+            // A Linux distribution
             correctionAdd("mint", "Linux Mint");
             correctionAdd("Linux mint", "Linux Mint");
             correctionAdd("linux mint", "Linux Mint");
@@ -5732,6 +5745,7 @@ namespace OverflowHelper.core
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
+            // A Linux distribution
             correctionAdd("ubuntu", "Ubuntu");
             correctionAdd("UBUNTU", "Ubuntu");
             correctionAdd("Ubunutu", "Ubuntu"); // Misspelling.
@@ -6064,12 +6078,15 @@ namespace OverflowHelper.core
             correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
 
+            // A Linux distribution
             correctionAdd("kubuntu", "Kubuntu");
             correctionAdd("KUbuntu", "Kubuntu");
 
+            // A Linux distribution
             correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
 
+            // A Linux distribution
             correctionAdd("Kali", "Kali Linux");
             correctionAdd("kali", "Kali Linux");
             correctionAdd("Linux Kali", "Kali Linux");
@@ -6102,6 +6119,7 @@ namespace OverflowHelper.core
             correctionAdd("alpine linux", "Alpine Linux");
             correctionAdd("Alpine", "Alpine Linux");
 
+            // A Linux distribution
             correctionAdd("Linux MX", "MX Linux");
             correctionAdd("MX-Linux", "MX Linux");
             correctionAdd("MXLinux", "MX Linux");
@@ -6139,11 +6157,13 @@ namespace OverflowHelper.core
             correctionAdd("AgroLinux", "ArcoLinux");
             correctionAdd("arco linux", "ArcoLinux");
 
+            // A Linux distribution
             correctionAdd("manjaro", "Manjaro");
             correctionAdd("manjaro linux", "Manjaro");
 
             correctionAdd("PC Linux OS", "PCLinuxOS");
 
+            // A Linux distribution
             correctionAdd("Pop! OS", "Pop!_OS");
             correctionAdd("POP OS", "Pop!_OS");
             correctionAdd("Pop OS", "Pop!_OS");
@@ -6826,6 +6846,9 @@ namespace OverflowHelper.core
             correctionAdd("oblect", "object");
             correctionAdd("oblects", "object");
             correctionAdd("Object", "object");
+            correctionAdd("objects", "object");
+            correctionAdd("onject", "object");
+            correctionAdd("onjects", "object");
 
             correctionAdd("dtype", "data type object");
 
@@ -8293,6 +8316,12 @@ namespace OverflowHelper.core
             correctionAdd("openvpn", "OpenVPN"); // Not actually observed.
             correctionAdd("openVPN", "OpenVPN");
 
+            correctionAdd("vpn", "VPN");
+            correctionAdd("Virtual Private Network", "VPN");
+            correctionAdd("virtual private network", "VPN");
+
+            correctionAdd("Nord VPN", "NordVPN");
+
             correctionAdd("mongodb", "MongoDB"); // Not actually observed. For the link.
             correctionAdd("Mongo db", "MongoDB");
             correctionAdd("Mongodb", "MongoDB");
@@ -9238,6 +9267,7 @@ namespace OverflowHelper.core
             correctionAdd("termina", "terminal");
             correctionAdd("termianl", "terminal");
             correctionAdd("termial", "terminal");
+            correctionAdd("termail", "terminal");
 
             correctionAdd("pseudotty", "pseudoterminal");
             correctionAdd("PTY", "pseudoterminal");
@@ -9761,6 +9791,7 @@ namespace OverflowHelper.core
 
             correctionAdd("acess", "access");
             correctionAdd("acces", "access");
+            correctionAdd("acscess", "access");
 
             correctionAdd("htacces", ".htaccess");
             correctionAdd("htaccess", ".htaccess");
@@ -10384,8 +10415,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ssh", "SSH");
             correctionAdd("Secure Shell", "SSH");
-
-            correctionAdd("vpn", "VPN");
 
             correctionAdd("faq", "FAQ");
             correctionAdd("Faq", "FAQ");
@@ -11363,6 +11392,7 @@ namespace OverflowHelper.core
             correctionAdd("withoub", "without");
             correctionAdd("withour", "without");
             correctionAdd("widthout", "without");
+            correctionAdd("With out", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -11444,6 +11474,7 @@ namespace OverflowHelper.core
             correctionAdd("Troough", "through");
             correctionAdd("troough", "through");
             correctionAdd("thourgh", "through");
+            correctionAdd("trought", "through");
 
             correctionAdd("tut", "tutorial");
             correctionAdd("tutorail", "tutorial"); // Misspelling
@@ -15923,6 +15954,7 @@ namespace OverflowHelper.core
             correctionAdd("thant's", "that’s");
             correctionAdd("tht's", "that’s");
             correctionAdd("tht’s", "that’s");
+            correctionAdd("that´s", "that’s");
 
             // correctionAdd("v.s", "vs."); // Bug...
             correctionAdd("versus", "vs."); //
@@ -18374,15 +18406,6 @@ namespace OverflowHelper.core
             correctionAdd("possibile", "possible");
             correctionAdd("poissible", "possible");
 
-            correctionAdd("programing", "programming");
-            correctionAdd("pragramming", "programming");
-            correctionAdd("proggraming", "programming");
-            correctionAdd("proggramming", "programming");
-            correctionAdd("prgramming", "programming");
-            correctionAdd("protramming", "programming");
-            correctionAdd("Programming", "programming");
-            correctionAdd("programmation", "programming");
-
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
             correctionAdd("retorical", "rhetorical");
@@ -18788,6 +18811,7 @@ namespace OverflowHelper.core
 
             correctionAdd("descrete", "discrete");
             correctionAdd("Discrete", "discrete");
+            correctionAdd("discreet", "discrete");
 
             correctionAdd("litle", "little");
             correctionAdd("litte", "little");
@@ -20048,6 +20072,8 @@ namespace OverflowHelper.core
             correctionAdd("Simultaniously", "simultaneously");
             correctionAdd("simultaniously", "simultaneously");
             correctionAdd("simultanius", "simultaneously");
+            correctionAdd("simultaniuosly", "simultaneously");
+            correctionAdd("simutaniuosly", "simultaneously");
 
             correctionAdd("sligtly", "slightly");
             correctionAdd("slighty", "slightly");
@@ -23023,6 +23049,9 @@ namespace OverflowHelper.core
 
             correctionAdd("accesing", "accessing");
             correctionAdd("acessing", "accessing");
+            correctionAdd("Ascessing", "accessing");
+            correctionAdd("acsessing", "accessing");
+            correctionAdd("ascessing", "accessing");
 
             correctionAdd("aquisition", "acquisition");
 
@@ -24067,6 +24096,13 @@ namespace OverflowHelper.core
 
             correctionAdd("die-hard", "diehard");
             correctionAdd("die hard", "diehard");
+
+            correctionAdd("hrad", "hard");
+            correctionAdd("HAWD", "hard");
+            correctionAdd("hawd", "hard");
+
+            correctionAdd("NP hard", "NP-hard");
+            correctionAdd("NP-Hard", "NP-hard");
 
             correctionAdd("Heavy Bomber", "heavy bomber");
 
@@ -25825,6 +25861,9 @@ namespace OverflowHelper.core
             correctionAdd("sucessfull", "successful");
             correctionAdd("sucesfull", "successful");
             correctionAdd("Successfull", "successful");
+            correctionAdd("successeful", "successful");
+            correctionAdd("sucesseful", "successful");
+            correctionAdd("sucsseful", "successful");
 
             correctionAdd("succesfully", "successfully");
             correctionAdd("secsessfully", "successfully");
@@ -27643,8 +27682,6 @@ namespace OverflowHelper.core
             correctionAdd("detialed", "detailed");
             correctionAdd("detailled", "detailed");
 
-            correctionAdd("hrad", "hard");
-
             correctionAdd("phenomen", "phenomenon");
             correctionAdd("phenomenom", "phenomenon");
 
@@ -28383,6 +28420,7 @@ namespace OverflowHelper.core
             correctionAdd("diplay", "display");
             correctionAdd("diaplay", "display");
             correctionAdd("desplay", "display");
+            correctionAdd("disply", "display");
 
             correctionAdd("imagion", "imagine");
             correctionAdd("Emargin", "imagine");
@@ -30007,6 +30045,8 @@ namespace OverflowHelper.core
 
             correctionAdd("verry", "very");
             correctionAdd("vary", "very");
+            correctionAdd("WEAWY", "very");
+            correctionAdd("weawy", "very");
 
             correctionAdd("BABYLON", "Babylon");
 
@@ -32891,6 +32931,7 @@ namespace OverflowHelper.core
 
             correctionAdd("execeuting", "executing");
             correctionAdd("executiong", "executing");
+            correctionAdd("excuting", "executing");
 
             correctionAdd("forgetten", "forgotten");
 
@@ -37133,8 +37174,6 @@ namespace OverflowHelper.core
             correctionAdd("gitea", "Gitea");
             correctionAdd("GiTea", "Gitea");
 
-            correctionAdd("Nord VPN", "NordVPN");
-
             correctionAdd("taylor series", "Taylor series");
 
             correctionAdd("plaintext", "plain text");
@@ -37423,9 +37462,6 @@ namespace OverflowHelper.core
             correctionAdd("cortana", "Cortana");
 
             correctionAdd("Google assistant", "Google Assistant");
-
-            correctionAdd("NP hard", "NP-hard");
-            correctionAdd("NP-Hard", "NP-hard");
 
             correctionAdd("Pyaudio", "PyAudio");
             correctionAdd("pyaudio", "PyAudio");
@@ -43301,6 +43337,7 @@ namespace OverflowHelper.core
             correctionAdd("standup", "daily stand-up meeting");
 
             correctionAdd("explaiend", "explained");
+            correctionAdd("explainined", "explained");
 
             correctionAdd("less more", "fewer");
 
@@ -43439,6 +43476,7 @@ namespace OverflowHelper.core
             correctionAdd("Open AI", "OpenAI");
             correctionAdd("OpenAi", "OpenAI");
             correctionAdd("openai", "OpenAI");
+            correctionAdd("openAI", "OpenAI");
 
             correctionAdd("tinder", "Tinder");
 
@@ -46726,6 +46764,7 @@ namespace OverflowHelper.core
             correctionAdd("open chat GPT", "ChatGPT");
             correctionAdd("chat GPT", "ChatGPT");
             correctionAdd("chat gpt", "ChatGPT");
+            correctionAdd("C-G", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -47263,6 +47302,44 @@ namespace OverflowHelper.core
             correctionAdd("entirely copied", "When should answers consisting entirely of cited, copied content be flagged?");
 
             correctionAdd("tap water", "tapwater");
+
+            correctionAdd("chosing", "choosing");
+
+            correctionAdd("Enlightened", "Enlightened badge");
+            correctionAdd("enlightened badge", "Enlightened badge");
+
+            correctionAdd("IMX", "in my experience");
+
+            correctionAdd("Sallen Key", "Sallen–Key filter");
+            correctionAdd("Sallen-Key", "Sallen–Key filter");
+            correctionAdd("Sallen-Key filter", "Sallen–Key filter");
+
+            correctionAdd("I bond", "Series I bonds");
+            correctionAdd("I bonds", "Series I bonds");
+
+            correctionAdd("VCVS", "voltage-controlled voltage source");
+
+            correctionAdd("sub net", "subnetwork");
+            correctionAdd("subent", "subnetwork"); // A true typo
+            correctionAdd("subnet", "subnetwork");
+
+            correctionAdd("EIGRP", "Enhanced Interior Gateway Routing Protocol");
+            correctionAdd("eigrp", "Enhanced Interior Gateway Routing Protocol");
+
+            correctionAdd("Netsim", "NetSim");
+
+            correctionAdd("popped in", "popped out");
+
+            correctionAdd("Diffie-Hellman", "Diffie–Hellman key exchange");
+            correctionAdd("diffie hellman", "Diffie–Hellman key exchange");
+
+            correctionAdd("fillin", "fill in");
+
+            correctionAdd("re-asking", "reasking");
+
+            correctionAdd("seleted", "selected");
+
+            correctionAdd("self guided", "self-guided");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74154,6 +74231,36 @@ namespace OverflowHelper.core
 
             URL_Add("tapwater", "https://en.wiktionary.org/wiki/tap_water#Noun");
 
+            URL_Add("choosing", "https://en.wiktionary.org/wiki/choose#Verb");
+
+            URL_Add("Enlightened badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("in my experience", "https://en.wiktionary.org/wiki/IMX#Prepositional_phrase");
+
+            URL_Add("Sallen–Key filter", "https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology#Application:_low-pass_filter");
+
+            URL_Add("Series I bonds", "https://en.wikipedia.org/wiki/United_States_Savings_Bonds#Series_I");
+
+            URL_Add("voltage-controlled voltage source", "https://en.wikipedia.org/wiki/Dependent_source#Classification");
+
+            URL_Add("subnetwork", "https://en.wikipedia.org/wiki/Subnetwork");
+
+            URL_Add("Enhanced Interior Gateway Routing Protocol", "https://en.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol");
+
+            URL_Add("NetSim", "https://en.wikipedia.org/wiki/Network_simulation#List_of_network_simulators");
+
+            URL_Add("popped out", "https://en.wiktionary.org/wiki/pop_out#Verb");
+
+            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
+
+            URL_Add("fill in", "https://en.wiktionary.org/wiki/fill_in#Verb");
+
+            URL_Add("reasking", "https://en.wiktionary.org/wiki/reask#Verb");
+
+            URL_Add("selected", "https://en.wiktionary.org/wiki/selected#Adjective");
+
+            URL_Add("self-guided", "https://en.wiktionary.org/wiki/self-guided#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74734,13 +74841,15 @@ namespace OverflowHelper.core
             correctionAdd("nvm_", "never mind_");
             correctionAdd("NVM_", "never mind_");
 
-            correctionAdd("Google_", "Google Search_"); // The search engine
-            correctionAdd("google search_", "Google Search_"); // The search engine
-            correctionAdd("Google search_", "Google Search_"); // The search engine
-            correctionAdd("GOOGL_", "Google Search_"); // The search engine
-            correctionAdd("GOOGLE_", "Google Search_"); // The search engine
-            correctionAdd("googlr_", "Google Search_"); // The search engine
-            correctionAdd("goolge_", "Google Search_"); // The search engine
+            // The search engine
+            correctionAdd("Google_", "Google Search_");
+            correctionAdd("google search_", "Google Search_");
+            correctionAdd("Google search_", "Google Search_");
+            correctionAdd("GOOGL_", "Google Search_");
+            correctionAdd("GOOGLE_", "Google Search_");
+            correctionAdd("googlr_", "Google Search_");
+            correctionAdd("goolge_", "Google Search_");
+            correctionAdd("Goog_", "Google Search_");
 
             correctionAdd("google_", "Google (company)_");
 
@@ -75610,6 +75719,7 @@ namespace OverflowHelper.core
             correctionAdd("LM_", "large language model_");
             correctionAdd("LLM_", "large language model_");
             correctionAdd("LLMs_", "large language model_");
+            correctionAdd("Large Language Model_", "large language model_");
 
             correctionAdd("ifr_", "IFR_");
 
@@ -75891,6 +76001,18 @@ namespace OverflowHelper.core
 
             // Bash (command line) built-in command
             correctionAdd("WAIT_", "wait_");
+
+            correctionAdd("some_", "same_");
+
+            correctionAdd("Copilot_", "Copilot (copyright laundering machine)_");
+            correctionAdd("CoPilot_", "Copilot (copyright laundering machine)_");
+
+            correctionAdd("discrete_", "discreet_");
+
+            correctionAdd("look up_", "lookup_");
+            correctionAdd("look of_", "lookup_");
+
+            correctionAdd("Selenium_", "selenium_");
 
             // URL mappings
             //
@@ -76884,6 +77006,16 @@ namespace OverflowHelper.core
             URL_Add("Positioned_", "https://api.flutter.dev/flutter/widgets/Positioned-class.html");
 
             URL_Add("wait_", "http://linux.die.net/man/1/wait");
+
+            URL_Add("same_", "https://en.wiktionary.org/wiki/same#Adjective");
+
+            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
+
+            URL_Add("discreet_", "https://en.wiktionary.org/wiki/discreet#Adjective");
+
+            URL_Add("lookup_", "https://en.wiktionary.org/wiki/lookup#Noun");
+
+            URL_Add("selenium_", "https://en.wikipedia.org/wiki/Selenium");
 
         } //addLookupData_alternativeWordSet()
 
