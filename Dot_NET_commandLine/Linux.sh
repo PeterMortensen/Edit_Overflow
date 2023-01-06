@@ -2138,8 +2138,14 @@ cd ${SELINUM_DRIVERSCRIPT_DIR}
 #
 #   C0302: For more than 1,000 lines...
 #
+#   R0914: For more than 15 local variables... Though it would be
+#          better to configure it for 16 15 local variables.
+#
 #pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+
+
 
 
 
@@ -2467,7 +2473,6 @@ rm $COMPILECHECK_OUT
 # Note: The same build number
 wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 
-#exit
 
 
 # ###########################################################################
@@ -2481,7 +2486,6 @@ wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 #
 startOfBuildStep "31" "Exporting the word list as SQL"
 
-#exit
 
 
 # Main operation: Export word list to SQL
@@ -2582,14 +2586,12 @@ rm $HTML_FILE
 # Note: The same build number
 wordListExport 33 "HTML"  $HTML_FILE   4200000 4630000
 
-#exit
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
 
 #echo
 #ls -ls $HTML_FILE_GENERIC
 
-#exit
 
 
 # ###########################################################################
@@ -2620,7 +2622,6 @@ rm $JAVASCRIPT_FILE
 # Note: The same build number
 wordListExport 35 "JavaScript"  $JAVASCRIPT_FILE   3030000 33340000
 
-#exit
 
 # In the work folder
 cp  $JAVASCRIPT_FILE  $JAVASCRIPT_FILE_GENERIC

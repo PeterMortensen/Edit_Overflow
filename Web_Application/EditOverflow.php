@@ -305,6 +305,7 @@
             $link_WikiMedia = "";
             $link_WikiMedia_External = "";
             $correctionComment = "";
+            $linkWordListWithPageAnchor = "";
 
             # Avoid "Undefined variable: editSummary_output",
             # etc. if the lookup of the term failed.
@@ -419,7 +420,6 @@
                   "<a href=\"" . $URL . "\"" .
                   ">" . $correctTerm . "</a>";
 
-
                 # Link, in MediaWiki format, internal (e.g., for Wikipedia)
                 #
                 # We preformat it in italics (two single quotes on Wikipeida)
@@ -442,6 +442,41 @@
                   "It is \"" . $correctTerm . "\" (not \"" .
                   $lookUpTerm . "\"). See e.g.: " . $URL .
                   ". You can edit your question/comment/answer/post.";
+
+                # Cross reference to the word list (in HTML format)
+                # in the result, with a page anchor
+                #
+                # We need change or remove some of the content in the page
+                # anchors to both conform to HTML rules and to reduce
+                # complexity, corresponding to the transformations in
+                # addTermsToOutput_HTML() in file <TermLookup.cs>.
+                #
+                $replacer = new StringReplacerWithRegex($correctTerm);
+
+                # HTML with accept space in page anchor (e.g.,
+                # it doesn’t validate)
+                $replacer->transform(' ', '_');
+
+                # "&" is encoded as "&amp;" at this point...
+                $replacer->transform('&amp;nbsp;', '_');
+
+                # Remove double quotes. Though we currently only have one
+                # instance in the entire word set (for the correct word)...:
+                #
+                #     eval (near "*The args are read and concatenated together"*)_
+                #
+                # They are encoded as "&quot;" at this point...
+                $replacer->transform('&quot;', '');
+
+                # Remove asterisks.
+                $replacer->transform('\*', '');
+
+                $WordListPageAnchor = $replacer->currentString();
+
+                $linkWordListWithPageAnchor =
+                  "https://pmortensen.eu/" .
+                  "EditOverflow/_Wordlist/EditOverflowList_latest.html" .
+                  "#$WordListPageAnchor";
             } //Term lokup succeeded
 
 
@@ -781,7 +816,12 @@
                     title="Shortcut: Shift + Alt + O"
                 >
 
-                <label for="URL"><?php echo get_HTMLlink("URL", $URL, "") ?></label>
+                <?php
+                  # Note: We can not (currently) break it into several
+                  #       lines due to limitations in the check script
+                  #       <KeyboardShortcutConsistency.pl>...
+                ?>
+                <label for="URL"><?php echo get_HTMLlink("URL", $URL, "") ?> <?php echo get_HTMLlink("Words", $linkWordListWithPageAnchor, ' id="1004"') ?></label>
                 <input
                     name="URL"
                     type="text"

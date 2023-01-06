@@ -66,6 +66,9 @@
 #             2022-05-20   Added check of escape of double                  #
 #                          quote in HTML form elements.                     #
 #                                                                           #
+#             2023-01-06   An exception changed (due to adding a feature    #
+#                          in Edit Overflow lookup output).                 #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -563,7 +566,10 @@ if ($proceedWithMainProcessing)
                                        # shortcut letter ("E")). And it is
                                        # a link anyway, so it would be
                                        # invisible..
-                                       ($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?>') ||
+                                       #
+                                       #
+                                       #($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?>') || # Until 2023-01-05.
+                                       ($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?> <?php echo get_HTMLlink("Words", $linkWordListWithPageAnchor, \' id="1004"\') ?>') ||
 
                                        # Presuming it is for the form submit...
                                        #
