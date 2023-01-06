@@ -633,6 +633,9 @@ namespace OverflowHelper.core
                 // entire word list.
                 escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"""", @"");
 
+                // Filter out asterisks
+                escapedCorrectedTerm = escapedCorrectedTerm.Replace(@"*", @"");
+
                 string attrStr =
                   @" id=""" + escapedCorrectedTerm + @""""; // Note: Leading space
 
@@ -869,7 +872,7 @@ namespace OverflowHelper.core
                     }
                     if (someURL.Contains("duckduckgo.com") ||
                         someURL.Contains("www.google.com"))
-                    { 
+                    {
                         // A (hardcoded) exception (only one at this time). This depends
                         // entirely on the content of the word list. But we can't
                         // really justify a more general approach at this point.

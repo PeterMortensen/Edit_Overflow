@@ -22,7 +22,16 @@
 #
 ########################################################################
 
-import unittest
+import unittest # Home page: <https://docs.python.org/3.8/library/unittest.html>
+                #
+                # Unconditional failure (e.g. in an if-construct
+                # with some complex conditions),
+                # <https://docs.python.org/3.8/library/unittest.html#unittest.TestCase.fail>:
+                #
+                #     fail(msg=None)
+                #
+                #     Signals a test failure unconditionally, with msg or None for the error message.
+
 
 import time
 
@@ -314,12 +323,26 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     #          "/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_"
     #
+    #    aWordListReferenceURL
+    #
+    #      Expected to be a link to the Edit Overflow word in HTML
+    #      format, with a page anchor (for direct display for the
+    #      word group).
+    #
+    #      An empty string means the field is expected
+    #      to be ***absent*** in the HTML output.
+    #
+    #      Sample:
+    #
+    #          https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html#Super_User_(Stack_Exchange_site)
+    #
     def _lookUp(self,
                 aLookUpTerm,
                 aExpectedEditSummary,
                 anExplanation,
                 anAlternativeLinkText,
-                anAlternativeURL):
+                anAlternativeURL,
+                aWordListReferenceURL):
 
         # Internal consistency test (check for client specification
         # error). If there is a cross reference, then
@@ -334,7 +357,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                 anAlternativeURL != "",
                 "Internal error in _lookUp(): URL not specified for " +
                 ' cross reference "' + anAlternativeLinkText + '".' )
-
 
         self._submitTerm(aLookUpTerm)
 
@@ -357,6 +379,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #
         #         selenium.common.exceptions.NoSuchElementException:
         #         Message: Unable to locate element: [id="1002"]
+        #
+        #      There isn't a non-deprecated way
+        #      to avoid the exception(?).
         #
         #   2) The plural functions, e.g. findElements_by_id(), that
         #      don't throw exceptions have been removed in later
@@ -396,7 +421,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #
             alternativeURL = foundElement.get_attribute("href")
 
-            # get_attribute("attribute name")
 
         # For now: Override, if the other exists. Thus we can not
         #          really handle two alternatives at the moment.
@@ -424,8 +448,62 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                              anAlternativeLinkText,
                              "Missing expected cross reference to " +
                                "the alternative word set" +
-                               lookupReference)
+                               lookupReference + ".")
 
+        # Cross link to the word list page. Introduced 2023-01-06
+        #
+        # Note: Of the four combinations of field present/absent and
+        #       specified URL non-empty/empty, we only accept two:
+        #
+        #         1. Non-empty URL and present field.
+        #         2. Empty URL and absent field.
+        #
+        #       The other two combinations indicate
+        #       a (PHP) program error or a (test)
+        #       specification error.
+        #
+        isWordlistReferencePresent = self._core_elementExists("1004")
+        if isWordlistReferencePresent and (aWordListReferenceURL != ""):
+            # One combination
+
+            foundElement_wordListReference = self.browser.find_element(By.ID, "1004")
+            linkText_wordListReference = foundElement_wordListReference.text
+            URL_wordListReference = foundElement_wordListReference.get_attribute("href")
+
+            # More sanity checking
+            self.assertEqual(linkText_wordListReference,
+                             "Words",
+                             "Wrong cross reference text: " +
+                               linkText_wordListReference + ".")
+
+            # The real test (of the URL, with page anchor)
+            self.assertEqual(URL_wordListReference,
+                             aWordListReferenceURL,
+                             "Wrong cross reference link for " +
+                               linkText_wordListReference + ".")
+
+        else:
+            if not isWordlistReferencePresent:
+                # Covers two combinations
+
+                # If it isn't present on the page then it should also
+                # be indicated in the test specification (empty URL).
+                self.assertEqual("",
+                                 aWordListReferenceURL,
+                                 "The element in absent, but it " +
+                                   "is specified to be there.")
+
+            else:
+                # The above covers theee combinations, thus
+                # there is only one (invalid) one left.
+
+                # Or conversly, if it is specified to be empty, then
+                # the element should not be present on the page.
+                #
+                # For this test: All other combinations than
+                # the two above are not valid.
+                self.fail("The element is present " +
+                            "but it is specified to be absent.")
 
     # =======================================================================
 
@@ -793,11 +871,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         site = URLparts.scheme + "://" + URLparts.netloc
         altURLprefix = site + "/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm="
 
+        # Absolute URL (production) for now
+        wordList_URLprefix = "https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html#"
+
         singleLookup_editSummary_PHP = 'Active reading [<https://en.wikipedia.org/wiki/PHP>].'
 
         firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
         defaultMsgForEditSummary = 'Unexpected edit summary '
-
 
         if True: # Test a normal lookup (implicitly through HTML get). For
                  # now, only regression test for the edit summary field.
@@ -815,7 +895,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          defaultMsgForEditSummary,
                          "Python (tag wiki)",
                          #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
-                         altURLprefix + "python_")
+                         altURLprefix + "python_",
+                         wordList_URLprefix + "Python")
 
         if True: # Test a failed lookup.
 
@@ -826,7 +907,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("PHP__Z",
                         firstRealLookup_editSummary,
                         'Changed edit summary for a failed Edit Overflow lookup',
-                        "", "")
+                        "", "",
+                        "") # Though in the browser it shows
+                            # as the current page's URL...
 
         if True: # Lookup ***after a failed*** lookup.
 
@@ -835,7 +918,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("until",
                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
                         defaultMsgForEditSummary + 'for looking up a ***correct*** term',
-                        "", "")
+                        "", "",
+                        wordList_URLprefix + "until")
 
         if True: # Test clearing the edit summary state (user controlled
                  # by checkbox "Reset lookup state")
@@ -850,8 +934,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("php",
                          singleLookup_editSummary_PHP,
                          defaultMsgForEditSummary,
-                         "PHP (tag wiki)", altURLprefix + "php_")
-
+                         "PHP (tag wiki)", altURLprefix + "php_",
+                         wordList_URLprefix + "PHP")
 
         if True: # Do a ***failing lookup*** after a reset - we had a
                  # regression with an edit summary of "Active reading []."
@@ -864,16 +948,18 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("PHP__Z",
                          singleLookup_editSummary_PHP,
                          defaultMsgForEditSummary,
-                         "", "")
-
+                         "", "",
+                         "") # Though in the browser it shows
+                             # as the current page's URL...
 
         if True: # Test clearing the edit summary state and with
                  # an initial lookup of an unknown term
 
             self._setCheckbox("resetState")
             self._lookUp("PHP__Z", "", defaultMsgForEditSummary,
-                         "", "")
-
+                         "", "",
+                         "") # Though in the browser it shows
+                             # as the current page's URL...
 
         if True: #
                  #
@@ -887,8 +973,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("*nix",
                          "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
                          defaultMsgForEditSummary,
-                         "", "")
-
+                         "", "",
+                         wordList_URLprefix + "Unix-like")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test an expected cross reference (in
@@ -903,11 +989,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "Active reading [<https://superuser.com/tour>].",
                          defaultMsgForEditSummary,
                          "superuser",
-                         altURLprefix + "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
+                         altURLprefix + "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_",
                            # Requires a weird mapping in the word list...
+                         wordList_URLprefix + "Super_User_(Stack_Exchange_site)")
 
-#"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Super%26nbsp%3BUser+%28Stack+Exchange+site%29_"
-#                                                        "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
+                                 #"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Super%26nbsp%3BUser+%28Stack+Exchange+site%29_"
+                                 #                                                        "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test an expected cross reference (in
@@ -924,9 +1011,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
                          defaultMsgForEditSummary,
                          "Azure (tag wiki)",
-                         altURLprefix + "Microsoft+Azure_") # "+" is for space in the
+                         altURLprefix + "Microsoft+Azure_", # "+" is for space in the
                                                             # URL query parameter
-
+                         wordList_URLprefix + "Microsoft_Azure")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test the new functionality as of 2023-01-02 to
@@ -941,8 +1028,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("quite_",
                          "Active reading [<https://en.wiktionary.org/wiki/quite#Adverb>].",
                          defaultMsgForEditSummary,
-                         "quiet",
-                        altURLprefix + "quite")
+                         "quiet", altURLprefix + "quite",
+                         wordList_URLprefix + "quite_")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test encoding, for "+", for the cross reference URL
@@ -955,7 +1042,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "Active reading [<https://en.wikipedia.org/wiki/C%2B%2B>].",
                          defaultMsgForEditSummary,
                          "C++ (tag wiki)",
-                         altURLprefix + "c%2B%2B_")
+                         altURLprefix + "c%2B%2B_",
+                         wordList_URLprefix + "C++")
 
 
     # Helper function for testing
@@ -994,9 +1082,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #                                                                       #
     #   Note: These test function do ***not*** run in the order             #
     #         listed here. They seem to be run in alphabetical              #
-    #         order, e.g. "test_local_linkBuilder" runs first.              #
+    #         order, e.g., "test_local_linkBuilder" runs first.             #
     #                                                                       #
-    #         Our naming convention                                                              #
+    #         Our naming convention                                         #
     #                                                                       #
     #########################################################################
 
