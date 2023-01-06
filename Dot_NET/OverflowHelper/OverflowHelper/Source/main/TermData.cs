@@ -5455,6 +5455,9 @@ namespace OverflowHelper.core
             correctionAdd("stacksexchange", "Stack&nbsp;Exchange");
             correctionAdd("stacks exchange", "Stack&nbsp;Exchange");
             correctionAdd("Stac kExchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Extchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stak Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stake Exchange", "Stack&nbsp;Exchange");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -17348,6 +17351,7 @@ namespace OverflowHelper.core
             correctionAdd("is gonna", "is going to");
             correctionAdd("ganna", "is going to");
             correctionAdd("Gonna", "is going to");
+            correctionAdd("going to", "is going to");
 
             correctionAdd("intro", "introduction");
             correctionAdd("introdution", "introduction");
@@ -19848,6 +19852,8 @@ namespace OverflowHelper.core
 
             correctionAdd("docker-compose", "Docker Compose");
             correctionAdd("Docker-Compose", "Docker Compose");
+            correctionAdd("Docker compose", "Docker Compose");
+            correctionAdd("docker compose", "Docker Compose");
 
             correctionAdd("konqueror", "Konqueror");
 
@@ -24109,6 +24115,7 @@ namespace OverflowHelper.core
             correctionAdd("lanch", "launch");
             correctionAdd("Lauch", "launch");
             correctionAdd("lauch", "launch");
+            correctionAdd("lynch", "launch");
 
             correctionAdd("loose loose", "lose-lose");
             correctionAdd("lose lose", "lose-lose");
@@ -25639,6 +25646,7 @@ namespace OverflowHelper.core
             correctionAdd("hao", "how");
             correctionAdd("Hwo", "how");
             correctionAdd("hwo", "how");
+            correctionAdd("hoe", "how");
 
             correctionAdd("Java6", "Java&nbsp;6");
             correctionAdd("java 6", "Java&nbsp;6");
@@ -28743,6 +28751,8 @@ namespace OverflowHelper.core
             correctionAdd("On the other, hand", "on the other hand");
             correctionAdd("on the other, hand", "on the other hand");
             correctionAdd("On the other hand", "on the other hand");
+            correctionAdd("On other hand", "on the other hand");
+            correctionAdd("on other hand", "on the other hand");
 
             correctionAdd("on one hand", "on the one hand");
             correctionAdd("From one hand", "on the one hand");
@@ -30790,6 +30800,7 @@ namespace OverflowHelper.core
             correctionAdd("numer", "number");
             correctionAdd("nbr", "number");
             correctionAdd("Number", "number");
+            correctionAdd("numnber", "number");
 
             correctionAdd("permanantly", "permanently");
             correctionAdd("permentantly", "permanently");
@@ -33207,6 +33218,7 @@ namespace OverflowHelper.core
             correctionAdd("N channel MOSFET", "n-channel MOSFET");
 
             correctionAdd("lauched", "launched");
+            correctionAdd("lunched", "launched");
 
             correctionAdd("copy paste detector", "Copy/Paste Detector");
             correctionAdd("CPD", "Copy/Paste Detector");
@@ -38919,6 +38931,7 @@ namespace OverflowHelper.core
             correctionAdd("peripheral component analysis", "principal component analysis");
 
             correctionAdd("publickey", "public key");
+            correctionAdd("pub key", "public key");
 
             correctionAdd("svd", "singular value decomposition");
             correctionAdd("Singular Value Decomposition", "singular value decomposition");
@@ -47273,6 +47286,7 @@ namespace OverflowHelper.core
             correctionAdd("CSS comment", "CSS comments");
             correctionAdd("css comment", "CSS comments");
             correctionAdd("css comments", "CSS comments");
+            correctionAdd("CSS comment character sequence", "CSS comments");
 
             correctionAdd("PHPSH", "phpsh");
 
@@ -47340,6 +47354,30 @@ namespace OverflowHelper.core
             correctionAdd("seleted", "selected");
 
             correctionAdd("self guided", "self-guided");
+
+            correctionAdd("divisbility", "divisibility");
+
+            correctionAdd("TD", "td"); // HTML tag
+
+            correctionAdd("visitng", "visiting");
+
+            correctionAdd("Arjun", "Arjun Erigaisi");
+
+            correctionAdd("Imma", "I’m going to");
+            correctionAdd("I'm going to", "I’m going to");
+            correctionAdd("I'm gonna", "I’m going to");
+            correctionAdd("imma", "I’m going to");
+
+            correctionAdd("safe", "save");
+
+            correctionAdd("berlusconi", "Silvio Berlusconi");
+
+            correctionAdd("acidental", "accidental");
+
+            correctionAdd("bowser", "Bowser");
+
+            correctionAdd("World 8", "World 8-Bowser's Castle");
+            correctionAdd("world 8", "World 8-Bowser's Castle");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74260,6 +74298,26 @@ namespace OverflowHelper.core
             URL_Add("selected", "https://en.wiktionary.org/wiki/selected#Adjective");
 
             URL_Add("self-guided", "https://en.wiktionary.org/wiki/self-guided#Adjective");
+
+            URL_Add("divisibility", "https://en.wiktionary.org/wiki/divisibility#Noun");
+
+            URL_Add("td", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td");
+
+            URL_Add("visiting", "https://en.wiktionary.org/wiki/visit#Verb");
+
+            URL_Add("Arjun Erigaisi", "https://en.wikipedia.org/wiki/Arjun_Erigaisi");
+
+            URL_Add("I’m going to", "https://en.wiktionary.org/wiki/going_to#Phrase");
+
+            URL_Add("save", "https://en.wiktionary.org/wiki/save#Verb");
+
+            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
+
+            URL_Add("accidental", "https://en.wiktionary.org/wiki/accidental#Adjective");
+
+            URL_Add("Bowser", "https://en.wikipedia.org/wiki/Bowser");
+
+            URL_Add("World 8-Bowser's Castle", "https://www.mariowiki.com/World_8-Bowser's_Castle_(Super_Mario_Bros._3)");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
