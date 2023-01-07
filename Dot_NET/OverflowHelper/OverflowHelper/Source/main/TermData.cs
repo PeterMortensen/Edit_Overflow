@@ -2533,6 +2533,8 @@ namespace OverflowHelper.core
             correctionAdd("Ts", "TypeScript");
             correctionAdd("TYPESCRIPT", "TypeScript");
             correctionAdd("typesccript", "TypeScript");
+            correctionAdd("TypeSciprt", "TypeScript");
+            correctionAdd("TypeScirpt", "TypeScript");
 
             correctionAdd("user script", "userscript");
             correctionAdd("Userscript", "userscript");
@@ -11177,6 +11179,7 @@ namespace OverflowHelper.core
             correctionAdd("homour", "humour");
 
             correctionAdd("3", "three");
+            correctionAdd("theee", "three");
 
             correctionAdd("4", "four");
 
@@ -17134,6 +17137,7 @@ namespace OverflowHelper.core
             correctionAdd("Thaks", "thanks");
             correctionAdd("Thks", "thanks");
             correctionAdd("thks", "thanks");
+            correctionAdd("Thansk", "thanks");
 
             correctionAdd("vuln", "vulnerability");
 
@@ -17324,15 +17328,42 @@ namespace OverflowHelper.core
             correctionAdd("acctualy", "actually");
             correctionAdd("Actally", "actually");
             correctionAdd("actally", "actually");
+            correctionAdd("actullay", "actually");
 
             correctionAdd("post", "POST");
             correctionAdd("Post", "POST");
+            correctionAdd("POSt", "POST");
 
             correctionAdd("get", "GET");
             correctionAdd("Get", "GET");
 
             correctionAdd("put", "PUT");
             correctionAdd("Put", "PUT");
+
+            correctionAdd("re-post", "repost");
+
+            correctionAdd("blog post", "blogpost");
+            correctionAdd("blog-post", "blogpost");
+
+            correctionAdd("$GET", "$_GET"); // PHP
+
+            correctionAdd("$POST", "$_POST"); // PHP
+
+            correctionAdd("$COOKIE", "$_COOKIE"); // PHP
+
+            correctionAdd("$REQUEST", "$_REQUEST"); // PHP
+
+            correctionAdd("cross post", "crosspost");
+            correctionAdd("x-post", "crosspost");
+
+            correctionAdd("sign-post", "signpost");
+            correctionAdd("sign post", "signpost");
+
+            correctionAdd("seatpost", "seat post");
+
+            correctionAdd("the Post", "The Washington Post");
+            correctionAdd("WaPo", "The Washington Post");
+            correctionAdd("washington post", "The Washington Post");
 
             correctionAdd("outpus", "outputs");
 
@@ -18815,6 +18846,9 @@ namespace OverflowHelper.core
             correctionAdd("perfrom", "perform");
             correctionAdd("preform", "perform");
             correctionAdd("performe", "perform");
+            correctionAdd("peform", "perform");
+
+            correctionAdd("under perform", "underperform");
 
             correctionAdd("dutch", "Dutch");
 
@@ -22247,6 +22281,7 @@ namespace OverflowHelper.core
             correctionAdd("exept", "except");
             correctionAdd("cept", "except");
             correctionAdd("excpet", "except");
+            correctionAdd("accept", "except");
 
             correctionAdd("extrenal", "external");
 
@@ -22713,6 +22748,18 @@ namespace OverflowHelper.core
             correctionAdd("alpha numeric", "alphanumeric");
 
             correctionAdd("past", "paste");
+            correctionAdd("pste", "paste");
+
+            correctionAdd("copypaste", "copy-paste");
+            correctionAdd("copy-n-paste", "copy-paste");
+            correctionAdd("copy and paste", "copy-paste");
+            correctionAdd("copy/paste", "copy-paste");
+            correctionAdd("copy-pasta", "copy-paste");
+            correctionAdd("copy past", "copy-paste");
+            correctionAdd("copy paste", "copy-paste");
+            correctionAdd("C&P", "copy-paste");
+
+            correctionAdd("Currying", "currying");
 
             correctionAdd("programatic", "programmatic");
             correctionAdd("Programatic", "programmatic");
@@ -24610,26 +24657,31 @@ namespace OverflowHelper.core
             correctionAdd("Louis Lopez", "Ruy Lopez"); // Chess
             correctionAdd("lopez", "Ruy Lopez"); // Chess
 
-            correctionAdd("Capablanca", "José Raúl Capablanca"); // Chess
-            correctionAdd("capablanka", "José Raúl Capablanca"); // Chess
-            correctionAdd("Jose Raul Capablancy", "José Raúl Capablanca"); // Chess
-            correctionAdd("Capablancy", "José Raúl Capablanca"); // Chess
-            correctionAdd("capablanca", "José Raúl Capablanca"); // Chess
+            // Chess
+            correctionAdd("Capablanca", "José Raúl Capablanca");
+            correctionAdd("capablanka", "José Raúl Capablanca");
+            correctionAdd("Jose Raul Capablancy", "José Raúl Capablanca");
+            correctionAdd("Capablancy", "José Raúl Capablanca");
+            correctionAdd("capablanca", "José Raúl Capablanca");
 
-            correctionAdd("En passant", "en passant"); // Chess
-            correctionAdd("en peasant", "en passant"); // Chess
+            // Chess
+            correctionAdd("En passant", "en passant");
+            correctionAdd("en peasant", "en passant");
+            correctionAdd("En Passant", "en passant");
 
-            correctionAdd("english opening", "English Opening"); // Chess
-            correctionAdd("English opening", "English Opening"); // Chess
+            // Chess
+            correctionAdd("english opening", "English Opening");
+            correctionAdd("English opening", "English Opening");
 
-            correctionAdd("Rezi", "Réti Opening"); // Chess
-            correctionAdd("Resi", "Réti Opening"); // Chess
-            correctionAdd("resi", "Réti Opening"); // Chess
-            correctionAdd("resing", "Réti Opening"); // Chess
-            correctionAdd("rezing", "Réti Opening"); // Chess
-            correctionAdd("reti", "Réti Opening"); // Chess
-            correctionAdd("Reti", "Réti Opening"); // Chess
-            correctionAdd("reting", "Réti Opening"); // Chess
+            // Chess
+            correctionAdd("Rezi", "Réti Opening");
+            correctionAdd("Resi", "Réti Opening");
+            correctionAdd("resi", "Réti Opening");
+            correctionAdd("resing", "Réti Opening");
+            correctionAdd("rezing", "Réti Opening");
+            correctionAdd("reti", "Réti Opening");
+            correctionAdd("Reti", "Réti Opening");
+            correctionAdd("reting", "Réti Opening");
 
             correctionAdd("Karpov", "Anatoly Karpov"); // Chess
 
@@ -28098,8 +28150,6 @@ namespace OverflowHelper.core
 
             correctionAdd("quenstinel", "quintessential");
 
-            correctionAdd("re-post", "repost");
-
             correctionAdd("re-validate", "revalidate");
 
             correctionAdd("Intellisense", "IntelliSense");
@@ -29125,6 +29175,7 @@ namespace OverflowHelper.core
             correctionAdd("Project", "project");
             correctionAdd("projct", "project");
             correctionAdd("poject", "project");
+            correctionAdd("prj", "project");
 
             correctionAdd("eol", "EOL");
             correctionAdd("End of Line", "EOL");
@@ -30101,6 +30152,7 @@ namespace OverflowHelper.core
             correctionAdd("the weird syntax highlighter", "Highlight.js");
             correctionAdd("syntax highlighter", "Highlight.js");
             correctionAdd("new syntax highlighter", "Highlight.js");
+            correctionAdd("weird syntax", "Highlight.js");
 
             correctionAdd("nim", "Nim");
             correctionAdd("nim-lang", "Nim");
@@ -30880,8 +30932,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tabu", "taboo");
 
-            correctionAdd("under perform", "underperform");
-
             correctionAdd("under performing", "underperforming");
 
             correctionAdd("cperl", "CPerl");
@@ -31065,6 +31115,7 @@ namespace OverflowHelper.core
 
             correctionAdd("famious", "famous");
             correctionAdd("Famious", "famous");
+            correctionAdd("famouse", "famous");
 
             correctionAdd("Oil", "oil");
 
@@ -32262,9 +32313,6 @@ namespace OverflowHelper.core
 
             correctionAdd("accdient", "accident");
 
-            correctionAdd("blog post", "blogpost");
-            correctionAdd("blog-post", "blogpost");
-
             correctionAdd("GPL v2", "GPLv2");
             correctionAdd("gplv2", "GPLv2");
             correctionAdd("gpl v2", "GPLv2");
@@ -33306,14 +33354,6 @@ namespace OverflowHelper.core
             correctionAdd("Log", "logarithmic");
 
             correctionAdd("superseed", "supersede");
-
-            correctionAdd("$GET", "$_GET"); // PHP
-
-            correctionAdd("$POST", "$_POST"); // PHP
-
-            correctionAdd("$COOKIE", "$_COOKIE"); // PHP
-
-            correctionAdd("$REQUEST", "$_REQUEST"); // PHP
 
             correctionAdd("non-trivial", "nontrivial");
             correctionAdd("non trivial", "nontrivial");
@@ -34775,6 +34815,7 @@ namespace OverflowHelper.core
             correctionAdd("non-destructive", "nondestructive");
 
             correctionAdd("ghostery", "Ghostery");
+            correctionAdd("Ghosty", "Ghostery");
 
             correctionAdd("oppy", "Opportunity");
 
@@ -35261,6 +35302,7 @@ namespace OverflowHelper.core
 
             correctionAdd("week-end", "weekend");
             correctionAdd("wkend", "weekend");
+            correctionAdd("Weekend", "weekend");
 
             correctionAdd("C# 2", "C# 2.0");
             correctionAdd("C#2", "C# 2.0");
@@ -39035,9 +39077,6 @@ namespace OverflowHelper.core
             correctionAdd("coaxial cable", "coax");
             correctionAdd("co-ax", "coax");
 
-            correctionAdd("cross post", "crosspost");
-            correctionAdd("x-post", "crosspost");
-
             correctionAdd("hepler", "helper");
 
             correctionAdd("cdu", "CDU");
@@ -40262,9 +40301,6 @@ namespace OverflowHelper.core
             correctionAdd("Lift", "lift");
 
             correctionAdd("Pilot", "pilot");
-
-            correctionAdd("sign-post", "signpost");
-            correctionAdd("sign post", "signpost");
 
             correctionAdd("unvoidable", "unavoidable");
 
@@ -42029,17 +42065,6 @@ namespace OverflowHelper.core
             correctionAdd("TFVC", "Team Foundation Version Control");
 
             correctionAdd("xlr", "XLR");
-
-            correctionAdd("copypaste", "copy-paste");
-            correctionAdd("copy-n-paste", "copy-paste");
-            correctionAdd("copy and paste", "copy-paste");
-            correctionAdd("copy/paste", "copy-paste");
-            correctionAdd("copy-pasta", "copy-paste");
-            correctionAdd("copy past", "copy-paste");
-            correctionAdd("copy paste", "copy-paste");
-            correctionAdd("C&P", "copy-paste");
-
-            correctionAdd("Currying", "currying");
 
             correctionAdd("dot dot dot", "ellipsis");
             correctionAdd("Ellipsis", "ellipsis");
@@ -46108,8 +46133,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-discover", "rediscover");
 
-            correctionAdd("seatpost", "seat post");
-
             correctionAdd("sigint", "SIGINT");
 
             correctionAdd("chatroom", "chat room");
@@ -47005,10 +47028,6 @@ namespace OverflowHelper.core
 
             correctionAdd("metacoq", "MetaCoq");
 
-            correctionAdd("the Post", "The Washington Post");
-            correctionAdd("WaPo", "The Washington Post");
-            correctionAdd("washington post", "The Washington Post");
-
             correctionAdd("alabama", "Alabama");
 
             correctionAdd("Answerers", "answerers");
@@ -47379,6 +47398,27 @@ namespace OverflowHelper.core
              // Related to a computer game
             correctionAdd("World 8", "World 8-Bowser's Castle");
             correctionAdd("world 8", "World 8-Bowser's Castle");
+
+            correctionAdd("devrel", "Developer Relations");
+            correctionAdd("DevRel", "Developer Relations");
+            correctionAdd("dev rel", "Developer Relations");
+
+            correctionAdd("blaring", "glaring");
+
+            correctionAdd("incentivicing", "incentivising");
+
+            correctionAdd("misswriting", "miswriting");
+
+            correctionAdd("getDay", "getDay()");
+            correctionAdd("GetDay", "getDay()");
+
+            correctionAdd("malvolent", "malevolent");
+
+            correctionAdd("Niticon", "Nichicon");
+
+            // Electronics
+            correctionAdd("thru-hole", "through-hole construction");
+            correctionAdd("throughhole", "through-hole construction");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74320,6 +74360,22 @@ namespace OverflowHelper.core
 
             URL_Add("World 8-Bowser's Castle", "https://www.mariowiki.com/World_8-Bowser's_Castle_(Super_Mario_Bros._3)");
 
+            URL_Add("Developer Relations", "https://en.wikipedia.org/wiki/Developer_relations");
+
+            URL_Add("glaring", "https://en.wiktionary.org/wiki/glaring#Adjective");
+
+            URL_Add("incentivising", "https://en.wiktionary.org/wiki/incentivise#Verb");
+
+            URL_Add("miswriting", "https://en.wiktionary.org/wiki/miswrite#Verb");
+
+            URL_Add("getDay()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay");
+
+            URL_Add("malevolent", "https://en.wiktionary.org/wiki/malevolent#Adjective");
+
+            URL_Add("Nichicon", "https://en.wikipedia.org/wiki/Nichicon");
+
+            URL_Add("through-hole construction", "https://en.wikipedia.org/wiki/Through-hole_technology");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -76073,6 +76129,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Selenium_", "selenium_");
 
+            correctionAdd("unit test_", "unittest_");
+
+            correctionAdd("[tag:ruby-on-rails]_", "Ruby on Rails (tag wiki)_");
+            correctionAdd("ruby-on-rails_", "Ruby on Rails (tag wiki)_");
+            correctionAdd("Ruby on Rails_", "Ruby on Rails (tag wiki)_");
+
             // URL mappings
             //
             //
@@ -77075,6 +77137,10 @@ namespace OverflowHelper.core
             URL_Add("lookup_", "https://en.wiktionary.org/wiki/lookup#Noun");
 
             URL_Add("selenium_", "https://en.wikipedia.org/wiki/Selenium");
+
+            URL_Add("unittest_", "https://docs.python.org/3.8/library/unittest.html");
+
+            URL_Add("Ruby on Rails (tag wiki)_", "https://stackoverflow.com/questions/tagged/ruby-on-rails");
 
         } //addLookupData_alternativeWordSet()
 
