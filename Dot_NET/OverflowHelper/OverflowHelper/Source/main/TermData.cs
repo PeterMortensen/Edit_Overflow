@@ -1096,6 +1096,50 @@ namespace OverflowHelper.core
             correctionAdd("Stak Exchange", "Stack&nbsp;Exchange");
             correctionAdd("Stake Exchange", "Stack&nbsp;Exchange");
 
+            correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
+            correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
+
+            correctionAdd("socvr", "SOCVR");
+            correctionAdd("SO Close Vote Reviewers", "SOCVR");
+            correctionAdd("SOVCR", "SOCVR");
+            correctionAdd("SOCV", "SOCVR");
+            correctionAdd("SO close vote reviewers", "SOCVR");
+            correctionAdd("Stack Overflow close vote reviewers", "SOCVR");
+
+            correctionAdd("Stack Overflow teams", "Stack Overflow Teams");
+
+            correctionAdd("SO Teams", "Stack Overflow for Teams");
+            correctionAdd("SOfT", "Stack Overflow for Teams");
+            correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
+            correctionAdd("SO for Teams", "Stack Overflow for Teams");
+            correctionAdd("SO for teams", "Stack Overflow for Teams");
+            correctionAdd("Stack Overflow for teams", "Stack Overflow for Teams");
+
+            correctionAdd("not a forum", "Stack Overflow is not a forum");
+            correctionAdd("isn't a forum", "Stack Overflow is not a forum");
+
+            correctionAdd("Stack Overflow blog", "the Stack Overflow blog");
+
+            correctionAdd("Stack Overflow dump", "Stack Overflow data dump");
+
+            correctionAdd("Eternal September on SO", "Eternal September on Stack Overflow");
+            correctionAdd("big city problems", "Eternal September on Stack Overflow");
+            correctionAdd("eternal september on SO", "Eternal September on Stack Overflow");
+            correctionAdd("eternal september on so", "Eternal September on Stack Overflow");
+
+            correctionAdd("bogus answers on Stack Overflow", "completely bogus answers on Stack Overflow");
+            correctionAdd("bogus answer", "completely bogus answers on Stack Overflow");
+
+            correctionAdd("Stackoverflow Careers", "Stack Overflow Careers");
+            correctionAdd("StackOverflow Careers", "Stack Overflow Careers");
+
+            correctionAdd("developer story", "Stack Overflow Developer Story");
+            correctionAdd("Stack Overflow developer story", "Stack Overflow Developer Story");
+
+            correctionAdd("SO jobs", "Stack Overflow Jobs");
+
+            correctionAdd("hate fun", "Stack Overflow hates fun");
+
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
             correctionAdd("ServerFault", "Server&nbsp;Fault");
@@ -1153,6 +1197,23 @@ namespace OverflowHelper.core
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
+
+            correctionAdd("SOes", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("SOE", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("SOES", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Spanish Stack Overflow", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("ES.SO", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("ES.so", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("SO.ES", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Stack Overflow en Español", "Stack Overflow en español (Stack Exchange site)");
+
+            correctionAdd("SOPT", "Stack Overflow em Português");
+            correctionAdd("SOpt", "Stack Overflow em Português");
+            correctionAdd("SO.pt", "Stack Overflow em Português");
+            correctionAdd("SO - Portuguese", "Stack Overflow em Português");
+            correctionAdd("PT.se", "Stack Overflow em Português");
+            correctionAdd("Portuguese site", "Stack Overflow em Português");
 
             correctionAdd("Workplace", "The Workplace (Stack Exchange site)");
             correctionAdd("The Workplace", "The Workplace (Stack Exchange site)"); // Sort of identity mapping
@@ -6282,16 +6343,6 @@ namespace OverflowHelper.core
             correctionAdd("GraphicDesign.SE", "Graphic Design (Stack Exchange site)");
             correctionAdd("graphic design", "Graphic Design (Stack Exchange site)");
 
-            correctionAdd("SOes", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("SOE", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("SOES", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("Spanish Stack Overflow", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("ES.SO", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("ES.so", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("SO.ES", "Stack Overflow en español (Stack Exchange site)");
-            correctionAdd("Stack Overflow en Español", "Stack Overflow en español (Stack Exchange site)");
-
             correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
             correctionAdd("Mi Yodeya", "Mi Yodeya (Stack Exchange site)"); // Sort of identity mapping
 
@@ -9917,9 +9968,6 @@ namespace OverflowHelper.core
             correctionAdd("T-saped developer", "T-shaped developer");
             correctionAdd("T-saped professional", "T-shaped developer");
 
-            correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
-            correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
-
             correctionAdd("sde", "software development engineer");
             correctionAdd("SDE", "software development engineer");
 
@@ -12161,6 +12209,52 @@ namespace OverflowHelper.core
             correctionAdd("simlink", "symbolic link");
             correctionAdd("soft link", "symbolic link");
 
+            correctionAdd("simulink", "Simulink");
+            correctionAdd("SIMULINK", "Simulink");
+            correctionAdd("Similink", "Simulink");
+
+            correctionAdd("flink", "Flink");
+
+            correctionAdd("ST Link", "ST-LINK");
+            correctionAdd("st Link", "ST-LINK");
+            correctionAdd("St Link", "ST-LINK");
+            correctionAdd("st-link", "ST-LINK");
+            correctionAdd("stlink", "ST-LINK");
+
+            correctionAdd("Star link", "Starlink");
+            correctionAdd("starlink", "Starlink");
+
+            correctionAdd("d link", "D-Link");
+            correctionAdd("D-link", "D-Link");
+            correctionAdd("d-link", "D-Link");
+
+            correctionAdd("blink", "Blink");
+
+            correctionAdd("hyper link", "hyperlink");
+            correctionAdd("HyperLink", "hyperlink");
+            correctionAdd("Hyperlink", "hyperlink");
+
+            correctionAdd("perma-link", "permalink");
+
+            correctionAdd("Link", "link");
+            correctionAdd("Linh", "link");
+            correctionAdd("linh", "link");
+
+            correctionAdd("TP-LINK", "TP-Link");
+
+            correctionAdd("netlink", "Netlink");
+
+            correctionAdd("deadlink", "dead link");
+
+            correctionAdd("re-link", "relink");
+
+            correctionAdd("MKLINK", "mklink");
+
+            correctionAdd("Hardlink", "hard link");
+            correctionAdd("hardlink", "hard link");
+
+            correctionAdd("ardulink", "Ardulink");
+
             correctionAdd("adt", "ADT");
             correctionAdd("Android Development Tools", "ADT");
 
@@ -13230,10 +13324,6 @@ namespace OverflowHelper.core
             correctionAdd("X Window System", "X Window");
             correctionAdd("Xorg", "X Window");
             correctionAdd("X.Org", "X Window");
-
-            correctionAdd("simulink", "Simulink");
-            correctionAdd("SIMULINK", "Simulink");
-            correctionAdd("Similink", "Simulink");
 
             correctionAdd("imperical", "empirical");
 
@@ -16141,6 +16231,7 @@ namespace OverflowHelper.core
             correctionAdd("izn't", "isn’t");
             correctionAdd("is n", "isn’t");
             correctionAdd("is nt", "isn’t");
+            correctionAdd("Ain't", "isn’t");
 
             correctionAdd("newb", "newbie");
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
@@ -22220,8 +22311,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bluehost", "Bluehost");
 
-            correctionAdd("flink", "Flink");
-
             correctionAdd("next js", "Next.js");
             correctionAdd("Next JS", "Next.js");
             correctionAdd("next.js", "Next.js");
@@ -22555,12 +22644,6 @@ namespace OverflowHelper.core
             correctionAdd("feynman diagram", "Feynman diagram");
 
             correctionAdd("Repetitive strain injury", "RSI");
-
-            correctionAdd("ST Link", "ST-LINK");
-            correctionAdd("st Link", "ST-LINK");
-            correctionAdd("St Link", "ST-LINK");
-            correctionAdd("st-link", "ST-LINK");
-            correctionAdd("stlink", "ST-LINK");
 
             correctionAdd("swagger", "Swagger");
 
@@ -23911,9 +23994,6 @@ namespace OverflowHelper.core
             correctionAdd("nerdtree", "NERD tree");
 
             correctionAdd("neotree", "Neo Tree");
-
-            correctionAdd("Star link", "Starlink");
-            correctionAdd("starlink", "Starlink");
 
             correctionAdd("Air Portugal", "TAP Air Portugal");
 
@@ -26319,10 +26399,6 @@ namespace OverflowHelper.core
             correctionAdd("bushound", "Bus Hound");
             correctionAdd("bus hound", "Bus Hound");
             correctionAdd("BusHound", "Bus Hound");
-
-            correctionAdd("d link", "D-Link");
-            correctionAdd("D-link", "D-Link");
-            correctionAdd("d-link", "D-Link");
 
             correctionAdd("firefly", "Firefly");
 
@@ -31056,13 +31132,6 @@ namespace OverflowHelper.core
             correctionAdd("richard feynman", "Richard Feynman");
             correctionAdd("faynman", "Richard Feynman");
 
-            correctionAdd("socvr", "SOCVR");
-            correctionAdd("SO Close Vote Reviewers", "SOCVR");
-            correctionAdd("SOVCR", "SOCVR");
-            correctionAdd("SOCV", "SOCVR");
-            correctionAdd("SO close vote reviewers", "SOCVR");
-            correctionAdd("Stack Overflow close vote reviewers", "SOCVR");
-
             correctionAdd("steam", "Steam");
 
             correctionAdd("theam", "team");
@@ -34881,6 +34950,7 @@ namespace OverflowHelper.core
 
             correctionAdd("re-run", "rerun");
             correctionAdd("re run", "rerun");
+            correctionAdd("Re-run", "rerun");
 
             correctionAdd("crlf", "CRLF");
 
@@ -35085,8 +35155,6 @@ namespace OverflowHelper.core
             correctionAdd("wraping", "wrapping");
 
             correctionAdd("basilisk", "Basilisk");
-
-            correctionAdd("blink", "Blink");
 
             correctionAdd("verizon", "Verizon");
 
@@ -36347,10 +36415,6 @@ namespace OverflowHelper.core
             correctionAdd("pam", "PAM");
 
             correctionAdd("aggregetion", "aggregation");
-
-            correctionAdd("hyper link", "hyperlink");
-            correctionAdd("HyperLink", "hyperlink");
-            correctionAdd("Hyperlink", "hyperlink");
 
             correctionAdd("owership", "ownership");
 
@@ -38090,8 +38154,6 @@ namespace OverflowHelper.core
 
             correctionAdd("whistle blowing", "whistleblowing");
 
-            correctionAdd("Stack Overflow teams", "Stack Overflow Teams");
-
             correctionAdd("Wolfarm", "Wolfram Research");
             correctionAdd("Wolfram", "Wolfram Research");
 
@@ -38199,8 +38261,6 @@ namespace OverflowHelper.core
             correctionAdd("hads", "had");
 
             correctionAdd("non ordered", "nonordered");
-
-            correctionAdd("perma-link", "permalink");
 
             correctionAdd("readbly", "readably");
 
@@ -38696,8 +38756,6 @@ namespace OverflowHelper.core
             correctionAdd("connnects", "connects");
 
             correctionAdd("enlightning", "enlightening");
-
-            correctionAdd("Link", "link");
 
             correctionAdd("microservice", "microservices");
             correctionAdd("Microservices", "microservices");
@@ -39197,6 +39255,7 @@ namespace OverflowHelper.core
             correctionAdd("dual boot", "dual-boot");
 
             correctionAdd("ICE", "internal combustion engine");
+            correctionAdd("Internal Combustion Engine", "internal combustion engine");
 
             correctionAdd("life form", "lifeform");
 
@@ -39267,8 +39326,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Quinoline yellow", "Quinoline Yellow SS");
             correctionAdd("quinoline yellow", "Quinoline Yellow SS");
-
-            correctionAdd("TP-LINK", "TP-Link");
 
             correctionAdd("Power Delivery", "USB power delivery");
             correctionAdd("USB Power Delivery", "USB power delivery");
@@ -40486,8 +40543,6 @@ namespace OverflowHelper.core
             correctionAdd("ChuckNorris", "Chuck Norris");
             correctionAdd("chuck norris", "Chuck Norris");
 
-            correctionAdd("netlink", "Netlink");
-
             correctionAdd("onyx", "Onyx");
 
             correctionAdd("Robustness Principle", "Postel's law");
@@ -40631,12 +40686,6 @@ namespace OverflowHelper.core
             correctionAdd("docblock", "DocBlock");
 
             correctionAdd("ICAO", "International Civil Aviation Organization");
-
-            correctionAdd("SO Teams", "Stack Overflow for Teams");
-            correctionAdd("SOfT", "Stack Overflow for Teams");
-            correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
-            correctionAdd("SO for Teams", "Stack Overflow for Teams");
-            correctionAdd("SO for teams", "Stack Overflow for Teams");
 
             correctionAdd("book keeping", "bookkeeping");
             correctionAdd("book-keeping", "bookkeeping");
@@ -41700,9 +41749,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SOCK", "SOCKS");
 
-            correctionAdd("Stackoverflow Careers", "Stack Overflow Careers");
-            correctionAdd("StackOverflow Careers", "Stack Overflow Careers");
-
             correctionAdd("salvagable", "salvageable");
 
             correctionAdd("VWP", "Visa Waiver Program");
@@ -41863,11 +41909,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hussein", "Saddam Hussein");
 
-            correctionAdd("developer story", "Stack Overflow Developer Story");
-            correctionAdd("Stack Overflow developer story", "Stack Overflow Developer Story");
-
-            correctionAdd("SO jobs", "Stack Overflow Jobs");
-
             correctionAdd("Bug", "bug");
 
             correctionAdd("extorsion", "extortion");
@@ -41897,8 +41938,6 @@ namespace OverflowHelper.core
             correctionAdd("over-zealous", "overzealous");
 
             correctionAdd("eloquence", "Eloquence");
-
-            correctionAdd("hate fun", "Stack Overflow hates fun");
 
             correctionAdd("code-insider", "Visual Studio Code Insiders");
             correctionAdd("Visual Studio Code Insiders build", "Visual Studio Code Insiders");
@@ -42007,13 +42046,6 @@ namespace OverflowHelper.core
             correctionAdd("SUMO", "Simulation of Urban Mobility");
             correctionAdd("Simulation of Urban MObility", "Simulation of Urban Mobility");
 
-            correctionAdd("SOPT", "Stack Overflow em Português");
-            correctionAdd("SOpt", "Stack Overflow em Português");
-            correctionAdd("SO.pt", "Stack Overflow em Português");
-            correctionAdd("SO - Portuguese", "Stack Overflow em Português");
-            correctionAdd("PT.se", "Stack Overflow em Português");
-            correctionAdd("Portuguese site", "Stack Overflow em Português");
-
             correctionAdd("Binary Search", "binary search");
 
             correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
@@ -42084,8 +42116,6 @@ namespace OverflowHelper.core
             correctionAdd("On the fence", "on the fence");
 
             correctionAdd("Sentence fragment", "sentence fragment");
-
-            correctionAdd("deadlink", "dead link");
 
             correctionAdd("logining in", "logging in");
 
@@ -42401,8 +42431,6 @@ namespace OverflowHelper.core
             correctionAdd("posthoc", "post hoc");
             correctionAdd("post-hoc", "post hoc");
 
-            correctionAdd("re-link", "relink");
-
             correctionAdd("upset the apple cart", "upset the applecart");
 
             correctionAdd(".format()", ".format");
@@ -42561,8 +42589,6 @@ namespace OverflowHelper.core
             correctionAdd("coeercion", "coercion");
 
             correctionAdd("gate keeping", "gatekeeping");
-
-            correctionAdd("MKLINK", "mklink");
 
             correctionAdd("spacemacs", "Spacemacs");
 
@@ -42756,9 +42782,6 @@ namespace OverflowHelper.core
             correctionAdd("ci/cd", "continuous integration/continuous delivery");
 
             correctionAdd("day dreaming", "daydreaming");
-
-            correctionAdd("Hardlink", "hard link");
-            correctionAdd("hardlink", "hard link");
 
             correctionAdd("hero page", "hero header");
 
@@ -44927,8 +44950,6 @@ namespace OverflowHelper.core
 
             correctionAdd("h/t", "hat tip");
 
-            correctionAdd("ardulink", "Ardulink");
-
             correctionAdd("kegboard", "Kegboard");
 
             correctionAdd("triage review queue", "Triage review queue");
@@ -45471,9 +45492,6 @@ namespace OverflowHelper.core
 
             correctionAdd("chrono", "std::chrono");
 
-            correctionAdd("not a forum", "Stack Overflow is not a forum");
-            correctionAdd("isn't a forum", "Stack Overflow is not a forum");
-
             correctionAdd("inner source", "InnerSource");
 
             correctionAdd("kS", "kSa");
@@ -45817,8 +45835,6 @@ namespace OverflowHelper.core
             correctionAdd("life threatening", "life-threatening");
             correctionAdd("Life threatening", "life-threatening");
 
-            correctionAdd("Stack Overflow blog", "the Stack Overflow blog");
-
             correctionAdd("awkaardly", "awkwardly");
 
             correctionAdd("dbase", "dBase");
@@ -45949,8 +45965,6 @@ namespace OverflowHelper.core
 
             correctionAdd("second thought", "second thoughts");
             correctionAdd("second though", "second thoughts");
-
-            correctionAdd("Stack Overflow dump", "Stack Overflow data dump");
 
             correctionAdd("hpanel", "hPanel");
 
@@ -46655,11 +46669,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lose end", "loose end");
 
-            correctionAdd("Eternal September on SO", "Eternal September on Stack Overflow");
-            correctionAdd("big city problems", "Eternal September on Stack Overflow");
-            correctionAdd("eternal september on SO", "Eternal September on Stack Overflow");
-            correctionAdd("eternal september on so", "Eternal September on Stack Overflow");
-
             correctionAdd("opt-in", "opt in");
 
             correctionAdd("tenacious", "Tenacious badge");
@@ -47166,9 +47175,6 @@ namespace OverflowHelper.core
             correctionAdd("are belong to us", "broken English");
             correctionAdd("belong to us", "broken English");
 
-            correctionAdd("bogus answers on Stack Overflow", "completely bogus answers on Stack Overflow");
-            correctionAdd("bogus answer", "completely bogus answers on Stack Overflow");
-
             correctionAdd("counter-checked", "counterchecked");
 
             correctionAdd("dissappointedly", "disappointedly");
@@ -47414,11 +47420,34 @@ namespace OverflowHelper.core
 
             correctionAdd("malvolent", "malevolent");
 
+            // Capacitors (electronics)
             correctionAdd("Niticon", "Nichicon");
 
             // Electronics
             correctionAdd("thru-hole", "through-hole construction");
             correctionAdd("throughhole", "through-hole construction");
+
+            correctionAdd("automatjon", "automation");
+
+            correctionAdd("intoksicated", "intoxicated");
+
+            correctionAdd("Battery", "battery");
+
+            correctionAdd("galaxy", "Samsung Galaxy S series");
+
+            // Alternatives:
+            //
+            //   <https://medium.com/@goynikhil/what-is-jwt-jws-jwe-and-jwk-when-we-should-use-which-token-in-our-business-applications-74ae91f7c96b>
+            //     On Medium. It doesn't seem to be plagiarised.
+            //
+            //   <https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-key-sets>
+            //
+            correctionAdd("JWK", "JSON Web Key");
+            correctionAdd("jwk", "JSON Web Key");
+
+            // Alternative: <https://httpie.io/>
+            //
+            correctionAdd("HTTPIE", "HTTPie");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74376,6 +74405,18 @@ namespace OverflowHelper.core
 
             URL_Add("through-hole construction", "https://en.wikipedia.org/wiki/Through-hole_technology");
 
+            URL_Add("automation", "https://en.wiktionary.org/wiki/automation#Noun");
+
+            URL_Add("intoxicated", "https://en.wiktionary.org/wiki/intoxicated#Adjective");
+
+            URL_Add("battery", "https://en.wikipedia.org/wiki/Electric_battery");
+
+            URL_Add("Samsung Galaxy S series", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_series");
+
+            URL_Add("JSON Web Key", "https://datatracker.ietf.org/doc/html/rfc7517");
+
+            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74855,6 +74896,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Emacs_", "Emacs (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("emacs_", "Emacs (Stack Exchange site)_");
+            correctionAdd("emacs.SE_", "Emacs (Stack Exchange site)_");
 
             correctionAdd("linguistics_", "Linguistics (Stack Exchange site)_");
             correctionAdd("Linguistics_", "Linguistics (Stack Exchange site)_"); // Sort of identity mapping
@@ -76135,6 +76177,11 @@ namespace OverflowHelper.core
             correctionAdd("ruby-on-rails_", "Ruby on Rails (tag wiki)_");
             correctionAdd("Ruby on Rails_", "Ruby on Rails (tag wiki)_");
 
+            correctionAdd("chatgpt_", "ChatGPT_");
+
+            correctionAdd("stack exchange_", "Stack&nbsp;Exchange_");
+            correctionAdd("Stack Exchange_", "Stack&nbsp;Exchange_"); // Sort of identity mapping"
+
             // URL mappings
             //
             //
@@ -77142,12 +77189,14 @@ namespace OverflowHelper.core
 
             URL_Add("Ruby on Rails (tag wiki)_", "https://stackoverflow.com/questions/tagged/ruby-on-rails");
 
+            URL_Add("ChatGPT_", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
+
+            URL_Add("Stack&nbsp;Exchange_", "https://meta.stackexchange.com/legal/trademark-guidance");
+
         } //addLookupData_alternativeWordSet()
 
     } //class TermData
 
 
 } //namespace OverflowHelper.core
-
-
 
