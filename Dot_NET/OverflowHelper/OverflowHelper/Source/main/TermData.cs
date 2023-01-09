@@ -1130,6 +1130,8 @@ namespace OverflowHelper.core
             correctionAdd("bogus answers on Stack Overflow", "completely bogus answers on Stack Overflow");
             correctionAdd("bogus answer", "completely bogus answers on Stack Overflow");
 
+            correctionAdd("wholesale copied", "entirely copied, but properly attributed");
+
             correctionAdd("Stackoverflow Careers", "Stack Overflow Careers");
             correctionAdd("StackOverflow Careers", "Stack Overflow Careers");
 
@@ -1960,7 +1962,11 @@ namespace OverflowHelper.core
             correctionAdd("U*x", "Unix-like");
             correctionAdd("Unix like", "Unix-like");
             correctionAdd("unix like", "Unix-like");
-            correctionAdd("*Nix*", "Unix-like");
+            correctionAdd("*Nix*", "Unix-like"); // This may collide with
+                                                 // client-side removal
+                                                 // of punctuation and
+                                                 // formatting (Markdown
+                                                 // italics in this case)...
 
             correctionAdd("aix", "AIX");
 
@@ -3748,6 +3754,7 @@ namespace OverflowHelper.core
             correctionAdd("N1", "number one");
 
             correctionAdd("1 by 1", "one by one");
+            correctionAdd("One by One", "one by one");
 
             correctionAdd("F1", "Formula One");
             correctionAdd("formula one", "Formula One");
@@ -5608,6 +5615,27 @@ namespace OverflowHelper.core
             correctionAdd("resultat", "result");
             correctionAdd("resoult", "result");
             correctionAdd("risult", "result");
+
+            correctionAdd("param", "parameter"); // Expansion.
+            correctionAdd("params", "parameter"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("parametrs", "parameter"); // Not 100% correct - plural.
+            correctionAdd("paramter", "parameter");
+            correctionAdd("paramater", "parameter");
+            correctionAdd("paramaters", "parameter"); // Not 100% correct - plural.
+            correctionAdd("paramenter", "parameter");
+            correctionAdd("parametr", "parameter");
+            correctionAdd("parament", "parameter");
+            correctionAdd("parametar", "parameter");
+            correctionAdd("parametre", "parameter");
+            correctionAdd("Param", "parameter");
+            correctionAdd("parametera", "parameter"); // Some other language? Plural?
+            correctionAdd("parameters", "parameter"); // Not 100% correct - plural.
+            correctionAdd("parametres", "parameter");
+            correctionAdd("Params", "parameter");
+            correctionAdd("paramtr", "parameter");
+            correctionAdd("Parameter", "parameter");
+            correctionAdd("parm", "parameter");
+            correctionAdd("parms", "parameter");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -8241,6 +8269,8 @@ namespace OverflowHelper.core
             correctionAdd("CF", "ColdFusion"); // Collision with CompactFlash.
             correctionAdd("cold fusion", "ColdFusion");
             correctionAdd("Coldfusion", "ColdFusion");
+            correctionAdd("ACF", "ColdFusion");
+            correctionAdd("Adobe ColdFusion", "ColdFusion");
 
             correctionAdd("Mootools", "MooTools");
             correctionAdd("mootools", "MooTools");
@@ -8802,6 +8832,7 @@ namespace OverflowHelper.core
             correctionAdd("On Rails", "Ruby on Rails");
             correctionAdd("ror", "Ruby on Rails");
             correctionAdd("Ror", "Ruby on Rails");
+            correctionAdd("RAILS", "Ruby on Rails");
 
             correctionAdd("gem", "RubyGems");
             correctionAdd("rubygem", "RubyGems");
@@ -10436,25 +10467,6 @@ namespace OverflowHelper.core
             correctionAdd("json-P", "JSONP");
             correctionAdd("json-p", "JSONP");
 
-            correctionAdd("param", "parameter"); // Expansion.
-            correctionAdd("params", "parameter"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("parametrs", "parameter"); // Not 100% correct - plural.
-            correctionAdd("paramter", "parameter");
-            correctionAdd("paramater", "parameter");
-            correctionAdd("paramaters", "parameter"); // Not 100% correct - plural.
-            correctionAdd("paramenter", "parameter");
-            correctionAdd("parametr", "parameter");
-            correctionAdd("parament", "parameter");
-            correctionAdd("parametar", "parameter");
-            correctionAdd("parametre", "parameter");
-            correctionAdd("Param", "parameter");
-            correctionAdd("parametera", "parameter"); // Some other language? Plural?
-            correctionAdd("parameters", "parameter"); // Not 100% correct - plural.
-            correctionAdd("parametres", "parameter");
-            correctionAdd("Params", "parameter");
-            correctionAdd("paramtr", "parameter");
-            correctionAdd("Parameter", "parameter");
-
             correctionAdd("chars", "characters"); // Expansion.
             correctionAdd("char", "characters"); // Expansion, not 100% correct. Add a plural feature?
             correctionAdd("charachter", "characters"); // Not 100% correct. Add a plural feature?
@@ -12048,6 +12060,7 @@ namespace OverflowHelper.core
             correctionAdd("SQL Server Reporting Services", "SQL Server Reporting Services (SSRS)");
             correctionAdd("ssrs", "SQL Server Reporting Services (SSRS)");
             correctionAdd("SSRS", "SQL Server Reporting Services (SSRS)");
+            correctionAdd("SQL reporting services", "SQL Server Reporting Services (SSRS)");
 
             correctionAdd("tls", "TLS");
             correctionAdd("Transport security Layer", "TLS");
@@ -21095,6 +21108,7 @@ namespace OverflowHelper.core
             correctionAdd("IntelliJa", "IntelliJ IDEA");
             correctionAdd("Intellija", "IntelliJ IDEA");
             correctionAdd("intellija idea", "IntelliJ IDEA");
+            correctionAdd("intelliJ idea", "IntelliJ IDEA");
 
             correctionAdd("idear", "idea");
             correctionAdd("ideia", "idea");
@@ -21967,6 +21981,8 @@ namespace OverflowHelper.core
             correctionAdd("Evrythg", "everything");
             correctionAdd("evrythg", "everything");
             correctionAdd("everythg", "everything");
+            correctionAdd("everthings", "everything");
+            correctionAdd("everythings", "everything");
 
             correctionAdd("tooo", "too");
 
@@ -23820,6 +23836,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sql server 2014", "SQL Server 2014");
             correctionAdd("SQL server 2014", "SQL Server 2014");
+            correctionAdd("2014", "SQL Server 2014");
+            correctionAdd("SQL 2014", "SQL Server 2014");
 
             correctionAdd("Big Data", "big data");
             correctionAdd("Big data", "big data");
@@ -27593,6 +27611,7 @@ namespace OverflowHelper.core
             correctionAdd("de", "the");
             correctionAdd("rhe", "the");
             correctionAdd("yhe", "the");
+            correctionAdd("thie", "the");
 
             correctionAdd("vaild", "valid"); // True typo
             correctionAdd("vaiid", "valid");
@@ -28939,6 +28958,25 @@ namespace OverflowHelper.core
             correctionAdd("nand", "NAND");
 
             correctionAdd("right hand", "right-hand");
+
+            correctionAdd("RHS", "right-hand side");
+            correctionAdd("right hand side", "right-hand side");
+
+            correctionAdd("right click", "right-click");
+            correctionAdd("Right-Click", "right-click");
+            correctionAdd("Right Click", "right-click");
+            correctionAdd("Right-click", "right-click");
+            correctionAdd("rigth click", "right-click");
+            correctionAdd("Right click", "right-click");
+            correctionAdd("rt-click", "right-click");
+            correctionAdd("Rightclick", "right-click");
+            correctionAdd("right Click", "right-click");
+            correctionAdd("rightclick", "right-click");
+            correctionAdd("right lick", "right-click");
+
+            correctionAdd("right licking", "right-clicking");
+
+            correctionAdd("right most", "right-most");
 
             correctionAdd("Osmand", "OsmAnd");
 
@@ -33535,9 +33573,6 @@ namespace OverflowHelper.core
             correctionAdd("quad core", "quad-core");
             correctionAdd("quadcore", "quad-core");
 
-            correctionAdd("RHS", "right-hand side");
-            correctionAdd("right hand side", "right-hand side");
-
             correctionAdd("Matrix", "The Matrix");
 
             correctionAdd("analist", "analyst");
@@ -34022,6 +34057,7 @@ namespace OverflowHelper.core
             correctionAdd("roll-back", "roll back");
             correctionAdd("rollback", "roll back");
             correctionAdd("rool back", "roll back");
+            correctionAdd("Rollback", "roll back");
 
             correctionAdd("Dunning kruger effekt", "Dunning–Kruger effect");
             correctionAdd("Danning-Kruger", "Dunning–Kruger effect");
@@ -35844,6 +35880,8 @@ namespace OverflowHelper.core
 
             correctionAdd("dead letter queue", "DLQ");
             correctionAdd("dlq", "DLQ");
+            correctionAdd("dql", "DLQ");
+            correctionAdd("DQL", "DLQ");
 
             correctionAdd("hangman", "Hangman");
 
@@ -36928,17 +36966,6 @@ namespace OverflowHelper.core
             correctionAdd("keep up appearance", "keep up appearances");
 
             correctionAdd("metatag", "meta tag");
-
-            correctionAdd("right click", "right-click");
-            correctionAdd("Right-Click", "right-click");
-            correctionAdd("Right Click", "right-click");
-            correctionAdd("Right-click", "right-click");
-            correctionAdd("rigth click", "right-click");
-            correctionAdd("Right click", "right-click");
-            correctionAdd("rt-click", "right-click");
-            correctionAdd("Rightclick", "right-click");
-            correctionAdd("right Click", "right-click");
-            correctionAdd("rightclick", "right-click");
 
             correctionAdd("troubleshot", "troubleshooted");
 
@@ -38421,6 +38448,7 @@ namespace OverflowHelper.core
             correctionAdd("MULTICS", "Multics");
 
             correctionAdd("branch-less", "branchless");
+            correctionAdd("brunchless", "branchless");
 
             correctionAdd("brand-new", "brand new");
 
@@ -42516,6 +42544,7 @@ namespace OverflowHelper.core
             correctionAdd("OSS", "open-source software");
 
             correctionAdd("pannel", "panel");
+            correctionAdd("Pannel", "panel");
 
             correctionAdd("self taught", "self-taught");
 
@@ -45120,6 +45149,7 @@ namespace OverflowHelper.core
             correctionAdd("Rapid Unplanned Disassembly", "rapid unplanned disassembly");
             correctionAdd("RUD", "rapid unplanned disassembly");
             correctionAdd("Rapid Unscheduled Disassembly", "rapid unplanned disassembly");
+            correctionAdd("RUA", "rapid unplanned disassembly");
 
             correctionAdd("Trap Representation", "trap representation");
 
@@ -46456,6 +46486,8 @@ namespace OverflowHelper.core
             correctionAdd("any time", "anytime");
 
             correctionAdd("IAM", "AWS Identity and Access Management");
+            correctionAdd("AWS AMI", "AWS Identity and Access Management");
+            correctionAdd("AWS IAM", "AWS Identity and Access Management");
 
             correctionAdd("contact-less", "contactless");
 
@@ -47158,8 +47190,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re installed", "reinstalled");
 
-            correctionAdd("right most", "right-most");
-
             correctionAdd("second-hand", "secondhand");
 
             correctionAdd("AA", "Alcoholics Anonymous");
@@ -47448,6 +47478,26 @@ namespace OverflowHelper.core
             // Alternative: <https://httpie.io/>
             //
             correctionAdd("HTTPIE", "HTTPie");
+
+            correctionAdd("AMQP", "Advanced Message Queuing Protocol");
+            correctionAdd("amqp", "Advanced Message Queuing Protocol");
+
+            correctionAdd("more equal than others", "all animals are equal, but some animals are more equal than others");
+
+            correctionAdd("non-idealities", "nonidealities");
+
+            correctionAdd("non-linearities", "nonlinearities");
+
+            correctionAdd("ezis", "EZIS");
+
+            correctionAdd("CalDav", "CalDAV");
+
+            correctionAdd("Access 2007", "Microsoft Access 2007");
+
+            correctionAdd("Report builder", "Report Builder");
+            correctionAdd("report builder", "Report Builder");
+
+            correctionAdd("lcc", "LCC");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74417,6 +74467,28 @@ namespace OverflowHelper.core
 
             URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
 
+            URL_Add("Advanced Message Queuing Protocol", "https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol");
+
+            URL_Add("all animals are equal, but some animals are more equal than others", "https://en.wikipedia.org/wiki/Animal_Farm#Plot_summary");
+
+            URL_Add("nonidealities", "https://en.wiktionary.org/wiki/nonideality#Noun");
+
+            URL_Add("nonlinearities", "https://en.wiktionary.org/wiki/nonlinearity#Noun");
+
+            URL_Add("entirely copied, but properly attributed", "https://meta.stackoverflow.com/questions/321299/what-do-we-do-with-answers-that-are-entirely-copied-and-improperly-attributed-o");
+
+            URL_Add("EZIS", "https://www.ezis.cloud/features");
+
+            URL_Add("CalDAV", "https://en.wikipedia.org/wiki/CalDAV");
+
+            URL_Add("Microsoft Access 2007", "https://en.wikipedia.org/wiki/Microsoft_Access#Timeline");
+
+            URL_Add("Report Builder", "https://en.wikipedia.org/wiki/SQL_Server_Reporting_Services");
+
+            URL_Add("right-clicking", "https://en.wiktionary.org/wiki/right-click#Verb");
+
+            URL_Add("LCC", "https://en.wikipedia.org/wiki/LCC_(compiler)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74465,6 +74537,7 @@ namespace OverflowHelper.core
             correctionAdd("MS-Access_", "Microsoft Access_");
             correctionAdd("MS Access_", "Microsoft Access_");
             correctionAdd("access_", "Microsoft Access_");
+            correctionAdd("MSAccess_", "Microsoft Access_");
 
             correctionAdd("geht_", "get_");
             correctionAdd("ger_", "get_");
@@ -75668,6 +75741,10 @@ namespace OverflowHelper.core
             correctionAdd("mysql_", "MySQL (tag wiki)_");
             correctionAdd("MySQL_", "MySQL (tag wiki)_");
 
+            correctionAdd("[tag:gradle]_", "Gradle (tag wiki)_");
+            correctionAdd("gradle_", "Gradle (tag wiki)_");
+            correctionAdd("Gradle_", "Gradle (tag wiki)_");
+
             correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
             correctionAdd("light sail_", "Amazon Lightsail_");
@@ -76181,6 +76258,8 @@ namespace OverflowHelper.core
 
             correctionAdd("stack exchange_", "Stack&nbsp;Exchange_");
             correctionAdd("Stack Exchange_", "Stack&nbsp;Exchange_"); // Sort of identity mapping"
+
+            correctionAdd("Resistance_", "resistance_");
 
             // URL mappings
             //
@@ -77192,6 +77271,10 @@ namespace OverflowHelper.core
             URL_Add("ChatGPT_", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
 
             URL_Add("Stack&nbsp;Exchange_", "https://meta.stackexchange.com/legal/trademark-guidance");
+
+            URL_Add("Gradle (tag wiki)_", "https://stackoverflow.com/questions/tagged/gradle");
+
+            URL_Add("resistance_", "https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance#Introduction");
 
         } //addLookupData_alternativeWordSet()
 
