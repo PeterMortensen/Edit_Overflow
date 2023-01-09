@@ -3452,6 +3452,89 @@ namespace OverflowHelper.core
             correctionAdd("sql server ce", "SQL Server Compact");
             correctionAdd("Sql CE", "SQL Server Compact");
 
+            // This one maps one.
+            correctionAdd("SQL Express", "SQL Server Express Edition");
+            correctionAdd("SQL Server Express", "SQL Server Express Edition");
+            correctionAdd("sql server express", "SQL Server Express Edition");
+            correctionAdd("sql-express", "SQL Server Express Edition");
+            correctionAdd("sql express", "SQL Server Express Edition");
+            correctionAdd("SQLEXPRESS", "SQL Server Express Edition");
+            correctionAdd("SQL Server express", "SQL Server Express Edition");
+            correctionAdd("Sql Express", "SQL Server Express Edition");
+            correctionAdd("Sql server Express", "SQL Server Express Edition");
+            correctionAdd("sql-server-express", "SQL Server Express Edition");
+            correctionAdd("SQLExpress", "SQL Server Express Edition");
+            correctionAdd("SQL Server Epxress", "SQL Server Express Edition");
+            correctionAdd("SQL Server Epxress edition", "SQL Server Express Edition");
+            correctionAdd("sql experss", "SQL Server Express Edition");
+            // For now: map to generic as there is current no
+            //          version information in the Wikipedia article.
+            correctionAdd("sql server 2005 express", "SQL Server Express Edition");
+            correctionAdd("SQL Server 2005 Express", "SQL Server Express Edition");
+            //
+            // For now: map to generic as there is current no
+            //          version information in the Wikipedia article.
+            correctionAdd("sql server 2008 express", "SQL Server Express Edition");
+            correctionAdd("SQL Express 2008", "SQL Server Express Edition");
+
+            correctionAdd("sql server 2014", "SQL Server 2014");
+            correctionAdd("SQL server 2014", "SQL Server 2014");
+            correctionAdd("2014", "SQL Server 2014");
+            correctionAdd("SQL 2014", "SQL Server 2014");
+
+            correctionAdd("sql server 2017", "SQL Server 2017");
+            correctionAdd("SQL server 2017", "SQL Server 2017");
+            correctionAdd("MS-SQL 2017", "SQL Server 2017");
+            correctionAdd("MS SQL 2017", "SQL Server 2017");
+            correctionAdd("SQL 2017", "SQL Server 2017");
+            correctionAdd("MSSQL 2017", "SQL Server 2017");
+            correctionAdd("ms sql Server 2017", "SQL Server 2017");
+            correctionAdd("sql Server 2017", "SQL Server 2017");
+
+            correctionAdd("sql server 2019", "SQL Server 2019");
+            correctionAdd("SQL server 2019", "SQL Server 2019");
+            correctionAdd("Server 2019", "SQL Server 2019");
+            correctionAdd("MSSQL 2019 Server", "SQL Server 2019");
+            correctionAdd("SQL Server 2019 Server", "SQL Server 2019");
+            correctionAdd("SQL&nbsp;Server 2019 Server", "SQL Server 2019");
+
+            correctionAdd("Sql Server Management Studio", "SQL Server Management Studio");
+            correctionAdd("MS SQL Server Management Studio", "SQL Server Management Studio");
+            correctionAdd("sql mgmt studio", "SQL Server Management Studio");
+            correctionAdd("SQL management studio", "SQL Server Management Studio");
+            correctionAdd("SQL Server Mgmt Studio", "SQL Server Management Studio");
+            correctionAdd("sql server management studios", "SQL Server Management Studio");
+            correctionAdd("SQL Management Studio", "SQL Server Management Studio");
+            correctionAdd("Sql Server Management studio", "SQL Server Management Studio");
+            correctionAdd("SSMS", "SQL Server Management Studio");
+            correctionAdd("Sql Server management studio", "SQL Server Management Studio");
+            correctionAdd("sql server management studio", "SQL Server Management Studio");
+            correctionAdd("management studio", "SQL Server Management Studio");
+            correctionAdd("SQLServer Management and Studio", "SQL Server Management Studio");
+            correctionAdd("SqlServermanagment studio", "SQL Server Management Studio");
+            correctionAdd("Management Studio", "SQL Server Management Studio");
+            correctionAdd("SQL Server Management studio", "SQL Server Management Studio");
+            correctionAdd("SQl Server Management Studio", "SQL Server Management Studio");
+            correctionAdd("MSSQL Management Studio", "SQL Server Management Studio");
+            correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
+            correctionAdd("sql management studio", "SQL Server Management Studio");
+            correctionAdd("SQL Server Management Tools", "SQL Server Management Studio");
+            correctionAdd("managment studio", "SQL Server Management Studio");
+            correctionAdd("SQL server management studio", "SQL Server Management Studio");
+            correctionAdd("SMSS", "SQL Server Management Studio");
+            correctionAdd("sql server managment studio", "SQL Server Management Studio");
+            correctionAdd("ssms", "SQL Server Management Studio");
+            correctionAdd("Server Management Studio", "SQL Server Management Studio");
+
+            correctionAdd("SQL Server Reporting Services", "SQL Server Reporting Services (SSRS)");
+            correctionAdd("ssrs", "SQL Server Reporting Services (SSRS)");
+            correctionAdd("SSRS", "SQL Server Reporting Services (SSRS)");
+            correctionAdd("SQL reporting services", "SQL Server Reporting Services (SSRS)");
+
+            // Part of SQL Server Reporting Services (SSRS)
+            correctionAdd("Report builder", "Report Builder");
+            correctionAdd("report builder", "Report Builder");
+
             correctionAdd("APACHE", "Apache HTTP Server");
             correctionAdd("apache", "Apache HTTP Server");
             correctionAdd("Appache", "Apache HTTP Server");
@@ -6457,6 +6540,16 @@ namespace OverflowHelper.core
             correctionAdd("espresso", "Espresso"); // Web editor from MacRabbit.
             correctionAdd("Expresso", "Espresso");
 
+            correctionAdd("rabbithole", "rabbit hole");
+
+            correctionAdd("Rabbit MQ", "RabbitMQ");
+            correctionAdd("rabbitmq", "RabbitMQ");
+            correctionAdd("rabbit mq", "RabbitMQ");
+
+            // Related to RabbitMQ
+            correctionAdd("AMQP", "Advanced Message Queuing Protocol");
+            correctionAdd("amqp", "Advanced Message Queuing Protocol");
+
             correctionAdd("esp", "especially");
             correctionAdd("especally", "especially");
             correctionAdd("espcially", "especially");
@@ -8999,34 +9092,6 @@ namespace OverflowHelper.core
             correctionAdd("Mono Touch", "MonoTouch");
             correctionAdd("monotouch", "MonoTouch");
 
-            correctionAdd("Sql Server Management Studio", "SQL Server Management Studio");
-            correctionAdd("MS SQL Server Management Studio", "SQL Server Management Studio");
-            correctionAdd("sql mgmt studio", "SQL Server Management Studio");
-            correctionAdd("SQL management studio", "SQL Server Management Studio");
-            correctionAdd("SQL Server Mgmt Studio", "SQL Server Management Studio");
-            correctionAdd("sql server management studios", "SQL Server Management Studio");
-            correctionAdd("SQL Management Studio", "SQL Server Management Studio");
-            correctionAdd("Sql Server Management studio", "SQL Server Management Studio");
-            correctionAdd("SSMS", "SQL Server Management Studio");
-            correctionAdd("Sql Server management studio", "SQL Server Management Studio");
-            correctionAdd("sql server management studio", "SQL Server Management Studio");
-            correctionAdd("management studio", "SQL Server Management Studio");
-            correctionAdd("SQLServer Management and Studio", "SQL Server Management Studio");
-            correctionAdd("SqlServermanagment studio", "SQL Server Management Studio");
-            correctionAdd("Management Studio", "SQL Server Management Studio");
-            correctionAdd("SQL Server Management studio", "SQL Server Management Studio");
-            correctionAdd("SQl Server Management Studio", "SQL Server Management Studio");
-            correctionAdd("MSSQL Management Studio", "SQL Server Management Studio");
-            correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
-            correctionAdd("sql management studio", "SQL Server Management Studio");
-            correctionAdd("SQL Server Management Tools", "SQL Server Management Studio");
-            correctionAdd("managment studio", "SQL Server Management Studio");
-            correctionAdd("SQL server management studio", "SQL Server Management Studio");
-            correctionAdd("SMSS", "SQL Server Management Studio");
-            correctionAdd("sql server managment studio", "SQL Server Management Studio");
-            correctionAdd("ssms", "SQL Server Management Studio");
-            correctionAdd("Server Management Studio", "SQL Server Management Studio");
-
             correctionAdd("Vsto", "VSTO");
 
             correctionAdd("curl", "cURL");
@@ -9948,6 +10013,26 @@ namespace OverflowHelper.core
             correctionAdd("acces", "access");
             correctionAdd("acscess", "access");
 
+            correctionAdd("accesible", "accessible");
+            correctionAdd("accessable", "accessible");
+            correctionAdd("accesable", "accessible");
+
+            correctionAdd("inaccessable", "inaccessible");
+            correctionAdd("ininaccessible", "inaccessible");
+
+            correctionAdd("accesing", "accessing");
+            correctionAdd("acessing", "accessing");
+            correctionAdd("Ascessing", "accessing");
+            correctionAdd("acsessing", "accessing");
+            correctionAdd("ascessing", "accessing");
+
+            correctionAdd("a11y", "accessibility");
+            correctionAdd("Accessibility", "accessibility");
+
+            correctionAdd("Access 2010", "Microsoft Access 2010");
+
+            correctionAdd("Access 2007", "Microsoft Access 2007");
+
             correctionAdd("htacces", ".htaccess");
             correctionAdd("htaccess", ".htaccess");
             correctionAdd(".htaccess file", ".htaccess");
@@ -9960,6 +10045,45 @@ namespace OverflowHelper.core
             correctionAdd("early access", "JDK early-access");
             correctionAdd("EA", "JDK early-access");
             correctionAdd("Early Access", "JDK early-access");
+
+            correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
+            //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
+
+            correctionAdd("DAL", "data access layer");
+            correctionAdd("Data Access Layer", "data access layer");
+
+            correctionAdd("Personal Access Token", "personal access token");
+            correctionAdd("Personal access token", "personal access token");
+            correctionAdd("PAT", "personal access token");
+            correctionAdd("P.A.T", "personal access token");
+            correctionAdd("Personal Access token", "personal access token");
+            correctionAdd("personall access token", "personal access token");
+            correctionAdd("Public Access Token", "personal access token");
+            correctionAdd("public access token", "personal access token");
+
+            correctionAdd("acces token", "access token");
+            correctionAdd("access-token", "access token");
+            correctionAdd("acces-token", "access token");
+            correctionAdd("Access Token", "access token");
+
+            correctionAdd("Token", "token");
+            correctionAdd("toke", "token");
+
+            correctionAdd("accesor", "accessor");
+
+            correctionAdd("AP", "access point");
+            correctionAdd("Access point", "access point");
+            correctionAdd("Access Point", "access point");
+            correctionAdd("access-point", "access point");
+
+            correctionAdd("Java Native Access", "JNA");
+            correctionAdd("jna", "JNA");
+
+            correctionAdd("ucanacess", "UCanAccess");
+
+            correctionAdd("IAM", "AWS Identity and Access Management");
+            correctionAdd("AWS AMI", "AWS Identity and Access Management");
+            correctionAdd("AWS IAM", "AWS Identity and Access Management");
 
             correctionAdd("sftp", "SFTP");
             correctionAdd("sFTP", "SFTP");
@@ -11284,9 +11408,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bugzilla", "Bugzilla");
 
-            correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
-            //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
-
             correctionAdd("debian", "Debian");
             correctionAdd("deb", "Debian");
             correctionAdd("Debain", "Debian");
@@ -12056,11 +12177,6 @@ namespace OverflowHelper.core
             correctionAdd("rf", "RF");
 
             correctionAdd("lob", "LOB");
-
-            correctionAdd("SQL Server Reporting Services", "SQL Server Reporting Services (SSRS)");
-            correctionAdd("ssrs", "SQL Server Reporting Services (SSRS)");
-            correctionAdd("SSRS", "SQL Server Reporting Services (SSRS)");
-            correctionAdd("SQL reporting services", "SQL Server Reporting Services (SSRS)");
 
             correctionAdd("tls", "TLS");
             correctionAdd("Transport security Layer", "TLS");
@@ -13894,31 +14010,6 @@ namespace OverflowHelper.core
             correctionAdd("Exelant", "excellent");
             correctionAdd("exelant", "excellent");
 
-            // This one maps one.
-            correctionAdd("SQL Express", "SQL Server Express Edition");
-            correctionAdd("SQL Server Express", "SQL Server Express Edition");
-            correctionAdd("sql server express", "SQL Server Express Edition");
-            correctionAdd("sql-express", "SQL Server Express Edition");
-            correctionAdd("sql express", "SQL Server Express Edition");
-            correctionAdd("SQLEXPRESS", "SQL Server Express Edition");
-            correctionAdd("SQL Server express", "SQL Server Express Edition");
-            correctionAdd("Sql Express", "SQL Server Express Edition");
-            correctionAdd("Sql server Express", "SQL Server Express Edition");
-            correctionAdd("sql-server-express", "SQL Server Express Edition");
-            correctionAdd("SQLExpress", "SQL Server Express Edition");
-            correctionAdd("SQL Server Epxress", "SQL Server Express Edition");
-            correctionAdd("SQL Server Epxress edition", "SQL Server Express Edition");
-            correctionAdd("sql experss", "SQL Server Express Edition");
-            // For now: map to generic as there is current no
-            //          version information in the Wikipedia article.
-            correctionAdd("sql server 2005 express", "SQL Server Express Edition");
-            correctionAdd("SQL Server 2005 Express", "SQL Server Express Edition");
-            //
-            // For now: map to generic as there is current no
-            //          version information in the Wikipedia article.
-            correctionAdd("sql server 2008 express", "SQL Server Express Edition");
-            correctionAdd("SQL Express 2008", "SQL Server Express Edition");
-
             correctionAdd("com", "COM"); // Here it is Microsoft's binary interface. There is
             // conflict with serial ports (e.g. COM1)
 
@@ -15392,9 +15483,6 @@ namespace OverflowHelper.core
             correctionAdd("Kernal", "kernel");
             correctionAdd("Karnal", "kernel");
             correctionAdd("karnal", "kernel");
-
-            correctionAdd("DAL", "data access layer");
-            correctionAdd("Data Access Layer", "data access layer");
 
             correctionAdd("scilab", "Scilab");
             correctionAdd("SciLab", "Scilab");
@@ -19462,23 +19550,6 @@ namespace OverflowHelper.core
             correctionAdd("over written", "overwritten");
             correctionAdd("over writen", "overwritten");
 
-            correctionAdd("Personal Access Token", "personal access token");
-            correctionAdd("Personal access token", "personal access token");
-            correctionAdd("PAT", "personal access token");
-            correctionAdd("P.A.T", "personal access token");
-            correctionAdd("Personal Access token", "personal access token");
-            correctionAdd("personall access token", "personal access token");
-            correctionAdd("Public Access Token", "personal access token");
-            correctionAdd("public access token", "personal access token");
-
-            correctionAdd("acces token", "access token");
-            correctionAdd("access-token", "access token");
-            correctionAdd("acces-token", "access token");
-            correctionAdd("Access Token", "access token");
-
-            correctionAdd("Token", "token");
-            correctionAdd("toke", "token");
-
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
             correctionAdd("repetative", "repetitive");
@@ -19534,10 +19605,6 @@ namespace OverflowHelper.core
             correctionAdd("spring-boot", "Spring Boot");
             correctionAdd("SpringBoot", "Spring Boot");
             correctionAdd("sprinboot", "Spring Boot");
-
-            correctionAdd("accesible", "accessible");
-            correctionAdd("accessable", "accessible");
-            correctionAdd("accesable", "accessible");
 
             correctionAdd("collumn", "column");
             correctionAdd("colum", "column");
@@ -23224,12 +23291,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rts", "RTS");
 
-            correctionAdd("accesing", "accessing");
-            correctionAdd("acessing", "accessing");
-            correctionAdd("Ascessing", "accessing");
-            correctionAdd("acsessing", "accessing");
-            correctionAdd("ascessing", "accessing");
-
             correctionAdd("aquisition", "acquisition");
 
             correctionAdd("agein", "again");
@@ -23631,8 +23692,6 @@ namespace OverflowHelper.core
             correctionAdd("Proof of Concept", "proof of concept");
             correctionAdd("POC", "proof of concept");
 
-            correctionAdd("rabbithole", "rabbit hole");
-
             correctionAdd("re-open", "reopen");
             correctionAdd("Re-open", "reopen");
             correctionAdd("ReOpen", "reopen");
@@ -23833,11 +23892,6 @@ namespace OverflowHelper.core
             correctionAdd("angular2", "Angular&nbsp;2");
 
             correctionAdd("prettify", "Prettify");
-
-            correctionAdd("sql server 2014", "SQL Server 2014");
-            correctionAdd("SQL server 2014", "SQL Server 2014");
-            correctionAdd("2014", "SQL Server 2014");
-            correctionAdd("SQL 2014", "SQL Server 2014");
 
             correctionAdd("Big Data", "big data");
             correctionAdd("Big data", "big data");
@@ -24485,8 +24539,6 @@ namespace OverflowHelper.core
             correctionAdd("mmx", "MMX");
 
             correctionAdd("simd", "SIMD");
-
-            correctionAdd("accesor", "accessor");
 
             correctionAdd("cacheing", "caching");
 
@@ -25864,22 +25916,6 @@ namespace OverflowHelper.core
 
             correctionAdd("PYo3", "PyO3");
             correctionAdd("pyo3", "PyO3");
-
-            correctionAdd("sql server 2017", "SQL Server 2017");
-            correctionAdd("SQL server 2017", "SQL Server 2017");
-            correctionAdd("MS-SQL 2017", "SQL Server 2017");
-            correctionAdd("MS SQL 2017", "SQL Server 2017");
-            correctionAdd("SQL 2017", "SQL Server 2017");
-            correctionAdd("MSSQL 2017", "SQL Server 2017");
-            correctionAdd("ms sql Server 2017", "SQL Server 2017");
-            correctionAdd("sql Server 2017", "SQL Server 2017");
-
-            correctionAdd("sql server 2019", "SQL Server 2019");
-            correctionAdd("SQL server 2019", "SQL Server 2019");
-            correctionAdd("Server 2019", "SQL Server 2019");
-            correctionAdd("MSSQL 2019 Server", "SQL Server 2019");
-            correctionAdd("SQL Server 2019 Server", "SQL Server 2019");
-            correctionAdd("SQL&nbsp;Server 2019 Server", "SQL Server 2019");
 
             correctionAdd("tco", "TCO");
 
@@ -27394,11 +27430,6 @@ namespace OverflowHelper.core
             correctionAdd("power-point", "PowerPoint");
             correctionAdd("POWERPOINT", "PowerPoint");
             correctionAdd("ppt", "PowerPoint");
-
-            correctionAdd("AP", "access point");
-            correctionAdd("Access point", "access point");
-            correctionAdd("Access Point", "access point");
-            correctionAdd("access-point", "access point");
 
             correctionAdd("brake point", "breakpoint");
             correctionAdd("break point", "breakpoint");
@@ -29358,10 +29389,6 @@ namespace OverflowHelper.core
             correctionAdd("PostMan", "Postman");
             correctionAdd("POSTMAN", "Postman");
 
-            correctionAdd("Rabbit MQ", "RabbitMQ");
-            correctionAdd("rabbitmq", "RabbitMQ");
-            correctionAdd("rabbit mq", "RabbitMQ");
-
             correctionAdd("scientust", "scientist");
 
             correctionAdd("self explanatory", "self-explanatory");
@@ -30180,9 +30207,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hosting", "hoisting");
             correctionAdd("Hoisting", "hoisting");
-
-            correctionAdd("inaccessable", "inaccessible");
-            correctionAdd("ininaccessible", "inaccessible");
 
             correctionAdd("inexplicibaly", "inexplicably");
 
@@ -38443,8 +38467,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Jovial", "JOVIAL");
 
-            correctionAdd("Access 2010", "Microsoft Access 2010");
-
             correctionAdd("MULTICS", "Multics");
 
             correctionAdd("branch-less", "branchless");
@@ -39650,9 +39672,6 @@ namespace OverflowHelper.core
             correctionAdd("re-running", "rerunning");
 
             correctionAdd("sub-page", "subpage");
-
-            correctionAdd("Java Native Access", "JNA");
-            correctionAdd("jna", "JNA");
 
             correctionAdd("canceled", "cancelled");
 
@@ -43969,9 +43988,6 @@ namespace OverflowHelper.core
             correctionAdd("Creative Suite 4", "Adobe Creative Suite 4");
             correctionAdd("CS4", "Adobe Creative Suite 4");
 
-            correctionAdd("a11y", "accessibility");
-            correctionAdd("Accessibility", "accessibility");
-
             correctionAdd("billion laughs xml attack", "billion laughs attack");
             correctionAdd("billion laughs XML attack", "billion laughs attack");
 
@@ -45249,8 +45265,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Line of Code", "line of code");
 
-            correctionAdd("ucanacess", "UCanAccess");
-
             correctionAdd("breakout", "Breakout");
 
             // Other references:
@@ -46485,10 +46499,6 @@ namespace OverflowHelper.core
 
             correctionAdd("any time", "anytime");
 
-            correctionAdd("IAM", "AWS Identity and Access Management");
-            correctionAdd("AWS AMI", "AWS Identity and Access Management");
-            correctionAdd("AWS IAM", "AWS Identity and Access Management");
-
             correctionAdd("contact-less", "contactless");
 
             correctionAdd("hardhat", "Hardhat");
@@ -47479,9 +47489,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("HTTPIE", "HTTPie");
 
-            correctionAdd("AMQP", "Advanced Message Queuing Protocol");
-            correctionAdd("amqp", "Advanced Message Queuing Protocol");
-
             correctionAdd("more equal than others", "all animals are equal, but some animals are more equal than others");
 
             correctionAdd("non-idealities", "nonidealities");
@@ -47491,11 +47498,6 @@ namespace OverflowHelper.core
             correctionAdd("ezis", "EZIS");
 
             correctionAdd("CalDav", "CalDAV");
-
-            correctionAdd("Access 2007", "Microsoft Access 2007");
-
-            correctionAdd("Report builder", "Report Builder");
-            correctionAdd("report builder", "Report Builder");
 
             correctionAdd("lcc", "LCC");
 
