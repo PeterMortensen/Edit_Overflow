@@ -714,6 +714,7 @@ namespace OverflowHelper.core
             correctionAdd("LFP", "lithium iron phosphate");
             correctionAdd("LiFPo4", "lithium iron phosphate");
             correctionAdd("LiFePO4", "lithium iron phosphate");
+            correctionAdd("LFPS", "lithium iron phosphate");
 
             correctionAdd("Lithium battery", "lithium-ion battery");
             correctionAdd("lithium battery", "lithium-ion battery");
@@ -1114,6 +1115,8 @@ namespace OverflowHelper.core
             correctionAdd("SO for Teams", "Stack Overflow for Teams");
             correctionAdd("SO for teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow for teams", "Stack Overflow for Teams");
+            correctionAdd("Stackoverflow Teams", "Stack Overflow for Teams");
+            correctionAdd("Stackoverflow for Teams", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -4063,6 +4066,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Docker desktop", "Docker Desktop");
             correctionAdd("docker desktop", "Docker Desktop");
+            correctionAdd("docker-desktop", "Docker Desktop");
 
             correctionAdd("Desktop", "desktop");
             correctionAdd("dekstop", "desktop");
@@ -4600,6 +4604,9 @@ namespace OverflowHelper.core
             correctionAdd("mac monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Mac OS X 12", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("monteray", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("MacOS Monterrey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Monterrey", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS&nbsp;v12", "macOS&nbsp;v12 (Monterey)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -5453,6 +5460,7 @@ namespace OverflowHelper.core
             correctionAdd("prime counting function", "prime-counting function");
 
             correctionAdd("higher order function", "higher-order function");
+            correctionAdd("Higher Order Function", "higher-order function");
 
             correctionAdd("wave length", "wavelength");
             correctionAdd("Wavelength", "wavelength");
@@ -15439,6 +15447,17 @@ namespace OverflowHelper.core
 
             correctionAdd("homecomputer", "home computer");
 
+            correctionAdd("compter", "computer");
+            correctionAdd("comp", "computer");
+            correctionAdd("Computer", "computer");
+
+            correctionAdd("SBC", "single-board computer");
+            correctionAdd("Single Board Computer", "single-board computer");
+            correctionAdd("single board computer", "single-board computer");
+            correctionAdd("Single Board Computers", "single-board computer");
+
+            correctionAdd("your computer", "Your Computer");
+
             correctionAdd("Home Depot", "The Home Depot");
 
             correctionAdd("home baked", "homebaked");
@@ -16346,6 +16365,7 @@ namespace OverflowHelper.core
             correctionAdd("new bee", "newbie");
             correctionAdd("newbi", "newbie");
             correctionAdd("n00bie", "newbie");
+            correctionAdd("n3wb", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -18530,14 +18550,6 @@ namespace OverflowHelper.core
             correctionAdd("compoiler", "compiler");
             correctionAdd("compilier", "compiler");
 
-            correctionAdd("compter", "computer");
-            correctionAdd("comp", "computer");
-
-            correctionAdd("SBC", "single-board computer");
-            correctionAdd("Single Board Computer", "single-board computer");
-            correctionAdd("single board computer", "single-board computer");
-            correctionAdd("Single Board Computers", "single-board computer");
-
             correctionAdd("eigth", "eight");
             correctionAdd("Eight", "eight");
             correctionAdd("8", "eight");
@@ -20240,6 +20252,7 @@ namespace OverflowHelper.core
             correctionAdd("childs", "children");
             correctionAdd("Childs", "children");
             correctionAdd("childrens", "children");
+            correctionAdd("Children", "children");
 
             correctionAdd("commmented", "commented");
             correctionAdd("commeted", "commented");
@@ -21228,6 +21241,9 @@ namespace OverflowHelper.core
             correctionAdd("hello world!", "Hello, World!");
             correctionAdd("Hello World !", "Hello, World!");
             correctionAdd("Hello World!!", "Hello, World!");
+            correctionAdd("HELLO WORLD", "Hello, World!");
+            correctionAdd("HELLO WORLD!", "Hello, World!");
+            correctionAdd("HELLO, WORLD", "Hello, World!");
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
@@ -23509,6 +23525,8 @@ namespace OverflowHelper.core
             correctionAdd("gitlab CI", "GitLab CI");
 
             correctionAdd("PDP11", "PDP-11");
+
+            correctionAdd("PDP7", "PDP-7");
 
             correctionAdd("princeton", "Princeton");
 
@@ -28841,6 +28859,7 @@ namespace OverflowHelper.core
             correctionAdd("a mean of", "a means of");
 
             correctionAdd("in the order of", "on the order of");
+            correctionAdd("in the order", "on the order of");
 
             correctionAdd("bullet-proof", "bulletproof");
             correctionAdd("bullet proof", "bulletproof");
@@ -35287,6 +35306,7 @@ namespace OverflowHelper.core
 
             correctionAdd("nevar", "never");
             correctionAdd("Nevar", "never");
+            correctionAdd("neve", "never");
 
             correctionAdd("outragious", "outrageous");
 
@@ -35448,6 +35468,7 @@ namespace OverflowHelper.core
             correctionAdd("entrees", "entries");
             correctionAdd("enteries", "entries");
             correctionAdd("entires", "entries");
+            correctionAdd("Enteries", "entries");
 
             correctionAdd("tab", "tab character");
             correctionAdd("TAB character", "tab character");
@@ -36909,6 +36930,7 @@ namespace OverflowHelper.core
             correctionAdd("passport.js", "Passport.js");
             correctionAdd("Passport", "Passport.js");
             correctionAdd("passport", "Passport.js");
+            correctionAdd("Passportjs", "Passport.js");
 
             correctionAdd("chatises", "chastises");
 
@@ -37379,6 +37401,7 @@ namespace OverflowHelper.core
             correctionAdd("oauth 2", "OAuth 2");
             correctionAdd("oauth2", "OAuth 2");
             correctionAdd("OAuth2", "OAuth 2");
+            correctionAdd("Oauth2", "OAuth 2");
 
             correctionAdd("12 factor app", "Twelve-Factor Application methodology");
 
@@ -39146,8 +39169,6 @@ namespace OverflowHelper.core
 
             correctionAdd("VSO", "Visual Studio Online");
             correctionAdd("VS Online", "Visual Studio Online");
-
-            correctionAdd("your computer", "Your Computer");
 
             correctionAdd("apalls", "appalls");
 
@@ -47500,6 +47521,22 @@ namespace OverflowHelper.core
             correctionAdd("CalDav", "CalDAV");
 
             correctionAdd("lcc", "LCC");
+
+            correctionAdd("Emotion", "emotion");
+
+            correctionAdd("plus perfect number", "narcissistic number");
+            correctionAdd("Armstrong number", "narcissistic number");
+            correctionAdd("PPDI", "narcissistic number");
+            correctionAdd("armstrong number", "narcissistic number");
+            correctionAdd("pluperfect digital invariant", "narcissistic number");
+
+            correctionAdd("catl", "CATL");
+
+            correctionAdd("un-commented", "uncommented");
+
+            correctionAdd("bigchaindb", "BigchainDB");
+
+            correctionAdd("THD", "total harmonic distortion");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74491,6 +74528,20 @@ namespace OverflowHelper.core
 
             URL_Add("LCC", "https://en.wikipedia.org/wiki/LCC_(compiler)");
 
+            URL_Add("emotion", "https://en.wiktionary.org/wiki/emotion#Noun");
+
+            URL_Add("narcissistic number", "https://en.wikipedia.org/wiki/Narcissistic_number");
+
+            URL_Add("CATL", "https://en.wikipedia.org/wiki/CATL");
+
+            URL_Add("uncommented", "https://en.wiktionary.org/wiki/uncommented#Adjective");
+
+            URL_Add("BigchainDB", "https://en.bitcoinwiki.org/wiki/BigchainDB");
+
+            URL_Add("PDP-7", "https://en.wikipedia.org/wiki/PDP-7");
+
+            URL_Add("total harmonic distortion", "https://en.wikipedia.org/wiki/Total_harmonic_distortion");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74783,6 +74834,8 @@ namespace OverflowHelper.core
 
             correctionAdd("TEE_", "tee_");
 
+            // Mainly for an alternative URL
+            //
             // The "Stacks" 'design system' one. It is more
             // concise. The Wikipedia article version is
             // in the main word set.
@@ -74794,6 +74847,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
             correctionAdd("so_", "Stack&nbsp;Overflow_");
             correctionAdd("StackOverflow_", "Stack&nbsp;Overflow_");
+            correctionAdd("Stack overflow_", "Stack&nbsp;Overflow_");
 
             correctionAdd("ganymede_", "Ganymede_");
 
@@ -75780,6 +75834,7 @@ namespace OverflowHelper.core
             correctionAdd("Backward Elimination_", "backward elimination_");
 
             correctionAdd("functionnal_", "functional_");
+            correctionAdd("functionable_", "functional_");
 
             correctionAdd("DFT_", "density-functional theory_");
 
@@ -76258,10 +76313,14 @@ namespace OverflowHelper.core
 
             correctionAdd("chatgpt_", "ChatGPT_");
 
+            // Mainly for an alternative URL
             correctionAdd("stack exchange_", "Stack&nbsp;Exchange_");
             correctionAdd("Stack Exchange_", "Stack&nbsp;Exchange_"); // Sort of identity mapping"
+            correctionAdd("stackexchange_", "Stack&nbsp;Exchange_");
 
             correctionAdd("Resistance_", "resistance_");
+
+            correctionAdd("Z shell_", "Z shell in the default shell in macOS v10.15 (Catalina)_");
 
             // URL mappings
             //
@@ -77277,6 +77336,8 @@ namespace OverflowHelper.core
             URL_Add("Gradle (tag wiki)_", "https://stackoverflow.com/questions/tagged/gradle");
 
             URL_Add("resistance_", "https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance#Introduction");
+
+            URL_Add("Z shell in the default shell in macOS v10.15 (Catalina)_", "https://en.wikipedia.org/wiki/MacOS_Catalina#Removed_or_changed_components");
 
         } //addLookupData_alternativeWordSet()
 
