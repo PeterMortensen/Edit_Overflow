@@ -2161,6 +2161,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Sparky Linux", "SparkyLinux");
 
+            // A Linux distribution
+            correctionAdd("KANOTIX", "Kanotix");
+
             correctionAdd("SYSLINUX", "Syslinux");
 
             correctionAdd("linux lite", "Linux Lite");
@@ -13310,6 +13313,21 @@ namespace OverflowHelper.core
             correctionAdd("Ctlr", "Ctrl");
             correctionAdd("Cltr", "Ctrl");
 
+            correctionAdd("SHIFT", "Shift");
+            correctionAdd("shift", "Shift");
+            correctionAdd("Shft", "Shift");
+            correctionAdd("shif", "Shift");
+            correctionAdd("SHITFT", "Shift");
+            correctionAdd("Shitft", "Shift");
+
+            correctionAdd("ALT", "Alt");
+            correctionAdd("alt", "Alt");
+
+            correctionAdd("Print Screen", "Prt Sc");
+            correctionAdd("PrtSc", "Prt Sc");
+            correctionAdd("PrtScr", "Prt Sc");
+            correctionAdd("PrtSct", "Prt Sc");
+
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); // Plural, to avoid nearly duplicate entries.
 
@@ -19283,13 +19301,6 @@ namespace OverflowHelper.core
 
             correctionAdd("midnight commander", "Midnight Commander");
 
-            correctionAdd("SHIFT", "Shift");
-            correctionAdd("shift", "Shift");
-            correctionAdd("Shft", "Shift");
-            correctionAdd("shif", "Shift");
-            correctionAdd("SHITFT", "Shift");
-            correctionAdd("Shitft", "Shift");
-
             correctionAdd("x509", "X.509");
             correctionAdd("x.509", "X.509");
 
@@ -20244,6 +20255,8 @@ namespace OverflowHelper.core
             correctionAdd("almos", "almost");
             correctionAdd("alomst", "almost");
             correctionAdd("allmost", "almost");
+            correctionAdd("alsmost", "almost");
+            correctionAdd("alsomst", "almost");
 
             correctionAdd("left most", "leftmost");
 
@@ -23642,9 +23655,6 @@ namespace OverflowHelper.core
             correctionAdd("valu", "value");
 
             correctionAdd("WHOAMI", "whoami");
-
-            correctionAdd("ALT", "Alt");
-            correctionAdd("alt", "Alt");
 
             correctionAdd("atlassian", "Atlassian");
 
@@ -29651,6 +29661,8 @@ namespace OverflowHelper.core
             correctionAdd("Cherry Black", "Cherry MX Black");
             correctionAdd("mx black", "Cherry MX Black");
             correctionAdd("MX Black", "Cherry MX Black");
+
+            correctionAdd("linear switch", "linear mechanical keyboard switch");
 
             correctionAdd("occam's razor", "Occam's razor");
             correctionAdd("Occams Razor", "Occam's razor");
@@ -47577,6 +47589,9 @@ namespace OverflowHelper.core
             correctionAdd("cooler master", "Cooler Master");
             correctionAdd("coolermaster", "Cooler Master");
 
+            // A program from Cooler Master
+            correctionAdd("MasterPlus", "MasterPlus+");
+
             // A keyboard from Cooler Master
             correctionAdd("CK550", "CK550 V2");
             correctionAdd("CK-550", "CK550 V2");
@@ -47593,17 +47608,8 @@ namespace OverflowHelper.core
 
             correctionAdd("gray", "grey");
 
-            correctionAdd("KANOTIX", "Kanotix");
-
-            correctionAdd("linear switch", "linear mechanical keyboard switch");
-
             correctionAdd("low cost", "low-cost");
             correctionAdd("Low cost", "low-cost");
-
-            correctionAdd("Print Screen", "Prt Sc");
-            correctionAdd("PrtSc", "Prt Sc");
-            correctionAdd("PrtScr", "Prt Sc");
-            correctionAdd("PrtSct", "Prt Sc");
 
             correctionAdd("scandalos", "scandalous");
 
@@ -47611,9 +47617,9 @@ namespace OverflowHelper.core
             correctionAdd("brigtness", "brightness");
             correctionAdd("britgness", "brightness");
 
-            correctionAdd("MasterPlus", "MasterPlus+");
-
             correctionAdd("unlug", "unplug");
+
+            correctionAdd("adviseable", "advisable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74650,6 +74656,8 @@ namespace OverflowHelper.core
             URL_Add("Pets (Stack Exchange site)", "https://pets.stackexchange.com/tour");
 
             URL_Add("unplug", "https://en.wiktionary.org/wiki/unplug#Verb");
+
+            URL_Add("advisable", "https://en.wiktionary.org/wiki/advisable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
