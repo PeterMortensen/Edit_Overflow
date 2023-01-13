@@ -1214,6 +1214,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow en Español", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("SO.es", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("es.stack", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("Stack Overflow en Espanol", "Stack Overflow en español (Stack Exchange site)");
 
             correctionAdd("SOPT", "Stack Overflow em Português");
             correctionAdd("SOpt", "Stack Overflow em Português");
@@ -1247,6 +1248,7 @@ namespace OverflowHelper.core
             correctionAdd("area-51", "Area&nbsp;51 (Stack Exchange site)");
             correctionAdd("Area 51 (Stack Exchange site)", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Area&nbsp;51", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("area51.SE", "Area&nbsp;51 (Stack Exchange site)");
 
             correctionAdd("Physical Fitness", "Physical Fitness (Stack Exchange site)");
 
@@ -1473,6 +1475,9 @@ namespace OverflowHelper.core
             correctionAdd("web applications", "Web Applications (Stack Exchange site)");
             correctionAdd("WebApps.SE", "Web Applications (Stack Exchange site)");
             correctionAdd("webapps", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web apps", "Web Applications (Stack Exchange site)");
+            correctionAdd("Webapps", "Web Applications (Stack Exchange site)");
+            correctionAdd("web apps", "Web Applications (Stack Exchange site)");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
@@ -2333,6 +2338,8 @@ namespace OverflowHelper.core
             correctionAdd("fontawsome", "Font Awesome");
             correctionAdd("font-awesome", "Font Awesome");
 
+            correctionAdd("MaterialIcon", "Material Icons");
+
             correctionAdd("vlume", "volume");
             correctionAdd("vulme", "volume");
 
@@ -3187,6 +3194,7 @@ namespace OverflowHelper.core
 
             correctionAdd("else where", "elsewhere");
             correctionAdd("elsehwere", "elsewhere");
+            correctionAdd("otherwhere", "elsewhere");
 
             correctionAdd("every where", "everywhere");
             correctionAdd("eveywhere", "everywhere");
@@ -3203,6 +3211,7 @@ namespace OverflowHelper.core
             correctionAdd("someplace", "somewhere");
             correctionAdd("some place", "somewhere");
             correctionAdd("somehwere", "somewhere");
+            correctionAdd("somwwhere", "somewhere");
 
             correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
 
@@ -3612,6 +3621,7 @@ namespace OverflowHelper.core
             correctionAdd("sql sever", "SQL&nbsp;Server");
             correctionAdd("TSQL Server", "SQL&nbsp;Server");
             correctionAdd("MS SQL SERVER", "SQL&nbsp;Server");
+            correctionAdd("MS SQLserver", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -5105,12 +5115,35 @@ namespace OverflowHelper.core
             correctionAdd("dpi", "DPI");
             correctionAdd("Dpi", "DPI");
 
+            // A Python library
             correctionAdd("numpy", "NumPy");
             correctionAdd("NUmPy", "NumPy");
             correctionAdd("Numpy", "NumPy");
             correctionAdd("numPy", "NumPy");
             correctionAdd("NUMPY", "NumPy");
             correctionAdd("NumPY", "NumPy");
+
+            // NumPy (Python library)
+            correctionAdd("np.clip", "numpy.clip()");
+            correctionAdd("clip", "numpy.clip()");
+            correctionAdd("numpy.clip", "numpy.clip()");
+
+            // NumPy (Python library)
+            correctionAdd("numpy.meshgrid", "numpy.meshgrid()");
+            correctionAdd("meshgrid", "numpy.meshgrid()");
+            correctionAdd("np.meshgrid", "numpy.meshgrid()");
+
+            // NumPy (Python library)
+            correctionAdd("mgrid", "numpy.mgrid()");
+            correctionAdd("numpy.mgrid", "numpy.mgrid()");
+
+            // NumPy (Python library)
+            correctionAdd("ogrid", "numpy.ogrid()");
+            correctionAdd("numpy.ogrid", "numpy.ogrid()");
+
+            // NumPy (Python library)
+            correctionAdd("transpose", "numpy.transpose()");
+            correctionAdd("numpy.transpose", "numpy.transpose()");
 
             correctionAdd("git BASH", "Git Bash");
             correctionAdd("gitBash", "Git Bash");
@@ -5643,6 +5676,7 @@ namespace OverflowHelper.core
             correctionAdd("funcition", "function");
             correctionAdd("funk", "function");
             correctionAdd("funktions", "function");
+            correctionAdd("unction", "function");
 
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
@@ -7157,13 +7191,30 @@ namespace OverflowHelper.core
             correctionAdd("coma separated values", "CSV");
             correctionAdd("comma separated values", "CSV");
 
-            correctionAdd("read_csv", "pandas.read_csv");
+            // A Python library
+            correctionAdd("pandas", "Pandas");
+            correctionAdd("padas", "Pandas");
+            correctionAdd("Panda", "Pandas");
+            correctionAdd("panda", "Pandas");
 
-            correctionAdd("groupby", "pandas.DataFrame.groupby");
+            // Pandas (Python library)
+            correctionAdd("Iloc", "iloc");
 
-            correctionAdd("iterrows", "pandas.DataFrame.iterrows");
+            // Pandas (Python library)
+            correctionAdd("groupby", "pandas.DataFrame.groupby()");
+            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
 
-            correctionAdd("itertuples", "pandas.DataFrame.itertuples");
+            // Pandas (Python library)
+            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
+            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
+
+            // Pandas (Python library)
+            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
+            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
+
+            // Pandas (Python library)
+            correctionAdd("read_csv", "pandas.read_csv()");
+            correctionAdd("pandas.read_csv", "pandas.read_csv()");
 
             correctionAdd("profiterable", "profitable");
 
@@ -10188,6 +10239,21 @@ namespace OverflowHelper.core
 
             correctionAdd("NRE", "non-recurring engineering");
 
+            correctionAdd("Engineer", "engineer");
+            correctionAdd("enginner", "engineer");
+            correctionAdd("enginneer", "engineer");
+            correctionAdd("enginineer", "engineer");
+
+            correctionAdd("Senior Engineer", "senior engineer");
+
+            correctionAdd("Civil Engineer", "civil engineer");
+
+            correctionAdd("reverse engineer", "reverse-engineer");
+
+            correctionAdd("reverse engineered", "reverse-engineered");
+
+            correctionAdd("Data Engineer", "data engineer");
+
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
 
@@ -12927,6 +12993,60 @@ namespace OverflowHelper.core
             correctionAdd("Divx", "DivX");
             correctionAdd("divx", "DivX");
 
+            correctionAdd("divi", "Divi");
+
+            correctionAdd("devide", "divide");
+
+            correctionAdd("civider", "divider");
+
+            correctionAdd("DEI", "diversity, equity, and inclusion");
+
+            correctionAdd("divsor", "divisor");
+            correctionAdd("Divisor", "divisor");
+
+            correctionAdd("Division", "division");
+
+            correctionAdd("Binary Search", "binary search");
+
+            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
+            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
+            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
+
+            correctionAdd("devine", "divine");
+            correctionAdd("d-vine", "divine");
+
+            correctionAdd("divisbility", "divisibility");
+
+            correctionAdd("web form", "HTML form");
+            correctionAdd("HTML Form", "HTML form");
+            correctionAdd("Html Form", "HTML form");
+            correctionAdd("webform", "HTML form");
+
+            correctionAdd("SPAN", "span"); // An HTML tag
+
+            // An HTML tag
+            correctionAdd("<br>", "<br/>");
+            correctionAdd("<br />", "<br/>");
+
+            correctionAdd("KBD", "kbd"); // An HTML tag
+
+            // An HTML tag
+            correctionAdd("textarea", "textarea (HTML form)");
+            correctionAdd("TextArea", "textarea (HTML form)");
+            correctionAdd("text area", "textarea (HTML form)");
+
+            // An attribute for an HTML tag
+            correctionAdd("COLSPAN", "colspan");
+
+            correctionAdd("P", "p"); // An HTML tag
+
+            // An HTML tag
+            correctionAdd("input tag", "input (HTML form)");
+
+            correctionAdd("TD", "td"); // HTML tag
+
+            correctionAdd("TR", "tr"); // Unix / Linux command
+
             correctionAdd("dragonfly", "Dragonfly");
             correctionAdd("Opera Dragonfly", "Dragonfly");
 
@@ -14005,6 +14125,7 @@ namespace OverflowHelper.core
             correctionAdd("2 complement", "two's complement");
             correctionAdd("two's complemnt", "two's complement");
             correctionAdd("two's complenment", "two's complement");
+            correctionAdd("2s-complement", "two's complement");
 
             correctionAdd("Google play", "Google Play");
             correctionAdd("google play", "Google Play");
@@ -17491,6 +17612,8 @@ namespace OverflowHelper.core
             correctionAdd("Pycharm", "PyCharm");
             correctionAdd("pyCharm", "PyCharm");
 
+            correctionAdd("PyCharm CE", "PyCharm Community Edition");
+
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
 
@@ -19931,6 +20054,7 @@ namespace OverflowHelper.core
             correctionAdd("4d", "four-dimensional");
 
             correctionAdd("ndim", "n-dimensional");
+            correctionAdd("ND", "n-dimensional");
 
             correctionAdd("multi-dimensional", "multidimensional");
             correctionAdd("mutidimensoinal", "multidimensional");
@@ -22678,8 +22802,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cern", "CERN");
 
-            correctionAdd("divi", "Divi");
-
             correctionAdd("easyphp", "EasyPHP");
             correctionAdd("EasyPhp", "EasyPHP");
             correctionAdd("Easyphp", "EasyPHP");
@@ -23643,8 +23765,6 @@ namespace OverflowHelper.core
             correctionAdd("That", "that");
             correctionAdd("thhat", "that");
 
-            correctionAdd("TR", "tr");
-
             correctionAdd("val", "value");
             correctionAdd("vaue", "value");
             correctionAdd("vaule", "value");
@@ -24274,6 +24394,30 @@ namespace OverflowHelper.core
             correctionAdd("Wayback machine", "Wayback Machine");
             correctionAdd("web archive", "Wayback Machine");
             correctionAdd("webarchive", "Wayback Machine");
+
+            correctionAdd("Von Neuman machine", "von Neumann machine");
+            correctionAdd("von Neumann", "von Neumann machine");
+            correctionAdd("von Neuman machine", "von Neumann machine");
+            correctionAdd("Von Neumann machine", "von Neumann machine");
+            correctionAdd("van neumann", "von Neumann machine");
+            correctionAdd("Von Neumann", "von Neumann machine");
+
+            correctionAdd("John Von Neumann", "John von Neumann");
+
+            correctionAdd("mahcine", "machine");
+            correctionAdd("Machine", "machine");
+
+            correctionAdd("Pick'n'place machine", "pick-and-place machine");
+
+            correctionAdd("statemachine", "finite-state machine");
+            correctionAdd("FSM", "finite-state machine");
+            correctionAdd("state machine", "finite-state machine");
+
+            correctionAdd("Mealy Machine", "Mealy machine");
+
+            correctionAdd("Moore Machine", "Moore machine");
+
+            correctionAdd("turing machine", "Turing machine");
 
             correctionAdd("yarn", "Yarn");
 
@@ -25763,6 +25907,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Euclidean Distance", "Euclidean distance");
             correctionAdd("euclidian distance", "Euclidean distance");
+            correctionAdd("Euclidian distance", "Euclidean distance");
 
             correctionAdd("fft", "FFT");
             correctionAdd("fast fourier transform", "FFT");
@@ -26043,8 +26188,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AR", "augmented reality");
             correctionAdd("Augmented Reality", "augmented reality");
-
-            correctionAdd("devide", "divide");
 
             correctionAdd("gamma", "gamma ray");
             correctionAdd("Gamma ray", "gamma ray");
@@ -28480,10 +28623,6 @@ namespace OverflowHelper.core
 
             correctionAdd("debuger", "debugger");
 
-            correctionAdd("Engineer", "engineer");
-            correctionAdd("enginner", "engineer");
-            correctionAdd("enginneer", "engineer");
-
             correctionAdd("KE", "kinetic energy");
             correctionAdd("Kinetic Energy", "kinetic energy");
             correctionAdd("ke", "kinetic energy");
@@ -30530,11 +30669,6 @@ namespace OverflowHelper.core
             correctionAdd("Blas", "BLAS");
             correctionAdd("blas", "BLAS");
 
-            correctionAdd("pandas", "Pandas");
-            correctionAdd("padas", "Pandas");
-            correctionAdd("Panda", "Pandas");
-            correctionAdd("panda", "Pandas");
-
             correctionAdd("where as", "whereas");
             correctionAdd("wheras", "whereas");
             correctionAdd("Where as", "whereas");
@@ -31853,15 +31987,6 @@ namespace OverflowHelper.core
             correctionAdd("sufferring", "suffering");
             correctionAdd("stuffering", "suffering");
 
-            correctionAdd("Von Neuman machine", "von Neumann machine");
-            correctionAdd("von Neumann", "von Neumann machine");
-            correctionAdd("von Neuman machine", "von Neumann machine");
-            correctionAdd("Von Neumann machine", "von Neumann machine");
-            correctionAdd("van neumann", "von Neumann machine");
-            correctionAdd("Von Neumann", "von Neumann machine");
-
-            correctionAdd("John Von Neumann", "John von Neumann");
-
             correctionAdd("capybara", "Capybara");
 
             correctionAdd("Galleio", "Galileo Galilei");
@@ -31961,8 +32086,6 @@ namespace OverflowHelper.core
             correctionAdd("preferredly", "preferably");
 
             correctionAdd("self evident", "self-evident");
-
-            correctionAdd("Senior Engineer", "senior engineer");
 
             correctionAdd("short-story", "short story");
 
@@ -33051,8 +33174,6 @@ namespace OverflowHelper.core
             correctionAdd("Convetion", "convention");
             correctionAdd("convetion", "convention");
 
-            correctionAdd("civider", "divider");
-
             correctionAdd("willful", "wilful");
 
             correctionAdd("emited", "emitted");
@@ -33718,6 +33839,11 @@ namespace OverflowHelper.core
 
             correctionAdd("avx", "AVX");
 
+            correctionAdd("AVX512", "AVX-512");
+            correctionAdd("avx512", "AVX-512");
+
+            correctionAdd("avx2", "AVX2");
+
             correctionAdd("alliviate", "alleviate");
             correctionAdd("aliviate", "alleviate");
 
@@ -34120,8 +34246,6 @@ namespace OverflowHelper.core
             correctionAdd("call- stack", "call stack");
             correctionAdd("call-stack", "call stack");
 
-            correctionAdd("Civil Engineer", "civil engineer");
-
             correctionAdd("qute browser", "Qutebrowser");
             correctionAdd("qutebrowser", "Qutebrowser");
 
@@ -34149,7 +34273,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gateron pink", "Gateron Pink");
 
-            correctionAdd("DF", "df");
+            correctionAdd("DF", "df"); // Unix/Linux command
 
             correctionAdd("GROUPADD", "groupadd");
 
@@ -34515,8 +34639,6 @@ namespace OverflowHelper.core
 
             correctionAdd("journaling filesystem", "journaling file system");
 
-            correctionAdd("mahcine", "machine");
-
             correctionAdd("occures", "occurs");
             correctionAdd("occurrs", "occurs");
 
@@ -34525,8 +34647,6 @@ namespace OverflowHelper.core
             correctionAdd("oscilating", "oscillating");
 
             correctionAdd("percentage encoded", "percentage-encoded");
-
-            correctionAdd("Pick'n'place machine", "pick-and-place machine");
 
             correctionAdd("vertexes", "vertices");
             correctionAdd("Vertecies", "vertices");
@@ -34543,6 +34663,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Dev.to", "DEV");
             correctionAdd("dev.to", "DEV");
+            correctionAdd("DEV.to", "DEV");
 
             correctionAdd("SQL*Plus", "SQL Plus");
             correctionAdd("sql * plus", "SQL Plus");
@@ -35063,8 +35184,6 @@ namespace OverflowHelper.core
             correctionAdd("Standard output", "standard output");
             correctionAdd("Stdout", "standard output");
             correctionAdd("stdOut", "standard output");
-
-            correctionAdd("input tag", "input (HTML form)");
 
             correctionAdd("inputed", "inputted");
 
@@ -38766,10 +38885,6 @@ namespace OverflowHelper.core
 
             correctionAdd("enterd", "entered");
 
-            correctionAdd("statemachine", "finite-state machine");
-            correctionAdd("FSM", "finite-state machine");
-            correctionAdd("state machine", "finite-state machine");
-
             correctionAdd("truckin'", "trucking");
 
             correctionAdd("unintensional", "unintentional");
@@ -38859,11 +38974,6 @@ namespace OverflowHelper.core
             correctionAdd("character entities", "HTML character entity reference");
             correctionAdd("entity code", "HTML character entity reference");
             correctionAdd("entitycode", "HTML character entity reference");
-
-            correctionAdd("web form", "HTML form");
-            correctionAdd("HTML Form", "HTML form");
-            correctionAdd("Html Form", "HTML form");
-            correctionAdd("webform", "HTML form");
 
             correctionAdd("mercure", "Mercure");
 
@@ -39089,8 +39199,6 @@ namespace OverflowHelper.core
             correctionAdd("black and white", "black-and-white");
             correctionAdd("B&W", "black-and-white");
             correctionAdd("b&w", "black-and-white");
-
-            correctionAdd("DEI", "diversity, equity, and inclusion");
 
             correctionAdd("misstagged", "mistagged");
 
@@ -39767,10 +39875,6 @@ namespace OverflowHelper.core
             correctionAdd("phase", "face");
 
             correctionAdd("prize", "price");
-
-            correctionAdd("reverse engineer", "reverse-engineer");
-
-            correctionAdd("reverse engineered", "reverse-engineered");
 
             correctionAdd("thought-process", "thought process");
             correctionAdd("thoughtprocess", "thought process");
@@ -40735,9 +40839,6 @@ namespace OverflowHelper.core
 
             correctionAdd("self documenting", "self-documenting");
 
-            correctionAdd("divsor", "divisor");
-            correctionAdd("Divisor", "divisor");
-
             correctionAdd("Giga", "giga");
 
             correctionAdd("losely", "loosely");
@@ -40957,8 +41058,6 @@ namespace OverflowHelper.core
             correctionAdd("RFC 2606", "RFC&nbsp;2606");
 
             correctionAdd("dabler", "dabbler");
-
-            correctionAdd("Division", "division");
 
             correctionAdd("hundreth", "hundredth");
 
@@ -41197,10 +41296,6 @@ namespace OverflowHelper.core
             correctionAdd("summerise", "summarise");
 
             correctionAdd("twenty-four seven", "24/7");
-
-            correctionAdd("Mealy Machine", "Mealy machine");
-
-            correctionAdd("Moore Machine", "Moore machine");
 
             correctionAdd("anonumised", "anonymised");
 
@@ -41453,8 +41548,6 @@ namespace OverflowHelper.core
             correctionAdd("go amis", "go amiss");
 
             correctionAdd("over counting", "overcounting");
-
-            correctionAdd("P", "p");
 
             correctionAdd("showed", "shown");
 
@@ -42161,12 +42254,6 @@ namespace OverflowHelper.core
             correctionAdd("SUMO", "Simulation of Urban Mobility");
             correctionAdd("Simulation of Urban MObility", "Simulation of Urban Mobility");
 
-            correctionAdd("Binary Search", "binary search");
-
-            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
-            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
-            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
-
             correctionAdd("end's up", "ends up");
 
             correctionAdd("genunely", "genuinely");
@@ -42282,8 +42369,6 @@ namespace OverflowHelper.core
 
             correctionAdd("virt-manager", "Virtual Machine Manager");
             correctionAdd("virt manager", "Virtual Machine Manager");
-
-            correctionAdd("COLSPAN", "colspan");
 
             correctionAdd("hrs", "hours");
 
@@ -42966,10 +43051,6 @@ namespace OverflowHelper.core
 
             correctionAdd("technicaly", "technically");
 
-            correctionAdd("textarea", "textarea (HTML form)");
-            correctionAdd("TextArea", "textarea (HTML form)");
-            correctionAdd("text area", "textarea (HTML form)");
-
             correctionAdd("two dozens", "two dozen");
 
             correctionAdd("Burp suite", "Burp Suite");
@@ -43142,6 +43223,7 @@ namespace OverflowHelper.core
             correctionAdd("oracle11g", "Oracle Database 11g Release 1");
             correctionAdd("oracle 11g", "Oracle Database 11g Release 1");
             correctionAdd("Oracle Database 11g", "Oracle Database 11g Release 1");
+            correctionAdd("11g", "Oracle Database 11g Release 1");
 
             correctionAdd("Oracle 11.2g", "Oracle Database 11g Release 2");
 
@@ -43361,8 +43443,6 @@ namespace OverflowHelper.core
             correctionAdd("auxillary", "auxiliary");
 
             correctionAdd("cope up", "come up");
-
-            correctionAdd("Data Engineer", "data engineer");
 
             correctionAdd("Dependency Inversion", "dependency inversion principle");
             correctionAdd("Dependency Inversion principle", "dependency inversion principle");
@@ -44093,8 +44173,6 @@ namespace OverflowHelper.core
             correctionAdd("Mainfest", "manifest");
             correctionAdd("manifiest", "manifest");
 
-            correctionAdd("AVX512", "AVX-512");
-
             correctionAdd("celeron", "Celeron");
 
             correctionAdd("gigaFLOPS", "GFLOPS");
@@ -44243,8 +44321,6 @@ namespace OverflowHelper.core
 
             correctionAdd("standard model", "Standard Model");
 
-            correctionAdd("turing machine", "Turing machine");
-
             correctionAdd("x-2 wyvern", "X-02 Wyvern");
 
             correctionAdd("abstarct", "abstract");
@@ -44299,6 +44375,7 @@ namespace OverflowHelper.core
             correctionAdd("Romove", "remove");
             correctionAdd("remoe", "remove");
             correctionAdd("rem9ve", "remove");
+            correctionAdd("reomove", "remove");
 
             correctionAdd("re-tag", "retag");
 
@@ -44732,8 +44809,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Gravity", "gravity");
 
-            correctionAdd("Iloc", "iloc");
-
             correctionAdd("perturbate", "perturb");
 
             correctionAdd("B2 visa", "B-2 visa");
@@ -44766,14 +44841,9 @@ namespace OverflowHelper.core
 
             correctionAdd("element-wise", "elementwise");
 
-            correctionAdd("np.clip", "numpy.clip");
-            correctionAdd("clip", "numpy.clip");
-
             correctionAdd("oscilliator", "oscillator");
 
             correctionAdd("vendor agnostic", "vendor-agnostic");
-
-            correctionAdd("PyCharm CE", "PyCharm Community Edition");
 
             correctionAdd("discordJS", "discord.js");
             correctionAdd("discord js", "discord.js");
@@ -45001,8 +45071,6 @@ namespace OverflowHelper.core
             correctionAdd("DIFF3", "diff3");
 
             correctionAdd("instrucment", "instrument");
-
-            correctionAdd("KBD", "kbd");
 
             correctionAdd("visious circle", "vicious circle");
 
@@ -45587,9 +45655,6 @@ namespace OverflowHelper.core
 
             correctionAdd("noysier", "noisier");
 
-            correctionAdd("<br>", "<br/>");
-            correctionAdd("<br />", "<br/>");
-
             correctionAdd("afirmation", "affirmation");
 
             correctionAdd("fullscreen", "full screen");
@@ -45798,9 +45863,6 @@ namespace OverflowHelper.core
             correctionAdd("decision-making", "decision making");
 
             correctionAdd("copys", "copies");
-
-            correctionAdd("devine", "divine");
-            correctionAdd("d-vine", "divine");
 
             correctionAdd("maleware", "malware");
 
@@ -46921,6 +46983,7 @@ namespace OverflowHelper.core
             correctionAdd("chat GPT", "ChatGPT");
             correctionAdd("chat gpt", "ChatGPT");
             correctionAdd("C-G", "ChatGPT");
+            correctionAdd("ChatGBT", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -47493,10 +47556,6 @@ namespace OverflowHelper.core
 
             correctionAdd("self guided", "self-guided");
 
-            correctionAdd("divisbility", "divisibility");
-
-            correctionAdd("TD", "td"); // HTML tag
-
             correctionAdd("visitng", "visiting");
 
             correctionAdd("safe", "save");
@@ -47580,6 +47639,7 @@ namespace OverflowHelper.core
             correctionAdd("un-commented", "uncommented");
 
             correctionAdd("bigchaindb", "BigchainDB");
+            correctionAdd("Bigchaindb", "BigchainDB");
 
             correctionAdd("THD", "total harmonic distortion");
 
@@ -47620,6 +47680,43 @@ namespace OverflowHelper.core
             correctionAdd("unlug", "unplug");
 
             correctionAdd("adviseable", "advisable");
+
+            correctionAdd("```json", "```lang-json");
+
+            correctionAdd("Collins Dictionary", "Collins English Dictionary");
+            correctionAdd("collins dictionary", "Collins English Dictionary");
+
+            correctionAdd("relayout", "layout");
+
+            correctionAdd("non significant", "nonsignificant");
+
+            correctionAdd("SmashingMagazine", "Smashing Magazine");
+
+            correctionAdd("tendermint", "Tendermint");
+
+            correctionAdd("CSS validation", "W3C CSS validator");
+
+            correctionAdd("sux", "sucks");
+
+            correctionAdd("Ammo", "ammunition");
+            correctionAdd("ammo", "ammunition");
+            correctionAdd("ammuntion", "ammunition");
+
+            correctionAdd("ar-15", "AR-15");
+
+            correctionAdd("boston", "Boston");
+
+            correctionAdd("fallout 4", "Fallout 4");
+
+            correctionAdd("Firearm", "firearm");
+
+            correctionAdd("Stalinda", "Jacinda Ardern");
+
+            correctionAdd("Rifle", "rifle");
+
+            correctionAdd("SMLE", "Short, Magazine, Lee–Enfield");
+
+            correctionAdd("re-filling", "refilling");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -48585,8 +48682,6 @@ namespace OverflowHelper.core
 
             URL_Add("TextMate", "https://en.wikipedia.org/wiki/TextMate");
 
-            URL_Add("HTML", "https://en.wikipedia.org/wiki/HTML");
-
             URL_Add("Firefox", "https://en.wikipedia.org/wiki/Mozilla_Firefox");
 
             URL_Add("Google Chrome", "https://en.wikipedia.org/wiki/Google_Chrome");
@@ -48832,8 +48927,6 @@ namespace OverflowHelper.core
             URL_Add("InnoDB", "https://en.wikipedia.org/wiki/InnoDB");
 
             URL_Add("MyISAM", "https://en.wikipedia.org/wiki/MyISAM");
-
-            URL_Add("HTML5", "https://en.wikipedia.org/wiki/HTML5");
 
             URL_Add("Confluence", "https://en.wikipedia.org/wiki/Confluence_%28software%29");
 
@@ -49375,10 +49468,6 @@ namespace OverflowHelper.core
             URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
             URL_Add("won’t", "https://en.wiktionary.org/wiki/won%27t#Verb"); // Old: https://en.wiktionary.org/wiki/won%27t
-
-            URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
-
-            URL_Add("XHTML", "https://en.wikipedia.org/wiki/XHTML");
 
             URL_Add("CVS", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
@@ -50101,8 +50190,6 @@ namespace OverflowHelper.core
             URL_Add("XBMC", "https://en.wikipedia.org/wiki/XBMC");
 
             URL_Add("ACE", "https://en.wikipedia.org/wiki/Adaptive_Communication_Environment");
-
-            URL_Add("HTA", "https://en.wikipedia.org/wiki/HTML_Application");
 
             URL_Add("FAT16", "https://en.wikipedia.org/wiki/File_Allocation_Table#Final_FAT16");
 
@@ -50929,8 +51016,6 @@ namespace OverflowHelper.core
             URL_Add("CUDA", "https://en.wikipedia.org/wiki/CUDA");
 
             URL_Add("Instagram", "https://en.wikipedia.org/wiki/Instagram");
-
-            URL_Add("Beautiful Soup", "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"); // Old: https://en.wikipedia.org/wiki/Beautiful_Soup
 
             URL_Add("AIX", "https://en.wikipedia.org/wiki/IBM_AIX");
 
@@ -53316,8 +53401,6 @@ namespace OverflowHelper.core
             URL_Add("BusyBox", "https://en.wikipedia.org/wiki/BusyBox");
 
             URL_Add("Iris data set", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
-
-            URL_Add("KHTML", "https://en.wikipedia.org/wiki/KHTML");
 
             URL_Add("MSysGit", "https://github.com/msysgit/");
 
@@ -57857,8 +57940,6 @@ namespace OverflowHelper.core
 
             URL_Add("dollar", "https://en.wiktionary.org/wiki/dollar#Noun");
 
-            URL_Add("drop-down menu", "https://en.wikipedia.org/wiki/Drop-down_list#HTML"); // Old: <https://en.wiktionary.org/wiki/dropdown#Noun>
-
             URL_Add("freeCodeCamp", "https://en.wikipedia.org/wiki/FreeCodeCamp");
 
             URL_Add("get-go", "https://en.wiktionary.org/wiki/get-go#Noun");
@@ -58352,8 +58433,6 @@ namespace OverflowHelper.core
             URL_Add("console", "https://en.wiktionary.org/wiki/console#Noun");
 
             URL_Add("conversion", "https://en.wiktionary.org/wiki/conversion#Noun");
-
-            URL_Add("HTML Tidy", "https://en.wikipedia.org/wiki/HTML_Tidy");
 
             URL_Add("impostor syndrome", "https://en.wikipedia.org/wiki/Impostor_syndrome");
 
@@ -62925,8 +63004,6 @@ namespace OverflowHelper.core
 
             URL_Add("thingamajiggy", "https://en.wiktionary.org/wiki/thingamajiggy#Noun");
 
-            URL_Add("input (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text");
-
             URL_Add("CRLF", "https://en.wikipedia.org/wiki/Newline#Representation");
 
             URL_Add("FM", "https://en.wikipedia.org/wiki/Frequency_modulation");
@@ -64601,8 +64678,6 @@ namespace OverflowHelper.core
 
             URL_Add("Yup", "https://github.com/jquense/yup");
 
-            URL_Add("HTML&nbsp;4", "https://en.wikipedia.org/wiki/HTML#HTML_4");
-
             URL_Add("constants", "https://en.wiktionary.org/wiki/constant#Noun");
 
             URL_Add("double-click", "https://en.wiktionary.org/wiki/double-click#Verb");
@@ -66083,17 +66158,11 @@ namespace OverflowHelper.core
 
             URL_Add("zero-width non-joiner", "https://en.wikipedia.org/wiki/Zero-width_non-joiner");
 
-            URL_Add("&lt;", "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
-
             URL_Add("Aurelia", "https://aurelia.io/");
 
             URL_Add("DBeaver", "https://en.wikipedia.org/wiki/DBeaver");
 
             URL_Add("HAProxy", "https://en.wikipedia.org/wiki/HAProxy");
-
-            URL_Add("HTML character entity reference", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML");
-
-            URL_Add("HTML form", "https://en.wikipedia.org/wiki/Form_(HTML)");
 
             URL_Add("Linphone", "https://en.wikipedia.org/wiki/Linphone");
 
@@ -68591,8 +68660,6 @@ namespace OverflowHelper.core
 
             URL_Add("overcounting", "https://en.wiktionary.org/wiki/overcount#Verb");
 
-            URL_Add("p", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
-
             URL_Add("shown", "https://en.wiktionary.org/wiki/show#Verb");
 
             URL_Add("en dash", "https://en.wiktionary.org/wiki/en_dash#Noun");
@@ -69333,8 +69400,6 @@ namespace OverflowHelper.core
 
             URL_Add("Lear Siegler", "https://en.wikipedia.org/wiki/Lear_Siegler#Computer_terminals");
 
-            URL_Add("RegEx match open tags except XHTML self-contained tags", "https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454");
-
             URL_Add("Speakon connector", "https://en.wikipedia.org/wiki/Speakon_connector");
 
             URL_Add("Team Foundation Version Control", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#Team_Foundation_Version_Control");
@@ -69416,8 +69481,6 @@ namespace OverflowHelper.core
             URL_Add("Tweepy", "https://docs.tweepy.org/en/stable/getting_started.html");
 
             URL_Add("Virtual Machine Manager", "https://en.wikipedia.org/wiki/Virtual_Machine_Manager");
-
-            URL_Add("colspan", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#attr-colspan");
 
             URL_Add("daylight saving time", "https://en.wikipedia.org/wiki/Daylight_saving_time");
 
@@ -70024,8 +70087,6 @@ namespace OverflowHelper.core
             URL_Add("rent-free", "https://en.wiktionary.org/wiki/rent-free#Adjective");
 
             URL_Add("technically", "https://en.wiktionary.org/wiki/technically#Adverb");
-
-            URL_Add("textarea (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea");
 
             URL_Add("two dozen", "https://en.wiktionary.org/wiki/dozen#Noun");
 
@@ -71689,8 +71750,6 @@ namespace OverflowHelper.core
 
             URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
 
-            URL_Add("iloc", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html");
-
             URL_Add("perturb", "https://en.wiktionary.org/wiki/perturb#Verb");
 
             URL_Add("unavailable", "https://en.wiktionary.org/wiki/unavailable#Adjective");
@@ -71725,7 +71784,7 @@ namespace OverflowHelper.core
 
             URL_Add("elementwise", "https://en.wiktionary.org/wiki/elementwise#Adjective");
 
-            URL_Add("numpy.clip", "https://numpy.org/doc/stable/reference/generated/numpy.clip.html");
+            URL_Add("numpy.clip()", "https://numpy.org/doc/stable/reference/generated/numpy.clip.html");
 
             URL_Add("oscillator", "https://en.wiktionary.org/wiki/oscillator#Noun");
 
@@ -71899,12 +71958,6 @@ namespace OverflowHelper.core
 
             URL_Add("interfere", "https://en.wiktionary.org/wiki/interfere#Verb");
 
-            URL_Add("pandas.DataFrame.groupby", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html");
-
-            URL_Add("pandas.DataFrame.iterrows", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iterrows.html");
-
-            URL_Add("pandas.DataFrame.itertuples", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.itertuples.html");
-
             URL_Add("semantics", "https://en.wiktionary.org/wiki/semantics#Noun");
 
             URL_Add("-Wreturn-type", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-type>
@@ -71945,8 +71998,6 @@ namespace OverflowHelper.core
 
             URL_Add("instrument", "https://en.wiktionary.org/wiki/instrument#Verb");
 
-            URL_Add("kbd", "https://en.wikipedia.org/wiki/HTML_element#Computer_phrase_elements");
-
             URL_Add("unintuitive", "https://en.wiktionary.org/wiki/unintuitive#Adjective");
 
             URL_Add("vicious circle", "https://en.wikipedia.org/wiki/Vicious_circle");
@@ -71972,8 +72023,6 @@ namespace OverflowHelper.core
             URL_Add("WebAIM", "https://en.wikipedia.org/wiki/WebAIM");
 
             URL_Add("disguising", "https://en.wiktionary.org/wiki/disguise#Verb");
-
-            URL_Add("pandas.read_csv", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html");
 
             URL_Add("round trip", "https://en.wiktionary.org/wiki/round_trip#Noun");
 
@@ -72486,8 +72535,6 @@ namespace OverflowHelper.core
             URL_Add("```lang-perl", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
 
             URL_Add("noisier", "https://en.wiktionary.org/wiki/noisy#Adjective");
-
-            URL_Add("<br/>", "https://en.wikipedia.org/wiki/HTML_element#Other_inline_elements");
 
             URL_Add("affirmation", "https://en.wiktionary.org/wiki/affirmation#Noun");
 
@@ -74543,8 +74590,6 @@ namespace OverflowHelper.core
 
             URL_Add("divisibility", "https://en.wiktionary.org/wiki/divisibility#Noun");
 
-            URL_Add("td", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td");
-
             URL_Add("visiting", "https://en.wiktionary.org/wiki/visit#Verb");
 
             URL_Add("Arjun Erigaisi", "https://en.wikipedia.org/wiki/Arjun_Erigaisi");
@@ -74659,6 +74704,106 @@ namespace OverflowHelper.core
 
             URL_Add("advisable", "https://en.wiktionary.org/wiki/advisable#Adjective");
 
+            URL_Add("```lang-json", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
+
+            URL_Add("AVX2", "https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#Advanced_Vector_Extensions_2");
+
+            URL_Add("Collins English Dictionary", "https://en.wikipedia.org/wiki/Collins_English_Dictionary");
+
+            URL_Add("layout", "https://en.wiktionary.org/wiki/layout#Noun");
+
+            URL_Add("Material Icons", "https://fonts.google.com/icons?icon.set=Material+Icons");
+
+            URL_Add("nonsignificant", "https://en.wiktionary.org/wiki/nonsignificant#Adjective");
+
+            URL_Add("Smashing Magazine", "https://en.wikipedia.org/wiki/Smashing_Magazine");
+
+            URL_Add("HTML&nbsp;4", "https://en.wikipedia.org/wiki/HTML#HTML_4");
+
+            URL_Add("HTML Tidy", "https://en.wikipedia.org/wiki/HTML_Tidy");
+
+            URL_Add("drop-down menu", "https://en.wikipedia.org/wiki/Drop-down_list#HTML"); // Old: <https://en.wiktionary.org/wiki/dropdown#Noun>
+
+            URL_Add("KHTML", "https://en.wikipedia.org/wiki/KHTML");
+
+            URL_Add("Beautiful Soup", "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"); // Old: https://en.wikipedia.org/wiki/Beautiful_Soup
+
+            URL_Add("HTA", "https://en.wikipedia.org/wiki/HTML_Application");
+
+            URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
+
+            URL_Add("HTML", "https://en.wikipedia.org/wiki/HTML");
+
+            URL_Add("HTML5", "https://en.wikipedia.org/wiki/HTML5");
+
+            URL_Add("XHTML", "https://en.wikipedia.org/wiki/XHTML");
+
+            URL_Add("HTML character entity reference", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML");
+
+            URL_Add("RegEx match open tags except XHTML self-contained tags", "https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454");
+
+            URL_Add("Tendermint", "https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html");
+
+            URL_Add("W3C CSS validator", "https://jigsaw.w3.org/css-validator/");
+
+            URL_Add("&lt;", "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
+
+            URL_Add("td", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td");
+
+            URL_Add("<br/>", "https://en.wikipedia.org/wiki/HTML_element#Other_inline_elements");
+
+            URL_Add("kbd", "https://en.wikipedia.org/wiki/HTML_element#Computer_phrase_elements");
+
+            URL_Add("textarea (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea");
+
+            URL_Add("colspan", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#attr-colspan");
+
+            URL_Add("span", "https://en.wikipedia.org/wiki/Div_and_span");
+
+            URL_Add("p", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
+
+            URL_Add("HTML form", "https://en.wikipedia.org/wiki/Form_(HTML)");
+
+            URL_Add("input (HTML form)", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text");
+
+            URL_Add("sucks", "https://en.wiktionary.org/wiki/suck#Verb");
+
+            URL_Add("ammunition", "https://en.wiktionary.org/wiki/ammunition#Noun");
+
+            URL_Add("AR-15", "https://en.wikipedia.org/wiki/AR-15_style_rifle");
+
+            URL_Add("Boston", "https://en.wikipedia.org/wiki/Boston");
+
+            URL_Add("Fallout 4", "https://en.wikipedia.org/wiki/Fallout_4");
+
+            URL_Add("firearm", "https://en.wiktionary.org/wiki/firearm#Noun");
+
+            URL_Add("Jacinda Ardern", "https://en.wikipedia.org/wiki/Jacinda_Ardern");
+
+            URL_Add("rifle", "https://en.wiktionary.org/wiki/rifle#Noun");
+
+            URL_Add("Short, Magazine, Lee–Enfield", "https://en.wikipedia.org/wiki/Lee%E2%80%93Enfield");
+
+            URL_Add("numpy.meshgrid()", "https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html");
+
+            URL_Add("numpy.mgrid()", "https://numpy.org/doc/stable/reference/generated/numpy.mgrid.html");
+
+            URL_Add("numpy.ogrid()", "https://numpy.org/doc/stable/reference/generated/numpy.ogrid.html");
+
+            URL_Add("numpy.transpose()", "https://numpy.org/doc/stable/reference/generated/numpy.transpose.html");
+
+            URL_Add("refilling", "https://en.wiktionary.org/wiki/refill#Verb");
+
+            URL_Add("iloc", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html");
+
+            URL_Add("pandas.DataFrame.groupby()", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html");
+
+            URL_Add("pandas.DataFrame.iterrows()", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iterrows.html");
+
+            URL_Add("pandas.DataFrame.itertuples()", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.itertuples.html");
+
+            URL_Add("pandas.read_csv()", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -74768,6 +74913,7 @@ namespace OverflowHelper.core
 
             correctionAdd("COMM_", "comm_");
 
+            // Of Pandas (Python library)
             correctionAdd("df_", "dataframe_");
             correctionAdd("data frame_", "dataframe_");
             correctionAdd("datframes_", "dataframe_");
@@ -74777,6 +74923,10 @@ namespace OverflowHelper.core
             correctionAdd("data-frame_", "dataframe_");
             correctionAdd("datafram_", "dataframe_");
             correctionAdd("DataFrame_", "dataframe_");
+
+            // Pandas (Python library)
+            correctionAdd("merge_", "pandas.DataFrame.merge()_");
+            correctionAdd("pandas.DataFrame.merge_", "pandas.DataFrame.merge()_");
 
             correctionAdd("GA_", "general-availability_");
 
@@ -75945,7 +76095,11 @@ namespace OverflowHelper.core
             correctionAdd("Body_", "body_");
             correctionAdd("BODY_", "body_");
 
-            correctionAdd("DIV_", "div_");
+            correctionAdd("DIV_", "div_"); // HTML tag
+
+            correctionAdd("formular_", "form_"); // HTML tag
+
+            correctionAdd("IMG_", "img_"); // HTML tag
 
             correctionAdd("HTML_", "html_");
 
@@ -76341,8 +76495,6 @@ namespace OverflowHelper.core
             correctionAdd("forumn_", "forum_");
             correctionAdd("fourm_", "forum_");
 
-            correctionAdd("formular_", "form_");
-
             correctionAdd("abc_", "ABC_");
 
             correctionAdd("thise_", "these_");
@@ -76445,6 +76597,15 @@ namespace OverflowHelper.core
             correctionAdd("resetting_", "reseating_");
 
             correctionAdd("7_", "seven_");
+
+            correctionAdd("3VL_", "ternary_");
+            correctionAdd("three-valued logic_", "ternary_");
+            correctionAdd("trilean_", "ternary_");
+            correctionAdd("trinary logic_", "ternary_");
+            correctionAdd("trinary_", "ternary_");
+            correctionAdd("trivalent_", "ternary_");
+
+            correctionAdd("cartesian product_", "Cartesian product_");
 
             // URL mappings
             //
@@ -77466,6 +77627,14 @@ namespace OverflowHelper.core
             URL_Add("reseating_", "https://en.wiktionary.org/wiki/reseat#Verb");
 
             URL_Add("seven_", "https://en.wiktionary.org/wiki/seven#Numeral");
+
+            URL_Add("img_", "https://en.wikipedia.org/wiki/HTML_element#Images_and_objects");
+
+            URL_Add("ternary_", "https://en.wikipedia.org/wiki/Three-valued_logic");
+
+            URL_Add("Cartesian product_", "https://en.wikipedia.org/wiki/Cartesian_product");
+
+            URL_Add("pandas.DataFrame.merge()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html");
 
         } //addLookupData_alternativeWordSet()
 
