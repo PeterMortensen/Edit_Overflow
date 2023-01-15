@@ -5038,6 +5038,7 @@ namespace OverflowHelper.core
             correctionAdd("Tailwindcss", "Tailwind CSS");
             correctionAdd("tailwindcss", "Tailwind CSS");
             correctionAdd("tailwind-css", "Tailwind CSS");
+            correctionAdd("TailwindCss", "Tailwind CSS");
 
             correctionAdd("box-model", "CSS box model");
             correctionAdd("box model", "CSS box model");
@@ -6053,6 +6054,7 @@ namespace OverflowHelper.core
             // US city
             correctionAdd("NOLA", "New Orleans");
 
+            // US city
             correctionAdd("detroit", "Detroit");
 
             correctionAdd("Great lakes", "Great Lakes");
@@ -7413,6 +7415,7 @@ namespace OverflowHelper.core
             correctionAdd("masseg", "message");
             correctionAdd("messeg", "message");
             correctionAdd("messagee", "message");
+            correctionAdd("mensagge", "message");
 
             correctionAdd("dm", "direct message");
             correctionAdd("DM", "direct message");
@@ -8856,6 +8859,8 @@ namespace OverflowHelper.core
 
             correctionAdd("attiny10", "ATtiny10");
             correctionAdd("ATTiny10", "ATtiny10");
+
+            correctionAdd("ATTINY-12", "ATtiny12");
 
             correctionAdd("attiny13", "ATtiny13");
 
@@ -10611,6 +10616,9 @@ namespace OverflowHelper.core
             correctionAdd("OPENCV", "OpenCV");
             correctionAdd("OPENcv", "OpenCV");
 
+            correctionAdd("OpenCV2", "OpenCV&nbsp;2");
+            correctionAdd("OpenCV 2", "OpenCV&nbsp;2"); // Sort of identity mapping
+
             // Though the corresponding tag does not exist
             // on Stack Overflow, only for "Azure"...
             correctionAdd("AZURE", "Microsoft Azure");
@@ -11270,6 +11278,7 @@ namespace OverflowHelper.core
             correctionAdd("wikipeida", "Wikipedia");
             correctionAdd("Wikepedia", "Wikipedia");
             correctionAdd("WIkipedia", "Wikipedia");
+            correctionAdd("Wikipedea", "Wikipedia");
 
             correctionAdd("HAML", "Haml");
             correctionAdd("haml", "Haml");
@@ -15615,6 +15624,8 @@ namespace OverflowHelper.core
             correctionAdd("What'sApp", "WhatsApp");
             correctionAdd("Watsap", "WhatsApp");
             correctionAdd("Whatsap", "WhatsApp");
+            correctionAdd("WhastApp", "WhatsApp");
+            correctionAdd("whastapp", "WhatsApp");
 
             // Currently defunc due to some recent changes!!!
             //  correctionAdd("Textpad++", "Textpad++");
@@ -28912,6 +28923,7 @@ namespace OverflowHelper.core
 
             correctionAdd("obversely", "conversely");
             correctionAdd("Obversely", "conversely");
+            correctionAdd("converely", "conversely");
 
             correctionAdd("curiousity", "curiosity");
 
@@ -32608,6 +32620,7 @@ namespace OverflowHelper.core
             correctionAdd("arbitary", "arbitrary");
 
             correctionAdd("criticization", "critique");
+            correctionAdd("Critique", "critique");
 
             correctionAdd("Page Object Pattern", "page object pattern");
 
@@ -33557,6 +33570,24 @@ namespace OverflowHelper.core
 
             // A computer game
             correctionAdd("fallout 4", "Fallout 4");
+
+            correctionAdd("War Games", "WarGames");
+            correctionAdd("war games", "WarGames");
+
+            correctionAdd("bowser", "Bowser"); // Related to a computer game
+
+             // Related to a computer game
+            correctionAdd("World 8", "World 8-Bowser's Castle");
+            correctionAdd("world 8", "World 8-Bowser's Castle");
+
+            // A computer game
+            correctionAdd("doom", "Doom");
+
+            // A computer game
+            correctionAdd("Wolfenstein", "Wolfenstein 3D");
+            correctionAdd("Wulfenstein", "Wolfenstein 3D");
+
+            correctionAdd("doom emacs", "Doom Emacs");
 
             correctionAdd("survery", "survey");
 
@@ -36072,6 +36103,7 @@ namespace OverflowHelper.core
             correctionAdd("GoogleSheets", "Google Sheets");
             correctionAdd("google-sheets", "Google Sheets");
             correctionAdd("google sheet", "Google Sheets");
+            correctionAdd("Google Sheet", "Google Sheets");
 
             correctionAdd("Above", "above");
 
@@ -42887,8 +42919,6 @@ namespace OverflowHelper.core
 
             correctionAdd("triple-quote", "triple quote");
 
-            correctionAdd("doom emacs", "Doom Emacs");
-
             correctionAdd("Pymc3", "PyMC");
             correctionAdd("PyMC3", "PyMC");
 
@@ -43261,6 +43291,17 @@ namespace OverflowHelper.core
             correctionAdd("low quality answers queue", "Low quality answers review queue");
             correctionAdd("LQA", "Low quality answers review queue");
 
+            correctionAdd("\"First questions\" review", "First questions review queue");
+            correctionAdd("First questions", "First questions review queue");
+            correctionAdd("first questions", "First questions review queue");
+            correctionAdd("First posts", "First questions review queue");
+            correctionAdd("first question review queue", "First questions review queue");
+            correctionAdd("First Questions queue", "First questions review queue");
+
+            correctionAdd("triage review queue", "Triage review queue");
+            correctionAdd("triage", "Triage review queue");
+            correctionAdd("Triage queue", "Triage review queue");
+
             correctionAdd("unity", "Unity");
 
             correctionAdd("aeolian", "Aeolian mode");
@@ -43456,6 +43497,8 @@ namespace OverflowHelper.core
             correctionAdd("XDE", "Expo XDE");
 
             correctionAdd("Go playground", "Go Playground");
+            correctionAdd("Go-Playground", "Go Playground");
+            correctionAdd("go playground", "Go Playground");
 
             correctionAdd("GST", "Goods and Services Tax");
 
@@ -44115,13 +44158,6 @@ namespace OverflowHelper.core
             correctionAdd("Inventor", "Autodesk Inventor");
 
             correctionAdd("DDJ", "Dr. Dobb's Journal");
-
-            correctionAdd("\"First questions\" review", "First questions review queue");
-            correctionAdd("First questions", "First questions review queue");
-            correctionAdd("first questions", "First questions review queue");
-            correctionAdd("First posts", "First questions review queue");
-            correctionAdd("first question review queue", "First questions review queue");
-            correctionAdd("First Questions queue", "First questions review queue");
 
             correctionAdd("immer", "Immer");
 
@@ -45221,10 +45257,6 @@ namespace OverflowHelper.core
             correctionAdd("h/t", "hat tip");
 
             correctionAdd("kegboard", "Kegboard");
-
-            correctionAdd("triage review queue", "Triage review queue");
-            correctionAdd("triage", "Triage review queue");
-            correctionAdd("Triage queue", "Triage review queue");
 
             correctionAdd("flage", "flag");
 
@@ -47518,9 +47550,6 @@ namespace OverflowHelper.core
 
             correctionAdd("typeout", "type out");
 
-            correctionAdd("War Games", "WarGames");
-            correctionAdd("war games", "WarGames");
-
             correctionAdd("classificating", "classifying");
 
             correctionAdd("Comply", "comply");
@@ -47634,12 +47663,6 @@ namespace OverflowHelper.core
             correctionAdd("berlusconi", "Silvio Berlusconi");
 
             correctionAdd("acidental", "accidental");
-
-            correctionAdd("bowser", "Bowser"); // Related to a computer game
-
-             // Related to a computer game
-            correctionAdd("World 8", "World 8-Bowser's Castle");
-            correctionAdd("world 8", "World 8-Bowser's Castle");
 
             correctionAdd("devrel", "Developer Relations");
             correctionAdd("DevRel", "Developer Relations");
@@ -47773,14 +47796,14 @@ namespace OverflowHelper.core
             correctionAdd("callsite", "call site");
             correctionAdd("call-site", "call site");
 
+            // Windows
             correctionAdd("conhost.exe", "conhost");
             correctionAdd("conhsot", "conhost");
 
             correctionAdd("inapproriate", "inappropriate");
 
+            // Remote control software
             correctionAdd("anydesk", "AnyDesk");
-
-            correctionAdd("ATTINY-12", "ATtiny12");
 
             correctionAdd("bait and switch", "bait-and-switch");
 
@@ -47791,6 +47814,46 @@ namespace OverflowHelper.core
             correctionAdd("uness", "unless");
 
             correctionAdd("wisdon", "wisdom");
+
+            correctionAdd("golang nuts", "golang-nuts");
+
+            // A font
+            correctionAdd("octicons", "Octicons");
+
+            // See also:
+            //   <https://ostechnix.com/install-nerd-fonts-to-add-glyphs-in-your-code-on-linux/>
+            //   <https://www.nerdfonts.com/#features>
+            //
+            correctionAdd("Nerd Fonts Hack", "Hack Nerd Font");
+            correctionAdd("Hack", "Hack Nerd Font");
+            correctionAdd("Hack nerd fonts", "Hack Nerd Font");
+            correctionAdd("hack nerd font", "Hack Nerd Font");
+            correctionAdd("hack nerd fonts", "Hack Nerd Font");
+
+            correctionAdd("nerd fonts", "Nerd Fonts");
+
+            correctionAdd("MINTTY", "mintty");
+
+            // See also <https://www.powerthesaurus.org/pluses_and_minuses>
+            correctionAdd("plus and minus", "pluses and minuses");
+
+            correctionAdd("pro and con", "pros and cons");
+
+            correctionAdd("stubing", "stubbing");
+            correctionAdd("Stubing", "stubbing");
+
+            correctionAdd("time sensitive", "time-sensitive");
+
+            correctionAdd("cancle", "cancel");
+            correctionAdd("Cancle", "cancel");
+
+            correctionAdd("Pyenv", "pyenv");
+
+            correctionAdd("RMA", "return merchandise authorization");
+
+            correctionAdd("top-most", "topmost");
+
+            correctionAdd("up-swell", "upswell");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74906,6 +74969,40 @@ namespace OverflowHelper.core
 
             URL_Add("wisdom", "https://en.wiktionary.org/wiki/wisdom#Noun");
 
+            URL_Add("Doom", "https://en.wikipedia.org/wiki/Doom_(1993_video_game)");
+
+            URL_Add("golang-nuts", "https://groups.google.com/g/golang-nuts/about");
+
+            URL_Add("Hack Nerd Font", "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#linux");
+
+            URL_Add("mintty", "https://en.wikipedia.org/wiki/Mintty");
+
+            URL_Add("Nerd Fonts", "https://www.nerdfonts.com/#features");
+
+            URL_Add("Octicons", "https://github.com/primer/octicons");
+
+            URL_Add("pluses and minuses", "https://www.classicthesaurus.com/pluses_and_minuses/synonyms/idiom");
+
+            URL_Add("pros and cons", "https://en.wiktionary.org/wiki/pros_and_cons#Noun");
+
+            URL_Add("stubbing", "https://en.wiktionary.org/wiki/stub#Verb");
+
+            URL_Add("time-sensitive", "https://en.wiktionary.org/wiki/time-sensitive#Adjective");
+
+            URL_Add("Wolfenstein 3D", "https://en.wikipedia.org/wiki/Wolfenstein_3D");
+
+            URL_Add("cancel", "https://en.wiktionary.org/wiki/cancel#Verb");
+
+            URL_Add("OpenCV&nbsp;2", "https://en.wikipedia.org/wiki/OpenCV#History");
+
+            URL_Add("pyenv", "https://github.com/pyenv/pyenv");
+
+            URL_Add("return merchandise authorization", "https://en.wikipedia.org/wiki/Return_merchandise_authorization");
+
+            URL_Add("topmost", "https://en.wiktionary.org/wiki/topmost#Adjective");
+
+            URL_Add("upswell", "https://en.wiktionary.org/wiki/upswell#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -76715,7 +76812,16 @@ namespace OverflowHelper.core
 
             correctionAdd("pipedream_", "Pipedream_");
 
+            // A card game
             correctionAdd("war_", "War_");
+
+            correctionAdd("est_", "estimated_");
+            correctionAdd("Est_", "estimated_");
+
+            // See also the Wikipedea disambiguation page:
+            // <https://en.wikipedia.org/wiki/Launch_pad_(disambiguation)>
+            correctionAdd("launchpad_", "LaunchPad_");
+            correctionAdd("Launchpad_", "LaunchPad_");
 
             // URL mappings
             //
@@ -77749,6 +77855,10 @@ namespace OverflowHelper.core
             URL_Add("Pipedream_", "https://en.wikipedia.org/wiki/Pipedream_(toolkit)");
 
             URL_Add("War_", "https://en.wikipedia.org/wiki/War_(card_game)");
+
+            URL_Add("estimated_", "https://en.wiktionary.org/wiki/estimate#Verb");
+
+            URL_Add("LaunchPad_", "https://www.ti.com/design-resources/embedded-development/hardware-kits-boards.html");
 
         } //addLookupData_alternativeWordSet()
 
