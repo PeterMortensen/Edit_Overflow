@@ -1563,6 +1563,118 @@ namespace OverflowHelper.core
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
 
+            correctionAdd("piece of shit", "POS");
+            correctionAdd("p.o.s", "POS");
+
+            correctionAdd("POD", "plain old data structure");
+            correctionAdd("pod", "plain old data structure");
+            correctionAdd("Plain Old Data", "plain old data structure");
+            correctionAdd("PDS", "plain old data structure");
+            correctionAdd("passive data structure", "plain old data structure");
+            correctionAdd("plain old data", "plain old data structure");
+
+            // Plain old data structure, .NET version.
+            correctionAdd("poco", "POCO");
+            correctionAdd("PoCos", "POCO"); // Plural
+            correctionAdd("PoCo", "POCO");
+            correctionAdd("pocos", "POCO"); // Plural
+            correctionAdd("Poco", "POCO");
+            correctionAdd("Plain Old CLR Object", "POCO");
+            correctionAdd("plain old CLR object", "POCO");
+            correctionAdd("plain old class object", "POCO");
+
+            // Plain old data structure, Java version.
+            correctionAdd("pojo", "POJO");
+            correctionAdd("Pojo", "POJO");
+            correctionAdd("Plain Old Java Object", "POJO");
+            correctionAdd("plain old Java object", "POJO");
+
+            // Plain old data structure, Dart version.
+            correctionAdd("PODO", "plain old Dart object");
+
+            correctionAdd("povray", "POV-Ray");
+
+            correctionAdd("posix", "POSIX");
+            correctionAdd("Posix", "POSIX");
+
+            correctionAdd("pop3", "POP3");
+
+            correctionAdd("imap", "IMAP");
+
+            correctionAdd("post", "POST");
+            correctionAdd("Post", "POST");
+            correctionAdd("POSt", "POST");
+
+            correctionAdd("get", "GET");
+            correctionAdd("Get", "GET");
+
+            correctionAdd("put", "PUT");
+            correctionAdd("Put", "PUT");
+
+            correctionAdd("pom", "POM");
+
+            correctionAdd("pow", "POW");
+
+            correctionAdd("POPD", "popd");
+
+            correctionAdd("PUSHD", "pushd");
+
+            correctionAdd("ROUTE", "route");
+
+            correctionAdd("TAIL", "tail");
+
+            correctionAdd("TMUX", "tmux");
+            correctionAdd("Tmux", "tmux");
+
+            correctionAdd("POV", "point of view");
+            correctionAdd("PoV", "point of view");
+            correctionAdd("pov", "point of view");
+            correctionAdd("point view", "point of view");
+
+            correctionAdd("proof-of-concept", "proof of concept");
+            correctionAdd("Proof-of-concept", "proof of concept");
+            correctionAdd("Proof of Concept", "proof of concept");
+            correctionAdd("POC", "proof of concept");
+
+            correctionAdd("post man", "Postman");
+            correctionAdd("postman", "Postman");
+            correctionAdd("PostMan", "Postman");
+            correctionAdd("POSTMAN", "Postman");
+
+            correctionAdd("pong", "Pong");
+            correctionAdd("PONG", "Pong");
+
+            correctionAdd("POG", "pog");
+            correctionAdd("POGCHAMP", "pog");
+            correctionAdd("pogchamp", "pog");
+
+            correctionAdd("principle of least surprise", "principle of least astonishment");
+            correctionAdd("Principle of Least Surprise", "principle of least astonishment");
+            correctionAdd("least astonishment", "principle of least astonishment");
+            correctionAdd("POLA", "principle of least astonishment");
+            correctionAdd("least surprise", "principle of least astonishment");
+
+            // Related to electronics (testing)
+            correctionAdd("POGO", "pogo");
+
+            correctionAdd("POB", "primarily opinion-based");
+
+            // Related to BIOS and PC motherboards
+            correctionAdd("post code", "POST code");
+
+            correctionAdd("re-structure", "restructure");
+
+            correctionAdd("data stricture", "data structure");
+            correctionAdd("datastructure", "data structure");
+            correctionAdd("data-structure", "data structure");
+            correctionAdd("data Structure", "data structure");
+
+            correctionAdd("stricture", "structure");
+            correctionAdd("strucure", "structure");
+            correctionAdd("struture", "structure");
+            correctionAdd("structur", "structure");
+            correctionAdd("structurate", "structure");
+
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
             correctionAdd("Loonix", "Linux");
@@ -1581,6 +1693,18 @@ namespace OverflowHelper.core
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
             correctionAdd("UNix", "Unix");
+
+            // A Linux distribution
+            correctionAdd("Pop! OS", "Pop!_OS");
+            correctionAdd("POP OS", "Pop!_OS");
+            correctionAdd("Pop OS", "Pop!_OS");
+            correctionAdd("pop os", "Pop!_OS");
+            correctionAdd("PopOS", "Pop!_OS");
+            correctionAdd("PopOS Linux", "Pop!_OS");
+            correctionAdd("Pop_OS", "Pop!_OS");
+            correctionAdd("popos", "Pop!_OS");
+            correctionAdd("pop_os", "Pop!_OS");
+            correctionAdd("Pop!OS", "Pop!_OS");
 
             // A Linux distribution
             correctionAdd("suse", "SUSE&nbsp;Linux");
@@ -2108,18 +2232,6 @@ namespace OverflowHelper.core
             correctionAdd("manjaro linux", "Manjaro");
 
             correctionAdd("PC Linux OS", "PCLinuxOS");
-
-            // A Linux distribution
-            correctionAdd("Pop! OS", "Pop!_OS");
-            correctionAdd("POP OS", "Pop!_OS");
-            correctionAdd("Pop OS", "Pop!_OS");
-            correctionAdd("pop os", "Pop!_OS");
-            correctionAdd("PopOS", "Pop!_OS");
-            correctionAdd("PopOS Linux", "Pop!_OS");
-            correctionAdd("Pop_OS", "Pop!_OS");
-            correctionAdd("popos", "Pop!_OS");
-            correctionAdd("pop_os", "Pop!_OS");
-            correctionAdd("Pop!OS", "Pop!_OS");
 
             correctionAdd("AntiX Linux", "antiX");
             correctionAdd("AntiX", "antiX");
@@ -3095,26 +3207,6 @@ namespace OverflowHelper.core
             correctionAdd("Ipython Notebook", "IPython Notebook");
             correctionAdd("python notebook", "IPython Notebook");
 
-            correctionAdd("FaceBook", "Facebook");
-            correctionAdd("facebook", "Facebook");
-            correctionAdd("FB", "Facebook"); // Conflict with FB for Firebug (but less frequent).
-            correctionAdd("fb", "Facebook"); // Conflict with FB for Firebug (but less frequent).
-            correctionAdd("Fb", "Facebook"); // Conflict with FB for Firebug (but less frequent).
-            correctionAdd("FACEBOOK", "Facebook");
-            correctionAdd("facebk", "Facebook");
-            correctionAdd("FAcebook", "Facebook");
-            correctionAdd("face book", "Facebook");
-            correctionAdd("Faceboook", "Facebook"); // Misspelling.
-            correctionAdd("Fecebook", "Facebook"); // !!!!
-            correctionAdd("faceboook", "Facebook"); // Misspelling.
-            correctionAdd("face-book", "Facebook");
-            correctionAdd("Facbook", "Facebook");
-            correctionAdd("Facepalm", "Facebook");
-            correctionAdd("Face Book", "Facebook");
-            correctionAdd("Bookface", "Facebook");
-            correctionAdd("bookface", "Facebook");
-            correctionAdd("Fakebook", "Facebook");
-
             correctionAdd("jupyter", "Jupyter");
             correctionAdd("Jypiter", "Jupyter");
 
@@ -3143,6 +3235,266 @@ namespace OverflowHelper.core
             correctionAdd("jupyterlab", "JupyterLab");
             correctionAdd("Jupyter lab", "JupyterLab");
             correctionAdd("jupyter lab", "JupyterLab");
+
+            correctionAdd("biopython", "Biopython");
+
+            correctionAdd("Python boost", "Boost.Python");
+
+            correctionAdd("pep", "PEP");
+            correctionAdd("Pep", "PEP");
+            correctionAdd("Python Enhancement Proposal", "PEP");
+            correctionAdd("Python enhancement proposal", "PEP");
+
+            correctionAdd("pythonic", "Pythonic");
+            correctionAdd("pythononic", "Pythonic");
+
+            correctionAdd("pythonista", "Pythonista");
+
+            correctionAdd("Python Anywhere", "PythonAnywhere");
+
+            // A Python library
+            correctionAdd("numpy", "NumPy");
+            correctionAdd("NUmPy", "NumPy");
+            correctionAdd("Numpy", "NumPy");
+            correctionAdd("numPy", "NumPy");
+            correctionAdd("NUMPY", "NumPy");
+            correctionAdd("NumPY", "NumPy");
+
+            // NumPy (Python library)
+            correctionAdd("np.clip", "numpy.clip()");
+            correctionAdd("clip", "numpy.clip()");
+            correctionAdd("numpy.clip", "numpy.clip()");
+
+            // NumPy (Python library)
+            correctionAdd("numpy.meshgrid", "numpy.meshgrid()");
+            correctionAdd("meshgrid", "numpy.meshgrid()");
+            correctionAdd("np.meshgrid", "numpy.meshgrid()");
+
+            // NumPy (Python library)
+            correctionAdd("mgrid", "numpy.mgrid()");
+            correctionAdd("numpy.mgrid", "numpy.mgrid()");
+
+            // NumPy (Python library)
+            correctionAdd("ogrid", "numpy.ogrid()");
+            correctionAdd("numpy.ogrid", "numpy.ogrid()");
+
+            // NumPy (Python library)
+            correctionAdd("transpose", "numpy.transpose()");
+            correctionAdd("numpy.transpose", "numpy.transpose()");
+
+            // A Python thing
+            //
+            // Note: Some confusion between the concept "virtual environment"
+            //       and more than one Python package that implements it.
+            correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
+            correctionAdd("virtualENV", "virtualenv");
+            correctionAdd("virt env", "virtualenv");
+            correctionAdd("virtual env", "virtualenv");
+
+            // A Python thing
+            //
+            correctionAdd("Venv", "venv");
+            correctionAdd("Virtual Environment", "venv");
+            correctionAdd("virtual environment", "venv");
+
+            // A Python thing
+            //
+            correctionAdd("Pyenv", "pyenv");
+
+            correctionAdd("Virtualbox", "VirtualBox");
+            correctionAdd("virtualbox", "VirtualBox");
+            correctionAdd("virtual box", "VirtualBox");
+            correctionAdd("Virtual Box", "VirtualBox");
+            correctionAdd("VirtulBox", "VirtualBox");
+            correctionAdd("Virtual box", "VirtualBox");
+            correctionAdd("VBox", "VirtualBox");
+            correctionAdd("VirualBox", "VirtualBox");
+            correctionAdd("vbox", "VirtualBox");
+            correctionAdd("VirtualBOX", "VirtualBox");
+            correctionAdd("VirtuaBox", "VirtualBox");
+
+            correctionAdd("VirualPC", "Virual PC");
+
+            correctionAdd("virtual PC", "Virtual&nbsp;PC");
+            correctionAdd("Virtual PC", "Virtual&nbsp;PC");
+            correctionAdd("virtual pc", "Virtual&nbsp;PC");
+            correctionAdd("virtualPC", "Virtual&nbsp;PC");
+            correctionAdd("Windows Virtual PC", "Virtual&nbsp;PC");
+            //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
+
+            correctionAdd("vpc", "VPC");
+            correctionAdd("virtual private cloud", "VPC");
+
+            correctionAdd("VR", "virtual reality");
+            correctionAdd("Virtual Reality", "virtual reality");
+
+            correctionAdd("virtious", "virtuous");
+
+            correctionAdd("virtuallization", "virtualization");
+
+            correctionAdd("VA", "virtual assistant");
+
+            correctionAdd("Virtual Disk Image", "VDI");
+
+            correctionAdd("VST", "Virtual Studio Technology");
+
+            correctionAdd("virt-manager", "Virtual Machine Manager");
+            correctionAdd("virt manager", "Virtual Machine Manager");
+
+            correctionAdd("virually", "virtually");
+
+            correctionAdd("virtious circle", "virtuous circle");
+            correctionAdd("virtious cycle", "virtuous circle");
+
+            correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
+
+            // A Python library
+            correctionAdd("pandas", "Pandas");
+            correctionAdd("padas", "Pandas");
+            correctionAdd("Panda", "Pandas");
+            correctionAdd("panda", "Pandas");
+
+            // Pandas (Python library)
+            correctionAdd("Iloc", "iloc");
+
+            // Pandas (Python library)
+            correctionAdd("groupby", "pandas.DataFrame.groupby()");
+            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
+
+            // Pandas (Python library)
+            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
+            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
+
+            // Pandas (Python library)
+            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
+            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
+
+            // Pandas (Python library)
+            correctionAdd("read_csv", "pandas.read_csv()");
+            correctionAdd("pandas.read_csv", "pandas.read_csv()");
+
+            correctionAdd("ironpython", "IronPython");
+            correctionAdd("Iron Python", "IronPython");
+            correctionAdd("Ironpython", "IronPython");
+            correctionAdd("Iron-Python", "IronPython");
+
+            correctionAdd("cpython", "CPython");
+
+            correctionAdd("PIP", "pip"); // Not actually observed. The Python thing.
+
+            correctionAdd("pip3", "pip&nbsp;3");
+            correctionAdd("pip 3", "pip&nbsp;3");
+
+            correctionAdd("wxython", "wxPython");
+            correctionAdd("wxpython", "wxPython");
+            correctionAdd("wx", "wxPython");
+            correctionAdd("wpython", "wxPython");
+            correctionAdd("WxPython", "wxPython");
+
+            correctionAdd("micro python", "MicroPython");
+            correctionAdd("Micropython", "MicroPython");
+            correctionAdd("Micro Python", "MicroPython");
+
+            correctionAdd("automate the boring stuff", "Automate the Boring Stuff with Python");
+
+            correctionAdd("Dunder method", "dunder method"); // See also <https://www.pythonmorsels.com/what-are-dunder-methods/>
+            correctionAdd("dunder", "dunder method");
+
+            correctionAdd("Python Conference", "PyCon");
+            correctionAdd("Pycon", "PyCon");
+
+            correctionAdd("posix path", "posixpath"); // A Python library
+
+            correctionAdd("xml-python", "```lang-python");
+            correctionAdd("lang-python", "```lang-python");
+            correctionAdd("lang-py", "```lang-python");
+            correctionAdd("```lang-py", "```lang-python");
+
+            correctionAdd("csharp-lang", "```lang-csharp");
+            correctionAdd("lang-csharp", "```lang-csharp");
+            correctionAdd("lang-sharp", "```lang-csharp");
+            correctionAdd("lang-cs", "```lang-csharp");
+            correctionAdd("lang-c#", "```lang-csharp");
+            correctionAdd("```c#", "```lang-csharp");
+            correctionAdd("```C#", "```lang-csharp");
+            correctionAdd("```lang-cs", "```lang-csharp");
+
+            correctionAdd("java-lang", "```lang-java");
+            correctionAdd("lang-java", "```lang-java");
+
+            correctionAdd("lang-js", "```lang-javascript");
+            correctionAdd("lang-javascript", "```lang-javascript");
+            correctionAdd("javascript-lang", "```lang-javascript");
+            correctionAdd("```js", "```lang-javascript");
+            correctionAdd("```lang-js", "```lang-javascript");
+
+            correctionAdd("css-lang", "```lang-css");
+            correctionAdd("lang-css", "```lang-css");
+
+            correctionAdd("html-lang", "```lang-html");
+            correctionAdd("lang-html", "```lang-html");
+
+            correctionAdd("none-lang", "```lang-none");
+            correctionAdd("lang-none", "```lang-none");
+
+            correctionAdd("php-lang", "```lang-php");
+            correctionAdd("lang-php", "```lang-php");
+
+            correctionAdd("xml-lang", "```lang-xml");
+            correctionAdd("lang-xml", "```lang-xml");
+
+            correctionAdd("lang-cpp", "```lang-cpp");
+            correctionAdd("cpp-lang", "```lang-cpp");
+            correctionAdd("lang-c++", "```lang-cpp");
+
+            correctionAdd("lang-go", "```lang-golang");
+
+            correctionAdd("lang-sql", "```lang-sql");
+
+            correctionAdd("lang-c", "```lang-c");
+
+            correctionAdd("lang-typescript", "```lang-typescript");
+            correctionAdd("lang-ts", "```lang-typescript");
+            correctionAdd("```ts", "```lang-typescript");
+
+            correctionAdd("lang-vbs", "```lang-vbnet");
+            correctionAdd("lang-vb", "```lang-vbnet");
+            correctionAdd("lang-vbnet", "```lang-vbnet");
+
+            correctionAdd("lang-dart", "```lang-dart");
+
+            correctionAdd("lang-objc", "```lang-objectivec");
+
+            correctionAdd("lang-perl", "```lang-perl");
+
+            correctionAdd("lang-yaml", "```lang-yaml");
+            correctionAdd("```yaml", "```lang-yaml");
+
+            correctionAdd("lang-r", "```lang-r");
+
+            correctionAdd("lang-ruby", "```lang-ruby");
+
+            correctionAdd("```json", "```lang-json");
+
+            correctionAdd("FaceBook", "Facebook");
+            correctionAdd("facebook", "Facebook");
+            correctionAdd("FB", "Facebook"); // Conflict with FB for Firebug (but less frequent).
+            correctionAdd("fb", "Facebook"); // Conflict with FB for Firebug (but less frequent).
+            correctionAdd("Fb", "Facebook"); // Conflict with FB for Firebug (but less frequent).
+            correctionAdd("FACEBOOK", "Facebook");
+            correctionAdd("facebk", "Facebook");
+            correctionAdd("FAcebook", "Facebook");
+            correctionAdd("face book", "Facebook");
+            correctionAdd("Faceboook", "Facebook"); // Misspelling.
+            correctionAdd("Fecebook", "Facebook"); // !!!!
+            correctionAdd("faceboook", "Facebook"); // Misspelling.
+            correctionAdd("face-book", "Facebook");
+            correctionAdd("Facbook", "Facebook");
+            correctionAdd("Facepalm", "Facebook");
+            correctionAdd("Face Book", "Facebook");
+            correctionAdd("Bookface", "Facebook");
+            correctionAdd("bookface", "Facebook");
+            correctionAdd("Fakebook", "Facebook");
 
             correctionAdd("eBook", "e-book");
             correctionAdd("e book", "e-book");
@@ -3216,22 +3568,6 @@ namespace OverflowHelper.core
 
             correctionAdd("over look", "overlook");
 
-            correctionAdd("biopython", "Biopython");
-
-            correctionAdd("Python boost", "Boost.Python");
-
-            correctionAdd("pep", "PEP");
-            correctionAdd("Pep", "PEP");
-            correctionAdd("Python Enhancement Proposal", "PEP");
-            correctionAdd("Python enhancement proposal", "PEP");
-
-            correctionAdd("pythonic", "Pythonic");
-            correctionAdd("pythononic", "Pythonic");
-
-            correctionAdd("pythonista", "Pythonista");
-
-            correctionAdd("Python Anywhere", "PythonAnywhere");
-
             correctionAdd("no where", "nowhere");
             correctionAdd("nowehre", "nowhere");
             correctionAdd("no-where", "nowhere");
@@ -3303,77 +3639,6 @@ namespace OverflowHelper.core
             correctionAdd("hire", "here");
 
             correctionAdd("ico-sphere", "icosphere");
-
-            correctionAdd("csharp-lang", "```lang-csharp");
-            correctionAdd("lang-csharp", "```lang-csharp");
-            correctionAdd("lang-sharp", "```lang-csharp");
-            correctionAdd("lang-cs", "```lang-csharp");
-            correctionAdd("lang-c#", "```lang-csharp");
-            correctionAdd("```c#", "```lang-csharp");
-            correctionAdd("```C#", "```lang-csharp");
-            correctionAdd("```lang-cs", "```lang-csharp");
-
-            correctionAdd("java-lang", "```lang-java");
-            correctionAdd("lang-java", "```lang-java");
-
-            correctionAdd("lang-js", "```lang-javascript");
-            correctionAdd("lang-javascript", "```lang-javascript");
-            correctionAdd("javascript-lang", "```lang-javascript");
-            correctionAdd("```js", "```lang-javascript");
-            correctionAdd("```lang-js", "```lang-javascript");
-
-            correctionAdd("css-lang", "```lang-css");
-            correctionAdd("lang-css", "```lang-css");
-
-            correctionAdd("html-lang", "```lang-html");
-            correctionAdd("lang-html", "```lang-html");
-
-            correctionAdd("none-lang", "```lang-none");
-            correctionAdd("lang-none", "```lang-none");
-
-            correctionAdd("php-lang", "```lang-php");
-            correctionAdd("lang-php", "```lang-php");
-
-            correctionAdd("xml-lang", "```lang-xml");
-            correctionAdd("lang-xml", "```lang-xml");
-
-            correctionAdd("xml-python", "```lang-python");
-            correctionAdd("lang-python", "```lang-python");
-            correctionAdd("lang-py", "```lang-python");
-            correctionAdd("```lang-py", "```lang-python");
-
-            correctionAdd("lang-cpp", "```lang-cpp");
-            correctionAdd("cpp-lang", "```lang-cpp");
-            correctionAdd("lang-c++", "```lang-cpp");
-
-            correctionAdd("lang-go", "```lang-golang");
-
-            correctionAdd("lang-sql", "```lang-sql");
-
-            correctionAdd("lang-c", "```lang-c");
-
-            correctionAdd("lang-typescript", "```lang-typescript");
-            correctionAdd("lang-ts", "```lang-typescript");
-            correctionAdd("```ts", "```lang-typescript");
-
-            correctionAdd("lang-vbs", "```lang-vbnet");
-            correctionAdd("lang-vb", "```lang-vbnet");
-            correctionAdd("lang-vbnet", "```lang-vbnet");
-
-            correctionAdd("lang-dart", "```lang-dart");
-
-            correctionAdd("lang-objc", "```lang-objectivec");
-
-            correctionAdd("lang-perl", "```lang-perl");
-
-            correctionAdd("lang-yaml", "```lang-yaml");
-            correctionAdd("```yaml", "```lang-yaml");
-
-            correctionAdd("lang-r", "```lang-r");
-
-            correctionAdd("lang-ruby", "```lang-ruby");
-
-            correctionAdd("```json", "```lang-json");
 
             correctionAdd("Nativescript", "NativeScript");
 
@@ -4604,9 +4869,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cmos", "CMOS");
 
-            correctionAdd("piece of shit", "POS");
-            correctionAdd("p.o.s", "POS");
-
             correctionAdd("ios", "iOS");
             correctionAdd("IOS", "iOS");
             correctionAdd("iOs", "iOS");
@@ -5272,12 +5534,6 @@ namespace OverflowHelper.core
             correctionAdd("Hybernate", "Hibernate");
             correctionAdd("hybernate", "Hibernate");
 
-            correctionAdd("poco", "POCO");
-            correctionAdd("PoCos", "POCO"); // Plural
-            correctionAdd("PoCo", "POCO");
-            correctionAdd("pocos", "POCO"); // Plural
-            correctionAdd("Poco", "POCO");
-
             correctionAdd("struts", "Struts");
             correctionAdd("s2", "Struts"); // Actually Struts 2.
             correctionAdd("S2", "Struts"); // Actually Struts 2.
@@ -5296,35 +5552,32 @@ namespace OverflowHelper.core
             correctionAdd("dpi", "DPI");
             correctionAdd("Dpi", "DPI");
 
-            // A Python library
-            correctionAdd("numpy", "NumPy");
-            correctionAdd("NUmPy", "NumPy");
-            correctionAdd("Numpy", "NumPy");
-            correctionAdd("numPy", "NumPy");
-            correctionAdd("NUMPY", "NumPy");
-            correctionAdd("NumPY", "NumPy");
+            correctionAdd("cygwin", "Cygwin");
+            correctionAdd("CygWin", "Cygwin");
+            correctionAdd("Cyqwin", "Cygwin");
+            correctionAdd("cgywin", "Cygwin");
+            correctionAdd("Cggwin", "Cygwin");
+            correctionAdd("CYGWIN", "Cygwin");
 
-            // NumPy (Python library)
-            correctionAdd("np.clip", "numpy.clip()");
-            correctionAdd("clip", "numpy.clip()");
-            correctionAdd("numpy.clip", "numpy.clip()");
+            correctionAdd("mingw", "MinGW");
+            correctionAdd("minGW", "MinGW");
+            correctionAdd("MingW", "MinGW");
+            correctionAdd("Mingw", "MinGW");
+            correctionAdd("MINGW32", "MinGW");
+            correctionAdd("MINGW", "MinGW");
+            correctionAdd("MingGW", "MinGW");
+            correctionAdd("MInGW", "MinGW");
+            correctionAdd("Migw", "MinGW");
+            correctionAdd("mingw32", "MinGW");
+            correctionAdd("miniGW", "MinGW");
+            correctionAdd("MinGW32", "MinGW");
 
-            // NumPy (Python library)
-            correctionAdd("numpy.meshgrid", "numpy.meshgrid()");
-            correctionAdd("meshgrid", "numpy.meshgrid()");
-            correctionAdd("np.meshgrid", "numpy.meshgrid()");
+            correctionAdd("mingw64", "Mingw-w64");
+            correctionAdd("MingW64", "Mingw-w64");
+            correctionAdd("Mingw64", "Mingw-w64");
+            correctionAdd("MinGW-w64", "Mingw-w64");
 
-            // NumPy (Python library)
-            correctionAdd("mgrid", "numpy.mgrid()");
-            correctionAdd("numpy.mgrid", "numpy.mgrid()");
-
-            // NumPy (Python library)
-            correctionAdd("ogrid", "numpy.ogrid()");
-            correctionAdd("numpy.ogrid", "numpy.ogrid()");
-
-            // NumPy (Python library)
-            correctionAdd("transpose", "numpy.transpose()");
-            correctionAdd("numpy.transpose", "numpy.transpose()");
+            correctionAdd("MINTTY", "mintty");
 
             correctionAdd("git BASH", "Git Bash");
             correctionAdd("gitBash", "Git Bash");
@@ -5573,6 +5826,13 @@ namespace OverflowHelper.core
             correctionAdd("swtich", "switch");
             correctionAdd("swith", "switch");
             correctionAdd("swicth", "switch");
+
+            correctionAdd("vps", "VPS");
+            correctionAdd("Virtual Private Server", "VPS");
+            correctionAdd("virtual private server", "VPS");
+            correctionAdd("Vps", "VPS");
+            correctionAdd("PVS", "VPS");
+            correctionAdd("pvs", "VPS");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -7471,31 +7731,6 @@ namespace OverflowHelper.core
             correctionAdd("coma separated values", "CSV");
             correctionAdd("comma separated values", "CSV");
 
-            // A Python library
-            correctionAdd("pandas", "Pandas");
-            correctionAdd("padas", "Pandas");
-            correctionAdd("Panda", "Pandas");
-            correctionAdd("panda", "Pandas");
-
-            // Pandas (Python library)
-            correctionAdd("Iloc", "iloc");
-
-            // Pandas (Python library)
-            correctionAdd("groupby", "pandas.DataFrame.groupby()");
-            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
-
-            // Pandas (Python library)
-            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
-            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
-
-            // Pandas (Python library)
-            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
-            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
-
-            // Pandas (Python library)
-            correctionAdd("read_csv", "pandas.read_csv()");
-            correctionAdd("pandas.read_csv", "pandas.read_csv()");
-
             correctionAdd("profiterable", "profitable");
 
             correctionAdd("acceptible", "acceptable");
@@ -8007,13 +8242,6 @@ namespace OverflowHelper.core
             correctionAdd("VI", "vi");
             correctionAdd("Vi", "vi");
 
-            correctionAdd("cygwin", "Cygwin");
-            correctionAdd("CygWin", "Cygwin");
-            correctionAdd("Cyqwin", "Cygwin");
-            correctionAdd("cgywin", "Cygwin");
-            correctionAdd("Cggwin", "Cygwin");
-            correctionAdd("CYGWIN", "Cygwin");
-
             correctionAdd("sourceforge", "SourceForge");
             correctionAdd("source forge", "SourceForge");
             correctionAdd("Sourceforge", "SourceForge");
@@ -8121,6 +8349,29 @@ namespace OverflowHelper.core
 
             correctionAdd("yahoo finance", "Yahoo Finance");
 
+            // An aircraft
+            correctionAdd("PA44", "Piper PA-44 Seminole");
+
+            // An aircraft
+            correctionAdd("Airbus 319", "Airbus A319");
+            correctionAdd("A319", "Airbus A319");
+
+            // An aircraft
+            correctionAdd("DC-8", "Douglas DC-8");
+
+            correctionAdd("enroute", "en route");
+
+            // An aircraft
+            correctionAdd("PA28", "Piper PA-28 Cherokee");
+            correctionAdd("PA-28", "Piper PA-28 Cherokee");
+
+            correctionAdd("pipewire", "PipeWire");
+            correctionAdd("Pipewire", "PipeWire");
+
+            correctionAdd("Pipeline", "pipeline");
+
+            correctionAdd("pipedream", "pipe dream");
+
             correctionAdd("SED", "sed");
             correctionAdd("Sed", "sed");
 
@@ -8226,11 +8477,6 @@ namespace OverflowHelper.core
             correctionAdd("bootcamp", "Boot Camp");
             correctionAdd("boot camp", "Boot Camp");
             correctionAdd("bootcap", "Boot Camp");
-
-            correctionAdd("ironpython", "IronPython");
-            correctionAdd("Iron Python", "IronPython");
-            correctionAdd("Ironpython", "IronPython");
-            correctionAdd("Iron-Python", "IronPython");
 
             correctionAdd("groovy", "Groovy");
 
@@ -9445,13 +9691,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gitorious", "Gitorious");
 
-            correctionAdd("vps", "VPS");
-            correctionAdd("Virtual Private Server", "VPS");
-            correctionAdd("virtual private server", "VPS");
-            correctionAdd("Vps", "VPS");
-            correctionAdd("PVS", "VPS");
-            correctionAdd("pvs", "VPS");
-
             correctionAdd("flickr", "Flickr");
 
             correctionAdd("ejb", "EJB");
@@ -9496,25 +9735,10 @@ namespace OverflowHelper.core
 
             correctionAdd("wav", "WAV");
 
-            correctionAdd("cpython", "CPython");
-
             correctionAdd("mp3", "MP3");
             correctionAdd("Mp3", "MP3");
 
             correctionAdd("ogg", "Ogg");
-
-            correctionAdd("PIP", "pip"); // Not actually observed. The Python thing.
-
-            // Note: Some confusion between the concept "virtual environment"
-            //       and more than one Python package that implements it.
-            correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
-            correctionAdd("virtualENV", "virtualenv");
-            correctionAdd("virt env", "virtualenv");
-            correctionAdd("virtual env", "virtualenv");
-
-            correctionAdd("Venv", "venv");
-            correctionAdd("Virtual Environment", "venv");
-            correctionAdd("virtual environment", "venv");
 
             correctionAdd("r", "R"); // Not actually observed.
 
@@ -9544,20 +9768,6 @@ namespace OverflowHelper.core
             correctionAdd("Computer Sc", "computer science");
             correctionAdd("Computer science", "computer science");
             correctionAdd("Computert Science", "computer science");
-
-            correctionAdd("Virtualbox", "VirtualBox");
-            correctionAdd("virtualbox", "VirtualBox");
-            correctionAdd("virtual box", "VirtualBox");
-            correctionAdd("Virtual Box", "VirtualBox");
-            correctionAdd("VirtulBox", "VirtualBox");
-            correctionAdd("Virtual box", "VirtualBox");
-            correctionAdd("VBox", "VirtualBox");
-            correctionAdd("VirualBox", "VirtualBox");
-            correctionAdd("vbox", "VirtualBox");
-            correctionAdd("VirtualBOX", "VirtualBox");
-            correctionAdd("VirtuaBox", "VirtualBox");
-
-            correctionAdd("VirualPC", "Virual PC");
 
             correctionAdd("pcre", "PCRE");
 
@@ -9833,19 +10043,6 @@ namespace OverflowHelper.core
             correctionAdd("confluence", "Confluence");
 
             correctionAdd("scrum", "Scrum");
-
-            correctionAdd("mingw", "MinGW");
-            correctionAdd("minGW", "MinGW");
-            correctionAdd("MingW", "MinGW");
-            correctionAdd("Mingw", "MinGW");
-            correctionAdd("MINGW32", "MinGW");
-            correctionAdd("MINGW", "MinGW");
-            correctionAdd("MingGW", "MinGW");
-            correctionAdd("MInGW", "MinGW");
-            correctionAdd("Migw", "MinGW");
-            correctionAdd("mingw32", "MinGW");
-            correctionAdd("miniGW", "MinGW");
-            correctionAdd("MinGW32", "MinGW");
 
             correctionAdd("CodeBlocks", "Code::Blocks");
             correctionAdd("Code Blocks", "Code::Blocks");
@@ -11939,8 +12136,6 @@ namespace OverflowHelper.core
             correctionAdd("glide", "Glide&nbsp;API");
             correctionAdd("GLide", "Glide&nbsp;API");
 
-            correctionAdd("povray", "POV-Ray");
-
             correctionAdd("xna", "XNA");
 
             correctionAdd("bezier", "Bézier curve");
@@ -12378,13 +12573,6 @@ namespace OverflowHelper.core
             correctionAdd("OpenMPI", "Open&nbsp;MPI");
             correctionAdd("Open MPI", "Open&nbsp;MPI");
 
-            correctionAdd("virtual PC", "Virtual&nbsp;PC");
-            correctionAdd("Virtual PC", "Virtual&nbsp;PC");
-            correctionAdd("virtual pc", "Virtual&nbsp;PC");
-            correctionAdd("virtualPC", "Virtual&nbsp;PC");
-            correctionAdd("Windows Virtual PC", "Virtual&nbsp;PC");
-            //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
-
             correctionAdd("Nant", "NAnt");
             correctionAdd("nant", "NAnt");
             correctionAdd("nAnt", "NAnt");
@@ -12602,11 +12790,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SSLv2", "SSL 2.0");
 
-            correctionAdd("pojo", "POJO");
-            correctionAdd("Pojo", "POJO");
-            correctionAdd("Plain Old Java Object", "POJO");
-            correctionAdd("plain old Java object", "POJO");
-
             correctionAdd("hql", "HQL");
 
             correctionAdd("perforce", "Perforce");
@@ -12644,12 +12827,6 @@ namespace OverflowHelper.core
             correctionAdd("archirecture", "architecture");
             correctionAdd("achitecture", "architecture");
             correctionAdd("archicture", "architecture");
-
-            correctionAdd("wxython", "wxPython");
-            correctionAdd("wxpython", "wxPython");
-            correctionAdd("wx", "wxPython");
-            correctionAdd("wpython", "wxPython");
-            correctionAdd("WxPython", "wxPython");
 
             correctionAdd("stl", "STL");
             correctionAdd("Stl", "STL");
@@ -13631,6 +13808,7 @@ namespace OverflowHelper.core
             correctionAdd("mft", "MFT");
 
             correctionAdd("irc", "IRC");
+            correctionAdd("Irc", "IRC");
 
             correctionAdd("telnet", "Telnet");
 
@@ -14420,6 +14598,7 @@ namespace OverflowHelper.core
             correctionAdd("two's complemnt", "two's complement");
             correctionAdd("two's complenment", "two's complement");
             correctionAdd("2s-complement", "two's complement");
+            correctionAdd("2's Complement", "two's complement");
 
             correctionAdd("Google play", "Google Play");
             correctionAdd("google play", "Google Play");
@@ -14659,9 +14838,6 @@ namespace OverflowHelper.core
             correctionAdd("Dcom", "DCOM");
 
             correctionAdd("v8", "V8");
-
-            correctionAdd("posix", "POSIX");
-            correctionAdd("Posix", "POSIX");
 
             correctionAdd("burn", "Burn"); // Of WiX...
 
@@ -15701,10 +15877,6 @@ namespace OverflowHelper.core
             correctionAdd("Mine craft", "Minecraft");
             correctionAdd("Minceraft", "Minecraft");
 
-            correctionAdd("pop3", "POP3");
-
-            correctionAdd("imap", "IMAP");
-
             correctionAdd("flask", "Flask");
 
             correctionAdd("o-scope", "oscilloscope");
@@ -15967,10 +16139,11 @@ namespace OverflowHelper.core
 
             correctionAdd("iops", "IOPS");
 
-            // No longer the Texas Instruments hardware platform,
-            // <https://www.ti.com/ww/en/launchpad/about.html>
-            // and again Ubuntu/Canonical's "Launchpad",
+            // Ubuntu/Canonical's "Launchpad",
             // <https://wiki.ubuntu.com/Launchpad>.
+            //
+            // See also the Wikipedia disambiguation page:
+            // <https://en.wikipedia.org/wiki/Launch_pad_(disambiguation)>
             //
             correctionAdd("launchpad", "Launchpad");
             correctionAdd("LaunchPad", "Launchpad");
@@ -17320,6 +17493,7 @@ namespace OverflowHelper.core
             correctionAdd("disapeared", "disappeared");
             correctionAdd("disappeard", "disappeared");
             correctionAdd("dissapered", "disappeared");
+            correctionAdd("disappared", "disappeared");
 
             correctionAdd("re-appear", "reappear");
             correctionAdd("reapper", "reappear");
@@ -17965,16 +18139,6 @@ namespace OverflowHelper.core
             correctionAdd("actally", "actually");
             correctionAdd("actullay", "actually");
 
-            correctionAdd("post", "POST");
-            correctionAdd("Post", "POST");
-            correctionAdd("POSt", "POST");
-
-            correctionAdd("get", "GET");
-            correctionAdd("Get", "GET");
-
-            correctionAdd("put", "PUT");
-            correctionAdd("Put", "PUT");
-
             correctionAdd("re-post", "repost");
 
             correctionAdd("blog post", "blogpost");
@@ -18565,8 +18729,6 @@ namespace OverflowHelper.core
             correctionAdd("Nmake", "NMAKE");
             correctionAdd("nmake", "NMAKE");
             correctionAdd("NMake", "NMAKE");
-
-            correctionAdd("pom", "POM");
 
             correctionAdd("PyPi", "PyPI");
             correctionAdd("pypi", "PyPI");
@@ -20171,6 +20333,7 @@ namespace OverflowHelper.core
             correctionAdd("recenltly", "recently");
 
             correctionAdd("specifiy", "specify");
+            correctionAdd("speficy", "specify");
 
             correctionAdd("spontaniously", "spontaneously");
 
@@ -21689,9 +21852,6 @@ namespace OverflowHelper.core
             correctionAdd("Vic 20", "VIC-20");
             correctionAdd("Vic-20", "VIC-20");
 
-            correctionAdd("vpc", "VPC");
-            correctionAdd("virtual private cloud", "VPC");
-
             correctionAdd("acomplish", "accomplish");
             correctionAdd("accmplish", "accomplish");
             correctionAdd("accomplush", "accomplish");
@@ -22159,8 +22319,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Lastpass", "LastPass");
             correctionAdd("lastpass", "LastPass");
-
-            correctionAdd("pow", "POW");
 
             correctionAdd("scapy", "Scapy");
 
@@ -22753,17 +22911,6 @@ namespace OverflowHelper.core
             correctionAdd("NANO", "nano"); // The text editor
             correctionAdd("Nano", "nano"); // The text editor
 
-            correctionAdd("POPD", "popd");
-
-            correctionAdd("PUSHD", "pushd");
-
-            correctionAdd("ROUTE", "route");
-
-            correctionAdd("TAIL", "tail");
-
-            correctionAdd("TMUX", "tmux");
-            correctionAdd("Tmux", "tmux");
-
             correctionAdd("verbage", "verbiage");
 
             correctionAdd("ppm", "PPM");
@@ -23057,11 +23204,6 @@ namespace OverflowHelper.core
             correctionAdd("esacpe", "escape");
 
             correctionAdd("GLIBC", "glibc");
-
-            correctionAdd("POV", "point of view");
-            correctionAdd("PoV", "point of view");
-            correctionAdd("pov", "point of view");
-            correctionAdd("point view", "point of view");
 
             correctionAdd("sensative", "sensitive");
             correctionAdd("sensitve", "sensitive");
@@ -23375,9 +23517,6 @@ namespace OverflowHelper.core
             correctionAdd("step by step", "step-by-step");
             correctionAdd("Step by step", "step-by-step");
             correctionAdd("Step by Step", "step-by-step");
-
-            correctionAdd("VR", "virtual reality");
-            correctionAdd("Virtual Reality", "virtual reality");
 
             correctionAdd("XPERF", "xperf");
 
@@ -23844,6 +23983,7 @@ namespace OverflowHelper.core
             correctionAdd("specefic", "specific");
             correctionAdd("spécific", "specific");
             correctionAdd("specifig", "specific");
+            correctionAdd("Specific", "specific");
 
             correctionAdd("spell-checker", "spell checker");
             correctionAdd("spellchecker", "spell checker");
@@ -24083,11 +24223,6 @@ namespace OverflowHelper.core
             correctionAdd("Never ending", "neverending");
 
             correctionAdd("PROCMAIL", "procmail");
-
-            correctionAdd("proof-of-concept", "proof of concept");
-            correctionAdd("Proof-of-concept", "proof of concept");
-            correctionAdd("Proof of Concept", "proof of concept");
-            correctionAdd("POC", "proof of concept");
 
             correctionAdd("re-open", "reopen");
             correctionAdd("Re-open", "reopen");
@@ -25133,6 +25268,9 @@ namespace OverflowHelper.core
             correctionAdd("posotive", "positive");
             correctionAdd("positve", "positive");
             correctionAdd("+ive", "positive");
+            correctionAdd("Positive", "positive");
+
+            correctionAdd("false-positive", "false positive");
 
             correctionAdd("pune", "Pune");
 
@@ -25200,11 +25338,13 @@ namespace OverflowHelper.core
 
             correctionAdd("spead", "spread");
 
+            // A Chinese manufacturer Cooler Master, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
             correctionAdd("COOLER MASTER", "Cooler Master");
             correctionAdd("Coolermaster", "Cooler Master");
             correctionAdd("cooler master", "Cooler Master");
             correctionAdd("coolermaster", "Cooler Master");
+            correctionAdd("COOLERMASTER", "Cooler Master");
 
             // A program from Cooler Master
             correctionAdd("MasterPlus", "MasterPlus+");
@@ -25796,6 +25936,9 @@ namespace OverflowHelper.core
             correctionAdd("Nihal", "Nihal Sarin"); // Chess
 
             correctionAdd("Arjun", "Arjun Erigaisi"); // Chess
+
+            correctionAdd("Gukesh D", "Dommaraju Gukesh"); // Chess
+            correctionAdd("Gukesh", "Dommaraju Gukesh"); // Chess
             //
             // End of the chess part
 
@@ -26921,8 +27064,6 @@ namespace OverflowHelper.core
             correctionAdd("dvorak", "Dvorak");
             correctionAdd("Dvorak layout", "Dvorak");
 
-            correctionAdd("PA44", "Piper PA-44 Seminole");
-
             correctionAdd("mono repo", "monolithic repository");
             correctionAdd("monorepo", "monolithic repository");
 
@@ -27683,8 +27824,6 @@ namespace OverflowHelper.core
             correctionAdd("REDPILL", "red pill");
 
             correctionAdd("soldier", "solder"); // PCB
-
-            correctionAdd("virtious", "virtuous");
 
             correctionAdd("commonmark", "CommonMark");
             correctionAdd("Commonmark", "CommonMark");
@@ -28474,6 +28613,7 @@ namespace OverflowHelper.core
 
             correctionAdd("isssue", "issue");
             correctionAdd("isqsues", "issue");
+            correctionAdd("issuse", "issue");
 
             correctionAdd("meaningfull", "meaningful");
 
@@ -28497,23 +28637,6 @@ namespace OverflowHelper.core
             correctionAdd("kmeans clustering", "k-means clustering");
             correctionAdd("`k-means` clustering", "k-means clustering");
             correctionAdd("k means clustering", "k-means clustering");
-
-            correctionAdd("re-structure", "restructure");
-
-            correctionAdd("POD", "plain old data structure");
-            correctionAdd("pod", "plain old data structure");
-            correctionAdd("Plain Old Data", "plain old data structure");
-
-            correctionAdd("data stricture", "data structure");
-            correctionAdd("datastructure", "data structure");
-            correctionAdd("data-structure", "data structure");
-            correctionAdd("data Structure", "data structure");
-
-            correctionAdd("stricture", "structure");
-            correctionAdd("strucure", "structure");
-            correctionAdd("struture", "structure");
-            correctionAdd("structur", "structure");
-            correctionAdd("structurate", "structure");
 
             correctionAdd("AWS amplify", "AWS Amplify");
             correctionAdd("aws-amplify", "AWS Amplify");
@@ -29803,11 +29926,6 @@ namespace OverflowHelper.core
 
             correctionAdd("MSMQ", "Microsoft Message Queuing");
 
-            correctionAdd("post man", "Postman");
-            correctionAdd("postman", "Postman");
-            correctionAdd("PostMan", "Postman");
-            correctionAdd("POSTMAN", "Postman");
-
             correctionAdd("scientust", "scientist");
 
             correctionAdd("self explanatory", "self-explanatory");
@@ -30004,6 +30122,7 @@ namespace OverflowHelper.core
             correctionAdd("chery mx", "Cherry MX");
             correctionAdd("cherry", "Cherry MX");
             correctionAdd("CHERRY MX", "Cherry MX");
+            correctionAdd("Cerry MX", "Cherry MX");
 
             correctionAdd("cherry mx red", "Cherry MX Red");
             correctionAdd("Cherry Red", "Cherry MX Red");
@@ -32778,9 +32897,6 @@ namespace OverflowHelper.core
             correctionAdd("Performance monitor", "Performance Monitor");
             correctionAdd("PerfMon", "Performance Monitor");
 
-            correctionAdd("pong", "Pong");
-            correctionAdd("PONG", "Pong");
-
             correctionAdd("SOS", "SOS (Son of Strike)");
 
             correctionAdd("tess", "Tess Ferrandez");
@@ -34128,10 +34244,6 @@ namespace OverflowHelper.core
             correctionAdd("lawier", "lawyer");
             correctionAdd("Lawyer", "lawyer");
 
-            correctionAdd("POG", "pog");
-            correctionAdd("POGCHAMP", "pog");
-            correctionAdd("pogchamp", "pog");
-
             correctionAdd("sclalar", "scalar");
 
             correctionAdd("under-paid", "underpaid");
@@ -34351,10 +34463,6 @@ namespace OverflowHelper.core
             correctionAdd("volotile", "volatile");
             correctionAdd("volitile", "volatile");
             correctionAdd("voltatile", "volatile");
-
-            correctionAdd("micro python", "MicroPython");
-            correctionAdd("Micropython", "MicroPython");
-            correctionAdd("Micro Python", "MicroPython");
 
             correctionAdd("MicroChip", "Microchip");
 
@@ -36379,12 +36487,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Pit Bull", "pit bull");
 
-            correctionAdd("principle of least surprise", "principle of least astonishment");
-            correctionAdd("Principle of Least Surprise", "principle of least astonishment");
-            correctionAdd("least astonishment", "principle of least astonishment");
-            correctionAdd("POLA", "principle of least astonishment");
-            correctionAdd("least surprise", "principle of least astonishment");
-
             correctionAdd("red-herring", "red herring");
 
             correctionAdd("re-occur", "reoccur");
@@ -37059,8 +37161,6 @@ namespace OverflowHelper.core
 
             correctionAdd("commentor", "commenter");
 
-            correctionAdd("automate the boring stuff", "Automate the Boring Stuff with Python");
-
             correctionAdd("elpa", "Emacs Lisp Package Archive");
             correctionAdd("ELPA", "Emacs Lisp Package Archive");
 
@@ -37609,8 +37709,6 @@ namespace OverflowHelper.core
 
             correctionAdd("substracting", "subtracting");
 
-            correctionAdd("virtuallization", "virtualization");
-
             correctionAdd("Blizzard", "Activision Blizzard");
 
             correctionAdd("CAFFE", "Caffe");
@@ -38016,11 +38114,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Pyaudio", "PyAudio");
             correctionAdd("pyaudio", "PyAudio");
-
-            correctionAdd("pip3", "pip&nbsp;3");
-            correctionAdd("pip 3", "pip&nbsp;3");
-
-            correctionAdd("VA", "virtual assistant");
 
             correctionAdd("fpm", "FastCGI Process Manager");
             correctionAdd("PHP-FPM", "FastCGI Process Manager");
@@ -38501,6 +38594,7 @@ namespace OverflowHelper.core
 
             correctionAdd("List Comprehension", "list comprehension");
             correctionAdd("List comprehension", "list comprehension");
+            correctionAdd("listcomp", "list comprehension");
 
             correctionAdd("orbiatal", "orbital");
 
@@ -38617,8 +38711,6 @@ namespace OverflowHelper.core
             correctionAdd("File Allocation Table", "FAT");
 
             correctionAdd("Michelson-Morley experiment", "Michelson–Morley experiment");
-
-            correctionAdd("Virtual Disk Image", "VDI");
 
             correctionAdd("Windows 98", "Windows&nbsp;98");
             correctionAdd("windows 98", "Windows&nbsp;98");
@@ -39245,27 +39337,12 @@ namespace OverflowHelper.core
             correctionAdd("studyig", "studying");
             correctionAdd("studing", "studying");
 
-            correctionAdd("Airbus 319", "Airbus A319");
-            correctionAdd("A319", "Airbus A319");
-
-            correctionAdd("DC-8", "Douglas DC-8");
-
-            correctionAdd("enroute", "en route");
-
-            correctionAdd("PA28", "Piper PA-28 Cherokee");
-            correctionAdd("PA-28", "Piper PA-28 Cherokee");
-
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
             correctionAdd("Getx", "GetX");
             correctionAdd("getX", "GetX");
 
             correctionAdd("Laguerre", "Laguerre's method");
-
-            correctionAdd("mingw64", "Mingw-w64");
-            correctionAdd("MingW64", "Mingw-w64");
-            correctionAdd("Mingw64", "Mingw-w64");
-            correctionAdd("MinGW-w64", "Mingw-w64");
 
             correctionAdd("Karjakin", "Sergey Karjakin");
 
@@ -39564,8 +39641,6 @@ namespace OverflowHelper.core
 
             correctionAdd("System C", "SystemC");
 
-            correctionAdd("VST", "Virtual Studio Technology");
-
             correctionAdd("chromatic distortion", "chromatic aberration");
 
             correctionAdd("clunkyness", "clunkiness");
@@ -39750,9 +39825,6 @@ namespace OverflowHelper.core
 
             correctionAdd("IBN", "Internet background radiation");
             correctionAdd("IBR", "Internet background radiation");
-
-            correctionAdd("pipewire", "PipeWire");
-            correctionAdd("Pipewire", "PipeWire");
 
             correctionAdd("PowerApp", "Power Apps");
             correctionAdd("PowerApps", "Power Apps");
@@ -41301,8 +41373,6 @@ namespace OverflowHelper.core
 
             correctionAdd("particpation", "participation");
 
-            correctionAdd("POGO", "pogo");
-
             correctionAdd("Traducir", "traducir.win");
             correctionAdd("traducir", "traducir.win");
 
@@ -42214,8 +42284,6 @@ namespace OverflowHelper.core
 
             correctionAdd("over kill", "overkill");
 
-            correctionAdd("Pipeline", "pipeline");
-
             correctionAdd("powersupplies", "power supplies");
 
             correctionAdd("redunancy", "redundancy");
@@ -42515,9 +42583,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tweepy", "Tweepy");
 
-            correctionAdd("virt-manager", "Virtual Machine Manager");
-            correctionAdd("virt manager", "Virtual Machine Manager");
-
             correctionAdd("hrs", "hours");
 
             correctionAdd("Innumerous", "innumerous");
@@ -42642,8 +42707,6 @@ namespace OverflowHelper.core
             correctionAdd("sea star", "starfish");
             correctionAdd("star fish", "starfish");
             correctionAdd("Starfish", "starfish");
-
-            correctionAdd("virually", "virtually");
 
             correctionAdd("avl tree", "AVL tree");
 
@@ -42991,8 +43054,6 @@ namespace OverflowHelper.core
 
             correctionAdd("establashing", "establishing");
 
-            correctionAdd("false-positive", "false positive");
-
             correctionAdd("Screen Capture", "screen capture");
 
             correctionAdd("SUV", "sport utility vehicle");
@@ -43050,8 +43111,6 @@ namespace OverflowHelper.core
             correctionAdd("honest opinion", "in my honest opinion");
 
             correctionAdd("In my humble opinion", "in my humble opinion");
-
-            correctionAdd("POB", "primarily opinion-based");
 
             correctionAdd("in my not-so-humble opinion", "In my not-so-humble opinion");
             correctionAdd("IMNSHO", "In my not-so-humble opinion");
@@ -43257,8 +43316,6 @@ namespace OverflowHelper.core
             correctionAdd("gruop", "group");
 
             correctionAdd("malloc()", "malloc");
-
-            correctionAdd("pipedream", "pipe dream");
 
             correctionAdd("raytracing", "ray tracing");
 
@@ -44445,8 +44502,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Minkowski spacetime", "Minkowski space");
 
-            correctionAdd("post code", "POST code");
-
             correctionAdd("R2dbc", "R2DBC");
             correctionAdd("r2dbc", "R2DBC");
 
@@ -45024,9 +45079,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unqouted", "unquoted");
 
-            correctionAdd("virtious circle", "virtuous circle");
-            correctionAdd("virtious cycle", "virtuous circle");
-
             correctionAdd("1tbs", "1TBS");
 
             correctionAdd("middle eastern", "Middle Eastern");
@@ -45508,9 +45560,6 @@ namespace OverflowHelper.core
             correctionAdd("parametreized", "parameterised");
 
             correctionAdd("snobish", "snobbish");
-
-            correctionAdd("Dunder method", "dunder method"); // See also <https://www.pythonmorsels.com/what-are-dunder-methods/>
-            correctionAdd("dunder", "dunder method");
 
             correctionAdd("Line of Code", "line of code");
 
@@ -46405,9 +46454,6 @@ namespace OverflowHelper.core
 
             correctionAdd("name-mangling", "name mangling");
 
-            correctionAdd("Python Conference", "PyCon");
-            correctionAdd("Pycon", "PyCon");
-
             correctionAdd("LSPCI", "lspci");
 
             correctionAdd("deleate", "delete");
@@ -46498,8 +46544,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scheddule", "schedule");
             correctionAdd("Scheddule", "schedule");
-
-            correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
 
             correctionAdd("bellongs", "belong");
             correctionAdd("bellong", "belong");
@@ -47025,8 +47069,6 @@ namespace OverflowHelper.core
             correctionAdd("chuck norris question", "Chuck Norris question");
 
             correctionAdd("FURL", "furl");
-
-            correctionAdd("posix path", "posixpath"); // A Python library
 
             correctionAdd("reprocicity", "reciprocity");
 
@@ -47832,8 +47874,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nerd fonts", "Nerd Fonts");
 
-            correctionAdd("MINTTY", "mintty");
-
             // See also <https://www.powerthesaurus.org/pluses_and_minuses>
             correctionAdd("plus and minus", "pluses and minuses");
 
@@ -47847,13 +47887,26 @@ namespace OverflowHelper.core
             correctionAdd("cancle", "cancel");
             correctionAdd("Cancle", "cancel");
 
-            correctionAdd("Pyenv", "pyenv");
-
             correctionAdd("RMA", "return merchandise authorization");
 
             correctionAdd("top-most", "topmost");
 
             correctionAdd("up-swell", "upswell");
+
+            // Mechanical keyboards
+            correctionAdd("Rappoo", "Rapoo");
+
+            // A Vim (text editor) plugin
+            correctionAdd("yedit", "YEdit");
+
+            correctionAdd("in simple term", "in simple terms");
+            correctionAdd("In simple term", "in simple terms");
+
+            correctionAdd("pyrrhic victory", "Pyrrhic victory");
+
+            correctionAdd("react-icons", "React Icons");
+
+            correctionAdd("stafull", "statefull");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75003,6 +75056,22 @@ namespace OverflowHelper.core
 
             URL_Add("upswell", "https://en.wiktionary.org/wiki/upswell#Noun");
 
+            URL_Add("Rapoo", "https://pmortensen.eu/world2/2021/12/24/rapoo-mechanical-keyboards-gotchas-and-setup/");
+
+            URL_Add("YEdit", "https://github.com/oyse/yedit");
+
+            URL_Add("in simple terms", "https://www.powerthesaurus.org/in_simple_terms/synonyms");
+
+            URL_Add("Pyrrhic victory", "https://en.wiktionary.org/wiki/Pyrrhic_victory#Noun");
+
+            URL_Add("Dommaraju Gukesh", "https://en.wikipedia.org/wiki/Gukesh_D");
+
+            URL_Add("plain old Dart object", "https://www.oreilly.com/library/view/the-complete-flutter/9781800563322/video20_8.html");
+
+            URL_Add("React Icons", "https://www.npmjs.com/package/react-icons");
+
+            URL_Add("statefull", "https://en.wiktionary.org/wiki/stateful#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -75317,6 +75386,7 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow_", "Stack&nbsp;Overflow_");
             correctionAdd("Stack overflow_", "Stack&nbsp;Overflow_");
             correctionAdd("stack overflow_", "Stack&nbsp;Overflow_");
+            correctionAdd("stackoverflow_", "Stack&nbsp;Overflow_");
 
             correctionAdd("ganymede_", "Ganymede_");
 
@@ -76818,10 +76888,17 @@ namespace OverflowHelper.core
             correctionAdd("est_", "estimated_");
             correctionAdd("Est_", "estimated_");
 
-            // See also the Wikipedea disambiguation page:
-            // <https://en.wikipedia.org/wiki/Launch_pad_(disambiguation)>
+            // The Texas Instruments hardware platform,
+            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
+            //
             correctionAdd("launchpad_", "LaunchPad_");
             correctionAdd("Launchpad_", "LaunchPad_");
+
+            correctionAdd("map_", "map()_");
+            correctionAdd("Map_", "map()_");
+
+            // Plain old data structure, JavaScript version.
+            correctionAdd("plain old JavaScript object_", "POJO_");
 
             // URL mappings
             //
@@ -77859,6 +77936,10 @@ namespace OverflowHelper.core
             URL_Add("estimated_", "https://en.wiktionary.org/wiki/estimate#Verb");
 
             URL_Add("LaunchPad_", "https://www.ti.com/design-resources/embedded-development/hardware-kits-boards.html");
+
+            URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
+
+            URL_Add("POJO_", "https://en.wikipedia.org/wiki/Plain_old_Java_object");
 
         } //addLookupData_alternativeWordSet()
 
