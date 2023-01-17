@@ -3282,6 +3282,31 @@ namespace OverflowHelper.core
             correctionAdd("transpose", "numpy.transpose()");
             correctionAdd("numpy.transpose", "numpy.transpose()");
 
+           // A Python library
+            correctionAdd("pandas", "Pandas");
+            correctionAdd("padas", "Pandas");
+            correctionAdd("Panda", "Pandas");
+            correctionAdd("panda", "Pandas");
+
+            // Pandas (Python library)
+            correctionAdd("Iloc", "iloc");
+
+            // Pandas (Python library)
+            correctionAdd("groupby", "pandas.DataFrame.groupby()");
+            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
+
+            // Pandas (Python library)
+            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
+            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
+
+            // Pandas (Python library)
+            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
+            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
+
+            // Pandas (Python library)
+            correctionAdd("read_csv", "pandas.read_csv()");
+            correctionAdd("pandas.read_csv", "pandas.read_csv()");
+
             // A Python thing
             //
             // Note: Some confusion between the concept "virtual environment"
@@ -3296,10 +3321,13 @@ namespace OverflowHelper.core
             correctionAdd("Venv", "venv");
             correctionAdd("Virtual Environment", "venv");
             correctionAdd("virtual environment", "venv");
+            correctionAdd("VE", "venv");
+            correctionAdd("virtual Environment", "venv");
 
             // A Python thing
             //
             correctionAdd("Pyenv", "pyenv");
+            correctionAdd("pyvenv", "pyenv");
 
             correctionAdd("Virtualbox", "VirtualBox");
             correctionAdd("virtualbox", "VirtualBox");
@@ -3347,31 +3375,6 @@ namespace OverflowHelper.core
             correctionAdd("virtious cycle", "virtuous circle");
 
             correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
-
-            // A Python library
-            correctionAdd("pandas", "Pandas");
-            correctionAdd("padas", "Pandas");
-            correctionAdd("Panda", "Pandas");
-            correctionAdd("panda", "Pandas");
-
-            // Pandas (Python library)
-            correctionAdd("Iloc", "iloc");
-
-            // Pandas (Python library)
-            correctionAdd("groupby", "pandas.DataFrame.groupby()");
-            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
-
-            // Pandas (Python library)
-            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
-            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
-
-            // Pandas (Python library)
-            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
-            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
-
-            // Pandas (Python library)
-            correctionAdd("read_csv", "pandas.read_csv()");
-            correctionAdd("pandas.read_csv", "pandas.read_csv()");
 
             correctionAdd("ironpython", "IronPython");
             correctionAdd("Iron Python", "IronPython");
@@ -5301,6 +5304,8 @@ namespace OverflowHelper.core
             correctionAdd("tailwindcss", "Tailwind CSS");
             correctionAdd("tailwind-css", "Tailwind CSS");
             correctionAdd("TailwindCss", "Tailwind CSS");
+            correctionAdd("Tailwind css", "Tailwind CSS");
+            correctionAdd("TailwindCSS", "Tailwind CSS");
 
             correctionAdd("box-model", "CSS box model");
             correctionAdd("box model", "CSS box model");
@@ -11726,6 +11731,7 @@ namespace OverflowHelper.core
             correctionAdd("directoory", "directory");
             correctionAdd("dictornar", "directory");
             correctionAdd("Dir", "directory");
+            correctionAdd("directiory", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
@@ -16026,6 +16032,7 @@ namespace OverflowHelper.core
             correctionAdd("SFI", "science fiction");
             correctionAdd("Sci-fi", "science fiction");
             correctionAdd("Sci fi", "science fiction");
+            correctionAdd("SCI-FI", "science fiction");
 
             correctionAdd("Ping", "ping");
 
@@ -16965,6 +16972,7 @@ namespace OverflowHelper.core
             correctionAdd("newbi", "newbie");
             correctionAdd("n00bie", "newbie");
             correctionAdd("n3wb", "newbie");
+            correctionAdd("newbies", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -18610,6 +18618,7 @@ namespace OverflowHelper.core
             correctionAdd("Reacty", "React");
             correctionAdd("react Js", "React");
             correctionAdd("reactJs", "React");
+            correctionAdd("React Js", "React");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -20151,6 +20160,7 @@ namespace OverflowHelper.core
             correctionAdd("coord", "coordinate");
             correctionAdd("co-ordinate", "coordinate");
             correctionAdd("co ordinate", "coordinate");
+            correctionAdd("coords", "coordinate");
 
             correctionAdd("finaly", "finally");
             correctionAdd("finnaly", "finally");
@@ -22240,6 +22250,9 @@ namespace OverflowHelper.core
             correctionAdd("Pro-blem", "problem");
             correctionAdd("pro-blem", "problem");
             correctionAdd("probs", "problem");
+            correctionAdd("Problam", "problem");
+            correctionAdd("pr0blem", "problem");
+            correctionAdd("problam", "problem");
 
             correctionAdd("problemantic", "problematic");
 
@@ -25338,7 +25351,7 @@ namespace OverflowHelper.core
 
             correctionAdd("spead", "spread");
 
-            // A Chinese manufacturer Cooler Master, incl. of mechanical keyboards
+            // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
             correctionAdd("COOLER MASTER", "Cooler Master");
             correctionAdd("Coolermaster", "Cooler Master");
@@ -25544,6 +25557,7 @@ namespace OverflowHelper.core
 
             correctionAdd("grand master", "Grandmaster"); // Chess
             correctionAdd("grandmaster", "Grandmaster"); // Chess
+            correctionAdd("Grand Master", "Grandmaster"); // Chess
 
             correctionAdd("Italian game", "Italian Game"); // Chess
             correctionAdd("Italian opening", "Italian Game"); // Chess
@@ -33505,6 +33519,8 @@ namespace OverflowHelper.core
             correctionAdd("pita", "PITA");
             correctionAdd("pia", "PITA");
             correctionAdd("PIA", "PITA");
+            correctionAdd("PAIN IN THE A", "PITA");
+            correctionAdd("pain in the a", "PITA");
 
             correctionAdd("stolon", "Stolon");
 
@@ -37218,6 +37234,7 @@ namespace OverflowHelper.core
             correctionAdd("labor intensive", "labour-intensive");
 
             correctionAdd("salaray", "salary");
+            correctionAdd("salery", "salary");
 
             correctionAdd("interferred", "interfered");
 
@@ -37748,6 +37765,8 @@ namespace OverflowHelper.core
 
             correctionAdd("CRA", "Create React App");
             correctionAdd("create-react-app", "Create React App");
+            correctionAdd("CREATE REACT APP", "Create React App");
+            correctionAdd("create react app", "Create React App");
 
             correctionAdd("mikroORM", "MikroORM");
 
@@ -45212,6 +45231,7 @@ namespace OverflowHelper.core
             correctionAdd("ducky", "Ducky");
 
             correctionAdd("Ducky Shine", "Ducky Shine 7");
+            correctionAdd("Ducky 7", "Ducky Shine 7");
 
             correctionAdd("Ducky Script", "DuckyScript");
             correctionAdd("Duckyscript", "DuckyScript");
@@ -47907,6 +47927,25 @@ namespace OverflowHelper.core
             correctionAdd("react-icons", "React Icons");
 
             correctionAdd("stafull", "statefull");
+
+            correctionAdd("csend", "send");
+
+            correctionAdd("auto start", "autostart");
+
+            correctionAdd("mid-level", "midlevel");
+            correctionAdd("middling-level", "midlevel");
+
+            correctionAdd("Star Trek: TNG", "Star Trek: The Next Generation");
+            correctionAdd("TNG", "Star Trek: The Next Generation");
+            correctionAdd("The Next Generation", "Star Trek: The Next Generation");
+            correctionAdd("the next generation", "Star Trek: The Next Generation");
+
+            // A JavaScript library related to Three.js
+            correctionAdd("drei", "Drei");
+
+            correctionAdd("low-res", "low-resolution");
+
+            correctionAdd("mean while", "meanwhile");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75072,6 +75111,20 @@ namespace OverflowHelper.core
 
             URL_Add("statefull", "https://en.wiktionary.org/wiki/stateful#Adjective");
 
+            URL_Add("send", "https://en.wiktionary.org/wiki/send#Verb");
+
+            URL_Add("autostart", "https://en.wiktionary.org/wiki/autostart#Verb");
+
+            URL_Add("midlevel", "https://en.wiktionary.org/wiki/midlevel#Adjective");
+
+            URL_Add("Star Trek: The Next Generation", "https://en.wikipedia.org/wiki/Star_Trek%3A_The_Next_Generation");
+
+            URL_Add("Drei", "https://github.com/pmndrs/drei");
+
+            URL_Add("low-resolution", "https://en.wiktionary.org/wiki/low-resolution#Adjective");
+
+            URL_Add("meanwhile", "https://en.wiktionary.org/wiki/meanwhile#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -76894,11 +76947,15 @@ namespace OverflowHelper.core
             correctionAdd("launchpad_", "LaunchPad_");
             correctionAdd("Launchpad_", "LaunchPad_");
 
+            // A Python function
             correctionAdd("map_", "map()_");
             correctionAdd("Map_", "map()_");
 
             // Plain old data structure, JavaScript version.
             correctionAdd("plain old JavaScript object_", "POJO_");
+
+            // A Windows snap-in/Control Panel
+            correctionAdd("services_", "Services_");
 
             // URL mappings
             //
@@ -77940,6 +77997,8 @@ namespace OverflowHelper.core
             URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
 
             URL_Add("POJO_", "https://en.wikipedia.org/wiki/Plain_old_Java_object");
+
+            URL_Add("Services_", "https://en.wikipedia.org/wiki/Windows_service#Services_snap-in");
 
         } //addLookupData_alternativeWordSet()
 
