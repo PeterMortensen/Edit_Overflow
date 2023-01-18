@@ -3474,6 +3474,8 @@ namespace OverflowHelper.core
             correctionAdd("```yaml", "```lang-yaml");
 
             correctionAdd("lang-r", "```lang-r");
+            correctionAdd("```{r}", "```lang-r");
+            correctionAdd("{r}", "```lang-r");
 
             correctionAdd("lang-ruby", "```lang-ruby");
 
@@ -5260,6 +5262,19 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Monterrey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("Monterrey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS&nbsp;v12", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("12.3", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macOS 12.3", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("macos 12", "macOS&nbsp;v12 (Monterey)");
+
+            correctionAdd("macOS 13", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS v13 (Ventura)", "macOS&nbsp;v13 (Ventura)"); // Sort of identity mapping
+            correctionAdd("macOS 13 (Ventura)", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS 13.1", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("Ventura", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS Ventura", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS v13", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS&nbsp;v13", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("MacOS 13.1", "macOS&nbsp;v13 (Ventura)");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -5811,6 +5826,28 @@ namespace OverflowHelper.core
             correctionAdd("GNU Compiler Collection", "GCC");
             correctionAdd("CGG", "GCC");
 
+            correctionAdd("gcc warning options", "GCC warning options lists");
+            correctionAdd("GCC warning options", "GCC warning options lists");
+            correctionAdd("GCC options", "GCC warning options lists");
+
+            correctionAdd("gcc macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+            correctionAdd("GCC macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+
+            correctionAdd("exit code 1", "clang: error: linker command failed with exit code 1");
+            correctionAdd("Clang linker signature", "clang: error: linker command failed with exit code 1");
+
+            correctionAdd("1 exit status", "collect2: error: ld returned 1 exit status");
+            correctionAdd("1 exit", "collect2: error: ld returned 1 exit status");
+            correctionAdd("GCC linker signature", "collect2: error: ld returned 1 exit status");
+
+            correctionAdd("clang", "Clang");
+            correctionAdd("CLANG", "Clang");
+            correctionAdd("CLang", "Clang");
+
+            correctionAdd("llvm", "LLVM");
+            correctionAdd("LVVM", "LLVM");
+            correctionAdd("lvvm", "LLVM");
+
             correctionAdd("gdb", "GDB");
             correctionAdd("Gdb", "GDB");
             correctionAdd("GBD", "GDB");
@@ -6087,10 +6124,6 @@ namespace OverflowHelper.core
             correctionAdd("optionaly", "optionally");
             correctionAdd("Optionaly", "optionally");
 
-            correctionAdd("gcc warning options", "GCC warning options lists");
-            correctionAdd("GCC warning options", "GCC warning options lists");
-            correctionAdd("GCC options", "GCC warning options lists");
-
             correctionAdd("funciton", "function");
             correctionAdd("fucktion", "function");
             correctionAdd("fonction", "function");
@@ -6291,9 +6324,21 @@ namespace OverflowHelper.core
 
             correctionAdd("abriged", "abridged");
 
+            correctionAdd("dict", "dictionary");
+            correctionAdd("disctionary", "dictionary");
+            correctionAdd("dictinary", "dictionary");
+            correctionAdd("dictionare", "dictionary");
+            correctionAdd("dictionnary", "dictionary");
+            correctionAdd("Dictionary", "dictionary");
+            correctionAdd("Dectionary", "dictionary");
+            correctionAdd("dectionary", "dictionary");
+
             correctionAdd("CALD", "Cambridge Dictionary");
             correctionAdd("Cambridge Advanced Learner's Dictionary", "Cambridge Dictionary");
             correctionAdd("cambridge dictionary", "Cambridge Dictionary");
+
+            correctionAdd("Collins Dictionary", "Collins English Dictionary");
+            correctionAdd("collins dictionary", "Collins English Dictionary");
 
             correctionAdd("Silican Valley", "Silicon Valley");
             correctionAdd("silicon valley", "Silicon Valley");
@@ -6543,7 +6588,12 @@ namespace OverflowHelper.core
             correctionAdd("parm", "parameter");
             correctionAdd("parms", "parameter");
 
-            correctionAdd("gcc macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+            correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
+            correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
+
+            correctionAdd("-ftime-trace", "-ftime-trace (Clang)");
+
+            correctionAdd("-Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
 
             correctionAdd("--Wall", "-Wall");
 
@@ -6920,13 +6970,6 @@ namespace OverflowHelper.core
             correctionAdd("perl", "Perl");
             correctionAdd("PERL", "Perl");
             correctionAdd("Pearl", "Perl");
-
-            correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
-            correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
-
-            correctionAdd("-ftime-trace", "-ftime-trace (Clang)");
-
-            correctionAdd("-Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
 
             // Now used for PowerShell:
             //
@@ -7372,6 +7415,7 @@ namespace OverflowHelper.core
             correctionAdd("0/p", "output");
             correctionAdd("Outpur", "output");
             correctionAdd("outpur", "output");
+            correctionAdd("outupt", "output");
 
             correctionAdd("oprofile", "OProfile");
             correctionAdd("Oprofile", "OProfile");
@@ -7830,6 +7874,31 @@ namespace OverflowHelper.core
             correctionAdd("ISTR", "I seem to remember");
 
             correctionAdd("AFAIR", "as far as I remember");
+
+            correctionAdd("XHR", "XMLHttpRequest"); // Expansion.
+            correctionAdd("xhr", "XMLHttpRequest");
+            correctionAdd("XMLHTTPRequest", "XMLHttpRequest");
+            correctionAdd("xmlhttprequest", "XMLHttpRequest");
+            correctionAdd("xmlHttpRequest", "XMLHttpRequest");
+            correctionAdd("XMLHTTPRequests", "XMLHttpRequest"); // Not 100% correct - plural.
+            correctionAdd("Xmlhttprequest", "XMLHttpRequest");
+
+            correctionAdd("pr", "pull request");
+            correctionAdd("PR", "pull request");
+            correctionAdd("Pull Request", "pull request");
+            correctionAdd("Pull-Request", "pull request");
+            correctionAdd("prs", "pull request");
+            correctionAdd("PRs", "pull request");
+
+            correctionAdd("requst", "request");
+            correctionAdd("resquest", "request");
+            correctionAdd("Request", "request");
+            correctionAdd("reqest", "request");
+            correctionAdd("reguest", "request");
+            correctionAdd("reques", "request");
+            correctionAdd("Reqest", "request");
+            correctionAdd("req", "request");
+            correctionAdd("requet", "request");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -9746,6 +9815,9 @@ namespace OverflowHelper.core
             correctionAdd("ogg", "Ogg");
 
             correctionAdd("r", "R"); // Not actually observed.
+
+            // An R library
+            correctionAdd("rShiny", "Shiny");
 
             correctionAdd("wmv", "WMV");
 
@@ -14182,14 +14254,6 @@ namespace OverflowHelper.core
 
             correctionAdd("opera mini", "Opera Mini");
 
-            correctionAdd("clang", "Clang");
-            correctionAdd("CLANG", "Clang");
-            correctionAdd("CLang", "Clang");
-
-            correctionAdd("llvm", "LLVM");
-            correctionAdd("LVVM", "LLVM");
-            correctionAdd("lvvm", "LLVM");
-
             correctionAdd("Singleton", "singleton");
             correctionAdd("singleton pattern", "singleton");
             correctionAdd("Singleton pattern", "singleton");
@@ -15717,6 +15781,7 @@ namespace OverflowHelper.core
             correctionAdd("Pepole", "people");
             correctionAdd("People", "people");
             correctionAdd("peoples", "people");
+            correctionAdd("peepl", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -18528,6 +18593,9 @@ namespace OverflowHelper.core
             correctionAdd("particuler", "particular");
             correctionAdd("particual", "particular");
             correctionAdd("particula", "particular");
+            correctionAdd("partiqulaer", "particular");
+            correctionAdd("partiqular", "particular");
+            correctionAdd("pertiqulaer", "particular");
 
             correctionAdd("canadian", "Canadian");
 
@@ -19191,13 +19259,6 @@ namespace OverflowHelper.core
             correctionAdd("corrdctly", "correctly");
             correctionAdd("correcty", "correctly");
             correctionAdd("correcltly", "correctly");
-
-            correctionAdd("dict", "dictionary");
-            correctionAdd("disctionary", "dictionary");
-            correctionAdd("dictinary", "dictionary");
-            correctionAdd("dictionare", "dictionary");
-            correctionAdd("dictionnary", "dictionary");
-            correctionAdd("Dictionary", "dictionary");
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
@@ -20225,6 +20286,7 @@ namespace OverflowHelper.core
             correctionAdd("look's", "looks");
 
             correctionAdd("meaddle", "middle");
+            correctionAdd("middlest", "middle");
 
             correctionAdd("Nitrogen", "nitrogen");
 
@@ -20237,7 +20299,8 @@ namespace OverflowHelper.core
             correctionAdd("Signin", "sign in");
             correctionAdd("signin", "sign in");
             correctionAdd("signIn", "sign in");
-            correctionAdd("sing in", "sign in");
+            correctionAdd("sing in", "sign in"); // !!!!!
+            correctionAdd("Sing in", "sign in"); // !!!!!
 
             correctionAdd("substution", "substitution");
             correctionAdd("substituion", "substitution");
@@ -20250,6 +20313,7 @@ namespace OverflowHelper.core
 
             correctionAdd("trouble shooting", "troubleshooting");
             correctionAdd("troubeshooting", "troubleshooting");
+            correctionAdd("troubleshouting", "troubleshooting");
 
             correctionAdd("workorder", "work order");
             correctionAdd("Work-order", "work order");
@@ -21395,6 +21459,14 @@ namespace OverflowHelper.core
             correctionAdd("sugest", "suggest");
             correctionAdd("sudgest", "suggest");
 
+            correctionAdd("suggestiong", "suggestion");
+            correctionAdd("Suggestiong", "suggestion");
+            correctionAdd("sugestion", "suggestion");
+
+            correctionAdd("suggets", "suggests");
+
+            correctionAdd("sugested", "suggested");
+
             correctionAdd("Trillion", "trillion");
 
             correctionAdd("useage", "usage");
@@ -21546,30 +21618,6 @@ namespace OverflowHelper.core
             correctionAdd("openning", "opening");
             correctionAdd("opeing", "opening");
 
-            correctionAdd("XHR", "XMLHttpRequest"); // Expansion.
-            correctionAdd("xhr", "XMLHttpRequest");
-            correctionAdd("XMLHTTPRequest", "XMLHttpRequest");
-            correctionAdd("xmlhttprequest", "XMLHttpRequest");
-            correctionAdd("xmlHttpRequest", "XMLHttpRequest");
-            correctionAdd("XMLHTTPRequests", "XMLHttpRequest"); // Not 100% correct - plural.
-            correctionAdd("Xmlhttprequest", "XMLHttpRequest");
-
-            correctionAdd("pr", "pull request");
-            correctionAdd("PR", "pull request");
-            correctionAdd("Pull Request", "pull request");
-            correctionAdd("Pull-Request", "pull request");
-            correctionAdd("prs", "pull request");
-            correctionAdd("PRs", "pull request");
-
-            correctionAdd("requst", "request");
-            correctionAdd("resquest", "request");
-            correctionAdd("Request", "request");
-            correctionAdd("reqest", "request");
-            correctionAdd("reguest", "request");
-            correctionAdd("reques", "request");
-            correctionAdd("Reqest", "request");
-            correctionAdd("req", "request");
-
             correctionAdd("temorarily", "temporarily");
             correctionAdd("temporaryly", "temporarily");
             correctionAdd("Temporily", "temporarily");
@@ -21719,6 +21767,7 @@ namespace OverflowHelper.core
             correctionAdd("discod", "Discord");
             correctionAdd("Disturd", "Discord");
             correctionAdd("disturd", "Discord");
+            correctionAdd("dscord", "Discord");
 
             correctionAdd("hfs", "HFS");
 
@@ -22007,10 +22056,6 @@ namespace OverflowHelper.core
             correctionAdd("simle", "simple");
 
             correctionAdd("soundcard", "sound card");
-
-            correctionAdd("suggestiong", "suggestion");
-            correctionAdd("Suggestiong", "suggestion");
-            correctionAdd("sugestion", "suggestion");
 
             correctionAdd("gnu-make", "GNU Make");
             correctionAdd("GNU make", "GNU Make");
@@ -24498,6 +24543,7 @@ namespace OverflowHelper.core
             correctionAdd("sing", "using");
             correctionAdd("usigin", "using");
             correctionAdd("suign", "using");
+            correctionAdd("usning", "using");
 
             correctionAdd("ActiVision", "Activision");
 
@@ -25321,6 +25367,7 @@ namespace OverflowHelper.core
 
             correctionAdd("girl friend", "girlfriend");
             correctionAdd("gf", "girlfriend");
+            correctionAdd("Girlfriend", "girlfriend");
 
             correctionAdd("freind", "friend");
             correctionAdd("Freinds", "friend");
@@ -25770,6 +25817,7 @@ namespace OverflowHelper.core
 
             correctionAdd("liren", "Ding Liren"); // Chess
             correctionAdd("Liren", "Ding Liren"); // Chess
+            correctionAdd("Ding", "Ding Liren"); // Chess
 
             correctionAdd("anish giri", "Anish Giri"); // Chess
             correctionAdd("Amish Girl", "Anish Giri"); // Chess
@@ -26250,6 +26298,7 @@ namespace OverflowHelper.core
 
             correctionAdd("keybinding", "key binding");
             correctionAdd("keybindding", "key binding");
+            correctionAdd("key-binding", "key binding");
 
             correctionAdd("van-der-Waals force", "van der Waals force");
             correctionAdd("Van der Waals force", "van der Waals force");
@@ -27984,6 +28033,7 @@ namespace OverflowHelper.core
             correctionAdd("ssuch", "such");
 
             correctionAdd("troubleshoout", "troubleshoot");
+            correctionAdd("trouble-shoot", "troubleshoot");
 
             correctionAdd("which ever", "whichever");
             correctionAdd("Which ever", "whichever");
@@ -30263,6 +30313,7 @@ namespace OverflowHelper.core
             correctionAdd("front-end", "front end");
             correctionAdd("Front-End", "front end");
             correctionAdd("Front End", "front end");
+            correctionAdd("frontEnd", "front end");
 
             correctionAdd("tkl", "tenkeyless (80%)"); // Mechanical keyboards
             correctionAdd("TKL", "tenkeyless (80%)"); // Mechanical keyboards
@@ -30782,6 +30833,7 @@ namespace OverflowHelper.core
             correctionAdd("Undifined", "undefined");
             correctionAdd("undifined", "undefined");
             correctionAdd("undfined", "undefined");
+            correctionAdd("unidefined", "undefined");
 
             correctionAdd("understandig", "understanding");
             correctionAdd("udnerstanding", "understanding");
@@ -31165,6 +31217,7 @@ namespace OverflowHelper.core
             correctionAdd("hypotesis", "hypothesis");
 
             correctionAdd("learen", "learn");
+            correctionAdd("lern", "learn");
 
             correctionAdd("Nucleosynthesis", "nucleosynthesis");
 
@@ -31347,6 +31400,7 @@ namespace OverflowHelper.core
 
             correctionAdd("rleationship", "relationship");
             correctionAdd("relation ship", "relationship");
+            correctionAdd("realtionship", "relationship");
 
             correctionAdd("LTR", "long-term relationship");
             correctionAdd("ltr", "long-term relationship");
@@ -32829,8 +32883,6 @@ namespace OverflowHelper.core
             correctionAdd("logaritmically", "logarithmically");
 
             correctionAdd("positionning", "positioning");
-
-            correctionAdd("suggets", "suggests");
 
             correctionAdd("unintenationally", "unintentionally");
             correctionAdd("unintentionaly", "unintentionally");
@@ -35674,8 +35726,6 @@ namespace OverflowHelper.core
 
             correctionAdd("queen-side", "queenside");
 
-            correctionAdd("sugested", "suggested");
-
             correctionAdd("un-check", "uncheck");
             correctionAdd("Un-check", "uncheck");
 
@@ -36336,6 +36386,7 @@ namespace OverflowHelper.core
             correctionAdd("curley brace", "curly bracket");
             correctionAdd("curly-brace", "curly bracket");
             correctionAdd("curley-brace", "curly bracket");
+            correctionAdd("curly bracer", "curly bracket");
 
             correctionAdd("failes", "fails");
 
@@ -37853,6 +37904,7 @@ namespace OverflowHelper.core
             correctionAdd("oauth2", "OAuth 2");
             correctionAdd("OAuth2", "OAuth 2");
             correctionAdd("Oauth2", "OAuth 2");
+            correctionAdd("OAUTH2", "OAuth 2");
 
             correctionAdd("12 factor app", "Twelve-Factor Application methodology");
 
@@ -42082,6 +42134,7 @@ namespace OverflowHelper.core
             correctionAdd("ireproducible", "irreproducible");
 
             correctionAdd("Psychic debugging", "psychic debugging");
+            correctionAdd("psyc debugging", "psychic debugging");
 
             correctionAdd("inconditionally", "unconditionally");
             correctionAdd("Unconditionnaly", "unconditionally");
@@ -43964,6 +44017,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Business as Usual", "business as usual");
             correctionAdd("BaU", "business as usual");
+            correctionAdd("BAU", "business as usual");
 
             correctionAdd("centeral", "central");
 
@@ -47360,6 +47414,7 @@ namespace OverflowHelper.core
             correctionAdd("PFPs", "profile pictures");
 
             correctionAdd("rightaway", "right away");
+            correctionAdd("right a way", "right away");
 
             correctionAdd("Symbolhound", "SymbolHound");
 
@@ -47525,15 +47580,6 @@ namespace OverflowHelper.core
             correctionAdd("H&I", "Help & Improvement queue");
 
             correctionAdd("intervall", "interval");
-
-            correctionAdd("macOS 13", "macOS&nbsp;v13 (Ventura)");
-            correctionAdd("macOS v13 (Ventura)", "macOS&nbsp;v13 (Ventura)"); // Sort of identity mapping
-            correctionAdd("macOS 13 (Ventura)", "macOS&nbsp;v13 (Ventura)");
-            correctionAdd("macOS 13.1", "macOS&nbsp;v13 (Ventura)");
-            correctionAdd("Ventura", "macOS&nbsp;v13 (Ventura)");
-            correctionAdd("macOS Ventura", "macOS&nbsp;v13 (Ventura)");
-            correctionAdd("macOS v13", "macOS&nbsp;v13 (Ventura)");
-            correctionAdd("macOS&nbsp;v13", "macOS&nbsp;v13 (Ventura)");
 
             correctionAdd("outdated answers", "outdated answers project");
 
@@ -47822,9 +47868,6 @@ namespace OverflowHelper.core
 
             correctionAdd("adviseable", "advisable");
 
-            correctionAdd("Collins Dictionary", "Collins English Dictionary");
-            correctionAdd("collins dictionary", "Collins English Dictionary");
-
             correctionAdd("relayout", "layout");
 
             correctionAdd("non significant", "nonsignificant");
@@ -47946,6 +47989,26 @@ namespace OverflowHelper.core
             correctionAdd("low-res", "low-resolution");
 
             correctionAdd("mean while", "meanwhile");
+
+            correctionAdd("FWHM", "full width at half maximum");
+            correctionAdd("fwhm", "full width at half maximum");
+
+            correctionAdd("commercially available off-the-shelf", "commercial off-the-shelf");
+            correctionAdd("COTS", "commercial off-the-shelf");
+
+            correctionAdd("lubri date", "lubridate");
+
+            correctionAdd("Suggested Edits", "Suggested edits review queue");
+            correctionAdd("Suggested edits", "Suggested edits review queue");
+            correctionAdd("suggested edits", "Suggested edits review queue");
+
+            correctionAdd("borkt", "borked");
+
+            correctionAdd("compelete", "completed");
+
+            correctionAdd("moran", "moron");
+
+            correctionAdd("i", "I");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75125,6 +75188,28 @@ namespace OverflowHelper.core
 
             URL_Add("meanwhile", "https://en.wiktionary.org/wiki/meanwhile#Adverb");
 
+            URL_Add("clang: error: linker command failed with exit code 1", "https://stackoverflow.com/questions/34080846/");
+
+            URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
+
+            URL_Add("full width at half maximum", "https://en.wikipedia.org/wiki/Full_width_at_half_maximum");
+
+            URL_Add("commercial off-the-shelf", "https://en.wikipedia.org/wiki/Commercial_off-the-shelf");
+
+            URL_Add("lubridate", "https://lubridate.tidyverse.org/");
+
+            URL_Add("Shiny", "https://en.wikipedia.org/wiki/Shiny_(software)");
+
+            URL_Add("Suggested edits review queue", "https://stackoverflow.com/review");
+
+            URL_Add("borked", "https://en.wiktionary.org/wiki/borked#Adjective");
+
+            URL_Add("completed", "https://en.wiktionary.org/wiki/complete#Verb");
+
+            URL_Add("I", "https://en.wiktionary.org/wiki/I#Pronoun");
+
+            URL_Add("moron", "https://en.wiktionary.org/wiki/moron#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -76957,6 +77042,11 @@ namespace OverflowHelper.core
             // A Windows snap-in/Control Panel
             correctionAdd("services_", "Services_");
 
+            correctionAdd("part-of-speech_", "part of speech_");
+            correctionAdd("POS_", "part of speech_");
+            correctionAdd("PoS_", "part of speech_");
+            correctionAdd("pos_", "part of speech_");
+
             // URL mappings
             //
             //
@@ -77999,6 +78089,8 @@ namespace OverflowHelper.core
             URL_Add("POJO_", "https://en.wikipedia.org/wiki/Plain_old_Java_object");
 
             URL_Add("Services_", "https://en.wikipedia.org/wiki/Windows_service#Services_snap-in");
+
+            URL_Add("part of speech_", "https://en.wikipedia.org/wiki/Part_of_speech");
 
         } //addLookupData_alternativeWordSet()
 
