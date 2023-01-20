@@ -3430,6 +3430,9 @@ namespace OverflowHelper.core
             correctionAdd("javascript-lang", "```lang-javascript");
             correctionAdd("```js", "```lang-javascript");
             correctionAdd("```lang-js", "```lang-javascript");
+            correctionAdd("```json", "```lang-javascript");
+            correctionAdd("```lang-json", "```lang-javascript");
+            correctionAdd("lang-json", "```lang-javascript");
 
             correctionAdd("css-lang", "```lang-css");
             correctionAdd("lang-css", "```lang-css");
@@ -3478,8 +3481,6 @@ namespace OverflowHelper.core
             correctionAdd("{r}", "```lang-r");
 
             correctionAdd("lang-ruby", "```lang-ruby");
-
-            correctionAdd("```json", "```lang-json");
 
             correctionAdd("FaceBook", "Facebook");
             correctionAdd("facebook", "Facebook");
@@ -5832,9 +5833,11 @@ namespace OverflowHelper.core
 
             correctionAdd("gcc macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
             correctionAdd("GCC macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+            correctionAdd("executable 'gcc'", "executable 'gcc' on macOS is the Clang compiler, not GCC");
 
             correctionAdd("exit code 1", "clang: error: linker command failed with exit code 1");
             correctionAdd("Clang linker signature", "clang: error: linker command failed with exit code 1");
+            correctionAdd("linker command failed with exit code 1", "clang: error: linker command failed with exit code 1");
 
             correctionAdd("1 exit status", "collect2: error: ld returned 1 exit status");
             correctionAdd("1 exit", "collect2: error: ld returned 1 exit status");
@@ -6430,11 +6433,19 @@ namespace OverflowHelper.core
 
             correctionAdd("tel aviv", "Tel Aviv");
 
+            correctionAdd("XKCD", "xkcd");
+            correctionAdd("Xkcd", "xkcd");
+
             // xkcd
             correctionAdd("Denvercoder", "DenverCoder9");
             correctionAdd("Denver coder", "DenverCoder9");
             correctionAdd("denvercoder", "DenverCoder9");
             correctionAdd("denver coder", "DenverCoder9");
+            correctionAdd("reveal it", "DenverCoder9");
+            correctionAdd("Denvercoder Problem", "DenverCoder9");
+            correctionAdd("Denvercoder problem", "DenverCoder9");
+
+            correctionAdd("Purity", "Purity (xkcd 435)");
 
             correctionAdd("Content-type", "Content-Type"); // HTTP header
             correctionAdd("content-type", "Content-Type"); // HTTP header
@@ -10407,6 +10418,9 @@ namespace OverflowHelper.core
             correctionAdd("CanIUse", "Can I use");
 
             correctionAdd("lighthouse", "Lighthouse");
+            correctionAdd("Google Lighthouse", "Lighthouse");
+            correctionAdd("Google lighthouse", "Lighthouse");
+            correctionAdd("google lighthouse", "Lighthouse");
 
             correctionAdd("over use", "overuse");
             correctionAdd("over-use", "overuse");
@@ -10425,6 +10439,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Use", "use");
             correctionAdd("USe", "use");
+            correctionAdd("usd", "use");
 
             correctionAdd("cat and mouse", "cat-and-mouse");
 
@@ -11733,6 +11748,7 @@ namespace OverflowHelper.core
             correctionAdd("ont", "don’t");
             correctionAdd("Dont'", "don’t");
             correctionAdd("on't", "don’t");
+            correctionAdd("donnt", "don’t");
 
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
@@ -15361,6 +15377,14 @@ namespace OverflowHelper.core
             correctionAdd("Visual Stido", "Visual&nbsp;Studio");
             correctionAdd("Visual Studo", "Visual&nbsp;Studio");
 
+            correctionAdd("Visual Studio Express", "Visual&nbsp;Studio Express"); // Sort of identity mapping
+            correctionAdd("VS express", "Visual&nbsp;Studio Express");
+            correctionAdd("vs express", "Visual&nbsp;Studio Express");
+            correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
+            correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
+            correctionAdd("VS Express", "Visual&nbsp;Studio Express");
+            correctionAdd("VS-Express", "Visual&nbsp;Studio Express");
+
             correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
             correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
@@ -15432,14 +15456,6 @@ namespace OverflowHelper.core
             correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
             correctionAdd("VS express C#", "Visual&nbsp;C# Express");
             correctionAdd("C# express", "Visual&nbsp;C# Express");
-
-            correctionAdd("Visual Studio Express", "Visual&nbsp;Studio Express"); // Sort of identity mapping
-            correctionAdd("VS express", "Visual&nbsp;Studio Express");
-            correctionAdd("vs express", "Visual&nbsp;Studio Express");
-            correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
-            correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
-            correctionAdd("VS Express", "Visual&nbsp;Studio Express");
-            correctionAdd("VS-Express", "Visual&nbsp;Studio Express");
 
             correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
             correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
@@ -15585,6 +15601,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Community");
             correctionAdd("VS 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community");
 
+            // The "Community" for this last version of it.
             correctionAdd("VS 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
             correctionAdd("Visual Studio 2017 Community", "Visual&nbsp;Studio&nbsp;2017 Community"); // Sort of identity mapping
             correctionAdd("VS-2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
@@ -15592,6 +15609,35 @@ namespace OverflowHelper.core
             correctionAdd("Visual&nbsp;Studio&nbsp;2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
             correctionAdd("Visual&nbsp;Studio&nbsp;2017 Community Edition", "Visual&nbsp;Studio&nbsp;2017 Community");
             correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual&nbsp;Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
+
+            correctionAdd("pydev", "PyDev");
+            correctionAdd("Pydev", "PyDev");
+
+            correctionAdd("pycharm", "PyCharm");
+            correctionAdd("Pycharm", "PyCharm");
+            correctionAdd("pyCharm", "PyCharm");
+
+            correctionAdd("PyCharm CE", "PyCharm Community Edition");
+
+            correctionAdd("communite", "community");
+            correctionAdd("cummanty", "community");
+            correctionAdd("comunity", "community");
+
+            correctionAdd("Jakarta RESTful Web Services", "JAX-RS");
+
+            correctionAdd("Java Data Objects", "JDO");
+            correctionAdd("jdo", "JDO");
+
+            correctionAdd("jsr", "JSR");
+            correctionAdd("Java Community Process", "JSR");
+
+            correctionAdd("community driven", "community-driven");
+
+            correctionAdd("community wiki", "Community Wiki");
+
+            correctionAdd("communitys", "communities");
 
             correctionAdd("openGl", "OpenGL");
             correctionAdd("opengl", "OpenGL");
@@ -15782,6 +15828,7 @@ namespace OverflowHelper.core
             correctionAdd("People", "people");
             correctionAdd("peoples", "people");
             correctionAdd("peepl", "people");
+            correctionAdd("peeps", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -16837,6 +16884,7 @@ namespace OverflowHelper.core
             correctionAdd("obviouslt", "obviously");
             correctionAdd("obvioulsy", "obviously");
             correctionAdd("obivously", "obviously");
+            correctionAdd("abviously", "obviously");
 
             correctionAdd("VisualSvn", "VisualSVN");
 
@@ -17667,6 +17715,7 @@ namespace OverflowHelper.core
             correctionAdd("alweys", "always");
             correctionAdd("alwasys", "always");
             correctionAdd("alwayes", "always");
+            correctionAdd("alwaly", "always");
 
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -18117,15 +18166,6 @@ namespace OverflowHelper.core
             correctionAdd("What ever", "whatever");
             correctionAdd("whaterver", "whatever");
 
-            correctionAdd("pydev", "PyDev");
-            correctionAdd("Pydev", "PyDev");
-
-            correctionAdd("pycharm", "PyCharm");
-            correctionAdd("Pycharm", "PyCharm");
-            correctionAdd("pyCharm", "PyCharm");
-
-            correctionAdd("PyCharm CE", "PyCharm Community Edition");
-
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
 
@@ -18440,6 +18480,7 @@ namespace OverflowHelper.core
             correctionAdd("wana", "want to");
             correctionAdd("wnna", "want to");
             correctionAdd("wonna", "want to");
+            correctionAdd("wanto", "want to");
 
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
@@ -23046,10 +23087,6 @@ namespace OverflowHelper.core
             correctionAdd("artifact", "artefact");
             correctionAdd("artficates", "artefact");
             correctionAdd("articates", "artefact");
-
-            correctionAdd("communite", "community");
-            correctionAdd("cummanty", "community");
-            correctionAdd("comunity", "community");
 
             correctionAdd("easyest", "easiest");
             correctionAdd("easist", "easiest");
@@ -30895,6 +30932,7 @@ namespace OverflowHelper.core
             correctionAdd("syntax highlighter", "Highlight.js");
             correctionAdd("new syntax highlighter", "Highlight.js");
             correctionAdd("weird syntax", "Highlight.js");
+            correctionAdd("weird formatting", "Highlight.js");
 
             correctionAdd("nim", "Nim");
             correctionAdd("nim-lang", "Nim");
@@ -31575,6 +31613,8 @@ namespace OverflowHelper.core
 
             correctionAdd("jouce", "juice");
             correctionAdd("Juice", "juice");
+            correctionAdd("Jouice", "juice");
+            correctionAdd("jouice", "juice");
 
             correctionAdd("Kanban", "kanban");
             correctionAdd("Kannan", "kanban");
@@ -33950,6 +33990,8 @@ namespace OverflowHelper.core
             correctionAdd("disengenious", "disingenuous");
             correctionAdd("disingenous", "disingenuous");
             correctionAdd("disenginous", "disingenuous");
+            correctionAdd("uningenious", "disingenuous");
+            correctionAdd("uningenuous", "disingenuous");
 
             correctionAdd("Play list", "playlist");
             correctionAdd("Playlist", "playlist");
@@ -33988,9 +34030,6 @@ namespace OverflowHelper.core
 
             correctionAdd("seesion", "session");
             correctionAdd("sesion", "session");
-
-            correctionAdd("XKCD", "xkcd");
-            correctionAdd("Xkcd", "xkcd");
 
             correctionAdd("XTERM", "xterm");
 
@@ -36869,14 +36908,6 @@ namespace OverflowHelper.core
             correctionAdd("Photon", "Eclipse Photon");
 
             correctionAdd("Guice", "Google Guice");
-
-            correctionAdd("Jakarta RESTful Web Services", "JAX-RS");
-
-            correctionAdd("Java Data Objects", "JDO");
-            correctionAdd("jdo", "JDO");
-
-            correctionAdd("jsr", "JSR");
-            correctionAdd("Java Community Process", "JSR");
 
             correctionAdd("jahia", "Jahia");
 
@@ -40212,6 +40243,7 @@ namespace OverflowHelper.core
             correctionAdd("re-implementing", "reimplementing");
 
             correctionAdd("requried", "required");
+            correctionAdd("reqd", "required");
 
             correctionAdd("s/c", "spacecraft");
 
@@ -41397,8 +41429,6 @@ namespace OverflowHelper.core
 
             correctionAdd("adult baby", "adult child");
             correctionAdd("kids in adult bodies", "adult child");
-
-            correctionAdd("community driven", "community-driven");
 
             correctionAdd("deffective", "defective");
 
@@ -43431,6 +43461,10 @@ namespace OverflowHelper.core
             correctionAdd("triage", "Triage review queue");
             correctionAdd("Triage queue", "Triage review queue");
 
+            correctionAdd("Suggested Edits", "Suggested edits review queue");
+            correctionAdd("Suggested edits", "Suggested edits review queue");
+            correctionAdd("suggested edits", "Suggested edits review queue");
+
             correctionAdd("unity", "Unity");
 
             correctionAdd("aeolian", "Aeolian mode");
@@ -45313,8 +45347,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Open Services Gateway initiative", "OSGi");
 
-            correctionAdd("Purity", "Purity (xkcd 435)");
-
             correctionAdd("RotateRight/Zoom", "RotateRight Zoom");
 
             correctionAdd("Susan", "Susan Wojcicki");
@@ -45807,8 +45839,6 @@ namespace OverflowHelper.core
             correctionAdd("themeing", "theming");
 
             correctionAdd("assistent", "assistant");
-
-            correctionAdd("community wiki", "Community Wiki");
 
             correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
             correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
@@ -47213,6 +47243,8 @@ namespace OverflowHelper.core
             correctionAdd("chat gpt", "ChatGPT");
             correctionAdd("C-G", "ChatGPT");
             correctionAdd("ChatGBT", "ChatGPT");
+            correctionAdd("ChatGpt", "ChatGPT");
+            correctionAdd("chatGpt", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -47249,8 +47281,6 @@ namespace OverflowHelper.core
             correctionAdd("butlerian jihad", "Butlerian Jihad");
             correctionAdd("Butlarian Jihad", "Butlerian Jihad");
             correctionAdd("butlarian Jihad", "Butlerian Jihad");
-
-            correctionAdd("communitys", "communities");
 
             correctionAdd("disproportiate", "disproportionate");
             correctionAdd("dispropertiate", "disproportionate");
@@ -47998,10 +48028,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lubri date", "lubridate");
 
-            correctionAdd("Suggested Edits", "Suggested edits review queue");
-            correctionAdd("Suggested edits", "Suggested edits review queue");
-            correctionAdd("suggested edits", "Suggested edits review queue");
-
             correctionAdd("borkt", "borked");
 
             correctionAdd("compelete", "completed");
@@ -48009,6 +48035,14 @@ namespace OverflowHelper.core
             correctionAdd("moran", "moron");
 
             correctionAdd("i", "I");
+
+            correctionAdd("klicking", "clicking");
+
+            correctionAdd("copy right", "copyright");
+
+            correctionAdd("micronationalisim", "micronationalism");
+
+            correctionAdd("misnoner", "misnomer");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74996,8 +75030,6 @@ namespace OverflowHelper.core
 
             URL_Add("advisable", "https://en.wiktionary.org/wiki/advisable#Adjective");
 
-            URL_Add("```lang-json", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-wok/184109#184109");
-
             URL_Add("AVX2", "https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#Advanced_Vector_Extensions_2");
 
             URL_Add("Collins English Dictionary", "https://en.wikipedia.org/wiki/Collins_English_Dictionary");
@@ -75209,6 +75241,14 @@ namespace OverflowHelper.core
             URL_Add("I", "https://en.wiktionary.org/wiki/I#Pronoun");
 
             URL_Add("moron", "https://en.wiktionary.org/wiki/moron#Noun");
+
+            URL_Add("clicking", "https://en.wiktionary.org/wiki/click#Verb");
+
+            URL_Add("copyright", "https://en.wiktionary.org/wiki/copyright#Noun");
+
+            URL_Add("micronationalism", "https://en.wiktionary.org/wiki/micronationalism#Noun");
+
+            URL_Add("misnomer", "https://en.wiktionary.org/wiki/misnomer#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -77047,6 +77087,10 @@ namespace OverflowHelper.core
             correctionAdd("PoS_", "part of speech_");
             correctionAdd("pos_", "part of speech_");
 
+            correctionAdd("chameleon_", "chameleon question_");
+
+            correctionAdd("Xkcd_", "xkcd_");
+
             // URL mappings
             //
             //
@@ -78091,6 +78135,10 @@ namespace OverflowHelper.core
             URL_Add("Services_", "https://en.wikipedia.org/wiki/Windows_service#Services_snap-in");
 
             URL_Add("part of speech_", "https://en.wikipedia.org/wiki/Part_of_speech");
+
+            URL_Add("chameleon question_", "https://meta.stackexchange.com/questions/43478/exit-strategies-for-chameleon-questions");
+
+            URL_Add("xkcd_", "https://www.explainxkcd.com/wiki/index.php/Main_Page");
 
         } //addLookupData_alternativeWordSet()
 
