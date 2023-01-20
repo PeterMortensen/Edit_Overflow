@@ -13277,6 +13277,48 @@ namespace OverflowHelper.core
             correctionAdd("cliconce", "ClickOnce");
             correctionAdd("ClicOnse", "ClickOnce");
 
+            correctionAdd("clique", "click");
+            correctionAdd("clic", "click");
+            correctionAdd("lick", "click");
+            correctionAdd("clicl", "click");
+            correctionAdd("CLick", "click");
+            correctionAdd("Click", "click");
+
+            correctionAdd("klicking", "clicking");
+
+            correctionAdd("right click", "right-click");
+            correctionAdd("Right-Click", "right-click");
+            correctionAdd("Right Click", "right-click");
+            correctionAdd("Right-click", "right-click");
+            correctionAdd("rigth click", "right-click");
+            correctionAdd("Right click", "right-click");
+            correctionAdd("rt-click", "right-click");
+            correctionAdd("Rightclick", "right-click");
+            correctionAdd("right Click", "right-click");
+            correctionAdd("rightclick", "right-click");
+            correctionAdd("right lick", "right-click");
+
+            correctionAdd("right licking", "right-clicking");
+
+            correctionAdd("cliqued", "clicked");
+
+            correctionAdd("click-able", "clickable");
+            correctionAdd("Click-able", "clickable");
+
+            correctionAdd("double click", "double-click");
+            correctionAdd("dubble click", "double-click");
+            correctionAdd("doubble click", "double-click");
+
+            correctionAdd("double clicking", "double-clicking");
+            correctionAdd("doublicking", "double-clicking");
+            correctionAdd("doubclicking", "double-clicking");
+            correctionAdd("doubleclicking", "double-clicking");
+
+            correctionAdd("mis-clicking", "misclicking");
+
+            correctionAdd("click bait", "clickbait");
+            correctionAdd("Click bait", "clickbait");
+
             correctionAdd("Ccleaner", "CCleaner");
             correctionAdd("ccleaner", "CCleaner");
 
@@ -24741,13 +24783,6 @@ namespace OverflowHelper.core
             correctionAdd("Marketing", "marketing");
             correctionAdd("marketting", "marketing");
 
-            correctionAdd("clique", "click");
-            correctionAdd("clic", "click");
-            correctionAdd("lick", "click");
-            correctionAdd("clicl", "click");
-            correctionAdd("CLick", "click");
-            correctionAdd("Click", "click");
-
             correctionAdd("extremelly", "extremely");
             correctionAdd("extrimely", "extremely");
             correctionAdd("extremly", "extremely");
@@ -26998,6 +27033,9 @@ namespace OverflowHelper.core
             correctionAdd("timewaster", "time-waster");
 
             correctionAdd("useragent", "user agent");
+            correctionAdd("UA", "user agent");
+            correctionAdd("User agent", "user agent");
+            correctionAdd("User-Agent", "user agent");
 
             correctionAdd("codemirror", "CodeMirror");
             correctionAdd("Code Mirror", "CodeMirror");
@@ -29643,20 +29681,6 @@ namespace OverflowHelper.core
             correctionAdd("RHS", "right-hand side");
             correctionAdd("right hand side", "right-hand side");
 
-            correctionAdd("right click", "right-click");
-            correctionAdd("Right-Click", "right-click");
-            correctionAdd("Right Click", "right-click");
-            correctionAdd("Right-click", "right-click");
-            correctionAdd("rigth click", "right-click");
-            correctionAdd("Right click", "right-click");
-            correctionAdd("rt-click", "right-click");
-            correctionAdd("Rightclick", "right-click");
-            correctionAdd("right Click", "right-click");
-            correctionAdd("rightclick", "right-click");
-            correctionAdd("right lick", "right-click");
-
-            correctionAdd("right licking", "right-clicking");
-
             correctionAdd("right most", "right-most");
 
             correctionAdd("Osmand", "OsmAnd");
@@ -30659,6 +30683,7 @@ namespace OverflowHelper.core
             correctionAdd("aditional", "additional");
             correctionAdd("additonal", "additional");
             correctionAdd("Aditional", "additional");
+            correctionAdd("addional", "additional");
 
             correctionAdd("bloc", "block");
 
@@ -33369,8 +33394,6 @@ namespace OverflowHelper.core
             correctionAdd("Branch Prediction", "branch prediction");
 
             correctionAdd("errorred", "errored");
-
-            correctionAdd("mis-clicking", "misclicking");
 
             correctionAdd("vulnerablities", "vulnerabilities");
 
@@ -37531,10 +37554,6 @@ namespace OverflowHelper.core
 
             correctionAdd("constanst", "constants");
 
-            correctionAdd("double click", "double-click");
-            correctionAdd("dubble click", "double-click");
-            correctionAdd("doubble click", "double-click");
-
             correctionAdd("Echoes", "echoes");
             correctionAdd("Echos", "echoes");
             correctionAdd("echos", "echoes");
@@ -40368,11 +40387,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Barbarossa", "Operation Barbarossa");
 
-            correctionAdd("double clicking", "double-clicking");
-            correctionAdd("doublicking", "double-clicking");
-            correctionAdd("doubclicking", "double-clicking");
-            correctionAdd("doubleclicking", "double-clicking");
-
             correctionAdd("extra-ordinary", "extraordinary");
             correctionAdd("extra ordinary", "extraordinary");
 
@@ -40651,8 +40665,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mpir", "MPIR");
             correctionAdd("Multiple Precision Integers and Rationals", "MPIR");
-
-            correctionAdd("cliqued", "clicked");
 
             correctionAdd("cut-throat", "cutthroat");
             correctionAdd("cuthroat", "cutthroat");
@@ -42172,9 +42184,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ucraine", "Ukraine");
             correctionAdd("Ukrain", "Ukraine");
-
-            correctionAdd("click bait", "clickbait");
-            correctionAdd("Click bait", "clickbait");
 
             correctionAdd("flatter", "flatten");
 
@@ -44494,9 +44503,6 @@ namespace OverflowHelper.core
             correctionAdd("SONY", "Sony");
 
             correctionAdd("tiger lake", "Tiger Lake");
-
-            correctionAdd("click-able", "clickable");
-            correctionAdd("Click-able", "clickable");
 
             correctionAdd("FMA", "fused multiply–add");
 
@@ -48036,13 +48042,21 @@ namespace OverflowHelper.core
 
             correctionAdd("i", "I");
 
-            correctionAdd("klicking", "clicking");
-
             correctionAdd("copy right", "copyright");
 
             correctionAdd("micronationalisim", "micronationalism");
 
             correctionAdd("misnoner", "misnomer");
+
+            correctionAdd("leading theory", "a leading theory");
+
+            correctionAdd("dk keyboard", "Danish keyboard layout");
+
+            correctionAdd("deleted answers", "see deleted answers");
+
+            correctionAdd("deleted questions", "see deleted questions");
+
+            correctionAdd("User Story", "user story");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75250,6 +75264,16 @@ namespace OverflowHelper.core
 
             URL_Add("misnomer", "https://en.wiktionary.org/wiki/misnomer#Noun");
 
+            URL_Add("a leading theory", "https://www.youtube.com/watch?v=UuCqeg4zV_o&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&t=51s");
+
+            URL_Add("Danish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Danish");
+
+            URL_Add("see deleted answers", "https://meta.stackexchange.com/users/deleted-answers/current");
+
+            URL_Add("see deleted questions", "https://meta.stackexchange.com/users/deleted-questions/current");
+
+            URL_Add("user story", "https://en.wikipedia.org/wiki/User_story");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -77091,6 +77115,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Xkcd_", "xkcd_");
 
+            correctionAdd("UA_", "user account_");
+
             // URL mappings
             //
             //
@@ -78139,6 +78165,8 @@ namespace OverflowHelper.core
             URL_Add("chameleon question_", "https://meta.stackexchange.com/questions/43478/exit-strategies-for-chameleon-questions");
 
             URL_Add("xkcd_", "https://www.explainxkcd.com/wiki/index.php/Main_Page");
+
+            URL_Add("user account_", "https://en.wikipedia.org/wiki/User_(computing)");
 
         } //addLookupData_alternativeWordSet()
 
